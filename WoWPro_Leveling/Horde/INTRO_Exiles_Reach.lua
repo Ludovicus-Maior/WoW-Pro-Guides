@@ -123,12 +123,12 @@ T The Harpy Problem|QID|59943|M|56.94,46.24|N|To Bo.|
 A Harpy Culling|QID|59945|M|56.94,46.24|N|From Bo.|
 A Purge the Totems|QID|59946|M|56.94,46.24|N|From Bo.|
 A The Rescue of Herbert Gloomburst|QID|59944|M|56.83,46.16|N|From Shuja Grimaxe.|
-C Harpy Culling|QID|59945|M|54.28,41.60|QO|1|N|Kill Harpies and Worgs.|S|
+C Harpy Culling|QID|59945|M|54.28,41.60|QO|1|N|Kill Harpies and Worgs. Don't focus on them as you will finish it in the main quest.|S|
 C Purge the Totems|QID|59946|M|61.23,41.33|QO|1|NC|N|Burn the Harpy Totems.|S|
 K Ogre Taskmaster|QID|59611|M|58.74,40.87|RARE|N|Silver Elite to kill and loot.|T|Ogre Taskmaster|
 $ Stolen Supplies|QID|56581|M|59.30,37.61|N|Loot the treasure chest.|
-C The Rescue of Herbert Gloomburst|QID|59944|M|54.28,41.60|QO|1|N|Chat with Herbert Gloomburst to start the 4 or 5 waves of attack. The final wave is Bloodbeak. Kill him to finish the quest.|
-C Purge the Totems|QID|59946|M|61.23,41.33|NC|N|Finish burning the Harpy Totems.|US|
+C The Rescue of Herbert Gloomburst|QID|59944|M|54.28,41.60|QO|1|N|Chat with Herbert Gloomburst to start the 5 waves of attack. The first 4 waves are a mix of 2-3 Harpy Ambushers and Hunting Worgs. The 5th and final wave is Bloodbeak. Kill him to finish the quest.|
+C Purge the Totems|QID|59946|M|61.23,41.33|NC|QO|1|N|Finish burning the Harpy Totems.|US|
 C Harpy Culling|QID|59945|M|54.28,41.60|N|Finish killing Harpies and Worgs.|US|
 T Harpy Culling|QID|59945|M|56.94,46.24|N|To Bo.|
 T Purge the Totems|QID|59946|M|56.94,46.24|N|To Bo.|
@@ -156,10 +156,10 @@ C The Best Way to Use Sheep|QID|59955|M|52.16,55.48|CHAT|QO|1|N|Speak with Herbe
 C The Best Way to Use Sheep|QID|59955|M|53.46,55.09|QO|2|N|Follow Herbert and Throg and then cast Polymorph on them.|C|Mage|
 T The Best Way to Use Sheep|QID|59955|M|52.16,55.48|N|To Herbert Gloomburst.|C|Mage|
 A A Monk's Focus|QID|59956|M|52.03,55.21|N|From Bo.|PRE|59947|C|Monk|
-C A Monk's Focus|QID|59956|M|52.62,49.47|CHAT|N|Meditate with Bo.|C|Monk|
+C A Monk's Focus|QID|59956|M|52.62,49.47|CHAT|QO|1|N|Meditate with Bo.|C|Monk|
 T A Monk's Focus|QID|59956|M|52.62,49.47|N|To Bo.|C|Monk|
 A One Last Spar|QID|59957|M|52.62,49.47|N|From Bo.|PRE|59956|C|Monk|
-C One Last Spar|QID|59957|M|53.48,49.92|N|Spar with Bo and use Touch of Death on him.|C|Monk|
+C One Last Spar|QID|59957|M|53.48,49.92|QO|1|N|Spar with Bo and use Touch of Death on him.|C|Monk|
 T One Last Spar|QID|59957|M|52.17,55.33|N|To Warlord Breka Grimaxe.|C|Monk|
 T Hjalmar's Final Execution|QID|59972|M|52.03,55.45|N|To Grunt Throg.|C|Warrior|
 A To Darkmaul Citadel|QID|59975|M|52.18,55.35|N|From Warlord Breka Grimaxe.|PRE|59947|
@@ -207,6 +207,7 @@ T Finding Your Way|QID|60344|M|61.43,32.76|Z|Orgrimmar|N|To Rohaka Tuskmaul.|
 A License to Ride|QID|60345|M|61.43,32.76|Z|Orgrimmar|N|From Rohaka Tuskmaul.|PRE|60344|
 C License to Ride|QID|60345|M|61.32,34.59|Z|Orgrimmar|N|Learn the Apprentice Riding skill from Kildor.|
 T License to Ride|QID|60345|M|61.43,32.76|Z|Orgrimmar|N|To Rohaka Tuskmaul.|
+; Choose your class sp
 A What's Your Specialty?|QID|60346|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Druid|
 C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|QO|1|CHAT|N|Speak with Telotha Pinegrove to learn about specializations.|C|Druid|
 C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Druid|

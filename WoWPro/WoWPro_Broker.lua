@@ -647,12 +647,12 @@ function WoWPro.UpdateQuestTrackerRow(row)
                 WoWPro:dbp("UQT: QID %d active, but no QO tag, just check for generic completion.", qid)
                 for l=1,#WoWPro.QuestLog[qid].leaderBoard do
                     if WoWPro.QuestLog[qid].leaderBoard[l] then
-                        track = track.."\n- "..WoWPro.QuestLog[qid].leaderBoard[l]
+                        track = track.."- "..WoWPro.QuestLog[qid].leaderBoard[l].."\n"
 						if select(2, _G.GetQuestLogLeaderBoard(l, j)) == "progressbar" then
-							track = "\n- ".._G.GetQuestProgressBarPercent(qid).."% out of 100% Complete. "
+							track = "- ".._G.GetQuestProgressBarPercent(qid).."% out of 100% Complete.\n"
 						end
 						if select(3, _G.GetQuestLogLeaderBoard(l, j)) then
-                            track =  track.." (C)"
+                            track =  track.." (C)\n"
                         end
                     end
                 end
@@ -666,18 +666,18 @@ function WoWPro.UpdateQuestTrackerRow(row)
                     local lquesttext = select(numquesttext-l+1, (";"):split(questtext))
                     if WoWPro.ValidObjective(lquesttext) then
 						if select(2, _G.GetQuestLogLeaderBoard(lquesttext:sub(1, 1) , j)) == "progressbar" then
-							track = "\n- ".._G.GetQuestProgressBarPercent(qid).."% out of 100% Complete. "
+							track = "- ".._G.GetQuestProgressBarPercent(qid).."% out of 100% Complete.\n"
 						else
 							local _, status = WoWPro.QuestObjectiveStatus(qid, lquesttext)
 							if l > 1 then
 								track = track.."\n"
 							end
-							track = track.."- " .. status
+							track = track.."- " .. status.."\n"
 
 						end
                     else
                         WoWPro:dbp("UQT: Not a valid quest objective %q [%s]", QID, questtext)
-                        track =  track.." ???"
+                        track =  track.." ???\n"
                     end
                 end
             elseif  WoWPro.sobjective[index] then
@@ -686,28 +686,28 @@ function WoWPro.UpdateQuestTrackerRow(row)
                 stage = tonumber(stage)
                 if objective and WoWPro.ValidObjective(objective) then
                     local _, status = WoWPro.ScenarioObjectiveStatus(stage, objective)
-                    track = track.."\n- " .. status
+                    track = track.."- " .. status.."\n"
                 elseif stage then
                     --- Naked stage
                     if WoWPro.Scenario and WoWPro.Scenario.currentStage == stage then
-                        track = track.."\n- "..WoWPro.Scenario.stageDescription
+                        track = track.."- "..WoWPro.Scenario.stageDescription.."\n"
                     else
                         WoWPro:dbp("UQT: Scenario not active yet %q [%s]", QID, WoWPro.sobjective[index])
-                        track =  track.." ?: Scenario not active yet."
+                        track =  track.." ?: Scenario not active yet.\n"
                     end
                 else
                     WoWPro:dbp("UQT: Not a valid scenario objective %q [%s]", QID, WoWPro.sobjective[index])
-                    track =  track.." ?: Invalid scenario objective"
+                    track =  track.." ?: Invalid scenario objective\n"
                 end
             else
                 --No questtext or leaderboard
                 WoWPro:dbp("UQT: QID %d active, but no QO or leaderBoard!", qid)
                 if WoWPro.QuestLog[qid].complete == 1 then
-                    track =  track.."\n- Complete"
+                    track =  track.."- Complete\n"
                 elseif WoWPro.QuestLog[qid].complete == -1 then
-                    track =  track.."\n- Failed"
+                    track =  track.."- Failed\n"
                 elseif not WoWPro.QuestLog[qid].complete then
-                    track =  track.."\n- Active"
+                    track =  track.."- Active\n"
                 end
             end
         end

@@ -4,7 +4,7 @@ WoWPro:GuideSort(guide, 1)
 WoWPro:GuideContent(guide, "Battle for Azeroth")
 WoWPro:GuideName(guide,'Battle for Azeroth: Intro')
 WoWPro:GuideNickname(guide, "Battle for Azeroth: Intro")
-WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
+WoWPro:GuideNextGuide(guide, 'Tiragarde Sound')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Tides of War|QID|46727|M|62.82,71.75|Z|Stormwind City|N|From Hero's Herald standing near Hero's Call Boards.|ACH|14222;;false|
