@@ -29,10 +29,10 @@ C Cooking Meat|QID|59932|M|58.33,74.59|NC|QO|2|N|Click on the campfire to cook t
 T Cooking Meat|QID|59932|M|58.36,74.48|N|To Won'sa.|
 A Enhanced Combat Tactics|QID|59933|M|58.38,74.64|N|From Warlord Breka Grimaxe.|PRE|59932|C|-Monk,-Hunter|
 A Enhanced Combat Tactics|QID|59934|M|58.38,74.64|N|From Warlord Breka Grimaxe.|PRE|59932|C|Monk|
-C Enhanced Combat Tactics|QID|59933|N|Follow Warlord Breka Grimaxe and spar with her. Breka will tell you which ability to use.\n[color=FF0000]NOTE: [/color]The requirements will vary depending upon your class.|
-C Enhanced Combat Tactics|QID|59934|M|57.96,72.64|QO|1;2|N|Follow Warlord Breka Grimaxe and spar with her. Use Tiger Palm 6 times and Blackout Kick 3 times to complete the quest.|
-T Enhanced Combat Tactics|QID|59933|M|58.38,74.64|N|To Warlord Breka Grimaxe.|
-T Enhanced Combat Tactics|QID|59934|M|58.38,74.64|N|To Warlord Breka Grimaxe.|
+C Enhanced Combat Tactics|QID|59933|N|Follow Warlord Breka Grimaxe and spar with her. Breka will tell you which ability to use.\n[color=FF0000]NOTE: [/color]The requirements will vary depending upon your class.|C|-Monk,-Hunter|
+C Enhanced Combat Tactics|QID|59934|M|57.96,72.64|QO|1;2|N|Follow Warlord Breka Grimaxe and spar with her. Use Tiger Palm 6 times and Blackout Kick 3 times to complete the quest.|C|Monk|
+T Enhanced Combat Tactics|QID|59933|M|58.38,74.64|N|To Warlord Breka Grimaxe.|C|-Monk,-Hunter|
+T Enhanced Combat Tactics|QID|59934|M|58.38,74.64|N|To Warlord Breka Grimaxe.|C|Monk|
 A Northbound|QID|59935|M|58.36,74.48|N|From Won'sa.|PRE|59933^59934|
 A Northbound|QID|59935|M|58.36,74.48|N|From Won'sa.|PRE|59932|C|Hunter|
 $ Abandoned Treasure Chest|QID|58882|M|57.05,68.40|N|Loot the treasure chest.|
