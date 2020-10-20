@@ -2,75 +2,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/order_cloud_serpent_reputation
--- Date: 2018-10-23 21:57
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3505/revisions/28988/view
--- Date: 2018-02-19 22:50
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3505/revisions/26852/view
--- Date: 2014-11-07 20:39
--- Who: Fluclo
--- Log: Fixed duplicate N tag, and missing N and M tags
-
--- URL: http://wow-pro.com/node/3505/revisions/26570/view
--- Date: 2014-07-06 15:55
--- Who: Ludovicus_Maior
--- Log: Added levels
-
--- URL: http://wow-pro.com/node/3505/revisions/26537/view
--- Date: 2014-06-11 19:26
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3505/revisions/25618/view
--- Date: 2013-05-09 22:31
--- Who: Ludovicus_Maior
--- Log: Added [Riding the Skies].
-
--- URL: http://wow-pro.com/node/3505/revisions/25604/view
--- Date: 2013-03-25 23:00
--- Who: Ludovicus_Maior
--- Log: Removed the now gone leadin quests, fixed some names, and a few other tweaks.
-
--- URL: http://wow-pro.com/node/3505/revisions/25533/view
--- Date: 2013-02-18 06:20
--- Who: Emmaleah
--- Log: correct misspelled "serpent" x2.
-
--- URL: http://wow-pro.com/node/3505/revisions/25398/view
--- Date: 2013-01-12 22:51
--- Who: Ludovicus_Maior
--- Log: Added 2 CN tags
-
--- URL: http://wow-pro.com/node/3505/revisions/25257/view
--- Date: 2012-12-19 21:58
--- Who: Emmaleah
--- Log: changed * to all QID #'s for Elder Anli's quests
-
--- URL: http://wow-pro.com/node/3505/revisions/25256/view
--- Date: 2012-12-19 21:55
--- Who: Emmaleah
--- Log: Added N Step about Grand Commendation and changed comment for The Tangled Web
-
--- URL: http://wow-pro.com/node/3505/revisions/25255/view
--- Date: 2012-12-19 03:09
--- Who: Emmaleah
--- Log: RC1 - Cloud Serpant Faction Dailies
-
--- URL: http://wow-pro.com/node/3505/revisions/25160/view
--- Date: 2012-10-24 11:29
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3505/revisions/25116/view
--- Date: 2012-10-07 22:34
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide("EmmCloud",'Dailies', "The Jade Forest", "Emmaleah", "Neutral")
 WoWPro:GuideLevels(guide,90,90,90)
 WoWPro.Dailies:GuideFaction(guide,1271) --  "Order of the Cloud Serpent Dailies"
@@ -108,7 +39,7 @@ C It's A...|QID|30142|M|57.56,45.07|N|To Instructor Skythorn.|
 ;one time chain at revered
 B Grand Commendation|M|56.6,44.4|REP|Order of the Cloud Serpent;1271;revered|L|93229|N|If this is your first character to revered, dont forget to buy the Grand Commendation so that the rest of the rep grind will go faster. It is sold by San Redscale.|
 A They Grow Like Weeds|QID|30143|M|57.60,44.94|REP|Order of the Cloud Serpent;1271;revered|N|From Elder Anli.|
-C They Grow Like Weeds|QID|30143|M|58.6,43.6|N|Talk to Instructor Windblade and watch the cinematic.|QO|Speak to Instructor Windblade: 1/1|
+C They Grow Like Weeds|QID|30143|M|58.6,43.6|CHAT|N|Talk to Instructor Windblade and watch the cinematic.|
 T They Grow Like Weeds|QID|30143|M|58.6,43.6|N|To Instructor Windblade.|
 A Flight Training: Ring Round-Up|QID|30144|PRE|30143|M|58.6,43.6|N|From Instructor Windblade.|
 C Flight Training: Ring Round-Up|QID|30144|NC|M|58.6,43.6|N|Hop on your hatchling and fly thru six cloud rings.|
@@ -117,16 +48,16 @@ A Flight Training: Full Speed Ahead|QID|30145|PRE|30144|M|58.6,43.6|N|From Instr
 C Flight Training: Full Speed Ahead|QID|30145|NC|M|58.6,43.6|N|Mount up (vehicle green arrow). You are leashed to Instructor Windblade, follow him to learn the course.|
 T Flight Training: Full Speed Ahead|QID|30145|M|58.6,43.6|N|You have to dismount (default NumPad5) before you can turn in the quest to Instructor Windblade.|
 A Flight Training: In Due Course|QID|30187|PRE|30145|M|58.6,43.6|N|From Instructor Windblade.|
-C Flight Training: In Due Course|QID|30187|NC|M|60.56,39|QO|Checkpoints passed: 1/10|N|Mount up (vehicle green arrow).|
-C Flight Training: In Due Course|QID|30187|NC|M|59.69,31.43|QO|Checkpoints passed: 2/10|
-C Flight Training: In Due Course|QID|30187|NC|M|61.32,25.10|QO|Checkpoints passed: 3/10|
-C Flight Training: In Due Course|QID|30187|NC|M|66.31,35.99|QO|Checkpoints passed: 4/10|
-C Flight Training: In Due Course|QID|30187|NC|M|66.09,42.55|QO|Checkpoints passed: 5/10|
-C Flight Training: In Due Course|QID|30187|NC|M|66.75,51.57|QO|Checkpoints passed: 6/10|
-C Flight Training: In Due Course|QID|30187|NC|M|64.00,51.92|QO|Checkpoints passed: 7/10|
-C Flight Training: In Due Course|QID|30187|NC|M|61.75,54.62|QO|Checkpoints passed: 8/10|
-C Flight Training: In Due Course|QID|30187|NC|M|60.42,52.85|QO|Checkpoints passed: 9/10|
-C Flight Training: In Due Course|QID|30187|NC|M|58.69,46.66|QO|Checkpoints passed: 10/10|
+C Flight Training: In Due Course|QID|30187|NC|M|60.56,39|QO|1<1|N|Mount up (vehicle green arrow).|
+C Flight Training: In Due Course|QID|30187|NC|M|59.69,31.43|QO|1<2|
+C Flight Training: In Due Course|QID|30187|NC|M|61.32,25.10|QO|1<3|
+C Flight Training: In Due Course|QID|30187|NC|M|66.31,35.99|QO|1<4|
+C Flight Training: In Due Course|QID|30187|NC|M|66.09,42.55|QO|1<5|
+C Flight Training: In Due Course|QID|30187|NC|M|66.75,51.57|QO|1<6|
+C Flight Training: In Due Course|QID|30187|NC|M|64.00,51.92|QO|1<7|
+C Flight Training: In Due Course|QID|30187|NC|M|61.75,54.62|QO|1<8|
+C Flight Training: In Due Course|QID|30187|NC|M|60.42,52.85|QO|1<9|
+C Flight Training: In Due Course|QID|30187|NC|M|58.69,46.66|QO|1<10|
 C Flight Training: In Due Course|QID|30187|NC|M|58.33,46.29|
 T Flight Training: In Due Course|QID|30187|M|58.6,43.6|N|To Instructor Windblade.|
 
@@ -143,8 +74,7 @@ A Two other quests somewhere|QID|30157^30152^30159^31709^31714^31055^30158^31698
 C Dig - Fragments of the Past|QID|30147|P|Archaeology;794;525|M|44.93,73.36|NC|N|Find a digsite, dig. If you have a patient archeologist friend, you can do this even if your acheology isn't high enough, friend digs, and you kill the mobs in the imediate area can drop these too(particularly those that spawn upon picking up an artifact), you can abandon the quest or manually check this step off if you aren't going to do it.|
 C Fish - Snack Time|QID|30146|NC|N|Any fish caught may catch a sugar minnow while on this quest.|
 C Cook - A feast for the Senses|NC|QID|30149|N|Cook 5 fish cakes - requires 10 golden carp (or get them from someone else).|
-C First Aid - Just a Flesh Wound|NC|QID|30148|L|72985 8|N|Make 8 windwool bandages, if you prefer to use heavy windwool check this step off manually.|
-C First Aid - Just a Flesh Wound|NC|QID|30148|L|72986 8|N|Make 8 heavy windwool bandages, if you prefer to use regular windwool check this step off manually.|;autocomplete is based on you having the bandages in your inventory.
+C First Aid - Just a Flesh Wound|NC|QID|30148|L|72985 8|N|Find a tailor to make you 8 windwool bandages (heavy windwool works too, but you will need to close the step manually).|;autocomplete is based on you having the bandages in your inventory.
 
 ;do in arboretum
 C Catch!|QID|30151|M|57.4,45.2|U|79403|N|If you are going for the achievement you probably want to be in an area away from other players doing this also, as it seems your hatchling doesnt care which ball he chases. Stand under the shadow of the ball coming down to catch it.|
@@ -162,17 +92,17 @@ C The Trainer's Challenge: Ningna Darkwheel|QID|31719|M|58.2,45|N|Talk to her to
 C The Trainer's Challenge: Qua-Ro Whitebrow|QID|31721|M|57.2,43.4|N|Talk to him to start the fight. Kill his images first, inturupt his Char Burst if possible.|
 C The Trainer's Challenge: Suchi the Sweet|QID|31720|M|58.4,44.6|N|Talk to her to start the fight. She does lots of AE, easiest way is to keep running in and out of range and do dmg as you go past.|
 
-;aky race compliments of Twists
-C The Sky Race|QID|30152|NC|M|60.56,39|QO|Checkpoints passed: 1/10|N|Talk to her again to start the race.|
-C The Sky Race|QID|30152|NC|M|59.69,31.43|QO|Checkpoints passed: 2/10|
-C The Sky Race|QID|30152|NC|M|61.32,25.10|QO|Checkpoints passed: 3/10|
-C The Sky Race|QID|30152|NC|M|66.31,35.99|QO|Checkpoints passed: 4/10|
-C The Sky Race|QID|30152|NC|M|66.09,42.55|QO|Checkpoints passed: 5/10|
-C The Sky Race|QID|30152|NC|M|66.75,51.57|QO|Checkpoints passed: 6/10|
-C The Sky Race|QID|30152|NC|M|64.00,50.92|QO|Checkpoints passed: 7/10|
-C The Sky Race|QID|30152|NC|M|61.75,54.62|QO|Checkpoints passed: 8/10|
-C The Sky Race|QID|30152|NC|M|60.42,52.85|QO|Checkpoints passed: 9/10|
-C The Sky Race|QID|30152|NC|M|58.69,46.66|QO|Checkpoints passed: 10/10|
+;sky race compliments of Twists
+C The Sky Race|QID|30152|CHAT|M|60.56,39|QO|1<1|N|Talk to her again to start the race.|
+C The Sky Race|QID|30152|NC|M|59.69,31.43|QO|1<2|
+C The Sky Race|QID|30152|NC|M|61.32,25.10|QO|1<3|
+C The Sky Race|QID|30152|NC|M|66.31,35.99|QO|1<4|
+C The Sky Race|QID|30152|NC|M|66.09,42.55|QO|1<5|
+C The Sky Race|QID|30152|NC|M|66.75,51.57|QO|1<6|
+C The Sky Race|QID|30152|NC|M|64.00,50.92|QO|1<7|
+C The Sky Race|QID|30152|NC|M|61.75,54.62|QO|1<8|
+C The Sky Race|QID|30152|NC|M|60.42,52.85|QO|1<9|
+C The Sky Race|QID|30152|NC|M|58.69,46.66|QO|1<10|
 C The Sky Race|QID|30152|NC|M|58.33,46.29|
 
 ;sri-la village
@@ -197,7 +127,7 @@ C Monkey Mischief|QID|31712|M|57,27|US|
 C Saving the Serpents|QID|31714|M|57,27|US|
 
 ;on windward isle
-C Onyx To Goodness|S|M|64.18, 23.92;63.39, 21.62;62.98, 21.95;62.37, 32.84;62.17, 31.75;62.19, 31.21;67.02, 32.68;62.46, 28.77;62.21, 29.29;62.00, 29.54;63.73, 21.90;62.30, 28.12;62.71, 29.78;66.43, 29.55;65.08, 26.20;66.64, 28.69;67.12, 24.94;65.18, 24.77;67.05, 33.81;66.61, 31.58;66.54, 32.20;63.09, 29.31;69.65, 31.64;70.53, 28.99;61.89, 30.20;66.18, 33.43;62.40, 32.36;65.63, 25.07;65.18, 24.77;65.24, 23.91;70.33, 28.63;67.06, 30.25|CN|N|You can click on this and choose map coordinates when ever you want to see the dots.  Close this step manually when you are done searching.|
+C Onyx To Goodness|S|M|64.18,23.92;63.39,21.62;62.98,21.95;62.37,32.84;62.17,31.75;62.19,31.21;67.02,32.68;62.46,28.77;62.21,29.29;62.00,29.54;63.73,21.90;62.30,28.12;62.71,29.78;66.43,29.55;65.08,26.20;66.64,28.69;67.12,24.94;65.18,24.77;67.05,33.81;66.61,31.58;66.54,32.20;63.09,29.31;69.65,31.64;70.53,28.99;61.89,30.20;66.18,33.43;62.40,32.36;65.63,25.07;65.18,24.77;65.24,23.91;70.33,28.63;67.06,30.25|CN|N|You can click on this and choose map coordinates when ever you want to see the dots. Close this step manually when you are done searching.|
 ;tigers
 C The Easiest Way To A Serpent's Heart|QID|30154|M|61,44|S|N|The boss type tigers have a 100%drop if you are having a challenge getting enough meat.|
 C Thinning The Pack|QID|31698|M|61.44,22.30|S|
@@ -226,7 +156,7 @@ C Restoring the Balance|QID|30155|US|M|69,29|
 C Disarming the Enemy|QID|30158|M|69,29|NC|US|N|On weapon racks around where the slitherscales are.|
 C Preservation|QID|30159|M|67,29|NC|US|N|Pick up the eggs from the ground. They can also drop from the slitherscale mobs you run into.|
 
-C Onyx To Goodness|US|M|64.18, 23.92;63.39, 21.62;62.98, 21.95;62.37, 32.84;62.17, 31.75;62.19, 31.21;67.02, 32.68;62.46, 28.77;62.21, 29.29;62.00, 29.54;63.73, 21.90;62.30, 28.12;62.71, 29.78;66.43, 29.55;65.08, 26.20;66.64, 28.69;67.12, 24.94;65.18, 24.77;67.05, 33.81;66.61, 31.58;66.54, 32.20;63.09, 29.31;69.65, 31.64;70.53, 28.99;61.89, 30.20;66.18, 33.43;62.40, 32.36;65.63, 25.07;65.18, 24.77;65.24, 23.91;70.33, 28.63;67.06, 30.25|CN|N|Close this step manually when you are done searching.|
+C Onyx To Goodness|US|M|64.18,23.92;63.39,21.62;62.98,21.95;62.37,32.84;62.17,31.75;62.19,31.21;67.02,32.68;62.46,28.77;62.21,29.29;62.00,29.54;63.73,21.90;62.30,28.12;62.71,29.78;66.43,29.55;65.08,26.20;66.64,28.69;67.12,24.94;65.18,24.77;67.05,33.81;66.61,31.58;66.54,32.20;63.09,29.31;69.65,31.64;70.53,28.99;61.89,30.20;66.18,33.43;62.40,32.36;65.63,25.07;65.18,24.77;65.24,23.91;70.33,28.63;67.06,30.25|CN|N|Close this step manually when you are done searching.|
 
 ;turn ins
 T A Tangled Web|QID|31707|M|57.73,44.74|N|To Elder Anli.|
@@ -277,5 +207,3 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
-
-
