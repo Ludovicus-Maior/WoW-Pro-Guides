@@ -509,7 +509,7 @@ A Express Delivery|QID|54703|M|36.26,29.81|Z|Tiragarde Sound|N|From Lady Jaina P
 C Express Delivery|QID|54703|M|36.31,29.78|Z|Tiragarde Sound|NC|QO|1|V|N|Click the harpoon gun and fire at the 3 Ships to mark them.|
 T Express Delivery|QID|54703|M|36.42,30.78|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
 A War Marches On|QID|53887|M|36.42,30.78|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|54703|
-H Snug Harbor Inn|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|N|Hearth or otherwise return to Boralus and Halford Wyrmband.|C|-Mage|
+H Snug Harbor Inn|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|TZ|Wind's Redemption|N|Hearth or otherwise return to Boralus and Halford Wyrmband.|
 T War Marches On|QID|53887|M|69.29,26.97|Z|Boralus|N|To Halford Wyrmbane.|
 
 ; The Sleeper Agent
@@ -639,7 +639,7 @@ P Sanctum of the Sages|ACTIVE|54459|M|50.37,84.08|Z|Nazmir|N|Use the portal that
 T He Who Walks in the Light|QID|54459|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
 
 A Loose Ends|QID|55118|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane. The other 2 are raid quests you can grab later.|PRE|54459|
-F Kennings Lodge|ACTIVE|55118|M|80.0,75.0|N|Fly or run over to Kennings Lodge.|FLY|BFA|
+F Kennings Lodge|ACTIVE|55118|M|67.02,15.00|N|Fly or run over to Kennings Lodge.|
 T Loose Ends|QID|55118|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark.|
 A Ashes to Ashvane|QID|55033|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark.|PRE|55118|
 A Correspondence Conundrum|QID|55117|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark.|PRE|55118|
@@ -680,20 +680,20 @@ T Reassembly Required|QID|55182|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steel
 A Seeking Higher Ground|QID|55183|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55182&55088|
 T Seeking Higher Ground|QID|55183|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark|
 A Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55183|
-C Goblin Shredder|QID|55185|M|52.2,39.2|Z|Stormsong Valley|
+C Goblin Shredder|QID|55185|M|52.2,39.2|Z|Stormsong Valley|N|3 Waves, Peons, Lumberjacks, then a Shredder|
 T Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark|
 A Shaw's Shank Redemption|QID|55089|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55185|
-R Screaming Pit|ACTIVE|55089|M|44.60,38.20;46.58,35.40;48.48,33.17|CS|Z|Stormsong Valley|N|Run along the ridge to get to the pit ABOVE Warsong Hold.|FLY|BFA|
+R Screaming Pit|ACTIVE|55089|M|44.60,38.20;46.58,35.40;48.48,33.17|CS|Z|Stormsong Valley|N|Run along the ridge to get to the pit ABOVE Warsong Hold.|  ; Would still be nice to have an area to go even if you can fly.
 K Giles Deathstrike|ACTIVE|55089|QO|2|M|47.66,33.82|Z|Stormsong Valley|NC|N|Kill Giles|
 T Shaw's Shank Redemption|QID|55089|M|48.84,32.75|Z|Stormsong Valley|N|To Master Mathias Shaw|
 A A Gathering of Foes|QID|55090|M|48.84,32.75|Z|Stormsong Valley|N|From Master Mathias Shaw|PRE|55089|
-C Horde gathering witnessed|QID|55090|M|48.85,32.70|Z|Stormsong Valley|NC|N|Use the telescope next to Shaw|
+C Horde Gathering Witnessed|QID|55090|M|48.85,32.70|Z|Stormsong Valley|NC|N|Use the telescope next to Shaw|
 T A Gathering of Foes|QID|55090|M|69.33,27.15|Z|Boralus|N|To Lady Jaina Proudmoore|
 
 ; Raid
-A Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|ELITE|N|[color=e6cc80]Raid: Siege of Dazar'alor[/color] From Halford Wyrmbane.|NA|PRE|54459|
+A Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|ELITE|N|[color=e6cc80]Raid: Battle of Dazar'alor: Empire's Fall[/color] From Halford Wyrmbane.|NA|PRE|54459|
 t Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
-A As the Dust Settles|QID|54163|M|69.28,26.98|Z|Boralus|ELITE|N|[color=e6cc80]Raid: Siege of Dazar'alor[/color] From Halford Wyrmbane.|PRE|54459|
+A As the Dust Settles|QID|54163|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane.|PRE|54459|  ;  Was raid locked
 t As the Dust Settles|QID|54163|M|49.32,85.51|Z|Boralus|N|Fly to Proudmoore Keep and meet Anduin in Unity Square.|
 A Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|From Anduin in Unity Square.|PRE|54163&54485|
 C Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|CHAT|N|Talk with Anduin and attend the meeting.|
@@ -701,8 +701,9 @@ T Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|To Anduin.|
 
 ; Feathers Before the Storm , after he who walks in the light
 A Whatever Happened to Saffy Flivvers?|QID|53815|M|67.93,26.28|Z|Boralus|N|From Kelsey Steelspark, belowdeck Wind's Redemption.|PRE|55090|
-F Tanaris|ACTIVE|53815|N|Make your way near the Caverns of Time.|
-T Whatever Happened to Saffy Flivvers?|QID|53815|M|62.18,45.33|Z|Tanaris|N|To Feathers|
+P Stormwind City|ACTIVE|53815|M|70.10,16.78|Z|Boralus|N|Take Portal to Stormwind.|
+P Caverns of Time|ACTIVE|53815|M|43.75,85.48|Z|Stormwind City|N|Take Portal To Caverns of Time.|
+T Whatever Happened to Saffy Flivvers?|QID|53815|M|62.18,45.33|Z|Tanaris|N|To Feathers, OUTSIDE the Caverns.|
 A Some Reassembly Required|QID|53816|M|62.18,45.33|Z|Tanaris|N|From Feathers|PRE|53815|
 C Mechanical Parts|QID|53816|QO|1|M|61.48,46.12;63.10,44.25|CN|Z|Tanaris|N|Kill Venture Co. personnel for their "parts".|
 T Some Reassembly Required|QID|53816|M|62.18,45.33|Z|Tanaris|N|To Feathers|
@@ -713,7 +714,7 @@ A Return to the Nest|QID|53819|M|62.18,45.33|Z|Tanaris|N|From Feathers|PRE|53818
 C Recall Subroutine|QID|53819|M|PLAYER|N|Activate the recall subroutine and fly back.|NC|CHAT|
 T Return to the Nest|QID|53819|M|27.13,60.07|Z|Tanaris|N|To Sapphronetta Flivvers|
 A She's in a Happier Place|QID|53820|M|27.13,60.07|Z|Tanaris|N|From Sapphronetta Flivvers|PRE|53819|
-F Boralus|ACTIVE|53820|N|Make your way back to Boralus to meet Kelsey.|
+H Boralus|ACTIVE|53820|N|Make your way back to Boralus to meet Kelsey.|
 T She's in a Happier Place|QID|53820|M|67.93,26.28|Z|Boralus|N|To Kelsey Steelspark|
 B More upgrade missions|QID|54292&54293&543305|M|68.97,24.73|Z|Boralus|S!US|N|Three more missions to upgrade your outposts purchased from the Vindicator Jaelaana. Unlike the previous missions, these need to be purchased (and done) by each character who wants the upgrade.|REP|7th Legion;2159;Exalted;0|
 
