@@ -97,9 +97,9 @@ frame:SetScript("OnShow", function()
                 tooltip:SetPoint("TOPLEFT", row, "BOTTOMLEFT", -10, 10)
                 tooltiptext:SetHeight(125)
                 if WoWPro.active[row.index] and not WoWPro.QID[row.index] then
-                    tooltiptext:SetText(("Step %d/ACTIVE %s: %s"):format(row.index, tostring(WoWPro.active[row.index]), WoWPro.why[row.index]))
+                    tooltiptext:SetText(("Step %d/ACTIVE %s: %s"):format(row.index, tostring(WoWPro.active[row.index]), tostring(WoWPro.why[row.index])))
                 else
-                    tooltiptext:SetText(("Step %d/QID %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]), WoWPro.why[row.index]))
+                    tooltiptext:SetText(("Step %d/QID %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]), tostring(WoWPro.why[row.index])))
                 end
                 tooltiptext:SetHeight(tooltiptext:GetStringHeight())
                 tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
@@ -238,7 +238,6 @@ frame:SetScript("OnShow", function()
     end)
 end )
 
-
 function WoWPro:GuideBugReport()
     -- Lets display a debug like window with all the right stuff
     WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro Guide Bug Report","Hit escape to dismiss")
@@ -253,4 +252,3 @@ function WoWPro:GuideBugReport()
     LogBox:Show()
     WoWPro:Print("WoWPro:GuideBugReport(): ready to copy/paste!")
 end
-
