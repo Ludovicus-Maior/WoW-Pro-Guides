@@ -740,7 +740,7 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 					}
 					WoWPro.GroupSync = true
 					WoWPro:LoadGuideStepsReal()
-				elseif WoWPro.Version ~= gversion then 
+				elseif WoWPro.Version ~= gversion then
 					WoWPro:Print("Version mismatch: "..gname.."'s WoWPro is running "..gversion..". You are running "..WoWPro.Version)
 				end
 			elseif synctype == "steps" and WoWPro.GroupSync then
