@@ -150,8 +150,8 @@ C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Kill Deadeye the gian
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|US|
 C How To Get A Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
 C How To Get A Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|
-T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
 T How To Get A Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
+T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
 A Stuff We All Get|QID|58575|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|RANK|2|
 A Team Spirit|QID|59800|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|RANK|2|
 C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|NC|N|Use the item provided to splash Arena Challengers.|S|
@@ -295,9 +295,9 @@ T In The Flesh|QID|57994|M|37.61,29.09|Z|Maldraxxus|N|To Aspirant Thales.|MS|
 A Front and Center|QID|60733|M|37.66,29.11|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57994|MS|
 R The Stitchyard|QID|57245|M|25.75,40.61|Z|Maldraxxus|N|We are leaving the Bonus Objective Area briefly for 3 quests, if you aren't finished, don't worry, we will be back.|RANK|2|TOF|
 A Ani-Matter Animator|QID|57245|M|26.29,42.67|Z|Maldraxxus|N|From Snyder Sixfold.|RANK|2|TOF|
-C Ani-Matter Animator|QID|57245|M|25.87,45.94|Z|Maldraxxus|U|175827|S!US|N|Use the provided orb to animate the piles of bone remains scattered around the Ossein Foundry. You will find 4 types:\nLoyal-will fight with along beside you for about a minute.\nRecruitable - Chat with them to recruit them.\nStubborn - will offer 2 quests.\nEnraged - you have to kill them.|TOF|
-A Blade of Blades|QID|57284|M|PLAYER|Z|Maldraxxus|IZ|Ossein Foundry|N|From Stubborn Animate.|ACTIVE|57245|
-A Bring Me Their Heads|QID|57278|M|PLAYER|Z|Maldraxxus|IZ|Ossein Foundry|N|From Stubborn Animate. Don't worry if you didn't have time to accept both quests, you will get another chance on the next Stubborn Animate you find.|ACTIVE|57245|TOF|
+C Ani-Matter Animator|QID|57245|M|25.87,45.94|Z|Maldraxxus|U|175827|S!US|N|Use the provided orb to animate the piles of bone remains scattered around the Ossein Foundry. You will find 4 types:\nLoyal-will fight with along beside you for about a minute.\nRecruitable - Chat with them to recruit them.\nStubborn - will offer one or more daily repeatable quests. They are also recruitable.\nEnraged - you have to kill them.|TOF|
+;A Blade of Blades|QID|57284|M|PLAYER|Z|Maldraxxus|IZ|Ossein Foundry|N|From Stubborn Animate.|ACTIVE|57245|;commenting out, it appears its not always the same quests.
+;A Bring Me Their Heads|QID|57278|M|PLAYER|Z|Maldraxxus|IZ|Ossein Foundry|N|From Stubborn Animate. Don't worry if you didn't have time to accept all quests, you will get another chance on the next Stubborn Animate you find.|ACTIVE|57245|TOF|
 C Blade of Blades|QID|57284|M|PLAYER|Z|Maldraxxus|S|NC|N|Pick up forgotten blades lying around.|ACTIVE|57245|TOF|;currently bugged and you never find it
 C Bring Me Their Heads|QID|57278|M|31.27,45.27|Z|Maldraxxus|N|The Violent Animates have the best drop rate and can be found in the northwest part of the quest area.|ACTIVE|57245|TOF|
 C Blade of Blades|QID|57284|M|31.27,45.27|Z|Maldraxxus|US|NC|N|Keep picking up swords from the ground until you find the right one.|TOF|
@@ -348,7 +348,7 @@ T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
 R Spider's Watch|QID|1|ACTIVE|60733|CS|M|40.51,32.84;37.56,29.21|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run back to Spidar's Watch.|
 F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|Z|Maldraxxus|N|Fly back to Bleak Redoubt.|MS|
 
-R High Stand|ACTIVE|59867|M|52.12,24.18|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run to High Stand, be careful you are attempting to bypass some lvl 60/61 mobs.|TOF|
+R High Stand|QID|59867|QO|1|M|52.12,24.18|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run to High Stand, be careful you are attempting to bypass some lvl 60/61 mobs.|TOF|
 K Appraiser Vix|ACTIVE|59867|QO|1|M|52.52,24.22|Z|Maldraxxus|T|Appraiser Vix|N|Kill Appraiser Vix.|TOF|
 R House of Eyes|ACTIVE|62462|M|56,12|Z|Maldraxxus|N|Run north to the House of Eyes You are still surrounded by level 60/61 mobs.|TOF|
 P Scroll of Teleportation|ACTIVE|62462|QO|1|M|59.96,12.22|Z|Maldraxxus|N|Use Scroll of Teleportation to get to the Key of Eyes. You land right beside the key, pick it up.|TOF|
