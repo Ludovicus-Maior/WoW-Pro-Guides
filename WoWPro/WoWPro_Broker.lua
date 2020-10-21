@@ -647,13 +647,14 @@ function WoWPro.UpdateQuestTrackerRow(row)
                 WoWPro:dbp("UQT: QID %d active, but no QO tag, just check for generic completion.", qid)
                 for l=1,#WoWPro.QuestLog[qid].leaderBoard do
                     if WoWPro.QuestLog[qid].leaderBoard[l] then
-                        track = track.."- "..WoWPro.QuestLog[qid].leaderBoard[l].."\n"
+                        track = track.."- "..WoWPro.QuestLog[qid].leaderBoard[l]
 						if select(2, _G.GetQuestLogLeaderBoard(l, j)) == "progressbar" then
-							track = "- ".._G.GetQuestProgressBarPercent(qid).."% out of 100% Complete.\n"
+							track = "- ".._G.GetQuestProgressBarPercent(qid).."% out of 100% Complete."
 						end
 						if select(3, _G.GetQuestLogLeaderBoard(l, j)) then
-                            track =  track.." (C)\n"
+                            track =  track.." (C)"
                         end
+						track =  track.."\n"
                     end
                 end
 
