@@ -509,7 +509,8 @@ A Express Delivery|QID|54703|M|36.26,29.81|Z|Tiragarde Sound|N|From Lady Jaina P
 C Express Delivery|QID|54703|M|36.31,29.78|Z|Tiragarde Sound|NC|QO|1|V|N|Click the harpoon gun and fire at the 3 Ships to mark them.|
 T Express Delivery|QID|54703|M|36.42,30.78|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
 A War Marches On|QID|53887|M|36.42,30.78|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|54703|
-H Snug Harbor Inn|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|TZ|Wind's Redemption|N|Hearth or otherwise return to Boralus and Halford Wyrmband.|
+H Snug Harbor Inn|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|N|Hearth or otherwise return to Boralus and Halford Wyrmband.|C|-Mage|
+P Sanctum of the Sages|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|N|Return to Boralus and Halford Wyrmband.|C|Mage|
 T War Marches On|QID|53887|M|69.29,26.97|Z|Boralus|N|To Halford Wyrmbane.|
 
 ; The Sleeper Agent
@@ -639,7 +640,7 @@ P Sanctum of the Sages|ACTIVE|54459|M|50.37,84.08|Z|Nazmir|N|Use the portal that
 T He Who Walks in the Light|QID|54459|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
 
 A Loose Ends|QID|55118|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane. The other 2 are raid quests you can grab later.|PRE|54459|
-F Kennings Lodge|ACTIVE|55118|M|67.02,15.00|N|Fly or run over to Kennings Lodge.|
+F Kennings Lodge|ACTIVE|55118|M|67.02,15.00|N|Fly or run over to Kennings Lodge.|FLY|BFA|
 T Loose Ends|QID|55118|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark.|
 A Ashes to Ashvane|QID|55033|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark.|PRE|55118|
 A Correspondence Conundrum|QID|55117|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark.|PRE|55118|
@@ -649,51 +650,51 @@ T Ashes to Ashvane|QID|55033|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelsp
 T Correspondence Conundrum|QID|55117|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark.|
 A Getting a Clue|QID|55116|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark.|PRE|55117&55033|
 C Haughton Francis|QID|55116|M|76.91,75.60|Z|Tiragarde Sound|
-T Getting a Clue|QID|55116|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
-A Reporting In!|QID|55119|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark|PRE|55116|
+T Getting a Clue|QID|55116|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark.|
+A Reporting In!|QID|55119|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark.|PRE|55116|
 F Tradewinds Market|ACTIVE|55119|M|76.67,65.42|Z|Tiragarde Sound|TZ|Boralus Harbor|N|Fly back to Tradewinds Market at Finnia Hawkshot.|
 C Halford Wyrmbane|QID|55119|M|69.28,26.98|Z|Boralus|NC|CHAT|N|Report in!|
-T Reporting In!|QID|55119|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane|
-A Don't Shoot the Messenger|QID|55044|M|69.43,27.19|Z|Boralus|N|From Master Mathias Shaw|PRE|55119|
+T Reporting In!|QID|55119|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
+A Don't Shoot the Messenger|QID|55044|M|69.43,27.19|Z|Boralus|N|From Master Mathias Shaw.|PRE|55119|
 C Valeera Sanguinar|QID|55044|M|69.47,26.79|Z|Boralus|NC|CHAT|N|Listen to her message.|
 T Don't Shoot the Messenger|QID|55044|M|69.33,27.14|Z|Boralus|N|To Lady Jaina Proudmoore|
 A My Brother's Keeper|QID|55045|M|69.33,27.14|Z|Boralus|N|From Lady Jaina Proudmoore|PRE|55044|
 C Master Mathias Shaw|QID|55045|QO|1|M|69.43,27.19|Z|Boralus|NC|CHAT|N|Ask Shaw to set sail to Theramore.|
 C Lady Jaina Proudmoore|QID|55045|QO|2|M|70.07,41.75|Z|Dustwallow Marsh|N|Tell Jaina the horde ship is there.|
 P Wind's Redemption|QID|55045|M|70.2,41.39|Z|Dustwallow Marsh|NC|CHAT|N|Ask Shaw to set sail to Boralus.|
-T My Brother's Keeper|QID|55045|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane|
+T My Brother's Keeper|QID|55045|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
 
-A Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane|PRE|55045|
+A Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane.|PRE|55045|
 N War of Shadows|QID|55171|M|70.55,27.19|Z|Boralus|NC|N|Send Falstad on "Spy on Warfang Hold" mission, and come back in 1 hour.|MID|2123|
-T Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane|
-A The Gathering Storm|QID|55087|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane|PRE|55171|
-T The Gathering Storm|QID|55087|M|45.22,62.61|Z|Boralus|N|To Lady Jaina Proudmoore|
-A Retaliation Coordination|QID|55179|M|45.22,62.61|Z|Boralus|N|From Lady Jaina Proudmoore|PRE|55087|
+T Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
+A The Gathering Storm|QID|55087|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane.|PRE|55171|
+T The Gathering Storm|QID|55087|M|45.22,62.61|Z|Boralus|N|To Lady Jaina Proudmoore.|
+A Retaliation Coordination|QID|55179|M|45.22,62.61|Z|Boralus|N|From Lady Jaina Proudmoore.|PRE|55087|
 F Deadwash|ACTIVE|55179|M|47.75,65.3|Z|Boralus|N|Fly up to Deadwash.|FLY|BFA|
-T Retaliation Coordination|QID|55179|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark|
-A Lost in the Field|QID|55088|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55179|
-A Reassembly Required|QID|55182|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55179|
+T Retaliation Coordination|QID|55179|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark.|
+A Lost in the Field|QID|55088|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark.|PRE|55179|
+A Reassembly Required|QID|55182|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark.|PRE|55179|
 C Salvaged Parts|QID|55182|S!US|N|Things in Saltstone Mine.|
 C Injured Operative|QID|55088|M|48.50,37.21|Z|Stormsong Valley|N|Look for Injured Operative in the area.|
-T Lost in the Field|QID|55088|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark|
-T Reassembly Required|QID|55182|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark|
-A Seeking Higher Ground|QID|55183|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55182&55088|
-T Seeking Higher Ground|QID|55183|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark|
-A Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55183|
-C Goblin Shredder|QID|55185|M|52.2,39.2|Z|Stormsong Valley|N|3 Waves, Peons, Lumberjacks, then a Shredder|
-T Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark|
-A Shaw's Shank Redemption|QID|55089|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55185|
-R Screaming Pit|ACTIVE|55089|M|44.60,38.20;46.58,35.40;48.48,33.17|CS|Z|Stormsong Valley|N|Run along the ridge to get to the pit ABOVE Warsong Hold.|  ; Would still be nice to have an area to go even if you can fly.
-K Giles Deathstrike|ACTIVE|55089|QO|2|M|47.66,33.82|Z|Stormsong Valley|NC|N|Kill Giles|
-T Shaw's Shank Redemption|QID|55089|M|48.84,32.75|Z|Stormsong Valley|N|To Master Mathias Shaw|
-A A Gathering of Foes|QID|55090|M|48.84,32.75|Z|Stormsong Valley|N|From Master Mathias Shaw|PRE|55089|
-C Horde Gathering Witnessed|QID|55090|M|48.85,32.70|Z|Stormsong Valley|NC|N|Use the telescope next to Shaw|
-T A Gathering of Foes|QID|55090|M|69.33,27.15|Z|Boralus|N|To Lady Jaina Proudmoore|
+T Lost in the Field|QID|55088|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark.|
+T Reassembly Required|QID|55182|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark.|
+A Seeking Higher Ground|QID|55183|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark.|PRE|55182&55088|
+T Seeking Higher Ground|QID|55183|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark.|
+A Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark.|PRE|55183|
+C Goblin Shredder|QID|55185|M|52.2,39.2|Z|Stormsong Valley|N|3 Waves, Peons, Lumberjacks, then a Shredder.|
+T Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark.|
+A Shaw's Shank Redemption|QID|55089|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark.|PRE|55185|
+R Screaming Pit|ACTIVE|55089|M|44.60,38.20;46.58,35.40;48.48,33.17|CS|Z|Stormsong Valley|N|Run along the ridge to get to the pit ABOVE Warsong Hold.|FLY|BFA|
+K Giles Deathstrike|ACTIVE|55089|QO|2|M|47.66,33.82|Z|Stormsong Valley|NC|N|Kill Giles.|
+T Shaw's Shank Redemption|QID|55089|M|48.84,32.75|Z|Stormsong Valley|N|To Master Mathias Shaw.|
+A A Gathering of Foes|QID|55090|M|48.84,32.75|Z|Stormsong Valley|N|From Master Mathias Shaw.|PRE|55089|
+C A Gathering of Foes|QID|55090|M|48.85,32.70|Z|Stormsong Valley|NC|N|Use the telescope next to Shaw.|
+T A Gathering of Foes|QID|55090|M|69.33,27.15|Z|Boralus|N|To Lady Jaina Proudmoore.|
 
 ; Raid
-A Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|ELITE|N|[color=e6cc80]Raid: Battle of Dazar'alor: Empire's Fall[/color] From Halford Wyrmbane.|NA|PRE|54459|
+A Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|ELITE|N|[color=e6cc80]Raid: Battle of Dazar'alor[/color] From Halford Wyrmbane.|NA|PRE|54459|
 t Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
-A As the Dust Settles|QID|54163|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane.|PRE|54459|  ;  Was raid locked
+A As the Dust Settles|QID|54163|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane.|PRE|54459|
 t As the Dust Settles|QID|54163|M|49.32,85.51|Z|Boralus|N|Fly to Proudmoore Keep and meet Anduin in Unity Square.|
 A Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|From Anduin in Unity Square.|PRE|54163&54485|
 C Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|CHAT|N|Talk with Anduin and attend the meeting.|
@@ -714,8 +715,10 @@ A Return to the Nest|QID|53819|M|62.18,45.33|Z|Tanaris|N|From Feathers|PRE|53818
 C Recall Subroutine|QID|53819|M|PLAYER|N|Activate the recall subroutine and fly back.|NC|CHAT|
 T Return to the Nest|QID|53819|M|27.13,60.07|Z|Tanaris|N|To Sapphronetta Flivvers|
 A She's in a Happier Place|QID|53820|M|27.13,60.07|Z|Tanaris|N|From Sapphronetta Flivvers|PRE|53819|
-H Boralus|ACTIVE|53820|N|Make your way back to Boralus to meet Kelsey.|
-T She's in a Happier Place|QID|53820|M|67.93,26.28|Z|Boralus|N|To Kelsey Steelspark|
+F Boralus|ACTIVE|53820|N|Make your way back to Boralus to meet Kelsey.|
+H Snug Harbor Inn|ACTIVE|53820|M|36.42,30.78|Z|Tiragarde Sound|N|Hearth or otherwise return to Boralus and Kelsey Steelspark.|C|-Mage|
+P Sanctum of the Sages|ACTIVE|53820|M|36.42,30.78|Z|Tiragarde Sound|N|Return to Boralus and Kelsey Steelspark.|C|Mage|
+T She's in a Happier Place|QID|53820|M|67.93,26.28|Z|Boralus|N|To Kelsey Steelspark.|
 B More upgrade missions|QID|54292&54293&543305|M|68.97,24.73|Z|Boralus|S!US|N|Three more missions to upgrade your outposts purchased from the Vindicator Jaelaana. Unlike the previous missions, these need to be purchased (and done) by each character who wants the upgrade.|REP|7th Legion;2159;Exalted;0|
 
 ;lvl 50
