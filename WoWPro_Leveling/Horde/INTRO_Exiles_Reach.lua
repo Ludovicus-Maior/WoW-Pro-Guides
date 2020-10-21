@@ -45,8 +45,8 @@ A Down with the Quilboar|QID|59938|M|62.71,69.86|N|From Mithdran Dawntracker.|PR
 A Forbidden Quilboar Necromancy|QID|59939|M|62.71,69.86|N|From Mithdran Dawntracker.|PRE|59935|
 C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|N|Kill Quilboar in the area.|S|
 K Ogre Overseer|QID|56051|M|60.52,59.86|RARE|T|Ogre Overseer|N|Silver Elite to kill and loot.|
-C Down with the Quilboar|QID|59938|M|58.86,63.03|N|Kill Geolord Grek'og.|
 C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|N|Wrap up the Quilboar massacre.|US|
+C Down with the Quilboar|QID|59938|M|58.86,63.03|N|Kill Geolord Grek'og.|
 ; Moved down... Finish quest before getting treasure -- Hendo72
 $ Quilboar Treasures|QID|56579|M|58.52,59.30|N|Loot the treasure chest.|
 T Forbidden Quilboar Necromancy|QID|59939|M|56.26,59.17|N|To Mithdran Dawntracker.|
