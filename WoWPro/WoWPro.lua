@@ -1081,7 +1081,7 @@ function WoWPro:SendGroupInfo()
 		local _, myclass = _G.UnitClass("player")
 		local _, myrace = _G.UnitRace("player")
 		local gender = _G.UnitSex("player")
-		local addonString = "group " .. myclass .. " " .. myrace .. " " .. gender .. " " .. WoWPro.ActiveStep
+		local addonString = "group " .. myclass .. " " .. myrace .. " " .. gender .. " " .. WoWPro.Version .. " " .. WoWPro.ActiveStep
 		_G.C_ChatInfo.SendAddonMessage("WoWPro", addonString , "PARTY")
 	--end
 end
