@@ -23,7 +23,7 @@ C This is Our Vault Now|QID|55648|M|65.87,66.43|Z|Tiragarde Sound|QO|1|NC|N|Clic
 T This is Our Vault Now|QID|55648|M|65.82,66.35|Z|Tiragarde Sound|N|To Gazlowe.|FACTION|Horde|
 A Let's Get It Started|QID|55630|PRE|55648|M|65.82,66.35|Z|Tiragarde Sound|N|From Gazlowe.|FACTION|Horde|  ; Grail says Ally quest needs pre, so put 'equal' PRE here
 A The Missing Crew|QID|56378|M|67.95,26.72|Z|Boralus|N|From Grand Admiral Jes-Tereth. While this quest is done in Nazjatar, this is a more efficient place to pick it up.|NA|FACTION|Alliance|
-T Fame Waits for Gnome One|QID|57009|M|67.42,15.78|Z|Boralus|N|To Tinkmaster Overspark.|FACTION|Alliance|
+T Fame Waits for Gnome One|QID|57009^58708|M|67.42,15.78|Z|Boralus|N|To Tinkmaster Overspark.|FACTION|Alliance|
 A The Legend of Mechagon|QID|54088|PRE|57009|M|67.42,15.78|Z|Boralus|N|From Tinkmaster Overspark.|FACTION|Alliance|  ;  PRE|56156| was to open WQ/Nazjatar
 F Kennings Lodge|ACTIVE|54088|M|66.96,14.99|Z|Boralus|N|at Joan Weber.|FLY|BFA|
 T The Legend of Mechagon|QID|54088|M|65.63,65.04|Z|Tiragarde Sound|N|To Tinkmaster Overspark.|FACTION|Alliance|
@@ -66,7 +66,7 @@ A We Come in Peace... and Profit|QID|55685|PRE|55652|M|73.69,25.95|N|From Gazlow
 C We Come in Peace... and Profit|QID|55685|M|71.31,38.01|NC|N|Go find Prince Erazmin and listen to the dialog.|FACTION|Horde|
 T We Come in Peace... and Profit|QID|55685|M|71.07,38.37|N|To Prince Erazmin.|FACTION|Horde|
 A Report to Gila|QID|54946|PRE|54087|M|65.84,66.34|Z|Tiragarde Sound|N|From Tinkmaster Overspark.|FACTION|Alliance|
-H Boralus|ACTIVE|54946|M|65.84,66.34|Z|Tiragarde Sound|N|Make you way back to Boralus, hearth is great!|FACTION|Alliance|
+H Boralus|ACTIVE|54946|M|65.84,66.34|Z|Tiragarde Sound|TZ|Snug Harbor Inn|N|Make you way back to Boralus, hearth is great!|FACTION|Alliance|
 T Report to Gila|QID|54946|M|67.31,16.04|Z|Boralus|N|To Gila Crosswires.|FACTION|Alliance|
 A A Small Team|QID|54947|PRE|54946|M|67.31,16.04|Z|Boralus|N|From Gila Crosswires.|FACTION|Alliance|
 C A Small Team|QID|54947|M|64.07,33.64|Z|Boralus|QO|1|NC|N|Use Access Rope.(Optional)|FACTION|Alliance|
@@ -96,12 +96,12 @@ C We Can Fix It|QID|55995|M|52.41,61.71|QO|2|NC|N|Collect Energy Cell from Mecha
 C Rescuing the Resistance|QID|55730|M|52.58,61.48;52.20,63.26|CS|NC|QO|2|N|Up this ramp to find and rescue the Tinkerers.|
 C We Can Fix It|QID|55995|M|52.20,63.26|QO|1|US|N|Finish collecting the spare parts.|
 C My Father's Armies|QID|55731|M|52.20,63.26|US|N|Finish your quota of Mechagon enemies.|
-T My Father's Armies|QID|55731|M|52.20,63.26|N|To Prince Erazmin.|
-T Rescuing the Resistance|QID|55730|M|52.20,63.26|N|To Prince Erazmin.|
-T We Can Fix It|QID|55995|M|52.20,63.26|N|To Prince Erazmin.|
-A Drill Rig Construction|QID|55734|PRE|55731&55995&55730|M|52.20,63.26|N|From Prince Erazmin.|
+T My Father's Armies|QID|55731|M|PLAYER|N|To Prince Erazmin.|
+T Rescuing the Resistance|QID|55730|M|PLAYER|N|To Prince Erazmin.|
+T We Can Fix It|QID|55995|M|PLAYER|N|To Prince Erazmin.|
+A Drill Rig Construction|QID|55734|PRE|55731&55995&55730|M|PLAYER|N|From Prince Erazmin.|
 C Drill Rig Construction|QID|55734|M|56.71,59.80|NC|N|Click on the Drill rig to view Construction project and then Use the UI to contribute.|
-T Drill Rig Construction|QID|55734|M|56.97,60.08|N|To Prince Erazmin.|
+T Drill Rig Construction|QID|55734|M|PLAYER|N|To Prince Erazmin.|
 A Send My Father a Message|QID|55096|PRE|55734&55730|M|56.97,60.08|N|From Prince Erazmin.|
 C Send My Father a Message|QID|55096|M|57.57,62.56;60.82,60.54|CS|N|Up the ramp here, to find and hack the projector and then repel HK-8 Aerial Oppression Unit.|
 T Send My Father a Message|QID|55096|M|71.26,35.92|U|141605|N|Use flightmasters' whistle for a quicker trip back to Prince Erazmin.|

@@ -127,10 +127,10 @@ C Disruption of Power|QID|56641|M|43.21,73.57|S|NC|N|Click on the Ley Line Accum
 K Tidemistress Ethendris|ACTIVE|56642|M|43.00,75.43|QO|1|T|Tidemistress Ethendriss|N|Kill Tidemistress Ethendriss.|
 C Disruption of Power|QID|56641|M|43.21,73.57|US|NC|N|Finish destroying the Ley Line Accumulators.|
 C Fortunate Souls|QID|56640|M|43.50,74.43|US|N|Finish rescuing the 7th Legion Captives.|
-T Fortunate Souls|QID|56640|M|42.94,76.31|N|To Shandris Feathermoon.|
-T Disruption of Power|QID|56641|M|42.94,76.31|N|To Shandris Feathermoon.|
-T Dark Tides|QID|56642|M|42.94,76.31|N|To Shandris Feathermoon.|
-A In Deep|QID|56643|M|42.94,76.31|N|From Shandris Feathermoon.|PRE|56641&56642&56642|
+T Fortunate Souls|QID|56640|M|PLAYER|N|To Shandris Feathermoon.|
+T Disruption of Power|QID|56641|M|PLAYER|N|To Shandris Feathermoon.|
+T Dark Tides|QID|56642|M|PLAYER|N|To Shandris Feathermoon.|
+A In Deep|QID|56643|M|PLAYER|N|From Shandris Feathermoon.|PRE|56641&56642&56642|
 T In Deep|QID|56643|M|45.48,74.75|N|To Lady Jaina Proudmoore.|
 A Up Against It|QID|56644|M|45.48,74.75|N|From Lady Jaina Proudmoore.|PRE|56643|
 C Up Against It|QID|56644|M|46.00,76.48|QO|1|NC|N|Move ahead with Jaina and Genn.|
@@ -149,7 +149,7 @@ T A Way Home|QID|54972|M|40.31,55.24|N|To Lady Jaina Proudmoore.|
 ;heart of azeroth
 A Essential Empowerment|QID|55851|M|40.02,55.13|N|From Magni Bronzebeard.|PRE|54972|
 P Boralus|ACTIVE|55851|Z|Boralus|M|40.02,55.13|N|Take the portal to Boralus (or otherwise travel to Silithus).|
-P Silithus|ACTIVE|55851|M|69.63,15.92|Z|Boralus|N|Take the portal to Silithus.|
+P Silithus|ACTIVE|55851|M|69.63,15.92|Z|Boralus|TZ|Magni's Encampment|N|Take the portal to Silithus.|
 P Chamber of Heart|ACTIVE|55851|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
 T Essential Empowerment|QID|55851|M|50.13,59.19|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A MOTHER Knows Best|QID|55533|M|50.13,59.19|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|55851|
@@ -164,15 +164,17 @@ C Take My Hand|QID|55400|M|49.61,68.40|Z|Highmountain|CHAT|N|Speak to Navarrogg.
 T Take My Hand|QID|55400|M|26.74,46.16|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
 A Calming the Spine|QID|55407|M|27.01,46.27|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55400|
 C Calming the Spine|QID|55407|M|17.36,49.11;24.57,50.69;19.51,56.41;17.65,62.06|Z|The Dragon's Spine!Instance|CS|NC|N|Use the provided special action button while standing in the white azerite fissures.|
-T Calming the Spine|QID|55407|M|17.36,49.11|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
-A Dominating the Indomitable|QID|55425|M|17.36,49.11|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55407|
+T Calming the Spine|QID|55407|M|PLAYER|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
+A Dominating the Indomitable|QID|55425|M|PLAYER|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55407|
 C Dominating the Indomitable|QID|55425|M|16.76,63.04|Z|The Dragon's Spine!Instance|QO|1|NC|N|Walk forward to confront Ma'haat the Indomitable.|
 C Dominating the Indomitable|QID|55425|M|17.21,54.31|Z|The Dragon's Spine!Instance|QO|2|T|Ma'haat the Indomitable|N|Wait for the dialog to finish then defeat Ma'haat the Indomitable.|
 C Dominating the Indomitable|QID|55425|M|18.76,57.70|Z|The Dragon's Spine!Instance|QO|3|NC|N|Pick up the Petrified Ebony Scale.|
-T Dominating the Indomitable|QID|55425|M|18.76,57.70|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
-A A Friendly Face|QID|55497|M|18.76,57.70|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55425|
-H Boralus|ACTIVE|55497|N|Assuming your hearthstone is set to Boralus, you can take a shortcut back, then the portal to Silithus.|
-C A Friendly Face|QID|55497|M|48.17,38.97|Z|Chamber of Heart!Dungeon1473|QO|2|CHAT|N|Say hi to Spiritwalker Ebonhorn.|
+T Dominating the Indomitable|QID|55425|M|PLAYER|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
+A A Friendly Face|QID|55497|M|PLAYER|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55425|
+H Boralus|ACTIVE|55497|TZ|Snug Harbor Inn|N|Assuming your hearthstone is set to Boralus, you can take a shortcut back, then the portal to Silithus.|
+P Silithus|ACTIVE|55497|M|69.63,15.92|Z|Boralus|TZ|Magni's Encampment|N|Take the portal to Silithus.|
+P Chamber of Heart|ACTIVE|55497|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
+C A Friendly Face|QID|55497|M|48.17,38.97|Z|Chamber of Heart!Dungeon1473|QO|2|CHAT|N|Say hi to Spiritwalker Ebonhorn, and Let's go meet Magni.|
 T A Friendly Face|QID|55497|M|50.13,59.15|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A The Heart Forge|QID|55618|M|48.12,71.14|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|PRE|55497|
 C The Heart Forge|QID|55618|M|47.93,72.49|Z|Chamber of Heart!Dungeon1473|QO|1|CHAT|N|Speak with MOTHER.|
@@ -184,6 +186,7 @@ C Harnessing the Power|QID|57010|M|50.24,65.43|Z|Chamber of Heart!Dungeon1473|QO
 T Harnessing the Power|QID|57010|M|50.10,59.30|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 ;finalize zone intro
 A Back Out to Sea|QID|56162|M|50.10,50.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|57010|
+P Boralus|ACTIVE|56162|M|41.48,44.83|Z|Silithus|TZ|Boralus Harbor|N|Take the portal to Boralus.|
 P Mezzamere|ACTIVE|56162|Z|Boralus|M|69.85,15.29|N|Return to Boralus, then take the portal back to Nazjatar.|
 T Back Out to Sea|QID|56162|M|40.29,55.22|N|To Lady Jaina Proudmoore. You know have a Nazjatar portal in the Boralus portal room.|
 A Scouting the Palace|QID|56350|M|40.29,55.22|N|From Lady Jaina Proudmoore.|PRE|56162|
@@ -204,11 +207,11 @@ K Tidebinder Sarjezi|ACTIVE|55363|M|45.31,50.24|QO|2|T|Tidebinder Sarjezi|N|Kill
 C Rescue The Farseer|QID|55363|M|45.27,50.28|NC|N|Click on his cage to free Farseer Ori.|
 C Elemental Fury|QID|39335|M|48.51,52.85|US|N|Finish pacifying the Tide Surgers.|
 T Elemental Fury|QID|55362|M|43.54,49.72|N|To Farseer Ori.|
-T Rescue The Farseer|QID|55363|M|39.67,46.55;39.37,53.46|CC|N|To Bladesman Inowari.|;WQs Unlocked
+T Rescue The Farseer|QID|55363|M|39.67,46.55;39.37,53.46|CC|N|To Bladesman Inowari.|
 A A Tempered Blade|QID|56156|M|39.37,53.46|N|From Bladesman Inowari.|PRE|55363
 C A Tempered Blade|QID|56156|M|39.92,37.19|QO|1|N|Kill Naga forces.|
 C A Tempered Blade|QID|56156|M|39.51,53.38|QO|2|N|Return to Mezzamere|
-T A Tempered Blade|QID|56156|M|39.51,53.38|N|To Bladesman Inowari.|
+T A Tempered Blade|QID|56156|M|39.51,53.38|N|To Bladesman Inowari.|  ;  WQs Unlocked
 N Requisition/Bounty Quests|N|These are mostly not set to be "sticky", so that the arrow can guide you to the correct area. If you want to make them sticky, you can right click on the step text and choose that option. This note will need to be manually clicked off.|
 U Deepflame Campfire|QID|57040^57041^57042|M|39.43,53.53|N|Be sure and stop by the Deepflame Campfire to pick up your companion.|PRE|56156|
 N Curse of Tides|BUFF|-304606|M|39.02,57.99|N|If you are affected by the Curse of tides, go to Gloomseeker Yarga to have it removed. He can be found in an underwater cave, located under the shortest waterfall. He trades your cursed item for a bag of gold.|;-304611^304612^-304614^-304619
@@ -221,7 +224,7 @@ A WANTED: Inquisitor Ithriza|QID|55774|M|39.11,54.19|N|From Wanted Poster.|O|;da
 A WANTED: Haggronar|QID|55775|M|39.11,54.19|N|From Wanted Poster.|O|
 A WANTED: Emorneth|QID|55776|M|39.11,54.19|N|From Wanted Poster.|O|;daily
 A WANTED: Braxicus|QID|55777|M|39.13,54.20|N|From Wanted Poster.|O|;daily
-A Fame Waits for Gnome One|QID|57009|M|39.34,54.43|N|From Gila Crosswires. This is the lead-in to Mechagon, if you want to go there now. There is a bug that causes it not always to be available. Check off manually if the quest isnt here and know you can start Mechagon without it.|PRE|56156|
+A Fame Waits for Gnome One|QID|57009^58708|M|39.34,54.43|N|From Gila Crosswires. This is the lead-in to Mechagon, if you want to go there now. There is a bug that causes it not always to be available. Check off manually if the quest isnt here and know you can start Mechagon without it.|PRE|56156|LEAD|54088|
 A The Missing Crew|QID|56378|M|67.95,26.72|Z|Boralus|N|Check this off manually (and pick it up later if you aren't headed off to Mechagon now or don't find Champions important). From Grand Admiral Jes-Tereth. This quest is completed in Nazjatar.|NA|
 A Requisition: A Few Kelp Buds|QID|55721|M|40.07,55.68|N|From Mikah Brewbelly.|O|
 A Requisition: More Kelp Buds|QID|55787|M|40.07,55.68|N|From Mikah Brewbelly.|O|
@@ -269,10 +272,10 @@ T Strange Silver Knife|QID|56239|M|37.85,55.71|N|To Artisan Itanu.|
 A Preserved Clues|QID|56241|M|37.85,55.71|N|From Artisan Itanu.|PRE|56239|
 T A Safer Place|QID|55983|M|39.08,54.38|N|To Mrrl.|
 A No Backs|QID|55529|M|39.08,54.38|N|From Mrrl.|
-B Sweet Sea Vegetable|QID|55529|M|38.68,54.48|QO|1|T|Hurlgrl|N|Buy Sweet Sea Vegetable from Hurlgrl.|
-B Slimy Naga Eyeball|QID|55529|M|38.51,53.90|QO|4|T|Mrrglrrl|N|Buy the Slimy Naga Eyeball from Mrrglrrl who is running around in circles past this spot.|
-B Flatulent Fish|QID|55529|M|37.49,53.44|QO|3|T|Grrrmrlg|N|Buy the Flatulent Fish from Grrrmrlg.|
-B Unidentified Mass|QID|55529|M|39.97,53.42|QO|2|T|Flgrrl|N|Buy an Unidentified Mass from Flgrrl.|
+B Sweet Sea Vegetable|ACTIVE|55529|M|38.68,54.48|QO|1|T|Hurlgrl|N|Buy Sweet Sea Vegetable from Hurlgrl.|
+B Slimy Naga Eyeball|ACTIVE55529|M|38.51,53.90|QO|4|T|Mrrglrrl|N|Buy the Slimy Naga Eyeball from Mrrglrrl who is running around in circles past this spot.|
+B Flatulent Fish|ACTIVE|55529|M|37.49,53.44|QO|3|T|Grrrmrlg|N|Buy the Flatulent Fish from Grrrmrlg.|
+B Unidentified Mass|ACTIVE|55529|M|39.97,53.42|QO|2|T|Flgrrl|N|Buy an Unidentified Mass from Flgrrl.|
 T No Backs|QID|55529|M|39.10,54.32|N|To Mrrl.|
 C Bounty: Dangerous Creatures|QID|55837|S!US|N|Today you have a quest for killing Rares, so keep an eye out for those stars on the minimap.|
 C Bounty: Coral Ancients|QID|55821^55830|S!US|N|Today you have a bounty for killing Coral Ancients, these are mostly non agro (yellow) and often stationary.|
@@ -345,7 +348,7 @@ C They Made Their Choice|QID|56315|M|80.39,45.10|QO|2|CHAT|N|Talk to Janius.|
 T They Made Their Choice|QID|56315|M|79.78,44.94|N|To Shandris Feathermoon.|;unlocks flightmaster's whistle
 T Preserved Clues|QID|56241|M|81.44,45.44|N|To Preserved Journal on the ground.|
 A Diaries of the Dead|QID|56243|M|81.44,45.44|N|From same journal.|PRE|56241|
-C The Missing Crew|QID|56378|M|82.8,42.4|QO|1|NC|N|Find Captain Stonestare in the Zin-Azshari.|
+C The Missing Crew|QID|56378|M|82.89,42.60|QO|1|NC|N|Find Captain Stonestare in the Zin-Azshari.|
 C Diaries of the Dead|QID|56243|M|83.27,32.95|QO|1|NC|N|Find another journal in the city ruins.|
 C Diaries of the Dead|QID|56243|M|81.25,40.06|QO|2|NC|N|Continue searching the city ruins. This one is upstairs in a long hallway.|
 T Diaries of the Dead|QID|56243|M|78.88,41.19|N|To Enchanted Lock (inside building next to Horde camp).|
@@ -537,7 +540,7 @@ C Attrition|QID|55970|M|26.20,29.39|QO|2|N|Destroy Tadpole Collectors.|
 A Drunk Angry Murlocs|QID|56001|M|25.48,26.48|N|From King Mrgl-Mrgl.|O|
 C Drunk Angry Murlocs|QID|56001|M|27.31,32.80|NC|N|Pick up the casks of Ocean "Infused" Lager scattered around the murloc camp.|
 T Drunk Angry Murlocs|QID|56001|M|25.46,26.40|N|To King Mrgl-Mrgl.|
-C The Missing Crew|QID|56378|M|25.6,30.4|QO|3|NC|N|Find Thermospark in the Ashen Strand.|
+C The Missing Crew|QID|56378|M|25.64,30.50|QO|3|NC|N|Find Thermospark in the Ashen Strand.|
 A Mgglurky's Mugglrgl|QID|56002|M|25.47,26.39|N|From King Mrgl-Mrgl.|O|
 C Mgglurky's Mugglrgl|QID|56002|M|26.28,32.55|N|Kill murlocs until you find Mgglurky's Mugglrgl.|
 T Mgglurky's Mugglrgl|QID|56002|M|25.46,26.39|N|To King Mrgl-Mrgl.|
@@ -552,7 +555,7 @@ C Elderspawn of Nalaada|ACTIVE|56386|M|51.26,74.92|N|Defeat the Elderspawn of Na
 A Eel Jelly|QID|56450|M|51.26,74.92|N|From item dropped first time you defeat the Elderspawn of Nalaada in a pet battle.|PRE|56386|
 C Requisition: We Need It All|QID|55801|M|43.57,47.77|QO|7|N|Grab the Sticky Seaweed and run a little ways away to pull.|
 C Requisition: Seaweed|QID|55720^55786|M|49.48,50.29|NC|N|Grab the Sticky Seaweed and run a little ways away to pull.|
-C The Missing Crew|QID|56378|M|39.4,75|QO|2|NC|N|Find Captain Greensails in the Spears of Azshara.|
+C The Missing Crew|QID|56378|M|39.57,74.92|QO|2|NC|N|Find Captain Greensails in the Spears of Azshara.|
 C The Lords of Water|QID|55982|M|36.11,72.01|QO|1|N|Choose a Water Lord|
 C The Lords of Water|QID|55982|M|42.99,65.66|QO|2|N|Use his abilities to break the Naga forces.|
 C Salvage Operations|QID|57331|M|40.60,74.51|NC|N|Pick up the supply crates scattered about.|
