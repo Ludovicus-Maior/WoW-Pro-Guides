@@ -868,10 +868,10 @@ function WoWPro.ParseSteps(steps)
             end
 
 			for index,value in pairs(WoWPro.playerGroup) do
-				if (WoWPro.SemiMatch(class, tostring(value["class"]))) and (tostring(value["class"]) ~= myclass) then
+				if class and (WoWPro.SemiMatch(class, tostring(value["class"]))) and (tostring(value["class"]) ~= myclass) then
 					class = nil
 				end
-				if (WoWPro.SemiMatch(race, tostring(value["race"]))) and (tostring(value["race"]) ~= myrace) then
+				if race and (WoWPro.SemiMatch(race, tostring(value["race"]))) and (tostring(value["race"]) ~= myrace) then
 					race = nil
 				end
 				if (value["gender"] == gender) and (value["gender"] ~= _G.UnitSex("player")) then

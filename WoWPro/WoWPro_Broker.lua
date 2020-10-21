@@ -1467,7 +1467,7 @@ function WoWPro.UpdateGuideReal(From)
 	end
 
     -- If the guide is complete, loading the next guide --
-    if (WoWProCharDB.Guide[GID].progress == WoWProCharDB.Guide[GID].total or WoWProCharDB.Guide[GID].done)
+    if WoWProCharDB.Guide[GID].progress and tonumber(WoWProCharDB.Guide[GID].progress) > 0 and (WoWProCharDB.Guide[GID].progress == WoWProCharDB.Guide[GID].total or WoWProCharDB.Guide[GID].done)
     and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
         if WoWProDB.profile.autoload then
             WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
