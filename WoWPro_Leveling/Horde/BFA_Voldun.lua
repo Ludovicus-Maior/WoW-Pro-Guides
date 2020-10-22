@@ -178,7 +178,7 @@ T Ending the Madness|QID|48996|M|53.19,91.75|N|To Akunda.|
 A Akunda's Blessing|QID|50913|M|53.19,91.75|N|From Akunda.|PRE|48996|
 C Akunda's Blessing|QID|50913|M|53.18,92.15|NC|N|Click on the bottom of the Altar of Akunda.|
 T Akunda's Blessing|QID|50913|M|53.18,91.71|N|To Akunda.|
-A Clearing the Fog|QID|47874|M|53.61,91.66|N|From Akunda.|PRE|50913|
+A Clearing the Fog|QID|47874|M|53.61,91.66|N|From Warguard Rakera.|PRE|50913|
 T Clearing the Fog|QID|47874|M|52.80,89.23|N|To Warguard Rakera after she walkes s.l.o.w.l.y out of the temple.|
 ;  A City of Secrets
 A Knowledge of the Past|QID|48896|M|52.80,89.23|N|From Warguard Rakera.|PRE|47874|
