@@ -273,7 +273,7 @@ A Preserved Clues|QID|56241|M|37.85,55.71|N|From Artisan Itanu.|PRE|56239|
 T A Safer Place|QID|55983|M|39.08,54.38|N|To Mrrl.|
 A No Backs|QID|55529|M|39.08,54.38|N|From Mrrl.|
 B Sweet Sea Vegetable|ACTIVE|55529|M|38.68,54.48|QO|1|T|Hurlgrl|N|Buy Sweet Sea Vegetable from Hurlgrl.|
-B Slimy Naga Eyeball|ACTIVE55529|M|38.51,53.90|QO|4|T|Mrrglrrl|N|Buy the Slimy Naga Eyeball from Mrrglrrl who is running around in circles past this spot.|
+B Slimy Naga Eyeball|ACTIVE|55529|M|38.51,53.90|QO|4|T|Mrrglrrl|N|Buy the Slimy Naga Eyeball from Mrrglrrl who is running around in circles past this spot.|
 B Flatulent Fish|ACTIVE|55529|M|37.49,53.44|QO|3|T|Grrrmrlg|N|Buy the Flatulent Fish from Grrrmrlg.|
 B Unidentified Mass|ACTIVE|55529|M|39.97,53.42|QO|2|T|Flgrrl|N|Buy an Unidentified Mass from Flgrrl.|
 T No Backs|QID|55529|M|39.10,54.32|N|To Mrrl.|
