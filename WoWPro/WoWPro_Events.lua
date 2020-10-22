@@ -769,7 +769,7 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 					WoWPro.myGroupTrack = {}
 					for index,gvalue in pairs(WoWPro.playerGroup) do
 						foreach(gvalue["track"], function(gkey,gval)
-							WoWPro.myGroupTrack[tonumber(gkey)] = (WoWPro.myGroupTrack[tonumber(gkey)] or "") .. "\n" .. gval .. " - " .. gname
+							WoWPro.myGroupTrack[tonumber(gkey)] = (WoWPro.myGroupTrack[tonumber(gkey)] or "") .. "\n" .. gname .. ": " .. gval
 						end);
 					end
 				else
