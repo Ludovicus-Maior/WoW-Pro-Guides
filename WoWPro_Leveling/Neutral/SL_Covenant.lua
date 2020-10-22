@@ -488,15 +488,16 @@ A Elysian Hold|QID|57895|PRE|60492|M|58.42,28.92|Z|Bastion!The Shadowlands|N|Fro
 C Elysian Hold|QID|57895|M|58.44,28.92|Z|Bastion!The Shadowlands|CHAT|N|Fly to Elysian Hold.|COV|Kyrian|
 T Elysian Hold|QID|57895|M|55.39,42.30|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Of Great Renown|QID|62789|PRE|57895|M|55.39,42.30|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
-T Of Great Renown|QID|62789|M|42.78,53.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Haephus.|COV|Kyrian|
-A The Path Provides|QID|62790|PRE|62789|M|42.78,53.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
-C The Path Provides|QID|62790|M|42.78,53.43|Z|Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Renown examined.|COV|Kyrian|
-T The Path Provides|QID|62790|M|42.78,53.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Haephus.|COV|Kyrian|
-A A Call to Service|QID|62698|PRE|62790|M|42.78,53.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
-T A Call to Service|QID|62698|M|41.11,41.25|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Hermestes.|COV|Kyrian|
-f The Eternal Watch|QID|62698|M|41.11,41.25|Z|Archon's Rise@Elysian Hold!Dungeon|N|At Hermestes.|COV|Kyrian|
+T Of Great Renown|QID|62789|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Iona Skyblade.|COV|Kyrian|
+A The Path Provides|QID|62790|PRE|62789|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Iona Skyblade.|COV|Kyrian|
+C The Path Provides|QID|62790|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Renown examined.|COV|Kyrian|
+T The Path Provides|QID|62790|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Iona Skyblade.|COV|Kyrian|
+A A Call to Service|QID|62698|PRE|62790|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Iona Skyblade.|COV|Kyrian|
+T A Call to Service|QID|62698|M|41.01,41.02|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Hermestes.|COV|Kyrian|
 A A Calling in Bastion|QID|62692|PRE|62698|M|41.11,41.25|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Hermestes.|COV|Kyrian|
-T A Calling in Bastion|QID|62692|M|40.93,40.93|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Hermestes.|COV|Kyrian|
+F Hero's Rest, Bastion|ACTIVE|62692|M|50.96,49.00|Z|Archon's Rise@Elysian Hold!Dungeon|TZ|Bastion|N|At Cassius.|COV|Kyrian|  ; REASON ?
+C A Calling in Bastion|ACTIVE|62692|M|51.61,46.61|Z|Bastion|N|Go Complete 3 World Quests.|COV|Kyrian|
+t A Calling in Bastion|QID|62692|M|40.93,40.93|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Hermestes.|COV|Kyrian|
 A Our Most Precious Resource|QID|62791|PRE|62692|M|40.93,40.93|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Hermestes.|COV|Kyrian|
 T Our Most Precious Resource|QID|62791|M|42.73,53.84|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Haephus.|COV|Kyrian|
 A Into the Reservoir|QID|62792|PRE|62791|M|42.73,53.84|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
