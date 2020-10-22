@@ -208,7 +208,7 @@ C Rescue The Farseer|QID|55363|M|45.27,50.28|NC|N|Click on his cage to free Fars
 C Elemental Fury|QID|39335|M|48.51,52.85|US|N|Finish pacifying the Tide Surgers.|
 T Elemental Fury|QID|55362|M|43.54,49.72|N|To Farseer Ori.|
 T Rescue The Farseer|QID|55363|M|39.67,46.55;39.37,53.46|CC|N|To Bladesman Inowari.|
-A A Tempered Blade|QID|56156|M|39.37,53.46|N|From Bladesman Inowari.|PRE|55363
+A A Tempered Blade|QID|56156|M|39.37,53.46|N|From Bladesman Inowari.|PRE|55363|
 C A Tempered Blade|QID|56156|M|39.92,37.19|QO|1|N|Kill Naga forces.|
 C A Tempered Blade|QID|56156|M|39.51,53.38|QO|2|N|Return to Mezzamere|
 T A Tempered Blade|QID|56156|M|39.51,53.38|N|To Bladesman Inowari.|  ;  WQs Unlocked
