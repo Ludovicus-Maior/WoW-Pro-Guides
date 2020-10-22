@@ -1,6 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">  	
 	<Script file="First_Aid.lua"/>
-	<Script file="Leatherworking.lua"/>
+	<Script file="Leatherworking_BFA.lua"/>
 	<Script file="Alchemy.lua"/>
 	<Script file="Blacksmithing.lua"/>
 	<Script file="Enchanting.lua"/>

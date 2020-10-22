@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancLeather","Profession","Leatherworking", "Blanckaert", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancLeatherBFA","Profession","Leatherworking_BFA", "Blanckaert", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",165)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Leatherworking")
