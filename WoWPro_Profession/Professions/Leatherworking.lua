@@ -9,6 +9,8 @@ WoWPro:GuideName(guide, "Leatherworking")
 WoWPro:GuideSteps(guide, function()
 return [[
 
+:  Guide structure the QID is Prof, Expac, Spell ID; The N for materials is Qty of ; Name of Mat ; total needed ; total needed : Separator of mats.
+
 N This Guide is a Work In Progress Guide.|N|Currently in Development, starting with BFA content.\nAlso ASSUMES you have the appropriate Skill|
 
 
