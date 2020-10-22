@@ -498,10 +498,10 @@ C Go trap an animal|QID|36345|QO|1|M|55,62;26,43|CN|U|113991|N|Trap a wolf (in t
 C Place a work order|QID|36345|QO|2|N|At Farmer Lok'lub, sometimes he gets bored and wanders around, I have found him as far away as my garrison's graveyard.|
 T Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|To Farmer Lok'lub|
 T Return to the Pack|QID|33493|M|50.17,37.82|N|To Durotan.|RANK|2|Z|Frostwall|
-A Thunderlord Invasion!|QID|37291|PRE|32796|M|50.17,37.82|N|From Durotan.|Z|Frostwall|
-C Thunderlord Invasion!|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimjaw to start the scenario. You can take up to two groupmates with you if they come to your garrison. It will take around 10 min.|Z|Frostwall|
-t Thunderlord Invasion!|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|Z|Frostwall|
-A The Iron Wolf|QID|33010|PRE|37291|M|50.17,37.82|N|From Durotan.|Z|Frostwall|
+A Thunderlord Invasion!|QID|37291|PRE|32796|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
+C Thunderlord Invasion!|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimjaw to start the scenario. You can take up to two groupmates with you if they come to your garrison. It will take around 10 min.|RANK|2|Z|Frostwall|
+t Thunderlord Invasion!|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|RANK|2|Z|Frostwall|
+A The Iron Wolf|QID|33010|PRE|37291|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
 A Services of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (in daggermaw ravine and in grom'gar) he has come to pledge his service.|PRE|34654&34651|RANK|2|Z|Frostwall|
 R Grimfrost Hill|ACTIVE|33010|M|65.14,49.45|RANK|3|FLY|WOD|
 A A Proper Parting|QID|33125|M|66.03,49.09|N|From Outrider Urukag.|RANK|3|
@@ -513,16 +513,16 @@ C A Proper Parting|QID|33125|M|62.04,50.29|NC|QO|1|RANK|3|
 C A Proper Parting|QID|33125|M|62.55,50.83|NC|QO|3|RANK|3|
 T A Proper Parting|QID|33125|M|66.04,49.10|N|To Outrider Urukag.|RANK|3|
 T Gut Guttra|QID|33132|M|66.04,49.10|N|To Outrider Urukag.|RANK|3|
-R The Hunter's Hall|ACTIVE|33010|M|63.39,65.67|FLY|WOD|
-C The Iron Wolf|QID|33010|M|58.38,58.36|Z|Grom'gar@FrostfireRidge|N|If you get caught in a net, kill the caster of the net to free yourself (before The Iron Wolf does bad AoE things.)|
-T The Iron Wolf|QID|33010|M|53.23,56.27|Z|Grom'gar@FrostfireRidge|N|To Thrall.|
-A To Thunder Pass|QID|34123|PRE|33010|M|53.23,56.27|Z|Grom'gar@FrostfireRidge|N|From Thrall.|
-f Wolf's Stand|ACTIVE|34123|M|73.63,60.03|N|At Windhunter.|
-T To Thunder Pass|QID|34123|M|73.43,58.83|N|To Lokra.|
-A The Battle of Thunder Pass|QID|34124|PRE|34123|M|73.43,58.83|N|From Lokra.|
-C The Battle of Thunder Pass|QID|34124|M|74.98,55.76|N|This scenario takes around 20 min. Talk to Durotan to start it. Up to two groupmates can share the scenario with you. The grunts are not part of the objectives and are the LOWEST priority to kill. \nThe orcs with flags are the ones you need to kill.|
-T The Battle of Thunder Pass|QID|34124|M|76.16,55.16|N|To Durotan.|
-A The Secrets of Gorgrond|QID|34867|M|76.16,55.16|N|From Durotan.|PRE|34124|
+R The Hunter's Hall|ACTIVE|33010|M|63.39,65.67|RANK|2|FLY|WOD|
+C The Iron Wolf|QID|33010|M|58.38,58.36|Z|Grom'gar@FrostfireRidge|N|If you get caught in a net, kill the caster of the net to free yourself (before The Iron Wolf does bad AoE things.)|RANK|2|
+T The Iron Wolf|QID|33010|M|53.23,56.27|Z|Grom'gar@FrostfireRidge|N|To Thrall.|RANK|2|
+A To Thunder Pass|QID|34123|PRE|33010|M|53.23,56.27|Z|Grom'gar@FrostfireRidge|N|From Thrall.|RANK|2|
+f Wolf's Stand|ACTIVE|34123|M|73.63,60.03|N|At Windhunter.|RANK|2|
+T To Thunder Pass|QID|34123|M|73.43,58.83|N|To Lokra.|RANK|2|
+A The Battle of Thunder Pass|QID|34124|PRE|34123|M|73.43,58.83|N|From Lokra.|RANK|2|
+C The Battle of Thunder Pass|QID|34124|M|74.98,55.76|N|This scenario takes around 20 min. Talk to Durotan to start it. Up to two groupmates can share the scenario with you. The grunts are not part of the objectives and are the LOWEST priority to kill. \nThe orcs with flags are the ones you need to kill.|RANK|2|
+T The Battle of Thunder Pass|QID|34124|M|76.16,55.16|N|To Durotan.|RANK|2|
+A The Secrets of Gorgrond|QID|34867|M|76.16,55.16|N|From Durotan.|
 A The Frostwolves Stand Ready|QID|37563|PRE|34124|M|76.32,54.06|N|From Makar Stonebinder.|RANK|2|
 C Pick one|QID|37563|M|76.32,54.06|N|Geyah is a resto shaman, her guarenteed ability is a magic debuff counter, Kal'gor is an elemental shaman and his guarenteed ability is a counter to minion swarms, Lokra is an enhancelent shaman and her guarenteed ability is a counter to danger zones.  Pick the one you want.|RANK|2|
 T The Frostwolves Stand Ready|QID|37563|M|76.32,54.06|N|To Makar Stonebinder.|RANK|2|
