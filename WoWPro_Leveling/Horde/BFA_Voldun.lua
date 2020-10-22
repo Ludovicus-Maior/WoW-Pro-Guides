@@ -45,8 +45,10 @@ T Plans for Attack|QID|49677|M|60.87,32.60|N|To Nisha.|
 C Answering Their Attacks|QID|47327|M|60.87,32.60|US|N|Finish up the Sethrak.|
 T Answering Their Attacks|QID|47327|M|60.87,32.60|N|To Nisha.|
 A An Explosive Exit|QID|51364|M|60.87,32.60|N|From Nisha.|PRE|49677&47327|
+C An Explosive Exit|QID|51364|M|60.04,34.60|QO|1|V|N|Hop on Nisha's wagon.|
 C An Explosive Exit|QID|51364|M|60.04,34.60|QO|2|V|N|Hop on Nisha's wagon.|
 C An Explosive Exit|QID|51364|M|59.15,37.06|QO|3|NC|N|Use Special action button to throw fire flasks and Defend Nisha's wagon.|EAB|
+C An Explosive Exit|QID|51364|M|59.15,37.06|QO|4|NC|N|Use Special action button to throw fire flasks and Defend Nisha's wagon.|EAB|
 T An Explosive Exit|QID|51364|M|56.79,50.53|N|To Kiro.|
 A Restorative Venom|QID|47319|M|56.79,50.53|N|From Kiro.|PRE|51364|
 A Freshly Squeezed|QID|51574|M|56.76,50.53|N|From Meerah.|PRE|51364|
@@ -570,9 +572,8 @@ T Allies in Anarchy|QID|49664|M|46.14,33.22|N|To Nisha.|
 A Ready to Riot|QID|49665|M|46.14,33.22|N|From Nisha.|PRE|49664|
 A Make Them Fear Us|QID|49666|M|46.14,33.22|N|From Nisha.|PRE|49664|
 C Make Them Fear Us|QID|49666|M|48.27,33.03|U|158884|NC|S|N|Kill Faithless and then plant a Vulpera Banner on their corpse.|
-C Ready to Riot|QID|49665|M|49.10,33.11|NC|S|N|Click on the weapon racks to acquire weapons.  When you have a weapon, click on a captive Vulpera to free and arm them.|
+C Ready to Riot|QID|49665|M|49.10,33.11|NC|S!US|N|Click on the weapon racks to acquire weapons.  When you have a weapon, click on a captive Vulpera to free and arm them.|
 C The Little Ones|QID|49667|M|48.48,32.24|N|Kill Appraiser Versik.|
-C Ready to Riot|QID|49665|M|49.10,33.11|QO|1|NC|US|N|Finish freeing and arming the slaves.|
 C Make Them Fear Us|QID|49666|M|48.27,33.03|U|158884|NC|US|N|Finish planting the banners.|
 T Ready to Riot|QID|49665|M|46.14,33.23|N|To Nisha.|
 T Make Them Fear Us|QID|49666|M|46.14,33.23|N|To Nisha.|
