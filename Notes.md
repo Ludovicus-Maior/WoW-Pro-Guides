@@ -1,3 +1,12 @@
+# Release A3/C3
+### Bug Fixes:
+* Fixed bug that caused guides to endlessly load when in a group with another wowpro user.  
+* Objective Formatting fixes
+* Few minor bug fixes to prevent errors.
+
+### Guide Updates:
+* Frostfire/Voldun/Nazjatar/Mechagon/Exiles Reach/BFA Intro/Terokkar Forest/War Campaign/Misc SL guides
+
 # Release Notes - v9.0.1
 ## Features
 
