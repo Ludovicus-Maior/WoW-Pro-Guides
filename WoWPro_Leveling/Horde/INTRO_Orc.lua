@@ -6,7 +6,7 @@ WoWPro:GuideName(guide,"Orc: Intro")
 WoWPro:GuideNextGuide(guide, "Orc & Troll: Intro (Part 2)")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
 A Your Place In The World|QID|25152|M|45.33,68.58|N|From Kaltunk.|
 T Your Place In The World|QID|25152|M|44.90,66.31|N|To Gornek.|
 A Cutting Teeth|QID|25126|M|44.94,66.43|N|From Gornek.|PRE|25152|
@@ -14,20 +14,20 @@ C Cutting Teeth|QID|25126|M|51.82,54.74|N|Kill boars in the nearby boar pen.|
 T Cutting Teeth|QID|25126|M|44.94,66.43|N|To Gornek.|
 A Invaders in Our Home|QID|25172|M|44.94,66.43|N|From Gornek.|PRE|25126|
 A Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|From Galgar.|PRE|25126|
-C Galgar's Cactus Apple Surprise|QID|25136|NC|M|48.89,75.18;52.81,77.63;47.11,82.61;42.04,85.34;36.97,83.12;36.32,81.69|CN|N|Loot cactus apples from cactuses.|S|
+C Galgar's Cactus Apple Surprise|QID|25136|NC|N|Loot cactus apples from cactuses.|S|
 C Invaders in Our Home|QID|25172|M|47.60,83.19|N|Kill Northwatch scouts to the south.|
-C Galgar's Cactus Apple Surprise|QID|25136|NC|M|48.89,75.18;52.81,77.63;47.11,82.61;42.04,85.34;36.97,83.12;36.32,81.69|CN|N|Loot cactus apples from cactuses.|US|
-T Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|To Galgar.|
 T Invaders in Our Home|QID|25172|M|44.94,66.43|N|To Gornek.|
 A Sting of the Scorpid|QID|25127|M|44.94,66.43|N|From Gornek.|PRE|25172|
 A Lazy Peons|QID|37446|M|46.03,63.33|N|From Foreman Thazz'ril.|PRE|25172|
-C Lazy Peons|QID|37446|S|NC|U|16114|M|57.74,45.82|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|T|Lazy Peon|
+C Lazy Peons|QID|37446|M|57.74,45.82|S|NC|U|16114|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|T|Lazy Peon|
 C Sting of the Scorpid|QID|25127|M|57.74,45.82|N|Kill and loot scorpids.|
-C Lazy Peons|QID|37446|US|NC|U|16114|M|57.74,45.82|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|T|Lazy Peon|
+C Lazy Peons|QID|37446|M|57.74,45.82|US|NC|U|16114|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|T|Lazy Peon|
+C Galgar's Cactus Apple Surprise|QID|25136|NC|N|Finish looting cactus apples from cactuses.|US|
 T Lazy Peons|QID|37446|M|46.15,63.37|N|To Foreman Thazz'ril.|
 T Sting of the Scorpid|QID|25127|M|44.94,66.43|N|To Gornek.|
-A Hana'zua|QID|25128|PRE|25127|M|41.68,69.95|N|From Canaga Earthcaller.|
-A Vile Familiars|QID|25131|PRE|25127|M|45.72,63.37|N|From Zureetha Fargaze.|
+T Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|To Galgar.|
+A Hana'zua|QID|25128|M|41.68,69.95|N|From Canaga Earthcaller.|PRE|25127|
+A Vile Familiars|QID|25131|M|45.72,63.37|N|From Zureetha Fargaze.|PRE|25127|
 C Vile Familiars|QID|25131|M|49.83,20.60|N|Kill Vile Familiars near the cave to the north.|
 T Hana'zua|QID|25128|M|34.75,44.18|N|To Hana'zua.|
 A Sarkoth|QID|25129|M|34.75,44.18|N|From Hana'zua.|
