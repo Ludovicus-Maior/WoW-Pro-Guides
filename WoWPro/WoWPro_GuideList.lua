@@ -4,10 +4,7 @@
 ---------------------------------
 --      WoWPro_Guide_List      --
 ---------------------------------
-
 local L = WoWPro_Locale
-
-local FALLBACK_ICON = 134400
 local tabIndexByName = {}
 local GuideListMixin = {}
 function GuideListMixin:SetDisplay()
@@ -33,19 +30,10 @@ function GuideListMixin:SelectListItem(itemIndex)
     end
 end
 do -- GuideListMixin:SetTooltip
-    local tooltipIcon = _G.GameTooltip:CreateTexture(nil, "ARTWORK")
-    tooltipIcon:SetTexCoord(.08, .92, .08, .92)
-    tooltipIcon:SetPoint("TOPRIGHT", -6, -6)
-    tooltipIcon:SetSize(22, 22)
-
     function GuideListMixin:SetTooltip(listItem)
         local guide = self.guides[listItem:GetID()].guide
         _G.GameTooltip:SetText(WoWPro:GetGuideName(guide.GID))
         _G.GameTooltip:SetPadding(20, 0)
-
-        tooltipIcon:SetTexture(guide.icon or FALLBACK_ICON)
-        tooltipIcon:Show()
-
         self.module:SetTooltip(guide)
     end
 end
@@ -166,39 +154,6 @@ function WoWPro.CreateGuideList()
     --OnShow(WoWPro.GuideList)
 end
 
-
-
-
-local TooltipButton, TooltipIcon
-function WoWPro:ShowTooltipIcon(icon, offsets)
-    if not TooltipButton then
-         TooltipButton, TooltipIcon = WoWPro:CreateLootsButton(_G.GameTooltip, 99)
-    end
-    TooltipButton:SetParent(_G.GameTooltip)
-    TooltipIcon:SetTexture(icon)
-    if offsets then
-        local x1, x2, y1, y2 = unpack(offsets)
-        TooltipIcon:SetTexCoord(x1, x2, y1, y2)
-    end
-    TooltipButton:SetPoint("TOPRIGHT", _G.GameTooltip, "TOPRIGHT", -4, -4)
-    TooltipButton:Show()
-end
-
-function WoWPro:HideTooltipIcon()
-    if TooltipButton then
-        TooltipButton:Hide()
-        TooltipButton:SetParent(nil)
-    end
-end
-
-
-
-
-
-
-
-
-
 --[[ OLD ]]--
 function WoWPro.ActivateTab(tab)
     if not WoWPro[tab.name].GuideList then
@@ -213,7 +168,6 @@ function WoWPro.ActivateTab(tab)
         WoWPro[tab.name]:Setup_TitleRow(WoWPro[tab.name].GuideList.Frame)
     end
     WoWPro.GuideList.TitleRow:Show()
-
     WoWPro[tab.name].GuideList.Frame:SetSize(WoWPro[tab.name].GuideList.Frame.frameWidth,WoWPro[tab.name].GuideList.Frame.frameHeight)
     WoWPro.GuideList.ScrollFrame:SetScrollChild(WoWPro[tab.name].GuideList.Frame)
     local vHeight = WoWPro[tab.name].GuideList.Frame.frameHeight-WoWPro.GuideList.ScrollFrame:GetHeight()
@@ -261,13 +215,9 @@ function WoWPro:UpdateGuideList()
                 row:SetScript("OnEnter", function(this)
                     WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row, _G.GameTooltip, iGuide.guide)
                     _G.GameTooltip:Show()
-                    if iGuide.guide.icon then
-                        WoWPro:ShowTooltipIcon(iGuide.guide.icon, iGuide.guide.icon_offsets)
-                    end
                 end)
                 row:SetScript("OnLeave", function(this)
                     _G.GameTooltip:Hide()
-                    WoWPro:HideTooltipIcon()
                 end)
             end
 
@@ -287,20 +237,13 @@ function WoWPro:Setup_TitleRow(frame)
         insets = { left = 0, right = 0, top = 5, bottom = -5}
     }
     local ROWHEIGHT = 17
-
     local TitleRow = WoWPro.GuideList.TitleRow
-
     TitleRow.buffer = TitleRow.buffer or _G.CreateFrame("CheckButton", self.name .. "TitleRow.buffer", TitleRow, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     TitleRow.buffer:SetBackdrop(titlerowBG)
     TitleRow.buffer:SetBackdropColor(0.2, 0.2, 0, 1)
     TitleRow.buffer:SetPoint("TOPLEFT", 4, 0)
     TitleRow.buffer:SetWidth(4)
     TitleRow.buffer:SetHeight(ROWHEIGHT)
-    -- local function OnShow(self)
-    --     WoWPro:Print("TitleRow.buffer:OnShow()")
-    -- end
-    -- TitleRow.buffer:SetScript("OnShow", OnShow)
-
 
     -- Create a button for each field
     for i,colDesc in pairs(self.GuideList.Format) do
@@ -337,9 +280,6 @@ function WoWPro:Setup_TitleRow(frame)
         lastButton = TitleRow[colDesc[1]]
     end
 
-    -- Last button gets the extra pixels!
-    --lastButton:SetPoint("RIGHT", TitleRow, "RIGHT")
-
     -- Set the OnClick handlers for each column that has a handler
     for _,colDesc in pairs(self.GuideList.Format) do
         if colDesc[3] then
@@ -366,13 +306,10 @@ WoWPro:Export("CreateGuideTabFrame_Rows")
 function WoWPro:CreateGuideTabFrame_Rows(frame)
     self.GuideList.Rows = {}
     self.GuideList.Offset = 0
-
     local sample = frame:CreateFontString(nil, nil, "GameFontHighlightSmall")
     sample:SetText("Something")
     local ROWHEIGHT = floor(sample:GetStringHeight()*1.5) -- Half a space between rows
     local frameHeight = 0
-
-
     local prevrow
     for i,iGuide in ipairs(self.GuideList.Guides) do
         local row = _G.CreateFrame("CheckButton", ("%s_Guide_Row%d"):format(self.name, i), frame)
@@ -381,13 +318,9 @@ function WoWPro:CreateGuideTabFrame_Rows(frame)
             row:SetScript("OnEnter", function(this)
                 WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row, _G.GameTooltip, iGuide.guide)
                 _G.GameTooltip:Show()
-                if iGuide.guide.icon then
-                    WoWPro:ShowTooltipIcon(iGuide.guide.icon, iGuide.guide.icon_offsets)
-                end
             end)
             row:SetScript("OnLeave", function(this)
                 _G.GameTooltip:Hide()
-                WoWPro:HideTooltipIcon()
             end)
         end
 
@@ -446,42 +379,30 @@ function WoWPro:CreateGuideTabFrame_Rows(frame)
             prevrow = row
         end
 
-
         row:SetPoint("LEFT", 4, 0)
         row:SetPoint("RIGHT", -4, 0)
         row:SetHeight(ROWHEIGHT)
-
         frameHeight = frameHeight + ROWHEIGHT
-
         local highlight = row:CreateTexture()
         highlight:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
         highlight:SetTexCoord(0, 1, 0, 0.578125)
         highlight:SetAllPoints()
         row:SetHighlightTexture(highlight)
         row:SetCheckedTexture(highlight)
-
         row.module = self
         row:SetScript("OnClick", self.GuideTabFrame_RowOnClick)
-
         self.GuideList.Rows[i] = row
-
     end
     frame.frameHeight = frameHeight
 end
 
-
 WoWPro:Export("CreateGuideTabFrame")
 function WoWPro:CreateGuideTabFrame()
     local frame
-
     if not self.GuideList.Frame then
         frame = _G.CreateFrame("Frame", self.name .. " TabFrame", WoWPro.GuideList.ScrollFrame)
         frame.module = self
         self.GuideList.Frame = frame
-        -- local function OnShow(self)
-        --     self.module:Print("GuideList.Frame: OnShow!")
-        -- end
-        -- frame:SetScript("OnShow", OnShow)
 
         -- Title Row --
         self:Setup_TitleRow(frame)
@@ -491,4 +412,3 @@ function WoWPro:CreateGuideTabFrame()
 
     end
 end
--- WoWPro.GuideList
