@@ -11,14 +11,12 @@ local defaultXpac = _G.LE_EXPANSION_CLASSIC
 local introZones = {
     [1409] = true, -- Exile's Reach - New Players
     [378] = true, -- The Wandering Isle - Pandaren
-
     [427] = true, -- Coldridge Valley - Dwarf
     [468] = true, -- Ammen Vale - Draenai
     [460] = true, -- Shadowglen - Night Elf
     [425] = true, -- Northshire - Human
     [179] = true, -- Gilneas - Worgen
     [469] = true, -- New Tinkertown - Gnome
-
     [194] = true, -- Kezan - Goblin
     [461] = true, -- Valley of Trials - Orc
     [462] = true, -- Camp Narache - Tauren
@@ -105,7 +103,6 @@ local function GetGuides()
                 level = guide.level,
 				sortlevel = guide.sortlevel
             }
-
             if WoWPro.CLASSIC then
                 guideInfo.Content = rangeFormat:format(guide.startlevel, guide.endlevel)
             else
@@ -176,7 +173,6 @@ local function progressSort(a, b)
     return a.progress and true or false
 end
 
-
 function Leveling:SetTooltip(guide)
     _G.GameTooltip:AddDoubleLine("Start Level:", tostring(guide.startlevel), 1, 1, 1, unpack(WoWPro.LevelColor(guide.startlevel)))
     _G.GameTooltip:AddDoubleLine("Avg. Level:", ("%.2f"):format(guide.level or 0), 1, 1, 1, unpack(WoWPro.LevelColor(guide)))
@@ -214,7 +210,7 @@ function Leveling:GetGuideListInfo()
             headerInfo = {
                 sorts = {zoneSort, contentSort, authorSort, progressSort},
                 names = {"Zone", "Content", "Author", "Progress"},
-                size = {0.35, 0.25, 0.30, 0.10},
+                size = {0.35, 0.25, 0.28, 0.12},
             },
         }
 		WoWPro.GuidelistReset = false
@@ -222,5 +218,4 @@ function Leveling:GetGuideListInfo()
     return listInfo
 end
 Leveling.sortIndex = 2
-
 Leveling:dbp("Guide Setup complete")
