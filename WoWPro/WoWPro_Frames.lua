@@ -239,7 +239,7 @@ function WoWPro.RowSizeSet()
 
         -- Setting the note frame size correctly, setting up mouseover notes --
         local newh, noteh, trackh
-        if row.jumpbutton:IsShown() or (WoWProDB.profile.mousenotes and row.index and (WoWPro.note[row.index] or (WoWPro.map[row.index] and WoWProDB.profile.showcoords))) then
+        if (row.jumpbutton:IsShown() and row.step:GetText() ~= "It's Chromie Time!") or (WoWProDB.profile.mousenotes and row.index and (WoWPro.note[row.index] or (WoWPro.map[row.index] and WoWProDB.profile.showcoords))) then
             noteh = 1
             row.note:Hide()
             WoWPro.mousenotes[i].note:SetText(row.note:GetText())
