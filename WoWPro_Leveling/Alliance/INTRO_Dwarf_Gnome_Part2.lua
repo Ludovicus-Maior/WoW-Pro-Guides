@@ -13,28 +13,28 @@ T Bound for Kharanos|QID|26380|M|54.47,50.81|N|To Innkeeper Belm.|R|Gnome|
 h Thunderbrew Distillery|QID|26373|M|54.47,50.81|N|Make Thunderbrew Distillery your new home at Innkeeper Belm.|
 N Sell junk|QID|26373|M|54.47,50.81|N|To Innkeeper Belm. Close when done.|
 B Rhapsody Malt|QID|384|M|54.47,50.81|N|From Innkeeper Belm.|L|2894|
-N Secondary Profession: Cooking |QID|26373|M|54.73,50.58|N|If you want to learn Cooking, now's the time to start, Gremlock Pilsnor will start you off. Click this step to continue.|R|Gnome,Dwarf|
-A Honor Students |QID|6387|M|54.73,50.58|N|From Gremlock.|R|Gnome,Dwarf|
+N Secondary Profession: Cooking |QID|26373|M|54.73,50.58|N|If you want to learn Cooking, now's the time to start, Gremlock Pilsnor will start you off. Click this step to continue.|R|Gnome,Dwarf,Dark Iron Dwarf|
+A Honor Students |QID|6387|M|54.73,50.58|N|From Gremlock.|R|Gnome,Dwarf,Dark Iron Dwarf|
 ; [aldavor] removed references to class training - redundant.
 A The Perfect Stout|QID|315|M|54.12,51.21|N|From Rejold Barleybrew.|
-N Primary Professions |QID|26373|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |R|Gnome,Dwarf|
+N Primary Professions |QID|26373|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |R|Gnome,Dwarf,Dark Iron Dwarf|
 T On to Kharanos|QID|26373|M|53.68,52.17|N|To Captain Tharran.|R|Gnome|
 A Frostmane Aggression|QID|25724|M|53.68,52.17|N|From Captain Tharran.|
-T Honor Students |QID|6387|M|53.80,52.75|N|To Brolan Galebeard.|R|Gnome,Dwarf|
-A Bound for Kharanos|QID|26380|M|49.89,45.01|N|From Ciara Deepstone.|R|Dwarf,Human,Nightelf,Worgen,Draenei|
-A Ride to Ironforge |RANK|2|QID|6391|PRE|6387|M|53.80,52.75|N|The next three quests see you ride to Ironforge and back, and is worth 1,580 XP and some reputation with Ironforge and Gnomeregan.|R|Gnome,Dwarf|
-F Ironforge |RANK|2|QID|6391|M|53.80,52.75|N|Speak with Brolan Galebeard and ask him to fly you to Ironforge|R|Gnome,Dwarf|
-T Ride to Ironforge |RANK|2|QID|6391|M|51.37,26.27|N|To Golnir Bouldertoe, inside the Deepmountain Mining & Jewelcrafting shop (climb steps to first floor, then go downstairs to him)|R|Gnome,Dwarf|Z|Ironforge|
-A Gryth Thurden |RANK|2|QID|6388|M|51.37,26.27|N|From Golnir Bouldertoe|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
-T Gryth Thurden |RANK|2|QID|6388|M|55.42,47.80|N|Back to the flight master, Gryth Thurden|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
-A Return to Gremlock |RANK|2|QID|6392|PRE|6388|M|55.42,47.80|N|From Gryth Thurden|R|Gnome,Dwarf|Z|Ironforge|
-F Thunderbrew Distillery|RANK|2|QID|6392|M|54.73,50.58|N|Either Fly back to Kharanos then run into the Inn, or use your Hearthstone back to Kharnos|PRE|6391|R|Gnome,Dwarf|
-T Return to Gremlock |RANK|2|QID|6392|M|54.73,50.81|N|To Gremlock Pilsnor|PRE|6391|R|Gnome,Dwarf|
+T Honor Students |QID|6387|M|53.80,52.75|N|To Brolan Galebeard.|R|Gnome,Dwarf,Dark Iron Dwarf|
+A Bound for Kharanos|QID|26380|M|49.89, 45.01|N|From Ciara Deepstone.|R|-Gnome|
+A Ride to Ironforge |RANK|2|QID|6391|PRE|6387|M|53.80,52.75|N|The next three quests see you ride to Ironforge and back, and is worth 1,580 XP and some reputation with Ironforge and Gnomeregan.|R|Gnome,Dwarf,Dark Iron Dwarf|
+F Ironforge |RANK|2|QID|6391|M|53.80,52.75|N|Speak with Brolan Galebeard and ask him to fly you to Ironforge|R|Gnome,Dwarf,Dark Iron Dwarf|
+T Ride to Ironforge |RANK|2|QID|6391|M|51.37,26.27|N|To Golnir Bouldertoe, inside the Deepmountain Mining & Jewelcrafting shop (climb steps to first floor, then go downstairs to him)|R|Gnome,Dwarf,Dark Iron Dwarf|Z|Ironforge|
+A Gryth Thurden |RANK|2|QID|6388|M|51.37,26.27|N|From Golnir Bouldertoe|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|Z|Ironforge|
+T Gryth Thurden |RANK|2|QID|6388|M|55.42,47.80|N|Back to the flight master, Gryth Thurden|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|Z|Ironforge|
+A Return to Gremlock |RANK|2|QID|6392|PRE|6388|M|55.42,47.80|N|From Gryth Thurden|R|Gnome,Dwarf,Dark Iron Dwarf|Z|Ironforge|
+F Thunderbrew Distillery|RANK|2|QID|6392|M|54.73,50.58|N|Either Fly back to Kharanos then run into the Inn, or use your Hearthstone back to Kharnos|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|
+T Return to Gremlock |RANK|2|QID|6392|M|54.73,50.81|N|To Gremlock Pilsnor|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|
 R Shimmer Ridge|QID|25724|M|49.95,43.90|N|Run to here then head up the hill.|
 C The Perfect Stout|QID|315|N|Collect Shimmerweeds  from the baskets on the ground.|S|
 C Frostmane Aggression|QID|25724|M|49.03,37.87|N|Kill Frostmane Seers and Snowstriders.|
 C The Perfect Stout|QID|315|N|Collect any Shimmerweeds you still need from the baskets on the ground.|US|
-T Bound for Kharanos|QID|26380|M|54.45,50.70|N|To Innkeeper Belm.|R|Dwarf,Human,Nightelf,Worgen,Draenei|
+T Bound for Kharanos|QID|26380|M|54.45,50.70|N|To Innkeeper Belm.|R|-Gnome|
 T The Perfect Stout|QID|315|M|54.12,51.21|N|To Rejold Barleybrew.|
 T Frostmane Aggression|QID|25724|M|53.68,52.17|N|To Captain Tharran.|
 A Culling the Wendigos|QID|25667|PRE|25724|M|53.68,52.17|N|From Captain Tharran.|
