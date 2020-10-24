@@ -134,7 +134,7 @@ $ Odd Boulder|QID|36732|M|44.17,46.65|N|Call Beatface (click on the rock) to exp
 C Fair Warning|QID|35128|M|32.12,75.66|QO|1|S|N|Go into the cave and kill them as you go down.|Z|Fissure of Fury@Gorgrond|
 C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|CHAT|QO|1|N|Talk to Thukmar and then take care of him.|Z|Fissure of Fury@Gorgrond|
 C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|NC|QO|2|N|The intel is on the ground beside Thukmar.|;this seems to not be on map layer 19, despite it showing on map layer 19 when you open the map...
-$ Horned Skull|QID|35056|M|42.1,66.73|QO|1|N|Loot for some Garrison Resources.|RANK|3|Z|Fissure of Fury@Gorgrond|ITEM|$934|PRE|35880|
+$ Horned Skull|QID|35056|M|42.1,66.73|QO|1|N|Loot for some Garrison Resources.|RANK|3|Z|Fissure of Fury@Gorgrond|ITEM|$824|PRE|35880|
 K Gelgor of the Blue Flame|QID|36391|M|34.0,38.6|T|Gelgor the Blue Flame|L|118230|N|Kill and loot for an ilvl 534 versatility trinket.|PRE|35880|RANK|3|ITEM|118230|;in fissure of fury
 $ Odd Boulder|QID|36723|M|60.34,44.75|Z|Fissure of Fury@Gorgrond|N|Call Beatface (click on the rock) to expose the Aged Stone Container|PRE|35880|RANK|3|;7
 C Fair Warning|QID|35128|M|30.78,75.97|US|;Z|;Fissure of Fury|
@@ -372,7 +372,7 @@ C South Gronn Canyon-Bonus Objective|QID|36476|M|48.91,53.19|N|Kill Goren, Gronn
 t South Gronn Canyon-Bonus Objective|QID|36476|M|48.91,53.19|N|Auto tuen in.|RANK|3|
 $ Harvestable Precious Crystal|QID|36651|PRE|35707|M|44.55,50.76;46.12,49.95|CS|QO|1|N|Enter Glut's Burrow and you will find the crystal in the back, feel free to kill the Glut (silver elite} while you are here.|RANK|3|ITEM|$824|
 K Glut|QID|36204|PRE|35707|M|46.2,50.8|T|Glut|L|118229|N|Kill and loot for an ilvl 534 agility trinket.|RANK|3|ITEM|118229|
-$ Horned Skull|QID|35056|PRE|35707|M|42.56,46.88|QO|1|N|Loot for some Garrison Resources. At the bottom of the cave.|RANK|3|ITEM|$934|
+$ Horned Skull|QID|35056|PRE|35707|M|42.56,46.88|QO|1|N|Loot for some Garrison Resources. At the bottom of the cave.|RANK|3|ITEM|$824|
 K Gelgor of the Blue Flame|QID|36391|PRE|35707|M|41.89,45.43|T|Gelgor the Blue Flame|L|118230|N|Kill and loot for an ilvl 534 versatility trinket.|RANK|3|ITEM|118230|Z|Fissure of Fury@Gorgrond| ;in fissure of fury
 $ Iron Supply Chest|QID|36618|M|42.77,44.42;43.7,42.5|PRE|35707|CS|QO|1|N|Down inside Brak's Excavation (a cave). Loot for some Garrison Resources.|RANK|3|ITEM|$824|
 $ Sniper's Crossbow|QID|36634|M|45.0,42.6|PRE|35707|QO|1|N|Pick up an ilvl 539 crossbow.|RANK|3|ITEM|118713|;above/across from fissure of fury
