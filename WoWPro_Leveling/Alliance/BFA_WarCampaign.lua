@@ -1026,9 +1026,11 @@ N Nazjatar|AVAILABLE|56378|M|PLAYER|JUMP|Nazjatar|N|Now you can continue on to N
 ; Elidion - Not sure about a lot of this, pasting what seems to be removed, will do another pass on live.
 
 ; Heart of Azeroth questline - Level 54
-A In Darkness, I Dream|QID|55390|N|From Kalecgos, in the Chamber of the Heart after HoA 54.|O|
-P Dalaran|ACTIVE|55390|N|Use your Dalaran hearthstone.|
-F Garden of the Moon|ACTIVE|55390|N|Now fly to Val'sharah|
+
+A In Darkness, I Dream|QID|55390|N|From Kalecgos, in the Chamber of the Heart after HoA 54.|
+H Dalaran|ACTIVE|55390|N|Use your Dalaran hearthstone.|
+F Garden of the Moon|ACTIVE|55390|M|69.82,51.15|Z|Dalaran!Broken Isles|N|Now fly to Val'sharah|TAXI|Garden of the Moon|
+F Lorlathil|ACTIVE|55390|M|69.82,51.15|Z|Dalaran!Broken Isles|N|Now fly to Val'sharah|TAXI|-Garden of the Moon|
 T In Darkness, I Dream|QID|55390|M|51.62,57.22|Z|Val'sharah|N|To Merithra of the Dream, at the Temple of Elune.|
 A Enter the Dreamway|QID|55392|M|51.62,57.22|Z|Val'sharah|N|From Merithra of the Dream|PRE|55390|
 C Merithra of the Dream|QID|55392|M|51.62,57.22|Z|Val'sharah|NC|CHAT|N|Ask Merithra to go to the Dreamway.|
@@ -1060,34 +1062,54 @@ A The Long Awake|QID|55398|M|46.57,39.66|Z|The Emerald Dream!Instance|N|From Mer
 P Chamber of Heart|ACTIVE|55398|M|46.57,39.66|Z|The Emerald Dream!Instance|NC|CHAT|N|Ask Merithra to leave the Emerald Dream to Val'sharah or get to the Chamber of Heart however.|
 N Afterwards|ACTIVE|55398|N|Merithra will make a speech and leave you with a Scale.  Open the Heart Forge and then click on the scale to upgrade to rank 2|
 T The Long Awake|QID|55398|M|53.85,62.11|Z|Chamber of Heart!Dungeon1473|N|To Merithra of the Dream|
+
+; Hearth of Azeroth Questline - Level 55
+
+A Return to the Heart|QID|56261|M|75.08,14.93|Z|Boralus|N|From Earthen Guardian, after getting your necklace to 55.|PRE|56162|LEAD|55519|  ; pre is Back out to Sea--from Najzatar guide
+P Silithus|ACTIVE|56261|M|69.65,15.95|Z|Boralus|TZ|Magni's Encampment|N|Take the portal to Silithus.|
+P Chamber of Heart|ACTIVE|56261|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
+T Return to the Heart|QID|56261|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard, inside the Chamber of Heart.|
+A A Fresh Trauma|QID|55519|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|56162| ; removed 55522, changed to 56162 - unconfirmed PRE, but 55522 is not needed.
+P Boralus|ACTIVE|55519|M|41.48,44.86|Z|Silithus|TZ|Boralus Harbor|N|Take Portal to Boralus.|
+P Stormwind City|ACTIVE|55519|M|70.10,16.78|Z|Boralus|N|Take Portal to Stormwind.|
+P Mount Hyjal|ACTIVE|55519|M|76.17,18.71|Z|Stormwind City|N|Take the Earthern Ring portal to Mount Hyjal.|
+T A Fresh Trauma|QID|55519|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
+A Healing Nordrassil|QID|55520|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|PRE|55519|
+K Healing Nordrassil|QID|55520|M|60.71,25.84|Z|Mount Hyjal|QO|2|T|Azerite Leviathan|N|Kill the Azerite Leviathan|
+C Healing Nordrassil|QID|55520|M|60.71,25.84|Z|Mount Hyjal|QO|1|N|Kill Azerite Mobs around the lake. You can also sooth fairy dragons and heal azerite wounds for quest credit.|EAB|
+T Healing Nordrassil|QID|55520|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
+A Do It the Azerite Way|QID|55521|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|PRE|55520|
+H Snug Harbor Inn|ACTIVE|55521|M|62.03,24.92|Z|Mount Hyjal|N|Hearth or otherwise travel to Silithus and the Chamber of Heart.|
+P Silithus|ACTIVE|55521|M|69.63,15.92|Z|Boralus|TZ|Magni's Encampment|N|Take the portal to Silithus.|
+P Chamber of Heart|ACTIVE|55521|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
+T Do It the Azerite Way|QID|55521|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
+
 ; Heart of Azeroth questline - Level 60
-A Investigating the Highlands|QID|56167|M|52.54,69.95|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos.\n\nHeart needs to be level 60.|O|PRE|55398|  ; Heart needs to be lvl 60, but 55398 is part of prev chain, so leaving, but noting lvl 60
-P Twilight Highlands|ACTIVE|56167|N|Get thee to Twilight Highlands|
+
+A Investigating the Highlands|QID|56167|M|52.54,69.95|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos.\n\nHeart needs to be level 60.|PRE|55521|  ; Heart needs to be lvl 60, but 55521 is part of prev chain, so leaving, but noting lvl 60
+P Silithus|ACTIVE|56167|M|50.17,30.42|Z|Chamber of Heart!Dungeon1473|TZ|Magni's Encampment|N|Travel by method of choice to Twilight Highlands.|
+P Boralus|ACTIVE|56167|M|41.48,44.86|Z|Silithus|TZ|Boralus Harbor|N|Take Portal to Boralus.|
+P Stormwind City|ACTIVE|56167|M|70.10,16.78|Z|Boralus|N|Take Portal to Stormwind.|
+P Twilight Highlands|ACTIVE|56167|M|75.33,16.49|Z|Stormwind City|N|Take the Earthern Ring portal to Twilight Highlands.|
 T Investigating the Highlands|QID|56167|M|35.95,50.49|Z|Twilight Highlands|N|To Kalecgos.|
 A In the Shadow of Crimson Wings|QID|55657|M|35.95,50.49|Z|Twilight Highlands|N|From Kalecgos.|PRE|56167|
-C In the Shadow of Crimson Wings|QID|55657|M|35.95,50.49|Z|Twilight Highlands|QO|1|NC|CHAT|N|Speak with Kalecgos to start the scenario.|
-C Enemy threat reduced|M|59.93,23.38|Z|Twilight Highlands!Instance|SO|1;1|N|Kill the Void-Twisted attackers till threat reduced to 100%.|
-C Meet Alexstrasza atop the Vermillion Redoubt|M|64.16,29.93|Z|Twilight Highlands!Instance|SO|2;1|NC|CHAT|N|Meet Alexstrasza atop the Vermillion Redoubt and chat with her to start the next phase.|
-C Stemming the Corruption|Z|Twilight Highlands|SO|3|S|N|Free the corrupted drakes atop the Vermillion Redoubt.|
-C In the Shadow of Crimson Wings|QID|55657|M|64.16,29.93|Z|Twilight Highlands!Instance|QO|2|N|1/1 Alexstrasza reached|
-C In the Shadow of Crimson Wings|QID|55657|M|67.03,35.23|Z|Twilight Highlands!Instance|QO|3|N|1/1 Threat discovered|
-C Vermillion Sentinels rescued|M|66.97,40.22|Z|Twilight Highlands!Instance|SO|3;1|N|Vermillion Sentinels rescued|
-C Stemming the Corruption|Z|Twilight Highlands|SO|3|US|N|Free the corrupted drakes atop the Vermillion Redoubt.|
-C Take to the Skies!|Z|Twilight Highlands|SO|4|S|N|Mount Kalecgos atop the ridge at the Vermillion Redoubt.|
-C Kalecgos mounted|M|62.81,44.06|Z|Twilight Highlands!Instance|SO|4;1|N|Kalecgos mounted|
-C Take to the Skies!|Z|Twilight Highlands|SO|4|US|N|Mount Kalecgos atop the ridge at the Vermillion Redoubt.|
-C From the Shadows|Z|Twilight Highlands|SO|5|S|N|Confront Vexiona outside of Grim Batol.|
-C In the Shadow of Crimson Wings|QID|55657|M|47.06,86.16|Z|Twilight Highlands!Instance|QO|4|N|1/1 Vexiona confronted|
-C Vexiona confronted|M|47.06,86.16|Z|Twilight Highlands!Instance|SO|5;1|N|Vexiona confronted|
-C From the Shadows|Z|Twilight Highlands|SO|5|US|N|nil|
-C nil|Z|Twilight Highlands|SO|0|S|N|nil|
-C In the Shadow of Crimson Wings|QID|55657|M|45.78,86.30|Z|Twilight Highlands!Instance|QO|5|N|Loot the Lost Scale of the Scarlet Broodmother|
-C In the Shadow of Crimson Wings|QID|55657|M|46.44,86.44|Z|Twilight Highlands!Instance|QO|6|N|Ride Corastrasza to Silithus|
+C In the Shadow of Crimson Wings|QID|55657|M|35.95,50.49|Z|Twilight Highlands|QO|1|NC|CHAT|N|Speak with Kalecgos to start the Scenario.|
+C Enemy threat reduced|M|64.15,29.96|Z|Twilight Highlands!Instance|SO|1|N|Kill the Void-Twisted attackers while Heading up the hill towards Alexstrasza.|
+C The Life Binder|SO|2|ACTIVE|55657|M|64.15,29.96|Z|Twilight Highlands!Instance|N|Mount up and continue up the hill to Alexstraxza. Chat with Alex when you arrive.|CHAT|
+C Stemming the Corruption|SO|3|ACTIVE|55657|M|60.80,42.22|Z|Twilight Highlands!Instance|N|You can find the sentinals further up the hill, kill the void dragonkin guarding them and then click on the sentinals to rescue them.|
+C Take to the Skies|SO|4|ACTIVE|55657|M|63.05,44.01|Z|Twilight Highlands!Instance|N|Back to Kalecgos for a ride up to Vexiona.|V|
+C From the Shadows|SO|5|ACTIVE|55657|M|46.41,86.27|Z|Twilight Highlands!Instance|N|Mount up and run over to Vexiona and fight the void touched invaders that are preventing Alexstraza from fighting Vexiona.|
+C In the Shadow of Crimson Wings|QID|55657|M|45.80,86.32|Z|Twilight Highlands!Instance|N|Pick up the Lost Red Scale.|NC|
+C In the Shadow of Crimson Wings|QID|55657|QO|6|M|46.38,86.44|Z|Twilight Highlands!Instance|N|Hop on Corastrasza for a ride out or otherwise return to the Chamber of Heart.|V|
+P Chamber of Heart|ACTIVE|55657|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
 N Afterwards|ACTIVE|55657|N|Alexstrasza will make a speech and leave you with a Scale.  Open the Heart Forge and then click on the scale to upgrade to rank 3|
 T In the Shadow of Crimson Wings|QID|55657|M|54.18,65.96|Z|Chamber of Heart!Dungeon1473|N|To Alexstrasza the Life-Binder.|
+
 ; Heart of Azeroth questline - Level 65
+
 A Back to the Chamber|QID|56262|M|75.05,14.97|Z|Boralus|N|From Earthen Guardian.|LEAD|55732|LVL|50|
-T Supplies Needed: Shimmerscale|QID|51032|M|41.41,45.19|Z|Silithus|
+P Silithus|ACTIVE|55151|M|69.63,15.92|Z|Boralus|TZ|Magni's Encampment|N|Take the portal to Silithus.|
+P Chamber of Heart|ACTIVE|56262|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
 T Back to the Chamber|QID|56262|M|50.12,59.17|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A An Old Scar|QID|55732|M|50.12,59.17|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|LVL|50|
 C An Old Scar|QID|55732|M|48.18,72.28|Z|Chamber of Heart!Dungeon1473|CHAT|QO|1|N|Speak to MOTHER to Travel to the Maelstrom.|
@@ -1098,14 +1120,11 @@ C Defending the Maelstrom|QID|55735|M|28.39,29.36|Z|The Maelstrom - Heart of Aze
 T Defending the Maelstrom|QID|55735|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth!Instance|N|To Magni Bronzebeard.|
 A At the Azerite Time|QID|55737|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth!Instance|N|From Magni Bronzebeard.|PRE|55735|  ; well it's assumed you'd do the prev quest, but to make Grail happy.
 T At the Azerite Time|QID|55737|M|48.11,72.24|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
+
+
 ; 4.5k Friendly with The 7th Legion
 A Operation: Blood Arrow|QID|53069|M|69.28,27.00|Z|Boralus|N|Autoaccepted.|O|REP|7th Legion;2159;friendly;4500|PRE|52146|LEAD|52147|  ; Technically you need 52146 done AND REP for this quest to popup, REP gate NOT removed from this quest (and also subsquent LEAD quests.)
 T Operation: Blood Arrow|QID|53069|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-
-
-
-
-
 
 ; 3k Honored with The 7th Legion
 A Operation: Cutpurse|QID|53070|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|REP|7th Legion;2159;honored;3000|PRE|52219|LEAD|52154| ; Technically you need 52219 done AND REP for this quest to popup, REP gate NOT removed from this quest (and also subsquent LEAD quests.)
