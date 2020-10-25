@@ -141,6 +141,24 @@ function WoWPro:CheckAnimaPowers()
 	return numBuffs
 end
 
+
+function WoWPro.AuraScan(tabula, filter)
+    local BuffIndex = 1
+    local BuffString = tabula[0] or ""
+    local BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,filter)
+    while BuffName do
+        tabula[BuffSpellId] = BuffCount or 1
+        if BuffString ~= "" then
+            BuffString = BuffString .. ","
+        end
+        BuffString = BuffString .. ("%s(%d)"):format(BuffName, BuffSpellId)
+        BuffIndex = BuffIndex + 1
+        BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,filter)
+    end
+    tabula[0] = BuffString
+    return tabula
+end
+
 function WoWPro:CheckPlayerForBuffs(buffs)
     -- Check for buff count syntax
     local buff, bcount= ("<"):split(buffs)
@@ -153,30 +171,22 @@ function WoWPro:CheckPlayerForBuffs(buffs)
     end
     local buffies = {}
     -- Build table of all active buffs
-    local BuffIndex = 1
-    local BuffString = ""
-    local BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
-    while BuffName do
-    if bcount and BuffSpellId == buff then
-            if tonumber(bcount) <= BuffCount then
-                WoWPro:dbp("CheckPlayerForBuffs(%s): <=%s", buffs, bcount)
-                return bflip and BuffSpellId
-            end
-    else
-            buffies[BuffSpellId] = true
-        end
-        if BuffIndex > 1 then
-            BuffString = BuffString .. ","
-        end
-        BuffString = BuffString .. ("%s(%d)"):format(BuffName, BuffSpellId)
-        BuffIndex = BuffIndex + 1
-        BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
-    end
+    buffies = WoWPro.AuraScan(buffies, "HELPFUL")
+    buffies = WoWPro.AuraScan(buffies, "HARMFUL")
+    -- Go do buff counts, if needed.
     if bcount then
-        WoWPro:dbp("CheckPlayerForBuffs(%s): Fail <=%s", buffs, bcount)
-        return false == bflip
+        if buffies[buff] then
+            if bcount <= buffies[buff] then
+                WoWPro:dbp("CheckPlayerForBuffs(%s): <=%s", buffs, bcount)
+                return bflip and buff
+            end
+        else
+            WoWPro:dbp("CheckPlayerForBuffs(%s): Fail <=%s", buffs, bcount)
+            return false == bflip
+        end
     end
-    WoWPro:dbp("CheckPlayerForBuffs(%s): %s", buffs, BuffString)
+
+    WoWPro:dbp("CheckPlayerForBuffs(%s): %s", buffs, buffies[0])
     return WoWPro:QIDInTable(buffs, buffies)
 end
 
@@ -726,10 +736,11 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 	if successfulRequest and prefix == "WoWPro" then
 		local synctype, message = string.split(" ", text, 2)
 		local gname = string.split("-", sender, 2)
+		--WoWPro.playerGroup["Caylassa-Anasterian"]["track"][7]
 		if gname ~= _G.UnitName("Player") then
 			if synctype == "group" then
-				local gclass, grace, ggender, gversion, gstep = string.split(" ", message, 5)
-				if WoWPro.Version == gversion and WoWPro.playerGroup[sender] == nil then
+				local gclass, grace, ggender, gstep = string.split(" ", message, 4)
+				if WoWPro.playerGroup[sender] == nil then
 					WoWPro.playerGroup[sender] = {
 						pname = gname,
 						class = gclass,
@@ -740,10 +751,8 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 					}
 					WoWPro.GroupSync = true
 					WoWPro:LoadGuideStepsReal()
-				elseif WoWPro.Version ~= gversion then
-					WoWPro:Print("Version mismatch: "..gname.."'s WoWPro is running "..gversion..". You are running "..WoWPro.Version)
 				end
-			elseif synctype == "steps" and WoWPro.GroupSync then
+			elseif synctype == "steps" then
 				if (WoWPro.playerGroup[sender] ~= nil) then
 					local tbl = {string.split(" ", message)}
 					WoWPro.playerGroup[sender]["step"] = {}
@@ -762,20 +771,20 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 					_G.C_ChatInfo.SendAddonMessage("WoWPro", "NeedGroup NOW" , "PARTY")
 				end
 				WoWPro:UpdateGuide(event)
-			elseif synctype == "track" and WoWPro.GroupSync then
+			elseif synctype == "track" then
 				if (WoWPro.playerGroup[sender] ~= nil) then
 					local gindex, gtrack = string.split(" ", message, 2)
 					WoWPro.playerGroup[sender]["track"][tonumber(gindex)] = gtrack
 					WoWPro.myGroupTrack = {}
 					for index,gvalue in pairs(WoWPro.playerGroup) do
 						foreach(gvalue["track"], function(gkey,gval)
-							WoWPro.myGroupTrack[tonumber(gkey)] = (WoWPro.myGroupTrack[tonumber(gkey)] or "") .. "\n" .. gname .. ": " .. gval
+							WoWPro.myGroupTrack[tonumber(gkey)] = (WoWPro.myGroupTrack[tonumber(gkey)] or "") .. "\n" .. gval .. " - " .. gname
 						end);
 					end
 				else
 					_G.C_ChatInfo.SendAddonMessage("WoWPro", "NeedGroup NOW" , "PARTY")
 				end
-			elseif synctype == "NeedGroup" and WoWPro.GroupSync then
+			elseif synctype == "NeedGroup" then
 				WoWPro:SendGroupInfo()
 			end
 		end
