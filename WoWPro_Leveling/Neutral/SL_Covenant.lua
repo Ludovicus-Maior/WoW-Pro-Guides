@@ -373,35 +373,40 @@ H Heart of the Forest|ACTIVE|58452|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Use y
 T Tracking the Shadows|QID|58452|M|44.81,38.33|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera, she is still hanging out on the middle platform.|COV|Night Fae|
 ;Deal for a Loa
 A An Expected Guest|QID|59731|PRE|58452|M|44.08,38.81|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|
-T An Expected Guest|QID|59731|M|48.33,52.53|Z|Ardenweald!The Shadowlands|N|To Bwonsamdi.|COV|Night Fae|
+T An Expected Guest|QID|59731|M|48.33,52.53|Z|Ardenweald!The Shadowlands|N|To Bwonsamdi outside being "greated" by the Hunt.|COV|Night Fae|
 A Something Extra for the Winter Queen|QID|59732|PRE|59731|M|48.33,52.53|Z|Ardenweald!The Shadowlands|N|From Bwonsamdi.|COV|Night Fae|
-C Something Extra for the Winter Queen|QID|59732|M|50.54,45.51|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Entrance to Bwonsamdi's Necropolis found.|COV|Night Fae|
+C Something Extra for the Winter Queen|QID|59732|M|50.54,45.51|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Run to this location.|COV|Night Fae|
 C Something Extra for the Winter Queen|QID|59732|M|50.58,44.60|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Portal taken to the Necropolis.|COV|Night Fae|
 T Something Extra for the Winter Queen|QID|59732|M|39.57,24.72|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
 A The Problem with Containing a Death Loa|QID|59739|PRE|59732|M|39.57,24.72|Z|Nazmir|N|From Bwonsamdi.|COV|Night Fae|
 A Dark Mojo for a Dark Loa|QID|59741|PRE|59732|M|39.55,24.78|Z|Nazmir|N|From Hanzabu.|COV|Night Fae|
 A Delaying the Other Side|QID|59742|PRE|59732|M|39.55,24.78|Z|Nazmir|N|From Hanzabu.|COV|Night Fae|
-C The Problem with Containing a Death Loa|QID|59739|M|39.56,36.38|Z|Nazmir|U|177817|NC|N|Zel'han's Broken Armor.|COV|Night Fae|
-C Delaying the Other Side|QID|59742|M|40.86,31.93|Z|Nazmir|U|177817|NC|N|Injured worshiper rescued.|COV|Night Fae|
-C Dark Mojo for a Dark Loa|QID|59741|M|37.85,30.12|Z|Nazmir|NC|N|Dark Mojo.|COV|Night Fae|
-T Dark Mojo for a Dark Loa|QID|59741|M|39.57,24.73|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
-T Delaying the Other Side|QID|59742|M|39.57,24.73|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
+C Dark Mojo for a Dark Loa|QID|59741|M|37.85,30.12|S|Z|Nazmir|NC|N|Kill the Servants, Terrors and Tyrants to fill the bar.|COV|Night Fae|
+C Delaying the Other Side|QID|59742|M|40.86,31.93|S|Z|Nazmir|U|177817|NC|N|Injured worshiper rescued.|COV|Night Fae|
+C The Problem with Containing a Death Loa|QID|59739|M|39.56,36.38|Z|Nazmir|U|177817|NC|N|Zel'han's Broken Armor loot from Zel'han.|COV|Night Fae|
+C Dark Mojo for a Dark Loa|QID|59741|M|37.85,30.12|US|Z|Nazmir|NC|N|Finish Killing.|COV|Night Fae|
+C Delaying the Other Side|QID|59742|M|40.86,31.93|US|Z|Nazmir|U|177817|NC|N|Save the remaining.|COV|Night Fae|
 T The Problem with Containing a Death Loa|QID|59739|M|39.57,24.73|Z|Nazmir|N|To Mueh'zala.|COV|Night Fae|
+T Delaying the Other Side|QID|59742|M|39.57,24.73|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
+T Dark Mojo for a Dark Loa|QID|59741|M|39.57,24.73|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
 A One Little Whisper|QID|59749|PRE|59741&59742&59739|M|39.57,24.73|Z|Nazmir|N|From Bwonsamdi.|COV|Night Fae|
 C One Little Whisper|QID|59749|M|39.19,25.18|Z|Nazmir|QO|1|NC|N|Special friend summoned.|COV|Night Fae|
-C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|2|NC|N|Speak with Bwonsamdi to begin the ritual.|COV|Night Fae|
-C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|3|NC|N|Ritual completed.|COV|Night Fae|
+C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|2|CHAT|N|Speak with Bwonsamdi to begin the ritual.|COV|Night Fae|
+C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|3|NC|N|Ritual completed. Use the Mojo to heal the Priests.|COV|Night Fae|
 T One Little Whisper|QID|59749|M|39.57,24.69|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
 A Maw Manifested|QID|59805|PRE|59749|M|39.57,24.69|Z|Nazmir|N|From Bwonsamdi.|COV|Night Fae|
-C Maw Manifested|QID|59805|M|39.57,24.69|Z|Nazmir|QO|1|NC|N|Speak with Vol'jin.|COV|Night Fae|
-C Maw Manifested|QID|59805|M|44.95,40.99|Z|The Maw|QO|2|NC|N|Travel to the Maw.|COV|Night Fae|
+C Maw Manifested|QID|59805|M|39.57,24.69|Z|Nazmir|QO|1|CHAT|N|Speak with Vol'jin.|COV|Night Fae|
+R Ardenweald|M|50.55,44.57|Z|Ardenweald!The Shadowlands|N|Take the DK looking portal to Bwonsamdis left to return to Ardenweald.|COV|Night Fae|
+F Ring of Transference|M|52.14,8.70|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
+R Ring of Transference|ACTIVE|54180|M|52.26,55.40|Z|Ring of Transference@Oribos|N|Make your way to the Ring of Transference.|
+C Maw Manifested|QID|59805|M|44.95,40.99|Z|The Maw|QO|2|NC|N|Make your way to the Maw.|COV|Night Fae|
 T Maw Manifested|QID|59805|M|44.85,41.02|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Tracking a Wild God|QID|59822|PRE|59805|M|44.85,41.02|Z|The Maw|N|From Unknown.|COV|Night Fae|
 C Tracking a Wild God|QID|59822|M|42.71,43.87|Z|The Maw|QO|1|NC|N|First clue found.|COV|Night Fae|
 C Tracking a Wild God|QID|59822|M|35.63,55.95|Z|The Maw|QO|2|NC|N|Second clue found.|COV|Night Fae|
 C Tracking a Wild God|QID|59822|M|37.34,66.55|Z|The Maw|QO|3|NC|N|Wild god rescued.|COV|Night Fae|
 R Face of Oblivion|QID|59822|ACTIVE|59822|M|40.85,64.33|Z|The Maw|N|Make your way to the Face of Oblivion.|COV|Night Fae|
-C Tracking a Wild God|QID|59822|M|40.86,64.40|Z|The Maw|QO|4|NC|N|Ashamane absorbed into the soulkeeper crystal.|COV|Night Fae|
+C Tracking a Wild God|QID|59822|M|40.86,64.40|Z|The Maw|QO|4|CHAT|N|Ashamane absorbed into the soulkeeper crystal.|COV|Night Fae|
 T Tracking a Wild God|QID|59822|M|40.89,64.32|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Loa Rescue|QID|59824|PRE|59822|M|40.89,64.32|Z|The Maw|N|From Unknown.|COV|Night Fae|
 C Loa Rescue|QID|59824|M|47.70,72.34|Z|The Maw|QO|1|NC|N|First loa rescued.|COV|Night Fae|
@@ -409,14 +414,14 @@ C Loa Rescue|QID|59824|M|46.08,82.77|Z|The Maw|QO|2|NC|N|Second loa rescued.|COV
 C Loa Rescue|QID|59824|M|45.67,84.54|Z|The Maw|QO|3|NC|N|Third loa rescued.|COV|Night Fae|
 T Loa Rescue|QID|59824|M|45.88,85.06|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Rezan, Loa of Kings|QID|59856|PRE|59824|M|45.88,85.06|Z|The Maw|N|From Spirit of Vol'jin.|COV|Night Fae|
-C Rezan, Loa of Kings|QID|59856|M|45.88,85.13|Z|The Maw|QO|1|NC|N|Vol'jin's anima received.|COV|Night Fae|
-C Rezan, Loa of Kings|QID|59856|M|46.84,85.93|Z|The Maw|QO|2|NC|N|Rezan saved.|COV|Night Fae|
+C Rezan, Loa of Kings|QID|59856|M|45.88,85.13|Z|The Maw|QO|1|CHAT|N|Vol'jin's anima received.|COV|Night Fae|
+C Rezan, Loa of Kings|QID|59856|M|46.84,85.93|Z|The Maw|QO|2|NC|N|Wait and watch |COV|Night Fae|
 T Rezan, Loa of Kings|QID|59856|M|45.86,85.08|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Parting Ways|QID|59866|PRE|59856|M|45.86,85.08|Z|The Maw|N|From Spirit of Vol'jin.|COV|Night Fae|
 P Ring of Transference|ACTIVE|59866|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Night Fae|
 F Heart of the Forest|ACTIVE|59866|M|60.23,68.72|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Heart of the Forest.|COV|Night Fae|
 P Heart of the Forest|ACTIVE|59866|M|53.96,38.73|Z|The Trunk@Heart of the Forest!Dungeon|N|Talk to Sparkledew to go see the Queen.|COV|Night Fae|
-C Parting Ways|QID|59866|M|51.04,30.60|Z|The Canopy@Heart of the Forest!Dungeon|NC|N|Loa delivered to the Winter Queen.|COV|Night Fae|
+C Parting Ways|QID|59866|M|51.04,30.60|Z|The Canopy@Heart of the Forest!Dungeon|CHAT|N|Loa delivered to the Winter Queen.|COV|Night Fae|
 P Heart of the Forest|ACTIVE|59866|M|43.05,51.44|Z|The Canopy@Heart of the Forest!Dungeon|N|Talk to Shimmerwing to return to teh main foyer.|COV|Night Fae|
 T Parting Ways|QID|59866|M|44.65,38.58|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
 ;Drust and Ashes
@@ -488,15 +493,16 @@ A Elysian Hold|QID|57895|PRE|60492|M|58.42,28.92|Z|Bastion!The Shadowlands|N|Fro
 C Elysian Hold|QID|57895|M|58.44,28.92|Z|Bastion!The Shadowlands|CHAT|N|Fly to Elysian Hold.|COV|Kyrian|
 T Elysian Hold|QID|57895|M|55.39,42.30|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Of Great Renown|QID|62789|PRE|57895|M|55.39,42.30|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
-T Of Great Renown|QID|62789|M|42.78,53.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Haephus.|COV|Kyrian|
-A The Path Provides|QID|62790|PRE|62789|M|42.78,53.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
-C The Path Provides|QID|62790|M|42.78,53.43|Z|Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Renown examined.|COV|Kyrian|
-T The Path Provides|QID|62790|M|42.78,53.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Haephus.|COV|Kyrian|
-A A Call to Service|QID|62698|PRE|62790|M|42.78,53.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
-T A Call to Service|QID|62698|M|41.11,41.25|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Hermestes.|COV|Kyrian|
-f The Eternal Watch|QID|62698|M|41.11,41.25|Z|Archon's Rise@Elysian Hold!Dungeon|N|At Hermestes.|COV|Kyrian|
+T Of Great Renown|QID|62789|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Iona Skyblade.|COV|Kyrian|
+A The Path Provides|QID|62790|PRE|62789|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Iona Skyblade.|COV|Kyrian|
+C The Path Provides|QID|62790|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Renown examined.|COV|Kyrian|
+T The Path Provides|QID|62790|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Iona Skyblade.|COV|Kyrian|
+A A Call to Service|QID|62698|PRE|62790|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Iona Skyblade.|COV|Kyrian|
+T A Call to Service|QID|62698|M|41.01,41.02|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Hermestes.|COV|Kyrian|
 A A Calling in Bastion|QID|62692|PRE|62698|M|41.11,41.25|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Hermestes.|COV|Kyrian|
-T A Calling in Bastion|QID|62692|M|40.93,40.93|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Hermestes.|COV|Kyrian|
+F Hero's Rest, Bastion|ACTIVE|62692|M|50.96,49.00|Z|Archon's Rise@Elysian Hold!Dungeon|TZ|Bastion|N|At Cassius.|COV|Kyrian|  ; REASON ?
+C A Calling in Bastion|ACTIVE|62692|M|51.61,46.61|Z|Bastion|N|Go Complete 3 World Quests.|COV|Kyrian|
+t A Calling in Bastion|QID|62692|M|40.93,40.93|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Hermestes.|COV|Kyrian|
 A Our Most Precious Resource|QID|62791|PRE|62692|M|40.93,40.93|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Hermestes.|COV|Kyrian|
 T Our Most Precious Resource|QID|62791|M|42.73,53.84|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Haephus.|COV|Kyrian|
 A Into the Reservoir|QID|62792|PRE|62791|M|42.73,53.84|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
