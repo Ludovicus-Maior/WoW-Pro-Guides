@@ -70,7 +70,7 @@ T Shipwreck Searching|QID|25178|M|53.10,43.18|N|To Gail Nozzywig, back at Razor 
 A Thonk|QID|25227|PRE|25178|M|53.10,43.18|N|From Gail Nozzywig.|LEAD|25187|
 T Storming the Beaches|QID|25177|M|51.92,43.48|N|To Gar'Thok.|
 T Loss Reduction|QID|25179|M|51.92,43.48|N|To Gar'Thok.|
-T Thonk|QID|25227|M|50.92,42.26;49.58,40.17|CS|N|To Thonk on top of the guard tower.|
+T Thonk|QID|25227|M|50.92,42.26;49.58,40.17|CS|N|To Thonk at the top of Razor Hill Watchtower.|
 A Lost in the Floods|QID|25187|M|49.58,40.17|N|From Thonk.|
 C Lost in the Floods|QID|25187|QO|1|N|Use Thonk's Spyglass to search for Raggaran.\n[color=FF0000]NOTE: [/color]Do not cancel the cinematic, or it won't count.|U|52514|NC|
 C Lost in the Floods|QID|25187|QO|2|N|Use Thonk's Spyglass again to search for the flooded hut.\n[color=FF0000]NOTE: [/color]Do not cancel the cinematic, or it won't count.|U|52514|NC|
@@ -86,6 +86,7 @@ A Raggaran's Fury|QID|25192|PRE|25190|M|42.73,49.85|N|From Raggaran.|RANK|2|
 C Raggaran's Fury|QID|25192|M|39.89,52.55|N|Kill the Razormane Dustrunners and Razormane Battleguards. Beware the Captain.|
 T Raggaran's Fury|QID|25192|M|42.65,49.89|N|To Raggaran.|
 A Unbidden Visitors|QID|25194|ACTIVE|25188|M|35.87,41.37|N|From Zen'Taji.|RANK|2|
+K Death Flayer|ACTIVE|25188|M|35.09,44.47|IZ|Southfury Watershed|N|Death Flayer is a silver rare scorpid that paths around the shore of the island. It has a fairly quick respawn rate (~30 minutes). Skip this if you don't want to wait. Close this step if you kill it.\n[color=FF0000]NOTE: [/color]This rare is tameable by hunters.|T|Death Flayer|RARE|S!US|
 C Unbidden Visitors|QID|25194|M|34.84,43.35|N|Attack 3 Wayward Plainstriders until they flee toward the Barrens.|
 T Unbidden Visitors|QID|25194|M|35.79,41.49|N|To Zen'Taji.|
 A That's the End of That Raptor|QID|25195|PRE|25194|M|35.79,41.49|N|From Zen'Taji.|RANK|2|
