@@ -18,6 +18,7 @@ A Rallying Maldraxxus|QID|62748|PRE|62738^63035|N|From Secutor Menvix.|TOF|
 C Rallying Maldraxxus|QID|62748|S!US|N|Literally everything you do in Maldraxxus counts towards this quest. You may return to Bleak Redoubt to turn in and be done with the zone anytime after this finishes.|TOF|
 t Rallying Maldraxxus|QID|62748|IZ|Bleak Redoubt|M|52.85,68.28|Z|Maldraxxus|N|To Secutor Mevix.|TOF|
 A Return to Oribos|QID|62761|M|52.85,68.28|Z|Maldraxxus|N|From Secutor Mevix.|PRE|62748|TOF|
+F Oribos|ACTIVE|62761|M|52.46,67.64|Z|Maldraxxus|N|At Wing Guard Buurkin|TOF|
 t Return to Oribos|QID|62761|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|IZ|Oribos|TOF|
 A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62761|N|From Tal-Inara.|TOF|;new quest, may be diff ones based on how many TOF zones you have done.
 C Tal-Inara|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone and then turn that quest back into her.|IZ|Oribos|TOF|
@@ -151,7 +152,9 @@ $ Strange Growth|QID|59429|M|55.88,38.98|Z|Maldraxxus|N|Pull on the strange grow
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|S|
 C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Kill Deadeye the giant Bloodtusk.|
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|US|
+f Keres' Rest|ACTIVE|58794|M|53.81,30.71|Z|Maldraxxus|N|At Fly-eyed Eliera.|
 C How To Get A Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
+A WANTED: The Key of Eyes|QID|62462|M|53.08,41.41|Z|Maldraxxus|ELITE|N|From Wanted Poster.|RANK|2|TOF|
 C How To Get A Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|
 T How To Get A Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
 T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
@@ -206,20 +209,18 @@ C Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click 
 C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<5|N|Ride the Tauralus back to Dundae.|
 T Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|To Caleesy.|
 T Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|To Dundae.|
-A Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|From Dundae.|PRE|58750&58785|RANK|2|
+A Stabbing Wasteward|QID|58794|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|PRE|58750&58785|RANK|2|
 C Stabbing Wasteward|QID|58794|M|42.40,48.40|Z|Maldraxxus|N|Kill the Satiated Sawtooth.|
-f Keres' Rest|ACTIVE|58794|M|53.81,30.71|Z|Maldraxxus|N|At Fly-eyed Eliera.|
-A WANTED: The Key of Eyes|QID|62462|M|53.08,41.41|Z|Maldraxxus|N|From Wanted Poster.|RANK|2|TOF|
-T Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|To Dundae.|
+T Stabbing Wasteward|QID|58794|M|46.87,48.59|Z|Maldraxxus|N|To Dundae.|
 
 ; House of Constructs Storyline
 R The Spearhead|ACTIVE|57912|CS|M|46.83,66.02;39.32,55.91|Z|Maldraxxus|N|Run through the Iron Trench, Past House of the Chosen to The Spearhead.|RANK|-1|
-R The Spearhead|QID|62712|ACTIVE|57912^59867|M|39.32,55.91|Z|Maldraxxus|N|Follow the road past the House of the Chosen and on to The Spearhead.|RANK|2|
+R The Spearhead|ACTIVE|57912^62748|M|39.32,55.91|Z|Maldraxxus|N|Follow the road past the House of the Chosen and on to The Spearhead.|RANK|2|
 T Baron of the Chosen|QID|57912|M|39.32,55.91|Z|Maldraxxus|N|To Baron Vyraz.|MS|
 A Lead By Example|QID|57976|M|39.32,55.91|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57912|MS|
 A First Time? You Have to Fight!|QID|60557|M|39.32,55.91|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57912|MS|
 A Take the High Ground|QID|58268|M|39.44,55.61|Z|Maldraxxus|N|From Secutor Mevix.|MS|
-f The Spearhead|QID|62712|ACTIVE|58268^59867|M|39.10,55.21|Z|Maldraxxus|N|At Wing Guard Aela.|MS|
+f The Spearhead|ACTIVE|58268^62748|M|39.10,55.21|Z|Maldraxxus|N|At Wing Guard Aela.|
 A War of Attrition|QID|62712|M|39.10,55.21|Z|Maldraxxus|N|Bonus Objective-Autoaccepted.|RANK|2|TOF|
 C War of Attrition|QID|62712|M|39.10,55.21|Z|Maldraxxus|S!US|N|Kill Hostiles, destroy supplies, bandage the injured, in general wear down enemy forces.|TOF|
 C Lead By Example|QID|57976|M|35.85,47.87|Z|Maldraxxus|N|Kill the Steelskin constructs around the area.|S|MS|
@@ -329,7 +330,7 @@ T Kill Them Of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
 A Slaylines|QID|58620|M|43.07,25.12|Z|Maldraxxus|N|From Ta'eran.|PRE|58621&59917|RANK|2|
 N Arrange the Beams|ACTIVE|58620|M|43.07,25.12|Z|Maldraxxus|N|[color=ff8000]East:[/color]\n\nBe sure to click the East Power Crystal [color=ff8000]2[/color] times so the beam goes into the crystal behind you.\n\nThat crystal behind you should be clicked [color=ff8000]1[/color] time and the beam should go north refecting off something onto the mountain and to the crystal to your NW that should already be pointed to the East Obelisk.\n\n[color=ff8000]West:[/color]\n\nBe sure to click the West Power Crystal only [color=ff8000]1[/color] time so the beam goes into the crystal behind you.\n\nThat crystal behind you should be clicked [color=ff8000]1[/color] time and the beam should go NE refecting off something which directs it to the crystal North of you.\n\nThat crystal to the north should be clicked [color=ff8000]1[/color] time to finally direct it to the West Obelisk.|S!US|
 C Slaylines|QID|58620|QO|1|M|45.87,29.89|Z|Maldraxxus|NC|N|Locate the East Power Crystal.|
-C Slaylines|QID|58620|QO|4|CS|M|44.94,29.50;42.38,26.84|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the East Obelisk, run back to it and click to activate.|
+C Slaylines|QID|58620|QO|4|CS|M|44.94,29.50;43.39,26.84|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the East Obelisk, run back to it and click to activate.|
 C Slaylines|QID|58620|QO|2|M|42.17,31.04|Z|Maldraxxus|NC|N|Locate the West Power Crystal.|
 C Slaylines|QID|58620|QO|3|CS|M|43.17,30.80;43.03,28.54;42.81,27.16|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the West Obelisk, run back to it and click to activate.|
 T Slaylines|QID|58620|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
