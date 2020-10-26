@@ -605,7 +605,7 @@ C Where a Soul Belongs|QID|58792|M|49.77,62.05|Z|Ring of Transference@Oribos|QO|
 T Where a Soul Belongs|QID|58792|M|49.77,62.05|Z|Ring of Transference@Oribos|N|To Kleia.|COV|Kyrian|
 A Faith Through the Darkness|QID|58793|PRE|58792|M|49.77,62.05|Z|Ring of Transference@Oribos|N|From Kleia.|COV|Kyrian|
 T The Highlord Calls|QID|63029|M|39.94,68.62|Z|Ring of Fates@Oribos|N|To Bolvar Fordragon.\n\n(Quest chain incomplete in this Guide - Work In Progress)|COV|Kyrian|  ; give the following Chain.. covered in another guide??
-; A Into Torghast|QID|60136|PRE|63029|M|39.94,68.62|Z|Ring of Fates@Oribos|N|From Bolvar Fordragon.|COV|Kyrian|  ;  skipping for now 
+; A Into Torghast|QID|60136|PRE|63029|M|39.94,68.62|Z|Ring of Fates@Oribos|N|From Bolvar Fordragon.|COV|Kyrian|  ;  skipping for now
 
 F Elysian Hold|ACTIVE|58793|M|59.57,68.00|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Faith Through the Darkness|QID|58793|M|47.61,54.14|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
