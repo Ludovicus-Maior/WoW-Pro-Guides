@@ -513,7 +513,7 @@ T Following Eddie's Trail|QID|48196|M|55.63,14.72|N|To Eddie Norwington.|
 C Soup Stones|QID|48778|M|58.42,16.69|QO|1|US|NC|N|Finish collecting Soup Stones.|
 C Kill Grimstone Chefs|QID|48778|M|58.34,16.41|QO|2|US|N|Finish collecting Unidentifiable Meat (drops from the Grimstone Chefs).|
 C Stone Soup|QID|48778|M|57.83,14.46|QO|3|US|N|Keep killing Saurolisks and Handlers until the Scale drops.|
-T Stone Soup|QID|48778|M|56.55,15.58|N|Bubbling Cauldren.|
+T Stone Soup|QID|48778|M|56.55,15.58|N|Bubbling Cauldron.|
 C Saurolisk Escape|QID|48597|M|56.03,18.80|US|NC|N|Finish freeing the Trapped Saurolisks.|
 C Troublesome Troglodytes|QID|48195|M|57.13,16.32|US|N|Finish killing Grimestone Bullies and Throwers.|
 T Saurolisk Escape|QID|48597|M|54.46,19.39|N|To Melissa Kenny.|
