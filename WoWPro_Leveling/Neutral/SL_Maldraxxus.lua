@@ -10,16 +10,18 @@ N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe
 ; TOF
 A Maldraxxus|QID|62278|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 t Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A A Fresh Blade|QID|62738|PRE|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
-R Ring of Transference|ACTIVE|62738|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
-F Bleak Redoubt|ACTIVE|62738|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
-T A Fresh Blade|QID|62738|N|To Secutor Mevix.|TOF|
-A Rallying Maldraxxus|QID|62748|PRE|62738|N|From Secutor Menvix.|TOF|
+A A Fresh Blade|QID|62738^63035|PRE|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+R Ring of Transference|ACTIVE|62738^63035|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+F Bleak Redoubt|ACTIVE|62738^63035|M|60.87,68.63|Z|Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
+T A Fresh Blade|QID|62738^63035|N|To Secutor Mevix.|TOF|
+A Rallying Maldraxxus|QID|62748|PRE|62738^63035|N|From Secutor Menvix.|TOF|
 C Rallying Maldraxxus|QID|62748|S!US|N|Literally everything you do in Maldraxxus counts towards this quest. You may return to Bleak Redoubt to turn in and be done with the zone anytime after this finishes.|TOF|
 t Rallying Maldraxxus|QID|62748|IZ|Bleak Redoubt|M|52.85,68.28|Z|Maldraxxus|N|To Secutor Mevix.|TOF|
 A Return to Oribos|QID|62761|M|52.85,68.28|Z|Maldraxxus|N|From Secutor Mevix.|PRE|62748|TOF|
 t Return to Oribos|QID|62761|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|IZ|Oribos|TOF|
-A Tal-Inara|QID|62277^62275^62279|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62761|N|Talk to Tal-Inara to choose your next zone and then turn that quest back into her.|IZ|Oribos|TOF|
+A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62761|N|From Tal-Inara.|TOF|;new quest, may be diff ones based on how many TOF zones you have done.
+C Tal-Inara|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone and then turn that quest back into her.|IZ|Oribos|TOF|
+T The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
@@ -33,6 +35,7 @@ N Spectre of War: Visectus|QID|62748|N|This is a weekly quest, that you can NOT 
 ; Champion of Pain Storyline
 N Use of Ranks|QID|57386|N|Setting the guide to Rank 1 will direct you to all main story line quests. It will not direct you to optional quests, however, if you pick one up it will direct you where to complete and turn in. Rank 2 takes you to all the side quests, There is nothing set to Rank 3 in this guide.|MS|
 N Rank 1|ACTIVE|62748|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|
+N Necrolord Abilities|ACTIVE|62748|N|Your necrolord covenant abilities are found in your main class tab of your abilites, don't forget to drag them onto your hotkeys.|TOF|COV|Necrolord|
 A If You Want Peace...|QID|57386|M|60.95,36.18|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61107|MS|
 C If You Want Peace...|QID|57386|M|59.51,34.39|Z|Ring of Transference@Oribos|CHAT|N|Speak to Roh-Avonavi to Travel to Maldraxxus.|MS|
 T If You Want Peace...|QID|57386|M|50.24,41.33|Z|Maldraxxus|N|To Grandmaster Vole.|MS|
@@ -124,9 +127,9 @@ f Bleak Redoubt|ACTIVE|57912|M|52.46,67.74|Z|Maldraxxus|N|At Wing Guard Buurkin.
 ; Theater of Pain Sidequest Story
 R Theater of Pain|QID|62785|M|49.93,53.20|Z|Maldraxxus|N|Follow the road, over a bridge above the Iron Trench, and continue to the Theater of Pain.|RANK|2|
 f Theater of Pain|QID|62785|M|49.93,53.20|Z|Maldraxxus|N|At Wing Guard Alamar.|RANK|2|
-A I Could Be A Contender|QID|62785|LEAD|59750|M|50.57,51.69|Z|Maldraxxus|N|From Anzio The Infallible.|LVL|53|RANK|2|
-R Challenger's Promenade|ACTIVE|62785|M|52.92,55.39|Z|Maldraxxus|N|Run over to the Challengers Promenade.|RANK|2|
-A ...Even The Most Ridiculous Request!|QID|58068|M|54.09,50.79|Z|Maldraxxus|N|From Overseer Kalvaros.|LVL|53|RANK|2|
+A I Could Be A Contender|QID|62785|LEAD|59750|M|50.57,51.69|Z|Maldraxxus|N|From Anzio The Infallible.|RANK|2|
+R Challenger's Promenade|ACTIVE|62785|M|55.01,51.71|Z|Maldraxxus|N|Run over to the Challengers Promenade.|RANK|2|
+A ...Even The Most Ridiculous Request!|QID|58068|M|54.09,50.79|Z|Maldraxxus|N|From Overseer Kalvaros.|RANK|2|
 C ...Even The Most Ridiculous Request!|QID|58068|M|53.83,51.21|Z|Maldraxxus|CHAT|QO|1|N|Ask Gunn if she needs anything.|
 C ...Even The Most Ridiculous Request!|QID|58068|M|54.01,51.19|Z|Maldraxxus|QO|2|NC|N|Click the "[color=40C7EB]Cheer[/color]" Button when it appears and then sit back and watch the Gunn show.|EAB|
 C ...Even The Most Ridiculous Request!|QID|58068|M|53.85,50.54|Z|Maldraxxus|CHAT|QO|3|N|Ask Scrapper Minoire if she needs anything.|
@@ -135,8 +138,8 @@ C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.66|Z|Maldraxxus|QO|5
 T ...Even The Most Ridiculous Request!|QID|58068|M|54.10,51.39|Z|Maldraxxus|N|To Overseer Kalvaros.|
 A Juicing Up|QID|58088|M|53.86,50.61|Z|Maldraxxus|N|From Scrapper Minoire.|PRE|58068|RANK|2|
 T I Could Be A Contender|QID|62785|M|54.44,48.65|Z|Maldraxxus|N|To Louison.|
-A How To Get A Head|QID|59750|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|LVL|53|RANK|2|
-A The Last Guy|QID|59781|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|LVL|53|RANK|2|
+A How To Get A Head|QID|59750|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|RANK|2|
+A The Last Guy|QID|59781|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|RANK|2|
 A WANTED: Appraiser Vix|QID|59867|M|54.15,47.48|Z|Maldraxxus|ELITE|N|From Wanted Poster.|RANK|2|TOF|;seems odd this is TOF, wanted posters weren't for TOF in Bastion
 T Juicing Up|QID|58088|M|53.72,47.85|Z|Maldraxxus|N|To So'narynar.|
 A Side Effects|QID|58090|M|53.72,47.85|Z|Maldraxxus|N|From So'narynar.|PRE|58088|RANK|2|
@@ -190,17 +193,17 @@ T Bet on Yourself|QID|59826^59827^59828|M|53.58,47.50|Z|Maldraxxus|N|To Au'narim
 A Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|From Caleesy.|RANK|2|
 A Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|RANK|2|
 C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|S|
-N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<1|N|Ride the Tauralus back to Dundae.|
-N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<2|N|Ride the Tauralus back to Dundae.|
-N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<3|N|Ride the Tauralus back to Dundae.|
-N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<4|N|Ride the Tauralus back to Dundae.|
-C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|US|;CHECK TO SEE IF THIS MUST BE TURNED IN TO GET SATIATED SAWTOOTH, if not, moeve the US to after killing it.
-N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<5|N|Ride the Tauralus back to Dundae.|
+C Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<1|N|Ride the Tauralus back to Dundae.|
+C Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<2|N|Ride the Tauralus back to Dundae.|
+C Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<3|N|Ride the Tauralus back to Dundae.|
+C Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<4|N|Ride the Tauralus back to Dundae.|
+C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|US|
+C Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<5|N|Ride the Tauralus back to Dundae.|
 T Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|To Caleesy.|
 T Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|To Dundae.|
 A Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|From Dundae.|PRE|58750&58785|RANK|2|
@@ -295,7 +298,7 @@ T In The Flesh|QID|57994|M|37.61,29.09|Z|Maldraxxus|N|To Aspirant Thales.|MS|
 A Front and Center|QID|60733|M|37.66,29.11|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57994|MS|
 R The Stitchyard|QID|57245|M|25.75,40.61|Z|Maldraxxus|N|We are leaving the Bonus Objective Area briefly for 3 quests, if you aren't finished, don't worry, we will be back.|RANK|2|TOF|
 A Ani-Matter Animator|QID|57245|M|26.29,42.67|Z|Maldraxxus|N|From Snyder Sixfold.|RANK|2|TOF|
-C Ani-Matter Animator|QID|57245|M|25.87,45.94|Z|Maldraxxus|U|175827|S!US|N|Use the provided orb to animate the piles of bone remains scattered around the Ossein Foundry. You will find 4 types:\nLoyal-will fight with along beside you for about a minute.\nRecruitable - Chat with them to recruit them.\nStubborn - will offer one or more daily repeatable quests. They are also recruitable.\nEnraged - you have to kill them.|TOF|
+C Ani-Matter Animator|QID|57245|M|25.87,45.94|Z|Maldraxxus|U|175827|S!US|N|Use the provided orb to animate the piles of bone remains scattered around the Ossein Foundry. You will find 4 types:\nLoyal-will fight with along beside you for about a minute.\nRecruitable - Chat with them to recruit them.\nStubborn - may offer one or more daily repeatable quests. They also may be recruitable.\nEnraged - hostile, will fight you for about 15 seconds then despawn.|TOF|
 ;A Blade of Blades|QID|57284|M|PLAYER|Z|Maldraxxus|IZ|Ossein Foundry|N|From Stubborn Animate.|ACTIVE|57245|;commenting out, it appears its not always the same quests.
 ;A Bring Me Their Heads|QID|57278|M|PLAYER|Z|Maldraxxus|IZ|Ossein Foundry|N|From Stubborn Animate. Don't worry if you didn't have time to accept all quests, you will get another chance on the next Stubborn Animate you find.|ACTIVE|57245|TOF|
 C Blade of Blades|QID|57284|M|PLAYER|Z|Maldraxxus|S|NC|N|Pick up forgotten blades lying around.|ACTIVE|57245|TOF|;currently bugged and you never find it
@@ -307,9 +310,9 @@ T Ani-Matter Animator|QID|57245|M|26.29,42.67|Z|Maldraxxus|N|From Snyder Sixfold
 R Spider's Watch|QID|62605|ACTIVE|59867|CS|M|36.54,30.88;37.57,29.24|Z|Maldraxxus|N|Finish the Bonuse Objective as you head back to Spider's Watch.|TOF|
 
 ; Side Quest Story - Archival Protection
-A Broker Business|QID|62605|M|38.20,31.29|Z|Maldraxxus|N|From Forgotten Supplies.|LVL|53|RANK|2|
+A Broker Business|QID|62605|M|38.20,31.29|Z|Maldraxxus|N|From Forgotten Supplies.|RANK|2|
 T Broker Business|QID|62605|M|40.69,33.08|Z|Maldraxxus|N|To Ta'eran.|
-A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|LVL|53|RANK|2|
+A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|RANK|2|
 C Read Between the Lines|QID|58619|CS|M|40.69,33.08;43.30,28.62|Z|Maldraxxus|CHAT|N|Talk to Ta'ern, then walk with him and at least pretend to listen.|
 T Read Between the Lines|QID|58619|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
 A Repeat After Me|QID|58621|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|RANK|2|
@@ -348,7 +351,7 @@ T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
 R Spider's Watch|QID|1|ACTIVE|60733|CS|M|40.51,32.84;37.56,29.21|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run back to Spidar's Watch.|
 F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|Z|Maldraxxus|N|Fly back to Bleak Redoubt.|MS|
 
-R High Stand|QID|59867|QO|1|M|52.12,24.18|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run to High Stand, be careful you are attempting to bypass some lvl 60/61 mobs.|TOF|
+R High Stand|QID|59867|ACTIVE|59867|QO|1|M|52.12,24.18|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run to High Stand, be careful you are attempting to bypass some lvl 60/61 mobs.|TOF|
 K Appraiser Vix|ACTIVE|59867|QO|1|M|52.52,24.22|Z|Maldraxxus|T|Appraiser Vix|N|Kill Appraiser Vix.|TOF|
 R House of Eyes|ACTIVE|62462|M|56,12|Z|Maldraxxus|N|Run north to the House of Eyes You are still surrounded by level 60/61 mobs.|TOF|
 P Scroll of Teleportation|ACTIVE|62462|QO|1|M|59.96,12.22|Z|Maldraxxus|N|Use Scroll of Teleportation to get to the Key of Eyes. You land right beside the key, pick it up.|TOF|
@@ -394,7 +397,7 @@ T Applied Science|QID|58031|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Maril
 A By Any Other Name|QID|59223|M|58.29,71.59|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|58031&58045&58036|MS|
 T Avoid 'Em Like the Plague|QID|62742|M|55.74,60.94|Z|Maldraxxus|N|Bonus Objective - Autocompleted.|TOF|
 
-A A Plague On Your House|QID|59430|M|58.08,72.03|Z|Maldraxxus|N|From Judas Sneap.|LVL|53|RANK|2|
+A A Plague On Your House|QID|59430|M|58.08,72.03|Z|Maldraxxus|N|From Judas Sneap.|RANK|2|
 f Plague Watch|QID|1|ACTIVE|59223|M|58.17,72.38|Z|Maldraxxus|N|At Vradira Livid.|
 C A Plague On Your House|QID|59430|M|59.39,72.95|Z|Maldraxxus|QO|1|CHAT|N|Chat with Vial Master Lurgy.|
 C A Plague On Your House|QID|59430|M|58.58,73.47|Z|Maldraxxus|QO|2|CHAT|N|Chat with Foul-Tongue Cyrlix.|
@@ -430,7 +433,7 @@ $ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus|N|Get a Mask from Pandem
 $ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|;330069<10|
 $ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|
 $ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus|N|And, the Treasure is along the top of the wall in a chest.|
-F Bleak Redoubt|ACTIVE|59231^62748|M|58.02,72.37|
+F Bleak Redoubt|ACTIVE|59231|M|58.02,72.37|
 
 C Fathomless Power|QID|59231|M|50.40,67.75|Z|Maldraxxus|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Inisght.|EAB|MS|
 T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
@@ -486,7 +489,7 @@ C Straight to the Heart|QID|59025|M|73.72,44.16|Z|Maldraxxus|QO|3|NC|N|Click on 
 T Straight to the Heart|QID|59025|M|73.57,44.46|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A Her Rightful Place|QID|59009|M|73.57,44.46|Z|Maldraxxus|N|From Baroness Vashj.|PRE|59025|MS|
 T Decaying Situation|QID|62743|M|67.75,45.87|Z|Maldraxxus|N|Time to finish up this bonus objective as you head back to Renounced Bastile.|TOF|
-f Renounced Bastille|ACTIVE|62748^62761|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|RANK|2|TOF|
+f Renounced Bastille|ACTIVE|62761|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|RANK|2|TOF|
 F Theater of Pain|ACTIVE|62085|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|RANK|2|TOF|
 R Renounced Bastille|ACTIVE|59009|CS|M|71.23,43.55;67.9,45.86|Z|Maldraxxus|N|Head back to the Renounced Bastille for a flight back to Bleak Redoubt.|MS|
 F Bleak Redoubt|ACTIVE|59009|M|67.90,45.86|N|At Felsen Wingclip.|MS|
@@ -553,9 +556,10 @@ T ...Why Me?|QID|62085|M|54.02,50.86|Z|Maldraxxus|N|To Overseer Kalvaros.|
 F The Spearhead|AVAILABLE|62741|M|49.93,53.20|Z|Maldraxxus|N|At Wing Guard Alamar.|RANK|2|TOF|
 R House of the Chosen|AVAILABLE|62741|M|42.01,58.91|Z|Maldraxxus|N|Up to the House of the Chosen for the last bonus objective.|RANK|2|TOF|
 A Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|Bonus Objective-Autoaccepted|RANK|2|TOF|
-C Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|Basically kill hostiles, there is a small increase from burning banners, but I wouldnt go out of my way for it.|RANK|2|TOF|
+C Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|Basically kill hostiles, there is a small increase from burning banners, but I wouldnt go out of my way for it. Picking up shields, armour and weapons gives you buffs.|TOF|
 T Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|Bonus Objective-Autocompleted|RANK|2|TOF|
 F Oribos|ACTIVE|59206|M|49.86,53.30|Z|Maldraxxus|N|At Wing Guard Alamar.|PRE|62085|;pre to make this step show up only if you went over to turn that quest in
+F Bleak Redoubt|ACTIVE|62748|N|When you have finished Rallying Maldraxxus and are ready to move on, go to the nearest flightmaster and ask for a ride back to Bleak Redoubt.|TOF|
 F Oribos|ACTIVE|62761|N|When you are ready to move on, go to the nearest flightmaster and ask for a ride back to Oribos.|TOF|
 F Oribos|ACTIVE|59206|M|52.49,67.71|Z|Maldraxxus|N|At Wing Guard Buurkin.|MS|
 P Ring of Fates|ACTIVE|59206|M|49.56,61.78|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|
