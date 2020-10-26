@@ -5,12 +5,12 @@ WoWPro:GuideName(guide,"Blade's Edge Mountains")
 WoWPro:GuideNextGuide(guide, 'Netherstorm')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 F Zabra'jin|QID|10928|N|Fly to Zabra'jin.|
 A The Ogre Threat|QID|9795|N|From Shadow Hunter Denjai. He is on the second floor of the inn.|Z|Zangarmarsh|M|30.74,50.88|
 F Swamprat Post|QID|10928|N|Fly to Swamprat Post.|Z|Zangarmarsh|M|33.06,51.08|
 R Blades' Run|QID|10928|M|69.19,35.77;70.33,33.96;68.44,33.39|CS|N|Fly or run to this path just north of Telredor.|Z|Zangarmarsh|
-A Killing the Crawlers|QID|10928|N|From Grunt Grahk.|M|52.96,96.22|
+A Killing the Crawlers|QID|10928|N|From Grunt Grahk.|M|52.96,96.22|LVL|20|
 C Killing the Crawlers|QID|10928|N|Kill 6 Cavern Crawlers.|
 T Killing the Crawlers|QID|10928|M|51.9,58.4|N|To Tor'chunk Twoclaws.|
 A The Bladespire Threat|QID|10503|N|From Tor'chunk Twoclaws.|M|51.94,58.41|
@@ -24,9 +24,9 @@ A Dust from the Drakes|QID|10487|PRE|10486|M|52.3,57.6|N|From Gor'drek.|
 C The Bladespire Threat|QID|10503|N|Kill Bladespire Ogres and Raptors.|M|48,50|S|
 l Thunderlord Clan Artifact|QID|10503|L|30431|N|Kill Bladespire Ogres until this drops. Be sure to keep 3 Rapter Ribs, they will be used for a quest later.|M|41.6,54.0|
 A Thunderlord Clan Artifacts|QID|10524|U|30431|M|41.6,54.0|N|From the Thunderlord Clan Artifact.|
-C Thunderlord Clan Drum|QID|10524|NC|QO|3|N|To the southwest, inside the hut.|M|40.17,58.34|; Thunderlord Clan Drum: 1/1
-C Thunderlord Clan Arrow|QID|10524|NC|QO|3|N|Directly north on top of the large stone gate.|M|41.50,52.69|; Thunderlord Clan Arrow: 1/1
-C Thunderlord Clan Artifacts|QID|10524|NC|N|Directly north inside the hut.|M|41.29,46.46|
+C Thunderlord Clan Drum|QID|10524|NC|QO|2|N|To the southwest, inside the hut.|M|40.17,58.34|; Thunderlord Clan Drum: 1/1
+C Thunderlord Clan Arrow|QID|10524|NC|QO|1|N|Directly north on top of the large stone gate.|M|41.50,52.69|; Thunderlord Clan Arrow: 1/1
+C Thunderlord Clan Artifacts|QID|10524|NC|QO|3|N|Directly north inside the hut.|M|41.29,46.46|
 C The Bladespire Threat|QID|10503|N|Kill Bladespire Ogres and Raptors.|M|48,50|US|
 T The Bladespire Threat|QID|10503|N|To Tor'chunk Twoclaws.|M|51.90,58.49|
 A The Bloodmaul Ogres|QID|10505|PRE|10503|M|51.9,58.4|N|From Tor'chunk Twoclaws.|
@@ -36,12 +36,12 @@ C Vision Guide|QID|10525|U|30481|N|Use the Fiery Soul Fragment and watch the vis
 T Vision Guide|QID|10525|N|To Rokgah Bloodgrip.|M|52.77,58.91|
 A The Thunderspike|QID|10526|PRE|10525|M|52.8,59.0|N|From Rokgah Bloodgrip.|
 C Dust from the Drakes|QID|10487|N|Kill and loot Fey Drakes.|M|37.47,72.72|S|
-C Felling an Ancient Tree|QID|10489|N|Kill Stronglimb Deeproot. He walks up and down the path in between Sylvanaar and the cave to the south.|M|37.53,78.78|
+C Felling an Ancient Tree|QID|10489|N|Kill Stronglimb Deeproot. He spawns here and walks up and down the path in between Sylvanaar and the cave to the south.|M|37.51,71.70|
 C Dust from the Drakes|QID|10487|N|Kill and loot Fey Drakes.|M|37.47,72.72|US|
 C The Bloodmaul Ogres|QID|10505|N|Kill ogres untill finished.|M|42.29,82.87|S|
-l Bloodmaul Brutebane Brew|QID|10542|L|29443 11|N|Gather brews untill you have 11. You can get them from Brewmasters or Bloodmaw Brew Kegs.|M|41.91,81.03|S|
 A They Stole Me Hookah and Me Brews!|QID|10542|N|From T'chali the Witch Doctor.|M|44.95,72.26|
-l T'chali's Hookah|QID|10542|L|30468|N|Loot the Hookah off the ground.|M|42.14,81.29|
+C Bloodmaul Brutebane Brew|QID|10542|QO|2|NC|N|Gather brews untill you have 11. You can get them from Brewmasters or Bloodmaw Brew Kegs.|M|41.91,81.03|S|
+C T'chali's Hookah|QID|10542|QO|1|NC|N|Loot the Hookah off the ground.|M|42.14,81.29|
 C The Thunderspike|QID|10526|N|Enter the cave, at the end you will find the Thunderspike. Right-click it, this will spawn Gor Grimgut, kill him and loot The Thunderspike.|M|39.78,85.44|
 l Bloodmaul Brutebane Brew|QID|10542|L|29443 11|N|Gather brews untill you have 11. You can get them from Brewmasters or Bloodmaw Brew Kegs.|M|41.91,81.03|US|
 T They Stole Me Hookah and Me Brews!|QID|10542|N|To T'chali the Witch Doctor.|M|44.94,72.21|
@@ -49,8 +49,8 @@ A Bladespire Kegger|QID|10545|PRE|10542|M|45.0,72.3|N|From T'chali the Witch Doc
 C Bladespire Kegger|QID|10545|U|30353|N|Go northwest to Bladespire Hold. Get close to an ogre, but without aggroing it then use the Bloodmaul Brutebane Keg.|M|44.28,52.9|
 T Bladespire Kegger|QID|10545|N|To T'chali the Witch Doctor.|M|44.97,72.20|
 A Grimnok and Korgaah, I Am For You!|QID|10543|PRE|10545|M|45.0,72.3|N|From T'chali the Witch Doctor.|
-K Grimnok Battleborn|QID|10543|QO|1|N|On the top of Southmaul Tower, kill Grimnok.|M|45.56,80.87|; Grimnok Battleborn slain: 1/1
-C Grimnok and Korgaah, I Am For You!|QID|10543|U|29443|N|Go to Bladespire Hold, he's on the second floor of the northernmost house, use the brew to lure him out. Kill any brutes first though or it will waste a brew.|M|43.28,46.25|
+C Grimnok Battleborn|QID|10543|QO|1|N|On the top of Southmaul Tower, kill Grimnok.|M|45.56,80.87|; Grimnok Battleborn slain: 1/1
+C Grimnok and Korgaah, I Am For You!|QID|10543|U|29443|QO|2|N|Go to Bladespire Hold, he's on the second floor of the northernmost house, use the brew to lure him out. Kill any brutes first though or it will waste a brew.|M|43.28,46.25|
 T Grimnok and Korgaah, I Am For You!|QID|10543|N|To T'chali the Witch Doctor.|M|44.99,72.21|
 A A Curse Upon Both of Your Clans!|QID|10544|PRE|10543|M|45.0,72.3|N|From T'chali the Witch Doctor.|
 C A Curse Upon Both of Your Clans!|QID|10544|NC|QO|2|U|30479|N|Go to Bloodmaul Outpost, clear the way to a building and use the Wicked Strong Fetish.|M|46.52,79.14|; Bloodmaul Outpost building cursed: 2/2
@@ -66,9 +66,10 @@ T The Spirits Have Voices|QID|10718|N|To Rexxar.|M|51.76,58.42|
 A Whispers on the Wind|QID|10614|PRE|10718|M|51.9,58.4|N|From Rexxar.|
 C Protecting Our Own|QID|10488|U|30175|N|Go just south of Thunderlord Strongholdoutside and use Gor'drek's Ointment on 5 Thunderlord Dire Wolves.|M|49.53,63.96|
 T Protecting Our Own|QID|10488|N|To Gor'drek.|M|52.27,57.50|
-F Mok'Nathal Village|QID|10614|N|Fly to Mok'Nathal Village.|M|52.06,54.14|
+f Thunderlord Stronghold|QID|10614|N|Get the Thunderlord Stronghold flight path.|M|52.06,54.14|
 T Whispers on the Wind|QID|10614|N|To Leoroxx.|M|75.24,60.89|
 A Reunion|QID|10709|PRE|10614|M|75.3,60.9|N|From Leoroxx.|
+f Mok'Nathal Village|QID|10860|N|Get the Mok'Nathal Village flight path.|M|52.06,54.14|
 A Mok'Nathal Treats|QID|10860|N|From Matron Verah.|M|76.03,60.36|
 A Silkwing Cocoons|QID|10617|N|From Taerek.|M|75.85,61.39|
 A The Softest Wings|QID|10618|N|From Silmara.|M|75.82,61.49|
@@ -99,7 +100,8 @@ A Ruuan Weald|QID|10615|PRE|10566|M|75.1,62.1|N|From Dertrok.|
 T Understanding the Mok'Nathal|QID|10846|N|To Leoroxx.|M|75.33,60.94|
 A Since Time Forgotten...|QID|10843|PRE|10846|M|75.3,60.9|N|From Leoroxx.|
 A The Totems of My Enemy|QID|10851|PRE|10846|N|From Spiritcaller Dohgar.|M|74.92,60.51|
-C Mok'Nathal Treat|QID|10860|N|Kill and loot Scalewing Serpents until you have 3 Serpent Flesh. You can also get the Raptor Ribs if you did not have 3.|M|62.26,71.35;66.64,57.75|CN|
+C Mok'Nathal Treat|QID|10860|QO|1|N|Kill and loot Scalewing Serpents until you have 3 Serpent Flesh. You can also get the Raptor Ribs if you did not have 3.|M|68.92,70.69;66.64,57.75|CN|
+C Mok'Nathal Treat|QID|10860|QO|2|N|Kill and loot Scalewing Serpents until you have 3 Serpent Flesh. You can also get the Raptor Ribs if you did not have 3.|M|68.92,70.69;66.64,57.75|CN|
 C The Totems of My Enemy|QID|10851|N|Kill ogres until you have 5 Bladespire Totems.|M|59.3,56.0|S|
 C Since Time Forgotten...|QID|10843|N|Kill ogres on your way to the northwestern corner of Bladespire Outpost, there you will find Gnosh Brognat.|M|57.26,54.90|
 C The Totems of My Enemy|QID|10851|N|Kill ogres until you have 5 Bladespire Totems.|M|59.3,56.0|US|
@@ -125,8 +127,9 @@ A From the Ashes |QID|10771|M|61.2,38.4|N|From Mosswood the Ancient.|
 A A Time for Negotiation... |QID|10682|M|62.0,39.5|N|From Tree Warden Chawn.|
 T Ruuan Weald|QID|10615|N|To Timeon.|M|62.19,39.12|
 A Creating the Pendant |QID|10567|M|62.2,39.1|N|From Timeon.|
-T Mystery Mask |QID|10812|M|62.2,40.1|N|To Wildlord Antelarion.|
+T Mystery Mask |QID|10812|M|61.53,38.47|N|To Wildlord Antelarion.|
 A Felsworn Gas Mask |QID|10819|PRE|10812|M|62.2,40.1|N|From Wildlord Antelarion.|
+f Evergrove|QID|10819|N|Get the Evergrove flight path.|M|61.63,39.63|
 F Thunderlord Stronghold|QID|10709|N|Fly to Thunderlord Stronghold.|M|61.68,39.6|
 T Reunion|QID|10709|N|To Rexxar.|M|51.84,58.47|
 A On Spirit's Wings|QID|10714|PRE|10709|M|51.9,58.4|N|From Rexxar.|
@@ -159,10 +162,12 @@ H Thunderlord Stronghold|QID|10785|U|6948|N|Hearth to Thunderlord Stronghold.|
 T It's a Trap!|QID|10785|N|To Rexxar.|M|51.78,58.35|
 A Gorgrom the Dragon-Eater|QID|10723|PRE|10785|M|51.9,58.4|N|From Rexxar.|
 A Slaughter at Boulder'mok|QID|10786|N|From Tor'chunk Twoclaws.|M|51.88,58.39|
+F Mok'Nathal Village|QID|10859|M|52.06,54.14|N|Fly to Mok,Nathal Village|
 T Gather the Orbs|QID|10859|N|To Spiritcaller Dohgar in Mok'Nathal Village.|M|74.93,60.49|
 A Inform Leoroxx!|QID|10865|PRE|10859|M|74.9,60.5|N|From Spiritcaller Dohgar in Mok'Nathal Village.|
 T Inform Leoroxx!|QID|10865|N|To Leoroxx.|M|75.27,60.90|
 A There Can Be Only One Response|QID|10867|PRE|10865|M|75.3,60.9|N|From Leoroxx.|
+F Evergrove|QID|10682|M|76.35,65.87|N|Fly to Evergrove|
 h Evergrove|QID|10682|N|Set your hearth to Evergrove.|M|62.8,38.3|
 C A Time for Negotiation... |QID|10682|NC|M|58.8,39.1|T|Overseer Nuaar|N|Find Overseer Nuaar, who wanders on the path southeast to northwest of Evergrove. Talk to him and complete the quest.|
 T A Time for Negotiation... |QID|10682|M|62.0,39.5|N|To Tree Warden Chawn.|
@@ -210,16 +215,16 @@ C Longtail is the Lynchpin |N|Go in the tunnel and kill Draaca Longtail.|QID|108
 T Longtail is the Lynchpin |QID|10893|M|49.9,35.9|N|To Watcher Moonshade.|
 A Meeting at the Blackwing Coven |QID|10722|PRE|10893|M|49.9,35.9|N|From Watcher Moonshade.|
 l Orb of the Grishna |QID|10825|N|Kill Grishna mobs until you get the Orb of the Grishna.|L|31489 1|S|
-C Receive the Second Prophecy|QID|10607|NC|M|42.43,21.67|QO|3|N|Go through the tunnel and go to this location on the tree house. Kill Grishna mobs and you will get a buff that allows you to see prophecies on the minimap.|; Receive the Second Prophecy: 1/1
-C Receive the Third Prophecy|QID|10607|NC|M|40.68,18.62|QO|1|N|Kill Grishna mobs if you need to get the buff again. Go to this spot for the Third Prophecy.|; Receive the Third Prophecy: 1/1
+C Receive the Second Prophecy|QID|10607|NC|M|42.43,21.67|QO|2|N|Go through the tunnel and go to this location on the tree house. Kill Grishna mobs and you will get a buff that allows you to see prophecies on the minimap.|; Receive the Second Prophecy: 1/1
+C Receive the Third Prophecy|QID|10607|NC|M|40.68,18.62|QO|3|N|Kill Grishna mobs if you need to get the buff again. Go to this spot for the Third Prophecy.|; Receive the Third Prophecy: 1/1
 C Receive the First Prophecy|QID|10607|NC|M|39.06,17.25|QO|1|N|Kill Grishna mobs if you need to get the buff again. Go to this spot, up in the tree house, for the First Prophecy.|; Receive the First Prophecy: 1/1
-C Receive the Forth Prophecy|QID|10607|NC|M|40.18,22.99|N|Kill Grishna mobs if you need to get the buff again. Go to this spot for the Fourth Prophecy.|
+C Receive the Forth Prophecy|QID|10607|NC|M|40.18,22.99|QO|4|N|Kill Grishna mobs if you need to get the buff again. Go to this spot for the Fourth Prophecy.|
 l Orb of the Grishna |QID|10825|N|Kill Grishna mobs until you get the Orb of the Grishna.|L|31489 1|US|M|40.18,22.99|
 A The Truth Unorbed |N|Right-click the orb to start this quest.|QID|10825|M|40.2,23.0|U|31489|
 C Whelps of the Wyrmcult |N|Capture the Blackwhelps for this quest by using the Blackwhelp Net.|QID|10747|M|32.3,34.9|S|U|31129|
 l Costume Scraps |QID|10722|N|Go in the cave here and kill Wyrmcult mobs until you get 5 Costume Scraps.|L|31121 5|M|32.04,33.94|
 U Costume Scraps|QID|10722|N|Use the scraps to get an Overseer Disguise.|U|31121|M|32.00,33.00|L|31122|
-C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M|32.66,37.52|U|31122|
+C Meeting at the Blackwing Coven|CHAT|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M|32.66,37.52|U|31122|
 C Whelps of the Wyrmcult |N|Capture the rest of the Blackwhelps for this quest by using the Blackwhelp Net.|QID|10747|M|32.3,34.9|US|U|31129|
 H Evergrove |QID|10607|N|Hearth to Evergrove.|M|62.84,38.35|
 T Whispers of the Raven God |QID|10607|M|62.2,39.1|N|To Timeon.|
@@ -271,8 +276,8 @@ A Maggoc's Treasure Chest|QID|10996|PRE|10989|M|55.44,44.92|N|From Mog'dorg the 
 A Even Gronn Have Standards|QID|10997|PRE|10989|M|55.44,44.92|
 C Grulloc Has Two Skulls|QID|10995|M|61.17,47.60|N|Kill Grulloc then loot the Dragon Skull from the ground.|
 C Maggoc's Treasure Chest|QID|10996|T|Maggoc|M|67.82,58.52|N|Maggoc circles around the Death's Door area. Kill him, then loot the treasure chest from the ground.|
-R Toshley's Station|QID|10997|M|60.49,68.74|N|Head to Toshley's Station.|
-F Shattrath City|QID|10997|M|61.1,70.43|N|Fly to Shattrath City.|
+R Mok'Nathal Village|QID|10997|M|76.35,65.85|N|Head to Mok'Nathal Village.|
+F Shattrath|QID|10997|M|61.1,70.43|N|Fly to Shattrath City.|
 C Even Gronn Have Standards|QID|10997|M|20.37,18.26|Z|Terokkar Forest|N|Fly up to The Barrier Hills, enter the building. Kill Slaag, then loot his standard from the ground.|
 H Evergrove|QID|10995|M|63.83,41.26|N|Hearth back to Evergrove, or fly if your hearth is not up.|
 T Grulloc Has Two Skulls|QID|10995|M|55.41,44.93|N|To Mog'dorg the Wizened.|
