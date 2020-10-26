@@ -15,8 +15,8 @@ C Choosing Your Purpose|QID|57878|M|39.66,68.43|Z|Ring of Fates@Oribos|QO|5|NC|N
 T Choosing Your Purpose|QID|57878|M|39.34,69.37|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
 
 ;Night Fae Campaign |QID|99999|M|PLAYER|N|Guide is currently in development.|COV|Night Fae|
-A Report to Moonberry|QID|63214|PRE|57878|M|39.30,69.17|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
-T Report to Moonberry|QID|63214|M|39.71,61.18|Z|Ring of Fates@Oribos|N|To Lady Moonberry.|
+A Report to Moonberry|QID|63214|PRE|57878|M|39.30,69.17|Z|Ring of Fates@Oribos|N|From Tal-Inara.|COV|Night Fae|
+T Report to Moonberry|QID|63214|M|39.71,61.18|Z|Ring of Fates@Oribos|N|To Lady Moonberry.|COV|Night Fae|
 A The Heart of the Forest|QID|61475|M|39.50,61.58|Z|Ring of Fates@Oribos|N|From Lady Moonberry.|PRE|63214|COV|Night Fae|
 P Ring of Transference|ACTIVE|61475|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|COV|Night Fae|
 F Refugee Camp|QID|61475|M|60.59,68.98|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi.|COV|Night Fae|
@@ -68,9 +68,9 @@ C For Queen and Grove!|QID|58160|M|49.59,19.27|Z|The Trunk@Heart of the Forest!D
 C For Queen and Grove!|QID|58160|M|49.55,37.35|Z|The Canopy@Heart of the Forest!Dungeon|QO|3|N|Use the "[color=40C7EB]Swearing Oath[/color]" button, Oath Pledged.|EAB|COV|Night Fae|
 T For Queen and Grove!|QID|58160|M|50.85,30.97|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|COV|Night Fae|
 ;if skip is used.
-A For Queen and Grove!|QID|63006|M|50.03,39.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|
-C For Queen and Grove!|QID|63006|M|50.63,18.87|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|NC|N|Ask Attendant Sparkledew for transport.|
-C For Queen and Grove!|QID|63006|M|49.72,37.19|Z|The Canopy@Heart of the Forest!Dungeon|QO|2|NC|N|Oath Pledged.|
+A For Queen and Grove!|QID|63006|M|50.03,39.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|COV|Night Fae|
+C For Queen and Grove!|QID|63006|M|50.63,18.87|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|NC|N|Ask Attendant Sparkledew for transport.|COV|Night Fae|
+C For Queen and Grove!|QID|63006|M|49.72,37.19|Z|The Canopy@Heart of the Forest!Dungeon|QO|2|NC|N|Oath Pledged.|COV|Night Fae|
 ;if skip is use it goes straight to Daughter of the Night Warrior
 f Heart of the Forest|QID|58160|M|50.85,30.97|Z|The Canopy@Heart of the Forest!Dungeon|N|At Winter Queen.|COV|Night Fae|
 A Keeper of Great Renown|QID|62883|M|51.50,29.82|Z|The Canopy@Heart of the Forest!Dungeon|N|From Winter Queen.|COV|Night Fae|
@@ -412,7 +412,7 @@ A Maw Manifested|QID|59805|PRE|59749|M|39.57,24.69|Z|Nazmir|N|From Bwonsamdi.|CO
 C Maw Manifested|QID|59805|M|39.57,24.69|Z|Nazmir|QO|1|CHAT|N|Speak with Vol'jin.|COV|Night Fae|
 R Ardenweald|M|50.55,44.57|Z|Ardenweald!The Shadowlands|N|Take the DK looking portal to Bwonsamdis left to return to Ardenweald.|COV|Night Fae|
 F Ring of Transference|M|52.14,8.70|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
-R Ring of Transference|ACTIVE|54180|M|52.26,55.40|Z|Ring of Transference@Oribos|N|Make your way to the Ring of Transference.|
+R Ring of Transference|ACTIVE|54180|M|52.26,55.40|Z|Ring of Transference@Oribos|N|Make your way to the Ring of Transference.|COV|Night Fae|
 C Maw Manifested|QID|59805|M|44.95,40.99|Z|The Maw|QO|2|NC|N|Make your way to the Maw.|COV|Night Fae|
 T Maw Manifested|QID|59805|M|44.85,41.02|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Tracking a Wild God|QID|59822|PRE|59805|M|44.85,41.02|Z|The Maw|N|From Unknown.|COV|Night Fae|
@@ -520,7 +520,6 @@ A Setting the Ground Rules|QID|62882|PRE|62832|M|46.81,41.64|Z|The Maw|N|From Ve
 C Setting the Ground Rules|QID|62882|M|46.81,41.64|Z|The Maw|NC|N|Ground rules set with Ve'nari.|COV|Kyrian|
 T Setting the Ground Rules|QID|62882|M|46.83,41.67|Z|The Maw|N|To Ve'nari.|COV|Kyrian|
 A Rule 1: Have an Escape Plan|QID|60287|PRE|62882|M|46.83,41.67|Z|The Maw|N|From Ve'nari.|COV|Kyrian|
-; A Soulsmith Yol-Mattar|QID|59441|PRE|62882|M|37.54,37.58|Z|The Maw|N|From Soulsmith Yol-Mattar.|COV|Kyrian|  ;  Auto popup WQ?
 C Rule 1: Have an Escape Plan|QID|60287|M|40.03,40.41|Z|The Maw|QO|2|NC|N|Stygia.|COV|Kyrian|
 C Rule 1: Have an Escape Plan|QID|60287|M|43.46,45.08|Z|The Maw|QO|1|NC|N|Souls taken into the Soulkeeper.|COV|Kyrian|
 C Rule 1: Have an Escape Plan|QID|60287|M|43.46,45.08|Z|The Maw|QO|3|NC|N|More Stygia can be found from powerful foes.|COV|Kyrian|
@@ -679,8 +678,6 @@ A An Expected Visitor|QID|61785|PRE|62863|M|55.44,42.48|Z|Archon's Rise@Elysian 
 T An Expected Visitor|QID|61785|M|62.05,37.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Xandria.|COV|Kyrian|
 A A Perilous Journey|QID|61767|PRE|61785|M|62.05,37.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Xandria.|COV|Kyrian|
 F Spider's Watch|ACTIVE|61767|M|51.29,48.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|Kyrian|
-; A Just Winging It|QID|61540|PRE|61785|M|46.09,49.05|Z|Maldraxxus|COV|Kyrian|  ; from what I see on wowhead I think this doesn't belong.
-; T Just Winging It|QID|61540|M|40.99,41.74|Z|Maldraxxus|COV|Kyrian|
 T A Perilous Journey|QID|61767|M|37.72,29.38|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
 A Stronger Together|QID|61768|PRE|61540&61767|M|37.72,29.38|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
 C Stronger Together|QID|61768|M|37.79,29.45|Z|Maldraxxus|CHAT|N|Speak to Xandria.|COV|Kyrian|
@@ -688,7 +685,6 @@ T Stronger Together|QID|61768|M|36.28,36.60|Z|Maldraxxus|N|To Baroness Draka.|CO
 A Fight and Flight|QID|61769|PRE|61768|M|36.28,36.60|Z|Maldraxxus|N|From Baroness Draka.|COV|Kyrian|
 C Fight and Flight|QID|61769|M|34.01,27.95|Z|Maldraxxus|NC|N|Fly with Xandria.|COV|Kyrian|
 T Fight and Flight|QID|61769|M|35.61,26.46|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
-; place holder, where I left off playing. Blanc26102020
 A Justice from Above|QID|61771|PRE|61769|M|35.61,26.46|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
 A The Butchers of Bastion|QID|61770|PRE|61769|M|35.35,26.00|Z|Maldraxxus|N|From Apolon.|COV|Kyrian|
 A Dark Developments|QID|61772|PRE|61769|M|33.54,24.18|Z|Maldraxxus|COV|Kyrian|
@@ -700,74 +696,63 @@ T Dark Developments|QID|61772|M|35.19,26.83|Z|Maldraxxus|N|To Artemede.|COV|Kyri
 A Burn Before Reading|QID|61774|PRE|61770&61771&61772|M|35.19,26.83|Z|Maldraxxus|N|From Artemede.|COV|Kyrian|
 A Descended|QID|61773|PRE|61770&61771&61772|M|35.53,26.52|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
 A An Early End|QID|61775|PRE|61770&61771&61772|M|35.34,26.04|Z|Maldraxxus|N|From Apolon.|COV|Kyrian|
+C An Early End|QID|61775|M|34.62,30.36|Z|Maldraxxus|NC|N|Click on Inert Butchers to destroy them.|COV|Kyrian|
+C Burn Before Reading|QID|61774|M|36.59,29.41|Z|Maldraxxus|NC|N|Kill mobs to loot Stitchflesh Design.|COV|Kyrian|
 C Descended|QID|61773|M|33.41,30.71|Z|Maldraxxus|N|Woeblade slain.|COV|Kyrian|
-C An Early End|QID|61775|M|34.62,30.36|Z|Maldraxxus|NC|N|Inert Butchers destroyed.|COV|Kyrian|
-C Burn Before Reading|QID|61774|M|36.59,29.41|Z|Maldraxxus|NC|N|Stitchflesh Design.|COV|Kyrian|
 T Burn Before Reading|QID|61774|M|35.23,26.91|Z|Maldraxxus|N|To Artemede.|COV|Kyrian|
 T Descended|QID|61773|M|35.56,26.52|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
 T An Early End|QID|61775|M|35.36,26.03|Z|Maldraxxus|N|To Apolon.|COV|Kyrian|
-A Trouble on the Western Front|QID|61776|PRE|61774&61773&61775|M|35.42,26.42|Z|Maldraxxus|N|From Kynthia.|COV|Kyrian|
-C Trouble on the Western Front|QID|61776|M|28.83,37.92|Z|Maldraxxus|NC|N|Fly with Kynthia.|COV|Kyrian|
+A Trouble on the Western Front|QID|61776|PRE|61773&61774&61775|M|35.42,26.42|Z|Maldraxxus|N|From Kynthia.|COV|Kyrian|
+C Trouble on the Western Front|QID|61776|M|28.83,37.92|Z|Maldraxxus|NC|N|Ask to fly with Kynthia.|COV|Kyrian|
 T Trouble on the Western Front|QID|61776|M|28.81,38.15|Z|Maldraxxus|N|To Alexandros Mograine.|COV|Kyrian|
 A Charging The Blade|QID|61777|PRE|61776|M|28.81,38.15|Z|Maldraxxus|N|From Alexandros Mograine.|COV|Kyrian|
 A Grave Intent|QID|61779|PRE|61776|M|28.69,37.72|Z|Maldraxxus|N|From Baroness Vashj.|COV|Kyrian|
 A Aerial Advantage|QID|61778|PRE|61776|M|28.16,37.56|Z|Maldraxxus|N|From Emeni.|COV|Kyrian|
 C Aerial Advantage|QID|61778|M|28.03,37.36|Z|Maldraxxus|QO|1|NC|U|180899|N|Battlesewn Roc hooked.|COV|Kyrian|
-C Grave Intent|QID|61779|M|25.40,32.91|Z|Maldraxxus|QO|2|NC|U|180899|N|Northwestern projector destroyed.|COV|Kyrian|
-C Grave Intent|QID|61779|M|24.98,37.36|Z|Maldraxxus|QO|1|NC|U|180899|N|Southwestern projector destroyed.|COV|Kyrian|
+C Grave Intent|QID|61779|M|25.40,32.91|Z|Maldraxxus|QO|2|NC|N|Northwestern projector destroyed.|COV|Kyrian|
+C Grave Intent|QID|61779|M|24.98,37.36|Z|Maldraxxus|QO|1|NC|N|Southwestern projector destroyed.|COV|Kyrian|
 C Aerial Advantage|QID|61778|M|27.13,30.75|Z|Maldraxxus|QO|2|U|180899|N|Battlesewn Roc slain.|COV|Kyrian|
-C Grave Intent|QID|61779|M|28.01,32.74|Z|Maldraxxus|QO|3|NC|U|180899|N|Northeastern projector destroyed.|COV|Kyrian|
-C Charging The Blade|QID|61777|M|28.79,34.69|Z|Maldraxxus|NC|U|180899|N|Runeblade charged.|COV|Kyrian|
+C Grave Intent|QID|61779|M|28.01,32.74|Z|Maldraxxus|QO|3|NC|N|Northeastern projector destroyed.|COV|Kyrian|
+C Charging The Blade|QID|61777|M|28.79,34.69|Z|Maldraxxus|NC|N|Runeblade charged.|COV|Kyrian|
 T Aerial Advantage|QID|61778|M|28.12,37.43|Z|Maldraxxus|N|To Emeni.|COV|Kyrian|
 T Grave Intent|QID|61779|M|28.59,37.64|Z|Maldraxxus|N|To Baroness Vashj.|COV|Kyrian|
 T Charging The Blade|QID|61777|M|28.80,38.09|Z|Maldraxxus|N|To Alexandros Mograine.|COV|Kyrian|
-A Power of the Chosen|QID|61780|PRE|61778&61779&61777|M|28.80,38.09|Z|Maldraxxus|N|From Alexandros Mograine.|COV|Kyrian|
-C Power of the Chosen|QID|61780|M|28.80,38.09|Z|Maldraxxus|QO|1|CHAT|N|Speak to Mograine.|COV|Kyrian|
-C Power of the Chosen|QID|61780|M|27.77,37.42|Z|Maldraxxus|QO|2|NC|N|Bilebloat Juggernaut destroyed.|COV|Kyrian|
+A Power of the Chosen|QID|61780|PRE|61777&61778&61779|M|28.80,38.09|Z|Maldraxxus|N|From Alexandros Mograine.|COV|Kyrian|
+C Power of the Chosen|QID|61780|M|28.80,38.09|Z|Maldraxxus|QO|1|CHAT|N|Tell Alexandros, you are ready.|COV|Kyrian|
+C Power of the Chosen|QID|61780|M|27.77,37.42|Z|Maldraxxus|QO|2|NC|N|Press 1 to destroy the Bilebloat Juggernauts, when the action becomes available.|COV|Kyrian|
 T Power of the Chosen|QID|61780|M|28.84,38.16|Z|Maldraxxus|N|To Alexandros Mograine.|COV|Kyrian|
 A The End is Now|QID|61781|PRE|61780|M|28.84,38.16|Z|Maldraxxus|N|From Alexandros Mograine.|COV|Kyrian|
 T The End is Now|QID|61781|M|31.82,30.40|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
 A Pursuit of Justice|QID|61782|PRE|61781|M|31.82,30.40|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
-C Pursuit of Justice|QID|61782|M|31.82,30.40|Z|Maldraxxus|QO|1|CHAT|N|Speak to Xandria.|COV|Kyrian|
-A Abombing Run|QID|59703|PRE|61781|M|31.82,30.40|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
-T Abombing Run|QID|59703|M|35.84,33.69|Z|Maldraxxus|COV|Kyrian|
-A Abombing Run|QID|59703|PRE|59703|M|34.49,34.40|Z|Maldraxxus|
-C Pursuit of Justice|QID|61782|M|31.18,29.32|Z|Maldraxxus|QO|2|N|Margrave Gharmal slain.|COV|Kyrian|
+C Pursuit of Justice|QID|61782|M|31.82,30.40|Z|Maldraxxus|QO|1|CHAT|N|Tell Xandria, you are ready.|COV|Kyrian|
+C Pursuit of Justice|QID|61782|M|31.18,29.32|Z|Maldraxxus|QO|2|N|Xandria will attack Margrave Gharmal, you kill the 2 adds that will spawn.|COV|Kyrian|
 T Pursuit of Justice|QID|61782|M|31.10,29.27|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
 A Take Heart|QID|61876|PRE|61782|M|31.10,29.27|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
-C Take Heart|QID|61876|M|30.97,29.01|Z|Maldraxxus|NC|N|Fleshshaper's Heart.|COV|Kyrian|
+C Take Heart|QID|61876|M|30.97,29.01|Z|Maldraxxus|N|Click on the Fleshshaper's Heart.|COV|Kyrian|
 T Take Heart|QID|61876|M|31.00,29.05|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
 A Return to the Hold|QID|61877|PRE|61876|M|31.00,29.05|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
-R House of Constructs|ACTIVE|61877|M|31.08,29.30|Z|Maldraxxus|N|Make your way to the House of Constructs.|COV|Kyrian|
-T Abombing Run|QID|59703|M|34.87,34.87|Z|Maldraxxus|COV|Kyrian|
-A Abombing Run|QID|59703|PRE|59703|M|37.42,30.22|Z|Maldraxxus|COV|Kyrian|
-R Spider's Watch|ACTIVE|59703|M|37.51,29.35|Z|Maldraxxus|N|Make your way to the Spider's Watch.|COV|Kyrian|
-A Just Winging It|QID|61540|PRE|59703|M|44.47,45.08|Z|Maldraxxus|COV|Kyrian|
-T Just Winging It|QID|61540|M|47.14,56.63|Z|Maldraxxus|COV|Kyrian|
-F Elysian Hold|ACTIVE|61540|M|37.54,29.28|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
-T Abombing Run|QID|59703|M|51.22,48.61|Z|Archon's Rise@Elysian Hold!Dungeon|COV|Kyrian|
+F Elysian Hold|ACTIVE|61877|M|37.54,29.28|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Return to the Hold|QID|61877|M|39.19,59.55|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Xandria.|COV|Kyrian|
 A Crest of Greatness|QID|61878|PRE|61540&59703&61877|M|39.19,59.55|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Xandria.|COV|Kyrian|
-T Crest of Greatness|QID|61878|M|40.31,60.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Xandria.|COV|Kyrian|
+T Crest of Greatness|QID|61878|M|40.50,60.50|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Fleshshaper's Heart, in the Crest.|COV|Kyrian|
 A Assistance from Sinfall|QID|58557|PRE|61878|M|55.36,42.24|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 F Darkhaven|ACTIVE|58557|M|51.29,48.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Darkhaven.|COV|Kyrian|
 C Assistance from Sinfall|QID|58557|M|60.39,60.82|Z|Revendreth|CHAT|N|Speak with The Curator in Darkhaven.|COV|Kyrian|
 T Assistance from Sinfall|QID|58557|M|60.39,60.82|Z|Revendreth|N|To The Curator.|COV|Kyrian|
 A Overhead Intelligence|QID|58558|PRE|58557|M|60.39,60.82|Z|Revendreth|N|From The Curator.|COV|Kyrian|
 A Eyes of the Master|QID|58559|PRE|58557|M|60.33,60.82|Z|Revendreth|N|From Kleia.|COV|Kyrian|
-A An Endless Appetite|QID|60658|PRE|58557|M|62.29,57.00|Z|Revendreth|COV|Kyrian|
-T An Endless Appetite|QID|60658|M|52.20,61.46|Z|Revendreth|COV|Kyrian|
-A An Endless Appetite|QID|60658|PRE|60658|M|54.36,57.72|Z|Revendreth|COV|Kyrian|
-T An Endless Appetite|QID|60658|M|53.93,56.35|Z|Revendreth|COV|Kyrian|
-A Gothic Fashion|QID|58560|PRE|60658|M|50.75,53.57|Z|Revendreth|N|From Pelagos.|COV|Kyrian|
-C Eyes of the Master|QID|58559|M|50.87,51.60|Z|Revendreth|QO|1|N|Evaala the All-Seeing slain.|COV|Kyrian|
-C Gothic Fashion|QID|58560|M|51.92,47.12|Z|Revendreth|NC|N|Venthyr clothing collected.|COV|Kyrian|
-C Overhead Intelligence|QID|58558|M|54.26,47.68|Z|Revendreth|QO|1|NC|N|Rumors of Favor.|COV|Kyrian|
-C Eyes of the Master|QID|58559|M|52.86,45.04|Z|Revendreth|QO|2|N|Guardian Mastrus slain.|COV|Kyrian|
-C Eyes of the Master|QID|58559|M|48.41,53.98|Z|Revendreth|QO|3|N|Keraal the Ripper slain.|COV|Kyrian|
-T Gothic Fashion|QID|58560|M|56.32,41.37|Z|Revendreth|N|To Pelagos.|COV|Kyrian|
+A Gothic Fashion|QID|58560|PRE|58557|M|50.40,52.89|Z|Revendreth|N|From Pelagos, as you get to the Chalice District||COV|Kyrian|
+C Overhead Intelligence|QID|58558|M|54.26,47.68|Z|Revendreth|QO|1|S|US|N|Kill Chalice Couriers to find Rumors of Favor.|COV|Kyrian|
+C Gothic Fashion|QID|58560|M|51.92,47.12|Z|Revendreth|S|US|N|Kill Chalice Residents for Venthyr clothing.|COV|Kyrian|
+C Eyes of the Master|QID|58559|M|50.87,51.60|Z|Revendreth|QO|1|T|Evaala|N|Evaala the All-Seeing slain.|COV|Kyrian|
+C Eyes of the Master|QID|58559|M|52.86,45.04|Z|Revendreth|QO|2|T|Guardian Mastrus|N|Guardian Mastrus slain.|COV|Kyrian|
+C Eyes of the Master|QID|58559|M|48.41,53.98|Z|Revendreth|QO|3|T|Keraal|N|Keraal the Ripper slain.|COV|Kyrian|
+T Gothic Fashion|QID|58560|M|54.84,45.69;56.32,41.37|Z|Revendreth|N|To Pelagos.|COV|Kyrian|
 T Eyes of the Master|QID|58559|M|56.36,41.42|Z|Revendreth|N|To Kleia.|COV|Kyrian|
 T Overhead Intelligence|QID|58558|M|56.36,41.42|Z|Revendreth|N|To The Curator.|COV|Kyrian|
+
+; place holder, where I left off playing. Blanc26102020
+
 A Collecting Dust|QID|58562|PRE|58560&58559&58558|M|56.36,41.42|Z|Revendreth|N|From The Curator.|COV|Kyrian|
 A Shards of the Countess|QID|58561|PRE|58560&58559&58558|M|56.36,41.42|Z|Revendreth|N|From Kleia.|COV|Kyrian|
 C Shards of the Countess|QID|58561|M|55.41,41.20|Z|Revendreth|QO|1|NC|N|Bell of Transport rang (Optional).|COV|Kyrian|
