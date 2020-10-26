@@ -97,6 +97,7 @@ C Lost But Not Forgotten|QID|25193|M|42.44,33.59|N|Kill and loot Crocolisks unti
 T Lost But Not Forgotten|QID|25193|M|43.33,30.60|N|To Misha Tor'kren.|
 T Watershed Patrol|QID|25188|M|49.55,40.17|N|To Thonk.|
 A The Burning Blade|QID|25232|M|52.27,43.09|N|From Orgnil Soulscar.|
+N Riding|ACTIVE|25232|N|Now that you are level 10, go visit the riding trainer.\n[color=FF0000]NOTE: [/color]You may have received a quest through the UI to do this. You get 2 silver for turning it in.|LVL|10|
 R Dustwind Cave|ACTIVE|25232|M|54.13,40.71;55.68,38;52.79,28.53|CS|N|Run to Dustwind Cave.|
 C The Burning Blade|QID|25232|M|52.79,28.53|N|Kill and loot the Burning Blade thugs, neophytes and cultists for their spellscrolls.|
 H Razor Hill|ACTIVE|25232|M|51.61,41.65|N|Hearth to Razor Hill. Run if your Hearthstone is on cooldown.|

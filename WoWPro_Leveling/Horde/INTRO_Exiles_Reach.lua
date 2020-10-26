@@ -254,7 +254,7 @@ T Home Is Where the Hearth Is|QID|60359|M|71.31,49.96|Z|Orgrimmar|N|To Innkeeper
 A An Urgent Meeting|QID|60360|M|70.86,49.53|Z|Orgrimmar|N|From Shuja Grimaxe.|PRE|60359|
 T An Urgent Meeting|QID|60360|M|48.26,71.38|Z|Orgrimmar|N|To Warlord Breka Grimaxe at Grommash Hold. You can say bye to Cork if you like.|
 A Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|N|From Warlord Breka Grimaxe.|PRE|60360|
-C Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|QO|1|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|
+C Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|QO|1|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|NC|
 C Battle for Azeroth: Mission Statement|QID|60361|M|48.52,71.20|Z|Orgrimmar|QO|2|CHAT|N|Speak with Nathanos Blightcaller.|
 C Battle for Azeroth: Mission Statement|QID|60361|M|51.31,77.41|Z|Orgrimmar|QO|4|NC|N|Click on the Wyvern for a ride to Princess Talanji's boat.|
 T Battle for Azeroth: Mission Statement|QID|60361|M|57.96,62.76|Z|Zuldazar|N|To Nathanos Blightcaller.|
