@@ -519,7 +519,7 @@ A Setting the Ground Rules|QID|62882|PRE|62832|M|46.81,41.64|Z|The Maw|N|From Ve
 C Setting the Ground Rules|QID|62882|M|46.81,41.64|Z|The Maw|NC|N|Ground rules set with Ve'nari.|COV|Kyrian|
 T Setting the Ground Rules|QID|62882|M|46.83,41.67|Z|The Maw|N|To Ve'nari.|COV|Kyrian|
 A Rule 1: Have an Escape Plan|QID|60287|PRE|62882|M|46.83,41.67|Z|The Maw|N|From Ve'nari.|COV|Kyrian|
-A Soulsmith Yol-Mattar|QID|59441|PRE|62882|M|37.54,37.58|Z|The Maw|N|From Soulsmith Yol-Mattar.|COV|Kyrian|  ;  Auto popup WQ?
+; A Soulsmith Yol-Mattar|QID|59441|PRE|62882|M|37.54,37.58|Z|The Maw|N|From Soulsmith Yol-Mattar.|COV|Kyrian|  ;  Auto popup WQ?
 C Rule 1: Have an Escape Plan|QID|60287|M|40.03,40.41|Z|The Maw|QO|2|NC|N|Stygia.|COV|Kyrian|
 C Rule 1: Have an Escape Plan|QID|60287|M|43.46,45.08|Z|The Maw|QO|1|NC|N|Souls taken into the Soulkeeper.|COV|Kyrian|
 C Rule 1: Have an Escape Plan|QID|60287|M|43.46,45.08|Z|The Maw|QO|3|NC|N|More Stygia can be found from powerful foes.|COV|Kyrian|
@@ -604,7 +604,6 @@ C Where a Soul Belongs|QID|58792|M|49.55,65.55|Z|Ring of Transference@Oribos|QO|
 C Where a Soul Belongs|QID|58792|M|49.77,62.05|Z|Ring of Transference@Oribos|QO|3|NC|N|Talk to Kleia.|COV|Kyrian|
 T Where a Soul Belongs|QID|58792|M|49.77,62.05|Z|Ring of Transference@Oribos|N|To Kleia.|COV|Kyrian|
 A Faith Through the Darkness|QID|58793|PRE|58792|M|49.77,62.05|Z|Ring of Transference@Oribos|N|From Kleia.|COV|Kyrian|
-
 F Elysian Hold|ACTIVE|58793|M|59.57,68.00|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Faith Through the Darkness|QID|58793|M|47.61,54.14|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Ascended|QID|58795|PRE|58793|M|47.61,54.14|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
@@ -626,23 +625,34 @@ A Forged by Trial|QID|58797|PRE|58796|M|51.42,48.03|Z|Archon's Rise@Elysian Hold
 C Forged by Trial|QID|58797|M|59.81,36.27|Z|Sanctum of Binding@Elysian Hold!Dungeon|NC|CHAT|N|Soulbind with Kleia.|COV|Kyrian|
 T Forged by Trial|QID|58797|M|59.81,36.27|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|To Kleia.|COV|Kyrian|
 A The Spires of Ascension|QID|58798|PRE|58797|M|59.81,36.27|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|From Kleia. Dungeon Quest.|COV|Kyrian|
-T The Spires of Ascension|QID|58798|M|55.37,42.40|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
+t The Spires of Ascension|QID|58798|M|55.37,42.40|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
+A More Work?|QID|57899|PRE|57898|M|42.74,53.60|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus. Once the Command Table is active.|COV|Kyrian|  ; guess at PRE, prev PRE|58181 was wrong.
+A Replenish the Reservoir|QID|61982|PRE|57900|M|42.71,53.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
+T More Work?|QID|57899|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Koros.|COV|Kyrian|
+A Across the Shadowlands|QID|57900|PRE|57899|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
+C Across the Shadowlands|QID|57900|M|43.09,41.28|Z|Archon's Rise@Elysian Hold!Dungeon|NC|N|Adventure started.|COV|Kyrian|
+T Across the Shadowlands|QID|57900|M|44.08,41.24|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Koros.|COV|Kyrian|
+A Adventurer: Sika|QID|61861|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
+A Adventurer: Clora|QID|61862|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
+A Adventurer: Apolon|QID|61863|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
+A Adventurer: Bron|QID|61864|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
+A Adventurer: Disciple Kosmas|QID|61865|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
 A The Eternal Forge|QID|58175|PRE|58798|M|55.37,42.40|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
-T Mysterious Soul Mirror|QID|62237|M|55.37,42.40|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
+F Sagehaven|ACTIVE|58175|M|41.19,51.72|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Sagehaven.|COV|Kyrian|
 T The Eternal Forge|QID|58175|M|50.18,20.51|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
-A Refining Ego|QID|58177|PRE|62237&58175|M|50.18,20.51|Z|Bastion!The Shadowlands|N|From Mikanikos.|COV|Kyrian|
-C Refining Ego|QID|58177|M|51.60,17.94|Z|Bastion!The Shadowlands|NC|N|Purified Metal.|COV|Kyrian|
-T Refining Ego|QID|58177|M|50.18,20.53|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
-A Instruments of Perfection|QID|58179|PRE|58177|M|50.16,20.56|Z|Bastion!The Shadowlands|N|From Sika.|COV|Kyrian|
-A Stewards of a Feather|QID|58176|PRE|58177|M|50.16,20.56|Z|Bastion!The Shadowlands|N|From Sika.|COV|Kyrian|
+A Refining Ego|QID|58177|PRE|58175|M|50.18,20.51|Z|Bastion!The Shadowlands|N|From Mikanikos.|COV|Kyrian|
+A Instruments of Perfection|QID|58179|PRE|58175|M|50.16,20.56|Z|Bastion!The Shadowlands|N|From Sika.|COV|Kyrian|
+A Stewards of a Feather|QID|58176|PRE|58175|M|50.16,20.56|Z|Bastion!The Shadowlands|N|From Sika.|COV|Kyrian|
+C Refining Ego|QID|58177|M|51.60,17.94|Z|Bastion!The Shadowlands|S|US|NC|N|Purified Metal.|COV|Kyrian|
 C Instruments of Perfection|QID|58179|M|53.03,18.19|Z|Bastion!The Shadowlands|QO|2|NC|N|Sparkling Driftglobe Core.|COV|Kyrian|
 C Instruments of Perfection|QID|58179|M|51.11,18.39|Z|Bastion!The Shadowlands|QO|1|NC|N|Soulsteel Clamps.|COV|Kyrian|
 C Instruments of Perfection|QID|58179|M|49.91,17.24|Z|Bastion!The Shadowlands|QO|3|NC|N|Gracepetal Incense Burner.|COV|Kyrian|
 C Stewards of a Feather|QID|58176|M|51.88,15.87|Z|Bastion!The Shadowlands|NC|N|Captured Forgehands rescued.|COV|Kyrian|
-T Instruments of Perfection|QID|58179|M|50.16,20.50|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
 T Stewards of a Feather|QID|58176|M|50.13,20.56|Z|Bastion!The Shadowlands|N|To Sika.|COV|Kyrian|
-A Phaestus, Genesis of Aeons|QID|58180|PRE|58179&58176|M|50.14,20.53|Z|Bastion!The Shadowlands|N|From Mikanikos.|COV|Kyrian|
-C Phaestus, Genesis of Aeons|QID|58180|M|49.20,15.80|Z|Bastion!The Shadowlands|NC|N|Phaestus, Genesis of Aeons.|COV|Kyrian|
+T Instruments of Perfection|QID|58179|M|50.16,20.50|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
+T Refining Ego|QID|58177|M|50.18,20.53|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
+A Phaestus, Genesis of Aeons|QID|58180|PRE|58179&58176&58177|M|50.14,20.53|Z|Bastion!The Shadowlands|N|From Mikanikos.|COV|Kyrian|
+C Phaestus, Genesis of Aeons|QID|58180|M|49.20,15.80|Z|Bastion!The Shadowlands|T|Overseer Atticus|N|Kill Overseer Atticus and loot Phaestus, Genesis of Aeons.|COV|Kyrian|
 T Phaestus, Genesis of Aeons|QID|58180|M|50.16,20.45|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
 A A Partner for Eternity|QID|58178|PRE|58180|M|50.16,20.45|Z|Bastion!The Shadowlands|N|From Mikanikos.|COV|Kyrian|
 C A Partner for Eternity|QID|58178|M|50.16,20.45|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak with Mikanikos.|COV|Kyrian|
@@ -655,32 +665,21 @@ C Dismantling the Opposition|QID|58182|M|52.88,18.61|Z|Bastion!The Shadowlands|Q
 C Dismantling the Opposition|QID|58182|M|51.30,16.25|Z|Bastion!The Shadowlands|QO|3|N|Forsworn Colossus slain.|COV|Kyrian|
 T Dismantling the Opposition|QID|58182|M|50.15,20.51|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
 A Friend to the Forgelite|QID|58183|PRE|58182|M|50.15,20.51|Z|Bastion!The Shadowlands|N|From Mikanikos.|COV|Kyrian|
+T Mysterious Soul Mirror|QID|62237|M|40.24,19.78|Z|Bastion!The Shadowlands|N|To Thenios. *Coord approx, turn in changed*|COV|Kyrian|
 T Friend to the Forgelite|QID|58183|M|45.82,56.23|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Building the Base|QID|58181|PRE|58183|M|45.42,56.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Mikanikos.|COV|Kyrian|
 C Building the Base|QID|58181|M|45.42,56.43|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|NC|N|Take Phaestus, Genesis of Aeons.|COV|Kyrian|
 C Building the Base|QID|58181|M|44.07,60.83|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2|NC|N|Complete the Crest of Ascension Base.|COV|Kyrian|
 T Building the Base|QID|58181|M|44.96,56.88|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Mikanikos.|COV|Kyrian|
-A More Work?|QID|57899|PRE|58181|M|42.74,53.60|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|  ; wrong pre, wasnt paying attention when avail.
-A Replenish the Reservoir|QID|61982|PRE|57900|M|42.71,53.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
-T More Work?|QID|57899|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Koros.|COV|Kyrian|
-A Across the Shadowlands|QID|57900|PRE|57899|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
-C Across the Shadowlands|QID|57900|M|43.09,41.28|Z|Archon's Rise@Elysian Hold!Dungeon|NC|N|Adventure started.|COV|Kyrian|
-T Across the Shadowlands|QID|57900|M|44.08,41.24|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Koros.|COV|Kyrian|
-A Adventurer: Sika|QID|61861|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
-A Adventurer: Clora|QID|61862|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
-A Adventurer: Apolon|QID|61863|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
-A Adventurer: Bron|QID|61864|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
-A Adventurer: Disciple Kosmas|QID|61865|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
 t Replenish the Reservoir|QID|61982|M|53.30,46.15|Z|Archon's Rise@Elysian Hold!Dungeon|COV|Kyrian|
-
 A Return Lost Souls|QID|62863|PRE|61982|M|59.31,34.40|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|From Soulguide Daelia.|COV|Kyrian|
-T Return Lost Souls|QID|62863|M|46.52,66.03|Z|Archon's Rise@Elysian Hold!Dungeon|COV|Kyrian|
+t Return Lost Souls|QID|62863|M|46.52,66.03|Z|Archon's Rise@Elysian Hold!Dungeon|COV|Kyrian|
 A An Expected Visitor|QID|61785|PRE|62863|M|55.44,42.48|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 T An Expected Visitor|QID|61785|M|62.05,37.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Xandria.|COV|Kyrian|
 A A Perilous Journey|QID|61767|PRE|61785|M|62.05,37.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Xandria.|COV|Kyrian|
-A Just Winging It|QID|61540|PRE|61785|M|46.09,49.05|Z|Maldraxxus|COV|Kyrian|
-T Just Winging It|QID|61540|M|40.99,41.74|Z|Maldraxxus|COV|Kyrian|
-F Spider's Watch|QID|61540|ACTIVE|61540|M|51.29,48.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|Kyrian|
+F Spider's Watch|ACTIVE|61767|M|51.29,48.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|Kyrian|
+; A Just Winging It|QID|61540|PRE|61785|M|46.09,49.05|Z|Maldraxxus|COV|Kyrian|  ; from what I see on wowhead I think this doesn't belong.
+; T Just Winging It|QID|61540|M|40.99,41.74|Z|Maldraxxus|COV|Kyrian|
 T A Perilous Journey|QID|61767|M|37.72,29.38|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
 A Stronger Together|QID|61768|PRE|61540&61767|M|37.72,29.38|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
 C Stronger Together|QID|61768|M|37.79,29.45|Z|Maldraxxus|CHAT|N|Speak to Xandria.|COV|Kyrian|
@@ -688,6 +687,7 @@ T Stronger Together|QID|61768|M|36.28,36.60|Z|Maldraxxus|N|To Baroness Draka.|CO
 A Fight and Flight|QID|61769|PRE|61768|M|36.28,36.60|Z|Maldraxxus|N|From Baroness Draka.|COV|Kyrian|
 C Fight and Flight|QID|61769|M|34.01,27.95|Z|Maldraxxus|NC|N|Fly with Xandria.|COV|Kyrian|
 T Fight and Flight|QID|61769|M|35.61,26.46|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
+; place holder, where I left off playing. Blanc26102020
 A Justice from Above|QID|61771|PRE|61769|M|35.61,26.46|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
 A The Butchers of Bastion|QID|61770|PRE|61769|M|35.35,26.00|Z|Maldraxxus|N|From Apolon.|COV|Kyrian|
 A Dark Developments|QID|61772|PRE|61769|M|33.54,24.18|Z|Maldraxxus|COV|Kyrian|
@@ -737,19 +737,19 @@ A Take Heart|QID|61876|PRE|61782|M|31.10,29.27|Z|Maldraxxus|N|From Xandria.|COV|
 C Take Heart|QID|61876|M|30.97,29.01|Z|Maldraxxus|NC|N|Fleshshaper's Heart.|COV|Kyrian|
 T Take Heart|QID|61876|M|31.00,29.05|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
 A Return to the Hold|QID|61877|PRE|61876|M|31.00,29.05|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
-R House of Constructs|QID|61877|ACTIVE|61877|M|31.08,29.30|Z|Maldraxxus|N|Make your way to the House of Constructs.|COV|Kyrian|
+R House of Constructs|ACTIVE|61877|M|31.08,29.30|Z|Maldraxxus|N|Make your way to the House of Constructs.|COV|Kyrian|
 T Abombing Run|QID|59703|M|34.87,34.87|Z|Maldraxxus|COV|Kyrian|
 A Abombing Run|QID|59703|PRE|59703|M|37.42,30.22|Z|Maldraxxus|COV|Kyrian|
-R Spider's Watch|QID|59703|ACTIVE|59703|M|37.51,29.35|Z|Maldraxxus|N|Make your way to the Spider's Watch.|COV|Kyrian|
+R Spider's Watch|ACTIVE|59703|M|37.51,29.35|Z|Maldraxxus|N|Make your way to the Spider's Watch.|COV|Kyrian|
 A Just Winging It|QID|61540|PRE|59703|M|44.47,45.08|Z|Maldraxxus|COV|Kyrian|
 T Just Winging It|QID|61540|M|47.14,56.63|Z|Maldraxxus|COV|Kyrian|
-F Elysian Hold|QID|61540|ACTIVE|61540|M|37.54,29.28|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
+F Elysian Hold|ACTIVE|61540|M|37.54,29.28|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Abombing Run|QID|59703|M|51.22,48.61|Z|Archon's Rise@Elysian Hold!Dungeon|COV|Kyrian|
 T Return to the Hold|QID|61877|M|39.19,59.55|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Xandria.|COV|Kyrian|
 A Crest of Greatness|QID|61878|PRE|61540&59703&61877|M|39.19,59.55|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Xandria.|COV|Kyrian|
 T Crest of Greatness|QID|61878|M|40.31,60.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Xandria.|COV|Kyrian|
 A Assistance from Sinfall|QID|58557|PRE|61878|M|55.36,42.24|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
-F Darkhaven|QID|58557|ACTIVE|58557|M|51.29,48.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Darkhaven.|COV|Kyrian|
+F Darkhaven|ACTIVE|58557|M|51.29,48.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Darkhaven.|COV|Kyrian|
 C Assistance from Sinfall|QID|58557|M|60.39,60.82|Z|Revendreth|CHAT|N|Speak with The Curator in Darkhaven.|COV|Kyrian|
 T Assistance from Sinfall|QID|58557|M|60.39,60.82|Z|Revendreth|N|To The Curator.|COV|Kyrian|
 A Overhead Intelligence|QID|58558|PRE|58557|M|60.39,60.82|Z|Revendreth|N|From The Curator.|COV|Kyrian|
@@ -800,7 +800,7 @@ C Skulking in the Darkness|QID|58567|M|38.73,53.88|Z|Revendreth|N|Outcast venthy
 C Light Respite|QID|58568|M|36.27,53.20|Z|Revendreth|NC|N|Brushberry.|COV|Kyrian|
 T Skulking in the Darkness|QID|58567|M|39.90,59.00|Z|Revendreth|N|To Kleia.|COV|Kyrian|
 T Light Respite|QID|58568|M|39.90,59.00|Z|Revendreth|N|To Kleia.|COV|Kyrian|
-R Sanctuary of the Mad|QID|58568|ACTIVE|58568|M|31.82,47.59|Z|Revendreth|N|Make your way to the Sanctuary of the Mad.|COV|Kyrian|
+R Sanctuary of the Mad|ACTIVE|58568|M|31.82,47.59|Z|Revendreth|N|Make your way to the Sanctuary of the Mad.|COV|Kyrian|
 A Actions Speak Louder than Words|QID|58566|PRE|58567&58568|M|31.85,47.60|Z|Revendreth|N|From Mindscorched Alwin.|COV|Kyrian|
 C Actions Speak Louder than Words|QID|58566|M|31.85,47.60|Z|Revendreth|QO|1|CHAT|N|Speak to Mindscorched Alwin.|COV|Kyrian|
 C Actions Speak Louder than Words|QID|58566|M|39.93,58.25|Z|Revendreth|QO|2|NC|N|Mindscorched Alwin followed.|COV|Kyrian|
@@ -811,15 +811,15 @@ C The Folly of Envy|QID|58569|M|39.81,59.97|Z|Revendreth|QO|2|NC|N|Seal of Contr
 T The Folly of Envy|QID|58569|M|39.97,59.03|Z|Revendreth|N|To Kleia.|COV|Kyrian|
 A Parting Words|QID|58570|PRE|58569|M|39.97,59.03|Z|Revendreth|N|From Kleia.|COV|Kyrian|
 C Parting Words|QID|58570|M|32.05,47.61|Z|Revendreth|CHAT|N|Speak to the Curator.|COV|Kyrian|
-R Sanctuary of the Mad|QID|58570|ACTIVE|58570|M|32.05,47.61|Z|Revendreth|N|Make your way to the Sanctuary of the Mad.|COV|Kyrian|
-F Elysian Hold|QID|58570|ACTIVE|58570|M|30.63,48.81|Z|Revendreth|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
+R Sanctuary of the Mad|ACTIVE|58570|M|32.05,47.61|Z|Revendreth|N|Make your way to the Sanctuary of the Mad.|COV|Kyrian|
+F Elysian Hold|ACTIVE|58570|M|30.63,48.81|Z|Revendreth|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 C Parting Words|QID|58570|M|44.87,56.51|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2|CHAT|N|Speak to Kalisthene in Elysian Hold.|COV|Kyrian|
 T Parting Words|QID|58570|M|45.48,56.82|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Mikanikos.|COV|Kyrian|
 A The Seal of Contrition|QID|58571|PRE|58570|M|45.48,56.82|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Mikanikos.|COV|Kyrian|
 T The Seal of Contrition|QID|58571|M|44.46,58.80|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Mikanikos.|COV|Kyrian|
 A A Call to Revendreth|QID|60434|PRE|58571|M|45.35,56.64|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 A Meet the Queen|QID|58775|PRE|58571|M|45.35,56.64|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
-F Heart of the Forest|QID|58775|ACTIVE|58775|M|51.35,48.49|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Heart of the Forest.|COV|Kyrian|
+F Heart of the Forest|ACTIVE|58775|M|51.35,48.49|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Heart of the Forest.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|25.13,23.77|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak with Lord Herne at the Heart of the Forest.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|45.98,57.61|Z|The Canopy@Heart of the Forest!Dungeon|QO|2|NC|N|Tell Pelagos you're ready.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|46.66,53.35|Z|The Canopy@Heart of the Forest!Dungeon|QO|3|NC|N|Listen to the Winter Queen's reply.|COV|Kyrian|
@@ -862,8 +862,8 @@ C I Dreamed A Dream|QID|58995|M|45.28,65.62|Z|Ardenweald!The Shadowlands|QO|2|NC
 T I Dreamed A Dream|QID|58995|M|45.20,65.38|Z|Ardenweald!The Shadowlands|N|To Pelagos.|COV|Kyrian|
 A A Bittersweet Prize|QID|58997|PRE|58995|M|45.20,65.38|Z|Ardenweald!The Shadowlands|N|From Pelagos.|COV|Kyrian|
 C Drust Between You and Me|QID|61631|M|45.41,65.20|Z|Ardenweald!The Shadowlands|QO|2|N|Ingra Krazic slain.|COV|Kyrian|
-R Heart of the Forest|QID|58997|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Make your way to the Heart of the Forest.|COV|Kyrian|
-F Elysian Hold|QID|58997|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
+R Heart of the Forest|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Make your way to the Heart of the Forest.|COV|Kyrian|
+F Elysian Hold|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T A Bittersweet Prize|QID|58997|M|55.36,42.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Heart of the Crest|QID|61135|PRE|58997|M|55.36,42.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 T Heart of the Crest|QID|61135|M|43.54,64.61|Z|Archon's Rise@Elysian Hold!Dungeon|COV|Kyrian|
@@ -871,11 +871,11 @@ A A New Age|QID|61697|PRE|61135|M|43.62,65.88|Z|Archon's Rise@Elysian Hold!Dunge
 C A New Age|QID|61697|M|42.69,61.39|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|NC|N|Crest of Ascension activated.|COV|Kyrian|
 T A New Age|QID|61697|M|43.41,66.04|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A On Lysonia's Trail|QID|57113|PRE|61697|M|55.27,42.41|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
-F Hero's Rest|QID|57113|ACTIVE|57113|M|51.25,48.59|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Hero's Rest.|COV|Kyrian|
+F Hero's Rest|ACTIVE|57113|M|51.25,48.59|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Hero's Rest.|COV|Kyrian|
 A A Steward for Every Occasion|QID|60565|PRE|61697|M|51.48,46.82|Z|Bastion!The Shadowlands|COV|Kyrian|
-P Firstborne's Bounty|QID|60565|ACTIVE|60565|M|50.62,46.79|Z|Bastion!The Shadowlands|N|Take the portal to Firstborne's Bounty.|COV|Kyrian|
-P Firstborne's Bounty|QID|60565|ACTIVE|60565|M|53.29,48.56|Z|Bastion!The Shadowlands|N|Take the portal to Firstborne's Bounty.|COV|Kyrian|
-R Temple of Humility|QID|60565|ACTIVE|60565|M|61.82,43.69|Z|Bastion!The Shadowlands|N|Make your way to the Temple of Humility.|COV|Kyrian|
+P Firstborne's Bounty|ACTIVE|60565|M|50.62,46.79|Z|Bastion!The Shadowlands|N|Take the portal to Firstborne's Bounty.|COV|Kyrian|
+P Firstborne's Bounty|ACTIVE|60565|M|53.29,48.56|Z|Bastion!The Shadowlands|N|Take the portal to Firstborne's Bounty.|COV|Kyrian|
+R Temple of Humility|ACTIVE|60565|M|61.82,43.69|Z|Bastion!The Shadowlands|N|Make your way to the Temple of Humility.|COV|Kyrian|
 T On Lysonia's Trail|QID|57113|M|61.82,43.69|Z|Bastion!The Shadowlands|N|To Kleia.|COV|Kyrian|
 A Aerial Reconnaissance|QID|57114|PRE|57113|M|61.82,43.69|Z|Bastion!The Shadowlands|N|From Kleia.|COV|Kyrian|
 C Aerial Reconnaissance|QID|57114|M|61.82,43.69|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak to Kleia.|COV|Kyrian|
@@ -900,13 +900,13 @@ A Lysonia's Plan|QID|57207|PRE|57118&57117|M|68.37,41.65|Z|Bastion!The Shadowlan
 C Lysonia's Plan|QID|57207|M|69.13,40.77|Z|Bastion!The Shadowlands|NC|N|Lysonia confronted.|COV|Kyrian|
 T Lysonia's Plan|QID|57207|M|69.13,40.77|Z|Bastion!The Shadowlands|N|To Chyrus.|COV|Kyrian|
 A The Power of the Maw|QID|57121|PRE|57207|M|69.13,40.77|Z|Bastion!The Shadowlands|N|From Chyrus.|COV|Kyrian|
-P Terrace of Inner Grace|QID|57121|ACTIVE|57121|M|69.32,40.41|Z|Bastion!The Shadowlands|N|Take the portal to Terrace of Inner Grace.|COV|Kyrian|
-R Bastion|QID|57121|ACTIVE|57121|M|56.23,53.05|Z|Bastion!The Shadowlands|N|Make your way to the Bastion.|COV|Kyrian|
-P Bastion|QID|57121|ACTIVE|57121|M|56.05,52.84|Z|Bastion!The Shadowlands|N|Take the portal to Bastion.|COV|Kyrian|
-F Ring of Transference|QID|57121|ACTIVE|57121|M|51.39,46.80|Z|Bastion!The Shadowlands|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Kyrian|
-P Ring of Fates|QID|57121|ACTIVE|57121|M|55.19,59.12|Z|Ring of Transference@Oribos|N|Take the portal to Ring of Fates.|COV|Kyrian|
+P Terrace of Inner Grace|ACTIVE|57121|M|69.32,40.41|Z|Bastion!The Shadowlands|N|Take the portal to Terrace of Inner Grace.|COV|Kyrian|
+R Bastion|ACTIVE|57121|M|56.23,53.05|Z|Bastion!The Shadowlands|N|Make your way to the Bastion.|COV|Kyrian|
+P Bastion|ACTIVE|57121|M|56.05,52.84|Z|Bastion!The Shadowlands|N|Take the portal to Bastion.|COV|Kyrian|
+F Ring of Transference|ACTIVE|57121|M|51.39,46.80|Z|Bastion!The Shadowlands|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Kyrian|
+P Ring of Fates|ACTIVE|57121|M|55.19,59.12|Z|Ring of Transference@Oribos|N|Take the portal to Ring of Fates.|COV|Kyrian|
 C The Power of the Maw|QID|57121|M|44.87,51.79|Z|Ring of Transference@Oribos|QO|1|NC|N|Meet with Kleia.|COV|Kyrian|
-P Ring of Fates|QID|50601|ACTIVE|50601|M|45.58,51.85|Z|Ring of Transference@Oribos|N|Take the portal to Ring of Fates.|COV|Kyrian|
+P Ring of Fates|ACTIVE|50601|M|45.58,51.85|Z|Ring of Transference@Oribos|N|Take the portal to Ring of Fates.|COV|Kyrian|
 C The Power of the Maw|QID|57121|M|50.72,50.62|Z|Ring of Fates@Oribos|QO|2|NC|N|Travel to the Maw.|COV|Kyrian|
 T The Power of the Maw|QID|57121|M|33.71,55.70|Z|The Maw|N|To Kleia.|COV|Kyrian|
 A A Step Too Far|QID|57122|PRE|57121|M|33.71,55.70|Z|The Maw|N|From Kleia.|COV|Kyrian|
@@ -923,7 +923,7 @@ T Her Will, Inflicted|QID|57124|M|25.66,65.29|Z|The Maw|N|To Uther.|COV|Kyrian|
 A Time to Reflect|QID|57125|PRE|57124|M|25.66,65.29|Z|The Maw|N|From Uther.|COV|Kyrian|
 C Time to Reflect|QID|57125|M|25.66,65.29|Z|The Maw|QO|1|CHAT|N|Speak to Kleia.|COV|Kyrian|
 C Time to Reflect|QID|57125|M|42.39,42.19|Z|The Maw|QO|2|NC|N|Waystone used.|COV|Kyrian|
-P Oribos|QID|57125|ACTIVE|57125|M|42.39,42.19|Z|The Maw|N|Take the portal to Oribos.|COV|Kyrian|
+P Oribos|ACTIVE|57125|M|42.39,42.19|Z|The Maw|N|Take the portal to Oribos.|COV|Kyrian|
 P Ring of Transference|ACTIVE|57125|M|51.98,58.39|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Kyrian|
 F Elysian Hold|ACTIVE|57125|M|60.26,68.26|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Time to Reflect|QID|57125|M|55.48,42.49|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
