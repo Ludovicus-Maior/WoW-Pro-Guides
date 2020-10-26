@@ -15,14 +15,18 @@ C Choosing Your Purpose|QID|57878|M|39.66,68.43|Z|Ring of Fates@Oribos|QO|5|NC|N
 T Choosing Your Purpose|QID|57878|M|39.34,69.37|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
 
 ;Night Fae Campaign |QID|99999|M|PLAYER|N|Guide is currently in development.|COV|Night Fae|
-A The Heart of the Forest|QID|61475|M|39.50,61.58|Z|Ring of Fates@Oribos|N|From Lady Moonberry.|PRE|57878|COV|Night Fae|
+A Report to Moonberry|QID|63214|PRE|57878|M|39.30,69.17|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
+T Report to Moonberry|QID|63214|M|39.71,61.18|Z|Ring of Fates@Oribos|N|To Lady Moonberry.|
+A The Heart of the Forest|QID|61475|M|39.50,61.58|Z|Ring of Fates@Oribos|N|From Lady Moonberry.|PRE|63214|COV|Night Fae|
 P Ring of Transference|ACTIVE|61475|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|COV|Night Fae|
 F Refugee Camp|QID|61475|M|60.59,68.98|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi.|COV|Night Fae|
 T The Heart of the Forest|QID|61475|M|49.32,52.30|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
+;intro to Nightfae- can be skipped when done once.
 A The Boon of Shapes|QID|61479|M|49.32,52.30|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|61475|COV|Night Fae|
 C The Boon of Shapes|QID|61479|M|51.20,40.46|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Lady Moonberry followed.|COV|Night Fae|
 C The Boon of Shapes|QID|61479|M|50.16,40.29|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|NC|N|Use the "[color=40C7EB]Receive Boon[/color]" button to Kneel before Lady Moonberry.|EAB|COV|Night Fae|
 T The Boon of Shapes|QID|61479|M|50.05,40.29|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
+;skip happens here
 A Show, Don't Tell|QID|58104|M|49.77,40.02|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|61479|COV|Night Fae|
 h Heart of the Forest|QID|58104|M|54.59,55.49|Z|The Trunk@Heart of the Forest!Dungeon|N|At Kewarin.|COV|Night Fae|
 R Star Lake Amphitheater|QID|58104|M|43.13,48.82|Z|Ardenweald!The Shadowlands|COV|Night Fae|
@@ -57,18 +61,24 @@ C What's My Motivation?|QID|58159|M|41.22,44.33|Z|Ardenweald!The Shadowlands|QO|
 C What's My Motivation?|QID|58159|M|41.33,44.44|Z|Ardenweald!The Shadowlands|QO|5|N|N'Zoth defeated.|COV|Night Fae|
 C What's My Motivation?|QID|58159|M|41.43,44.78|Z|Ardenweald!The Shadowlands|QO|6|N|Stand in the light and use the "[color=40C7EB]Awaiting the Queen's Judgement[/color]" button, then Await the Queen's Judgement.|EAB|COV|Night Fae|
 T What's My Motivation?|QID|58159|M|41.07,44.84|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
+;campaign start
 A For Queen and Grove!|QID|58160|M|42.43,45.21|Z|Ardenweald!The Shadowlands|N|From Ysera.|PRE|58159|COV|Night Fae|
 C For Queen and Grove!|QID|58160|M|51.94,8.24|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|NC|N|Fly with Ysera.|COV|Night Fae|
 C For Queen and Grove!|QID|58160|M|49.59,19.27|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Ask Attendant Sparkledew for transport.|COV|Night Fae|
 C For Queen and Grove!|QID|58160|M|49.55,37.35|Z|The Canopy@Heart of the Forest!Dungeon|QO|3|N|Use the "[color=40C7EB]Swearing Oath[/color]" button, Oath Pledged.|EAB|COV|Night Fae|
 T For Queen and Grove!|QID|58160|M|50.85,30.97|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|COV|Night Fae|
+;if skip is used.
+A For Queen and Grove!|QID|63006|M|50.03,39.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|
+C For Queen and Grove!|QID|63006|M|50.63,18.87|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|NC|N|Ask Attendant Sparkledew for transport.|
+C For Queen and Grove!|QID|63006|M|49.72,37.19|Z|The Canopy@Heart of the Forest!Dungeon|QO|2|NC|N|Oath Pledged.|
+;if skip is use it goes straight to Daughter of the Night Warrior
 f Heart of the Forest|QID|58160|M|50.85,30.97|Z|The Canopy@Heart of the Forest!Dungeon|N|At Winter Queen.|COV|Night Fae|
-A The Forest Will Sing Your Name|QID|62883|M|49.57,31.40|Z|The Canopy@Heart of the Forest!Dungeon|N|From Winter Queen.|PRE|58160|COV|Night Fae|
-T The Forest Will Sing Your Name|QID|62883|M|40.56,56.03|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder. Talk to Attendant Shimmerwing to leave the Audience chamber.|COV|Night Fae|
-A Who Shapes the Forest|QID|62884|M|40.56,56.03|Z|The Roots@Heart of the Forest!Dungeon|N|From Zayhad, The Builder.|COV|Night Fae|
-C Who Shapes the Forest|QID|62884|M|40.56,56.03|Z|The Roots@Heart of the Forest!Dungeon|QO|1|N|Renown examined|COV|Night Fae|
-T Who Shapes the Forest|QID|62884|M|40.56,56.03|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder.|COV|Night Fae|
-A A Call to Service|QID|62697|M|40.56,56.03|Z|The Roots@Heart of the Forest!Dungeon|N|From Zayhad, The Builder.|COV|Night Fae|
+A Keeper of Great Renown|QID|62883|M|51.50,29.82|Z|The Canopy@Heart of the Forest!Dungeon|N|From Winter Queen.|COV|Night Fae|
+T Keeper of Great Renown|QID|62883|M|34.09,36.52|Z|The Trunk@Heart of the Forest!Dungeon|N|To Laurel.|COV|Night Fae|
+A The Forest Will Sing Your Name|QID|62884|PRE|62883|M|34.09,36.52|Z|The Trunk@Heart of the Forest!Dungeon|N|From Laurel.|COV|Night Fae|
+C The Forest Will Sing Your Name|QID|62884|M|34.09,36.52|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|NC|N|Renown examined.|COV|Night Fae|
+T The Forest Will Sing Your Name|QID|62884|M|34.09,36.52|Z|The Trunk@Heart of the Forest!Dungeon|N|To Laurel.|COV|Night Fae|
+A A Call to Service|QID|62697|PRE|62884|M|34.09,36.52|Z|The Trunk@Heart of the Forest!Dungeon|N|From Laurel.|COV|Night Fae|
 T A Call to Service|QID|62697|M|53.73,6.55|Z|The Trunk@Heart of the Forest!Dungeon|N|To Blodwyn.|COV|Night Fae|
 A A Calling in Ardenweald|QID|62693|PRE|62697|M|53.73,6.55|Z|The Trunk@Heart of the Forest!Dungeon|N|From Blodwyn.|COV|Night Fae|
 T A Calling in Ardenweald|QID|62693|M|53.77,6.52|Z|The Trunk@Heart of the Forest!Dungeon|N|To Blodwyn. Look at your Map and choose 3 Daily Quests to do.|COV|Night Fae|
@@ -133,55 +143,59 @@ T A Conduit for Growth|QID|62900|M|33.73,44.44|Z|The Trunk@Heart of the Forest!D
 A The Endless Forest|QID|62899|M|33.73,44.44|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|PRE|62900|COV|Night Fae|
 T The Endless Forest|QID|62899|M|46.59,36.60|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
 ;Daughter of the Night Warrior
-A Daughter of the Night Warrior|QID|59179|M|44.22,39.33|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|62899|COV|Night Fae|
+A Daughter of the Night Warrior|QID|59179|M|44.22,39.33|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|62899^63006|COV|Night Fae|
 F Oribos|QID|59179|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
 P Ring of Fates|ACTIVE|59179|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Fates.|COV|Night Fae|
 C Daughter of the Night Warrior|QID|59179|M|43.23,64.00|Z|Ring of Fates@Oribos|N|Shandris Feathermoon found in Oribos|COV|Night Fae|
 T Daughter of the Night Warrior|QID|59179|M|39.33,67.22|Z|Ring of Fates@Oribos|N|To Shandris Feathermoon.|COV|Night Fae|
-A Into the Maw|QID|59181|M|39.33,67.22|Z|Ring of Fates@Oribos|N|From Unknown.|PRE|59179|COV|Night Fae|
+A Into the Maw|QID|59181|M|39.33,67.22|Z|Ring of Fates@Oribos|N|From Shandris Feathermoon.|PRE|59179|COV|Night Fae|
+P Ring of Transference|ACTIVE|59181|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Night Fae|
 C Into the Maw|QID|59181|M|44.95,40.99|Z|The Maw|N|Shandris Feathermoon escorted into the Maw|COV|Night Fae|
 T Into the Maw|QID|59181|M|44.42,41.20|Z|The Maw|N|To Shandris Feathermoon.|COV|Night Fae|
 A On the Trail|QID|60508|M|44.42,41.20|Z|The Maw|N|From Shandris Feathermoon.|PRE|59181|COV|Night Fae|
-C On the Trail|QID|60508|M|36.26,47.92|Z|The Maw|QO|1|N|1/1 Location in Shandris's dream found|COV|Night Fae|
-C On the Trail|QID|60508|M|33.03,37.68|Z|The Maw|QO|2|N|1/1 Trail of corpses followed|COV|Night Fae|
+C On the Trail|QID|60508|M|36.26,47.92|Z|The Maw|QO|1|N|Location in Shandris's dream found|COV|Night Fae|
+C On the Trail|QID|60508|M|33.03,37.68|Z|The Maw|QO|2|N|Trail of corpses followed|COV|Night Fae|
 T On the Trail|QID|60508|M|30.17,36.54|Z|The Maw|N|To Shandris Feathermoon.|COV|Night Fae|
 A The Sea of Souls|QID|60530|M|30.17,36.54|Z|The Maw|N|From Shandris Feathermoon.|PRE|60508|COV|Night Fae|
 C The Sea of Souls|QID|60530|M|38.52,24.85|Z|The Maw|N|Tyrande Whisperwind found|COV|Night Fae|
 T The Sea of Souls|QID|60530|M|46.83,41.73|Z|The Maw|N|To Shandris Feathermoon.|COV|Night Fae|
 A The Recovery of Tyrande Whisperwind|QID|59189|M|46.83,41.73|Z|The Maw|N|From Shandris Feathermoon.|PRE|60530|COV|Night Fae|
 ; scenario start
-C The Recovery of Tyrande Whisperwind|QID|59189|M|38.28,47.09|Z|Torghast - Entrance!Instance|QO|1|N|1/1 Shandris Feathermoon followed into Torghast|COV|Night Fae|
+C The Recovery of Tyrande Whisperwind|QID|59189|M|38.28,47.09|Z|Torghast - Entrance!Instance|QO|1|CHAT|N|Shandris Feathermoon followed into Torghast|COV|Night Fae|
 C Find Tyrande Whisperwind|Z|The Fracture Chambers|SO|1|QID|59189|N|Search Torghast for Tyrande Whisperind|COV|Night Fae|
 C Fend off Maw Warriors|Z|The Fracture Chambers|SO|2|QID|59189|N|Aid Tyrande in defeating Maw Assassins|COV|Night Fae|
 C Maw ambushers slain|M|78.93,35.42|Z|Covenant_Ard_Torghast!Dungeon|SO|2;1|N|Maw ambushers slain|COV|Night Fae|
 C Keep up with Tyrande Whisperwind|Z|The Fracture Chambers|SO|3|QID|59189|N|Tyrande is not stopping. Try to keep up with her.|COV|Night Fae|
 C Tyrande Whisperwind followed|M|78.18,61.23|Z|Covenant_Ard_Torghast!Dungeon|QID|59189|SO|3;1|N|Tyrande Whisperwind followed|COV|Night Fae|
-C Defeat Maw Ambushers|Z|The Fracture Chambers|SO|4|QID|59189|N|Tyrande charged ahead. Deal with the incoming Maw minions!|COV|Night Fae|
+C Defeat Maw Ambushers|Z|The Fracture Chambers|SO|4|QID|59189|N|Tyrande charged ahead. Deal with 4 waves of incoming Maw minions!|COV|Night Fae|
 C Maw ambushers slain|M|77.48,64.03|Z|Covenant_Ard_Torghast!Dungeon|SO|4;1|QID|59189||N|Maw ambushers slain|COV|Night Fae|
-C Catch up with Tyrande|Z|The Fracture Chambers|SO|5|QID|59189|N|Tyrande is up ahead, try to catch up with her!|COV|Night Fae|
+C Catch up with Tyrande|Z|The Fracture Chambers|SO|5|QID|59189|N|Tyrande iws up ahead, try to catch up with her!|COV|Night Fae|
 C Tyrande found|M|60.45,86.54|Z|Covenant_Ard_Torghast!Dungeon|SO|5;1|QID|59189|N|Tyrande found|COV|Night Fae|
 C (Optional) Disable traps|M|60.45,86.54|Z|Covenant_Ard_Torghast!Dungeon|SO|5;2|QID|59189|N|(Optional) Disable traps|COV|Night Fae|
 C Follow the new path to Tyrande|Z|The Fracture Chambers|SO|6|QID|59189|N|Tyrande has pushed forward. Find another way to catch up with her.|COV|Night Fae|
 C Tyrande found|M|50.36,70.09|Z|Covenant_Ard_Torghast!Dungeon|SO|6;1|QID|59189|N|Tyrande found|COV|Night Fae|
-C Defeat Skuld|Z|The Fracture Chambers|SO|7|QID|59189|N|Skuld stands in your way!|COV|Night Fae|
+C Defeat Skuld|Z|The Fracture Chambers|SO|7|QID|59189|N|Skuld stands in your way! Free the Bound Souls then kill him! He has an interuptable ability that gives him a shield.|COV|Night Fae|
 C Souls freed|M|42.55,72.42|Z|Covenant_Ard_Torghast!Dungeon|SO|7;1|QID|59189|N|Souls freed|COV|Night Fae|
 C Skuld slain|M|44.57,69.89|Z|Covenant_Ard_Torghast!Dungeon|SO|7;2|QID|59189|N|Skuld slain|COV|Night Fae|
 C Catch up with Tyrande|Z|The Fracture Chambers|SO|8|QID|59189|N|Tyrande must be up ahead. Find her!|COV|Night Fae|
 C Tyrande found|M|24.41,34.13|Z|Covenant_Ard_Torghast!Dungeon|SO|8;1|QID|59189|N|Tyrande found|COV|Night Fae|
-C Defeat the Tortured Amalgamation|Z|The Fracture Chambers|SO|9|QID|59189|N|The Maw has created an amalgam of tortured night elf souls. Help Tyrande fight them off.|COV|Night Fae|
+C Defeat the Tortured Amalgamation|Z|The Fracture Chambers|SO|9|QID|59189|N|The Maw has created an tortured Amalgam, avoid the blasts and kill it.|COV|Night Fae|
 C Tortured Amalgamation slain|M|28.37,32.19|Z|Covenant_Ard_Torghast!Dungeon|SO|9;1|QID|59189|N|Tortured Amalgamation slain|COV|Night Fae|
-C Tyrande Whisperwind's Refusal|Z|The Fracture Chambers|SO|10|QID|59189|N|The battle is won, but what of Tyrande?|COV|Night Fae|
+C Tyrande Whisperwind's Refusal|Z|The Fracture Chambers|SO|10|QID|59189|CHAT|N|Talk to Tyrande.|COV|Night Fae|
 C Beseech Tyrande to return|M|25.70,28.37|Z|Covenant_Ard_Torghast!Dungeon|SO|10;1|QID|59189|N|Beseech Tyrande to return|COV|Night Fae|
-C Salvation of the Night Elves|Z|The Fracture Chambers|SO|11|QID|59189|N|Tyrande is gone, but you can still save the group of night elves trapped in the Maw.|COV|Night Fae|
+C Salvation of the Night Elves|Z|The Fracture Chambers|SO|11|QID|59189|N|Click the glowing crystal in the middle of teh room|COV|Night Fae|
 C Soulkeeper Crystal placed|M|25.56,28.82|Z|Covenant_Ard_Torghast!Dungeon|SO|11;1|QID|59189|N|Soulkeeper Crystal placed|COV|Night Fae|
 C Night elf souls rescued|M|25.56,28.82|Z|Covenant_Ard_Torghast!Dungeon|SO|11;2|QID|59189|N|Night elf souls rescued|COV|Night Fae|
 C Salvation of the Night Elves|Z|The Fracture Chambers|SO|11|QID|59189|N|Tyrande is gone, but you can still save the group of night elves trapped in the Maw.|COV|Night Fae|
 C The Kaldorei Rescued|Z|The Fracture Chambers|SO|12|QID|59189|N|It is time to return to Ardenweald with the rescued night elves in the Soulkeeper.|COV|Night Fae|
-C The Recovery of Tyrande Whisperwind|QID|59189|M|25.56,28.82|Z|Covenant_Ard_Torghast!Dungeon|QO|2|N|1/1 Tyrande Whisperwind recovered from Torghast|COV|Night Fae|
+C The Recovery of Tyrande Whisperwind|QID|59189|M|25.56,28.82|Z|Covenant_Ard_Torghast!Dungeon|QO|2|CHAT|N|To Shandris Feathermoon.|COV|Night Fae|
 T The Recovery of Tyrande Whisperwind|QID|59189|M|46.81,41.59|Z|The Maw|N|To Shandris Feathermoon.|COV|Night Fae|
 A Their New Home|QID|59242|PRE|59189|M|46.81,41.59|Z|The Maw|N|From Shandris Feathermoon.|COV|Night Fae|
+P Oribos|ACTIVE|59242|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Night Fae|
+P Ring of Transference|ACTIVE|59242|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|COV|Night Fae|
+F Heart of the Forest|ACTIVE|59242|M|60.23,68.72|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Heart of the Forest.|COV|Night Fae|
 C Their New Home|QID|59242|M|47.18,31.78|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|N|Night elf souls brought to Ysera in Ardenweald|COV|Night Fae|
-C Their New Home|QID|59242|M|44.30,38.65|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|N|1/1 Speak with Ysera to release Night Elf souls|COV|Night Fae|
+C Their New Home|QID|59242|M|44.30,38.65|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera to release Night Elf souls|COV|Night Fae|
 T Their New Home|QID|59242|M|44.30,38.65|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
 ;Da Boss
 A On De Other Side|QID|59809|M|43.78,38.23|Z|The Trunk@Heart of the Forest!Dungeon|N|From Mask of Bwonsamdi.|PRE|59242|COV|Night Fae|
@@ -373,35 +387,40 @@ H Heart of the Forest|ACTIVE|58452|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Use y
 T Tracking the Shadows|QID|58452|M|44.81,38.33|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera, she is still hanging out on the middle platform.|COV|Night Fae|
 ;Deal for a Loa
 A An Expected Guest|QID|59731|PRE|58452|M|44.08,38.81|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|
-T An Expected Guest|QID|59731|M|48.33,52.53|Z|Ardenweald!The Shadowlands|N|To Bwonsamdi.|COV|Night Fae|
+T An Expected Guest|QID|59731|M|48.33,52.53|Z|Ardenweald!The Shadowlands|N|To Bwonsamdi outside being "greated" by the Hunt.|COV|Night Fae|
 A Something Extra for the Winter Queen|QID|59732|PRE|59731|M|48.33,52.53|Z|Ardenweald!The Shadowlands|N|From Bwonsamdi.|COV|Night Fae|
-C Something Extra for the Winter Queen|QID|59732|M|50.54,45.51|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Entrance to Bwonsamdi's Necropolis found.|COV|Night Fae|
+C Something Extra for the Winter Queen|QID|59732|M|50.54,45.51|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Run to this location.|COV|Night Fae|
 C Something Extra for the Winter Queen|QID|59732|M|50.58,44.60|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Portal taken to the Necropolis.|COV|Night Fae|
 T Something Extra for the Winter Queen|QID|59732|M|39.57,24.72|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
 A The Problem with Containing a Death Loa|QID|59739|PRE|59732|M|39.57,24.72|Z|Nazmir|N|From Bwonsamdi.|COV|Night Fae|
 A Dark Mojo for a Dark Loa|QID|59741|PRE|59732|M|39.55,24.78|Z|Nazmir|N|From Hanzabu.|COV|Night Fae|
 A Delaying the Other Side|QID|59742|PRE|59732|M|39.55,24.78|Z|Nazmir|N|From Hanzabu.|COV|Night Fae|
-C The Problem with Containing a Death Loa|QID|59739|M|39.56,36.38|Z|Nazmir|U|177817|NC|N|Zel'han's Broken Armor.|COV|Night Fae|
-C Delaying the Other Side|QID|59742|M|40.86,31.93|Z|Nazmir|U|177817|NC|N|Injured worshiper rescued.|COV|Night Fae|
-C Dark Mojo for a Dark Loa|QID|59741|M|37.85,30.12|Z|Nazmir|NC|N|Dark Mojo.|COV|Night Fae|
-T Dark Mojo for a Dark Loa|QID|59741|M|39.57,24.73|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
-T Delaying the Other Side|QID|59742|M|39.57,24.73|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
+C Dark Mojo for a Dark Loa|QID|59741|M|37.85,30.12|S|Z|Nazmir|NC|N|Kill the Servants, Terrors and Tyrants to fill the bar.|COV|Night Fae|
+C Delaying the Other Side|QID|59742|M|40.86,31.93|S|Z|Nazmir|U|177817|NC|N|Injured worshiper rescued.|COV|Night Fae|
+C The Problem with Containing a Death Loa|QID|59739|M|39.56,36.38|Z|Nazmir|U|177817|NC|N|Zel'han's Broken Armor loot from Zel'han.|COV|Night Fae|
+C Dark Mojo for a Dark Loa|QID|59741|M|37.85,30.12|US|Z|Nazmir|NC|N|Finish Killing.|COV|Night Fae|
+C Delaying the Other Side|QID|59742|M|40.86,31.93|US|Z|Nazmir|U|177817|NC|N|Save the remaining.|COV|Night Fae|
 T The Problem with Containing a Death Loa|QID|59739|M|39.57,24.73|Z|Nazmir|N|To Mueh'zala.|COV|Night Fae|
+T Delaying the Other Side|QID|59742|M|39.57,24.73|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
+T Dark Mojo for a Dark Loa|QID|59741|M|39.57,24.73|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
 A One Little Whisper|QID|59749|PRE|59741&59742&59739|M|39.57,24.73|Z|Nazmir|N|From Bwonsamdi.|COV|Night Fae|
 C One Little Whisper|QID|59749|M|39.19,25.18|Z|Nazmir|QO|1|NC|N|Special friend summoned.|COV|Night Fae|
-C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|2|NC|N|Speak with Bwonsamdi to begin the ritual.|COV|Night Fae|
-C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|3|NC|N|Ritual completed.|COV|Night Fae|
+C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|2|CHAT|N|Speak with Bwonsamdi to begin the ritual.|COV|Night Fae|
+C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|3|NC|N|Ritual completed. Use the Mojo to heal the Priests.|COV|Night Fae|
 T One Little Whisper|QID|59749|M|39.57,24.69|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
 A Maw Manifested|QID|59805|PRE|59749|M|39.57,24.69|Z|Nazmir|N|From Bwonsamdi.|COV|Night Fae|
-C Maw Manifested|QID|59805|M|39.57,24.69|Z|Nazmir|QO|1|NC|N|Speak with Vol'jin.|COV|Night Fae|
-C Maw Manifested|QID|59805|M|44.95,40.99|Z|The Maw|QO|2|NC|N|Travel to the Maw.|COV|Night Fae|
+C Maw Manifested|QID|59805|M|39.57,24.69|Z|Nazmir|QO|1|CHAT|N|Speak with Vol'jin.|COV|Night Fae|
+R Ardenweald|M|50.55,44.57|Z|Ardenweald!The Shadowlands|N|Take the DK looking portal to Bwonsamdis left to return to Ardenweald.|COV|Night Fae|
+F Ring of Transference|M|52.14,8.70|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
+R Ring of Transference|ACTIVE|54180|M|52.26,55.40|Z|Ring of Transference@Oribos|N|Make your way to the Ring of Transference.|
+C Maw Manifested|QID|59805|M|44.95,40.99|Z|The Maw|QO|2|NC|N|Make your way to the Maw.|COV|Night Fae|
 T Maw Manifested|QID|59805|M|44.85,41.02|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Tracking a Wild God|QID|59822|PRE|59805|M|44.85,41.02|Z|The Maw|N|From Unknown.|COV|Night Fae|
 C Tracking a Wild God|QID|59822|M|42.71,43.87|Z|The Maw|QO|1|NC|N|First clue found.|COV|Night Fae|
 C Tracking a Wild God|QID|59822|M|35.63,55.95|Z|The Maw|QO|2|NC|N|Second clue found.|COV|Night Fae|
 C Tracking a Wild God|QID|59822|M|37.34,66.55|Z|The Maw|QO|3|NC|N|Wild god rescued.|COV|Night Fae|
 R Face of Oblivion|QID|59822|ACTIVE|59822|M|40.85,64.33|Z|The Maw|N|Make your way to the Face of Oblivion.|COV|Night Fae|
-C Tracking a Wild God|QID|59822|M|40.86,64.40|Z|The Maw|QO|4|NC|N|Ashamane absorbed into the soulkeeper crystal.|COV|Night Fae|
+C Tracking a Wild God|QID|59822|M|40.86,64.40|Z|The Maw|QO|4|CHAT|N|Ashamane absorbed into the soulkeeper crystal.|COV|Night Fae|
 T Tracking a Wild God|QID|59822|M|40.89,64.32|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Loa Rescue|QID|59824|PRE|59822|M|40.89,64.32|Z|The Maw|N|From Unknown.|COV|Night Fae|
 C Loa Rescue|QID|59824|M|47.70,72.34|Z|The Maw|QO|1|NC|N|First loa rescued.|COV|Night Fae|
@@ -409,69 +428,56 @@ C Loa Rescue|QID|59824|M|46.08,82.77|Z|The Maw|QO|2|NC|N|Second loa rescued.|COV
 C Loa Rescue|QID|59824|M|45.67,84.54|Z|The Maw|QO|3|NC|N|Third loa rescued.|COV|Night Fae|
 T Loa Rescue|QID|59824|M|45.88,85.06|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Rezan, Loa of Kings|QID|59856|PRE|59824|M|45.88,85.06|Z|The Maw|N|From Spirit of Vol'jin.|COV|Night Fae|
-C Rezan, Loa of Kings|QID|59856|M|45.88,85.13|Z|The Maw|QO|1|NC|N|Vol'jin's anima received.|COV|Night Fae|
-C Rezan, Loa of Kings|QID|59856|M|46.84,85.93|Z|The Maw|QO|2|NC|N|Rezan saved.|COV|Night Fae|
+C Rezan, Loa of Kings|QID|59856|M|45.88,85.13|Z|The Maw|QO|1|CHAT|N|Vol'jin's anima received.|COV|Night Fae|
+C Rezan, Loa of Kings|QID|59856|M|46.84,85.93|Z|The Maw|QO|2|NC|N|Wait and watch |COV|Night Fae|
 T Rezan, Loa of Kings|QID|59856|M|45.86,85.08|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Parting Ways|QID|59866|PRE|59856|M|45.86,85.08|Z|The Maw|N|From Spirit of Vol'jin.|COV|Night Fae|
 P Ring of Transference|ACTIVE|59866|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Night Fae|
 F Heart of the Forest|ACTIVE|59866|M|60.23,68.72|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Heart of the Forest.|COV|Night Fae|
 P Heart of the Forest|ACTIVE|59866|M|53.96,38.73|Z|The Trunk@Heart of the Forest!Dungeon|N|Talk to Sparkledew to go see the Queen.|COV|Night Fae|
-C Parting Ways|QID|59866|M|51.04,30.60|Z|The Canopy@Heart of the Forest!Dungeon|NC|N|Loa delivered to the Winter Queen.|COV|Night Fae|
+C Parting Ways|QID|59866|M|51.04,30.60|Z|The Canopy@Heart of the Forest!Dungeon|CHAT|N|Loa delivered to the Winter Queen.|COV|Night Fae|
 P Heart of the Forest|ACTIVE|59866|M|43.05,51.44|Z|The Canopy@Heart of the Forest!Dungeon|N|Talk to Shimmerwing to return to teh main foyer.|COV|Night Fae|
 T Parting Ways|QID|59866|M|44.65,38.58|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
 ;Drust and Ashes
 A We Strike Now|QID|60189|PRE|59866|M|44.54,38.87|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|
-T We Strike Now|QID|60189|M|39.09,63.74|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
+T We Strike Now|QID|60189|M|39.09,63.74|Z|Ardenweald!The Shadowlands|N|To Lord Herne he is no longer in the training yard.|COV|Night Fae|
 A Assault on Darkreach|QID|60190|PRE|60189|M|39.07,63.71|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|COV|Night Fae|
 A Their Last Line of Defense|QID|60192|PRE|60189|M|39.04,63.69|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|COV|Night Fae|
 A Ingra Drif|QID|60191|PRE|60189|M|39.02,63.68|Z|Ardenweald!The Shadowlands|N|From Kivarr.|COV|Night Fae|
-C Ingra Drif|QID|60191|M|36.43,67.54|Z|Ardenweald!The Shadowlands|N|Ingra Drif slain.|COV|Night Fae|
-C Their Last Line of Defense|QID|60192|M|36.92,70.91|Z|Ardenweald!The Shadowlands|NC|N|Shielding Runes destroyed.|COV|Night Fae|
-C Assault on Darkreach|QID|60190|M|37.70,66.73|Z|Ardenweald!The Shadowlands|NC|N|Darkreach assaulted.|COV|Night Fae|
+C Their Last Line of Defense|QID|60192|S|M|36.92,70.91|Z|Ardenweald!The Shadowlands|NC|N|Shielding Runes destroyed.|COV|Night Fae|
+C Assault on Darkreach|QID|60190|S|M|37.70,66.73|Z|Ardenweald!The Shadowlands|NC|N|Darkreach assaulted.|COV|Night Fae|
+C Ingra Drif|QID|60191|M|36.43,67.54|Z|Ardenweald!The Shadowlands|N|Ingra Drif slain. He does a fear that can be interupted.|COV|Night Fae|
+C Their Last Line of Defense|QID|60192|US|M|36.92,70.91|Z|Ardenweald!The Shadowlands|NC|N|Shielding Runes destroyed.|COV|Night Fae|
+C Assault on Darkreach|QID|60190|US|M|37.70,66.73|Z|Ardenweald!The Shadowlands|NC|N|Darkreach assaulted.|COV|Night Fae|
 T Their Last Line of Defense|QID|60192|M|35.13,72.38|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
 T Ingra Drif|QID|60191|M|35.13,72.38|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 T Assault on Darkreach|QID|60190|M|35.13,72.38|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
 A Unmasked|QID|60193|PRE|60192&60191&60190|M|35.13,72.38|Z|Ardenweald!The Shadowlands|N|From Unknown.|COV|Night Fae|
-C Unmasked|QID|60193|M|35.82,70.64|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Drust Barrier destroyed.|COV|Night Fae|
-C Unmasked|QID|60193|M|36.25,69.44|Z|Ardenweald!The Shadowlands|QO|2|N|Gorak Zhar slain.|COV|Night Fae|
+C Unmasked|QID|60193|M|35.82,70.64|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Drust Barrier destroyed by clicking on it.|COV|Night Fae|
+C Unmasked|QID|60193|M|36.25,69.44|Z|Ardenweald!The Shadowlands|QO|2|N|there are two waves of easy enemies then Gorak Zhar, does a fear and a aoe explosion, both can be interupted.|COV|Night Fae|
 T Unmasked|QID|60193|M|36.18,69.57|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
 A The Call of the Hunt|QID|60194|PRE|60193|M|36.18,69.57|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|COV|Night Fae|
-C The Call of the Hunt|QID|60194|M|36.18,69.58|Z|Ardenweald!The Shadowlands|CHAT|NC|N|Fly out with Lady Moonberry.|COV|Night Fae|
+C The Call of the Hunt|QID|60194|M|36.18,69.58|Z|Ardenweald!The Shadowlands|CHAT||N|Fly out with Lady Moonberry.|COV|Night Fae|
 T The Call of the Hunt|QID|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
-;scenario start
-A Drust and Ashes|QID|60108|PRE|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|COV|Night Fae|
-C Clear the Way|Z|Ardenweald|SO|1|S|N|Direct Ysera to Destroy Drust Forces.|COV|Night Fae|
-C Drust put to sleep|M|31.03,76.99|Z|Ardenweald!Instance1709|SO|1;2|N|Drust put to sleep|COV|Night Fae|
-C Fly to the Heart of the Forest|M|31.03,76.99|Z|Ardenweald!Instance1709|SO|1;3|N|Fly to the Heart of the Forest|COV|Night Fae|
-C Clear the Way|Z|Ardenweald|SO|1|US|N|Direct Ysera to Destroy Drust Forces.|COV|Night Fae|
-C Report to the Winter Queen|Z|Ardenweald|SO|2|S|N|Tell the Winter Queen what transpired at Darkreach.|COV|Night Fae|
-C Report to the Queen|M|55.16,23.44|Z|Ardenweald!Instance1709|SO|2;1|N|Report to the Queen|COV|Night Fae|
-C Report to the Winter Queen|Z|Ardenweald|SO|2|US|N|Tell the Winter Queen what transpired at Darkreach.|COV|Night Fae|
-C Recieve the Queen's Blessing|Z|Ardenweald|SO|3|S|N|Recieve the Queen's Blessing|COV|Night Fae|
-C Recieve the Queen's Blessing|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|3;1|N|Recieve the Queen's Blessing|COV|Night Fae|
-C Recieve the Queen's Blessing|Z|Ardenweald|SO|3|US|N|Recieve the Queen's Blessing|COV|Night Fae|
-C Lead the Charge!|Z|Ardenweald|SO|4|S|N|Lead the Wild Hunt to the Grove of Awakening|COV|Night Fae|
-C Sound the Horn of the Wild Hunt|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|4;1|N|Sound the Horn of the Wild Hunt|COV|Night Fae|
-C Slay Drust Forces|M|55.62,47.71|Z|Ardenweald!Instance1709|SO|4;2|N|Slay Drust Forces|COV|Night Fae|
-C Reach the Grove of Awakening|M|63.22,62.72|Z|Ardenweald!Instance1709|SO|4;3|N|Reach the Grove of Awakening|COV|Night Fae|
-C Lead the Charge!|Z|Ardenweald|SO|4|US|N|Lead the Wild Hunt to the Grove of Awakening|COV|Night Fae|
-C Orders from the Queen|Z|Ardenweald|SO|5|S|N|Speak with the Queen|COV|Night Fae|
-C Speak with Winter Queen|M|59.74,65.78|Z|Ardenweald!Instance1709|SO|5;1|N|Speak with Winter Queen|COV|Night Fae|
-C Orders from the Queen|Z|Ardenweald|SO|5|US|N|Speak with the Queen|COV|Night Fae|
-C Reverse the power|Z|Ardenweald|SO|6|S|N|Help the Court regain control of the Grove of Awakening.|COV|Night Fae|
-C Assist Aliothe|M|65.91,72.78|Z|Ardenweald!Instance1709|SO|6;3|N|Assist Aliothe|COV|Night Fae|
-C Assist Zayhad|M|65.75,80.28|Z|Ardenweald!Instance1709|SO|6;4|N|Assist Zayhad|COV|Night Fae|
-C Assist Herne|M|54.37,71.90|Z|Ardenweald!Instance1709|SO|6;2|N|Assist Herne|COV|Night Fae|
-C Assist Moonberry|M|53.75,81.36|Z|Ardenweald!Instance1709|SO|6;1|N|Assist Moonberry|COV|Night Fae|
-C Reverse the power|Z|Ardenweald|SO|6|US|N|Help the Court regain control of the Grove of Awakening.|COV|Night Fae|
-C For Queen and Grove|Z|Ardenweald|SO|7|S|N|The power of the Grove of Awakening is ours once more! Return to the Winterqueen then vanquish Gorak Zhar!|COV|Night Fae|
-C Return to Winter Queen|M|60.24,76.08|Z|Ardenweald!Instance1709|SO|7;1|N|Return to Winter Queen|COV|Night Fae|
-C Destroy Anchoring Runes|M|58.61,86.27|Z|Ardenweald!Instance1709|SO|7;2|N|Destroy Anchoring Runes|COV|Night Fae|
-C Defeat Gorak Zhar|M|58.82,87.12|Z|Ardenweald!Instance1709|SO|7;3|N|Defeat Gorak Zhar|COV|Night Fae|
-C For Queen and Grove|Z|Ardenweald|SO|7|US|N|The power of the Grove of Awakening is ours once more! Return to the Winterqueen then vanquish Gorak Zhar!|COV|Night Fae|
-C The Return to Calm|Z|Ardenweald|SO|8|S|N|Speak with the Winter Queen to depart|COV|Night Fae|
+A Drust and Ashes|QID|60108|PRE|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|From Lord Herne. Talk to him again after acceptingng to start the senario.|COV|Night Fae|
+C Clear the Way|QID|60108|Z|Ardenweald|SO|1|N|Jump on Ysera and use the Dreamers sleep to finish this step.|COV|Night Fae|
+C Drust put to sleep|QID|60108|M|31.03,76.99|Z|Ardenweald!Instance1709|SO|1;2|N|Drust put to sleep|COV|Night Fae|
+C Fly to the Heart of the Forest|QID|60108|M|31.03,76.99|Z|Ardenweald!Instance1709|SO|1;3|N|Fly to the Heart of the Forest|COV|Night Fae|
+C Report to the Winter Queen|QID|60108|Z|Ardenweald|SO|2|CHAT|N|Tell the Winter Queen what transpired at Darkreach.|COV|Night Fae|
+C Recieve the Queen's Blessing|QID|60108|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|3;1|N|Recieve the "[color=40C7EB]Queen's Blessing[/color]".|EAB|COV|Night Fae|
+C Sound the Horn of the Wild Hunt|QID|60108|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|4;1|N|Sound the Horn of the Wild Hunt by clicking on it.|COV|Night Fae|
+C Slay Drust Forces|QID|60108|M|55.62,47.71|Z|Ardenweald!Instance1709|SO|4;2||N|Slay Drust Forces|COV|Night Fae|
+C Reach the Grove of Awakening|QID|60108|M|63.22,62.72|Z|Ardenweald!Instance1709|SO|4;3|N|Reach the Grove of Awakening|COV|Night Fae|
+C Speak with Winter Queen|QID|60108|M|59.74,65.78|Z|Ardenweald!Instance1709|SO|5;1|CHAT|N|Speak with Winter Queen|COV|Night Fae|
+C Assist Aliothe|QID|60108|M|65.91,72.78|Z|Ardenweald!Instance1709|SO|6;3|N|Assist Aliothe, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".|EAB|COV|Night Fae|
+C Assist Zayhad|QID|60108|M|65.75,80.28|Z|Ardenweald!Instance1709|SO|6;4|N|Assist Zayhad, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".|EAB|COV|Night Fae|
+C Assist Herne|QID|60108|M|54.37,71.90|Z|Ardenweald!Instance1709|SO|6;2|N|Assist Herne, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".|EAB|COV|Night Fae|
+C Assist Moonberry|QID|60108|M|53.75,81.36|Z|Ardenweald!Instance1709|SO|6;1|N|Assist Moonberry, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".|EAB|COV|Night Fae|
+C Return to Winter Queen|QID|60108|M|60.24,76.08|Z|Ardenweald!Instance1709|SO|7;1|N|Return to Winter Queen.|COV|Night Fae|
+C Destroy Anchoring Runes|QID|60108|M|58.61,86.27|Z|Ardenweald!Instance1709|SO|7;2|N|Destroy the Anchoring Runes.|COV|Night Fae|
+C Defeat Gorak Zhar|QID|60108|M|58.82,87.12|Z|Ardenweald!Instance1709|SO|7;3|N|Defeat Gorak Zhar.|COV|Night Fae|
 C Drust and Ashes|QID|60108|M|58.82,87.12|Z|Ardenweald!Instance1709|QO|1|N|Gorak Zhar defeated.|COV|Night Fae|
-T Drust and Ashes|QID|60108|M|50.62,30.89|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|COV|Night Fae|
+T Drust and Ashes|QID|60108|M|50.62,30.89|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen. Congratulations on finishing the Campaign!|COV|Night Fae|
 
 ;N Kyrian Campaign|QID|99999|M|PLAYER|N|Guide is currently in development.|COV|Kyrian|
 A Among the Kyrian|QID|60491|PRE|57878|M|36.50,64.50|Z|Ring of Fates@Oribos|N|From Polemarch Adrestes.|COV|Kyrian|
