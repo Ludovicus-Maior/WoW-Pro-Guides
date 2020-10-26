@@ -203,7 +203,7 @@ T Welcome to Stormwind|QID|59583|M|66.38,78.23|Z|Stormwind City|N|Turn into Lind
 A Finding Your Way|QID|58908|PRE|59583|M|66.38,78.23|Z|Stormwind City|N|From Lindie Springsstock.|
 C Finding Your Way|QID|58908|M|66.06,77.64|Z|Stormwind City|QO|1|N|Ask a guard for directions to the Stable Master in Old Town (next to bottom on the list).|CHAT|
 C Finding Your Way|QID|58908|M|66.19,77.01|Z|Stormwind City|QO|2|N|Speak with Lindie Springstock to lead the way.|CHAT|
-C Finding Your Way|QID|58908|M|77.36,67.06|Z|Stormwind City|QO|3|N|Follow Lindie Springstock to the Stables. Stay right with her, she stops if you get too far ahead or behind.|NC|
+C Finding Your Way|QID|58908|M|77.36,67.06|Z|Stormwind City|QO|3|N|Follow Lindie Springstock to the Stables. Stay right with him, he stops if you get too far ahead or behind.|NC|
 T Finding Your Way|QID|58908|M|77.28,66.95|Z|Stormwind City|N|Turn into Curly.|
 A License to Ride|QID|58909|PRE|58908|M|77.28,66.95|Z|Stormwind City|N|From Curly.|
 C License to Ride|QID|58909|M|77.36,67.92|Z|Stormwind City|N|Learn the Apprentice Riding Skill from Darlene Stokx.|
