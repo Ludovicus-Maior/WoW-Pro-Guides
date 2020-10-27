@@ -662,7 +662,11 @@ C Dismantling the Opposition|QID|58182|M|52.88,18.61|Z|Bastion!The Shadowlands|Q
 C Dismantling the Opposition|QID|58182|M|51.30,16.25|Z|Bastion!The Shadowlands|QO|3|N|Forsworn Colossus slain.|COV|Kyrian|
 T Dismantling the Opposition|QID|58182|M|50.15,20.51|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
 A Friend to the Forgelite|QID|58183|PRE|58182|M|50.15,20.51|Z|Bastion!The Shadowlands|N|From Mikanikos.|COV|Kyrian|
-T Mysterious Soul Mirror|QID|62237|M|40.24,19.78|Z|Bastion!The Shadowlands|N|To Thenios. *Coord approx, turn in changed*|COV|Kyrian|
+R Path of Wisdom|ACTIVE|62237|M|41.66,23.31|Z|Bastion!The Shadowlands|N|Run to the Path of Wisdom.|COV|Kyrian|
+T Mysterious Soul Mirror|QID|62237|M|40.37,19.93|Z|Bastion!The Shadowlands|N|To Thenios. Take the Transport Pad / Gateway to Top of Temple.|COV|Kyrian|
+A Soul Led Astray|QID|62238|PRE|62237|M|40.37,19.93|Z|Bastion!The Shadowlands|N|From Thenios.|COV|Kyrian|
+C Soul Led Astray|QID|62238|M|40.18,20.32|Z|Bastion!The Shadowlands|QO|1|NC|N|Click on the Soul Mirror.|COV|Kyrian|
+T Soul Led Astray|QID|62238|M|40.37,19.93|Z|Bastion!The Shadowlands|N|To Thenios.|COV|Kyrian|
 T Friend to the Forgelite|QID|58183|M|45.82,56.23|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Building the Base|QID|58181|PRE|58183|M|45.42,56.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Mikanikos.|COV|Kyrian|
 C Building the Base|QID|58181|M|45.42,56.43|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|NC|N|Take Phaestus, Genesis of Aeons.|COV|Kyrian|
