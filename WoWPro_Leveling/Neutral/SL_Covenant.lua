@@ -607,13 +607,10 @@ A Faith Through the Darkness|QID|58793|PRE|58792|M|49.77,62.05|Z|Ring of Transfe
 F Elysian Hold|ACTIVE|58793|M|59.57,68.00|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Faith Through the Darkness|QID|58793|M|47.61,54.14|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Ascended|QID|58795|PRE|58793|M|47.61,54.14|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
-C Ascended|QID|58795|M|45.73,55.04|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|NC|CHAT|N|Meet with Pelagos.|COV|Kyrian|
-C Ascended|QID|58795|M|45.82,57.27|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2|NC|CHAT|N|Tell Clora that, Her time has come.|COV|Kyrian|
-C Ascended|QID|58795|M|46.15,62.30|Z|Archon's Rise@Elysian Hold!Dungeon|QO|3|NC|N|Clora's ascension witnessed.|COV|Kyrian|
-C Ascended|QID|58795|M|45.99,58.88|Z|Archon's Rise@Elysian Hold!Dungeon|QO|4|NC|N|Tell Sophone that, Her time has come.|COV|Kyrian|
-C Ascended|QID|58795|M|45.99,58.88|Z|Archon's Rise@Elysian Hold!Dungeon|QO|5|NC|N|Sophone's ascension witnessed.|COV|Kyrian|
-C Ascended|QID|58795|M|45.51,57.72|Z|Archon's Rise@Elysian Hold!Dungeon|QO|6|NC|N|Tell Kleia that, Her time has come.|COV|Kyrian|
-C Ascended|QID|58795|M|52.03,47.40|Z|Archon's Rise@Elysian Hold!Dungeon|QO|7|NC|N|Kleia's Ascension witnessed.|COV|Kyrian|
+C Ascended|QID|58795|M|45.73,55.04|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|CHAT|N|Meet with Pelagos.|COV|Kyrian|
+C Ascended|QID|58795|M|45.82,57.27|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2;3|CHAT|N|Tell Clora that, Her time has come, and witness their Ascension.|COV|Kyrian|
+C Ascended|QID|58795|M|45.99,58.88|Z|Archon's Rise@Elysian Hold!Dungeon|QO|4;5|CHAT|N|Tell Sophone that, Her time has come, and witness their Ascension.|COV|Kyrian|
+C Ascended|QID|58795|M|45.51,57.72|Z|Archon's Rise@Elysian Hold!Dungeon|QO|6;7|CHAT|N|Tell Kleia that, Her time has come, and wintess their Ascension.|COV|Kyrian|
 T Ascended|QID|58795|M|51.47,48.05|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Kleia.|COV|Kyrian|
 A The Forsworn Onslaught|QID|58796|PRE|58795|M|51.47,48.05|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Kleia.|COV|Kyrian|
 C The Forsworn Onslaught|QID|58796|M|59.14,85.83|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|NC|N|Repel the Forsworn invasion, while heading towards the wards.|COV|Kyrian|
@@ -643,11 +640,11 @@ T The Eternal Forge|QID|58175|M|50.18,20.51|Z|Bastion!The Shadowlands|N|To Mikan
 A Refining Ego|QID|58177|PRE|58175|M|50.18,20.51|Z|Bastion!The Shadowlands|N|From Mikanikos.|COV|Kyrian|
 A Instruments of Perfection|QID|58179|PRE|58175|M|50.16,20.56|Z|Bastion!The Shadowlands|N|From Sika.|COV|Kyrian|
 A Stewards of a Feather|QID|58176|PRE|58175|M|50.16,20.56|Z|Bastion!The Shadowlands|N|From Sika.|COV|Kyrian|
-C Refining Ego|QID|58177|M|51.60,17.94|Z|Bastion!The Shadowlands|S|US|NC|N|Purified Metal.|COV|Kyrian|
-C Instruments of Perfection|QID|58179|M|53.03,18.19|Z|Bastion!The Shadowlands|QO|2|NC|N|Sparkling Driftglobe Core.|COV|Kyrian|
-C Instruments of Perfection|QID|58179|M|51.11,18.39|Z|Bastion!The Shadowlands|QO|1|NC|N|Soulsteel Clamps.|COV|Kyrian|
-C Instruments of Perfection|QID|58179|M|49.91,17.24|Z|Bastion!The Shadowlands|QO|3|NC|N|Gracepetal Incense Burner.|COV|Kyrian|
-C Stewards of a Feather|QID|58176|M|51.88,15.87|Z|Bastion!The Shadowlands|NC|N|Captured Forgehands rescued.|COV|Kyrian|
+C Refining Ego|QID|58177|M|51.60,17.94|Z|Bastion!The Shadowlands|S|US|N|Kill mobs to loot items that convert to Purified Metal.|COV|Kyrian|
+C Stewards of a Feather|QID|58176|M|51.88,15.87|Z|Bastion!The Shadowlands|S|US|N|Rescue Captured Forgehands.|COV|Kyrian|
+C Instruments of Perfection|QID|58179|M|53.03,18.19|Z|Bastion!The Shadowlands|QO|2|NC|N|Find the Sparkling Driftglobe Core.|COV|Kyrian|
+C Instruments of Perfection|QID|58179|M|51.11,18.39|Z|Bastion!The Shadowlands|QO|1|NC|N|Find the Soulsteel Clamps.|COV|Kyrian|
+C Instruments of Perfection|QID|58179|M|49.91,17.24|Z|Bastion!The Shadowlands|QO|3|NC|N|Find the Gracepetal Incense Burner.|COV|Kyrian|
 T Stewards of a Feather|QID|58176|M|50.13,20.56|Z|Bastion!The Shadowlands|N|To Sika.|COV|Kyrian|
 T Instruments of Perfection|QID|58179|M|50.16,20.50|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
 T Refining Ego|QID|58177|M|50.18,20.53|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
@@ -711,7 +708,7 @@ A Aerial Advantage|QID|61778|PRE|61776|M|28.16,37.56|Z|Maldraxxus|N|From Emeni.|
 C Aerial Advantage|QID|61778|M|28.03,37.36|Z|Maldraxxus|QO|1|NC|U|180899|N|Battlesewn Roc hooked.|COV|Kyrian|
 C Grave Intent|QID|61779|M|25.40,32.91|Z|Maldraxxus|QO|2|NC|N|Northwestern projector destroyed.|COV|Kyrian|
 C Grave Intent|QID|61779|M|24.98,37.36|Z|Maldraxxus|QO|1|NC|N|Southwestern projector destroyed.|COV|Kyrian|
-C Aerial Advantage|QID|61778|M|27.13,30.75|Z|Maldraxxus|QO|2|U|180899|N|Battlesewn Roc slain.|COV|Kyrian|
+C Aerial Advantage|QID|61778|M|27.13,30.75|Z|Maldraxxus|QO|2|U|180899|V|N|USe actions 2 and 3 to scare Battlesewn Roc, Press 1 to jump Roc when UI notifies you.|COV|Kyrian|
 C Grave Intent|QID|61779|M|28.01,32.74|Z|Maldraxxus|QO|3|NC|N|Northeastern projector destroyed.|COV|Kyrian|
 C Charging The Blade|QID|61777|M|28.79,34.69|Z|Maldraxxus|NC|N|Runeblade charged.|COV|Kyrian|
 T Aerial Advantage|QID|61778|M|28.12,37.43|Z|Maldraxxus|N|To Emeni.|COV|Kyrian|
@@ -784,7 +781,7 @@ T Skulking in the Darkness|QID|58567|M|39.90,59.00|Z|Revendreth|N|To Kleia.|COV|
 T Light Respite|QID|58568|M|39.90,59.00|Z|Revendreth|N|To Kleia.|COV|Kyrian|
 T Actions Speak Louder than Words|QID|58566|M|40.01,58.97|Z|Revendreth|N|To Mindscorched Alwin.|COV|Kyrian|
 A The Folly of Envy|QID|58569|PRE|58566|M|40.01,58.97|Z|Revendreth|N|From Mindscorched Alwin.|COV|Kyrian|
-C The Folly of Envy|QID|58569|M|40.08,59.90|Z|Revendreth|QO|2;1|T|Duke Vielle|N|Kill Duke Vielle, then loot the Seal of Contrition.|COV|Kyrian|  ; QO is reverse order to show properly
+C The Folly of Envy|QID|58569|M|40.08,59.90|Z|Revendreth|QO|1;2|T|Duke Vielle|N|Kill Duke Vielle, then loot the Seal of Contrition.|COV|Kyrian|
 T The Folly of Envy|QID|58569|M|39.97,59.03|Z|Revendreth|N|To Kleia.|COV|Kyrian|
 A Parting Words|QID|58570|PRE|58569|M|39.97,59.03|Z|Revendreth|N|From Kleia.|COV|Kyrian|
 R Sanctuary of the Mad|ACTIVE|58570|M|32.05,47.61|Z|Revendreth|N|Make your way to the Sanctuary of the Mad.|COV|Kyrian|
@@ -798,7 +795,7 @@ A Meet the Queen|QID|58775|PRE|58571|M|45.35,56.64|Z|Archon's Rise@Elysian Hold!
 F Refugee Camp|ACTIVE|58775|M|51.35,48.49|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|N|Head to the flightmaster and take a flight to Refugee Camp.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|25.13,23.77|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak with Lord Herne at the Heart of the Forest.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|45.98,57.61|Z|The Canopy@Heart of the Forest!Dungeon|QO|2|NC|N|Tell Pelagos, Let's hear what the Queen has to say.|COV|Kyrian|
-C Meet the Queen|QID|58775|M|36.77,62.85|Z|The Canopy@Heart of the Forest!Dungeon|QO|4;3|NC|N|Listen to the Winter Queen's reply,\nThen speak with the attendent to Exit the Heart.|COV|Kyrian|
+C Meet the Queen|QID|58775|M|36.77,62.85|Z|The Canopy@Heart of the Forest!Dungeon|QO|3;4|NC|N|Listen to the Winter Queen's reply,\nThen speak with the attendent to Exit the Heart.|COV|Kyrian|
 T Meet the Queen|QID|58775|M|44.01,51.78|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
 A Who Are You Fooling?|QID|58856|PRE|58775|M|44.01,51.78|Z|Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
 C Who Are You Fooling?|QID|58856|M|40.38,57.57|Z|Ardenweald!The Shadowlands|S|US|U|174843|N|Kill Sicklethorn mobs to loot Powder.\nUse Powder to find Illustions, to find Grubby.|COV|Kyrian|
