@@ -102,8 +102,8 @@ B Plans- Flamebane Gloves|QID|1641023603|M|47.8,26.2|Z|Shattrath City|RECIPE|236
 N Flamebane Gloves|QID|1641029616|P|Blacksmithing;164;1+75;1|N|8;Fel Iron Bar;136;136:4;Primal Water;68;68:4;Primal Fire;68;68|REP|The Aldor;932;Honored-Exalted|
 
 N Leveling from 60 to 75|N|via Dungeons - The Botanica for Plans: Earthpeace Breastplate\nAuchenai Crypts for Plans: Felsteel Gloves.\n\nNOTE! Unknown if still drops.|
-U Plans- Felsteel Gloves|QID|1641023605|L|23605|P|Blacksmithing;164|RECIPE|29619|N|Run Auchenai Crypts until an Auchenai Monk drops these plans.|
-U Plans- Earthpeace Breastplate|QID|1641023617|L|23617|P|Blacksmithing;164|RECIPE|29649|N|Run The Botanica until High Botanist Freywinn drops these plans.\n\nYou can skip this, just need to make double of Felsteel Gloves instead.|
+U Plans- Felsteel Gloves|QID|1641023605|L|23605|P|Blacksmithing;164;1|RECIPE|29619|N|Run Auchenai Crypts until an Auchenai Monk drops these plans.|
+U Plans- Earthpeace Breastplate|QID|1641023617|L|23617|P|Blacksmithing;164;1|RECIPE|29649|N|Run The Botanica until High Botanist Freywinn drops these plans.\n\nYou can skip this, just need to make double of Felsteel Gloves instead.|
 N Felsteel Gloves|QID|1641029619|P|Blacksmithing;164;1+70;1|N|6;Felsteel Bar;60;60|
 N Felsteel Gloves|QID|1641029619|P|Blacksmithing;164;1+75;1|RECIPE|29649|N|6;Felsteel Bar;60;60|  ; checks to see if they have next plan, if not do this step
 N Earthpeace Breastplate|QID|1641029649|P|Blacksmithing;164;1+75;1|N|4;Hardended Adamantite Bar;40;40:6;Primal Life;60;60:4;Primal Earth;40;40|
