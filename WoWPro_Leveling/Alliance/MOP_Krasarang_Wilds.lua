@@ -7,89 +7,91 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 F Zhu's Watch|QID|30080|M|19, 56|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
-T Ken-Ken|QID|29873|M|76.23,7.13|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
-A What's Eating Zhu's Watch?|QID|30079|M|76.22,7.06|N|From Ken-Ken.|
-C Speak with Mei|QID|30079|NC|QO|4|M|75.84,7.60|N|Up the stairs, outside.|; Speak with Mei: 1/1
-A Finding Yi-Mo|QID|30080|M|75.84,7.60|N|From Mei Barrelbottom.|
-C Speak with Yun|QID|30079|NC|QO|3|M|75.48,9.39|N|Up the stairs, inside.|; Speak with Yun: 1/1
-C Speak with Despondent Warden of Zhu|QID|30079|NC|QO|1|M|76.69,8.85|; Speak with Despondent Warden of Zhu: 1/1
-C Speak with Sunni|QID|30079|NC|QO|2|M|77.47,8.54|N|Up the stairs, inside in bed.|; Speak with Sunni: 1/1
-f Zhu's Watch|QID|30078|M|76.7,8.38|N|At Gee Hung.|
+T Ken-Ken|QID|29873|M|60.44,67.77|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
+A What's Eating Zhu's Watch?|QID|30079|M|60.44,67.77|N|From Ken-Ken.|
+C Speak with Mei|QID|30079|NC|QO|4|M|79.72,01.52|N|Up the stairs, outside.|; Speak with Mei: 1/1
+A Finding Yi-Mo|QID|30080|M|79.72,01.52|N|From Mei Barrelbottom.|
+C Speak with Yun|QID|30079|NC|QO|3|M|79.35,03.43|N|Up the stairs, inside.|; Speak with Yun: 1/1
+C Speak with Despondent Warden of Zhu|QID|30079|NC|QO|1|M|79.91,02.28|; Speak with Despondent Warden of Zhu: 1/1
+C Speak with Sunni|QID|30079|NC|QO|2|M|81.50,02.52|N|Up the stairs, inside in bed.|; Speak with Sunni: 1/1
+f Zhu's Watch|QID|30078|M|80.72,02.34|N|At Gee Hung.|
 l Boat Building Instructions|QID|31869|L|87524|M|88.53,50.6;92.17,39.06|CS|Z|Valley of the Four Winds|N|Optional, worth 10g and some XP. Dot is at the beginning of the patch down, run down the hill, along the shore about 20 yards, and up into the house, papers are on table.|
-C Finding Yi-Mo|QID|30080|M|81.30,8.85|N|He is lying on the ground.|
-T Finding Yi-Mo|QID|30080|M|81.31,6.78|N|To Yi-Mo Longbrow.|
-A Cheer Up, Yi-Mo|QID|30082|PRE|30080|M|81.30,6.78|N|From Yi-Mo Longbrow.|
-C Cheer Up, Yi-Mo|QID|30082|NC|M|76.77,7.74|N|Talk to him, then you have to roll him home. You will be attacked by large birds on the way.|
-C Cheer Up, Yi-Mo|QID|30082|M|77.02,7.70|
-T Cheer Up, Yi-Mo|QID|30082|M|75.90,7.61|N|To Mei Barrelbottom.|
-A Tears of Pandaria|QID|30091|PRE|30082|M|75.87,7.63|N|From Mei Barrelbottom.|
-T What's Eating Zhu's Watch?|QID|30079|M|76.22,7.06|N|To Ken-Ken.|
-A Materia Medica|QID|30081|PRE|30079&30082|M|76.22,7.06|N|From Ken-Ken.|
-C Materia Medica|QID|30081|S|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
-C Tears of Pandaria|QID|30091|M|71.99,11.45;75.41,10.87|CN|
-C Materia Medica|QID|30081|US|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
-T Tears of Pandaria|QID|30091|M|75.83,7.65|N|To Mei Barrelbottom.|
-A Securing the Province|QID|30083|PRE|30091|M|75.83,7.65|N|From Mei Barrelbottom.|
-A Borderlands|QID|30084|PRE|30091|M|75.83,7.65|N|From Mei Barrelbottom.|
-T Materia Medica|QID|30081|M|76.22,7.06|N|To Ken-Ken.|
-A Why So Serious?|QID|30088|PRE|30081|M|76.22,7.06|N|From Ken-Ken.|
-C Why So Serious?|QID|30088|S|L|78941 18|M|72.00,16.91|N|The panthers are in the area around the Memorial Flames.|
-C Memorial Flame of Po|QID|30084|NC|U|78928|QO|1|M|74.00,17.00|; Memorial Flame of Po: 1/1
-C Memorial Flame of Zhu|QID|30084|NC|U|78928|QO|1|M|72.70,18.12|; Memorial Flame of Zhu: 1/1
-C Memorial Flame of Rin|QID|30084|NC|U|78928|QO|1|M|71.30,17.47|; Memorial Flame of Rin: 1/1
-C Why So Serious?|QID|30088|US|QO|1|M|72.00,16.91|N|Finish killing the Panthers for the Fangs|; Huge Panther Fang: 18/18
+C Finding Yi-Mo|QID|30080|M|85.63,00.69|N|He is lying on the ground.|
+T Finding Yi-Mo|QID|30080|M|85.63,00.69|N|To Yi-Mo Longbrow.|
+A Cheer Up, Yi-Mo|QID|30082|PRE|30080|M|85.63,00.69|N|From Yi-Mo Longbrow.|
+C Cheer Up, Yi-Mo|QID|30082|NC|M|76.77,7.74|CHAT|N|Talk to him, then you have to roll him home. You will be attacked by large birds on the way.|
+C Cheer Up, Yi-Mo|QID|30082|M|80.83,01.71|
+T Cheer Up, Yi-Mo|QID|30082|M|79.74,01.51|N|To Mei Barrelbottom.|
+A Tears of Pandaria|QID|30091|PRE|30082|M|79.74,01.51|N|From Mei Barrelbottom.|
+T What's Eating Zhu's Watch?|QID|30079|M|80.15,00.92|N|To Ken-Ken.|
+A Materia Medica|QID|30081|PRE|30079&30082|M|80.15,00.92|N|From Ken-Ken.|
+C Materia Medica|QID|30081|S|M|79.59,04.31;76.27,05.58|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
+C Tears of Pandaria|QID|30091|M|79.59,04.31;76.27,05.58|CN|
+C Materia Medica|QID|30081|US|M|79.59,04.31;76.27,05.58|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
+T Tears of Pandaria|QID|30091|M|79.74,01.50|N|To Mei Barrelbottom.|
+A Securing the Province|QID|30083|PRE|30091|M|79.74,01.50|N|From Mei Barrelbottom.|
+A Borderlands|QID|30084|PRE|30091|M|79.74,01.50|N|From Mei Barrelbottom.|
+T Materia Medica|QID|30081|M|80.15,00.92|N|To Ken-Ken.|
+A Why So Serious?|QID|30088|PRE|30081|M|80.15,00.92|N|From Ken-Ken.|
+C Why So Serious?|QID|30088|S|QO|1|M|76.14,10.71|N|The panthers are in the area around the Memorial Flames.|
+C Memorial Flame of Po|QID|30084|NC|U|78928|QO|2|M|77.63,11.49|; Memorial Flame of Po: 1/1
+C Memorial Flame of Zhu|QID|30084|NC|U|78928|QO|1|M|76.43,12.79|; Memorial Flame of Zhu: 1/1
+C Memorial Flame of Rin|QID|30084|NC|U|78928|QO|3|M|74.83,12.12|; Memorial Flame of Rin: 1/1
+C Why So Serious?|QID|30088|US|QO|1|M|76.14,10.71|N|Finish killing the Panthers for the Fangs|; Huge Panther Fang: 18/18
 C Securing the Province|QID|30083|S|M|77.30,58.91|Z|Valley of the Four Winds|N|Kill the sauroks on the way in and out of the cave.|
-R Winds' Edge|QID|30083|M|77.05,57.2|N|Head to Winds' Edge and enter the cave|
+R Winds' Edge|QID|30083|M|77.32,58.85|N|Head to Winds' Edge and enter the cave|
 l Saurok Stone Tablet|QID|30088|L|86220|M|75.05,55.12|Z|Valley of the Four Winds|N|The tablet is a world drop worth ~100G and a random amount of XP (at least as much as one quest)|
-l Jar of Pigment|QID|30088|US|L|78942|M|73.89,56.30|Z|Valley of the Four Winds|N|Pick up the jar of pigment here.|
+l Jar of Pigment|QID|30088|US|QO|2|M|73.89,56.30|Z|Valley of the Four Winds|N|Pick up the jar of pigment here.|
 C Securing the Province|QID|30083|US|M|77.30,58.91|Z|Valley of the Four Winds|N|Finish killing the sauroks as you leave the cave.|
-T Securing the Province|QID|30083|M|75.83,7.65|N|To Mei Barrelbottom.|
-T Borderlands|QID|30084|M|75.83,7.65|N|To Mei Barrelbottom.|
-T Why So Serious?|QID|30088|M|76.22,7.06|N|To Ken-Ken.|
-A Apply Directly to the Forehead|QID|30089|PRE|30088|M|76.22,7.06|N|From Ken-Ken.|
-C Apply Directly to the Forehead|QID|30089|U|79021|M|76.69,9.11|N|Use Ken Ken's mask on the Despondant Warden's of Zhu.|
-T Apply Directly to the Forehead|QID|30089|M|76.22,7.06|N|To Ken-Ken.|
-A Zhu's Despair|QID|30090|PRE|30089|M|76.22,7.06|N|From Ken-Ken.|
-C Zhu's Despair|QID|30090|U|79057|M|76.43,8.76|N|After you kill the little sha's, then you use the mask on Yi-Mo, who is standing by the well.|
-T Zhu's Despair|QID|30090|M|76.22,7.06|N|To Ken-Ken, after a little talking.|
-A Into the Wilds|QID|30178|PRE|30090|M|75.81,7.68|N|From Mei Barrelbottom.|
-A Crane Mastery|QID|30352|M|67.60,25.77|N|From Daggle Bombstrider.|
-A Profit Mastery|QID|30353|M|67.60,25.77|N|From Daggle Bombstrider.|
+T Securing the Province|QID|30083|M|79.75,01.51|N|To Mei Barrelbottom.|
+T Borderlands|QID|30084|M|79.75,01.51|N|To Mei Barrelbottom.|
+T Why So Serious?|QID|30088|M|80.15,00.93|N|To Ken-Ken.|
+A Apply Directly to the Forehead|QID|30089|PRE|30088|M|80.15,00.93|N|From Ken-Ken.|
+C Apply Directly to the Forehead|QID|30089|U|79021|M|80.38,02.58|N|Use Ken Ken's mask on the Despondant Warden's of Zhu.|
+T Apply Directly to the Forehead|QID|30089|M|80.15,00.93|N|To Ken-Ken.|
+A Zhu's Despair|QID|30090|PRE|30089|M|80.15,00.93|N|From Ken-Ken.|
+C Zhu's Despair|QID|30090|U|79057|M|80.44,02.77|N|After you kill the little sha's, then you use the mask on Yi-Mo, who is standing by the well.|
+T Zhu's Despair|QID|30090|M|80.15,00.93|N|To Ken-Ken, after a little talking.|
+;start Chapter 2
+A Into the Wilds|QID|30178|PRE|30090|M|79.75,01.51|N|From Mei Barrelbottom.|
+A Crane Mastery|QID|30352|M|70.93,21.01|N|From Daggle Bombstrider.|
+A Profit Mastery|QID|30353|M|70.93,21.01|N|From Daggle Bombstrider.|
 A The Arcanic Oubliette|QID|30274|S|N|Head down the road till you get the UI ALert.|
-C Into the Wilds|QID|30178|M|66.24,30.81|N|Check on the courier lying on the ground.|
+C Into the Wilds|QID|30178|M|69.46,26.60|N|Check on the courier lying on the ground.|
 A The Arcanic Oubliette|QID|30274|US|N|From UI ALert.|
-T Kang Bramblestaff|QID|29874|M|66.36,32.61|N|To Kang Bramblestaff.|
-C Southwest Oubliette Shackle destroyed|QID|30274|NC|QO|1|M|66.7,33.7|; Southwest Oubliette Shackle destroyed: 1/1
-C Northwest Oubliette Shackle destroyed|QID|30274|NC|QO|1|M|66.7,31.6|; Northwest Oubliette Shackle destroyed: 1/1
-C Northeast Oubliette Shackle destroyed|QID|30274|NC|QO|1|M|67.9,31.6|; Northeast Oubliette Shackle destroyed: 1/1
-f The Incursion|QID|30384|M|67.78,32.52|N|At Tylen Moonfeather.|
-T The Arcanic Oubliette|QID|30274|M|67.45,32.64|N|To Lorekeeper Vaeldrin.|
-A The Lost Dynasty|QID|30344|PRE|30274|M|67.45,32.64|N|From Lorekeeper Vaeldrin.|
-A Squirmy Delight|QID|30350|PRE|30274|M|67.36,32.75|N|From Kang Bramblestaff.|
-A Blind Them!|QID|30384|PRE|30274|M|67.45,32.70|N|From Lyalia.|
+T Kang Bramblestaff|QID|29874|M|69.77,28.32|N|To Kang Bramblestaff.|
+C Northeast Oubliette Shackle destroyed|QID|30274|NC|QO|1|M|71.23,27.25|; Northeast Oubliette Shackle destroyed: 1/1
+C Northwest Oubliette Shackle destroyed|QID|30274|NC|QO|2|M|69.86,27.27|; Northwest Oubliette Shackle destroyed: 1/1
+C Southwest Oubliette Shackle destroyed|QID|30274|NC|QO|3|M|66.7,33.7|; Southwest Oubliette Shackle destroyed: 1/1
+f The Incursion|QID|30384|M|71.06,28.29|N|At Tylen Moonfeather.|
+T The Arcanic Oubliette|QID|30274|M|70.71,28.44|N|To Lorekeeper Vaeldrin.|
+A The Lost Dynasty|QID|30344|PRE|30274|M|70.71,28.44|N|From Lorekeeper Vaeldrin.|
+A Blind Them!|QID|30384|PRE|30274|M|70.71,28.52|N|From Lyalia.|
+A Squirmy Delight|QID|30350|PRE|30274|M|70.62,28.57|N|From Kang Bramblestaff.|
 C Kill and loot skitterers|QID|30350|S|M|62.46,32.89|N|Its a random drop from the skitterers.|
 C The Lost Dynasty|QID|30344|S|NC|M|68.05,21.47|N|These are stone tablets on the ground.|
-C Kill cranes|QID|30352|S|M|63.94,29.44|
+C Kill cranes|QID|30352|S|M|67.04,20.05|
 C Kill and loot tigers|QID|30353|S|M|71.15,24.65|N|The tigers drop 0-3 blood, they are likely to be stealthed.|
-K Sunwalker Scout|T|Sunwalker Scout|QID|30384|QO|1|M|66.55,25.08|N|He paths up and down this path.|; Sunwalker Scout slain: 1/1
-C Profit Mastery|QID|30353|US|M|71.15,24.65|
-C Crane Mastery|QID|30352|US|M|63.94,29.44|
-T Crane Mastery|QID|30352|M|67.6, 25.77|
-A Crane Mastery: Needlebeak|QID|31262|PRE|30352|M|67.61,25.70|N|From Daggle Bombstrider.|
-T Profit Mastery|QID|30353|M|67.60,25.77|N|To Daggle Bombstrider.|
-A Profit Mastery: Chasheen|QID|31260|PRE|30353|M|67.60,25.77|N|From Daggle Bombstrider.|
-K Chasheen|QID|31260|T|Chasheen|M|61.66,31.78|L|85774|
-K Needlebeak|QID|31262|T|Needlebeak|M|63.19,20.39|L|85854|
-C The Lost Dynasty|QID|30344|US|NC|M|68.05,21.47|N|These are stone tablets on the ground.|
-C Squirmy Delight|QID|30350|US|M|63.00,27.79|
-T Crane Mastery: Needlebeak|QID|31262|M|67.61,25.68|N|To Daggle Bombstrider.|
-T Profit Mastery: Chasheen|QID|31260|M|67.61,25.68|N|To Daggle Bombstrider.|
-T Blind Them!|QID|30384|M|67.45,32.70|N|To Lyalia.|
-T Squirmy Delight|QID|30350|M|67.36,32.75|N|To Kang Bramblestaff.|
-T The Lost Dynasty|QID|30344|M|67.45,32.64|N|To Lorekeeper Vaeldrin|
-A Where are the Pools|QID|30346|PRE|30344&30350&30384|M|67.45,32.64|N|From Lorekeeper Vaeldrin.|
-A Threat from Dojan|QID|30349|PRE|30344&30350&30384|M|67.45,32.70|N|From Lyalia.|
-A Lotus Tea|QID|30351|PRE|30344&30350&30384|M|67.36,32.75|N|From Kang Bramblestaff.|
+K Sunwalker Scout|T|Sunwalker Scout|QID|30384|QO|1|M|70.50,21.05|N|He paths up and down this path.|; Sunwalker Scout slain: 1/1
+C Profit Mastery|QID|30353|US|M|68.13,20.15|
+C Crane Mastery|QID|30352|US|M|67.04,20.05|
+T Crane Mastery|QID|30352|M|70.93,21.01|N|To Daggle Bombstrider.|
+A Crane Mastery: Needlebeak|QID|31262|PRE|30352|M|70.93,21.01|N|From Daggle Bombstrider.|
+T Profit Mastery|QID|30353|M|70.93,21.01|N|To Daggle Bombstrider.|
+A Profit Mastery: Chasheen|QID|31260|PRE|30353|M|70.93,21.01|N|From Daggle Bombstrider.|
+K Chasheen|QID|31260|T|Chasheen|M|64.53,27.78|QO|1|
+K Needlebeak|QID|31262|T|Needlebeak|M|65.74,15.17|QO|1|
+C The Lost Dynasty|QID|30344|US|NC|M|70.92,18.95|N|These are stone tablets on the ground.|
+C Squirmy Delight|QID|30350|US|M|68.00,18.89|
+T Crane Mastery: Needlebeak|QID|31262|M|70.91,21.01|N|To Daggle Bombstrider.|
+T Profit Mastery: Chasheen|QID|31260|M|70.91,21.01|N|To Daggle Bombstrider.|
+T Blind Them!|QID|30384|M|70.71,28.52|N|To Lyalia.|
+T Squirmy Delight|QID|30350|M|70.62,28.57|N|To Kang Bramblestaff.|
+T The Lost Dynasty|QID|30344|M|70.72,28.45|N|To Lorekeeper Vaeldrin|
+A Where are the Pools|QID|30346|PRE|30344&30350&30384|M|70.72,28.45|N|From Lorekeeper Vaeldrin.|
+A Threat from Dojan|QID|30349|PRE|30344&30350&30384|M|70.71,28.52|N|From Lyalia.|
+A Lotus Tea|QID|30351|PRE|30344&30350&30384|M|70.62,28.57|N|From Kang Bramblestaff.|
+;were i got up to before family pulled me away
 C Lotus Tea|QID|30351|S|NC|M|55,35|N|Keep an eye out for the flowers as you work you way up the terraces.|
 C Threat from Dojan|QID|30349|S|M|55,35|N|Kill these guys as you go up the terraces to where the boss is.|
 K Kill Dojani Dominator|QID|30346|T|Dojani Dominator|M|55.51,35.48|L|78917|N|Kill him and loot the orders.|
