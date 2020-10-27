@@ -2,12 +2,11 @@ local guide = WoWPro:RegisterGuide('BurnTedrazilEmmaleah', 'Leveling', 'Darkshor
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideContent(guide, "Battle for Azeroth")
-WoWPro:GuideName(guide,'Battle for Azeroth Intro')
+WoWPro:GuideName(guide,'Battle for Azeroth: Intro')
+WoWPro:GuideNickname(guide, "Battle for Azeroth: Intro")
 WoWPro:GuideNextGuide(guide, 'Zuldazar')
 WoWPro:GuideSteps(guide, function()
-WoWPro:GuideQuestTriggers(guide, 53372, 53028)
 return [[
-
 A Mission Statement|QID|51443|M|49.40,76.58|Z|Orgrimmar|N|From Warchief's Herald next to the Warchief's Command Board.|ACH|14222;;false|
 C Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|CHAT|N|Speak to Warchief Sylvanas Windrunner|ACH|14222;;false|
 C Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Go to the Broken Tusk Inn and meet your team|ACH|14222;;false|
@@ -15,7 +14,7 @@ T Mission Statement|QID|51443|M|54.45,78.42|Z|Orgrimmar|N|To Nathanos Blightcall
 
 A The Stormwind Extraction|QID|50769|M|54.45,78.42|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|51443|ACH|14222;;false|
 C The Stormwind Extraction|QID|50769|M|54.55,78.37|Z|Orgrimmar|QO|1|NC|N|Take a potion. Don't use it!|ACH|14222;;false|
-C The Stormwind Extraction|QID|50769|M|48.95,93.84|Z|Orgrimmar|QO|2|V|N|Fly up to the ramparts and hop on an eagle. This will enter you into the next scenario, (Stockades/Stormwind).|ACH|14222;;false|
+C The Stormwind Extraction|QID|50769|M|50.89,83.96|Z|Orgrimmar|QO|2|V|N|Fly up to the ramparts and hop on an eagle. This will enter you into the next scenario, (Stockades/Stormwind).|ACH|14222;;false|
 C In the Dead of Night|QID|50769|M|47.21,59.58|Z|Stormwind City!Stormwind City!Instance|SO|1;1|NC|N|Infiltrate Stormwind City|ACH|14222;;false|
 C Down the Drain|QID|50769|M|46.23,58.19|Z|Stormwind City!Stormwind City!Instance|SO|2;2|NC|N|Open the sewer access gate|ACH|14222;;false|
 C Down the Drain|QID|50769|M|41.29,62.51|Z|Stormwind City!Stormwind City!Instance|SO|2;1|NC|N|Go in the sewer access gate.|ACH|14222;;false|
@@ -45,26 +44,19 @@ C Speaker of the Horde|QID|46931|M|57.95,44.31|Z|Zuldazar|QO|3|NC|N|The Great Se
 C Speaker of the Horde|QID|46931|M|67.00,71.83|Z|The Great Seal!Dazar'alor|QO|4|NC|N|Hall of Ancient Paths explored.|
 C Speaker of the Horde|QID|46931|M|32.22,70.00|Z|The Great Seal!Dazar'alor|QO|5|CS|NC|N|Vault of the King explored.|
 T Speaker of the Horde|QID|46931|M|41.28,66.75|Z|The Great Seal!Dazar'alor|N|To Chronicler To'kini.|
-; To Matters at Hand is now obsolete
-; A To Matters at Hand|QID|52139|M|32.33,43.42|Z|The Great Seal!Dazar'alor|N|From Chronicler To'kini.|PRE|46931|;GRAIL SAYS NO PRE
-; This NPC appears only after [Speaker of the Horde] is turned in
-h The Great Seal|AVAILABLE|52139|M|48.50,71.75|Z|The Great Seal!Dazar'alor|N|Set your hearth stone with Brillin the Beauty, with the portals nearby, you probably won't want to change it.|
-; T To Matters at Hand|QID|52139|M|41.22,66.75|Z|Hall of Chroniclers!Dazar'alor|N|To Princess Talanji, just up the stairs.|
-;A We Need Each Other|QID|52131|M|41.22,66.75|Z|Hall of Chroniclers!Dazar'alor|N|From Princess Talanji.|
-; Cutscene
-;T We Need Each Other|QID|52131|M|41.22,66.75|Z|Hall of Chroniclers!Dazar'alor|N|To Princess Talanji.|
-A Area to Explore|QID|47512^47513^47514|M|41.77,69.35|Z|Hall of Chroniclers!Dazar'alor|N|Pick which zone you want to adventure in first from Scouting Map.|PRE|52131|
-t Nazmir|QID|47512|M|41.22,66.75|Z|Hall of Chroniclers!Dazar'alor|N|To Princess Talanji.|
-t Vol'dun|QID|47513|M|41.22,66.75|Z|Hall of Chroniclers!Dazar'alor|N|To Princess Talanji.|
-t Zuldazar|QID|47514|M|41.22,66.75|Z|Hall of Chroniclers!Dazar'alor|N|To Princess Talanji.|
-A Journey to Nazmir|QID|47103|M|41.22,66.75|Z|Hall of Chroniclers!Dazar'alor|N|From Princess Talanji.|PRE|47512|
-A Discreet Discussions|QID|47313|M|41.22,66.75|Z|Hall of Chroniclers!Dazar'alor|N|From Princess Talanji.|PRE|47513|
-A Trust of a King|QID|49615|M|41.22,66.75|Z|Hall of Chroniclers!Dazar'alor|N|From Princess Talanji.|PRE|47514|
-A The War Campaign|QID|52749|M|40.67,72.08|Z|Hall of Chroniclers!Dazar'alor|N|From Nathanos Blightcaller.|
-N About the War Campaign|ACTIVE|52749|N|There are quests offered at 110,114,118 on The Banshee's Wail, a ship in Zuldazar's harbor. The guide for those quests will offer to load when you accept one of those quests. As the 2nd quest requires you to gather 100 war resources before you progress, no reason to go down there until you have the first 100 resources. Also, no particular rush to get them done as long as you do it by 120.|
+A Area to Explore|QID|47512^47513^47514|M|41.77,69.35|Z|1164|N|Pick which zone you want to adventure in first from Scouting Map.|PRE|52131|
+t Nazmir|QID|47512|M|41.22,66.75|Z|1164|N|To Princess Talanji.|
+t Vol'dun|QID|47513|M|41.22,66.75|Z|1164|N|To Princess Talanji.|
+t Zuldazar|QID|47514|M|41.22,66.75|Z|1164|N|To Princess Talanji.|
+A Journey to Nazmir|QID|47103|M|41.22,66.75|Z|1164|N|From Princess Talanji.|PRE|47512|
+A Discreet Discussions|QID|47313|M|41.22,66.75|Z|1164|N|From Princess Talanji.|PRE|47513|
+A Trust of a King|QID|49615|M|41.22,66.75|Z|1164|N|From Princess Talanji.|PRE|47514|
+A The War Campaign|QID|52749|M|40.67,72.08|Z|1164|N|From Nathanos Blightcaller.|LVL|35|PRE|46931|
+h The Great Seal|ACTIVE|47103^47313^49615|M|48.50,71.75|Z|The Great Seal!Dazar'alor|N|Set your hearth stone with Brillin the Beauty, with the portals nearby, you probably won't want to change it.|
+
 ; professions
-N Cooking|ACTIVE|52749|M|28.44,50.42|Z|Hall of Chroniclers!Dazar'alor|N|Train BfA Cooking at T'sarah the Royal Chef.|P|Cooking;185|RECIPE|259430|;
-N Archaeology|ACTIVE|52749|M|36.17,46.42|Z|Hall of Chroniclers!Dazar'alor|N|Train BfA Archaeology at Examiner Alerinda who wanders around in the Vault of Kings. Check off manually when done.|P|Archaeology;794|RECIPE|278910|;need to determine correct spell ID to autocomplete
+N Cooking|ACTIVE|52749|M|28.44,50.42|Z|1164|N|Train BfA Cooking at T'sarah the Royal Chef.|P|Cooking;185|RECIPE|259430|;
+N Archaeology|ACTIVE|52749|M|36.17,46.42|Z|1164|N|Train BfA Archaeology at Examiner Alerinda who wanders around in the Vault of Kings. Check off manually when done.|P|Archaeology;794|RECIPE|278910|;need to determine correct spell ID to autocomplete
 R Terrace of Crafters|AVAILABLE|51465|M|43.15,35.51|Z|Dazar'alor|N|Run down to Terrace of the Crafters to train you various professions.|
 N Skinning|ACTIVE|52749|M|43.76,34.67|Z|Dazar'alor|N|Train BfA skinning at Ranna the Cutta.|P|Skinning;393|RECIPE|257152|;
 N Leatherworking|ACTIVE|52749|M|44.07,34.65|Z|Dazar'alor|N|Train BfA Leatherworking at Xanjo.|P|Leatherworking;165|RECIPE|256756|;265813
@@ -95,8 +87,5 @@ R The Sliver|ACTIVE|52749|M|45.35,23.86;50.29,21.22|Z|Dazar'alor|CS|N|Run down s
 f The Sliver|ACTIVE|52749|M|53.16,19.35|Z|Dazar'alor|N|As long as you are here, grab the flight path from Zena the Feeder.|P|Fishing;356|RECIPE|271677|
 N Fishing|ACTIVE|52749|M|50.52,23.35|Z|Dazar'alor|N|Train BfA Fishing at Silent Tali. Check off manually when done.|P|Fishing;356|RECIPE|271677|;need to find correct spell id to autocomplete
 H The Great Seal|ACTIVE|52749|N|Hearth, fly or run back to the flightmaster, just outside The Great Seal to continue in the guide of your choice.|RANK|3|
-J On to Nazmir|QID|47103|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmNazmir|
-J On to Vol'Dun|QID|47313|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmVoldun|
-J On to Zuldazar|QID|49615|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmZuldazar|
 ]]
 end)

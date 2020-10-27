@@ -9,19 +9,26 @@ return [[
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
 ;Starter Notes
 N Ranks.|N|Rank 1 includes the steps needed for the War Campaign Achievement required for Pathfinder It also includes Warfronts and the quests that follow the purchased Table Missions to open up more outposts. Currently, there is no rank 2/3 content in this guide, but when it is added in, Rank 2 adds the Wanted Posters on Zandalar which are worth 250 faction each. Rank 3 adds other quests on Zandalar. If you want to change ranks mid-guide. You should also reset the guide (from guide title bar) or else you may miss things.|
-N Level 35|N|With patch 9.0 Blizzard has changed it so the War Campaign can not be started until level 35.|
 N The Banshee's Wail|QID|53079|N|All of these quest arcs start on The Banshee's Wail, a ship in Zandalar's harbor. It can be reached by taking the flightpath to the Port of Zandalar.|
 
 ;Start of the Campaign
-A The War Campaign|QID|52749|M|40.67,72.08|Z|Hall of Croniclers!Dazar'alor|NA|N|From Nathanos Blightcaller.|LVL|35|
+A The War Campaign|QID|52749|M|40.67,72.08|Z|Hall of Croniclers!Dazar'alor|NA|N|From Nathanos Blightcaller.|LVL|35|PRE|46931|
 T The War Campaign|QID|52749|M|58.44,62.67|NA|Z|Zuldazar|N|To Nathanos Blightcaller. For travel efficiency, Wait to turn this in until you have 100 War Resources.|;accepted when you pick your first zone
-A The War Cache|QID|52746|M|58.44,62.67|Z|Zuldazar|NA|N|From Nathanos Blightcaller.| ; Pre not needed, can pick up already PRE|52749|
+A The War Cache|QID|52746|M|58.44,62.67|Z|Zuldazar|NA|N|From Nathanos Blightcaller.|LVL|35|PRE|46931|
 t The War Cache|QID|52746|NA|N|Turn in to UI when complete.|
 A Time for War|QID|53333|NA|N|Auto accepted from UI.|PRE|52746|
 T Time for War|QID|53333|NA|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Mission from the Warchief|QID|51770|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52746|
+
+;foothold quest intro
+A The Kul Tiras Campaign|QID|51803|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52749|
+t Foothold: Drustvar|QID|51801|M|58.44,62.67|Z|Zuldazar|N|To UI Alert.|
+t Foothold: Stormsong Valley|QID|51802|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
+t Foothold: Tiragarde Sound|QID|51800|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
+C Pick a Foothold|QID|51803|M|58.44,62.62|NC|Z|Zuldazar|N|Choose which zone you want to build a foothold in first at the Kul'Tiras Campaign Table.|
+T The Kul Tiras Campaign|QID|51803|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Mission from the Warchief|QID|51770|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53333|
 T Mission from the Warchief|QID|51770|M|58.54,62.26|Z|Zuldazar|N|To Garona Halforcen.|
-A War of Shadows|QID|51771|M|58.54,62.26|Z|Zuldazar|N|From Garona Halforcen.|PRE|53333|
+A War of Shadows|QID|51771|M|58.54,62.26|Z|Zuldazar|N|From Garona Halforcen.|PRE|51770|
 C War of Shadows|QID|51771|M|58.51,62.22|Z|Zuldazar|NC|N|"The Shadow War" mission completed, takes 2 hours, right click on the step and mark sticky until finished.|
 t War of Shadows|QID|51771|M|58.54,62.26|Z|Zuldazar|N|To Garona Halforcen.|
 A Reinforcements|QID|53079|M|58.54,62.26|Z|Zuldazar|N|From Garona Halforcen.|PRE|51771|
@@ -30,26 +37,17 @@ T Reinforcements|QID|53079|M|58.54,62.26|Z|Zuldazar|N|To Garona Halforcen.|
 A Adapting Our Tactics|QID|53602|M|58.56,62.73|Z|Zuldazar|N|From Eitrigg.|PRE|51984^51985^51986|
 C Adapting Our Tactics|QID|53602|M|58.56,62.72|Z|Zuldazar|CHAT|N|Ask Eitrigg about available upgrades and then choose between the two on the first tier.|
 T Adapting Our Tactics|QID|53602|M|58.56,62.72|Z|Zuldazar|N|To Eitrigg.|
-A The MOTHERLODE!!: Raw Deal|QID|53437|M|58.45,62.64|Z|Zuldazar|NA|N|From Trade Prince Gallywix who is 1 level directly below Nathanos.|PRE|53602|
-;foothold quest intro
-A The Kul Tiras Campaign|QID|51803|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller. Can't turn in until 35.| ; Pre not needed, already available PRE|51770|  lvl 35?
-C Pick a Foothold|QID|51803|M|58.44,62.62|NC|Z|Zuldazar|N|Choose which zone you want to build a foothold in first at the Kul'Tiras Campaign Table.|
-t Foothold: Drustvar|QID|51801|M|58.44,62.67|Z|Zuldazar|N|To UI Alert.|
-t Foothold: Stormsong Valley|QID|51802|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
-t Foothold: Tiragarde Sound|QID|51800|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
-T The Kul Tiras Campaign|QID|51803|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-;Level 114 Foothold
-A Deeper Into Kul Tiras|QID|53050|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|O|
-T Deeper Into Kul Tiras|QID|53050|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|;autoaccepted from UI when you lvl to 114.
+A The MOTHERLODE!!: Raw Deal|QID|53437|M|58.45,62.64|Z|Zuldazar|ELITE|N|[color=e6cc80]Dungeon: The MOTHERLODE![/color]From Trade Prince Gallywix who is 1 level directly below Nathanos. This quest is beyond the scope of the guide.|LVL|30|
 A The Ongoing Campaign|QID|51979|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51984^51985^51986|
-C Pick next Foothold|QID|51979|M|58.44,62.62|NC|Z|Zuldazar|N|Choose which zone you want to build your second foothold at the Kul'Tiras Campaign Table.|
 t Foothold: Drustvar|QID|51801|M|58.44,62.67|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Stormsong Valley|QID|51802|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Tiragarde Sound|QID|51800|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
+C Pick next Foothold|QID|51979|M|58.44,62.62|NC|Z|Zuldazar|N|Choose which zone you want to build your second foothold at the Kul'Tiras Campaign Table.|
 T The Ongoing Campaign|QID|51979|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+
 ;Island Expedition unlock
-t The Azerite Advantage|QID|53062|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller. This quest is once per account.|O|;Autoaccepted from UI upon achieving level 116
-A Island Expedition|QID|51870|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53062|
+t The Azerite Advantage|QID|53062|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller. This quest is once per account.|O|
+A Island Expedition|QID|51870|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53062|LVL|40|
 T Island Expedition|QID|51870|M|44.48,95.45|Z|Dazar'alor|N|To Captain Rez'okum.|
 A Island Expedition|QID|51888|M|44.48,95.45|Z|Dazar'alor|N|From Captain Rez'okum.|PRE|51870|
 C Island Expedition|QID|51888|QO|1|M|44.48,95.45|Z|Dazar'alor|CHAT|N|Tell Captain Rez'okum you are ready.|
@@ -61,15 +59,15 @@ C Off the Charts|QID|51888|M|39.96,51.31|Z|Islands!Instance|SO|5|N|Investigate t
 C Azerite Raid|QID|51888|M|39.96,51.31|Z|Islands!Instance|SO|6|N|Pick up the Azerite from the the 3 Kunzen hozen huts.|
 C Escape!|QID|51888|M|75.71,70.62|Z|Islands!Instance|SO|7|N|Escape from Uncharted Isle before the Alliance arrive. Don't worry that the quest log shows this quest incomplete, it will be complete when you get back to Zuldazar.|
 T Island Expedition|QID|51888|M|44.48,95.45|Z|Dazar'alor|N|To Captain Rez'okum.|
-;Level 118 Foothold
-A Pushing Our Influence|QID|53056|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|O|
-T Pushing Our Influence|QID|53056|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51979|
-C Pick last Foothold|QID|52444|M|58.44,62.62|NC|Z|Zuldazar|N|Choose the last available zone to build a foothold at the Kul'Tiras Campaign Table.|
+
+;Level 40 Foothold
+A The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51979|LVL|40|
 t Foothold: Drustvar|QID|51801|M|58.44,62.67|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Stormsong Valley|QID|51802|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Tiragarde Sound|QID|51800|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
+C Pick last Foothold|QID|52444|M|58.44,62.62|NC|Z|Zuldazar|N|Choose the last available zone to build a foothold at the Kul'Tiras Campaign Table.|
 T The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+
 ;Foothold: Drustvar
 A A Trip Across the Ocean|QID|51332|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51801|
 T A Trip Across the Ocean|QID|51332|M|58.45,62.64|Z|Zuldazar|N|To Trade Prince Gallywix below deck.|
@@ -104,6 +102,7 @@ f Krazzlefrazz Outpost|ACTIVE|51985|M|37.37,24.03|Z|Drustvar|N|At Rixi Rocketboo
 F Anyport|ACTIVE|51985|M|37.37,24.03|Z|Drustvar|N|At Rixi Rocketboom.|
 C Return to Zuldazar|QID|51985|M|20.61,43.35|Z|Drustvar|CHAT|N|Ask Swellthrasher for a ride back to Zuldazar.|
 T Return to Zuldazar|QID|51985|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+
 ; Foothold: Stormsong Valley
 A The Warlord's Call|QID|51526|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51802|
 T The Warlord's Call|QID|51526|M|58.44,62.45|Z|Zuldazar|N|To High Warlord Cromush.|
@@ -144,6 +143,7 @@ A Return to Zuldazar|QID|51986|M|52.13,33.66|Z|Stormsong Valley|N|From Rexxar.|P
 f Warfang Hold|ACTIVE|51986|M|51.43,33.74|Z|Stormsong Valley|N|At Muka Stormbreaker.|
 C Return to Zuldazar|QID|51986|M|51.43,33.74|Z|Stormsong Valley|CHAT|N|Ask Muka Stormbreaker for a flight back to Zuldazar.|
 T Return to Zuldazar|QID|51986|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+
 ; A Foothold: Tiraguard Sound
 A Shiver Me Timbers|QID|51421|M|58.45,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51800|
 C Shiver Me Timbers|QID|51421|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Tiragarde Sound.|
@@ -183,67 +183,9 @@ T Champion: Shadow Hunter Ty'jin|QID|51975|M|87.28,50.01|Z|Tiragarde Sound|N|To 
 A Return to Zuldazar|QID|51984|M|87.28,50.01|Z|Tiragarde Sound|N|From Shadow Hunter Ty'jin.|PRE|51975|
 C Return to Zuldazar|QID|51984|M|87.84,51.18|Z|Tiragarde Sound|CHAT|N|Speak to Erul Dawnbrook.|
 T Return to Zuldazar|QID|51984|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-;lvl 120
-A A Mission of Unity|QID|53064|N|Autoaccepted after turning level 120|O|
-T A Mission of Unity|QID|53064|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Uniting Zandalar|QID|52451^51916|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
-C Uniting Zandalar|QID|52451^51916|M|58.44,62.67|Z|Zuldazar|S|N|Requires at least honored with Talanji's Expidition (Nazmir); Voldunai (Voldun); and Zandalari Empire (Zuldazar) Accountwide progress counts. |
-;Warfront at lvl 120
-A The Warfront Looms|QID|53207|N|Autoaccepted after turning level 120|O|
-T The Warfront Looms|QID|53207|M|52.93,94.47|Z|Dazar'alor|N|To Throk.|
-A To the Front|QID|53208|M|52.93,94.47|Z|Dazar'alor|PRE|53207|AVAILABLE|53220|N|From Throk.|  ; only once per Account/Faction, 53220 is flag QID.
-A Warfront Contribution|QID|53209|M|52.93,94.47|Z|Dazar'alor|N|From Throk.|PRE|53207|
-P Arathi Highlands|ACTIVE|53208|M|51.83,94.46|Z|Dazar'alor|CHAT|N|Talk to Druza Netherfang for a port to Arathi Highlands|
-T To the Front|QID|53208|M|26.07,35.56|Z|Arathi Highlands|N|To Wistel Silversnitch.|
-A Touring the Front|QID|53210|M|26.07,35.57|Z|Arathi Highlands|PRE|53208|
-C Touring the Front|QID|53210|M|25.96,36.11|Z|Arathi Highlands|QO|3|CHAT|N|View the battleground with Flightgineer Krazzle|
-C Touring the Front|QID|53210|M|20.91,25.90|Z|Arathi Highlands|QO|2|CHAT|N|Check on Graul|
-C Touring the Front|QID|53210|M|33.31,36.30|Z|Arathi Highlands|QO|1|CHAT|N|Check on Foreman Drogg|
-T Touring the Front|QID|53210|M|26.07,35.56|Z|Arathi Highlands|N|To Wistel Silversnitch.|
-A Back to Zuldazar|QID|53212|M|26.07,35.56|Z|Arathi Highlands|N|From Wistel Silversnitch.|PRE|53210|
-P Zuldazar|ACTIVE|53212|M|26.68,35.80|Z|Arathi Highlands|CHAT|N|Talk to Druza Netherfang for a port back to Zuldazar|
-T Back to Zuldazar|QID|53212|M|52.93,94.47|Z|Dazar'alor|N|To Throk.|
-C Warfront Contribution|QID|53209|M|51.74,95.44|Z|Dazar'alor|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g at Paymaster Grintooth|
-T Warfront Contribution|QID|53209|M|52.93,94.47|Z|Dazar'alor|N|To Throk and enjoy Warfronts!|
-; Warfront Scenerio
-A Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|N|From Throk.|O|
-C Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|NC|QO|1|N|View the War Table in Zuldazar and join the queue to defeat the Alliance at the Battle for Stromgarde.|
-A Iron Stores|QID|51082|ACTIVE|53416|M|70.51,36.03|Z|943|N|From Foreman Drogg. After taking the mines and killing Overseer Krix.|
-C Iron Stores|QID|51082|M|61.49,25.10|Z|943|QO|1|NC|N|Back at the base, access your Iron Stores.|
-T Iron Stores|QID|51082|M|61.48,25.26|Z|943|N|To Lug'ruk.|
-A Chop, Chop!|QID|47283|PRE|51082|M|45.98,19.64|Z|943|N|From Graul. After taking Hatchet Ridge and killing Lumberjack Leo.|
-C Chop, Chop!|QID|47283|M|46.38,19.17|Z|943|QO|1|NC|N|Grab the Sturdy Axe.|
-C Chop, Chop!|QID|47283|M|46.47,18.16|Z|943|QO|2|NC|N|Chop down the Sapling.|
-C Chop, Chop!|QID|47283|M|46.47,18.16|Z|943|QO|3|NC|N|Pick up the Freshly-Chopped Wood around the tree you just chopped.|
-T Chop, Chop!|QID|47283|M|46.04,19.63|Z|943|N|To Graul.|
-A Ready for Battle|QID|53665|PRE|51082|M|60.64,28.10|Z|943|N|From Lieutenant Akaro.|
-C Ready for Battle|QID|53665|M|60.77,28.90|Z|943|QO|1|NC|N|Recruit a troop from the Barracks, 20 Iron minimum.|
-T Ready for Battle|QID|53665|M|60.64,28.09|Z|943|N|To Lieutenant Akaro.|
-A Armor Up!|QID|53666|PRE|51082|M|58.72,25.90|Z|943|N|From Drom'kal.|
-C Armor Up!|QID|53666|M|58.60,25.40|Z|943|QO|1|NC|N|See what the Armory has to offer.|
-T Armor Up!|QID|53666|M|60.71,25.19|Z|943|N|To Wistel Silversnitch.|
-A The Altar's Power|QID|53669|PRE|51082|M|60.71,25.19|Z|943|N|From Wistel Silversnitch.|
-C The Altar's Power|QID|53669|M|61.03,22.65|Z|943|QO|1|NC|N|See what the Altar has to offer.|
-T The Altar's Power|QID|53669|M|60.70,25.17|Z|943|N|To Wistel Silversnitch.|
-A Welcome to the Workshop|QID|53667|PRE|51082|M|58.52,21.47|Z|943|N|From Margie Slickwinch.|
-C Welcome to the Workshop|QID|53667|M|57.89,21.81|Z|943|QO|1|NC|N|See what the Workshop has to offer.|
-T Welcome to the Workshop|QID|53667|M|58.52,21.47|Z|943|N|To Margie Slickwinch.|
-A Flightgineer's Network|QID|53668|PRE|51082|M|51.14,46.94|Z|943|N|From Flightgineer Krazzle after capturing High Perch.|
-C Flightgineer's Network|QID|53668|M|51.31,46.85|Z|943|QO|1|NC|N|Fly back to Ar'gorok to get your flightmaster whistle upgrade.|
-T Flightgineer's Network|QID|53668|M|61.69,26.19|Z|943|N|To Eitrigg.|
-A Beasts of Newstead|QID|53670|PRE|51082|M|42.26,39.56|Z|943|N|From Raider Zugg after capturing Newstead.|
-C Beasts of Newstead|QID|53670|M|41.50,40.55|Z|943|QO|1|NC|N|See what Kodo Rider Tanauk has to offer.|
-T Beasts of Newstead|QID|53670|M|42.62,41.53|Z|943|N|To Raider Zugg.|
-A The Circle's Power|QID|53671|PRE|51082|M|69.62,47.65|Z|943|N|From Arcanist Ilira after capturing the Circle of Elements.|
-C The Circle's Power|QID|53671|M|68.45,47.51|Z|943|NC|N|See what Kraga Tidefury has to offer.|
-T The Circle's Power|QID|53671|M|69.63,47.65|Z|943|N|To Arcanist Ilira.|
-C Warfront: The Battle for Stromgarde|QID|53416|M|49.37,72.95|Z|943|QO|2|N|Collect Iron and Wood to continue upgrading your buildings and troops or hire help. Capture the various outposts and defeat the alliance.|
-t Warfront: The Battle for Stromgarde|QID|53416|M|52.92,94.51|Z|Dazar'alor|N|To Throk.|
-;End Warfront Scenerio
-C Uniting Zandalar|QID|52451^51916|M|58.44,62.67|Z|Zuldazar|US|N|Requires at least friendly with Talanji's Expidition (Nazmir); Voldunai (Voldun); and Zandalari Empire (Zuldazar) Accountwide progress counts. |
-T Uniting Zandalar|QID|52451^51916|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+
 ;First Assault
-A Breaking Kul Tiran Will|QID|51589|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52451^51916|   ; need to also have 51984, 51985, and 51986 done along with PREs listed.
+A Breaking Kul Tiran Will|QID|51589|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52444|LVL|50|
 C Breaking Kul Tiran Will|QID|51589|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Tiragarde Sound.|
 T Breaking Kul Tiran Will|QID|51589|M|87.38,50.52|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
 A Into the Heart of Tiragarde|QID|51590|M|87.38,50.52|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|51589|
@@ -285,6 +227,7 @@ T Death Trap|QID|51599|M|77.01,49.19|Z|Tiragarde Sound|N|To Lilian Voss.|
 A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51599|
 C The Bridgeport Ride|QID|51601|M|75.49,49.86;75.55,51.96;74.22,52.88|QO|1;2|Z|Tiragarde Sound|CS|V|N|Hop on the horse, make a circle thru town, be sure you ran past the Captain, and then ride out across the low bridge to where you set the bombs.|
 T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos Blightcaller.|
+
 ;Heart of Azeroth questline - gone as of 8.2.5
 ; P Silithis|QID|50973|M|73.97,85.62|Z|The Great Seal!Dazar'alor|N|Travel to Silithis to upgrade your Necklace' ilevel. One character on your account must have at least friendly rep for this quest to be available.|ACH|12947;5;;true|PRE|52451^51916|
 ; A The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|REP|Champions of Azeroth;2164;Friendly-Exalted|PRE|52451^51916|
@@ -831,6 +774,58 @@ C Fly Out to Meet Them|QID|54280|M|31.47,32.06|Z|Nazmir|V|N|Hop on for a ride ba
 T Fly Out to Meet Them|QID|54280|M|37.04,5.23|Z|Dazar'alor|N|To Princess Talanji.|
 A Battle of Dazar'alor|QID|54282|M|37.04,5.23|Z|Dazar'alor|N|From Princess Talanji. This is a raid quest. Accept or not as you choose.|PRE|54280|
 B More upgrade missions.|QID|54294&54296&54297|M|58.06,62.65|Z|Zuldazar|S!US|N|Three more missions to upgrade your outposts purchased from the Emissary. Unlike the previous missions, these need purchased by each character who wants the upgrade.|REP|The Honorbound;2157;Exalted;0|
+
+;Warfront at lvl 50
+A To the Front|QID|53208|M|52.93,94.47|Z|Dazar'alor|N|From Throk.|LVL|50|
+A Warfront Contribution|QID|53209|M|52.93,94.47|Z|Dazar'alor|N|From Throk.|LVL|50|
+P Arathi Highlands|ACTIVE|53208|M|51.83,94.46|Z|Dazar'alor|CHAT|N|Talk to Druza Netherfang for a port to Arathi Highlands|
+T To the Front|QID|53208|M|26.07,35.56|Z|Arathi Highlands|N|To Wistel Silversnitch.|
+A Touring the Front|QID|53210|M|26.07,35.57|Z|Arathi Highlands|PRE|53208|
+C Touring the Front|QID|53210|M|25.96,36.11|Z|Arathi Highlands|QO|3|CHAT|N|View the battleground with Flightgineer Krazzle|
+C Touring the Front|QID|53210|M|20.91,25.90|Z|Arathi Highlands|QO|2|CHAT|N|Check on Graul|
+C Touring the Front|QID|53210|M|33.31,36.30|Z|Arathi Highlands|QO|1|CHAT|N|Check on Foreman Drogg|
+T Touring the Front|QID|53210|M|26.07,35.56|Z|Arathi Highlands|N|To Wistel Silversnitch.|
+A Back to Zuldazar|QID|53212|M|26.07,35.56|Z|Arathi Highlands|N|From Wistel Silversnitch.|PRE|53210|
+P Zuldazar|ACTIVE|53212|M|26.68,35.80|Z|Arathi Highlands|CHAT|N|Talk to Druza Netherfang for a port back to Zuldazar|
+T Back to Zuldazar|QID|53212|M|52.93,94.47|Z|Dazar'alor|N|To Throk.|
+C Warfront Contribution|QID|53209|M|51.74,95.44|Z|Dazar'alor|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g at Paymaster Grintooth|
+T Warfront Contribution|QID|53209|M|52.93,94.47|Z|Dazar'alor|N|To Throk and enjoy Warfronts!|
+; Warfront Scenerio
+A Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|N|From Throk.|O|
+C Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|NC|QO|1|N|View the War Table in Zuldazar and join the queue to defeat the Alliance at the Battle for Stromgarde.|
+A Iron Stores|QID|51082|ACTIVE|53416|M|70.51,36.03|Z|943|N|From Foreman Drogg. After taking the mines and killing Overseer Krix.|
+C Iron Stores|QID|51082|M|61.49,25.10|Z|943|QO|1|NC|N|Back at the base, access your Iron Stores.|
+T Iron Stores|QID|51082|M|61.48,25.26|Z|943|N|To Lug'ruk.|
+A Chop, Chop!|QID|47283|PRE|51082|M|45.98,19.64|Z|943|N|From Graul. After taking Hatchet Ridge and killing Lumberjack Leo.|
+C Chop, Chop!|QID|47283|M|46.38,19.17|Z|943|QO|1|NC|N|Grab the Sturdy Axe.|
+C Chop, Chop!|QID|47283|M|46.47,18.16|Z|943|QO|2|NC|N|Chop down the Sapling.|
+C Chop, Chop!|QID|47283|M|46.47,18.16|Z|943|QO|3|NC|N|Pick up the Freshly-Chopped Wood around the tree you just chopped.|
+T Chop, Chop!|QID|47283|M|46.04,19.63|Z|943|N|To Graul.|
+A Ready for Battle|QID|53665|PRE|51082|M|60.64,28.10|Z|943|N|From Lieutenant Akaro.|
+C Ready for Battle|QID|53665|M|60.77,28.90|Z|943|QO|1|NC|N|Recruit a troop from the Barracks, 20 Iron minimum.|
+T Ready for Battle|QID|53665|M|60.64,28.09|Z|943|N|To Lieutenant Akaro.|
+A Armor Up!|QID|53666|PRE|51082|M|58.72,25.90|Z|943|N|From Drom'kal.|
+C Armor Up!|QID|53666|M|58.60,25.40|Z|943|QO|1|NC|N|See what the Armory has to offer.|
+T Armor Up!|QID|53666|M|60.71,25.19|Z|943|N|To Wistel Silversnitch.|
+A The Altar's Power|QID|53669|PRE|51082|M|60.71,25.19|Z|943|N|From Wistel Silversnitch.|
+C The Altar's Power|QID|53669|M|61.03,22.65|Z|943|QO|1|NC|N|See what the Altar has to offer.|
+T The Altar's Power|QID|53669|M|60.70,25.17|Z|943|N|To Wistel Silversnitch.|
+A Welcome to the Workshop|QID|53667|PRE|51082|M|58.52,21.47|Z|943|N|From Margie Slickwinch.|
+C Welcome to the Workshop|QID|53667|M|57.89,21.81|Z|943|QO|1|NC|N|See what the Workshop has to offer.|
+T Welcome to the Workshop|QID|53667|M|58.52,21.47|Z|943|N|To Margie Slickwinch.|
+A Flightgineer's Network|QID|53668|PRE|51082|M|51.14,46.94|Z|943|N|From Flightgineer Krazzle after capturing High Perch.|
+C Flightgineer's Network|QID|53668|M|51.31,46.85|Z|943|QO|1|NC|N|Fly back to Ar'gorok to get your flightmaster whistle upgrade.|
+T Flightgineer's Network|QID|53668|M|61.69,26.19|Z|943|N|To Eitrigg.|
+A Beasts of Newstead|QID|53670|PRE|51082|M|42.26,39.56|Z|943|N|From Raider Zugg after capturing Newstead.|
+C Beasts of Newstead|QID|53670|M|41.50,40.55|Z|943|QO|1|NC|N|See what Kodo Rider Tanauk has to offer.|
+T Beasts of Newstead|QID|53670|M|42.62,41.53|Z|943|N|To Raider Zugg.|
+A The Circle's Power|QID|53671|PRE|51082|M|69.62,47.65|Z|943|N|From Arcanist Ilira after capturing the Circle of Elements.|
+C The Circle's Power|QID|53671|M|68.45,47.51|Z|943|NC|N|See what Kraga Tidefury has to offer.|
+T The Circle's Power|QID|53671|M|69.63,47.65|Z|943|N|To Arcanist Ilira.|
+C Warfront: The Battle for Stromgarde|QID|53416|M|49.37,72.95|Z|943|QO|2|N|Collect Iron and Wood to continue upgrading your buildings and troops or hire help. Capture the various outposts and defeat the alliance.|
+t Warfront: The Battle for Stromgarde|QID|53416|M|52.92,94.51|Z|Dazar'alor|N|To Throk.|
+;End Warfront Scenerio
+
 ; Exalted Mission Report: Vulpara Hideaway
 A Mission Report: Vulpera Hideaway|QID|54258|M|51.55,99.60|Z|Dazar'alor|PRE|54296|
 T Mission Report: Vulpera Hideaway|QID|54258|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -962,7 +957,7 @@ H The Great Seal|ACTIVE|55521|M|62.03,24.92|Z|Mount Hyjal|N|Hearth or otherwise 
 P Silithus|ACTIVE|55521|M|73.89,85.58|Z|The Great Seal!Dazar'alor|N|Travel to Silithus and then the Chamber of Heart.|
 T Do It the Azerite Way|QID|55521|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 T The Long Awake|QID|55398|M|53.92,62.11|Z|Chamber of Heart!Dungeon1473|N|To Merithra.|
-A Investigating the Highlands|QID|56167|M|52.63,70.21|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. After your Necklace has reached Lvl 60.|
+A Investigating the Highlands|QID|56167|M|52.63,70.21|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. After your Necklace has reached Lvl 60.|PRE|55521|
 P Silithus|ACTIVE|56167|M|50.17,30.42|Z|Chamber of Heart!Dungeon1473|N|Travel by method of choice to Twilight Highlands.|
 P Dazar'alor|ACTIVE|56167|M|41.62,45.21|Z|Silithus|N|Travel by method of choice to Twilight Highlands.|
 P Orgrimmar|ACTIVE|56167|M|73.72,69.75|Z|The Great Seal!Dazar'alor|N|Travel by method of choice to Twilight Highlands.|
@@ -1053,7 +1048,7 @@ T A Display of Power|QID|55051|M|50.75,32.33|Z|Stormsong Valley|N|To Lor'themar 
 ;Visions of Danger
 H Dazar'alor|AVAILABLE|55778|M|PLAYER|N|Hearth or otherwise return to Dazar'alor.|PRE|55051|
 P Nazjatar|AVAILABLE|55778|M|62.94,85.00|Z|Dazar'alor|N|Take the portal to Nazjatar.|PRE|55051|
-N Nazjatar|AVAILABLE|55869|N|To start the next step in the War Campaign, you need to progress thru Nazjatar, to the point where you find Lady Ashvane and the weapons cache.|;55869 is end of Nazjatar opening (Clearing out the Cache)
+N Nazjatar|AVAILABLE|55869|N|To start the next step in the War Campaign, you need to progress thru Nazjatar, to the point where you find Lady Ashvane and the weapons cache.|LVL|50|;55869 is end of Nazjatar opening (Clearing out the Cache)
 A Visions of Danger|QID|55778|M|48.51,62.18|Z|Nazjatar|N|From Lor'themar Theron.|PRE|55051&55869|
 C Visions of Danger|QID|55778|M|48.36,62.16|Z|Nazjatar|QO|1|CHAT|N|Speak with Spiritwalker Ussoh, then watch his vision unfold.|
 T Visions of Danger|QID|55778|M|48.50,62.18|Z|Nazjatar|N|To Lor'themar Theron.|
@@ -1153,19 +1148,9 @@ A Most Loyal|QID|57152|M|49.99,91.33|Z|1534|N|From Dark Ranger Lenara.|PRE|57151
 C Most Loyal|QID|57152|M|49.99,91.33|Z|1534|QO|2|U|172203|NC|N|Use Cracked Hearthstone to reach Tranquillien or travel there on your own.|
 C Most Loyal|QID|57152|M|18.79,58.55|Z|Ghostlands|QO|1|CHAT|N|Speak with Sylvanas Windrunner|
 T Most Loyal|QID|57152|M|18.63,58.36|Z|Ghostlands|N|To Dark Ranger Lenara.|
-; Rep Gated Notes
-N Come back at level 114|QID|51979|LVL|-114|N|Next foothold can be done when you are level 114.|PRE|51803|
-N Come back at level 116|QID|53062|LVL|-116|N|Island Adventures can be done when you are level 116. This quest is once per account. Once unlocked on the account, Other toons on the account can do Island Adventures as early as 110.|PRE|51979|
-N Come back at level 118|QID|52444|LVL|-118|N|Last foothold can be done when you are level 118.|PRE|51979|
-N Come back at level 120|QID|51589|LVL|-120|N|First assault can be done when you are level 120.|PRE|52444|
-N Rep Gated until 4.5K into Friendly|QID|51784|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 4.5K into friendly. IF you are sitting in Bridgeport wondering how to get home, fly to Plunder Harbor and ask Erul Dawnbrook, on the dock for a ride back to Zuldazar.|PRE|51601|REP|The Honorbound;2157;friendly;4500;true|
-; B Scounting Missions|AVAILABLE|53739^53744|M|58.06,62.65|Z|Zuldazar|N|Now that you're Honored you can purchase two Scouting Reports from Ransa Greyfeather (Emissary) that become available at Honored. Use the Scouting Reports to cause a mission to be available at your table. Complete the table missions to start quest chains that unlock outposts (additional flight paths!).|REP|The Honorbound;2157;honored-exalted|   ; moved higher in guide
-N Rep Gated until 3K into Honored|QID|51797|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 3K into Honored.|PRE|51789|REP|The Honorbound;2157;honored;3000;true|
-N Rep Gated until 7.5K into Honored|QID|52764|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 7.5k into honored.|PRE|52122|REP|The Honorbound;2157;honored;7500;true|
-N More Scouting Missions|QID|53739^53740^53741^53742^53743^53744^53745|M|58.06,62.65|Z|Zuldazar|US|N|Get those scouting missions (from the table) done so you can open up more flightpaths.|REP|The Honorbound;2157;revered-exalted|
-N Rep Gated until Revered|QID|52183|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at revered.|PRE|52978|REP|The Honorbound;2157;revered;0;true|
-N Outposts and Rep|QID|53103^53152^53126^52320^52479^53101^53082^54260|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
-N Rep Gated until 7K into Revered|QID|53941|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 7K into revered.|PRE|53981|REP|The Honorbound;2157;revered;7000;true|
-N Rep Gated until 14K into Revered|QID|54121|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 14K into revered.|PRE|54094|REP|The Honorbound;2157;revered;14000;true|
+
+;Gate Notes
+N Come back at level 40|QID|52444|LVL|-40|N|The last foothold can be completed when you're level 40.|PRE|51979|
+N Come back at level 50|QID|51589|LVL|-50|N|The War Campaign story continues at level 50.|PRE|52444|
 ]]
 end)

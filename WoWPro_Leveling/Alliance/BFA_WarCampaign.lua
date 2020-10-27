@@ -1020,7 +1020,7 @@ t WANTED: Ayame|QID|52480|M|61.89,41.47|Z|Nazmir|N|To Garrick Blacksteel.|
 ; Rep Gated Notes
 
 N Come back at level 40|QID|52443|M|PLAYER|LVL|-40|N|The last foothold can be completed when you're level 40.|PRE|51961|
-N Come back at level 50|QID|52443|M|PLAYER|LVL|-50|N|The War Campaign story continues at level 50.|PRE|51967&51968&51969|
+N Come back at level 50|QID|52026|M|PLAYER|LVL|-50|N|The War Campaign story continues at level 50.|PRE|51967&51968&51969|
 N Nazjatar|AVAILABLE|56378|M|PLAYER|JUMP|Nazjatar|N|Now you can continue on to Nazjatar.|
 
 ; Elidion - Not sure about a lot of this, pasting what seems to be removed, will do another pass on live.
