@@ -52,7 +52,6 @@ T Apply Directly to the Forehead|QID|30089|M|80.15,00.93|N|To Ken-Ken.|
 A Zhu's Despair|QID|30090|PRE|30089|M|80.15,00.93|N|From Ken-Ken.|
 C Zhu's Despair|QID|30090|U|79057|M|80.44,02.77|N|After you kill the little sha's, then you use the mask on Yi-Mo, who is standing by the well.|
 T Zhu's Despair|QID|30090|M|80.15,00.93|N|To Ken-Ken, after a little talking.|
-;start Chapter 2
 A Into the Wilds|QID|30178|PRE|30090|M|79.75,01.51|N|From Mei Barrelbottom.|
 A Crane Mastery|QID|30352|M|70.93,21.01|N|From Daggle Bombstrider.|
 A Profit Mastery|QID|30353|M|70.93,21.01|N|From Daggle Bombstrider.|
@@ -91,90 +90,90 @@ T The Lost Dynasty|QID|30344|M|70.72,28.45|N|To Lorekeeper Vaeldrin|
 A Where are the Pools|QID|30346|PRE|30344&30350&30384|M|70.72,28.45|N|From Lorekeeper Vaeldrin.|
 A Threat from Dojan|QID|30349|PRE|30344&30350&30384|M|70.71,28.52|N|From Lyalia.|
 A Lotus Tea|QID|30351|PRE|30344&30350&30384|M|70.62,28.57|N|From Kang Bramblestaff.|
-;were i got up to before family pulled me away
 C Lotus Tea|QID|30351|S|NC|M|55,35|N|Keep an eye out for the flowers as you work you way up the terraces.|
 C Threat from Dojan|QID|30349|S|M|55,35|N|Kill these guys as you go up the terraces to where the boss is.|
-K Kill Dojani Dominator|QID|30346|T|Dojani Dominator|M|55.51,35.48|L|78917|N|Kill him and loot the orders.|
+K Kill Dojani Dominator|QID|30346|T|Dojani Dominator|M|57.86,30.42|L|78917|N|Kill him and loot the orders.|
 C Where are the Pools|QID|30346|M|55.26,34.46|N|To UI Alert. (If you miss the alert you can turn in back at the Incursion.)|
 T Where are the Pools|QID|30346|
 A The Pools of Youth|QID|30347|PRE|30346|N|from UI Alert.|
-C Threat from Dojan|QID|30349|US|M|55,35|N|Finish this before you go on to the pools, no dojani down there.|
-C The Pools of Youth|QID|30347|NC|M|54.6,33.1;51.9,32.4|CS|N|When facing the platform where you killed the Dominator, go to your left, over a bridge and down some stairs to a pool area. Free Na Lek, kill the guardians and loot the 'water of youth' (groundspawn).|
+C Threat from Dojan|QID|30349|US|M|56.67,34.32|N|There are plenty around this area.|
+C The Pools of Youth|QID|30347|NC|M|57.04,29.41;54.14,28.55|CS|CHAT|N|When facing the platform where you killed the Dominator, go to your left, over a bridge and down some stairs to a pool area. Free Na Lek, kill the guardians and loot the 'water of youth' (groundspawn).|
 C Lotus Tea|QID|30351|US|M|55,35|N|There are a few flowers down here if you aren't yet done.|
 T Lotus Tea|QID|30351|N|To Kang Bramblestaff, next to you. (if you dont turn it in right away, you have to wait until you are at sentinal basecamp.)|
-R While traveling|QID|31409|M|50.8,49.4|CC|N|You can optionally go along the coast and look for a Pandaran Fishing Spear It is located under Uncle Deming.(rare blue BoA).|
-;R The Incursion|M|67.4,32|
-T Threat from Dojan|QID|30349|M|67.45,32.70|N|To Lyalia.|
-T The Pools of Youth|QID|30347|M|67.45,32.64|N|To Lorekeeper Vaeldrin.|
-T Lotus Tea|QID|30351|M|67.36,32.75|N|To Kang Bramblestaff.|
-A Immortality?|QID|30348|PRE|30347&30349&30351|M|67.45,32.64|N|From Lorekeeper Vaeldrin.|
-C Immortality?|QID|30348|M|67.45,32.64|N|Watch and wait.|
-T Immortality?|QID|30348|M|67.45,32.64|N|To Lorekeeper Vaeldrin.|
-A Going on the Offensive|QID|30363|PRE|30348|M|67.45,32.70|N|From Lyalia.|
-C Going on the Offensive|QID|30363|NC|M|43.9,43.4|N|The poor outrider is on the ground (again).|
-T Into the Wilds|QID|30178|M|44.24,43.02|N|To Koro Mistwalker.|
-A Unsafe Passage|QID|30269|PRE|30133^30178|M|44.16,43.00|N|From Koro Mistwalker.|
-C Unsafe Passage|QID|30269|M|43.72,36.01|N|Walk with the refugees, 2 encounters along the way.|
-T Unsafe Passage|QID|30269|M|40.59,33.69|N|To Koro Mistwalker.|
-A Blinding the Riverblades|QID|30270|PRE|30269|M|40.59,33.69|N|From Koro Mistwalker.|
-A Tread Lightly|QID|30694|PRE|30269|M|40.59,33.69|N|From Koro Mistwalker.|
-A The Murksweats|QID|30268|PRE|30269|M|40.48,34.66|N|From Anduin Wrynn.|
+R While traveling|QID|30349|M|52.79,46.41|CC|RANK|3|N|You can optionally go along the coast and look for a Pandaran Fishing Spear It is located under Uncle Deming.(rare blue BoA).|
+R The Incursion|M|69.04,29.42|QID|30349|
+T Threat from Dojan|QID|30349|M|70.71,28.52|N|To Lyalia.|
+T The Pools of Youth|QID|30347|M|70.72,28.45|N|To Lorekeeper Vaeldrin.|
+T Lotus Tea|QID|30351|M|70.62,28.57|N|To Kang Bramblestaff.|
+A Immortality?|QID|30348|PRE|30347&30349&30351|M|70.72,28.45|N|From Lorekeeper Vaeldrin.|
+C Immortality?|QID|30348|M|70.72,28.45|N|Watch and wait.|
+T Immortality?|QID|30348|M|70.71,28.52|N|To Lorekeeper Vaeldrin.|
+A Going on the Offensive|QID|30363|PRE|30348|M|70.71,28.52|N|From Lyalia.|
+C Going on the Offensive|QID|30363|NC|M|45.40,40.02|N|The poor outrider is on the ground (again).|
+T Into the Wilds|QID|30178|M|45.72,39.45|N|To Koro Mistwalker.|
+A Unsafe Passage|QID|30269|PRE|30133^30178|M|45.72,39.45|N|From Koro Mistwalker.|
+C Unsafe Passage|QID|30269|M|44.69,31.47|N|Walk with the refugees, 2 encounters along the way.|
+T Unsafe Passage|QID|30269|M|41.80,29.57|N|To Koro Mistwalker.|
+A Blinding the Riverblades|QID|30270|PRE|30269|M|41.80,29.57|N|From Koro Mistwalker.|
+A Tread Lightly|QID|30694|PRE|30269|M|41.80,29.57|N|From Koro Mistwalker.|
+A The Murksweats|QID|30268|PRE|30269|M|41.69,30.62|N|From Anduin Wrynn.|
 C Tread Lightly|QID|30694|S|NC|U|80828|M|45.77,28.17|N|Target the traps and use your stick from a short distance away to set them off safely.|
-C Blinding the Riverblades|QID|30270|M|46.14,30.06|
-C Tread Lightly|QID|30694|US|NC|U|80828|M|45.77,28.17|N|Target the traps and use your stick from a short distance away to set them off safely.|
-C The Murksweats|QID|30268|M|37.33,41.13|N|These are swimming in the water.|
-T The Murksweats|QID|30268|M|40.48,34.66|N|To Anduin Wrynn.|
-T Blinding the Riverblades|QID|30270|M|40.59,33.69|N|To Koro Mistwalker.|
-T Tread Lightly|QID|30694|M|40.62,33.69|N|To Koro Mistwalker.|
-A Ahead on the Way|QID|30695|PRE|30268&30270&30694|M|40.68,33.68|N|From Koro Mistwalker.|
-A Striking the Rain|QID|30272|PRE|30268&30270&30694|M|40.6,33.7|N|From Koro Mistwalker|
-A Sha Can Awe|QID|30271|PRE|30268&30270&30694|M|40.67,33.88|N|From Anduin Wrynn, who is now following you and who may be duplicated!|
-C Sha Can Awe|QID|30271|S|M|41.9,50.1|N|Kill Hunts and Incarnations of Despair near the Hopeless Monks|
-C Striking the Rain|QID|30272|S|M|40,45|
-C West Pagoda Cleansed|QID|30695|QO|1|M|37.82,54.26|; West Pagoda Cleansed: 1/1
-C East Pagoda Cleansed|QID|30695|QO|1|M|42.83,54.35|; East Pagoda Cleansed: 1/1
+C Blinding the Riverblades|QID|30270|M|47.48,33.56|
+C Tread Lightly|QID|30694|US|NC|U|80828|M|47.48,33.56|N|Target the traps and use your stick from a short distance away to set them off safely.|
+C The Murksweats|QID|30268|M|38.65,37.69|N|These are swimming in the water.|
+T The Murksweats|QID|30268|M|41.70,30.62|N|To Anduin Wrynn.|
+T Blinding the Riverblades|QID|30270|M|41.80,29.57|N|To Koro Mistwalker.|
+T Tread Lightly|QID|30694|M|41.80,29.57|N|To Koro Mistwalker.|
+A Ahead on the Way|QID|30695|PRE|30268&30270&30694|M|41.80,29.57|N|From Koro Mistwalker.|
+A Striking the Rain|QID|30272|PRE|30268&30270&30694|M|41.80,29.57|N|From Koro Mistwalker|
+A Sha Can Awe|QID|30271|PRE|30268&30270&30694|M|41.80,29.57|N|From Anduin Wrynn, who is now following you and who may be duplicated!|
+C Seha Can Awe|QID|30271|S|M|41.32,45.41|N|Kill Hunts and Incarnations of Despair near the Hopeless Monks|
+C Striking the Rain|QID|30272|S|M|40.32,46.70|
+C West Pagoda Cleansed|QID|30695|QO|1|M|38.83,51.61|; West Pagoda Cleansed: 1/1
+C East Pagoda Cleansed|QID|30695|QO|2|M|44.49,51.32|; East Pagoda Cleansed: 1/1
 C Striking the Rain|QID|30272|US|M|40,45|N|Kill them near the Defenders to get credit for Sha Can Awe also.|
 C Sha Can Awe|QID|30271|US|M|41.9,50.1|N|Kill Hunts and Incarnations of Despair near the Hopeless Monks|
-T Ahead on the Way|QID|30695|M|43.00,53.11|N|To Anduin Wrynn.|
-T Striking the Rain|QID|30272|M|38.01,50.89|N|To Anduin Wrynn.|
-T Sha Can Awe|QID|30271|M|38.01,50.89|N|To Anduin Wrynn.|
-A In the House of the Red Crane|QID|30273|PRE|30271&30272&30695|M|38.01,50.89|N|From Anduin Wrynn.|
-C In the House of the Red Crane|QID|30273|M|40.46,54.65|N|Go up the center stairs then run straight back to the stairs into the basement. Talk to Chi-Ji to start the fight. He will float up and a large sha will appear, defeat it and you win. When the adds show up, you probably want to focus on them, since deaths cause Anduin to heal you.|
-T In the House of the Red Crane|QID|30273|M|40.43,49.18|N|To Chi-Ji (back outside).|
-R Nayeli Lagoon|QID|30667|M|51.7,75.34|
-A Particular Plumage|QID|30667|M|51.67,75.30|N|From Tony Tuna.|
-l Stack of Papers|QID|31863|L|87798|M|52,73|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
-f Marista|M|52.43,76.53|N|At Nan-Po.|
-A Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.53,76.85|N|From Jay Cloudfall, on the ledge of the inn.|
-C Sudden, Unexpected Crocolisk Aggression|QID|30666|S|M|46.34,71.99|
-C Particular Plumage|QID|30667|M|42.57,71.86|
-C Sudden, Unexpected Crocolisk Aggression|QID|30666|US|M|46.34,71.99|
-T Particular Plumage|QID|30667|M|51.67,75.30|N|To Tony Tuna.|
-T Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.53,76.85|N|To Jay Cloudfall.|
-A Build Your Own Raft|QID|30668|PRE|30666|M|51.53,76.85|N|From Jay Cloudfall.|
-C Pick up kelp|QID|30668|NC|QO|2|M|52.25,77.78|; Tough Kelp: 1/1
-C Pick up wood|QID|30668|NC|QO|1|M|52.36,76.21|
-T Build Your Own Raft|QID|30668|M|51.53,76.85|N|To Jay Cloudfall.|
-A The Lorewalker on the Lake|QID|30669|PRE|30668|M|51.53,76.85|N|From Jay Cloudfall.|
+T Ahead on the Way|QID|30695|M|PLAYER|N|To Anduin Wrynn.|
+T Striking the Rain|QID|30272|M|PLAYER|N|To Anduin Wrynn.|
+T Sha Can Awe|QID|30271|M|PLAYER|N|To Anduin Wrynn.|
+A In the House of the Red Crane|QID|30273|PRE|30271&30272&30695|M|PLAYER|N|From Anduin Wrynn.|
+C In the House of the Red Crane|QID|30273|M|41.61,52.22|N|Go up the center stairs then run straight back to the stairs into the basement. Talk to Chi-Ji to start the fight. He will float up and a large sha will appear, defeat it and you win. When the adds show up, you probably want to focus on them, since deaths cause Anduin to heal you.|
+T In the House of the Red Crane|QID|30273|M|41.63,46.27|N|To Chi-Ji (back outside).|
+R Nayeli Lagoon|AVAILABLE|30667|M|53.73,74.38|
+A Particular Plumage|QID|30667|M|53.73,74.38|N|From Tony Tuna.|
+l Stack of Papers|QID|31863|L|87798|M|54.45,71.07;54.25,72.34|CC|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
+f Marista|M|54.61,75.76|N|At Nan-Po.|
+A Sudden, Unexpected Crocolisk Aggression|QID|30666|M|53.58,76.03|N|From Jay Cloudfall, on the ledge of the inn.|
+C Sudden, Unexpected Crocolisk Aggression|QID|30666|S|M|47.63,65.85|
+C Particular Plumage|QID|30667|M|47.63,65.85|
+C Sudden, Unexpected Crocolisk Aggression|QID|30666|US|M|47.63,65.85|
+T Particular Plumage|QID|30667|M|53.73,74.38|N|To Tony Tuna.|
+T Sudden, Unexpected Crocolisk Aggression|QID|30666|M|53.58,76.03|N|To Jay Cloudfall.|
+A Build Your Own Raft|QID|30668|PRE|30666|M|53.58,76.03|N|From Jay Cloudfall.|
+C Pick up kelp|QID|30668|NC|QO|2|M|54.36,77.12|; Tough Kelp: 1/1
+C Pick up wood|QID|30668|NC|QO|1|M|54.54,75.29|
+T Build Your Own Raft|QID|30668|M|53.58,76.03|N|To Jay Cloudfall.|
+A The Lorewalker on the Lake|QID|30669|PRE|30668|M|53.58,76.03|N|From Jay Cloudfall.|
 C The Lorewalker on the Lake|QID|30669|M|51.69,76.53;46.02,78.95|CS|N|Hop on your raft and head out to see the Lorewalker. When you jump, it makes the raft go faster.|
-T The Lorewalker on the Lake|QID|30669|M|46.02,78.95|N|To Wise Ana Wu.|
-A Wisdom Has A Price|QID|30671|PRE|30669|M|46.02,78.95|N|From Wise Ana Wu.|
-A Misery|QID|30691|PRE|30669|M|46.02,78.95|N|From Wise Ana Wu.|
+T The Lorewalker on the Lake|QID|30669|M|47.61,78.23|N|To Wise Ana Wu.|
+A Wisdom Has A Price|QID|30671|PRE|30669|M|47.61,78.23|N|From Wise Ana Wu.|
+A Misery|QID|30691|PRE|30669|M|47.61,78.23|N|From Wise Ana Wu.|
 C Wisdom Has A Price|QID|30671|S|M|46.54,77.47|N|Random drop from the sharks.|
-K Nahassa|QID|30691|T|Nahassa|QO|1|M|45.84,79.35;46.27,83.42|CS|; Put Nahassa out of his misery: 1/1
-T Misery|QID|30691|M|46.27,83.42|N|To UI Alert.|
-C Wisdom Has A Price|QID|30671|US|M|46.54,77.47|N|Random drop from the sharks.|
-T Wisdom Has A Price|QID|30671|M|46.01,78.96|N|To Wise Ana Wu.|
-A Balance|QID|30672|PRE|30671|M|46.01,78.96|N|From Wise Ana Wu.|
+K Nahassa|QID|30691|T|Nahassa|QO|1|M|47.77,78.62|N|Underwater cave, entry is here.|
+T Misery|QID|30691|M|PLAYER|N|To UI Alert.|
+C Wisdom Has A Price|QID|30671|US|M|48.39,78.56|N|Random drop from the sharks.|
+T Wisdom Has A Price|QID|30671|M|47.61,78.23|N|To Wise Ana Wu.|
+A Balance|QID|30672|PRE|30671|M|47.61,78.23|N|From Wise Ana Wu.|
 R Unga Ingoo|QID|30674|M|45.31,85.17|N|Keep jumping on your raft.|
-A Banana Infused Rum|QID|31411|M|53.2,88.7|N|East of Unga Ingoo (at the top of the hill) there may be a barrel that contains the Recipe: Banana Infused Rum. Beware of Spriggen!|
-A Equipment Locker|QID|31410|M|42.29,91.98|N|West of Unga Ingoo is a pirate ship, that may contain an Equipment Locker (in the lowest level hold) with a pair of spec specific ilvl 419 boots.|
-K Unga Fish Getter|L|80827|M|45.31,85.17|N|Be sure and loot these at least until you get the item to start the quest.|
-C Balance|QID|30672|S|M|50.85,84.15|
-A Buried Hozen Treasure|QID|30675|U|80827|M|43.81,85.41|N|From Confusing Treasure Map - looted off of an Unga.|
-A Balance Without Violence|QID|30674|M|45.31,85.17|N|From UI Alert.|
-C Balance Without Violence|S|QID|30674|M|42.68,82.74|N|There are piles of fish, the sparkly ones are the ones you can click on to throw back into the water.|
-T Balance Without Violence|QID|30674|M|42.22,82.87|N|To UI Alert.|
+A Banana Infused Rum|QID|31411|RANK|3|M|53.2,88.7|N|East of Unga Ingoo (at the top of the hill) there may be a barrel that contains the Recipe: Banana Infused Rum. Beware of Spriggen!|
+A Equipment Locker|QID|31410|RANK|3|M|42.29,91.98|N|West of Unga Ingoo is a pirate ship, that may contain an Equipment Locker (in the lowest level hold) with a pair of spec specific ilvl 419 boots.|
+K Unga Fish Getter||AVAILABLE|30675|M|45.31,85.17|N|Be sure and loot these at least until you get the item to start the quest.|
+C Balance|QID|30672|S|M|46.97,83.69|
+A Buried Hozen Treasure|QID|30675|M|PLAYER|N|From Confusing Treasure Map - looted off of an Unga.|
+A Balance Without Violence|QID|30674|M|PLAYER|N|From UI Alert.|
+C Balance Without Violence|QID|30674|M|46.71,84.80|N|There are piles of fish, the sparkly ones are the ones you can click on to throw back into the water.|
+; up to here
+T Balance Without Violence|QID|30674|M|PLAYER|N|To UI Alert.|
 C Buried Hozen Treasure|QID|30675|S|M|51.10,85.27|N|Click on the piles of sand to search for the treasure.|
 C Balance|QID|30672|M|50.85,84.15|
 C Balance Without Violence|US|QID|30674|M|42.68,82.74|N|There are piles of fish, the sparkly ones are the ones you can click on to throw back into the water.|
