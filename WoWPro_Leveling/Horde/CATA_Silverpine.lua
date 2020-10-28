@@ -3,7 +3,7 @@ WoWPro:GuideSort(guide, 40)
 WoWPro:GuideNextGuide(guide, 'AyaHil2025')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 A Warchief's Command: Silverpine Forest!|QID|28568^26964|M|66.07,49.80|Z|Undercity|N|You can pick this quest up any Warchief's Command Board.|
 f Undercity|QID|28568^26964|M|63.37,48.64|Z|Undercity|N|At Michael Garrett in the Trade Quarter.|
 f Forsaken High Command|QID|28568^26964|M|57.87,8.78|N|At Bat Handler Maggotbreath.|

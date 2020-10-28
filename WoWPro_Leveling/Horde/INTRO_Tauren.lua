@@ -6,7 +6,7 @@ WoWPro:GuideName(guide,"Tauren: Intro")
 WoWPro:GuideNextGuide(guide, "Chromie Time")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
 A The First Step|QID|14449|M|27.72,28.28|N|From Chief Hawkwind.|
 T The First Step|QID|14449|M|39.45,37.25|N|To Grull Hawkwind.|
 A Rite of Strength|QID|14452|PRE|14449|M|39.45,37.25|N|From Grull Hawkwind.|

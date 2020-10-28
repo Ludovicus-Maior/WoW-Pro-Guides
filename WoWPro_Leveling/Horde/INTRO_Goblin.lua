@@ -7,7 +7,7 @@ WoWPro:GuideNextGuide(guide, 'Chromie Time')
 WoWPro:GuideRaceSpecific(guide,"Goblin")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
 A Taking Care of Business|QID|14138|M|56.52,77.00|N|From Sassy Hardwrench.|
 T Taking Care of Business|QID|14138|M|60.10,74.66|N|To Foreman Dampwick.|
 A Trouble in the Mines|QID|14075|M|60.10,74.66|N|From Foreman Dampwick.|PRE|14138|

@@ -5,7 +5,7 @@ WoWPro:GuideName(guide,"Krasarang Wilds")
 WoWPro:GuideNextGuide(guide, 'Kun-Lai Summit')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 F Zhu's Watch|QID|30080|M|19, 56|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
 T Ken-Ken|QID|29873|M|60.44,67.77|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|60.44,67.77|N|From Ken-Ken.|

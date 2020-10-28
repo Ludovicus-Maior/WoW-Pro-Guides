@@ -5,7 +5,7 @@ WoWPro:GuideName(guide,"Storm Peaks")
 WoWPro:GuideNextGuide(guide, "Icecrown")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 N Read Please |QID|12853|N|This guide will get you the Achievement The Summit of Storm Peaks. Set your Hearth anywhere you want. Sell/Repair/Restock when you think you need to. You need cold weather flying to do the zone|
 N Dalaran |QID|12853|N|Get here however you want.|
 A Luxurious Getaway! |QID|12853|N|From Ric Duoctane. He's in Cantrips and Crows in the sewers.|M|30.9,50.2|Z|The Underbelly@Dalaran|

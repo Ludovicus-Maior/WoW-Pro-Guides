@@ -5,7 +5,7 @@ WoWPro:GuideName(guide,"Dragonblight")
 WoWPro:GuideNextGuide(guide, "Grizzly Hills")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 A Into the Fold |QID|11978|PRE|11977^11979|M|12.8,48.5|N|From Emissary Brighthoof.|
 A Pride of the Horde |QID|11980|M|14.2,49.8|N|From Blood Guard Roh'kill.|
 C Pride of the Horde |QID|11980|N|Kill Anub'ar Ambushers.|S|M|15.5,51.2|

@@ -3,7 +3,7 @@ WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 R Light's Hope Chapel|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|The questing begins at Light's Hope Chapel in Eastern Plaguelands. Head to there to begin this guide. \n\nYou can also grab hold the breadcrumb Hero's Quest from Ironforge or Stormwind, but this is not necessary for this guide.|
 T Hero's Call: Badlands! |QID|28579|M|73.8,53.1|Z|Eastern Plaguelands|N|To Gek Nozzlerocket|O|
 A Fuselight, Ho!|QID|27762|LEAD|27763|M|73.8,53.1|Z|Eastern Plaguelands|N|From Gek Nozzlerocket.|

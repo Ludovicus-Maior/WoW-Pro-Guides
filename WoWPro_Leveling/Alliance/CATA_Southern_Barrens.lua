@@ -3,7 +3,7 @@ WoWPro:GuideSort(guide, 40)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 R Stonetalon Pass|QID|24862|N|Welcome to the Southern Barrens guide. This guide starts off where Stonetalon Mountains leaves off with the lead-up quest All's Clear. Alternatively, take the Hero's Call: Southern Barrens quest from Darnassus or Exodar. For both, head to Commander Walpole at Stonetalon Pass, and hand in the respective quest.|M|29.89,8.97|
 T All's Clear|QID|25852|O|M|29.85,9.00|N|To Commander Walpole.|
 T Hero's Call: Southern Barrens! |QID|28550|O|M|29.89,8.97|N|To Commander Walpole.|
