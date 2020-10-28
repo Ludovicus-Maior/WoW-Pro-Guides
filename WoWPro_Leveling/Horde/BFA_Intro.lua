@@ -29,9 +29,7 @@ C No Diplomatic Solution|QID|50769|M|39.67,41.04|Z|Stormwind City!Stormwind City
 C Reach Talanji's ship|QID|50769|M|20.59,25.79|Z|Stormwind City!Stormwind City!Instance|SO|9;1|N|Continue on with your buddies, killing those pesky Alliance trying to stop you from reaching Talanji's ship|ACH|14222;;false|
 C Escape Stormwind Harbor|QID|50769|M|20.63,28.92|Z|Stormwind City!Stormwind City!Instance|SO|10;1|CHAT|N|Talk to Talanji on the bridge of her ship.|ACH|14222;;false|
 T The Stormwind Extraction|QID|50769|M|57.96,62.77|Z|Zuldazar|N|To Nathanos Blightcaller.|ACH|14222;;false|
-;2x Catcher steps, in case player abandons the Exiles Reach guide half way, or if the player hearthstones or uses a portal in the Hall of Ancient Paths during the next three steps.
-N Return to the Exiles Reach Guide|QID|60361|M|52.51,88.06|Z|Orgrimmar|N|You need to return to the Exiles Intro guide before you can access Zuldazar.|LEAD|46931|
-R Port of Zandalar |QID|46931|M|58.54,91.32|Z|Orgrimmar|N|Head to the Port of Zandalar, by using the Portal in Orgrimmar Portal Room.|PRE|60361|LEAD|46931|
+
 A Welcome to Zuldazar|QID|46957|M|57.95,62.46|Z|Zuldazar|N|From Princess Talanji|PRE|50769|
 C Welcome to Zuldazar|QID|46957|M|57.94,56.59|Z|Zuldazar|NC|N|Follow Princess Talanji. You will need to stay close, otherwise she will stop running.|
 T Welcome to Zuldazar|QID|46957|M|57.97,56.50|Z|Zuldazar|N|To General Jakra'zet.|
@@ -46,7 +44,7 @@ C Speaker of the Horde|QID|46931|M|57.95,44.31|Z|Zuldazar|QO|3|NC|N|Head back in
 C Speaker of the Horde|QID|46931|M|67.00,71.83|Z|The Great Seal!Dazar'alor|QO|4|NC|N|To the left, head down the stairs to the Hall of Ancient Paths. These will be your portals to the Horde Cities once this quest is complete.|
 C Speaker of the Horde|QID|46931|M|32.22,70.00|Z|The Great Seal!Dazar'alor|QO|5|CS|NC|N|Head back up the stairs, across the corridor, then down the stairs to the Vault of the King.|
 T Speaker of the Horde|QID|46931|M|41.28,66.75|Z|The Great Seal!Dazar'alor|N|Back up the stairs, to Chronicler To'kini.|
-A Area to Explore|QID|47512^47513^47514|M|41.77,69.35|Z|1164|N|Pick which zone you want to adventure in first from Scouting Map.|PRE|46931^52131|
+A Area to Explore|QID|47512^47513^47514|M|41.77,69.35|Z|1164|N|Pick which zone you want to adventure in first from Scouting Map.|PRE|46931|
 t Nazmir|QID|47512|M|41.22,66.75|Z|1164|N|To Princess Talanji.|
 t Vol'dun|QID|47513|M|41.22,66.75|Z|1164|N|To Princess Talanji.|
 t Zuldazar|QID|47514|M|41.22,66.75|Z|1164|N|To Princess Talanji.|
