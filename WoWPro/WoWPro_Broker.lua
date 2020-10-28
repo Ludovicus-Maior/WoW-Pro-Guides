@@ -2408,6 +2408,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
 			if WoWPro.playerrace and WoWPro.playerrace[guideIndex] then
 				local _, myrace = _G.UnitRace("player")
+				if myrace == "Scourge" or myrace == "Forsaken" then
+					myrace = "Undead"
+				end
 				if not WoWPro.SemiMatch(WoWPro.playerrace[guideIndex]:gsub(" ", ""),myrace)   and (stepAction == "A" or stepAction == "T") then
 					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing a " .. WoWPro.playerrace[guideIndex] .. ".")
 					 skip = true

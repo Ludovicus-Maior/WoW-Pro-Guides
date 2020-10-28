@@ -803,7 +803,7 @@ function WoWPro.ParseSteps(steps)
     if WoWPro.Recorder then
         i = 1 -- No extra steps for recorder guides
     end
-    if myrace == "Scourge" then
+    if myrace == "Scourge" or myrace == "Forsaken" then
         myrace = "Undead"
     end
     if WoWPro.DebugLevel > 0 then
