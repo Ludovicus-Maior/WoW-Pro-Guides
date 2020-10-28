@@ -6,7 +6,7 @@ WoWPro:GuideName(guide,"Forsaken: Intro")
 WoWPro:GuideNextGuide(guide, "Chromie Time")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
 A Fresh out of the Grave|QID|24959|M|40.79,78.48|R|Undead|N|From Agatha.|
 T Fresh out of the Grave|QID|24959|M|43.42,79.95|R|Undead|N|To Undertaker Mordo.|
 A The Shadow Grave|QID|28608|PRE|24959|M|43.42,79.95|R|Undead|N|From Undertaker Mordo.|

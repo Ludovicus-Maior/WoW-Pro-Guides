@@ -3,7 +3,7 @@ WoWPro:GuideSort(guide, 50)
 WoWPro:GuideNextGuide(guide, 'JiyTan4550')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 T Warchief's Command: Thousand Needles!|O|QID|28504|LEAD|25478|M|41.86,73.85|Z|Dustwallow Marsh|N|To Nyse in Dustwallow Marsh.|
 A To the Summit|QID|25478|M|41.86,73.85|Z|Dustwallow Marsh|N|From Nyse in Dustwallow Marsh.|
 C To the Summit|QID|25478|M|42.82,72.42|N|Talk to Dyslix Silvergrub and have him send you to Westreach Summit.|

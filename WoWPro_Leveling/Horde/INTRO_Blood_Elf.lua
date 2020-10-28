@@ -7,7 +7,7 @@ WoWPro:GuideName(guide,"Blood Elf: Intro")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
 A Reclaiming Sunstrider Isle|QID|8325|M|60.95,45.22|N|From Magistrix Erona.|
 C Reclaiming Sunstrider Isle|QID|8325|M|51.01,41.96|QO|1|N|Slay Mana Wyrms.|
 T Reclaiming Sunstrider Isle|QID|8325|M|60.90,45.19|N|To Magistrix Erona.|

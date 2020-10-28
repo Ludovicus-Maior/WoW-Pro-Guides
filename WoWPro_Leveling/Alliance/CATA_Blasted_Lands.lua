@@ -3,7 +3,7 @@ WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 T Hero's Call: Blasted Lands!|QID|28673|M|60.11,13.67|Z|Blasted Lands|N|Enter the building and go up one floor to Quartermaster Lungertz.|O|
 T Blasted Lands: The Other Side of the World|QID|28857|M|60.11,13.67|N|To Quartermaster Lungertz.|O|
 R Blasted Lands|QID|28867|M|53.4,33.4|Z|Silithus|N|Click on the portal by the Nethergarde Mage to go to the Blasted Lands.|O|

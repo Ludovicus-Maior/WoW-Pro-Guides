@@ -5,7 +5,7 @@ WoWPro:GuideName(guide,"Shadowmoon Valley")
 WoWPro:GuideNextGuide(guide, 'Gorgrond')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 N Getting to Shadowmoon Valley (Draenor)|QID|34575|N|To get to Shadowmoon Valley (Draenor), you will first need to complete the Assault on the Dark Portal in Tanaan Jungle. Please work through that guide instead.|LEAD|35884|
 N Welcome to Shadowmoon Valley|QID|34575|ACTIVE|34575|S|N|If you want the garrison supply treasures included in this guide, please set your Rank to 3.|
 A Step Three: Prophet!|QID|34575|LEAD|34582|PRE|35884|N|Auto-Accepted|

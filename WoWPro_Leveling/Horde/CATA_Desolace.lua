@@ -3,7 +3,7 @@ WoWPro:GuideSort(guide, 16)
 WoWPro:GuideNextGuide(guide, 'JiyFer3540')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 R Desolace|QID|14184|M|54.7,8.8|N|Run down into Desolace.|
 T Warchief's Command: Desolace!|O|QID|28548|M|54.7,8.8|N|To Furien at Tethris Aran in Desolace.|
 T Nothing Left for You Here|O|QID|26134|M|54.74,8.84|N|To Furien.|

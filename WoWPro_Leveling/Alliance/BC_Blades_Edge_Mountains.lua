@@ -5,7 +5,7 @@ WoWPro:GuideName(guide,"Blade's Edge Mountains")
 WoWPro:GuideNextGuide(guide, "Shadowmoon Valley BC")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 H Shattrath City|QID|9794|N|Hearth to Shattrath City.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock at your repective faction.|
 F Orebor Harborage|QID|9794|N|Fly to Orebor Harborage.|Z|Shattrath City|M|63.79,41.18|
