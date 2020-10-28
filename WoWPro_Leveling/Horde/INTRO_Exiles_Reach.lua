@@ -171,7 +171,7 @@ A One Last Spar|QID|59957|M|52.62,49.47|N|From Bo.|PRE|59956|C|Monk|
 C One Last Spar|QID|59957|M|53.48,49.92|N|Spar with Bo and use Touch of Death on him.|C|Monk|
 T One Last Spar|QID|59957|M|52.17,55.33|N|To Warlord Breka Grimaxe.|C|Monk|
 T Hjalmar's Final Execution|QID|59972|M|52.03,55.45|N|To Grunt Throg.|C|Warrior|
-A To Darkmaul Citadel|QID|59975|M|52.18,55.35|N|From Warlord Breka Grimaxe.|PRE|59947&59948|
+A To Darkmaul Citadel|QID|59975|M|52.18,55.35|N|From Warlord Breka Grimaxe.|PRE|59947&59949|
 A Killclaw the Terrible|QID|56839|M|48.74,54.24|ELITE|N|[color=ff8000]Elite: [/color]From the sign off the road.|LEAD|59985|
 C Killclaw the Terrible|QID|56839|M|46.12,54.81|N|[color=ff8000]Elite: [/color]Killclaw the Terrible slain.|
 T Killclaw the Terrible|QID|56839|M|43.42,51.13|N|At the Treasure Chest.|
@@ -198,9 +198,7 @@ $ Precious Ogre Stash|QID|56088|M|41.78,42.92|N|Loot the treasure chest.|L|16982
 C Like Ogres to the Slaughter|QID|59979|M|46.10,38.50|US|N|Finish killing the Ogres.|
 T Catapult Destruction|QID|59980|M|40.36,32.42|N|To Herbert Gloomburst.|
 T Like Ogres to the Slaughter|QID|59979|M|40.25,32.55|N|To Shuja Grimaxe.|
-C Controlling their Stones|QID|59981|M|39.97,32.40|QO|4<1|NC|N|Click on the Ogre Runestone to disable it.|
-C Controlling their Stones|QID|59981|M|39.76,32.06|QO|4<2|NC|N|Click on the Ogre Runestone to disable it.|
-C Controlling their Stones|QID|59981|M|40.05,31.99|QO|4<3|NC|N|Click on the Ogre Runestone to disable it.|
+C Controlling their Stones|QID|59981|M|39.96,32.12|QO|4|NC|N|Click on the wards to disable the runes holding Warlord Thunderwalker.|
 T Controlling their Stones|QID|59981|M|39.92,32.14|N|To Warlord Mulgrin Thunderwalker.|
 A Dungeon: Darkmaul Citadel|QID|59984|M|39.94,32.15|N|From Warlord Mulgrin Thunderwalker.|PRE|59981|
 C Dungeon: Darkmaul Citadel|QID|59984|Z|The Citadel@Dark Citadel!Dungeon|QO|1|N|Use the Group Finder to enter the dungeon, "Darkmaul Citadel". This isn't group, it's basically a Scenerio.|
@@ -261,19 +259,18 @@ A What's Your Specialty?|QID|60357|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlep
 C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|QO|1|CHAT|N|Speak with Gormok Ogrefistto learn about specializations.|C|Warrior|
 C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Warrior|
 T What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|N|To Gormok Ogrefist.|C|Warrior|
-A Home Is Where the Hearth Is|QID|60359|M|71.31,49.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|
+A Home Is Where the Hearth Is|QID|60359|M|PLAYER|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|
 h The Wyvern's Tail|QID|60359|M|71.31,49.96|Z|Orgrimmar|QO|1|N|Make The Wyvern's Tail your home at Innkeeper Nufa.|
 T Home Is Where the Hearth Is|QID|60359|M|71.31,49.96|Z|Orgrimmar|N|To Innkeeper Nufa.|
 A An Urgent Meeting|QID|60360|M|70.86,49.53|Z|Orgrimmar|N|From Shuja Grimaxe.|PRE|60359|
-C An Urgent Meeting|QID|60360|M|71.50,49.55|Z|Orgrimmar|QO|1|N|Speak with Cork Fizzlepop. Optional step, right click the guide step to manually skip it.|CHAT|
 R Grommash Hold|QID|60360|M|49.90,75.62|Z|Orgrimmar|N|Head to Grommash Hold. The entrance to Grommash Hold is on the south side of the building.|ACTIVE|60360|
 R Grommash Hold|QID|60360|M|48.26,71.38|Z|Orgrimmar|QO|2|N|Head inside Grommash Hold.|
 T An Urgent Meeting|QID|60360|M|48.26,71.38|Z|Orgrimmar|N|To Warlord Breka Grimaxe.|
-A Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|N|From Warlord Breka Grimaxe.|PRE|60360|
-C Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|QO|1|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|NC|
-C Mission Statement|QID|60361|M|48.52,71.20|Z|Orgrimmar|QO|2|CHAT|N|Speak with Nathanos Blightcaller.|
-C Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|QO|3|CHAT|N|Speak with Warlord Breka Grimaxe. Optional step, right click the guide step to manually skip it.|
-C Mission Statement|QID|60361|M|51.25,77.10|Z|Orgrimmar|QO|4|N|Head outside then mount the Sturdy Wyvern for a ride to Princess Talanji's boat.|V|
-T Mission Statement|QID|60361|M|57.96,62.76|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|N|From Warlord Breka Grimaxe.|PRE|60360|
+C Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|QO|1|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|NC|
+C Battle for Azeroth: Mission Statement|QID|60361|M|48.52,71.20|Z|Orgrimmar|QO|2|CHAT|N|Speak with Nathanos Blightcaller.|
+C Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|QO|3|CHAT|N|Speak with Warlord Breka Grimaxe. Optional step, right click the guide step to manually skip it.|
+C Battle for Azeroth: Mission Statement|QID|60361|M|51.25,77.10|Z|Orgrimmar|QO|4|N|Head outside then mount the Sturdy Wyvern for a ride to Princess Talanji's boat.|V|
+T Battle for Azeroth: Mission Statement|QID|60361|M|57.96,62.76|Z|Zuldazar|N|To Nathanos Blightcaller.|
 ]]
 end)
