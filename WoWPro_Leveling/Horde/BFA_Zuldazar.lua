@@ -23,15 +23,15 @@ T Trust of a King|QID|49615|M|49.94,46.64|Z|Dazar'alor|N|To King Rastakhan.|
 A Tal'gurub|QID|49488|M|49.94,46.64|Z|Dazar'alor|N|From King Rastakhan.|PRE|49615|
 A The Port of Zandalar|QID|50835|M|49.82,46.55|Z|Dazar'alor|N|From Zolani.|LEAD|46926|PRE|47514|
 A The Zanchuli Council|QID|47445|M|49.72,46.51|Z|Dazar'alor|N|From Yazma.|PRE|47514|
-F Port of Zandalar|ACTIVE|50835|M|51.89,41.21|N|at Paku'ai Rokota who can be found by heading back down the elevator, on the level with Talanji, the scouting map, etc.|TZ|Grand Bazaar|
+F Port of Zandalar|ACTIVE|50835|M|51.94,41.22|Z|Dazar'alor|N|Head back down the elevator, then head outside to find Flight Master Paku'ai Rokota.|TZ|Grand Bazaar|
 T The Port of Zandalar|QID|50835|M|50.05,85.09|Z|Dazar'alor|N|To Zolani.|
 A Shakedown|QID|46926|M|50.05,85.09|Z|Dazar'alor|N|From Zolani.|PRE|47514|
 A The Word of Zul|QID|46846|M|50.05,84.76|Z|Dazar'alor|N|From Yazma.|PRE|47514|
-C Shakedown|QID|46926|M|56.71,93.51|Z|Dazar'alor|S|N|Kill Dockside Thugs as you go. They can be found on both levels.|
+C Shakedown|QID|46926|M|56.71,93.51|Z|Dazar'alor|S|N|Kill Amani Thugs, Gurubashi Thugs, Sandfury Thugs. You will not be able to kill Skullsplitter Thugs.|
 C The Word of Zul|QID|46846|M|45.30,79.79|Z|Dazar'alor|QO|3|CHAT|N|Show Dockmaster Cobo the message|
 A The Red Market|QID|48452|M|44.25,82.15|Z|Dazar'alor|N|From Witch Doctor Jala.|
 C The Red Market|QID|48452|M|43.11,83.33|Z|Dazar'alor|S|QO|1|N|Kill the cultists to collect the Dark Fetishes.|
-C The Red Market|QID|48452|M|42.50,78.25;43.10,83.16|CS|Z|Dazar'alor|QO|2|NC|N|Chalice of Calling destroyed|
+C The Red Market|QID|48452|M|42.50,78.25;43.10,83.16|CS|Z|Dazar'alor|QO|2|NC|N|Head down the stairs of The Old Seawall, and destroy Chalice of Calling under the stairs|
 C The Red Market|QID|48452|M|43.11,83.33|Z|Dazar'alor|US|QO|1|N|Finish collecting Dark Fetishes.|
 T The Red Market|QID|48452|M|44.25,82.15|Z|Dazar'alor|N|To Witch Doctor Jala.|
 A Evidence of Evil|QID|48454|M|44.25,82.15|Z|Dazar'alor|N|From Witch Doctor Jala.|PRE|48452|
@@ -43,16 +43,17 @@ C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|1|CHAT|N|Speak with Toki.|
 C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|2|NC|N|Guide Loh to the First Goal.|
 C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|3|NC|N|Guide Loh Through All the Points Without Crossing His Own Path.|
 T Make Loh Go|QID|52472|M|56.57,91.69|Z|Dazar'alor|N|To UI Alert.|
-K Da White Shark|QID|50948|QO|1|M|59.36,88.80|Z|Dazar'alor|N|Stand here (landing at top of the stairs) and irritate the Da White Shark until she attacks you. After she is dead, you can loot her treasure.|T|Da White Shark|
+K Da White Shark|QID|50948|QO|1|M|59.36,88.80|Z|Dazar'alor|N|Head to the top of the stairs and stand next to Da White Shark until she attacks you. After she is dead, you can loot her treasure.|T|Da White Shark|
 $ Da White Shark's Bounty|QID|50947|M|59.36,88.80|Z|Dazar'alor|N|After you kill Da White Shark, her treasure appears. Loot for azerite power and resources.|RANK|2|
-C The Word of Zul|QID|46846|M|51.53,91.14|Z|Dazar'alor|QO|1|N|Show Nokali the message, he is on the upper level.|
-C The Scamps|QID|48404|M|53.16,88.49|Z|Dazar'alor|QO|1|NC|N|Click on the Street Scamps as they run by to stop them. They can be found on both levels.|T|Street Scamp|
+C The Word of Zul|QID|46846|M|51.53,91.14|Z|Dazar'alor|CHAT|QO|1|N|Show Nokali the message, he is on the upper level.|
+C The Scamps|QID|48404|US|M|53.16,88.49|Z|Dazar'alor|QO|1|NC|N|Click on the Street Scamps as they run by to stop them. They can be found on both levels. If the disappear in front of you, wait a couple seconds as they will respawn and run back to the same place.|T|Street Scamp|
 T The Scamps|QID|48404|M|55.96,88.84|Z|Dazar'alor|N|To Scrollsage Rooka.|
 A Mista Nice|QID|48405|M|55.96,88.84|Z|Dazar'alor|N|From Scrollsage Rooka.|RANK|2|PRE|48404|
-C Orphan Toe|QID|48405|M|58.78,90.53;57.20,87.88|Z|Dazar'alor|CS|QO|1|CHAT|N|After talking to Orphan Toe, follow him up the stairs and into The Scamp Nest.|
+C Mista Nice|QID|48405|M|58.78,90.53;57.20,87.88|Z|Dazar'alor|CS|NC|N|Speak to Scrollsage Rooka and ask him for a disguise.|BUFF|250337^250284|
+C Mista Nice|QID|48405|M|58.78,90.53;57.20,87.88|Z|Dazar'alor|CS|QO|1|CHAT|N|Head up the stairs, and talk to Orphan Toe. Then follow him to The Scamp Nest. Don't mount up during quest, if you lose the buff, go back to Rooka and ask him for a disguise.|
 C Mista Nice|QID|48405|M|57.22,87.39|Z|Dazar'alor|QO|2|N|Kill Mista Nice.|
-T Mista Nice|QID|48405|M|55.90,88.79|Z|Dazar'alor|N|To Scrollsage Rooka.|
-C Shakedown|QID|46926|M|56.71,93.51|Z|Dazar'alor|US|N|Finish your quota of Dockside Thugs.|
+T Mista Nice|QID|48405|M|55.90,88.79|Z|Dazar'alor|N|To Scrollsage Rooka, on the next level down.|
+C Shakedown|QID|46926|M|56.71,93.51|Z|Dazar'alor|US|N|Finish your quota of Thugs.|
 T Evidence of Evil|QID|48454|M|50.05,85.03|Z|Dazar'alor|N|To Zolani.|
 T Shakedown|QID|46926|M|50.05,85.03|Z|Dazar'alor|N|To Zolani.|
 A Deterrent|QID|46929|M|50.05,85.03|Z|Dazar'alor|N|From Zolani.|PRE|46926|
@@ -60,17 +61,23 @@ T The Word of Zul|QID|46846|M|50.06,84.72|Z|Dazar'alor|N|To Yazma.|
 A Punishment of Tal'farrak|QID|46928|M|50.06,84.72|Z|Dazar'alor|N|From Yazma.|PRE|46926|
 A Punishment of Tal'aman|QID|46927|M|50.06,84.72|Z|Dazar'alor|N|From Yazma.|PRE|46846|
 R Terrace of the Speakers|ACTIVE|46929|M|50.07,78.94|Z|Dazar'alor|N|Run up the stairs to find the Amani and Sandfury mobs.|
-C Deterrent|QID|46929|M|56.17,81.12|Z|Dazar'alor|S|N|Collect heads from the Amani on this side and the Sandfury on the other side of the Terrace as you do the other objectives.|
+C Deterrent|QID|46929|M|56.17,81.12|Z|Dazar'alor|QO|1|S|N|Kill and loot the heads from the Amani mobs.|
 K Kul'krazahn|QID|48333|M|54.93,82.67|Z|Dazar'alor|RARE|ITEM|160947|QO|1|T|Kul'krazahn|N|Silver Elite to kill and loot for azerite power and resources.|RANK|2|
-C Punishment of Tal'aman|QID|46927|M|56.18,87.47|Z|Dazar'alor|N|Click the gong to activate each Disciple.|
+C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<1|Z|Dazar'alor|N|Click the gong to release the Disciple of Akil'zon, then kill him.|
+C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<2|Z|Dazar'alor|N|Click the gong to release the Disciple of Halazzi, then kill him.|
+C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<3|Z|Dazar'alor|N|Click the gong to release the Disciple of Jan'alai, then kill him.|
+C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<4|Z|Dazar'alor|N|Click the gong to release the Disciple of Nalorakk, then kill him.|
+C Deterrent|QID|46929|M|50.00,78.00|Z|Dazar'alor|QO|1|S|N|Finish killing and looting the heads from the Amani mobs.|
+C Deterrent|QID|46929|M|56.17,81.12|Z|Dazar'alor|QO|2|S|N|Kill and loot the heads from the Sandfury mobs.|
 C Punishment of Tal'farrak|QID|46928|M|46.61,73.92|Z|Dazar'alor|N|Click the Ancient Gong to summon Gahz'ragon. Kill and loot his tongues.|
-C Deterrent|QID|46929|M|46.80,79.42|Z|Dazar'alor|US|N|Finish collecting the Sandfury Heads.|
+C Deterrent|QID|46929|M|46.66,77.75|Z|Dazar'alor|QO|2|US|N|Finish killing and looting the heads from the Sandfury mobs.|
 T Punishment of Tal'aman|QID|46927|M|50.02,84.76|Z|Dazar'alor|N|To Yazma.|
 T Punishment of Tal'farrak|QID|46928|M|50.10,84.78|Z|Dazar'alor|N|To Yazma.|
 T Deterrent|QID|46929|M|50.02,85.13|Z|Dazar'alor|N|To Zolani.|
 A Royal Report|QID|50881|M|50.02,85.13|Z|Dazar'alor|N|From Zolani.|PRE|46929&46927&46928|
+
 F The Sliver|ACTIVE|47445|M|52.09,90.13|Z|Dazar'alor|N|At Ripa.|TAXI|The Sliver|
-H The Great Seal|ACTIVE|47445|M|50.02,85.13|Z|Dazar'alor|N|Back up, so you can run back down..., but it really does save some time.|TAXI|-The Sliver|
+H The Great Seal|ACTIVE|47445|M|52.08,90.09|Z|Dazar'alor|N|Hearthstone back to The Great Seal, or use the flight master on the upper level of the Grand Bazaar to go to The Great Seal.|TAXI|-The Sliver|
 R The Sliver|ACTIVE|47445|M|50.99,39.99;50.42,37.00;51.78,36.33;50.14,35.30;52.43,35.18;54.46,37.55;54.66,31.88;58.16,25.67|Z|Dazar'alor|CS|N|Run down many MANY staircases until you arrive in The Sliver|TAXI|-The Sliver|
 $ Cache of Secrets|QID|51338|M|44.47,26.90|Z|Dazar'alor|N|Swim over to the Hall of Golems to recover a treasure.|RANK|2|
 f The Sliver|ACTIVE|47445|M|51.30,22.67;53.20,19.33|CS|Z|Dazar'alor|N|At Zena the Feeder.|
