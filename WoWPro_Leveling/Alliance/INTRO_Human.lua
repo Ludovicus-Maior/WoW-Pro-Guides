@@ -222,7 +222,7 @@ T The Fargodeep Mine|QID|62|M|42.11,65.93|Z|Elwynn Forest|N|To Marshal Dughan.|
 A The Jasperlode Mine|QID|76|M|42.11,65.93|Z|Elwynn Forest|N|From Marshal Dughan.|PRE|62|
 C Collecting Kelp|QID|112|M|50.93,66.47|Z|Elwynn Forest|N|Kill Murlocs until you have 4 Crystal Kelp Fronds.|
 R Jasperlode Mine|ACTIVE|76|M|60.88,59.15|Z|Elwynn Forest|N|Go to the Jasperlode Mine.|
-C The Jasperlode Mine|QID|76|M|61.74,53.91|Z|Elwynn Forest|N|Go into the mine until you get a quest completed message.|NC|
+C The Jasperlode Mine|QID|76|M|37.01,55.60|Z|Elwynn Forest|N|Go into the mine until you get a quest completed message.|NC|
 H Lion's Pride Inn|ACTIVE|112|M|43.77,65.80|Z|Elwynn Forest|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|
 T Collecting Kelp|QID|112|M|43.32,65.70|Z|Elwynn Forest|N|To William Pestle.|
 A The Escape|QID|114|M|43.32,65.70|Z|Elwynn Forest|N|From William Pestle. You will need to wait a few seconds after turning in Collecting Kelp before this quest is available.|PRE|112|
@@ -241,7 +241,7 @@ A Fine Linen Goods|QID|83|M|79.46,68.71|Z|Elwynn Forest|N|From Sara Timberlain.|
 C WANTED: James Clark|QID|26152|M|78.66,67.16|Z|Elwynn Forest|N|Kill James clark and pickup his head and the Gold Pickup Schedule.|T|James Clark|
 A The Collector|QID|123|N|Get this from the Gold Pickup Schedule in your bags.|U|1307|
 A A Bundle of Trouble|QID|5545|M|81.38,66.11|Z|Elwynn Forest|N|From Supervisor Raelen.|
-f Eastvale Logging Camp|ACTIVE|5545|M|81.83,66.56|Z|Elwynn Forest|N|At Goss the Swift.|
+f Eastvale Logging Camp|ACTIVE|5545|M|81.83,66.56|Z|Elwynn Forest|N|At Goss the Swift.|TAXI|-Eastvale Logging Camp|
 T WANTED: James Clark|QID|26152|M|81.86,66.04|Z|Elwynn Forest|N|To Marshal McCree.|
 T The Collector|QID|123|M|81.86,66.04|Z|Elwynn Forest|N|To Marshal McCree.|
 A Manhunt|QID|147|M|81.86,66.04|Z|Elwynn Forest|N|From Marshal McCree.|PRE|123|
@@ -258,7 +258,7 @@ C Protect the Frontier|QID|52|M|82.00,80.50|Z|Elwynn Forest|N|Kill the remaining
 T Protect the Frontier|QID|52|M|73.97,72.18|Z|Elwynn Forest|N|To Guard Thomas.|
 T Bounty on Murlocs|QID|46|M|73.97,72.18|Z|Elwynn Forest|N|To Guard Thomas.|
 T Report to Thomas|QID|71|M|73.97,72.18|Z|Elwynn Forest|N|To Guard Thomas.|
-A Cloth and Leather Armor|QID|59|M|73.97,72.18|Z|Elwynn Forest||From Guard Thomas.|PRE|71|
+A Cloth and Leather Armor|QID|59|M|73.97,72.18|Z|Elwynn Forest|N|From Guard Thomas.|PRE|71|
 C Fine Linen Goods|QID|83|M|71.20,78.86|Z|Elwynn Forest|N|Kill Bandits until you have 6 Linen Scraps.|S|
 C Manhunt|QID|147|M|71.05,80.63|Z|Elwynn Forest|N|Kill Morgan the collector and pick up his ring.|T|Morgan The Collector|
 C Fine Linen Goods|QID|83|M|71.20,78.86|Z|Elwynn Forest|N|Kill Bandits until you have 6 Linen Scraps.|US|
