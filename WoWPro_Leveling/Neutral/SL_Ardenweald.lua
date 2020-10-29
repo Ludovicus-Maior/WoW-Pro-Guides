@@ -61,7 +61,7 @@ K First on the Agenda|QID|60341|QO|1|M|64.72,19.69|Z|Ardenweald!The Shadowlands|
 T First on the Agenda|QID|60341|M|65.04,19.53|Z|Ardenweald!The Shadowlands|N|To Featherlight.|MS|
 A Wildseed Rescue|QID|60778|M|65.04,19.53|Z|Ardenweald!The Shadowlands|N|From Featherlight.|PRE|60341|MS|
 
-;f Starlit Overlook|ACTIVE|60341|M|64.90,20.02|Z|Ardenweald!The Shadowlands|N|At Milon.|MS|?? missing, moved? 
+;f Starlit Overlook|ACTIVE|60341|M|64.90,20.02|Z|Ardenweald!The Shadowlands|N|At Milon.|MS|?? missing, moved?
 C Wildseed Rescue|QID|60778|M|66.59,20.99|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Find Korenth.|MS|
 C Wildseed Rescue|QID|60778|M|67.67,20.59|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak with Korenth.|MS|
 C Wildseed Rescue|QID|60778|M|67.67,20.59|Z|Ardenweald!The Shadowlands|QO|3|CHAT|N|Speak with Featherlight.|MS|
@@ -221,7 +221,7 @@ T Finish What He Started|QID|58022|M|62.61,36.10|Z|Ardenweald!The Shadowlands|N|
 T Burrows Away|QID|58024|M|62.61,36.10|Z|Ardenweald!The Shadowlands|N|To Guardian Kota.|
 
 ; Sidequest Storyline - An Ominous Stone
-A The Grove of Creation|QID|57660|M|62.88,36.22|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|58026|RANK|2| 
+A The Grove of Creation|QID|57660|M|62.88,36.22|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|58026|RANK|2|
 R Crumbled Ridge|ACTIVE|58161|CS|M|64.87,33.77;69.35,37.96|Z|Ardenweald!The Shadowlands|N|You may want to bypass Spirit Glen on your trip.|FLY|SL|
 T Forest Disappearances|QID|58161|M|70.36,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|
 A Cult of Personality|QID|58164|M|70.36,32.59|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|58161|RANK|2|
