@@ -171,7 +171,6 @@ C Ending the Invasion!|QID|26390|M|65.06,48.19|N|Kill Kurtok the Slayer (go arou
 r Repair and Sell Junk|ACTIVE|26390|N|Take this opportunity to sell your junk and repair with the sellers at the Caravan|T|Godric Rothgar|S!US|
 T Ending the Invasion!|QID|26390|M|33.55,53.00|N|To Marshal McBride.|
 A Report to Goldshire|QID|54|M|33.55,53.00|N|From Marshal McBride.|PRE|26390|
-; Add Z|Elwynn Forest| hendo72
 A Report to Goldshire|QID|54|M|48.22,42.03|Z|Elwynn Forest|N|From Marshal McBride in Northshire Valley|PRE|26390|RANK|2|
 A Rest and Relaxation|QID|37112|ACTIVE|54|M|45.42,48.99|Z|Elwynn Forest|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|
 h Lion's Pride Inn|ACTIVE|37112|M|43.77,65.80|Z|Elwynn Forest|N|At Innkeeper Farley.|
