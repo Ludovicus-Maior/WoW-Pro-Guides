@@ -5,7 +5,7 @@
 * Horde Players that select BFA from chromie time guide will no longer get an error and appropriately have the intro guide load.
 * Fixed some punctuation mistakes on the chromie time note on top of every guide.
 * Undead/scourge/forsaken racial quests were not showing up.
-* Quest objectives were listed in reverse order.
+* In certain circumstances, Quest objectives were listed in reverse order.
 * Debuffs wouldn't be scanned in BUFF tags.
 * Icon appearing on Tooltip after hovering over the guidelist.
 * Invalid currency in some guides caused an error, fixed currency and added checks to make sure addon won't throw errors if there is an invalid currencyID.
