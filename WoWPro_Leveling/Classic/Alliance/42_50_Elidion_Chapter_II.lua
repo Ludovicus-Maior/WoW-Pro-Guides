@@ -173,8 +173,8 @@ A Handle With Care|QID|3022|M|52.36,26.90|Z|Tanaris|N|From Curgle Cranklehop.|
 R The Shimmering Flats|ACTIVE|1119|M|75.5,97.75|Z|Thousand Needles|N|Back up to Thousand Needles.|
 T Zanzil's Mixture and a Fool's Stout|QID|1119|M|77.79,77.28|Z|Thousand Needles|N|To Kravel Koalbeard.|
 A Get them Drunk|QID|1120^1121|M|77.79,77.28|Z|Thousand Needles|N|From Kravel Koalbeard. Choose which pitboss you want to get drunk.|PRE|1119|
-T Get the Goblins Drunk|ACTIVE|1121|M|79.89,76.74|Z|Thousand Needles|N|To Goblin Pit Boss.|
-T Get the Gnomes Drunk|ACTIVE|1120|M|77.57,76.94|Z|Thousand Needles|N|To Gnome Pit Boss.|
+T Get the Goblins Drunk|QID|1121|M|79.89,76.74|Z|Thousand Needles|N|To Goblin Pit Boss.|
+T Get the Gnomes Drunk|QID|1120|M|77.57,76.94|Z|Thousand Needles|N|To Gnome Pit Boss.|
 A Report Back to Fizzlebub|QID|1122|M|77.79,77.28|Z|Thousand Needles|N|From Kravel Koalbeard.|PRE|1121^1120|
 R Tanaris|ACTIVE|1122|M|75.5,97.75|Z|Thousand Needles|N|Run south to Tanaris.|
 

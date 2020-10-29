@@ -88,7 +88,7 @@ N Learn Apprentice First Aid |QID|2159|ACTIVE|2159|M|55.29,56.82|P|First Aid;129
 A The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|From Tallonkai Swiftroot, at the very top of the building|
 A Twisted Hatred|QID|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
 
-r Sell and Repair|QID|2159|S|M|59.31,41.09|ACTIVE|2159|N|Sell and Repair with the many vendors of Dolanaar.|
+r Sell and Repair|ACTIVE|2159|S|M|59.31,41.09|ACTIVE|2159|N|Sell and Repair with the many vendors of Dolanaar.|
 
 T Dolanaar Delivery|QID|2159|M|55.70,59.80|N|To the innkeeper.|
 h Dolanaar|QID|928|N|Set your Hearthstone to Dolanaar.|
@@ -128,9 +128,9 @@ C Recipe of the Kaldorei|QID|4161|M|63,63|US|N|Kill spiders until you have 7 Sma
 
 A Seek Redemption!|QID|489|PRE|488|M|56.10,57.73|N|From Syral Bladeleaf|
 A Denalan's Earth|QID|997|M|56.09,57.72|N|From Syral Bladeleaf.|
-C Seek Redemption!|ACTIVE|489|NC|S|L|3418 3|N|Look out for Fel Cones below trees. Green smoke comes out of them.|
+C Seek Redemption!|QID|489|NC|S|L|3418 3|N|Look out for Fel Cones below trees. Green smoke comes out of them.|
 
-r Sell and Repair|QID|4161|S|M|59.31,41.09|ACTIVE|4161|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
+r Sell and Repair|ACTIVE|489|S|M|59.31,41.09|ACTIVE|4161|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
 T Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|To Zarrin.|
 N Cooking|QID|997|RECIPE|6412|S|ACTIVE|997|M|57.18,61.26|U|5482|N|Level your cooking to 10 with the small eggs. You can buy mild spices from Nyoma. Then learn the Kaldorei Spider Kabob recipe. Right click off if you don't want to learn cooking.|
 
@@ -146,15 +146,15 @@ A Rellian Greenspyre|QID|922|PRE|918|M|60.90,68.50|N|From Denalan.|
 T Timberling Sprouts|QID|919|M|60.90,68.50|N|To Denalan.|
 
 C Seek Redemption!|QID|489|NC|US|M|59,56;59,61.25;60.2,62.25|CN|N|Look out for Fel Cones at the base of the bigger trees. Green smoke comes out of them.|
-T Seek Redemption!|ACTIVE|489|M|60.43,56.25|N|To Zenn Foulhoof. If he is a frog, wait up to one minute (another player has just done this quest).|
+T Seek Redemption!|QID|489|M|60.43,56.25|N|To Zenn Foulhoof. If he is a frog, wait up to one minute (another player has just done this quest).|
 
-r Sell and Repair|ACTIVE|2459|M|56.25,59.25|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
+r Sell and Repair|ACTIVE|932|M|56.25,59.25|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
 
 ; Guide displays error: WoWPro: Warning: malformed profession tag [Alchemy;171]
 ;A Elixirs for the Bladeleafs|QID|1581|P|Alchemy;171|M|56.09,57.72|N|Only available for Alchemists with a skill of at least 20. You will not be told when to turn this in. Do it at your own speed and turn it in whenever you can.|
 
-R Twisted Hatred|QID|932|M|53.94,58.13;53.65,55.86;54.65,52.65|CC|N|The cave for this quest is behind the tree building.|
-R Twisted Hatred|QID|932|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.01|CC|N|Inside the cave keep right.|
+R Twisted Hatred|ACTIVE|932|M|53.94,58.13;53.65,55.86;54.65,52.65|CC|N|The cave for this quest is behind the tree building.|
+R Twisted Hatred|ACTIVE|932|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.01|CC|N|Inside the cave keep right.|
 C Twisted Hatred|QID|932|M|55,53|N|Kill and loot Lord Melenas. He spawns in two places, either on the ledge, or in the cavern south-west. He is level 8 and hits very hard for his level. If you're a caster, pull him from max range and use Severed Voodoo Claw on him. It will reduce his damage a little. He usually has two adds and will transform into a cat during the fight. As long as you manage to loot him, it doesn't matter if the adds will kill you.|T|Lord Melenas|
 
 N Hearth or Grind|ACTIVE|2459|N|By this time, most of the things you've killed to get in here have respawned. You can either use your hearthstone or you can grind your way back to Dolanaar.\nDepending upon bag space, I recommend grinding for the much needed exp.|

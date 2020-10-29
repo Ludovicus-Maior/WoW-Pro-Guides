@@ -3,7 +3,7 @@ WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideName(guide, 'WOD: Dark Portal Intro')
 WoWPro:GuideNickname(guide, "WOD: Dark Portal Intro")
-WoWPro:GuideNextGuide(guide, 'Shadowmoon Valley|Frostfire Ridge')
+WoWPro:GuideNextGuide(guide, 'Shadowmoon Valley WOD|Frostfire Ridge')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
