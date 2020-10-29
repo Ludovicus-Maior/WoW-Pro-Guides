@@ -29,8 +29,8 @@ N Coarse Grinding Stone|QID|1640002665|P|Blacksmithing;164;0+90;1|N|2;Coarse Sto
 
 ; What to Craft 091 to 155 Vanilla
 
-N Runed Copper Belt|QID|1640002666|P|Blacksmithing;164;0+105;1|N|10;Copper Bar;150;150|
-N Rough Bronze Leggings|QID|1640002668|P|Blacksmithing;164;0+115;1|N|6;Bronze Bar;60;115|
+N Runed Copper Belt|QID|1640002666|P|Blacksmithing;164;0+105;1|RECIPE|2666|N|10;Copper Bar;150;150|
+N Rough Bronze Leggings|QID|1640002668|P|Blacksmithing;164;0+115;1|RECIPE|2668|N|6;Bronze Bar;60;115|
 ; N Learn Expert Blacksmithing|QID|901640012|P|Blacksmithing;164;*;0;225|N|Visit your Trainer in any major city.  Requires Level 20.|
 N Rough Bronze Shoulders|QID|1640003328|P|Blacksmithing;164;0+125;1|N|5;Bronze Bar;50;75:1;Coarse Grinding Stone;10;15:\nStop at 125, you'll make more from 140-145|
 N Heavy Grinding Stone|QID|1640003337|P|Blacksmithing;164;0+140;1|N|3;Heavy Stone;105;105:\nMake all you have and keep, don't worry if you hit 145 or 150 with this.|
