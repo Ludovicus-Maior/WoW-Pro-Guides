@@ -75,12 +75,23 @@ R Chamber of Heart|ACTIVE|56377|M|43.21,44.49|Z|Silithus|N|Run into the Chamber 
 C Forging Onward|QID|56377|M|50.20,64.04|Z|Chamber of Heart!Dungeon1473|NC|N|Hear Magni's plan.|
 T Forging Onward|QID|56377|M|50.09,59.18|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A It's Never Easy|QID|56536|M|50.09,59.18|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|
-R Kun-Lai Summit|ACTIVE|56536|M|59.75,39.01|Z|Kun-Lai Summit|N|Get to Kun-Lai Summit to meet with Magni.|
+P Silithus|ACTIVE|56536|M|50.17,30.42|Z|Chamber of Heart!Dungeon1473|TZ|Magni's Encampment|N|Travel by method of choice to Pandaria.|
+P Boralus|ACTIVE|56536|M|41.48,44.86|Z|Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|FACTION|Alliance|
+P Stormwind City|ACTIVE|56536|M|70.10,16.78|Z|Boralus|NC|N|Take the Portal to Stormwind.|FACTION|Alliance|
+P The Jade Forest|ACTIVE|56536|M|45.72,87.13|Z|Stormwind City|NC|N|Take the Portal to The Jade Forest.|FACTION|Alliance|
+F Temple of the White Tiger|ACTIVE|56536|M|46.04,85.13|Z|The Jade Forest|NC|N|To Wing Kyo.|FACTION|Alliance|
+P The Great Seal|ACTIVE|56536|M|41.48,44.86|Z|Silithus|NC|N|Take the Portal to Zuldazar.|FACTION|Horde|
+P Orgrimmar|ACTIVE|56536|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take the Portal to Orgrimmar.|FACTION|Horde|
+P The Jade Forest|ACTIVE|56536|M|57.45,92.29|Z|Orgrimmar|NC|N|Take the Portal to The Jade Forest.|FACTION|Horde|
+F Temple of the White Tiger|ACTIVE|56536|M|28.06,15.67|Z|The Jade Forest|NC|N|To Wing Hya.|FACTION|Horde|
+R Mogu'shan Terrace|ACTIVE|56536|M|59.75,39.01|Z|Kun-Lai Summit|N|Get to Kun-Lai Summit to meet with Magni.|
 C It's Never Easy|QID|56536|M|59.75,39.01|Z|Kun-Lai Summit|NC|QO|1|N|Meet with Magni.|
 C It's Never Easy|QID|56536|M|59.61,39.19|Z|Kun-Lai Summit|CHAT|QO|2|N|Speak to the Mogu Warrior.|
 C It's Never Easy|QID|56536|M|59.67,38.92|Z|Kun-Lai Summit|QO|3|N|Mantid ambush defeated|
 T It's Never Easy|QID|56536|M|59.82,39.05|Z|Kun-Lai Summit|N|To Magni Bronzebeard.|
 A The Mysterious Sigil|QID|56537|M|59.62,39.18|Z|Kun-Lai Summit|N|From Mogu Warrior.|PRE|56536|
+F Shrine of Two Moons|ACTIVE|56537|M|66.31,50.67|Z|Kun-Lai Summit|N|At Big Greenfeather.|FACTION|Horde|
+F Shrine of Seven Stars|ACTIVE|56537|M|66.31,50.67|Z|Kun-Lai Summit|N|At Big Greenfeather.|FACTION|Alliance|
 T The Mysterious Sigil|QID|56537|M|83.80,27.15|Z|1530|N|To Lorewalker Cho, above Mogu'Shan Palace in Vale of Eternal Blossoms.|
 A Clans of the Mogu|QID|56538|M|83.80,27.15|Z|1530|N|From Lorewalker Cho.|PRE|56537|
 C Clans of the Mogu|QID|56538|M|83.69,27.97|Z|1530|QO|1|NC|N|Read "The Serpent Masters" on the table.|
