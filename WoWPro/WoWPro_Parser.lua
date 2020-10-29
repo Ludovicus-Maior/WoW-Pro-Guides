@@ -1052,7 +1052,7 @@ function WoWPro.SetupGuideReal()
     for i=1, WoWPro.stepcount do
         local action = WoWPro.action[i]
         if (action == ";") or (action == '!') then
-            WoWPro.why[i] = action .. " step completed by WoWPro.SetupGuideReal() as processed by default."
+            WoWPro.why[i] = action .. action .. " step completed by default."
             WoWProCharDB.Guide[GID].completion[i] = WoWPro.why[i]
         end
         local nocache = WoWPro.nocache[i] or guide_nocache
