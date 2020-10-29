@@ -244,7 +244,7 @@ b Zeppalin|ACTIVE|589|M|31.6,29.4|N|Head off to your choice of Undercity or Orgr
 H The Salty Sailor Tavern|QID|621|N|Booty Bay. Run there if your hearth isn't up yet .|M|29.52,72.53|
 
 A Zanzil's Secret|QID|621|M|27.1,77.2|N|From Crank Fizzlebub.|
-T Venture Company Mining|ACTIVE|600|N|This this quest in on the first floor of the inn.|M|27.1,77.2|
+T Venture Company Mining|QID|600|N|This this quest in on the first floor of the inn.|M|27.1,77.2|
 T Skullsplitter Tusks|QID|209|N|This this in on the top floor of the inn.|
 A Voodoo Dues|QID|609|PRE|607|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
 T Excelsior|QID|628|N|Use the top floor exit of the inn and head for the leather working shop to turn this in.|M|28.3,77.6|
