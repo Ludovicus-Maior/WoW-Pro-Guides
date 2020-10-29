@@ -4,7 +4,7 @@
 ## Notes: World Achievements guides created by the WoW-Pro Community
 ## Author: Twists
 ## Dependencies: WoWPro
-## Version: 9.0.1-A3
+## Version: 9.0.1-A4
 #classic ## Version: 1.13.5-C2
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
