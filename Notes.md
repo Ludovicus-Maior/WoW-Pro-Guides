@@ -1,3 +1,21 @@
+# Release A4/C4
+### Bug Fixes:
+* Vale of Eternal Blossoms and Uldum will no longer register as level 50 zone.
+* Alliance Players that Level WoD will now properly have Shadowmoon guide load after Dark Portal event.
+* Horde Players that select BFA from chromie time guide will no longer get an error and appropriately have the intro guide load.
+* Fixed some punctuation mistakes on the chromie time note on top of every guide.
+* Undead/scourge/forsaken racial quests were not showing up.
+* In certain circumstances, Quest objectives were listed in reverse order.
+* Debuffs wouldn't be scanned in BUFF tags.
+* Icon appearing on Tooltip after hovering over the guidelist.
+* Invalid currency in some guides caused an error, fixed currency and added checks to make sure addon won't throw errors if there is an invalid currencyID.
+* Notes will appear for the "It's Chromie Time!" messages to better communicate its purpose and instructions.
+
+### Guide Updates:
+* Horde: SL Guides, Zuldazar, War Campaign, BFA Intro, Exiles Reach, Orc Intro, Orc/Troll Part 2
+* Alliance: SL Guides, Exiles Reach, Human Intro, Krasarang Wilds, Hellfire Peninsula, Nagrand, Blades Edge
+* Profession: Blacksmithing, Leatherworking
+
 # Release A3/C3
 ### Bug Fixes:
 * Fixed bug that caused guides to endlessly load when in a group with another wowpro user.  
