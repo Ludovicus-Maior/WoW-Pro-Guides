@@ -176,12 +176,10 @@ function WoWPro:CheckPlayerForBuffs(buffs)
     -- Go do buff counts, if needed.
     if bcount then
         if buffies[buff] then
-            if bcount <= buffies[buff] then
-                WoWPro:dbp("CheckPlayerForBuffs(%s): <=%s", buffs, bcount)
-                return bflip and buff
-            end
+            WoWPro:dbp("CheckPlayerForBuffs(%s): <=%s", buffs, bcount)
+            return bflip and (bcount <= buffies[buff])
         else
-            WoWPro:dbp("CheckPlayerForBuffs(%s): Fail <=%s", buffs, bcount)
+            WoWPro:dbp("CheckPlayerForBuffs(%s): Fail <= 0", buffs)
             return false == bflip
         end
     end
