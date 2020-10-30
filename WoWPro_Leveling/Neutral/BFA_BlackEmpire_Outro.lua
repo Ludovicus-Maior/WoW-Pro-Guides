@@ -81,46 +81,46 @@ C It's Never Easy|QID|56536|M|59.61,39.19|Z|Kun-Lai Summit|CHAT|QO|2|N|Speak to 
 C It's Never Easy|QID|56536|M|59.67,38.92|Z|Kun-Lai Summit|QO|3|N|Mantid ambush defeated|
 T It's Never Easy|QID|56536|M|59.82,39.05|Z|Kun-Lai Summit|N|To Magni Bronzebeard.|
 A The Mysterious Sigil|QID|56537|M|59.62,39.18|Z|Kun-Lai Summit|N|From Mogu Warrior.|PRE|56536|
-T The Mysterious Sigil|QID|56537|M|83.80,27.15|Z|1530|N|To Lorewalker Cho, above Mogu'Shan Palace in Vale of Eternal Blossoms.|
-A Clans of the Mogu|QID|56538|M|83.80,27.15|Z|1530|N|From Lorewalker Cho.|PRE|56537|
-C Clans of the Mogu|QID|56538|M|83.69,27.97|Z|1530|QO|1|NC|N|Read "The Serpent Masters" on the table.|
-C Clans of the Mogu|QID|56538|M|83.10,26.96|Z|1530|QO|2|N|Read "Power through Blood" lying on the bookcase.|
-C Clans of the Mogu|QID|56538|M|83.27,28.44|Z|1530|QO|3|NC|N|Read "Will of Stone" lying on the floor against a trunk.|
-C Clans of the Mogu|QID|56538|M|84.27,29.14|Z|1530|QO|4|NC|N|Read "Origins of the Mogu" displayed on a wall shelf.|
-T Clans of the Mogu|QID|56538|M|83.80,27.17|Z|1530|N|To Lorewalker Cho.|
-A Finding the Rajani|QID|56539|M|83.80,27.17|Z|1530|N|From Lorewalker Cho.|PRE|56538|
-C Finding the Rajani|QID|56539|M|34.03,37.39|Z|1530|QO|1|N|Kill Mogu for the Scouting Report|
-T Finding the Rajani|QID|56539|M|83.79,27.17|Z|1530|N|To Lorewalker Cho.|
-A Time-Lost Warriors|QID|56771|M|83.10,27.30|Z|1530|N|From Magni Bronzebeard.|PRE|56539|
-f Mistfall Village|QID|56771|M|38.91,72.75|Z|1530|N|At Ryuxi.|
-C Time-Lost Warriors|QID|56771|M|39.39,75.12|Z|1530|NC|QO|1|N|Find the Rajani, near Mistfall Village.|
-C Time-Lost Warriors|QID|56771|M|44.53,74.46|Z|1530|CHAT|QO|2|N|Chat with Stormspeaker Qian to follow him in instance.|
-C Time-Lost Warriors|QID|56771|M|45.32,74.34|Z|1530|CHAT|QO|3|N|Speak with Ra-Den.|
-T Time-Lost Warriors|QID|56771|M|44.74,73.90|Z|1530|N|To Stormspeaker Qian.|
-A Proof of Tenacity|QID|56540|M|44.74,73.90|Z|1530|N|From Stormspeaker Qian.|
-C Proof of Tenacity|QID|56540|M|44.09,13.75|S!US|Z|1530|N|Complete a Swarm Assault. You should also pick up whatever dailies are available.||
-C Blades of Amber|QID|58760|M|18.72,66.53|S!US|Z|1530|N|Kill Vil'thik Mantid to collect the Amber Blades.|
-C Halting Production|QID|58763|M|18.72,66.53|S!US|Z|1530|NC|N|Click to destroy the yellow globe-like groundspawn 'Amber Vessel'.|
-C Rampaging Destroyers|QID|58758|M|18.72,66.53|S!US|Z|1530|N|Kill Kunchong Destroyers, you probably want help.|
-C The Strongest Among Them|QID|58423|M|51.86,41.36|S!US|Z|1530|N|Kill Rare N'Zoth minions.|;daily
-C Corruption Manifest|QID|58465|M|85.05,39.15|S!US|Z|1530|N|Kill Putrid Ichor.|;daily
-C Torment From Beyond|QID|58466|M|42.54,68.34|S!US|Z|1530|N|Release Ancient Pandaren Spirits|;daily
-C Tomes of Ancient Madness|QID|58461|M|76.92,49.92|S!US|Z|1530|N|Tome of Ancient Madness are dropped by Drowned Zeolots and Tidal Corruptors.|
-C Proof of Tenacity|QID|56540|ACTIVE|56064|M|57.42,39.38|Z|1530|QO|1|N|Entrance to underground vault where Vil'raxx can be found... and killed. Make sure to complete Assault: The Black Empire BEFORE going to kill.|
-C Proof of Tenacity|QID|56540|ACTIVE|57728|M|13.48,55.77|Z|1530|QO|1|N|Kri'vin can be found in front of the Gate of the Setting Sun.|
-T Assault: The Endless Swarm|QID|57728|M|37.22,79.26|Z|1530|N|To Taoshi.|
-T Halting Production|QID|58763|M|37.22,79.26|Z|1530|N|To Taoshi.|
-T Rampaging Destroyers|QID|58758|M|38.44,74.99|Z|1530|N|To Anji Autumnlight.|
-T Blades of Amber|QID|58760|M|43.91,71.75|Z|1530|N|To Forgemaster Han.|
-T The Strongest Among Them|QID|58423|M|44.69,73.97|Z|1530|N|To Stormspeaker Qian.|
-T Proof of Tenacity|QID|56540|M|45.32,74.34|Z|1530|N|To Ra-Den.|
-T Torment From Beyond|QID|58466|M|66.38,40.71|Z|1530|N|To Taran Zhu.|
-T Corruption Manifest|QID|58465|M|66.38,40.71|Z|1530|N|To Taran Zhu.|
-T Assault: The Black Empire|QID|56064|M|83.81,27.19|Z|1530|N|To Lorewalker Cho.|
-T Tomes of Ancient Madness|QID|58461|M|83.81,27.19|Z|1530|N|To Lorewalker Cho.|
+T The Mysterious Sigil|QID|56537|M|83.80,27.15|Z|1527|N|To Lorewalker Cho, above Mogu'Shan Palace in Vale of Eternal Blossoms.|
+A Clans of the Mogu|QID|56538|M|83.80,27.15|Z|1527|N|From Lorewalker Cho.|PRE|56537|
+C Clans of the Mogu|QID|56538|M|83.69,27.97|Z|1527|QO|1|NC|N|Read "The Serpent Masters" on the table.|
+C Clans of the Mogu|QID|56538|M|83.10,26.96|Z|1527|QO|2|N|Read "Power through Blood" lying on the bookcase.|
+C Clans of the Mogu|QID|56538|M|83.27,28.44|Z|1527|QO|3|NC|N|Read "Will of Stone" lying on the floor against a trunk.|
+C Clans of the Mogu|QID|56538|M|84.27,29.14|Z|1527|QO|4|NC|N|Read "Origins of the Mogu" displayed on a wall shelf.|
+T Clans of the Mogu|QID|56538|M|83.80,27.17|Z|1527|N|To Lorewalker Cho.|
+A Finding the Rajani|QID|56539|M|83.80,27.17|Z|1527|N|From Lorewalker Cho.|PRE|56538|
+C Finding the Rajani|QID|56539|M|34.03,37.39|Z|1527|QO|1|N|Kill Mogu for the Scouting Report|
+T Finding the Rajani|QID|56539|M|83.79,27.17|Z|1527|N|To Lorewalker Cho.|
+A Time-Lost Warriors|QID|56771|M|83.10,27.30|Z|1527|N|From Magni Bronzebeard.|PRE|56539|
+f Mistfall Village|QID|56771|M|38.91,72.75|Z|1527|N|At Ryuxi.|
+C Time-Lost Warriors|QID|56771|M|39.39,75.12|Z|1527|NC|QO|1|N|Find the Rajani, near Mistfall Village.|
+C Time-Lost Warriors|QID|56771|M|44.53,74.46|Z|1527|CHAT|QO|2|N|Chat with Stormspeaker Qian to follow him in instance.|
+C Time-Lost Warriors|QID|56771|M|45.32,74.34|Z|1527|CHAT|QO|3|N|Speak with Ra-Den.|
+T Time-Lost Warriors|QID|56771|M|44.74,73.90|Z|1527|N|To Stormspeaker Qian.|
+A Proof of Tenacity|QID|56540|M|44.74,73.90|Z|1527|N|From Stormspeaker Qian.|
+C Proof of Tenacity|QID|56540|M|44.09,13.75|S!US|Z|1527|N|Complete a Swarm Assault. You should also pick up whatever dailies are available.||
+C Blades of Amber|QID|58760|M|18.72,66.53|S!US|Z|1527|N|Kill Vil'thik Mantid to collect the Amber Blades.|
+C Halting Production|QID|58763|M|18.72,66.53|S!US|Z|1527|NC|N|Click to destroy the yellow globe-like groundspawn 'Amber Vessel'.|
+C Rampaging Destroyers|QID|58758|M|18.72,66.53|S!US|Z|1527|N|Kill Kunchong Destroyers, you probably want help.|
+C The Strongest Among Them|QID|58423|M|51.86,41.36|S!US|Z|1527|N|Kill Rare N'Zoth minions.|;daily
+C Corruption Manifest|QID|58465|M|85.05,39.15|S!US|Z|1527|N|Kill Putrid Ichor.|;daily
+C Torment From Beyond|QID|58466|M|42.54,68.34|S!US|Z|1527|N|Release Ancient Pandaren Spirits|;daily
+C Tomes of Ancient Madness|QID|58461|M|76.92,49.92|S!US|Z|1527|N|Tome of Ancient Madness are dropped by Drowned Zeolots and Tidal Corruptors.|
+C Proof of Tenacity|QID|56540|ACTIVE|56064|M|57.42,39.38|Z|1527|QO|1|N|Entrance to underground vault where Vil'raxx can be found... and killed. Make sure to complete Assault: The Black Empire BEFORE going to kill.|
+C Proof of Tenacity|QID|56540|ACTIVE|57728|M|13.48,55.77|Z|1527|QO|1|N|Kri'vin can be found in front of the Gate of the Setting Sun.|
+T Assault: The Endless Swarm|QID|57728|M|37.22,79.26|Z|1527|N|To Taoshi.|
+T Halting Production|QID|58763|M|37.22,79.26|Z|1527|N|To Taoshi.|
+T Rampaging Destroyers|QID|58758|M|38.44,74.99|Z|1527|N|To Anji Autumnlight.|
+T Blades of Amber|QID|58760|M|43.91,71.75|Z|1527|N|To Forgemaster Han.|
+T The Strongest Among Them|QID|58423|M|44.69,73.97|Z|1527|N|To Stormspeaker Qian.|
+T Proof of Tenacity|QID|56540|M|45.32,74.34|Z|1527|N|To Ra-Den.|
+T Torment From Beyond|QID|58466|M|66.38,40.71|Z|1527|N|To Taran Zhu.|
+T Corruption Manifest|QID|58465|M|66.38,40.71|Z|1527|N|To Taran Zhu.|
+T Assault: The Black Empire|QID|56064|M|83.81,27.19|Z|1527|N|To Lorewalker Cho.|
+T Tomes of Ancient Madness|QID|58461|M|83.81,27.19|Z|1527|N|To Lorewalker Cho.|
 ; Thanks Sipder2 @ WhowHead! zone name is incomplete and needs a run-through.
-A The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1530|N|From Ra-Den|PRE|56540|
-R Mogu'shan Palace|ACTIVE|56541|M|80.83,30.76|Z|1530|N|Go to the Mogu'shan Palace to start the instance. It will take about 20 minutes.|
+A The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1527|N|From Ra-Den|PRE|56540|
+R Mogu'shan Palace|ACTIVE|56541|M|80.83,30.76|Z|1527|N|Go to the Mogu'shan Palace to start the instance. It will take about 20 minutes.|
 C A Way Down|ACTIVE|56541|SO|1|M|40.51,59.30|Z|The Crimson Assembly Hall@Mogu'shan Palace!Dungeon|N|Kill 4 Animated Guardians to open the first door and four more to open the second door.\nJump over rows of runed tiles to avoid traps.|
 C Watch Your Step|ACTIVE|56541|SO|2|M|40.30,70.80|Z|The Crimson Assembly Hall@Mogu'shan Palace!Dungeon|N|Make your way to the Ancient Lever. The runes form a maze. When you step on one, the next step will be one without a visual effect. You may have to backtrack.|
 C A Weighty Problem|ACTIVE|56541|SO|3|M|48.71,74.88|Z|Vaults of Kings Past@Mogu'shan Palace!Dungeon|N|Take the stairwell down, killing as you go.\nWhen you reach a glowing Mogu statue, you need to move it to the empty concrete block on the floor and then the door will open.|
@@ -130,9 +130,9 @@ C The Hall of the Shapers|ACTIVE|56541|SO|6|M|33.30,50.93|Z|Forge of the Endless
 C The Final Summoning|ACTIVE|56541|SO|7|M|27.88,51.52|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon|N|Defeat Yox'ith. Killing the tentacles around can help.|
 C Reviving the Engine|ACTIVE|56541|SO|8|M|27.04,51.46|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon|N|Click on the console to link the Engine of Nalak'sha to the Chamber of Heart.|
 P Vale of Eternal Blossoms|ACTIVE|56541|M|14.52,51.34|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon|N|Take the portal to the start of the instance and then exit.|
-T The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1530|N|To Ra-Den|
-A Restored Hope|QID|56542|M|45.14,74.43|Z|1530|N|From Ra-Den|PRE|56541|
-C Chamber of Heart|QID|56542|QO|1|M|45.14,74.43|Z|1530|CHAT|N|Ask Ra-Den for transport to the Chamber of Heart.|
+T The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1527|N|To Ra-Den|
+A Restored Hope|QID|56542|M|45.14,74.43|Z|1527|N|From Ra-Den|PRE|56541|
+C Chamber of Heart|QID|56542|QO|1|M|45.14,74.43|Z|1527|CHAT|N|Ask Ra-Den for transport to the Chamber of Heart.|
 T Restored Hope|QID|56542|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A Magni's Findings|QID|58737|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|56542|
 C Findings|QID|58737|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|CHAT|N|Ask Magni what he found out.|
