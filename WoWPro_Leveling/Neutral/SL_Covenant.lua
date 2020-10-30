@@ -876,46 +876,50 @@ F Oribos|ACTIVE|57121|M|51.39,46.80|Z|Bastion!The Shadowlands|N|Head to the flig
 C The Power of the Maw|QID|57121|M|44.87,51.79|Z|Ring of Transference@Oribos|QO|1|NC|N|Meet with Kleia, and tell her We Jump.|COV|Kyrian|
 C The Power of the Maw|QID|57121|M|44.87,51.79|Z|Ring of Transference@Oribos|QO|2|NC|N|Travel to the Maw.|COV|Kyrian|
 T The Power of the Maw|QID|57121|M|33.71,55.70|Z|The Maw|N|To Kleia.|COV|Kyrian|
-
-; place holder, where I left off playing. Blanc26102020
-
 A A Step Too Far|QID|57122|PRE|57121|M|33.71,55.70|Z|The Maw|N|From Kleia.|COV|Kyrian|
 A Kyrian No More|QID|57123|PRE|57121|M|33.71,55.70|Z|The Maw|N|From Kleia.|COV|Kyrian|
 A Soul Well|QID|59007|PRE|62228|M|31.24,41.72|Z|The Maw|N|From Blazing Stygia.|COV|Kyrian|
-C Kyrian No More|QID|57123|M|30.28,57.15|Z|The Maw|N|Mawsworn forces slain within Perdition Hold.|COV|Kyrian|
+C Kyrian No More|QID|57123|M|30.28,57.15|Z|The Maw|N|Kill Mawsworn forces, within Perdition Hold.|COV|Kyrian|
 C A Step Too Far|QID|57122|M|30.24,63.06|Z|The Maw|NC|N|Captured Forsworn freed.|COV|Kyrian|
-T A Step Too Far|QID|57122|M|30.24,63.06|Z|The Maw|N|To Kleia.|COV|Kyrian|
-T Kyrian No More|QID|57123|M|30.24,63.06|Z|The Maw|N|To Kleia.|COV|Kyrian|
+T A Step Too Far|QID|57122|M|PLAYER|Z|The Maw|N|To Kleia.|COV|Kyrian|
+T Kyrian No More|QID|57123|M|PLAYER|Z|The Maw|N|To Kleia.|COV|Kyrian|
 A Her Will, Inflicted|QID|57124|PRE|57122&57123|M|30.24,63.06|Z|The Maw|N|From Kleia.|COV|Kyrian|
-C Her Will, Inflicted|QID|57124|M|25.05,66.93|Z|The Maw|QO|1|NC|N|Lysonia confronted.|COV|Kyrian|
-C Her Will, Inflicted|QID|57124|M|25.00,67.18|Z|The Maw|QO|2|N|Pride of Lysonia slain.|COV|Kyrian|
-T Her Will, Inflicted|QID|57124|M|25.66,65.29|Z|The Maw|N|To Uther.|COV|Kyrian|
+C Her Will, Inflicted|QID|57124|M|25.05,66.93|Z|The Maw|QO|1|NC|N|Confront Lysonia.|COV|Kyrian|
+C Her Will, Inflicted|QID|57124|M|25.00,67.18|Z|The Maw|QO|2|N|Kill the Pride of Lysonia.|COV|Kyrian|
+T Her Will, Inflicted|QID|57124|M|25.66,65.29|Z|The Maw|N|To Uther, just outside around the corner.|COV|Kyrian|
 A Time to Reflect|QID|57125|PRE|57124|M|25.66,65.29|Z|The Maw|N|From Uther.|COV|Kyrian|
-C Time to Reflect|QID|57125|M|25.66,65.29|Z|The Maw|QO|1|CHAT|N|Speak to Kleia.|COV|Kyrian|
-C Time to Reflect|QID|57125|M|42.39,42.19|Z|The Maw|QO|2|NC|N|Waystone used.|COV|Kyrian|
-P Oribos|ACTIVE|57125|M|42.39,42.19|Z|The Maw|N|Take the portal to Oribos.|COV|Kyrian|
+C Time to Reflect|QID|57125|M|25.66,65.29|Z|The Maw|QO|1|CHAT|N|Speak to Kleia, to Fly to the Waystone.|COV|Kyrian|
+C Oribos|QID|57125|M|42.39,42.19|Z|The Maw|QO|2|NC|N|Use the Waystone to Oribos.|COV|Kyrian|
 P Ring of Transference|ACTIVE|57125|M|51.98,58.39|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Kyrian|
 F Elysian Hold|ACTIVE|57125|M|60.26,68.26|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Time to Reflect|QID|57125|M|55.48,42.49|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A A Touch of Humility|QID|62555|PRE|57125|M|55.48,42.49|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
-C A Touch of Humility|QID|62555|M|45.16,56.85|Z|Archon's Rise@Elysian Hold!Dungeon|NC|N|Crest of Ascension empowered.|COV|Kyrian|
+C A Touch of Humility|QID|62555|M|45.16,56.85|Z|Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Tell Polemarch Adrestes, you are Ready to witness the empowering of the Crest of Ascension.|COV|Kyrian|
 T A Touch of Humility|QID|62555|M|55.27,42.39|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Convene the Paragons|QID|58854|PRE|62555|M|55.27,42.39|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
-C Convene the Paragons|QID|58854|M|56.02,41.27|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|NC|N|Summon the Paragons.|COV|Kyrian|
-C Convene the Paragons|QID|58854|M|58.15,40.37|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2|NC|N|Enter Archon's Rise.|COV|Kyrian|
-C Convene the Paragons|QID|58854|M|60.65,34.16|Z|Archon's Rise@Elysian Hold!Dungeon|QO|3|NC|N|Assault planned.|COV|Kyrian|
+C Convene the Paragons|QID|58854|M|56.02,41.27|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|NC|N|Click on the Echo of Aeons, to Summon the Paragons.|COV|Kyrian|
+C Convene the Paragons|QID|58854|M|58.15,40.37|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2;3|NC|N|Enter Archon's Rise, as the Paragons arrive, to plan an Assualt.|COV|Kyrian|
 T Convene the Paragons|QID|58854|M|55.51,42.47|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Before the Dawn|QID|58844|PRE|58854|M|55.51,42.47|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 F Aspirant's Rest|ACTIVE|58844|M|51.31,48.72|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Aspirant's Rest.|COV|Kyrian|
-C Before the Dawn|QID|58844|M|60.04,73.49|Z|Bastion!The Shadowlands|QO|1|NC|N|Watchers gathered.|COV|Kyrian|
-C Before the Dawn|QID|58844|M|41.25,56.25|Z|Bastion!The Shadowlands|QO|2|NC|N|Bearers gathered.|COV|Kyrian|
-C Before the Dawn|QID|58844|M|51.27,19.11|Z|Bastion!The Shadowlands|QO|3|NC|N|Centurions gathered.|COV|Kyrian|
-P Path of Wisdom|ACTIVE|61520|M|41.72,23.43|Z|Bastion!The Shadowlands|N|Take the portal to Path of Wisdom.|COV|Kyrian|
-C Before the Dawn|QID|58844|M|40.30,20.57|Z|Bastion!The Shadowlands|QO|4|NC|N|Collectors gathered.|COV|Kyrian|
-P The Eonian Archives|ACTIVE|61520|M|40.52,20.97|Z|Bastion!The Shadowlands|N|Take the portal to The Eonian Archives.|COV|Kyrian|
+R Temple of Purity|ACTIVE|58844|M|60.04,73.49|Z|Bastion!The Shadowlands|N|Run to the Temple of Purity.|COV|Kyrian|
+C Before the Dawn|QID|58844|CS|M|60.13,72.73;60.62,72.85;60.69,73.60|Z|Bastion!The Shadowlands|NC|N|Click on the bells, to restore the vespers.|
+C Before the Dawn|QID|58844|M|60.04,73.49|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Talk to Eridia, the Watchers' are needed for Battle.|COV|Kyrian|
+P Xandria's Vigil|ACTIVE|58844|M|48.32,72.83|Z|Bastion!The Shadowlands|N|Take the Gateway to Xandria's Vigil.|COV|Kyrian|
+C Before the Dawn|QID|58844|M|41.25,56.25|Z|Bastion!The Shadowlands|QO|2|NC|N|Talk to Apolon, the Bearers are needed for Battle.|COV|Kyrian|
+R The Eternal Forge|ACTIVE|58844|CC|M|43.64,54.54;44.93,41.45;44.41,30.24;50.43,22.27|Z|Bastion!The Shadowlands|N|Run to The Eternal Forge.|COV|Kyrian|
+C Before the Dawn|QID|58844|M|51.27,19.11|Z|Bastion!The Shadowlands|QO|3|NC|N|To Sika, the Centurions are needed for Battle.|COV|Kyrian|
+R The Eonian Archives|ACTIVE|58844|CC|M|49.64,18.88;47.89,17.28;43.59,20.68|Z|Bastion!The Shadowlands|N|Run to The Eonian Archives.|COV|Kyrian|
+C Before the Dawn|QID|58844|M|40.45,20.46|Z|Bastion!The Shadowlands|CHAT|N|To Pelagos, tell him, You are with him.|COV|Kyrian|
+K Before the Dawn|ACTIVE|58844|M|40.45,20.46|Z|Bastion!The Shadowlands|T|Pelagos Shadeweaver|N|Kill Pelagos Shadeweaver.|COV|Kyrian|
+C Before the Dawn|QID|58844|M|40.30,20.57|Z|Bastion!The Shadowlands|QO|4|NC|N|To Arios Riftbearer, the Collectors are needed for Battle.|COV|Kyrian|
+R Court of Elation|ACTIVE|58844|CC|M|38.48,23.23;34.37,22.54|Z|Bastion!The Shadowlands|N|Run to the Court of Elation.|COV|Kyrian|
 T Before the Dawn|QID|58844|M|31.42,23.43|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|
+
+; place holder, where I left off playing. Blanc29102020
+
 A The Greater Good|QID|58846|PRE|58844|M|31.42,23.43|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|COV|Kyrian|
-C The Greater Good|QID|58846|M|31.42,23.43|Z|Bastion!The Shadowlands|CHAT|N|Speak to Adrestes.|COV|Kyrian|
+C The Greater Good|QID|58846|M|31.42,23.43|Z|Bastion!The Shadowlands|CHAT|N|Tell Polemarch Adrestes, you are ready.|COV|Kyrian|
 C One Small Step|Z|Bastion|SO|1|S|N|Push forward into the Citadel of Loyalty.|COV|Kyrian|
 C Enter the Citadel of Loyalty|M|30.68,23.38|Z|Bastion!The Shadowlands|SO|1;1|N|Enter the Citadel of Loyalty|COV|Kyrian|
 C One Small Step|Z|Bastion|SO|1|US|N|Push forward into the Citadel of Loyalty.|COV|Kyrian|
