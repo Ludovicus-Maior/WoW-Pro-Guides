@@ -4,7 +4,7 @@ WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
-R Westfall |QID|26209|N|Westfall is located west of Elwynn Forest (just follow the road west from Goldshire).\n\nThere are two breadcrumb quests for this region:\n\nFurlbrow's Deed\nThis is a pickup from the floor behind Hogger\n\nHero's Call: Westfall\nThis quest is available from either of the Hero's Callboards in Stormwind City (Dwarven District and Trade District), or from any of these: Deputy Rainer at Westbrook Garrison, Marshall Dughan in Goldshire, Guard Thomas at the eastern Elwynn Bridge, Marshall McCree and Marshall Haggard at Eastvale Logging Camp.|
+R Westfall|QID|26209|N|Westfall is located west of Elwynn Forest (just follow the road west from Goldshire).\n\nThere are two breadcrumb quests for this region:\n\nFurlbrow's Deed\nThis is a pickup from the floor behind Hogger\n\nHero's Call: Westfall\nThis quest is available from either of the Hero's Callboards in Stormwind City (Dwarven District and Trade District), or from any of these: Deputy Rainer at Westbrook Garrison, Marshall Dughan in Goldshire, Guard Thomas at the eastern Elwynn Bridge, Marshall McCree and Marshall Haggard at Eastvale Logging Camp.|
 T Hero's Call: Westfall!|QID|26378|M|60.05,19.40|N|To Lieutenant Horatio Laine.|O|S|
 T Hero's Call: Westfall!|QID|28562|M|60.05,19.40|N|To Lieutenant Horatio Laine.|O|S|
 T Furlbrow's Deed|N|To Lieutenant Horatio Laine.|QID|184|M|60.05,19.40|O|
@@ -16,11 +16,11 @@ T Murder Was The Case That They Gave Me|QID|26209|M|60.10,19.32|N|To Lieutenant 
 A Hot On the Trail: The Riverpaw Clan|QID|26213|M|60.10,19.32|N|From Lieutenant Horatio Laine.|S|PRE|26209|
 A Hot On the Trail: Murlocs|QID|26214|M|60.10,19.32|N|From Lieutenant Horatio Laine.|PRE|26209|
 A Hot On the Trail: The Riverpaw Clan|QID|26213|M|60.10,19.32|N|From Lieutenant Horatio Laine.|US|PRE|26209|
-K Murlocs |QID|26353|RANK|2|N|Kill and loot Murlocs until they drop a Treasure Map.|S|L|1357|
+K Murlocs|QID|26353|RANK|2|N|Kill and loot Murlocs until they drop a Treasure Map.|S|L|1357|
 C Hot On the Trail: Murlocs|QID|26214|S|M|55.98,11.02|N|Kill and loot Murlocs until you have their clue.|
 C Hot On the Trail: The Riverpaw Clan|QID|26213|M|58.75,14.00|N|Kill and loot Riverpaw Gnolls until you have their clue.|
 C Hot On the Trail: Murlocs|QID|26214|US|M|55.98,11.02|N|Kill and loot Murlocs until you have their clue.|
-K Murlocs |QID|26353|RANK|2|N|Kill and loot Murlocs until they drop a Treasure Map.|US|L|1357|
+K Murlocs|QID|26353|RANK|2|N|Kill and loot Murlocs until they drop a Treasure Map.|US|L|1357|
 A Captain Sanders' Hidden Treasure|QID|26353|RANK|2|M|55.98,11.02|N|Accept the quest dropped by the Murlocs|U|1357|
 T Hot On the Trail: The Riverpaw Clan|QID|26213|M|60.10,19.32|N|To Lieutenant Horatio Laine.|S|
 T Hot On the Trail: Murlocs|QID|26214|M|60.10,19.32|N|To Lieutenant Horatio Laine.|
@@ -33,7 +33,7 @@ A "I TAKE Candle!"|QID|26229|PRE|26215|M|49.59,19.60|N|From Jimb "Candles" McHan
 A Feast or Famine|QID|26230|PRE|26215|M|49.52,19.08|N|From Mama Celeste inside the cabin.|RANK|2|
 C Feast or Famine|QID|26230|M|52.83,22.45|N|Kill Coyotes for their tails, and collect fresh dirt from the mounds.|
 C "I TAKE Candle!"|QID|26229|S|M|44.62,25.80|N|Kill Kobold Diggers you find outside and inside Jangalode Mine.|
-R Jangolode Mine |QID|26228|M|44.54,25.17|N|Head to the Jangolode Mine.|ACTIVE|26228|
+R Jangolode Mine|QID|26228|M|44.54,25.17|N|Head to the Jangolode Mine.|ACTIVE|26228|
 C Livin' the Life|QID|26228|NC|U|57761|M|44.54,24.96;46.44,19.31|CS|N|Use Two-Shoed Lou's Old House at the back of the cave.|
 C "I TAKE Candle!"|QID|26229|US|M|44.62,25.80|N|Finish killing Kobold on your way out.|
 T Feast or Famine|QID|26230|M|49.51,19.24|N|To Mama Celeste.|
@@ -48,7 +48,7 @@ A Times are Tough|QID|26237|PRE|26236|M|56.03,31.33|N|From Farmer Saldean.|
 A Westfall Stew|QID|26241|PRE|26236|M|56.35,30.55|N|From Salma Saldean.|
 C Westfall Stew|QID|26241|S|M|56.50,28.46|N|Kill Goretusks, Fleshrippers, and collect Okra from the grounds of the farm.|
 C Times are Tough|QID|26237|M|55.18,36.90|N|Kill Harvest Watchers.|S|
-K Harvest Watcher |QID|26252|N|Kill and loot the Harvest Watchers until they drop the Harvest Watecher Heart.|L|57935|RANK|2|
+K Harvest Watcher|QID|26252|N|Kill and loot the Harvest Watchers until they drop the Harvest Watcher Heart.|L|57935|RANK|2|
 A Heart of the Watcher|QID|26252|PRE|26236|RANK|2|M|55.23,34.87|N|Accept the quest from the Harvest Watcher Heart.|U|57935|
 T Heart of the Watcher|QID|26252|M|56.15,31.40|N|To Farmer Saldean.|
 A It's Alive!|QID|26257|PRE|26252|RANK|2|M|56.15,31.40|N|From Farmer Saldean.|
@@ -64,7 +64,7 @@ T You Have Our Thanks|QID|26270|M|56.37,30.60|N|To Salma Saldean.|
 A Hope for the People|QID|26266|M|56.37,30.60|N|From Salma Saldean.|PRE|26270|
 A CLUCK!|QID|3861|RANK|3|M|56.02,31.28|N|To get this quest, buy one unit of Special Chicken Feed from Farmer Saldean, find a chicken, and repeatedly type /chicken at it until eventually it turns friendly, and offer the quest.|
 T CLUCK!|QID|3861|RANK|3|M|56.02,31.28|N|To Chicken - enjoy your new pet!|
-r Repair and Sell Junk |QID|26266|S|ACTIVE|26266|M|57.70,53.71|N|Take this opportunity to repair and sell your junk with Quartermaster Lewis, who is next to Hope Saldean.|T|QUartermaster Lewis|
+r Repair and Sell Junk|QID|26266|S|ACTIVE|26266|M|57.70,53.71|N|Take this opportunity to repair and sell your junk with Quartermaster Lewis, who is next to Hope Saldean.|T|QUartermaster Lewis|
 T Hope for the People|QID|26266|M|56.88,47.13|N|To Hope Saldean at Sentinel Hill.|
 A Feeding the Hungry and the Hopeless|QID|26271|M|56.88,47.13|N|From Hope Saldean.|PRE|26266|
 A In Defense of Westfall|QID|26286|M|56.35,47.55|N|From Marshal Gryan Stoutmantle.|PRE|26266|
@@ -83,24 +83,24 @@ A Find Agent Kearnen|QID|26289|M|56.44,47.46|N|From Marshal Gryan Stoutmantle.|P
 C Jango Spothide|QID|26288|M|62.28,76.43|N|Kill Jango Spothide as well as the Riverpaw Mystics and Taskmasters.|
 T Find Agent Kearnen|QID|26289|M|68.23,70.43|N|To Agent Kearnen.|
 A Secrets of the Tower|QID|26290|PRE|26289|M|68.23,70.43|N|From Agent Kearnen.|
-C Secrets of the Tower|QID|26290|NC|U|58112|M|70.42,74.22|N|Run past the Level 13 elites (they will agro), and into Mortwake's Tower, there use the Potion of Shrouding (it'll stop the Elites from attacking you). Run up the tower to the top, stand next to Helix Gearbreaker, and wait for Helix's Secret to be revealed.|QO|1|
+C Secrets of the Tower|QID|26290|NC|U|58112|M|70.42,74.22|N|Run past the Level 13 elites (they will aggro), and into Mortwake's Tower, there use the Potion of Shrouding (it'll stop the Elites from attacking you). Run up the tower to the top, stand next to Helix Gearbreaker, and wait for Helix's Secret to be revealed.|QO|1|
 T Secrets of the Tower|QID|26290|M|68.39,70.45|N|Leave the tower, then head back to Agent Kearnen. Don't worry about the elites, if they do start attacking you, keep running, they will turn back when you reach Agent Kearnen.|
 A Big Trouble in Moonbrook|QID|26291|PRE|26290|M|68.39,70.45|N|From Agent Kearnen.|
 T Big Trouble in Moonbrook|QID|26291|M|56.41,47.41|N|To Marshal Gryan Stoutmantle, back at Sentinel Hill.|
 A To Moonbrook!|QID|26292|PRE|26291|M|56.41,47.41|N|From Marshal Gryan Stoutmantle.|
 A The Legend of Captain Grayson|QID|26371|LEAD|26348|M|56.44,47.45|N|From Scout Galiaan.|RANK|2|
 T Jango Spothide|QID|26288|M|56.49,47.50|N|To Captain Danuvin.|
-f Moonbrook |QID|26292|ACTIVE|26292|N|Run to Moonbrook (south-west of Sentinel Hill) and grab the flight-point.|M|42.10,63.30|
+f Moonbrook|QID|26292|ACTIVE|26292|N|Run to Moonbrook (south-west of Sentinel Hill) and grab the flight-point.|M|42.10,63.30|
 T To Moonbrook!|QID|26292|M|42.11,63.99|N|To Captain Alpert in Moonbrook.|
 A Propaganda|QID|26295|PRE|26292|M|42.11,63.99|N|From Captain Alpert.|
 K Moonbrook Thug|AVAILABLE|26296|RANK|2|M|41.50,67.37|N|Kill Moonbrook Thugs until they drop a Red Bandana - the first building on the right usually has a couple in there.|L|58117|
 A Evidence Collection|QID|26296|PRE|26292|RANK|2|M|43.69,67.90|N|Accept the quest from the Red Bandana dropped by the Moonbrook Thugs.|U|58117|
 C Evidence Collection|QID|26296|M|42.58,72.08|N|Kill and loot the Thugs outside the Defias Hideout entrance for the Red Bandana. There are none after the first staircase. Alternatively, drop this quest (you may have inadvertantly started this quest whilst looting a corpse on your way to the Deadmines)|ACTIVE|26320|
 C Evidence Collection|QID|26296|RANK|2|S|M|45.53,70.95|N|Kill thugs and loot their bandanas..|
-C Mysterious Propaganda |QID|26295|M|41.26,66.50|N|The back of the first building on right on entering Moonbrook from the Flight Master.|QO|4|NC|
-C Informational Pamphlet |QID|26295|M|41.59,66.41|N|Behind the Mysterious Propaganda on the broken barrel.|QO|1|NC|
-C Issue of the Moonbrook Times |QID|26295|M|43.27,69.90|N|In the main square next to the broken fountain.|QO|2|NC|
-C Secret Journal |QID|26295|M|43.46,66.57|N|Inside the Inn, top floor, far right hand room at the back.|QO|3|NC|
+C Mysterious Propaganda|QID|26295|M|41.26,66.50|N|The back of the first building on right on entering Moonbrook from the Flight Master.|QO|4|NC|
+C Informational Pamphlet|QID|26295|M|41.59,66.41|N|Behind the Mysterious Propaganda on the broken barrel.|QO|1|NC|
+C Issue of the Moonbrook Times|QID|26295|M|43.27,69.90|N|In the main square next to the broken fountain.|QO|2|NC|
+C Secret Journal|QID|26295|M|43.46,66.57|N|Inside the Inn, top floor, far right hand room at the back.|QO|3|NC|
 C Propaganda|QID|26295|M|41.56,66.42;42.27,69.68;42.57,69.67;43.48,66.72|CN|N|Finish collecting the propaganda.|
 C Evidence Collection|QID|26296|RANK|2|US|M|45.53,70.95|N|Finish killing and looting the Thugs.|
 T Evidence Collection|QID|26296|M|42.16,64.15|N|To Captain Alpert.|S|
