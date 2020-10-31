@@ -291,6 +291,5 @@ A Furlbrow's Deed|QID|184|M|24.78,95.26|Z|Elwynn Forest|N|If you're going to Wes
 C Riverpaw Gnoll Bounty|QID|11|M|25.94,89.52|Z|Elwynn Forest|N|Kill Gnolls and loot their Painted Gnoll Armbands.|US|
 T Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|Z|Elwynn Forest|N|To Deputy Rainer.|
 T WANTED:  "Hogger"|QID|176|M|42.2,65.9|Z|Elwynn Forest|N|To Marshal Dughan.|
-A Hero's Call: Westfall!|QID|26378|M|42.2,65.9|N|If you're going to Westfall next, then grab this quest. From Marshal Dughan.|LEAD|26209|
 ]]
 end)
