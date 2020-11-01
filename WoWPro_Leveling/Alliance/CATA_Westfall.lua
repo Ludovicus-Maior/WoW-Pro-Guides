@@ -101,39 +101,39 @@ C Secret Journal|QID|26295|M|43.46,66.57|QO|3|N|Inside the Inn, top floor, far r
 C Evidence Collection|QID|26296|M|45.53,70.95|N|Finish killing and looting the Thugs.|US|
 T Propaganda|QID|26295|M|42.10,64.13|N|To Captain Alpert.|
 T Evidence Collection|QID|26296|M|42.10,64.13|N|To Captain Alpert.|
-A The Dawning of a New Day|QID|26297|PRE|26295|M|42.10,64.13|N|From Captain Alpert.|
+A The Dawning of a New Day|QID|26297|M|42.10,64.13|N|From Captain Alpert.|PRE|26295|
 C The Dawning of a New Day|QID|26297|M|43.45,69.19|N|Head to the rally point, and listen to the rally call.|NC|
 T The Dawning of a New Day|QID|26297|M|42.18,64.19|N|To Captain Alpert.|
 A Secrets Revealed|QID|26319|PRE|26297|M|42.18,64.19|N|From Captain Alpert.|
 T Secrets Revealed|QID|26319|M|42.98,65.02|N|To Thoralius the Wise.|
 A A Vision of the Past|QID|26320|PRE|26319|M|42.98,65.02|N|From Thoralius the Wise.|
 C A Vision of the Past|QID|26320|M|42.58,72.08;43.35,71.95;42.90,72.67;43.65,72.87;43.90,73.65|CS|N|Enter the Defias Hideout, then follow the path up the stairs, keep going to the big cavern area. Head to the right. Follow the railway tracks until the next big cavern area, keep following tracks to the right. When the tracks go across the wooden bridge, an "instance" entrance can be seen to the right, head for that. Note, this guide will stop showing when you enter the instance. When inside, just click on the Vision of the Past, watch the cinematic, then leave the instance.|U|58147|NC|
-T The Legend of Captain Grayson|QID|26371|M|30.55,85.54|N|To Captain Grayson.|
+T The Legend of Captain Grayson|QID|26371|M|30.55,85.54|N|Exit the Defias Hideout and head southwest to Captain Grayson at the lighthouse.|
 A The Coast Isn't Clear|QID|26348|M|30.55,85.54|N|From Captain Grayson.|RANK|2|PRE|26371|
 A Keeper of the Flame|QID|26347|M|30.55,85.54|N|From Captain Grayson.|RANK|2|PRE|26371|
 A The Coastal Menace|QID|26349|M|30.55,85.54|N|From Captain Grayson.|RANK|2|PRE|26371|
-C The Coast Isn't Clear|QID|26348|M|33.63,84.34|S|N|Kill Murloc Tidehunters and Oracles.|
+C The Coast Isn't Clear|QID|26348|N|Kill Murloc Tidehunters and Oracles.|S|
 C The Coastal Menace|QID|26349|M|34.27,84.81|N|Find, kill and loot Old Murk-Eye.|T|Old Murk-Eye|
 T Captain Sanders' Hidden Treasure|QID|26353|M|25.93,47.76|N|To the Captain's Footlocker.|
-A Captain Sanders' Hidden Treasure|QID|26354|PRE|26353|M|25.93,47.76|N|From the Captain's Footlocker.|
+A Captain Sanders' Hidden Treasure|QID|26354|M|25.93,47.76|N|From the Captain's Footlocker.|PRE|26353|
 C Keeper of the Flame|QID|26347|M|37.79,40.04|N|Kill and loot Chasm Slimes until you get 5 Chasm Oozes.|
 T Captain Sanders' Hidden Treasure|QID|26354|M|40.58,47.79|N|To the Broken Barrel.|
-A Captain Sanders' Hidden Treasure|QID|26355|PRE|26354|M|40.58,47.79|N|From the Broken Barrel.|
-C The Coast Isn't Clear|QID|26348|M|33.63,84.34|US|N|Head back to the lighthouse, and finish killing Murloc Tidehunters and Oracles.|
+A Captain Sanders' Hidden Treasure|QID|26355|M|40.58,47.79|N|From the Broken Barrel.|PRE|26354|
+C The Coast Isn't Clear|QID|26348|M|33.63,84.34|N|Head back to the lighthouse, and finish killing Murloc Tidehunters and Oracles.|US|
 T The Coast Isn't Clear|QID|26348|M|30.53,85.55|N|To Captain Grayson.|
 T Keeper of the Flame|QID|26347|M|30.55,85.49|N|To Captain Grayson.|
 T The Coastal Menace|QID|26349|M|30.53,85.55|N|To Captain Grayson.|
 T Captain Sanders' Hidden Treasure|QID|26355|M|40.65,17.05|N|To the Old Jug. You may want to run to Moonbrook then fly to Furlbrow's Pumpkin Farm. The next two steps will take you way out into the sea at the north-west of Westfall, so you're best holding off using your Hearthstone at this point.|
-A Captain Sanders' Hidden Treasure|QID|26356|PRE|26355|M|40.65,17.05|N|From the Old Jug.|
+A Captain Sanders' Hidden Treasure|QID|26356|M|40.65,17.05|N|From the Old Jug.|PRE|26355|
 T Captain Sanders' Hidden Treasure|QID|26356|M|25.95,16.96|N|Swim across the water to the small isle, and turn the quest into the Locked Chest.|
-H Sentinel Hill|QID|26320|NC|M|56.45,47.57|N|Hearth to, or otherwise head back to Sentinel Hill.|ACTIVE|26320|
-T A Vision of the Past|QID|26320|M|56.27,47.45|N|To Marshal Gryan Stoutmantle.|
-A Rise of the Brotherhood|QID|26322|PRE|26320|M|56.27,47.45|N|From Marshal Gryan Stoutmantle.|
-C Rise of the Brotherhood|QID|26322|NC|M|56.36,47.55|N|Watch the scene.|QO|1|
-F Stormwind|QID|26322|N|Fly to Stormwind City.|ACTIVE|26322|
-T Rise of the Brotherhood|QID|26322|M|85.62,31.92|Z|Stormwind City|N|To Anduin Wrynn.|
-A Return to Sentinel Hill|QID|26370|PRE|26322|M|85.62,31.92|Z|Stormwind City|N|From Anduin Wrynn.|
-T Return to Sentinel Hill|QID|26370|M|56.37,49.57|N|To Marshal Gryan Stoutmantle.|
+H Sentinel Hill|ACTIVE|26320|M|56.45,47.57|N|Hearth to, or otherwise head back to Sentinel Hill.|
+T A Vision of the Past|QID|26320|M|56.32,47.52|N|To Marshal Gryan Stoutmantle.|
+A Rise of the Brotherhood|QID|26322|M|56.32,47.52|N|From Marshal Gryan Stoutmantle.|PRE|26320|
+C Rise of the Brotherhood|QID|26322|M|56.36,47.55|QO|1|N|Watch the scene.|NC|
+F Stormwind|ACTIVE|26322|M|56.64,49.44|TZ|Stormwind City|N|Fly to Stormwind City.|
+T Rise of the Brotherhood|QID|26322|M|85.86,32.79|Z|Stormwind City|N|To Grand Admiral Jes-Tereth.|
+A Return to Sentinel Hill|QID|26370|M|85.86,32.79|Z|Stormwind City|N|From Grand Admiral Jes-Tereth.|PRE|26322|
+T Return to Sentinel Hill|QID|26370|M|56.32,47.52|N|To Marshal Gryan Stoutmantle.|
 A Threat to the Kingdom|QID|26761|M|56.37,49.57|N|If you're continuing your quests in Redridge, this quest from Marshal Gryan Stoutmantle, otherwise this zone guide is now finished.|PRE|26370|
 ]]
 end)
