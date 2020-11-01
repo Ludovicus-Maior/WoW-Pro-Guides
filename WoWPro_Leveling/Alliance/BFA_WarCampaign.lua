@@ -1108,17 +1108,18 @@ T In the Shadow of Crimson Wings|QID|55657|M|54.18,65.96|Z|Chamber of Heart!Dung
 ; Heart of Azeroth questline - Level 65
 
 A Back to the Chamber|QID|56262|M|75.05,14.97|Z|Boralus|N|From Earthen Guardian.|LEAD|55732|LVL|50|
-P Silithus|ACTIVE|55151|M|69.63,15.92|Z|Boralus|TZ|Magni's Encampment|N|Take the portal to Silithus.|
+P Silithus|ACTIVE|56262|M|69.63,15.92|Z|Boralus|TZ|Magni's Encampment|N|Take the portal to Silithus.|
 P Chamber of Heart|ACTIVE|56262|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
 T Back to the Chamber|QID|56262|M|50.12,59.17|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A An Old Scar|QID|55732|M|50.12,59.17|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|LVL|50|
 C An Old Scar|QID|55732|M|48.18,72.28|Z|Chamber of Heart!Dungeon1473|CHAT|QO|1|N|Speak to MOTHER to Travel to the Maelstrom.|
 T An Old Scar|QID|55732|M|33.72,54.58|Z|The Maelstrom - Heart of Azeroth!Instance|N|To Magni Bronzebeard.|
 A Defending the Maelstrom|QID|55735|M|33.72,54.58|Z|The Maelstrom - Heart of Azeroth!Instance|N|From Magni Bronzebeard.|PRE|55732|  ; well it's assumed you'd do the prev quest, but to make Grail happy.
-C Defending the Maelstrom|QID|55735|M|30.80,53.44|Z|The Maelstrom - Heart of Azeroth!Instance|QO|2|N|1/1 Azerite Giant slain|
+C Defending the Maelstrom|QID|55735|M|30.80,53.44|Z|The Maelstrom - Heart of Azeroth!Instance|QO|2|N|Kill the Azerite Giant.|
 C Defending the Maelstrom|QID|55735|M|28.39,29.36|Z|The Maelstrom - Heart of Azeroth!Instance|QO|1|N|Defend the Maelstrom by defeating enemies and healing wounds|
 T Defending the Maelstrom|QID|55735|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth!Instance|N|To Magni Bronzebeard.|
 A At the Azerite Time|QID|55737|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth!Instance|N|From Magni Bronzebeard.|PRE|55735|  ; well it's assumed you'd do the prev quest, but to make Grail happy.
+P Chamber of Heart|ACTIVE|55737|M|43.20,44.54|Z|Silithus|NC|N|Take the waygate to the Chamber of Heart.|
 T At the Azerite Time|QID|55737|M|48.11,72.24|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 
 
