@@ -5,8 +5,6 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 R Westfall|QID|26209|N|Westfall is located west of Elwynn Forest (just follow the road west from Goldshire).\n\nThere are two breadcrumb quests for this region:\n\nFurlbrow's Deed\nThis is a pickup from the floor behind Hogger\n\nHero's Call: Westfall\nThis quest is available from either of the Hero's Callboards in Stormwind City (Dwarven District and Trade District), or from any of these: Deputy Rainer at Westbrook Garrison, Marshall Dughan in Goldshire, Guard Thomas at the eastern Elwynn Bridge, Marshall McCree and Marshall Haggard at Eastvale Logging Camp.|
-T Hero's Call: Westfall!|QID|26378|M|60.05,19.40|N|To Lieutenant Horatio Laine.|
-T Hero's Call: Westfall!|QID|28562|M|60.05,19.40|N|To Lieutenant Horatio Laine.|
 T Furlbrow's Deed|QID|184|M|60.05,19.40|O|N|To Lieutenant Horatio Laine.|
 A Murder Was The Case That They Gave Me|QID|26209|M|60.05,19.40|N|From Lieutenant Horatio Laine.|
 C Murder Was The Case That They Gave Me|QID|26209|M|58.26,18.50|N|Question the Drifters, Transient, and Homeless in the field. Some will fight you, some give information.|CHAT|
@@ -133,7 +131,8 @@ C Rise of the Brotherhood|QID|26322|M|56.36,47.55|QO|1|N|Watch the scene.|NC|
 F Stormwind|ACTIVE|26322|M|56.64,49.44|TZ|Stormwind City|N|Fly to Stormwind City.|
 T Rise of the Brotherhood|QID|26322|M|85.86,32.79|Z|Stormwind City|N|To Grand Admiral Jes-Tereth.|
 A Return to Sentinel Hill|QID|26370|M|85.86,32.79|Z|Stormwind City|N|From Grand Admiral Jes-Tereth.|PRE|26322|
-T Return to Sentinel Hill|QID|26370|M|56.32,47.52|N|To Marshal Gryan Stoutmantle.|
-A Threat to the Kingdom|QID|26761|M|56.37,49.57|N|If you're continuing your quests in Redridge, this quest from Marshal Gryan Stoutmantle, otherwise this zone guide is now finished.|PRE|26370|
+F Sentinel Hill|ACTIVE|26370|M|70.93,72.48|Z|Stormwind City|N|Fly back to Sentinel Hill or use your hearth if you wish.|U|6948|
+T Return to Sentinel Hill|QID|26370|M|56.37,49.63|N|To Marshal Gryan Stoutmantle.|
+A Threat to the Kingdom|QID|26761|M|56.37,49.63|N|If you're continuing your quests in Redridge, this quest from Marshal Gryan Stoutmantle, otherwise this zone guide is now finished.|PRE|26370|O|
 ]]
 end)
