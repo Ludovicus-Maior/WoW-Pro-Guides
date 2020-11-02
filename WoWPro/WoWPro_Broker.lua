@@ -55,8 +55,7 @@ local function QidMapReduce(list, default, or_string, and_string, func, why, deb
         WoWPro:dbp("QidMapReduce(%s): Splitting %s on '%s', do_or=%s, do_and=%s",why,list,split_string, tostring(do_or), tostring(do_and))
     end
     local numList = select("#", split_string:split(list))
-    for i=1,numList do
-        local QID = select(numList-i+1, split_string:split(list))
+    for i, QID in ipairs({split_string:split(list)}) do
         QID = tonumber(QID)
         if not QID then
             WoWPro:Error("Malformed QID [%s] in Guide %s", list, WoWProDB.char.currentguide)
@@ -84,7 +83,6 @@ local function QidMapReduce(list, default, or_string, and_string, func, why, deb
             end
             return val
         end
-
         if do_and and not val then
             if debug then
                 WoWPro:dbp("QidMapReduce(%s): do_and return false", why)
