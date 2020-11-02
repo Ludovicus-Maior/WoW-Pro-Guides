@@ -956,7 +956,7 @@ function WoWPro:RowUpdate(offset)
             if zone then
                 note = note .. "@" ..zone
             end
-        elseif not coord and not WoWPro.Guides[GID].NoCoordsOK then
+        elseif not coord and action and not WoWPro.Guides[GID].NoCoordsOK then
             -- No coordinates, let them know!
             note = note.."\n(No coordinates)"
         end
