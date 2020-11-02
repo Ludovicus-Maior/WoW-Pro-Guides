@@ -480,6 +480,8 @@ C Drust and Ashes|QID|60108|M|58.82,87.12|Z|Ardenweald!Instance1709|QO|1|N|Gorak
 T Drust and Ashes|QID|60108|M|50.62,30.89|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen. Congratulations on finishing the Campaign!|COV|Night Fae|
 
 ;N Kyrian Campaign|QID|99999|M|PLAYER|N|Guide is currently in development.|COV|Kyrian|
+;   Run through by Blanckaert ending 02/Nov/2020
+
 A Among the Kyrian|QID|60491|PRE|57878|M|36.50,64.50|Z|Ring of Fates@Oribos|N|From Polemarch Adrestes.|COV|Kyrian|
 P Ring of Transference|QID|60491|ACTIVE|60491|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Kyrian|
 F Hero's Rest|QID|60491|ACTIVE|60491|M|60.50,68.12|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Hero's Rest.|COV|Kyrian|
@@ -915,51 +917,31 @@ K Before the Dawn|ACTIVE|58844|M|40.45,20.46|Z|Bastion!The Shadowlands|T|Pelagos
 C Before the Dawn|QID|58844|M|40.30,20.57|Z|Bastion!The Shadowlands|QO|4|NC|N|To Arios Riftbearer, the Collectors are needed for Battle.|COV|Kyrian|
 R Court of Elation|ACTIVE|58844|CC|M|38.48,23.23;34.37,22.54|Z|Bastion!The Shadowlands|N|Run to the Court of Elation.|COV|Kyrian|
 T Before the Dawn|QID|58844|M|31.42,23.43|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|
-
-; place holder, where I left off playing. Blanc29102020
-
 A The Greater Good|QID|58846|PRE|58844|M|31.42,23.43|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|COV|Kyrian|
-C The Greater Good|QID|58846|M|31.42,23.43|Z|Bastion!The Shadowlands|CHAT|N|Tell Polemarch Adrestes, you are ready.|COV|Kyrian|
-C One Small Step|Z|Bastion|SO|1|S|N|Push forward into the Citadel of Loyalty.|COV|Kyrian|
-C Enter the Citadel of Loyalty|M|30.68,23.38|Z|Bastion!The Shadowlands|SO|1;1|N|Enter the Citadel of Loyalty|COV|Kyrian|
-C One Small Step|Z|Bastion|SO|1|US|N|Push forward into the Citadel of Loyalty.|COV|Kyrian|
-C No Doubt|Z|Bastion|SO|2|S|N|Clear the Courtyard.|COV|Kyrian|
-C Defeat the Forsworn|M|28.72,22.35|Z|Bastion!The Shadowlands|SO|2;1|N|Defeat the Forsworn|COV|Kyrian|
-C No Doubt|Z|Bastion|SO|2|US|N|Clear the Courtyard.|COV|Kyrian|
-C Dark Machinations|Z|Bastion|SO|3|S|N|Defeat Adonias and Phaedra.|COV|Kyrian|
-C Defeat Adonias and Phaedra|M|28.76,22.59|Z|Bastion!The Shadowlands|SO|3;1|N|Defeat Adonias and Phaedra|COV|Kyrian|
-C Dark Machinations|Z|Bastion|SO|3|US|N|Defeat Adonias and Phaedra.|COV|Kyrian|
-C Attack of Opportunity|Z|Bastion|SO|4|S|N|Push forward to the Truthbringer.|COV|Kyrian|
-C Push forward to the Truthbringer|M|27.02,25.07|Z|Bastion!The Shadowlands|SO|4;1|N|Push forward to the Truthbringer|COV|Kyrian|
-C Attack of Opportunity|Z|Bastion|SO|4|US|N|Push forward to the Truthbringer.|COV|Kyrian|
-C An Old Friend|Z|Bastion|SO|5|S|N|Stop the Forsworn from activating the Truthbringer.|COV|Kyrian|
-C Prevent the Truthbringer from activating|M|27.20,22.83|Z|Bastion!The Shadowlands|SO|5;1|N|Prevent the Truthbringer from activating|COV|Kyrian|
-C An Old Friend|Z|Bastion|SO|5|US|N|Stop the Forsworn from activating the Truthbringer.|COV|Kyrian|
-C Follow the Path|Z|Bastion|SO|6|S|N|Take the gateway to the Temple.|COV|Kyrian|
-C Take the gateway to the Temple|M|24.54,22.78|Z|Bastion!The Shadowlands|SO|6;1|N|Take the gateway to the Temple|
-C Follow the Path|Z|Bastion|SO|6|US|N|Take the gateway to the Temple.|COV|Kyrian|
-C In Darkness' Domain|Z|Bastion|SO|7|S|N|Confront Lysonia.|COV|Kyrian|
-P Citadel of Doubt|ACTIVE|58846|M|24.57,22.78|Z|Bastion!The Shadowlands|N|Take the portal to Citadel of Doubt.|COV|Kyrian|
-C Confront Lysonia|M|21.02,22.86|Z|Bastion!The Shadowlands|SO|7;1|N|Confront Lysonia|COV|Kyrian|
-C In Darkness' Domain|Z|Bastion|SO|7|US|N|Confront Lysonia.|COV|Kyrian|
-C A Clever Ploy|Z|Bastion|SO|8|S|N|Rally to Elysian Hold's defense!|COV|Kyrian|
-C Rally to Elysian Hold|M|66.00,17.28|Z|Bastion!The Shadowlands|SO|8;1|N|Rally to Elysian Hold|COV|Kyrian|
-C A Clever Ploy|Z|Bastion|SO|8|US|N|Rally to Elysian Hold's defense!|COV|Kyrian|
-C The Greater Good|Z|Bastion|SO|9|S|N|Defeat Lysonia once and for all.|COV|Kyrian|
-C Defeat Lysonia|M|67.34,14.98|Z|Bastion!The Shadowlands|SO|9;1|N|Defeat Lysonia|COV|Kyrian|
-C The Greater Good|Z|Bastion|SO|9|US|N|nil|COV|Kyrian|
-C nil|Z|Bastion|SO|0|S|N|nil|COV|Kyrian|
+C The Greater Good|QID|58846|M|31.42,23.43|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Tell Polemarch Adrestes, you are ready.|COV|Kyrian|
+C One Small Step|ACTIVE|58846|M|30.68,23.38|Z|Bastion!The Shadowlands|SO|1|N|Push forward and enter the Citadel of Loyalty.|COV|Kyrian|
+C No Doubt|ACTIVE|58846|Z|Bastion|SO|2|N|Clear the Courtyard of the Forsworn.|COV|Kyrian|
+C Defeat Adonias and Phaedra|ACTIVE|58846|M|28.76,22.59|Z|Bastion!The Shadowlands|SO|3|N|Defeat Adonias and Phaedra|COV|Kyrian|
+C Attack of Opportunity|ACTIVE|58846|M|27.99,24.35|Z|Bastion!The Shadowlands|SO|4|S|N|Push forward to the Truthbringer.|COV|Kyrian|
+C An Old Friend|ACTIVE|58846|M|27.20,22.83|Z|Bastion!The Shadowlands|SO|5|N|Prevent the Truthbringer from activating|COV|Kyrian|
+P Follow the Path|ACTIVE|58846|CC|M|25.98,24.72;24.73,24.00;24.54,22.78|Z|Bastion!The Shadowlands|SO|6|N|Take the gateway to the Temple.|
+C In Darkness' Domain|ACTIVE|58846|M|21.02,22.86|Z|Bastion!The Shadowlands|SO|7|N|Confront Lysonia|COV|Kyrian|
+C A Clever Ploy|ACTIVE|58846|M|21.26,23.00|Z|Bastion!The Shadowlands|SO|8|V|N|Get a lift from Chyrus, to Rally to Elysian Hold|COV|Kyrian|
+C The Greater Good|ACTIVE|58846|M|67.34,14.98|Z|Bastion!The Shadowlands|SO|9|N|Defeat Lysonia|COV|Kyrian|
 C The Greater Good|QID|58846|M|67.34,14.98|Z|Bastion!The Shadowlands|QO|2|NC|N|Kyrian Assault completed.|COV|Kyrian|
 T The Greater Good|QID|58846|M|67.41,15.14|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|
 A Kyrestia's Grace|QID|58847|PRE|58846|M|67.41,15.14|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|COV|Kyrian|
-C Kyrestia's Grace|QID|58847|M|64.03,19.19|Z|Bastion!The Shadowlands|NC|N|Uther escorted.|COV|Kyrian|
+C Kyrestia's Grace|QID|58847|M|64.03,19.19|Z|Bastion!The Shadowlands|NC|N|Escort Uther.|COV|Kyrian|
 T Kyrestia's Grace|QID|58847|M|66.47,16.54|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|
 A An Earned Bond|QID|59919|PRE|58847|M|66.47,16.54|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|COV|Kyrian|
-C An Earned Bond|QID|59919|M|67.04,15.78|Z|Bastion!The Shadowlands|NC|N|Soulbind with Mikanikos.|COV|Kyrian|
+C An Earned Bond|QID|59919|M|67.04,15.78|Z|Bastion!The Shadowlands|CHAT|N|Head downstairs to the Forge of Bonds, so you can tell Mikanikos, you are Ready to Soulbind.|COV|Kyrian|
 T An Earned Bond|QID|59919|M|66.47,16.58|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|
 A Our Realm Reclaimed|QID|62557|PRE|59919|M|66.47,16.58|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|COV|Kyrian|
-C Our Realm Reclaimed|QID|62557|M|65.13,18.51|Z|Bastion!The Shadowlands|NC|N|Crest of Ascension empowered.|COV|Kyrian|
+C Our Realm Reclaimed|QID|62557|M|65.13,18.51|Z|Bastion!The Shadowlands|CHAT|N|Tell Polemarch Adrestes, you are Ready to witness the Empowerment of the Crest of Ascension.|COV|Kyrian|
 T Our Realm Reclaimed|QID|62557|M|66.46,16.59|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|
+
+A A Call to Ardenweald|QID|60424|PRE|62557|M|66.47,16.58|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|COV|Kyrian|  ; not sure if belongs Calling Quest
+t Call to Ardenweald|QID|60424|M|66.47,16.58|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|  ; not sure if belongs
 
 ;N Venthyr Campaign|QID|99999|M|PLAYER|N|Guide is currently in development.|COV|Venthyr|
 ; Chapter 1
