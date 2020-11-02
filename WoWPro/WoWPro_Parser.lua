@@ -247,6 +247,7 @@ end)
 DefineTag("LEAD","leadin","string",validate_andor_list_of_ints,nil)
 DefineTag("ACTIVE","active","string",validate_andor_list_of_ints,function (value, i) WoWPro.active[i] = value; end)
 DefineTag("NPC","NPC","string",validate_old_list_of_ints,nil)
+DefineTag("CCOUNT","ccount","string",validate_old_list_of_ints,nil)
 
 -- Mapping Tags
 DefineTag("M","map","string",nil,nil)
