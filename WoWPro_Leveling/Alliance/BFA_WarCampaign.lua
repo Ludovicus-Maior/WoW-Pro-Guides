@@ -1122,6 +1122,21 @@ A At the Azerite Time|QID|55737|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth
 P Chamber of Heart|ACTIVE|55737|M|43.20,44.54|Z|Silithus|NC|N|Take the waygate to the Chamber of Heart.|
 T At the Azerite Time|QID|55737|M|48.11,72.24|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 
+; Heart of Azeroth questline - Level 70
+
+A A Bolt from the Blue|QID|56401|M|52.60,69.99|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. Neck must be level 70.|PRE|55737|
+P Silithus: The Wound|QID|56401|M|50.14,30.47|Z|Chamber of Heart!Dungeon1473|N|Run out to Silithus.|
+P Boralus|ACTIVE|56401|M|41.48,44.86|Z|Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|
+P Stormwind City|ACTIVE|56401|M|70.10,16.78|Z|Boralus|NC|N|Take the Portal to Stormwind.|
+P Dalaran|ACTIVE|56401|M|44.42,88.66|Z|Stormwind City|N|Travel to Nexus via means of your choosing, most likely via the Stormwind City portal to Crystalsong Forest, Alternatively boat to Borean Tundra.|
+F Transitus Shield|ACTIVE|56401|M|72.22,45.75|Z|Dalaran City@Dalaran!Crystalsong Forest|N|To Aludane Whitecould, to fly to Transitus Shield, Coldarra.|
+C A Bolt from the Blue|QID|56401|QO|1;2|M|27.97,26.27|Z|Borean Tundra|NC|N|Fly up to the top level of the Nexus (NOT in the Instance) and stand next to Kalecgos and use the Extra Action Button to charge the scale.|EAB|
+C A Bolt from the Blue|QID|56401|QO|3|M|27.53,26.72|Z|Borean Tundra|NC|N|Fly out to the bubble a little ways in front of you (center of the ring) and take the scale.|
+P Chamber of Heart|ACTIVE|56401|M|27.97,26.27|Z|Borean Tundra|TZ|Magni's Encampment|CHAT|N|Ask Kalecgos for a lift back to the Chamber of Heart.|
+T A Bolt from the Blue|QID|56401|M|52.60,69.99|Z|Chamber of Heart!Dungeon1473||N|To Kalecgos. \nDon't forget to go to the Heart Forge and apply it.|
+A We Stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|56401|
+C We Stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|CHAT|N|Tell Magni, you are ready to receive the gifts of the Dragonflights.|
+T We Stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 
 ; 4.5k Friendly with The 7th Legion
 A Operation: Blood Arrow|QID|53069|M|69.28,27.00|Z|Boralus|N|Autoaccepted.|O|REP|7th Legion;2159;friendly;4500|PRE|52146|LEAD|52147|  ; Technically you need 52146 done AND REP for this quest to popup, REP gate NOT removed from this quest (and also subsquent LEAD quests.)
