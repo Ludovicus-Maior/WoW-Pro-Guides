@@ -1771,6 +1771,28 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
+            -- Completed Count: activate if a certain number of quests have been completed
+            if WoWPro.ccount[guideIndex] then
+                local targetCount = 0
+                local ccount = WoWPro.ccount[guideIndex]
+                for i,qid in ipairs({(";"):split(ccount)}) do
+                    if i == 1 then
+                        targetCount = tonumber(qid)
+                    elseif WoWPro:IsQuestFlaggedCompleted(qid, true) then
+                            targetCount = targetCount - 1
+                    end
+                end
+                if targetCount ~= 0 then
+                    skip = true
+                    WoWPro.why[guideIndex] = ("NextStep(): CCOUNT %s is %d, skip."):format(ccount, targetCount)
+                    WoWPro:dbp("Step %s [%s] failed ccount %s with %d",stepAction , step, ccount, targetCount)
+                    break
+                else
+                    WoWPro.why[guideIndex] = ("NextStep(): CCOUNT %s is %d, yeah!."):format(ccount, targetCount)
+                    WoWPro:dbp("Step %s [%s] met ccount %s with %d",stepAction , step, ccount, targetCount)
+                end
+            end
+
             -- A FAIL step is skipped unless the quest is failed
             if WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and
                WoWPro.fail[guideIndex] then
