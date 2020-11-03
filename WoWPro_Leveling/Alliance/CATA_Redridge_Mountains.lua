@@ -60,47 +60,47 @@ C He Who Controls the Ettins|QID|26519|CC|M|20.55,23.70;22.45,21.15;21.18,15.15;
 T He Who Controls the Ettins|QID|26519|M|17.93,18.53|N|Turn it in at the orb.|
 A Saving Foreman Oslow|QID|26520|M|17.93,18.53|N|From the Ettin Control Panel.|PRE|26519|
 K Yowler Must Die!|QID|26545|M|27.45,22.09|N|Leave the Caverns, and look for the Canyon Ettin. When you see him, use the orb to subdue him. Once subdued, head to Yowler (waypoint location), kill him and loot the plans. You can mount up whilst controlling the Ettin.|T|Canyon Ettin|U|58895|L|58937|
-C Like a Fart in the Wind|QID|26513|M|32.27,25.10|N|Finish collecting the supply crates.|NC|US|
+C Like a Fart in the Wind|QID|26513|M|31.85,44.90|N|Finish collecting the supply crates.|NC|US|
 C Saving Foreman Oslow|QID|26520|M|31.75,44.41|N|Run to the boulder at Lakeshire Bridge.  When you get to the boulder, use the orb again to get the rock off Oslow.|U|58895|NC|
 T Like a Fart in the Wind|QID|26513|M|31.80,44.76|N|To Marshal Marris.|
 r Repair, Sell Junk|ACTIVE|26545|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|S!US|
-T Yowler Must Die!|QID|26545|M|28.76,41.12|N|To Magistrate Solomon inside the town hall.|
-T Saving Foreman Oslow|QID|26520|M|28.76,41.12|N|To Magistrate Solomon.|
-A John J. Keeshan|QID|26567|M|28.76,40.90|N|From Colonel Troteman.|PRE|26545|
-T John J. Keeshan|QID|26567|M|26.20,39.86|N|Head to the basement of the Inn to find John J. Keeshan.|
-A This Ain't My War|QID|26568|M|26.20,39.90|N|From John J. Keeshan.|PRE|26567|
+T Yowler Must Die!|QID|26545|M|28.91,41.11|N|To Magistrate Solomon inside the town hall.|
+T Saving Foreman Oslow|QID|26520|M|28.91,41.11|N|To Magistrate Solomon.|
+A John J. Keeshan|QID|26567|M|28.66,40.74|N|From Colonel Troteman.|PRE|26545|
+T John J. Keeshan|QID|26567|M|26.27,40.13|N|Head to the basement of the Inn to find John J. Keeshan.|
+A This Ain't My War|QID|26568|M|28.66,40.74|N|From John J. Keeshan.|PRE|26567|
 T This Ain't My War|QID|26568|M|28.57,40.84|N|To Colonel Troteman in the town hall.|
 A Weapons of War|QID|26571|M|28.57,40.84|N|From Colonel Troteman.|PRE|26568|
-A In Search of Bravo Company|QID|26586|M|28.58,40.90|N|From Colonel Troteman.|PRE|26568|
-A Surveying Equipment|QID|26569|M|29.63,44.41|N|From Foreman Oslow outside towards the bridge.|PRE|26520&26568|RANK|2|
-A Render's Army|QID|26570|M|29.63,44.41|N|From Marshal Marris.|PRE|26568|RANK|2|
+A In Search of Bravo Company|QID|26586|M|28.57,40.84|N|From Colonel Troteman.|PRE|26568|
+A Surveying Equipment|QID|26569|M|29.65,44.54|N|From Foreman Oslow outside towards the bridge.|PRE|26520&26568|RANK|2|
+A Render's Army|QID|26570|M|29.73,44.52|N|From Marshal Marris.|PRE|26568|RANK|2|
 R Alther's Mill|ACTIVE|26586|M|41.25,35.60|N|Head along the road north-east to Alther's Mill.|
 C Render's Army|QID|26570|M|29.35,10.76|N|Kill any and all orcs for this quest.  Except for the elites.|S|
-T In Search of Bravo Company|QID|26586|M|47.42,41.68|N|To Messner. |
-A Breaking Out is Hard to Do|QID|26587|M|47.42,41.68|N|From Messner.|PRE|26586|
+T In Search of Bravo Company|QID|26586|M|47.53,41.96|N|To Messner (inside the cage).|
+A Breaking Out is Hard to Do|QID|26587|M|47.53,41.96|N|From Messner.|PRE|26586|
 C Weapons of War|QID|26571|M|50.82,41.45|N|Kill Homurk for the knife, and Murdunk for the bow.|
 T Weapons of War|QID|26571|M|51.45,41.30|N|(UI Alert)|
 A His Heart Must Be In It|QID|26573|M|51.45,41.30|N|(UI Alert)|PRE|26571|
 C Breaking Out is Hard to Do|QID|26587|M|49.06,37.83|N|Be careful not to be seen by the Worg Captain, go into the center of the sleeping Worgs and loot the key from the stump.|NC|
-T Breaking Out is Hard to Do|QID|26587|M|47.57,41.81|N|To Messner.|
-A Jorgensen|QID|26560|M|47.60,41.83|N|From Messner. It takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|PRE|26587|
+T Breaking Out is Hard to Do|QID|26587|M|47.53,41.96|N|To Messner.|
+A Jorgensen|QID|26560|M|47.60,41.83|N|From Messner. It takes a few seconds after completing the previous quest before he appears next to you and offers this quest. He also moves around quite a bit.|PRE|26587|
 C Surveying Equipment|QID|26569|M|32.46,9.82|N|Kill and loot Blackrock Trackers.|S|
-C Jorgensen|QID|26560|M|43.56,11.03|N|Head back to the road then head north. Kill Utroka the Keymistress to get Jorgensen's Cage Key.|L|58969|
-T Jorgensen|QID|26560|M|33.62,11.75|N|To Jorgensen, he can be found in Render's Camp to the west.|
+C Jorgensen|QID|26560|M|43.56,11.03|N|Head back to the road then head north. Kill Utroka the Keymistress to loot Jorgensen's Cage Key.|
+T Jorgensen|QID|26560|M|33.59,11.81|N|To Jorgensen, he can be found in Render's Camp to the west.|
 A Krakauer|QID|26561|M|33.63,11.37|N|From Jorgensen. Again, it takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|PRE|26560|
 C Surveying Equipment|QID|26569|M|32.46,9.82|N|Finish killing and looting the Blackrock Trackers.|US|
-C His Heart Must Be In It|QID|26573|M|26.67,10.65|N|Enter the cave, and then at the split turn right, loot the Blackrock Coffer.|
+C His Heart Must Be In It|QID|26573|M|26.59,10.53|N|Enter the cave, turn right at the split, and loot the Blackrock Coffer just ahead of you.|
 C Krakauer|QID|26561|M|26.41,10.40|N|Kill Ritualist Tarak.|
-T Krakauer|QID|26561|M|26.03,10.45|N|To Krakauer.|
+T Krakauer|QID|26561|M|25.92,10.49|N|To Krakauer.|
 A And Last But Not Least... Danforth|QID|26562|M|26.08,10.48|N|From Krakauer. Again, it takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|PRE|26561|
-C And Last But Not Least... Danforth|QID|26562|M|28.13,18.25|N|Kill Overlord Barbarius and recover the Blackrock Lever Key. Use the Blackrock Lever Key to free Danforth. |
-T And Last But Not Least... Danforth|QID|26562|M|28.21,17.11|N|Use the Chain Level, then wait for Danforth to drop into the water. To Danforth.|
-A Return of the Bravo Company|QID|26563|M|28.07,17.29|N|From Danforth. Again, it takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|PRE|26562|
+C And Last But Not Least... Danforth|QID|26562|M|28.13,18.25|N|Kill Overlord Barbarius and recover the Blackrock Lever Key. Use the Blackrock Lever Key to free Danforth.|
+T And Last But Not Least... Danforth|QID|26562|M|28.21,17.11|N|Click on the Chain Lever and wait for Danforth to drop into the water. To Danforth.|
+A Return of the Bravo Company|QID|26563|M|28.24,17.29|N|From Danforth. Again, it takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|PRE|26562|
 C Render's Army|QID|26570|M|29.35,10.76|N|Finish killing any and all orcs for this quest. Except for the elites.|US|
 H Lakeshire Inn|ACTIVE|26563|N|Hearth back to Lakeshire or run if it is on cooldown.|
-T His Heart Must Be In It|QID|26573|M|28.51,40.85|N|To Colonel Troteman in the town hall.|
-T Return of the Bravo Company|QID|26563|M|28.51,40.85|N|To Colonel Troteman.|
-A They Drew First Blood|QID|26607|M|28.51,40.85|N|From Colonel Troteman.|PRE|26573&26563|
+T His Heart Must Be In It|QID|26573|M|28.57,40.84|N|To Colonel Troteman in the town hall.|
+T Return of the Bravo Company|QID|26563|M|28.57,40.84|N|To Colonel Troteman.|
+A They Drew First Blood|QID|26607|M|28.57,40.84|N|From Colonel Troteman.|PRE|26573&26563|
 T Surveying Equipment|QID|26569|M|29.65,44.38|N|To Foreman Oslow.|
 T Render's Army|QID|26570|M|29.65,44.38|N|To Marshal Marris.|
 r Repair, Sell Junk|ACTIVE|26607|N|Take this opportunity to sell unwanted junk and to repair with Kimberly Hiett just inside the Inn as you head to John J. Keeshan|T|Kimberly Hiett|S!US|
