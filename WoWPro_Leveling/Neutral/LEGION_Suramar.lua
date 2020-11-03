@@ -291,19 +291,19 @@ C Moonshade Holdout|QID|42226|M|17.31,38.05|QO|3|N|Kill Fal'dorei Widowmaker.|
 T Moonshade Holdout|QID|42226|M|17.38,37.98|N|To Valewalker Farodin.|
 A Into the Crevasse|QID|42227|M|17.38,37.98|N|From Valewalker Farodin.|PRE|42226|
 C Into the Crevasse|QID|42227|M|20.43,41.96|QO|1|NC|N|Follow Valewalker Farodin. Make sure you jump INTO the water (Don't be mounted or you will overshoot the water), the fall will kill you otherwise.|
-C Into the Crevasse|QID|42227|M|48.04,43.00|Z|Falanaar Tunnels@Suramar|QO|2|N|Enter Falanaar Tunnels.|
-T Into the Crevasse|QID|42227|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|To Valewalker Farodin.|
-A The Hidden City|QID|42228|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|From Valewalker Farodin.|PRE|42227|
-$ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for storable, but non-stackable ancient mana. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
-R Falanaar South Leyline|ACTIVE|42228|M|40.99,45.47;45.03,54.61;41.80,66.64|CS|Z|Falanaar Tunnels@Suramar|N|You have to do it sometime, and now you are closest, unless you want to wait till you have a world quest in the area.|
-A Leyline Feed: Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|From Leyline Feed. (250 Ancient Mana)|  ;  Originally had PRE|41138, Grail says No, Blizz may have made changes that you can do them all at once.
-T Leyline Feed: Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|To Leyline Feed.|
-$ Small Treasure Chest|QID|43840|M|58.33,70.00|Z|Falanaar Tunnels@Suramar|N|Loot for treasure and resources.|
-R Falanaar North Leyline|QID|42228|M|42.49,70.68;45.03,54.61;57.26,45.16|CS|Z|Falanaar Tunnels@Suramar|N|Run to the Falanarr Tunnels to get the other Falanaar leyline.|FLY|LEGION|
-A Leyline Feed: Falanaar Arcway|QID|43592|M|66.57,52.52|Z|Falanaar Tunnels@Suramar|N|From Leyline Feed. (250 Ancient Mana)\nDispite being Silver Elite, there is no quest/reward for killing Broodmother Shu'holis unless you have it as a World Quest.| ;  Originally had PRE|41138, Grail says No, Blizz may have made changes that you can do them all at once.
-T Leyline Feed: Falanaar Arcway|QID|43592|PRE|41138|M|66.57,52.52|Z|Falanaar Tunnels@Suramar|N|To Leyline Feed.|
-$ Small Treasure Chest|QID|43839|M|56.20,36.01;48.68,42.60|CS|Z|Falanaar Tunnels@Suramar|N|Run back out of this room, you will see Orathiss waiting for you. While following Orathiss, slight detour here for a chest. Loot for treasure and resources.|RANK|2|
-R Shattered Locus|ACTIVE|42228|M|56.20,36.01;53.10,26.23;47.95,14.07|CS|Z|Falanaar Tunnels@Suramar|N|Back across the webs to where you entered and continue following Orathiss to the Shattered Locus.|RANK|2|
+C Into the Crevasse|QID|42227|M|48.04,43.00|Z|Falanaar Tunnels@Shattered Locus|QO|2|N|Enter Falanaar Tunnels.|
+T Into the Crevasse|QID|42227|M|48.88,43.38|Z|Falanaar Tunnels@Shattered Locus|N|To Valewalker Farodin.|
+A The Hidden City|QID|42228|M|48.88,43.38|Z|Falanaar Tunnels@Shattered Locus|N|From Valewalker Farodin.|PRE|42227|
+$ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Shattered Locus|ITEM|141655|N|Loot for storable, but non-stackable ancient mana. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
+R Falanaar South Leyline|ACTIVE|42228|M|40.99,45.47;45.03,54.61;41.80,66.64|CS|Z|Falanaar Tunnels@Shattered Locus|N|You have to do it sometime, and now you are closest, unless you want to wait till you have a world quest in the area.|
+A Leyline Feed: Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Shattered Locus|N|From Leyline Feed. (250 Ancient Mana)|  ;  Originally had PRE|41138, Grail says No, Blizz may have made changes that you can do them all at once.
+T Leyline Feed: Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Shattered Locus|N|To Leyline Feed.|
+$ Small Treasure Chest|QID|43840|M|58.33,70.00|Z|Falanaar Tunnels@Shattered Locus|N|Loot for treasure and resources.|
+R Falanaar North Leyline|QID|42228|M|42.49,70.68;45.03,54.61;57.26,45.16|CS|Z|Falanaar Tunnels@Shattered Locus|N|Run to the Falanarr Tunnels to get the other Falanaar leyline.|FLY|LEGION|
+A Leyline Feed: Falanaar Arcway|QID|43592|M|66.57,52.52|Z|Falanaar Tunnels@Shattered Locus|N|From Leyline Feed. (250 Ancient Mana)\nDispite being Silver Elite, there is no quest/reward for killing Broodmother Shu'holis unless you have it as a World Quest.| ;  Originally had PRE|41138, Grail says No, Blizz may have made changes that you can do them all at once.
+T Leyline Feed: Falanaar Arcway|QID|43592|PRE|41138|M|66.57,52.52|Z|Falanaar Tunnels@Shattered Locus|N|To Leyline Feed.|
+$ Small Treasure Chest|QID|43839|M|56.20,36.01;48.68,42.60|CS|Z|Falanaar Tunnels@Shattered Locus|N|Run back out of this room, you will see Orathiss waiting for you. While following Orathiss, slight detour here for a chest. Loot for treasure and resources.|RANK|2|
+R Shattered Locus|ACTIVE|42228|M|56.20,36.01;53.10,26.23;47.95,14.07|CS|Z|Falanaar Tunnels@Shattered Locus|N|Back across the webs to where you entered and continue following Orathiss to the Shattered Locus.|RANK|2|
 C The Hidden City|QID|42228|M|34.61,56.61;53.10,26.23;47.95,14.07|CS|Z|Temple of Fal'adora@Suramar|N|Kill Orathiss.|
 T The Hidden City|QID|42228|M|35.21,54.35|Z|Temple of Fal'adora@Suramar|N|To Ancient Seed.|
 A The Valewalker's Burden|QID|42230|M|35.21,54.35|Z|Temple of Fal'adora@Suramar|N|From Ancient Seed.|PRE|42228|

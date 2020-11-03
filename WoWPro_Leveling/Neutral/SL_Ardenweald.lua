@@ -7,6 +7,19 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
 
+; List of Treasures in Ardenweald a few in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
+
+; $ Cache of the Moon|CS|M|40.3,52.6;39.7,54.4;39.0,57.0;38.5,58.1;38.9,60.1;63.9,37.5|Z|Ardenweald!The Shadowlands|N|WH - Need to find Twinklestar's 5 tools in the Garden of Night, at each map point.|ITEM|180731|ACH|14313;5|
+; $ Dreamsong Heart|M|37.6,37.1|Z|Ardenweald!The Shadowlands|N|WH - Need Jumping Mushroom, hidden in Dreamsong Feen to get to the top of the tree.|ITEM|179510|ACH|14313;6|
+; $ Elusive Faerie Cache|CS|M|46.4,70.9;44.7,75.7|Z|Ardenweald!The Shadowlands|N|WH - Need Faerie Lamp buff at first Coord to unlock treasure.|ITEM|179512|ACH|14313;7|
+; $ Darkreach Supplies|M|36.1,65.2|Z|Ardenweald!The Shadowlands|N|WH - Use jumping mushroom nearby. Gives Random Gear.|ACH|14313;8|
+; $ Lost Satchel|M|48.2,20.3|Z|Ardenweald!The Shadowlands|N|WH - Drop from below to get treasure, Starts a quest.|ITEM|182731|ACH|14313;9|
+; $ Swollen Anima Seed|M|76.6,29.7|Z|Ardenweald!The Shadowlands|N|WH - Starts a Quest.|ITEM|182730|ACH|14313;10|
+; $ Playful Vulpin Befriended|Z|Ardenweald!The Shadowlands|N|WH - Find Playful Vulpin all around Ardenweald, and play with him 5 times to get treasure.|ITEM|180645|ACH|14313;12|
+; $ Dessiccated Moth|CS|M|36.4,59.5;41.9,32.5|Z|Ardenweald!The Shadowlands|N|WH - Loot Aromatic Flowers at first Coord, use jumping mushroom near 2nd coord, Use flowers on the brazier.|ITEM|180640|ACH|14313;13|
+; $ Enchanted Dreamcatcher|M|36.4,25.0|Z|Ardenweald!The Shadowlands|N|WH - Carefully Climb the roots.|ITEM|183129|ACH|14313;14|
+; $ Cache of the Night|CS|M|51.6,61.6;42.4,46.7;37.0,29.8;36.0,66.5|Z|Ardenweald!The Shadowlands|N|WH - need to loot 3 items at each Coord, Craft Dreamcatcher to break barrier on treasure at last Coord.|ITEM|171225|ACH|14313;15|
+
 ; TOF
 A Ardenweald|QID|62277|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
@@ -98,7 +111,7 @@ A They Need to Calm Down|QID|57949|M|67.09,32.18|Z|Ardenweald!The Shadowlands|N|
 A Nothing Left to Give|QID|57948|M|67.09,32.18|Z|Ardenweald!The Shadowlands|N|From Choofa.|PRE|57947|MS|
 C They Need to Calm Down|QID|57949|M|68.42,34.11|Z|Ardenweald!The Shadowlands|U|176445|N|Use the provided soulweb to reclaim the Stolen Anima.|S|MS|
 C Nothing Left to Give|QID|57948|M|66.97,34.24|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Restore Rury.|MS|
-$ Harmonic Chest|QID|61165|M|68.01,34.62|Z|Ardenweald!The Shadowlands|N|This takes two people of the same faction, one to channel playing the fae drum and one to channel playing the fae harp, which unlocks the Harmonic chest for some treasure.|;QID unknown as there is only one of me (
+$ Harmonic Chest|QID|61165|M|68.01,34.62|Z|Ardenweald!The Shadowlands|N|This takes two people of the same faction, one to channel playing the fae drum and one to channel playing the fae harp, which unlocks the Harmonic chest for some treasure.|ACH|14313;11| ;QID unknown as there is only one of me (
 C Nothing Left to Give|QID|57948|M|68.51,33.33|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Restore Slanknen.|MS|
 C Nothing Left to Give|QID|57948|M|67.83,36.40|Z|Ardenweald!The Shadowlands|QO|3|CHAT|N|Restore Awool.|MS|
 C They Need to Calm Down|QID|57949|M|68.42,34.11|Z|Ardenweald!The Shadowlands|U|176445|N|Use the provided soulweb to finish reclaimng the Anima.|US|MS|
@@ -267,7 +280,7 @@ C The Missing Hunters|QID|60628|M|53.65,32.67|Z|Ardenweald!The Shadowlands|QO|3|
 C The Missing Hunters|QID|60628|M|55.43,31.40|Z|Ardenweald!The Shadowlands|QO|1|NC|N|You can find Jynkla at water's edge.|MS|
 C The Missing Hunters|QID|60628|M|55.92,33.86|Z|Ardenweald!The Shadowlands|QO|2|NC|N|You can find Serinkei in a cave at the water's edge.|MS|
 C The Missing Hunters|QID|60628|M|54.80,36.56|Z|Ardenweald!The Shadowlands|QO|4|CHAT|N|You can find Ara'lon standing pretty close to water's edge.|MS|
-$ Ancient Cloudfeather Egg|QID|61065|CS|M|52.60,37.88;52.97,37.31|Z|Ardenweald!The Shadowlands|N|Take the path right behind Ara'lon up the hill, across the top of a waterfall and out on a root to find the Ancient Cloudfeather Egg.|ITEM|180642|
+$ Ancient Cloudfeather Egg|QID|61065|CS|M|52.60,37.88;52.97,37.31|Z|Ardenweald!The Shadowlands|N|Take the path right behind Ara'lon up the hill, across the top of a waterfall and out on a root to find the Ancient Cloudfeather Egg.|ITEM|180642|ACH|14313;2|
 C Extreme Recycling|QID|60629|M|54.49,32.84|Z|Ardenweald!The Shadowlands|N|Continue killing everything until you have collected the Fae Weapons needed.|US|MS|
 T The Missing Hunters|QID|60628|M|51.30,33.96|Z|Ardenweald!The Shadowlands|N|To Hunt-Captain Korayn.|MS|
 T Extreme Recycling|QID|60629|M|51.30,33.96|Z|Ardenweald!The Shadowlands|N|To Hunt-Captain Korayn.|MS|
@@ -283,7 +296,7 @@ T Totem Eclipse|QID|60630|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Hunt-Captai
 T Big Problem, Little Vorkai|QID|60631|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Hunt-Captain Korayn.|MS|
 A I Know Your Face|QID|60632|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Hunt-Captain Korayn.|PRE|60630&60631|MS|
 C I Know Your Face|QID|60632|M|48.49,36.84|Z|Ardenweald!The Shadowlands|QO|1|T|Blighted Monstrosity|N|Kill the Bigger Blighted Monstrosity, to expose Lorkron the Hunter (then fight Lorkron). You still have reinforcements available via the "[color=40C7EB]Hunter's Strike[/color]" Extra Action Button.|MS|EAB|
-$ Hearty Dragon Plume|QID|61067|CS|M|47.81,39.06;47.53,36.60;47.97,38.65;48.21,39.26|Z|Ardenweald!The Shadowlands|N|Up the path for a cool slowfall item. This requires jumping down the tree roots, so make sure you are at the right spot before jumping.|ITEM|182729|
+$ Hearty Dragon Plume|QID|61067|CS|M|47.81,39.06;47.53,36.60;47.97,38.65;48.21,39.26|Z|Ardenweald!The Shadowlands|N|Up the path for a cool slowfall item. This requires jumping down the tree roots, so make sure you are at the right spot before jumping.|ITEM|182729|ACH|14313;4|
 C I Know Your Face|QID|60632|M|48.94,35.73|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak to Korayn.|MS|
 
 ; Sidequest Storyline - Trouble at the Gormling Corral & Supplies Needed
@@ -340,7 +353,7 @@ A The Games We Play|QID|57870|M|59.05,24.38|Z|Ardenweald!The Shadowlands|N|From 
 C Ages-Echoing Wisdom|QID|57865|M|59.06,24.36|Z|Ardenweald!The Shadowlands|QO|3|CHAT|N|Elder Gwenna found.|
 C The Games We Play|QID|57870|M|58.42,27.44|Z|Ardenweald!The Shadowlands|NC|N|Click on the giggling basket to expose the spriggan Once exposed, respond to his words with the correct emotes. \nIf his phrase ends with:\nNot so much as a word of praise! Hmph!"-[color=ff8000]/praise[/color]\n"The other spriggans were all cheering my name for days!"-[color=ff8000]/cheer[/color]\n"Dance with me!"-[color=ff8000]/dance[/color]\n"Introductions were an important part of first impressions!"-[color=ff8000]/introduce[/color]\n"Some ask permission, and always thank us for our trouble."-[color=ff8000]/thank[/color]\n"How strong he must have been!"-[color=ff8000]/strong[/color].|
 A Craftsman Needs No Tools|QID|57868|M|55.83,23.47|Z|Ardenweald!The Shadowlands|N|From Elder Finnan.|RANK|2|
-;$ Aerto
+;$ Aerto|QID|61072|M|56.0,21.0|Z|Ardenweald!The Shadowlands|ITEM|180630|ACH|14313;1|  ; info from Wowhead, needs checking and 'fleshing out'
 C Ages-Echoing Wisdom|QID|57865|M|55.79,23.50|Z|Ardenweald!The Shadowlands|QO|2|N|Elder Finnan found.|CHAT|
 C Craftsman Needs No Tools|QID|57868|M|56.74,23.88|Z|Ardenweald!The Shadowlands|N|Finnan's Lucky Mallet.|S|
 T The Games We Play|QID|57870|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|To Elder Gwenna.|
@@ -499,7 +512,7 @@ C Blooming Villains|QID|58265|M|51.55,56.67|Z|Ardenweald!The Shadowlands|N|Slay 
 C Wake Up, Get Up, Get Out There|QID|58264|M|51.48,56.23|Z|Ardenweald!The Shadowlands|NC|N|Aid the Subdued Faeries.|S|
 C Break It Down|QID|58266|M|53.77,61.54|Z|Ardenweald!The Shadowlands|U|174078|N|Destroy Runed Altar. They are all on the platforms above.|
 C Blooming Villains|QID|58265|M|51.55,56.67|Z|Ardenweald!The Shadowlands|N|Finish slaying Ritualists.|US|
-;$ Faerie Trove|QID|61073|N|Basket with pet is around and underneath platform.|RANK|2|ITEM|182673|;missed coords and ones in QC are wrong, or this is the wrong QID?
+;$ Faerie Trove|QID|61073|M|49.72,55.94|Z|Ardenweald!The Shadowlands|N|Basket with pet is around and underneath platform(Tree?).|ITEM|182673|ACH|14313;3| ; Coords update from WH(2/NOV/20) or this is the wrong QID?
 C Wake Up, Get Up, Get Out There|QID|58264|M|51.48,56.23|Z|Ardenweald!The Shadowlands|NC|N|Finish aiding the Subdued Faeries.|US|
 T Wake Up, Get Up, Get Out There|QID|58264|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Primrose.|
 T Break It Down|QID|58266|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Primrose.|
@@ -534,5 +547,6 @@ A The Queen's Request|QID|58724|M|49.05,33.98|Z|The Trunk@Heart of the Forest!Du
 
 F Oribos|ACTIVE|58724|M|49.32,51.90|Z|Ardenweald!The Shadowlands|MS|
 T The Queen's Request|QID|58724|M|48.98,60.10|Z|Ring of Transference@Oribos|N|To Tal-Inara.|MS|
+
 ]]
 end)
