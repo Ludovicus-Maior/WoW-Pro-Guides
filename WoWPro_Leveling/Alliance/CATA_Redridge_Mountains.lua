@@ -97,34 +97,33 @@ C And Last But Not Least... Danforth|QID|26562|M|28.13,18.25|N|Kill Overlord Bar
 T And Last But Not Least... Danforth|QID|26562|M|28.21,17.11|N|Click on the Chain Lever and wait for Danforth to drop into the water. To Danforth.|
 A Return of the Bravo Company|QID|26563|M|28.24,17.29|N|From Danforth. Again, it takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|PRE|26562|
 C Render's Army|QID|26570|M|29.35,10.76|N|Finish killing any and all orcs for this quest. Except for the elites.|US|
-H Lakeshire Inn|ACTIVE|26563|N|Hearth back to Lakeshire or run if it is on cooldown.|
+H Lakeshire|ACTIVE|26563|M|33.17,40.85|TZ|Lakeshire Inn|N|Hearth back to Lakeshire or run if it is on cooldown.|
 T His Heart Must Be In It|QID|26573|M|28.57,40.84|N|To Colonel Troteman in the town hall.|
 T Return of the Bravo Company|QID|26563|M|28.57,40.84|N|To Colonel Troteman.|
 A They Drew First Blood|QID|26607|M|28.57,40.84|N|From Colonel Troteman.|PRE|26573&26563|
-T Surveying Equipment|QID|26569|M|29.65,44.38|N|To Foreman Oslow.|
-T Render's Army|QID|26570|M|29.65,44.38|N|To Marshal Marris.|
+T Surveying Equipment|QID|26569|M|29.65,44.54|N|To Foreman Oslow.|
+T Render's Army|QID|26570|M|29.73,44.52|N|To Marshal Marris.|
 r Repair, Sell Junk|ACTIVE|26607|N|Take this opportunity to sell unwanted junk and to repair with Kimberly Hiett just inside the Inn as you head to John J. Keeshan|T|Kimberly Hiett|S!US|
-T They Drew First Blood|QID|26607|M|26.29,39.90|N|Head to the basement of the inn to John J. Keeshan.|
-A It's Never Over|QID|26616|M|26.29,39.90|N|From John J. Keeshan.|PRE|26607|
-C It's Never Over|QID|26616|M|34.25,45.6|N|Head to the dock just beyond the bridge, and click on the boat to head to Camp Everstill.|NC|
-f Camp Everstill|QID|26616|M|52.87,54.51|N|At Arlen Marsters.|
-T It's Never Over|QID|26616|M|52.48,55.19|N|To John J. Keeshan, who is now in Camp Everstill.|
-A Point of Contact: Brubaker|QID|26639|M|52.48,55.19|N|From John J. Keeshan.|PRE|26616|
-A Hunting the Hunters|QID|26638|M|52.46,55.38|N|From Danforth.|PRE|26616|
-A Bravo Company Field Kit: Chloroform|QID|26637|M|52.49,55.47|N|From Messner.|PRE|26616|
-A Bravo Company Field Kit: Camouflage|QID|26636|M|52.49,55.47|N|From Krakauer.|PRE|26616|
-C Bravo Company Field Kit: Chloroform|QID|26637|M|42.75,53.87|N|Enter the lake, then kill and loot any Muckdweller you see.  Unless you have underwater breathing, don't forget to surface now and then. Be aware of the elite Ol' Gummers patrolling the waters.|NC|
-C Hunting the Hunters|QID|26638|M|52.95,67.78|N|Kill any Blackrock Hunter you see. They are stealthed.|S|
+T They Drew First Blood|QID|26607|M|26.33,40.11|N|Head to the basement of the inn to John J. Keeshan.|
+A It's Never Over|QID|26616|M|26.33,40.11|N|From John J. Keeshan.|PRE|26607|
+C It's Never Over|QID|26616|M|34.13,45.51|N|Head to the dock just beyond the bridge, and click on the boat to head to Camp Everstill.|V|
+f Camp Everstill|QID|26616|M|52.92,54.64|N|At Arlen Marsters.|
+T It's Never Over|QID|26616|M|52.53,55.42|N|To John J. Keeshan, who is now in Camp Everstill.|
+A Point of Contact: Brubaker|QID|26639|M|52.53,55.42|N|From John J. Keeshan.|PRE|26616|
+A Hunting the Hunters|QID|26638|M|52.53,55.55|N|From Danforth.|PRE|26616|
+A Bravo Company Field Kit: Chloroform|QID|26637|M|52.43,55.54|N|From Messner.|PRE|26616|
+A Bravo Company Field Kit: Camouflage|QID|26636|M|52.40,55.41|N|From Krakauer.|PRE|26616|
+C Bravo Company Field Kit: Chloroform|QID|26637|M|43.19,54.76|N|Enter the lake, then kill and loot any Muckdweller you see.  Unless you have underwater breathing, don't forget to surface now and then.\n[color=FF0000]NOTE: [/color]Be aware of the elite Ol' Gummers patrolling the waters. He's not worth the effort of killing.|
 C Bravo Company Field Kit: Camouflage|QID|26636|M|50.40,65.50|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|NC|S|
 T Point of Contact: Brubaker|QID|26639|M|53.01,67.78|N|To Brubaker.|
 A Unspeakable Atrocities|QID|26640|M|53.01,67.78|N|From Brubaker.|PRE|26639|
+C Hunting the Hunters|QID|26638|M|52.95,67.78|N|Kill any Blackrock Hunter you see. They are stealthed.|
 C Bravo Company Field Kit: Camouflage|QID|26636|M|50.40,65.50|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|NC|US|
-C Hunting the Hunters|QID|26638|M|52.95,67.78|N|Kill any Blackrock Hunter you see. They are stealthed.|US|
-T Bravo Company Field Kit: Camouflage|QID|26636|M|52.47,55.45|N|To Krakauer.|
-T Bravo Company Field Kit: Chloroform|QID|26637|M|52.47,55.45|N|To Messner.|
-T Hunting the Hunters|QID|26638|M|52.47,55.45|N|To Danforth.|
-T Unspeakable Atrocities|QID|26640|M|52.47,55.45|N|To John J. Keeshan.|
-A Prisoners of War|QID|26646|M|52.50,55.48|N|From John J. Keeshan.|PRE|26636&26637&26638&26640|
+T Bravo Company Field Kit: Camouflage|QID|26636|M|52.40,55.41|N|To Krakauer.|
+T Bravo Company Field Kit: Chloroform|QID|26637|M|52.43,55.54|N|To Messner.|
+T Hunting the Hunters|QID|26638|M|52.53,55.55|N|To Danforth.|
+T Unspeakable Atrocities|QID|26640|M|52.53,55.42|N|To John J. Keeshan.|
+A Prisoners of War|QID|26646|M|52.53,55.42|N|From John J. Keeshan.|PRE|26636&26637&26638&26640|
 C Blackrock Holding Pen Key|QID|26646|M|69.4,76.53|N|Use the field kit. Then use ability #1 (Camouflage) when you get near the camp. Use #2 (Distraction) to get past guards (can backfire somewhat). Use #3 (Chloroform) on the orc where the key is.|U|60384|L|59261|NC|
 C Prisoners of War|QID|26646|M|69.40,58.59|N|If the orc is about to wake up, use ability #3 again. Use #2 to get out of the cave. Then head to the waypoint, click on one of the cages to free the people.|U|60384|
 T Prisoners of War|QID|26646|M|69.46,58.62|N|(UI Alert)|
