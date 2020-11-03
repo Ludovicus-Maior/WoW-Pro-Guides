@@ -10,11 +10,11 @@ N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe
 A A Chilling Summons|QID|61874|Z|Orgrimmar|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Horde|
 C A Chilling Summons|QID|61874|M|50.38,76.58|Z|Orgrimmar|QO|1|CHAT|N|Speak with Nazgrim outside Grommash Hold and he will open a gate.|FACTION|Horde|
 C A Chilling Summons|QID|61874|M|49.16,78.13|Z|Orgrimmar|QO|2|NC|N|Enter the Death gate to Acherus.|FACTION|Horde|
-A A Chilling Summons|QID|60545|M|76.57,42.73|Z|Stormwind City|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Alliance|
-C A Chilling Summons|QID|60545|M|76.72,42.74|Z|Stormwind City|QO|1|CHAT|N|Speak with High Inquisitor Whitemane and she will open a gate.|FACTION|Alliance|
-C A Chilling Summons|QID|60545|M|77.07,42.10|Z|Stormwind City|QO|2|NC|N|Enter the Death gate to Acherus.|FACTION|Alliance|
-C A Chilling Summons|QID|60545^61874|M|59.78,19.86|Z|Lower Acherus@Icecrown Citadel!Dungeon1681|QO|3|NC|N|Run toward Icecrown Citadel and click on the teleporter to the Frozen Throne.|
-T A Chilling Summons|QID|60545^61874|M|50.85,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|To Highlord Bolvar Fordragon.|
+A Shadowlands: A Chilling Summons|QID|60545|M|76.55,42.72|Z|Stormwind City|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Alliance|
+C Shadowlands: A Chilling Summons|QID|60545|M|76.70,42.75|Z|Stormwind City|QO|1|CHAT|N|Speak with High Inquisitor Whitemane and she will open a gate.|FACTION|Alliance|
+C Shadowlands: A Chilling Summons|QID|60545|M|77.08,42.08|Z|Stormwind City|QO|2|NC|N|Enter the Death gate to Acherus.|FACTION|Alliance|
+C Shadowlands: A Chilling Summons|QID|60545^61874|M|59.78,19.86|Z|Lower Acherus@Icecrown Citadel!Dungeon1681|QO|3|NC|N|Run toward Icecrown Citadel and stanbd on the teleporter to the Frozen Throne.|
+T Shadowlands: A Chilling Summons|QID|60545^61874|M|50.85,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|To Highlord Bolvar Fordragon.|
 A Through the Shattered Sky|QID|59751|M|50.88,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|From Highlord Bolvar Fordragon.|PRE|60545^61874|LVL|50|
 C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|1|NC|N|Listen to them squabble and wait for Bolvar to have the last word.|
 N First Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|2|NC|N|Click on the First Shard of Domination.|BUFF|329185|
@@ -80,9 +80,9 @@ T The Afflictor's Key|QID|59760|M|25.08,13.49|Z|The Maw!Instance|N|To Anduin Wry
 T An Undeserved Fate|QID|59761|M|25.35,13.93|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A From the Mouths of Madness|QID|59776|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin.|PRE|59760&59761|LVL|50|
 C From the Mouths of Madness|QID|59776|M|25.35,13.93|Z|The Maw!Instance|QO|1|NC|N|Wait for Jaina to make a portal then step thru to Forlorn Respite.|
-C From the Mouths of Madness|QID|59776|M|24.34,37.13|Z|The Maw!Instance|QO|2|CHAT|N|Ask Darion to make it talk.|
-T From the Mouths of Madness|QID|59776|M|24.34,37.13|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
-A By and Down the River|QID|59762|M|24.29,37.12|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59776|LVL|50|
+C From the Mouths of Madness|QID|59776|M|24.31,37.18|Z|The Maw!Instance|QO|2|CHAT|N|Ask Darion to make it talk.|
+T From the Mouths of Madness|QID|59776|M|24.31,37.18|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
+A By and Down the River|QID|59762|M|24.28,37.04|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59776|LVL|50|
 C By and Down the River|QID|59762|CS|M|24.42,35.00;25.59,32.50;29.90,36.53;29.78,42.45|Z|The Maw!Instance|QO|1|N|Cross the bridge over the River of Souls.|
 C By and Down the River|QID|59762|M|29.78,42.45|Z|The Maw!Instance|QO|2|N|Escape the River.|
 T By and Down the River|QID|59762|M|29.78,42.45|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
@@ -95,9 +95,9 @@ T Wounds Beyond Flesh|QID|59765|M|PLAYER|Z|The Maw!Instance|N|To Thrall.|
 T A Good Axe|QID|59766|M|PLAYER|Z|The Maw!Instance|N|To Thrall.|
 A Draw Out the Darkness|QID|60644|M|PLAYER|Z|The Maw!Instance|N|From Thrall.|PRE|59765&59766|LVL|50|
 C Draw Out the Darkness|QID|60644|M|29.56,43.86|Z|The Maw!Instance|N|Draw out and defeat the Withering Presence.|
-T Draw Out the Darkness|QID|60644|M|29.56,43.86|Z|The Maw!Instance|N|To Baine Bloodhoof.|
-A The Path to Salvation|QID|59767|M|29.56,43.86|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|60644|LVL|50|
-C The Path to Salvation|QID|59767|M|31.80,44.35|Z|The Maw!Instance|QO|1|CHAT|N|Speak to Jaina.|
+T Draw Out the Darkness|QID|60644|M|29.46,43.88|Z|The Maw!Instance|N|To Baine Bloodhoof.|
+A The Path to Salvation|QID|59767|M|29.47,44.02|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|60644|LVL|50|
+C The Path to Salvation|QID|59767|M|31.83,44.40|Z|The Maw!Instance|QO|1|CHAT|N|Speak to Jaina.|
 C The Path to Salvation|QID|59767|M|42.67,42.18|Z|The Maw!Instance|QO|2|NC|N|Stay close to Jaina and avoid the Jailer's forces, especially the ones who see thru her stealth.|
 C The Path to Salvation|QID|59767|M|42.16,42.14|Z|The Maw!Instance|QO|3|NC|N|Reach the Eroded Waygate.|
 T The Path to Salvation|QID|59767|M|42.47,42.18|Z|The Maw!Instance|N|To Anduin Wrynn.|
@@ -142,7 +142,7 @@ C The Eternal City|QID|60152|M|39.88,66.44|Z|Ring of Fates@Oribos|QO|6|CHAT|N|Re
 T The Eternal City|QID|60152|M|39.88,66.40|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
 A Understanding the Shadowlands|QID|60154|M|40.30,64.97|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|60152|MS|
 C Understanding the Shadowlands|QID|60154|M|40.81,65.88|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Tal-Inara.|MS|
-C Understanding the Shadowlands|QID|60154|M|40.34,66.61|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Tell Kah-Sher you will go.|MS|
+C Understanding the Shadowlands|QID|60154|M|40.34,66.59|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Tell Kah-Sher you will go.|MS|
 C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|Ring of Fates@Oribos|QO|3|NC|N|Take the Transport Pad to the Ring of Transference.|MS|
 T Understanding the Shadowlands|QID|60154|M|50.50,61.98|Z|Ring of Transference@Oribos||N|To Overseer Kah-Sher.|MS|
 A The Path to Bastion|QID|60156|M|50.50,61.98|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|60154|MS|
@@ -175,13 +175,13 @@ A Aiding the Shadowlands|QID|62159|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribo
 C Choose your starting zone|QID|62159|M|38.93,69.97|Z|Ring of Fates@Oribos|N|Choose your preferred starting zone from Tal-Inara's Shadowlands Map.|
 ;there is no "T Aiding the Shadowlands"
 
-T Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Bastion   |QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 
 
-N Choose Bastion|PRE|62275|LEAD|62723|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|
+N Choose Bastion   |PRE|62275|LEAD|62723|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|
 N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|
 N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|
 N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|
