@@ -13,37 +13,37 @@ return [[
 ;
 ;  Typed update to Cata/MOP splits on 27-Oct-2020 by Blanckaert (This is NOT tested)
 
-N This Guide is a Work In Progress Guide.|N|Currently in Development, This Guide covers what Blizzard now terms CATACLYSM content:\nRetail Vanilla Level 1-300\nOutland 1-75\nNorthrend 1-75\nCataclysm 1-75\nAlso ASSUMES you have the appropriate Skill|
-N Reputation Required for this Guide|N|Reputation needed:\nCenarion Expedition - Honored AND Either\nThe Scryers - Revered OR\nThe Aldor - Honored OR\n Run Botanica for Plans: Earthpeace Breastplate and\nAuchenai crypts for Plans: Felsteel Gloves|
-N Miner|N|If you are a miner, it is recommended you go level your miner up first, currently no guide in the works for mining.|
+N This Guide is a Work In Progress Guide.|N|Currently in Development, This Guide covers what Blizzard now terms CATACLYSM content\nRetail Vanilla Level 1-300\nOutland 1-75\nNorthrend 1-75\nCataclysm 1-75\nAlso ASSUMES you have the appropriate Skill|
+N Reputation Required for this Guide|N|Reputation needed\nCenarion Expedition - Honored AND Either\nThe Scryers - Revered OR\nThe Aldor - Honored OR\n Run Botanica for Plans- Earthpeace Breastplate and\nAuchenai crypts for Plans- Felsteel Gloves|
+N Miner|P|Mining;186;0|N|If you are a miner, it is recommended you go level your miner up first, currently no guide in the works for mining.|
 N Shopping List|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
 
 ; Begin Shopping list, as of Oct-2020
 
-l Rough Stone|QID|164002835|P|Blacksmithing;164|L|2835 145|N|You'll need about 145 Rough Stones.|
-l Coarse Stone|QID|164002836|P|Blacksmithing;164|L|2836 80|N|You'll need about  80 Coarse Stones.|
-l Copper Bar|QID|164002840|P|Blacksmithing;164|L|2840 150|N|You'll need about 150 Copper Bars.|
-l Copper Bar|QID|164002840|P|Mining;186;0+50;0|L|2840 225|N|You'll need about 225 Copper Bars. (75 bars needed to smelt bronze)|
+l Rough Stone|QID|164002835|P|Blacksmithing;164;0|L|2835 145|N|You'll need about 145 Rough Stones.|
+l Coarse Stone|QID|164002836|P|Blacksmithing;164;0|L|2836 80|N|You'll need about  80 Coarse Stones.|
+l Copper Bar|QID|164002840|P|Blacksmithing;164;0|L|2840 150|N|You'll need about 150 Copper Bars.|
+l Copper Bar|QID|164002840|P|Mining;186;0+30;0|L|2840 225|N|You'll need about 225 Copper Bars. (75 bars needed to smelt bronze)|
 l Tin Bar|QID|164003576|P|Mining;186;0+50;0|L|3576 75|N|You'll need about  75 Tin Bars, to smelt with 75 Copper Bars to make bronze bars.|
-l Bronze Bar|QID|164002841|P|Blacksmithing;164|L|2841 150|N|You'll need about 150 Bronze Bars (Smelted from Copper and Tin, Click step off if you are a miner, Otherwise buy from AH.)|
-l Heavy Stone|QID|164002838|P|Blacksmithing;164|L|2838 105|N|You'll need about 105 Heavy Stone.|
-l Iron Bar|QID|164003575|P|Blacksmithing;164|L|3575 230|N|You'll need about 230 Iron Bars.|
+l Bronze Bar|QID|164002841|P|Blacksmithing;164;0|L|2841 150|N|You'll need about 150 Bronze Bars (Smelted from Copper and Tin, Click step off if you are a miner, Otherwise buy from AH.)|
+l Heavy Stone|QID|164002838|P|Blacksmithing;164;0|L|2838 105|N|You'll need about 105 Heavy Stone.|
+l Iron Bar|QID|164003575|P|Blacksmithing;164;0|L|3575 230|N|You'll need about 230 Iron Bars.|
 l Iron Bar|QID|164003575|P|Mining;186;0+125;0|L|3575 280|N|You'll need about 280 Iron Bars, 50 Bars to smelt with Coal to make Steel Bars.|
 B Coal|QID|164003857|P|Mining;186;0+125;0|L|3857 50|N|Purchase about  50 Coal from Blacksmithing Supply vendor.\nYou'll need these, with the Iron from above to smelt to make Steel Bars.|
-l Steel Bar|QID|164003859|P|Blacksmithing;164|L|3859 50|N|You'll need about 50 Steel Bars (Smelted from Iron Bars and Coal, Click step off if you are a miner, Otherwise buy from AH.)|
-l Solid Stone|QID|164007912|P|Blacksmithing;164|L|7912 20|N|You'll need about 20 Solid Stone.|
-l Mageweave Cloth|QID|164004338|P|Blacksmithing;164|L|4338 144|N|You'll need about 144 Mageweave Cloth.|
-l Mithril Bar|QID|164003860|P|Blacksmithing;164|L|3860 320|N|You'll need about 320 Mithril Bar.|
-l Dense Stone|QID|164012365|P|Blacksmithing;164|L|12365 20|N|You'll need about  20 Dense Stone.|
-l Thorium Bar|QID|164012359|P|Blacksmithing;164|L|12359 428|N|You'll need about 428 Thorium Bar.|
-l Star Ruby|QID|164007910|P|Blacksmithing;164|L|7910 10|N|You'll need about 10 Star Rubies.|
+l Steel Bar|QID|164003859|P|Blacksmithing;164;0|L|3859 50|N|You'll need about 50 Steel Bars (Smelted from Iron Bars and Coal, Click step off if you are a miner, Otherwise buy from AH.)|
+l Solid Stone|QID|164007912|P|Blacksmithing;164;0|L|7912 20|N|You'll need about 20 Solid Stone.|
+l Mageweave Cloth|QID|164004338|P|Blacksmithing;164;0|L|4338 144|N|You'll need about 144 Mageweave Cloth.|
+l Mithril Bar|QID|164003860|P|Blacksmithing;164;0|L|3860 320|N|You'll need about 320 Mithril Bar.|
+l Dense Stone|QID|164012365|P|Blacksmithing;164;0|L|12365 20|N|You'll need about  20 Dense Stone.|
+l Thorium Bar|QID|164012359|P|Blacksmithing;164;0|L|12359 428|N|You'll need about 428 Thorium Bar.|
+l Star Ruby|QID|164007910|P|Blacksmithing;164;0|L|7910 10|N|You'll need about 10 Star Rubies.|
 
-N Plans- Mithril Scale Bracers|P|Blacksmithing;164|RECIPE|7995|N|Next step you will need to travel to go buy this Blacksmithing Plan for about 60s, or you can buy from your local AH, but an alternate item to craft is in the guide.|
-B Plans- Mithril Scale Bracers|QID|164007995|M|47.2,52.2|Z|Swamp of Sorrows|P|Blacksmithing;164|RECIPE|7995|N|Purchase from Gharash, Swamp of Sorrows\n[color=cc0000]Random spawn timer for plans[color]\nIf you dont want to get, Right Click this step.|FACTION|Horde|
-B Plans- Mithril Scale Bracers|QID|164007995|M|13.6,44.8|Z|The Hinterlands|P|Blacksmithing;164|RECIPE|7995|N|Purchase from Harggan, The Hinterlands\n[color=cc0000]Random spawn timer for plans[color]\nIf you dont want to get, Right Click this step.|FACTION|Alliance|
-l Mithril Bar|QID|164003860|P|Blacksmithing;164|RECIPE|7995|L|3860 374|N|You'll need about 374 Mithril Bar instead, since you skipped the Plans- Mithril Scale Bracers.|
+N Plans- Mithril Scale Bracers|P|Blacksmithing;164;0|RECIPE|7995|N|Next step you will need to travel to go buy this Blacksmithing Plan for about 60s, or you can buy from your local AH, but an alternate item to craft is in the guide.|
+B Plans- Mithril Scale Bracers|QID|164007995|M|47.2,52.2|Z|Swamp of Sorrows|P|Blacksmithing;164;0|RECIPE|7995|N|Purchase from Gharash, Swamp of Sorrows\n[color=cc0000]Random spawn timer for plans[color]\nIf you dont want to get, Right Click this step.|FACTION|Horde|
+B Plans- Mithril Scale Bracers|QID|164007995|M|13.6,44.8|Z|The Hinterlands|P|Blacksmithing;164;0|RECIPE|7995|N|Purchase from Harggan, The Hinterlands\n[color=cc0000]Random spawn timer for plans[color]\nIf you dont want to get, Right Click this step.|FACTION|Alliance|
+l Mithril Bar|QID|164003860|P|Blacksmithing;164;0|RECIPE|7995|L|3860 374|N|You'll need about 374 Mithril Bar instead, since you skipped the Plans- Mithril Scale Bracers.|
 
-N Smelting|QID|186002841|P|Mining;186|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
+N Smelting|QID|186002841|P|Mining;186;0|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
 N Bronze Bar|QID|164002841|P|Mining;186;0+50;0|L|2841 150|N|1;Copper Bar;75;75:1;Tin Bar;75;75|
 N Steel Bar|QID|164003859|P|Mining;186;0+125;0|L|3859 50|N|1;Iron Bar;50;50:1;Coal;50;50|
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
@@ -51,7 +51,7 @@ N Shopping List|N|This completes the Shopping List, you may either have a few le
 ; end of shopping list, and pre craft.
 
 N Learn  Apprentice Blacksmithing|QID|901640000|P|Blacksmithing;164;*;0;75|N|Learn from a Trainer in any major city. Requires Level 5.|
-B Hammer|QID|164005956|P|Blacksmithing;164;1;2;|N|Buy from an NPC Supply|L|5956|
+B Hammer|QID|164005956|P|Blacksmithing;164;0;1;0|N|Buy from an NPC Supply|L|5956|
 
 ; What to Craft 001 to 090 Vanilla
 
@@ -91,8 +91,6 @@ N Dense Shapening Stone|QID|164016641|P|Blacksmithing;164;0+260;|N|1;Dense Stone
 N Thorium Bracers|QID|164016644|P|Blacksmithing;164;0+276;1|N|8;Thorium Bar;128;428|
 N Imperial Plate Bracers|QID|164016649|P|Blacksmithing;164;0+291;1|N|12;Thorium Bar;180;300|
 N Thorium Helm|QID|164016653|P|Blacksmithing;164;0+300;1|N|12;Thorium Bar;120;120:1;Star Ruby;10;10|
-
-; Begin Outland Section
 
 ; What to Craft 001 to 035 Outland
 
@@ -134,13 +132,12 @@ N Leveling from 60 to 75|N|Reputation with The Aldor - for both plans you need a
 B Plans- Flamebane Gloves|QID|164023603|M|47.8,26.2|Z|Shattrath City|RECIPE|23603|P|Blacksmithing;164;1+60;0|REP|The Aldor;932;Honored-Exalted|T|Quartermaster Endarin|N|Purchase from Quartermaster Endarin, Aldor's Rise, Shattrath\nNeed at least Honored Reputation.|
 N Flamebane Gloves|QID|164029616|P|Blacksmithing;164;1+75;1|N|8;Fel Iron Bar;136;136:4;Primal Water;68;68:4;Primal Fire;68;68|REP|The Aldor;932;Honored-Exalted|
 
-N Leveling from 60 to 75|N|via Dungeons - The Botanica for Plans: Earthpeace Breastplate\nAuchenai Crypts for Plans: Felsteel Gloves.\n\nNOTE! Unknown if still drops.|
+N Leveling from 60 to 75|N|via Dungeons - The Botanica for Plans- Earthpeace Breastplate\nAuchenai Crypts for Plans- Felsteel Gloves.\n\nNOTE! Unknown if still drops.|
 U Plans- Felsteel Gloves|QID|164023605|L|23605|P|Blacksmithing;164;1|RECIPE|29619|N|Run Auchenai Crypts until an Auchenai Monk drops these plans.|
 U Plans- Earthpeace Breastplate|QID|164023617|L|23617|P|Blacksmithing;164;1|RECIPE|29649|N|Run The Botanica until High Botanist Freywinn drops these plans.\n\nYou can skip this, just need to make double of Felsteel Gloves instead.|
 N Felsteel Gloves|QID|164029619|P|Blacksmithing;164;1+70;1|N|6;Felsteel Bar;60;60|
 N Felsteel Gloves|QID|164029619|P|Blacksmithing;164;1+75;1|RECIPE|29649|N|6;Felsteel Bar;60;60|  ; checks to see if they have next plan, if not do this step
 N Earthpeace Breastplate|QID|164029649|P|Blacksmithing;164;1+75;1|N|4;Hardended Adamantite Bar;40;40:6;Primal Life;60;60:4;Primal Earth;40;40|
-
 
 ;  INCOMPLETE FROM THIS POINT ON
 N INCOMPLETE FROM THIS POINT ON|N|DO NOT CONTINUE Broken guide|

@@ -20,7 +20,7 @@ l Shimmerscale|QID|165153050|P|Leatherworking;165;7+40;0|L|153050 182|N|You'll n
 l Coarse Leather|QID|165152541|P|Leatherworking;165;7+126;0|L|152541 2282|N|You'll need about 2,282 Coarse Leathers,|
 l Blood-Stained Bone|QID|165154164|P|Leatherworking;165;7+53;0|L|154164 664|N|You'll need about 664 Blood-Stained Bones.|
 l Tempest Hide|QID|165154722|P|Leatherworking;165;7+71;0|L|154722 50|N|You'll need about 50 Tempest Hides.|
-l Dredged Leather|QID|165168649|P|Leatherworking;165|L|168649 400|N|You'll need about 400 Dredged Leathers.|
+l Dredged Leather|QID|165168649|P|Leatherworking;165;7|L|168649 400|N|You'll need about 400 Dredged Leathers.|
 B Amber Tanning Oil|QID|165160059|L|160059 50|P|Leatherworking;165;7+71;0|N|You'll need about 50 of these for this step, Purchase from Trainer OR Trade Supplies Vendor.\nAlso available from Scrapping.|
 B Nylon Thread|QID|165159959|L|159959 200|P|Leatherworking;165;7+175;0|N|You'll need about 200 of these for this step, Purchase from Trainer OR Trade Supplies Vendor.\nAlso available from Scrapping.|
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
