@@ -56,6 +56,8 @@ WoWPro:GuideName(guide, "Blacksmithing")
 WoWPro:GuideSteps(guide, function()
 return [[
 
+N Do not use this Guide|N|This guide is broken, look for Blacksmithing_CATA|
+
 N Learn  Apprentice Blacksmithing|QID|901640000|P|Blacksmithing;164;*;0;75|N|Learn from a Trainer in any major city. Requires Level 5.|
 B Hammer|QID|901640001|P|Blacksmithing;164;1;2;|N|Buy from an NPC Supply|L|5956|
 N Rough Sharpening Stone|QID|901640002|P|Blacksmithing;164;1;25;|N|1;Rough Stone;24;54|
