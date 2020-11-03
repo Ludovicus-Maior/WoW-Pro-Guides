@@ -9,12 +9,12 @@ N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe
 
 ; List of Treasures in Maldraxxus a few in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
 
-; $ Forgotten Momentos|M|22.5,30.5|Z|Maldraxxus|N|WH - Vault Portculis to open the gate blocking treasure.|RANK|2|ACH|14312;4|
-; $ Misplaced Supplies|M|62.4,59.9|Z|Maldraxxus|N|WH - On top of mushroom. Climb hill, turn left, Jump to mushroom, Turn right, Jump to hill, Turn right and climb hill once more to the edge.|RANK|2|ACH|14312;5|
-; $ Runespeaker's Trove|M|31.7,70.0|Z|Maldraxxus|N|WH - Kill Runespeaker Phaeton to loot his key.|T|Runespeaker Phaeton|ITEM|183516|RANK|2|ACH|14312;6|
-; $ Ritualist's Cache|M|69.8,31.0;71.7,35.4;64.6,24.7|CS|Z|Maldraxxus|N|Loot Bone Pile for Missing Ritual Pages(1st coord)\nUse book of Binding Rituals (2nd Coords)\nYou have 5 mins to get treasure(last coord)|ITEM|183517|RANK|2|ACH|14312;7|
-; $ Chest of Eyes|M|48.4,15.1|Z|Maldraxxus|N|WH - Inside wreckage of Nurakkir in the House of Eyes.|ITEM|183696|RANK|2|ACH|14312;11|
-; $ Glutharn's Stash|M|72.8,53.6|Z|Maldraxxus|N|WH - Kill Scathely and his 2 adds to unlock treasure.|RANK|2|ACH|14312;12|
+; $ Forgotten Momentos|M|22.5,30.5|Z|Maldraxxus|N|WH - Vault Portculis to open the gate blocking treasure.|ACH|14312;4|
+; $ Misplaced Supplies|M|62.4,59.9|Z|Maldraxxus|N|WH - On top of mushroom. Climb hill, turn left, Jump to mushroom, Turn right, Jump to hill, Turn right and climb hill once more to the edge.|ACH|14312;5|
+; $ Runespeaker's Trove|M|31.7,70.0|Z|Maldraxxus|N|WH - Kill Runespeaker Phaeton to loot his key.|T|Runespeaker Phaeton|ITEM|183516|ACH|14312;6|
+; $ Ritualist's Cache|M|69.8,31.0;71.7,35.4;64.6,24.7|CS|Z|Maldraxxus|N|Loot Bone Pile for Missing Ritual Pages(1st coord)\nUse book of Binding Rituals (2nd Coords)\nYou have 5 mins to get treasure(last coord)|ITEM|183517|ACH|14312;7|
+; $ Chest of Eyes|M|48.4,15.1|Z|Maldraxxus|N|WH - Inside wreckage of Nurakkir in the House of Eyes.|ITEM|183696|ACH|14312;11|
+; $ Glutharn's Stash|M|72.8,53.6|Z|Maldraxxus|N|WH - Kill Scathely and his 2 adds to unlock treasure.|ACH|14312;12|
 
 ; TOF
 A Maldraxxus|QID|62278|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
@@ -70,7 +70,7 @@ C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|NC|N|Click on 
 C Memory of Honor|QID|60179|M|44.80,58.33|Z|Maldraxxus|QO|1<1|NC|N|Read the Faded Epitaphs off the headstones.|MS|
 C Memory of Honor|QID|60179|M|44.01,61.50|Z|Maldraxxus|QO|1<2|NC|N|Read the Faded Epitaphs off the headstones.|MS|
 C Memory of Honor|QID|60179|M|45.87,61.75|Z|Maldraxxus|QO|1<3|NC|N|Read the Faded Epitaphs off the headstones.|MS|
-$ Ornate Bone Shield|QID|59358|M|47.25,62.14|ITEM|180749|N|Up the hill for a bit of treasure.|
+$ Ornate Bone Shield|QID|59358|M|47.25,62.14|ITEM|180749|N|Up the hill for a bit of treasure.|ACH|14312;1|
 C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|NC|N|Click on weapons on the ground and give them to the Displaced Scavengers.|T|Displaced Scavenger|US|MS|
 C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|US|MS|
 T Arms for the Poor|QID|57511|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
@@ -269,14 +269,14 @@ A The Ones in Charge|QID|57984|M|PLAYER|Z|Maldraxxus|N|From Aspirant Thales.|PRE
 C The Ones in Charge|QID|57984|M|35.36,23.13|Z|Maldraxxus|QO|2|N|Kill Tabulator Hymeris.|T|Tabulator Hymeris|MS|
 C The Ones in Charge|QID|57984|M|33.50,22.50|Z|Maldraxxus|QO|1|N|Kill Doctor Hivvil.|T|Doctor Hivvil|MS|
 C The Ones in Charge|QID|57984|M|32.52,22.75|Z|Maldraxxus|QO|3|N|Kill Leacher Cvan.|T|Leacher Cvan|MS|
-$ Kyrian Corpse|QID|60587|M|32.73,21.31|Z|Maldraxxus|U|180085|N|Open the box for a bit of treasure.|
+$ Kyrian Corpse|QID|60587|M|32.73,21.31|Z|Maldraxxus|U|180085|N|Open the box for a bit of treasure.|ACH|14312;8|
 T The Ones in Charge|QID|57984|M|32.00,27.31|Z|Maldraxxus|N|To Secutor Mevix.|MS|
 A Give Them a Hand|QID|57985|M|32.00,27.31|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57984|MS|
 A A Deadly Distraction|QID|57987|M|32.00,27.31|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57984|MS|
 A A Burden Worth Bearing|QID|57986|M|32.08,27.43|Z|Maldraxxus|N|From Aspirant Thales.|PRE|57984|MS|
 C A Deadly Distraction|QID|57987|M|31.04,25.95|Z|Maldraxxus|N|Kill Warstitched forces.|S|MS|
 C Give Them a Hand|QID|57985|M|30.08,27.80|Z|Maldraxxus|U|180120|N|Click on the Vestigial Animate to uproot and kill them.|S|MS|; looks like U not needed
-$ Haily's Lunch Pail|QID|60730|M|30.8,28.76|Z|Maldraxxus|N|Some treasure for you.|
+$ Haily's Lunch Pail|QID|60730|M|30.8,28.76|Z|Maldraxxus|N|Some treasure for you.|ACH|14312;2|
 C A Burden Worth Bearing|QID|57986|M|32.78,28.13|Z|Maldraxxus|QO|1|N|Click the Gurney to get Kyrian Equipment.|MS|
 C A Burden Worth Bearing|QID|57986|M|28.67,28.21|Z|Maldraxxus|QO|2|N|Click on the Lost Kyrian's around the area.|MS|
 C A Burden Worth Bearing|QID|57986|M|30.17,23.84|Z|Maldraxxus|QO|3|N|Bring Kou and Koa to Thales.|MS|
@@ -350,7 +350,7 @@ A Archival Protection|QID|60900|M|41.83,23.61|Z|Maldraxxus|N|From Ta'eran.|PRE|5
 C Archival Protection|QID|60900|M|42.26,24.11|Z|Maldraxxus|N|Continue up the stairs to find and kill The Archivist.|T|The Archivist|
 T Archival Protection|QID|60900|M|PLAYER|Z|Maldraxxus|N|To Ta'ern.|
 A Trust Fall|QID|59994|M|PLAYER|Z|Maldraxxus|N|From Ta'eran.|PRE|60900|
-$ The Necronom-i-nom|QID|61470|M|42.35,23.34|Z|Maldraxxus|N|More treasure for you in a bookcase near The Archivist.|ITEM|182732|RANK|2|
+$ The Necronom-i-nom|QID|61470|M|42.35,23.34|Z|Maldraxxus|N|More treasure for you in a bookcase near The Archivist.|ITEM|182732|ACH|14312;10|
 C Trust Fall|QID|59994|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Jump out of the tower.|
 C Trust Fall|QID|59994|M|45.49,32.09|QO|2|Z|Maldraxxus|NC|N|Click the floating book behind you.|
 T Trust Fall|QID|59994|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
@@ -426,7 +426,7 @@ K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<1|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
 K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill the Burning Extracts, Colossal Goo or Prodigious Animates, once it dies there will sometimes be a 2nd corpse, that you click on to collect the oil, ooze or goo.|BUFF|306636^306606^306630|
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<2|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
-$ Vat of Conspicuous Slime|QID|61444|M|59.88,79.00|Z|Maldraxxus|N|Pick up "Empty Plague Bottle" from table, then click on the vat for treasure.|LVL|60|
+$ Vat of Conspicuous Slime|QID|61444|M|59.88,79.00|Z|Maldraxxus|N|Pick up "Empty Plague Bottle" from table, then click on the vat for treasure.|ITEM|181825|ACH|14312;9|LVL|60| ; does this need LVL?
 C By Any Other Name|QID|59223|M|57.96,80.41|Z|Maldraxxus|QO|1|N|Kill the Blossoming Dreadshade and loot its Extract.|MS|
 K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill the Burning Extracts, Colossal Goo or Prodigious Animates, once it dies there will sometimes be a 2nd corpse, that you click on to collect the oil, ooze or goo.|BUFF|306636^306606^306630|
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<3|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
@@ -439,10 +439,10 @@ C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|3|NC|N|Click on the
 T Fit For a Margrave|QID|60831|M|60.50,71.60|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 A Fathomless Power|QID|59231|M|60.50,71.60|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|60831|MS|
 A Plaguefall: Knee Deep In It|QID|59520|M|59.39,72.95|Z|Maldraxxus|ELITE|N|[color=e6cc80]Dungeon: Plaguefall[/color]\nFrom Vial Master Lurgy. This quest is optional and out of scope for this guide.|RANK|2|
-$ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus|N|Get a Mask from Pandemis.|BUFF|338920|
-$ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|;330069<10|
-$ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|
-$ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus|N|And, the Treasure is along the top of the wall in a chest.|
+$ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus|N|Get a Mask from Pandemis.|BUFF|338920|ACH|14312;13|
+$ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|;330069<10|ACH|14312;13|
+$ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|ACH|14312;13|
+$ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus|N|And, the Treasure is along the top of the wall in a chest.|ACH|14312;13|
 F Bleak Redoubt|ACTIVE|59231|M|58.02,72.37|
 
 C Fathomless Power|QID|59231|M|50.40,67.75|Z|Maldraxxus|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Inisght.|EAB|MS|
@@ -458,7 +458,7 @@ C A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|CHAT|N|Deliver the summons
 T A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A Glorious Pursuits|QID|58821|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
 A Prey Upon Them|QID|59171|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
-$ Stolen Jar|QID|61451|M|65.85,49.51|Z|Maldraxxus|N|In this cave for some treasure.|
+$ Stolen Jar|QID|61451|M|65.85,49.51|Z|Maldraxxus|N|In this cave for some treasure.|ITEM|182618|ACH|14312;3|
 A ...Why Me?|QID|62085|M|66.16,50.44|Z|Maldraxxus|N|From item just looted.|PRE|61451|
 C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Morbid Disciple slain|S|MS|
 C Glorious Pursuits|QID|58821|M|62.75,52.52|Z|Maldraxxus|QO|1|U|178940|N|Attack Mephiles the Loyal until he is under 50% then use Vashj's Signal to capture it.|MS|

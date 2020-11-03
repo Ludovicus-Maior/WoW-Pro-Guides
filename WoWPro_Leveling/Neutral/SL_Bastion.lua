@@ -9,16 +9,16 @@ N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe
 
 ; List of Treasures in Bastion a few in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
 
-; $ Scroll of Aeons|M|53.5,80.3|Z|Bastion|N|WH - Loot 2 Purian around Aspirant's Crucible and put them in tribute bowl to spawn treasure.|ITEM|173984|RANK|2|ACH|14311;1|
-; $ Abandoned Stockpile|M|44.6,46.5|Z|Bastion|N|WH - Entrance is hidden behind bushes.|RANK|2|ACH|14311;4|
-; $ Windsmith's Tools|M|35.8,48.1|Z|Bastion|N|WH - Requires Broken Kyrian Flute, dropped by Agitated Etherwyrms|T|Agitated Etherwyrm|ITEM|180064|RANK|2|ACH|14311;5|
-; $ Gift of Agthia|M|35.1,58.0|Z|Bastion|N|WH - Interact with Agthia's Flame at 39.1,54.4 to obtain Proof of Courage, then complete her test to unlock treasure.|ITEM|180063|RANK|2|ACH|14311;6|
-; $ Gift of Chyrus|M|70.5,36.5|Z|Bastion|N|WH - /kneel in front of treasure to Obtain Proof of Humility.|RANK|2|ACH|14311;7|
-; $ Gift of Devos|M|27.6,21.7|Z|Bastion|N|WH - Take Flame of Devotion at 23.9,24.8, and bring it to the brazier, Obatining Proof of Loyalty.|ITEM|179977|RANK|2|ACH|14311;8|
-; $ Experimental Construct Part|M|51.4,17.9|Z|Bastion|N|WH - Requires Unstable Construct Anima, drops from nearby mobs.|ITEM|183609|RANK|2|ACH|14311;12|
-; $ Memorial Offerings|M|56.5,17.2|Z|Bastion|N|WH - Buy Memorial Wine from Kobri, use on drink tray near treasure to get the Key.|RANK|2|ACH|14311;13|
-; $ Gift of Vesiphone|M|65.2,70.3|Z|Bastion|N|WH - Ring nearby bell, while standing under waterfall for Proof of Purity, to unlock treasure.|ITEM|180859|RANK|2|ACH|14311;14|
-; $ Gift of Thenios|M|40.2,18.2|Z|Bastion|N|WH - Obtain Proof of Wisdom, using nearby teleporter, and light the incenses in the correct order.\nClick Incense of Patience\nClick Incense of Knowledge\nClick Incense of Insight\n[color=FF0000]SKIP[/color] Incense of Judgement\nClick Anima Orb\nClick Incense of Judgement on the FIFTH platform, then port back.|RANK|2|ACH|14311;15|
+; $ Scroll of Aeons|M|53.5,80.3|Z|Bastion|N|WH - Loot 2 Purian around Aspirant's Crucible and put them in tribute bowl to spawn treasure.|ITEM|173984|ACH|14311;1|
+; $ Abandoned Stockpile|M|44.6,46.5|Z|Bastion|N|WH - Entrance is hidden behind bushes.|ACH|14311;4|
+; $ Windsmith's Tools|M|35.8,48.1|Z|Bastion|N|WH - Requires Broken Kyrian Flute, dropped by Agitated Etherwyrms|T|Agitated Etherwyrm|ITEM|180064|ACH|14311;5|
+; $ Gift of Agthia|M|35.1,58.0|Z|Bastion|N|WH - Interact with Agthia's Flame at 39.1,54.4 to obtain Proof of Courage, then complete her test to unlock treasure.|ITEM|180063|ACH|14311;6|
+; $ Gift of Chyrus|M|70.5,36.5|Z|Bastion|N|WH - /kneel in front of treasure to Obtain Proof of Humility.|ACH|14311;7|
+; $ Gift of Devos|M|27.6,21.7|Z|Bastion|N|WH - Take Flame of Devotion at 23.9,24.8, and bring it to the brazier, Obatining Proof of Loyalty.|ITEM|179977|ACH|14311;8|
+; $ Experimental Construct Part|M|51.4,17.9|Z|Bastion|N|WH - Requires Unstable Construct Anima, drops from nearby mobs.|ITEM|183609|ACH|14311;12|
+; $ Memorial Offerings|M|56.5,17.2|Z|Bastion|N|WH - Buy Memorial Wine from Kobri, use on drink tray near treasure to get the Key.|ACH|14311;13|
+; $ Gift of Vesiphone|M|65.2,70.3|Z|Bastion|N|WH - Ring nearby bell, while standing under waterfall for Proof of Purity, to unlock treasure.|ITEM|180859|ACH|14311;14|
+; $ Gift of Thenios|M|40.2,18.2|Z|Bastion|N|WH - Obtain Proof of Wisdom, using nearby teleporter, and light the incenses in the correct order.\nClick Incense of Patience\nClick Incense of Knowledge\nClick Incense of Insight\n[color=FF0000]SKIP[/color] Incense of Judgement\nClick Anima Orb\nClick Incense of Judgement on the FIFTH platform, then port back.|ACH|14311;15|
 
 
 ;TOF
@@ -157,7 +157,7 @@ C The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^
 C The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|53.51,87.12|Z|Bastion|NC|QO|2|N|Stand in the blue circle and click the "[color=40C7EB]Kalisthene's Grace[/color]" Action Ability.|EAB|MS|
 T The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|53.52,87.06|Z|Bastion|N|To Kalisthene.|MS|
 A All An Aspirant Can Do|QID|58174|M|53.50,87.27|Z|Bastion|N|From Kleia.|PRE|60229^60226^60225^60224^60223^60222^60221^60220^60219^60218^60217^57715|MS|
-$ Purifying Draught|QID|58329|M|52.04,86.08|Z|Bastion|N|One of the treasures of Bastion.|ITEM|174007|RANK|2|ACH|14311;2|
+$ Purifying Draught|QID|58329|M|52.04,86.08|Z|Bastion|N|One of the treasures of Bastion.|ITEM|174007|ACH|14311;2|
 C Aspirant For a Day|QID|62737|M|55.67,84.05|Z|Bastion|N|Don't forget to deliver those lost scrolls to Scrollminder Vasi. Finish the bonus objective before you hearth.|TOF|
 t Aspirant For a Day|QID|62737|M|55.67,84.05|Z|Bastion|N|Autocompleted.|TOF|
 H Aspirant's Rest|QID|1|ACTIVE|58174^62723|N|Hearthstone back to Aspirant's Rest.|
@@ -203,7 +203,7 @@ A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion|N|From The Scroll 
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion|NC|N|Find the scrolls around the area.|S|MS|
 C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|Bastion|QO|2|NC|N|Click the bell to clease the Vesper of Harmony.|MS|
 C A Once Sweet Sound|QID|57037|M|57.32,71.34|Z|Bastion|NC|QO|1|N|Click the bell to cleanse the Vesper of Purity.|MS|
-$ Vesper of Virtues|QID|62841^60478|M|58.66,71.39|Z|Bastion|N|Treasure is an item that buffs and gives small Heal.|ITEM|179982|RANK|2|ACH|14311;9|
+$ Vesper of Virtues|QID|62841^60478|M|58.66,71.39|Z|Bastion|N|Treasure is an item that buffs and gives small Heal.|ITEM|179982|ACH|14311;9|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion|NC|N|Finish reading the scrolls around the area.|US|MS|
 C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|US|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion|N|Finish cleansing the temple by killing hostiles and rescuing terrified stewards.|US|MS|
@@ -396,7 +396,7 @@ A Fight Another Day|QID|60009|M|41.30,54.36|Z|Bastion|N|From Disciple Apolon.|PR
 C Rip and Tear|QID|60008|M|40.25,51.07|Z|Bastion|N|Kill all the hostile mobs.|S|MS|
 C Fight Another Day|QID|60009|M|40.25,51.07|Z|Bastion|NC|N|Free the Acended.|S|MS|
 C Stay Scrappy|QID|60007|M|40.76,52.21|QO|1|Z|Bastion|NC|N|Click on the Anima Conflux.|MS|
-$ Stolen Equipment|QID|61044|M|40.51,49.81|Z|Bastion|N|Click for another of the treasures of Bastion.|RANK|2|ACH|14311;11|
+$ Stolen Equipment|QID|61044|M|40.51,49.81|Z|Bastion|N|Click for another of the treasures of Bastion.|ACH|14311;11|
 C Stay Scrappy|QID|60007|M|39.48,48.99|QO|3|Z|Bastion|NC|N|Click the Archonic Resonator.|MS|
 C Stay Scrappy|QID|60007|M|39.69,52.66|QO|2|Z|Bastion|NC|N|Click the Eternity Plating.|MS|
 C Fight Another Day|QID|60009|M|40.25,51.07|Z|Bastion|NC|N|Free the Acended.|US|MS|
@@ -458,7 +458,7 @@ C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion|N|Kill the Etherwyrms wit
 R Hall of Beasts|ACTIVE|57935|CS|M|56.71,42.68;56.13,40.28|Z|Bastion|N|Run into the Hall of Beasts.|
 C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|S|
 C Superior Programming|QID|57936|M|56.13,40.28|Z|Bastion|N|Kill Leonid.|T|Leonid|
-$ Larion Tamer's Harness|QID|61049|M|58.23,39.97|N|Treasure for your enjoyment.|RANK|2|ACH|14311;3|
+$ Larion Tamer's Harness|QID|61049|M|58.23,39.97|N|Treasure for your enjoyment.|ACH|14311;3|
 C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|US|
 C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion|N|Kill the Etherwyrms with Gatamatos at your side.|US|
 T Superior Programming|QID|57936|M|54.81,41.19|Z|Bastion|N|To Hopo.|
