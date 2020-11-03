@@ -68,7 +68,7 @@ T The Uldum Accord|QID|56472|M|54.90,32.76|Z|Uldum|N|To King Phaoris.|
 A Surfacing Threats|QID|56376|PRE|56472|M|54.90,32.76|Z|Uldum|N|From King Phaoris.|
 C Surfacing Threats|QID|56376|M|54.83,32.96|Z|Uldum|CHAT|QO|1|N|Speak to High Commander Kamses to have him show you threats.|
 C Surfacing Threats|QID|56376|M|54.83,32.96|Z|Uldum|CHAT|QO|2|N|Complete an Uldum Assault.|
-T Surfacing Threats|QID|56376|M|54.90,32.76|Z|Uldum||N|To King Phaoris.|
+T Surfacing Threats|QID|56376|M|54.90,32.76|Z|Uldum|N|To King Phaoris.|
 ; Unlocks Uldum Assaults
 A Forging Onward|QID|56377|M|54.90,32.78|Z|Uldum|N|From King Phaoris.|PRE|56376|
 R Chamber of Heart|ACTIVE|56377|M|43.21,44.49|Z|Silithus|N|Run into the Chamber of Heart.|
@@ -109,11 +109,11 @@ C Time-Lost Warriors|QID|56771|M|44.53,74.46|Z|1530|CHAT|QO|2|N|Show Stormspeake
 C Time-Lost Warriors|QID|56771|M|45.32,74.34|Z|1530|CHAT|QO|3|N|Speak with Ra-Den.|
 T Time-Lost Warriors|QID|56771|M|44.74,73.90|Z|1530|N|To Stormspeaker Qian.|
 A Proof of Tenacity|QID|56540|PRE|56771|M|44.74,73.90|Z|1530|N|From Stormspeaker Qian.|
-C Proof of Tenacity|QID|56540|M|44.09,13.75|S!US|Z|1530|N|Complete a Swarm Assault. You should also pick up whatever dailies are available.||
+C Proof of Tenacity|QID|56540|M|44.09,13.75|S!US|Z|1530|N|Complete a Swarm Assault. You should also pick up whatever dailies are available.|
 C Blades of Amber|QID|58760|M|18.72,66.53|S!US|Z|1530|N|Kill Vil'thik Mantid to collect the Amber Blades.| ; Daily
 C Halting Production|QID|58763|M|18.72,66.53|S!US|Z|1530|NC|N|Click to destroy the yellow globe-like groundspawn 'Amber Vessel'.| ; Daily
 C Standards of the Swarm|QID|58764|M|18.72,66.53|S!US|Z|1530|NC|N|Click to burn the Standards.| ; Daily
-C Rampaging Destroyers|QID|58758|M|18.72,66.53|S!US|Z|1530|N|Kill Kunchong Destroyers, you probably want help.| ' Daily
+C Rampaging Destroyers|QID|58758|M|18.72,66.53|S!US|Z|1530|N|Kill Kunchong Destroyers, you probably want help.| ; Daily
 C The Strongest Among Them|QID|58423|M|51.86,41.36|S!US|Z|1530|N|Kill Rare N'Zoth minions.|;daily
 C Corruption Manifest|QID|58465|M|85.05,39.15|S!US|Z|1530|N|Kill Putrid Ichor.|;daily
 C Torment From Beyond|QID|58466|M|42.54,68.34|S!US|Z|1530|N|Release Ancient Pandaren Spirits|;daily
@@ -223,11 +223,11 @@ C MOTHER|QID|58631|QO|1|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|CHAT|N|Ask 
 T Into Dreams|QID|58631|M|50.10,59.23|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A Ny'alotha, the Waking City:\nThe Corruptor's End|QID|58632|PRE|58631|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.\nDefeat N'zoth in the Ny'alotha raid instance.|
 t Ny'alotha, the Waking City:\nThe Corruptor's End|QID|58632|PRE|58631|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard. Assming back at the Heart.|
-A Accessing the Archives|QID|57524|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|PRE|58615|  ; Need to complete OBJ, Turned in not required.
+A Accessing the Archives|QID|57524|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|PRE|58615|  ; Need to complete OBJ, Turned in not required. Ignore Grail
 C Titanic Research Archive|QID|57524|QO|1|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|N|Ask MOTHER to bring the database online.|
 C Titanic Research Archive|QID|57524|QO|2|M|46.38,70.44|Z|Chamber of Heart!Dungeon1473|N|Then click on the Archive to activate it.|
 T Accessing the Archives|QID|57524|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
-A Remnants of a Shattered World|QID|57378|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion. You will need to enter a Horrific Vision and kill a boss.|PRE|58615|  ; Need to complete OBJ, Turned in not required.
+A Remnants of a Shattered World|QID|57378|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion. You will need to enter a Horrific Vision and kill a boss.|PRE|58615|  ; Need to complete OBJ, Turned in not required. Ignore Grail
 C Curse of Stone|QID|57378|QO|1|N|Just use your map and make your way to the skull. \nYou now have a reset button for your sanity, it can't be used in combat. Kill and then collect your loot and exit the vision. PROFIT! \nKilling the boss ends the scenario, killing more of the trash first, increases your corrupted currency rewards a bit.|
 T Remnants of a Shattered World|QID|57378|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
 A Reconstructing "The Curse of Stone"|QID|57391|PRE|57378|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
