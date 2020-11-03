@@ -29,7 +29,7 @@
 -- Log: Initial Upload
 
 local guide = WoWPro:RegisterGuide("LudoGarrisonPets", "Dailies", "Draenor", "Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,100, 100, 100)
+WoWPro:GuideLevels(guide, 20, 20, 20)
 WoWPro:GuideIcon(guide,"ACH",9463)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Garrison Daily Pet Battles","Pets")
 WoWPro:GuidePetBattle(guide)
