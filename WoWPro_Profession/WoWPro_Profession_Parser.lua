@@ -51,7 +51,11 @@ function WoWPro.Profession:PreRowUpdate(row)
     -- Break down the current step and re-create
     if prof then
         local _, profnum, proflvl, _, profmaxlvl = (";"):split(prof)
-        if proflvl == '*' then proflvl = 301 end -- Set to the maximum level obtainable in the expansion plus 1
+		if proflvl == '*' then proflvl = 301 end -- Set to the maximum level obtainable in the expansion plus 1
+		if not proflvl then
+			WoWPro.Profession:Error("P tag [%s] malformed at [%s] QID %s", prof, step, tostring(WoWPro.QID[k]))
+			return
+		end
 		local _, proflvls = ("+"):split(proflvl)
         proflvl = tonumber(proflvls) or 1
         profmaxlvl = tonumber(profmaxlvl) or 0
