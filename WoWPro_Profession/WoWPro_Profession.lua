@@ -56,6 +56,10 @@ function WoWPro.Profession:OnDisable()
     end
 end
 
+function WoWPro.Profession:RegisterGuide(guide)
+    WoWPro:NoCoordsOK(guide)
+end
+
 function WoWPro.Profession:LoadAllGuides()
     self:Print("Test Load of Profession Guides")
     local aCount=0

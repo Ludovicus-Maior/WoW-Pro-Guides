@@ -743,9 +743,8 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         GID = GIDvalue
     }
 
-    if 'Leveling' ~= gtype then
-        WoWPro:NoCache(guide)
-        WoWPro:NoCoordsOK(guide)
+    if  WoWPro[gtype].RegisterGuide then
+        WoWPro[gtype]:RegisterGuide(guide)
     end
 
     if faction and faction ~= WoWPro.Faction and faction ~= "Neutral" then

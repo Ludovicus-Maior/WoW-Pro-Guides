@@ -46,6 +46,10 @@ function WoWPro.Dailies:OnDisable()
     end
 end
 
+function WoWPro.Dailies:RegisterGuide(guide)
+    WoWPro:NoCache(guide)
+end
+
 function WoWPro.Dailies:GuideFaction(guide,faction)
     guide.faction = tonumber(faction)
 end
