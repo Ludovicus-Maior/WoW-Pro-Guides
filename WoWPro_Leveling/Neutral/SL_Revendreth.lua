@@ -6,6 +6,27 @@ WoWPro:GuideNextGuide(guide, "The Maw")
 WoWPro:GuideSteps(guide, function()
 return [[
 N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
+
+; List of Treasures in Revendreth, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
+
+; $ Lost Quill|M|37.7,69.2|Z|Revendreth|RANK|2|ACH|14314;1|
+; $ The Count|M|57.3,43.3|Z|Revendreth|RANK|2|ACH|14314;2|
+; $ Vrytha's Dredglaive|M|70.1,60.0|Z|Revendreth|RANK|2|ACH|14314;3|
+; $ Taskmaster's Trove|M|63.0,72.1|Z|Revendreth|N|WH - Use Ingress and Egrees Rites in niche next to wall, Avoid traps, collect treasure.|RANK|2|ACH|14314;4|
+; $ Smuggled Cache|M|31.05,55.10|Z|Revendreth|N|WH - Under broken bridge, starts a quest.|RANK|2|ITEM|182738|ACH|14314;5|
+; $ Filcher's Prize|M|64.21,72.76|Z|Revendreth|N|WH - Just down from road, Statue of bat comes alive after looting.|RANK|2|ITEM|179392|ACH|14314;6|
+; $ Remlate's Hidden Cache|M|61.56,58.65|Z|Revendreth|N|WH - Outer wall of Darkhaven. At FM, Jump carefully to the right on outer wall.|RANK|2|ACH|14314;7|
+; $ Gilded Plum Chest|M|46.42,58.12|Z|Revendreth|N|WH - Greedy Soul mob, defeat mob and LOTS of adds for treasure.|RANK2|ITEM|179390|ACH|14314;8|
+; $ Stylish Parasol|CS|M|42.04,47.03;38.63,44.36|Z|Revendreth|N|WH - Treasure on Castle Wall, use elevator at 1st Coords.|RANK|2|ITEM|182694|ACH|14314;9|
+; $ Rapier of the Fearless|M|79.9,37.0|Z|Revendreth|N|WH - North-East of Halls of Atonement FP, after picking up Mobs Spawn.|RANK|2|ITEM|182689|ACH|14314;10|
+; $ Makeshift Muckpool|M|29.7,37.2|Z|Revendreth|N|WH - Inside Castle Ruins, need 30 Infused Ruby to loot.|RANK|2|ACH|14314;11|
+; $ Forbidden Chamber|Z|Revendreth|RANK|2|ACH|14314;12|
+; $ Chest of Envious Dreams|M|69.28,78.08|Z|Revendreth|N|WH - Guarded by mobs that attack you when you attempt to loot.|RANK|2|ITEM|179393|ACH|14314;13|
+; $ Wayfarer's Abandoned Spoils|M|68.45,64.38|Z|Revendreth|N|WH - On broken wall, use Bounding Shroom to jump there.|RANK|2|ACH|14314;14|
+; $ Fleeing Soul's Bundle|M|46.42,58.12|Z|Revendreth|N|WH - On wall above Stalker's Lodge, jump from nearby eleveator (43.53,59.50)|RANK|2|ACH|14314;15|
+; $ Abandoned Curios|CS|M|51.06,59.14;51.85,59.54|Z|Revendreth|N|WH - Jump from 1st Coord, treasure at 2nd.|RANK|2|ITEM|182744|ACH|14314;16|
+
+
 ; Welcome to Revendreth Storyline
 A A Plea to Revendreth|QID|57025|M|48.82,60.04|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|57|PRE|58724|MS|
 C A Plea to Revendreth|QID|57025|M|35.19,51.95|Z|Ring of Fates@Oribos|QO|1|NC|N|Click on the Ancient Focus to activate the gateway to Revendreth.|MS|
