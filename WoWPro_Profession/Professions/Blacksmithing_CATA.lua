@@ -15,7 +15,40 @@ return [[
 
 N This Guide is a Work In Progress Guide.|N|Currently in Development, This Guide covers what Blizzard now terms CATACLYSM content:\nRetail Vanilla Level 1-300\nOutland 1-75\nNorthrend 1-75\nCataclysm 1-75\nAlso ASSUMES you have the appropriate Skill|
 N Reputation Required for this Guide|N|Reputation needed:\nCenarion Expedition - Honored AND Either\nThe Scryers - Revered OR\nThe Aldor - Honored OR\n Run Botanica for Plans: Earthpeace Breastplate and\nAuchenai crypts for Plans: Felsteel Gloves|
+N Miner|N|If you are a miner, it is recommended you go level your miner up first, currently no guide in the works for mining.|
+N Shopping List|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
 
+; Begin Shopping list, as of Oct-2020
+
+l Rough Stone|QID|164002835|P|Blacksmithing;164|L|2835 145|N|You'll need about 145 Rough Stones.|
+l Coarse Stone|QID|164002836|P|Blacksmithing;164|L|2836 80|N|You'll need about  80 Coarse Stones.|
+l Copper Bar|QID|164002840|P|Blacksmithing;164|L|2840 150|N|You'll need about 150 Copper Bars.|
+l Copper Bar|QID|164002840|P|Mining;186;0+50;0|L|2840 225|N|You'll need about 225 Copper Bars. (75 bars needed to smelt bronze)|
+l Tin Bar|QID|164003576|P|Mining;186;0+50;0|L|3576 75|N|You'll need about  75 Tin Bars, to smelt with 75 Copper Bars to make bronze bars.|
+l Bronze Bar|QID|164002841|P|Blacksmithing;164|L|2841 150|N|You'll need about 150 Bronze Bars (Smelted from Copper and Tin, Click step off if you are a miner, Otherwise buy from AH.)|
+l Heavy Stone|QID|164002838|P|Blacksmithing;164|L|2838 105|N|You'll need about 105 Heavy Stone.|
+l Iron Bar|QID|164003575|P|Blacksmithing;164|L|3575 230|N|You'll need about 230 Iron Bars.|
+l Iron Bar|QID|164003575|P|Mining;186;0+125;0|L|3575 280|N|You'll need about 280 Iron Bars, 50 Bars to smelt with Coal to make Steel Bars.|
+B Coal|QID|164003857|P|Mining;186;0+125;0|L|3857 50|N|Purchase about  50 Coal from Blacksmithing Supply vendor.\nYou'll need these, with the Iron from above to smelt to make Steel Bars.|
+l Steel Bar|QID|164003859|P|Blacksmithing;164|L|3859 50|N|You'll need about 50 Steel Bars (Smelted from Iron Bars and Coal, Click step off if you are a miner, Otherwise buy from AH.)|
+l Solid Stone|QID|164007912|P|Blacksmithing;164|L|7912 20|N|You'll need about 20 Solid Stone.|
+l Mageweave Cloth|QID|164004338|P|Blacksmithing;164|L|4338 144|N|You'll need about 144 Mageweave Cloth.|
+l Mithril Bar|QID|164003860|P|Blacksmithing;164|L|3860 320|N|You'll need about 320 Mithril Bar.|
+l Dense Stone|QID|164012365|P|Blacksmithing;164|L|12365 20|N|You'll need about  20 Dense Stone.|
+l Thorium Bar|QID|164012359|P|Blacksmithing;164|L|12359 428|N|You'll need about 428 Thorium Bar.|
+l Star Ruby|QID|164007910|P|Blacksmithing;164|L|7910 10|N|You'll need about 10 Star Rubies.|
+
+N Plans- Mithril Scale Bracers|P|Blacksmithing;164|RECIPE|7995|N|Next step you will need to travel to go buy this Blacksmithing Plan for about 60s, or you can buy from your local AH, but an alternate item to craft is in the guide.|
+B Plans- Mithril Scale Bracers|QID|164007995|M|47.2,52.2|Z|Swamp of Sorrows|P|Blacksmithing;164|RECIPE|7995|N|Purchase from Gharash, Swamp of Sorrows\n[color=cc0000]Random spawn timer for plans[color]\nIf you dont want to get, Right Click this step.|FACTION|Horde|
+B Plans- Mithril Scale Bracers|QID|164007995|M|13.6,44.8|Z|The Hinterlands|P|Blacksmithing;164|RECIPE|7995|N|Purchase from Harggan, The Hinterlands\n[color=cc0000]Random spawn timer for plans[color]\nIf you dont want to get, Right Click this step.|FACTION|Alliance|
+l Mithril Bar|QID|164003860|P|Blacksmithing;164|RECIPE|7995|L|3860 374|N|You'll need about 374 Mithril Bar instead, since you skipped the Plans- Mithril Scale Bracers.|
+
+N Smelting|QID|186002841|P|Mining;186|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
+N Bronze Bar|QID|164002841|P|Mining;186;0+50;0|L|2841 150|N|1;Copper Bar;75;75:1;Tin Bar;75;75|
+N Steel Bar|QID|164003859|P|Mining;186;0+125;0|L|3859 50|N|1;Iron Bar;50;50:1;Coal;50;50|
+N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+
+; end of shopping list, and pre craft.
 
 N Learn  Apprentice Blacksmithing|QID|901640000|P|Blacksmithing;164;*;0;75|N|Learn from a Trainer in any major city. Requires Level 5.|
 B Hammer|QID|164005956|P|Blacksmithing;164;1;2;|N|Buy from an NPC Supply|L|5956|
@@ -46,20 +79,20 @@ N Golden Scale Bracers|QID|164007223|P|Blacksmithing;164;0+200;1|N|5;Steel Bar;5
 ; What to Craft 201 to 260 Vanilla
 
 N Solid Sharpening Stone|QID|164009918|P|Blacksmithing;164;0+210;1|N|1;Solid Stone;20;20|
-N Heavy Mithril Gauntlet|QID|164009928|P|Blacksmithing;164;0+225;1|N|6;Mithril Bar;90;360:4;Mageweave Cloth;60;120|
+N Heavy Mithril Gauntlet|QID|164009928|P|Blacksmithing;164;0+225;1|N|6;Mithril Bar;90;360:4;Mageweave Cloth;60;144|
 ; N Learn Artisan Blacksmithing |QID|901640020|P|Blacksmithing;164;*;0;300|N|Visit your Trainer in any major city.  Requires Level 35.|
-B Plans: Mithril Scale Bracers|QID|164007995|M|47.2,52.2|Z|Swamp of Sorrows|P|Blacksmithing;164;0+215;0|RECIPE|7995|N|Purchase from Gharash, Swamp of Sorrows\nIf you dont want to get, Right Click this step.|FACTION|Horde|
-B Plans: Mithril Scale Bracers|QID|164007995|M|13.6,44.8|Z|The Hinterlands|P|Blacksmithing;164;0+215;0|RECIPE|7995|N|Purchase from Harggan, The Hinterlands\nIf you dont want to get, Right Click this step.|FACTION|Alliance|
-N Mithril Scale Bracers|QID|164009937|P|Blacksmithing;164;0+236;1|N|8;Mithril Bar;88;100:\nIf you didnt get the plans, RIGHT click this step.|
+N Mithril Scale Bracers|QID|164009937|P|Blacksmithing;164;0+236;1|RECIPE|7995|N|8;Mithril Bar;88;100:\nIf you didnt get the plans, RIGHT click this step.|
 N Mithril Scale Pants|QID|164009931|P|Blacksmithing;164;0+236;1|N|12;Mithril Bar;144;144:\n Make this if you didn't get the Bracers Plans.|
 N Mithril Coif|QID|164009961|P|Blacksmithing;164;0+250;|N|10;Mithril Bar;140;140:6;Mageweave Cloth;84;84|
 N Dense Shapening Stone|QID|164016641|P|Blacksmithing;164;0+260;|N|1;Dense Stone;20;20:\nMake all you have and keep.|
 
 ; What to Craft 261 to 300 Vanilla
 
-N Thorium Bracers|QID|164016644|P|Blacksmithing;164;0+276;1|N|8;Thorium Bar;128;408|
+N Thorium Bracers|QID|164016644|P|Blacksmithing;164;0+276;1|N|8;Thorium Bar;128;428|
 N Imperial Plate Bracers|QID|164016649|P|Blacksmithing;164;0+291;1|N|12;Thorium Bar;180;300|
 N Thorium Helm|QID|164016653|P|Blacksmithing;164;0+300;1|N|12;Thorium Bar;120;120:1;Star Ruby;10;10|
+
+; Begin Outland Section
 
 ; What to Craft 001 to 035 Outland
 
