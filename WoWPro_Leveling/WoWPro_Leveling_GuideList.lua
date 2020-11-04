@@ -77,8 +77,14 @@ local function GetGuideContent(guide, mapID)
 end
 
 local function LevelRefresh(guide)
-	local _, mapID = WoWPro:ValidZone(guide.zone)
-	guide.startlevel, guide.endlevel = _G.C_Map.GetMapLevels(mapID)
+    local _, mapID = WoWPro:ValidZone(guide.zone)
+    if mapID then
+        guide.startlevel, guide.endlevel = _G.C_Map.GetMapLevels(mapID)
+    else
+        Leveling:Warning("Unable to get zone levels for %s guide", guide.GID)
+        guide.startlevel, guide.endlevel = 1,50
+    end
+
 	local playerLevel = WoWPro:PlayerLevel()
 	if guide.endlevel < playerLevel then
 		return guide.endlevel
