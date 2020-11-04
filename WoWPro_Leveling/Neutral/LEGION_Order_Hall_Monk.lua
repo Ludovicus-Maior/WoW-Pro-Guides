@@ -144,7 +144,7 @@ P Dalaran|QID|43496|M|52.4,57.10|N|Take the portal to Dalaran from your order ha
 F Azurewing Repose|QID|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|43496|
 T The Power Within|QID|43496|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
 A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
-;fresh lvl 45 quests  (Old 110) 
+;fresh lvl 45 quests  (Old 110)
 A Khadgar's Discovery|QID|39985|LVL|45|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|
 A Goddess Watch Over You|QID|44337|LVL|45|M|51.50,48.41|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 45.|
 A The Iron Fist|QID|41849|M|51.41,48.39|NA|N|From Iron-Body Ponshu. This is a dungeon quest you will need to complete it before you can go much farther.|PRE|43054&43062|
