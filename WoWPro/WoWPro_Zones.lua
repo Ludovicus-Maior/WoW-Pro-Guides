@@ -101,6 +101,10 @@ function WoWPro:ValidZone(zone)
                 return nil
             end
             local mapId = WoWPro.LegacyZone2MapID[nzone][floor]
+            if not WoWPro.MapInfo[mapId] then
+                WoWPro:print("ValidZone: Legacy Zone [%s] has an unknown mapID %s", zone, tostring(mapId))
+                return nil
+            end
             return WoWPro.MapInfo[mapId].name, mapId
         else
             WoWPro:Error("ValidZone: Zone [%s] is unknown.", zone)
