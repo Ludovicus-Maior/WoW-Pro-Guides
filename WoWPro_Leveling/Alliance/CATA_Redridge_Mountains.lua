@@ -132,13 +132,13 @@ A To Win a War, You Gotta Become War|QID|26651|M|69.46,58.62|N|(UI Alert)|PRE|26
 C To Win a War, You Gotta Become War|QID|26651|M|66.4,71.43|QO|2|N|Re-apply the Camouflage if it's low. Head to the waypoint and use #2 to get in the tower. Use the Chloroform to get to the top. Once inside at the top use ability #4.|U|60385|
 C To Win a War, You Gotta Become War|QID|26651|M|63.86,70.34|QO|1|N|Same deal as the Tower. Use a distraction to get in and plant a charge,|U|60385|
 R Shalewind Canyon|ACTIVE|26651|M|72.4,64.3;77.26,65.86|CC|N|Head to Shalewind Canyon. Use your field kit abilities to get there.|U|60385|
-f Shalewind Canyon|QID|26651|M|77.91,65.85|N|At Nora Baldwin.|
-T To Win a War, You Gotta Become War|QID|26651|M|77.60,65.56|N|To John J. Keeshan.|
-A Detonation|QID|26668|M|77.60,65.56|N|From John J. Keeshan.|PRE|26651|
+f Shalewind Canyon|QID|26651|M|77.96,65.91|N|At Nora Baldwin.|
+T To Win a War, You Gotta Become War|QID|26651|M|77.68,65.51|N|To John J. Keeshan.|
+A Detonation|QID|26668|M|77.68,65.51|N|From John J. Keeshan.|PRE|26651|
 C Detonation|QID|26668|M|77.60,65.61|QO|1|N|Enjoy the brief cut scene.|NC|
 T Detonation|QID|26668|M|77.60,65.61|N|To John J. Keeshan.|
-A The Dark Tower|QID|26693|M|77.57,65.57|N|From John J. Keeshan.|PRE|26668|
-A Shadowhide Extinction|QID|26692|M|77.59,65.54|N|From Danforth.|PRE|26668|RANK|2|
+A The Dark Tower|QID|26693|M|77.68,65.51|N|From John J. Keeshan.|PRE|26668|
+A Shadowhide Extinction|QID|26692|M|77.62,65.34|N|From Danforth.|PRE|26668|RANK|2|
 C Shadowhide Extinction|QID|26692|N|Kill any Gnoll you come across.|S|
 C The Dark Tower|QID|26693|M|67.58,29.61|N|Enter the cave and kill General Fangore. Loot his corpse to get the Key of Ilgalar.|
 T The Dark Tower|QID|26693|M|67.55,29.54|N|(UI Alert)|
