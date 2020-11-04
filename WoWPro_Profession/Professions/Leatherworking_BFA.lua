@@ -48,7 +48,7 @@ N Hardened Tempest Hide|QID|165272278|P|Leatherworking;165;7+70;1|N|1;Tempest Hi
 ; What to Craft 71 to 85 BFA
 
 B Coarse Leather Barding|QID|165256790|RECIPE|256790|P|Leatherworking;165;7+70;0|N|Learn the Pattern - Coarse Leather Barding.|
-N Coarse Leather Barding|QID|165256790|P|Leatherworking;165;7+85;1|N|1;Coarse Leather;375;375|
+N Coarse Leather Barding|QID|165256790|P|Leatherworking;165;7+85;1|N|6;Coarse Leather;375;375|
 
 ; What to Craft 85 to 120 BFA
 
