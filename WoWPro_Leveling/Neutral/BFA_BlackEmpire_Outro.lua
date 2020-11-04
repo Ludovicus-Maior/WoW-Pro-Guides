@@ -233,5 +233,33 @@ T Remnants of a Shattered World|QID|57378|M|45.98,63.35|Z|Chamber of Heart!Dunge
 A Reconstructing "The Curse of Stone"|QID|57391|PRE|57378|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
 C Collect Torn Pages|ACTIVE|57391|QO|1|N|Collect Torn Pages, from Runs of Horrific Visions.|
 t Reconstructing "The Curse of Stone"|QID|57391|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
+A Reconstructing "The Curse of Stone"|QID|57392|PRE|57391|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
+C Collect Torn Pages|ACTIVE|57392|QO|1|N|Collect Torn Pages, from a Run of Horrific Visions for Wrathion.|
+t Reconstructing "The Curse of Stone"|QID|57392|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
+A Reconstructing "The Curse of Stone"|QID|57402|PRE|57392|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
+C Collect Torn Pages|ACTIVE|57402|QO|1|SO|1|N|Collect Torn Pages, from a Run of Horrific Visions for Wrathion.|
+t Reconstructing "The Curse of Stone"|QID|57340|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
+A Stepping Through the Darkness|QID|57393|PRE|57402|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
+C Fear and Flesh|ACTIVE|57393|QO|1|N|Recover a copy of "Fear and Flesh", from a Run of Horrific Visions for Wrathion.|
+t Stepping Through the Darkness|QID|57393|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
+
+; following constructed from WH info, not yet checked...  does pop a 'Grail' issue on two.. commented that on them
+
+A Reconstructing "Fear and Flesh"|QID|57394|PRE|57393|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
+C Collect Torn Pages|ACTIVE|57394|QO|1|N|Collect Torn Pages of "Fear and Flesh", from a Run of Horrific Visions for Wrathion.|
+t Reconstructing "Fear and Flesh"|QID|57394|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
+A Reconstructing "Fear and Flesh"|QID|57395|PRE|57394|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
+C Collect Torn Pages|ACTIVE|57395|QO|1|N|Collect Torn Pages of "Fear and Flesh", from a Run of Horrific Visions for Wrathion.|
+t Reconstructing "Fear and Flesh"|QID|57395|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
+A Reconstructing "Fear and Flesh"|QID|57396|PRE|57395|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
+C Collect Torn Pages|ACTIVE|57396|QO|1|N|Collect Torn Pages of "Fear and Flesh", from a Run of Horrific Visions for Wrathion.|
+t Reconstructing "Fear and Flesh"|QID|57396|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
+A Reconstructing "Fear and Flesh"|QID|57397|PRE|57396^57403|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|  ; grail sayd needs 57403 - needs testing
+C Collect Torn Pages|ACTIVE|57397|QO|1|N|Collect Torn Pages of "Fear and Flesh", from a Run of Horrific Visions for Wrathion.|
+t Reconstructing "Fear and Flesh"|QID|57397|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
+A Reconstructing "Fear and Flesh"|QID|57403|PRE|57396^57397|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.| ; Grail says needs 57396 - needs testing
+C Collect Torn Pages|ACTIVE|57403|QO|1|N|Collect Torn Pages of "Fear and Flesh", from a Run of Horrific Visions for Wrathion.|
+t Reconstructing "Fear and Flesh"|QID|57403|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
+
 ]]
 end)

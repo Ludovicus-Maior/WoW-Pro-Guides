@@ -115,7 +115,7 @@ N Lesser Ward of Shielding|QID|164029728|P|Blacksmithing;164;1+50;1|N|1;Adamanti
 
 ; What to Craft 050 to 060 Outland
 
-B Plans- Adamantite Weightstone|QID|164028632|M|79.2,63.8|Z|Zangarmarsh|RECIPE|28632|P|Blacksmithing;164;1+50;0|REP|Cenarion Expedition;1376;Honored-Exalted|T|Fedryen Swiftspear|N|Purchase from Fedryen Swiftspear, Cenarion Refuge\n(Needs at least Honoured with Cenarion Expedition).|
+B Plans- Adamantite Weightstone|QID|164028632|M|79.2,63.8|Z|Zangarmarsh|RECIPE|28632|P|Blacksmithing;164;1+50;0|REP|Cenarion Expedition;942;Honored-Exalted|T|Fedryen Swiftspear|N|Purchase from Fedryen Swiftspear, Cenarion Refuge\n(Needs at least Honoured with Cenarion Expedition).|
 N Adamantite Weightstone|QID|164034608|P|Blacksmithing;164;1+60;1|N|1;Adamantite Bar;25;25:2;Netherweave Cloth;50;50|
 
 ; What to Craft 061 to 075 Outland

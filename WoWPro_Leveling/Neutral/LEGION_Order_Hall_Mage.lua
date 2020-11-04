@@ -35,12 +35,10 @@ T A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@MageClassShri
 A Artifact Specific Quest|QID|42001^40267^42452|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|41085|
 R Portal to Dalaran|QID|42001^40267^42452|M|62.57,51.56|Z|The Guardian's Library@MageClassShrine|CC|N|If you chose the frost artifact stay put, otherwise take the portal to Dalaran|ACTIVE|42001&40267&42452|
 T Growing Power|QID|42175|M|60.4,36|N|To Meryl Felstorm|
-A Rise, Champions|QID|42663|M|60.4,36|N|From Meryl Felstorm|PRE|41141|
-A Champion: Archmage Modera|QID|42685|M|56,39|ACTIVE|42663|S|N|From/To Archmage Modera.|
-A Champion: Archmage Kalec|QID|42662|M|55.8,38.8|ACTIVE|42663|S|N|From/To Archmage Kalec.|
+A Rise, Champions|QID|42663|M|55.37,38.05|N|From Meryl Felstorm|PRE|41141|
+A Champion: Archmage Modera|QID|42685|M|55.23,39.47|ACTIVE|42663|S|US|N|From/To Archmage Modera.|
+A Champion: Archmage Kalec|QID|42662|M|56.28,37.84|ACTIVE|42663|S|US|N|From/To Archmage Kalec.|
 C Rise, Champions|QID|42663|M|60.4,36|N|Recruit Modera and Kalec|
-A Champion: Archmage Modera|QID|42685|M|56,39|ACTIVE|42663|US|N|From/To Archmage Modera.|
-A Champion: Archmage Kalec|QID|42662|M|55.8,38.8|ACTIVE|42663|US|N|From/To Archmage Kalec.|
 T Rise, Champions|QID|42663|M|60.4,36|N|To Meryl Felstorm.|
 A Technical Wizardry|QID|42703|PRE|41141|M|60.4,36.00|N|From Meryl Felstorm.|
 T Technical Wizardry|QID|42703|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
@@ -175,7 +173,7 @@ A In My Father's House|QID|44480|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!
 C In My Father's House|QID|44480|M|32.78,49.97|Z|Azshara|QO|1|N|Witness Illidan's Resilience|U|226968| ; will U accept a spellid?
 T In My Father's House|QID|44480|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|To Light's Heart|
 A Destiny Unfulfilled|QID|44496|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|From Light's Heart|
-C Destiny Unfulfilled|QID|44496|QO|Experience True Betrayal|U|226973|N|Use the call button|
+C Destiny Unfulfilled|QID|44496|QO|1|Experience True Betrayal|U|226973|N|Use the call button|
 C His Duplicity is Hardly Surprising|Z|Black Temple|SO|1|S|N|Confront Akama.|ACTIVE|44496|
 C Confront Akama.|M|52.70,71.26|Z|70BlackTempleLegion/1|SO|1;2|N|Confront Akama.|ACTIVE|44496|
 C His Duplicity is Hardly Surprising|Z|Black Temple|SO|1|US|N|Confront Akama.|ACTIVE|44496|
