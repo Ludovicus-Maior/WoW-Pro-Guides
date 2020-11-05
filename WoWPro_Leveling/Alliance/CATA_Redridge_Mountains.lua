@@ -28,7 +28,7 @@ T Threat to the Kingdom|QID|26761|M|28.91,41.11|N|To Magistrate Solomon inside t
 T Parker's Report|QID|26505|M|28.91,41.11|N|To Magistrate Solomon inside the town hall.|
 A We Must Prepare!|QID|26510|M|28.91,41.11|N|From Magistrate Solomon.|
 A Lake Everstill Clean Up|QID|26511|M|28.68,40.95|N|From Bailiff Conacher.|RANK|2|
-h Lakeshire|QID|26509|ACTIVE|26510|M|26.39,41.42|N|At Innkeeper Brianna.|
+h Lakeshire|QID|26509|ACTIVE|26510|M|26.39,41.42|N|Set Lakeshire Inn as your hearth at Innkeeper Brianna.|
 A An Unwelcome Guest|QID|26509|M|22.04,42.70|N|From Martie Jainrose to the west of the town.|RANK|3|
 C An Unwelcome Guest|QID|26509|M|17.59,44.80|N|Find and kill Bellygrub. Loot his tusk, once he is dead.|
 T An Unwelcome Guest|QID|26509|M|22.04,42.70|N|To Martie Jainrose.|
@@ -44,18 +44,18 @@ T We Must Prepare!|QID|26510|M|28.91,41.11|N|To Magistrate Solomon.|
 A Tuning the Gnomecorder|QID|26512|M|28.91,41.11|N|From Magistrate Solomon.|PRE|26510|
 A Like a Fart in the Wind|QID|26513|M|31.85,44.90|N|From Marshal Marris near the bridge.|PRE|26510|RANK|2|
 C Tuning the Gnomecorder|QID|26512|M|32.36,39.53|N|Head to the Lakeshire Graveyard.|NC|
-T Tuning the Gnomecorder|QID|26512|M|32.33,39.87|N|(UI Alert)|
-A Canyon Romp|QID|26514|M|32.33,39.87|N|(UI Alert)|PRE|26512|
+T Tuning the Gnomecorder|QID|26512|N|(UI Alert)|
+A Canyon Romp|QID|26514|N|(UI Alert)|PRE|26512|
 N Wandering Elite|ACTIVE|26514|N|Note: There is a wandering Level 18 elite called Canyon Ettin in this area. Until you get the orb later, you should avoid him. The ground will shake when he is near you.|S!US|
 C Like a Fart in the Wind|QID|26513|M|32.27,25.10|N|Look for the sparkling supply crates, grab them when you see them.|NC|S|
 C Canyon Romp|QID|26514|M|32.14,25.18|N|Kill and loot any Redridge Mystic and Bashers you see. Be careful of the elite Ettin wandering around.|S|
 A He Who Controls the Ettins|QID|26519|M|32.14,25.18|N|Kill and loot Redridge Mystic and Bashers until one drops a Dirt-Stained Scroll. This quest will auto-start upon looting the scroll.|U|58898|PRE|26512|O|
 C Canyon Romp|QID|26514|M|32.14,25.18|N|Finish killing and looting Redridge Mystic and Bashers|US|
-T Canyon Romp|QID|26514|M|32.57,25.13|N|(UI Alert)|
-A They've Wised Up...|QID|26544|M|32.57,25.13|N|(UI Alert)|PRE|26514|
+T Canyon Romp|QID|26514|N|(UI Alert)|
+A They've Wised Up...|QID|26544|N|(UI Alert)|PRE|26514|
 C They've Wised Up...|QID|26544|M|20.22,23.77|N|Head inside of Rethbane Caverns and look for a Blackrock Overseer. Kill him to get the Blackrock Missive.|NC|
-T They've Wised Up...|QID|26544|M|20.22,23.77|N|(UI Alert)|
-A Yowler Must Die!|QID|26545|M|20.22,23.77|N|(UI Alert)|PRE|26544|
+T They've Wised Up...|QID|26544|N|(UI Alert)|
+A Yowler Must Die!|QID|26545|N|(UI Alert)|PRE|26544|
 C He Who Controls the Ettins|QID|26519|CC|M|20.55,23.70;22.45,21.15;21.18,15.15;19.95,16.22;18.05,18.48|N|Head to the back of the cavern (right passage when first entering caverns), find and kill Ardo Dirtpaw.|
 T He Who Controls the Ettins|QID|26519|M|17.93,18.53|N|Turn it in at the orb.|
 A Saving Foreman Oslow|QID|26520|M|17.93,18.53|N|From the Ettin Control Panel.|PRE|26519|
@@ -64,8 +64,8 @@ C Like a Fart in the Wind|QID|26513|M|32.27,25.10|N|Finish collecting the supply
 C Saving Foreman Oslow|QID|26520|M|31.75,44.41|N|Run to the boulder at Lakeshire Bridge.  When you get to the boulder, use the orb again to get the rock off Oslow.|U|58895|NC|
 T Like a Fart in the Wind|QID|26513|M|31.80,44.76|N|To Marshal Marris.|
 r Repair, Sell Junk|ACTIVE|26545|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|S!US|
-T Yowler Must Die!|QID|26545|M|28.76,41.12|N|To Magistrate Solomon inside the town hall.|
-T Saving Foreman Oslow|QID|26520|M|28.76,41.12|N|To Magistrate Solomon.|
+T Yowler Must Die!|QID|26545|M|28.91,41.11|N|To Magistrate Solomon inside the town hall.|
+T Saving Foreman Oslow|QID|26520|M|28.91,41.11|N|To Magistrate Solomon.|
 A John J. Keeshan|QID|26567|M|28.76,40.90|N|From Colonel Troteman.|PRE|26545|
 T John J. Keeshan|QID|26567|M|26.20,39.86|N|Head to the basement of the Inn to find John J. Keeshan.|
 A This Ain't My War|QID|26568|M|26.20,39.90|N|From John J. Keeshan.|PRE|26567|
@@ -79,8 +79,8 @@ C Render's Army|QID|26570|M|29.35,10.76|N|Kill any and all orcs for this quest. 
 T In Search of Bravo Company|QID|26586|M|47.42,41.68|N|To Messner. |
 A Breaking Out is Hard to Do|QID|26587|M|47.42,41.68|N|From Messner.|PRE|26586|
 C Weapons of War|QID|26571|M|50.82,41.45|N|Kill Homurk for the knife, and Murdunk for the bow.|
-T Weapons of War|QID|26571|M|51.45,41.30|N|(UI Alert)|
-A His Heart Must Be In It|QID|26573|M|51.45,41.30|N|(UI Alert)|PRE|26571|
+T Weapons of War|QID|26571|N|(UI Alert)|
+A His Heart Must Be In It|QID|26573|N|(UI Alert)|PRE|26571|
 C Breaking Out is Hard to Do|QID|26587|M|49.06,37.83|N|Be careful not to be seen by the Worg Captain, go into the center of the sleeping Worgs and loot the key from the stump.|NC|
 T Breaking Out is Hard to Do|QID|26587|M|47.57,41.81|N|To Messner.|
 A Jorgensen|QID|26560|M|47.60,41.83|N|From Messner. It takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|PRE|26587|
@@ -97,7 +97,7 @@ C And Last But Not Least... Danforth|QID|26562|M|28.13,18.25|N|Kill Overlord Bar
 T And Last But Not Least... Danforth|QID|26562|M|28.21,17.11|N|Use the Chain Level, then wait for Danforth to drop into the water. To Danforth.|
 A Return of the Bravo Company|QID|26563|M|28.07,17.29|N|From Danforth. Again, it takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|PRE|26562|
 C Render's Army|QID|26570|M|29.35,10.76|N|Finish killing any and all orcs for this quest. Except for the elites.|US|
-H Lakeshire Inn|ACTIVE|26563|N|Hearth back to Lakeshire or run if it is on cooldown.|
+H Lakeshire|ACTIVE|26563|M|33.24,40.69|TZ|Lakeshire Inn|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|
 T His Heart Must Be In It|QID|26573|M|28.51,40.85|N|To Colonel Troteman in the town hall.|
 T Return of the Bravo Company|QID|26563|M|28.51,40.85|N|To Colonel Troteman.|
 A They Drew First Blood|QID|26607|M|28.51,40.85|N|From Colonel Troteman.|PRE|26573&26563|
@@ -127,38 +127,38 @@ T Unspeakable Atrocities|QID|26640|M|52.47,55.45|N|To John J. Keeshan.|
 A Prisoners of War|QID|26646|M|52.50,55.48|N|From John J. Keeshan.|PRE|26636&26637&26638&26640|
 C Blackrock Holding Pen Key|QID|26646|M|69.4,76.53|N|Use the field kit. Then use ability #1 (Camouflage) when you get near the camp. Use #2 (Distraction) to get past guards (can backfire somewhat). Use #3 (Chloroform) on the orc where the key is.|U|60384|L|59261|NC|
 C Prisoners of War|QID|26646|M|69.40,58.59|N|If the orc is about to wake up, use ability #3 again. Use #2 to get out of the cave. Then head to the waypoint, click on one of the cages to free the people.|U|60384|
-T Prisoners of War|QID|26646|M|69.46,58.62|N|(UI Alert)|
-A To Win a War, You Gotta Become War|QID|26651|M|69.46,58.62|N|(UI Alert)|PRE|26646|
+T Prisoners of War|QID|26646|N|(UI Alert)|
+A To Win a War, You Gotta Become War|QID|26651|N|(UI Alert)|PRE|26646|
 C To Win a War, You Gotta Become War|QID|26651|M|66.4,71.43|QO|2|N|Re-apply the Camouflage if it's low. Head to the waypoint and use #2 to get in the tower. Use the Chloroform to get to the top. Once inside at the top use ability #4.|U|60385|
 C To Win a War, You Gotta Become War|QID|26651|M|63.86,70.34|QO|1|N|Same deal as the Tower. Use a distraction to get in and plant a charge,|U|60385|
 R Shalewind Canyon|ACTIVE|26651|M|72.4,64.3;77.26,65.86|CC|N|Head to Shalewind Canyon. Use your field kit abilities to get there.|U|60385|
 f Shalewind Canyon|QID|26651|M|77.96,65.91|N|At Nora Baldwin.|
 T To Win a War, You Gotta Become War|QID|26651|M|77.68,65.51|N|To John J. Keeshan.|
 A Detonation|QID|26668|M|77.68,65.51|N|From John J. Keeshan.|PRE|26651|
-C Detonation|QID|26668|M|77.60,65.61|QO|1|N|Enjoy the brief cut scene.|NC|
-T Detonation|QID|26668|M|77.60,65.61|N|To John J. Keeshan.|
+C Detonation|QID|26668|QO|1|N|Enjoy the brief cut scene.|NC|
+T Detonation|QID|26668|M|77.68,65.51|N|To John J. Keeshan.|
 A The Dark Tower|QID|26693|M|77.68,65.51|N|From John J. Keeshan.|PRE|26668|
 A Shadowhide Extinction|QID|26692|M|77.62,65.34|N|From Danforth.|PRE|26668|RANK|2|
-C Shadowhide Extinction|QID|26692|N|Kill any Gnoll you come across.|S|
+C Shadowhide Extinction|QID|26692|N|Kill any Gnolls you come across.|S|
 C The Dark Tower|QID|26693|M|67.58,29.61|N|Enter the cave and kill General Fangore. Loot his corpse to get the Key of Ilgalar.|
-T The Dark Tower|QID|26693|M|67.55,29.54|N|(UI Alert)|
-A The Grand Magus Doane|QID|26694|M|67.55,29.54|N|(UI Alert)|PRE|26693|
-C The Grand Magus Doane|QID|26694|M|72.08,44.85|N|Run to the Tower of Ilgalar,  click on the Ward of Ilgalar to enter the tower, then head to the top and kick Grand Magus Doane's butt.|
-C Shadowhide Extinction|QID|26692|M|70.24,39.53|N|Kill any Gnoll you come across.|US|
-T Shadowhide Extinction|QID|26692|M|77.79,65.16|N|(UI Alert)|
-T The Grand Magus Doane|QID|26694|M|77.77,65.23|N|To John J. Keeshan.|
-A AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|77.29,65.80|N|From Colonel Troteman.|PRE|26694|
-C AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.76,36.57|N|Hop in the tank and head NORTH towards Keeshan's post. Your buddies will do the killing for you. You should have all 200 by the time you get there.|
-T AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.76,36.57|N|To Colonel Troteman.|
-A Showdown at Stonewatch|QID|26713|M|60.76,36.57|N|From Colonel Troteman.|PRE|26708|
+T The Dark Tower|QID|26693|N|(UI Alert)|
+A The Grand Magus Doane|QID|26694|N|(UI Alert)|PRE|26693|
+C The Grand Magus Doane|QID|26694|M|72.08,44.85|N|Run to the Tower of Ilgalar, click on the Ward of Ilgalar to enter the tower, then head to the top and kick Grand Magus Doane's butt.\n[color=FF0000]NOTE: [/color]He is protected by a Succubus Minion (same level) and as the fight goes on, he will summon a Flesh Golem that lasts 5 minutes.\nFocus on killing Doane. Once he is dead, the quest is over.|
+C Shadowhide Extinction|QID|26692|M|77.29,55.78|N|As you make your way back to Shalewind Canyon, finish up killing any Gnolls you come across.|US|
+T Shadowhide Extinction|QID|26692|N|(UI Alert)|
+T The Grand Magus Doane|QID|26694|M|77.68,65.51|N|To John J. Keeshan in Shalewind Canyon.|
+A AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|77.21,65.92|N|From Colonel Troteman.|PRE|26694|
+C AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.66,36.67|N|Hop in the tank and head NORTH towards Keeshan's post. Your buddies will do the killing for you. You should have all 200 by the time you get there.\n[color=FF0000]NOTE: [/color]Exit the tank when you are finished and have arrived at Keeshan's Post. The quest will continue until you do so.|V|
+T AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.66,36.67|N|To Colonel Troteman.\n[color=FF0000]NOTE: [/color]You have to exit the tank to end the quest.|
+A Showdown at Stonewatch|QID|26713|M|60.66,36.67|N|From Colonel Troteman.|PRE|26708|
 C Showdown at Stonewatch|QID|26713|QO|1|M|60.29,47.27|N|Head up to Stonewatch, and kill Tharil'zun.|T|Tharil'zun|
 C Showdown at Stonewatch|QID|26713|QO|2|M|58.44,55.60|N|Head through the castle grounds and kill Gath'Ilzogg.|T|Gath'Ilzogg|
-T Showdown at Stonewatch|QID|26713|M|58.44,55.53|N|(UI Alert)|
-A Darkblaze, Brood of the Worldbreaker|QID|26714|M|58.44,55.53|N|(UI Alert)|PRE|26713|
+T Showdown at Stonewatch|QID|26713|N|(UI Alert)|
+A Darkblaze, Brood of the Worldbreaker|QID|26714|N|(UI Alert)|PRE|26713|
 C Darkblaze, Brood of the Worldbreaker|QID|26714|M|58.89,55.27|N|Use the horn that should be next to Gath'Ilzogg's corpse. Try to stay on Darkblaze's side, and just attack as hard as you can. You can not pull it off of Keeshan.|
-T Darkblaze, Brood of the Worldbreaker|QID|26714|M|60.55,36.46|N|To Colonel Troteman back at Keeshan's post. All mobs from Stonewatch will be gone.|
-A Triumphant Return|QID|26726|M|60.55,36.46|N|From Colonel Troteman.|PRE|26714|
-H Lakeshire Inn|ACTIVE|26726|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|
-T Triumphant Return|QID|26726|M|28.79,41.11|N|To Magistrate Solomon in the town hall.|
+T Darkblaze, Brood of the Worldbreaker|QID|26714|M|60.66,36.67|N|To Colonel Troteman back at Keeshan's post. All mobs from Stonewatch will be gone.|
+A Triumphant Return|QID|26726|M|60.66,36.67|N|From Colonel Troteman.|PRE|26714|
+H Lakeshire|ACTIVE|26726|M|33.24,40.69|TZ|Lakeshire Inn|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|
+T Triumphant Return|QID|26726|M|28.91,41.11|N|To Magistrate Solomon in the town hall.|
 ]]
 end)
