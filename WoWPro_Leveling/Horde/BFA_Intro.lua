@@ -28,7 +28,7 @@ C Escape Cathedral Square|QID|50769|M|45.42,43.19|Z|Stormwind City!Stormwind Cit
 C No Diplomatic Solution|QID|50769|M|39.67,41.04|Z|Stormwind City!Stormwind City!Instance|SO|8;1|N|Break down the ice wall.|ACH|14222;;false|
 C Reach Talanji's ship|QID|50769|M|20.59,25.79|Z|Stormwind City!Stormwind City!Instance|SO|9;1|N|Continue on with your buddies, killing those pesky Alliance trying to stop you from reaching Talanji's ship|ACH|14222;;false|
 C Escape Stormwind Harbor|QID|50769|M|20.63,28.92|Z|Stormwind City!Stormwind City!Instance|SO|10;1|CHAT|N|Talk to Talanji on the bridge of her ship.|ACH|14222;;false|
-T The Stormwind Extraction|QID|50769|M|57.96,62.77|Z|Zuldazar|N|To Nathanos Blightcaller.|ACH|14222;;false|
+T The Stormwind Extraction|QID|50769|M|40.11,71.67|Z|Hall of Croniclers!Dazar'alor|N|To Nathanos Blightcaller.|ACH|14222;;false|
 
 A Welcome to Zuldazar|QID|46957|M|57.95,62.46|Z|Zuldazar|N|From Princess Talanji|PRE|50769|
 C Welcome to Zuldazar|QID|46957|M|57.94,56.59|Z|Zuldazar|NC|N|Follow Princess Talanji. You will need to stay close, otherwise she will stop running.|
@@ -45,13 +45,13 @@ C Speaker of the Horde|QID|46931|M|67.00,71.83|Z|The Great Seal!Dazar'alor|QO|4|
 C Speaker of the Horde|QID|46931|M|32.22,70.00|Z|The Great Seal!Dazar'alor|QO|5|CS|NC|N|Head back up the stairs, across the corridor, then down the stairs to the Vault of the King.|
 T Speaker of the Horde|QID|46931|M|41.28,66.75|Z|The Great Seal!Dazar'alor|N|Back up the stairs, to Chronicler To'kini.|
 A Area to Explore|QID|47512^47513^47514|M|41.77,69.35|Z|1164|N|Pick which zone you want to adventure in first from Scouting Map.|PRE|46931|
-t Nazmir|QID|47512|M|41.22,66.75|Z|1164|N|To Princess Talanji.|
-t Vol'dun|QID|47513|M|41.22,66.75|Z|1164|N|To Princess Talanji.|
-t Zuldazar|QID|47514|M|41.22,66.75|Z|1164|N|To Princess Talanji.|
-A Journey to Nazmir|QID|47103|M|41.22,66.75|Z|1164|N|From Princess Talanji.|PRE|47512|
-A Discreet Discussions|QID|47313|M|41.22,66.75|Z|1164|N|From Princess Talanji.|PRE|47513|
-A Trust of a King|QID|49615|M|41.22,66.75|Z|1164|N|From Princess Talanji.|PRE|47514|
-A The War Campaign|QID|52749|M|40.67,72.08|Z|1164|N|From Nathanos Blightcaller.|LVL|35|PRE|46931|
+t Nazmir|QID|47512|M|49.93,46.49|Z|Dazar'alor|N|To Princess Talanji take the elevator behind you, she is on her throne.|
+t Vol'dun|QID|47513|M|49.93,46.49|Z|Dazar'alor|N|To Princess Talanji take the elevator behind you, she is on her throne.|
+t Zuldazar|QID|47514|M|49.93,46.49|Z|Dazar'alor|N|To Princess Talanji take the elevator behind you, she is on her throne.|
+A Journey to Nazmir|QID|47103|M|40.22,66.50|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47512|
+A Discreet Discussions|QID|47313|M|40.22,66.50|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47513|
+A Trust of a King|QID|49615|M|40.22,66.50|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47514|
+A The War Campaign|QID|52749|M|40.67,72.08|Z|Hall of Croniclers!Dazar'alor|N|From Nathanos Blightcaller.|LVL|35|PRE|46931|
 h The Great Seal|ACTIVE|47103^47313^49615|M|48.50,71.75|Z|The Great Seal!Dazar'alor|N|Set your hearth stone with Brillin the Beauty, with the portals nearby, you probably won't want to change it.|
 
 ; professions
@@ -72,11 +72,12 @@ N Mining|ACTIVE|52749|M|44.13,38.97|Z|Dazar'alor|N|Train BfA Mining at Secott th
 N Blacksmithing|ACTIVE|52749|M|43.65,38.30|Z|Dazar'alor|N|Train BfA Blacksmithing at Forgemaster Zak'aal.|P|Blacksmithing;164|RECIPE|253183|;
 N Jewelcrafting|ACTIVE|52749|M|47.05,37.94|Z|Dazar'alor|N|Train BfA Jewelcrafting at Seshuli.|P|Jewelcrafting;755|RECIPE|256689|;265811
 N Enchanting|ACTIVE|52749|M|47.08,35.68|Z|Dazar'alor|N|Train BfA Enchanting at Enchantress Quinni.|P|Enchanting;333|RECIPE|255074|;
+
 ;to open up Jani's mysterious trashpiles
 N Jani's Mysterious Trashpiles|QID|47441|N|These are scattered around Zandalar. To open up interaction with them, you need to do the following two quests. Once you have completed them, when you are near one of the trashpiles, you will either see a quest "!" or see/hear a message saying "hey richmon…". Interact with the trashpile for your reward.|RANK|3|
 R The Zocalo|QID|47441|M|42.22,25.82|Z|Dazar'alor|N|Run down, down, down in the general direction of the waypoint.|RANK|3|;cant be ACTIVE as you don't have the quest yet
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
-C Pests|QID|47441|Z|Dazar'alor|M|41.80,25.00;38.90,20.30;36.30,11.10;37.35,16.10;36.45,13.70;39.25,18.32;40.90,22.90|CN|QO|1|N|Kill the little pests.|T|Thieving Snappers|
+C Pests|QID|47441|Z|Dazar'alor|M|41.80,25.00;38.90,20.30;36.30,11.10;37.35,16.10;36.45,13.70;39.25,18.32;40.90,22.90|CN|QO|1|N|Kill the little pests.|T|Thieving Snapper|
 C Pests|QID|47441|Z|Dazar'alor|M|35.35,7.67|QO|2|NC|N|Follow the Big One. When you arrive at the trashpile, click on it to summon Jani.|
 T Pests|QID|47441|M|35.36,7.63|Z|Dazar'alor|N|To Jani.|
 A Curse of Jani|QID|47442|M|35.36,7.63|Z|Dazar'alor|N|From Jani.|RANK|3|
