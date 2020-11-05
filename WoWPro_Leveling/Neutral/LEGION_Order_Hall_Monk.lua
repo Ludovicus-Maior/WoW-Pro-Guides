@@ -148,10 +148,6 @@ A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. T
 A Khadgar's Discovery|QID|39985|LVL|45|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|
 A Goddess Watch Over You|QID|44337|LVL|45|M|51.50,48.41|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 45.|
 A The Iron Fist|QID|41849|M|51.41,48.39|NA|N|From Iron-Body Ponshu. This is a dungeon quest you will need to complete it before you can go much farther.|PRE|43054&43062|
-; N Artifact Knowledge Catch-Up 7.1.5|QID|44249|ITEM|144435|N|Assuming you have the resources available, you should have sent an 'Artifact Research Compendium' (BOA item purchased in order hall) from one of you other characters (with max or at least highest AK) on the account.  This will allow you to jumpstart your artifact research by as much as 20 levels. This is also the lowest resource cost option.| ; REMOVED
-; A Knowledge is Power|QID|46129|M|46.71,46.69|ITEM|144395|N|From Lorewalker Cho. Assuming you were unable to send a AK15 or 20 item, you can buy immediately up to AK 15 for 500 resources each (same cost as research).|ACH|10852|; REMOVED
-; T Knowledge is Power|QID|46129|M|46.71,46.69|ITEM|144395|N|To Lorewalker Cho.|; REMOVED
-; N Artifact Research|QID|44249|M|46.71,46.69|N|Once you have used your Compendium and or any artifact knowledge synopsis available to you. You need to go to Lorewalker Cho and chose to Reaseach.  Keep doing this until you max out artifact research. Check this off manually.|; REMOVED
 A Inner Sanctuary|QID|44249|LVL|45|M|50.33,59.14|N|From Caydori Brightstar. Your class hall has a gift for you.|
 T Inner Sanctuary|QID|44249|M|50.33,59.14|N|To Caydori Brightstar.|
 P Krasus' Landing|QID|44338|M|52.39, 57.13|N|Take the portal to Dalaran.|ACTIVE|44348|
@@ -319,51 +315,51 @@ A Artifact Specific Quest|QID|42762^41003^40569|M|51.39,48.38|N|From Iron-Body P
 
 ;BREWMASTER
 ;A The Wanderer's Companion|QID|42762|M|51.39,48.36|N|From Iron-Body Ponshu.|PRE|40636|
-C The Wanderer's Companion|QID|42762|M|47.14,47.74|N|Talk to Tak Tak to take the flight to Tien Monestary.|CHAT|
+C The Wanderer's Companion|QID|42762|M|47.14,47.74|N|Go out the side door, and talk to Tak Tak to take the flight to Tien Monestary.|CHAT|
 T The Wanderer's Companion|QID|42762|M|41.67,27.45|Z|The Jade Forest|N|To The Monkey King.|
 A The Riddle of Purity|QID|42768|M|41.67,27.45|Z|The Jade Forest|N|From The Monkey King.|PRE|42762|
 A The Riddle of the Barrel|QID|42766|M|41.67,27.45|Z|The Jade Forest|N|From The Monkey King.|PRE|42762|
 A The Riddle of the Land|QID|42767|M|41.67,27.45|Z|The Jade Forest|N|From The Monkey King.|PRE|42762|
-R Pools of Purity|QID|42767|M|63.3,26.04|Z|Valley of the Four Winds|N|Fly over to the Valley of the Four Winds|ACTIVE|42767|CN|
+R Pools of Purity|QID|42767|M|63.3,26.04|Z|Valley of the Four Winds|N|Run/Fly over to the Valley of the Four Winds.\nGrab Flight Paths along the way if you are running.|ACTIVE|42767|CN|
 C The Riddle of Purity|QID|42768|M|63.3,26.04|Z|Valley of the Four Winds|N|Kill and loot the water elemental.|NC|
-R The Imperial Granary|QID|42767|M|51.3,61.17|Z|Valley of the Four Winds|N|Fly over to the Imperial Grainery|ACTIVE|42767|CN|
+R The Imperial Granary|QID|42767|M|51.3,61.17|Z|Valley of the Four Winds|N|Run/Fly over to the Imperial Grainery.\nGrab Flight Paths along the way if you are running.|ACTIVE|42767|CN|
 C The Riddle of the Land|QID|42767|M|51.3,61.17|Z|Valley of the Four Winds|N|As you go, pick up the sacks of grain.|S|NC|
 C The Riddle of the Barrel|QID|42766|M|51.40,64.56|Z|Valley of the Four Winds|N|Kill and loot Vardis, who  is found upstairs in the grainery.|T|Vardis|
 C The Riddle of the Land|QID|42767|M|51.3,61.17|Z|Valley of the Four Winds|N|Pick up any sacks of grain you still need.|US|NC|
-T The Riddle of Purity|QID|42768|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King who appears beside you when you pick up the last sack of grai/8n.|
+T The Riddle of Purity|QID|42768|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King who appears beside you when you pick up the last sack of grain.|
 T The Riddle of the Barrel|QID|42766|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King.|
 T The Riddle of the Land|QID|42767|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King.|
 A Journey to the East|QID|42957|M|52.26,62.74|Z|Valley of the Four Winds|N|From The Monkey King.|PRE|42766&42767&42768|
-R Jade Temple Grounds|QID|42957|M|55.42,58.12|Z|The Jade Forest|N|Fly to the Temple of the Jade Serpent|ACTIVE|42957|CN|
+R Jade Temple Grounds|QID|42957|M|55.42,58.12|Z|The Jade Forest|N|Run/Fly to the Temple of the Jade Serpent|ACTIVE|42957|CN|
 T Journey to the East|QID|42957|M|55.42,58.12|Z|The Jade Forest|N|To The Monkey King.|
 A The Monkey King's Challenge|QID|42868|M|55.42,58.12|Z|The Jade Forest|N|From The Monkey King.|PRE|42957|
-C The Monkey King's Challenge|QID|42868|M|55.31,58.56|Z|The Jade Forest|N|Familiarize yourself with where the ingrediates are and then click on the fire to begin.|NC|
+C The Monkey King's Challenge|QID|42868|M|55.31,58.56|Z|The Jade Forest|N|Familiarize yourself with where the ingredients are\nLeft to Right: Bananas, Water, Fire, Grain, Smelly Brew\nItems only become clickable once he says what he wants.\nWhen Ready Click on the fire to begin.|NC|
 C The Monkey King's Challenge|QID|42868|M|55.31,58.56|Z|The Jade Forest|N|Follow his clues to put the ingrediants into the brew.|NC|
 T The Monkey King's Challenge|QID|42868|M|55.42,58.37|Z|The Jade Forest|N|To The Monkey King.|
 A The Trial at the Temple|QID|42765|M|55.42,58.37|Z|The Jade Forest|N|From The Monkey King.|PRE|42868|
 C The Trial at the Temple|QID|42765|QO|1|M|55.42,58.37|Z|The Jade Forest|N|Talk to the Monkey King to start the solo scenario.|CHAT|
-C Crisis in the Temple|QID|42765|M|37.66,44.92|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Listen to Master Windsong.|SO|1;1|NC|
+C Crisis in the Temple|QID|42765|M|37.66,44.92|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Listen to Master Windsong.|SO|1|NC|  ; wp where gives Temple of the Jade Serpent!Dungeon791
 C Gate to the Scrollkeepers Sanctum opened|QID|42765|M|33.18,54.42|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Click on the Gate.|SO|2;1|NC|
 C Scribes Rescued|QID|42765|M|47.8,70.17|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Kill the demons to rescue the scribes.|SO|2;2|
-C Belphiar Slain|QID|42765|M|28.86,72.9|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Kill Belphiar.|SO|3;1|T|Belphiar|
-C Priestess Summerpetal revived|QID|42765|M|31.03,73.75|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Click on the priestess.|SO|4;1|NC|
-C Monkey King followed|QID|42765|M|54.79,85.32;54.41,74.08;47.44,68.53;49.13,60.38|CS|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Follow the Monkey King outside and around/down to next fight.|SO|5;1|NC|
+C Belphiar Slain|QID|42765|M|28.86,72.9|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Kill Belphiar.|SO|3|T|Belphiar|
+C Priestess Summerpetal revived|QID|42765|M|31.03,73.75|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Click on the priestess.|SO|4|NC|
+C Monkey King followed|QID|42765|M|54.79,85.32;54.41,74.08;47.44,68.53;49.13,60.38|CS|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Follow the Monkey King outside and around/down to next fight.|SO|5|NC|
 C Legion Attackers Defeated|QID|42765|M|47.0,48.28|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Kill more demons. Waves and Waves of demons.|SO|6;1|
 C Yu'lon Must Survive|QID|42765|M|47.0,48.28|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Keep killing demons.|SO|6;2|
-C Lord Korithis Defeated|QID|42765|M|69.12,59.2|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Kill Kord Korithis.|SO|7;1|T|Lord Korithis|
-C Fu Zan reclaimed|QID|42765|M|69.12,59.2|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Pick up the weapon.|SO|8;1|NC|
-C The Wanderer Awakens|QID|42765|M|69.12,59.2|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Chat with Yulon for a ride.|SO|9;1|CHAT|
+C Lord Korithis Defeated|QID|42765|M|69.12,59.2|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Kill Kord Korithis.|SO|7|T|Lord Korithis|
+C Fu Zan reclaimed|QID|42765|M|69.12,59.2|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Pick up the weapon.|SO|8|NC|
+C The Wanderer Awakens|QID|42765|M|69.12,59.2|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Chat with Yulon for a ride.|SO|9|CHAT| ; doesn't pop up in guide, Mouseover says: NextStep(): Step Active, but it's 'checked'
 T The Trial at the Temple|QID|42765|M|51.41,48.37|N|To Iron-Body Ponshu.|
 
+
 ;MISTWEAVER
-A The Emperor's Gift|QID|41003|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|40636|
-N Mistweaver|ACTIVE|41003|N|This section may or may not be working properly (3-Nov-2020)|
+; A The Emperor's Gift|QID|41003|M|51.39,48.38|N|From Iron-Body Ponshu.|PRE|40636|
 C The Emperor's Gift|QID|41003|M|47.15,47.75|N|Talk to Tak Tak for flight to Terrace of Endless Spring.|QO|1|CHAT|
-C Heal Taran Zhu|QID|41003|M|92.05,55.91|Z|TerraceofEndlessSpringScenario|N|Heal Taran Zhu to full health,|SO|1;1|NC|
+C Heal Taran Zhu|QID|41003|M|92.05,55.91|Z|TerraceofEndlessSpringScenario|N|Heal Taran Zhu to full health,|SO|1;1|NC|  ; wp where gives Terrace of Endless Spring!Instance728
 C Free the Shado Pan|QID|41003|M|78.96,48.76|Z|TerraceofEndlessSpringScenario|N|If you want, you can free them during the fight, or when the fight ends they will be automatically freed.|SO|2|
-C Prepare To Strike|QID|41003|M|58.97,45.45|Z|TerraceofEndlessSpringScenario|N|Talk to each of them, Taren Zhu last.|SO|3;1|NC|
-C Talk to Taran Zhu|QID|41003|M|58.97,45.45|Z|TerraceofEndlessSpringScenario|N|After you talk to Taran Zhu the fight starts.|SO|4;1|
-C Acquire Sheilun|QID|41003|M|39.15,48.83|Z|TerraceofEndlessSpringScenario|N|Pick up staff.|SO|5;1|NC|
+C Prepare To Strike|QID|41003|M|58.97,45.45|Z|TerraceofEndlessSpringScenario|N|Talk to each of them, Taren Zhu last.|SO|3|NC|
+C Talk to Taran Zhu|QID|41003|M|58.97,45.45|Z|TerraceofEndlessSpringScenario|N|After you talk to Taran Zhu the fight starts.|SO|4|
+C Acquire Sheilun|QID|41003|M|39.15,48.83|Z|TerraceofEndlessSpringScenario|N|Pick up staff.|SO|5|NC|
 C The Emperor's Gift|QID|41003|M|44.11,53.7|Z|TerraceofEndlessSpringScenario|N|Talk to Tak Tak for ride home.|QO|3|CHAT|
 T The Emperor's Gift|QID|41003|M|51.41,48.39|N|To Iron-Body Ponshu.|
 
