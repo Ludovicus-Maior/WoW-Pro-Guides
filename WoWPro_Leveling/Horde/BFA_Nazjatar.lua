@@ -14,9 +14,9 @@ T Insight into Our Enemies|QID|55862|M|48.52,62.26|N|To Neri Sharpfin.|
 A Deteriorating Knowledge|QID|55863|M|48.52,62.26|N|From Neri Sharpfin.|PRE|55862|
 A The Price is Death|QID|55864|M|48.52,62.26|N|From Neri Sharpfin.|PRE|55862|
 C The Price is Death|QID|55864|M|42.57,49.79|S|N|Kill Naga forces.|
-C Deteriorating Knowledge|QID|55863|M|60.02,46.29|Z|1524|QO|3|N|Attack the mind-shackled kelfin to rescue Esma.|
-C Deteriorating Knowledge|QID|55863|M|42.41,68.11|Z|1524|QO|1|N|Attack the mind-shackled kelfin to rescue Fenn.|
-C Deteriorating Knowledge|QID|55863|M|48.29,16.11|Z|1524|QO|2|N|Attack the mind-shackled kelfin to rescue Kono.|
+C Deteriorating Knowledge|QID|55863|M|60.02,46.29|QO|3|N|Attack the mind-shackled kelfin to rescue Esma.| ; Removed Z|1524 not in Alliance guide, can't see why had here.
+C Deteriorating Knowledge|QID|55863|M|42.41,68.11|QO|1|N|Attack the mind-shackled kelfin to rescue Fenn.|
+C Deteriorating Knowledge|QID|55863|M|48.29,16.11|QO|2|N|Attack the mind-shackled kelfin to rescue Kono.|
 C The Price is Death|QID|55864|M|42.57,49.79|US|N|Finish killing the needed Naga forces.|
 T The Price is Death|QID|55864|M|39.01,30.42|N|To Dash.|
 T Deteriorating Knowledge|QID|55863|M|38.98,30.38|N|To Fenn.|
