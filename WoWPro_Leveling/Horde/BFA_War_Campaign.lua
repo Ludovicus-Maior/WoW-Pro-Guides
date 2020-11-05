@@ -77,7 +77,8 @@ C Drustvar Ho!|QID|51340|M|58.46,62.99|Z|Zuldazar|QO|2|CHAT|N|Tell Tattersail yo
 T Drustvar Ho!|QID|51340|M|20.79,43.85|Z|Drustvar|N|To Eitrigg.|
 A Profit and Reconnaissance|QID|51224|M|20.79,43.85|Z|Drustvar|N|From Eitrigg.|PRE|51340|
 f Anyport|ACTIVE|51224|M|19.12,43.32|Z|Drustvar|N|At Tan Lotuswind.|
-C Profit and Reconnaissance|QID|51224|M|20.71,43.73;20.40,47.37;22.30,46.37|Z|Drustvar|CS|QO|1|V|N|Hop on the trike and drive up the hill. Inspect the scout when you arrive.|
+C Profit and Reconnaissance|QID|51224|M|20.71,43.72|Z|Drustvar|CS|QO|1|V|N|Hop onto Gallywix's War Trike|BUFF|269564|
+C Profit and Reconnaissance|QID|51224|M|20.40,47.37;22.30,46.37|Z|Drustvar|CS|QO|1|NC|N|Drive up the hill. Inspect the scout when you arrive.|
 C Profit and Reconnaissance|QID|51224|M|25.47,46.40|Z|Drustvar|QO|2|V|N|Hop back on the trike and head for the next Drudge a little further into the woods. Kill the Wildwood Slaverer which will appear shortly.|
 C Profit and Reconnaissance|QID|51224|M|29.47,54.90|Z|Drustvar|QO|3|V|N|Hop back on and find yet another goblin scout. Inspect him.|
 C Profit and Reconnaissance|QID|51224|M|32.11,54.43|Z|Drustvar|QO|4|V|N|Hop back on to Find the final goblin scout.|
@@ -110,15 +111,15 @@ A Storming In|QID|51532|M|58.44,62.45|Z|Zuldazar|N|From High Warlord Cromush.|PR
 C Storming In|QID|51532|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail you are ready to sail to Stormsong Valley.|
 T Storming In|QID|51532|M|51.11,21.16|Z|Stormsong Valley|N|To High Warlord Cromush.|
 A A Wall of Iron|QID|51643|M|51.11,21.16|Z|Stormsong Valley|N|From High Warlord Cromush.|PRE|51532|
-C A Wall of Iron|QID|51643|M|51.18,21.12|Z|Stormsong Valley|QO|1|NC|N|Go down below-decks and take controll of a Cannon.|
+C A Wall of Iron|QID|51643|M|51.18,21.12|Z|Stormsong Valley|QO|1|V|N|Go down below-decks and hop onto one of the Banshee's Wail Cannon.|
 C A Wall of Iron|QID|51643|M|51.18,21.12|Z|Stormsong Valley|QO|2|N|Use "1" key to fire at enemy troops (tho ones not carrying red flags) on the shore.|
 T A Wall of Iron|QID|51643|M|51.11,21.16|Z|Stormsong Valley|N|To High Warlord Cromush.|
 A On the Hunt|QID|51536|M|51.11,21.16|Z|Stormsong Valley|N|From High Warlord Cromush.|PRE|51643|
 C On the Hunt|QID|51536|M|51.05,21.47|Z|Stormsong Valley|QO|1|NC|N|Click on the rope for a ride to the docks.(Optional)|
-C On the Hunt|QID|51536|M|50.39,26.18|Z|Stormsong Valley|QO|2|NC|N|Go up to the buildings and try to rescue Rexxar's pet, then wait for the quest credit.|
-T On the Hunt|QID|51536|M|50.41,26.17|Z|Stormsong Valley|N|To Rexxar.|
+C On the Hunt|QID|51536|M|50.39,26.18|Z|Stormsong Valley|QO|2|NC|N|Go up to the plaza, and pull the spear out of the wolf.|
+T On the Hunt|QID|51536|M|50.41,26.17|Z|Stormsong Valley|N|Wait for the dialog to complete, then To Rexxar.|
 A Onward!|QID|51587|M|50.41,26.17|Z|Stormsong Valley|N|From Rexxar.|PRE|51536|
-C Onward!|QID|51587|M|51.91,30.17|Z|Stormsong Valley|NC|N|Travel with Rexxar|
+C Onward!|QID|51587|M|51.91,30.17|Z|Stormsong Valley|NC|N|Rexxar will mount up and head up the hill, follow him.|
 T Onward!|QID|51587|M|51.66,29.83|Z|Stormsong Valley|N|To Centurion Kaga Warmstone.|
 A Hunt Them Down|QID|51675|M|51.66,29.83|Z|Stormsong Valley|N|From Centurion Kaga Warmstone.|PRE|51587|
 A Almost Worth Saving|QID|51691|M|51.66,29.83|Z|Stormsong Valley|N|From Centurion Kaga Warmstone.|PRE|51587|
@@ -127,8 +128,8 @@ C Almost Worth Saving|QID|51691|M|51.80,32.43|Z|Stormsong Valley|QO|1|S|NC|N|Res
 C Hunt Them Down|QID|51675|M|51.80,32.43|Z|Stormsong Valley|S|QO|2|N|Kill footman as you go.|
 C Douse the Flames|QID|51674|M|51.04,33.06|Z|Stormsong Valley|S|N|The mages drop the wands you need to douse the flames.|U|160565|
 K Captain Ara|ACTIVE|51675|M|51.85,33.63|Z|Stormsong Valley|QO|1|N|Kill Captain Ara.|T|Captain Ara.|
-C Almost Worth Saving|QID|51691|M|51.85,32.63|Z|Stormsong Valley|QO|2|NC|N|Click on the barricade behind Captain Ara.|
-C Douse the Flames|QID|51674|M|51.04,33.06|Z|Stormsong Valley|US|N|Finish putting out the fires.|U|160565|
+C Almost Worth Saving|QID|51691|M|51.85,32.63|Z|Stormsong Valley|QO|1<3|NC|N|Click on the barricade behind Captain Ara.|
+C Douse the Flames|QID|51674|M|51.04,33.06|Z|Stormsong Valley|US|N|Finish putting out the fires. The mages drop the wands you need to douse the flames.|U|160565|
 C Hunt Them Down|QID|51675|M|49.29,32.84|Z|Stormsong Valley|US|QO|2|N|Finish your quota of footman.|
 C Almost Worth Saving|QID|51691|M|51.80,32.43|Z|Stormsong Valley|QO|1|US|NC|N|Finish rescuing Frightened Peons.|
 T Hunt Them Down|QID|51675|M|49.18,34.22|Z|Stormsong Valley|N|To Centurion Kaga Warmstone.|
