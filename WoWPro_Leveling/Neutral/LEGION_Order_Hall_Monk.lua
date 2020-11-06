@@ -100,15 +100,14 @@ A Report from Tian Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|PRE|
 C Report from Tian Monastery|QID|41905|M|52.96,60.19|NC|N|Use the scouting map (missions tab) to send Chen on the mission. This step takes 1 hour (the length of the mission) to complete. Check it off manually, and don't forget to come back to your scouting map next time you are in the Order Hall.|
 t Report from the Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|
 A The Defense of Tian Monastery|QID|41728|M|51.41,48.36|N|From Iron-Body Ponshu.|PRE|41905|
-C The Defense of Tian Monastery|QID|41728|QO|1|M|47.14,47.74|N|Talk to Tak Tak to take the flight to Tien Monestary.|CHAT|
+C The Defense of Tian Monastery|QID|41728|QO|1|M|47.14,47.74|N|Go out the Side door and Talk to Tak Tak to take the flight to Tien Monestary.|CHAT|
 A Slowing the Spread|QID|41729|M|38.34,25.81|Z|The Jade Forest|N|From Instructor Myang.|PRE|41905|
 T The Defense of Tian Monastery|QID|41728|M|39.97,24.91|Z|The Jade Forest|N|To Taran Zhu.|
 A Desperate Strike|QID|41730|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|PRE|41728|
 A Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|PRE|41728|
 C Desperate Strike|QID|41730|M|39.97,24.91|Z|The Jade Forest|S|N|Kill the demons as you go along.|
-C Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|The Jade Forest|NC|S|N|As you go along, click on the tainted brew and the fel spikes to destroy. For the fires, you stand inside the circle and then an extra action button appears that you use to put out the fire.|
+C Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|The Jade Forest|NC|S|US|N|As you go along, click on the tainted brew and the fel spikes to destroy. For the fires, you stand inside the circle and then an extra action button appears that you use to put out the fire.|EAB|
 C Slowing the Spread|QID|41729|M|38.99,23.25;41.59,23.74;41.40,27.45|Z|The Jade Forest|CN|NC|N|Click on each of the Fel Spreader to destroy them.|
-C Storm, Earth, and Fire|QID|41731|M|42.07,25.46|Z|The Jade Forest|NC|US|N|Finish destroying fires, fel spikes and tainted brews.|
 C Desperate Strike|QID|41730|M|42.07,25.46|Z|The Jade Forest|US|N|Finish any needed demons.|
 T Slowing the Spread|QID|41729|M|42.07,25.46|Z|The Jade Forest|N|To the Monkey King.|
 T Desperate Strike|QID|41730|M|42.07,25.46|Z|The Jade Forest|N|To the Monkey King.|
@@ -124,7 +123,6 @@ A The Way of the Tiger|QID|43319|M|51.41,48.36|N|From Iron-Body Ponshu.|PRE|4173
 A Further Training|QID|43062|M|52.54,57.80|N|From High Elder Cloudfall.|PRE|41733|
 A Appropriations|QID|41907|M|52.54,57.80|N|From High Elder Cloudfall.|PRE|41733|
 A Tracking the Tideskorn|QID|41909|M|52.54,57.80|N|From High Elder Cloudfall.|PRE|41733|
-C Tracking the Tideskorn|QID|41909|M|52.96,60.19|NA|NC|N|Use the scouting map (missions tab) to send Li Li and some initiates on the mission. This step takes days to complete as there are 5 differant missions. Check it off manually and keep checking in with the mission board.|
 C The Way of the Tiger|QID|43319|M|54.43,57.16|CHAT|N|Talk to Gin Lei to recruit some Tiger troops.|
 T The Way of the Tiger|QID|43319|M|54.43,57.16|N|To Gin Lei.|
 T Appropriations|QID|41907|M|48.99,58.36|N|To Lao Shu.|
@@ -133,6 +131,7 @@ C An Ample Stockpile|QID|43054|NA|S|N|Remember the stuff to acquire listed earli
 C Further Training|QID|43062|M|49.70,51.25|S|NC|N|Practice Roll or Chi Torpedo on your way to pick up your next two followers.|
 A Champion: Taran Zhu|QID|41734|M|51.15,49.64|N|Taran Zhu would like to be your follower.|PRE|41907|
 A Champion: The Monkey King|QID|41735|M|51.00,49.51|N|The Monkey King also wants to join up.|PRE|41907|
+C Tracking the Tideskorn|QID|41909|M|52.96,60.19|NA|NC|N|Use the scouting map (missions tab) to send Li Li and some initiates on the mission. This step takes days to complete as there are 5 different missions. Check it off manually and keep checking in with the mission board.|  ; moved down here, as Monkey King needed for mission.
 C Further Training|QID|43062|M|52.54,57.80|US|NC|N|Thank all the old Gods this is no longer 100 of each! Roll (or Chi Torpedo) over to the Training Dummy and cast Crackling Jade Lightning and Blackout Strike or Blackout Kick until complete.Finish Rolling around.|
 T Further Training|QID|43062|M|52.54,57.80|N|To High Elder Cloudfall. |
 C An Ample Stockpile|QID|43054|M|48.99,58.36|US|NA|N|Turn in your silkweave bandages, highmountain salmon and spiced ribs to Lao Shu in multiples of 5. You have a while to finish this as no other progress can be made on the order hall campaign until 110.|
