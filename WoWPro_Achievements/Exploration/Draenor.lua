@@ -14,7 +14,7 @@
 -- Log: Initial
 
 local guide = WoWPro:RegisterGuide("LudoExpDraenor","Achievements","Draenor","Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,90,100,99)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",8935)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()

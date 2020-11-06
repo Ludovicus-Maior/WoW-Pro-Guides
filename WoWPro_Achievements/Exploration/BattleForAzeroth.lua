@@ -5,7 +5,7 @@
 --  Added LVL and PRE requirements on Nazjatar and Mechagon areas.
 
 local guide = WoWPro:RegisterGuide("BlancExpBfA","Achievements","Battle for Azeroth Pathfinder","Blanckaert", "Neutral")
-WoWPro:GuideLevels(guide,110,110,120)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",12988)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
@@ -93,33 +93,33 @@ R Whistlebloom Oasis, Vol'dun|QID|1125600013|M|42.88,61.42|Z|Vol'dun|ACH|12560;1
 
 ; Nazjatar Areas
 
-R Ashen Strand, Nazjatar|QID|1137120001|M|33.81,42.98|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;1|
-R Azsh'ari Terrace, Nazjatar|QID|1137120002|M|56.95,30.06|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;2|
-R Coral Forest, Nazjatar|QID|1137120003|M|58.90,43.57|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;3|
-R Deepcoil Tunnels, Nazjatar|QID|1137120004|M|65.65,22.02|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;4|
-R Dragon's Teeth Basin, Nazjatar|QID|1137120005|M|46.04,48.23|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;5|
-R The Drowned Market, Nazjatar|QID|1137120006|M|75.60,45.70|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;6|
-R Elun'alor Temple, Nazjatar|QID|1137120007|M|77.89,39.92|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;7|
-R The Empress's Approach, Nazjatar|QID|1137120008|M|47.47,40.60|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;8|
-R Gate of the Queen, Nazjatar|QID|1137120009|M|53.29,15.41|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;9|
-R The Hanging Reef, Nazjatar|QID|1137120010|M|40.16,58.14|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;10|
-R Kal'methir, Nazjatar|QID|1137120011|M|65.67,43.43|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;11|
-R Shirakess Repository, Nazjatar|QID|1137120012|M|59.33,14.48|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;12|
-R Spears of Azshara, Nazjatar|QID|1137120013|M|37.79,75.30|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;13|
-R Zanj'ir Terrace, Nazjatar|QID|1137120014|M|37.69,26.85|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;14|
-R Zanj'ir Wash, Nazjatar|QID|1137120015|M|43.65,39.06|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;15|
-R Zin-Azshari, Nazjatar|QID|1137120016|M|83.21,34.76|Z|Nazjatar|PRE|55053^54972|LVL|120|ACH|13712;16|
+R Ashen Strand, Nazjatar|QID|1137120001|M|33.81,42.98|Z|Nazjatar|PRE|55053^54972|ACH|13712;1|
+R Azsh'ari Terrace, Nazjatar|QID|1137120002|M|56.95,30.06|Z|Nazjatar|PRE|55053^54972|ACH|13712;2|
+R Coral Forest, Nazjatar|QID|1137120003|M|58.90,43.57|Z|Nazjatar|PRE|55053^54972|ACH|13712;3|
+R Deepcoil Tunnels, Nazjatar|QID|1137120004|M|65.65,22.02|Z|Nazjatar|PRE|55053^54972|ACH|13712;4|
+R Dragon's Teeth Basin, Nazjatar|QID|1137120005|M|46.04,48.23|Z|Nazjatar|PRE|55053^54972|ACH|13712;5|
+R The Drowned Market, Nazjatar|QID|1137120006|M|75.60,45.70|Z|Nazjatar|PRE|55053^54972|ACH|13712;6|
+R Elun'alor Temple, Nazjatar|QID|1137120007|M|77.89,39.92|Z|Nazjatar|PRE|55053^54972|ACH|13712;7|
+R The Empress's Approach, Nazjatar|QID|1137120008|M|47.47,40.60|Z|Nazjatar|PRE|55053^54972|ACH|13712;8|
+R Gate of the Queen, Nazjatar|QID|1137120009|M|53.29,15.41|Z|Nazjatar|PRE|55053^54972|ACH|13712;9|
+R The Hanging Reef, Nazjatar|QID|1137120010|M|40.16,58.14|Z|Nazjatar|PRE|55053^54972|ACH|13712;10|
+R Kal'methir, Nazjatar|QID|1137120011|M|65.67,43.43|Z|Nazjatar|PRE|55053^54972|ACH|13712;11|
+R Shirakess Repository, Nazjatar|QID|1137120012|M|59.33,14.48|Z|Nazjatar|PRE|55053^54972|ACH|13712;12|
+R Spears of Azshara, Nazjatar|QID|1137120013|M|37.79,75.30|Z|Nazjatar|PRE|55053^54972|ACH|13712;13|
+R Zanj'ir Terrace, Nazjatar|QID|1137120014|M|37.69,26.85|Z|Nazjatar|PRE|55053^54972|ACH|13712;14|
+R Zanj'ir Wash, Nazjatar|QID|1137120015|M|43.65,39.06|Z|Nazjatar|PRE|55053^54972|ACH|13712;15|
+R Zin-Azshari, Nazjatar|QID|1137120016|M|83.21,34.76|Z|Nazjatar|PRE|55053^54972|ACH|13712;16|
 
 ; Mechagon Areas
 
-R Rustbolt, Mechagon|QID|1137760001|M|72.03,33.72|Z|Mechagon Island|PRE|55685^55645|LVL|120|ACH|13776;1|
-R Sparkweaver Point, Mechagon|QID|1137760005|M|87.90,22.68|Z|Mechagon Island|PRE|55685^55645|LVL|120|ACH|13776;2|
-R Junkwatt Depot, Mechagon|QID|1137760002|M|53.25,62.96|Z|Mechagon Island|PRE|55685^55645|LVL|120|ACH|13776;3|
-R The Heaps, Mechagon|QID|1137760006|M|69.19,53.25|Z|Mechagon Island|PRE|55685^55645|LVL|120|ACH|13776;4|
-R Scrapbone Den, Mechagon|QID|1137760003|M|59.47,27.17|Z|Mechagon Island|PRE|55685^55645|LVL|120|ACH|13776;5|
-R Western Spray, Mechagon|QID|1137760007|M|19.49,66.96|Z|Mechagon Island|PRE|55685^55645|LVL|120|ACH|13776;6|
-R The Outflow, Mechagon|QID|1137760004|M|70.84,68.67|Z|Mechagon Island|PRE|55685^55645|LVL|120|ACH|13776;7|
-R The Fleeting Forest, Mechagon|QID|1137760008|M|46.57,38.02|Z|Mechagon Island|PRE|55685^55645|LVL|120|ACH|13776;8|
+R Rustbolt, Mechagon|QID|1137760001|M|72.03,33.72|Z|Mechagon Island|PRE|55685^55645|ACH|13776;1|
+R Sparkweaver Point, Mechagon|QID|1137760005|M|87.90,22.68|Z|Mechagon Island|PRE|55685^55645|ACH|13776;2|
+R Junkwatt Depot, Mechagon|QID|1137760002|M|53.25,62.96|Z|Mechagon Island|PRE|55685^55645|ACH|13776;3|
+R The Heaps, Mechagon|QID|1137760006|M|69.19,53.25|Z|Mechagon Island|PRE|55685^55645|ACH|13776;4|
+R Scrapbone Den, Mechagon|QID|1137760003|M|59.47,27.17|Z|Mechagon Island|PRE|55685^55645|ACH|13776;5|
+R Western Spray, Mechagon|QID|1137760007|M|19.49,66.96|Z|Mechagon Island|PRE|55685^55645|ACH|13776;6|
+R The Outflow, Mechagon|QID|1137760004|M|70.84,68.67|Z|Mechagon Island|PRE|55685^55645|ACH|13776;7|
+R The Fleeting Forest, Mechagon|QID|1137760008|M|46.57,38.02|Z|Mechagon Island|PRE|55685^55645|ACH|13776;8|
 
 N End of Guide|N|Just pick a guide to continue where you were.|
 

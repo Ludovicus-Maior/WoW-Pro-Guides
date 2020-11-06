@@ -13,7 +13,7 @@
 -- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("LudoExpBrokenIsles","Achievements","Broken Isles","Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,105,110,109)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",11188)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()

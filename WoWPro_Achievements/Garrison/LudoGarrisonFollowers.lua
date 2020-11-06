@@ -30,7 +30,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoGarrisonFollowers","Achievements","Draenor","Ludovicus","Neutral")
 WoWPro:GuideIcon(guide,"ACH",9109)
-WoWPro:GuideLevels(guide,90, 100, 95.5)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideSteps(guide, function()
 
 return

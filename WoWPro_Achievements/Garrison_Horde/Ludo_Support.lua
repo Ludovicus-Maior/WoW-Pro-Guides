@@ -49,7 +49,7 @@
 -- Log: Initial
 
 local guide = WoWPro:RegisterGuide('LudoGarrissonSupportH', 'Achievements', 'Frostwall', 'Ludovicus', 'Horde')
-WoWPro:GuideLevels(guide,94, 96, 95)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9528)
 WoWPro:GuideName(guide,"On the Shadow's Trail")
 WoWPro:GuideAutoSwitch(guide)

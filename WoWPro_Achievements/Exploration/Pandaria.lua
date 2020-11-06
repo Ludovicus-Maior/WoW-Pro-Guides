@@ -28,7 +28,7 @@
 -- Log: Initial
 
 local guide = WoWPro:RegisterGuide("LudoExpPandaria","Achievements","Pandaria","Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,90,100,99)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",6974)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()

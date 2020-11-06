@@ -86,7 +86,7 @@
 -- Log: Close of Blog Page
 
 local guide = WoWPro:RegisterGuide('EmmAchLost', "Achievements", 'Pandaria', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,87, 91, 90)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",7284)
 WoWPro:GuideSteps(guide, function()
 return [[

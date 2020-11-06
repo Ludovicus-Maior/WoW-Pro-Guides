@@ -77,7 +77,7 @@
 -- Log: Initial
 
 local guide = WoWPro:RegisterGuide('TwoToadSqu',"Achievements",'Pandaria', 'TwoToad', 'Neutral')
-WoWPro:GuideLevels(guide,85, 90, 89)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",6350)
 WoWPro:GuideSteps(guide, function()
 return [[

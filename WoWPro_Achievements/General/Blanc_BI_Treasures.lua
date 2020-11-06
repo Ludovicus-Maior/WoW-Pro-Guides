@@ -33,7 +33,7 @@
 -- Log: Start of a Treasures guide, for all the Broken Isle Zones, in one file.
 
 local guide = WoWPro:RegisterGuide('Blanc_BI_Treasures', "Achievements", 'Broken Isles', 'Blanckaert', 'Neutral')
-WoWPro:GuideLevels(guide,98, 110, 100)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",11259)
 -- WoWPro:GuideProximitySort(guide)
 WoWPro.Achievements:GuideMisc(guide, "Treasures of the Broken Isles", "Treasures", "Broken Isles")
@@ -217,7 +217,7 @@ $ Small Treasure Chest|QID|43191|M|82.40,54.51|Z|Stormheim|N|Loot for a bit of t
 $ Small Treasure Chest|QID|43307|M|76.05,65.05;76.91,66.17;77.25,67.18;77.31,68.16;77.12,69.29;78.57,70.33;78.43,71.38|Z|Stormheim|CS|N|Very time comsuming to get to. About 5 hook points and a couple of jump downs.  Loot for a bit of treasure and resources. (or decide you dont want to.)|
 $ Small Treasure Chest|QID|43304|M|75.49,60.10;75.62,60.63|Z|Stormheim|CS|N|Look up from first coord. Use Hook Point. Loot for treasure and resources. (Stormheim)|
 $ Small Treasure Chest|QID|43237|M|73.98,58.59|Z|Stormheim|N|Loot for treasure and resources. (Stormheim)|
-$ Treasure Chest|QID|40108|M|68.42,29.60|Z|Stormheim|CS|N|Chest is on the rock, path starts right behind Rax Sixtrigger. Loot for resources and treasure. (Stormheim)|LVL|110|;doesnt actually require 110, but this is way too remote to come out if you arent doing the sixtriggers quest.
+$ Treasure Chest|QID|40108|M|68.42,29.60|Z|Stormheim|CS|N|Chest is on the rock, path starts right behind Rax Sixtrigger. Loot for resources and treasure. (Stormheim)|;doesnt actually require 110, but this is way too remote to come out if you arent doing the sixtriggers quest.
 
 ; Val'sharah Treasures
 

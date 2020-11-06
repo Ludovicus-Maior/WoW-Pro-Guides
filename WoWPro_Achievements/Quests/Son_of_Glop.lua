@@ -56,7 +56,7 @@
 
 local guide = WoWPro:RegisterGuide("TwiGlop","Achievements","Deepholm","Twists", "Neutral")
 WoWPro:GuideIcon(guide,"ACH",5446)
-WoWPro:GuideLevels(guide,82, 85, 85)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideSteps(guide, function()
 return [[
 

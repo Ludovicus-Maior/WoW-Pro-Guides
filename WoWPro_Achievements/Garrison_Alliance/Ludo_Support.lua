@@ -49,14 +49,14 @@
 -- Log: Initial
 
 local guide = WoWPro:RegisterGuide('LudoGarrissonSupportA', 'Achievements', 'Lunarfall', 'Ludovicus', 'Alliance')
-WoWPro:GuideLevels(guide,90, 90, 95)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9528)
 WoWPro:GuideName(guide,"On the Shadow's Trail")
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Meet Us at Starfall Outpost|QID|33359|LEAD|33113|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|LVL|94|
+A Meet Us at Starfall Outpost|QID|33359|LEAD|33113|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|
 ; Gone from game!??
 ; A Bounty: Twisted Ancient|QID|33111|N|From the Bulletin Board. This is a 3-party group quest. Can be soloed if you are geared.|M|42.72,44.75|Z|Lunarfall|RANK|2|
 

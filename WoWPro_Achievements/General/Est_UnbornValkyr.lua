@@ -28,7 +28,7 @@
 -- Who: Estelyen
 
 local guide = WoWPro:RegisterGuide('EstAchUnVa',"Achievements",'Northrend', 'Estelyen' ,'Neutral')
-WoWPro:GuideLevels(guide,75, 81, 80)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_valkierpet")
 WoWPro.Achievements:GuideMisc(guide, "Unborn Val'kyr", "Pets", "Northrend")
 WoWPro:GuideSteps(guide, function()

@@ -19,7 +19,7 @@
 -- Log: Initial Cut
 
 local guide = WoWPro:RegisterGuide("KabExpCata","Achievements","Cataclysm","Kaboca+Twists", "Neutral")
-WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",4868)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()

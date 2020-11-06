@@ -24,7 +24,7 @@
 -- Log: Initial Cut!
 
 local guide = WoWPro:RegisterGuide("KabExpOutland","Achievements","Hellfire Peninsula","Kaboca", "Neutral")
-WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",44)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()

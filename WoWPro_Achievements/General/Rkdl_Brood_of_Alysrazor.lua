@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('RkdlAchBrofAl', "Achievements", 'DarkmoonFaireIsland', 'Rikdol', 'Neutral')
-WoWPro:GuideLevels(guide,20,120)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9252)
 WoWPro:GuideSteps(guide, function()
 return [[

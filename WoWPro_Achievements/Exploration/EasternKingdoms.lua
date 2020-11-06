@@ -153,7 +153,7 @@
 -- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("TwiExpEK","Achievements","Eastern Kingdoms","Twists+Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",42)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
