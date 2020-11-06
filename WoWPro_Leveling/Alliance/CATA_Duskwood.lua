@@ -10,21 +10,22 @@ N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie
 N This guide starts in Darkshire|AVAILABLE|26618|ACTIVE|-28564|M|74.75,46.71|N|Make your way there now.|
 ; Commented out A step but left T step in case they have the quest.
 ; A Hero's Call: Duskwood!|QID|28564|M|62.9,71.7|Z|Stormwind City|N|From the Hero's Call Board. Select Duskwood.|
-T Hero's Call: Duskwood!|QID|28564|M|73.57,46.90|N|To Commander Althea Ebonlocke. Just follow the road all the way to Darkshire.|
-A Wolves at Our Heels|QID|26618|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
-h Darkshire|ACTIVE|26618|M|73.93,44.49|N|At Innkeeper Trelayne.|
-A Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|From Chef Grual.|S|RANK|2|
-A Seasoned Wolf Kabobs|QID|26620|M|73.80,43.61|N|From Chef Grual.|RANK|2|
-A Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|From Chef Grual.|US|RANK|2|
-f Darkshire|QID|26618|M|77.53,44.32|N|At Felicia Maline.|TAXI|-Darkshire|
+T Hero's Call: Duskwood!|QID|28564|M|73.53,46.93|N|To Commander Althea Ebonlocke. Just follow the road all the way to Darkshire.|
+A Wolves at Our Heels|QID|26618|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
+h Darkshire|ACTIVE|26618|M|73.87,44.40|N|At Innkeeper Trelayne inside Scarlet Raven Tavern.|
+A Dusky Crab Cakes|QID|26623|M|73.75,43.48|N|From Chef Grual.|S|RANK|2|
+A Seasoned Wolf Kabobs|QID|26620|M|73.75,43.48|N|From Chef Grual.|RANK|2|
+A Dusky Crab Cakes|QID|26623|M|73.75,43.48|N|From Chef Grual.|US|RANK|2|
+f Darkshire|QID|26618|M|77.49,44.29|N|At Felicia Maline.|TAXI|-Darkshire|
 C Dusky Crab Cakes|QID|26623|N|Kill and loot spiders.|S|
 C Wolves at Our Heels|QID|26618|N|Kill Dire Wolves.|S|
-C Seasoned Wolf Kabobs|QID|26620|M|65.38,23.84|N|Kill and loot Wolves. Be careful of the level 21 wolves.|
+C Seasoned Wolf Kabobs|QID|26620|M|65.38,23.84|N|Kill and loot Wolves.|
 C Dusky Crab Cakes|QID|26623|N|Finish gathering Dusky Lumps from spiders.|US|
+K Lupos|ACTIVE|26618|QO|1|N|He is a silver rare and you'll find him pathing in this area.\n[color=FF0000]NOTE: [/color]He is tameable by hunters.|
 C Wolves at Our Heels|QID|26618|M|74.40,19.15;30.85,24.85|CN|N|Finish killing the wolves, which can be found all along the river bank.|US|
-T Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|To Chef Grual.|S|
-T Seasoned Wolf Kabobs|QID|26620|M|73.80,43.61|N|To Chef Grual.|
-T Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|To Chef Grual.|US|
+T Dusky Crab Cakes|QID|26623|M|73.75,43.48|N|To Chef Grual.|S|
+T Seasoned Wolf Kabobs|QID|26620|M|73.75,43.48|N|To Chef Grual.|
+T Dusky Crab Cakes|QID|26623|M|73.75,43.48|N|To Chef Grual.|US|
 T Wolves at Our Heels|QID|26618|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
 A The Night Watch|QID|26645|M|73.72,46.89|N|From Commander Althea Ebonlocke.|S|PRE|26618|RANK|2|
 A The Hermit|QID|26627|LEAD|26653|M|73.72,46.89|N|From Commander Althea Ebonlocke.|PRE|26618|
