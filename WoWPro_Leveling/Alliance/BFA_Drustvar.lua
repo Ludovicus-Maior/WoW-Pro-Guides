@@ -221,7 +221,7 @@ C The Burden of Proof|QID|48198|QO|3|M|70.10,42.81|NC|N|Click on Lucille to admi
 C The Burden of Proof|QID|48198|QO|4|M|70.10,42.81|NC|N|Click on Lucille to administer the third test.|
 T The Burden of Proof|QID|48198|M|70.10,42.81|N|To Lucille Waycrest.|
 A The Curse of Fletcher's Hollow|QID|48171|M|70.08,42.90|N|From Lucille Waycrest.|PRE|48198|
-; fishing side quests (optinal)
+; fishing side quests (optional)
 A Mean Gulls|QID|48880|M|71.76,50.41|N|From Art Hughie.|RANK|3|
 A Take the Bait|QID|48904|M|71.76,50.41|N|From Art Hughie.|RANK|3|
 A I Like Fish Guts and I Cannot Lie|QID|48882|M|70.82,50.81|N|From Intact Mudfish.|RANK|3|
@@ -335,7 +335,7 @@ A Salvage Rights|QID|48943|M|46.17,33.35|N|From Lucille Waycrest.|PRE|48941|
 C Yeti to Rumble|QID|48942|M|45.60,34.37|S|N|Kill yetis as you go.|
 C Salvage Rights|QID|48943|QO|1|M|45.60,34.37|NC|N|Pick up the Wrapped Supplies.|
 $ Ancient Sarcophagus|QID|49137|M|43.37,36.29;41.95,36.48|CS|N|Kill 3 waves of undead, final one being a Silver Elite, then you can loot the sarcophagus.|RARE|RANK|2|
-A If Bones Could Talk|QID|51134|M|45.23,33.62|N|from UI by looting bone from Awakend dead.|RANK|2|
+A If Bones Could Talk|QID|51134|M|45.23,33.62|N|from UI by looting bone from Awakened dead.|RANK|2|
 C If Bones Could Talk|QID|51134|M|45.23,33.62|S|N|Kill the undead until you get a Pristine Rune-Etched Bone.|
 C Salvage Rights|QID|48943|QO|2|M|45.05,32.49|NC|N|Pick up Cask of Salted Fish.|
 C Salvage Rights|QID|48943|QO|3|M|43.54,30.80|NC|N|Pick up the Hardened Lockbox.|
@@ -384,11 +384,11 @@ C Implements of Ill Intent|QID|49805|M|37.72,50.39|NC|S|N|Start by destroying th
 C Sharp Thinking|QID|49804|M|37.91,50.22|S|NC|U|156518|N|Use Lucille's needle on the refugees.|
 A Hidden Dealings|QID|49806|M|37.78,50.17|N|Some of the refugees will be exposed as witches, one of them will drop a 'hastily drawn map' which starts this quest.|
 C Changing of the Guard|QID|49803|QO|2|M|35.26,53.13|CHAT|N|Recruit Ensign Yorrick.|
-C Hidden Dealings|QID|49806|QO|1|CHAT|M|38.40,53.16;38.37,53.69|CS|N|Go down, thru the celler doors and talk to the Suspicious Refugee to complete the celler exploration.|
+C Hidden Dealings|QID|49806|QO|1|CHAT|M|38.40,53.16;38.37,53.69|CS|N|Go down, thru the cellar doors and talk to the Suspicious Refugee to complete the cellar exploration.|
 K Sister Littlefield|ACTIVE|49806|QO|2|M|38.37,53.69|N|After a bit of conversation they transform and you need to kill them.|T|Sister Littlefield|
 f Arom's Stand|ACTIVE|49806|M|38.13,52.54|N|At Jess Albury.|
 C Changing of the Guard|QID|49803|QO|5|M|38.73,52.47|CHAT|N|Recruit Falconer Notley.|
-C Changing of the Guard|QID|49803|QO|4|M|39.05,51.51|CHAT|N|Recriot Ensign Mace.|
+C Changing of the Guard|QID|49803|QO|4|M|39.05,51.51|CHAT|N|Recruit Ensign Mace.|
 C Changing of the Guard|QID|49803|QO|3|M|39.91,50.18|CHAT|N|Recruit Lieutenant Sterntide.|
 C Changing of the Guard|QID|49803|QO|1|M|37.55,48.76|CHAT|N|Recruit Captain Cleardawn.|
 C Implements of Ill Intent|QID|49805|M|37.53,49.82|NC|US|N|Finish destroying Heartsbane objects.|
@@ -489,7 +489,7 @@ C Curiously Strong|QID|50092|M|25.34,69.85|US|U|156828|NC|N|Use the Frost Potion
 T Curiously Strong|QID|50092|M|25.24,67.16|N|To Warren Ashton.|
 A A Weapon of Old|QID|50036|M|25.24,67.16|N|From Warren Ashton.|PRE|50092|;not spurious
 C A Weapon of Old|QID|50036|QO|1|M|25.24,67.16|CHAT|N|Tell Warren Ashton you are ready.|
-C A Weapon of Old|QID|50036|QO|2|M|25.17,67.18|NC|N|Help create a Liquid Fire potion. Mix the potion by clicking the items that Warren Ashton asked. Position yourself before the tables in the middle. From left to right you have Heartbloem, volaite sap, saltpaper and sulfer|
+C A Weapon of Old|QID|50036|QO|2|M|25.17,67.18|NC|N|Help create a Liquid Fire potion. Mix the potion by clicking the items that Warren Ashton asked. Position yourself before the tables in the middle. From left to right you have Hearthbloom, Volatile Sap, Saltpeper and Sulfur.|
 T A Weapon of Old|QID|50036|M|25.24,67.16|N|To Warren Ashton.|
 A Fighting With Fire|QID|50063|M|25.24,67.16|N|From Warren Ashton.|PRE|50036|;not spurious
 C Village Repair|QID|50091|M|26.92,66.96|US|N|Stay and finish repairing the village to complete this bonus objective.|
@@ -620,7 +620,7 @@ A All Wrapped Up|QID|50174|M|34.60,30.73|N|From Elsie Wright.|RANK|2|
 C An Eight-Legged Curse|QID|50175|M|35.54,31.15|S|N|Kill Bilefang spiders as you go.|
 C Precious Metals|QID|50173|M|35.44,32.29|S|NC|N|Collect Silver Nuggets as you go.|
 C All Wrapped Up|QID|50174|M|35.54,31.15|S|N|Attack the writhing webs to rescue the Miners.|
-$ Web Wrapped Chest|QID|53356|M|33.71,30.09|N|Approach cautiously, all those webs will spawn spiderlings which can quickly overwhealm you if you take them all on at once.|ITEM|160053|RANK|2|
+$ Web Wrapped Chest|QID|53356|M|33.71,30.09|N|Approach cautiously, all those webs will spawn spiderlings which can quickly overwhelm you if you take them all on at once.|ITEM|160053|RANK|2|
 K Bilefang Mother|QID|50163|QO|1|M|35.43,32.88|T|Bilefang Mother|N|Bilefang Mother is all the way at the end of the mine. Just like with the Web Wrapped Chest, the webs on the ground around her will spawn spiderlings. Silver Elite to kill for azerite power and resources.|RANK|3|RARE|ITEM|155284|
 C All Wrapped Up|QID|50174|M|35.54,31.15|US|N|Finish rescuing the Miners.|
 C Precious Metals|QID|50173|M|35.44,32.29|US|NC|N|Finish collecting Silver Nuggets as head back out of the mine.|
@@ -630,8 +630,8 @@ T All Wrapped Up|QID|50174|M|34.60,30.73|N|To Elsie Wright.|
 R Corlain Armory|ACTIVE|50173|M|27.04,34.58|N|Go check out the situation at the armory.|
 A Digging for Scraps|QID|50152|M|26.30,36.13|N|From Inquisitor Yorrick.|RANK|2|
 C Digging for Scraps|QID|50152|M|24.87,37.34|S|N|Quality Salvage drops from the guards and can also be found scattered about on the ground.|
-C A Steady Ballast|QID|50151|M|24.49,37.14|QO|1|CHAT|N|Find Angus Ballaster down in the celler behind the house.|
-C A Steady Ballast|QID|50151|M|24.49,37.14|QO|2|N|Stay in the celler, wait for and then defeat the coven ambush.|
+C A Steady Ballast|QID|50151|M|24.49,37.14|QO|1|CHAT|N|Find Angus Ballaster down in the cellar behind the house.|
+C A Steady Ballast|QID|50151|M|24.49,37.14|QO|2|N|Stay in the cellar, wait for and then defeat the coven ambush.|
 C Digging for Scraps|QID|50152|M|25.79,36.46|US|N|Finish collecting the needed Quality Salvage.|
 T A Steady Ballast|QID|50151|M|31.35,30.29|N|To Marshal Everit Reade.|
 T Digging for Scraps|QID|50152|M|31.35,30.29|N|To Marshal Everit Reade.|
@@ -683,9 +683,9 @@ K Sister Lilias|QID|51356|ACTIVE|51356|QO|1|T|Sister Lilias|M|28.55,18.39;27.10,
 $ Enchanted Chest|QID|53474|M|25.46,24.19|N|Click on any of the Witch Torches to enable looting the chest.|RANK|2|
 $ Merchant's Chest|QID|53357|M|25.89,19.99|N|Target the Gorging Raven's and determine which one has the buff "merchant's key" and kill it to loot the key to open the treasure.|RANK|2|
 K Fungi Trio|QID|51749|M|26.11,21.38;24.88,19.86;23.67,21.87;24.10,21.93|CS|N|Run down the hill and take out this trio of Silver Elites.|RARE|ITEM|154217|RANK|2|
-R Western Watch |ACH|12557|M|19.24,11.94|CC|N|Run or swim(or fly when available) to this island Western Watch to get the explore Drustvar archiement at the end of this guide. The first set of coordinates will lead to a way down for the shortest swim|RANK|3|
+R Western Watch |ACH|12557|M|19.24,11.94|CC|N|Run or swim(or fly when available) to this island Western Watch to get the explore Drustvar achievement at the end of this guide. The first set of coordinates will lead to a way down for the shortest swim|RANK|3|
 ; Whitegrove Chapel side quests
-R Whitegrove Chapel|ACTIVE|50754|M|23.17,20.18;24.73,21.05;23.74,17.44|CS|N|Up the hill fo meet Lucille's fiance.|FLY|BFA|
+R Whitegrove Chapel|ACTIVE|50754|M|23.17,20.18;24.73,21.05;23.74,17.44|CS|N|Up the hill to meet Lucille's fiance.|FLY|BFA|
 C To Have Loved and Lost|QID|50754|M|23.31,17.45|NC|N|Place flowers on the grave.|
 T To Have Loved and Lost|QID|50754|M|23.35,17.45|N|To Alexander Treadward.|
 A Painful Memories|QID|50758|M|23.35,17.45|N|From Alexander Treadward.|RANK|2|
@@ -717,7 +717,7 @@ t WANTED: Sister Lilias|QID|51356|M|31.52,30.05|N|To Lieutenant Course.|
 T One Last Request|QID|50763|M|31.43,30.26|N|To Lucille Waycrest.|
 T Sweete's Orders|QID|50960|M|31.43,30.26|N|To Lucille Waycrest.|
 T A Traitor's Death|QID|50454|M|31.39,30.27|N|To Marshal Everit Reade.|
-C Leaving the Nest|QID|50455|M|30.98,23.95|S|N|Open Falcon Cages. You need to kill Hexthralled falconers to get the keya (new key for each cage)|
+C Leaving the Nest|QID|50455|M|30.98,23.95|S|N|Open Falcon Cages. You need to kill Hexthralled falconers to get the keys (new key for each cage)|
 C Hexed Hatchlings|QID|50456|M|31.36,24.48|NC|U|157845|N|Use the Whistle to call Winston, aim him at the Wicker Charms and press 1. Getting attacked takes you out of this mode, lacking that... NumPad 5 also does.|
 C Leaving the Nest|QID|50455|M|30.98,23.95|US|N|Finish opening Falcon Cages.|
 T Hexed Hatchlings|QID|50456|M|31.23,22.65|N|To Inquisitor Notley.|
@@ -760,7 +760,7 @@ C Everburning|QID|52149|M|36.05,51.18|QO|1|CHAT|N|Let Lucille know you are ready
 C Everburning|QID|52149|M|36.04,51.18|QO|2|U|161247|NC|N|Present Regalia to Inquisiter Joan Cleardawn.|
 T Everburning|QID|52149|M|36.05,51.18|N|To Lucille Waycrest.|
 A House Waycrest|QID|53109|M|36.05,51.18|N|From Lucille Waycrest.|PRE|52149|RANK|2|;not spurious
-F Tradewinds Market|ACTIVE|53109|M|38.14,52.50|N|Take flypoint to Tradewind market (Boralus Harbor).|RANK|2|FLY|BFA|
+F Tradewinds Market|ACTIVE|53109|M|38.14,52.50|N|Take flight-point to Tradewind market (Boralus Harbor).|RANK|2|FLY|BFA|
 T House Waycrest|QID|53109|M|73.81,25.10|Z|Tiragarde Sound|N|To Taelia.|RANK|2|
 ]]
 end)
