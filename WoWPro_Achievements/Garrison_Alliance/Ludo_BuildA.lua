@@ -54,7 +54,7 @@
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide('LudoBuildingsAlliance', 'Achievements', 'Shadowmoon Valley@Draenor', 'Ludovicus', 'Alliance')
-WoWPro:GuideLevels(guide,90, 100, 92)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9096)
 WoWPro:GuideName(guide, "Garrison Buildings")
 WoWPro:GuideAutoSwitch(guide)
@@ -261,7 +261,7 @@ C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red a
 T Things Are Not Goren Our Way |QID|34192|N|To Timothy Leens|M|65.46,41.79|Z|Lunarfall|
 
 ; Fishing Shack
-A Looking For Help |QID|34194|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton, Fisherman|BUILDING|townhall;2|LVL|94|
+A Looking For Help |QID|34194|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton, Fisherman|BUILDING|townhall;2|
 C Looking For Help |QID|34194|M|26.96, 6.65|CHAT|N|Ask for help from Maidari at Eventide Landing.  Fastest way to get there is to jump carefully down the back of your garrison.|
 T Looking For Help |QID|34194|M|26.97, 6.65|N|To Madari.|
 A Moonshell Claws |QID|36199|M|26.96, 6.65|N|From Madari.|PRE|34194|
@@ -274,19 +274,19 @@ A Anglin' In Our Garrison |QID|36202|M|26.96, 6.65|N|From Madari.|PRE|36201|
 T Anglin' In Our Garrison |QID|36202|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton|
 
 ; Garden
-A Clearing the Garden |QID|36404|M|58.89, 53.45|N|From Naron Bloomthistle|Z|Lunarfall|BUILDING|townhall;2|LVL|96|
+A Clearing the Garden |QID|36404|M|58.89, 53.45|N|From Naron Bloomthistle|Z|Lunarfall|BUILDING|townhall;2|
 C Kill the Raccoons|QID|36404|M|57.6,59.6|Z|Lunarfall|QO|1|
 T Clearing the Garden |QID|36404|M|58.89, 53.45|Z|Lunarfall|N|To Naron Bloomthistle|
 
 ; Salvage Yard
-A Pinchwhistle Gearworks|QID|35619|PRE|35286|M|39.63,60.62|Z|Spires of Arak|N|From Watchman Kovak. |FACTION|Alliance|LVL|96|
+A Pinchwhistle Gearworks|QID|35619|PRE|35286|M|39.63,60.62|Z|Spires of Arak|N|From Watchman Kovak. |FACTION|Alliance|
 C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|Z|Spires of Arak|CHAT|N|Talk to Firn Swiftbreeze for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
-A Pinchwhistle Gearworks|QID|35620|PRE|35277|M|40.01,43.97|N|From Scout Cel. |FACTION|Horde|LVL|96|
+A Pinchwhistle Gearworks|QID|35620|PRE|35277|M|40.01,43.97|N|From Scout Cel. |FACTION|Horde|
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
-A Pinchwhistle Gearworks|QID|35619|PRE|35286|M|45.8,46.0|Z|Lunarfall|N|From Pinchwhistle Gearworks. |FACTION|Alliance|LVL|96|
+A Pinchwhistle Gearworks|QID|35619|PRE|35286|M|45.8,46.0|Z|Lunarfall|N|From Pinchwhistle Gearworks. |FACTION|Alliance|
 C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|Z|Lunarfall|CHAT|N|Talk to Dungar Longdrink for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
-A Pinchwhistle Gearworks|QID|36862|M|40.01,43.97|Z|Frostwall|N|From Murla Longeye. |FACTION|Horde|LVL|96|
+A Pinchwhistle Gearworks|QID|36862|M|40.01,43.97|Z|Frostwall|N|From Murla Longeye. |FACTION|Horde|
 C Pinchwhistle Gearworks|QID|36862|M|39.50,43.38|Z|Frostwall|CHAT|N|Talk to Bron Skyhorn for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
 f Pinchwhistle Gearworks|QID|35077^35079|M|60.88,73.31|Z|Spires of Arak|N|At Kwiven Quickcog.|
@@ -343,7 +343,7 @@ T Flame On|QID|35298|M|61.47,72.94|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 A Kimzee Pinchwhistle|QID|36062|M|61.47,72.94|Z|Spires of Arak|N|To/From Kimzee Pinchwhistle.|PRE|35298|
 
 ; Pet Battle Station
-A Unearthed Magic|QID|38241|M|28.85,38.56|Z|Lunarfall|N|From Lio the Lioness|BUILDING|townhall;3|LVL|98|
+A Unearthed Magic|QID|38241|M|28.85,38.56|Z|Lunarfall|N|From Lio the Lioness|BUILDING|townhall;3|
 C Unearthed Magic|QID|38241|M|65.69,42.54|Z|Lunarfall|N|It is in a cart outside the mine.|
 T Unearthed Magic|QID|38241|M|28.85,38.56|Z|Lunarfall|N|To Lio the Lioness|
 A Pets Versus Pests|QID|36423|PRE|38241|M|28.85,38.56|Z|Lunarfall|N|From Lio the Lioness|

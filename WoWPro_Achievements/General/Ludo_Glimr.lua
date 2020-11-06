@@ -6,7 +6,7 @@
 
 
 local guide = WoWPro:RegisterGuide('Ludo_Glimr ', 'Achievements', 'Northrend', 'Ludovicus', 'Neutral')
-WoWPro:GuideLevels(guide,110, 110)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro.Achievements:GuideMisc(guide, "Glimr and the Glimmerfin Tribe in Grizzly Hills", "Battle Pet", "Shadowlands")
 WoWPro:GuideSteps(guide, function()
 return [[

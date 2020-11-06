@@ -14,7 +14,7 @@
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide("LudoFishFry",'Achievements', "The Broken Isles", "Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,100,110)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",10596)
 WoWPro:GuideSteps(guide, function()
 return [[

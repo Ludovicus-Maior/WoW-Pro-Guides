@@ -77,7 +77,7 @@
 -- Log: Initial
 
 local guide = WoWPro:RegisterGuide('TwiCared',"Achievements", 'Maelstrom', 'Twists','Neutral')
-WoWPro:GuideLevels(guide,80, 85, 84)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",5548)
 WoWPro:GuideSteps(guide, function()
 return [[

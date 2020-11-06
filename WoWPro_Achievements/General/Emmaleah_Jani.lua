@@ -52,8 +52,8 @@ C Curse of Jani|QID|47442|M|40.10,19.27|Z|Dazar'alor|QO|2|NC|N|Click on Nokona b
 T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani.|FACTION|Horde|
 
 ;open up the ach - alliance
-P Vol'dun|AVAILABLE|51142|M|67.95,26.72|Z|Boralus|CHAT|N|Ask Captain Jes'Thereth to take you to Vol'dun.|FACTION|Alliance|PRE|51229|LVL|120|
-A Pests|QID|51142|M|36.59,32.25|Z|Vol'dun|N|From Quartermaster Alfin.|FACTION|Alliance|PRE|51229|LVL|120|
+P Vol'dun|AVAILABLE|51142|M|67.95,26.72|Z|Boralus|CHAT|N|Ask Captain Jes'Thereth to take you to Vol'dun.|FACTION|Alliance|PRE|51229|
+A Pests|QID|51142|M|36.59,32.25|Z|Vol'dun|N|From Quartermaster Alfin.|FACTION|Alliance|PRE|51229|
 C Pests|QID|51142|M|36.59,32.25|Z|Vol'dun|QO|1|N|Kill Thieving Snappers.|FACTION|Alliance|
 C Pests|QID|51142|M|36.59,32.25|Z|Vol'dun|NC|QO|2|N|Follow the Big One.|FACTION|Alliance|
 T Pests|QID|51142|M|36.14,36.78|Z|Vol'dun|N|To Jani.|FACTION|Alliance|

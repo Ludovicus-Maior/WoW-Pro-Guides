@@ -23,7 +23,7 @@
 -- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide('EstAchHiLe',"Achievements",'Dalaran', 'Estelyen','Neutral')
-WoWPro:GuideLevels(guide,70, 85, 82.5)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",1956)
 WoWPro:GuideSteps(guide, function()
 return

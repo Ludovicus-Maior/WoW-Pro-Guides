@@ -107,7 +107,7 @@
 
 local guide = WoWPro:RegisterGuide('Lorewalkers',"Achievements",'Pandaria', 'Lockslap','Neutral')
 WoWPro:GuideIcon(guide,"ACH",6548)
-WoWPro:GuideLevels(guide,85,90,89)  -- Artificial levels
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideSteps(guide, function()
 return
 [[

@@ -20,7 +20,7 @@
 
 local guide = WoWPro:RegisterGuide('LudoTreasure',"Achievements",'Timeless Isle', 'Treasure, Treasure Everywhere','Neutral')
 WoWPro:GuideIcon(guide,"ACH",8729)
-WoWPro:GuideLevels(guide,89,90)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
 return [[

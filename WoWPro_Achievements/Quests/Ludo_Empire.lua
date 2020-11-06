@@ -24,14 +24,14 @@
 -- Log: Start
 
 local guide = WoWPro:RegisterGuide('LudoEmpire', 'Achievements', 'Talador', 'Ludovicus', 'Neutral')
-WoWPro:GuideLevels(guide,98, 100, 98.7)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9640)
 WoWPro:GuideNextGuide(guide, nil)
 -- WoWPro:GuideTriggered(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-; A Call of the Archmage|QID|35988|LVL|98|N|From Khadgar's Servant in your Garrison|
+; A Call of the Archmage|QID|35988|N|From Khadgar's Servant in your Garrison|
 N Introduction|QID|35988|N|This guide takes you through the Draenor Legendary ring and follower quests.  You should start this as soon as you can!|
 F Fort Wrynn|QID|35988|M|0,0|Z|Lunarfall|FACTION|Alliance|
 f Zangarra|QID|35988|M|80.42,25.32|N|Get the direct flight point from Dominic Arlington.|

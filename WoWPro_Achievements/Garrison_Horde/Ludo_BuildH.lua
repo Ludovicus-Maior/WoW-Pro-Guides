@@ -33,7 +33,7 @@
 -- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide('LudoBuildingsHorde', 'Achievements', 'Frostfire Ridge', 'Ludovicus', 'Horde')
-WoWPro:GuideLevels(guide,90, 100, 92)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9096)
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideAutoSwitch(guide)

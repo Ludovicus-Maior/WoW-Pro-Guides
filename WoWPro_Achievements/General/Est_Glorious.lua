@@ -18,7 +18,7 @@
 -- Who: Estelyen
 
 local guide = WoWPro:RegisterGuide('EstAchGlor',"Achievements",'MoP Zones', 'Glorious!','Neutral')
-WoWPro:GuideLevels(guide,85, 91, 90)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",7439)
 WoWPro:GuideNextGuide(guide, 'Estelyen')
 WoWPro:GuideSteps(guide, function()

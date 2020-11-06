@@ -153,7 +153,7 @@
 -- Log: Initial
 
 local guide = WoWPro:RegisterGuide('LudoGarrCampaign', 'Achievements', 'Draenor', 'Ludovicus', 'Neutral')
-WoWPro:GuideLevels(guide,100, 101, 100.5)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9492)
 WoWPro:GuideName(guide,"Garrison Campaign")
 WoWPro:GuideNextGuide(guide, nil)

@@ -29,7 +29,7 @@
 -- Log: Initial version
 
 local guide = WoWPro:RegisterGuide('LudoBringingBass', 'Achievements', 'Draenor', 'Ludovicus', 'Neutral')
-WoWPro:GuideLevels(guide,100, 100, 100)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9914)
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideAutoSwitch(guide)

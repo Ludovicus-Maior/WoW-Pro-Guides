@@ -26,7 +26,7 @@
 local guide = WoWPro:RegisterGuide('Emm_Hippogryph', 'Achievements', 'Azsuna', 'Emmaleah', 'Neutral')
 WoWPro:GuideIcon(guide,"MOUNT",215159)
 WoWPro.Achievements:GuideMisc(guide, "Long Forgotten Hippogryph", "Mount", "Legion")
-WoWPro:GuideLevels(guide,100, 110)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideSteps(guide, function()
 
 return [[
