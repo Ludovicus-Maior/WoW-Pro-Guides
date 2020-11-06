@@ -26,15 +26,15 @@ C Wolves at Our Heels|QID|26618|M|74.40,19.15;30.85,24.85|CN|N|Finish killing th
 T Dusky Crab Cakes|QID|26623|M|73.75,43.48|N|To Chef Grual.|S|
 T Seasoned Wolf Kabobs|QID|26620|M|73.75,43.48|N|To Chef Grual.|
 T Dusky Crab Cakes|QID|26623|M|73.75,43.48|N|To Chef Grual.|US|
-T Wolves at Our Heels|QID|26618|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
-A The Night Watch|QID|26645|M|73.72,46.89|N|From Commander Althea Ebonlocke.|S|PRE|26618|RANK|2|
-A The Hermit|QID|26627|LEAD|26653|M|73.72,46.89|N|From Commander Althea Ebonlocke.|PRE|26618|
-A The Night Watch|QID|26645|M|73.72,46.89|N|From Commander Althea Ebonlocke.|US|PRE|26618|RANK|2|
-A Look To The Stars|QID|26683|M|79.53,47.41|N|From Viktori Prism'Antras.|PRE|26618|
-T The Hermit|QID|26627|M|87.45,35.38|N|To Abercrombie.|
-A Supplies from Darkshire|QID|26653|M|87.45,35.38|N|From Abercrombie.|
-T Supplies from Darkshire|QID|26653|M|75.75,45.33|N|To Madame Eva.|
-A Ghost Hair Thread|QID|26652|M|75.75,45.33|N|From Madame Eva.|PRE|26653|
+T Wolves at Our Heels|QID|26618|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
+A The Night Watch|QID|26645|M|73.53,46.93|N|From Commander Althea Ebonlocke.|S|PRE|26618|RANK|2|
+A The Hermit|QID|26627|LEAD|26653|M|73.53,46.93|N|From Commander Althea Ebonlocke.|PRE|26618|
+A The Night Watch|QID|26645|M|73.53,46.93|N|From Commander Althea Ebonlocke.|US|PRE|26618|RANK|2|
+A Look To The Stars|QID|26683|M|79.54,47.48|N|From Viktori Prism'Antras.|PRE|26618|
+T The Hermit|QID|26627|M|87.43,35.21|N|To Abercrombie.|
+A Supplies from Darkshire|QID|26653|M|87.43,35.21|N|From Abercrombie.|
+T Supplies from Darkshire|QID|26653|M|75.83,45.28|N|To Madame Eva.|
+A Ghost Hair Thread|QID|26652|M|75.83,45.28|N|From Madame Eva.|PRE|26653|
 C The Night Watch|QID|26645|M|81.91,59.17|N|Kill Rotting Horrors.|S|
 T Ghost Hair Thread|QID|26652|M|81.91,59.17|N|To Blind Mary.|S|
 T Look To The Stars|QID|26683|M|81.91,59.17|N|To Blind Mary.|
@@ -43,12 +43,12 @@ T Ghost Hair Thread|QID|26652|M|81.91,59.17|N|To Blind Mary.|US|
 A Return the Comb|QID|26654|M|81.91,59.17|N|From Blind Mary.|PRE|26652|
 A The Insane Ghoul|QID|26684|M|81.91,59.17|N|From Blind Mary.|US|PRE|26683|
 C The Night Watch|QID|26645|M|81.91,59.17|N|Finish killing the Rotting Horrors.|US|
-T The Night Watch|QID|26645|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
-A Bones That Walk|QID|26686|M|73.72,46.89|N|From Commander Althea Ebonlocke.|PRE|26645|
-T Return the Comb|QID|26654|M|75.75,45.33|N|To Madame Eva.|
-A Deliver the Thread|QID|26655|M|75.75,45.33|N|From Madame Eva.|PRE|26654|
-T Deliver the Thread|QID|26655|M|87.45,35.38|N|To Abercrombie.|
-A Zombie Juice|QID|26660|M|87.45,35.38|N|From Abercrombie.|PRE|26655|
+T The Night Watch|QID|26645|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
+A Bones That Walk|QID|26686|M|73.53,46.93|N|From Commander Althea Ebonlocke.|PRE|26645|
+T Return the Comb|QID|26654|M|75.83,45.28|N|To Madame Eva.|
+A Deliver the Thread|QID|26655|M|75.83,45.28|N|From Madame Eva.|PRE|26654|
+T Deliver the Thread|QID|26655|M|87.43,35.21|N|To Abercrombie.|
+A Zombie Juice|QID|26660|M|87.43,35.21|N|From Abercrombie.|PRE|26655|
 T Zombie Juice|QID|26660|M|73.83,44.47|N|To Tavernkeep Smitts.|
 A Gather Rot Blossoms|QID|26661|M|73.83,44.47|N|From Tavernkeep Smitts.|PRE|26660|
 C Bones That Walk|QID|26686|M|77.63,68.83|N|Kill Skeletal Warriors and Mages.|S|
@@ -58,11 +58,11 @@ C Gather Rot Blossoms|QID|26661|M|77.40,68.54|N|Loot Rot Blossoms in the Graveya
 C Bones That Walk|QID|26686|M|77.63,68.83|N|Kill Skeletal Warriors and Mages.|US|
 T Gather Rot Blossoms|QID|26661|M|73.83,44.47|N|To Tavernkeep Smitts.|
 A Juice Delivery|QID|26676|M|73.83,44.47|N|From Tavernkeep Smitts.|PRE|26661|
-T Bones That Walk|QID|26686|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
+T Bones That Walk|QID|26686|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
 T The Insane Ghoul|QID|26684|M|79.53,47.41|N|To Viktori Prism'Antras.|
 A Classy Glass|QID|26685|M|79.53,47.41|N|From Viktori Prism'Antras.|PRE|26684|
-T Juice Delivery|QID|26676|M|87.45,35.38|N|To Abercrombie.|
-A Ogre Thieves|QID|26680|M|87.45,35.38|N|From Abercrombie.|PRE|26676|
+T Juice Delivery|QID|26676|M|87.43,35.21|N|To Abercrombie.|
+A Ogre Thieves|QID|26680|M|87.43,35.21|N|From Abercrombie.|PRE|26676|
 A The Legend of Stalvan|QID|26666|M|79.04,44.23|N|From Tobias Mistmantle.|
 A Worgen in the Woods|QID|26688|M|75.28,47.95|N|From Calor.|
 T The Legend of Stalvan|QID|26666|M|72.50,46.87|N|To Clerk Daltry.|
@@ -101,11 +101,11 @@ A Roland's Doom|QID|26670|M|72.50,46.87|N|From Clerk Daltry.|PRE|26669|
 T The Rotting Orchard|QID|26689|M|75.28,47.95|N|To Calor.|
 A Vile and Tainted|QID|26690|M|75.28,47.95|N|From Calor.|PRE|26689|
 T Classy Glass|QID|26685|M|79.53,47.41|N|To Viktori Prism'Antras.|
-T Ogre Thieves|QID|26680|M|87.45,35.38|N|To Abercrombie at Beggar's Haunt.|
-A Ghoulish Effigy|QID|26677|M|87.45,35.38|N|From Abercrombie.|PRE|26680|
+T Ogre Thieves|QID|26680|M|87.43,35.21|N|To Abercrombie at Beggar's Haunt.|
+A Ghoulish Effigy|QID|26677|M|87.43,35.21|N|From Abercrombie.|PRE|26680|
 C Ghoulish Effigy|QID|26677|M|76.83,33.72|N|Kill and loot Fetid Corpses at Manor Mistmantle.|
-T Ghoulish Effigy|QID|26677|M|87.45,35.38|N|To Abercrombie.|
-A Note to the Mayor|QID|26681|M|87.45,35.38|N|From Abercrombie.|PRE|26677|
+T Ghoulish Effigy|QID|26677|M|87.43,35.21|N|To Abercrombie.|
+A Note to the Mayor|QID|26681|M|87.43,35.21|N|From Abercrombie.|PRE|26677|
 T Note to the Mayor|QID|26681|M|71.85,46.45|N|To Lord Ello Ebonlocke.|
 A The Embalmer's Revenge|QID|26727|M|71.85,46.45|N|From Lord Ello Ebonlocke.|PRE|26681|
 C The Embalmer's Revenge|QID|26727|M|73.84,46.62|N|Kill Stitches, he spawns in the middle of town. If you die, come back quickly as you can still finish him.|
@@ -159,7 +159,7 @@ A Buried Below|QID|26722|M|20.36,27.44|N|From the Lightforged Arch.|PRE|26753|
 T Buried Below|QID|26722|M|20.10,26.60;18.08,25.33|CS|N|There is a hidden exit behind the location where you got the quest - walk through, this follow the hidden tunnel, and turn  quest into the Lightforged Crest.|
 A Morbent's Bane|QID|26754|M|18.08,25.33|N|From In the tunnel.|PRE|26722|
 N Hunter's Pet Alert |ACTIVE|26754|N|When you reach the room with the Clattering Coldwraith, please note your pet will not follow you into the room.  You will need to dismiss your pet, enter the room fully (pick the right hand wall), then summon your pet.\n\nClick this step to continue.|S|C|Hunter|
-C Morbent's Bane|QID|26754|N|Continue down the tunnel until you come to this boss. Use Morbent's Bane to weaken Morben Fel before taking him down.\n\nAll the ghouls in this room that are not already attacking you will disappear on killing the Weakened Morbent Fel.|U|60212|
+C Morbent's Bane|QID|26754|N|Continue down the tunnel until you come to this boss. Use Morbent's Bane to weaken Morbent Fel before taking him down.\n\nAll the ghouls in this room that are not already attacking you will disappear on killing the Weakened Morbent Fel.|U|60212|
 C The Cries of the Dead|QID|26778|M|16,48|N|Leave the catacombs by following the stairs up to the top, then head back to Raven Hill, finishing off killing the Ghouls as you go.|US|
 T Morbent's Bane|QID|26754|M|18.40,57.94|N|To Sven Yorgen.|O|
 T The Cries of the Dead|QID|26778|M|19.92,57.88|N|To Sister Eisington.|
@@ -167,13 +167,13 @@ A Rebels Without a Clue|QID|26838|LEAD|26735|M|19.92,57.88|N|If you intend on go
 F Darkshire|ACTIVE|26793|M|21.03,56.63|N|Fly back to, or hearthstone to Darkshire.|
 T The Weathered Grave|QID|26793|M|72.62,47.64|N|To Sirra Von'lndi.|
 A Morgan Ladimore|QID|26794|M|72.62,47.64|N|From Sirra Von'lndi.|PRE|26793|
-T Morgan Ladimore|QID|26794|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
-A Mor'Ladim|QID|26795|M|73.72,46.89|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Commander Althea Ebonlocke.\n[color=FF0000]NOTE: [/color]This quest involves flying back to Raven Hill, and taking out a level 25 elite.\n\nLeft click the check box and confirm skipping the following two quests if you want to skip this quest.|PRE|26794|RANK|2|
+T Morgan Ladimore|QID|26794|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
+A Mor'Ladim|QID|26795|M|73.53,46.93|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Commander Althea Ebonlocke.\n[color=FF0000]NOTE: [/color]This quest involves flying back to Raven Hill, and taking out a level 25 elite.\n\nLeft click the check box and confirm skipping the following two quests if you want to skip this quest.|PRE|26794|RANK|2|
 F Raven Hill|ACTIVE|26795|M|77.5,44.3|N|Fly to Raven Hill.|O|
 C Mor'Ladim|QID|26795|M|17.4,29.4|T|Mor'Ladim|N|Find, kill and loot Mor'Ladim, he wanders so use the targeting to find him easier. Don't forget to loot his skull.|O|
 F Darkshire|ACTIVE|26795|M|21.06,56.46|N|Fly to Darkshire.|O|
-T Mor'Ladim|QID|26795|M|73.72,46.89|N|To Commander Althea Ebonlocke.|O|
-A The Daughter Who Lived|QID|26796|M|73.72,46.89|N|From Commander Althea Ebonlocke.\n\nOnly available if you completed the Mor'Ladim Group quest.|PRE|26795|
+T Mor'Ladim|QID|26795|M|73.53,46.93|N|To Commander Althea Ebonlocke.|O|
+A The Daughter Who Lived|QID|26796|M|73.53,46.93|N|From Commander Althea Ebonlocke.\n\nOnly available if you completed the Mor'Ladim Group quest.|PRE|26795|
 T The Daughter Who Lived|QID|26796|M|74.95,46.88|N|To Watcher Ladimore. She wanders around a bit.|O|
 A A Daughter's Love|QID|26797|M|74.95,46.88|N|From Watcher Ladimore.|PRE|26796|
 F Raven Hill|ACTIVE|26797|M|77.5,44.3|N|Fly to Raven Hill.|
