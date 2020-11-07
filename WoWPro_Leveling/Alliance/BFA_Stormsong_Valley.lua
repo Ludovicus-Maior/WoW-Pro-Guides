@@ -45,12 +45,12 @@ A Circle the Wagons|QID|52793|M|60.17,70.51|N|From Marilyn Hood.|RANK|2|
 A Sometimes Less Is More|QID|52796|M|60.17,70.51|N|From Marilyn Hood.|RANK|2|
 K Grimscowl the Harebrained|QID|52329|QO|1|M|62.17,73.84|T|Grimscowl the Harebrained|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|155572|RANK|2|
 C Sometimes Less Is More|QID|52796|M|63.10,75.25|S|N|Kill saurolisks while you complete other quests.|
-C Circle the Wagons|QID|52793|M|63.77,73.82|QO|1|N|Lorraine is here.|
-C Circle the Wagons|QID|52793|M|64.89,76.78|QO|3|N|Mallory is here.|
+C Circle the Wagons|QID|52793|M|63.77,73.82|NC|QO|1|N|Lorraine is here.|
+C Circle the Wagons|QID|52793|M|64.89,76.78|NC|QO|3|N|Mallory is here.|
 A A Saur Point|QID|52795|M|64.88,76.79|N|From Mallory Hood.|RANK|2|
 C A Saur Point|QID|52795|M|65.36,77.99|N|Kill Sourtooth in the cave.|
 T A Saur Point|QID|52795|M|64.88,76.79|N|Back to Mallory.|
-C Circle the Wagons|QID|52793|M|63.29,77.74|QO|2|N|Darion is here.|
+C Circle the Wagons|QID|52793|M|63.29,77.74|NC|QO|2|N|Darion is here.|
 K Ice Sickle|QID|52327|QO|1|M|64.55,81.24|T|Ice Sickle|N|Found at the top of the waterfall - path up to him starts here. Silver Elite to kill for loot and achievement.|RARE|ITEM|154464|RANK|2|
 C Sometimes Less Is More|QID|52796|M|63.10,75.25|US|N|Finish up with saurolisks.|
 H The Golden Flagon|TZ|Brennadam|ACTIVE|52796|M|60.17,70.51|N|Hearth back to Brennadam or ride there.|RANK|2|
