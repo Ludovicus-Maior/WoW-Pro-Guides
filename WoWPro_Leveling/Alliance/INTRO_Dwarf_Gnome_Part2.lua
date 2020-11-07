@@ -14,7 +14,7 @@ h Thunderbrew Distillery|QID|26373|M|54.47,50.81|N|Make Thunderbrew Distillery y
 N Sell junk|QID|26373|M|54.47,50.81|N|To Innkeeper Belm. Close when done.|
 B Rhapsody Malt|QID|384|M|54.47,50.81|N|From Innkeeper Belm.|L|2894|
 N Secondary Profession: Cooking |QID|26373|M|54.73,50.58|N|If you want to learn Cooking, now's the time to start, Gremlock Pilsnor will start you off. Click this step to continue.|R|Gnome,Dwarf,Dark Iron Dwarf|
-A Honor Students |QID|6387|M|54.73,50.58|N|From Gremlock.|R|Gnome,Dwarf,Dark Iron Dwarf|
+A Honor Students |QID|6387|M|54.73,50.58|N|From Gremlock Pilsnor.|R|Gnome,Dwarf,Dark Iron Dwarf|
 ; [aldavor] removed references to class training - redundant.
 A The Perfect Stout|QID|315|M|54.12,51.21|N|From Rejold Barleybrew.|
 N Primary Professions |QID|26373|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |R|Gnome,Dwarf,Dark Iron Dwarf|
@@ -28,10 +28,10 @@ T Ride to Ironforge |RANK|2|QID|6391|M|51.37,26.27|N|To Golnir Bouldertoe, insid
 A Gryth Thurden |RANK|2|QID|6388|M|51.37,26.27|N|From Golnir Bouldertoe|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|Z|Ironforge|
 T Gryth Thurden |RANK|2|QID|6388|M|55.42,47.80|N|Back to the flight master, Gryth Thurden|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|Z|Ironforge|
 A Return to Gremlock |RANK|2|QID|6392|PRE|6388|M|55.42,47.80|N|From Gryth Thurden|R|Gnome,Dwarf,Dark Iron Dwarf|Z|Ironforge|
-F Thunderbrew Distillery|RANK|2|QID|6392|M|54.73,50.58|N|Either Fly back to Kharanos then run into the Inn, or use your Hearthstone back to Kharnos|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|
+F Kharanos|RANK|2|QID|6392|M|54.73,50.58|N|Either Fly back to Kharanos then run into the Inn, or use your Hearthstone back to Kharnos|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|
 T Return to Gremlock |RANK|2|QID|6392|M|54.73,50.81|N|To Gremlock Pilsnor|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|
 R Shimmer Ridge|QID|25724|M|49.95,43.90|N|Run to here then head up the hill.|
-C The Perfect Stout|QID|315|N|Collect Shimmerweeds  from the baskets on the ground.|S|
+C The Perfect Stout|QID|315|NC|N|Collect Shimmerweeds  from the baskets on the ground.|S|
 C Frostmane Aggression|QID|25724|M|49.03,37.87|N|Kill Frostmane Seers and Snowstriders.|
 C The Perfect Stout|QID|315|N|Collect any Shimmerweeds you still need from the baskets on the ground.|US|
 T Bound for Kharanos|QID|26380|M|54.45,50.70|N|To Innkeeper Belm.|R|-Gnome|
@@ -73,12 +73,12 @@ A Eliminate the Resistance|QID|25840|PRE|25839|M|62.53,53.62|N|From Slamp Wobble
 A Strike From Above|QID|25841|PRE|25839|M|62.53,53.62|N|From Slamp Wobblecog.|
 A The View from Down Here|QID|28868|PRE|25839|M|62.54,53.72|N|From Snevik the Blade.|
 C Eliminate the Resistance|QID|25840|S|M|62.04,56.13|N|Kill Frostmane Warriors.|
-C The View from Down Here|QID|28868|S|U|67249|N|Use the Viewpoint Equalizer on Frostmane Builders.|T|Frostmane Builders|
+C The View from Down Here|QID|28868|S|U|67249|N|Use the Viewpoint Equalizer on Frostmane Builders.|T|Frostmane Builder|
 C Attack on Northern Frostmane Retreat|QID|25841|U|56048|QO|1|M|64.47,54.37|N|Use the Signal Flare in the circle of stones on the ground.|
 C Kill Battok the Berserker|QID|25840|T|Battok the Berserker|QO|1|M|63.81,55.68|N|Dancing in the middle of the camp.|
 C Strike From Above|QID|25841|U|56048|QO|2|M|63.20,57.16|N|Use the Signal Flare just in front of the buildings.|
 C Eliminate the Resistance|QID|25840|US|M|62.04,56.13|N|Kill Frostmane Warriors.|
-C The View from Down Here|QID|28868|U|67249|N|Use the Viewpoint Equalizer on Frostmane Builders.|T|Frostmane Builders|US|
+C The View from Down Here|QID|28868|U|67249|N|Use the Viewpoint Equalizer on Frostmane Builders.|T|Frostmane Builder|US|
 T The View from Down Here|QID|28868|M|62.54,53.72|N|To Snevik the Blade.|
 T Eliminate the Resistance|QID|25840|M|62.53,53.62|N|To Slamp Wobblecog.|
 T Strike From Above|QID|25841|M|62.53,53.62|N|To Slamp Wobblecog.|
@@ -103,8 +103,10 @@ A Those Blasted Troggs!|QID|432|M|76.31,54.60|N|From Foreman Stonebrow.|
 C Priceless Treasures|QID|25937|S|U|56226|M|78.31,53.59|N|Collect Frozen Artifacts as you make you way through the cave.|NC|
 R Gol'Bolar Quarry Mine|QID|25937|M|77.89,54.87|N|Go down into the quarry and head into the cave.|
 C The Public Servant|QID|433|S|U|56222|M|79.53,50.06|N|Free Trapped Miners as you make you way through the cave.|T|Trapped Miner|
+C Those Blasted Troggs!|QID|432|S|M|77.65,55.69|N|Finish off any Troggs you still need.|
 C Priceless Treasures|QID|25937|US|U|56226|M|78.31,53.59|N|Finish collecting Frozen Artifacts.|NC|
-C Those Blasted Troggs!|QID|432|M|77.65,55.69|N|Finish off any Troggs you still need.|
+C Those Blasted Troggs!|QID|432|US|M|77.65,55.69|N|Finish off any Troggs you still need.|
+C The Public Servant|QID|433|US|U|56222|M|79.53,50.06|N|Free Trapped Miners as you make you way through the cave.|T|Trapped Miner|
 T Priceless Treasures|QID|25937|M|76.20,53.12|N|To Prospector Drugan.|
 T Those Blasted Troggs!|QID|432|M|76.30,54.60|N|To Foreman Stonebrow.|
 T The Public Servant|QID|433|M|75.84,54.34|N|To Senator Mehr Stonehallow.|
@@ -144,7 +146,7 @@ F Ironforge|QID|26112|M|53.78,52.72|N|Fly to Ironforge.|
 T Demanding Answers|QID|26112|M|39.78,57.23|Z|Ironforge|N|To Moira Thaurissan.|
 A Seize the Ambassador|QID|26118|PRE|26112|M|39.78,57.23|Z|Ironforge|N|From Moira Thaurissan.|
 A Reinforcements for Loch Modan|QID|26131|Z|Ironforge|M|41.47,52.32|N|From Mountaineer Barleybrew.  Accept if you plan on going to Loch Modan next.|
-C Seize the Ambassador|QID|26118|U|56837|T|Ambassador Slaghammer|M|38.4, 45.83|Z|Ironforge|N|Use the Sturdy Manacles to arrest Ambassador Slaghammer, then head back to the High Seat. The quest will complete after some dialogue.|
+C Seize the Ambassador|QID|26118|U|56837|T|Ambassador Slaghammer|M|36.61,43.57|Z|Ironforge|N|Use the Sturdy Manacles to arrest Ambassador Slaghammer, then head back to the High Seat. The quest will complete after some dialogue.|
 T Seize the Ambassador|QID|26118|M|39.78,57.23|Z|Ironforge|N|To Moira Thaurissan.|
 N Visit your trainers, AH, etc.|N|Close this step to continue to Loch Modan.|
 ]]
