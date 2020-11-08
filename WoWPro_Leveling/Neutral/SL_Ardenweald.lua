@@ -6,9 +6,7 @@ WoWPro:GuideNextGuide(guide, "Revendreth")
 WoWPro:GuideSteps(guide, function()
 return [[
 N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
-
 ; List of Treasures in Ardenweald a few in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
-
 ; $ Cache of the Moon|CS|M|40.3,52.6;39.7,54.4;39.0,57.0;38.5,58.1;38.9,60.1;63.9,37.5|Z|Ardenweald!The Shadowlands|N|WH - Need to find Twinklestar's 5 tools in the Garden of Night, at each map point.|ITEM|180731|ACH|14313;5|
 ; $ Dreamsong Heart|M|37.6,37.1|Z|Ardenweald!The Shadowlands|N|WH - Need Jumping Mushroom, hidden in Dreamsong Feen to get to the top of the tree.|ITEM|179510|ACH|14313;6|
 ; $ Elusive Faerie Cache|CS|M|46.4,70.9;44.7,75.7|Z|Ardenweald!The Shadowlands|N|WH - Need Faerie Lamp buff at first Coord to unlock treasure.|ITEM|179512|ACH|14313;7|
@@ -24,37 +22,41 @@ N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe
 A Ardenweald|QID|62277|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A Restoring Balance|QID|62739^63036|PRE|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
-R Ring of Transference|ACTIVE|62739^63036|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
-F Heart of the Forest|ACTIVE|62739^63036|M|60.87,68.63|Z|Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
-T Restoring Balance|QID|62739^63036|M|49.13,38.92|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|TOF|
-A Support the Court|QID|62763|PRE|62739^63036|M|49.13,38.92|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|TOF|
-l Support the Court|QID|62763|QO|1|S!US|N|Literally everything you do in Ardenweald counts towards this quest. You may return to Heart of the Forest? to turn in and be done with the zone anytime after this finishes.|TOF|
-t Support the Court|QID|62763|IZ|Heart of the Forest|M|49.13,38.92|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|TOF|
-A Return to Oribos|QID|62776|PRE|62763|M|49.13,38.92|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|TOF|
+P Ring of Transference|ACTIVE|62739^63036|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+F Heart of the Forest|ACTIVE|63036|M|60.87,68.63|Z|Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
+F Refugee Camp|ACTIVE|62739|M|60.87,68.63|Z|Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
+T Restoring Balance|QID|63036|M|49.13,38.92|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|TOF|
+T Restoring Balance|QID|62739|M|49.33,52.36|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|TOF|
+A Support the Court|QID|62763|PRE|63036|M|49.13,38.92|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|TOF|
+A Support the Court|QID|62763|PRE|62739|M|49.33,52.36|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|TOF|
+l Support the Court|QID|62763|QO|1|S!US|N|Literally everything you do in Ardenweald counts towards this quest. You may [color=40C7EB]return[/color] to [color=40C7EB]Heart of the Forest[/color] to turn in and be done with the zone anytime after this step closes.|TOF|
+t Support the Court|QID|62763|IZ|Heart of the Forest|M|49.13,38.92|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|TOF|COV|NightFae
+t Support the Court|QID|62763|IZ|Heart of the Forest|M|49.35,52.36|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|TOF|
+A Return to Oribos|QID|62776|PRE|62763|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|TOF|
 T Forest Refugees|QID|62807|M|48.40,50.51|Z|Ardenweald!The Shadowlands|N|To Flwngyrr.|TOF|PRE|62763|
-F Oribos|ACTIVE|62776|M|51.27,7.56|Z|The Trunk@Heart of the Forest!Dungeon|N|At Ceridwyn.|TOF|
+F Oribos|ACTIVE|62776|M|51.27,7.56|Z|The Trunk@Heart of the Forest!Dungeon|N|At Ceridwyn.|TOF|TAXI|Heart of the Forest|
+F Oribos|ACTIVE|62776|M|49.36,51.84|Z|Ardenweald!The Shadowlands|N|At Derwynnthimn|TOF|TAXI|Refugee Camp|
 T Return to Oribos|QID|62776|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62766|N|From Tal-Inara.|TOF|;new quest, after finishing first zone.
+A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62776|CCOUNT|1;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;new quest, after finishing first zone.PRE may be 62152
 C Tal-Inara|QID|63208|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
 T The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62766&63208|N|From Tal-Inara.|TOF|;after finishing 2nd zone
+A Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62776&63208|CCOUNT|2;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 2nd zone PRE may be 62153 (need to make new char to find out)
 C Tal-Inara|QID|63209|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
 T Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A ??|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62766&63208|N|From Tal-Inara.|TOF|;after finishing 3rd zone
+A The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62776&67209|CCOUNT|3;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 3rd zone pre may be 62154?
 C Tal-Inara|QID|63210|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
-T ??|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-N Choose Bastion|PRE|62275|LEAD|62723|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|
-N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|
-N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|
+N Choose Bastion|PRE|62275|LEAD|62723|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|TOF|
+N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|TOF|
+N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|TOF|
 N World Quests|QID|62763|N|WQs are available since you have chosen the Threads of Fate option. They are however not included in the guide and there is no way to predict which one is available on any given day. So, I recomend you do them, but you are on your own as to how and where.|TOF|
 N Use of Ranks|QID|62763|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives.|TOF|
-N Rank 1|ACTIVE|62763|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|
+N Rank 1|ACTIVE|62763|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|TOF|
 A Tirna Scithe: A Warning Silence|QID|62371|M|48.36,50.40|Z|Ardenweald!The Shadowlands|ELITE|N|[color=e6cc80]Dungeon:Tirna Scithe[/color]\n From Flwngyrr. Take or leave as you choose. This quest is optional and out of scope for this guide.|TOF|
 R Tirna Vaal|ACTIVE|62763|CS|M|47.67,50.54;48.19,45.30;62.36,36.42|Z|Ardenweald!The Shadowlands|N|Follow the road, generally north east to get to Tirna Vaal.|TOF|
-f Tirna Vaal|ACTIVE|62763|M|63.46,37.59|Z|Ardenweald!The Shadowlands|N|At Lanra.|TOF|;why no non TOF step, do they start knowing it?
 
 ; Welcome to Ardenweald Storyline
 A Journey to Ardenweald|QID|60338|M|39.36,69.40|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|61716|MS|
@@ -70,7 +72,7 @@ C I Moustache You to Lend a Hand|QID|60763|M|68.30,18.29|Z|Ardenweald!The Shadow
 C I Moustache You to Lend a Hand|QID|60763|M|65.13,19.50|Z|Ardenweald!The Shadowlands|QO|4|NC|N|Follow Lady Moonberry.|MS|
 T I Moustache You to Lend a Hand|QID|60763|M|65.06,19.60|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|MS|
 A First on the Agenda|QID|60341|M|65.06,19.60|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|60763|MS|
-K First on the Agenda|QID|60341|QO|1|M|64.72,19.69|Z|Ardenweald!The Shadowlands|T|Mothbane the Mighty|N|Click on Mothbane to force dismount, then kill him.|MS|
+K Mothbane the Mighty|QID|60341|QO|1|M|64.72,19.69|Z|Ardenweald!The Shadowlands|T|Mothbane the Mighty|N|Click on Mothbane to force dismount, then kill him.|MS|
 T First on the Agenda|QID|60341|M|65.04,19.53|Z|Ardenweald!The Shadowlands|N|To Featherlight.|MS|
 A Wildseed Rescue|QID|60778|M|65.04,19.53|Z|Ardenweald!The Shadowlands|N|From Featherlight.|PRE|60341|MS|
 
@@ -111,7 +113,7 @@ A They Need to Calm Down|QID|57949|M|67.09,32.18|Z|Ardenweald!The Shadowlands|N|
 A Nothing Left to Give|QID|57948|M|67.09,32.18|Z|Ardenweald!The Shadowlands|N|From Choofa.|PRE|57947|MS|
 C They Need to Calm Down|QID|57949|M|68.42,34.11|Z|Ardenweald!The Shadowlands|U|176445|N|Use the provided soulweb to reclaim the Stolen Anima.|S|MS|
 C Nothing Left to Give|QID|57948|M|66.97,34.24|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Restore Rury.|MS|
-$ Harmonic Chest|QID|61165|M|68.01,34.62|Z|Ardenweald!The Shadowlands|N|This takes two people of the same faction, one to channel playing the fae drum and one to channel playing the fae harp, which unlocks the Harmonic chest for some treasure.|ACH|14313;11| ;QID unknown as there is only one of me (
+$ Harmonic Chest|QID|61165|M|68.01,34.62|Z|Ardenweald!The Shadowlands|N|This takes two people of the same faction, one to channel playing the fae drum and one to channel playing the fae harp, which unlocks the Harmonic chest for some treasure.|ACH|14313;11|
 C Nothing Left to Give|QID|57948|M|68.51,33.33|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Restore Slanknen.|MS|
 C Nothing Left to Give|QID|57948|M|67.83,36.40|Z|Ardenweald!The Shadowlands|QO|3|CHAT|N|Restore Awool.|MS|
 C They Need to Calm Down|QID|57949|M|68.42,34.11|Z|Ardenweald!The Shadowlands|U|176445|N|Use the provided soulweb to finish reclaimng the Anima.|US|MS|
@@ -134,10 +136,10 @@ C Tending to Wildseeds|QID|60563|M|65.57,43.33|Z|Ardenweald!The Shadowlands|QO|2
 C Shooing Wildlife|QID|60567|M|62.78,40.27|Z|Ardenweald!The Shadowlands|N|Anima-starved wildlife slain.|US|MS|
 T Shooing Wildlife|QID|60567|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
 T Tending to Wildseeds|QID|60563|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
-A Tranquil Pools|QID|62774|M|62.21,37.57|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|
+A Tranquil Pools|QID|62774|M|62.21,37.57|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
 A Belly Full of Fae|QID|60575|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60563&60567|MS|
 A Hungry for Animacones|QID|60577|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60563&60567|MS|
-C Tranquil Pools|QID|62774|M|64.46,39.67|Z|Ardenweald!The Shadowlands|S!US|N|Kill Hostiles, pick up animacones and wildling seeds, also you can use the provided dagger on the hydras' corpse to free some faeries.|U|1799721|TOF|
+C Tranquil Pools|QID|62774|M|64.46,39.67|Z|Ardenweald!The Shadowlands|S!US|N|Kill Hostiles, pick up animacones and wildling seeds, also you can use the provided dagger on the hydras' corpse to free some faeries.|U|179921|TOF|
 C Hungry for Animacones|QID|60577|M|60.85,38.09|Z|Ardenweald!The Shadowlands|N|Kill and loot the Gobbling Blossoms for Animacone.|S|MS|
 C Belly Full of Fae|QID|60575|M|60.85,38.09|Z|Ardenweald!The Shadowlands|U|179921|N|Use the provided dagger on the Hydras, after killing them, to free the Wildseed Tenders.|MS|
 C Hungry for Animacones|QID|60577|M|60.85,38.09|Z|Ardenweald!The Shadowlands|N|Finish collecting Animacone from the Gobbling Blossoms.|US|MS|
@@ -193,8 +195,8 @@ T Audience with the Winter Queen|QID|60519|M|63.60,36.23|Z|Ardenweald!The Shadow
 
 ; Sidequest Storyline - When a Gorm Eats a God
 A Call of the Hunt|QID|60521|M|63.60,36.23|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|MS|
-f Tirna Vaal|ACTIVE|62763|M|63.46,37.59|Z|Ardenweald!The Shadowlands|N|At Lanra.|TOF|;not TOF gets this one with flight to zone.
 A In Need of Gorm Gris|QID|57952|M|62.68,36.09|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|RANK|2|
+f Tirna Vaal|ACTIVE|62763|M|63.46,37.59|Z|Ardenweald!The Shadowlands|N|At Lanra.|TOF|;not TOF gets this one with flight to zone.
 T In Need of Gorm Gris|QID|57952|M|64.88,38.93|Z|Ardenweald!The Shadowlands|N|To Master Sha'lor.|
 A Nothing Goes to Waste|QID|57818|M|64.88,38.93|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|57952|RANK|2|
 C Nothing Goes to Waste|QID|57818|M|65.00,38.97|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Collect Depleted Wildseed.|
@@ -202,31 +204,31 @@ C Nothing Goes to Waste|QID|57818|M|65.40,38.99|Z|Ardenweald!The Shadowlands|QO|
 C Nothing Goes to Waste|QID|57818|M|65.40,39.06|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Click on the Gormlings to coax them to walk towards you, when they pause, click again, eventually you need to get 4 to the Wildseed. Easiest one at a time.|
 T Nothing Goes to Waste|QID|57818|M|64.88,38.91|Z|Ardenweald!The Shadowlands|N|To Master Sha'lor.|
 A Collection Day|QID|57824|M|64.88,38.91|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|57818|RANK|2|
-C Collection Day|QID|57824|M|64.82,38.82|Z|Ardenweald!The Shadowlands|QO|1|U|172955|NC|T|Gloober|N|Use Gormherd Branch on Gloober.|
-C Collection Day|QID|57824|M|64.90,38.83|Z|Ardenweald!The Shadowlands|QO|2|U|172955|NC|N|Collect the Fresh Gorm Gris Gloober provided.|
-C Collection Day|QID|57824|M|65.64,37.75|Z|Ardenweald!The Shadowlands|QO|3|U|172955|N|Use Gormherd Branch on Gorged Gormlings.|
+C Collection Day|QID|57824|M|64.82,38.82|Z|Ardenweald!The Shadowlands|QO|1|NC|U|172955|T|Gloober|N|Use Gormherd Branch on Gloober.|
+C Collection Day|QID|57824|M|64.90,38.83|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Collect the Fresh Gorm Gris Gloober provided.|
+C Collection Day|QID|57824|M|65.64,37.75|Z|Ardenweald!The Shadowlands|QO|3|U|172955|T|Gorged Gormling|N|Use Gormherd Branch on Gorged Gormlings.|
 T Collection Day|QID|57824|M|64.86,38.89|Z|Ardenweald!The Shadowlands|N|To Master Sha'lor.|
 A Delivery for Guardian Kota|QID|57825|M|64.86,38.89|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|57824|RANK|2|
 T Delivery for Guardian Kota|QID|57825|M|62.63,36.08|Z|Ardenweald!The Shadowlands|N|To Guardian Kota.|
 A The Absent-Minded Artisan|QID|61051|M|62.63,36.08|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|PRE|57825|RANK|2|
 A Forest Disappearances|QID|58161|M|64.34,35.14|Z|Ardenweald!The Shadowlands|N|From Brigdin.|RANK|2|
-C The Absent-Minded Artisan|QID|61051|M|62.91,33.85|Z|Ardenweald!The Shadowlands|NC|N|Autumnal Rise investigated.|
+C The Absent-Minded Artisan|QID|61051|M|62.90,32.56|Z|Ardenweald!The Shadowlands|NC|N|Autumnal Rise investigated.|
 T The Absent-Minded Artisan|QID|61051|M|62.92,32.17|Z|Ardenweald!The Shadowlands|N|To Guardian Kota.|
 A Finish What He Started|QID|58022|M|62.92,32.17|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|PRE|61051|RANK|2|
 A One Big Problem|QID|58023|M|62.92,32.17|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|PRE|61051|RANK|2|
-C One Big Problem|QID|58023|M|63.23,30.81|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Gloober found.|
+C One Big Problem|QID|58023|M|63.23,30.81|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Pet Gloober.|
 C Finish What He Started|QID|58022|M|61.20,31.93|Z|Ardenweald!The Shadowlands|U|173534|N|Use provided branch on Wild Gorm as you approach the next quest. Kill the Gorm and loot the Gris.|S|
 A Burrows Away|QID|58024|M|62.20,30.01|Z|Ardenweald!The Shadowlands|N|From Gorm Burrow.|PRE|61051|RANK|2|
 C Burrows Away|QID|58024|M|60.52,32.57|Z|Ardenweald!The Shadowlands|NC|N|Gorm Burrow collapsed.|S|
 C One Big Problem|QID|58023|M|62.31,28.17|Z|Ardenweald!The Shadowlands|QO|2|N|Confront the Gorm Matriarch in her Egg Chamber.|
 C One Big Problem|QID|58023|M|61.90,33.56|Z|Ardenweald!The Shadowlands|QO|3|N|Go find her other Egg Chamber and confront her again.|
 C One Big Problem|QID|58023|M|61.39,71.61|Z|Ardenweald_Micro_D|QO|4|NC|N|Locate the Gorm Matriarch's Den.|
-;Dont turn in burrows away/Finish what he started Turn into When a Gorm Eats a god first to Droman to test if grove of creation may also have pre 58024;58022 - delete this comment after testing (and changing PREs if needed)
 T One Big Problem|QID|58023|M|59.46,45.41|Z|Ardenweald_Micro_D|N|To Guardian Kota.|
 A Queen of the Underground|QID|58025|M|59.46,45.41|Z|Ardenweald_Micro_D|N|From Guardian Kota.|PRE|58023|RANK|2|
 C Queen of the Underground|QID|58025|M|36.76,34.13|Z|Ardenweald_Micro_D|EAB|N|Use the branch (or other stuns) to interrupt her Psycic Blast and Call Gromlings as much as possible. Slay the Gorm Matriarch. Expect swarm of small adds.|
 T Queen of the Underground|QID|58025|M|59.65,45.27|Z|Ardenweald_Micro_D|N|To Guardian Kota.|
 A When a Gorm Eats a God|QID|58026|M|59.65,45.27|Z|Ardenweald_Micro_D|N|From Guardian Kota.|PRE|58025|RANK|2|
+K Egg-Tender Leh'go|QID|60266|QO|1|RARE|CS|M|58.50,31.84;58.90,29.41|Z|Ardenweald!The Shadowlands|N|Click the quivering eggs, this will cause gorm egg-tenders to spawn. After a few, the Rare will spawn.|ITEM|179539|; move this to while in dusty burrows. - Unguarded Gorm Eggs
 C Burrows Away|QID|58024|M|61.03,33.45|Z|Ardenweald!The Shadowlands|NC|US|N|Finish collapsing the burrows as you head back to Tirna Vaal.|
 C Finish What He Started|QID|58022|M|60.98,34.86|Z|Ardenweald!The Shadowlands|U|173534|N|Finish collecting the gris (by using the branch to induce the Wild Gorm to part with it).|US|
 T When a Gorm Eats a God|QID|58026|M|63.47,36.30|Z|Ardenweald!The Shadowlands|N|To Droman Tashmur.|
@@ -242,13 +244,13 @@ A Mysterious Masks|QID|58162|M|70.36,32.59|Z|Ardenweald!The Shadowlands|N|From P
 C Mysterious Masks|QID|58162|M|73.49,35.61|Z|Ardenweald!The Shadowlands|N|Kill the faerie's and loot their Featureless Masks.|S|
 C Cult of Personality|QID|58164|M|71.96,38.57|Z|Ardenweald!The Shadowlands|NC|N|Free the Captives by clicking their cages.|S|
 A A Desperate Solution|QID|58163|M|72.15,33.87|Z|Ardenweald!The Shadowlands|N|From Battered Journal.|PRE|58161|RANK|2|
-C A Desperate Solution|QID|58163|M|73.50,33.87|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Pick up Torn Journal. (not in tunnel)|
 C A Desperate Solution|QID|58163|CS|M|72.40,34.14;73.48,34.26|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Stained Journal Page found in the Matriarch's Burrow.|
-C A Desperate Solution|QID|58163|M|71.84,38.16|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Pick up Crumpled Journal Page, back on the surface.|
+C A Desperate Solution|QID|58163|M|73.50,33.87|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Pick up Torn Journal. (not in tunnel)|
+C A Desperate Solution|QID|58163|M|71.84,38.16|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Pick up Crumpled Journal Page, also on the surface.|
 C Mysterious Masks|QID|58162|M|73.49,35.61|Z|Ardenweald!The Shadowlands|N|Finish collecting the Featureless Masks from the faeries in the area..|US|
 C Cult of Personality|QID|58164|M|71.96,38.57|Z|Ardenweald!The Shadowlands|NC|N|Finish releasing Captives.|US|
-T Mysterious Masks|QID|58162|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|
 T Cult of Personality|QID|58164|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|
+T Mysterious Masks|QID|58162|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|
 T A Desperate Solution|QID|58163|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|
 A The Crumbling Village|QID|59802|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|58162&58163&58164|RANK|2|
 T The Crumbling Village|QID|59802|M|74.27,32.36|Z|Ardenweald!The Shadowlands|N|To Partik.|
@@ -257,7 +259,7 @@ A Cut the Roots|QID|58165|M|74.27,32.36|Z|Ardenweald!The Shadowlands|N|From Part
 C Take the Power|QID|59801|M|75.61,34.18|Z|Ardenweald!The Shadowlands|NC|N|Pick up Animacones from the area.|S|
 C Cut the Roots|QID|58165|M|75.55,33.76|Z|Ardenweald!The Shadowlands|QO|1|N|Slay Fiona Bleakthorn.|
 C Cut the Roots|QID|58165|M|74.08,30.69|Z|Ardenweald!The Shadowlands|QO|2|N|Slay Bitterfly.|
-A Swollen Anima Seed|QID|62186|M|76.65,29.76|Z|Ardenweald!The Shadowlands|N|From the Swollen Anima Seed at the base of a tree.|RANK|2|
+A Swollen Anima Seed|QID|62186|M|76.65,29.76|Z|Ardenweald!The Shadowlands|N|From the Swollen Anima Seed at the base of a tree.|RANK|2|;$
 C Cut the Roots|QID|58165|M|76.41,30.96|Z|Ardenweald!The Shadowlands|QO|3|N|Wildtwister Lewor slain.|
 C Take the Power|QID|59801|M|75.61,34.18|Z|Ardenweald!The Shadowlands|NC|N|Animacone.|US|
 T Cut the Roots|QID|58165|M|74.29,32.34|Z|Ardenweald!The Shadowlands|N|To Partik.|
@@ -268,11 +270,10 @@ T Swollen Anima Seed|QID|62186|M|63.52,36.21|Z|Ardenweald!The Shadowlands|N|To D
 
 ; Glitterfall Heights Storyline
 R Glitterfall Heights|ACTIVE|57660|CS|M|58.83,36.93;51.10,33.82|Z|Ardenweald!The Shadowlands|N|Follow the road generally west to Glitterfall heights.|
-
 T Call of the Hunt|QID|60521|M|51.27,34.00|Z|Ardenweald!The Shadowlands|N|To Hunt-Captain Korayn.|MS|
 A The Missing Hunters|QID|60628|M|51.27,34.00|Z|Ardenweald!The Shadowlands|N|From Hunt-Captain Korayn.|PRE|60521|MS|
 A Extreme Recycling|QID|60629|M|51.27,34.00|Z|Ardenweald!The Shadowlands|N|From Hunt-Captain Korayn.|PRE|60521|MS|
-f Glitterfall Basin|ACTIVE|60629^57660|M|51.41,34.46|Z|Ardenweald!The Shadowlands|N|At Dwyl'ir.|
+f Glitterfall Basin|ACTIVE|60629^57660^57651|M|51.41,34.46|Z|Ardenweald!The Shadowlands|N|At Dwyl'ir.|
 T The Grove of Creation|QID|57660|M|51.10,33.82|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|
 A Trouble in the Banks|QID|57651|M|51.14,33.84|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|RANK|2|
 C Extreme Recycling|QID|60629|M|54.49,32.84|Z|Ardenweald!The Shadowlands|N|Kill and loot the mobs in the area to collect the Fae Weapons.|S|MS|
@@ -296,8 +297,7 @@ T Totem Eclipse|QID|60630|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Hunt-Captai
 T Big Problem, Little Vorkai|QID|60631|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Hunt-Captain Korayn.|MS|
 A I Know Your Face|QID|60632|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Hunt-Captain Korayn.|PRE|60630&60631|MS|
 C I Know Your Face|QID|60632|M|48.49,36.84|Z|Ardenweald!The Shadowlands|QO|1|T|Blighted Monstrosity|N|Kill the Bigger Blighted Monstrosity, to expose Lorkron the Hunter (then fight Lorkron). You still have reinforcements available via the "[color=40C7EB]Hunter's Strike[/color]" Extra Action Button.|MS|EAB|
-$ Hearty Dragon Plume|QID|61067|CS|M|47.81,39.06;47.53,36.60;47.97,38.65;48.21,39.26|Z|Ardenweald!The Shadowlands|N|Up the path for a cool slowfall item. This requires jumping down the tree roots, so make sure you are at the right spot before jumping.|ITEM|182729|ACH|14313;4|
-C I Know Your Face|QID|60632|M|48.94,35.73|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak to Korayn.|MS|
+$ Hearty Dragon Plume|QID|61067|CS|M|47.81,39.06;47.53,36.60;47.97,38.65;48.21,39.26|Z|Ardenweald!The Shadowlands|N|Up the path for a cool slowfall item. This requires jumping down the tree roots, so make sure you are at the right spot before jumping.|RANK|2|ITEM|182729|ACH|14313;4|C I Know Your Face|QID|60632|M|48.94,35.73|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak to Korayn.|MS|
 
 ; Sidequest Storyline - Trouble at the Gormling Corral & Supplies Needed
 T Trouble in the Banks|QID|57651|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
@@ -315,18 +315,20 @@ T Breaking A Few Eggs|QID|59621|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|To 
 T Tending to the Tenders|QID|59622|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
 A Unsafe Workplace|QID|57653|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|59621|RANK|2|
 A Supplies Needed: More Husks!|QID|57655|M|47.49,26.37|Z|Ardenweald!The Shadowlands|N|From a Discarded Scroll, under the wagon hitch.|RANK|2|
-C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|U|172950|NC|N|Use the provided clay Heal Wounded fae.|S|
+C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|U|172950|NC|N|Use the provided clay Heal Wounded fae.|S!US|
 C Supplies Needed: More Husks!|QID|57655|M|49.37,22.96|Z|Ardenweald!The Shadowlands|NC|N|Pick up the Treated Gorm Husks scattered about the area.|S|
 A Gifts of the Forest|QID|57656|M|48.06,24.38|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|59621|RANK|2|
 C Gifts of the Forest|QID|57656|M|49.09,22.71|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1<1|N|Use the provided pipes to ask for a Culexwood Branch.|
+;$ Lost Satchel|QID|62187|M|48.19,20.39|Z|Ardenweald!The Shadowlands|N|Carefully, slowly, walk down the tree root to get this treasure. Turns in for a decent amount of xp. Return the same way you came down.|ITEM|182731|
+A Satchel of Culexwood|QID|62187|M|48.19,20.39|Z|Ardenweald!The Shadowlands|N|From Lost Satchel hanging from a branch. Carefully, slowly, walk down the tree root to get this treasure. Turns in for a decent amount of xp. Return the same way you came down.|RANK|2|
 C Gifts of the Forest|QID|57656|M|48.05,21.72|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1<2|N|Use the provided pipes to ask for a Culexwood Branch.|
 C Gifts of the Forest|QID|57656|M|49.02,26.74|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1<3|N|Use the provided pipes to ask for a Culexwood Branch.|
+T Satchel of Culexwood|QID|62127|M|48.05,24.39|Z|Ardenweald!The Shadowlands|N|To Fluttercatch.|
 T Gifts of the Forest|QID|57656|M|48.05,24.39|Z|Ardenweald!The Shadowlands|N|To Fluttercatch.|
 A Tied Totem Toter|QID|57657|M|48.02,24.39|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|57656|RANK|2|
 C Tied Totem Toter|QID|57657|M|47.99,24.28|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Take the Gormling Lure.|
 C Tied Totem Toter|QID|57657|M|47.99,24.28|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Run near the gromlings to collect them.|BUFF|309806<30|
 C Supplies Needed: More Husks!|QID|57655|M|49.37,22.96|Z|Ardenweald!The Shadowlands|NC|N|Treated Gorm Husk.|US|
-C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|U|172950|NC|N|Finish healing the Wounded fae.|US|
 C Tied Totem Toter|QID|57657|M|47.02,28.55|Z|Ardenweald!The Shadowlands|NC|QO|2|N|Deliver gormlings to southern wrangler.|
 T Unsafe Workplace|QID|57653|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
 T Tied Totem Toter|QID|57657|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
@@ -340,31 +342,29 @@ T Supplies Needed: More Husks!|QID|57655|M|51.51,33.99|Z|Ardenweald!The Shadowla
 T Supplies Needed: Amber Grease|QID|57652|M|51.51,33.99|Z|Ardenweald!The Shadowlands|N|To Gormsmith Cavina.|
 A What a Buzzkill|QID|59623|M|51.51,33.99|Z|Ardenweald!The Shadowlands|N|From Gormsmith Cavina.|PRE|57652&57655|RANK|2|
 C What a Buzzkill|QID|59623|M|50.28,26.22|Z|Ardenweald!The Shadowlands|T|Buzzkill|N|Kill Buzzkill and loot his Stinger.|
-;Try going to finman first 56 24 helpful faerie beside, may also offer the next quest there.
+
 ; Sidequest Storyline - Tricky Spriggans
-A The Sweat of Our Brow|QID|57867|M|53.81,27.60|Z|Ardenweald!The Shadowlands|N|From Helpful Faerie.|RANK|2|
 C Idle Hands|QID|57866|M|55.01,24.53|Z|Ardenweald!The Shadowlands|N|Brittlebark invaders slain.|S|
-C The Sweat of Our Brow|QID|57867|M|56.84,23.40|Z|Ardenweald!The Shadowlands|NC|N|Booby trapped tools disarmed.|S|
-A Spirit-Gathering Labor|QID|57869|M|56.42,29.25|Z|Ardenweald!The Shadowlands|N|From Groonoomcrooek.|RANK|2|
-;RARE|Unguarded Gorm Eggs
-C Spirit-Gathering Labor|QID|57869|M|56.85,28.23|Z|Ardenweald!The Shadowlands|NC|N|River Sediment.|S|
-C Ages-Echoing Wisdom|QID|57865|M|56.43,29.25|Z|Ardenweald!The Shadowlands|QO|1|N|Groonoomcrooek found.|CHAT|
+A The Sweat of Our Brow|QID|57867|M|55.96,23.42|Z|Ardenweald!The Shadowlands|N|From Helpful Faerie.|RANK|2|
+A Craftsman Needs No Tools|QID|57868|M|55.83,23.47|Z|Ardenweald!The Shadowlands|N|From Elder Finnan.|RANK|2|
+C Ages-Echoing Wisdom|QID|57865|M|55.79,23.50|Z|Ardenweald!The Shadowlands|QO|2|N|Elder Finnan found.|CHAT|
+C The Sweat of Our Brow|QID|57867|M|56.84,23.40|Z|Ardenweald!The Shadowlands|NC|N|There are tools, leaves, spools of thread, etc scattered around the area. Not every one that you click on will be disarmed.|S|
+C Craftsman Needs No Tools|QID|57868|M|56.74,23.88|Z|Ardenweald!The Shadowlands|N|Kill and loot Spriggan. One of them has Finnan's Lucky Mallet.|S|
+$ Aerto|QID|61072|M|56.00,21.02|Z|Ardenweald!The Shadowlands|N|Check on Aerto, the Fallen Ranger, after picking up the treasure the Stellerwasps in the area attack.|ITEM|180630|RANK|2|ACH|14313;1|
 A The Games We Play|QID|57870|M|59.05,24.38|Z|Ardenweald!The Shadowlands|N|From Elder Gwenna.|RANK|2|
 C Ages-Echoing Wisdom|QID|57865|M|59.06,24.36|Z|Ardenweald!The Shadowlands|QO|3|CHAT|N|Elder Gwenna found.|
-C The Games We Play|QID|57870|M|58.42,27.44|Z|Ardenweald!The Shadowlands|NC|N|Click on the giggling basket to expose the spriggan Once exposed, respond to his words with the correct emotes. \nIf his phrase ends with:\nNot so much as a word of praise! Hmph!"-[color=ff8000]/praise[/color]\n"The other spriggans were all cheering my name for days!"-[color=ff8000]/cheer[/color]\n"Dance with me!"-[color=ff8000]/dance[/color]\n"Introductions were an important part of first impressions!"-[color=ff8000]/introduce[/color]\n"Some ask permission, and always thank us for our trouble."-[color=ff8000]/thank[/color]\n"How strong he must have been!"-[color=ff8000]/strong[/color].|
-A Craftsman Needs No Tools|QID|57868|M|55.83,23.47|Z|Ardenweald!The Shadowlands|N|From Elder Finnan.|RANK|2|
-;$ Aerto|QID|61072|M|56.0,21.0|Z|Ardenweald!The Shadowlands|ITEM|180630|ACH|14313;1|  ; info from Wowhead, needs checking and 'fleshing out'
-C Ages-Echoing Wisdom|QID|57865|M|55.79,23.50|Z|Ardenweald!The Shadowlands|QO|2|N|Elder Finnan found.|CHAT|
-C Craftsman Needs No Tools|QID|57868|M|56.74,23.88|Z|Ardenweald!The Shadowlands|N|Finnan's Lucky Mallet.|S|
+C The Games We Play|QID|57870|M|58.42,27.44|Z|Ardenweald!The Shadowlands|NC|N|Click on the giggling basket to expose the spriggan. Once exposed, Target him and respond to his words with the correct emotes. \nIf his phrase ends with:\nNot so much as a word of praise! Hmph!"-[color=ff8000]/praise[/color]\n"The other spriggans were all cheering my name for days!"-[color=ff8000]/cheer[/color]\n"Dance with me!"-[color=ff8000]/dance[/color]\n"Introductions were an important part of first impressions!"-[color=ff8000]/introduce[/color]\n"Some ask permission, and always thank us for our trouble."-[color=ff8000]/thank[/color]\n"How strong he must have been!"-[color=ff8000]/strong[/color].|
+C Ages-Echoing Wisdom|QID|57865|M|56.43,29.25|Z|Ardenweald!The Shadowlands|QO|1|N|Groonoomcrooek found.|CHAT|
+A Spirit-Gathering Labor|QID|57869|M|56.42,29.25|Z|Ardenweald!The Shadowlands|N|From Groonoomcrooek.|RANK|2|
+C Spirit-Gathering Labor|QID|57869|M|56.85,28.23|Z|Ardenweald!The Shadowlands|NC|N|River Sediment.|S|
+T Spirit-Gathering Labor|QID|57869|M|56.39,29.24|Z|Ardenweald!The Shadowlands|N|To Groonoomcrooek.|
 T The Games We Play|QID|57870|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|To Elder Gwenna.|
 A Outplayed|QID|57871|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|From Elder Gwenna.|PRE|57870|RANK|2|
 C Outplayed|QID|57871|M|56.78,25.96|Z|Ardenweald!The Shadowlands|U|173355|N|Use the provided powder to summon Wicked Wort and then kill it.|
 C Idle Hands|QID|57866|M|55.01,24.53|Z|Ardenweald!The Shadowlands|N|Brittlebark invaders slain.|US|
 C The Sweat of Our Brow|QID|57867|M|56.84,23.40|Z|Ardenweald!The Shadowlands|NC|N|Booby trapped tools disarmed.|US|
-C Spirit-Gathering Labor|QID|57869|M|56.85,28.23|Z|Ardenweald!The Shadowlands|NC|N|River Sediment.|US|
 C Craftsman Needs No Tools|QID|57868|M|56.74,23.88|Z|Ardenweald!The Shadowlands|N|Keep killing Brittlebark until Finnan's Lucky Mallet drops.|US|
 T Craftsman Needs No Tools|QID|57868|M|55.82,23.50|Z|Ardenweald!The Shadowlands|N|To Elder Finnan.|
-T Spirit-Gathering Labor|QID|57869|M|56.39,29.24|Z|Ardenweald!The Shadowlands|N|To Groonoomcrooek.|
 T Ages-Echoing Wisdom|QID|57865|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|
 T Idle Hands|QID|57866|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|
 T The Sweat of Our Brow|QID|57867|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|
@@ -378,7 +378,7 @@ C Nightmares Manifest|QID|60520|M|62.94,35.88|Z|Ardenweald!The Shadowlands|QO|1|
 C Nightmares Manifest|QID|60520|M|49.55,51.28|Z|Ardenweald_Micro_C|QO|2|NC|N|Click the Wildseed to sooth it.|MS|
 T Nightmares Manifest|QID|60520|M|50.02,48.76|Z|Ardenweald_Micro_C|N|To Dreamweaver.|MS|
 
-R Heartwood Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Head south towards The Waning Grove and the Bonus Objective there.|TOF|RANK|2|
+R Heartwood Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Head south towards Heartwood Grove and the Bonus Objective there.|TOF|RANK|2|
 A The Waning Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
 C The Waning Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Preserve Heartwood Grove by fighting the Hostiles and evacuating the survivers and picking up drained wildseeds.|TOF|
 T The Waning Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
@@ -401,15 +401,15 @@ C Toppling the Brute|QID|60856|M|66.03,49.71|Z|Ardenweald!The Shadowlands|N|Slay
 C Wild Hunt Offensive|QID|60840|M|63.10,46.06|Z|Ardenweald!The Shadowlands|US|N|Finish up defending Soryn's Meadow.|
 T Toppling the Brute|QID|60856|M|64.27,49.93|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 T Wild Hunt Offensive|QID|60840|M|64.90,47.51|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|
-;RARE|Cloud
-A Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|
-C Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Kill Hostiles, destroy totems and click on the green memories.
+A Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
+C Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Kill Hostiles, destroy totems and click on the green memories.|EAB|
 T Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|
 A Ride of the Wild Hunt|QID|60881|M|64.27,49.93|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60856|MS|
 C Ride of the Wild Hunt|QID|60881|M|62.54,45.64|Z|Ardenweald!The Shadowlands|V|N|Hop on the stag.|MS|
 T Ride of the Wild Hunt|QID|60881|M|62.34,45.56|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 A Passage to Hibernal Hollow|QID|60901|M|62.34,45.56|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60881|MS|
 C Passage to Hibernal Hollow|QID|60901|CS|M|62.34,45.53;59.93,52.55|Z|Ardenweald!The Shadowlands|CHAT|N|Speak with Ara'lon, then run with him to Hibernal Hollow.|MS|
+R Hibernal Hollow|QID|58265|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|Follow the road Southish to Hibernal Hollow.|TOF|RANK|2|
 f Hibernal Hollow|ACTIVE|60901^62763|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|
 T Passage to Hibernal Hollow|QID|60901|M|60.12,53.80|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 A Infusing the Wildseed|QID|60905|M|60.12,53.80|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|PRE|60901|MS|
@@ -450,8 +450,6 @@ C Sparkles Rain from Above|QID|58524|M|71.52,54.67|Z|Ardenweald!The Shadowlands|
 C Sparkles Rain from Above|QID|58524|M|70.71,55.92|Z|Ardenweald!The Shadowlands|QO|2|N|Keep hitting the 1 key everytime it refreshes to slay the Invaders.|MS|
 T Sparkles Rain from Above|QID|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 T The Fallen Tree|QID|62720|M|70.10,57.17|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
-R Hibernal Hollow|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|Back to Hibernal Hollow for a flight or Hearthstone works too.|
-F Heart of the Forest|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|
 
 ; Visions of the Dreamer Storyline
 A For the Sake of Spirit|QID|60572|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|PRE|58524|MS|
@@ -505,14 +503,13 @@ A Enemies at the Gates|QID|60621|M|55.99,57.67|Z|Ardenweald!The Shadowlands|N|Fr
 
 ; Sidequest Storyline - Wicked Plan
 A Wake Up, Get Up, Get Out There|QID|58264|M|53.47,58.72|Z|Ardenweald!The Shadowlands|N|From Primrose.|RANK|2|
+R Shimmerbough|ACTIVE|62807|M|53.48,58.71|Z|Ardenweald!The Shadowlands|N|Northish to Shimmerbough and the last set of sidequests in Ardenweald.|
 A Break It Down|QID|58266|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Primrose.|RANK|2|
-N Break It Down|ACTIVE|58266|M|52.67,57.52|Z|Ardenweald!The Shadowlands|N|Take some Enchanted Wings from Primrose's basket and then you can jump up in the air to get her Pyrotechnic powder out of the hanging fairy basket houses.|BUFF|323695^313053|
+N Break It Down|ACTIVE|58266|M|52.67,57.52|Z|Ardenweald!The Shadowlands|N|Take some Enchanted Wings from one of the baskets scattered around the area and then you can jump up in the air to get her Pyrotechnic powder out of the hanging fairy basket houses.|BUFF|323695^313053|
 N Break It Down|ACTIVE|58266|M|PLAYER|Z|Ardenweald!The Shadowlands|S!US|N|If the wings wear off before you get 5 powders, or if you just want to flit around, you can use a Pinch of Faerie Dust looted from the hostile faeries in the area.|U|174042|L|174078 5|
-C Blooming Villains|QID|58265|M|51.55,56.67|Z|Ardenweald!The Shadowlands|N|Slay Ritualists.|S|
+C Blooming Villains|QID|58265|M|51.55,56.67|Z|Ardenweald!The Shadowlands|N|Slay Ritualists.|S!US|
 C Wake Up, Get Up, Get Out There|QID|58264|M|51.48,56.23|Z|Ardenweald!The Shadowlands|NC|N|Aid the Subdued Faeries.|S|
 C Break It Down|QID|58266|M|53.77,61.54|Z|Ardenweald!The Shadowlands|U|174078|N|Destroy Runed Altar. They are all on the platforms above.|
-C Blooming Villains|QID|58265|M|51.55,56.67|Z|Ardenweald!The Shadowlands|N|Finish slaying Ritualists.|US|
-;$ Faerie Trove|QID|61073|M|49.72,55.94|Z|Ardenweald!The Shadowlands|N|Basket with pet is around and underneath platform(Tree?).|ITEM|182673|ACH|14313;3| ; Coords update from WH(2/NOV/20) or this is the wrong QID?
 C Wake Up, Get Up, Get Out There|QID|58264|M|51.48,56.23|Z|Ardenweald!The Shadowlands|NC|N|Finish aiding the Subdued Faeries.|US|
 T Wake Up, Get Up, Get Out There|QID|58264|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Primrose.|
 T Break It Down|QID|58266|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Primrose.|
@@ -521,6 +518,8 @@ C Beneath the Mask|QID|58267|M|54.42,61.52|Z|Ardenweald!The Shadowlands|QO|1|N|U
 C Beneath the Mask|QID|58267|M|54.50,61.42|Z|Ardenweald!The Shadowlands|QO|2|N|Slay Mindwarped Faerie.|
 T Blooming Villains|QID|58265|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
 T Beneath the Mask|QID|58267|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
+F Heart of the Forest|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|COV|NightFae|IZ|Hibernal Hollow|
+F Refugee Camp|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|TOF|TAXI|-Heart of the Forest|
 
 ; and back to MS Awaken the Dreamer
 T Enemies at the Gates|QID|60621|M|59.81,53.16|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe. If you can safely get to him without fighting, do so, he gives quest for killing the attackers.|MS|
@@ -531,6 +530,7 @@ C Battle for Hibernal Hollow|QID|58869|M|60.03,53.09|Z|Ardenweald!The Shadowland
 T Battle for Hibernal Hollow|QID|58869|M|59.92,53.09|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 A Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|58869|MS|
 C Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Moonberry.|MS|
+$ Faerie Trove|QID|61073|M|49.72,55.89|N|Basket with pet is around and underneath platform(treestump).|RANK|2|ITEM|182673|ACH|14313;3|
 C Dying Dreams|QID|60661|M|48.22,54.30|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Escort Ysera's wildseed.|MS|
 T Dying Dreams|QID|60661|M|47.94,53.85|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|MS|
 A Awaken the Dreamer|QID|58721|M|48,53.8|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|PRE|60661|RANK|2|
@@ -547,6 +547,5 @@ A The Queen's Request|QID|58724|M|49.05,33.98|Z|The Trunk@Heart of the Forest!Du
 
 F Oribos|ACTIVE|58724|M|49.32,51.90|Z|Ardenweald!The Shadowlands|MS|
 T The Queen's Request|QID|58724|M|48.98,60.10|Z|Ring of Transference@Oribos|N|To Tal-Inara.|MS|
-
 ]]
 end)

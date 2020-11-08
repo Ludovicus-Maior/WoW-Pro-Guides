@@ -8,7 +8,6 @@ return [[
 N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
 
 ; List of Treasures in Maldraxxus a few in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
-
 ; $ Forgotten Momentos|M|22.5,30.5|Z|Maldraxxus|N|WH - Vault Portculis to open the gate blocking treasure.|ACH|14312;4|
 ; $ Misplaced Supplies|M|62.4,59.9|Z|Maldraxxus|N|WH - On top of mushroom. Climb hill, turn left, Jump to mushroom, Turn right, Jump to hill, Turn right and climb hill once more to the edge.|ACH|14312;5|
 ; $ Runespeaker's Trove|M|31.7,70.0|Z|Maldraxxus|N|WH - Kill Runespeaker Phaeton to loot his key.|T|Runespeaker Phaeton|ITEM|183516|ACH|14312;6|
@@ -20,24 +19,30 @@ N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe
 A Maldraxxus|QID|62278|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 t Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A A Fresh Blade|QID|62738^63035|PRE|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
-R Ring of Transference|ACTIVE|62738^63035|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+P Ring of Transference|ACTIVE|62738^63035|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
 F Bleak Redoubt|ACTIVE|62738^63035|M|60.87,68.63|Z|Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
 T A Fresh Blade|QID|62738^63035|N|To Secutor Mevix.|TOF|
 A Rallying Maldraxxus|QID|62748|PRE|62738^63035|N|From Secutor Menvix.|TOF|
-C Rallying Maldraxxus|QID|62748|S!US|N|Literally everything you do in Maldraxxus counts towards this quest. You may return to Bleak Redoubt to turn in and be done with the zone anytime after this finishes.|TOF|
+l Rallying Maldraxxus|QID|62748|QO|1|S!US|N|Literally everything you do in Maldraxxus counts towards this quest. You may [color=40C7EB]return[/color] to [color=40C7EB]Bleak Redoubt[/color] to turn in and be done with the zone anytime after this step closes.|TOF|
 t Rallying Maldraxxus|QID|62748|IZ|Bleak Redoubt|M|52.85,68.28|Z|Maldraxxus|N|To Secutor Mevix.|TOF|
 A Return to Oribos|QID|62761|M|52.85,68.28|Z|Maldraxxus|N|From Secutor Mevix.|PRE|62748|TOF|
 F Oribos|ACTIVE|62761|M|52.46,67.64|Z|Maldraxxus|N|At Wing Guard Buurkin|TOF|
 t Return to Oribos|QID|62761|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|IZ|Oribos|TOF|
-A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62761|N|From Tal-Inara.|TOF|;new quest, may be diff ones based on how many TOF zones you have done.
+A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62761|CCOUNT|1;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;new quest, may be diff ones based on how many TOF zones you have done.
 C Tal-Inara|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone and then turn that quest back into her.|IZ|Oribos|TOF|
 T The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+A Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62761&63208|CCOUNT|2;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 2nd zone
+C Tal-Inara|QID|63209|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+T Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+A The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62761&63209|CCOUNT|3;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 3rd zone
+C Tal-Inara|QID|63210|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+T The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-N Choose Bastion|PRE|62275|LEAD|62723|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|
-N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|
-N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|
+N Choose Bastion|PRE|62275|LEAD|62723|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|TOF|
+N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|TOF|
+N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|TOF|
 N World Quests|QID|62748|N|WQs are available since you have chosen the Threads of Fate option. They are however not included in the guide and there is no way to predict which one is available on any given day. So, I recomend you do them, but you are on your own as to how and where.|TOF|
 N Use of Ranks|QID|62748|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives.|TOF|
 N Spectre of War: Visectus|QID|62748|N|This is a weekly quest, that you can NOT do at this time, because you can not create the anima bound wraps until you open up the Necrolord Abommination Factory, so, ignore this quest. (just wanted you to know why)|TOF|COV|Necrolord|
@@ -161,7 +166,7 @@ $ Strange Growth|QID|59429|M|55.88,38.98|Z|Maldraxxus|N|Pull on the strange grow
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|S|
 C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Kill Deadeye the giant Bloodtusk.|
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|US|
-f Keres' Rest|ACTIVE|58794|M|53.81,30.71|Z|Maldraxxus|N|At Fly-eyed Eliera.|
+f Keres' Rest|ACTIVE|59781|M|53.81,30.71|Z|Maldraxxus|N|At Fly-eyed Eliera.|
 C How To Get A Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
 A WANTED: The Key of Eyes|QID|62462|M|53.08,41.41|Z|Maldraxxus|ELITE|N|From Wanted Poster.|RANK|2|TOF|
 C How To Get A Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|
@@ -333,15 +338,15 @@ C Repeat After Me|QID|58621|M|40.70,31.11|QO|3|Z|Maldraxxus|N|The next runestone
 C Repeat After Me|QID|58621|M|43.83,34.63|QO|1|Z|Maldraxxus|N|Enter the cave, target the Runestone of Chosen and /salute\n\nKill Echo of the Hero.|T|Runestone of Chosen,salute|
 C Repeat After Me|QID|58621|M|47.25,35.66|QO|5|Z|Maldraxxus|N|Target the Runestone of Constructs and /flex\n\nKill Echo of the Crafter|T|Runestone of Constucts,flex|;Typo by Bliz...hopefully they correct it at somepoint
 C Repeat After Me|QID|58621|M|45.70,28.64|QO|2|Z|Maldraxxus|N|Enter the cave, target the Runestone of Eyes and /sneak\n\nKill Echo of the Spy|T|Runestone of Eyes,sneak|
-C Kill Them Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|US|
 T Repeat After Me|QID|58621|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
-T Kill Them Of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
 A Slaylines|QID|58620|M|43.07,25.12|Z|Maldraxxus|N|From Ta'eran.|PRE|58621&59917|RANK|2|
 N Arrange the Beams|ACTIVE|58620|M|43.07,25.12|Z|Maldraxxus|N|[color=ff8000]East:[/color]\n\nBe sure to click the East Power Crystal [color=ff8000]2[/color] times so the beam goes into the crystal behind you.\n\nThat crystal behind you should be clicked [color=ff8000]1[/color] time and the beam should go north refecting off something onto the mountain and to the crystal to your NW that should already be pointed to the East Obelisk.\n\n[color=ff8000]West:[/color]\n\nBe sure to click the West Power Crystal only [color=ff8000]1[/color] time so the beam goes into the crystal behind you.\n\nThat crystal behind you should be clicked [color=ff8000]1[/color] time and the beam should go NE refecting off something which directs it to the crystal North of you.\n\nThat crystal to the north should be clicked [color=ff8000]1[/color] time to finally direct it to the West Obelisk.|S!US|
 C Slaylines|QID|58620|QO|1|M|45.87,29.89|Z|Maldraxxus|NC|N|Locate the East Power Crystal.|
 C Slaylines|QID|58620|QO|4|CS|M|44.94,29.50;43.39,26.84|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the East Obelisk, run back to it and click to activate.|
 C Slaylines|QID|58620|QO|2|M|42.17,31.04|Z|Maldraxxus|NC|N|Locate the West Power Crystal.|
 C Slaylines|QID|58620|QO|3|CS|M|43.17,30.80;43.03,28.54;42.81,27.16|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the West Obelisk, run back to it and click to activate.|
+C Kill Them Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|US|
+T Kill Them Of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
 T Slaylines|QID|58620|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
 A Secrets Among the Shelves|QID|58622|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58620|RANK|2|
 C Secrets Among the Shelves|QID|58622|M|PLAYER|Z|Maldraxxus|NC|N|Enter and climb the tower avoiding the floating books while collecting the highlighted tomes from the ground and bookshelves.|
@@ -350,7 +355,7 @@ A Archival Protection|QID|60900|M|41.83,23.61|Z|Maldraxxus|N|From Ta'eran.|PRE|5
 C Archival Protection|QID|60900|M|42.26,24.11|Z|Maldraxxus|N|Continue up the stairs to find and kill The Archivist.|T|The Archivist|
 T Archival Protection|QID|60900|M|PLAYER|Z|Maldraxxus|N|To Ta'ern.|
 A Trust Fall|QID|59994|M|PLAYER|Z|Maldraxxus|N|From Ta'eran.|PRE|60900|
-$ The Necronom-i-nom|QID|61470|M|42.35,23.34|Z|Maldraxxus|N|More treasure for you in a bookcase near The Archivist.|ITEM|182732|ACH|14312;10|
+$ The Necronom-i-nom|QID|61470|M|42.35,23.34|Z|Maldraxxus|N|More treasure for you in a bookcase near The Archivist.|ITEM|182732|RANK|2|ACH|14312;10|
 C Trust Fall|QID|59994|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Jump out of the tower.|
 C Trust Fall|QID|59994|M|45.49,32.09|QO|2|Z|Maldraxxus|NC|N|Click the floating book behind you.|
 T Trust Fall|QID|59994|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
@@ -426,7 +431,7 @@ K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<1|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
 K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill the Burning Extracts, Colossal Goo or Prodigious Animates, once it dies there will sometimes be a 2nd corpse, that you click on to collect the oil, ooze or goo.|BUFF|306636^306606^306630|
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<2|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
-$ Vat of Conspicuous Slime|QID|61444|M|59.88,79.00|Z|Maldraxxus|N|Pick up "Empty Plague Bottle" from table, then click on the vat for treasure.|ITEM|181825|ACH|14312;9|LVL|60| ; does this need LVL?
+$ Vat of Conspicuous Slime|QID|61444|M|59.88,79.00|Z|Maldraxxus|N|Pick up "Empty Plague Bottle" from table, then click on the vat for treasure.|LVL|60|ACH|14312;9|;lvl tag because either it is broken... or just can't be done till lvl 60
 C By Any Other Name|QID|59223|M|57.96,80.41|Z|Maldraxxus|QO|1|N|Kill the Blossoming Dreadshade and loot its Extract.|MS|
 K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill the Burning Extracts, Colossal Goo or Prodigious Animates, once it dies there will sometimes be a 2nd corpse, that you click on to collect the oil, ooze or goo.|BUFF|306636^306606^306630|
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<3|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
@@ -441,7 +446,7 @@ A Fathomless Power|QID|59231|M|60.50,71.60|Z|Maldraxxus|N|From Plague Deviser Ma
 A Plaguefall: Knee Deep In It|QID|59520|M|59.39,72.95|Z|Maldraxxus|ELITE|N|[color=e6cc80]Dungeon: Plaguefall[/color]\nFrom Vial Master Lurgy. This quest is optional and out of scope for this guide.|RANK|2|
 $ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus|N|Get a Mask from Pandemis.|BUFF|338920|ACH|14312;13|
 $ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|;330069<10|ACH|14312;13|
-$ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|ACH|14312;13|
+$ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|ACH|14312;13|;currently bugged grate doesnt show
 $ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus|N|And, the Treasure is along the top of the wall in a chest.|ACH|14312;13|
 F Bleak Redoubt|ACTIVE|59231|M|58.02,72.37|
 

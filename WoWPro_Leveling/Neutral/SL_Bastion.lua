@@ -8,7 +8,6 @@ return [[
 N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
 
 ; List of Treasures in Bastion a few in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
-
 ; $ Scroll of Aeons|M|53.5,80.3|Z|Bastion|N|WH - Loot 2 Purian around Aspirant's Crucible and put them in tribute bowl to spawn treasure.|ITEM|173984|ACH|14311;1|
 ; $ Abandoned Stockpile|M|44.6,46.5|Z|Bastion|N|WH - Entrance is hidden behind bushes.|ACH|14311;4|
 ; $ Windsmith's Tools|M|35.8,48.1|Z|Bastion|N|WH - Requires Broken Kyrian Flute, dropped by Agitated Etherwyrms|T|Agitated Etherwyrm|ITEM|180064|ACH|14311;5|
@@ -20,26 +19,47 @@ N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe
 ; $ Gift of Vesiphone|M|65.2,70.3|Z|Bastion|N|WH - Ring nearby bell, while standing under waterfall for Proof of Purity, to unlock treasure.|ITEM|180859|ACH|14311;14|
 ; $ Gift of Thenios|M|40.2,18.2|Z|Bastion|N|WH - Obtain Proof of Wisdom, using nearby teleporter, and light the incenses in the correct order.\nClick Incense of Patience\nClick Incense of Knowledge\nClick Incense of Insight\n[color=FF0000]SKIP[/color] Incense of Judgement\nClick Anima Orb\nClick Incense of Judgement on the FIFTH platform, then port back.|ACH|14311;15|
 
-
 ;TOF
 A Bastion|QID|62275|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 t Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A The Elysian Fields|QID|62707|PRE|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
-R Ring of Transference|ACTIVE|62707|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+A The Elysian Fields|QID|62707^63034|PRE|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+P Ring of Transference|ACTIVE|62707^63034|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
 F Hero's Rest|ACTIVE|62707|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
+F Elysian Hold|ACTIVE|63034|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
 T The Elysian Fields|QID|62707|M|51.12,46.80|Z|Bastion|N|To Kalisthene.|TOF|
-A Bolstering Bastion|QID|62723|PRE|62707|M|51.12,46.80|Z|Bastion|N|From Kalisthene.|TOF|
-C Bolstering Bastion|QID|62723|M|51.12,46.80|Z|Bastion|S!US|N|Literally everything you do in Bastion counts towards this quest.|TOF|
+T The Elysian Fields|QID|63034|M|37.01,61.22|Z|1707|N|To Kalisthene.|TOF|
+A Bolstering Bastion|QID|62723|PRE|62707^63034|M|PLAYER|N|From Kalisthene.|TOF|
+l Bolstering Bastion|QID|62723|QO|1|M|51.12,46.80|Z|Bastion|S!US|N|Literally everything you do in Bastion counts towards this quest. You may [color=40C7EB]return[/color] to [color=40C7EB]Hero's Rest[/color], or [color=40C7EB]Elysian Hold[/color] if you're a member of the Kyrian, when this step closes|TOF|
+t Bolstering Bastion|QID|62723|M|51.12,46.80|Z|Bastion|N|To Kalisthene.|TOF|
+A Return to Oribos|QID|62729|PRE|62723|M|51.12,46.80|Z|Bastion|N|From Kalisthene.|TOF|
+F Oribos|ACTIVE|62729|M|51.36,46.80|Z|Bastion|N|At Navarros.|
+T Return to Oribos|QID|62729|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62729|CCOUNT|1;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;new quest, after finishing first zone.
+C Tal-Inara|QID|63208|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+T The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+A Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62729&63208|CCOUNT|2;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 2nd zone
+C Tal-Inara|QID|63209|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+T Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+A The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62729&63209|CCOUNT|3;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 3rd zone
+C Tal-Inara|QID|63210|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+T The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|TOF|
+N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|TOF|
+N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|TOF|
 N World Quests|QID|62723|N|WQs are available since you have chosen the Threads of Fate option. They are however not included in the guide and there is no way to predict which one is available on any given day. So, I recomend you do them, but you are on your own as to how and where.|TOF|
 N Use of Ranks|QID|62723|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives. Rank 1, basically leaves you explore on your own when you accept a quest it will jump to there and give you directions on completion and turn in.|TOF|
+N Rank 1|ACTIVE|62723|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|TOF|
 A Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|N|From Sika.|TOF|COV|Kyrian|
 C Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|CHAT|N|Pick one of the stewards (outlined as quest mobs) to be your personal steward.|TOF|
 T Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|N|To Sika. This is a weekly quest, so you need to choose a new steward every week if you want one.|TOF|
 A A Friendly Rivalry|QID|59674|M|57.40,54.29|Z|Bastion|N|Take the south anima gateway out of Hero's Rest to find Pelodis.|TOF|RANK|2|
 R Aspirant's Rest|ACTIVE|62723|CS|M|56.13,52.91;52.66,64.30;51.31,73.64;49.08,74.31|Z|Bastion|N|Follow the road generally south to get to Aspirant's Rest.|TOF|RANK|2|
 f Aspirant's Rest|ACTIVE|60466|M|48.13,74.16|Z|Bastion|N|At Rheus.|TOF|RANK|2|
-A Aspirant For a Day|QID|62737|M|48.13,74.16|Z|Bastion|N|Bonus Objective, autoaccepted as you come into Aspirant's Rest.|TOF|RANK|2|
-C Aspirant For a Day|QID|62737|M|48.13,74.16|Z|Bastion|S!US|N|Bonus Objective, In addition to the normal ways of finishing bonus objectives (quests in the area and killing mobs) you can also pick up Adrima's lilys (blue flower) and Lost Library Scrolls. The lost scrolls are delivered to Scrollminder Vesi for 3% progress each.|TOF|RANK|2|
+A Aspirant For a Day|QID|62737|M|52.13,77.57|Z|Bastion|N|Bonus Objective, autoaccepted as you come into Aspirant's Rest.|TOF|RANK|2|
+C Aspirant For a Day|QID|62737|M|52.13,77.57|Z|Bastion|S!US|N|Bonus Objective, In addition to the normal ways of finishing bonus objectives (quests in the area and killing mobs) you can also pick up Adrima's lilys (blue flower) and Lost Library Scrolls. The lost scrolls are delivered to Scrollminder Vesi for 3% progress each.|TOF|RANK|2|
 
 ; Eternity's Call Storyline
 N Use of Ranks|QID|59774|N|Setting the guide will direct you to all main story line quests. It will not direct you to optional quests, however, if you pick one up it will direct you where to complete and turn in. Rank 2 takes you to all the side quests, There is nothing set to Rank 3 in this guide.|MS|
@@ -75,6 +95,8 @@ T A Soulbind In Need|QID|57677|M|48.23,72.65|Z|Bastion|N|To Pelagos.|MS|
 T The Things That Haunt Us|QID|57676|M|48.17,72.53|Z|Bastion|N|To Kleia.|MS|
 
 ; The Aspirant's Crucible Storyline
+A Aspirant For a Day|QID|62737|M|52.13,77.57|Z|Bastion|N|Bonus Objective, autoaccepted as you come into Aspirant's Crucible.|TOF|RANK|2|
+C Aspirant For a Day|QID|62737|M|52.13,77.57|Z|Bastion|S!US|N|Bonus Objective, In addition to the normal ways of finishing bonus objectives (quests in the area and killing mobs) you can also pick up Adrima's lilys (blue flower) and Lost Library Scrolls. The lost scrolls are delivered to Scrollminder Vesi for 3% progress each.|TOF|RANK|2|
 A The Aspirant's Crucible|QID|57709|M|48.23,72.65|Z|Bastion|N|From Kleia.|PRE|57677^57676|MS|
 A The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion|N|From Klystere.|LVL|50|RANK|2|
 B The Old Ways|ACTIVE|60466|M|48.07,73.00|QO|1|Z|Bastion|NC|N|Buy the thread from Caretaker Mirene.|
@@ -262,8 +284,8 @@ C I MADE You!|QID|58979|M|57.22,54.95|QO|2|Z|Bastion|N|Locus-Keeper Mnemis defea
 T I MADE You!|QID|58979|M|57.26,55.26|Z|Bastion|N|To Locus-Keeper Mnemis.|MS|
 A Mnemis, At Your Service|QID|58980|M|57.26,55.26|Z|Bastion|N|From Locus-Keeper Mnemis.|PRE|58979|MS|
 C Mnemis, At Your Service|QID|58980|M|59.90,58.18|QO|2|Z|Bastion|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
-$ Lost Disciple's Notes|QID|61048|M|59.33,60.92|Z|Bastion|N|Treasure for you. Midway up waterfall on a rock.RANK|2|ACH|14311;10|
-A You'll Never Walk Alone|QID|62170|M|PLAYER|N|From Notes you collected|O|U|182693|PRE|61048|
+;$ Lost Disciple's Notes|QID|61048|M|59.33,60.92|Z|Bastion|N|Treasure for you. Midway down waterfall on a rock.|ACH|14311;10|
+A You'll Never Walk Alone|QID|62170|M|PLAYER|N|From Lost Disciple's Notes, midway down waterfall you collected|;$
 C Mnemis, At Your Service|QID|58980|M|60.59,61.89|QO|4|Z|Bastion|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
 C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Fishish repelling the threat before turning in the next quest if you like having Kleia tanking for you.|US|
 t Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Auto Turn-in.|
@@ -458,7 +480,7 @@ C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion|N|Kill the Etherwyrms wit
 R Hall of Beasts|ACTIVE|57935|CS|M|56.71,42.68;56.13,40.28|Z|Bastion|N|Run into the Hall of Beasts.|
 C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|S|
 C Superior Programming|QID|57936|M|56.13,40.28|Z|Bastion|N|Kill Leonid.|T|Leonid|
-$ Larion Tamer's Harness|QID|61049|M|58.23,39.97|N|Treasure for your enjoyment.|ACH|14311;3|
+$ Larion Tamer's Harness|QID|61049|M|58.23,39.97|N|Treasure for your enjoyment.|RANK|2|ACH|14311;3|
 C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|US|
 C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion|N|Kill the Etherwyrms with Gatamatos at your side.|US|
 T Superior Programming|QID|57936|M|54.81,41.19|Z|Bastion|N|To Hopo.|
@@ -476,9 +498,9 @@ T Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|To Nemea.|
 A Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58037|RANK|2|
 A All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58037|RANK|2|
 C All Natural Chews|QID|58038|M|56.17,45.56|Z|Bastion|N|Kill the cloudstriders in the area.|S|
-C Larion at Large|QID|58039|CS|M|56.00,44.18|QO|1|Z|Bastion|N|Follow Andria till she stops moving and then click on her to remve the thorn.|
+C Larion at Large|QID|58039|QO|1|M|56.00,44.18|Z|Bastion|NC|N|Follow Andira till she stops moving and then click on her to remve the thorn.|
+C Larion at Large|QID|58039|QO|2|M|57.18,39.40|NC|Z|Bastion|N|Bring Andira back.|
 C All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|Kill the cloudstriders in the area.|US|
-C Larion at Large|QID|58039|M|57.18,39.40|QO|2|NC|Z|Bastion|N|Bring Andira back.|
 T All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|To Nemea.|
 T Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|To Nemea.|
 A With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58038&58039|RANK|2|
@@ -504,9 +526,8 @@ H Hero's Rest|QID|1|ACTIVE|60056^60723^62729|M|52.99,37.84|Z|Bastion|N|Hearth or
 T WANTED: Darkwing|QID|60366|M|52.43,48.00|Z|Bastion|ELITE|N|To Eumelia.|
 
 ; Land of Strife Storyline
-F Oribos|QID|1|ACTIVE|60056^62729|M|51.40,46.80|N|Fly back to Oribos|;There is a portal at Vestibule of Eternity? Look into some rework.;or logic not working so not active for TOF
-R Ring of Fates|QID|1|ACTIVE|60056^62729|M|49.52,60.92|Z|Ring of Transference@Oribos|N|Click the teleporter.|;or logic not working so not active for TOF
-T Return to Oribos|QID|62729|M|38.91,69.93|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
+F Oribos|QID|1|ACTIVE|60056|M|51.40,46.80|N|Fly back to Oribos|
+P Ring of Fates|QID|1|ACTIVE|60056|M|49.52,60.92|Z|Ring of Transference@Oribos|N|Click the teleporter.|
 T Follow the Path|QID|60056|M|38.91,69.93|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
 A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60056|MS|
 C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|Ring of Fates@Oribos|NC|N|Use the Teleport Pad.|MS|
@@ -514,13 +535,5 @@ T The Arbiter's Will|QID|61096|M|60.78,36.83|Z|Ring of Fates@Oribos|N|To Oversee
 A A Land of Strife|QID|61107|M|61.03,36.71|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|61096|MS|
 C A Land of Strife|QID|61107|M|59.95,35.96|Z|Ring of Fates@Oribos|NC|N|Click on the blue sword.|MS|
 T A Land of Strife|QID|61107|M|61.03,36.71|Z|Ring of Fates@Oribos|N|To Overseer Kah-Sher.|MS|
-
-A Tal-Inara|QID|62277^62278^62279|M|61.03,36.71|Z|Ring of Fates@Oribos|N|Talk to Tal-Inara to choose your next zone.|TOF|
-T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|
-N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|
-N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|
 ]]
 end)
