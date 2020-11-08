@@ -442,7 +442,7 @@ A Wanted: Summoner Marcelis|QID|60276|M|30.87,49.05|Z|Revendreth|N|From Wanted P
 C Snacks for Stonehead|QID|58327|QO|2|M|31.56,61.84|Z|Revendreth|S|N|Kill the Ash Crawlers to collect Ash Crisps.|
 K Summoner Marcelis|ACTIVE|60276|QO|1|M|30.32,63.79|Z|Revendreth|N|Inside a building beyond the Ember Ward, in Cinderwall you can find Summoner Marcelis.|
 C Snacks for Stonehead|QID|58327|QO|2|M|31.56,61.84|Z|Revendreth|US|N|Continue killing the Ash Crawlers until you have enough Ash Crisps.|
- 
+
 ; Sidequest Storyline - Revelations of the Light
 C A Rousing Aroma|QID|60467|M|35.48,48.85|Z|Revendreth|US|N|Kill Ravenous Swarms and loot the Pungent Swarmer Toxin.|RANK|2|
 T A Rousing Aroma|QID|60467|M|35.04,53.91|Z|Revendreth|N|To Sabina.|RANK|2|
