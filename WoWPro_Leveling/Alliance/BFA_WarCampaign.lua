@@ -385,7 +385,7 @@ C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|The Great Sea!Instance1156|US|N|Co
 T An Unnatural Crew|QID|52493|M|41.67,55.38|Z|The Great Sea!Instance1156|N|To Shandris Feathermoon below deck.|
 T Foul Crystals for Foul People|QID|52494|M|41.67,55.38|Z|The Great Sea!Instance1156|N|To Shandris Feathermoon below deck.|
 A Ending the San'layn Threat|QID|52495|M|41.67,55.38|Z|The Great Sea!Instance1156|N|From Shandris Feathermoon.|PRE|52493&52494|
-C Ending the San'layn Threat|QID|52495|M|41.53,55.66|Z|The Great Sea!Instance1156|QO|1|N|Destroy the door and then kill Blood Prince Dreven.|
+C Ending the San'layn Threat|QID|52495|M|41.53,55.66|Z|The Great Sea!Instance1156|QO|1|N|Shandris will destroy the door to the stairs, then go down and kill Blood Prince Dreven.|
 C Ending the San'layn Threat|QID|52495|M|42.40,55.90|Z|The Great Sea!Instance1156|QO|2|NC|N|Escape the ship and when a bit away from the ship, the special action button will appear. Use it to signal Falstad.|
 T Ending the San'layn Threat|QID|52495|M|41.44,48.20|Z|The Great Sea!Instance1156|N|To Shandris Feathermoon, when she appears on a Griffin next to you.|
 A A Clean Escape|QID|52496|M|41.44,48.20|Z|The Great Sea!Instance1156|N|From Shandris Feathermoon.|PRE|52495|
@@ -405,7 +405,7 @@ A Ship Logs|QID|52284|M|57.64,87.59|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|522
 A Sabotaging the Pa'ku|QID|52283|M|57.64,87.55|Z|Zuldazar|N|From John J. Keeshan.|PRE|52281|
 C Ship Logs|QID|52284|M|49.25,37.72|Z|Lower Deck!Breath Of Pa'ku!Dungeon|S|N|Kill crewman as you approach and onboard the ships to loot the navel records needed for this quest. (You can use the boots to kill crew on other boats if you need to, but there should be enough here.) \n\nDon't drive yourself crazy looking for the deathbombs; they are in the water.|U|162264|
 C Sabotaging the Pa'ku|QID|52283|M|51.88,87.43|Z|Zuldazar|NC|N|Plant the deathbombs in the marked spots on the underside of the ship, "Breath of Pa'ku".|
-C Ship Logs|QID|52284|M|49.25,37.72|Z|Lower Deck!Breath Of Pa'ku!Dungeon|US|N|Finish collecting the naval records.|U|162264|
+C Ship Logs|QID|52284|M|49.25,37.72|Z|Lower Deck!Breath Of Pa'ku!Dungeon|US|N|Finish collecting the naval records. You can use the boots to get yourself from the water and onto the ships.|U|162264|
 T Sabotaging the Pa'ku|QID|52283|M|57.64,87.55|Z|Zuldazar|N|To John J. Keeshan.|
 T Ship Logs|QID|52284|M|57.64,87.59|Z|Zuldazar|N|To Kelsey Steelspark.|
 A The Enlarged Miniaturized Submarine|QID|52285|M|57.64,87.59|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52283&52284|
@@ -444,7 +444,7 @@ P Wind's Redemption|ACTIVE|52790|M|40.47,71.05|Z|Zuldazar|N|Tell Daria you are r
 P Stormwind City|ACTIVE|52790|M|PLAYER|Z|Zuldazar|N|Teleport to Stormwind.|C|Mage|
 P Stormwind City|ACTIVE|52790|M|70.12,16.81|Z|Boralus|N|Take the portal to Stormwind.|C|-Mage|
 T An End to the Killing|QID|52790|M|85.89,31.64|Z|Stormwind City|N|Take your best route to Stormwind and turn in this quest to Anduin Wrynn and complete the War Campaign.|
-A Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|PRE|52790|
+A Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions. Not there? Head out of the area (eg. to the Dwarven District) then head back in.|PRE|52790|
 T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|
 
 A Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|From Vindicator Jaelaana.|PRE|52790|
