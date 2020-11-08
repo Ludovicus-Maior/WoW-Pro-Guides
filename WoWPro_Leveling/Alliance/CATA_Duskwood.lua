@@ -123,54 +123,55 @@ T The Fate of Stalvan Mistmantle|QID|26671|M|78.95,44.25|N|To Tobias Mistmantle.
 A Clawing at the Truth|QID|26672|M|78.95,44.25|N|From Tobias Mistmantle.|PRE|26671|
 T Clawing at the Truth|QID|26672|M|75.76,45.28|N|To Madame Eva.|
 A Mistmantle's Revenge|QID|26674|M|75.76,45.28|N|From Madame Eva.|PRE|26672|
-C Mistmantle's Revenge|QID|26674|M|77.39,36.32|N|Use the ring at the manor house. Then kill Stalvan Mistmantle after the talking.|U|59363|
+C Mistmantle's Revenge|QID|26674|M|77.29,36.32|N|Use the ring at the manor house. Kill Stalvan Mistmantle when the conversation ends and Tobias attacks him.|U|59363|
 T Mistmantle's Revenge|QID|26674|M|79.09,44.18|N|To Tobia Mismantle.|
 F Raven Hill|ACTIVE|26719|M|77.45,44.25|N|Fly to Raven Hill.|
-T Delivery to Master Harris|QID|26719|M|18.40,57.76|N|Deliver the message to Oliver Harris at Raven Hill.|
-A A Curse We Cannot Lift|QID|26720|M|18.40,57.76|N|From Oliver Harris.|PRE|26719|
-A Soothing Spirits|QID|26777|M|19.92,57.88|N|From Sister Eisington.|
-C The Jitters-Bugs|QID|26721|M|27.72,41.06|N|Kill and loot Black Widows for their Venom Sacks.|US|
-T The Jitters-Bugs|QID|26721|M|18.6,58.21|N|To Jitters.|
-A Bear In Mind|QID|26787|M|18.6,58.21|N|From Jitters.|PRE|26721|
-C Bear In Mind|QID|26787|M|21.61,73.41|N|Kill and loot Black Bears for their brains.|S|
+T Delivery to Master Harris|QID|26719|M|18.31,57.66|N|Deliver the message to Oliver Harris at Raven Hill.|
+A A Curse We Cannot Lift|QID|26720|M|18.31,57.66|N|From Oliver Harris.|PRE|26719|
+A Soothing Spirits|QID|26777|M|20.03,57.81|N|From Sister Eisington.|
+C The Jitters-Bugs|QID|26721|M|27.77,45.50|N|Kill and loot Black Widows for their Venom Sacks.|US|
+T The Jitters-Bugs|QID|26721|M|18.62,58.36|N|To Jitters.|
+A Bear In Mind|QID|26787|M|18.62,58.36|N|From Jitters.|PRE|26721|
+C Bear In Mind|QID|26787|M|21.61,73.41|N|Kill and loot Coalpelt (Black) Bears for their brains.|S|
 C Soothing Spirits|QID|26777|M|21.32,71.48|N|Use the Holy Censer on Forlon Spirits.|U|60225|S|NC|
-C A Curse We Cannot Lift|QID|26720|M|21.61,73.41|N|Go into the barn at Addle's Stead. The Lurking Worgen will jump out and this time attack. Bring his health down until he stares and hesitates, then use Harris's Ampule.|U|60206|
-C Soothing Spirits|QID|26777|M|21.32,71.48|N|Use the Holy Censer on Forlon Spirits.|U|60225|US|NC|
-T Soothing Spirits|QID|26777|M|19.92,57.88|N|To Sister Eisington.|
-T A Curse We Cannot Lift|QID|26720|M|18.40,57.76|N|To Oliver Harris.|
-A Cry For The Moon|QID|26760|M|18.40,57.76|N|From Oliver Harris.|PRE|26720|
-C Cry For The Moon|QID|26760|M|18.40,57.76|N|Just sit back and watch.|NC|
-T Cry For The Moon|QID|26760|M|18.40,57.76|N|To Oliver Harris.|
-A The Fate of Morbent Fel|QID|26723|M|18.40,57.94|N|From Sven Yorgen.|
-A The Cries of the Dead|QID|26778|M|19.92,57.88|N|From Sister Eisington.|PRE|26760|
-C The Cries of the Dead|QID|26778|N|Kill any type of Ghoul you see.|S|
-C The Fate of Morbent Fel|QID|26723|M|16.97,33.36|N|Head upstairs and click on the Bloodsoaked Hat that is on the ground.|NC|
-A The Weathered Grave|QID|26793|M|17.66,29.11|N|From "A Weathered Grave".|
-C Bear In Mind|QID|26787|N|Finish killing and loot Black Bears for their brains, as you head back towards Raven Hill.  Don't worry about the ghouls, you'll get more opportunity later.|US|
+C A Curse We Cannot Lift|QID|26720|M|21.55,73.08|N|Go into the barn at Addle's Stead. The Lurking Worgen will jump out and attack you. When you bring his health down to ~20%, he stops attacking and 'stares and hesitates'. At this point, use Harris's Ampule on him to complete the quest.\n[color=FF0000]NOTE: [/color]DO NOT KILL HIM.|U|60206|
+C Soothing Spirits|QID|26777|M|21.32,71.48|N|Use the Holy Censer on Forlon Spirits.\n[color=FF0000]NOTE: [/color]You do not have to target them; just be within range.|U|60225|US|NC|
+T Soothing Spirits|QID|26777|M|20.03,57.81|N|To Sister Eisington.|
+T A Curse We Cannot Lift|QID|26720|M|18.31,57.66|N|To Oliver Harris.|
+A Cry For The Moon|QID|26760|M|18.31,57.66|N|From Oliver Harris.|PRE|26720|
+C Cry For The Moon|QID|26760|M|18.31,57.66|N|Just sit back and watch.|NC|
+T Cry For The Moon|QID|26760|M|18.31,57.66|N|To Oliver Harris.|
+A The Fate of Morbent Fel|QID|26723|M|18.35,58.06|N|From Sven Yorgen.|PRE|26760|
+A The Cries of the Dead|QID|26778|M|20.03,57.81|N|From Sister Eisington.|PRE|26760|
+C The Cries of the Dead|QID|26778|N|Kill any type of Ghoul you see.\n[color=FF0000]NOTE: [/color]Don't stick around if you kill a plague Spreader or Rotting Horror. They cast Corpse Rot; an AoE that lasts 10 seconds.|S|
+C The Fate of Morbent Fel|QID|26723|M|16.97,33.36|N|Head upstairs into the main room and click on the Bloodsoaked Hat that is on the floor inside.|NC|
+N Mor'Ladim|ACTIVE|26723|IZ|Forlorn Rowe|N|[color=FF0000]NOTE: [/color]Keep an eye out for Mor'Ladim. He is an Elite that patrols the road in front of the house and hits extremely hard. Exit the house cautiously and be prepared to defend yourself. You cannot see him if he's out front.|
+A The Weathered Grave|QID|26793|M|17.72,29.10|N|From "A Weathered Grave".|
+C Bear In Mind|QID|26787|M|13.48,53.07|N|As you head back towards Raven Hill, go through area to the west (river) of the cemetary and finish killing and looting Coalpelt (Black) Bears for their brains.\nDon't worry about the ghouls, you'll get more opportunity later.|US|
 T The Fate of Morbent Fel|QID|26723|M|18.40,57.94|N|To Sven Yorgen.|
 A The Lurking Lich|QID|26724|M|18.40,57.94|N|From Sven Yorgen.|PRE|26723|
-T Bear In Mind|QID|26787|M|18.6,58.21|N|To Jitters.|
-T The Lurking Lich|QID|26724|M|19.92,57.88|N|Sister Eisington.|
-A Guided by the Light|QID|26725|M|19.92,57.88|N|From Sister Eisington.|PRE|26724|
-T Guided by the Light|QID|26725|M|23.44,35.54|N|To the Lightforged Rod.|
-A The Halls of the Dead|QID|26753|M|23.44,35.54|N|From the Lightforged Rod.|PRE|26725|
-T The Halls of the Dead|QID|26753|M|20.36,27.44|N|Enter the Dawning Wood Catacombs, turn left into the first hall, then continue to the back left.  Be careful, as the Buried Dead will spawn as you run over the graves.  Head through the catacombs, and turn the quest into the Lightforged Arch.|
+T Bear In Mind|QID|26787|M|18.62,58.36|N|To Jitters.|
+T The Lurking Lich|QID|26724|M|20.03,57.81|N|Sister Eisington.|
+A Guided by the Light|QID|26725|M|20.03,57.81|N|From Sister Eisington.|PRE|26724|
+T Guided by the Light|QID|26725|M|23.44,35.42|N|To the Lightforged Rod.|
+A The Halls of the Dead|QID|26753|M|23.44,35.42|N|From the Lightforged Rod.|PRE|26725|
+T The Halls of the Dead|QID|26753|M|20.36,27.44|N|Enter the Dawning Wood Catacombs, turn left into the first hall, then continue to the back left. Be careful, as the Buried Dead will spawn as you run over the graves. Head through the catacombs, and turn the quest into the Lightforged Arch.|
 A Buried Below|QID|26722|M|20.36,27.44|N|From the Lightforged Arch.|PRE|26753|
-T Buried Below|QID|26722|M|20.10,26.60;18.08,25.33|CS|N|There is a hidden exit behind the location where you got the quest - walk through, this follow the hidden tunnel, and turn  quest into the Lightforged Crest.|
+T Buried Below|QID|26722|M|20.10,26.60;18.08,25.33|CS|N|There is a hidden exit behind the location where you got the quest - walk through, this follow the hidden tunnel, and turn quest into the Lightforged Crest.|
 A Morbent's Bane|QID|26754|M|18.08,25.33|N|From In the tunnel.|PRE|26722|
-N Hunter's Pet Alert |ACTIVE|26754|N|When you reach the room with the Clattering Coldwraith, please note your pet will not follow you into the room.  You will need to dismiss your pet, enter the room fully (pick the right hand wall), then summon your pet.\n\nClick this step to continue.|S|C|Hunter|
-C Morbent's Bane|QID|26754|N|Continue down the tunnel until you come to this boss. Use Morbent's Bane to weaken Morbent Fel before taking him down.\n\nAll the ghouls in this room that are not already attacking you will disappear on killing the Weakened Morbent Fel.|U|60212|
-C The Cries of the Dead|QID|26778|M|16,48|N|Leave the catacombs by following the stairs up to the top, then head back to Raven Hill, finishing off killing the Ghouls as you go.|US|
+N Hunter's Pet Alert|ACTIVE|26754|N|When you reach the room with the Clattering Coldwraith, please note your pet will not follow you into the room.  You will need to dismiss your pet, enter the room fully (pick the right hand wall), then summon your pet.\n\nClick this step to continue.|S|C|Hunter|
+C Morbent's Bane|QID|26754|N|Continue down the tunnel until you come to this boss. Use Morbent's Bane to weaken Morbent Fel before taking him down.\n\nAll the ghouls in this room that are not already attacking you will disappear upon  killing the Weakened Morbent Fel.|U|60212|
+C The Cries of the Dead|QID|26778|M|23.47,36.16|N|If (for some reason) you haven't managed to finish this quest by now, head back up to the surface and get it done.|US|
 T Morbent's Bane|QID|26754|M|18.40,57.94|N|To Sven Yorgen.|O|
-T The Cries of the Dead|QID|26778|M|19.92,57.88|N|To Sister Eisington.|
-A Rebels Without a Clue|QID|26838|LEAD|26735|M|19.92,57.88|N|If you intend on going onto Northern Stranglethorn next, then accept this quest from Sister Eisington. This quest will not show up if you have the quest "Hero's Call: Northern Stranglethorn Vale!" or done the Hero's Call quest already.|
+T The Cries of the Dead|QID|26778|M|20.03,57.81|N|To Sister Eisington.|
+A Rebels Without a Clue|QID|26838|M|20.03,57.81|N|If you intend on going onto Northern Stranglethorn next, then accept this quest from Sister Eisington. This quest will not show up if you have the quest "Hero's Call: Northern Stranglethorn Vale!" or done the Hero's Call quest already.|LEAD|26735|
 F Darkshire|ACTIVE|26793|M|21.08,56.45|N|Fly back to, or hearthstone to Darkshire.|
 T The Weathered Grave|QID|26793|M|72.62,47.64|N|To Sirra Von'lndi.|
 A Morgan Ladimore|QID|26794|M|72.62,47.64|N|From Sirra Von'lndi.|PRE|26793|
 T Morgan Ladimore|QID|26794|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
-A Mor'Ladim|QID|26795|M|73.53,46.93|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Commander Althea Ebonlocke.\n[color=FF0000]NOTE: [/color]This quest involves flying back to Raven Hill, and taking out a level 25 elite.\n\nLeft click the check box and confirm skipping the following two quests if you want to skip this quest.|PRE|26794|RANK|2|
+A Mor'Ladim|QID|26795|M|73.53,46.93|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Commander Althea Ebonlocke.\n[color=FF0000]NOTE: [/color]This quest involves flying back to Raven Hill, and taking out an elite in Raven Hill Cemetery.\n\nLeft click the check box and confirm skipping the following two quests if you want to skip this quest.|PRE|26794|RANK|2|
 F Raven Hill|ACTIVE|26795|M|77.5,44.3|N|Fly to Raven Hill.|O|
-C Mor'Ladim|QID|26795|M|17.4,29.4|T|Mor'Ladim|N|Find, kill and loot Mor'Ladim, he wanders so use the targeting to find him easier. Don't forget to loot his skull.|O|
+C Mor'Ladim|QID|26795|M|17.4,29.4|N|Find, kill and loot Mor'Ladim. He wanders back and forth along the road between the Dawning Wood Catacombs (south entrance) and the Weathered Grave (just north of the house). Use the targeting to find him easier. Don't forget to loot his skull.|T|Mor'Ladim|O|
 F Darkshire|ACTIVE|26795|M|21.06,56.46|N|Fly to Darkshire.|O|
 T Mor'Ladim|QID|26795|M|73.53,46.93|N|To Commander Althea Ebonlocke.|O|
 A The Daughter Who Lived|QID|26796|M|73.53,46.93|N|From Commander Althea Ebonlocke.\n\nOnly available if you completed the Mor'Ladim Group quest.|PRE|26795|
