@@ -74,7 +74,7 @@ A Sacrifices Must be Made|QID|12007|PRE|11991|M|13.2,60.9|N|From the Image of Dr
 C Ice Serpent Eyes|QID|12483|QO|1|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|US|
 C Shimmering Snowcaps|QID|12483|QO|2|NC|N|From the Shimmering Snowcaps, to the west, near the river.|US|
 C Shimmercap Stew|QID|12483|QO|3|NC|N|Loot Sweetroots from the ground.|M|16.1,34.8|S|
-K Warlord Zim'bo|L|35836|QID|12007|N|Kill and loot Warlord Zim'bo.|M|14.54,3756|N|Inside the Hut.|
+K Warlord Zim'bo|L|35836|QID|12007|N|Kill and loot Warlord Zim'bo.|M|14.54,37.56|N|Inside the Hut.|
 C Sacrifices Must be Made|QID|12007|L|35806|NC|N|Get the "Eye of the Prophets" from the Seer of Zeb'Halak, up the stairs.|M|17.92,36.51|
 C Use the Elixer|QID|12007|U|35797|N|Use the Drakuru's Elixir near the Drakuru's Brazier.|NC|M|17.46,36.42|
 T Sacrifices Must be Made|QID|12007|U|35797|N|To the Image of Drakuru.|M|17.46,36.42|
