@@ -173,7 +173,7 @@ A In My Father's House|QID|44480|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!
 C In My Father's House|QID|44480|M|32.78,49.97|Z|Azshara|QO|1|N|Witness Illidan's Resilience|U|226968| ; will U accept a spellid?
 T In My Father's House|QID|44480|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|To Light's Heart|
 A Destiny Unfulfilled|QID|44496|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|From Light's Heart|
-C Destiny Unfulfilled|QID|44496|QO|1|Experience True Betrayal|U|226973|N|Use the call button|
+C Destiny Unfulfilled|QID|44496|QO|1|U|226973|N|Use the call button, Experience True Betrayal.|
 C His Duplicity is Hardly Surprising|Z|Black Temple|SO|1|S|N|Confront Akama.|ACTIVE|44496|
 C Confront Akama.|M|52.70,71.26|Z|70BlackTempleLegion/1|SO|1;2|N|Confront Akama.|ACTIVE|44496|
 C His Duplicity is Hardly Surprising|Z|Black Temple|SO|1|US|N|Confront Akama.|ACTIVE|44496|

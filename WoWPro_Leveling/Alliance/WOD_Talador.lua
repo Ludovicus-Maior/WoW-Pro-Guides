@@ -306,7 +306,7 @@ T We Must Construct Additional Pylons|QID|34351|M|55.12,67.41|N|To Soulbinder Tu
 K O'mogg Blackheart|ACTIVE|33920|M|56.57,62.72|QO|1|T|O'mogg Blackheart|
 l Karab'uun|QID|33920|M|56.68,62.49|QO|2|
 C Holding the Line|QID|34407|M|55.66,63.41|N|Slay demons around here.|
-C Burning Resonators|QID|33917|M|56.37,63.33;55.52,64.34;57.24,64.02;54.89,52.29|CN|QO|1|
+C Burning Resonators|QID|33917|M|56.37,63.33;55.52,64.34;57.24,64.02;54.99,62.30|CN|QO|1|  ; Discord: fureeous said last coord wrong - was 54.89,52.29
 T Disrupting the Flow|QID|33917|M|56.7,66.0|N|To Vindicator Nobundo|
 T The Heart of Auchindoun|QID|33920|M|56.51,67.13|N|To Soulbinder Nyami|
 T Holding the Line|QID|34407|M|55.64,67.70|N|To Exarch Maladaar|
