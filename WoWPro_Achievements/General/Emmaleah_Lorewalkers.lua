@@ -114,19 +114,20 @@ return
 
 N Lorewalkers|QID|31367|N|Lorewalkers faction is earned by visiting various points of interest around Pandaria.  This guide assumes you start in your factions city in Vale of Eternal Blossoms and will take you to all of those places. It also assumes you are level 90 and have trained flying in Pandaria.  Some steps may already be checked off.  They are points of interest that you visited while leveling. The first stop in a new zone I have also included the zone name to help find the green dot.|
 N Brewfathers|QID|31367|N|This guide will also guide you to the spots for the Ledgend of the Brewfathers Achievement.  While it is unrelated, it is similar in that it requires flying to points of interest that are along the same route as the Lorewalker points of interest, so you may as well do it.|
-A The Lorewalkers|QID|31367|LEAD|31015|FACTION|Alliance|M|85.6,60.4|Z|Vale of Eternal Blossoms|N|From Scrollmaker Resshi on the ground floor. If this quest in  unavailable, you can go see Cho directly and start the chain there.|
-C The Lorewalkers|QID|31367|FACTION|Alliance|NC|M|84.8,60.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho. If you weren't able to pick up this quest, manually check this step off and fly to the Seat of Knowledge where Cho awaits you.|
-T The Lorewalkers|QID|31367|FACTION|Alliance|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
-
-A The Lorewalkers|QID|31368|LEAD|31015|FACTION|Horde|M|62.4,21.6|Z|Vale of Eternal Blossoms|N|From Lena Stonebrush. If this quest in  unavailable, you can go see Cho directly and start the chain there.|
-C The Lorewalkers|QID|31368|FACTION|Horde|NC|M|61.8,24.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho. If you weren't able to pick up this quest, manually check this step off and fly to the Seat of Knowledge where Cho awaits you.|
-T The Lorewalkers|QID|31368|FACTION|Horde|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+;The Lorewalker quest is obsolete.
+;A The Lorewalkers|QID|31367|LEAD|31015|FACTION|Alliance|M|85.6,60.4|Z|Vale of Eternal Blossoms|N|From Scrollmaker Resshi on the ground floor. If this quest in  unavailable, you can go see Cho directly and start the chain there.|
+;C The Lorewalkers|QID|31367|FACTION|Alliance|NC|M|84.8,60.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho. If you weren't able to pick up this quest, manually check this step off and fly to the Seat of Knowledge where Cho awaits you.|
+;T The Lorewalkers|QID|31367|FACTION|Alliance|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+;The Lorewalker quest is obsolete.
+;A The Lorewalkers|QID|31368|LEAD|31015|FACTION|Horde|M|62.4,21.6|Z|Vale of Eternal Blossoms|N|From Lena Stonebrush. If this quest in  unavailable, you can go see Cho directly and start the chain there.|
+;C The Lorewalkers|QID|31368|FACTION|Horde|NC|M|61.8,24.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho. If you weren't able to pick up this quest, manually check this step off and fly to the Seat of Knowledge where Cho awaits you.|
+;T The Lorewalkers|QID|31368|FACTION|Horde|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
 
 A Your Private Collection|QID|31015|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|From Lorewalker Cho.|
 C Clean off the Bookshelf|QID|31015|NC|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|When standing at the bottom of the stairs, facing Cho, the bookcase is to your left, do this before you turn in the others as it only gives faction at honored or lower|;which is why I put the accept the quest from the item steps after this
 T Your Private Collection|QID|31015|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|From Lorewalker Cho.|
 
-F The Defiant (Kun-Lai)|QID|9767160002|M|77.55, 95.33|Z|Kun-Lai Summit|ACH|6716;2|N|Between a Saurok and a Hard Place.  This one is inside the Ancient Passage, in a room called 'Deep Rookery'. Its actually easiest to get to from an area in 'The Veiled Stair' called, 'The Secret Aerie'.|
+F The Defiant (Kun-Lai)|QID|967160002|M|77.55, 95.33|Z|Kun-Lai Summit|ACH|6716;2|N|Between a Saurok and a Hard Place.  This one is inside the Ancient Passage, in a room called 'Deep Rookery'. Its actually easiest to get to from an area in 'The Veiled Stair' called, 'The Secret Aerie'.|
 F Role Call |QID|968460004|M|74.48,83.55|CS|Z|Kun-Lai Summit|ACH|6846;4|N|Fish Tales|
 F Yaungoil |QID|96847003|M|71.72, 63.02|Z|Kun-Lai Summit|ACH|6847;03|N|The Song of the Yaungol. The 'Weapons Rack' containing the lost 'Sturdy Yaungol Spear' also spawns in this camp.|
 F The Emperor's Burden - Part 6 |QID|968550006|M|67.76, 48.33|Z|Kun-Lai Summit|ACH|6855;6|N|The Seven Burdens of Shaohao.|
