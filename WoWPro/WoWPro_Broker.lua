@@ -647,7 +647,7 @@ function WoWPro.UpdateQuestTrackerRow(row)
                     if WoWPro.QuestLog[qid].leaderBoard[l] then
                         track = track.."- "..WoWPro.QuestLog[qid].leaderBoard[l]
 						if select(2, _G.GetQuestLogLeaderBoard(l, j)) == "progressbar" then
-							track = "- ".._G.GetQuestProgressBarPercent(qid).."% out of 100% Complete."
+							track = "- "..floor(_G.GetQuestProgressBarPercent(qid)).."% out of 100% Complete."
 						end
 						if select(3, _G.GetQuestLogLeaderBoard(l, j)) then
                             track =  track.." (C)"
@@ -663,7 +663,7 @@ function WoWPro.UpdateQuestTrackerRow(row)
                 for l, lquesttext in ipairs({(";"):split(questtext)}) do
                     if WoWPro.ValidObjective(lquesttext) then
 						if select(2, _G.GetQuestLogLeaderBoard(lquesttext:sub(1, 1) , j)) == "progressbar" then
-							track = "- ".._G.GetQuestProgressBarPercent(qid).."% out of 100% Complete.\n"
+							track = "- "..floor(_G.GetQuestProgressBarPercent(qid)).."% out of 100% Complete.\n"
 						else
 							local _, status = WoWPro.QuestObjectiveStatus(qid, lquesttext)
 							if l > 1 then
