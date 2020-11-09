@@ -297,7 +297,8 @@ T Totem Eclipse|QID|60630|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Hunt-Captai
 T Big Problem, Little Vorkai|QID|60631|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Hunt-Captain Korayn.|MS|
 A I Know Your Face|QID|60632|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Hunt-Captain Korayn.|PRE|60630&60631|MS|
 C I Know Your Face|QID|60632|M|48.49,36.84|Z|Ardenweald!The Shadowlands|QO|1|T|Blighted Monstrosity|N|Kill the Bigger Blighted Monstrosity, to expose Lorkron the Hunter (then fight Lorkron). You still have reinforcements available via the "[color=40C7EB]Hunter's Strike[/color]" Extra Action Button.|MS|EAB|
-$ Hearty Dragon Plume|QID|61067|CS|M|47.81,39.06;47.53,36.60;47.97,38.65;48.21,39.26|Z|Ardenweald!The Shadowlands|N|Up the path for a cool slowfall item. This requires jumping down the tree roots, so make sure you are at the right spot before jumping.|RANK|2|ITEM|182729|ACH|14313;4|C I Know Your Face|QID|60632|M|48.94,35.73|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak to Korayn.|MS|
+$ Hearty Dragon Plume|QID|61067|CS|M|47.81,39.06;47.53,36.60;47.97,38.65;48.21,39.26|Z|Ardenweald!The Shadowlands|N|Up the path for a cool slowfall item. This requires jumping down the tree roots, so make sure you are at the right spot before jumping.|RANK|2|ITEM|182729|ACH|14313;4|
+C I Know Your Face|QID|60632|M|48.94,35.73|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak to Korayn.|MS|
 
 ; Sidequest Storyline - Trouble at the Gormling Corral & Supplies Needed
 T Trouble in the Banks|QID|57651|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
