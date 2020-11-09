@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Revendreth', 'Leveling', "Revendreth", 'Elid
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Revendreth")
 WoWPro:GuideName(guide,"Revendreth")
-WoWPro:GuideNextGuide(guide, "The Maw")
+WoWPro:GuideNextGuide(guide, "Covenant Campaign")
 WoWPro:GuideSteps(guide, function()
 return [[
 N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
@@ -32,7 +32,8 @@ l Reinforcing Revendreth|QID|62778|QO|1|S!US|N|Literally everything you do in Re
 F Darkhaven|QID|60176|ACTIVE|62778|M|67.31,21.48|Z|Sinfall Reaches@Sinfall!Dungeon|N|Courier Snaggle (Flight Master) can be found in the room behind Prince Renathal.|TOF|COV|Venthyr|
 t Reinforcing Revendreth|QID|62778|CS|M|51.65,37.56|Z|Sinfall Reaches@Sinfall!Dungeon|IZ|Sinfall|N|To Prince Renathal.|TOF|COV|Venthyr|
 t Reinforcing Revendreth|QID|62778|CS|M|61.11,58.97;61.4,60.4|Z|Revendreth|IZ|Darkhaven|N|To Prince Renathal.|TOF|
-A Return to Oribos|QID|62779|PRE|62778|M|61.4,60.4|Z|Revendreth|N|From Prince Renathal.|TOF|
+A Return to Oribos|QID|62779|PRE|62778|M|PLAYER|Z|Revendreth|N|From Prince Renathal.|TOF|
+F Oribos|ACTIVE|62779|M|67.37,21.44|Z|Revendreth|N|At Courier Snaggle.|TOF|COV|Venthyr|
 F Oribos|ACTIVE|62779|M|60.50,60.64|Z|Revendreth|N|At Courier Rokalai|TOF|
 T Return to Oribos|QID|62779|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62779|CCOUNT|1;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;new quest, after finishing first zone.
@@ -179,7 +180,6 @@ C Message for Matyas|QID|59715|M|60.31,69.19|Z|Revendreth|QO|1|CHAT|N|Ask Courie
 C Message for Matyas|QID|59715|M|60.28,69.13|Z|Revendreth|QO|2|NC|N|Click the Bottle to poison it.|
 T Message for Matyas|QID|59715|M|60.16,69.39|Z|Revendreth|N|To Taskmaster Matyas.|
 A Comfortably Numb|QID|59716|M|60.16,69.39|Z|Revendreth|N|From Taskmaster Matyas.|PRE|59715|RANK|2|
-
 C Comfortably Numb|QID|59716|M|60.21,69.15|Z|Revendreth|QO|1|NC|N|Click on the goblet to pour the poisoned wine.|
 C Comfortably Numb|QID|59716|M|60.30,69.24|Z|Revendreth|QO|2|NC|N|Once he's knocked out, click on him to pickpocket Nadjia's Sinstone.|
 T Comfortably Numb|QID|59716|M|60.20,69.32|Z|Revendreth|N|To Nadjia the Mistblade.|
@@ -239,7 +239,7 @@ C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|Kill Devourers and Mi
 C Running a Muck|QID|57481|M|75.50,76.28|Z|Revendreth|QO|4|N|Kill Charthox.\n1: Cone Damage\n2: AoE and Stun.\n3: Speed increase w/Damage.\n4: Heal.|
 T Running a Muck|QID|57481|M|72.53,73.20|Z|Revendreth|N|To Rendle.|
 
-; The Accuser Storyline and Sidequest Storyline -  The Final Atonement
+; The Accuser Storyline
 f Pridefall Hamlet|QID|60514|M|70.31,81.01|Z|Revendreth|N|Grab the Flightpath from Courier Gevoraal.|TOF|RANK|2|
 $ Chest of Envious Dreams|QID|59833|M|69.28,78.08|Z|Revendreth|N|Mobs will appear and attack after you open.|ITEM|179393|ACH|14314;13|TOF|
 F Darkhaven|ACTIVE|62778^57161|M|70.35,81.16|Z|Revendreth|N|At Courier Gevoraal.|RANK|2|
@@ -290,6 +290,71 @@ C A Lesson in Humility|QID|59232|M|53.36,63.97|Z|Revendreth|QO|1|CHAT|N|Speak wi
 C A Lesson in Humility|QID|59232|M|53.36,63.97|Z|Revendreth|QO|2|NC|N|The Accuser's judgment witnessed.|MS|
 T A Lesson in Humility|QID|59232|M|53.36,63.97|Z|Revendreth|N|To Sire Denathrius.|MS|
 
+; Sidequest Storyline -  The Final Atonement
+R Halls of Atonement South|QID|58093|M|70.13,57.91|Z|Revendreth|N|Run to the South Elevator of Halls of Attonement.|RANK|2|
+;A Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|Revendreth|N|Bonus Objective - Autoaccepted.|RANK|2|TOF|LVL|-60|;commented out because we leave the area, and come back.
+C Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|Revendreth|S!US|N|Kill the depraved mops and otherwise clean up the depravity.|TOF|
+A Our Forgotten Purpose|QID|58093|M|72.99,51.99|Z|Revendreth|N|From Archivist Fane.|RANK|2|LEAD|57919|
+f Absolution Crypt|ACTIVE|58093|M|71.58,40.07|N|At Courier Rehkaash.|RANK|2|
+T Our Forgotten Purpose|QID|58093|M|71.79,40.41|Z|Revendreth|N|To The Accuser who is down the stairs inside the crypt.|
+A An Abuse of Power|QID|57919|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|
+C An Abuse of Power|QID|57919|M|71.49,40.70|Z|Revendreth|QO|1|NC|N|Click to subjugate the Abused Soul.|RANK|2|
+C An Abuse of Power|QID|57919|M|71.49,40.70|Z|Revendreth|QO|2|N|Kill the Shattered Soul.|RANK|2|
+T An Abuse of Power|QID|57919|M|71.79,40.41|Z|Revendreth|N|To The Accuser.|RANK|2|
+A The Proper Souls|QID|57920|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|PRE|57919|RANK|2|
+A The Proper Tools|QID|57921|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|PRE|57919|RANK|2|
+A The Proper Punishment|QID|57922|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|PRE|57919|RANK|2|
+C The Proper Tools|QID|57921|M|65.2,43.6|Z|Revendreth|N|Kill enemies around to collect your Venthyr Ritual items.|S|RANK|2|
+C The Proper Souls|QID|57920|M|68.10,42.01|Z|Revendreth|NC|N|Click on the Fugitive Souls to subjugate them.|S|RANK|2|
+C The Proper Punishment|QID|57922|M|65.2,43.6|Z|Revendreth|N|Kill Fata the Soulflayer.|RANK|2|
+C The Proper Souls|QID|57920|M|70.81,45.21|Z|Revendreth|NC|N|Click on the Fugitive Souls to subjugate them.|US|RANK|2|
+C The Proper Tools|QID|57921|M|70.81,45.21|Z|Revendreth|N|Kill enemies around to collect your Venthyr Ritual items.|US|RANK|2|
+T The Proper Souls|QID|57920|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|RANK|2|
+T The Proper Tools|QID|57921|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|RANK|2|
+T The Proper Punishment|QID|57922|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|RANK|2|
+A Ritual of Absolution|QID|57923|M|70.69,46.95|Z|Revendreth|N|From The Accuser.|PRE|57920&57921&57922|RANK|2|
+C Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|QO|1|CHAT|N|Speak with The Accuser to begin the ritual.|RANK|2|
+C Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|QO|2|CHAT|N|Defend The Accuser from attacking enemies.|RANK|2|
+T Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|N|To The Accuser.|RANK|2|
+A Ritual of Judgment|QID|57924|M|71.98,46.26|Z|Revendreth|N|From The Accuser.|PRE|57923|RANK|2|
+C Ritual of Judgment|QID|57924|M|74.11,49.69|Z|Revendreth|QO|1|CHAT|N|Follow The Accuser to the new spot then speak with The Accuser to join the Ritual of Judgment.|RANK|2|
+C Ritual of Judgment|QID|57924|M|74.11,49.69|Z|Revendreth|QO|2|NC|N|Sit back and wait for the dialog to finish.|RANK|2|
+T Ritual of Judgment|QID|57924|M|74.25,49.68|Z|Revendreth|N|To The Accuser.|RANK|2|
+A Archivist Fane|QID|57925|M|74.25,49.68|Z|Revendreth|N|From The Accuser.|PRE|57924|RANK|2|
+T Archivist Fane|QID|57925|M|72.97,52.03|Z|Revendreth|N|To Archivist Fane.|RANK|2|
+A The Sinstone Archive|QID|57926|M|72.97,52.03|Z|Revendreth|N|From Archivist Fane.|PRE|57925|RANK|2|
+A Missing Stone Fiend|QID|60127|M|72.97,52.03|Z|Revendreth|N|From Archivist Fane.|PRE|57925|RANK|2|
+C The Sinstone Archive|QID|57926|M|72.53,54.79|Z|Revendreth|N|Kill Depraved enemies and loot the Sinstone Records.|S|RANK|2|
+l Atonement Crypt Key|ACTIVE|57926^57927|AVAILABLE|57928|L|173735|M|70.60,55.80|Z|Revendreth|N|Kill Depraved enemies until they drop the Atonement Crypt Key.|S|RANK|2|
+A Atonement Crypt Key|QID|57928|M|PLAYER|Z|Revendreth|U|173735|N|From Atonement Crypt Key.|RANK|2|
+T Missing Stone Fiend|QID|60127|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
+A Rebuilding Temel|QID|57927|M|70.15,56.22|Z|Revendreth|N|From Cryptkeeper Kassir.|PRE|60127|RANK|2|
+C Rebuilding Temel|QID|57927|M|70.26,53.84|Z|Revendreth|QO|3|NC|N|Click Temel's Head on the ground.|RANK|2|
+C Rebuilding Temel|QID|57927|M|68.91,53.33|Z|Revendreth|QO|1|NC|N|Click on Temel's Body in the rubble.|RANK|2|
+A It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|From Chiselgrump.|
+C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|S|
+C Rebuilding Temel|QID|57927|M|66.14,53.11|Z|Revendreth|QO|2|NC|N|Click on Temel's Wings in front of the statue.|RANK|2|
+l Atonement Crypt Key|ACTIVE|57926&57927|AVAILABLE|57928|L|173735|M|70.60,55.80|Z|Revendreth|N|Kill Depraved enemies until they drop the Atonement Crypt Key.|US|RANK|2|
+C Atonement Crypt Key|QID|57928|M|70.88,54.89|Z|Revendreth|NC|N|Click on a Crypt to open it.|RANK|2|
+T Atonement Crypt Key|QID|57928|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
+T Rebuilding Temel|QID|57927|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
+A Ready to Serve|QID|60128|M|70.2,56.2|Z|Revendreth|N|From Cryptkeeper Kassir.|PRE|57927|RANK|2|
+C The Sinstone Archive|QID|57926|M|72.53,54.79|Z|Revendreth|N|Kill Depraved enemies and loot the Sinstone Records.|US|RANK|2|
+C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|US|
+T Ready to Serve|QID|60128|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane.|RANK|2|
+T The Sinstone Archive|QID|57926|M|72.97,52.03|Z|Revendreth|N|To Archivist Fane.|RANK|2|
+A Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|From Archivist Fane.|PRE|60128|RANK|2|
+C Hunting an Inquisitor|QID|57929|M|76,51.8|Z|Revendreth|N|Use the Action Ability "[color=40C7EB]Read Inquisitor Traian's Sinstone[/color]" to lower the shield and kill Inquisitor Traian.|EAB|RANK|2|
+T Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane. He now offers a repeatable quest that gives you sinstones, which are needed to fight other mobs.|RANK|2|
+A Halls of Atonement: Your Absolution|QID|58092|M|72.98,51.98|Z|Revendreth|ELITE|N|[color=e6cc80]Dungeon: [/color]\nFrom Archivist Fane. This quest is optional and out of scope for this guide.|LVL|58|PRE|57929|RANK|2|
+;dungeon quest wasnt offered. WH says 58, i wasnt offered on a lvl 52 and lvl 60. (maybe it's after stop the inquisition -- havent doen it yet.)
+T Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|Revendreth|N|Bonus Objective - Autocompleted. Time to finish this up.|
+R Absolution Crypt|AVAILABLE|62653|M|71.58,40.07|N|Down the elevator and return to The Accuser.|
+A Stop the Inquisition|QID|62653|M|71.79,40.41|Z|Revendreth|N|From Gresit.|RANK|2|
+C Stop the Inquisition|QID|62653|M|76,51.8|Z|Revendreth|N|This is a weekly repeatable quest. Archivist Fane offers repeatable quest for Sinstones that makes it possible to kill the inquisitors. Only one person in the group needs one. The location varies as not all are up and any given time.|
+T Stop the Inquisition|QID|62653|M|76,51.8|Z|Revendreth|N|To Archivist Janeera.|
+
+F Darkhaven|QID|57098|N|At Courier Rehkaash to go back to the main story line.|RANK|2|
 R The Banewood|QID|62782|M|54.11,68.03|Z|Revendreth|N|Across the high bridge, past the elevator and then down into The Banewood.|TOF|
 ; The Penitent Hunt Storyline
 A The Grove of Terror|QID|57098|M|53.36,63.97|Z|Revendreth|N|From Sire Denathrius.|LVL|58|PRE|59232|MS|
@@ -503,60 +568,6 @@ T Wanted: Enforcer Kristof|QID|60275|M|30.71,49.12|Z|Revendreth|N|To Dispatcher 
 T Wanted: Summoner Marcelis|QID|60276|M|30.81,49.12|Z|Revendreth|N|To Dispatcher Raluca.|
 T Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|RANK|2|
 T Snacks for Stonehead|QID|58327|M|39.06,65.91|Z|Revendreth|N|To Stonehead.|;--not sure where to place this. leaving it here for now. quest is finished during the Mirror Maker story arc ~ line 448
-
-;havent found the starting quest for this. per wowhead its from the accuser, but can't actually find it.
-f Absolution Crypt|AVAILABLE|57919|M|71.58,40.07|N|From Courier Rehkaash.|RANK|2|
-;T The Absolsolution of Souls|QID|57918|M|71.79,40.41|Z|Revendreth|N|To The Accuser who is down the stairs inside the crypt.|;not in guide. should be given in basement of sinfall, but i didnt find it.
-A An Abuse of Power|QID|57919|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|LVL|57|;PRE|57918|
-C An Abuse of Power|QID|57919|M|71.49,40.70|Z|Revendreth|QO|1|NC|N|Click to subjugate the Abused Soul.|RANK|2|
-C An Abuse of Power|QID|57919|M|71.49,40.70|Z|Revendreth|QO|2|N|Kill the Shattered Soul.|RANK|2|
-T An Abuse of Power|QID|57919|M|71.79,40.41|Z|Revendreth|N|To The Accuser.|RANK|2|
-A The Proper Souls|QID|57920|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57919|RANK|2|
-A The Proper Tools|QID|57921|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57919|RANK|2|
-A The Proper Punishment|QID|57922|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57919|RANK|2|
-C The Proper Tools|QID|57921|M|65.2,43.6|Z|Revendreth|N|Kill enemies around to collect your Venthyr Ritual items.|S|RANK|2|
-C The Proper Souls|QID|57920|M|68.10,42.01|Z|Revendreth|NC|N|Click on the Fugitive Souls to subjugate them.|S|RANK|2|
-C The Proper Punishment|QID|57922|M|65.2,43.6|Z|Revendreth|N|Kill Fata the Soulflayer.|RANK|2|
-C The Proper Souls|QID|57920|M|70.81,45.21|Z|Revendreth|NC|N|Click on the Fugitive Souls to subjugate them.|US|RANK|2|
-C The Proper Tools|QID|57921|M|70.81,45.21|Z|Revendreth|N|Kill enemies around to collect your Venthyr Ritual items.|US|RANK|2|
-T The Proper Souls|QID|57920|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|RANK|2|
-T The Proper Tools|QID|57921|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|RANK|2|
-T The Proper Punishment|QID|57922|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|RANK|2|
-A Ritual of Absolution|QID|57923|M|70.69,46.95|Z|Revendreth|N|From The Accuser.|LVL|60|PRE|57920&57921&57922|RANK|2|
-C Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|QO|1|CHAT|N|Speak with The Accuser to begin the ritual.|RANK|2|
-C Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|QO|2|CHAT|N|Defend The Accuser from attacking enemies.|RANK|2|
-T Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|N|To The Accuser.|RANK|2|
-A Ritual of Judgment|QID|57924|M|71.98,46.26|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57923|RANK|2|
-C Ritual of Judgment|QID|57924|M|74.11,49.69|Z|Revendreth|QO|1|CHAT|N|Speak with The Accuser to join the Ritual of Judgment.|RANK|2|
-C Ritual of Judgment|QID|57924|M|74.11,49.69|Z|Revendreth|QO|2|NC|N|Sit back and wait for the dialog to finish.|RANK|2|
-T Ritual of Judgment|QID|57924|M|74.25,49.68|Z|Revendreth|N|To The Accuser.|RANK|2|
-A Archivist Fane|QID|57925|M|74.25,49.68|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57924|RANK|2|
-T Archivist Fane|QID|57925|M|72.97,52.03|Z|Revendreth|N|To Archivist Fane.|RANK|2|
-A The Sinstone Archive|QID|57926|M|72.97,52.03|Z|Revendreth|N|From Archivist Fane.|LVL|57|PRE|57925|RANK|2|
-A Missing Stone Fiend|QID|60127|M|72.97,52.03|Z|Revendreth|N|From Archivist Fane.|LVL|57|PRE|57925|RANK|2|
-C The Sinstone Archive|QID|57926|M|72.53,54.79|Z|Revendreth|N|Kill Depraved enemies and loot the Sinstone Records.|S|RANK|2|
-l Atonement Crypt Key|ACTIVE|57926^57927|AVAILABLE|57928|L|173735|M|70.60,55.80|Z|Revendreth|N|Kill Depraved enemies until they drop the Atonement Crypt Key.|S|RANK|2|
-A Atonement Crypt Key|QID|57928|M|PLAYER|Z|Revendreth|U|173735|N|From Atonement Crypt Key.|LVL|57|RANK|2|
-T Missing Stone Fiend|QID|60127|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
-A Rebuilding Temel|QID|57927|M|70.15,56.22|Z|Revendreth|N|From Cryptkeeper Kassir.|LVL|57|PRE|60127|RANK|2|
-C Rebuilding Temel|QID|57927|M|70.26,53.84|Z|Revendreth|QO|3|NC|N|Click Temel's Head on the ground.|RANK|2|
-C Rebuilding Temel|QID|57927|M|68.91,53.33|Z|Revendreth|QO|1|NC|N|Click on Temel's Body in the rubble.|RANK|2|
-C Rebuilding Temel|QID|57927|M|66.14,53.11|Z|Revendreth|QO|2|NC|N|Click on Temel's Wings in front of the statue.|RANK|2|
-l Atonement Crypt Key|ACTIVE|57926&57927|AVAILABLE|57928|L|173735|M|70.60,55.80|Z|Revendreth|N|Kill Depraved enemies until they drop the Atonement Crypt Key.|US|RANK|2|
-C Atonement Crypt Key|QID|57928|M|70.88,54.89|Z|Revendreth|NC|N|Click on a Crypt to open it.|RANK|2|
-T Atonement Crypt Key|QID|57928|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
-T Rebuilding Temel|QID|57927|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
-A Ready to Serve|QID|60128|M|70.2,56.2|Z|Revendreth|N|From Cryptkeeper Kassir.|LVL|57|PRE|57927|RANK|2|
-C The Sinstone Archive|QID|57926|M|72.53,54.79|Z|Revendreth|N|Kill Depraved enemies and loot the Sinstone Records.|US|RANK|2|
-T Ready to Serve|QID|60128|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane.|RANK|2|
-T The Sinstone Archive|QID|57926|M|72.97,52.03|Z|Revendreth|N|To Archivist Fane.|RANK|2|
-A Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|From Archivist Fane.|LVL|57|PRE|60128|RANK|2|
-C Hunting an Inquisitor|QID|57929|M|76,51.8|Z|Revendreth|N|Use the Action Ability "[color=40C7EB]Read Inquisitor Traian's Sinstone[/color]" to lower the shield and kill Inquisitor Traian.|EAB|RANK|2|
-T Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane.|RANK|2|
-A Halls of Atonement: Your Absolution|QID|58092|M|72.98,51.98|Z|Revendreth|ELITE|N|[color=e6cc80]Dungeon: [/color]\nFrom Archivist Fane. This quest is optional and out of scope for this guide.|LVL|57|PRE|57929|RANK|2|
-;dungeon quest wasnt offered.
-A It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|From Chiselgrump.|LVL|57|
-C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|S|
 
 C Into the Light|QID|60566|M|30.37,47.44|Z|Revendreth|N|Ride the elevator to Sinfall.|MS|
 T Into the Light|QID|60566|M|30.42,45.65|Z|Revendreth|N|To Breakfist.|MS|
