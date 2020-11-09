@@ -88,7 +88,7 @@ N Learn Apprentice First Aid |QID|2159|ACTIVE|2159|M|55.29,56.82|P|First Aid;129
 A The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|From Tallonkai Swiftroot, at the very top of the building|
 A Twisted Hatred|QID|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
 
-r Sell and Repair|ACTIVE|2159|S|M|59.31,41.09|ACTIVE|2159|N|Sell and Repair with the many vendors of Dolanaar.|
+r Sell and Repair|ACTIVE|2159|S|M|59.31,41.09|N|Sell and Repair with the many vendors of Dolanaar.|
 
 T Dolanaar Delivery|QID|2159|M|55.70,59.80|N|To the innkeeper.|
 h Dolanaar|QID|928|N|Set your Hearthstone to Dolanaar.|
@@ -130,7 +130,7 @@ A Seek Redemption!|QID|489|PRE|488|M|56.10,57.73|N|From Syral Bladeleaf|
 A Denalan's Earth|QID|997|M|56.09,57.72|N|From Syral Bladeleaf.|
 C Seek Redemption!|QID|489|NC|S|L|3418 3|N|Look out for Fel Cones below trees. Green smoke comes out of them.|
 
-r Sell and Repair|ACTIVE|489|S|M|59.31,41.09|ACTIVE|4161|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
+r Sell and Repair|ACTIVE|489|S|M|59.31,41.09|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
 T Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|To Zarrin.|
 N Cooking|QID|997|RECIPE|6412|S|ACTIVE|997|M|57.18,61.26|U|5482|N|Level your cooking to 10 with the small eggs. You can buy mild spices from Nyoma. Then learn the Kaldorei Spider Kabob recipe. Right click off if you don't want to learn cooking.|
 
