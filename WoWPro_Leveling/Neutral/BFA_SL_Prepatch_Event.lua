@@ -98,7 +98,7 @@ A With Hope in Hand|QID|60869|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE
 A Frozen Solid|QID|59851|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn. This is a daily quest.|PRE|60932|DATE|1605607200|
 A Defending the Rampart|QID|59847|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn. This is a daily quest.|PRE|60932|DATE|1605607200|
 C Strange Scourgestones|QID|62401|M|53.28,34.49|Z|Icecrown|N|If you haven't collected enough scouragestones for some reason, you can continue to kill until you get them, or optionally skip as this is just for dailies.|
-T Strange Scourgestones|QID|62401|M|71.04,21.66|Z|Icecrown|N|To Veteran Crusader Aliocha Segard.|DATE|1605607200|
+t Strange Scourgestones|QID|62401|M|71.04,21.66|Z|Icecrown|N|To Veteran Crusader Aliocha Segard.|
 
 C With Hope in Hand|QID|60871|M|76.40,19.97|Z|Icecrown|CHAT|N|Speak with the Silver Covenant Arcanist to establish a portal to Stormwind.|FACTION|Alliance|DATE|1605607200|
 P Stormwind City|QID|60871|M|76.42,20.04|Z|Icecrown|N|Take the portal to Stormwind.|FACTION|Alliance|DATE|1605607200|
