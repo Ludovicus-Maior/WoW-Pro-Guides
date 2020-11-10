@@ -1,4 +1,7 @@
-# Release A5/C5
+# Release A6/C6 (A5/C5)
+### A6 Bug Fixes
+* Fixed bug with EAB button covering target button.
+* Updated Shadowlands Prepatch Event to launch today!
 ### Bug Fixes
 * % progress is integers instead of long floating point.
 * Error with legacy floors like Z|Suramar/24| fixed.
