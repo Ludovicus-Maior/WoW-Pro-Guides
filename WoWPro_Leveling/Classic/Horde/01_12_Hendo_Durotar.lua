@@ -242,15 +242,15 @@ A The Shattered Hand|QID|1963|M|42.73,53.44|Z|Orgrimmar|N|From Therzok.|PRE|1859
 T Gan'rul's Summons|QID|1506|M|48.25,45.29|Z|Orgrimmar|N|To Gan'rul Bloodeye.|R|Orc|C|Warlock|
 A Creature of the Void|QID|1501|M|48.20,45.70|Z|Orgrimmar|N|From Gan'rul Bloodeye.|PRE|1506|R|Orc|C|Warlock|
 ; ---
-R Leave Orgrimmar|QID|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
+R Leave Orgrimmar|ACTIVE|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
 C Finding the Antidote|QID|813|ACTIVE|812|M|41.49,19.39|QO|1|N|Head back to the area around Rhinag and kill Venomtail Scorpids for their Venomtail Scorpid Sacs.|
 R Enter Orgrimmar|QID|812|M|45.52,12.07|CC|N|Head back to Orgrimmar.|
 T Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58;51.75,57.85;56.03,41.16;59.91,49.37;51.26,46.39;47.24,53.58|Z|Orgrimmar|CC|N|Go back to Khorgan and turn in the quest for the Venomtail Antidote. if you lose the antidote, this quest is repeatable.|
 R Leave Orgrimmar|QID|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
-A Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
-T Need for a Cure|ACTIVE|812|M|41.54,18.60|N|To Rhinag.|
+A Need for a Cure|QID|812|M|41.54,18.60|N|From Rhinag.|
+T Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
 
-K Lost But Not Forgotten|QID|816|M|37.22,20.26|QO|1|N|Head to the Southfury River and kill the Dreadmaw Crocolisks until you loot Kron's Amulet.|
+C Lost But Not Forgotten|QID|816|M|37.22,20.26|QO|1|N|Head to the Southfury River and kill the Dreadmaw Crocolisks until you loot Kron's Amulet.|
 T Conscript of the Horde|QID|840|M|62.27,19.37|Z|The Barrens|N|To Kargal Battlescar at Far Watch Outpost, Barrens. It's just on the other side of the Southfury Bridge.|
 A Crossroads Conscription|QID|842|M|62.27,19.37|Z|The Barrens|N|From Kargal Battlescar.|
 
@@ -293,14 +293,14 @@ C Hidden Enemies|QID|5726|QO|1|N|Kill Burning Blade Apprentices and Fanatics for
 T Skull Rock|QID|827|M|56.41,20.00|N|To Margoz.|
 A Neeru Fireblade|QID|829|M|56.41,20.00|N|From Margoz.|
 N Eye of the Burning Shadow|AVAILABLE|832|N|If you are lucky enough to get this item to drop for you, accept the quest.\nOtherwise, carry on with the guide.|
-A Burning Shadows|QID|832|U|4903|N|Accept the quest from the Eye of Burning Shadow.|
+A Burning Shadows|QID|832|U|4903|N|Accept the quest from the Eye of Burning Shadow.|RANK|3|
 
 R Orgrimmar|QID|5726|M|45.52,12.07|CC|N|Head back to Orgrimmar.|
 T Hidden Enemies|QID|5726|M|52.33,84.15;49.66,60.39;52.65,57.20;59.28,47.18;55.59,37.06;31.92,37.80|Z|Orgrimmar|CC|N|To Thrall.|
 A Hidden Enemies|QID|5727|M|31.92,37.80|Z|Orgrimmar|N|From Thrall.|
 T Neeru Fireblade|QID|829|M|55.74,41.06;49.57,50.43|Z|Orgrimmar|CC|N|To Neeru Fireblade.|
 A Ak'Zeloth|QID|809|M|49.57,50.43|Z|Orgrimmar|N|From Neeru Fireblade.|
-T Burning Shadows|ACTIVE|832|M|49.57,50.43|Z|Orgrimmar|N|To Neeru Fireblade.|
+t Burning Shadows|QID|832|M|49.57,50.43|Z|Orgrimmar|N|To Neeru Fireblade.|
 A Ak'Zeloth|QID|809|M|49.57,50.43|Z|Orgrimmar|N|From Neeru Fireblade.|
 C Hidden Enemies|QID|5727|M|49.57,50.43|Z|Orgrimmar|QO|1|N|Chat with Neeru Fireblade.|CHAT|
 T Hidden Enemies|QID|5727|M|55.74,41.06;56.51,36.82;32.06,37.78|Z|Orgrimmar|CC|N|To Thrall.|
