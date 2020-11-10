@@ -136,7 +136,7 @@ C Further Training|QID|43062|M|52.54,57.80|US|NC|N|Thank all the old Gods this i
 T Further Training|QID|43062|M|52.54,57.80|N|To High Elder Cloudfall. |
 C An Ample Stockpile|QID|43054|M|48.99,58.36|US|NA|N|Turn in your silkweave bandages, highmountain salmon and spiced ribs to Lao Shu in multiples of 5. You have a while to finish this as no other progress can be made on the order hall campaign until 110.|
 t An Ample Stockpile|QID|43054|M|48.88,58.36|N|To Lao Shu. With the exception of finishing up the "Tracking the Tideskorn" missions, the remainder of the order hall campaign requires level 110.|
-t Tracking the Tideskorn|QID|41909|M|52.54,57.80|N|To High Elder Cloudfall. The remainder of your order hall campaign requires lvl 110.|
+t Tracking the Tideskorn|QID|41909|M|52.54,57.80|N|To High Elder Cloudfall. The remainder of your order hall campaign requires lvl 45.| ; not sure if at 45... but know it's not 110
 ;post class campaign
 A The Power Within|QID|43496|M|51.71,48.58|N|From Image of Kalec. This appears up to 48 hours after you finish class order campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
 P Dalaran|QID|43496|M|52.4,57.10|N|Take the portal to Dalaran from your order hall.|ACTIVE|43496|
@@ -146,7 +146,7 @@ A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. T
 ;fresh lvl 45 quests  (Old 110)
 A Khadgar's Discovery|QID|39985|LVL|45|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|
 A Goddess Watch Over You|QID|44337|LVL|45|M|51.50,48.41|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 45.|
-A The Iron Fist|QID|41849|M|51.41,48.39|NA|N|From Iron-Body Ponshu. This is a dungeon quest you will need to complete it before you can go much farther.|PRE|43054&43062|
+A The Iron Fist|QID|41849|PRE|43054&43062|LVL|45|M|51.41,48.39|NA|N|From Iron-Body Ponshu. This is a dungeon quest you will need to complete it before you can go much farther.|  ; not sure if need lvl, but at 33 and no show.
 A Inner Sanctuary|QID|44249|LVL|45|M|50.33,59.14|N|From Caydori Brightstar. Your class hall has a gift for you.|
 T Inner Sanctuary|QID|44249|M|50.33,59.14|N|To Caydori Brightstar.|
 P Krasus' Landing|QID|44338|M|52.39, 57.13|N|Take the portal to Dalaran.|ACTIVE|44348|
