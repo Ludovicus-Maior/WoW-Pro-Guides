@@ -1292,7 +1292,7 @@ function WoWPro:RowUpdate(offset)
             -- WoWPro:dbp("Target text set to: %s",currentRow.targetbutton:GetAttribute("macrotext"))
 
             -- Ask the target button to place itself
-            currentRow.targetbutton.Position(use)
+            currentRow.targetbutton.Position(use or eab)
 
 			if not _G.InCombatLockdown() then
 				if currentRow.targetbutton:IsVisible() and currentRow.targetbutton:IsShown() then

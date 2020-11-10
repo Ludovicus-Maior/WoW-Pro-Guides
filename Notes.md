@@ -1,3 +1,19 @@
+# Release A6/C6 (A5/C5)
+### A6 Bug Fixes
+* Fixed bug with EAB button covering target button.
+* Updated Shadowlands Prepatch Event to launch today!
+### Bug Fixes
+* % progress is integers instead of long floating point.
+* Error with legacy floors like Z|Suramar/24| fixed.
+* Added CCOUNT to track completed quest counts.
+* "(No coords)" no longer shows on empty steps.
+* Corrected parsing of |BUFF|309806<30|
+* Fixed processing of numeric zones in guides.
+
+## Guide Updates
+* Retail: 38 Achievements, 2 Dailies, and 31 Leveling guides updated. Ludo is too lazy to break it down further.
+* Classic: Teldrassil
+
 # Release A4/C4
 ### Bug Fixes:
 * Vale of Eternal Blossoms and Uldum will no longer register as level 50 zone.
