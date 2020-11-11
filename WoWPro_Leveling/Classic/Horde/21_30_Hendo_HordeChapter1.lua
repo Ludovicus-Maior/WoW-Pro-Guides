@@ -155,7 +155,7 @@ N Collection Quests|ACTIVE|496^501|N|You are going to finish up your collection 
 C Kill Moss Creepers|QID|496|L|3477 1|N|Kill Moss Creepers until you loot the Creeper Ichor.|US|
 C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions until you are done.|US|
 C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears until you are done.|US|
-R Tarren Mill|QID|527|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
+R Tarren Mill|ACTIVE|496|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
 T Elixir of Suffering|QID|496|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
 A Elixir of Suffering|QID|499|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|496|
 T Elixir of Suffering|QID|499|M|61.49,19.16|Z|Hillsbrad Foothills|N|To Umpi behind you.|
@@ -189,10 +189,10 @@ T Isha Awak|QID|873|M|65.84,43.86|Z|The Barrens|N|Choosing your own path of trav
 N Booty Bay|ACTIVE|6571|N|Before returning to Stonetalon Mountains, we're taking a side trip to Booty Bay to pick up a quest item. This is the last time we will be in Ratchet to make this trip.|
 
 ; --- Booty Bay
-b Booty Bay|ACTIVE|6571|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+b Booty Bay|ACTIVE|6571|M|63.70,38.63|Z|The Barrens|L|16745|N|Take the boat to Booty Bay.|
 C Warsong Supplies|QID|6571|M|26.46,73.38|Z|Stranglethorn Vale|L|16745|N|You'll find the crate at the back of the first stack of cargo on the dock.\nDo this quick enough and you won't have to wait for the next boat to go back.|
-f Booty Bay|QID|6571|M|26.87,77.09|Z|Stranglethorn Vale|N|Head up to Gringer who's standing just outside the Inn balcony.|TAXI|-Booty Bay|
-b Ratchet|QID|6571|M|25.80,73.10|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
+f Booty Bay|ACTIVE|6571|M|26.87,77.09|Z|Stranglethorn Vale|N|Since you are here go grab the Flight Path, So head up to Gringer who's standing just outside the Inn balcony.|TAXI|-Booty Bay|
+b Ratchet|ACTIVE|6571|M|25.80,73.10|Z|Stranglethorn Vale|L|16745|N|Take the boat to Ratchet.|
 
 ; --- Stonetalon Mountains
 F Sun Rock Retreat|ACTIVE|1095|M|63.11,37.10|Z|The Barrens|

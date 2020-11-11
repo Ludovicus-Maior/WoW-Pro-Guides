@@ -136,7 +136,7 @@ C Further Training|QID|43062|M|52.54,57.80|US|NC|N|Thank all the old Gods this i
 T Further Training|QID|43062|M|52.54,57.80|N|To High Elder Cloudfall. |
 C An Ample Stockpile|QID|43054|M|48.99,58.36|US|NA|N|Turn in your silkweave bandages, highmountain salmon and spiced ribs to Lao Shu in multiples of 5. You have a while to finish this as no other progress can be made on the order hall campaign until 110.|
 t An Ample Stockpile|QID|43054|M|48.88,58.36|N|To Lao Shu. With the exception of finishing up the "Tracking the Tideskorn" missions, the remainder of the order hall campaign requires level 110.|
-t Tracking the Tideskorn|QID|41909|M|52.54,57.80|N|To High Elder Cloudfall. The remainder of your order hall campaign requires lvl 110.|
+t Tracking the Tideskorn|QID|41909|M|52.54,57.80|N|To High Elder Cloudfall. The remainder of your order hall campaign requires lvl 45.| ; not sure if at 45... but know it's not 110
 ;post class campaign
 A The Power Within|QID|43496|M|51.71,48.58|N|From Image of Kalec. This appears up to 48 hours after you finish class order campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
 P Dalaran|QID|43496|M|52.4,57.10|N|Take the portal to Dalaran from your order hall.|ACTIVE|43496|
@@ -146,7 +146,7 @@ A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. T
 ;fresh lvl 45 quests  (Old 110)
 A Khadgar's Discovery|QID|39985|LVL|45|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|
 A Goddess Watch Over You|QID|44337|LVL|45|M|51.50,48.41|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 45.|
-A The Iron Fist|QID|41849|M|51.41,48.39|NA|N|From Iron-Body Ponshu. This is a dungeon quest you will need to complete it before you can go much farther.|PRE|43054&43062|
+A The Iron Fist|QID|41849|PRE|43054&43062|LVL|45|M|51.41,48.39|NA|N|From Iron-Body Ponshu. This is a dungeon quest you will need to complete it before you can go much farther.|  ; not sure if need lvl, but at 33 and no show.
 A Inner Sanctuary|QID|44249|LVL|45|M|50.33,59.14|N|From Caydori Brightstar. Your class hall has a gift for you.|
 T Inner Sanctuary|QID|44249|M|50.33,59.14|N|To Caydori Brightstar.|
 P Krasus' Landing|QID|44338|M|52.39, 57.13|N|Take the portal to Dalaran.|ACTIVE|44348|
@@ -397,6 +397,10 @@ A The Fight Begins|QID|40795|M|52.75,59.79|N|From Master Hsu.|PRE|40793|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|52.96,60.19|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40795|
 T The Fight Begins|QID|40795|M|52.75,59.79|N|To Master Hsu.|
 N Items to acquire|QID|43054|N|One of the last steps in your order hall to complete, is a quest to gather supplies.  You will need to turn in a total of 100 items(5 at a time). Highmountain Salmon, Spiced Rib Roast, and Silkweave Bandages. If you want to get thru that quest quickly, acquire and store these items.|
+; coming back after finishing Zone AND doing dungeon...  need more?
+C Pressing the Assualt|ACTIVE|44545|M|52.91,60.16|N|Select next Zone at the Scouting Map.|
+t Pressing the Assualt|QID|44545|M|PLAYER|N|To UI Alert.|
+
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
