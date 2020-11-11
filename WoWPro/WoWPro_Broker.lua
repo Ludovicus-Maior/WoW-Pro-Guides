@@ -2311,25 +2311,25 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         if achflip then wasEarnedByMe = not wasEarnedByMe end
                         if wasEarnedByMe then
                             if achflip then
-                                if achor then -- Achivement not complete. So we should skip, but can't skip right away in case another achievment reaches it
-                                    why = "NextStep(): Skipping flipped OR Step, Achivement ["..Name.."] Not Complete."
+                                if achor then -- Achievement not complete. So we should skip, but can't skip right away in case another achievement reaches it
+                                    why = "NextStep(): Skipping flipped OR Step, Achievement ["..Name.."] Not Complete."
                                     WoWPro:dbp(why)
                                     achcheck = true
-                                else -- Achivement not complete. On a flipped AND, we need to check earlier than the last one because we want it to skip if you haven't completed an achievement.
-                                    why = "NextStep(): Skipping flipped AND Step, Achivement ["..Name.."] Not Complete."
+                                else -- Achievement not complete. On a flipped AND, we need to check earlier than the last one because we want it to skip if you haven't completed an achievement.
+                                    why = "NextStep(): Skipping flipped AND Step, Achievement ["..Name.."] Not Complete."
                                     WoWPro:dbp(why)
                                     achcheck = true
                                     break
                                 end
                             else
                                 if achor then -- Achievement complete. OR should skip as soon as it finds a match
-                                    why = "NextStep(): Skipping OR Step, Achivement ["..Name.."] Complete."
+                                    why = "NextStep(): Skipping OR Step, Achievement ["..Name.."] Complete."
                                     WoWPro:dbp(why)
                                     achcheck = true
                                     break
                                 else -- Achievement complete. AND only cares if the last one is good
                                     if akey == #achtbl then
-                                        why = "NextStep(): Skipping AND Step, Achivement ["..Name.."] Complete."
+                                        why = "NextStep(): Skipping AND Step, Achievement ["..Name.."] Complete."
                                         WoWPro:dbp(why)
                                         achcheck = true
                                         break
@@ -2338,19 +2338,19 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             end
                         else
                             if achflip then
-                                if achor then -- Achivement complete. On a flipped OR we want it to display if the achievement is complete so we break the loop here.
-                                    why = "NextStep(): Displaying flipped OR Step, Achivement ["..Name.."] Complete."
+                                if achor then -- Achievement complete. On a flipped OR we want it to display if the achievement is complete so we break the loop here.
+                                    why = "NextStep(): Displaying flipped OR Step, Achievement ["..Name.."] Complete."
                                     WoWPro:dbp(why)
                                     achcheck = false
                                     break
-                                end -- Achivement complete. On a flipped AND we continue to show and process the loop to keep checking others
+                                end -- Achievement complete. On a flipped AND we continue to show and process the loop to keep checking others
                             else
                                 if not achor then -- Achievement not complete. AND steps need to break and display because it found an achievement not complete.
-                                    why = "NextStep(): Displaying AND Step, Achivement ["..Name.."] Not Complete."
+                                    why = "NextStep(): Displaying AND Step, Achievement ["..Name.."] Not Complete."
                                     WoWPro:dbp(why)
                                     break
                                 else
-                                    why = "NextStep(): Not skipping OR Step, Achivement ["..Name.."] Not Complete."
+                                    why = "NextStep(): Not skipping OR Step, Achievement ["..Name.."] Not Complete."
                                     WoWPro:dbp(why)
                                 end -- Achievement not complete. OR steps continue to show and process the loop to keep checking others
                             end

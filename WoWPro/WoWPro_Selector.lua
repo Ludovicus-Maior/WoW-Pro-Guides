@@ -82,8 +82,8 @@ function WoWPro:SelectorOptionsTable()
                     },
                     ach_nut = {
                         type = "toggle",
-                        name = L["Achievment Nut"],
-                        desc = L["Agressively pursue achievments"],
+                        name = L["Achievement Nut"],
+                        desc = L["Agressively pursue achievements"],
                         get = function(info) return WoWProDB.profile.Selector.AchNut end,
                         set = function(info,val) WoWProDB.profile.Selector.AchNut = val
                             end
