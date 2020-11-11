@@ -279,14 +279,13 @@ K Hit the Books|QID|37678|QO|1|M|60.70,86.32|Z|Nar'thalas Academy|S|US|T|Ancient
 C Dressing With Class|QID|37736|QO|3|M|66.24,72.76|Z|Nar'thalas Academy|NC|N|The wand is lying against the wall.|
 $ Small Treasure Chest|QID|42284|M|62.00,83.74|Z|Nar'thalas Academy|N|Loot for a bit of treasure and resources.|RANK|2|
 C Dressing With Class|QID|37736|QO|2|M|59.46,84.76|Z|Nar'thalas Academy|NC|N|Take the robes from the sleeping student.|
-C Hit the Books|QID|37678|QO|1|M|60.70,86.32|Z|Nar'thalas Academy|N|Finish killing the ancient tomes.|US|
 C Dressing With Class|QID|37736|QO|1|M|55.61,56.08|Z|Nar'thalas Academy|NC|N|The hat is on the ground.|
 T Hit the Books|QID|37678|M|53.13,47.77|Z|Nar'thalas Academy|N|To Andellis.|
 T Dressing With Class|QID|37736|M|53.33,47.69|Z|Nar'thalas Academy|N|To Thyrillion.|
 A The Haunted Halls|QID|37518|PRE|37678&37736|M|53.33,47.69|Z|Nar'thalas Academy|N|From Thyrillion.|
 T The Haunted Halls|QID|37518|M|28.85,42.55|Z|Nar'thalas Academy|N|To Instructor Nidriel.|
 A Wanding 101|QID|42370|PRE|37518|M|28.85,42.55|Z|Nar'thalas Academy|N|From Instructor Nidriel.|
-C Wanding 101|QID|42370|NC|M|30.41,42.99|Z|Nar'thalas Academy|N|Target the "wand targets" and use your special action button.|T|Wand Target|EAB|
+C Wanding 101|QID|42370|NC|M|30.41,42.99|Z|Nar'thalas Academy|T|Wand Target|N|Target the "Wand Targets" and use your special action button.|EAB|
 T Wanding 101|QID|42370|M|28.81,42.27|Z|Nar'thalas Academy|N|To Instructor Nidriel.|
 A Study Hall: Combat Research|QID|42371|PRE|42370|M|30.24,45.51|Z|Nar'thalas Academy|N|From Sythorne.|
 C Study Hall: Combat Research|QID|42371|QO|1|M|26.67,46.70|Z|Nar'thalas Academy|N|Pick up the book.|NC|
@@ -322,15 +321,14 @@ C Save Yourself|QID|37530|QO|6|M|58.60,41.43|NC|N|Defeat Queen Azshara.|
 C Save Yourself|QID|37530|QO|7|M|57.88,43.10|NC|N|Walk forward into the cave.|
 T Save Yourself|QID|37530|M|57.82,43.43|N|To yourself (because you are Prince Farondis at the moment).|
 A The Head of the Snake|QID|37470|PRE|37530|M|57.86,43.36|N|From Prince Farondis.|
-A Tip the Scales-Bonus Objective|QID|37779|LVL|-109|M|58.67,41.22|N|Auto accepted as you enter the area.|RANK|2|
-C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|S|N|Kill Naga, loot the trident racks to activate an extra action button.|RANK|2|
+A Tip the Scales-Bonus Objective|QID|37779|LVL|-44|M|58.67,41.22|N|Auto accepted as you enter the area.|RANK|2|
+C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|S|US|N|Kill Naga, loot the trident racks to activate an extra action button.|RANK|2|
 C The Head of the Snake|QID|37470|M|62.05,41.57|N|Kill Athissa.|T|Athissa|
 T The Head of the Snake|QID|37470|M|61.70,41.08|N|To Prince Farondis.|
-A Wrath of Azshara|QID|38286|PRE|37470|M|61.70,41.08|NA|N|From Prince Farondis. This is a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
+A Eye of Azshara: Wrath of Azshara|QID|38286|PRE|37470|M|61.70,41.08|NA|N|From Prince Farondis. This is a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
 $ Small Treasure Chest|QID|42294|M|62.81,44.79|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|42293|M|63.64,39.18|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Golza the Iron Fin|QID|42372|ACH|11261;2|M|65.17,40.02|N|Silver - Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091|T|Golza the Iron Fin|RANK|2|RARE|; There are ACH's for all silvers in this zone.
-C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|US|N|Finish this up or check it off manually.|RANK|2|
 t Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|N|Auto turned in when complete.|RANK|2|
 R Felblaze Ingress|QID|42372|M|63.86,28.92|N|Ride to the Felblaxe Ingress.|RANK|3|FLY|LEGION|
 T Scribal Knowledge|QID|39939|M|65.07,25.94|N|To Zarla Shadowheart.|P|Inscription;773|
@@ -420,25 +418,23 @@ C Morale Booster|QID|37536|QO|1|M|50.26,49.77|N|Ask Ooka nicely for the fighter 
 T Morale Booster|QID|37536|M|47.93,48.67|N|To Sternfathom.|
 A Round 1, Fight!|QID|37538|PRE|37536|M|47.93,48.67|N|From Sternfathom.|
 C Round 1, Fight!|QID|37538|M|47.93,48.67|N|Tell Sternfathom you are ready.|
-T Round 1, Fight!|QID|37538|M|43.62,24.67|Z|1015/18|N|To Okuna Longtusk's pack.|
-A Plunder the Cove-Bonus Objective|QID|37495|PRE|37538|M|43.62,24.67|Z|1015/18|N|Auto-accepted when you enter the area.|RANK|2|LVL|-109|
-A The Right Weapon for the Job|QID|37565|PRE|37538|M|43.62,24.67|Z|1015/18|N|From Okuna's pack.|RANK|2|
-C Reclaimed Cargo|QID|40194|M|46.48,59.32|Z|Azsuna/18|P|Leatherworking;165|QO|1|S|N|Find Crates scattered throughout.|
-C Plunder the Cove-Bonus Objective|QID|37495|M|43.62,24.67|Z|1015/18|S|N|Killing mobs, and clicking on the Skrog weapons advances the objective.|RANK|2|
-C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|Z|1015/18|S|N|Click on the quest item whenever you are near some prisoners.|
-$ Glimmering Treasure Chest|QID|37649|M|69.22,48.69|Z|1015/18|N|Loot for a bit of treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|42291|M|46.36,67.12|Z|1015/18|N|Loot for a bit of treasure and resources.|RANK|2|
-C A Daring Rescue|QID|40195|M|82.66,85.18|Z|Azsuna/18|CHAT|N|Talk to Taldranis.|
-T A Daring Rescue|QID|40195|M|82.66,85.18|Z|Azsuna/18|N|To Taldranis.|
-A Testing the Metal|QID|40327|PRE|40195|M|82.66,85.18|Z|Azsuna/18|P|Leatherworking;165|N|From Taldranis.|
-C Testing the Metal|QID|40327|M|82.66,85.18|Z|Azsuna/18|CHAT|N|Talk to Taldranis. Escort him out.|
-A A Favor for Mr. Shackle|QID|38857|M|50.35,60.98|N|From Seska Seafang.|
-C A Favor for Mr. Shackle|QID|38857|QO|3|M|51.33,61.06|N|Grace the Green rescued|
-C A Favor for Mr. Shackle|QID|38857|QO|1|M|48.94,63.02|N|Cleave Thunderhill rescued|
-C A Favor for Mr. Shackle|QID|38857|QO|2|M|46.16,59.08|N|Gentle Rosh rescued|
-C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|US|N|You can continue arming prisoners if you need help fighting the elites even after the quest in finished (until you turn it in.)|
+T Round 1, Fight!|QID|37538|M|43.62,24.67|Z|Oceanus Cove|N|To Okuna Longtusk's pack.|
+A Plunder the Cove-Bonus Objective|QID|37495|PRE|37538|M|43.62,24.67|Z|Oceanus Cove|N|Auto-accepted when you enter the area.|RANK|2|LVL|-44|
+A The Right Weapon for the Job|QID|37565|PRE|37538|M|43.62,24.67|Z|Oceanus Cove|N|From Okuna's pack.|RANK|2|
+C Reclaimed Cargo|QID|40194|M|46.48,59.32|Z|Oceanus Cove|P|Leatherworking;165|QO|1|S|US|N|Find Crates scattered throughout.|
+C Plunder the Cove-Bonus Objective|QID|37495|M|43.62,24.67|Z|Oceanus Cove|S|US|N|Killing mobs, and clicking on the Skrog weapons advances the objective.|RANK|2|
+C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|Z|Oceanus Cove|S|US|N|Click on the quest item whenever you are near some prisoners.|RANK|2|
+$ Glimmering Treasure Chest|QID|37649|M|69.22,48.69|Z|Oceanus Cove|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|42291|M|46.36,67.12|Z|Oceanus Cove|N|Loot for a bit of treasure and resources.|RANK|2|
+C A Daring Rescue|QID|40195|M|82.66,85.18|Z|Oceanus Cove|CHAT|N|Talk to Taldranis.|
+T A Daring Rescue|QID|40195|M|82.66,85.18|Z|Oceanus Cove|N|To Taldranis.|
+A Testing the Metal|QID|40327|PRE|40195|M|82.66,85.18|Z|Oceanus Cove|P|Leatherworking;165|N|From Taldranis.|
+C Testing the Metal|QID|40327|M|82.66,85.18|Z|Oceanus Cove|CHAT|N|Talk to Taldranis. Escort him out.|
+A A Favor for Mr. Shackle|QID|38857|M|50.35,60.98|Z|Azsuna!Broken Isles|N|From Seska Seafang.| ; Azsuna!Broken Isles MapID 630
+C A Favor for Mr. Shackle|QID|38857|QO|3|M|51.33,61.06|Z|Azsuna!Broken Isles|N|Grace the Green rescued|
+C A Favor for Mr. Shackle|QID|38857|QO|1|M|48.94,63.02|Z|Azsuna!Broken Isles|N|Cleave Thunderhill rescued|
+C A Favor for Mr. Shackle|QID|38857|QO|2|M|46.16,59.08|Z|Azsuna!Broken Isles|N|Gentle Rosh rescued|
 K Kill Flog the Captain Eater|QID|37824|QO|1|M|45.2,58.0|ITEM|129090|T|Flog the Captain-Eater|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-C Plunder the Cove-Bonus Objective|QID|37495|M|46.54,58.96|US|N|Stay and finish or manually check it off.|RANK|2|
 t Plunder the Cove-Bonus Objective|QID|37495|M|46.54,58.96|N|Auto turned in when complete.|RANK|2|
 T The Right Weapon for the Job|QID|37565|M|53.41,62.95|N|To Okuna Longtusk.|
 A The Prince is Going Down|QID|37566|PRE|37565|M|53.41,62.95|N|From Okuna Longtusk.|
@@ -451,30 +447,30 @@ A Maritime Law|QID|37654|M|56.60,59.59|N|From Mr. Shackle.|
 A Making the World Safe for Profit|QID|37657|M|56.60,59.59|N|From Mr. Shackle.|
 A Shipwrecked Sailors|QID|42268^42220|M|57.66,58.07|N|From UI Alert.|
 C Making the World Safe for Profit|QID|37657|QO|1|M|60.15,61.97|S|N|Kill Gilblin & Makrura as you go about your other objectives.|
-C Shipwrecked Sailors|QID|42268|M|59.93,58.12|N|Rescue sailors as you go about your other objectives.|S|FACTION|Horde|
-C Shipwrecked Sailors|QID|42220|M|59.93,58.12|N|Kill sailors as you go about your other objectives.|S|FACTION|Alliance|
+C Shipwrecked Sailors|QID|42268|M|59.93,58.12|S|US|N|Rescue sailors as you go about your other objectives.|FACTION|Horde|
+C Shipwrecked Sailors|QID|42220|M|59.93,58.12|S|US|T|Queen's Reprisal Sailor|N|Kill sailors as you go about your other objectives.|FACTION|Alliance|
 $ Small Treasure Chest|QID|42272|M|59.54,61.99;59.88,63.20|CS|N|Path starts at first coord, treasure is on top of a rocky outcrop. Loot for a bit of treasure and resources.|RANK|2|
 K Kill Tide Behemoth|QID|38217|QO|1|T|Tide Behemoth|M|61.35,61.93|ITEM|129062|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Making the World Safe for Profit|QID|37657|QO|2|M|62.21,61.48;63.52,63.55|CS|N|The queen is in an underwater cave.|
 $ Small Treasure Chest|QID|42273|M|62.38,58.41|N|Loot for a bit of treasure and resources.|RANK|2|
 T Maritime Law|QID|37654|M|64.25,56.10|N|To Looper Allen.|
 A The Captain's Foot Locker|QID|37659|PRE|37654|M|64.25,56.10|N|From Looper Allen.|
-K Kill Chief Bitterbrine|QID|42221|QO|1|ITEM|129073|T|Chief Bitterbrine|M|65.65,56.81|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-T The Captain's Foot Locker|QID|37659|M|65.67,56.92|N|To the Captain's Foot Locker.|
+K Kill Chief Bitterbrine|QID|42221|QO|1|ITEM|129073|T|Chief Bitterbrine|M|65.65,56.81|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|  ; debated taking off Rank 2 since you have to kill him to get the Foot locker, but left it, in case you might find him dead.
+T The Captain's Foot Locker|QID|37659|M|65.67,56.92|N|To the Captain's Foot Locker. Below Deck, Behind Silver Elite.|
 A Fate of the Queen's Reprisal|QID|42244^40794|PRE|37659|M|65.67,56.92|N|From the Captain's Foot Locker.|
 C Making the World Safe for Profit|QID|37657|QO|1|M|60.15,61.97|N|Finish killing Gilblin & Makrura.|US|
 $ Disputed Treasure|QID|38365|M|55.87,56.87|N|Kill the npcs argueing over the treasure chest then you can loot it for a bit of treasure and resources.|RANK|2|
-C Shipwrecked Sailors|QID|42268^42220|QO|1|M|59.93,58.12|N|Finish up with the sailors.|US|
 T Shipwrecked Sailors|QID|42268^42220|M|59.93,58.12|N|To UI Alert.|
 T Making the World Safe for Profit|QID|37657|M|56.59,59.58|N|To Mr. Shackle.|
 F Illidari Stand|QID|40327|ACTIVE|40327|M|56.20,58.91|N|Fly to Illidari Stand, from Avaya Farwind.|FLY|LEGION|
 T Testing the Metal|QID|40327|M|47.52,44.17|N|To Celea.|
 T Reclaimed Cargo|QID|40194|M|47.52,44.17|N|To Celea.|
-U Dalaran Hearthstone|ACTIVE|42244^40794|U|140192|N|Hearth or fly to Dalaran to get the final zone quest completed and receive you zone achievement.|
+H Dalaran Hearthstone|ACTIVE|42244^40794|M|56.59,59.58|TZ|Dalaran|U|140192|N|Hearth or fly to Dalaran to get the final zone quest completed and receive you zone achievement.|
 T Fate of the Queen's Reprisal|QID|42244|M|61.05,17.23|Z|Dalaran!Dalaran!Dungeon|N|To Advisor Stillwater.|FACTION|Horde|
 T Fate of the Queen's Reprisal|QID|40794|M|28.66,74.87|Z|Dalaran!Dalaran!Dungeon|N|To Lt. Surtees.|FACTION|Alliance|
 C Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|49.07,48.02|Z|Dalaran!Dalaran!Dungeon|NC|N|Assuming you have completed the Eye of Azshara instance, you can run down and do the final turn in.  Into the Guardian's chamber and down to Aegwynn's Gallery.|
 T Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|To Tidestone of Golganneth (glowing blob on the wall in the Portrait Room).|
+
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
