@@ -7,12 +7,12 @@ WoWPro:GuideSteps(guide, function()
 -- DATE|1605607200| is a guess at 10am GMT on November 17th, when week 2 of event releases.
 return [[
 A An Urgent Request|QID|60115|M|48.68,74.07|Z|Orgrimmar|N|AutoAccepted.|FACTION|Horde|
-T An Urgent Request|QID|60115|M|48.68,74.07|Z|Orgrimmar|N|To Lor'themar Theron.|FACTION|Horde|
+T An Urgent Request|QID|60115|M|48.68,74.07|Z|Orgrimmar|N|To Lor'themar Theron on top of Grommash Hold.|FACTION|Horde|
 A Cause for Distraction|QID|60669|M|49.24,73.71|Z|Orgrimmar|N|From Lor'themar Theron.|PRE|60115|FACTION|Horde|
 C Cause for Distraction|QID|60669|M|49.24,73.71|Z|Orgrimmar|CHAT|N|Speak with Lor'themar Theron.|FACTION|Horde|
 T Cause for Distraction|QID|60669|M|49.24,73.71|Z|Orgrimmar|N|To Lor'themar Theron.|FACTION|Horde|
 A Return of the Crusade|QID|60670|M|49.24,73.71|Z|Orgrimmar|N|From Lor'themar Theron.|PRE|60669|FACTION|Horde|
-T Return of the Crusade|QID|60670|M|52.99,77.37|Z|Orgrimmar|N|To Commander Throgg.|FACTION|Horde|
+T Return of the Crusade|QID|60670|M|52.99,77.37|Z|Orgrimmar|N|To Commander Throgg, down on the ground.|FACTION|Horde|
 A Field Reports|QID|60725|M|52.99,77.37|Z|Orgrimmar|N|From Commander Throgg.|FACTION|Horde|PRE|60670|
 C Field Reports|QID|60725|M|46.02,18.25|Z|Durotar|QO|1|CHAT|N|Speak with Crusader Thalius at Dranosh'ar Blockade.|FACTION|Horde|
 C Field Reports|QID|60725|M|50.79,44.36|Z|Durotar|QO|2|CHAT|N|Speak with Wolf Rider Kazz at Razor Hill.|FACTION|Horde|
@@ -60,7 +60,7 @@ C Securing the Area|QID|60169|M|71.50,23.46|Z|Icecrown|US|N|Kill Scourge around 
 T Securing the Area|QID|60169|M|71.05,21.99|Z|Icecrown|N|To Justicar Mariel Trueheart.|
 T A Valiant Effort|QID|60003^60004|M|71.02,22.04|Z|Icecrown|N|To Crusader Renn.|
 A Scouting from a Safe Distance|QID|62157|M|71.02,22.04|Z|Icecrown|N|From Crusader Renn.|PRE|60003^60004|
-A Strange Scourgestones|QID|62401|M|71.04,21.66|Z|Icecrown|N|From Veteran Crusader Aliocha Segard. This unlocks a repatable scourgestone turn-in. I would recommend at least this once since you will get collect what you need as you complete the rest of the guide.|PRE|60003^60004|
+A Strange Scourgestones|QID|62401|M|71.04,21.66|Z|Icecrown|N|From Veteran Crusader Aliocha Segard. This unlocks a repatable scourgestone turn-in. I would recommend doing at least this once since you will collect what you need as you complete the rest of the guide.|PRE|60003^60004|
 C Scouting from a Safe Distance|QID|62157|M|69.18,33.87|Z|Icecrown|QO|2|NC|N|Mord'rethar surveyed.|
 C Scouting from a Safe Distance|QID|62157|M|62.25,30.00|Z|Icecrown|QO|1|NC|N|Aldur'thar surveyed.|
 T Scouting from a Safe Distance|QID|62157|M|71.02,22.03|Z|Icecrown|N|To Crusader Renn.|
@@ -107,9 +107,9 @@ C With Hope in Hand|QID|60869|M|75.90,24.28|Z|Icecrown|CHAT|N|Speak with the Sun
 P Orgrimmar|QID|60869|M|75.85,24.30|Z|Icecrown|N|Take the portal to Orgrimmar.|FACTION|Horde|DATE|1605607200|
 T With Hope in Hand|QID|60869|M|49.24,73.71|Z|Orgrimmar|N|To Lor'themar Theron.|FACTION|Horde|DATE|1605607200|
 P Undercity|QID|61488|M|50.73,55.58|Z|Orgrimmar|N|[color=ff8000]WQ Raid: [/color]If you want to kill Nathanos Blightcaller now, make your way to Eastern Plaguelands. Skip this if you plan to go there by another fashion.|FACTION|Horde|
-C The Banshee's Champion|QID|61486^61488|M|23.17,68.46|Z|Eastern Plaguelands!Eastern Kingdoms|N|[color=ff8000]WQ Raid: [/color]Make your way to Eastern Kingdoms to finally put an end to Nathanos Blightcaller. Currently it is easily puggable with everyone trying to complete the quest.|
+C The Banshee's Champion|QID|61486^61488|M|23.17,68.46|Z|Eastern Plaguelands!Eastern Kingdoms|N|[color=ff8000]WQ Raid: [/color]Make your way to Eastern Plaguelands to finally put an end to Nathanos Blightcaller. Currently it is easily puggable with everyone trying to complete the quest.|
 T The Banshee's Champion|QID|61486|M|39.44,64.14|Z|Stormwind City|N|To Genn Greymane.|FACTION|Alliance|
 T The Banshee's Champion|QID|61488|M|49.24,73.71|Z|Orgrimmar|N|To Lor'themar Theron.|FACTION|Horde|
-N Continued November 17th|QID|60871|M|PLAYER|Z|Stormwind City|N|That concludes this weeks story events. Come back next week to get the next chapter of "Return of the Scourge".|DATE|-1605607200|
+N Continued November 17th|QID|60871|M|PLAYER|N|That concludes this weeks story events. Come back next week to get the next chapter of "Return of the Scourge".|DATE|-1605607200|
 ]]
 end)
