@@ -28,19 +28,19 @@ C Kathra'natir defeated|QID|41036|M|52.11,70.47|Z|TheVioletHoldAcquisition|SO|4;
 C Listen to  Meryl|QID|41036|M|49.47,69.51|Z|TheVioletHoldAcquisition|NC|SO|5;1|N|Listen to Meryl.|
 C The Dreadlord's Prize|QID|41036|M|50.80,47.75|Z|TheVioletHoldAcquisition|QO|2|NC|N|Click on the Forge of the Guardian to recover it.|
 C The Dreadlord's Prize|QID|41036|M|60.17,44.82|QO|3|NC|N|Listen to Meryl for a minute or so.|
-T The Dreadlord's Prize|QID|41036|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm.|
-A A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|41036|
-C A Mage's Weapon|QID|41085|M|61.20,25.85|Z|The Guardian's Library@MageClassShrine|N|Click on the book to choose your artifact.|
-T A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm.|
-A Artifact Specific Quest|QID|42001^40267^42452|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|41085|
-R Portal to Dalaran|QID|42001^40267^42452|M|62.57,51.56|Z|The Guardian's Library@MageClassShrine|CC|N|If you chose the frost artifact stay put, otherwise take the portal to Dalaran|ACTIVE|42001&40267&42452|
-T Growing Power|QID|42175|M|60.4,36|N|To Meryl Felstorm|
-A Rise, Champions|QID|42663|M|55.37,38.05|N|From Meryl Felstorm|PRE|41141|
-A Champion: Archmage Modera|QID|42685|M|55.23,39.47|ACTIVE|42663|S|US|N|From/To Archmage Modera.|
-A Champion: Archmage Kalec|QID|42662|M|56.28,37.84|ACTIVE|42663|S|US|N|From/To Archmage Kalec.|
-C Rise, Champions|QID|42663|M|60.4,36|N|Recruit Modera and Kalec|
-T Rise, Champions|QID|42663|M|60.4,36|N|To Meryl Felstorm.|
-A Technical Wizardry|QID|42703|PRE|41141|M|60.4,36.00|N|From Meryl Felstorm.|
+T The Dreadlord's Prize|QID|41036|M|59.08,42.86|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
+A A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|41036|
+C A Mage's Weapon|QID|41085|M|61.20,25.85|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|Click on the book to choose your artifact.|
+T A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
+A Artifact Specific Quest|QID|42001^40267^42452|M|59.08,42.86|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|41085|
+R Portal to Dalaran|QID|42001^40267^42452|M|62.57,51.56|Z|The Guardian's Library@Hall of the Guardian!Dungeon|CC|N|If you chose the frost artifact stay put, otherwise take the portal to Dalaran|ACTIVE|42001&40267&42452|
+T Growing Power|QID|42175|M|55.30,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm|
+A Rise, Champions|QID|42663|M|55.37,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm|PRE|41141|
+A Champion: Archmage Modera|QID|42685|ACTIVE|42663|M|55.23,39.47|Z|The Guardian's Library@Hall of the Guardian!Dungeon|S|US|N|From/To Archmage Modera.|
+A Champion: Archmage Kalec|QID|42662|ACTIVE|42663|M|56.28,37.84|Z|The Guardian's Library@Hall of the Guardian!Dungeon|S|US|N|From/To Archmage Kalec.|
+C Rise, Champions|QID|42663|M|55.79,38.63|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|Recruit Modera and Kalec|
+T Rise, Champions|QID|42663|M|55.37,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
+A Technical Wizardry|QID|42703|PRE|41141|M|55.30,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|
 T Technical Wizardry|QID|42703|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
 A Archmage Omniara|QID|42126|PRE|42703|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
 C Archmage Omniara|QID|42126|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
@@ -61,8 +61,8 @@ A Recruiting Apprentices|QID|44098|PRE|42433|M|80.92,63.04|Z|Hall of the Guardia
 C Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
 T Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|To Grand Conjurer Mimic.|
 A An Unexpected Visitor|QID|42418|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|PRE|42433|
-T An Unexpected Visitor|QID|42418|M|61.82,60.00|Z|The Guardian's Library@MageClassShrine|N|To Ravandwyr.|
-A A Covert Operation|QID|42434|M|61.82,60.00|Z|The Guardian's Library@MageClassShrine|N|From Ravandwyr.|PRE|42418|
+T An Unexpected Visitor|QID|42418|M|61.82,60.00|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ravandwyr.|
+A A Covert Operation|QID|42434|M|61.82,60.00|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Ravandwyr.|PRE|42418|
 C A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|Go to Azsuna and find him at the Empyrean Society. (nearest flightpath is Felblaze Ingress)|
 T A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|To Ravandwyr.|
 A Prepare To Be Assimilated|QID|42435|M|64.9,37.8|Z|Azsuna|N|From Ravandwyr.|PRE|42434|
@@ -93,10 +93,10 @@ C Final Exit|QID|42171|M|66.17,32.63|Z|Azsuna|QO|3|N|Loot Missive from Chest.|
 T Final Exit|QID|42171|M|66.08,32.32|Z|Azsuna|N|To Ravamdwyr.|
 A Empyrean Society Report|QID|42222|M|66,32.4|Z|Azsuna|N|From Ravandwyr.|PRE|42171|
 C Empyrean Society Report|QID|42222|N|Use Teleport: Hall of the Guardian.|
-T Empyrean Society Report|QID|42222|M|72.84,55.66|Z|The Guardian's Library@MageClassShrine|N|To Archmage Khadgar, who is moving about.|
-A Champion: Esara Verrinde|QID|42706|M|74.04,59.61|Z|The Guardian's Library@MageClassShrine|N|From/To Esara Verrinde.|PRE|42222|
-A Champion: Ravandwyr|QID|42705|M|70.36,53.24|Z|The Guardian's Library@MageClassShrine|N|From/To Ravamdwyr.|PRE|42222|
-A The Council is in Session|QID|42416|M|72.84,55.66|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar, who is moving about.|PRE|42222|
+T Empyrean Society Report|QID|42222|M|72.84,55.66|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Khadgar, who is moving about.|
+A Champion: Esara Verrinde|QID|42706|M|74.04,59.61|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From/To Esara Verrinde.|PRE|42222|
+A Champion: Ravandwyr|QID|42705|M|70.36,53.24|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From/To Ravamdwyr.|PRE|42222|
+A The Council is in Session|QID|42416|M|72.84,55.66|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar, who is moving about.|PRE|42222|
 T The Council is in Session|QID|42416|M|28.41,49.51|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Ansirem Runeweaver located in the Violet Citadel.|
 A Archmage Vargoth's Retreat|QID|42423|M|28.41,49.51|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Ansirem Runeweaver.|PRE|42416|
 C Archmage Vargoth's Retreat|QID|42423|M|28.96,49.67|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Take the portal to enter Vargoth's quarters.|
@@ -135,9 +135,9 @@ C Impending Dooooooom!|QID|42493|M|45.76,66.03|Z|Suramar/24|QO|4|N|Slay Lady Kyr
 T Impending Dooooooom!|QID|42493|M|41.81,60.31|Z|Suramar/24|N|To Image of Kalec.|
 A A Terrible Loss|QID|42520|M|41.81,60.31|Z|Suramar/24|N|From Image of Kalec.|PRE|42493|
 $ Treasure Chest|QID|99999|M|38.65,43.42|Z|Suramar/24|N|Loot Protected Treasure|ACTIVE|42520|
-T A Terrible Loss|QID|42520|M|70.89,55.31|Z|The Guardian's Library@MageClassShrine|N|To Archmage Khadgar.|
-A A Magical Affliction|QID|42707|M|73.41,56.15|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42520|
-A When There's a Will, There's a Way|QID|42940|M|73.41,56.15|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar.  (Champion Missions)|PRE|42520|
+T A Terrible Loss|QID|42520|M|70.89,55.31|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Khadgar.|
+A A Magical Affliction|QID|42707|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42520|
+A When There's a Will, There's a Way|QID|42940|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar.  (Champion Missions)|PRE|42520|
 C When There's a Will, There's a Way|QID|42940|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|NC|N|Send your followers on "Oculus" missions. Check this off manualy to progress your guide before all 5 missions are completed.|
 t When There's a Will, There's a Way|QID|42940|M|71.63,55.72|Z|Hall of the Guardian!Dungeon|N|To Archamge Khadgar|
 A Into the Oculus|QID|42734|M|71,55.4|N|From Archmage Khadgar.|PRE|42940|
@@ -150,10 +150,10 @@ A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|
 C The Proper Way of Things|QID|42955|M|46.11,73.75|Z|Suramar|U|138965|N|Collect Phials of Nightwell Energy.|
 T The Proper Way of Things|QID|42955|M|37.64,48.00|Z|Hall of the Guardian!Dungeon|N|To Ari.|
 A Ari's Package|QID|42956|M|37.64,48.00|Z|Hall of the Guardian!Dungeon|N|From Ari.|PRE|42955|
-T Ari's Package|QID|42956|M|73.05,56.76|Z|The Guardian's Library@MageClassShrine|N|To Archmage Khadgar.|
-A Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42956|
-t Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@MageClassShrine|N|To Ari. (Dungeon Quest)|PRE|42956|
-A An Unclear Path|QID|44466|M|84.63,46.53|Z|The Guardian's Library@MageClassShrine|N|From Light's Heart {Xe'ra}.|PRE|42940|
+T Ari's Package|QID|42956|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian|N|To Archmage Khadgar.|
+A Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42956|
+t Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ari. (Dungeon Quest)|PRE|42956|
+A An Unclear Path|QID|44466|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Light's Heart {Xe'ra}.|PRE|42940|
 C An Unclear Path|QID|44466|M|45.35,34.15|Z|Val'sharah|N|Witness Illidan's Resilience.|
 T An Unclear Path|QID|44466|M|83.40,32.72|Z|Hall of the Guardian!Dungeon|N|To Light's Heart {Xe'ra}|
 A Ravencrest's Legacy|QID|44479|M|83.40,32.72|Z|Hall of the Guardian!Dungeon|N|From Light's Heart {Xe'ra}|PRE|44466|
@@ -332,7 +332,7 @@ N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide H
 C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|57.37,90.31|Z|Hall of the Guardian!Dungeon|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 ; LVL 110 Quests
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|44337^44338|
-C In the House of Light and Shadow|QID|44448|M|84.63,46.53|Z|The Guardian's Library@MageClassShrine|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
+C In the House of Light and Shadow|QID|44448|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
 A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|
 C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran!Dalaran!Dungeon|QO|1|N|1/1 Handful of Obliterum Ash|
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|

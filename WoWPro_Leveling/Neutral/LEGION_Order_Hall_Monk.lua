@@ -397,6 +397,10 @@ A The Fight Begins|QID|40795|M|52.75,59.79|N|From Master Hsu.|PRE|40793|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|52.96,60.19|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40795|
 T The Fight Begins|QID|40795|M|52.75,59.79|N|To Master Hsu.|
 N Items to acquire|QID|43054|N|One of the last steps in your order hall to complete, is a quest to gather supplies.  You will need to turn in a total of 100 items(5 at a time). Highmountain Salmon, Spiced Rib Roast, and Silkweave Bandages. If you want to get thru that quest quickly, acquire and store these items.|
+; coming back after finishing Zone AND doing dungeon...  need more?
+C Pressing the Assualt|ACTIVE|44545|M|52.91,60.16|N|Select next Zone at the Scouting Map.|
+t Pressing the Assualt|QID|44545|M|PLAYER|N|To UI Alert.|
+
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
