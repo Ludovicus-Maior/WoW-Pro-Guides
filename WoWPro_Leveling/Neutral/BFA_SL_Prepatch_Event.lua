@@ -46,7 +46,7 @@ T Damned Intruders|QID|60766|M|73.49,47.21|Z|Duskwood|N|To Lieutenant Vernon.|FA
 A Return of the Scourge|QID|60767|M|73.49,47.21|Z|Duskwood|N|From Lieutenant Vernon.|PRE|60766|FACTION|Alliance|
 T Return of the Scourge|QID|60767|M|65.70,77.06|Z|Stormwind City|N|To Commander Gregor.|FACTION|Alliance|
 A A Message from Icecrown|QID|59877|M|65.70,77.06|Z|Stormwind City|N|From Commander Gregor.|PRE|60767|FACTION|Alliance|
-A The Banshee's Champion|QID|61486|M|65.54,76.99|Z|Stormwind City|ELITE|N|[color=ff8000]WQ Raid: [/color]From Commander Gregor.|PRE|60767|FACTION|Alliance|
+A The Banshee's Champion|QID|61486|M|65.54,76.99|Z|Stormwind City|ELITE|N|[color=ff8000]WQ Raid: [/color]From Light's Hope Messenger.|PRE|60767|FACTION|Alliance|
 R Wizard's Sanctum|QID|59877|M|49.36,86.93|Z|Stormwind City|N|Fly to the Wizard Sanctum.|FACTION|Alliance|
 P Dalaran|QID|59877|M|44.38,88.69|Z|Stormwind City|N|Run up the Wizard sanctum to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Alliance|
 
