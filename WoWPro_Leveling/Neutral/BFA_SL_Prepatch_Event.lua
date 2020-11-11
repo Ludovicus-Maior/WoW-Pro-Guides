@@ -36,21 +36,21 @@ T Cause for Distraction|QID|60116|M|39.44,64.15|Z|Stormwind City|N|To Genn Greym
 A Return of the Crusade|QID|60117|M|39.44,64.15|Z|Stormwind City|N|From Genn Greymane.|PRE|60116|FACTION|Alliance|
 T Return of the Crusade|QID|60117|M|65.70,77.08|Z|Stormwind City|N|To Commander Gregor.|FACTION|Alliance|
 A Field Reports|QID|59876|M|65.70,77.08|Z|Stormwind City|N|From Commander Gregor.|PRE|60117|FACTION|Alliance|
-C Field Reports|QID|59876|M|42.13,66.57|Z|Elwynn Forest|QO|1|CHAT|N|Speak with Crusader Lenna in Goldshire.|FACTION|Alliance|
-C Field Reports|QID|59876|M|16.92,63.82|Z|Redridge Mountains|QO|2|CHAT|N|Speak with Guard Captain Josephine at Three Corners.|FACTION|Alliance|
+C Field Reports|QID|59876|M|42.13,66.57|Z|Elwynn Forest|QO|1|CHAT|N|Speak with Crusader Lenna at Goldshire in Elwynn Forest.|FACTION|Alliance|
+C Field Reports|QID|59876|M|16.92,63.82|Z|Redridge Mountains|QO|2|CHAT|N|Speak with Guard Captain Josephine at Three Corners in Redridge Mountains.|FACTION|Alliance|
 C Field Reports|QID|59876|M|93.72,11.92|Z|Duskwood|QO|3|CHAT|N|Speak with Guard Captain Fairbanks in Duskwood.|FACTION|Alliance|
-T Field Reports|QID|59876|M|73.49,47.19|Z|Duskwood|N|To Lieutenant Vernon.|FACTION|Alliance|
+T Field Reports|QID|59876|M|73.49,47.19|Z|Duskwood|N|To Lieutenant Vernon in Darkshire.|FACTION|Alliance|
 A Damned Intruders|QID|60766|M|73.49,47.19|Z|Duskwood|N|From Lieutenant Vernon.|PRE|59876|FACTION|Alliance|
 C Damned Intruders|QID|60766|M|74.84,45.46|Z|Duskwood|N|Kill Scourge around the area, be mindful of fighting in the middle of town, the frost wyrms like to freeze you.|FACTION|Alliance|
 T Damned Intruders|QID|60766|M|73.49,47.21|Z|Duskwood|N|To Lieutenant Vernon.|FACTION|Alliance|
 A Return of the Scourge|QID|60767|M|73.49,47.21|Z|Duskwood|N|From Lieutenant Vernon.|PRE|60766|FACTION|Alliance|
-T Return of the Scourge|QID|60767|M|65.70,77.06|Z|Stormwind City|N|To Commander Gregor.|FACTION|Alliance|
+T Return of the Scourge|QID|60767|M|65.70,77.06|Z|Stormwind City|N|To Commander Gregor in Stormwind City.|FACTION|Alliance|
 A A Message from Icecrown|QID|59877|M|65.70,77.06|Z|Stormwind City|N|From Commander Gregor.|PRE|60767|FACTION|Alliance|
 A The Banshee's Champion|QID|61486|M|65.54,76.99|Z|Stormwind City|ELITE|N|[color=ff8000]WQ Raid: [/color]From Light's Hope Messenger.|PRE|60767|FACTION|Alliance|
-R Wizard's Sanctum|QID|59877|M|49.36,86.93|Z|Stormwind City|N|Fly to the Wizard Sanctum.|FACTION|Alliance|
-P Dalaran|QID|59877|M|44.38,88.69|Z|Stormwind City|N|Run up the Wizard sanctum to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Alliance|
+;R Wizard's Sanctum|QID|59877|M|49.36,86.93|Z|Stormwind City|N|Fly to the Wizard Sanctum.|FACTION|Alliance|
+;P Dalaran|QID|59877|M|44.38,88.69|Z|Stormwind City|N|Run up the Wizard sanctum to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Alliance|
 
-T A Message from Icecrown|QID|59877^60727|M|71.05,21.99|Z|Icecrown|N|To Justicar Mariel Trueheart.|
+T A Message from Icecrown|QID|59877^60727|M|71.05,21.99|Z|Icecrown|N|To Justicar Mariel Trueheart at the Argent Tournament Grounds in Icecrown, Northrend. If you have the [item=46874], now's the time to wear it and use it. Otherwise, use the portal to Dalaran Crystalsong Forest in Stormwind's Portal Room (Wizard's Sanctum).|U|46874|
 A Securing the Area|QID|60169|M|71.05,21.99|Z|Icecrown|N|From Justicar Mariel Trueheart.|PRE|59877^60727|
 A A Valiant Effort|QID|60003^60004|M|71.02,22.02|Z|Icecrown|N|From Crusader Renn.|PRE|59877^60727|
 C Securing the Area|QID|60169|M|71.50,23.46|Z|Icecrown|S|N|Kill Scourge around the area.|
