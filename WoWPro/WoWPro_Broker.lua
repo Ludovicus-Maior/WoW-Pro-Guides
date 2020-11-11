@@ -2556,7 +2556,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
 
                 if timeMet ~= dateFlip then
-                    WoWPro.CompleteStep(guideIndex, "NextStep(): Server time ["..date("%m/%d/%y %H:%M", epoch).."] is less than "..date("%m/%d/%y %H:%M", serverdate)..".")
+                    WoWPro.why[guideIndex] = "NextStep(): Server time ["..date("%m/%d/%y %H:%M", epoch).."] is less than "..date("%m/%d/%y %H:%M", serverdate).."."
                     skip = true
                 else
                     WoWPro.why[guideIndex] = "NextStep(): Date of ["..date("%m/%d/%y %H:%M", serverdate).."] hasn't happened yet."
