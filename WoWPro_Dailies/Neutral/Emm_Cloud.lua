@@ -3,7 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 local guide = WoWPro:RegisterGuide("EmmCloud",'Dailies', "The Jade Forest", "Emmaleah", "Neutral")
-WoWPro:GuideLevels(guide,90,90,90)
 WoWPro.Dailies:GuideFaction(guide,1271) --  "Order of the Cloud Serpent Dailies"
 WoWPro:GuideSteps(guide, function()
 
