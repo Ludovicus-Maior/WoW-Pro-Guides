@@ -18,23 +18,23 @@ T Down to Azsuna|QID|41220|M|45.11,42.92|N|To Archmage Khadgar.|
 A Into the Fray|QID|38834^44137|PRE|41220|M|45.11,42.92|N|From Archmage Khadgar.| ; PRE not needed but left, quest avail without 11/9/2020
 f Illidari Stand|ACTIVE|38834^44137|M|44.59,43.85|N|At Izal Whitemoon.|
 T Into the Fray|QID|38834^44137|M|43.55,43.45|N|To Kayn Sunfury / Altruis the Sufferer.|
-T Our New Allies|QID|39934|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|  ; might needed Legion modifier (applies to ALL Profs, need to verify)
-A The Price of Power|QID|39935|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|PRE|39934|
+T Our New Allies|QID|39934|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773;6|  ; might needed Legion modifier (applies to ALL Profs, need to verify)
+A The Price of Power|QID|39935|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773;6|PRE|39934|
 A Demon Souls|QID|37653|PRE|44137^38834|M|43.29,43.16|N|From Allari the Souleater.|
 A Reignite the Wards|QID|37658|PRE|44137^38834|M|43.15,43.60|N|From Jace Darkweaver.|
 K Kill Ravyn-Drath|QID|37537|QO|1|M|41.14,41.89|T|Ravyn-Drath|ITEM|129080|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Demon Souls|QID|37653|U|122100|QO|1|M|41.58,44.85|S|N|Kill demons as you go and use the gem to trap their souls.|
-C The Price of Power|QID|39935|M|41.58,44.85|S|N|And kill more demons to learn the glyph.|P|Inscription;773|
+C The Price of Power|QID|39935|M|41.58,44.85|S|N|And kill more demons to learn the glyph.|P|Inscription;773;6|
 C Reignite the Wards|QID|37658|QO|3|M|42.20,43.32|NC|N|Click the North Ward to reignite.|
 C Reignite the Wards|QID|37658|QO|2|M|41.86,44.89|NC|N|Click the West Ward to reignite.|
 C Reignite the Wards|QID|37658|QO|1|M|42.24,46.42|NC|N|Click the South Ward to reignite.|
-C The Price of Power|QID|39935|M|41.58,44.85|US|N|And kill more demons to learn the glyph.|P|Inscription;773|
+C The Price of Power|QID|39935|M|41.58,44.85|US|N|And kill more demons to learn the glyph.|P|Inscription;773;6|
 C Demon Souls|QID|37653|U|122100|QO|1|M|42.24,46.42|N|Finish up killing demons and use the gem to trap their souls.|US|
 T Reignite the Wards|QID|37658|M|43.14,43.60|N|To Jace Darkweaver.|
-T The Price of Power|QID|39935|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|
+T The Price of Power|QID|39935|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773;6|
 T Demon Souls|QID|37653|M|43.28,43.16|N|To Allari the Souleater.|
-A Scribal Knowledge|QID|39939|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|PRE|39935|
-A Inscription of the Body|QID|39936|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|PRE|39935|
+A Scribal Knowledge|QID|39939|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773;6|PRE|39935|
+A Inscription of the Body|QID|39936|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773;6|PRE|39935|
 A The Scythe of Souls|QID|37660|PRE|37653|M|43.28,43.16|N|From Allari the Souleater.|
 C The Scythe of Souls|QID|37660|QO|1|M|44.38,44.63|N|Chat with Allari, Tell her you are ready.|CHAT|
 C The Scythe of Souls|QID|37660|QO|2|M|44.56,44.73|N|Click on the crystal to release the demon soul.|NC|
@@ -133,14 +133,14 @@ C Runas Knows the Way|QID|37857|QO|1|M|53.50,16.68|CHAT|N|Tell Runas, to just le
 T Runas Knows the Way|QID|37857|M|53.38,16.21|N|To Projection of Senegos.|
 A Leyline Abuse|QID|37960|PRE|37857|M|53.38,16.21|N|From Projection of Senegos.|
 A The Hunger Returns|QID|37959|PRE|37857|M|53.78,16.82|N|From Runas the Shamed.|
-T Inscription of the Body|QID|39936|M|54.00,15.28|N|To Baric Stormrunner.|P|Inscription;773|
-A Opposites Repel|QID|39937|M|54.00,15.28|N|From Baric Stormrunner.|P|Inscription;773|PRE|39936|
+T Inscription of the Body|QID|39936|M|54.00,15.28|N|To Baric Stormrunner.|P|Inscription;773;6|
+A Opposites Repel|QID|39937|M|54.00,15.28|N|From Baric Stormrunner.|P|Inscription;773;6|PRE|39936|
 $ Treasure Chest|QID|42339|M|51.75,17.36;52.82,20.04;54.03,22.42;52.84,20.58|CS|N|You can walk, avoiding the sleeping bears to get to this treasure. Loot for some resources and treasure.|RANK|3|
 K Kill Cailyn Paledoom|QID|38268|M|54.03,22.37;52.43,22.90|CS|ITEM|129063|T|Cailyn Paledoom|N|Silver-Kill and Loot for a bit of treasure and resources.|RANK|3|RARE|
 A Those Beyond Redemption-Bonus Objective|QID|37963|PRE|37857|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|LVL|-44|
 C Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|S|US|N|Click on the mana siphons and kill mobs in the area to advance the objective.|RANK|2|
 $ Small Treasure Chest|QID|44104|M|53.61,18.13|N|Loot for a bit of treasure and resources.|RANK|2|
-C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773|
+C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773;6|
 C The Hunger Returns|QID|37959|M|55.62,17.50|S|N|Kill and loot the nightfallen for their charged mana jewels.|
 $ Treasure Chest|QID|40711|M|55.56,18.65|N|Click on this ley portal to be teleported to the top of the building where you will find a treasure chest containing an item and some resources.|RANK|2|
 K Leyline Abuse|QID|37960|QO|2|M|56.68,17.60|T|Ishkaneth|N|Kill Ishkaneth.|
@@ -156,15 +156,15 @@ A You Scratch My Back...|QID|37860|PRE|37959&37960|M|53.77,16.81|N|From Runas th
 C You Scratch My Back...|QID|37860|QO|1;3;2;4|CS|M|56.40,15.22;56.91,13.84;56.39,13.85;55.59,13.67|NC|N|Click on your special action button to send in the whelplings to disable the mana pylons.|EAB|
 $ Treasure Chest|QID|37958|M|57.89,12.23|N|Treasure chest containing items and resources.|RANK|2|
 T You Scratch My Back...|QID|37860|M|56.90,14.01|N|To UI Alert.|
-C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|US|N|Kill and loot the Nightfallen for their Ley Dust.|P|Inscription;773|
-C Opposites Repel|QID|39937|QO|2|M|54.00,15.31|N|Combine the ley dust into a pigment.|U|129105|P|Inscription;773|
-T Opposites Repel|QID|39937|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription;773|
-A Containing the Demon Within|QID|39938|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription;773|PRE|39937|
-C Containing the Demon Within|QID|39938|QO|1|M|54.00,15.31|CHAT|N|Tell Baric Stormrunner you are ready.|P|Inscription;773|
-C Containing the Demon Within|QID|39938|QO|2|M|53.92,15.28|NC|N|Click on the essence pool.|P|Inscription;773|
-C Containing the Demon Within|QID|39938|QO|3|M|53.85,15.12|NC|N|Click on the essence pool.|P|Inscription;773|
-C Containing the Demon Within|QID|39938|QO|4|M|53.76,15.34|NC|N|Click on the essence pool.|P|Inscription;773|
-T Containing the Demon Within|QID|39938|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription;773|
+C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|US|N|Kill and loot the Nightfallen for their Ley Dust.|P|Inscription;773;6|
+C Opposites Repel|QID|39937|QO|2|M|54.00,15.31|N|Combine the ley dust into a pigment.|U|129105|P|Inscription;773;6|
+T Opposites Repel|QID|39937|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription;773;6|
+A Containing the Demon Within|QID|39938|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription;773;6|PRE|39937|
+C Containing the Demon Within|QID|39938|QO|1|M|54.00,15.31|CHAT|N|Tell Baric Stormrunner you are ready.|P|Inscription;773;6|
+C Containing the Demon Within|QID|39938|QO|2|M|53.92,15.28|NC|N|Click on the essence pool.|P|Inscription;773;6|
+C Containing the Demon Within|QID|39938|QO|3|M|53.85,15.12|NC|N|Click on the essence pool.|P|Inscription;773;6|
+C Containing the Demon Within|QID|39938|QO|4|M|53.76,15.34|NC|N|Click on the essence pool.|P|Inscription;773;6|
+T Containing the Demon Within|QID|39938|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription;773;6|
 t Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|N|Auto turned in when complete.|RANK|2|
 C The Nightborne Prince|QID|37861|QO|1|M|56.12,13.3; 57.58,12.44|N|Stairway up to Ael'Yith starts here.|CS|T|Ael'Yith|
 T The Nightborne Prince|QID|37861|M|57.55,13.52|N|To Stellagosa.|
@@ -212,9 +212,9 @@ A Our Very Bones|QID|37257|PRE|37733|M|47.00,41.36|N|From Prince Farondis.|
 A A Rather Long Walk|QID|37492|PRE|37256|M|47.06,41.47|N|From Lady Irisse.|
 A The Magister of Mixology|QID|37727|PRE|37256|M|47.12,41.42|N|From Magister Garuhod.|
 A Presentation is Everything|QID|37728|PRE|37256|M|47.12,41.42|N|From Magister Garuhod.|
-T Links in the Chain|QID|40187|M|47.52,44.17|P|Leatherworking;165|N|To Celea|
-A Best Served Cold|QID|40188|PRE|40187|M|47.52,44.17|P|Leatherworking;165|N|From Celea.|
-A Naga Know-How|QID|40189|PRE|40187|M|47.52,44.17|P|Leatherworking;165|N|From Celea.|
+T Links in the Chain|QID|40187|M|47.52,44.17|P|Leatherworking;165;6|N|To Celea|
+A Best Served Cold|QID|40188|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|N|From Celea.|
+A Naga Know-How|QID|40189|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|N|From Celea.|
 C Our Very Bones|QID|37257|QO|1|M|51.09,38.17|N|Kill murlocs to retrieve the pilfered bones.|S|
 A Bottled Up|QID|38407|M|49.65,39.32|N|From 'Okuna's Message' looted from Salteye mobs.|
 K Kill Mrrgrl the Tide Reaver|QID|37823|QO|1|M|50.09,34.54|ITEM|129072|T|Mrrgrl the Tide Reaver|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
@@ -240,7 +240,7 @@ A Nar'thalas Still Suffers|QID|37486|PRE|37497|M|51.80,44.28|N|From Prince Faron
 C The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|S|US|N|As you go killing the things you run into and freeing the bound citizens will advance this objective.|RANK|2|
 A You Never Know Until You Scry|QID|42693|M|53.38,45.43|N|From Olothil Starlance.|RANK|2|
 A Children of Nar'thalas|QID|42692|M|53.27,45.31|N|From Kallistia Starlance.|RANK|2|
-C Naga Know-How|QID|40189|PRE|40187|M|53.86,42.85|P|Leatherworking;165|QO|1|S|N|Kill the Naga for the Shoulderguards|
+C Naga Know-How|QID|40189|PRE|40187|M|53.86,42.85|P|Leatherworking;165;6|QO|1|S|N|Kill the Naga for the Shoulderguards|
 C You Never Know Until You Scry|QID|42693|M|55.62,43.57|S|N|Kill the naga to collect the Glyptics.|RANK|2|
 C Children of Nar'thalas|QID|42692|QO|1|M|53.02,43.75|NC|N|The first tome is lying here.|RANK|2|
 $ Small Treasure Chest|QID|42282|M|53.61,44.15|N|Loot for a bit of treasure and resources. Its between the pillar and the wall.|RANK|2|
@@ -262,8 +262,8 @@ $ Glimmering Treasure Chest|QID|37830|M|58.36,43.78|ITEM|131795|N|Loot for a bit
 C Nar'thalas Still Suffers|QID|37486|QO|1|M|55.58,48.10|T|Athissa|N|Defeat Athissa.|
 K Kill Brawlgoth|QID|42450|QO|1|M|55.23,43.95|T|Brawlgoth|N|Silver - Kill and loot for a bit of treasure and resources.|ITEM|129086|RANK|2|RARE|
 C Back from the Dead|QID|42694|QO|4|M|54.47,45.56|NC|N|Search near the plaza fountain.|RANK|2|
-C Naga Know-How|QID|40189|PRE|40187|M|53.86,42.85|P|Leatherworking;165|QO|1|US|N|Kill the Naga for the Shoulderguards|
-C Best Served Cold|QID|40188|M|57.39,40.47|P|Leatherworking;165|QO|1|N|Kill Ranaris.|
+C Naga Know-How|QID|40189|PRE|40187|M|53.86,42.85|P|Leatherworking;165;6|QO|1|US|N|Kill the Naga for the Shoulderguards|
+C Best Served Cold|QID|40188|M|57.39,40.47|P|Leatherworking;165;6|QO|1|N|Kill Ranaris.|
 T Back from the Dead|QID|42694|M|53.30,45.43|N|To Olothil Starlance.|RANK|2|
 T Nar'thalas Still Suffers|QID|37486|M|51.80,44.31|N|To Prince Farondis.|
 A The Walk of Shame|QID|37467|PRE|37486|M|51.80,44.31|N|From Prince Farondis.|
@@ -331,9 +331,9 @@ $ Small Treasure Chest|QID|42293|M|63.64,39.18|N|Loot for a bit of treasure and 
 K Kill Golza the Iron Fin|QID|42372|ACH|11261;2|M|65.17,40.02|N|Silver - Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091|T|Golza the Iron Fin|RANK|2|RARE|; There are ACH's for all silvers in this zone.
 t Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|N|Auto turned in when complete.|RANK|2|
 R Felblaze Ingress|QID|42372|M|63.86,28.92|N|Ride to the Felblaxe Ingress.|RANK|3|FLY|LEGION|
-T Scribal Knowledge|QID|39939|M|65.07,25.94|N|To Zarla Shadowheart.|P|Inscription;773|
-A Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|PRE|39939|
-A Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|PRE|39939|
+T Scribal Knowledge|QID|39939|M|65.07,25.94|N|To Zarla Shadowheart.|P|Inscription;773;6|
+A Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773;6|PRE|39939|
+A Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773;6|PRE|39939|
 f Felblaze Ingress|ACTIVE|42372|M|63.82,28.48|N|At Adept Sunwing.|RANK|3|
 T Felblaze Ingress|QID|42372|M|63.86,28.92|N|To Tehd Shoemaker.|RANK|3|
 A Eye See You|QID|42375|M|63.86,28.92|N|From Tehd Shoemaker.|RANK|3|
@@ -346,28 +346,28 @@ A Quantity Over Quality|QID|42368|PRE|42375|M|63.88,28.88|N|From Marius Felbane.
 A Arkethrax|QID|42367|PRE|42375|M|63.88,28.88|N|From Marius Felbane.|RANK|3|
 C Quantity Over Quality|QID|42368|M|67.83,26.99|N|Kill demons as you go along.|S|RANK|3|
 $ Small Treasure Chest|QID|42958|M|65.47,29.56|N|Loot for a bit of treasure and resources.|RANK|3|
-C Runes of Power|QID|39940|M|67.85,28.07|S|NC|N|The runes are here on the ground on each side of the portal.|P|Inscription;773|
+C Runes of Power|QID|39940|M|67.85,28.07|S|NC|N|The runes are here on the ground on each side of the portal.|P|Inscription;773;6|
 C They're Doing it Wrong|QID|42369|NC|M|67.85,28.07|N|Two stabilizers need sabatoged on each side of the portal.|RANK|3|
-C Runes of Power|QID|39940|M|67.85,28.07|US|NC|N|Finish examining the runes.|P|Inscription;773|
-C Control is Key|QID|39941|M|68.46,26.17|T|Overseer Felorax|NC|N|Click on the fel totem to summon Overseer Felorax.|P|Inscription;773|
+C Runes of Power|QID|39940|M|67.85,28.07|US|NC|N|Finish examining the runes.|P|Inscription;773;6|
+C Control is Key|QID|39941|M|68.46,26.17|T|Overseer Felorax|NC|N|Click on the fel totem to summon Overseer Felorax.|P|Inscription;773;6|
 $ Small Treasure Chest|QID|44103|M|69.16,25.93;69.77,29.57;68.87,29.73|CS|N|In an underwater cave. Loot for a bit of treasure and resources.|RANK|3|
 C Arkethrax|QID|42367|QO|1|M|67.32,30.70|N|Kill Arkethrax|T|Arkethrax|RANK|3|
 C Quantity Over Quality|QID|42368|QO|1|M|67.83,26.99|N|Finish up any demons still needed.|US|RANK|3|
 T Quantity Over Quality|QID|42368|M|63.88,28.88|N|To Marius Felbane.|RANK|3|
 T Arkethrax|QID|42367|M|63.88,28.88|N|To Marius Felbane.|RANK|3|
 T They're Doing it Wrong|QID|42369|M|63.86,28.94|N|To Tehd Shoemaker.|RANK|3|
-T Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|
-T Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|
-A The Burdens of Hunting|QID|39943|M|65.07,25.96|N|From Zarla Shadowheart.|P|Inscription;773|PRE|39941&39940|
+T Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773;6|
+T Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773;6|
+A The Burdens of Hunting|QID|39943|M|65.07,25.96|N|From Zarla Shadowheart.|P|Inscription;773;6|PRE|39941&39940|
 R The Empyrean Society Enclave|QID|38419|M|63.54,33.2|N|Take the road to the left if you want to get through without fighting. Continue on ths road towards Olivian Veil.|RANK|3|FLY|LEGION|
 R The Greenway|QID|38419|M|62.56,34.56|N|Side jaunt for a Silver and 3 chests.|RANK|3|FLY|LEGION|
-T Consult the Locals|QID|38946|M|60.00,34.48|N|To Lyndras.|P|Tailoring;197|
-A Runic Catgut|QID|38947|M|60.00,34.48|N|From Lyndras.|P|Tailoring;197|PRE|38946|
-A Hard Times|QID|38948|M|60.00,34.48|N|From Lyndras.|P|Tailoring;197|PRE|38946|
+T Consult the Locals|QID|38946|M|60.00,34.48|N|To Lyndras.|P|Tailoring;197;6|
+A Runic Catgut|QID|38947|M|60.00,34.48|N|From Lyndras.|P|Tailoring;197;6|PRE|38946|
+A Hard Times|QID|38948|M|60.00,34.48|N|From Lyndras.|P|Tailoring;197;6|PRE|38946|
 $ Treasure Chest|QID|38419|M|57.15,31.06|N|Loot for a bit of treasure and resources.|RANK|3|
-C Runic Catgut|QID|38947|M|57,31|S|N|Kill cats until you collect the catgut needed.|P|Tailoring;197|
+C Runic Catgut|QID|38947|M|57,31|S|N|Kill cats until you collect the catgut needed.|P|Tailoring;197;6|
 K Kill Pridelord Meowl|QID|38061|QO|1|M|56.05,28.91|T|Pridelord Meowl|ITEM|138395|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
-C Runic Catgut|QID|38947|M|57,31|US|N|Kill cats until you collect the catgut needed.|P|Tailoring;197|
+C Runic Catgut|QID|38947|M|57,31|US|N|Kill cats until you collect the catgut needed.|P|Tailoring;197;6|
 $ Small Treasure Chest|QID|42288|M|55.36,27.74|N|Loot for a bit of treasure and resources.|RANK|3|
 $ Small Treasure Chest|QID|42338|M|55.70,25.48;57.19,25.23|CS|N|Loot for a bit of treasure and resources.|RANK|3|
 R Olivian Veil|QID|40751|M|60.98,34.67;65.84,37.26;66.06,43.44|CS|N|Back to questing.|RANK|3|FLY|LEGION|
@@ -393,10 +393,10 @@ $ Small Treasure Chest|QID|40752|M|58.64,53.38|N|Loot for a bit of treasure and 
 $ Small Treasure Chest|QID|44405|M|54.87,52.13|N|Loot for a bit of treasure and resources. Be aware. the NPCs in the alcove with you will take offense at you looting their treasure.|RANK|2|
 K Kill Warbringer Mox'na|QID|37909|ITEM|129069|M|51.34,56.19|T|Warbringer Mox'na|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
 $ Small Treasure Chest|QID|38370|M|49.41,57.98|N|You always wanted to be a wedding crasher... right? Kill the Bride and Groom as they object to you stealing their gifts. Loot for a bit of treasure and resources.|RANK|3|
-T Best Served Cold|QID|40188|PRE|40187|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
-T Naga Know-How|QID|40189|PRE|40187|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
-A A Daring Rescue|QID|40195|PRE|40188&40189|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
-A Reclaimed Cargo|QID|40194|PRE|40188&40189|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
+T Best Served Cold|QID|40188|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|N|To Celea.|
+T Naga Know-How|QID|40189|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|N|To Celea.|
+A A Daring Rescue|QID|40195|PRE|40188&40189|M|47.52,44.17|P|Leatherworking;165;6|N|To Celea.|
+A Reclaimed Cargo|QID|40194|PRE|40188&40189|M|47.52,44.17|P|Leatherworking;165;6|N|To Celea.|
 R Shipwreck Arena|QID|37496|M|50.64,44.27|N|Run back past Narthalas Academy and to the Shipwreck Arena.|RANK|-1|FLY|LEGION|
 R Shipwreck Arena|QID|37496|M|46.14,45.00;47.99,45.51|CS|N|Run Down the Old Coast Path and to the Shipwreck Arena.|RANK|2|FLY|LEGION|
 T Infiltrating Shipwreck Arena|QID|37496|M|50.00,48.51|N|To Okuna Longtusk.|
@@ -421,14 +421,14 @@ C Round 1, Fight!|QID|37538|M|47.93,48.67|N|Tell Sternfathom you are ready.|
 T Round 1, Fight!|QID|37538|M|43.62,24.67|Z|Oceanus Cove|N|To Okuna Longtusk's pack.|
 A Plunder the Cove-Bonus Objective|QID|37495|PRE|37538|M|43.62,24.67|Z|Oceanus Cove|N|Auto-accepted when you enter the area.|RANK|2|LVL|-44|
 A The Right Weapon for the Job|QID|37565|PRE|37538|M|43.62,24.67|Z|Oceanus Cove|N|From Okuna's pack.|RANK|2|
-C Reclaimed Cargo|QID|40194|M|46.48,59.32|Z|Oceanus Cove|P|Leatherworking;165|QO|1|S|US|N|Find Crates scattered throughout.|
+C Reclaimed Cargo|QID|40194|M|46.48,59.32|Z|Oceanus Cove|P|Leatherworking;165;6|QO|1|S|US|N|Find Crates scattered throughout.|
 C Plunder the Cove-Bonus Objective|QID|37495|M|43.62,24.67|Z|Oceanus Cove|S|US|N|Killing mobs, and clicking on the Skrog weapons advances the objective.|RANK|2|
 C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|Z|Oceanus Cove|S|US|N|Click on the quest item whenever you are near some prisoners.|RANK|2|
 $ Glimmering Treasure Chest|QID|37649|M|69.22,48.69|Z|Oceanus Cove|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|42291|M|46.36,67.12|Z|Oceanus Cove|N|Loot for a bit of treasure and resources.|RANK|2|
 C A Daring Rescue|QID|40195|M|82.66,85.18|Z|Oceanus Cove|CHAT|N|Talk to Taldranis.|
 T A Daring Rescue|QID|40195|M|82.66,85.18|Z|Oceanus Cove|N|To Taldranis.|
-A Testing the Metal|QID|40327|PRE|40195|M|82.66,85.18|Z|Oceanus Cove|P|Leatherworking;165|N|From Taldranis.|
+A Testing the Metal|QID|40327|PRE|40195|M|82.66,85.18|Z|Oceanus Cove|P|Leatherworking;165;6|N|From Taldranis.|
 C Testing the Metal|QID|40327|M|82.66,85.18|Z|Oceanus Cove|CHAT|N|Talk to Taldranis. Escort him out.|
 A A Favor for Mr. Shackle|QID|38857|M|50.35,60.98|Z|Azsuna!Broken Isles|N|From Seska Seafang.| ; Azsuna!Broken Isles MapID 630
 C A Favor for Mr. Shackle|QID|38857|QO|3|M|51.33,61.06|Z|Azsuna!Broken Isles|N|Grace the Green rescued|
@@ -474,9 +474,19 @@ T Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|39.87,58.36|Z|Aegwynn'
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
-A Pressing the Assault|QID|44545|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213|
-A Isle Hopping|QID|44547|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 2nd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213&44545|
-A Scouring What Remains|QID|44548|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 3rd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213&44547|
+; Quests that Emma said should be at end of all Legion Guides, 11/11/2020
+A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
+A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
+A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
+A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
+C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|
+t Pressing the Assault|QID|44545|N|To UI Alert.|
+t Isle Hopping|QID|44547|N|To UI Alert.|
+t Scouring What Remains|QID|44548|N|To UI Alert.|
+t Master of the Isles|QID|44549|N|To UI Alert.|
 
 D On to Class Halls|N|This ends Azsuna and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Azsuna and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|

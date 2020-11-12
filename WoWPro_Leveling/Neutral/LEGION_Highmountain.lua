@@ -15,9 +15,9 @@ T The Lone Mountain|QID|39733|M|71.13,43.96|Z|Dalaran!Dalaran!Dungeon|N|To Warbr
 A Keepers of the Hammer|QID|38907|M|71.13,43.96|Z|Dalaran!Dalaran!Dungeon|N|From Warbrave Oro.|PRE|39733|
 F Thunder Totem|QID|38907|M|69.95,51.20|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Fly to Thunder Totem in Highmountain at Aludane Whitecloud. (the normal way you use a flight path, not a chat option).|FLY|LEGION|
 C Keepers of the Hammer|QID|38907|M|45.70,38.88|Z|ThunderTotem|QO|2|NC|N|Meet Warbrave Oro at Thunder Totem.|
-T Tauren Tanning|QID|40184|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|To Hrul Sharphoof|
-A Drogbar Durability|QID|40186|PRE|40184|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|From Hrul Sharphoof.|
-A Shoulder the Burden|QID|40185|PRE|40184|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|From Hrul Sharphoof.|
+T Tauren Tanning|QID|40184|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165;6|N|To Hrul Sharphoof|
+A Drogbar Durability|QID|40186|PRE|40184|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165;6|N|From Hrul Sharphoof.|
+A Shoulder the Burden|QID|40185|PRE|40184|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165;6|N|From Hrul Sharphoof.|
 R Elevator Down|AVAILABLE|38911|M|49.33,45.94|CC|Z|ThunderTotem|N|Run over to the elevator and down below to find Mayla.|
 T Keepers of the Hammer|QID|38907|M|54.91,63.23|Z|Highmountain/6|CS|N|To Mayla Highmountain.|
 A The Rivermane Tribe|QID|38911|M|54.91,63.23|Z|Highmountain/6|N|From Mayla Highmountain.|PRE|38907|
@@ -210,7 +210,7 @@ T Note-Eating Goats|QID|39859|M|40.04,52.25|N|To Hemet Nesingwary.|RANK|2|
 A A Hunter at Heart|QID|40216|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|2|PRE|39859|
 C A Hunter at Heart|QID|40216|M|39.93,52.23|QO|1|CHAT|N|Speak to Addie.|RANK|2|
 C A Hunter at Heart|QID|40216|M|39.55,49.01|NC|S|N|Every poorly set trap you click on and every beast you kill advances Addie's training.|RANK|2|
-C Claw of the Land|QID|40192|M|37.84,48.56|P|Leatherworking;165|S|N|Kill Pinerock Stalkers for claws.|
+C Claw of the Land|QID|40192|M|37.84,48.56|P|Leatherworking;165;6|S|N|Kill Pinerock Stalkers for claws.|
 C Lion Stalkin'|QID|39123|M|37.84,48.56|S|N|Kill Pinerock Stalkers.|RANK|2|
 C Moose Shootin'|QID|39124|M|42.08,48.33|S|N|The moose are mostly on the other side of the river.|RANK|2|
 $ Mara Swiftmane vs Sure Shot Arnie|QID|40612|M|43.47,47.31|N|Assist Mara and you can have the hunter's treasure. |RANK|2|
@@ -220,7 +220,7 @@ K Kill Bristlemaul|QID|40405|QO|1|M|38.11,45.68|T|Bristlemaul|N|Kill for a bit o
 C Bear Huntin'|QID|39392|M|37.00,45.78|US|N|Finish up collecting pelts before you leave Field of An'she.|RANK|2|
 C Moose Shootin'|QID|39124|M|40.72,50.79|US|N|Finish up any needed moose on your way back to Nesingwary.|RANK|2|
 C Lion Stalkin'|QID|39123|M|40.72,50.79|US|N|Finish up any needed Pinerock Stalkers on your way back to Nesingwary.|RANK|2|
-C Claw of the Land|QID|40192|M|40.72,50.79|P|Leatherworking;165|US|N|Kill Pinerock Stalkers for claws.|
+C Claw of the Land|QID|40192|M|40.72,50.79|P|Leatherworking;165;6|US|N|Kill Pinerock Stalkers for claws.|
 C A Hunter at Heart|QID|40216|M|40.72,50.79|NC|US|N|If Addie isn't fully trained, kill a few more until she is.|RANK|2|
 T Lion Stalkin'|QID|39123|M|40.03,52.25|N|To Hemet Nesingwary.|RANK|2|
 T A Hunter at Heart|QID|40216|M|40.04,52.25|N|To Hemet Nesingwary.|RANK|2|
@@ -483,7 +483,7 @@ R Thunder Totem (Up the elevator)|ACTIVE|38915|M|58.97,87.46|Z|ThunderTotem|CC|N
 A Bolas Bastion|QID|42630|PRE|39387|M|42.86,38.79|Z|ThunderTotem|N|From Bolas Skyfeather.|AVAILABLE|38915|RANK|2|
 C Bolas Bastion|QID|42630|M|43.38,37.81|Z|ThunderTotem|NC|N|Hop in the Bolos Launcher and shoot at the Coven Attackers.|RANK|2|
 T Bolas Bastion|QID|42630|M|42.94,38.76|Z|ThunderTotem|N|To Bolas Skyfeather.|RANK|2|
-t Claw of the Land|QID|40192|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|To Hrul Sharphoof.|
+t Claw of the Land|QID|40192|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165;6|N|To Hrul Sharphoof.|
 $ Steamy Jewerly Box|QID|39531|M|63.49,59.41|Z|ThunderTotem|ITEM|141322 1|N|I'm somewhat uncomfortable stealing from sleeping ally's, but there it is.|RANK|2|
 $ Small Treasure Chest|QID|40472|M|50.64,75.37|Z|ThunderTotem|N|Loot for a bit of resources and treasure.|RANK|2|
 T Battle of Snowblind Mesa|QID|38915|M|53.27,64.05|N|To Mayla Highmountain.|
@@ -544,15 +544,20 @@ T Eye of Azshara: The Hammer of Khaz'goroth|QID|42454|M|41.17,52.45|Z|Aegwynn's 
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
-A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454|
-A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454&44545|
-A Scouring What Remains|QID|44548|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454&44547|
+; Quests that Emma said should be at end of all Legion Guides, 11/11/2020
+A Pressing the Assault|QID|44545|PRE|42454|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
+A Isle Hopping|QID|44547|PRE|42454|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
+A Scouring What Remains|QID|44548|PRE|42454|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
+A Master of the Isles|QID|44549|PRE|42454|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
 C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
 C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the last strike point at your scouting map.|
+C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|
 t Pressing the Assault|QID|44545|N|To UI Alert.|
 t Isle Hopping|QID|44547|N|To UI Alert.|
 t Scouring What Remains|QID|44548|N|To UI Alert.|
+t Master of the Isles|QID|44549|N|To UI Alert.|
+
 D On to Class Halls|N|This ends Highmountain and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Highmountain and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|
 D On to Class Halls|N|This ends Highmountain and the Demon Hunter order hall guide will load.|C|DemonHunter|GUIDE|LinksDHArtCH100100|
