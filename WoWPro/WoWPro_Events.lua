@@ -734,11 +734,10 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 	if successfulRequest and prefix == "WoWPro" then
 		local synctype, message = string.split(" ", text, 2)
 		local gname = string.split("-", sender, 2)
-		--WoWPro.playerGroup["Caylassa-Anasterian"]["track"][7]
 		if gname ~= _G.UnitName("Player") then
 			if synctype == "group" then
-				local gclass, grace, ggender, gstep = string.split(" ", message, 4)
-				if WoWPro.playerGroup[sender] == nil then
+				local gclass, grace, ggender, gversion, gstep = string.split(" ", message, 5)
+				if WoWPro.Version == gversion and WoWPro.playerGroup[sender] == nil then
 					WoWPro.playerGroup[sender] = {
 						pname = gname,
 						class = gclass,
@@ -749,8 +748,10 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 					}
 					WoWPro.GroupSync = true
 					WoWPro:LoadGuideStepsReal()
+				elseif WoWPro.Version ~= gversion then
+					WoWPro:Print("Version mismatch: "..gname.."'s WoWPro is running "..gversion..". You are running "..WoWPro.Version)
 				end
-			elseif synctype == "steps" then
+			elseif synctype == "steps" and WoWPro.GroupSync then
 				if (WoWPro.playerGroup[sender] ~= nil) then
 					local tbl = {string.split(" ", message)}
 					WoWPro.playerGroup[sender]["step"] = {}
@@ -769,20 +770,20 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 					_G.C_ChatInfo.SendAddonMessage("WoWPro", "NeedGroup NOW" , "PARTY")
 				end
 				WoWPro:UpdateGuide(event)
-			elseif synctype == "track" then
+			elseif synctype == "track" and WoWPro.GroupSync then
 				if (WoWPro.playerGroup[sender] ~= nil) then
 					local gindex, gtrack = string.split(" ", message, 2)
 					WoWPro.playerGroup[sender]["track"][tonumber(gindex)] = gtrack
 					WoWPro.myGroupTrack = {}
 					for index,gvalue in pairs(WoWPro.playerGroup) do
 						foreach(gvalue["track"], function(gkey,gval)
-							WoWPro.myGroupTrack[tonumber(gkey)] = (WoWPro.myGroupTrack[tonumber(gkey)] or "") .. "\n" .. gval .. " - " .. gname
+							WoWPro.myGroupTrack[tonumber(gkey)] = (WoWPro.myGroupTrack[tonumber(gkey)] or "") .. "\n" .. gname .. ": " .. gval
 						end);
 					end
 				else
 					_G.C_ChatInfo.SendAddonMessage("WoWPro", "NeedGroup NOW" , "PARTY")
 				end
-			elseif synctype == "NeedGroup" then
+			elseif synctype == "NeedGroup" and WoWPro.GroupSync then
 				WoWPro:SendGroupInfo()
 			end
 		end
