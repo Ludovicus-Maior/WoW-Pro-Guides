@@ -155,13 +155,13 @@ T The Lurking Lich|QID|26724|M|20.03,57.81|N|Sister Eisington.|
 A Guided by the Light|QID|26725|M|20.03,57.81|N|From Sister Eisington.|PRE|26724|
 T Guided by the Light|QID|26725|M|23.44,35.42|N|To the Lightforged Rod.|
 A The Halls of the Dead|QID|26753|M|23.44,35.42|N|From the Lightforged Rod.|PRE|26725|
-T The Halls of the Dead|QID|26753|M|20.36,27.44|N|Enter the Dawning Wood Catacombs, turn left into the first hall, then continue to the back left. Be careful, as the Buried Dead will spawn as you run over the graves. Head through the catacombs, and turn the quest into the Lightforged Arch.|
+T The Halls of the Dead|QID|26753|M|20.36,27.44|N|Enter the Dawning Wood Catacombs, turn left into the first hall, then continue to the back left. Be careful, a Buried Dead will spawn if you step on a grave. Head through the catacombs, and turn the quest into the Lightforged Arch.|
 A Buried Below|QID|26722|M|20.36,27.44|N|From the Lightforged Arch.|PRE|26753|
-T Buried Below|QID|26722|M|20.10,26.60;18.08,25.33|CS|N|There is a hidden exit behind the location where you got the quest - walk through, this follow the hidden tunnel, and turn quest into the Lightforged Crest.|
+T Buried Below|QID|26722|M|20.10,26.60;18.01,25.35|CS|N|There is a hidden exit behind the location where you got the quest - walk through, this follow the hidden tunnel, and turn quest into the Lightforged Crest.|
 A Morbent's Bane|QID|26754|M|18.08,25.33|N|From In the tunnel.|PRE|26722|
-N Hunter's Pet Alert|ACTIVE|26754|N|When you reach the room with the Clattering Coldwraith, please note your pet will not follow you into the room.  You will need to dismiss your pet, enter the room fully (pick the right hand wall), then summon your pet.\n\nClick this step to continue.|S|C|Hunter|
-C Morbent's Bane|QID|26754|N|Continue down the tunnel until you come to this boss. Use Morbent's Bane to weaken Morbent Fel before taking him down.\n\nAll the ghouls in this room that are not already attacking you will disappear upon  killing the Weakened Morbent Fel.|U|60212|
-C The Cries of the Dead|QID|26778|M|23.47,36.16|N|If (for some reason) you haven't managed to finish this quest by now, head back up to the surface and get it done.|US|
+N Hunter's Pet Alert|ACTIVE|26754|N|When you reach the room with the Clattering Coldwraith, please note your pet will not follow you into the room.  You will need to dismiss your pet, enter the room fully (pick the right hand wall), then summon your pet.\n\nClick this step to continue.|S!US|C|Hunter|
+C Morbent's Bane|QID|26754|N|Continue down the tunnel until you come to this boss. Use Morbent's Bane to weaken Morbent Fel before taking him down. This is much easier if you kite him down the stairs and away from the ghouls.\n[color=FF0000]NOTE: [/color]All the ghouls in this room that are not already attacking you will disappear upon killing the Weakened Morbent Fel.|U|60212|
+C The Cries of the Dead|QID|26778|M|16.51,38.92|N|If (for some reason) you haven't managed to finish this quest by now, head up the stairs to the surface and get it done.|US|
 T Morbent's Bane|QID|26754|M|18.40,57.94|N|To Sven Yorgen.|O|
 T The Cries of the Dead|QID|26778|M|20.03,57.81|N|To Sister Eisington.|
 A Rebels Without a Clue|QID|26838|M|20.03,57.81|N|If you intend on going onto Northern Stranglethorn next, then accept this quest from Sister Eisington. This quest will not show up if you have the quest "Hero's Call: Northern Stranglethorn Vale!" or done the Hero's Call quest already.|LEAD|26735|
