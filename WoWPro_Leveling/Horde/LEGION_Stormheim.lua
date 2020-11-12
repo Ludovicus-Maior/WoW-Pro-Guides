@@ -129,7 +129,7 @@ A To Weather the Storm|QID|38614|PRE|38612|M|46.55,67.81|N|From Dread-Rider Cull
 C No Wings Required|QID|38613|M|45.86,67.84|NC|N|Click on the grapple point on top of the wall.|
 A Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto-accepted when you enter the area.|RANK|2|LVL|-109|
 C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|S|N|Go about your quests to advance this objective.|RANK|2|
-C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;165|S|N|Kill Vrykul to get the Bindings.|
+C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;165;6|S|N|Kill Vrykul to get the Bindings.|
 A Built to Scale|QID|38616|M|45.05,66.45|N|From a scale you loot off the first Stormwing Drake you kill.|
 C Built to Scale|QID|38616|M|45.05,66.45|S|N|Kill drakes and loot the 'Storm Drake Scales'.|
 C To Weather the Storm|QID|38614|M|45.67,66.61|QO|3|NC|N|Pick up the Oiled Cloak.|
@@ -142,13 +142,13 @@ T To Weather the Storm|QID|38614|M|43.71,67.89|N|To Dread-Rider Cullen.|
 A Impalement Insurance|QID|38615|PRE|38613&38614|M|43.71,67.89|N|From Dread-Rider Cullen.|
 C Impalement Insurance|QID|38615|M|46.09,70.99|S|NC|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.|
 $ Treasure Chest|QID|38486|M|39.58,65.18|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|RANK|2|
-K Kill Jann Harnelor|QID|40178|QO|1|M|45.6,67.2|Z|Stormheim|P|Leatherworking;165|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
+K Kill Jann Harnelor|QID|40178|QO|1|M|45.6,67.2|Z|Stormheim|P|Leatherworking;165;6|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
 $ Treasure Chest|QID|38489|M|44.16,69.97|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|RANK|2|
 K Kill Thane Irglov the Merciless|QID|38424|M|40.66,72.40|T|Thane Irglov the Merciless|ITEM|129113|N|Silver - Kill the others in the Mead Hall, then you can take on Thane. Kill and loot for some treasure and resources.|RANK|2|RARE|
 $ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64,68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|RANK|2|
 C Impalement Insurance|QID|38615|M|46.09,70.99|US|NC|N|Finish up destroying Harpoon Launchers.|
 C Built to Scale|QID|38616|M|45.80,70.85|US|N|Finish collecting the scales.|
-C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;165|US|QO|1|N|Kill Vrykul to get the Bindings.|
+C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;165;6|US|QO|1|N|Kill Vrykul to get the Bindings.|
 T Impalement Insurance|QID|38615|M|47.00,71.74|N|To Dread-Rider Cullen.|
 A Another Way|QID|38617|PRE|38615|M|47.00,71.74|N|From Dread-Rider Cullen.|
 T Built to Scale|QID|38616|M|47.00,71.74|N|To Dread-Rider Cullen.|
@@ -535,9 +535,6 @@ T The Aegis of Aggramar|QID|43349|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
-A Pressing the Assault|QID|44545|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349|
-A Isle Hopping|QID|44547|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349&44545|
-A Scouring What Remains|QID|44548|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349&44547|
 A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran!Dalaran!Dungeon|N|From Gazrix Gearlock beside the north bank.|RANK|3|
 F Valdisdall|ACTIVE|43331|M|69.84,51.17|Z|Dalaran!Dalaran!Dungeon|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|FLY|LEGION|
 R Loch Varmad|ACTIVE|43331|M|60.52,52.14;67.08,38.84;68.07,31.11|CS|N|Run down this path and across the water to avenge those Tauren and...treasure.|RANK|3|FLY|LEGION|
@@ -545,12 +542,21 @@ C Time to Collect|QID|43331|M|69.97,21.96;69,27.5|CS|N|Look straight up from fir
 $ Treasure Chest|QID|40108|M|68.42,29.60|CS|N|Chest is on the rock, path starts right behind Rax Sixtrigger. Loot for resources and treasure.|RANK|3|;doesnt actually require 110, but this is way too remote to come out if you arent doing the sixtriggers quest.
 T Time to Collect|QID|43331|M|68.89,26.04|N|To the Sixtriggers' Premium Stash.|RANK|3|
 N End of Stormheim|QID|99999|U|140192|N|Return to your Class Order Hall to pick your next zone and tend to your missions.|
-C Pressing the Assault|QID|44545|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Isle Hopping|QID|44547|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Scouring What Remains|QID|44548|N|Go to your order hall and choose the last strike point at your scouting map.|
-T Pressing the Assault|QID|44545|N|To UI Alert.|
+
+; Quests that Emma said should be at end of all Legion Guides, 11/11/2020
+A Pressing the Assault|QID|44545|PRE|43349|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
+A Isle Hopping|QID|44547|PRE|43349|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
+A Scouring What Remains|QID|44548|PRE|43349|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
+A Master of the Isles|QID|44549|PRE|43349|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
+C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
+C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|
+t Pressing the Assault|QID|44545|N|To UI Alert.|
 t Isle Hopping|QID|44547|N|To UI Alert.|
 t Scouring What Remains|QID|44548|N|To UI Alert.|
+t Master of the Isles|QID|44549|N|To UI Alert.|
+
 D On to Class Halls|N|This ends Stormheim and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Stormheim and the Death Knight order hall guide will load.|C|DeathKnight|GUIDE|EmmLegionDK|
 D On to Class Halls|N|This ends Stormheim and the Demon Hunter order hall guide will load.|C|DemonHunter|GUIDE|LinksDHArtCH100100|
