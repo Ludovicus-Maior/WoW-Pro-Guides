@@ -53,7 +53,7 @@ N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|Ring of Fates@Orib
 N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|TOF|
 N World Quests|QID|62778|N|WQs are available since you have chosen the Threads of Fate option. They are however not included in the guide and there is no way to predict which one is available on any given day. So, I recomend you do them, but you are on your own as to how and where.|TOF|
 N Use of Ranks|QID|62778|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives. Rank 1, basically leaves you explore on your own when you accept a quest it will jump to there and give you directions on completion and turn in.|TOF|
-N Rank 1|ACTIVE|62763|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|TOF|
+N Rank 1|ACTIVE|62778|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|TOF|
 
 ; Welcome to Revendreth Storyline
 A A Plea to Revendreth|QID|57025|M|48.82,60.04|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|57|PRE|58724|MS|
@@ -165,16 +165,16 @@ T Finders-Keepers, Sinners-Weepers|QID|59846|M|59.86,68.91|Z|Revendreth|N|To Nad
 A Active Ingredients|QID|59713|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|PRE|59846|RANK|2|
 A A Fine Vintage|QID|59714|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|PRE|59846|RANK|2|
 K Aggregate of Doom|ACTIVE|60277|QO|1|M|61.12,72.99|Z|Revendreth|N|Kill the Aggregate of Doom.|
-C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|1|N|Kill Spiders until you find the Pristine Venom Gland.|RANK|2|S|
-C Scythe Bloom|QID|59713|M|63.10,67.96|Z|Revendreth|QO|2|NC|N|Click on Scythe Bloom to collect the Pollen.|RANK|2|S|
-R The Sneak Hole|ACTIVE|59714|M|63.62,74.37|Z|Revendreth|N|Make your way to the Sneak Hole.|RANK|2|
-C A Fine Vintage|QID|59714|M|63.6,73|Z|Revendreth|N|Go down into the Sneak Hole and click on one of the kegs.\n\nUse your Action Ability "[color=40C7EB]Hazy Brew[/color]" on Mucksquint to weaken him. Kill and then loot the drink!|EAB|RANK|2|
+C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|1|N|Kill Spiders until you find the Pristine Venom Gland.|S|
+C Scythe Bloom|QID|59713|M|63.10,67.96|Z|Revendreth|QO|2|NC|N|Click on Scythe Bloom to collect the Pollen.|S|
+R The Sneak Hole|ACTIVE|59714|M|63.62,74.37|Z|Revendreth|N|Make your way to the Sneak Hole.|
+C A Fine Vintage|QID|59714|M|63.6,73|Z|Revendreth|N|Go down into the Sneak Hole and click on one of the kegs.\n\nUse your Action Ability "[color=40C7EB]Hazy Brew[/color]" on Mucksquint to weaken him. Kill and then loot the drink!|EAB|
 $ Taskmaster's Trove|QID|62199|CS|M|63.00,72.39;62.85,75.31|Z|Revendreth|N|Pick up Ingress and Egrees Rites in niche next to wall, Minimize contact with runic bombs and collect treasure.|ITEM|183986|ACH|14314;4|
-C Scythe Bloom|QID|59713|M|63.10,67.96|Z|Revendreth|QO|2|NC|N|Click on Scythe Bloom to collect the Pollen.|RANK|2|US|
-C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|1|N|Kill Spiders until you find the Pristine Venom Gland.|RANK|2|US|
+C Scythe Bloom|QID|59713|M|63.10,67.96|Z|Revendreth|QO|2|NC|N|Click on Scythe Bloom to collect the Pollen.|US|
+C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|1|N|Kill Spiders until you find the Pristine Venom Gland.|US|
 T Wanted: Aggregate of Doom|QID|60277|M|58.75,69.59|Z|Revendreth|N|To Foreman Scug.|
-T A Fine Vintage|QID|59714|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
-T Active Ingredients|QID|59713|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
+T A Fine Vintage|QID|59714|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|
+T Active Ingredients|QID|59713|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|
 A Message for Matyas|QID|59715|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|PRE|59713&59714|RANK|2|
 C Message for Matyas|QID|59715|M|60.31,69.19|Z|Revendreth|QO|1|CHAT|N|Ask Courier Araak to send the message.|
 C Message for Matyas|QID|59715|M|60.28,69.13|Z|Revendreth|QO|2|NC|N|Click the Bottle to poison it.|
@@ -190,10 +190,10 @@ C Offer of Freedom|QID|59868|M|59.97,76.78|Z|Revendreth|N|When the Briarbane are
 C The Field of Honor|QID|59724|M|60,79.4|Z|Revendreth|N|Kill Briarbane enemies.|US|
 T Offer of Freedom|QID|59868|M|60.25,78.69|Z|Revendreth|N|To Nadjia the Mistblade. You can reach her by going inside the ruins, clicking the vine ladder and working your way to the upper floors.|
 T The Field of Honor|QID|59724|M|60.25,78.69|Z|Revendreth|N|To Nadjia the Mistblade.|
-A It's a Trap|QID|59726|M|60.25,78.69|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|PRE|59868&59724|RANK|2|
-C It's a Trap|QID|59726|M|60.15,75.50|Z|Revendreth|QO|1|N|Click the gate behind you to open it and fight Taskmaster Matyas. Nadjia will join in after you engage.|RANK|2|
-T It's a Trap|QID|59726|M|60.19,78.59|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
-R Feeders' Thicket|QID|60509|M|60.11,80.70|Z|Revendreth|V|N|Hop on the Hulking Stormborn for a ride down to a safe place on the path in Feeder's Thicket.|
+A It's a Trap|QID|59726|M|60.25,78.69|Z|Revendreth|N|From Nadjia the Mistblade.|PRE|59868&59724|RANK|2|
+C It's a Trap|QID|59726|M|60.15,75.50|Z|Revendreth|QO|1|N|Click the gate behind you to open it and fight Taskmaster Matyas. Nadjia will join in after you engage. When the adds activate, you need to kill them and let Nadjia focus on Matyas or else they will quickly overrun you.|
+T It's a Trap|QID|59726|M|60.19,78.59|Z|Revendreth|N|To Nadjia the Mistblade.|
+R Feeders' Thicket|QID|60509|M|60.11,80.70|Z|Revendreth|V|N|Hop on the Hulking Stormborn for a ride down to a safe place on the path in Feeders' Thicket.|PRE|59726|
 R Darkheaven|QID|60509|CS|M|58.34,64.03;59.26,62.67|Z|Revendreth|N|Elevator up to Darkheaven returns you to your storyline.|ACTIVE|-62778|
 
 ;TOF "catch up"
@@ -203,17 +203,19 @@ A Words Have Power|QID|58272|M|67.74,67.66|Z|Revendreth|N|From Join the Rebellio
 C Words Have Power|QID|58272|M|67.74,67.66|Z|Revendreth|S|NC|N|Collect the pamplets stuck to the wall in the area.|TOF|
 $ Wayfarer's Abandoned Spoils|QID|59884|CS|M|67.93,64.51;68.45,64.43|Z|Revendreth|N|Walk on the Bounding Shroom to be shot up in the air. Aim yourself to come down on the ledge where the treasure is.|TOF|ACH|14314;14|
 C Words Have Power|QID|58272|M|67.27,66.00|Z|Revendreth|US|NC|N|Finish collecting the pamplets stuck to the wall in the area.|TOF|
-R The Endmire|ACTIVE|58272|CS|M|67.23,66.63;61.95,68.72;68.02,62.64|Z|Revendreth|N|Follow the road down to the swampy area known as The Endmire.|TOF|
+R The Endmire|ACTIVE|60509|CS|M|67.23,66.63;61.95,68.72;68.02,62.64|Z|Revendreth|N|Follow the road down to the swampy area known as The Endmire.|TOF|
 A Parasites of Reality|QID|62780|M|68.02,62.64|Z|Revendreth|N|Bonus Objective - Autoaccepted.|LVL|-60|TOF|RANK|2|
 C Parasites of Reality|QID|62780|M|68.02,62.64|S|Z|Revendreth|N|Kill Hostiles, interact with non-hostiles.|TOF|
 A The Endmire|QID|60480|M|65.11,63.53|Z|Revendreth|N|From Tessle the Snitch.|TOF|RANK|2|
+
+;Endlurker|QID|59582|RARE|M|66.44,59.69|Z|Revendreth|ITEM|179927|N|Pick up the anima lure from the ground here, then use Extra Action Button near gateway to summon the silver elite.|
 C The Endmire|QID|60480|M|65.11,63.53|Z|Revendreth|S|NC|N|Pick up the rubies as you are doing the other things.|TOF|
 $ Vyrtha's Dredglaive|QID|62164|M|70.19,60.04|Z|Revendreth|N|Treasure located under the bridge.|ITEM|177807|ACH|14314;3|TOF|
 C The Endmire|QID|60480|M|65.11,63.53|Z|Revendreth|US|NC|N|Pick up the rubies as you are doing the other things.|TOF|
 T The Endmire|QID|60480|M|65.11,63.53|Z|Revendreth|N|To Tessle the Snitch.|TOF|
 C Parasites of Reality|QID|62780|M|68.02,62.64|US|Z|Revendreth|N|Kill Hostiles, interact with non-hostiles.|TOF|
 T Parasites of Reality|QID|62780|M|65.11,63.53|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
-T Words Have Power|QID|58272|M|63.22,61.82|Z|Revendreth|N|To Lord Chamberlain.|TOF|
+T Words Have Power|QID|58272|M|63.22,61.79|Z|Revendreth|N|To Shadowrider Neralva.|TOF|
 
 ; Sidequest Storyline - Dirty Jobs
 T Not My Job|QID|60509|M|72.61,73.20|Z|Revendreth|N|To Rendle.|
@@ -251,6 +253,8 @@ T The Accuser's Sinstone|QID|57173|M|64.69,49.89|Z|Revendreth|N|To Lord Chamberl
 A Inquisitor Stelia's Sinstone|QID|58931|M|64.69,49.89|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|PRE|57173|MS|
 C Inquisitor Stelia's Sinstone|QID|58931|M|68.9,54.2|Z|Revendreth|QO|1|V|N|Jump into Echelon's warm loving hands.|MS|
 A Temel, the Sin Herald|QID|58932|M|69.57,53.88|Z|Revendreth|N|Auto-Accepted on arrival.|LVL|57|PRE|57173|MS|
+A It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|From Chiselgrump.|MS|
+C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|S|MS|
 C Inquisitor Stelia's Sinstone|QID|58931|Z|Revendreth|QO|2|N|Kill enemies and loot the Avowed Crypt Keys. On the 4th Crypt you open, click on the Inquisitor Stelia's Sinstone to collect it.|S|MS|
 C Temel, the Sin Herald|QID|58932|M|71.45,54.40|Z|Revendreth|N|Attack Cryptkeeper Kassir until he gives you Temel.|MS|
 C Inquisitor Stelia's Sinstone|QID|58931|Z|Revendreth|QO|2|N|Kill enemies and loot the Avowed Crypt Keys. On the 4th Crypt open click on the Inquisitor Stelia's Sinstone to collect it.|US|MS|
@@ -263,7 +267,7 @@ C Herald Their Demise|QID|59021|M|64.4,52.4|Z|Revendreth|QO|1|N|Use the "[color=
 C Herald Their Demise|QID|59021|Z|Revendreth|QO|2|N|Echelon Landing.|MS|
 T Herald Their Demise|QID|59021|M|67.42,53.63|Z|Revendreth|N|To Echelon.|MS|
 A Inquisitor Vilhelm's Sinstone|QID|57175|M|67.42,53.63|Z|Revendreth|N|From Echelon.|LVL|57|PRE|59021|MS|
-A A Fresh Start|QID|57177|M|67.42,53.63|Z|Revendreth|N|Bonus Objective: AutoAccepted when you enter the Halls of Atonement.|LVL|-60|RANK|2|ACTIVE|57175|
+A A Fresh Start|QID|57177|M|67.42,53.63|Z|Revendreth|N|Bonus Objective: Autoaccepted when you enter the Halls of Atonement.|LVL|-60|RANK|2|ACTIVE|57175|
 C A Fresh Start|QID|57177|M|67.42,53.63|Z|Revendreth|N|Kill enemies and interact with items on the ground.|S|
 C Inquisitor Vilhelm's Sinstone|QID|57175|M|67.84,51.48|Z|Revendreth|QO|1<1|NC|N|Destroy the Headstone, dig, and then collect the Hidden Sinstone Fragment.|MS|
 C Inquisitor Vilhelm's Sinstone|QID|57175|M|65.31,51.06|Z|Revendreth|QO|1<2|NC|N|Light the ritual candles, and then collect the Hidden Sinstone Fragment.|MS|
@@ -295,58 +299,59 @@ R Halls of Atonement South|QID|58093|M|70.13,57.91|Z|Revendreth|N|Run to the Sou
 ;A Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|Revendreth|N|Bonus Objective - Autoaccepted.|RANK|2|TOF|LVL|-60|;commented out because we leave the area, and come back.
 C Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|Revendreth|S!US|N|Kill the depraved mops and otherwise clean up the depravity.|TOF|
 A Our Forgotten Purpose|QID|58093|M|72.99,51.99|Z|Revendreth|N|From Archivist Fane.|RANK|2|LEAD|57919|
-f Absolution Crypt|ACTIVE|58093|M|71.58,40.07|N|At Courier Rehkaash.|RANK|2|
+f Absolution Crypt|ACTIVE|58093|M|71.58,40.07|N|At Courier Rehkaash.|
 T Our Forgotten Purpose|QID|58093|M|71.79,40.41|Z|Revendreth|N|To The Accuser who is down the stairs inside the crypt.|
-A An Abuse of Power|QID|57919|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|
-C An Abuse of Power|QID|57919|M|71.49,40.70|Z|Revendreth|QO|1|NC|N|Click to subjugate the Abused Soul.|RANK|2|
-C An Abuse of Power|QID|57919|M|71.49,40.70|Z|Revendreth|QO|2|N|Kill the Shattered Soul.|RANK|2|
-T An Abuse of Power|QID|57919|M|71.79,40.41|Z|Revendreth|N|To The Accuser.|RANK|2|
+A An Abuse of Power|QID|57919|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|RANK|2|
+C An Abuse of Power|QID|57919|M|71.49,40.70|Z|Revendreth|QO|1|NC|N|Click to subjugate the Abused Soul.|
+C An Abuse of Power|QID|57919|M|71.49,40.70|Z|Revendreth|QO|2|N|Kill the Shattered Soul.|
+T An Abuse of Power|QID|57919|M|71.79,40.41|Z|Revendreth|N|To The Accuser.|
 A The Proper Souls|QID|57920|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|PRE|57919|RANK|2|
 A The Proper Tools|QID|57921|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|PRE|57919|RANK|2|
 A The Proper Punishment|QID|57922|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|PRE|57919|RANK|2|
-C The Proper Tools|QID|57921|M|65.2,43.6|Z|Revendreth|N|Kill enemies around to collect your Venthyr Ritual items.|S|RANK|2|
-C The Proper Souls|QID|57920|M|68.10,42.01|Z|Revendreth|NC|N|Click on the Fugitive Souls to subjugate them.|S|RANK|2|
-C The Proper Punishment|QID|57922|M|65.2,43.6|Z|Revendreth|N|Kill Fata the Soulflayer.|RANK|2|
-C The Proper Souls|QID|57920|M|70.81,45.21|Z|Revendreth|NC|N|Click on the Fugitive Souls to subjugate them.|US|RANK|2|
-C The Proper Tools|QID|57921|M|70.81,45.21|Z|Revendreth|N|Kill enemies around to collect your Venthyr Ritual items.|US|RANK|2|
-T The Proper Souls|QID|57920|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|RANK|2|
-T The Proper Tools|QID|57921|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|RANK|2|
-T The Proper Punishment|QID|57922|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|RANK|2|
+C The Proper Tools|QID|57921|M|65.2,43.6|Z|Revendreth|N|Kill enemies around to collect your Venthyr Ritual items.|S|
+C The Proper Souls|QID|57920|M|68.10,42.01|Z|Revendreth|NC|N|Click on the Fugitive Souls to subjugate them.|S|
+C The Proper Punishment|QID|57922|M|65.2,43.6|Z|Revendreth|N|Kill Fata the Soulflayer.|
+C The Proper Souls|QID|57920|M|70.81,45.21|Z|Revendreth|NC|N|Click on the Fugitive Souls to subjugate them.|US|
+C The Proper Tools|QID|57921|M|70.81,45.21|Z|Revendreth|N|Kill enemies around to collect your Venthyr Ritual items.|US|
+T The Proper Souls|QID|57920|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|
+T The Proper Tools|QID|57921|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|
+T The Proper Punishment|QID|57922|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|
 A Ritual of Absolution|QID|57923|M|70.69,46.95|Z|Revendreth|N|From The Accuser.|PRE|57920&57921&57922|RANK|2|
-C Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|QO|1|CHAT|N|Speak with The Accuser to begin the ritual.|RANK|2|
-C Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|QO|2|CHAT|N|Defend The Accuser from attacking enemies.|RANK|2|
-T Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|N|To The Accuser.|RANK|2|
+C Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|QO|1|CHAT|N|Speak with The Accuser to begin the ritual.|
+C Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|QO|2|CHAT|N|Defend The Accuser from attacking enemies.|
+T Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|N|To The Accuser.|
 A Ritual of Judgment|QID|57924|M|71.98,46.26|Z|Revendreth|N|From The Accuser.|PRE|57923|RANK|2|
-C Ritual of Judgment|QID|57924|M|74.11,49.69|Z|Revendreth|QO|1|CHAT|N|Follow The Accuser to the new spot then speak with The Accuser to join the Ritual of Judgment.|RANK|2|
-C Ritual of Judgment|QID|57924|M|74.11,49.69|Z|Revendreth|QO|2|NC|N|Sit back and wait for the dialog to finish.|RANK|2|
-T Ritual of Judgment|QID|57924|M|74.25,49.68|Z|Revendreth|N|To The Accuser.|RANK|2|
+C Ritual of Judgment|QID|57924|M|74.11,49.69|Z|Revendreth|QO|1|CHAT|N|Follow The Accuser to the new spot then speak with The Accuser to join the Ritual of Judgment.|
+C Ritual of Judgment|QID|57924|M|74.11,49.69|Z|Revendreth|QO|2|NC|N|Sit back and wait for the dialog to finish.|
+T Ritual of Judgment|QID|57924|M|74.25,49.68|Z|Revendreth|N|To The Accuser.|
 A Archivist Fane|QID|57925|M|74.25,49.68|Z|Revendreth|N|From The Accuser.|PRE|57924|RANK|2|
-T Archivist Fane|QID|57925|M|72.97,52.03|Z|Revendreth|N|To Archivist Fane.|RANK|2|
+T Archivist Fane|QID|57925|M|72.97,52.03|Z|Revendreth|N|To Archivist Fane.|
 A The Sinstone Archive|QID|57926|M|72.97,52.03|Z|Revendreth|N|From Archivist Fane.|PRE|57925|RANK|2|
 A Missing Stone Fiend|QID|60127|M|72.97,52.03|Z|Revendreth|N|From Archivist Fane.|PRE|57925|RANK|2|
-C The Sinstone Archive|QID|57926|M|72.53,54.79|Z|Revendreth|N|Kill Depraved enemies and loot the Sinstone Records.|S|RANK|2|
-l Atonement Crypt Key|ACTIVE|57926^57927|AVAILABLE|57928|L|173735|M|70.60,55.80|Z|Revendreth|N|Kill Depraved enemies until they drop the Atonement Crypt Key.|S|RANK|2|
-A Atonement Crypt Key|QID|57928|M|PLAYER|Z|Revendreth|U|173735|N|From Atonement Crypt Key.|RANK|2|
-T Missing Stone Fiend|QID|60127|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
+C The Sinstone Archive|QID|57926|M|72.53,54.79|Z|Revendreth|N|Kill Depraved enemies and loot the Sinstone Records.|S|
+l Atonement Crypt Key|ACTIVE|57926^57927|AVAILABLE|57928|L|173735|M|70.60,55.80|Z|Revendreth|N|Kill Depraved enemies until they drop the Atonement Crypt Key.|S|
+A Atonement Crypt Key|QID|57928|M|PLAYER|Z|Revendreth|U|173735|N|From Atonement Crypt Key.|
+T Missing Stone Fiend|QID|60127|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|
 A Rebuilding Temel|QID|57927|M|70.15,56.22|Z|Revendreth|N|From Cryptkeeper Kassir.|PRE|60127|RANK|2|
-C Rebuilding Temel|QID|57927|M|70.26,53.84|Z|Revendreth|QO|3|NC|N|Click Temel's Head on the ground.|RANK|2|
-C Rebuilding Temel|QID|57927|M|68.91,53.33|Z|Revendreth|QO|1|NC|N|Click on Temel's Body in the rubble.|RANK|2|
-A It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|From Chiselgrump.|
+C Rebuilding Temel|QID|57927|M|70.26,53.84|Z|Revendreth|QO|3|NC|N|Click Temel's Head on the ground.|
+C Rebuilding Temel|QID|57927|M|68.91,53.33|Z|Revendreth|QO|1|NC|N|Click on Temel's Body in the rubble.|
+A It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|From Chiselgrump.|RANK|2|
 C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|S|
-C Rebuilding Temel|QID|57927|M|66.14,53.11|Z|Revendreth|QO|2|NC|N|Click on Temel's Wings in front of the statue.|RANK|2|
-l Atonement Crypt Key|ACTIVE|57926&57927|AVAILABLE|57928|L|173735|M|70.60,55.80|Z|Revendreth|N|Kill Depraved enemies until they drop the Atonement Crypt Key.|US|RANK|2|
-C Atonement Crypt Key|QID|57928|M|70.88,54.89|Z|Revendreth|NC|N|Click on a Crypt to open it.|RANK|2|
-T Atonement Crypt Key|QID|57928|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
-T Rebuilding Temel|QID|57927|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
+C Rebuilding Temel|QID|57927|M|66.14,53.11|Z|Revendreth|QO|2|NC|N|Click on Temel's Wings in front of the statue.|
+l Atonement Crypt Key|ACTIVE|57926&57927|AVAILABLE|57928|L|173735|M|70.60,55.80|Z|Revendreth|N|Kill Depraved enemies until they drop the Atonement Crypt Key.|US|
+C Atonement Crypt Key|QID|57928|M|70.88,54.89|Z|Revendreth|NC|N|Click on a Crypt to open it.|
+T Atonement Crypt Key|QID|57928|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|
+T Rebuilding Temel|QID|57927|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|
 A Ready to Serve|QID|60128|M|70.2,56.2|Z|Revendreth|N|From Cryptkeeper Kassir.|PRE|57927|RANK|2|
-C The Sinstone Archive|QID|57926|M|72.53,54.79|Z|Revendreth|N|Kill Depraved enemies and loot the Sinstone Records.|US|RANK|2|
+C The Sinstone Archive|QID|57926|M|72.53,54.79|Z|Revendreth|N|Kill Depraved enemies and loot the Sinstone Records.|US|
 C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|US|
-T Ready to Serve|QID|60128|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane.|RANK|2|
-T The Sinstone Archive|QID|57926|M|72.97,52.03|Z|Revendreth|N|To Archivist Fane.|RANK|2|
+T It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|To Chiselgrump.|
+T Ready to Serve|QID|60128|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane.|
+T The Sinstone Archive|QID|57926|M|72.97,52.03|Z|Revendreth|N|To Archivist Fane.|
 A Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|From Archivist Fane.|PRE|60128|RANK|2|
-C Hunting an Inquisitor|QID|57929|M|76,51.8|Z|Revendreth|N|Use the Action Ability "[color=40C7EB]Read Inquisitor Traian's Sinstone[/color]" to lower the shield and kill Inquisitor Traian.|EAB|RANK|2|
-T Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane. He now offers a repeatable quest that gives you sinstones, which are needed to fight other mobs.|RANK|2|
-A Halls of Atonement: Your Absolution|QID|58092|M|72.98,51.98|Z|Revendreth|ELITE|N|[color=e6cc80]Dungeon: [/color]\nFrom Archivist Fane. This quest is optional and out of scope for this guide.|LVL|58|PRE|57929|RANK|2|
+C Hunting an Inquisitor|QID|57929|M|76,51.8|Z|Revendreth|N|Use the Action Ability "[color=40C7EB]Read Inquisitor Traian's Sinstone[/color]" to lower the shield and kill Inquisitor Traian.|EAB|
+T Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane. He now offers a repeatable quest that gives you sinstones, which are needed to fight other mobs.|
+A Halls of Atonement: Your Absolution|QID|58092|M|72.98,51.98|Z|Revendreth|ELITE|N|[color=e6cc80]Dungeon: [/color]\nFrom Archivist Fane. This quest is optional and out of scope for this guide.|LVL|58|PRE|57929|
 ;dungeon quest wasnt offered. WH says 58, i wasnt offered on a lvl 52 and lvl 60. (maybe it's after stop the inquisition -- havent doen it yet.)
 T Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|Revendreth|N|Bonus Objective - Autocompleted. Time to finish this up.|
 R Absolution Crypt|AVAILABLE|62653|M|71.58,40.07|N|Down the elevator and return to The Accuser.|
@@ -354,7 +359,7 @@ A Stop the Inquisition|QID|62653|M|71.79,40.41|Z|Revendreth|N|From Gresit.|RANK|
 C Stop the Inquisition|QID|62653|M|76,51.8|Z|Revendreth|N|This is a weekly repeatable quest. Archivist Fane offers repeatable quest for Sinstones that makes it possible to kill the inquisitors. Only one person in the group needs one. The location varies as not all are up and any given time.|
 T Stop the Inquisition|QID|62653|M|76,51.8|Z|Revendreth|N|To Archivist Janeera.|
 
-F Darkhaven|QID|57098|N|At Courier Rehkaash to go back to the main story line.|RANK|2|
+F Darkhaven|QID|57098|N|At Courier Rehkaash to go back to the main story line.|MS|
 R The Banewood|QID|62782|M|54.11,68.03|Z|Revendreth|N|Across the high bridge, past the elevator and then down into The Banewood.|TOF|
 ; The Penitent Hunt Storyline
 A The Grove of Terror|QID|57098|M|53.36,63.97|Z|Revendreth|N|From Sire Denathrius.|LVL|58|PRE|59232|MS|
@@ -384,7 +389,7 @@ A Devour This|QID|57164|M|47.89,70.09|Z|Revendreth|N|From The Fearstalker.|LVL|5
 C The Penitent Hunt|QID|57136|M|47.89,70.09|Z|Revendreth|QO|1|CHAT|N|Speak to the Fearstalker.|MS|
 A Hunting Trophies|QID|60514|M|48.50,68.44|Z|Revendreth|N|From Huntmaster Constantin.|RANK|2|
 A Abel's Fate|QID|58996|M|48.50,68.44|Z|Revendreth|N|From Huntmaster Constantin.|RANK|2|
-A The Banewood|QID|62782|M|50.15,70.35|Z|Revendreth|N|Bonus Objective - Autoaccepted.|TOF|
+A The Banewood|QID|62782|M|50.15,70.35|Z|Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-60|
 C The Banewood|QID|62782|M|50.15,70.35|Z|Revendreth|S!US|N|Kill Hostiles, interact with highlighted items.|TOF|
 C Hunting Trophies|QID|60514|M|48.50,68.44|Z|Revendreth|S|N|Kill the Fearspinners, Deathwalkers and a Hulking Doomfang.|
 C Devour This|QID|57164|M|42.8,68.2|Z|Revendreth|N|Kill Mites, Worldeaters and Thirstlurkers around.|S|MS|
@@ -421,8 +426,8 @@ A Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autoacc
 A Breaking the Hopebreakers|QID|57189|M|43.20,73.84|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|60313|MS|
 A They Won't Know What Hit Them|QID|57190|M|43.20,73.85|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|60313|MS|
 A Rebel Reinforcements|QID|59209|M|43.32,74.10|Z|Revendreth|N|From General Draven.|LVL|58|PRE|60313|MS|
-C Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|S|RANK|2|
-C Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|S|RANK|2|TOF|
+C Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|S|
+C Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|S|TOF|
 C They Won't Know What Hit Them|QID|57190|M|40.26,74.21|Z|Revendreth|NC|N|Set the Rigged Anima Containers around Dredhollow.|S|MS|
 C Rebel Reinforcements|QID|59209|M|43.24,75.66;42.51,75.63|Z|Revendreth|CS|QO|1|N|Enter the Crypt, going down until you reach the open room where you click on Watchmaster Boromod to infuse him with Anima.|MS|
 C Breaking the Hopebreakers|QID|57189|M|40.26,74.21|Z|Revendreth|QO|2|N|Kill Hopebreaker Vilstav. Use the Anima Vial to deal extra damage.|U|178873|MS|
@@ -430,10 +435,10 @@ C Rebel Reinforcements|QID|59209|M|40.14,73.14|Z|Revendreth|QO|2|NC|N|Click on S
 C Breaking the Hopebreakers|QID|57189|M|41.38,78.18|Z|Revendreth|QO|3|N|Kill Hopebreaker Mursa. Use the Anima Vial to deal extra damage.|U|178873|MS|
 C Breaking the Hopebreakers|QID|57189|M|43.59,79.73|Z|Revendreth|QO|1|N|Kill Hopebreaker Marku. Use the Anima Vial to deal extra damage.|U|178873|MS|
 C They Won't Know What Hit Them|QID|57190|M|40.26,74.21|Z|Revendreth|N|Set the Rigged Anima Containers around Dredhollow.|US|MS|
-C Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|US|RANK|2|
-C Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|US|RANK|2|TOF|
-t Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autocompleted.|RANK|2|
-t Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autocompleted.|RANK|2|TOF|
+C Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|US|
+C Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|US|TOF|
+t Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autocompleted.|
+t Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
 T Rebel Reinforcements|QID|59209|M|39.78,80.85|Z|Revendreth|N|To General Draven.|MS|
 T They Won't Know What Hit Them|QID|57190|M|39.73,81.21|Z|Revendreth|N|To The Accuser.|MS|
 T Breaking the Hopebreakers|QID|57189|M|39.73,81.21|Z|Revendreth|N|To The Accuser.|MS|
@@ -453,7 +458,7 @@ C Sign Your Own Death Warrant|QID|57380|M|37.93,68.34|Z|Revendreth|QO|3|NC|N|Cli
 $ Forbidden Ink|QID|61990|M|37.66,68.74|Z|Revendreth|L|182475|N|Pick up the ink.|ACH|14314;1|
 $ Lost Quill|QID|61990|CS|M|38.64,68.17;37.94,69.07|Z|Revendreth|ACH|14314;1|N|Run along the ledge to get over to where the quill is then drop down beside it. Offer the ink to the quill for a pet.|ITEM|182613|
 T Sign Your Own Death Warrant|QID|57380|M|38.97,66.03|Z|Revendreth|N|To Stonehead.|MS|
-N Pick up Hollow Rock|AVAILABLE|58327|M|38.87,64.31|Z|Revendreth|N|After Stonehead as unavoidably thrown you, pick up the Hollow Rock to disguise yourself.|BUFF|320559|
+N Pick up Hollow Rock|AVAILABLE|58327|M|38.87,64.31|Z|Revendreth|N|After Stonehead has unavoidably thrown you, pick up the Hollow Rock to disguise yourself.|BUFF|320559|RANK|2|
 A Snacks for Stonehead|QID|58327|M|39.33,65.25|Z|Revendreth|N|Now that you have your disguise, go over to the Chewed Light Shard and pick up this quest.|
 ; commenting out - so doesnt pop up when you go out of the area. == A Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
 C Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|S!US|N|Kill Hostiles and give parasols to the desicated as you do the side quests in the area.|TOF|
@@ -466,8 +471,8 @@ A Unbearable Light|QID|57427|M|38.10,60.77|Z|Revendreth|N|From Theotar.|LVL|58|P
 C Unbearable Light|QID|57427|M|34.54,59.45|Z|Revendreth|N|Kill Blistering Ash Ghouls.|S|MS|
 C Theotar's Mission|QID|57428|M|34.54,59.45|Z|Revendreth|NC|N|Click to collect Scorched Plank and scraps laying around the area.|S|MS|
 C Snacks for Stonehead|QID|58327|QO|4|M|34.21,55.66|Z|Revendreth|NC|S!US|N|Pick up one of the yellow crystals around the area for Stonehead. (feel free to pick up another for the Extra Action Button effect).|
-A A Rousing Aroma|QID|60467|M|35.04,53.91|Z|Revendreth|N|From Sabina.|LVL|58|RANK|2|
-C A Rousing Aroma|QID|60467|M|35.48,48.85|Z|Revendreth|S|N|Kill Ravenous Swarms and loot the Pungent Swarmer Toxin.|RANK|2|
+A A Rousing Aroma|QID|60467|M|35.04,53.91|Z|Revendreth|N|From Sabina.|RANK|2|
+C A Rousing Aroma|QID|60467|M|35.48,48.85|Z|Revendreth|S|N|Kill Ravenous Swarms and loot the Pungent Swarmer Toxin.|
 C Snacks for Stonehead|QID|58327|QO|1|M|31.56,61.84|Z|Revendreth|S|N|Also Ravenous Swarms drop the Gooey Bug Bites for Stonehand.|
 C My Terrible Morning|QID|57426|M|33.81,61.21|Z|Revendreth|N|Marquis Pummeler slain.|MS|
 C Theotar's Mission|QID|57428|M|34.54,59.45|Z|Revendreth|N|Click to collect Scorched Plank and scraps laying around the area.|US|MS|
@@ -509,64 +514,64 @@ K Summoner Marcelis|ACTIVE|60276|QO|1|M|30.32,63.79|Z|Revendreth|N|Inside a buil
 C Snacks for Stonehead|QID|58327|QO|2|M|31.56,61.84|Z|Revendreth|US|N|Continue killing the Ash Crawlers until you have enough Ash Crisps.|
 
 ; Sidequest Storyline - Revelations of the Light
-C A Rousing Aroma|QID|60467|M|35.48,48.85|Z|Revendreth|US|N|Kill Ravenous Swarms and loot the Pungent Swarmer Toxin.|RANK|2|
-T A Rousing Aroma|QID|60467|M|35.04,53.91|Z|Revendreth|N|To Sabina.|RANK|2|
-A Safe in the Shadows|QID|60469|M|35.04,53.91|Z|Revendreth|N|From Sabina.|LVL|58|PRE|60467|RANK|2|
-A Rubble Rummaging|QID|60468|M|35.04,53.91|Z|Revendreth|N|From Sabina.|LVL|58|PRE|60467|RANK|2|
-C Rubble Rummaging|QID|60468|M|38.84,53.46|Z|Revendreth|NC|N|Click on the glowing rubble piles scattered around until you find the Shackle Key.|S|RANK|2|
-C Safe in the Shadows|QID|60469|M|37.90,53.51|Z|Revendreth|QO|1|NC|N|Find Sabina's companions.|RANK|2|
-C Safe in the Shadows|QID|60469|M|37.90,53.51|Z|Revendreth|QO|2|NC|N|Click on the Light Satchel, Tattered Journal and Stained Dagger to inspect for clues.|RANK|2|
-C Rubble Rummaging|QID|60468|M|38.84,53.46|Z|Revendreth|NC|N|Click on the glowing rubble piles scattered around until you find the Shackle Key.|US|RANK|2|
-T Safe in the Shadows|QID|60469|M|35.04,53.91|Z|Revendreth|N|To Sabina.|RANK|2|
-T Rubble Rummaging|QID|60468|M|35.04,53.91|Z|Revendreth|N|To Sabina.|RANK|2|
-A Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|N|From Sabina.|LVL|58|PRE|60468&60469|RANK|2|
-C Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|QO|1|NC|N|Click on the shackles to release Sabina.|RANK|2|
-C Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|QO|2|N|Kill Sabina.|RANK|2|
-T Setting Sabina Free|QID|60470|M|PLAYER|Z|Revendreth|N|Click Pop-Up Quest to complete.|RANK|2|
+C A Rousing Aroma|QID|60467|M|35.48,48.85|Z|Revendreth|US|N|Kill Ravenous Swarms and loot the Pungent Swarmer Toxin.|
+T A Rousing Aroma|QID|60467|M|35.04,53.91|Z|Revendreth|N|To Sabina.|
+A Safe in the Shadows|QID|60469|M|35.04,53.91|Z|Revendreth|N|From Sabina.|PRE|60467|RANK|2|
+A Rubble Rummaging|QID|60468|M|35.04,53.91|Z|Revendreth|N|From Sabina.|PRE|60467|RANK|2|
+C Rubble Rummaging|QID|60468|M|38.84,53.46|Z|Revendreth|NC|N|Click on the glowing rubble piles scattered around until you find the Shackle Key.|S|
+C Safe in the Shadows|QID|60469|M|37.90,53.51|Z|Revendreth|QO|1|NC|N|Find Sabina's companions.|
+C Safe in the Shadows|QID|60469|M|37.90,53.51|Z|Revendreth|QO|2|NC|N|Click on the Light Satchel, Tattered Journal and Stained Dagger to inspect for clues.|
+C Rubble Rummaging|QID|60468|M|38.84,53.46|Z|Revendreth|NC|N|Click on the glowing rubble piles scattered around until you find the Shackle Key.|US|
+T Safe in the Shadows|QID|60469|M|35.04,53.91|Z|Revendreth|N|To Sabina.|
+T Rubble Rummaging|QID|60468|M|35.04,53.91|Z|Revendreth|N|To Sabina.|
+A Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|N|From Sabina.|PRE|60468&60469|RANK|2|
+C Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|QO|1|NC|N|Click on the shackles to release Sabina.|
+C Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|QO|2|N|Kill Sabina.|
+T Setting Sabina Free|QID|60470|M|PLAYER|Z|Revendreth|N|Click Pop-Up Quest to complete.|
 
 ; Sidequest Storyline - Mirror Maker of the Master
 ;t don't know where this comes from? A Master of Their Craft|QID|60051|M|26.43,48.95|Z|Revendreth|N|To Laurent.|RANK|2|
-A An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
-C An Unfortunate Situation|QID|57531|M|29.81,48.63|Z|Revendreth|N|Kill the Costel and his 2 friends in the hideout, loot him to collect Laurent's Belongings.|RANK|2|
-T An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|To Laurent.|RANK|2|
-A Foraging for Fragments|QID|57532|M|26.43,48.95|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57531|RANK|2|
-C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|1|N|Follow Laurent and defend him against attackers.|RANK|2|
-C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|2|NC|N|Click on the Mirror Fragment laying on the ground.|RANK|2|
-C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|3|N|Follow Laurent and defend him against attackers.|RANK|2|
-C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|4|NC|N|Click on the Mirror Fragment laying on the ground.|RANK|2|
-C Foraging for Fragments|QID|57532|M|24.97,48.00|Z|Revendreth|QO|5|N|Follow Laurent and defend him against attackers.|RANK|2|
-C Foraging for Fragments|QID|57532|M|24.97,48.00|Z|Revendreth|QO|6|NC|N|Click on the Mirror Fragment laying on the ground.|RANK|2|
-T Foraging for Fragments|QID|57532|M|24.26,49.40|Z|Revendreth|N|To Laurent.|RANK|2|
-A Moving Mirrors|QID|57571|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57532|RANK|2|
-C Moving Mirrors|QID|57571|M|24.09,49.68|Z|Revendreth|QO|1|NC|N|Click on the mirrors to free Simone.|RANK|2|
-T Moving Mirrors|QID|57571|M|24.19,49.46|Z|Revendreth|N|To Simone.|RANK|2|
-A Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|From Simone.|LVL|58|PRE|57571|RANK|2|
-A When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57571|RANK|2|
-C When Only Ash Remains|QID|57534|M|22.48,52.16|Z|Revendreth|N|Kill Ashen enemies.|S|RANK|2|
-C Light Punishment|QID|57533|M|22.48,52.16|Z|Revendreth|NC|N|Click on the mirrors around Blistering Outcasts to free them.|RANK|2|
-C When Only Ash Remains|QID|57534|M|22.48,52.16|Z|Revendreth|N|Kill Ashen enemies.|US|RANK|2|
-T When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|To Laurent.|RANK|2|
-T Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|To Simone.|RANK|2|
-A We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|From Simone.|LVL|58|PRE|57533&57534|RANK|2|
-A Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57533&57534|RANK|2|
-C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|NC|N|Click on Anima canisters laying around the area.|RANK|2|S|
-C Escaping the Master|QID|57535|M|24.79,53.51|Z|Revendreth|S|N|Kill enemies and loot their Mirror Fragments.|RANK|2|
+A An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|From Laurent.|RANK|2|
+C An Unfortunate Situation|QID|57531|M|29.81,48.63|Z|Revendreth|N|Kill the Costel and his 2 friends in the hideout, loot him to collect Laurent's Belongings.|
+T An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|To Laurent.|
+A Foraging for Fragments|QID|57532|M|26.43,48.95|Z|Revendreth|N|From Laurent.|PRE|57531|RANK|2|
+C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|1|N|Follow Laurent and defend him against attackers.|
+C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|2|NC|N|Click on the Mirror Fragment laying on the ground.|
+C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|3|N|Follow Laurent and defend him against attackers.|
+C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|4|NC|N|Click on the Mirror Fragment laying on the ground.|
+C Foraging for Fragments|QID|57532|M|24.97,48.00|Z|Revendreth|QO|5|N|Follow Laurent and defend him against attackers.|
+C Foraging for Fragments|QID|57532|M|24.97,48.00|Z|Revendreth|QO|6|NC|N|Click on the Mirror Fragment laying on the ground.|
+T Foraging for Fragments|QID|57532|M|24.26,49.40|Z|Revendreth|N|To Laurent.|
+A Moving Mirrors|QID|57571|M|24.26,49.40|Z|Revendreth|N|From Laurent.|PRE|57532|RANK|2|
+C Moving Mirrors|QID|57571|M|24.09,49.68|Z|Revendreth|QO|1|NC|N|Click on the mirrors to free Simone.|
+T Moving Mirrors|QID|57571|M|24.19,49.46|Z|Revendreth|N|To Simone.|
+A Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|From Simone.|PRE|57571|RANK|2|
+A When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|From Laurent.|PRE|57571|RANK|2|
+C When Only Ash Remains|QID|57534|M|22.48,52.16|Z|Revendreth|N|Kill Ashen enemies.|S|
+C Light Punishment|QID|57533|M|22.48,52.16|Z|Revendreth|NC|N|Click on the mirrors around Blistering Outcasts to free them.|
+C When Only Ash Remains|QID|57534|M|22.48,52.16|Z|Revendreth|N|Kill Ashen enemies.|US|
+T When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|To Laurent.|
+T Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|To Simone.|
+A We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|From Simone.|PRE|57533&57534|RANK|2|
+A Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|From Laurent.|PRE|57533&57534|RANK|2|
+C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|NC|N|Click on Anima canisters laying around the area.|S|
+C Escaping the Master|QID|57535|M|24.79,53.51|Z|Revendreth|S|N|Kill enemies and loot their Mirror Fragments.|
 C Snacks for Stonehead|QID|58327|QO|3|M|26.33,53.32|Z|Revendreth|S|N|The Shrouded type mobs in the Shrouded Asylum drop the Mirror Candy needed.|
 K Enforcer Kristof|ACTIVE|60275|QO|1|CS|M|23.42,53.75;22.78,55.79|Z|Revendreth|N|Up to The Shrouded Asylum and inside the building to find Enforcer Kristof.|
 C Snacks for Stonehead|QID|58327|QO|3|M|26.33,53.32|Z|Revendreth|US|N|Finish collecting Mirror Candy from the Shrouded type mobs.|
-C Escaping the Master|QID|57535|M|24.79,53.51|Z|Revendreth|US|N|Kill enemies and loot their Mirror Fragments.|RANK|2|
-C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|N|Click on Anima canisters laying around the area.|RANK|2|US|
-T We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|To Simone.|RANK|2|
-T Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|To Laurent.|RANK|2|
-A Mirror Making, Not Breaking|QID|57536|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|59427&57535|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|1|NC|N|Follow Laurent and Simone to the mirror.|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|2|CHAT|N|Speak to Laurent to let him begin.|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|3|N|Kill waves of enemies, defending Laurent and Simone.|RANK|2|
-T Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|N|To Laurent.|RANK|2|
+C Escaping the Master|QID|57535|M|24.79,53.51|Z|Revendreth|US|N|Kill enemies and loot their Mirror Fragments.|
+C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|N|Click on Anima canisters laying around the area.|US|
+T We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|To Simone.|
+T Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|To Laurent.|
+A Mirror Making, Not Breaking|QID|57536|M|24.26,49.40|Z|Revendreth|N|From Laurent.|PRE|59427&57535|RANK|2|
+C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|1|NC|N|Follow Laurent and Simone to the mirror.|
+C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|2|CHAT|N|Speak to Laurent to let him begin.|
+C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|3|N|Kill waves of enemies, defending Laurent and Simone.|
+T Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|N|To Laurent.|
 N Sanctuary of the Mad|ACTIVE|60275^60276|M|24.80,50.27|Z|Revendreth|N|Walk thru the mirror for a quick trip to Sanctuary of the Mad.|
 T Wanted: Enforcer Kristof|QID|60275|M|30.71,49.12|Z|Revendreth|N|To Dispatcher Raluca.|
 T Wanted: Summoner Marcelis|QID|60276|M|30.81,49.12|Z|Revendreth|N|To Dispatcher Raluca.|
-T Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|RANK|2|
+T Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
 T Snacks for Stonehead|QID|58327|M|39.06,65.91|Z|Revendreth|N|To Stonehead.|;--not sure where to place this. leaving it here for now. quest is finished during the Mirror Maker story arc ~ line 448
 
 C Into the Light|QID|60566|M|30.37,47.44|Z|Revendreth|N|Ride the elevator to Sinfall.|MS|
