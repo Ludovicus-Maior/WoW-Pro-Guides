@@ -66,7 +66,7 @@ T Soul in Hand|QID|59915|M|24.47,36.20|Z|The Maw!Instance|N|To Lady Jaina Proudm
 A The Lion's Cage|QID|59759|M|24.47,36.20|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59915|LVL|50|
 R Calcis|ACTIVE|59759|CS|M|25.51,29.83|Z|The Maw!Instance|N|Run out the cave and up the road to your left.|
 R Ruin's Cradle|ACTIVE|59759|CS|M|24.27,25.01|Z|The Maw!Instance|N|Make your way to the bridge.|
-C The Lion's Cage|QID|59759|CS|M|27.52,17.47|Z|The Maw!Instance|QO|1|NC|N|Take the teleport pad on to reach the Upper Tremaculum.|
+C The Lion's Cage|QID|59759|CS|M|27.52,17.47|Z|The Maw!Instance|QO|1|NC|N|Step on the teleport pad to reach the Upper Tremaculum.|
 C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|2|NC|N|Pause a moment, behind the 3 cages, for the update that you have found Anduin.|
 C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|3|CHAT|N|Speak to Jaina.|
 T The Lion's Cage|QID|59759|M|25.09,13.48|Z|The Maw!Instance|N|To Anduin Wrynn.|
@@ -88,7 +88,7 @@ C By and Down the River|QID|59762|M|29.78,42.45|Z|The Maw!Instance|QO|2|N|Escape
 T By and Down the River|QID|59762|M|29.78,42.45|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
 A Wounds Beyond Flesh|QID|59765|M|29.56,43.86|Z|The Maw!Instance|N|From Thrall.|PRE|59762|LVL|50|
 A A Good Axe|QID|59766|M|29.56,43.86|Z|The Maw!Instance|N|From Thrall.|PRE|59762|LVL|50|
-C Wounds Beyond Flesh|QID|59765|M|31.59,42.67|Z|The Maw!Instance|S|N|Kill Mawsworn Soulrender until you get the Wither Blade.|
+C Wounds Beyond Flesh|QID|59765|M|31.59,42.67|Z|The Maw!Instance|S|N|Kill Mawsworn Soulrenders until you get the Wither Blade.|
 C A Good Axe|QID|59766|M|31.59,42.67|Z|The Maw!Instance|NC|N|Click on the weapon racks until Thrall finds a suitable weapon.|
 C Wounds Beyond Flesh|QID|59765|M|31.59,42.67|Z|The Maw!Instance|US|N|Kill Mawsworn Soulrenders until you get the Wither Blade.|
 T Wounds Beyond Flesh|QID|59765|M|PLAYER|Z|The Maw!Instance|N|To Thrall.|
@@ -142,7 +142,7 @@ C The Eternal City|QID|60152|M|39.88,66.44|Z|Ring of Fates@Oribos|QO|6|CHAT|N|Re
 T The Eternal City|QID|60152|M|39.88,66.40|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
 A Understanding the Shadowlands|QID|60154|M|40.30,64.97|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|60152|MS|
 C Understanding the Shadowlands|QID|60154|M|40.81,65.88|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Tal-Inara.|MS|
-C Understanding the Shadowlands|QID|60154|M|40.34,66.59|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Tell Kah-Sher you will go.|MS|
+C Understanding the Shadowlands|QID|60154|M|40.34,66.59|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Tell Kah-Sher you will go. Don't take the Transport Pad before this step closes. (or if you did, go back down and up.)|MS|
 C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|Ring of Fates@Oribos|QO|3|NC|N|Take the Transport Pad to the Ring of Transference.|MS|
 T Understanding the Shadowlands|QID|60154|M|50.50,61.98|Z|Ring of Transference@Oribos||N|To Overseer Kah-Sher.|MS|
 A The Path to Bastion|QID|60156|M|50.50,61.98|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|60154|MS|
