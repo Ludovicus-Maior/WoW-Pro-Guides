@@ -62,7 +62,7 @@ C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|N|Kill Timber Worg (Alpha)s
 R Veil Shienor|QID|10847|N|Head northeast to Veil Shienor.|M|59,27|
 C Arakkoa War Path|QID|10868|N|Kill Arakkoa until you complete the quest.|S|
 C The Outcast's Plight|N|Kill Arakkoa to get their feathers.|QID|10917|S|
-l Steal the Eye of Shienor|QID|10847|QO|2|N|The Eye can be found by heading to the eastern tree, going up, and crossing the bridge.|M|57387,23.14|
+l Steal the Eye of Shienor|QID|10847|QO|2|N|The Eye can be found by heading to the eastern tree, going up, and crossing the bridge.|M|57.87,23.14|
 K Ayit|QID|9987|QO|2|N|He's down in a small hut between two trees.|M|59.4,23.5|
 N Eastern Altar|QID|10021|N|Right-click the Eastern Altar here.|M|49.20,20.30|QO|2|REP|Aldor;932|
 K Ashkaz|QID|9987|QO|1|N|He's on the tree house that can be accessed by a wooden bridge from the ground. Careful, he can knock you off the platform.|M|49.9,16.5|
