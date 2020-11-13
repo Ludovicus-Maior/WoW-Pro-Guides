@@ -42,6 +42,7 @@ T The Dying Balance|QID|9895|M|78.5,63.1|N|To Lethyn Moonfire.|
 T Escape from Umbrafen|QID|9752|M|78.4,62.0|N|To Ysiel Windsinger.|
 C There's No Explanation for Fashion|QID|9769|S|N|Kill and loot flies for the wings. Pet collectors might want to kill Bogflare Needlers along the northern border for a small chance of a Caged Firefly|M|79.7,70.1|
 C Menacing Marshfangs|QID|9770|N|Finish this off. They're around Swamprat Post (Go between the two waypoint until you have all your kills).|M|82.46,58.43;85.66,48.88|CN|
+C There's No Explanation for Fashion|QID|9769|M|79.7,70.1|N|Kill and loot flies for the wings. Pet collectors might want to kill Bogflare Needlers along the northern border for a small chance of a Caged Firefly|US|
 T No More Mushrooms!|QID|9773|M|84.4,54.3|N|To Magasha.|
 T There's No Explanation for Fashion|QID|9769|M|84.4,54.3|N|To Magasha.|
 T Menacing Marshfangs|QID|9770|M|85.0,54.0|N|To Reavij.|
