@@ -206,21 +206,22 @@ C No Sister Left Behind|QID|30354|US|NC|M|23.49,45.07|N|Click on the sentinals t
 T Re-Reclaim|QID|30355|M|25.20,34.53|N|To Kang Bramblestaff.|
 T No Sister Left Behind|QID|30354|M|24.70,34.04|N|To Lyalia.|
 T Sever Their Supply Line|QID|30356|M|24.70,34.04|N|To Lyalia.|
-A The Mantid|QID|30361|PRE|30354&30355&30356|M|24.88,34.37|N|From Ambassador Han.|
+A The Mantid|QID|30361|PRE|30354&30355&30356|M|24.90,30.32|N|From Ambassador Han.|
 C The Mantid|QID|30361|S|M|14.44,35.46|
-A The Stoneplow Convoy|QID|30357|PRE|30354&30355&30356|M|15.09,39.42|N|From Lorekeeper Vaeldrin.|
+A The Stoneplow Convoy|QID|30357|PRE|30354&30355&30356|M|14.36,35.75|N|From Lorekeeper Vaeldrin.|
 C The Stoneplow Convoy|QID|30357|NC|U|79163|M|15.62,34.96|N|Use the poultices to heal the envoys.|
 C The Mantid|QID|30361|S|M|14.44,35.46|
-T The Mantid|QID|30361|M|15.69,39.71|N|To Ambassador Len.|
-T The Stoneplow Convoy|QID|30357|M|15.09,39.42|N|To Lorekeeper Vaeldrin.|
-A The Lord Reclaimer|QID|30359|PRE|30357&30361|M|15.09,39.42|N|From Lorekeeper Vaeldrin.|
-K Kill Groundbreaker Brojai|QID|30359|T|Groundbreaker Brojai|QO|1|M|23.58,48.85|N|Talk to Lyelia to start a scripted event which ends with you killing Brojai.|; Groundbreaker Brojai slain: 1/1
-T The Lord Reclaimer|QID|30359|M|24.70,33.98|N|To Lorekeeper Vaeldrin.|
-A The Waters of Youth|QID|30445|PRE|30359|M|24.70,33.98|N|From Lorekeeper Vaeldrin.|
-C The Waters of Youth|QID|30445|M|24.70,33.98|
-T The Waters of Youth|QID|30445|M|24.70,33.98|N|To Lyalia.|
-A Warn Stoneplow|QID|30360|PRE|29990&30117&30273&30445|M|24.74,34.04|N|From Lyalia.|
-F Stoneplow|QID|30360|M|25.13,33.53|N|At Maylen Moonfeather.|
+T The Mantid|QID|30361|M|15.02,36.07|N|To Ambassador Len.|
+T The Stoneplow Convoy|QID|30357|M|14.35,35.74|N|To Lorekeeper Vaeldrin.|
+A The Lord Reclaimer|QID|30359|PRE|30357&30361|M|14.35,35.74|N|From Lorekeeper Vaeldrin.|
+K Kill Groundbreaker Brojai|QID|30359|T|Groundbreaker Brojai|QO|1|M|23.50,45.87|N|Talk to Lyelia to start a scripted event which ends with you killing Brojai.|; Groundbreaker Brojai slain: 1/1
+T The Lord Reclaimer|QID|30359|M|24.70,29.89|N|To Lorekeeper Vaeldrin.|
+A The Waters of Youth|QID|30445|PRE|30359|M|24.70,29.89|N|From Lorekeeper Vaeldrin.|
+C The Waters of Youth|QID|30445|M|24.70,29.89|
+T The Waters of Youth|QID|30445|M|24.70,29.89|N|To Lyalia.|
+A Warn Stoneplow|QID|30360|PRE|29990&30117&30273&30445|M|24.70,29.89|N|From Lyalia.|
+;Chapters Complete
+F Stoneplow|QID|30360|M|25.19,29.35|N|At Maylen Moonfeather.|
 T Warn Stoneplow|QID|30360|M|19.54,56.92|Z|Valley of the Four Winds|N|To Loon Mai.  Cinematic Follows.|
 A The Mantidote|QID|30623|PRE|30241^30360^30376|M|17.96,56.45|Z|Valley of the Four Winds|N|From Mei Barrelbottom.|
 A The Swarm Begins|QID|30622|PRE|30241^30360^30376|M|17.83,56.23|Z|Valley of the Four Winds|N|From Loon Mai.|
