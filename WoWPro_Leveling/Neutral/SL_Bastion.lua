@@ -62,7 +62,7 @@ R Aspirant's Rest|ACTIVE|62723|CS|M|52.66,64.30;51.31,73.64;49.08,74.31|Z|Bastio
 f Aspirant's Rest|ACTIVE|60466|M|48.13,74.16|Z|Bastion!The Shadowlands|N|At Rheus.|TOF|RANK|2|
 
 ; Eternity's Call Storyline
-N Use of Ranks|QID|59774|N|Setting the guide will direct you to all main story line quests. It will not direct you to optional quests, however, if you pick one up it will direct you where to complete and turn in. Rank 2 takes you to all the side quests, There is nothing set to Rank 3 in this guide.|MS|
+N Use of Ranks|QID|59774|N|Setting the guide to Rank 1 will direct you to all main story line quests. It will not direct you to optional quests, however, if you pick one up it will direct you where to complete and turn in. Rank 2 takes you to all the side quests, There is nothing set to Rank 3 in this guide.|MS|
 A Welcome to Eternity|QID|59774|M|37.47,76.44|Z|Bastion!The Shadowlands|N|From Kleia|PRE|59773|MS|
 C Welcome to Eternity|QID|59774|M|37.47,76.44|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia.|MS|
 C Welcome to Eternity|QID|59774|M|42.06,78.22|QO|2|Z|Bastion!The Shadowlands|NC|N|Follow Kleia.|MS|
