@@ -25,8 +25,8 @@ A Return of the Scourge|QID|60761|M|49.36,59.33|Z|Northern Barrens|N|From Lieute
 T Return of the Scourge|QID|60761|M|53.00,77.39|Z|Orgrimmar|N|To Commander Throgg.|FACTION|Horde|
 A A Message from Icecrown|QID|60727|M|53.00,77.39|Z|Orgrimmar|N|From Commander Throgg.|PRE|60761|FACTION|Horde|
 A The Banshee's Champion|QID|61488|M|53.02,77.00|Z|Orgrimmar|ELITE|N|[color=ff8000]WQ Raid: [/color]From Light's Hope Messenger.|PRE|60761|FACTION|Horde|
-R Pathfinder's Den|QID|60727|M|53.57,90.43|Z|Orgrimmar|N|Run or fly to the Pathfinder's Den.|FACTION|Horde|
-P Dalaran|QID|60727|M|56.21,91.76|Z|Orgrimmar|N|Run in to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Horde|
+R Pathfinder's Den|QID|60727|M|53.57,90.43|Z|Orgrimmar|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise run or fly to the Pathfinder's Den.|FACTION|Horde|U|46874|IZ|Orgrimmar|
+P Dalaran|QID|60727|M|56.21,91.76|Z|Orgrimmar|N|Run in to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Horde|IZ|Orgrimmar|
 
 A An Urgent Request|QID|60113|M|39.44,64.15|Z|Stormwind City|N|AutoAccepted.|FACTION|Alliance|
 T An Urgent Request|QID|60113|M|39.44,64.15|Z|Stormwind City|N|To Genn Greymane.|FACTION|Alliance|
@@ -47,10 +47,10 @@ A Return of the Scourge|QID|60767|M|73.49,47.21|Z|Duskwood|N|From Lieutenant Ver
 T Return of the Scourge|QID|60767|M|65.70,77.06|Z|Stormwind City|N|To Commander Gregor in Stormwind City.|FACTION|Alliance|
 A A Message from Icecrown|QID|59877|M|65.70,77.06|Z|Stormwind City|N|From Commander Gregor.|PRE|60767|FACTION|Alliance|
 A The Banshee's Champion|QID|61486|M|65.54,76.99|Z|Stormwind City|ELITE|N|[color=ff8000]WQ Raid: [/color]From Light's Hope Messenger.|PRE|60767|FACTION|Alliance|
-;R Wizard's Sanctum|QID|59877|M|49.36,86.93|Z|Stormwind City|N|Fly to the Wizard Sanctum.|FACTION|Alliance|
-;P Dalaran|QID|59877|M|44.38,88.69|Z|Stormwind City|N|Run up the Wizard sanctum to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Alliance|
+R Wizard's Sanctum|QID|59877|M|49.36,86.93|Z|Stormwind City|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise fly to the Wizard Sanctum.|FACTION|Alliance|U|46874|IZ|Stormwind City|
+P Dalaran|QID|59877|M|44.38,88.69|Z|Stormwind City|N|Run up the Wizard sanctum to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Alliance|IZ|Stormwind City|
 
-T A Message from Icecrown|QID|59877^60727|M|71.05,21.99|Z|Icecrown|N|To Justicar Mariel Trueheart at the Argent Tournament Grounds in Icecrown, Northrend. If you have the [item=46874], now's the time to wear it and use it. Otherwise, use the portal to Dalaran Crystalsong Forest in Stormwind's Portal Room (Wizard's Sanctum).|U|46874|
+T A Message from Icecrown|QID|59877^60727|M|71.05,21.99|Z|Icecrown|N|To Justicar Mariel Trueheart at the Argent Tournament Grounds in Icecrown, Northrend.|
 A Securing the Area|QID|60169|M|71.05,21.99|Z|Icecrown|N|From Justicar Mariel Trueheart.|PRE|59877^60727|
 A A Valiant Effort|QID|60003^60004|M|71.02,22.02|Z|Icecrown|N|From Crusader Renn.|PRE|59877^60727|
 C Securing the Area|QID|60169|M|71.50,23.46|Z|Icecrown|S|N|Kill Scourge around the area.|
