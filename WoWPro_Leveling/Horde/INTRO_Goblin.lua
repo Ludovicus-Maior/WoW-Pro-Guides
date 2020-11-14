@@ -61,7 +61,7 @@ T Give Sassy the News|QID|24520|M|56.42,76.97|N|To Sassy Hardwrench.|
 T Do it Yourself|QID|14070|M|56.42,76.97|N|To Sassy Hardwrench.|
 A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|PRE|24520&14070&14109|
 A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|PRE|24520&14070&14110|
-C Life of the Party|QID|14113^14153|M|60.21,85.76|N|Entertain 10 Partygoers. \nUse Key 1 (Bubbly) for those holding a drink glass\nUse Key 2 (Bucket) if they have blue swirls over their head.\nUse Key 3 (Dance) if they are dancing\nUse Key 4 (Fireworks) if they are holding a red sparkler\nUse Key 5 (Hors D'oeuvres) if they are holding a chicken drumstick.\nIf you give them the wrong one, they'll tell you what they want. Move on from any that are all partied-out.|NC|
+C Life of the Party|QID|14113^14153|M|60.21,85.76|N|Entertain 10 Partygoers. \n\n[color=ff8000]Key 1:[/color] (Bubbly) for those holding a drink glass\n\n[color=ff8000]Key 2:[/color] (Bucket) if they have blue swirls over their head.\n\n[color=ff8000]Key 3:[/color] (Dance) if they are dancing\n\n[color=ff8000]Key 4:[/color] (Fireworks) if they are holding a red sparkler\n\n[color=ff8000]Key 5:[/color] (Hors D'oeuvres) if they are holding a chicken drumstick.\n\nIf you give them the wrong one, they'll tell you what they want. Move on from any that are all partied-out.|NC|
 T Life of the Party|QID|14113^14153|M|56.52,76.95|N|To Sassy Hardwrench.|
 A Pirate Party Crashers|QID|14115|M|56.52,76.95|N|From Sassy Hardwrench.|PRE|14113^14153|
 C Pirate Party Crashers|QID|14115|M|57.39,85.03|N|Kill 12 Pirate Party Crashers.|U|46856|

@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide('EmmLegionWarlock', 'Leveling', 'WarlockClassShrine', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 3)
+WoWPro:GuideContent(guide, "Legion")
 WoWPro:GuideName(guide, 'Warlock: Order Hall')
 WoWPro:GuideNickname(guide, "Warlock: Order Hall")
 WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")

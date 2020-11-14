@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Revendreth', 'Leveling', "Revendreth", 'Elid
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Revendreth")
 WoWPro:GuideName(guide,"Revendreth")
-WoWPro:GuideNextGuide(guide, "Covenant Campaign")
+WoWPro:GuideNextGuide(guide, "Covenant")
 WoWPro:GuideSteps(guide, function()
 return [[
 N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|

@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide('LinksDHArtCH100100', 'Leveling', 'DemonHunterOrderHallTerrain', 'Linkslegend5', 'Neutral')
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 3)
+WoWPro:GuideContent(guide, "Legion")
 WoWPro:GuideName(guide, 'Demon Hunter: Order Hall')
 WoWPro:GuideNickname(guide, "Demon Hunter: Order Hall")
 WoWPro:GuideClassSpecific(guide,"DemonHunter")

@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide('EmmLegionRogue', 'Leveling', 'The Hall of Shadows@Dalaran70', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 3)
+WoWPro:GuideContent(guide, "Legion")
 WoWPro:GuideName(guide, 'Rogue: Order Hall')
 WoWPro:GuideNickname(guide, "Rogue: Order Hall")
 WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
