@@ -148,8 +148,8 @@ C The Fate of Morbent Fel|QID|26723|M|16.97,33.36|N|Head upstairs into the main 
 N Mor'Ladim|ACTIVE|26723|IZ|Forlorn Rowe|N|[color=FF0000]NOTE: [/color]Keep an eye out for Mor'Ladim. He is an Elite that patrols the road in front of the house and hits extremely hard. Exit the house cautiously and be prepared to defend yourself. You cannot see him if he's out front.|
 A The Weathered Grave|QID|26793|M|17.72,29.10|N|From "A Weathered Grave".|
 C Bear In Mind|QID|26787|M|13.48,53.07|N|As you head back towards Raven Hill, go through area to the west (river) of the cemetary and finish killing and looting Coalpelt (Black) Bears for their brains.\nDon't worry about the ghouls, you'll get more opportunity later.|US|
-T The Fate of Morbent Fel|QID|26723|M|18.40,57.94|N|To Sven Yorgen.|
-A The Lurking Lich|QID|26724|M|18.40,57.94|N|From Sven Yorgen.|PRE|26723|
+T The Fate of Morbent Fel|QID|26723|M|18.34,58.05|N|To Sven Yorgen.|
+A The Lurking Lich|QID|26724|M|18.34,58.05|N|From Sven Yorgen.|PRE|26723|
 T Bear In Mind|QID|26787|M|18.62,58.36|N|To Jitters.|
 T The Lurking Lich|QID|26724|M|20.03,57.81|N|Sister Eisington.|
 A Guided by the Light|QID|26725|M|20.03,57.81|N|From Sister Eisington.|PRE|26724|
@@ -162,20 +162,20 @@ A Morbent's Bane|QID|26754|M|18.08,25.33|N|From In the tunnel.|PRE|26722|
 N Hunter's Pet Alert|ACTIVE|26754|N|When you reach the room with the Clattering Coldwraith, please note your pet will not follow you into the room.  You will need to dismiss your pet, enter the room fully (pick the right hand wall), then summon your pet.\n\nClick this step to continue.|S!US|C|Hunter|
 C Morbent's Bane|QID|26754|N|Continue down the tunnel until you come to this boss. Use Morbent's Bane to weaken Morbent Fel before taking him down. This is much easier if you kite him down the stairs and away from the ghouls.\n[color=FF0000]NOTE: [/color]All the ghouls in this room that are not already attacking you will disappear upon killing the Weakened Morbent Fel.|U|60212|
 C The Cries of the Dead|QID|26778|M|16.51,38.92|N|If (for some reason) you haven't managed to finish this quest by now, head up the stairs to the surface and get it done.|US|
-T Morbent's Bane|QID|26754|M|18.40,57.94|N|To Sven Yorgen.|O|
+T Morbent's Bane|QID|26754|M|18.34,58.05|N|To Sven Yorgen.|
 T The Cries of the Dead|QID|26778|M|20.03,57.81|N|To Sister Eisington.|
 A Rebels Without a Clue|QID|26838|M|20.03,57.81|N|If you intend on going onto Northern Stranglethorn next, then accept this quest from Sister Eisington. This quest will not show up if you have the quest "Hero's Call: Northern Stranglethorn Vale!" or done the Hero's Call quest already.|LEAD|26735|
 F Darkshire|ACTIVE|26793|M|21.08,56.45|N|Fly back to, or hearthstone to Darkshire.|
-T The Weathered Grave|QID|26793|M|72.62,47.64|N|To Sirra Von'lndi.|
-A Morgan Ladimore|QID|26794|M|72.62,47.64|N|From Sirra Von'lndi.|PRE|26793|
+T The Weathered Grave|QID|26793|M|72.60,47.76|N|To Sirra Von'lndi.|
+A Morgan Ladimore|QID|26794|M|72.60,47.76|N|From Sirra Von'lndi.|PRE|26793|
 T Morgan Ladimore|QID|26794|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
 A Mor'Ladim|QID|26795|M|73.53,46.93|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Commander Althea Ebonlocke.\n[color=FF0000]NOTE: [/color]This quest involves flying back to Raven Hill, and taking out an elite in Raven Hill Cemetery.\n\nLeft click the check box and confirm skipping the following two quests if you want to skip this quest.|PRE|26794|RANK|2|
-F Raven Hill|ACTIVE|26795|M|77.5,44.3|N|Fly to Raven Hill.|O|
-C Mor'Ladim|QID|26795|M|17.4,29.4|N|Find, kill and loot Mor'Ladim. He wanders back and forth along the road between the Dawning Wood Catacombs (south entrance) and the Weathered Grave (just north of the house). Use the targeting to find him easier. Don't forget to loot his skull.|T|Mor'Ladim|O|
-F Darkshire|ACTIVE|26795|M|21.06,56.46|N|Fly to Darkshire.|O|
-T Mor'Ladim|QID|26795|M|73.53,46.93|N|To Commander Althea Ebonlocke.|O|
+F Raven Hill|ACTIVE|26795|M|77.5,44.3|N|Fly to Raven Hill.|FLY|WOD|
+C Mor'Ladim|QID|26795|M|17.4,29.4|N|Find, kill and loot Mor'Ladim. He wanders back and forth along the road between the Dawning Wood Catacombs (south entrance) and the Weathered Grave (just north of the house). Use the targeting to find him easier. Don't forget to loot his skull.|T|Mor'Ladim|
+F Darkshire|ACTIVE|26795|M|21.06,56.46|N|Fly to Darkshire.|
+T Mor'Ladim|QID|26795|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
 A The Daughter Who Lived|QID|26796|M|73.53,46.93|N|From Commander Althea Ebonlocke.\n\nOnly available if you completed the Mor'Ladim Group quest.|PRE|26795|
-T The Daughter Who Lived|QID|26796|M|74.95,46.88|N|To Watcher Ladimore. She wanders around a bit.|O|
+T The Daughter Who Lived|QID|26796|M|74.95,46.88|N|To Watcher Ladimore. She wanders around a bit.|
 A A Daughter's Love|QID|26797|M|74.95,46.88|N|From Watcher Ladimore.|PRE|26796|
 F Raven Hill|ACTIVE|26797|M|77.5,44.3|N|Fly to Raven Hill.|
 T A Daughter's Love|QID|26797|M|17.66,29.11|N|Turn the quest into "A Weathered Grave".|
