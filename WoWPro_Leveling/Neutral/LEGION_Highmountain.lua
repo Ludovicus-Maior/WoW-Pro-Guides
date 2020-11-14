@@ -37,7 +37,7 @@ T Infestation|QID|39490|M|43.69,59.91|N|To Farmer Maya.|
 T Ormgul the Pestilent|QID|39491|M|43.64,59.92|N|To Jale Rivermane.|
 A The Flow of the River|QID|39496|M|43.64,59.92|N|From Jale Rivermane.|PRE|39272^39490^39491|
 T The Flow of the River|QID|39496|M|42.10,59.34;41.13,61.57|CS|N|To Angler Creel.|
-A Defend the Riverlands-Bonus Objective|QID|39274|PRE|39496|M|41.13,61.57|N|Auto Accepted when you enter the area.|LVL|-109|RANK|2|
+A Defend the Riverlands-Bonus Objective|QID|39274|PRE|39496|M|41.13,61.57|N|Auto Accepted when you enter the area.|LVL|-45;CT|RANK|2|
 C Defend the Riverlands-Bonus Objective|QID|39274|M|41.13,61.57|S|N|You can do this as you do the other objectives in the area.|RANK|2|
 A Trapped Tauren|QID|39316|M|41.13,61.57|N|From Angler Creel.|PRE|39496|
 A Fish Out of Water|QID|39614|M|41.13,61.57|N|From Angler Creel.|PRE|39496|
@@ -154,7 +154,7 @@ $ Treasure Chest|QID|40510|M|43.78,72.72|N|Loot for a bit of treasure and resour
 C The Path of Huln|QID|39575|M|45.63,71.15|Z|Highmountain/29|NC|QO|1|N|Escort Spiritwalker Ebonhorn to the Path of Huln.|
 C The Path of Huln|QID|39575|M|46.50,70.98|Z|Highmountain/29|NC|QO|2|N|Jump in to the Vault.|
 T The Path of Huln|QID|39575|M|43.20,28.14|Z|Highmountain/29|N|To Spiritwalker Ebonhorn.|
-A Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|Highmountain/29|N|Auto accepted when you enter the area.|LVL|-109|RANK|2|
+A Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|Highmountain/29|N|Auto accepted when you enter the area.|LVL|-45;CT|RANK|2|
 C Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|Highmountain/29|S|N|Kill stuff, (like you have a choice).Note, you can ride your mount in here!|RANK|2|
 A In Defiance of Deathwing|QID|40219|M|47.35,70.26|Z|Highmountain/29|N|From Spiritwalker Ebonhorn.|PRE|39575|
 C In Defiance of Deathwing|QID|40219|M|38.71,47.66|Z|Highmountain/29|QO|1|NC|N|Click on brazier to recieve Vision of Scales.|
@@ -232,7 +232,7 @@ A I'm Not Lion!|QID|39867|M|40.02,52.36|N|From Ellias.|RANK|2|PRE|39123|
 C I'm Not Lion!|QID|39867|M|37.50,49.12|N|Kill and loot the mountain lion.|T|Rashar|RANK|2|
 C Scout It Out|QID|40228|M|44.18,44.14;43.54,44.83|CS|U|130074|T|Irewing|N|Go up the hillside so you are in range to use the flare gun. Fire it off and the other hunters will come help you.|RANK|2|
 C Moose on the Loose|QID|39178|M|45.78,42.80|T|Morashu|N|Kill and loot the old moose. His guards are not there to help you.|RANK|2|
-A The Screeching Crag-Bonus Objective|QID|40316|M|45.19,46.34|N|Auto-accepted when entering the area.|LVL|-109|RANK|3|
+A The Screeching Crag-Bonus Objective|QID|40316|M|45.19,46.34|N|Auto-accepted when entering the area.|LVL|-45;CT|RANK|3|
 C The Screeching Crag-Bonus Objective|QID|40316|M|45.19,46.34|S|N|Kill harpys and the cursed animals, click on the hexxing fetishs to advance the objective.|RANK|3|
 A Hex-a-Gone|QID|39419|M|47.18,47.99|N|From Maltha Silenthoof|RANK|3|
 C Hex-a-Gone|QID|39419|M|45.56,49.06|T|Hexweaver Akara|N|Kill Heaweaver Akara.|RANK|3|
@@ -246,7 +246,7 @@ A That Guy in the Costume|QID|40244|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|
 A Procuring a Prototype|QID|39386|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|PRE|40228|LEAD|39386|
 C That Guy in the Costume|QID|40244|M|40.22,52.69|CHAT|N|Ask Tamara for a ride.|RANK|3|
 f Shipwreck Cove|ACTIVE|40244|M|41.91,10.40|N|At Steven Nelson.|RANK|3|
-A Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|N|Auto accepted when you enter the area.|RANK|3|LVL|-109|
+A Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|N|Auto accepted when you enter the area.|RANK|3|LVL|-45;CT|
 C Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|S|N|Kill the adult Murlocs and click on the boxes of supplies to advance the objective.|RANK|3|
 T That Guy in the Costume|QID|40244|M|42.74,10.94|N|To King Mrgl-Mrgl.|RANK|3|
 A Nature vs. Nurture|QID|40045|M|42.73,10.94|N|From King Mrgl-Mrgl.|RANK|3|
@@ -288,7 +288,7 @@ $ Treasure Chest|QID|40494|M|60.81,25.14|Z|Highmountain/16|N|Loot for a bit of t
 C Demon Detainment|QID|39774|M|30.16,83.06|Z|Highmountain/16|QO|2|T|Lozar|N|Lozar detained.|RANK|2|
 T Demon Detainment|QID|39774|M|30.39,82.66|Z|Highmountain/16|N|To Apprentice Rosalyn who is with you.|RANK|2|
 R Fields of An'she|QID|38912|M|45.30,83.99;32.66,60.58|CS|Z|Highmountain/16|N|Run thru and out the other side of Mucksnout Den to the Fields of An'she.|FLY|LEGION|
-A Witches of the Sky-Bonus Objective|QID|39371|M|38.87,39.33|LVL|-109|RANK|2|
+A Witches of the Sky-Bonus Objective|QID|39371|M|38.87,39.33|LVL|-45;CT|RANK|2|
 f The Witchwood|ACTIVE|38912|M|38.34,39.23|N|At Rafat Smokehoof.|
 T The Bloodtotem Tribe|QID|38912|M|39.42,36.96|N|To Oakin Ironbull.|
 A Witch of the Wood|QID|39372|M|39.42,36.96|N|From Oakin Ironbull.|PRE|38912|
@@ -298,7 +298,7 @@ C I Have a Bad Feeling About This|QID|39873|M|39.00,34.83|NC|N|Investigate this 
 C Witches of the Sky-Bonus Objective|QID|39371|M|41.96,34.65|S|N|Pick up the Harpy eggs and kill the harpies to advance this objective.|RANK|2|
 C Hags of a Feather|QID|39373|M|42.30,27.41|S|N|Kill the Harpies and loot feathers.|
 $ Small Treasure Chest|QID|40480|M|41.96,34.65;42.49,35.02|CS|N|This is on a tree that has fallen over (above) the road. Loot for a bit of treasure and resources.|RANK|2|
-K Kill Slumber|QID|40175|QO|1|M|41.48,31.79|ITEM|131921|T|Slumber|N|Kill the sleeping bear for a bit of loot and treasure.  Be aware a 110 elite paths through this area.|RANK|2|RARE|
+K Kill Slumber|QID|40175|QO|1|M|41.48,31.79|ITEM|131921|T|Slumber|N|Kill the sleeping bear for a bit of loot and treasure.  Be aware a 50 elite paths through this area.|RANK|2|RARE|
 C Witch of the Wood|QID|39372|M|41.29,28.10|T|Witch of the Wood|N|Kill her and her pet moose.|
 $ Small Treasure Chest|QID|40479|M|42.21,27.32|N|Loot for a bit of resources and treasure.|RANK|2|
 C Hags of a Feather|QID|39373|M|40.46,29.61|US|N|Finish collecting the feathers.|
@@ -339,7 +339,7 @@ T Pet Rocks|QID|39391|M|45.21,32.51|N|To Navarrogg.|
 T Stonedark Crystal|QID|39425|M|45.21,32.51|N|To Navarrogg.|
 T They Will Pay With Blood|QID|39588|M|45.21,32.51|N|To Navarrogg.|
 A Blood Debt|QID|39426|M|45.21,32.51|N|From Navarrogg.|PRE|39391^39425^39588|
-A Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto-accepted as you enter the area.|LVL|-109|RANK|2|
+A Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto-accepted as you enter the area.|LVL|-45;CT|RANK|2|
 C Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|S|N|Click on weapon racks and kill Feltotems to advance the objective.|RANK|2|
 $ Glimmering Treasure Chest|QID|40482|M|48.05,27.31;46.67,28.11|CS|N|Up the hill. then walk on top of the building/statue and drop down onto the statue's nose to find a tresure chest.  Loot for a bit of resources and treasure.|RANK|3|
 K Kill Mellok, Son of Torok|QID|40242|M|49.20,27.11|ITEM|131808|QO|1|T|Mellok, Son of Torok|N|Kill this silver for a bit of loot and treasure.|RANK|2|RARE|
@@ -437,7 +437,7 @@ K Kill Hartil the Snatcher|QID|39802|QO|1|M|53.25,47.92;51.12,48.05|CS|N|Go up t
 C Nursing the Wounds|QID|39318|M|53.22,45.94|US|QO|2|N|Finish putting out fires.|
 T Nursing the Wounds|QID|39318|M|52.48,44.70|N|To Lasan Skyhorn.|
 A Rocs vs Eagles|QID|38910|M|52.48,44.70|N|From Lasan Skyhorn.|PRE|39318|
-A Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|N|Auto accepted when you enter the area.|LVL|-109|RANK|2|
+A Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|N|Auto accepted when you enter the area.|LVL|-45;CT|RANK|2|
 C Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|S|N|Anything you kill inside the boundry line progresses the objective.|RANK|2|
 C Rocs vs Eagles|QID|38910|M|49.59,40.89|S|N|Captive Great Eagle rescued.|
 K Kill Crawshuk the  Hungry|QID|39806|QO|1|M|49.42,39.74;48.38,40.05|CS|T|Crawshuk the Hungry|RANK|2|ITEM|131809|RARE|

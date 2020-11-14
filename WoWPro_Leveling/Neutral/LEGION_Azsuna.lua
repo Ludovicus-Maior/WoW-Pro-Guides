@@ -50,7 +50,7 @@ A From Within|QID|36920^44140^40815|PRE|37660^40375^40374^37658|M|43.56,43.46|N|
 T From Within|QID|36920^44140^40815|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
 A Fel Machinations|QID|37656|PRE|36920^40815^44140|M|41.25,50.51|N|From Kor'vas Bloodthorn who will show up and follow you around.|
 A Saving Stellagosa|QID|37450|PRE|36920^40815^44140|M|41.25,50.51|N|From Kor'vas Bloodthorn.|
-A Retake Faronaar-Bonus Objective|QID|36811|PRE|36920^40815^44140|M|41.24,50.50|N|From Kor'vas Bloodthorn. Auto-Accepted.|RANK|2|LVL|-44|
+A Retake Faronaar-Bonus Objective|QID|36811|PRE|36920^40815^44140|M|41.24,50.50|N|From Kor'vas Bloodthorn. Auto-Accepted.|RANK|2|LVL|-45;CT|
 C Retake Faronaar-Bonus Objective|QID|36811|M|40.05,48.80|S|US|N|Kill demons and click on the glowing items as you accomplish the other objectives.|RANK|2|
 C Saving Stellagosa|QID|37450|QO|1|M|38.45,56.65|N|Stellagosa is here.|
 C Saving Stellagosa|QID|37450|QO|2|M|40.48,56.36|N|Kill and Loot Lykill to get the key to Stellagosa's bonds.|T|Overseer Lykill|
@@ -116,7 +116,7 @@ T The Consumed|QID|37859|M|49.12,16.54|N|To Projection of Senegos.|
 T Runas the Shamed|QID|37957|M|49.12,16.54|N|To Projection of Senegos.|
 A Runas Knows the Way|QID|37857|PRE|37856&37957&37859|M|49.22,16.08|N|From Runas the Shamed.|
 R The Lost Orchard|AVAILABLE|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|FLY|LEGION|
-A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto accepted when you enter the area.|RANK|3|LVL|-44|
+A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto accepted when you enter the area.|RANK|3|LVL|-45;CT|
 C A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|S|US|N|Kill the hostiles, destroy the barrels of tainted barrels to advance the objective.|RANK|3|
 A Challiane Vineyards|QID|38203|M|47.40,12.44|N|From Cellarman Voodani who shows up when you enter the area and follows you.|RANK|3|
 $ Small Treasure Chest|QID|42295|M|47.85,7.73|N|Loot for a bit of treasure and resources.|RANK|3|
@@ -137,7 +137,7 @@ T Inscription of the Body|QID|39936|M|54.00,15.28|N|To Baric Stormrunner.|P|Insc
 A Opposites Repel|QID|39937|M|54.00,15.28|N|From Baric Stormrunner.|P|Inscription;773;6|PRE|39936|
 $ Treasure Chest|QID|42339|M|51.75,17.36;52.82,20.04;54.03,22.42;52.84,20.58|CS|N|You can walk, avoiding the sleeping bears to get to this treasure. Loot for some resources and treasure.|RANK|3|
 K Kill Cailyn Paledoom|QID|38268|M|54.03,22.37;52.43,22.90|CS|ITEM|129063|T|Cailyn Paledoom|N|Silver-Kill and Loot for a bit of treasure and resources.|RANK|3|RARE|
-A Those Beyond Redemption-Bonus Objective|QID|37963|PRE|37857|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|LVL|-44|
+A Those Beyond Redemption-Bonus Objective|QID|37963|PRE|37857|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|LVL|-45;CT|
 C Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|S|US|N|Click on the mana siphons and kill mobs in the area to advance the objective.|RANK|2|
 $ Small Treasure Chest|QID|44104|M|53.61,18.13|N|Loot for a bit of treasure and resources.|RANK|2|
 C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773;6|
@@ -234,7 +234,7 @@ A Infiltrating Shipwreck Arena|QID|37496|PRE|38407|M|47.06,41.45|N|From Lady Iri
 T Our Very Bones|QID|37257|M|47.00,41.34|N|To Prince Farondis.|
 A Trailing the Tidestone|QID|37497|PRE|37257|M|47.00,41.34|N|From Prince Farondis.|
 C Trailing the Tidestone|QID|37497|QO|1|M|47.00,41.34|N|Chat with the prince to start. As with all escort quests, there are a couple of ambushes.|CHAT|
-A The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|N|Auto-accepted as you enter the area.|RANK|2|LVL|-44|
+A The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|N|Auto-accepted as you enter the area.|RANK|2|LVL|-45;CT|
 T Trailing the Tidestone|QID|37497|M|51.80,44.28|N|To Prince Farondis.|
 A Nar'thalas Still Suffers|QID|37486|PRE|37497|M|51.80,44.28|N|From Prince Farondis.|
 C The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|S|US|N|As you go killing the things you run into and freeing the bound citizens will advance this objective.|RANK|2|
@@ -321,7 +321,7 @@ C Save Yourself|QID|37530|QO|6|M|58.60,41.43|NC|N|Defeat Queen Azshara.|
 C Save Yourself|QID|37530|QO|7|M|57.88,43.10|NC|N|Walk forward into the cave.|
 T Save Yourself|QID|37530|M|57.82,43.43|N|To yourself (because you are Prince Farondis at the moment).|
 A The Head of the Snake|QID|37470|PRE|37530|M|57.86,43.36|N|From Prince Farondis.|
-A Tip the Scales-Bonus Objective|QID|37779|LVL|-44|M|58.67,41.22|N|Auto accepted as you enter the area.|RANK|2|
+A Tip the Scales-Bonus Objective|QID|37779|LVL|-45;CT|M|58.67,41.22|N|Auto accepted as you enter the area.|RANK|2|
 C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|S|US|N|Kill Naga, loot the trident racks to activate an extra action button.|RANK|2|
 C The Head of the Snake|QID|37470|M|62.05,41.57|N|Kill Athissa.|T|Athissa|
 T The Head of the Snake|QID|37470|M|61.70,41.08|N|To Prince Farondis.|
@@ -372,7 +372,7 @@ $ Small Treasure Chest|QID|42288|M|55.36,27.74|N|Loot for a bit of treasure and 
 $ Small Treasure Chest|QID|42338|M|55.70,25.48;57.19,25.23|CS|N|Loot for a bit of treasure and resources.|RANK|3|
 R Olivian Veil|QID|40751|M|60.98,34.67;65.84,37.26;66.06,43.44|CS|N|Back to questing.|RANK|3|FLY|LEGION|
 $ Small Treasure Chest|QID|40751|M|66.06,43.44|N|Loot for a bit of treasure and resources.|RANK|2|
-K Kill Syphonus|QID|37989|QO|1|M|67.19,51.58|T|Syphonus|N|Silver - Kill and loot for a bit of treasure and resources.  Be wary of the lvl 110 mobs nearby.|RANK|2|ITEM|129064|RARE|
+K Kill Syphonus|QID|37989|QO|1|M|67.19,51.58|T|Syphonus|N|Silver - Kill and loot for a bit of treasure and resources.  Be wary of the lvl 50 mobs nearby.|RANK|2|ITEM|129064|RARE|
 T Missing Demon|QID|42238|M|62.91,51.45|N|To Daglop.|RANK|2|
 A Let's Make A Deal|QID|38460|PRE|42238|M|62.91,51.45|N|From Daglop.|RANK|2|
 C Let's Make A Deal|QID|38460|M|62.91,51.45|NC|N|Sign Daglop's Contract.|RANK|2|
@@ -419,7 +419,7 @@ T Morale Booster|QID|37536|M|47.93,48.67|N|To Sternfathom.|
 A Round 1, Fight!|QID|37538|PRE|37536|M|47.93,48.67|N|From Sternfathom.|
 C Round 1, Fight!|QID|37538|M|47.93,48.67|N|Tell Sternfathom you are ready.|
 T Round 1, Fight!|QID|37538|M|43.62,24.67|Z|Oceanus Cove|N|To Okuna Longtusk's pack.|
-A Plunder the Cove-Bonus Objective|QID|37495|PRE|37538|M|43.62,24.67|Z|Oceanus Cove|N|Auto-accepted when you enter the area.|RANK|2|LVL|-44|
+A Plunder the Cove-Bonus Objective|QID|37495|PRE|37538|M|43.62,24.67|Z|Oceanus Cove|N|Auto-accepted when you enter the area.|RANK|2|LVL|-45;CT|
 A The Right Weapon for the Job|QID|37565|PRE|37538|M|43.62,24.67|Z|Oceanus Cove|N|From Okuna's pack.|RANK|2|
 C Reclaimed Cargo|QID|40194|M|46.48,59.32|Z|Oceanus Cove|P|Leatherworking;165;6|QO|1|S|US|N|Find Crates scattered throughout.|
 C Plunder the Cove-Bonus Objective|QID|37495|M|43.62,24.67|Z|Oceanus Cove|S|US|N|Killing mobs, and clicking on the Skrog weapons advances the objective.|RANK|2|

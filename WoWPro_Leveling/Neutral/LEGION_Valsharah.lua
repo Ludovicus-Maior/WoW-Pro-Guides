@@ -31,7 +31,7 @@ l Companion Pet|QID|38468|M|59.54,77.23|L|130154|N|Chat with Lorel Stagfeather t
 U Pygmy Owl|QID|38468|M|59.54,77.23|U|130154|N|Click to add the Pygmy Owl to your collection.|RANK|2|RARE|
 T Archdruid of the Vale|QID|38382|M|61.04,73.23|N|To Thaon Moonclaw.|
 A Dishonored|QID|39383|PRE|38382|M|61.04,73.25|N|From Thaon Moonclaw.|
-A Moonclaw Vale-Bonus Objective|QID|39393|PRE|38382|M|61.04,73.23|N|Auto accepted by entering the area.|RANK|2|LVL|-109|
+A Moonclaw Vale-Bonus Objective|QID|39393|PRE|38382|M|61.04,73.23|N|Auto accepted by entering the area.|RANK|2|LVL|-45;CT|
 C Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|S|N|Destroy Totems, rescue druids and in general cause meyhem to advance the objective.|RANK|2|
 $ Treasure|QID|38943|M|59.88,72.26|N|Inside the house, up the right staircase. Loot for a bit of resources and treasure.|RANK|2|
 K Kill Perrexx|QID|39596|QO|1|M|61.02,69.36|ITEM|130137|N|Kill for a chance at treasure and resources.|T|Perrexx|RANK|2|RARE|
@@ -103,7 +103,7 @@ $ Treasure|QID|39074|M|65.38,86.25|N|Small cave, below Whispering Bluff. Loot fo
 R Lightsong|QID|42786|M|61.46,87.9;59.52,85.90|CS|N|Back up the hill to turn the quests in.|RANK|2|FLY|LEGION|
 T Moon Reaver|QID|42751|M|59.33,83.99|N|To Keeper Remulos.|RANK|2|
 R Lunarwing Shallows|QID|40221|M|57.76,86.68;56.14,78.26;53.77,79.87|CS|QO|1|N|Some optional quests and a bonus objective are available in Lunarwing Shallows.|RANK|2|FLY|LEGION|
-A Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto accepted when you enter the area.|RANK|2|LVL|-109|
+A Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto accepted when you enter the area.|RANK|2|LVL|-45;CT|
 C Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|S|N|Kill the thistleleafs and otherwise work towards the objective.|RANK|2|
 A Thorny Dancing|QID|40220|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
 A Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
@@ -164,7 +164,7 @@ $ Treasure|QID|38366|M|48.69,73.79|N|Surrounded by a circle of tree trunks. Loot
 T Archdruid of Lore|QID|38381^44106|M|48.87,70.18|N|To Elothir.|
 A Solid as a Rock|QID|38235|PRE|44106^38381|M|48.87,70.18|N|From Elothir.|
 A Death to the Witchmother|QID|38225|PRE|44106^38381|M|48.87,70.18|N|From Elothir.|
-A Wretched Sisters-Bonus Objective|QID|38372|M|48.32,68.86;47.25,69.79|CS|N|Auto Accepted when you enter the area.|RANK|2|LVL|-109|
+A Wretched Sisters-Bonus Objective|QID|38372|M|48.32,68.86;47.25,69.79|CS|N|Auto Accepted when you enter the area.|RANK|2|LVL|-45;CT|
 C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|N|Smash eggs, burn nests, rouse acolytes and of course kill harpys to advance the objective.|RANK|2|
 C Solid as a Rock|QID|38235|M|43.84,70.19|QO|1|NC|N|Click Marnor to rescue him.|
 C Solid as a Rock|QID|38235|M|43.85,75.31|QO|3|NC|N|Click Del'thanar to rescue him.|
@@ -192,7 +192,7 @@ R The Crescent Vale|ACTIVE|38641|M|53.70,63.74;56.59,62.13|CS|N|Follow this road
 $ Treasure|QID|39072|M|56.22,57.30|N|Loot for a bit of treasure and resources.|RANK|2|
 f Garden of the Moon|ACTIVE|38641|M|56.74,57.72|N|At Brinlanya Moonstone.|
 T The Temple of Elune|QID|38641|M|51.44,57.01|N|To Lyanis Moonfall.|
-A Defend The Temple-Bonus Objective|QID|39029|PRE|38641|M|51.44,57.01|N|Auto Accepted when you enter the inner temple.|RANK|2|LVL|-109|
+A Defend The Temple-Bonus Objective|QID|39029|PRE|38641|M|51.44,57.01|N|Auto Accepted when you enter the inner temple.|RANK|2|LVL|-45;CT|
 A Tears for Fears|QID|38662|PRE|38641|M|51.44,57.01|N|From Lyanis Moonfall.|
 A Root Cause|QID|38655|PRE|38641|M|51.48,56.83|N|From Isoraen Nightstar.|
 C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|S|N|Kill demons, chop down entangling roots as you go to complete the bonus objective.|RANK|2|
@@ -262,7 +262,7 @@ A Maiev's Trail|QID|38714|PRE|38718|M|40.74,53.01|N|From Commander Jarod Shadows
 A The Rook's Guard|QID|38715|PRE|38718|M|40.74,53.01|N|From Commander Jarod Shadowsong.|
 R Ravencourt|QID|38715|M|39.06,53.03;38.96,52.44|CS|N|Run out of this chamber and up into the hold courtyard.|RANK|-1|
 U Inscription on tomb|QID|38772|QO|1|M|37.96,52.81|N|Silver - Click on the nameplate to summon Theryssia and put her to rest.|T|Theryssia|RANK|2|RARE|
-A Black Rook Hold-Bonus Objective|QID|38716|PRE|38718|M|39.25,53.55|N|Auto accepted as you enter this area.|RANK|2|LVL|-109|
+A Black Rook Hold-Bonus Objective|QID|38716|PRE|38718|M|39.25,53.55|N|Auto accepted as you enter this area.|RANK|2|LVL|-45;CT|
 C Black Rook Hold-Bonus Objective|QID|38716|M|39.25,53.55|S|N|Click on the Keldorei Tomes, weapon racks and kill the Black Rook mobs as you go about your other objectives.|RANK|2|
 C The Rook's Guard|QID|38715|M|39.92,52.07|QO|1|N|Kill Starlys Strongbow in the Ravencourt.|T|Starlys Strongbow|
 C Maiev's Trail|QID|38714|M|40.45,51.62|QO|1|NC|N|Click on the girl lying in the prison cages here.|
@@ -342,7 +342,7 @@ $ Treasure|QID|39073|M|67.16,41.71;68.33,40.61|CS|N|Follow the path down, Chest 
 K Kill Wraithtalon|QID|39856^43447|QO|1|M|66.88,37.38|T|Wraithtalon|ITEM|130116|N|Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Reading the Leaves|QID|38684|M|68.10,35.48|US|N|Finish collecting the petals.|
 C Given to Corruption|QID|41749^41893|M|66.64,36.14;68.69,35.32|CS|N|Kill Varethos.|T|Varethos|
-A Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|N|Auto Accepted upon entering the area.|RANK|2|LVL|-109|
+A Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|N|Auto Accepted upon entering the area.|RANK|2|LVL|-45;CT|
 C Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|S|N|Kill mobs, pick bloodflowers and whatnot, while finding the treasure and rare in the area.|RANK|2|
 $ Treasure|QID|44139|M|63.91,45.57|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Thondrax|QID|38780|QO|1|M|62.99,47.95|ITEM|130121|T|Thondrax|N|Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
@@ -353,7 +353,7 @@ T Reading the Leaves|QID|38684|M|66.20,44.52|N|To Elothir.|
 T Given to Corruption|QID|41749^41893|M|66.20,44.52|N|To Elothir.|
 A Softening the Target|QID|43702|PRE|38684&41893|M|66.20,44.76|N|From Tyrande Whisperwind.|
 C Softening the Target|QID|43702|M|66.34,44.85|N|Hop on the bat for a bombing run.|
-A Ruins of Shala'nir-Bonus Objective|QID|38748|PRE|43702|M|63.28,42.07|N|Auto Accepted upon entering the area.|RANK|2|LVL|-109|
+A Ruins of Shala'nir-Bonus Objective|QID|38748|PRE|43702|M|63.28,42.07|N|Auto Accepted upon entering the area.|RANK|2|LVL|-45;CT|
 C Ruins of Shala'nir-Bonus Objective|QID|38748|M|63.28,42.07|S|N|Kill mobs and destroy nightmare totems to complete the objective.|RANK|2|
 T Softening the Target|QID|43702|M|63.19,42.22|N|To Tyrande Whisperwind.|
 A Close Enough to Touch|QID|38687^41763|PRE|43702|M|63.19,42.22|N|From Tyrande Whisperwind.|

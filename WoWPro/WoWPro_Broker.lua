@@ -1997,9 +1997,16 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Checking level based completion --
             if WoWPro.level and WoWPro.level[guideIndex] then
                 local level, offset = (";"):split(WoWPro.level[guideIndex])
-                level = tonumber(level)
-                offset = tonumber(offset)
+				if offset == "CT" then
+					offset = nil
+					if _G.C_PlayerInfo.IsPlayerInChromieTime then
+						level = 50
+					end
+				else
+					offset = tonumber(offset)
+				end
 
+				level = tonumber(level)
                 local currentLevel = _G.UnitLevel("player")
                 local currentXP = _G.UnitXP("player")
                 local maxXP = _G.UnitXPMax("player")

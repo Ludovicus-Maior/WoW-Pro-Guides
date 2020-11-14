@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Covenant', 'Leveling', "Ring of Fates@Oribos
 WoWPro:GuideLevels(guide, 60, 60)
 WoWPro:GuideSort(guide, 7)
 WoWPro:GuideName(guide,"Covenant Campaign")
-WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideNextGuide(guide, "Torghast")
 WoWPro:GuideSteps(guide, function()
 return [[
 N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
