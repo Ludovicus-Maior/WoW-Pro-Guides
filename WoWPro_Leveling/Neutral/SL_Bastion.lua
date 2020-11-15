@@ -228,7 +228,7 @@ C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|C
 A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion!The Shadowlands|N|From The Scroll in front of the Vespar of Harmony.|PRE|57717|MS|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Find the scrolls around the area.|S|MS|
 C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|Bastion!The Shadowlands|QO|2|NC|N|Click the bell to clease the Vesper of Harmony.|MS|
-K Fallen Acolyte Erisne|QID|58222|QO|1|RARE|M|60.20,72.99|Z|Bastion!The Shadowlands|N|This silver elite paths around the Vesper of Harmony.|ITEM|180444| 
+K Fallen Acolyte Erisne|QID|58222|QO|1|RARE|M|60.20,72.99|Z|Bastion!The Shadowlands|N|This silver elite paths around the Vesper of Harmony.|ITEM|180444|
 C A Once Sweet Sound|QID|57037|M|57.32,71.34|Z|Bastion!The Shadowlands|NC|QO|1|N|Click the bell to cleanse the Vesper of Purity.|MS|
 $ Vesper of Virtues|QID|62841^60478|M|58.66,71.39|Z|Bastion!The Shadowlands|N|Treasure is an item that buffs and gives small Heal.|ITEM|179982|ACH|14311;9|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Finish reading the scrolls around the area.|US|MS|
