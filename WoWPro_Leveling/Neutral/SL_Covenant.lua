@@ -147,54 +147,7 @@ C A Conduit for Growth|QID|62900|M|33.31,46.06|Z|The Trunk@Heart of the Forest!D
 T A Conduit for Growth|QID|62900|M|33.73,44.44|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
 A The Endless Forest|QID|62899|M|33.73,44.44|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|PRE|62900|COV|Night Fae|
 T The Endless Forest|QID|62899|M|46.59,36.60|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
-;Torgast intro
-A The Highlord Calls|QID|63030|M|47.27,36.07|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|COV|Night Fae|
-F Ring of Transference|ACTIVE|63030|M|51.41,8.25|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
-P Ring of Fates|ACTIVE|63030|M|50.21,61.70|Z|Ring of Transference@Oribos|N|Take the portal to Ring of Fates.|COV|Night Fae|
-T The Highlord Calls|QID|63030|M|40.05,68.33|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Night Fae|
-A Into Torghast|QID|60136|PRE|63030|M|40.05,68.33|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|COV|Night Fae|
-P Ring of Transference|ACTIVE|60136|M|51.51,58.53|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Night Fae|
-C Into Torghast|QID|60136|M|46.85,41.69|Z|The Maw|QO|1|NC|N|Ask Ve'nari about a way into Torghast.|COV|Night Fae|
-T Into Torghast|QID|60136|M|46.85,41.69|Z|The Maw|N|To Ve'nari.|COV|Night Fae|
-A The Search for Baine|QID|61099|PRE|60136|M|46.85,41.69|Z|The Maw|N|From Ve'nari.|COV|Night Fae|
-R Ve'nari's Refuge|ACTIVE|61099|M|48.12,39.54|Z|The Maw|N|Make your way to the Ve'nari's Refuge.|COV|Night Fae|
-P Torghast, Tower of the Damned|ACTIVE|61099|M|48.16,39.46|Z|The Maw|N|Take the portal to Torghast, Tower of the Damned.|COV|Night Fae|
-C The Search for Baine|QID|61099|M|16.41,47.09|Z|Torghast - Entrance!Instance|QO|1|NC|N|Use Ve'nari's portal to enter Torghast.|COV|Night Fae|
-R Torghast, Tower of the Damned|ACTIVE|61099|M|37.69,47.09|Z|Torghast - Entrance!Instance|N|Make your way to the Torghast, Tower of the Damned.|COV|Night Fae|
-C The Search for Baine|QID|61099|M|43.78,9.70|Z|Torghast!Instance1765|QO|2|NC|N|Take the Attuned Shard to the Wayfinder and see where it leads.|COV|Night Fae|
-C Ascend the Tower|Z|Torghast, Tower of the Damned|SO|1|S|N|Save souls, seek power, and defeat the Jailer's forces.There is 6 floors and then a boss fight.|COV|Night Fae|
-C The Search for Baine|QID|61099|M|46.88,58.63|Z|Torghast!Instance1769|QO|3|N|Warden Arkoban slain.|COV|Night Fae|
-A Prison of the Forgotten|QID|60267|PRE|59779|M|38.24,52.81|Z|Torghast!Instance1769|N|From Warden Arkoban.|COV|Night Fae|
-C The Search for Baine|QID|61099|M|35.67,56.10|Z|Torghast!Instance1769|QO|4|NC|N|Baine Rescued.|COV|Night Fae|
-P Ve'nari's Refuge|ACTIVE|60267|M|11.37,47.39|Z|Torghast - Entrance!Instance|N|Take the portal to Ve'nari's Refuge.|COV|Night Fae|
-P Oribos|ACTIVE|60267|M|42.47,42.07|Z|The Maw|N|Take the portal to Oribos.|COV|Night Fae|
-T The Search for Baine|QID|61099|M|39.81,68.27|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Night Fae|
-C Prison of the Forgotten|QID|60267|M|46.83,41.71|Z|The Maw|QO|1|CHAT|N|Speak with Ve'nari.|COV|Night Fae|
-T Prison of the Forgotten|QID|60267|M|15.96,61.67|Z|Torghast - Entrance!Instance|COV|Night Fae|
-A Deep Within|QID|60268|PRE|61099&60267|M|51.28,60.00|Z|The Runecarver!Instance|N|From Runecarver.|COV|Night Fae|
-C Deep Within|QID|60268|M|51.28,60.00|Z|The Runecarver!Instance|QO|1|NC|N|Learn more about the Prisoner.|COV|Night Fae|
-T Deep Within|QID|60268|M|51.28,60.00|Z|The Runecarver!Instance|N|To Runecarver.|COV|Night Fae|
-A Reawakening|QID|60269|PRE|60268|M|51.28,60.00|Z|The Runecarver!Instance|N|From Runecarver.|COV|Night Fae|
-A Odalrik|QID|62618|PRE|60268|M|37.51,30.83|Z|The Maw|N|From Odalrik.|COV|Night Fae|
-C Odalrik|QID|62618|M|37.54,30.79|Z|The Maw|QO|1|N|Odalrik slain.|COV|Night Fae|
-T Odalrik|QID|62618|M|37.55,30.77|Z|The Maw|COV|Night Fae|
-C Reawakening|QID|60269|M|38.15,29.81|Z|The Maw|QO|1|NC|N|Runecarver's Memory.|COV|Night Fae|
-P Torghast, Tower of the Damned|ACTIVE|63158|M|16.27,56.57|Z|Torghast - Entrance!Instance|N|Take the portal to Torghast, Tower of the Damned.|COV|Night Fae|
-T Reawakening|QID|60269|M|49.40,59.04|Z|The Runecarver!Instance|N|To Runecarver.|COV|Night Fae|
-A A Damned Pact|QID|60270|PRE|63158&60269|M|49.40,59.04|Z|The Runecarver!Instance|N|From Runecarver.|COV|Night Fae|
-T A Damned Pact|QID|60270|M|46.84,41.58|Z|The Maw|N|To Ve'nari.|COV|Night Fae|
-A A Grave Chance|QID|60271|PRE|60270|M|46.84,41.58|Z|The Maw|N|From Ve'nari.|COV|Night Fae|
-C A Grave Chance|QID|60271|M|46.87,41.69|Z|The Maw|QO|1|NC|N|Purchase an Anima Supricifer from Ve'nari.|COV|Night Fae|
-R Zovaal's Cauldron|ACTIVE|60271|M|42.15,40.82|Z|The Maw|N|Make your way to the Zovaal's Cauldron.|COV|Night Fae|
-A Stygian Incinerator|QID|62539|PRE|60270|M|35.97,44.33|Z|The Maw|N|From Stygian Incinerator.|COV|Night Fae|
-T Stygian Incinerator|QID|62539|M|36.11,44.31|Z|The Maw|COV|Night Fae|
-C A Grave Chance|QID|60271|M|40.95,43.27|Z|The Maw|QO|2|NC|N|Molten Anima.|COV|Night Fae|
-T A Grave Chance|QID|60271|M|46.83,41.68|Z|The Maw|N|To Ve'nari.|COV|Night Fae|
-A The Weak Link|QID|60272|PRE|62539&60271|M|46.83,41.63|Z|The Maw|N|From Ve'nari.|COV|Night Fae|
-C The Weak Link|QID|60272|M|49.39,60.40|Z|The Runecarver!Instance|QO|1|NC|N|Break the Chain.|COV|Night Fae|
-T The Weak Link|QID|60272|M|50.38,60.63|Z|The Runecarver!Instance|N|To Runecarver.|COV|Night Fae|
-P Ring of Transference|ACTIVE|60272|M|50.02,58.19|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Night Fae|
-F Heart of the Forest|ACTIVE|60272|M|59.96,68.50|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Heart of the Forest.|COV|Night Fae|
+
 ;Daughter of the Night Warrior
 A Daughter of the Night Warrior|QID|59179|M|44.22,39.33|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|62899^63006|COV|Night Fae|
 F Oribos|QID|59179|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
