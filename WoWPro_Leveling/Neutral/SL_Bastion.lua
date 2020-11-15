@@ -100,7 +100,7 @@ C Aspirant For a Day|QID|62737|M|52.13,77.57|Z|Bastion!The Shadowlands|S!US|N|Bo
 A The Aspirant's Crucible|QID|57709|M|48.23,72.65|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57677^57676|MS|
 A The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion!The Shadowlands|N|From Klystere.|LVL|50|RANK|2|
 B The Old Ways|ACTIVE|60466|M|48.07,73.00|QO|1|Z|Bastion!The Shadowlands|NC|N|Buy the thread from Caretaker Mirene.|
-h Aspirant's Rest|ACTIVE|60466|M|48.07,73.00|Z|Bastion!The Shadowlands|N|Set Hearthstone at Caretaker Mirene.|RANK|2|
+h Aspirant's Rest|ACTIVE|60466^57709|M|48.07,73.00|Z|Bastion!The Shadowlands|N|Set Hearthstone at Caretaker Mirene.|RANK|2|
 f Aspirant's Rest|ACTIVE|60466^57709|M|48.13,74.16|Z|Bastion!The Shadowlands|N|At Rheus.|
 C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion!The Shadowlands|N|Kill Cloudstrider Grazers for the pelts.|S|
 ;$ Sophia's Gift|QID|58319|M|51.75,68.84|Z|Bastion!The Shadowlands|N|Treasure for your enjoyment.| commenting out, because this appears to reset.  leaving it here incase that is wrong and we want to add it back)
@@ -115,6 +115,10 @@ C A Life of Service|QID|57710|M|57.00,81.29|QO|1|Z|Bastion!The Shadowlands|NC|N|
 C A Life of Service|QID|57710|M|57.00,81.29|QO|2|Z|Bastion!The Shadowlands|N|Witness memories by killing the groups of mobs, click the flame to trigger a new memory.|MS|
 T A Life of Service|QID|57710|M|56.44,81.57|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A A Forge Gone Cold|QID|57711|M|56.44,81.57|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57710|MS|
+K Sigilback|QID|60570|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179486|
+K Aethon|QID|58526|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179487|
+K Cloudtail|QID|60571|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179488|
+K Nemaeus|QID|60569|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179485|
 C A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
 T A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion!The Shadowlands|N|To Sika.|MS|
 A The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
@@ -126,7 +130,7 @@ C Suggested Reading|QID|57712|M|52.71,82.61|QO|3|Z|Bastion!The Shadowlands|N|Kil
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion!The Shadowlands|N|Slay Etherwyrms to collect Glowing Viscera.|S|MS|
 C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion!The Shadowlands|NC|N|Collect Adrima's Lily, a blue flower growing in the area.|S|MS|
 C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the Anima Extractor.|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|2|Z|Bastion!The Shadowlands|N|Defend the Anima Extractor.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|2|Z|Bastion!The Shadowlands|N|Click anywhere in the anima extractor to start the fight, then defend the Anima Extractor.|MS|
 C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|3|Z|Bastion!The Shadowlands|NC|N|Collect a Condensed Anima Mote from the Anima Canister on the ground in the middle of the square.|MS|
 C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion!The Shadowlands|NC|N|Finish collecting Adrima's Lily.|US|MS|
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion!The Shadowlands|N|Finish collecting the needed Glowing Viscera from Etherwyrms.|US|MS|
@@ -221,9 +225,10 @@ T Step Back From That Ledge, My Friend|QID|57717|M|59.31,77.05|Z|Bastion!The Sha
 A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 A The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|Cleanse the Temple by killing all the hostile mobs and rescuiing the terrified stewards.|S|MS|
-A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion!The Shadowlands|N|From The Scroll on the side of the temple.|PRE|57717|MS|
+A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion!The Shadowlands|N|From The Scroll in front of the Vespar of Harmony.|PRE|57717|MS|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Find the scrolls around the area.|S|MS|
 C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|Bastion!The Shadowlands|QO|2|NC|N|Click the bell to clease the Vesper of Harmony.|MS|
+K Fallen Acolyte Erisne|QID|58222|QO|1|RARE|M|60.20,72.99|Z|Bastion!The Shadowlands|N|This silver elite paths around the Vesper of Harmony.|ITEM|180444| 
 C A Once Sweet Sound|QID|57037|M|57.32,71.34|Z|Bastion!The Shadowlands|NC|QO|1|N|Click the bell to cleanse the Vesper of Purity.|MS|
 $ Vesper of Virtues|QID|62841^60478|M|58.66,71.39|Z|Bastion!The Shadowlands|N|Treasure is an item that buffs and gives small Heal.|ITEM|179982|ACH|14311;9|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Finish reading the scrolls around the area.|US|MS|
@@ -258,11 +263,12 @@ A Directions Not Included|QID|58771|M|54.72,64.14|Z|Bastion!The Shadowlands|N|Fr
 A The Prime's Directive|QID|58799|M|54.72,64.14|Z|Bastion!The Shadowlands|N|From Mikanikos.|PRE|58976|MS|
 C The Prime's Directive|QID|58799|M|55.83,62.47|Z|Bastion!The Shadowlands|N|Kill mobs till you have all the cores.|S|MS|
 C Directions Not Included|QID|58771|CS|M|55.97,64.05;55.19,62.24;55.84,62.08;55.37,60.75|Z|Bastion!The Shadowlands|NC|N|Click the papers till you find the manual.|MS|
+K Bookkeeper Mnemis|QID|59022|QO|1|M|55.70,61.89|Z|Bastion!The Shadowlands|RARE|ITEM|182682|N|Silver Elite paths in this area.|
 C The Prime's Directive|QID|58799|M|55.83,62.47|Z|Bastion!The Shadowlands|N|Kill mobs till you have all the cores.|US|MS|
 T Directions Not Included|QID|58771|M|57.17,61.66|Z|Bastion!The Shadowlands|N|To Mikanikos.|MS|
 T The Prime's Directive|QID|58799|M|57.17,61.66|Z|Bastion!The Shadowlands|N|To Mikanikos.|MS|
 A The Mnemonic Locus|QID|58800|M|57.17,61.66|Z|Bastion!The Shadowlands|N|From Mikanikos.|PRE|58799&58771|MS|
-C The Mnemonic Locus|QID|58800|M|57.37,61.76|Z|Bastion!The Shadowlands|NC|N|Stand in blue circle next to Mikanikos and click the "[color=40C7EB]Anima Conduit{/color]".|MS|EAB|
+C The Mnemonic Locus|QID|58800|M|57.37,61.76|Z|Bastion!The Shadowlands|NC|N|Stand in blue circle next to Mikanikos and click the "[color=40C7EB]Anima Conduit[/color]".|MS|EAB|
 T The Mnemonic Locus|QID|58800|M|57.54,61.83|Z|Bastion!The Shadowlands|N|To Mikanikos.|MS|
 A What's In a Memory?|QID|58977|M|57.54,61.83|Z|Bastion!The Shadowlands|N|From Mikanikos.|PRE|58800|MS|
 C What's In a Memory?|QID|58977|M|57.54,61.83|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Tell Mikanicos you are ready.|MS|
@@ -342,6 +348,7 @@ C Disturbing the Peace|QID|57538|M|49.86,58.84|Z|Bastion!The Shadowlands|N|Kill 
 C Disctractions for Kala|QID|57545|M|49.62,60.00|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the teddy bear on the ground.|
 C Disctractions for Kala|QID|57545|M|51.10,58.75|QO|1|Z|Bastion!The Shadowlands|NC|N|Click on the ball on the ground.|
 C Disctractions for Kala|QID|57545|M|52.84,58.17|QO|3|Z|Bastion!The Shadowlands|NC|N|Click the pillow on the ground.|
+K Cloudfeather Guardian|QID|60978|QO|1|M|50.82,58.28|Z|Bastion!The Shadowlands|RARE|ITEM|180812|N|Kill Anima Starved Wyrm's in the area, until he comes and lands beside you then kill him.|
 C Disturbing the Peace|QID|57538|M|49.86,58.84|Z|Bastion!The Shadowlands|N|Kill the Anima-Starved creatures in the area.|US|
 T Disturbing the Peace|QID|57538|M|51.33,59.56|Z|Bastion!The Shadowlands|N|To Zosime.|
 T Distractions for Kala|QID|57545|M|51.33,59.56|Z|Bastion!The Shadowlands|N|To Zosime.|
@@ -382,6 +389,7 @@ H Hero's Rest|ACTIVE|59197^59198|M|48.13,74.16|Z|Bastion!The Shadowlands|N|Heart
 ; Your Personal Assistant Storyline continues
 T Steward at Work|QID|59197|M|52.86,45.66|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|MS|
 A On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|PRE|59197|MS|
+L Nearly Level 53|QID|60005|M|PLAYER|LVL|52;-9000|N|You need to be less than 9000 points from 53 before you fly away or you won't be able to do the last quest in Elysian Hold. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|
 C On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion!The Shadowlands|CHAT|N|Speak to Polemarch Adrestes for a ride to Elysian Hold.|MS|
 f Elysian Hold|ACTIVE|59198|M|50.96,49.08|Z|1707|N|At Cassius.|MS|
 T On Swift Wings|QID|59198|M|55.49,42.17|Z|1707|N|To Polemarch Adrestes.|MS|
@@ -397,7 +405,7 @@ C Ward of Courage|QID|59200|M|61.03,85.90|Z|1707|QO|5|NC|N|Check Ward of Courage
 T The Wards of Bastion|QID|59200|M|55.48,42.12|Z|1707|N|To Polemarch Adrestes.|MS|
 
 ; Time for Courage Storyline
-A Imminent Danger|QID|60005|M|55.47,42.28|Z|1707|N|From Polemarch Adrestes.|PRE|59200|MS|
+A Imminent Danger|QID|60005|M|55.47,42.28|Z|1707|N|From Polemarch Adrestes.|PRE|59200|MS|LVL|53|
 C Imminent Danger|QID|60005|M|51.10,48.82|Z|1707|CHAT|N|Speak to Cassius for a flight to the Temple of Courage.|MS|
 T Imminent Danger|QID|60005|M|41.79,55.18|Z|Bastion!The Shadowlands|N|To Thanikos.|MS|
 R Xandria's Vigil|QID|62736|M|41.79,55.19|Z|Bastion!The Shadowlands|N|Take the west exit out of Hero's Rest and run generally west towards Xandria's Vigil.|TOF|
@@ -446,6 +454,7 @@ H Hero's Rest|ACTIVE|60056^62723^60729|U|6948|M|PLAYER|N|Hearth back to Hero's R
 R West Anima Gateway|ACTIVE|60315|M|46.88,48.98|Z|Bastion!The Shadowlands|TZ|Firstborne's Bounty|N|Leave Hero's Rest via the Anima Gateway to the west.|RANK|2|
 C WANTED: Gorgebeak|QID|60315|M|49.16,46.56|Z|Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Run down in the valley to find and kill Gorgebeak.|
 T WANTED: Gorgebeak|QID|60315|M|51.00,41.66|Z|Bastion!The Shadowlands|ELITE|N|To Gerdus.|
+K Baedos|QID|62192|QO|1|M|51.22,40.62|Z|Bastion!The Shadowlands|ITEM|172232|RARE|N|Bring 4 casks of fermenting carrion fruit (found in the area) and come close to Baedos, This will awaken him, Fight him down to ~25%, then he will give you a treasure.|;formerly could fight down nearby vulpin, larion or cloudfeathers to get a beast you could fight him with, option not currently available
 R Forgefire Outpost|ACTIVE|59674|PRE|60315|CS|M|53.45,41.28;55.47,39.12|Z|Bastion!The Shadowlands|N|Up the hill and out the other side of the Valley of Firstborne's Bounty.|
 R Forgefire Outpost|ACTIVE|59674|M|55.47,39.12|Z|Bastion!The Shadowlands|N|Leave Hero's Rest via the northern Anima Gateway and then run up the hill to Forgefire Outpost.|
 T A Friendly Rivalry|QID|59674|M|54.81,41.19|Z|Bastion!The Shadowlands|N|To Pelodis.|
@@ -518,18 +527,19 @@ C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion!The Shadowlands|QO|2|CHAT|N|Ta
 C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion!The Shadowlands|QO|3|CHAT|N|Talk to Nemea.|
 C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion!The Shadowlands|QO|4|CHAT|N|Choose Phalynx or Larion.|
 T Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion!The Shadowlands|N|To Nemea.|
-H Hero's Rest|ACTIVE|60056^62723^62729|M|52.99,37.84|Z|Bastion!The Shadowlands|N|Hearth or otherwise make your way back to Hero's Rest.|
+H Hero's Rest|ACTIVE|60056^62723^62729|M|52.99,37.84|Z|Bastion!The Shadowlands|N|Hearth or otherwise make your way back to Hero's Rest.|IZ|Forgefire Outpost|
 T WANTED: Darkwing|QID|60366|M|52.43,48.00|Z|Bastion!The Shadowlands|ELITE|N|To Eumelia.|
 
 ; Land of Strife Storyline
 F Oribos|ACTIVE|60056|M|51.40,46.80|N|Fly back to Oribos|
 P Ring of Fates|ACTIVE|60056|M|49.52,60.92|Z|Ring of Transference@Oribos|N|Click the teleporter.|
+C Follow the Path|QID|60056|M|38.91,69.93|Z|Ring of Fates@Oribos|CHAT|N|Tell Tal-Inara of the Maldraxxi's attack.|MS|
 T Follow the Path|QID|60056|M|38.91,69.93|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
 A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60056|MS|
 C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|Ring of Fates@Oribos|NC|N|Use the Teleport Pad.|MS|
-T The Arbiter's Will|QID|61096|M|60.78,36.83|Z|Ring of Fates@Oribos|N|To Overseer Kah-Sher.|MS|
-A A Land of Strife|QID|61107|M|61.03,36.71|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|61096|MS|
-C A Land of Strife|QID|61107|M|59.95,35.96|Z|Ring of Fates@Oribos|NC|N|Click on the blue sword.|MS|
-T A Land of Strife|QID|61107|M|61.03,36.71|Z|Ring of Fates@Oribos|N|To Overseer Kah-Sher.|MS|
+T The Arbiter's Will|QID|61096|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
+A A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61096|MS|
+C A Land of Strife|QID|61107|M|59.67,36.36|Z|Ring of Transference@Oribos|NC|N|Click on the blue sword.|MS|
+T A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
 ]]
 end)
