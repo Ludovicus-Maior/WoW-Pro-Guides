@@ -171,11 +171,11 @@ A Morgan Ladimore|QID|26794|M|72.60,47.76|N|From Sirra Von'lndi.|PRE|26793|
 T Morgan Ladimore|QID|26794|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
 A Mor'Ladim|QID|26795|M|73.53,46.93|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Commander Althea Ebonlocke.\n[color=FF0000]NOTE: [/color]This quest involves flying back to Raven Hill, and taking out an elite in Raven Hill Cemetery.\n\nLeft click the check box and confirm skipping the following two quests if you want to skip this quest.|PRE|26794|RANK|2|
 F Raven Hill|ACTIVE|26795|M|77.5,44.3|N|Fly to Raven Hill.|FLY|WOD|
-C Mor'Ladim|QID|26795|M|17.4,29.4|N|Find, kill and loot Mor'Ladim. He wanders back and forth along the road between the Dawning Wood Catacombs (south entrance) and the Weathered Grave (just north of the house). Use the targeting to find him easier. Don't forget to loot his skull.|T|Mor'Ladim|
+C Mor'Ladim|QID|26795|M|16.65,38.82;17.74,29.00|CC|N|Find, kill and loot Mor'Ladim. He wanders back and forth along the road between the Dawning Wood Catacombs (south entrance) and the Weathered Grave (just north of the house). Use the targeting to find him easier. Attacking him at the Weathered Grave is a better option; less likely to get adds.|T|Mor'Ladim|
 F Darkshire|ACTIVE|26795|M|21.06,56.46|N|Fly to Darkshire.|FLY|WOD|
 T Mor'Ladim|QID|26795|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
-A The Daughter Who Lived|QID|26796|M|73.53,46.93|N|From Commander Althea Ebonlocke.\n\nOnly available if you completed the Mor'Ladim Group quest.|PRE|26795|
-T The Daughter Who Lived|QID|26796|M|74.95,46.88|N|To Watcher Ladimore. She wanders around a bit.|
+A The Daughter Who Lived|QID|26796|M|73.53,46.93|N|From Commander Althea Ebonlocke.|PRE|26795|
+T The Daughter Who Lived|QID|26796|M|74.95,46.88|N|To Watcher Ladimore. She circles around the fountain, passing by the entrances of each building as she goes.|
 A A Daughter's Love|QID|26797|M|74.95,46.88|N|From Watcher Ladimore.|PRE|26796|
 F Raven Hill|ACTIVE|26797|M|77.5,44.3|N|Fly to Raven Hill.|FLY|WOD|
 T A Daughter's Love|QID|26797|M|17.66,29.11|N|Turn the quest into "A Weathered Grave".|
