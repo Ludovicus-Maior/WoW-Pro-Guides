@@ -27,9 +27,10 @@ C The Boon of Shapes|QID|61479|M|51.20,40.46|Z|The Trunk@Heart of the Forest!Dun
 C The Boon of Shapes|QID|61479|M|50.16,40.29|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|NC|N|Use the "[color=40C7EB]Receive Boon[/color]" button to Kneel before Lady Moonberry.|EAB|COV|Night Fae|
 T The Boon of Shapes|QID|61479|M|50.05,40.29|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
 ;skip happens here
-N if you have completed a covenant campaign you can skip a large portion of the introduction, If you do not wish to Select the quest 'Show, Don't Tell' to continue.|AVAILABLE|58104|COV|Night Fae|
+N if you have completed a covenant campaign you can skip a large portion of the introduction. If you do not wish to or have not completed one yet, Select the quest 'Show, Don't Tell' to continue.|AVAILABLE|58104|COV|Night Fae|
+N There is two versions of "For Queen and Grove". If you are not skipping Right click the One that is telling you to talk to Lady Moonberry.|AVAILABLE|58160|PRE|58159|COV|Night Fae|
 ;skip happens here
-A For Queen and Grove!|QID|63006|M|49.77,40.02|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|58159|CCOUNT|0;63006;58160|COV|Night Fae|
+A For Queen and Grove!|QID|63006|M|49.77,40.02|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|58159|COV|Night Fae|
 C For Queen and Grove!|QID|63006|M|50.63,18.87|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|NC|N|Ask Attendant Sparkledew for transport.|COV|Night Fae|
 C For Queen and Grove!|QID|63006|M|49.72,37.19|Z|The Canopy@Heart of the Forest!Dungeon|QO|2|NC|N|Oath Pledged.|COV|Night Fae|
 T For Queen and Grove!|QID|63006|COV|Night Fae|
@@ -132,8 +133,8 @@ T Recovered Souls|QID|62897|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeo
 A The First New Growth|QID|62898|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|From Zayhad, The Builder.|PRE|62897|COV|Night Fae|
 C The First New Growth|QID|62898|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|Sanctum Upgrade started.|COV|Night Fae|
 T The First New Growth|QID|62898|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder.|COV|Night Fae|
-A The Forge of Bonds|QID|61541|M|34.56,43.56|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|PRE|62898|COV|Night Fae|
-T The Forge of Bonds|QID|61541|M|34.56,43.56|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
+A The Forge of Bonds|QID|63008|M|49.55,37.35|Z|The Canopy@Heart of the Forest!Dungeon|N|From the Winter Queen.|PRE|62898|COV|Night Fae|
+T The Forge of Bonds|QID|63008|M|34.56,43.56|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
 A The Boon of Binding|QID|61542|M|34.56,43.56|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|PRE|61541|COV|Night Fae|
 C The Boon of Binding|QID|61542|M|33.75,47.63|Z|The Trunk@Heart of the Forest!Dungeon|CHAT|N|Soulbind with Niya.|COV|Night Fae|
 T The Boon of Binding|QID|61542|M|33.90,45.76|Z|The Trunk@Heart of the Forest!Dungeon|N|To Niya.|COV|Night Fae|
