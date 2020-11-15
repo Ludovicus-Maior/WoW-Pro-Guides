@@ -95,7 +95,7 @@ T The Yorgen Worgen|QID|26717|M|44.92,67.42|N|To Apprentice Fess.|US|
 A Delivery to Master Harris|QID|26719|M|44.92,67.42|N|From Apprentice Fess.|PRE|26717|
 A The Jitters-Bugs|QID|26721|M|18.62,58.36|N|From Jitters. Head to Raven Hill to grab this quest and the flightpath to save time later.|
 f Raven Hill|QID|26669|M|21.08,56.45|N|Grab the Raven Hill flightpath from John Shelby.|TAXI|-Raven Hill|
-F Darkshire|ACTIVE|26669|M|21.08,56.45|N|Fly back to Darkshire.|
+F Darkshire|ACTIVE|26669|M|21.08,56.45|N|Fly back to Darkshire.|FLY|WOD|
 T In A Dark Corner|QID|26669|M|72.45,46.91|N|To Clerk Daltry.|
 A Roland's Doom|QID|26670|M|72.45,46.91|N|From Clerk Daltry.|PRE|26669|
 T The Rotting Orchard|QID|26689|M|75.33,48.01|N|To Calor.|
@@ -125,7 +125,7 @@ T Clawing at the Truth|QID|26672|M|75.76,45.28|N|To Madame Eva.|
 A Mistmantle's Revenge|QID|26674|M|75.76,45.28|N|From Madame Eva.|PRE|26672|
 C Mistmantle's Revenge|QID|26674|M|77.29,36.32|N|Use the ring at the manor house. Kill Stalvan Mistmantle when the conversation ends and Tobias attacks him.|U|59363|
 T Mistmantle's Revenge|QID|26674|M|79.09,44.18|N|To Tobia Mismantle.|
-F Raven Hill|ACTIVE|26719|M|77.45,44.25|N|Fly to Raven Hill.|
+F Raven Hill|ACTIVE|26719|M|77.45,44.25|N|Fly to Raven Hill.|FLY|WOD|
 T Delivery to Master Harris|QID|26719|M|18.31,57.66|N|Deliver the message to Oliver Harris at Raven Hill.|
 A A Curse We Cannot Lift|QID|26720|M|18.31,57.66|N|From Oliver Harris.|PRE|26719|
 A Soothing Spirits|QID|26777|M|20.03,57.81|N|From Sister Eisington.|
@@ -165,19 +165,19 @@ C The Cries of the Dead|QID|26778|M|16.51,38.92|N|If (for some reason) you haven
 T Morbent's Bane|QID|26754|M|18.34,58.05|N|To Sven Yorgen.|
 T The Cries of the Dead|QID|26778|M|20.03,57.81|N|To Sister Eisington.|
 A Rebels Without a Clue|QID|26838|M|20.03,57.81|N|If you intend on going onto Northern Stranglethorn next, then accept this quest from Sister Eisington. This quest will not show up if you have the quest "Hero's Call: Northern Stranglethorn Vale!" or done the Hero's Call quest already.|LEAD|26735|
-F Darkshire|ACTIVE|26793|M|21.08,56.45|N|Fly back to, or hearthstone to Darkshire.|
+F Darkshire|ACTIVE|26793|M|21.08,56.45|N|Fly back to, or hearthstone to Darkshire.|FLY|WOD|
 T The Weathered Grave|QID|26793|M|72.60,47.76|N|To Sirra Von'lndi.|
 A Morgan Ladimore|QID|26794|M|72.60,47.76|N|From Sirra Von'lndi.|PRE|26793|
 T Morgan Ladimore|QID|26794|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
 A Mor'Ladim|QID|26795|M|73.53,46.93|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Commander Althea Ebonlocke.\n[color=FF0000]NOTE: [/color]This quest involves flying back to Raven Hill, and taking out an elite in Raven Hill Cemetery.\n\nLeft click the check box and confirm skipping the following two quests if you want to skip this quest.|PRE|26794|RANK|2|
 F Raven Hill|ACTIVE|26795|M|77.5,44.3|N|Fly to Raven Hill.|FLY|WOD|
 C Mor'Ladim|QID|26795|M|17.4,29.4|N|Find, kill and loot Mor'Ladim. He wanders back and forth along the road between the Dawning Wood Catacombs (south entrance) and the Weathered Grave (just north of the house). Use the targeting to find him easier. Don't forget to loot his skull.|T|Mor'Ladim|
-F Darkshire|ACTIVE|26795|M|21.06,56.46|N|Fly to Darkshire.|
+F Darkshire|ACTIVE|26795|M|21.06,56.46|N|Fly to Darkshire.|FLY|WOD|
 T Mor'Ladim|QID|26795|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
 A The Daughter Who Lived|QID|26796|M|73.53,46.93|N|From Commander Althea Ebonlocke.\n\nOnly available if you completed the Mor'Ladim Group quest.|PRE|26795|
 T The Daughter Who Lived|QID|26796|M|74.95,46.88|N|To Watcher Ladimore. She wanders around a bit.|
 A A Daughter's Love|QID|26797|M|74.95,46.88|N|From Watcher Ladimore.|PRE|26796|
-F Raven Hill|ACTIVE|26797|M|77.5,44.3|N|Fly to Raven Hill.|
+F Raven Hill|ACTIVE|26797|M|77.5,44.3|N|Fly to Raven Hill.|FLY|WOD|
 T A Daughter's Love|QID|26797|M|17.66,29.11|N|Turn the quest into "A Weathered Grave".|
 ]]
 end)
