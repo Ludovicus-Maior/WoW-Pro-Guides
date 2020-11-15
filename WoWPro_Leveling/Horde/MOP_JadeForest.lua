@@ -6,7 +6,14 @@ WoWPro:GuideNextGuide(guide, 'Valley of the Four Winds')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
-A To Pandaria!|QID|60126|M|40.82,80.15|Z|Orgrimmar|N|From Chromie after activating Mists of Pandaria timeline.|
+A Warchief's Command: Jade Forest!|QID|49538|M|49.69,76.44|Z|Orgrimmar|N|Seek out the nearest Warchief's Command Board, and select Report to Grommash Hold under The Jade Forest. Quest not there? Skip this step for an alternative one.|
+R Grommash Hold|QID|49538|ACTIVE|49538|M|49.69,76.44|Z|Orgrimmar|N|Walk into Grommash Hold, then await the cutscene to finish.|
+T Warchief's Command: Jade Forest!|QID|49538|M|48.66,70.32|Z|Orgrimmar|N|To General Nazgrim.|
+A The Art of War|QID|29611|M|48.66,70.32|Z|Orgrimmar|N|From General Nazgrim. Quest not there? Skip this step for an alternative one.|
+T The Art of War|QID|29611|M|48.66,70.32|Z|Orgrimmar|N|To General Nazgrim|
+A The Art of War|QID|29612|M|48.66,70.32|Z|Orgrimmar|N|From General Nazgrim. Quest not there? Skip this step for an alternative one.|
+T The Art of War|QID|29612|M|48.66,70.32|Z|Orgrimmar|N|To General Nazgrim|
+A To Pandaria!|QID|60126|M|40.82,80.15|Z|Orgrimmar|N|From Chromie after activating Mists of Pandaria timeline.|LVL|-50|
 C To Pandaria!|QID|60126|M|49.79,75.27|Z|Orgrimmar|N|Head to Grommash Hold.|
 T To Pandaria!|QID|60126|M|48.67,70.38|Z|Orgrimmar|N|To General Nazgrim.|
 A All Aboard!|QID|31853|PRE|29611|M|48.56,70.62|Z|Orgrimmar|N|From General Nazgrim.|
@@ -18,7 +25,7 @@ A Into the Mists|QID|29690|PRE|31853|M|37.89,95.73|Z|Azshara|N|From General Nazg
 C Into the Mists|QID|29690|M|37.89,95.73|Z|Azshara|N|Speak to General Nazgrim and tell him "I'm ready to go, General". Then sit back, and watch the cinematic.|CHAT|
 T Into the Mists|QID|29690|M|30.77,10.22|N|To General Nazgrim.|
 A Paint it Red!|QID|31765|PRE|29690|M|30.77,10.22|N|From General Nazgrim.|
-C Paint it Red!|QID|31765|M|31.55,11.13|N|Head to the lower level deck, and click on a Gunship Turret. Use the "Full Autofire" action to kill the required troops and cannons.|
+C Paint it Red!|QID|31765|M|31.55,11.13|N|Head to the lower level deck, and click on a Gunship Turret. Use Action button 1 "Full Autofire" when off cooldown, otherwise use action button 2, and kill the required troops and cannons.|
 T Paint it Red!|QID|31765|M|31.00,11.04|N|To Rivett Clutchpop.|
 A Touching Ground|QID|31766|PRE|31765|M|31.00,11.04|N|From Rivett Clutchpop.|
 C Touching Ground|QID|31766|M|31.55,11.13|N|Click on the Rappelling Rope (next to the Gunship Turrets).|NC|
