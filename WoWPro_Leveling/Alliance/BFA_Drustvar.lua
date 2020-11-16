@@ -692,7 +692,7 @@ A Painful Memories|QID|50758|M|23.35,17.45|N|From Alexander Treadward.|RANK|2|
 C Painful Memories|QID|50758|M|23.31,12.71|NC|N|Examine the bones.|
 T Painful Memories|QID|50758|M|23.31,12.71|N|To Alexander Treadward.|
 A Running Late|QID|50759|M|23.31,12.71|N|From Alexander Treadward.|PRE|50758|RANK|2|;not spurious
-C Running Late|QID|50759|M|24.31,14.97|CHAT|N|You can find Lord Waycrest upstairs in the Manor House.|
+C Running Late|QID|50759|M|24.31,14.97|QO|1|CHAT|N|You can find Lord Waycrest upstairs in the Manor House.|
 C Running Late|QID|50759|M|24.31,14.97|QO|2|NC|N|Click on the carpet to find Lord Waycrest's Notes.|
 T Running Late|QID|50759|M|24.31,14.97|N|To Lord Arthur Waycrest.|
 A From This Day Forward|QID|50760|M|23.31,12.69|N|From Alexander Treadward.|PRE|50759|RANK|2|;not spurious
