@@ -63,8 +63,8 @@ T Report to Marshal Bluewall|QID|9415|M|39.56,46.93|N|To Marshal Bluewall|FACTIO
 A Scouring the Desert|RANK|3|QID|9419|PRE|9415|M|39.56,46.93|N|From Marshal Bluewall NOTE: This PVP quest and is optional, it's up to you to complete it on your own.|FACTION|Alliance|
 T The Twilight Lexicon|QID|8279|M|68.63,63.01|N|To Hermit Ortell.|
 A A Terrible Purpose|QID|8287|PRE|8279|M|68.63,63.01|N|From Hermit Ortell.|
-A True Believers|RANK|3|QID|8323|PRE|8279|M|68.63,63.01|N|From Hermit Ortell.|
-T True Believers|RANK|3|QID|8323|M|68.63,63.01|N|To Hermit Ortell.|
+A True Believers|QID|8323|PRE|8279|M|68.63,63.01|N|From Hermit Ortell.|
+T True Believers|QID|8323|M|68.63,63.01|N|To Hermit Ortell.|
 C Dearest Natalia|QID|8304|M|46.36,79.16|N|Talk to the two dwarves in the camp.|
 T Dearest Natalia|QID|8304|M|46.41,79.04|N|(UI Alert)|
 A Into The Maw of Madness|QID|8306|PRE|8304|M|46.41,79.04|N|(UI Alert)|
