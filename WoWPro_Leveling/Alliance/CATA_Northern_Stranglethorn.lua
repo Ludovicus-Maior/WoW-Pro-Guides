@@ -78,7 +78,7 @@ A Panther Prowess|QID|192|M|33.82,28.33|N|(UI Alert)|PRE|191|O|
 C Raptor Hunting|QID|194|M|29.98,30.99|N|Kill 10 Stranglethorn Raptors.|
 T Raptor Hunting|QID|194|M|30.43,31.52|N|(UI Alert)|
 A Raptor Stalking|QID|195|M|30.43,31.52|N|(UI Alert)|PRE|194|O|
-C Deep Roots|QID|26744|M|33.61,36.74|N|Pickup the Bloodscalp Lore Tablet. Make sure you have your baby raptor out (She will start another quest).|U|58165|
+C Deep Roots|QID|26744|M|33.61,36.74|N|Make your way into Bal'lal Ruins and pick up the Bloodscalp Lore Tablet.\n[color=FF0000]NOTE: [/color]Make sure you have your Lashtail Hatchling out. It will offer a quest when you get near the Tablet.|U|58165|
 A Favored Skull|QID|26745|M|33.61,36.74|N|From Lashtail Hatchling.|PRE|26736&26739|
 C Raptor Stalking|QID|195|M|38.44,43.24|N|Kill Lashtail Raptors until you are done this quest.|
 T Raptor Stalking|QID|195|M|38.46,43.58|N|(UI Alert)|
@@ -90,7 +90,7 @@ K Chief Gaulus|QID|26737|M|62.39,14.14|QO|2|N|Kill Chief Gaulus.|
 K Chief Miranda|QID|26737|M|65.78,17.12|QO|3|N|Kill Chief Miranda.|
 K Chief Esquivel|QID|26737|M|66.07,11.73|QO|4|N|Finally kill Chief Esquivel.|
 C The Source of the Madness|QID|26734|M|66.04,11.76|N|Drops off of Kurzen's men in the cave.|US|
-T The Source of the Madness|QID|26734|M|47.24,11.10|N|To Brother Nimetz ath the Rebel Camp.|
+T The Source of the Madness|QID|26734|M|47.24,11.10|N|To Brother Nimetz at the Rebel Camp.|
 T Deep Roots|QID|26744|M|46.98,10.84|N|To Corporal Sethman.|
 T Favored Skull|QID|26745|M|47.13,10.56|N|To Osborn Obnoticus.|
 A A Nose for This Sort of Thing|QID|26746|M|47.13,10.56|N|From Osborn Obnoticus.|PRE|26745|
