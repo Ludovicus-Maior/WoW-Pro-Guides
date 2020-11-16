@@ -100,7 +100,7 @@ T New Beginnings|QID|14251|M|60.95,28.92|N|To Bizby.|RANK|2|
 T Good Gold For Bad Tail|QID|14252|M|60.95,28.92|N|To Bizby.|RANK|2|
 T Fletch Me Some Plumage!|QID|14253|M|60.95,28.92|N|To Bizby.|RANK|2|
 C The Karnitol Shipwreck|QID|1456|M|30.77,10.92|N|Kill and loot Slitherblade Tidehunters and Sea Witches until the satchel drops.|U|34130|
-H Nijel's Point|QID|1456|N|Hearth back to Nijel's Point.|RANK|3|
+H Nijel's Point|QID|1456|N|Hearth back to Nijel's Point.|
 T The Karnitol Shipwreck |QID|1456|M|66.20,9.70|N|To Kreldig Ungor.|
 A Bone Collector |QID|5501|M|62.36,38.95|N|From Bibbly F'utzbuckle|RANK|3|
 A Blood Theory|QID|14304|M|58.69,46.42|N|From Thressa Amberglen.|
