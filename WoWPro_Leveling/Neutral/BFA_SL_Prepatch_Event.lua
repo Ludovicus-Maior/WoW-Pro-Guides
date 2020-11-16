@@ -27,7 +27,6 @@ A The Banshee's Champion|QID|61488|M|53.02,77.00|Z|Orgrimmar|ELITE|N|[color=ff80
 R Pathfinder's Den|ACTIVE|60727|M|53.57,90.43|Z|Orgrimmar|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise run or fly to the Pathfinder's Den.|FACTION|Horde|U|46874|IZ|Orgrimmar|C|-Mage|
 P Dalaran|ACTIVE|60727|M|56.21,91.76|Z|Orgrimmar|N|Run in to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Horde|IZ|Orgrimmar|C|-Mage|
 P Dalaran|ACTIVE|60727|M|PLAYER|Z|Orgrimmar|U|46874|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise, Teleport to Dalaran - Northrend|FACTION|Horde|C|Mage|
-F Argent Tournament Grounds|ACTIVE|60727|M|71.90,46.19|Z|Dalaran City@Dalaran!Crystalsong Forest|N|At Aludane Whitecloud.|FACTION|Horde|TAXI|Argent Tournament Grounds|
 
 A An Urgent Request|QID|60113|M|39.44,64.15|Z|Stormwind City|N|AutoAccepted.|FACTION|Alliance|
 T An Urgent Request|QID|60113|M|39.44,64.15|Z|Stormwind City|N|To Genn Greymane.|FACTION|Alliance|
@@ -50,10 +49,9 @@ A A Message from Icecrown|QID|59877|M|65.70,77.06|Z|Stormwind City|N|From Comman
 A The Banshee's Champion|QID|61486|M|65.54,76.99|Z|Stormwind City|ELITE|N|[color=ff8000]WQ Raid: [/color]From Light's Hope Messenger.|PRE|60767|FACTION|Alliance|
 R Wizard's Sanctum|ACTIVE|59877|M|49.36,86.93|Z|Stormwind City|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise fly to the Wizard Sanctum.|FACTION|Alliance|U|46874|IZ|Stormwind City|C|-Mage|
 P Dalaran|ACTIVE|59877|M|44.38,88.69|Z|Stormwind City|N|Run up the Wizard sanctum to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Alliance|IZ|Stormwind City|C|-Mage|
-F Argent Tournament Grounds|ACTIVE|59877|M|71.90,46.19|Z|Dalaran@Crystalsong Forest|N|At Aludane Whitecloud.|FACTION|Alliance|IZ|Stormwind City|C|-Mage|
-P Dalaran|ACTIVE|60727|M|PLAYER|Z|Stormwind City|U|46874|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise, Teleport to Dalaran - Northrend|FACTION|Alliance|C|Mage|
-F Argent Tournament Grounds|ACTIVE|59877|M|71.90,46.19|Z|Dalaran City@Dalaran!Crystalsong Forest|N|At Aludane Whitecloud.|FACTION|Alliance|TAXI|Argent Tournament Grounds|
+P Dalaran|ACTIVE|59877|M|PLAYER|Z|Stormwind City|U|46874|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise, Teleport to Dalaran - Northrend|FACTION|Alliance|C|Mage|
 
+F Argent Tournament Grounds|ACTIVE|59877^60727|M|71.05,21.99|Z|Icecrown|N|Mount up and fly to the Argent Tournament Grounds, if you feel like going the lazy/slow route you can take a ride from the flightmaster if you have the flightpath.|IZ|Dalaran|
 T A Message from Icecrown|QID|59877^60727|M|71.05,21.99|Z|Icecrown|N|To Justicar Mariel Trueheart at the Argent Tournament Grounds in Icecrown, Northrend.|
 A Securing the Area|QID|60169|M|71.05,21.99|Z|Icecrown|N|From Justicar Mariel Trueheart.|PRE|59877^60727|
 A A Valiant Effort|QID|60003^60004|M|71.02,22.02|Z|Icecrown|N|From Crusader Renn.|PRE|59877^60727|
