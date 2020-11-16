@@ -93,15 +93,15 @@ F Nijel's Point|QID|14364|N|Fly back to Nijel's Point.|M|39.04,27.01|
 T Putting Their Heads Together|QID|14364|M|66.61,10.98|N|To Captain Pentigast.|
 T Ears Are Burning|QID|14362|M|66.61,10.98|N|To Captain Pentigast.|
 T The Karnitol Shipwreck |QID|1455|M|66.20,9.70|N|To Kreldig Ungor.|
-A The Karnitol Shipwreck|QID|1456|PRE|1455|M|66.20,9.70|N|From Kreldig Ungor.|RANK|3|
+A The Karnitol Shipwreck|QID|1456|PRE|1455|M|66.20,9.70|N|From Kreldig Ungor.|
 C Good Gold For Bad Tail|QID|14252|US|M|59.21,17.02;68.54,21.45|CN|RANK|2|N|Finish gathering basalisk tails.|
 C New Beginnings|QID|14251|US|M|62.53,27.33;68.54,21.45|CN|RANK|2|N|Finish gathering scorpion stingers.|
 T New Beginnings|QID|14251|M|60.95,28.92|N|To Bizby.|RANK|2|
 T Good Gold For Bad Tail|QID|14252|M|60.95,28.92|N|To Bizby.|RANK|2|
 T Fletch Me Some Plumage!|QID|14253|M|60.95,28.92|N|To Bizby.|RANK|2|
-C The Karnitol Shipwreck|QID|1456|M|30.77,10.92|N|Kill and loot Slitherblade Tidehunters and Sea Witches until the satchel drops.|U|34130|RANK|3|
-H Nijel's Point|QID|1456|N|Hearth back to Nijel's Point.|RANK|3|
-T The Karnitol Shipwreck |QID|1456|M|66.20,9.70|N|To Kreldig Ungor.|RANK|3|
+C The Karnitol Shipwreck|QID|1456|M|30.77,10.92|N|Kill and loot Slitherblade Tidehunters and Sea Witches until the satchel drops.|U|34130|
+H Nijel's Point|QID|1456|N|Hearth back to Nijel's Point.|
+T The Karnitol Shipwreck |QID|1456|M|66.20,9.70|N|To Kreldig Ungor.|
 A Bone Collector |QID|5501|M|62.36,38.95|N|From Bibbly F'utzbuckle|RANK|3|
 A Blood Theory|QID|14304|M|58.69,46.42|N|From Thressa Amberglen.|
 r Repair and Junk Sell|QID|14302|M|58.63,46.32|N|Stronghoof Gentlebend|
