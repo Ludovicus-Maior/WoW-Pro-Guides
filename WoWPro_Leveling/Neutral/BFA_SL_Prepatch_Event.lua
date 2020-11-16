@@ -4,7 +4,6 @@ WoWPro:GuideSort(guide, 1)
 WoWPro:GuideContent(guide, "Shadowlands")
 WoWPro:GuideName(guide,"Pre-Shadowlands Event")
 WoWPro:GuideSteps(guide, function()
--- DATE|1605607200| is a guess at 10am GMT on November 17th, when week 2 of event releases.
 return [[
 A An Urgent Request|QID|60115|M|48.68,74.07|Z|Orgrimmar|N|AutoAccepted.|FACTION|Horde|
 T An Urgent Request|QID|60115|M|48.68,74.07|Z|Orgrimmar|N|To Lor'themar Theron on top of Grommash Hold.|FACTION|Horde|
@@ -73,48 +72,47 @@ A Advancing the Effort|QID|60827|M|71.02,22.03|Z|Icecrown|N|From Crusader Renn.|
 C Advancing the Effort|QID|60827|M|45.06,44.48|Z|Icecrown|N|Kill Waves of enemies until the final "Bone Giant" spawns. Kill it to secure the foothold.|
 T Advancing the Effort|QID|60827|M|71.06,21.99|Z|Icecrown|N|To Justicar Mariel Trueheart.|
 
-A A New Foothold|QID|60828|M|71.02,22.03|Z|Icecrown|N|From Crusader Renn.|PRE|60827|DATE|1605607200|
-T A New Foothold|QID|60828|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|DATE|1605607200|
-A Cult Couture|QID|60843|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60828|DATE|1605607200|
-A Fighting for Attention|QID|62185|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60828|DATE|1605607200|
-C Fighting for Attention|QID|62185|M|54.45,34.91|Z|Icecrown|S|N|Kill Death Cultists for the keys and then use them to free Argent Hippogryph Riders.|DATE|1605607200|
-C Cult Couture|QID|60843|M|51.91,32.53|Z|Icecrown|N|Kill Researchers and Worshipers to collect Collaborator's Hood and Robes.|DATE|1605607200|
-C Fighting for Attention|QID|62185|M|54.45,34.91|Z|Icecrown|US|N|Kill Death Cultists for the keys and then use them to free Argent Hippogryph Riders.|DATE|1605607200|
-T Cult Couture|QID|60843|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|DATE|1605607200|
-T Fighting for Attention|QID|62185|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|DATE|1605607200|
-A Secrets in Shadows|QID|60861|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60843&62185|DATE|1605607200|
-C Secrets in Shadows|QID|60861|M|60.64,62.17|Z|Icecrown|NC|N|Fly to the entrance of Mord'rethar and use the special action to put on the disguse. Run in toward Herald Dalora and use the special action button again "Submit to Darkness" and wait for her speach to end.|DATE|1605607200|
-T Secrets in Shadows|QID|60861|M|60.64,62.17|Z|Icecrown|N|To Pop-up Quest Turn-In.|DATE|1605607200|
-A Bursting the Bubble|QID|62225|M|60.64,62.17|Z|Icecrown|N|From Pop-up Quest.|PRE|60861|DATE|1605607200|
-C Bursting the Bubble|QID|62225|M|60.85,63.39|Z|Icecrown|QO|1<1|N|Pick up a plague barrel that is lying around then use the special action button to toss it in the cauldron.|DATE|1605607200|
-C Bursting the Bubble|QID|62225|M|61.55,63.96|Z|Icecrown|QO|1<2|N|Pick up a plague barrel that is lying around then use the special action button to toss it in the cauldron.|DATE|1605607200|
-C Bursting the Bubble|QID|62225|M|62.25,63.37|Z|Icecrown|QO|1<3|N|Pick up a plague barrel that is lying around then use the special action button to toss it in the cauldron.|DATE|1605607200|
-T Bursting the Bubble|QID|62225|M|44.95,44.78|Z|Icecrown|N|Exit it Mord'rethar and fly back to Crusader Renn.|DATE|1605607200|
-A A Message from Above|QID|60867|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|62225|DATE|1605607200|
-C A Message from Above|QID|60867|M|45.45,45.99|Z|Icecrown|QO|1|NC|N|Take a ride on the Argent Hippogryph.|DATE|1605607200|
-C A Message from Above|QID|60867|M|46.34,77.89|Z|Icecrown|QO|2|NC|N|Enjoy the ride and you will locate Herald Dalora.|DATE|1605607200|
-C A Message from Above|QID|60867|M|48.28,79.82|Z|Icecrown|QO|3|N|Now fly around and kill scourge, attack groups with 1, target the giants and press 2.|DATE|1605607200|
-T A Message from Above|QID|60867|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|DATE|1605607200|
-A Only Shadows Remain|QID|60932|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60867|DATE|1605607200|
-C Only Shadows Remain|QID|60932|M|42.54,78.95|Z|Icecrown|N|Enter the Cathedral of Darkness and kill Herald Dalora.|DATE|1605607200|
-T Only Shadows Remain|QID|60932|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|DATE|1605607200|
-A With Hope in Hand|QID|60871|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60932|FACTION|Alliance|DATE|1605607200|
-A With Hope in Hand|QID|60869|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60932|FACTION|Horde|DATE|1605607200|
-A Frozen Solid|QID|59851|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn. This is a daily quest.|PRE|60932|DATE|1605607200|
-A Defending the Rampart|QID|59847|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn. This is a daily quest.|PRE|60932|DATE|1605607200|
+A A New Foothold|QID|60828|M|71.02,22.03|Z|Icecrown|N|From Crusader Renn.|PRE|60827|
+T A New Foothold|QID|60828|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|
+A Cult Couture|QID|60843|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60828|
+A Fighting for Attention|QID|62185|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60828|
+C Fighting for Attention|QID|62185|M|54.45,34.91|Z|Icecrown|S|N|Kill Death Cultists for the keys and then use them to free Argent Hippogryph Riders.|
+C Cult Couture|QID|60843|M|51.91,32.53|Z|Icecrown|N|Kill Researchers and Worshipers to collect Collaborator's Hood and Robes.|
+C Fighting for Attention|QID|62185|M|54.45,34.91|Z|Icecrown|US|N|Kill Death Cultists for the keys and then use them to free Argent Hippogryph Riders.|
+T Cult Couture|QID|60843|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|
+T Fighting for Attention|QID|62185|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|
+A Secrets in Shadows|QID|60861|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60843&62185|
+C Secrets in Shadows|QID|60861|M|60.64,62.17|Z|Icecrown|NC|N|Fly to the entrance of Mord'rethar and use the special action to put on the disguse. Run in toward Herald Dalora and use the special action button again "Submit to Darkness" and wait for her speach to end.|
+T Secrets in Shadows|QID|60861|M|60.64,62.17|Z|Icecrown|N|To Pop-up Quest Turn-In.|
+A Bursting the Bubble|QID|62225|M|60.64,62.17|Z|Icecrown|N|From Pop-up Quest.|PRE|60861|
+C Bursting the Bubble|QID|62225|M|60.85,63.39|Z|Icecrown|QO|1<1|N|Pick up a plague barrel that is lying around then use the special action button to toss it in the cauldron.|
+C Bursting the Bubble|QID|62225|M|61.55,63.96|Z|Icecrown|QO|1<2|N|Pick up a plague barrel that is lying around then use the special action button to toss it in the cauldron.|
+C Bursting the Bubble|QID|62225|M|62.25,63.37|Z|Icecrown|QO|1<3|N|Pick up a plague barrel that is lying around then use the special action button to toss it in the cauldron.|
+T Bursting the Bubble|QID|62225|M|44.95,44.78|Z|Icecrown|N|Exit it Mord'rethar and fly back to Crusader Renn.|
+A A Message from Above|QID|60867|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|62225|
+C A Message from Above|QID|60867|M|45.45,45.99|Z|Icecrown|QO|1|NC|N|Take a ride on the Argent Hippogryph.|
+C A Message from Above|QID|60867|M|46.34,77.89|Z|Icecrown|QO|2|NC|N|Enjoy the ride and you will locate Herald Dalora.|
+C A Message from Above|QID|60867|M|48.28,79.82|Z|Icecrown|QO|3|N|Now fly around and kill scourge, attack groups with 1, target the giants and press 2.|
+T A Message from Above|QID|60867|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|
+A Only Shadows Remain|QID|60932|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60867|
+C Only Shadows Remain|QID|60932|M|42.54,78.95|Z|Icecrown|N|Enter the Cathedral of Darkness and kill Herald Dalora.|
+T Only Shadows Remain|QID|60932|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|
+A With Hope in Hand|QID|60871|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60932|FACTION|Alliance|
+A With Hope in Hand|QID|60869|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60932|FACTION|Horde|
+A Frozen Solid|QID|59851|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn. This is a daily quest.|PRE|60932|
+A Defending the Rampart|QID|59847|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn. This is a daily quest.|PRE|60932|
 C Strange Scourgestones|QID|62401|M|53.28,34.49|Z|Icecrown|N|If you haven't collected enough scouragestones for some reason, you can continue to kill until you get them, or optionally skip as this is just for dailies.|
 t Strange Scourgestones|QID|62401|M|71.04,21.66|Z|Icecrown|N|To Veteran Crusader Aliocha Segard.|
 
-C With Hope in Hand|QID|60871|M|76.40,19.97|Z|Icecrown|CHAT|N|Speak with the Silver Covenant Arcanist to establish a portal to Stormwind.|FACTION|Alliance|DATE|1605607200|
-P Stormwind City|QID|60871|M|76.42,20.04|Z|Icecrown|N|Take the portal to Stormwind.|FACTION|Alliance|DATE|1605607200|
-T With Hope in Hand|QID|60871|M|39.45,64.16|Z|Stormwind City|N|To Genn Greymane.|FACTION|Alliance|DATE|1605607200|
-C With Hope in Hand|QID|60869|M|75.90,24.28|Z|Icecrown|CHAT|N|Speak with the Sunreaver Mage to establish a portal to Orgrimmar.|FACTION|Horde|DATE|1605607200|
-P Orgrimmar|QID|60869|M|75.85,24.30|Z|Icecrown|N|Take the portal to Orgrimmar.|FACTION|Horde|DATE|1605607200|
-T With Hope in Hand|QID|60869|M|49.24,73.71|Z|Orgrimmar|N|To Lor'themar Theron.|FACTION|Horde|DATE|1605607200|
+C With Hope in Hand|QID|60871|M|76.40,19.97|Z|Icecrown|CHAT|N|Speak with the Silver Covenant Arcanist to establish a portal to Stormwind.|FACTION|Alliance|
+P Stormwind City|QID|60871|M|76.42,20.04|Z|Icecrown|N|Take the portal to Stormwind.|FACTION|Alliance|
+T With Hope in Hand|QID|60871|M|39.45,64.16|Z|Stormwind City|N|To Genn Greymane.|FACTION|Alliance|
+C With Hope in Hand|QID|60869|M|75.90,24.28|Z|Icecrown|CHAT|N|Speak with the Sunreaver Mage to establish a portal to Orgrimmar.|FACTION|Horde|
+P Orgrimmar|QID|60869|M|75.85,24.30|Z|Icecrown|N|Take the portal to Orgrimmar.|FACTION|Horde|
+T With Hope in Hand|QID|60869|M|49.24,73.71|Z|Orgrimmar|N|To Lor'themar Theron.|FACTION|Horde|
 P Undercity|QID|61488|M|50.73,55.58|Z|Orgrimmar|N|[color=ff8000]WQ Raid: [/color]If you want to kill Nathanos Blightcaller now, make your way to Eastern Plaguelands. Skip this if you plan to go there by another fashion.|FACTION|Horde|
 C The Banshee's Champion|QID|61486^61488|M|23.17,68.46|Z|Eastern Plaguelands!Eastern Kingdoms|N|[color=ff8000]WQ Raid: [/color]Make your way to Eastern Plaguelands to finally put an end to Nathanos Blightcaller. Currently it is easily puggable with everyone trying to complete the quest.|
 T The Banshee's Champion|QID|61486|M|39.44,64.14|Z|Stormwind City|N|To Genn Greymane.|FACTION|Alliance|
 T The Banshee's Champion|QID|61488|M|49.24,73.71|Z|Orgrimmar|N|To Lor'themar Theron.|FACTION|Horde|
-N Continued November 17th|QID|60871|M|PLAYER|N|That concludes this weeks story events. Come back next week to get the next chapter of "Return of the Scourge".|DATE|-1605607200|
 ]]
 end)
