@@ -1140,6 +1140,15 @@ WoWPro.RegisterEventHandler("PLAYER_UNGHOST", function(event, ...)
     WoWPro:AutoCompleteDeath()
 end)
 
+if not WoWPro.CLASSIC then
+    WoWPro.RegisterEventHandler("SCENARIO_COMPLETED", function(event, ...)
+        if WoWPro.Scenario then
+            WoWPro:dbp("%s: Scenario %s done.", event, WoWPro.Scenario.name)
+        end
+        WoWPro.Scenario = nil
+    end)
+end
+
 function WoWPro.DelayedEventHandler(frame,event)
     _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
         WoWPro.EventHandler(frame,event)
