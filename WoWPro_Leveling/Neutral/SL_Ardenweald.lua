@@ -18,26 +18,26 @@ N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe
 ; $ Enchanted Dreamcatcher|M|36.4,25.0|Z|Ardenweald!The Shadowlands|N|WH - Carefully Climb the roots.|ITEM|183129|ACH|14313;14|
 ; $ Cache of the Night|CS|M|51.6,61.6;42.4,46.7;37.0,29.8;36.0,66.5|Z|Ardenweald!The Shadowlands|N|WH - need to loot 3 items at each Coord, Craft Dreamcatcher to break barrier on treasure at last Coord.|ITEM|171225|ACH|14313;15|
 
-; List of Rares in Maldraxxus, only two in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
-; K Deathbinder Hroth|M|34.65,68.02|Z|Ardenweald|T|Deathbinder Hroth|N|WH - Stands at coords, when alive near the sacrifical altar.  Large HP, summons mobs, Avoid pulls other mobs.|RARE|ACH|14309;1|
-; K Macabre|Z|Ardenweald|T|Macabre|N|WH - No info 17-Nov-2020|RARE|ACH|14309;2|
-; K Humon'gozz|M|32.48,30.28|Z|Ardenweald|T|Humon'gozz|N|WH - Need Unusually Large Mushroom to use the Damp Loam, these drop off mobs.  Closest are Lurking Lasher near 50.22,23.83, return to these coord to 'grow' the mob.|ITEM|182650|RARE|ACH|14309;3|
-; K Deifir the Untamed|M|46.42,22.10|Z|Ardenweald|T|Deifir the Untamed|N|WH - Need to interact with mob, use Special Ability 'Harry' and 'Stunning Strike'. Once you get dismounted you have a few seconds to attack before it runs off, HP does NOT reset, wait for mob to come back, rinse and repeat.|ITEM|180631|RARE|ACH|14309;4|
-; K Skuld Vit|M|36.94,60.15|Z|Ardenweald|T|Skuld Vit|N|WH - Hideout behind the anima shield you cant bypass without Joining Night Fae covenant, OR wait till someone else who is, pulls.|ITEM|182183|RARE|ACH|14309;5|
-; K Mymaen|M|61.16,25.89|Z|Ardenweald|T|Mymaen|N|WH - Clear area of random mobs, then have at it.|RARE|ACH|14309;6|
-; K The Slumbering Emperor|M|58.62,46.47|Z|Ardenweald|T|The Slumbering Emperor|N|WH - Mob in fog cloud, that causes you to fall asleep. Possible to mount and run into fog, using an AOE attack to tag mob and dispel the fog.|ITEM|175711|RARE|ACH|14309;8|
-; K Dustbrawl|M|49.02,72.63|Z|Ardenweald|T|Dustbrawl|N|WH - Mob walks around coord, kill common mobs to make space.|RARE|ACH|14309;9|
-; K Valfir the Unrelenting|M|30.45,55.55|Z|Ardenweald|T|Valfir the Unrelenting|N|WH - Pick up Sparkling Animaseed, which you can only see if NF Cov.\nThen use Extra Action Button to remove immune.|ITEM|180730|RARE|ACH|14309;10|EAB|
-; K Faeflayer|M|68.55,27.78|Z|Ardenweald|T|Faeflayer|N|WH - Inside cave behind waterfall at coords.  Rare is weak, but stackable shadow dots hurts alot.|ITEM|180144|RARE|ACH|14309;11|
-; K Mystic Rainbowhorn|M|50.34,20.99|Z|Ardenweald|T|Mystic Rainbowhorn|N|WH - May need to use 'Great Horn of the Runestag' at 49.72,19.72.\nItem only drops for NF COV|ITEM|182179|RARE|ACH|14309;12|
-; K Gormtamer Tizo|M|26.45,54.32|Z|Ardenweald|T|Gormtamer Tizo|N|WH - To summon, you need to kill the Bristlecone Terrors, that ride Deranged Guardians that you need to kill first.|ITEM|180725|RARE|ACH|14309;13|
-; K Wrigglemortis|M|58.33,61.82|Z|Ardenweald|T|Wrigglemortis|N|WH - You will either see the mob, or Wriggling Tendrils.  Pull tendrils by clicking and pulling off ground, will either spawn mobs or Rare.|ITEM|179502|RARE|ACH|14309;14|
-; K Old Ardeite|M|51.12,85.18|Z|Ardenweald|T|Old Ardeite|N|WH - Mob flies VERY high, need either 'Pinch of Faerie Dust' or use Basket of Enchanted Wings.|ITEM|180643|RARE|ACH|14309;15|
-; K Hunter Vivanna|M|67.18,51.42|Z|Ardenweald|T|Hunter Vivanna|N|WH - Rare walks around this spot, fight isn't too hard as long as you don't pull the gorms.|ITEM|183091|RARE|ACH|14309;16|
-; K Rootwrithe|M|64.91,44.12|Z|Ardenweald|T|Rootwrithe|N|WH - Either rare will be in pool, or Dormant Blossoms - Poke blossoms til Rare shows.|ITEM|179603|RARE|ACH|14309;18|
-; K Night Mare|PRE|59069|M|62.17,52.18|Z|Ardenweald|T|Night Mare|N|WH - Need Dream Catcher from Ysera, must NF Cov.  See WowHead for info.\nhttps://shadowlands.wowhead.com/npc=168135/night-mare#comments|ITEM|180728|RARE|ACH|14309;19|
-; K Gormbore|M|53.86,75.82|Z|Ardenweald|T|Gormbore|N|WH - Nothing required to summon, but hard to locate due to multiple worlds quests.|ITEM|183196|RARE|ACH|14309;20|
-; K Soultwister Cero|M|72.33,51.05|Z|Ardenweald|T|Soultwister Cero|N|WH - Easy rare mob fight.|ITEM|180164|RARE|ACH|14309;21|
+; List of Rares in Ardenweald, only two in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
+; K Deathbinder Hroth|M|34.65,68.02|Z|Ardenweald!The Shadowlands|T|Deathbinder Hroth|N|WH - Stands at coords, when alive near the sacrifical altar.  Large HP, summons mobs, Avoid pulls other mobs.|RARE|ACH|14309;1|
+; K Macabre|Z|Ardenweald!The Shadowlands|T|Macabre|N|WH - No info 17-Nov-2020|RARE|ACH|14309;2|
+; K Humon'gozz|M|32.48,30.28|Z|Ardenweald!The Shadowlands|T|Humon'gozz|N|WH - Need Unusually Large Mushroom to use the Damp Loam, these drop off mobs.  Closest are Lurking Lasher near 50.22,23.83, return to these coord to 'grow' the mob.|ITEM|182650|RARE|ACH|14309;3|
+; K Deifir the Untamed|M|46.42,22.10|Z|Ardenweald!The Shadowlands|T|Deifir the Untamed|N|WH - Need to interact with mob, use Special Ability 'Harry' and 'Stunning Strike'. Once you get dismounted you have a few seconds to attack before it runs off, HP does NOT reset, wait for mob to come back, rinse and repeat.|ITEM|180631|RARE|ACH|14309;4|
+; K Skuld Vit|M|36.94,60.15|Z|Ardenweald!The Shadowlands|T|Skuld Vit|N|WH - Hideout behind the anima shield you cant bypass without Joining Night Fae covenant, OR wait till someone else who is, pulls.|ITEM|182183|RARE|ACH|14309;5|
+; K Mymaen|M|61.16,25.89|Z|Ardenweald!The Shadowlands|T|Mymaen|N|WH - Clear area of random mobs, then have at it.|RARE|ACH|14309;6|
+; K The Slumbering Emperor|M|58.62,46.47|Z|Ardenweald!The Shadowlands|T|The Slumbering Emperor|N|WH - Mob in fog cloud, that causes you to fall asleep. Possible to mount and run into fog, using an AOE attack to tag mob and dispel the fog.|ITEM|175711|RARE|ACH|14309;8|
+; K Dustbrawl|M|49.02,72.63|Z|Ardenweald!The Shadowlands|T|Dustbrawl|N|WH - Mob walks around coord, kill common mobs to make space.|RARE|ACH|14309;9|
+; K Valfir the Unrelenting|M|30.45,55.55|Z|Ardenweald!The Shadowlands|T|Valfir the Unrelenting|N|WH - Pick up Sparkling Animaseed, which you can only see if NF Cov.\nThen use Extra Action Button to remove immune.|ITEM|180730|RARE|ACH|14309;10|EAB|
+; K Faeflayer|M|68.55,27.78|Z|Ardenweald!The Shadowlands|T|Faeflayer|N|WH - Inside cave behind waterfall at coords.  Rare is weak, but stackable shadow dots hurts alot.|ITEM|180144|RARE|ACH|14309;11|
+; K Mystic Rainbowhorn|M|50.34,20.99|Z|Ardenweald!The Shadowlands|T|Mystic Rainbowhorn|N|WH - May need to use 'Great Horn of the Runestag' at 49.72,19.72.\nItem only drops for NF COV|ITEM|182179|RARE|ACH|14309;12|
+; K Gormtamer Tizo|M|26.45,54.32|Z|Ardenweald!The Shadowlands|T|Gormtamer Tizo|N|WH - To summon, you need to kill the Bristlecone Terrors, that ride Deranged Guardians that you need to kill first.|ITEM|180725|RARE|ACH|14309;13|
+; K Wrigglemortis|M|58.33,61.82|Z|Ardenweald!The Shadowlands|T|Wrigglemortis|N|WH - You will either see the mob, or Wriggling Tendrils.  Pull tendrils by clicking and pulling off ground, will either spawn mobs or Rare.|ITEM|179502|RARE|ACH|14309;14|
+; K Old Ardeite|M|51.12,85.18|Z|Ardenweald!The Shadowlands|T|Old Ardeite|N|WH - Mob flies VERY high, need either 'Pinch of Faerie Dust' or use Basket of Enchanted Wings.|ITEM|180643|RARE|ACH|14309;15|
+; K Hunter Vivanna|M|67.18,51.42|Z|Ardenweald!The Shadowlands|T|Hunter Vivanna|N|WH - Rare walks around this spot, fight isn't too hard as long as you don't pull the gorms.|ITEM|183091|RARE|ACH|14309;16|
+; K Rootwrithe|M|64.91,44.12|Z|Ardenweald!The Shadowlands|T|Rootwrithe|N|WH - Either rare will be in pool, or Dormant Blossoms - Poke blossoms til Rare shows.|ITEM|179603|RARE|ACH|14309;18|
+; K Night Mare|PRE|59069|M|62.17,52.18|Z|Ardenweald!The Shadowlands|T|Night Mare|N|WH - Need Dream Catcher from Ysera, must NF Cov.  See WowHead for info.\nhttps://shadowlands.wowhead.com/npc=168135/night-mare#comments|ITEM|180728|RARE|ACH|14309;19|
+; K Gormbore|M|53.86,75.82|Z|Ardenweald!The Shadowlands|T|Gormbore|N|WH - Nothing required to summon, but hard to locate due to multiple worlds quests.|ITEM|183196|RARE|ACH|14309;20|
+; K Soultwister Cero|M|72.33,51.05|Z|Ardenweald!The Shadowlands|T|Soultwister Cero|N|WH - Easy rare mob fight.|ITEM|180164|RARE|ACH|14309;21|
 
 
 ; TOF
