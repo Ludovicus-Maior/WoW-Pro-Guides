@@ -154,16 +154,16 @@ H Blood Watch |QID|9569|N|Hearth back to Blood Watch.|U|6948|
 T Containing the Threat|QID|9569|N|To Vindicator Aalesia.|M|55.05,58.01|
 T Don't Drink the Water|QID|9748|N|To Vindicator Aesom.|M|55.57,55.38|
 A Limits of Physical Exhaustion|QID|9746|PRE|9748|N|From Vindicator Aesom.|M|55.57,55.38|
-A What We Know...|R|Draenei|QID|9753|M|55.6,55.4|N|From Vindicator Aesom.|
+A What We Know...|QID|9753|M|55.6,55.4|N|From Vindicator Aesom.|
 T The Final Sample|QID|9585|M|52.6,53.2|N|To Harbinger Mikolaas.|
-T What We Know...|R|Draenei|QID|9753|M|52.66,53.23|N|To Exarch Admetius.|
-A What We Don't Know...|R|Draenei|QID|9756|PRE|9753|N|From Exarch Admetius.|M|52.66,53.23|
-C What We Don't Know...|R|Draenei|QID|9756|M|54.4,54.3|N|Talk to the prisoner.|
-T What We Don't Know...|R|Draenei|QID|9756|N|To Exarch Admetius.|M|52.66,53.23|
-A Vindicator's Rest|R|Draenei|QID|9760|PRE|9756|N|From Exarch Admetius.|M|52.66,53.23|
+T What We Know...|QID|9753|M|52.66,53.23|N|To Exarch Admetius.|
+A What We Don't Know...|QID|9756|PRE|9753|N|From Exarch Admetius.|M|52.66,53.23|
+C What We Don't Know...|QID|9756|M|54.4,54.3|N|Talk to the prisoner.|
+T What We Don't Know...|QID|9756|N|To Exarch Admetius.|M|52.66,53.23|
+A Vindicator's Rest|QID|9760|PRE|9756|N|From Exarch Admetius.|M|52.66,53.23|
 A The Missing Expedition|QID|9669|M|53.3,57.0|N|From Achelus.|
 C Matis the Cruel|QID|9711|N|Use the flare gun! When you get into range, just use your flare gun, and the quest is easy. He pats along the road, you should see him somewhere near Vindicator's Rest.|U|24278|M|31.5,48|
-T Vindicator's Rest|R|Draenei|QID|9760|N|To Vindicator Corin.|M|30.6,46.6|
+T Vindicator's Rest|QID|9760|N|To Vindicator Corin.|M|30.6,46.6|
 A Fouled Water Spirits|QID|10067|N|From Vindicator Corin.|M|30.6,46.6|
 A Oh, the Tangled Webs They Weave|QID|10066|N|From Vindicator Corin.|M|30.6,46.6|
 T Talk to the Hand|QID|10064|N|To Scout Joril.|M|30.27,45.94|
@@ -225,17 +225,17 @@ N Non-Draenei races|QID|9740|N|Non-Draenei have only one more available quest on
 F The Exodar|QID|9740|N|Fly to The Exodar to train your riding skill. Skip this step if you already have it.|R|Draenei|M|57.68,53.89|
 N Get your Mount|QID|9740|N|Up the ramp and to the left is the riding trainer. You'll need 4 gold for training and 1 gold for the mount. Skip if you already have it. Click to close and continue.|R|Draenei|
 F Blood Watch|QID|9740|N|Fly back to Blood Watch. Skip if you're already there.|Z|The Exodar|M|54.46,36.4|R|Draenei|
-A Clearing the Way|QID|9761|PRE|9760|R|Draenei|N|From Vindicator Corin.|M|30.6,46.6|
-A Ending Their World|QID|9759|PRE|9753|R|Draenei|M|30.8,46.7|N|From Demolitionist Legoso.|
-C Clearing the Way|QID|9761|R|Draenei|S|M|19.8,52.6|N|Kill Sunhawk Agents and Saboteurs. Let the Legoso do most of the workMake sure you do 50%+ dmg to the quest mobs, so you get credit.|
-C Ending Their World|QID|9759|M|19,52|N|Follow Legoso, he will stop in 2 places to plant explosives. Then you will have to kill Sironas.|R|Draenei|
-C Clearing the Way|QID|9761|R|Draenei|US|M|19.8,52.6|N|Finish killing Sunhawk Agents and Saboteurs.|
+A Clearing the Way|QID|9761|PRE|9760|N|From Vindicator Corin.|M|30.6,46.6|
+A Ending Their World|QID|9759|PRE|9753|M|30.8,46.7|N|From Demolitionist Legoso.|
+C Clearing the Way|QID|9761|S|M|19.8,52.6|N|Kill Sunhawk Agents and Saboteurs. Let the Legoso do most of the workMake sure you do 50%+ dmg to the quest mobs, so you get credit.|
+C Ending Their World|QID|9759|M|19,52|N|Follow Legoso, he will stop in 2 places to plant explosives. Then you will have to kill Sironas.|
+C Clearing the Way|QID|9761|US|M|19.8,52.6|N|Finish killing Sunhawk Agents and Saboteurs.|
 C The Sun Gate|QID|9740|N|Go to the Sun Gate. Right click the 4 portal controllers, then right click the Sun Gate.|M|18.95,63.5|
-T Clearing the Way|QID|9761|R|Draenei|N|To Vindicator Corin.|M|30.6,46.6|
+T Clearing the Way|QID|9761|N|To Vindicator Corin.|M|30.6,46.6|
 H Blood Watch|QID|9740|N|Hearth back to Blood Watch.|U|6948|
 T The Sun Gate|QID|9740|N|To Vindicator Aesom.|M|55.54,55.42|
-T Ending Their World|QID|9759|N|This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show. Turn the quest into Exarch Admetius.|R|Draenei|M|52.6,53.2|
-A The Unwritten Prophecy|QID|9762|PRE|9759|N|From Prophet Velen. If Prophet Velen despawns before you accept the quest, go to The Exodar to get the quest.|R|Draenei|M|54,55.4|
+T Ending Their World|QID|9759|N|This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show. Turn the quest into Exarch Admetius.|M|52.6,53.2|
+A The Unwritten Prophecy|QID|9762|PRE|9759|N|From Prophet Velen. If Prophet Velen despawns before you accept the quest, go to The Exodar to get the quest.|M|54,55.4|
 A Newfound Allies|QID|9632|M|54.69,54.01|N|From Anchorite Paetheus.|
 F The Exodar|QID|9632|N|Fly to The Exodar.|M|57.68,53.89|
 A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|N|From the Hero's Call Board. Will not show up if your level is too high.|Z|The Exodar|

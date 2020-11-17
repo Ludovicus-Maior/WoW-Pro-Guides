@@ -74,21 +74,21 @@ A A New Foothold|QID|60828|M|71.02,22.03|Z|Icecrown|N|From Crusader Renn.|PRE|60
 T A New Foothold|QID|60828|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|
 A Cult Couture|QID|60843|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60828|
 A Fighting for Attention|QID|62185|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60828|
-C Fighting for Attention|QID|62185|M|54.45,34.91|Z|Icecrown|S|N|Kill Death Cultists for the keys and then use them to free Argent Hippogryph Riders.|
+C Fighting for Attention|QID|62185|M|54.45,34.91|Z|Icecrown|S|T|Vile Torturer|N|Kill Vile Torturers for the keys and then use them to free Argent Hippogryph Riders.|
 C Cult Couture|QID|60843|M|51.91,32.53|Z|Icecrown|N|Kill Researchers and Worshipers to collect Collaborator's Hood and Robes.|
-C Fighting for Attention|QID|62185|M|54.45,34.91|Z|Icecrown|US|N|Kill Death Cultists for the keys and then use them to free Argent Hippogryph Riders.|
+C Fighting for Attention|QID|62185|M|54.45,34.91|Z|Icecrown|US|T|Vile Torturer|N|Kill Vile Torturers for the keys and then use them to free Argent Hippogryph Riders.|
 T Cult Couture|QID|60843|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|
 T Fighting for Attention|QID|62185|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|
 A Secrets in Shadows|QID|60861|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|60843&62185|
 C Secrets in Shadows|QID|60861|M|60.64,62.17|Z|Icecrown|NC|N|Fly to the entrance of Mord'rethar and use the special action to put on the disguse. Run in toward Herald Dalora and use the special action button again "Submit to Darkness" and wait for her speach to end.|
 T Secrets in Shadows|QID|60861|M|60.64,62.17|Z|Icecrown|N|To Pop-up Quest Turn-In.|
 A Bursting the Bubble|QID|62225|M|60.64,62.17|Z|Icecrown|N|From Pop-up Quest.|PRE|60861|
-C Bursting the Bubble|QID|62225|M|60.85,63.39|Z|Icecrown|QO|1<1|N|Pick up a plague barrel that is lying around then use the special action button to toss it in the cauldron.|
-C Bursting the Bubble|QID|62225|M|61.55,63.96|Z|Icecrown|QO|1<2|N|Pick up a plague barrel that is lying around then use the special action button to toss it in the cauldron.|
-C Bursting the Bubble|QID|62225|M|62.25,63.37|Z|Icecrown|QO|1<3|N|Pick up a plague barrel that is lying around then use the special action button to toss it in the cauldron.|
+C Bursting the Bubble|QID|62225|M|60.85,63.39|Z|Icecrown|QO|1<1|N|Pick up a plague barrel that is lying around then use the special action button to toss it in the cauldron.|EAB|
+C Bursting the Bubble|QID|62225|M|61.55,63.96|Z|Icecrown|QO|1<2|N|Pick up a plague barrel that is lying around then use the special action button to toss it in the cauldron.|EAB|
+C Bursting the Bubble|QID|62225|M|62.25,63.37|Z|Icecrown|QO|1<3|N|Pick up a plague barrel that is lying around then use the special action button to toss it in the cauldron.|EAB|
 T Bursting the Bubble|QID|62225|M|44.95,44.78|Z|Icecrown|N|Exit it Mord'rethar and fly back to Crusader Renn.|
 A A Message from Above|QID|60867|M|44.95,44.78|Z|Icecrown|N|From Crusader Renn.|PRE|62225|
-C A Message from Above|QID|60867|M|45.45,45.99|Z|Icecrown|QO|1|NC|N|Take a ride on the Argent Hippogryph.|
+C A Message from Above|QID|60867|M|45.45,45.99|Z|Icecrown|QO|1|V|N|Take a ride on the Argent Hippogryph.|
 C A Message from Above|QID|60867|M|46.34,77.89|Z|Icecrown|QO|2|NC|N|Enjoy the ride and you will locate Herald Dalora.|
 C A Message from Above|QID|60867|M|48.28,79.82|Z|Icecrown|QO|3|N|Now fly around and kill scourge, attack groups with 1, target the giants and press 2.|
 T A Message from Above|QID|60867|M|44.95,44.78|Z|Icecrown|N|To Crusader Renn.|
