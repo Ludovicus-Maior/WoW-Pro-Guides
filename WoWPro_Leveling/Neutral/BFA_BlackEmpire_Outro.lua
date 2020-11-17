@@ -170,10 +170,10 @@ A Beginning the Descent|QID|57290|M|46.55,63.58|Z|Chamber of Heart!Dungeon1473|N
 P Silithus: The Wound|QID|57290|M|50.14,30.47|Z|Chamber of Heart!Dungeon1473|N|Run out to Silithus.|
 P Boralus|ACTIVE|57290|M|41.48,44.86|Z|Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|FACTION|Alliance|
 P Stormwind City|ACTIVE|57290|M|70.10,16.78|Z|Boralus|NC|N|Take the Portal to Stormwind.|FACTION|Alliance|
-F Iron Summit|ACTIVE|57290|M|70.93,72.47|Z|Stormwind City|N|To Dungar Longdrink, to Fly to Iron Summit.|
+F Iron Summit|ACTIVE|57290|M|70.93,72.47|Z|Stormwind City|N|To Dungar Longdrink, to Fly to Iron Summit.|FACTION|Alliance|
 P The Great Seal|ACTIVE|57290|M|41.48,44.86|Z|Silithus|NC|N|Take the Portal to Zuldazar.|FACTION|Horde|
 P Orgrimmar|ACTIVE|57290|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take the Portal to Orgrimmar.|FACTION|Horde|
-P Twilight Highlands|ACTIVE|57290|M|50.23,39.52|Z|Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|
+P Twilight Highlands|ACTIVE|57290|M|50.23,39.52|Z|Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|FACTION|Horde|
 F Iron Summit|ACTIVE|57290|M|73.79,52.80|Z|Twilight Highlands|N|To Gorthul, to Fly to Iron Summit.|FACTION|Horde|
 R Blackwing Descent Instance|ACTIVE|57290|M|47.54,68.93|Z|Eastern Kingdoms|TZ|1538|N|Fly to the Blackwing Descent instance atop Blackrock Mountain. When you get there, enter the instance to start the scenario.|
 C Forced Entry|ACTIVE|57290|SO|1|M|46.92,42.92|Z|The Broken Hall@Blackwing Descent!Dungeon1538|N|Work your way forward to the Vault of the Shadowflame, take the elevator down and wait by Wrathion for completion.|
