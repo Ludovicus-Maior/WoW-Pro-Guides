@@ -1146,6 +1146,7 @@ if not WoWPro.CLASSIC then
             WoWPro:dbp("%s: Scenario %s done.", event, WoWPro.Scenario.name)
         end
         WoWPro.Scenario = nil
+        WoWPro.ScenarioFirstStep = nil
     end)
 end
 
