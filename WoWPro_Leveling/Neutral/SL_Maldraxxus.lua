@@ -15,6 +15,30 @@ N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe
 ; $ Chest of Eyes|M|48.4,15.1|Z|Maldraxxus|N|WH - Inside wreckage of Nurakkir in the House of Eyes.|ITEM|183696|ACH|14312;11|
 ; $ Glutharn's Stash|M|72.8,53.6|Z|Maldraxxus|N|WH - Kill Scathely and his 2 adds to unlock treasure.|ACH|14312;12|
 
+; List of Rares in Maldraxxus, only one in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
+; K Corpsecutter Moroc|M|26.49,27.39|Z|Maldraxxus|T|Corpsecutter Moroc|N|WH - Hits hard, like tank. Elitle Patrol area.|RARE|ACH|14308;1|
+; K Ravenomous|M|53.81,19.25|Z|Maldraxxus|T|Ravenomous|N|WH - Near stairs at coord, try to avoid spiders.|RARE|ACH|14308;3|
+; K Taskmaster Xox|M|50.01,19.60|Z|Maldraxxus|T|Taskmaster Xox|N|WH - Stands on small island in slime river.  SHARES respawn with Taskmasters Mortis and Bloata.|RARE|ACH|14308;4|
+; K Nirvaska the Summoner|M|50.27,63.52|Z|Maldraxxus|T|Nirvaska the Summoner|N|WH - Only up when WQ-Deadly Reminder is up.  Respawns nearby, usually dead in seconds.|RARE|ACH|14308;5|
+; K Smorgas The Feaster|M|42.27,53.90|Z|Maldraxxus|T|Smorgas The Feaster|N|WH - Rare doesn't show, till you activate it with Bloody Lamp on ground.  Kill Mystery Meat when spawns, it heals rare.|RARE|ACH|14308;6|
+; K Sabreil the Bonecleaver|M|50.67,47.37|Z|Maldraxxus|T|Sabreil the Bonecleaver|N|WH - Rare mob, spawns in The Theater of Pain, Minimap shows Drolkrad.  Kill others until his turn to fight.  Unsure if mount drops or Drolkrad MUST be kept alive till end of fight.|ITEM|182083|RARE|ACH|14308;7|
+; K Devour'us|M|44.20,28.34|Z|Maldraxxus|T|Devour'us|N|WH - Rare elite mob with scaled level, opens rifts that spawns swarmers.|RARE|ACH|14308;8|
+; K Deadly Dapperling|M|76.13,56.25|Z|Maldraxxus|T|Deadly Dapperling|N|WH - Wanders Southeast part of Glutharn's Decay area.|ITEM|181263|RARE|ACH|14308;9|
+; K Pesticide|M|54.16,60.73|Z|Maldraxxus|T|Pesticide|N|WH - Rare, scaled level. Avoid burrow attacks, easy to kill.|ITEM|182205|RARE|ACH|14308;10|
+; K Warbringer Mal'korak|M|33.56,80.73|Z|Maldraxxus|T|Warbringer Mal'korak|N|WH - Top of tower, table near Rare has random buffs.|ITEM|182085|RARE|ACH|14308;11|
+; K Scunner|M|61.41,76.25|Z|Maldraxxus|T|Scunner|N|WH - Mob is a mess, Ton of HP and what it's worth and aura the reduces haste to the groun, Bring Group with Bloodlust/Heroism|RARE|ACH|14308;12|
+; K Collector Kash|M|49.81,24.46|Z|Maldraxxus|T|Collector Kash|N|WH - Patrols along poison river, Rare can disarm you, run to your weapon to pick up.|RARE|ACH|14308;13|
+; K Sister Chelicerae|M|54.92,23.25|Z|Maldraxxus|T|Sister Chelicerae|N|WH - Destroy Intricate Webbing to pull mob, doesn't scale.  Hard to solo unless in epic gear.|RARE|ACH|14308;14|
+; K Indomitable Schmitd|M|38.79,43.33|Z|Maldraxxus|T|Indomitable Schmitd|N|WH - Scaled level. Shield buff makes invinerable to hit, Use Fuseless Special bombs to break it.|RARE|ACH|14308;15|
+; K Thread Mistress Leeda|M|24.10,39.49|Z|Maldraxxus|T|Thread Mistress Leeda|N|WH - Coord is entrance, Rare randomly spawns after killing Razorthread Weavers a few times.|ITEM|184180|RARE|ACH|14308;16|
+; K Tahonta|M|45.04,50.56|Z|Maldraxxus|T|Tahonta|N|WH - Rare wanders around area, fight isn't hard, Avoid pulling other mobs.|ITEM|182190|RARE|ACH|14308;17|
+; K Gristlebeak|M|57.71,51.57|Z|Maldraxxus|T|Gristlebeak|N|WH - Break Unusual Eggs at coords to make rare come down.|ITEM|182196|RARE|ACH|14308;18|
+; K Nerissa Heartless|M|65.76,34.65|Z|Maldraxxus|T|Nerissa Heartless|N|WH - Stands near groups of mob on platform where the two stairs lead to.  Clear Trash!|RARE|ACH|14308;19|
+; K Bubbleblood|M|52.11,35.76|Z|Maldraxxus|T|Bubbleblood|N|WH - Moves around the blood pool, Pull carefully, common mobs easy to overpull.|RARE|ACH|14308;20|
+; K Deepscar|M|45.00,44.60|Z|Maldraxxus|T|Deepscar|N|WH - Coords are entrance to tower rare is located in.|ITEM|182191|RARE|ACH|14308;21|
+; K Necromanitc Anomaly|M|72.72,29.01|Z|Maldraxxus|T|Necromanitc Anomaly|N|WH - Find rare on platform about The House of Rituals area.  Near the "H", southwest a bit.|RARE|ACH|14308;22|
+
+
 ; TOF
 A Maldraxxus|QID|62278|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 t Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
@@ -322,6 +346,7 @@ C Blade of Blades|QID|57284|M|31.27,45.27|Z|Maldraxxus|US|NC|N|Keep picking up s
 T Blade of Blades|QID|57284|M|26.28,43.13|Z|Maldraxxus|N|To Stubborn Animate.|TOF|
 T Bring Me Their Heads|QID|57278|M|26.28,43.13|Z|Maldraxxus|N|To Stubborn Animate.|TOF|
 T Ani-Matter Animator|QID|57245|M|26.29,42.67|Z|Maldraxxus|N|From Snyder Sixfold.|TOF|;either while on quest or ask Snyder for a new orb to kill a rare in the area Zargox the Reborn at /way 28,9, 51,5
+K Zargox the Reborn|PRE|57245|M|28.95,51.33|Z|Maldraxxus|T|Zargox the Reborn|N|WH - Ask Synder for Ani-Matter Orb, go to the bone at these coord.\nUse orb on pile of bones in center of platform.|RARE|ACH|14308;2|
 R Spider's Watch|QID|62605|ACTIVE|59867|CS|M|36.54,30.88;37.57,29.24|Z|Maldraxxus|N|Finish the Bonuse Objective as you head back to Spider's Watch.|TOF|
 
 ; Side Quest Story - Archival Protection
