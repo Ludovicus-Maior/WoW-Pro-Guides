@@ -27,10 +27,10 @@ C The Boon of Shapes|QID|61479|M|51.20,40.46|Z|The Trunk@Heart of the Forest!Dun
 C The Boon of Shapes|QID|61479|M|50.16,40.29|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|NC|N|Use the "[color=40C7EB]Receive Boon[/color]" button to Kneel before Lady Moonberry.|EAB|COV|Night Fae|
 T The Boon of Shapes|QID|61479|M|50.05,40.29|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
 ;skip happens here
-N if you have completed a covenant campaign you can skip a large portion of the introduction. If you do not wish to or have not completed one yet, Select the quest 'Show, Don't Tell' to continue.|AVAILABLE|58104|COV|Night Fae|
-N There is two versions of "For Queen and Grove". If you are not skipping Right click the One that is telling you to talk to Lady Moonberry.|AVAILABLE|58160|PRE|58159|COV|Night Fae|
+N if you have completed a covenant campaign you can skip a large portion of the introduction. If you do not wish to or have not completed one yet, Select the quest 'Show, Don't Tell' to continue.|AVAILABLE|58104|ACH|14790;;true|COV|Night Fae|
+N There is two versions of "For Queen and Grove". If you are not skipping Right click the One that is telling you to talk to Lady Moonberry.|AVAILABLE|58160|PRE|58159|ACH|14790;;true|COV|Night Fae|
 ;skip happens here
-A For Queen and Grove!|QID|63006|M|49.77,40.02|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|58159|COV|Night Fae|
+A For Queen and Grove!|QID|63006^58160|M|49.77,40.02|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|58159|ACH|14790;;true|COV|Night Fae|
 C For Queen and Grove!|QID|63006|M|50.63,18.87|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|NC|N|Ask Attendant Sparkledew for transport.|COV|Night Fae|
 C For Queen and Grove!|QID|63006|M|49.72,37.19|Z|The Canopy@Heart of the Forest!Dungeon|QO|2|NC|N|Oath Pledged.|COV|Night Fae|
 T For Queen and Grove!|QID|63006|COV|Night Fae|
