@@ -18,7 +18,7 @@ C To Be Prepared|QID|42782|QO|4|M|33.74,33.27|Z|Stormwind City|N|Pick one of the
 T To Be Prepared|QID|42782|M|18.93,26.51|Z|Stormwind City|N|To Knight Dameron.|
 A The Battle for Broken Shore|QID|42740|M|18.93,26.51|Z|Stormwind City|N|From Knight Dameron on the docks. Also available from Recruiter Lee in the harbour.|PRE|42782|
 C The Battle for Broken Shore|QID|42740|QO|1|M|19.94,29.45|Z|Stormwind City|N|Talk to Captain Angelica and tell her you are ready to face the Legion.|CHAT|
-R The Broken Shore|QID|42740|M|49.77,72.75|Z|Broken Shore|N|Wait until after the cinematic for arriving at the Broken Shore.|NC|
+R The Broken Shore|QID|42740|M|49.77,72.75|Z|Broken Shore|N|Wait until after the cinematic for arriving at the Broken Shore.|NC|SO|0|
 C Fel Lords slain|QID|42740|SO|2;2|M|47.87,68.71|Z|Broken Shore|N|Attack the Fel Lords.|
 C Demons slain|QID|42740|SO|2;1|M|47.56,68.53|Z|Broken Shore|N|Demons slain|
 C Spires of Woe destroyed|QID|42740|SO|2;3|M|46.90,71.23|Z|Broken Shore|N|Destroy the Spires of Woe by targetting the arcane crystals|
