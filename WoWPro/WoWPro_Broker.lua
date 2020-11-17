@@ -10,6 +10,7 @@
 -- Is nil when no scenario is active
 -- Is a table when a scenario is ongoing
 WoWPro.Scenario = nil
+WoWPro.ScenarioFirstStep = nil
 WoWPro.AnimaPowers = 0
 WoWPro.LastAP = 0
 WoWPro.GroupSync = false
@@ -1860,30 +1861,22 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- Scenario objectives
             if WoWPro.sobjective[guideIndex] then
-                if not WoWPro.Scenario then
-                    -- Hmm, we were expecting a scenario.   Did it sneak up on us?
-                     WoWPro.ProcessScenarioStage("NextStep(Sneak)")
-                     if not WoWPro.Scenario then
-                        skip = true
-                        WoWPro:dbp("Step %s [%s/%s] skipped as no Scenario active",stepAction,step,tostring(QID))
-                        break
-                     end
-                else
+                if WoWPro.Scenario then
+                    -- Lets double check the current Scenario
                     local name = _G.C_Scenario.GetInfo()
-                    -- Not in a scenario
                     if not name then
-                        skip = true
-                        WoWPro:dbp("Step %s [%s/%s] skipped as Scenario de-activated (1)",stepAction,step,tostring(QID))
-                        break
-                    end
-                    if name ~= WoWPro.Scenario.name then
-                         WoWPro.ProcessScenarioStage("NextStep(Started)")
+                        WoWPro.Scenario = nil
+                        WoWPro.ScenarioFirstStep = nil
+                        WoWPro:dbp("C_Scenario.GetInfo(): Scenario %s went away.", WoWPro.Scenario.name)
+                    elseif name ~= WoWPro.Scenario.name then
                          WoWPro:dbp("Step %s [%s/%s]  Scenario mismatch [%s] vs [%s] ",stepAction,step,tostring(QID), name, WoWPro.Scenario.name)
-                         if not WoWPro.Scenario then
-                            skip = true
-                            break
-                         end
+                         WoWPro.Scenario = nil
+                         WoWPro.ScenarioFirstStep = nil
+                         WoWPro.ProcessScenarioStage("NextStep(Started)")
                     end
+                else
+                    -- Hmm, we were expecting a scenario.   Did it sneak up on us?
+                     WoWPro.ProcessScenarioStage(stepAction.." ["..step.."] SO="..WoWPro.sobjective[guideIndex])
                 end
                 local stage, objective = (";"):split(WoWPro.sobjective[guideIndex])
                 stage = tonumber(stage)
@@ -1892,28 +1885,37 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     skip = true
                     break
                 end
-                if not WoWPro.Scenario then
-                    WoWPro:dbp("Step %s [%s/%s] skipped as Scenario de-activated (2)",stepAction,step,tostring(QID))
-                    skip = true
-                    break
-                end
-                if WoWPro.Scenario.currentStage > stage then
-                    WoWPro.CompleteStep(guideIndex, "Stage completed: "..WoWPro.sobjective[guideIndex])
-                    skip = true
-                    break
-                end
-                if WoWPro.Scenario.currentStage < stage then
-                   WoWPro.why[guideIndex] = "NextStep(): Stage is not active yet."
-                   skip = true
-                   break
-                end
-                if objective and WoWPro.ValidObjective(objective) then
-                   local done, status = WoWPro.ScenarioObjectiveStatus(stage, objective)
-                   if done then
-                       WoWPro.CompleteStep(guideIndex, "Scenario objective completed: "..WoWPro.sobjective[guideIndex].." "..status)
-                       skip = true
-                       break
-                   end
+                if WoWPro.Scenario then
+                    if WoWPro.Scenario.currentStage > stage then
+                        WoWPro.CompleteStep(guideIndex, "Stage completed: "..WoWPro.sobjective[guideIndex])
+                        skip = true
+                        break
+                    end
+                    if WoWPro.Scenario.currentStage < stage then
+                        WoWPro.why[guideIndex] = "NextStep(): Stage is not active yet."
+                    end
+                    if objective and WoWPro.ValidObjective(objective) then
+                        local done, status = WoWPro.ScenarioObjectiveStatus(stage, objective)
+                        if done then
+                            WoWPro.CompleteStep(guideIndex, "Scenario objective completed: "..WoWPro.sobjective[guideIndex].." "..status)
+                            skip = true
+                            break
+                        end
+                    end
+                else
+                    -- No scenario active, skip all but first objective
+                    if WoWPro.ScenarioFirstStep then
+                        WoWPro:dbp("Step %s [%s/%s] skipped as Scenario de-activated.",stepAction,step,tostring(QID))
+                        WoWPro.why[guideIndex] = "NextStep(): Skipped, as Scenario is not active yet."
+                        skip = true
+                        break
+                    else
+                        WoWPro:dbp("First Scenario Step %s [%s/%s] enabled.",stepAction,step,tostring(QID))
+                        WoWPro.why[guideIndex] = "NextStep(): Active, for scenario to start."
+                        if stage > 0 then
+                            WoWPro.ScenarioFirstStep = stage
+                        end
+                    end
                 end
             end
 
@@ -3196,7 +3198,10 @@ function WoWPro.ProcessScenarioStage(flag)
     local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = _G.C_Scenario.GetInfo()
     if not name then
         WoWPro:dbp("WoWPro.ProcessScenarioStage: C_Scenario.GetInfo() inactive.")
-        WoWPro.Scenario = nil
+        if WoWPro.Scenario then
+            WoWPro.Scenario = nil
+            WoWPro.ScenarioFirstStep = nil
+        end
         if WoWPro.Recorder and WoWPro.Recorder.ProcessScenarioStage then
             WoWPro.Recorder.ProcessScenarioStage(nil)
         end
