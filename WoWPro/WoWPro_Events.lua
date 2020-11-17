@@ -557,8 +557,7 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
                    event,  tostring(WoWPro.zone[qidx]), tostring(WoWPro:IsInstanceZone(WoWPro.zone[qidx])),
                    tostring(WoWPro.sobjective[qidx]), tostring(_G.IsInInstance()))
         if qidx and WoWPro.zone[qidx] and (WoWPro:IsInstanceZone(WoWPro.zone[qidx]) or WoWPro.sobjective[qidx]) and _G.IsInInstance() then
-            WoWPro:Print("|cff33ff33 Suppressing Instance Auto Hide, turn it on after you are done with this guide.|r")
-            WoWProCharDB.AutoHideWorldEventsInsideInstances = false
+            WoWPro:print("Suppressing Instance Auto Hide.")
             return
         end
         if _G.IsInInstance() and not WoWPro.MaybeCombatLockdown() then
