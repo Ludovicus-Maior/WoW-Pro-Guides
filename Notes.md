@@ -1,3 +1,22 @@
+# Release 9.0.2-A0 / 1.13.5-D0
+## Bug Fixes
+* Removed  spammy 'Instance Auto Hide' message.
+* Reworked Scenario handling logic to skip fewer steps.
+* Do not use Grail for quest levels until it is fixed.
+* Use SCENARIO_COMPLETED to invalidate WoWPro.Scenario
+* Added check to level tag if you are in chromie time or not.
+* Restore Groupsync Code that evil Ludo reverted.
+* DATE is completing steps! BAD DATE!
+
+## Guide Updates
+### Retail
+* Alliance: Drustvar, Bloodmyst, Desolace, Duskwood, Northern_Stranglethorn, Legion_Intro, Stormheim, Krasarang_Wilds
+* Horde: Terokkar_Forest, Zangarmarsh, INTRO_Goblin, Stormheim, JadeForest, FrostFire
+* Neutral: BlackEmpire_Outro, SL_Prepatch_Event, Silithus, Azsuna, Highmountain, All Order Halls, Valsharah, DarkPortal_Intro
+* Shadowlands: Ardenweald, Bastion, Covenant, Maldraxxus, Maw_Intro, Revendreth
+### Classic
+* Horde: Hendo_HordeChapter1
+
 # Release A6/C6 (A5/C5)
 ### A6 Bug Fixes
 * Fixed bug with EAB button covering target button.
@@ -10,7 +29,7 @@
 * Corrected parsing of |BUFF|309806<30|
 * Fixed processing of numeric zones in guides.
 
-## Guide Updates
+### Guide Updates
 * Retail: 38 Achievements, 2 Dailies, and 31 Leveling guides updated. Ludo is too lazy to break it down further.
 * Classic: Teldrassil
 
