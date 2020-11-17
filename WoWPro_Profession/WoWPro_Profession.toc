@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 90002
 #classic ## Interface: 11305
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Professions
 ## Notes: Professions guides guides created by the WoW-Pro Community
