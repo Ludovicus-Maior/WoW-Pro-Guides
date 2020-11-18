@@ -140,7 +140,7 @@ N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide H
 
 P Krasus' Landing|QID|39718^39864^39731^39733^39735|M|45.49,45.70;48.63,43.49|CS|N|Up the ramp to take the portal to Dalaran|ACTIVE|39718^39864^39731^39733^39735|
 ;Class hall development lvl 101 to 109
-L Level 101|QID|44090|N|Your Class Hall quests continue once you have reached level 101. Change your guide to the zone you selected from the scouting map earlier, then return to this guide once you have reached level 101.|
+; L Level 101|QID|44090|N|Your Class Hall quests continue once you have reached level 101. Change your guide to the zone you selected from the scouting map earlier, then return to this guide once you have reached level 101.|
 A Pledge of Loyalty|QID|44090|U|140192|N|From Snowfeather, who will appear by your side when you visit Dalaran.|
 F Trueshot Lodge|QID|44090|ACTIVE|44090|M|72.9,41.2|Z|Dalaran@Dalaran70|N|Speak to Talua for a ride to Trueshot Lodge.|CHAT|
 T Pledge of Loyalty|QID|44090|M|47.23,53.92|N|To Altar Keper Biehn, inside the Trueshot Lodge building.|
@@ -282,9 +282,9 @@ U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use it and th
 T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran@Dalaran70|N|To Archmage Kadgar.|
 A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kadgar.|PRE|44004|
 T Light's Charge|QID|44153|M|47.28,43.46|NC|N|Return to your order hall and return to Light's Heart (pedestal just inside the door of the lodge).|
-;fresh 110 quests
-A Khadgar's Discovery|QID|39985|M|60.92,44.73|Z|Dalaran@Dalaran70|N|Upon arriving in Dalaran and being level 110 from a UI Alert.|
-A Goddess Watch Over You|QID|44337|M|36.95,28.21|N|Received from a glowing pink pall containing an image of Khadgar's head that follows you around when you first arrive in your guild hall after reaching lvl 110.|
+;fresh 45 [110] quests
+A Khadgar's Discovery|QID|39985|M|60.92,44.73|Z|Dalaran@Dalaran70|N|Upon arriving in Dalaran and being level 45 from a UI Alert.|
+A Goddess Watch Over You|QID|44337|M|36.95,28.21|N|Received from a glowing pink pall containing an image of Khadgar's head that follows you around when you first arrive in your guild hall after reaching lvl 45.|
 A Walk This Way|QID|44233|M|44.60,48.86|N|From/To Outfitter Reynolds inside the lodge.|
 T Goddess Watch Over You|QID|44337^44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
