@@ -8,7 +8,7 @@ return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 N Guide begins in Gorgrond|QID|35557|N|This guide begins as you are leaving Frostfire and riding into Gorgrond. If you aren't there, the nearest flight point is Thunder Pass.|
 N Treasure|QID|35557|N|The guide mentions almost all of the treasure to be found in the zone if you set it to rank3. Depending on which building you build at your outpost, you will either have a shredder that can cut thru the hardened vines you run across or Beatface will come remove odd boulders to uncover treasure previously hidden. You can loot the treasure someone else's shredder or Beatface uncovers (for about 2 min after they uncover it.)|
-N Bonus Objectives|QID|35557|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, or save them for more gold at level 100. If you are doing this with a group you will notice that some of the outpost building specific quests are for you may be where the other person(s) will have bonus objectives if they built the other outpost type building.|
+;N Bonus Objectives|QID|35557|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, or save them for more gold at level 100. If you are doing this with a group you will notice that some of the outpost building specific quests are for you may be where the other person(s) will have bonus objectives if they built the other outpost type building.|
 ;this section only applies if you have arena - optional drops you may have gotten while out and about in gorgrond
 A Proof of Strength: Ancient Branch|QID|36094|O|U|114030|M|46.29,69.31|N|From 'Ancient Branch' you just looted.|
 A Proof of Strength: Botani Bloom|QID|36086|O|U|114025|M|46.29,69.31|N|From 'Botani Bloom' you just looted.|
@@ -160,7 +160,7 @@ $ Warm Goren Egg|QID|36203|M|48.9,47.3|QO|1|N|In 7 days this will become a Goren
 C Chains of Iron|QID|35136|M|49.0,45.2;49.2,44.8|CS|QO|1|N|When you enter this valley, you first see Rexxar fighting some grunts, assist him, as he works his way towards Captain Brak. Eventually Nisha flys up and brings Capt. Brak to you. Kill her, then go over and loot the artifact.|
 C Chains of Iron|QID|35136|M|49.74,43.85;49.6,44.5|CS|QO|2|CHAT|N|After you have the artifact, optionally come back down and chat with Nisha for a ride back to your outpost.|
 A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow. If you level, this quest will pop up, if you aren't in Beastwatch, just check it off manually, the guide will remind you to pick it up again later.|ACTIVE|35136|
-N Sparring Arena|QID|35880|N|What follows next is a running from flight path to flight path and getting a couple of followers.  If that doesn't interest you check these steps off until Run to Mistcreep Mire.  There are bonus objectives in these areas but no quests.|
+N Sparring Arena|QID|35880|N|The next few quests are for getting a couple of followers.  If that doesn't interest you check these steps off until Run to Mistcreep Mire.  There are bonus objectives in these areas but no quests.|
 ;if lumber yard
 t The Razorbloom|QID|36474|M|46.59,71.49|N|To Draka.|
 A The Infested|QID|35400|M|46.59,71.49|N|From Draka.|PRE|36474|
@@ -219,7 +219,7 @@ A Thieving Dwarves|QID|36488|M|42.06,85.91|N|From Kaz the Shrieker.|PRE|35434&35
 f Evermorn Springs|QID|35468^36037|M|41.32,87.16|N|At Chucklespine.|
 R The Destroyed Expedition|QID|36037|M|44.86,86.72|N|This is to pick up a follower, if followers don't interest you following the road east to Bastion Rise is more direct.|RANK|2|
 A A Centurion Without a Cause|QID|36037|M|44.86,86.72|RANK|2|N|Assist Centurian Tormark with the waves of mobs. The final mob is Woodfist.  When they are defeated, wait a few seconds and he will offer to be your follower. Its safer to run back to Evermorn Rise (where you just got the flight path) and run on to Bastion Rise from there, but you can go from here, just more mobs in the way.|
-A Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Auto Accepted when you enter area.|RANK|3|
+A Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Auto Accepted when you enter area.|RANK|3|LVL|-40|
 C Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Kill Saberon, free Axebeak, and kill Skull Thrash who resides in back of the big cave.|RANK|3|S|
 $ Hardened Thornvine|QID|36019|ACTIVE|35707|M|45.8,89.27|N|Use Shredder (click on the vines) to expose the Forgotten Skull Cache|RANK|3|;25.1 - Tailthrasher Basin
 K Sunclaw|QID|36656|M|44.6,92.2|T|Sunclaw|L|118223|N|There are ropes you can click on to climb up the rock formation. Kill and loot for an ilvl 533 agi fist weapon.|RANK|3|ITEM|118223|;just before blook
@@ -250,16 +250,16 @@ T Iyu|QID|35510|M|47.71,93.31|N|To Draka.|
 A Power of the Genesaur|QID|35416|M|47.71,93.31|N|From Draka.|PRE|35510|
 A Kaz the Shrieker|QID|35511|M|47.78,93.27|N|This grants you Kaz as a follower.|PRE|35510|
 f Bastion Rise|QID|33694|M|47.44,90.79|N|Grab the flight path while you are here.|
-A Ruins of the First Bastion-Bonus Objective|QID|35881|M|48.96,81.07|N|Auto accept when entering the area|RANK|3|
+A Ruins of the First Bastion-Bonus Objective|QID|35881|M|48.96,81.07|N|Auto accept when entering the area|RANK|3|LVL|-40|
 C Ruins of the First Bastion-Bonus Objective|QID|35881|M|48.96,81.07|N|Kill podlings, grab jars and kill Malkor. Malkor can be found inside the building in the back of the area.|S|RANK|3|
 $ Hardened Thornvine|QID|35968|ACTIVE|35707|M|49.65,78.82|N|Use Shredder (click on the vines) to expose the Forgotten Ogre Cache|RANK|3|;28 - Ruins of the First Bastian
 C Ruins of the First Bastion-Bonus Objective|QID|35881|M|48.96,81.07|N|Kill podlings, grab jars and kill Malkor. Malkor can be found inside the building in the back of the area.|US|RANK|3|
 t Ruins of the First Bastion-Bonus Objective|QID|35881|M|48.96,81.07|N|Auto turn in.|
-A The Forgotten Caves-Bonus Objective|QID|34724|M|51.36,77.58|N|Auto accept when entering the area|RANK|3|
+A The Forgotten Caves-Bonus Objective|QID|34724|M|51.36,77.58|N|Auto accept when entering the area|RANK|3|LVL|-40|
 C The Forgotten Caves-Bonus Objective|QID|34724|M|51.36,77.58|N|Kill pale, destroy egg sacks and kill Gorg the Host.|S|RANK|3|
-R The Forgotten Cave|QID|36713|M|51.37,77.75|N|Right after you leave Ruins of the First Bastion Rise, go up the hill to the Forgotten cave. You may as well do the bonus objective while you are getting to the vine and the dagger.|RANK|3|
+R The Forgotten Caves|QID|36713|M|51.37,77.75|N|Right after you leave Ruins of the First Bastion Rise, go up the hill to the Forgotten cave. You may as well do the bonus objective while you are getting to the vine and the dagger.|RANK|3|
+$ Strange Looking Dagger |QID|34940|M|53.0,80.0|QO|1|N|In the back of The Forgotten Cave, Pick up for a bit of treasure. |RANK|3|ITEM|118718|
 $ Hardened Thornvine|QID|36713|ACTIVE|35707|M|53.01,79.03|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;28.1 - The Forgotten Cave
-$ Strange Looking Dagger |QID|34940|M|53.0,80.0|QO|1|N|In the back of The Forgotten Cave, Pick up for a bit of treasure. You can jump up from the rock.|RANK|3|ITEM|118718|
 C The Forgotten Caves-Bonus Objective|QID|34724|M|51.36,77.58|N|Kill pale, destroy egg sacks and kill Gorg the Host.|US|RANK|3|
 t Ruins of the First Bastion-Bonus Objective|QID|34724|M|51.36,77.58|N|Auto turn in.|
 R Darksting Cave|QID|34726|M|52.16,76.81|N|Exit the Forgotten Cave and Right next to it is Darksting Cave.|RANK|3|
@@ -270,10 +270,10 @@ $ Hardened Thornvine|QID|35967|ACTIVE|35707|M|51.64,72.24|N|Out of the cave and 
 K Hive Queen Skrikka|QID|35908|M|52.2,70.2|T|Hive Queen Skrikka|L|118209|N|Kill and loot for an ilvl 534 int axe|RANK|3|ITEM|118209|
 K Stompalupagus |QID|36837|M|55.2,71.2|T|Stompalupagus|L|118228|N|Kill and loot for an ilvl 537 2H Mace (Agi or Str).|RANK|3|ITEM|118228|;just south of tangleheart
 ;for both
-H Beastwatch|QID|35667|M|47.44,90.79|N|Hearth or Fly back to Beastwatch.|RANK|2|
-A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow.|RANK|2|
+; Removed hearthstone step, as step inappropriate if user picked up the quest earlier
+A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow. Hearth or Fly back to Beastwatch to get closer|RANK|2|
 R Mistcreep Mire|QID|35667|M|54.45,66.65|N|There is really no nice straight path over there, so check your map and go towards the waypoint.|RANK|2|
-A Mistcreep Mire-Bonus Objective|QID|36563|M|54.45,66.65|N|Auto accept when entering the area|RANK|3|
+A Mistcreep Mire-Bonus Objective|QID|36563|M|54.45,66.65|N|Auto accept when entering the area|RANK|3|LVL|-40|
 C Mistcreep Mire-Bonus Objective|QID|36563|M|54.45,66.65|N|Kill podlings, grab jars and kill Malkor. Malkor can be found inside the building in the back of the|S|RANK|3|
 $ Hardened Thornvine|QID|36715|ACTIVE|35707|M|51.76,69.13|N|Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;31 - Mistcreep Mire
 $ Odd Boulder|QID|36738|M|50.32,66.57|N|Call Beatface (click on the rock) to expose the Ancient Titan Chest|RANK|3|PRE|35880|;30 - Mistcreep Mire
@@ -317,7 +317,7 @@ $ Hardened Thornvine|QID|35965|ACTIVE|35707|M|56.76,57.27|N|Use Shredder (click 
 R Wildwood Wash|QID|36605|M|59.42,55.90|RANK|3|
 $ Remains of Balldir Deeprock|QID|36605|M|57.8,56.0|L|118703|N|Pick up for a bit of treasure.|RANK|3|ITEM|118703|
 $ Odd Boulder|QID|36739|M|58.12,51.46|N|Call Beatface (click on the rock) to expose the Aged Stone Container|RANK|3|PRE|35880|;33.1 - Wildwood Wash, after finishing Crimson Fen
-A Iyun Weald-Bonus Objective|QID|36571|M|60.36,52.44|N|Auto accept when entering the area|
+A Iyun Weald-Bonus Objective|QID|36571|M|60.36,52.44|N|Auto accept when entering the area|LVL|-40|
 C Iyun Weald-Bonus Objective|QID|36571|M|60.36,52.44|N|Kill Thorny Stabbers and Weald Stingers, click thorny leaflings to kick them away|S|RANK|3|
 K Biolante|QID|36503|M|61.2,53.0|T|Biolante|L|116160|N|Biolante is an elite Mandragora who wonders this area, it is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
 A Trophy of Glory: Biolante|QID|36503|PRE|35151|O|U|116160|M|61.2,53.0|N|From 'Writhing Green Tendril' you just looted.|
@@ -362,7 +362,7 @@ A Trophy of Glory: Crater Lord Igneous|QID|35811|PRE|35151|M|52.8,59.6|O|U|11344
 R Cragplume Cauldron|QID|36178|M|49.22,53.39|RANK|3|
 K Mandrakor|QID|36178|M|50.6,53.2|L|118709|N|He drops Doom Bloom, a cagable battle pet.|T|Mandrakor|RANK|3|ITEM|118709|
 $ Hardened Thornvine|QID|35984|PRE|35707|M|50.17,53.78|N|Use Shredder (click on the vines) to expose the Ancient Titan Chest in the same cave|RANK|3|;4.1
-A South Gronn Canyon-Bonus Objective|QID|36476|M|48.91,53.19|N|Auto accept when entering the area|RANK|3|
+A South Gronn Canyon-Bonus Objective|QID|36476|M|48.91,53.19|N|Auto accept when entering the area|RANK|3|LVL|-40|
 C South Gronn Canyon-Bonus Objective|QID|36476|M|48.91,53.19|N|Kill Goren, Gronnlings Grunts adn click Peons to execute them.|RANK|3|S|
 $ Hardened Thornvine|QID|36718|PRE|35707|M|47.21,51.82|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;5
 $ Suntouched Spear|QID|36610|PRE|35707|M|45.7,49.7|QO|1|N|Run out of Raz's camp and towards the waypoint, then drop down to the ledge about 15 feet below, Wait here for Charl Doomwing to fly overhead to get that one.|ITEM|118718|RANK|3|
@@ -376,7 +376,7 @@ $ Horned Skull|QID|35056|PRE|35707|M|42.56,46.88|QO|1|N|Loot for some Garrison R
 K Gelgor of the Blue Flame|QID|36391|PRE|35707|M|41.89,45.43|T|Gelgor the Blue Flame|L|118230|N|Kill and loot for an ilvl 534 versatility trinket.|RANK|3|ITEM|118230|Z|Fissure of Fury@Gorgrond| ;in fissure of fury
 $ Iron Supply Chest|QID|36618|M|42.77,44.42;43.7,42.5|PRE|35707|CS|QO|1|N|Down inside Brak's Excavation (a cave). Loot for some Garrison Resources.|RANK|3|ITEM|$824|
 $ Sniper's Crossbow|QID|36634|M|45.0,42.6|PRE|35707|QO|1|N|Pick up an ilvl 539 crossbow.|RANK|3|ITEM|118713|;above/across from fissure of fury
-A Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Auto accept when entering the area.|RANK|3|
+A Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Auto accept when entering the area.|RANK|3|LVL|-40|
 C Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Kill Gronn and Goren and break their eggs.|RANK|3|S|
 $ Petrified Rylak Egg |QID|36521|PRE|35707|M|46.25,42.93|L|118707|N|Pick up for a bit of treasure.|RANK|3|ITEM|118707|;gronn canyon
 K Rolkor|QID|36393|M|47.73,41.07|PRE|35707|L|118211|N|Kill and loot for an ilvl 539 str trinket.|RANK|3|ITEM|118211|
@@ -421,7 +421,7 @@ C Taking the Death Bloom|QID|33695|M|54.33,52.50|N|Enter the cave, kill Smokemas
 T Taking the Death Bloom|QID|33695|M|50.30,47.50|N|To Birchus.|
 A Laying Dionor to Rest|QID|33706|M|50.30,47.50|N|From Birchus.|PRE|33695|RANK|2|
 T Laying Dionor to Rest|QID|33706|M|50.29,47.52|N|To Birchus.|
-H Beastwatch|QID|35040|M|50.29,47.52|N|If you hearthstone isn't set to Beastwatch, you can always run.|RANK|2|
+H Beastwatch|QID|35040|M|46.17,69.66|N|If you hearthstone isn't set to Beastwatch, you can always run.|RANK|2|
 ;for all
 t Heart of the Fen|QID|35040|M|46.28,69.99|N|To Marrow.|
 t Power of the Genesaur|QID|35416|M|46.10,70.19|N|To Durotan.|
@@ -462,7 +462,7 @@ K Dessicus of the Dead Pools|QID|35810|PRE|35880|M|38,40|T|Dessicus of the Dead 
 A Trophy of Glory: Dessicus|QID|35810|PRE|35151|M|38,40|O|U|113447|N|From 'Globe of Dead Water' you just looted.|
 $ Odd Boulder|QID|36727|M|42.19,52.03|N|Call Beatface (click on the rock) to expose the Ancient Titan Chest|RANK|3|PRE|35880|;44 - Near Dessicus
 $ Broker's Sack|QID|36506|PRE|35880|M|41.7,52.9|L|118702|N|Avenge Broker, then you can have his treasure|RANK|3|ITEM|118702|
-H Beastwatch|QID|36573^36574|PRE|35880|M|46.29,69.27|N|If you heartstone isn't set to Beastwatch you can always run.|
+H Beastwatch|QID|36573^36574|PRE|35880|M|46.00,69.70|N|If you heartstone isn't set to Beastwatch you can always run.|
 t The Sparring Arena|QID|35152|M|46.29,69.27|N|To Limbflayer.|
 ;both outpost buildings
 A Strike While the Iron is Hot|QID|36573^36574|M|46.10,70.20|N|From Durotan.|PRE|35152^35416|LEAD|36494|
@@ -490,7 +490,7 @@ C Strike While the Iron is Hot|QID|36573^36574|QO|2|M|44.7,17.8|CHAT|N|Talk to D
 f The Iron Approach|QID|36573^36574|M|43.02,20.22|N|At Nisha.|ACTIVE|36573^36574|
 F Beastwatch|QID|36573^36574|M|43.02,20.22|N|At Nisha. Fly back to Beastwatch to turn in. It's a little faster to hearth if you want.|ACTIVE|36573^36574|
 T Strike While the Iron is Hot|QID|36573^36574|M|46.09,70.19|N|To Durotan. Your reward is a book that allows the purchase of a level 2 small or medium garrison building plan in Ashran. There is a breadcrumb quest to lead you there in a few steps.|
-L Level 94|QID|37290|N|You are probably close to, or already 95, but you need to be at least 94 to get the next few quests.|
+L Level 20|QID|37290|N|You need to be Level 20 to continue with this guide.|LVL|20|
 A News from Talador|QID|36494|LEAD|36953|M|46.09,70.19|N|From Durotan.|
 N Gorgrond substantially done|QID|37290|N|This pretty much finishes Gorgrond. Take some time to finish up the bonus objectives if you want, the guide next sends you back to your garrison to do the quests that have opened up while you were gone, and then ends.|ACTIVE|36494|RANK|2|
 H Town Hall|QID|37290|U|110560|M|46.09,70.19|ACTIVE|36494|N|Hearth to your Garrison.|
