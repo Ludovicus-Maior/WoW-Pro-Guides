@@ -17,6 +17,32 @@ N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe
 ; $ Forbidden Chamber|Z|Revendreth|ACH|14314;12|
 ; $ Fleeing Soul's Bundle|M|46.42,58.12|Z|Revendreth|N|WH - On wall above Stalker's Lodge, jump from nearby eleveator (43.53,59.50)|ACH|14314;15|
 
+; List of Rares in Revendreth, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
+; K Soulstalker Doina|M|78.11,49.70|Z|Revendreth|T|Soulstalker Doina|N|WH - Tower above the Atonement Entrance, Her two hounds assist her. At 75% and 40% she runs through the portal, Chase her. Watch out for traps in large room.|RARE|ACH|14310;1|
+; K Innervus|M|21.78.36.03|Z|Revendreth|T|Innervus|N|WH - Bottom level of crypt. Need Scorched Crypt Key from Feral Ritualist in area.|ITEM|183735|RARE|ACH|14310;2|
+; K Stonefist|M|30.64,22.45|Z|Revendreth|T|Stonefist|N|WH - Fattest mob in Revendreth, 943k HP, Hits hard, long cast AOEs.|ITEM|180488|RARE|ACH|14310;3|
+; K Sire Landinas|M|34.08,55.47|Z|Revendreth|T|Sire Landinas|N|WH - To summon rare, pick up Remnant of Light from Ground, use EAB to cast Light Impalement on Crazed Ash Ghoul mobs, keep tossing till one yell 'The Light... buuurns!' Then rare will come down.|ITEM|180873|RARE|ACH|14310;4|EAB|
+; K Lord Mortegore|M|75.53,60.82|Z|Revendreth|T|Lord Mortegore|N|WH - Collect Mortegore Scrolls (4) from random mobs in area, to activate the 4 sigils in the area to activate Rare.|RARE|ACH|14310;5|
+; K Endlurker|M|66.59,59.43|Z|Revendreth|T|Endlurker|N|WH - Pick up Anima Stake near 65.42,60.18, Go toward Blue Worldeater's portal, use Extra Action Button.|ITEM|179927|RARE|ACH|14310;6|EAB|
+; K Tollkeeper Varaboss|M|66.74,70.44|Z|Revendreth|T|Tollkeeper Varaboss|N|WH - Inside the house at coords.|ITEM|179363|RARE|ACH|14310;7|
+; K Famu the Infinite|M|62.51,47.18|Z|Revendreth|T|Famu the Infinite|N|WH - Speak to Seeker Hilda to start event, if you die, Rare attacks Hilda until she dies.|ITEM|180582|RARE|ACH|14310;8|
+; K Hopecrusher|M|51.06,52.87|Z|Revendreth|T|Hopecrusher|N|WH - Tough one, Main danger is Enrage, hits like crazy when enraged.|RARE|ACH|14310;9|
+; K Executioner Aatron|M|37.11,47.95|Z|Revendreth|T|Executioner Aatron|N|WH - Shatter all 3 Stone Legion Punishers along castle wall.|ITEM|183737|RARE|ACH|14310;10|
+; K Grand Arcanist Dimitri|M|21.33,54.34|Z|Revendreth|T|Grand Arcanist Dimitri|N|WH - Kill all 4 Shrouded Ritualists, to release Rare.|ITEM|180708|RARE|ACH|14310;11|
+; K Amalgamation of Sin|M|PLAYER|Z|Revendreth|T|Amalgamation of Sin|N|WH - UNKNOWN|RARE|ACH|14310;12|
+; K Scrivener Lenua|M|38.32,69.21|Z|Revendreth|T|Scrivener Lenua|N|WH - Bring 4 Forbidden Tombs back to the library to summom Rare.  Tombs are random spots near library.|ITEM|180587|RARE|ACH|14310;13|
+; K Tomb Burster|M|43.10,79.20|Z|Revendreth|T|Tomb Burster|N|WH - Break all spider eggs around the webbed NPC, then fight through 3 waves of spiders: 2 - 3 - 4.|RARE|ACH|14310;14|
+; K Worldedge Gorger|M|38.62,72.21|Z|Revendreth|T|Worldedge Gorger|N|WH - Use Enticing Anima to lit worldedge braziers, drop form worldeater rift mobs along the river.|ITEM|180583|RARE|ACH|14310;15|
+; K Executioner Adrastia|M|43.73,51.24|Z|Revendreth|T|Executioner Adrastia|N|WH - Flies around the central platform in the middle of Darkwall Tower. Pull carefully to not aggro mobs.|ITEM|180502|RARE|ACH|14310;16|
+; K Leeched Soul|M|67.97,82.43|Z|Revendreth|T|Leeched Soul|N|WH - Found inside Cryot, bottom level.  There's also Absolver Meylann, who starts to drain anima from the Soul.  Kill mobs that appear, once Prideful Hulk appears.. Kill it! it's the Rare!|ITEM|183736|RARE|ACH|14310;17|
+; K Amalgamation of Light|M|25.58,48.66|Z|Revendreth|T|Amalgamation of Light|N|WH - Turn mirros away from the center.|RARE|ACH|14310;18|
+; K Amalgamation of Filth|M|52.70,73.27|Z|Revendreth|T|Amalgamation of Filth|N|WH - Giant elemental in pool, usually fighting Muckmaster Rotjaw.|RARE|ACH|14310;19|
+; K Azgar|M|35.48,68.70|Z|Revendreth|T|Azgar|N|WH - Annoying Rare, casts shield at 70% and 30%, and blinks.  Overkill sheild to collapse.|ITEM|183731|RARE|ACH|14310;20|
+; K Bog Beast|M|36.19,32.92|Z|Revendreth|T|Bog Beast|N|WH - WQ! Muck it up, needed to summon. Toss a couple Primordial Muck into dirt to spawn rare mob.  Muck drops off slimes in WQ Area.|ITEM|180588|RARE|ACH|14310;21|
+; K Huntmaster Petrus|M|61.89,78.50|Z|Revendreth|T|Huntmaster Petrus|N|WH - Rare found within the ruined castle to the south of Darkhaven, two dogs assist him, Kill dogs first!|ITEM|180705|RARE|ACH|14310;22|
+; K Manifestation of Wrath|M|49.84,35.02|Z|Revendreth|T|Manifestation of Wrath|N|WH - WQ! Swarming Souls, needed.  During quest you deliver souls to Avowed Ritualist, rare has a chance to spawn after a delivering.|RARE|ACH|14310;23|
+; K Sinstone Hoarder|M|PLAYER|Z|Revendreth|T|Sinstone Hoarder|N|WH - UNKNOWN|RARE|ACH|14310;24|
+
 ; TOF
 A Revendreth|QID|62279|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 t Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|

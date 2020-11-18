@@ -19,6 +19,31 @@ N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe
 ; $ Gift of Vesiphone|M|65.2,70.3|Z|Bastion!The Shadowlands|N|WH - Ring nearby bell, while standing under waterfall for Proof of Purity, to unlock treasure.|ITEM|180859|ACH|14311;14|
 ; $ Gift of Thenios|M|40.2,18.2|Z|Bastion!The Shadowlands|N|WH - Obtain Proof of Wisdom, using nearby teleporter, and light the incenses in the correct order.\nClick Incense of Patience\nClick Incense of Knowledge\nClick Incense of Insight\n[color=FF0000]SKIP[/color] Incense of Judgement\nClick Anima Orb\nClick Incense of Judgement on the FIFTH platform, then port back.|ACH|14311;15|
 
+; List of Rares in Bastion, only 8 in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
+; K Herculon|M|42.67,80.05|Z|Bastion!The Shadowlands|T|Herculon|N|WH - Entrance to room with inactive Rare.  Collect Depleted Anima Canisters to collect 10 Weak Anima Motes.  Interact with rare and "Supply Weak Anima Mote" 10 times.|RARE|ACH|14307;1|
+; K Wingflayer the Cruel|M|41.67,54.77|Z|Bastion!The Shadowlands|T|Wingflayer the Cruel|N|WH - Use Anima Conductor in Elysian Hold to channel anima to The Temple of Courage.\nThen use Horn of courage at these Coords.|ITEM|182749|RARE|ACH|14307;4|
+; K Dionae|M|44.87,48.82;40.92,47.35|Z|Bastion!The Shadowlands|CS|T|Dionae|N|WH - Start at first coord, turn Left and follow passage down between rocks. Just follow to entrance to alcove at second coords.\nAfter Dionae loses some health she casts a shield that you have to use the four Anima Spears to break the shield.|RARE|ACH|14307;5|
+; K Basilofos, King of the Hill|M|49.03,49.59|Z|Bastion!The Shadowlands|T|Basilofos|N|WH - Move around at coord, till you get a Mark above you that looks like "Purple Eyes".\nKeep it for a while, then the rare's mark will appear on map.  Few seconds later mob will fly down.|ITEM|182655|RARE|ACH|14307;6|
+; K Unstable Memory|M|43.31,25.76|Z|Bastion!The Shadowlands|T|Unstable Memory|N|WH - TAg Unstable Memory Fragments into others about 10 times to turn them into Unstable Memory.|RARE|ACH|14307;8|
+; K Xixin the Ravening|M|63.62,35.82|Z|Bastion!The Shadowlands|T|Xixin the Ravening|N|WH - Shares Spawn points with Worldfeaster Chronn and Embodied Hunger. If not rare click on Swelling Tear Portal to cause a spawn.|ITEM|183605|RARE|ACH|14307;9|
+; K Collector Astorestes|M|66.07,43.94|Z|Bastion!The Shadowlands|T|Collector Astorestes|N|WH - Need to find and read all six Mercia's Legacy Scrolls in ORDER! Facing South -\n1. Chapter 1 - left of exit, on table with two vases between bookshelves.\n2.Chapter 2 - right of exit, on bench under bookshelf.\n3. Chapter 3 - behind the second bench to the right (under second bookshelf.)\n4. Chapter 4 - on the next bookshelf, bottom left cell.\n5. Chapter 5 - on the floor next to the fourth bench (left of North exit)\n6. Chapter 6 - face north exit, on the first table tot he right.\nWhen you did it right you'll get a whisper message and Echo of Mercia flies down, speak with it and gree to find last scroll, location random, Do Not leave area or lose buff.|RARE|ACH|14307;10|
+; K Echo of Aella|M|45.75,64.75|Z|Bastion!The Shadowlands|T|Echo of Aella|CHAT|N|WH - wanders around Agthia's Repose, Need to accept her challenge.|ITEM|180062|RARE|ACH|14307;12|
+; K Reekmonger|M|30.2,55.1|Z|Bastion!The Shadowlands|T|Reekmonger|N|WH - Flies around, no info.|RARE|ACH|14307;13|
+; K Vesper Repair: Sophia's Overture|M|61,50|Z|Bastion!The Shadowlands|T|Selena the Reborn|N|WH - Need 3 player to summon, Each of you must click the Ancient Incense on the blue platforms.  Once started Sophia arrives to tune the vesper, 3 waves, low level, elites, then rare.|ITEM|174038|RARE|ACH|14307;14|
+; K The Ascended Council|M|53.57,88.01|Z|Bastion!The Shadowlands|N|WH - Need to summon the council see WowHead for list.|ITEM|183741|RARE|ACH|14307;15|
+; K Vesper Repair: Sophia's Aria|M|51.46,68.61|Z|Bastion!The Shadowlands|T|Nikara Blackheart|N|WH - Need 3 player to summon, Each of you must click the Ancient Incense on the blue platforms.  Once started Sophia arrives to tune the vesper, 3 waves, low level, elites, then rare.|ITEM|183608|RARE|ACH|14307;19|
+; K Sundancer|M|60.04,93.97;61.37,82.67|Z|Bastion!The Shadowlands|CS|T|Sundancer|N|WH - Go to first Coord to Ancient Memorial, go to 2nd coord and jump down use Skystrider Glider (hope you got one) then interact with Sundancer.\nRapidly press Sooth Extra Button.|ITEM|180773|RARE|ACH|14307;20|
+; K Dark Watcher|M|27.79,30.05|Z|Bastion!The Shadowlands|T|Dark Watcher|N|WH - Must be DEAD to talk to the mob, if debuff Ominous Gaze is up, its here, so go die somewhere nearby.|ITEM|184297|RARE|ACH|14307;21|
+; K Enforcer Aegeon|M|50.82,19.60|Z|Bastion!The Shadowlands|T|Enforcer Aegeon|N|WH - Patrols The Ternal Forge area, might be dead due to WQs and Covenant quests nearby.|RARE|ACH|14307;22|
+; K Embodied Hunger|M|59.82,51.65|Z|Bastion!The Shadowlands|T|Embodied Hunger|N|WH - Shares Spawn points with Worldfeaster Chronn and Xixin the Ravening. If not rare click on Swelling Tear Portal to cause a spawn.|ITEM|183605|RARE|ACH|14307;23|
+; K Worldfeaster Chronn|M|47.43,42.82|Z|Bastion!The Shadowlands|T|Worldfeaster Chronn|N|WH - Shares Spawn points with Xixin the Ravening and Embodied Hunger. If not rare click on Swelling Tear Portal to cause a spawn.|ITEM|183605|RARE|ACH|14307;24|
+; K Demi the Relic Hoarder|M|37.50,41.75|Z|Bastion!The Shadowlands|T|Demi|N|WH - Annoyingly tricky mob, Casts an Anima Shield when attacked.  Use control abilities, loves to run into other mobs to join the party. Drop Relic Hoard chest..don't lose it!|ITEM|183608|RARE|ACH|14307;25|
+; K Aspirant Eolis|M|32.59,23.34|Z|Bastion!The Shadowlands|T|Aspirant Eolis|N|WH - Find Fragile Humility Scrolls in the areas.. Only last 5mins, so find and get to Rare quickly.|ITEM|183607|RARE|ACH|14307;26|
+; K Corrupted Clawguard|M|56.47,46.18|Z|Bastion!The Shadowlands|T|Corrupted Clawguard|N|WH - Need a Discarded Phalynx Core, might be one near 54.95,41.05, Forgefire Outpost area.|RARE|ACH|14307;27|
+; K Orstus and Sotiros|M|22.71,22.88|Z|Bastion!The Shadowlands|N|WH - Channel Anima at Elysin Hold to Citadel of Loyalty, use teleport pad at 24.56,22.75 to get to the black bell, to summon.|RARE|ACH|14307;29|
+
+
+
 ;TOF
 A Bastion|QID|62275|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 t Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
@@ -115,10 +140,10 @@ C A Life of Service|QID|57710|M|57.00,81.29|QO|1|Z|Bastion!The Shadowlands|NC|N|
 C A Life of Service|QID|57710|M|57.00,81.29|QO|2|Z|Bastion!The Shadowlands|N|Witness memories by killing the groups of mobs, click the flame to trigger a new memory.|MS|
 T A Life of Service|QID|57710|M|56.44,81.57|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A A Forge Gone Cold|QID|57711|M|56.44,81.57|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57710|MS|
-K Sigilback|QID|60570|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179486|
-K Aethon|QID|58526|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179487|
-K Cloudtail|QID|60571|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179488|
-K Nemaeus|QID|60569|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179485|
+K Sigilback|QID|60570|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179486|ACH|14307;2|
+K Aethon|QID|58526|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179487|ACH|14307;28|
+K Cloudtail|QID|60571|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179488|ACH|14307;17|
+K Nemaeus|QID|60569|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179485|ACH|14307;3|
 C A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
 T A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion!The Shadowlands|N|To Sika.|MS|
 A The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
@@ -228,7 +253,7 @@ C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|C
 A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion!The Shadowlands|N|From The Scroll in front of the Vespar of Harmony.|PRE|57717|MS|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Find the scrolls around the area.|S|MS|
 C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|Bastion!The Shadowlands|QO|2|NC|N|Click the bell to clease the Vesper of Harmony.|MS|
-K Fallen Acolyte Erisne|QID|58222|QO|1|RARE|M|60.20,72.99|Z|Bastion!The Shadowlands|N|This silver elite paths around the Vesper of Harmony.|ITEM|180444|
+K Fallen Acolyte Erisne|QID|58222|QO|1|RARE|M|60.20,72.99|Z|Bastion!The Shadowlands|N|This silver elite paths around the Vesper of Harmony.|ITEM|180444|ACH|14307;16|
 C A Once Sweet Sound|QID|57037|M|57.32,71.34|Z|Bastion!The Shadowlands|NC|QO|1|N|Click the bell to cleanse the Vesper of Purity.|MS|
 $ Vesper of Virtues|QID|62841^60478|M|58.66,71.39|Z|Bastion!The Shadowlands|N|Treasure is an item that buffs and gives small Heal.|ITEM|179982|ACH|14311;9|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Finish reading the scrolls around the area.|US|MS|
@@ -263,7 +288,7 @@ A Directions Not Included|QID|58771|M|54.72,64.14|Z|Bastion!The Shadowlands|N|Fr
 A The Prime's Directive|QID|58799|M|54.72,64.14|Z|Bastion!The Shadowlands|N|From Mikanikos.|PRE|58976|MS|
 C The Prime's Directive|QID|58799|M|55.83,62.47|Z|Bastion!The Shadowlands|N|Kill mobs till you have all the cores.|S|MS|
 C Directions Not Included|QID|58771|CS|M|55.97,64.05;55.19,62.24;55.84,62.08;55.37,60.75|Z|Bastion!The Shadowlands|NC|N|Click the papers till you find the manual.|MS|
-K Bookkeeper Mnemis|QID|59022|QO|1|M|55.70,61.89|Z|Bastion!The Shadowlands|RARE|ITEM|182682|N|Silver Elite paths in this area.|
+K Bookkeeper Mnemis|QID|59022|QO|1|M|55.70,61.89|Z|Bastion!The Shadowlands|RARE|ITEM|182682|N|Silver Elite paths in this area.|ACH|14307;11|
 C The Prime's Directive|QID|58799|M|55.83,62.47|Z|Bastion!The Shadowlands|N|Kill mobs till you have all the cores.|US|MS|
 T Directions Not Included|QID|58771|M|57.17,61.66|Z|Bastion!The Shadowlands|N|To Mikanikos.|MS|
 T The Prime's Directive|QID|58799|M|57.17,61.66|Z|Bastion!The Shadowlands|N|To Mikanikos.|MS|
@@ -348,7 +373,7 @@ C Disturbing the Peace|QID|57538|M|49.86,58.84|Z|Bastion!The Shadowlands|N|Kill 
 C Disctractions for Kala|QID|57545|M|49.62,60.00|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the teddy bear on the ground.|
 C Disctractions for Kala|QID|57545|M|51.10,58.75|QO|1|Z|Bastion!The Shadowlands|NC|N|Click on the ball on the ground.|
 C Disctractions for Kala|QID|57545|M|52.84,58.17|QO|3|Z|Bastion!The Shadowlands|NC|N|Click the pillow on the ground.|
-K Cloudfeather Guardian|QID|60978|QO|1|M|50.82,58.28|Z|Bastion!The Shadowlands|RARE|ITEM|180812|N|Kill Anima Starved Wyrm's in the area, until he comes and lands beside you then kill him.|
+K Cloudfeather Guardian|QID|60978|QO|1|M|50.82,58.28|Z|Bastion!The Shadowlands|RARE|ITEM|180812|N|Kill Anima Starved Wyrm's in the area, until he comes and lands beside you then kill him.|ACH|14307;7|
 C Disturbing the Peace|QID|57538|M|49.86,58.84|Z|Bastion!The Shadowlands|N|Kill the Anima-Starved creatures in the area.|US|
 T Disturbing the Peace|QID|57538|M|51.33,59.56|Z|Bastion!The Shadowlands|N|To Zosime.|
 T Distractions for Kala|QID|57545|M|51.33,59.56|Z|Bastion!The Shadowlands|N|To Zosime.|
@@ -454,7 +479,7 @@ H Hero's Rest|ACTIVE|60056^62723^60729|U|6948|M|PLAYER|N|Hearth back to Hero's R
 R West Anima Gateway|ACTIVE|60315|M|46.88,48.98|Z|Bastion!The Shadowlands|TZ|Firstborne's Bounty|N|Leave Hero's Rest via the Anima Gateway to the west.|RANK|2|
 C WANTED: Gorgebeak|QID|60315|M|49.16,46.56|Z|Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Run down in the valley to find and kill Gorgebeak.|
 T WANTED: Gorgebeak|QID|60315|M|51.00,41.66|Z|Bastion!The Shadowlands|ELITE|N|To Gerdus.|
-K Baedos|QID|62192|QO|1|M|51.22,40.62|Z|Bastion!The Shadowlands|ITEM|172232|RARE|N|Bring 4 casks of fermenting carrion fruit (found in the area) and come close to Baedos, This will awaken him, Fight him down to ~25%, then he will give you a treasure.|;formerly could fight down nearby vulpin, larion or cloudfeathers to get a beast you could fight him with, option not currently available
+K Baedos|QID|62192|QO|1|M|51.22,40.62|Z|Bastion!The Shadowlands|ITEM|172232|RARE|N|Bring 4 casks of fermenting carrion fruit (found in the area) and come close to Baedos, This will awaken him, Fight him down to ~25%, then he will give you a treasure.|ACH|14307;18| ;formerly could fight down nearby vulpin, larion or cloudfeathers to get a beast you could fight him with, option not currently available
 R Forgefire Outpost|ACTIVE|59674|PRE|60315|CS|M|53.45,41.28;55.47,39.12|Z|Bastion!The Shadowlands|N|Up the hill and out the other side of the Valley of Firstborne's Bounty.|
 R Forgefire Outpost|ACTIVE|59674|M|55.47,39.12|Z|Bastion!The Shadowlands|N|Leave Hero's Rest via the northern Anima Gateway and then run up the hill to Forgefire Outpost.|
 T A Friendly Rivalry|QID|59674|M|54.81,41.19|Z|Bastion!The Shadowlands|N|To Pelodis.|
