@@ -89,7 +89,7 @@ N Nagrand Cherry and Stuff|QID|9804|N|Keep the Nagrand Cherry unless you can cas
 C Agitated Spirits of Skysong|M|57.93,28.63|N|Kill Lake Spirits in the lake until you finish this quest.|QID|9804|U|24421|
 T Agitated Spirits of Skysong|QID|9804|M|60.5,22.4|N|To Elementalist Lo'ap.|
 A Blessing of Incineratus|QID|9805|M|60.5,22.4|N|From Elementalist Lo'ap.|PRE|9804|
-A Missing Mag'hari Procession|QID|9944|M|56.7,34.2|N|From Matron Drakia.|
+A Missing Mag'hari Procession|QID|9944|LEAD|9945|M|56.7,34.2|N|From Matron Drakia.|
 A Proving Your Strength|QID|10479|M|55.79,37.95|N|From Warden Bullrok|
 T Talbuk Mastery|QID|9858|M|71.6,40.5|N|To Harold Lane.|
 A Talbuk Mastery|QID|9859|M|71.6,40.5|N|From Harold Lane.|PRE|9858|
@@ -121,7 +121,7 @@ C Muck Diving|QID|9815|M|41.00,38.00|N|Kill Muck mobs until you get the items fo
 T The Missing War Party|QID|9864|M|32.44,36.05|N|Head out of the exit in the northwestern side of the basin and go west to the Mag'hari Procession. To Saurfang the Younger.|
 A Once Were Warriors|QID|9865|M|32.5,36.0|N|From Saurfang the Younger.|PRE|9864|
 T Missing Mag'hari Procession|QID|9944|M|32.5,36.0|N|To Elder Yorley.|
-A War on the Warmaul|QID|9945|M|32.5,36.0|N|From Elder Yorley.|PRE|9944|
+A War on the Warmaul|QID|9945|M|32.5,36.0|N|From Elder Yorley.|
 A Finding the Survivors|QID|9948|M|32.5,36.0|N|From Elder Ungriz.|
 N From now on...|N|From now on, kill Aged Clefthoofs and Greater Windrocs for the quest "Vision of the Dead"|ACTIVE|10252|
 C Talbuk Mastery|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof.|T|Bach'lor|S|
