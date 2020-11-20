@@ -72,7 +72,7 @@ C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|3|CHAT|N|Speak t
 T The Lion's Cage|QID|59759|M|25.09,13.48|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A The Afflictor's Key|QID|59760|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59759|LVL|50|
 A An Undeserved Fate|QID|59761|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59759|LVL|50|
-C An Undeserved Fate|QID|59761|M|25.77,17.34|Z|The Maw!Instance|S|N|Back over the teleport pad and down below to collect Mawsworn Keys from Mawsworn forces in the Tremaculum and use them to free Shackled Souls.|
+C An Undeserved Fate|QID|59761|M|25.77,17.34|Z|The Maw!Instance|S|N|Go back to the teleport pad and use it to go down below to collect the Mawsworn Keys from Mawsworn forces in the Tremaculum. Use the keys to free Shackled Souls from the Mawsteel Cages.|
 C The Afflictor's Key|QID|59760|CS|M|28.18,18.89;27.52,14.50;28.02,11.06|Z|The Maw!Instance|QO|1|N|Up the broad spiral ramp to find and kill the Afflictor to get the Key.|T|Phael the Afflictor|
 C An Undeserved Fate|QID|59761|M|PLAYER|Z|The Maw!Instance|US|N|Finish collecting Mawsworn Keys and freeing the Shackled Souls.|
 C The Afflictor's Key|QID|59760|CS|M|27.54,17.31;25.09,13.48|Z|The Maw!Instance|NC|QO|2|N|Open Anduin's Locks.|
