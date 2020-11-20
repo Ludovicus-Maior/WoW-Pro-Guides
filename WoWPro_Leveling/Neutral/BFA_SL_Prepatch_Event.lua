@@ -27,7 +27,7 @@ A The Banshee's Champion|QID|61488|M|53.02,77.00|Z|Orgrimmar|ELITE|N|[color=ff80
 ; R Pathfinder's Den|ACTIVE|60727|M|53.57,90.43|Z|Orgrimmar|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise run or fly to the Pathfinder's Den.|FACTION|Horde|U|46874|IZ|Orgrimmar|C|-Mage|
 ; P Dalaran|ACTIVE|60727|M|56.21,91.76|Z|Orgrimmar|N|Run in to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Horde|IZ|Orgrimmar|C|-Mage|
 ; P Dalaran|ACTIVE|60727|M|PLAYER|Z|Orgrimmar|U|46874|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise, Teleport to Dalaran - Northrend|FACTION|Horde|C|Mage|
-P Icecrown|ACTIVE|60727|M|50.64,75.71|Z|Orgirmmar|N|Take the portal here, directly to Icecrown.|FACTION|Horde|
+P Icecrown|ACTIVE|60727|M|50.64,75.71|Z|Orgrimmar|N|Take the portal here, directly to Icecrown.|FACTION|Horde|
 
 A An Urgent Request|QID|60113|M|39.44,64.15|Z|Stormwind City|N|AutoAccepted.|FACTION|Alliance|
 T An Urgent Request|QID|60113|M|39.44,64.15|Z|Stormwind City|N|To Genn Greymane.|FACTION|Alliance|
