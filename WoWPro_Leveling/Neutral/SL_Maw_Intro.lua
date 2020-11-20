@@ -79,7 +79,7 @@ C The Afflictor's Key|QID|59760|CS|M|27.54,17.31;25.09,13.48|Z|The Maw!Instance|
 T The Afflictor's Key|QID|59760|M|25.08,13.49|Z|The Maw!Instance|N|To Anduin Wrynn.|
 T An Undeserved Fate|QID|59761|M|25.35,13.93|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A From the Mouths of Madness|QID|59776|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin.|PRE|59760&59761|LVL|50|
-C From the Mouths of Madness|QID|59776|M|25.35,13.93|Z|The Maw!Instance|QO|1|NC|N|Wait for Jaina to make a portal then step thru to Forlorn Respite.|
+C From the Mouths of Madness|QID|59776|M|25.35,13.93|Z|The Maw!Instance|QO|1|NC|N|Wait for Jaina to make a portal then click on it to portal to Forlorn Respite.|
 C From the Mouths of Madness|QID|59776|M|24.31,37.18|Z|The Maw!Instance|QO|2|CHAT|N|Ask Darion to make it talk.|
 T From the Mouths of Madness|QID|59776|M|24.31,37.18|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
 A By and Down the River|QID|59762|M|24.28,37.04|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59776|LVL|50|
@@ -97,7 +97,7 @@ A Draw Out the Darkness|QID|60644|M|PLAYER|Z|The Maw!Instance|N|From Thrall.|PRE
 C Draw Out the Darkness|QID|60644|M|29.56,43.86|Z|The Maw!Instance|N|Draw out and defeat the Withering Presence.|
 T Draw Out the Darkness|QID|60644|M|29.46,43.88|Z|The Maw!Instance|N|To Baine Bloodhoof.|
 A The Path to Salvation|QID|59767|M|29.47,44.02|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|60644|LVL|50|
-C The Path to Salvation|QID|59767|M|31.83,44.40|Z|The Maw!Instance|QO|1|CHAT|N|Speak to Jaina.|
+C The Path to Salvation|QID|59767|M|31.83,44.40|Z|The Maw!Instance|QO|1|CHAT|N|Speak to Jaina when they stop moving.|
 C The Path to Salvation|QID|59767|M|42.67,42.18|Z|The Maw!Instance|QO|2|NC|N|Stay close to Jaina and avoid the Jailer's forces, especially the ones who see thru her stealth.|
 C The Path to Salvation|QID|59767|M|42.16,42.14|Z|The Maw!Instance|QO|3|NC|N|Reach the Eroded Waygate.|
 T The Path to Salvation|QID|59767|M|42.47,42.18|Z|The Maw!Instance|N|To Anduin Wrynn.|
