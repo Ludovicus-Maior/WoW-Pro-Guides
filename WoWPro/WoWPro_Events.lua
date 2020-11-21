@@ -791,9 +791,15 @@ end)
 
 -- Merchant?
 WoWPro.RegisterEventHandler("MERCHANT_SHOW" , function(event, ...)
-    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-    if _G.CanMerchantRepair() and WoWPro.action[qidx] == "r" then
-        WoWPro.CompleteStep(qidx,"Talked to Repairing Merchant")
+    for index=1,15 do
+        if WoWPro.rows[index]:IsVisible() then
+            local qidx = WoWPro.rows[index].index
+            if _G.CanMerchantRepair() and WoWPro.action[qidx] == "r" then
+                WoWPro.CompleteStep(qidx,"Talked to Repairing Merchant, index="..tostring(index))
+            end
+        else
+            break
+        end
     end
 end)
 
