@@ -23,21 +23,21 @@ r Repair and restock|AVAILABLE|37439|N|Jainthess Thelryn is next to Arcanist Hel
 C A Fistful of Slivers|QID|37440|M|48.18,39.43|QO|1|N|Slay Mana Wyrms and loot them for the Arcane Slivers.|S|R|BloodElf|
 C Thirst Unending|QID|37439|M|54.14,39.28|QO|1|N|Use Arcane Torrent on a Mana Wyrm and then slay it. Must be within 8 yds for Arcane Torrent to be used.|R|BloodElf|
 C A Fistful of Slivers|QID|37440|M|48.18,39.43|QO|1|N|Slay Mana Wyrms and loot them for the Arcane Slivers.|US|R|BloodElf|
-C The Shrine of Dath'Remar|QID|37442|M|35.31,40.27|QO|1|N|Click on the glowing part of the shrine.|R|BloodElf|
-C Solanian's Belongings|QID|37443|M|40.42,50.27|QO|2|R|BloodElf|
+C The Shrine of Dath'Remar|QID|37442|M|35.31,40.27|QO|1|NC|N|Click on the glowing part of the shrine.|R|BloodElf|
+C Solanian's Belongings|QID|37443|NC|M|40.42,50.27|QO|2|R|BloodElf|
 T Report to Lanthan Perilon|QID|8327|M|52.75,49.81|N|To Lanthan Perilon.|R|BloodElf|
 A Aggression|QID|8334|PRE|8326|M|52.75,49.81|N|From Lanthan Perilon.|R|BloodElf|
 C Aggression|QID|8334|M|51.07,70.48|S|R|BloodElf|
-C Solanian's Belongings|QID|37443|M|52.15,69.59|QO|1|R|BloodElf|
+C Solanian's Belongings|QID|37443|M|52.15,69.59|NC|QO|1|R|BloodElf|
 C Aggression|QID|8334|M|51.07,70.48|US|R|BloodElf|
-C Solanian's Belongings|QID|37443|M|59.88,57.05|QO|3|R|BloodElf|
+C Solanian's Belongings|QID|37443|M|59.88,57.05|NC|QO|3|R|BloodElf|
 T The Shrine of Dath'Remar|QID|37442|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
 T Solanian's Belongings|QID|37443|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
 T A Fistful of Slivers|QID|37440|M|61.65,39.43|N|To Arcanist Ithanas.|R|BloodElf|
 r Repair and restock|ACTIVE|37439|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|S|R|BloodElf|
 T Thirst Unending|QID|37439|M|58.54,38.90|N|To Arcanist Helion.|R|BloodElf|
 r Repair and restock|ACTIVE|37439|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|US|R|BloodElf|
-T Aggression|QID|8334|PRE|8326|M|52.75,49.81|N|To Lanthan Perilon.|R|BloodElf|
+T Aggression|QID|8334|PRE|8326|M|52.89,49.70|N|To Lanthan Perilon.|R|BloodElf|
 A Felendren the Banished|QID|8335|PRE|8334|M|52.95,49.59|N|From Lanthan Perilon.|R|BloodElf|
 A Tainted Arcane Sliver|QID|8338|M|41.81,71.03|N|From Tainted Arcane Wraith.Go up the ramp and kill the Tainted Arcane Wraith to receive this quest. Kill Arcane Wraiths as you progress.|R|BloodElf|
 C Felendren the Banished|QID|8335|M|38.27,73.41|N|Slay Arcane and Tainted Arcane Wraiths as you head up the ramps to slay Felendren.|S|R|BloodElf|
@@ -82,7 +82,7 @@ A Incriminating Documents|QID|8482|U|20765|N|Quest starts from the Incriminating
 C Arcane Instability|QID|8486|N|Finish killing the Manawraith and Mana Stalker located around the West Sanctum.|Z|Eversong Woods|M|36,58|US|
 T Darnassian Intrusions|QID|9352|N|To Ley-Keeper Velania.|Z|Eversong Woods|M|36.7,57.4|
 T Arcane Instability |QID|8486|N|To Ley-Keeper Velania.|Z|Eversong Woods|M|36.7,57.4|
-A Fish Heads, Fish Heads...|QID|8884|N|From Hathvelion Sungaze. Go around the northside of the mountain.|Z|Eversong Woods|M|31.49,53.78;29.89,58.52|CC|
+A Fish Heads, Fish Heads...|QID|8884|N|From Hathvelion Sungaze. Go around the northside of the mountain.|Z|Eversong Woods|M|31.49,53.78;30.20,58.37|CC|
 C Fish Heads, Fish Heads...|QID|8884|N|Kill murlocs for the 8 fish heads. |Z|Eversong Woods|M|27,59.5|
 l Captain Kelisendra's Lost Rutters|QID|8887|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters.|Z|Eversong Woods|M|27,59.5|
 A Captain Kelisendra's Lost Rutters|QID|8887|U|21776|N|From Captain Kelisendra's Lost Rutters.|

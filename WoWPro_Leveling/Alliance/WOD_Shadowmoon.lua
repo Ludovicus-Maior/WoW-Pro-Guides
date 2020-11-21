@@ -497,7 +497,7 @@ T Gloomshade Game Hunter|QID|33461|M|37.92,63.49|Z|Lunarfall|N|To Arsenio Zerep 
 J Garrison Buldings|GUIDE|LudoBuildingsAlliance|N|Check in to see if there are any building quests to do.|
 A Meet Us at Starfall Outpost|QID|33359|LEAD|33113|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|
 ; Having this quest and the [Ashran Appearance] quest causes the Ashran one not to complete.
-A The Secrets of Gorgrond|QID|33533^35556^36632|N|Moving onto Gorgrond next? Accept this quest from your Bulletin Board.|LEAD|35033|M|42.65,44.74|Z|Lunarfall|
+A The Secrets of Gorgrond|QID|33533^35556^36632|N|Moving onto Gorgrond next? Accept this quest from Bodrick Grey.|LEAD|35033|M|42.65,44.74|Z|Lunarfall|
 D Zone Finished|QID|33533^35556^36632|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto the Gorgrond guide.|
 ]]
 end)
