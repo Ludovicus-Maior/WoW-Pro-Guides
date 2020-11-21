@@ -1,7 +1,6 @@
 local guide = WoWPro:RegisterGuide('EmmLegionPriest', 'Leveling', 'NetherlightTemple/1', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 3)
-WoWPro:GuideContent(guide, "Legion")
 WoWPro:GuideName(guide, 'Priest: Order Hall')
 WoWPro:GuideNickname(guide, "Priest: Order Hall")
 WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
@@ -226,9 +225,9 @@ A Champion: Alonsus Faol|QID|43398|M|51.58,47.77|N|From/To Alonsus Faol.|PRE|434
 A A Hero's Weapon|QID|43420|M|48.50,20.22|N|From Alonsus Faol. I had to leave the instance (and of course return) for the quest to appear.|PRE|43401|
 C A Hero's Weapon|QID|43420|M|49.74,18.77|N|Stand in the circle of light and use the extra action button.|
 T A Hero's Weapon|QID|43420|M|48.50,20.22|N|To Alonsus Faol.|
-;fresh lvl 110 quests
-A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|
-A Goddess Watch Over You|QID|44337|M|49.74,58.86|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110.|
+;fresh lvl 45 quests
+A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 45.|
+A Goddess Watch Over You|QID|44337|M|49.74,58.86|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 45.|
 A Power Word: Armor|QID|44251|M|38.70,23.93|N|From Meridelle Lightspark. Your class hall has a gift for you.|
 T Power Word: Armor|QID|44251|M|38.70,23.93|N|To Meridelle Lightspark.|
 C Goddess Watch Over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
@@ -246,7 +245,7 @@ C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran!Dalaran!Dungeon|N|Click on the
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
 A Trail of Echoes|QID|39987|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|39986|
 N On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|ACTIVE|39987|
-;lights heart - post 110
+;lights heart - post 45
 A Awakenings|QID|44464|M|49.64,26.41|N|From Light's Heart|PRE|44448|
 P Dalaran|QID|44464|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|44464|
 R Krasus' Landing|QID|44464|M|60.36,44.53|Z|Dalaran!Dalaran!Dungeon|N|Run out and up to Krasus' Landing|ACTIVE|44464|
