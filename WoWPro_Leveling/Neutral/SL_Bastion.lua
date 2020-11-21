@@ -109,12 +109,12 @@ T Trouble in Paradise|QID|60735|M|42.26,78.31|Z|Bastion!The Shadowlands|N|To Kal
 A Walk the Path, Aspirant|QID|57261|M|42.26,78.31|Z|Bastion!The Shadowlands|N|From Kalisthene.|PRE|60735|MS|
 C Walk the Path, Aspirant|QID|57261|M|46.05,79.31|QO|1|Z|Bastion!The Shadowlands|NC|N|Take the road east then the north fork(left) out of the Vestibule and Kleia will travel with you.|MS|
 C Walk the Path, Aspirant|QID|57261|M|46.31,79.00|QO|2|Z|Bastion!The Shadowlands|NC|N|Stand in blue circle and click the "[color=40C7EB]Kleia's Perspective[/color]" Action Ability.|EAB|MS|
-C Walk the Path, Aspirant|QID|57261|M|49.09,74.31|QO|3|Z|Bastion!The Shadowlands|NC|N|Travel to Aspirant's Rest.|MS|
+C Walk the Path, Aspirant|QID|57261|M|48.52,73.21|QO|3|Z|Bastion!The Shadowlands|NC|N|Travel to Aspirant's Rest.|MS|
 T Walk the Path, Aspirant|QID|57261|M|48.23,72.65|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A A Soulbind In Need|QID|57677|M|48.23,72.65|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57261|MS|
 A The Things That Haunt Us|QID|57676|M|48.23,72.65|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57261|MS|
 C The Things That Haunt Us|QID|57676|M|23.92,58.62|Z|1690|N|Slay the Bitter and Clinging Memories.|S|MS|
-C A Soulbind In Need|QID|57677|M|23.92,58.62|Z|1690|N|Enter cave and rescue Pelagos from the Excruciating Memory.|MS|
+C A Soulbind In Need|QID|57677|M|23.92,58.62|Z|1690|N|Enter Aspirant's Quarters and rescue Pelagos from the Excruciating Memory.|MS|
 C The Things That Haunt Us|QID|57676|M|23.92,58.62|Z|1690|N|Slay the Bitter and Clinging Memories.|US|MS|
 T A Soulbind In Need|QID|57677|M|48.23,72.65|Z|Bastion!The Shadowlands|N|To Pelagos.|MS|
 T The Things That Haunt Us|QID|57676|M|48.17,72.53|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
@@ -133,11 +133,11 @@ C The Old Ways|QID|60466|M|50.66,72.56|QO|3|Z|Bastion!The Shadowlands|N|Kill Lar
 C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion!The Shadowlands|N|Kill Cloudstrider Grazers for the pelt.|US|
 T The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion!The Shadowlands|N|To Klystere.|
 A A Gift for An Acolyte|QID|62714|M|47.92,73.45|Z|Bastion!The Shadowlands|N|From Klystere.|PRE|60466|RANK|2|
-C The Aspirant's Crucible|QID|57709|M|48.08,74.03|Z|Bastion!The Shadowlands|V|N|Click on Theonara the gryphon for a ride. This is not optional.|MS|
+C The Aspirant's Crucible|QID|57709|M|47.96,74.09|Z|Bastion!The Shadowlands|V|N|Click on Theonara the gryphon for a ride. This is not optional.|MS|
 T The Aspirant's Crucible|QID|57709|M|56.10,81.75|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A A Life of Service|QID|57710|M|56.10,81.75|Z|Bastion!The Shadowlands|N|From Forgelite Sophone|PRE|57709|MS|
 C A Life of Service|QID|57710|M|57.00,81.29|QO|1|Z|Bastion!The Shadowlands|NC|N|Click on the Eternal Flame, (big bowl of glowing blue fire) in front of you.|MS|
-C A Life of Service|QID|57710|M|57.00,81.29|QO|2|Z|Bastion!The Shadowlands|N|Witness memories by killing the groups of mobs, click the flame to trigger a new memory.|MS|
+C A Life of Service|QID|57710|M|57.00,81.29|QO|2|Z|Bastion!The Shadowlands|N|Relive each act of service by killing all of the mobs that appear. Click the flame to trigger the next memory (act of service).|MS|
 T A Life of Service|QID|57710|M|56.44,81.57|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A A Forge Gone Cold|QID|57711|M|56.44,81.57|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57710|MS|
 K Sigilback|QID|60570|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179486|ACH|14307;2|
