@@ -17,7 +17,7 @@ A Hold the Line! |QID|24469|M|67.18,41.41|N|From Joren Ironstock.|
 C Hold the Line! |QID|24469|M|60.82,50.85|N|Slay 6 Rockjaw Invaders.|
 T Hold the Line! |QID|24469|M|67.18,41.41|N|To Joren Ironstock.|
 A Give 'em What-For |PRE|24469|QID|24470|M|67.18,41.41|N|From Joren Ironstock.|
-A Aid for the Wounded |PRE|24469|QID|24471|M|65.61,43.39|N|From Sten Stoutarm.|
+A Aid for the Wounded |PRE|24469|QID|24471|M|65.49,42.77|N|From Sten Stoutarm, who is pacing by the log.|
 C Give 'em What-For |QID|24470|M|62.82,52.70|N|Kill 3 Rockjaw Goons.|S|
 C Aid for the Wounded |QID|24471|M|62.82,52.70|N|Use Sten's First Aid Kit to heal the Wounded Coldridge Mountaineers.|U|49743|NC|
 C Give 'em What-For |QID|24470|M|62.82,52.70|N|Kill 3 Rockjaw Goons.|US|
@@ -26,7 +26,7 @@ T Give 'em What-For |QID|24470|M|67.18,41.41|N|To Joren Ironstock.|
 A Lockdown in Anvilmar |PRE|24470&24471|QID|24473|M|67.00,41.35|N|From Joren Ironstock.|
 T Lockdown in Anvilmar |QID|24473|M|62.45,22.05|N|To Jona Ironstock, walking around the room.|
 A First Things First: We're Gonna Need Some Beer|PRE|24473|QID|24474|N|From Jona Ironstock.|M|62.45,22.05|
-A Dwarven Artifacts |PRE|24473|QID|24477|M|61.75,22.17|N|From Grundel Harkin.|
+A Dwarven Artifacts |PRE|24473|QID|24477|M|61.69,22.07|N|From Grundel Harkin.|
 C Dwarven Artifacts |S|QID|24477|N|Scattered on the ground, they look like glowing broken tablets.|NC|
 C Cask of Gnomenbrau|QID|24474|L|49746|M|68.19,27.95|N|Pick up the Keg of Gnomenbrau, just to the east of Anvilmar.|QO|3|NC|
 C Cask of Stormhammer Stout|QID|24474|L|49744|M|56.90,28.13|N|Pick up the Keg of Stormhammer Stout, to the west of Anvilmar.|QO|1|NC|
@@ -46,7 +46,7 @@ T All the Other Stuff |QID|24475|M|62.45,22.05|N|To Jona Ironstock.|
 A Whitebeard Needs Ye |PRE|24475&24486|QID|24487|N|From Jona Ironstock.|M|62.45,22.05|
 T Whitebeard Needs Ye |QID|24487|M|42.74,62.22|N|To Grelin Whitebeard.|
 A The Troll Menace |PRE|24487|QID|182|N|From Grelin Whitebeard.|M|42.74,62.22|RANK|2|
-A A Refugee's Quandary |PRE|24487|QID|3361|M|42.04,63.34|N|From Felix Whindlebolt.|RANK|2|
+A A Refugee's Quandary |PRE|24487|QID|3361|M|41.89,63.44|N|From Felix Whindlebolt, who paces around.|RANK|2|
 A Trolling for Information |PRE|24487|QID|24489|M|43.24,63.12|N|From Apprentice Soren.|
 C The Troll Menace |S|QID|182|N|Kill Frostmane Troll Whelps around the camps. This quest is not necessary for zone completion if you want to drop it. |
 C Felix's Box|QID|3361|M|21.30,64.00|L|10438|N|Pick up Felix's Box.|QO|1|NC|
@@ -57,13 +57,13 @@ C Felix's Bucket of Bolts|QID|3361|M|49.06,80.31|L|16314|N|Pick up Felix's Bucke
 C Trolling for Information - Shi'kala |QID|24489|M|49.25,81.28|N|Stand next to Soothsayer Shi'kala, then listen to the dialogue.|QO|1|NC|
 C The Troll Menace |US|QID|182|M|33.31,77.83|N|Finish killing the Frostmane Troll Whelps. The Trolls inside the cave do not count.|
 T Trolling for Information |QID|24489|M|43.24,63.12|N|To Apprentice Soren.|
+T A Refugee's Quandary |QID|3361|M|42.04,63.34|N|To Felix Whindlebolt.|
 T The Troll Menace |QID|182|M|42.74,62.22|N|To Grelin Whitebeard.|
 A Ice and Fire |PRE|24489|QID|218|M|42.74,62.22|N|From Grelin Whitebeard.|
-T A Refugee's Quandary |QID|3361|M|42.04,63.34|N|To Felix Whindlebolt.|
-C Ice and Fire |S|QID|218|M|51.17,82.44;37.17,78.31|N|Enter the cave, keeping to the left as you go throught it, killing Frostmane Novices and Blades as you go.|CC|
+C Ice and Fire |S|QID|218|QO|3;4|M|51.17,82.44;37.17,78.31|N|Enter the cave, keeping to the left as you go throught it, killing Frostmane Novices and Blades as you go.|CC|
 K Wayward Fire Elemental |QID|218|M|12.61,36.80;34.15,35.67;66.63,29.93|Z|Frostmane Hovel|CS|T|Wayward Fire Elemental|QO|2|N|Kill the Wayward Fire Elemental|ACTIVE|218|
 K Grik'nir the Cold |QID|218|M|76.24,32.00|Z|Frostmane Hovel|T|Grik'nir the Cold|QO|1|N|Kill Grik'nir the Cold.|ACTIVE|218|
-C Ice and Fire |US|QID|218|M|33.31,77.83|N|Finish killing the Frostmane Novice and Blades in the cavern, then make your way out of the cave.|
+C Ice and Fire |US|QID|218|QO|3;4|M|33.31,77.83|N|Finish killing the Frostmane Novice and Blades in the cavern, then make your way out of the cave.|
 T Ice and Fire |QID|218|M|42.74,62.22|N|To Grelin Whitebeard.|
 A A Trip to Ironforge |PRE|218|QID|24490|N|From Grelin Whitebeard.|M|42.74,62.22|
 T A Trip to Ironforge |QID|24490|M|87.50,44.39|N|To Hands Springsprocket at the top of the hill.|
