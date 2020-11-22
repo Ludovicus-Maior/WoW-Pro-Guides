@@ -307,7 +307,7 @@ $ Haily's Lunch Pail|QID|60730|M|30.8,28.76|Z|Maldraxxus|N|Some treasure for you
 C A Burden Worth Bearing|QID|57986|M|32.78,28.13|Z|Maldraxxus|QO|1|N|Click the Gurney to get Kyrian Equipment.|MS|
 C A Burden Worth Bearing|QID|57986|M|28.67,28.21|Z|Maldraxxus|QO|2|N|Click on the Lost Kyrian's around the area.|MS|
 C A Burden Worth Bearing|QID|57986|M|30.17,23.84|Z|Maldraxxus|QO|3|N|Bring Kou and Koa to Thales.|MS|
-C Give Them a Hand|QID|57985|M|30.08,27.80|Z|Maldraxxus|U|180120|N|Click on the Vestigial Animate to uproot and kill them.|US|MS|; 
+C Give Them a Hand|QID|57985|M|30.08,27.80|Z|Maldraxxus|U|180120|N|Click on the Vestigial Animate to uproot and kill them.|US|MS|
 C A Deadly Distraction|QID|57987|M|31.04,25.95|Z|Maldraxxus|N|Kill Warstitched forces.|US|MS|
 R The Stitchyard|QID|57245|M|25.75,40.61|Z|Maldraxxus|N|We are leaving the area briefly for 3 quests, if you aren't finished, don't worry, we will be back.|RANK|2|LVL|60|;moving this to lvl 60, because run thru 11/21 showed these mobs not scaling. quest available at 54. but VERY difficult. leaving in, because that may change again.
 A Ani-Matter Animator|QID|57245|M|26.29,42.67|Z|Maldraxxus|N|From Snyder Sixfold.|RANK|2|LVL|60|
