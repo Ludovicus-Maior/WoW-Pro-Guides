@@ -76,7 +76,7 @@ T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|TOF|
 N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|TOF|
 N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|TOF|
-N World Quests|QID|62723|N|WQs are available since you have chosen the Threads of Fate option. They are however not included in the guide and there is no way to predict which one is available on any given day. So, I recomend you do them, but you are on your own as to how and where.|TOF|
+N World Quests|QID|62723|N|WQs are available since you have chosen the Threads of Fate option. They are however not included in the guide and there is no way to predict which one is available on any given day. So, I recommend you do them, but you are on your own as to how and where.|TOF|
 N Use of Ranks|QID|62723|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives. Rank 1, basically leaves you explore on your own when you accept a quest it will jump to there and give you directions on completion and turn in.|TOF|
 N Rank 1|ACTIVE|62723|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|TOF|
 A Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion!The Shadowlands|N|From Sika.|TOF|COV|Kyrian|
@@ -95,29 +95,29 @@ T Welcome to Eternity|QID|59774|M|42.09,78.30|Z|Bastion!The Shadowlands|N|To Kle
 A Pardon Our Dust|QID|57102|M|42.06,78.22|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|59774|MS|
 C Pardon Our Dust|QID|57102|M|42.50,78.41|QO|1|Z|Bastion!The Shadowlands|NC|N|Pick up the Anima Canister.|MS|
 C Pardon Our Dust|QID|57102|CS|M|42.67,78.04;42.74,78.51;42.51,78.84|Z|Bastion!The Shadowlands|QO|2|NC|N|Recover the Anima by clicking on centurions on the platform with you (the giant at the center back of the platform is a centurion too).|MS|
-T Pardon Our Dust|QID|57102|M|42.16,78.27|Z|Bastion!The Shadowlands|N|To Greeter Mnemis.|MS|
-A A Fate Most Noble|QID|57584|M|42.16,78.27|Z|Bastion!The Shadowlands|N|From Greeter Mnemis.|PRE|57102|MS|
-C A Fate Most Noble|QID|57584|M|42.16,78.27|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Speak to Greeter Mnemis and go through his series of conversation.|MS|
+T Pardon Our Dust|QID|57102|M|42.13,78.25|Z|Bastion!The Shadowlands|N|To Greeter Mnemis.|MS|
+A A Fate Most Noble|QID|57584|M|42.13,78.25|Z|Bastion!The Shadowlands|N|From Greeter Mnemis.|PRE|57102|MS|
+C A Fate Most Noble|QID|57584|M|42.13,78.25|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Speak to Greeter Mnemis and go through his series of conversation.\n[color=FF0000]NOTE: [/color]Choose the top chat option each time.|MS|
 C A Fate Most Noble|QID|57584|M|43.39,77.02|QO|3|Z|Bastion!The Shadowlands|NC|N|Step into the pool and click the "[color=40C7EB]Ritual Cleansing[/color]" Action Ability.|EAB|MS|
 C A Fate Most Noble|QID|57584|M|41.87,76.50|QO|2|Z|Bastion!The Shadowlands|NC|N|Click on a bench to take a seat.|MS|
 C A Fate Most Noble|QID|57584|M|41.30,79.61|QO|5|Z|Bastion!The Shadowlands|NC|N|Click the giant bell.|MS|
 C A Fate Most Noble|QID|57584|M|42.49,80.26|QO|4|Z|Bastion!The Shadowlands|NC|N|Click on one of the floating scrolls.|MS|
-T A Fate Most Noble|QID|57584|M|42.06,78.22|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
-A Trouble in Paradise|QID|60735|M|42.05,78.30|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57584|MS|
-C Trouble in Paradise|QID|60735|M|42.09,78.31|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia and let her handle the situation.|MS|
-T Trouble in Paradise|QID|60735|M|42.26,78.31|Z|Bastion!The Shadowlands|N|To Kalisthene.|MS|
-A Walk the Path, Aspirant|QID|57261|M|42.26,78.31|Z|Bastion!The Shadowlands|N|From Kalisthene.|PRE|60735|MS|
+T A Fate Most Noble|QID|57584|M|42.09,78.30|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
+A Trouble in Paradise|QID|60735|M|42.09,78.30|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57584|MS|
+C Trouble in Paradise|QID|60735|M|42.10,78.31|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia and let her handle the situation.|MS|
+T Trouble in Paradise|QID|60735|M|42.34,78.34|Z|Bastion!The Shadowlands|N|To Kalisthene.|MS|
+A Walk the Path, Aspirant|QID|57261|M|42.34,78.34|Z|Bastion!The Shadowlands|N|From Kalisthene.|PRE|60735|MS|
 C Walk the Path, Aspirant|QID|57261|M|46.05,79.31|QO|1|Z|Bastion!The Shadowlands|NC|N|Take the road east then the north fork(left) out of the Vestibule and Kleia will travel with you.|MS|
 C Walk the Path, Aspirant|QID|57261|M|46.31,79.00|QO|2|Z|Bastion!The Shadowlands|NC|N|Stand in blue circle and click the "[color=40C7EB]Kleia's Perspective[/color]" Action Ability.|EAB|MS|
-C Walk the Path, Aspirant|QID|57261|M|49.09,74.31|QO|3|Z|Bastion!The Shadowlands|NC|N|Travel to Aspirant's Rest.|MS|
-T Walk the Path, Aspirant|QID|57261|M|48.23,72.65|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
-A A Soulbind In Need|QID|57677|M|48.23,72.65|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57261|MS|
-A The Things That Haunt Us|QID|57676|M|48.23,72.65|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57261|MS|
+C Walk the Path, Aspirant|QID|57261|M|48.52,73.21|QO|3|Z|Bastion!The Shadowlands|NC|N|Travel to Aspirant's Rest.|MS|
+T Walk the Path, Aspirant|QID|57261|M|48.20,72.60|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
+A A Soulbind In Need|QID|57677|M|42.34,78.34|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57261|MS|
+A The Things That Haunt Us|QID|57676|M|42.34,78.34|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57261|MS|
 C The Things That Haunt Us|QID|57676|M|23.92,58.62|Z|1690|N|Slay the Bitter and Clinging Memories.|S|MS|
-C A Soulbind In Need|QID|57677|M|23.92,58.62|Z|1690|N|Enter cave and rescue Pelagos from the Excruciating Memory.|MS|
+C A Soulbind In Need|QID|57677|M|23.92,58.62|Z|1690|N|Enter Aspirant's Quarters and rescue Pelagos from the Excruciating Memory.|MS|
 C The Things That Haunt Us|QID|57676|M|23.92,58.62|Z|1690|N|Slay the Bitter and Clinging Memories.|US|MS|
-T A Soulbind In Need|QID|57677|M|48.23,72.65|Z|Bastion!The Shadowlands|N|To Pelagos.|MS|
-T The Things That Haunt Us|QID|57676|M|48.17,72.53|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
+T A Soulbind In Need|QID|57677|M|48.16,72.53|Z|Bastion!The Shadowlands|N|To Pelagos.|MS|
+T The Things That Haunt Us|QID|57676|M|48.20,72.60|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 
 ; The Aspirant's Crucible Storyline
 A Aspirant For a Day|QID|62737|M|52.13,77.57|Z|Bastion!The Shadowlands|N|Bonus Objective, autoaccepted as you come into Aspirant's Crucible.|TOF|RANK|2|
@@ -133,11 +133,11 @@ C The Old Ways|QID|60466|M|50.66,72.56|QO|3|Z|Bastion!The Shadowlands|N|Kill Lar
 C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion!The Shadowlands|N|Kill Cloudstrider Grazers for the pelt.|US|
 T The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion!The Shadowlands|N|To Klystere.|
 A A Gift for An Acolyte|QID|62714|M|47.92,73.45|Z|Bastion!The Shadowlands|N|From Klystere.|PRE|60466|RANK|2|
-C The Aspirant's Crucible|QID|57709|M|48.08,74.03|Z|Bastion!The Shadowlands|V|N|Click on Theonara the gryphon for a ride. This is not optional.|MS|
+C The Aspirant's Crucible|QID|57709|M|47.96,74.09|Z|Bastion!The Shadowlands|V|N|Click on Theonara the gryphon for a ride. This is not optional.|MS|
 T The Aspirant's Crucible|QID|57709|M|56.10,81.75|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A A Life of Service|QID|57710|M|56.10,81.75|Z|Bastion!The Shadowlands|N|From Forgelite Sophone|PRE|57709|MS|
 C A Life of Service|QID|57710|M|57.00,81.29|QO|1|Z|Bastion!The Shadowlands|NC|N|Click on the Eternal Flame, (big bowl of glowing blue fire) in front of you.|MS|
-C A Life of Service|QID|57710|M|57.00,81.29|QO|2|Z|Bastion!The Shadowlands|N|Witness memories by killing the groups of mobs, click the flame to trigger a new memory.|MS|
+C A Life of Service|QID|57710|M|57.00,81.29|QO|2|Z|Bastion!The Shadowlands|N|Relive each act of service by killing all of the mobs that appear. Click the flame to trigger the next memory (act of service).|MS|
 T A Life of Service|QID|57710|M|56.44,81.57|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A A Forge Gone Cold|QID|57711|M|56.44,81.57|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57710|MS|
 K Sigilback|QID|60570|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179486|ACH|14307;2|
@@ -165,7 +165,7 @@ T The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion!The Shadowlan
 T The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion!The Shadowlands|N|To Sika.|MS|
 T The Cycle of Anima: Drought Conditions|QID|57265|M|52.68,82.78|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A Light the Forge, Forgelite|QID|59920|M|52.68,82.78|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57265&57263&57267|MS|
-C Light the Forge, Forgelite|QID|59920|CS|M|52.63,82.70;52.81,83.46|Z|Bastion!The Shadowlands|QO|1|NC|N|Before you go, click on the Raw Materials and then carry them to the basin.|MS|
+C Light the Forge, Forgelite|QID|59920|CS|M|52.63,82.70;52.81,83.46|Z|Bastion!The Shadowlands|QO|1|NC|N|Before you follow Sophone, click on the Raw Materials on the ground in front of you and carry them to the Basin.|MS|
 C Light the Forge, Forgelite|QID|59920|M|52.78,83.39|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the vents on either side of the forge.|MS|
 C Light the Forge, Forgelite|QID|59920|M|52.78,83.39|QO|3|Z|Bastion!The Shadowlands|NC|N|Click the rubbish piles and broken barrels on the ground.|MS|
 T Light the Forge, Forgelite|QID|59920|M|52.91,83.43|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
@@ -174,35 +174,35 @@ C The Work of One's Hands|QID|57713|M|52.80,83.38|QO|1|Z|Bastion!The Shadowlands
 C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|2|Z|Bastion!The Shadowlands|NC|N|Add fuel to the forge.|MS|
 C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|3|Z|Bastion!The Shadowlands|NC|N|Open a vent.|MS|
 C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|4|Z|Bastion!The Shadowlands|NC|N|Keep bar in middle, if it goes left add coal, if it goes right vent.|MS|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|5|Z|Bastion!The Shadowlands|NC|N|Click on the armor that is resting atop the anvil.|MS|
+C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|5|Z|Bastion!The Shadowlands|NC|N|Click on the armor that is resting atop the anvil and wait for the step to complete.|MS|
 T The Work of One's Hands|QID|57713|M|52.91,83.43|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A The True Crucible Awaits|QID|57908|M|56.44,81.57|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57713|MS|
+T Suggested Reading|QID|57712|M|55.35,83.40|Z|Bastion!The Shadowlands|N|To Aspirant Akimos.|
 C The True Crucible Awaits|QID|57908|M|52.79,82.58|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia and Pelagos in Aspirant's Crucible.|MS|
 T The True Crucible Awaits|QID|57908|M|51.76,81.07|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
-T Suggested Reading|QID|57712|M|55.35,83.40|Z|Bastion!The Shadowlands|N|To Aspirant Akimos.|
 A Assessing Your Strength|QID|57288|M|51.76,81.07|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57908|MS|
-A Assessing Your Stamina|QID|57909|M|51.76,81.07|Z|Bastion!The Shadowlands|N|From Pelagos.|PRE|57908|MS|
-C Assessing Your Stamina|QID|57909|M|51.76,81.07|Z|Bastion!The Shadowlands|N|Talk to the ghosts and challenge them to a duel.|S|MS|
+A Assessing Your Stamina|QID|57909|M|51.74,80.99|Z|Bastion!The Shadowlands|N|From Pelagos.|PRE|57908|MS|
+C Assessing Your Stamina|QID|57909|M|51.76,81.07|Z|Bastion!The Shadowlands|N|Talk to the Sparring Aspirants and challenge them to a duel.|S|MS|
 C Assessing Your Strength|QID|57288|M|50.55,82.12|QO|1|Z|Bastion!The Shadowlands|N|Defeat Archilon.|T|Archilon|MS|
 C Assessing Your Strength|QID|57288|M|50.34,80.52|QO|3|Z|Bastion!The Shadowlands|N|Defeat Straticus.|T|Straticus|MS|
 C Assessing Your Strength|QID|57288|M|50.63,79.10|QO|2|Z|Bastion!The Shadowlands|N|Defeat Epilon.|T|Epilon|MS|
 C Assessing Your Stamina|QID|57909|M|51.76,81.07|Z|Bastion!The Shadowlands|N|Finish up with challenging the ghosts.|US|MS|
 T Assessing Your Stamina|QID|57909|M|51.66,80.86|Z|Bastion!The Shadowlands|N|To Pelagos.|MS|
 T Assessing Your Strength|QID|57288|M|51.63,80.95|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
-A Assessing Your Spirit|QID|57714|M|51.76,81.07|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57909&57288|MS|
-C Assessing Your Spirit|QID|57714|M|51.76,81.07|Z|Bastion!The Shadowlands|N|Fight Athanos and lose.|MS|
-T Assessing Your Spirit|QID|57714|M|51.76,81.07|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
-A The Chamber of First Reflection|QID|57291|M|51.76,81.07|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57714|MS|
+A Assessing Your Spirit|QID|57714|M|51.63,80.95|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57909&57288|MS|
+C Assessing Your Spirit|QID|57714|M|51.63,80.95|Z|Bastion!The Shadowlands|N|Fight Athanos and lose.|MS|
+T Assessing Your Spirit|QID|57714|M|51.63,80.95|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
+A The Chamber of First Reflection|QID|57291|M|51.63,80.95|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57714|MS|
 C The Chamber of First Reflection|QID|57291|CS|M|53.58,84.00;55.95,86.46|Z|Bastion!The Shadowlands|NC|N|Enter the Chamber of First Reflection.|MS|
-T The Chamber of First Reflection|QID|57291|M|57.18,86.58|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
-A The First Cleansing|QID|57266|M|57.18,86.58|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57291|MS|
-C The First Cleansing|QID|57266|M|58.04,85.70|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the box.|MS|
+T The Chamber of First Reflection|QID|57291|M|57.22,86.58|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
+A The First Cleansing|QID|57266|M|57.22,86.58|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57291|MS|
+C The First Cleansing|QID|57266|M|58.10,85.74|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the box.|MS|
 C The First Cleansing|QID|57266|M|57.71,85.47|QO|2|Z|Bastion!The Shadowlands|NC|N|Stand in the water and click the "[color=40C7EB]Bathe[/color]" Action Ability.|EAB|MS|
 C The First Cleansing|QID|57266|M|58.03,85.38|QO|3|Z|Bastion!The Shadowlands|NC|N|Click on the Vespers of Clarity.|MS|
-C The First Cleansing|QID|57266|M|57.17,86.59|QO|4|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia.|MS|
-C The First Cleansing|QID|57266|M|58.81,88.15|QO|5|Z|Bastion!The Shadowlands|N|Stand on platform in front of the mirrors and click them.|MS|
+C The First Cleansing|QID|57266|M|57.22,86.58|QO|4|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia.|MS|
+C The First Cleansing|QID|57266|M|58.81,88.15|QO|5|Z|Bastion!The Shadowlands|N|Stand on one of the platforms in front of the mirrors, click on the mirror and then defeat the Malignant Reflection that spawns. Rinse and repeat with a second one. The third one will complete this step.|MS|
 C The First Cleansing|QID|57266|M|55.95,86.46|QO|6|Z|Bastion!The Shadowlands|N|Fight your Anguished Memory.|MS|
-T The First Cleansing|QID|57266|M|55.67,86.40|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
+T The First Cleansing|QID|57266|M|55.65,86.43|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|55.67,86.40|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57266|MS|
 C The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|53.52,87.06|Z|Bastion!The Shadowlands|CHAT|QO|1|N|Talk to Kalisthene.|MS|
 C The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|53.51,87.12|Z|Bastion!The Shadowlands|NC|QO|2|N|Stand in the blue circle and click the "[color=40C7EB]Kalisthene's Grace[/color]" Action Ability.|EAB|MS|
@@ -219,8 +219,8 @@ T All An Aspirant Can Do|QID|58174|M|48.28,72.86|Z|Bastion!The Shadowlands|N|To 
 A The Temple of Purity|QID|57270|M|48.36,72.80|Z|Bastion!The Shadowlands|N|From Disciple Kosmas|PRE|58174|MS|
 A Hero's Rest|QID|62718|M|48.79,73.26|Z|Bastion!The Shadowlands|N|From the Scroll hanging on the wall.|LVL|50|RANK|2|LEAD|62275|
 A WANTED: Altered Sentinel|QID|60316|M|49.13,72.82|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll next to the tent.|RANK|2|
-C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.|
-C A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion!The Shadowlands|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity..|
+C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.\n[color=FF0000]NOTE: [/color]Despite being yellow, it will attack you as soon as you step within the colored area.|
+C A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion!The Shadowlands|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
 T A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion!The Shadowlands|N|To Acolyte Amalthina.|
 A More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|62714|RANK|2|
 C The Temple of Purity|QID|57270|M|54.09,73.62|Z|Bastion!The Shadowlands|NC|N|Find Erida in the Temple of Purity.|MS|
@@ -386,7 +386,7 @@ A Tough Love|QID|57568|M|51.19,56.78|Z|Bastion!The Shadowlands|N|From Zosime.|PR
 C Tough Love|QID|57568|M|46.31,56.71|QO|1|Z|Bastion!The Shadowlands|N|Head over to Kala's Den and beat her down to 50% health. Optionally, you can use the "[color=40C7EB]Throw Slobber Ball[/color]" to momentarily distract her for free hits. After she leaves, pick up the staff.|EAB|
 C Tough Love|QID|57568|M|46.31,56.71|QO|2|Z|Bastion!The Shadowlands|N|Grab the stick.|
 T Tough Love|QID|57568|M|51.33,59.57|Z|Bastion!The Shadowlands|N|To Zosime.|
-A Friendly Rivelry|QID|59674|M|57.45,54.24|Z|Bastion!The Shadowlands|N|Follow the road Northeast to find this quest from Pelodis.|RANK|2|
+A Friendly Rivalry|QID|59674|M|57.45,54.24|Z|Bastion!The Shadowlands|N|Follow the road Northeast to find this quest from Pelodis.|RANK|2|
 R Hero's Rest|ACTIVE|62715|M|55.97,52.75|N|Across the road to find the portal into Hero's Rest.|RANK|2|
 
 ;Your Personal Assistant Storyarc
