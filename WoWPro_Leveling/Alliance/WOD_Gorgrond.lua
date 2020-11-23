@@ -218,14 +218,14 @@ T What's Under There?|QID|36209|N|Wait whilst you travel the tunnels, then To Ra
 A Leave Every Soldier Behind|QID|36223|N|From Ranger Erdanii|M|46.20,55.09|PRE|36209|
 A Fair Warning|QID|35128|N|From Rexxar|M|46.06,54.73|PRE|36209^35041|
 F Gronn Canyon|QID|36223|N|Speak to Nisha and ask her to take you to the Fissure of Fury.|CHAT|ACTIVE|36223^35128|
-C Fair Warning|QID|35128|N|Kill Ogron Spinecrusher|QO|1|S|
-C Leave Every Soldier Behind|QID|36223|N|Head into the cave, follow the ramp down, speak to Corporal Thukmar and put him out of his misery|QO|1|CHAT|M|45.06,85.73|
-C Leave Every Soldier Behind|QID|36223|N|Pick up Thukmar's Intel.|QO|2|NC|M|45.06,85.73|
-C Fair Warning|QID|35128|N|Kill Borogahn|QO|2|T|Borogahn|M|31.08,74.93|
+C Fair Warning|QID|35128|N|Kill Ogron Spinecrusher|Z|547|M|30.82,75.45|QO|1|S|
+C Leave Every Soldier Behind|QID|36223|N|Head into the cave, follow the ramp down, speak to Corporal Thukmar and put him out of his misery|QO|1|CHAT|Z|547|M|44.77,85.58|
+C Leave Every Soldier Behind|QID|36223|N|Pick up Thukmar's Intel.|QO|2|NC|Z|547|M|44.77,85.58|
+C Fair Warning|QID|35128|N|Kill Borogahn|QO|2|T|Borogahn|Z|547|M|30.82,75.45|
 $ Horned Skull|QID|35056|N|Horned Skull: Lootable object for Garrison Resources|M|42.45,46.8|ACTIVE|35128|
-C Fair Warning|QID|35128|N|Finish killing the Ogron Spinecrusher, keeping at the bottom of the cave for a quest to get you out of there.|QO|1|US|M|41.97,46.81|
-A A Great Escape|QID|35210|N|From Goren Tunnel (near Borogahn's location)|M|41.97,46.81|ACTIVE|35128|
-C A Great Escape|QID|35210|N|Use the Goren Tunnel|M|41.97,46.81|NC|
+C Fair Warning|QID|35128|N|Finish killing the Ogron Spinecrusher, keeping at the bottom of the cave for a quest to get you out of there.|QO|1|US|Z|547|M|30.82,75.45|
+A A Great Escape|QID|35210|N|From Goren Tunnel (near Borogahn's location)|Z|547|M|44.77,85.58|ACTIVE|35128|
+C A Great Escape|QID|35210|N|Use the Goren Tunnel|Z|547|M|44.77,85.58|NC|
 T Leave Every Soldier Behind|QID|36223|N|To Rexxar, who is now in Gronn Canyon.|M|43.94,48.83|
 T Fair Warning|QID|35128|N|To Rexxar|M|43.94,48.83|
 T A Great Escape|QID|35210|N|To Rexxar|M|43.94,48.83|
@@ -316,12 +316,12 @@ T Laying Dionor to Rest|QID|36443|N|To Birchus|M|50.30,47.48|
 H Lunarfall|QID|33359|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|
 A Meet Us at Starfall Outpost|QID|33359|LEAD|33113|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|
 N Shadowmoon Valley|QID|33359|N|The next dozen quests will be in Shadowmoon Valley.|ACTIVE|33359|S|
-A Bounty: Twisted Ancient|QID|33111|N|From the Bulletin Board. This is a 3-party group quest.|M|42.72,44.75|Z|Lunarfall|RANK|2|
+;A Bounty: Twisted Ancient|QID|33111|N|From the Bulletin Board. This is a 3-party group quest.|M|42.72,44.75|Z|Lunarfall|RANK|2|
 T Meet Us at Starfall Outpost|QID|33359|N|To Archmage Khadgar in Starfall Outpost|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
 A Catching His Eye|QID|33062|N|From Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
 A Shadowmoonwell|QID|33113|N|From Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|
 C Shadowmoonwell|QID|33113|N|Collect a Chunk of Lunar Rock from the Secluded Glade|NC|M|23.2,20.8|Z|Shadowmoon Valley@Draenor|
-C Bounty: Twisted Ancient|QID|33111|N|Kill and loot the Twisted Ancient for the Corrupted Lumber. This is flagged as a 3-party group quest.|RANK|2|M|26.15,17.50|Z|Shadowmoon Valley@Draenor|
+;C Bounty: Twisted Ancient|QID|33111|N|Kill and loot the Twisted Ancient for the Corrupted Lumber. This is flagged as a 3-party group quest.|RANK|2|M|26.15,17.50|Z|Shadowmoon Valley@Draenor|
 R Watcher's Den|ACTIVE|33062|N|Head down the road to the Watcher's Den.|M|25.44,19.30;22.87,16.86|CS|Z|Shadowmoon Valley@Draenor|
 C Catching His Eye|QID|33062|N|Capture the All-Seeing Eye (bring his health down to 1%)|Z|Shadowmoon Valley@Draenor|
 T Catching His Eye|QID|33062|N|To Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
@@ -349,16 +349,16 @@ A Heart On Fire|QID|33168|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|330
 C Heart On Fire|QID|33168|N|Kill and loot Krosnis for his Fiery Heart.|M|17.72,27.48|T|Krosnis|Z|Shadowmoon Valley@Draenor|
 T Heart On Fire|QID|33168|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
 A Forging the Soul Trap|QID|33114|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33168|Z|Shadowmoon Valley@Draenor|
-C Forging the Soul Trap|QID|33114|N|Click on the Gul'var Soul Shards to combine them.|NC|Z|Shadowmoon Valley@Draenor|
+C Forging the Soul Trap|QID|33114|N|Click on the Gul'var Soul Shards to combine them.|NC|Z|Shadowmoon Valley@Draenor|U|109224|
 T Forging the Soul Trap|QID|33114|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
 A To Catch a Shadow|QID|33116|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33114|Z|Shadowmoon Valley@Draenor|
 $ Demonic Cache|QID|33575|N|Demonic Cache: Treasure Loot, found inside the building. Offers an i550 Necklace worth 11 gold and some XP.|M|20.37,30.64|Z|Shadowmoon Valley@Draenor|
-C To Catch a Shadow|QID|33116|N|Use Gul'dan's Soul Trap on Gul'dan|QO|1|M|18.00,30.50|NC|Z|Shadowmoon Valley@Draenor|
+C To Catch a Shadow|QID|33116|N|Use Gul'dan's Soul Trap on Gul'dan|QO|1|M|18.00,30.50|NC|Z|Shadowmoon Valley@Draenor|U|109246|
 C To Catch a Shadow|QID|33116|N|Kill Ruzuun|QO|2|Z|Shadowmoon Valley@Draenor|
 C Cleaning Up Gul'var|QID|33269|N|Finish Killing the Shadow Council orcs|US|M|19.40,24.90|Z|Shadowmoon Valley@Draenor|
 T Cleaning Up Gul'var|QID|33269|N|To Cordana Felsong|M|29.27,25.70|Z|Shadowmoon Valley@Draenor|
 T To Catch a Shadow|QID|33116|N|To Archmage Khadgar, and a cutscene.|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
-T Bounty: Twisted Ancient|QID|33111|M|28.94,15.91|Z|Lunarfall|N|To Baros Alexston.|
+;T Bounty: Twisted Ancient|QID|33111|M|28.94,15.91|Z|Lunarfall|N|To Baros Alexston.|
 ; Make use of the Outpost Building Assembly Notes
 A Resources in Ashran|QID|37288|PRE|36575^36576|N|From Baros Alexston|M|28.94,15.91|Z|Lunarfall|
 F Stormshield|QID|37288|N|Fly to Stromshield using Dungar Longrink.|M|48.01,49.83|Z|Lunarfall|
