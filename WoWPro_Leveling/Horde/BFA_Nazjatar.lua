@@ -239,7 +239,7 @@ A The Missing Crew|QID|56379|PRE|55500|M|58.46,62.98|Z|Zuldazar|N|Check this off
 C Scrying Stones|QID|56210|M|49.23,62.06|QO|1|N|Use the Scrying Stone.|
 C Scrying Stones|QID|56210|M|46.81,55.99;43.48,53.65;40.28,49.00|CS|QO|2|N|Keep using the scrying stone (extra action button) until you find 3 Hidden Treasures.|
 A Strange Silver Knife|QID|56240|M|39.71,49.16|N|From knife looted in treasure chest you just found. Watch OUT! mods turn red as you approach!|PRE|55500|
-C The Unshackled|QID|56120|S!US|N|The Unshackled emisary is up, so Complete 4 world quests in Nazjatar.|
+C The Unshackled|QID|56120|S!US|N|The Unshackled emisary is up, so Complete 4 world quests in Nazjatar.|NA|
 C Bounty: Naga|QID|55827^55818|N|Today you have a bounty for killing Naga, so don't avoid them in your travels.|
 C Bounty: Coral Ancients|QID|55821^55830|S!US|N|Today you have a bounty for killing Coral Ancients, these are mostly non agro (yellow) and often stationary.|
 C Bounty: Dangerous Creatures|QID|55837|S!US|N|Today you have a bounty for killing Rares, so don't avoid them in your travels.|
@@ -584,7 +584,7 @@ T Broken Controller|QID|55663|M|50.43,66.23|N|To Nevin Tideheart.|
 T Emergent Sea Weeds|QID|55768|M|50.43,66.23|N|To Nevin Tideheart.|
 T She Sells These Shells|QID|55766|M|50.29,63.96|N|To Suva.|
 T Poen's Favorite Dish|QID|56151|M|50.85,64.78|N|To Slen Darkroe.|
-T The Unshackled|QID|56120|M|50.99,65.25|N|To Atolia Seapearl.|
+t The Unshackled|QID|56120|M|50.99,65.25|N|To Atolia Seapearl.|
 T An Unexpected Friend|QID|56813|M|50.97,65.28|N|To Atolia Seapearl.|
 T Becoming a Friend|QID|57005|M|50.97,65.28|N|To Atolia Seapearl.|
 T We're Going To Be Friends|QID|56808|M|51.00,65.27|N|To Atolia Seapearl.|
