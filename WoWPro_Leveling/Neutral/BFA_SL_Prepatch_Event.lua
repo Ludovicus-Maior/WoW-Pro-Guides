@@ -24,10 +24,10 @@ A Return of the Scourge|QID|60761|M|49.36,59.33|Z|Northern Barrens|N|From Lieute
 T Return of the Scourge|QID|60761|M|53.00,77.39|Z|Orgrimmar|N|To Commander Throgg.|FACTION|Horde|
 A A Message from Icecrown|QID|60727|M|53.00,77.39|Z|Orgrimmar|N|From Commander Throgg.|PRE|60761|FACTION|Horde|
 A The Banshee's Champion|QID|61488|M|53.02,77.00|Z|Orgrimmar|ELITE|N|[color=ff8000]WQ Raid: [/color]From Light's Hope Messenger.|PRE|60761|FACTION|Horde|
-; R Pathfinder's Den|ACTIVE|60727|M|53.57,90.43|Z|Orgrimmar|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise run or fly to the Pathfinder's Den.|FACTION|Horde|U|46874|IZ|Orgrimmar|C|-Mage|
-; P Dalaran|ACTIVE|60727|M|56.21,91.76|Z|Orgrimmar|N|Run in to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Horde|IZ|Orgrimmar|C|-Mage|
-; P Dalaran|ACTIVE|60727|M|PLAYER|Z|Orgrimmar|U|46874|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise, Teleport to Dalaran - Northrend|FACTION|Horde|C|Mage|
-P Icecrown|ACTIVE|60727|M|50.64,75.71|Z|Orgrimmar|N|Take the portal here, directly to Icecrown.|FACTION|Horde|
+P Icecrown|ACTIVE|60727|M|50.64,75.71|Z|Orgirmmar|N|Take the portal here, directly to Icecrown.|FACTION|Horde||ACH|14750;;;true|
+R Pathfinder's Den|ACTIVE|60727|M|53.57,90.43|Z|Orgrimmar|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise run or fly to the Pathfinder's Den.|FACTION|Horde|U|46874|IZ|Orgrimmar|C|-Mage|ACH|14750;;;false|
+P Dalaran|ACTIVE|60727|M|56.21,91.76|Z|Orgrimmar|N|Run in to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Horde|IZ|Orgrimmar|C|-Mage|ACH|14750;;;false|
+P Dalaran|ACTIVE|60727|M|PLAYER|Z|Orgrimmar|U|46874|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise, Teleport to Dalaran - Northrend|FACTION|Horde|C|Mage|ACH|14750;;;false|
 
 A An Urgent Request|QID|60113|M|39.44,64.15|Z|Stormwind City|N|AutoAccepted.|FACTION|Alliance|
 T An Urgent Request|QID|60113|M|39.44,64.15|Z|Stormwind City|N|To Genn Greymane.|FACTION|Alliance|
@@ -48,10 +48,10 @@ A Return of the Scourge|QID|60767|M|73.49,47.21|Z|Duskwood|N|From Lieutenant Ver
 T Return of the Scourge|QID|60767|M|65.70,77.06|Z|Stormwind City|N|To Commander Gregor in Stormwind City.|FACTION|Alliance|
 A A Message from Icecrown|QID|59877|M|65.70,77.06|Z|Stormwind City|N|From Commander Gregor.|PRE|60767|FACTION|Alliance|
 A The Banshee's Champion|QID|61486|M|65.54,76.99|Z|Stormwind City|ELITE|N|[color=ff8000]WQ Raid: [/color]From Light's Hope Messenger.|PRE|60767|FACTION|Alliance|
-P Icecrown|ACTIVE|59877|M|66.63,76.43|Z|Stormwind City|N|Take the portal here, directly to Icecrown.|FACTION|Alliance|
-; R Wizard's Sanctum|ACTIVE|59877|M|49.36,86.93|Z|Stormwind City|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise fly to the Wizard Sanctum.|FACTION|Alliance|U|46874|IZ|Stormwind City|C|-Mage|
-; P Dalaran|ACTIVE|59877|M|44.38,88.69|Z|Stormwind City|N|Run up the Wizard sanctum to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Alliance|IZ|Stormwind City|C|-Mage|
-; P Dalaran|ACTIVE|59877|M|PLAYER|Z|Stormwind City|U|46874|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise, Teleport to Dalaran - Northrend|FACTION|Alliance|C|Mage|
+P Icecrown|ACTIVE|59877|M|66.63,76.43|Z|Stormwind City|N|Take the portal here, directly to Icecrown.|FACTION|Alliance|ACH|14750;;;true|
+R Wizard's Sanctum|ACTIVE|59877|M|49.36,86.93|Z|Stormwind City|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise fly to the Wizard Sanctum.|FACTION|Alliance|U|46874|IZ|Stormwind City|C|-Mage|ACH|14750;;;false|
+P Dalaran|ACTIVE|59877|M|44.38,88.69|Z|Stormwind City|N|Run up the Wizard sanctum to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Alliance|IZ|Stormwind City|C|-Mage|ACH|14750;;;false|
+P Dalaran|ACTIVE|59877|M|PLAYER|Z|Stormwind City|U|46874|N|If you have the [item=46874], now's the time to wear it and use it. Otherwise, Teleport to Dalaran - Northrend|FACTION|Alliance|C|Mage|ACH|14750;;;false|
 
 F Argent Tournament Grounds|ACTIVE|59877^60727|M|71.05,21.99|Z|Icecrown|N|Mount up and fly to the Argent Tournament Grounds, if you feel like going the lazy/slow route you can take a ride from the flightmaster if you have the flightpath.|IZ|Dalaran|
 T A Message from Icecrown|QID|59877^60727|M|71.05,21.99|Z|Icecrown|N|To Justicar Mariel Trueheart at the Argent Tournament Grounds in Icecrown, Northrend.|
