@@ -282,7 +282,7 @@ R Hall of Chains|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Run down the hill to the
 A Deconstructing the Problem|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Bonus Objective - Autoaccepted.|TOF|O|U|-183987|LVL|-59|
 C Deconstructing the Problem|QID|62721|M|36.60,30.91|Z|Maldraxxus|S!US|N|Don't just kill in one area, keep moving towards the other objectives, this one gets done as you travel through.\n\nKill Hostiles, fleshwardens drop keys, open cages and otherwise disrupt operations.|TOF|
 A Army of One|QID|59616|M|39.78,46.71|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57979|MS|
-K Indomitable Schmitd|QID|58332|QO|1|M|38.88,42.46|Z|Maldraxxus|T|Indomitable Schmitd|N|[color=ff8000]NOTE[/color]Shield buff makes invulnerable to hit, So, clear the area first, then grab one of the small [color=ff8000]Fuseless bombs[/color] When you have a cleared around a few pick one up and throw it at him. He will reshield a few times during the fight, so make sure you know where several are.|RARE|ACH|14308;15|EOB|
+K Indomitable Schmitd|QID|58332|QO|1|M|38.88,42.46|Z|Maldraxxus|T|Indomitable Schmitd|N|[color=ff8000]NOTE[/color]Shield buff makes invulnerable to hit, So, clear the area first, then grab one of the small [color=ff8000]Fuseless bombs[/color] When you have a cleared around a few pick one up and throw it at him. He will reshield a few times during the fight, so make sure you know where several are.|RARE|ACH|14308;15|EAB|
 C Army of One|QID|59616|CS|M|39.68,40.11;36.03,34.96|Z|Maldraxxus|QO|1|NC|N|Meet Secutor Mevix at the House of Constructs. Click on him to continue.|MS|
 C Army of One|QID|59616|M|33.85,31.41|Z|Maldraxxus|QO|2|NC|N|Click on the corpse piles to free yourself.|MS|
 T Army of One|QID|59616|M|33.88,31.10|Z|Maldraxxus|N|To Aspirant Thales.|MS|
