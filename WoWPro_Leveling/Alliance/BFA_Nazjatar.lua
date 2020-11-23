@@ -4,7 +4,6 @@ WoWPro:GuideSort(guide, 8)
 WoWPro:GuideName(guide,'Nazjatar')
 WoWPro:GuideNickname(guide, "Nazjatar")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
@@ -281,7 +280,7 @@ C Bounty: Dangerous Creatures|QID|55837|S!US|N|Today you have a quest for killin
 C Bounty: Coral Ancients|QID|55821^55830|S!US|N|Today you have a bounty for killing Coral Ancients, these are mostly non agro (yellow) and often stationary.|
 C Bounty: Elite Naga Forces|QID|55836|S!US|N|Today you have a bounty for killing Elite naga forces.|
 C Bounty: Naga|QID|55818^55827|S!US|N|Today you have a bounty for killing naga forces.|
-C The Waveblade Ankoan|QID|56119|S!US|N|Complete 4 world quests in Nazjatar.|
+C The Waveblade Ankoan|QID|56119|S!US|N|Complete 4 world quests in Nazjatar.|NA|
 C Requisition: We Need It All|QID|55801|M|71.07,47.78|QO|4|NC|N|Pick up an Impregnable Cone Shell, they are scattered pretty much over the whole zone.|
 A Where They Hide|QID|56154|M|41.29,58.36|N|From Seeker Anagi.|O|
 C Where They Hide|QID|56154|M|46.18,59.75|U|168432|N|Use the sponge to reveal the Zanj'ir Assassin, then kill them.|
@@ -580,7 +579,7 @@ T Fathom Ray Wing|QID|57247|M|39.39,53.50|N|To Hunter Akana.|
 T Ancient Technology|QID|56346|M|38,53|N|To Instructor Ulooaka.|
 A An Abyssal Opportunity|QID|56347|M|38,53|N|From Instructor Ulooaka.|PRE|56346|
 T A Gift From The Clan|QID|56777|M|38.00,55.75|N|To Speaker Utia.|
-T The Waveblade Ankoan|QID|56119|M|38.01,55.70|N|To Speaker Utia.|
+t The Waveblade Ankoan|QID|56119|M|38.01,55.70|N|To Speaker Utia.|
 T The Speaker's Gift|QID|56782|M|38.01,55.70|N|To Speaker Utia.|
 T Helpful Provisions|QID|56784|M|38.03,55.70|N|To Speaker Utia.|
 T Bounty: Elite Naga Forces|QID|55836|M|38.01,55.70|N|To Speaker Utia.|
