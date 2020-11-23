@@ -120,20 +120,20 @@ C Torment From Beyond|QID|58466|M|42.54,68.34|S!US|Z|1530|N|Release Ancient Pand
 C Tomes of Ancient Madness|QID|58461|M|76.92,49.92|S!US|Z|1530|N|Tome of Ancient Madness are dropped by Drowned Zeolots and Tidal Corruptors.|
 C Proof of Tenacity|QID|56540|ACTIVE|56064|M|57.42,39.38|Z|1530|QO|1|N|Entrance to underground vault where Vil'raxx can be found... and killed. Make sure to complete Assault: The Black Empire BEFORE going to kill.|
 C Proof of Tenacity|QID|56540|ACTIVE|57728|M|13.48,55.77|Z|1530|QO|1|N|Kri'vin can be found in front of the Gate of the Setting Sun.|
-T Assault: The Endless Swarm|QID|57728|M|37.22,79.26|Z|1530|N|To Taoshi.|
+t Assault: The Endless Swarm|QID|57728|M|37.22,79.26|Z|1530|N|To Taoshi.|
 t Halting Production|QID|58763|M|37.22,79.26|Z|1530|N|To Taoshi.|
 t Rampaging Destroyers|QID|58758|M|38.44,74.99|Z|1530|N|To Anji Autumnlight.|
 t Standards of the Swarm|QID|58764|M|38.44,74.99|Z|1530|N|To Anji Autumnlight.|
 t Blades of Amber|QID|58760|M|43.91,71.75|Z|1530|N|To Forgemaster Han.|
 t The Strongest Among Them|QID|58423|M|44.69,73.97|Z|1530|N|To Stormspeaker Qian.|
-T Proof of Tenacity|QID|56540|M|45.32,74.34|Z|1530|N|To Ra-Den.|
-T Torment From Beyond|QID|58466|M|66.38,40.71|Z|1530|N|To Taran Zhu.|
-T Corruption Manifest|QID|58465|M|66.38,40.71|Z|1530|N|To Taran Zhu.|
-T Assault: The Black Empire|QID|56064|M|83.81,27.19|Z|1530|N|To Lorewalker Cho.|
-T Tomes of Ancient Madness|QID|58461|M|83.81,27.19|Z|1530|N|To Lorewalker Cho.|
+t Proof of Tenacity|QID|56540|M|45.32,74.34|Z|1530|N|To Ra-Den.|
+t Torment From Beyond|QID|58466|M|66.38,40.71|Z|1530|N|To Taran Zhu.|
+t Corruption Manifest|QID|58465|M|66.38,40.71|Z|1530|N|To Taran Zhu.|
+t Assault: The Black Empire|QID|56064|M|83.81,27.19|Z|1530|N|To Lorewalker Cho.|
+t Tomes of Ancient Madness|QID|58461|M|83.81,27.19|Z|1530|N|To Lorewalker Cho.|
 ; Thanks Sipder2 @ WhowHead! zone name is incomplete and needs a run-through.
 A The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1530|N|From Ra-Den|PRE|56540|
-R Mogu'shan Palace Instance|ACTIVE|56541|M|80.83,30.76|Z|1530|N|Go to the Mogu'shan Palace to start the instance. It will take about 20 minutes.|
+R Mogu'shan Palace Instance|ACTIVE|56541|M|80.83,30.76|Z|1530|TZ|Mogu'shan Palace|N|Go to the Mogu'shan Palace to start the instance. It will take about 20 minutes.|
 C A Way Down|ACTIVE|56541|SO|1|M|40.51,59.30|Z|The Crimson Assembly Hall@Mogu'shan Palace!Dungeon|N|Kill 4 Animated Guardians to open the first door and four more to open the second door.\nJump over rows of runed tiles to avoid traps.|
 C Watch Your Step|ACTIVE|56541|SO|2|M|40.30,70.80|Z|The Crimson Assembly Hall@Mogu'shan Palace!Dungeon|N|Make your way to the Ancient Lever. The runes form a maze. When you step on one, the next step will be one without a visual effect. You may have to backtrack.|
 C A Weighty Problem|ACTIVE|56541|SO|3|M|48.71,74.88|Z|Vaults of Kings Past@Mogu'shan Palace!Dungeon|N|Take the stairwell down, killing as you go.\nWhen you reach a glowing Mogu statue, you need to move it to the empty concrete block on the floor and then the door will open.|
