@@ -123,7 +123,7 @@ T The Things That Haunt Us|QID|57676|M|48.20,72.60|Z|Bastion!The Shadowlands|N|T
 A Aspirant For a Day|QID|62737|M|52.13,77.57|Z|Bastion!The Shadowlands|N|Bonus Objective, autoaccepted as you come into Aspirant's Crucible.|TOF|RANK|2|
 C Aspirant For a Day|QID|62737|M|52.13,77.57|Z|Bastion!The Shadowlands|S!US|N|Bonus Objective, In addition to the killing hostile mobs you can also pick up Adrima's lilies (blue flower) and Lost Library Scrolls. The lost scrolls are delivered to Scrollminder Vesi for 2% progress each.|TOF|RANK|2|
 A The Aspirant's Crucible|QID|57709|M|48.23,72.65|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57677^57676|MS|
-A The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion!The Shadowlands|N|From Klystere.|LVL|50|RANK|2|
+A The Old Ways|QID|60466|M|47.88,73.50|Z|Bastion!The Shadowlands|N|From Klystere.|LVL|50|RANK|2|
 B The Old Ways|ACTIVE|60466|M|48.07,73.00|QO|1|Z|Bastion!The Shadowlands|NC|N|Buy the thread from Caretaker Mirene.|
 h Aspirant's Rest|ACTIVE|60466^57709|M|48.07,73.00|Z|Bastion!The Shadowlands|N|Set Hearthstone at Caretaker Mirene.|RANK|2|
 f Aspirant's Rest|ACTIVE|60466^57709|M|48.13,74.16|Z|Bastion!The Shadowlands|N|At Rheus.|
@@ -131,15 +131,15 @@ C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion!The Shadowlands|N|Kill Clo
 ;$ Sophia's Gift|QID|58319|M|51.75,68.84|Z|Bastion!The Shadowlands|N|Treasure for your enjoyment.| commenting out, because this appears to reset.  leaving it here incase that is wrong and we want to add it back)
 C The Old Ways|QID|60466|M|50.66,72.56|QO|3|Z|Bastion!The Shadowlands|N|Kill Larion Sires for the Plumes.|
 C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion!The Shadowlands|N|Kill Cloudstrider Grazers for the pelt.|US|
-T The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion!The Shadowlands|N|To Klystere.|
-A A Gift for An Acolyte|QID|62714|M|47.92,73.45|Z|Bastion!The Shadowlands|N|From Klystere.|PRE|60466|RANK|2|
+T The Old Ways|QID|60466|M|47.88,73.50|Z|Bastion!The Shadowlands|N|To Klystere.|
+A A Gift for An Acolyte|QID|62714|M|47.88,73.50|Z|Bastion!The Shadowlands|N|From Klystere.|PRE|60466|RANK|2|
 C The Aspirant's Crucible|QID|57709|M|47.96,74.09|Z|Bastion!The Shadowlands|V|N|Click on Theonara the gryphon for a ride. This is not optional.|MS|
-T The Aspirant's Crucible|QID|57709|M|56.10,81.75|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
-A A Life of Service|QID|57710|M|56.10,81.75|Z|Bastion!The Shadowlands|N|From Forgelite Sophone|PRE|57709|MS|
+T The Aspirant's Crucible|QID|57709|M|56.14,81.73|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
+A A Life of Service|QID|57710|M|56.14,81.73|Z|Bastion!The Shadowlands|N|From Forgelite Sophone|PRE|57709|MS|
 C A Life of Service|QID|57710|M|57.00,81.29|QO|1|Z|Bastion!The Shadowlands|NC|N|Click on the Eternal Flame, (big bowl of glowing blue fire) in front of you.|MS|
 C A Life of Service|QID|57710|M|57.00,81.29|QO|2|Z|Bastion!The Shadowlands|N|Relive each act of service by killing all of the mobs that appear. Click the flame to trigger the next memory (act of service).|MS|
-T A Life of Service|QID|57710|M|56.44,81.57|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
-A A Forge Gone Cold|QID|57711|M|56.44,81.57|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57710|MS|
+T A Life of Service|QID|57710|M|56.41,81.59|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
+A A Forge Gone Cold|QID|57711|M|56.41,81.59|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57710|MS|
 K Sigilback|QID|60570|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179486|ACH|14307;2|
 K Aethon|QID|58526|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179487|ACH|14307;28|
 K Cloudtail|QID|60571|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179488|ACH|14307;17|
@@ -386,7 +386,7 @@ A Tough Love|QID|57568|M|51.19,56.78|Z|Bastion!The Shadowlands|N|From Zosime.|PR
 C Tough Love|QID|57568|M|46.31,56.71|QO|1|Z|Bastion!The Shadowlands|N|Head over to Kala's Den and beat her down to 50% health. Optionally, you can use the "[color=40C7EB]Throw Slobber Ball[/color]" to momentarily distract her for free hits. After she leaves, pick up the staff.|EAB|
 C Tough Love|QID|57568|M|46.31,56.71|QO|2|Z|Bastion!The Shadowlands|N|Grab the stick.|
 T Tough Love|QID|57568|M|51.33,59.57|Z|Bastion!The Shadowlands|N|To Zosime.|
-A Friendly Rivalry|QID|59674|M|57.45,54.24|Z|Bastion!The Shadowlands|N|Follow the road Northeast to find this quest from Pelodis.|RANK|2|
+A A Friendly Rivalry|QID|59674|M|57.45,54.24|Z|Bastion!The Shadowlands|N|Follow the road Northeast to find this quest from Pelodis.|RANK|2|
 R Hero's Rest|ACTIVE|62715|M|55.97,52.75|N|Across the road to find the portal into Hero's Rest.|RANK|2|
 
 ;Your Personal Assistant Storyarc
