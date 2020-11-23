@@ -1,3 +1,17 @@
+# Release 9.0.2-A1 / (1.13.5-D1)
+## Bug Fixes
+* Repair steps now autocomplete correctly when they are not the only step showing.
+## Guide Updates
+### Retail
+* New guide for Glimr
+* Alliance: Nazjatar, Dwarf intro, Gorgrond, Shadowmoon
+* Horde: Nagarand, Nazjatar, Ghostlands, Belf intro, Gorgrond
+* Neutral: Black Empire Outro, SL Prepatch, Hunter and Priest Order halls
+* Shadowlands: Bastion, Maldraxxus, Maw_Intro, Revendreth
+
+### Classic
+* None
+
 # Release 9.0.2-A0 / 1.13.5-D0
 ## Bug Fixes
 * Removed  spammy 'Instance Auto Hide' message.
