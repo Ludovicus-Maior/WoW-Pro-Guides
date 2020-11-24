@@ -171,7 +171,7 @@ C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.66|Z|Maldraxxus|QO|5
 T ...Even The Most Ridiculous Request!|QID|58068|M|54.10,51.39|Z|Maldraxxus|N|To Overseer Kalvaros.|
 A Juicing Up|QID|58088|M|53.86,50.61|Z|Maldraxxus|N|From Scrapper Minoire.|PRE|58068|RANK|2|
 T I Could Be A Contender|QID|62785|M|54.44,48.65|Z|Maldraxxus|N|To Louison.|
-A How To Get A Head|QID|59750|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|RANK|2|
+A How to Get a Head|QID|59750|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|RANK|2|
 A The Last Guy|QID|59781|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|RANK|2|
 A WANTED: Appraiser Vix|QID|59867|M|54.15,47.48|Z|Maldraxxus|ELITE|N|From Wanted Poster.|RANK|2|TOF|;seems odd this is TOF, wanted posters weren't for TOF in Bastion
 T Juicing Up|QID|58088|M|53.72,47.85|Z|Maldraxxus|N|To So'narynar.|
@@ -179,17 +179,17 @@ A Side Effects|QID|58090|M|53.72,47.85|Z|Maldraxxus|N|From So'narynar.|PRE|58088
 C Side Effects|QID|58090|M|53.70,47.88|Z|Maldraxxus|QO|1|N|Buy the Necessary Enchancers from Au'larrynar.|
 C Side Effects|QID|58090|M|53.87,50.53|Z|Maldraxxus|QO|2|CHAT|N|Deliver the Enhancers to Scrapper Minoire.|
 T Side Effects|QID|58090|M|54.08,51.27|Z|Maldraxxus|N|To Overseer Kalvaros.|
-C How To Get A Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|S|
+C How to Get a Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|S|
 K Gristlebeak|QID|61991^58837|QO|1|M|57.71,51.57|Z|Maldraxxus|T|Gristlebeak|N|Break Unusual Eggs at marked spot, Silver elite comes down to defend her young.|ITEM|182196|RARE|ACH|14308;18|
 $ Strange Growth|QID|59429|M|55.88,38.98|Z|Maldraxxus|N|Pull on the strange growth to find a bit of treasure for you.|ITEM|182607|RANK|2|
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|S|
 C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Kill Deadeye the giant Bloodtusk.|
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|US|
 f Keres' Rest|ACTIVE|59781|M|53.81,30.71|Z|Maldraxxus|N|At Fly-eyed Eliera.|
-C How To Get A Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
+C How to Get a Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
 A WANTED: The Key of Eyes|QID|62462|M|53.08,41.41|Z|Maldraxxus|ELITE|N|From Wanted Poster.|RANK|2|TOF|
-C How To Get A Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|
-T How To Get A Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
+C How to Get a Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|
+T How to Get a Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
 T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
 A Stuff We All Get|QID|58575|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|RANK|2|
 A Team Spirit|QID|59800|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|RANK|2|
@@ -207,13 +207,13 @@ T This Thing Of Ours|QID|59879|M|53.66,47.50|Z|Maldraxxus|N|To Au'narim.|
 A Leave Me a Loan|QID|59203|M|53.66,47.50|Z|Maldraxxus|N|From Au'narim.|PRE|59879|RANK|2|
 C Leave Me a Loan|QID|59203|M|53.90,49.37|Z|Maldraxxus|CHAT|N|Ask Arena Spectators for their Anima Vial, some will attack you.|
 T Leave Me a Loan|QID|59203|M|53.62,47.56|Z|Maldraxxus|N|To Au'narim.|
-A Working For The Living|QID|59837|M|53.62,47.56|Z|Maldraxxus|N|From Au'narim.|PRE|59203|RANK|2|
-C Working For The Living|QID|59837|M|53.70,47.29|Z|Maldraxxus|QO|1|NC|N|Click on the Broker Portal to get transported to the Shattered Grove.|
-C Working For The Living|QID|59837|M|65.74,56.33|Z|Shattered Grove!Instance|QO|2|N|Kill and interact with everything around|S|
-C Working For The Living|QID|59837|M|65.74,56.33|Z|Shattered Grove!Instance|QO|3|N|Kill Khogov The Expunger.
-C Working For The Living|QID|59837|M|39.14,40.18|Z|Shattered Grove!Instance|QO|2|N|Kill and interact with everything around|US|
-C Working For The Living|QID|59837|M|15.03,39.39|Z|Shattered Grove!Instance|QO|4|NC|N|Click the Broker Portal to return.|
-T Working For The Living|QID|59837|M|53.62,47.50|Z|Maldraxxus|N|To Au'narim.|
+A Working for the Living|QID|59837|M|53.62,47.56|Z|Maldraxxus|N|From Au'narim.|PRE|59203|RANK|2|
+C Working for the Living|QID|59837|M|53.70,47.29|Z|Maldraxxus|QO|1|NC|N|Click on the Broker Portal to get transported to the Shattered Grove.|
+C Working for the Living|QID|59837|M|65.74,56.33|Z|Shattered Grove!Instance|QO|2|N|Kill and interact with everything around|S|
+C Working for the Living|QID|59837|M|65.74,56.33|Z|Shattered Grove!Instance|QO|3|N|Kill Khogov The Expunger.
+C Working for the Living|QID|59837|M|39.14,40.18|Z|Shattered Grove!Instance|QO|2|N|Kill and interact with everything around|US|
+C Working for the Living|QID|59837|M|15.03,39.39|Z|Shattered Grove!Instance|QO|4|NC|N|Click the Broker Portal to return.|
+T Working for the Living|QID|59837|M|53.62,47.50|Z|Maldraxxus|N|To Au'narim.|
 A A Sure Bet|QID|58900|M|54.44,48.59|Z|Maldraxxus|N|From Louison.|PRE|59837|RANK|2|
 T A Sure Bet|QID|58900|M|50.53,51.67|Z|Maldraxxus|N|To Anzio The Infallible.|
 A The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|ELITE|N|[color=ff8000]Elite:[/color] From Anzio The Infallible.|PRE|58900|RANK|2|
@@ -226,22 +226,22 @@ C Bet on Yourself|QID|59828|M|50.53,51.67|Z|Maldraxxus|N|Kill Ti'or in the  Thea
 T Bet on Yourself|QID|59826^59827^59828|M|53.58,47.50|Z|Maldraxxus|N|To Au'narim. Come back another day if you want to do the other two quests, (diff final boss, same first 3)|
 
 ; Wasteland Work Sidequest Story
-A Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|From Caleesy.|RANK|2|
-A Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|RANK|2|
-C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|S|
-C Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<1|N|Ride the Tauralus back to Dundae.|
-C Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<2|N|Ride the Tauralus back to Dundae.|
-C Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<3|N|Ride the Tauralus back to Dundae.|
-C Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<4|N|Ride the Tauralus back to Dundae.|
-C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|US|
-C Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<5|N|Ride the Tauralus back to Dundae.|
-T Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|To Caleesy.|
-T Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|To Dundae.|
+A Smack and Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|From Caleesy.|RANK|2|
+A Take the Bull by the Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|RANK|2|
+C Smack and Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|S|
+C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
+C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<1|N|Ride the Tauralus back to Dundae.|
+C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
+C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<2|N|Ride the Tauralus back to Dundae.|
+C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
+C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<3|N|Ride the Tauralus back to Dundae.|
+C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
+C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<4|N|Ride the Tauralus back to Dundae.|
+C Smack and Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|US|
+C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
+C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<5|N|Ride the Tauralus back to Dundae.|
+T Smack and Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|To Caleesy.|
+T Take the Bull by the Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|To Dundae.|
 A Stabbing Wasteward|QID|58794|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|PRE|58750&58785|RANK|2|
 C Stabbing Wasteward|QID|58794|M|42.40,48.40|Z|Maldraxxus|N|Kill the Satiated Sawtooth.|
 T Stabbing Wasteward|QID|58794|M|46.87,48.59|Z|Maldraxxus|N|To Dundae.|
@@ -352,8 +352,8 @@ A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|RA
 C Read Between the Lines|QID|58619|CS|M|40.69,33.08;43.30,28.62|Z|Maldraxxus|CHAT|N|Talk to Ta'ern, then walk with him and at least pretend to listen.|
 T Read Between the Lines|QID|58619|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
 A Repeat After Me|QID|58621|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|RANK|2|
-A Kill Them Of Course|QID|59917|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|RANK|2|
-C Kill Them Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|S|
+A Kill Them, Of Course|QID|59917|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|RANK|2|
+C Kill Them, Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|S|
 C Repeat After Me|QID|58621|M|41.65,28.35|QO|4|Z|Maldraxxus|N|Enter the cave, target the Runestone of Rituals and /kneel\n\nKill Echo of the Magus.|T|Runestone of Rituals,kneel|
 C Repeat After Me|QID|58621|M|40.70,31.11|QO|3|Z|Maldraxxus|N|The next runestone is inside a crater, target it and /bleed\n\nKill Echo of the Chemist.|T|Runestone of Plague,bleed|
 C Repeat After Me|QID|58621|M|43.83,34.63|QO|1|Z|Maldraxxus|N|Enter the cave, target the Runestone of Chosen and /salute\n\nKill Echo of the Hero.|T|Runestone of Chosen,salute|
@@ -366,8 +366,8 @@ C Slaylines|QID|58620|QO|1|M|45.87,29.89|Z|Maldraxxus|NC|N|Locate the East Power
 C Slaylines|QID|58620|QO|4|CS|M|44.94,29.50;43.39,26.84|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the East Obelisk, run back to it and click to activate.|
 C Slaylines|QID|58620|QO|2|M|42.17,31.04|Z|Maldraxxus|NC|N|Locate the West Power Crystal.|
 C Slaylines|QID|58620|QO|3|CS|M|43.17,30.80;43.03,28.54;42.81,27.16|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the West Obelisk, run back to it and click to activate.|
-C Kill Them Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|US|
-T Kill Them Of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
+C Kill Them, Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|US|
+T Kill Them, Of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
 T Slaylines|QID|58620|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
 A Secrets Among the Shelves|QID|58622|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58620|RANK|2|
 C Secrets Among the Shelves|QID|58622|M|PLAYER|Z|Maldraxxus|NC|N|Enter and climb the tower avoiding the floating books while collecting the highlighted tomes from the ground and bookshelves.|
@@ -434,12 +434,12 @@ T Applied Science|QID|58031|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Maril
 A By Any Other Name|QID|59223|M|58.29,71.59|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|58031&58045&58036|MS|
 T Avoid 'Em Like the Plague|QID|62742|M|55.74,60.94|Z|Maldraxxus|N|Bonus Objective - Autocompleted.|TOF|
 
-A A Plague On Your House|QID|59430|M|58.08,72.03|Z|Maldraxxus|N|From Judas Sneap.|RANK|2|
+A A Plague on Your House|QID|59430|M|58.08,72.03|Z|Maldraxxus|N|From Judas Sneap.|RANK|2|
 f Plague Watch|QID|1|ACTIVE|59223|M|58.17,72.38|Z|Maldraxxus|N|At Vradira Livid.|
-C A Plague On Your House|QID|59430|M|59.39,72.95|Z|Maldraxxus|QO|1|CHAT|N|Chat with Vial Master Lurgy.|
-C A Plague On Your House|QID|59430|M|58.58,73.47|Z|Maldraxxus|QO|2|CHAT|N|Chat with Foul-Tongue Cyrlix.|
-C A Plague On Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|QO|3|CHAT|N|Chat with Boil Master Yetch.|
-T A Plague On Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|N|To Boil Master Yetch.|
+C A Plague on Your House|QID|59430|M|59.39,72.95|Z|Maldraxxus|QO|1|CHAT|N|Chat with Vial Master Lurgy.|
+C A Plague on Your House|QID|59430|M|58.58,73.47|Z|Maldraxxus|QO|2|CHAT|N|Chat with Foul-Tongue Cyrlix.|
+C A Plague on Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|QO|3|CHAT|N|Chat with Boil Master Yetch.|
+T A Plague on Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|N|To Boil Master Yetch.|
 A Pool of Potions|QID|58431|M|59.04,73.86|Z|Maldraxxus|N|From Boil Master Yetch.|PRE|59430|RANK|2|
 K Burning Extract|ACTIVE|58431|M|59.05,77.66|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
 R Pool of Potions|QID|58431|ACTIVE|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<1|N|Return the Viscous Oil to the Pool of Potions. You can carry only one oil at a time.|

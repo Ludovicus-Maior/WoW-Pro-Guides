@@ -19,7 +19,6 @@ return [[
 ; $ Gift of Thenios|M|40.2,18.2|Z|Bastion!The Shadowlands|N|WH - Obtain Proof of Wisdom, using nearby teleporter, and light the incenses in the correct order.\nClick Incense of Patience\nClick Incense of Knowledge\nClick Incense of Insight\n[color=FF0000]SKIP[/color] Incense of Judgement\nClick Anima Orb\nClick Incense of Judgement on the FIFTH platform, then port back.|ACH|14311;15|
 
 ; List of Rares in Bastion, only 8 in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
-; K Herculon|M|42.67,80.05|Z|Bastion!The Shadowlands|T|Herculon|N|WH - Entrance to room with inactive Rare.  Collect Depleted Anima Canisters to collect 10 Weak Anima Motes.  Interact with rare and "Supply Weak Anima Mote" 10 times.|RARE|ACH|14307;1|
 ; K Wingflayer the Cruel|M|41.67,54.77|Z|Bastion!The Shadowlands|T|Wingflayer the Cruel|N|WH - Use Anima Conductor in Elysian Hold to channel anima to The Temple of Courage.\nThen use Horn of courage at these Coords.|ITEM|182749|RARE|ACH|14307;4|
 ; K Dionae|M|44.87,48.82;40.92,47.35|Z|Bastion!The Shadowlands|CS|T|Dionae|N|WH - Start at first coord, turn Left and follow passage down between rocks. Just follow to entrance to alcove at second coords.\nAfter Dionae loses some health she casts a shield that you have to use the four Anima Spears to break the shield.|RARE|ACH|14307;5|
 ; K Unstable Memory|M|43.31,25.76|Z|Bastion!The Shadowlands|T|Unstable Memory|N|WH - TAg Unstable Memory Fragments into others about 10 times to turn them into Unstable Memory.|RARE|ACH|14307;8|
@@ -105,9 +104,12 @@ A Trouble in Paradise|QID|60735|M|42.09,78.30|Z|Bastion!The Shadowlands|N|From K
 C Trouble in Paradise|QID|60735|M|42.10,78.31|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia and let her handle the situation.|MS|
 T Trouble in Paradise|QID|60735|M|42.34,78.34|Z|Bastion!The Shadowlands|N|To Kalisthene.|MS|
 A Walk the Path, Aspirant|QID|57261|M|42.34,78.34|Z|Bastion!The Shadowlands|N|From Kalisthene.|PRE|60735|MS|
+l Weak Anima Mote|QID|57705|L|172451 10|M|42.52,80.57|Z|Bastion!The Shadowlands|RARE|N|Pick up 10 Weak Anima Motes from the Depleated Anima Canisters outside the doorway.|ACH|14307;1|
+K Herculon|QID|57705|QO|1|M|42.88,80.62|Z|Bastion!The Shadowlands|T|Herculon|N|Interact with Hurculon and "Supply Weak Anima Mote" 10 times to activate. Chest contains reward behide where Herculon was.|RARE|ACH|14307;1|
+A Functioning Anima Core|QID|62200|PRE|62201|M|42.94,83.00|Z|Bastion!The Shadowlands|N|From item just looted from Hurculon's Aspirant Chest.|
 C Walk the Path, Aspirant|QID|57261|M|46.05,79.31|QO|1|Z|Bastion!The Shadowlands|NC|N|Take the road east then the north fork(left) out of the Vestibule and Kleia will travel with you.|MS|
 C Walk the Path, Aspirant|QID|57261|M|46.31,79.00|QO|2|Z|Bastion!The Shadowlands|NC|N|Stand in blue circle and click the "[color=40C7EB]Kleia's Perspective[/color]" Action Ability.|EAB|MS|
-C Walk the Path, Aspirant|QID|57261|M|48.52,73.21|QO|3|Z|Bastion!The Shadowlands|NC|N|Travel to Aspirant's Rest.|MS|
+C Walk the Path, Aspirant|QID|57261|M|48.39,72.97|QO|3|Z|Bastion!The Shadowlands|NC|N|Travel to Aspirant's Rest.|MS|
 T Walk the Path, Aspirant|QID|57261|M|48.20,72.60|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A A Soulbind In Need|QID|57677|M|42.34,78.34|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57261|MS|
 A The Things That Haunt Us|QID|57676|M|42.34,78.34|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57261|MS|
@@ -191,7 +193,7 @@ A Assessing Your Spirit|QID|57714|M|51.63,80.95|Z|Bastion!The Shadowlands|N|From
 C Assessing Your Spirit|QID|57714|M|51.63,80.95|Z|Bastion!The Shadowlands|N|Fight Athanos and lose.|MS|
 T Assessing Your Spirit|QID|57714|M|51.63,80.95|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A The Chamber of First Reflection|QID|57291|M|51.63,80.95|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57714|MS|
-C The Chamber of First Reflection|QID|57291|CS|M|53.58,84.00;55.95,86.46|Z|Bastion!The Shadowlands|NC|N|Enter the Chamber of First Reflection.|MS|
+C The Chamber of First Reflection|QID|57291|M|55.95,86.46|Z|Bastion!The Shadowlands|NC|N|Enter the Chamber of First Reflection.|MS|
 T The Chamber of First Reflection|QID|57291|M|57.22,86.58|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A The First Cleansing|QID|57266|M|57.22,86.58|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57291|MS|
 C The First Cleansing|QID|57266|M|58.10,85.74|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the box.|MS|
@@ -248,24 +250,24 @@ A The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|F
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|Cleanse the Temple by killing all the hostile mobs and rescuiing the terrified stewards.|S|MS|
 A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion!The Shadowlands|N|From The Scroll in front of the Vespar of Harmony.|PRE|57717|MS|
 A An Inspired Moral Inventory|QID|57444|M|54.03,73.94|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|RANK|2|
-C An Inspired Moral Inventory|QID|57444|M|57.98,75.81|Z|Bastion!The Shadowlands|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|
+C An Inspired Moral Inventory|QID|57444|M|57.98,75.81|Z|Bastion!The Shadowlands|T|Forsworn Ascended|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Find the scrolls around the area.|S|MS|
 C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|Bastion!The Shadowlands|QO|2|NC|N|Click the bell to clease the Vesper of Harmony.|MS|
 K Fallen Acolyte Erisne|QID|58222|QO|1|RARE|M|60.20,72.99|Z|Bastion!The Shadowlands|N|This silver elite paths around the Vesper of Harmony.|ITEM|180444|ACH|14307;16|
 C A Once Sweet Sound|QID|57037|M|57.32,71.34|Z|Bastion!The Shadowlands|NC|QO|1|N|Click the bell to cleanse the Vesper of Purity.|MS|
 $ Vesper of Virtues|QID|62841^60478|M|58.66,71.39|Z|Bastion!The Shadowlands|N|Treasure is an item that buffs and gives small Heal.|ITEM|179982|ACH|14311;9|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Finish reading the scrolls around the area.|US|MS|
-C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion!The Shadowlands|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|US|
+C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion!The Shadowlands|T|Forsworn Ascended|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|US|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|Finish cleansing the temple by killing hostiles and rescuing terrified stewards.|US|MS|
 T Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|Bastion!The Shadowlands|N|Finish this up before you leave the temple grounds.|TOF|
-T An Inspired Moral Inventory|QID|57444|M|61.15,74.40|Z|Bastion!The Shadowlands|N|To Acolyte Galistos.|RANK|2|
+T An Inspired Moral Inventory|QID|57444|M|61.15,74.40|Z|Bastion!The Shadowlands|N|To Acolyte Galistos.|
 T A Once Sweet Sound|QID|57037|M|61.27,74.37|Z|Bastion!The Shadowlands|N|To Eridia.|MS|
 T The Hand of Purification|QID|59147|M|61.27,74.37|Z|Bastion!The Shadowlands|N|To Eridia.|MS|
 T Dangerous Discourse|QID|57719|M|61.27,74.37|Z|Bastion!The Shadowlands|N|To Eridia.|MS|
 A The Enemy You Know|QID|57446|M|61.27,74.37|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57037^59147^57719|MS|
 C The Enemy You Know|QID|57446|M|63.71,72.18|QO|1|Z|Bastion!The Shadowlands|NC|N|Follow Eridia.|MS|
 C The Enemy You Know|QID|57446|M|63.50,72.06|Z|Bastion!The Shadowlands|CHAT|QO|2|N|Tell Kosmas you are ready.|MS|
-C The Enemy You Know|QID|57446|M|PLAYER|Z|Bastion!The Shadowlands|QO|3|NC|N|When it appears, Press '1' to throw the hammer at the Vespers and cleanse them.|MS|
+C The Enemy You Know|QID|57446|M|PLAYER|Z|Bastion!The Shadowlands|QO|3|NC|N|When it appears, Press '1' to throw the hammer at the Vespers and cleanse them. \nOccasionally bugs out, if you don't get the hammer after flying around past all 3 vespers, exit vehicle, abandon and restart quest.|MS|
 T The Enemy You Know|QID|57446|M|64.22,71.47|Z|Bastion!The Shadowlands|N|To Disciple Kosmas.|MS|
 A The Hand of Doubt|QID|57269|M|64.22,71.47|Z|Bastion!The Shadowlands|N|From Disciple Kosmas.|PRE|57446|MS|
 C The Hand of Doubt|QID|57269|M|64.22,71.47|Z|Bastion!The Shadowlands|CHAT|QO|1|N|Tell Disciple Kosmas you will stand with him.|MS|
@@ -400,10 +402,11 @@ C Steward at Work|QID|59197|M|PLAYER|Z|Bastion!The Shadowlands|QO|1|NC|N|Use the
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion!The Shadowlands|QO|2|CHAT|N|Talk to the Steward you summoned and ask him to fix the beacon.|MS|
 h Hero's Rest|ACTIVE|59197^62723^62729|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To shorten the run later, set your Hearth at Inkiep.|
 T You'll Never Walk Alone|QID|62170|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep|IZ|Hero's Rest|
+T Functioning Anima Core|QID|62200|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep|IZ|Hero's Rest|;guessing. i can see it's in hero's rest, but havent been there to check yet
 C Steward at Work|QID|59197|M|53.24,46.82|Z|Bastion!The Shadowlands|QO|3|NC|N|Click to activate the Beacon of Invocation.|MS|
 
-A WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
-A WANTED: Darkwing|QID|60366|M|53.57,46.43|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
+A WANTED: Gorgebeak|QID|60315|M|53.27,46.43|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
+A WANTED: Darkwing|QID|60366|M|53.27,46.43|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
 f Hero's Rest|ACTIVE|59197|M|51.40,46.80|Z|Bastion!The Shadowlands|N|At Navarros.|
 F Aspirant's Rest|ACTIVE|62715^60316|M|51.40,46.80|Z|Bastion!The Shadowlands|N|At Navarros.|
 T WANTED: Altered Sentinel|QID|60316|M|48.95,72.34|Z|Bastion!The Shadowlands|N|To Forgehand Simo|
@@ -494,9 +497,9 @@ T Phalynx Malfunction|QID|57931|M|54.78,41.17|Z|Bastion!The Shadowlands|N|To Pel
 A We Can Rebuild Him|QID|57933|M|54.78,41.17|Z|Bastion!The Shadowlands|N|From Pelodis.|PRE|57932^57931|RANK|2|
 C We Can Rebuild Him|QID|57933|M|55.34,42.00|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the kitty.|
 C We Can Rebuild Him|QID|57933|M|54.62,40.44|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the platform.|
-C We Can Rebuild Him 3|QID|57933|CS|M|54.50,41.57;54.62,40.44|QO|3;5|S|Z|Bastion!The Shadowlands|NC|N|Click on the engineers, and armour pieces around the area.|
+C We Can Rebuild Him 3|QID|57933|QO|3;5|CS|M|54.50,41.57;54.62,40.44|Z|Bastion!The Shadowlands|S|NC|N|Click on the engineers, and armour pieces around the area.|
 C We Can Rebuild Him|QID|57933|CS|M|54.47,41.37;54.62,40.44|Z|Bastion!The Shadowlands|QO|4|NC|N|Click on the barrel and bring it back to beside the build rig.|
-C We Can Rebuild Him 3|QID|57933|CS|M|54.39,41.01;54.49,41.66;54.88,40.15|QO|3;5|Z|Bastion!The Shadowlands|NC|N|Finish gathering the engineers and armor pieces and bring all back to the platform.|
+C We Can Rebuild Him 3|QID|57933|QO|3;5|CS|M|54.39,41.01;54.49,41.66;54.88,40.15|Z|Bastion!The Shadowlands|US|NC|N|Finish gathering the engineers and armor pieces and bring all back to the platform.|
 C We Can Rebuild Him|QID|57933|M|54.49,40.38|QO|6|Z|Bastion!The Shadowlands|NC|N|Place all the armor scraps.|
 C We Can Rebuild Him|QID|57933|M|54.71,40.40|QO|7|Z|Bastion!The Shadowlands|CHAT|N|Talk to Pelodis.|
 T We Can Rebuild Him|QID|57933|M|54.81,41.19|Z|Bastion!The Shadowlands|N|To Pelodis.|
