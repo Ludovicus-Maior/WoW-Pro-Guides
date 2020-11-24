@@ -2,7 +2,6 @@
 	<Script file="BC_Netherstorm.lua"/>
 	<Script file="BFA_BlackEmpire_Outro.lua"/>
 	<Script file="BFA_Mechagon.lua"/>
-	<Script file="BFA_SL_Prepatch_Event.lua"/>
 	<Script file="CATA_Deepholm.lua"/>
 	<Script file="CATA_Eastern_Plaguelands.lua"/>
 	<Script file="CATA_Mount_Hyjal.lua"/>

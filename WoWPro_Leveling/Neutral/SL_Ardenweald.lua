@@ -5,7 +5,6 @@ WoWPro:GuideName(guide,"Ardenweald")
 WoWPro:GuideNextGuide(guide, "Revendreth")
 WoWPro:GuideSteps(guide, function()
 return [[
-N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
 ; List of Treasures in Ardenweald a few in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
 ; $ Cache of the Moon|CS|M|40.3,52.6;39.7,54.4;39.0,57.0;38.5,58.1;38.9,60.1;63.9,37.5|Z|Ardenweald!The Shadowlands|N|WH - Need to find Twinklestar's 5 tools in the Garden of Night, at each map point.|ITEM|180731|ACH|14313;5|
 ; $ Dreamsong Heart|M|37.6,37.1|Z|Ardenweald!The Shadowlands|N|WH - Need Jumping Mushroom, hidden in Dreamsong Feen to get to the top of the tree.|ITEM|179510|ACH|14313;6|
