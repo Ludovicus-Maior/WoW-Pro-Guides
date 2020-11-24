@@ -171,7 +171,7 @@ C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.66|Z|Maldraxxus|QO|5
 T ...Even The Most Ridiculous Request!|QID|58068|M|54.10,51.39|Z|Maldraxxus|N|To Overseer Kalvaros.|
 A Juicing Up|QID|58088|M|53.86,50.61|Z|Maldraxxus|N|From Scrapper Minoire.|PRE|58068|RANK|2|
 T I Could Be A Contender|QID|62785|M|54.44,48.65|Z|Maldraxxus|N|To Louison.|
-A How To Get A Head|QID|59750|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|RANK|2|
+A How to Get a Head|QID|59750|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|RANK|2|
 A The Last Guy|QID|59781|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|RANK|2|
 A WANTED: Appraiser Vix|QID|59867|M|54.15,47.48|Z|Maldraxxus|ELITE|N|From Wanted Poster.|RANK|2|TOF|;seems odd this is TOF, wanted posters weren't for TOF in Bastion
 T Juicing Up|QID|58088|M|53.72,47.85|Z|Maldraxxus|N|To So'narynar.|
@@ -179,17 +179,17 @@ A Side Effects|QID|58090|M|53.72,47.85|Z|Maldraxxus|N|From So'narynar.|PRE|58088
 C Side Effects|QID|58090|M|53.70,47.88|Z|Maldraxxus|QO|1|N|Buy the Necessary Enchancers from Au'larrynar.|
 C Side Effects|QID|58090|M|53.87,50.53|Z|Maldraxxus|QO|2|CHAT|N|Deliver the Enhancers to Scrapper Minoire.|
 T Side Effects|QID|58090|M|54.08,51.27|Z|Maldraxxus|N|To Overseer Kalvaros.|
-C How To Get A Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|S|
+C How to Get a Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|S|
 K Gristlebeak|QID|61991^58837|QO|1|M|57.71,51.57|Z|Maldraxxus|T|Gristlebeak|N|Break Unusual Eggs at marked spot, Silver elite comes down to defend her young.|ITEM|182196|RARE|ACH|14308;18|
 $ Strange Growth|QID|59429|M|55.88,38.98|Z|Maldraxxus|N|Pull on the strange growth to find a bit of treasure for you.|ITEM|182607|RANK|2|
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|S|
 C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Kill Deadeye the giant Bloodtusk.|
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|US|
 f Keres' Rest|ACTIVE|59781|M|53.81,30.71|Z|Maldraxxus|N|At Fly-eyed Eliera.|
-C How To Get A Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
+C How to Get a Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
 A WANTED: The Key of Eyes|QID|62462|M|53.08,41.41|Z|Maldraxxus|ELITE|N|From Wanted Poster.|RANK|2|TOF|
-C How To Get A Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|
-T How To Get A Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
+C How to Get a Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|
+T How to Get a Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
 T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
 A Stuff We All Get|QID|58575|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|RANK|2|
 A Team Spirit|QID|59800|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|RANK|2|
