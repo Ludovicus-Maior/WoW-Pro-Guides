@@ -12,7 +12,7 @@ return [[
 ; $ Windsmith's Tools|M|35.8,48.1|Z|Bastion!The Shadowlands|N|WH - Requires Broken Kyrian Flute, dropped by Agitated Etherwyrms|T|Agitated Etherwyrm|ITEM|180064|ACH|14311;5|
 ; $ Gift of Agthia|M|35.1,58.0|Z|Bastion!The Shadowlands|N|WH - Interact with Agthia's Flame at 39.1,54.4 to obtain Proof of Courage, then complete her test to unlock treasure.|ITEM|180063|ACH|14311;6|
 ; $ Gift of Chyrus|M|70.5,36.5|Z|Bastion!The Shadowlands|N|WH - /kneel in front of treasure to Obtain Proof of Humility.|ACH|14311;7|
-; $ Gift of Devos|M|27.6,21.7|Z|Bastion!The Shadowlands|N|WH - Take Flame of Devotion at 23.9,24.8, and bring it to the brazier, Obatining Proof of Loyalty.|ITEM|179977|ACH|14311;8|
+; $ Gift of Devos|M|27.6,21.7|Z|Bastion!The Shadowlands|N|WH - Take Flame of Devotion at 23.9,24.8, and bring it to the brazier, Obtaining Proof of Loyalty.|ITEM|179977|ACH|14311;8|
 ; $ Experimental Construct Part|M|51.4,17.9|Z|Bastion!The Shadowlands|N|WH - Requires Unstable Construct Anima, drops from nearby mobs.|ITEM|183609|ACH|14311;12|
 ; $ Memorial Offerings|M|56.5,17.2|Z|Bastion!The Shadowlands|N|WH - Buy Memorial Wine from Kobri, use on drink tray near treasure to get the Key.|ACH|14311;13|
 ; $ Gift of Vesiphone|M|65.2,70.3|Z|Bastion!The Shadowlands|N|WH - Ring nearby bell, while standing under waterfall for Proof of Purity, to unlock treasure.|ITEM|180859|ACH|14311;14|
@@ -144,40 +144,40 @@ K Sigilback|QID|60570|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Ora
 K Aethon|QID|58526|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179487|ACH|14307;28|
 K Cloudtail|QID|60571|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179488|ACH|14307;17|
 K Nemaeus|QID|60569|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179485|ACH|14307;3|
-C A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
-T A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion!The Shadowlands|N|To Sika.|MS|
-A The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
-A The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
-A The Cycle of Anima: Drought Conditions|QID|57265|M|52.70,82.60|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57711|MS|
+C A Forge Gone Cold|QID|57711|M|52.65,82.59|Z|Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
+T A Forge Gone Cold|QID|57711|M|52.65,82.59|Z|Bastion!The Shadowlands|N|To Sika.|MS|
+A The Cycle of Anima: Etherwyrms|QID|57263|M|52.65,82.59|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
+A The Cycle of Anima: Flower Power|QID|57267|M|52.65,82.59|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
+A The Cycle of Anima: Drought Conditions|QID|57265|M|52.68,82.79|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57711|MS|
 A Suggested Reading|QID|57712|M|55.36,83.42|Z|Bastion!The Shadowlands|N|From Aspirant Akimos.|RANK|2|
 C Suggested Reading|QID|57712|M|56.04,82.81|QO|2|Z|Bastion!The Shadowlands|CHAT|N|Talk to Aspirant Leda for "Worlds Beyond Counting".|
-C Suggested Reading|QID|57712|M|52.71,82.61|QO|3|Z|Bastion!The Shadowlands|N|Kill Ethtywyrms till "Bear Witness: The Watcher's Code" drops.|S|
+C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|Bastion!The Shadowlands|N|Kill Etherwyrms until "Bear Witness: The Watcher's Code" drops.|S|
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion!The Shadowlands|N|Slay Etherwyrms to collect Glowing Viscera.|S|MS|
 C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion!The Shadowlands|NC|N|Collect Adrima's Lily, a blue flower growing in the area.|S|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the Anima Extractor.|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|2|Z|Bastion!The Shadowlands|N|Click anywhere in the anima extractor to start the fight, then defend the Anima Extractor.|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|3|Z|Bastion!The Shadowlands|NC|N|Collect a Condensed Anima Mote from the Anima Canister on the ground in the middle of the square.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the Anima Extractor.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|2|Z|Bastion!The Shadowlands|N|Click anywhere in the anima extractor to start the fight, then defend the Anima Extractor.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|3|Z|Bastion!The Shadowlands|NC|N|Collect a Condensed Anima Mote from the Anima Canister on the ground in the middle of the square.|MS|
 C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion!The Shadowlands|NC|N|Finish collecting Adrima's Lily.|US|MS|
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion!The Shadowlands|N|Finish collecting the needed Glowing Viscera from Etherwyrms.|US|MS|
 C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|Bastion!The Shadowlands|N|Keep killing Etherwyrms till "Bear Witness: The Watcher's Code" drops.|US|
-C Suggested Reading|QID|57712|M|52.97,82.45|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Talk to Aspirant Ikaran for "The Infinite Treatises".|
-T The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion!The Shadowlands|N|To Sika.|MS|
-T The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion!The Shadowlands|N|To Sika.|MS|
+C Suggested Reading|QID|57712|M|52.94,82.38|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Talk to Aspirant Ikaran for "The Infinite Treatises".|
+T The Cycle of Anima: Etherwyrms|QID|57263|M|52.65,82.59|Z|Bastion!The Shadowlands|N|To Sika.|MS|
+T The Cycle of Anima: Flower Power|QID|57267|M|52.65,82.59|Z|Bastion!The Shadowlands|N|To Sika.|MS|
 T The Cycle of Anima: Drought Conditions|QID|57265|M|52.68,82.78|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A Light the Forge, Forgelite|QID|59920|M|52.68,82.78|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57265&57263&57267|MS|
-C Light the Forge, Forgelite|QID|59920|CS|M|52.63,82.70;52.81,83.46|Z|Bastion!The Shadowlands|QO|1|NC|N|Before you follow Sophone, click on the Raw Materials on the ground in front of you and carry them to the Basin.|MS|
-C Light the Forge, Forgelite|QID|59920|M|52.78,83.39|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the vents on either side of the forge.|MS|
-C Light the Forge, Forgelite|QID|59920|M|52.78,83.39|QO|3|Z|Bastion!The Shadowlands|NC|N|Click the rubbish piles and broken barrels on the ground.|MS|
-T Light the Forge, Forgelite|QID|59920|M|52.91,83.43|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
-A The Work of One's Hands|QID|57713|M|52.91,83.43|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|59920|MS|
+C Light the Forge, Forgelite|QID|59920|CS|M|52.63,82.70;52.81,83.46|Z|Bastion!The Shadowlands|QO|1|NC|N|Before you follow Sophone, click on the Raw Materials on the ground near you and carry them to the Basin. Click on the Basin to complete this step.|MS|
+C Light the Forge, Forgelite|QID|59920|M|52.81,83.37|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the vents on either side of the forge.|MS|
+C Light the Forge, Forgelite|QID|59920|M|52.81,83.37|QO|3|Z|Bastion!The Shadowlands|NC|N|Click the rubbish piles and broken barrels on the ground.|MS|
+T Light the Forge, Forgelite|QID|59920|M|52.95,83.50|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
+A The Work of One's Hands|QID|57713|M|52.95,83.50|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|59920|MS|
 C The Work of One's Hands|QID|57713|M|52.80,83.38|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|2|Z|Bastion!The Shadowlands|NC|N|Add fuel to the forge.|MS|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|3|Z|Bastion!The Shadowlands|NC|N|Open a vent.|MS|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|4|Z|Bastion!The Shadowlands|NC|N|Keep bar in middle, if it goes left add coal, if it goes right vent.|MS|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|5|Z|Bastion!The Shadowlands|NC|N|Click on the armor that is resting atop the anvil and wait for the step to complete.|MS|
-T The Work of One's Hands|QID|57713|M|52.91,83.43|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
-A The True Crucible Awaits|QID|57908|M|56.44,81.57|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57713|MS|
-T Suggested Reading|QID|57712|M|55.35,83.40|Z|Bastion!The Shadowlands|N|To Aspirant Akimos.|
+C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|2|Z|Bastion!The Shadowlands|NC|N|Click on the Raw Materials in the Basin.|MS|
+C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|3|Z|Bastion!The Shadowlands|NC|N|Click on one of the vents.|MS|
+C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|4|Z|Bastion!The Shadowlands|NC|N|Keep bar in middle, if it goes left, click the Raw Materials; if it goes right, click the vent.|MS|
+C The Work of One's Hands|QID|57713|M|52.85,83.33|QO|5|Z|Bastion!The Shadowlands|NC|N|Click on the armor that is resting atop the anvil and wait for the step to complete.|MS|
+T The Work of One's Hands|QID|57713|M|52.95,83.50|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
+A The True Crucible Awaits|QID|57908|M|52.95,83.50|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57713|MS|
+T Suggested Reading|QID|57712|M|55.36,83.42|Z|Bastion!The Shadowlands|N|To Aspirant Akimos.|
 C The True Crucible Awaits|QID|57908|M|52.79,82.58|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia and Pelagos in Aspirant's Crucible.|MS|
 T The True Crucible Awaits|QID|57908|M|51.76,81.07|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A Assessing Your Strength|QID|57288|M|51.76,81.07|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57908|MS|
@@ -223,12 +223,12 @@ C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|Bastion!The Shadowlands|N|[
 C A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion!The Shadowlands|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
 T A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion!The Shadowlands|N|To Acolyte Amalthina.|
 A More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|62714|RANK|2|
-C The Temple of Purity|QID|57270|M|54.09,73.62|Z|Bastion!The Shadowlands|NC|N|Find Erida in the Temple of Purity.|MS|
+C The Temple of Purity|QID|57270|M|54.09,73.62|Z|Bastion!The Shadowlands|NC|N|Find Eridia in the Temple of Purity.|MS|
 T The Temple of Purity|QID|57270|M|54.09,73.62|N|To Eridia.|MS|
 A Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|Bastion!The Shadowlands|N|Autoaccepted as you enter the temple grounds.|TOF|RANK|2|
 C Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|Bastion!The Shadowlands|S!US|N|Kill stuff, rescue terrified stewards, destroy scrolls, do quests.|TOF|
 A A Temple in Need|QID|57977|M|54.09,73.62|Z|Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|57270|MS|
-A On the Edge of a Revelation|QID|57264|M|56.68,74.41|Z|Bastion!The Shadowlands|N|From Desciple Kosmas.|PRE|57270|MS|
+A On the Edge of a Revelation|QID|57264|M|56.68,74.41|Z|Bastion!The Shadowlands|N|From Disciple Kosmas.|PRE|57270|MS|
 C On the Edge of a Revelation|QID|57264|M|57.89,73.48|Z|Bastion!The Shadowlands|CHAT|N|Chat with the Vulnerable Aspirants to inspire them to action.|S|MS|
 C A Temple in Need|QID|57977|M|57.36,71.46|Z|Bastion!The Shadowlands|QO|1|N|Talk to Disciple Fotima, then kill mobs that spawn.|MS|
 C A Temple in Need|QID|57977|M|57.95,75.87|Z|Bastion!The Shadowlands|QO|2|NC|N|Talk to Disciple Helene, then click the Tauren as they appear.|MS|
@@ -247,12 +247,12 @@ C Step Back From That Ledge, My Friend|QID|57717|M|60.15,79.03|Z|Bastion!The Sha
 T Step Back From That Ledge, My Friend|QID|57717|M|59.31,77.05|Z|Bastion!The Shadowlands|N|To Eridia.|MS|
 A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 A The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
-C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|Cleanse the Temple by killing all the hostile mobs and rescuiing the terrified stewards.|S|MS|
+C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|Cleanse the Temple by killing all the hostile mobs and rescuing the terrified stewards.|S|MS|
 A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion!The Shadowlands|N|From The Scroll in front of the Vespar of Harmony.|PRE|57717|MS|
 A An Inspired Moral Inventory|QID|57444|M|54.03,73.94|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|RANK|2|
 C An Inspired Moral Inventory|QID|57444|M|57.98,75.81|Z|Bastion!The Shadowlands|T|Forsworn Ascended|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Find the scrolls around the area.|S|MS|
-C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|Bastion!The Shadowlands|QO|2|NC|N|Click the bell to clease the Vesper of Harmony.|MS|
+C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|Bastion!The Shadowlands|QO|2|NC|N|Click the bell to cleanse the Vesper of Harmony.|MS|
 K Fallen Acolyte Erisne|QID|58222|QO|1|RARE|M|60.20,72.99|Z|Bastion!The Shadowlands|N|This silver elite paths around the Vesper of Harmony.|ITEM|180444|ACH|14307;16|
 C A Once Sweet Sound|QID|57037|M|57.32,71.34|Z|Bastion!The Shadowlands|NC|QO|1|N|Click the bell to cleanse the Vesper of Purity.|MS|
 $ Vesper of Virtues|QID|62841^60478|M|58.66,71.39|Z|Bastion!The Shadowlands|N|Treasure is an item that buffs and gives small Heal.|ITEM|179982|ACH|14311;9|
@@ -296,7 +296,7 @@ A The Mnemonic Locus|QID|58800|M|57.17,61.66|Z|Bastion!The Shadowlands|N|From Mi
 C The Mnemonic Locus|QID|58800|M|57.37,61.76|Z|Bastion!The Shadowlands|NC|N|Stand in blue circle next to Mikanikos and click the "[color=40C7EB]Anima Conduit[/color]".|MS|EAB|
 T The Mnemonic Locus|QID|58800|M|57.54,61.83|Z|Bastion!The Shadowlands|N|To Mikanikos.|MS|
 A What's In a Memory?|QID|58977|M|57.54,61.83|Z|Bastion!The Shadowlands|N|From Mikanikos.|PRE|58800|MS|
-C What's In a Memory?|QID|58977|M|57.54,61.83|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Tell Mikanicos you are ready.|MS|
+C What's In a Memory?|QID|58977|M|57.54,61.83|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Tell Mikanikos you are ready.|MS|
 C What's In a Memory?|QID|58977|M|PLAYER|QO|2|Z|Bastion!The Shadowlands|N|kill the hostiles to collect the memories.|MS|
 C What's In a Memory?|QID|58977|M|57.61,61.70|QO|3|Z|Bastion!The Shadowlands|NC|N|Click the Fragment of Lysonia.|MS|
 T What's In a Memory?|QID|58977|M|57.51,61.72|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
@@ -317,13 +317,13 @@ C Mnemis, At Your Service|QID|58980|M|59.90,58.18|QO|2|Z|Bastion!The Shadowlands
 ;$ Lost Disciple's Notes|QID|61048|M|59.33,60.92|Z|Bastion!The Shadowlands|N|Treasure for you. Midway down waterfall on a rock.|ACH|14311;10|
 A You'll Never Walk Alone|QID|62170|M|59.33,60.92|N|From Lost Disciple's Notes found midway down waterfall.|;$
 C Mnemis, At Your Service|QID|58980|M|60.59,61.89|QO|4|Z|Bastion!The Shadowlands|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
-C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion!The Shadowlands|N|Fishish repelling the threat before turning in the next quest if you like having Kleia tanking for you.|US|
+C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion!The Shadowlands|N|Finish repelling the threat before turning in the next quest if you like having Kleia tanking for you.|US|
 t Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion!The Shadowlands|N|Auto Turn-in.|
 T Mnemis, At Your Service|QID|58980|M|58.87,65.25|Z|Bastion!The Shadowlands|N|To Locus-Keeper Mnemis.|MS|
 A The Vault of the Archon|QID|58843|M|58.87,65.25|Z|Bastion!The Shadowlands|N|From Locus-Keeper Mnemis.|PRE|58980|MS|
 C The Vault of the Archon|QID|58843|M|58.87,65.25|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the two Vault Guardian statues behind you to gain entry.|MS|
 C The Vault of the Archon|QID|58843|M|57.93,68.58|QO|2|Z|Bastion!The Shadowlands|CHAT|N|Run into the vault, talk with Mikanikos once you find him toward the back.|MS|
-C The Vault of the Archon|QID|58843|M|57.70,67.16|QO|3|Z|Bastion!The Shadowlands|N|Help Kliea kill the waves of enemies attacking her.|MS|
+C The Vault of the Archon|QID|58843|M|57.70,67.16|QO|3|Z|Bastion!The Shadowlands|N|Help Kleia kill the waves of enemies attacking her.|MS|
 C The Vault of the Archon|QID|58843|M|56.16,67.64|QO|4|Z|Bastion!The Shadowlands|NC|N|Go down the tunnel into the inner vault.|MS|
 T The Vault of the Archon|QID|58843|M|56.16,67.64|Z|Bastion!The Shadowlands|N|To Locus-Keeper Mnemis.|MS|
 A A Paragon's Reflection|QID|60180|M|56.16,67.64|Z|Bastion!The Shadowlands|N|From Locus-Keeper Mnemis.|PRE|58843|MS|
@@ -395,7 +395,7 @@ C Go in Service|QID|59196|M|55.97,52.75|Z|Bastion!The Shadowlands|NC|N|Click the
 T Go in Service|QID|59196|M|52.89,48.04|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 T Hero's Rest|QID|62718|M|52.83,47.88|Z|Bastion!The Shadowlands|N|To Kalisthene.|
 A Your Personal Assistant|QID|59426|M|52.83,47.88|Z|Bastion!The Shadowlands|N|From Kalisthene.|PRE|59196|MS|
-C Your Personal Assistant|QID|59426|M|PLAYER|Z|Bastion!The Shadowlands|CHAT|N|Talk to one of the stewards to make it your freind. Dispite the warning, seems to be no significant difference between them.|MS|
+C Your Personal Assistant|QID|59426|M|PLAYER|Z|Bastion!The Shadowlands|CHAT|N|Talk to one of the stewards to make it your friend. Despite the warning, seems to be no significant difference between them.|MS|
 T Your Personal Assistant|QID|59426|M|52.83,47.88|Z|Bastion!The Shadowlands|N|To Kalisthene.|MS|
 A Steward at Work|QID|59197|M|52.83,47.88|Z|Bastion!The Shadowlands|N|From Kalisthene.|PRE|59426|MS|
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion!The Shadowlands|QO|1|NC|N|Use the new summon steward spell you just received.|MS|
@@ -446,26 +446,26 @@ A Rip and Tear|QID|60008|M|40.61,55.20|Z|Bastion!The Shadowlands|N|From Thanikos
 A Stay Scrappy|QID|60007|M|40.72,55.48|Z|Bastion!The Shadowlands|N|From Mikanikos.|PRE|60006|MS|
 A Fight Another Day|QID|60009|M|41.30,54.36|Z|Bastion!The Shadowlands|N|From Disciple Apolon.|PRE|60006|MS|
 C Rip and Tear|QID|60008|M|40.25,51.07|Z|Bastion!The Shadowlands|N|Kill all the hostile mobs.|S|MS|
-C Fight Another Day|QID|60009|M|40.25,51.07|Z|Bastion!The Shadowlands|NC|N|Free the Acended.|S|MS|
+C Fight Another Day|QID|60009|M|40.25,51.07|Z|Bastion!The Shadowlands|NC|N|Free the Ascended.|S|MS|
 C Stay Scrappy|QID|60007|M|40.76,52.21|QO|1|Z|Bastion!The Shadowlands|NC|N|Click on the Anima Conflux.|MS|
 $ Stolen Equipment|QID|61044|M|40.51,49.81|Z|Bastion!The Shadowlands|N|Click for another of the treasures of Bastion.|ACH|14311;11|
 C Stay Scrappy|QID|60007|M|39.48,48.99|QO|3|Z|Bastion!The Shadowlands|NC|N|Click the Archonic Resonator.|MS|
 C Stay Scrappy|QID|60007|M|39.69,52.66|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the Eternity Plating.|MS|
-C Fight Another Day|QID|60009|M|40.25,51.07|Z|Bastion!The Shadowlands|NC|N|Free the Acended.|US|MS|
+C Fight Another Day|QID|60009|M|40.25,51.07|Z|Bastion!The Shadowlands|NC|N|Free the Ascended.|US|MS|
 C Rip and Tear|QID|60008|M|40.25,51.07|Z|Bastion!The Shadowlands|N|Kill all the hostile mobs.|US|MS|
 T Rip and Tear|QID|60008|M|PLAYER|Z|Bastion!The Shadowlands|N|To Thanikos.|MS|
 T Fight Another Day|QID|60009|M|41.30,54.42|Z|Bastion!The Shadowlands|N|To Disciple Apolon.|MS|
-T Stay Scrappy|QID|60007|M|40.72,55.48|Z|Bastion!The Shadowlands|N|To Mikanicos.|MS|
-A Clear as Crystal|QID|60053|M|40.72,55.48|Z|Bastion!The Shadowlands|N|From Mikanicos.|PRE|60007&60008&60009|MS|
+T Stay Scrappy|QID|60007|M|40.72,55.48|Z|Bastion!The Shadowlands|N|To Mikanikos.|MS|
+A Clear as Crystal|QID|60053|M|40.72,55.48|Z|Bastion!The Shadowlands|N|From Mikanikos.|PRE|60007&60008&60009|MS|
 A Double Tap|QID|60052|M|PLAYER|Z|Bastion!The Shadowlands|N|From Thanikos.|PRE|60007&60008&60009|MS|
 C Clear as Crystal|QID|60053|M|40.33,57.85|Z|Bastion!The Shadowlands|NC|N|Click on the green crystlas littered around to empower the anima conflux.|S|MS|
 C Double Tap|QID|60052|M|40.33,57.85|Z|Bastion!The Shadowlands|N|Kill the mobs then use the Archonic Resonator crystal to burn the bodies.|U|178140|MS|
-T Clear as Crystal|QID|60053|M|39.78,55.17|Z|Bastion!The Shadowlands|N|To Mikanicos|MS|
+T Clear as Crystal|QID|60053|M|39.78,55.17|Z|Bastion!The Shadowlands|N|To Mikanikos|MS|
 T Double Tap|QID|60052|M|39.48,55.25|Z|Bastion!The Shadowlands|N|To Thanikos.|MS|
 A The Final Countdown|QID|60054|M|39.48,55.25|Z|Bastion!The Shadowlands|N|From Thanikos.|PRE|60052|MS|
 C The Final Countdown|QID|60054|M|39.48,55.25|CHAT|QO|1|Z|Bastion!The Shadowlands|N|Speak to Thanikos.|MS|
 C The Final Countdown|QID|60054|M|39.48,55.25|QO|2|Z|Bastion!The Shadowlands|N|Fight 2 waves of mobs. Then kill Marrowmaw.|MS|
-C The Final Countdown|QID|60054|M|PLAYER|QO|3|Z|Bastion!The Shadowlands|V|N|Hop into the collossus and press the '2' key to clear the blockade.|MS|
+C The Final Countdown|QID|60054|M|PLAYER|QO|3|Z|Bastion!The Shadowlands|V|N|Hop into the Colossus and press the '2' key to clear the blockade.|MS|
 T The Final Countdown|QID|60054|M|38.96,55.24|Z|Bastion!The Shadowlands|N|To Thanikos.|MS|
 A A Time for Courage|QID|60055|M|38.96,55.24|Z|Bastion!The Shadowlands|N|From Thanikos.|PRE|60054|MS|
 C A Time for Courage|QID|60055|M|38.96,55.24|CHAT|QO|1|Z|Bastion!The Shadowlands|N|Speak to Thanikos.|MS|
@@ -530,18 +530,18 @@ T Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion!The Shadowlands|N|To Nemea
 A Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion!The Shadowlands|N|From Nemea.|PRE|58037|RANK|2|
 A All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion!The Shadowlands|N|From Nemea.|PRE|58037|RANK|2|
 C All Natural Chews|QID|58038|M|56.17,45.56|Z|Bastion!The Shadowlands|N|Kill the cloudstriders in the area.|S|
-C Larion at Large|QID|58039|QO|1|M|56.00,44.18|Z|Bastion!The Shadowlands|NC|N|Follow Andira till she stops moving and then click on her to remve the thorn.|
+C Larion at Large|QID|58039|QO|1|M|56.00,44.18|Z|Bastion!The Shadowlands|NC|N|Follow Andira till she stops moving and then click on her to remove the thorn.|
 C Larion at Large|QID|58039|QO|2|M|57.18,39.40|NC|Z|Bastion!The Shadowlands|N|Bring Andira back.|
 C All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion!The Shadowlands|N|Kill the cloudstriders in the area.|US|
 T All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion!The Shadowlands|N|To Nemea.|
 T Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion!The Shadowlands|N|To Nemea.|
 A With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion!The Shadowlands|N|From Nemea.|PRE|58038&58039|RANK|2|
 A Providing for the Pack|QID|58041|M|57.26,39.24|Z|Bastion!The Shadowlands|N|From Nemea.|PRE|58038&58039|RANK|2|
-C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion!The Shadowlands|N|Kill Juvinile Cloudfeathers.|S|
+C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion!The Shadowlands|N|Kill Juvenile Cloudfeathers.|S|
 C WANTED:Darkwing|QID|60366|M|56.20,47.99|Z|Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Use the whistle at the nest.|U|178791|S|
 C With Lance and Larion|QID|58040|M|55.93,47.21|Z|Bastion!The Shadowlands|N|Target Cloudfeather Greatwings and use the lance.|T|Cloudfeather Greatwing|U|173692|
 C WANTED:Darkwing|QID|60366|M|56.20,47.99|Z|Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Use the whistle at the nest.|U|178791|US|
-C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion!The Shadowlands|N|Kill Juvinile Cloudfeathers.|US|
+C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion!The Shadowlands|N|Kill Juvenile Cloudfeathers.|US|
 T With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion!The Shadowlands|N|To Nemea.|
 T Providing for the Pack|QID|58041|M|57.26,39.24|Z|Bastion!The Shadowlands|N|To Nemea.|
 A On Larion Wings|QID|58042|M|57.26,39.24|Z|Bastion!The Shadowlands|N|From Nemea.|PRE|58040&58041|RANK|2|
