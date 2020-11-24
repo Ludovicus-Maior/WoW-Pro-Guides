@@ -361,7 +361,7 @@ A Shadow's Fall|QID|57555|M|46.96,63.44|Z|Bastion!The Shadowlands|N|From Agthia.
 C Shadow's Fall|QID|57555|M|44.86,68.68|Z|Bastion!The Shadowlands|N|Kill Tezulat the Annihilator, the big void guy.|T|Tezulat the Annihilator|
 $ Worthy Aspirant's Cache|QID|61091|M|46.98,63.43|Z|Bastion!The Shadowlands|N|Challenge Echo of Aella to a fight.(paths around this area), After dueling, he leaves behind a treasure for you. Check off manually if you can't find him or don't want to wait.|ITEM|180062|RARE|RANK|2|
 T Shadow's Fall|QID|57555|M|46.99,63.45|Z|Bastion!The Shadowlands|N|To Keeper Mnemis.|
-; K Basilofos, of the Hill|QID|62158|M|48.48,50.17|Z|Bastion!The Shadowlands|T|Basilofos|N|Move around this area until you get a Mark above you that looks like "Purple Eyes".\nKeep it for a while, then the rare's mark will appear on map.  About 30 seconds later, the mob will fly down.|ITEM|182655|RARE|ACH|14307;6|  ; or qid 60897 ?  both show up in QuestChanged.
+K Basilofos, of the Hill|QID|62158|QO|1|M|48.48,50.17|Z|Bastion!The Shadowlands|T|Basilofos|N|Move around this area until you get a Mark above you that looks like "Purple Eyes".\nKeep it for a while, then the rare's mark will appear on map.  About 30 seconds later, the mob will fly down.|ITEM|182655|RARE|ACH|14307;6|  ; or qid 60897 ?  both show up in QuestChanged.
 
 ; Side Quest stuff - In the Garden of Respite
 A Garden in Turmoil|QID|57529|M|52.34,61.38|Z|Bastion!The Shadowlands|N|From Tamesis.|RANK|2|
