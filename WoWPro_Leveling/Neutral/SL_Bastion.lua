@@ -19,7 +19,6 @@ return [[
 ; $ Gift of Thenios|M|40.2,18.2|Z|Bastion!The Shadowlands|N|WH - Obtain Proof of Wisdom, using nearby teleporter, and light the incenses in the correct order.\nClick Incense of Patience\nClick Incense of Knowledge\nClick Incense of Insight\n[color=FF0000]SKIP[/color] Incense of Judgement\nClick Anima Orb\nClick Incense of Judgement on the FIFTH platform, then port back.|ACH|14311;15|
 
 ; List of Rares in Bastion, only 8 in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
-; K Herculon|M|42.67,80.05|Z|Bastion!The Shadowlands|T|Herculon|N|WH - Entrance to room with inactive Rare.  Collect Depleted Anima Canisters to collect 10 Weak Anima Motes.  Interact with rare and "Supply Weak Anima Mote" 10 times.|RARE|ACH|14307;1|
 ; K Wingflayer the Cruel|M|41.67,54.77|Z|Bastion!The Shadowlands|T|Wingflayer the Cruel|N|WH - Use Anima Conductor in Elysian Hold to channel anima to The Temple of Courage.\nThen use Horn of courage at these Coords.|ITEM|182749|RARE|ACH|14307;4|
 ; K Dionae|M|44.87,48.82;40.92,47.35|Z|Bastion!The Shadowlands|CS|T|Dionae|N|WH - Start at first coord, turn Left and follow passage down between rocks. Just follow to entrance to alcove at second coords.\nAfter Dionae loses some health she casts a shield that you have to use the four Anima Spears to break the shield.|RARE|ACH|14307;5|
 ; K Unstable Memory|M|43.31,25.76|Z|Bastion!The Shadowlands|T|Unstable Memory|N|WH - TAg Unstable Memory Fragments into others about 10 times to turn them into Unstable Memory.|RARE|ACH|14307;8|
@@ -105,9 +104,12 @@ A Trouble in Paradise|QID|60735|M|42.09,78.30|Z|Bastion!The Shadowlands|N|From K
 C Trouble in Paradise|QID|60735|M|42.10,78.31|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia and let her handle the situation.|MS|
 T Trouble in Paradise|QID|60735|M|42.34,78.34|Z|Bastion!The Shadowlands|N|To Kalisthene.|MS|
 A Walk the Path, Aspirant|QID|57261|M|42.34,78.34|Z|Bastion!The Shadowlands|N|From Kalisthene.|PRE|60735|MS|
+l Weak Anima Mote|QID|57705|L|172451 10|M|42.52,80.57|Z|Bastion!The Shadowlands|RARE|N|Pick up 10 Weak Anima Motes from the Depleated Anima Canisters outside the doorway.|ACH|14307;1|
+K Herculon|QID|57705|QO|1|M|42.88,80.62|Z|Bastion!The Shadowlands|T|Herculon|N|Interact with Hurculon and "Supply Weak Anima Mote" 10 times to activate. Chest contains reward behide where Herculon was.|RARE|ACH|14307;1|
+A Functioning Anima Core|QID|62200|PRE|62201|M|42.94,83.00|Z|Bastion!The Shadowlands|N|From item just looted from Hurculon's Aspirant Chest.|
 C Walk the Path, Aspirant|QID|57261|M|46.05,79.31|QO|1|Z|Bastion!The Shadowlands|NC|N|Take the road east then the north fork(left) out of the Vestibule and Kleia will travel with you.|MS|
 C Walk the Path, Aspirant|QID|57261|M|46.31,79.00|QO|2|Z|Bastion!The Shadowlands|NC|N|Stand in blue circle and click the "[color=40C7EB]Kleia's Perspective[/color]" Action Ability.|EAB|MS|
-C Walk the Path, Aspirant|QID|57261|M|48.52,73.21|QO|3|Z|Bastion!The Shadowlands|NC|N|Travel to Aspirant's Rest.|MS|
+C Walk the Path, Aspirant|QID|57261|M|48.39,72.97|QO|3|Z|Bastion!The Shadowlands|NC|N|Travel to Aspirant's Rest.|MS|
 T Walk the Path, Aspirant|QID|57261|M|48.20,72.60|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A A Soulbind In Need|QID|57677|M|42.34,78.34|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57261|MS|
 A The Things That Haunt Us|QID|57676|M|42.34,78.34|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57261|MS|
@@ -142,40 +144,40 @@ K Sigilback|QID|60570|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Ora
 K Aethon|QID|58526|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179487|ACH|14307;28|
 K Cloudtail|QID|60571|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179488|ACH|14307;17|
 K Nemaeus|QID|60569|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179485|ACH|14307;3|
-C A Forge Gone Cold|QID|57711|M|52.65,82.59|Z|Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
-T A Forge Gone Cold|QID|57711|M|52.65,82.59|Z|Bastion!The Shadowlands|N|To Sika.|MS|
-A The Cycle of Anima: Etherwyrms|QID|57263|M|52.65,82.59|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
-A The Cycle of Anima: Flower Power|QID|57267|M|52.65,82.59|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
-A The Cycle of Anima: Drought Conditions|QID|57265|M|52.68,82.79|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57711|MS|
+C A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
+T A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion!The Shadowlands|N|To Sika.|MS|
+A The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
+A The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
+A The Cycle of Anima: Drought Conditions|QID|57265|M|52.70,82.60|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57711|MS|
 A Suggested Reading|QID|57712|M|55.36,83.42|Z|Bastion!The Shadowlands|N|From Aspirant Akimos.|RANK|2|
 C Suggested Reading|QID|57712|M|56.04,82.81|QO|2|Z|Bastion!The Shadowlands|CHAT|N|Talk to Aspirant Leda for "Worlds Beyond Counting".|
-C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|Bastion!The Shadowlands|N|Kill Etherwyrms until "Bear Witness: The Watcher's Code" drops.|S|
+C Suggested Reading|QID|57712|M|52.71,82.61|QO|3|Z|Bastion!The Shadowlands|N|Kill Ethtywyrms till "Bear Witness: The Watcher's Code" drops.|S|
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion!The Shadowlands|N|Slay Etherwyrms to collect Glowing Viscera.|S|MS|
 C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion!The Shadowlands|NC|N|Collect Adrima's Lily, a blue flower growing in the area.|S|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the Anima Extractor.|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|2|Z|Bastion!The Shadowlands|N|Click anywhere in the anima extractor to start the fight, then defend the Anima Extractor.|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|3|Z|Bastion!The Shadowlands|NC|N|Collect a Condensed Anima Mote from the Anima Canister on the ground in the middle of the square.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the Anima Extractor.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|2|Z|Bastion!The Shadowlands|N|Click anywhere in the anima extractor to start the fight, then defend the Anima Extractor.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|3|Z|Bastion!The Shadowlands|NC|N|Collect a Condensed Anima Mote from the Anima Canister on the ground in the middle of the square.|MS|
 C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion!The Shadowlands|NC|N|Finish collecting Adrima's Lily.|US|MS|
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion!The Shadowlands|N|Finish collecting the needed Glowing Viscera from Etherwyrms.|US|MS|
 C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|Bastion!The Shadowlands|N|Keep killing Etherwyrms till "Bear Witness: The Watcher's Code" drops.|US|
-C Suggested Reading|QID|57712|M|52.94,82.38|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Talk to Aspirant Ikaran for "The Infinite Treatises".|
-T The Cycle of Anima: Etherwyrms|QID|57263|M|52.65,82.59|Z|Bastion!The Shadowlands|N|To Sika.|MS|
-T The Cycle of Anima: Flower Power|QID|57267|M|52.65,82.59|Z|Bastion!The Shadowlands|N|To Sika.|MS|
+C Suggested Reading|QID|57712|M|52.97,82.45|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Talk to Aspirant Ikaran for "The Infinite Treatises".|
+T The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion!The Shadowlands|N|To Sika.|MS|
+T The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion!The Shadowlands|N|To Sika.|MS|
 T The Cycle of Anima: Drought Conditions|QID|57265|M|52.68,82.78|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A Light the Forge, Forgelite|QID|59920|M|52.68,82.78|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57265&57263&57267|MS|
-C Light the Forge, Forgelite|QID|59920|CS|M|52.63,82.70;52.81,83.46|Z|Bastion!The Shadowlands|QO|1|NC|N|Before you follow Sophone, click on the Raw Materials on the ground near you and carry them to the Basin. Click on the Basin to complete this step.|MS|
-C Light the Forge, Forgelite|QID|59920|M|52.81,83.37|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the vents on either side of the forge.|MS|
-C Light the Forge, Forgelite|QID|59920|M|52.81,83.37|QO|3|Z|Bastion!The Shadowlands|NC|N|Click the rubbish piles and broken barrels on the ground.|MS|
-T Light the Forge, Forgelite|QID|59920|M|52.95,83.50|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
-A The Work of One's Hands|QID|57713|M|52.95,83.50|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|59920|MS|
+C Light the Forge, Forgelite|QID|59920|CS|M|52.63,82.70;52.81,83.46|Z|Bastion!The Shadowlands|QO|1|NC|N|Before you follow Sophone, click on the Raw Materials on the ground in front of you and carry them to the Basin.|MS|
+C Light the Forge, Forgelite|QID|59920|M|52.78,83.39|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the vents on either side of the forge.|MS|
+C Light the Forge, Forgelite|QID|59920|M|52.78,83.39|QO|3|Z|Bastion!The Shadowlands|NC|N|Click the rubbish piles and broken barrels on the ground.|MS|
+T Light the Forge, Forgelite|QID|59920|M|52.91,83.43|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
+A The Work of One's Hands|QID|57713|M|52.91,83.43|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|59920|MS|
 C The Work of One's Hands|QID|57713|M|52.80,83.38|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
-C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|2|Z|Bastion!The Shadowlands|NC|N|Click on the Raw Materials in the Basin.|MS|
-C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|3|Z|Bastion!The Shadowlands|NC|N|Click on one of the vents.|MS|
-C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|4|Z|Bastion!The Shadowlands|NC|N|Keep bar in middle, if it goes left, click the Raw Materials; if it goes right, click the vent.|MS|
-C The Work of One's Hands|QID|57713|M|52.85,83.33|QO|5|Z|Bastion!The Shadowlands|NC|N|Click on the armor that is resting atop the anvil and wait for the step to complete.|MS|
-T The Work of One's Hands|QID|57713|M|52.95,83.50|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
-A The True Crucible Awaits|QID|57908|M|52.95,83.50|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57713|MS|
-T Suggested Reading|QID|57712|M|55.36,83.42|Z|Bastion!The Shadowlands|N|To Aspirant Akimos.|
+C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|2|Z|Bastion!The Shadowlands|NC|N|Add fuel to the forge.|MS|
+C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|3|Z|Bastion!The Shadowlands|NC|N|Open a vent.|MS|
+C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|4|Z|Bastion!The Shadowlands|NC|N|Keep bar in middle, if it goes left add coal, if it goes right vent.|MS|
+C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|5|Z|Bastion!The Shadowlands|NC|N|Click on the armor that is resting atop the anvil and wait for the step to complete.|MS|
+T The Work of One's Hands|QID|57713|M|52.91,83.43|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
+A The True Crucible Awaits|QID|57908|M|56.44,81.57|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57713|MS|
+T Suggested Reading|QID|57712|M|55.35,83.40|Z|Bastion!The Shadowlands|N|To Aspirant Akimos.|
 C The True Crucible Awaits|QID|57908|M|52.79,82.58|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia and Pelagos in Aspirant's Crucible.|MS|
 T The True Crucible Awaits|QID|57908|M|51.76,81.07|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A Assessing Your Strength|QID|57288|M|51.76,81.07|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57908|MS|
@@ -400,6 +402,7 @@ C Steward at Work|QID|59197|M|PLAYER|Z|Bastion!The Shadowlands|QO|1|NC|N|Use the
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion!The Shadowlands|QO|2|CHAT|N|Talk to the Steward you summoned and ask him to fix the beacon.|MS|
 h Hero's Rest|ACTIVE|59197^62723^62729|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To shorten the run later, set your Hearth at Inkiep.|
 T You'll Never Walk Alone|QID|62170|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep|IZ|Hero's Rest|
+T Functioning Anima Core|QID|62200|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep|IZ|Hero's Rest|;guessing. i can see it's in hero's rest, but havent been there to check yet
 C Steward at Work|QID|59197|M|53.24,46.82|Z|Bastion!The Shadowlands|QO|3|NC|N|Click to activate the Beacon of Invocation.|MS|
 
 A WANTED: Gorgebeak|QID|60315|M|53.27,46.43|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
