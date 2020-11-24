@@ -191,7 +191,7 @@ A Assessing Your Spirit|QID|57714|M|51.63,80.95|Z|Bastion!The Shadowlands|N|From
 C Assessing Your Spirit|QID|57714|M|51.63,80.95|Z|Bastion!The Shadowlands|N|Fight Athanos and lose.|MS|
 T Assessing Your Spirit|QID|57714|M|51.63,80.95|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A The Chamber of First Reflection|QID|57291|M|51.63,80.95|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57714|MS|
-C The Chamber of First Reflection|QID|57291|CS|M|53.58,84.00;55.95,86.46|Z|Bastion!The Shadowlands|NC|N|Enter the Chamber of First Reflection.|MS|
+C The Chamber of First Reflection|QID|57291|M|55.95,86.46|Z|Bastion!The Shadowlands|NC|N|Enter the Chamber of First Reflection.|MS|
 T The Chamber of First Reflection|QID|57291|M|57.22,86.58|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A The First Cleansing|QID|57266|M|57.22,86.58|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57291|MS|
 C The First Cleansing|QID|57266|M|58.10,85.74|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the box.|MS|
