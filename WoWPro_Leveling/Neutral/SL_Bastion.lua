@@ -260,7 +260,7 @@ C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Fin
 C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion!The Shadowlands|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|US|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|Finish cleansing the temple by killing hostiles and rescuing terrified stewards.|US|MS|
 T Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|Bastion!The Shadowlands|N|Finish this up before you leave the temple grounds.|TOF|
-T An Inspired Moral Inventory|QID|57444|M|61.15,74.40|Z|Bastion!The Shadowlands|N|To Acolyte Galistos.|RANK|2|
+T An Inspired Moral Inventory|QID|57444|M|61.15,74.40|Z|Bastion!The Shadowlands|N|To Acolyte Galistos.|
 T A Once Sweet Sound|QID|57037|M|61.27,74.37|Z|Bastion!The Shadowlands|N|To Eridia.|MS|
 T The Hand of Purification|QID|59147|M|61.27,74.37|Z|Bastion!The Shadowlands|N|To Eridia.|MS|
 T Dangerous Discourse|QID|57719|M|61.27,74.37|Z|Bastion!The Shadowlands|N|To Eridia.|MS|
