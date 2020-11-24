@@ -493,7 +493,7 @@ C Prey Upon Them|QID|59171|M|61.97,51.91|Z|Maldraxxus|NC|QO|1<1|N|Click on the A
 C Prey Upon Them|QID|59171|M|63.30,52.65|Z|Maldraxxus|NC|QO|1<2|N|Click on the Anima-charged Maldracite to collect it.|MS|
 C Prey Upon Them|QID|59171|M|64.42,52.34|Z|Maldraxxus|NC|QO|1<3|N|Click on the Anima-charged Maldracite to collect it.|MS|
 C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Kill a few more Morbid Disciples.|US|MS|
-C Glorious Pursuits|QID|58821|CS|M|61.82,46.75;67.66,45.92|Z|Maldraxxus|QO|3|NC|N|You actually need to follow the raod (unless you can fly) to return Mephiles.|MS|
+C Glorious Pursuits|QID|58821|CS|M|61.82,46.75;67.66,45.92|Z|Maldraxxus|QO|3|NC|N|You actually need to follow the road (unless you can fly) to return Mephiles.|MS|
 T Prey Upon Them|QID|59171|M|67.61,45.92|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 T Glorious Pursuits|QID|58821|M|67.67,45.92|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A War is Deception|QID|59172|M|67.67,45.92|Z|Maldraxxus|N|From Baroness Vashj.|PRE|59171&58821|MS|
