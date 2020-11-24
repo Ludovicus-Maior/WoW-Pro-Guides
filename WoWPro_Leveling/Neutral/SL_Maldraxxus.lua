@@ -470,8 +470,7 @@ $ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus|N|Get a Mask from Pandem
 $ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|;330069<10|ACH|14312;13|
 $ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|ACH|14312;13|;currently bugged grate doesnt show
 $ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus|N|And, the Treasure is along the top of the wall in a chest.|ACH|14312;13|
-F Bleak Redoubt|ACTIVE|59231|M|58.02,72.37|
-
+F Bleak Redoubt|ACTIVE|59231|M|58.02,72.37|Z|Maldraxxus|N|At Vradfira Livid.|
 C Fathomless Power|QID|59231|M|50.40,67.75|Z|Maldraxxus|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Inisght.|EAB|MS|
 T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
@@ -485,7 +484,7 @@ C A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|CHAT|N|Deliver the summons
 T A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A Glorious Pursuits|QID|58821|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
 A Prey Upon Them|QID|59171|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
-;$ Stolen Jar|QID|61451|M|65.85,49.51|Z|Maldraxxus|N|In this cave for some treasure.|ITEM|182618|ACH|14312;3|
+;$ Stolen Jar|QID|61451|M|66.08,50.10|Z|Maldraxxus|N|In this cave for some treasure.|ITEM|182618|ACH|14312;3|
 A ...Why Me?|QID|62085|M|66.16,50.44|Z|Maldraxxus|N|From Stolen Jar in cave.|RANK|2|;$
 C Glorious Pursuits|QID|58821|M|62.75,52.52|Z|Maldraxxus|QO|1|U|178940|N|Attack Mephiles the Loyal until he is under 50% then use Vashj's Signal to capture it.|MS|
 C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Kill the Morbid Disciples|S|MS|
