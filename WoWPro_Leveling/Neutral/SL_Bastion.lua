@@ -267,7 +267,7 @@ T Dangerous Discourse|QID|57719|M|61.27,74.37|Z|Bastion!The Shadowlands|N|To Eri
 A The Enemy You Know|QID|57446|M|61.27,74.37|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57037^59147^57719|MS|
 C The Enemy You Know|QID|57446|M|63.71,72.18|QO|1|Z|Bastion!The Shadowlands|NC|N|Follow Eridia.|MS|
 C The Enemy You Know|QID|57446|M|63.50,72.06|Z|Bastion!The Shadowlands|CHAT|QO|2|N|Tell Kosmas you are ready.|MS|
-C The Enemy You Know|QID|57446|M|PLAYER|Z|Bastion!The Shadowlands|QO|3|NC|N|When it appears, Press '1' to throw the hammer at the Vespers and cleanse them.|MS|
+C The Enemy You Know|QID|57446|M|PLAYER|Z|Bastion!The Shadowlands|QO|3|NC|N|When it appears, Press '1' to throw the hammer at the Vespers and cleanse them. \nOccasionally bugs out, if you don't get the hammer after flying around past all 3 vespers, exit vehicle, abandon and restart quest.|MS|
 T The Enemy You Know|QID|57446|M|64.22,71.47|Z|Bastion!The Shadowlands|N|To Disciple Kosmas.|MS|
 A The Hand of Doubt|QID|57269|M|64.22,71.47|Z|Bastion!The Shadowlands|N|From Disciple Kosmas.|PRE|57446|MS|
 C The Hand of Doubt|QID|57269|M|64.22,71.47|Z|Bastion!The Shadowlands|CHAT|QO|1|N|Tell Disciple Kosmas you will stand with him.|MS|
@@ -495,9 +495,9 @@ T Phalynx Malfunction|QID|57931|M|54.78,41.17|Z|Bastion!The Shadowlands|N|To Pel
 A We Can Rebuild Him|QID|57933|M|54.78,41.17|Z|Bastion!The Shadowlands|N|From Pelodis.|PRE|57932^57931|RANK|2|
 C We Can Rebuild Him|QID|57933|M|55.34,42.00|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the kitty.|
 C We Can Rebuild Him|QID|57933|M|54.62,40.44|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the platform.|
-C We Can Rebuild Him 3|QID|57933|CS|M|54.50,41.57;54.62,40.44|QO|3;5|S|Z|Bastion!The Shadowlands|NC|N|Click on the engineers, and armour pieces around the area.|
+C We Can Rebuild Him 3|QID|57933|QO|3;5|CS|M|54.50,41.57;54.62,40.44|Z|Bastion!The Shadowlands|S|NC|N|Click on the engineers, and armour pieces around the area.|
 C We Can Rebuild Him|QID|57933|CS|M|54.47,41.37;54.62,40.44|Z|Bastion!The Shadowlands|QO|4|NC|N|Click on the barrel and bring it back to beside the build rig.|
-C We Can Rebuild Him 3|QID|57933|CS|M|54.39,41.01;54.49,41.66;54.88,40.15|QO|3;5|Z|Bastion!The Shadowlands|NC|N|Finish gathering the engineers and armor pieces and bring all back to the platform.|
+C We Can Rebuild Him 3|QID|57933|QO|3;5|CS|M|54.39,41.01;54.49,41.66;54.88,40.15|Z|Bastion!The Shadowlands|US|NC|N|Finish gathering the engineers and armor pieces and bring all back to the platform.|
 C We Can Rebuild Him|QID|57933|M|54.49,40.38|QO|6|Z|Bastion!The Shadowlands|NC|N|Place all the armor scraps.|
 C We Can Rebuild Him|QID|57933|M|54.71,40.40|QO|7|Z|Bastion!The Shadowlands|CHAT|N|Talk to Pelodis.|
 T We Can Rebuild Him|QID|57933|M|54.81,41.19|Z|Bastion!The Shadowlands|N|To Pelodis.|
