@@ -143,40 +143,40 @@ K Sigilback|QID|60570|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Ora
 K Aethon|QID|58526|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179487|ACH|14307;28|
 K Cloudtail|QID|60571|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179488|ACH|14307;17|
 K Nemaeus|QID|60569|QO|1|M|55.33,80.14|Z|Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179485|ACH|14307;3|
-C A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
-T A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion!The Shadowlands|N|To Sika.|MS|
-A The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
-A The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
-A The Cycle of Anima: Drought Conditions|QID|57265|M|52.70,82.60|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57711|MS|
+C A Forge Gone Cold|QID|57711|M|52.65,82.59|Z|Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
+T A Forge Gone Cold|QID|57711|M|52.65,82.59|Z|Bastion!The Shadowlands|N|To Sika.|MS|
+A The Cycle of Anima: Etherwyrms|QID|57263|M|52.65,82.59|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
+A The Cycle of Anima: Flower Power|QID|57267|M|52.65,82.59|Z|Bastion!The Shadowlands|N|From Sika.|PRE|57711|MS|
+A The Cycle of Anima: Drought Conditions|QID|57265|M|52.68,82.79|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57711|MS|
 A Suggested Reading|QID|57712|M|55.36,83.42|Z|Bastion!The Shadowlands|N|From Aspirant Akimos.|RANK|2|
 C Suggested Reading|QID|57712|M|56.04,82.81|QO|2|Z|Bastion!The Shadowlands|CHAT|N|Talk to Aspirant Leda for "Worlds Beyond Counting".|
-C Suggested Reading|QID|57712|M|52.71,82.61|QO|3|Z|Bastion!The Shadowlands|N|Kill Ethtywyrms till "Bear Witness: The Watcher's Code" drops.|S|
+C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|Bastion!The Shadowlands|N|Kill Etherwyrms until "Bear Witness: The Watcher's Code" drops.|S|
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion!The Shadowlands|N|Slay Etherwyrms to collect Glowing Viscera.|S|MS|
 C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion!The Shadowlands|NC|N|Collect Adrima's Lily, a blue flower growing in the area.|S|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the Anima Extractor.|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|2|Z|Bastion!The Shadowlands|N|Click anywhere in the anima extractor to start the fight, then defend the Anima Extractor.|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|3|Z|Bastion!The Shadowlands|NC|N|Collect a Condensed Anima Mote from the Anima Canister on the ground in the middle of the square.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the Anima Extractor.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|2|Z|Bastion!The Shadowlands|N|Click anywhere in the anima extractor to start the fight, then defend the Anima Extractor.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|3|Z|Bastion!The Shadowlands|NC|N|Collect a Condensed Anima Mote from the Anima Canister on the ground in the middle of the square.|MS|
 C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion!The Shadowlands|NC|N|Finish collecting Adrima's Lily.|US|MS|
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion!The Shadowlands|N|Finish collecting the needed Glowing Viscera from Etherwyrms.|US|MS|
 C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|Bastion!The Shadowlands|N|Keep killing Etherwyrms till "Bear Witness: The Watcher's Code" drops.|US|
-C Suggested Reading|QID|57712|M|52.97,82.45|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Talk to Aspirant Ikaran for "The Infinite Treatises".|
-T The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion!The Shadowlands|N|To Sika.|MS|
-T The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion!The Shadowlands|N|To Sika.|MS|
+C Suggested Reading|QID|57712|M|52.94,82.38|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Talk to Aspirant Ikaran for "The Infinite Treatises".|
+T The Cycle of Anima: Etherwyrms|QID|57263|M|52.65,82.59|Z|Bastion!The Shadowlands|N|To Sika.|MS|
+T The Cycle of Anima: Flower Power|QID|57267|M|52.65,82.59|Z|Bastion!The Shadowlands|N|To Sika.|MS|
 T The Cycle of Anima: Drought Conditions|QID|57265|M|52.68,82.78|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A Light the Forge, Forgelite|QID|59920|M|52.68,82.78|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57265&57263&57267|MS|
-C Light the Forge, Forgelite|QID|59920|CS|M|52.63,82.70;52.81,83.46|Z|Bastion!The Shadowlands|QO|1|NC|N|Before you follow Sophone, click on the Raw Materials on the ground in front of you and carry them to the Basin.|MS|
-C Light the Forge, Forgelite|QID|59920|M|52.78,83.39|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the vents on either side of the forge.|MS|
-C Light the Forge, Forgelite|QID|59920|M|52.78,83.39|QO|3|Z|Bastion!The Shadowlands|NC|N|Click the rubbish piles and broken barrels on the ground.|MS|
-T Light the Forge, Forgelite|QID|59920|M|52.91,83.43|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
-A The Work of One's Hands|QID|57713|M|52.91,83.43|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|59920|MS|
+C Light the Forge, Forgelite|QID|59920|CS|M|52.63,82.70;52.81,83.46|Z|Bastion!The Shadowlands|QO|1|NC|N|Before you follow Sophone, click on the Raw Materials on the ground near you and carry them to the Basin. Click on the Basin to complete this step.|MS|
+C Light the Forge, Forgelite|QID|59920|M|52.81,83.37|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the vents on either side of the forge.|MS|
+C Light the Forge, Forgelite|QID|59920|M|52.81,83.37|QO|3|Z|Bastion!The Shadowlands|NC|N|Click the rubbish piles and broken barrels on the ground.|MS|
+T Light the Forge, Forgelite|QID|59920|M|52.95,83.50|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
+A The Work of One's Hands|QID|57713|M|52.95,83.50|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|59920|MS|
 C The Work of One's Hands|QID|57713|M|52.80,83.38|QO|1|Z|Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|2|Z|Bastion!The Shadowlands|NC|N|Add fuel to the forge.|MS|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|3|Z|Bastion!The Shadowlands|NC|N|Open a vent.|MS|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|4|Z|Bastion!The Shadowlands|NC|N|Keep bar in middle, if it goes left add coal, if it goes right vent.|MS|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|5|Z|Bastion!The Shadowlands|NC|N|Click on the armor that is resting atop the anvil and wait for the step to complete.|MS|
-T The Work of One's Hands|QID|57713|M|52.91,83.43|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
-A The True Crucible Awaits|QID|57908|M|56.44,81.57|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57713|MS|
-T Suggested Reading|QID|57712|M|55.35,83.40|Z|Bastion!The Shadowlands|N|To Aspirant Akimos.|
+C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|2|Z|Bastion!The Shadowlands|NC|N|Click on the Raw Materials in the Basin.|MS|
+C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|3|Z|Bastion!The Shadowlands|NC|N|Click on one of the vents.|MS|
+C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|4|Z|Bastion!The Shadowlands|NC|N|Keep bar in middle, if it goes left, click the Raw Materials; if it goes right, click the vent.|MS|
+C The Work of One's Hands|QID|57713|M|52.85,83.33|QO|5|Z|Bastion!The Shadowlands|NC|N|Click on the armor that is resting atop the anvil and wait for the step to complete.|MS|
+T The Work of One's Hands|QID|57713|M|52.95,83.50|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
+A The True Crucible Awaits|QID|57908|M|52.95,83.50|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57713|MS|
+T Suggested Reading|QID|57712|M|55.36,83.42|Z|Bastion!The Shadowlands|N|To Aspirant Akimos.|
 C The True Crucible Awaits|QID|57908|M|52.79,82.58|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia and Pelagos in Aspirant's Crucible.|MS|
 T The True Crucible Awaits|QID|57908|M|51.76,81.07|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A Assessing Your Strength|QID|57288|M|51.76,81.07|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57908|MS|
