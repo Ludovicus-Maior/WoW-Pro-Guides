@@ -125,7 +125,7 @@ C Aspirant For a Day|QID|62737|M|52.13,77.57|Z|Bastion!The Shadowlands|S!US|N|Bo
 A The Aspirant's Crucible|QID|57709|M|48.23,72.65|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57677^57676|MS|
 A The Old Ways|QID|60466|M|47.88,73.50|Z|Bastion!The Shadowlands|N|From Klystere.|LVL|50|RANK|2|
 B The Old Ways|ACTIVE|60466|M|48.07,73.00|QO|1|Z|Bastion!The Shadowlands|NC|N|Buy the thread from Caretaker Mirene.|
-h Aspirant's Rest|ACTIVE|60466^57709|M|48.07,73.00|Z|Bastion!The Shadowlands|N|Set Hearthstone at Caretaker Mirene.|RANK|2|
+h Aspirant's Rest|ACTIVE|60466^57709|M|48.07,73.00|Z|Bastion!The Shadowlands|N|Set Hearthstone at Caretaker Mirene.|
 f Aspirant's Rest|ACTIVE|60466^57709|M|48.13,74.16|Z|Bastion!The Shadowlands|N|At Rheus.|
 C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion!The Shadowlands|N|Kill Cloudstrider Grazers for the pelts.|S|
 ;$ Sophia's Gift|QID|58319|M|51.75,68.84|Z|Bastion!The Shadowlands|N|Treasure for your enjoyment.| commenting out, because this appears to reset.  leaving it here incase that is wrong and we want to add it back)
