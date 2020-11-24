@@ -146,8 +146,8 @@ function WoWPro.CreateGuideList()
     _G.PanelTemplates_SetNumTabs(scrollBox, #tabs)
 
     if not tabs[1] then
-        subtitle:SetText(L["Looks like you don't have any Wow-Pro guide modules loaded!"
-            .."\nLog out to the character selection screen and open your addons menu there to select some to load."])
+        subtitle:SetText(L["|cFFFF8040Looks like you don't have any Wow-Pro guide modules loaded!"
+            .."\nOpen your addons menu there to select some to load.|r"])
         frame:Hide()
     end
 

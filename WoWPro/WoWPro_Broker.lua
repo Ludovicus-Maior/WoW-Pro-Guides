@@ -3802,6 +3802,23 @@ function WoWPro.Cannonball()
     WoWPro.TrackerTimer = 14
 end
 
+_G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
+    text = "Welcome to WoWPro. For this addon to function, you need to enable one of the following addons: "
+           .. "|cffFF9900WoW-|r|cff46921APro|r Achievements, "
+           .. "|cffFF9900WoW-|r|cff46921APro|r Dailies, "
+           .. "|cffFF9900WoW-|r|cff46921APro|r Leveling, "
+           .. "|cffFF9900WoW-|r|cff46921APro|r Professions, "
+           .. "or |cffFF9900WoW-|r|cff46921APro|r WorldEvents.",
+    button1 = _G.OKAY,
+    button2 = _G.CANCEL,
+    whileDead = true,
+    hideOnEscape = true,
+    timeout = 15,
+    OnAccept = function (self)
+        _G.ShowUIPanel(_G.AddonList)
+    end
+}
+
 function WoWPro.LockdownHandler(self, elapsed)
     if WoWPro.TrackerTimer ~= nil then
         WoWPro.TrackerTimer = WoWPro.TrackerTimer - elapsed
@@ -3842,6 +3859,13 @@ function WoWPro.LockdownHandler(self, elapsed)
                 WoWPro.LockdownCounter = nil
                 WoWPro.LockdownTimer = nil
                 WoWPro.InitLockdown = false
+                local moduleCount = 0
+                for name, module in WoWPro:IterateModules() do
+                    moduleCount = moduleCount + 1
+                end
+                if moduleCount == 0 then
+                    _G.StaticPopup_Show("WOWPRO_ENABLE_SECONDARIES")
+                end
                 WoWPro:LoadGuide()          -- Loads Current Guide (if nil, loads NilGuide)
             end
         end
