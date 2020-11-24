@@ -6,7 +6,6 @@ WoWPro:GuideName(guide,"Shadowlands Intro - The Maw")
 WoWPro:GuideNextGuide(guide, 'Bastion')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
 A A Chilling Summons|QID|61874|Z|Orgrimmar|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Horde|
 R Orgrimmar|QID|61874|N|If you aren't in Orgrimmar, go there to get the starting quest.|FACTION|Horde|
 C A Chilling Summons|QID|61874|M|50.38,76.58|Z|Orgrimmar|QO|1|CHAT|N|Speak with Nazgrim outside Grommash Hold and he will open a gate.|FACTION|Horde|
@@ -138,14 +137,16 @@ A The Eternal City|QID|60152|M|40.29,66.53|Z|Ring of Fates@Oribos|N|From Tal-Ina
 C Overseer Ta'readon|QID|60152|M|64.39,68.31|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Overseer Ta'readon.|MS|
 C Host Ta'rela|QID|60152|M|67.21,50.29|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Speak to Host Ta'rela, the innkeeper.|MS|
 C Fatescribe Roh-Tahl|QID|60152|M|78.93,49.16|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak to the Fatescribe and ask about this place.|MS|
-C Caretaker Kah-Rahm|QID|60152|CS|M|62.88,50.37;60.63,31.32|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak to Caretaker Kah-Rahm at the bank.|MS|
+C Caretaker Kah-Rahm|QID|60152|M|60.52,31.28|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak to Caretaker Kah-Rahm at the bank.|MS|
 C Foreman Au'brak|QID|60152|M|40.33,32.63|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak to Foreman Au'brak in the tradeskill area.|MS|
 C The Eternal City|QID|60152|M|39.88,66.44|Z|Ring of Fates@Oribos|QO|6|CHAT|N|Return to the Enclave.|MS|
 T The Eternal City|QID|60152|M|39.88,66.40|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
 A Understanding the Shadowlands|QID|60154|M|40.30,64.97|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|60152|MS|
 C Understanding the Shadowlands|QID|60154|M|40.81,65.88|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Tal-Inara.|MS|
 C Understanding the Shadowlands|QID|60154|M|40.34,66.59|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Tell Kah-Sher you will go.\n[color=FF0000]NOTE: [/color]Don't take the Transport Pad until you get the objective completed notification and this step closes.|MS|
-C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|Ring of Fates@Oribos|QO|3|NC|N|Take the Transport Pad to the Ring of Transference.|MS|
+C Understanding the Shadowlands|QID|60154|M|40.30,66.52|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with Kah-Sher.|MS|
+C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|Ring of Fates@Oribos|QO|4|NC|N|Follow Kah-Sher to the Transport Pad.|MS|
+C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|Ring of Fates@Oribos|QO|5|NC|N|Take the Transport Pad to the Ring of Transference.|MS|
 T Understanding the Shadowlands|QID|60154|M|50.50,61.98|Z|Ring of Transference@Oribos||N|To Overseer Kah-Sher.|MS|
 A The Path to Bastion|QID|60156|M|50.50,61.98|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|60154|MS|
 C The Path to Bastion|QID|60156|M|64.56,53.54|Z|Ring of Transference@Oribos|QO|1|NC|N|Follow Kah-Sher to the gate.|MS|

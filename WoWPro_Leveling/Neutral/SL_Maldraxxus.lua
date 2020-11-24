@@ -5,8 +5,6 @@ WoWPro:GuideName(guide,"Maldraxxus")
 WoWPro:GuideNextGuide(guide, "Ardenweald")
 WoWPro:GuideSteps(guide, function()
 return [[
-N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
-
 ; List of Treasures in Maldraxxus a few in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
 ; $ Forgotten Momentos|M|22.5,30.5|Z|Maldraxxus|N|WH - Vault Portculis to open the gate blocking treasure.|ACH|14312;4|
 ; $ Misplaced Supplies|M|62.4,59.9|Z|Maldraxxus|N|WH - On top of mushroom. Climb hill, turn left, Jump to mushroom, Turn right, Jump to hill, Turn right and climb hill once more to the edge.|ACH|14312;5|

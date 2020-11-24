@@ -5,7 +5,6 @@ WoWPro:GuideName(guide,"Bastion")
 WoWPro:GuideNextGuide(guide, "Maldraxxus")
 WoWPro:GuideSteps(guide, function()
 return [[
-N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
 
 ; List of Treasures in Bastion a few in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
 ; $ Scroll of Aeons|M|53.5,80.3|Z|Bastion!The Shadowlands|N|WH - Loot 2 Purian around Aspirant's Crucible and put them in tribute bowl to spawn treasure.|ITEM|173984|ACH|14311;1|
