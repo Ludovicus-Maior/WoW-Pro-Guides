@@ -403,8 +403,8 @@ h Hero's Rest|ACTIVE|59197^62723^62729|M|53.15,46.88|Z|Bastion!The Shadowlands|N
 T You'll Never Walk Alone|QID|62170|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep|IZ|Hero's Rest|
 C Steward at Work|QID|59197|M|53.24,46.82|Z|Bastion!The Shadowlands|QO|3|NC|N|Click to activate the Beacon of Invocation.|MS|
 
-A WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
-A WANTED: Darkwing|QID|60366|M|53.57,46.43|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
+A WANTED: Gorgebeak|QID|60315|M|53.27,46.43|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
+A WANTED: Darkwing|QID|60366|M|53.27,46.43|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
 f Hero's Rest|ACTIVE|59197|M|51.40,46.80|Z|Bastion!The Shadowlands|N|At Navarros.|
 F Aspirant's Rest|ACTIVE|62715^60316|M|51.40,46.80|Z|Bastion!The Shadowlands|N|At Navarros.|
 T WANTED: Altered Sentinel|QID|60316|M|48.95,72.34|Z|Bastion!The Shadowlands|N|To Forgehand Simo|
