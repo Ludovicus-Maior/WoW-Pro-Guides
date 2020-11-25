@@ -249,7 +249,7 @@ A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Er
 A The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|Cleanse the Temple by killing all the hostile mobs and rescuing the terrified stewards.|S|MS|
 A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion!The Shadowlands|N|From The Scroll in front of the Vespar of Harmony.|PRE|57717|MS|
-A An Inspired Moral Inventory|QID|57444|M|54.03,73.94|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|RANK|2|
+A An Inspired Moral Inventory|QID|57444|M|61.13,74.42|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|RANK|2|
 C An Inspired Moral Inventory|QID|57444|M|57.98,75.81|Z|Bastion!The Shadowlands|T|Forsworn Ascended|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Find the scrolls around the area.|S|MS|
 C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|Bastion!The Shadowlands|QO|2|NC|N|Click the bell to cleanse the Vesper of Harmony.|MS|
@@ -260,7 +260,6 @@ C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Fin
 C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion!The Shadowlands|T|Forsworn Ascended|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|US|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|Finish cleansing the temple by killing hostiles and rescuing terrified stewards.|US|MS|
 T Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|Bastion!The Shadowlands|N|Finish this up before you leave the temple grounds.|TOF|
-T An Inspired Moral Inventory|QID|57444|M|61.15,74.40|Z|Bastion!The Shadowlands|N|To Acolyte Galistos.|
 T A Once Sweet Sound|QID|57037|M|61.27,74.37|Z|Bastion!The Shadowlands|N|To Eridia.|MS|
 T The Hand of Purification|QID|59147|M|61.27,74.37|Z|Bastion!The Shadowlands|N|To Eridia.|MS|
 T Dangerous Discourse|QID|57719|M|61.27,74.37|Z|Bastion!The Shadowlands|N|To Eridia.|MS|
@@ -277,6 +276,7 @@ T The Hand of Doubt|QID|57269|M|64.62,71.09|Z|Bastion!The Shadowlands|N|To Vesip
 A Purity's Prerogative|QID|57447|M|64.62,71.09|Z|Bastion!The Shadowlands|N|From Vesiphone.|PRE|57269|MS|
 C Purity's Prerogative|QID|57447|M|PLAYER|Z|Bastion!The Shadowlands|CHAT|N|Talk to Vesiphone who will fly you back down to Kleia.|MS|
 T Purity's Prerogative|QID|57447|M|53.85,73.66|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
+T An Inspired Moral Inventory|QID|57444|M|54.03,73.94|Z|Bastion!The Shadowlands|N|To Acolyte Galistos.|
 
 ; Chasing a Memory Storyline
 R The Mnemonic Locus|ACTIVE|62732|M|54.72,64.14|N|Follow the road running generally north and east over to the Mnemonic Locus for more fun and games.|TOF|
