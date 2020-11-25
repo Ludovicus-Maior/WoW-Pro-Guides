@@ -1,6 +1,6 @@
 # Release 9.0.2-A2 / (1.13.5-D2)
 ## Bug Fixes
-* Repair steps now autocomplete correctly when they are not the only step showing.
+* Warn users if the loacd just WoWPro and no guide addons
 ## Guide Updates
 ### Retail
 * SL_Prepatch_Event removed
