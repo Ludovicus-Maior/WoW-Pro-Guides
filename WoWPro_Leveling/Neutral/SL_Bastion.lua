@@ -105,8 +105,8 @@ C Trouble in Paradise|QID|60735|M|42.10,78.31|Z|Bastion!The Shadowlands|CHAT|N|S
 T Trouble in Paradise|QID|60735|M|42.34,78.34|Z|Bastion!The Shadowlands|N|To Kalisthene.|MS|
 A Walk the Path, Aspirant|QID|57261|M|42.34,78.34|Z|Bastion!The Shadowlands|N|From Kalisthene.|PRE|60735|MS|
 l Weak Anima Mote|QID|57705|L|172451 10|M|42.52,80.57|Z|Bastion!The Shadowlands|RARE|N|Pick up 10 Weak Anima Motes from the Depleated Anima Canisters outside the doorway.|ACH|14307;1|
-K Herculon|QID|57705|QO|1|M|42.88,80.62|Z|Bastion!The Shadowlands|T|Herculon|N|Interact with Hurculon and "Supply Weak Anima Mote" 10 times to activate. Chest contains reward behide where Herculon was.|RARE|ACH|14307;1|
-A Functioning Anima Core|QID|62200|PRE|62201|M|42.94,83.00|Z|Bastion!The Shadowlands|N|From item just looted from Hurculon's Aspirant Chest.|
+K Herculon|QID|57705|QO|1|M|42.88,80.62|Z|Bastion!The Shadowlands|T|Herculon|N|Interact with Herculon, "Supply Weak Anima Mote" 10 times to activate him. Defeat him to gain access to the Aspirant Chest. The chest, behind where Herculon was, contains your reward and a quest starter.|RARE|ACH|14307;1|
+A Functioning Anima Core|QID|62200|PRE|62201|M|42.94,83.00|Z|Bastion!The Shadowlands|N|From item just looted from Herculon's Aspirant Chest.|
 C Walk the Path, Aspirant|QID|57261|M|46.05,79.31|QO|1|Z|Bastion!The Shadowlands|NC|N|Take the road east then the north fork(left) out of the Vestibule and Kleia will travel with you.|MS|
 C Walk the Path, Aspirant|QID|57261|M|46.31,79.00|QO|2|Z|Bastion!The Shadowlands|NC|N|Stand in blue circle and click the "[color=40C7EB]Kleia's Perspective[/color]" Action Ability.|EAB|MS|
 C Walk the Path, Aspirant|QID|57261|M|48.39,72.97|QO|3|Z|Bastion!The Shadowlands|NC|N|Travel to Aspirant's Rest.|MS|
@@ -402,7 +402,7 @@ C Steward at Work|QID|59197|M|PLAYER|Z|Bastion!The Shadowlands|QO|1|NC|N|Use the
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion!The Shadowlands|QO|2|CHAT|N|Talk to the Steward you summoned and ask him to fix the beacon.|MS|
 h Hero's Rest|ACTIVE|59197^62723^62729|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To shorten the run later, set your Hearth at Inkiep.|
 T You'll Never Walk Alone|QID|62170|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep|IZ|Hero's Rest|
-T Functioning Anima Core|QID|62200|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep|IZ|Hero's Rest|;guessing. i can see it's in hero's rest, but havent been there to check yet
+T Functioning Anima Core|QID|62200|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep|IZ|Hero's Rest|;guessing. i can see it's in hero's rest, but haven't been there to check yet
 C Steward at Work|QID|59197|M|53.24,46.82|Z|Bastion!The Shadowlands|QO|3|NC|N|Click to activate the Beacon of Invocation.|MS|
 
 A WANTED: Gorgebeak|QID|60315|M|53.27,46.43|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
