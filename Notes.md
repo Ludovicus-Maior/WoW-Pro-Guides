@@ -1,3 +1,13 @@
+# Release 9.0.2-A2 / (1.13.5-D2)
+## Bug Fixes
+* Repair steps now autocomplete correctly when they are not the only step showing.
+## Guide Updates
+### Retail
+* SL_Prepatch_Event removed
+* Shadowlands: Ardenweald, Bastion, Covenant, Maldraxxus, Maw, Maw_Intro
+### Classic
+* None
+
 # Release 9.0.2-A1 / (1.13.5-D1)
 ## Bug Fixes
 * Repair steps now autocomplete correctly when they are not the only step showing.
