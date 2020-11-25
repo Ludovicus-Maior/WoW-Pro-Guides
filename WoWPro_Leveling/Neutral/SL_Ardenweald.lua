@@ -427,7 +427,7 @@ A Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Bonus
 C Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Kill Hostiles, destroy totems and click on the green memories.|EAB|
 T Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|
 A Ride of the Wild Hunt|QID|60881|M|64.27,49.93|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60856|MS|
-C Ride of the Wild Hunt|QID|60881|M|62.54,45.64|Z|Ardenweald!The Shadowlands|V|N|Hop on the stag.|MS|
+C Ride of the Wild Hunt|QID|60881|M|62.54,45.64|Z|Ardenweald!The Shadowlands|V|N|Hop on the Stranded Stag.|MS|
 T Ride of the Wild Hunt|QID|60881|M|62.34,45.56|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 A Passage to Hibernal Hollow|QID|60901|M|62.34,45.56|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60881|MS|
 C Passage to Hibernal Hollow|QID|60901|CS|M|62.34,45.53;59.93,52.55|Z|Ardenweald!The Shadowlands|CHAT|N|Speak with Ara'lon, then run with him to Hibernal Hollow.|MS|
@@ -472,6 +472,7 @@ C Sparkles Rain from Above|QID|58524|M|71.52,54.67|Z|Ardenweald!The Shadowlands|
 C Sparkles Rain from Above|QID|58524|M|70.71,55.92|Z|Ardenweald!The Shadowlands|QO|2|N|Keep hitting the 1 key everytime it refreshes to slay the Invaders.|MS|
 T Sparkles Rain from Above|QID|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 T The Fallen Tree|QID|62720|M|70.10,57.17|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
+L Nearly Level 58|M|PLAYER|LVL|58;-9000|N|You need to be less than 9000 points from 58, or you won't be able to do the last quest in Hibernal Hollow. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|
 
 ; Visions of the Dreamer Storyline
 A For the Sake of Spirit|QID|60572|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|PRE|58524|MS|
@@ -500,6 +501,7 @@ C Visions of the Dreamer: Origins|QID|58590|M|61.57,50.22|Z|Ardenweald!The Shado
 C Visions of the Dreamer: Origins|QID|58590|M|60.69,49.22|Z|Ardenweald!The Shadowlands|QO|2|US|N|Slay Nightmares.|MS|
 T Visions of the Dreamer: Origins|QID|58590|M|60.08,52.92|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
 T Visions of the Dreamer: The Betrayal|QID|60578|M|60.02,52.99|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
+L You Need to be Level 58|M|PLAYER|LVL|58|N|You need to be at least level 58 to continue this guide.  So, go do a sidequest, rare, dungeon, something to get a little more XP first.|
 A End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60578&58590|MS|
 C End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak to Dreamweaver.|MS|
 C Attack the Temple of Elune|ACTIVE|58593|M|PLAYER|Z|Sacristy of Elune@Cathedral of Eternal Night!Dungeon|SO|1|N|Click 1 to begin the attack the Temple of Elune.|MS|
@@ -538,8 +540,6 @@ T Break It Down|QID|58266|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Primrose.|
 A Beneath the Mask|QID|58267|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Primrose.|PRE|58264&58266|RANK|2|
 C Beneath the Mask|QID|58267|M|54.42,61.52|Z|Ardenweald!The Shadowlands|QO|1|N|Use the mask and Confront Ingra Drif. She is up above on the platforms.|EAB|
 C Beneath the Mask|QID|58267|M|54.50,61.42|Z|Ardenweald!The Shadowlands|QO|2|N|Slay Mindwarped Faerie.|
-T Blooming Villains|QID|58265|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
-T Beneath the Mask|QID|58267|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
 F Heart of the Forest|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|COV|NightFae|IZ|Hibernal Hollow|
 F Refugee Camp|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|TOF|TAXI|-Heart of the Forest|
 
@@ -550,6 +550,8 @@ C Battle for Hibernal Hollow|QID|58869|M|59.78,52.05|Z|Ardenweald!The Shadowland
 C Battle for Hibernal Hollow|QID|58869|M|59.84,53.09|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak to Droman Aliothe.|MS|
 C Battle for Hibernal Hollow|QID|58869|M|60.03,53.09|Z|Ardenweald!The Shadowlands|QO|3|N|Lorkron and Fulyar the Destroyer defeated.|MS|
 T Battle for Hibernal Hollow|QID|58869|M|59.92,53.09|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
+T Blooming Villains|QID|58265|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
+T Beneath the Mask|QID|58267|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
 A Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|58869|MS|
 C Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Moonberry.|MS|
 $ Faerie Trove|QID|61073|M|49.72,55.89|N|Basket with pet is around and underneath platform(treestump).|RANK|2|ITEM|182673|ACH|14313;3|

@@ -5,8 +5,6 @@ WoWPro:GuideName(guide,"Revendreth")
 WoWPro:GuideNextGuide(guide, "Covenant")
 WoWPro:GuideSteps(guide, function()
 return [[
-N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
-
 ; List of Treasures in Revendreth, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
 ; $ The Count|M|57.3,43.3|Z|Revendreth|ACH|14314;2|
 ; $ Filcher's Prize|M|64.21,72.76|Z|Revendreth|N|WH - Just down from road, Statue of bat comes alive after looting.|ITEM|179392|ACH|14314;6|
@@ -152,7 +150,7 @@ C And Then There Were None|QID|60178|M|63.21,60.35|Z|Revendreth|QO|2|CHAT|N|Spea
 C Bring Out Your Tithe|QID|60176|M|61.04,60.57|Z|Revendreth|NC|N|Collect the tithes of anima by interacting with villagers, and clicking on dropplets on the ground.|US|
 T Bring Out Your Tithe|QID|60176|M|61.34,63.8|Z|Revendreth|N|To Mistress Mihaela.|
 A A Plea to the Harvesters|QID|58654|M|61.34,63.8|Z|Revendreth|N|From Mistress Mihaela.|LVL|57|PRE|57174|MS|
-A Wanted: The Pale Doom|QID|60279|M|62.20,63.45|Z|Revendreth|LVL|60|IZ|The Sinposium|N|From Wanted Poster.|ELITE|RANK|2|
+A WANTED: The Pale Doom|QID|60279|M|62.20,63.45|Z|Revendreth|LVL|60|IZ|The Sinposium|N|From WANTED Poster.|ELITE|RANK|2|
 C And Then There Were None|QID|60178|M|63.21,60.35|Z|Revendreth|QO|1|CHAT|N|Speak with Samu to invite him to the Crypt.|
 C And Then There Were None|QID|60178|M|61.23,59.45|Z|Revendreth|QO|3|NC|N|Run to the Crypt and make your way down.|
 T And Then There Were None|QID|60178|M|61.28,59.77|Z|Revendreth|N|To Rahel.|
@@ -177,7 +175,7 @@ C A Curious Invitation|QID|59710|M|59.49,66.80|Z|Revendreth|QO|2|CHAT|N|Tell Cou
 T A Curious Invitation|QID|59710|M|59.49,66.80|Z|Revendreth|N|To Courier Araak.|
 A The Lay of the Land|QID|59712|M|59.49,66.80|Z|Revendreth|N|From Courier Araak.|PRE|59710|RANK|2|
 C The Lay of the Land|QID|59712|M|59.91,68.83|Z|Revendreth|QO|1|NC|N|Click on Nadjia.|
-A Wanted: Aggregate of Doom|QID|60277|M|59.08,69.19|Z|Revendreth|N|From Wanted Poster.|ELITE|RANK|2|
+A WANTED: Aggregate of Doom|QID|60277|M|59.08,69.19|Z|Revendreth|N|From WANTED Poster.|ELITE|RANK|2|
 C The Lay of the Land|QID|59712|M|58.62,69.37|Z|Revendreth|QO|2|NC|N|Click the Ruminations on True Names.|
 T The Lay of the Land|QID|59712|M|60.31,69.19|Z|Revendreth|N|To Courier Araak.|
 A Finders-Keepers, Sinners-Weepers|QID|59846|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|PRE|59712|RANK|2|
@@ -198,7 +196,7 @@ C A Fine Vintage|QID|59714|M|63.6,73|Z|Revendreth|N|Go down into the Sneak Hole 
 $ Taskmaster's Trove|QID|62199|CS|M|63.00,72.39;62.85,75.31|Z|Revendreth|N|Pick up Ingress and Egrees Rites in niche next to wall, Minimize contact with runic bombs and collect treasure.|ITEM|183986|ACH|14314;4|
 C Scythe Bloom|QID|59713|M|63.10,67.96|Z|Revendreth|QO|2|NC|N|Click on Scythe Bloom to collect the Pollen.|US|
 C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|1|N|Kill Spiders until you find the Pristine Venom Gland.|US|
-T Wanted: Aggregate of Doom|QID|60277|M|58.75,69.59|Z|Revendreth|N|To Foreman Scug.|
+T WANTED: Aggregate of Doom|QID|60277|M|58.75,69.59|Z|Revendreth|N|To Foreman Scug.|
 T A Fine Vintage|QID|59714|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|
 T Active Ingredients|QID|59713|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|
 A Message for Matyas|QID|59715|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|PRE|59713&59714|RANK|2|
@@ -533,8 +531,8 @@ T An Uneventful Stroll|QID|57461|M|32.01,47.60|Z|Revendreth|N|To Theotar.|MS|
 A Into the Light|QID|60566|M|32,47.6|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57461|MS|
 f Sanctuary of the Mad|ACTIVE|60566^62778|M|30.58,48.81|Z|Revendreth|N|Grab the flightpoint from Courier Shaal.|
 T Parasol Components|QID|62189|M|32.66,49.29|Z|Revendreth|N|To Mats.|
-A Wanted: Enforcer Kristof|QID|60275|M|30.68,48.99|Z|Revendreth|N|From Wanted Poster.|ELITE|RANK|2|LVL|60|
-A Wanted: Summoner Marcelis|QID|60276|M|30.87,49.05|Z|Revendreth|N|From Wanted Poster.|ELITE|RANK|2|
+A WANTED: Enforcer Kristof|QID|60275|M|30.68,48.99|Z|Revendreth|N|From WANTED Poster.|ELITE|RANK|2|LVL|60|
+A WANTED: Summoner Marcelis|QID|60276|M|30.87,49.05|Z|Revendreth|N|From WANTED Poster.|ELITE|RANK|2|
 C Snacks for Stonehead|QID|58327|QO|2|M|31.56,61.84|Z|Revendreth|S|N|Kill the Ash Crawlers to collect Ash Crisps.|
 K Summoner Marcelis|ACTIVE|60276|QO|1|M|30.32,63.79|Z|Revendreth|N|Inside a building beyond the Ember Ward, in Cinderwall you can find Summoner Marcelis.|
 C Snacks for Stonehead|QID|58327|QO|2|M|31.56,61.84|Z|Revendreth|US|N|Continue killing the Ash Crawlers until you have enough Ash Crisps.|
@@ -595,8 +593,8 @@ C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|2|CHAT|N|S
 C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|3|N|Kill waves of enemies, defending Laurent and Simone.|
 T Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|N|To Laurent.|
 N Sanctuary of the Mad|ACTIVE|60275^60276|M|24.80,50.27|Z|Revendreth|N|Walk thru the mirror for a quick trip to Sanctuary of the Mad.|
-T Wanted: Enforcer Kristof|QID|60275|M|30.71,49.12|Z|Revendreth|N|To Dispatcher Raluca.|
-T Wanted: Summoner Marcelis|QID|60276|M|30.81,49.12|Z|Revendreth|N|To Dispatcher Raluca.|
+T WANTED: Enforcer Kristof|QID|60275|M|30.71,49.12|Z|Revendreth|N|To Dispatcher Raluca.|
+T WANTED: Summoner Marcelis|QID|60276|M|30.81,49.12|Z|Revendreth|N|To Dispatcher Raluca.|
 T Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
 T Snacks for Stonehead|QID|58327|M|39.06,65.91|Z|Revendreth|N|To Stonehead.|;--not sure where to place this. leaving it here for now. quest is finished during the Mirror Maker story arc ~ line 448
 
