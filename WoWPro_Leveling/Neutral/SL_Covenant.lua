@@ -991,7 +991,7 @@ T The Souls Plight|QID|62904|M|45.46,28.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|T
 A Back into the Darkness|QID|62905|M|45.46,28.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Tenaval.|PRE|62904|COV|Venthyr|
 H Oribos|ACTIVE|62905|M|PLAYER|Z|Sinfall Reaches@Sinfall!Dungeon|N|Use your hearth or otherwise make your back to Oribos.|COV|Venthyr|
 R Ring of Transference|ACTIVE|62905|M|52.05,57.85|Z|Ring of Fates@Oribos|N|Use the teleporter pad up to the Ring of Transference.|COV|Venthyr|
-C Back into the Darkness|QID|62905|M|49.50,51.58Z|Z|Ring of Transference@Oribos|QO|1|NC|N|Jump into The Maw.|COV|Venthyr|
+C Back into the Darkness|QID|62905|M|49.50,51.58|Z|Ring of Transference@Oribos|QO|1|NC|N|Jump into The Maw.|COV|Venthyr|
 T Back into the Darkness|QID|62905|M|46.90,41.68|Z|The Maw|N|To Ve'nari.|COV|Venthyr|
 A Setting the Ground Rules|QID|62882|M|46.90,41.68|Z|The Maw|N|From Ve'nari.|PRE|62905|COV|Venthyr|
 C Setting the Ground Rules|QID|62882|M|46.90,41.68|Z|The Maw|CHAT|N|Speak with Ve'nari to set some ground rules.|COV|Venthyr|
