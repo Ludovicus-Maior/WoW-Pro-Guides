@@ -540,8 +540,6 @@ T Break It Down|QID|58266|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Primrose.|
 A Beneath the Mask|QID|58267|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Primrose.|PRE|58264&58266|RANK|2|
 C Beneath the Mask|QID|58267|M|54.42,61.52|Z|Ardenweald!The Shadowlands|QO|1|N|Use the mask and Confront Ingra Drif. She is up above on the platforms.|EAB|
 C Beneath the Mask|QID|58267|M|54.50,61.42|Z|Ardenweald!The Shadowlands|QO|2|N|Slay Mindwarped Faerie.|
-T Blooming Villains|QID|58265|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
-T Beneath the Mask|QID|58267|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
 F Heart of the Forest|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|COV|NightFae|IZ|Hibernal Hollow|
 F Refugee Camp|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|TOF|TAXI|-Heart of the Forest|
 
@@ -552,6 +550,8 @@ C Battle for Hibernal Hollow|QID|58869|M|59.78,52.05|Z|Ardenweald!The Shadowland
 C Battle for Hibernal Hollow|QID|58869|M|59.84,53.09|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak to Droman Aliothe.|MS|
 C Battle for Hibernal Hollow|QID|58869|M|60.03,53.09|Z|Ardenweald!The Shadowlands|QO|3|N|Lorkron and Fulyar the Destroyer defeated.|MS|
 T Battle for Hibernal Hollow|QID|58869|M|59.92,53.09|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
+T Blooming Villains|QID|58265|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
+T Beneath the Mask|QID|58267|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
 A Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|58869|MS|
 C Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Moonberry.|MS|
 $ Faerie Trove|QID|61073|M|49.72,55.89|N|Basket with pet is around and underneath platform(treestump).|RANK|2|ITEM|182673|ACH|14313;3|
