@@ -13,7 +13,7 @@ C Choosing Your Purpose|QID|57878|M|39.50,61.39|Z|Ring of Fates@Oribos|QO|3|CHAT
 C Choosing Your Purpose|QID|57878|M|39.66,68.43|Z|Ring of Fates@Oribos|QO|5|NC|N|Choose your Covenant.|
 T Choosing Your Purpose|QID|57878|M|39.34,69.37|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
 
-;Night Fae Campaign |QID|99999|M|PLAYER|N|Guide is currently in development.|COV|Night Fae|
+;Night Fae Campaign |QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Night Fae|
 A Report to Moonberry|QID|63214|PRE|57878|M|39.30,69.17|Z|Ring of Fates@Oribos|N|From Tal-Inara.|COV|Night Fae|
 T Report to Moonberry|QID|63214|M|39.71,61.18|Z|Ring of Fates@Oribos|N|To Lady Moonberry.|COV|Night Fae|
 A The Heart of the Forest|QID|61475|M|39.50,61.58|Z|Ring of Fates@Oribos|N|From Lady Moonberry.|PRE|63214|COV|Night Fae|
@@ -105,7 +105,7 @@ A Rule 1: Have an Escape Plan|QID|60287|M|46.91,41.70|Z|The Maw|N|From Ve'nari.|
 C Collect Stygia|QID|60287|M|32.19,40.17|Z|The Maw|QO|3|N|Killing enemies, and objectives around will earn you Stygia, also elites drop more.|S|COV|Night Fae|
 C Rule 1: Have an Escape Plan|QID|60287|M|32.19,40.17|Z|The Maw|NC|N|Look for Souls trapped in cages, click the cages and then click the souls. You can also rarely find one roaming around.|COV|Night Fae|
 C Collect Stygia|QID|60287|M|32.19,40.17|Z|The Maw|QO|3|N|Killing enemies, and objectives around will earn you Stygia, also elites drop more.|US|COV|Night Fae|
-C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 25 Stygia.|COV|Night Fae|
+C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 60 Stygia.|COV|Night Fae|
 T Rule 1: Have an Escape Plan|QID|60287|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Night Fae|
 A Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60287|COV|Night Fae|
 C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|The Maw|QO|1<1|U|184314|T|Soul Ward|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Night Fae|
@@ -484,7 +484,7 @@ C Defeat Gorak Zhar|QID|60108|M|58.82,87.12|Z|Ardenweald!Instance1709|SO|7;3|N|D
 C Drust and Ashes|QID|60108|M|58.82,87.12|Z|Ardenweald!Instance1709|QO|1|N|Gorak Zhar defeated.|COV|Night Fae|
 T Drust and Ashes|QID|60108|M|50.62,30.89|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen. Congratulations on finishing the Campaign!|COV|Night Fae|
 
-;N Kyrian Campaign|QID|99999|M|PLAYER|N|Guide is currently in development.|COV|Kyrian|
+;N Kyrian Campaign|QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Kyrian|
 ;   Run through by Blanckaert ending 02/Nov/2020
 
 A Among the Kyrian|QID|60491|PRE|57878|M|36.50,64.50|Z|Ring of Fates@Oribos|N|From Polemarch Adrestes.|COV|Kyrian|
@@ -530,7 +530,7 @@ A Rule 1: Have an Escape Plan|QID|60287|PRE|62882|M|46.83,41.67|Z|The Maw|N|From
 C Rule 1: Have an Escape Plan|QID|60287|M|40.03,40.41|Z|The Maw|QO|2|NC|N|Stygia.|COV|Kyrian|
 C Rule 1: Have an Escape Plan|QID|60287|M|43.46,45.08|Z|The Maw|QO|1|NC|N|Souls taken into the Soulkeeper.|COV|Kyrian|
 C Rule 1: Have an Escape Plan|QID|60287|M|43.46,45.08|Z|The Maw|QO|3|NC|N|More Stygia can be found from powerful foes.|COV|Kyrian|
-C Rule 1: Have an Escape Plan|QID|60287|M|46.84,41.70|Z|The Maw|QO|4|NC|N|Purchase a Cypher of Relocation.|COV|Kyrian|
+C Rule 1: Have an Escape Plan|QID|60287|M|46.84,41.70|Z|The Maw|QO|4|NC|N|Purchase a Cypher of Relocation for 60 Stygia.|COV|Kyrian|
 T Rule 1: Have an Escape Plan|QID|60287|M|46.84,41.70|Z|The Maw|N|To Ve'nari.|COV|Kyrian|
 A Rule 2: Keep a Low Profile|QID|61355|PRE|60287|M|46.84,41.70|Z|The Maw|N|From Ve'nari.|COV|Kyrian|
 A Rule 2: Keep a Low Profile|QID|61355|PRE|60287|M|46.84,41.70|Z|The Maw|N|From Ve'nari.|COV|Kyrian|
@@ -948,7 +948,7 @@ T Our Realm Reclaimed|QID|62557|M|66.46,16.59|Z|Bastion!The Shadowlands|N|To Pol
 A A Call to Ardenweald|QID|60424|PRE|62557|M|66.47,16.58|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|COV|Kyrian|  ; not sure if belongs Calling Quest
 t Call to Ardenweald|QID|60424|M|66.47,16.58|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|  ; not sure if belongs
 
-;N Venthyr Campaign|QID|99999|M|PLAYER|N|Guide is currently in development.|COV|Venthyr|
+N Venthyr Campaign|QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Venthyr|
 ; Chapter 1
 
 A Sinfall|QID|59314|M|44.84,68.85|Z|Ring of Fates@Oribos|N|From General Draven.|COV|Venthyr|
@@ -1000,7 +1000,7 @@ A Rule 1: Have an Escape Plan|QID|60287|M|46.91,41.70|Z|The Maw|N|From Ve'nari.|
 C Collect Stygia|QID|60287|M|32.19,40.17|Z|The Maw|QO|3|N|Killing enemies, and objectives around will earn you Stygia, also elites drop more.|S|COV|Venthyr|
 C Rule 1: Have an Escape Plan|QID|60287|M|32.19,40.17|Z|The Maw|QO|1|NC|N|Look for Souls trapped in cages, click the cages and then click the souls. You can also rarely find one roaming around.|COV|Venthyr|
 C Collect Stygia|QID|60287|M|32.19,40.17|Z|The Maw|QO|3|N|Killing enemies, and objectives around will earn you Stygia, also elites drop more.|US|COV|Venthyr|
-C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 25 Stygia.|COV|Venthyr|
+C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 60 Stygia.|COV|Venthyr|
 T Rule 1: Have an Escape Plan|QID|60287|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Venthyr|
 A Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60287|COV|Venthyr|
 C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|The Maw|QO|1<1|U|184314|T|Soul Ward|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Venthyr|
@@ -1040,6 +1040,34 @@ C A Conduit For Change|QID|62920|M|42.73,18.12|Z|Sinfall Reaches@Sinfall!Dungeon
 T A Conduit For Change|QID|62920|M|45.47,20.98|Z|Sinfall Reaches@Sinfall!Dungeon|N|To The Accuser.|COV|Venthyr|
 A Our True Purpose|QID|62921|M|45.47,20.98|Z|Sinfall Reaches@Sinfall!Dungeon|N|From The Accuser.|PRE|62920|COV|Venthyr|
 T Our True Purpose|QID|62921|M|51.77,37.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
+A The Highlord Calls|QID|63033|M|51.79,37.61|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|62921|COV|Venthyr|
+A Halls of Atonement: Medallion of Pride|QID|60500|M|56.81,30.97|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Medallion of Pride.|COV|Venthyr|
+F Oribos|ACTIVE|63033|M|67.21,21.50|Z|Sinfall Reaches@Sinfall!Dungeon|N|Take a flight to the Oribos.|COV|Venthyr|
+P Ring of Fates|ACTIVE|63033|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Venthyr|
+T The Highlord Calls|QID|63033|M|39.94,68.55|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Venthyr|
+A Into Torghast|QID|60136|M|39.94,68.55|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|COV|Venthyr|
+P Ring of Transference|ACTIVE|60136|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the transporter to the Ring of Transference.|COV|Venthyr|
+C Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|NC|N|Jump into The Maw then talk to Va'nari.|COV|Venthyr|
+T Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|NC|N|To Va'nari.|COV|Venthyr|
+A The Search for Baine|QID|61099|M|46.90,41.69|Z|The Maw|N|From Va'nari.|COV|Venthyr|
+C The Search for Baine|QID|61099|M|48.18,39.47|QO|1|Z|The Maw|NC|N|Use Ve'nari's portal to enter Torghast.|COV|Venthyr|
+C The Search for Baine|QID|61099|M|37.89,47.10|QO|2|Z|1911|CHAT|N|Take the Attuned Shard to the Wayfinder and see where it leads.|COV|Venthyr|
+C The Search for Baine|QID|61099|QO|3|Z|The Maw|N|Warden Arkoban slain.|COV|Venthyr|
+C The Search for Baine|QID|61099|M|46.90,41.69|QO|4|Z|The Maw|NC|N|Baine Rescued.|COV|Venthyr|
+T The Search for Baine|QID|61099|M|39.93,68.58|Z|Ring of Fates@Oribos|NC|N|To Highlord Bolvar Fordragon.|COV|Venthyr|
+A Explore Torghast|QID|62932|M|39.93,68.58|Z|Ring of Fates@Oribos|NC|N|From Highlord Bolvar Fordragon|COV|Venthyr|
+P Ring of Transference|ACTIVE|62932|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the transporter to the Ring of Transference and then jump into the soul pillar.|COV|Venthyr|
+P Torghast, Tower of the Damned|ACTIVE|62932|M|48.16,39.51|Z|The Maw|N|Take the portal to Torghast tower.|COV|Venthyr|
+C Explore Torghast|QID|62932|M|46.90,41.69|Z|The Maw|NC|N|Jump into The Maw then talk to Va'nari.|COV|Venthyr|
+T Explore Torghast|QID|62932|M|39.93,68.58|Z|Ring of Fates@Oribos|NC|N|To Highlord Bolvar Fordragon.|COV|Venthyr|
+C Halls of Atonement: Medallion of Pride|QID|60500|Z|Sinfall Reaches@Sinfall!Dungeon|N|Recover the Medallion of Pride from Lord Chamberlain within the Halls of Atonement..|COV|Venthyr|
+T Halls of Atonement: Medallion of Pride|QID|60500|M|51.77,37.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
+A Sanctum Upgrade: Adventures Scouting Map|QID|63064|M|55.56,26.35|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Foreman Flatfinger.|COV|Venthyr|
+C Sanctum Upgrade: Adventures Scouting Map|QID|63064|M|56.07,58.81|Z|Sinfall Reaches@Sinfall!Dungeon|NC|N|Adventures Scouting Map activated.|COV|Venthyr|
+T Sanctum Upgrade: Adventures Scouting Map|QID|63064|M|57.92,59.34|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Tactician Sakaa.|COV|Venthyr|
+A Advancing Our Efforts|QID|59319|M|57.92,59.34|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Tactician Sakaa.|COV|Venthyr|
+C Advancing Our Efforts|QID|59319|M|55.84,61.16|Z|Sinfall Reaches@Sinfall!Dungeon|NC|N|Inspect the scouting map and start an adventure.|COV|Venthyr|
+T Advancing Our Efforts|QID|59319|M|57.92,59.34|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Tactician Sakaa.|COV|Venthyr|
 
 ; Chapter 2
 A Common Ground|QID|59701|M|51.77,37.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|62921|COV|Venthyr|
@@ -1419,7 +1447,7 @@ C United in Battle|ACTIVE|58407|Z|Maldraxxus|SO|5|N|Use Action Ability "[color=4
 C The Medallion of Dominion|ACTIVE|58407|M|73.93,33.24|Z|Maldraxxus!Instance1689|SO|6|S|N|Recover the Medallion of Dominion from Kel'Thuzad.|COV|Venthyr|
 T The Medallion of Dominion|QID|58407|M|51.69,37.47|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 
-;N Necrolord Campaign|QID|99999|M|PLAYER|N|Guide is currently in development.|COV|Necrolord|
+;N Necrolord Campaign|QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Necrolord|
 ; Chapter 1
 A Taking The Seat|QID|58609|M|42.97,74.24|Z|Ring of Fates@Oribos|N|From Secutor Mevix.|COV|Necrolord|
 P Ring of Transference|ACTIVE|58609|M|52.08,57.83|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Necrolord|
@@ -1469,7 +1497,7 @@ A Rule 1: Have an Escape Plan|QID|60287|M|46.91,41.70|Z|The Maw|N|From Ve'nari.|
 C Collect Stygia|QID|60287|M|32.19,40.17|Z|The Maw|QO|3|N|Killing enemies, and objectives around will earn you Stygia, also elites drop more.|S|COV|Necrolord|
 C Rule 1: Have an Escape Plan|QID|60287|M|32.19,40.17|Z|The Maw|QO|1|NC|N|Look for Souls trapped in cages, click the cages and then click the souls. You can also rarely find one roaming around.|COV|Necrolord|
 C Collect Stygia|QID|60287|M|32.19,40.17|Z|The Maw|QO|3|N|Killing enemies, and objectives around will earn you Stygia, also elites drop more.|US|COV|Necrolord|
-C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 25 Stygia.|COV|Necrolord|
+C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 60 Stygia.|COV|Necrolord|
 T Rule 1: Have an Escape Plan|QID|60287|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Necrolord|
 A Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60287|COV|Necrolord|
 C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|The Maw|QO|1<1|U|184314|T|Soul Ward|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Necrolord|
