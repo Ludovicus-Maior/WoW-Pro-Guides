@@ -478,7 +478,7 @@ A Necrotic Wake: A Paragon's Plight|QID|60057|M|40.93,55.34|Z|Bastion!The Shadow
 H Hero's Rest|ACTIVE|60056^62723^60729|U|6948|M|PLAYER|N|Hearth back to Hero's Rest.|
 
 ; Side Quest stuff - Pride or Unit & Elite Quests
-R West Anima Gateway|ACTIVE|60315|M|46.88,48.98|Z|Bastion!The Shadowlands|TZ|Firstborne's Bounty|N|Leave Hero's Rest via the Anima Gateway to the west.|RANK|2|
+R West Anima Gateway|ACTIVE|60315|M|50.56,46.80|Z|Bastion!The Shadowlands|TZ|Firstborne's Bounty|N|Leave Hero's Rest via the Anima Gateway to the west.|RANK|2|
 C WANTED: Gorgebeak|QID|60315|M|49.16,46.56|Z|Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Run down in the valley to find and kill Gorgebeak.|
 T WANTED: Gorgebeak|QID|60315|M|51.00,41.66|Z|Bastion!The Shadowlands|ELITE|N|To Gerdus.|
 K Baedos|QID|62192|QO|1|M|51.22,40.62|Z|Bastion!The Shadowlands|ITEM|172232|RARE|N|Bring 4 casks of fermenting carrion fruit (found in the area) and come close to Baedos, This will awaken him, Fight him down to ~25%, then he will give you a treasure.|ACH|14307;18| ;formerly could fight down nearby vulpin, larion or cloudfeathers to get a beast you could fight him with, option not currently available
