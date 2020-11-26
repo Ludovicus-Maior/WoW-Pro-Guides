@@ -1,3 +1,12 @@
+# Release 9.0.2-A3 / (1.13.5-D3) Thanksgiving Touchup!
+## Bug Fixes
+* None
+## Guide Updates
+### Retail
+* Shadowlands: Ardenweald, Bastion, Covenant
+### Classic
+* None
+
 # Release 9.0.2-A2 / (1.13.5-D2)
 ## Bug Fixes
 * Warn users if the loacd just WoWPro and no guide addons
