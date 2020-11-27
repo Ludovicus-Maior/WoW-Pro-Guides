@@ -49,7 +49,7 @@ A The Lesson of the Burning Scroll|QID|29408|M|59.70,19.17|N|From Master Shang X
 C The Lesson of the Burning Scroll|QID|29408|M|60.10,18.42;59.78,19.73;60.02,18.59;59.99,20.27|CS|N|You get the flame automatically now; head on up the stairs, follow around the floor to the second flight of stairs, then head to the balcony and burn the Edict of Temperance.|NC|
 T The Lesson of the Burning Scroll|QID|29408|M|59.73,19.08|N|Back down the stairs to Master Shang Xi.|
 A The Disciple's Challenge|QID|29409|M|59.73,19.08|N|From Master Shang Xi.|
-C The Disciple's Challenge|QID|29409|M|66.96,22.93|N|Head out of the east side of the building, down the stairs, across the bridge to the Tranquil Grotto, then defeat Jaomin Ro.|
+C The Disciple's Challenge|QID|29409|M|67.76,22.75|N|Head out of the east side of the building, down the stairs, across the bridge to the Tranquil Grotto, then defeat Jaomin Ro.|
 T The Disciple's Challenge|QID|29409|M|66.00,22.80|N|To Master Shang Xi (he has moved to the Tranquil Grotto bridge).|
 A Aysa of the Tushui|QID|29410|M|66.01,22.76|N|From Master Shang Xi.|
 T Aysa of the Tushui|QID|29410|M|55.09,32.82|N|To Merchant Lorvo at Fu's Pond.|
@@ -58,8 +58,8 @@ A The Missing Driver|QID|29419|M|55.09,32.82|N|From Merchant Lorvo.|
 C Items of Utmost Importance|QID|29424|M|54.11,20.92|N|Kill and loot the Amberleaf Scamps|S|
 C The Missing Driver|QID|29419|M|54.11,20.92|N|Run to Mim Dimwind in The Dawning Valley|NC|
 C Items of Utmost Importance|QID|29424|M|54.11,20.92|N|Finish killing and looting the Amberleaf Scamps|US|
-T Items of Utmost Importance|QID|29424|M|55.09,32.82|N|To Merchant Lorvo.|
-T The Missing Driver|QID|29419|M|55.09,32.82|N|To Merchant Lorvo.|
+T Items of Utmost Importance|QID|29424|M|55.10,32.38|N|To Merchant Lorvo.|
+T The Missing Driver|QID|29419|M|55.10,32.38|N|To Merchant Lorvo.|
 A The Way of the Tushui|QID|29414|M|55.11,32.54|N|From Aysa Cloudsinger|
 C The Way of the Tushui|QID|29414|M|55.63,30.99;57.80,36.10|CS|N|Head up to the Cave of Meditation, then kill the Amberleaf Troublemakers until Aysa's Meditation bar reaches 90.|
 T The Way of the Tushui|QID|29414|M|57.55,34.68|N|To Master Shang Xi (he has moved to outside the Cave of Meditation)|
