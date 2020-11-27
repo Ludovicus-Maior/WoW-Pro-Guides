@@ -384,7 +384,8 @@ C A Test of Courage|QID|57547|M|51.84,54.69|QO|1|NC|Z|Bastion!The Shadowlands|N|
 C A Test of Courage|QID|57547|M|51.84,54.69|QO|2|Z|Bastion!The Shadowlands|N|Defend Zosime from waves of attackers.|
 T A Test of Courage|QID|57547|M|51.19,56.78|Z|Bastion!The Shadowlands|N|To Zosime.|
 A Tough Love|QID|57568|M|51.19,56.78|Z|Bastion!The Shadowlands|N|From Zosime.|PRE|57547|RANK|2|
-C Tough Love|QID|57568|M|46.31,56.71|QO|1|Z|Bastion!The Shadowlands|N|Head over to Kala's Den and beat her down to 50% health. Optionally, you can use the "[color=40C7EB]Throw Slobber Ball[/color]" to momentarily distract her for free hits. After she leaves, pick up the staff.|EAB|
+R Kala's Den|ACTIVE|57568|M|49.00,58.00|Z|Bastion!The Shadowlands|N|Run to the entrance of Kala's Den.|
+C Tough Love|QID|57568|M|46.31,56.71|QO|1|Z|Bastion!The Shadowlands|N|Head into to Kala's Den and beat her down to 50% health. Optionally, you can use the "[color=40C7EB]Throw Slobber Ball[/color]" to momentarily distract her for free hits. After she leaves, pick up the staff.|EAB|
 C Tough Love|QID|57568|M|46.31,56.71|QO|2|Z|Bastion!The Shadowlands|N|Grab the stick.|
 T Tough Love|QID|57568|M|51.33,59.57|Z|Bastion!The Shadowlands|N|To Zosime.|
 A A Friendly Rivalry|QID|59674|M|57.45,54.24|Z|Bastion!The Shadowlands|N|Follow the road Northeast to find this quest from Pelodis.|RANK|2|
