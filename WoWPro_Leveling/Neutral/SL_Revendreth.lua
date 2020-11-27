@@ -28,7 +28,6 @@ return [[
 ; K Executioner Aatron|M|37.11,47.95|Z|Revendreth|T|Executioner Aatron|N|WH - Shatter all 3 Stone Legion Punishers along castle wall.|ITEM|183737|RARE|ACH|14310;10|
 ; K Grand Arcanist Dimitri|M|21.33,54.34|Z|Revendreth|T|Grand Arcanist Dimitri|N|WH - Kill all 4 Shrouded Ritualists, to release Rare.|ITEM|180708|RARE|ACH|14310;11|
 ; K Amalgamation of Sin|M|PLAYER|Z|Revendreth|T|Amalgamation of Sin|N|WH - UNKNOWN|RARE|ACH|14310;12|
-; K Scrivener Lenua|M|38.32,69.21|Z|Revendreth|T|Scrivener Lenua|N|WH - Bring 4 Forbidden Tombs back to the library to summom Rare.  Tombs are random spots near library.|ITEM|180587|RARE|ACH|14310;13|
 ; K Tomb Burster|M|43.10,79.20|Z|Revendreth|T|Tomb Burster|N|WH - Break all spider eggs around the webbed NPC, then fight through 3 waves of spiders: 2 - 3 - 4.|RARE|ACH|14310;14|
 ; K Worldedge Gorger|M|38.62,72.21|Z|Revendreth|T|Worldedge Gorger|N|WH - Use Enticing Anima to lit worldedge braziers, drop form worldeater rift mobs along the river.|ITEM|180583|RARE|ACH|14310;15|
 ; K Executioner Adrastia|M|43.73,51.24|Z|Revendreth|T|Executioner Adrastia|N|WH - Flies around the central platform in the middle of Darkwall Tower. Pull carefully to not aggro mobs.|ITEM|180502|RARE|ACH|14310;16|
@@ -434,7 +433,7 @@ C A Reflection of Truth|QID|57159|M|59.35,52.90|Z|Castle Nathria!Instance|QO|3|N
 C A Reflection of Truth|QID|57159|M|65.33,52.82|Z|Castle Nathria!Instance|QO|4|NC|N|Once you get the completion for Protecting the accuser, Run back through the mirror to escape Castle Nathria.|MS|
 T A Reflection of Truth|QID|57159|M|51.53,59.15|Z|Revendreth|N|To The Accuser.|MS|
 A Dredhollow|QID|60313|M|51.53,59.15|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|57159|MS|
-$ Abandoned Curios|CS|M|51.06,59.14;51.85,59.54|Z|Revendreth|N|WH - Jump from 1st Coord, treasure at 2nd.|ITEM|182744|ACH|14314;16|
+$ Abandoned Curios|QID|59888|CS|M|51.06,59.14;51.85,59.54|Z|Revendreth|N|WH - Jump from 1st Coord, treasure at 2nd.|ITEM|182744|ACH|14314;16|
 C Hunting Trophies|QID|60514|M|46.83,65.24|Z|Revendreth||US|N|Finish killing spidars, bears and a hydra to collect your hunting trophies.|
 T The Banewood|QID|62782|M|50.15,70.35|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
 T Hunting Trophies|QID|60514|M|48.50,68.44|Z|Revendreth|N|To Huntmaster Constantin.|
@@ -481,9 +480,10 @@ C Sign Your Own Death Warrant|QID|57380|M|39.21,68.59|Z|Revendreth|QO|2|N|Kill e
 C Sign Your Own Death Warrant|QID|57380|M|37.93,68.34|Z|Revendreth|QO|3|NC|N|Click on the Writing Desk to Forge your Letter of Condemnation.|MS|
 $ Forbidden Ink|QID|61990|M|37.66,68.74|Z|Revendreth|L|182475|N|Pick up the ink.|ACH|14314;1|
 $ Lost Quill|QID|61990|CS|M|38.64,68.17;37.94,69.07|Z|Revendreth|ACH|14314;1|N|Run along the ledge to get over to where the quill is then drop down beside it. Offer the ink to the quill for a pet.|ITEM|182613|
+K Scrivener Lenua|QID|58213|M|38.32,69.21|Z|Revendreth|T|Scrivener Lenua|N|WH - Bring 4 Forbidden Tombs back to the library to summom Rare.  Tombs are random spots near library.|ITEM|180587|RARE|ACH|14310;13|
 T Sign Your Own Death Warrant|QID|57380|M|38.97,66.03|Z|Revendreth|N|To Stonehead.|MS|
 N Pick up Hollow Rock|AVAILABLE|58327|M|38.87,64.31|Z|Revendreth|N|After Stonehead has unavoidably thrown you, pick up the Hollow Rock to disguise yourself.|BUFF|320559|RANK|2|
-A Snacks for Stonehead|QID|58327|M|39.33,65.25|Z|Revendreth|N|Now that you have your disguise, go over to the Chewed Light Shard and pick up this quest.|
+A Snacks for Stonehead|QID|58327|M|39.33,65.25|Z|Revendreth|N|Now that you have your disguise, go over to the Chewed Light Shard and pick up this quest.|rank|2|
 ; commenting out - so doesnt pop up when you go out of the area. == A Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
 C Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|S!US|N|Kill Hostiles and give parasols to the desicated as you do the side quests in the area.|TOF|
 A Chasing Madness|QID|57405|M|37.07,63.14|Z|Revendreth|N|From Lost Sybille.|LVL|58|PRE|57380|MS|
