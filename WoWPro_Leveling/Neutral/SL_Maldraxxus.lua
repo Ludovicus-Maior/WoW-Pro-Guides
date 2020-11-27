@@ -178,7 +178,7 @@ T Juicing Up|QID|58088|M|53.72,47.85|Z|Maldraxxus|N|To So'narynar.|
 A Side Effects|QID|58090|M|53.72,47.85|Z|Maldraxxus|N|From So'narynar.|PRE|58088|RANK|2|
 C Side Effects|QID|58090|M|53.70,47.88|Z|Maldraxxus|QO|1|N|Buy the Necessary Enchancers from Au'larrynar.|
 C Side Effects|QID|58090|M|53.87,50.53|Z|Maldraxxus|QO|2|CHAT|N|Deliver the Enhancers to Scrapper Minoire.|
-T Side Effects|QID|58090|M|54.08,51.27|Z|Maldraxxus|N|To Overseer Kalvaros.|
+T Side Effects|QID|58090|M|54.14,50.60|Z|Maldraxxus|N|To Overseer Kalvaros.|
 C How to Get a Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|S|
 K Gristlebeak|QID|61991^58837|QO|1|M|57.71,51.57|Z|Maldraxxus|T|Gristlebeak|N|Break Unusual Eggs at marked spot, Silver elite comes down to defend her young.|ITEM|182196|RARE|ACH|14308;18|
 $ Strange Growth|QID|59429|M|55.88,38.98|Z|Maldraxxus|N|Pull on the strange growth to find a bit of treasure for you.|ITEM|182607|RANK|2|
@@ -186,11 +186,11 @@ C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine t
 C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Kill Deadeye the giant Bloodtusk.|
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|US|
 f Keres' Rest|ACTIVE|59781|M|53.81,30.71|Z|Maldraxxus|N|At Fly-eyed Eliera.|
-C How to Get a Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
+C How to Get a Head|QID|59750|M|57.64,37.73|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
 A WANTED: The Key of Eyes|QID|62462|M|53.08,41.41|Z|Maldraxxus|ELITE|N|From Wanted Poster.|RANK|2|TOF|
 C How to Get a Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|
-T How to Get a Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
 T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
+T How to Get a Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
 A Stuff We All Get|QID|58575|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|RANK|2|
 A Team Spirit|QID|59800|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|RANK|2|
 C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|NC|N|Use the item provided to splash Arena Challengers.|S|
@@ -267,9 +267,9 @@ C Take the High Ground|QID|58268|M|35.91,46.78|Z|Maldraxxus|QO|6|N|Protect Mevix
 C First Time? You Have to Fight!|QID|60557|M|36.86,50.55|Z|Maldraxxus|U|179923|N|Use the Attack Battlehorn near Hesitant Soldiers to rally them.|US|MS|; This looks like an EAB??
 C Lead By Example|QID|57976|M|35.85,47.87|Z|Maldraxxus|N|Kill the Steelskin constructs around the area.|US|MS|
 C Take the High Ground|QID|58268|M|39.43,46.73|Z|Maldraxxus|N|Run to the Forward Position to meet Secutor Mevix.|MS|
-T Take the High Ground|QID|58268|M|39.43,46.73|Z|Maldraxxus|N|To Secutor Mevix.|MS|
-T First Time? You Have to Fight!|QID|60557|M|39.43,46.73|Z|Maldraxxus|N|To Secutor Mevix.|MS|
 T Lead By Example|QID|57976|M|39.43,46.73|Z|Maldraxxus|N|To Secutor Mevix.|MS|
+T First Time? You Have to Fight!|QID|60557|M|39.43,46.73|Z|Maldraxxus|N|To Secutor Mevix.|MS|
+T Take the High Ground|QID|58268|M|39.43,46.73|Z|Maldraxxus|N|To Secutor Mevix.|MS|
 A Offensive Behavior|QID|57979|M|39.43,46.73|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57976&60557&58268|MS|
 C Offensive Behavior|QID|57979|M|37.68,43.83|Z|Maldraxxus|U|179923|N|Use the Attack Battlehorn to rally troops to assist you in killing General Alver.|MS|; EAB?
 T Offensive Behavior|QID|57979|M|39.44,46.69|Z|Maldraxxus|N|To Secutor Mevix.|MS|
@@ -360,7 +360,7 @@ C Repeat After Me|QID|58621|M|43.83,34.63|QO|1|Z|Maldraxxus|N|Enter the cave, ta
 C Repeat After Me|QID|58621|M|47.25,35.66|QO|5|Z|Maldraxxus|N|Target the Runestone of Constructs and /flex\n\nKill Echo of the Crafter|T|Runestone of Constucts,flex|;Typo by Bliz...hopefully they correct it at somepoint
 C Repeat After Me|QID|58621|M|45.70,28.64|QO|2|Z|Maldraxxus|N|Enter the cave, target the Runestone of Eyes and /sneak\n\nKill Echo of the Spy|T|Runestone of Eyes,sneak|
 T Repeat After Me|QID|58621|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
-A Slaylines|QID|58620|M|43.07,25.12|Z|Maldraxxus|N|From Ta'eran.|PRE|58621&59917|RANK|2|
+A Slaylines|QID|58620|M|43.07,25.12|Z|Maldraxxus|N|From Ta'eran.|PRE|58621|RANK|2|
 N Arrange the Beams|ACTIVE|58620|M|43.07,25.12|Z|Maldraxxus|N|[color=ff8000]East:[/color]\n\nBe sure to click the East Power Crystal [color=ff8000]2[/color] times so the beam goes into the crystal behind you.\n\nThat crystal behind you should be clicked [color=ff8000]1[/color] time and the beam should go north refecting off something onto the mountain and to the crystal to your NW that should already be pointed to the East Obelisk.\n\n[color=ff8000]West:[/color]\n\nBe sure to click the West Power Crystal only [color=ff8000]1[/color] time so the beam goes into the crystal behind you.\n\nThat crystal behind you should be clicked [color=ff8000]1[/color] time and the beam should go NE refecting off something which directs it to the crystal North of you.\n\nThat crystal to the north should be clicked [color=ff8000]1[/color] time to finally direct it to the West Obelisk.|S!US|
 C Slaylines|QID|58620|QO|1|M|45.87,29.89|Z|Maldraxxus|NC|N|Locate the East Power Crystal.|
 C Slaylines|QID|58620|QO|4|CS|M|44.94,29.50;43.39,26.84|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the East Obelisk, run back to it and click to activate.|
@@ -371,7 +371,7 @@ T Kill Them, Of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
 T Slaylines|QID|58620|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
 A Secrets Among the Shelves|QID|58622|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58620|RANK|2|
 C Secrets Among the Shelves|QID|58622|M|PLAYER|Z|Maldraxxus|NC|N|Enter and climb the tower avoiding the floating books while collecting the highlighted tomes from the ground and bookshelves.|
-T Secrets Among the Shelves|QID|58622|M|41.83,23.61|Z|Maldraxxus|N|To Ta'ern.|
+T Secrets Among the Shelves|QID|58622|M|41.83,23.61|Z|Maldraxxus|N|To Ta'ern. He is now within the tower before the final level.|
 A Archival Protection|QID|60900|M|41.83,23.61|Z|Maldraxxus|N|From Ta'eran.|PRE|58622|RANK|2|
 C Archival Protection|QID|60900|M|42.26,24.11|Z|Maldraxxus|N|Continue up the stairs to find and kill The Archivist.|T|The Archivist|
 T Archival Protection|QID|60900|M|PLAYER|Z|Maldraxxus|N|To Ta'ern.|
@@ -401,7 +401,7 @@ C Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|NC|N|Step into the pool 
 T Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
 ; The House of Plagues Storyline and Mixing Monstrosities Sidestory
-R Blighted Scar|QID|59130^62742|M|54.22,66.04|Z|Maldraxxus|N|Follow the road east around the outside of the Theater of Pain to find the Blighted Scar.|
+R Blighted Scar|QID|59130^62742|M|55.68,64.82|Z|Maldraxxus|N|Follow the road east around the outside of the Theater of Pain to find the Blighted Scar.|
 A Avoid 'Em Like the Plague|QID|62742|M|55.74,60.94|Z|Maldraxxus|N|Bonus Objective - Autoaccepted.|RANK|2|TOF|LVL|-59|
 C Avoid 'Em Like the Plague|QID|62742|M|55.74,60.94|Z|Maldraxxus|N|Pick up potions around the area to clease the survivors. Interact with the green puddles and kill hostiles|EAB|TOF|
 A The House of Plagues|QID|59130|M|54.22,66.04|Z|Maldraxxus|N|From Baroness Draka.|PRE|60733|MS|
