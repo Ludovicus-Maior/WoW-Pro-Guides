@@ -719,7 +719,7 @@ F Boralus|ACTIVE|53820|N|Make your way back to Boralus to meet Kelsey.|
 H Snug Harbor Inn|ACTIVE|53820|M|36.42,30.78|Z|Tiragarde Sound|N|Hearth or otherwise return to Boralus and Kelsey Steelspark.|C|-Mage|
 P Sanctum of the Sages|ACTIVE|53820|M|36.42,30.78|Z|Tiragarde Sound|N|Return to Boralus and Kelsey Steelspark.|C|Mage|
 T She's in a Happier Place|QID|53820|M|67.93,26.28|Z|Boralus|N|To Kelsey Steelspark.|
-B More upgrade missions|QID|54292&54293&543305|M|68.97,24.73|Z|Boralus|S!US|N|Three more missions to upgrade your outposts purchased from the Vindicator Jaelaana. Unlike the previous missions, these need to be purchased (and done) by each character who wants the upgrade.|REP|7th Legion;2159;Exalted;0|
+B More upgrade missions|QID|54292&54293&54305|M|68.97,24.73|Z|Boralus|S!US|N|Three more missions to upgrade your outposts (Arom's Stand, Brennadam, Castaway Point) purchased from the Vindicator Jaelaana. Unlike the previous missions, these need to be purchased (and done) by each character who wants the upgrade.|REP|7th Legion;2159;Exalted;0|
 
 ;lvl 50
 ;Warfronts
