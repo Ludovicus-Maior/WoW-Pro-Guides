@@ -119,16 +119,17 @@ A Shu, the Spirit of Water|QID|29678|PRE|29666&29677|M|78.50,42.85|N|From Old Ma
 ; Hendo72 - This CS doesn't work if you go quick; takes time to register your arrival.
 C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|N|Head to the glowing rocks and it will jump you to the edge of the Pool of Reflection. Walk forward to the pool.|QO|1|NC|
 C Shu, the Spirit of Water|QID|29678|M|79.38,38.35|QO|2|N|Use the Sun Pearl to coax out Shu.|U|73791|NC|
-T Shu, the Spirit of Water|QID|29678|N|(UI Alert)|
-A A New Friend|QID|29679|PRE|29678|N|(UI Alert)|
+T Shu, the Spirit of Water|QID|29678|N|(UI Alert)\n[color=FF0000]NOTE: [/color]If the quest does not turn-in through the UI, access it through your quest log and click on 'Complete' to turn it in.|
+A A New Friend|QID|29679|M|79.82,39.34|N|From Aysa Cloudsinger (now at the edge of the Pool of Reflection).|PRE|29678|
 C A New Friend|QID|29679|M|79.10,38.20|N|Walk into the Water Spouts created by Shu.|NC|
-T A New Friend|QID|29679|M|79.82,39.34|N|To Aysa Cloudsinger (now at the edge of the Pool of Reflection)|
-A The Source of Our Livelihood|QID|29680|PRE|29679|M|79.82,39.34|N|From Aysa Cloudsinger|
-T The Source of Our Livelihood|QID|29680|M|79.19,45.31;68.89,65.00|CC|N|To Ji Firepaw at Dai-Lo Farmstead.  A Cart at the first coordinates will take you to him.|
+T A New Friend|QID|29679|M|79.82,39.34|N|To Aysa Cloudsinger.|
+A The Source of Our Livelihood|QID|29680|PRE|29679|M|79.82,39.34|N|From Aysa Cloudsinger.|
+R Delivery Cart|ACTIVE|29680|M|79.19,45.31|N|Jump into the Delivery Cart to be taken to the Dai-Lo Farmstead.|TZ|The Dai-Lo Farmstead|V|
+T The Source of Our Livelihood|QID|29680|M|68.89,65.00|N|To Ji Firepaw at Dai-Lo Farmstead.|
 A Rascals|QID|29769|PRE|29680|M|68.89,65.00|N|From Ji Firepaw|
 A Still Good!|QID|29770|PRE|29680|M|68.13,66.40|N|From Gao Summerdraft|
 C Rascals|QID|29769|M|72.62,74.17|N|Kill Plump Virmen|S|
-C Still Good!|QID|29770|M|71.66,70.54|N|Head into the Teaming Burrow and collect 3 Stolen Carrots either from the ground or from the Plump Virmen.|NC|QO|2|L|74296 3|
+C Still Good!|QID|29770|M|71.66,70.54|N|Head into the Teeming Burrow and collect 3 Stolen Carrots either from the ground or from the Plump Virmen.|NC|QO|2|L|74296 3|
 C Still Good!|QID|29770|M|77.19,71.06|N|Head out of the cave, to the Virmen Grotto and collect 3 Pilfered Pumpkins from the ground|NC|QO|3|L|74297 3|
 C Still Good!|QID|29770|M|70.74,78.82|N|Collect 3 Uprooted Turnips from the ground|NC|QO|1|L|74295 3|
 C Rascals|QID|29769|M|68.40,72.10|N|Finish Killing Plump Virmen|US|
@@ -137,7 +138,7 @@ T Rascals|QID|29769|M|68.89,65.00|N|To Ji Firepaw|
 A Missing Mallet|QID|29768|PRE|29769&29770|M|68.89,65.00|N|From Ji Firepaw|
 A Stronger Than Wood|QID|29771|PRE|29769&29770|M|69.13,66.62|N|From Jojo Ironbrow|
 C Stronger Than Wood|QID|29771|M|69.13,66.62|N|Collect the Discarded Wood Planks from the floor.|S|NC|
-C Missing Mallet|QID|29768|M|62.53,76.68|N|Loot the Mallet from next to Raggis.  You can tag him and drag him over to the guards on the path nearby, they will keep him busy while you loot the mallet. (kill him for easy access)|NC|
+C Missing Mallet|QID|29768|M|62.53,76.68|N|Loot the Mallet from next to Raggis. You can tag him and drag him over to the guards on the path nearby, they will keep him busy while you loot the mallet. (kill him for easy access)|NC|
 C Stronger Than Wood|QID|29771|M|63.07,76.77|N|Finish collecting the Discarded Wood Planks from the floor.|US|NC|
 T Stronger Than Wood|QID|29771|M|69.13,66.62|N|To Jojo Ironbrow|
 T Missing Mallet|QID|29768|M|68.89,65.00|N|To Ji Firepaw|
@@ -149,10 +150,9 @@ C Not In the Face!|QID|29774|M|69.00,62.95|N|Head to Shu, and ask him for help|C
 C Not In the Face!|QID|29774|M|68.89,65.00|N|Head back to Wugou and wait for Shu to wake him.|NC|
 T Not In the Face!|QID|29774|M|68.89,65.00|N|To Ji Firepaw|
 A The Spirit and Body of Shen-zin Su|QID|29775|PRE|29774|M|68.89,65.00|N|From Ji Firepaw|
-; [aldavor] this doesn't show up at the moment as the crazy arrow/tomtom isn't picking up coordinates right.
-;R Mandori Village|QID|29775|M|68.0,67.0|CS|N|Head to the Delivery Cart for a ride to the steps of Temple of Five Dawns|
-; [aldavor] Added a note to help out.
-N Mandori Village|QID|29775|N|Head to the Delivery Cart at 68.0,67.0 for a ride to the steps of Temple of Five Dawns.\n\nClose this when you're on it.|
+R Delivery Cart|ACTIVE|29775|M|67.85,67.24|N|Head to the Delivery Cart for a free ride to the steps of Temple of Five Dawns|TZ|Mandori Village|V|
+; -- Hendo72 - Fixed R step
+;N Mandori Village|QID|29775|N|Head to the Delivery Cart at 68.0,67.0 for a ride to the steps of Temple of Five Dawns.\n\nClose this when you're on it.|
 T The Spirit and Body of Shen-zin Su|QID|29775|M|51.58,48.32|N|Head up the stairs to Master Shang Xi|
 A Morning Breeze Village|QID|29776|PRE|29775|M|51.58,48.32|N|From Master Shang Xi|
 T Morning Breeze Village|QID|29776|M|50.15,48.63;47.66,50.93;44.91,51.36;35.81,51.37;30.82,44.47;30.97,36.74|CS|N|To Ji Firepaw in Morning Breeze Village|
@@ -178,10 +178,9 @@ C Do No Evil|QID|29780|M|20.93,34.36|N|Kill Ruk-Ruk|
 T Do No Evil|QID|29780|N|To Ji Firepaw|
 C Monkey Advisory Warning|QID|29781|M|20.93,34.36|N|Collect the Stolen Firework Bundle from where Ruk-Ruk was, or elsewhere in the village|US|NC|
 T Monkey Advisory Warning|QID|29781|M|24.44,30.62|N|To Ji Firepaw|
-C The Direct Solution|QID|29779|M|24.44,30.62|N|Finish killing Fe-Fang Hozen.  Ji Firepaw has a great AOE kick, so feel free to pull a few.|US|
-T The Direct Solution|QID|29779|N|To Ji Firepaw, you may want to wait until you see Ji Firepaw at the water's edge as Ji stops helping you and runs off to the water's edge when you turn in the quest.|
+C The Direct Solution|QID|29779|M|24.44,30.62|N|Finish killing Fe-Fang Hozen. Ji Firepaw has a great AOE kick, so feel free to pull a few.|US|
 T Stronger Than Bone|QID|29782|M|29.92,39.77|N|To Jojo Ironbrow|
-T The Direct Solution|QID|29779|N|To Ji Firepaw, you may want to wait until you are out of the monkey village to turn this in as Ji stops helping you and runs off when you turn in the last quest|US|
+T The Direct Solution|QID|29779|N|To Ji Firepaw.\n[color=FF0000]NOTE: [/color]Wait until you're out of Fe-Feng Village and closer to Morning Breeze to turn-in the quest. Ji Firepaw will stop helping you once you've turned it in.|
 A Balanced Perspective|QID|29784|PRE|29779&29780&29781&29782|M|30.97,36.74|N|From Ji Firepaw|
 T Balanced Perspective|QID|29784|M|32.94,35.60|N|Cross the ropes, to Aysa Cloudsinger\n\nIf you have difficulty with the ropes, go into your Game Menu, click Interface and select the Mouse option. Check "Click-to-Move" and "Okay". This means that you will move wherever you right-click your mouse, and makes it easier.\n\nDon't forget to uncheck this after you've finished the quest.|
 A Dafeng, the Spirit of Air|QID|29785|PRE|29784|M|32.94,35.60|N|From Aysa Cloudsinger|
@@ -203,14 +202,14 @@ T Unwelcome Nature|QID|29788|M|19.33,50.67|N|To Master Shang Xi|
 T Small, But Significant|QID|29789|M|19.33,50.67|N|To Master Shang Xi|
 A Passing Wisdom|QID|29790|PRE|29788&29789|M|19.33,50.67|N|From Master Shang Xi|
 C Passing Wisdom|QID|29790|M|19.33,50.67|N|Wait while Master Shang Xi tells you the story.|NC|
-T Passing Wisdom|QID|29790|M|15.79,49.11|N|To Aysa Cloudsinger|
+T Passing Wisdom|QID|29790|M|15.79,49.11|N|To Aysa Cloudsinger at the Hot Air Balloon.|
 ; [aldavor] *** check these for auto-close/checks ***
 A The Suffering of Shen-zin Su|QID|29791|PRE|29790|M|15.79,49.11|N|To Aysa Cloudsinger|
-C The Suffering of Shen-zin Su|QID|29791|M|15.57,48.90|N|Right click on Shang Xi's Hot Air Balloon.|QO|1|NC|
+C The Suffering of Shen-zin Su|QID|29791|M|15.57,48.90|N|Right click on Shang Xi's Hot Air Balloon.|QO|1|V|
 C The Suffering of Shen-zin Su|QID|29791|M|15.57,48.90|N|Sit back and discover that you're questing on the back of a giant turtle!|QO|2|
-T The Suffering of Shen-zin Su|QID|29791|M|51.30,48.30|N|Wait until you land, go down both flights of stairs and outside, then north to Elder Shaopai.|
+T The Suffering of Shen-zin Su|QID|29791|M|51.30,48.30|N|When you land, climb down to the roof and drop to the ground (you won't take damage).\nClimb the stairs to Elder Shaopai.|
 A Bidden to Greatness|QID|29792|PRE|29791|M|51.30,48.30|N|From Elder Shaopai.|
-r Repair/Restock|QID|29792|M|50.65, 58.6|N|Right next to the Blacksmith where you can repair and sell is a profession trainer should you happen to need him|
+r Repair/Restock|QID|29792|M|50.65,58.72|N|Back on the steps to the Inn, you'll find the blacksmith, Lien-Hua Thunderhammer, where you can repair and sell. Beside her is the profession trainer, Elder Oakpaw; should you happen to need him.|
 C Bidden to Greatness|QID|29792|M|51.58,60.97|N|Head to the Mandori Village Gate|NC|QO|1|
 C Bidden to Greatness|QID|29792|M|52.26,68.27|N|Head to the Pei-Wu Forest Gate|NC|QO|2|
 T Bidden to Greatness|QID|29792|M|50.08,76.62|N|To Wei Palerage|
@@ -226,7 +225,7 @@ T Wrecking the Wreck|QID|30589|M|36.40,72.36|N|To Makael Bay|
 A Handle With Care|QID|30590|PRE|30589|M|36.40,72.36|N|From Makael Bay|
 A Evil from the Seas|QID|29793|PRE|30589|M|36.38,72.52|N|From Ji Firepaw|
 C Evil from the Seas|QID|29793|M|38.20,73.80|N|Kill the Darkened Horrors or Terrors|S|
-C Handle With Care|QID|30590|M|38.20,73.80|N|Collect the Explosive Bundles from the ground|NC|
+C Handle With Care|QID|30590|M|38.20,73.80|N|Collect the Explosive Bundles from the ground.\nLook for the bodies of Horde on the ground. You'll find the explosives near the bodies.|NC|
 C Evil from the Seas|QID|29793|M|38.20,73.80|N|Finish killing the Darkened Horrors or Terrors|US|
 T Handle With Care|QID|30590|M|36.40,72.36|N|To Makael Bay|
 T Evil from the Seas|QID|29793|M|36.38,72.52|N|To Ji Firepaw|
@@ -236,10 +235,10 @@ A None Left Behind|QID|29794|PRE|29796|M|42.20,86.55|N|From Delora Lionheart|
 A Medical Supplies|QID|29797|PRE|29796|M|42.20,86.55|N|From Delora Lionheart|
 A From Bad to Worse|QID|29665|PRE|29796|M|42.30,86.35|N|From Jojo Ironbrow|
 C From Bad to Worse|QID|29665|M|38.40,83.60|N|Kill Deepscale Tormentors|S|
-C None Left Behind|QID|29794|M|38.40,83.60|N|Go and grab an injured soldier, then return to the camp.  Repeat three times|NC|S|
+C None Left Behind|QID|29794|M|38.40,83.60|N|Grab an injured soldier and return to the camp within 3 minutes. Rinse and repeat three times.\n[color=FF0000]NOTE: [/color]You can only carry one at a time. Also, you can still fight while carrying the Injured Soldier.|NC|S|
 C Medical Supplies|QID|29797|M|38.40,83.60|N|Collect the Medical Supplies lying about the crash site.|NC|
 C From Bad to Worse|QID|29665|M|38.40,83.60|N|Finish killing Deepscale Tormentors|US|
-C None Left Behind|QID|29794|M|38.40,83.60|N|Go and grab an injured soldier, then return to the camp.  Repeat three times|NC|US|
+C None Left Behind|QID|29794|M|38.40,83.60|N|Grab an injured soldier and return to the camp within 3 minutes. Rinse and repeat three times.\n[color=FF0000]NOTE: [/color]You can only carry one at a time. Also, you can still fight while carrying the Injured Soldier.|NC|US|
 T None Left Behind|QID|29794|M|42.20,86.55|N|From Delora Lionheart|
 T Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|
 T From Bad to Worse|QID|29665|M|42.30,86.35|N|To Jojo Ironbrow|
@@ -253,9 +252,8 @@ A The Healing of Shen-zin Su|QID|29799|PRE|29798|M|39.33,86.19|N|From Ji Firepaw
 C The Healing of Shen-zin Su|QID|29799|M|38.45,85.95|N|Release the healers found under the cogs on the mini-map by clicking on them, and kill any Deepscale Ravagers attacking the healers near the wound. If you are doing this solo, it may help to attack the Deepscale Ravagers and drag them over to the guards for help killing them.  Don't forget the green bubbles near Ji can heal you|
 T The Healing of Shen-zin Su|QID|29799|M|39.33,86.19|N|To Ji Firepaw|
 A New Allies|QID|29800|PRE|29799|M|38.81,86.32|N|After the cut-scene, from Ji Firepaw|
-; [aldavor] Note in here until the arrow/coords marker has been fixed.
-;R Mandori Village|QID|29800|M|41.57,85.47;51.72,58.97|CC|N|The Delivery Cart will take you there.|
-T New Allies|QID|29800|M|51.46,48.33|N|Jump onto the cart at 41.6, 85,5 then when you arrive, go up the stairs to Spirit of Master Shang Xi|
+R Delivery Cart|QID|29800|M|41.66,85.54|N|The Delivery Cart will take you Mandori Village.|TZ|Mandori Village|V|
+T New Allies|QID|29800|M|51.46,48.33|N|When you arrive, go up the stairs to Spirit of Master Shang Xi.|
 A A New Fate|QID|31450|PRE|29800|M|51.46,48.33|N|From Spirit of Master Shang Xi|
 C A New Fate|QID|31450|N|Speak to Spirit of Master Shang Xi, and choose your destiny!|NC|
 ; The cinematic triggers a reload, which re-evaluates all the following steps in the new faction.
@@ -263,14 +261,14 @@ T A New Fate|QID|31450|N|Straight in front of you, and welcome to the mainland.|
 N Destiny Chosen|QID|30987^31012|N|The next faction specific quest should be automatically chosen for you. If not, report the bug!\n\nClick to continue.|
 A Joining the Horde|QID|31012|PRE|31450|M|45.58,12.61|N|From Ji Firepaw|Z|Durotar|FACTION|Horde|
 A Joining the Alliance|QID|30987|PRE|31450|M|32.90,50.95|N|From Aysa Cloudsinger|Z|Elwynn Forest|FACTION|Alliance|
-T Joining the Horde|QID|31012|M|48.14,70.54|N|To Garrosh Hellscream|Z|Orgrimmar|FACTION|Horde|
+T Joining the Horde|QID|31012|M|48.76,70.76|N|To Garrosh Hellscream|Z|Orgrimmar|FACTION|Horde|
 T Joining the Alliance|QID|30987|M|85.78,31.70|N|To King Anduin Wrynn, in Stormwind Keep|Z|Stormwind City|FACTION|Alliance|
-A The Horde Way|QID|31013|M|48.14,70.54|PRE|31012|N|To Garrosh Hellscream|Z|Orgrimmar|FACTION|Horde|
-C The Horde Way|QID|31013|M|49.00,73.08|N|Listen to Garrosh Hellscream|Z|Orgrimmar|NC|FACTION|Horde|
-T The Horde Way|QID|31013|M|70.61,31.47|N|To Garrosh Hellscream, who has moved to the Valley of Honor|Z|Orgrimmar|FACTION|Horde|
+A The Horde Way|QID|31013|M|48.76,70.76|PRE|31012|N|To Garrosh Hellscream|Z|Orgrimmar|FACTION|Horde|
+C The Horde Way|QID|31013|M|49.00,73.08|N|Listen to Garrosh Hellscream.|Z|Orgrimmar|NC|FACTION|Horde|
+T The Horde Way|QID|31013|M|48.76,70.76|N|To Garrosh Hellscream.|Z|Orgrimmar|FACTION|Horde|
 ; [aldavor] this is not appearing.... coming up with "No guide loaded". TODO: check.
 N Faction Update|N|In order to load the correct guides for your new faction, we need you either log out and back in or use the "/reload" command.  Click this step when you are ready to go on!|
 N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|
-N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|
+N It's Chromie Time!|QID|62568|M|49.67,76.45|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|
 ]]
 end)
