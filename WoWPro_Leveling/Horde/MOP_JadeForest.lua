@@ -33,26 +33,26 @@ T Touching Ground|QID|31766|M|31.71,11.49|N|To General Nazgrim.|
 A Finish Them!|QID|31767|PRE|31766|M|31.71,11.49|N|From General Nazgrim.|
 A Fire Is Always the Answer|QID|31768|PRE|31766|M|31.71,11.49|N|From General Nazgrim.|
 C Finish Them!|QID|31767|S|M|33.03,8.07|N|Kill the Thunder Hold troops (Laborers do not count)|
-C Fire Is Always the Answer|QID|31768|U|89605|M|33.78,6.53|NC|N|Use Nazgrim's Flage Gun as you stand near Thunder Hold Munitions.|
+C Fire Is Always the Answer|QID|31768|U|89605|M|33.78,6.53|NC|N|Use Nazgrim's Flare Gun as you stand near Thunder Hold Munitions.|
 C Finish Them!|QID|31767|US|M|33.03,8.07|N|Finish killing the Thunder Hold troops (Laborers do not count)|
 T Finish Them!|QID|31767|M|33.67,10.61;34.79,10.61|CC|N|To General Nazgrim, who has moved into the Thunder Hold (run up the steps).|
 T Fire Is Always the Answer|QID|31768|M|34.79,10.61|N|To General Nazgrim.|
 A The Final Blow!|QID|31769|PRE|31767&31768|M|34.79,10.61|N|From General Nazgrim.|
-C The Final Blow!|QID|31769|U|89769|QO|1|M|34.01,9.84|NC|N|Head to the first barricade and use Nazgrim's Flage Gun to destroy it.|
-C The Final Blow!|QID|31769|U|89769|QO|2|M|34.65,9.8|NC|N|Head up the stairs to the second barricade and use Nazgrim's Flage Gun to destroy it.|
-C The Final Blow!|QID|31769|U|89769|QO|3|M|34.92,10.67|NC|N|Head along the corridor to the third barricade and use Nazgrim's Flage Gun to destroy it.|
+C The Final Blow!|QID|31769|U|89769|QO|1|M|34.01,9.84|NC|N|Head to the first barricade and use Nazgrim's Flare Gun to destroy it.|
+C The Final Blow!|QID|31769|U|89769|QO|2|M|34.65,9.8|NC|N|Head up the stairs to the second barricade and use Nazgrim's Flare Gun to destroy it.|
+C The Final Blow!|QID|31769|U|89769|QO|3|M|34.92,10.67|NC|N|Head along the corridor to the third barricade and use Nazgrim's Flare Gun to destroy it.|
 C The Final Blow!|QID|31769|M|33.60,10.58|QO|4|NC|N|Head up the stairs, then to where Captain Doren is standing, then sit back and watch the cinematic.|
 T The Final Blow!|QID|31769|M|33.67,10.56|N|To General Nazgrim. You will need to wait a minute for the dialog to finish before he will accept the quest.|
 A You're Either With Us Or...|QID|31770|PRE|31769|M|33.67,10.56|N|From General Nazgrim. Again, you will need to wait a minute for the dialog to finish before he will offer the quest.|
 A Regroup!|QID|29694|PRE|31769|M|33.67,10.56|N|From General Nazgrim.|
 A Face to Face With Consequence|QID|31771|PRE|31769|M|33.67,10.56|N|From Taran Zhu.|
-C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Head out of the building, killing the Sha's, as you head to Honeydew Glade.|
+C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Head out of the building, killing the Sha Haunt/Harbingers as you head to Honeydew Glade.|
 C Regroup!|QID|29694|M|31.95,13.21|CHAT|QO|1|N|Jump into the river, then head over to Honeydew Glade and speak to Shademaster Kiryn.|
 A Priorities!|QID|31978|PRE|31769|M|31.97,13.30|N|From Gi-Oh.|
 A Prowler Problems|QID|31773|PRE|31769|M|32.06,13.32|N|From Kai-Lin Honeydew.|
 C Prowler Problems|QID|31773|S|M|30.61,11.78|N|Kill the Sha-Infested Prowlers as you wander the area.|
 C Priorities!|QID|31978|S|NC|M|29.39,13.58|N|Collect the Barrels on the floor around the Glade.|
-C Regroup!|QID|29694|M|30.58,11.65|CHAT|QO|3|N|Head north-west to Sergeant Gorrock, and speak to him.|
+C Regroup!|QID|29694|M|30.58,11.65|CHAT|QO|3|N|Head north-west to Sergeant Gorrok, and speak to him.|
 C Regroup!|QID|29694|M|30.4,7.2|CHAT|QO|2|N|Speak to Rivett Clutchpop to get him down from the tree.|
 C Regroup!|QID|29694|M|29.41,8.45|CHAT|QO|4|N|Speak to Shokia up on the overlook at Honeydew Farm.|
 C Priorities!|QID|31978|US|NC|M|29.3,10.0|N|Finish collecting the Barrels of Honeybrew.|
@@ -65,7 +65,7 @@ T Prowler Problems|QID|31773|M|29.15, 13.82|N|To Taran Zhu.|
 T Regroup!|QID|29694|M|29.16,13.70|N|To Sergeant Gorrok.|
 A Seeking Zin'jun|QID|31774|PRE|29694&31771&31773|M|29.13,13.76|N|From Sergeant Gorrok.|
 T Priorities!|QID|31978|M|29.37,13.57|N|To Ellie Honeypaw.|
-h Honeydew Village|QID|31774|M|28.53,13.33|N|Talk to Brewmother Kiki if you want to make Pandaria you new home. This as a good place to set your hearthstone, as there is a portal to Orgrimar right outside the door.|
+h Honeydew Village|QID|31774|M|28.53,13.33|N|Talk to Brewmother Kiki if you want to make Pandaria your new home. This as a good place to set your hearthstone, as there is a portal to Orgrimmar right outside the door.|
 f Honeydew Village|QID|31774|M|28.1,15.57|N|At Wing Hya.|
 T Seeking Zin'jun|QID|31774|M|31.17,17.52|N|To Zin'Jun.|
 A Cryin' My Eyes Out|QID|29765|PRE|31774|M|31.17,17.52|N|From Zin'Jun.|
@@ -161,7 +161,7 @@ C Instant Messaging|QID|29936|NC|U|76305|M|27.96,44.47|
 T Instant Messaging|QID|29936|M|28.28,47.75|N|To General Nazgrim.|
 A Beyond the Horizon|QID|29941|PRE|29936|M|28.28,47.75|N|From General Nazgrim.|
 f Grookin Hill|QID|29941|M|27.83,47.94|N|At Grookin Flapmaster.|
-C Beyond the Horizon|QID|29941|QO|4|CHAT|M|27.98,47.14|N|Blizzard has conveniently placed chat bubbles over thier heads (and on the minimap) to help you find them.|
+C Beyond the Horizon|QID|29941|QO|4|CHAT|M|27.98,47.14|N|Blizzard has conveniently placed chat bubbles over their heads (and on the minimap) to help you find them.|
 C Beyond the Horizon|QID|29941|QO|1|CHAT|M|28.35,47.00|
 C Beyond the Horizon|QID|29941|QO|2|CHAT|M|27.77,50.35|N|He walks around near the waypoint.|
 C Beyond the Horizon|QID|29941|QO|3|CHAT|M|27.08,48.98|
@@ -281,7 +281,7 @@ C What's Mined Is Yours|QID|29930|M|46.3,29.35|N|Hop in Hao's cart, spiders will
 T What's Mined Is Yours|QID|29930|M|50.91,27.03|N|To Foreman Mann.|
 T Calamity Jade|QID|29926|M|50.91,27.03|N|To Foreman Mann.|
 A The Serpent's Heart|QID|29931|PRE|29930|M|50.91,27.03|N|From Foreman Mann.|
-N If you are into exploring... |N|...this is as close to Sri-La Village as you are going to get in this guide. skip the next step if you don't want to go there, no quests there except lvl 90 dailys. There is a treasure box in a cave on windward island, but unless you are a rogue, I wouldn't advise going to get it before you have the dailies in the area.|RANK|3|
+N If you are into exploring... |N|...this is as close to Sri-La Village as you are going to get in this guide. skip the next step if you don't want to go there, no quests there except lvl 90 dailies. There is a treasure box in a cave on windward island, but unless you are a rogue, I wouldn't advise going to get it before you have the dailies in the area.|RANK|3|
 f Sri-La Village|QID|29745|M|55.44,23.73|N|At Gingo Alebottom.|RANK|3|
 F Emperor's Omen|QID|29745|M|55.44,23.73|N|Fly back to Emperor's Omen.|RANK|3|
 ;R Woods of the Lost|M|48.64,24.91|CC|
@@ -325,7 +325,7 @@ A To Bridge Earth and Sky|QID|29754|PRE|29753&29756|M|44.26,15.04|N|From Pei-Zhi
 C To Bridge Earth and Sky|QID|29754|M|43.74,12.70|
 T To Bridge Earth and Sky|QID|29754|M|43.74,12.70|N|To UI Alert.|
 A Pei-Back|QID|29755|PRE|29754|M|43.74,12.70|N|From UI Alert.|
-C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight. First kill Stonebound Colossus, to make Shan Jitong targetable. When you get seperated from your body, you need to run back and click on it to rejoin it, then try to inturupt the Colossus healing. Second phase, run to Shan Jitong and kill him.|
+C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight. First kill Stonebound Colossus, to make Shan Jitong targetable. When you get seperated from your body, you need to run back and click on it to rejoin it, then try to interrupt the Colossus healing. Second phase, run to Shan Jitong and kill him.|
 T Pei-Back|QID|29755|M|43.81,12.47|N|To Pei-Zhi.|
 R Tian Monastery|QID|29617|M|38.17,24.17|N|Run counter-clockwise around the mountain to the waypoint.|
 f Banquet Grounds|QID|29617|M|43.52,24.55|N|Get the flightpoint at Studious Chu.|
@@ -416,7 +416,7 @@ K Subjugator Gormal|QID|29670|T|Subjugator Gormal|QO|1|M|37.84,75.76|
 C Unbound|QID|29587|NC|US|M|39.76,75.57|N|Click on the nets to free the farmers.|
 T Unbound|QID|29587|M|41.02,73.97|N|To Shao the Defiant.|
 T Maul Gormal|QID|29670|M|41.02,73.97|N|To Shao the Defiant.|
-$ Ancient Jinku Staff|QID|31402|M|44.9,64.6;46.2,71.2|N|Anywhere the river between thye waypoints. Click this off if it's not there.|RANK|3|CN|
+$ Ancient Jinku Staff|QID|31402|M|44.9,64.6;46.2,71.2|N|Anywhere the river between the waypoints. Click this off if it's not there.|RANK|3|CN|
 R Serpent's Heart|QID|29931|M|42.94,60.12|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart.|
 T The Serpent's Heart|QID|29931|M|48.26,61.31|N|To Foreman Raike.|
 A Love's Labor|QID|30495|PRE|29931|M|48.26,61.31|N|From Foreman Raike.|
@@ -426,7 +426,7 @@ C Delivery to Surveyor Sawa |QID|30495|CHAT|QO|2|M|47.4,60.5;46.9,60.4|CS|N|Talk
 C Delivery to Historian Dinh |QID|30495|CHAT|QO|1|M|46.4,61.8|
 T Love's Labor|QID|30495|M|48.31,61.30|N|To Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|PRE|30495|M|48.31,61.30|N|From Foreman Raike.|
-F Jade Temple Grounds|QID|29932|M|48.2,60.0|N|Take the kite ride from kitehmaster Shoku.|
+F Jade Temple Grounds|QID|29932|M|48.2,60.0|N|Take the kite ride from Kitemaster Shoku.|
 C The Temple of the Jade Serpent|QID|29932|CHAT|M|55.83,57.05|N|Chat with Elder Sage Wind-Yi for transport into the temple grounds. (NOT THE INSTANCE PORTAL)|
 T The Temple of the Jade Serpent|QID|29932|M|58.13,58.65|N|To Elder Sage Rain-Zhu.|
 A The Scryer's Dilemma|QID|29997|PRE|29932|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|
@@ -457,7 +457,7 @@ T Everything In Its Place|QID|30004|M|58.16,58.64|N|To Elder Sage Rain-Zhu.|
 T Lighting Up the Sky|QID|30005|M|58.05,59.02|N|To Fei.|
 T The Rider's Bind|QID|29999|M|58.05,59.02|N|To Fei.|
 A The Jade Serpent|QID|30000|PRE|29999&30004&30005&30011|M|58.05,59.02|N|From Fei.|
-C The Jade Serpent|QID|30000|M|53.49,58.02|N|Cutscene and a cloadserpant ride.|
+C The Jade Serpent|QID|30000|M|53.49,58.02|N|Cutscene with a free cloud serpent ride.|
 T The Jade Serpent|QID|30000|M|55.83,57.05|N|To Elder Sage Wind-Yi.|
 A Get Back Here!|QID|30499|PRE|30000|M|55.83,57.05|N|From Elder Sage Wind-Yi.|
 f Jade Temple Grounds|QID|30499|M|54.60,61.75|N|At Ginsa Arroweye.|
@@ -465,7 +465,7 @@ F Grookin Hill|QID|30499|M|56.6,6.75|N|Take the free option from the kitemaster.
 T Get Back Here!|QID|30499|M|28.02,47.15|N|To General Nazgrim.|
 A Sufficient Motivation|QID|30466|M|28.02,47.15|N|From General Nazgrim.|
 A Gauging Our Progress|QID|30484|PRE|30499|M|28.02,47.15|N|From General Nazgrim.|
-C Sufficient Motivation|QID|30466|U|79884|NC|QO|2|M|28.14,47.33|N|Pick up a bucket of slicky water and toss it on lazy hozen as you go.|
+C Sufficient Motivation|QID|30466|U|79884|NC|QO|2|M|28.14,47.33|N|Pick up a bucket of slicky water and toss it on lazy hozens as you go.|
 C Sufficient Motivation|QID|30466|U|79884|US|NC|QO|1|M|27.14,46.70|S|
 C Gauging Our Progress|QID|30484|QO|2|CHAT|M|28.41,47.75|
 C Gauging Our Progress|QID|30484|QO|1|CHAT|M|29.15,50.87|
