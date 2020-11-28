@@ -119,12 +119,13 @@ A Shu, the Spirit of Water|QID|29678|PRE|29666&29677|M|78.50,42.85|N|From Old Ma
 ; Hendo72 - This CS doesn't work if you go quick; takes time to register your arrival.
 C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|N|Head to the glowing rocks and it will jump you to the edge of the Pool of Reflection. Walk forward to the pool.|QO|1|NC|
 C Shu, the Spirit of Water|QID|29678|M|79.38,38.35|QO|2|N|Use the Sun Pearl to coax out Shu.|U|73791|NC|
-T Shu, the Spirit of Water|QID|29678|N|(UI Alert)|
-A A New Friend|QID|29679|PRE|29678|N|(UI Alert)|
+T Shu, the Spirit of Water|QID|29678|N|(UI Alert)\n[color=FF0000]NOTE: [/color]If the quest does not turn-in through the UI, access it through your quest log and click on 'Complete' to turn it in.|
+A A New Friend|QID|29679|M|79.82,39.34|N|From Aysa Cloudsinger (now at the edge of the Pool of Reflection).|PRE|29678|
 C A New Friend|QID|29679|M|79.10,38.20|N|Walk into the Water Spouts created by Shu.|NC|
-T A New Friend|QID|29679|M|79.82,39.34|N|To Aysa Cloudsinger (now at the edge of the Pool of Reflection)|
-A The Source of Our Livelihood|QID|29680|PRE|29679|M|79.82,39.34|N|From Aysa Cloudsinger|
-T The Source of Our Livelihood|QID|29680|M|79.19,45.31;68.89,65.00|CC|N|To Ji Firepaw at Dai-Lo Farmstead.  A Cart at the first coordinates will take you to him.|
+T A New Friend|QID|29679|M|79.82,39.34|N|To Aysa Cloudsinger.|
+A The Source of Our Livelihood|QID|29680|PRE|29679|M|79.82,39.34|N|From Aysa Cloudsinger.|
+R Delivery Cart|ACTIVE|29680|M|79.19,45.31|TZ|The Dai-Lo Farmstead|N|Jump into the Delivery Cart to be taken to the Dai-Lo Farmstead.|V|
+T The Source of Our Livelihood|QID|29680|M|68.89,65.00|N|To Ji Firepaw at Dai-Lo Farmstead.|
 A Rascals|QID|29769|PRE|29680|M|68.89,65.00|N|From Ji Firepaw|
 A Still Good!|QID|29770|PRE|29680|M|68.13,66.40|N|From Gao Summerdraft|
 C Rascals|QID|29769|M|72.62,74.17|N|Kill Plump Virmen|S|
@@ -137,7 +138,7 @@ T Rascals|QID|29769|M|68.89,65.00|N|To Ji Firepaw|
 A Missing Mallet|QID|29768|PRE|29769&29770|M|68.89,65.00|N|From Ji Firepaw|
 A Stronger Than Wood|QID|29771|PRE|29769&29770|M|69.13,66.62|N|From Jojo Ironbrow|
 C Stronger Than Wood|QID|29771|M|69.13,66.62|N|Collect the Discarded Wood Planks from the floor.|S|NC|
-C Missing Mallet|QID|29768|M|62.53,76.68|N|Loot the Mallet from next to Raggis.  You can tag him and drag him over to the guards on the path nearby, they will keep him busy while you loot the mallet. (kill him for easy access)|NC|
+C Missing Mallet|QID|29768|M|62.53,76.68|N|Loot the Mallet from next to Raggis. You can tag him and drag him over to the guards on the path nearby, they will keep him busy while you loot the mallet. (kill him for easy access)|NC|
 C Stronger Than Wood|QID|29771|M|63.07,76.77|N|Finish collecting the Discarded Wood Planks from the floor.|US|NC|
 T Stronger Than Wood|QID|29771|M|69.13,66.62|N|To Jojo Ironbrow|
 T Missing Mallet|QID|29768|M|68.89,65.00|N|To Ji Firepaw|
