@@ -657,8 +657,8 @@ C The End of the Beginning|QID|57876|M|50.26,29.24|Z|Revendreth|QO|1|CHAT|N|Spea
 C The End of the Beginning|QID|57876|M|70.49,80.50|Z|Revendreth|QO|2|NC|N|Fly with Draven to Oribos.|MS|
 F Oribos|ACTIVE|57876|M|70.34,81.15|Z|Revendreth|N|At Courier Gevoraal.|
 T The End of the Beginning|QID|57876|M|39.2,69.4|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
-A The Looming Dark|QID|57877|M|39.2,69.4|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|60|PRE|57876|MS|
-C The Looming Dark|QID|57877|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Listen to Tal-Inara.|MS|
+A The Looming Dark|QID|57877|M|38.94,69.96|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|60|PRE|57876|MS|
+C The Looming Dark|QID|57877|M|PLAYER|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Listen to Tal-Inara.|MS|
 T The Looming Dark|QID|57877|M|39.29,69.61|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
 A Choosing Your Purpose|QID|62000^57878|M|39.29,69.61|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|50|PRE|62716^57877|
 C Choosing Your Purpose|QID|62000^57878|M|36.32,64.22|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with the Polemarch Adrestes.|
