@@ -447,7 +447,7 @@ K Burning Extract|ACTIVE|58431|M|59.05,77.66|Z|Maldraxxus|N|Kill the Burning Ext
 R Pool of Potions|QID|58431|ACTIVE|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<2|N|Return the Viscous Oil to the Pool of Potions.|
 K Burning Extract|ACTIVE|58431|M|59.05,77.66|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
 R Pool of Potions|QID|58431|ACTIVE|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<3|N|Return the Viscous Oil to the Pool of Potions.|
-T Pool of Potions|QID|58431|M|59.05,77.66|Z|Maldraxxus|N|To Boil Master Yetch.|
+T Pool of Potions|QID|58431|M|59.10,73.87|Z|Maldraxxus|N|To Boil Master Yetch.|
 A Callous Concoctions|QID|57301|M|58.52,73.53|Z|Maldraxxus|N|From Foul-Tongue Cyrlix.|PRE|58431|RANK|2|
 K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill the Burning Extracts, Colossal Goo or Prodigious Animates, once it dies there will sometimes be a 2nd corpse, that you click on to collect the oil, ooze or goo.|BUFF|306636^306606^306630|
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<1|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
@@ -544,7 +544,7 @@ P Ring of Fates|ACTIVE|59874|M|49.56,61.78|Z|Ring of Transference@Oribos|N|Take 
 T The Maw|QID|59874|M|40.05,68.46|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A Seeking the Baron|QID|59897|M|40.05,68.46|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon, after some dialog.|PRE|59874|MS|
 C Seeking the Baron|QID|59897|M|47.16,55.30|Z|Ring of Fates@Oribos|NC|N|Go back up to the Ring of Transference, then jump into the pillar of souls in the middle of Oribos.|MS|
-T Seeking the Baron|QID|59897|M|PLAYER|Z|The Maw|N|To the pop up.|MS|
+T Seeking the Baron|QID|59897|M|44.95,40.99|Z|The Maw|N|To the pop up.|MS|
 A The Hunt for the Baron|QID|60972|M|PLAYER|Z|The Maw|N|From the pop up.|PRE|59897|MS|
 C The Hunt for the Baron|QID|60972|M|35.03,40.11|Z|The Maw|N|Kill stuff in the area to charge the Ebon Blade Amulet.|MS|
 T The Hunt for the Baron|QID|60972|M|PLAYER|Z|The Maw|N|To the Pop Up.|MS|
