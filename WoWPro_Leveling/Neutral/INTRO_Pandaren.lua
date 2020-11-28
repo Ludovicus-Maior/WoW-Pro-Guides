@@ -66,7 +66,7 @@ T The Way of the Tushui|QID|29414|M|57.55,34.68|N|To Master Shang Xi (he has mov
 A Ji of the Huojin|QID|29522|M|57.55,34.68|N|From Master Shang Xi|
 T Ji of the Huojin|QID|29522|M|50.24,21.26|N|To Ji Firepaw at Wu-Song Village.|
 A The Way of the Huojin|QID|29417|M|50.24,21.26|N|From Ji Firepaw.|
-C The Way of the Huojin|QID|29417|M|49.56,20.74|N|Kill the Fe-Feng around Wu-Song Village.|
+C The Way of the Huojin|QID|29417|M|49.56,20.74|N|Kill the Fe-Feng Hozen around Wu-Song Village.|
 T The Way of the Huojin|QID|29417|M|50.24,21.26|N|To Ji Firepaw.|
 A Fanning the Flames|QID|29523|M|50.24,21.26|N|From Ji Firepaw.|
 A Kindling the Fire|QID|29418|M|50.24,21.26|N|From Ji Firepaw.|
@@ -94,15 +94,15 @@ C The Passion of Shen-zin Su|QID|29423|M|38.71,26.42;40.73,22.29;41.65,25.14;51.
 T The Passion of Shen-zin Su|QID|29423|M|51.44,46.41|N|To Master Shang Xi|
 A The Singing Pools|QID|29521|M|51.44,46.41|N|From Master Shang Xi|
 A Stronger Than Reeds|QID|29662|M|53.33,47.46;63.47,41.97|CC|N|Head out of the Temple and head east to The Singing Pools to Jojo Ironbrow|
-r Profession Trainer|QID|29521|M|63.0,41.6|N|You can sell the extra items you have collected here, but even more importantly, you can train your primary professions at Whittler Dewei. Unfortunantly secondary professions can't be trained until you reach your factions capital.\n\nCheck off this step to continue.|
+r Profession Trainer|QID|29521|M|63.0,41.6|N|You can sell the extra items you have collected here, but even more importantly, you can train your primary professions at Whittler Dewei. Unfortunately, secondary professions can't be trained until you reach your factions capital.\n\nCheck off this step to continue.|
 T The Singing Pools|QID|29521|M|65.59,42.59|N|To Aysa Cloudsinger (she has moved to The Singing Pools)|
 A The Lesson of Dry Fur|QID|29661|PRE|29521|M|65.59,42.59|N|From Aysa Cloudsinger|
 A The Lesson of the Balanced Rock|QID|29663|PRE|29521|M|65.59,42.59|N|From Aysa Cloudsinger|
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|S|
-C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the water.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|
-C The Lesson of Dry Fur|QID|29661|M|63.70,44.48;61.62,47.14;61.44,47.77|CC|N|Head west under the bridge. There are several poles in the water than you can jump onto from the bridge. Jump onto one and continue jumping onto other poles until you reach the bell.|NC|
+C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the water.\n\nWhen you're in the water, you'll turn into a frog, and aggro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|
+C The Lesson of Dry Fur|QID|29661|M|63.70,44.48;61.62,47.14;61.44,47.77|CC|N|Head west under the bridge. There are several poles in the water than you can jump onto from the bridge. Jump onto one and continue jumping onto other poles until you reach the bell. You will automatically jump onto the rock when you get close enough.\n[color=FF0000]NOTE: [/color]Use the 'Exit Vehicle' button to jump off of the pole at any time.|NC|
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|US|
-C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the water. Easiest way into the water is to walk off the bell rock. Otherwise, you have to use an exit pole to get down.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back and disengage any attacking cranes.|NC|US|
+C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the water. Easiest way into the water is to walk off the bell rock. Otherwise, you have to use an exit pole to get down.\n\nWhen you're in the water, you'll turn into a frog, and aggro the Whitefeather Cranes. Just run out of the water to change back and disengage any attacking cranes.|NC|US|
 T Stronger Than Reeds|QID|29662|M|63.47,41.97|N|To Jojo Ironbrow|
 T The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|To Aysa Cloudsinger|
 T The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|To Aysa Cloudsinger|
@@ -111,13 +111,14 @@ T Finding an Old Friend|QID|29676|M|70.61,38.75|N|To Old Man Liang in Liang's Re
 A The Sun Pearl|QID|29677|PRE|29676|M|70.61,38.75|N|From Old Man Liang|
 A The Sting of Learning|QID|29666|PRE|29676|M|70.61,38.75|N|From Old Man Liang|
 C The Sting of Learning|QID|29666|M|72.20,42.00|N|Kill the Water Pincers.|S|
-C The Sun Pearl|QID|29677|M|76.3,47.0|N|Jump into the Singing Pools, open the Ancient Clam, and loot the Sun Pearl. It may be guarded by Fang-she. Defeat her and then loot the Sun Pearl from the clam.|NC|
+C The Sun Pearl|QID|29677|M|76.26,46.85|N|Jump into the Singing Pools, open the Ancient Clam, and loot the Sun Pearl. It may be guarded by Fang-she. Defeat her and then loot the Sun Pearl from the clam.|NC|
 C The Sting of Learning|QID|29666|M|72.20,42.00|N|Kill the Water Pincers. If there are none in the area, check the other pools.|US|
 T The Sun Pearl|QID|29677|M|78.50,42.85|N|To Old Man Liang (he's moved to the Gazebo)|
 T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|
 A Shu, the Spirit of Water|QID|29678|PRE|29666&29677|M|78.50,42.85|N|From Old Man Liang|
-C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|N|Head to the glowing rocks, and it will jump you to the edge of the Pool of Reflection, then walk forward to the pool.|QO|1|NC|
-C Shu, the Spirit of Water|QID|29678|M|79.64,38.62|N|Use the Sun Pearl to coax out Shu.|NC|
+; Hendo72 - This CS doesn't work if you go quick; takes time to register your arrival.
+C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|N|Head to the glowing rocks and it will jump you to the edge of the Pool of Reflection. Walk forward to the pool.|QO|1|NC|
+C Shu, the Spirit of Water|QID|29678|M|79.38,38.35|QO|2|N|Use the Sun Pearl to coax out Shu.|U|73791|NC|
 T Shu, the Spirit of Water|QID|29678|N|(UI Alert)|
 A A New Friend|QID|29679|PRE|29678|N|(UI Alert)|
 C A New Friend|QID|29679|M|79.10,38.20|N|Walk into the Water Spouts created by Shu.|NC|
