@@ -618,7 +618,7 @@ T Prince Renathal|QID|57689|M|38.69,28.31|Z|The Maw|N|To Vorpalia.|MS|
 A Cages For All Occasions|QID|57690|M|38.69,28.31|Z|The Maw|N|From Vorpalia.|LVL|58|PRE|57689|MS|
 T Cages For All Occasions|QID|57690|M|34.65,18.71|Z|The Maw|N|To Prince Renathal.|MS|
 A A Royal Key|QID|57691|M|34.65,18.71|Z|The Maw|N|From Prince Renathal.|LVL|58|PRE|57690|MS|
-C A Royal Key|QID|57691|M|30.11,20.27|Z|The Maw|N|Kill Ghelak the Incarcerator and loot Renathal's Cage Key.|MS|
+C A Royal Key|QID|57691|M|30.11,20.27|Z|The Maw|T|Ghelak|N|Kill Ghelak the Incarcerator and loot Renathal's Cage Key.|MS|
 T A Royal Key|QID|57691|M|34.6,18.6|Z|The Maw|N|To Prince Renathal.|MS|
 A Torghast, Tower of the Damned|QID|57693|M|34.6,18.6|Z|The Maw|N|From Prince Renathal.|LVL|58|PRE|57691|MS|
 C Torghast, Tower of the Damned|QID|57693|CS|M|30.44,16.59;31.33,12.56|Z|The Maw|QO|1|NC|N|Find an entrance to Torghast.|MS|
@@ -657,9 +657,9 @@ C The End of the Beginning|QID|57876|M|50.26,29.24|Z|Revendreth|QO|1|CHAT|N|Spea
 C The End of the Beginning|QID|57876|M|70.49,80.50|Z|Revendreth|QO|2|NC|N|Fly with Draven to Oribos.|MS|
 F Oribos|ACTIVE|57876|M|70.34,81.15|Z|Revendreth|N|At Courier Gevoraal.|
 T The End of the Beginning|QID|57876|M|39.2,69.4|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
-A The Looming Dark|QID|57877|M|39.2,69.4|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|60|PRE|57876|MS|
-C The Looming Dark|QID|57877|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Listen to Tal-Inara.|MS|
-T The Looming Dark|QID|57877|M|39.29,69.61|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
+A The Looming Dark|QID|57877|M|38.94,69.96|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|60|PRE|57876|MS|
+C The Looming Dark|QID|57877|M|PLAYER|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Listen to Tal-Inara.|MS|
+T The Looming Dark|QID|57877|M|38.94,69.96|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
 A Choosing Your Purpose|QID|62000^57878|M|39.29,69.61|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|50|PRE|62716^57877|
 C Choosing Your Purpose|QID|62000^57878|M|36.32,64.22|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with the Polemarch Adrestes.|
 C Choosing Your Purpose|QID|62000^57878|M|39.55,61.10|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Lady Moonberry.|

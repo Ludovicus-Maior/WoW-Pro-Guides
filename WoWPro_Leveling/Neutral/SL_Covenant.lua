@@ -117,7 +117,7 @@ A Rule 3: Trust is Earned|QID|60289|M|46.91,41.70|Z|The Maw|N|From Ve'nari.|PRE|
 C Rule 3: Trust is Earned|QID|60289|M|34.98,47.68|Z|The Maw|QO|1|NC|N|Place the Signaling Beacon.|COV|Night Fae|
 C Rule 3: Trust is Earned|QID|60289|M|33.45,49.07|Z|The Maw|QO|2|NC|N|Click on the Bloodhoof Warmace.|COV|Night Fae|
 C Rule 3: Trust is Earned|QID|60289|M|33.17,48.20|Z|The Maw|QO|3|N|Kill the Tower Inquisitor.|COV|Night Fae|
-C Rule 3: Trust is Earned|QID|60289|M|PLAYER||Z|The Maw|NC|N|Use your Cypher of Relocation back to camp.|U|180817|COV|Night Fae|
+C Rule 3: Trust is Earned|QID|60289|M|PLAYER|Z|The Maw|NC|N|Use your Cypher of Relocation back to camp.|U|180817|COV|Night Fae|
 T Rule 3: Trust is Earned|QID|60289|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Night Fae|
 A Hopeful News|QID|62837|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60289|COV|Night Fae|
 P Oribos|ACTIVE|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Night Fae|
@@ -173,7 +173,7 @@ C Maw ambushers slain|M|78.93,35.42|Z|Covenant_Ard_Torghast!Dungeon|SO|2;1|N|Maw
 C Keep up with Tyrande Whisperwind|Z|The Fracture Chambers|SO|3|QID|59189|N|Tyrande is not stopping. Try to keep up with her.|COV|Night Fae|
 C Tyrande Whisperwind followed|M|78.18,61.23|Z|Covenant_Ard_Torghast!Dungeon|QID|59189|SO|3;1|N|Tyrande Whisperwind followed|COV|Night Fae|
 C Defeat Maw Ambushers|Z|The Fracture Chambers|SO|4|QID|59189|N|Tyrande charged ahead. Deal with 4 waves of incoming Maw minions!|COV|Night Fae|
-C Maw ambushers slain|M|77.48,64.03|Z|Covenant_Ard_Torghast!Dungeon|SO|4;1|QID|59189||N|Maw ambushers slain|COV|Night Fae|
+C Maw ambushers slain|M|77.48,64.03|Z|Covenant_Ard_Torghast!Dungeon|SO|4;1|QID|59189|N|Maw ambushers slain|COV|Night Fae|
 C Catch up with Tyrande|Z|The Fracture Chambers|SO|5|QID|59189|N|Tyrande iws up ahead, try to catch up with her!|COV|Night Fae|
 C Tyrande found|M|60.45,86.54|Z|Covenant_Ard_Torghast!Dungeon|SO|5;1|QID|59189|N|Tyrande found|COV|Night Fae|
 C (Optional) Disable traps|M|60.45,86.54|Z|Covenant_Ard_Torghast!Dungeon|SO|5;2|QID|59189|N|(Optional) Disable traps|COV|Night Fae|
@@ -243,7 +243,7 @@ T Cleansing the Forest|QID|59819|M|68.39,65.16|Z|Ardenweald!The Shadowlands|N|To
 A Report to the Queen|QID|59821|M|68.39,65.16|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|59819|COV|Night Fae|
 T Report to the Queen|QID|59821|M|50.86,31.82|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|COV|Night Fae|
 ;The Speaker of Elune.
-A The Speaker of Elune|QID|58610|M|45.47,39.85|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera. Talk to Shimmerwing to leave the Audience Chambers.|PRE|59821||COV|Night Fae|
+A The Speaker of Elune|QID|58610|M|45.47,39.85|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera. Talk to Shimmerwing to leave the Audience Chambers.|PRE|59821|COV|Night Fae|
 C The Speaker of Elune|QID|58610|M|40.35,51.20|Z|Ardenweald!The Shadowlands|N|1/1 Speak with Thiernax|COV|Night Fae|
 T The Speaker of Elune|QID|58610|M|40.31,51.18|Z|Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
 A A Little Pruning|QID|58669|M|40.31,51.18|Z|Ardenweald!The Shadowlands|N|From Qadarin.|PRE|58610|COV|Night Fae|
@@ -269,7 +269,7 @@ C Broken Harts|QID|58871|M|43.51,37.41|Z|The Trunk@Heart of the Forest!Dungeon|Q
 T Broken Harts|QID|58871|M|43.51,37.41|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
 A Archivist on the Edge|QID|59725|M|43.51,37.41|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|58871|COV|Night Fae|
 T Archivist on the Edge|QID|59725|M|63.64,22.73|Z|Ardenweald!The Shadowlands|N|To Archivist Dreyden.|COV|Night Fae|
-A Curses!|QID|59063|M|63.64,22.73|Z|Ardenweald!The Shadowlands|N|From Archivist Dreyden.|||COV|Night Fae|
+A Curses!|QID|59063|M|63.64,22.73|Z|Ardenweald!The Shadowlands|N|From Archivist Dreyden.|COV|Night Fae|
 C Curses!|QID|59063|M|61.07,25.73|Z|Ardenweald!The Shadowlands|N|1/1 Sealed Scroll of Soul Rot obtained|COV|Night Fae|
 T Curses!|QID|59063|M|44.30,37.02|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
 A A Secret Never Spoken|QID|59068|M|44.30,37.02|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|59063|COV|Night Fae|
@@ -348,7 +348,7 @@ C Ritual of Purification|QID|61711|M|46.18,56.56|Z|Ardenweald!The Shadowlands|QO
 C Ritual of Purification|QID|61711|M|46.19,56.56|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Ritual of Purification.|COV|Night Fae|
 T Ritual of Purification|QID|61711|M|46.17,56.48|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 A Unbroken Bonds|QID|61171|PRE|61711|M|46.20,56.64|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|COV|Night Fae|
-T Unbroken Bonds|QID|61171|M|50.63,30.29|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|COV|Night Fae||
+T Unbroken Bonds|QID|61171|M|50.63,30.29|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|COV|Night Fae|
 ;The Horned Hunter
 A Containing the Night|QID|58445|PRE|61171|M|44.89,39.34|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.Talk to Shimmerwing to leave the Audience Chambers.|COV|Night Fae|
 C Containing the Night|QID|58445|M|43.99,38.76|Z|The Trunk@Heart of the Forest!Dungeon|CHAT|N|Talk to Ysera to hear the plan|COV|Night Fae|
@@ -462,7 +462,7 @@ C Unmasked|QID|60193|M|35.82,70.64|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Drust 
 C Unmasked|QID|60193|M|36.25,69.44|Z|Ardenweald!The Shadowlands|QO|2|N|there are two waves of easy enemies then Gorak Zhar, does a fear and a aoe explosion, both can be interupted.|COV|Night Fae|
 T Unmasked|QID|60193|M|36.18,69.57|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
 A The Call of the Hunt|QID|60194|PRE|60193|M|36.18,69.57|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|COV|Night Fae|
-C The Call of the Hunt|QID|60194|M|36.18,69.58|Z|Ardenweald!The Shadowlands|CHAT||N|Fly out with Lady Moonberry.|COV|Night Fae|
+C The Call of the Hunt|QID|60194|M|36.18,69.58|Z|Ardenweald!The Shadowlands|CHAT|N|Fly out with Lady Moonberry.|COV|Night Fae|
 T The Call of the Hunt|QID|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
 A Drust and Ashes|QID|60108|PRE|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|From Lord Herne. Talk to him again after acceptingng to start the senario.|COV|Night Fae|
 C Clear the Way|QID|60108|Z|Ardenweald|SO|1|N|Jump on Ysera and use the Dreamers sleep to finish this step.|COV|Night Fae|
@@ -471,7 +471,7 @@ C Fly to the Heart of the Forest|QID|60108|M|31.03,76.99|Z|Ardenweald!Instance17
 C Report to the Winter Queen|QID|60108|Z|Ardenweald|SO|2|CHAT|N|Tell the Winter Queen what transpired at Darkreach.|COV|Night Fae|
 C Recieve the Queen's Blessing|QID|60108|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|3;1|N|Recieve the "[color=40C7EB]Queen's Blessing[/color]".|EAB|COV|Night Fae|
 C Sound the Horn of the Wild Hunt|QID|60108|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|4;1|N|Sound the Horn of the Wild Hunt by clicking on it.|COV|Night Fae|
-C Slay Drust Forces|QID|60108|M|55.62,47.71|Z|Ardenweald!Instance1709|SO|4;2||N|Slay Drust Forces|COV|Night Fae|
+C Slay Drust Forces|QID|60108|M|55.62,47.71|Z|Ardenweald!Instance1709|SO|4;2|N|Slay Drust Forces|COV|Night Fae|
 C Reach the Grove of Awakening|QID|60108|M|63.22,62.72|Z|Ardenweald!Instance1709|SO|4;3|N|Reach the Grove of Awakening|COV|Night Fae|
 C Speak with Winter Queen|QID|60108|M|59.74,65.78|Z|Ardenweald!Instance1709|SO|5;1|CHAT|N|Speak with Winter Queen|COV|Night Fae|
 C Assist Aliothe|QID|60108|M|65.91,72.78|Z|Ardenweald!Instance1709|SO|6;3|N|Assist Aliothe, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".|EAB|COV|Night Fae|
@@ -487,6 +487,7 @@ T Drust and Ashes|QID|60108|M|50.62,30.89|Z|The Canopy@Heart of the Forest!Dunge
 ;N Kyrian Campaign|QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Kyrian|
 ;   Run through by Blanckaert ending 02/Nov/2020
 
+T Report to Adrestes|QID|63211|PRE|57878|M|36.67,64.20|Z|Ring of Fates@Oribos|N|To Polemarch Adrestes.|COV|Kyrian|  ; not sure if this is LEAD to next quest, but given once you turned in 57878.
 A Among the Kyrian|QID|60491|PRE|57878|M|36.50,64.50|Z|Ring of Fates@Oribos|N|From Polemarch Adrestes.|COV|Kyrian|
 P Ring of Transference|QID|60491|ACTIVE|60491|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Kyrian|
 F Hero's Rest|QID|60491|ACTIVE|60491|M|60.50,68.12|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Hero's Rest.|COV|Kyrian|
@@ -749,7 +750,7 @@ C Assistance from Sinfall|QID|58557|M|60.39,60.82|Z|Revendreth|CHAT|N|Speak with
 T Assistance from Sinfall|QID|58557|M|60.39,60.82|Z|Revendreth|N|To The Curator.|COV|Kyrian|
 A Overhead Intelligence|QID|58558|PRE|58557|M|60.39,60.82|Z|Revendreth|N|From The Curator.|COV|Kyrian|
 A Eyes of the Master|QID|58559|PRE|58557|M|60.33,60.82|Z|Revendreth|N|From Kleia.|COV|Kyrian|
-A Gothic Fashion|QID|58560|PRE|58557|M|50.40,52.89|Z|Revendreth|N|From Pelagos, as you get to the Chalice District||COV|Kyrian|
+A Gothic Fashion|QID|58560|PRE|58557|M|50.40,52.89|Z|Revendreth|N|From Pelagos, as you get to the Chalice District.|COV|Kyrian|
 C Overhead Intelligence|QID|58558|M|54.26,47.68|Z|Revendreth|QO|1|S|US|N|Kill Chalice Couriers to find Rumors of Favor.|COV|Kyrian|
 C Gothic Fashion|QID|58560|M|51.92,47.12|Z|Revendreth|S|US|N|Kill Chalice Residents for Venthyr clothing.|COV|Kyrian|
 C Eyes of the Master|QID|58559|M|50.87,51.60|Z|Revendreth|QO|1|T|Evaala|N|Evaala the All-Seeing slain.|COV|Kyrian|
@@ -1012,7 +1013,7 @@ A Rule 3: Trust is Earned|QID|60289|M|46.91,41.70|Z|The Maw|N|From Ve'nari.|COV|
 C Rule 3: Trust is Earned|QID|60289|M|34.98,47.68|Z|The Maw|QO|1|NC|N|Place the Signaling Beacon.|COV|Venthyr|
 C Rule 3: Trust is Earned|QID|60289|M|33.45,49.07|Z|The Maw|QO|2|NC|N|Click on the Bloodhoof Warmace.|COV|Venthyr|
 C Rule 3: Trust is Earned|QID|60289|M|33.17,48.20|Z|The Maw|QO|3|N|Kill the Tower Inquisitor.|COV|Venthyr|
-C Rule 3: Trust is Earned|QID|60289|M|PLAYER||Z|The Maw|NC|N|Use your Cypher of Relocation back to camp.|U|180817|COV|Venthyr|
+C Rule 3: Trust is Earned|QID|60289|M|PLAYER|Z|The Maw|NC|N|Use your Cypher of Relocation back to camp.|U|180817|COV|Venthyr|
 T Rule 3: Trust is Earned|QID|60289|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Venthyr|
 A Hopeful News|QID|62837|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60289|COV|Venthyr|
 P Oribos|ACTIVE|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Venthyr|
@@ -1509,7 +1510,7 @@ A Rule 3: Trust is Earned|QID|60289|M|46.91,41.70|Z|The Maw|N|From Ve'nari.|COV|
 C Rule 3: Trust is Earned|QID|60289|M|34.98,47.68|Z|The Maw|QO|1|NC|N|Place the Signaling Beacon.|COV|Necrolord|
 C Rule 3: Trust is Earned|QID|60289|M|33.45,49.07|Z|The Maw|QO|2|NC|N|Click on the Bloodhoof Warmace.|COV|Necrolord|
 C Rule 3: Trust is Earned|QID|60289|M|33.17,48.20|Z|The Maw|QO|3|N|Kill the Tower Inquisitor.|COV|Necrolord|
-C Rule 3: Trust is Earned|QID|60289|M|PLAYER||Z|The Maw|NC|N|Use your Cypher of Relocation back to camp.|U|180817|COV|Necrolord|
+C Rule 3: Trust is Earned|QID|60289|M|PLAYER|Z|The Maw|NC|N|Use your Cypher of Relocation back to camp.|U|180817|COV|Necrolord|
 T Rule 3: Trust is Earned|QID|60289|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Necrolord|
 A Hopeful News|QID|62837|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60289|COV|Necrolord|
 P Oribos|ACTIVE|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Necrolord|
