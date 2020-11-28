@@ -618,7 +618,7 @@ T Prince Renathal|QID|57689|M|38.69,28.31|Z|The Maw|N|To Vorpalia.|MS|
 A Cages For All Occasions|QID|57690|M|38.69,28.31|Z|The Maw|N|From Vorpalia.|LVL|58|PRE|57689|MS|
 T Cages For All Occasions|QID|57690|M|34.65,18.71|Z|The Maw|N|To Prince Renathal.|MS|
 A A Royal Key|QID|57691|M|34.65,18.71|Z|The Maw|N|From Prince Renathal.|LVL|58|PRE|57690|MS|
-C A Royal Key|QID|57691|M|30.11,20.27|Z|The Maw|N|Kill Ghelak the Incarcerator and loot Renathal's Cage Key.|MS|
+C A Royal Key|QID|57691|M|30.11,20.27|Z|The Maw|T|Ghelak|N|Kill Ghelak the Incarcerator and loot Renathal's Cage Key.|MS|
 T A Royal Key|QID|57691|M|34.6,18.6|Z|The Maw|N|To Prince Renathal.|MS|
 A Torghast, Tower of the Damned|QID|57693|M|34.6,18.6|Z|The Maw|N|From Prince Renathal.|LVL|58|PRE|57691|MS|
 C Torghast, Tower of the Damned|QID|57693|CS|M|30.44,16.59;31.33,12.56|Z|The Maw|QO|1|NC|N|Find an entrance to Torghast.|MS|
