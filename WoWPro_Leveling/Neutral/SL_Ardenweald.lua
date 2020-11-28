@@ -38,7 +38,6 @@ return [[
 ; K Gormbore|M|53.86,75.82|Z|Ardenweald!The Shadowlands|T|Gormbore|N|WH - Nothing required to summon, but hard to locate due to multiple worlds quests.|ITEM|183196|RARE|ACH|14309;20|
 ; K Soultwister Cero|M|72.33,51.05|Z|Ardenweald!The Shadowlands|T|Soultwister Cero|N|WH - Easy rare mob fight.|ITEM|180164|RARE|ACH|14309;21|
 
-
 ; TOF
 A Ardenweald|QID|62277|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
@@ -472,7 +471,7 @@ C Sparkles Rain from Above|QID|58524|M|71.52,54.67|Z|Ardenweald!The Shadowlands|
 C Sparkles Rain from Above|QID|58524|M|70.71,55.92|Z|Ardenweald!The Shadowlands|QO|2|N|Keep hitting the 1 key everytime it refreshes to slay the Invaders.|MS|
 T Sparkles Rain from Above|QID|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 T The Fallen Tree|QID|62720|M|70.10,57.17|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
-L Nearly Level 58|M|PLAYER|LVL|58;-9000|N|You need to be less than 9000 points from 58, or you won't be able to do the last quest in Hibernal Hollow. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|
+L Nearly Level 58|M|PLAYER|LVL|57;-9000|N|You need to be less than 9000 points from 58, or you won't be able to do the last quest in Hibernal Hollow. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|
 
 ; Visions of the Dreamer Storyline
 A For the Sake of Spirit|QID|60572|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|PRE|58524|MS|
