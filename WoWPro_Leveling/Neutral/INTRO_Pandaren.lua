@@ -266,8 +266,6 @@ T Joining the Alliance|QID|30987|M|85.78,31.70|N|To King Anduin Wrynn, in Stormw
 A The Horde Way|QID|31013|M|48.76,70.76|PRE|31012|N|To Garrosh Hellscream|Z|Orgrimmar|FACTION|Horde|
 C The Horde Way|QID|31013|M|49.00,73.08|N|Listen to Garrosh Hellscream.|Z|Orgrimmar|NC|FACTION|Horde|
 T The Horde Way|QID|31013|M|48.76,70.76|N|To Garrosh Hellscream.|Z|Orgrimmar|FACTION|Horde|
-; [aldavor] this is not appearing.... coming up with "No guide loaded". TODO: check.
-N Faction Update|N|In order to load the correct guides for your new faction, we need you either log out and back in or use the "/reload" command.  Click this step when you are ready to go on!|
 N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|
 N It's Chromie Time!|QID|62568|M|49.67,76.45|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|
 ]]
