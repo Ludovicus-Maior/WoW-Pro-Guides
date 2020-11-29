@@ -1,3 +1,14 @@
+# Release 9.0.2-A4 / (1.13.5-D4)
+## Bug Fixes
+* Proxymity sorting moved to Achievment guide menu
+## Guide Updates
+### Retail
+* Alliance: BFA War Campaign
+* Horde: Jade Forest
+* Shadowlands: Ardenweald, Bastion, Covenant, Maldraxxus, Maw, Revendreth
+### Classic
+* None
+
 # Release 9.0.2-A3 / (1.13.5-D3) Thanksgiving Touchup!
 ## Bug Fixes
 * None
