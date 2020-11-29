@@ -29,13 +29,13 @@ P The Maw|ACTIVE|61099|M|10.43,47.15|Z|Torghast - Entrance!Instance|N|Click on t
 P Oribos|ACTIVE|61099|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|
 T The Search for Baine|QID|61099|M|39.95,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
 A Explore Torghast|QID|62932|PRE|61099|M|39.95,68.61|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|
-P Ring of Transference|ACTIVE|62932|M|52.06,57.87|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|IZ|1670|
-P The Maw|ACTIVE|62932|M|45.87,51.55|Z|Ring of Transference@Oribos|N|Jump into the portal to The Maw.|IZ|1671|
+P Ring of Transference|ACTIVE|60267|M|52.06,57.87|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|IZ|1670|
+P The Maw|ACTIVE|60267|M|45.87,51.55|Z|Ring of Transference@Oribos|N|Jump into the portal to The Maw.|IZ|1671|
 C Prison of the Forgotten|QID|60267|M|46.91,41.70|Z|The Maw|QO|1|CHAT|N|Speak with Ve'nari.|
-P Torghast, Tower of the Damned|ACTIVE|62932|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
+P Torghast, Tower of the Damned|ACTIVE|60267|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
 C Prison of the Forgotten|QID|60267|M|16.00,62.49|Z|Torghast - Entrance!Instance|QO|2|NC|N|Search Torghast's antechamber for a Lock.|
 T Prison of the Forgotten|QID|60267|M|16.00,62.49|Z|Torghast - Entrance!Instance|N|Click on the Door to turn in quest.|
-P The Runecarver's Oubliette|ACTIVE|60267|M|15.93,61.04|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|IZ|1911|
+P The Runecarver's Oubliette|AVAILABLE|60268|PRE|60267|M|15.93,61.04|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|IZ|1911|
 A Deep Within|QID|60268|PRE|60267|M|50.36,54.08|Z|The Runecarver!Instance|N|From Runecarver.|
 C Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver!Instance|QO|1|CHAT|N|Speak with Runecarver to hear is his story.|
 T Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver!Instance|N|To Runecarver.|
@@ -208,7 +208,8 @@ P Ring of Fates|ACTIVE|63030|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take 
 T The Highlord Calls|QID|63030|M|40.05,68.33|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Night Fae|
 
 ;Daughter of the Night Warrior
-A Daughter of the Night Warrior|QID|59179|M|44.22,39.33|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|62899^63006|COV|Night Fae|
+N Renown Level 5|AVAILABLE|59179|N|You must reach Renown level 5 to continue to the next chapter.|COV|Night Fae|REN|-5|
+A Daughter of the Night Warrior|QID|59179|M|44.22,39.33|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|62899^63006|COV|Night Fae|REN|5|
 F Oribos|ACTIVE|59179|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
 P Ring of Fates|ACTIVE|59179|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Fates.|COV|Night Fae|
 C Daughter of the Night Warrior|QID|59179|M|43.23,64.00|Z|Ring of Fates@Oribos|N|Shandris Feathermoon found in Oribos|COV|Night Fae|
@@ -630,20 +631,28 @@ C A Conduit for Good|QID|62795|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!D
 T A Conduit for Good|QID|62795|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|To Soulguide Daelia.|COV|Kyrian|
 A Our Eternal Charge|QID|57904|PRE|62795|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|From Soulguide Daelia.|COV|Kyrian|
 T Our Eternal Charge|QID|57904|M|55.39,42.38|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes, up one level.|COV|Kyrian|
+A More Work?|QID|57899|PRE|57904|M|42.74,53.60|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus. Once the Command Table is active.|COV|Kyrian|
+A Replenish the Reservoir|QID|61982|PRE|57900|M|42.71,53.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
+T More Work?|QID|57899|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Koros.|COV|Kyrian|
+A Across the Shadowlands|QID|57900|PRE|57899|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
+C Across the Shadowlands|QID|57900|M|43.09,41.28|Z|Archon's Rise@Elysian Hold!Dungeon|NC|N|Adventure started.|COV|Kyrian|
+T Across the Shadowlands|QID|57900|M|44.08,41.24|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Koros.|COV|Kyrian|
 
-;Torghast
+; Torghast
 A The Highlord Calls|QID|63029|PRE|57904|M|55.39,42.38|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.\n\n(Quest chain completed in another Guide)|COV|Kyrian|
 F Oribos|ACTIVE|63029|M|51.22,48.61|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head upto the flightmaster and take a flight to Ring of Transference.|COV|Kyrian|
 P Ring of Fates|ACTIVE|63029|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Kyrian|
 T The Highlord Calls|QID|63029|M|40.05,68.33|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Kyrian|
 
-A Trial of Ascension|QID|58787|PRE|57904|M|55.39,42.38|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
+; Chapter 3
+N Renown Level 5|AVAILABLE|58787|N|You must reach Renown level 5 to continue to the next chapter.|COV|Kyrian|REN|-5|
+A Trial of Ascension|QID|58787|PRE|57904|M|55.39,42.38|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|REN|5|
 F Sagehaven|ACTIVE|58787|M|41.19,51.72|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Sagehaven.|COV|Kyrian|
 T Trial of Ascension|QID|58787|M|33.19,26.16|Z|Bastion!The Shadowlands|N|To Kleia.|COV|Kyrian|
 A Censers of Guidance|QID|58788|PRE|58787|M|33.19,26.16|Z|Bastion!The Shadowlands|N|From Kleia.|COV|Kyrian|
 A Misguiding Mentors|QID|58789|PRE|58787|M|33.19,26.16|Z|Bastion!The Shadowlands|N|From Achillon.|COV|Kyrian|
-K Misguiding Mentors|QID|58789|M|34.01,21.70|Z|Bastion!The Shadowlands|QO|2|N|Instructor Herus slain.|T|Instructor Herus|COV|Kyrian|
-K Misguiding Mentors|QID|58789|M|32.53,23.39|Z|Bastion!The Shadowlands|QO|1|N|Strategist Palladia slain.|T|Strategist Palladia|COV|Kyrian|
+K Misguiding Mentors|ACTIVE|58789|M|34.01,21.70|Z|Bastion!The Shadowlands|QO|2|N|Instructor Herus slain.|T|Instructor Herus|COV|Kyrian|
+K Misguiding Mentors|ACTIVE|58789|M|32.53,23.39|Z|Bastion!The Shadowlands|QO|1|N|Strategist Palladia slain.|T|Strategist Palladia|COV|Kyrian|
 C Censers of Guidance|QID|58788|M|33.00,25.12|Z|Bastion!The Shadowlands|NC|N|Incense of Guidance.|COV|Kyrian|
 T Misguiding Mentors|QID|58789|M|32.14,21.07|Z|Bastion!The Shadowlands|N|To Achillon.|COV|Kyrian|
 T Censers of Guidance|QID|58788|M|32.13,21.19|Z|Bastion!The Shadowlands|N|To Kleia.|COV|Kyrian|
@@ -699,17 +708,12 @@ C Forged by Trial|QID|58797|M|59.81,36.27|Z|Sanctum of Binding@Elysian Hold!Dung
 T Forged by Trial|QID|58797|M|59.81,36.27|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|To Kleia.|COV|Kyrian|
 A The Spires of Ascension|QID|58798|PRE|58797|M|59.81,36.27|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|From Kleia. Dungeon Quest.|COV|Kyrian|
 t The Spires of Ascension|QID|58798|M|55.37,42.40|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
-A More Work?|QID|57899|PRE|57898|M|42.74,53.60|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus. Once the Command Table is active.|COV|Kyrian|  ; guess at PRE, prev PRE|58181 was wrong.
-A Replenish the Reservoir|QID|61982|PRE|57900|M|42.71,53.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
-T More Work?|QID|57899|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Koros.|COV|Kyrian|
-A Across the Shadowlands|QID|57900|PRE|57899|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
-C Across the Shadowlands|QID|57900|M|43.09,41.28|Z|Archon's Rise@Elysian Hold!Dungeon|NC|N|Adventure started.|COV|Kyrian|
-T Across the Shadowlands|QID|57900|M|44.08,41.24|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Koros.|COV|Kyrian|
-A Adventurer: Sika|QID|61861|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
-A Adventurer: Clora|QID|61862|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
-A Adventurer: Apolon|QID|61863|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
-A Adventurer: Bron|QID|61864|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
-A Adventurer: Disciple Kosmas|QID|61865|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
+
+;A Adventurer: Sika|QID|61861|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
+;A Adventurer: Clora|QID|61862|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
+;A Adventurer: Apolon|QID|61863|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
+;A Adventurer: Bron|QID|61864|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
+;A Adventurer: Disciple Kosmas|QID|61865|PRE|57900|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
 A The Eternal Forge|QID|58175|PRE|58798|M|55.37,42.40|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 F Sagehaven|ACTIVE|58175|M|41.19,51.72|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Sagehaven.|COV|Kyrian|
 T The Eternal Forge|QID|58175|M|50.18,20.51|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
@@ -852,7 +856,7 @@ C Land of Light|QID|58565|M|56.99,27.11|Z|Revendreth|V|N|Go up the stairs, throu
 T Land of Light|QID|58565|M|32.00,47.51|Z|Revendreth|N|To Theotar.|COV|Kyrian|
 A Skulking in the Darkness|QID|58567|PRE|58565|M|31.97,47.64|Z|Revendreth|N|From Kleia.|
 A Light Respite|QID|58568|PRE|58565|M|31.97,47.64|Z|Revendreth|N|From Kleia.|COV|Kyrian|
-A Actions Speak Louder than Words|QID|58566|M|31.85,47.60|Z|Revendreth|N|From Mindscorched Alwin.|COV|Kyrian|
+A Actions Speak Louder than Words|QID|58566|PRE|58565|M|31.85,47.60|Z|Revendreth|N|From Mindscorched Alwin.|COV|Kyrian|
 C Actions Speak Louder than Words|QID|58566|M|31.85,47.60|Z|Revendreth|QO|1|CHAT|N|Speak to Mindscorched Alwin.|COV|Kyrian|
 C Light Respite|QID|58568|M|36.27,53.20|Z|Revendreth|S|US|N|Brushberry.|COV|Kyrian|
 C Skulking in the Darkness|QID|58567|M|38.73,53.88|Z|Revendreth|S|US|N|Outcast venthyr slain.|COV|Kyrian|
@@ -1116,7 +1120,8 @@ F Oribos|ACTIVE|63033|M|67.21,21.50|Z|Sinfall Reaches@Sinfall!Dungeon|N|Take a f
 P Ring of Fates|ACTIVE|63033|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Venthyr|
 T The Highlord Calls|QID|63033|M|39.94,68.55|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Venthyr|
 
-A Halls of Atonement: Medallion of Pride|QID|60500|M|56.81,30.97|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Medallion of Pride.|COV|Venthyr|
+N Renown Level 5|AVAILABLE|60500|N|You must reach Renown level 5 to continue to the next chapter.|COV|Venthyr|REN|-5|
+A Halls of Atonement: Medallion of Pride|QID|60500|M|56.81,30.97|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Medallion of Pride.|COV|Venthyr|REN|5|
 A Into Torghast|QID|60136|M|39.94,68.55|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|COV|Venthyr|
 P Ring of Transference|ACTIVE|60136|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the transporter to the Ring of Transference.|COV|Venthyr|
 C Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|NC|N|Jump into The Maw then talk to Va'nari.|COV|Venthyr|
@@ -1616,7 +1621,8 @@ P Ring of Fates|ACTIVE|63032|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take 
 T The Highlord Calls|QID|63032|M|39.94,68.55|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Necrolord|
 
 ; Chapter 2
-A Securing the House|QID|62448|PRE|59609|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
+N Renown Level 5|AVAILABLE|62448|N|You must reach Renown level 5 to continue to the next chapter.|COV|Necrolord|REN|-5|
+A Securing the House|QID|62448|PRE|59609|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|5|
 T Securing the House|QID|62448|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Enemy at the Door|QID|59555|PRE|62448|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
 C Enemy at the Door|QID|59555|M|52.84,67.68|Z|Maldraxxus|QO|1|V|N|Hop onto Ragewing.|COV|Necrolord|
