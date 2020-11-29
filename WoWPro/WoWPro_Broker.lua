@@ -2502,7 +2502,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
                 if renownMatch then
                     if not renownFlip then
-                        WoWPro.CompleteStep(guideIndex, "NextStep(): Renown Level ["..renown.."] is less than "..renownID..".")
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..renown.."] is less than "..renownID.."."
                     end
                     skip = true
                 else
