@@ -58,7 +58,7 @@ P The Runecarver's Oubliette|ACTIVE|60272|M|15.93,61.04|Z|Torghast - Entrance!In
 C The Weak Link|QID|60272|M|50.37,54.06|Z|The Runecarver!Instance|QO|1|NC|N|Break the Chain.|
 T The Weak Link|QID|60272|M|51.01,54.58|Z|The Runecarver!Instance|N|To Runecarver.|
 
-; Start of Cov 
+; Start of Cov
 A Choosing Your Purpose|QID|57878|M|39.22,69.40|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
 C Choosing Your Purpose|QID|57878|M|42.94,73.62|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Necrolords.|
 C Choosing Your Purpose|QID|57878|M|44.76,69.53|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the Venthyr.|
