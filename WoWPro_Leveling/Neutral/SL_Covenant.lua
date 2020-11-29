@@ -5,6 +5,60 @@ WoWPro:GuideName(guide,"Covenant Campaign")
 WoWPro:GuideNextGuide(guide, "Torghast")
 WoWPro:GuideSteps(guide, function()
 return [[
+; Torghast
+A Into Torghast|QID|60136|M|39.93,68.59|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|63029^63030^63032^63033|
+P Ring of Transference|QID|60136|ACTIVE|60136|M|52.07,57.87|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
+P Ve'nari's Refuge|QID|60136|ACTIVE|60136|M|46.98,51.57|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|
+C Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|QO|1|CHAT|N|Ask Ve'nari about a way into Torghast.|
+T Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|N|To Ve'nari.|
+A The Search for Baine|QID|61099|M|PLAYER|Z|The Maw|N|From Ve'nari.|PRE|60136|
+P Torghast, Tower of the Damned|QID|61099|ACTIVE|61099|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543
+P Arkoban Hall|QID|61099|ACTIVE|61099|M|38.11,47.10|Z|Torghast - Entrance!Instance|N|Click on the Wayfinder to telport into Arkoban Hall of Torghast.|
+N Anima Hoard|ACTIVE|61099|M|44.05,11.09|Z|Torghast!Instance1765|NC|N|Click on the Anima Hoard at the entrance.|AP|IZ|1765|
+N Soul Remnant|ACTIVE|61099|M|46.83,13.90|Z|Torghast!Instance1765|NC|N|Click on the cage to free the soul and let him empower you.|BUFF|324717|IZ|1765|
+N Soul Remnant|ACTIVE|61099|M|51.47,21.57|Z|Torghast!Instance1765|NC|N|Click to free the soul and let him empower you.|BUFF|324717<2|IZ|1765|
+N Anima Hoard|ACTIVE|61099|M|53.14,29.30|Z|Torghast!Instance1765|NC|N|Click on the Anima Hoard.|AP|IZ|1765|
+K Empowered Mawsworn Guard|ACTIVE|61099|M|51.27,70.28|Z|Torghast!Instance1765|N|Kill the Empowered Mawsworn Guard and then click on the Anima Hoard that spawns at his body.|AP|IZ|1765|
+N Soul Remnant|ACTIVE|61099|M|52.30,73.44|Z|Torghast!Instance1765|NC|N|Click to free the soul and let him empower you.|BUFF|324717<3|IZ|1765|
+P Next Level|ACTIVE|61099|M|51.24,85.00|Z|Torghast!Instance1765|N|Make your way to the next level.|IZ|1765|
+C The Search for Baine|QID|61099|M|47.82,49.42|Z|Torghast!Instance1769|QO|3|N|Make your way to level 6 and Kill Warden Arkoban. Be sure to loot The Forgotten Key from his corpse.|
+A Prison of the Forgotten|QID|60267|U|178585|M|PLAYER|Z|Torghast!Instance1769|N|Make sure you loot the Forgotten Key. Should AutoAccept.|
+C The Search for Baine|QID|61099|M|34.88,56.24|Z|Torghast!Instance1769|QO|4|N|Click on Baine to free him.|
+P Exit|ACTIVE|61099|M|35.22,41.41|Z|Torghast!Instance1769|N|Make your way to the exit.|IZ|1769|
+P The Maw|QID|61099|ACTIVE|61099|M|10.43,47.15|Z|Torghast - Entrance!Instance|N|Click on the doors to exit Torghast.|IZ|1911|
+P Oribos|ACTIVE|61099|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|
+T The Search for Baine|QID|61099|M|39.95,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
+A Explore Torghast|QID|62932|PRE|61099|M|39.95,68.61|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|
+P Ring of Transference|ACTIVE|62932|M|52.06,57.87|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|IZ|1670|
+P The Maw|QID|62932|ACTIVE|62932|M|45.87,51.55|Z|Ring of Transference@Oribos|N|Jump into the portal to The Maw.|IZ|1671|
+C Prison of the Forgotten|QID|60267|M|46.91,41.70|Z|The Maw|QO|1|CHAT|N|Speak with Ve'nari.|
+P Torghast, Tower of the Damned|QID|62932|ACTIVE|62932|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
+C Prison of the Forgotten|QID|60267|M|16.00,62.49|Z|Torghast - Entrance!Instance|QO|2|NC|N|Search Torghast's antechamber for a Lock.|
+T Prison of the Forgotten|QID|60267|M|16.00,62.49|Z|Torghast - Entrance!Instance|N|Click on the Door to turn in quest.|
+P The Runecarver's Oubliette|ACTIVE|60267|M|15.93,61.04|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|IZ|1911|
+A Deep Within|QID|60268|PRE|60267|M|50.36,54.08|Z|The Runecarver!Instance|N|From Runecarver.|
+C Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver!Instance|QO|1|CHAT|N|Speak with Runecarver to hear is his story.|
+T Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver!Instance|N|To Runecarver.|
+A Reawakening|QID|60269|PRE|60268|M|50.36,54.08|Z|The Runecarver!Instance|N|From Runecarver.|
+P Ve'nari's Refuge|QID|60269|ACTIVE|60269|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
+C Reawakening|QID|60269|M|38.52,28.80|Z|The Maw|N|Kill Odalrik and loot the Runecarver's Memory.|
+P Torghast, Tower of the Damned|ACTIVE|60269|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
+P The Runecarver's Oubliette|ACTIVE|60269|M|15.93,61.04|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|IZ|1911|
+T Reawakening|QID|60269|M|50.29,54.16|Z|The Runecarver!Instance|N|To Runecarver.|
+A A Damned Pact|QID|60270|PRE|60269|M|50.29,54.16|Z|The Runecarver!Instance|N|From Runecarver.|
+P Ve'nari's Refuge|ACTIVE|60270|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
+T A Damned Pact|QID|60270|M|46.92,41.70|Z|The Maw|N|To Ve'nari.|
+A A Grave Chance|QID|60271|PRE|60270|M|46.92,41.70|Z|The Maw|N|From Ve'nari.|
+C A Grave Chance|QID|60271|M|46.92,41.70|Z|The Maw|QO|1|NC|N|Purchase an Anima Supricifer from Ve'nari.|
+C A Grave Chance|QID|60271|M|41.06,42.82|Z|The Maw|QO|2|N|Kill the Fire elental based enemies in the area to retrive Molten Anima.|
+T A Grave Chance|QID|60271|M|46.92,41.69|Z|The Maw|N|To Ve'nari.|
+A The Weak Link|QID|60272|PRE|60271|M|46.92,41.69|Z|The Maw|N|From Ve'nari.|
+P Torghast, Tower of the Damned|ACTIVE|60272|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
+P The Runecarver's Oubliette|ACTIVE|60272|M|15.93,61.04|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|IZ|1911|
+C The Weak Link|QID|60272|M|50.37,54.06|Z|The Runecarver!Instance|QO|1|NC|N|Break the Chain.|
+T The Weak Link|QID|60272|M|51.01,54.58|Z|The Runecarver!Instance|N|To Runecarver.|
+
+; Start of Cov 
 A Choosing Your Purpose|QID|57878|M|39.22,69.40|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
 C Choosing Your Purpose|QID|57878|M|42.94,73.62|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Necrolords.|
 C Choosing Your Purpose|QID|57878|M|44.76,69.53|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the Venthyr.|
@@ -146,6 +200,12 @@ C A Conduit for Growth|QID|62900|M|33.31,46.06|Z|The Trunk@Heart of the Forest!D
 T A Conduit for Growth|QID|62900|M|33.73,44.44|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
 A The Endless Forest|QID|62899|M|33.73,44.44|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|PRE|62900|COV|Night Fae|
 T The Endless Forest|QID|62899|M|46.59,36.60|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
+
+; Torghast
+A The Highlord Calls|QID|63030|M|47.27,36.07|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|COV|Night Fae|
+F Ring of Transference|ACTIVE|63030|M|51.41,8.25|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
+P Ring of Fates|ACTIVE|63030|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Night Fae|
+T The Highlord Calls|QID|63030|M|40.05,68.33|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Night Fae|
 
 ;Daughter of the Night Warrior
 A Daughter of the Night Warrior|QID|59179|M|44.22,39.33|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|62899^63006|COV|Night Fae|
@@ -508,9 +568,8 @@ C The Path Provides|QID|62790|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon
 T The Path Provides|QID|62790|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Iona Skyblade.|COV|Kyrian|
 A A Call to Service|QID|62698|PRE|62790|M|42.76,70.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Iona Skyblade.|COV|Kyrian|
 T A Call to Service|QID|62698|M|41.01,41.02|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Hermestes.|COV|Kyrian|
-A A Calling in Bastion|QID|62692|PRE|62698|LEAD|62791|M|41.11,41.25|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Hermestes.|COV|Kyrian|  ; WP guide never shows complete, added LEAD since it show that one completed.
-F Hero's Rest, Bastion|ACTIVE|62692|M|50.96,49.00|Z|Archon's Rise@Elysian Hold!Dungeon|TZ|Bastion|N|At Cassius.|COV|Kyrian|  ; REASON ?
-C A Calling in Bastion|ACTIVE|62692|M|51.61,46.61|Z|Bastion|N|Go Complete 3 World Quests.|COV|Kyrian|
+A A Calling in Bastion|QID|62692|PRE|62698|LEAD|62791|M|41.11,41.25|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Hermestes.|COV|Kyrian|
+C A Calling in Bastion|QID|62692|M|51.61,46.61|Z|Bastion|N|Go Complete 3 World Quests.|COV|Kyrian|
 t A Calling in Bastion|QID|62692|M|40.93,40.93|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Hermestes.|COV|Kyrian|
 A Our Most Precious Resource|QID|62791|PRE|62692|M|40.93,40.93|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Hermestes.|COV|Kyrian|
 T Our Most Precious Resource|QID|62791|M|42.73,53.84|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Haephus.|COV|Kyrian|
@@ -528,20 +587,23 @@ A Setting the Ground Rules|QID|62882|PRE|62832|M|46.81,41.64|Z|The Maw|N|From Ve
 C Setting the Ground Rules|QID|62882|M|46.81,41.64|Z|The Maw|NC|N|Ground rules set with Ve'nari.|COV|Kyrian|
 T Setting the Ground Rules|QID|62882|M|46.83,41.67|Z|The Maw|N|To Ve'nari.|COV|Kyrian|
 A Rule 1: Have an Escape Plan|QID|60287|PRE|62882|M|46.83,41.67|Z|The Maw|N|From Ve'nari.|COV|Kyrian|
-C Rule 1: Have an Escape Plan|QID|60287|M|40.03,40.41|Z|The Maw|QO|2|NC|N|Stygia.|COV|Kyrian|
-C Rule 1: Have an Escape Plan|QID|60287|M|43.46,45.08|Z|The Maw|QO|1|NC|N|Souls taken into the Soulkeeper.|COV|Kyrian|
-C Rule 1: Have an Escape Plan|QID|60287|M|43.46,45.08|Z|The Maw|QO|3|NC|N|More Stygia can be found from powerful foes.|COV|Kyrian|
-C Rule 1: Have an Escape Plan|QID|60287|M|46.84,41.70|Z|The Maw|QO|4|NC|N|Purchase a Cypher of Relocation for 60 Stygia.|COV|Kyrian|
+C Collect Stygia|QID|60287|M|32.19,40.17|Z|The Maw|QO|2|N|Killing enemies, and objectives around will earn you Stygia, also elites drop more.|S|COV|Kyrian|
+C Rule 1: Have an Escape Plan|QID|60287|M|32.19,40.17|Z|The Maw|QO|1|NC|N|Look for Souls trapped in cages, click the cages and then click the souls. You can also rarely find one roaming around.|COV|Kyrian|
+C Collect Stygia|QID|60287|M|32.19,40.17|Z|The Maw|QO|2|N|Killing enemies, and objectives around will earn you Stygia, also elites drop more.|US|COV|Kyrian|
+C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 60 Stygia.|COV|Kyrian|
 T Rule 1: Have an Escape Plan|QID|60287|M|46.84,41.70|Z|The Maw|N|To Ve'nari.|COV|Kyrian|
-A Rule 2: Keep a Low Profile|QID|61355|PRE|60287|M|46.84,41.70|Z|The Maw|N|From Ve'nari.|COV|Kyrian|
-A Rule 2: Keep a Low Profile|QID|61355|PRE|60287|M|46.84,41.70|Z|The Maw|N|From Ve'nari.|COV|Kyrian|
-C Rule 2: Keep a Low Profile|QID|61355|M|47.15,43.13|Z|The Maw|NC|U|184314|N|Soul Ward reinforced.|COV|Kyrian|
-T Rule 2: Keep a Low Profile|QID|61355|M|46.85,41.75|Z|The Maw|N|To Ve'nari.|COV|Kyrian|
-A Rule 3: Trust is Earned|QID|60289|PRE|61355|M|46.85,41.75|Z|The Maw|N|From Ve'nari.|COV|Kyrian|
-C Rule 3: Trust is Earned|QID|60289|M|35.03,47.59|Z|The Maw|QO|1|NC|N|Signaling Beacon Placed.|COV|Kyrian|
-C Rule 3: Trust is Earned|QID|60289|M|33.52,49.03|Z|The Maw|QO|2|NC|N|Retrieve Bloodhoof Warmace.|COV|Kyrian|
-C Rule 3: Trust is Earned|QID|60289|M|33.38,48.76|Z|The Maw|QO|3|N|Tower Inquisitor slain.|COV|Kyrian|
-T Rule 3: Trust is Earned|QID|60289|M|46.83,41.68|Z|The Maw|N|To Ve'nari.|COV|Kyrian|
+A Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60287|COV|Kyrian|
+C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|The Maw|QO|1<1|NC|N|Click the Soul Ward.|COV|Kyrian|
+C Rule 2: Keep a Low Profile|QID|61355|M|48.20,40.21|Z|The Maw|QO|1<2|NC|N|Click the Soul Ward.|COV|Kyrian|
+C Rule 2: Keep a Low Profile|QID|61355|M|48.41,41.82|Z|The Maw|QO|1<3|NC|N|Click the Soul Ward.|COV|Kyrian|
+C Rule 2: Keep a Low Profile|QID|61355|M|47.20,43.16|Z|The Maw|QO|1<4|NC|N|Click the Soul Ward.|COV|Kyrian|
+T Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.70|Z|The Maw|N|To Ve'nari.|COV|Kyrian|
+A Rule 3: Trust is Earned|QID|60289|M|46.91,41.70|Z|The Maw|N|From Ve'nari.|COV|Kyrian|
+C Rule 3: Trust is Earned|QID|60289|M|34.98,47.68|Z|The Maw|QO|1|NC|N|Place the Signaling Beacon.|COV|Kyrian|
+C Rule 3: Trust is Earned|QID|60289|M|33.45,49.07|Z|The Maw|QO|2|NC|N|Click on the Bloodhoof Warmace.|COV|Kyrian|
+C Rule 3: Trust is Earned|QID|60289|M|33.45,49.07|Z|The Maw|QO|3|N|Kill the Tower Inquisitor.|COV|Kyrian|
+C Rule 3: Trust is Earned|QID|60289|M|PLAYER|Z|The Maw|NC|N|Use your Cypher of Relocation back to camp.|U|180817|COV|Kyrian|
+T Rule 3: Trust is Earned|QID|60289|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Kyrian|
 A Hopeful News|QID|62837|PRE|60289|M|46.83,41.68|Z|The Maw|N|From Ve'nari.|COV|Kyrian|
 P Oribos|ACTIVE|62837|M|42.37,42.14|Z|The Maw|QO|1|N|Return to Oribos, via the Waystone.|COV|Kyrian|
 T Hopeful News|QID|62837|M|39.94,68.62|Z|Ring of Fates@Oribos|N|To Bolvar Fordragon.|COV|Kyrian|
@@ -568,8 +630,14 @@ C A Conduit for Good|QID|62795|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!D
 T A Conduit for Good|QID|62795|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|To Soulguide Daelia.|COV|Kyrian|
 A Our Eternal Charge|QID|57904|PRE|62795|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|From Soulguide Daelia.|COV|Kyrian|
 T Our Eternal Charge|QID|57904|M|55.39,42.38|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes, up one level.|COV|Kyrian|
-A Trial of Ascension|QID|58787|PRE|57904|M|55.39,42.38|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
+
+;Torghast
 A The Highlord Calls|QID|63029|PRE|57904|M|55.39,42.38|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.\n\n(Quest chain completed in another Guide)|COV|Kyrian|
+F Oribos|ACTIVE|63029|M|51.22,48.61|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head upto the flightmaster and take a flight to Ring of Transference.|COV|Kyrian|
+P Ring of Fates|ACTIVE|63029|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Kyrian|
+T The Highlord Calls|QID|63029|M|40.05,68.33|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Kyrian|
+
+A Trial of Ascension|QID|58787|PRE|57904|M|55.39,42.38|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 F Sagehaven|ACTIVE|58787|M|41.19,51.72|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Sagehaven.|COV|Kyrian|
 T Trial of Ascension|QID|58787|M|33.19,26.16|Z|Bastion!The Shadowlands|N|To Kleia.|COV|Kyrian|
 A Censers of Guidance|QID|58788|PRE|58787|M|33.19,26.16|Z|Bastion!The Shadowlands|N|From Kleia.|COV|Kyrian|
@@ -1041,11 +1109,14 @@ C A Conduit For Change|QID|62920|M|42.73,18.12|Z|Sinfall Reaches@Sinfall!Dungeon
 T A Conduit For Change|QID|62920|M|45.47,20.98|Z|Sinfall Reaches@Sinfall!Dungeon|N|To The Accuser.|COV|Venthyr|
 A Our True Purpose|QID|62921|M|45.47,20.98|Z|Sinfall Reaches@Sinfall!Dungeon|N|From The Accuser.|PRE|62920|COV|Venthyr|
 T Our True Purpose|QID|62921|M|51.77,37.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
+
+;Chapter 2 - Torghast
 A The Highlord Calls|QID|63033|M|51.79,37.61|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|62921|COV|Venthyr|
-A Halls of Atonement: Medallion of Pride|QID|60500|M|56.81,30.97|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Medallion of Pride.|COV|Venthyr|
 F Oribos|ACTIVE|63033|M|67.21,21.50|Z|Sinfall Reaches@Sinfall!Dungeon|N|Take a flight to the Oribos.|COV|Venthyr|
 P Ring of Fates|ACTIVE|63033|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Venthyr|
 T The Highlord Calls|QID|63033|M|39.94,68.55|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Venthyr|
+
+A Halls of Atonement: Medallion of Pride|QID|60500|M|56.81,30.97|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Medallion of Pride.|COV|Venthyr|
 A Into Torghast|QID|60136|M|39.94,68.55|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|COV|Venthyr|
 P Ring of Transference|ACTIVE|60136|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the transporter to the Ring of Transference.|COV|Venthyr|
 C Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|NC|N|Jump into The Maw then talk to Va'nari.|COV|Venthyr|
@@ -1538,6 +1609,12 @@ C Conduits, What Are They For?|QID|62848|M|38.49,33.56|Z|Seat of the Primus!Dung
 T Conduits, What Are They For?|QID|62848|M|38.89,32.21|Z|Seat of the Primus!Dungeon|N|To Plague Deviser Marileth.|COV|Necrolord|
 A No Rest For the Dead|QID|59609|PRE|62848|M|38.89,32.21|Z|Seat of the Primus!Dungeon|N|From Plague Deviser Marileth.|COV|Necrolord|
 T No Rest For the Dead|QID|59609|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
+
+;Chapter 2 - Torghast
+A The Highlord Calls|QID|63032|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|PRE|62921|COV|Necrolord|
+F Ring of Transference|ACTIVE|63032|M|52.47,67.65|Z|Maldraxxus|N|Take a flight to the Oribos.|COV|Necrolord|
+P Ring of Fates|ACTIVE|63032|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Necrolord|
+T The Highlord Calls|QID|63032|M|39.94,68.55|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Necrolord|
 
 ; Chapter 2
 A Securing the House|QID|62448|PRE|59609|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
