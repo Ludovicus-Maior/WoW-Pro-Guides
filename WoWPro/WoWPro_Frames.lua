@@ -881,8 +881,7 @@ function WoWPro:CreateDropdownMenu()
         {text = L["Current Guide"], func = function()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Current Guide")
         end},
-        {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
-        {text = "Proxymity Sort", func = function() WoWPro.OrderSteps(true); end }
+        {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide }
     }
 end
 

@@ -76,4 +76,5 @@ function WoWPro.Achievements:CreateConfig()
     tinsert(WoWPro.DropdownMenu, {text = "About", func = function()
         _G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Achievements")
     end} )
+    tinsert(WoWPro.DropdownMenu, {text = "Proximity Sort", func = function() WoWPro.OrderSteps(true); end } )
 end
