@@ -14,24 +14,26 @@ T The Art of War|QID|29611|M|48.66,70.32|Z|Orgrimmar|N|To General Nazgrim|
 A The Art of War|QID|29612|M|48.66,70.32|Z|Orgrimmar|N|From General Nazgrim. Quest not there? Skip this step for an alternative one.|
 T The Art of War|QID|29612|M|48.66,70.32|Z|Orgrimmar|N|To General Nazgrim|
 A To Pandaria!|QID|60126|M|40.82,80.15|Z|Orgrimmar|N|From Chromie after activating Mists of Pandaria timeline.|LVL|-50|
-C To Pandaria!|QID|60126|M|49.79,75.27|Z|Orgrimmar|N|Head to Grommash Hold.|
-T To Pandaria!|QID|60126|M|48.67,70.38|Z|Orgrimmar|N|To General Nazgrim.|
+C To Pandaria!|QID|60126|M|49.79,75.27|Z|Orgrimmar|N|Head to Grommash Hold and watch the cut-scene\n<ESC> can cancel the cinematic.|
+T Mists of Pandaria: To Pandaria!|QID|60126|M|48.67,70.38|Z|Orgrimmar|N|To General Nazgrim.|
 A All Aboard!|QID|31853|M|48.56,70.62|Z|Orgrimmar|N|From General Nazgrim.|PRE|29611|
-C All Aboard!|QID|31853|M|37.89,95.73|Z|Orgrimmar|QO|1|N|Go up the elevator and get a ride from Doras the Wind Rider Master.|CHAT|FLY|OLD|
+f Orgrimmar|ACTIVE|31853|M|49.65,59.19|Z|Orgrimmar|N|Take one of the 3 elevators up and make your way to Doras.|TAXI|-Orgrimmar|
+C All Aboard!|QID|31853|M|49.65,59.19|Z|Orgrimmar|QO|1|N|Ask Doras for a flight to Hellscream's Fist.|CHAT|TAXI|Orgrimmar|
+C All Aboard!|QID|31853|M|49.65,59.19|Z|Orgrimmar|QO|1|N|Ask Doras for a flight to Hellscream's Fist.|CHAT|FLY|OLD|
 F Hellscream's Fist|QID|31853|M|37.89,95.73|Z|Azshara|N|Fly up to the Hellscream's Fist, which is flying above the skies east of Orgrimmar.|FLY|-OLD|
 C Hellscream's Fist|QID|31853|M|37.89,95.73|Z|Azshara|N|Talk with General Nazgrim.|CHAT|
 T All Aboard!|QID|31853|M|37.89,95.73|Z|Azshara|N|To General Nazgrim, who has relocated to the Hellscream's Fist.|
 A Into the Mists|QID|29690|M|37.89,95.73|Z|Azshara|N|From General Nazgrim.|PRE|31853|
-C Into the Mists|QID|29690|M|37.89,95.73|Z|Azshara|N|Speak to General Nazgrim and tell him "I'm ready to go, General". Then sit back, and watch the cinematic.|CHAT|
+C Into the Mists|QID|29690|M|37.89,95.73|Z|Azshara|N|Speak to General Nazgrim and tell him "I'm ready to go, General". Sit back and watch the cinematic.\n<ESC> can cancel the cinematic.|CHAT|
 T Into the Mists|QID|29690|M|30.77,10.22|N|To General Nazgrim.|
 A Paint it Red!|QID|31765|M|30.77,10.22|N|From General Nazgrim.|PRE|29690|
-C Paint it Red!|QID|31765|M|31.55,11.13|N|Head to the lower level deck, and click on a Gunship Turret. Use Action button 1 "Full Autofire" when off cooldown, otherwise use action button 2, and kill the required troops and cannons.|
+C Paint it Red!|QID|31765|M|31.07,11.37|N|Head to the lower level deck, and click on a Gunship Turret. Use Action button 1 "Full Autofire" when off cooldown, otherwise use action button 2, and kill the required troops and cannons.|
 T Paint it Red!|QID|31765|M|31.00,11.04|N|To Rivett Clutchpop.|
 A Touching Ground|QID|31766|M|31.00,11.04|N|From Rivett Clutchpop.|PRE|31765|
 C Touching Ground|QID|31766|M|31.55,11.13|N|Click on the Rappelling Rope (next to the Gunship Turrets).|NC|
-T Touching Ground|QID|31766|M|31.71,11.49|N|To General Nazgrim.|
-A Finish Them!|QID|31767|M|31.71,11.49|N|From General Nazgrim.|PRE|31766|
-A Fire Is Always the Answer|QID|31768|M|31.71,11.49|N|From General Nazgrim.|PRE|31766|
+T Touching Ground|QID|31766|M|31.65,11.34|N|To General Nazgrim.|
+A Finish Them!|QID|31767|M|31.65,11.34|N|From General Nazgrim.|PRE|31766|
+A Fire Is Always the Answer|QID|31768|M|31.65,11.34|N|From General Nazgrim.|PRE|31766|
 C Finish Them!|QID|31767|M|33.03,8.07|N|Kill the Thunder Hold troops (Laborers do not count)|S|
 C Fire Is Always the Answer|QID|31768|M|33.78,6.53|N|Use Nazgrim's Flare Gun as you stand near Thunder Hold Munitions.|U|89605|NC|
 C Finish Them!|QID|31767|M|33.03,8.07|N|Finish killing the Thunder Hold troops (Laborers do not count)|US|
@@ -39,14 +41,14 @@ T Finish Them!|QID|31767|M|33.67,10.61;34.79,10.61|CC|N|To General Nazgrim, who 
 T Fire Is Always the Answer|QID|31768|M|34.79,10.61|N|To General Nazgrim.|
 A The Final Blow!|QID|31769|M|34.79,10.61|N|From General Nazgrim.|PRE|31767&31768|
 C The Final Blow!|QID|31769|M|34.01,9.84|QO|1|N|Head to the first barricade and use Nazgrim's Flare Gun to destroy it.|U|89769|NC|
-C The Final Blow!|QID|31769|M|34.65,9.80|QO|2|N|[fix coords]Head up the stairs to the second barricade and use Nazgrim's Flare Gun to destroy it.|U|89769|
-C The Final Blow!|QID|31769|M|34.92,10.67|QO|3|N|Head along the corridor to the third barricade and use Nazgrim's Flare Gun to destroy it.|U|89769|NC|
-C The Final Blow!|QID|31769|M|33.60,10.58|QO|4|N|Head up the stairs, then to where Captain Doren is standing, then sit back and watch the cinematic.|NC|
+C The Final Blow!|QID|31769|M|34.65,9.80|QO|2|N|Head up the stairs to the second barricade and use Nazgrim's Flare Gun to destroy it.|U|89769|NC|
+C The Final Blow!|QID|31769|M|34.70,9.86|QO|3|N|Head along the corridor to the third barricade and use Nazgrim's Flare Gun to destroy it.|U|89769|NC|
+C The Final Blow!|QID|31769|M|33.60,10.58|QO|4|N|Head up the stairs to where Captain Doren is standing. After he makes his escape, sit back and watch the cinematic.\n<ESC> can cancel the cinematic.|NC|
 T The Final Blow!|QID|31769|M|33.67,10.56|N|To General Nazgrim. You will need to wait a minute for the dialog to finish before he will accept the quest.|
 A You're Either With Us Or...|QID|31770|M|33.67,10.56|N|From General Nazgrim. Again, you will need to wait a minute for the dialog to finish before he will offer the quest.|PRE|31769|
-A Regroup!|QID|29694|M|33.67,10.56|N|From General Nazgrim.|PRE|31769|
+A Regroup!|QID|29694|M|33.67,10.56|N|From General Nazgrim, when he stops ranting.|PRE|31769|
 A Face to Face With Consequence|QID|31771|M|33.67,10.56|N|From Taran Zhu.|PRE|31769|
-C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Head out of the building, killing the Sha Haunt/Harbingers as you head to Honeydew Glade.|
+C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Head out of the building, killing the Sha Haunt and Harbingers as you head to Honeydew Glade.|
 C Regroup!|QID|29694|M|31.95,13.21|QO|1|N|Jump into the river, then head over to Honeydew Glade and speak to Shademaster Kiryn.|CHAT|
 A Priorities!|QID|31978|M|31.97,13.30|N|From Gi-Oh.|PRE|31769|
 A Prowler Problems|QID|31773|M|32.06,13.32|N|From Kai-Lin Honeydew.|PRE|31769|
