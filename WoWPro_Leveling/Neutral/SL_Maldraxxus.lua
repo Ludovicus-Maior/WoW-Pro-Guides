@@ -219,7 +219,7 @@ T A Sure Bet|QID|58900|M|50.53,51.67|Z|Maldraxxus|N|To Anzio The Infallible.|
 A The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|ELITE|N|[color=ff8000]Elite:[/color] From Anzio The Infallible.|PRE|58900|RANK|2|
 C The Ladder|QID|57316|M|50.35,47.80|Z|Maldraxxus|N|Kill the 3 elites that spawn in the center of the theater. Some classes/players may not require a group.|
 T The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|To Anzio The Infallible.|
-A Bet on Yourself|QID|59826^59827^59828|M|53.58,47.50|Z|Maldraxxus|ELITE|N|[color=ff8000]Elite:[/color] From Au'narim. Depends on the Day, this quest becomes available to kill the 4th Champion, who is specific to that day.|RANK|2|PRE|57316|
+A Bet on Yourself|QID|59826^59827^59828|M|53.58,47.50|Z|Maldraxxus|ELITE|N|[color=ff8000]Elite:[/color] From Au'narim. Depends on the Day, this quest becomes available to kill the 4th Champion, who is specific to that day.|RANK|2|PRE|57316|LVL|60|
 C Bet on Yourself|QID|59826|M|50.53,51.67|Z|Maldraxxus|N|Kill Mistress Dyrax in the  Theater of Pain.|
 C Bet on Yourself|QID|59827|M|50.53,51.67|Z|Maldraxxus|N|Kill Devmorta in the  Theater of Pain.|
 C Bet on Yourself|QID|59828|M|50.53,51.67|Z|Maldraxxus|N|Kill Ti'or in the  Theater of Pain.|
