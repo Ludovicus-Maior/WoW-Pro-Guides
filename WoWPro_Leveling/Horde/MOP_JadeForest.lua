@@ -49,15 +49,15 @@ A You're Either With Us Or...|QID|31770|M|33.67,10.56|N|From General Nazgrim. Ag
 A Regroup!|QID|29694|M|33.67,10.56|N|From General Nazgrim, when he stops ranting.|PRE|31769|
 A Face to Face With Consequence|QID|31771|M|33.67,10.56|N|From Taran Zhu.|PRE|31769|
 C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Head out of the building, killing the Sha Haunt and Harbingers as you head to Honeydew Glade.|
-C Regroup!|QID|29694|M|31.95,13.21|QO|1|N|Jump into the river, then head over to Honeydew Glade and speak to Shademaster Kiryn.|CHAT|
+C Regroup!|QID|29694|M|32.06,13.35|QO|1|N|Jump into the river, then head over to Honeydew Glade and speak to Shademaster Kiryn.|CHAT|
 A Priorities!|QID|31978|M|31.97,13.30|N|From Gi-Oh.|PRE|31769|
 A Prowler Problems|QID|31773|M|32.06,13.32|N|From Kai-Lin Honeydew.|PRE|31769|
 C Prowler Problems|QID|31773|M|30.61,11.78|N|Kill the Sha-Infested Prowlers as you wander the area.|S|
 C Priorities!|QID|31978|M|29.39,13.58|N|Collect the Barrels on the floor around the Glade.|NC|S|
 C Regroup!|QID|29694|M|30.58,11.65|QO|3|N|Head north-west to Sergeant Gorrok, and speak to him.|CHAT|
-C Regroup!|QID|29694|M|30.4,7.2|QO|2|N|[fix coords]Speak to Rivett Clutchpop to get him down from the tree.|CHAT|
+C Regroup!|QID|29694|M|30.53,7.20|QO|2|N|Speak to Rivett Clutchpop to get him down from the tree.|CHAT|
 C Regroup!|QID|29694|M|29.41,8.45|QO|4|N|Speak to Shokia up on the overlook at Honeydew Farm.|CHAT|
-C Priorities!|QID|31978|M|29.3,10.0|N|[fix coords]Finish collecting the Barrels of Honeybrew.|NC|US|
+C Priorities!|QID|31978|M|29.39,13.58|N|Finish collecting the Barrels of Honeybrew.|NC|US|
 C Prowler Problems|QID|31773|M|30.61,11.78|N|Finish killing the Sha-Infested Prowlers.|US|
 C You're Either With Us Or...|QID|31770|M|29.27,13.33|N|Head to Mayor Honeydew.|CHAT|
 T You're Either With Us Or...|QID|31770|M|29.15,13.74|N|To Mayor Honeydew.|
@@ -75,8 +75,8 @@ A Monstrosity|QID|29743|M|30.90,17.49|N|From base of statue.|PRE|31774|
 C Cryin' My Eyes Out|QID|29765|M|29.15,17.91|N|Kill the hozen to recover Zin'Jun's stuff.|S|
 C Monstrosity|QID|29743|M|29.34,18.92|QO|1|NC|
 C Monstrosity|QID|29743|M|30.01,21.21|QO|2|NC|
-C Cryin' My Eyes Out|QID|29765|M|31,21|N|[fix coords]Kill the monkeys to find Zin'Jun's missing things.|US|
-T Cryin' My Eyes Out|QID|29765|M|31,21|N|[fix coords]To Zin'Jun.|
+C Cryin' My Eyes Out|QID|29765|M|31.02,21.28|N|Kill the monkeys to find Zin'Jun's missing things.|US|
+T Cryin' My Eyes Out|QID|29765|M|PLAYER|N|To Zin'Jun.|
 A Seein' Red|QID|29804|M|29.42,18.00|N|From Zin'Jun.|PRE|29765|
 K Konk|QID|29804|M|31.61,21.91|QO|1|T|Konk|
 T Seein' Red|QID|29804|M|31.61,21.91|N|To General Nazgrim.|
@@ -85,13 +85,14 @@ A Strongarm Tactics|QID|31776|M|31.61,21.91|N|From General Nazgrim.|PRE|29804|
 A Unreliable Allies|QID|31778|M|31.42,21.71|N|From Merchant Zin.|PRE|29804|
 A Choppertunity|QID|31777|M|31.15,21.56|N|From Rivett Clutchpop.|PRE|29804|
 C Unreliable Allies|QID|31778|M|29.63,23.15|CHAT|S|
-C Choppertunity|QID|31777|M|27.92,24.14|N|Pick up the sparkly Rocket Launchers, you will need at least 6, target choppers and use (they have a very long range.)|T|Strongarm Gyrocopter|U|89163|S|
+C Choppertunity|QID|31777|M|27.92,24.14|L|89163 6|N|Pick up the sparkly Rocket Launchers, you will need at least 6. You get 2 shots from each one.|S|
+C Choppertunity|QID|31777|M|27.92,24.14|N|Target choppers and use one the Requisitioned Firework Launchers that you collected (they have a very long range).\nPick up more if you run out.|T|Strongarm Gyrocopter|U|89163|S|
 C Assault on the Airstrip|QID|31775|M|27.96,24.73|S|
 K Master Engineer Cogswing and Gyro-Mechanic Lavenderp|QID|31776|M|30.30,24.28|QO|1|N|These guys move between campsites in this area.|T|Master Engineer Cogswing|
 K Morgus Grimhatchet|QID|31776|M|29.66,23.23|N|These guys move between campsites in this area.|T|Morgus Grimhatchet|QO|2|
 K Corporal Jackson Silver|QID|31776|M|27.84,23.10|QO|3|T|Corporal Jackson Silver|
 C Unreliable Allies|QID|31778|M|29.63,23.15|CHAT|US|
-C Choppertunity|QID|31777|M|27.92,24.14|N|Use rocket launchers on choppers.|T|Strongarm Gyrocopter|U|89163|US|
+C Choppertunity|QID|31777|M|27.92,24.14|N|Target choppers and use one the Requisitioned Firework Launchers that you collected (they have a very long range).\nPick up more if you run out.|T|Strongarm Gyrocopter|U|89163|US|
 C Assault on the Airstrip|QID|31775|M|27.96,24.73|US|
 C Monstrosity|QID|29743|M|28.33,22.31|QO|3|NC|
 C Monstrosity|QID|29743|M|29.87,22.39|QO|4|NC|
@@ -107,30 +108,30 @@ A Nazgrim's Command|QID|31999|M|27.52,24.15|PRE|31779|
 T Nazgrim's Command|QID|31999|M|28.41,24.91|N|To General Nazgrim.|
 A Forensic Science|QID|29815|M|28.15,24.76|N|From Shademaster Kiryn.|PRE|31999|
 A Missed Me By... That Much!|QID|29821|M|28.13,24.71|N|From Rivett Clutchpop.|PRE|31999|
-C Forensic Science|QID|29815|M|26.23,30.07|NC|S|
+C Forensic Science|QID|29815|M|26.23,30.07|N|Loot the Lurching Blossoms to collect the Viscous Chlorophyll.|NC|S|
 C Missed Me By... That Much!|QID|29821|M|24.02,27.12|N|Use the rocket boots provided to jump to the island.|U|84157|
 T Missed Me By... That Much!|QID|29821|M|22.85,30.60|N|To Empty Package.|
 A They're So Thorny!|QID|31112|M|22.85,30.60|N|From Empty Package.|PRE|29821|
-C They're So Thorny!|QID|31112|M|25.53,27.70|N|Use the rocket boots again to jump back to the shore. The sprites drop the supplies.|U|84157|
-C Forensic Science|QID|29815|M|26.23,30.07|NC|US|
+C They're So Thorny!|QID|31112|M|25.53,27.70|N|Use the rocket boots to jump back to the shore.\nThe Water Sprites drop the supplies.|U|84157|
+C Forensic Science|QID|29815|M|26.23,30.07|N|Finish collecting the Viscous Chlorophyll from the Lurching Blossoms.|NC|US|
 T They're So Thorny!|QID|31112|M|28.07,24.62|N|To Rivett Clutchpop.|
 T Forensic Science|QID|29815|M|28.15,24.87|N|To Shademaster Kiryn.|
 A Acid Rain|QID|29827|M|28.21,24.91|N|From Shademaster Kiryn.|PRE|29815|
-C Acid Rain|QID|29827|M|28.08,24.79|N|Hop on the chopper, bombing mission.|NC|
+C Acid Rain|QID|29827|M|28.08,24.79|N|Hop on the chopper, bombing mission.|V|
 T Acid Rain|QID|29827|M|28.20,24.86|N|To Shademaster Kiryn.|
 A Lay of the Land|QID|29822|M|28.42,24.93|N|From General Nazgrim.|PRE|29827&31112|
-C Lay of the Land|QID|29822|M|32.01,27.96|QO|1|NC|
+R Shrine of the Sun|ACTIVE|29822|M|32.01,27.96|QO|1|
 $ Lucky Pandaren Coin|QID|31401|M|32.01,27.96|N|There is a coin in the fountain worth 95g, you may want to pick it up. (once per char).|NC|
-K Dook Ookem|QID|29822|M|27.75,30.35|QO|3|T|Dook Ookem|
-C Lay of the Land|QID|29822|M|26.16,32.32|QO|2|NC|
+K Dook Ookem|ACTIVE|29822|M|27.75,30.35|QO|3|T|Dook Ookem|
+R Shrine of the Moon|ACTIVE|29822|M|26.16,32.32|QO|2|
 $ Lay of the Land|QID|31400|M|26.16,32.32|N|There is a tea pot on the table worth 100g, you may want to pick it up. (also worth a fair amount of xp).|NC|
-T Lay of the Land|QID|29822|M|27.61,32.71|N|To Lorewalker Cho.|
-A Stay a While, and Listen|QID|31121|M|27.61,32.71|N|From Lorewalker Cho.|PRE|29822|
-C Stay a While, and Listen|QID|31121|M|27.55,32.57|N|Click on the table.|NC|
-T Stay a While, and Listen|QID|31121|M|27.57,32.63|N|To Lorewalker Cho.|
-A A Mile in My Shoes|QID|31132|M|27.57,32.63|N|From Lorewalker Cho.|PRE|31121|
-T A Mile in My Shoes|QID|31132|M|30.88,34.02|N|To Lorewalker Cho.|
-A If These Stones Could Speak|QID|31134|M|30.88,34.02|N|From Lorewalker Cho.|PRE|31132|
+T Lay of the Land|QID|29822|M|27.59,32.69|N|To Lorewalker Cho inside Cave of Words.\nThe entrance is on the north side of Spire of Solitude at the base.|
+A Stay a While, and Listen|QID|31121|M|27.59,32.69|N|From Lorewalker Cho.|PRE|29822|
+C Stay a While, and Listen|QID|31121|M|27.69,32.56|CC|N|Click Cho's Teapot on the table to grab some tea and start the cinematic.\nYou'll be moved to the center of the room to sit and listen to Cho. You don't have a choice at this point.\nThis steps completes when the cinematic ends.|NC|
+T Stay a While, and Listen|QID|31121|M|27.59,32.69|N|To Lorewalker Cho.|
+A A Mile in My Shoes|QID|31132|M|27.59,32.69|N|From Lorewalker Cho.|PRE|31121|
+T A Mile in My Shoes|QID|31132|M|27.59,32.69|N|To Lorewalker Cho.|
+A If These Stones Could Speak|QID|31134|M|27.59,32.69|N|From Lorewalker Cho.|PRE|31132|
 C If These Stones Could Speak|QID|31134|M|30.59,34.21|N|Click on each of the standing stones, starting with the one with the hole in it, mobs may come attack you.|NC|
 T If These Stones Could Speak|QID|31134|M|30.83,34.12|N|To Lorewalker Cho.|
 A Peering Into the Past|QID|31152|M|30.83,34.12|N|From Lorewalker Cho.|PRE|31134|
