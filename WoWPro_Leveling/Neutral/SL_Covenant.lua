@@ -12,8 +12,8 @@ P Ve'nari's Refuge|QID|60136|ACTIVE|60136|M|46.98,51.57|Z|Ring of Transference@O
 C Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|QO|1|CHAT|N|Ask Ve'nari about a way into Torghast.|
 T Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|N|To Ve'nari.|
 A The Search for Baine|QID|61099|M|PLAYER|Z|The Maw|N|From Ve'nari.|PRE|60136|
-P Torghast, Tower of the Damned|QID|61099|ACTIVE|61099|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543
-P Arkoban Hall|QID|61099|ACTIVE|61099|M|38.11,47.10|Z|Torghast - Entrance!Instance|N|Click on the Wayfinder to telport into Arkoban Hall of Torghast.|
+P Torghast, Tower of the Damned|ACTIVE|61099|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
+P Arkoban Hall|ACTIVE|61099|M|38.11,47.10|Z|Torghast - Entrance!Instance|N|Click on the Wayfinder to telport into Arkoban Hall of Torghast.|
 N Anima Hoard|ACTIVE|61099|M|44.05,11.09|Z|Torghast!Instance1765|NC|N|Click on the Anima Hoard at the entrance.|AP|IZ|1765|
 N Soul Remnant|ACTIVE|61099|M|46.83,13.90|Z|Torghast!Instance1765|NC|N|Click on the cage to free the soul and let him empower you.|BUFF|324717|IZ|1765|
 N Soul Remnant|ACTIVE|61099|M|51.47,21.57|Z|Torghast!Instance1765|NC|N|Click to free the soul and let him empower you.|BUFF|324717<2|IZ|1765|
@@ -25,14 +25,14 @@ C The Search for Baine|QID|61099|M|47.82,49.42|Z|Torghast!Instance1769|QO|3|N|Ma
 A Prison of the Forgotten|QID|60267|U|178585|M|PLAYER|Z|Torghast!Instance1769|N|Make sure you loot the Forgotten Key. Should AutoAccept.|
 C The Search for Baine|QID|61099|M|34.88,56.24|Z|Torghast!Instance1769|QO|4|N|Click on Baine to free him.|
 P Exit|ACTIVE|61099|M|35.22,41.41|Z|Torghast!Instance1769|N|Make your way to the exit.|IZ|1769|
-P The Maw|QID|61099|ACTIVE|61099|M|10.43,47.15|Z|Torghast - Entrance!Instance|N|Click on the doors to exit Torghast.|IZ|1911|
+P The Maw|ACTIVE|61099|M|10.43,47.15|Z|Torghast - Entrance!Instance|N|Click on the doors to exit Torghast.|IZ|1911|
 P Oribos|ACTIVE|61099|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|
 T The Search for Baine|QID|61099|M|39.95,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
 A Explore Torghast|QID|62932|PRE|61099|M|39.95,68.61|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|
 P Ring of Transference|ACTIVE|62932|M|52.06,57.87|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|IZ|1670|
-P The Maw|QID|62932|ACTIVE|62932|M|45.87,51.55|Z|Ring of Transference@Oribos|N|Jump into the portal to The Maw.|IZ|1671|
+P The Maw|ACTIVE|62932|M|45.87,51.55|Z|Ring of Transference@Oribos|N|Jump into the portal to The Maw.|IZ|1671|
 C Prison of the Forgotten|QID|60267|M|46.91,41.70|Z|The Maw|QO|1|CHAT|N|Speak with Ve'nari.|
-P Torghast, Tower of the Damned|QID|62932|ACTIVE|62932|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
+P Torghast, Tower of the Damned|ACTIVE|62932|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
 C Prison of the Forgotten|QID|60267|M|16.00,62.49|Z|Torghast - Entrance!Instance|QO|2|NC|N|Search Torghast's antechamber for a Lock.|
 T Prison of the Forgotten|QID|60267|M|16.00,62.49|Z|Torghast - Entrance!Instance|N|Click on the Door to turn in quest.|
 P The Runecarver's Oubliette|ACTIVE|60267|M|15.93,61.04|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|IZ|1911|
@@ -40,7 +40,7 @@ A Deep Within|QID|60268|PRE|60267|M|50.36,54.08|Z|The Runecarver!Instance|N|From
 C Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver!Instance|QO|1|CHAT|N|Speak with Runecarver to hear is his story.|
 T Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver!Instance|N|To Runecarver.|
 A Reawakening|QID|60269|PRE|60268|M|50.36,54.08|Z|The Runecarver!Instance|N|From Runecarver.|
-P Ve'nari's Refuge|QID|60269|ACTIVE|60269|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
+P Ve'nari's Refuge|ACTIVE|60269|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
 C Reawakening|QID|60269|M|38.52,28.80|Z|The Maw|N|Kill Odalrik and loot the Runecarver's Memory.|
 P Torghast, Tower of the Damned|ACTIVE|60269|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
 P The Runecarver's Oubliette|ACTIVE|60269|M|15.93,61.04|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|IZ|1911|
@@ -149,8 +149,8 @@ T Into the Reservoir|QID|62891|M|40.03,56.78|Z|The Roots@Heart of the Forest!Dun
 A Recover the Lost|QID|62892|M|40.03,56.78|Z|The Roots@Heart of the Forest!Dungeon|N|From Zayhad, The Builder.|COV|Night Fae|
 T Recover the Lost|QID|62892|M|34.40,43.73|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
 A Do What We Cannot|QID|62893|M|34.40,43.73|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|COV|Night Fae|
-F Oribos|QID|62893|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
-P Cocyrus|QID|62893|ACTIVE|62843|M|46.98,51.57|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|COV|Night Fae|
+F Oribos|ACTIVE|62893|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
+P Cocyrus|ACTIVE|62893|M|46.98,51.57|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|COV|Night Fae|
 T Do What We Cannot|QID|62893|M|46.81,41.62|Z|The Maw|N|To Ve'nari.|COV|Night Fae|
 A Setting the Ground Rules|QID|62882|PRE|62893|M|46.92,41.69|Z|The Maw|N|From Ve'nari.|COV|Night Fae|
 C Setting the Ground Rules|QID|62882|M|46.90,41.68|Z|The Maw|CHAT|N|Speak with Ve'nari to set some ground rules.|COV|Night Fae|
@@ -179,7 +179,7 @@ C Hopeful News|QID|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to O
 T Hopeful News|QID|62837|M|39.94,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Night Fae|
 A Flutterback|QID|62894|M|40.31,68.69|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|62837|COV|Night Fae|
 P Ring of Transference|ACTIVE|62894|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|COV|Night Fae|
-F Refugee Camp|QID|62894|M|60.59,68.98|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi.|COV|Night Fae|
+F Refugee Camp|ACTIVE|62894|M|60.59,68.98|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi.|COV|Night Fae|
 T Flutterback|QID|62894|M|34.14,43.99|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
 A Recovered Souls|QID|62897|M|34.14,43.99|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|PRE|62984|COV|Night Fae|
 T Recovered Souls|QID|62897|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder.|COV|Night Fae|
@@ -209,7 +209,7 @@ T The Highlord Calls|QID|63030|M|40.05,68.33|Z|Ring of Fates@Oribos|N|To Highlor
 
 ;Daughter of the Night Warrior
 A Daughter of the Night Warrior|QID|59179|M|44.22,39.33|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|62899^63006|COV|Night Fae|
-F Oribos|QID|59179|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
+F Oribos|ACTIVE|59179|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
 P Ring of Fates|ACTIVE|59179|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Fates.|COV|Night Fae|
 C Daughter of the Night Warrior|QID|59179|M|43.23,64.00|Z|Ring of Fates@Oribos|N|Shandris Feathermoon found in Oribos|COV|Night Fae|
 T Daughter of the Night Warrior|QID|59179|M|39.33,67.22|Z|Ring of Fates@Oribos|N|To Shandris Feathermoon.|COV|Night Fae|
@@ -373,7 +373,7 @@ T Into the Flame|QID|61076|M|45.25,45.80|Z|Drustvar|N|To Ulfar.|COV|Night Fae|
 A Kivarr the Thornspeaker|QID|61102|M|45.25,45.80|Z|Drustvar|N|From Ulfar.|PRE|61076|COV|Night Fae|
 T Kivarr the Thornspeaker|QID|61102|M|51.09,80.63|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lord Herne.|COV|Night Fae|
 A Kivarr's Den|QID|61113|M|51.09,80.63|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lord Herne.|PRE|61102|COV|Night Fae|
-F Claw's Edge|QID|62893|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
+F Claw's Edge|ACTIVE|62893|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
 C Kivarr's Den|QID|61113|M|46.04,56.67|Z|Ardenweald!The Shadowlands|QO|1|N|1/1 Speak with Ara'lon|COV|Night Fae|
 C Kivarr's Den|QID|61113|M|43.60,69.20|Z|Ardenweald!The Shadowlands|QO|2|N|1/1 Meet Ara'lon at Eventide Grove|COV|Night Fae|
 T Kivarr's Den|QID|61113|M|43.68,69.04|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
@@ -397,7 +397,7 @@ C Nox Root|QID|61703|M|39.20,69.74|Z|Ardenweald!The Shadowlands|N|12/12 Nox Root
 H Heart of the Forest|ACTIVE|61703|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Use your hearth or otherwise make your back to Heart of the Forest.|COV|Night Fae|
 T Nox Root|QID|61703|M|46.18,56.37|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 A Witch's Satchel|QID|61709|M|46.17,56.38|Z|Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61703|COV|Night Fae|
-F Root-Home|QID|62893|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
+F Root-Home|QID|62893|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|  ;  QID?  does this need to be changed?
 A The Broken Spear|QID|61710|M|33.88,54.59|Z|Ardenweald!The Shadowlands|N|On the ground with a big ? over it. Be aware this Area is full of elites.|PRE|61703|COV|Night Fae|
 C Witch's Satchel|QID|61709|M|32.03,53.56|Z|Ardenweald!The Shadowlands|QO|1|N|1/1 Witch's Satchel, Drops from Oakheart NightScreamer this Mob is elite.|COV|Night Fae|
 H Heart of the Forest|ACTIVE|61709|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Use your hearth or otherwise make your back to the Heart of the Forest, there is a flight master at Root-Home aswell.|COV|Night Fae|
@@ -415,7 +415,7 @@ C Containing the Night|QID|58445|M|43.99,38.76|Z|The Trunk@Heart of the Forest!D
 T Containing the Night|QID|58445|M|43.99,38.76|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
 A Tracker Tracking|QID|58446|PRE|58445|M|43.99,38.76|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|
 C Tracker Tracking|QID|58446|M|39.40,70.07|Z|The Trunk@Heart of the Forest!Dungeon|CHAT|N|Speak with Lord Herne. He is wandering around the training yard.|COV|Night Fae|
-F Root-Home|QID|58446|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
+F Root-Home|ACTIVE|58446|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
 T Tracker Tracking|QID|58446|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|To Reldorn.|COV|Night Fae|
 A Home of the Tirnenn|QID|59258|PRE|58446|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|From Reldorn.|COV|Night Fae|
 C Home of the Tirnenn|QID|59258|M|32.46,46.65|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Run down the road towards Tirna Scithe.|COV|Night Fae|
@@ -433,12 +433,12 @@ C Monster Hunting|QID|58447|M|24.35,48.03|Z|Ardenweald!The Shadowlands|QO|3|NC|N
 T Monster Hunting|QID|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
 A Acid Reflux|QID|58449|PRE|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|
 A Anima Instincts|QID|58450|PRE|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|
-F Claw's Edge|QID|58449|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Tishereenelee is the flightmaster.|COV|Night Fae|
+F Claw's Edge|ACTIVE|58449|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Tishereenelee is the flightmaster.|COV|Night Fae|
 C Acid Reflux|QID|58449|M|51.28,71.19|Z|Ardenweald!The Shadowlands|S|NC|N|Use the "[color=40C7EB]Pacify Gorm[/color]" button to "Pacify" the Gorm, pick up the Digestive leftovers.|EAB|COV|Night Fae|
 C Anima Instincts|QID|58450|M|51.28,71.19|Z|Ardenweald!The Shadowlands|N|The wildseed are all over the place in this location.|COV|Night Fae|
 C Anima Instincts|QID|58450|M|51.28,78.93|Z|Ardenweald!The Shadowlands|N|The wildseed are all over the place in this location.|COV|Night Fae|
 C Acid Reflux|QID|58449|M|51.70,79.18|Z|Ardenweald!The Shadowlands|QO|2|US|N|Bulging Digestive Sac.|COV|Night Fae|
-F Root-Home|ACTIVE|50599|M|51.30,71.31|Z|Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Root-Home.|COV|Night Fae|
+F Root-Home|ACTIVE|50599|M|51.30,71.31|Z|Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Root-Home.|COV|Night Fae| ; IS ACTIVE RIGHT?
 T Acid Reflux|QID|58449|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|To Reldorn.|COV|Night Fae|
 T Anima Instincts|QID|58450|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|To Reldorn.|COV|Night Fae|
 A Becoming the Hunt|QID|59721|PRE|58449&58450|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|From Reldorn.|COV|Night Fae|
@@ -484,7 +484,7 @@ A Tracking a Wild God|QID|59822|PRE|59805|M|44.85,41.02|Z|The Maw|N|From Unknown
 C Tracking a Wild God|QID|59822|M|42.71,43.87|Z|The Maw|QO|1|NC|N|First clue found.|COV|Night Fae|
 C Tracking a Wild God|QID|59822|M|35.63,55.95|Z|The Maw|QO|2|NC|N|Second clue found.|COV|Night Fae|
 C Tracking a Wild God|QID|59822|M|37.34,66.55|Z|The Maw|QO|3|NC|N|Wild god rescued.|COV|Night Fae|
-R Face of Oblivion|QID|59822|ACTIVE|59822|M|40.85,64.33|Z|The Maw|N|Make your way to the Face of Oblivion.|COV|Night Fae|
+R Face of Oblivion|ACTIVE|59822|M|40.85,64.33|Z|The Maw|N|Make your way to the Face of Oblivion.|COV|Night Fae|
 C Tracking a Wild God|QID|59822|M|40.86,64.40|Z|The Maw|QO|4|CHAT|N|Ashamane absorbed into the soulkeeper crystal.|COV|Night Fae|
 T Tracking a Wild God|QID|59822|M|40.89,64.32|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Loa Rescue|QID|59824|PRE|59822|M|40.89,64.32|Z|The Maw|N|From Unknown.|COV|Night Fae|
@@ -549,9 +549,9 @@ T Drust and Ashes|QID|60108|M|50.62,30.89|Z|The Canopy@Heart of the Forest!Dunge
 
 T Report to Adrestes|QID|63211|PRE|57878|M|36.67,64.20|Z|Ring of Fates@Oribos|N|To Polemarch Adrestes.|COV|Kyrian|  ; not sure if this is LEAD to next quest, but given once you turned in 57878.
 A Among the Kyrian|QID|60491|PRE|57878|M|36.50,64.50|Z|Ring of Fates@Oribos|N|From Polemarch Adrestes.|COV|Kyrian|
-P Ring of Transference|QID|60491|ACTIVE|60491|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Kyrian|
-F Hero's Rest|QID|60491|ACTIVE|60491|M|60.50,68.12|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Hero's Rest.|COV|Kyrian|
-P Firstborne's Bounty|QID|60491|ACTIVE|60491|M|53.15,45.16|Z|Bastion!The Shadowlands|N|Take the portal to Firstborne's Bounty.|COV|Kyrian|
+P Ring of Transference|ACTIVE|60491|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Kyrian|
+F Hero's Rest|ACTIVE|60491|M|60.50,68.12|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Hero's Rest.|COV|Kyrian|
+P Firstborne's Bounty|ACTIVE|60491|M|53.15,45.16|Z|Bastion!The Shadowlands|N|Take the portal to Firstborne's Bounty.|COV|Kyrian|
 T Among the Kyrian|QID|60491|M|56.73,31.46|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|
 A A Proper Reception|QID|60492|PRE|60491|M|56.73,31.46|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|COV|Kyrian|
 C A Proper Reception|QID|60492|M|56.73,31.46|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak with Polemarch Adrestes.|COV|Kyrian|
@@ -1417,7 +1417,7 @@ T Blackbale Betrayers|QID|58388|M|46.45,51.49|Z|Revendreth|N|To The Accuser.|COV
 T Maldraxxian Weapons|QID|58389|M|46.45,51.49|Z|Revendreth|N|To The Accuser.|COV|Venthyr|
 T There's Always a Paper Trail|QID|58518|M|46.45,51.49|Z|Revendreth|N|To The Accuser.|COV|Venthyr|
 A Reconnaissance... for my, uh, Recovery|QID|58391|PRE|58388&58389&58518|M|46.48,51.61|Z|Revendreth|N|From Kael'thas Sunstrider.|COV|Venthyr|
-F Darkhaven|QID|58391|ACTIVE|58391|M|38.95,49.33|Z|Revendreth|N|Head to the flightmaster and take a flight to Darkhaven.|COV|Venthyr|
+F Darkhaven|ACTIVE|58391|M|38.95,49.33|Z|Revendreth|N|Head to the flightmaster and take a flight to Darkhaven.|COV|Venthyr|
 R Catacombs|ACTIVE|58391|M|61.29,59.72|Z|Revendreth|CC|N|Make your way to the Catacombs in Darkhaven.|COV|Venthyr|
 C Reconnaissance... for my, uh, Recovery|QID|58391|M|61.19,60.40|Z|Revendreth|QO|1|NC|N|Run down the stairs and then click on the door.|COV|Venthyr|
 C Reconnaissance... for my, uh, Recovery|QID|58391|M|61.52,60.15|Z|Revendreth|QO|2|V|N|Click on the carriage to hide and go for a ride.|COV|Venthyr|
@@ -1529,7 +1529,7 @@ C Taking The Seat|QID|58609|M|51.28,20.15|Z|Seat of the Primus!Dungeon|QO|2|NC|N
 T Taking The Seat|QID|58609|M|49.52,21.86|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Welcome To Our House|QID|59556|PRE|58609|M|49.52,21.86|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
 C Welcome To Our House|QID|59556|M|49.52,21.86|Z|Seat of the Primus!Dungeon|QO|1|CHAT|N|Speak with Baroness Draka.|COV|Necrolord|
-h Seat of the Primus|QID|59556|M|47.02,29.95|Z|Seat of the Primus!Dungeon|N|At Tapani Nightwish.|COV|Necrolord|
+h Seat of the Primus|QID|59556|M|47.02,29.95|Z|Seat of the Primus!Dungeon|N|At Tapani Nightwish.|COV|Necrolord| ; dupe?
 C Welcome To Our House|QID|59556|M|49.17,41.80|Z|Seat of the Primus!Dungeon|QO|2|NC|N|Follow Baroness Draka.|COV|Necrolord|
 C Welcome To Our House|QID|59556|M|49.61,42.27|Z|Seat of the Primus!Dungeon|QO|3|NC|N|Stand Before Draka.|COV|Necrolord|
 C Welcome To Our House|QID|59556|M|49.67,42.26|Z|Seat of the Primus!Dungeon|QO|4|NC|N|Use Action Ability "[color=40C7EB]Raise Weapon[/color]" to join the Necrolord Covenant.|EAB|COV|Necrolord|
@@ -1546,7 +1546,7 @@ T Glorious Ambition|QID|62834|M|52.73,38.34|Z|Seat of the Primus!Dungeon|N|To Ar
 A A Call to Service|QID|62835|PRE|62834|M|52.73,38.34|Z|Seat of the Primus!Dungeon|N|From Arkadia Moa.|COV|Necrolord|
 T A Call to Service|QID|62835|M|47.66,28.63|Z|Seat of the Primus!Dungeon|N|To Sergeant Romark.|COV|Necrolord|
 A A Calling in Maldraxxus|QID|62694|PRE|62835|M|47.66,28.63|Z|Seat of the Primus!Dungeon|N|From Sergeant Romark. Even though this is flagged as a daily, it is required.|COV|Necrolord|
-h Seat of the Primus|ACTIVE|62694|M|46.83,29.97|Z|Seat of the Primus!Dungeon|N|At Tapani Nightwish. I would suggest setting your hearthstone here to save a lot of time if you're gonna working on Covenant.|COV|Necrolord|
+h Seat of the Primus|ACTIVE|62694|M|46.83,29.97|Z|Seat of the Primus!Dungeon|N|At Tapani Nightwish. I would suggest setting your hearthstone here to save a lot of time if you're gonna working on Covenant.|COV|Necrolord| ; dupe?
 C A Calling in Maldraxxus|QID|62694|Z|Maldraxxus|QO|1|NC|N|Complete 3 World Quests in Maldraxxus.|COV|Necrolord|
 H Seat of the Primus|ACTIVE|59703|M|PLAYER|Z|Maldraxxus|N|Use your Hearthstone back to the Seat of the Primus.|COV|Necrolord|
 T A Calling in Maldraxxus|QID|62694|M|47.64,28.72|Z|Seat of the Primus!Dungeon|N|To Sergeant Romark.|COV|Necrolord|
@@ -1559,8 +1559,8 @@ T Into the Reservoir|QID|62840|M|52.77,38.25|Z|Seat of the Primus!Dungeon|N|To A
 A Opportunity Strikes|QID|61397|PRE|62840|M|52.77,38.25|Z|Seat of the Primus!Dungeon|N|From Arkadia Moa.|COV|Necrolord|
 T Opportunity Strikes|QID|61397|M|46.58,42.44|Z|Seat of the Primus!Dungeon|N|To Osbourne Black.|COV|Necrolord|
 A The Soul Contact|QID|62843|PRE|61397|M|46.58,42.44|Z|Seat of the Primus!Dungeon|N|From Osbourne Black.|COV|Necrolord|
-F Ring of Transference|QID|62843|ACTIVE|62843|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Necrolord|
-P Cocyrus|QID|62843|ACTIVE|62843|M|46.98,51.57|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|COV|Necrolord|
+F Ring of Transference|ACTIVE|62843|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Necrolord|
+P Cocyrus|ACTIVE|62843|M|46.98,51.57|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|COV|Necrolord|
 T The Soul Contact|QID|62843|M|46.92,41.69|Z|The Maw|N|To Ve'nari.|COV|Necrolord|
 A Setting the Ground Rules|QID|62882|PRE|62843|M|46.92,41.69|Z|The Maw|N|From Ve'nari.|COV|Necrolord|
 C Setting the Ground Rules|QID|62882|M|46.90,41.68|Z|The Maw|CHAT|N|Speak with Ve'nari to set some ground rules.|COV|Necrolord|
@@ -1588,7 +1588,7 @@ P Oribos|ACTIVE|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Orib
 C Hopeful News|QID|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Necrolord|
 T Hopeful News|QID|62837|M|39.94,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Necrolord|
 A Return to Draka|QID|62844|M|39.95,68.64|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|62837|COV|Necrolord|
-H Seat of the Primus|QID|62844|ACTIVE|62844|M|40.25,68.08|Z|Ring of Fates@Oribos|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
+H Seat of the Primus|ACTIVE|62844|M|40.25,68.08|Z|Ring of Fates@Oribos|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
 T Return to Draka|QID|62844|M|49.78,50.74|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Bringing It All Together|QID|62845|PRE|62844|M|49.78,50.74|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
 T Bringing It All Together|QID|62845|M|52.75,38.24|Z|Seat of the Primus!Dungeon|N|To Arkadia Moa.|COV|Necrolord|
@@ -1658,7 +1658,7 @@ A See What You've Done|QID|61323|PRE|61335&57644&61252|M|49.73,17.84|Z|Maldraxxu
 C See What You've Done|QID|61323|M|50.37,15.69|Z|Maldraxxus|N|Kill Gorgantus the Gutter.|COV|Necrolord|
 T See What You've Done|QID|61323|M|50.20,15.56|Z|Maldraxxus|N|To Baroness Vashj.|COV|Necrolord|
 A The Impossible Plan|QID|57648|PRE|61323|M|50.72,15.57|Z|Maldraxxus|N|From Whisperer Vyn.|COV|Necrolord|
-H Seat of the Primus|QID|57648|ACTIVE|57648|M|50.72,15.57|Z|Maldraxxus|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
+H Seat of the Primus|ACTIVE|57648|M|50.72,15.57|Z|Maldraxxus|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
 T The Impossible Plan|QID|57648|M|49.74,50.75|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 
 ; Chapter 3
@@ -1758,7 +1758,7 @@ C All I Ever Will Be|QID|59921|M|44.73,64.44|Z|Bastion!The Shadowlands|QO|3|NC|N
 C All I Ever Will Be|QID|59921|M|44.73,64.43|Z|Bastion!The Shadowlands|QO|4|N|Destroy Alexandros's Burden.|COV|Necrolord|
 T All I Ever Will Be|QID|59921|M|46.47,62.94|Z|Bastion!The Shadowlands|N|To Xandria.|COV|Necrolord|
 A Do Not Forget|QID|59922|PRE|59921|M|46.47,62.94|Z|Bastion!The Shadowlands|N|From Xandria.|COV|Necrolord|
-H Seat of the Primus|QID|59922|ACTIVE|59922|M|46.47,62.94|Z|Bastion!The Shadowlands|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
+H Seat of the Primus|ACTIVE|59922|M|46.47,62.94|Z|Bastion!The Shadowlands|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
 T Do Not Forget|QID|59922|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A The Golden Dawn|QID|59894|PRE|59922|M|48.97,51.67|Z|Seat of the Primus!Dungeon|N|From Alexandros Mograine.|COV|Necrolord|
 P Bleak Redoubt|ACTIVE|59894|M|58.83,23.03|Z|Seat of the Primus!Dungeon|N|Take the gate to Bleak Redoubt.|COV|Necrolord|
@@ -1863,7 +1863,7 @@ C It's Treason, Then|QID|58608|M|78.81,62.88|Z|Revendreth|QO|1|N|Kill Lady Ouix'
 C It's Treason, Then|QID|58608|M|77.98,62.26|Z|Revendreth|QO|2|NC|N|Click on the chest to loot the Pauldrons of Imperium.|COV|Necrolord|
 T It's Treason, Then|QID|58608|M|78.12,62.18|Z|Revendreth|N|To Baroness Draka.|COV|Necrolord|
 A Pauldrons of Imperium|QID|58624|PRE|58608|M|78.12,62.18|Z|Revendreth|N|From Baroness Draka.|COV|Necrolord|
-H Seat of the Primus|QID|58624|ACTIVE|58624|M|78.12,62.18|Z|Revendreth|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
+H Seat of the Primus|ACTIVE|58624|M|78.12,62.18|Z|Revendreth|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
 C Pauldrons of Imperium|QID|58624|M|49.67,54.73|Z|Seat of the Primus!Dungeon|NC|N|Click on the Pauldrons of Imperium to return them to the Primus statue.|COV|Necrolord|
 T Pauldrons of Imperium|QID|58624|M|49.75,50.53|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 
@@ -1980,7 +1980,7 @@ C Speak to General Draven|M|68.19,29.76|Z|Maldraxxus!Instance1689|CHAT|SO|7;1|N|
 C Defeat Kel'Thuzad|M|74.22,33.64|Z|Maldraxxus!Instance1689|SO|7;2|N|Defeat Kel'Thuzad|COV|Necrolord|
 C Listen to Margrave Sin'dane|M|74.22,33.64|Z|Maldraxxus!Instance1689|SO|8|N|Listen to Margrave Sin'dane|COV|Necrolord|
 C The Third Fall of Kel'thuzad|QID|59020|M|74.22,33.64|Z|Maldraxxus!Instance1689|QO|2|NC|N|Remove Kel'Thuzad from Maldraxxus.|COV|Necrolord|
-H Seat of the Primus|QID|59020|ACTIVE|59020|M|74.06,33.40|Z|Maldraxxus!Instance1689|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
+H Seat of the Primus|ACTIVE|59020|M|74.06,33.40|Z|Maldraxxus!Instance1689|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
 C The Third Fall of Kel'thuzad|QID|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|QO|3|NC|N|Return to Baroness Draka at the Seat of the Primus.|COV|Necrolord|
 T The Third Fall of Kel'thuzad|QID|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Staff of the Primus|QID|62406|PRE|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
