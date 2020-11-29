@@ -114,8 +114,33 @@ T On The Road Again|QID|56942|M|67.50,68.49|Z|Revendreth|N|To Lord Chamberlain.|
 A Rebels on the Road|QID|56955|M|67.50,68.49|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|PRE|56942|MS|
 A Anima Attrition|QID|58433|M|67.50,68.49|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|PRE|56942|MS|
 A Not My Job|QID|60509|M|67.54,68.53|Z|Revendreth|N|From Rendle.|RANK|2|ACTIVE|-62778|
+
+; Sidequest Storyline - Dirty Jobs - MS
+T Not My Job|QID|60509|M|72.61,73.20|Z|Revendreth|N|To Rendle.|MS|
+A It's a Dirty Job|QID|57471|M|72.61,73.20|Z|Revendreth|N|From Rendle.|RANK|2|MS|
+C It's a Dirty Job|QID|57471|M|74.28,74.52|Z|Revendreth|NC|S|N|Click the Filthy Rubble to throw them in the pond.|MS|
+$ Forgotten Fishing Pole|QID|62196|M|73.68,75.40|Z|Revendreth|N|Pick up the fishing pole, to catch Muckribbon.|ITEM|180993|MS|
+C It's a Dirty Job|QID|57471|M|74.28,74.52|Z|Revendreth|NC|US|N|Click the Filthy Rubble to throw them in the pond.|MS|
+T It's a Dirty Job|QID|57471|M|72.61,73.20|Z|Revendreth|N|To Rendle.|MS|
+A Dredger Duty|QID|57474|M|72.53,73.20|Z|Revendreth|N|From Rendle.|PRE|57471|RANK|2|MS|
+C Dredger Duty|QID|57474|M|72.49,73.62|Z|Revendreth|QO|1|NC|N|Right Click on the Ripened Dredger near the water.|MS|
+C Dredger Duty|QID|57474|M|73.96,72.93|Z|Revendreth|QO|2|NC|N|Run over to the rubble pile and use the Action Ability "[color=40C7EB]Throw Dredger[/color]" to throw it at the rubble pile.|EAB|MS|
+C Dredger Duty|QID|57474|M|74.07,72.92|Z|Revendreth|QO|3|N|Kill the enemies that attack the dredger while he's digging.|MS|
+C Dredger Duty|QID|57474|M|74.18,73.02|Z|Revendreth|QO|4|NC|N|Click on the Sack of Supplies to find the Gem of Binding.|MS|
+T Dredger Duty|QID|57474|M|72.53,73.20|Z|Revendreth|N|To Rendle.|MS|
+A We're Gonna Need a Bigger Dredger|QID|57477|M|72.53,73.20|Z|Revendreth|N|From Rendle.|PRE|57474|RANK|2|MS|
+C We're Gonna Need a Bigger Dredger|QID|57477|M|72.69,73.66|Z|Revendreth|NC|N|Sit back and wait for the Ritual to Complete.|MS|
+T We're Gonna Need a Bigger Dredger|QID|57477|M|72.84,73.88|Z|Revendreth|N|To Bootus.|MS|
+A Running a Muck|QID|57481|M|72.84,73.88|Z|Revendreth|N|From Bootus.|PRE|57477|RANK|2|MS|
+C Running a Muck|QID|57481|M|72.84,73.88|Z|Revendreth|QO|1|V|N|Hop onto Bootus.|MS|
+C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|Kill Devourers and Mites.|S|MS|
+C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|3|N|Kill Riftkeepers to close rifts.\n1: Cone Damage\n2: AoE and Stun.\n3: Speed increase w/Damage.\n4: Heal.|MS|
+C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|Kill Devourers and Mites.\n1: Cone Damage\n2: AoE and Stun.\n3: Speed increase w/Damage.\n4: Heal.|US|MS|
+C Running a Muck|QID|57481|M|75.50,76.28|Z|Revendreth|QO|4|N|Kill Charthox.\n1: Cone Damage\n2: AoE and Stun.\n3: Speed increase w/Damage.\n4: Heal.|MS|
+T Running a Muck|QID|57481|M|72.53,73.20|Z|Revendreth|N|To Rendle.|MS|
+
+; Welcome to Revendreth Storyline - Continued
 C Rebels on the Road|QID|56955|M|66.4,64.4|Z|Revendreth|N|Kill the Stoneborn Rebels.|S|MS|
-A Not My Job|QID|60509|M|67.55,68.47|Z|Revendreth|N|From Rendle.|RANK|2|ACTIVE|-62778|
 A Words Have Power|QID|58272|M|67.74,67.66|Z|Revendreth|N|From Join the Rebellion poster.|RANK|2|ACTIVE|-62778|
 C Words Have Power|QID|58272|M|67.74,67.66|Z|Revendreth|S|NC|N|Collect the pamplets stuck to the wall in the area.|ACTIVE|-62778|
 C Anima Attrition|QID|58433|M|68.76,63.73|Z|Revendreth|NC|N|Click on the Anima Canister to collect it.|MS|
@@ -124,8 +149,8 @@ C Rebels on the Road|QID|56955|M|66.4,64.4|Z|Revendreth|N|Kill the Stoneborn Reb
 C Words Have Power|QID|58272|M|67.27,66.00|Z|Revendreth|US|NC|N|Finish collecting the pamplets stuck to the wall in the area.|ACTIVE|-62778|
 T Rebels on the Road|QID|56955|M|66.87,64.72|Z|Revendreth|N|To Lord Chamberlain.|MS|
 T Anima Attrition|QID|58433|M|66.87,64.72|Z|Revendreth|N|To Lord Chamberlain.|MS|
-A To Darkhaven|QID|56978|M|66.87,64.72|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|PRE|56955&58433|MS|
 T Words Have Power|QID|58272|M|66.87,64.72|Z|Revendreth|N|To Lord Chamberlain.|ACTIVE|-62778|
+A To Darkhaven|QID|56978|M|66.87,64.72|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|PRE|56955&58433|MS|
 C To Darkhaven|QID|56978|M|66.87,64.72|Z|Revendreth|QO|1|CHAT|N|Tell the Lord Chamberlain you are ready.|MS|
 C To Darkhaven|QID|56978|M|63.4,62.2|Z|Revendreth|QO|2|N|Walk with Lord Chamberlain into Darkhaven while defending yourself from attackers.|MS|
 T To Darkhaven|QID|56978|M|63.27,62.13|Z|Revendreth|N|To Lord Chamberlain.|MS|
@@ -135,6 +160,7 @@ A The Stoneborn|QID|57174|M|63.27,62.13|Z|Revendreth|N|From Lord Chamberlain.|LV
 C The Stoneborn|QID|57174|M|63.25,62.12|Z|Revendreth|QO|1|NC|N|Click on the Anima Cage at Lord Chamberlain feet.|MS|
 C The Stoneborn|QID|57174|Z|Revendreth|QO|2|NC|N|Click on the Stoneborn Guardians sprawled around the town.|MS|
 T The Stoneborn|QID|57174|M|61.34,63.8|Z|Revendreth|N|To Mistress Mihaela.|MS|
+A A Plea to the Harvesters|QID|58654|M|61.34,63.8|Z|Revendreth|N|From Mistress Mihaela.|LVL|57|PRE|57174|MS|
 A Bring Out Your Tithe|QID|60176|M|61.34,63.8|Z|Revendreth|N|From Mistress Mihaela.|RANK|2|
 C Bring Out Your Tithe|QID|60176|M|61.04,60.57|Z|Revendreth|NC|N|Collect the tithes of anima by interacting with villagers, and clicking on droplets on the ground.|S|
 A Reason for the Treason|QID|60177|M|62.26,61.33|Z|Revendreth|N|From Lajos.|RANK|2|
@@ -148,24 +174,10 @@ A And Then There Were None|QID|60178|M|62.26,61.33|Z|Revendreth|N|From Lajos.|PR
 C And Then There Were None|QID|60178|M|63.21,60.35|Z|Revendreth|QO|2|CHAT|N|Speak with Ilka to invite her to the Crypt.|
 C Bring Out Your Tithe|QID|60176|M|61.04,60.57|Z|Revendreth|NC|N|Collect the tithes of anima by interacting with villagers, and clicking on dropplets on the ground.|US|
 T Bring Out Your Tithe|QID|60176|M|61.34,63.8|Z|Revendreth|N|To Mistress Mihaela.|
-A A Plea to the Harvesters|QID|58654|M|61.34,63.8|Z|Revendreth|N|From Mistress Mihaela.|LVL|57|PRE|57174|MS|
 A WANTED: The Pale Doom|QID|60279|M|62.20,63.45|Z|Revendreth|LVL|60|IZ|The Sinposium|N|From WANTED Poster.|ELITE|RANK|2|
-C And Then There Were None|QID|60178|M|63.21,60.35|Z|Revendreth|QO|1|CHAT|N|Speak with Samu to invite him to the Crypt.|
+C And Then There Were None|QID|60178|M|61.81,64.36|Z|Revendreth|QO|1|CHAT|N|Speak with Samu to invite him to the Crypt.|
 C And Then There Were None|QID|60178|M|61.23,59.45|Z|Revendreth|QO|3|NC|N|Run to the Crypt and make your way down.|
 T And Then There Were None|QID|60178|M|61.28,59.77|Z|Revendreth|N|To Rahel.|
-T A Plea to the Harvesters|QID|58654|M|60.68,60.86|Z|Revendreth|N|To Lord Chamberlain.|MS|
-A The Master Awaits|QID|57178|M|60.49,60.91|Z|Revendreth|N|From General Kaal.|LVL|57|PRE|58654|MS|
-C The Master Awaits|QID|57178|M|60.27,60.8|Z|Revendreth|QO|1|V|N|Hop onto Myskia and go for a ride.|MS|
-C The Master Awaits|QID|57178|M|56.76,51.58|Z|Revendreth|QO|2|NC|N|Walk with General Kaal.|MS|
-T The Master Awaits|QID|57178|M|56.76,51.58|Z|Revendreth|N|To Lord Chamberlain.|MS|
-A The Authority of Revendreth|QID|57179|M|57.48,49.51|Z|Revendreth|N|From Sire Denathrius.|LVL|57|PRE|57178|MS|
-C The Authority of Revendreth|QID|57179|M|57.33,50.14|Z|Revendreth|QO|1|CHAT|N|Speak with the Tithelord.|MS|
-C The Authority of Revendreth|QID|57179|M|57.10,49.84|Z|Revendreth|QO|2|CHAT|N|Speak with the Fearstalker.|MS|
-C The Authority of Revendreth|QID|57179|M|57.08,49.27|Z|Revendreth|QO|3|CHAT|N|Speak with the Stonewright.|MS|
-C The Authority of Revendreth|QID|57179|M|57.26,48.95|Z|Revendreth|QO|4|CHAT|N|Speak with the Countess.|MS|
-C The Authority of Revendreth|QID|57179|M|57.26,48.95|Z|Revendreth|QO|6|NC|N|Stand in the red circle to receive your zone ability.|MS|
-T The Authority of Revendreth|QID|57179|M|57.48,49.51|Z|Revendreth|N|To Sire Denathrius.|MS|
-A I Don't Get My Hands Dirty|QID|57161|M|57.97,49.57|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|PRE|57179|MS|
 
 ; Sidequest Story -  The Duelist's Debt
 A A Curious Invitation|QID|59710|M|60.75,62.46|Z|Revendreth|N|From Dimwiddle.|RANK|2|
@@ -196,8 +208,8 @@ $ Taskmaster's Trove|QID|62199|CS|M|63.00,72.39;62.85,75.31|Z|Revendreth|N|Pick 
 C Scythe Bloom|QID|59713|M|63.10,67.96|Z|Revendreth|QO|2|NC|N|Click on Scythe Bloom to collect the Pollen.|US|
 C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|1|N|Kill Spiders until you find the Pristine Venom Gland.|US|
 T WANTED: Aggregate of Doom|QID|60277|M|58.75,69.59|Z|Revendreth|N|To Foreman Scug.|
-T A Fine Vintage|QID|59714|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|
 T Active Ingredients|QID|59713|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|
+T A Fine Vintage|QID|59714|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|
 A Message for Matyas|QID|59715|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|PRE|59713&59714|RANK|2|
 C Message for Matyas|QID|59715|M|60.31,69.19|Z|Revendreth|QO|1|CHAT|N|Ask Courier Araak to send the message.|
 C Message for Matyas|QID|59715|M|60.28,69.13|Z|Revendreth|QO|2|NC|N|Click the Bottle to poison it.|
@@ -217,7 +229,7 @@ A It's a Trap|QID|59726|M|60.25,78.69|Z|Revendreth|N|From Nadjia the Mistblade.|
 C It's a Trap|QID|59726|M|60.15,75.50|Z|Revendreth|QO|1|N|Click the gate behind you to open it and fight Taskmaster Matyas. Nadjia will join in after you engage. When the adds activate, you need to kill them and let Nadjia focus on Matyas or else they will quickly overrun you.|
 T It's a Trap|QID|59726|M|60.19,78.59|Z|Revendreth|N|To Nadjia the Mistblade.|
 R Feeders' Thicket|QID|60509|M|60.11,80.70|Z|Revendreth|V|N|Hop on the Hulking Stormborn for a ride down to a safe place on the path in Feeders' Thicket.|PRE|59726|
-R Darkheaven|QID|60509|CS|M|58.34,64.03;59.26,62.67|Z|Revendreth|N|Elevator up to Darkheaven returns you to your storyline.|ACTIVE|-62778|
+R Darkhaven|QID|60509|CS|M|58.34,64.03;59.26,62.67|Z|Revendreth|N|Elevator up to Darkheaven returns you to your storyline.|ACTIVE|-62778|
 
 ;TOF "catch up"
 R Decimated Crossroad|QID|60509|M|67.4,68.4|Z|Revendreth|N|Follow the road eastish to the Decimated Crossroad.|TOF|RANK|2|
@@ -241,40 +253,55 @@ T Parasites of Reality|QID|62780|M|65.11,63.53|Z|Revendreth|N|Bonus Objective - 
 T Words Have Power|QID|58272|M|63.22,61.79|Z|Revendreth|N|To Shadowrider Neralva.|TOF|
 
 ; Sidequest Storyline - Dirty Jobs
-T Not My Job|QID|60509|M|72.61,73.20|Z|Revendreth|N|To Rendle.|
-A It's a Dirty Job|QID|57471|M|72.61,73.20|Z|Revendreth|N|From Rendle.|RANK|2|
-C It's a Dirty Job|QID|57471|M|74.28,74.52|Z|Revendreth|NC|S|N|Click the Filthy Rubble to throw them in the pond.|
-$ Forgotten Fishing Pole|QID|62196|M|73.68,75.40|Z|Revendreth|N|Pick up the fishing pole, to catch Muckribbon.|ITEM|180993|
-C It's a Dirty Job|QID|57471|M|74.28,74.52|Z|Revendreth|NC|US|N|Click the Filthy Rubble to throw them in the pond.|
-T It's a Dirty Job|QID|57471|M|72.61,73.20|Z|Revendreth|N|To Rendle.|
-A Dredger Duty|QID|57474|M|72.53,73.20|Z|Revendreth|N|From Rendle.|PRE|57471|RANK|2|
-C Dredger Duty|QID|57474|M|72.49,73.62|Z|Revendreth|QO|1|NC|N|Right Click on the Ripened Dredger near the water.|
-C Dredger Duty|QID|57474|M|73.96,72.93|Z|Revendreth|QO|2|NC|N|Run over to the rubble pile and use the Action Ability "[color=40C7EB]Throw Dredger[/color]" to throw it at the rubble pile.|EAB|
-C Dredger Duty|QID|57474|M|74.07,72.92|Z|Revendreth|QO|3|N|Kill the enemies that attack the dredger while he's digging.|
-C Dredger Duty|QID|57474|M|74.18,73.02|Z|Revendreth|QO|4|NC|N|Click on the Sack of Supplies to find the Gem of Binding.|
-T Dredger Duty|QID|57474|M|72.53,73.20|Z|Revendreth|N|To Rendle.|
-A We're Gonna Need a Bigger Dredger|QID|57477|M|72.53,73.20|Z|Revendreth|N|From Rendle.|PRE|57474|RANK|2|
-C We're Gonna Need a Bigger Dredger|QID|57477|M|72.69,73.66|Z|Revendreth|NC|N|Sit back and wait for the Ritual to Complete.|
-T We're Gonna Need a Bigger Dredger|QID|57477|M|72.84,73.88|Z|Revendreth|N|To Bootus.|
-A Running a Muck|QID|57481|M|72.84,73.88|Z|Revendreth|N|From Bootus.|PRE|57477|RANK|2|
-C Running a Muck|QID|57481|M|72.84,73.88|Z|Revendreth|QO|1|V|N|Hop onto Bootus.|
-C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|Kill Devourers and Mites.|S|
-C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|3|N|Kill Riftkeepers to close rifts.\n1: Cone Damage\n2: AoE and Stun.\n3: Speed increase w/Damage.\n4: Heal.|
-C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|Kill Devourers and Mites.\n1: Cone Damage\n2: AoE and Stun.\n3: Speed increase w/Damage.\n4: Heal.|US|
-C Running a Muck|QID|57481|M|75.50,76.28|Z|Revendreth|QO|4|N|Kill Charthox.\n1: Cone Damage\n2: AoE and Stun.\n3: Speed increase w/Damage.\n4: Heal.|
-T Running a Muck|QID|57481|M|72.53,73.20|Z|Revendreth|N|To Rendle.|
-
-; The Accuser Storyline
+T Not My Job|QID|60509|M|72.61,73.20|Z|Revendreth|N|To Rendle.|TOF|
+A It's a Dirty Job|QID|57471|M|72.61,73.20|Z|Revendreth|N|From Rendle.|RANK|2|TOF|
+C It's a Dirty Job|QID|57471|M|74.28,74.52|Z|Revendreth|NC|S|N|Click the Filthy Rubble to throw them in the pond.|TOF|
+$ Forgotten Fishing Pole|QID|62196|M|73.68,75.40|Z|Revendreth|N|Pick up the fishing pole, to catch Muckribbon.|ITEM|180993|TOF|
+C It's a Dirty Job|QID|57471|M|74.28,74.52|Z|Revendreth|NC|US|N|Click the Filthy Rubble to throw them in the pond.|TOF|
+T It's a Dirty Job|QID|57471|M|72.61,73.20|Z|Revendreth|N|To Rendle.|TOF|
+A Dredger Duty|QID|57474|M|72.53,73.20|Z|Revendreth|N|From Rendle.|PRE|57471|RANK|2|TOF|
+C Dredger Duty|QID|57474|M|72.49,73.62|Z|Revendreth|QO|1|NC|N|Right Click on the Ripened Dredger near the water.|TOF|
+C Dredger Duty|QID|57474|M|73.96,72.93|Z|Revendreth|QO|2|NC|N|Run over to the rubble pile and use the Action Ability "[color=40C7EB]Throw Dredger[/color]" to throw it at the rubble pile.|EAB|TOF|
+C Dredger Duty|QID|57474|M|74.07,72.92|Z|Revendreth|QO|3|N|Kill the enemies that attack the dredger while he's digging.|TOF|
+C Dredger Duty|QID|57474|M|74.18,73.02|Z|Revendreth|QO|4|NC|N|Click on the Sack of Supplies to find the Gem of Binding.|TOF|
+T Dredger Duty|QID|57474|M|72.53,73.20|Z|Revendreth|N|To Rendle.|TOF|
+A We're Gonna Need a Bigger Dredger|QID|57477|M|72.53,73.20|Z|Revendreth|N|From Rendle.|PRE|57474|RANK|2|TOF|
+C We're Gonna Need a Bigger Dredger|QID|57477|M|72.69,73.66|Z|Revendreth|NC|N|Sit back and wait for the Ritual to Complete.|TOF|
+T We're Gonna Need a Bigger Dredger|QID|57477|M|72.84,73.88|Z|Revendreth|N|To Bootus.|TOF|
+A Running a Muck|QID|57481|M|72.84,73.88|Z|Revendreth|N|From Bootus.|PRE|57477|RANK|2|TOF|
+C Running a Muck|QID|57481|M|72.84,73.88|Z|Revendreth|QO|1|V|N|Hop onto Bootus.|TOF|
+C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|Kill Devourers and Mites.|S|TOF|
+C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|3|N|Kill Riftkeepers to close rifts.\n1: Cone Damage\n2: AoE and Stun.\n3: Speed increase w/Damage.\n4: Heal.|TOF|
+C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|Kill Devourers and Mites.\n1: Cone Damage\n2: AoE and Stun.\n3: Speed increase w/Damage.\n4: Heal.|US|TOF|
+C Running a Muck|QID|57481|M|75.50,76.28|Z|Revendreth|QO|4|N|Kill Charthox.\n1: Cone Damage\n2: AoE and Stun.\n3: Speed increase w/Damage.\n4: Heal.|TOF|
+T Running a Muck|QID|57481|M|72.53,73.20|Z|Revendreth|N|To Rendle.|TOF|
 f Pridefall Hamlet|QID|60514|M|70.31,81.01|Z|Revendreth|N|Grab the Flightpath from Courier Gevoraal.|TOF|RANK|2|
 $ Chest of Envious Dreams|QID|59833|M|69.28,78.08|Z|Revendreth|N|Mobs will appear and attack after you open.|ITEM|179393|ACH|14314;13|TOF|
-F Darkhaven|ACTIVE|62778^57161|M|70.35,81.16|Z|Revendreth|N|At Courier Gevoraal.|RANK|2|
+F Darkhaven|ACTIVE|62778^57161|M|70.35,81.16|Z|Revendreth|N|At Courier Gevoraal.|RANK|2|TOF|
+
+; The Master Storyline - Continued
+T A Plea to the Harvesters|QID|58654|M|60.68,60.86|Z|Revendreth|N|To Lord Chamberlain.|MS|
+A The Master Awaits|QID|57178|M|60.49,60.91|Z|Revendreth|N|From General Kaal.|LVL|57|PRE|58654|MS|
+C The Master Awaits|QID|57178|M|60.27,60.8|Z|Revendreth|QO|1|V|N|Hop onto Myskia and go for a ride.|MS|
+C The Master Awaits|QID|57178|M|56.76,51.58|Z|Revendreth|QO|2|NC|N|Walk with General Kaal.|MS|
+T The Master Awaits|QID|57178|M|56.76,51.58|Z|Revendreth|N|To Lord Chamberlain.|MS|
+A The Authority of Revendreth|QID|57179|M|57.48,49.51|Z|Revendreth|N|From Sire Denathrius.|LVL|57|PRE|57178|MS|
+C The Authority of Revendreth|QID|57179|M|57.33,50.14|Z|Revendreth|QO|1|CHAT|N|Speak with the Tithelord.|MS|
+C The Authority of Revendreth|QID|57179|M|57.10,49.84|Z|Revendreth|QO|2|CHAT|N|Speak with the Fearstalker.|MS|
+C The Authority of Revendreth|QID|57179|M|57.08,49.27|Z|Revendreth|QO|3|CHAT|N|Speak with the Stonewright.|MS|
+C The Authority of Revendreth|QID|57179|M|57.26,48.95|Z|Revendreth|QO|4|CHAT|N|Speak with the Countess.|MS|
+C The Authority of Revendreth|QID|57179|M|57.26,48.95|Z|Revendreth|QO|6|NC|N|Stand in the red circle to receive your zone ability.|MS|
+T The Authority of Revendreth|QID|57179|M|57.48,49.51|Z|Revendreth|N|To Sire Denathrius.|MS|
+A I Don't Get My Hands Dirty|QID|57161|M|57.97,49.57|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|PRE|57179|MS|
+
+; The Accuser Storyline
 C I Don't Get My Hands Dirty|QID|57161|M|64.17,49.76|Z|Revendreth|N|Kill the enemies and clear barricades.|MS|
 T I Don't Get My Hands Dirty|QID|57161|M|64.74,50.16|Z|Revendreth|N|To Echelon.|MS|
 A The Accuser's Sinstone|QID|57173|M|64.74,50.16|Z|Revendreth|N|From Echelon.|LVL|57|PRE|57161|MS|
 C The Accuser's Sinstone|QID|57173|M|64.97,49.75|Z|Revendreth|NC|N|Click on the Accuser's Sinstone to investigate it.|MS|
 T The Accuser's Sinstone|QID|57173|M|64.69,49.89|Z|Revendreth|N|To Lord Chamberlain.|MS|
 A Inquisitor Stelia's Sinstone|QID|58931|M|64.69,49.89|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|PRE|57173|MS|
-C Inquisitor Stelia's Sinstone|QID|58931|M|68.9,54.2|Z|Revendreth|QO|1|V|N|Jump into Echelon's warm loving hands.|MS|
+C Inquisitor Stelia's Sinstone|QID|58931|M|64.73,50.08|Z|Revendreth|QO|1|V|N|Jump into Echelon's warm loving hands.|MS|
 A Temel, the Sin Herald|QID|58932|M|69.57,53.88|Z|Revendreth|N|Auto-Accepted on arrival.|LVL|57|PRE|57173|MS|
 A It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|From Chiselgrump.|MS|
 C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|S|MS|
@@ -317,7 +344,294 @@ C A Lesson in Humility|QID|59232|M|53.36,63.97|Z|Revendreth|QO|1|CHAT|N|Speak wi
 C A Lesson in Humility|QID|59232|M|53.36,63.97|Z|Revendreth|QO|2|NC|N|The Accuser's judgment witnessed.|MS|
 T A Lesson in Humility|QID|59232|M|53.36,63.97|Z|Revendreth|N|To Sire Denathrius.|MS|
 
+; The Penitent Hunt Storyline
+A The Grove of Terror|QID|57098|M|53.36,63.97|Z|Revendreth|N|From Sire Denathrius.|LVL|58|PRE|59232|MS|
+T The Grove of Terror|QID|57098|M|50.61,73.84|Z|Revendreth|N|To The Fearstalker.|MS|
+A Dread Priming|QID|58916|M|50.61,73.84|Z|Revendreth|N|From The Fearstalker.|LVL|58|PRE|57098|MS|
+A Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|N|From Bounty Poster|RANK|2|ACTIVE|-62778|
+C Dread Priming|QID|58916|M|49.35,75.76|Z|Revendreth|QO|1|NC|N|Click on Houndmaster Loksey to bind him.|MS|
+C Dread Priming|QID|58916|M|50.15,75.19|Z|Revendreth|QO|2|CHAT|N|Speak to Sinreader Nicola.|MS|
+C Dread Priming|QID|58916|M|50.02,73.94|Z|Revendreth|QO|3|NC|N|Demoralize Houndmaster Loksey by walking him through the row of gargons.|MS|
+T Dread Priming|QID|58916|M|51.25,74.28|Z|Revendreth|N|To Flockmaster Sergio.|MS|
+A Alpha Bat|QID|58941|M|51.25,74.28|Z|Revendreth|N|From Flockmaster Sergio.|LVL|58|PRE|58916|MS|
+C Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|S|N|Kill bats in the area.|ACTIVE|-62778|
+C Alpha Bat|QID|58941|M|52.46,76.48|Z|Revendreth|QO|1|NC|N|Click on the Stake to bind Houndmaster Loksey to it.|MS|
+C Alpha Bat|QID|58941|M|52.46,76.48|Z|Revendreth|QO|2|N|Attack Duskterror when it flies in, down to very low health. Sergio will come and capture it.|MS|
+C Beast Control|QID|58936|M|51.25,74.28|Z|Revendreth|US|N|Kill bats in the area.|ACTIVE|-62778|
+T Beast Control|QID|58936|M|51.25,74.28|Z|Revendreth|N|To Flockmaster Sergio.|ACTIVE|-62778|
+T Alpha Bat|QID|58941|M|51.25,74.28|Z|Revendreth|N|To Flockmaster Sergio.|MS|
+A King of the Hill|QID|59014|M|51.25,74.28|Z|Revendreth|N|From Flockmaster Sergio.|LVL|58|PRE|58941|MS|
+f Wanecrypt Hill|ACTIVE|59014^62778|M|47.89,69.41|Z|Revendreth|N|At Courier Rabatur.|
+T King of the Hill|QID|59014|M|47.89,70.09|Z|Revendreth|N|To The Fearstalker.|MS|
+A Let the Hunt Begin|QID|57131|M|47.89,70.09|Z|Revendreth|N|From The Fearstalker.|LVL|58|PRE|59014|MS|
+C Let the Hunt Begin|QID|57131|M|48,70|Z|Revendreth|QO|1|NC|N|Click on Houndmaster Loksey's to siphon his anima.|MS|
+C Let the Hunt Begin|QID|57131|M|48,70|Z|Revendreth|QO|2|NC|N|Click the Hollowed Dreadbat Fang to start the hunt.|U|178994|MS|
+T Let the Hunt Begin|QID|57131|M|47.89,70.09|Z|Revendreth|N|To The Fearstalker.|MS|
+A The Penitent Hunt|QID|57136|M|47.89,70.09|Z|Revendreth|N|From The Fearstalker.|LVL|58|PRE|57131|MS|
+A Devour This|QID|57164|M|47.89,70.09|Z|Revendreth|N|From The Fearstalker.|LVL|58|PRE|57131|MS|
+C The Penitent Hunt|QID|57136|M|47.89,70.09|Z|Revendreth|QO|1|CHAT|N|Speak to the Fearstalker.|MS|
+A Hunting Trophies|QID|60514|M|48.50,68.44|Z|Revendreth|N|From Huntmaster Constantin.|RANK|2|
+A The Banewood|QID|62782|M|50.15,70.35|Z|Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-60|
+C The Banewood|QID|62782|M|50.15,70.35|Z|Revendreth|S!US|N|Kill Hostiles, interact with highlighted items.|TOF|
+C Hunting Trophies|QID|60514|M|48.50,68.44|Z|Revendreth|S|N|Kill the Fearspinners, Deathwalkers and a Hulking Doomfang.|
+C Devour This|QID|57164|M|42.8,68.2|Z|Revendreth|N|Kill Mites, Worldeaters and Thirstlurkers around.|S|MS|
+C The Penitent Hunt|QID|57136|M|50.4,61.4|Z|Revendreth|QO|2|NC|N|Click on the web to free and collect Crimelord Tiana.|MS|
+C The Penitent Hunt|QID|57136|M|44.54, 70.39|Z|Revendreth|QO|3|NC|N|Click on the trap to free and collect Yoshai the Merciless.|MS|
+C The Penitent Hunt|QID|57136|M|46.83,65.24|Z|Revendreth|QO|4|N|Kill Truulax to collect Houndmaster Loksey.|MS|
+C Devour This|QID|57164|M|42.83,68.10|Z|Revendreth|N|Kill Mites, Worldeaters and Thirstlurkers around.|US|MS|
+T The Penitent Hunt|QID|57136|M|PLAYER|Z|Revendreth|N|To The Fearstalker.|MS|
+T Devour This|QID|57164|M|PLAYER|Z|Revendreth|N|To The Fearstalker.|MS|
+A The Accuser|QID|60506|M|PLAYER|Z|Revendreth|N|From The Fearstalker.|LVL|58|PRE|57136&57164|MS|
+C The Accuser|QID|60506|M|51.49,59.90|Z|Revendreth|QO|1|NC|N|Run up the hill and wait for the dialog to finish.|MS|
+C The Accuser|QID|60506|M|51.53,59.82|Z|Revendreth|QO|2|CHAT|N|Speak with The Accuser.|MS|
+T The Accuser|QID|60506|M|51.53,59.15|Z|Revendreth|N|To The Accuser. You must use your new zone ability to reach him.|MS|
+A A Reflection of Truth|QID|57159|M|51.53,59.15|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|60506|MS|
+C A Reflection of Truth|QID|57159|M|51.52,59.00|Z|Revendreth|QO|1|NC|N|Run through the mirror.|MS|
+C A Reflection of Truth|QID|57159|M|59.35,52.90|Z|Castle Nathria!Instance|QO|2|CHAT|N|Speak with The Accuser.|MS|
+C A Reflection of Truth|QID|57159|M|59.35,52.90|Z|Castle Nathria!Instance|QO|3|N|Protect The Accuser from the waves of enemies.|MS|
+C A Reflection of Truth|QID|57159|M|65.33,52.82|Z|Castle Nathria!Instance|QO|4|NC|N|Once you get the completion for Protecting the accuser, Run back through the mirror to escape Castle Nathria.|MS|
+T A Reflection of Truth|QID|57159|M|51.53,59.15|Z|Revendreth|N|To The Accuser.|MS|
+A Dredhollow|QID|60313|M|51.53,59.15|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|57159|MS|
+$ Abandoned Curios|QID|59888|CS|M|51.06,59.14;51.85,59.54|Z|Revendreth|N|WH - Jump from 1st Coord, treasure at 2nd.|ITEM|182744|ACH|14314;16|
+C Hunting Trophies|QID|60514|M|46.83,65.24|Z|Revendreth||US|N|Finish killing spidars, bears and a hydra to collect your hunting trophies.|
+T The Banewood|QID|62782|M|50.15,70.35|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
+T Hunting Trophies|QID|60514|M|48.50,68.44|Z|Revendreth|N|To Huntmaster Constantin.|
+A Abel's Fate|QID|58996|M|48.50,68.44|Z|Revendreth|N|From Huntmaster Constantin.|RANK|2|
+A A Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|N|From Bounty Poster|RANK|2|ACTIVE|62778|
+C Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|S|N|Kill bats in the area.|
+K Packmother Soulfang|ACTIVE|58996|M|48.70,78.69|Z|Revendreth|QO|1|N|Kill the Packmother to determine Abel's Fate.|
+C Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|US|N|Kill bats in the area.|
+T Beast Control|QID|58936|M|51.25,74.28|Z|Revendreth|N|To Flockmaster Sergio.|
+T Abel's Fate|QID|58996|M|48.50,68.42|Z|Revendreth|N|To Huntmaster Constantin.|
+T Dredhollow|QID|60313|M|43.22,73.91|Z|Revendreth|N|To The Accuser.|MS|
+A Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autoaccepted when entering Dredhollow.|RANK|2|LVL|-60|ACTIVE|-62778|
+A Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autoaccepted when entering Dredhollow.|RANK|2|LVL|-60|TOF|
+A Breaking the Hopebreakers|QID|57189|M|43.20,73.84|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|60313|MS|
+A They Won't Know What Hit Them|QID|57190|M|43.20,73.85|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|60313|MS|
+A Rebel Reinforcements|QID|59209|M|43.32,74.10|Z|Revendreth|N|From General Draven.|LVL|58|PRE|60313|MS|
+C Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|S|
+C Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|S|TOF|
+C They Won't Know What Hit Them|QID|57190|M|40.26,74.21|Z|Revendreth|NC|N|Set the Rigged Anima Containers around Dredhollow.|S|MS|
+C Rebel Reinforcements|QID|59209|M|43.24,75.66;42.51,75.63|Z|Revendreth|CS|QO|1|N|Enter the Crypt, going down until you reach the open room where you click on Watchmaster Boromod to infuse him with Anima.|MS|
+C Breaking the Hopebreakers|QID|57189|M|40.26,74.21|Z|Revendreth|QO|2|N|Kill Hopebreaker Vilstav. Use the Anima Vial to deal extra damage.|U|178873|MS|
+C Rebel Reinforcements|QID|59209|M|40.14,73.14|Z|Revendreth|QO|2|NC|N|Click on Sakaa to infuse her with Anima.|MS|
+C Breaking the Hopebreakers|QID|57189|M|41.38,78.18|Z|Revendreth|QO|3|N|Kill Hopebreaker Mursa. Use the Anima Vial to deal extra damage.|U|178873|MS|
+C Breaking the Hopebreakers|QID|57189|M|43.59,79.73|Z|Revendreth|QO|1|N|Kill Hopebreaker Marku. Use the Anima Vial to deal extra damage.|U|178873|MS|
+C They Won't Know What Hit Them|QID|57190|M|40.26,74.21|Z|Revendreth|N|Set the Rigged Anima Containers around Dredhollow.|US|MS|
+C Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|US|
+C Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|US|TOF|
+t Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autocompleted.|
+t Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
+T Rebel Reinforcements|QID|59209|M|39.78,80.85|Z|Revendreth|N|To General Draven.|MS|
+T They Won't Know What Hit Them|QID|57190|M|39.73,81.21|Z|Revendreth|N|To The Accuser.|MS|
+T Breaking the Hopebreakers|QID|57189|M|39.73,81.21|Z|Revendreth|N|To The Accuser.|MS|
+A The Fearstalker|QID|59256|M|39.73,81.21|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|57190&57189&59209|MS|
+C The Fearstalker|QID|59256|M|39.73,81.21|Z|Revendreth|QO|1|CHAT|N|Tell The Accuser you are ready to trigger the trap.|MS|
+C The Fearstalker|QID|59256|M|39,81.4|Z|Revendreth|QO|2|N|Kill the Fearstalker and loot the Medallion of Dread.|MS|EAB|
+T The Fearstalker|QID|59256|M|43.23,73.91|Z|Revendreth|N|To The Accuser.|MS|
+
+; The Mad Duke Storyline
+A Where is Prince Renathal?|QID|57240|M|43.23,73.91|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|59256|MS|
+T Where is Prince Renathal?|QID|57240|M|38.97,66.03|Z|Revendreth|N|To Stonehead.|MS|
+A Sign Your Own Death Warrant|QID|57380|M|38.97,66.03|Z|Revendreth|N|From Stonehead.|LVL|58|PRE|57240|MS|
+C Sign Your Own Death Warrant|QID|57380|M|39.21,68.59|Z|Revendreth|QO|2|N|Kill enemies until they drop the Calligraphy Set for you to loot.|S|MS|
+C Sign Your Own Death Warrant|QID|57380|M|39.21,68.59|Z|Revendreth|QO|1|NC|N|Click the Research Documents Lying Around.|MS|
+C Sign Your Own Death Warrant|QID|57380|M|39.21,68.59|Z|Revendreth|QO|2|N|Kill enemies until they drop the Calligraphy Set for you to loot.|US|MS|
+C Sign Your Own Death Warrant|QID|57380|M|37.93,68.34|Z|Revendreth|QO|3|NC|N|Click on the Writing Desk to Forge your Letter of Condemnation.|MS|
+$ Forbidden Ink|QID|61990|M|37.66,68.74|Z|Revendreth|L|182475|N|Pick up the ink.|ACH|14314;1|
+$ Lost Quill|QID|61990|CS|M|38.64,68.17;37.94,69.07|Z|Revendreth|ACH|14314;1|N|Run along the ledge to get over to where the quill is then drop down beside it. Offer the ink to the quill for a pet.|ITEM|182613|
+K Scrivener Lenua|QID|58213|M|38.32,69.21|Z|Revendreth|T|Scrivener Lenua|N|WH - Bring 4 Forbidden Tombs back to the library to summom Rare.  Tombs are random spots near library.|ITEM|180587|RARE|ACH|14310;13|
+T Sign Your Own Death Warrant|QID|57380|M|38.97,66.03|Z|Revendreth|N|To Stonehead.|MS|
+N Pick up Hollow Rock|AVAILABLE|58327|M|38.87,64.31|Z|Revendreth|N|After Stonehead has unavoidably thrown you, pick up the Hollow Rock to disguise yourself.|BUFF|320559|RANK|2|TOF|
+A Snacks for Stonehead|QID|58327|M|39.33,65.25|Z|Revendreth|N|Now that you have your disguise, go over to the Chewed Light Shard and pick up this quest.|RANK|2|TOF|
+; commenting out - so doesnt pop up when you go out of the area. == A Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
+C Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|S!US|N|Kill Hostiles and give parasols to the desicated as you do the side quests in the area.|TOF|
+A Chasing Madness|QID|57405|M|37.07,63.14|Z|Revendreth|N|From Lost Sybille.|LVL|58|PRE|57380|MS|
+C Chasing Madness|QID|57405|M|37.43,60.37|Z|Revendreth|NC|N|Follow Lost Sybille.|MS|
+T Chasing Madness|QID|57405|M|38.10,60.77|Z|Revendreth|N|To Theotar.|MS|
+A My Terrible Morning|QID|57426|M|38.10,60.77|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57405|MS|
+A Theotar's Mission|QID|57428|M|38.10,60.77|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57405|MS|
+A Unbearable Light|QID|57427|M|38.10,60.77|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57405|MS|
+C Unbearable Light|QID|57427|M|34.54,59.45|Z|Revendreth|N|Kill Blistering Ash Ghouls.|S|MS|
+C Theotar's Mission|QID|57428|M|34.54,59.45|Z|Revendreth|NC|N|Click to collect Scorched Plank and scraps laying around the area.|S|MS|
+C Snacks for Stonehead|QID|58327|QO|4|M|34.21,55.66|Z|Revendreth|NC|S!US|N|Pick up one of the yellow crystals around the area for Stonehead. (feel free to pick up another for the Extra Action Button effect).|
+A A Rousing Aroma|QID|60467|M|35.04,53.91|Z|Revendreth|N|From Sabina.|RANK|2|
+C A Rousing Aroma|QID|60467|M|35.48,48.85|Z|Revendreth|S|N|Kill Ravenous Swarms and loot the Pungent Swarmer Toxin.|
+C Snacks for Stonehead|QID|58327|QO|1|M|31.56,61.84|Z|Revendreth|S|N|Also Ravenous Swarms drop the Gooey Bug Bites for Stonehand.|
+C My Terrible Morning|QID|57426|M|33.81,61.21|Z|Revendreth|N|Marquis Pummeler slain.|MS|
+C Theotar's Mission|QID|57428|M|34.54,59.45|Z|Revendreth|N|Click to collect Scorched Plank and scraps laying around the area.|US|MS|
+C Unbearable Light|QID|57427|M|33.04,55.44|Z|Revendreth|N|Kill Blistering Ash Ghouls.|US|MS|
+T My Terrible Morning|QID|57426|M|PLAYER|Z|Revendreth|N|To Theotar.|MS|
+T Unbearable Light|QID|57427|M|PLAYER|Z|Revendreth|N|To Theotar.|MS|
+T Theotar's Mission|QID|57428|M|PLAYER|Z|Revendreth|N|To Theotar.|MS|
+A Lost in the Desiccation|QID|57442|M|PLAYER|Z|Revendreth|N|From Theotar.|PRE|57426&57427&57428|MS|
+$ Smuggled Cache|QID|59889|M|31.05,55.10|Z|Revendreth|N|Under broken bridge, across from the entrance to Theotar's hideout.|ITEM|182738|ACH|14314;5|
+A Parasol Components|QID|62189|M|31.05,55.10|Z|Revendreth|N|From the item you just looted.|;$
+C Lost in the Desiccation|QID|57442|M|31.01,57.53|Z|Revendreth|NC|N|Follow Lost Sybille to Tubbins.|MS|
+T Lost in the Desiccation|QID|57442|M|31.01,57.53|Z|Revendreth|N|To Tubbins.|MS|
+A Tubbins's Tea|QID|57460|M|31.01,57.53|Z|Revendreth|N|From Tubbins.|LVL|58|PRE|57442|MS|
+C Tubbins's Tea|QID|57460|M|31.01,57.53|Z|Revendreth|QO|1|CHAT|N|Speak with Tubbins to start making the tea.|MS|
+C Forcefully Fragrant Fronds|QID|57460|M|31.01,57.53|Z|Revendreth|QO|2|NC|N|Run over the green zones to catch the Forcefully Fragrant Fronds.|BUFF|307920<3|MS|
+C Cauldron|QID|57460|QO|2|M|31.25,57.57|Z|Revendreth|NC|N|Take the fronds to the cauldron.|MS|
+C Grave Gravel|QID|57460|M|31.01,57.53|Z|Revendreth|QO|3|NC|N|Run over the green zones to catch the Grave Gravel.|BUFF|307947<4|MS|
+C Cauldron|QID|57460|QO|3|M|31.25,57.57|Z|Revendreth|NC|N|Take the gravel to the cauldron.|MS|
+C Spicy Scorchshrooms|QID|57460|M|31.01,57.53|Z|Revendreth|QO|4|NC|N|Run over the green zones to catch the Spicy Scorchshrooms.|BUFF|307976<2|MS|
+C Cauldron|QID|57460|QO|4|M|31.25,57.57|Z|Revendreth|NC|N|Take the shrooms to the cauldron.|MS|
+C Luminous Lightroot|QID|57460|M|31.01,57.53|Z|Revendreth|QO|5|NC|N|Run over the green zones to catch the Luminous Lightroot.|BUFF|307981|MS|
+C Cauldron|QID|57460|QO|5|M|31.25,57.57|Z|Revendreth|NC|N|Take the roots to the cauldron.|MS|
+C Tricky Thicket Thorns|QID|57460|M|31.01,57.53|Z|Revendreth|QO|6|NC|N|Run over the green zones to catch the Tricky Thicket Thorns.|BUFF|307983|MS|
+C Cauldron|QID|57460|QO|6|M|31.25,57.57|Z|Revendreth|NC|N|Take the thorns to the cauldron.|MS|
+C Liquid Shadows|QID|57460|M|30.96,57.65|Z|Revendreth|QO|7|NC|N|Click on the Dented Teapot by the fire.|BUFF|308049|MS|
+C Cauldron|QID|57460|QO|7|M|31.25,57.57|Z|Revendreth|NC|N|Take the teapot to the cauldron.|MS|
+T Tubbins's Tea|QID|57460|M|31.01,57.53|Z|Revendreth|N|To Tubbins.|MS|
+A An Uneventful Stroll|QID|57461|M|31.17,57.53|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57460|MS|
+C An Uneventful Stroll|QID|57461|M|31.17,57.53|Z|Revendreth|QO|1|CHAT|N|Speak with Theotar to get going.|MS|
+C An Uneventful Stroll|QID|57461|M|32.01,47.60|Z|Revendreth|QO|2|N|Escort Theotar to the sanctuary, defending him along the way.|MS|
+T An Uneventful Stroll|QID|57461|M|32.01,47.60|Z|Revendreth|N|To Theotar.|MS|
+A Into the Light|QID|60566|M|32,47.6|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57461|MS|
+f Sanctuary of the Mad|ACTIVE|60566^62778|M|30.58,48.81|Z|Revendreth|N|Grab the flightpoint from Courier Shaal.|
+T Parasol Components|QID|62189|M|32.66,49.29|Z|Revendreth|N|To Mats.|
+A WANTED: Enforcer Kristof|QID|60275|M|30.68,48.99|Z|Revendreth|N|From WANTED Poster.|ELITE|RANK|2|LVL|60|
+A WANTED: Summoner Marcelis|QID|60276|M|30.87,49.05|Z|Revendreth|N|From WANTED Poster.|ELITE|RANK|2|
+C Snacks for Stonehead|QID|58327|QO|2|M|31.56,61.84|Z|Revendreth|S|N|Kill the Ash Crawlers to collect Ash Crisps.|TOF|
+K Summoner Marcelis|ACTIVE|60276|QO|1|M|30.32,63.79|Z|Revendreth|N|Inside a building beyond the Ember Ward, in Cinderwall you can find Summoner Marcelis.|
+C Snacks for Stonehead|QID|58327|QO|2|M|31.56,61.84|Z|Revendreth|US|N|Continue killing the Ash Crawlers until you have enough Ash Crisps.|TOF|
+
+; Sidequest Storyline - Revelations of the Light
+C A Rousing Aroma|QID|60467|M|35.48,48.85|Z|Revendreth|US|N|Kill Ravenous Swarms and loot the Pungent Swarmer Toxin.|
+T A Rousing Aroma|QID|60467|M|35.04,53.91|Z|Revendreth|N|To Sabina.|
+A Safe in the Shadows|QID|60469|M|35.04,53.91|Z|Revendreth|N|From Sabina.|PRE|60467|RANK|2|
+A Rubble Rummaging|QID|60468|M|35.04,53.91|Z|Revendreth|N|From Sabina.|PRE|60467|RANK|2|
+C Rubble Rummaging|QID|60468|M|38.84,53.46|Z|Revendreth|NC|N|Click on the glowing rubble piles scattered around until you find the Shackle Key.|S|
+C Safe in the Shadows|QID|60469|M|37.90,53.51|Z|Revendreth|QO|1|NC|N|Find Sabina's companions.|
+C Safe in the Shadows|QID|60469|M|37.90,53.51|Z|Revendreth|QO|2|NC|N|Click on the Light Satchel, Tattered Journal and Stained Dagger to inspect for clues.|
+C Rubble Rummaging|QID|60468|M|38.84,53.46|Z|Revendreth|NC|N|Click on the glowing rubble piles scattered around until you find the Shackle Key.|US|
+T Safe in the Shadows|QID|60469|M|35.04,53.91|Z|Revendreth|N|To Sabina.|
+T Rubble Rummaging|QID|60468|M|35.04,53.91|Z|Revendreth|N|To Sabina.|
+A Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|N|From Sabina.|PRE|60468&60469|RANK|2|
+C Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|QO|1|NC|N|Click on the shackles to release Sabina.|
+C Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|QO|2|N|Kill Sabina.|
+T Setting Sabina Free|QID|60470|M|PLAYER|Z|Revendreth|N|Click Pop-Up Quest to complete.|
+
+; Sidequest Storyline - Mirror Maker of the Master
+A An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|From Laurent.|RANK|2|
+C An Unfortunate Situation|QID|57531|M|29.81,48.63|Z|Revendreth|N|Kill the Costel and his 2 friends in the hideout, loot him to collect Laurent's Belongings.|
+T An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|To Laurent.|
+A Foraging for Fragments|QID|57532|M|26.43,48.95|Z|Revendreth|N|From Laurent.|PRE|57531|RANK|2|
+C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|1|N|Follow Laurent and defend him against attackers.|
+C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|2|NC|N|Click on the Mirror Fragment laying on the ground.|
+C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|3|N|Follow Laurent and defend him against attackers.|
+C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|4|NC|N|Click on the Mirror Fragment laying on the ground.|
+C Foraging for Fragments|QID|57532|M|24.97,48.00|Z|Revendreth|QO|5|N|Follow Laurent and defend him against attackers.|
+C Foraging for Fragments|QID|57532|M|24.97,48.00|Z|Revendreth|QO|6|NC|N|Click on the Mirror Fragment laying on the ground.|
+T Foraging for Fragments|QID|57532|M|24.26,49.40|Z|Revendreth|N|To Laurent.|
+A Moving Mirrors|QID|57571|M|24.26,49.40|Z|Revendreth|N|From Laurent.|PRE|57532|RANK|2|
+C Moving Mirrors|QID|57571|M|24.09,49.68|Z|Revendreth|QO|1|NC|N|Click on the mirrors to free Simone.|
+T Moving Mirrors|QID|57571|M|24.19,49.46|Z|Revendreth|N|To Simone.|
+A Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|From Simone.|PRE|57571|RANK|2|
+A When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|From Laurent.|PRE|57571|RANK|2|
+C When Only Ash Remains|QID|57534|M|22.48,52.16|Z|Revendreth|N|Kill Ashen enemies.|S|
+C Light Punishment|QID|57533|M|22.48,52.16|Z|Revendreth|NC|N|Click on the mirrors around Blistering Outcasts to free them.|
+C When Only Ash Remains|QID|57534|M|22.48,52.16|Z|Revendreth|N|Kill Ashen enemies.|US|
+T When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|To Laurent.|
+T Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|To Simone.|
+A We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|From Simone.|PRE|57533&57534|RANK|2|
+A Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|From Laurent.|PRE|57533&57534|RANK|2|
+C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|NC|N|Click on Anima canisters laying around the area.|S|
+C Escaping the Master|QID|57535|M|24.79,53.51|Z|Revendreth|S|N|Kill enemies and loot their Mirror Fragments.|
+C Snacks for Stonehead|QID|58327|QO|3|M|26.33,53.32|Z|Revendreth|S|N|The Shrouded type mobs in the Shrouded Asylum drop the Mirror Candy needed.|
+K Enforcer Kristof|ACTIVE|60275|QO|1|CS|M|23.42,53.75;22.78,55.79|Z|Revendreth|N|Up to The Shrouded Asylum and inside the building to find Enforcer Kristof.|
+C Snacks for Stonehead|QID|58327|QO|3|M|26.33,53.32|Z|Revendreth|US|N|Finish collecting Mirror Candy from the Shrouded type mobs.|
+C Escaping the Master|QID|57535|M|24.79,53.51|Z|Revendreth|US|N|Kill enemies and loot their Mirror Fragments.|
+C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|N|Click on Anima canisters laying around the area.|US|
+T We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|To Simone.|
+T Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|To Laurent.|
+A Mirror Making, Not Breaking|QID|57536|M|24.26,49.40|Z|Revendreth|N|From Laurent.|PRE|59427&57535|RANK|2|
+C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|1|NC|N|Follow Laurent and Simone to the mirror.|
+C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|2|CHAT|N|Speak to Laurent to let him begin.|
+C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|3|N|Kill waves of enemies, defending Laurent and Simone.|
+T Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|N|To Laurent.|
+P Sanctuary of the Mad|ACTIVE|60275^60276|M|24.80,50.27|Z|Revendreth|N|Walk thru the mirror for a quick trip to Sanctuary of the Mad.|RANK|2|IZ|Ember Ward|
+T WANTED: Enforcer Kristof|QID|60275|M|30.71,49.12|Z|Revendreth|N|To Dispatcher Raluca. Up the stairs, outside.|
+T WANTED: Summoner Marcelis|QID|60276|M|30.81,49.12|Z|Revendreth|N|To Dispatcher Raluca. Up the stairs, outside.|
+T Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
+T Snacks for Stonehead|QID|58327|M|39.06,65.91|Z|Revendreth|N|To Stonehead.|;--not sure where to place this. leaving it here for now. quest is finished during the Mirror Maker story arc ~ line 448
+
+C Into the Light|QID|60566|M|30.37,47.44|Z|Revendreth|N|Ride the elevator to Sinfall.|MS|
+T Into the Light|QID|60566|M|30.42,45.65|Z|Revendreth|N|To Breakfist.|MS|
+A Securing Sinfall|QID|57724|M|30.42,45.65|Z|Revendreth|N|From Breakfist.|LVL|58|PRE|60566|MS|
+C Securing Sinfall|QID|57724|M|29,42.8|Z|Revendreth|QO|1|N|Kill enemies and interact with objects spread around Sinfall.|S|MS|
+C Securing Sinfall|QID|57724|M|29.06,42.86|Z|Revendreth|QO|2|N|Kill Grand Monitor Rorok.|MS|
+C Securing Sinfall|QID|57724|M|29,42.8|Z|Revendreth|QO|1|N|Kill enemies and interact with objects spread around Sinfall.|US|MS|
+C Securing Sinfall|QID|57724|M|28.41,44.19|Z|Revendreth|QO|3|NC|N|Click on the hanging chain and then proceed up the stairs to find the Scorching Mirror, then click to redirect it.|MS|
+T Securing Sinfall|QID|57724|M|29.86,42.33|Z|Revendreth|N|To Theotar.|MS|
+
+; Prince Renathal Storyline
+A In the Ruin of Rebellion|QID|59327|M|29.86,42.33|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57724|MS|
+C In the Ruin of Rebellion|QID|59327|M|29.36,42.66|Z|Revendreth|QO|1|NC|N|Head down the stairs behind Theotar to find a mirror to enter Sinfall.|MS|
+T In the Ruin of Rebellion|QID|59327|M|29.43,42.89|Z|Sinfall Reaches@Sinfall!Dungeon|N|Continue down the stairs inside Sinfall to find Vorpalia. It can be roaming around the circle.|MS|
+A Prince Renathal|QID|57689|M|31.2,40.6|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Vorpalia.|LVL|58|PRE|59327|MS|
+C Prince Renathal|QID|57689|M|37.48,56.25|Z|Sinfall Reaches@Sinfall!Dungeon|QO|1<1|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
+C Prince Renathal|QID|57689|M|41.57,51.16|Z|Sinfall Reaches@Sinfall!Dungeon|QO|1<2|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
+C Prince Renathal|QID|57689|M|38.26,40.59|Z|Sinfall Reaches@Sinfall!Dungeon|QO|1<3|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
+C Prince Renathal|QID|57689|M|33.19,41.91|Z|Sinfall Reaches@Sinfall!Dungeon|QO|1<4|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
+C Prince Renathal|QID|57689|M|28.64,43.99|Z|Sinfall Reaches@Sinfall!Dungeon|QO|2|NC|N|Jump into the Maw once the portal opens.|MS|
+T Prince Renathal|QID|57689|M|PLAYER|Z|The Maw|N|To Vorpalia.|MS|
+A Cages For All Occasions|QID|57690|M|PLAYER|Z|The Maw|N|From Vorpalia.|LVL|58|PRE|57689|MS|
+T Cages For All Occasions|QID|57690|M|34.65,18.71|Z|The Maw|N|To Prince Renathal.|MS|
+A A Royal Key|QID|57691|M|34.65,18.71|Z|The Maw|N|From Prince Renathal.|LVL|58|PRE|57690|MS|
+C A Royal Key|QID|57691|M|30.11,20.27|Z|The Maw|T|Ghelak|N|Kill Ghelak the Incarcerator and loot Renathal's Cage Key.|MS|
+T A Royal Key|QID|57691|M|34.6,18.6|Z|The Maw|N|To Prince Renathal.|MS|
+A Torghast, Tower of the Damned|QID|57693|M|34.6,18.6|Z|The Maw|N|From Prince Renathal.|LVL|58|PRE|57691|MS|
+C Torghast, Tower of the Damned|QID|57693|CS|M|30.44,16.59;31.33,12.56|Z|The Maw|QO|1|NC|N|Find an entrance to Torghast.|MS|
+C Torghast, Tower of the Damned|QID|57693|M|31.33,12.56|Z|The Maw|QO|2|NC|N|Click the gate to Enter Skoldus Hall, Torghast.|MS|
+C Torghast, Tower of the Damned|QID|57693|M|58.4,66.6|Z|Torghast - Map Floor 21!Instance|QO|3|N|Work your way to the 3rd floor.|MS|
+C Torghast, Tower of the Damned|QID|57693|M|58.4,66.6|Z|Torghast - Map Floor 21!Instance|QO|4|N|Kill the Warden of Souls.|MS|
+C Torghast, Tower of the Damned|QID|57693|M|58.4,66.6|Z|Torghast - Map Floor 21!Instance|QO|5|NC|N|Enter the red circle in the center of the room to start the Ritual of Soul Tracing.|MS|
+T Torghast, Tower of the Damned|QID|57693|M|26.52,57.22|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|MS|
+A Refuge of Revendreth|QID|57694|M|26.52,57.22|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|LVL|58|PRE|57693|MS|
+C Refuge of Revendreth|QID|57694|M|47.59,57.52|Z|Sinfall Reaches@Sinfall!Dungeon|QO|1|NC|N|Meet with Theotar.|MS|
+C Refuge of Revendreth|QID|57694|M|42.22,11.88|Z|Sinfall Reaches@Sinfall!Dungeon|QO|2|NC|N|Meet with the Accuser.|MS|
+C Refuge of Revendreth|QID|57694|M|52.55,39.16|Z|Sinfall Reaches@Sinfall!Dungeon|QO|3|NC|N|Meet with General Draven.|MS|
+T Refuge of Revendreth|QID|57694|M|52.54,39.15|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|MS|
+
+; The Master of Lies Storyline
+A Blinded By The Light|QID|59644|M|52.54,39.15|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|LVL|60|PRE|57694|MS|
+C Blinded By The Light|QID|59644|CS|M|31.52,44.37;28.39,45.61;27.31,40.33;29.74,38.65;31.78,40.60;31.75,42.35|Z|Revendreth|N|Run up the stairs, out thru the mirror, then click on the reflector mirrors around the top of Sinfall.|MS|
+T Blinded By The Light|QID|59644|M|32.12,41.46|Z|Revendreth|N|To Projection of Prince Renathal.|MS|
+A The Master of Lies|QID|58086|M|32.12,41.46|Z|Revendreth|N|From Projection of Prince Renathal.|LVL|59|PRE|59644|MS|
+C The Master of Lies|QID|58086|M|32.12,41.46|Z|Revendreth|QO|1|CHAT|N|Speak with the Projection of Prince Renathal to queue for the scenario.|MS|
+C Rally with the Rebels|ACTIVE|58086|M|37.48,41.48|Z|Revendreth!Instance1688|SO|1|NC|N|Meet Prince Renathal in the Court of Harvesters.|
+C Awaken Darkwing Stoneborn|ACTIVE|58086|M|43.18,41.16|Z|Revendreth!Instance1688|SO|2|N|Collect Anima by picking up the Anima containers and running thru the red orbs where hostile npc's die, click to awaken stoneborn who are loyal to Prince Renathal.|
+C Rally at Dominance Gate|ACTIVE|58086|M|42.02,37.35|Z|Revendreth!Instance1688|SO|3|N|Meet Prince Renathal and your allies at Dominance Gate.|
+C Menagerie of the Master reached|ACTIVE|58086|M|44.76,31.25|Z|Revendreth!Instance1688|SO|4|N|Reach the far side of Dominance Gate.|
+C Defeat General Kaal|ACTIVE|58086|M|45.67,31.49|Z|Revendreth!Instance1688|SO|5|N|Defeat General Kaal|
+C The Curator empowered|ACTIVE|58086|M|47.40,29.62|Z|Revendreth!Instance1688|SO|6;2|N|Kill the group around the Anima Diverters, then The Curator will run up and help you with the next group that joins in.|
+C The Accuser empowered|ACTIVE|58086|M|47.52,33.32|Z|Revendreth!Instance1688|SO|6;1|N|Kill the group around the Anima Diverters, then The Accuser will run up and help you with the next group that joins in..|
+C Renathal empowered|ACTIVE|58086|M|49.15,35.09|Z|Revendreth!Instance1688|SO|6;3|N|Kill the group around the Anima Diverters, then Prince Renathal will run up and help you with the next group that joins in.|
+C Clear the Menagerie|ACTIVE|58086|M|50.68,31.73|Z|Revendreth!Instance1688|SO|7|N|Slay Myskia and whatever else you run into.|
+C The Master|ACTIVE|58086|M|50.37,30.38|Z|Revendreth!Instance1688|SO|8;1|N|Speak with Prince Renathal.|
+C The Master|ACTIVE|58086|M|50.37,30.38|Z|Revendreth!Instance1688|SO|8;2|N|Presumably big fight happens here, skipped in beta.|
+T The Master of Lies|QID|58086|M|50.28,28.26|Z|Revendreth|N|To Prince Renathal.|MS| ; Achievement here?
+A A Master of Their Craft|QID|60051|LEAD|57531|M|50.28,28.26|Z|Revendreth|N|From Prince Renathal.|LVL|60|RANK|2|
+A The End of the Beginning|QID|57876|M|50.28,28.26|Z|Revendreth|N|From Prince Renathal.|LVL|60|PRE|58086|MS|;cov? shrilynda not offered it.
+C The End of the Beginning|QID|57876|M|50.26,29.24|Z|Revendreth|QO|1|CHAT|N|Speak to Draven for a ride.|MS|
+C The End of the Beginning|QID|57876|M|70.49,80.50|Z|Revendreth|QO|2|NC|N|Fly with Draven to Oribos.|MS|
+F Oribos|ACTIVE|57876|M|70.34,81.15|Z|Revendreth|N|At Courier Gevoraal.|
+T The End of the Beginning|QID|57876|M|39.2,69.4|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
+A The Looming Dark|QID|57877|M|38.94,69.96|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|60|PRE|57876|MS|
+C The Looming Dark|QID|57877|M|PLAYER|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Listen to Tal-Inara.|MS|
+T The Looming Dark|QID|57877|M|38.94,69.96|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
+A Choosing Your Purpose|QID|62000^57878|M|39.29,69.61|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|50|PRE|62716^57877|
+C Choosing Your Purpose|QID|62000^57878|M|36.32,64.22|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with the Polemarch Adrestes.|
+C Choosing Your Purpose|QID|62000^57878|M|39.55,61.10|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Lady Moonberry.|
+C Choosing Your Purpose|QID|62000^57878|M|44.59,68.74|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the General Draven.|
+C Choosing Your Purpose|QID|62000^57878|M|43.07,73.81|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Secutor Mevix.|
+C Choosing Your Purpose|QID|62000^57878|M|39.49,69.27|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Make your choice at the Shdowlands Covenant Map.|
+T Choosing Your Purpose|QID|62000^57878|M|38.88,70.02|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
+
 ; Sidequest Storyline -  The Final Atonement
+F Darkhaven|QID|58093|N|Fly back to Darkhaven if you wish to complete the final side story quests for achievement.|MS|RANK|2|
 R Halls of Atonement South|QID|58093|M|70.13,57.91|Z|Revendreth|N|Run to the South Elevator of Halls of Attonement.|RANK|2|
 ;A Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|Revendreth|N|Bonus Objective - Autoaccepted.|RANK|2|TOF|LVL|-60|;commented out because we leave the area, and come back.
 C Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|Revendreth|S!US|N|Kill the depraved mops and otherwise clean up the depravity.|TOF|
@@ -381,291 +695,7 @@ R Absolution Crypt|AVAILABLE|62653|M|71.58,40.07|N|Down the elevator and return 
 A Stop the Inquisition|QID|62653|M|71.79,40.41|Z|Revendreth|N|From Gresit.|RANK|2|
 C Stop the Inquisition|QID|62653|M|76,51.8|Z|Revendreth|N|This is a weekly repeatable quest. Archivist Fane offers repeatable quest for Sinstones that makes it possible to kill the inquisitors. Only one person in the group needs one. The location varies as not all are up and any given time.|
 T Stop the Inquisition|QID|62653|M|76,51.8|Z|Revendreth|N|To Archivist Janeera.|
-
-F Darkhaven|QID|57098|N|At Courier Rehkaash to go back to the main story line.|MS|
-R The Banewood|QID|62782|M|54.11,68.03|Z|Revendreth|N|Across the high bridge, past the elevator and then down into The Banewood.|TOF|
-; The Penitent Hunt Storyline
-A The Grove of Terror|QID|57098|M|53.36,63.97|Z|Revendreth|N|From Sire Denathrius.|LVL|58|PRE|59232|MS|
-T The Grove of Terror|QID|57098|M|50.61,73.84|Z|Revendreth|N|To The Fearstalker.|MS|
-A Dread Priming|QID|58916|M|50.61,73.84|Z|Revendreth|N|From The Fearstalker.|LVL|58|PRE|57098|MS|
-A Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|N|From Bounty Poster|RANK|2|ACTIVE|-62778|
-C Dread Priming|QID|58916|M|49.35,75.76|Z|Revendreth|QO|1|NC|N|Click on Houndmaster Loksey to bind him.|MS|
-C Dread Priming|QID|58916|M|50.15,75.19|Z|Revendreth|QO|2|CHAT|N|Speak to Sinreader Nicola.|MS|
-C Dread Priming|QID|58916|M|50.02,73.94|Z|Revendreth|QO|3|NC|N|Demoralize Houndmaster Loksey by walking him through the row of gargons.|MS|
-T Dread Priming|QID|58916|M|51.25,74.28|Z|Revendreth|N|To Flockmaster Sergio.|MS|
-A Alpha Bat|QID|58941|M|51.25,74.28|Z|Revendreth|N|From Flockmaster Sergio.|LVL|58|PRE|58916|MS|
-C Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|S|N|Kill bats in the area.|ACTIVE|-62778|
-C Alpha Bat|QID|58941|M|52.46,76.48|Z|Revendreth|QO|1|NC|N|Click on the Stake to bind Houndmaster Loksey to it.|MS|
-C Alpha Bat|QID|58941|M|52.46,76.48|Z|Revendreth|QO|2|N|Attack Duskterror when it flies in, down to very low health. Sergio will come and capture it.|MS|
-C Beast Control|QID|58936|M|51.25,74.28|Z|Revendreth|US|N|Kill bats in the area.|ACTIVE|-62778|
-T Beast Control|QID|58936|M|51.25,74.28|Z|Revendreth|N|To Flockmaster Sergio.|ACTIVE|-62778|
-T Alpha Bat|QID|58941|M|51.25,74.28|Z|Revendreth|N|To Flockmaster Sergio.|MS|
-A King of the Hill|QID|59014|M|51.25,74.28|Z|Revendreth|N|From Flockmaster Sergio.|LVL|58|PRE|58941|MS|
-f Wanecrypt Hill|ACTIVE|59014^62778|M|47.89,69.41|Z|Revendreth|N|At Courier Rabatur.|
-T King of the Hill|QID|59014|M|47.89,70.09|Z|Revendreth|N|To The Fearstalker.|MS|
-A Let the Hunt Begin|QID|57131|M|47.89,70.09|Z|Revendreth|N|From The Fearstalker.|LVL|58|PRE|59014|MS|
-C Let the Hunt Begin|QID|57131|M|48,70|Z|Revendreth|QO|1|NC|N|Click on Houndmaster Loksey's to siphon his anima.|MS|
-C Let the Hunt Begin|QID|57131|M|48,70|Z|Revendreth|QO|2|NC|N|Click the Hollowed Dreadbat Fang to start the hunt.|U|178994|MS|
-T Let the Hunt Begin|QID|57131|M|47.89,70.09|Z|Revendreth|N|To The Fearstalker.|MS|
-A The Penitent Hunt|QID|57136|M|47.89,70.09|Z|Revendreth|N|From The Fearstalker.|LVL|58|PRE|57131|MS|
-A Devour This|QID|57164|M|47.89,70.09|Z|Revendreth|N|From The Fearstalker.|LVL|58|PRE|57131|MS|
-C The Penitent Hunt|QID|57136|M|47.89,70.09|Z|Revendreth|QO|1|CHAT|N|Speak to the Fearstalker.|MS|
-A Hunting Trophies|QID|60514|M|48.50,68.44|Z|Revendreth|N|From Huntmaster Constantin.|RANK|2|
-A Abel's Fate|QID|58996|M|48.50,68.44|Z|Revendreth|N|From Huntmaster Constantin.|RANK|2|
-A The Banewood|QID|62782|M|50.15,70.35|Z|Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-60|
-C The Banewood|QID|62782|M|50.15,70.35|Z|Revendreth|S!US|N|Kill Hostiles, interact with highlighted items.|TOF|
-C Hunting Trophies|QID|60514|M|48.50,68.44|Z|Revendreth|S|N|Kill the Fearspinners, Deathwalkers and a Hulking Doomfang.|
-C Devour This|QID|57164|M|42.8,68.2|Z|Revendreth|N|Kill Mites, Worldeaters and Thirstlurkers around.|S|MS|
-C The Penitent Hunt|QID|57136|M|50.4,61.4|Z|Revendreth|QO|2|NC|N|Click on the web to free and collect Crimelord Tiana.|MS|
-C The Penitent Hunt|QID|57136|M|44.54, 70.39|Z|Revendreth|QO|3|NC|N|Click on the trap to free and collect Yoshai the Merciless.|MS|
-C The Penitent Hunt|QID|57136|M|46.83,65.24|Z|Revendreth|QO|4|N|Kill Truulax to collect Houndmaster Loksey.|MS|
-C Devour This|QID|57164|M|42.83,68.10|Z|Revendreth|N|Kill Mites, Worldeaters and Thirstlurkers around.|US|MS|
-T The Penitent Hunt|QID|57136|M|PLAYER|Z|Revendreth|N|To The Fearstalker.|MS|
-T Devour This|QID|57164|M|PLAYER|Z|Revendreth|N|To The Fearstalker.|MS|
-A The Accuser|QID|60506|M|PLAYER|Z|Revendreth|N|From The Fearstalker.|LVL|58|PRE|57136&57164|MS|
-C The Accuser|QID|60506|M|51.49,59.90|Z|Revendreth|QO|1|NC|N|Run up the hill and wait for the dialog to finish.|MS|
-C The Accuser|QID|60506|M|51.53,59.82|Z|Revendreth|QO|2|CHAT|N|Speak with The Accuser.|MS|
-T The Accuser|QID|60506|M|51.53,59.15|Z|Revendreth|N|To The Accuser. You must use your new zone ability to reach him.|MS|
-A A Reflection of Truth|QID|57159|M|51.53,59.15|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|60506|MS|
-C A Reflection of Truth|QID|57159|M|51.52,59.00|Z|Revendreth|QO|1|NC|N|Run through the mirror.|MS|
-C A Reflection of Truth|QID|57159|M|59.35,52.90|Z|Castle Nathria!Instance|QO|2|CHAT|N|Speak with The Accuser.|MS|
-C A Reflection of Truth|QID|57159|M|59.35,52.90|Z|Castle Nathria!Instance|QO|3|N|Protect The Accuser from the waves of enemies.|MS|
-C A Reflection of Truth|QID|57159|M|65.33,52.82|Z|Castle Nathria!Instance|QO|4|NC|N|Once you get the completion for Protecting the accuser, Run back through the mirror to escape Castle Nathria.|MS|
-T A Reflection of Truth|QID|57159|M|51.53,59.15|Z|Revendreth|N|To The Accuser.|MS|
-A Dredhollow|QID|60313|M|51.53,59.15|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|57159|MS|
-$ Abandoned Curios|QID|59888|CS|M|51.06,59.14;51.85,59.54|Z|Revendreth|N|WH - Jump from 1st Coord, treasure at 2nd.|ITEM|182744|ACH|14314;16|
-C Hunting Trophies|QID|60514|M|46.83,65.24|Z|Revendreth||US|N|Finish killing spidars, bears and a hydra to collect your hunting trophies.|
-T The Banewood|QID|62782|M|50.15,70.35|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
-T Hunting Trophies|QID|60514|M|48.50,68.44|Z|Revendreth|N|To Huntmaster Constantin.|
-A A Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|N|From Bounty Poster|RANK|2|ACTIVE|62778|
-C Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|S|N|Kill bats in the area.|
-K Packmother Soulfang|ACTIVE|58996|M|48.70,78.69|Z|Revendreth|QO|1|N|Kill the Packmother to determine Abel's Fate.|
-C Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|US|N|Kill bats in the area.|
-T Beast Control|QID|58936|M|51.25,74.28|Z|Revendreth|N|To Flockmaster Sergio.|
-T Abel's Fate|QID|58996|M|48.50,68.42|Z|Revendreth|N|To Huntmaster Constantin.|
-T Dredhollow|QID|60313|M|43.22,73.91|Z|Revendreth|N|To The Accuser.|MS|
-A Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autoaccepted when entering Dredhollow.|RANK|2|LVL|-60|ACTIVE|-62778|
-A Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autoaccepted when entering Dredhollow.|RANK|2|LVL|-60|TOF|
-A Breaking the Hopebreakers|QID|57189|M|43.20,73.84|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|60313|MS|
-A They Won't Know What Hit Them|QID|57190|M|43.20,73.85|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|60313|MS|
-A Rebel Reinforcements|QID|59209|M|43.32,74.10|Z|Revendreth|N|From General Draven.|LVL|58|PRE|60313|MS|
-C Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|S|
-C Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|S|TOF|
-C They Won't Know What Hit Them|QID|57190|M|40.26,74.21|Z|Revendreth|NC|N|Set the Rigged Anima Containers around Dredhollow.|S|MS|
-C Rebel Reinforcements|QID|59209|M|43.24,75.66;42.51,75.63|Z|Revendreth|CS|QO|1|N|Enter the Crypt, going down until you reach the open room where you click on Watchmaster Boromod to infuse him with Anima.|MS|
-C Breaking the Hopebreakers|QID|57189|M|40.26,74.21|Z|Revendreth|QO|2|N|Kill Hopebreaker Vilstav. Use the Anima Vial to deal extra damage.|U|178873|MS|
-C Rebel Reinforcements|QID|59209|M|40.14,73.14|Z|Revendreth|QO|2|NC|N|Click on Sakaa to infuse her with Anima.|MS|
-C Breaking the Hopebreakers|QID|57189|M|41.38,78.18|Z|Revendreth|QO|3|N|Kill Hopebreaker Mursa. Use the Anima Vial to deal extra damage.|U|178873|MS|
-C Breaking the Hopebreakers|QID|57189|M|43.59,79.73|Z|Revendreth|QO|1|N|Kill Hopebreaker Marku. Use the Anima Vial to deal extra damage.|U|178873|MS|
-C They Won't Know What Hit Them|QID|57190|M|40.26,74.21|Z|Revendreth|N|Set the Rigged Anima Containers around Dredhollow.|US|MS|
-C Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|US|
-C Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Kill enemies around within Dredhollow.|US|TOF|
-t Forgotten Village|QID|59211|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autocompleted.|
-t Stalking Fear|QID|62783|M|40.26,74.21|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
-T Rebel Reinforcements|QID|59209|M|39.78,80.85|Z|Revendreth|N|To General Draven.|MS|
-T They Won't Know What Hit Them|QID|57190|M|39.73,81.21|Z|Revendreth|N|To The Accuser.|MS|
-T Breaking the Hopebreakers|QID|57189|M|39.73,81.21|Z|Revendreth|N|To The Accuser.|MS|
-A The Fearstalker|QID|59256|M|39.73,81.21|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|57190&57189&59209|MS|
-C The Fearstalker|QID|59256|M|39.73,81.21|Z|Revendreth|QO|1|CHAT|N|Tell The Accuser you are ready to trigger the trap.|MS|
-C The Fearstalker|QID|59256|M|39,81.4|Z|Revendreth|QO|2|N|Kill the Fearstalker and loot the Medallion of Dread.|MS|EAB|
-T The Fearstalker|QID|59256|M|43.23,73.91|Z|Revendreth|N|To The Accuser.|MS|
-
-; The Mad Duke Storyline
-A Where is Prince Renathal?|QID|57240|M|43.23,73.91|Z|Revendreth|N|From The Accuser.|LVL|58|PRE|59256|MS|
-T Where is Prince Renathal?|QID|57240|M|38.97,66.03|Z|Revendreth|N|To Stonehead.|MS|
-A Sign Your Own Death Warrant|QID|57380|M|38.97,66.03|Z|Revendreth|N|From Stonehead.|LVL|58|PRE|57240|MS|
-C Sign Your Own Death Warrant|QID|57380|M|39.21,68.59|Z|Revendreth|QO|2|N|Kill enemies until they drop the Calligraphy Set for you to loot.|S|MS|
-C Sign Your Own Death Warrant|QID|57380|M|39.21,68.59|Z|Revendreth|QO|1|NC|N|Click the Research Documents Lying Around.|MS|
-C Sign Your Own Death Warrant|QID|57380|M|39.21,68.59|Z|Revendreth|QO|2|N|Kill enemies until they drop the Calligraphy Set for you to loot.|US|MS|
-C Sign Your Own Death Warrant|QID|57380|M|37.93,68.34|Z|Revendreth|QO|3|NC|N|Click on the Writing Desk to Forge your Letter of Condemnation.|MS|
-$ Forbidden Ink|QID|61990|M|37.66,68.74|Z|Revendreth|L|182475|N|Pick up the ink.|ACH|14314;1|
-$ Lost Quill|QID|61990|CS|M|38.64,68.17;37.94,69.07|Z|Revendreth|ACH|14314;1|N|Run along the ledge to get over to where the quill is then drop down beside it. Offer the ink to the quill for a pet.|ITEM|182613|
-K Scrivener Lenua|QID|58213|M|38.32,69.21|Z|Revendreth|T|Scrivener Lenua|N|WH - Bring 4 Forbidden Tombs back to the library to summom Rare.  Tombs are random spots near library.|ITEM|180587|RARE|ACH|14310;13|
-T Sign Your Own Death Warrant|QID|57380|M|38.97,66.03|Z|Revendreth|N|To Stonehead.|MS|
-N Pick up Hollow Rock|AVAILABLE|58327|M|38.87,64.31|Z|Revendreth|N|After Stonehead has unavoidably thrown you, pick up the Hollow Rock to disguise yourself.|BUFF|320559|RANK|2|
-A Snacks for Stonehead|QID|58327|M|39.33,65.25|Z|Revendreth|N|Now that you have your disguise, go over to the Chewed Light Shard and pick up this quest.|RANK|2|
-; commenting out - so doesnt pop up when you go out of the area. == A Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
-C Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|S!US|N|Kill Hostiles and give parasols to the desicated as you do the side quests in the area.|TOF|
-A Chasing Madness|QID|57405|M|37.07,63.14|Z|Revendreth|N|From Lost Sybille.|LVL|58|PRE|57380|MS|
-C Chasing Madness|QID|57405|M|37.43,60.37|Z|Revendreth|NC|N|Follow Lost Sybille.|MS|
-T Chasing Madness|QID|57405|M|38.10,60.77|Z|Revendreth|N|To Theotar.|MS|
-A My Terrible Morning|QID|57426|M|38.10,60.77|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57405|MS|
-A Theotar's Mission|QID|57428|M|38.10,60.77|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57405|MS|
-A Unbearable Light|QID|57427|M|38.10,60.77|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57405|MS|
-C Unbearable Light|QID|57427|M|34.54,59.45|Z|Revendreth|N|Kill Blistering Ash Ghouls.|S|MS|
-C Theotar's Mission|QID|57428|M|34.54,59.45|Z|Revendreth|NC|N|Click to collect Scorched Plank and scraps laying around the area.|S|MS|
-C Snacks for Stonehead|QID|58327|QO|4|M|34.21,55.66|Z|Revendreth|NC|S!US|N|Pick up one of the yellow crystals around the area for Stonehead. (feel free to pick up another for the Extra Action Button effect).|
-A A Rousing Aroma|QID|60467|M|35.04,53.91|Z|Revendreth|N|From Sabina.|RANK|2|
-C A Rousing Aroma|QID|60467|M|35.48,48.85|Z|Revendreth|S|N|Kill Ravenous Swarms and loot the Pungent Swarmer Toxin.|
-C Snacks for Stonehead|QID|58327|QO|1|M|31.56,61.84|Z|Revendreth|S|N|Also Ravenous Swarms drop the Gooey Bug Bites for Stonehand.|
-C My Terrible Morning|QID|57426|M|33.81,61.21|Z|Revendreth|N|Marquis Pummeler slain.|MS|
-C Theotar's Mission|QID|57428|M|34.54,59.45|Z|Revendreth|N|Click to collect Scorched Plank and scraps laying around the area.|US|MS|
-C Unbearable Light|QID|57427|M|33.04,55.44|Z|Revendreth|N|Kill Blistering Ash Ghouls.|US|MS|
-T My Terrible Morning|QID|57426|M|PLAYER|Z|Revendreth|N|To Theotar.|MS|
-T Unbearable Light|QID|57427|M|PLAYER|Z|Revendreth|N|To Theotar.|MS|
-T Theotar's Mission|QID|57428|M|PLAYER|Z|Revendreth|N|To Theotar.|MS|
-A Lost in the Desiccation|QID|57442|M|PLAYER|Z|Revendreth|N|From Theotar.|PRE|57426&57427&57428|MS|
-;$ Smuggled Cache|QID|59889|M|31.05,55.10|Z|Revendreth|N|Under broken bridge, across from the entrance to Theotar's hideout.|ITEM|182738|ACH|14314;5|
-A Parasol Components|QID|62189|M|31.05,55.10|Z|Revendreth|N|From the item you just looted.|;$
-C Lost in the Desiccation|QID|57442|M|31.01,57.53|Z|Revendreth|NC|N|Follow Lost Sybille to Tubbins.|MS|
-T Lost in the Desiccation|QID|57442|M|31.01,57.53|Z|Revendreth|N|To Tubbins.|MS|
-A Tubbins's Tea|QID|57460|M|31.01,57.53|Z|Revendreth|N|From Tubbins.|LVL|58|PRE|57442|MS|
-C Tubbins's Tea|QID|57460|M|31.01,57.53|Z|Revendreth|QO|1|CHAT|N|Speak with Tubbins to start making the tea.|MS|
-C Forcefully Fragrant Fronds|QID|57460|M|31.01,57.53|Z|Revendreth|QO|2|NC|N|Run over the green zones to catch the Forcefully Fragrant Fronds.|BUFF|307920<3|MS|
-C Cauldron|QID|57460|QO|2|M|31.25,57.57|Z|Revendreth|NC|N|Take the fronds to the cauldron.|MS|
-C Grave Gravel|QID|57460|M|31.01,57.53|Z|Revendreth|QO|3|NC|N|Run over the green zones to catch the Grave Gravel.|BUFF|307947<4|MS|
-C Cauldron|QID|57460|QO|3|M|31.25,57.57|Z|Revendreth|NC|N|Take the gravel to the cauldron.|MS|
-C Spicy Scorchshrooms|QID|57460|M|31.01,57.53|Z|Revendreth|QO|4|NC|N|Run over the green zones to catch the Spicy Scorchshrooms.|BUFF|307976<2|MS|
-C Cauldron|QID|57460|QO|4|M|31.25,57.57|Z|Revendreth|NC|N|Take the shrooms to the cauldron.|MS|
-C Luminous Lightroot|QID|57460|M|31.01,57.53|Z|Revendreth|QO|5|NC|N|Run over the green zones to catch the Luminous Lightroot.|BUFF|307981|MS|
-C Cauldron|QID|57460|QO|5|M|31.25,57.57|Z|Revendreth|NC|N|Take the roots to the cauldron.|MS|
-C Tricky Thicket Thorns|QID|57460|M|31.01,57.53|Z|Revendreth|QO|6|NC|N|Run over the green zones to catch the Tricky Thicket Thorns.|BUFF|307983|MS|
-C Cauldron|QID|57460|QO|6|M|31.25,57.57|Z|Revendreth|NC|N|Take the thorns to the cauldron.|MS|
-C Liquid Shadows|QID|57460|M|30.96,57.65|Z|Revendreth|QO|7|NC|N|Click on the Dented Teapot by the fire.|BUFF|308049|MS|
-C Cauldron|QID|57460|QO|7|M|31.25,57.57|Z|Revendreth|NC|N|Take the teapot to the cauldron.|MS|
-T Tubbins's Tea|QID|57460|M|31.01,57.53|Z|Revendreth|N|To Tubbins.|MS|
-A An Uneventful Stroll|QID|57461|M|31.17,57.53|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57460|MS|
-C An Uneventful Stroll|QID|57461|M|31.17,57.53|Z|Revendreth|QO|1|CHAT|N|Speak with Theotar to get going.|MS|
-C An Uneventful Stroll|QID|57461|M|32.01,47.60|Z|Revendreth|QO|2|N|Escort Theotar to the sanctuary, defending him along the way.|MS|
-T An Uneventful Stroll|QID|57461|M|32.01,47.60|Z|Revendreth|N|To Theotar.|MS|
-A Into the Light|QID|60566|M|32,47.6|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57461|MS|
-f Sanctuary of the Mad|ACTIVE|60566^62778|M|30.58,48.81|Z|Revendreth|N|Grab the flightpoint from Courier Shaal.|
-T Parasol Components|QID|62189|M|32.66,49.29|Z|Revendreth|N|To Mats.|
-A WANTED: Enforcer Kristof|QID|60275|M|30.68,48.99|Z|Revendreth|N|From WANTED Poster.|ELITE|RANK|2|LVL|60|
-A WANTED: Summoner Marcelis|QID|60276|M|30.87,49.05|Z|Revendreth|N|From WANTED Poster.|ELITE|RANK|2|
-C Snacks for Stonehead|QID|58327|QO|2|M|31.56,61.84|Z|Revendreth|S|N|Kill the Ash Crawlers to collect Ash Crisps.|
-K Summoner Marcelis|ACTIVE|60276|QO|1|M|30.32,63.79|Z|Revendreth|N|Inside a building beyond the Ember Ward, in Cinderwall you can find Summoner Marcelis.|
-C Snacks for Stonehead|QID|58327|QO|2|M|31.56,61.84|Z|Revendreth|US|N|Continue killing the Ash Crawlers until you have enough Ash Crisps.|
-
-; Sidequest Storyline - Revelations of the Light
-C A Rousing Aroma|QID|60467|M|35.48,48.85|Z|Revendreth|US|N|Kill Ravenous Swarms and loot the Pungent Swarmer Toxin.|
-T A Rousing Aroma|QID|60467|M|35.04,53.91|Z|Revendreth|N|To Sabina.|
-A Safe in the Shadows|QID|60469|M|35.04,53.91|Z|Revendreth|N|From Sabina.|PRE|60467|RANK|2|
-A Rubble Rummaging|QID|60468|M|35.04,53.91|Z|Revendreth|N|From Sabina.|PRE|60467|RANK|2|
-C Rubble Rummaging|QID|60468|M|38.84,53.46|Z|Revendreth|NC|N|Click on the glowing rubble piles scattered around until you find the Shackle Key.|S|
-C Safe in the Shadows|QID|60469|M|37.90,53.51|Z|Revendreth|QO|1|NC|N|Find Sabina's companions.|
-C Safe in the Shadows|QID|60469|M|37.90,53.51|Z|Revendreth|QO|2|NC|N|Click on the Light Satchel, Tattered Journal and Stained Dagger to inspect for clues.|
-C Rubble Rummaging|QID|60468|M|38.84,53.46|Z|Revendreth|NC|N|Click on the glowing rubble piles scattered around until you find the Shackle Key.|US|
-T Safe in the Shadows|QID|60469|M|35.04,53.91|Z|Revendreth|N|To Sabina.|
-T Rubble Rummaging|QID|60468|M|35.04,53.91|Z|Revendreth|N|To Sabina.|
-A Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|N|From Sabina.|PRE|60468&60469|RANK|2|
-C Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|QO|1|NC|N|Click on the shackles to release Sabina.|
-C Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|QO|2|N|Kill Sabina.|
-T Setting Sabina Free|QID|60470|M|PLAYER|Z|Revendreth|N|Click Pop-Up Quest to complete.|
-
-; Sidequest Storyline - Mirror Maker of the Master
-;t don't know where this comes from? A Master of Their Craft|QID|60051|M|26.43,48.95|Z|Revendreth|N|To Laurent.|RANK|2|
-A An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|From Laurent.|RANK|2|
-C An Unfortunate Situation|QID|57531|M|29.81,48.63|Z|Revendreth|N|Kill the Costel and his 2 friends in the hideout, loot him to collect Laurent's Belongings.|
-T An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|To Laurent.|
-A Foraging for Fragments|QID|57532|M|26.43,48.95|Z|Revendreth|N|From Laurent.|PRE|57531|RANK|2|
-C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|1|N|Follow Laurent and defend him against attackers.|
-C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|2|NC|N|Click on the Mirror Fragment laying on the ground.|
-C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|3|N|Follow Laurent and defend him against attackers.|
-C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|4|NC|N|Click on the Mirror Fragment laying on the ground.|
-C Foraging for Fragments|QID|57532|M|24.97,48.00|Z|Revendreth|QO|5|N|Follow Laurent and defend him against attackers.|
-C Foraging for Fragments|QID|57532|M|24.97,48.00|Z|Revendreth|QO|6|NC|N|Click on the Mirror Fragment laying on the ground.|
-T Foraging for Fragments|QID|57532|M|24.26,49.40|Z|Revendreth|N|To Laurent.|
-A Moving Mirrors|QID|57571|M|24.26,49.40|Z|Revendreth|N|From Laurent.|PRE|57532|RANK|2|
-C Moving Mirrors|QID|57571|M|24.09,49.68|Z|Revendreth|QO|1|NC|N|Click on the mirrors to free Simone.|
-T Moving Mirrors|QID|57571|M|24.19,49.46|Z|Revendreth|N|To Simone.|
-A Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|From Simone.|PRE|57571|RANK|2|
-A When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|From Laurent.|PRE|57571|RANK|2|
-C When Only Ash Remains|QID|57534|M|22.48,52.16|Z|Revendreth|N|Kill Ashen enemies.|S|
-C Light Punishment|QID|57533|M|22.48,52.16|Z|Revendreth|NC|N|Click on the mirrors around Blistering Outcasts to free them.|
-C When Only Ash Remains|QID|57534|M|22.48,52.16|Z|Revendreth|N|Kill Ashen enemies.|US|
-T When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|To Laurent.|
-T Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|To Simone.|
-A We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|From Simone.|PRE|57533&57534|RANK|2|
-A Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|From Laurent.|PRE|57533&57534|RANK|2|
-C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|NC|N|Click on Anima canisters laying around the area.|S|
-C Escaping the Master|QID|57535|M|24.79,53.51|Z|Revendreth|S|N|Kill enemies and loot their Mirror Fragments.|
-C Snacks for Stonehead|QID|58327|QO|3|M|26.33,53.32|Z|Revendreth|S|N|The Shrouded type mobs in the Shrouded Asylum drop the Mirror Candy needed.|
-K Enforcer Kristof|ACTIVE|60275|QO|1|CS|M|23.42,53.75;22.78,55.79|Z|Revendreth|N|Up to The Shrouded Asylum and inside the building to find Enforcer Kristof.|
-C Snacks for Stonehead|QID|58327|QO|3|M|26.33,53.32|Z|Revendreth|US|N|Finish collecting Mirror Candy from the Shrouded type mobs.|
-C Escaping the Master|QID|57535|M|24.79,53.51|Z|Revendreth|US|N|Kill enemies and loot their Mirror Fragments.|
-C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|N|Click on Anima canisters laying around the area.|US|
-T We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|To Simone.|
-T Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|To Laurent.|
-A Mirror Making, Not Breaking|QID|57536|M|24.26,49.40|Z|Revendreth|N|From Laurent.|PRE|59427&57535|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|1|NC|N|Follow Laurent and Simone to the mirror.|
-C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|2|CHAT|N|Speak to Laurent to let him begin.|
-C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|3|N|Kill waves of enemies, defending Laurent and Simone.|
-T Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|N|To Laurent.|
-N Sanctuary of the Mad|ACTIVE|60275^60276|M|24.80,50.27|Z|Revendreth|N|Walk thru the mirror for a quick trip to Sanctuary of the Mad.|
-T WANTED: Enforcer Kristof|QID|60275|M|30.71,49.12|Z|Revendreth|N|To Dispatcher Raluca.|
-T WANTED: Summoner Marcelis|QID|60276|M|30.81,49.12|Z|Revendreth|N|To Dispatcher Raluca.|
-T Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
-T Snacks for Stonehead|QID|58327|M|39.06,65.91|Z|Revendreth|N|To Stonehead.|;--not sure where to place this. leaving it here for now. quest is finished during the Mirror Maker story arc ~ line 448
-
-C Into the Light|QID|60566|M|30.37,47.44|Z|Revendreth|N|Ride the elevator to Sinfall.|MS|
-T Into the Light|QID|60566|M|30.42,45.65|Z|Revendreth|N|To Breakfist.|MS|
-A Securing Sinfall|QID|57724|M|30.42,45.65|Z|Revendreth|N|From Breakfist.|LVL|58|PRE|60566|MS|
-C Securing Sinfall|QID|57724|M|29,42.8|Z|Revendreth|QO|1|N|Kill enemies and interact with objects spread around Sinfall.|S|MS|
-C Securing Sinfall|QID|57724|M|29.06,42.86|Z|Revendreth|QO|2|N|Kill Grand Monitor Rorok.|MS|
-C Securing Sinfall|QID|57724|M|29,42.8|Z|Revendreth|QO|1|N|Kill enemies and interact with objects spread around Sinfall.|US|MS|
-C Securing Sinfall|QID|57724|M|28.41,44.19|Z|Revendreth|QO|3|NC|N|Click on the hanging chain and then proceed up the stairs to find the Scorching Mirror, then click to redirect it.|MS|
-T Securing Sinfall|QID|57724|M|29.86,42.33|Z|Revendreth|N|To Theotar.|MS|
-
-; Prince Renathal Storyline
-A In the Ruin of Rebellion|QID|59327|M|29.86,42.33|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57724|MS|
-C In the Ruin of Rebellion|QID|59327|M|29.36,42.66|Z|Revendreth|QO|1|NC|N|Head down the stairs behind Theotar to find a mirror to enter Sinfall.|MS|
-T In the Ruin of Rebellion|QID|59327|M|29.43,42.89|Z|Revendreth|N|Continue down the stairs inside Sinfall to find Vorpalia. It can be roaming around the circle.|MS|
-A Prince Renathal|QID|57689|M|31.2,40.6|Z|Revendreth|N|From Vorpalia.|LVL|58|PRE|59327|MS|
-C Prince Renathal|QID|57689|M|28.64,43.99|Z|Revendreth|QO|1|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
-C Prince Renathal|QID|57689|M|28.64,43.99|Z|Revendreth|QO|2|NC|N|Jump into the Maw once the portal opens.|MS|
-T Prince Renathal|QID|57689|M|38.69,28.31|Z|The Maw|N|To Vorpalia.|MS|
-A Cages For All Occasions|QID|57690|M|38.69,28.31|Z|The Maw|N|From Vorpalia.|LVL|58|PRE|57689|MS|
-T Cages For All Occasions|QID|57690|M|34.65,18.71|Z|The Maw|N|To Prince Renathal.|MS|
-A A Royal Key|QID|57691|M|34.65,18.71|Z|The Maw|N|From Prince Renathal.|LVL|58|PRE|57690|MS|
-C A Royal Key|QID|57691|M|30.11,20.27|Z|The Maw|T|Ghelak|N|Kill Ghelak the Incarcerator and loot Renathal's Cage Key.|MS|
-T A Royal Key|QID|57691|M|34.6,18.6|Z|The Maw|N|To Prince Renathal.|MS|
-A Torghast, Tower of the Damned|QID|57693|M|34.6,18.6|Z|The Maw|N|From Prince Renathal.|LVL|58|PRE|57691|MS|
-C Torghast, Tower of the Damned|QID|57693|CS|M|30.44,16.59;31.33,12.56|Z|The Maw|QO|1|NC|N|Find an entrance to Torghast.|MS|
-C Torghast, Tower of the Damned|QID|57693|M|31.33,12.56|Z|The Maw|QO|2|NC|N|Click the gate to Enter Skoldus Hall, Torghast.|MS|
-C Torghast, Tower of the Damned|QID|57693|M|58.4,66.6|Z|Torghast - Map Floor 21!Instance|QO|3|N|Work your way to the 3rd floor.|MS|
-C Torghast, Tower of the Damned|QID|57693|M|58.4,66.6|Z|Torghast - Map Floor 21!Instance|QO|4|N|Kill the Warden of Souls.|MS|
-C Torghast, Tower of the Damned|QID|57693|M|58.4,66.6|Z|Torghast - Map Floor 21!Instance|QO|5|NC|N|Enter the red circle in the center of the room to start the Ritual of Soul Tracing.|MS|
-T Torghast, Tower of the Damned|QID|57693|M|26.52,57.22|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|MS|
-A Refuge of Revendreth|QID|57694|M|26.52,57.22|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|LVL|58|PRE|57693|MS|
-C Refuge of Revendreth|QID|57694|M|47.59,57.52|Z|Sinfall Reaches@Sinfall!Dungeon|QO|1|NC|N|Meet with Theotar.|MS|
-C Refuge of Revendreth|QID|57694|M|42.22,11.88|Z|Sinfall Reaches@Sinfall!Dungeon|QO|2|NC|N|Meet with the Accuser.|MS|
-C Refuge of Revendreth|QID|57694|M|52.55,39.16|Z|Sinfall Reaches@Sinfall!Dungeon|QO|3|NC|N|Meet with General Draven.|MS|
-T Refuge of Revendreth|QID|57694|M|52.54,39.15|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|MS|
-
-; The Master of Lies Storyline
-A Blinded By The Light|QID|59644|M|52.54,39.15|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|LVL|60|PRE|57694|MS|
-C Blinded By The Light|QID|59644|CS|M|31.52,44.37;28.39,45.61;27.31,40.33;29.74,38.65;31.78,40.60;31.75,42.35|Z|Revendreth|N|Run up the stairs, out thru the mirror, then click on the reflector mirrors around the top of Sinfall.|MS|
-T Blinded By The Light|QID|59644|M|32.12,41.46|Z|Revendreth|N|To Projection of Prince Renathal.|MS|
-A The Master of Lies|QID|58086|M|32.12,41.46|Z|Revendreth|N|From Projection of Prince Renathal.|LVL|59|PRE|59644|MS|
-C The Master of Lies|QID|58086|M|32.12,41.46|Z|Revendreth|QO|1|CHAT|N|Speak with the Projection of Prince Renathal to queue for the scenario.|MS|
-C Rally with the Rebels|ACTIVE|58086|M|37.48,41.48|Z|Revendreth!Instance1688|SO|1|NC|N|Meet Prince Renathal in the Court of Harvesters.|
-C Awaken Darkwing Stoneborn|ACTIVE|58086|M|43.18,41.16|Z|Revendreth!Instance1688|SO|2|N|Collect Anima by picking up the Anima containers and running thru the red orbs where hostile npc's die, click to awaken stoneborn who are loyal to Prince Renathal.|
-C Rally at Dominance Gate|ACTIVE|58086|M|42.02,37.35|Z|Revendreth!Instance1688|SO|3|N|Meet Prince Renathal and your allies at Dominance Gate.|
-C Menagerie of the Master reached|ACTIVE|58086|M|44.76,31.25|Z|Revendreth!Instance1688|SO|4|N|Reach the far side of Dominance Gate.|
-C Defeat General Kaal|ACTIVE|58086|M|45.67,31.49|Z|Revendreth!Instance1688|SO|5|N|Defeat General Kaal|
-C The Curator empowered|ACTIVE|58086|M|47.40,29.62|Z|Revendreth!Instance1688|SO|6;2|N|Kill the group around the Anima Diverters, then The Curator will run up and help you with the next group that joins in.|
-C The Accuser empowered|ACTIVE|58086|M|47.52,33.32|Z|Revendreth!Instance1688|SO|6;1|N|Kill the group around the Anima Diverters, then The Accuser will run up and help you with the next group that joins in..|
-C Renathal empowered|ACTIVE|58086|M|49.15,35.09|Z|Revendreth!Instance1688|SO|6;3|N|Kill the group around the Anima Diverters, then Prince Renathal will run up and help you with the next group that joins in.|
-C Clear the Menagerie|ACTIVE|58086|M|50.68,31.73|Z|Revendreth!Instance1688|SO|7|N|Slay Myskia and whatever else you run into.|
-C The Master|ACTIVE|58086|M|50.37,30.38|Z|Revendreth!Instance1688|SO|8;1|N|Speak with Prince Renathal.|
-C The Master|ACTIVE|58086|M|50.37,30.38|Z|Revendreth!Instance1688|SO|8;2|N|Presumably big fight happens here, skipped in beta.|
-T The Master of Lies|QID|58086|M|50.28,28.26|Z|Revendreth|N|To Prince Renathal.|MS| ; Achievement here?
-A A Master of Their Craft|QID|60051|LEAD|57531|M|50.28,28.26|Z|Revendreth|N|From Prince Renathal.|LVL|60|RANK|2|
-A The End of the Beginning|QID|57876|M|50.28,28.26|Z|Revendreth|N|From Prince Renathal.|LVL|60|PRE|58086|MS|;cov? shrilynda not offered it.
-C The End of the Beginning|QID|57876|M|50.26,29.24|Z|Revendreth|QO|1|CHAT|N|Speak to Draven for a ride.|MS|
-C The End of the Beginning|QID|57876|M|70.49,80.50|Z|Revendreth|QO|2|NC|N|Fly with Draven to Oribos.|MS|
-F Oribos|ACTIVE|57876|M|70.34,81.15|Z|Revendreth|N|At Courier Gevoraal.|
-T The End of the Beginning|QID|57876|M|39.2,69.4|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
-A The Looming Dark|QID|57877|M|38.94,69.96|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|60|PRE|57876|MS|
-C The Looming Dark|QID|57877|M|PLAYER|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Listen to Tal-Inara.|MS|
-T The Looming Dark|QID|57877|M|38.94,69.96|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
-A Choosing Your Purpose|QID|62000^57878|M|39.29,69.61|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|50|PRE|62716^57877|
-C Choosing Your Purpose|QID|62000^57878|M|36.32,64.22|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with the Polemarch Adrestes.|
-C Choosing Your Purpose|QID|62000^57878|M|39.55,61.10|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Lady Moonberry.|
-C Choosing Your Purpose|QID|62000^57878|M|44.59,68.74|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the General Draven.|
-C Choosing Your Purpose|QID|62000^57878|M|43.07,73.81|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Secutor Mevix.|
-C Choosing Your Purpose|QID|62000^57878|M|39.49,69.27|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Make your choice at the Shdowlands Covenant Map.|
-T Choosing Your Purpose|QID|62000^57878|M|38.88,70.02|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
+;F Darkhaven|QID|57098|N|At Courier Rehkaash to go back to the main story line.|MS|
+;R The Banewood|QID|62782|M|54.11,68.03|Z|Revendreth|N|Across the high bridge, past the elevator and then down into The Banewood.|TOF|
 ]]
 end)
