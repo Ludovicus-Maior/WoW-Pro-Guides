@@ -266,7 +266,7 @@ f Emperor's Omen|QID|29928|M|50.84,26.86|N|At Supplier Towsa.|
 A I Have No Jade And I Must Scream|QID|29928|M|50.91,27.03|N|From Foreman Mann.|PRE|29925|
 C I Have No Jade And I Must Scream|QID|29928|M|48.46,32.25|N|Kill the sprites, they toss out some jade pieces when they die.|
 T I Have No Jade And I Must Scream|QID|29928|M|50.91,27.05|N|To Foreman Mann.|
-A Calamity Jade|QID|29926M|50.91,27.05|N|From Foreman Mann.|PRE|29928|
+A Calamity Jade|QID|29926|M|50.91,27.05|N|From Foreman Mann.|PRE|29928|
 A Mann's Man|QID|29927|M|50.91,27.05|N|From Foreman Mann.|PRE|29928|
 T Mann's Man|QID|29927|M|45.44,29.09|N|To Hao Mann.|
 A Trapped!|QID|29929|M|45.44,29.09|N|From Hao Mann.|PRE|29927|
@@ -299,9 +299,9 @@ A An Urgent Plea|QID|29749|N|From UI Alert.|PRE|29747&29748|
 C An Urgent Plea|QID|29749|M|44.24,14.91|QO|1|N|Get the staff|
 C An Urgent Plea|QID|29749|M|44.36,15.89|QO|2|N|Kill Ancient Spirits drifting towards the center to destroy the ritual.|
 T An Urgent Plea|QID|29749|M|44.22,15.01|N|To Pei-Zhi. Wait for him to come down.|
-A Ritual Artifacts|QID|29751|MM|44.22,15.01|N|From Pei-Zhi.|PRE|29749
-A Vessels of the Spirit|QID|29750|MM|44.22,15.01|N|From Pei-Zhi.|PRE|29749
-A The Wayward Dead|QID|29752|MM|44.22,15.01|N|From Pei-Zhi.|PRE|29749
+A Ritual Artifacts|QID|29751|M|44.22,15.01|N|From Pei-Zhi.|PRE|29749
+A Vessels of the Spirit|QID|29750|M|44.22,15.01|N|From Pei-Zhi.|PRE|29749
+A The Wayward Dead|QID|29752|M|44.22,15.01|N|From Pei-Zhi.|PRE|29749
 C Vessels of the Spirit|QID|29750|M|40.69,14.85|N|Kill and loot the Shan'ze Spiritclaws to get the spirit bottles.|S|
 C The Wayward Dead|QID|29752|M|44.22,15.01|N|Use Pei-Zhi's staff to release the Wandering Spirits.|U|74771|S|
 C Ritual Artifacts|QID|29751|M|41.62,14.27|QO|2|NC|
