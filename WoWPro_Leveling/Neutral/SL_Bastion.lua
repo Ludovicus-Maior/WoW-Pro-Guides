@@ -350,6 +350,7 @@ C Agthia's Path|QID|57551|M|46.96,63.44|Z|Bastion!The Shadowlands|NC|N|Click the
 T Agthia's Path|QID|57551|M|46.59,63.37|Z|Bastion!The Shadowlands|N|To Agthia.|
 A Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion!The Shadowlands|N|From Agthia.|PRE|57551|RANK|2|
 A Wicked Gateways|QID|57554|M|46.59,63.37|Z|Bastion!The Shadowlands|N|From Agthia.|PRE|57551|RANK|2|
+N Witness the Past |QID|57553|M|47.00,63.38|Z|Bastion!The Shadowlands|N|You need to have take on the guise of a kyrian in battle from eons ago to continue. Click on the Vesper of History to acquire this buff.|PRE|57551|RANK|2|BUFF|308243^308239^345527|
 A On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion!The Shadowlands|N|From Agthian Defender.|PRE|57551|RANK|2|
 C Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion!The Shadowlands|N|Kill all the mobs. There are scattered spears on the ground that are worth picking up and using for the AE Damage.|S|
 C On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion!The Shadowlands|NC|N|Click the Wounded Defenders to heal them.|S|
