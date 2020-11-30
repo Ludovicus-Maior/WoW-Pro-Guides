@@ -130,132 +130,136 @@ A Stay a While, and Listen|QID|31121|M|27.59,32.69|N|From Lorewalker Cho.|PRE|29
 C Stay a While, and Listen|QID|31121|M|27.69,32.56|CC|N|Click Cho's Teapot on the table to grab some tea and start the cinematic.\nYou'll be moved to the center of the room to sit and listen to Cho. You don't have a choice at this point.\nThis steps completes when the cinematic ends.|NC|
 T Stay a While, and Listen|QID|31121|M|27.59,32.69|N|To Lorewalker Cho.|
 A A Mile in My Shoes|QID|31132|M|27.59,32.69|N|From Lorewalker Cho.|PRE|31121|
-T A Mile in My Shoes|QID|31132|M|27.59,32.69|N|To Lorewalker Cho.|
-A If These Stones Could Speak|QID|31134|M|27.59,32.69|N|From Lorewalker Cho.|PRE|31132|
-C If These Stones Could Speak|QID|31134|M|30.59,34.21|N|Click on each of the standing stones, starting with the one with the hole in it, mobs may come attack you.|NC|
-T If These Stones Could Speak|QID|31134|M|30.83,34.12|N|To Lorewalker Cho.|
-A Peering Into the Past|QID|31152|M|30.83,34.12|N|From Lorewalker Cho.|PRE|31134|
-C Peering Into the Past|QID|31152|M|28.97,32.46|N|Talk to Cho.|CHAT|
-T Peering Into the Past|QID|31152|M|28.84,32.64|N|To Lorewalker Cho.|
+T A Mile in My Shoes|QID|31132|M|30.84,34.05|N|To Lorewalker Cho in Circle of Bone.\nYou don't need to follow him; just meet him there.|
+A If These Stones Could Speak|QID|31134|M|30.85,34.05|N|From Lorewalker Cho.|PRE|31132|
+C If These Stones Could Speak|QID|31134|M|30.88,33.69|QO|1|N|Click on the First Stone Monolith; the one with the hole in it.|NC|
+C If These Stones Could Speak|QID|31134|M|30.64,33.78|QO|2|N|Click on the Second Stone Monolith.\nYou'll be attacked by a single Bloodthirsty Saurok.|NC|
+C If These Stones Could Speak|QID|31134|M|30.59,34.15|QO|3|N|Click on Third Stone Monolith.|NC|
+T If These Stones Could Speak|QID|31134|M|30.85,34.05|N|To Lorewalker Cho.|
+A Peering Into the Past|QID|31152|M|30.85,34.05|N|From Lorewalker Cho.|PRE|31134|
+C Peering Into the Past|QID|31152|M|29.17,32.36|N|Talk to Cho to start the quest.\nYou don't have to escort him to Circle of Stone; just meet him there.|CHAT|
+T Peering Into the Past|QID|31152|M|28.82,32.61|N|To Lorewalker Cho.|
 A Family Tree|QID|31167|M|28.84,32.64|N|From Lorewalker Cho.|PRE|31152|
-C Family Tree|QID|31167|M|28.80,32.48|NC|
-T Family Tree|QID|31167|M|28.86,32.60|N|To Lorewalker Cho.|
-A Swallowed Whole|QID|29879|M|28.86,32.60|N|From Lorewalker Cho.|PRE|31167|
-C Swallowed Whole|QID|29879|M|23.43,36.65|N|Click on the speckled trout to catch them.|
+C Family Tree|QID|31167|M|28.80,32.48|N|Click on the Incense Bundle to light it.|NC|
+T Family Tree|QID|31167|M|28.82,32.63|N|To Lorewalker Cho.|
+A Swallowed Whole|QID|29879|M|28.82,32.63|N|From Lorewalker Cho.|PRE|31167|
+C Swallowed Whole|QID|29879|M|23.43,36.65|N|Click on the speckled trout to catch them.\nIf you have 'Click-to-Move' enabled, you'll chase after them.|
 $ Pandaren Ritual Stone|QID|31404|M|23.49,35|N|Pick it up, its worth 105g and more xp than a quest.|NC|
 T Swallowed Whole|QID|29879|M|26.26,37.33|N|To Tooki Tooki.|
 A Orders are Orders|QID|29935|M|26.26,37.33|N|From Tooki Tooki.|PRE|29879|
-A The Bees' Knees|QID|29933|M|25.91,38.01|N|From Bo Bo.|PRE|29879|
+A The Bees' Knees|QID|29933|M|25.88,38.00|N|From Bo Bo.|PRE|29879|
 A Kill Kher Shan|QID|29924|M|25.96,38.72|N|From Nibi Nibi.|PRE|29879|
-A Wicked Wikkets|QID|31241|M|28.15,38.99|N|From Jeek Jeek.|PRE|29879|
-C Wicked Wikkets|QID|31241|M|32.05,40.84|S|
+A Wicked Wikkets|QID|31241|M|28.19,38.97|N|From Jeek Jeek.|PRE|29879|
+C Wicked Wikkets|QID|31241|M|32.05,40.84|N|Kill Battleworn Paratroopers to collect the Alliance Service Medallions.|S|
 K Kill Captain Jack|QID|31261|M|30.84,41.31|L|85783|N|Loot his head to start a quest.|T|Jack Arrow|
 A Captain Jack's Dead|QID|31261|M|28.07,46.87|N|From Capt. Jack's Head.|U|85783|
-C Wicked Wikkets|QID|31241|M|32.05,40.84|US|
+C Wicked Wikkets|QID|31241|M|32.05,40.84|N|Finish collecting the Alliance Service Medallions by Killing Battleworn Paratroopers.|US|
 K Kill Kher Shan|QID|29924|M|33.36,41.47|QO|1|T|Kher Shan|
-T Kill Kher Shan|QID|29924|M|33.36,41.47|N|To UI Alert.|
-C The Bees' Knees|QID|29933|M|29.34,43.92|N|Kill and loot Tigerfly|
-T Orders are Orders|QID|29935|M|28.00,47.21|N|To Chief Kah Kah.|
-A Instant Messaging|QID|29936|M|28.00,47.21|N|From Chief Kah Kah.|PRE|29935|
-T The Bees' Knees|QID|29933|M|28.00,47.21|N|To Chief Kah Kah.|
-T Wicked Wikkets|QID|31241|M|28.00,47.21|N|To Chief Kah Kah.|
-T Captain Jack's Dead|QID|31261|M|27.97,47.09|N|To Chief Kah Kah.|
-C Instant Messaging|QID|29936|M|27.96,44.47|U|76305|NC|
-T Instant Messaging|QID|29936|M|28.28,47.75|N|To General Nazgrim.|
-A Beyond the Horizon|QID|29941|M|28.28,47.75|N|From General Nazgrim.|PRE|29936|
-f Grookin Hill|QID|29941|M|27.83,47.94|N|At Grookin Flapmaster.|
-C Beyond the Horizon|QID|29941|M|27.98,47.14|QO|4|N|Blizzard has conveniently placed chat bubbles over their heads (and on the minimap) to help you find them.|CHAT|
-C Beyond the Horizon|QID|29941|M|28.35,47.00|QO|1|CHAT|
-C Beyond the Horizon|QID|29941|M|27.77,50.35|QO|2|N|He walks around near the waypoint.|CHAT|
-C Beyond the Horizon|QID|29941|M|27.08,48.98|QO|3|CHAT|
-T Beyond the Horizon|QID|29941|M|28.25,47.76|N|To General Nazgrim.|
-A Furious Fowl|QID|29937|M|28.25,47.76|N|From Rivett Clutchpop.|PRE|29941|
-A What's in a Name Name?|QID|31239|M|28.01,47.15|N|From Chief Kah Kah.|PRE|29941|
+T Kill Kher Shan|QID|29924|M|PLAYER|N|To UI Alert.|
+C The Bees' Knees|QID|29933|M|29.34,43.92|N|Kill and loot Tigerflies.|
+T Orders are Orders|QID|29935|M|27.98,47.19|N|To Chief Kah Kah.|
+A Instant Messaging|QID|29936|M|27.98,47.19|N|From Chief Kah Kah.|PRE|29935|
+T The Bees' Knees|QID|29933|M|27.98,47.19|N|To Chief Kah Kah.|
+T Wicked Wikkets|QID|31241|M|27.98,47.19|N|To Chief Kah Kah.|
+T Captain Jack's Dead|QID|31261|M|27.98,47.19|N|To Chief Kah Kah.|
+C Instant Messaging|QID|29936|M|27.98,46.79|N|Use the Hellscream's Fist Signal Flare within 10 yards of the Signal Point to start a cinematic.\nYou can click the Signal Flare on the ground at the Signal Point to get the same result.|U|76305|NC|
+T Instant Messaging|QID|29936|M|28.26,47.78|N|To General Nazgrim.\nYou'll be moved to this location once the cinematic ends.|
+A Beyond the Horizon|QID|29941|M|28.26,47.78|N|From General Nazgrim.|PRE|29936|
+f Grookin Hill|QID|29941|M|27.81,47.91|N|At Grookin Flapmaster.|
+C Beyond the Horizon|QID|29941|M|27.98,47.19|QO|4|N|Talk to Chief Kah Kah.\nBlizzard has conveniently placed chat bubbles over their heads (and on the minimap) to help you find them.|CHAT|
+C Beyond the Horizon|QID|29941|M|28.35,46.97|QO|1|N|Talk to Shokia.|CHAT|
+C Beyond the Horizon|QID|29941|M|27.37,50.63|QO|2|N|Talk to Sergeant Gorrok.\nHe walks around near the waypoint.|CHAT|
+C Beyond the Horizon|QID|29941|M|27.10,48.98|QO|3|N|Talk to Shademaster Kiryn.|CHAT|
+T Beyond the Horizon|QID|29941|M|28.26,47.78|N|To General Nazgrim.|
+A Furious Fowl|QID|29937|M|28.30,47.79|N|From Rivett Clutchpop.|PRE|29941|
+A What's in a Name Name?|QID|31239|M|27.98,47.19|N|From Chief Kah Kah.|PRE|29941|
 C Furious Fowl|QID|29937|M|29.67,51.05|S|
 C What's in a Name Name?|QID|31239|M|31.82,46.89|
 C Furious Fowl|QID|29937|M|29.67,51.05|US|
-T Furious Fowl|QID|29937|M|27.27,50.77|N|To Rivett Clutchpop.|
-A Boom Bait|QID|29939|M|27.27,50.77|N|From Rivett Clutchpop.|PRE|29937|
-A Silly Wikket, Slickies are for Hozen|QID|29942|M|27.02,50.81|N|From Eekle Eekle.|PRE|29937|
-T What's in a Name Name?|QID|31239|M|27.97,47.17|N|To Chief Kah Kah.|
-C Boom Bait|QID|29939|M|26.58,55.74|N|Stand at the end of the per and trow the bomb in the water. Pick up the fish that float up.|U|76262|
+T Furious Fowl|QID|29937|M|27.23,50.78|N|To Rivett Clutchpop.|
+A Boom Bait|QID|29939|M|27.23,50.78|N|From Rivett Clutchpop.|PRE|29937|
+A Silly Wikket, Slickies are for Hozen|QID|29942|M|27.03,50.85|N|From Eekle Eekle.|PRE|29937|
+T What's in a Name Name?|QID|31239|M|27.98,47.19|N|To Chief Kah Kah.|
+C Boom Bait|QID|29939|M|26.72,55.37|N|Stand at the end of the pier and throw the bomb in the water. Collect the fish that float up.|U|76262|
 C Silly Wikket, Slickies are for Hozen|QID|29942|M|27.29,55.08|N|Kill and loot turtles.|S|
-$ Box of Supplies|QID|31864|M|24.63,53.27|N|Chest of supplies just accross the river|RANK|2|
+$ Box of Supplies|QID|31864|M|24.63,53.27|N|Chest of supplies just across the river.|RANK|2|
 C Silly Wikket, Slickies are for Hozen|QID|29942|M|27.29,55.08|N|Kill and loot turtles.|US|
-T Silly Wikket, Slickies are for Hozen|QID|29942|M|27.06,50.77|N|To Eekle Eekle.|
-T Boom Bait|QID|29939|M|27.21,50.78|N|To Rivett Clutchpop.|
-A The Scouts Return|QID|29971|M|27.21,50.78|N|From Rivett Clutchpop.|LEAD|29730|PRE|29939&29942&31239|
-T The Scouts Return|QID|29971|M|28.63,47.40|N|To Shokia.|
-A Scouting Report: Hostile Natives|QID|29730|M|37.72,45.31|N|From Riko.|PRE|31239|
-C Scouting Report: Hostile Natives|QID|29730|M|38.84, 45.47|QO|1|NC|
-C Scouting Report: Hostile Natives|QID|29730|M|38.84,45.14|QO|2|NC|
-C Scouting Report: Hostile Natives|QID|29730|M|39.2, 46.2|QO|3|N|[fix coords]|NC|
-T Scouting Report: Hostile Natives|QID|29730|M|28.62,47.43|N|To Riko.|
-A Scouting Report: On the Right Track|QID|29731|M|43.16,61.27|N|From Shademaster Kiryn.|PRE|29730|
-C Scouting Report: On the Right Track|QID|29731|M|48.65,60.32|NC|
-T Scouting Report: On the Right Track|QID|29731|M|28.62,47.48|N|To Shademaster Kiryn.|
-A Scouting Report: The Friend of My Enemy|QID|29823|M|49.87,69.15|N|From Riko.|PRE|29731|
-C Scouting Report: The Friend of My Enemy|QID|29823|M|49.82,70.53|N|3 knocks back, so you can hit them at range with 4.|
-T Scouting Report: The Friend of My Enemy|QID|29823|M|28.62,47.48|N|To Riko.|
-A Scouting Report: Like Jinyu in a Barrel|QID|29824|M|62.72,81.89|N|From Shokia.|PRE|29823|
-C Scouting Report: Like Jinyu in a Barrel|QID|29824|M|58.06,83.28|N|Use your mouse to aim and then rt click to shoot.|
-T Scouting Report: Like Jinyu in a Barrel|QID|29824|M|28.62,47.48|N|To Shokia.|
-A Guerrillas in our Midst|QID|29943|M|28.62,47.48|N|From General Nazgrim.|PRE|29824|
-A Green-ish Energy|QID|29968|M|30.78,52.22|N|From Rivett Clutchpop.|
-C Green-ish Energy|QID|29968|M|29.25,51.73|NC|S|
-C Guerrillas in our Midst|QID|29943|M|29.12,51.95|
-T Guerrillas in our Midst|QID|29943|M|29.25,51.73|N|To General Nazgrim.|
+T Silly Wikket, Slickies are for Hozen|QID|29942|M|27.03,50.85|N|To Eekle Eekle.|
+T Boom Bait|QID|29939|M|27.23,50.78|N|To Rivett Clutchpop.|
+A The Scouts Return|QID|29971|M|27.23,50.78|N|From Rivett Clutchpop.|LEAD|29730|PRE|29939&29942&31239|
+T The Scouts Return|QID|29971|M|28.64,47.37|N|To Shokia.|
+A Scouting Report: Hostile Natives|QID|29730|M|28.60,47.43|N|From Riko.|PRE|31239|
+C Scouting Report: Hostile Natives|QID|29730|M|38.30,45.40|QO|1|NC|
+C Scouting Report: Hostile Natives|QID|29730|M|38.85,45.92|QO|2|NC|
+C Scouting Report: Hostile Natives|QID|29730|M|39.26,46.21|QO|3|CHAT|
+T Scouting Report: Hostile Natives|QID|29730|M|28.60,47.43|N|To Riko.|
+A Scouting Report: On the Right Track|QID|29731|M|28.65,47.46|N|From Shademaster Kiryn.|PRE|29730|
+C Scouting Report: On the Right Track|QID|29731|M|48.61,60.18|N|Make your way to where the campfire is on the other side of the statue.|NC|
+T Scouting Report: On the Right Track|QID|29731|M|28.65,47.46|N|To Shademaster Kiryn after the cut-scene ends and you are ported back.|
+A Scouting Report: The Friend of My Enemy|QID|29823|M|28.60,47.43|N|From Riko.|PRE|29731|
+C Scouting Report: The Friend of My Enemy|QID|29823|M|49.82,70.52|N|Run to where Kiryn is trapped in the net and talk to her to continue the 'story'. After a short fight, the quest ends.|
+T Scouting Report: The Friend of My Enemy|QID|29823|M|28.60,47.43|N|To Riko.|
+A Scouting Report: Like Jinyu in a Barrel|QID|29824|M|28.64,47.37|N|From Shokia.\nSpeak with Shokia again to start the quest.|PRE|29823|
+C Scouting Report: Like Jinyu in a Barrel|QID|29824|M|58.06,83.28|N|Click on the sniper rifle to enter the PoV. Use your mouse to aim and right-click to shoot./nJust follow along and do whatever they tell you to do.|
+T Scouting Report: Like Jinyu in a Barrel|QID|29824|M|28.64,47.37|N|To Shokia.|
+A Guerrillas in our Midst|QID|29943|M|28.66,47.54|N|From General Nazgrim.|PRE|29824|
+A Green-ish Energy|QID|29968|M|27.23,50.78|N|From Rivett Clutchpop.|
+C Green-ish Energy|QID|29968|M|29.25,51.73|N|You'll find them on the ground all over Dookin' Grounds.|NC|S|
+C Guerrillas in our Midst|QID|29943|M|29.12,51.95|N|Killing as you go, make your way to Scenic Overlook where you will find plenty more of them to kill.|
+T Guerrillas in our Midst|QID|29943|M|PLAYER|N|To General Nazgrim beside you.|
 A Burning Down the House|QID|29966|M|29.25,51.73|N|From General Nazgrim.|PRE|29943|
-C Burning Down the House|QID|29966|M|29.49,54.08|U|76336|
-C Green-ish Energy|QID|29968|M|29.25,51.73|NC|US|
-T Green-ish Energy|QID|29968|M|27.23,50.74|N|To Rivett Clutchpop.|
-A Boom Goes the Doonamite!|QID|29967|M|27.23,50.74|N|From Rivett Clutchpop.|PRE|29968|
-C Boom Goes the Doonamite!|QID|29967|M|28.91,49.18|N|Talk to Rivett, then throw the "bombs". If the alliance get too close, you exit, don't worry you can restart without losing progress by talking to Rivett again.|CHAT|
-T Boom Goes the Doonamite!|QID|29967|M|28.99,49.11|N|To Rivett Clutchpop.|
-T Burning Down the House|QID|29966|M|28.62,47.51|N|To General Nazgrim.|
-A Dawn's Blossom|QID|30015|M|28.65,47.55|N|From General Nazgrim.|PRE|29967|
-F Dawn's Blossom|QID|30015|M|27.83,47.94|N|At Grookin Flapmaster, use the chat option.|
-f Dawn's Blossom|QID|30015|M|47.64,46.24|N|From Keg Runner Lee.|
-T Dawn's Blossom|QID|30015|M|46.82,46.17|N|To Lorewalker Cho.|
-A Welcome to Dawn's Blossom|QID|31230|M|47.19,46.11|N|From Toya.|PRE|29922^30015|
-C Welcome to Dawn's Blossom|QID|31230|M|47.04,46.02|QO|3|N|Kai wanders around on the lower terrace.|CHAT|
-C Welcome to Dawn's Blossom|QID|31230|M|45.77,43.67|QO|2|CHAT|
-C Welcome to Dawn's Blossom|QID|31230|M|48.47,44.50|QO|1|CHAT|
-T Welcome to Dawn's Blossom|QID|31230|M|47.16,46.15|N|To Toya.|
-A The Double Hozen Dare|QID|29716|M|46.52,45.92|N|From An Windfur.|PRE|31230|
-A The Silkwood Road|QID|29865|M|46.48,45.85|N|From Tzu the Ironbelly.|PRE|31230|
-A The Threads that Stick|QID|29866|M|46.59,45.32|N|From Lo Wanderbrew.|PRE|31230|
+C Burning Down the House|QID|29966|M|29.40,54.23|N|Head to the Alliance camp on Scenic Overlook.\nGet within 25 yards of the campfire and throw Nazgrim's Grog into it.|U|76336|
+C Green-ish Energy|QID|29968|M|29.25,51.73|N|Finish collecting the green branches.|NC|US|
+T Green-ish Energy|QID|29968|M|27.23,50.78|N|To Rivett Clutchpop.|
+A Boom Goes the Doonamite!|QID|29967|M|27.23,50.78|N|From Rivett Clutchpop.|PRE|29968|
+C Boom Goes the Doonamite!|QID|29967|M|28.98,49.07|N|Talk to Rivett, then throw the "bombs". If the Alliance get too close, you exit, don't worry you can restart without losing progress by talking to Rivett again.|CHAT|
+T Boom Goes the Doonamite!|QID|29967|M|28.98,49.07|N|To Rivett Clutchpop.|
+T Burning Down the House|QID|29966|M|28.67,47.54|N|To General Nazgrim.|
+A Dawn's Blossom|QID|30015|M|28.67,47.54|N|From General Nazgrim.|PRE|29967|
+F Dawn's Blossom|QID|30015|M|27.81,47.91|N|At Grookin Flapmaster (use the chat option).|
+f Dawn's Blossom|QID|30015|M|47.05,46.24|N|From Keg Runner Lee.|
+T Dawn's Blossom|QID|30015|M|46.81,46.14|N|To Lorewalker Cho.|
+A Welcome to Dawn's Blossom|QID|31230|M|47.16,46.17|N|From Toya.|PRE|29922^30015|
+C Welcome to Dawn's Blossom|QID|31230|M|46.67,45.76|QO|3|N|Kai wanders around on the lower terrace.|CHAT|
+C Welcome to Dawn's Blossom|QID|31230|M|45.72,43.70|QO|2|N|Talk to Peiji Goldendraft in The Drunken Hozen.|CHAT|
+C Welcome to Dawn's Blossom|QID|31230|M|48.49,44.49|QO|1|N|Talk to Master Windfur.|CHAT|
+T Welcome to Dawn's Blossom|QID|31230|M|47.16,46.17|N|To Toya.|
+A The Double Hozen Dare|QID|29716|M|46.52,45.92|N|From An Windfur (she wanders around a bit).|PRE|31230|
+A The Silkwood Road|QID|29865|M|46.45,45.80|N|From Tzu the Ironbelly.|PRE|31230|
+A The Threads that Stick|QID|29866|M|46.63,45.31|N|From Lo Wanderbrew.|PRE|31230|
 C The Silkwood Road|QID|29865|M|43.26,49.23|S|
 C The Threads that Stick|QID|29866|M|43.68,48.32|N|Loot the eggs to get Pristine Silk.|NC|
 C The Silkwood Road|QID|29865|M|43.26,49.23|US|
-A Down Kitty!|QID|29717|M|39.82,48.05|N|From An Windfur.|
-C Down Kitty!|QID|29717|M|37.11,47.72|S|
-C The Double Hozen Dare|QID|29716|M|37.31,48.19|N|Talk to the panda cubs clinging to the trees here.|CHAT|
-T The Double Hozen Dare|QID|29716|N|To An Windfur. (she should be following you)|
+A Down Kitty!|QID|29717|M|40.59,48.71|N|From An Windfur.|
+C The Double Hozen Dare|QID|29716|M|37.31,48.19|N|Talk to the panda cubs clinging to the trees.|S|CHAT|
+C Down Kitty!|QID|29717|M|37.11,47.72|N|Kill Jade Guardians.|
+T Down Kitty!|QID|29717|M|PLAYER|N|To An Windfur (she should be following you).|
+C The Double Hozen Dare|QID|29716|M|37.31,48.19|N|Finish up talking to the panda cubs clinging to the trees.|US|CHAT|
+T The Double Hozen Dare|QID|29716|M|PLAYER|N|To An Windfur (she should be following you).|
 A The Jade Witch|QID|29723|N|From An Windfur.|PRE|29716|
 ; rank 3 because it's not always there.
 $ Jade Warrior Statue|QID|31307|M|39.23,46.17|N|Look for it in the widow's front yard, it may not be there. Click this off if it's not there.|RANK|3|
-C The Jade Witch|QID|29723|M|39.23,46.17|N|Talk to Widow Greenpaw, she'll bring you to Shin and then become attackable, kill her.|
+C The Jade Witch|QID|29723|M|39.35,46.22|N|Talk to Widow Greenpaw and she'll bring you to Shin. When she becomes attackable, kill her.|
 C Down Kitty!|QID|29717|M|37.11,47.72|US|
-T The Silkwood Road|QID|29865|M|46.43,45.74|N|To Tzu the Ironbelly.|
-T The Threads that Stick|QID|29866|M|46.62,45.37|N|To Lo Wanderbrew.|
-T Down Kitty!|QID|29717|N|To An Windfur, she wanders around the village.|
-T The Jade Witch|QID|29723|M|46.43,44.85|N|To An Windfur|
-A Find the Boy|QID|29993|M|47.07,46.08|N|From Kai Wanderbrew.|PRE|29866|
-A All We Can Spare|QID|29925|M|47.20,46.13|N|From Toya.|PRE|29723|
-A An Air of Worry|QID|29576|M|48.36,46.05|N|From Old Man Misteyes.|LEAD|29578|
-A Tian Monastery|QID|29617|M|49.63,45.80|N|From Apprentice Yufi.|LEAD|29618|
+R Dawn's Blossom|ACTIVE|29866|M|46.59,46.89|N|Return to Dawn's Blossom.|
+T The Silkwood Road|QID|29865|M|46.45,45.80|N|To Tzu the Ironbelly.|
+T The Threads that Stick|QID|29866|M|46.63,45.31|N|To Lo Wanderbrew.|
+T The Jade Witch|QID|29723|M|46.43,44.85|N|To An Windfur.\nShe runs around Dawn's Blossom and you'll have to locate her.|
+A Find the Boy|QID|29993|M|47.07,46.08|N|From Kai Wanderbrew. He paces back and forth in front of the pond.|PRE|29866|
+A All We Can Spare|QID|29925|M|47.16,46.17|N|From Toya.|PRE|29723|
+A An Air of Worry|QID|29576|M|48.32,46.06|N|From Old Man Misteyes.|LEAD|29578|
+A Tian Monastery|QID|29617|M|49.64,45.83|N|From Apprentice Yufi.|LEAD|29618|
 R The Arboretum|QID|29993|M|54.93,45.28|N|The path is just down the stairs you passed to get the last quest.|
-A The Perfect Color|QID|29881|M|54.93,45.28|N|From Inkmaster Glenzu.|
-T Find the Boy|QID|29993|M|54.92,44.83|N|To Inkmaster Wei.|
+A The Perfect Color|QID|29881|M|54.89,45.31|N|From Inkmaster Glenzu.|
+T Find the Boy|QID|29993|M|54.92,44.83|N|To Inkmaster Wei.\nHe paths between the bonsai trees and his Work station beside Glenzu.|
 A Shrine of the Dawn|QID|29995|M|54.92,44.83|N|From Inkmaster Wei.|PRE|29993|
-A Quill of Stingers|QID|29882|M|55.36,45.32|N|From Inkmaster Jo Po.|
-f The Arboretum|QID|29882|M|56.96,44.22|N|At Injar'i Lakebloom.|
+A Quill of Stingers|QID|29882|M|55.40,45.29|N|From Inkmaster Jo Po.|
+f The Arboretum|QID|29882|M|57.01,44.02|N|At Injar'i Lakebloom.|
 C Quill of Stingers|QID|29882|M|53.65,43.99|N|Kill Orchard Wasps for their Stingers.|S|
 C The Perfect Color|QID|29881|M|53.48,44.38|NC|
 C Quill of Stingers|QID|29882|M|53.65,43.99|N|Kill Orchard Wasps for their Stingers.|US|
 T The Perfect Color|QID|29881|M|54.91,45.35|N|To Inkmaster Glenzu.|
-T Quill of Stingers|QID|29882|M|55.28,45.20|N|To Inkmaster Jo Po.|
+T Quill of Stingers|QID|29882|M|55.40,45.29|N|To Inkmaster Jo Po.|
 R Shrine of the Dawn|QID|29995|M|52.63,38.08|
 T Shrine of the Dawn|QID|29995|M|52.63,38.08|N|To Syra Goldendraft.|
 A Getting Permission|QID|29920|M|52.63,38.08|N|From Syra Goldendraft.|PRE|29995|
