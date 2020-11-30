@@ -345,8 +345,8 @@ T In The Flesh|QID|57994|M|37.61,29.09|Z|Maldraxxus|N|To Aspirant Thales.|MS|
 A Front and Center|QID|60733|M|37.66,29.11|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57994|MS|
 R Spider's Watch|QID|62605|ACTIVE|59867|CS|M|36.54,30.88;37.57,29.24|Z|Maldraxxus|N|Finish the Bonuse Objective as you head back to Spider's Watch.|TOF|
 
-; Side Quest Story - Archival Protection
-A Broker Business|QID|62605|M|38.20,31.29|Z|Maldraxxus|N|From Forgotten Supplies.|RANK|2|
+; Side Quest Story - Archival Protection  ACH|14799;3|
+A Broker Business|QID|62605|LEAD|58619|M|38.20,31.29|Z|Maldraxxus|N|From Forgotten Supplies.|RANK|2|
 T Broker Business|QID|62605|M|40.69,33.08|Z|Maldraxxus|N|To Ta'eran.|
 A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|RANK|2|
 C Read Between the Lines|QID|58619|CS|M|40.69,33.08;43.30,28.62|Z|Maldraxxus|CHAT|N|Talk to Ta'ern, then walk with him and at least pretend to listen.|
@@ -383,7 +383,7 @@ T Trust Fall|QID|59994|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
 A A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|From Ta'eran.|PRE|59994|RANK|2|
 C A Complete Set|QID|58623|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Click on the books around in the shelves.|
 C A Complete Set|QID|58623|M|42.14,23.30|QO|2|Z|Maldraxxus|NC|N|Click on the pages flying around the room.|
-T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
+T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|ACH|14799;3|
 R Spider's Watch|QID|1|ACTIVE|60733|CS|M|40.51,32.84;37.56,29.21|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run back to Spidar's Watch.|
 F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|Z|Maldraxxus|N|Fly back to Bleak Redoubt.|MS|
 
