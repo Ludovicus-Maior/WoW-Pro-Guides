@@ -2,16 +2,19 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancBlacksmithing","Profession","Blacksmithing_SL", "Blanckaert", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancBS_SL","Profession","Blacksmithing_SL", "Blanckaert", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Blacksmithing_ShadowLands")
+WoWPro:GuideNickname(guide, "BS_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 
 ;  Guide structure the QID is Prof (164), Spell ID(000000); The N for materials is Qty of ; Name of Mat ; total needed for craft ; Grand total needed : Separator of mats.
 ;
 ;  Typed update to SL splits on 27-Nov-2020 by Blanckaert (This is NOT tested)
+
+N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|N|Currently in Development, This Guide covers SHADOWLANDS content in Retail.|
 
@@ -32,7 +35,7 @@ N Shopping List|N|This completes the Shopping List, you may either have a few le
 
 ; end of shopping list, and pre craft.
 
-N Learn  Apprentice Blacksmithing|QID|901640000|P|Blacksmithing;164;*;0;75|N|Learn from a Trainer in any major city. Requires Level 5.|
+N Learn Shadowlands Blacksmithing|QID|901640000|M|40.52,31.55|Z|Ring of Fates@Oribos|P|Blacksmithing;164;*;0;75|N|Learn from Smith Au'berk in Oribos. Requires Level 50.|
 B Hammer|QID|164005956|P|Blacksmithing;164;0;1;0|N|Buy from an NPC Supply|L|5956|
 
 ; What to Craft 001 to 050 Shadowlands
