@@ -929,14 +929,8 @@ function WoWPro:GuideQuestTriggers(guide, ...)
     end
 end
 
-function WoWPro:GuideAutoSwitch(guide, state)
+function WoWPro:GuideAutoSwitch(guide)
     local _, engClass = _G.UnitClass("player")
-
-    if state == false then
-        -- A clear request
-        WoWPro.ClearQID2Guide(guide.GID)
-        return
-    end
 
     if guide.class and engClass ~= guide.class then
         -- Developers can peek, but should not AutoSwitch on the class specific guides if they are not for them
@@ -969,6 +963,10 @@ end
 
 function WoWPro:GuideSteps(guide,steps)
     guide['sequence'] = steps
+    if not (guide['AutoSwitch'] or guide['QuestTriggers']) then
+        -- If we are not triggering, clean any leftovers.
+        WoWPro.ClearQID2Guide(guide.GID)
+    end
 end
 
 function WoWPro:BuyersGuide(guide)
