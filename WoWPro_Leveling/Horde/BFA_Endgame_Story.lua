@@ -3,7 +3,6 @@ WoWPro:GuideLevels(guide, 50, 50, 50)
 WoWPro:GuideSort(guide, 7)
 WoWPro:GuideName(guide,'Endgame Storylines')
 WoWPro:GuideNextGuide(guide, 'TBD')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 N A Bargain of Blood|AVAILABLE|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|The first part of the these questlines require you to have completed the zone achievement for Nazmir as well as Zandalar. Vol'dun will be required eventually you should start working on all 3. If you're trying to just go for these achievements and don't care about sidequests, try running the guide on Rank 1 with rares and treasures disabled.|ACH|11861+11868|
