@@ -7,7 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 ; -- Ignore Hero Board quests A Warchief's Command: Jade Forest!|QID|49538|M|49.69,76.44|Z|Orgrimmar|N|Seek out the nearest Warchief's Command Board, and select Report to Grommash Hold under The Jade Forest. Quest not there? Skip this step for an alternative one.|
-R Grommash Hold|ACTIVE|49538|M|49.69,76.44|Z|Orgrimmar|N|Walk into Grommash Hold, then await the cutscene to finish.|
+R Grommash Hold|ACTIVE|49538|M|49.69,76.44|Z|Orgrimmar|N|Walk into Grommash Hold, then wait for the cut-scene to finish.|
 T Warchief's Command: Jade Forest!|QID|49538|M|48.66,70.32|Z|Orgrimmar|N|To General Nazgrim.|
 A The Art of War|QID|29611|M|48.66,70.32|Z|Orgrimmar|N|From General Nazgrim. Quest not there? Skip this step for an alternative one.|
 T The Art of War|QID|29611|M|48.66,70.32|Z|Orgrimmar|N|To General Nazgrim|
@@ -241,7 +241,7 @@ A The Jade Witch|QID|29723|N|From An Windfur.|PRE|29716|
 $ Jade Warrior Statue|QID|31307|M|39.23,46.17|N|Look for it in the widow's front yard, it may not be there. Click this off if it's not there.|RANK|3|
 C The Jade Witch|QID|29723|M|39.35,46.22|N|Talk to Widow Greenpaw and she'll bring you to Shin. When she becomes attackable, kill her.|
 C Down Kitty!|QID|29717|M|37.11,47.72|US|
-R Dawn's Blossom|ACTIVE|29866|M|46.59,46.89|N|Return to Dawn's Blossom.|
+R Dawn's Blossom|ACTIVE|29866|M|46.59,46.89|N|Return to Dawn's Blossom.|FLY|OLD|
 T The Silkwood Road|QID|29865|M|46.45,45.80|N|To Tzu the Ironbelly.|
 T The Threads that Stick|QID|29866|M|46.63,45.31|N|To Lo Wanderbrew.|
 T The Jade Witch|QID|29723|M|46.43,44.85|N|To An Windfur.\nShe runs around Dawn's Blossom and you'll have to locate her.|
@@ -249,60 +249,62 @@ A Find the Boy|QID|29993|M|47.07,46.08|N|From Kai Wanderbrew. He paces back and 
 A All We Can Spare|QID|29925|M|47.16,46.17|N|From Toya.|PRE|29723|
 A An Air of Worry|QID|29576|M|48.32,46.06|N|From Old Man Misteyes.|LEAD|29578|
 A Tian Monastery|QID|29617|M|49.64,45.83|N|From Apprentice Yufi.|LEAD|29618|
-R The Arboretum|QID|29993|M|54.93,45.28|N|The path is just down the stairs you passed to get the last quest.|
+R The Arboretum|QID|29993|M|54.93,45.28|N|The path is just down the stairs you passed to get the last quest.|FLY|OLD|
 A The Perfect Color|QID|29881|M|54.89,45.31|N|From Inkmaster Glenzu.|
 T Find the Boy|QID|29993|M|54.92,44.83|N|To Inkmaster Wei.\nHe paths between the bonsai trees and his Work station beside Glenzu.|
 A Shrine of the Dawn|QID|29995|M|54.92,44.83|N|From Inkmaster Wei.|PRE|29993|
 A Quill of Stingers|QID|29882|M|55.40,45.29|N|From Inkmaster Jo Po.|
 f The Arboretum|QID|29882|M|57.01,44.02|N|At Injar'i Lakebloom.|
 C Quill of Stingers|QID|29882|M|53.65,43.99|N|Kill Orchard Wasps for their Stingers.|S|
-C The Perfect Color|QID|29881|M|53.48,44.38|NC|
+C The Perfect Color|QID|29881|M|53.48,44.38|N|Look for red flowers on the ground beneath the trees... and the wasps.|NC|
 C Quill of Stingers|QID|29882|M|53.65,43.99|N|Kill Orchard Wasps for their Stingers.|US|
-T The Perfect Color|QID|29881|M|54.91,45.35|N|To Inkmaster Glenzu.|
-T Quill of Stingers|QID|29882|M|55.40,45.29|N|To Inkmaster Jo Po.|
-R Shrine of the Dawn|QID|29995|M|52.63,38.08|
-T Shrine of the Dawn|QID|29995|M|52.63,38.08|N|To Syra Goldendraft.|
-A Getting Permission|QID|29920|M|52.63,38.08|N|From Syra Goldendraft.|PRE|29995|
-K Defeat Pandriarch Bramblestaff|QID|29920|M|54.1,38.4|QO|2|T|Pandriarch Bramblestaff|; Shrine of the Dawn
-K Defeat Pandriarch Goldendraft|QID|29920|M|53.6,36.8|QO|3|T|Defeat Pandriarch|; Shrine of the Dawn
-K Defeat Pandriarch Windfur|QID|29920|M|52.6,35.6|QO|1|T|Pandriarch Windfur|; Shrine of the Dawn
-T Getting Permission|QID|29920|M|52.61,38.13|N|To Lo Wanderbrew.|
-R Emperor's Omen|QID|29925|M|50.92,27.03|
-T All We Can Spare|QID|29925|M|50.92,27.03|N|To Lorewalker Cho.|
-f Emperor's Omen|QID|29928|M|50.84,26.86|N|At Supplier Towsa.|
-A I Have No Jade And I Must Scream|QID|29928|M|50.91,27.03|N|From Foreman Mann.|PRE|29925|
-C I Have No Jade And I Must Scream|QID|29928|M|48.46,32.25|N|Kill the sprites, they toss out some jade pieces when they die.|
-T I Have No Jade And I Must Scream|QID|29928|M|50.91,27.05|N|To Foreman Mann.|
-A Calamity Jade|QID|29926|M|50.91,27.05|N|From Foreman Mann.|PRE|29928|
-A Mann's Man|QID|29927|M|50.91,27.05|N|From Foreman Mann.|PRE|29928|
-T Mann's Man|QID|29927|M|45.44,29.09|N|To Hao Mann.|
-A Trapped!|QID|29929|M|45.44,29.09|N|From Hao Mann.|PRE|29927|
-$ Ancient Pandaren Mining Pick|QID|31399|N|It can be anywhere in the mine or not at all. It's not always there. Click this off when not found.|RANK|3|S|
+T The Perfect Color|QID|29881|M|554.89,45.31|N|To Inkmaster Glenzu.|
+T Quill of Stingers|QID|29882|M|55.40,45.29|N|To Inkmaster Jo Po (He's a roamer).|
+R Shrine of the Dawn|QID|29995|M|52.57,38.12|FLY|OLD|
+T Shrine of the Dawn|QID|29995|M|52.57,38.12|N|To Syra Goldendraft.|
+A Getting Permission|QID|29920|M|52.57,38.12|N|From Syra Goldendraft.|PRE|29995|
+K Defeat Pandriarch Bramblestaff|QID|29920|M|54.08,38.45|QO|2|N|You may want to keep your distance when you talk to them. As soon as you challenge them, they will attack you immediately.|T|Pandriarch Bramblestaff|; Shrine of the Dawn
+K Defeat Pandriarch Goldendraft|QID|29920|M|53.59,36.73|QO|3|N|Rinse and repeat with an exception. An Angry Spirit will join the fight. It will despawn as soon as you win.|T|Defeat Pandriarch|; Shrine of the Dawn
+K Defeat Pandriarch Windfur|QID|29920|M|52.54,35.57|QO|1|N|Same dance as Bramblestaff. He likes to knockback.|T|Pandriarch Windfur|; Shrine of the Dawn
+T Getting Permission|QID|29920|M|52.59,38.13|N|To Lo Wanderbrew.|
+R Emperor's Omen|QID|29925|M|50.92,27.03|N|Go back to the road and follow it north. Stay to the right of the fork in the road and when you see the stairs in the distance, head for them.|FLY|OLD|
+T All We Can Spare|QID|29925|M|50.91,27.07|N|To Lorewalker Cho.|
+f Emperor's Omen|QID|29928|M|50.82,26.80|N|At Supplier Towsa.|
+A I Have No Jade And I Must Scream|QID|29928|M|50.95,27.03|N|From Foreman Mann.|PRE|29925|
+C I Have No Jade And I Must Scream|QID|29928|M|48.46,32.25|N|Kill the Puckish Sprites in Greenstone Masons' Quarter. They drop 1-3 Chunks of Jade when they die.|
+T I Have No Jade And I Must Scream|QID|29928|M|50.95,27.03|N|To Foreman Mann.\nStarts a brief cut-scene.|
+A Calamity Jade|QID|29926|M|50.95,27.03|N|From Foreman Mann.|PRE|29928|
+A Mann's Man|QID|29927|M|50.95,27.03|N|From Foreman Mann.|PRE|29928|
+T Mann's Man|QID|29927|M|60.99,36.53|Z|Upper Quarry@Greenstone Quarry|N|To Hao Mann, inside Greenstone Quarry.|
+A Trapped!|QID|29929|M|60.99,36.53|Z|Upper Quarry@Greenstone Quarry|N|From Hao Mann.|PRE|29927|
+$ Ancient Pandaren Mining Pick|QID|31399|N|It can be anywhere in the mine or not at all. It's not always there. Click this off when not found.|RANK|3|S!US|
 C Calamity Jade|QID|29926|M|44.48,30.29|S|
-C Trapped!|QID|29929|M|43.87,30.49|NC|
+C Trapped!|QID|29929|M|43.87,30.49|N|Click on the trapped miners to free them.|NC|
 C Calamity Jade|QID|29926|M|44.48,30.29|US|
-$ Ancient Pandaren Mining Pick|QID|31399|N|It can be anywhere in the mine or not at all. Click this off when not found.|RANK|3|US|
-T Trapped!|QID|29929|M|46.30,29.35|N|To Hao Mann.|
-A What's Mined Is Yours|QID|29930|M|46.30,29.35|N|From Hao Mann.|PRE|29929|
-C What's Mined Is Yours|QID|29930|M|46.3,29.35|N|Hop in Hao's cart, spiders will chase you, you can fight them with your normal skills/abilities while in the cart.|
-T What's Mined Is Yours|QID|29930|M|50.91,27.03|N|To Foreman Mann.|
-T Calamity Jade|QID|29926|M|50.91,27.03|N|To Foreman Mann.|
-A The Serpent's Heart|QID|29931|M|50.91,27.03|N|From Foreman Mann.|PRE|29930|
+T Trapped!|QID|29929|M|46.30,29.40|N|To Hao Mann, outside the mining entrance.|
+A What's Mined Is Yours|QID|29930|M|46.30,29.40|N|From Hao Mann.|PRE|29929|
+R Jade Cart|ACTIVE|29930|M|46.27,29.47|CC|N|Hop into the cart.\n[color=FF0000]NOTE: [/color]You can only do this once; you'll phase when you jump in. Abandon and re-accept the quest if you want to 'unphase'.|V|
+C What's Mined Is Yours|QID|29930|M|46.3,29.35|N|Fend off the spiders that will chase you. You can fight them with your normal skills/abilities while in the cart.\nWhatever is still alive will continue to attack you after you arrive.|
+T What's Mined Is Yours|QID|29930|M|50.94,27.03|N|To Foreman Mann... Another cut-scene.|
+T Calamity Jade|QID|29926|M|50.94,27.03|N|To Foreman Mann.|
+A The Serpent's Heart|QID|29931|M|50.94,27.03|N|From Foreman Mann.|PRE|29930|
+; -- This note needs updating [Hendo72]
 N If you are into exploring...|N|...this is as close to Sri-La Village as you are going to get in this guide. Skip the next step if you don't want to go there, no quests there except lvl 90 dailies. There is a treasure box in a cave on windward island, but unless you are a rogue, I wouldn't advise going to get it before you have the dailies in the area.|RANK|3|
-f Sri-La Village|QID|29745|M|55.44,23.73|N|At Gingo Alebottom.|RANK|3|
-F Emperor's Omen|QID|29745|M|55.44,23.73|N|Fly back to Emperor's Omen.|RANK|3|
-;R Woods of the Lost|M|48.64,24.91|CC|
-A The Sprites' Plight|QID|29745|M|48.64,24.91|N|From Outcast Sprite.|
-C The Sprites' Plight|QID|29745|M|49.76,19.64|
-T The Sprites' Plight|QID|29745|N|To UI Alert.|
-A Break the Cycle|QID|29747|N|From UI Alert.|PRE|29745|
-A Simulacrumble|QID|29748|M|48.61,20.65|N|From Shattered Destroyer.|PRE|29745|
-C Break the Cycle|QID|29747|M|48.34,16.61|N|Kill the Spiritbinders and kick over the statues as you go.|S|
+f Sri-La Village|QID|29745|M|55.38,23.73|N|At Gingo Alebottom.|RANK|3|
+F Emperor's Omen|QID|29745|M|55.38,23.73|N|Fly back to Emperor's Omen.|RANK|3|
+A The Sprites' Plight|QID|29745|M|48.67,24.94|N|From the Outcast Sprite body, in Woods of the Lost.|
+C The Sprites' Plight|QID|29745|M|49.76,19.64|QO|1|N|Kill the Stonebound Destroyers. The Sprites will help you fight them.\n[color=FF0000]NOTE: [/color]Keep an eye out for Zandalari Warscout, a lv 35-50 rare.|S|
+R The Sprites' Plight|ACTIVE|29745|M|49.09,21.08|QO|2|N|Make your way to Terrace of Ten Thunders.|
+C The Sprites' Plight|QID|29745|M|49.76,19.64|QO|1|N|Kill the Stonebound Destroyers. The Sprites will help you fight them.\n[color=FF0000]NOTE: [/color]Keep an eye out for Zandalari Warscout, a lv 35-50 rare.|US|
+T The Sprites' Plight|QID|29745|M|PLAYER|N|To UI Alert.|
+A Break the Cycle|QID|29747|M|PLAYER|N|From UI Alert.|PRE|29745|
+C Break the Cycle|QID|29747|M|48.34,16.61|N|Kill the Spiritbinders.|S|
+A Simulacrumble|QID|29748|M|48.57,20.62|N|From Shattered Destroyer.|PRE|29745|
 C Simulacrumble|QID|29748|M|47.82,16.45|NC|
 C Break the Cycle|QID|29747|M|48.34,16.61|US|
-T Break the Cycle|QID|29747|M|48.34,16.61|N|To UI Alert.|
-T Simulacrumble|QID|29748|N|To UI Alert.|
-A An Urgent Plea|QID|29749|N|From UI Alert.|PRE|29747&29748|
+T Break the Cycle|QID|29747|M|PLAYER|N|To UI Alert.|
+T Simulacrumble|QID|29748|M|PLAYER|N|To UI Alert.|
+A An Urgent Plea|QID|29749|M|PLAYER|N|From UI Alert.|PRE|29747&29748|
 C An Urgent Plea|QID|29749|M|44.24,14.91|QO|1|N|Get the staff|
 C An Urgent Plea|QID|29749|M|44.36,15.89|QO|2|N|Kill Ancient Spirits drifting towards the center to destroy the ritual.|
 T An Urgent Plea|QID|29749|M|44.22,15.01|N|To Pei-Zhi. Wait for him to come down.|
@@ -334,7 +336,7 @@ T To Bridge Earth and Sky|QID|29754|M|43.74,12.70|N|To UI Alert.|
 A Pei-Back|QID|29755|M|43.74,12.70|N|From UI Alert.|PRE|29754|
 C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight. First kill Stonebound Colossus, to make Shan Jitong targetable. When you get seperated from your body, you need to run back and click on it to rejoin it, then try to interrupt the Colossus healing. Second phase, run to Shan Jitong and kill him.|
 T Pei-Back|QID|29755|M|43.81,12.47|N|To Pei-Zhi.|
-R Tian Monastery|QID|29617|M|38.17,24.17|N|Run counter-clockwise around the mountain to the waypoint.|
+R Tian Monastery|QID|29617|M|38.17,24.17|N|Run counter-clockwise around the mountain to the waypoint.|FLY|OLD|
 f Banquet Grounds|QID|29617|M|43.52,24.55|N|Get the flightpoint at Studious Chu.|
 T Tian Monastery|QID|29617|M|45.0,25.0|N|To Lin Tenderpaw|
 A The High Elder|QID|29618|M|44.98,25.02|N|From Lin Tenderpaw.|
@@ -396,7 +398,7 @@ T The Rumpus|QID|29637|M|38.99,24.06|N|To Instructor Myang.|
 A Flying Colors|QID|29647|M|43.27,24.75|N|From Instructor Myang.|PRE|29624&29628&29629&29630&29637|
 T Flying Colors|QID|29647|M|42.71,23.23|N|To High Elder Cloudfall.|
 F Dawn's Blossom|QID|29931|M|43.52,24.55|N|At Studious Chu.(or you can just ride straight to Nectarbreeze)|
-R Nectarbreeze Orchard|QID|29931|M|46.67,46.76;45.83,50.25;46.72,55.25;41.52,61.13;43.37,72.76;43.54,75.91|CC|N|The green dots will take you via roads, which is probably safer, but certainly slower than running cross-country.|
+R Nectarbreeze Orchard|QID|29931|M|46.67,46.76;45.83,50.25;46.72,55.25;41.52,61.13;43.37,72.76;43.54,75.91|CC|N|The green dots will take you via roads, which is probably safer, but certainly slower than running cross-country.|FLY|OLD|
 T An Air of Worry|QID|29576|M|43.5,75.9|N|To Shao the Defiant|
 A Defiance|QID|29578|M|43.54,75.91|N|From Shao the Defiant.|
 A Rally the Survivors|QID|29579|M|43.54,75.91|N|From Shao the Defiant.|
@@ -424,7 +426,7 @@ C Unbound|QID|29587|M|39.76,75.57|N|Click on the nets to free the farmers.|NC|US
 T Unbound|QID|29587|M|41.02,73.97|N|To Shao the Defiant.|
 T Maul Gormal|QID|29670|M|41.02,73.97|N|To Shao the Defiant.|
 $ Ancient Jinku Staff|QID|31402|M|44.9,64.6;46.2,71.2|CN|N|[fix coords]Anywhere the river between the waypoints. Click this off if it's not there.|RANK|3|
-R Serpent's Heart|QID|29931|M|42.94,60.12|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart.|
+R Serpent's Heart|QID|29931|M|42.94,60.12|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart.|FLY|OLD|
 T The Serpent's Heart|QID|29931|M|48.26,61.31|N|To Foreman Raike.|
 A Love's Labor|QID|30495|M|48.26,61.31|N|From Foreman Raike.|PRE|29931|
 C Delivery to Kitemaster Shoku|QID|30495|M|48.2,60.0|QO|3|N|[fix coords]|CHAT|
