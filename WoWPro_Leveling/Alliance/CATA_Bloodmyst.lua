@@ -235,7 +235,7 @@ T Clearing the Way|QID|9761|N|To Vindicator Corin.|M|30.6,46.6|
 H Blood Watch|QID|9740|N|Hearth back to Blood Watch.|U|6948|
 T The Sun Gate|QID|9740|N|To Vindicator Aesom.|M|55.54,55.42|
 T Ending Their World|QID|9759|N|This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show. Turn the quest into Exarch Admetius.|M|52.6,53.2|
-A The Unwritten Prophecy|QID|9762|PRE|9759|N|From Prophet Velen. If Prophet Velen despawns before you accept the quest, go to The Exodar to get the quest.|M|54,55.4|
+A The Unwritten Prophecy|QID|9762|PRE|9759|N|From Prophet Velen. If Prophet Velen despawns before you accept the quest, go to The Exodar to get the quest.|M|54,55.4|R|Draenei|
 A Newfound Allies|QID|9632|M|54.69,54.01|N|From Anchorite Paetheus.|
 F The Exodar|QID|9632|N|Fly to The Exodar.|M|57.68,53.89|
 A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|N|From the Hero's Call Board. Will not show up if your level is too high.|Z|The Exodar|
