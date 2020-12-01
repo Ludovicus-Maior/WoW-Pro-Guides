@@ -13,7 +13,7 @@ return [[
 ; $ Rapier of the Fearless|M|79.9,37.0|Z|Revendreth|N|WH - North-East of Halls of Atonement FP, after picking up Mobs Spawn.|ITEM|182689|ACH|14314;10|
 ; $ Makeshift Muckpool|M|29.7,37.2|Z|Revendreth|N|WH - Inside Castle Ruins, need 30 Infused Ruby to loot.|ACH|14314;11|
 ; $ Forbidden Chamber|Z|Revendreth|ACH|14314;12|
-; $ Fleeing Soul's Bundle|M|46.42,58.12|Z|Revendreth|N|WH - On wall above Stalker's Lodge, jump from nearby eleveator (43.53,59.50)|ACH|14314;15|
+; $ Fleeing Soul's Bundle|QID|59886|M|46.42,58.12|Z|Revendreth|N|On wall above Stalker's Lodge, jump from nearby eleveator (43.53,59.50)|ACH|14314;15|
 
 ; List of Rares in Revendreth, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
 ; K Soulstalker Doina|M|78.11,49.70|Z|Revendreth|T|Soulstalker Doina|N|WH - Tower above the Atonement Entrance, Her two hounds assist her. At 75% and 40% she runs through the portal, Chase her. Watch out for traps in large room.|RARE|ACH|14310;1|
