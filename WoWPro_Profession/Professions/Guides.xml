@@ -8,6 +8,7 @@
 	<Script file="Blacksmithing_OUT.lua"/>
 	<Script file="Blacksmithing_SL.lua"/>
 	<Script file="Enchanting.lua"/>
+	<Script file="Enchanting_SL.lua"/>
 	<Script file="Engineering.lua"/>
 	<Script file="Inscription.lua"/>
 	<Script file="Herbalism.lua"/>
