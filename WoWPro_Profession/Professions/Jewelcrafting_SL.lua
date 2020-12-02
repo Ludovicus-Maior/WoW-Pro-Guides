@@ -23,11 +23,11 @@ N Shopping List|N|The next few lines are going to be the TOTAL amount of mats yo
 
 ; Begin Shopping list, as of Nov-2020
 
-l Laestrite Ore|QID|755171828|P|Jewelcrafting;755;8+0|L|171828 410|N|You'll need about 410 Laestrite Ore.|
-l Solenium Ore|QID|755171829|P|Jewelcrafting;755;8+0|L|171829 40|N|You'll need at least 40 Solenium Ore.|
-l Oxxein Ore|QID|755171830|P|Jewelcrafting;755;8+0|L|171830 40|N|You'll need at least 40 Oxxein Ore.|
-l Phaedrum Ore|QID|755171831|P|Jewelcrafting;755;8+0|L|171831 40|N|You'll need at least 40 Phaedrum Ore.|
-l Sinvyr Ore|QID|755171832|P|Jewelcrafting;755;8+0|L|171832 40|N|You'll need at least 40 Sinvyr Ore.|
+l Laestrite Ore|QID|755171828|P|Jewelcrafting;755;8+0|L|171828 410|N|You'll need about 410 Laestrite Ore. Found Everywhere.|
+l Solenium Ore|QID|755171829|P|Jewelcrafting;755;8+0|L|171829 40|N|You'll need at least 40 Solenium Ore. Found in Bastion.|
+l Oxxein Ore|QID|755171830|P|Jewelcrafting;755;8+0|L|171830 40|N|You'll need at least 40 Oxxein Ore. Found in Maldaxxus.|
+l Phaedrum Ore|QID|755171831|P|Jewelcrafting;755;8+0|L|171831 40|N|You'll need at least 40 Phaedrum Ore. Found in Ardenweald.|
+l Sinvyr Ore|QID|755171832|P|Jewelcrafting;755;8+0|L|171832 40|N|You'll need at least 40 Sinvyr Ore. Found in Revendreth.|
 B Laestrite Setting|QID|755173168|P|Jewelcrafting;755;8+0|L|173168 45|N|You'll need about 45 Laestrite Settings.|
 B Malleable Wire|QID|755183954|P|Jewelcrafting;755;8+0|L|183954 20|N|You'll need about 20 Malleable Wires.|
 
@@ -55,7 +55,7 @@ N Quick Jewel Doublet|QID|755311871|P|Jewelcrafting;755;8+50|N|2;Oriblase;8;60:2
 ; What to Craft 041 to 050 Shadowlands
 
 = Learn Recipes|QID|755050|M|35.20,41.34|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+50|N|Learn available recipes from Trainer.|
-N Quick Laestrite Choker|QID|755311866|P|Jewelcrafting;755;8+54;1|N|2;Quick Jewel Doublet;4;4:Laestrite Ore;4;10:Make 2, Ignore Skill Points|
+N Quick Laestrite Choker|QID|755311866|P|Jewelcrafting;755;8+54;1|N|2;Quick Jewel Doublet;4;4:2;Laestrite Ore;4;10:Make 2, Ignore Skill Points|
 N Versatile Laestrite Choker|QID|75531905|P|Jewelcrafting;755;8+60;1|N|2;Versatile Jewel Doublet;6;6:2;Laestrite Ore;6;6:Make 3, Ignore Skill Points|
 
 
@@ -73,7 +73,7 @@ N Versatile Jewel Cluster|QID|755311859|P|Jewelcrafting;755;8+84;1|N|4;Umbryl;24
 
 
 
-N That completes Shadowlands Blacksmithing.
+N That completes Shadowlands Jewelcrafting.
 ]]
 end)
 

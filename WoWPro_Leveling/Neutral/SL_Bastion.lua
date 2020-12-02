@@ -248,7 +248,7 @@ T Step Back From That Ledge, My Friend|QID|57717|M|59.31,77.05|Z|Bastion!The Sha
 A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 A The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|Cleanse the Temple by killing all the hostile mobs and rescuing the terrified stewards.|S|MS|
-A An Inspired Moral Inventory|QID|57444|M|61.13,74.42|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|RANK|2|
+A An Inspired Moral Inventory|QID|57444|M|61.13,74.42|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|RANK|2| ; needs to be moved upwards..
 A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion!The Shadowlands|N|From The Scroll in front of the Vespar of Harmony.|PRE|57717|MS|
 C An Inspired Moral Inventory|QID|57444|M|57.98,75.81|Z|Bastion!The Shadowlands|T|Forsworn Ascended|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Find the scrolls around the area.|S|MS|
@@ -340,6 +340,7 @@ C More Than A Gift|QID|62715|M|45.56,59.70|Z|Bastion!The Shadowlands|NC|N|Follow
 A A Fine Journey|QID|59554|M|45.28,59.85|Z|Bastion!The Shadowlands|N|From the scroll on the pillar.|RANK|2|
 R Agthia's Repose|ACTIVE|59554|M|46.96,63.44|Z|Bastion!The Shadowlands|N|Follow the path up the hill to Agthia's Repose.|
 T A Fine Journey|QID|59554|M|46.96,63.44|Z|Bastion!The Shadowlands|N|To Keeper Mnemis.|
+K Vesper Repair: Sophia's Aria|QID|58319|M|51.46,68.61|Z|Bastion!The Shadowlands|T|Nikara Blackheart|N|Need 3 player to summon (either Faction), Each of you must click the Ancient Incense on the blue platforms.  Once started Sophia arrives to tune the vesper, 3 waves, low level, elites, then rare.|ITEM|183608|RARE|ACH|14307;19|  ; QID|63411| is when you kill Nikara, QID in line is when looting chest.
 A In Agthia's Memory|QID|57549|M|46.96,63.44|Z|Bastion!The Shadowlands|N|From Keeper Mnemis.|PRE|59554|LVL|52|RANK|2|
 C In Agthia's Memory|QID|57549|M|47.45,66.05|QO|1|Z|Bastion!The Shadowlands|NC|N|Click the scroll.|
 C In Agthia's Memory|QID|57549|M|44.84,68.75|QO|2|Z|Bastion!The Shadowlands|NC|N|Click the scroll.|
@@ -367,7 +368,7 @@ T Shadow's Fall|QID|57555|M|46.99,63.45|Z|Bastion!The Shadowlands|N|To Keeper Mn
 K Basilofos, King of the Hill|QID|62158|QO|1|M|48.48,50.17|Z|Bastion!The Shadowlands|T|Basilofos|N|Move around this area until you get a Mark above you that looks like "Purple Eyes".\nKeep it for a while, then the rare's mark will appear on map.  About 30 seconds later, the mob will fly down.\nInterupt: Call Packmate|ITEM|182655|RARE|ACH|14307;6|  ; or qid 60897 ?  both show up in QuestChanged.
 
 ; Side Quest stuff - In the Garden of Respite
-A Garden in Turmoil|QID|57529|M|52.34,61.38|Z|Bastion!The Shadowlands|N|From Tamesis.|RANK|2|
+A Garden in Turmoil|QID|57529|LEAD|57538|M|52.34,61.38|Z|Bastion!The Shadowlands|N|From Tamesis.|RANK|2|
 T Garden in Turmoil|QID|57529|M|51.34,59.57|Z|Bastion!The Shadowlands|N|To Zosime.|
 A Disturbing the Peace|QID|57538|M|51.34,59.57|Z|Bastion!The Shadowlands|N|From Zosime.|RANK|2|
 A Distractions for Kala|QID|57545|M|51.34,59.57|Z|Bastion!The Shadowlands|N|From Zosime.|RANK|2|

@@ -23,12 +23,12 @@ N Shopping List|N|The next few lines are going to be the TOTAL amount of mats yo
 
 ; Begin Shopping list, as of Nov-2020
 
-l Laestrite Ore|QID|164171828|P|Blacksmithing;164;8+0|L|171828 359|N|You'll need about 359 Laestrite Ore.|
-l Elethium Ore|QID|164171833|P|Blacksmithing;164;8+0|L|171833 29|N|You'll need about  29 Elethium Ore.|
-l Solenium Ore|QID|164171829|P|Blacksmithing;164;8+0|L|171829 95|N|You'll need at least 95 (Upto 189) Solenium Ore.|
-l Oxxein Ore|QID|164171830|P|Blacksmithing;164;8+0|L|171830 95|N|You'll need at least 95 (Upto 189) Oxxein Ore.|
-l Phaedrum Ore|QID|164171831|P|Blacksmithing;164;8+0|L|171831 95|N|You'll need at least 95 (Upto 189) Phaedrum Ore.|
-l Sinvyr Ore|QID|164171832|P|Blacksmithing;164;8+0|L|171832 95|N|You'll need at least 95 (Upto 189) Sinvyr Ore.|
+l Laestrite Ore|QID|164171828|P|Blacksmithing;164;8+0|L|171828 359|N|You'll need about 359 Laestrite Ore. Found everywhere.|
+l Elethium Ore|QID|164171833|P|Blacksmithing;164;8+0|L|171833 29|N|You'll need about  29 Elethium Ore. Found in The Maw, but also in other zones low chance.|
+l Solenium Ore|QID|164171829|P|Blacksmithing;164;8+0|L|171829 95|N|You'll need at least 95 (Upto 189) Solenium Ore. Found in Bastion.|
+l Oxxein Ore|QID|164171830|P|Blacksmithing;164;8+0|L|171830 95|N|You'll need at least 95 (Upto 189) Oxxein Ore. Found in Maldaxxus.|
+l Phaedrum Ore|QID|164171831|P|Blacksmithing;164;8+0|L|171831 95|N|You'll need at least 95 (Upto 189) Phaedrum Ore. Found in Ardenweald.|
+l Sinvyr Ore|QID|164171832|P|Blacksmithing;164;8+0|L|171832 95|N|You'll need at least 95 (Upto 189) Sinvyr Ore. Found in Revendreth.|
 B Luminous Flux|QID|164180733|P|Blacksmithing;164;8+0|L|180733 289|N|You'll need about 289 (Upto 965) Luminous Flux.|
 N Shadowghast Ingot|QID|164307611|P|Blacksmithing;164;8+0|N|You'll need upto 189 Shadowghast Ingots, these you will make as you go. (reason for the Upto).|
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
