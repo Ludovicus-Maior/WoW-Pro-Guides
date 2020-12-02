@@ -2487,26 +2487,28 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             if WoWPro.renown and WoWPro.renown[guideIndex] and not WoWPro.CLASSIC then
 				local renownID = WoWPro.renown[guideIndex]
-				local renownFlip
+				local renownFlip = false
                 local renownMatch
                 local renown = _G.C_CovenantSanctumUI.GetRenownLevel()
 				if (renownID:sub(1, 1) == "-") then
                     renownID = renownID:sub(2)
                     renownFlip = true
                 end
-                if tonumber(renownID) >= renown then
+                if renown >= tonumber(renownID) then
                     renownMatch = true
                 end
                 if renownFlip then
                     renownMatch = not renownMatch
                 end
                 if renownMatch then
-                    if not renownFlip then
-						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..renown.."] is less than "..renownID.."."
-                    end
-                    skip = true
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..renown.."] met condition with "..renownID.."."
                 else
-                    WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..renownID.."] not met."
+					if renownFlip then
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..renown.."] is greater than  "..renownID.."."
+					else
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..renown.."] is less than  "..renownID.."."
+					end
+					skip = true
                 end
             end
 
