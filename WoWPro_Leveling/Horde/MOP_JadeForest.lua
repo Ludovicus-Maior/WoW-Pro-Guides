@@ -440,11 +440,11 @@ C Delivery to Historian Dinh|QID|30495|M|46.36,61.80|QO|1|N|Run over and speak w
 T Love's Labor|QID|30495|M|48.31,61.35|N|To Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|M|48.31,61.35|N|From Foreman Raike.|PRE|30495|
 F Jade Temple Grounds|QID|29932|M|48.18,60.02|N|Ask Kitemaster Shoku for a ride to the Temple of the Jade Serpent.|
-C The Temple of the Jade Serpent|QID|29932|M|55.84,57.07|N|Chat with Elder Sage Wind-Yi for transport into the temple.\nStarts a cinematic. [<ESC> to cancel the cinematic]|CHAT|
+C The Temple of the Jade Serpent|QID|29932|M|55.84,57.07|N|Chat with Elder Sage Wind-Yi for transport into the temple.\n[color=FF0000]NOTE: [/color]Starts a cancelable cinematic.\n<ESC> to cancel it.|CHAT|
 T The Temple of the Jade Serpent|QID|29932|M|58.13,58.65|N|To Elder Sage Rain-Zhu.|
 A The Scryer's Dilemma|QID|29997|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|PRE|29932|
 A The Librarian's Quandary|QID|29998|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|PRE|29932|
-A They Call Him... Stormstout|QID|32019|M|58.13,58.65|N|From Elder Sage Rain-Zhu.\nThis quest is a breadcrumb to The Valley of Four Winds. You won't see it if you have one of the 4 other breadcrumbs.|
+A They Call Him... Stormstout|QID|32019|M|58.13,58.65|N|From Elder Sage Rain-Zhu.\n[color=FF0000]NOTE: [/color]This quest is a breadcrumb to The Valley of Four Winds. You won't see it if you have one of the 4 other breadcrumbs.|
 A The Rider's Bind|QID|29999|M|58.03,59.02|N|From Fei.|PRE|29932|
 A Lighting Up the Sky|QID|30005|M|58.03,59.02|N|From Fei.|PRE|29932|
 C Lighting Up the Sky|QID|30005|N|Click on the Firework Launchers as you find them.|NC|S|
@@ -476,43 +476,44 @@ T The Jade Serpent|QID|30000|M|55.84,57.07|N|To Elder Sage Wind-Yi.|
 A Get Back Here!|QID|30499|M|55.84,57.07|N|From Elder Sage Wind-Yi.|PRE|30000|
 f Jade Temple Grounds|QID|30499|M|54.57,61.76|N|At Ginsa Arroweye.|
 F Grookin Hill|QID|30499|M|54.57,61.76|N|Take the free option from Ginsa Arroweye.|
-T Get Back Here!|QID|30499|M|28.02,47.15|N|To General Nazgrim.|
-A Sufficient Motivation|QID|30466|M|28.02,47.15|N|From General Nazgrim.|
-A Gauging Our Progress|QID|30484|M|28.02,47.15|N|From General Nazgrim.|PRE|30499|
-C Sufficient Motivation|QID|30466|M|28.14,47.33|QO|2|N|Pick up a bucket of slicky water and toss it on lazy hozens as you go.|U|79884|NC|
-C Sufficient Motivation|QID|30466|M|27.14,46.70|QO|1|U|79884|NC|US|
-C Gauging Our Progress|QID|30484|M|28.41,47.75|QO|2|CHAT|
-C Gauging Our Progress|QID|30484|M|29.15,50.87|QO|1|CHAT|
-C Gauging Our Progress|QID|30484|M|28.41,51.92|QO|3|CHAT|
-C Gauging Our Progress|QID|30484|M|27.03,55.00|QO|4|CHAT|
-C Sufficient Motivation|QID|30466|M|27.14,46.70|QO|1|U|79884|NC|US|
-T Sufficient Motivation|QID|30466|M|28.07,47.15|N|To General Nazgrim.|
-T Gauging Our Progress|QID|30484|M|28.07,47.15|N|To General Nazgrim.|
-A Last Piece of the Puzzle|QID|30485|M|28.21,46.68|N|From Lorewalker Cho.|PRE|30466&30484|
-C Last Piece of the Puzzle|QID|30485|M|28.19,46.71;44.53,66.99|CN|N|Talk to Mishi for a ride. *this step will not autocomplete until you finish the next step*|U|80071|
-C Last Piece of the Puzzle|QID|30485|M|44.51,66.97|U|80071|
-f Serpent's Overlook|QID|31303|M|43.13,68.48|N|At Sky Dancer Ji. optional, but you will not be able to get back up here until lvl 90 if you don't (admittedly, you don't need to get up here again.)|
-T Last Piece of the Puzzle|QID|30485|M|44.74,67.09|N|To Lorewalker Cho.|
-A The Seal is Broken|QID|31303|M|44.74,67.09|N|From Lorewalker Cho.|PRE|30485^31362|
-C The Seal is Broken|QID|31303|M|47.73,58.29|N|Talk to Mishi to start the "bombing run".|CHAT|
-T The Seal is Broken|QID|31303|M|49.27,61.39|N|To Lorewalker Cho.|
-A Residual Fallout|QID|30500|M|49.27,61.39|N|From Lorewalker Cho.|PRE|31303|
-A Jaded Heart|QID|30502|M|49.27,61.39|N|From Lorewalker Cho.|PRE|31303|
-A Emergency Response|QID|30504|M|49.27,61.39|N|From Lorewalker Cho.|PRE|31303|
+T Get Back Here!|QID|30499|M|28.03,47.20|N|To General Nazgrim.|
+A Sufficient Motivation|QID|30466|M|28.03,47.20|N|From General Nazgrim.|
+A Gauging Our Progress|QID|30484|M|28.03,47.20|N|From General Nazgrim.|PRE|30499|
+C Sufficient Motivation|QID|30466|M|28.13,47.38|QO|2|N|Pick up a bucket of slicky water from one the Barrels of Slickies.|NC|
+C Sufficient Motivation|QID|30466|M|27.14,46.70|QO|1|N|Toss the bucket of slicky water on any lazy hozens you come across in Gookin Hill.|U|79884|NC|S|
+C Gauging Our Progress|QID|30484|M|28.41,47.79|QO|2|CHAT|
+C Gauging Our Progress|QID|30484|M|29.17,50.89|QO|1|CHAT|
+C Gauging Our Progress|QID|30484|M|28.44,51.94|QO|3|N|She paces back and forth.|CHAT|
+C Gauging Our Progress|QID|30484|M|26.99,54.95|QO|4|CHAT|
+C Sufficient Motivation|QID|30466|M|27.14,46.70|QO|1|N|Toss the bucket of slicky water on any lazy hozens you come across in Gookin Hill.|U|79884|NC|US|
+T Sufficient Motivation|QID|30466|M|28.03,47.20|N|To General Nazgrim.|
+T Gauging Our Progress|QID|30484|M|28.03,47.20|N|To General Nazgrim.|
+A Last Piece of the Puzzle|QID|30485|M|28.22,46.72|N|From Lorewalker Cho.|PRE|30466&30484|
+F Last Piece of the Puzzle|ACTIVE|30485|M|28.19,46.71|N|Talk to Mishi for a ride.|CHAT|
+C Last Piece of the Puzzle|QID|30485|M|44.50,66.93|N|This starts a cancelable cinematic.\n<ESC> to cancel it.|U|80071|
+f Serpent's Overlook|QID|31303|M|43.10,68.49|N|At Sky Dancer Ji. (While you're up here)|
+T Last Piece of the Puzzle|QID|30485|M|44.78,67.09|N|To Lorewalker Cho.|
+A The Seal is Broken|QID|31303|M|44.78,67.09|N|From Lorewalker Cho.|PRE|30485^31362|
+C The Seal is Broken|QID|31303|M|44.78,67.04|N|Talk to Mishi to start the "bombing run".|CHAT|
+T The Seal is Broken|QID|31303|M|49.30,61.48|N|To Lorewalker Cho.|
+A Residual Fallout|QID|30500|M|49.30,61.48|N|From Lorewalker Cho.|PRE|31303|
+A Jaded Heart|QID|30502|M|49.30,61.48|N|From Lorewalker Cho.|PRE|31303|
+A Emergency Response|QID|30504|M|49.30,61.48|N|From Lorewalker Cho.|PRE|31303|
 C Residual Fallout|QID|30500|M|47.38,58.63|S|
 C Jaded Heart|QID|30502|M|50.02,60.17|N|Pick up the jade chunks, use them to make the Elite Sha Remnants into non-elite.|U|80074|S|
+N WoW-Pro 'Use' Hot key|ACTIVE|30502&30504|N|Until you complete 'Jaded Heart', the hot key will not work for the Signal Flare if you have any Jade Chunks in your inventory.|
 C General Nazgrim|QID|30504|M|48.16,61.72|QO|1|N|Use the signal flare to call Mishi to take him away.|U|86467|NC|
-C Rivett Clutchpop|QID|30504|M|48.63,59.11|QO|4|N|Use the signal flare to call Mishi to take him away.|U|86467|NC|
-C Shokia|QID|30504|M|46.89,60.74|QO|3|N|Use the signal flare to call Mishi to take her away.|U|86467|NC|
-C Shademaster Kiryn|QID|30504|M|47.3,62.55|QO|2|N|Use the signal flare to call Mishi to take her away.|U|86467|NC|
+C Rivett Clutchpop|QID|30504|M|48.02,59.08|QO|4|N|Use the signal flare to call Mishi to take him away.|U|86467|NC|
+C Shokia|QID|30504|M|46.87,60.71|QO|3|N|Use the signal flare to call Mishi to take her away.|U|86467|NC|
+C Shademaster Kiryn|QID|30504|M|47.24,62.53|QO|2|N|Use the signal flare to call Mishi to take her away.|U|86467|NC|
 C Residual Fallout|QID|30500|M|47.38,58.63|US|
 C Jaded Heart|QID|30502|M|50.02,60.17|N|Pick up the 'sparkly' jade chunks, use them to make the Elite Sha Remnants into non-elite.|U|80074|US|
-T Residual Fallout|QID|30500|M|49.32,61.47|N|To Lorewalker Cho.|
-T Jaded Heart|QID|30502|M|49.32,61.47|N|To Lorewalker Cho.|
-T Emergency Response|QID|30504|M|49.22,61.47|N|To Lorewalker Cho.|
-A Moving On|QID|30648|M|49.31,61.35|N|From Fei.|
-C Moving On|QID|30648|M|49.31,61.35|N|Talk to Fei.|CHAT|
-T Moving On|QID|30648|N|To UI Alert (after the ride into the Valley).|
+T Residual Fallout|QID|30500|M|49.30,61.48|N|To Lorewalker Cho.|
+T Jaded Heart|QID|30502|M|49.30,61.48|N|To Lorewalker Cho.\n[color=FF0000]NOTE: [/color]Any left over Jade Chunks will be removed from your inventory when you turn this in.|
+T Emergency Response|QID|30504|M|49.30,61.48|N|To Lorewalker Cho.|
+A Moving On|QID|30648|M|49.30,61.42|N|From Fei.|
+C Moving On|QID|30648|M|49.30,61.42|N|Talk to Fei.\n[color=FF0000]NOTE: [/color]Starts a cut-scene with a free ride from Yu'lon to The Valley of the Four Winds.\nThis step will close when you arrive.|CHAT|
+T Moving On|QID|30648|M|PLAYER|N|To UI Alert after you land.|
 D Congratulations|N|You finished The Jade Forest. Next zone is Valley of the Four Winds, the guide should load when you check off this step.|
 ]]
 end)
