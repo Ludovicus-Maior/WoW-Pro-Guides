@@ -475,12 +475,6 @@ function WoWPro:OnEnable()
         WoWPro[tag] = WoWPro[tag] or {}
     end
 
-    -- Module Enabling --
-    for name, module in WoWPro:IterateModules() do
-        WoWPro:dbp("Enabling "..name.." module...")
-        module:Enable()
-    end
-
     WoWPro:CustomizeFrames()    -- Applies profile display settings
 
     -- Keybindings Initial Setup --
@@ -552,6 +546,12 @@ function WoWPro:OnEnable()
 		WoWPro:DevCoords()
 		_G.WoWProDevCoords:Show()
 	end
+
+    -- Module Enabling --
+    for name, module in WoWPro:IterateModules() do
+        WoWPro:dbp("Enabling "..name.." module...")
+        module:Enable()
+    end
 end
 
 -- Called when the addon is disabled --
