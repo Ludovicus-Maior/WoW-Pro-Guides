@@ -277,7 +277,7 @@ A Calamity Jade|QID|29926|M|50.95,27.03|N|From Foreman Mann.|PRE|29928|
 A Mann's Man|QID|29927|M|50.95,27.03|N|From Foreman Mann.|PRE|29928|
 T Mann's Man|QID|29927|M|60.99,36.53|Z|Upper Quarry@Greenstone Quarry|N|To Hao Mann, inside Greenstone Quarry.|
 A Trapped!|QID|29929|M|60.99,36.53|Z|Upper Quarry@Greenstone Quarry|N|From Hao Mann.|PRE|29927|
-$ Ancient Pandaren Mining Pick|QID|31399|N|It can be anywhere in the mine or not at all. It's not always there. Click this off when not found.|RANK|3|S!US|
+$ Ancient Pandaren Mining Pick|QID|31399|M|60.99,36.53|Z|Upper Quarry@Greenstone Quarry|N|It can be anywhere in the mine or not at all. It's not always there. Click this off when not found.|RANK|3|S!US|
 C Calamity Jade|QID|29926|M|44.48,30.29|S|
 C Trapped!|QID|29929|M|43.87,30.49|N|Click on the trapped miners to free them.|NC|
 C Calamity Jade|QID|29926|M|44.48,30.29|US|
@@ -312,7 +312,7 @@ A Ritual Artifacts|QID|29751|M|44.23,15.03|N|From Pei-Zhi.|PRE|29749|
 A Vessels of the Spirit|QID|29750|M|44.23,15.03|N|From Pei-Zhi.|PRE|29749|
 A The Wayward Dead|QID|29752|M|44.23,15.03|N|From Pei-Zhi.|PRE|29749|
 ; --- [Hendo72] Not sure how to handle the 4 possible locations.
-$ Hammer of the Ten Thunders|QID|31403|N|It has 4 different spawn points and may not always be there. Click this off when it's not around here.|S!US|RANK|3|
+$ Hammer of the Ten Thunders|QID|31403|M|43.0,11.6;40.2,13.7;41.2,13.8;41.8,17.7|CC|N|It has 4 different spawn points and may not always be there. Click this off when it's not around here.|S!US|RANK|3|
 C Vessels of the Spirit|QID|29750|M|40.69,14.85|N|Kill and loot the Shan'ze Spiritclaws to get the spirit bottles.|S|
 C The Wayward Dead|QID|29752|M|44.22,15.01|N|Use Pei-Zhi's staff to release the Wandering Spirits.|T|Wayward Ancestor|U|74771|S|
 C Ritual Artifacts|QID|29751|M|41.63,14.31|QO|2|N|Sitting on the crate.|NC|
@@ -326,7 +326,7 @@ T The Wayward Dead|QID|29752|M|44.23,15.03|N|To Pei-Zhi.|
 A Back to Nature|QID|29753|M|44.23,15.03|N|From Pei-Zhi.|PRE|29750|
 A A Humble Offering|QID|29756|M|44.23,15.03|N|From Pei-Zhi.|PRE|29750&29751&29752|
 C A Humble Offering|QID|29756|M|39.71,10.98|N|Pick the mushrooms sparkling in this area.|NC|S|
-$ Wodin's Mantid Shanker|QID|31397|M|39.37,7.20|N|Inside Owen's wishing well a BoA lost treasure item 'Wodin's Mantid Shanker' can be rarely found. Click this off when it's not there. Click the Lucky Golden Coin for a 10 minute luck buff|RANK|3|
+$ Wodin's Mantid Shanker|QID|31397|M|39.37,7.20|N|Inside Owen's wishing well a BoA lost treasure item 'Wodin's Mantid Shanker' can be rarely found. Click this off when it's not there. Click the Lucky Golden Coin for a 10 minute luck buff|S!US|RANK|3|
 C Back to Nature|QID|29753|M|39.88,10.43|N|Throw the jar to release the spirit. The spirit may be hostile. You have to be in Tideview Thicket.|U|74808|
 C A Humble Offering|QID|29756|M|39.71,10.98|N|Finish picking the mushrooms you need.|NC|US|
 T Back to Nature|QID|29753|M|44.23,15.03|N|To Pei-Zhi.|
@@ -427,52 +427,55 @@ K Subjugator Gormal|ACTIVE|29670|M|37.84,75.76|QO|1|T|Subjugator Gormal|
 C Unbound|QID|29587|M|39.76,75.57|N|Click on the nets to free the farmers or defeat the Slaver to free the chained one.|NC|US|
 T Unbound|QID|29587|M|41.00,73.97|N|To Shao the Defiant.|
 T Maul Gormal|QID|29670|M|41.00,73.97|N|To Shao the Defiant.|
-$ Ancient Jinyu Staff|QID|31402|M|46.2,71.2;44.9,64.6|CN|N|[fix coords]Anywhere the river between the waypoints. Click this off if it's not there.|RANK|3|
+$ Ancient Jinyu Staff|QID|31402|M|46.12,71.33;44.91,64.50|CC|N|Anywhere in the river between the two waypoints. Click this off if it's not there.|S!US|RANK|3|
 R Serpent's Heart|QID|29931|M|42.94,60.12|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart.|FLY|OLD|
-T The Serpent's Heart|QID|29931|M|48.26,61.31|N|To Foreman Raike.|
-A Love's Labor|QID|30495|M|48.26,61.31|N|From Foreman Raike.|PRE|29931|
-C Delivery to Kitemaster Shoku|QID|30495|M|48.2,60.0|QO|3|N|[fix coords]|CHAT|
-C Delivery to Taskmaster Emi|QID|30495|M|47.6,60.7|QO|4|N|[fix coords]Ask Shoku to get a lift to the top of the statue|CHAT|
-C Delivery to Surveyor Sawa|QID|30495|M|47.4,60.5;46.9,60.4|CS|QO|2|N|[fix coords]Talk to Kitemaster Inga to get a ride down|CHAT|
-C Delivery to Historian Dinh|QID|30495|M|46.4,61.8|QO|1|N|[fix coords]|CHAT|
-T Love's Labor|QID|30495|M|48.31,61.30|N|To Foreman Raike.|
-A The Temple of the Jade Serpent|QID|29932|M|48.31,61.30|N|From Foreman Raike.|PRE|30495|
-F Jade Temple Grounds|QID|29932|M|48.2,60.0|N|[fix coords]Take the kite ride from Kitemaster Shoku.|
-C The Temple of the Jade Serpent|QID|29932|M|55.83,57.05|N|Chat with Elder Sage Wind-Yi for transport into the temple grounds. (NOT THE INSTANCE PORTAL)|CHAT|
+T The Serpent's Heart|QID|29931|M|48.31,61.35|N|To Foreman Raike.|
+A Love's Labor|QID|30495|M|48.31,61.35|N|From Foreman Raike.|PRE|29931|
+C Delivery to Kitemaster Shoku|QID|30495|M|48.18,60.02|QO|3|N|Talk to Kitemaster Shoku and tell him you have a delivery.|CHAT|
+F Delivery to Taskmaster Emi|ACTIVE|30495|M|48.18,60.02|N|Ask Kitemaster Shoku for a ride to the top.|
+C Delivery to Taskmaster Emi|QID|30495|M|47.58,60.67|QO|4|N|Talk to Taskmaster Emi when you land.|CHAT|
+F Delivery to Surveyor Sawa|ACTIVE|30495|M|47.45,60.51|N|Talk to Kitemaster Inga to get a ride to the bottom.|
+C Delivery to Surveyor Sawa|QID|30495|M|46.94,60.36|QO|2|N|Run around to the other side of the statue and talk to Surveyor Sawa.|CHAT|
+C Delivery to Historian Dinh|QID|30495|M|46.36,61.80|QO|1|N|Run over and speak with Historian Dinh.|
+T Love's Labor|QID|30495|M|48.31,61.35|N|To Foreman Raike.|
+A The Temple of the Jade Serpent|QID|29932|M|48.31,61.35|N|From Foreman Raike.|PRE|30495|
+F Jade Temple Grounds|QID|29932|M|48.18,60.02|N|Ask Kitemaster Shoku for a ride to the Temple of the Jade Serpent.|
+C The Temple of the Jade Serpent|QID|29932|M|55.84,57.07|N|Chat with Elder Sage Wind-Yi for transport into the temple.\nStarts a cinematic. [<ESC> to cancel the cinematic]|CHAT|
 T The Temple of the Jade Serpent|QID|29932|M|58.13,58.65|N|To Elder Sage Rain-Zhu.|
 A The Scryer's Dilemma|QID|29997|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|PRE|29932|
 A The Librarian's Quandary|QID|29998|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|PRE|29932|
-A They Call Him... Stormstout|QID|32019|M|58.13,58.65|N|From Elder Sage Rain-Zhu. This quest requires level 86 and is mutually exclusive with 'His name was Stormstout' offered in Dawn's Blossom.|
-A The Rider's Bind|QID|29999|M|58.05,59.00|N|From Fei.|PRE|29932|
-A Lighting Up the Sky|QID|30005|M|58.05,59.00|N|From Fei.|PRE|29932|
-C Lighting Up the Sky|QID|30005|N|Set off the fireworks (sparkly barrels) scattered throughout the next few steps.|NC|S|
-C Crimson Serpent|QID|29999|M|58.19,61.37|QO|2|N|Click on the cog to pick up the serpent.|NC|
-T The Librarian's Quandary|QID|29998|M|56.29,60.46|N|To Lorewalker Stonestep.|
-A Moth-Ridden|QID|30001|M|56.29,60.46|N|From Lorewalker Stonestep.|PRE|29998|
-A Pages of History|QID|30002|M|56.29,60.46|N|From Lorewalker Stonestep.|PRE|29998|
-C Gold Serpent|QID|29999|M|57.51,58.52|QO|4|N|Click on the cog to pick up the serpent.|NC|
-C Pages of History|QID|30002|M|55.70,59.95|N|Stomp(click) on the bookworms (or just kill them the normal way).|S|
-C Moth-Ridden|QID|30001|M|56.39,60.43|
-C Pages of History|QID|30002|M|55.70,59.95|N|Stomp(click) on the bookworms (or just kill them the normal way).|US|
-T Moth-Ridden|QID|30001|M|56.29,60.40|N|To Lorewalker Stonestep.|
-A Everything In Its Place|QID|30004|M|56.29,60.40|N|From Lorewalker Stonestep.|PRE|30001&30002|
+A They Call Him... Stormstout|QID|32019|M|58.13,58.65|N|From Elder Sage Rain-Zhu.\nThis quest is a breadcrumb to The Valley of Four Winds. You won't see it if you have one of the 4 other breadcrumbs.|
+A The Rider's Bind|QID|29999|M|58.03,59.02|N|From Fei.|PRE|29932|
+A Lighting Up the Sky|QID|30005|M|58.03,59.02|N|From Fei.|PRE|29932|
+C Lighting Up the Sky|QID|30005|N|Click on the Firework Launchers as you find them.|NC|S|
+C Crimson Serpent|QID|29999|M|58.19,61.37|QO|2|N|Click on the serpent to pick it up.|NC|
+T The Librarian's Quandary|QID|29998|M|56.26,60.43|N|To Lorewalker Stonestep.|
+A Moth-Ridden|QID|30001|M|56.27,60.43|N|From Lorewalker Stonestep.|PRE|29998|
+A Pages of History|QID|30002|M|56.27,60.43|N|From Lorewalker Stonestep.|PRE|29998|
+C Gold Serpent|QID|29999|M|56.01,60.34|QO|4|N|Click on the serpent to pick it up.\nIt moves around a bit, but always in the center of the room.|NC|
+C Pages of History|QID|30002|M|55.70,59.95|N|Click on an Infested Book to release the Bookworm(s). Then, click on the Bookworms to 'squish' them before they despawn.|S|
+C Moth-Ridden|QID|30001|M|56.39,60.43|N|You'll find them along the walls of the room.|
+C Pages of History|QID|30002|M|55.70,59.95|N|Click on an Infested Book to release the Bookworm(s). Then, click on the Bookworm(s) to 'squish' them before they despawn.|US|
+T Moth-Ridden|QID|30001|M|56.27,60.43|N|To Lorewalker Stonestep.|
+A Everything In Its Place|QID|30004|M|56.27,60.43|N|From Lorewalker Stonestep.|PRE|30001&30002|
 T Pages of History|QID|30002|M|55.70,59.95|N|To Lorewalker Stonestep.|
-C Emerald Serpent|QID|29999|M|56.51,58.44|QO|3|N|Click on the cog to pick up the serpent.|NC|
+R Exit the Scrollkeeper's Sanctum|ACTIVE|29999|M|56.41,58.90|IZ|The Scrollkeeper's Sanctum|N|Go up the stairs and wind your way around the room until you reach the stairs going back down to the exit.|
+C Emerald Serpent|QID|29999|M|56.51,58.44|QO|3|N|Click on the serpent to pick it up.\nIt moves around a bit, but always in the general vicinity.|NC|
 C The Scryer's Dilemma|QID|29997|M|56.79,55.84|N|Kill the water elementals until the staff drops.|
-T The Scryer's Dilemma|QID|29997|M|57.59,55.98|N|To Wise Mari.|
-A A New Vision|QID|30011|M|57.59,55.98|N|From Wise Mari.|PRE|29997|
-C Azure Serpent|QID|29999|M|59.16,56.76|QO|1|N|Click on the cog to pick up the serpent.|
-C Lighting Up the Sky|QID|30005|M|56.42,58.12|N|Set off the fireworks (sparkly barrels) scattered throughout the next few steps.|NC|US|
-T A New Vision|QID|30011|M|58.16,58.64|N|To Elder Sage Rain-Zhu.|
-T Everything In Its Place|QID|30004|M|58.16,58.64|N|To Elder Sage Rain-Zhu.|
-T Lighting Up the Sky|QID|30005|M|58.05,59.02|N|To Fei.|
-T The Rider's Bind|QID|29999|M|58.05,59.02|N|To Fei.|
-A The Jade Serpent|QID|30000|M|58.05,59.02|N|From Fei.|PRE|29999&30004&30005&30011|
-C The Jade Serpent|QID|30000|M|53.49,58.02|N|Cutscene with a free cloud serpent ride.|
-T The Jade Serpent|QID|30000|M|55.83,57.05|N|To Elder Sage Wind-Yi.|
-A Get Back Here!|QID|30499|M|55.83,57.05|N|From Elder Sage Wind-Yi.|PRE|30000|
-f Jade Temple Grounds|QID|30499|M|54.60,61.75|N|At Ginsa Arroweye.|
-F Grookin Hill|QID|30499|M|56.6,6.75|N|Take the free option from the kitemaster.|
+T The Scryer's Dilemma|QID|29997|M|57.57,56.03|N|To Wise Mari.|
+A A New Vision|QID|30011|M|57.57,56.03|N|From Wise Mari.|PRE|29997|
+C Azure Serpent|QID|29999|M|59.16,56.76|QO|1|N|Click on the serpent to pick it up.\nIt moves around a bit, but always in the general vicinity.|
+C Lighting Up the Sky|QID|30005|M|56.42,58.12|N|Finish setting off the Firework Launchers.|NC|US|
+T A New Vision|QID|30011|M|58.13,58.65|N|To Elder Sage Rain-Zhu.|
+T Everything In Its Place|QID|30004|M|55.29,57.13|N|To Elder Sage Rain-Zhu.|
+T Lighting Up the Sky|QID|30005|M|58.03,59.02|N|To Fei.|
+T The Rider's Bind|QID|29999|M|58.03,59.02|N|To Fei.|
+A The Jade Serpent|QID|30000|M|58.03,59.02|N|From Fei.|PRE|29999&30004&30005&30011|
+R The Jade Serpent|ACTIVE|30000|M|53.49,58.02|N|Starts a cut-scene with a free cloud serpent ride out of the temple.\nStep will complete when the cut-scene ends and you're back on the ground.|
+T The Jade Serpent|QID|30000|M|55.84,57.07|N|To Elder Sage Wind-Yi.|
+A Get Back Here!|QID|30499|M|55.84,57.07|N|From Elder Sage Wind-Yi.|PRE|30000|
+f Jade Temple Grounds|QID|30499|M|54.57,61.76|N|At Ginsa Arroweye.|
+F Grookin Hill|QID|30499|M|54.57,61.76|N|Take the free option from Ginsa Arroweye.|
 T Get Back Here!|QID|30499|M|28.02,47.15|N|To General Nazgrim.|
 A Sufficient Motivation|QID|30466|M|28.02,47.15|N|From General Nazgrim.|
 A Gauging Our Progress|QID|30484|M|28.02,47.15|N|From General Nazgrim.|PRE|30499|
