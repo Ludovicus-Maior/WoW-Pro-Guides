@@ -405,7 +405,7 @@ C Steward at Work|QID|59197|M|PLAYER|Z|Bastion!The Shadowlands|QO|1|NC|N|Use the
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion!The Shadowlands|QO|2|CHAT|N|Talk to the Steward you summoned and ask him to fix the beacon.|MS|
 h Hero's Rest|ACTIVE|59197^62723^62729|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To shorten the run later, set your Hearth at Inkiep.|
 T You'll Never Walk Alone|QID|62170|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep|IZ|Hero's Rest|
-T Functioning Anima Core|QID|62200|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep|IZ|Hero's Rest|;guessing. i can see it's in hero's rest, but haven't been there to check yet
+T Functioning Anima Core|QID|62200|M|51.12,46.79|Z|Bastion!The Shadowlands|N|To Kalisthene|IZ|Hero's Rest|
 C Steward at Work|QID|59197|M|53.24,46.82|Z|Bastion!The Shadowlands|QO|3|NC|N|Click to activate the Beacon of Invocation.|MS|
 
 A WANTED: Gorgebeak|QID|60315|M|53.27,46.43|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
