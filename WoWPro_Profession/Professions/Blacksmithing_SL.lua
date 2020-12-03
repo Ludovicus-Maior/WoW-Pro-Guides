@@ -15,10 +15,10 @@ return [[
 ;  Typed update to SL splits on 27-Nov-2020 by Blanckaert (This is NOT tested)
 
 N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
-
+N PLEASE Report any issues|N|In our Discord #retail-bug-reports|
 N This Guide is a Work In Progress Guide.|N|Currently in Development, This Guide covers SHADOWLANDS content in Retail.|
 
-N Miner|P|Mining;186;8;0|N|If you are a miner, it is recommended you go level your miner up first, currently no guide in the works for mining.|
+N Miner|P|Mining;186;8;0|N|If you are a miner, running around for these mats will level you up, currently no guide in the works for mining.|
 N Shopping List|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
 
 ; Begin Shopping list, as of Nov-2020
@@ -77,7 +77,7 @@ N Shadowsteel Breastplate|QID|164322587|P|Blacksmithing;164;8+92;1|N|6;Laestrite
 N Shadowsteel Greaves|QID|164322591|P|Blacksmithing;164;8+100;1|N|6;Laestrite Ore;18;18:12;Shadowghast Ingot;36;36:2;Elethium Ore;6;6:3;Luminous Flux;9;9|
 
 
-N That completes Shadowlands Blacksmithing.
+N That completes Shadowlands Blacksmithing.|
 ]]
 end)
 

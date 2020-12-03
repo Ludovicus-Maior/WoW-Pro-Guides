@@ -17,7 +17,7 @@ return [[
 ; N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|N|Currently in Development, This Guide covers SHADOWLANDS content in Retail.|
-
+N PLEASE Report any issues|N|In our Discord #retail-bug-reports|
 N Shopping List|N|The next few lines are going to be the TOTAL amount of mats you need to complete JC 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
 
 ; Begin Shopping list, as of Nov-2020
@@ -63,9 +63,9 @@ N Tenet of Critical Strike|QID|333311864|P|Enchanting;333;8+95;1|N|3;Sacred Shar
 N Eternal Skirmish|QID|333323760|P|Enchanting;333;8+100;1|N|N|1;Eternal Crystal;5;12:2;Sacred Shard;10;84:Alternates Eternal Bounds or Stats.|
 = Learn Recipes|QID|333100|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+100|N|Learn available recipes from Trainer.|
 N Eternal Grace|QID|333309621|P|Enchanting;333;8+100;1|N|N|2;Eternal Crystal;10;10:3;Sacred Shard;15;74:Alternate Lightless Force.|
+N Eternal Bounds|QID|333323761|P|Enchanting;333;8+110;1|N|1;Eternal Crystal;8;8:2;Sacred Shard;16;59:Alternates the other two Eternal Enchants.|
 
-
-N That completes Shadowlands Enchanting.
+N That completes Shadowlands Enchanting.|
 ]]
 end)
 
