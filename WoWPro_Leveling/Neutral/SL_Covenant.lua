@@ -1171,22 +1171,23 @@ R The Eternal Terrace Lift|ACTIVE|59706|M|57.38,33.44|Z|Revendreth|N|Mount up an
 R Bridge of Temptations|ACTIVE|59706|M|53.83,33.26|Z|Revendreth|N|Run out to the Bridge of Temptations.|COV|Venthyr|
 T Invitation for the Countess|QID|59706|M|52.44,35.32|Z|Revendreth|N|To Cudgelface.|COV|Venthyr|
 A Harvester of Desire|QID|59676|M|52.44,35.32|Z|Revendreth|N|From Cudgelface.|PRE|59706|COV|Venthyr|REN|5|
-C Harvester of Desire|QID|59676|M|52.41,35.32|Z|Revendreth|NC|N|Click the crate to wear the Servant's clothes.|COV|Venthyr|
+C Harvester of Desire|QID|59676|M|52.41,35.32|Z|Revendreth|QO|1|NC|N|Click the crate to wear the Servant's clothes.|COV|Venthyr|
+C Harvester of Desire|QID|59676|M|56.98,28.56|Z|Revendreth|QO|2|CHAT|N|Message for the Countess delivered.|COV|Venthyr|
 R Menagerie of the Master|ACTIVE|59708|CC|M|54.53,27.22;53.30,29.55|Z|Revendreth|N|Make your way back down the via ramps to the north.|COV|Venthyr|
 R Dominance Gate|ACTIVE|59708|M|45.19,31.24|Z|Revendreth|N|Cut your way through towards Dominance Gate.|COV|Venthyr|
 T Invitation for the Stonewright|QID|59708|M|40.27,30.60|Z|Revendreth|N|To General Draven.|COV|Venthyr|
 A Harvester of Wrath|QID|59720|M|40.27,30.60|Z|Revendreth|N|From General Draven.|PRE|59708|COV|Venthyr|
 C Harvester of Wrath|QID|59720|M|34.28,21.92|Z|Revendreth|N|Do NOT mount up, you must cross the bridge on foot and fight your way across. At the end you can deliver your message to the Stonewright.|COV|Venthyr|
 F Charred Ramparts|ACTIVE|59720|M|25.96,28.88|Z|Sinfall Reaches@Sinfall!Dungeon|N|Take the lift down and head to the flightpoint to fly you back to the Carred Ramparts.|COV|Venthyr|
-R Hole in the Wall|ACTIVE|59720|M|40.55,47.67|Z|Sinfall Reaches@Sinfall!Dungeon|N|Run to the Hole in the Wall.|COV|Venthyr|
-R Darkwall Tower|ACTIVE|59720|M|42.07,47.15|Z|Sinfall Reaches@Sinfall!Dungeon|N|Run to and take the lift up Darkwall Tower.|COV|Venthyr|
+R Hole in the Wall|ACTIVE|59720|M|40.77,47.18|Z|Sinfall Reaches@Sinfall!Dungeon|N|Run to the Hole in the Wall.|COV|Venthyr|
+R Darkwall Tower|ACTIVE|59720|M|42.07,46.80|Z|Sinfall Reaches@Sinfall!Dungeon|N|Run to and take the lift up Darkwall Tower.|COV|Venthyr|
 T Harvester of Desire|QID|59676|M|41.02,54.80|Z|Revendreth|N|To Prince Renathal.|COV|Venthyr|
 T Harvester of Envy|QID|59711|M|41.02,54.80|Z|Revendreth|N|To Prince Renathal.|COV|Venthyr|
 T Harvester of Wrath|QID|59720|M|41.02,54.80|Z|Revendreth|N|To Prince Renathal.|COV|Venthyr|
 A The Court|QID|59719|M|41.02,54.80|Z|Revendreth|N|From Prince Renathal.|PRE|59676&59711&59720|COV|Venthyr|REN|5|
 T The Court|QID|59719|M|43.77,51.27|Z|Revendreth|N|To Prince Renathal.|COV|Venthyr|
-F Sinfall|AVAILABLE|59343|M|38.95,49.33|Z|Revendreth|N|Fly back to Sinfall. If you can glide, or slow fall down, here it's much faster.|PRE|59719|COV|Venthyr|
-A Kindred Spirits|QID|59343|M|50.23,18.03|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Theotar.|PRE|59719|COV|Venthyr|
+F Sinfall|AVAILABLE|59343|M|38.95,49.33|Z|Revendreth|N|Fly or hearth back to Sinfall. If you can glide, or slow fall down, here it's much faster.|PRE|59719|COV|Venthyr|U|6948|
+A Kindred Spirits|QID|59343|M|50.23,18.03|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Theotar.|PRE|59719|COV|Venthyr|REN|5|
 C Kindred Spirits|QID|59343|M|42.57,19.88|Z|Sinfall Reaches@Sinfall!Dungeon|NC|N|Click on Theotar to Soulbind with him.|COV|Venthyr|REN|5|
 T Kindred Spirits|QID|59343|M|43.69,17.42|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Theotar.|COV|Venthyr|
 
