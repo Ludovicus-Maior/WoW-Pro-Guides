@@ -42,9 +42,9 @@ N Illuminated Soul|QID|33309608|P|Enchanting;333;8+21;1|N|3;Soul Dust;33;208:Alt
 = Learn Recipes|QID|333020|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+20|N|Learn available recipes from Trainer.|
 N Celestial Guidance|QID|333309627|P|Enchanting;333;8+31;1|N|4;Soul Dust;20;175:2;Sacred Shard;10;142|
 = Learn Recipes|QID|333030|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+30|N|Learn available recipes from Trainer.|
-N Sacred Stats|QID|333323762|P|Enchanting;333;8+41|N|4;Soul Dust;40;155|
+N Sacred Stats|QID|333323762|P|Enchanting;333;8+41;1|N|4;Soul Dust;40;155|
 = Learn Recipes|QID|333040|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+40|N|Learn available recipes from Trainer.|
-N Bargain of Critical Strike|QID|333309612|P|Enchanting;333;8+45|N|2;Soul Dust;10;115:1;Sacred Shard;5;132:Can make Novice Crafter's Mark, but it's pretty useless for Enchanting.|
+N Bargain of Critical Strike|QID|333309612|P|Enchanting;333;8+45;1|N|2;Soul Dust;10;115:1;Sacred Shard;5;132:Can make Novice Crafter's Mark, but it's pretty useless for Enchanting.|
 
 ; What to Craft 046 to 110 Shadowlands
 N Bargain of Haste|QID|333309613|P|Enchanting;333;8+50;1|N|2;Soul Dust;10;105:1;Sacred Shard;5;127|
