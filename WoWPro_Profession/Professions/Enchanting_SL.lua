@@ -18,7 +18,7 @@ return [[
 
 N This Guide is a Work In Progress Guide.|N|Currently in Development, This Guide covers SHADOWLANDS content in Retail.|
 N PLEASE Report any issues|N|In our Discord #retail-bug-reports|
-N Shopping List|N|The next few lines are going to be the TOTAL amount of mats you need to complete JC 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
 
 ; Begin Shopping list, as of Nov-2020
 
@@ -46,7 +46,6 @@ N Sacred Stats|QID|333323762|P|Enchanting;333;8+41|N|4;Soul Dust;40;155|
 = Learn Recipes|QID|333040|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+40|N|Learn available recipes from Trainer.|
 N Bargain of Critical Strike|QID|333309612|P|Enchanting;333;8+45|N|2;Soul Dust;10;115:1;Sacred Shard;5;132:Can make Novice Crafter's Mark, but it's pretty useless for Enchanting.|
 
-
 ; What to Craft 046 to 110 Shadowlands
 N Bargain of Haste|QID|333309613|P|Enchanting;333;8+50;1|N|2;Soul Dust;10;105:1;Sacred Shard;5;127|
 = Learn Recipes|QID|333050|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+50|N|Learn available recipes from Trainer.|
@@ -63,7 +62,7 @@ N Tenet of Critical Strike|QID|333311864|P|Enchanting;333;8+95;1|N|3;Sacred Shar
 N Eternal Skirmish|QID|333323760|P|Enchanting;333;8+100;1|N|N|1;Eternal Crystal;5;12:2;Sacred Shard;10;84:Alternates Eternal Bounds or Stats.|
 = Learn Recipes|QID|333100|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+100|N|Learn available recipes from Trainer.|
 N Eternal Grace|QID|333309621|P|Enchanting;333;8+100;1|N|N|2;Eternal Crystal;10;10:3;Sacred Shard;15;74:Alternate Lightless Force.|
-N Eternal Bounds|QID|333323761|P|Enchanting;333;8+110;1|N|1;Eternal Crystal;8;8:2;Sacred Shard;16;59:Alternates the other two Eternal Enchants.|
+N Eternal Bounds|QID|333323761|P|Enchanting;333;8+110;1|N|1;Eternal Crystal;8;8:2;Sacred Shard;16;59:Alternates Eternal Skimish or Stats.|
 
 N That completes Shadowlands Enchanting.|
 ]]
