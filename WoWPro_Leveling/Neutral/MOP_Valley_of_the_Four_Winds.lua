@@ -7,11 +7,16 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
-N Valley of the Four Winds|QID|29907|N|Make your way to Valley of the Four Winds. Blizzard added a new UI Element called the Special Action button. If you don?t already have a keybinding set for it, you may want to, as some quests use it. Yes, you can just click it, but I think keybindings are easier, its similar to the idea of Vehicle UI, but your regular action bars don't go away, you just get a new button.|
+N Valley of the Four Winds|N|Blizzard added a new UI Element called the Special Action button.\nIf you don't already have a keybinding set for it, you may want to.\nSome quests use it. Yes, you can just click it, but I think keybindings are easier. Instead of having a Vehicle UI, you get a new button and your regular action bars don't go away.|
 R Valley of the Four Winds|N|Make your way to Valley of the Four Winds.|IZ|-Valley of the Four Winds|
-T They Call Him... Stormstout|QID|32019|M|85.94,22.10|N|To Chen Stormstout.|O|
+; -- Breadcrumb quest turn-in
+T Hero's Call: Valley of the Four Winds!|QID|49557|M|85.94,22.10|N|To Chen Stormstout.|
+T Warchief's Command: Valley of the Four Winds!|QID|49539|M|85.94,22.10|N|To Chen Stormstout.|
+T His Name Was... Stormstout|QID|32018|M|85.94,22.10|N|To Chen Stormstout.|
+T His Name Was... Stormstout|QID|38935|M|85.94,22.10|N|To Chen Stormstout.|
+T They Call Him... Stormstout|QID|32019|M|85.94,22.10|N|To Chen Stormstout.|
 A Chen and Li Li|QID|29907|M|85.94,22.10|N|From Chen Stormstout.|
-r Repair|QID|29909|M|84.86,21.68|N|This vendor sells 372 gear if you missed a slot with quests. Be sure to clean out your bags its awhile before you see another vendor.|
+r Repair|QID|29909|M|84.86,21.68|N|Go see Claretta. Be sure to clean out your bags. It's going to be a while before you see another vendor.\n[color=FF0000]NOTE: [/color]This vendor sells 372 gear if you're missing a slot.|
 f Pang's Stead|QID|29907|M|84.49,21.06|N|From Princeton.|TAXI|-Pang's Stead|
 T Chen and Li Li|QID|29907|M|83.69,21.01|N|To Pang Thunderfoot.|
 A A Seemingly Endless Nuisance|QID|29908|M|83.69,21.01|N|From Pang Thunderfoot.|PRE|29907|
@@ -32,32 +37,33 @@ A Kang Bramblestaff|QID|29874|M|84.08,21.04|N|From Xiao.|PRE|30086|FACTION|Allia
 A Lin Tenderpaw|QID|29872|M|84.08,21.04|N|From Xiao.|LEAD|29981|PRE|30086|
 T Low Turnip Turnout|QID|29909|M|81.59,25.23|N|To Ang Thunderfoot.|
 A Taking a Crop|QID|29940|M|81.59,25.23|N|From Ang Thunderfoot.|PRE|29909|
-A Rampaging Rodents|QID|29910|M|81.9,25.9|N|From Ana Thunderfoot, she is walking around.|PRE|29909|
-C Rampaging Rodents|QID|29910|M|81.9,25.9|N|Click on the holes and the marmots. The marmots may interrupt your hole filling.|NC|
-T Rampaging Rodents|QID|29910|M|81.9,25.9|N|To Ana Thunderfoot, she is walking around.|
-C Stolen Turnip|QID|29940|M|86.5,28.1;84.7,26.5|CS|QO|1|N|In the burrow. Its is kinda crowded in there. Be careful.|NC|; Stolen Turnip: 5/5
+A Rampaging Rodents|QID|29910|M|82.62,26.06|N|From Ana Thunderfoot, she is walking around.|PRE|29909|
+C Rampaging Rodents|QID|29910|M|82.30,26.12|N|Click on the holes and the marmots. The marmots may interrupt your hole filling.|NC|
+T Rampaging Rodents|QID|29910|M|82.62,26.06|N|To Ana Thunderfoot, she is walking around.|
+C Stolen Turnip|QID|29940|M|86.51,28.10|QO|1|N|In the burrow. Its is kinda crowded in there. Be careful.|NC|
 C Stolen Watermelon|QID|29940|M|85.68,33.02|QO|2|N|In the water.|NC|
-T Taking a Crop|QID|29940|M|81.6,25.3|N|To Ang Thunderfoot.|
-A Practically Perfect Produce|QID|29911|M|81.6,25.3|N|From Ang Thunderfoot, she is walking around.|PRE|29940|
+T Taking a Crop|QID|29940|M|81.40,24.90|N|To Ang Thunderfoot.|
+A Practically Perfect Produce|QID|29911|M|81.40,24.90|N|From Ang Thunderfoot, she is walking around.|PRE|29940|
 T Practically Perfect Produce|QID|29911|M|83.69,21.01|N|To Pang Thunderfoot.|
 A The Fabulous Miss Fanny|QID|29912|M|83.69,21.01|N|From Pang Thunderfoot.|PRE|29911|
-l Pick up a turnip|QID|29912|M|84.3,21.9|L|75259|
-l Pick up a watermelon|QID|29912|M|84.1,22.0|L|75258|
-l Pick up the tofu|QID|29912|M|84.0,22.0|L|75256|
-C Ang's Giant Pink Turnip|QID|29912|M|83.0,21.42|QO|1|N|Have Fanny hit it average.|NC|
-C Ang's Summer Watermelon|QID|29912|M|83.0,21.42|QO|2|N|Have Fanny hit it softly.|NC|
-C Pang's Extra-Spicy Tofu|QID|29912|M|83.0,21.42|QO|3|N|Have Fanny hit it very hard. After you have finished the quest, you can ask Fanny to hit you very hard and you will go sailing down to the next area.|NC|
+C Turnip|QID|29912|M|84.33,21.88|L|75259|
+C Watermelon|QID|29912|M|84.16,22.07|L|75258|
+C Tofu|QID|29912|M|84.00,22.05|L|75256|
+C Ang's Giant Pink Turnip|QID|29912|M|83.00,21.42|QO|1|N|Have Fanny hit it average.|CHAT|
+C Ang's Summer Watermelon|QID|29912|M|83.00,21.42|QO|2|N|Have Fanny hit it softly.|CHAT|
+C Pang's Extra-Spicy Tofu|QID|29912|M|83.00,21.42|QO|3|N|Have Fanny hit it very hard.|
+F Free Ride|QID|29912|M|83.0,21.42|N|After you have finished the quest, you can ask Fanny to hit you very hard and you will go sailing down to the next area.|CHAT|
 T The Fabulous Miss Fanny|QID|29912|M|75.22,24.05|N|To Liang Thunderfoot.|
 A The Meat They'll Eat|QID|29913|M|75.22,24.05|N|From Liang Thunderfoot.|PRE|29912|
 A Back to the Sty|QID|29914|M|75.22,24.05|N|From Liang Thunderfoot.|PRE|29912|
-C Kill Mushan|QID|29913|M|72,29|QO|1|N|[coords]Kill Mushan and loot to collect Adolescent Mushan Shoulder Steak. The meat is NOT a 100% drop.|S|
+C Kill Mushan|QID|29913|M|72,29|QO|1|N|[Fix Coordinates]Kill Mushan and loot to collect Adolescent Mushan Shoulder Steak. The meat is NOT a 100% drop.|S|
 C Kill Turtles|QID|29913|M|67.6,30.1|QO|2|N|Kill turtles for Turtle Meat Scraps.|S|
 C Pick up Smelly|QID|29914|M|70.5,29.5|QO|3|T|Smelly|NC|
 C Pick up Ling|QID|29914|M|66.8,29.0|QO|2|T|Ling|NC|
 C Turtle Meat Scrap|QID|29913|M|67.6,30.1|QO|2|N|Finish collecting the turtle meat scraps.|US|
 C Pick up Jian|QID|29914|M|69.9,24.3|QO|1|T|Jian|NC|
-f Grassy Cline|M|70.8,24.2|N|[QID]From Kim of the Mountain Winds.|TAXI|-Grassy Cline|
-C Kill Mushan|QID|29913|M|72,29|QO|1|N|[Coords]Finish collecting the Adolescent Mushan Shoulder Steaks.|US|
+f Grassy Cline|M|70.8,24.2|N|[qid?]From Kim of the Mountain Winds.|TAXI|-Grassy Cline|
+C Kill Mushan|QID|29913|M|72,29|QO|1|N|[Fix Coord]Finish collecting the Adolescent Mushan Shoulder Steaks.|US|
 T The Meat They'll Eat|QID|29913|M|75.22,24.05|N|To Liang Thunderfoot.|
 T Back to the Sty|QID|29914|M|75.22,24.05|N|To Liang Thunderfoot.|
 A A Neighbor's Duty|QID|29915|M|75.22,24.05|N|From Liang Thunderfoot.|PRE|29913&29914|
