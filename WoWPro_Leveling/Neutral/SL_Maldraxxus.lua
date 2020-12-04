@@ -65,7 +65,7 @@ N World Quests|QID|62748|N|WQs are available since you have chosen the Threads o
 N Use of Ranks|QID|62748|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives.|TOF|
 N Spectre of War: Visectus|QID|62748|N|This is a weekly quest, that you can NOT do at this time, because you can not create the anima bound wraps until you open up the Necrolord Abommination Factory, so, ignore this quest. (just wanted you to know why)|TOF|COV|Necrolord|
 
-; Champion of Pain Storyline
+; Champion of Pain Storyline - ACH|14206;1|
 N Use of Ranks|QID|57386|N|Setting the guide to Rank 1 will direct you to all main story line quests. It will not direct you to optional quests, however, if you pick one up it will direct you where to complete and turn in. Rank 2 takes you to all the side quests, There is nothing set to Rank 3 in this guide.|MS|
 N Rank 1|ACTIVE|62748|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|
 N Necrolord Abilities|ACTIVE|62748|N|Your necrolord covenant abilities are found in your main class tab of your abilites, don't forget to drag them onto your hotkeys.|TOF|COV|Necrolord|
@@ -107,17 +107,17 @@ C The House of the Chosen|QID|57515|M|40.46,62.09|Z|Maldraxxus|QO|1|NC|N|Enter t
 C The House of the Chosen|QID|57515|M|38.86,65.28|Z|Maldraxxus|QO|2|CHAT|N|Speak with Draka after the dialog ends.|MS|
 T The House of the Chosen|QID|57515|M|38.86,65.28|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
-; House of the Chosen Storyline
+; House of the Chosen Storyline - ACH|14206;2|
 A The First Act of War|QID|57514|M|38.86,65.28|Z|Maldraxxus|N|From Baroness Draka.|PRE|57515|MS|
 C The First Act of War|QID|57514|M|36.33,60.30|Z|Maldraxxus|CHAT|N|Report to Baron Vyraz|MS|
 T The First Act of War|QID|57514|M|36.33,60.28|Z|Maldraxxus|N|To Baron Vyraz.|MS|
 A The Hills Have Eyes|QID|58351|M|36.33,60.28|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57514|MS|
 A Maintaining Order|QID|58617|M|36.33,60.28|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57514|MS|
-C The Hills Have Eyes|QID|58351|M|39.85,71.37|Z|Maldraxxus|N|While running up the road to deliver the orders, mouse over all the npcs, Chat with any of the Chosen Protectors who have a chat bubble and kill those that are infiltrators.|S|MS|
+C The Hills Have Eyes|QID|58351|M|39.85,71.37|Z|Maldraxxus|T|Chosen Protector|N|While running up the road to deliver the orders, mouse over all the npcs, Chat with any of the Chosen Protectors who have a chat bubble and kill those that are infiltrators.|S|MS|
 C Maintaining Order|QID|58617|M|32.63,67.10|Z|Maldraxxus|QO|1|CHAT|N|Deliver orders to Head Summoner Perex.|MS|
 C Maintaining Order|QID|58617|M|36.74,75.88|Z|Maldraxxus|QO|2|CHAT|N|Deliver orders to Drill Sergeant Telice.|MS|
 C Maintaining Order|QID|58617|M|40.83,70.89|Z|Maldraxxus|QO|3|CHAT|N|Deliver orders to Secutor Mevix.|MS|
-C The Hills Have Eyes|QID|58351|M|39.85,71.37|Z|Maldraxxus|N|Finish searching for infiltrators while running back down to Baron Vyraz (mouse over all chosen protectors, chat with those who have a chat bubble, kill if they become hostile).|US|MS|
+C The Hills Have Eyes|QID|58351|M|39.85,71.37|Z|Maldraxxus|T|Chosen Protector|N|Finish searching for infiltrators while running back down to Baron Vyraz (mouse over all chosen protectors, chat with those who have a chat bubble, kill if they become hostile).|US|MS|
 T The Hills Have Eyes|QID|58351|M|36.32,60.21|Z|Maldraxxus|N|To Baron Vyraz.|MS|
 T Maintaining Order|QID|58617|M|36.32,60.21|Z|Maldraxxus|N|To Baron Vyraz.|MS|
 A Never Enough|QID|60451|M|36.32,60.21|Z|Maldraxxus|N|From Baron Vyraz.|PRE|58351&58617|MS|
