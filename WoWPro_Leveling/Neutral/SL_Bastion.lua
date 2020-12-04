@@ -36,7 +36,6 @@ return [[
 ; K Worldfeaster Chronn|M|47.43,42.82|Z|Bastion!The Shadowlands|T|Worldfeaster Chronn|N|WH - Shares Spawn points with Xixin the Ravening and Embodied Hunger. If not rare click on Swelling Tear Portal to cause a spawn.|ITEM|183605|RARE|ACH|14307;24|
 ; K Demi the Relic Hoarder|M|37.50,41.75|Z|Bastion!The Shadowlands|T|Demi|N|WH - Annoyingly tricky mob, Casts an Anima Shield when attacked.  Use control abilities, loves to run into other mobs to join the party. Drop Relic Hoard chest..don't lose it!|ITEM|183608|RARE|ACH|14307;25|
 ; K Aspirant Eolis|M|32.59,23.34|Z|Bastion!The Shadowlands|T|Aspirant Eolis|N|WH - Find Fragile Humility Scrolls in the areas.. Only last 5mins, so find and get to Rare quickly.|ITEM|183607|RARE|ACH|14307;26|
-; K Corrupted Clawguard|M|56.47,46.18|Z|Bastion!The Shadowlands|T|Corrupted Clawguard|N|WH - Need a Discarded Phalynx Core, might be one near 54.95,41.05, Forgefire Outpost area.|RARE|ACH|14307;27|
 ; K Orstus and Sotiros|M|22.71,22.88|Z|Bastion!The Shadowlands|N|WH - Channel Anima at Elysin Hold to Citadel of Loyalty, use teleport pad at 24.56,22.75 to get to the black bell, to summon.|RARE|ACH|14307;29|
 
 
@@ -315,7 +314,7 @@ T I MADE You!|QID|58979|M|57.26,55.26|Z|Bastion!The Shadowlands|N|To Locus-Keepe
 A Mnemis, At Your Service|QID|58980|M|57.26,55.26|Z|Bastion!The Shadowlands|N|From Locus-Keeper Mnemis.|PRE|58979|MS|
 C Mnemis, At Your Service|QID|58980|M|59.90,58.18|QO|2|Z|Bastion!The Shadowlands|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
 ;$ Lost Disciple's Notes|QID|61048|M|59.33,60.92|Z|Bastion!The Shadowlands|N|Treasure for you. Midway down waterfall on a rock.|ACH|14311;10|
-A You'll Never Walk Alone|QID|62170|M|59.33,60.92|N|From Lost Disciple's Notes found midway down waterfall.|;$
+A You'll Never Walk Alone|QID|62170|M|59.33,60.92|N|From Lost Disciple's Notes found midway down waterfall.|RANK|2|;$
 C Mnemis, At Your Service|QID|58980|M|60.59,61.89|QO|4|Z|Bastion!The Shadowlands|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
 C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion!The Shadowlands|N|Finish repelling the threat before turning in the next quest if you like having Kleia tanking for you.|US|
 t Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion!The Shadowlands|N|Auto Turn-in.|
@@ -517,6 +516,8 @@ C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion!The Shadowlands|N|Click 
 C Superior Programming|QID|57936|M|56.13,40.28|Z|Bastion!The Shadowlands|N|Kill Leonid.|T|Leonid|
 $ Larion Tamer's Harness|QID|61049|M|58.23,39.97|Z|Bastion!The Shadowlands|N|Treasure for your enjoyment.|RANK|2|ACH|14311;3|
 C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion!The Shadowlands|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|US|
+K Corrupted Clawguard|QID|60999^62202|QO|1|M|56.47,46.18|Z|Bastion!The Shadowlands|T|Corrupted Clawguard|N|Pick up a Discarded Phalynx Core from behind the Corrupted Clawguard, and give it to him to activate.|RARE|ACH|14307;27|
+A Functioning Anima Core|QID|62200|PRE|62202|M|PLAYER|N|From item looted from Corrupted Clawguard.|
 C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion!The Shadowlands|N|Kill the Etherwyrms with Gatamatos at your side.|US|
 T Superior Programming|QID|57936|M|54.81,41.19|Z|Bastion!The Shadowlands|N|To Hopo.|
 T Combat Drills|QID|57934|M|54.81,41.19|Z|Bastion!The Shadowlands|N|To Pelodis.|
@@ -559,6 +560,7 @@ C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion!The Shadowlands|QO|4|CHAT|N|Ch
 T Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion!The Shadowlands|N|To Nemea.|
 H Hero's Rest|ACTIVE|60056^62723^62729|M|52.99,37.84|Z|Bastion!The Shadowlands|N|Hearth or otherwise make your way back to Hero's Rest.|IZ|Forgefire Outpost|
 T WANTED: Darkwing|QID|60366|M|52.43,48.00|Z|Bastion!The Shadowlands|ELITE|N|To Eumelia.|
+T Functioning Anima Core|QID|62200|M|51.12,46.79|Z|Bastion!The Shadowlands|N|To Kalisthene.|
 
 ; Land of Strife Storyline
 F Oribos|ACTIVE|60056|M|51.40,46.80|N|Fly back to Oribos|
