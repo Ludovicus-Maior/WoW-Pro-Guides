@@ -7,7 +7,6 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
-N Valley of the Four Winds|N|Blizzard added a new UI Element called the Special Action button.\nIf you don't already have a keybinding set for it, you may want to.\nSome quests use it. Yes, you can just click it, but I think keybindings are easier. Instead of having a Vehicle UI, you get a new button and your regular action bars don't go away.|
 R Valley of the Four Winds|N|Make your way to Valley of the Four Winds.|IZ|-Valley of the Four Winds|
 ; -- Breadcrumb quest turn-in
 T Hero's Call: Valley of the Four Winds!|QID|49557|M|85.94,22.10|N|To Chen Stormstout.|
@@ -30,10 +29,10 @@ A Low Turnip Turnout|QID|29909|M|83.69,21.01|N|From Pang Thunderfoot.|PRE|29877&
 A The Search for the Hidden Master|QID|30086|M|84.08,21.04|N|From Xiao.|PRE|29877&29908|
 T The Search for the Hidden Master|QID|30086|M|84.08,21.04|N|To Xiao.|
 ; We ignore Grail dependency on 30087, which does not seem obtainable.
-A Ken-Ken|QID|29873|M|84.08,21.04|N|From Xiao.|LEAD|30079|PRE|30086|
+A Ken-Ken|QID|29873|M|84.08,21.04|N|From Xiao. Breadcrumb to Krasarang Wilds.|LEAD|30079|PRE|30086|
 A Clever Ashyo|QID|29871|M|84.08,21.04|N|From Xiao.|LEAD|29577|PRE|30086|
-A Kang Bramblestaff|QID|29875|M|84.08,21.04|N|From Xiao.|PRE|30086|FACTION|Horde|
-A Kang Bramblestaff|QID|29874|M|84.08,21.04|N|From Xiao.|PRE|30086|FACTION|Alliance|
+A Kang Bramblestaff|QID|29875|M|84.08,21.04|N|From Xiao. Breadcrumb to Krasarang Wilds.|PRE|30086|FACTION|Horde|
+A Kang Bramblestaff|QID|29874|M|84.08,21.04|N|From Xiao. Breadcrumb to Krasarang Wilds.|PRE|30086|FACTION|Alliance|
 A Lin Tenderpaw|QID|29872|M|84.08,21.04|N|From Xiao.|LEAD|29981|PRE|30086|
 T Low Turnip Turnout|QID|29909|M|81.59,25.23|N|To Ang Thunderfoot.|
 A Taking a Crop|QID|29940|M|81.59,25.23|N|From Ang Thunderfoot.|PRE|29909|
@@ -52,18 +51,18 @@ C Tofu|QID|29912|M|84.00,22.05|L|75256|
 C Ang's Giant Pink Turnip|QID|29912|M|83.00,21.42|QO|1|N|Have Fanny hit it average.|CHAT|
 C Ang's Summer Watermelon|QID|29912|M|83.00,21.42|QO|2|N|Have Fanny hit it softly.|CHAT|
 C Pang's Extra-Spicy Tofu|QID|29912|M|83.00,21.42|QO|3|N|Have Fanny hit it very hard.|
-F Free Ride|QID|29912|M|83.0,21.42|N|After you have finished the quest, you can ask Fanny to hit you very hard and you will go sailing down to the next area.|CHAT|
+F Free Ride|QID|29912|M|83.00,21.42|N|After you have finished the quest, you can ask Fanny to hit you very hard and you will go sailing down to the next area.|TZ|Thunderfoot Ranch|CHAT|
 T The Fabulous Miss Fanny|QID|29912|M|75.22,24.05|N|To Liang Thunderfoot.|
 A The Meat They'll Eat|QID|29913|M|75.22,24.05|N|From Liang Thunderfoot.|PRE|29912|
 A Back to the Sty|QID|29914|M|75.22,24.05|N|From Liang Thunderfoot.|PRE|29912|
-C Kill Mushan|QID|29913|M|72,29|QO|1|N|[Fix Coordinates]Kill Mushan and loot to collect Adolescent Mushan Shoulder Steak. The meat is NOT a 100% drop.|S|
-C Kill Turtles|QID|29913|M|67.6,30.1|QO|2|N|Kill turtles for Turtle Meat Scraps.|S|
+C Kill Mushan|QID|29913|M|72.21,28.87|QO|1|N|Kill Mushan to loot Mushan Shoulder Steak. The meat is NOT a 100% drop.|S|
+C Kill Turtles|QID|29913|M|68.12,29.04|QO|2|N|Kill turtles for Turtle Meat Scraps.|S|
 C Pick up Smelly|QID|29914|M|70.5,29.5|QO|3|T|Smelly|NC|
 C Pick up Ling|QID|29914|M|66.8,29.0|QO|2|T|Ling|NC|
-C Turtle Meat Scrap|QID|29913|M|67.6,30.1|QO|2|N|Finish collecting the turtle meat scraps.|US|
+C Turtle Meat Scrap|QID|29913|M|68.12,29.04|QO|2|N|Finish collecting the turtle meat scraps.|US|
 C Pick up Jian|QID|29914|M|69.9,24.3|QO|1|T|Jian|NC|
-f Grassy Cline|M|70.8,24.2|N|[qid?]From Kim of the Mountain Winds.|TAXI|-Grassy Cline|
-C Kill Mushan|QID|29913|M|72,29|QO|1|N|[Fix Coord]Finish collecting the Adolescent Mushan Shoulder Steaks.|US|
+f Grassy Cline|QID|29913|M|70.82,24.09|N|From Kim of the Mountain Winds.|TAXI|-Grassy Cline|
+C Kill Mushan|QID|29913|M|72.21,28.87|QO|1|N|Finish collecting the Mushan Shoulder Steaks.|US|
 T The Meat They'll Eat|QID|29913|M|75.22,24.05|N|To Liang Thunderfoot.|
 T Back to the Sty|QID|29914|M|75.22,24.05|N|To Liang Thunderfoot.|
 A A Neighbor's Duty|QID|29915|M|75.22,24.05|N|From Liang Thunderfoot.|PRE|29913&29914|
@@ -71,33 +70,36 @@ T A Neighbor's Duty|QID|29915|M|78.12,32.91|N|To Francis the Shepherd Boy.|
 A Piercing Talons and Slavering Jaws|QID|29916|M|78.12,32.91|N|From Francis the Shepherd Boy.|PRE|29915|
 A Lupello|QID|29917|M|78.12,32.91|N|From Francis the Shepherd Boy.|PRE|29915|
 C Piercing Talons and Slavering Jaws|QID|29916|M|78.12,32.91|N|Head down towards Lupello, and kill the wolves and hawks you see.|S|
-K Kill Lupello|QID|29917|M|81.21,40.29|QO|1|N|He is across the bridge and will count as one of the wolves you need to kill for Piercing Talons and Slavering Jaws.|T|Lupello|
+C Kill Lupello|ACTIVE|29917|M|81.21,40.29|QO|1|N|He is across the bridge and will count as one of the wolves you need to kill for Piercing Talons and Slavering Jaws.|T|Lupello|
 C Piercing Talons and Slavering Jaws|QID|29916|US|M|82.84,32.34|
 T Piercing Talons and Slavering Jaws|QID|29916|M|78.12,32.91|N|To Francis the Shepherd Boy.|
 T Lupello|QID|29917|M|78.12,32.91|N|To Francis the Shepherd Boy.|
-A A Lesson in Bravery|QID|29918|M|78.19,32.82|N|From Shang Thunderfoot.|PRE|29916&29917|
+A A Lesson in Bravery|QID|29918|M|78.19,32.82|N|From Shang Thunderfoot. He walks up to you and takes a moment to offer the quest.|PRE|29916&29917|
+N Valley of the Four Winds|ACTIVE|29918|N|Blizzard added a new UI Element called the Special Action button.\nIf you don't already have a keybinding set for it, you may want to.\nSome quests use it. Yes, you can just click it, but I think keybindings are easier. Instead of having a Vehicle UI, you get a new button and your regular action bars don't go away.|
 C A Lesson in Bravery|QID|29918|M|77.32,26.39|N|Target him then use the Rancher's Lariat to get on his back. When you get caught in a claw, you will need to press the special action button that appears to get back on his back. Battle the bird on his back.|T|Great White Plainshawk|U|75208|
-T A Lesson in Bravery|QID|29918|M|74.30,34.51|N|To Shang Thunderfoot, who is inspecting THE watermelon.|
+T A Lesson in Bravery|QID|29918|M|74.54,34.60|N|To Shang Thunderfoot at Shang's Stead.\nHe paces back and forth examining the watermelon.|
 A Great Minds Drink Alike|QID|29919|M|75.28,35.51|N|From Chen Stormstout.|PRE|29918|
-C Great Minds Drink Alike|QID|29919|M|68.68,43.23|N|You need to keep somewhat close to him or he will go back and sit down.|CHAT|
+C Great Minds Drink Alike|QID|29919|M|68.68,43.23|N|They move pretty quick and will stop a couple times to chit-chat.\nYou need to keep somewhat close to him or he will go back and sit down.|CHAT|
 T Great Minds Drink Alike|QID|29919|M|68.71,43.12|N|To Mudmug.|
 A Leaders Among Breeders|QID|29944|M|68.88,43.15|N|From Chen Stormstout.|PRE|29919|
 A Yellow and Red Make Orange|QID|29945|M|68.89,43.31|N|From Li Li.|PRE|29919|
-C Yellow and Red Make Orange|QID|29945|M|67.57,39.75; 69.39,47.08; 70.04,48.88|CN|N|Most of the animals (except virmen) in the area drop the blood you need. The marigolds spawn in the areas marked.|S|
-K Kill Frenzyhop|QID|29944|M|64.64,40.66|QO|3|T|Frenzyhop|
-K Kill Jinanya the Clawblade|QID|29944|M|68.72,38.29|QO|2|T|Jinanya the Clawblade|
-K Kill Aiyu the Skillet|QID|29944|M|68.25,37.03|QO|1|T|Aiyu the Skillet|
-C Yellow and Red Make Orange|QID|29945|M|67.57,39.75; 69.39,47.08; 70.04,48.88|CN|N|Most of the animals (except virmen) in the area drop the blood you need. The marigolds spawn in the areas marked.|US|
+C Yellow and Red Make Orange|QID|29945|M|67.04,41.14|QO|2|N|With the exception of the Vermin and critters, all of the animals in the area will drop varying amounts of the Vials.\n[color=FF0000]NOTE: [/color]Avoid damaging the Tawnyhide Fawns if you can. They will run VERY far and VERY fast; you'll be locked in combat until you find it and kill it.|S|
+C Yellow and Red Make Orange|QID|29945|M|67.45,40.01;65.67,43.10;70.06,49.06|CC|QO|1|N|The marigolds spawn in the areas marked.\nDepending upon popularity, there should plenty of them at these spots.|S|
+C Frenzyhop|QID|29944|M|64.64,40.66|QO|3|T|Frenzyhop|
+C Jinanya the Clawblade|QID|29944|M|66.57,38.06|QO|2|N|She paths back and forth through here.|T|Jinanya the Clawblade|
+C Aiyu the Skillet|QID|29944|M|68.25,37.03|QO|1|N|She circles around the grove of trees.|T|Aiyu the Skillet|
+C Yellow and Red Make Orange|QID|29945|M|67.45,40.01;65.67,43.10;70.06,49.06|CC|QO|1|N|Finish collecting the marigolds from the spawn in the areas marked.|US|
+C Yellow and Red Make Orange|QID|29945|M|67.04,41.14|QO|2|N|Finish collecting the vials.|US|
 T Yellow and Red Make Orange|QID|29945|M|68.89,43.31|N|To Li Li.|
 T Leaders Among Breeders|QID|29944|M|68.88,43.15|N|To Chen Stormstout.|
 A Crouching Carrot, Hidden Turnip|QID|29947|M|68.89,43.31|N|From Li Li.|PRE|29945|
 A The Warren-Mother|QID|29946|M|68.87,43.17|N|From Chen Stormstout.|PRE|29944|
-A Thieves to the Core|QID|29948|M|68.67,43.24|N|From Mudmug.|PRE|29944|
-C Thieves to the Core|QID|29948|S|NC|M|67.75,36.37|N|The hops are in the warren. The sleeping vermin can be ignored if you are careful.|
-C Crouching Carrot, Hidden Turnip|QID|29947|S|U|76370|M|69.15,39.41|N|Use the painted turnips in the warren to get rid of the vermin.|
-K Kill Chufa|QID|29946|T|Chufa|M|68.09,36.93|QO|1|U|76370|N|Chen will help you finish her up.|
-C Crouching Carrot, Hidden Turnip|QID|29947|US|U|76370|M|69.15,39.41|N|Use the painted turnips in the warren to get rid of the vermin.|
-C Thieves to the Core|QID|29948|S|NC|M|67.75,36.37|N|The hops are in the warren.|
+A Thieves to the Core|QID|29948|M|68.71,43.11|N|From Mudmug.|PRE|29944|
+C Thieves to the Core|QID|29948|M|67.75,36.37|N|The Stolen Sacks of Hops are in the Twisted Warren.\nIf you keep your distance, you can avoid the Sleepyheads.|S|NC|
+C Crouching Carrot, Hidden Turnip|QID|29947|M|69.15,39.41|N|Use the painted turnips in the Warren to get rid of the vermin.|U|76370|S|
+C Chufa|QID|29946|M|67.90,37.41|QO|1|N|At ~80% health, she will put on her 'Battle Armor'. Just attack her from behind; she won't hurt you.\nAt ~75%, Chen will come and help finish her off.|T|Chufa|U|76370|
+C Crouching Carrot, Hidden Turnip|QID|29947|M|69.15,39.41|N|Use the painted turnips in the Warren to get rid of the vermin.|U|76370|US|
+C Thieves to the Core|QID|29948|M|67.75,36.37|N|Finish collecting the Stolen Sacks of Hops.|US|
 T Crouching Carrot, Hidden Turnip|QID|29947|M|68.89,43.31|N|To Li Li.|
 T Thieves to the Core|QID|29948|M|68.71,43.12|N|To Mudmug.|
 T The Warren-Mother|QID|29946|M|68.87,43.17|N|To Chen Stormstout.|
@@ -105,60 +107,65 @@ A Legacy|QID|29949|M|68.87,43.17|N|From Chen Stormstout.|PRE|29946&29947&29948|
 T Legacy|QID|29949|M|68.77,43.43|N|To Li Li.|
 A Li Li's Day Off|QID|29950|M|68.77,43.43|N|From Li Li.|PRE|29949|
 A Muddy Water|QID|29951|M|68.71,43.12|N|From Mudmug. Wait a minute or two for the dialog to finish, then this quest becomes available.|PRE|29949|
-C Li Li's Day Off|QID|29950|M|74.37,42.65|QO|3|U|76350|
-C Muddy Water|QID|29951|M|69.97,57.89|N|Find a place with about 10 muddy water pools close together. Click on the pool to fill the vile, it will leak when you travel to the next set of pools, until its full, at which point it will seal.|U|76362|
+C Li Li's Day Off|QID|29950|M|74.37,42.65|QO|3|N|\n[color=FF0000]NOTE: [/color]If Li Li is not with you, make sure you summon her BEFORE you arrive.\nUse Li Li's Wishing Stone to summon her.|U|76350|
+C Muddy Water|QID|29951|M|69.97,57.89|N|Find a place with about 10 muddy water pools close together. Click on each pool to fill the vial.\nIt'll leak as you travel (move) between each set of pools until it's full; at which point, it will seal and complete the step.\There's no indicator to show how full it is. Just keep going until the step completes.|U|76362|
 R Silken Fields|ACTIVE|29950|M|63.62,58.37|CC|N|Go south cross country towards Silken Fields.(the road is a much farther path).|FLY|OLD|
 A The Moth Rebellion|QID|30059|M|63.55,58.46|N|From Journeyman Chu. Avoid the mutated silkmoths or you could be overwhelmed!|
-C Li Li's Day Off|QID|29950|M|62.4,59.2|QO|1|N|If you lost her, summon her away from the waypoint.|U|76350|
+C Li Li's Day Off|QID|29950|M|62.4,59.2|QO|1|N|Check to make sure Li LI is with you. If not, summon her BEFORE you get there.|U|76350|
 A Where Silk Comes From|QID|30072|M|62.67,59.75|N|From Silkmaster Tsai.|
 C The Moth Rebellion|QID|30059|M|64.70,62.43|S|
 C Where Silk Comes From|QID|30072|M|62.47,55.20|QO|1|N|Pick up a bucket of leaves.|NC|
-C Where Silk Comes From|QID|30072|M|62.4,56.5|QO|2|N|Under the house.|NC|
+C Where Silk Comes From|QID|30072|M|62.4,56.5|QO|2|N|Under the house.\nJust click and move on once you have finished feeding it. No need to wait.|NC|
 C Where Silk Comes From|QID|30072|M|62.37,62.48|QO|3|N|Inside the building.|NC|
 C The Moth Rebellion|QID|30059|M|64.70,62.43|N|The small moths roam in packs. The larger ones tend to be scarcer, so treat as a target of opportunity.|US|
 T Where Silk Comes From|QID|30072|M|62.67,59.75|N|To Silkmaster Tsai.|
 T The Moth Rebellion|QID|30059|M|63.55,58.46|N|To Journeyman Chu.|
 A Mothallus!|QID|30058|M|63.62,58.53|N|From Master Goh.|PRE|30059|
-C Mothallus!|QID|30058|M|64.4,58.0|N|Click the gear to start the fight, when Mothallus goes up in the air, you need to free your NPC helpers from the silk wraps.|
+; -- Quest is bugged [Hendo72]
+;C Mothallus!|QID|30058|M|64.4,58.0|N|Click the gear to start the fight, when Mothallus goes up in the air, you need to free your NPC helpers from the silk wraps.|
+C Mothallus!|QID|30058|M|64.4,58.0|N|Click the 'bait' to summon Mothallus. Move closer to Mothallus if combat does not start when it lands.\n[color=FF0000]NOTE: [/color]The quest bugged and you cannot release the NPCs. Just focus on killing Mothallus.|
 T Mothallus!|QID|30058|M|63.62,58.53|N|To Master Goh.|
-C Li Li's Day Off|QID|29950|M|61.41,36.02|N|If you lost her, back up 20 feet or so from the waypoint and then summon her and walk back, she follows you and it should complete the quest.|U|76350|
+C Li Li's Day Off|QID|29950|M|61.41,36.02|QO|2|N|Check to make sure Li LI is with you. If not, summon her BEFORE you get there.|U|76350|
 T Clever Ashyo|QID|29871|M|61.23,34.23|N|To Clever Ashyo.|
 A Ashyo's Vision|QID|29577|M|61.23,34.23|N|From Clever Ashyo.|
 A Bottletoads|QID|29757|M|60.61,33.70|N|From Yan.|
 A Watery Woes|QID|30267|M|60.97,32.87|N|From Gladecaster Lang.|
 R Pools of Purity|AVAILABLE|29600|M|62.57,33.39;63.19,29.83;60.70,29.22|CS|N|Ride up to see Zhang Yue.|FLY|OLD|
 A Snap Judgment|QID|29600|M|59.82,27.94|N|From Zhang Yue.|
-C Ashyo's Vision|QID|29577|M|59.25,27.56|N|Talk to Clever Ashyo.|CHAT|
+C Ashyo's Vision|QID|29577|M|59.25,27.56|N|Talk to Clever Ashyo.\nAshyo will walk over to the water after a few moments.|CHAT|
 T Ashyo's Vision|QID|29577|M|59.82,27.94|N|To Zhang Yue.|
 A The Golden Dream|QID|29581|M|59.82,27.94|N|From Zhang Yue.|PRE|29577|
 C Snap Judgment|QID|29600|M|60.9,25.7|S|
-C Bottletoads|QID|29757|M|64.82,25.07|N|The eggs are in the sparkly water. Click.|S|NC|
-K Kill Krosh and loot|QID|29758|M|65.29,26.45|L|83767|N|Use Krosh's Back.|S|T|Krosh|
-C The Golden Dream|QID|29581|M|65.31,26.26|N|A Sparkly bush at the far end of the turtle and frog pond.|NC|
-K Kill Krosh and loot|QID|29758|M|65.29,26.45|L|83767|N|Use Krosh's Back.|T|Krosh|US|
-A Guess Whose Back|QID|29758|M|65.29,26.45|N|From Krosh's Back.|U|83767|
-C Bottletoads|QID|29757|M|64.82,25.07|N|The eggs are in the sparkly water. Click.|NC|
+C Bottletoads|QID|29757|M|64.21,26.29|N|Locate the Gurgling Toadspawns in the top level of Pools of Purity. Click on them to collect the toad eggs.\n[color=FF0000]NOTE: [/color]If you cannot see them, go into your Graphics settings and make sure 'Liquid Detail' is set to no less than 'FAIR'.|S|NC|
+C The Golden Dream|QID|29581|M|65.31,26.26|N|The purple plant beside Krosh.|NC|
+K Kill Krosh|AVAILABLE|29758|M|65.29,26.45|L|83767|N|Kill Krosh and loot "Krosh's Back".|T|Krosh|
+A Guess Whose Back|QID|29758|M|PLAYER|N|From UI Alert or use Krosh's Back.|U|83767|
+C Bottletoads|QID|29757|M|64.21,26.29|N|Finish collecting to toad eggs.\n[color=FF0000]NOTE: [/color]If you cannot see them, go into your Graphics settings and make sure 'Liquid Detail' is set to no less than 'FAIR'.|US|NC|
 C Snap Judgment|QID|29600|M|60.9,25.7|US|
 T Snap Judgment|QID|29600|M|59.82,27.94|N|To Zhang Yue.|
 T Bottletoads|QID|29757|M|60.61,33.70|N|To Yan.|
 T Guess Whose Back|QID|29758|M|60.61,33.70|N|To Yan.|
-T The Golden Dream|QID|29581|M|60.61,33.70|N|To Yan.|
-C Watery Woes|QID|30267|M|58.21,37.01|N|Kill Cranes and loot Fireflies.\n[color=FF0000]NOTE: [/color]Don't worry about your AoE; it won't hurt the fireflies. Unfortunately, the green ones don't drop feathers.|
+T The Golden Dream|QID|29581|M|60.61,33.70|N|To Yan.\n[color=FF0000]NOTE: [/color]Starts a cancelable cinematic. <ESC> to cancel it.|
+C Watery Woes|QID|30267|M|58.21,37.01|QO|1|N|They can be difficult to grab when they are moving.\n[color=FF0000]NOTE: [/color]Don't worry about your AoE; it won't hurt them.|S|NC|
+C Watery Woes|QID|30267|M|58.21,37.01|QO|2|N|Kill Glade Hunters and Sprinters.\n[color=FF0000]NOTE: [/color]The Glade Singers (green ones) don't drop the feathers.|
+C Watery Woes|QID|30267|M|58.21,37.01|QO|1|US|NC|
 T Watery Woes|QID|30267|M|60.97,32.86|N|To Gladecaster Lang.|
 R Mudmug's Place|ACTIVE|29950|M|68.87,46.3|FLY|OLD|
 T Li Li's Day Off|QID|29950|M|68.77,43.43|N|To Li Li.|
 T Muddy Water|QID|29951|M|68.71,43.12|N|To Mudmug.|
 A Broken Dreams|QID|29952|M|68.85,43.41|N|From Chen Stormstout.|PRE|29950|
-C Broken Dreams|QID|29952|M|68.85,43.41|N|Chat with Chen to get transported to an instance where you relive Chen's experience as he goes to the brewery. Look for the old uncle and follow after him, (because Chen is trying to talk to him).|CHAT|
+C Broken Dreams|QID|29952|M|68.85,43.41|N|Chat with Chen to get transported to an instance where you relive Chen's experience as he goes to the brewery. Look for the old uncle and follow after him, (because Chen is trying to talk to him).|IZ|Mudmug's Place|CHAT|
 T Broken Dreams|QID|29952|M|68.85,43.41|N|To Chen Stormstout.|
 A Chen's Resolution|QID|30046|M|68.81,43.50|N|From Chen Stormstout.|PRE|29951&29952|
-T Chen's Resolution|QID|30046|M|55.89,49.44|N|Follow Chen to Halfhill and turn in there.|
+R Halfhill|ACTIVE|30046|M|58.90,44.97|N|Head to Halfhill to meet up with Chen.|FLY|OLD|
+T Chen's Resolution|QID|30046|M|55.89,49.44|N|To Chen in Halfhill.|
 A Hop Hunting|QID|30053|M|55.89,49.44|N|From Chen Stormstout.|PRE|30046|
 A Li Li and the Grain|QID|30048|M|55.89,49.44|N|From Chen Stormstout.|PRE|30046|
 A Doesn't Hold Water|QID|30049|M|55.89,49.44|N|From Chen Stormstout.|PRE|30046|
 A Children of the Water|QID|32045|M|55.13,47.38|N|From Stonecarver Mac, up on Halfhill|
-f Halfhill|QID|30049|M|53.81,50.92|N|From Wing Nga. If you want to, this is a good time to do the fishing quest and cooking training.  Perhaps not the most efficient. But, if you are going to do it, might as well do it while you get XP.|TAXI|-Halfhill|
-A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon. This chain for The Tillers is optional, but it opens up the Quartermaster which gives you a place to repair. (Plus its quick and easy XP.)|
+f Halfhill|QID|30049|M|56.50,50.36|N|From Wing Nga.|TAXI|-Halfhill|
+N Fishing quest and cooking training|QID|30252|N|If you want to, this is a good time to do the fishing quest and cooking training. Perhaps not the most efficient. But, if you are going to do it, might as well do it while you get XP.|IZ|Halfhill|RANK|3|
+A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon. This chain for The Tillers is optional, but it unlocks the Quartermaster and gives you a place to repair. Plus, its quick and easy XP.|RANK|3|
 C Remove the rocks|QID|30252|M|52.8,49.81|N|Click on the unbudging rocks to dig them up.|NC|
 T A Helping Hand|QID|30252|M|52.75,47.94|N|To Farmer Yoon.|
 A Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|From Farmer Yoon, after a lot of talking.|PRE|30252|
@@ -188,7 +195,7 @@ A A Crocolisk Tale|QID|30275|M|54.49,25.81|N|From Enormous Crocolisk Tail.|
 C The Great Water Hunt|QID|30051|M|53.20,31.92|N|Lead Mudmug to the pools of muddy water (yum!). Sometimes a creature will attack before Mudmug can gather his water.|US|NC|
 T The Great Water Hunt|QID|30051|M|53.32,32.16|N|To Mudmug, who is right next to you!|
 A Barreling Along|QID|30172|M|53.32,32.16|N|From Mudmug. He will tag along until we next go the Halfhill.|
-C Barreling Along|QID|30172|M|55.7,49.2|NC|QO|1|N|If the thought of Mudmug getting in the way with his barrels annoys you, drop him off at Halfhill first, otherwise, skip this step.|PRE|30051|
+C Barreling Along|QID|30172|M|55.7,49.2|QO|1|N|If the thought of Mudmug getting in the way with his barrels annoys you, drop him off at Halfhill first, otherwise, skip this step.|PRE|30051|NC|
 T A Crocolisk Tale|QID|30275|M|60.61,33.70|N|To Yan.|
 R The Heartland|ACTIVE|30053|M|50.71,32.25|FLY|OLD|
 C Speak with Gardener Fran|QID|30053|M|48.31,33.48|QO|1|CHAT|
@@ -225,10 +232,10 @@ A Out of Sprite|QID|30030|M|52.60,62.98|N|From Grainer Pan.|PRE|30048|
 A Wee Little Shenanigans|QID|30029|M|52.74,63.00|N|From Grainlord Kai.|PRE|30048|
 C Wee Little Shenanigans|QID|30029|M|52.38,61.54|N|Don't worry about chasing them, they will come to you!|S|
 K Kill Cornan|QID|30030|M|51.42,64.38|QO|1|N|He's up in the Granary.|T|Cornan|
-C Taste the Malted Grain|QID|30031|NC|QO|3|M|50.72,61.94|
-C Taste the Aged Grain|QID|30031|NC|QO|1|M|51.42,60.22|
-C Taste the Light Grain|QID|30031|NC|QO|2|M|54.13,62.58|
-C Taste the Fresh Grain|QID|30031|NC|QO|4|M|53.59,64.64|
+C Taste the Malted Grain|QID|30031|M|50.72,61.94|QO|3|NC|
+C Taste the Aged Grain|QID|30031|M|51.42,60.22|QO|1|NC|
+C Taste the Light Grain|QID|30031|M|54.13,62.58|QO|2|NC|
+C Taste the Fresh Grain|QID|30031|M|53.59,64.64|QO|4|NC|
 C Wee Little Shenanigans|QID|30029|M|52.38,61.54|N|Don't worry about chasing them, they will come to you!|US|
 T Taste Test|QID|30031|M|52.69,62.83|N|To Li Li.|
 T Out of Sprite|QID|30030|M|52.60,62.98|N|To Grainer Pan.|
@@ -262,7 +269,7 @@ T Clear the Way|QID|30075|M|36.04,68.98|N|To Chen Stormstout.|
 A Cleaning House|QID|30078|M|36.11,69.08|N|From Chen Stormstout. Talk to Chen to go inside.|PRE|30075&30076&30077|
 C Cleaning House|QID|30078|M|33.98,70.13|N|Talk to Chen (or Li Li) between steps to advance. Follow the instructions in the yellow text.|
 T Cleaning House|QID|30078|M|36.00,69.13|N|To Chen Stormstout.|
-A Into the Brewery|QID|30085|M|36.09,68.96|N|From Chen Stormstout. This is a dungeon quest|LEAD|31327|PRE|30078|
+A Into the Brewery|QID|30085|M|36.09,68.96|ELITE|N|[color=E6CC80]Dungeon: Stormstout Brewery[/color]\nFrom Chen Stormstout.|LEAD|31327|PRE|30078|
 A Stoneplow Thirsts|QID|30117|M|36.19,68.29|N|From Emmi.|PRE|30078|
 R Nesingwary's Safari|QID|30181|M|16,83|CC|N|[ACTIVE QID?]|FLY|OLD|
 A Stalker Mastery|QID|30183|M|16.19,82.53|N|From Tani|
