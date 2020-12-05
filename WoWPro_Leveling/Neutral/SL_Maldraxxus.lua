@@ -22,11 +22,9 @@ return [[
 ; K Sabreil the Bonecleaver|M|50.67,47.37|Z|Maldraxxus|T|Sabreil the Bonecleaver|N|WH - Rare mob, spawns in The Theater of Pain, Minimap shows Drolkrad.  Kill others until his turn to fight.  Unsure if mount drops or Drolkrad MUST be kept alive till end of fight.|ITEM|182083|RARE|ACH|14308;7|
 ; K Devour'us|M|44.20,28.34|Z|Maldraxxus|T|Devour'us|N|WH - Rare elite mob with scaled level, opens rifts that spawns swarmers.|RARE|ACH|14308;8|
 ; K Warbringer Mal'korak|M|33.56,80.73|Z|Maldraxxus|T|Warbringer Mal'korak|N|WH - Top of tower, table near Rare has random buffs.|ITEM|182085|RARE|ACH|14308;11|
-; K Scunner|M|61.41,76.25|Z|Maldraxxus|T|Scunner|N|WH - Mob is a mess, Ton of HP and what it's worth and aura the reduces haste to the groun, Bring Group with Bloodlust/Heroism|RARE|ACH|14308;12|
 ; K Collector Kash|M|49.81,24.46|Z|Maldraxxus|T|Collector Kash|N|WH - Patrols along poison river, Rare can disarm you, run to your weapon to pick up.|RARE|ACH|14308;13|
 ; K Sister Chelicerae|M|54.92,23.25|Z|Maldraxxus|T|Sister Chelicerae|N|WH - Destroy Intricate Webbing to pull mob, doesn't scale.  Hard to solo unless in epic gear.|RARE|ACH|14308;14|
 ; K Thread Mistress Leeda|M|24.10,39.49|Z|Maldraxxus|T|Thread Mistress Leeda|N|WH - Coord is entrance, Rare randomly spawns after killing Razorthread Weavers a few times.|ITEM|184180|RARE|ACH|14308;16|
-; K Tahonta|M|45.04,50.56|Z|Maldraxxus|T|Tahonta|N|WH - Rare wanders around area, fight isn't hard, Avoid pulling other mobs.|ITEM|182190|RARE|ACH|14308;17|
 ; K Nerissa Heartless|M|65.76,34.65|Z|Maldraxxus|T|Nerissa Heartless|N|WH - Stands near groups of mob on platform where the two stairs lead to.  Clear Trash!|RARE|ACH|14308;19|
 ; K Bubbleblood|M|52.11,35.76|Z|Maldraxxus|T|Bubbleblood|N|WH - Moves around the blood pool, Pull carefully, common mobs easy to overpull.|RARE|ACH|14308;20|
 ; K Deepscar|M|45.00,44.60|Z|Maldraxxus|T|Deepscar|N|WH - Coords are entrance to tower rare is located in.|ITEM|182191|RARE|ACH|14308;21|
@@ -229,6 +227,7 @@ T Bet on Yourself|QID|59826^59827^59828|M|53.58,47.50|Z|Maldraxxus|N|To Au'narim
 A Smack and Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|From Caleesy.|RANK|2|
 A Take the Bull by the Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|RANK|2|
 C Smack and Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|S|
+K Tahonta|QID|61986^58783|QO|1|M|45.04,50.56|Z|Maldraxxus|T|Tahonta|N|Rare wanders around area, fight isn't hard, Avoid pulling other mobs.|ITEM|182190|RARE|ACH|14308;17|
 C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
 C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<1|N|Ride the Tauralus back to Dundae.|
 C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
@@ -466,10 +465,11 @@ C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|3|NC|N|Click on the
 T Fit For a Margrave|QID|60831|M|60.50,71.60|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 A Fathomless Power|QID|59231|M|60.50,71.60|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|60831|MS|
 A Plaguefall: Knee Deep In It|QID|59520|M|59.39,72.95|Z|Maldraxxus|ELITE|N|[color=e6cc80]Dungeon: Plaguefall[/color]\nFrom Vial Master Lurgy. This quest is optional and out of scope for this guide.|RANK|2|
-$ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus|N|Get a Mask from Pandemis.|BUFF|338920|ACH|14312;13|
-$ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|;330069<10|ACH|14312;13|
-$ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|ACH|14312;13|;currently bugged grate doesnt show
-$ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus|N|And, the Treasure is along the top of the wall in a chest.|ACH|14312;13|
+K Scunner|M|61.41,76.25|Z|Maldraxxus|T|Scunner|N|WH - Mob is a mess, Ton of HP and what it's worth and aura the reduces haste to the groun, Bring Group with Bloodlust/Heroism|RARE|ACH|14308;12|LVL|60|
+$ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus|N|Get a Mask from Pandemis.|BUFF|338920|ACH|14312;13|LVL|60|
+$ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|;330069<10|ACH|14312;13|LVL|60|
+$ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|ACH|14312;13|LVL|60|;currently bugged grate doesnt show
+$ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus|N|And, the Treasure is along the top of the wall in a chest.|ACH|14312;13|LVL|60|
 F Bleak Redoubt|ACTIVE|59231|M|58.02,72.37|Z|Maldraxxus|N|At Vradfira Livid.|
 C Fathomless Power|QID|59231|M|50.40,67.75|Z|Maldraxxus|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Inisght.|EAB|MS|
 T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
