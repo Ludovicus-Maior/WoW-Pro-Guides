@@ -42,7 +42,7 @@ N Shopping List|N|This completes the Shopping List|
 
 N Shrouded Cloth Bandage|QID|197310924|P|Tailoring;197;8+15;1|N|1;Shrouded Cloth;17;17|
 N Shrouded Cloth Cape|QID|197310871|P|Tailoring;197;8+31;1|N|1;Shrouded Cloth;3;32|
-= Learn Recipes|QID|197005|P|Tailoring;197;8+15|N|Learn available recipes from Trainer|	
+= Learn Recipes|QID|197005|P|Tailoring;197;8+15|N|Learn available recipes from Trainer|
 N Shrouded Cloth Hood|QID|197310873|P|Tailoring;197;8+37;1|N|6;Shrouded Cloth;12;12|
 N Shrouded Cloth Spaulders|QID|197310875|P|Tailoring;197;8+52;1|N|5;Shrouded Cloth;6;30|
 = Learn Recipes|QID|197005|P|Tailoring;197;8+15|N|Learn available recipes from Trainer|

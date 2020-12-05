@@ -50,7 +50,7 @@ N The next two crafts will be used in most Shadowlands Engineering recipes|N|Mak
 N 100 x Porous Polishing Abrasive|QID|202172935|P|Engineering;202;8+25;1|N|2;Porous Stone;100;100|
 N 150 x Handful of Laestrite Bolts|QID|202310522|P|Engineering;202;8+25;1|N|1;Laestrite Ore;150;330|
 = Learn Recipes|QID|202005|P|Engineering;202;8+15|N|Learn available recipes from Trainer.|
-	
+
 ; What to Craft 025 to 076 Shadowlands
 N 10 Mortal Coiled Spring|QID|202310525|P|Engineering;202;8+35;1|N|3;Porous Polishing Abrasive;30;30:5;Laestrite Ore;50;180|
 = Learn Recipes|QID|202005|P|Engineering;202;8+15|N|Learn available recipes from Trainer.|
