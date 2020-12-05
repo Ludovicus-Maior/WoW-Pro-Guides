@@ -485,7 +485,7 @@ T A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A Glorious Pursuits|QID|58821|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
 A Prey Upon Them|QID|59171|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
 ;$ Stolen Jar|QID|61451|M|66.08,50.10|Z|Maldraxxus|N|In this cave for some treasure.|ITEM|182618|ACH|14312;3|
-A ...Why Me?|QID|62085|M|66.16,50.44|Z|Maldraxxus|N|From Stolen Jar in cave.|RANK|2|;$
+A ...Why Me?|QID|62085|M|66.16,50.44|Z|Maldraxxus|N|From Stolen Jar in cave.\n This is a rare spawn so might not be here, check back later.|RANK|2|;$
 C Glorious Pursuits|QID|58821|M|62.75,52.52|Z|Maldraxxus|QO|1|U|178940|N|Attack Mephiles the Loyal until he is under 50% then use Vashj's Signal to capture it.|MS|
 C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Kill the Morbid Disciples|S|MS|
 C Prey Upon Them|QID|59171|M|61.97,51.91|Z|Maldraxxus|NC|QO|1<1|N|Click on the Anima-charged Maldracite to collect it.|MS|
