@@ -164,8 +164,8 @@ A Li Li and the Grain|QID|30048|M|55.89,49.44|N|From Chen Stormstout.|PRE|30046|
 A Doesn't Hold Water|QID|30049|M|55.89,49.44|N|From Chen Stormstout.|PRE|30046|
 A Children of the Water|QID|32045|M|55.13,47.38|N|From Stonecarver Mac, up on Halfhill|
 f Halfhill|QID|30049|M|56.50,50.36|N|From Wing Nga.|TAXI|-Halfhill|
-N
-A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon. This chain for The Tillers is optional, but it opens up the Quartermaster which gives you a place to repair. (Plus its quick and easy XP.)|RANK|3|
+N Fishing quest and cooking training|QID|30252|N|If you want to, this is a good time to do the fishing quest and cooking training. Perhaps not the most efficient. But, if you are going to do it, might as well do it while you get XP.|IZ|Halfhill|RANK|3|
+A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon. This chain for The Tillers is optional, but it unlocks the Quartermaster and gives you a place to repair. Plus, its quick and easy XP.|RANK|3|
 C Remove the rocks|QID|30252|M|52.8,49.81|N|Click on the unbudging rocks to dig them up.|NC|
 T A Helping Hand|QID|30252|M|52.75,47.94|N|To Farmer Yoon.|
 A Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|From Farmer Yoon, after a lot of talking.|PRE|30252|
