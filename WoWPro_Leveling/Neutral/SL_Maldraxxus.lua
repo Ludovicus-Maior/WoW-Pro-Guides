@@ -7,11 +7,9 @@ WoWPro:GuideSteps(guide, function()
 return [[
 ; List of Treasures in Maldraxxus a few in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
 ; $ Forgotten Momentos|M|22.5,30.5|Z|Maldraxxus|N|WH - Vault Portculis to open the gate blocking treasure.|ACH|14312;4|
-; $ Misplaced Supplies|M|62.4,59.9|Z|Maldraxxus|N|WH - On top of mushroom. Climb hill, turn left, Jump to mushroom, Turn right, Jump to hill, Turn right and climb hill once more to the edge.|ACH|14312;5|
 ; $ Runespeaker's Trove|M|31.7,70.0|Z|Maldraxxus|N|WH - Kill Runespeaker Phaeton to loot his key.|T|Runespeaker Phaeton|ITEM|183516|ACH|14312;6|
-; $ Ritualist's Cache|M|69.8,31.0;71.7,35.4;64.6,24.7|CS|Z|Maldraxxus|N|Loot Bone Pile for Missing Ritual Pages(1st coord)\nUse book of Binding Rituals (2nd Coords)\nYou have 5 mins to get treasure(last coord)|ITEM|183517|ACH|14312;7|
+; $ Ritualist's Cache|M|69.8,31.0;71.7,35.4;64.6,24.7|CS|Z|Maldraxxus|N|Loot Bone Pile for Missing Ritual Pages(1st coord)\nUse book of Binding Rituals (2nd Coords)\nYou have 5 mins to get treasure(last coord)|ITEM|183517|ACH|14312;7| - level 60 area, no icon visable for treasure at lvl 58
 ; $ Chest of Eyes|M|48.4,15.1|Z|Maldraxxus|N|WH - Inside wreckage of Nurakkir in the House of Eyes.|ITEM|183696|ACH|14312;11|
-; $ Glutharn's Stash|M|72.8,53.6|Z|Maldraxxus|N|WH - Kill Scathely and his 2 adds to unlock treasure.|ACH|14312;12|
 
 ; List of Rares in Maldraxxus, only one in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
 ; K Corpsecutter Moroc|M|26.49,27.39|Z|Maldraxxus|T|Corpsecutter Moroc|N|WH - Hits hard, like tank. Elitle Patrol area.|RARE|ACH|14308;1|
@@ -477,6 +475,7 @@ T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
 ; Matron of Spies Storyline
 R Renounced Bastille|ACTIVE|58751|CS|M|54.79,65.53;59.70,60.58;67.90,51.58|Z|Maldraxxus|N|Through Bleak Redoubt, Blighted Scar and Glutharn's Decay, following roads generally northwest.|
 R Glutharn's Decay|AVAILABLE|62743|CS|M|54.79,65.53;59.70,60.58;67.90,51.58|Z|Maldraxxus|N|Through Bleak Redoubt, Blighted Scar and Glutharn's Decay, following roads generally northwest.|RANK|2|TOF|
+; $ Misplaced Supplies|M|62.4,59.9|Z|Maldraxxus|N|WH - On top of mushroom. Climb hill, turn left, Jump to mushroom, Turn right, Jump to hill, Turn right and climb hill once more to the edge, walk onto mushroom.|ACH|14312;5|;leaving commented out, because treasure icon was not present on level 58. I did see it in beta pre 60.
 A Decaying Situation|QID|62743|M|65.62,48.32|Z|Maldraxxus|N|Bonus Objective-Autoaccepted.|RANK|2|TOF|LVL|-59|
 C Decaying Situation|QID|62743|M|65.62,48.32|Z|Maldraxxus|S!US|N|Kill Hostiles, destroy the Bone Stakes tethering the Necroray's.|TOF|LVL|-59|
 f Renounced Bastille|ACTIVE|58751|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|
@@ -507,6 +506,7 @@ C Tainted Cores|QID|59210|M|67.46,45.99|Z|Maldraxxus|QO|1|NC|N|Click on the Depl
 C Entangling Web|QID|59185|M|71.07,53.23|Z|Maldraxxus|QO|1|NC|N|Click the Jars of Ground Maldracite that are scatterd around to collect the dust.|S|MS|
 C Tainted Cores|QID|59210|M|72.18,49.92|Z|Maldraxxus|QO|2|U|175409|N|Kill Ritualists and then use the Fractured Anima Crystal to drain their Anima.|S|MS|
 C Vaunted Vengeance|QID|59188|M|72.16,47.94|Z|Maldraxxus|QO|1|N|Kill Architect Xeeli and loot his Ritual Drafts.|MS|
+; $ Glutharn's Stash|M|72.8,53.6|Z|Maldraxxus|N|Inside cave, at base of/through waterfall, Kill Scathely and his 2 adds to unlock treasure.|ACH|14312;12|;leaving commented out because seems to be lvl 60. killed Scathely and his minions twice. no icon. no treasure at level 58. directly below Architect Lye
 C Vaunted Vengeance|QID|59188|M|72.77,52.60|Z|Maldraxxus|QO|3|N|Kill Architect Lye and loot his Ritual Drafts. He is above, not inside the cave.|MS|
 K Deadly Dapperling|QID|58868^61989|QO|1|M|76.13,56.25|Z|Maldraxxus|T|Deadly Dapperling|N|up the hill for a silver elite mushroom - Wanders Southeast part of Glutharn's Decay area.|ITEM|181263|RARE|ACH|14308;9|
 C Vaunted Vengeance|QID|59188|M|69.53,52.50|Z|Maldraxxus|QO|2|N|Kill Architect Halen and loot his Ritual Drafts.|MS|
