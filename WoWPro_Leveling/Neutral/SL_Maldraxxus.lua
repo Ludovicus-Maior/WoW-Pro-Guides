@@ -485,7 +485,7 @@ T A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A Glorious Pursuits|QID|58821|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
 A Prey Upon Them|QID|59171|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
 ;$ Stolen Jar|QID|61451|M|66.08,50.10|Z|Maldraxxus|N|In this cave for some treasure.|ITEM|182618|ACH|14312;3|
-A ...Why Me?|QID|62085|M|66.16,50.44|Z|Maldraxxus|N|From Stolen Jar in cave.|RANK|2|;$
+A ...Why Me?|QID|62085|M|66.16,50.44|Z|Maldraxxus|N|From Stolen Jar in ground level cave. (there is a cave practically on top of this one). May not be there due to respawn timer?|RANK|2|ITEM|182618|ACH|14312;3|;$
 C Glorious Pursuits|QID|58821|M|62.75,52.52|Z|Maldraxxus|QO|1|U|178940|N|Attack Mephiles the Loyal until he is under 50% then use Vashj's Signal to capture it.|MS|
 C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Kill the Morbid Disciples|S|MS|
 C Prey Upon Them|QID|59171|M|61.97,51.91|Z|Maldraxxus|NC|QO|1<1|N|Click on the Anima-charged Maldracite to collect it.|MS|
@@ -508,7 +508,7 @@ C Entangling Web|QID|59185|M|71.07,53.23|Z|Maldraxxus|QO|1|NC|N|Click the Jars o
 C Tainted Cores|QID|59210|M|72.18,49.92|Z|Maldraxxus|QO|2|U|175409|N|Kill Ritualists and then use the Fractured Anima Crystal to drain their Anima.|S|MS|
 C Vaunted Vengeance|QID|59188|M|72.16,47.94|Z|Maldraxxus|QO|1|N|Kill Architect Xeeli and loot his Ritual Drafts.|MS|
 C Vaunted Vengeance|QID|59188|M|72.77,52.60|Z|Maldraxxus|QO|3|N|Kill Architect Lye and loot his Ritual Drafts. He is above, not inside the cave.|MS|
-K Deadly Dapperling|QID|25535^30656|QO|1|M|76.13,56.25|Z|Maldraxxus|T|Deadly Dapperling|N|up the hill for a silver elite mushroom - Wanders Southeast part of Glutharn's Decay area.|ITEM|181263|RARE|ACH|14308;9|
+K Deadly Dapperling|QID|58868^61989|QO|1|M|76.13,56.25|Z|Maldraxxus|T|Deadly Dapperling|N|up the hill for a silver elite mushroom - Wanders Southeast part of Glutharn's Decay area.|ITEM|181263|RARE|ACH|14308;9|
 C Vaunted Vengeance|QID|59188|M|69.53,52.50|Z|Maldraxxus|QO|2|N|Kill Architect Halen and loot his Ritual Drafts.|MS|
 C Tainted Cores|QID|59210|M|72.18,49.92|Z|Maldraxxus|QO|2|U|175409|NC|N|Kill Ritualists and then use the Fractured Anima Crystal to drain their Anima.|US|MS|
 C Entangling Web|QID|59185|M|71.07,53.23|Z|Maldraxxus|QO|1|N|Click the Jars of Ground Maldracite that are scatterd around to collect the dust.|US|MS|
