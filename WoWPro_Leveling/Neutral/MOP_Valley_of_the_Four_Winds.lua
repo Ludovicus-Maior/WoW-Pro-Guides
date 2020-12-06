@@ -184,7 +184,7 @@ B Rice Pudding Ingredients|ACTIVE|31302|M|53.58,51.22|L|74852 5|N|Buy 5 Yak Milk
 B Rice Pudding Ingredients|ACTIVE|31302|M|53.58,51.22|L|74851 5|N|Buy 5 Rice from Sungshin Ironpaw.|
 C Rice Pudding|QID|31302|M|53.58,51.22|NC|
 T Ready for Greatness|QID|31302|M|53.58,51.22|N|To Sungshin Ironpaw.|
-N Advanced Pandaren Cooking|AVAILABLE|31479^31311^31478^31472^31475^31470|M|PLAYER|N|Upon turning in 'Ready for Greatness', you'll unlock 6 quests to unlock further cooking skills and dailies.\nThis guide will go no further into it.|RANK|3|
+N Advanced Pandaren Cooking|AVAILABLE|31479^31311^31478^31472^31475^31470|M|PLAYER|N|Upon turning in 'Ready for Greatness', you'll unlock 6 quests to unlock further cooking skills and dailies.\nThis guide will go no further into it.|RANK|3|JUMP|Pandaren Cooking|
 ; --
 ; -- The Tillers Quest chain
 A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon in Sunsong Ranch.\n[color=FF0000]NOTE: [/color]This chain for The Tillers is optional, it's quick and easy XP.|RANK|3|
