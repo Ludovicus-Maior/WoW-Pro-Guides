@@ -163,9 +163,31 @@ A Hop Hunting|QID|30053|M|55.89,49.44|N|From Chen Stormstout.|PRE|30046|
 A Li Li and the Grain|QID|30048|M|55.89,49.44|N|From Chen Stormstout.|PRE|30046|
 A Doesn't Hold Water|QID|30049|M|55.89,49.44|N|From Chen Stormstout.|PRE|30046|
 A Children of the Water|QID|32045|M|55.13,47.38|N|From Stonecarver Mac, up on Halfhill|
-f Halfhill|QID|30049|M|56.50,50.36|N|From Wing Nga.|TAXI|-Halfhill|
-N Fishing quest and cooking training|QID|30252|N|If you want to, this is a good time to do the fishing quest and cooking training. Perhaps not the most efficient. But, if you are going to do it, might as well do it while you get XP.|IZ|Halfhill|RANK|3|
-A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon. This chain for The Tillers is optional, but it unlocks the Quartermaster and gives you a place to repair. Plus, its quick and easy XP.|RANK|3|
+f Halfhill|ACTIVE|30049|M|56.50,50.36|N|From Wing Nga.|TAXI|-Halfhill|
+N Fishing quest and cooking training|AVAILABLE|31281|N|If you want to, this is a good time to do the fishing quest and cooking training. Perhaps not the most efficient. But, if you are going to do it, might as well do it while you get XP.|IZ|Halfhill|RANK|3|
+; -- Fishing quest
+A You Want Fish?|QID|32684|M|53.58,51.22|N|From Sungshin Ironpaw.\n[color=FF0000]NOTE: [/color]As stated earlier, this is optional. Skip it if you so wish.|
+T You Want Fish?|QID|32684|M|58.92,46.92|N|To Ben of the Booming Voice down by the shore of the Gilding Stream.|
+A No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|From Ben of the Booming Voice.\nThis quest is meant to show you can fish without a pole.|
+C Learn Fishing Skill|ACTIVE|32685|M|58.92,46.92|N|Learn the fishing skill from Ben of the Booming Voice.|P|Fishing;356;8|
+C Go Fish|QID|32685|L|74866 5|N|To fish, simply click the Fishing icon and pay attention to the bobber. Hover over the bobber and click on it when it moves.\n[color=FF0000]NOTE: [/color]Drag the Fishing icon from your Profession Book to one of your bars for easier access.|
+T No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|To Ben of the Booming Voice.|
+; --
+; -- Cooking quests
+A So You Want to Be a Chef...|QID|31281|M|53.58,51.22|N|From Sungshin Ironpaw, in The Halfhill Market.\n[color=FF0000]NOTE: [/color]As stated earlier, this is optional. Skip it if you so wish.|RANK|3|
+B Pandaren Peach|ACTIVE|31281|M|53.58,51.22|L|74660 5|N|Buy 5 from Sungshin Ironpaw.|
+C Sliced Peaches|QID|31281|M|PLAYER|N|Make 5 Sliced Peaches.|NC|
+T So You Want to Be a Chef...|QID|31281|M|53.58,51.22|N|To Sungshin Ironpaw.|
+A Ready for Greatness|QID|31302|M|53.58,51.22|N|From Sungshin Ironpaw.|PRE|31281|
+A You Want Fish?|QID|32684|M|53.58,51.22|N|From Sungshin Ironpaw.|PRE|31281|
+B Rice Pudding Ingredients|ACTIVE|31302|M|53.58,51.22|L|74852 5|N|Buy 5 Yak Milk from Sungshin Ironpaw.|
+B Rice Pudding Ingredients|ACTIVE|31302|M|53.58,51.22|L|74851 5|N|Buy 5 Rice from Sungshin Ironpaw.|
+C Rice Pudding|QID|31302|M|53.58,51.22|NC|
+T Ready for Greatness|QID|31302|M|53.58,51.22|N|To Sungshin Ironpaw.|
+N Advanced Pandaren Cooking|AVAILABLE|31479^31311^31478^31472^31475^31470|M|PLAYER|N|Upon turning in 'Ready for Greatness', you'll unlock 6 quests to unlock further cooking skills and dailies.\nThis guide will go no further into it.|RANK|3|
+; --
+; -- The Tillers Quest chain
+A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon in Sunsong Ranch.\n[color=FF0000]NOTE: [/color]This chain for The Tillers is optional, it's quick and easy XP.|RANK|3|
 C Remove the rocks|QID|30252|M|52.8,49.81|N|Click on the unbudging rocks to dig them up.|NC|
 T A Helping Hand|QID|30252|M|52.75,47.94|N|To Farmer Yoon.|
 A Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|From Farmer Yoon, after a lot of talking.|PRE|30252|
@@ -183,7 +205,7 @@ T Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|N|To Farmer Yoon.|
 A Learn and Grow V: Halfhill Market|QID|30257|M|52.25,48.79|N|From Farmer Yoon.|PRE|30256|
 C Presentation is everything!|QID|30257|M|52.75,48.07|N|Pick a flower for Gina and deliver your produce to market.|NC|
 T Learn and Grow V: Halfhill Market|QID|30257|M|53.16,51.79|N|[Fix note]To Gina Mudclaw, if you plan to continue with farming grab and do the follow-up, but it is not included in the guide. You can farm a limited number and type of plants pre level 90.|
-r Repair/Restock|QID|30049|M|53.14,51.79|N|Now that we have the Quartermaster talking to us, we can repair.|
+; --
 T Doesn't Hold Water|QID|30049|M|54.28,38.74|N|To Mudmug, on the northern exit of the ring road, pacing around his barrels.|
 A The Great Water Hunt|QID|30051|M|54.19,38.65|N|From Mudmug.|PRE|30049|
 C The Great Water Hunt|QID|30051|M|53.20,31.92|N|Lead Mudmug to the pools of muddy water (yum!). Sometimes a creature will attack before Mudmug can gather his water.|S|NC|
