@@ -408,13 +408,20 @@ end
 
 -- Guide Rank
 function WoWPro.GuideRank(guideID)
+    --- If there is a guide specific rank per toon, use it.
     if WoWProCharDB.Rank[guideID] then
-        return WoWProCharDB.Rank[guideID]
+        return WoWProCharDB.Rank[guideID], "Guide"
     end
+    -- If the is a per toon rank for this guide type, use it.
     if WoWPro.Guides[guideID] and WoWProCharDB.Rank[WoWPro.Guides[guideID].guidetype] then
-        return WoWProCharDB.Rank[WoWPro.Guides[guideID].guidetype]
+        return WoWProCharDB.Rank[WoWPro.Guides[guideID].guidetype], "GuideType"
     end
-    return WoWProDB.profile.rank
+    --- If there is a per toon default rank, use it.
+    if WoWProCharDB.Rank[1] then
+        return  WoWProCharDB.Rank[1], "Toon"
+    end
+    -- Otherwise, fall back on the global rank
+    return WoWProDB.profile.rank, "Global"
 end
 
 -- Guide Load --
@@ -2774,15 +2781,16 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Skipping any quests with a greater completionist rank than the setting allows --
             if WoWPro.rank and WoWPro.rank[guideIndex] then
                 local rank = tonumber(WoWPro.rank[guideIndex])
-                if rank < 0 and -rank ~= WoWProDB.profile.rank then
+                local prank = WoWPro.GuideRank(WoWProDB.char.currentguide)
+                if rank < 0 and -rank ~= prank then
                     guide.skipped[guideIndex] = true
-                    WoWPro.why[guideIndex] = "NextStep(): Step rank is not equal to current rank"
+                    WoWPro.why[guideIndex] = "NextStep(): Step rank is not equal to current rank="..prank
                     skip = true
                     break
                 end
-                if rank > WoWProDB.profile.rank then
+                if rank > prank then
                     guide.skipped[guideIndex] = true
-                    WoWPro.why[guideIndex] = "NextStep(): Step rank is too high."
+                    WoWPro.why[guideIndex] = "NextStep(): Step rank is higher than "..prank
                     skip = true
                     break
                 end

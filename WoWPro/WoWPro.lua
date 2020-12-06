@@ -345,6 +345,7 @@ function WoWPro:OnInitialize()
     WoWProCharDB.Guide2QIDs = nil -- wipe it.
     WoWProCharDB.QID2Guide = WoWProCharDB.QID2Guide or {}
     WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
+    WoWProCharDB.Rank = WoWProCharDB.Rank or {}
     WoWProDB.global.QID2Guide = nil
     WoWProDB.global.Guide2QIDs = nil
     WoWProCharDB.Taxi = WoWProCharDB.Taxi or {}
