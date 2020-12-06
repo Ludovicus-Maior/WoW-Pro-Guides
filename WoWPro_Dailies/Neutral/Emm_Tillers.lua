@@ -62,7 +62,7 @@
 -- URL: http://wow-pro.com/node/3508/revisions/26845/view
 -- Date: 2014-11-07 20:31
 -- Who: Fluclo
--- Log: Fixed missing N tags, duplicate PRE, NC and N tags, and mis-spelt ACTIVE tag
+-- Log: Fixed missing N tags, duplicate PRE, NC and N tags, and misspelt ACTIVE tag
 
 -- URL: http://wow-pro.com/node/3508/revisions/26636/view
 -- Date: 2014-07-26 22:25
@@ -149,13 +149,13 @@
 -- URL: http://wow-pro.com/node/3508/revisions/25244/view
 -- Date: 2012-12-09 01:46
 -- Who: Emmaleah
--- Log: fix coords on legend chief/order with simian sabatage
+-- Log: fix coords on legend chief/order with simian sabotage
 --	note about Tina's nice necklace.
 
 -- URL: http://wow-pro.com/node/3508/revisions/25242/view
 -- Date: 2012-12-08 10:31
 -- Who: Emmaleah
--- Log: corrected QID - Haohans Vote-mellons for felons
+-- Log: corrected QID - Haohan's Vote-melons for felons
 --	Divided Old Man thistle's treasure into two steps,
 --	Added Note about cooking and other minor changes to notes
 
@@ -206,11 +206,11 @@ return [[
 
 N Pick up any Dark Soil you find|QID|30535|N|When you are flying about doing your dailies (not just these dailies) keep an eye out for Dark Soil. It contains a lost treasure to turn in for rep with the various friends around the farm.|
 N Favorite Treasures/food|QID|30535|N|Each Friend has a favorite lost treasure that you can give them as many as you can find daily and food that you can give them once per day. If you can't remember which food they like, you can mouseover the friend rep bar (in the gossip pane) to be reminded. I have also tried to note which lost item they prefer for most interactions with the friends.|
-N Not so favorite Treasures|QID|30535|N|They will accept any of the lost treasures for about half the faction of thier favorite item. So, unless you are maxxed out with the friends who want a particular item, its much better to give it to the friends who prefer it.|
+N Not so favorite Treasures|QID|30535|N|They will accept any of the lost treasures for about half the faction of their favorite item. So, unless you are maxed out with the friends who want a particular item, its much better to give it to the friends who prefer it.|
 N Available Quests|QID|30535|N|Because quests are given at various factions, you can accept a quest whenever you see it, whether or not the guide tells you to... Except the daily turn in of lost items as discussed above. (Those will be designated by a blue "?" instead of a blue "!").|
 N Non daily quests|QID|30535|N|Most of the friends also offer various one time quests based on your faction with them. Unless you are turning in lots of treasures (from dark soil) there is no need to finish the one time quests the day you get them. Growing the Farm quests, you probably want to do right away to have more farming plots.|
 N Cooking|QID|30535|N|The favorite meals for the various friends requires cooking 525 or 550. You can buy the food in the AH or make it yourself. If you choose to make it, by the time you are done you will have gotten to 575 cooking in all the ways.This guide doesn't discuss how to skill up in cooking.|
-N RANK|QID|30257|N|Do the quide on Rank 2 if you want to skip the share food with the friends quests, Set to Rank 1 if you also want to skip the cooking quests.|
+N RANK|QID|30257|N|Do the guide on Rank 2 if you want to skip the share food with the friends quests, Set to Rank 1 if you also want to skip the cooking quests.|
 N Quick Method|QID|30527|N|Shortest time to exalted. If you have the bonus faction commendation on your account, you can get to exalted very quickly. The main limiting thing is the quests that require you to plant, harvest and deliver produce to obtain the votes. If you plant the item(s) in advance of receiving the quest, you can then harvest after you have the quest and then replant for the quest credit. (After replanting you can dig up and plant something else). Preplanting before you have the quest shaves a day off for each one (i.e. 4 days)off of the time it takes to get to exalted. You will also need to gain about 2K extra faction beyond the quests to finish in 4 days. If you are >= level 90, this can be from a random Pandaria dungeon or scenario while *championing* the Tillers faction. If you are >=level 90 you 100 from each harvest, but also need to purchasing commendations from Mistweaver Xia on Timeless Isle (50 timewarped badges/300 faction) or an extra day or two of dailies.|REP|The Tillers;1272;Neutral;bonus|
 N Championing|QID|30527|N|To champion a faction in Pandaria, you click on the star to the left of the reputation's name in your character's reputation panel.  Then the first random Pandaria dungeon and/or scenario you do each day will yield you bonus rep with that faction.|
 N Quick method - Day 1|QID|31945|N|Plant 1 scallion and 2 carrot seeds as soon as you are able.|M|52.02,48.30|NC|U|80591|REP|The Tillers;1272;honored-revered;bonus|
@@ -222,7 +222,7 @@ N Quick method - Final Day|QID|30527|M|52.02,48.30|NC|U|89329|N|When you have th
 A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon. You probably did this while leveling, but just in case you didn't, here it is.|
 C Remove the rocks|QID|30252|M|52.8,49.81|NC|N|Click on the unbudging rocks to dig them up.|
 T A Helping Hand|QID|30252|M|52.75,47.94|N|To Farmer Yoon.|
-A Learn and Grow I: Seeds|QID|30535|PRE|30252|M|52.25,48.79|N|From Farmer Yoon, after alot of talking.|
+A Learn and Grow I: Seeds|QID|30535|PRE|30252|M|52.25,48.79|N|From Farmer Yoon, after a lot of talking.|
 l Get seeds from Merchant Greenfield|QID|30535|QO|1|M|52.88,52.14|CHAT|N|It's a chat option, not a purchase.|
 T Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|To Farmer Yoon.|
 A Learn and Grow II: Tilling and Planting|QID|30254|PRE|30535|M|52.25,48.79|N|From Farmer Yoon.|
@@ -247,7 +247,7 @@ t Learn and Grow VI: Gina's Vote|QID|31945|N|To Gina Mudclaw.|
 ;MUNG-MUNG'S VOTE - 5500 honored - I have this both places on purpose (i don't know that it is correct, but it is intentional) Because you may come across him in the market. or on the farm
 T Mung-Mung's Vote I: A Hozen's Problem|QID|30258|M|44.17,34.21|N|To Mung-Mung.|
 A Mung-Mung's Vote II: Rotten to the Core|QID|30259|PRE|30258|M|44.17,34.21|N|From Mung-Mung.|
-C Mung-Mung's Vote II: Rotten to the Core|QID|30259|M|42.49,39.99|NC|N|Pick up sparkly carrot bits, avoiding or killing virmin as you go.|
+C Mung-Mung's Vote II: Rotten to the Core|QID|30259|M|42.49,39.99|NC|N|Pick up sparkly carrot bits, avoiding or killing vermin as you go.|
 T Mung-Mung's Vote II: Rotten to the Core|QID|30259|M|44.14,34.27|N|To Mung-Mung.|
 A Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|PRE|30259|M|44.14,34.27|N|From Mung-Mung.|
 t Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|44.17,34.21|N|This can't be completed or turned in until the next day. If Mung-Mung is not at the market he will be back at the Mudclaw Farm, (where the green dot is.)|
@@ -280,7 +280,7 @@ K Chief Yip-Yip|T|Chief Yip-Yip|QID|30528|ACTIVE|30528|QO|1|M|32.4,20.4|N|Head t
 A Farmer Yoon|QID|31672^31942^31673^31941^31670^31669^31674^31675^31943^31671|M|52.19,48.802|N|He will have at least 2 quests for you. Pick up all of them.|PRE|30257|REP|The Tillers;1272;Neutral-Revered|
 A Work Order Post|QID|32642^32645^32647^32649^32653^32658^32942^32944|M|52.3,48.68|N|Now that Yoon is on the council, his 'grow something' quest is replaced by quests that let you earn reputation with other Pandaria factions. You can only do one a day, take whichever you chose (or none). Unlike Yoon's quests, you also have to harvest and turn in the produce, so skip this if you want to keep your farm's production more than you want the other faction's favor.|PRE|32682|REP|The Tillers;1272;Exalted|
 A A Gift For ??|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|PRE|30257|M|52.70,50.47|N|From Andi.|
-A Help the Master Cooks|QID|30328^30329^30330^30331^30332|LVL|90|N|One of the master cooks will want an ingrediant, these quests do not offer Tiller Rep. You can skip them if you don't have a use for Ironpaw tokens, but as its done in the same area, you may as well do it,(except when its fatty goatsteak, that one is attractive to skip if you are on a med-high pop server).**REQUIRES LEVEL 90**|PRE|30257|RANK|2|
+A Help the Master Cooks|QID|30328^30329^30330^30331^30332|LVL|90|N|One of the master cooks will want an ingredient, these quests do not offer Tiller Rep. You can skip them if you don't have a use for Ironpaw tokens, but as its done in the same area, you may as well do it,(except when its fatty goatsteak, that one is attractive to skip if you are on a med-high pop server).**REQUIRES LEVEL 90**|PRE|30257|RANK|2|
 A Farmer Yoon|QID|30333^30334^30335^30336^30337|M|52.92,51.83|N|Farmer Yoon has moved into town and only offers one quest a day now.|PRE|32682|REP|The Tillers;1272;Exalted|;pre quest mismatch per grail is intentional, so wont trigger if you haven't bought the farm from Yoon
 
 ;prepare food
@@ -308,7 +308,7 @@ A Old Hillpaw|QID|30396^30394^30318|ACTIVE|30476|M|53.0,51.8|N|Turn in food, tre
 A Chee Chee|QID|30402^30400^30324|ACH|6552;3|ACTIVE|30471|M|53.10,52.01|N|Turn in food, treasure, accept daily. He prefers a Blue Feather.|PRE|30257|
 A Gina Mudclaw|QID|30390^30389^30322|M|53.17,51.86|REP|Gina Mudclaw;1281;Stranger-Good Friend|N|Turn in food, treasure, accept daily if offered. She prefers a Marsh Lily. No preference for gifts to Gina and Fung.|PRE|30257|RANK|3|
 A Money Matters|QID|30322|PRE|30257|ACTIVE|30479|M|53.17,51.86|REP|Gina Mudclaw;1281;Best Friend|N|From Gina Mudclaw.|
-A Farmer Fung|QID|30421^30420^30317|ACTIVE|30475|M|52.85,51.71|N|Turn in food, treasure, accept daily. He perfers a Marsh Lily.|PRE|30257|
+A Farmer Fung|QID|30421^30420^30317|ACTIVE|30475|M|52.85,51.71|N|Turn in food, treasure, accept daily. He prefers a Marsh Lily.|PRE|30257|
 
 ;buy seeds for farmer yoon's preferred crop, rep crops, etc
 B Mogu Pumpkin Seeds|ACTIVE|31672|L|80592|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
@@ -365,8 +365,8 @@ C Plant 8 Scallions|QID|32645|M|52.03,48.32|U|80591|NC|N|After planting, be sure
 C Plant 8 Carrots|QID|32645|M|52.03,48.32|U|80590|NC|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|
 
 ;turn in work orders
-t Work Order: I|QID|32642^32645^32647^32649^32653^33658^32942^32944|M|52.30,48.68|N|Auto-Completes when you plant the lasst seed. If you didn't compleate a Work Order:xxx II today, you will be immediately offered that quest, (but not able to complete it until tomorrow) if you did one, you will be able to pick up the follow-up tomorrow. The faction reward comes from the Work Order II quest.|
-A Work Order II quest|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|51.60,48.67|N|Auto accepted when you turn in work order I (if you didnt do a work order II that day) or when you harvest your first produce for it. If you want to be safe, you can also pick it up from the empty crate.|PRE|32642^32645^32647^32649^32653^32658^32942^32944|
+t Work Order: I|QID|32642^32645^32647^32649^32653^33658^32942^32944|M|52.30,48.68|N|Auto-Completes when you plant the last seed. If you didn't complete a Work Order:xxx II today, you will be immediately offered that quest, (but not able to complete it until tomorrow) if you did one, you will be able to pick up the follow-up tomorrow. The faction reward comes from the Work Order II quest.|
+A Work Order II quest|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|51.60,48.67|N|Auto accepted when you turn in work order I (if you didn't do a work order II that day) or when you harvest your first produce for it. If you want to be safe, you can also pick it up from the empty crate.|PRE|32642^32645^32647^32649^32653^32658^32942^32944|
 
 C Work Order II|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|52.03,48.32|QO|1|N|Harvest the produce. Check off manually if produce not yet grown.|
 C Work Order II|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|51.60,48.67|QO|2|NC|N|Put the requested produce in the empty crate. Check off manually if not yet harvested.|
