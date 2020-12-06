@@ -50,7 +50,7 @@ T Have a Drink|QID|31480|M|53.16,52.24|N|To Bobo Ironpaw.|
 A Preserving Freshness|QID|31536|PRE|31480|M|53.54,51.25|N|From Nam Ironpaw.|
 B Preserving Freshness|QID|31536|M|52.98,52.44|N|Buy an empty Raw Tiger Steak Container from Merchant Cheng.|
 T Preserving Freshness|QID|31536|M|53.54,51.25|N|To Nam Ironpaw.|
-
+D Onwards|N|Congratulations! You have completed the Pandaren Cooking guide.\nYou will now be returned to the Valley of the Four Winds guide\nWe are assuming that's where you came from... for obvious reasons.
 ]]
 
 end)
