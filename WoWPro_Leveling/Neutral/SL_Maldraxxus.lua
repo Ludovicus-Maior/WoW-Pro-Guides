@@ -6,26 +6,26 @@ WoWPro:GuideNextGuide(guide, "Ardenweald")
 WoWPro:GuideSteps(guide, function()
 return [[
 ; List of Treasures in Maldraxxus a few in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
-; $ Forgotten Momentos|M|22.5,30.5|Z|Maldraxxus|N|WH - Vault Portculis to open the gate blocking treasure.|ACH|14312;4|
-; $ Runespeaker's Trove|M|31.7,70.0|Z|Maldraxxus|N|WH - Kill Runespeaker Phaeton to loot his key.|T|Runespeaker Phaeton|ITEM|183516|ACH|14312;6|
-; $ Ritualist's Cache|M|69.8,31.0;71.7,35.4;64.6,24.7|CS|Z|Maldraxxus|N|Loot Bone Pile for Missing Ritual Pages(1st coord)\nUse book of Binding Rituals (2nd Coords)\nYou have 5 mins to get treasure(last coord)|ITEM|183517|ACH|14312;7| - level 60 area, no icon visable for treasure at lvl 58
-; $ Chest of Eyes|M|48.4,15.1|Z|Maldraxxus|N|WH - Inside wreckage of Nurakkir in the House of Eyes.|ITEM|183696|ACH|14312;11|
+; $ Forgotten Momentos|M|22.5,30.5|Z|Maldraxxus|N|WH - Vault Portculis to open the gate blocking treasure.|ACH|14312;7|
+; $ Runespeaker's Trove|M|31.7,70.0|Z|Maldraxxus|N|WH - Kill Runespeaker Phaeton to loot his key.|T|Runespeaker Phaeton|ITEM|183516|ACH|14312;11|
+; $ Ritualist's Cache|M|69.8,31.0;71.7,35.4;64.6,24.7|CS|Z|Maldraxxus|N|Loot Bone Pile for Missing Ritual Pages(1st coord)\nUse book of Binding Rituals (2nd Coords)\nYou have 5 mins to get treasure(last coord)|ITEM|183517|ACH|14312;13| - level 60 area, no icon visable for treasure at lvl 58
+; $ Chest of Eyes|M|48.4,15.1|Z|Maldraxxus|N|WH - Inside wreckage of Nurakkir in the House of Eyes.|ITEM|183696|ACH|14312;8|
 
 ; List of Rares in Maldraxxus, only one in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
 ; K Corpsecutter Moroc|M|26.49,27.39|Z|Maldraxxus|T|Corpsecutter Moroc|N|WH - Hits hard, like tank. Elitle Patrol area.|RARE|ACH|14308;1|
-; K Ravenomous|M|53.81,19.25|Z|Maldraxxus|T|Ravenomous|N|WH - Near stairs at coord, try to avoid spiders.|RARE|ACH|14308;3|
-; K Taskmaster Xox|M|50.01,19.60|Z|Maldraxxus|T|Taskmaster Xox|N|WH - Stands on small island in slime river.  SHARES respawn with Taskmasters Mortis and Bloata.|RARE|ACH|14308;4|
-; K Nirvaska the Summoner|M|50.27,63.52|Z|Maldraxxus|T|Nirvaska the Summoner|N|WH - Only up when WQ-Deadly Reminder is up.  Respawns nearby, usually dead in seconds.|RARE|ACH|14308;5|
-; K Smorgas The Feaster|M|42.27,53.90|Z|Maldraxxus|T|Smorgas The Feaster|N|WH - Rare doesn't show, till you activate it with Bloody Lamp on ground.  Kill Mystery Meat when spawns, it heals rare.|RARE|ACH|14308;6|
-; K Sabreil the Bonecleaver|M|50.67,47.37|Z|Maldraxxus|T|Sabreil the Bonecleaver|N|WH - Rare mob, spawns in The Theater of Pain, Minimap shows Drolkrad.  Kill others until his turn to fight.  Unsure if mount drops or Drolkrad MUST be kept alive till end of fight.|ITEM|182083|RARE|ACH|14308;7|
-; K Devour'us|M|44.20,28.34|Z|Maldraxxus|T|Devour'us|N|WH - Rare elite mob with scaled level, opens rifts that spawns swarmers.|RARE|ACH|14308;8|
-; K Warbringer Mal'korak|M|33.56,80.73|Z|Maldraxxus|T|Warbringer Mal'korak|N|WH - Top of tower, table near Rare has random buffs.|ITEM|182085|RARE|ACH|14308;11|
-; K Collector Kash|M|49.81,24.46|Z|Maldraxxus|T|Collector Kash|N|WH - Patrols along poison river, Rare can disarm you, run to your weapon to pick up.|RARE|ACH|14308;13|
-; K Sister Chelicerae|M|54.92,23.25|Z|Maldraxxus|T|Sister Chelicerae|N|WH - Destroy Intricate Webbing to pull mob, doesn't scale.  Hard to solo unless in epic gear.|RARE|ACH|14308;14|
-; K Thread Mistress Leeda|M|24.10,39.49|Z|Maldraxxus|T|Thread Mistress Leeda|N|WH - Coord is entrance, Rare randomly spawns after killing Razorthread Weavers a few times.|ITEM|184180|RARE|ACH|14308;16|
-; K Nerissa Heartless|M|65.76,34.65|Z|Maldraxxus|T|Nerissa Heartless|N|WH - Stands near groups of mob on platform where the two stairs lead to.  Clear Trash!|RARE|ACH|14308;19|
-; K Bubbleblood|M|52.11,35.76|Z|Maldraxxus|T|Bubbleblood|N|WH - Moves around the blood pool, Pull carefully, common mobs easy to overpull.|RARE|ACH|14308;20|
-; K Deepscar|M|45.00,44.60|Z|Maldraxxus|T|Deepscar|N|WH - Coords are entrance to tower rare is located in.|ITEM|182191|RARE|ACH|14308;21|
+; K Ravenomous|M|53.81,19.25|Z|Maldraxxus|T|Ravenomous|N|WH - Near stairs at coord, try to avoid spiders.|RARE|ACH|14308;5|
+; K Taskmaster Xox|M|50.01,19.60|Z|Maldraxxus|T|Taskmaster Xox|N|WH - Stands on small island in slime river.  SHARES respawn with Taskmasters Mortis and Bloata.|RARE|ACH|14308;7|
+; K Nirvaska the Summoner|M|50.27,63.52|Z|Maldraxxus|T|Nirvaska the Summoner|N|WH - Only up when WQ-Deadly Reminder is up.  Respawns nearby, usually dead in seconds.|RARE|ACH|14308;9|
+; K Smorgas The Feaster|M|42.27,53.90|Z|Maldraxxus|T|Smorgas The Feaster|N|WH - Rare doesn't show, till you activate it with Bloody Lamp on ground.  Kill Mystery Meat when spawns, it heals rare.|RARE|ACH|14308;11|
+; K Sabreil the Bonecleaver|M|50.67,47.37|Z|Maldraxxus|T|Sabreil the Bonecleaver|N|WH - Rare mob, spawns in The Theater of Pain, Minimap shows Drolkrad.  Kill others until his turn to fight.  Unsure if mount drops or Drolkrad MUST be kept alive till end of fight.|ITEM|182083|RARE|ACH|14308;13|
+; K Devour'us|M|44.20,28.34|Z|Maldraxxus|T|Devour'us|N|WH - Rare elite mob with scaled level, opens rifts that spawns swarmers.|RARE|ACH|14308;15|
+; K Warbringer Mal'korak|M|33.56,80.73|Z|Maldraxxus|T|Warbringer Mal'korak|N|WH - Top of tower, table near Rare has random buffs.|ITEM|182085|RARE|ACH|14308;21|
+; K Collector Kash|M|49.81,24.46|Z|Maldraxxus|T|Collector Kash|N|WH - Patrols along poison river, Rare can disarm you, run to your weapon to pick up.|RARE|ACH|14308;4|
+; K Sister Chelicerae|M|54.92,23.25|Z|Maldraxxus|T|Sister Chelicerae|N|WH - Destroy Intricate Webbing to pull mob, doesn't scale.  Hard to solo unless in epic gear.|RARE|ACH|14308;6|
+; K Thread Mistress Leeda|M|24.10,39.49|Z|Maldraxxus|T|Thread Mistress Leeda|N|WH - Coord is entrance, Rare randomly spawns after killing Razorthread Weavers a few times.|ITEM|184180|RARE|ACH|14308;10|
+; K Nerissa Heartless|M|65.76,34.65|Z|Maldraxxus|T|Nerissa Heartless|N|WH - Stands near groups of mob on platform where the two stairs lead to. Clear Trash!|RARE|ACH|14308;16|
+; K Bubbleblood|M|52.11,35.76|Z|Maldraxxus|T|Bubbleblood|N|WH - Moves around the blood pool, Pull carefully, common mobs easy to overpull.|RARE|ACH|14308;18|
+; K Deepscar|M|45.00,44.60|Z|Maldraxxus|T|Deepscar|N|WH - Coords are entrance to tower rare is located in.|ITEM|182191|RARE|ACH|14308;20|
 ; K Necromanitc Anomaly|M|72.72,29.01|Z|Maldraxxus|T|Necromanitc Anomaly|N|WH - Find rare on platform about The House of Rituals area.  Near the "H", southwest a bit.|RARE|ACH|14308;22|
 
 
@@ -176,7 +176,7 @@ C Side Effects|QID|58090|M|53.70,47.88|Z|Maldraxxus|QO|1|N|Buy the Necessary Enc
 C Side Effects|QID|58090|M|53.87,50.53|Z|Maldraxxus|QO|2|CHAT|N|Deliver the Enhancers to Scrapper Minoire.|
 T Side Effects|QID|58090|M|54.14,50.60|Z|Maldraxxus|N|To Overseer Kalvaros.|
 C How to Get a Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|S|
-K Gristlebeak|QID|61991^58837|QO|1|M|57.71,51.57|Z|Maldraxxus|T|Gristlebeak|N|Break Unusual Eggs at marked spot, Silver elite comes down to defend her young.|ITEM|182196|RARE|ACH|14308;18|
+K Gristlebeak|QID|61991^58837|QO|1|M|57.71,51.57|Z|Maldraxxus|T|Gristlebeak|N|Break Unusual Eggs at marked spot, Silver elite comes down to defend her young.|ITEM|182196|RARE|ACH|14308;14|
 $ Strange Growth|QID|59429|M|55.88,38.98|Z|Maldraxxus|N|Pull on the strange growth to find a bit of treasure for you.|ITEM|182607|RANK|2| ; (pulling the vine is QID 59428)
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|S|
 C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Kill Deadeye the giant Bloodtusk.|
@@ -225,7 +225,7 @@ T Bet on Yourself|QID|59826^59827^59828|M|53.58,47.50|Z|Maldraxxus|N|To Au'narim
 A Smack and Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|From Caleesy.|RANK|2|
 A Take the Bull by the Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|RANK|2|
 C Smack and Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|S|
-K Tahonta|QID|61986^58783|QO|1|M|45.04,50.56|Z|Maldraxxus|T|Tahonta|N|Rare wanders around area, fight isn't hard, Avoid pulling other mobs.|ITEM|182190|RARE|ACH|14308;17|
+K Tahonta|QID|61986^58783|QO|1|M|45.04,50.56|Z|Maldraxxus|T|Tahonta|N|Rare wanders around area, fight isn't hard, Avoid pulling other mobs.|ITEM|182190|RARE|ACH|14308;12|
 C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
 C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<1|N|Ride the Tauralus back to Dundae.|
 C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
@@ -277,7 +277,7 @@ R Hall of Chains|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Run down the hill to the
 A Deconstructing the Problem|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Bonus Objective - Autoaccepted.|TOF|O|U|-183987|LVL|-59|
 C Deconstructing the Problem|QID|62721|M|36.60,30.91|Z|Maldraxxus|S!US|N|Don't just kill in one area, keep moving towards the other objectives, this one gets done as you travel through.\n\nKill Hostiles, fleshwardens drop keys, open cages and otherwise disrupt operations.|TOF|
 A Army of One|QID|59616|M|39.78,46.71|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57979|MS|
-K Indomitable Schmitd|QID|58332|QO|1|M|38.88,42.46|Z|Maldraxxus|T|Indomitable Schmitd|N|[color=ff8000]NOTE[/color]Shield buff makes invulnerable to hit, So, clear the area first, then grab one of the small [color=ff8000]Fuseless bombs[/color] When you have a cleared around a few pick one up and throw it at him. He will reshield a few times during the fight, so make sure you know where several are.|RARE|ACH|14308;15|EAB|
+K Indomitable Schmitd|QID|58332|QO|1|M|38.88,42.46|Z|Maldraxxus|T|Indomitable Schmitd|N|[color=ff8000]NOTE[/color]Shield buff makes invulnerable to hit, So, clear the area first, then grab one of the small [color=ff8000]Fuseless bombs[/color] When you have a cleared around a few pick one up and throw it at him. He will reshield a few times during the fight, so make sure you know where several are.|RARE|ACH|14308;8|EAB|
 C Army of One|QID|59616|CS|M|39.68,40.11;36.03,34.96|Z|Maldraxxus|QO|1|NC|N|Meet Secutor Mevix at the House of Constructs. Click on him to continue.|MS|
 C Army of One|QID|59616|M|33.85,31.41|Z|Maldraxxus|QO|2|NC|N|Click on the corpse piles to free yourself.|MS|
 T Army of One|QID|59616|M|33.88,31.10|Z|Maldraxxus|N|To Aspirant Thales.|MS|
@@ -291,14 +291,14 @@ A The Ones in Charge|QID|57984|M|PLAYER|Z|Maldraxxus|N|From Aspirant Thales.|PRE
 C The Ones in Charge|QID|57984|M|35.36,23.13|Z|Maldraxxus|QO|2|N|Kill Tabulator Hymeris.|T|Tabulator Hymeris|MS|
 C The Ones in Charge|QID|57984|M|33.50,22.50|Z|Maldraxxus|QO|1|N|Kill Doctor Hivvil.|T|Doctor Hivvil|MS|
 C The Ones in Charge|QID|57984|M|32.52,22.75|Z|Maldraxxus|QO|3|N|Kill Leacher Cvan.|T|Leacher Cvan|MS|
-$ Kyrian Corpse|QID|60587|M|32.73,21.31|Z|Maldraxxus|U|180085|N|Open the box for a bit of treasure.|ACH|14312;8|
+$ Kyrian Corpse|QID|60587|M|32.73,21.31|Z|Maldraxxus|U|180085|N|Open the box for a bit of treasure.|ACH|14312;2|
 T The Ones in Charge|QID|57984|M|32.00,27.31|Z|Maldraxxus|N|To Secutor Mevix.|MS|
 A Give Them a Hand|QID|57985|M|32.00,27.31|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57984|MS|
 A A Deadly Distraction|QID|57987|M|32.00,27.31|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57984|MS|
 A A Burden Worth Bearing|QID|57986|M|32.08,27.43|Z|Maldraxxus|N|From Aspirant Thales.|PRE|57984|MS|
 C A Deadly Distraction|QID|57987|M|31.04,25.95|Z|Maldraxxus|N|Kill Warstitched forces.|S|MS|
 C Give Them a Hand|QID|57985|M|30.08,27.80|Z|Maldraxxus|U|180120|N|Click on the Vestigial Animate to uproot and kill them.|S|MS|; looks like U not needed  but leaving it as it gives you a longer range
-$ Haily's Lunch Pail|QID|60730|M|30.8,28.76|Z|Maldraxxus|N|Some treasure for you.|ACH|14312;2|
+$ Haily's Lunch Pail|QID|60730|M|30.8,28.76|Z|Maldraxxus|N|Some treasure for you.|ACH|14312;3|
 C A Burden Worth Bearing|QID|57986|M|32.78,28.13|Z|Maldraxxus|QO|1|N|Click the Gurney to get Kyrian Equipment.|MS|
 C A Burden Worth Bearing|QID|57986|M|28.67,28.21|Z|Maldraxxus|QO|2|N|Click on the Lost Kyrian's around the area.|MS|
 C A Burden Worth Bearing|QID|57986|M|30.17,23.84|Z|Maldraxxus|QO|3|N|Bring Kou and Koa to Thales.|MS|
@@ -311,7 +311,7 @@ C Ani-Matter Animator|QID|57245|M|25.87,45.94|Z|Maldraxxus|U|175827|S!US|N|Use t
 ;A Bring Me Their Heads|QID|57278|M|PLAYER|Z|Maldraxxus|IZ|Ossein Foundry|N|From Stubborn Animate. Don't worry if you didn't have time to accept all quests, you will get another chance on the next Stubborn Animate you find.|ACTIVE|57245|
 C Blade of Blades|QID|57284|M|PLAYER|Z|Maldraxxus|S|NC|N|Pick up forgotten blades lying around.|ACTIVE|57245|
 C Bring Me Their Heads|QID|57278|M|31.27,45.27|Z|Maldraxxus|N|The Violent Animates have the best drop rate and can be found in the northwest part of the quest area.|ACTIVE|57245|
-K Zargox the Reborn|PRE|57245|M|28.95,51.33|Z|Maldraxxus|T|Zargox the Reborn|N|Ask Synder for Ani-Matter Orb, go to the bone at these coord.\nUse orb on pile of bones in center of platform.|RARE|ACH|14308;2|U|175827|LVL|60|
+K Zargox the Reborn|PRE|57245|M|28.95,51.33|Z|Maldraxxus|T|Zargox the Reborn|N|Ask Synder for Ani-Matter Orb, go to the bone at these coord.\nUse orb on pile of bones in center of platform.|RARE|ACH|14308;3|U|175827|LVL|60|
 C Blade of Blades|QID|57284|M|31.27,45.27|Z|Maldraxxus|US|NC|N|Keep picking up swords from the ground until you find the right one.|
 T Blade of Blades|QID|57284|M|26.28,43.13|Z|Maldraxxus|N|To Stubborn Animate.|
 T Bring Me Their Heads|QID|57278|M|26.28,43.13|Z|Maldraxxus|N|To Stubborn Animate.|
@@ -373,14 +373,14 @@ A Archival Protection|QID|60900|M|41.83,23.61|Z|Maldraxxus|N|From Ta'eran.|PRE|5
 C Archival Protection|QID|60900|M|42.26,24.11|Z|Maldraxxus|N|Continue up the stairs to find and kill The Archivist.|T|The Archivist|
 T Archival Protection|QID|60900|M|PLAYER|Z|Maldraxxus|N|To Ta'ern.|
 A Trust Fall|QID|59994|M|PLAYER|Z|Maldraxxus|N|From Ta'eran.|PRE|60900|
-$ The Necronom-i-nom|QID|61470|M|42.35,23.34|Z|Maldraxxus|N|More treasure for you in a bookcase near The Archivist.|ITEM|182732|RANK|2|ACH|14312;10|
+$ The Necronom-i-nom|QID|61470|M|42.35,23.34|Z|Maldraxxus|N|More treasure for you in a bookcase near The Archivist.|ITEM|182732|RANK|2|ACH|14312;6|
 C Trust Fall|QID|59994|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Jump out of the tower.|
 C Trust Fall|QID|59994|M|45.49,32.09|QO|2|Z|Maldraxxus|NC|N|Click the floating book behind you.|
 T Trust Fall|QID|59994|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
 A A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|From Ta'eran.|PRE|59994|RANK|2|
 C A Complete Set|QID|58623|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Click on the books around in the shelves.|
 C A Complete Set|QID|58623|M|42.14,23.30|QO|2|Z|Maldraxxus|NC|N|Click on the pages flying around the room.|
-T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|ACH|14799;3|
+T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|ACH|14799;2|
 R Spider's Watch|QID|1|ACTIVE|60733|CS|M|40.51,32.84;37.56,29.21|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run back to Spidar's Watch.|
 F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|Z|Maldraxxus|N|Fly back to Bleak Redoubt.|MS|
 
@@ -407,7 +407,7 @@ A Bug Bites|QID|58011|M|56.43,57.31|Z|Maldraxxus|N|From Plague Deviser Marileth.
 A Spores Galore|QID|58016|M|56.43,57.31|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|59130|MS|
 C Spores Galore|QID|58016|M|53.65,56.87|Z|Maldraxxus|NC|N|Click the Stringy Spores and walk away to uproot them.|S|MS|
 C Bug Bites|QID|58011|M|52.39,59.79|Z|Maldraxxus|N|Kill the Virulent Pests and loot their Bloated Venom Sacs.|MS|
-K Pesticide|QID|58875^61992|QO|1|M|54.16,60.73|Z|Maldraxxus|T|Pesticide|N|Silver elite. Avoid burrow attacks.|ITEM|182205|RARE|ACH|14308;10|
+K Pesticide|QID|58875^61992|QO|1|M|54.16,60.73|Z|Maldraxxus|T|Pesticide|N|Silver elite. Avoid burrow attacks.|ITEM|182205|RARE|ACH|14308;19|
 C Spores Galore|QID|58016|M|53.65,56.87|Z|Maldraxxus|NC|N|Click the Stringy Spores and walk away to uproot them.|US|MS|
 T Bug Bites|QID|58011|M|56.42,57.29|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 T Spores Galore|QID|58016|M|56.42,57.29|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
@@ -450,7 +450,7 @@ K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<1|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
 K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill the Burning Extracts, Colossal Goo or Prodigious Animates, once it dies there will sometimes be a 2nd corpse, that you click on to collect the oil, ooze or goo.|BUFF|306636^306606^306630|
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<2|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
-$ Vat of Conspicuous Slime|QID|61444|M|59.88,79.00|Z|Maldraxxus|N|Pick up "Empty Plague Bottle" from table, then click on the vat for treasure.|ACH|14312;9|ITEM|181825|
+$ Vat of Conspicuous Slime|QID|61444|M|59.88,79.00|Z|Maldraxxus|N|Pick up "Empty Plague Bottle" from table, then click on the vat for treasure.|ACH|14312;4|ITEM|181825|
 C By Any Other Name|QID|59223|M|57.96,80.41|Z|Maldraxxus|QO|1|N|Kill the Blossoming Dreadshade and loot its Extract.|MS|
 K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill the Burning Extracts, Colossal Goo or Prodigious Animates, once it dies there will sometimes be a 2nd corpse, that you click on to collect the oil, ooze or goo.|BUFF|306636^306606^306630|
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<3|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
@@ -463,11 +463,11 @@ C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|3|NC|N|Click on the
 T Fit For a Margrave|QID|60831|M|60.50,71.60|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 A Fathomless Power|QID|59231|M|60.50,71.60|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|60831|MS|
 A Plaguefall: Knee Deep In It|QID|59520|M|59.39,72.95|Z|Maldraxxus|ELITE|N|[color=e6cc80]Dungeon: Plaguefall[/color]\nFrom Vial Master Lurgy. This quest is optional and out of scope for this guide.|RANK|2|
-K Scunner|M|61.41,76.25|Z|Maldraxxus|T|Scunner|N|WH - Mob is a mess, Ton of HP and what it's worth and aura the reduces haste to the groun, Bring Group with Bloodlust/Heroism|RARE|ACH|14308;12|LVL|60|
-$ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus|N|Get a Mask from Pandemis.|BUFF|338920|ACH|14312;13|LVL|60|
-$ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|;330069<10|ACH|14312;13|LVL|60|
-$ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|ACH|14312;13|LVL|60|;currently bugged grate doesnt show
-$ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus|N|And, the Treasure is along the top of the wall in a chest.|ACH|14312;13|LVL|60|
+K Scunner|M|61.41,76.25|Z|Maldraxxus|T|Scunner|N|WH - Mob is a mess, Ton of HP and what it's worth and aura the reduces haste to the groun, Bring Group with Bloodlust/Heroism|RARE|ACH|14308;2|LVL|60|
+$ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus|N|Get a Mask from Pandemis.|BUFF|338920|ACH|14312;12|LVL|60|
+$ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|;330069<10|ACH|14312;12|LVL|60|
+$ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|ACH|14312;12|LVL|60|;currently bugged-treasure icon shows, but grate doesnt show pre 60
+$ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus|N|And, the Treasure is along the top of the wall in a chest.|ACH|14312;12|LVL|60|
 F Bleak Redoubt|ACTIVE|59231|M|58.02,72.37|Z|Maldraxxus|N|At Vradfira Livid.|
 C Fathomless Power|QID|59231|M|50.40,67.75|Z|Maldraxxus|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Inisght.|EAB|MS|
 T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
@@ -475,7 +475,7 @@ T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
 ; Matron of Spies Storyline
 R Renounced Bastille|ACTIVE|58751|CS|M|54.79,65.53;59.70,60.58;67.90,51.58|Z|Maldraxxus|N|Through Bleak Redoubt, Blighted Scar and Glutharn's Decay, following roads generally northwest.|
 R Glutharn's Decay|AVAILABLE|62743|CS|M|54.79,65.53;59.70,60.58;67.90,51.58|Z|Maldraxxus|N|Through Bleak Redoubt, Blighted Scar and Glutharn's Decay, following roads generally northwest.|RANK|2|TOF|
-; $ Misplaced Supplies|M|62.4,59.9|Z|Maldraxxus|N|WH - On top of mushroom. Climb hill, turn left, Jump to mushroom, Turn right, Jump to hill, Turn right and climb hill once more to the edge, walk onto mushroom.|ACH|14312;5|;leaving commented out, because treasure icon was not present on level 58. I did see it in beta pre 60.
+; $ Misplaced Supplies|M|62.4,59.9|Z|Maldraxxus|N|WH - On top of mushroom. Climb hill, turn left, Jump to mushroom, Turn right, Jump to hill, Turn right and climb hill once more to the edge, walk onto mushroom.|ACH|14312;9|;leaving commented out, because treasure icon was not present on level 58. I did see it in beta pre 60.
 A Decaying Situation|QID|62743|M|65.62,48.32|Z|Maldraxxus|N|Bonus Objective-Autoaccepted.|RANK|2|TOF|LVL|-59|
 C Decaying Situation|QID|62743|M|65.62,48.32|Z|Maldraxxus|S!US|N|Kill Hostiles, destroy the Bone Stakes tethering the Necroray's.|TOF|LVL|-59|
 f Renounced Bastille|ACTIVE|58751|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|
@@ -483,8 +483,8 @@ C A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|CHAT|N|Deliver the summons
 T A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A Glorious Pursuits|QID|58821|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
 A Prey Upon Them|QID|59171|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
-;$ Stolen Jar|QID|61451|M|66.08,50.10|Z|Maldraxxus|N|In this cave for some treasure.|ITEM|182618|ACH|14312;3|
-A ...Why Me?|QID|62085|M|66.16,50.44|Z|Maldraxxus|N|From Stolen Jar in ground level cave. There is a cave practically on top of this one. May not be there due to respawn timer.|RANK|2|ITEM|182618|ACH|14312;3|;$
+;$ Stolen Jar|QID|61451|M|66.08,50.10|Z|Maldraxxus|N|In this cave for some treasure.|ITEM|182618|ACH|14312;5|
+A ...Why Me?|QID|62085|M|66.16,50.44|Z|Maldraxxus|N|From Stolen Jar in ground level cave. There is a cave practically on top of this one. May not be there due to respawn timer.|RANK|2|ITEM|182618|ACH|14312;5|;$
 C Glorious Pursuits|QID|58821|M|62.75,52.52|Z|Maldraxxus|QO|1|U|178940|N|Attack Mephiles the Loyal until he is under 50% then use Vashj's Signal to capture it.|MS|
 C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Kill the Morbid Disciples|S|MS|
 C Prey Upon Them|QID|59171|M|61.97,51.91|Z|Maldraxxus|NC|QO|1<1|N|Click on the Anima-charged Maldracite to collect it.|MS|
@@ -506,9 +506,9 @@ C Tainted Cores|QID|59210|M|67.46,45.99|Z|Maldraxxus|QO|1|NC|N|Click on the Depl
 C Entangling Web|QID|59185|M|71.07,53.23|Z|Maldraxxus|QO|1|NC|N|Click the Jars of Ground Maldracite that are scatterd around to collect the dust.|S|MS|
 C Tainted Cores|QID|59210|M|72.18,49.92|Z|Maldraxxus|QO|2|U|175409|N|Kill Ritualists and then use the Fractured Anima Crystal to drain their Anima.|S|MS|
 C Vaunted Vengeance|QID|59188|M|72.16,47.94|Z|Maldraxxus|QO|1|N|Kill Architect Xeeli and loot his Ritual Drafts.|MS|
-; $ Glutharn's Stash|M|72.8,53.6|Z|Maldraxxus|N|Inside cave, at base of/through waterfall, Kill Scathely and his 2 adds to unlock treasure.|ACH|14312;12|;leaving commented out because seems to be lvl 60. killed Scathely and his minions twice. no icon. no treasure at level 58. directly below Architect Lye
+; $ Glutharn's Stash|M|72.8,53.6|Z|Maldraxxus|N|Inside cave, at base of/through waterfall, Kill Scathely and his 2 adds to unlock treasure.|ACH|14312;10|;leaving commented out because seems to be lvl 60. killed Scathely and his minions twice. no icon. no treasure at level 58. directly below Architect Lye
 C Vaunted Vengeance|QID|59188|M|72.77,52.60|Z|Maldraxxus|QO|3|N|Kill Architect Lye and loot his Ritual Drafts. He is above, not inside the cave.|MS|
-K Deadly Dapperling|QID|58868^61989|QO|1|M|76.13,56.25|Z|Maldraxxus|T|Deadly Dapperling|N|up the hill for a silver elite mushroom - Wanders Southeast part of Glutharn's Decay area.|ITEM|181263|RARE|ACH|14308;9|
+K Deadly Dapperling|QID|58868^61989|QO|1|M|76.13,56.25|Z|Maldraxxus|T|Deadly Dapperling|N|up the hill for a silver elite mushroom - Wanders Southeast part of Glutharn's Decay area.|ITEM|181263|RARE|ACH|14308;17|
 C Vaunted Vengeance|QID|59188|M|69.53,52.50|Z|Maldraxxus|QO|2|N|Kill Architect Halen and loot his Ritual Drafts.|MS|
 C Tainted Cores|QID|59210|M|72.18,49.92|Z|Maldraxxus|QO|2|U|175409|NC|N|Kill Ritualists and then use the Fractured Anima Crystal to drain their Anima.|US|MS|
 C Entangling Web|QID|59185|M|71.07,53.23|Z|Maldraxxus|QO|1|N|Click the Jars of Ground Maldracite that are scatterd around to collect the dust.|US|MS|
