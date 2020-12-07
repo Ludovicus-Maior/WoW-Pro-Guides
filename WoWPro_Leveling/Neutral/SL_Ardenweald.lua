@@ -566,7 +566,7 @@ T Awaken the Dreamer|QID|58721|M|45.2,63|Z|Ardenweald!The Shadowlands|N|To Winte
 A The Court of Winter|QID|58723|M|45.27,63.14|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|PRE|58721|MS|
 C The Court of Winter|QID|58723|M|45.27,63.14|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Deliver Primus's Message.|MS|
 
-R Garden of Night|QID|61126^61074|M|38.85,60.10|Z|Ardenweald!The Shadowlands|N|The next few treasure steps are done in a level 60 area, check them off manually if you aren't comfortable there, results in cool mount.|ACH|14313;9|ITEM|180731|TZ|Garden of Night|; $ I was able to pick up all the pieces, combine and talk to twinklestar pre 60 --all but obtain the mount, i assume because I already had the mount learned 
+R Garden of Night|QID|61126^61074|M|38.85,60.10|Z|Ardenweald!The Shadowlands|N|The next few treasure steps are done in a level 60 area, check them off manually if you aren't comfortable there, results in cool mount.|ACH|14313;9|ITEM|180731|TZ|Garden of Night|; $ I was able to pick up all the pieces, combine and talk to twinklestar pre 60 --all but obtain the mount, i assume because I already had the mount learned
 $ Gardener's Wand|QID|61126^61074|M|38.85,60.10|Z|Ardenweald!The Shadowlands|L|180757|N|Pick up Gardener's Wand under the cart, between the wheels.|ACH|14313;9|IZ|Garden of Night|
 $ Gardener's Flute|QID|61126^61074|M|38.49,58.08|Z|Ardenweald!The Shadowlands|L|180756|N|Pick up Gardener's Flute where some spriggans are dancing.|ACH|14313;9|IZ|Garden of Night|
 $ Gardener's Hammer|QID|61126^61074|M|39.75,54.40|Z|Ardenweald!The Shadowlands|L|180754|N|Pick up Gardener's Hammer inside the cart.|ACH|14313;9|IZ|Garden of Night|
