@@ -197,19 +197,23 @@
 -- Who: Ludovicus_Maior
 
 local guide = WoWPro:RegisterGuide("EmmTillers",'Dailies', "Valley of the Four Winds", "Emmaleah", "Neutral")
-WoWPro:GuideLevels(guide,81,90,81.3382)
+WoWPro:GuideLevels(guide,15,50)
+WoWPro:GuideNickname(guide, "The Tillers")
+WoWPro:GuideName(guide,"The Tillers")
 WoWPro.Dailies:GuideFaction(guide,1272) -- "Tillers"
 WoWPro:GuideIcon(guide,"ACH",6522)
+WoWPro:GuideNextGuide(guide, 'Valley of the Four Winds')
 WoWPro:GuideSteps(guide, function()
-
 return [[
 
-N Pick up any Dark Soil you find|QID|30535|N|When you are flying about doing your dailies (not just these dailies) keep an eye out for Dark Soil. It contains a lost treasure to turn in for rep with the various friends around the farm.|
-N Favorite Treasures/food|QID|30535|N|Each Friend has a favorite lost treasure that you can give them as many as you can find daily and food that you can give them once per day. If you can't remember which food they like, you can mouseover the friend rep bar (in the gossip pane) to be reminded. I have also tried to note which lost item they prefer for most interactions with the friends.|
-N Not so favorite Treasures|QID|30535|N|They will accept any of the lost treasures for about half the faction of their favorite item. So, unless you are maxed out with the friends who want a particular item, its much better to give it to the friends who prefer it.|
-N Available Quests|QID|30535|N|Because quests are given at various factions, you can accept a quest whenever you see it, whether or not the guide tells you to... Except the daily turn in of lost items as discussed above. (Those will be designated by a blue "?" instead of a blue "!").|
-N Non daily quests|QID|30535|N|Most of the friends also offer various one time quests based on your faction with them. Unless you are turning in lots of treasures (from dark soil) there is no need to finish the one time quests the day you get them. Growing the Farm quests, you probably want to do right away to have more farming plots.|
-N Cooking|QID|30535|N|The favorite meals for the various friends requires cooking 525 or 550. You can buy the food in the AH or make it yourself. If you choose to make it, by the time you are done you will have gotten to 575 cooking in all the ways.This guide doesn't discuss how to skill up in cooking.|
+N Dark Soil|QID|30535|N|While you're flying about doing your dailies, (not just these dailies) keep an eye out for Dark Soil. It contains a Lost Treasure you can turn in for "Friendship" Rep with the various friends around the farm.|
+N Lost Treasure|QID|30535|N|There are 5 Lost treasures: Blue Feather, Jade Cat, Marsh Lily' Ruby Shard, and Lovely Apple. Each friend has a favorite Lost Treasure that you can give to them with no daily limit (900 Friendship per item). All of the friends will accept non-favorite Lost Treasure for a lesser amount (540 Friendship). So, unless you are maxed out with the friend who prefers that specific item, it's much better to give it to the friend who prefers it.\nI've tried to note which Lost Treasure they prefer for most interactions with the friends.\nEvery Lost Treasure has 2 friends that prefer it; but, only 1 Lost Treasure is preferred by each friend.|
+N Favorite Food|QID|30535|N|Each friend has a favorite food that you can only give to them once per day (1,800 Friendship).\nIf you can't remember which food they like, you can mouseover the friend rep bar (in the gossip pane) to be reminded.\nIt's probably a good idea to keep an eye on your Friendship level as you hand them in.|
+N Available Quests|QID|30535|N|Because quests are given at various Friendship levels and Tiller Rep levels, you can accept a quest whenever you see it; whether or not the guide tells you to (Except the daily turn in of Lost Treasure as discussed earlier). Those will be designated by a blue "?" instead of a blue "!".|
+N One-time Quests|QID|30535|N|Most of the friends offer various, one-time quests based on your Friendship level with them (Stranger/Acquaintance/Buddy/Friend/Good Friend/Best Friend). There is no immediate need to finish the quests; unless you're turning in lots of Dark Soil treasures. If that's the case, turn in the quest first before doing the treasures.\nYou'll probably want to keep an eye on your Friendship levels as you do your turn-ins to avoid wasting Friendship ("U" key by default).|
+N Farming|QID|30535|N|You'll probably want to do the "Growing the Farm" quests right away to unlock more farming plots.|
+N Cooking|AVAILABLE|31311|N|The favorite meals for the various friends require Pandaren Cuisine (The Way of...) lv 25. If you plan on cooking the food yourself, you'll need to know the recipes. The Pandarian Cooking guide will get you these recipes.|JUMP|Pandaren Cooking|
+N Pandaren Cooking guide|QID|30535|N|Go to the Pandaren Cooking guide to learn the required recipes.|
 N RANK|QID|30257|N|Do the guide on Rank 2 if you want to skip the share food with the friends quests, Set to Rank 1 if you also want to skip the cooking quests.|
 N Quick Method|QID|30527|N|Shortest time to exalted. If you have the bonus faction commendation on your account, you can get to exalted very quickly. The main limiting thing is the quests that require you to plant, harvest and deliver produce to obtain the votes. If you plant the item(s) in advance of receiving the quest, you can then harvest after you have the quest and then replant for the quest credit. (After replanting you can dig up and plant something else). Preplanting before you have the quest shaves a day off for each one (i.e. 4 days)off of the time it takes to get to exalted. You will also need to gain about 2K extra faction beyond the quests to finish in 4 days. If you are >= level 90, this can be from a random Pandaria dungeon or scenario while *championing* the Tillers faction. If you are >=level 90 you 100 from each harvest, but also need to purchasing commendations from Mistweaver Xia on Timeless Isle (50 timewarped badges/300 faction) or an extra day or two of dailies.|REP|The Tillers;1272;Neutral;bonus|
 N Championing|QID|30527|N|To champion a faction in Pandaria, you click on the star to the left of the reputation's name in your character's reputation panel.  Then the first random Pandaria dungeon and/or scenario you do each day will yield you bonus rep with that faction.|
@@ -400,7 +404,7 @@ A A Dish for Haohan|QID|30414|M|44.6,34.1|REP|Haohan Mudclaw;1279;Stranger-Good 
 C Talk to Haohan|QID|31534|CHAT|QO|1|M|45,34|N|In the market or at his farm (where the green dot is).|
 A Mung-Mung's Vote II: Rotten to the Core|QID|30259|PRE|30258|M|44.17,34.21|N|From Mung-Mung.|
 T Mung-Mung's Vote I: A Hozen's Problem|QID|30258|M|44.17,34.21|N|To Mung-Mung.|
-C Mung-Mung's Vote II: Rotten to the Core|QID|30259|M|42.49,39.99|NC|N|Pick up sparkly carrot bits, avoiding or killing virmin as you go.|
+C Mung-Mung's Vote II: Rotten to the Core|QID|30259|M|42.49,39.99|NC|N|Pick up sparkly carrot bits, avoiding or killing Vermin as you go.|
 T Mung-Mung's Vote II: Rotten to the Core|QID|30259|M|44.14,34.27|N|To Mung-Mung.|
 A Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|PRE|30259|M|44.14,34.27|N|From Mung-Mung.|
 t Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|44.17,34.21|N|This can't be completed or turned in until the next day. If Mung-Mung is not at the market he will be back at the Mudclaw Farm, (where the green dot is.)|
@@ -449,9 +453,9 @@ C Spicy Shrimp Dumplings|QID|30474|M|31.4,34|S|N|This can be a ground spawn or d
 C Authentic Valley Stir Fry|QID|30471|M|31.93,23.50|S|N|This can be a ground spawn or drop from the mobs.|
 C Yak Statuette|QID|30473|M|34,24|S|N|This can be a ground spawn or drop from the mobs.|
 C Cindergut Peppers|QID|30329|M|30,34|S|N|Drops off of the kunzen mobs you are killing anyway.|
-C Yu-Ping Soup|QID|30472|M|29.7,34.4|S|NC|N|This is the cauldren in the middle of the kunzen ritual.|
+C Yu-Ping Soup|QID|30472|M|29.7,34.4|S|NC|N|This is the cauldron in the middle of the kunzen ritual.|
 C Where It Counts|QID|30325|M|29.7,34.4|N|The candles and ash are ground spawns, the Ritualist is here also, Avoid the fire.|
-C Yu-Ping Soup|QID|30472|M|29.7,34.4|US|N|This is the cauldren in the middle of the kunzen ritual.|
+C Yu-Ping Soup|QID|30472|M|29.7,34.4|US|N|This is the cauldron in the middle of the kunzen ritual.|
 C Stealing is Bad... Re-Stealing is OK|QID|30334|M|32.33,26.28|NC|S|N|Veggies are ground spawn near the huts and under bushes.|
 C Not in Chee-Chee's Backyard|QID|30324|S|M|31.01,28.27|
 C Simian Sabotage|QID|30337|QO|1|M|30.4,28.2|U|79885|NC|N|Use the provided item here.|
@@ -468,11 +472,11 @@ C Yak Statuette|QID|30473|M|34,24|US|N|This can be a ground spawn or drop from t
 C Spicy Shrimp Dumplings|QID|30474|M|31.4,34|US|N|This can be a ground spawn or drop from the mobs.|
 C Stealing is Bad... Re-Stealing is OK|QID|30334|M|32.33,26.28|NC|S|N|Veggies are ground spawn near the huts and under bushes.|
 
-;do quests - virmin area
+;do quests -Ve area
 C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|CN|S|N|Random drops while killing the other mobs for your other quests.|
 C Uncut Chrysoberyl|QID|30470|M|39,20;44,22;47,21|CN|NC|S|N|This is a smallish rock in any of the 3 virmen caves (and just outside them.) It can appear in several colors. It respawns at a new spot everytime someone loots it.|
 C The Thousand-Year Dumpling|QID|30328|M|39,20;44,22;47,21|CN|S|NC|N|Pick up the jars located in the 3 virmen caves.|;Yan Ironpaw.|
-C Mission: Culling The Vermin|QID|31529|M|39,20;44,22;47,21|CN|S|N|Do this while you are doing the other quests in the virmin area.|
+C Mission: Culling The Vermin|QID|31529|M|39,20;44,22;47,21|CN|S|N|Do this while you are doing the other quests in theVe area.|
 C Haohan's Vote III: Pure Poison|QID|30525|S|QO|4|M|44.4,22|N|Found in the grassy areas near the cave entrances.|
 C Haohan's Vote III: Pure Poison|QID|30525|QO|3|M|44.2,21.3|N|Found inside vermin caves.|
 C Haohan's Vote III: Pure Poison|QID|30525|QO|2|M|48.4,18.4|N|Found inside vermin caves.|
@@ -482,9 +486,9 @@ C Haohan's Vote III: Pure Poison|QID|30525|US|QO|4|M|44.4,22|N|Found in the gras
 C Uncut Chrysoberyl|QID|30470|M|39,20;44,22;47,21|NC|CN|US|N|This is a smallish rock in the 3 virmen caves (and just outside them.) It can appear in several colors. It respawns at a new spot everytime someone loots it.|
 C The Thousand-Year Dumpling|QID|30328|M|39,20;44,22;47,21|CN|US|NC|N|Pick up the jars located in the 3 virmen caves.|;Yan Ironpaw.|
 C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|CN|US|N|Random drops while killing the other mobs for your other quests.|
-C Mission: Culling The Vermin|QID|31529|M|39,20;44,22;47,21|CN|US|N|Do this while you are doing the other quests in the virmin area.|
-C Mission: Aerial Threat|QID|31531|M|45,16|N|These are the birds that are yellow (non agro).|
-C Mission: Predator of the Cliffs|QID|31532|M|46.4,16.4|N|This bird is in a nest near the virmin caves.|
+C Mission: Culling The Vermin|QID|31529|M|39,20;44,22;47,21|CN|US|N|Do this while you are doing the other quests in theVe area.|
+C Mission: Aerial Threat|QID|31531|M|45,16|N|These are the birds that are yellow (non-aggro).|
+C Mission: Predator of the Cliffs|QID|31532|M|46.4,16.4|N|This bird is in a nest near theVe caves.|
 C Nana's Vote II: The Sacred Springs|QID|31948|U|89902|M|56,21|N|If you are careful (and land far enough away), you don't have to kill the guardian, Fill your pitcher. If you die here, you have to rez at the angel and try again.|
 
 ;Sho's one time quests|REP|1278
@@ -558,7 +562,7 @@ U Grand Commendation|PRE|30516|REP|The Tillers;1272;revered;nobonus|U|93226|N|Cl
 A Growing the Farm II: The Broken Wagon|QID|30523|REP|The Tillers;1272;revered|M|52.20,48.86|N|From Farmer Yoon.|
 T Growing the Farm II: The Broken Wagon|QID|30523|M|41.6,30|N|To Fish Fellreed. If she is not here, she is at the market in Halfhill.|
 A Growing the Farm II: Knock on Wood|QID|30524|PRE|30523|M|41.6,30|N|From Fish Fellreed. If she is not here, she is at the market in Halfhill.|
-C Growing the Farm II: Knock on Wood|QID|30524|M|43,29|N|The planks of wood are in the water surrounded by agro crabs. Be careful.|
+C Growing the Farm II: Knock on Wood|QID|30524|M|43,29|N|The planks of wood are in the water surrounded by aggro crabs. Be careful.|
 T Growing the Farm II: Knock on Wood|QID|30524|M|41.6,30|N|To Fish Fellreed. If she is not here, she is at the market in Halfhill.|
 N Growing the Farm II|AVAILABLE|30533|M|51.71,47.82|N|Check in with Fish at the farm to start a 15 minute timer (buff) for her to finish fixing the wagon, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|BUFF|114483|
 
@@ -628,11 +632,11 @@ T "Thunder King" Pest Repellers|QID|31937|M|52.20,48.86|N|To Farmer Yoon who ins
 ;BUY THE PLOW
 B The "Earth-Slasher" Master Plow|LEAD|31938|M|53.2,51.8|L|89814|N|Buy from Gina Mudclaw. Much faster as you can plow 4 plots with one click. Not available until after the weeds are removed (so, in 15 minutes, if Thundar just started.)|PRE|30574|
 A The "Earth-Slasher" Master Plow|QID|31938|U|89814|O|N|From the item you just bought.|PRE|30574|
-T The "Earth-Slasher" Master Plow|QID|31938|M|52.20,48.86|N|To Farmer Yoon who installs it for you. This is unfortuantly an item that you will have to pick up and use from your inventory.|
+T The "Earth-Slasher" Master Plow|QID|31938|M|52.20,48.86|N|To Farmer Yoon who installs it for you. This is unfortunately an item that you will have to pick up and use from your inventory.|
 
 ;Jogu's one time chain|REP|1273
 A Buy A Fish A Drink?|QID|31320|REP|Jogu;1273;Acquaintance|M|53.6,52.4|N|From Jogu the Drunk.|;8400rep
-B Buy Four Winds Soju|ACTIVE|31320|L|81407|M|54.96,50.47|N|Buy from Den Den the bartender in the The Lazy Turnip Inn|
+B Buy Four Winds Soju|ACTIVE|31320|L|81407|M|54.96,50.47|N|Buy from Den Den the Bartender in the The Lazy Turnip Inn|
 t Buy A Fish A Drink?|QID|31320|M|53.6,52.4|N|To Jogu the Drunk.|
 A Buy A Fish A Round?|QID|31321|REP|Jogu;1273;Buddy|M|53.6,52.4|N|From Jogu the Drunk.|PRE|31320|;16800 rep
 B Buy Plum Wine|ACTIVE|31321|L|81415 5|M|54.96,50.47|N|Buy from Den Den the bartender in the The Lazy Turnip Inn|
@@ -646,7 +650,7 @@ t Buy A Fish A Brewery?|QID|31323|M|53.6,52.4|N|To Jogu the Drunk.|
 
 ;an extra hand - totally wortless quest...
 A A Second Hand|QID|30534|M|52,49|N|From Tillers Shrine.|PRE|30574|ACH|6551;;true|
-C A Second Hand|QID|30534|NC|N|The only advantage to which friend to pick is so that you don't have to walk as far to see Gina (quartermaster) or Jogu (crop predictions-which incidently are now free since you are exalted). So take you pick.|
+C A Second Hand|QID|30534|NC|N|The only advantage to which friend to pick is so that you don't have to walk as far to see Gina (quartermaster) or Jogu (crop predictions - which incidentally are now free since you are exalted). So take you pick.|
 T A Second Hand|QID|30534|M|52,49|N|To Tillers Shrine.|
 
 ;Fish's one time chain - requires exalted with tillers and best friend status with all the farmers (ie ach 6552 Friends on the Farm)
@@ -669,7 +673,7 @@ T The Heartland Legacy|QID|31315|N|To Seedkeeper Shing Sing, inside a cave in Ha
 
 ; you bought the farm
 A Inherit the Earth|QID|32682|REP|The Tillers;1272;exalted|M|54.67,47.04|N|From Nana Mudclaw. This will give you access to Farmer Yoon's new dailies.|PRE|30574|
-C Inherit the Earth|QID|32682|M|52.25,48.79|CHAT|N|To Farmer Yoon, Ask him to join the council.|
+C Inherit the Earth|QID|32682|M|52.25,48.79|N|Ask Farmer Yoon to join the council.|CHAT|
 T Inherit the Earth|QID|32682|M|54.67,47.04|N|To Nana Mudclaw. New dailies are from a post where he used to be, and now Yoon is in the Marketplace.|
 
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
