@@ -14,7 +14,7 @@ N Nagrand|AVAILABLE|34653^36951|N|The Nagrand quests require level 98 and you ar
 N Use of Rank Setting|AVAILABLE|34653^36951|N|Setting the guide to the minimum rank (1) allows you to only do what it takes to get your garrison outpost assemply notes and pinchwistle gearworks for the salvage yard blueprints. Rank 2 includes just about everything else, and rank 3 includes a couple of rather out of the way quests and all the rares and followers that are tucked in out of the way places.|
 T News from Spires of Arak|QID|35554|M|37.8,36.8|Z|Lunarfall|FACTION|Alliance|N|To Broderik Grey.|
 A Arakkoa Exodus|QID|34653^36951|PRE||M|37.8,36.8|Z|Lunarfall|FACTION|Alliance|N|From Broderik Grey in your garrison or from the Adventurer's Guide if you did not do the lead-in quest.|;PRE no longer required. Empty tag for Grail integration.
-A Hero's Call: Spires of Arak!|QID|49556|M|43,54|Z|Lunarfall|FACTION|Alliance|N|From Hero's Call board|LEAD|34653|;guess for coordinates - please update
+A Hero's Call: Spires of Arak!|QID|49566|M|43,54|Z|Lunarfall|FACTION|Alliance|N|From Hero's Call board|LEAD|34653|;guess for coordinates - please update
 F Spires of Arak|ACTIVE|34653^36951|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|FLY|WOD|
 T News from Spires of Arak|QID|35537|M|45.93,42.86|Z|Frostwall|N|To Rokhan.|FACTION|Horde|
 A Arakkoa Exodus|QID|34653|PRE|35537|M|45.93,42.86|Z|Frostwall|N|From Rokhan.|LEAD|34655|FACTION|Horde|
