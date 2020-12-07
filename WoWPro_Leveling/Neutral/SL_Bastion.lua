@@ -247,7 +247,7 @@ T Step Back From That Ledge, My Friend|QID|57717|M|59.31,77.05|Z|Bastion!The Sha
 A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 A The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|Cleanse the Temple by killing all the hostile mobs and rescuing the terrified stewards.|S|MS|
-A An Inspired Moral Inventory|QID|57444|M|61.13,74.42|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|RANK|2| ; needs to be moved upwards..
+A An Inspired Moral Inventory|QID|57444|M|57.97,75.87|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|RANK|2| ; needs to be moved upwards..
 A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion!The Shadowlands|N|From The Scroll in front of the Vespar of Harmony.|PRE|57717|MS|
 C An Inspired Moral Inventory|QID|57444|M|57.98,75.81|Z|Bastion!The Shadowlands|T|Forsworn Ascended|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Find the scrolls around the area.|S|MS|
