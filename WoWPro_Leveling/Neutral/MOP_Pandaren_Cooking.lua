@@ -4,7 +4,28 @@ WoWPro:GuideLevels(guide,1, 60)
 WoWPro:GuideNextGuide(guide, 'Valley of the Four Winds')
 WoWPro:GuideSteps(guide, function()
 return [[
+N Scope of this Guide|QID|31311^31470^31472^31475^31478^31479|N|The purpose of this guide is to get you through the initial quests and to level 25 in each of the Ways of Pandaren Cuisine.\nWhen you've completed this guide, you will be able to cook all of the favorite meals for the friends and you will know how to farm the ingredients to make them.|
 N "Farming" for ingredients|QID|31311^31470^31472^31475^31478^31479|N|This guide requires that you either collect the items (fish, loot, etc.) or acquire them through other means (AH, mail, etc.).|
+N Fishing|QID|31311^31470^31472^31475^31478^31479|N|If you plan on collecting the Giant Mantis and Jade Lungfish yourself, you'll need to learn the Fishing skill.\nThe following is a simple quest chain that gives a little xp while you learn it.|P|Fishing;356;4+0|
+; -- Fishing quest in case they don't have fishing yet
+A You Want Fish?|AVAILABLE|32684|M|53.58,51.22|N|From Sungshin Ironpaw.|P|Fishing;356;4+0|
+T You Want Fish?|QID|32684|M|58.92,46.92|N|To Ben of the Booming Voice down by the shore of the Gilding Stream.|
+A No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|From Ben of the Booming Voice.\nThis quest is meant to show you can fish without a pole.|PRE|32684|
+C Learn Fishing Skill|ACTIVE|32685|M|58.92,46.92|N|Learn the fishing skill from Ben of the Booming Voice.|P|Fishing;356;4+0|
+C Go Fish|QID|32685|L|74866 5|N|To fish, simply click the Fishing icon and pay attention to the bobber. Hover over the bobber and click on it when it moves.\n[color=FF0000]NOTE: [/color]Drag the Fishing icon from your Profession Book to one of your bars for easier access.|
+T No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|To Ben of the Booming Voice.|
+; --
+; -- In case they haven't done the intro from Valley of the Four Winds.
+A So You Want to Be a Chef...|QID|31281|M|53.58,51.22|N|From Sungshin Ironpaw, in The Halfhill Market.\n[color=FF0000]NOTE: [/color]As stated earlier, this is optional. Skip it if you so wish.|RANK|3|
+B Pandaren Peach|ACTIVE|31281|M|53.58,51.22|L|74660 5|N|Buy 5 from Sungshin Ironpaw.|
+C Sliced Peaches|QID|31281|M|PLAYER|N|Make 5 Sliced Peaches.|NC|
+T So You Want to Be a Chef...|QID|31281|M|53.58,51.22|N|To Sungshin Ironpaw.|
+A Ready for Greatness|QID|31302|M|53.58,51.22|N|From Sungshin Ironpaw.|PRE|31281|
+A You Want Fish?|QID|32684|M|53.58,51.22|N|From Sungshin Ironpaw.|PRE|31281|
+B Rice Pudding Ingredients|ACTIVE|31302|M|53.58,51.22|L|74852 5|N|Buy 5 Yak Milk from Sungshin Ironpaw.|
+B Rice Pudding Ingredients|ACTIVE|31302|M|53.58,51.22|L|74851 5|N|Buy 5 Rice from Sungshin Ironpaw.|
+C Rice Pudding|QID|31302|M|53.58,51.22|NC|
+T Ready for Greatness|QID|31302|M|53.58,51.22|N|To Sungshin Ironpaw.|
 
 A Way of the Grill|QID|31311|M|53.58,51.22|N|From Sungshin Ironpaw.|PRE|31302|
 A Way of the Wok|QID|31470|M|53.58,51.22|N|From Sungshin Ironpaw.|PRE|31302|
