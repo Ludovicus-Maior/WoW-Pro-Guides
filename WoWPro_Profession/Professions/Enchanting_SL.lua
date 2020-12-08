@@ -12,7 +12,7 @@ return [[
 
 ;  Guide structure the QID is Prof (333), Spell ID(000000); The N for materials is Qty of ; Name of Mat ; total needed for craft ; Grand total needed : Separator of mats.
 ;
-;  Typed update to SL splits on 27-Nov-2020 by Blanckaert (This is NOT tested)
+;  Typed update to SL splits on 27-Nov-2020 by Blanckaert - Tested to skill point 74
 
 ; N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
