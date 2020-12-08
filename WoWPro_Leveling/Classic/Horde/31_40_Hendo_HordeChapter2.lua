@@ -188,17 +188,17 @@ T Hardened Shells|QID|1105|M|78.14,77.08|N|To Wizzle Brassbolts.|
 A Encrusted Tail Fins|QID|1107|M|78.14,77.08|N|From Wizzle Brassbolts.|PRE|1104&1105|
 T Rocket Car Parts|QID|1110|M|77.8,77.2|Z|Thousand Needles|N|To Kravel Koalbeard.|
 A Hemet Nesingwary|QID|5762|M|77.84,77.22|N|From Kravel Koalbeard.|
-R Freewind Post|QID|5361|M|47.63,49.04|N|Run back to Freewind and take the lift up.|
+R Freewind Post|AVAILABLE|5361|M|47.63,49.04|N|Run back to Freewind and take the lift up.|
 A Family Tree|QID|5361|M|45.68,50.69|N|From Cliffwatcher Longhorn.|
 
 ; --- The Barrens/Orgrimmar
-F The Crossroads|QID|1148|M|45.14,49.09|Z|The Barrens|N|Fly to the Crossroads.|
+F The Crossroads|ACTIVE|1148|M|45.14,49.09|Z|The Barrens|N|Fly to the Crossroads.|
 T Parts of the Swarm|QID|1148|M|51.09,29.62|Z|The Barrens|N|To Korran.|
 A Parts of the Swarm|QID|1184|M|51.09,29.62|Z|The Barrens|N|From Korran.|
 T Regthar Deathgate|QID|1361|M|45.34,28.40|Z|The Barrens|N|To Regthar Deathgate.|
 A The Kolkar of Desolace|QID|1362|M|45.34,28.40|Z|The Barrens|N|From Regthar Deathgate.|
-R The Crossroads|QID|1184|M|50.61,29.01|Z|The Barrens|N|Run to the Crossroads.|
-F Orgrimmar|QID|1184|M|51.50,30.33|Z|The Barrens|N|Fly to Orgrimmar.|
+R The Crossroads|ACTIVE|1184|M|50.61,29.01|Z|The Barrens|N|Run to the Crossroads.|
+F Orgrimmar|ACTIVE|1184|M|51.50,30.33|Z|The Barrens|N|Fly to Orgrimmar.|
 T Parts of the Swarm|QID|1184|M|75.21,34.23|Z|Orgrimmar|N|To Belgrom Rockmaul.|
 
 ; --- Undercity
@@ -222,20 +222,20 @@ A Delivery to the Gnomes|QID|1114|M|77.79,77.26|N|From Kravel Koalbeard.|PRE|111
 T Delivery to the Gnomes|QID|1114|M|78.06,77.13|N|To Fizzle Brassbolts.|
 
 ; --- Desolace
-N Desolace|QID|1142|N|We are now going to make our run to Desolace via Stonetalon Mountains.|
-R Freewind Post|QID|1142|M|47.63,49.04|N|Run back to Freewind and take the lift up.|
-F Orgrimmar|QID|1142|M|45.05,49.16|N|We are making a detour to Orgrimmar to change our hearthstone to Orgrimmar.|
-h Orgrimmar|QID|1362|M|54.03,68.77|Z|Orgrimmar|N|At Innkeeper Gryshka.|
-F Sun Rock Retreats|QID|1432|M|45.13,63.88|Z|Orgrimmar|
-R The Charred Vale|QID|1432|M|44.55,63.01;37.99,68.08;30.19,76.00|Z|Stonetalon Mountains|CC|N|Head back to the main trail. Follow the torch-marked path south over the mountain to the bottom. Make your way through the Charred Vale to the Desolace border in the south.|
+N Desolace|ACTIVE|1362|N|We are now going to make our run to Desolace via Stonetalon Mountains.|
+R Freewind Post|ACTIVE|1362|M|47.63,49.04|N|Run back to Freewind and take the lift up.|
+F Orgrimmar|ACTIVE|1362|M|45.05,49.16|N|We are making a detour to Orgrimmar to change our hearthstone to Orgrimmar.|
+h Orgrimmar|ACTIVE|1362|M|54.03,68.77|Z|Orgrimmar|N|At Innkeeper Gryshka.|
+F Sun Rock Retreats|ACTIVE|1362|M|45.13,63.88|Z|Orgrimmar|
+R The Charred Vale|ACTIVE|1362|M|44.55,63.01;37.99,68.08;30.19,76.00|Z|Stonetalon Mountains|CC|N|Head back to the main trail. Follow the torch-marked path south over the mountain to the bottom. Make your way through the Charred Vale to the Desolace border in the south.|
 A Bone Collector|QID|5501|M|62.06,32.41;62.34,38.99|Z|Desolace|CC|N|From Bibbly F'utzbuckle.|
 A Kodo Roundup|QID|5561|M|60.86,61.86|Z|Desolace|N|From Smeed Scrabblescrew at Scrabblescrew's Camp.\n[color=FF0000]NOTE: [/color]If you are feeling adventurous, you can try and make the run straight down through some higher level mobs. I'd suggest taking the road east and coming in that way.|
-R Ghost Walker Post|QID|5361|M|58.58,56.93|Z|Desolace|
+R Ghost Walker Post|ACTIVE|1362|M|58.58,56.93|Z|Desolace|
 T The Kolkar of Desolace|QID|1362|M|56.19,59.57|Z|Desolace|N|To Felgur Twocuts.|
 A Khan Dez'hepah|QID|1365|M|56.19,59.57|Z|Desolace|N|From Felgur Twocuts.|
 N Gelkis or Magram|QID|1367&1368|N|At this point in time, you need to decide which clan are you going to earn rep for.\nTo earn rep for the Gelkis Clan, you need to kill Magram Clan Centaurs and vice-versa.\n[color=FF0000]NOTE: [/color]Unless you are going after a specific reward item, Gelkis Clan is much easier to do.\nIt is possible to do both chains.|
 ; --- Space intentionally added to break auto-accept.
-A Magram Alliance |QID|1367|ACTIVE|-1368|M|56.29,59.68|Z|Desolace|N|From Gurda Wildmane.\n[color=FF0000]NOTE: [/color]If you are choosing the Gelkis Clan, skip this step and accept the Gelkis quest.|
+A Magram Alliance |QID|1367|ACTIVE|-1368|AVAILABLE|1368|M|56.29,59.68|Z|Desolace|N|From Gurda Wildmane.\n[color=FF0000]NOTE: [/color]If you are choosing the Gelkis Clan, skip this step and accept the Gelkis quest.|
 A Gelkis Alliance|QID|1368|ACTIVE|-1367|M|56.29,59.68|Z|Desolace|N|From Gurda Wildmane.|
 T Family Tree|QID|5361|M|55.41,55.80|Z|Desolace|N|To Nataka Longhorn.|
 A Catch of the Day|QID|5386|M|55.41,55.80|Z|Desolace|N|From Nataka Longhorn.|
@@ -315,8 +315,8 @@ T Claim Rackmore's Treasure!|QID|6161|M|29.98,8.72|Z|Desolace|N|Clear all mobs a
 K Lord Kargaru|QID|6027|M|28.66,7.09|Z|Desolace|L|15803|N|Right-click on the Serpent Statue to summon Lord Kargaru. Kill him and loot the Book of the Ancients.\n|
 l Oracle Crystal|ACTIVE|1482|L|6442|N|Kill Slitherblade Oracles until one drops an Oracle Crystal.\n21% drop rate|US|
 T Book of the Ancients|QID|6027|M|40.96,29.08;38.88,27.16|Z|Desolace|CC|N|Swim back to shore and climb the ramp to Azore Aldamort at Ethel Rethor.|
-R Kormek's Hut|QID|8521|M|60.33,38.11|Z|Desolace|N|Follow the road east to Kormek's Hut.\nYou are going to go and look for Cork Gizelton and his caravan.|
-N Gizelton Caravan|QID|8521|N|Depending on where they are, it takes the caravan ~12 minutes (a little longer if someone does the north quest) to travel from the south to the north and another 10 minutes before they leave to start the trip south. If no one accepts the quest after 5 minutes, they continue south where the process starts over for the north escort quest.|
+R Kormek's Hut|AVAILABLE|5821|M|60.33,38.11|Z|Desolace|N|Follow the road east to Kormek's Hut.\nYou are going to go and look for Cork Gizelton and his caravan.|
+N Gizelton Caravan|AVAILABLE|5821|N|Depending on where they are, it takes the caravan ~12 minutes (a little longer if someone does the north quest) to travel from the south to the north and another 10 minutes before they leave to start the trip south. If no one accepts the quest after 5 minutes, they continue south where the process starts over for the north escort quest.|
 A Bodyguard for Hire |QID|5821|M|66.55,37.48;67.25,56.55|Z|Desolace|CC|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Cork Gizelton. Escort Cork and his caravan past Kolkar Village. On 3 occasions, 3 Kolkar will spawn (2 fighters and 1 spellcaster).\n[color=FF0000]NOTE: [/color]If Cork isn't here or at Kormek's Hut, wait here until he shows up.\nHe will only offer the quest on the trip south.\nCork will announce to the zone when he's offering the quest.|
 T Bodyguard for Hire |QID|5821|M|60.86,61.88|Z|Desolace|N|Head to Smeed Scrabblescrew at Scrabblescrew's Camp.|
 R Ghost Walker Post|QID|1482|M|58.59,57.04|Z|Desolace|
@@ -331,7 +331,7 @@ T Clam Bait|QID|6142|N|To Mai'Lahii.|
 ; --- Hillsbrad Foothills/Alterac
 F Orgrimmar|ACTIVE|1136|M|21.60,74.05|Z|Desolace|N|You're done with this area for now. You are now headed to Hillsbrad and Alterac.|
 b Tirisfal Glades|ACTIVE|1136|M|50.8,13.6|Z|Durotar|N|Take the Zeppelin to Undercity.|
-N Turtle Meat|QID|7371|L|3712 10|N|Make sure you have the 10 pieces of Turtle Meat you were told to keep earlier. You'll need them now.|
+N Turtle Meat|AVAILABLE|7321|L|3712 10|N|Make sure you have the 10 pieces of Turtle Meat you were told to keep earlier. You'll need them now.|
 F Tarren Mill|ACTIVE|1136|M|62.89,48.16|Z|Undercity|N|Enter Undercity and fly to Tarren Mill.|
 A Prison Break In|QID|544|M|61.59,20.83|Z|Hillsbrad Foothills|N|From Magus Wordeen Voidglare.|
 A Stone Tokens|QID|556|M|61.50,20.94|Z|Hillsbrad Foothills|N|From Keeper Bel'varil.|
@@ -344,7 +344,7 @@ R Darrow Hill|QID|552|M|49.10,32.22|Z|Hillsbrad Foothills|N|Run to the Cave in D
 l Helcular's Revenge|ACTIVE|552|L|3708|N|Kill Yetis at Darrow Hill to loot Helcular's Rod|
 T Helcular's Revenge|QID|552|M|63.88,19.65|Z|Hillsbrad Foothills|N|To Novice Thaivand.|
 A Helcular's Revenge|QID|553|M|63.88,19.65|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
-R Darrow Hill|QID|553|M|49.10,32.22|Z|Hillsbrad Foothills|N|Return to the Cave in Darrow Hill.|
+R Darrow Hill|ACTIVE|553|M|49.10,32.22|Z|Hillsbrad Foothills|N|Return to the Cave in Darrow Hill.|
 C Flame of Azel|QID|553|M|43.89,28.06|Z|Hillsbrad Foothills|QO|1|N|Click on Flame of Azel to charge Helcular's Rod.|NC|
 C Flame of Veraz|QID|553|M|44.03,26.56|Z|Hillsbrad Foothills|QO|2|N|Click on Flame of Veraz to charge Helcular's Rod.|NC|
 R Alterac Mountains|ACTIVE|1136^553|M|55.60,19.41;54.49,9.46|Z|Hillsbrad Foothills|CC|N|Head out of Tarren Mill and take the road north.|
@@ -359,7 +359,7 @@ l Stone Tokens|ACTIVE|556|M|21.70,82.83|Z|Alterac Mountains|L|3714 10|QO|1|S|N|K
 K Ricter|QID|544|M|19.96,84.43|Z|Alterac Mountains|QO|2|N|Kill Ricter to loot the Bloodstone Marble.\n[color=FF0000]NOTE: [/color]All of the targets involved in this quest are non-hostile and you can clear the area without fear of aggroing them.|
 K Alina|QID|544|M|20.33,86.34|Z|Alterac Mountains|QO|3|N|Kill Alina to loot the Bloodstone Shard.|
 K Dermot|QID|544|M|19.90,85.93|Z|Alterac Mountains|QO|1|N|Kill Dermot to loot the Bloodstone Wedge.|
-K Kegan Darkmar|QID|544|M|17.86,83.10|Z|Alterac Mountains|QO|4|N|ork your way into the house and up to the top floor. Each 'room' has 2 mobs in it.\nOnce you have dispatached the 2 guards at the top of the stairs, target Warden Belamoore and take her out first. Once the the room is clear, kill Kegan Darkmar to loot the Bloodstone Oval.|
+K Kegan Darkmar|QID|544|M|17.86,83.10|Z|Alterac Mountains|QO|4|N|Work your way into the house and up to the top floor. Each 'room' has 2 mobs in it.\nOnce you have dispatached the 2 guards at the top of the stairs, target Warden Belamoore and take her out first. Once the the room is clear, kill Kegan Darkmar to loot the Bloodstone Oval.|
 l Stone Tokens|ACTIVE|556|M|21.70,82.83|Z|Alterac Mountains|L|3714 10|N|Kill Dalaran Shield Guards and Theurgists to loot the Stone Tokens.\n[color=FF0000]NOTE: [/color]Keep an eye on your health because the Shield Guards can hit quite hard.|US|
 R Corrahn's Dagger|QID|533|M|29.01,79.39;40.50,84.48;44.09,77.70|Z|Alterac Mountains|CC|N|Leave the camp and head east into the hills. Continue east making sure to stay clear of the Alliance fort at The Headlands.|
 N Sofera's Naze|ACTIVE|533|N|If you find this area busy, you can find more mobs east of here, across the road.|
@@ -421,7 +421,7 @@ A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingw
 A Tiger Mastery|QID|185|M|35.61,10.63|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|583|
 A Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|583|
 A The Green Hills of Stranglethorn|QID|338|N|From Barnil Stonepot.|PRE|583|
-N Chapter quests|ACTIVE|338|N|From this point forward, every time you return to the Camp, check in with Barnil Stonepot to see if you have enough pages to finish a chapter quest.\n[color=FF0000]NOTE: [/color]To save log space do not accept the Chapter quests until you can complete them.|
+N Chapter quests|ACTIVE|338|N|From this point forward, every time you return to the Camp, check in with Barnil Stonepot to see if you have enough pages to finish a Chapter quest. You'll want to get rid of the pages as soon as you can to save bag space.\n[color=FF0000]NOTE: [/color]To save log space do not accept the Chapter quests until you can complete them.|
 C Tiger Mastery|QID|185|M|32.61,9.55;33.68,11.64;36.40,13.05|Z|Stranglethorn Vale|CC|QO|1|N|Heading in a westerly direction from the camp, kill Young Stranglethorn Tigers. In a looping arc, make your way east to the bridge.|
 C Panther Mastery|QID|190|M|37.69,14.85;39.75,13.70;41.23,12.99;41.27,8.56|Z|Stranglethorn Vale|CC|QO|1|N|As you make your way east under the bridge, kill Young Stranglethorn Panthers. Cross the river to the north side and work your way west in a sweeping arc towards the road.|
 T Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
