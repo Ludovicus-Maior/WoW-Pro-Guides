@@ -34,7 +34,7 @@ t Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A A Fresh Blade|QID|62738^63035|PRE|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62738^63035|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
 F Bleak Redoubt|ACTIVE|62738^63035|M|60.87,68.63|Z|Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
-T A Fresh Blade|QID|62738^63035|N|To Secutor Mevix.|TOF|
+T A Fresh Blade|QID|62738^63035|M|52.85,68.33|N|To Secutor Mevix.|TOF|
 A Rallying Maldraxxus|QID|62748|PRE|62738^63035|N|From Secutor Menvix.|TOF|
 l Rallying Maldraxxus|QID|62748|QO|1|S!US|N|Literally everything you do in Maldraxxus counts towards this quest. You may [color=40C7EB]return[/color] to [color=40C7EB]Bleak Redoubt[/color] to turn in and be done with the zone anytime after this step closes.|TOF|
 t Rallying Maldraxxus|QID|62748|IZ|Bleak Redoubt|M|52.85,68.28|Z|Maldraxxus|N|To Secutor Mevix.|TOF|
@@ -182,7 +182,7 @@ C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Kill Deadeye the gian
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|US|
 f Keres' Rest|ACTIVE|59781|M|53.81,30.71|Z|Maldraxxus|N|At Fly-eyed Eliera.|
 C How to Get a Head|QID|59750|M|57.64,37.73|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
-A WANTED: The Key of Eyes|QID|62462|M|53.08,41.41|Z|Maldraxxus|ELITE|N|From Wanted Poster.|RANK|2|TOF|
+A WANTED: The Key of Eyes|QID|62462|M|53.08,41.41|Z|Maldraxxus|ELITE|N|From Wanted Poster.|RANK|2|LVL|60|
 C How to Get a Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|
 T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
 T How to Get a Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
@@ -197,8 +197,8 @@ A Test Your Mettle|QID|58947|M|54.50,48.57|Z|Maldraxxus|N|From Louison.|PRE|5857
 C Test Your Mettle|QID|58947|M|53.68,49.34|Z|Maldraxxus|QO|1|CHAT|N|Ask Valuator Malus to fight.|
 C Test Your Mettle|QID|58947|M|55.35,46.91|Z|Maldraxxus|QO|2|CHAT|N|Ask Tester Saharri to fight.|
 T Test Your Mettle|QID|58947|M|54.49,48.62|Z|Maldraxxus|N|To Louison.|
-A This Thing Of Ours|QID|59879|M|54.49,48.62|Z|Maldraxxus|N|From Louison.|PRE|58947|RANK|2|
-T This Thing Of Ours|QID|59879|M|53.66,47.50|Z|Maldraxxus|N|To Au'narim.|
+A This Thing of Ours|QID|59879|M|54.49,48.62|Z|Maldraxxus|N|From Louison.|PRE|58947|RANK|2|
+T This Thing of Ours|QID|59879|M|53.66,47.50|Z|Maldraxxus|N|To Au'narim.|
 A Leave Me a Loan|QID|59203|M|53.66,47.50|Z|Maldraxxus|N|From Au'narim.|PRE|59879|RANK|2|
 C Leave Me a Loan|QID|59203|M|53.90,49.37|Z|Maldraxxus|CHAT|N|Ask Arena Spectators for their Anima Vial, some will attack you.|
 T Leave Me a Loan|QID|59203|M|53.62,47.56|Z|Maldraxxus|N|To Au'narim.|
