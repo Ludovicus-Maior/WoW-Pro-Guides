@@ -871,6 +871,7 @@ function WoWPro:RowUpdate(offset)
         -- Skipping any skipped steps, unsticky steps, and optional steps unless it's time for them to display --
         if not WoWProDB.profile.guidescroll then
             k = WoWPro.NextStep(k, i)
+            WoWPro:print("RowUpdate(%d,%d): %s", i, k, WoWPro.EmitStep(k):gsub("||", "¦"))
         end
 
         --Setup row--
@@ -1395,6 +1396,7 @@ function WoWPro.UpdateGuideReal(From)
 
     -- Finding the active step in the guide --
     WoWPro.ActiveStep = WoWPro.NextStep(1)
+    WoWPro:print("UpdateGuideReal(%d): ActiveStep=%s", WoWPro.ActiveStep, WoWPro.EmitStep(WoWPro.ActiveStep):gsub("||", "¦"))
     if WoWPro.Recorder then
         WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
     end
@@ -1513,7 +1515,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
     local guide = WoWProCharDB.Guide[GID]
     if not guideIndex then guideIndex = 1 end --guideIndex is the position in the guide
     if not rowIndex then rowIndex = 1 end --rowIndex is the position on the rows
-    WoWPro:print("Called WoWPro.NextStep(%d,%d)", guideIndex, rowIndex)
     local skip = true
     while skip do
         --[[ HACK
@@ -1523,7 +1524,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
         repeat
 
             if guideIndex > WoWPro.stepcount then
-                WoWPro:print("WoWPro.NextStep=%d: > EOG",guideIndex)
+                WoWPro:dbp("WoWPro.NextStep=%d: > EOG",guideIndex)
                 return guideIndex
             end
 
