@@ -95,8 +95,8 @@ A Wildseed Rescue|QID|60778|M|65.04,19.53|Z|Ardenweald!The Shadowlands|N|From Fe
 C Wildseed Rescue|QID|60778|M|66.59,20.99|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Find Korenth.|MS|
 C Wildseed Rescue|QID|60778|M|67.67,20.59|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak with Korenth.|MS|
 C Wildseed Rescue|QID|60778|M|67.67,20.59|Z|Ardenweald!The Shadowlands|QO|3|CHAT|N|Speak with Featherlight.|MS|
-C Wildseed Rescue|QID|60778|M|39.09,65.10|Z|1829|QO|4|N|Alternate ability 1 and 2, to coax the Nesting Valeshrieker away from her nest.|MS| ; 1829 is zone map in cave. otherwise it says 2900yrds in the other direction.
-C Wildseed Rescue|QID|60778|M|30.81,74.66|Z|1829|QO|5|N|Kill Nesting Valeshrieker.|MS|
+C Wildseed Rescue|QID|60778|M|39.09,65.10|QO|4|N|Alternate ability 1 and 2, to coax the Nesting Valeshrieker away from her nest.|MS|
+C Wildseed Rescue|QID|60778|M|30.81,74.66|QO|5|N|Kill Nesting Valeshrieker.|MS|
 T Wildseed Rescue|QID|60778|M|67.68,20.57|Z|Ardenweald!The Shadowlands|N|To Featherlight.|MS|
 A We Can't Save Them All|QID|60857|M|67.68,20.57|Z|Ardenweald!The Shadowlands|N|From Featherlight.|PRE|60778|MS|
 C We Can't Save Them All|QID|60857|M|67.79,24.10|Z|Ardenweald!The Shadowlands|NC|N|Continue down the road.|MS|
@@ -173,7 +173,7 @@ A Preparing for the Winter Queen|QID|60600|M|63.56,36.29|Z|Ardenweald!The Shadow
 C Preparing for the Winter Queen|QID|60600|M|63.54,36.21|Z|Ardenweald!The Shadowlands|CHAT|N|Tell Lady Moonberry you are ready.|MS|
 T Preparing for the Winter Queen|QID|60600|M|63.57,36.29|Z|Ardenweald!The Shadowlands|N|To Droman Tashmur.|MS|
 A Ride to Heartwood Grove|QID|60624|M|63.57,36.29|Z|Ardenweald!The Shadowlands|N|From Droman Tashmur.|PRE|60600|MS|
-C Ride to Heartwood Grove|QID|60624|M|63.05,35.68|Z|Ardenweald!The Shadowlands|V|N|Hop on the Riding Stag for a ride to Heartwood Grove.|MS|
+C Ride to Heartwood Grove|QID|60624|M|63.05,35.68|Z|Ardenweald!The Shadowlands|V|N|Hop on the Stag for a ride to Heartwood Grove.|MS|
 T Ride to Heartwood Grove|QID|60624|M|66.97,26.56|Z|Ardenweald!The Shadowlands|N|To Niya.|MS|
 A The End of Former Friends|QID|60637|M|66.97,26.56|Z|Ardenweald!The Shadowlands|N|From Niya.|PRE|60624|MS|
 A Recovering Wildseeds|QID|60638|M|66.97,26.56|Z|Ardenweald!The Shadowlands|N|From Niya.|PRE|60624|MS|
@@ -317,7 +317,7 @@ T Totem Eclipse|QID|60630|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Hunt-Captai
 T Big Problem, Little Vorkai|QID|60631|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Hunt-Captain Korayn.|MS|
 A I Know Your Face|QID|60632|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Hunt-Captain Korayn.|PRE|60630&60631|MS|
 C I Know Your Face|QID|60632|M|48.49,36.84|Z|Ardenweald!The Shadowlands|QO|1|T|Blighted Monstrosity|N|Kill the Bigger Blighted Monstrosity, to expose Lorkron the Hunter (then fight Lorkron). You still have reinforcements available via the "[color=40C7EB]Hunter's Strike[/color]" Extra Action Button.|MS|EAB|
-$ Hearty Dragon Plume|QID|61067|CS|M|47.81,39.06;45.81,36.29;47.97,38.65;48.21,39.26|Z|Ardenweald!The Shadowlands|N|Up the path for a cool slowfall item. This requires jumping down the tree roots, so make sure you are at the right spot before jumping.|ITEM|182729|ACH|14313;7|
+$ Hearty Dragon Plume|QID|61067|CS|M|47.81,39.06;47.53,36.60;47.97,38.65;48.21,39.26|Z|Ardenweald!The Shadowlands|N|Up the path for a cool slowfall item. This requires jumping down the tree roots, so make sure you are at the right spot before jumping.|ITEM|182729|ACH|14313;7|
 C I Know Your Face|QID|60632|M|48.94,35.73|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak to Korayn.|MS|
 
 ; Sidequest Storyline - Trouble at the Gormling Corral & Supplies Needed
@@ -474,7 +474,7 @@ C Sparkles Rain from Above|QID|58524|M|70.71,55.92|Z|Ardenweald!The Shadowlands|
 T Sparkles Rain from Above|QID|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 T The Fallen Tree|QID|62720|M|70.10,57.17|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
 H Hibernal Hollow|ACTIVE|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|Hearth or run back to Hibernal Hollow.|TOF|
-L Nearly Level 58|PRE|58524|M|PLAYER|LVL|57;-64000|N|You need to about 4 bubbles from 58, or you won't be able to do the last quest in Hibernal Hollow. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|MS|
+L Nearly Level 58|M|PLAYER|LVL|57;-64000|N|You need to about 4 bubbles from 58, or you won't be able to do the last quest in Hibernal Hollow. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|MS|
 
 ; Visions of the Dreamer Storyline
 A For the Sake of Spirit|QID|60572|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|PRE|58524|MS|
@@ -503,7 +503,7 @@ C Visions of the Dreamer: Origins|QID|58590|M|61.57,50.22|Z|Ardenweald!The Shado
 C Visions of the Dreamer: Origins|QID|58590|M|60.69,49.22|Z|Ardenweald!The Shadowlands|QO|2|US|N|Slay Nightmares.|MS|
 T Visions of the Dreamer: Origins|QID|58590|M|60.08,52.92|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
 T Visions of the Dreamer: The Betrayal|QID|60578|M|60.02,52.99|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
-L You Need to be Level 58|PRE|58591|M|PLAYER|LVL|58|N|You need to be at least level 58 to continue this guide.  So, go do a sidequest, rare, dungeon, something to get a little more XP first.|
+L You Need to be Level 58|M|PLAYER|LVL|58|N|You need to be at least level 58 to continue this guide.  So, go do a sidequest, rare, dungeon, something to get a little more XP first.|
 A End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60578&58590|MS|LVL|58|
 C End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak to Dreamweaver.|MS|
 C Attack the Temple of Elune|QID|58593|M|61,49|Z|Val'sharah!Instance|SO|1|NC|N|Click 1 to begin the attack the Temple of Elune, then wait while you slowly fly down and land.|MS|
