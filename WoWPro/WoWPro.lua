@@ -119,7 +119,7 @@ function WoWPro:LogEvent(event, ...)
         end
     end
     msg = msg .. (") InitLockdown=%s"):format(tostring(WoWPro.InitLockdown))
-    WoWPro:Add2Log(3,msg)
+    WoWPro:Add2Log(2,msg)
 end
 
 -- Error Logging
@@ -495,7 +495,7 @@ function WoWPro:OnEnable()
     WoWPro:RegisterEvents(nil)
     WoWPro:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
     if not WoWPro.CLASSIC then
-        WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
+        WoWPro:RegisterBucketEvent({"QUEST_LOG_CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
     end
     WoWPro:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
     WoWPro:RegisterBucketEvent({"TRADE_SKILL_SHOW", "TRADE_SKILL_LIST_UPDATE"}, 0.250, WoWPro.ScanTrade)
