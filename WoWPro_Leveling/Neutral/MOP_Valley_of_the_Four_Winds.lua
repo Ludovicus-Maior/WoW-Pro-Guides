@@ -187,24 +187,26 @@ T Ready for Greatness|QID|31302|M|53.58,51.22|N|To Sungshin Ironpaw.|
 N Advanced Pandaren Cooking|AVAILABLE|31479^31311^31478^31472^31475^31470|M|PLAYER|N|Upon turning in 'Ready for Greatness', you'll unlock 6 quests to unlock further cooking skills and dailies.\nThis guide will go no further into it.|RANK|3|JUMP|Pandaren Cooking|
 ; --
 ; -- The Tillers Quest chain
-A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon in Sunsong Ranch.\n[color=FF0000]NOTE: [/color]This chain for The Tillers is optional, it's quick and easy XP.|RANK|3|
-C Remove the rocks|QID|30252|M|52.8,49.81|N|Click on the unbudging rocks to dig them up.|NC|
+N The Tillers Rep Guide Intro|AVAILABLE|30252|N|[color=FF0000]NOTE: [/color]This chain for The Tillers and is optional. It's quick and easy XP; even if you don't plan on doing the farming portion.|IZ|Valley of the Four Winds|RANK|3|
+A A Helping Hand|QID|30252|M|52.01,47.99|N|From Farmer Yoon in Sunsong Ranch.\n[color=FF0000]NOTE: [/color]Skip this step if you don't wish to do the quest chain.|RANK|3| ; Started at 22,992 xp
+C Remove the rocks|QID|30252|M|52.8,49.81|N|Click on the Unbudging Rock to dig it up. You'll find them spread out around Sunsong Ranch.\n[color=FF0000]NOTE: [/color]You are phased and no one (outside of your party) can take yours.|NC|
 T A Helping Hand|QID|30252|M|52.75,47.94|N|To Farmer Yoon.|
 A Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|From Farmer Yoon, after a lot of talking.|PRE|30252|
 C Get seeds from Merchant Greenfield|QID|30535|M|52.88,52.14|L|80295|N|It's a chat option, not a purchase.|CHAT|
 T Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|To Farmer Yoon.|
 A Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|N|From Farmer Yoon.|PRE|30535|
-C Tilling and Planting|QID|30254|M|52.02,48.30|N|Click the untilled soil to till, then target it and use the seeds.|U|80302|NC|
+C Tilling and Planting|QID|30254|M|52.02,48.30|N|Click the untilled soil to till, then target it and use the seeds.|T|Tilled Soil|U|80302|NC|
 T Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|N|To Farmer Yoon.|
 A Learn and Grow III: Tending Crops|QID|30255|M|52.25,48.79|N|From Farmer Yoon.|PRE|30254|
 C Watering Crops|QID|30255|M|52.02,48.30|N|Face towards the plants and use the watering can.|U|79104|NC|
 T Learn and Grow III: Tending Crops|QID|30255|M|52.25,48.79|N|To Farmer Yoon.|
 A Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|N|From Farmer Yoon.|PRE|30255|
-C Harvest the cabbage|QID|30256|M|52.02,48.30|N|Click on the cabbages.|NC|
+C Harvest the cabbage|QID|30256|M|52.02,48.30|N|Click on the cabbages (both) to harvest them.|NC|
 T Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|N|To Farmer Yoon.|
 A Learn and Grow V: Halfhill Market|QID|30257|M|52.25,48.79|N|From Farmer Yoon.|PRE|30256|
-C Presentation is everything!|QID|30257|M|52.75,48.07|N|Pick a flower for Gina and deliver your produce to market.|NC|
-T Learn and Grow V: Halfhill Market|QID|30257|M|53.16,51.79|N|[Fix note]To Gina Mudclaw, if you plan to continue with farming grab and do the follow-up, but it is not included in the guide. You can farm a limited number and type of plants pre level 90.|
+C Investigate the Dark Soil|QID|30257|M|52.75,48.07|N|The Dark Soil is under the house. Click on it to investigate and loot the Marsh Lily from it.|NC|
+T Learn and Grow V: Halfhill Market|QID|30257|M|53.16,51.79|N|To Gina Mudclaw in Halfhill Market.|
+N The Tillers Guide|AVAILABLE|31945|N|This completes the Intro to The Tillers. From this point, you can either continue with the Tiller Guide or move on with the rest of the Valley of the Four Winds.|JUMP|The Tillers|PRE|30257|
 ; --
 T Doesn't Hold Water|QID|30049|M|54.28,38.74|N|To Mudmug, on the northern exit of the ring road, pacing around his barrels.|
 A The Great Water Hunt|QID|30051|M|54.19,38.65|N|From Mudmug.|PRE|30049|
