@@ -397,7 +397,7 @@ C Hunting Trophies|QID|60514|M|46.83,65.24|Z|Revendreth||US|N|Finish killing spi
 T The Banewood|QID|62782|M|50.15,70.35|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
 T Hunting Trophies|QID|60514|M|48.50,68.44|Z|Revendreth|N|To Huntmaster Constantin.|
 A Abel's Fate|QID|58996|M|48.50,68.44|Z|Revendreth|N|From Huntmaster Constantin.|RANK|2|
-A A Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|N|From Bounty Poster|RANK|2|ACTIVE|62778|
+A Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|N|From Bounty Poster|RANK|2|ACTIVE|62778|
 C Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|S|N|Kill bats in the area.|
 K Packmother Soulfang|ACTIVE|58996|M|48.70,78.69|Z|Revendreth|QO|1|N|Kill the Packmother to determine Abel's Fate.|
 C Beast Control|QID|58936|M|49.64,75.98|Z|Revendreth|US|N|Kill bats in the area.|

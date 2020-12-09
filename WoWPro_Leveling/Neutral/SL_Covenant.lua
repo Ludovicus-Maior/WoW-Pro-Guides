@@ -36,16 +36,16 @@ P Torghast, Tower of the Damned|ACTIVE|60267|M|48.17,39.48|Z|The Maw|N|Take the 
 C Prison of the Forgotten|QID|60267|M|16.00,62.49|Z|Torghast - Entrance!Instance|QO|2|NC|N|Search Torghast's antechamber for a Lock.|
 T Prison of the Forgotten|QID|60267|M|16.00,62.49|Z|Torghast - Entrance!Instance|N|Click on the Door to turn in quest.|
 P The Runecarver's Oubliette|AVAILABLE|60268|PRE|60267|M|15.93,61.04|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|IZ|1911|
-A Deep Within|QID|60268|PRE|60267|M|50.36,54.08|Z|The Runecarver!Instance|N|From Runecarver.|
-C Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver!Instance|QO|1|CHAT|N|Speak with Runecarver to hear is his story.|
-T Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver!Instance|N|To Runecarver.|
-A Reawakening|QID|60269|PRE|60268|M|50.36,54.08|Z|The Runecarver!Instance|N|From Runecarver.|
+A Deep Within|QID|60268|PRE|60267|M|50.36,54.08|Z|The Runecarver's Oubliette!Instance|N|From Runecarver.|
+C Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver's Oubliette!Instance|QO|1|CHAT|N|Speak with Runecarver to hear is his story.|
+T Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver's Oubliette!Instance|N|To Runecarver.|
+A Reawakening|QID|60269|PRE|60268|M|50.36,54.08|Z|The Runecarver's Oubliette!Instance|N|From Runecarver.|
 P Ve'nari's Refuge|ACTIVE|60269|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
 C Reawakening|QID|60269|M|38.52,28.80|Z|The Maw|N|Kill Odalrik and loot the Runecarver's Memory.|
 P Torghast, Tower of the Damned|ACTIVE|60269|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
 P The Runecarver's Oubliette|ACTIVE|60269|M|15.93,61.04|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|IZ|1911|
-T Reawakening|QID|60269|M|50.29,54.16|Z|The Runecarver!Instance|N|To Runecarver.|
-A A Damned Pact|QID|60270|PRE|60269|M|50.29,54.16|Z|The Runecarver!Instance|N|From Runecarver.|
+T Reawakening|QID|60269|M|50.29,54.16|Z|The Runecarver's Oubliette!Instance|N|To Runecarver.|
+A A Damned Pact|QID|60270|PRE|60269|M|50.29,54.16|Z|The Runecarver's Oubliette!Instance|N|From Runecarver.|
 P Ve'nari's Refuge|ACTIVE|60270|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
 T A Damned Pact|QID|60270|M|46.92,41.70|Z|The Maw|N|To Ve'nari.|
 A A Grave Chance|QID|60271|PRE|60270|M|46.92,41.70|Z|The Maw|N|From Ve'nari.|
@@ -55,8 +55,8 @@ T A Grave Chance|QID|60271|M|46.92,41.69|Z|The Maw|N|To Ve'nari.|
 A The Weak Link|QID|60272|PRE|60271|M|46.92,41.69|Z|The Maw|N|From Ve'nari.|
 P Torghast, Tower of the Damned|ACTIVE|60272|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
 P The Runecarver's Oubliette|ACTIVE|60272|M|15.93,61.04|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|IZ|1911|
-C The Weak Link|QID|60272|M|50.37,54.06|Z|The Runecarver!Instance|QO|1|NC|N|Break the Chain.|
-T The Weak Link|QID|60272|M|51.01,54.58|Z|The Runecarver!Instance|N|To Runecarver.|
+C The Weak Link|QID|60272|M|50.37,54.06|Z|The Runecarver's Oubliette!Instance|QO|1|NC|N|Break the Chain.|
+T The Weak Link|QID|60272|M|51.01,54.58|Z|The Runecarver's Oubliette!Instance|N|To Runecarver.|
 
 ; Start of Cov
 A Choosing Your Purpose|QID|57878|M|39.22,69.40|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
