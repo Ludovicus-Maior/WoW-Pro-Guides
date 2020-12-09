@@ -303,13 +303,13 @@ T The Accuser's Sinstone|QID|57173|M|64.69,49.89|Z|Revendreth|N|To Lord Chamberl
 A Inquisitor Stelia's Sinstone|QID|58931|M|64.69,49.89|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|PRE|57173|MS|
 C Inquisitor Stelia's Sinstone|QID|58931|M|64.73,50.08|Z|Revendreth|QO|1|V|N|Jump into Echelon's warm loving hands.|MS|
 A Temel, the Sin Herald|QID|58932|M|69.57,53.88|Z|Revendreth|N|Auto-Accepted on arrival.|LVL|57|PRE|57173|MS|
-A It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|From Chiselgrump.|MS|
-C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|S|MS|
+A It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|From Chiselgrump.|RANK|2| ; no 'shield on the quest.
+C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|S|
 C Inquisitor Stelia's Sinstone|QID|58931|Z|Revendreth|QO|2|N|Kill enemies and loot the Avowed Crypt Keys. On the 4th Crypt you open, click on the Inquisitor Stelia's Sinstone to collect it.|S|MS|
 C Temel, the Sin Herald|QID|58932|M|71.45,54.40|Z|Revendreth|N|Attack Cryptkeeper Kassir until he gives you Temel.|MS|
 C Inquisitor Stelia's Sinstone|QID|58931|Z|Revendreth|QO|2|N|Kill enemies and loot the Avowed Crypt Keys. On the 4th Crypt open click on the Inquisitor Stelia's Sinstone to collect it.|US|MS|
-C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|US|MS|
-T It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|To Chiselgrump. This gives you a special action button that provides a small defensive buff.|MS|
+C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|US|
+T It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|To Chiselgrump. This gives you a special action button that provides a small defensive buff.|
 T Inquisitor Stelia's Sinstone|QID|58931|M|67.42,53.63|Z|Revendreth|N|To Echelon.|MS|
 T Temel, the Sin Herald|QID|58932|M|67.42,53.63|Z|Revendreth|N|To Echelon.|MS|
 A Herald Their Demise|QID|59021|M|67.42,53.63|Z|Revendreth|N|From Echelon.|LVL|57|PRE|58931&58932|MS|
