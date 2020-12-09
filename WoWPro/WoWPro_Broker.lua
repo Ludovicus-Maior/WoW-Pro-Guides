@@ -1925,7 +1925,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         WoWPro:dbp("First Scenario Step %s [%s/%s] enabled.",stepAction,step,tostring(QID))
                         WoWPro.why[guideIndex] = "NextStep(): Active, for scenario to start."
                         if stage > 0 then
-                            WoWPro.ScenarioFirstStep = stage
+                            WoWPro.ScenarioFirstStep = guideIndex
                         end
                     end
                 end
