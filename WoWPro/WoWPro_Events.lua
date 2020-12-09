@@ -554,7 +554,7 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
         end
         WoWPro:print("%s: qidx=%s, guidetype=%s, currentguide=%s", event, tostring(qidx), tostring(guidetype), tostring(WoWProDB.char.currentguide))
         WoWPro:print("%s/qidx: %s", qidx,  WoWPro.EmitStep(qidx):gsub("||", "¦"))
-        WoWPro:print("%s/qidx+1: %s", qidx+1,  WoWPro.EmitStep(qidx):gsub("||", "¦"))
+        WoWPro:print("%s/qidx+1: %s", qidx+1,  WoWPro.EmitStep(qidx+1):gsub("||", "¦"))
         WoWPro:print("%s/ScenarioFirstStep: %s", WoWPro.ScenarioFirstStep,  WoWPro.EmitStep(WoWPro.ScenarioFirstStep):gsub("||", "¦"))
         WoWPro:print("%s: WoWPro.zone[qidx]=%s, WoWPro:IsInstanceZone()=%s, WoWPro.sobjective=%s, IsInInstance()=%s",
                    event,  tostring(WoWPro.zone[qidx]), tostring(WoWPro:IsInstanceZone(WoWPro.zone[qidx])),
