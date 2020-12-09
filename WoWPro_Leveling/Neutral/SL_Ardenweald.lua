@@ -413,7 +413,7 @@ C Soothing Song|QID|60764|M|64.53,39.05|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N
 C Soothing Song|QID|60764|M|62.34,45.48|Z|Ardenweald!The Shadowlands|QO|2|N|Wildseed escorted to Hibernal Hollow.|MS|
 T Soothing Song|QID|60764|M|62.34,45.48|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 A Remnants of the Wild Hunt|QID|60839|M|62.34,45.48|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60764|MS|
-;A Wild Hunt Offensive|QID|60840|M|62.55,45.86|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|PRE|60764|RANK|2|;very odd. first time thru this did not trigger, so I thought TOF only, but this time it did for a non-TOF char commenting since you get it automatically, (or you don't) so to avoid questions of why didnt i get it.
+;A Wild Hunt Offensive|QID|60840|M|62.55,45.86|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|PRE|60764|RANK|2|;very odd. first time thru this did not trigger, so I thought TOF only, but this time it did for a non-TOF char commenting since you get it automatically, (or you don't) so to avoid questions of why didnt i get it. 12/08/2020 Triggered for me, lvl 57 TOF, NOT wife, lvl 58 TOF
 C Wild Hunt Offensive|QID|60840|M|62.55,45.86|Z|Ardenweald!The Shadowlands|S|N|Destroy the Totems and kill the Hostiles in Soryn's Meadow.|
 C Remnants of the Wild Hunt|QID|60839|M|63.58,46.95|Z|Ardenweald!The Shadowlands|N|Wounded Defender rescued.|MS|
 T Remnants of the Wild Hunt|QID|60839|M|64.26,49.98|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
@@ -582,7 +582,8 @@ C The Court of Winter|QID|58723|M|48.66,34.74|Z|The Trunk@Heart of the Forest!Du
 T The Court of Winter|QID|58723|M|49.05,33.98|Z|The Trunk@Heart of the Forest!Dungeon|N|To Winter Queen.|MS|
 A The Queen's Request|QID|58724|M|49.05,33.98|Z|The Trunk@Heart of the Forest!Dungeon|N|From Winter Queen.|PRE|58723|MS|
 
-F Oribos|ACTIVE|58724|M|49.32,51.90|Z|Ardenweald!The Shadowlands|MS|
+F Oribos|ACTIVE|58724|M|49.32,51.90|Z|Ardenweald!The Shadowlands|N|At Derwynnthlmn.|MS|C|-Mage|
+P Oribos|ACTIVE|58724|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Teleport to Oribos.|MS|C|Mage|
 T The Queen's Request|QID|58724|M|48.98,60.10|Z|Ring of Transference@Oribos|N|To Tal-Inara.|MS|
 ]]
 end)
