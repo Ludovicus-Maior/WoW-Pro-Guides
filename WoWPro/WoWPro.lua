@@ -205,6 +205,10 @@ end
 function WoWPro:LogDump(callback)
     if (not WoWProDB) or (not WoWProDB.global) or (not WoWProDB.global.Log) then return "" end
     _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating log")
+    WoWPro:Print("WoWPro Version %s.", WoWPro.Version)
+    WoWPro:print("Class: %s, Race: %s, Faction: %s, Level %d, XP %d",
+                 _G.UnitClass("player"), _G.UnitRace("player"),
+                 WoWPro.Faction, _G.UnitLevel("player"), _G.UnitXP("player"))
     WoWPro:LogLocation()
     if not LogFrame then
         LogFrame = _G.CreateFrame("Frame", nil, _G.UIParent)
@@ -219,10 +223,7 @@ function WoWPro:LogClear(where)
         WoWProDB.global.Log = {}
     end
     WoWPro.Serial = 999999999
-    WoWPro:Print("Log Reset from %s, WoWPro Version %s.", where, WoWPro.Version)
-    WoWPro:print("Class: %s, Race: %s, Faction: %s, Level %d, XP %d",
-                 _G.UnitClass("player"), _G.UnitRace("player"),
-                 WoWPro.Faction, _G.UnitLevel("player"), _G.UnitXP("player"))
+    WoWPro:Print("Log Reset from %s", where)
 end
 WoWPro.Faction = _G.UnitFactionGroup("player")
 WoWPro:LogClear("Addon Load")
