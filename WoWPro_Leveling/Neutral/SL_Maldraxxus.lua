@@ -64,6 +64,12 @@ N Spectre of War: Visectus|QID|62748|N|This is a weekly quest, that you can NOT 
 N Use of Ranks|QID|57386|N|Setting the guide to Rank 1 will direct you to all main story line quests. It will not direct you to optional quests, however, if you pick one up it will direct you where to complete and turn in. Rank 2 takes you to all the side quests, There is nothing set to Rank 3 in this guide.|MS|
 N Rank 1|ACTIVE|62748|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|
 N Necrolord Abilities|ACTIVE|62748|N|Your necrolord covenant abilities are found in your main class tab of your abilites, don't forget to drag them onto your hotkeys.|TOF|COV|Necrolord|
+A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60056|MS|
+C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|Ring of Fates@Oribos|NC|N|Use the Teleport Pad.|MS|
+T The Arbiter's Will|QID|61096|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
+A A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61096|MS|
+C A Land of Strife|QID|61107|M|59.67,36.36|Z|Ring of Transference@Oribos|NC|N|Click on the blue sword.|MS|
+T A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
 A If You Want Peace...|QID|57386|M|60.95,36.18|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61107|MS|
 C If You Want Peace...|QID|57386|M|59.51,34.39|Z|Ring of Transference@Oribos|CHAT|N|Speak to Roh-Avonavi to Travel to Maldraxxus.|MS|
 T If You Want Peace...|QID|57386|M|50.24,41.33|Z|Maldraxxus|N|To Grandmaster Vole.|MS|
