@@ -1071,7 +1071,7 @@ function WoWPro.SetupGuideReal()
     -- Scrollbar Settings --
     WoWPro.Scrollbar:SetMinMaxValues(1, max(1, WoWPro.stepcount - WoWPro.ShownRows))
 
-    WoWPro.GuideLoaded = true
+    WoWPro.GuideLoaded = "Loaded"
     WoWPro:AutoCompleteQuestUpdate(nil)
     WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
     WoWPro:SendMessage("WoWPro_PostLoadGuide")
