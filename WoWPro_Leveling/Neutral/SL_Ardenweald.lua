@@ -413,7 +413,7 @@ C Soothing Song|QID|60764|M|64.53,39.05|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N
 C Soothing Song|QID|60764|M|62.34,45.48|Z|Ardenweald!The Shadowlands|QO|2|N|Wildseed escorted to Hibernal Hollow.|MS|
 T Soothing Song|QID|60764|M|62.34,45.48|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 A Remnants of the Wild Hunt|QID|60839|M|62.34,45.48|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60764|MS|
-;A Wild Hunt Offensive|QID|60840|M|62.55,45.86|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|PRE|60764|RANK|2|;very odd. first time thru this did not trigger, so I thought TOF only, but this time it did for a non-TOF char commenting since you get it automatically, (or you don't) so to avoid questions of why didnt i get it. 12/08/2020 Triggered for me, lvl 57 TOF, NOT wife, lvl 58 TOF
+A Wild Hunt Offensive|QID|60840|M|62.55,45.86|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|PRE|60764|RANK|2|LVL|-58|;very odd. first time thru this did not trigger, so I thought TOF only, but this time it did for a non-TOF char (or you don't) so to avoid questions of why didnt i get it. 12/08/2020 Triggered for me, lvl 57 TOF, NOT wife, lvl 58 TOF--current working theory is only triggers under 58.
 C Wild Hunt Offensive|QID|60840|M|62.55,45.86|Z|Ardenweald!The Shadowlands|S|N|Destroy the Totems and kill the Hostiles in Soryn's Meadow.|
 C Remnants of the Wild Hunt|QID|60839|M|63.58,46.95|Z|Ardenweald!The Shadowlands|N|Wounded Defender rescued.|MS|
 T Remnants of the Wild Hunt|QID|60839|M|64.26,49.98|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
