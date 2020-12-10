@@ -506,7 +506,7 @@ T Visions of the Dreamer: The Betrayal|QID|60578|M|60.02,52.99|Z|Ardenweald!The 
 L You Need to be Level 58|PRE|58591|M|PLAYER|LVL|58|N|You need to be at least level 58 to continue this guide.  So, go do a sidequest, rare, dungeon, something to get a little more XP first.|
 A End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60578&58590|MS|LVL|58|
 C End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak to Dreamweaver.|MS|
-C Attack the Temple of Elune|QID|58593|M|61,49|Z|Val'sharah!Instance|SO|1|N|Click 1 to begin the attack the Temple of Elune.|MS|
+C Attack the Temple of Elune|QID|58593|M|61,49|Z|Val'sharah!Instance|SO|1|NC|N|Click 1 to begin the attack the Temple of Elune, then wait while you slowly fly down and land.|MS|
 C Destroy the Temple of Elune|QID|58593|M|34.27,34.60|Z|619|SO|2|N|After landing, use Ysera's abilities to destroy the Temple of Elune.|MS|
 C End of the Dream|QID|58593|M|34.28,34.68|Z|Broken Isles|QO|2|NC|N|Witness the end of the spirit's life.|MS|
 T End of the Dream|QID|58593|M|60.06,53.04|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
