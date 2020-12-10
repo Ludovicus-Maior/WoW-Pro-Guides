@@ -413,7 +413,7 @@ C Soothing Song|QID|60764|M|64.53,39.05|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N
 C Soothing Song|QID|60764|M|62.34,45.48|Z|Ardenweald!The Shadowlands|QO|2|N|Wildseed escorted to Hibernal Hollow.|MS|
 T Soothing Song|QID|60764|M|62.34,45.48|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 A Remnants of the Wild Hunt|QID|60839|M|62.34,45.48|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60764|MS|
-;A Wild Hunt Offensive|QID|60840|M|62.55,45.86|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|PRE|60764|RANK|2|;very odd. first time thru this did not trigger, so I thought TOF only, but this time it did for a non-TOF char commenting since you get it automatically, (or you don't) so to avoid questions of why didnt i get it. 12/08/2020 Triggered for me, lvl 57 TOF, NOT wife, lvl 58 TOF
+A Wild Hunt Offensive|QID|60840|M|62.55,45.86|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|PRE|60764|RANK|2|LVL|-58|;very odd. first time thru this did not trigger, so I thought TOF only, but this time it did for a non-TOF char (or you don't) so to avoid questions of why didnt i get it. 12/08/2020 Triggered for me, lvl 57 TOF, NOT wife, lvl 58 TOF--current working theory is only triggers under 58.
 C Wild Hunt Offensive|QID|60840|M|62.55,45.86|Z|Ardenweald!The Shadowlands|S|N|Destroy the Totems and kill the Hostiles in Soryn's Meadow.|
 C Remnants of the Wild Hunt|QID|60839|M|63.58,46.95|Z|Ardenweald!The Shadowlands|N|Wounded Defender rescued.|MS|
 T Remnants of the Wild Hunt|QID|60839|M|64.26,49.98|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
@@ -506,7 +506,7 @@ T Visions of the Dreamer: The Betrayal|QID|60578|M|60.02,52.99|Z|Ardenweald!The 
 L You Need to be Level 58|PRE|58591|M|PLAYER|LVL|58|N|You need to be at least level 58 to continue this guide.  So, go do a sidequest, rare, dungeon, something to get a little more XP first.|
 A End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60578&58590|MS|LVL|58|
 C End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak to Dreamweaver.|MS|
-C Attack the Temple of Elune|QID|58593|M|61,49|Z|Val'sharah!Instance|SO|1|N|Click 1 to begin the attack the Temple of Elune.|MS|
+C Attack the Temple of Elune|QID|58593|M|61,49|Z|Val'sharah!Instance|SO|1|NC|N|Click 1 to begin the attack the Temple of Elune, then wait while you slowly fly down and land.|MS|
 C Destroy the Temple of Elune|QID|58593|M|34.27,34.60|Z|619|SO|2|N|After landing, use Ysera's abilities to destroy the Temple of Elune.|MS|
 C End of the Dream|QID|58593|M|34.28,34.68|Z|Broken Isles|QO|2|NC|N|Witness the end of the spirit's life.|MS|
 T End of the Dream|QID|58593|M|60.06,53.04|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
