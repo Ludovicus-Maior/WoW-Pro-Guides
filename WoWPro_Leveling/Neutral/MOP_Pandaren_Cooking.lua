@@ -17,6 +17,8 @@ T No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|To Ben of the Booming Voi
 ; --
 ; -- In case they haven't done the intro from Valley of the Four Winds.
 A So You Want to Be a Chef...|QID|31281|M|53.58,51.22|N|From Sungshin Ironpaw, in The Halfhill Market.\n[color=FF0000]NOTE: [/color]As stated earlier, this is optional. Skip it if you so wish.|RANK|3|
+N Learn Cooking|QID|185158765|M|53.58,51.22|N|Learn from Sungshin Ironpaw. You need this to do any cooking.|P|Cooking;185;8|
+N Learn Pandaria Cooking|QID|185264640|M|53.58,51.22|N|Learn from Sungshin Ironpaw. You need this to cook Pandaren recipes.|P|Cooking;185;4|SPELL|Pandaria Cooking;264640|
 B Pandaren Peach|ACTIVE|31281|M|53.58,51.22|L|74660 5|N|Buy 5 from Sungshin Ironpaw.|
 C Sliced Peaches|QID|31281|M|PLAYER|N|Make 5 Sliced Peaches.|NC|
 T So You Want to Be a Chef...|QID|31281|M|53.58,51.22|N|To Sungshin Ironpaw.|
