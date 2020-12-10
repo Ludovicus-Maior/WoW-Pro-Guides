@@ -1486,6 +1486,10 @@ function WoWPro.UpdateGuideReal(From)
     end
     WoWPro:MapPoint()
     WoWPro:SendMessage("WoWPro_PostUpdateGuide")
+    if WoWPro.GuideLoaded ~= "Updated" then
+        WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA_GUIDE_LOAD")
+        WoWPro.GuideLoaded = "Updated"
+    end
 end
 
 local Rep2IdAndClass
@@ -1921,7 +1925,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         WoWPro:dbp("First Scenario Step %s [%s/%s] enabled.",stepAction,step,tostring(QID))
                         WoWPro.why[guideIndex] = "NextStep(): Active, for scenario to start."
                         if stage > 0 then
-                            WoWPro.ScenarioFirstStep = stage
+                            WoWPro.ScenarioFirstStep = guideIndex
                         end
                     end
                 end
