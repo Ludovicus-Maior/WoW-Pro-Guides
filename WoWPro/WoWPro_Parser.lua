@@ -362,6 +362,7 @@ end
 function WoWPro.EmitStep(i)
     local GID = WoWProDB.char.currentguide
 
+    if not i then return "<nil>"; end
     if i > WoWPro.stepcount then return "<EOG>"; end
 
     if type(WoWPro.action[i]) ~= "string" or type(WoWPro.step[i]) ~= "string" then
