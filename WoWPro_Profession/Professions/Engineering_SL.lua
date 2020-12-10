@@ -28,15 +28,15 @@ N Shopping List|N|The next few lines are going to be the Approximate amount of m
 
 ; Begin Shopping list, as of Dec-2020
 
-l Laestrite Ore|QID|202171828|P|Engineering;202;8+0|L|171828 276|N|You'll need approx 276 x Laestrite Ore.|
-l Porous Stone|QID|202171840|P|Engineering;202;8+0|L|171840 120|N|You'll need approx 120 x Porous Stone.|
-l Twilight Bark|QID|202177061|P|Engineering;202;8+0|L|177061 3|N|You'll need 3 x Twilight Bark.|
-N Decision Time|QID|202000002|P|Engineering;202;8+0|N|You have a choice of two Scopes to make.\nInfra-green Relfex Sight needs 30 Oriblase (High AH Cost), or \nOptical Target Embiggener need 15 Oriblase AND 15 Angerseye (Cheap on AH).|
-l Oriblase|QID|202173108|P|Engineering;202;8+0|L|173108 15|N|You'll need 15 x Oriblase. ** 30 if you are making the Sight.|
-l Angerseye|QID|202173109|P|Engineering;202;8+0|L|173109 15|N|You'll need 15 x Angerseye.  ** 0 if you are making the Sight.|
-B Machinist's Oil|QID|202183952|P|Engineering;202;8+0|L|183952 30|N|You'll need 30 x Machinist's Oil - Sold by Distributor Au'burk.|
-B Luminous Flux|QID|202180733|P|Engineering;202;8+0|L|180733 30|N|You'll need 30 x Luminous Flux - Sold by Distributor Au'burk.|
-
+l Laestrite Ore|QID|202171828|L|171828 276|N|You'll need approx 276 x Laestrite Ore.|
+l Porous Stone|QID|202171840|L|171840 120|N|You'll need approx 120 x Porous Stone.|
+l Twilight Bark|QID|202177061|L|177061 3|N|You'll need 3 x Twilight Bark.|
+N Decision Time|QID|202000002|N|You have a choice of two Scopes to make.\nInfra-green Relfex Sight needs 30 Oriblase (High AH Cost), or \nOptical Target Embiggener need 15 Oriblase AND 15 Angerseye (Cheap on AH).|
+l Oriblase|QID|202173108|L|173108 15|N|You'll need 15 x Oriblase. ** 30 if you are making the Sight.|
+l Angerseye|QID|202173109|L|173109 15|N|You'll need 15 x Angerseye.  ** 0 if you are making the Sight.|
+B Machinist's Oil|QID|202183952|L|183952 30|N|You'll need 30 x Machinist's Oil - Sold by Distributor Au'burk.|
+B Luminous Flux|QID|202180733|L|180733 30|N|You'll need 30 x Luminous Flux - Sold by Distributor Au'burk.|
+N Class Specific Mats|N|If you are NOT on your Engineer, there are some Class Specific Mats you need.  PLEASE switch back to Engineer to get the list.|
 l Umbryl|P|Engineering;202;8+0|L|173110 2|N|You will need 2 Umbryl Gems for your Head Gear.|C|Mage,Priest,Warlock|
 l Shrouded Cloth|P|Engineering;202;8+0|L|173202 10|N|You will need 10 Shrouded Cloth for your Head Gear.|C|Mage,Priest,Warlock|
 l Umbryl|P|Engineering;202;8+0|L|173110 1|N|You will need 1 Umbryl Gem for your Head Gear.|C|Demon Hunter,Druid,Monk,Rogue,Hunter,Shaman|
