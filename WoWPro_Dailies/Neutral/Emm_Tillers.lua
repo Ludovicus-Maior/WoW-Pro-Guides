@@ -19,10 +19,10 @@ N Cooking|AVAILABLE|31311|N|The favorite meals for the various friends require P
 N Pandaren Cooking guide|AVAILABLE|31311|N|The Pandaren Cooking guide will get you to where you need to be.|JUMP|Pandaren Cooking|P|Cooking;185;4+25;1| ; They have the Cooking skill started but may not have the recipes required.
 N Available Quests|QID|30535|N|Because quests are given at various Friendship levels and Tiller Rep levels, you can accept a quest whenever you see it; whether or not the guide tells you to (Except the daily turn in of Lost Treasure as discussed earlier). Those will be designated by a blue "?" instead of a blue "!".|
 N One-time Quests|QID|30535|N|Most of the friends offer various, one-time quests based on your Friendship level with them (Stranger/Acquaintance/Buddy/Friend/Good Friend/Best Friend). There is no immediate need to finish the quests; unless you're turning in lots of Dark Soil treasures. If that's the case, turn in the quest first before doing the treasures.\nYou'll probably want to keep an eye on your Friendship levels as you do your turn-ins to avoid wasting Friendship ("U" key by default).|
-N Farming|QID|30535|N|You'll probably want to do the "Growing the Farm" quests right away to unlock more farming plots.|
+N Growing the Farm|QID|30535|N|To unlock more farming plots, accept and complete the "Growing the Farm" quests from Farmer Yoon as soon as you can.|
 N RANK|QID|30257|N|Do the guide on Rank 2 if you want to skip the share food with the friends quests, Set to Rank 1 if you also want to skip the cooking quests.|
 N Quick Method|QID|30527|N|Shortest time to exalted. If you have the bonus faction commendation on your account, you can get to exalted very quickly. The main limiting thing is the quests that require you to plant, harvest and deliver produce to obtain the votes. If you plant the item(s) in advance of receiving the quest, you can then harvest after you have the quest and then replant for the quest credit. (After replanting you can dig up and plant something else). Preplanting before you have the quest shaves a day off for each one (i.e. 4 days)off of the time it takes to get to exalted. You will also need to gain about 2K extra faction beyond the quests to finish in 4 days. If you are >= level 90, this can be from a random Pandaria dungeon or scenario while *championing* the Tillers faction. If you are >=level 90 you 100 from each harvest, but also need to purchasing commendations from Mistweaver Xia on Timeless Isle (50 timewarped badges/300 faction) or an extra day or two of dailies.|REP|The Tillers;1272;Neutral;bonus|
-N Championing|QID|30527|N|To champion a faction in Pandaria, you click on the star to the left of the reputation's name in your character's reputation panel. Then the first random Pandaria dungeon and/or scenario you do each day will yield you bonus rep with that faction.|
+N Championing|QID|30252|N|To champion a faction in Pandaria, you click on the star to the left of the reputation's name in your character's reputation panel. Then the first random Pandaria dungeon and/or scenario you do each day will yield you bonus rep with that faction.|
 N Quick method - Day 1|QID|31945|M|52.02,48.30|N|Plant 1 scallion and 2 carrot seeds as soon as you are able.|U|80591|REP|The Tillers;1272;honored-revered;bonus|
 N Quick method - Day 2|QID|31946|M|52.02,48.30|N|Harvest your scallion, Don't harvest the carrots until you have the quest to harvest them for Mung-Mung. Then plant 2 carrots to finish up the quests. This will have earned you enough rep to get the quests to open the 3rd plot. If you are not championing or otherwise getting extra faction, delay a day. Plant 3 cabbages and 3 Witchberries.|U|80591|NC|PRE|31945|REP|The Tillers;1272;honored-revered;bonus|
 N Quick method - Day 3|QID|31947|M|52.02,48.30|N|Wait to harvest until you have the quest. After harvesting, you can plant 3 cabbage, When you get Nana's vote quest, Harvest the Witchberries and plant 3 more. Plant 4 striped melons. If you didn't have enough faction to get the vote quests, harvest for the faction benefit and replant the same thing for tomorrow.|U|79102|NC|PRE|31946|REP|The Tillers;1272;honored-revered;bonus|
@@ -52,8 +52,8 @@ B Scallion Seeds|ACTIVE|31945|M|52.88,52.14|QO|1|N|Buy 1 from Merchant Greenfiel
 B Juicycrunch Carrot Seeds|ACTIVE|31945|M|52.88,52.14|N|Buy 2 from Merchant Greenfield.|
 C Learn and Grow VI: Gina's Vote|QID|31945|M|51.97,48.34|QO|1|N|Prepare the soil and plant the scallion seed. The next day you can harvest and deliver them to Gina.|T|Tilled Soil|U|80591|NC|
 N Quick method - Day 1|QID|31945|M|52.02,48.30|N|After planting the 1 scallion seed, plant 2 carrot seeds.\nThis will help for the next quest. There should be 1 empty spot left over.\nManually check this off when you are done.|T|Tilled Soil|U|80590|
-C Learn and Grow VI: Gina's Vote|QID|31945|N|Check this off manually and tomorrow you can harvest and deliver the scallions to Gina.|
-t Learn and Grow VI: Gina's Vote|QID|31945|N|To Gina Mudclaw.|
+C Learn and Grow VI: Gina's Vote|QID|31945|M|PLAYER|N|Check this off manually and tomorrow you can harvest and deliver the scallions to Gina.|
+t Learn and Grow VI: Gina's Vote|QID|31945|M|53.16,51.79|N|To Gina Mudclaw.|
 
 ;MUNG-MUNG'S VOTE - 5500 honored - I have this both places on purpose (i don't know that it is correct, but it is intentional) Because you may come across him in the market. or on the farm
 T Mung-Mung's Vote I: A Hozen's Problem|QID|30258|M|44.17,34.21|N|To Mung-Mung.|
@@ -95,6 +95,30 @@ A Master Cook Daily Quest|QID|30328^30329^30330^30331^30332|N|One of the master 
 A Farmer Yoon|QID|30333^30334^30335^30336^30337|M|52.92,51.83|N|Farmer Yoon has moved into town and only offers one quest a day now.|PRE|32682|REP|The Tillers;1272;Exalted| ; -- pre quest mismatch per grail is intentional, so wont trigger if you haven't bought the farm from Yoon
 
 ;prepare food
+; Shopping list for making food
+N Daily Food for Friends|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|PLAYER|N|The following steps are the ingredients you need to gather if you plan on cooking your Friends' Favorite foods for the day.\nHow you get them is entirely up to you.\nThe steps will complete as you acquire the items.|
+N Shopping list|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|N|For anyone trying to maximise their individual reps each day, you'll need:\n10x Krasarang Paddlefish, 10x Jade Lungfish, 5x Reef Octopus, 5x Giant Mantis Shrimp, 5x Emperor Salmon, 10x Wildfowl Breast, 5x Raw Tiger Steak, 5x Raw Turtle Meat, 35x Juicycrunch Carrot, 25x Striped Melon, and 25x Scallions.|
+l Jade Lungfish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30408^30390|M|46.71,87.84|Z|The Jade Forest|L|74856 5|N|In Jade Forest, locate a Jade Lungfish School in the water near Paw'don Glade.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
+l Jade Lungfish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30408&30390|M|46.71,87.84|Z|The Jade Forest|L|74856 10|N|In Jade Forest, locate a Jade Lungfish School in the water near Paw'don Glade.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
+l Reef Octopus|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30402|M|46.71,87.84|Z|The Jade Forest|L|74864 5|N|In Jade Forest, locate a Reef Octopus Swarm in the water all along the shore line\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
+l Wildfowl Breast|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30402^30421|M|57.00,36.80|L|74839 5|N|Kill the cranes in the area to collect them.|
+l Wildfowl Breast|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30402&30421|M|57.00,36.80|L|74839 10|N|Kill the cranes in the area to collect them.|
+l Giant Mantis Shrimp|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30386|M|38.20,77.00|L|74857 5|N|In Jade Forest, locate a Giant Mantis Shrimp Swarm in the water along the south coast and north along the east coast.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
+l Krasarang Paddlefish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30421|M|56.50,39.60|L|74865 10|N|In Valley of the Four Winds, locate a Krasarang Paddlefish School in the water anywhere in the area.\nDepending on your luck, this should only take fishing 2 or 3 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
+l Raw Tiger Steak|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30414|M|14.00,74.40|L|74833 5|N|Kill Gorge Stalkers to loot it.|
+N Juicycrunch Carrots|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|PLAYER|N|You have many options to acquire these. You can buy, loot or harvest them.\nUntil you establish your farm, buying may be your best option. Trying to loot 25-35 of them every day, could prove time consuming and difficult.\nFarming them is an option. But, you'll need to balance this with the crops you need to grow for other quests. All dishes combined, you'll need to harvest 17 plants per day.|
+l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396&-30439|M|52.02,48.30|L|74841 25|N|If you prefer, you can grow these on your farm. You'll have to harvest 5 plants/day (depending on which dish you're cooking)|
+l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|-30396&30439|M|52.02,48.30|L|74841 10|N|If you prefer, you can grow these on your farm. You'll have to harvest 2 plants/day (depending on which dish you're cooking)|
+l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396&30439|M|52.02,48.30|L|74841 35|N|If you prefer, you can grow these on your farm. You'll have to harvest 7 plants/day (depending on which dish you're cooking)|
+l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396^30439|M|64.13,25.15|Z|Krasarang Wilds|L|74841 25|N|Kill Darnassian Outrider. She respawns every ~60 seconds.\nShe drops 1-3 and her drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of her dropping Red Blossom Leeks instead.|FACTION|Horde|
+l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396&30439|M|64.13,25.15|Z|Krasarang Wilds|L|74841 35|N|Kill Darnassian Outrider. She respawns every ~60 seconds.\nShe drops 1-3 and her drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of her dropping Red Blossom Leeks instead.|FACTION|Horde|
+l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396^30439|M|70.12,20.56|Z|Krasarang Wilds|L|74841 25|N|Kill Sunwalker Scout. He paths the road in front of The Krasari Ruins. He respawns every ~60 seconds.\nHe drops 1-3 and his drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of him dropping Red Blossom Leeks instead.|FACTION|Alliance|
+l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396&30439|M|70.12,20.56|Z|Krasarang Wilds|L|74841 35|N|Kill Sunwalker Scout. He paths the road in front of The Krasari Ruins. He respawns every ~60 seconds.\nHe drops 1-3 and his drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of him dropping Red Blossom Leeks instead.|FACTION|Alliance|
+l Raw Turtle Meat|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396|M|71.60,51.80|L|74837 5|N|
+l Striped Melon|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30408|M|52.02,48.30|L|74848 25|N|There is a very slim chance of getting these from a drop. Best bet is to grow them on your farm. You need to harvest 5 plants/day.|
+l Emperor Salmon|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30433|L|74859 5|N|Locate an Emperor Salmon School anywhere in the water in Valley of the Four Winds.\n[color=FF0000]NOTE: [/color]These are random spawns and may be difficult to find.|
+l Scallions|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30433|M|52.02,48.30|L|74843 25|N|There is a very slim chance of getting these from a drop. Best bet is to grow them on your farm. You need to harvest 5 plants/day.|
+
 B Buy or Make 5 Eternal Blossom Fish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30408|L|74645 5|N|This is for Sho. It requires Jade Lungfish x5 and Striped Melon x25.|REP|Sho;1278;Stranger-Good Friend|RANK|3|
 B Buy or Make 5 Charbroiled Tiger Steak|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30414|L|74642 5|N|This is for Haohan. It requires Raw Tiger Steak x5.|REP|Haohan Mudclaw;1279;Stranger-Good Friend|RANK|3|
 B Buy or Make 5 Valley Stir Fry|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30402|L|74647 5|N|This is for Chee Chee It requires Reef Octopus x5 and Wildfowl Breast x5.|REP|Chee Chee;1277;Stranger-Good Friend|RANK|3|
@@ -152,7 +176,7 @@ C A Pumpkin-y Perfume|QID|31672|M|51.98,48.31|N|Plant what Farmer Yoon wants, af
 C It's Melon Time|QID|31942|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|89329|NC|
 C Red Blossom Leeks, You Make the Croc-in' World Go Down|QID|31673|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|80593|NC|
 C Squash Those Foul Odors|QID|31941|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|89328|NC|
-C That Dangling Carrot|QID|31670|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|80590|NC|
+C That Dangling Carrot|QID|31670|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|80590|NC|
 C The Cabbage Test|QID|31669|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|79102|NC|
 C The Pink Turnip Challenge|QID|31674|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|80594|NC|
 C The White Turnip Treatment|QID|31675|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|80595|NC|
@@ -354,11 +378,11 @@ T Haohan's Vote V: Chief Yip-Yip|QID|30528|M|52.20,48.86|N|To Farmer Yoon. A dia
 
 ;CLEAR THE WEEDS - 0 Honored
 A Growing the Farm I: The Weeds|QID|30260|M|52.25,48.79|N|From Farmer Yoon.|REP|The Tillers;1272;honored|
-T Growing the Farm I: The Weeds|QID|30260|M|38.6,51.6|N|To Gai Lan.|
-A Growing the Farm I: A Little Problem|QID|30516|M|38.6,51.6|N|From Gai Lan.|PRE|30260|
-C Growing the Farm I: A Little Problem|QID|30516|M|36,50|N|Spiderroot is a sparkly ground spawn in the area.|
-T Growing the Farm I: A Little Problem|QID|30516|M|38.6,51.6|N|To Gai Lan.|
-N Growing the Farm I|AVAILABLE|30531|M|51.75,48.44|N|Check in with Gai Lan at the farm to start a 15 minute timer (buff) for him to finish spraying the weeds, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|BUFF|114431|
+T Growing the Farm I: The Weeds|QID|30260|M|38.59,51.72|N|To Gai Lan.|
+A Growing the Farm I: A Little Problem|QID|30516|M|38.59,51.72|N|From Gai Lan.|PRE|30260|
+C Growing the Farm I: A Little Problem|QID|30516|M|36,50|N|Spideroot is a sparkly ground spawn in the area to the west of Gai.\n[color=FF0000]NOTE: [/color]There is a chance of spawning 4-5 Spider Mites when you pick it.|NC|
+T Growing the Farm I: A Little Problem|QID|30516|M|38.59,51.72|N|To Gai Lan.|
+N Growing the Farm I|AVAILABLE|30531|M|51.75,48.44|N|Gai Lan will head to Sunsong Ranch farm to begin spraying the weeds on your farm to remove them and open new plots.\n[color=FF0000]NOTE: [/color]This starts a timed Buff that expires after 15 minutes. After which, you will be able to use the plots.|BUFF|114431|
 
 ;BUY COMMENDATION
 B Grand Commendation|M|53.2,51.8|L|93226|N|Buy the commendation from Gina Mudclaw and click on it to use. If you have already bought the commendation with a character on this account, check this step off manually. The commendation (once used) doubles your faction gains with Tillers for all characters on the account, unfortunately it has no affect on the friends. The only indication whether or not you have previously bought it is seeing bonus faction when you turn in quests.|PRE|30516|REP|The Tillers;1272;revered;nobonus| ; -- placed here (instead of with the other 'buys') so that you can get the gains from the growing the farm quest too. -- [Hendo72] No QID?
@@ -370,21 +394,21 @@ T Growing the Farm II: The Broken Wagon|QID|30523|M|41.6,30|N|To Fish Fellreed. 
 A Growing the Farm II: Knock on Wood|QID|30524|M|41.6,30|N|From Fish Fellreed. If she is not here, she is at the market in Halfhill.|PRE|30523|
 C Growing the Farm II: Knock on Wood|QID|30524|M|43,29|N|The planks of wood are in the water surrounded by aggro crabs. Be careful.|
 T Growing the Farm II: Knock on Wood|QID|30524|M|41.6,30|N|To Fish Fellreed. If she is not here, she is at the market in Halfhill.|
-N Growing the Farm II|AVAILABLE|30533|M|51.71,47.82|N|Check in with Fish at the farm to start a 15 minute timer (buff) for her to finish fixing the wagon, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|BUFF|114483|
+N Growing the Farm II|AVAILABLE|30533|M|51.71,47.82|N|Check in with Fish at the farm to start a 15 minute timer (buff) for her to finish fixing the wagon, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|BUFF|114483|PRE|30524|
 
 ;REMOVE THE ROCK - 0 Exalted
 A Growing the Farm III: The Mossy Boulder|QID|30529|M|52.20,48.86|N|From Farmer Yoon.|PRE|30528|REP|The Tillers;1272;exalted|
 T Growing the Farm III: The Mossy Boulder|QID|30529|M|44.6,34|N|If Haohan is not at the market he can be found on his farm (where the green dot is).|
-C Growing the Farm III|AVAILABLE|30574|M|51.79,47.76|N|Check in with Hoahan to start a 15 min timer for removing the Boulder. You don't have to stay on the farm while Thunder works.|BUFF|114624|
+C Growing the Farm III|AVAILABLE|30574|M|51.79,47.76|N|Check in with Hoahan to start a 15 min timer for removing the Boulder. You don't have to stay on the farm while Thunder works.|BUFF|114624|PRE|30529|
 
-C A Gift For Fung|QID|30475|M|52.8,51.6|N|Talk to Kol Ironpaw - Master of the Grill to make the 'Grilled Plainshawk Leg'.|CHAT|
-T Fatty Goatsteak|QID|30332|M|52.8,51.6|N|To Kol Ironpaw.|
+C A Gift For Fung|ACTIVE|30475|M|52.97,51.33|QO|1|N|Talk to Kol Ironpaw - Master of the Grill to make the 'Grilled Plainshawk Leg'.|CHAT|
+T Fatty Goatsteak|QID|30332|M|52.97,51.33|N|To Kol Ironpaw.|
 
 T The Thousand-Year Dumpling|QID|30328|M|52.6,51.6|N|To Yan Ironpaw.|
 T Cindergut Peppers|QID|30329|M|52.8,51.8|N|To Anthea Ironpaw.|
 
-T A Gift For Fung|QID|30475|M|52.8,51.6|N|To Farmer Fung, also he prefers the Marsh Lily.|
-T Water, Water Everywhere|QID|30317|M|52.83,51.61|N|To Farmer Fung.|
+T A Gift For Fung|QID|30475|M|52.90,51.69|N|To Farmer Fung, also he prefers the Marsh Lily.|
+T Water, Water Everywhere|QID|30317|M|52.90,51.69|N|To Farmer Fung.|
 
 T Where It Counts|QID|30325|M|53.07,52.21|N|To Sho, also she prefers the Lovely Apple.|
 T A Gift For Sho|QID|30472|M|53.07,52.21|N|To Sho.|
