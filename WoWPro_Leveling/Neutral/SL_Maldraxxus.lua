@@ -87,21 +87,21 @@ A Land of Opportunity|QID|57425|M|50.35,44.37|Z|Maldraxxus|N|From Grandmaster Vo
 C Land of Opportunity|QID|57425|M|51.07,47.09|Z|Maldraxxus|N|Kill High Champion Meskal|T|High Champion Meskal|MS|
 T Land of Opportunity|QID|57425|M|48.36,57.18|Z|Maldraxxus|N|To Baroness Draka.|MS|
 A Arms for the Poor|QID|57511|M|48.36,57.18|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
-A Walk Among Death|QID|57512|M|48.35,57.25|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
-A Memory of Honor|QID|60179|M|48.36,57.78|Z|Maldraxxus|N|From Faded Epitaph.|PRE|57425|MS|
-C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|S|MS|
 C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|NC|N|Click on weapons on the ground and give them to the Displaced Scavengers.|T|Displaced Scavenger|S|MS|
 t Arms for the Poor|QID|57511|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|;yes, this is intentional placement, the "t" means it will pop up when it gets finished, but not before.;
-t Walk Among Death|QID|57512|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|; moved because i thought it was a pre to 60181, but i guess it isnt... oh well. works here as well as there.
-A Trench Warfare|QID|60181|M|PLAYER|Z|Maldraxxus|N|From Baroness Draka.|PRE|57511|MS|
-C Trench Warfare|QID|60181|M|45.72,61.54|Z|Maldraxxus|U|178496|N|Kill Malifis, be sure to use your Warhorn if you want assistance.|T|Malifis|MS|
+A Walk Among Death|QID|57512|M|48.35,57.25|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
+C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|S|MS|
+t Walk Among Death|QID|57512|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A Memory of Honor|QID|60179|M|48.36,57.78|Z|Maldraxxus|N|From Faded Epitaph.|PRE|57425|MS|
 C Memory of Honor|QID|60179|M|44.80,58.33|Z|Maldraxxus|QO|1<1|NC|N|Read the Faded Epitaphs off the headstones.|MS|
 C Memory of Honor|QID|60179|M|44.01,61.50|Z|Maldraxxus|QO|1<2|NC|N|Read the Faded Epitaphs off the headstones.|MS|
 C Memory of Honor|QID|60179|M|45.87,61.75|Z|Maldraxxus|QO|1<3|NC|N|Read the Faded Epitaphs off the headstones.|MS|
+T Memory of Honor|QID|60179|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
 $ Ornate Bone Shield|QID|59358|M|47.25,62.14|ITEM|180749|N|Up the hill for a bit of treasure.|ACH|14312;1|
 C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|NC|N|Click on weapons on the ground and give them to the Displaced Scavengers.|T|Displaced Scavenger|US|MS|
 C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|US|MS|
-T Memory of Honor|QID|60179|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A Trench Warfare|QID|60181|M|PLAYER|Z|Maldraxxus|N|From Baroness Draka.|PRE|57511&57512|MS|
+C Trench Warfare|QID|60181|M|45.72,61.54|Z|Maldraxxus|U|178496|N|Kill Malifis, be sure to use your Warhorn if you want assistance.|T|Malifis|MS|
 T Trench Warfare|QID|60181|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
 A The House of the Chosen|QID|57515|M|PLAYER|Z|Maldraxxus|N|From Baroness Draka.|PRE|60181|MS|
 C The House of the Chosen|QID|57515|M|40.46,62.09|Z|Maldraxxus|QO|1|NC|N|Enter the House of the Chosen.|MS|
