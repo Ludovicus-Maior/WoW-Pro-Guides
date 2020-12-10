@@ -31,8 +31,8 @@ N Shopping List|N|The next few lines are going to be the Approximate amount of m
 ; Begin Shopping list, as of Dec-2020
 
 
-l Shrouded Cloth|QID|197173202|P|Tailoring;197;8+0|L|173202 500|N|You'll need approx 500 Shrouded Cloth.|
-l Lightless Silk|QID|197173204|P|Tailoring;197;8+0|L|173204 76|N|You'll need approx 76 Lightless Silk.|
+l Shrouded Cloth|QID|197173202|L|173202 500|N|You'll need approx 500 Shrouded Cloth.|
+l Lightless Silk|QID|197173204|L|173204 76|N|You'll need approx 76 Lightless Silk.|
 
 N Shopping List|N|This completes the Shopping List|
 
