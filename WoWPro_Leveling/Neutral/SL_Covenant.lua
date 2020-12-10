@@ -751,9 +751,10 @@ A Building the Base|QID|58181|PRE|58183|M|45.42,56.43|Z|Archon's Rise@Elysian Ho
 C Building the Base|QID|58181|M|45.42,56.43|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|NC|N|Take Phaestus, Genesis of Aeons.|COV|Kyrian|
 C Building the Base|QID|58181|M|44.07,60.83|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2|NC|N|Complete the Crest of Ascension Base.|COV|Kyrian|
 T Building the Base|QID|58181|M|44.96,56.88|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Mikanikos.|COV|Kyrian|
-A Return Lost Souls|QID|62863|PRE|61982|M|59.31,34.40|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|From Soulguide Daelia.|COV|Kyrian|
-t Return Lost Souls|QID|62863|M|46.52,66.03|Z|Archon's Rise@Elysian Hold!Dungeon|COV|Kyrian|
-A An Expected Visitor|QID|61785|PRE|62863|M|55.44,42.48|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
+
+; Chapter 5
+N Renown Level 11|AVAILABLE|61785|N|You must reach Renown level 11 to continue to the next chapter.|COV|Kyrian|REN|-11|
+A An Expected Visitor|QID|61785|PRE|58181|M|55.44,42.48|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|REN|11|
 T An Expected Visitor|QID|61785|M|62.05,37.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Xandria.|COV|Kyrian|
 A A Perilous Journey|QID|61767|PRE|61785|M|62.05,37.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Xandria.|COV|Kyrian|
 F Spider's Watch|ACTIVE|61767|M|51.29,48.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|Kyrian|
@@ -814,7 +815,10 @@ F Elysian Hold|ACTIVE|61877|M|37.54,29.28|Z|Maldraxxus|N|Head to the flightmaste
 T Return to the Hold|QID|61877|M|39.19,59.55|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Xandria.|COV|Kyrian|
 A Crest of Greatness|QID|61878|PRE|61540&59703&61877|M|39.19,59.55|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Xandria.|COV|Kyrian|
 T Crest of Greatness|QID|61878|M|40.50,60.50|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Fleshshaper's Heart, on the Crest.|COV|Kyrian|
-A Assistance from Sinfall|QID|58557|PRE|61878|M|55.36,42.24|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
+
+; Chapter 6
+N Renown Level 13|AVAILABLE|58557|N|You must reach Renown level 13 to continue to the next chapter.|COV|Kyrian|REN|-13|
+A Assistance from Sinfall|QID|58557|PRE|61878|M|55.36,42.24|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|REN|13|
 F Darkhaven|ACTIVE|58557|M|51.29,48.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Darkhaven.|COV|Kyrian|
 C Assistance from Sinfall|QID|58557|M|60.39,60.82|Z|Revendreth|CHAT|N|Speak with The Curator in Darkhaven.|COV|Kyrian|
 T Assistance from Sinfall|QID|58557|M|60.39,60.82|Z|Revendreth|N|To The Curator.|COV|Kyrian|
@@ -873,7 +877,10 @@ C Parting Words|QID|58570|M|44.87,56.51|Z|Archon's Rise@Elysian Hold!Dungeon|QO|
 T Parting Words|QID|58570|M|45.48,56.82|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Mikanikos.|COV|Kyrian|
 A The Seal of Contrition|QID|58571|PRE|58570|M|45.48,56.82|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Mikanikos.|COV|Kyrian|
 T The Seal of Contrition|QID|58571|M|44.46,58.80|Z|Archon's Rise@Elysian Hold!Dungeon|N|To the Seal, on the Crest.|COV|Kyrian|
-A Meet the Queen|QID|58775|PRE|58571|M|45.35,56.64|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes, he moves back to his normal spot if you wait too long.|COV|Kyrian|
+
+; Chapter 7
+N Renown Level 17|AVAILABLE|58775|N|You must reach Renown level 17 to continue to the next chapter.|COV|Kyrian|REN|-17|
+A Meet the Queen|QID|58775|PRE|58571|M|45.35,56.64|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes, he moves back to his normal spot if you wait too long.|COV|Kyrian|REN|17|
 F Refugee Camp|ACTIVE|58775|M|51.35,48.49|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|N|Head to the flightmaster and take a flight to Refugee Camp.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|25.13,23.77|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak with Lord Herne at the Heart of the Forest.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|45.98,57.61|Z|The Canopy@Heart of the Forest!Dungeon|QO|2|NC|N|Tell Pelagos, Let's hear what the Queen has to say.|COV|Kyrian|
@@ -921,7 +928,10 @@ T Heart of the Crest|QID|61135|M|43.54,64.61|Z|Archon's Rise@Elysian Hold!Dungeo
 A A New Age|QID|61697|PRE|61135|M|43.62,65.88|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 C A New Age|QID|61697|M|42.69,61.39|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|EAB|N|Active the Crest of Ascension.|COV|Kyrian|
 T A New Age|QID|61697|M|43.41,66.04|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
-A On Lysonia's Trail|QID|57113|PRE|61697|M|55.27,42.41|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
+
+; Chapter 8
+N Renown Level 20|AVAILABLE|57113|N|You must reach Renown level 20 to continue to the next chapter.|COV|Kyrian|REN|-20|
+A On Lysonia's Trail|QID|57113|PRE|61697|M|55.27,42.41|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|REN|20|
 F Hero's Rest|ACTIVE|57113|M|51.25,48.59|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Hero's Rest.|COV|Kyrian|
 P Firstborne's Bounty|ACTIVE|57113|M|53.29,44.91|Z|Bastion!The Shadowlands|N|Take the portal to Firstborne's Bounty.|COV|Kyrian|
 R Temple of Humility|ACTIVE|57113|M|61.82,43.69|Z|Bastion!The Shadowlands|N|Make your way to the Temple of Humility.|COV|Kyrian|
@@ -974,7 +984,10 @@ T Time to Reflect|QID|57125|M|55.48,42.49|Z|Archon's Rise@Elysian Hold!Dungeon|N
 A A Touch of Humility|QID|62555|PRE|57125|M|55.48,42.49|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 C A Touch of Humility|QID|62555|M|45.16,56.85|Z|Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Tell Polemarch Adrestes, you are Ready to witness the empowering of the Crest of Ascension.|COV|Kyrian|
 T A Touch of Humility|QID|62555|M|55.27,42.39|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
-A Convene the Paragons|QID|58854|PRE|62555|M|55.27,42.39|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
+
+; Chapter 9
+N Renown Level 22|AVAILABLE|58854|N|You must reach Renown level 22 to continue to the next chapter.|COV|Kyrian|REN|-22|
+A Convene the Paragons|QID|58854|PRE|62555|M|55.27,42.39|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|REN|22|
 C Convene the Paragons|QID|58854|M|56.02,41.27|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|NC|N|Click on the Echo of Aeons, to Summon the Paragons.|COV|Kyrian|
 C Convene the Paragons|QID|58854|M|58.15,40.37|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2;3|NC|N|Enter Archon's Rise, as the Paragons arrive, to plan an Assualt.|COV|Kyrian|
 T Convene the Paragons|QID|58854|M|55.51,42.47|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
@@ -1016,8 +1029,6 @@ A Our Realm Reclaimed|QID|62557|PRE|59919|M|66.47,16.58|Z|Bastion!The Shadowland
 C Our Realm Reclaimed|QID|62557|M|65.13,18.51|Z|Bastion!The Shadowlands|CHAT|N|Tell Polemarch Adrestes, you are Ready to witness the Empowerment of the Crest of Ascension.|COV|Kyrian|
 T Our Realm Reclaimed|QID|62557|M|66.46,16.59|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|
 
-A A Call to Ardenweald|QID|60424|PRE|62557|M|66.47,16.58|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|COV|Kyrian|  ; not sure if belongs Calling Quest
-t Call to Ardenweald|QID|60424|M|66.47,16.58|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|  ; not sure if belongs
 
 N Venthyr Campaign|QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Venthyr|
 ; Chapter 1
@@ -1117,30 +1128,6 @@ A The Highlord Calls|QID|63033|M|51.79,37.61|Z|Sinfall Reaches@Sinfall!Dungeon|N
 F Oribos|ACTIVE|63033|M|67.21,21.50|Z|Sinfall Reaches@Sinfall!Dungeon|N|Take a flight to the Oribos.|COV|Venthyr|
 P Ring of Fates|ACTIVE|63033|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Venthyr|
 T The Highlord Calls|QID|63033|M|39.94,68.55|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Venthyr|
-A Halls of Atonement: Medallion of Pride|QID|60500|M|56.81,30.97|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Medallion of Pride.|COV|Venthyr|
-A Into Torghast|QID|60136|M|39.94,68.55|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|COV|Venthyr|
-P Ring of Transference|ACTIVE|60136|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the transporter to the Ring of Transference.|COV|Venthyr|
-C Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|NC|N|Jump into The Maw then talk to Va'nari.|COV|Venthyr|
-T Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|NC|N|To Va'nari.|COV|Venthyr|
-A The Search for Baine|QID|61099|M|46.90,41.69|Z|The Maw|N|From Va'nari.|COV|Venthyr|
-C The Search for Baine|QID|61099|M|48.18,39.47|QO|1|Z|The Maw|NC|N|Use Ve'nari's portal to enter Torghast.|COV|Venthyr|
-C The Search for Baine|QID|61099|M|37.89,47.10|QO|2|Z|1911|CHAT|N|Take the Attuned Shard to the Wayfinder and see where it leads.|COV|Venthyr|
-C The Search for Baine|QID|61099|QO|3|Z|The Maw|N|Warden Arkoban slain.|COV|Venthyr|
-C The Search for Baine|QID|61099|M|46.90,41.69|QO|4|Z|The Maw|NC|N|Baine Rescued.|COV|Venthyr|
-T The Search for Baine|QID|61099|M|39.93,68.58|Z|Ring of Fates@Oribos|NC|N|To Highlord Bolvar Fordragon.|COV|Venthyr|
-A Explore Torghast|QID|62932|M|39.93,68.58|Z|Ring of Fates@Oribos|NC|N|From Highlord Bolvar Fordragon|COV|Venthyr|
-P Ring of Transference|ACTIVE|62932|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the transporter to the Ring of Transference and then jump into the soul pillar.|COV|Venthyr|
-P Torghast, Tower of the Damned|ACTIVE|62932|M|48.16,39.51|Z|The Maw|N|Take the portal to Torghast tower.|COV|Venthyr|
-C Explore Torghast|QID|62932|M|46.90,41.69|Z|The Maw|NC|N|Jump into The Maw then talk to Va'nari.|COV|Venthyr|
-T Explore Torghast|QID|62932|M|39.93,68.58|Z|Ring of Fates@Oribos|NC|N|To Highlord Bolvar Fordragon.|COV|Venthyr|
-C Halls of Atonement: Medallion of Pride|QID|60500|Z|Sinfall Reaches@Sinfall!Dungeon|N|Recover the Medallion of Pride from Lord Chamberlain within the Halls of Atonement..|COV|Venthyr|
-T Halls of Atonement: Medallion of Pride|QID|60500|M|51.77,37.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
-A Sanctum Upgrade: Adventures Scouting Map|QID|63064|M|55.56,26.35|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Foreman Flatfinger.|COV|Venthyr|
-C Sanctum Upgrade: Adventures Scouting Map|QID|63064|M|56.07,58.81|Z|Sinfall Reaches@Sinfall!Dungeon|NC|N|Adventures Scouting Map activated.|COV|Venthyr|
-T Sanctum Upgrade: Adventures Scouting Map|QID|63064|M|57.92,59.34|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Tactician Sakaa.|COV|Venthyr|
-A Advancing Our Efforts|QID|59319|M|57.92,59.34|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Tactician Sakaa.|COV|Venthyr|
-C Advancing Our Efforts|QID|59319|M|55.84,61.16|Z|Sinfall Reaches@Sinfall!Dungeon|NC|N|Inspect the scouting map and start an adventure.|COV|Venthyr|
-T Advancing Our Efforts|QID|59319|M|57.92,59.34|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Tactician Sakaa.|COV|Venthyr|
 
 ; Chapter 3
 N Renown Level 5|AVAILABLE|60500|N|You must reach Renown level 5 to continue to the next chapter.|COV|Venthyr|REN|-5|
@@ -1228,13 +1215,13 @@ A "Accidental" Arson|QID|57889|M|58.05,27.53|Z|Revendreth|N|From The Countess.|P
 A Beautiful, But Deadly|QID|57890|M|58.05,27.53|Z|Revendreth|N|From The Countess.|PRE|57887|COV|Venthyr|REN|8|
 R Thornhill Manor|ACTIVE|57890|M|57.39,28.65|Z|Revendreth|N|Run back through the mirror to Thornhill Manor.|COV|Venthyr|
 R Redelav District|ACTIVE|57890|M|56.92,37.21|Z|Revendreth|N|Run up to the Redelav District.|COV|Venthyr|
-C Beautiful, But Deadly|QID|57890|M|53.97,38.16|Z|Revendreth|U|173358|NC|N|Collect Duskmire Mushrooms around on the ground.|S|COV|Venthyr|
-C "Accidental" Arson|QID|57889|M|56.43,35.37|Z|Revendreth|QO|1|N|Kill Lord Andrei.|COV|Venthyr|
-C "Accidental" Arson|QID|57889|M|56.31,35.51|Z|Revendreth|QO|2|NC|N|Click on the Ornate Rug to start the fire.|COV|Venthyr|
+C Beautiful, But Deadly|QID|57890|M|53.97,38.16|Z|Revendreth|NC|N|Collect Duskmire Mushrooms around on the ground.|S|COV|Venthyr|
 C An Invitation to Treachery|QID|57888|M|55.27,34.92|Z|Revendreth|QO|4|U|173358|NC|N|Target the Redelav's Servant and use the invitation to toss it.|T|Fiendish Servant|COV|Venthyr|
 C An Invitation to Treachery|QID|57888|M|53.06,37.01|Z|Revendreth|QO|1|U|173358|NC|N|Target the Darkvein's Servant and use the invitation to toss it.|T|Fiendish Servant|COV|Venthyr|
 C An Invitation to Treachery|QID|57888|M|54.30,38.80|Z|Revendreth|QO|2|U|173358|NC|N|Target the Duskmire's Servant and use the invitation to toss it.|T|Fiendish Servant|COV|Venthyr|
 C An Invitation to Treachery|QID|57888|M|55.90,39.50|Z|Revendreth|QO|3|U|173358|NC|N|Target the Primrose's Servant and use the invitation to toss it.|T|Fiendish Servant|COV|Venthyr|
+C "Accidental" Arson|QID|57889|M|56.43,35.37|Z|Revendreth|QO|1|N|Kill Lord Andrei.|COV|Venthyr|
+C "Accidental" Arson|QID|57889|M|56.31,35.51|Z|Revendreth|QO|2|NC|N|Click on the Ornate Rug to start the fire.|COV|Venthyr|
 C Beautiful, But Deadly|QID|57890|M|53.97,38.16|Z|Revendreth|U|173358|NC|N|Collect Duskmire Mushrooms around on the ground.|US|COV|Venthyr|
 R Redelav Tower|ACTIVE|57890|M|58.75,30.29|Z|Revendreth|N|Run back through the mirror to Redelav Tower.|COV|Venthyr|
 T An Invitation to Treachery|QID|57888|M|58.05,27.53|Z|Revendreth|N|To The Countess.|COV|Venthyr|
@@ -1252,7 +1239,7 @@ C Enacting Immediate Justice|QID|57892|M|56.39,27.71|Z|Revendreth|QO|2|CHAT|N|Ta
 C Enacting Immediate Justice|QID|57892|M|56.41,27.71|Z|Revendreth|QO|3|N|Kill the Traitor.|COV|Venthyr|
 T Enacting Immediate Justice|QID|57892|M|56.93,28.64|Z|Revendreth|N|To The Countess.|COV|Venthyr|
 A Neither Enemy nor Ally|QID|57893|M|56.93,28.64|Z|Revendreth|N|From The Countess.|PRE|57892|COV|Venthyr|REN|8|
-F Sinfall|ACTIVE|57892|M|54.22,25.68|Z|Revendreth|N|Take the ramp down to the north toward the Menagerie flightpath. Take a flight to Sinfall.|COV|Venthyr|
+F Sinfall|ACTIVE|57893|M|54.22,25.68|Z|Revendreth|N|Take the ramp down to the north toward the Menagerie flightpath. Take a flight to Sinfall.|COV|Venthyr|
 T Neither Enemy nor Ally|QID|57893|M|51.78,37.44|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 
 ; Chapter 5

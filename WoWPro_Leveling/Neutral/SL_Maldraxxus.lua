@@ -64,6 +64,12 @@ N Spectre of War: Visectus|QID|62748|N|This is a weekly quest, that you can NOT 
 N Use of Ranks|QID|57386|N|Setting the guide to Rank 1 will direct you to all main story line quests. It will not direct you to optional quests, however, if you pick one up it will direct you where to complete and turn in. Rank 2 takes you to all the side quests, There is nothing set to Rank 3 in this guide.|MS|
 N Rank 1|ACTIVE|62748|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|
 N Necrolord Abilities|ACTIVE|62748|N|Your necrolord covenant abilities are found in your main class tab of your abilites, don't forget to drag them onto your hotkeys.|TOF|COV|Necrolord|
+A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60056|MS|
+C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|Ring of Fates@Oribos|NC|N|Use the Teleport Pad.|MS|
+T The Arbiter's Will|QID|61096|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
+A A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61096|MS|
+C A Land of Strife|QID|61107|M|59.67,36.36|Z|Ring of Transference@Oribos|NC|N|Click on the blue sword.|MS|
+T A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
 A If You Want Peace...|QID|57386|M|60.95,36.18|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61107|MS|
 C If You Want Peace...|QID|57386|M|59.51,34.39|Z|Ring of Transference@Oribos|CHAT|N|Speak to Roh-Avonavi to Travel to Maldraxxus.|MS|
 T If You Want Peace...|QID|57386|M|50.24,41.33|Z|Maldraxxus|N|To Grandmaster Vole.|MS|
@@ -81,21 +87,21 @@ A Land of Opportunity|QID|57425|M|50.35,44.37|Z|Maldraxxus|N|From Grandmaster Vo
 C Land of Opportunity|QID|57425|M|51.07,47.09|Z|Maldraxxus|N|Kill High Champion Meskal|T|High Champion Meskal|MS|
 T Land of Opportunity|QID|57425|M|48.36,57.18|Z|Maldraxxus|N|To Baroness Draka.|MS|
 A Arms for the Poor|QID|57511|M|48.36,57.18|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
-A Walk Among Death|QID|57512|M|48.35,57.25|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
-A Memory of Honor|QID|60179|M|48.36,57.78|Z|Maldraxxus|N|From Faded Epitaph.|PRE|57425|MS|
-C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|S|MS|
 C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|NC|N|Click on weapons on the ground and give them to the Displaced Scavengers.|T|Displaced Scavenger|S|MS|
 t Arms for the Poor|QID|57511|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|;yes, this is intentional placement, the "t" means it will pop up when it gets finished, but not before.;
-t Walk Among Death|QID|57512|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|; moved because i thought it was a pre to 60181, but i guess it isnt... oh well. works here as well as there.
-A Trench Warfare|QID|60181|M|PLAYER|Z|Maldraxxus|N|From Baroness Draka.|PRE|57511|MS|
-C Trench Warfare|QID|60181|M|45.72,61.54|Z|Maldraxxus|U|178496|N|Kill Malifis, be sure to use your Warhorn if you want assistance.|T|Malifis|MS|
+A Walk Among Death|QID|57512|M|48.35,57.25|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
+C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|S|MS|
+t Walk Among Death|QID|57512|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A Memory of Honor|QID|60179|M|48.36,57.78|Z|Maldraxxus|N|From Faded Epitaph.|PRE|57425|MS|
 C Memory of Honor|QID|60179|M|44.80,58.33|Z|Maldraxxus|QO|1<1|NC|N|Read the Faded Epitaphs off the headstones.|MS|
 C Memory of Honor|QID|60179|M|44.01,61.50|Z|Maldraxxus|QO|1<2|NC|N|Read the Faded Epitaphs off the headstones.|MS|
 C Memory of Honor|QID|60179|M|45.87,61.75|Z|Maldraxxus|QO|1<3|NC|N|Read the Faded Epitaphs off the headstones.|MS|
+T Memory of Honor|QID|60179|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
 $ Ornate Bone Shield|QID|59358|M|47.25,62.14|ITEM|180749|N|Up the hill for a bit of treasure.|ACH|14312;1|
 C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|NC|N|Click on weapons on the ground and give them to the Displaced Scavengers.|T|Displaced Scavenger|US|MS|
 C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|US|MS|
-T Memory of Honor|QID|60179|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A Trench Warfare|QID|60181|M|PLAYER|Z|Maldraxxus|N|From Baroness Draka.|PRE|57511&57512|MS|
+C Trench Warfare|QID|60181|M|45.72,61.54|Z|Maldraxxus|U|178496|N|Kill Malifis, be sure to use your Warhorn if you want assistance.|T|Malifis|MS|
 T Trench Warfare|QID|60181|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
 A The House of the Chosen|QID|57515|M|PLAYER|Z|Maldraxxus|N|From Baroness Draka.|PRE|60181|MS|
 C The House of the Chosen|QID|57515|M|40.46,62.09|Z|Maldraxxus|QO|1|NC|N|Enter the House of the Chosen.|MS|
