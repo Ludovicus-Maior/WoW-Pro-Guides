@@ -169,12 +169,14 @@ N Fishing quest and cooking training|AVAILABLE|31281|N|If you want to, this is a
 A You Want Fish?|QID|32684|M|53.58,51.22|N|From Sungshin Ironpaw.\n[color=FF0000]NOTE: [/color]As stated earlier, this is optional. Skip it if you so wish.|
 T You Want Fish?|QID|32684|M|58.92,46.92|N|To Ben of the Booming Voice down by the shore of the Gilding Stream.|
 A No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|From Ben of the Booming Voice.\nThis quest is meant to show you can fish without a pole.|
-C Learn Fishing Skill|ACTIVE|32685|M|58.92,46.92|N|Learn the fishing skill from Ben of the Booming Voice.|P|Fishing;356;8|
+N Learn Fishing Skill|QID|3562592|M|58.92,46.92|N|Learn the fishing skill from Ben of the Booming Voice.|P|Fishing;356;4|SPELL|Fishing;2592|
 C Go Fish|QID|32685|L|74866 5|N|To fish, simply click the Fishing icon and pay attention to the bobber. Hover over the bobber and click on it when it moves.\n[color=FF0000]NOTE: [/color]Drag the Fishing icon from your Profession Book to one of your bars for easier access.|
 T No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|To Ben of the Booming Voice.|
 ; --
 ; -- Cooking quests
 A So You Want to Be a Chef...|QID|31281|M|53.58,51.22|N|From Sungshin Ironpaw, in The Halfhill Market.\n[color=FF0000]NOTE: [/color]As stated earlier, this is optional. Skip it if you so wish.|RANK|3|
+N Learn Cooking|QID|1852550|M|53.58,51.22|N|Learn from Sungshin Ironpaw. You need this to do any cooking.|P|Cooking;185;0|SPELL|Cooking;2550|
+N Learn Pandaria Cooking|QID|185264640|M|53.58,51.22|N|Learn from Sungshin Ironpaw. You need this to cook Pandaren recipes.|P|Cooking;185;4|SPELL|Pandaria Cooking;264640|
 B Pandaren Peach|ACTIVE|31281|M|53.58,51.22|L|74660 5|N|Buy 5 from Sungshin Ironpaw.|
 C Sliced Peaches|QID|31281|M|PLAYER|N|Make 5 Sliced Peaches.|NC|
 T So You Want to Be a Chef...|QID|31281|M|53.58,51.22|N|To Sungshin Ironpaw.|
@@ -210,41 +212,41 @@ N The Tillers Guide|AVAILABLE|31945|N|This completes the Intro to The Tillers. F
 ; --
 T Doesn't Hold Water|QID|30049|M|54.28,38.74|N|To Mudmug, on the northern exit of the ring road, pacing around his barrels.|
 A The Great Water Hunt|QID|30051|M|54.19,38.65|N|From Mudmug.|PRE|30049|
-C The Great Water Hunt|QID|30051|M|53.20,31.92|N|Lead Mudmug to the pools of muddy water (yum!). Sometimes a creature will attack before Mudmug can gather his water.|S|NC|
+C The Great Water Hunt|QID|30051|M|53.20,31.92|N|Lead Mudmug to the pools of muddy water (yum!). Sometimes a creature will attack before Mudmug can gather his water.\n[color=FF0000]NOTE: [/color]If you die, you'll have to go back and get Mudmug. You don't have to start over from scratch.|S|NC|
 K Kill Kracor|QID|32045|M|55.9,33.9|QO|1|T|Kracor|; Gilded Fan
 K Kill Thundergill|QID|32045|M|55.1,25.9|QO|2|T|Thundergill|; Gilded Fan
 K Kill Succula|QID|32045|M|51.4,26.9|QO|3|T|Succula|; The Heartland
-K Kill Manglemaw|QID|30275|M|57.47,25.77|L|79238|N|Killing the cute baby croc will get mom's attention, Kill her too and loot the quest item.|T|Manglemaw|
-A A Crocolisk Tale|QID|30275|M|54.49,25.81|N|From Enormous Crocolisk Tail.|
+K Kill Manglemaw|AVAILABLE|30275|M|57.47,25.79|L|79238|N|Killing the cute baby croc will get mom's attention, Kill her too and loot the quest item.|T|Manglemaw|
+K Manglemaw's Mother|AVAILABLE|30275|M|57.47,25.79|L|79238|N|Kill Manglemaw's Mother to loot a drop quest item.|
+A A Crocolisk Tale|QID|30275|M|54.49,25.81|N|From Enormous Crocolisk Tail.|U|79238|O|
 C The Great Water Hunt|QID|30051|M|53.20,31.92|N|Lead Mudmug to the pools of muddy water (yum!). Sometimes a creature will attack before Mudmug can gather his water.|US|NC|
-T The Great Water Hunt|QID|30051|M|53.32,32.16|N|To Mudmug, who is right next to you!|
-A Barreling Along|QID|30172|M|53.32,32.16|N|From Mudmug. He will tag along until we next go the Halfhill.|
-C Barreling Along|QID|30172|M|55.7,49.2|QO|1|N|If the thought of Mudmug getting in the way with his barrels annoys you, drop him off at Halfhill first, otherwise, skip this step.|PRE|30051|NC|
-T A Crocolisk Tale|QID|30275|M|60.61,33.70|N|To Yan.|
+T The Great Water Hunt|QID|30051|M|PLAYER|N|To Mudmug, who is right next to you!|
+A Barreling Along|QID|30172|M|PLAYER|N|From Mudmug.|PRE|30051|
+T A Crocolisk Tale|QID|30275|M|60.61,33.70|N|To Yan, in New Cifera.|
+C Barreling Along|QID|30172|M|55.99,49.29|N|Lead Mudmug to Halfhill. Dont worry, he'll keep up. But, if you do lose Mudmug, you'll find him next to the giant banana in the Gilded Fan.|NC|
+T Barreling Along|QID|30172|M|55.89,49.43|N|To Yan, in Halfhill.|
 R The Heartland|ACTIVE|30053|M|50.71,32.25|FLY|OLD|
 C Speak with Gardener Fran|QID|30053|M|48.31,33.48|QO|1|CHAT|
 A Gardener Fran and the Watering Can|QID|30050|M|48.20,33.50|N|From Gardener Fran.|PRE|30046|US|
-C Gardener Fran and the Watering Can|QID|30050|M|48.20,33.50|N|Talk to Gardener Fran to start. Use the "Special action Button" to water the sparkly areas in the gardens she yells for. You can do this while mounted.|U|77281|CHAT|
-T Gardener Fran and the Watering Can|QID|30050|M|48.20,33.50|N|To Gardener Fran.|
+C Gardener Fran and the Watering Can|QID|30050|M|48.20,33.50|N|Talk to Gardener Fran to start. Use the "Special action Button" (or use the Watering Can) to water the sparkly areas in the gardens she yells for. You can do this while mounted.\n[color=FF0000]NOTE: [/color]If you keep spinning in a circle, you can spam the button and water multiple times until she tells you to move on.|U|77281|CHAT|
+T Gardener Fran and the Watering Can|QID|30050|M|48.31,33.47|N|To Gardener Fran.|
 C Speak with Den Mudclaw|QID|30053|M|44.26,34.21|QO|3|CHAT|
 A The Farmer's Daughter|QID|30056|M|44.26,34.21|N|From Den Mudclaw.|PRE|30046|
 A Enough is Ookin' Enough|QID|30054|M|44.16,34.23|N|From Mung-Mung.|PRE|30046|
 C Enough is Ookin' Enough|QID|30054|M|45.44,36.02|N|Stick to the right wall of the warren. You can easily get your trophy teeth if you methodically kill them all!|S|
-C The Farmer's Daughter|QID|30056|M|43.55,35.05;41.46,38.6|CS|N|She is underground; standing on a giant Carrot. Talk to her and escort her out.|
+C The Farmer's Daughter|QID|30056|M|43.55,35.05;41.46,38.6|CS|N|She is underground; standing on a giant Carrot. Talk to her and escort her out.\n[color=FF0000]NOTE: [/color]If you die, you'll have to go and retrieve her again.|
 T The Farmer's Daughter|QID|30056|M|41.30,38.16|N|To Mina Mudclaw.|
-A Seeing Orange|QID|30057|M|41.30,38.16|N|From Mina Mudclaw.|PRE|30056|
+A Seeing Orange|QID|30057|M|41.30,38.16|N|From Mina Mudclaw. She will just follow you out.|PRE|30056|
 C Enough is Ookin' Enough|QID|30054|M|42,33|N|Stick to the right wall of the warren.|US|
 T Enough is Ookin' Enough|QID|30054|M|44.16,34.23|N|To Mung-Mung.|
 C Seeing Orange|QID|30057|M|44.35,34.52|
 T Seeing Orange|QID|30057|M|44.26,34.21|N|To Den Mudclaw.|
 C Speak with Gai Lan|QID|30053|M|38.6,51.6|QO|2|CHAT|
 T Hop Hunting|QID|30053|M|PLAYER|N|To UI Alert.|
-A Weed War|QID|30052|M|38.56,51.66|N|From Gai Lan.|PRE|30046|
+A Weed War|QID|30052|M|38.58,51.72|N|From Gai Lan.|PRE|30046|
 C Weed War|QID|30052|M|38.40,51.04|N|Talk to Gai Lan to start. The "instructions" appear on your screen in yellow text. You can do this while mounted.|CHAT|
-T Weed War|QID|30052|M|38.63,51.69|N|To Gai Lan.|
+T Weed War|QID|30052|M|38.58,51.72|N|To Gai Lan.|
 A Stormstout's Hops|QID|30055|M|PLAYER|N|From UI Alert.|PRE|30050&30052&30053&30054|
-C Barreling Along|QID|30172|M|54.19,38.69;55.7,49.2|CN|N|If you have lost Mudmug, you can get him at the place you started this quest.|NC|
-T Barreling Along|QID|30172|M|55.89,49.43|N|To Chen Stormstout.|
 T Stormstout's Hops|QID|30055|M|55.89,49.43|N|To Chen Stormstout.|
 T Children of the Water|QID|32045|M|55.13,47.38|N|To Stonecarver Mac|; Halfhill
 A Temple of the White Tiger|QID|31392|M|56.03,51.80|N|From Hopsmaster Chang.|LEAD|31394|FACTION|Alliance|
