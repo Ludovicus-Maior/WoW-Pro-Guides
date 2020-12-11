@@ -24,13 +24,13 @@ N Shopping List|P|Jewelcrafting;755;8+35;1|N|The next few lines are going to be 
 
 ; Begin Shopping list, as of Nov-2020
 
-l Laestrite Ore|QID|755171828|P|Jewelcrafting;755;8+0|L|171828 410|RECIPE|311948|N|You'll need about 410 Laestrite Ore. Found Everywhere.|
-l Solenium Ore|QID|755171829|P|Jewelcrafting;755;8+0|L|171829 50|RECIPE|311949|N|You'll need at least 50 Solenium Ore. Found in Bastion.|
-l Oxxein Ore|QID|755171830|P|Jewelcrafting;755;8+0|L|171830 50|RECIPE|311950|N|You'll need at least 50 Oxxein Ore. Found in Maldaxxus.|
-l Phaedrum Ore|QID|755171831|P|Jewelcrafting;755;8+0|L|171831 50|RECIPE|311951|N|You'll need at least 50 Phaedrum Ore. Found in Ardenweald.|
-l Sinvyr Ore|QID|755171832|P|Jewelcrafting;755;8+0|L|171832 50|RECIPE|311952|N|You'll need at least 50 Sinvyr Ore. Found in Revendreth.|
-B Laestrite Setting|QID|755173168|M|34.51,44.61|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+0|L|173168 45|RECIPE|311903|N|You'll need at least 44 Laestrite Settings.|
-B Malleable Wire|QID|755183954|M|34.51,44.61|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+0|L|183954 24|RECIPE|311909|N|You'll need at least 24 Malleable Wires. You will not need these till after 75 points.|
+l Laestrite Ore|QID|755171828|L|171828 410|N|You'll need about 410 Laestrite Ore. Found Everywhere.|
+l Solenium Ore|QID|755171829|L|171829 50|N|You'll need at least 50 Solenium Ore. Found in Bastion.|
+l Oxxein Ore|QID|755171830|L|171830 50|N|You'll need at least 50 Oxxein Ore. Found in Maldaxxus.|
+l Phaedrum Ore|QID|755171831|L|171831 50|N|You'll need at least 50 Phaedrum Ore. Found in Ardenweald.|
+l Sinvyr Ore|QID|755171832|L|171832 50|N|You'll need at least 50 Sinvyr Ore. Found in Revendreth.|
+B Laestrite Setting|QID|755173168|M|34.51,44.61|Z|Ring of Fates@Oribos|L|173168 45|N|You'll need at least 44 Laestrite Settings.|
+B Malleable Wire|QID|755183954|M|34.51,44.61|Z|Ring of Fates@Oribos|L|183954 24|N|You'll need at least 24 Malleable Wires. You will not need these till after 75 points.|
 
 N Shopping List|P|Jewelcrafting;755;8+35;1|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 N Profession Levelling Points|N|You might be ahead of this guide at times with Profession Points, don't worry, the guide will skip ahead, or you can manually click off steps to jump ahead.|

@@ -22,10 +22,10 @@ N Shopping List|N|The next few lines are going to be the TOTAL amount of mats yo
 
 ; Begin Shopping list, as of Nov-2020
 
-l Soul Dust|QID|333172230|P|Enchanting;333;8+0|L|172230 238|N|You'll need about 238 Soul Dust.|
-l Sacred Shard|QID|333172231|P|Enchanting;333;8+0|L|172231 142|N|You'll need at least 142 Sacred Shard.|
-l Eternal Crystal|QID|333172232|P|Enchanting;333;8+0|L|172232 32|N|You'll need at least 32 Eternal Crystal.|
-B Enchanting Vellum|QID|333038682|P|Enchanting;333;8+0|L|38682 110|N|You'll need at least 110 Enchanting Vellum.|
+l Soul Dust|QID|333172230|L|172230 238|N|You'll need about 238 Soul Dust.|
+l Sacred Shard|QID|333172231|L|172231 142|N|You'll need at least 142 Sacred Shard.|
+l Eternal Crystal|QID|333172232|L|172232 32|N|You'll need at least 32 Eternal Crystal.|
+B Enchanting Vellum|QID|333038682|L|38682 110|N|You'll need at least 110 Enchanting Vellum.|
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
