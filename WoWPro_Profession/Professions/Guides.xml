@@ -2,6 +2,7 @@
 	<Script file="First_Aid.lua"/>
 	<Script file="Leatherworking_BFA.lua"/>
 	<Script file="Alchemy.lua"/>
+	<Script file="Alchemy_SL.lua"/>
 	<Script file="Blacksmithing.lua"/>
 	<Script file="Blacksmithing_HUB.lua"/>
 	<Script file="Blacksmithing_VAN.lua"/>
@@ -10,12 +11,14 @@
 	<Script file="Enchanting.lua"/>
 	<Script file="Enchanting_SL.lua"/>
 	<Script file="Engineering.lua"/>
+	<Script file="Engineering_SL.lua"/>
 	<Script file="Inscription.lua"/>
 	<Script file="Inscription_SL.lua"/>
 	<Script file="Herbalism.lua"/>
 	<Script file="Jewelcrafting.lua"/>
 	<Script file="Jewelcrafting_SL.lua"/>
 	<Script file="Tailoring.lua"/>
+	<Script file="Tailoring_SL.lua"/>
 	<Script file="Skinning.lua"/>
 	<Script file="Legion.lua"/>
 </Ui>

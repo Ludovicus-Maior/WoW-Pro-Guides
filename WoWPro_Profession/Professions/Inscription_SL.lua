@@ -31,16 +31,16 @@ l Marrowroot|QID|773168589|P|Inscription;773;8+0|L|168589 900|N|You'll need abou
 l Vigil's Torch|QID|773170554|P|Inscription;773;8+0|L|170554 900|N|You'll need about 900 Vigil's Torch (or combination of herbs). Grows in Ardenweald Only.|
 l Widowbloom|QID|773168583|P|Inscription;773;8+0|L|168583 900|N|You'll need about 900 Widowbloom (or combination of herbs). Grows in Revendreth Only.|
 l Nightshade|QID|773171315|P|Inscription;773;8+0|L|171315 150|N|You'll need about 150 Nightshade. Grows in The Maw Only.|
-B Dark Parchment|QID|773175886|M|36.4.38.6|Z|Ring of Fates@Oribos|P|Inscription;773;8+0|L|175886 100|N|You'll need at least 100 Dark Parchments.|
-B Rune Etched Vial|QID|773180732|M|36.4.38.6|Z|Ring of Fates@Oribos|P|Inscription;773;8+0|L|180732 100|N|You'll need at least 100 Rune Etched Vials.|
-B Aerated Water|QID|773173060|M|36.4.38.6|Z|Ring of Fates@Oribos|P|Inscription;773;8+0|L|173060 100|N|You'll need at least 100 Aerated Waters.|
+B Dark Parchment|QID|773175886|M|36.4,38.6|Z|Ring of Fates@Oribos|P|Inscription;773;8+0|L|175886 100|N|You'll need at least 100 Dark Parchments.|
+B Rune Etched Vial|QID|773180732|M|36.4,38.6|Z|Ring of Fates@Oribos|P|Inscription;773;8+0|L|180732 100|N|You'll need at least 100 Rune Etched Vials.|
+B Aerated Water|QID|773173060|M|36.4,38.6|Z|Ring of Fates@Oribos|P|Inscription;773;8+0|L|173060 100|N|You'll need at least 100 Aerated Waters.|
 
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
 
 N Learn Shadowlands Inscription|QID|773000002|M|38.1,44.7|Z|Ring of Fates@Oribos|P|Inscription;773;*;0;75|N|Learn from Scribe Au'tehshi in Oribos. Requires Level 50.|
-B Virtuoso Inking Set|QID|773039505|M|36.4.38.6|Z|Ring of Fates@Oribos|P|Inscription;773;0;1;0|N|Buy from Distributor Au'sha (or other NPC)|L|39505 1|
+B Virtuoso Inking Set|QID|773039505|M|36.4,38.6|Z|Ring of Fates@Oribos|P|Inscription;773;0;1;0|N|Buy from Distributor Au'sha (or other NPC)|L|39505 1|
 
 N Mill Herbs|QID|773173057|P|Inscription;773;8+0|L|173057 30|N|Mill until you have at least 30 Luminous Pigments.|
 N Mill Herbs|QID|773173056|P|Inscription;773;8+0|L|173055 30|N|Mill until you have at least 30 Umbral Pigments.|
