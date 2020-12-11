@@ -59,13 +59,13 @@ C The Weak Link|QID|60272|M|50.37,54.06|Z|The Runecarver's Oubliette!Instance|QO
 T The Weak Link|QID|60272|M|51.01,54.58|Z|The Runecarver's Oubliette!Instance|N|To Runecarver.|
 
 ; Start of Cov
-A Choosing Your Purpose|QID|57878|M|39.22,69.40|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
-C Choosing Your Purpose|QID|57878|M|42.94,73.62|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Necrolords.|
-C Choosing Your Purpose|QID|57878|M|44.76,69.53|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the Venthyr.|
-C Choosing Your Purpose|QID|57878|M|36.45,63.81|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with the Kyrian.|
-C Choosing Your Purpose|QID|57878|M|39.50,61.39|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Night Fae.|
-C Choosing Your Purpose|QID|57878|M|39.66,68.43|Z|Ring of Fates@Oribos|QO|5|NC|N|Choose your Covenant.|
-T Choosing Your Purpose|QID|57878|M|39.34,69.37|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
+A Choosing Your Purpose|QID|62000^57878^57879|M|39.22,69.40|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
+C Choosing Your Purpose|QID|62000^57878^57879|M|42.94,73.62|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Necrolords.|
+C Choosing Your Purpose|QID|62000^57878^57879|M|44.76,69.53|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the Venthyr.|
+C Choosing Your Purpose|QID|62000^57878^57879|M|36.45,63.81|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with the Kyrian.|
+C Choosing Your Purpose|QID|62000^57878^57879|M|39.50,61.39|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Night Fae.|
+C Choosing Your Purpose|QID|62000^57878^57879|M|39.66,68.43|Z|Ring of Fates@Oribos|QO|5|NC|N|Choose your Covenant.|
+T Choosing Your Purpose|QID|62000^57878^57879|M|39.34,69.37|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
 
 ;Night Fae Campaign
 N Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Night Fae|
@@ -177,13 +177,13 @@ A Flutterback|QID|62894|M|40.31,68.69|Z|Ring of Fates@Oribos|N|From Highlord Bol
 P Ring of Transference|ACTIVE|62894|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|COV|Night Fae|
 F Refugee Camp|ACTIVE|62894|M|60.59,68.98|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi.|COV|Night Fae|
 T Flutterback|QID|62894|M|34.14,43.99|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
-A Recovered Souls|QID|62897|M|34.14,43.99|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|PRE|62984|COV|Night Fae|
+A Recovered Souls|QID|62897|M|34.14,43.99|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|PRE|62894|COV|Night Fae|
 T Recovered Souls|QID|62897|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder.|COV|Night Fae|
 A The First New Growth|QID|62898|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|From Zayhad, The Builder.|PRE|62897|COV|Night Fae|
 C The First New Growth|QID|62898|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|Sanctum Upgrade started.|COV|Night Fae|
-T The First New Growth|QID|62898|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder.|COV|Night Fae|
-A The Forge of Bonds|QID|63008|M|49.55,37.35|Z|The Canopy@Heart of the Forest!Dungeon|N|From the Winter Queen.|PRE|62898|COV|Night Fae|
-T The Forge of Bonds|QID|63008|M|34.56,43.56|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
+T The First New Growth|QID|62898|M|49.46,40.13|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
+A The Forge of Bonds|QID|61541|M|49.46,40.13|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|62898|COV|Night Fae|
+T The Forge of Bonds|QID|61541|M|34.56,43.56|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
 A The Boon of Binding|QID|61542|M|34.56,43.56|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|PRE|61541|COV|Night Fae|
 C The Boon of Binding|QID|61542|M|33.75,47.63|Z|The Trunk@Heart of the Forest!Dungeon|CHAT|N|Soulbind with Niya.|COV|Night Fae|
 T The Boon of Binding|QID|61542|M|33.90,45.76|Z|The Trunk@Heart of the Forest!Dungeon|N|To Niya.|COV|Night Fae|
@@ -199,7 +199,7 @@ T The Endless Forest|QID|62899|M|46.59,36.60|Z|The Trunk@Heart of the Forest!Dun
 
 ; Chapter 2
 A The Highlord Calls|QID|63030|M|47.27,36.07|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|COV|Night Fae|
-F Ring of Transference|ACTIVE|63030|M|51.41,8.25|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
+F Oribos|ACTIVE|63030|M|51.41,8.25|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
 P Ring of Fates|ACTIVE|63030|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Night Fae|
 T The Highlord Calls|QID|63030|M|40.05,68.33|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Night Fae|
 
