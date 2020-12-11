@@ -23,13 +23,13 @@ N Shopping List|N|The next few lines are going to be the TOTAL amount of mats yo
 
 ; Begin Shopping list, as of Nov-2020
 
-l Laestrite Ore|QID|164171828|P|Blacksmithing;164;8+10;1|L|171828 360|N|You'll need about 359 Laestrite Ore. Found everywhere.|
-l Elethium Ore|QID|164171833|P|Blacksmithing;164;8+10;1|L|171833 30|N|You'll need about  29 Elethium Ore. Found in The Maw, but also in other zones low chance.|
-l Solenium Ore|QID|164171829|P|Blacksmithing;164;8+10;1|L|171829 95|N|You'll need at least 95 Solenium Ore. Found in Bastion.|
-l Oxxein Ore|QID|164171830|P|Blacksmithing;164;8+10;1|L|171830 95|N|You'll need at least 95 Oxxein Ore. Found in Maldaxxus.|
-l Phaedrum Ore|QID|164171831|P|Blacksmithing;164;8+10;1|L|171831 140|N|You'll need at least 95 Phaedrum Ore. Found in Ardenweald.|
-l Sinvyr Ore|QID|164171832|P|Blacksmithing;164;8+10;1|L|171832 95|N|You'll need at least 95 Sinvyr Ore. Found in Revendreth.|
-B Luminous Flux|QID|164180733|M|38.55,33.50|Z|Ring of Fates@Oribos|P|Blacksmithing;164;8+10;1|L|180733 430|N|You'll need about 430 Luminous Flux.|
+l Laestrite Ore|QID|164171828|L|171828 360|N|You'll need about 359 Laestrite Ore. Found everywhere.|
+l Elethium Ore|QID|164171833|L|171833 30|N|You'll need about  29 Elethium Ore. Found in The Maw, but also in other zones low chance.|
+l Solenium Ore|QID|164171829|L|171829 95|N|You'll need at least 95 Solenium Ore. Found in Bastion.|
+l Oxxein Ore|QID|164171830|L|171830 95|N|You'll need at least 95 Oxxein Ore. Found in Maldaxxus.|
+l Phaedrum Ore|QID|164171831|L|171831 140|N|You'll need at least 95 Phaedrum Ore. Found in Ardenweald.|
+l Sinvyr Ore|QID|164171832|L|171832 95|N|You'll need at least 95 Sinvyr Ore. Found in Revendreth.|
+B Luminous Flux|QID|164180733|M|38.55,33.50|Z|Ring of Fates@Oribos|L|180733 430|N|You'll need about 430 Luminous Flux.|
 N Shadowghast Ingot|QID|164307611|P|Blacksmithing;164;8+0|N|You'll need upto 190 Shadowghast Ingots, these you will make as you go.|
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
