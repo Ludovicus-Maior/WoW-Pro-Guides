@@ -6,30 +6,25 @@ WoWPro:GuideNextGuide(guide, "Ardenweald")
 WoWPro:GuideSteps(guide, function()
 return [[
 ; List of Treasures in Maldraxxus a few in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
-; $ Forgotten Momentos|M|22.5,30.5|Z|Maldraxxus|N|WH - Vault Portculis to open the gate blocking treasure.|ACH|14312;4|
-; $ Misplaced Supplies|M|62.4,59.9|Z|Maldraxxus|N|WH - On top of mushroom. Climb hill, turn left, Jump to mushroom, Turn right, Jump to hill, Turn right and climb hill once more to the edge.|ACH|14312;5|
-; $ Runespeaker's Trove|M|31.7,70.0|Z|Maldraxxus|N|WH - Kill Runespeaker Phaeton to loot his key.|T|Runespeaker Phaeton|ITEM|183516|ACH|14312;6|
-; $ Ritualist's Cache|M|69.8,31.0;71.7,35.4;64.6,24.7|CS|Z|Maldraxxus|N|Loot Bone Pile for Missing Ritual Pages(1st coord)\nUse book of Binding Rituals (2nd Coords)\nYou have 5 mins to get treasure(last coord)|ITEM|183517|ACH|14312;7|
-; $ Chest of Eyes|M|48.4,15.1|Z|Maldraxxus|N|WH - Inside wreckage of Nurakkir in the House of Eyes.|ITEM|183696|ACH|14312;11|
-; $ Glutharn's Stash|M|72.8,53.6|Z|Maldraxxus|N|WH - Kill Scathely and his 2 adds to unlock treasure.|ACH|14312;12|
+; $ Runespeaker's Trove|M|31.7,70.0|Z|Maldraxxus|N|WH - Kill Runespeaker Phaeton @37.94,69.91 to loot his key.|T|Runespeaker Phaeton|ITEM|183516|ACH|14312;11|LVL|60|
+; $ Ritualist's Cache|M|71.7,35.4;64.6,24.7|CS|Z|Maldraxxus|N|Loot Bone Pile for Missing Ritual Pages(1st coord)\nUse book of Binding Rituals (2nd Coords)\nYou have 5 mins to get treasure(last coord)|ITEM|183517|ACH|14312;13| - level 60 area, no icon visable for treasure at lvl 58
+; $ Chest of Eyes|M|48.4,15.1|Z|Maldraxxus|N|WH - Inside wreckage of Nurakkir in the House of Eyes.|ITEM|183696|ACH|14312;8|
 
 ; List of Rares in Maldraxxus, only one in guide already, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
 ; K Corpsecutter Moroc|M|26.49,27.39|Z|Maldraxxus|T|Corpsecutter Moroc|N|WH - Hits hard, like tank. Elitle Patrol area.|RARE|ACH|14308;1|
-; K Ravenomous|M|53.81,19.25|Z|Maldraxxus|T|Ravenomous|N|WH - Near stairs at coord, try to avoid spiders.|RARE|ACH|14308;3|
-; K Taskmaster Xox|M|50.01,19.60|Z|Maldraxxus|T|Taskmaster Xox|N|WH - Stands on small island in slime river.  SHARES respawn with Taskmasters Mortis and Bloata.|RARE|ACH|14308;4|
-; K Nirvaska the Summoner|M|50.27,63.52|Z|Maldraxxus|T|Nirvaska the Summoner|N|WH - Only up when WQ-Deadly Reminder is up.  Respawns nearby, usually dead in seconds.|RARE|ACH|14308;5|
-; K Smorgas The Feaster|M|42.27,53.90|Z|Maldraxxus|T|Smorgas The Feaster|N|WH - Rare doesn't show, till you activate it with Bloody Lamp on ground.  Kill Mystery Meat when spawns, it heals rare.|RARE|ACH|14308;6|
-; K Sabreil the Bonecleaver|M|50.67,47.37|Z|Maldraxxus|T|Sabreil the Bonecleaver|N|WH - Rare mob, spawns in The Theater of Pain, Minimap shows Drolkrad.  Kill others until his turn to fight.  Unsure if mount drops or Drolkrad MUST be kept alive till end of fight.|ITEM|182083|RARE|ACH|14308;7|
-; K Devour'us|M|44.20,28.34|Z|Maldraxxus|T|Devour'us|N|WH - Rare elite mob with scaled level, opens rifts that spawns swarmers.|RARE|ACH|14308;8|
-; K Warbringer Mal'korak|M|33.56,80.73|Z|Maldraxxus|T|Warbringer Mal'korak|N|WH - Top of tower, table near Rare has random buffs.|ITEM|182085|RARE|ACH|14308;11|
-; K Scunner|M|61.41,76.25|Z|Maldraxxus|T|Scunner|N|WH - Mob is a mess, Ton of HP and what it's worth and aura the reduces haste to the groun, Bring Group with Bloodlust/Heroism|RARE|ACH|14308;12|
-; K Collector Kash|M|49.81,24.46|Z|Maldraxxus|T|Collector Kash|N|WH - Patrols along poison river, Rare can disarm you, run to your weapon to pick up.|RARE|ACH|14308;13|
-; K Sister Chelicerae|M|54.92,23.25|Z|Maldraxxus|T|Sister Chelicerae|N|WH - Destroy Intricate Webbing to pull mob, doesn't scale.  Hard to solo unless in epic gear.|RARE|ACH|14308;14|
-; K Thread Mistress Leeda|M|24.10,39.49|Z|Maldraxxus|T|Thread Mistress Leeda|N|WH - Coord is entrance, Rare randomly spawns after killing Razorthread Weavers a few times.|ITEM|184180|RARE|ACH|14308;16|
-; K Tahonta|M|45.04,50.56|Z|Maldraxxus|T|Tahonta|N|WH - Rare wanders around area, fight isn't hard, Avoid pulling other mobs.|ITEM|182190|RARE|ACH|14308;17|
-; K Nerissa Heartless|M|65.76,34.65|Z|Maldraxxus|T|Nerissa Heartless|N|WH - Stands near groups of mob on platform where the two stairs lead to.  Clear Trash!|RARE|ACH|14308;19|
-; K Bubbleblood|M|52.11,35.76|Z|Maldraxxus|T|Bubbleblood|N|WH - Moves around the blood pool, Pull carefully, common mobs easy to overpull.|RARE|ACH|14308;20|
-; K Deepscar|M|45.00,44.60|Z|Maldraxxus|T|Deepscar|N|WH - Coords are entrance to tower rare is located in.|ITEM|182191|RARE|ACH|14308;21|
+; K Ravenomous|M|53.81,19.25|Z|Maldraxxus|T|Ravenomous|N|WH - Near stairs at coord, try to avoid spiders.|RARE|ACH|14308;5|
+; K Taskmaster Xox|M|50.01,19.60|Z|Maldraxxus|T|Taskmaster Xox|N|WH - Stands on small island in slime river.  SHARES respawn with Taskmasters Mortis and Bloata.|RARE|ACH|14308;7|
+; K Nirvaska the Summoner|M|50.27,63.52|Z|Maldraxxus|T|Nirvaska the Summoner|N|WH - Only up when WQ-Deadly Reminder is up.  Respawns nearby, usually dead in seconds.|RARE|ACH|14308;9|
+; K Smorgas The Feaster|M|42.27,53.90|Z|Maldraxxus|T|Smorgas The Feaster|N|WH - Rare doesn't show, till you activate it with Bloody Lamp on ground.  Kill Mystery Meat when spawns, it heals rare.|RARE|ACH|14308;11|
+; K Sabreil the Bonecleaver|M|50.67,47.37|Z|Maldraxxus|T|Sabreil the Bonecleaver|N|WH - Rare mob, spawns in The Theater of Pain, Minimap shows Drolkrad.  Kill others until his turn to fight.  Unsure if mount drops or Drolkrad MUST be kept alive till end of fight.|ITEM|182083|RARE|ACH|14308;13|
+; K Devour'us|M|44.20,28.34|Z|Maldraxxus|T|Devour'us|N|WH - Rare elite mob with scaled level, opens rifts that spawns swarmers.|RARE|ACH|14308;15|
+; K Warbringer Mal'korak|M|33.56,80.73|Z|Maldraxxus|T|Warbringer Mal'korak|N|WH - Top of tower, table near Rare has random buffs.|ITEM|182085|RARE|ACH|14308;21|
+; K Collector Kash|M|49.81,24.46|Z|Maldraxxus|T|Collector Kash|N|WH - Patrols along poison river, Rare can disarm you, run to your weapon to pick up.|RARE|ACH|14308;4|
+; K Sister Chelicerae|M|54.92,23.25|Z|Maldraxxus|T|Sister Chelicerae|N|WH - Destroy Intricate Webbing to pull mob, doesn't scale.  Hard to solo unless in epic gear.|RARE|ACH|14308;6|
+; K Thread Mistress Leeda|M|24.10,39.49|Z|Maldraxxus|T|Thread Mistress Leeda|N|WH - Coord is entrance, Rare randomly spawns after killing Razorthread Weavers a few times.|ITEM|184180|RARE|ACH|14308;10|
+; K Nerissa Heartless|M|65.76,34.65|Z|Maldraxxus|T|Nerissa Heartless|N|WH - Stands near groups of mob on platform where the two stairs lead to. Clear Trash!|RARE|ACH|14308;16|
+; K Bubbleblood|M|52.11,35.76|Z|Maldraxxus|T|Bubbleblood|N|WH - Moves around the blood pool, Pull carefully, common mobs easy to overpull.|RARE|ACH|14308;18|
+; K Deepscar|M|45.00,44.60|Z|Maldraxxus|T|Deepscar|N|WH - Coords are entrance to tower rare is located in.|ITEM|182191|RARE|ACH|14308;20|
 ; K Necromanitc Anomaly|M|72.72,29.01|Z|Maldraxxus|T|Necromanitc Anomaly|N|WH - Find rare on platform about The House of Rituals area.  Near the "H", southwest a bit.|RARE|ACH|14308;22|
 
 
@@ -39,7 +34,7 @@ t Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A A Fresh Blade|QID|62738^63035|PRE|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62738^63035|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
 F Bleak Redoubt|ACTIVE|62738^63035|M|60.87,68.63|Z|Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
-T A Fresh Blade|QID|62738^63035|N|To Secutor Mevix.|TOF|
+T A Fresh Blade|QID|62738^63035|M|52.85,68.33|N|To Secutor Mevix.|TOF|
 A Rallying Maldraxxus|QID|62748|PRE|62738^63035|N|From Secutor Menvix.|TOF|
 l Rallying Maldraxxus|QID|62748|QO|1|S!US|N|Literally everything you do in Maldraxxus counts towards this quest. You may [color=40C7EB]return[/color] to [color=40C7EB]Bleak Redoubt[/color] to turn in and be done with the zone anytime after this step closes.|TOF|
 t Rallying Maldraxxus|QID|62748|IZ|Bleak Redoubt|M|52.85,68.28|Z|Maldraxxus|N|To Secutor Mevix.|TOF|
@@ -65,10 +60,16 @@ N World Quests|QID|62748|N|WQs are available since you have chosen the Threads o
 N Use of Ranks|QID|62748|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives.|TOF|
 N Spectre of War: Visectus|QID|62748|N|This is a weekly quest, that you can NOT do at this time, because you can not create the anima bound wraps until you open up the Necrolord Abommination Factory, so, ignore this quest. (just wanted you to know why)|TOF|COV|Necrolord|
 
-; Champion of Pain Storyline
+; Champion of Pain Storyline - ACH|14206;1|
 N Use of Ranks|QID|57386|N|Setting the guide to Rank 1 will direct you to all main story line quests. It will not direct you to optional quests, however, if you pick one up it will direct you where to complete and turn in. Rank 2 takes you to all the side quests, There is nothing set to Rank 3 in this guide.|MS|
 N Rank 1|ACTIVE|62748|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|
 N Necrolord Abilities|ACTIVE|62748|N|Your necrolord covenant abilities are found in your main class tab of your abilites, don't forget to drag them onto your hotkeys.|TOF|COV|Necrolord|
+A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60056|MS|
+C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|Ring of Fates@Oribos|NC|N|Use the Teleport Pad.|MS|
+T The Arbiter's Will|QID|61096|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
+A A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61096|MS|
+C A Land of Strife|QID|61107|M|59.67,36.36|Z|Ring of Transference@Oribos|NC|N|Click on the blue sword.|MS|
+T A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
 A If You Want Peace...|QID|57386|M|60.95,36.18|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61107|MS|
 C If You Want Peace...|QID|57386|M|59.51,34.39|Z|Ring of Transference@Oribos|CHAT|N|Speak to Roh-Avonavi to Travel to Maldraxxus.|MS|
 T If You Want Peace...|QID|57386|M|50.24,41.33|Z|Maldraxxus|N|To Grandmaster Vole.|MS|
@@ -86,38 +87,38 @@ A Land of Opportunity|QID|57425|M|50.35,44.37|Z|Maldraxxus|N|From Grandmaster Vo
 C Land of Opportunity|QID|57425|M|51.07,47.09|Z|Maldraxxus|N|Kill High Champion Meskal|T|High Champion Meskal|MS|
 T Land of Opportunity|QID|57425|M|48.36,57.18|Z|Maldraxxus|N|To Baroness Draka.|MS|
 A Arms for the Poor|QID|57511|M|48.36,57.18|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
-A Walk Among Death|QID|57512|M|48.35,57.25|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
-A Memory of Honor|QID|60179|M|48.36,57.78|Z|Maldraxxus|N|From Faded Epitaph.|PRE|57425|MS|
-C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|S|MS|
 C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|NC|N|Click on weapons on the ground and give them to the Displaced Scavengers.|T|Displaced Scavenger|S|MS|
 t Arms for the Poor|QID|57511|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|;yes, this is intentional placement, the "t" means it will pop up when it gets finished, but not before.;
-t Walk Among Death|QID|57512|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|; moved because i thought it was a pre to 60181, but i guess it isnt... oh well. works here as well as there.
-A Trench Warfare|QID|60181|M|PLAYER|Z|Maldraxxus|N|From Baroness Draka.|PRE|57511|MS|
-C Trench Warfare|QID|60181|M|45.72,61.54|Z|Maldraxxus|U|178496|N|Kill Malifis, be sure to use your Warhorn if you want assistance.|T|Malifis|MS|
+A Walk Among Death|QID|57512|M|48.35,57.25|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
+C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|S|MS|
+t Walk Among Death|QID|57512|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A Memory of Honor|QID|60179|M|48.36,57.78|Z|Maldraxxus|N|From Faded Epitaph.|PRE|57425|MS|
 C Memory of Honor|QID|60179|M|44.80,58.33|Z|Maldraxxus|QO|1<1|NC|N|Read the Faded Epitaphs off the headstones.|MS|
 C Memory of Honor|QID|60179|M|44.01,61.50|Z|Maldraxxus|QO|1<2|NC|N|Read the Faded Epitaphs off the headstones.|MS|
 C Memory of Honor|QID|60179|M|45.87,61.75|Z|Maldraxxus|QO|1<3|NC|N|Read the Faded Epitaphs off the headstones.|MS|
+T Memory of Honor|QID|60179|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
 $ Ornate Bone Shield|QID|59358|M|47.25,62.14|ITEM|180749|N|Up the hill for a bit of treasure.|ACH|14312;1|
 C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|NC|N|Click on weapons on the ground and give them to the Displaced Scavengers.|T|Displaced Scavenger|US|MS|
 C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|US|MS|
-T Memory of Honor|QID|60179|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A Trench Warfare|QID|60181|M|PLAYER|Z|Maldraxxus|N|From Baroness Draka.|PRE|57511&57512|MS|
+C Trench Warfare|QID|60181|M|45.72,61.54|Z|Maldraxxus|U|178496|N|Kill Malifis, be sure to use your Warhorn if you want assistance.|T|Malifis|MS|
 T Trench Warfare|QID|60181|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
 A The House of the Chosen|QID|57515|M|PLAYER|Z|Maldraxxus|N|From Baroness Draka.|PRE|60181|MS|
 C The House of the Chosen|QID|57515|M|40.46,62.09|Z|Maldraxxus|QO|1|NC|N|Enter the House of the Chosen.|MS|
 C The House of the Chosen|QID|57515|M|38.86,65.28|Z|Maldraxxus|QO|2|CHAT|N|Speak with Draka after the dialog ends.|MS|
 T The House of the Chosen|QID|57515|M|38.86,65.28|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
-; House of the Chosen Storyline
+; House of the Chosen Storyline - ACH|14206;2|
 A The First Act of War|QID|57514|M|38.86,65.28|Z|Maldraxxus|N|From Baroness Draka.|PRE|57515|MS|
 C The First Act of War|QID|57514|M|36.33,60.30|Z|Maldraxxus|CHAT|N|Report to Baron Vyraz|MS|
 T The First Act of War|QID|57514|M|36.33,60.28|Z|Maldraxxus|N|To Baron Vyraz.|MS|
 A The Hills Have Eyes|QID|58351|M|36.33,60.28|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57514|MS|
 A Maintaining Order|QID|58617|M|36.33,60.28|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57514|MS|
-C The Hills Have Eyes|QID|58351|M|39.85,71.37|Z|Maldraxxus|N|While running up the road to deliver the orders, mouse over all the npcs, Chat with any of the Chosen Protectors who have a chat bubble and kill those that are infiltrators.|S|MS|
+C The Hills Have Eyes|QID|58351|M|39.85,71.37|Z|Maldraxxus|T|Chosen Protector|N|While running up the road to deliver the orders, mouse over all the npcs, Chat with any of the Chosen Protectors who have a chat bubble and kill those that are infiltrators.|S|MS|
 C Maintaining Order|QID|58617|M|32.63,67.10|Z|Maldraxxus|QO|1|CHAT|N|Deliver orders to Head Summoner Perex.|MS|
 C Maintaining Order|QID|58617|M|36.74,75.88|Z|Maldraxxus|QO|2|CHAT|N|Deliver orders to Drill Sergeant Telice.|MS|
 C Maintaining Order|QID|58617|M|40.83,70.89|Z|Maldraxxus|QO|3|CHAT|N|Deliver orders to Secutor Mevix.|MS|
-C The Hills Have Eyes|QID|58351|M|39.85,71.37|Z|Maldraxxus|N|Finish searching for infiltrators while running back down to Baron Vyraz (mouse over all chosen protectors, chat with those who have a chat bubble, kill if they become hostile).|US|MS|
+C The Hills Have Eyes|QID|58351|M|39.85,71.37|Z|Maldraxxus|T|Chosen Protector|N|Finish searching for infiltrators while running back down to Baron Vyraz (mouse over all chosen protectors, chat with those who have a chat bubble, kill if they become hostile).|US|MS|
 T The Hills Have Eyes|QID|58351|M|36.32,60.21|Z|Maldraxxus|N|To Baron Vyraz.|MS|
 T Maintaining Order|QID|58617|M|36.32,60.21|Z|Maldraxxus|N|To Baron Vyraz.|MS|
 A Never Enough|QID|60451|M|36.32,60.21|Z|Maldraxxus|N|From Baron Vyraz.|PRE|58351&58617|MS|
@@ -148,13 +149,13 @@ A Meet the Margrave|QID|60461|M|38.93,65.18|Z|Maldraxxus|N|From Baroness Draka.|
 P Vortrexxis|ACTIVE|60461|M|38.20,66.52|Z|Maldraxxus|N|Click on the Necropolis Teleporter up to Vortrexxis.|MS|
 T Meet the Margrave|QID|60461|M|36.96,68.30|Z|Maldraxxus|N|To Margrave Krexus.|MS|
 A The Seat of the Primus|QID|60886|M|36.96,68.30|Z|Maldraxxus|N|From Margrave Krexus.|PRE|60461|MS|
-C The Seat of the Primus|QID|60886|M|50.38,67.56|Z|Maldraxxus|QO|1|CHAT|N|Speak with Draka to fly up to the Seat of the Primus.|MS|
+C The Seat of the Primus|QID|60886|M|37.13,68.37|Z|Maldraxxus|QO|1|CHAT|N|Speak with Draka to fly up to the Seat of the Primus.|MS|
 C The Seat of the Primus|QID|60886|M|50.39,67.75|Z|Maldraxxus|QO|2|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Ambition.|EAB|MS|
-T The Seat of the Primus|QID|60886|M|50.39,67.75|Z|Maldraxxus|N|To Baroness Draka.|MS|
+T The Seat of the Primus|QID|60886|M|50.31,67.72|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
-A A Common Peril|QID|58751|M|50.39,67.75|Z|Maldraxxus|N|From Baroness Draka.|PRE|60886|MS|
-A The House of Plagues|QID|59130|M|50.39,67.75|Z|Maldraxxus|N|From Baroness Draka.|PRE|60886|MS|
-A Baron of the Chosen|QID|57912|M|50.39,67.75|Z|Maldraxxus|N|From Baroness Draka.|PRE|60886|MS|
+A A Common Peril|QID|58751|M|50.31,67.72|Z|Maldraxxus|N|From Baroness Draka.|PRE|60886|MS|
+A The House of Plagues|QID|59130|M|50.31,67.72|Z|Maldraxxus|N|From Baroness Draka.|PRE|60886|MS|
+A Baron of the Chosen|QID|57912|M|50.31,67.72|Z|Maldraxxus|N|From Baroness Draka.|PRE|60886|MS|
 f Bleak Redoubt|ACTIVE|57912|M|52.46,67.74|Z|Maldraxxus|N|At Wing Guard Buurkin.|MS|
 
 ; Theater of Pain Sidequest Story
@@ -180,14 +181,14 @@ C Side Effects|QID|58090|M|53.70,47.88|Z|Maldraxxus|QO|1|N|Buy the Necessary Enc
 C Side Effects|QID|58090|M|53.87,50.53|Z|Maldraxxus|QO|2|CHAT|N|Deliver the Enhancers to Scrapper Minoire.|
 T Side Effects|QID|58090|M|54.14,50.60|Z|Maldraxxus|N|To Overseer Kalvaros.|
 C How to Get a Head|QID|59750|M|55.68,38.96|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|S|
-K Gristlebeak|QID|61991^58837|QO|1|M|57.71,51.57|Z|Maldraxxus|T|Gristlebeak|N|Break Unusual Eggs at marked spot, Silver elite comes down to defend her young.|ITEM|182196|RARE|ACH|14308;18|
-$ Strange Growth|QID|59429|M|55.88,38.98|Z|Maldraxxus|N|Pull on the strange growth to find a bit of treasure for you.|ITEM|182607|RANK|2|
+K Gristlebeak|QID|61991^58837|QO|1|M|57.71,51.57|Z|Maldraxxus|T|Gristlebeak|N|Break Unusual Eggs at marked spot, Silver elite comes down to defend her young.|ITEM|182196|RARE|ACH|14308;14|
+$ Strange Growth|QID|59429|M|55.88,38.98|Z|Maldraxxus|N|Pull on the strange growth to find a bit of treasure for you.|ITEM|182607|RANK|2| ; (pulling the vine is QID 59428)
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|S|
 C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Kill Deadeye the giant Bloodtusk.|
 C The Last Guy|QID|59781|M|55.67,34.55|Z|Maldraxxus|QO|1|NC|N|Click to examine the Dead Newcomers.|US|
 f Keres' Rest|ACTIVE|59781|M|53.81,30.71|Z|Maldraxxus|N|At Fly-eyed Eliera.|
 C How to Get a Head|QID|59750|M|57.64,37.73|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
-A WANTED: The Key of Eyes|QID|62462|M|53.08,41.41|Z|Maldraxxus|ELITE|N|From Wanted Poster.|RANK|2|TOF|
+A WANTED: The Key of Eyes|QID|62462|M|53.08,41.41|Z|Maldraxxus|ELITE|N|From Wanted Poster.|RANK|2|LVL|60|
 C How to Get a Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|
 T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
 T How to Get a Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
@@ -202,8 +203,8 @@ A Test Your Mettle|QID|58947|M|54.50,48.57|Z|Maldraxxus|N|From Louison.|PRE|5857
 C Test Your Mettle|QID|58947|M|53.68,49.34|Z|Maldraxxus|QO|1|CHAT|N|Ask Valuator Malus to fight.|
 C Test Your Mettle|QID|58947|M|55.35,46.91|Z|Maldraxxus|QO|2|CHAT|N|Ask Tester Saharri to fight.|
 T Test Your Mettle|QID|58947|M|54.49,48.62|Z|Maldraxxus|N|To Louison.|
-A This Thing Of Ours|QID|59879|M|54.49,48.62|Z|Maldraxxus|N|From Louison.|PRE|58947|RANK|2|
-T This Thing Of Ours|QID|59879|M|53.66,47.50|Z|Maldraxxus|N|To Au'narim.|
+A This Thing of Ours|QID|59879|M|54.49,48.62|Z|Maldraxxus|N|From Louison.|PRE|58947|RANK|2|
+T This Thing of Ours|QID|59879|M|53.66,47.50|Z|Maldraxxus|N|To Au'narim.|
 A Leave Me a Loan|QID|59203|M|53.66,47.50|Z|Maldraxxus|N|From Au'narim.|PRE|59879|RANK|2|
 C Leave Me a Loan|QID|59203|M|53.90,49.37|Z|Maldraxxus|CHAT|N|Ask Arena Spectators for their Anima Vial, some will attack you.|
 T Leave Me a Loan|QID|59203|M|53.62,47.56|Z|Maldraxxus|N|To Au'narim.|
@@ -229,6 +230,7 @@ T Bet on Yourself|QID|59826^59827^59828|M|53.58,47.50|Z|Maldraxxus|N|To Au'narim
 A Smack and Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|From Caleesy.|RANK|2|
 A Take the Bull by the Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|RANK|2|
 C Smack and Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|S|
+K Tahonta|QID|61986^58783|QO|1|M|45.04,50.56|Z|Maldraxxus|T|Tahonta|N|Rare wanders around area, fight isn't hard, Avoid pulling other mobs.|ITEM|182190|RARE|ACH|14308;12|
 C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
 C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|NC|QO|1<1|N|Ride the Tauralus back to Dundae.|
 C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
@@ -280,7 +282,7 @@ R Hall of Chains|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Run down the hill to the
 A Deconstructing the Problem|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Bonus Objective - Autoaccepted.|TOF|O|U|-183987|LVL|-59|
 C Deconstructing the Problem|QID|62721|M|36.60,30.91|Z|Maldraxxus|S!US|N|Don't just kill in one area, keep moving towards the other objectives, this one gets done as you travel through.\n\nKill Hostiles, fleshwardens drop keys, open cages and otherwise disrupt operations.|TOF|
 A Army of One|QID|59616|M|39.78,46.71|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57979|MS|
-K Indomitable Schmitd|QID|58332|QO|1|M|38.88,42.46|Z|Maldraxxus|T|Indomitable Schmitd|N|[color=ff8000]NOTE[/color]Shield buff makes invulnerable to hit, So, clear the area first, then grab one of the small [color=ff8000]Fuseless bombs[/color] When you have a cleared around a few pick one up and throw it at him. He will reshield a few times during the fight, so make sure you know where several are.|RARE|ACH|14308;15|EAB|
+K Indomitable Schmitd|QID|58332|QO|1|M|38.88,42.46|Z|Maldraxxus|T|Indomitable Schmitd|N|[color=ff8000]NOTE[/color]Shield buff makes invulnerable to hit, So, clear the area first, then grab one of the small [color=ff8000]Fuseless bombs[/color] When you have a cleared around a few pick one up and throw it at him. He will reshield a few times during the fight, so make sure you know where several are.|RARE|ACH|14308;8|EAB|
 C Army of One|QID|59616|CS|M|39.68,40.11;36.03,34.96|Z|Maldraxxus|QO|1|NC|N|Meet Secutor Mevix at the House of Constructs. Click on him to continue.|MS|
 C Army of One|QID|59616|M|33.85,31.41|Z|Maldraxxus|QO|2|NC|N|Click on the corpse piles to free yourself.|MS|
 T Army of One|QID|59616|M|33.88,31.10|Z|Maldraxxus|N|To Aspirant Thales.|MS|
@@ -294,14 +296,14 @@ A The Ones in Charge|QID|57984|M|PLAYER|Z|Maldraxxus|N|From Aspirant Thales.|PRE
 C The Ones in Charge|QID|57984|M|35.36,23.13|Z|Maldraxxus|QO|2|N|Kill Tabulator Hymeris.|T|Tabulator Hymeris|MS|
 C The Ones in Charge|QID|57984|M|33.50,22.50|Z|Maldraxxus|QO|1|N|Kill Doctor Hivvil.|T|Doctor Hivvil|MS|
 C The Ones in Charge|QID|57984|M|32.52,22.75|Z|Maldraxxus|QO|3|N|Kill Leacher Cvan.|T|Leacher Cvan|MS|
-$ Kyrian Corpse|QID|60587|M|32.73,21.31|Z|Maldraxxus|U|180085|N|Open the box for a bit of treasure.|ACH|14312;8|
+$ Kyrian Corpse|QID|60587|M|32.73,21.31|Z|Maldraxxus|U|180085|N|Open the box for a bit of treasure.|ACH|14312;2|
 T The Ones in Charge|QID|57984|M|32.00,27.31|Z|Maldraxxus|N|To Secutor Mevix.|MS|
 A Give Them a Hand|QID|57985|M|32.00,27.31|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57984|MS|
 A A Deadly Distraction|QID|57987|M|32.00,27.31|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57984|MS|
 A A Burden Worth Bearing|QID|57986|M|32.08,27.43|Z|Maldraxxus|N|From Aspirant Thales.|PRE|57984|MS|
 C A Deadly Distraction|QID|57987|M|31.04,25.95|Z|Maldraxxus|N|Kill Warstitched forces.|S|MS|
 C Give Them a Hand|QID|57985|M|30.08,27.80|Z|Maldraxxus|U|180120|N|Click on the Vestigial Animate to uproot and kill them.|S|MS|; looks like U not needed  but leaving it as it gives you a longer range
-$ Haily's Lunch Pail|QID|60730|M|30.8,28.76|Z|Maldraxxus|N|Some treasure for you.|ACH|14312;2|
+$ Haily's Lunch Pail|QID|60730|M|30.8,28.76|Z|Maldraxxus|N|Some treasure for you.|ACH|14312;3|
 C A Burden Worth Bearing|QID|57986|M|32.78,28.13|Z|Maldraxxus|QO|1|N|Click the Gurney to get Kyrian Equipment.|MS|
 C A Burden Worth Bearing|QID|57986|M|28.67,28.21|Z|Maldraxxus|QO|2|N|Click on the Lost Kyrian's around the area.|MS|
 C A Burden Worth Bearing|QID|57986|M|30.17,23.84|Z|Maldraxxus|QO|3|N|Bring Kou and Koa to Thales.|MS|
@@ -314,11 +316,14 @@ C Ani-Matter Animator|QID|57245|M|25.87,45.94|Z|Maldraxxus|U|175827|S!US|N|Use t
 ;A Bring Me Their Heads|QID|57278|M|PLAYER|Z|Maldraxxus|IZ|Ossein Foundry|N|From Stubborn Animate. Don't worry if you didn't have time to accept all quests, you will get another chance on the next Stubborn Animate you find.|ACTIVE|57245|
 C Blade of Blades|QID|57284|M|PLAYER|Z|Maldraxxus|S|NC|N|Pick up forgotten blades lying around.|ACTIVE|57245|
 C Bring Me Their Heads|QID|57278|M|31.27,45.27|Z|Maldraxxus|N|The Violent Animates have the best drop rate and can be found in the northwest part of the quest area.|ACTIVE|57245|
-K Zargox the Reborn|PRE|57245|M|28.95,51.33|Z|Maldraxxus|T|Zargox the Reborn|N|Ask Synder for Ani-Matter Orb, go to the bone at these coord.\nUse orb on pile of bones in center of platform.|RARE|ACH|14308;2|U|175827|LVL|60|
+K Zargox the Reborn|PRE|57245|M|28.95,51.33|Z|Maldraxxus|T|Zargox the Reborn|N|Ask Synder for Ani-Matter Orb, go to the bone at these coord.\nUse orb on pile of bones in center of platform.|RARE|ACH|14308;3|U|175827|LVL|60|
 C Blade of Blades|QID|57284|M|31.27,45.27|Z|Maldraxxus|US|NC|N|Keep picking up swords from the ground until you find the right one.|
 T Blade of Blades|QID|57284|M|26.28,43.13|Z|Maldraxxus|N|To Stubborn Animate.|
 T Bring Me Their Heads|QID|57278|M|26.28,43.13|Z|Maldraxxus|N|To Stubborn Animate.|
-T Ani-Matter Animator|QID|57245|M|26.29,42.67|Z|Maldraxxus|N|From Snyder Sixfold.|
+T Ani-Matter Animator|QID|57245|M|26.29,42.67|Z|Maldraxxus|N|From Snyder Sixfold.|RANK|2|LVL|60|
+$ Forgotten Momentos 1|M|24.5,31.6|Z|Maldraxxus|N|Go into Etheric Vault|TZ|Etheric Vault|ACH|14312;7|RANK|2|LVL|60|;1649 aka Etheric Vault aka MAL_Micro_A
+$ Forgotten Momentos 2|CC|M|25.7,54.2|Z|Etheric Vault|N|Take a left at the first intersection, go past the treasure and take a right at the "T". At the end of that hall, Click the Vault Portcullis Chain.|ACH|14312;7|RANK|2|LVL|60|
+$ Forgotten Momentos 3|M|35.0,56.2|Z|Etheric Vault|N|Go back to the treasure you passed by and Loot the Forgotten Momentos|ACH|14312;7|RANK|2|LVL|60|
 T A Burden Worth Bearing|QID|57986|M|30.12,24.02|Z|Maldraxxus|N|To Aspirant Thales.|MS|
 T Give Them a Hand|QID|57985|M|30.21,23.84|Z|Maldraxxus|N|To Secutor Mevix.|MS|
 T A Deadly Distraction|QID|57987|M|30.21,23.84|Z|Maldraxxus|N|To Secutor Mevix.|MS|
@@ -345,8 +350,8 @@ T In The Flesh|QID|57994|M|37.61,29.09|Z|Maldraxxus|N|To Aspirant Thales.|MS|
 A Front and Center|QID|60733|M|37.66,29.11|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57994|MS|
 R Spider's Watch|QID|62605|ACTIVE|59867|CS|M|36.54,30.88;37.57,29.24|Z|Maldraxxus|N|Finish the Bonuse Objective as you head back to Spider's Watch.|TOF|
 
-; Side Quest Story - Archival Protection
-A Broker Business|QID|62605|M|38.20,31.29|Z|Maldraxxus|N|From Forgotten Supplies.|RANK|2|
+; Side Quest Story - Archival Protection  ACH|14799;3|
+A Broker Business|QID|62605|LEAD|58619|M|38.20,31.29|Z|Maldraxxus|N|From Forgotten Supplies.|RANK|2|
 T Broker Business|QID|62605|M|40.69,33.08|Z|Maldraxxus|N|To Ta'eran.|
 A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|RANK|2|
 C Read Between the Lines|QID|58619|CS|M|40.69,33.08;43.30,28.62|Z|Maldraxxus|CHAT|N|Talk to Ta'ern, then walk with him and at least pretend to listen.|
@@ -376,14 +381,14 @@ A Archival Protection|QID|60900|M|41.83,23.61|Z|Maldraxxus|N|From Ta'eran.|PRE|5
 C Archival Protection|QID|60900|M|42.26,24.11|Z|Maldraxxus|N|Continue up the stairs to find and kill The Archivist.|T|The Archivist|
 T Archival Protection|QID|60900|M|PLAYER|Z|Maldraxxus|N|To Ta'ern.|
 A Trust Fall|QID|59994|M|PLAYER|Z|Maldraxxus|N|From Ta'eran.|PRE|60900|
-$ The Necronom-i-nom|QID|61470|M|42.35,23.34|Z|Maldraxxus|N|More treasure for you in a bookcase near The Archivist.|ITEM|182732|RANK|2|ACH|14312;10|
+$ The Necronom-i-nom|QID|61470|M|42.35,23.34|Z|Maldraxxus|N|More treasure for you in a bookcase near The Archivist.|ITEM|182732|RANK|2|ACH|14312;6|
 C Trust Fall|QID|59994|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Jump out of the tower.|
 C Trust Fall|QID|59994|M|45.49,32.09|QO|2|Z|Maldraxxus|NC|N|Click the floating book behind you.|
 T Trust Fall|QID|59994|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
 A A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|From Ta'eran.|PRE|59994|RANK|2|
 C A Complete Set|QID|58623|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Click on the books around in the shelves.|
 C A Complete Set|QID|58623|M|42.14,23.30|QO|2|Z|Maldraxxus|NC|N|Click on the pages flying around the room.|
-T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
+T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|ACH|14799;2|
 R Spider's Watch|QID|1|ACTIVE|60733|CS|M|40.51,32.84;37.56,29.21|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run back to Spidar's Watch.|
 F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|Z|Maldraxxus|N|Fly back to Bleak Redoubt.|MS|
 
@@ -410,7 +415,7 @@ A Bug Bites|QID|58011|M|56.43,57.31|Z|Maldraxxus|N|From Plague Deviser Marileth.
 A Spores Galore|QID|58016|M|56.43,57.31|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|59130|MS|
 C Spores Galore|QID|58016|M|53.65,56.87|Z|Maldraxxus|NC|N|Click the Stringy Spores and walk away to uproot them.|S|MS|
 C Bug Bites|QID|58011|M|52.39,59.79|Z|Maldraxxus|N|Kill the Virulent Pests and loot their Bloated Venom Sacs.|MS|
-K Pesticide|QID|58875^61992|QO|1|M|54.16,60.73|Z|Maldraxxus|T|Pesticide|N|Silver elite. Avoid burrow attacks.|ITEM|182205|RARE|ACH|14308;10|
+K Pesticide|QID|58875^61992|QO|1|M|54.16,60.73|Z|Maldraxxus|T|Pesticide|N|Silver elite. Avoid burrow attacks.|ITEM|182205|RARE|ACH|14308;19|
 C Spores Galore|QID|58016|M|53.65,56.87|Z|Maldraxxus|NC|N|Click the Stringy Spores and walk away to uproot them.|US|MS|
 T Bug Bites|QID|58011|M|56.42,57.29|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 T Spores Galore|QID|58016|M|56.42,57.29|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
@@ -427,7 +432,7 @@ C Applied Science|QID|58031|M|57.12,59.51|Z|Maldraxxus|N|Kill the remnants roami
 C Hazardous Waste Collection|QID|58036|M|57.19,60.67|Z|Maldraxxus|NC|N|Click on the Plague Refuse blobs on the ground to send your Plagueborn Slime to find Laboratory Equipment. Once it has collected the equipment, you need to click on the Plagueborn slime to collect the equipment.|S|MS|
 C Plague is Thicker Than Water|QID|58045|M|61.96,62.32|Z|Maldraxxus|N|Kill Korrim the Cunning.|T|Korrim the Cunning.|MS|
 C Hazardous Waste Collection|QID|58036|M|57.19,60.67|Z|Maldraxxus|N|Click on the Plague Refuse blobs on the ground to send your Plagueborn Slime to find Laboratory Equipment. Once it has collected them, you need to click on the Plagueborn slime to collect it.|US|MS|
-C Applied Science|QID|58031|M|57.12,59.51|Z|Maldraxxus|N|Kill the remnants roaming around and loot them for a chance to find your missing pages.|US|MS|
+C Applied Science|QID|58031|M|57.78,66.30|Z|Maldraxxus|N|Kill the remnants roaming around and loot them for a chance to find your missing pages.|US|MS|
 T Hazardous Waste Collection|QID|58036|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 T Plague is Thicker Than Water|QID|58045|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 T Applied Science|QID|58031|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
@@ -453,7 +458,7 @@ K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<1|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
 K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill the Burning Extracts, Colossal Goo or Prodigious Animates, once it dies there will sometimes be a 2nd corpse, that you click on to collect the oil, ooze or goo.|BUFF|306636^306606^306630|
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<2|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
-$ Vat of Conspicuous Slime|QID|61444|M|59.88,79.00|Z|Maldraxxus|N|Pick up "Empty Plague Bottle" from table, then click on the vat for treasure.|ACH|14312;9|ITEM|181825|
+$ Vat of Conspicuous Slime|QID|61444|M|59.88,79.00|Z|Maldraxxus|N|Pick up "Empty Plague Bottle" from table, then click on the vat for treasure.|ACH|14312;4|ITEM|181825|
 C By Any Other Name|QID|59223|M|57.96,80.41|Z|Maldraxxus|QO|1|N|Kill the Blossoming Dreadshade and loot its Extract.|MS|
 K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|Maldraxxus|N|Kill the Burning Extracts, Colossal Goo or Prodigious Animates, once it dies there will sometimes be a 2nd corpse, that you click on to collect the oil, ooze or goo.|BUFF|306636^306606^306630|
 R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<3|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
@@ -462,21 +467,23 @@ T By Any Other Name|QID|59223|M|60.44,71.64|Z|Maldraxxus|N|To Plague Deviser Mar
 A Fit For a Margrave|QID|60831|M|60.44,71.64|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|59223|MS|
 C Fit For a Margrave|QID|60831|M|60.55,71.76|Z|Maldraxxus|QO|1|NC|N|Click the Anima Catalysts to the left and right of you.|MS|
 C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|2|NC|N|Click on the Potion Chamber to complete it.|MS|
-C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|3|NC|N|Click on the glowing Rune of Insight near you.|MS|
+C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|3|NC|N|When you are finally unstunned, click on the glowing Rune of Insight above the cauldren.|MS|
 T Fit For a Margrave|QID|60831|M|60.50,71.60|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 A Fathomless Power|QID|59231|M|60.50,71.60|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|60831|MS|
 A Plaguefall: Knee Deep In It|QID|59520|M|59.39,72.95|Z|Maldraxxus|ELITE|N|[color=e6cc80]Dungeon: Plaguefall[/color]\nFrom Vial Master Lurgy. This quest is optional and out of scope for this guide.|RANK|2|
-$ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus|N|Get a Mask from Pandemis.|BUFF|338920|ACH|14312;13|
-$ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|;330069<10|ACH|14312;13|
-$ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|ACH|14312;13|;currently bugged grate doesnt show
-$ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus|N|And, the Treasure is along the top of the wall in a chest.|ACH|14312;13|
+K Scunner|M|61.41,76.25|Z|Maldraxxus|T|Scunner|N|WH - Mob is a mess, Ton of HP and what it's worth and aura the reduces haste to the groun, Bring Group with Bloodlust/Heroism|RARE|ACH|14308;2|LVL|60|
+$ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus|N|Get a Mask from Pandemis.|BUFF|338920|ACH|14312;12|LVL|60|
+$ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|ACH|14312;12|LVL|60|
+$ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|ACH|14312;12|LVL|60|;currently bugged-treasure icon shows, but grate doesnt show pre 60
+$ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus|N|And, the Treasure is along the top of the wall in a chest.|ACH|14312;12|LVL|60|
 F Bleak Redoubt|ACTIVE|59231|M|58.02,72.37|Z|Maldraxxus|N|At Vradfira Livid.|
 C Fathomless Power|QID|59231|M|50.40,67.75|Z|Maldraxxus|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Inisght.|EAB|MS|
-T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
+T Fathomless Power|QID|59231|M|50.29,67.72|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
 ; Matron of Spies Storyline
 R Renounced Bastille|ACTIVE|58751|CS|M|54.79,65.53;59.70,60.58;67.90,51.58|Z|Maldraxxus|N|Through Bleak Redoubt, Blighted Scar and Glutharn's Decay, following roads generally northwest.|
 R Glutharn's Decay|AVAILABLE|62743|CS|M|54.79,65.53;59.70,60.58;67.90,51.58|Z|Maldraxxus|N|Through Bleak Redoubt, Blighted Scar and Glutharn's Decay, following roads generally northwest.|RANK|2|TOF|
+$ Misplaced Supplies|M|62.4,59.9|Z|Maldraxxus|N|Climb hill, turn left, Jump to mushroom, Turn right, Jump to hill, Turn right and climb hill once more to the edge, walk onto mushroom.|ACH|14312;9|LVL|60|
 A Decaying Situation|QID|62743|M|65.62,48.32|Z|Maldraxxus|N|Bonus Objective-Autoaccepted.|RANK|2|TOF|LVL|-59|
 C Decaying Situation|QID|62743|M|65.62,48.32|Z|Maldraxxus|S!US|N|Kill Hostiles, destroy the Bone Stakes tethering the Necroray's.|TOF|LVL|-59|
 f Renounced Bastille|ACTIVE|58751|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|
@@ -484,8 +491,8 @@ C A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|CHAT|N|Deliver the summons
 T A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A Glorious Pursuits|QID|58821|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
 A Prey Upon Them|QID|59171|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
-;$ Stolen Jar|QID|61451|M|66.08,50.10|Z|Maldraxxus|N|In this cave for some treasure.|ITEM|182618|ACH|14312;3|
-A ...Why Me?|QID|62085|M|66.16,50.44|Z|Maldraxxus|N|From Stolen Jar in cave.|RANK|2|;$
+;$ Stolen Jar|QID|61451|M|66.08,50.10|Z|Maldraxxus|N|In this cave for some treasure.|ITEM|182618|ACH|14312;5|
+A ...Why Me?|QID|62085|M|66.16,50.44|Z|Maldraxxus|N|From Stolen Jar in ground level cave, you are facing NE when you enter. There is a cave practically on top of this one. May not be there due to respawn timer.|RANK|2|ITEM|182618|ACH|14312;5|;$
 C Glorious Pursuits|QID|58821|M|62.75,52.52|Z|Maldraxxus|QO|1|U|178940|N|Attack Mephiles the Loyal until he is under 50% then use Vashj's Signal to capture it.|MS|
 C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Kill the Morbid Disciples|S|MS|
 C Prey Upon Them|QID|59171|M|61.97,51.91|Z|Maldraxxus|NC|QO|1<1|N|Click on the Anima-charged Maldracite to collect it.|MS|
@@ -507,8 +514,9 @@ C Tainted Cores|QID|59210|M|67.46,45.99|Z|Maldraxxus|QO|1|NC|N|Click on the Depl
 C Entangling Web|QID|59185|M|71.07,53.23|Z|Maldraxxus|QO|1|NC|N|Click the Jars of Ground Maldracite that are scatterd around to collect the dust.|S|MS|
 C Tainted Cores|QID|59210|M|72.18,49.92|Z|Maldraxxus|QO|2|U|175409|N|Kill Ritualists and then use the Fractured Anima Crystal to drain their Anima.|S|MS|
 C Vaunted Vengeance|QID|59188|M|72.16,47.94|Z|Maldraxxus|QO|1|N|Kill Architect Xeeli and loot his Ritual Drafts.|MS|
+K Deadly Dapperling|QID|58868^61989|QO|1|M|76.13,56.25|Z|Maldraxxus|T|Deadly Dapperling|N|up the hill for a silver elite mushroom - Wanders Southeast part of Glutharn's Decay area.|ITEM|181263|RARE|ACH|14308;17|
 C Vaunted Vengeance|QID|59188|M|72.77,52.60|Z|Maldraxxus|QO|3|N|Kill Architect Lye and loot his Ritual Drafts. He is above, not inside the cave.|MS|
-K Deadly Dapperling|QID|25535^30656|QO|1|M|76.13,56.25|Z|Maldraxxus|T|Deadly Dapperling|N|up the hill for a silver elite mushroom - Wanders Southeast part of Glutharn's Decay area.|ITEM|181263|RARE|ACH|14308;9|
+$ Glutharn's Stash|M|72.8,53.6|Z|Maldraxxus|N|Inside cave, at base of/through waterfall, Kill Scathely and his 2 adds to unlock treasure.|ACH|14312;10|LVL|60|;seems to be lvl 60. killed Scathely and his minions twice. no icon. no treasure at level 58. directly below Architect Lye
 C Vaunted Vengeance|QID|59188|M|69.53,52.50|Z|Maldraxxus|QO|2|N|Kill Architect Halen and loot his Ritual Drafts.|MS|
 C Tainted Cores|QID|59210|M|72.18,49.92|Z|Maldraxxus|QO|2|U|175409|NC|N|Kill Ritualists and then use the Fractured Anima Crystal to drain their Anima.|US|MS|
 C Entangling Web|QID|59185|M|71.07,53.23|Z|Maldraxxus|QO|1|N|Click the Jars of Ground Maldracite that are scatterd around to collect the dust.|US|MS|
@@ -536,17 +544,18 @@ T Her Rightful Place|QID|59009|M|50.33,67.75|Z|Maldraxxus|N|To Baroness Draka.|M
 ; Ritual for the Damned Storyline
 A Among the Chosen|QID|59202|M|50.33,67.75|Z|Maldraxxus|N|From Baroness Draka.|PRE|59009|MS|
 C Among the Chosen|QID|59202|M|40.57,62.00|Z|Maldraxxus|QO|1|NC|N|Return to the House of the Chosen.|MS|
-C Among the Chosen|QID|59202|M|38.42,66.15|Z|Maldraxxus|QO|2|N|Seek out Krexus.|MS|
+C Among the Chosen|QID|59202|M|38.42,66.15|Z|Maldraxxus|QO|2|NC|N|Seek out Krexus.|MS|
 T Among the Chosen|QID|59202|M|38.14,66.65|Z|Maldraxxus|N|To Baron Vyraz.|MS|
 A The Maw|QID|59874|M|38.14,66.65|Z|Maldraxxus|N|From Baron Vyraz.|MS|
-F Oribos|ACTIVE|59874|M|39.06,55.21|Z|Maldraxxus|N|Fly back to Oribos at Wing Guard Aela.|MS|
-P Ring of Fates|ACTIVE|59874|M|49.56,61.78|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|
+F Oribos|ACTIVE|59874|M|39.06,55.21|Z|Maldraxxus|N|Fly back to Oribos at Wing Guard Aela.|MS|C|-Mage|
+P Ring of Fates|ACTIVE|59874|M|49.56,61.78|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|C|-Mage|
+P Oribos|ACTIVE|59874|M|PLAYER|N|Teleport to Oribos|MS|C|Mage|
 T The Maw|QID|59874|M|40.05,68.46|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A Seeking the Baron|QID|59897|M|40.05,68.46|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon, after some dialog.|PRE|59874|MS|
 C Seeking the Baron|QID|59897|M|47.16,55.30|Z|Ring of Fates@Oribos|NC|N|Go back up to the Ring of Transference, then jump into the pillar of souls in the middle of Oribos.|MS|
 T Seeking the Baron|QID|59897|M|44.95,40.99|Z|The Maw|N|To the pop up.|MS|
 A The Hunt for the Baron|QID|60972|M|PLAYER|Z|The Maw|N|From the pop up.|PRE|59897|MS|
-C The Hunt for the Baron|QID|60972|M|35.03,40.11|Z|The Maw|N|Kill stuff in the area to charge the Ebon Blade Amulet.|MS|
+C The Hunt for the Baron|QID|60972|M|35.40,46.98|Z|The Maw|N|Kill stuff in the area to charge the Ebon Blade Amulet.|MS|
 T The Hunt for the Baron|QID|60972|M|PLAYER|Z|The Maw|N|To the Pop Up.|MS|
 A A Cooling Trail|QID|59960|M|PLAYER|Z|The Maw|N|From Pop up.|PRE|60972|MS|
 C A Cooling Trail|QID|59960|M|PLAYER|Z|The Maw|U|181174|N|Use the Amulet of the Horsemen to help you find Darion Mograine. Follow the ghostly Death Essense to where Mograine is. It will wait if you need to stop and fight.|MS|
@@ -576,30 +585,30 @@ C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|2|NC|N|Click the waygate again
 T Maw Walker|QID|62654|M|40.08,68.41|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A A Soul Saved|QID|59974|M|39.60,68.00|Z|Ring of Fates@Oribos|N|From Baroness Draka.|PRE|62654|MS|
 P Ring of Transference|ACTIVE|59974|M|52.08,57.91|Z|Ring of Fates@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|MS|
-F The Spearhead|QID|59974|M|60.72,68.52|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi|MS|
+F The Spearhead|ACTIVE|59974|M|60.72,68.52|Z|Ring of Transference@Oribos|N|Don't take Pathscribe Roh-Avonavi's chat option flight, unless you need exercise, it's further away from the quest turnin.|MS|
 
 ; The Empty Throne Storyline
 T A Soul Saved|QID|59974|M|41.31,60.63|Z|Maldraxxus|N|To Alexandros Mograine.|MS|
 A In Death We Are Truly Tested|QID|59011|M|41.33,60.62|Z|Maldraxxus|N|To Alexandros Mograine.|PRE|59974|MS|
-C In Death We Are Truly Tested|QID|59011|M|41.33,60.62|Z|Maldraxxus|NC|N|Use "[color=40C7EB]Claim Rune[/color]" to start some dialog, after that, fight Vyraz until Draka takes you away.|EAB|MS|
+C In Death We Are Truly Tested|QID|59011|M|41.33,60.62|Z|Maldraxxus|NC|N|Use "[color=40C7EB]Claim Rune[/color]" to start a short cutscene, after that fight Vyraz until Draka takes you away.|EAB|MS|
 T In Death We Are Truly Tested|QID|59011|M|50.49,67.83|Z|Maldraxxus|N|To Baroness Draka.|MS|
 A The Door to the Unknown|QID|60737|M|50.49,67.83|Z|Maldraxxus|N|From Baroness Draka.|PRE|59011|MS|
 C The Door to the Unknown|QID|60737|M|50.40,67.41|Z|Maldraxxus|NC|N|Step near the raised area opposite the door and use "[color=40C7EB]Unlock Door[/color]" Action Ability to access the Seat of the Primus.|EAB|MS|
 T The Door to the Unknown|QID|60737|M|49.67,54.47|Z|Seat of the Primus!Dungeon|N|Go through the door and into the Seat of the Primus and find the Stone Altar.|MS|
 A Words of the Primus|QID|59206|M|49.73,49.19|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|PRE|60737|MS|
-F Theater of Pain|ACTIVE|62085|M|49.73,49.19|Z|Maldraxxus|N|At Wing Guard Buurkin.|
+F Theater of Pain|ACTIVE|62085|M|52.46,67.64|Z|Maldraxxus|N|At Wing Guard Buurkin.|
 R Challenger's Promenade|ACTIVE|62085|M|54.02,50.86|Z|Maldraxxus|N|Run over to Challenger's Promenade.|
 T ...Why Me?|QID|62085|M|54.02,50.86|Z|Maldraxxus|N|To Overseer Kalvaros.|
-F The Spearhead|AVAILABLE|62741|M|49.93,53.20|Z|Maldraxxus|N|At Wing Guard Alamar. You can take the chat option, but it will be a farther run than flying to The Spearhead.|RANK|2|TOF|
+F The Spearhead|AVAILABLE|62741|M|49.93,53.20|Z|Maldraxxus|N|At Wing Guard Alamar.|RANK|2|TOF|
 R House of the Chosen|AVAILABLE|62741|M|42.01,58.91|Z|Maldraxxus|N|Up to the House of the Chosen for the last bonus objective.|RANK|2|TOF|LVL|-59|
 A Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|Bonus Objective-Autoaccepted|RANK|2|TOF|LVL|-59|
 C Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|Basically kill hostiles, there is a small increase from burning banners, but I wouldnt go out of my way for it. Picking up shields, armour and weapons gives you buffs.|TOF|
 T Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|Bonus Objective-Autocompleted|RANK|2|TOF|
-F Oribos|ACTIVE|59206|M|49.86,53.30|Z|Maldraxxus|N|At Wing Guard Alamar.|PRE|62085|;pre to make this step show up only if you went over to turn that quest in
+F Oribos|ACTIVE|59206|M|49.86,53.30|Z|Maldraxxus|N|At Wing Guard Alamar.|C|-Mage|
 F Bleak Redoubt|ACTIVE|62748|N|When you have finished Rallying Maldraxxus and are ready to move on, go to the nearest flightmaster and ask for a ride back to Bleak Redoubt.|TOF|
-F Oribos|ACTIVE|62761|N|When you are ready to move on, go to the nearest flightmaster and ask for a ride back to Oribos.|TOF|
-F Oribos|ACTIVE|59206|M|52.49,67.71|Z|Maldraxxus|N|At Wing Guard Buurkin.|MS|
-P Ring of Fates|ACTIVE|59206|M|49.56,61.78|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|
+F Oribos|ACTIVE|62761|N|When you are ready to move on, go to the nearest flightmaster and ask for a ride back to Oribos.|TOF|C|-Mage|
+P Ring of Fates|ACTIVE|59206|M|49.56,61.78|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|C|-Mage|
+P Oribos|ACTIVE|59206^62761|M|PLAYER|N|Teleport to Oribos.|C|Mage|  ; should work either TOF or MS
 T Words of the Primus|QID|59206|M|54.67,54.62|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
 A Request of the Highlord|QID|61715|M|54.67,54.62|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|59206|RANK|2|
 T Request of the Highlord|QID|61715|M|40.40,68.51|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|

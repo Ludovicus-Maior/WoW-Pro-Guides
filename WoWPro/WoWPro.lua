@@ -119,7 +119,7 @@ function WoWPro:LogEvent(event, ...)
         end
     end
     msg = msg .. (") InitLockdown=%s"):format(tostring(WoWPro.InitLockdown))
-    WoWPro:Add2Log(3,msg)
+    WoWPro:Add2Log(2,msg)
 end
 
 -- Error Logging
@@ -205,6 +205,10 @@ end
 function WoWPro:LogDump(callback)
     if (not WoWProDB) or (not WoWProDB.global) or (not WoWProDB.global.Log) then return "" end
     _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating log")
+    WoWPro:Print("WoWPro Version %s.", WoWPro.Version)
+    WoWPro:print("Class: %s, Race: %s, Faction: %s, Level %d, XP %d",
+                 _G.UnitClass("player"), _G.UnitRace("player"),
+                 WoWPro.Faction, _G.UnitLevel("player"), _G.UnitXP("player"))
     WoWPro:LogLocation()
     if not LogFrame then
         LogFrame = _G.CreateFrame("Frame", nil, _G.UIParent)
@@ -219,10 +223,7 @@ function WoWPro:LogClear(where)
         WoWProDB.global.Log = {}
     end
     WoWPro.Serial = 999999999
-    WoWPro:Print("Log Reset from %s, WoWPro Version %s.", where, WoWPro.Version)
-    WoWPro:print("Class: %s, Race: %s, Faction: %s, Level %d, XP %d",
-                 _G.UnitClass("player"), _G.UnitRace("player"),
-                 WoWPro.Faction, _G.UnitLevel("player"), _G.UnitXP("player"))
+    WoWPro:Print("Log Reset from %s", where)
 end
 WoWPro.Faction = _G.UnitFactionGroup("player")
 WoWPro:LogClear("Addon Load")
@@ -345,6 +346,7 @@ function WoWPro:OnInitialize()
     WoWProCharDB.Guide2QIDs = nil -- wipe it.
     WoWProCharDB.QID2Guide = WoWProCharDB.QID2Guide or {}
     WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
+    WoWProCharDB.Rank = WoWProCharDB.Rank or {}
     WoWProDB.global.QID2Guide = nil
     WoWProDB.global.Guide2QIDs = nil
     WoWProCharDB.Taxi = WoWProCharDB.Taxi or {}
@@ -475,12 +477,6 @@ function WoWPro:OnEnable()
         WoWPro[tag] = WoWPro[tag] or {}
     end
 
-    -- Module Enabling --
-    for name, module in WoWPro:IterateModules() do
-        WoWPro:dbp("Enabling "..name.." module...")
-        module:Enable()
-    end
-
     WoWPro:CustomizeFrames()    -- Applies profile display settings
 
     -- Keybindings Initial Setup --
@@ -500,7 +496,7 @@ function WoWPro:OnEnable()
     WoWPro:RegisterEvents(nil)
     WoWPro:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
     if not WoWPro.CLASSIC then
-        WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
+        WoWPro:RegisterBucketEvent({"QUEST_LOG_CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
     end
     WoWPro:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
     WoWPro:RegisterBucketEvent({"TRADE_SKILL_SHOW", "TRADE_SKILL_LIST_UPDATE"}, 0.250, WoWPro.ScanTrade)
@@ -552,6 +548,12 @@ function WoWPro:OnEnable()
 		WoWPro:DevCoords()
 		_G.WoWProDevCoords:Show()
 	end
+
+    -- Module Enabling --
+    for name, module in WoWPro:IterateModules() do
+        WoWPro:dbp("Enabling "..name.." module...")
+        module:Enable()
+    end
 end
 
 -- Called when the addon is disabled --
@@ -929,14 +931,8 @@ function WoWPro:GuideQuestTriggers(guide, ...)
     end
 end
 
-function WoWPro:GuideAutoSwitch(guide, state)
+function WoWPro:GuideAutoSwitch(guide)
     local _, engClass = _G.UnitClass("player")
-
-    if state == false then
-        -- A clear request
-        WoWPro.ClearQID2Guide(guide.GID)
-        return
-    end
 
     if guide.class and engClass ~= guide.class then
         -- Developers can peek, but should not AutoSwitch on the class specific guides if they are not for them
@@ -969,6 +965,10 @@ end
 
 function WoWPro:GuideSteps(guide,steps)
     guide['sequence'] = steps
+    if not (guide['AutoSwitch'] or guide['QuestTriggers']) then
+        -- If we are not triggering, clean any leftovers.
+        WoWPro.ClearQID2Guide(guide.GID)
+    end
 end
 
 function WoWPro:BuyersGuide(guide)

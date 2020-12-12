@@ -362,6 +362,9 @@ end
 function WoWPro.EmitStep(i)
     local GID = WoWProDB.char.currentguide
 
+    if not i then return "<nil>"; end
+    if i > WoWPro.stepcount then return "<EOG>"; end
+
     if type(WoWPro.action[i]) ~= "string" or type(WoWPro.step[i]) ~= "string" then
         return ""
     end
@@ -1069,9 +1072,8 @@ function WoWPro.SetupGuideReal()
     -- Scrollbar Settings --
     WoWPro.Scrollbar:SetMinMaxValues(1, max(1, WoWPro.stepcount - WoWPro.ShownRows))
 
-    WoWPro.GuideLoaded = true
+    WoWPro.GuideLoaded = "Loaded"
     WoWPro:AutoCompleteQuestUpdate(nil)
     WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
     WoWPro:SendMessage("WoWPro_PostLoadGuide")
-    WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA_GUIDE_LOAD")
 end

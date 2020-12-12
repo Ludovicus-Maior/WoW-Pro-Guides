@@ -246,11 +246,6 @@ C Missing Treasure!|QID|49409|M|76.38,84.33|QO|2|CHAT|N|Ask Nub Nub about the tr
 C Missing Treasure!|QID|49409|M|76.13,83.05|QO|3|CHAT|N|Ask Nance Barmy about the treasure.|
 K Barman Bill|QID|50233|QO|1|M|76.48,82.62|T|Barman Bill|RARE|ITEM|160451|N|Silver Elite to kill for loot and resources.|RANK|2|
 C Trixie Business|QID|49407|M|76.48,82.64|QO|1|CHAT|N|Talk to Trixie, then follow her to the out of the way corner, click off your hat "buff" and attack. Don't forget to reapply it when done.|
-T Trixie Business|QID|49407|M|76.90,85.98|N|To Carentan.|
-A Carentan's Payment|QID|49522|M|76.90,85.98|N|From Carentan.|PRE|49407|RANK|2|
-C Carentan's Payment|QID|49522|M|76.81,85.97|NC|N|Open the Dusty Crate.|
-T Carentan's Payment|QID|49522|M|76.88,86.02|N|To UI Alert.|
-A A Bad Deal|QID|49523|M|76.88,86.02|N|From UI Alert.|PRE|49522|RANK|2|
 C Missing Treasure!|QID|49409|QO|4|M|75.64,80.56|NC|N|Inspect the Sandy Seaweed-covered Chest.|
 C Missing Treasure!|QID|49409|QO|5|M|76.31,80.80|NC|N|Pick up the missing treasure.|
 T Missing Treasure!|QID|49409|M|76.31,80.80|N|To UI Alert.|
@@ -260,6 +255,11 @@ C The Big Job|QID|49399|QO|2|US|N|Keep killing Cutwater Corsairs until you have 
 C Kill Bilge Rats|QID|49399|QO|1|US|N|Keep killing Bilge Rats until you have their Orders.|
 C Recruiting Efforts|QID|49400|US|N|Finish tearing down Irontide Recruiting Posters.|
 C Flew the Coop|QID|49402|US|U|154878|N|Finish feeding the Runaway Macaws.|
+T Trixie Business|QID|49407|M|76.90,85.98|N|To Carentan.|
+A Carentan's Payment|QID|49522|M|76.90,85.98|N|From Carentan.|PRE|49407|RANK|2|
+C Carentan's Payment|QID|49522|M|76.81,85.97|NC|N|Open the Dusty Crate.|
+T Carentan's Payment|QID|49522|M|76.88,86.02|N|To UI Alert.|
+A A Bad Deal|QID|49523|M|76.88,86.02|N|From UI Alert.|PRE|49522|RANK|2|
 T The Big Job|QID|49399|M|77.35,83.92|N|To Venrik.|
 T Recruiting Efforts|QID|49400|M|77.35,83.92|N|To Venrik.|
 A Fairwind's "Friends"|QID|49404|M|77.35,83.92|N|From Venrik.|PRE|49399|
@@ -310,7 +310,7 @@ A Enemies at the Gate|QID|49739|M|58.44,64.74|N|Bonus Objective - Autoaccepted.|
 C Enemies at the Gate|QID|49739|M|58.44,64.74|S|N|Bonus Objective - This will most likely be accomplished before you finish the other objectives.|
 C For Kul Tiras!|QID|49736|S|U|156520|N|Use the banner to inspire the Vigil Hill defenders.|
 C Cease Fire!|QID|49740|S|N|Click on the Captured Cannons to destroy them.|
-C Righteous Retribution|QID|49741|M|58.01,63.25;55.40,67.84|CS|QO|1|N|Steal the Azerite Bombs from the ship's deck.|
+C Righteous Retribution|QID|49741|M|55.40,67.84|QO|1|N|Steal the Azerite Bombs from the ship's deck.|
 C Righteous Retribution|QID|49741|M|55.87,67.59|QO|2|N|Use Special action button "[color=40C7EB]Azerite Bomb[/color]" to bomb The Plunder Runner. The bomb doesnt hit unless you are pretty much, right at the dot.|EAB|
 C Righteous Retribution|QID|49741|M|59.03,66.60|QO|3|NC|N|Board the Landing Boat boarded.|
 C Righteous Retribution|QID|49741|M|59.34,68.26|QO|4|NC|N|Use your special action button "[color=40C7EB]Azerite Bomb[/color]" to bomb The Bloodwake.|EAB|;coords a little off, do it when the boat stops.
@@ -756,7 +756,7 @@ C The Deadliest Catch|QID|49302|M|36.37,29.45|QO|4|CHAT|N|Tell the Outrigger Eng
 C The Deadliest Catch|QID|49302|M|36.77,29.71|QO|5|V|N|Hop on the Outrigger Gryphon for a ride to town.|
 T The Deadliest Catch|QID|49302|M|42.46,29.34|N|To Brannon Stormsong.|
 H Tradewinds Market|TZ|Snug Harbor Inn|N|Hearth or take the nearby ferry back to Boralus.|
-A The Long Con|QID|49223|M|75.47,22.18|Z|Boralus|N|From Roko.|RANK|3|PRE|49523|
+A The Long Con|QID|49223|M|75.47,22.18|Z|Boralus|N|From Roko.|RANK|3|PRE|49523|LVL|50|
 K Carentan|ACTIVE|49223|QO|1|M|61.44,39.10|Z|Boralus|T|Carentan|N|Kill Carentan.|RANK|3|
 T The Long Con|QID|49223|M|75.47,22.18|Z|Boralus|N|To Roko.|RANK|3|
 ]]

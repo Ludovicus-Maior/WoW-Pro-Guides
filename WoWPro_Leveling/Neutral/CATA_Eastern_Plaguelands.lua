@@ -84,41 +84,43 @@ T Zaeldarr the Outcast|QID|27432|M|34.92,68.28|N|To Urk Gagbaz.|
 T Uncle Carlin|QID|27385|M|35.51,68.81|N|To Carlin Redpath.|
 A A Strange Historian|QID|27386|PRE|27385|M|35.51,68.81|N|From Carlin Redpath.|
 T A Strange Historian|QID|27386|M|35.18,68.02|N|To Chromie.|
-A Heroes of Darrowshire|QID|27388|PRE|27386|M|35.18,68.02|N|From Chromie.|S|RANK|2|
-A Marauders of Darrowshire|QID|27389|PRE|27386|M|35.18,68.02|N|From Chromie.|S|RANK|2|
-A Villains of Darrowshire|QID|27387|PRE|27386|M|35.18,68.02|N|From Chromie.|RANK|2|
+; The Redpaths of Darrowshire ACH|4892;2|
+A Heroes of Darrowshire|QID|27388|PRE|27386|M|35.18,68.02|N|From Chromie.|S|
+A Marauders of Darrowshire|QID|27389|PRE|27386|M|35.18,68.02|N|From Chromie.|S|
+A Villains of Darrowshire|QID|27387|PRE|27386|M|35.18,68.02|N|From Chromie.|
 A Heroes of Darrowshire|QID|27388|PRE|27386|M|35.18,68.02|N|From Chromie.|US|
-A Marauders of Darrowshire|QID|27389|PRE|27386|M|35.18,68.02|N|From Chromie.|US|RANK|2|
+A Marauders of Darrowshire|QID|27389|PRE|27386|M|35.18,68.02|N|From Chromie.|US|
 A Cenarion Tenacity|QID|27544|LEAD|27420|PRE|27386|M|34.93,68.32|N|From Urk Gagbaz.|RANK|2|
-C Heroes of Darrowshire - extended Annals of Darrowshire|QID|27388|L|13202|M|35.57,68.89|N|Speak to Carl Redpath and ask for the extended Annals of Darrowshire.|QO|1|CHAT|RANK|2|
+C Heroes of Darrowshire - extended Annals of Darrowshire|QID|27388|L|13202|M|35.57,68.89|N|Speak to Carl Redpath and ask for the extended Annals of Darrowshire.|QO|1|CHAT|
 C Rough Roads|QID|27382|M|41.30,71.09|N|Kill any Plaguebats you need.|S|
-C Villains of Darrowshire - Shattered Sword of Marduk|QID|27387|M|34.35,68.36;33.79,72.61;39.77,72.36|CC|N|Pick up the "Shattered Sword of Marduk" from the floor.|QO|2|NC|RANK|2|
+C Villains of Darrowshire - Shattered Sword of Marduk|QID|27387|M|34.35,68.36;33.79,72.61;39.77,72.36|CC|N|Pick up the "Shattered Sword of Marduk" from the floor.|QO|2|NC|
 C Rough Roads|QID|27382|M|41.30,71.09|N|Finish killing any Plaguebats you need.|US|
 T Rough Roads|QID|27382|M|35.91,69.06|N|To Argus Highbeacon at the top of the tower. \n\nOnce you complete this quest, the wagon will give a new Zone Buff, "Argus' Journal", which gives 2% more experience whilst in the zone.|
-C Heroes of Darrowshire - Redpath's Shield|QID|27388|M|34.35,68.36;33.79,72.61;25.38,73.92;25.26,69.20;22.40,68.19|CC|N|Pick up "Redpath's Shield" from the ground floor of the house in The Marris Stead.|QO|3|NC|RANK|2|
-C Heroes of Darrowshire - Davil's Libram|QID|27388|M|22.61,68.62;22.63,68.24;22.29,68.40|CC|N|Pick up "Davil's Libram" upstairs from the shield. Should be in the fireplace.|QO|2|NC|RANK|2|
+C Heroes of Darrowshire - Redpath's Shield|QID|27388|M|34.35,68.36;33.79,72.61;25.38,73.92;25.26,69.20;22.40,68.19|CC|N|Pick up "Redpath's Shield" from the ground floor of the house in The Marris Stead.|QO|3|NC|
+C Heroes of Darrowshire - Davil's Libram|QID|27388|M|22.61,68.62;22.63,68.24;22.29,68.40|CC|N|Pick up "Davil's Libram" upstairs from the shield. Should be in the fireplace.|QO|2|NC|
 T Cenarion Tenacity|QID|27544|M|22.63,68.34;22.50,68.69;22.69,68.15;25.28,67.47;30.22,56.99|CC|N|At Rayne, she is in stealth as a cat.|RANK|2|
 A Postponing the Inevitable|QID|27420|M|30.22,56.99|CC|N|From Rayne.|RANK|2|
 A Amidst Death, Life|QID|27421|M|33.14,50.94;34.94,45.07;30.22,56.99|CC|N|From Rayne.|RANK|2|
-C Marauders of Darrowshire|QID|27389|S|U|13156|QO|1|M|33.52,49.01|N|Kill and loot Fetid skulls from Scourge Champions. Use the crystal to turn the skull into a Resonating Skull. Creating one is not guaranteed every time.|RANK|2|
+C Marauders of Darrowshire|QID|27389|S|U|13156|QO|1|M|33.52,49.01|N|Kill and loot Fetid skulls from Scourge Champions. Use the crystal to turn the skull into a Resonating Skull. Creating one is not guaranteed every time.|
 C Postponing the Inevitable|QID|27420|S|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|RANK|2|
 C Amidst Death, Life|QID|27421|U|61036|M|34.6,45.0;33.51,44.37;36.9,43.8;37.87,42.28;36.87,46.82;37.54,48.30|CS|N|Head into each of the 3 ziggurats, stand on the platform in the middle and use Rayne's Seeds.|RANK|2|NC|
 N Amidst Death, Life|ACTIVE|27421|N|If you have any leftover Fetid skulls and bone dust, destroy them both because they are worthless and cannot be sold.\nRight-Click this step to continue.|
 C Postponing the Inevitable|QID|27420|US|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|RANK|2|
-C Marauders of Darrowshire|QID|27389|US|U|13156|QO|1|M|33.52,49.01|N|Kill and loot Fetid skulls from Scourge Champions. Use the crystal to turn the skull into a Resonating Skull. Creating one is not guaranteed every time.|RANK|2|
+C Marauders of Darrowshire|QID|27389|US|U|13156|QO|1|M|33.52,49.01|N|Kill and loot Fetid skulls from Scourge Champions. Use the crystal to turn the skull into a Resonating Skull. Creating one is not guaranteed every time.|
 T Postponing the Inevitable|QID|27420|M|30.17,56.93|N|To Rayne.|RANK|2|
 T Amidst Death, Life|QID|27421|M|30.17,56.93|N|To Rayne.|RANK|2|
-C Villains of Darrowshire - Skull of Horgus|QID|27387|M|37.19,60.23|N|Pick of the "Skull of Horgus".|QO|1|NC|RANK|2|
-T Villains of Darrowshire|QID|27387|M|35.15,68.05|N|To Chromie.|RANK|2|
-T Heroes of Darrowshire|QID|27388|M|35.15,68.05|N|To Chromie.|RANK|2|
-T Marauders of Darrowshire|QID|27389|M|35.15,68.05|N|To Chromie.|RANK|2|
-A The Battle of Darrowshire|QID|27390|PRE|27387&27388&27389|M|35.15,68.05|N|From Chromie.|RANK|2|
+C Villains of Darrowshire - Skull of Horgus|QID|27387|M|37.19,60.23|N|Pick of the "Skull of Horgus".|QO|1|NC|
+T Villains of Darrowshire|QID|27387|M|35.15,68.05|N|To Chromie.|
+T Heroes of Darrowshire|QID|27388|M|35.15,68.05|N|To Chromie.|
+T Marauders of Darrowshire|QID|27389|M|35.15,68.05|N|To Chromie.|
+A The Battle of Darrowshire|QID|27390|PRE|27387&27388&27389|M|35.15,68.05|N|From Chromie.|
 r Sell Junk, Repair/restock.|QID|27390|M|35.07,68.09|N|Urk Gagbaz|RANK|2|
-R Darrowshire|ACTIVE|27390|M|34.35,68.36;33.79,72.61;34.92,83.84|CC|N|Go to the middle of Darrowshire, near the well.|RANK|2|
-C The Battle of Darrowshire|QID|27390|U|15209|M|34.96,83.94|N|Place the Relic bundle on the ground to begin the event. Defend Davil Lightfire and Captain Redpath until they are turned against and you have to kill them. Speak to Joseph Redpath when the event is done, and accept his forgiveness.|RANK|2|
-T The Battle of Darrowshire|QID|27390|M|32.52,83.78|N|To Pamela Redpath.\n\nOn completion of this quest, a new buff will be available at the caravan. Pamela's Doll: Summon the spirit of Pamela Redpath to accompany you through Eastern Plaguelands.|RANK|2|
-A Hidden Treasures|QID|27391|PRE|27390|M|32.19,83.41|N|From Pamela Redpath.|RANK|2|
-T Hidden Treasures|QID|27391|M|32.19,83.41|N|Right behind the house, next to the chimney.|RANK|2|
+R Darrowshire|ACTIVE|27390|M|34.35,68.36;33.79,72.61;34.92,83.84|CC|N|Go to the middle of Darrowshire, near the well.|
+C The Battle of Darrowshire|QID|27390|U|15209|M|34.96,83.94|N|Place the Relic bundle on the ground to begin the event. Defend Davil Lightfire and Captain Redpath until they are turned against and you have to kill them. Speak to Joseph Redpath when the event is done, and accept his forgiveness.|
+T The Battle of Darrowshire|QID|27390|M|32.52,83.78|N|To Pamela Redpath.\n\nOn completion of this quest, a new buff will be available at the caravan. Pamela's Doll: Summon the spirit of Pamela Redpath to accompany you through Eastern Plaguelands.|
+A Hidden Treasures|QID|27391|PRE|27390|M|32.19,83.41|N|From Pamela Redpath.|
+T Hidden Treasures|QID|27391|M|32.19,83.41|N|Right behind the house, next to the chimney.|
+
 A The Trek Continues|QID|27448|PRE|27381&27382|M|34.84,69.27|N|From Fiona.|
 C The Trek Continues|QID|27448|M|52.67,53.73|CHAT|N|Click on Fiona's Caravan and click on the option to continue the trek.|
 f Light's Shield Tower|QID|27455|M|52.83,53.48|N|At Devon Manning.|

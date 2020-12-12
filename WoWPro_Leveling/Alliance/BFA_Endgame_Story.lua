@@ -3,7 +3,6 @@ WoWPro:GuideLevels(guide, 50, 50, 50)
 WoWPro:GuideSort(guide, 7)
 WoWPro:GuideName(guide,'Endgame Storylines')
 WoWPro:GuideNextGuide(guide, 'TBD')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 N About|M|67.99,22.01|Z|Boralus|N|You must be level 50 and have the Kul Tourist achievement to start this guide. This guide is for the Jaina Proudmoore storyline in Kul'tiras. It earns the Pride of Kul'tiras achievement and unlocks the Siege of Boralus mythic-only instance.|AVAILABLE|52194|

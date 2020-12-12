@@ -3,7 +3,6 @@ WoWPro:GuideSort(guide, 2)
 WoWPro:GuideName(guide,'Zuldazar')
 WoWPro:GuideNickname(guide, "Zuldazar")
 WoWPro:GuideNextGuide(guide, 'Nazmir')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|

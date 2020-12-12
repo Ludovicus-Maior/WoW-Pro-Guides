@@ -37,6 +37,7 @@
 	<Script file="MOP_KunLai_Summit.lua"/>
 	<Script file="MOP_Townlong_Steppes.lua"/>
 	<Script file="MOP_Valley_of_the_Four_Winds.lua"/>
+	<Script file="MOP_Pandaren_Cooking.lua"/>
 	<Script file="SL_Ardenweald.lua"/>
 	<Script file="SL_Bastion.lua"/>
 	<Script file="SL_Covenant.lua"/>

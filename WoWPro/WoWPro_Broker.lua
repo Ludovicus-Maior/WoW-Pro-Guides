@@ -408,13 +408,20 @@ end
 
 -- Guide Rank
 function WoWPro.GuideRank(guideID)
+    --- If there is a guide specific rank per toon, use it.
     if WoWProCharDB.Rank[guideID] then
-        return WoWProCharDB.Rank[guideID]
+        return WoWProCharDB.Rank[guideID], "Guide"
     end
+    -- If the is a per toon rank for this guide type, use it.
     if WoWPro.Guides[guideID] and WoWProCharDB.Rank[WoWPro.Guides[guideID].guidetype] then
-        return WoWProCharDB.Rank[WoWPro.Guides[guideID].guidetype]
+        return WoWProCharDB.Rank[WoWPro.Guides[guideID].guidetype], "GuideType"
     end
-    return WoWProDB.profile.rank
+    --- If there is a per toon default rank, use it.
+    if WoWProCharDB.Rank[1] then
+        return  WoWProCharDB.Rank[1], "Toon"
+    end
+    -- Otherwise, fall back on the global rank
+    return WoWProDB.profile.rank, "Global"
 end
 
 -- Guide Load --
@@ -864,6 +871,7 @@ function WoWPro:RowUpdate(offset)
         -- Skipping any skipped steps, unsticky steps, and optional steps unless it's time for them to display --
         if not WoWProDB.profile.guidescroll then
             k = WoWPro.NextStep(k, i)
+            WoWPro:print("RowUpdate(%d,%d): %s", i, k, WoWPro.EmitStep(k):gsub("||", "¦"))
         end
 
         --Setup row--
@@ -1388,6 +1396,7 @@ function WoWPro.UpdateGuideReal(From)
 
     -- Finding the active step in the guide --
     WoWPro.ActiveStep = WoWPro.NextStep(1)
+    WoWPro:print("UpdateGuideReal(%d): ActiveStep=%s", WoWPro.ActiveStep, WoWPro.EmitStep(WoWPro.ActiveStep):gsub("||", "¦"))
     if WoWPro.Recorder then
         WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
     end
@@ -1477,6 +1486,10 @@ function WoWPro.UpdateGuideReal(From)
     end
     WoWPro:MapPoint()
     WoWPro:SendMessage("WoWPro_PostUpdateGuide")
+    if WoWPro.GuideLoaded ~= "Updated" then
+        WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA_GUIDE_LOAD")
+        WoWPro.GuideLoaded = "Updated"
+    end
 end
 
 local Rep2IdAndClass
@@ -1506,7 +1519,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
     local guide = WoWProCharDB.Guide[GID]
     if not guideIndex then guideIndex = 1 end --guideIndex is the position in the guide
     if not rowIndex then rowIndex = 1 end --rowIndex is the position on the rows
-    WoWPro:print("Called WoWPro.NextStep(%d,%d)", guideIndex, rowIndex)
     local skip = true
     while skip do
         --[[ HACK
@@ -1516,7 +1528,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
         repeat
 
             if guideIndex > WoWPro.stepcount then
-                WoWPro:print("WoWPro.NextStep=%d: > EOG",guideIndex)
+                WoWPro:dbp("WoWPro.NextStep=%d: > EOG",guideIndex)
                 return guideIndex
             end
 
@@ -1913,7 +1925,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         WoWPro:dbp("First Scenario Step %s [%s/%s] enabled.",stepAction,step,tostring(QID))
                         WoWPro.why[guideIndex] = "NextStep(): Active, for scenario to start."
                         if stage > 0 then
-                            WoWPro.ScenarioFirstStep = stage
+                            WoWPro.ScenarioFirstStep = guideIndex
                         end
                     end
                 end
@@ -2487,26 +2499,28 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             if WoWPro.renown and WoWPro.renown[guideIndex] and not WoWPro.CLASSIC then
 				local renownID = WoWPro.renown[guideIndex]
-				local renownFlip
+				local renownFlip = false
                 local renownMatch
                 local renown = _G.C_CovenantSanctumUI.GetRenownLevel()
 				if (renownID:sub(1, 1) == "-") then
                     renownID = renownID:sub(2)
                     renownFlip = true
                 end
-                if tonumber(renownID) >= renown then
+                if renown >= tonumber(renownID) then
                     renownMatch = true
                 end
                 if renownFlip then
                     renownMatch = not renownMatch
                 end
                 if renownMatch then
-                    if not renownFlip then
-						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..renown.."] is less than "..renownID.."."
-                    end
-                    skip = true
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..renown.."] met condition with "..renownID.."."
                 else
-                    WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..renownID.."] not met."
+					if renownFlip then
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..renown.."] is greater than  "..renownID.."."
+					else
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..renown.."] is less than  "..renownID.."."
+					end
+					skip = true
                 end
             end
 
@@ -2772,15 +2786,16 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Skipping any quests with a greater completionist rank than the setting allows --
             if WoWPro.rank and WoWPro.rank[guideIndex] then
                 local rank = tonumber(WoWPro.rank[guideIndex])
-                if rank < 0 and -rank ~= WoWProDB.profile.rank then
+                local prank = WoWPro.GuideRank(WoWProDB.char.currentguide)
+                if rank < 0 and -rank ~= prank then
                     guide.skipped[guideIndex] = true
-                    WoWPro.why[guideIndex] = "NextStep(): Step rank is not equal to current rank"
+                    WoWPro.why[guideIndex] = "NextStep(): Step rank is not equal to current rank="..prank
                     skip = true
                     break
                 end
-                if rank > WoWProDB.profile.rank then
+                if rank > prank then
                     guide.skipped[guideIndex] = true
-                    WoWPro.why[guideIndex] = "NextStep(): Step rank is too high."
+                    WoWPro.why[guideIndex] = "NextStep(): Step rank is higher than "..prank
                     skip = true
                     break
                 end

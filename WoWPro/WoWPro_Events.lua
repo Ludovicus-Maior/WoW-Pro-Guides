@@ -552,8 +552,11 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
         if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
             guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
         end
-        WoWPro:dbp("%s: qidx=%s, guidetype=%s, currentguide=%s", event, tostring(qidx), tostring(guidetype), tostring(WoWProDB.char.currentguide))
-        WoWPro:dbp("%s: WoWPro.zone[qidx]=%s, WoWPro:IsInstanceZone()=%s, WoWPro.sobjective=%s, IsInInstance()=%s",
+        WoWPro:print("%s: qidx=%s, guidetype=%s, currentguide=%s", event, tostring(qidx), tostring(guidetype), tostring(WoWProDB.char.currentguide))
+        WoWPro:print("%s/qidx: %s", qidx,  WoWPro.EmitStep(qidx):gsub("||", "¦"))
+        WoWPro:print("%s/qidx+1: %s", qidx+1,  WoWPro.EmitStep(qidx+1):gsub("||", "¦"))
+        WoWPro:print("%s/ScenarioFirstStep: %s", tostring(WoWPro.ScenarioFirstStep),  WoWPro.EmitStep(WoWPro.ScenarioFirstStep):gsub("||", "¦"))
+        WoWPro:print("%s: WoWPro.zone[qidx]=%s, WoWPro:IsInstanceZone()=%s, WoWPro.sobjective=%s, IsInInstance()=%s",
                    event,  tostring(WoWPro.zone[qidx]), tostring(WoWPro:IsInstanceZone(WoWPro.zone[qidx])),
                    tostring(WoWPro.sobjective[qidx]), tostring(_G.IsInInstance()))
         if qidx and WoWPro.zone[qidx] and (WoWPro:IsInstanceZone(WoWPro.zone[qidx]) or WoWPro.sobjective[qidx]) and _G.IsInInstance() then
@@ -1108,6 +1111,10 @@ end
 WoWPro.RegisterEventHandler("CHAT_MSG_SYSTEM", function(event, ...)
     WoWPro:AutoCompleteSetHearth(...)
 end)
+
+if not WoWPro.CLASSIC then
+    WoWPro.RegisterEventHandler("QUEST_LOG_CRITERIA_UPDATE", function(event) end)
+end
 
 WoWPro.RegisterEventHandler("QUEST_LOG_UPDATE", function(event, ...)
     local delta = WoWPro.PopulateQuestLog()
