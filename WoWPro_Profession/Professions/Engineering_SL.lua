@@ -78,8 +78,6 @@ N 5 Disposable Spectrophasic Reanimator|QID|202345179|P|Engineering;202;8+55;1|N
 N 21 Wormfed Gear Assembly|QID|202310526|P|Engineering;202;8+76;1|N|4;Handful of Laestrite Bolts;21;34:5;Porous Polishing Abrasive;21;35:3;Laestrite Ore;63;68|
 
 ; What to Craft 076 to 091 Shadowlands
-=
-=
 N Did you decide?|QID|202000002|P|Engineering;202;8+76|N|Did you decide which you want to make? The Infra-green Reflex Sight or the Optical Target Embiggener.|
 l Wormfed Gear Assembly|QID|202310526|P|Engineering;202;8+76|L|310526 15|N|You will need at least 15 Wormfed Gear Assemblies for this step. Be sure to save at least 6 for later steps.|
 l Handful of Laestrite Bolts|QID|2023105222|P|Engineering;202;8+76|L|172935 75|N|You will need at least 75 Handful of Laestrite Bolts for this step. Be sure to save at least 10 for later steps.|
