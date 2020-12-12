@@ -1849,7 +1849,7 @@ T Pride of Place|QID|57636|M|49.77,50.67|Z|Seat of the Primus!Dungeon|N|To Baron
 N Renown Level 17|AVAILABLE|62448|N|You must reach Renown level 5 to continue to the next chapter.|COV|Necrolord|REN|-17|
 A Blood from a Bone|QID|62161|PRE|57636|M|49.77,50.67|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|17|
 T Blood from a Bone|QID|62161|M|49.77,50.67|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
-A Accusatory Missive|QID|58504|PRE|62161|M|49.77,50.67|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|NecrolordREN|17||
+A Accusatory Missive|QID|58504|PRE|62161|M|49.77,50.67|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|17|
 F Absolution Crypt|ACTIVE|58504|M|52.46,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Absolution Crypt.|COV|Necrolord|
 T Accusatory Missive|QID|58504|M|72.07,41.15|Z|Revendreth|N|To The Accuser.|COV|Necrolord|
 A You're Dead To Me|QID|58523|PRE|58504|M|72.07,41.15|Z|Revendreth|N|From The Accuser.|COV|Necrolord|REN|17|
