@@ -4,9 +4,9 @@
 
 
 -- Things that need doing by an expert
--- Check for errors, there will be lots
--- Make guide Hub and integrate
--- Add in comments to train new recipes where needed
+-- Check for errors, there will be lots  - Dont know if I'm the 'expert' but guide is correct, NOT tested, I dont have an eng
+-- Make guide Hub and integrate  -  once other lower guides are done.
+-- Add in comments to train new recipes where needed -- completed.
 -- N Guide Hub|QID|202000000|JUMP|Engineering: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 
@@ -54,7 +54,7 @@ l Sinvyr Ore|P|Engineering;202;8+0|L|171832 10|N|You will need 10 Sinvyr Ores fo
 N Shopping List|N|This completes the Shopping List|
 
 ; end of shopping list.
-
+N Learn Recipes|N|I only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Learn Shadowlands Engineering|QID|2020000|M|38.1,44.7|Z|Ring of Fates@Oribos|P|Engineering;202;*;0;75|N|Learn from Machinist Au'gur in Oribos. Requires Level 50.|
 l Ultimate Gnomish Army Knife|QID|202162208|P|Engineering;202;0;1;0|L|162208 1|N|Craft you own (Dreanor Plan), or buy from the Auction House.|
 
@@ -104,15 +104,15 @@ l Desolate Leather|P|Engineering;202;8+91|L|172089 5|N|You will need 5 Desolate 
 l Pallid Bone|P|Engineering;202;8+91|L|172092 5|N|You will need 5 Pallid Bones for this step.|C|Hunter,Shaman|
 l Angerseye|P|Engineering;202;8+91|L|173109 2|N|You will need 2 Angerseye Gems for this step.|C|Death Knight,Paladin,Warrior|
 l Sinvyr Ore|P|Engineering;202;8+91|L|171832 10|N|You will need 10 Sinvyr Ores for this step.|C|Death Knight,Paladin,Warrior|
-N Flexible Ectoplasmic Specs (Cloth)|QID|202310501|P|Engineering;202;8+97;1|N|3;Wormfed Gear Assembly;3;3:5;Handful of Laestrite Bolts;5;5:2;Umbryl;2;2:10;Shrouded Cloth;10;10|C|Mage,Priest,Warlock|
-N Grounded Ectoplasmic Specs (Leather)|QID|202310504|P|Engineering;202;8+97;1|N|3;Wormfed Gear Assembly;3;3:5;Handful of Laestrite Bolts;5;5:1;Umbryl;1;1:1;Oriblase;1;1:10;Desolate Leather;10;10|C|Demon Hunter,Druid,Monk,Rogue|
-N Articulated Ectoplasmic Specs (Mail)|QID|202310507|P|Engineering;202;8+97;1|N|3;Wormfed Gear Assembly;3;3:5;Handful of Laestrite Bolts;5;5:1;Umbryl;1;1:1;Angerseye;1;1:5;Desolate Leather;5;5:5;Pallid Bone;5;5|C|Hunter,Shaman|
-N Reinforced Ectoplasmic Specs (Plate)|QID|202310509|P|Engineering;202;8+97;1|N|3;Wormfed Gear Assembly;3;3:5;Handful of Laestrite Bolts;5;5:2;Angerseye;2;2:10;Sinvyr Ore;10;10|C|Death Knight,Paladin,Warrior|
+N Flexible Ectoplasmic Specs (Cloth)|QID|202310501|P|Engineering;202;8+95;1|N|3;Wormfed Gear Assembly;3;3:5;Handful of Laestrite Bolts;5;5:2;Umbryl;2;2:10;Shrouded Cloth;10;10|C|Mage,Priest,Warlock|
+N Grounded Ectoplasmic Specs (Leather)|QID|202310504|P|Engineering;202;8+95;1|N|3;Wormfed Gear Assembly;3;3:5;Handful of Laestrite Bolts;5;5:1;Umbryl;1;1:1;Oriblase;1;1:10;Desolate Leather;10;10|C|Demon Hunter,Druid,Monk,Rogue|
+N Articulated Ectoplasmic Specs (Mail)|QID|202310507|P|Engineering;202;8+95;1|N|3;Wormfed Gear Assembly;3;3:5;Handful of Laestrite Bolts;5;5:1;Umbryl;1;1:1;Angerseye;1;1:5;Desolate Leather;5;5:5;Pallid Bone;5;5|C|Hunter,Shaman|
+N Reinforced Ectoplasmic Specs (Plate)|QID|202310509|P|Engineering;202;8+95;1|N|3;Wormfed Gear Assembly;3;3:5;Handful of Laestrite Bolts;5;5:2;Angerseye;2;2:10;Sinvyr Ore;10;10|C|Death Knight,Paladin,Warrior|
 
 ; What to Craft 097 to 100 Shadowlands
 N Schematic: PHA7-YNX is basically the only recipe that you can't craft at this point.|N|But you can't buy the recipe until you reach Exalted reputation with the Ascended faction.\n\n Reaching exalted will probably take more than a month of grinding. \n\n I recommend doing the Engineering World Quest every few days for these last 3 points.|
 
-N Congratulations on completing Shadowlands Engineering. |N|We hope you found this guide useful and reported any issues you came across.
+N Congratulations on completing Shadowlands Engineering. |N|We hope you found this guide useful and reported any issues you came across.|
 ]]
 end)
 
