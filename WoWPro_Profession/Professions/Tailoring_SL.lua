@@ -6,13 +6,13 @@
 
 
 -- Things that need doing by an expert
--- Check for errors, there will be lots
--- Make guide Hub and integrate
--- Add in comments to train new recipes where needed
+-- Check for errors, there will be lots  -  errors? maybe, dont have a Tailor to check.
+-- Make guide Hub and integrate  -  in future, once all lower guides are done.
+-- Add in comments to train new recipes where needed -- Completed.
 -- N Guide Hub|QID|197000000|JUMP|Tailoring: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 
-local guide = WoWPro:RegisterGuide("SpoonyEN_SL","Profession","Tailoring_SL", "Spoony", "Neutral")
+local guide = WoWPro:RegisterGuide("SpoonyTA_SL","Profession","Tailoring_SL", "Spoony", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",197)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Tailoring_ShadowLands")
@@ -31,31 +31,43 @@ N Shopping List|N|The next few lines are going to be the Approximate amount of m
 ; Begin Shopping list, as of Dec-2020
 
 
-l Shrouded Cloth|QID|197173202|L|173202 500|N|You'll need approx 500 Shrouded Cloth.|
+l Shrouded Cloth|QID|197173202|L|173202 511|N|You'll need approx 511 Shrouded Cloth.|
 l Lightless Silk|QID|197173204|L|173204 76|N|You'll need approx 76 Lightless Silk.|
+B Penumbra Thread|QID|197177062|M|44.8,26.4|Z|Ring of Fates@Oribos|L|177062 167|N|You'll need about 167 Penumbra Thread, Purchase from Distributor Au'tem.|
 
 N Shopping List|N|This completes the Shopping List|
 
 ; end of shopping list.
 
+N Learn Recipes|N|I only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
+N Learn Shadowlands Tailoring|QID|197000002|M|45.2,31.6|Z|Ring of Fates@Oribos|P|Tailoring;197;*;0;75|N|Learn from Stitcher Au'phes in Oribos. Requires Level 50.|
+
 ; What to Craft 001 to 065 Shadowlands
 
-N Shrouded Cloth Bandage|QID|197310924|P|Tailoring;197;8+15;1|N|1;Shrouded Cloth;17;17|
-N Shrouded Cloth Cape|QID|197310871|P|Tailoring;197;8+31;1|N|1;Shrouded Cloth;3;32|
-= Learn Recipes|QID|197005|P|Tailoring;197;8+15|N|Learn available recipes from Trainer|
-N Shrouded Cloth Hood|QID|197310873|P|Tailoring;197;8+37;1|N|6;Shrouded Cloth;12;12|
-N Shrouded Cloth Spaulders|QID|197310875|P|Tailoring;197;8+52;1|N|5;Shrouded Cloth;6;30|
-= Learn Recipes|QID|197005|P|Tailoring;197;8+15|N|Learn available recipes from Trainer|
-N Heavy Shrouded Cloth Bandage|QID|197310923|P|Tailoring;197;8+65;1|N|2;Shrouded Cloth;20;40|
+N Shrouded Cloth Bandage (17)|QID|197310924|P|Tailoring;197;8+15;1|N|1;Shrouded Cloth;17;17|
+= Learn Recipes|QID|197000005|M|45.2,31.6|Z|Ring of Fates@Oribos|P|Tailoring;197;8+15|RECIPE|310871|N|Learn Shrouded Cloth Cape Recipe, from Trainer|
+N Shrouded Cloth Cape (8)|QID|197310871|P|Tailoring;197;8+31;1|N|4;Shrouded Cloth;32;32:4;Penumbra Thread;32;167|
+= Learn Recipes|QID|197000006|M|45.2,31.6|Z|Ring of Fates@Oribos|P|Tailoring;197;8+20|RECIPE|310873|N|Learn Shrouded Cloth Hood Recipe, from Trainer|
+N Shrouded Cloth Hood (2)|QID|197310873|P|Tailoring;197;8+37;1|N|6;Shrouded Cloth;12;12:4;Penumbra Thread;8;167|
+= Learn Recipes|QID|197000007|M|45.2,31.6|Z|Ring of Fates@Oribos|P|Tailoring;197;8+35|RECIPE|310875|N|Learn Shrouded Cloth Spaulders Recipe, from Trainer|
+N Shrouded Cloth Spaulders (5)|QID|197310875|P|Tailoring;197;8+52;1|N|6;Shrouded Cloth;30;30:4;Penumbra Thread;20;167|
+= Learn Recipes|QID|197000008|M|45.2,31.6|Z|Ring of Fates@Oribos|P|Tailoring;197;8+40|RECIPE|310923|N|Learn Heavy Shrouded Cloth Bandage Recipe, from Trainer|
+N Heavy Shrouded Cloth Bandage (20)|QID|197310923|P|Tailoring;197;8+65;1|N|2;Shrouded Cloth;40;40|
 
 ; What to Craft 065 to 100 Shadowlands
 
-N Shadowlace Cord|QID|197310903|P|Tailoring;197;8+71;1|N|3;Shrouded Cloth;20;60:3;Lightless Silk;4;12|
-N Shadowlace Handwraps|QID|197310899|P|Tailoring;197;8+75;1|N|4;Shrouded Cloth;20;80:4;Lightless Silk;4;16|
-N Shadowlace Cowl|QID|197310900|P|Tailoring;197;8+87;1|N|4;Shrouded Cloth;25;100:4;Lightless Silk;5;20|
-N Shadowlace Tunic|QID|197310897|P|Tailoring;197;8+90;1|N|1;Shrouded Cloth;30;30:1;Lightless Silk;6;6|
-N Shadowlace Trousers|QID|197310901|P|Tailoring;197;8+96;1|N|2;Shrouded Cloth;30;60:2;Lightless Silk;6;12|
-N Shadowlace Mantle|QID|197310902|P|Tailoring;197;8+100;1|N|2;Shrouded Cloth;25;50:2;Lightless Silk;5;10|
+= Learn Recipes|QID|197000009|M|45.2,31.6|Z|Ring of Fates@Oribos|P|Tailoring;197;8+60|RECIPE|310903|N|Learn Shadowlace Cord Recipe, from Trainer|
+N Shadowlace Cord (3)|QID|197310903|P|Tailoring;197;8+71;1|N|20;Shrouded Cloth;60;60:12;Lightless Silk;12;12:3;Penumbra Thread;9;167|
+= Learn Recipes|QID|197000010|M|45.2,31.6|Z|Ring of Fates@Oribos|P|Tailoring;197;8+65|RECIPE|310899|N|Learn Shadowlace Handwarps Recipe, from Trainer|
+N Shadowlace Handwraps (4)|QID|197310899|P|Tailoring;197;8+75;1|N|20;Shrouded Cloth;80;80:4;Lightless Silk;16;16:6;Penumbra Thread;24;167|
+= Learn Recipes|QID|197000011|M|45.2,31.6|Z|Ring of Fates@Oribos|P|Tailoring;197;8+75|RECIPE|310900|N|Learn Shadowlace Cowl Recipe, from Trainer|
+N Shadowlace Cowl (4)|QID|197310900|P|Tailoring;197;8+87;1|N|25;Shrouded Cloth;100;100:5;Lightless Silk;20;20:6;Penumbra Thread;24;167|
+= Learn Recipes|QID|197000012|M|45.2,31.6|Z|Ring of Fates@Oribos|P|Tailoring;197;8+80|RECIPE|310897|N|Learn Shadowlace Tunic Recipe, from Trainer|
+N Shadowlace Tunic (1)|QID|197310897|P|Tailoring;197;8+90;1|N|30;Shrouded Cloth;30;30:6;Lightless Silk;6;6:10;Penumbra Thread;10;167|
+= Learn Recipes|QID|197000013|M|45.2,31.6|Z|Ring of Fates@Oribos|P|Tailoring;197;8+90|RECIPE|310901|N|Learn Shadowlace Trousers Recipe, from Trainer|
+N Shadowlace Trousers (2)|QID|197310901|P|Tailoring;197;8+96;1|N|30;Shrouded Cloth;60;60:6;Lightless Silk;12;12:10;Penumbra Thread;20;167|
+= Learn Recipes|QID|197000014|M|45.2,31.6|Z|Ring of Fates@Oribos|P|Tailoring;197;8+95|RECIPE|310902|N|Learn Shadowlace Mantle Recipe, from Trainer|
+N Shadowlace Mantle (2)|QID|197310902|P|Tailoring;197;8+100;1|N|25;Shrouded Cloth;50;50:5;Lightless Silk;10;10:10;Penumbra Thread;20;167|
 
 N Congratulations on completing Shadowlands Tailoring. |N|We hope you found this guide useful and reported any issues you came across.
 ]]
