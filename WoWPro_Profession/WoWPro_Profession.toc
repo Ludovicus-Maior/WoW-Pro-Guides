@@ -1,11 +1,11 @@
 ## Interface: 90002
-#classic ## Interface: 11305
+#classic ## Interface: 11306
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Professions
 ## Notes: Professions guides guides created by the WoW-Pro Community
 ## Author: Twists
 ## Dependencies: WoWPro
-## Version: 9.0.2-A4
-#classic ## Version: 1.13.5-D0
+## Version: 9.0.2-A5
+#classic ## Version: 1.13.6-D4
 ## DefaultState: disabled
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.

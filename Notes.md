@@ -1,3 +1,22 @@
+# Release 9.0.2-A5 / (1.13.6-D5)
+## Bug Fixes
+* Moved Version and Class debug lines to end of log, so they dont get lost
+* Switched from CRITERIA_UPDATE to QUEST_LOG_CRITERIA_UPDATE
+* Moved secondary addon enabling from start to end of OnEnable()
+* Improved clearing of stale AutoSwitch information
+* Log the step content instead of just the step numbers in Broker updates
+* Move ZONE_CHANGED_NEW_AREA_GUIDE_LOAD to after first guide update and not load (improves Instance hiding in Scenarios)
+* Added newly updated SL zone names
+## Guide Updates
+### Retail
+* Alliance: BFA Endgame, BFA Intro, Najatar, Tiragarde_Sound, Bloodmyst
+* Horde: BFA Endgame, Zuldazar, Jade Forest
+* Neutral: Mechagon, Eastern_Plaguelands, Panderen Cooking, Valley_of_the_Four_Winds, Spires_of_Arak
+* Shadowlands: Ardenweald, Bastion, Covenant, Maldraxxus, Maw, Maw_Intro, Revendreth
+* Professions: SL (Alchemy, Enchanting, Engineering, Inscription, Jewelcrafting, Tailoring) , Blacksmithing (CATA, OUT, SL, VAN)
+### Classic
+* Hendo_HordeChapter2
+
 # Release 9.0.2-A4 / (1.13.5-D4)
 ## Bug Fixes
 * Proxymity sorting moved to Achievment guide menu
