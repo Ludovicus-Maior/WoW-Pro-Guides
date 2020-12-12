@@ -1112,7 +1112,10 @@ WoWPro.RegisterEventHandler("CHAT_MSG_SYSTEM", function(event, ...)
     WoWPro:AutoCompleteSetHearth(...)
 end)
 
-WoWPro.RegisterEventHandler("QUEST_LOG_CRITERIA_UPDATE", function(event) end)
+if not WoWPro.CLASSIC then
+    WoWPro.RegisterEventHandler("QUEST_LOG_CRITERIA_UPDATE", function(event) end)
+end
+
 WoWPro.RegisterEventHandler("QUEST_LOG_UPDATE", function(event, ...)
     local delta = WoWPro.PopulateQuestLog()
     WoWPro:dbp("QUEST_LOG_UPDATE: delta = %d", delta)
