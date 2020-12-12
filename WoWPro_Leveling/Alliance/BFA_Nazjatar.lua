@@ -355,7 +355,7 @@ A Enchanted Lock|QID|56246|M|78.88,41.19|N|From Enchanted Lock.|PRE|56243|
 C Enchanted Lock|QID|56246|M|78.90,41.24|NC|N|Click on the Arcane Device to open a puzzle and then Match 3 purple runes to unlock the lock.|
 T Enchanted Lock|QID|56246|M|78.90,41.24|N|To Enchanted Lock.|
 A Treasure Tale|QID|56247|M|78.90,41.24|N|From Enchanted Lock.|PRE|56246|
-F Mezzamere|ACTIVE|56247|M|78.90,41.24|N|Step out side and use your newly activated Flightmaster's Whistle and then fly back to Mezzamere.|
+F Mezzamere|ACTIVE|56247|M|78.90,41.24|N|Fly back to Mezzamere.| ; LUDO Are the coords right?
 T Treasure Tale|QID|56247|M|37.86,55.69|N|To Artisan Itanu.|
 F Elun'alor Temple|QID|57086|M|39.93,54.12|N|At Ray Tamer Enaka.|
 C A Steamy Situation|QID|56036|M|42.54,47.80|N|Kill and loot glimmershell crabs, their shells are needed to plug the Steam Fissures.|
@@ -414,7 +414,7 @@ A Saving Corin|QID|56321|M|80.09,31.44|N|From Kelya Moonfall.|PRE|56304|
 C Saving Corin|QID|56321|M|80.73,32.09|T|Shadowcaster Vixtris|N|Kill Shadowcaster Vixtris.|
 T Saving Corin|QID|56321|M|80.22,31.88|N|To Kelya Moonfall.|
 A On Ghostly Wings|QID|56422|M|80.22,31.88|N|From Kelya Moonfall.|PRE|56321|
-T On Ghostly Wings|QID|56422|M|74.16,24.91|N|To Kelya Moonfall.|
+T On Ghostly Wings|QID|56422|M|74.16,24.91|N|To Kelya Moonfall. Your Flightmaster's whistle is now active!|
 f Zin-Azshari|QID|57006|M|74.16,25.02|N|At Kelya Moonfall.|
 A A Life's Work|QID|55636|M|78.44,28.64|N|From an empty bookcase.|O|
 C A Life's Work|QID|55636|M|79.67,30.14|S!US|N|Kill Vengeful Highborne to get the scrolls.|
