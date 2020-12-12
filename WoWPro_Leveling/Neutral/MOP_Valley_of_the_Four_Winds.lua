@@ -268,9 +268,9 @@ T Out of Sprite|QID|30030|M|52.60,62.98|N|To Grainer Pan.|
 T Wee Little Shenanigans|QID|30029|M|52.74,63.00|N|To Grainlord Kai.|
 A The Quest for Better Barley|QID|30032|M|52.74,63.00|N|From Grainlord Kai.|PRE|30029&30030&30031|
 A Grain Recovery|QID|30028|M|52.74,63.00|N|From Grainlord Kai.|PRE|30029&30030&30031|
-C Grain Recovery|QID|30028|M|54.62,67.84|NC|
-C The Quest for Better Barley|QID|30032|M|51.29,77.54;53.31,75.14;48.63,26.96|CS|N|Use the rope on the ground to get down.|
-T Grain Recovery|QID|30028|M|52.76,62.91|N|Use the rope to climb back. To Grainlord Kai.|
+C Grain Recovery|QID|30028|M|56.02,65.21|NC|
+C The Quest for Better Barley|QID|30032|M|51.26,77.50;53.59,75.93|CS|N|Use the rope on the ground to get down. Once on the ground, enter the cave and loot the Malted Cave Barley. When you do, you will be attacked by a Cave Horror.|
+T Grain Recovery|QID|30028|M|52.74,63.00|N|To Grainlord Kai at the Imperial Granary.\n[color=FF0000]NOTE: [/color]If you can't fly, use the rope to climb back up.|
 T The Quest for Better Barley|QID|30032|M|52.69,62.83|N|To Li Li.|
 A The Chen Taste Test|QID|30047|M|52.69,62.83|N|From Li Li.|PRE|30032|
 R Halfhill|ACTIVE|30047|M|56.1,50.0|FLY|OLD|
@@ -280,7 +280,7 @@ C The Emperor|QID|30073|M|55.89,49.43|N|Wait for him to finish brewing|NC|
 T The Emperor|QID|30073|M|55.83,49.34|N|To Chen Stormstout.|
 A Knocking on the Door|QID|30074|M|55.89,49.43|N|From Chen Stormstout.|PRE|30073|
 R Thirsty Alley|ACTIVE|30074|M|53.97,49.64;51.39,52.01;40.88,60.30;38.5,64.7|CS|N|Down through the market and take the road to the Brewery.|FLY|OLD|
-T Knocking on the Door|QID|30074|M|32.25,68.56|N|To Chen Stormstout, after turning in, wait a moment for a brief scene shift.|
+T Knocking on the Door|QID|30074|M|32.25,68.56|N|To Chen Stormstout in Thirsty Alley. This will start a brief cut-scene and you will phase.\n[color=FF0000]NOTE: [/color]You don't have to wait for them to leave Halfhill. They will be here when you get here.|
 A The Fanciest Water|QID|30076|M|32.25,68.27|N|From Mudmug.|PRE|30074|
 A Barrels, Man|QID|30077|M|32.32,68.47|N|From Li Li.|PRE|30074|
 A Clear the Way|QID|30075|M|32.13,68.33|N|From Chen Stormstout.|PRE|30074|
