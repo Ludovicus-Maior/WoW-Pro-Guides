@@ -2,11 +2,11 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancBS_SL","Profession","Blacksmithing_SL", "Blanckaert", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancBSM_SL","Profession","Blacksmithing_SL", "Blanckaert", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Blacksmithing_ShadowLands")
-WoWPro:GuideNickname(guide, "BS_SL")
+WoWPro:GuideNickname(guide, "BSM_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -34,6 +34,7 @@ N Shadowghast Ingot|QID|164307611|P|Blacksmithing;164;8+0|N|You'll need upto 190
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
+
 N Learn Recipes|N|I only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Learn Shadowlands Blacksmithing|QID|901640000|M|40.52,31.55|Z|Ring of Fates@Oribos|P|Blacksmithing;164;*;0;75|N|Learn from Smith Au'berk in Oribos. Requires Level 50.|
 B Hammer|QID|164005956|P|Blacksmithing;164;0;1;0|N|Buy from an NPC Supply|L|5956|
