@@ -5,7 +5,7 @@
 local guide = WoWPro:RegisterGuide("BlancLeather_SL","Profession","Leatherworking_SL", "Blanckaert", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",165)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Leatherworking_ShadowLands")
+WoWPro:GuideName(guide, "Leatherworking_SL")
 WoWPro:GuideNickname(guide, "LTW_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -14,7 +14,7 @@ return [[
 
 ; N Guide Hub|QID|165000000|JUMP|Leatherworking: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|N|Currently in Development, This Guide covers SHADOWLANDS content in Retail.|
+N This Guide covers SHADOWLANDS content only in Retail.|
 N PLEASE Report any issues|N|In our Discord #retail-bug-reports|
 N Shopping List|N|The next few lines are going to be the TOTAL amount of mats you need to complete LW-SL 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
 
@@ -44,7 +44,8 @@ N Crafter's Mark I (15)|QID|165343195|P|Leatherworking;165;8+60;1|N|5;Desolate L
 = Learn Recipes|QID|165000006|M|42.6,26.8|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+60|RECIPE|309236|N|Learn Shadebound Waistguard Recipe from Trainer.|
 N Shadebound Waistguard (5)|QID|165309236|P|Leatherworking;165;8+70;1|N|30;Desolate Leather;150;390:1;Penumbra Thread;5;17:1;Callous Hide;5;45|
 = Learn Recipes|QID|165000007|M|42.6,26.8|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+70|RECIPE|308899|N|Learn Heavy Desolate Leather Recipe from Trainer.|
-N Heavy Desolate Leather (24)|QID|165308899|P|Leatherworking;165;8+85;1|N|10;Desolate Leather;240;240|
+N Heavy Desolate Leather (24)|QID|165308899|P|Leatherworking;165;8+85;1|N|10;Desolate Leather;240;240:Make all 24 you need them later.|
+l Heavy Desolate Leather|QID|165172096|P|Leatherworking;165;8+85|L|172096 24|N|Make a few more, you need 24 for a later step.|
 = Learn Recipes|QID|165000008|M|42.6,26.8|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+80|RECIPE|308897|N|Learn Heavy Callous Hide Recipe from Trainer.|
 N Heavy Callous Hide (4)|QID|165308897|P|Leatherworking;165;8+88;1|N|10;Callous Hide;40;40|
 = Learn Recipes|QID|165000009|M|42.6,26.8|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+80|RECIPE|309239|N|Learn Shadowscale Vest Recipe from Trainer.|
@@ -52,8 +53,6 @@ N Shadowscale Vest (1)|QID|165309239|P|Leatherworking;165;8+91;1|N|1;Heavy Callo
 = Learn Recipes|QID|165000010|M|42.6,26.8|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+90|RECIPE|309242|N|Learn Shadowscale Leggings Recipe from Trainer.|
 N Shadowscale Leggings (3)|QID|165309242|P|Leatherworking;165;8+100;1|N|1;Heavy Callous Hide;3;3:6;Heavy Desolate Leather;18;18:7;Pallid Bone;21;21:3;Penumbra Thread;9;9|
 
-N This guide has not yet been fully tested. The rest of the expansions will be covered, in separated guides.|QID|901640001|
-
-N That completes Leatherworking - BFA.|
+N That completes Leatherworking - SL.|
 ]]
 end)
