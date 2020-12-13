@@ -295,47 +295,47 @@ T Clear the Way|QID|30075|M|36.04,68.98|N|To Chen Stormstout.|
 A Cleaning House|QID|30078|M|36.11,69.08|N|From Chen Stormstout. Talk to Chen to go inside.|PRE|30075&30076&30077|
 C Cleaning House|QID|30078|M|33.98,70.13|N|Talk to Chen (or Li Li, depending on who's there) after each objective is completed to start the next one. Follow the special instructions in the yellow text whenever they come up.|
 T Cleaning House|QID|30078|M|36.00,69.13|N|To Chen Stormstout.|
-A Into the Brewery|QID|30085|LEAD|31327|M|36.09,68.96|ELITE|N|[color=E6CC80]Dungeon: Stormstout Brewery[/color]\nFrom Chen Stormstout.\n[color=FF0000]NOTE: [/color]It's a simple chat quest. Do it even if you don't plan to run the dungeon.|PRE|30078|
+A Into the Brewery|QID|30085|M|36.09,68.96|ELITE|N|[color=E6CC80]Dungeon: Stormstout Brewery[/color]\nFrom Chen Stormstout.\n[color=FF0000]NOTE: [/color]It's a simple chat quest. Do it even if you don't plan to run the dungeon.|LEAD|31327|PRE|30078|
 T Into the Brewery|QID|30085|M|36.09,69.27|N|To Chen Stormstout inside the Stormstout Brewery Dungeon. Just walk into the purple swirl to enter the dungeon.|
 A Stoneplow Thirsts|QID|30117|M|36.19,68.29|N|From Emmi.|PRE|30078|
 R Nesingwary's Safari|QID|30181|M|16,83|CC|N|[ACTIVE QID?]|FLY|OLD|
-A Stalker Mastery|QID|30183|M|16.19,82.53|N|From Tani|
+A Stalker Mastery|QID|30183|M|16.19,82.53|N|From Tani at Nesingwary's Safari.|
 A Mushan Mastery|QID|30181|M|16.07,82.61|N|From Hemet Nesingwary Jr.|
-C Kill Mushan|QID|30181|M|11.90,68.81|N|Yes, you have to turn this in before you can get the next step, even though there are mushan among the foxes and stags.|S|
-C Kill Tigers|QID|30183|M|11.90,68.81|
-C Kill Mushan|QID|30181|M|11.90,68.81|N|Yes, you have to turn this in before you can get the next step, even though there are mushan among the foxes and stags.|US|
+K Kill Mushan|QID|30181|M|16.64,69.47|QO|1|N|If you attack one of the pathing group of 3, they all attack.|S|
+K Kill Tigers|QID|30183|M|13.85,70.95|QO|1|N|You'll find the tigers in Dustback Gorge.|
+K Kill Mushan|QID|30181|M|16.64,69.47|N|Be aware of your surroundings. Munshan only attack if you attack them (except the Warder) or one of the group of 3. Tigers have no problem joining in the attack on you.\nGo outside of the valley to avoid the tigers.|US|
 T Mushan Mastery|QID|30181|M|16.07,82.61|N|To Hemet Nesingwary Jr.|
 T Stalker Mastery|QID|30183|M|16.19,82.53|N|To Tani|
 A Fox Mastery|QID|30182|M|16.19,82.53|N|To Tani.|PRE|30183|
-A Stag Mastery|QID|32038|M|15.90,82.24|N|From Matt "Lucky" Gotcher|
 A Mushan Mastery: Darkhide|QID|30184|M|16.01,82.49|N|From Hemet Nesingwary|PRE|30181|
-C Kill Stags|QID|32038|M|24.47,68.43|S|
-C Kill Foxes|QID|30182|M|24.47,68.43|N|The foxes move around stealthed.|S|
-K Darkhide|QID|30184|M|26.7,69.6|QO|1|N|Kill Darkhide and loot his head.|T|Darkhide|
-C Kill Foxes|QID|30182|M|24.47,68.43|US|
-C Kill Stags|QID|32038|M|24.47,68.43|US|
+A Stag Mastery|QID|32038|M|15.90,82.24|N|From Matt "Lucky" Gotcher|PRE|30183|
+K Kill Stags|QID|32038|M|24.00,79.70|QO|1|N|They're spread across the entire area.|S|
+K Kill Foxes|QID|30182|M|24.00,79.70|QO|1|N|The foxes move around stealthed. If you see Sly Pups, a Sly Fox is not far away. \n[color=FF0000]NOTE: [/color]Killing Sly Pups count towards objective.|S|
+K Darkhide|QID|30184|M|25.94,75.57|QO|1|N|Kill Darkhide and loot his head.\n[color=FF0000]NOTE: [/color]Clear any mobs in the area before you start. You don't want the adds.\nWhen he starts 'Ground and Pound', just run in a circle around him until he stops.|T|Darkhide|
+K Kill Foxes|QID|30182|M|24.00,79.70|QO|1|N|Just look for the Sly Pups.|US|
+K Kill Stags|QID|32038|M|24.00,79.70|QO|1|N|They're spread across the entire area.|US|
 T Mushan Mastery: Darkhide|QID|30184|M|16.01,82.49|N|To Hemet Nesingwary|
 T Fox Mastery|QID|30182|M|16.19,82.53|N|To Tani.|
 A Tortoise Mastery|QID|30185|M|16.07,82.61|N|From Hemet Nesingwary Jr.|PRE|30182&30184|
 T Stag Mastery|QID|32038|M|15.90,82.24|N|To Matt "Lucky" Gotcher|
-C Kill Tortoises|QID|30185|M|20.5,74.6|
-T Tortoise Mastery|QID|30185|M|19.91,75.66|N|To Hemet Nesingwary Jr, at the Torjari Pit edge.|
+C Kill Tortoises|QID|30185|M|18.22,78.26|N|The Torjari Pit is full of them.|
+T Tortoise Mastery|QID|30185|M|19.91,75.66|N|To Hemet Nesingwary Jr, in the Torjari Pit.|
 A Parental Mastery|QID|30186|M|19.91,75.66|N|From Hemet Nesingwary Jr.|PRE|30185|
-C Parental Mastery|QID|30186|M|24.59,74.27|N|Follow the Nesingwary's into the underwater cave.|
+R Lair of the Beast|ACTIVE|30186|M|21.91,74.51|N|Jump of the cliff into the water and follow the Nesingwary's into the underwater cave at the bottom.|
+C Parental Mastery|QID|30186|M|24.59,74.27|N|Chat with Hemet Nesingwary Jr and Torjar's Bane will appear.|
 T Parental Mastery|QID|30186|M|16.01,82.49|N|To Hemet Nesingwary back at the campsite.|
-r Restock/No Repair|QID|29872|M|16.14,82.91|N|At Steven Walker.|
-R Stoneplow|ACTIVE|29872|M|20.23,58.52|CC|N|Ride cross-country towards the next green dot.|FLY|OLD|
-f Stoneplow|ACTIVE|29872|M|20.23,58.52|N|From "Dragonwing"Dan.|TAXI|-Stoneplow|
+R Stoneplow|ACTIVE|30117|M|18.96,63.23|N|Ride cross-country towards the next green dot.|FLY|OLD|
+f Stoneplow|ACTIVE|30117|M|20.30,58.67|N|From "Dragonwing"Dan.|TAXI|-Stoneplow|
 T Lin Tenderpaw|QID|29872|M|19.87,56.92|N|To Lin Tenderpaw.|
 A Stemming the Swarm|QID|29981|M|19.87,56.92|N|From Lin Tenderpaw.|
-T Stoneplow Thirsts|QID|30117|M|19.55,56.93|N|To Loon Mai.|
+T Stoneplow Thirsts|QID|30117|M|19.54,56.87|N|To Loon Mai.|
 A Evacuation Orders|QID|29982|M|19.55,56.93|N|From Loon Mai.|
-C Stemming the Swarm|QID|29981|M|15.6,58.09|N|Kill Ik'thik Mantids in the area.|S|
-C Talk to the Greentills|QID|29982|M|15.77,56.29|QO|3|CHAT|
-C Talk to the Marlfurs|QID|29982|M|15.45,54.84|QO|4|CHAT|
-C Talk to the Spadepaws|QID|29982|M|12.88,55.92|QO|2|CHAT|
-C Talk to Blacksoils|QID|29982|M|7.14,54.84|QO|1|N|After you talk to Blacksoil the first time, an ambusher will attack. After you kill it, he will reconsider. Talk to him again to complete this step.|CHAT|
-C Stemming the Swarm|QID|29981|M|15.6,58.09|N|Finish killing mantids as you return to the "safe" area.|US|
+K Stemming the Swarm|QID|29981|M|15.6,58.09|QO|1|N|Kill Ik'thik Mantids in the area.|S|
+C Talk to the Greentills|QID|29982|M|15.77,56.29|QO|3|N|Speak with either Haiyun or Ying.|CHAT|
+C Talk to the Marlfurs|QID|29982|M|15.45,54.86|QO|4|N|Speak with either Zhang or Mia.|CHAT|
+C Talk to the Spadepaws|QID|29982|M|12.88,55.92|QO|2|N|Speak with either Feng or Shu-Li.|CHAT|
+C Talk to Blacksoils|QID|29982|M|7.14,54.84|QO|1|N|After you talk to Wei Blacksoil the first time, an ambusher will attack you. After you kill it, he will reconsider. Talk to him again to complete this step.|CHAT|
+K Stemming the Swarm|QID|29981|M|15.6,58.09|QO|1|N|Finish killing mantids as you return to the "safe" area.|US|
 T Evacuation Orders|QID|29982|M|19.55,56.87|N|To Loon Mai.|
 T Stemming the Swarm|QID|29981|M|19.55,56.87|N|To Loon Mai.|
 A The Hidden Master|QID|29983|M|19.55,56.87|N|From Loon Mai.|PRE|29981&29982|
