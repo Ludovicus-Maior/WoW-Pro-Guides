@@ -293,9 +293,10 @@ T Barrels, Man|QID|30077|M|36.12,69.05|N|To Li Li.|
 T The Fanciest Water|QID|30076|M|35.99,69.10|N|To Mudmug.|
 T Clear the Way|QID|30075|M|36.04,68.98|N|To Chen Stormstout.|
 A Cleaning House|QID|30078|M|36.11,69.08|N|From Chen Stormstout. Talk to Chen to go inside.|PRE|30075&30076&30077|
-C Cleaning House|QID|30078|M|33.98,70.13|N|Talk to Chen (or Li Li) between steps to advance. Follow the instructions in the yellow text.|
+C Cleaning House|QID|30078|M|33.98,70.13|N|Talk to Chen (or Li Li, depending on who's there) after each objective is completed to start the next one. Follow the special instructions in the yellow text whenever they come up.|
 T Cleaning House|QID|30078|M|36.00,69.13|N|To Chen Stormstout.|
-A Into the Brewery|QID|30085|M|36.09,68.96|ELITE|N|[color=E6CC80]Dungeon: Stormstout Brewery[/color]\nFrom Chen Stormstout.|LEAD|31327|PRE|30078|
+A Into the Brewery|QID|30085|LEAD|31327|M|36.09,68.96|ELITE|N|[color=E6CC80]Dungeon: Stormstout Brewery[/color]\nFrom Chen Stormstout.\n[color=FF0000]NOTE: [/color]It's a simple chat quest. Do it even if you don't plan to run the dungeon.|PRE|30078|
+T Into the Brewery|QID|30085|M|36.09,69.27|N|To Chen Stormstout inside the Stormstout Brewery Dungeon. Just walk into the purple swirl to enter the dungeon.|
 A Stoneplow Thirsts|QID|30117|M|36.19,68.29|N|From Emmi.|PRE|30078|
 R Nesingwary's Safari|QID|30181|M|16,83|CC|N|[ACTIVE QID?]|FLY|OLD|
 A Stalker Mastery|QID|30183|M|16.19,82.53|N|From Tani|
