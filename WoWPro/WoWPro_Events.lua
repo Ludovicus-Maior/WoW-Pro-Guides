@@ -547,7 +547,7 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
     WoWPro.SaveGarrisonBuildings()
     -- Noticing if we have entered a Dungeon!
     if (event:sub(1,12) == "ZONE_CHANGED") and WoWProCharDB.AutoHideInsideInstances == true then
-        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index or 1
         local guidetype = "WoWPro"
         if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
             guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
