@@ -211,8 +211,8 @@ T The Slavemaster's Demise|QID|33484|M|18.44,42.12;24.36,37.30|CS|N|To Guse.|RAN
 T The Fall of the Warlord|QID|33467|M|28.29,45.72|N|To Snowrunner Rolga.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
 T Back to Bladespire Citadel|QID|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|To Durotan.|
 A Ga'nar's Vengeance|QID|32783|PRE|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|From Durotan.|
-A Securing the South|QID|32989|PRE|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|From Durotan.|RANK|2|
-T WANTED: Gutsmash the Destroyer|QID|33919|M|43.0,44.7|Z|Bladespire Citadel@FrostfireRidge|N|To Der'shway.|RANK|2|
+A Securing the South|QID|32989|PRE|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|From Durotan.|
+T WANTED: Gutsmash the Destroyer|QID|33919|M|43.0,44.7|Z|Bladespire Citadel@FrostfireRidge|N|To Der'shway.|
 R Daggermaw Ravine|ACTIVE|32783|M|30.89,25.84|N|Run roughly northeast from the Ring of Blood to Daggermaw Ravine.|FLY|WOD|
 T Ga'nar's Vengeance|QID|32783|M|30.89,25.84|N|To Ga'nar|
 A Let the Hunt Begin!|QID|32791|PRE|32783|M|30.89,25.84|N|From Ga'nar.|
@@ -269,7 +269,7 @@ T Warspear Welcome|QID|36707|M|44.15,45.42|Z|Warspear|N|To Lieutenant Kragil ins
 A Inspiring Ashran|QID|36708|PRE|36707|M|44.15,45.42|Z|Warspear|N|From Lieutenant Kragil.|RANK|2|
 C Inspiring Ashran|QID|36708|QO|1|M|45.0,43.2|Z|Warspear|CHAT|N|In the same building you are in. She is the innkeeper if you would prefer to be bound here.  Subsequent guides advise you for time saving reasons to be bound at your inn in that zone.|RANK|2|
 ; I think the QID and PRE for Fen Tao are all wrong.
-A Fen Tao|QID|32989|PRE|33473|M|46.97,45.22|Z|Warspear|CHAT|RANK|2|N|This is a follower you get for free, all that is needed is to talk to him.|
+A Fen Tao|ACTIVE|32989|PRE|33473|M|46.97,45.22|Z|Warspear|CHAT|RANK|2|N|This is a follower you get for free, all that is needed is to talk to him.|
 C Inspiring Ashran|QID|36708|QO|2|M|58.9,52.0|Z|Warspear|CHAT|N|Inside the Tower of Elements. There is also a portal to Orgrimmar in this building.|RANK|2|
 C Inspiring Ashran|QID|36708|QO|3|M|53.86,61.13|Z|Warspear|CHAT|N|Inside Warspear Hold.  This is where the bankers and quartermasters are located also.|RANK|2|
 T Inspiring Ashran|QID|36708|M|44.19,45.43|Z|Warspear|N|To Lieutenant Kragil.|RANK|2|
@@ -277,26 +277,26 @@ A Burning Beauty|QID|36709|PRE|36708|M|44.19,45.43|Z|Warspear|N|From Lieutenant 
 T Burning Beauty|QID|36709|M|62.14,22.99|Z|Warspear|N|To Vivianne, Note that there is also a portal to Undercity here.|RANK|2|
 A The Dark Lady's Gift|QID|35243|PRE|36709|M|62.14,22.99|Z|Warspear|N|From Vivianne.|RANK|2|
 T The Dark Lady's Gift|QID|35243|M|62.14,22.99|Z|Warspear|N|To Vivianne.|RANK|2|
-H Town Hall (Frostwall)|ACTIVE|32989|M|41.58,53.06|U|110560|N|Return to your Garrison.|RANK|2|
-R Icewind Drifts|ACTIVE|32989|M|45.3,50.4|RANK|2|FLY|WOD|
+H Town Hall (Frostwall)|ACTIVE|32989|M|41.58,53.06|U|110560|N|Return to your Garrison.|
+R Icewind Drifts|ACTIVE|32989|M|45.3,50.4|FLY|WOD|
 $ Help out the Veteran|QID|33011|CHAT|RANK|3|M|43.8,49.3;45.3,50.4|CS|N|Talk to him to start the encounter. Help him defeat the attackers and he will share his most precious treasure with you.|
-T Securing the South|QID|32989|M|38.54,52.46|N|To Lokra.|RANK|2|
-A They Who Held Fast|QID|32990|PRE|32989|M|38.54,52.46|N|From Lokra.|RANK|2|
-f Stonefang Outpost|ACTIVE|32990|M|40.11,51.84|N|At Skyhunter Donmor'gan.|RANK|2|
+T Securing the South|QID|32989|M|38.54,52.46|N|To Lokra.|
+A They Who Held Fast|QID|32990|PRE|32989|M|38.54,52.46|N|From Lokra.|
+f Stonefang Outpost|ACTIVE|32990|M|40.11,51.84|N|At Skyhunter Donmor'gan.|
 ;JC interlude
 F Wor'gal|M|40.11,51.84|N|At Skyhunter Donmor'gan.|ACTIVE|36352|P|Jewelcrafting;755|FLY|WOD|
 T Locating the Lapidarist|QID|36352|M|20.0,56.4|P|Jewelcrafting;755|N|To Gem Grinder Orolak.|
 A No Pressure, No Diamonds|QID|36378|M|20.0,56.4|P|Jewelcrafting;755|PRE|36352|N|From Gem Grinder Orolak.|
 F Stonefang Outpost|ACTIVE|36378|M|21.57,56.15|N|At Pul Windcarver.|P|Jewelcrafting;755|
-C Find Karg|QID|32990|M|41.4,52.8|QO|1|CHAT|N|Talk to the warrior in the doorway.|RANK|2|
+C Find Karg|QID|32990|M|41.4,52.8|QO|1|CHAT|N|Talk to the warrior in the doorway.|
 A Of Fire and Thunder|QID|33013|M|41.67,53.00|N|From Wounded Frostwolf Shaman.|RANK|2|
-C Ask Suma|QID|32990|CHAT|QO|2|M|41.4,52.8|RANK|2|
+C Ask Suma|QID|32990|CHAT|QO|2|M|41.4,52.8|
 T The Fractured Hammer|QID|36205|M|41.2,52.89|P|Blacksmithing;164|N|To Axe-Shaper Kurga.|RANK|2|
 A Waruk the Frostforger|QID|36207|M|41.2,52.89|PRE|36205|P|Blacksmithing;164|N|From Axe-Shaper Kurga.|RANK|2|
-C Ask Rota|QID|32990|CHAT|M|39.9,52.8|QO|3|RANK|2|
-C Ask Dungar|QID|32990|CHAT|M|39.18,52.46|QO|4|RANK|2|
-T They Who Held Fast|QID|32990|M|38.54,52.44|N|To Lokra.|RANK|2|
-A Into the Boneslag|QID|32991|PRE|32990|M|38.54,52.44|N|From Lokra.|RANK|2|
+C Ask Rota|QID|32990|CHAT|M|39.9,52.8|QO|3|
+C Ask Dungar|QID|32990|CHAT|M|39.18,52.46|QO|4|
+T They Who Held Fast|QID|32990|M|38.54,52.44|N|To Lokra.|
+A Into the Boneslag|QID|32991|PRE|32990|M|38.54,52.44|N|From Lokra.|
 ;alchemy profession quest
 T The Alchemist|QID|35103|M|38.03,47.45|N|To Kadar.|P|Alchemy;171|
 A The Apprentice|QID|35104|M|38.03,47.45|PRE|35103|N|From Kadar.|P|Alchemy;171|
@@ -307,14 +307,14 @@ C Avenge and Reclaim|QID|35106|M|41.86,40.28|P|Alchemy;171|T|Or'Nak|
 T Avenge and Reclaim|QID|35106|M|37.72,47.47|P|Alchemy;171|N|To Ang'kra.|
 U Learn Alchemy skill|AVAILABLE|33013|U|109558|M|37.72,47.47|P|Alchemy;171|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|PRE|35106|
 ;U Learn Alchemy Lab Blueprints|QID|33918|U|111812|M|37.72,47.47|P|Alchemy;171|N|After you learn check this step off manually.|
-C Into the Boneslag|QID|32991|NC|M|40.4,49|QO|1|RANK|2|
-C Into the Boneslag|QID|32991|NC|M|41.1,44.7|QO|2|RANK|2|
+C Into the Boneslag|QID|32991|NC|M|40.4,49|QO|1|
+C Into the Boneslag|QID|32991|NC|M|41.1,44.7|QO|2|
 C Of Fire and Thunder|QID|33013|NC|M|43.2,44.4|QO|1|RANK|2|
-C Into the Boneslag|QID|32991|CHAT|M|44.31,43.03|QO|3|RANK|2|
+C Into the Boneslag|QID|32991|CHAT|M|44.31,43.03|QO|3|
 C Of Fire and Thunder|QID|33013|NC|M|44.71,43.43|QO|2|RANK|2|
 T Of Fire and Thunder|QID|33013|M|44.71,43.43|N|To UI Alert.|RANK|2|
-T Into the Boneslag|QID|32991|M|47.57,45.57|N|To Lokra.|RANK|2|
-A Moving Target|QID|32992|PRE|32991|M|47.57,45.57|N|From Lokra.|RANK|2|
+T Into the Boneslag|QID|32991|M|47.57,45.57|N|To Lokra.|
+A Moving Target|QID|32992|PRE|32991|M|47.57,45.57|N|From Lokra.|
 ;blacksmithing profession quest
 T Waruk the Frostforger|QID|36207|M|46.08,48.78|P|Blacksmithing;164|N|To Waruk the Frostforged.|
 A The Restless Spirit|QID|36230|M|46.08,48.78|PRE|36207|P|Blacksmithing;164|N|From Waruk the Frostforged.|
@@ -383,22 +383,22 @@ C Oru'kai's Scepter|QID|36260|M|55.2,50|U|115011|P|Enchanting;333|N|Use the ring
 T Oru'kai's Scepter|QID|36260|M|54.4,51.6|P|Enchanting;333|N|To Arcanist Delath.|
 U Learn Enchanting skill|ACTIVE|32992|U|111922|M|54.4,51.6|P|Enchanting;333|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Enchanter's Study Blueprints|QID|33918|U|111817|M|54.4,51.6|P|Enchanting;333|N|After you learn check this step off manually.|
-$ Frozen Treasure|QID|34476|M|57.19,52.15|N|Kill the fury's loot the treasure.|L|111554|RANK|2|
-C Moving Target|QID|32992|M|55.02,55.73|NC|N|Watch the scene unfold.|RANK|2|
-T Moving Target|QID|32992|M|55.49,56.63|N|To Lokra.|RANK|2|
-A The Strength of Our Bonds|QID|32993|PRE|32992|M|55.49,56.63|N|From Lokra.|RANK|2|
-T The Strength of Our Bonds|QID|32993|M|63.21,60.04|N|To Karg Bloodfury.|RANK|2|
-A Where's My Wolf?!|QID|33826|PRE|32993|M|63.22,60.02|N|From Karg Bloodfury.|RANK|2|
-A Karg Unchained|QID|33785|PRE|32993|M|63.22,60.02|N|From Karg Bloodfury.|RANK|2|
-C Karg Unchained|QID|33785|M|63.22,60.02|S|N|Kill them all.|RANK|2|
-C Where's My Wolf?!|QID|33826|M|65.9,60.8|T|Huntmaster Torash|QO|1|RANK|2|
-A Dagg at Gromgar|QID|34651|M|65.9,60.8|N|There is no quest "!", but if you want Dagg to be your follower later, you need to free him from this cage.|RANK|2|
-C Where's My Wolf?!|QID|33826|M|61.01,64.95|QO|2|NC|RANK|2|
-T Where's My Wolf?!|QID|33826|M|63.21,60.07|N|To Karg Bloodfury. (he is following you around)|RANK|2|
-A Enfilade|QID|32994|PRE|33826|M|63.21,60.07|N|From Karg Bloodfury who is following you around unless you went into The Hunter's Hall, at which point he will reappear as soon as you leave.|RANK|2|
-A The Master Siegesmith|QID|33828|PRE|33826|M|63.19,60.04|N|From Lokra. (Also following you around)|RANK|2|
-C Enfilade|QID|32994|M|61.38,71.71|S|N|The apprentices and siegesmiths drop the gunpowder you need to blow up the cannons. Also there is some as groundspawn.|RANK|2|
-C The Master Siegesmith|QID|33828|M|62.66,74.54|T|Master Siegesmith Uratok|RANK|2|
+$ Frozen Treasure|QID|34476|M|57.19,52.15|N|Kill the fury's loot the treasure.|L|111554|
+C Moving Target|QID|32992|M|55.02,55.73|NC|N|Watch the scene unfold.|
+T Moving Target|QID|32992|M|55.49,56.63|N|To Lokra.|
+A The Strength of Our Bonds|QID|32993|PRE|32992|M|55.49,56.63|N|From Lokra.|
+T The Strength of Our Bonds|QID|32993|M|63.21,60.04|N|To Karg Bloodfury.|
+A Where's My Wolf?!|QID|33826|PRE|32993|M|63.22,60.02|N|From Karg Bloodfury.|
+A Karg Unchained|QID|33785|PRE|32993|M|63.22,60.02|N|From Karg Bloodfury.|
+C Karg Unchained|QID|33785|M|63.22,60.02|S|N|Kill them all.|
+C Where's My Wolf?!|QID|33826|M|65.9,60.8|T|Huntmaster Torash|QO|1|
+A Dagg at Gromgar|QID|34651|M|65.9,60.8|N|There is no quest "!", but if you want Dagg to be your follower later, you need to free him from this cage.|
+C Where's My Wolf?!|QID|33826|M|61.01,64.95|QO|2|NC|
+T Where's My Wolf?!|QID|33826|M|PLAYER|N|To Karg Bloodfury. (he is following you around)|
+A Enfilade|QID|32994|PRE|33826|M|PLAYER|N|From Karg Bloodfury who is following you around unless you went into The Hunter's Hall, at which point he will reappear as soon as you leave.|
+A The Master Siegesmith|QID|33828|PRE|33826|M|63.19,60.04|N|From Lokra. (Also following you around)|
+C Enfilade|QID|32994|M|61.38,71.71|S|N|The apprentices and siegesmiths drop the gunpowder you need to blow up the cannons. Also there is some as groundspawn.|
+C The Master Siegesmith|QID|33828|M|62.66,74.54|T|Master Siegesmith Uratok|
 ;the rest of the inscription quest
 C Bypassing Security|QID|36457|M|61.26,71.18|P|Inscription;773|U|116063|N|Use your disguise and rescue Nicholaus.|
 T Bypassing Security|QID|36457|M|61.26,71.18|P|Inscription;773|N|To Nicholaus Page.|
@@ -407,12 +407,12 @@ C Stealing the Declaration|QID|36475|M|63.10,75.75|P|Inscription;773|N|Open Urat
 T Stealing the Declaration|QID|36475|M|61.26,71.18|P|Inscription;773|N|To Nicholaus Page.|
 U Learn Inscription skill|QID|33918|U|111923|M|61.2,71.2|P|Inscription;773|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Scribe's Quarters Blueprints|QID|33918|U|111815|M|61.2,71.2|P|Inscription;773|N|After you learn check this step off manually.|
-C Enfilade|QID|32994|M|61.38,71.71|N|The apprentices and siegesmiths drop the gunpowder you need to blow up the cannons. Also there is some as groundspawn.|RANK|2|US|
-C Karg Unchained|QID|33785|M|63.77,68.17|N|Finish killing the orcs.|RANK|2|US|
-T Karg Unchained|QID|33785|M|63.21,60.07|N|To Karg Bloodfury.|RANK|2|
-T Enfilade|QID|32994|M|62.53,74.91|N|To Karg Bloodfury.|RANK|2|
-T The Master Siegesmith|QID|33828|M|62.53,74.91|N|To Lokra.|RANK|2|
-A Return to the Pack|QID|33493|PRE|32994|M|62.53,74.91|N|From Lokra.|RANK|2|
+C Enfilade|QID|32994|M|61.38,71.71|N|The apprentices and siegesmiths drop the gunpowder you need to blow up the cannons. Also there is some as groundspawn.|US|
+C Karg Unchained|QID|33785|M|63.77,68.17|N|Finish killing the orcs.|US|
+T Karg Unchained|QID|33785|M|63.21,60.07|N|To Karg Bloodfury.|
+T Enfilade|QID|32994|M|62.53,74.91|N|To Karg Bloodfury.|
+T The Master Siegesmith|QID|33828|M|62.53,74.91|N|To Lokra.|
+A Return to the Pack|QID|33493|PRE|32994&33785&33828|M|62.53,74.91|N|From Lokra.|
 C "Spare" Parts|QID|36594|M|56.74,71.82|P|Engineering;202|N|Kill and loot for the shells or pick them up from the ground. Use the provided bomb to blow up the siege cannons and pick up the parts. There is a treasure chest here also with some garrison resources, (and hopefully sometimes something better).|
 H Town Hall (Frostwall)|ACTIVE|33918|M|41.58,53.06|U|110560|Z|Frostwall|CC|RANK|2|
 T WANTED: Grondo's Bounty|QID|33918|M|45.88,42.80|N|To Rokhan.|RANK|2|Z|Frostwall|
@@ -501,8 +501,8 @@ A Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|From Farmer Lo
 C Go trap an animal|QID|36345|QO|1|M|55,62;26,43|CN|U|113991|N|Trap a wolf (in the shivering trench ~55,62) if you want fur (cloth) and a clefthoof (nearest concentration is outside of sootstained mines ~26,46) if you are interested in leather. You can trap more if you want, up to 7 can be turned in each day.|
 C Place a work order|QID|36345|QO|2|N|At Farmer Lok'lub, sometimes he gets bored and wanders around, I have found him as far away as my garrison's graveyard.|
 T Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|To Farmer Lok'lub|
-T Return to the Pack|QID|33493|M|50.17,37.82|N|To Durotan.|RANK|2|Z|Frostwall|
-A Thunderlord Invasion!|QID|37291|PRE|32796|M|50.17,37.82|N|From Durotan.|Z|Frostwall|
+T Return to the Pack|QID|33493|M|50.17,37.82|N|To Durotan.|Z|Frostwall|
+A Thunderlord Invasion!|QID|37291|PRE|32796&33493|M|50.17,37.82|N|From Durotan.|Z|Frostwall|
 C Thunderlord Invasion!|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimjaw to start the scenario. You can take up to two groupmates with you if they come to your garrison. It will take around 10 min.|Z|Frostwall|
 t Thunderlord Invasion!|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|Z|Frostwall|
 A The Iron Wolf|QID|33010|PRE|37291|M|50.17,37.82|N|From Durotan.|Z|Frostwall|

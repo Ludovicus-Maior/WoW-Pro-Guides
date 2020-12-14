@@ -88,10 +88,10 @@ A Haohan's Vote V: Chief Yip-Yip|QID|30528|M|52.20,48.86|N|From Farmer Yoon. you
 K Chief Yip-Yip|ACTIVE|30528|M|32.4,20.4|QO|1|N|Head to the cave, use your 'extra action' button whenever its available (not grey) to temporarily weaken him, kill him while he is weak.|T|Chief Yip-Yip|
 
 ;pick up quests
-A Farmer Yoon|QID|31672^31942^31673^31941^31670^31669^31674^31675^31943^31671|M|52.19,48.802|N|He will have at least 2 quests for you to pick up.|PRE|30257|REP|The Tillers;1272;Neutral-Revered|
+A Farmer Yoon|QID|31672^31942^31673^31941^31670^31669^31674^31675^31943^31671|M|52.25,48.78|N|He will have at least 2 quests for you to pick up.|PRE|30257|REP|The Tillers;1272;Neutral-Revered|
 A Work Order Post|QID|32642^32645^32647^32649^32653^32658^32942^32944|M|52.3,48.68|N|Now that Yoon is on the council, his 'grow something' quest is replaced by quests that earn you rep with other Pandaria factions. You can only do one a day, take whichever you like (or none).\n[color=FF0000]NOTE: [/color]Unlike Yoon's quests, you have to harvest and turn in the produce to get credit.\nIf you want to keep your farm's production for growing specific items and not earning other faction's favor, skip this.|PRE|32682|REP|The Tillers;1272;Exalted|
 A A Gift For ??? (random friend)|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|52.70,50.47|N|From Andi.|PRE|30257|
-A Master Cook Daily Quest|QID|30328^30329^30330^30331^30332|N|One of the master cooks will offer you a quest to either get, cook, or do something for them.\n[color=FF0000]NOTE: [/color]These quests only reward Cooking skill points and Ironpaw Tokens (no Tiller Rep). You can skip them if you don't have a use for Ironpaw tokens. But, as they're done in the same area, you might as well do it.|PRE|30257|LVL|35|RANK|2|
+A Master Cook Daily Quest|QID|30328^30329^30330^30331^30332|M|52.88,51.72|N|One of the master cooks will offer you a quest to either get, cook, or do something for them.\n[color=FF0000]NOTE: [/color]These quests only reward Cooking skill points and Ironpaw Tokens (no Tiller Rep). You can skip them if you don't have a use for Ironpaw tokens. But, as they're done in the same area, you might as well do it.|PRE|30257|LVL|35|RANK|2|
 A Farmer Yoon|QID|30333^30334^30335^30336^30337|M|52.92,51.83|N|Farmer Yoon has moved into town and only offers one quest a day now.|PRE|32682|REP|The Tillers;1272;Exalted| ; -- pre quest mismatch per grail is intentional, so wont trigger if you haven't bought the farm from Yoon
 
 ;prepare food
@@ -346,21 +346,21 @@ t A Beautiful Brooch|QID|31329|M|45.1,33.8|N|If she is not at the market, Tina c
 ;turn in quests
 T Lost and Lonely|QID|30526|M|42.39,49.98|N|To Lost Dog.|
 
-T Stalling the Ravage|QID|30335|M|52.23,48.83|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T The White Turnip Treatment|QID|31675|M|52.23,48.83|N|To Farmer Yoon.|
-T Red Blossom Leeks, You Make the Croc-in' World Go Down|QID|31673|M|52.21,48.82|N|To Farmer Yoon.|
-T A Pumpkin-y Perfume|QID|31672|M|52.21,48.82|N|To Farmer Yoon.|
-T It's Melon Time|QID|31942|M|52.21,48.82|N|To Farmer Yoon.|
-T Squash Those Foul Odors|QID|31941|M|52.21,48.82|N|To Farmer Yoon.|
-T That Dangling Carrot|QID|31670|M|52.21,48.82|N|To Farmer Yoon.|
-T The Cabbage Test|QID|31669|M|52.21,48.82|N|To Farmer Yoon.|
-T The Pink Turnip Challenge|QID|31674|M|52.21,48.82|N|To Farmer Yoon.|
-T Which Berries? Witchberries.|QID|31943|M|52.21,48.82|N|To Farmer Yoon.|
-T Why Not Scallions?|QID|31671|M|52.21,48.82|N|To Farmer Yoon.|
-T The Lesser of Two Evils|QID|30333|M|52.21,48.82|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.21,48.82|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T The Kunzen Hunter-Chief|QID|30336|M|52.21,48.82|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T Simian Sabotage|QID|30337|M|52.21,48.82|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T Stalling the Ravage|QID|30335|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T The White Turnip Treatment|QID|31675|M|52.25,48.80|N|To Farmer Yoon.|
+T Red Blossom Leeks, You Make the Croc-in' World Go Down|QID|31673|M|52.25,48.80|N|To Farmer Yoon.|
+T A Pumpkin-y Perfume|QID|31672|M|52.25,48.80|N|To Farmer Yoon.|
+T It's Melon Time|QID|31942|M|52.25,48.80|N|To Farmer Yoon.|
+T Squash Those Foul Odors|QID|31941|M|52.25,48.80|N|To Farmer Yoon.|
+T That Dangling Carrot|QID|31670|M|52.25,48.80|N|To Farmer Yoon.|
+T The Cabbage Test|QID|31669|M|52.25,48.80|N|To Farmer Yoon.|
+T The Pink Turnip Challenge|QID|31674|M|52.25,48.80|N|To Farmer Yoon.|
+T Which Berries? Witchberries.|QID|31943|M|52.25,48.80|N|To Farmer Yoon.|
+T Why Not Scallions?|QID|31671|M|52.25,48.80|N|To Farmer Yoon.|
+T The Lesser of Two Evils|QID|30333|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T The Kunzen Hunter-Chief|QID|30336|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T Simian Sabotage|QID|30337|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
 A Mung-Mung's Vote I: A Hozen's Problem|QID|30258|M|52.28,48.74|N|From Farmer Yoon.|PRE|31945|REP|The Tillers;1272;Honored;5500|
 
 ;Yoon turns in after you buy the farm
@@ -452,17 +452,17 @@ T The Mile-High Grub|QID|30331|M|52.54,51.65|N|To Mei Mei Ironpaw.|
 ;WATERING SYSTEM - requires clear the weeds
 B The "Jinyu Princess" Irrigation System|LEAD|31936|M|53.2,51.8|L|89812|N|Buy from Gina Mudclaw. Even if you like using inventory space for the watering can, its still 250 rep for 90g. Not available until after the weeds are removed (so, in 15 minutes, if Gao Lan just started.)|PRE|30531|
 A The "Jinyu Princess" Irrigation System|QID|31936|N|From the item you just bought.|U|89812|PRE|30531|O|
-T The "Jinyu Princess" Irrigation System|QID|31936|M|52.20,48.86|N|To Farmer Yoon who installs it for you.|
+T The "Jinyu Princess" Irrigation System|QID|31936|M|52.25,48.80|N|To Farmer Yoon who installs it for you.|
 
 ;BUY THE BUG SPRAYER - requires remove the cart
 B "Thunder King" Pest Repellers|LEAD|31937|M|53.2,51.8|L|89813|N|Buy from Gina Mudclaw. Even if you like using inventory space for the bug sprayer, its still 250 rep for 80g. Not available until after the weeds are removed (so, in 15 minutes, if Fish just started.)|PRE|30533|
 A "Thunder King" Pest Repellers|QID|31937|M|53.2,51.8|N|From the item you just bought.|U|89813|PRE|30533|O|
-T "Thunder King" Pest Repellers|QID|31937|M|52.20,48.86|N|To Farmer Yoon who installs it for you.|
+T "Thunder King" Pest Repellers|QID|31937|M|52.25,48.80|N|To Farmer Yoon who installs it for you.|
 
 ;BUY THE PLOW
 B The "Earth-Slasher" Master Plow|LEAD|31938|M|53.2,51.8|L|89814|N|Buy from Gina Mudclaw. Much faster as you can plow 4 plots with one click. Not available until after the weeds are removed (so, in 15 minutes, if Thundar just started.)|PRE|30574|
 A The "Earth-Slasher" Master Plow|QID|31938|N|From the item you just bought.|U|89814|PRE|30574|O|
-T The "Earth-Slasher" Master Plow|QID|31938|M|52.20,48.86|N|To Farmer Yoon who installs it for you. This is unfortunately an item that you will have to pick up and use from your inventory.|
+T The "Earth-Slasher" Master Plow|QID|31938|M|52.25,48.80|N|To Farmer Yoon who installs it for you. This is unfortunately an item that you will have to pick up and use from your inventory.|
 
 ;Jogu's one time chain|REP|1273
 A Buy A Fish A Drink?|QID|31320|M|53.6,52.4|N|From Jogu the Drunk.|REP|Jogu;1273;Acquaintance| ; -- 8400rep
