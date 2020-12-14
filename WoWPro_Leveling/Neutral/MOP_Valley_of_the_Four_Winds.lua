@@ -328,8 +328,8 @@ R Stoneplow|ACTIVE|30117|M|18.96,63.23|N|Ride cross-country towards the next gre
 f Stoneplow|ACTIVE|30117|M|20.30,58.67|N|From "Dragonwing"Dan.|TAXI|-Stoneplow|
 T Lin Tenderpaw|QID|29872|M|19.87,56.92|N|To Lin Tenderpaw.|
 A Stemming the Swarm|QID|29981|M|19.87,56.92|N|From Lin Tenderpaw.|
-T Stoneplow Thirsts|QID|30117|M|19.54,56.87|N|To Loon Mai.|
-A Evacuation Orders|QID|29982|M|19.55,56.93|N|From Loon Mai.|
+T Stoneplow Thirsts|QID|30117|M|19.55,56.87|N|To Loon Mai.|
+A Evacuation Orders|QID|29982|M|19.55,56.87|N|From Loon Mai.|
 K Stemming the Swarm|QID|29981|M|15.6,58.09|QO|1|N|Kill Ik'thik Mantids in the area.|S|
 C Talk to the Greentills|QID|29982|M|15.77,56.29|QO|3|N|Speak with either Haiyun or Ying.|CHAT|
 C Talk to the Marlfurs|QID|29982|M|15.45,54.86|QO|4|N|Speak with either Zhang or Mia.|CHAT|
@@ -342,36 +342,36 @@ A The Hidden Master|QID|29983|M|19.55,56.87|N|From Loon Mai.|PRE|29981&29982|
 R Paoquan Hollow|ACTIVE|29983|M|18.15,31.60|FLY|OLD|
 T The Hidden Master|QID|29983|M|18.30,31.23|N|To Master Bruised Paw.|
 A Unyielding Fists: Trial of Bamboo|QID|29984|M|18.30,31.23|N|From Master Bruised Paw.|PRE|29983|
-C Trial of Bamboo|QID|29984|M|18.2,31.26|N|[Add Vehicle step]Talk to the Master to accept the challenge and get put into a 'vehicle'. Press the "1" key when the circle is full and 'glowing'. Cutscene follows each of these.|CHAT|
-T Unyielding Fists: Trial of Bamboo|QID|29984|M|18.30,31.23|N|To Master Bruised Paw, Cutscene follows immediately after.|PRE|29983|
+C Trial of Bamboo|QID|29984|M|18.2,31.26|N|Talk to the Master to start the challenge. You will put into a vehicle UI. Press the "1" key when the circle is full and 'glowing'.|CHAT|
+T Unyielding Fists: Trial of Bamboo|QID|29984|M|18.30,31.23|N|To Master Bruised Paw.\nA cinematic follows immediately. <ESC> to cancel the cinematic.|PRE|29983|
 A They Will Be Mist|QID|29985|M|18.30,31.23|N|From Master Bruised Paw.|PRE|29984|
 A Fog Wards|QID|29986|M|18.30,31.23|N|From Master Bruised Paw.|PRE|29984|
 A Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|18.06,31.00|N|From Lin Tenderpaw|PRE|29984|
-C They Will Be Mist|QID|29985|M|18.17,41.49|S|
+K They Will Be Mist|ACTIVE|29985|M|18.17,41.49|QO|1|S|
 C Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|16.64,37.64|NC|S|
-C Light the Northern Fog Ward|QID|29986|M|16.04,32.15|QO|1|NC|
-C Light the Western Fog Ward|QID|29986|M|14.81,36.83|QO|2|NC|
-C Light the Southern Fog Ward|QID|29986|M|18.17,41.49|QO|3|NC|
+C Light the Northern Fog Ward|QID|29986|M|16.01,32.11|QO|1|NC|
+C Light the Western Fog Ward|QID|29986|M|14.85,36.83|QO|2|NC|
+C Light the Southern Fog Ward|QID|29986|M|18.10,41.47|QO|3|NC|
 C Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|16.64,37.64|NC|US|
-C They Will Be Mist|QID|29985|M|18.17,41.49|US|
-T Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|18.05,31.07|N|To Lin Tenderpaw.|
-T They Will Be Mist|QID|29985|M|18.25,31.22|N|To Master Bruised Paw.|
-T Fog Wards|QID|29986|M|18.25,31.22|N|To Master Bruised Paw.|
-A Unyielding Fists: Trial of Wood|QID|29987|M|18.24,31.26|N|From Master Bruised Paw.|PRE|29992&29985&29986|
+C They Will Be Mist|QID|29985|M|17.02,37.85|US|
+T Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|18.06,31.00|N|To Lin Tenderpaw.|
+T They Will Be Mist|QID|29985|M|18.29,31.24|N|To Master Bruised Paw.|
+T Fog Wards|QID|29986|M|18.29,31.24|N|To Master Bruised Paw.|
+A Unyielding Fists: Trial of Wood|QID|29987|M|18.29,31.24|N|From Master Bruised Paw.|PRE|29992&29985&29986|
 C Trial of Wood|QID|29987|M|18.25,32.18|N|Same routine, but we are breaking boards this time.|CHAT|
-T Unyielding Fists: Trial of Wood|QID|29987|M|18.24,31.26|N|To Master Bruised Paw.|
-A A Taste For Eggs|QID|29988|M|18.24,31.26|N|From Master Bruised Paw.|PRE|29987|
-C Hornbill Strider Egg|QID|29988|M|26.9,39.1|QO|3|N|Inside the cave, The momma bird will come to show her displeasure with you.|
-C A Taste For Eggs|QID|29988|M|24,45;26.9,39.1|CN|N|Gather the rest of your eggs in the area around the markers|; Singing Marshes
-T A Taste For Eggs|QID|29988|M|18.29,31.24|N|To Master Bruised Paw.|
+T Unyielding Fists: Trial of Wood|QID|29987|M|18.29,31.24|N|To Master Bruised Paw.|
+A A Taste For Eggs|QID|29988|M|18.29,31.24|N|From Master Bruised Paw.|PRE|29987|
+C Hornbill Strider Egg|QID|29988|M|26.98,39.06|QO|3|N|The egg is inside the cave. The momma bird will come to show her displeasure with you.|NC|
+C A Taste For Eggs|QID|29988|M|25.35,42.98|QO|1;2|N|Gather the rest of your eggs in the area of Singing Marshes.\n[color=FF0000]NOTE: [/color]Look for eggs with no birds around it. You will be attacked if they are near.|
+T A Taste For Eggs|QID|29988|M|18.29,31.24|N|To Master Bruised Paw.\nA cinematic will start after. <ESC> to cancel it.|
 A Unyielding Fists: Trial of Stone|QID|29989|M|18.29,31.24|N|From Master Bruised Paw.|PRE|29988|
 C Trial of Stone|QID|29989|M|18.16,32.15|N|Same routine, this time we get to break stone, while the master throws eggs at us.|CHAT|
 T Unyielding Fists: Trial of Stone|QID|29989|M|18.29,31.24|N|To Master Bruised Paw.|
-A Training and Discipline|QID|29990|M|18.05,31.07|N|From Lin Tenderpaw.|PRE|29989|
-R Stoneplow|ACTIVE|29990|M|19,56|FLY|OLD|
+A Training and Discipline|QID|29990|M|18.06,31.00|N|From Lin Tenderpaw.|PRE|29989|
+R Stoneplow|ACTIVE|29990|M|18.59,50.92|FLY|OLD|
 T Training and Discipline|QID|29990|M|19.55,56.87|N|To Loon Mai.|
-A The Road to Kun-Lai|QID|31254|M|18.51,56.37|N|This quest is available multiple places, so you may have already picked it up. It is from Messenger Grummle who paths back and forth across the road. It requires level 87 and leads you to Kun-Lai. Skip if you do not want to quest there.|FACTION|Alliance|
-A The Road to Kun-Lai|QID|31255|M|18.51,56.37|N|This quest is available multiple places, so you may have already picked it up. It is from Messenger Grummle who paths back and forth across the road. It requires level 87 and leads you to Kun-Lai. Skip if you do not want to quest there.|FACTION|Horde|
-F Congratulations, you finished Valley of the Four Winds.|QID|29873|M|20.24,58.64|N|You finished Valley of the Four Winds, Dragonwing Dan will give you a free flight (if you ask within 20 min of turning in last quest) into Krasarang Wilds (a flight point you don't have yet). Next guide assumes you chose to go see Ken-Ken.|
+A The Road to Kun-Lai|QID|31254|M|18.51,56.37|N|This quest is available multiple places, so you may have already picked it up. It is from Messenger Grummle who paths back and forth across the road. It requires level 20 and leads you to Kun-Lai. Skip if you do not want to quest there.|FACTION|Alliance|
+A The Road to Kun-Lai|QID|31255|M|18.51,56.37|N|This quest is available multiple places, so you may have already picked it up. It is from Messenger Grummle who paths back and forth across the road. It requires level 20 and leads you to Kun-Lai. Skip if you do not want to quest there.|FACTION|Horde|
+F Congratulations, you finished Valley of the Four Winds.|QID|29873|M|20.24,58.64|N|You finished Valley of the Four Winds, Dragonwing Dan will give you a free flight (if you ask within 20 min of turning in last quest) into Krasarang Wilds (a flight point you don't have yet). Next guide assumes you chose to go see Ken-Ken.|FLY|OLD|
 ]]
 end)
