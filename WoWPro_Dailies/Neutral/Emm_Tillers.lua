@@ -143,7 +143,7 @@ A Old Hillpaw|QID|30396^30394^30318|ACTIVE|30476|M|53.0,51.8|N|Turn in food, tre
 A Chee Chee|QID|30402^30400^30324|ACTIVE|30471|M|53.10,52.01|N|Turn in food, treasure, accept daily. He prefers a Blue Feather.|PRE|30257|ACH|6552;3|
 A Gina Mudclaw|QID|30390^30389^30322|M|53.17,51.86|N|Turn in food, treasure, accept daily if offered. She prefers a Marsh Lily.|PRE|30257|REP|Gina Mudclaw;1281;Stranger-Good Friend|RANK|3|
 A Money Matters|QID|30322|ACTIVE|30479|M|53.17,51.86|N|From Gina Mudclaw.|PRE|30257|REP|Gina Mudclaw;1281;Best Friend|
-A Farmer Fung|QID|30421^30420^30317|ACTIVE|30475|M|52.85,51.71|N|Turn in food, treasure, accept daily. He prefers a Marsh Lily.|PRE|30257|
+A Farmer Fung|QID|30421^30420^30317|ACTIVE|30475|M|52.85,51.71|N|Turn in food, treasure, accept daily. He prefers a Marsh Lily.\n[color=FF0000]NOTE: [/color]If he is not in the Market, he is on his farm in Heartland.|PRE|30257|
 
 ;buy seeds for farmer yoon's preferred crop, rep crops, etc
 B Mogu Pumpkin Seeds|ACTIVE|31672|L|80592|M|52.88,52.14|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
