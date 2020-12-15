@@ -22,7 +22,12 @@ local function handler(msg, editbox)
 			WoWProCharDB.DevCoords = true
 		end
 	elseif ltoken == "devmode" then
-		WoWPro.DevMode = true
+		if WoWPro.DevMode then
+			WoWPro.DevMode = false
+		else
+			WoWPro.DevMode = true
+		end
+		WoWPro.LoadGuideStepsReal()
     elseif ltoken == "where" then
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()
         if (not X) or (not Y) then

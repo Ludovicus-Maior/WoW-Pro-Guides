@@ -882,7 +882,7 @@ function WoWPro.ParseSteps(steps)
 					gender = nil
 				end
 			end
-			
+
 			if WoWPro.DevMode then
 				if WoWPro.ParseQuestLine(faction, zone, i, text) then
                     WoWPro.RecordStuff(i)
