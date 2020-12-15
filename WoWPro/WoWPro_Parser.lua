@@ -882,8 +882,13 @@ function WoWPro.ParseSteps(steps)
 					gender = nil
 				end
 			end
-
-            if not WoWPro.CLASSIC and (class == nil or WoWPro.SemiMatch(class, myclass)) and
+			
+			if WoWPro.DevMode then
+				if WoWPro.ParseQuestLine(faction, zone, i, text) then
+                    WoWPro.RecordStuff(i)
+                    i = i + 1
+                end
+            elseif not WoWPro.CLASSIC and (class == nil or WoWPro.SemiMatch(class, myclass)) and
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
 			   (_G.C_Covenants and (covenant == nil or covenant == _G.C_Covenants.GetActiveCovenantID())) and
                (gender == nil or gender == _G.UnitSex("player")) and
