@@ -1899,11 +1899,11 @@ C A Fitting Guise|QID|61742|M|59.78,32.69|Z|Maldraxxus|QO|1|NC|N|Click on Nelesi
 T A Fitting Guise|QID|61742|M|66.20,32.14|Z|Maldraxxus|N|To Balmedar.|COV|Necrolord|
 A The Pupil Returns|QID|61743|PRE|61742|M|66.20,32.14|Z|Maldraxxus|N|From Balmedar.|COV|Necrolord|REN|20|
 R Vault of Souls|ACTIVE|61743|M|71.03,28.52|Z|Maldraxxus|N|Make your way to the Vault of Souls.|COV|Necrolord|
-T The Pupil Returns|QID|61743|M|50.16,51.84|Z|MAL_Micro_D|N|To Kel'thuzad.|COV|Necrolord|
-A The Baron's Plan|QID|61744|PRE|61743|M|50.16,51.84|Z|MAL_Micro_D|N|From Kel'thuzad.|COV|Necrolord|REN|20|
-C The Baron's Plan|QID|61744|M|44.45,28.10|Z|MAL_Micro_D|CHAT|N|Speak with Kel'Thuzad and then walk with him.|COV|Necrolord|
-T The Baron's Plan|QID|61744|M|44.01,27.06|Z|MAL_Micro_D|N|To Kel'thuzad.|COV|Necrolord|
-A Mistress of Tomes|QID|61745|PRE|61744|M|44.01,27.06|Z|MAL_Micro_D|N|From Kel'thuzad.|COV|Necrolord|REN|20|
+T The Pupil Returns|QID|61743|M|50.16,51.84|Z|Vault of Souls|N|To Kel'thuzad.|COV|Necrolord|
+A The Baron's Plan|QID|61744|PRE|61743|M|50.16,51.84|Z|Vault of Souls|N|From Kel'thuzad.|COV|Necrolord|REN|20|
+C The Baron's Plan|QID|61744|M|44.45,28.10|Z|Vault of Souls|CHAT|N|Speak with Kel'Thuzad and then walk with him.|COV|Necrolord|
+T The Baron's Plan|QID|61744|M|44.01,27.06|Z|Vault of Souls|N|To Kel'thuzad.|COV|Necrolord|
+A Mistress of Tomes|QID|61745|PRE|61744|M|44.01,27.06|Z|Vault of Souls|N|From Kel'thuzad.|COV|Necrolord|REN|20|
 T Mistress of Tomes|QID|61745|M|66.31,26.38|Z|Maldraxxus|N|Back outsit, To Baroness Ninadar.|COV|Necrolord|
 A Cantrip Collections|QID|61746|PRE|61745|M|66.31,26.38|Z|Maldraxxus|N|From Baroness Ninadar.|COV|Necrolord|REN|20|
 A Errant Enchantments|QID|61747|PRE|61745|M|66.31,26.38|Z|Maldraxxus|N|From Baroness Ninadar.|COV|Necrolord|REN|20|
@@ -1917,9 +1917,9 @@ C The Hall of Tomes|QID|61748|M|67.92,23.38|Z|Maldraxxus|QO|1|NC|N|Click on the 
 C The Hall of Tomes|QID|61748|M|68.23,23.31|Z|Maldraxxus|QO|2|NC|N|Click on the Paths of the First Ones. Be careful of the Decrepit Oculus that will break your illusion.|COV|Necrolord|
 C The Hall of Tomes|QID|61748|M|67.91,23.19|Z|Maldraxxus|QO|3|NC|N|Click on the Greater Wards and Barriers, Volume IV. Be careful of the Decrepit Oculus that will break your illusion.|COV|Necrolord|
 C The Hall of Tomes|QID|61748|M|68.15,23.01|Z|Maldraxxus|QO|4|NC|N|Click on the Binding of the Banished One. Be careful of the Decrepit Oculus that will break your illusion.|COV|Necrolord|
-R Vault of Souls|ACTIVE|61748|M|34.31,63.46|Z|MAL_Micro_D|N|Make your way to the Vault of Souls.|COV|Necrolord|
-T The Hall of Tomes|QID|61748|M|43.95,26.98|Z|MAL_Micro_D|N|To Kel'thuzad.|COV|Necrolord|
-A Necessary Ingredients|QID|61749|PRE|61748|M|43.95,26.98|Z|MAL_Micro_D|N|From Kel'thuzad.|COV|Necrolord|REN|20|
+R Vault of Souls|ACTIVE|61748|M|34.31,63.46|Z|Vault of Souls|N|Make your way to the Vault of Souls.|COV|Necrolord|
+T The Hall of Tomes|QID|61748|M|43.95,26.98|Z|Vault of Souls|N|To Kel'thuzad.|COV|Necrolord|
+A Necessary Ingredients|QID|61749|PRE|61748|M|43.95,26.98|Z|Vault of Souls|N|From Kel'thuzad.|COV|Necrolord|REN|20|
 T Necessary Ingredients|QID|61749|M|69.97,32.71|Z|Maldraxxus|N|To Jor'dan the Powerful.|COV|Necrolord|
 A Heart of the Forest|QID|61750|PRE|61749|M|69.97,32.71|Z|Maldraxxus|N|From Jor'dan the Powerful.|COV|Necrolord|REN|20|
 A Cage Free Spores|QID|61751|PRE|61749|M|69.97,32.71|Z|Maldraxxus|N|From Jor'dan the Powerful.|COV|Necrolord|REN|20|
@@ -1944,22 +1944,22 @@ R Hall of Blades|ACTIVE|61755|M|65.11,34.33|Z|Maldraxxus|N|Make your way to the 
 T No Crate Unturned|QID|61754|M|66.21,32.15|Z|Maldraxxus|N|To Balmedar.|COV|Necrolord|
 T Blinding the Brokers|QID|61755|M|66.21,32.15|Z|Maldraxxus|N|To Balmedar.|COV|Necrolord|
 A Designed to Fail|QID|61756|PRE|61754&61755|M|66.21,32.15|Z|Maldraxxus|N|From Balmedar.|COV|Necrolord|REN|20|
-R Vault of Souls|ACTIVE|61756|M|34.43,63.30|Z|MAL_Micro_D|N|Make your way to the Vault of Souls.|COV|Necrolord|
-T Designed to Fail|QID|61756|M|43.97,27.15|Z|MAL_Micro_D|N|To Kel'thuzad.|COV|Necrolord|
-A Caught in the Act|QID|61757|PRE|61756|M|43.97,27.15|Z|MAL_Micro_D|N|From Kel'thuzad.|COV|Necrolord|REN|20|
-C Caught in the Act|QID|61757|M|43.31,20.50|Z|MAL_Micro_D|QO|1|NC|N|Click the torch to Burn the Spore Clusters.|COV|Necrolord|
-C Caught in the Act|QID|61757|M|41.01,17.73|Z|MAL_Micro_D|QO|2|NC|N|Click the altar to place the Veilwing Heart.|COV|Necrolord|
-C Caught in the Act|QID|61757|M|45.00,20.00|Z|MAL_Micro_D|QO|3|NC|N|Click on the Anima Coffers around the room to open them.|COV|Necrolord|
-C Caught in the Act|QID|61757|M|54.24,67.96|Z|MAL_Micro_D|QO|4|NC|N|Sit back and watch Kel'Thuzad's ritual.|COV|Necrolord|
-T Caught in the Act|QID|61757|M|54.24,67.96|Z|MAL_Micro_D|N|To UI-Alert.|COV|Necrolord|
-A Improvised Implements|QID|61758|PRE|61757|M|54.24,67.96|Z|MAL_Micro_D|N|From UI-Alert. Auto Accepted.|COV|Necrolord|REN|20|
-C Improvised Implements|QID|61758|M|52.84,67.47|Z|MAL_Micro_D|NC|N|Click on the "Hand" (that looks like a skeleton arm).|COV|Necrolord|
-T Improvised Implements|QID|61758|M|52.84,67.47|Z|MAL_Micro_D|N|To UI-Alert.|COV|Necrolord|
-A A Helpful Hand|QID|61759|PRE|61758|M|52.84,67.47|Z|MAL_Micro_D|N|From UI-Alert. Auto Accepted.|COV|Necrolord|REN|20|
-C A Helpful Hand|QID|61759|M|54.74,67.50|Z|MAL_Micro_D|QO|1|NC|N|Stand at the gate and use Action Ability "[color=40C7EB]Animate Hand[/color]".|COV|Necrolord|
-C A Helpful Hand|QID|61759|M|53.61,68.30|Z|MAL_Micro_D|QO|2|NC|N|Controlling the hand hop on the box at the northern part of the room, and make your way around using chains, spiderwebs and bookshelves to reach the cell door switch.|COV|Necrolord|
-T A Helpful Hand|QID|61759|M|52.65,63.70|Z|MAL_Micro_D|N|To Balmedar.|COV|Necrolord|
-A The Traitor Unmasked|QID|61760|PRE|61759|M|52.65,63.70|Z|MAL_Micro_D|N|From Balmedar.|COV|Necrolord|REN|20|
+R Vault of Souls|ACTIVE|61756|M|34.43,63.30|Z|Vault of Souls|N|Make your way to the Vault of Souls.|COV|Necrolord|
+T Designed to Fail|QID|61756|M|43.97,27.15|Z|Vault of Souls|N|To Kel'thuzad.|COV|Necrolord|
+A Caught in the Act|QID|61757|PRE|61756|M|43.97,27.15|Z|Vault of Souls|N|From Kel'thuzad.|COV|Necrolord|REN|20|
+C Caught in the Act|QID|61757|M|43.31,20.50|Z|Vault of Souls|QO|1|NC|N|Click the torch to Burn the Spore Clusters.|COV|Necrolord|
+C Caught in the Act|QID|61757|M|41.01,17.73|Z|Vault of Souls|QO|2|NC|N|Click the altar to place the Veilwing Heart.|COV|Necrolord|
+C Caught in the Act|QID|61757|M|45.00,20.00|Z|Vault of Souls|QO|3|NC|N|Click on the Anima Coffers around the room to open them.|COV|Necrolord|
+C Caught in the Act|QID|61757|M|54.24,67.96|Z|Vault of Souls|QO|4|NC|N|Sit back and watch Kel'Thuzad's ritual.|COV|Necrolord|
+T Caught in the Act|QID|61757|M|54.24,67.96|Z|Vault of Souls|N|To UI-Alert.|COV|Necrolord|
+A Improvised Implements|QID|61758|PRE|61757|M|54.24,67.96|Z|Vault of Souls|N|From UI-Alert. Auto Accepted.|COV|Necrolord|REN|20|
+C Improvised Implements|QID|61758|M|52.84,67.47|Z|Vault of Souls|NC|N|Click on the "Hand" (that looks like a skeleton arm).|COV|Necrolord|
+T Improvised Implements|QID|61758|M|52.84,67.47|Z|Vault of Souls|N|To UI-Alert.|COV|Necrolord|
+A A Helpful Hand|QID|61759|PRE|61758|M|52.84,67.47|Z|Vault of Souls|N|From UI-Alert. Auto Accepted.|COV|Necrolord|REN|20|
+C A Helpful Hand|QID|61759|M|54.74,67.50|Z|Vault of Souls|QO|1|NC|N|Stand at the gate and use Action Ability "[color=40C7EB]Animate Hand[/color]".|COV|Necrolord|
+C A Helpful Hand|QID|61759|M|53.61,68.30|Z|Vault of Souls|QO|2|NC|N|Controlling the hand hop on the box at the northern part of the room, and make your way around using chains, spiderwebs and bookshelves to reach the cell door switch.|COV|Necrolord|
+T A Helpful Hand|QID|61759|M|52.65,63.70|Z|Vault of Souls|N|To Balmedar.|COV|Necrolord|
+A The Traitor Unmasked|QID|61760|PRE|61759|M|52.65,63.70|Z|Vault of Souls|N|From Balmedar.|COV|Necrolord|REN|20|
 C The Traitor Unmasked|QID|61760|M|70.14,26.71|Z|Maldraxxus|QO|1|NC|N|Walk outside and Confront Kel'thuzad.|COV|Necrolord|
 C The Traitor Unmasked|QID|61760|M|70.14,26.71|Z|Maldraxxus|QO|2|N|Kill Sapphiron slain|COV|Necrolord|
 T The Traitor Unmasked|QID|61760|M|70.11,26.76|Z|Maldraxxus|N|To Balmedar.|COV|Necrolord|
