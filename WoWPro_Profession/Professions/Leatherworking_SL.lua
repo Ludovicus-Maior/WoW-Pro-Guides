@@ -5,7 +5,7 @@
 local guide = WoWPro:RegisterGuide("BlancLeather_SL","Profession","Leatherworking_SL", "Blanckaert", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",165)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Leatherworking_SL")
+WoWPro:GuideName(guide, "Leatherworking_ShadowLands")
 WoWPro:GuideNickname(guide, "LTW_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -53,6 +53,6 @@ N Shadowscale Vest (1)|QID|165309239|P|Leatherworking;165;8+91;1|N|1;Heavy Callo
 = Learn Recipes|QID|165000010|M|42.6,26.8|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+90|RECIPE|309242|N|Learn Shadowscale Leggings Recipe from Trainer.|
 N Shadowscale Leggings (3)|QID|165309242|P|Leatherworking;165;8+100;1|N|1;Heavy Callous Hide;3;3:6;Heavy Desolate Leather;18;18:7;Pallid Bone;21;21:3;Penumbra Thread;9;9|
 
-N That completes Leatherworking - SL.|
+N That completes Leatherworking - ShadowLands.|
 ]]
 end)
