@@ -90,7 +90,7 @@ T Power over Poison|QID|6130|M|76.6,27.6|Z|Thunder Bluff|N|From Turak Runetotem.
 ; Druid class quest line to gain swim form
 N Lv 16 Class quest|QID|27|N|Because we waited to finish the last class quest chain, we can now start the next one.|LVL|16|R|Tauren|C|Druid|
 A A Lesson to Learn|QID|27|M|76.48,27.25|Z|Thunder Bluff|N|From Turak Runetotem on Elder Rise. This begins your class quest line to learn Aquatic form.|LVL|16|R|Tauren|C|Druid|
-P Moonglade|QID|27|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|R|Tauren|C|Druid|
+P Moonglade|ACTIVE|27|Z|Moonglade|N|Use your Moonglade portal spell.|R|Tauren|C|Druid|
 T A Lesson to Learn|QID|27|M|56.19,30.65|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
 A Trial of the Lake|QID|28|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.\n[color=FF0000]NOTE: [/color]If you fail the quest, you will have to go to back to Dendrite Starblaze and restart it.|PRE|27|R|Tauren|C|Druid|
 A Trial of the Lake|QID|28|M|56.21,30.62|Z|Moonglade|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Dendrite Starblaze to restart the quest.\nRemember, you only have 30 minutes to complete the quest.|PRE|27|R|Tauren|C|Druid|FAIL|
@@ -402,14 +402,14 @@ T Call of Water|QID|1528^1529|M|65.8,43.8|N|To Islen Waterseer.|R|Orcs,Tauren,Tr
 A Call of Water|QID|1530|M|65.8,43.8|N|From Islen Waterseer.|PRE|1529|R|Orcs,Tauren,Trolls|C|Shaman|
 F Camp Taurajo|QID|1530|M|46.89,49.77|Z|Thunder Bluff|R|Orcs,Tauren,Trolls|C|Shaman|
 R Brine|QID|1530|M|43.4,77.4|N|Leave Camp Taurajo and follow the road south.|R|Orcs,Tauren,Trolls|C|Shaman|
-T Call of Water|QIQ|1530|M|43.4,77.4|N|To Brine.|R|Orcs,Tauren,Trolls|C|Shaman|
-A Call of Water|QIQ|1531|M|43.4,77.4|N|From Brine.|PRE|1530|R|Orcs,Tauren,Trolls|C|Shaman|
-C Call of Water|QIQ|1531|M|43.4,77.4|U|7766|L|7769|N|Go to the pond and fill the empty Brown Waterskin.|R|Orcs,Tauren,Trolls|C|Shaman|NC|
-T Call of Water|QIQ|1531|M|43.4,77.4|N|To Brine.|R|Orcs,Tauren,Trolls|C|Shaman|
-A Call of Water|QIQ|1532|M|43.4,77.4|N|From Brine.|PRE|1531|R|Orcs,Tauren,Trolls|C|Shaman|
-N Water Totem class quest|QID|1536|N|At this point, you'll be doing some traveling to complete a few of these quests.|R|Orcs,Tauren,Trolls|C|Shaman|
-R Camp Taurajo|QID|1536|M|46.29,58.00|R|Orcs,Tauren,Trolls|C|Shaman|
-F Crossroads|QID|876|M|44.46,59.14|N|Fly to Crossroads.|R|Orcs,Tauren,Trolls|C|Shaman|
+T Call of Water|QID|1530|M|43.4,77.4|N|To Brine.|R|Orcs,Tauren,Trolls|C|Shaman|
+A Call of Water|QID|1531|M|43.4,77.4|N|From Brine.|PRE|1530|R|Orcs,Tauren,Trolls|C|Shaman|
+C Call of Water|QID|1531|M|43.4,77.4|U|7766|L|7769|N|Go to the pond and fill the empty Brown Waterskin.|R|Orcs,Tauren,Trolls|C|Shaman|NC|
+T Call of Water|QID|1531|M|43.4,77.4|N|To Brine.|R|Orcs,Tauren,Trolls|C|Shaman|
+A Call of Water|QID|1532|M|43.4,77.4|N|From Brine.|PRE|1531|R|Orcs,Tauren,Trolls|C|Shaman|
+N Water Totem class quest|ACTIVE|1536|N|At this point, you'll be doing some traveling to complete a few of these quests.|R|Orcs,Tauren,Trolls|C|Shaman|
+R Camp Taurajo|ACTIVE|1536|M|46.29,58.00|R|Orcs,Tauren,Trolls|C|Shaman|
+F Crossroads|ACTIVE|876|M|44.46,59.14|N|Fly to Crossroads.|R|Orcs,Tauren,Trolls|C|Shaman|
 ; ---
 
 ; --- Warlock Succubus class quest
