@@ -26,8 +26,8 @@ N Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|N|At this point, you're now 
 R Longshore|ACTIVE|272|C|Druid|M|26.90,40.00|Z|Westfall|N|Run to the shoreline.|
 l Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|M|17.91,33.10|Z|Westfall|L|15882|N|Once you have reached the location, dive under the water and open the chest. There is an air fissure beside it. You will not drown.|
 P Moonglade|ACTIVE|272|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|
-C Trial of the Sea Lion|ACTIVE|272|C|Druid|M|35.90,41.25|Z|Moonglade|QO|1|N|Head to the Shrine of Remulos and combine the 2 halves of the pendant to form the Pendant of the Sea Lion.|U|15883|NC|
-T Trial of the Sea Lion|ACTIVE|272|C|Druid|M|56.21,30.62|Z|Moonglade|N|Run back to Dendrite Starblaze or use your Moonglade portal.|
+C Trial of the Sea Lion|QID|272|C|Druid|M|35.90,41.25|Z|Moonglade|QO|1|N|Head to the Shrine of Remulos and combine the 2 halves of the pendant to form the Pendant of the Sea Lion.|U|15883|NC|
+T Trial of the Sea Lion|QID|272|C|Druid|M|56.21,30.62|Z|Moonglade|N|Run back to Dendrite Starblaze or use your Moonglade portal.|
 A Aquatic Form|QID|5061|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|272|
 F Rut'theran Village|ACTIVE|5061|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
 R Darnassus|ACTIVE|5061|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|
