@@ -164,7 +164,8 @@ WoWPro.ProfessionSkillLines = {
     --  Not included in GetTradeSkillLineInfoByID()
     [794] = { name = 'Archaeology' },
     [960] = { name = 'Runeforging' },
-    [2720] = { name = 'Junkyard Tinkering'}
+    [2720] = { exp = 7, name = 'Junkyard Tinkering'},
+    [2787] = { exp = 8, name = 'Abominable Stitching'}
 }
 
 -- special handling for Classic because of the reduced addon API
