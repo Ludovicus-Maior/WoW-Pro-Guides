@@ -176,15 +176,15 @@ A Searching for the Lost Satchel|QID|5722|M|70.53,31.77|Z|Thunder Bluff|N|Pick t
 A The Barrens Oases|QID|886|M|78.57,28.57|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem on Elder Rise.|
 
 ; --- Druid Bear form (Feral Combat) quest chain
-T Heeding the Call|QID|5926|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
+T Heeding the Call|QID|5928^5926^5927|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
 A Moonglade|QID|5922|M|76.47,27.26|Z|Thunder Bluff|N|From Turak Runetotem.|PRE|5926|R|Tauren|C|Druid|
 T Moonglade|QID|5922|M|56.21,30.62|Z|Moonglade|N|Use the Teleport: Moonglade spell you learned from Turak Runetotem. To Dendrite Starblaze.|R|Tauren|C|Druid|
 A Great Bear Spirit|QID|5930|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|5922|R|Tauren|C|Druid|
 C Great Bear Spirit|QID|5930|M|53.39,31.16;45.03,26.67;39.31,27.44|Z|Moonglade|CC|QO|1|N|Talk to the bear spirit until quest is complete.|CHAT|R|Tauren|C|Druid|
 T Great Bear Spirit|QID|5930|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze. Use Teleport: Moonglade again instead of running back.|R|Tauren|C|Druid|
 A Back to Thunder Bluff|QID|5932|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|5930|C|Druid|
-F Thunder Bluff|QID|5932|M|44.29,45.85|Z|Moonglade|N|Speak with Bumthen Plainswind to fly back to Thunder Bluff.\nGo grab a coffee. It's a looong flight.|R|Tauren|C|Druid|
-T Heeding the Call|QID|5932|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
+F Thunder Bluff|ACTIVE|5932|M|44.29,45.85|Z|Moonglade|N|Speak with Bumthen Plainswind to fly back to Thunder Bluff.\nGo grab a coffee. It's a looong flight.|R|Tauren|C|Druid|
+T Heeding the Call|QID|5928^5926^5927|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
 A Body and Heart|QID|6002|M|76.47,27.26|Z|Thunder Bluff|N|From Turak Runetotem.|PRE|5932|R|Tauren|C|Druid|
 F Camp Taurajo|QID|6002|M|46.98,49.84|Z|Thunder Bluff|R|Tauren|C|Druid|
 C Body and Heart|QID|6002|M|42.28,59.97;42.00,60.90|Z|The Barrens|CC|QO|1|U|15710|N|Use the Cenarion Lunardust at the Moonkin Stone to summon Lunaclaw. Kill him and talk to his ghost to complete the quest. Be careful of the level 20 Thunderheads that roam the area.|R|Tauren|C|Druid|

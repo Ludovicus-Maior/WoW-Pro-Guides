@@ -6,15 +6,15 @@ WoWPro:GuideName(guide,"Shadowlands Intro - The Maw")
 WoWPro:GuideNextGuide(guide, 'Bastion')
 WoWPro:GuideSteps(guide, function()
 return [[
+R Orgrimmar|AVAILABLE|61874|IZ|-Orgrimmar|N|If you aren't in Orgrimmar, go there to get the starting quest.|FACTION|Horde|
 A A Chilling Summons|QID|61874|Z|Orgrimmar|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Horde|
-R Orgrimmar|QID|61874|IZ|-Orgrimmar|N|If you aren't in Orgrimmar, go there to get the starting quest.|FACTION|Horde|
 C A Chilling Summons|QID|61874|M|50.38,76.58|Z|Orgrimmar|QO|1|CHAT|N|Speak with Nazgrim outside Grommash Hold and he will open a gate.|FACTION|Horde|
 C A Chilling Summons|QID|61874|M|49.16,78.13|Z|Orgrimmar|QO|2|NC|N|Enter the Death gate to Acherus.|FACTION|Horde|
+R Stormwind|AVAILABLE|60545|IZ|-84|N|If you aren't in Stormwind, go there to get the starting quest.|FACTION|Alliance|
 A Shadowlands: A Chilling Summons|QID|60545|M|76.55,42.72|Z|Stormwind City|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Alliance|
-R Stormwind|QID|60545|IZ|-84|N|If you aren't in Stormwind, go there to get the starting quest.|FACTION|Alliance|
 C Shadowlands: A Chilling Summons|QID|60545|M|76.70,42.75|Z|Stormwind City|QO|1|CHAT|N|Speak with High Inquisitor Whitemane and she will open a gate.|FACTION|Alliance|
 C Shadowlands: A Chilling Summons|QID|60545|M|77.08,42.08|Z|Stormwind City|QO|2|NC|N|Enter the Death gate to Acherus.|FACTION|Alliance|
-C Shadowlands: A Chilling Summons|QID|60545^61874|M|59.78,19.86|Z|Lower Acherus@Icecrown Citadel!Dungeon1681|QO|3|NC|N|Run toward Icecrown Citadel and stand on the teleporter to the Frozen Throne.|
+C Shadowlands: A Chilling Summons|QID|60545^61874|M|59.78,19.36|Z|Lower Acherus@Icecrown Citadel!Dungeon1681|QO|3|NC|N|Run toward Icecrown Citadel and stand on the teleporter to the Frozen Throne.|
 T Shadowlands: A Chilling Summons|QID|60545^61874|M|50.85,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|To Highlord Bolvar Fordragon.|
 A Through the Shattered Sky|QID|59751|M|50.88,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|From Highlord Bolvar Fordragon.|PRE|60545^61874|LVL|50|
 C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|1|NC|N|Listen to them squabble and wait for Bolvar to have the last word.|

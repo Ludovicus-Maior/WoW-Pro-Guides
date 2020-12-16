@@ -134,7 +134,7 @@ T A Bundle of Hides|QID|6361|Z|Mulgore|M|47.41,58.68|R|Tauren|N|To Tak.|
 A Ride to Thunder Bluff|QID|6362|PRE|6361|Z|Mulgore|M|47.41,58.68|R|Tauren|N|From Tak.|
 F Thunder Bluff|QID|6362|Z|Mulgore|M|42.48,28.66|R|Tauren|N|Fly to Thunder Bluff.|
 B Thunder Bluff Tabard|QID|6362|Z|Mulgore|M|47.03,50.28|N|If you plan on doing instances to raise your reputation with Thunder Bluff, you can buy a tabard here from Brave Tuha, next to the FlightMaster.|RANK|3|L|45584|
-T Ride to Thunder Bluff|QID|6362|Z|Mulgore|M|45.32,55.69|Z|Thunder Bluff|R|Tauren|N|To Ahanu. Go to the bottom of the ramp then outside, Ahanu is in the 1st building on the left.|
+T Ride to Thunder Bluff|QID|6362|M|45.32,55.69|Z|Thunder Bluff|R|Tauren|N|To Ahanu. Go to the bottom of the ramp then outside, Ahanu is in the 1st building on the left.|
 A Tal the Wind Rider Master|QID|6363|PRE|6362|M|45.32,55.69|Z|Thunder Bluff|R|Tauren|N|From Ahanu.|
 ;A Warchief's Command: Azshara!|QID|28496|M|42.75,57.29|Z|Thunder Bluff|N|From Warchief's Command Board. \n\nOnly take if you plan on going to Azshara after Mulgore (this guide will auto-send you to Northern Barrens.|RANK|3|
 T Tal the Wind Rider Master|QID|6363|M|46.69,49.82|Z|Thunder Bluff|R|Tauren|N|To Tal.|

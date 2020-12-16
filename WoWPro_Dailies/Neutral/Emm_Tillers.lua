@@ -88,10 +88,10 @@ A Haohan's Vote V: Chief Yip-Yip|QID|30528|M|52.20,48.86|N|From Farmer Yoon. you
 K Chief Yip-Yip|ACTIVE|30528|M|32.4,20.4|QO|1|N|Head to the cave, use your 'extra action' button whenever its available (not grey) to temporarily weaken him, kill him while he is weak.|T|Chief Yip-Yip|
 
 ;pick up quests
-A Farmer Yoon|QID|31672^31942^31673^31941^31670^31669^31674^31675^31943^31671|M|52.19,48.802|N|He will have at least 2 quests for you to pick up.|PRE|30257|REP|The Tillers;1272;Neutral-Revered|
+A Farmer Yoon|QID|31672^31942^31673^31941^31670^31669^31674^31675^31943^31671|M|52.25,48.78|N|He will have at least 2 quests for you to pick up.|PRE|30257|REP|The Tillers;1272;Neutral-Revered|
 A Work Order Post|QID|32642^32645^32647^32649^32653^32658^32942^32944|M|52.3,48.68|N|Now that Yoon is on the council, his 'grow something' quest is replaced by quests that earn you rep with other Pandaria factions. You can only do one a day, take whichever you like (or none).\n[color=FF0000]NOTE: [/color]Unlike Yoon's quests, you have to harvest and turn in the produce to get credit.\nIf you want to keep your farm's production for growing specific items and not earning other faction's favor, skip this.|PRE|32682|REP|The Tillers;1272;Exalted|
 A A Gift For ??? (random friend)|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|52.70,50.47|N|From Andi.|PRE|30257|
-A Master Cook Daily Quest|QID|30328^30329^30330^30331^30332|N|One of the master cooks will offer you a quest to either get, cook, or do something for them.\n[color=FF0000]NOTE: [/color]These quests only reward Cooking skill points and Ironpaw Tokens (no Tiller Rep). You can skip them if you don't have a use for Ironpaw tokens. But, as they're done in the same area, you might as well do it.|PRE|30257|LVL|35|RANK|2|
+A Master Cook Daily Quest|QID|30328^30329^30330^30331^30332|M|52.88,51.72|N|One of the master cooks will offer you a quest to either get, cook, or do something for them.\n[color=FF0000]NOTE: [/color]These quests only reward Cooking skill points and Ironpaw Tokens (no Tiller Rep). You can skip them if you don't have a use for Ironpaw tokens. But, as they're done in the same area, you might as well do it.|PRE|30257|LVL|35|RANK|2|
 A Farmer Yoon|QID|30333^30334^30335^30336^30337|M|52.92,51.83|N|Farmer Yoon has moved into town and only offers one quest a day now.|PRE|32682|REP|The Tillers;1272;Exalted| ; -- pre quest mismatch per grail is intentional, so wont trigger if you haven't bought the farm from Yoon
 
 ;prepare food
@@ -103,7 +103,7 @@ l Jade Lungfish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|
 l Reef Octopus|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30402|M|46.71,87.84|Z|The Jade Forest|L|74864 5|N|In Jade Forest, locate a Reef Octopus Swarm in the water all along the shore line\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
 l Wildfowl Breast|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30402^30421|M|57.00,36.80|L|74839 5|N|Kill the cranes in the area to collect them.|
 l Wildfowl Breast|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30402&30421|M|57.00,36.80|L|74839 10|N|Kill the cranes in the area to collect them.|
-l Giant Mantis Shrimp|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30386|M|38.20,77.00|L|74857 5|N|In Jade Forest, locate a Giant Mantis Shrimp Swarm in the water along the south coast and north along the east coast.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
+l Giant Mantis Shrimp|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30386|M|38.20,77.00|Z|The Jade Forest|L|74857 5|N|In Jade Forest, locate a Giant Mantis Shrimp Swarm in the water along the south coast and north along the east coast.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
 l Krasarang Paddlefish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30421|M|56.50,39.60|L|74865 10|N|In Valley of the Four Winds, locate a Krasarang Paddlefish School in the water anywhere in the area.\nDepending on your luck, this should only take fishing 2 or 3 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
 l Raw Tiger Steak|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30414|M|14.00,74.40|L|74833 5|N|Kill Gorge Stalkers to loot it.|
 N Juicycrunch Carrots|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|PLAYER|N|You have many options to acquire these. You can buy, loot or harvest them.\nUntil you establish your farm, buying may be your best option. Trying to loot 25-35 of them every day, could prove time consuming and difficult.\nFarming them is an option. But, you'll need to balance this with the crops you need to grow for other quests. All dishes combined, you'll need to harvest 17 plants per day.|
@@ -143,7 +143,7 @@ A Old Hillpaw|QID|30396^30394^30318|ACTIVE|30476|M|53.0,51.8|N|Turn in food, tre
 A Chee Chee|QID|30402^30400^30324|ACTIVE|30471|M|53.10,52.01|N|Turn in food, treasure, accept daily. He prefers a Blue Feather.|PRE|30257|ACH|6552;3|
 A Gina Mudclaw|QID|30390^30389^30322|M|53.17,51.86|N|Turn in food, treasure, accept daily if offered. She prefers a Marsh Lily.|PRE|30257|REP|Gina Mudclaw;1281;Stranger-Good Friend|RANK|3|
 A Money Matters|QID|30322|ACTIVE|30479|M|53.17,51.86|N|From Gina Mudclaw.|PRE|30257|REP|Gina Mudclaw;1281;Best Friend|
-A Farmer Fung|QID|30421^30420^30317|ACTIVE|30475|M|52.85,51.71|N|Turn in food, treasure, accept daily. He prefers a Marsh Lily.|PRE|30257|
+A Farmer Fung|QID|30421^30420^30317|ACTIVE|30475|M|52.85,51.71;48.29,33.85|CN|N|Turn in food, treasure, accept daily. He prefers a Marsh Lily.\n[color=FF0000]NOTE: [/color]If he is not in the Market, he is on his farm in Heartland.|PRE|30257|
 
 ;buy seeds for farmer yoon's preferred crop, rep crops, etc
 B Mogu Pumpkin Seeds|ACTIVE|31672|L|80592|M|52.88,52.14|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
@@ -172,20 +172,20 @@ t A Shabby New Face|QID|32189|M|53.36,51.42|N|To Barnaby Fletcher,|
 A One Magical, Flying Kingdom's Trash...|QID|32198|M|53.36,51.42|N|From Barnaby Fletcher. (Instant Accept/Turn In quest, you now have a shard to plant that will grow into a random portal shard.) After completing this quest, anytime Barnaby is at the market, you can buy more portal shards from him.|PRE|32189|
 
 ;plant for farmer yoon
-C A Pumpkin-y Perfume|QID|31672|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|80592|NC|
-C It's Melon Time|QID|31942|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|89329|NC|
-C Red Blossom Leeks, You Make the Croc-in' World Go Down|QID|31673|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|80593|NC|
-C Squash Those Foul Odors|QID|31941|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|89328|NC|
+C A Pumpkin-y Perfume|QID|31672|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|80592|NC|
+C It's Melon Time|QID|31942|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|89329|NC|
+C Red Blossom Leeks, You Make the Croc-in' World Go Down|QID|31673|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|80593|NC|
+C Squash Those Foul Odors|QID|31941|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|89328|NC|
 C That Dangling Carrot|QID|31670|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|80590|NC|
-C The Cabbage Test|QID|31669|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|79102|NC|
-C The Pink Turnip Challenge|QID|31674|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|80594|NC|
-C The White Turnip Treatment|QID|31675|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|80595|NC|
-C Which Berries? Witchberries.|QID|31943|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|89326|NC|
-C Why Not Scallions?|QID|31671|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|U|80591|NC|
+C The Cabbage Test|QID|31669|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|79102|NC|
+C The Pink Turnip Challenge|QID|31674|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|80594|NC|
+C The White Turnip Treatment|QID|31675|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|80595|NC|
+C Which Berries? Witchberries.|QID|31943|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|89326|NC|
+C Why Not Scallions?|QID|31671|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|80591|NC|
 
 C Nana's Vote III: Witchberry Julep|QID|31949|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1 .The next day you can harvest and deliver them to Nana.|U|89326|NC|
 C Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Farmer Fung.|U|79102|NC|
-C Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Mung-Mung.|U|80590|NC|
+C Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Mung-Mung.|T|Tilled Soil|U|80590|NC|
 C Haohan's Vote IV: Melons For Felons|QID|30527|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Haohan Mudclaw.|U|89329|NC|
 A Unstable Portal Shard|QID|31315|M|52.03,48.32|L|91806|N|{not actually a quest) After planting, be sure and take care of the pests so it is stable. Results in a random, one time use soulbound portal shard to one of your faction's cities on EK/Kalimdor (stones stack to 20). Check this step off manually.|U|91806|NC|PRE|32198|O| ; -- QID,? using 31315 since it is the final quest in the whole Tillers chain --32198 is not active at this point since this is the reward from it...- Grail is wrong on |PRE|31314| as I have gotten this item before completing 31314.
 
@@ -215,7 +215,7 @@ C Talk to Trader Jambeezi|QID|30322|M|55.64,49.96|QO|2|N|He walks back and forth
 C Talk to Innkeeper Lei Lan|QID|30322|M|55.11,50.41|QO|3|N|The Innkeeper wanders around inside the inn.|CHAT|
 C Talk to Lolo Lio|QID|30322|QO|4|M|55.52,52.07|CHAT|
 C Ella's Taste Test|QID|31537|M|53.6,52.6;52.6,48.0;53.0,52.0;54.6,47.0|CS|N|Offer the drink to each of the 4 people.|U|87558|NC|
-C Talk to Gina|QID|31534|M|53,52|QO|2|CHAT|
+C Talk to Gina|QID|31534|M|53.17,51.86|QO|2|CHAT|
 C A Worthy Brew|QID|31538|M|55.29,50.80|N|Have Chen taste it (he is inside the inn).|U|87763|NC|
 C Water, Water Everywhere|QID|30317|M|56.39,50.24|N|Talk to Wing Nga (flightmaster) for a kite. You are looking for circles on the ground to drop water on with the "1" key.|NC|
 
@@ -300,7 +300,7 @@ C Not in Chee-Chee's Backyard|QID|30324|M|31.01,28.27|US|
 C Authentic Valley Stir Fry|QID|30471|M|31.93,23.50|N|This can be a ground spawn or drop from the mobs.|US|
 C Yak Statuette|QID|30473|M|34,24|N|This can be a ground spawn or drop from the mobs.|US|
 C Spicy Shrimp Dumplings|QID|30474|M|31.4,34|N|This can be a ground spawn or drop from the mobs.|US|
-C Stealing is Bad... Re-Stealing is OK|QID|30334|M|32.33,26.28|N|Veggies are ground spawn near the huts and under bushes.|S|NC
+C Stealing is Bad... Re-Stealing is OK|QID|30334|M|32.33,26.28|N|Veggies are ground spawn near the huts and under bushes.|US|NC
 
 ;do quests -Ve area
 C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|CN|S|N|Random drops while killing the other mobs for your other quests.|
@@ -346,21 +346,21 @@ t A Beautiful Brooch|QID|31329|M|45.1,33.8|N|If she is not at the market, Tina c
 ;turn in quests
 T Lost and Lonely|QID|30526|M|42.39,49.98|N|To Lost Dog.|
 
-T Stalling the Ravage|QID|30335|M|52.23,48.83|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T The White Turnip Treatment|QID|31675|M|52.23,48.83|N|To Farmer Yoon.|
-T Red Blossom Leeks, You Make the Croc-in' World Go Down|QID|31673|M|52.21,48.82|N|To Farmer Yoon.|
-T A Pumpkin-y Perfume|QID|31672|M|52.21,48.82|N|To Farmer Yoon.|
-T It's Melon Time|QID|31942|M|52.21,48.82|N|To Farmer Yoon.|
-T Squash Those Foul Odors|QID|31941|M|52.21,48.82|N|To Farmer Yoon.|
-T That Dangling Carrot|QID|31670|M|52.21,48.82|N|To Farmer Yoon.|
-T The Cabbage Test|QID|31669|M|52.21,48.82|N|To Farmer Yoon.|
-T The Pink Turnip Challenge|QID|31674|M|52.21,48.82|N|To Farmer Yoon.|
-T Which Berries? Witchberries.|QID|31943|M|52.21,48.82|N|To Farmer Yoon.|
-T Why Not Scallions?|QID|31671|M|52.21,48.82|N|To Farmer Yoon.|
-T The Lesser of Two Evils|QID|30333|M|52.21,48.82|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.21,48.82|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T The Kunzen Hunter-Chief|QID|30336|M|52.21,48.82|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T Simian Sabotage|QID|30337|M|52.21,48.82|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T Stalling the Ravage|QID|30335|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T The White Turnip Treatment|QID|31675|M|52.25,48.80|N|To Farmer Yoon.|
+T Red Blossom Leeks, You Make the Croc-in' World Go Down|QID|31673|M|52.25,48.80|N|To Farmer Yoon.|
+T A Pumpkin-y Perfume|QID|31672|M|52.25,48.80|N|To Farmer Yoon.|
+T It's Melon Time|QID|31942|M|52.25,48.80|N|To Farmer Yoon.|
+T Squash Those Foul Odors|QID|31941|M|52.25,48.80|N|To Farmer Yoon.|
+T That Dangling Carrot|QID|31670|M|52.25,48.80|N|To Farmer Yoon.|
+T The Cabbage Test|QID|31669|M|52.25,48.80|N|To Farmer Yoon.|
+T The Pink Turnip Challenge|QID|31674|M|52.25,48.80|N|To Farmer Yoon.|
+T Which Berries? Witchberries.|QID|31943|M|52.25,48.80|N|To Farmer Yoon.|
+T Why Not Scallions?|QID|31671|M|52.25,48.80|N|To Farmer Yoon.|
+T The Lesser of Two Evils|QID|30333|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T The Kunzen Hunter-Chief|QID|30336|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T Simian Sabotage|QID|30337|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
 A Mung-Mung's Vote I: A Hozen's Problem|QID|30258|M|52.28,48.74|N|From Farmer Yoon.|PRE|31945|REP|The Tillers;1272;Honored;5500|
 
 ;Yoon turns in after you buy the farm
@@ -385,7 +385,7 @@ T Growing the Farm I: A Little Problem|QID|30516|M|38.59,51.72|N|To Gai Lan.|
 N Growing the Farm I|AVAILABLE|30531|M|51.75,48.44|N|Gai Lan will head to Sunsong Ranch farm to begin spraying the weeds on your farm to remove them and open new plots.\n[color=FF0000]NOTE: [/color]This starts a timed Buff that expires after 15 minutes. After which, you will be able to use the plots.|BUFF|114431|
 
 ;BUY COMMENDATION
-B Grand Commendation|M|53.2,51.8|L|93226|N|Buy the commendation from Gina Mudclaw and click on it to use. If you have already bought the commendation with a character on this account, check this step off manually. The commendation (once used) doubles your faction gains with Tillers for all characters on the account, unfortunately it has no affect on the friends. The only indication whether or not you have previously bought it is seeing bonus faction when you turn in quests.|PRE|30516|REP|The Tillers;1272;revered;nobonus| ; -- placed here (instead of with the other 'buys') so that you can get the gains from the growing the farm quest too. -- [Hendo72] No QID?
+B Grand Commendation|M|53.17,51.86|L|93226|N|Buy the commendation from Gina Mudclaw and click on it to use. If you have already bought the commendation with a character on this account, check this step off manually. The commendation (once used) doubles your faction gains with Tillers for all characters on the account, unfortunately it has no affect on the friends. The only indication whether or not you have previously bought it is seeing bonus faction when you turn in quests.|PRE|30516|REP|The Tillers;1272;revered;nobonus| ; -- placed here (instead of with the other 'buys') so that you can get the gains from the growing the farm quest too. -- [Hendo72] No QID?
 U Grand Commendation|N|Click on it, it does no good until you use it.|U|93226|PRE|30516|REP|The Tillers;1272;revered;nobonus| ; [Hendo72] No QID?
 
 ;REMOVE THE CART - 0 Revered
@@ -416,12 +416,12 @@ T A Gift For Sho|QID|30472|M|53.07,52.21|N|To Sho.|
 C A Gift For Jogu|QID|30478|M|53.07,52.21|N|Talk to Bobo Ironpaw, Master of the Brew to make the Apple-Berry Hooch.|CHAT|
 T A Gift For Jogu|QID|30478|M|53.56,52.43|N|To Jogu the Drunk, also he prefers the Lovely Apple.|
 T Weed War II|QID|30321|M|53.56,52.43|N|To Jogu the Drunk.|
-T Buy A Fish A Drink?|QID|31320|M|53.63,52.49|N|To Jogu the Drunk, also he prefers the Lovely Apple.|
+T Buy A Fish A Drink?|QID|31320|M|53.56,52.55|N|To Jogu the Drunk, also he prefers the Lovely Apple.|
 
 T The Truffle Shuffle|QID|30330|M|53.31,51.86|N|To Jian Ironpaw.|
 
-T They Don't Even Wear Them|QID|30323|M|45.1,33.8|N|To Tina Mudclaw, also she prefers Ruby Shards.|
-T A Gift For Tina|QID|30470|M|45.1,33.8|N|To Tina Mudclaw|
+T They Don't Even Wear Them|QID|30323|M|52.97,51.79;45.1,33.8|CN|N|To Tina Mudclaw, also she prefers Ruby Shards.|
+T A Gift For Tina|QID|30470|M|45.1,33.8;52.97,51.79|CN|N|To Tina Mudclaw|
 
 T Not in Chee-Chee's Backyard|QID|30324|M|53.13,51.93|N|To Chee Chee also he prefers the Blue Feather.|
 T A Gift For Chee Chee|QID|30471|M|53.13,51.93|N|To Chee Chee.|
@@ -444,25 +444,25 @@ T A Gift For Old Hillpaw|QID|30476|M|30.9,53.1|N|To Old Hillpaw.|
 T Pest Problems|QID|30319|M|44.6,34.1|N|To Haohan Mudclaw, also he prefers Ruby Shards.|
 T A Gift For Haohan|QID|30477|M|44.6,34.1|N|To Haohan Mudclaw.|
 
-T Money Matters|QID|30322|M|53.2,51.8|N|To Gina Mudclaw, also she prefers the Marsh Lily.|
-T A Gift For Gina|QID|30479|M|53.2,51.8|N|To Gina Mudclaw.|
+T Money Matters|QID|30322|M|53.17,51.86|N|To Gina Mudclaw, also she prefers the Marsh Lily.|
+T A Gift For Gina|QID|30479|M|53.17,51.86|N|To Gina Mudclaw.|
 
 T The Mile-High Grub|QID|30331|M|52.54,51.65|N|To Mei Mei Ironpaw.|
 
 ;WATERING SYSTEM - requires clear the weeds
-B The "Jinyu Princess" Irrigation System|LEAD|31936|M|53.2,51.8|L|89812|N|Buy from Gina Mudclaw. Even if you like using inventory space for the watering can, its still 250 rep for 90g. Not available until after the weeds are removed (so, in 15 minutes, if Gao Lan just started.)|PRE|30531|
+B The "Jinyu Princess" Irrigation System|LEAD|31936|M|53.17,51.86|L|89812|N|Buy from Gina Mudclaw. Even if you like using inventory space for the watering can, its still 250 rep for 90g. Not available until after the weeds are removed (so, in 15 minutes, if Gao Lan just started.)|PRE|30531|
 A The "Jinyu Princess" Irrigation System|QID|31936|N|From the item you just bought.|U|89812|PRE|30531|O|
-T The "Jinyu Princess" Irrigation System|QID|31936|M|52.20,48.86|N|To Farmer Yoon who installs it for you.|
+T The "Jinyu Princess" Irrigation System|QID|31936|M|52.25,48.80|N|To Farmer Yoon who installs it for you.|
 
 ;BUY THE BUG SPRAYER - requires remove the cart
-B "Thunder King" Pest Repellers|LEAD|31937|M|53.2,51.8|L|89813|N|Buy from Gina Mudclaw. Even if you like using inventory space for the bug sprayer, its still 250 rep for 80g. Not available until after the weeds are removed (so, in 15 minutes, if Fish just started.)|PRE|30533|
-A "Thunder King" Pest Repellers|QID|31937|M|53.2,51.8|N|From the item you just bought.|U|89813|PRE|30533|O|
-T "Thunder King" Pest Repellers|QID|31937|M|52.20,48.86|N|To Farmer Yoon who installs it for you.|
+B "Thunder King" Pest Repellers|LEAD|31937|M|53.17,51.86|L|89813|N|Buy from Gina Mudclaw. Even if you like using inventory space for the bug sprayer, its still 250 rep for 80g. Not available until after the weeds are removed (so, in 15 minutes, if Fish just started.)|PRE|30533|
+A "Thunder King" Pest Repellers|QID|31937|M|53.17,51.86|N|From the item you just bought.|U|89813|PRE|30533|O|
+T "Thunder King" Pest Repellers|QID|31937|M|52.25,48.80|N|To Farmer Yoon who installs it for you.|
 
 ;BUY THE PLOW
-B The "Earth-Slasher" Master Plow|LEAD|31938|M|53.2,51.8|L|89814|N|Buy from Gina Mudclaw. Much faster as you can plow 4 plots with one click. Not available until after the weeds are removed (so, in 15 minutes, if Thundar just started.)|PRE|30574|
+B The "Earth-Slasher" Master Plow|LEAD|31938|M|53.17,51.86|L|89814|N|Buy from Gina Mudclaw. Much faster as you can plow 4 plots with one click. Not available until after the weeds are removed (so, in 15 minutes, if Thundar just started.)|PRE|30574|
 A The "Earth-Slasher" Master Plow|QID|31938|N|From the item you just bought.|U|89814|PRE|30574|O|
-T The "Earth-Slasher" Master Plow|QID|31938|M|52.20,48.86|N|To Farmer Yoon who installs it for you. This is unfortunately an item that you will have to pick up and use from your inventory.|
+T The "Earth-Slasher" Master Plow|QID|31938|M|52.25,48.80|N|To Farmer Yoon who installs it for you. This is unfortunately an item that you will have to pick up and use from your inventory.|
 
 ;Jogu's one time chain|REP|1273
 A Buy A Fish A Drink?|QID|31320|M|53.6,52.4|N|From Jogu the Drunk.|REP|Jogu;1273;Acquaintance| ; -- 8400rep

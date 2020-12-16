@@ -61,22 +61,22 @@ A Arugal's Folly|QID|423|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|422|
 T The Dead Fields|QID|437|M|43.14,41.37;43.43,40.86|CS|N|To High Executor Hadrec inside the Crypt.|
 A The Decrepit Ferry|QID|438|M|43.43,40.86|N|From High Executor Hadrec.|PRE|437|
 
-A Supplying the Sepulcher|QID|6321|R|Undead|M|43.43,41.69|N|From Deathguard Podrig at the Crypt entrance.|R|Undead|
-T Supplying the Sepulcher|QID|6321|R|Undead|M|45.62,42.60|N|To Karos Razok.|R|Undead|
-A Ride to the Undercity|QID|6323|R|Undead|M|45.62,42.60|N|From Karos Razok.|PRE|6321|R|Undead|
-F Undercity|QID|447|M|45.62,42.60|N|Fly to Undercity.|
+A Supplying the Sepulcher|QID|6321|M|43.43,41.69|N|From Deathguard Podrig at the Crypt entrance.|R|Undead|
+T Supplying the Sepulcher|QID|6321|M|45.62,42.60|N|To Karos Razok.|R|Undead|
+A Ride to the Undercity|QID|6323|M|45.62,42.60|N|From Karos Razok.|PRE|6321|R|Undead|
+F Undercity|ACTIVE|447|M|45.62,42.60|N|Fly to Undercity.|
 
 T A Recipe For Death|QID|447|M|51.32,44.66;47.00,59.79;44.78,66.03;48.81,69.29|Z|Undercity|CC|N|To Master Apothecary Faranell in The Apothecarium area.|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|Undercity|N|To Apothecary Zinge.|
 A Sample for Helbrim|QID|1358|M|50.15,67.93|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
 
-T Ride to the Undercity|QID|6323|R|Undead|M|61.51,41.81|Z|Undercity|N|To Gordon Wendham.|R|Undead|
-A Michael Garrett|QID|6322|R|Undead|M|61.51,41.81|Z|Undercity|N|From Gordon Wendham.|PRE|6323|R|Undead|
-T Michael Garrett|QID|6322|R|Undead|M|63.27,48.55|Z|Undercity|N|To Michael Garrett.|R|Undead|
-A Return to Podrig|QID|6324|R|Undead|M|63.27,48.55|Z|Undercity|N|From Michael Garrett.|PRE|6322|R|Undead|
-F The Sepulcher|QID|438|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|
+T Ride to the Undercity|QID|6323|M|61.51,41.81|Z|Undercity|N|To Gordon Wendham.|R|Undead|
+A Michael Garrett|QID|6322|M|61.51,41.81|Z|Undercity|N|From Gordon Wendham.|PRE|6324|R|Undead|
+T Michael Garrett|QID|6322|M|63.27,48.55|Z|Undercity|N|To Michael Garrett.|R|Undead|
+A Return to Podrig|QID|6324|M|63.27,48.55|Z|Undercity|N|From Michael Garrett.|PRE|6322|R|Undead|
+F The Sepulcher|ACTIVE|438|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|
 
-T Return to Podrig|QID|6324|R|Undead|M|43.43,41.69|N|To Deathguard Podrig at the Crypt entrance.|R|Undead|
+T Return to Podrig|QID|6324|M|43.43,41.69|N|To Deathguard Podrig at the Crypt entrance.|R|Undead|
 R The Decrepit Ferry|ACTIVE|438|M|51.21,36.73;52.05,38.40;58.34,34.95|CC|N|Go to the Decrepit Ferry.\nBy sticking to the hillside around the edge, you can avoid some unnecessary fighting. The mobs in this area (Hand of Ravenclaw) can hit hard and they roam considerably.|
 T The Decrepit Ferry|QID|438|M|58.34,34.95|N|Click the Decrepit Ferry.|
 A Rot Hide Clues|QID|439|M|58.34,34.95|N|From the Decrepit Ferry.|PRE|438|
@@ -154,10 +154,10 @@ f Origrimmar|ACTIVE|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|-Orgrimmar|
 ; --- Druid 'Cure Poison' lv 14 class quest
 F Thunder Bluff|AVAILABLE|6126|M|51.54,30.35|Z|The Barrens|N|Fly to Thunder Bluff.|R|Tauren|C|Druid|
 N Quest Items|AVAILABLE|6126|L|-2449 5|N|You will need to bring 5 Earthroot with you for one of the quests in this series.|R|Tauren|C|Druid|
-A Lessons Anew|AVAILABLE|6126|M|76.6,27.6|Z|Thunder Bluff|N|From Turak Runetotem on Elder Rise.|R|Tauren|C|Druid|
+A Lessons Anew|QID|6126|M|76.6,27.6|Z|Thunder Bluff|N|From Turak Runetotem on Elder Rise.|R|Tauren|C|Druid|
 P Moonglade|ACTIVE|6126|N|Use your Teleport: Moonglade.|R|Tauren|C|Druid|
-T Lessons Anew|ACTIVE|6126|M|56.19,30.65|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
-A The Principal Source|AVAILABLE|6127|M|56.2,27.6|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6126|R|Tauren|C|Druid|
+T Lessons Anew|QID|6126|M|56.19,30.65|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
+A The Principal Source|QID|6127|M|56.2,27.6|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6126|R|Tauren|C|Druid|
 F Thunder Bluff|ACTIVE|6127|M|44.28,45.87|Z|Moonglade|N|Fly to Thunder Bluff.\nThis flight takes about 9 minutes.|R|Tauren|C|Druid|
 ; ---
 

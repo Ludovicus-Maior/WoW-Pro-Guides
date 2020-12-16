@@ -10,11 +10,11 @@
 -- N Guide Hub|QID|202000000|JUMP|Engineering: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 
-local guide = WoWPro:RegisterGuide("SpoonyEN_SL","Profession","Engineering_SL", "Spoony", "Neutral")
+local guide = WoWPro:RegisterGuide("SpoonyENG_SL","Profession","Engineering_SL", "Spoony", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",202)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Engineering_ShadowLands")
-WoWPro:GuideNickname(guide, "EN_SL")
+WoWPro:GuideNickname(guide, "ENG_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -55,7 +55,7 @@ N Shopping List|N|This completes the Shopping List|
 
 ; end of shopping list.
 N Learn Recipes|N|I only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Learn Shadowlands Engineering|QID|2020000|M|38.1,44.7|Z|Ring of Fates@Oribos|P|Engineering;202;*;0;75|N|Learn from Machinist Au'gur in Oribos. Requires Level 50.|
+N Learn Shadowlands Engineering|QID|202000001|M|38.1,44.7|Z|Ring of Fates@Oribos|P|Engineering;202;*;0;75|N|Learn from Machinist Au'gur in Oribos. Requires Level 50.|
 l Ultimate Gnomish Army Knife|QID|202162208|P|Engineering;202;0;1;0|L|162208 1|N|Craft you own (Dreanor Plan), or buy from the Auction House.|
 
 ; What to Craft 001 to 025 Shadowlands
@@ -64,34 +64,40 @@ N The next two crafts will be used in most Shadowlands Engineering recipes|N|Mak
 
 l Porous Stone|QID|202171840|P|Engineering;202;8+0|L|171840 120|N|You'll need about 120 Porous Stone, for this step.|
 l Laestrite Ore|QID|202171828|P|Engineering;202;8+0|L|171828 276|N|You'll need about 110 Laestrite Ore, for this step.|
-N Porous Polishing Abrasive (ALL)|QID|202172935|P|Engineering;202;8+25;1|N|2;Porous Stone;118;118|
-N Handful of Laestrite Bolts (220)|QID|202310522|P|Engineering;202;8+25;1|N|1;Laestrite Ore;110;278:Make 55, which should give 110 total|
-= Learn Recipes|QID|202005|P|Engineering;202;8+15|N|Learn available recipes from Trainer.|
+N Porous Polishing Abrasive (177)|QID|202172935|P|Engineering;202;8+25;1|N|2;Porous Stone;118;118|
+N Handful of Laestrite Bolts (108)|QID|202310522|P|Engineering;202;8+25;1|N|1;Laestrite Ore;110;278:Make 108, which should give 216 total|
+= Learn Recipes|QID|202000002|P|Engineering;202;8+15|RECIPE|310525|N|Learn Mortal Coiled Spring Recipe from Trainer.|
+= Learn Recipes|QID|202000003|P|Engineering;202;8+25|RECIPE|310526|N|Learn Wormfed Gear Assembly Recipe from Trainer.|
 
 ; What to Craft 025 to 076 Shadowlands
-N Mortal Coiled Spring (10)|QID|202310525|P|Engineering;202;8+35;1|N|3;Porous Polishing Abrasive;30;175:5;Laestrite Ore;50;165|
-= Learn Recipes|QID|202005|P|Engineering;202;8+15|N|Learn available recipes from Trainer.|
-N 3 Precision Lifeforce Inverter|QID|202310536|P|Engineering;202;8+41;1|N|4;Laestrite Ore;12;168:1;Mortal Coiled Spring;3;3:4;Handful of Laestrite Bolts;12;150:1;Twilight Bark;8;24|
-N 5 Mortal Coiled Spring|QID|202310525|P|Engineering;202;8+46;1|N|3;Porous Polishing Abrasive;15;55:5;Laestrite Ore;25;143|
-N 4 Wormfed Gear Assembly|QID|202310526|P|Engineering;202;8+50;1|N|4;Handful of Laestrite Bolts;16;134:5;Laestrite Ore;25;131|
-N 5 Disposable Spectrophasic Reanimator|QID|202345179|P|Engineering;202;8+55;1|N|1;Wormfed Gear Assembly;5;4:1;Mortal Coiled Spring;5;5:4;Handful of Laestrite Bolts;20;118|
-N 21 Wormfed Gear Assembly|QID|202310526|P|Engineering;202;8+76;1|N|4;Handful of Laestrite Bolts;21;34:5;Porous Polishing Abrasive;21;35:3;Laestrite Ore;63;68|
+N Mortal Coiled Spring (10)|QID|202310525|P|Engineering;202;8+35;1|N|3;Porous Polishing Abrasive;30;175:5;Laestrite Ore;50;165:2;Luminous Flux;20;30|
+= Learn Recipes|QID|202000004|P|Engineering;202;8+35|RECIPE|310536|N|Learn Precision Lifeforce Inverter Recipe from Trainer.|
+N Precision Lifeforce Inverter (30|QID|202310536|P|Engineering;202;8+41;1|N|4;Laestrite Ore;12;115:4;Handful of Laestrite Bolts;12;216:1;Twilight Bark;3;3:1;Mortal Coiled Spring;3;8|
+N Mortal Coiled Spring (5)|QID|202310525|P|Engineering;202;8+46;1|N|3;Porous Polishing Abrasive;15;145:5;Laestrite Ore;25;103:2;Luminous Flux;10;10|
+N Wormfed Gear Assembly (4)|QID|202310526|P|Engineering;202;8+50;1|N|5;Porous Polishing Abrasive;20;130:3;Laestrite Ore;12;78:4;Handful of Laestrite Bolts;16;204:1;Machinist Oil;4;31|
+= Learn Recipes|QID|202000005|P|Engineering;202;8+35|RECIPE|345179|N|Learn Disposable Spectrophasic Reanimator Recipe from Trainer.|
+N Disposable Spectrophasic Reanimator (5)|QID|202345179|P|Engineering;202;8+55;1|N|4;Handful of Laestrite Bolts;20;118:1;Machinist Oil;5;27:1;Wormfed Gear Assembly;5;23:1;Mortal Coiled Spring;5;5|
+N Wormfed Gear Assembly (22)|QID|202310526|P|Engineering;202;8+76;1|N|5;Porous Polishing Abrasive;110;110:3;Laestrite Ore;66;66:4;Handful of Laestrite Bolts;88;168:1;Machinist Oil;22;22|
 
 ; What to Craft 076 to 091 Shadowlands
-=
-=
-N Did you decide?|QID|202000002|P|Engineering;202;8+76|N|Did you decide which you want to make? The Infra-green Reflex Sight or the Optical Target Embiggener.|
-l Wormfed Gear Assembly|QID|202310526|P|Engineering;202;8+76|L|310526 15|N|You will need at least 15 Wormfed Gear Assemblies for this step. Be sure to save at least 6 for later steps.|
-l Handful of Laestrite Bolts|QID|2023105222|P|Engineering;202;8+76|L|172935 75|N|You will need at least 75 Handful of Laestrite Bolts for this step. Be sure to save at least 10 for later steps.|
+= Learn Recipes|QID|202000006|P|Engineering;202;8+75|RECIPE|310534|N|Learn Infra-green Relfex Sight Recipe from Trainer.|
+= Learn Recipes|QID|202000007|P|Engineering;202;8+75|RECIPE|310533|N|Learn Optical Target Embiggener Recipe from Trainer.|
+N Did you decide?|QID|202000008|P|Engineering;202;8+76|N|Did you decide which you want to make? The Infra-green Reflex Sight or the Optical Target Embiggener.|
+l Wormfed Gear Assembly|QID|202310526|P|Engineering;202;8+76|L|310526 15|N|You will need at least 15 Wormfed Gear Assemblies for this step. Be sure to save at least 3 for later steps.|
+l Handful of Laestrite Bolts|QID|2023105222|P|Engineering;202;8+76|L|172935 75|N|You will need at least 75 Handful of Laestrite Bolts for this step. Be sure to save at least 5 for later steps.|
 l Oriblase|QID|202173108|P|Engineering;202;8+76|L|173108 30|N|You will need at least 30 Oriblase to craft the Infra-green Reflex Sight. Click off step if not making it.|
 l Oriblase|QID|202173108|P|Engineering;202;8+76|L|173108 15|N|You will need at least 15 Oriblase to craft the Optical Target Embiggener. Click off step if not making it.| ; though this SHOULD not pop up it making the Infra.
 l Angerseye|QID|202173109|P|Engineering;202;8+76|L|173109 15|N|You will need at least 15 Angerseye to craft the Optical Target Embiggener. Click off step if not making it.|
-N Infra-green Reflex Sight (15)|QID|202310534|P|Engineering;202;8+91;1|N|1;Wormfed Gear Assembly;15;15:5;Handful of Laestrite Bolts;75;15:2;Oriblase;15;30|
-N Optical Target Embiggener (15)|QID|202310533|P|Engineering;202;8+91;1|N|1;Wormfed Gear Assembly;15;15:5;Handful of Laestrite Bolts;75;15:1;Oriblase;15;15:1;Angerseye;15;15|
+N Infra-green Reflex Sight (15)|QID|202310534|P|Engineering;202;8+91;1|N|1;Wormfed Gear Assembly;15;18:5;Handful of Laestrite Bolts;75;80:2;Oriblase;15;30|
+N Optical Target Embiggener (15)|QID|202310533|P|Engineering;202;8+91;1|N|1;Wormfed Gear Assembly;15;18:5;Handful of Laestrite Bolts;75;80:1;Oriblase;15;15:1;Angerseye;15;15|
 
 ; What to Craft 091 to 097 Shadowlands
 
 N Next Item is your Class specific Head Gear.|N|Will give you 3 points, but since this is BOP, no sense wasting mats to make 2.|
+= Learn Recipes|QID|202000009|P|Engineering;202;8+85|N|Learn Flexible Ectoplasmic Specs (Cloth) Recipe from Trainer.|C|Mage,Priest,Warlock|
+= Learn Recipes|QID|202000010|P|Engineering;202;8+85|N|Learn Grounded Ectoplasmic Specs (Leather) Recipe from Trainer.|C|Demon Hunter,Druid,Monk,Rogue|
+= Learn Recipes|QID|202000011|P|Engineering;202;8+85|N|Learn Articulated Ectoplasmic Specs (Mail) Recipe from Trainer.|C|Hunter,Shaman|
+= Learn Recipes|QID|202000012|P|Engineering;202;8+85|N|Learn Reinforced Ectoplasmic Specs (Plate) Recipe from Trainer.|C|Death Knight,Paladin,Warrior|
 l Wormfed Gear Assembly|P|Engineering;202;8+91|L|310526 3|N|You will need 3 Wormfed Gear Assemblies for this step.|
 l Handful of Laestrite Bolts|P|Engineering;202;8+91|L|172935 5|N|You will need 5 Handful of Laestrite Bolts for this step.|
 l Umbryl|P|Engineering;202;8+91|L|173110 2|N|You will need 2 Umbryl Gems for this step.|C|Mage,Priest,Warlock|

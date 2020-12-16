@@ -93,7 +93,7 @@ r Sell and Repair|ACTIVE|2159|S|M|59.31,41.09|N|Sell and Repair with the many ve
 T Dolanaar Delivery|QID|2159|M|55.70,59.80|N|To the innkeeper.|
 h Dolanaar|QID|928|N|Set your Hearthstone to Dolanaar.|
 
-T In Favor of Elune|ACTIVE|5622|C|Priest|M|55.56,56.75|N|To Laurna Morninglight.|
+T In Favor of Elune|QID|5622|C|Priest|M|55.56,56.75|N|To Laurna Morninglight.|
 A Garments of the Moon|QID|5621|C|Priest|M|55.56,56.75|N|From Laurna Morninglight.|
 A A Troubling Breeze|QID|475|M|55.96,57.28|N|From Athridas Bearmantle.|
 A The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|At the top of the building from Tallonkai Swiftroot.|
@@ -203,7 +203,7 @@ H Dolanaar|QID|933|N|Hearthstone back to Dolanaar.|
 r Sell and Repair|ACTIVE|933|S|M|56.25,59.25|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
 T Crown of the Earth|QID|933|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|7383|PRE|933|M|56.15,61.71|N|From Corithras Moonrage.|
-A Heeding the Call|AVAILABLE|5925|C|Druid|M|55.95,61.65|N|From Kal.|
+A Heeding the Call|QID|5925|C|Druid|M|55.95,61.65|N|From Kal.|
 T The Relics of Wakening|QID|483|M|55.96,57.28|N|To Athridas Bearmantle.|
 A Ursal the Mauler|QID|486|PRE|483|M|55.96,57.28|N|From Athridas Bearmantle.|
 
@@ -223,7 +223,7 @@ T Taming the Beast|QID|6101|C|Hunter|R|Night Elf|M|56.68,59.50|N|To Dazalar.|
 A Taming the Beast|QID|6102|PRE|6101|C|Hunter|R|Night Elf|M|56.68,59.50|N|From Dazalar.|
 C Taming the Beast|QID|6102|C|Hunter|R|Night Elf|M|44.01,51.12|U|15923|N|Tame a Strigid Screecher.|
 T Taming the Beast|QID|6102|C|Hunter|R|Night Elf|M|56.68,59.50|N|To Dazalar.|
-A Taming the Beast|QID|6103|PRE|6102|C|Hunter|R|Night Elf|M|56.68,59.50|N|From Dazalar. You can tame your first pet now, but can't feed it yet. We have to go to Darnassus for that.|
+A Training the Beast|QID|6103|PRE|6102|C|Hunter|R|Night Elf|M|56.68,59.50|N|From Dazalar. You can tame your first pet now, but can't feed it yet. We have to go to Darnassus for that.|
 
 T The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87|CS|N|To Moon Priestess Amara, patrolling the road to Darnassus.|
 
@@ -246,7 +246,7 @@ R Heeding the Call|QID|5923|C|Druid|M|35.56,10.74|Z|Darnassus|CC|N|Go one floor 
 T Heeding the Call|QID|5923|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
 A Moonglade|QID|5921|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|
 
-T Taming the Beast|QID|6103|C|Hunter|M|40.36,08.59|Z|Darnassus|N|To Jocaste.|
+T Training the Beast|QID|6103|C|Hunter|M|40.36,08.59|Z|Darnassus|N|To Jocaste.|
 R Learn Pet Skills|QID|6344|C|Hunter|M|42.5,9.15|Z|Darnassus|N|Go up the tree keeping to the left and learn at least Growl from Silvaria.|
 
 A The Temple of the Moon|QID|2519|M|28.99,45.73|Z|Darnassus|N|From Sister Aquinne.|
@@ -336,7 +336,7 @@ T Ursal the Mauler|QID|486|M|55.96,57.28|N|To Athridas Bearmantle.|
 
 R Darnassus|QID|935|ACTIVE|935|M|36.52,54.42|CC|N|Run to Darnassus, say goodbye to Teldrassil.|
 T Vorlus Vilehoof|QID|1683|C|Warrior|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|
-A Vorlus Vilehoof|QID|1686|PRE|1683|C|Warrior|O|M|57.34,34.66|Z|Darnassus|N|From Elanaria. This quest gives a 7.6 dps one hand weapon later.|
+A The Shade of Elura|QID|1686|PRE|1683|C|Warrior|O|M|57.34,34.66|Z|Darnassus|N|From Elanaria. This quest gives a 7.6 dps one hand weapon later.|
 T Destiny Calls|QID|2242|C|Rogue|M|36.99,21.92|Z|Darnassus|N|To Syurna.|
 R Crown of the Earth|QID|935|ACTIVE|935|M|34.34,08.80|Z|Darnassus|CC|N|Go to the top of this building.|
 T Crown of the Earth|QID|935|M|34.91,08.82|Z|Darnassus|N|To Arch Druid Fandral Staghelm.|

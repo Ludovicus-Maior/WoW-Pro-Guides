@@ -268,9 +268,9 @@ T Out of Sprite|QID|30030|M|52.60,62.98|N|To Grainer Pan.|
 T Wee Little Shenanigans|QID|30029|M|52.74,63.00|N|To Grainlord Kai.|
 A The Quest for Better Barley|QID|30032|M|52.74,63.00|N|From Grainlord Kai.|PRE|30029&30030&30031|
 A Grain Recovery|QID|30028|M|52.74,63.00|N|From Grainlord Kai.|PRE|30029&30030&30031|
-C Grain Recovery|QID|30028|M|54.62,67.84|NC|
-C The Quest for Better Barley|QID|30032|M|51.29,77.54;53.31,75.14;48.63,26.96|CS|N|Use the rope on the ground to get down.|
-T Grain Recovery|QID|30028|M|52.76,62.91|N|Use the rope to climb back. To Grainlord Kai.|
+C Grain Recovery|QID|30028|M|56.02,65.21|NC|
+C The Quest for Better Barley|QID|30032|M|51.26,77.50;53.59,75.93|CS|N|Use the rope on the ground to get down. Once on the ground, enter the cave and loot the Malted Cave Barley. When you do, you will be attacked by a Cave Horror.|
+T Grain Recovery|QID|30028|M|52.74,63.00|N|To Grainlord Kai at the Imperial Granary.\n[color=FF0000]NOTE: [/color]If you can't fly, use the rope to climb back up.|
 T The Quest for Better Barley|QID|30032|M|52.69,62.83|N|To Li Li.|
 A The Chen Taste Test|QID|30047|M|52.69,62.83|N|From Li Li.|PRE|30032|
 R Halfhill|ACTIVE|30047|M|56.1,50.0|FLY|OLD|
@@ -280,7 +280,7 @@ C The Emperor|QID|30073|M|55.89,49.43|N|Wait for him to finish brewing|NC|
 T The Emperor|QID|30073|M|55.83,49.34|N|To Chen Stormstout.|
 A Knocking on the Door|QID|30074|M|55.89,49.43|N|From Chen Stormstout.|PRE|30073|
 R Thirsty Alley|ACTIVE|30074|M|53.97,49.64;51.39,52.01;40.88,60.30;38.5,64.7|CS|N|Down through the market and take the road to the Brewery.|FLY|OLD|
-T Knocking on the Door|QID|30074|M|32.25,68.56|N|To Chen Stormstout, after turning in, wait a moment for a brief scene shift.|
+T Knocking on the Door|QID|30074|M|32.25,68.56|N|To Chen Stormstout in Thirsty Alley. This will start a brief cut-scene and you will phase.\n[color=FF0000]NOTE: [/color]You don't have to wait for them to leave Halfhill. They will be here when you get here.|
 A The Fanciest Water|QID|30076|M|32.25,68.27|N|From Mudmug.|PRE|30074|
 A Barrels, Man|QID|30077|M|32.32,68.47|N|From Li Li.|PRE|30074|
 A Clear the Way|QID|30075|M|32.13,68.33|N|From Chen Stormstout.|PRE|30074|
@@ -293,84 +293,85 @@ T Barrels, Man|QID|30077|M|36.12,69.05|N|To Li Li.|
 T The Fanciest Water|QID|30076|M|35.99,69.10|N|To Mudmug.|
 T Clear the Way|QID|30075|M|36.04,68.98|N|To Chen Stormstout.|
 A Cleaning House|QID|30078|M|36.11,69.08|N|From Chen Stormstout. Talk to Chen to go inside.|PRE|30075&30076&30077|
-C Cleaning House|QID|30078|M|33.98,70.13|N|Talk to Chen (or Li Li) between steps to advance. Follow the instructions in the yellow text.|
+C Cleaning House|QID|30078|M|33.98,70.13|N|Talk to Chen (or Li Li, depending on who's there) after each objective is completed to start the next one. Follow the special instructions in the yellow text whenever they come up.|
 T Cleaning House|QID|30078|M|36.00,69.13|N|To Chen Stormstout.|
-A Into the Brewery|QID|30085|M|36.09,68.96|ELITE|N|[color=E6CC80]Dungeon: Stormstout Brewery[/color]\nFrom Chen Stormstout.|LEAD|31327|PRE|30078|
+A Into the Brewery|QID|30085|M|36.09,68.96|ELITE|N|[color=E6CC80]Dungeon: Stormstout Brewery[/color]\nFrom Chen Stormstout.\n[color=FF0000]NOTE: [/color]It's a simple chat quest. Do it even if you don't plan to run the dungeon.|LEAD|31327|PRE|30078|
+T Into the Brewery|QID|30085|M|36.09,69.27|N|To Chen Stormstout inside the Stormstout Brewery Dungeon. Just walk into the purple swirl to enter the dungeon.|
 A Stoneplow Thirsts|QID|30117|M|36.19,68.29|N|From Emmi.|PRE|30078|
 R Nesingwary's Safari|QID|30181|M|16,83|CC|N|[ACTIVE QID?]|FLY|OLD|
-A Stalker Mastery|QID|30183|M|16.19,82.53|N|From Tani|
+A Stalker Mastery|QID|30183|M|16.19,82.53|N|From Tani at Nesingwary's Safari.|
 A Mushan Mastery|QID|30181|M|16.07,82.61|N|From Hemet Nesingwary Jr.|
-C Kill Mushan|QID|30181|M|11.90,68.81|N|Yes, you have to turn this in before you can get the next step, even though there are mushan among the foxes and stags.|S|
-C Kill Tigers|QID|30183|M|11.90,68.81|
-C Kill Mushan|QID|30181|M|11.90,68.81|N|Yes, you have to turn this in before you can get the next step, even though there are mushan among the foxes and stags.|US|
+K Kill Mushan|QID|30181|M|16.64,69.47|QO|1|N|If you attack one of the pathing group of 3, they all attack.|S|
+K Kill Tigers|QID|30183|M|13.85,70.95|QO|1|N|You'll find the tigers in Dustback Gorge.|
+K Kill Mushan|QID|30181|M|16.64,69.47|N|Be aware of your surroundings. Munshan only attack if you attack them (except the Warder) or one of the group of 3. Tigers have no problem joining in the attack on you.\nGo outside of the valley to avoid the tigers.|US|
 T Mushan Mastery|QID|30181|M|16.07,82.61|N|To Hemet Nesingwary Jr.|
 T Stalker Mastery|QID|30183|M|16.19,82.53|N|To Tani|
 A Fox Mastery|QID|30182|M|16.19,82.53|N|To Tani.|PRE|30183|
-A Stag Mastery|QID|32038|M|15.90,82.24|N|From Matt "Lucky" Gotcher|
 A Mushan Mastery: Darkhide|QID|30184|M|16.01,82.49|N|From Hemet Nesingwary|PRE|30181|
-C Kill Stags|QID|32038|M|24.47,68.43|S|
-C Kill Foxes|QID|30182|M|24.47,68.43|N|The foxes move around stealthed.|S|
-K Darkhide|QID|30184|M|26.7,69.6|QO|1|N|Kill Darkhide and loot his head.|T|Darkhide|
-C Kill Foxes|QID|30182|M|24.47,68.43|US|
-C Kill Stags|QID|32038|M|24.47,68.43|US|
+A Stag Mastery|QID|32038|M|15.90,82.24|N|From Matt "Lucky" Gotcher|PRE|30183|
+K Kill Stags|QID|32038|M|24.00,79.70|QO|1|N|They're spread across the entire area.|S|
+K Kill Foxes|QID|30182|M|24.00,79.70|QO|1|N|The foxes move around stealthed. If you see Sly Pups, a Sly Fox is not far away. \n[color=FF0000]NOTE: [/color]Killing Sly Pups count towards objective.|S|
+K Darkhide|QID|30184|M|25.94,75.57|QO|1|N|Kill Darkhide and loot his head.\n[color=FF0000]NOTE: [/color]Clear any mobs in the area before you start. You don't want the adds.\nWhen he starts 'Ground and Pound', just run in a circle around him until he stops.|T|Darkhide|
+K Kill Foxes|QID|30182|M|24.00,79.70|QO|1|N|Just look for the Sly Pups.|US|
+K Kill Stags|QID|32038|M|24.00,79.70|QO|1|N|They're spread across the entire area.|US|
 T Mushan Mastery: Darkhide|QID|30184|M|16.01,82.49|N|To Hemet Nesingwary|
 T Fox Mastery|QID|30182|M|16.19,82.53|N|To Tani.|
 A Tortoise Mastery|QID|30185|M|16.07,82.61|N|From Hemet Nesingwary Jr.|PRE|30182&30184|
 T Stag Mastery|QID|32038|M|15.90,82.24|N|To Matt "Lucky" Gotcher|
-C Kill Tortoises|QID|30185|M|20.5,74.6|
-T Tortoise Mastery|QID|30185|M|19.91,75.66|N|To Hemet Nesingwary Jr, at the Torjari Pit edge.|
+C Kill Tortoises|QID|30185|M|18.22,78.26|N|The Torjari Pit is full of them.|
+T Tortoise Mastery|QID|30185|M|19.91,75.66|N|To Hemet Nesingwary Jr, in the Torjari Pit.|
 A Parental Mastery|QID|30186|M|19.91,75.66|N|From Hemet Nesingwary Jr.|PRE|30185|
-C Parental Mastery|QID|30186|M|24.59,74.27|N|Follow the Nesingwary's into the underwater cave.|
+R Lair of the Beast|ACTIVE|30186|M|21.91,74.51|N|Jump of the cliff into the water and follow the Nesingwary's into the underwater cave at the bottom.|
+C Parental Mastery|QID|30186|M|24.59,74.27|N|Chat with Hemet Nesingwary Jr and Torjar's Bane will appear.|
 T Parental Mastery|QID|30186|M|16.01,82.49|N|To Hemet Nesingwary back at the campsite.|
-r Restock/No Repair|QID|29872|M|16.14,82.91|N|At Steven Walker.|
-R Stoneplow|ACTIVE|29872|M|20.23,58.52|CC|N|Ride cross-country towards the next green dot.|FLY|OLD|
-f Stoneplow|ACTIVE|29872|M|20.23,58.52|N|From "Dragonwing"Dan.|TAXI|-Stoneplow|
+R Stoneplow|ACTIVE|30117|M|18.96,63.23|N|Ride cross-country towards the next green dot.|FLY|OLD|
+f Stoneplow|ACTIVE|30117|M|20.30,58.67|N|From "Dragonwing"Dan.|TAXI|-Stoneplow|
 T Lin Tenderpaw|QID|29872|M|19.87,56.92|N|To Lin Tenderpaw.|
 A Stemming the Swarm|QID|29981|M|19.87,56.92|N|From Lin Tenderpaw.|
-T Stoneplow Thirsts|QID|30117|M|19.55,56.93|N|To Loon Mai.|
-A Evacuation Orders|QID|29982|M|19.55,56.93|N|From Loon Mai.|
-C Stemming the Swarm|QID|29981|M|15.6,58.09|N|Kill Ik'thik Mantids in the area.|S|
-C Talk to the Greentills|QID|29982|M|15.77,56.29|QO|3|CHAT|
-C Talk to the Marlfurs|QID|29982|M|15.45,54.84|QO|4|CHAT|
-C Talk to the Spadepaws|QID|29982|M|12.88,55.92|QO|2|CHAT|
-C Talk to Blacksoils|QID|29982|M|7.14,54.84|QO|1|N|After you talk to Blacksoil the first time, an ambusher will attack. After you kill it, he will reconsider. Talk to him again to complete this step.|CHAT|
-C Stemming the Swarm|QID|29981|M|15.6,58.09|N|Finish killing mantids as you return to the "safe" area.|US|
+T Stoneplow Thirsts|QID|30117|M|19.55,56.87|N|To Loon Mai.|
+A Evacuation Orders|QID|29982|M|19.55,56.87|N|From Loon Mai.|
+K Stemming the Swarm|QID|29981|M|15.6,58.09|QO|1|N|Kill Ik'thik Mantids in the area.|S|
+C Talk to the Greentills|QID|29982|M|15.77,56.29|QO|3|N|Speak with either Haiyun or Ying.|CHAT|
+C Talk to the Marlfurs|QID|29982|M|15.45,54.86|QO|4|N|Speak with either Zhang or Mia.|CHAT|
+C Talk to the Spadepaws|QID|29982|M|12.88,55.92|QO|2|N|Speak with either Feng or Shu-Li.|CHAT|
+C Talk to Blacksoils|QID|29982|M|7.14,54.84|QO|1|N|After you talk to Wei Blacksoil the first time, an ambusher will attack you. After you kill it, he will reconsider. Talk to him again to complete this step.|CHAT|
+K Stemming the Swarm|QID|29981|M|15.6,58.09|QO|1|N|Finish killing mantids as you return to the "safe" area.|US|
 T Evacuation Orders|QID|29982|M|19.55,56.87|N|To Loon Mai.|
 T Stemming the Swarm|QID|29981|M|19.55,56.87|N|To Loon Mai.|
 A The Hidden Master|QID|29983|M|19.55,56.87|N|From Loon Mai.|PRE|29981&29982|
 R Paoquan Hollow|ACTIVE|29983|M|18.15,31.60|FLY|OLD|
 T The Hidden Master|QID|29983|M|18.30,31.23|N|To Master Bruised Paw.|
 A Unyielding Fists: Trial of Bamboo|QID|29984|M|18.30,31.23|N|From Master Bruised Paw.|PRE|29983|
-C Trial of Bamboo|QID|29984|M|18.2,31.26|N|[Add Vehicle step]Talk to the Master to accept the challenge and get put into a 'vehicle'. Press the "1" key when the circle is full and 'glowing'. Cutscene follows each of these.|CHAT|
-T Unyielding Fists: Trial of Bamboo|QID|29984|M|18.30,31.23|N|To Master Bruised Paw, Cutscene follows immediately after.|PRE|29983|
+C Trial of Bamboo|QID|29984|M|18.2,31.26|N|Talk to the Master to start the challenge. You will put into a vehicle UI. Press the "1" key when the circle is full and 'glowing'.|CHAT|
+T Unyielding Fists: Trial of Bamboo|QID|29984|M|18.30,31.23|N|To Master Bruised Paw.\nA cinematic follows immediately. <ESC> to cancel the cinematic.|PRE|29983|
 A They Will Be Mist|QID|29985|M|18.30,31.23|N|From Master Bruised Paw.|PRE|29984|
 A Fog Wards|QID|29986|M|18.30,31.23|N|From Master Bruised Paw.|PRE|29984|
 A Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|18.06,31.00|N|From Lin Tenderpaw|PRE|29984|
-C They Will Be Mist|QID|29985|M|18.17,41.49|S|
+K They Will Be Mist|ACTIVE|29985|M|18.17,41.49|QO|1|S|
 C Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|16.64,37.64|NC|S|
-C Light the Northern Fog Ward|QID|29986|M|16.04,32.15|QO|1|NC|
-C Light the Western Fog Ward|QID|29986|M|14.81,36.83|QO|2|NC|
-C Light the Southern Fog Ward|QID|29986|M|18.17,41.49|QO|3|NC|
+C Light the Northern Fog Ward|QID|29986|M|16.01,32.11|QO|1|NC|
+C Light the Western Fog Ward|QID|29986|M|14.85,36.83|QO|2|NC|
+C Light the Southern Fog Ward|QID|29986|M|18.10,41.47|QO|3|NC|
 C Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|16.64,37.64|NC|US|
-C They Will Be Mist|QID|29985|M|18.17,41.49|US|
-T Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|18.05,31.07|N|To Lin Tenderpaw.|
-T They Will Be Mist|QID|29985|M|18.25,31.22|N|To Master Bruised Paw.|
-T Fog Wards|QID|29986|M|18.25,31.22|N|To Master Bruised Paw.|
-A Unyielding Fists: Trial of Wood|QID|29987|M|18.24,31.26|N|From Master Bruised Paw.|PRE|29992&29985&29986|
+C They Will Be Mist|QID|29985|M|17.02,37.85|US|
+T Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|18.06,31.00|N|To Lin Tenderpaw.|
+T They Will Be Mist|QID|29985|M|18.29,31.24|N|To Master Bruised Paw.|
+T Fog Wards|QID|29986|M|18.29,31.24|N|To Master Bruised Paw.|
+A Unyielding Fists: Trial of Wood|QID|29987|M|18.29,31.24|N|From Master Bruised Paw.|PRE|29992&29985&29986|
 C Trial of Wood|QID|29987|M|18.25,32.18|N|Same routine, but we are breaking boards this time.|CHAT|
-T Unyielding Fists: Trial of Wood|QID|29987|M|18.24,31.26|N|To Master Bruised Paw.|
-A A Taste For Eggs|QID|29988|M|18.24,31.26|N|From Master Bruised Paw.|PRE|29987|
-C Hornbill Strider Egg|QID|29988|M|26.9,39.1|QO|3|N|Inside the cave, The momma bird will come to show her displeasure with you.|
-C A Taste For Eggs|QID|29988|M|24,45;26.9,39.1|CN|N|Gather the rest of your eggs in the area around the markers|; Singing Marshes
-T A Taste For Eggs|QID|29988|M|18.29,31.24|N|To Master Bruised Paw.|
+T Unyielding Fists: Trial of Wood|QID|29987|M|18.29,31.24|N|To Master Bruised Paw.|
+A A Taste For Eggs|QID|29988|M|18.29,31.24|N|From Master Bruised Paw.|PRE|29987|
+C Hornbill Strider Egg|QID|29988|M|26.98,39.06|QO|3|N|The egg is inside the cave. The momma bird will come to show her displeasure with you.|NC|
+C A Taste For Eggs|QID|29988|M|25.35,42.98|QO|1;2|N|Gather the rest of your eggs in the area of Singing Marshes.\n[color=FF0000]NOTE: [/color]Look for eggs with no birds around it. You will be attacked if they are near.|
+T A Taste For Eggs|QID|29988|M|18.29,31.24|N|To Master Bruised Paw.\nA cinematic will start after. <ESC> to cancel it.|
 A Unyielding Fists: Trial of Stone|QID|29989|M|18.29,31.24|N|From Master Bruised Paw.|PRE|29988|
 C Trial of Stone|QID|29989|M|18.16,32.15|N|Same routine, this time we get to break stone, while the master throws eggs at us.|CHAT|
 T Unyielding Fists: Trial of Stone|QID|29989|M|18.29,31.24|N|To Master Bruised Paw.|
-A Training and Discipline|QID|29990|M|18.05,31.07|N|From Lin Tenderpaw.|PRE|29989|
-R Stoneplow|ACTIVE|29990|M|19,56|FLY|OLD|
+A Training and Discipline|QID|29990|M|18.06,31.00|N|From Lin Tenderpaw.|PRE|29989|
+R Stoneplow|ACTIVE|29990|M|18.59,50.92|FLY|OLD|
 T Training and Discipline|QID|29990|M|19.55,56.87|N|To Loon Mai.|
-A The Road to Kun-Lai|QID|31254|M|18.51,56.37|N|This quest is available multiple places, so you may have already picked it up. It is from Messenger Grummle who paths back and forth across the road. It requires level 87 and leads you to Kun-Lai. Skip if you do not want to quest there.|FACTION|Alliance|
-A The Road to Kun-Lai|QID|31255|M|18.51,56.37|N|This quest is available multiple places, so you may have already picked it up. It is from Messenger Grummle who paths back and forth across the road. It requires level 87 and leads you to Kun-Lai. Skip if you do not want to quest there.|FACTION|Horde|
-F Congratulations, you finished Valley of the Four Winds.|QID|29873|M|20.24,58.64|N|You finished Valley of the Four Winds, Dragonwing Dan will give you a free flight (if you ask within 20 min of turning in last quest) into Krasarang Wilds (a flight point you don't have yet). Next guide assumes you chose to go see Ken-Ken.|
+A The Road to Kun-Lai|QID|31254|M|18.51,56.37|N|This quest is available multiple places, so you may have already picked it up. It is from Messenger Grummle who paths back and forth across the road. It requires level 20 and leads you to Kun-Lai. Skip if you do not want to quest there.|FACTION|Alliance|
+A The Road to Kun-Lai|QID|31255|M|18.51,56.37|N|This quest is available multiple places, so you may have already picked it up. It is from Messenger Grummle who paths back and forth across the road. It requires level 20 and leads you to Kun-Lai. Skip if you do not want to quest there.|FACTION|Horde|
+F Congratulations, you finished Valley of the Four Winds.|QID|29873|M|20.24,58.64|N|You finished Valley of the Four Winds, Dragonwing Dan will give you a free flight (if you ask within 20 min of turning in last quest) into Krasarang Wilds (a flight point you don't have yet). Next guide assumes you chose to go see Ken-Ken.|FLY|OLD|
 ]]
 end)

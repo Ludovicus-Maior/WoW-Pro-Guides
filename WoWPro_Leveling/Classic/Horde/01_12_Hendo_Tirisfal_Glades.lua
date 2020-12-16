@@ -66,7 +66,7 @@ K Meven Korgal|ACTIVE|382|M|36.48,68.83|L|2885|N|He's in front of a tent. Loot t
 
 T The Red Messenger|QID|382|M|32.16,66.02|N|Again back at Executor Arren.|
 A Vital Intelligence|QID|383|M|32.16,66.02|N|From Executor Arren|PRE|382|
-A In Favor of Darkness|QID|5651|N|From Dark Cleric Duesten in the chapel.|C|R|Undead|Priest|
+A In Favor of Darkness|QID|5651|N|From Dark Cleric Duesten in the chapel.|R|Undead|C|Priest|
 
 A A Rogue's Deal|QID|8|M|38.24,56.74|N|Follow the road north-east. Get the quest from Calvin Montague.|
 A Fields of Grief|QID|365|M|40.91,54.17|N|Further east as the road forks you will find Deathguard Simmer. Get his quest.|
@@ -224,7 +224,7 @@ T Touch of Weakness|QID|5658|M|49.28,18.36|Z|Undercity|N|Turn into Aelthalyste.|
 ; --- Rogue
 T Mennet Carkad|QID|1885|M|83.51,69.10|Z|Undercity|N|To Mennet Carkad in the Rogues' Quarter.|R|Undead|C|Rogue|
 A The Deathstalkers|QID|1886|M|83.51,69.10|Z|Undercity|N|From Mennet Carkad.|PRE|1885|R|Undead|C|Rogue|
-C The Deathstalkers|QID|1886|C|Rogue|N|Leave Undercity through the Sewers and take the road south to Silverpine Forest. Astor Hadren is patrolling the road. Defeat him, get Astor's Letter of Introduction.|R|Undead|C|Rogue|
+C The Deathstalkers|QID|1886|N|Leave Undercity through the Sewers and take the road south to Silverpine Forest. Astor Hadren is patrolling the road. Defeat him, get Astor's Letter of Introduction.|R|Undead|C|Rogue|
 R The Sepulcher|QID|1898|M|45.60,42.50|Z|Silverpine Forest|N|Head south to the Sepulcher.|R|Undead|C|Rogue|
 f The Sepulcher|QID|1898|M|45.62,42.60|Z|Silverpine Forest|N|Karos Razok|TAXI|-The Sepulcher|R|Undead|C|Rogue|
 F Undercity|QID|447|M|45.62,42.60|N|Fly to Undercity.|R|Undead|C|Rogue|

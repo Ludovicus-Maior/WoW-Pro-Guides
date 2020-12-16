@@ -12,6 +12,7 @@ WoWPro = _G.LibStub("AceAddon-3.0"):NewAddon("WoWPro","AceEvent-3.0", "AceBucket
 WoWPro.Version = _G.GetAddOnMetadata("WoWPro", "Version")
 WoWPro.DebugLevel = 0
 WoWPro.CombatLock = false
+WoWPro.DevMode = false
 WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
 WoWPro.Log = {}
@@ -1340,6 +1341,7 @@ end
 function WoWPro.LoadAllGuidesDone()
     WoWPro.LoadAllGuidesActive = nil
     WoWPro:Print("%d Done! %d A, %d N, %d H guides present", WoWPro.LoadAll.Count, WoWPro.LoadAll.aCount, WoWPro.LoadAll.nCount, WoWPro.LoadAll.hCount)
+    WoWPro.DevMode = false
 end
 
 function WoWPro:LoadAllGuides()
@@ -1349,6 +1351,7 @@ function WoWPro:LoadAllGuides()
     WoWPro.LoadAll.nCount=0
     WoWPro.LoadAll.Count=0
     WoWPro.LoadAll.List = {}
+    WoWPro.DevMode = true
     for guidID,guide in pairs(WoWPro.Guides) do
         tinsert(WoWPro.LoadAll.List, guidID)
     end

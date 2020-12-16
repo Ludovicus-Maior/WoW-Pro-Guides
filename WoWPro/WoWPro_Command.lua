@@ -21,6 +21,13 @@ local function handler(msg, editbox)
 			_G.WoWProDevCoords:Show()
 			WoWProCharDB.DevCoords = true
 		end
+	elseif ltoken == "devmode" then
+		if WoWPro.DevMode then
+			WoWPro.DevMode = false
+		else
+			WoWPro.DevMode = true
+		end
+		WoWPro.LoadGuideStepsReal()
     elseif ltoken == "where" then
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()
         if (not X) or (not Y) then
@@ -89,7 +96,7 @@ local function handler(msg, editbox)
         end
         _G.ChatFrame1:AddMessage("Blizzard API stored in: <World of Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua")
     else
-        local text = ("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
+        local text = ("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devmode]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
         _G.ChatFrame1:AddMessage(text)
     end
 end
