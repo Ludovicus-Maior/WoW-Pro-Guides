@@ -269,16 +269,16 @@ T Path of Defense|QID|1498|M|61.38,21.11|N|Head back To Uzzek at Far Watch Outpo
 ; --- Tauren Shaman Fire Totem quest
 T Call of Fire|QID|2983|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss at Grol'dom Farm. He wanders around a bit.|R|Tauren|C|Shaman|
 A Call of Fire|QID|1524|M|55.86,19.94|Z|The Barrens|N|From Kranal Fiss.|PRE|2983|R|Tauren|C|Shaman|
-R Shrine of the Dormant Flame|QID|1524|M|36.69,57.43|Z|Durotar|CC|N|Follow the hidden path here upwards.|R|Tauren|C|Shaman|
+R Shrine of the Dormant Flame|ACTIVE|1524|M|36.69,57.43|Z|Durotar|CC|N|Follow the hidden path here upwards.|R|Tauren|C|Shaman|
 T Call of Fire|QID|1524|M|38.52,58.92|Z|Durotar|N|To Telf Joolam.|R|Tauren|C|Shaman|
 A Call of Fire|QID|1525|M|38.52,58.92|Z|Durotar|N|From Telf Joolam.|PRE|1524|R|Tauren|C|Shaman|
-R Far Watch Outpost|QID|1525|M|55.11,24.89|Z|The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
+R Far Watch Outpost|ACTIVE|1525|M|55.11,24.89|Z|The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
 K Razormane Spellcasters|M|57.04,23.08|Z|The Barrens|L|5026|N|Make your way to Thorn Hill (SW of Far Watch Outpost). Kill Razormane Geomancers, Thornweavers, Water Seekers, or Mystics until you loot the Tar Fire.|R|Tauren|C|Shaman|
-R Dustwind Cave|QID|1525|M|50.63,43.97;54.14,40.68|Z|Durotar|N|Make your way to Razor Hill. Cut through and exit out the east gate. Go up the hill and follow the ridge north to the cave entrance. The Burning Blade Cultists are inside.|R|Tauren|C|Shaman|
-K Burning Blade Cultist|QID|1525|L|6652|N|Kill the Cultists until you loot the Reagent Pouch.|R|Tauren|C|Shaman|
+R Dustwind Cave|ACTIVE|1525|M|50.63,43.97;54.14,40.68|CS|Z|Durotar|N|Make your way to Razor Hill. Cut through and exit out the east gate. Go up the hill and follow the ridge north to the cave entrance. The Burning Blade Cultists are inside.|R|Tauren|C|Shaman|
+K Burning Blade Cultist|ACTIVE|1525|L|6652|N|Kill the Cultists until you loot the Reagent Pouch.|R|Tauren|C|Shaman|
 A Conscript of the Horde|QID|840|M|50.84,43.59|Z|Durotar|N|From Takrin Pathseeker. We pick this up because its on the way and free XP.|R|Tauren|C|Shaman|
 T Call of Fire|QID|1525|M|38.52,58.92|Z|Durotar|N|Make your way back to Telf Joolam.|R|Tauren|C|Shaman|
-R Far Watch Outpost|QID|1525|M|55.11,24.89|Z|The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
+R Far Watch Outpost|ACTIVE|1525|M|55.11,24.89|Z|The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
 T Conscript of the Horde|QID|840|M|62.26,19.37|N|To Kargal Battlescar.|R|Tauren|C|Shaman|
 A Crossroads Conscription|QID|842|M|62.26,19.37|N|From Kargal Battlescar.|PRE|840|R|Tauren|C|Shaman|
 ; ---
