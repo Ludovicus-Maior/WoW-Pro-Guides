@@ -184,7 +184,7 @@ C Great Bear Spirit|QID|5930|M|53.39,31.16;45.03,26.67;39.31,27.44|Z|Moonglade|C
 T Great Bear Spirit|QID|5930|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze. Use Teleport: Moonglade again instead of running back.|R|Tauren|C|Druid|
 A Back to Thunder Bluff|QID|5932|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|5930|C|Druid|
 F Thunder Bluff|ACTIVE|5932|M|44.29,45.85|Z|Moonglade|N|Speak with Bumthen Plainswind to fly back to Thunder Bluff.\nGo grab a coffee. It's a looong flight.|R|Tauren|C|Druid|
-T Heeding the Call|QID|5932|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
+T Heeding the Call|QID|5928^5926^5927|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
 A Body and Heart|QID|6002|M|76.47,27.26|Z|Thunder Bluff|N|From Turak Runetotem.|PRE|5932|R|Tauren|C|Druid|
 F Camp Taurajo|QID|6002|M|46.98,49.84|Z|Thunder Bluff|R|Tauren|C|Druid|
 C Body and Heart|QID|6002|M|42.28,59.97;42.00,60.90|Z|The Barrens|CC|QO|1|U|15710|N|Use the Cenarion Lunardust at the Moonkin Stone to summon Lunaclaw. Kill him and talk to his ghost to complete the quest. Be careful of the level 20 Thunderheads that roam the area.|R|Tauren|C|Druid|
