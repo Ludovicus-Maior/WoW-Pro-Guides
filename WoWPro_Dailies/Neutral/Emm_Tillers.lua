@@ -96,7 +96,8 @@ A Farmer Yoon|QID|30333^30334^30335^30336^30337|M|52.92,51.83|N|Farmer Yoon has 
 
 ;prepare food
 ; Shopping list for making food
-N Daily Food for Friends|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|PLAYER|N|The following steps are the ingredients you need to gather if you plan on cooking your Friends' Favorite foods for the day.\nHow you get them is entirely up to you.\nThe steps will complete as you acquire the items.|
+;N Daily Food for Friends|ACTIVE|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|PLAYER|N|The following steps are the ingredients you need to gather if you plan on cooking your Friends' Favorite foods for the day.\nHow you get them is entirely up to you.\nThe steps will complete as you acquire the items.|
+N Daily Food for Friends|ACTIVE|-30386^-30390^-30396^-30402^-30408^-30414^-30421^-30427^-30433^-30439|M|PLAYER|N|The following steps are the ingredients you need to gather if you plan on cooking your Friends' Favorite foods for the day.\nHow you get them is entirely up to you.\nThe steps will complete as you acquire the items.|
 N Shopping list|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|N|For anyone trying to maximise their individual reps each day, you'll need:\n10x Krasarang Paddlefish, 10x Jade Lungfish, 5x Reef Octopus, 5x Giant Mantis Shrimp, 5x Emperor Salmon, 10x Wildfowl Breast, 5x Raw Tiger Steak, 5x Raw Turtle Meat, 35x Juicycrunch Carrot, 25x Striped Melon, and 25x Scallions.|
 l Jade Lungfish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30408^30390|M|46.71,87.84|Z|The Jade Forest|L|74856 5|N|In Jade Forest, locate a Jade Lungfish School in the water near Paw'don Glade.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
 l Jade Lungfish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30408&30390|M|46.71,87.84|Z|The Jade Forest|L|74856 10|N|In Jade Forest, locate a Jade Lungfish School in the water near Paw'don Glade.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
@@ -106,7 +107,7 @@ l Wildfowl Breast|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^3047
 l Giant Mantis Shrimp|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30386|M|38.20,77.00|Z|The Jade Forest|L|74857 5|N|In Jade Forest, locate a Giant Mantis Shrimp Swarm in the water along the south coast and north along the east coast.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
 l Krasarang Paddlefish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30421|M|56.50,39.60|L|74865 10|N|In Valley of the Four Winds, locate a Krasarang Paddlefish School in the water anywhere in the area.\nDepending on your luck, this should only take fishing 2 or 3 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
 l Raw Tiger Steak|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30414|M|14.00,74.40|L|74833 5|N|Kill Gorge Stalkers to loot it.|
-N Juicycrunch Carrots|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|PLAYER|N|You have many options to acquire these. You can buy, loot or harvest them.\nUntil you establish your farm, buying may be your best option. Trying to loot 25-35 of them every day, could prove time consuming and difficult.\nFarming them is an option. But, you'll need to balance this with the crops you need to grow for other quests. All dishes combined, you'll need to harvest 17 plants per day.|
+N Juicycrunch Carrots|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|PLAYER|L|74841 35|N|You have many options to acquire these. You can buy, loot or harvest them.\nUntil you establish your farm, buying may be your best option. Trying to loot 25-35 of them every day, could prove time consuming and difficult.\nFarming them is an option. But, you'll need to balance this with the crops you need to grow for other quests. All dishes combined, you'll need to harvest 17 plants per day.|
 l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396&-30439|M|52.02,48.30|L|74841 25|N|If you prefer, you can grow these on your farm. You'll have to harvest 5 plants/day (depending on which dish you're cooking)|
 l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|-30396&30439|M|52.02,48.30|L|74841 10|N|If you prefer, you can grow these on your farm. You'll have to harvest 2 plants/day (depending on which dish you're cooking)|
 l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396&30439|M|52.02,48.30|L|74841 35|N|If you prefer, you can grow these on your farm. You'll have to harvest 7 plants/day (depending on which dish you're cooking)|
@@ -182,6 +183,17 @@ C The Pink Turnip Challenge|QID|31674|M|51.98,48.31|N|Plant what Farmer Yoon wan
 C The White Turnip Treatment|QID|31675|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|80595|NC|
 C Which Berries? Witchberries.|QID|31943|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|89326|NC|
 C Why Not Scallions?|QID|31671|M|51.98,48.31|N|Plant what Farmer Yoon wants, after dealing with the pests, you can dig it up and plant what you want.|T|Tilled Soil|U|80591|NC|
+;turn in Yoon's planting quest
+T The White Turnip Treatment|QID|31675|M|52.25,48.80|N|To Farmer Yoon.|
+T Red Blossom Leeks, You Make the Croc-in' World Go Down|QID|31673|M|52.25,48.80|N|To Farmer Yoon.|
+T A Pumpkin-y Perfume|QID|31672|M|52.25,48.80|N|To Farmer Yoon.|
+T It's Melon Time|QID|31942|M|52.25,48.80|N|To Farmer Yoon.|
+T Squash Those Foul Odors|QID|31941|M|52.25,48.80|N|To Farmer Yoon.|
+T That Dangling Carrot|QID|31670|M|52.25,48.80|N|To Farmer Yoon.|
+T The Cabbage Test|QID|31669|M|52.25,48.80|N|To Farmer Yoon.|
+T The Pink Turnip Challenge|QID|31674|M|52.25,48.80|N|To Farmer Yoon.|
+T Which Berries? Witchberries.|QID|31943|M|52.25,48.80|N|To Farmer Yoon.|
+T Why Not Scallions?|QID|31671|M|52.25,48.80|N|To Farmer Yoon.|
 
 C Nana's Vote III: Witchberry Julep|QID|31949|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1 .The next day you can harvest and deliver them to Nana.|U|89326|NC|
 C Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Farmer Fung.|U|79102|NC|
@@ -347,16 +359,6 @@ t A Beautiful Brooch|QID|31329|M|45.1,33.8|N|If she is not at the market, Tina c
 T Lost and Lonely|QID|30526|M|42.39,49.98|N|To Lost Dog.|
 
 T Stalling the Ravage|QID|30335|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T The White Turnip Treatment|QID|31675|M|52.25,48.80|N|To Farmer Yoon.|
-T Red Blossom Leeks, You Make the Croc-in' World Go Down|QID|31673|M|52.25,48.80|N|To Farmer Yoon.|
-T A Pumpkin-y Perfume|QID|31672|M|52.25,48.80|N|To Farmer Yoon.|
-T It's Melon Time|QID|31942|M|52.25,48.80|N|To Farmer Yoon.|
-T Squash Those Foul Odors|QID|31941|M|52.25,48.80|N|To Farmer Yoon.|
-T That Dangling Carrot|QID|31670|M|52.25,48.80|N|To Farmer Yoon.|
-T The Cabbage Test|QID|31669|M|52.25,48.80|N|To Farmer Yoon.|
-T The Pink Turnip Challenge|QID|31674|M|52.25,48.80|N|To Farmer Yoon.|
-T Which Berries? Witchberries.|QID|31943|M|52.25,48.80|N|To Farmer Yoon.|
-T Why Not Scallions?|QID|31671|M|52.25,48.80|N|To Farmer Yoon.|
 T The Lesser of Two Evils|QID|30333|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
 T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
 T The Kunzen Hunter-Chief|QID|30336|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
