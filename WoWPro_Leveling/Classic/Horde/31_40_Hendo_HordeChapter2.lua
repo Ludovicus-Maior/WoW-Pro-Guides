@@ -421,7 +421,7 @@ A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingw
 A Tiger Mastery|QID|185|M|35.61,10.63|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|583|
 A Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|583|
 A The Green Hills of Stranglethorn|QID|338|N|From Barnil Stonepot.|PRE|583|
-N Chapter quests|ACTIVE|338|N|From this point forward, every time you return to the Camp, check in with Barnil Stonepot to see if you have enough pages to finish a Chapter quest. You'll want to get rid of the pages as soon as you can to save bag space.\n[color=FF0000]NOTE: [/color]To save log space do not accept the Chapter quests until you can complete them.|
+N Chapter quests|ACTIVE|338|N|From this point forward, every time you return to the Camp, check in with Barnil Stonepot to see if you have enough pages to finish a Chapter quest. You'll want to get rid of the pages as soon as you can to save bag space.\n[color=FF0000]NOTE: [/color]To save log space, do not accept the Chapter quests until you can complete them.|
 C Tiger Mastery|QID|185|M|32.61,9.55;33.68,11.64;36.40,13.05|Z|Stranglethorn Vale|CC|QO|1|N|Heading in a westerly direction from the camp, kill Young Stranglethorn Tigers. In a looping arc, make your way east to the bridge.|
 C Panther Mastery|QID|190|M|37.69,14.85;39.75,13.70;41.23,12.99;41.27,8.56|Z|Stranglethorn Vale|CC|QO|1|N|As you make your way east under the bridge, kill Young Stranglethorn Panthers. Cross the river to the north side and work your way west in a sweeping arc towards the road.|
 T Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
@@ -483,19 +483,19 @@ T Supply and Demand|QID|575|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
 A Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|575|
 A Singing Blue Shards|QID|605|M|27.12,77.22|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
 ; --- Thousand Needles
-b Ratchet|QID|1183|M|25.80,73.10|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
-F Freewind Post|QID|605|M|45.05,49.16|
-R Mirage Raceway|QID|1183|N|Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
+b Ratchet|ACTIVE|1183|M|25.80,73.10|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
+F Freewind Post|ACTIVE|1183|M|45.05,49.16|
+R Mirage Raceway|ACTIVE|1183|N|Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
 T Goblin Sponsorship|QID|1183|M|80.18,75.89|N|To Pozzik.|
 A The Eighteenth Pilot|QID|1186|M|80.18,75.89|N|From Pozzik.|PRE|1183|
 T The Eighteenth Pilot|QID|1186|M|80.31,76.06|N|To Razzeric.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
 ; --- The Barrens
-H Orgrimmar|QID|605|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
-F Thunder Bluff|QID|605|M|45.50,63.84|Z|Orgrimmar|C|Druid|
-F Orgrimmar|QID|605|M|47.02,49.83|Z|Thunder Bluff|C|Druid|
+H Orgrimmar|ACTIVE|569|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
+F Thunder Bluff|ACTIVE|569|M|45.50,63.84|Z|Orgrimmar|C|Druid|
+F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|Thunder Bluff|C|Druid|
 ; --- STV
-b Grom'gol Base Camp|QID|605|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
-R Mizjah Ruins|QID|569|M|37.05,28.25|Z|Stranglethorn Vale|N|Use the east exit and follow the road.|
+b Grom'gol Base Camp|ACTIVE|569|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
+R Mizjah Ruins|ACTIVE|569|M|37.05,28.25|Z|Stranglethorn Vale|N|Use the east exit and follow the road.|
 l Some Assembly Required|ACTIVE|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|S|
 C The Defense of Grom'gol|QID|569|QO|1;2|N|Kill Mosh'Ogg Witch Doctors and Brutes in the Mizjah Ruins.\n[color=FF0000]NOTE: [/color]It's much easier to patrol around the outside of the ruins. The mobs inside tend to be pulled in groups of 3. It may take longer, but so does corpse running.|
 l Some Assembly Required|ACTIVE|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|US|
@@ -507,11 +507,12 @@ R Zuuldaia Ruins|QID|582|M|26.97,19.00;23.14,16.56|Z|Stranglethorn Vale|CC|N|Usi
 N Bloodscalp Headhunters|ACTIVE|582|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.|
 l Headhunting|ACTIVE|582|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
 l Bloody Bone Necklaces|ACTIVE|596|L|3915 25|N|Kill any Bloodscalp to loot them.|US|
+l Singing Blue Shards|ACTIVE|605|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|US|
 R The Vile Reef|QID|629|M|23.10,16.49;26.99,18.82;26.54,21.21|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
-N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant Clams. They may contain a 'Blue Pearl'. It's a quest item that can be sold in the AH, if you don't use them for the 'Pearl Diving' quest.|
-l Encrusted Tail Fins|QID|1107|L|5796 10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|S|
+N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant Clams. They may contain a 'Blue Pearl'. It's a quest item that can be sold in the AH, if you don't use them for the 'Pearl Diving' quest.|IZ|The Vile Reef|
+l Encrusted Tail Fins|QID|1107|M|25.15,24.10|L|5796 10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|S|IZ|Stranglethorn Vale|
 C The Vile Reef|QID|629|M|24.8,22.8|Z|Stranglethorn Vale|QO|1|N|Loot the Tablet Shard. It's leaning against the outside wall.\n[color=FF0000]NOTE: [/color]You can get this without aggroing the 2 Elite mobs on the other side. Swim along the surface to the location and dive straight down.\nIf you do it quick, you'll resurface with 1/3 of your breath left.|NC|
-l Encrusted Tail Fins|QID|1107|L|5796 10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|US|
+l Encrusted Tail Fins|QID|1107|M|25.15,24.10|L|5796 10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|US|IZ|Stranglethorn Vale|
 R Nesingwary's Expedition|ACTIVE|195|M|37.49,11.69|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
 T Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|195|
@@ -595,7 +596,7 @@ C Bracers of Binding|QID|557|L|3715 4|N|Kill Elemental Slaves to loot 4 Bracers 
 C Dalaran Patrols|QID|545|QO|1;2|N|Kill 12 Elemental Slaves and 6 Dalaran Summoners.|
 C Bracers of Binding|QID|557|L|3715 4|N|Finish collecting your Bracers of Earth Binding before leaving.|US|
 R Misty Shore|M|23.26,50.44|Z|Alterac Mountains|N|Head north out of Dalaran to Misty Shore.|
-R Dandred's Fold|QID|507|ACTIVE|507|M|36.91,22.68|Z|Alterac Mountains|N|Follow the shore line north.|
+R Dandred's Fold|ACTIVE|507|M|36.91,22.68|Z|Alterac Mountains|N|Follow the shore line north.|
 K Lord Aliden Perenolde|QID|507|M|39.30,14.32|Z|Alterac Mountains|QO|1|N|Make your way inside the house and upstairs to kill Lord Aliden Perenolde.\nClear the mobs all around the house before entering. The mobs inside the house will run through the walls and bring them with them.\n[color=FF0000]NOTE: [/color]Do not walk directly into the house. You will need to clear it first by pulling. Same goes for the top of the stairs.\nDo not take your time as respawns happen quickly.|
 T Lord Aliden Perenolde|QID|507|M|39.30,14.32|Z|Alterac Mountains|N|To Elysa.|
 A Taretha's Gift|QID|508|M|39.30,14.32|Z|Alterac Mountains|N|From Elysa.|
