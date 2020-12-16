@@ -1,6 +1,7 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-	<Script file="Blanc_BI_Treasures.lua"/>
-        <Script file="Emmaleah_Jani.lua"/>
+    <Script file="Emm_Blanchy.lua"/>
+    <Script file="Blanc_BI_Treasures.lua"/>
+    <Script file="Emmaleah_Jani.lua"/>
 	<Script file="Emmaleah_LostFound.lua"/>
 	<Script file="Emmaleah_Lorewalkers.lua"/>
 	<Script file="Emmaleah_Hippogryph.lua"/>
@@ -8,11 +9,11 @@
 	<Script file="Est_Glorious.lua"/>
 	<Script file="Est_HigherLearning.lua"/>
 	<Script file="Est_UnbornValkyr.lua"/>
-        <Script file="Ludo_AlliesA.lua"/>
-        <Script file="Ludo_AlliesH.lua"/>
+    <Script file="Ludo_AlliesA.lua"/>
+    <Script file="Ludo_AlliesH.lua"/>
 	<Script file="Ludo_Draenor.lua"/>
 	<Script file="Ludo_FishFry.lua"/>
-        <Script file="Ludo_Glimr.lua"/>
+    <Script file="Ludo_Glimr.lua"/>
 	<Script file="Ludo_Lucid.lua"/>
 	<Script file="Ludo_Treasure.lua"/>
 	<Script file="Rkdl_Brood_of_Alysrazor.lua"/>
