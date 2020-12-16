@@ -1341,6 +1341,7 @@ end
 function WoWPro.LoadAllGuidesDone()
     WoWPro.LoadAllGuidesActive = nil
     WoWPro:Print("%d Done! %d A, %d N, %d H guides present", WoWPro.LoadAll.Count, WoWPro.LoadAll.aCount, WoWPro.LoadAll.nCount, WoWPro.LoadAll.hCount)
+    WoWPro.DevMode = false
 end
 
 function WoWPro:LoadAllGuides()
@@ -1350,6 +1351,7 @@ function WoWPro:LoadAllGuides()
     WoWPro.LoadAll.nCount=0
     WoWPro.LoadAll.Count=0
     WoWPro.LoadAll.List = {}
+    WoWPro.DevMode = true
     for guidID,guide in pairs(WoWPro.Guides) do
         tinsert(WoWPro.LoadAll.List, guidID)
     end
