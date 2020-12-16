@@ -3,6 +3,7 @@
 * Added new DevMode for improved guide checking
 * Crash processing ZONE_CHANGE right after login (Thanks @Gregory)
 * Crash with Abominable Stitching (Thanks @Ookami313 )
+* Delay processing Achievements till IsValidAchievement() is true
 ## Guide Updates
 ### Retail
 * Achievements: New Blanchy Guide!
