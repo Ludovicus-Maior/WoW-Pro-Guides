@@ -403,10 +403,10 @@ A Call of Water|QID|1530|M|65.8,43.8|N|From Islen Waterseer.|PRE|1529|R|Orcs,Tau
 F Camp Taurajo|QID|1530|M|46.89,49.77|Z|Thunder Bluff|R|Orcs,Tauren,Trolls|C|Shaman|
 R Brine|QID|1530|M|43.4,77.4|N|Leave Camp Taurajo and follow the road south.|R|Orcs,Tauren,Trolls|C|Shaman|
 T Call of Water|QID|1530|M|43.4,77.4|N|To Brine.|R|Orcs,Tauren,Trolls|C|Shaman|
-A Call of Water|QID|1531|M|43.4,77.4|N|From Brine.|PRE|1530|R|Orcs,Tauren,Trolls|C|Shaman|
-C Call of Water|QID|1531|M|43.4,77.4|U|7766|L|7769|N|Go to the pond and fill the empty Brown Waterskin.|R|Orcs,Tauren,Trolls|C|Shaman|NC|
-T Call of Water|QID|1531|M|43.4,77.4|N|To Brine.|R|Orcs,Tauren,Trolls|C|Shaman|
-A Call of Water|QID|1532|M|43.4,77.4|N|From Brine.|PRE|1531|R|Orcs,Tauren,Trolls|C|Shaman|
+A Call of Water|QID|1535|M|43.4,77.4|N|From Brine.|PRE|1530|R|Orcs,Tauren,Trolls|C|Shaman|
+C Call of Water|QID|1535|M|43.4,77.4|U|7766|L|7769|N|Go to the pond and fill the empty Brown Waterskin.|R|Orcs,Tauren,Trolls|C|Shaman|NC|
+T Call of Water|QID|1535|M|43.4,77.4|N|To Brine.|R|Orcs,Tauren,Trolls|C|Shaman|
+A Call of Water|QID|1536|M|43.4,77.4|N|From Brine.|PRE|1531|R|Orcs,Tauren,Trolls|C|Shaman|
 N Water Totem class quest|ACTIVE|1536|N|At this point, you'll be doing some traveling to complete a few of these quests.|R|Orcs,Tauren,Trolls|C|Shaman|
 R Camp Taurajo|ACTIVE|1536|M|46.29,58.00|R|Orcs,Tauren,Trolls|C|Shaman|
 F Crossroads|ACTIVE|876|M|44.46,59.14|N|Fly to Crossroads.|R|Orcs,Tauren,Trolls|C|Shaman|
