@@ -2323,6 +2323,12 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     achflip = WoWPro.toboolean(achflip)
                     achall = WoWPro.toboolean(achall)
                     if achitem == "" or achitem == "0" then achitem = nil end
+                    if not _G.C_AchievementInfo.IsValidAchievement(tonumber(achnum)) then
+                        why = "NextStep(): "..achnum.." is not valid. Punting on: "..aval
+                        WoWPro:dbp(why)
+                        achcheck = false
+                        break
+                    end
                     if not achitem then
                         local _, Name, _, Completed, _, _, _, _, _, _, _, _, wasEarnedByMe = _G.GetAchievementInfo(achnum)
                         if achall then
@@ -2439,6 +2445,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     WoWPro.why[guideIndex] = why
                 end
             end
+
 			if WoWPro.playerclass and WoWPro.playerclass[guideIndex] then
 				local _, myclass = _G.UnitClass("player")
 				if not WoWPro.SemiMatch(WoWPro.playerclass[guideIndex]:gsub(" ", ""):upper(),myclass) and (stepAction == "A" or stepAction == "T") then
