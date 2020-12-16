@@ -213,7 +213,7 @@ T Touch of Weakness|QID|5658|C|Priest|R|Undead|M|49.28,18.36|Z|Undercity|N|Turn 
 ; Rogue
 T Mennet Carkad|QID|1885|M|83.51,69.10|Z|Undercity|N|To Mennet Carkad in the Rogues' Quarter.|R|Undead|C|Rogue|
 A The Deathstalkers|QID|1886|M|83.51,69.10|Z|Undercity|N|From Mennet Carkad.|PRE|1885|R|Undead|C|Rogue|
-C The Deathstalkers|QID|1886|C|Rogue|N|Leave Undercity through the Sewers and take the road south to Silverpine Forest. Astor Hadren is patrolling the road. Defeat him, get Astor's Letter of Introduction.|R|Undead|C|Rogue|
+C The Deathstalkers|QID|1886|N|Leave Undercity through the Sewers and take the road south to Silverpine Forest. Astor Hadren is patrolling the road. Defeat him, get Astor's Letter of Introduction.|R|Undead|C|Rogue|
 R The Sepulcher|QID|1898|M|45.60,42.50|Z|Silverpine Forest|N|Head south to the Sepulcher.|R|Undead|C|Rogue|
 f The Sepulcher|QID|1898|M|45.62,42.60|Z|Silverpine Forest|N|Karos Razok|TAXI|-The Sepulcher|R|Undead|C|Rogue|
 F Undercity|QID|447|M|45.62,42.60|N|Fly to Undercity.|R|Undead|C|Rogue|
