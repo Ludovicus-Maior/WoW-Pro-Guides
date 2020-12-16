@@ -304,30 +304,33 @@ T Report to the Queen|QID|59821|M|50.86,31.82|Z|The Canopy@Heart of the Forest!D
 ;Chapter 5.
 N Renown Level 11|AVAILABLE|58787|N|You must reach Renown level 11 to continue to the next chapter.|COV|Night Fae|REN|-11|
 A The Speaker of Elune|QID|58610|M|45.47,39.85|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera. Talk to Shimmerwing to leave the Audience Chambers.|PRE|59821|COV|Night Fae|REN|11|
-C The Speaker of Elune|QID|58610|M|40.35,51.20|Z|Ardenweald!The Shadowlands|N|Speak with Thiernax|COV|Night Fae|
+C The Speaker of Elune|QID|58610|M|40.35,51.20|Z|Ardenweald!The Shadowlands|CHAT|N|Speak with Thiernax|COV|Night Fae|
 T The Speaker of Elune|QID|58610|M|40.31,51.18|Z|Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
 A A Little Pruning|QID|58669|M|40.31,51.18|Z|Ardenweald!The Shadowlands|N|From Qadarin.|PRE|58610|COV|Night Fae|REN|11|
 A Broken Webs|QID|58647|M|40.32,51.16|Z|Ardenweald!The Shadowlands|N|From Qadarin.|PRE|58610|COV|Night Fae|REN|11|
 A Spriggan Snares|QID|59008|M|39.11,52.52|Z|Ardenweald!The Shadowlands|N|From Cirrik.|PRE|58610|COV|Night Fae|REN|11|
-C Spriggan Snares|QID|59008|M|39.04,52.60|Z|Ardenweald!The Shadowlands|QO|1|N|Cirrik freed|COV|Night Fae|
-C A Little Pruning|QID|58669|M|38.04,56.10|Z|Ardenweald!The Shadowlands|N|Sicklethorn spriggan slain|COV|Night Fae|
-C Broken Webs|QID|58647|M|37.92,56.29|Z|Ardenweald!The Shadowlands|QO|1|N|North Soulweb repaired|COV|Night Fae|
-C Spriggan Snares|QID|59008|M|37.98,56.89|Z|Ardenweald!The Shadowlands|QO|2|N|Captive rescued|COV|Night Fae|
-C Broken Webs|QID|58647|M|39.17,55.44|Z|Ardenweald!The Shadowlands|QO|2|N|Central Soulweb repaired|COV|Night Fae|
-C Broken Webs|QID|58647|M|40.72,56.18|Z|Ardenweald!The Shadowlands|QO|3|N|South Soulweb repaired|COV|Night Fae|
+C Spriggan Snares|QID|59008|M|39.04,52.60|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Cirrik freed|COV|Night Fae|
+C Spriggan Snares|QID|59008|M|37.98,56.89|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Captive rescued|COV|Night Fae|S|
+C A Little Pruning|QID|58669|M|38.04,56.10|Z|Ardenweald!The Shadowlands|N|Sicklethorn spriggan slain|COV|Night Fae|S|
+C Broken Webs|QID|58647|M|37.92,56.29|Z|Ardenweald!The Shadowlands|QO|1|NC|N|North Soulweb repaired|COV|Night Fae|
+C Broken Webs|QID|58647|M|39.17,55.44|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Central Soulweb repaired|COV|Night Fae|
+C Broken Webs|QID|58647|M|40.72,56.18|Z|Ardenweald!The Shadowlands|QO|3|NC|N|South Soulweb repaired|COV|Night Fae|
+C Spriggan Snares|QID|59008|M|37.98,56.89|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Captive rescued|COV|Night Fae|US|
+C A Little Pruning|QID|58669|M|38.04,56.10|Z|Ardenweald!The Shadowlands|N|Sicklethorn spriggan slain|COV|Night Fae|US|
 T A Little Pruning|QID|58669|M|40.65,56.16|Z|Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
 T Broken Webs|QID|58647|M|40.65,56.16|Z|Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
 T Spriggan Snares|QID|59008|M|40.65,56.16|Z|Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
 A The Garden of Night|QID|58704|M|40.65,56.16|Z|Ardenweald!The Shadowlands|N|From Qadarin.|PRE|59008|COV|Night Fae|REN|11|
 C The Garden of Night|QID|58704|M|39.87,57.64|Z|Ardenweald!The Shadowlands|QO|1|N|Inner garden reached|COV|Night Fae|
-C The Garden of Night|QID|58704|M|39.06,59.33|Z|Ardenweald!The Shadowlands|QO|2|N|Speak with Thiernax|COV|Night Fae|
+C The Garden of Night|QID|58704|M|39.06,59.33|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak with Thiernax|COV|Night Fae|
 C The Garden of Night|QID|58704|M|39.21,59.34|Z|Ardenweald!The Shadowlands|QO|3|N|Slay invading spriggans and leader|COV|Night Fae|
 T The Garden of Night|QID|58704|M|39.11,59.39|Z|Ardenweald!The Shadowlands|N|To Thiernax.|COV|Night Fae|
 A Broken Harts|QID|58871|M|39.11,59.39|Z|Ardenweald!The Shadowlands|N|From Thiernax.|PRE|58704|COV|Night Fae|REN|11|
-C Broken Harts|QID|58871|M|38.66,70.91|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|N|Speak with Lord Herne|COV|Night Fae|
-C Broken Harts|QID|58871|M|43.51,37.41|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|N|Listen to Lady Moonberry|COV|Night Fae|
+C Broken Harts|QID|58871|M|38.66,70.91|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak with Lord Herne|COV|Night Fae|
+C Broken Harts|QID|58871|M|43.51,37.41|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Listen to Lady Moonberry|COV|Night Fae|
 T Broken Harts|QID|58871|M|43.51,37.41|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
 A Archivist on the Edge|QID|59725|M|43.51,37.41|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|58871|COV|Night Fae|REN|11|
+F Tirna Vaal|ACTIVE|59725|M|51.54,8.33|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Tirna Vaal.|COV|Night Fae|REN|11|
 T Archivist on the Edge|QID|59725|M|63.64,22.73|Z|Ardenweald!The Shadowlands|N|To Archivist Dreyden.|COV|Night Fae|
 A Curses!|QID|59063|M|63.64,22.73|Z|Ardenweald!The Shadowlands|N|From Archivist Dreyden.|COV|Night Fae|REN|11|
 C Curses!|QID|59063|M|61.07,25.73|Z|Ardenweald!The Shadowlands|N|Sealed Scroll of Soul Rot obtained|COV|Night Fae|
@@ -335,18 +338,20 @@ T Curses!|QID|59063|M|44.30,37.02|Z|The Trunk@Heart of the Forest!Dungeon|N|To L
 A A Secret Never Spoken|QID|59068|M|44.30,37.02|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|59063|COV|Night Fae|REN|11|
 A A Sacrifice of Anima|QID|59070|M|44.30,37.02|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|59063|COV|Night Fae|REN|11|
 A A Token of Lost Love|QID|59069|M|44.54,37.82|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|59063|COV|Night Fae|REN|11|
-C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|1|N|Ask Watcher Vesperbloom for a Secret|COV|Night Fae|
+C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Ask Watcher Vesperbloom for a Secret|COV|Night Fae|
 C A Secret Never Spoken|QID|59068|M|54.35,46.13|Z|Ardenweald!The Shadowlands|QO|2|N|Book of Secrets Obtained|COV|Night Fae|
-C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|3|N|Speak with Watcher Vesperbloom|COV|Night Fae|
-C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|4|N|Secret Never Spoken obtained|COV|Night Fae|
+C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|3|CHAT|N|Speak with Watcher Vesperbloom|COV|Night Fae|
+C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|4|NC|N|Secret Never Spoken obtained|COV|Night Fae|
 T A Secret Never Spoken|QID|59068|M|44.02,37.33|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
 C A Sacrifice of Anima|QID|59070|M|27.62,53.74|Z|Ardenweald!The Shadowlands|N|Mischief-touched Anima collected|COV|Night Fae|
 T A Sacrifice of Anima|QID|59070|M|43.94,36.71|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
-C A Token of Lost Love|QID|59069|M|27.06,21.47|Z|Twilight Highlands|QO|1|N|Speak with Alexstrasza|COV|Night Fae|
-C A Token of Lost Love|QID|59069|M|27.09,21.13|Z|Twilight Highlands|QO|2|N|Token of Lost Love obtained|COV|Night Fae|
+F Oribos|ACTIVE|59069|M|51.54,8.33|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Oribos.|COV|Night Fae|REN|11|
+P Stormwind City|ACTIVE|59069|M|20.95,46.04|Z|Ring of Fates@Oribos|N|Take the portal to Stormwind.|COV|Night Fae|
+C A Token of Lost Love|QID|59069|M|26.68,21.66|Z|Twilight Highlands|QO|1|CHAT|N|Speak with Alexstrasza|COV|Night Fae|
+C A Token of Lost Love|QID|59069|M|27.09,21.13|Z|Twilight Highlands|QO|2|NC|N|Token of Lost Love obtained|COV|Night Fae|
 T A Token of Lost Love|QID|59069|M|44.51,38.89|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
 A Mending a Broken Hart|QID|59071|M|43.87,37.56|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|59068^59069^59070|COV|Night Fae|REN|11|
-C Mending a Broken Hart|QID|59071|M|43.88,37.77|Z|The Trunk@Heart of the Forest!Dungeon|N|Perform Counter curse|COV|Night Fae|
+C Mending a Broken Hart|QID|59071|M|43.88,37.77|Z|The Trunk@Heart of the Forest!Dungeon|NC|N|Use the "[color=40C7EB]Cast Counter Curse[/color]" button.|EAB|COV|Night Fae|
 T Mending a Broken Hart|QID|59071|M|44.91,37.22|Z|The Trunk@Heart of the Forest!Dungeon|N|To Thiernax.|COV|Night Fae|
 
 ;Chapter 6
@@ -1265,10 +1270,10 @@ A Combing the Catacombs|QID|58326|M|65.92,32.29|Z|Revendreth|N|From Guard Captai
 C Combing the Catacombs|QID|58326|M|65.85,29.80|Z|Revendreth|QO|1|N|Kill the Manifestations.|S|COV|Venthyr|
 C Sinstone Rampagers|QID|58326|M|64.77,27.80|Z|Revendreth|QO|2|N|Kill the Sinstone Rampagers.|S|COV|Venthyr|
 C Break Out|QID|58337|M|65.16,26.81|Z|Revendreth|U|174040|NC|N|Use your chains of regret to capture Escaped Captives.\n\nYou can have more than 1 but each one gives 10% reduction in speed.\n\nReturn them to their cells located around the area.|S|COV|Venthyr|
-C Watcher Emil|QID|58325|M|65.06,26.85|Z|Revendreth|QO|2|U|174040|NC|N|Down in the catacomb. Click the tome on the ground.|COV|Venthyr|
+C Watcher Emil|QID|58325|M|65.06,26.85|Z|Revendreth|QO|2|NC|N|Down in the catacomb. Click the tome on the ground.|COV|Venthyr|
 C Break Out|QID|58337|M|65.16,26.81|Z|Revendreth|U|174040|NC|N|Use your chains of regret to capture Escaped Captives.\n\nYou can have more than 1 but each one gives 10% reduction in speed.\n\nReturn them to their cells located around the area.|US|COV|Venthyr|
 C Sinstone Rampagers|QID|58326|M|64.77,27.80|Z|Revendreth|QO|2|N|Kill the Sinstone Rampagers.|US|COV|Venthyr|
-C Watcher Emil|QID|58325|M|65.94,29.56|Z|Revendreth|QO|3|U|174040|NC|N|Watcher Emil found.|COV|Venthyr|
+C Watcher Emil|QID|58325|M|65.94,29.56|Z|Revendreth|QO|3|NC|N|Watcher Emil found.|COV|Venthyr|
 T Watcher Emil|QID|58325|M|65.93,28.85|Z|Revendreth|N|To Watcher Emil.|COV|Venthyr|
 A Lead the Way|QID|58372|PRE|58325|M|65.93,28.85|Z|Revendreth|N|From Watcher Emil.|COV|Venthyr|REN|11|
 C Lead the Way|QID|58372|M|65.93,28.85|Z|Revendreth|QO|1|NC|N|Speak to Watcher Emil.|COV|Venthyr|
@@ -1301,7 +1306,7 @@ C Mirror, Mirror...|QID|58440|M|78.47,39.09|Z|Revendreth|QO|4|NC|N|Use your Door
 P Crypt of the Forgotten|ACTIVE|58440|M|77.81,38.42|Z|Revendreth|N|Run back through the mirror.|COV|Venthyr|
 T Mirror, Mirror...|QID|58440|M|72.73,37.64|Z|Revendreth|N|To The Curator.|COV|Venthyr|
 A Return to Sinfall|QID|58444|PRE|58440|M|72.73,37.64|Z|Revendreth|N|From The Curator.|COV|Venthyr|REN|11|
-F Sinfall|ACTIVE|58444|M|71.58,40.05|Z|Revendreth|N|Fly back to Sinfall.|COV|Venthyr|
+F Sinfall|ACTIVE|58444|M|71.58,40.05|Z|Revendreth|N|Fly or hearth back to Sinfall.|COV|Venthyr|
 T Return to Sinfall|QID|58444|M|51.72,37.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 
 ; Chapter 6
