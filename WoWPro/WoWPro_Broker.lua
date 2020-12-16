@@ -2325,7 +2325,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     if achitem == "" or achitem == "0" then achitem = nil end
                     if not _G.C_AchievementInfo.IsValidAchievement(tonumber(achnum)) then
                         why = "NextStep(): "..achnum.." is not valid. Punting on: "..aval
-                        WoWPro:dbp(why)
+                        WoWPro:print(why)
                         achcheck = false
                         break
                     end
