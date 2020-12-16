@@ -1,3 +1,21 @@
+# Release 9.0.2-A6 / (1.13.6-D6)
+## Bug Fixes
+* Added new DevMode for improved guide checking
+* Crash processing ZONE_CHANGE right after login (Thanks @Gregory)
+* Crash with Abominable Stitching (Thanks @Ookami313 )
+## Guide Updates
+### Retail
+* Achievements: New Blanchy Guide!
+* Dailies: Tillers update
+* Alliance: Perfection :-)!
+* Horde: INTRO_Tauren, FrostFire
+* Neutral: Valley_of_the_Four_Winds
+* Shadowlands: Covenant, Maw_Intro, Revendreth
+* Professions: SL (BS, Eng, LW, TL), BFA LW
+### Classic
+* Alliance: Teldrassil, Redridge, Elidion_Chapter_III
+* Horde: Mulgore, Tirisfal_Glades, Silverpine_Forest, The Barrens, HordeChapter2
+
 # Release 9.0.2-A5 / (1.13.6-D5)
 ## Bug Fixes
 * Moved Version and Class debug lines to end of log, so they dont get lost
