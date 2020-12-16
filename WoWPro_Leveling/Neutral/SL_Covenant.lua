@@ -1052,8 +1052,8 @@ C Sinfall|QID|59314|M|29.35,42.67|Z|Sinfall Reaches@Sinfall!Dungeon|QO|2|NC|N|Ta
 T Sinfall|QID|59314|M|25.87,55.75|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 A The Court of Harvesters|QID|59315|M|25.87,55.75|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|59314|COV|Venthyr|
 C The Court of Harvesters|QID|59315|M|51.76,37.57|Z|Sinfall Reaches@Sinfall!Dungeon|QO|1|NC|N|Walk with Prince Renathal.|COV|Venthyr|
-C The Court of Harvesters|QID|59315|M|50.49,35.14|Z|Sinfall Reaches@Sinfall!Dungeon|QO|2|NC|N|Use Action Ability "[color=40C7EB]Oath of the Harvesters[/color]" to swear your oath to the Accuser.|EAB|COV|Venthyr|
-C The Court of Harvesters|QID|59315|M|52.05,40.59|Z|Sinfall Reaches@Sinfall!Dungeon|QO|3|NC|N|Use Action Ability "[color=40C7EB]Oath of the Harvesters[/color]" to swear your oath to the Accuser.|EAB|COV|Venthyr|
+C The Court of Harvesters|QID|59315|M|50.49,35.14|Z|Sinfall Reaches@Sinfall!Dungeon|QO|2|NC|N|Stand in front of the Accuser and use Action Ability "[color=40C7EB]Oath of the Harvesters[/color]".|EAB|COV|Venthyr|
+C The Court of Harvesters|QID|59315|M|52.05,40.59|Z|Sinfall Reaches@Sinfall!Dungeon|QO|3|NC|N|Stand in front of the Curatorn and use Action Ability "[color=40C7EB]Oath of the Harvesters[/color]".|EAB|COV|Venthyr|
 T The Court of Harvesters|QID|59315|M|51.77,37.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 A Sacred Covenant|QID|59321|M|51.77,37.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|59315|COV|Venthyr|
 C Sacred Covenant|QID|59321|M|36.73,48.08|Z|Sinfall Reaches@Sinfall!Dungeon|NC|N|Use the Sinfall Mirror to teleport to the sanctum's lower level.|COV|Venthyr|
@@ -1070,15 +1070,17 @@ C The Court's Bounty|QID|62857|M|55.71,25.98|Z|Sinfall Reaches@Sinfall!Dungeon|C
 T The Court's Bounty|QID|62857|M|55.71,25.98|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Foreman Flatfinger.|COV|Venthyr|
 A A Call to Service|QID|62695|M|55.71,25.98|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Foreman Flatfinger.|PRE|62857|COV|Venthyr|
 C A Call to Service|QID|62695|M|36.73,48.08|Z|Sinfall Reaches@Sinfall!Dungeon|NC|N|Use the Sinfall Mirror to teleport to the sanctum's lower level|COV|Venthyr|
-T A Call to Service|QID|62695|M|62.48,76.56|Z|Sinfall Depths@Sinfall!Dungeon|N|To Rendle.|COV|Venthyr|
+T A Call to Service|QID|62695|M|62.57,76.52|Z|Sinfall Depths@Sinfall!Dungeon|N|To Rendle.|COV|Venthyr|
 A A Calling in Revendreth|QID|62691|AVAILABLE|62902|M|62.48,76.56|Z|Sinfall Depths@Sinfall!Dungeon|N|From Rendle. This is flagged as a daily but must be completed to proceed.|PRE|62695|COV|Venthyr|
-C A Calling in Revendreth|QID|62691|M|62.54,76.69|Z|Sinfall Depths@Sinfall!Dungeon|N|Go out and do 3 world quests.|COV|Venthyr|
+C A Calling in Revendreth|QID|62691|M|70.39,38.50|Z|Sinfall Depths@Sinfall!Dungeon|N|Go out and do 3 world quests.|COV|Venthyr|
 T A Calling in Revendreth|QID|62691|M|62.54,76.69|Z|Sinfall Depths@Sinfall!Dungeon|N|To Rendle.|COV|Venthyr|
 A Anima is Power|QID|62902|M|62.54,76.69|Z|Sinfall Depths@Sinfall!Dungeon|N|From Rendle.|PRE|62695|COV|Venthyr|
 P Anima is Power|ACTIVE|62902|M|70.37,38.35|Z|Sinfall Depths@Sinfall!Dungeon|IZ|1700|N|Use the Sinfall Mirror to teleport to the sanctum's upper level.|COV|Venthyr|
 T Anima is Power|QID|62902|M|55.71,26.05|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Foreman Flatfinger.|COV|Venthyr|
 A Into the Reservoir|QID|62903|M|55.71,26.05|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Foreman Flatfinger.|PRE|62902|COV|Venthyr|
-C Into the Reservoir|QID|62903|M|55.71,26.05|Z|Sinfall Reaches@Sinfall!Dungeon|NC|N|Interact with Foreman Flatfinger to bring up the Renown window. Click the Deposit button.|COV|Venthyr|
+C Into the Reservoir|QID|62903|QO|1|M|55.71,26.05|Z|Sinfall Reaches@Sinfall!Dungeon|NC|N|Interact with Foreman Flatfinger to bring up the Renown window. Click the Deposit button.|COV|Venthyr|
+f Sinfall|ACTIVE|62915|M|67.27,21.51|Z|Sinfall Reaches@Sinfall!Dungeon|N|At Courier Snaggle.|COV|Venthyr|
+C Into the Reservoir|QID|62903|QO|2|M|55.71,26.05|Z|Sinfall Reaches@Sinfall!Dungeon|NC|N|If you don't have enough anima, go out and do some more WQs or something.|COV|Venthyr|
 T Into the Reservoir|QID|62903|M|55.71,26.05|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Foreman Flatfinger.|COV|Venthyr|
 A The Souls Plight|QID|62904|M|55.71,26.05|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Foreman Flatfinger.|PRE|62903|COV|Venthyr|
 T The Souls Plight|QID|62904|M|45.46,28.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Tenaval.|COV|Venthyr|
@@ -1094,8 +1096,10 @@ A Rule 1: Have an Escape Plan|QID|60287|M|46.91,41.70|Z|The Maw|N|From Ve'nari.|
 C Collect Stygia|QID|60287|M|32.19,40.17|Z|The Maw|QO|3|N|Killing enemies, and objectives around will earn you Stygia, also elites drop more.|S|COV|Venthyr|
 C Rule 1: Have an Escape Plan|QID|60287|M|32.19,40.17|Z|The Maw|QO|1|NC|N|Look for Souls trapped in cages, click the cages and then click the souls. You can also rarely find one roaming around.|COV|Venthyr|
 C Collect Stygia|QID|60287|M|32.19,40.17|Z|The Maw|QO|3|N|Killing enemies, and objectives around will earn you Stygia, also elites drop more.|US|COV|Venthyr|
+A Constellan Writ|QID|63132|M|32.19,40.17|Z|The Maw|N|Continue killing enemies until this item drops and you get the quest.|COV|Venthyr|
 C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 60 Stygia.|COV|Venthyr|
 T Rule 1: Have an Escape Plan|QID|60287|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Venthyr|
+t Constellan Writ|QID|63132|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Venthyr|
 A Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60287|COV|Venthyr|
 C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|The Maw|QO|1<1|U|184314|T|Soul Ward|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Venthyr|
 C Rule 2: Keep a Low Profile|QID|61355|M|48.20,40.21|Z|The Maw|QO|1<2|U|184314|T|Soul Ward|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Venthyr|
