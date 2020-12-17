@@ -18,6 +18,7 @@ N Favorite Food|QID|30535|N|Each friend has a favorite food that you can only gi
 N Cooking|AVAILABLE|31311|N|The favorite meals for the various friends require Pandaren Cuisine (The Way of...) lv 25. If you plan on cooking the food yourself, you'll need the Cooking skill and the recipes. The Pandarian Cooking guide will get you these recipes.|JUMP|Pandaren Cooking|P|Cooking;185;4+0| ; They do not have Cooking Skill
 N Pandaren Cooking guide|AVAILABLE|31311|N|The Pandaren Cooking guide will get you to where you need to be.|JUMP|Pandaren Cooking|P|Cooking;185;4+25;1| ; They have the Cooking skill started but may not have the recipes required.
 N Available Quests|QID|30535|N|Because quests are given at various Friendship levels and Tiller Rep levels, you can accept a quest whenever you see it; whether or not the guide tells you to (Except the daily turn in of Lost Treasure as discussed earlier). Those will be designated by a blue "?" instead of a blue "!".|
+N Two locations|QID|30535|N|Every day, one friend will be at the Halfhill Market for the day instead of at The Heartland. They will be one of the two friends that will offer you a daily quest. The coordinates to each friend's location will be in Heartland.\n[color=FF0000]NOTE: [/color]Gina and Jogu will always be at the Market; they only have one location.|
 N One-time Quests|QID|30535|N|Most of the friends offer various, one-time quests based on your Friendship level with them (Stranger/Acquaintance/Buddy/Friend/Good Friend/Best Friend). There is no immediate need to finish the quests; unless you're turning in lots of Dark Soil treasures. If that's the case, turn in the quest first before doing the treasures.\nYou'll probably want to keep an eye on your Friendship levels as you do your turn-ins to avoid wasting Friendship ("U" key by default).|
 N Growing the Farm|QID|30535|N|To unlock more farming plots, accept and complete the "Growing the Farm" quests from Farmer Yoon as soon as you can.|
 N RANK|QID|30257|N|Do the guide on Rank 2 if you want to skip the share food with the friends quests, Set to Rank 1 if you also want to skip the cooking quests.|
@@ -64,15 +65,15 @@ A Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|44.14,34.27|N|From Mu
 t Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|44.17,34.21|N|This can't be completed or turned in until the next day. If Mung-Mung is not at the market he will be back at the Mudclaw Farm, (where the green dot is.)|
 
 ;FARMER FUNG's VOTE - 4500 Revered
-A Farmer Fung's Vote I: Yak Attack|QID|30517|M|52.20,48.86|N|From Farmer Yoon. This quest is offered after 4500 revered, you will have to manually check it off before then.|REP|The Tillers;1272;revered;4500|
-t Farmer Fung's Vote I: Yak Attack|QID|30517|M|48.2,33.8|N|To Farmer Fung.|
-A Farmer Fung's Vote II: On the Loose|QID|30518|M|48.2,33.8|N|From Farmer Fung.|PRE|30517|
-t Farmer Fung's Vote II: On the Loose|QID|30518|M|48.2,33.8|N|To Farmer Fung.|
-A Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.2,33.8|N|From Farmer Fung.|PRE|30518|
-t Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.2,33.8|N|If Farmer Fung is not at the market he is on his farm, (where the green dot is).|
+A Farmer Fung's Vote I: Yak Attack|QID|30517|M|48.28,33.86|N|From Farmer Yoon. This quest is offered after 4500 revered, you will have to manually check it off before then.|REP|The Tillers;1272;revered;4500|
+t Farmer Fung's Vote I: Yak Attack|QID|30517|M|48.28,33.86|N|To Farmer Fung.|
+A Farmer Fung's Vote II: On the Loose|QID|30518|M|48.28,33.86|N|From Farmer Fung.|PRE|30517|
+t Farmer Fung's Vote II: On the Loose|QID|30518|M|48.28,33.86|N|To Farmer Fung.|
+A Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.28,33.86|N|From Farmer Fung.|PRE|30518|
+t Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.28,33.86|N|If Farmer Fung is not at the market he is on his farm, (where the green dot is).|
 
 ;NANA'S VOTE - 8400 Revered - only in town as Nana is always in town
-A Nana's Vote I: Nana's Secret Recipe|QID|30519|M|52.20,48.86|N|From Farmer Yoon.|REP|The Tillers;1272;revered;8400|
+A Nana's Vote I: Nana's Secret Recipe|QID|30519|M|52.26,48.79|N|From Farmer Yoon.|REP|The Tillers;1272;revered;8400|
 T Nana's Vote I: Nana's Secret Recipe|QID|30519|M|54.6,47|N|To Nana Mudclaw.|
 A Nana's Vote II: The Sacred Springs|QID|31948|M|54.6,47|N|From Nana Mudclaw.|PRE|30519|
 t Nana's Vote II: The Sacred Springs|QID|31948|M|54.6,47|N|To Nana Mudclaw.|
@@ -80,11 +81,11 @@ A Nana's Vote III: Witchberry Julep|QID|31949|M|54.6,47|N|From Nana Mudclaw.|PRE
 t Nana's Vote III: Witchberry Julep|QID|31949|M|54.6,47|N|To Nana Mudclaw.|
 
 ;HAOHAN'S VOTE - 16800 Revered - only in town as it's all (except the one step) done with farmer yoon (who is in town)
-A Haohan's Vote I: Bungalow Break-In|QID|30521|M|52.20,48.86|N|From Farmer Yoon.|REP|The Tillers;1272;revered;16800|
+A Haohan's Vote I: Bungalow Break-In|QID|30521|M|52.26,48.79|N|From Farmer Yoon.|REP|The Tillers;1272;revered;16800|
 A Haohan's Vote II: The Real Culprits|QID|30522|M|44.6,34|N|Go investigate the shed, if you find something maybe he will be happier.|PRE|30521|
-A Haohan's Vote III: Pure Poison|QID|30525|M|52.20,48.86|N|From Farmer Yoon.|PRE|30522|
-A Haohan's Vote IV: Melons For Felons|QID|30527|M|52.20,48.86|N|From Farmer Yoon.|PRE|30525|
-A Haohan's Vote V: Chief Yip-Yip|QID|30528|M|52.20,48.86|N|From Farmer Yoon. you may have to leave the farm area and come back for this to show up.|PRE|30527| ; -- REP 20,000 Revered
+A Haohan's Vote III: Pure Poison|QID|30525|M|52.26,48.79|N|From Farmer Yoon.|PRE|30522|
+A Haohan's Vote IV: Melons For Felons|QID|30527|M|52.26,48.79|N|From Farmer Yoon.|PRE|30525|
+A Haohan's Vote V: Chief Yip-Yip|QID|30528|M|52.26,48.79|N|From Farmer Yoon. you may have to leave the farm area and come back for this to show up.|PRE|30527| ; -- REP 20,000 Revered
 K Chief Yip-Yip|ACTIVE|30528|M|32.4,20.4|QO|1|N|Head to the cave, use your 'extra action' button whenever its available (not grey) to temporarily weaken him, kill him while he is weak.|T|Chief Yip-Yip|
 
 ;pick up quests
@@ -196,7 +197,7 @@ T Which Berries? Witchberries.|QID|31943|M|52.25,48.80|N|To Farmer Yoon.|
 T Why Not Scallions?|QID|31671|M|52.25,48.80|N|To Farmer Yoon.|
 
 C Nana's Vote III: Witchberry Julep|QID|31949|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1 .The next day you can harvest and deliver them to Nana.|U|89326|NC|
-C Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Farmer Fung.|U|79102|NC|
+C Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Farmer Fung.|T|Tilled Soil|U|79102|NC|
 C Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Mung-Mung.|T|Tilled Soil|U|80590|NC|
 C Haohan's Vote IV: Melons For Felons|QID|30527|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Haohan Mudclaw.|U|89329|NC|
 A Unstable Portal Shard|QID|31315|M|52.03,48.32|L|91806|N|{not actually a quest) After planting, be sure and take care of the pests so it is stable. Results in a random, one time use soulbound portal shard to one of your faction's cities on EK/Kalimdor (stones stack to 20). Check this step off manually.|U|91806|NC|PRE|32198|O| ; -- QID,? using 31315 since it is the final quest in the whole Tillers chain --32198 is not active at this point since this is the reward from it...- Grail is wrong on |PRE|31314| as I have gotten this item before completing 31314.
@@ -232,15 +233,14 @@ C A Worthy Brew|QID|31538|M|55.29,50.80|N|Have Chen taste it (he is inside the i
 C Water, Water Everywhere|QID|30317|M|56.39,50.24|N|Talk to Wing Nga (flightmaster) for a kite. You are looking for circles on the ground to drop water on with the "1" key.|NC|
 
 A A Dish for Farmer Fung|QID|30421|M|48.3,33.8|N|To Farmer Fung - Wildfowl Roast - Marsh Lily. Check this off manually if you have no food or treasure for him.|PRE|30257|REP|Farmer Fung;1283;Stranger-Good Friend|RANK|3|
-C Farmer Fung's Vote II: On the Loose|QID|30518|M|50.2,38.4;50.48,34.85|CN|N|Bring 6 yaks back to Farmer Fung's pen.|NC|
 C Talk to Farmer Fung|QID|31534|M|48,34|QO|4|N|In the market or at his farm (where the green dot is).|CHAT|
-T Farmer Fung's Vote I: Yak Attack|QID|30517|M|48.2,33.8|N|To Farmer Fung.|
-A Farmer Fung's Vote II: On the Loose|QID|30518|M|48.2,33.8|N|From Farmer Fung.|PRE|30517|
-C Farmer Fung's Vote II: On the Loose|QID|30518|M|51.6,38.4|N|Gather the Escaped Shagskin Yaks to the pen.|
-T Farmer Fung's Vote II: On the Loose|QID|30518|M|48.2,33.8|N|To Farmer Fung.|
-A Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.2,33.8|N|From Farmer Fung.|PRE|30518|
+T Farmer Fung's Vote I: Yak Attack|QID|30517|M|48.28,33.86|N|To Farmer Fung.|
+A Farmer Fung's Vote II: On the Loose|QID|30518|M|48.28,33.86|N|From Farmer Fung.|PRE|30517|
+C Farmer Fung's Vote II: On the Loose|QID|30518|M|50.46,37.27;50.45,34.84|CC|N|Jump on the Escaped Shagskin and ride it back to the pen; rinse and repeat five times.|V|
+T Farmer Fung's Vote II: On the Loose|QID|30518|M|48.28,33.86|N|To Farmer Fung.|
+A Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.28,33.86|N|From Farmer Fung.|PRE|30518|
 C Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|N|Plant and harvest Green Cabbages, this will take till tomorrow. Plant them and skip this step for later.|
-t Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.2,33.8|N|If Farmer Fung is not at the market, he is on his farm (where the green dot is).|
+t Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.28,33.86|
 C Lost Sheepie... Again|QID|31339|M|47,37|N|Pick up the sheep and take it home.|NC|
 A A Dish for Tina|QID|30433|M|45.1,33.8|N|To Tina Mudclaw - Fire Spirit Salmon - Ruby Shard. Check this off manually if you have no food or treasure for her.|PRE|30257|REP|Tina Mudclaw;1280;Stranger-Good Friend|RANK|3|
 A A Dish for Haohan|QID|30414|M|44.6,34.1|N|To Haohan Mudclaw - Charbroiled Tiger Steak - Ruby Shard. Check this off manually if you have no food or treasure for him.|PRE|30257|REP|Haohan Mudclaw;1279;Stranger-Good Friend|RANK|3|
@@ -277,7 +277,7 @@ C Lost Sheepie|QID|31338|M|34,38|N|Pick up the sheep and take it home.|NC|
 
 ;do quests - skyrange area
 C Oh Sheepie...|QID|31340|M|30.2,43.6|N|Pick up whats left of Sheepie and take it home.|NC|
-C The Kunzen Hunter-Chief|QID|30336|M|31,48|N|The name varies, kill whoever the hozen is on this tier of the mountain.|
+K The Kunzen Hunter-Chief|QID|30336|M|30.45,46.38|QO|1|N|The name varies, kill whoever the hozen is on this tier of the mountain.|
 C A Wolf In Sheep's Clothing|QID|31341|M|30,32|N|Use the sheepskin (in a cleared area) to summon the wolf, Kill him.|U|86465|
 C You Have to Burn the Ropes|QID|30327|M|30.67,44.43|N|Coils of rope on the ground.|S|NC|
 C Fatty Goatsteak|QID|30332|M|30.12,44.69|N|Kill goats, don't put your back to the drop off, they knock back, loot them. Good quest to group for since the meat will drop for everyone in the group and it reduces competition for the somewhat slow spawn.|S|
@@ -373,10 +373,10 @@ T The Kunzen Hunter-Chief|QID|30336|M|52.92,51.83|N|To Farmer Yoon.|REP|The Till
 T Simian Sabotage|QID|30337|M|52.92,51.83|N|To Farmer Yoon.|REP|The Tillers;1272;Exalted|
 
 T Haohan's Vote I: Bungalow Break-In|QID|30521|M|44.6,34|N|To Haohan Mudclaw.|
-T Haohan's Vote II: The Real Culprits|QID|30522|M|52.20,48.86|N|To Farmer Yoon.|
-T Haohan's Vote III: Pure Poison|QID|30525|M|52.20,48.86|N|To Farmer Yoon.|
-T Haohan's Vote IV: Melons For Felons|QID|30527|M|52.20,48.86|N|To Farmer Yoon.|
-T Haohan's Vote V: Chief Yip-Yip|QID|30528|M|52.20,48.86|N|To Farmer Yoon. A dialog follows which includes a place where you you place your vote in the bowl on the shrine to actually join The Tillers Union.|
+T Haohan's Vote II: The Real Culprits|QID|30522|M|52.26,48.79|N|To Farmer Yoon.|
+T Haohan's Vote III: Pure Poison|QID|30525|M|52.26,48.79|N|To Farmer Yoon.|
+T Haohan's Vote IV: Melons For Felons|QID|30527|M|52.26,48.79|N|To Farmer Yoon.|
+T Haohan's Vote V: Chief Yip-Yip|QID|30528|M|52.26,48.79|N|To Farmer Yoon. A dialog follows which includes a place where you you place your vote in the bowl on the shrine to actually join The Tillers Union.|
 
 ;CLEAR THE WEEDS - 0 Honored
 A Growing the Farm I: The Weeds|QID|30260|M|52.25,48.79|N|From Farmer Yoon.|REP|The Tillers;1272;honored|
@@ -391,15 +391,15 @@ B Grand Commendation|M|53.17,51.86|L|93226|N|Buy the commendation from Gina Mudc
 U Grand Commendation|N|Click on it, it does no good until you use it.|U|93226|PRE|30516|REP|The Tillers;1272;revered;nobonus| ; [Hendo72] No QID?
 
 ;REMOVE THE CART - 0 Revered
-A Growing the Farm II: The Broken Wagon|QID|30523|M|52.20,48.86|N|From Farmer Yoon.|REP|The Tillers;1272;revered|
-T Growing the Farm II: The Broken Wagon|QID|30523|M|41.6,30|N|To Fish Fellreed. If she is not here, she is at the market in Halfhill.|
-A Growing the Farm II: Knock on Wood|QID|30524|M|41.6,30|N|From Fish Fellreed. If she is not here, she is at the market in Halfhill.|PRE|30523|
+A Growing the Farm II: The Broken Wagon|QID|30523|M|52.26,48.79|N|From Farmer Yoon.|REP|The Tillers;1272;revered|
+T Growing the Farm II: The Broken Wagon|QID|30523|M|41.73,30.03|N|To Fish Fellreed. If she is not here, she is at the market in Halfhill.|
+A Growing the Farm II: Knock on Wood|QID|30524|M|41.73,30.03|N|From Fish Fellreed. If she is not here, she is at the market in Halfhill.|PRE|30523|
 C Growing the Farm II: Knock on Wood|QID|30524|M|43,29|N|The planks of wood are in the water surrounded by aggro crabs. Be careful.|
-T Growing the Farm II: Knock on Wood|QID|30524|M|41.6,30|N|To Fish Fellreed. If she is not here, she is at the market in Halfhill.|
+T Growing the Farm II: Knock on Wood|QID|30524|M|41.73,30.03|N|To Fish Fellreed. If she is not here, she is at the market in Halfhill.|
 N Growing the Farm II|AVAILABLE|30533|M|51.71,47.82|N|Check in with Fish at the farm to start a 15 minute timer (buff) for her to finish fixing the wagon, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|BUFF|114483|PRE|30524|
 
 ;REMOVE THE ROCK - 0 Exalted
-A Growing the Farm III: The Mossy Boulder|QID|30529|M|52.20,48.86|N|From Farmer Yoon.|PRE|30528|REP|The Tillers;1272;exalted|
+A Growing the Farm III: The Mossy Boulder|QID|30529|M|52.26,48.79|N|From Farmer Yoon.|PRE|30528|REP|The Tillers;1272;exalted|
 T Growing the Farm III: The Mossy Boulder|QID|30529|M|44.6,34|N|If Haohan is not at the market he can be found on his farm (where the green dot is).|
 C Growing the Farm III|AVAILABLE|30574|M|51.79,47.76|N|Check in with Hoahan to start a 15 min timer for removing the Boulder. You don't have to stay on the farm while Thunder works.|BUFF|114624|PRE|30529|
 
@@ -489,14 +489,14 @@ T A Second Hand|QID|30534|M|52,49|N|To Tillers Shrine.|
 K Enormous Cattail Grouper|M|44.52, 22.76|QO|1|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end. If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|T|Enormous Cattail Grouper|ACH|6552;;true|REP|The Tillers;1272;exalted|
 U Old Map|QID|31312|N|Click on the map to start a quest.|U|86404|ACH|6552;;true|REP|The Tillers;1272;exalted|
 A The Old Map|QID|31312|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm and are exalted with the Tillers.|ACH|6552;;true|REP|The Tillers;1272;exalted|
-T The Old Map|QID|31312|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
-A Just A Folk Story|QID|31313|M|41.6,30|N|From Fish Fellreed.|PRE|31312|
+T The Old Map|QID|31312|M|41.73,30.03|N|To Fish Fellreed in the market or where the green dot is.|
+A Just A Folk Story|QID|31313|M|41.73,30.03|N|From Fish Fellreed.|PRE|31312|
 C Talk to Stonecarver Mac|QID|31313|M|55.2,47.4|QO|2|CHAT|
 C Talk to Old Man Whitewhiskers|QID|31313|M|54.6,47|QO|4|N|He is upstairs.|CHAT|
 C Talk to Grainsorter Pei|QID|31313|M|54.2,44.4|QO|1|CHAT|
 C Talk to Mama Min|QID|31313|M|56.2,45.2|QO|3|N|Inside the house.|CHAT|
-T Just A Folk Story|QID|31313|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
-A Old Man Thistle's Treasure|QID|31314|M|41.6,30|N|From Fish Fellreed. The exit from the cave often bugs out, if your hearthstone is down, you may want to wait a few minutes to do this quest.|PRE|31313|
+T Just A Folk Story|QID|31313|M|41.73,30.03|N|To Fish Fellreed in the market or where the green dot is.|
+A Old Man Thistle's Treasure|QID|31314|M|41.73,30.03|N|From Fish Fellreed. The exit from the cave often bugs out, if your hearthstone is down, you may want to wait a few minutes to do this quest.|PRE|31313|
 C Old Man Thistle's Treasure|QID|31314|M|37.23,23.84|QO|1|N|Click to remove the rubble, you should get discover credit.|NC|
 C Old Man Thistle's Treasure|QID|31314|M|31.4,53.4|QO|2|N|Stealth or kill your way to the end of the cave where a bigger spider and the treasure awaits.|
 T Old Man Thistle's Treasure|QID|31314|M|31.4,53.4|N|To Hidden Treasure.|
