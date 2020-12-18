@@ -18,7 +18,7 @@ N Favorite Food|QID|30535|N|Each friend has a favorite food that you can only gi
 N Cooking|AVAILABLE|31311|N|The favorite meals for the various friends require Pandaren Cuisine (The Way of...) lv 25. If you plan on cooking the food yourself, you'll need the Cooking skill and the recipes. The Pandarian Cooking guide will get you these recipes.|JUMP|Pandaren Cooking|P|Cooking;185;4+0| ; They do not have Cooking Skill
 N Pandaren Cooking guide|AVAILABLE|31311|N|The Pandaren Cooking guide will get you to where you need to be.|JUMP|Pandaren Cooking|P|Cooking;185;4+25;1| ; They have the Cooking skill started but may not have the recipes required.
 N Available Quests|QID|30535|N|Because quests are given at various Friendship levels and Tiller Rep levels, you can accept a quest whenever you see it; whether or not the guide tells you to (Except the daily turn in of Lost Treasure as discussed earlier). Those will be designated by a blue "?" instead of a blue "!".|
-N Two locations|QID|30535|N|Every day, one friend will be at the Halfhill Market for the day instead of at The Heartland. They will be one of the two friends that will offer you a daily quest. The coordinates to each friend's location will be in Heartland.\n[color=FF0000]NOTE: [/color]Gina and Jogu will always be at the Market; they only have one location.|
+N Two locations|QID|30535|N|Every day, two friends will be at the Halfhill Market for the day instead of at The Heartland (Unless they 'live' at the Market) They will offer you a daily quest. The coordinates to each friend's location will be to their usual location.\n[color=FF0000]NOTE: [/color]Gina and Jogu will always be at the Market; they only have one location.|
 N One-time Quests|QID|30535|N|Most of the friends offer various, one-time quests based on your Friendship level with them (Stranger/Acquaintance/Buddy/Friend/Good Friend/Best Friend). There is no immediate need to finish the quests; unless you're turning in lots of Dark Soil treasures. If that's the case, turn in the quest first before doing the treasures.\nYou'll probably want to keep an eye on your Friendship levels as you do your turn-ins to avoid wasting Friendship ("U" key by default).|
 N Growing the Farm|QID|30535|N|To unlock more farming plots, accept and complete the "Growing the Farm" quests from Farmer Yoon as soon as you can.|
 N RANK|QID|30257|N|Do the guide on Rank 2 if you want to skip the share food with the friends quests, Set to Rank 1 if you also want to skip the cooking quests.|
@@ -74,11 +74,11 @@ t Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.28,33.86|N|If Farmer 
 
 ;NANA'S VOTE - 8400 Revered - only in town as Nana is always in town
 A Nana's Vote I: Nana's Secret Recipe|QID|30519|M|52.26,48.79|N|From Farmer Yoon.|REP|The Tillers;1272;revered;8400|
-T Nana's Vote I: Nana's Secret Recipe|QID|30519|M|54.6,47|N|To Nana Mudclaw.|
-A Nana's Vote II: The Sacred Springs|QID|31948|M|54.6,47|N|From Nana Mudclaw.|PRE|30519|
-t Nana's Vote II: The Sacred Springs|QID|31948|M|54.6,47|N|To Nana Mudclaw.|
-A Nana's Vote III: Witchberry Julep|QID|31949|M|54.6,47|N|From Nana Mudclaw.|PRE|31948|
-t Nana's Vote III: Witchberry Julep|QID|31949|M|54.6,47|N|To Nana Mudclaw.|
+T Nana's Vote I: Nana's Secret Recipe|QID|30519|M|54.66,47.04|N|To Nana Mudclaw.|
+A Nana's Vote II: The Sacred Springs|QID|31948|M|54.66,47.04|N|From Nana Mudclaw.|PRE|30519|
+t Nana's Vote II: The Sacred Springs|QID|31948|M|54.66,47.04|N|To Nana Mudclaw.|
+A Nana's Vote III: Witchberry Julep|QID|31949|M|54.66,47.04|N|From Nana Mudclaw.|PRE|31948|
+t Nana's Vote III: Witchberry Julep|QID|31949|M|54.66,47.04|N|To Nana Mudclaw.|
 
 ;HAOHAN'S VOTE - 16800 Revered - only in town as it's all (except the one step) done with farmer yoon (who is in town)
 A Haohan's Vote I: Bungalow Break-In|QID|30521|M|52.26,48.79|N|From Farmer Yoon.|REP|The Tillers;1272;revered;16800|
@@ -103,11 +103,13 @@ N Shopping list|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|
 l Jade Lungfish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30408^30390|M|46.71,87.84|Z|The Jade Forest|L|74856 5|N|In Jade Forest, locate a Jade Lungfish School in the water near Paw'don Glade.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
 l Jade Lungfish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30408&30390|M|46.71,87.84|Z|The Jade Forest|L|74856 10|N|In Jade Forest, locate a Jade Lungfish School in the water near Paw'don Glade.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
 l Reef Octopus|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30402|M|46.71,87.84|Z|The Jade Forest|L|74864 5|N|In Jade Forest, locate a Reef Octopus Swarm in the water all along the shore line\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
-l Wildfowl Breast|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30402^30421|M|57.00,36.80|L|74839 5|N|Kill the cranes in the area to collect them.|
-l Wildfowl Breast|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30402&30421|M|57.00,36.80|L|74839 10|N|Kill the cranes in the area to collect them.|
 l Giant Mantis Shrimp|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30386|M|38.20,77.00|Z|The Jade Forest|L|74857 5|N|In Jade Forest, locate a Giant Mantis Shrimp Swarm in the water along the south coast and north along the east coast.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
 l Krasarang Paddlefish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30421|M|56.50,39.60|L|74865 10|N|In Valley of the Four Winds, locate a Krasarang Paddlefish School in the water anywhere in the area.\nDepending on your luck, this should only take fishing 2 or 3 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|
+l Emperor Salmon|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30433|L|74859 5|N|Locate an Emperor Salmon School anywhere in the water in Valley of the Four Winds.\n[color=FF0000]NOTE: [/color]These are random spawns and may be difficult to find.|
 l Raw Tiger Steak|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30414|M|14.00,74.40|L|74833 5|N|Kill Gorge Stalkers to loot it.|
+l Raw Turtle Meat|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396|M|71.60,51.80|L|74837 5|N|
+l Wildfowl Breast|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30402^30421|M|57.00,36.80|L|74839 5|N|Kill the cranes in the area to collect them.|
+l Wildfowl Breast|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30402&30421|M|57.00,36.80|L|74839 10|N|Kill the cranes in the area to collect them.|
 N Juicycrunch Carrots|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|PLAYER|L|74841 35|N|You have many options to acquire these. You can buy, loot or harvest them.\nUntil you establish your farm, buying may be your best option. Trying to loot 25-35 of them every day, could prove time consuming and difficult.\nFarming them is an option. But, you'll need to balance this with the crops you need to grow for other quests. All dishes combined, you'll need to harvest 17 plants per day.|
 l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396&-30439|M|52.02,48.30|L|74841 25|N|If you prefer, you can grow these on your farm. You'll have to harvest 5 plants/day (depending on which dish you're cooking)|
 l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|-30396&30439|M|52.02,48.30|L|74841 10|N|If you prefer, you can grow these on your farm. You'll have to harvest 2 plants/day (depending on which dish you're cooking)|
@@ -116,9 +118,7 @@ l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^3
 l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396&30439|M|64.13,25.15|Z|Krasarang Wilds|L|74841 35|N|Kill Darnassian Outrider. She respawns every ~60 seconds.\nShe drops 1-3 and her drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of her dropping Red Blossom Leeks instead.|FACTION|Horde|
 l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396^30439|M|70.12,20.56|Z|Krasarang Wilds|L|74841 25|N|Kill Sunwalker Scout. He paths the road in front of The Krasari Ruins. He respawns every ~60 seconds.\nHe drops 1-3 and his drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of him dropping Red Blossom Leeks instead.|FACTION|Alliance|
 l Juicycrunch Carrot|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396&30439|M|70.12,20.56|Z|Krasarang Wilds|L|74841 35|N|Kill Sunwalker Scout. He paths the road in front of The Krasari Ruins. He respawns every ~60 seconds.\nHe drops 1-3 and his drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of him dropping Red Blossom Leeks instead.|FACTION|Alliance|
-l Raw Turtle Meat|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30396|M|71.60,51.80|L|74837 5|N|
 l Striped Melon|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30408|M|52.02,48.30|L|74848 25|N|There is a very slim chance of getting these from a drop. Best bet is to grow them on your farm. You need to harvest 5 plants/day.|
-l Emperor Salmon|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30433|L|74859 5|N|Locate an Emperor Salmon School anywhere in the water in Valley of the Four Winds.\n[color=FF0000]NOTE: [/color]These are random spawns and may be difficult to find.|
 l Scallions|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30433|M|52.02,48.30|L|74843 25|N|There is a very slim chance of getting these from a drop. Best bet is to grow them on your farm. You need to harvest 5 plants/day.|
 
 B Buy or Make 5 Eternal Blossom Fish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|LEAD|30408|L|74645 5|N|This is for Sho. It requires Jade Lungfish x5 and Striped Melon x25.|REP|Sho;1278;Stranger-Good Friend|RANK|3|
@@ -196,27 +196,27 @@ T The Pink Turnip Challenge|QID|31674|M|52.25,48.80|N|To Farmer Yoon.|
 T Which Berries? Witchberries.|QID|31943|M|52.25,48.80|N|To Farmer Yoon.|
 T Why Not Scallions?|QID|31671|M|52.25,48.80|N|To Farmer Yoon.|
 
-C Nana's Vote III: Witchberry Julep|QID|31949|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1 .The next day you can harvest and deliver them to Nana.|U|89326|NC|
-C Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Farmer Fung.|T|Tilled Soil|U|79102|NC|
-C Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Mung-Mung.|T|Tilled Soil|U|80590|NC|
-C Haohan's Vote IV: Melons For Felons|QID|30527|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Haohan Mudclaw.|U|89329|NC|
-A Unstable Portal Shard|QID|31315|M|52.03,48.32|L|91806|N|{not actually a quest) After planting, be sure and take care of the pests so it is stable. Results in a random, one time use soulbound portal shard to one of your faction's cities on EK/Kalimdor (stones stack to 20). Check this step off manually.|U|91806|NC|PRE|32198|O| ; -- QID,? using 31315 since it is the final quest in the whole Tillers chain --32198 is not active at this point since this is the reward from it...- Grail is wrong on |PRE|31314| as I have gotten this item before completing 31314.
+C Nana's Vote III: Witchberry Julep|QID|31949|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1 .The next day you can harvest and deliver them to Nana.|T|Tilled Soil|U|89326|NC|
+C Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Farmer Fung.|T|Tilled Soil|U|79102|NC|
+C Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Mung-Mung.|T|Tilled Soil|U|80590|NC|
+C Haohan's Vote IV: Melons For Felons|QID|30527|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Haohan Mudclaw.|T|Tilled Soil|U|89329|NC|
+A Unstable Portal Shard|QID|31315|M|51.86,48.58|L|91806|N|{not actually a quest) After planting, be sure and take care of the pests so it is stable. Results in a random, one time use soulbound portal shard to one of your faction's cities on EK/Kalimdor (stones stack to 20). Check this step off manually.|T|Tilled Soil|U|91806|NC|PRE|32198|O| ; -- QID,? using 31315 since it is the final quest in the whole Tillers chain --32198 is not active at this point since this is the reward from it...- Grail is wrong on |PRE|31314| as I have gotten this item before completing 31314.
 
 ;plant for work orders
-C Plant 8 Witchberries|QID|32645|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing". The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|89326|NC|
-C Plant 8 White Turnips|QID|32647|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|80595|NC|
-C Plant 8 Cabbages|QID|32649|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|79102|NC|
-C Plant 8 Red Blossom Leeks|QID|32645|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|80593|NC|
-C Plant 8 Striped Melons|QID|32653|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|89329|NC|
-C Plant 8 Pumpkins|QID|32658|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|80592|NC|
-C Plant 8 Scallions|QID|32645|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|80591|NC|
-C Plant 8 Carrots|QID|32645|M|52.03,48.32|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|80590|NC|
+C Plant 8 Witchberries|QID|32645|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing". The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|89326|NC|
+C Plant 8 White Turnips|QID|32647|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|80595|NC|
+C Plant 8 Cabbages|QID|32649|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|79102|NC|
+C Plant 8 Red Blossom Leeks|QID|32645|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|80593|NC|
+C Plant 8 Striped Melons|QID|32653|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|89329|NC|
+C Plant 8 Pumpkins|QID|32658|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|80592|NC|
+C Plant 8 Scallions|QID|32645|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|80591|NC|
+C Plant 8 Carrots|QID|32645|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|80590|NC|
 
 ;turn in work orders
 t Work Order: I|QID|32642^32645^32647^32649^32653^33658^32942^32944|M|52.30,48.68|N|Auto-Completes when you plant the last seed. If you didn't complete a Work Order:xxx II today, you will be immediately offered that quest, (but not able to complete it until tomorrow) if you did one, you will be able to pick up the follow-up tomorrow. The faction reward comes from the Work Order II quest.|
 A Work Order II quest|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|51.60,48.67|N|Auto accepted when you turn in work order I (if you didn't do a work order II that day) or when you harvest your first produce for it. If you want to be safe, you can also pick it up from the empty crate.|PRE|32642^32645^32647^32649^32653^32658^32942^32944|
 
-C Work Order II|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|52.03,48.32|QO|1|N|Harvest the produce. Check off manually if produce not yet grown.|
+C Work Order II|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|51.86,48.58|QO|1|N|Harvest the produce. Check off manually if produce not yet grown.|
 C Work Order II|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|51.60,48.67|QO|2|N|Put the requested produce in the empty crate. Check off manually if not yet harvested.|NC|
 t Work Order II|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|51.60,48.67|N|To 'empty crate' in the wagon by your mailbox at the edge of your farm.|
 
@@ -227,7 +227,7 @@ C Talk to Spicemaster Jin Jao|QID|30322|QO|1|M|56.68,47.11|CHAT|
 C Talk to Trader Jambeezi|QID|30322|M|55.64,49.96|QO|2|N|He walks back and forth between the Inn and the Spicemaster.|CHAT|
 C Talk to Innkeeper Lei Lan|QID|30322|M|55.11,50.41|QO|3|N|The Innkeeper wanders around inside the inn.|CHAT|
 C Talk to Lolo Lio|QID|30322|QO|4|M|55.52,52.07|CHAT|
-C Ella's Taste Test|QID|31537|M|53.6,52.6;52.6,48.0;53.0,52.0;54.6,47.0|CS|N|Offer the drink to each of the 4 people.|U|87558|NC|
+C Ella's Taste Test|QID|31537|M|53.6,52.6;52.6,48.0;53.0,52.0;54.66,47.04|CS|N|Offer the drink to each of the 4 people.|U|87558|NC|
 C Talk to Gina|QID|31534|M|53.17,51.86|QO|2|CHAT|
 C A Worthy Brew|QID|31538|M|55.29,50.80|N|Have Chen taste it (he is inside the inn).|U|87763|NC|
 C Water, Water Everywhere|QID|30317|M|56.39,50.24|N|Talk to Wing Nga (flightmaster) for a kite. You are looking for circles on the ground to drop water on with the "1" key.|NC|
@@ -245,8 +245,8 @@ C Lost Sheepie... Again|QID|31339|M|47,37|N|Pick up the sheep and take it home.|
 A A Dish for Tina|QID|30433|M|45.1,33.8|N|To Tina Mudclaw - Fire Spirit Salmon - Ruby Shard. Check this off manually if you have no food or treasure for her.|PRE|30257|REP|Tina Mudclaw;1280;Stranger-Good Friend|RANK|3|
 A A Dish for Haohan|QID|30414|M|44.6,34.1|N|To Haohan Mudclaw - Charbroiled Tiger Steak - Ruby Shard. Check this off manually if you have no food or treasure for him.|PRE|30257|REP|Haohan Mudclaw;1279;Stranger-Good Friend|RANK|3|
 C Talk to Haohan|QID|31534|M|45,34|QO|1|N|Coords* In the market or at his farm (where the green dot is).|CHAT|
-A Mung-Mung's Vote II: Rotten to the Core|QID|30259|M|44.17,34.21|N|From Mung-Mung.|PRE|30258|
 T Mung-Mung's Vote I: A Hozen's Problem|QID|30258|M|44.17,34.21|N|To Mung-Mung.|
+A Mung-Mung's Vote II: Rotten to the Core|QID|30259|M|44.17,34.21|N|From Mung-Mung.|PRE|30258|
 C Mung-Mung's Vote II: Rotten to the Core|QID|30259|M|42.49,39.99|N|Pick up sparkly carrot bits, avoiding or killing Vermin as you go.|NC|
 T Mung-Mung's Vote II: Rotten to the Core|QID|30259|M|44.14,34.27|N|To Mung-Mung.|
 A Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|44.14,34.27|N|From Mung-Mung.|PRE|30259|
@@ -256,7 +256,7 @@ A A Dish for Fish|QID|30427|M|41.7,30.0|N|To Fish Fellreed - Twin Fish Platter -
 C Talk to Fish|QID|31534|M|41.7,30.0|QO|3|N|In the market or on the dock (where the green dot is).|CHAT|
 K Enormous Cattail Grouper|ACTIVE|30477|M|44.52, 22.76|QO|1|N|Kill and loot the very big fish.|T|Enormous Cattail Grouper|
 K Monstrous Plainshawk|ACTIVE|30475|L|80232|M|41.98,41.92; 45.97,78.98; 37.36,36.98|CN|N|Kill and loot a 'Bloody Plainshawk Leg'. They are all over the place, the green dots are at spots you can pull them if you don't have a way to do long ranged damage.|T|Monstrous Plainshawk|
-C Blue Freshwater Pearl|QID|30476|M|43,28|N|coords* This is found in any of the giant clams in the lake.|
+l Blue Freshwater Pearl|ACTIVE|30476|M|42.54,28.41|QO|1|N|To loot this item, locate a Freshwater Oyster in Cattail Lake and open it.|
 C Pick a Goldenfire Orchid|QID|30479|M|41.98,41.92; 45.97,78.98; 37.36,36.98|CN|N|This is a ground spawn up on this mesa area.|NC|
 
 A Lost and Lonely|QID|30526|M|42.39,49.98|N|From Lost Dog.|REP|The Tillers;1272;revered;12600|
@@ -268,7 +268,7 @@ A Lost Sheepie|QID|31338|M|53,52|N|From Chee Chee|REP|Chee Chee;1277;Buddy| ; --
 A Lost Sheepie... Again|QID|31339|M|53,52|N|From Chee Chee|PRE|31338|REP|Chee Chee;1277;Friend| ; -- 25200
 A Oh Sheepie...|QID|31340|M|53,52|N|From Chee Chee|PRE|31339|REP|Chee Chee;1277;Good Friend| ; -- 33600
 A A Dish for Old Hillpaw|QID|30396|M|30.9,53.1|N|To Old Hillpaw - Braised Turtle - Blue Feather. Check this off manually if you have no food or treasure for him.|PRE|30257|REP|Old Hillpaw;1276;Stranger-Good Friend|RANK|3|
-C Chasing the Chicken|QID|30318|M|31,54|N|Pick up a chicken, follow directions on screen, eventually you will find the prize-winning favorite.|NC|
+C Chasing the Chicken|QID|30318|M|31.71,52.86|N|Pick up a chicken, follow directions on screen, eventually you will find the prize-winning favorite.\n[color=FF0000]NOTE: [/color]They have to be named Hillpaw's Chicken to pick them up.|NC|
 A A Dish for Ella|QID|30386|M|31.5,58.1|N|To Ella - Shrimp Dumplings - Jade Cat. Check this off manually if you have no food or treasure for her.|PRE|30257|REP|Ella;1275;Stranger-Good Friend|RANK|3|
 A The Beginner's Brew|QID|31534|N|From Ella.|REP|Ella;1275;Buddy|M|53,51.6| ; -- 16800
 A Ella's Taste Test|QID|31537|M|53,51.6|N|From Ella.|PRE|31534|REP|Ella;1275;Friend| ; -- 25200
@@ -276,8 +276,9 @@ A A Worthy Brew|QID|31538|M|53,51.6|N|From Ella.|PRE|31537|REP|Ella;1275;Good Fr
 C Lost Sheepie|QID|31338|M|34,38|N|Pick up the sheep and take it home.|NC|
 
 ;do quests - skyrange area
+K Kunzen Hozen|ACTIVE|30335|M|30.58,48.09|QO|1|N|Kill ANY Kunzen Hozen in the area. All Hozen kills count, including Hunter-Chief.|S|
 C Oh Sheepie...|QID|31340|M|30.2,43.6|N|Pick up whats left of Sheepie and take it home.|NC|
-K The Kunzen Hunter-Chief|QID|30336|M|30.45,46.38|QO|1|N|The name varies, kill whoever the hozen is on this tier of the mountain.|
+K The Kunzen Hunter-Chief|ACTIVE|30336|M|30.45,46.38|QO|1|N|The name varies, kill whoever the hozen is on this tier of the mountain.|
 C A Wolf In Sheep's Clothing|QID|31341|M|30,32|N|Use the sheepskin (in a cleared area) to summon the wolf, Kill him.|U|86465|
 C You Have to Burn the Ropes|QID|30327|M|30.67,44.43|N|Coils of rope on the ground.|S|NC|
 C Fatty Goatsteak|QID|30332|M|30.12,44.69|N|Kill goats, don't put your back to the drop off, they knock back, loot them. Good quest to group for since the meat will drop for everyone in the group and it reduces competition for the somewhat slow spawn.|S|
@@ -305,7 +306,6 @@ C The Kunzen Legend-Chief|QID|30326|M|31.40,28.72|N|The name varies, kill whoeve
 C Simian Sabotage|QID|30337|M|32.7,30.6|QO|2|N|Use the provided item here.|U|79885|NC|
 C Simian Sabotage|QID|30337|M|32.2,26.1|QO|3|N|Use the provided item here.|U|79885|NC|
 C Simian Sabotage|QID|30337|M|34.9,21.9|QO|4|N|Use the provided item here.|U|79885|NC|
-C Stalling the Ravage|QID|30335|M|34.01,21.88|
 C The Mile-High Grub|QID|30331|M|32.37,23.80|N|This is channelled for around 20 seconds to make all 20.|U|79895|NC|
 C Cindergut Peppers|QID|30329|M|30,34|N|Drops off of the kunzen mobs you are killing anyway.|US|
 C Not in Chee-Chee's Backyard|QID|30324|M|31.01,28.27|US|
@@ -313,6 +313,7 @@ C Authentic Valley Stir Fry|QID|30471|M|31.93,23.50|N|This can be a ground spawn
 C Yak Statuette|QID|30473|M|34,24|N|This can be a ground spawn or drop from the mobs.|US|
 C Spicy Shrimp Dumplings|QID|30474|M|31.4,34|N|This can be a ground spawn or drop from the mobs.|US|
 C Stealing is Bad... Re-Stealing is OK|QID|30334|M|32.33,26.28|N|Veggies are ground spawn near the huts and under bushes.|US|NC
+K Kunzen Hozen|ACTIVE|30335|M|30.58,48.09|QO|1|N|Kill ANY Kunzen Hozen in the area. All Hozen kills count, including Hunter-Chief.|US|
 
 ;do quests -Ve area
 C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|CN|S|N|Random drops while killing the other mobs for your other quests.|
@@ -331,7 +332,7 @@ C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|CN|N|Random drops whil
 C Mission: Culling The Vermin|QID|31529|M|39,20;44,22;47,21|CN|N|Do this while you are doing the other quests in theVe area.|US|
 C Mission: Aerial Threat|QID|31531|M|45,16|N|These are the birds that are yellow (non-aggro).|
 C Mission: Predator of the Cliffs|QID|31532|M|46.4,16.4|N|This bird is in a nest near the caves.|
-C Nana's Vote II: The Sacred Springs|QID|31948|M|56,21|N|coords* If you're careful and land far enough away, you can fill your pitcher without having to kill the guardian.|U|89902|
+C Nana's Vote II: The Sacred Springs|QID|31948|M|56.83,22.57|N|If you land at the coordinates, you can fill your pitcher without the guardian attacking you.\n[color=FF0000]NOTE: [/color]As long as you stay back from the green rock, you'll be fine.|U|89902|
 
 ;Sho's one time quests|REP|1278
 T Mission: Culling The Vermin|QID|31529|M|29.5,30.6|N|To Sho, if she is not at the market, she will be where the green dot is.|
@@ -492,7 +493,7 @@ A The Old Map|QID|31312|N|From an 'Old Map'. Not available until you earn the ac
 T The Old Map|QID|31312|M|41.73,30.03|N|To Fish Fellreed in the market or where the green dot is.|
 A Just A Folk Story|QID|31313|M|41.73,30.03|N|From Fish Fellreed.|PRE|31312|
 C Talk to Stonecarver Mac|QID|31313|M|55.2,47.4|QO|2|CHAT|
-C Talk to Old Man Whitewhiskers|QID|31313|M|54.6,47|QO|4|N|He is upstairs.|CHAT|
+C Talk to Old Man Whitewhiskers|QID|31313|M|54.81,46.99|QO|4|N|He is upstairs.|CHAT|
 C Talk to Grainsorter Pei|QID|31313|M|54.2,44.4|QO|1|CHAT|
 C Talk to Mama Min|QID|31313|M|56.2,45.2|QO|3|N|Inside the house.|CHAT|
 T Just A Folk Story|QID|31313|M|41.73,30.03|N|To Fish Fellreed in the market or where the green dot is.|
