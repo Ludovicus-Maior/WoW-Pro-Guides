@@ -585,5 +585,26 @@ A The Queen's Request|QID|58724|M|49.05,33.98|Z|The Trunk@Heart of the Forest!Du
 F Oribos|ACTIVE|58724|M|49.32,51.90|Z|Ardenweald!The Shadowlands|N|At Derwynnthlmn.|MS|C|-Mage|
 P Oribos|ACTIVE|58724|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Teleport to Oribos.|MS|C|Mage|
 T The Queen's Request|QID|58724|M|48.98,60.10|Z|Ring of Transference@Oribos|N|To Tal-Inara.|MS|
+
+; Level 60 Sidequest - Thread of Hope
+A Silk Shortage|QID|57661|M|48.48,50.42|Z|Ardenweald!The Shadowlands|N|From Aithlyn.|LVL|60|RANK|2|
+T Silk Shortage|QID|57661|M|38.98,29.93|Z|Ardenweald!The Shadowlands|N|To Caretaker Lillythistle.|
+A Tough as Silk|QID|60061|PRE|57661|M|38.98,29.93|Z|Ardenweald!The Shadowlands|N|From Caretaker Lillythistle.|RANK|2|
+A The Shattered Harp|QID|60062|PRE|57661|M|38.11,28.72|Z|Ardenweald!The Shadowlands|N|From Caretaker Lillythistle.|RANK|2|
+C Tough as Silk|QID|60061|M|38.21,29.17|Z|Ardenweald!The Shadowlands|N|Kill enemies, destroy cacoons and save Night Fae in the area.|S|
+C The Shattered Harp|QID|60062|M|36.40,28.49|Z|Ardenweald!The Shadowlands|N|Kill Briarthorn and loot Harp Pieces.|
+C Tough as Silk|QID|60061|M|38.21,29.17|Z|Ardenweald!The Shadowlands|N|Kill enemies, destroy cacoons and save Night Fae in the area.|US|
+T Tough as Silk|QID|60061|M|38.98,29.93|Z|Ardenweald!The Shadowlands|N|To Caretaker Lillythistle.|
+T The Shattered Harp|QID|60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|
+A A Song for Silkstriders|QID|60063|PRE|60061&60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|From Artisan Rees.|RANK|2|
+A Save Ol' Gertie|QID|60064|PRE|60061&60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|From Artisan Rees.|RANK|2|
+C A Song for Silkstriders|QID|60063|M|35.03,28.70|Z|Ardenweald!The Shadowlands|NC|U|178143|N|Play the harp for the Silkstriders, then click on the Silk in front of them.|
+T A Song for Silkstriders|QID|60063|M|37.05,29.67|Z|Ardenweald!The Shadowlands|N|To Artisan Rees.|
+C Save Ol' Gertie|QID|60064|M|36.36,25.70|Z|Ardenweald!The Shadowlands|N|Kill Noisul of Many Faces.|
+T Save Ol' Gertie|QID|60064|M|37.29,25.97|Z|Ardenweald!The Shadowlands|N|To Gertie Jr.|
+A Thread of Hope|QID|60065|PRE|60063&60064|M|37.29,25.97|Z|Ardenweald!The Shadowlands|N|From Gertie Jr.|RANK|2|
+T Thread of Hope|QID|60065|M|38.97,29.93|Z|Ardenweald!The Shadowlands|N|To Caretaker Lillythistle.|
+A Silk for Ardenweald|QID|60066|PRE|60065|M|38.97,29.93|Z|Ardenweald!The Shadowlands|N|From Caretaker Lillythistle.|RANK|2|
+T Silk for Ardenweald|QID|60066|M|48.48,50.42|Z|Ardenweald!The Shadowlands|N|To Aithlyn.|
 ]]
 end)

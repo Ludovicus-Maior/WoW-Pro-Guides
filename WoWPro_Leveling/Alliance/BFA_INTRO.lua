@@ -8,6 +8,15 @@ WoWPro:GuideNextGuide(guide, 'Tiragarde Sound')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideQuestTriggers(guide, 46727, 58983)
 return [[
+; BFA Intro has 2 different lead-ins depending on which Intro you take, Exiles reach, or racial, DO NOT remove or edit the below section unless you've gone through the racial intro and confirmed something has changed. As of 12/18/2020 it has not.
+A Tides of War|QID|46727|M|62.82,71.75|Z|Stormwind City|N|From Hero's Herald standing near Hero's Call Boards.|ACH|14222;;false|
+C Tides of War|QID|46727|M|80.27,33.13|Z|Stormwind City|QO|1|NC|N|Listen to the council while they discuss their plans.|ACH|14222;;false|
+C Tides of War|QID|46727|M|80.49,33.50|Z|Stormwind City|QO|2|NC|N|Click on the portal to watch the sailors vision.|ACH|14222;;false|
+T Tides of War|QID|46727|M|80.27,33.12|Z|Stormwind City|N|To Anduin Wrynn.|ACH|14222;;false|
+A The Nation of Kul Tiras|QID|46728|M|80.27,33.12|Z|Stormwind City|N|From Anduin Wrynn.|PRE|46727|ACH|14222;;false|
+R Stormwind Harbor|ACTIVE|46728|M|22.15,24.32|Z|Stormwind City|N|Run of fly back down to the docks.|ACH|14222;;false|
+C The Nation of Kul Tiras|QID|46728|M|22.15,24.32|Z|Stormwind City|CHAT|N|Tell Jaina you are ready to go.|ACH|14222;;false|
+T The Nation of Kul Tiras|QID|46728|M|65.59,50.75|Z|Boralus|N|To Lady Jaina Proudmoore.|ACH|14222;;false|
 
 C Battle for Azeroth: Tides of War |QID|58983|M|80.5,33.5|Z|Stormwind City|QO|1|NC|N|To the War Council at Stormwind Keep in Stormwind City. When you arrive inside the Petitioner's Chamber, wait for the dialog to finish.|
 C Battle for Azeroth: Tides of War |QID|58983|M|80.5,33.5|Z|Stormwind City|QO|2|NC|N|Click on the Vision of Sailor's Memory portal.|
