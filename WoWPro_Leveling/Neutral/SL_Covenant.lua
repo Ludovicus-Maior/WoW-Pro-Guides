@@ -99,7 +99,7 @@ C Break a Leg|QID|58157|M|41.43,44.78|Z|Ardenweald!The Shadowlands|QO|5|N|Stand 
 C Break a Leg|QID|58157|M|41.43,44.78|Z|Ardenweald!The Shadowlands|QO|6|N|Stand in the light and use the "[color=40C7EB]Taking a Bow[/color]" button, To take a bow.|EAB|COV|Night Fae|
 T Break a Leg|QID|58157|M|40.70,42.80|Z|Ardenweald!The Shadowlands|N|To Featherlight.|COV|Night Fae|
 A The Fourth Wall, er, War|QID|58158|M|40.70,42.80|Z|Ardenweald!The Shadowlands|N|From Featherlight.|PRE|58157|COV|Night Fae|
-C The Fourth Wall, er, War|QID|58158|M|40.76,43.89;41.37,44.53|CC|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Right click the Purple orb and Place Azeroth buy right clicking the golden outline of a globe.|COV|Night Fae|
+C The Fourth Wall, er, War|QID|58158|M|40.76,43.89;41.37,44.53|CC|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Right click the Purple orb and Place Azeroth by right clicking the golden outline of a globe.|COV|Night Fae|
 C The Fourth Wall, er, War|QID|58158|M|41.26,44.83|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Place Teldrassil.|COV|Night Fae|
 C The Fourth Wall, er, War|QID|58158|M|40.56,42.91|Z|Ardenweald!The Shadowlands|QO|3|CHAT|N|Become Sargeras.|COV|Night Fae|
 C The Fourth Wall, er, War|QID|58158|M|41.01,43.71|Z|Ardenweald!The Shadowlands|QO|4|N|Stand in the light and use the "[color=40C7EB]Stab the World[/color]" button, To stab Azeroth.|EAB|COV|Night Fae|
