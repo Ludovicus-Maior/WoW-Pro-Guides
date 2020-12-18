@@ -800,12 +800,13 @@ T Trouble on the Western Front|QID|61776|M|28.81,38.15|Z|Maldraxxus|N|To Alexand
 A Charging The Blade|QID|61777|PRE|61776|M|28.81,38.15|Z|Maldraxxus|N|From Alexandros Mograine.|COV|Kyrian|
 A Grave Intent|QID|61779|PRE|61776|M|28.69,37.72|Z|Maldraxxus|N|From Baroness Vashj.|COV|Kyrian|
 A Aerial Advantage|QID|61778|PRE|61776|M|28.16,37.56|Z|Maldraxxus|N|From Emeni.|COV|Kyrian|
+C Charging The Blade|QID|61777|M|28.79,34.69|Z|Maldraxxus|NC|N|Runeblade charged.|S|COV|Kyrian|
 C Aerial Advantage|QID|61778|M|28.03,37.36|Z|Maldraxxus|QO|1|NC|U|180899|N|Battlesewn Roc hooked.|COV|Kyrian|
-C Grave Intent|QID|61779|M|25.40,32.91|Z|Maldraxxus|QO|2|NC|N|Northwestern projector destroyed.|COV|Kyrian|
-C Grave Intent|QID|61779|M|24.98,37.36|Z|Maldraxxus|QO|1|NC|N|Southwestern projector destroyed.|COV|Kyrian|
 C Aerial Advantage|QID|61778|M|27.13,30.75|Z|Maldraxxus|QO|2|U|180899|V|N|USe actions 2 and 3 to scare Battlesewn Roc, Press 1 to jump Roc when UI notifies you.|COV|Kyrian|
 C Grave Intent|QID|61779|M|28.01,32.74|Z|Maldraxxus|QO|3|NC|N|Northeastern projector destroyed.|COV|Kyrian|
-C Charging The Blade|QID|61777|M|28.79,34.69|Z|Maldraxxus|NC|N|Runeblade charged.|COV|Kyrian|
+C Grave Intent|QID|61779|M|25.40,32.91|Z|Maldraxxus|QO|2|NC|N|Northwestern projector destroyed.|COV|Kyrian|
+C Grave Intent|QID|61779|M|24.98,37.36|Z|Maldraxxus|QO|1|NC|N|Southwestern projector destroyed.|COV|Kyrian|
+C Charging The Blade|QID|61777|M|28.79,34.69|Z|Maldraxxus|NC|N|Runeblade charged.|US|COV|Kyrian|
 T Aerial Advantage|QID|61778|M|28.12,37.43|Z|Maldraxxus|N|To Emeni.|COV|Kyrian|
 T Grave Intent|QID|61779|M|28.59,37.64|Z|Maldraxxus|N|To Baroness Vashj.|COV|Kyrian|
 T Charging The Blade|QID|61777|M|28.80,38.09|Z|Maldraxxus|N|To Alexandros Mograine.|COV|Kyrian|
