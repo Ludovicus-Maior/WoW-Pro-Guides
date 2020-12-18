@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('SL_Treasures', "Achievements", 'Shadowlands', 'Blanckaert+Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,50,60)
 WoWPro:GuideIcon(guide,"ACH",14311)
-WoWPro:GuideProximitySort(guide) ;should this be commented out?
+-- WoWPro:GuideProximitySort(guide) 
 WoWPro.Achievements:GuideMisc(guide, "Treasures of The Shadowlands", "Treasures", "Shadowlands")
 
 WoWPro:GuideSteps(guide, function()
