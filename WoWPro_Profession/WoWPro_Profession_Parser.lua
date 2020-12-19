@@ -84,7 +84,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 								if numItem > 1 then
 									local Qty, Item, Mats, Tot = (";"):split(m[j])
 									if tonumber(Qty) == nil or type(Item) ~= "string" or tonumber(Mats) == nil or tonumber(Tot) == nil then
-										WoWPro.Profession:Error("N step %s tag N for [%s] malformed at [%s]",step, mat,m[j])
+										WoWPro.Profession:Error("%s step %s tag N for [%s] malformed at [%s]",WoWPro.action[k], step, mat,m[j])
 									end
 									WoWPro.Profession:dbp("Qty %s, k=%d",tostring(Qty),k)
 									local skillpoints = (proflvl-skillRank)/(Mats/Tot)
