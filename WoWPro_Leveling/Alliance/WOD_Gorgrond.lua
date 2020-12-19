@@ -360,11 +360,11 @@ T Cleaning Up Gul'var|QID|33269|N|To Cordana Felsong|M|29.27,25.70|Z|Shadowmoon 
 T To Catch a Shadow|QID|33116|N|To Archmage Khadgar, and a cutscene.|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
 ;T Bounty: Twisted Ancient|QID|33111|M|28.94,15.91|Z|Lunarfall|N|To Baros Alexston.|
 ; Make use of the Outpost Building Assembly Notes
-A Resources in Ashran|QID|37288|PRE|36575^36576|N|From Baros Alexston|M|28.94,15.91|Z|Lunarfall|
-F Stormshield|QID|37288|N|Fly to Stromshield using Dungar Longrink.|M|48.01,49.83|Z|Lunarfall|
-N Resources in Ashran|QID|37288|N|Kinkade Jakobs will sell you an upgrade to ANY building.  Be careful to pick one you have!|M|29.65,52.89|Z|Stormshield|
+A Resources in Ashran|QID|37288|PRE|36575^36576|N|From Baros Alexston|M|28.94,15.91|Z|Lunarfall|BUILDING|TownHall;2|
+F Stormshield|ACTIVE|37288|N|Fly to Stromshield using Dungar Longrink.|M|48.01,49.83|Z|Lunarfall|
+N Resources in Ashran|ACTIVE|37288|N|Kinkade Jakobs will sell you an upgrade to ANY building.  Be careful to pick one you have!|M|29.65,52.89|Z|Stormshield|
 T Resources in Ashran|QID|37288|N|To Kinkade Jakobs|M|29.65,52.89|Z|Stormshield|
 ; use [At Your Command] for the QID
-D Zone Finished|QID|34558|N|Zone finished (for now). Feel free to go shopping at your favorite auction house. Otherwise move onto the Talador guide.|
+D Zone Finished|QID|34558|N|Zone finished (for now). Feel free to go shopping at your favorite auction house. Otherwise move on to the Talador guide.|
 ]]
 end)
