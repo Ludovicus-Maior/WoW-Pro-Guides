@@ -249,6 +249,10 @@ DefineTag("ACTIVE","active","string",validate_andor_list_of_ints,function (value
 DefineTag("NPC","NPC","string",validate_old_list_of_ints,nil)
 DefineTag("CCOUNT","ccount","string",validate_old_list_of_ints,nil)
 
+-- Internal state tags
+DefineTag("ERROR","error","string",nil,nil)
+
+
 -- Mapping Tags
 DefineTag("M","map","string",nil,nil)
 DefineTag("Z","zone","string",nil,nil)

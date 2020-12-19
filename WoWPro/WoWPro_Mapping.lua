@@ -515,7 +515,10 @@ function WoWPro:MapPoint(row)
 
     if not zm then
         zone, zm = WoWPro.GetZoneText()
-        WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
+        if not WoWPro.error[stepIndex] then
+            WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
+            WoWPro.error[stepIndex] = "Zone not found"
+        end
     end
 
 	 -- SetSuperTrack Active Step
@@ -566,7 +569,10 @@ function WoWPro:MapPoint(row)
             local x = tonumber(jcoord:match("([^|]*),"))
             local y = tonumber(jcoord:match(",([^|]*)"))
             if not x or x > 100 or not y or y > 100 then
-                WoWPro:Error("Bad coordinate %s, %d out of %d. Please file a bug with the faction, guide and step description",jcoord,numcoords-j+1,numcoords)
+                if not WoWPro.error[stepIndex] then
+                    WoWPro:Error("Bad coordinate %s, %d out of %d. Please file a bug with the faction, guide and step description",jcoord,numcoords-j+1,numcoords)
+                    WoWPro.error[stepIndex] = "Bad coordinate"
+                end
                 return
             end
             if TomTom and not Nx then
