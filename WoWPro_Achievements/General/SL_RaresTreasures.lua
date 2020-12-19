@@ -1,11 +1,11 @@
 local guide = WoWPro:RegisterGuide('SL_Treasures', "Achievements", 'Shadowlands', 'Blanckaert+Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,50,60)
 WoWPro:GuideIcon(guide,"ACH",14311)
--- WoWPro:GuideProximitySort(guide) 
+-- WoWPro:GuideProximitySort(guide)
 WoWPro.Achievements:GuideMisc(guide, "Treasures of The Shadowlands", "Treasures", "Shadowlands")
-
 WoWPro:GuideSteps(guide, function()
 return [[
+
 N Work in Progross|ACH|14311|N|All are listed, some with comments from Wowhead (WH) or others that I have personally verified and wrote the comments my own way.|
 
 N Bastion|ACH|14311|
