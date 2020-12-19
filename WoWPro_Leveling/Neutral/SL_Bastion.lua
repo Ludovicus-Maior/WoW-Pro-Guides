@@ -566,5 +566,72 @@ F Oribos|ACTIVE|60056|M|51.40,46.80|N|Fly back to Oribos|
 P Ring of Fates|ACTIVE|60056|M|49.52,60.92|Z|Ring of Transference@Oribos|N|Click the teleporter.|
 C Follow the Path|QID|60056|M|38.91,69.93|Z|Ring of Fates@Oribos|CHAT|N|Tell Tal-Inara of the Maldraxxi's attack.|MS|
 T Follow the Path|QID|60056|M|38.91,69.93|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
+
+;wings of freedom
+R Kowalskos' Workshop|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|Run Northwest of Hero's rest to Kowalskos' Workshop.|LVL|60|RANK|2|
+A Broken Wings|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
+K Ariella|ACTIVE|59262|QID|59262|QO|1|M|45.44,36.82|Z|Bastion!The Shadowlands|N|Kill Ariella flying above you and bring Kowalskos her wing.|T|Ariella|
+T Broken Wings|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
+A Feathers of Flight|QID|59263|PRE|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
+C Feathers of Flight|QID|59263|M|45.44,36.82|Z|Bastion!The Shadowlands|N|Kill more Larion and bring Kowalskos more feathers. Drop rate much better down by Aspirant's rest if you don't mind running so far.|
+T Feathers of Flight|QID|59263|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
+A Flight Test|QID|60660|PRE|59263|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
+C Flight Test|QID|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|CHAT|N|Tell Kowalskos you are ready.|
+C Flight Test|QID|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|NC|N|Wait and observe.|
+T Flight Test|QID|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
+A More Wings!|QID|59348|PRE|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
+A Strings and Things|QID|59351|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
+C Strings and Things|QID|59351|M|47.79,47.22|Z|Bastion!The Shadowlands|S|N|While you can find these up in the nearby Garden of Edenia, I recomend running thru firstborne bounty and out the other side to a much better spawning place. Kill Etherwyrms and collect their Filaments.|
+C More Wings!|QID|59348|PRE|60660|M|47.79,47.22|Z|Bastion!The Shadowlands|NC|N|Collect Animyllis Blooms as you run towards the Etherwyrms.|
+C Strings and Things|QID|59351|M|47.79,47.22|Z|Bastion!The Shadowlands|US|N|Kill Etherwyrms and collect their Filaments.|
+T More Wings!|QID|59348|PRE|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
+T Strings and Things|QID|59351|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
+A How to Catch a Glimmerfly|QID|59311|PRE|59348&59351|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
+C How to Catch a Glimmerfly|QID|59311|M|41.11,29.75|Z|Bastion!The Shadowlands|U|176812|NC|N|Set out the flower and then click to capture Starving Glimmerflies in the Shimmering Pools.|
+T How to Catch a Glimmerfly|QID|59311|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
+A Glimmerflight|QID|59865|PRE|59311|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|RANK|2|
+C Glimmerflight|QID|59865||M|42.83,42.73|Z|Bastion!The Shadowlands|NC|N|Observe Kowalskos' test flight.|
+T Glimmerflight|QID|59865|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
+
+;The Spear of Kalliope
+K Demi the Relic Hoarder|M|37.50,41.75|Z|Bastion!The Shadowlands|T|Demi|N|WH - Annoyingly tricky mob, Casts an Anima Shield when attacked.  Use control abilities, loves to run into other mobs to join the party. Drop Relic Hoard chest..don't lose it!|ITEM|183608|RARE|ACH|14307;25|
+R Haetio's Solace|QID|57860|LVL|60|M|36.69,37.55|Z|Bastion!The Shadowlands|N|Continue northwest to Haetio's solace for the Spear of Kalliope storyarc.|RANK|2|
+A How to Become Forsworn|QID|57860|LVL|60|M|36.68,37.57|Z|Bastion!The Shadowlands|N|From Haetio.|RANK|2|
+A Unshackled Knowledge|QID|59207|LVL|60|M|36.68,37.57|Z|Bastion!The Shadowlands|N|From Haetio.|RANK|2|
+C How to Become Forsworn|QID|57860|QO|1|S|M|39,38|Z|Bastion!The Shadowlands|N|Kill Forwsworn Vandels and Looters to collect the uniform pieces.|
+C Free Curator Lano|ACTIVE|59207|QO|1|M|39.07,40.29|Z|Bastion!The Shadowlands|NC|N|Click on Curator Lano to free him.|
+C Free Librarian Eratus|ACTIVE|59207|QO|2|M|40.06,40.55|Z|Bastion!The Shadowlands|NC|N|Click on Librarian Eratus to free him.|
+K Quartermaster Taelica|ACTIVE|57860|QID|57860|QO|2|M|40.60,41.00|Z|Bastion!The Shadowlands|T|Quartermaster Taelica|
+C Free Historian Tyrana|ACTIVE|59207|QO|3|M|38.89,38.74|Z|Bastion!The Shadowlands|NC|N|Click on Historian Tyrana to free her.|
+C How to Become Forsworn|QID|57860|QO|1|US|M|39,38|Z|Bastion!The Shadowlands|N|Kill Forwsworn Vandels and Looters to collect the uniform pieces.|
+T How to Become Forsworn|QID|57860|M|36.68,37.57|Z|Bastion!The Shadowlands|N|To Haetio.|
+T Unshackled Knowledge|QID|59207|M|36.68,37.57|Z|Bastion!The Shadowlands|N|To Haetio.|
+A Just Act Natural|QID|57861|PRE|59207&57860|M|36.68,37.57|Z|Bastion!The Shadowlands|N|From Haetio.|RANK|2|
+T Just Act Natural|QID|57861|M|42.73,39.41|Z|Bastion!The Shadowlands|N|When you get into Kalliope's Rest use the disguise extra action button, (but not before because then you can't mount) Turns in to Artificer Ligiea.|EAB|
+A Mark of Humility|QID|57875|PRE|57861|M|42.73,39.41|Z|Bastion!The Shadowlands|N|From Artificer Ligiea.|RANK|2|
+A Mark of Knowledge|QID|57914|PRE|57861|M|42.73,39.41|Z|Bastion!The Shadowlands|N|From Artificer Ligiea.|RANK|2|
+C Mark of Knowledge|QID|57914|QO|1|M|41.77,37.48|Z|Bastion!The Shadowlands|CHAT|N|Talk to Forsworn Interrogator.|
+C Mark of Knowledge|QID|57914|QO|2|M|42.11,36.89|Z|Bastion!The Shadowlands|CHAT|N|Talk to Forsworn Researcher.|
+C Mark of Knowledge|ACTIVE|57914|M|41.89,38.27|Z|Bastion!The Shadowlands|NC|N|Pick up the blue fire.|BUFF|320033|
+C Mark of Knowledge|QID|57914|QO|3|CS|M|42.54,36.66;43.00,36.59|Z|Bastion!The Shadowlands|NC|N|Light the braziers.|
+C Mark of Knowledge|QID|57914|QO|4|M|42.65,34.67|Z|Bastion!The Shadowlands|NC|N|Enter the 2nd chamber, and open the chest to acquire the Mark of Knowledge.|
+C Mark of Humility|QID|57875|QO|4|CS|M|41.28,37.31;41.27,37.30|Z|Bastion!The Shadowlands|NC|N|Stand next to the barrier and then emote "/kneel" to acquire the Mark of Humility.|
+T Mark of Humility|QID|57875|M|43.2,38.4|Z|Bastion!The Shadowlands|N|To Artificer Ligiea.|
+T Mark of Knowledge|QID|57914|M|42.73,39.41|Z|Bastion!The Shadowlands|N|To Artificer Ligiea.|
+A You Go First|QID|57966|PRE|57875&57914|M|42.73,39.41|Z|Bastion!The Shadowlands|N|From Artificer Ligiea.|RANK|2|
+C You Go First|QID|57966|QO|1<1|M|33.70,81.34|Z|Third Chamber of Kalliope|NC|N|Dodge the beams of light and click the yellow button to disable the first trap.|
+C You Go First|QID|57966|QO|2|M|40.99,73.76|Z|Third Chamber of Kalliope|N|Click the bell to summon the first guardian and then kill it.|
+C You Go First|QID|57966|QO|1<2|M|60.55,79.41|Z|Third Chamber of Kalliope|NC|N|Again dodge the beams of light and click the yellow button to disable the second trap.|
+C You Go First|QID|57966|QO|1<3|M|68.92,60.22|Z|Third Chamber of Kalliope|NC|N|And, one last time dodge the beams of light and click the yellow button to disable the second trap.|
+T You Go First|QID|57966|M|61.01,50.88|Z|Third Chamber of Kalliope|N|To Artificer Ligiea.|
+A The Spear of Kalliope|QID|57989|PRE|57966|M|61.01,50.88|Z|Third Chamber of Kalliope|N|From Artificer Ligiea.|RANK|2|
+C The Spear of Kalliope|QID|57989|M|61.01,50.88|Z|Third Chamber of Kalliope|N|Defeat Ligiea and then pick up the spear.|
+T The Spear of Kalliope|QID|57989|M|43.24,38.45|Z|Bastion!The Shadowlands|N|To Haetio.|
+A Rightful Resting Place|QID|60906^57967|PRE|57989|M|43.24,38.45|Z|Bastion!The Shadowlands|N|From Haetio.|RANK|2|
+F Hero's Rest|ACTIVE|60906|CS|M|39.62,38.34;44.09,32.45|Z|Bastion!The Shadowlands|N|Fly or run back to Hero's Rest, Kassia is the flightmaster at Sagehaven.|
+F Elysian Hold|ACTIVE|57967|CS|M|39.62,38.34;44.09,32.45|Z|Bastion!The Shadowlands|N|Fly to Elysian Hold, Kassia is the flightmaster at Sagehaven.|COV|Kyrian|
+T Rightful Resting Place|QID|60906|M|52.9,46.8|Z|Bastion!The Shadowlands|N|To the Spear of Kalliope, beside Haetio in Hero's Rest.|
+T Rightful Resting Place|QID|57967|M|63.58,40.17|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|To the Spear of Kalliope, beside Haetio in the 'Sanctum of Binding' at Elysian Hold.|COV|Kyrian|
+
 ]]
 end)
