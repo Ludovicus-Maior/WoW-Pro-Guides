@@ -422,6 +422,10 @@ function WoWPro.EmitStep(i)
     return line
 end
 
+function WoWPro.EmitSafeStep(index)
+    return WoWPro.EmitStep(index):gsub("||", "¦")
+end
+
 function WoWPro.ParseQuestLine(faction, zone, i, text)
     local GID = WoWProDB.char.currentguide
 
