@@ -871,7 +871,7 @@ function WoWPro:RowUpdate(offset)
         -- Skipping any skipped steps, unsticky steps, and optional steps unless it's time for them to display --
         if not WoWProDB.profile.guidescroll then
             k = WoWPro.NextStep(k, i)
-            WoWPro:print("RowUpdate(%d,%d): %s", i, k, WoWPro.EmitStep(k):gsub("||", "¦"))
+            WoWPro:print("RowUpdate(%d,%d): %s", i, k, WoWPro.EmitSafeStep(k))
         end
 
         --Setup row--
@@ -1054,9 +1054,7 @@ function WoWPro:RowUpdate(offset)
 					local text = "Step Info for " .. GID .. ":\n"
 					local Sindex = WoWPro.rows[currentRow.num].index
 					if WoWPro.rows[currentRow.num]:IsVisible() then
-						local line = WoWPro.EmitStep(Sindex)
-						line = line:gsub("||", "¦")
-						text = text .. line .. "\n"
+						text = text .. WoWPro.EmitSafeStep(Sindex) .. "\n"
 					end
 					if (not X) or (not Y) then
 						text = "\n" .. WoWPro.Faction .. (" Player at ?/%s@%q aka %q aka %q"):format(tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText()) .. "\n\n" .. text
@@ -1396,7 +1394,7 @@ function WoWPro.UpdateGuideReal(From)
 
     -- Finding the active step in the guide --
     WoWPro.ActiveStep = WoWPro.NextStep(1)
-    WoWPro:print("UpdateGuideReal(%d): ActiveStep=%s", WoWPro.ActiveStep, WoWPro.EmitStep(WoWPro.ActiveStep):gsub("||", "¦"))
+    WoWPro:print("UpdateGuideReal(%d): ActiveStep=%s", WoWPro.ActiveStep, WoWPro.EmitSafeStep(WoWPro.ActiveStep))
     if WoWPro.Recorder then
         WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
     end

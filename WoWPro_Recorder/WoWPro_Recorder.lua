@@ -657,8 +657,7 @@ function WoWPro.Recorder.AddStep(stepInfo, position)
         WoWPro.Recorder.SelectedStep = WoWPro.stepcount
     end
 
-    local line = WoWPro.EmitStep(pos)
-    line = line:gsub("||", "¦") -- Change the ||'s into fancy unicode ¦'s for display only
+    local line = WoWPro.EmitSafeStep(pos)
     line = line:gsub("%%", "⁒") -- Change the %'s into fancy unicode ⁒'s for display only
     WoWPro.Recorder:Print(line)
 
