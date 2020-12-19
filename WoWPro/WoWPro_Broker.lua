@@ -1,6 +1,6 @@
 -- luacheck: globals Grail TomTom Nx
 -- luacheck: globals select ipairs pairs next tremove tinsert
--- luacheck: globals tostring tonumber type abs max floor ceil date
+-- luacheck: globals tostring tonumber type abs max min floor ceil date
 -- luacheck: globals debugstack
 
 -----------------------------
@@ -2148,10 +2148,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     skip = true -- Profession steps skipped by default
                     local tradeskill = WoWProCharDB.Tradeskills[profID]
                     if tradeskill then
-                        if stepAction == 'M' and tradeskill.skillMod then
+                        if stepAction == 'M' and tradeskill.skillMod > 0 then
                             WoWPro:dbp("NextStep(): Adjusting proflvl(%d) and profmaxskill=%d down by skillMod=%d", proflvl, profmaxskill, tradeskill.skillMod)
                             proflvl = max(proflvl - tradeskill.skillMod, 1)
-                            profmaxskill = max(profmaxskill - tradeskill.skillMod, 1)
+                            profmaxskill = min(profmaxskill, max(profmaxskill - tradeskill.skillMod, 1))
                         end
                         if ((profflip == 0) and (tradeskill.skillLvl >= proflvl)) then
                             WoWPro.why[guideIndex] = ("NextStep(prof): profflip == 0 and skillLvl=%d >= proflvl=%d"):format(tradeskill.skillLvl, proflvl)
@@ -2163,8 +2163,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             WoWPro:dbp(WoWPro.why[guideIndex])
                             skip = false
                         end
-                        if ((profmaxskill > 0) and (profmaxskill < tradeskill.skillMax)) then
-                            WoWPro.why[guideIndex] = ("NextStep(prof): profmaxskill > 0 and profmaxskill=%d < maxskill=%d"):format(profmaxskill, tradeskill.skillMax)
+                        if ((profflip ~= 0) and (profmaxskill < tradeskill.skillMax)) then
+                            WoWPro.why[guideIndex] = ("NextStep(prof): profflip ~= 0 and profmaxskill=%d < maxskill=%d"):format(profmaxskill, tradeskill.skillMax)
                             WoWPro:dbp(WoWPro.why[guideIndex])
                             skip = true
                         end
