@@ -519,7 +519,7 @@ T Upgrades in Ashran|QID|37290|M|42.53,36.44|Z|Warspear|N|To Torgg Flexington, t
 B Treasure Map|QID|36494|M|74.6,31.8|Z|Warspear|L|118729|U|118729|N|You can buy treasure maps for all the zones you have completed (100g each). This will show the location of all unfound treasure on your full size and mini map. Check this off manually if you previously learned the map or choose not to buy it.|
 H Town Hall|QID|36494|U|110560|M|74.6,31.8|Z|Warspear|ACTIVE|36494|N|Hearth to your Garrison. Use the blueprint and upgrade you building if you so desire.|
 T News from Talador|QID|36494|M|6.14,72.96|N|To Rokhan.|Z|Frostwall|
-A It's a Matter of Strategy|QID|34681|PRE|36573^36574|NC|M|6.14,72.96|N|From Rokhan.|Z|Frostwall|
+A It's a Matter of Strategy|QID|34681|PRE|36494|NC|M|6.14,72.96|N|From Rokhan.|Z|Frostwall|
 A Vouchsafe Our Arrival|QID|34209|M|49.49,36.39|N|From Cordana Felsong.|Z|Frostwall|RANK|3|
 R Frostwind Crag|QID|34209|M|31.4,16.2|Z|Frostfire Ridge|N|Bladespire Fortress is the closest flight path, (unless you went exploring on your own, then Throm'var is) then you have to run the rest of the way.|RANK|3|ACTIVE|34209|
 T Vouchsafe Our Arrival|QID|34209|M|31.4,16.2|Z|Frostfire Ridge|N|To Cordana Felsong.|

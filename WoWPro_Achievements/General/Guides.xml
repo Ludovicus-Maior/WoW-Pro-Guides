@@ -1,5 +1,7 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
     <Script file="Emm_Blanchy.lua"/>
+    <Script file="SL_Sojourners.lua"/>
+    <Script file="SL_RaresTreasures.lua"/>
     <Script file="Blanc_BI_Treasures.lua"/>
     <Script file="Emmaleah_Jani.lua"/>
 	<Script file="Emmaleah_LostFound.lua"/>
