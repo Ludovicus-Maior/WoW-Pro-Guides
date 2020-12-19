@@ -10,7 +10,7 @@ N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time
 N Beginnings|AVAILABLE|34653^36951|N|If you have the quest, News from the Spires of Arak, this guide begins at your garrison to turn that in. You may also want to begin there if you do not have Draenor flying to take the free flight to Spires.|
 N Bonus Objectives|AVAILABLE|34653^36951|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.|
 N Jumping Games|AVAILABLE|34653^36951|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle). They mostly reward archeology fragments. I leave these to you to figure out if you want to take the time.|
-N Nagrand|AVAILABLE|34653^36951|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.|
+N Nagrand|AVAILABLE|34653^36951|N|The Nagrand quests require level 30 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.|
 N Use of Rank Setting|AVAILABLE|34653^36951|N|Setting the guide to the minimum rank (1) allows you to only do what it takes to get your garrison outpost assemply notes and pinchwistle gearworks for the salvage yard blueprints. Rank 2 includes just about everything else, and rank 3 includes a couple of rather out of the way quests and all the rares and followers that are tucked in out of the way places.|
 T News from Spires of Arak|QID|35554|M|37.8,36.8|Z|Lunarfall|FACTION|Alliance|N|To Broderik Grey.|
 A Arakkoa Exodus|QID|34653^36951|PRE||M|37.8,36.8|Z|Lunarfall|FACTION|Alliance|N|From Broderik Grey in your garrison or from the Adventurer's Guide if you did not do the lead-in quest.|;PRE no longer required. Empty tag for Grail integration.
@@ -135,11 +135,10 @@ F Veil Terokk|AVAILABLE|37296|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Hord
 t Befriending the Locals|QID|37326^37327|M|43.90,48.90|N|To Dusk-Seer Irizzar.|
 C Peace Offering|QID|35697^35699|M|43.90,48.90|CHAT|N|Offer a peace offering to Dusk-Seer Irizzar.|
 t Peace Offering|QID|35697^35699|M|43.90,48.90|N|To Dusk-Seer Irizzar.|
-A A Lack of Wasps|QID|37296|M|43.90,48.90|N|From Dusk-Seer Irizzar.|PRE|37326^37327|
+A A Lack of Wasps|QID|37296|M|43.90,48.90|N|From Dusk-Seer Irizzar.|PRE|37326^37327^35697^35699|
 C A Lack of Wasps|QID|37296|M|44.15,47.54|N|Kill the Widow Wasps.|
 T A Lack of Wasps|QID|37296|M|43.90,48.91|N|To Dusk-Seer Irizzar.|
-A Not Here, Not Now|QID|37328^37329|M|43.90,48.91|N|From Dusk-Seer Irizzar.|PRE|37296|
-A Not Here, Not Now.|QID|37330^37331|M|43.90,48.91|N|From Dusk-Seer Irizzar.|ACTIVE|-37328^-37329|LEAD|37328^37329|
+A Not Here, Not Now|QID|37328^37329^37330^3733|M|43.90,48.91|N|From Dusk-Seer Irizzar.|PRE|37296|
 T Return to Veil Terokk|QID|35611|M|45.87,45.74|N|To Reshad.|RANK|2|
 A Talon Watch|QID|34998|M|45.87,45.74|N|From Reshad.|PRE|35611|RANK|2|
 A The Kaliri Whisperer|QID|34884|M|45.87,45.74|N|From Reshad.|PRE|35611|RANK|2|

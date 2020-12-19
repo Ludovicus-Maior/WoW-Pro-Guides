@@ -494,7 +494,7 @@ L Level 20|QID|37290|N|You need to be Level 20 to continue with this guide.|LVL|
 A News from Talador|QID|36494|LEAD|36953|M|46.09,70.19|N|From Durotan.|
 N Gorgrond substantially done|QID|37290|N|This pretty much finishes Gorgrond. Take some time to finish up the bonus objectives if you want, the guide next sends you back to your garrison to do the quests that have opened up while you were gone, and then ends.|ACTIVE|36494|RANK|2|
 H Town Hall|QID|37290|U|110560|M|46.09,70.19|ACTIVE|36494|N|Hearth to your Garrison.|
-A Upgrades in Ashran|QID|37290|M|42.18,55.57|Z|Frostwall|N|From Gazlowe.|
+A Upgrades in Ashran|QID|37290|M|42.18,55.57|Z|Frostwall|N|From Gazlowe.|BUILDING|TownHall;2|; not positive this is the req, but seems to be.maybe PRE|36573^36574| also but i don't think so, Those are listed as PREs in alliance guide.
 A Thunderlord Invasion!|QID|37291|PRE|32796|M|43.95,47.79|Z|Frostwall|N|From Sergeant Grimjaw. This is a solo scenario to defend your garrison. You can actually do it with two groupmates if you all go to the leaders garrison. It is optional when you do it, but is is believed that you need to do it before you upgrade your garrison to level 3. |
 C Thunderlord Invasion!|QID|37291|M|43.95,47.79|Z|Frostwall|CHAT|N|Talk to Sergeant Grimjaw to begin this solo scenario. Follow the scenario promts to complete.|
 T Thunderlord Invasion!|QID|37291|M|43.95,47.79|Z|Frostwall|N|From Sergeant Grimjaw.|
@@ -514,7 +514,7 @@ T Proving Your Worth|QID|36131|M|55.71,75.33|Z|Frostfire Ridge|U|111356|N|To Mok
 A Anglin' In Our Garrison|QID|36132|M|55.71,75.33|Z|Frostfire Ridge|N|From Mokugg Lagerpounder.|PRE|36131|RANK|2|
 T Anglin' In Our Garrison|QID|36132|M|38.03,72.34|Z|Frostwall|N|To Mak'jin. He should now have a daily for you if you want to do it.|
 t The Land Provides|QID|34960|M|42.18,55.54|Z|Frostwall|N|To Gazlowe (he's inside the town hall). If you want to you can also upgrade your fishing shack to level 2 by purchasing the blueprint from Rezlak right next to Gazlowe.|
-F Warspear|QID|37290|M|45.83,50.89|Z|Frostwall|N|Fly to Warspear to buy a garrison blueprint with the quest reward you got from the final quest in Gorgrond.|
+F Warspear|ACTIVE|37290|M|45.83,50.89|Z|Frostwall|N|Fly to Warspear to buy a garrison blueprint with the quest reward you got from the final quest in Gorgrond.|
 T Upgrades in Ashran|QID|37290|M|42.53,36.44|Z|Warspear|N|To Torgg Flexington, this is the only way you can get level 2 blueprints until after you finish Talador (then you will be able to purchase for gold).  You only have the currency for one, choose wisely.|
 B Treasure Map|QID|36494|M|74.6,31.8|Z|Warspear|L|118729|U|118729|N|You can buy treasure maps for all the zones you have completed (100g each). This will show the location of all unfound treasure on your full size and mini map. Check this off manually if you previously learned the map or choose not to buy it.|
 H Town Hall|QID|36494|U|110560|M|74.6,31.8|Z|Warspear|ACTIVE|36494|N|Hearth to your Garrison. Use the blueprint and upgrade you building if you so desire.|
