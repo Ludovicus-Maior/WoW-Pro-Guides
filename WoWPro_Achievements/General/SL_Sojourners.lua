@@ -21,9 +21,9 @@ C Flight Test|QID|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|NC|N|Wait and ob
 T Flight Test|QID|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
 A More Wings!|QID|59348|PRE|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|
 A Strings and Things|QID|59351|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|
-C Strings and Things|QID|59351|M|56.0 37.0|Z|Bastion!The Shadowlands|S|N|While you can find these up in the nearby Garden of Edenia, I recomend running thru firstborne bounty and out the other side to a much better spawning place. Kill Etherwyrms and collect their Filaments.|
-C More Wings!|QID|59348|PRE|60660|M|56.0 37.0|Z|Bastion!The Shadowlands|NC|N|Collect Animyllis Blooms as you run towards the Etherwyrms.|
-C Strings and Things|QID|59351|M|56.0 37.0|Z|Bastion!The Shadowlands|US|N|Kill Etherwyrms and collect their Filaments.|
+C Strings and Things|QID|59351|M|56,37|Z|Bastion!The Shadowlands|S|N|While you can find these up in the nearby Garden of Edenia, I recomend running thru firstborne bounty and out the other side to a much better spawning place. Kill Etherwyrms and collect their Filaments.|
+C More Wings!|QID|59348|PRE|60660|M|56,37|Z|Bastion!The Shadowlands|NC|N|Collect Animyllis Blooms as you run towards the Etherwyrms.|
+C Strings and Things|QID|59351|M|56,37|Z|Bastion!The Shadowlands|US|N|Kill Etherwyrms and collect their Filaments.|
 T More Wings!|QID|59348|PRE|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
 T Strings and Things|QID|59351|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
 A How to Catch a Glimmerfly|QID|59311|PRE|59348&59351|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|
