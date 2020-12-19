@@ -21,9 +21,9 @@ C Flight Test|QID|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|NC|N|Wait and ob
 T Flight Test|QID|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
 A More Wings!|QID|59348|PRE|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|
 A Strings and Things|QID|59351|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|
-C Strings and Things|QID|59351|M|56,37|Z|Bastion!The Shadowlands|S|N|While you can find these up in the nearby Garden of Edenia, I recomend running thru firstborne bounty and out the other side to a much better spawning place. Kill Etherwyrms and collect their Filaments.|
-C More Wings!|QID|59348|PRE|60660|M|56,37|Z|Bastion!The Shadowlands|NC|N|Collect Animyllis Blooms as you run towards the Etherwyrms.|
-C Strings and Things|QID|59351|M|56,37|Z|Bastion!The Shadowlands|US|N|Kill Etherwyrms and collect their Filaments.|
+C Strings and Things|QID|59351|M|47.79,47.22|Z|Bastion!The Shadowlands|S|N|While you can find these up in the nearby Garden of Edenia, I recomend running thru firstborne bounty and out the other side to a much better spawning place. Kill Etherwyrms and collect their Filaments.|
+C More Wings!|QID|59348|PRE|60660|M|47.79,47.22|Z|Bastion!The Shadowlands|NC|N|Collect Animyllis Blooms as you run towards the Etherwyrms.|
+C Strings and Things|QID|59351|M|47.79,47.22|Z|Bastion!The Shadowlands|US|N|Kill Etherwyrms and collect their Filaments.|
 T More Wings!|QID|59348|PRE|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
 T Strings and Things|QID|59351|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
 A How to Catch a Glimmerfly|QID|59311|PRE|59348&59351|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|
@@ -39,15 +39,15 @@ R Haetio's Solace|QID|57860|LVL|60|M|36.69,37.55|Z|Bastion!The Shadowlands|N|Con
 A How to Become Forsworn|QID|57860|LVL|60|M|36.68,37.57|Z|Bastion!The Shadowlands|N|From Haetio.|
 A Unshackled Knowledge|QID|59207|LVL|60|M|36.68,37.57|Z|Bastion!The Shadowlands|N|From Haetio.|
 C How to Become Forsworn|QID|57860|QO|1|S|M|39,38|Z|Bastion!The Shadowlands|N|Kill Forwsworn Vandels and Looters to collect the uniform pieces.|
-N Free Curator Lano|ACTIVE|59207|QO|1|M|36.7,37.6|Z|Bastion!The Shadowlands|
-N Free Librarian Eratus|ACTIVE|59207|QO|2|M|40.06,40.55|Z|Bastion!The Shadowlands|
+C Free Curator Lano|ACTIVE|59207|QO|1|M|39.07,40.29|Z|Bastion!The Shadowlands|NC|N|Click on Curator Lano to free him.|
+C Free Librarian Eratus|ACTIVE|59207|QO|2|M|40.06,40.55|Z|Bastion!The Shadowlands|NC|N|Click on Librarian Eratus to free him.|
 K Quartermaster Taelica|ACTIVE|57860|QID|57860|QO|2|M|40.60,41.00|Z|Bastion!The Shadowlands|T|Quartermaster Taelica|
-N Free Historian Tyrana|ACTIVE|59207|QO|3|M|40.06,40.55|Z|Bastion!The Shadowlands|
+C Free Historian Tyrana|ACTIVE|59207|QO|3|M|38.89,38.74|Z|Bastion!The Shadowlands|NC|N|Click on Historian Tyrana to free her.|
 C How to Become Forsworn|QID|57860|QO|1|US|M|39,38|Z|Bastion!The Shadowlands|N|Kill Forwsworn Vandels and Looters to collect the uniform pieces.|
 T How to Become Forsworn|QID|57860|M|36.68,37.57|Z|Bastion!The Shadowlands|N|To Haetio.|
 T Unshackled Knowledge|QID|59207|M|36.68,37.57|Z|Bastion!The Shadowlands|N|To Haetio.|
 A Just Act Natural|QID|57861|PRE|59207&57860|M|36.68,37.57|Z|Bastion!The Shadowlands|N|From Haetio.|
-T Just Act Natural|QID|57861|M|42.73,39.41|Z|Bastion!The Shadowlands|N|When you get into Kalliope's Rest use the disguise extra action button, (but not before because then you can't mount) Turns in to Artificer Ligiea.|
+T Just Act Natural|QID|57861|M|42.73,39.41|Z|Bastion!The Shadowlands|N|When you get into Kalliope's Rest use the disguise extra action button, (but not before because then you can't mount) Turns in to Artificer Ligiea.|EAB|
 A Mark of Humility|QID|57875|PRE|57861|M|42.73,39.41|Z|Bastion!The Shadowlands|N|From Artificer Ligiea.|
 A Mark of Knowledge|QID|57914|PRE|57861|M|42.73,39.41|Z|Bastion!The Shadowlands|N|From Artificer Ligiea.|
 C Mark of Knowledge|QID|57914|QO|1|M|41.77,37.48|Z|Bastion!The Shadowlands|CHAT|N|Talk to Forsworn Interrogator.|
@@ -71,7 +71,7 @@ A Rightful Resting Place|QID|60906^57967|PRE|57989|M|43.24,38.45|Z|Bastion!The S
 F Hero's Rest|ACTIVE|60906|CS|M|39.62,38.34;44.09,32.45|Z|Bastion!The Shadowlands|N|Fly or run back to Hero's Rest, Kassia is the flightmaster at Sagehaven.|
 F Elysian Hold|ACTIVE|57967|CS|M|39.62,38.34;44.09,32.45|Z|Bastion!The Shadowlands|N|Fly to Elysian Hold, Kassia is the flightmaster at Sagehaven.|COV|Kyrian|
 T Rightful Resting Place|QID|60906|M|52.9,46.8|Z|Bastion!The Shadowlands|N|To the Spear of Kalliope, beside Haetio in Hero's Rest.|
-T Rightful Resting Place|QID|57967|M|65,16|Z|Bastion!The Shadowlands|N|To the Spear of Kalliope, beside Haetio in Elysian Hold.|;coords need verified
+T Rightful Resting Place|QID|57967|M|63.58,40.17|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|To the Spear of Kalliope, beside Haetio in the 'Sanctum of Binding' at Elysian Hold.|COV|Kyrian|
 
 N Ardenweald|ACH|14800|
 
