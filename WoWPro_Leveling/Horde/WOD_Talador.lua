@@ -327,8 +327,8 @@ C Antivenin|QID|33971|S|M|58.05,83.34|N|These drop from the spiders in Deathweb 
 K Taladorantula|QID|34171|M|59,87.4|L|116126|T|Taladorantula|ITEM|116126|N|Killing the little white spiderlings (AE or stomping on them) will cause a giant spider to spawn. You will see 5 "warning" texts and then she spawns.|RANK|2|
 l Webbed Sac|QID|34255|M|65.5,88.6|L|116129|N|After you get into the big room of the cave, you will see a ramp on your right, up that is a rare named and some treasure.|ITEM|116129|RANK|2|
 K Klikixx|QID|34498|L|116125|M|66.8,85.4|T|Klikixx|N|A bit further along the ledge you will find Klikixx. After you kill her, you can jump down and finish the other objectives in the cave.|ITEM|116125|RANK|2|
-K Xanatos|QID|33970|QO|1|M|65.77,86.88|T|Xanatos the Defiler|N|Kill Xanatos the Defiler.|
-l Sha'tari crystal|QID|33970|QO|2|M|65.77,86.88|N|The Sha'tari crytstal is right behind Xanatos.|RANK|2|
+K Xanatos|ACTIVE|33970|QO|1|M|65.77,86.88|T|Xanatos the Defiler|N|Kill Xanatos the Defiler.|
+l Sha'tari crystal|ACTIVE|33970|QO|2|M|65.77,86.88|N|The Sha'tari crytstal is right behind Xanatos.|RANK|2|
 l Curious Death Web Egg|QID|34239|M|66.6,86.9|N|Loot for a bit of treasure.|ITEM|117569|RANK|2|
 l Rusted Lockbox|QID|34276|M|66,85.1|N|Its down at the bottom of the pond, its a long way down but you have time and won't drown.  Contains a random green item and garrison resources.|RANK|2|
 C Antivenin|QID|33971|US|M|58.05,83.34|RANK|2|N|Finish looting Deathwing fangs.|
@@ -460,7 +460,7 @@ A Solidarity in Death|QID|36522|M|50.40,15.80|Z|Frostwall|PRE|33973|N|To/From Ah
 A Clearing the Garden|QID|34193|M|43.61,83.10|Z|Frostwall|N|From Tarnon.|
 C Clearing the Garden|QID|34193|M|48.11,89.25|Z|Frostwall|N|Kill the Frostwal Nibblers needed.|
 T Clearing the Garden|QID|34193|M|43.50,83.12|Z|Frostwall|N|To Tarnon. Herb gardens (like the mine) can be harvested once per day. You can immediately buy the level 2 plans in your town hall and upgrade, however it will take an hour to complete. If you have a level 2 or 3 herb garden and you assign Shadow Hunter Rala (Picked up in Frostfire questing) or some other follower (recruited from the inn with herbalism skill) you can specify the type of herbs you want. He only needs to be assigned at server reset, you can unasssign him and send on missions the rest of the day.|
-C Flight to Spires|QID|34653|M|45.67,50.12|Z|Frostwall|CHAT|N|At Bron Skyhorn. Choose the chat option, not the actual flightpath.|
+C Flight to Spires|ACTIVE|34653|M|45.67,50.12|Z|Frostwall|CHAT|N|At Bron Skyhorn. Choose the chat option, not the actual flightpath.|
 D Spires of Arak|QID|34653|M|45.67,50.12|Z|Frostwall|N|Check this step off manually and the next guide should load.|
 ]]
 end)
