@@ -472,7 +472,7 @@ T My Terrible Morning|QID|57426|M|PLAYER|Z|Revendreth|N|To Theotar.|MS|
 T Unbearable Light|QID|57427|M|PLAYER|Z|Revendreth|N|To Theotar.|MS|
 T Theotar's Mission|QID|57428|M|PLAYER|Z|Revendreth|N|To Theotar.|MS|
 A Lost in the Desiccation|QID|57442|M|PLAYER|Z|Revendreth|N|From Theotar.|PRE|57426&57427&57428|MS|
-C Lost in the Desiccation|QID|57442|CS|M|33.10,55.41;31.70,54.66;7.53,31.14,57.00|Z|Revendreth|NC|N|Follow Lost Sybille's path to find Tubbins.|MS|
+C Lost in the Desiccation|QID|57442|CS|M|33.10,55.41;31.70,54.66;31.14,57.00|Z|Revendreth|NC|N|Follow Lost Sybille's path to find Tubbins.|MS|
 T Lost in the Desiccation|QID|57442|M|31.01,57.53|Z|Revendreth|N|To Tubbins.|MS|
 A Tubbins's Tea|QID|57460|M|31.01,57.53|Z|Revendreth|N|From Tubbins.|LVL|58|PRE|57442|MS|
 C Tubbins's Tea|QID|57460|M|31.01,57.53|Z|Revendreth|QO|1|CHAT|N|Speak with Tubbins to start making the tea.|MS|
