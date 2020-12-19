@@ -53,7 +53,7 @@ A Mark of Knowledge|QID|57914|PRE|57861|M|42.73,39.41|Z|Bastion!The Shadowlands|
 C Mark of Knowledge|QID|57914|QO|1|M|41.77,37.48|Z|Bastion!The Shadowlands|CHAT|N|Talk to Forsworn Interrogator.|
 C Mark of Knowledge|QID|57914|QO|2|M|42.11,36.89|Z|Bastion!The Shadowlands|CHAT|N|Talk to Forsworn Researcher.|
 C Mark of Knowledge|ACTIVE|57914|M|41.89,38.27|Z|Bastion!The Shadowlands|NC|N|Pick up the blue fire.|BUFF|320033|
-C Mark of Knowledge|QID|57914|QO|3|CS|M|42.54,36.66;43.00,36.59|Z|Bastion!The Shadowlands|NC|N|Light the braziers.| 
+C Mark of Knowledge|QID|57914|QO|3|CS|M|42.54,36.66;43.00,36.59|Z|Bastion!The Shadowlands|NC|N|Light the braziers.|
 C Mark of Knowledge|QID|57914|QO|4|M|42.65,34.67|Z|Bastion!The Shadowlands|NC|N|Enter the 2nd chamber, and open the chest to acquire the Mark of Knowledge.|
 C Mark of Humility|QID|57875|QO|4|CS|M|41.28,37.31;41.27,37.30|Z|Bastion!The Shadowlands|NC|N|Stand next to the barrier and then emote "/kneel" to acquire the Mark of Humility.|
 T Mark of Humility|QID|57875|M|43.2,38.4|Z|Bastion!The Shadowlands|N|To Artificer Ligiea.|
