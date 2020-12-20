@@ -37,7 +37,7 @@ A Way of the Oven|QID|31478|M|53.58,51.22|N|From Sungshin Ironpaw.|PRE|31302|
 A Way of the Brew|QID|31479|M|53.58,51.22|N|From Sungshin Ironpaw.|PRE|31302|
 N Farming quest items|ACTIVE|31311^31470^31472^31475^31478^31479|N|Go to each waypoint and acquire the required quest item(s).|
 ; -- Gather ingredients
-B Ginseng|ACTIVE|31479|M|53.58,51.23|L|74845|N|Buy the Ginseng from Sungshin Ironpaw.|
+B Ginseng|ACTIVE|31479|M|53.58,51.23|L|74845 5|N|Buy the Ginseng from Sungshin Ironpaw.|
 l Raw Tiger Steak|ACTIVE|31311|M|14.00,74.40|L|74833 5|N|Kill Gorge Stalkers to loot it.|
 l Juicycrunch Carrot|ACTIVE|31470|M|64.13,25.15|Z|Krasarang Wilds|L|74841 5|N|Kill Darnassian Outrider. She respawns every ~60 seconds.\nShe drops 1-3 and her drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of her dropping Red Blossom Leeks instead.|FACTION|Horde|
 l Juicycrunch Carrot|ACTIVE|31470|M|70.12,20.56|Z|Krasarang Wilds|L|74841 10|N|Kill Sunwalker Scout. He paths the road in front of The Krasari Ruins. He respawns every ~60 seconds.\nHe drops 1-3 and his drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of him dropping Red Blossom Leeks instead.|FACTION|Alliance|
@@ -79,8 +79,9 @@ N Valley Stir Fry|QID|185104302|M|52.68,52.01|N|Learn Recipe: Valley Stir Fry fr
 T Way of the Brew|QID|31479|M|53.16,52.24|N|To Bobo Ironpaw.|
 A Have a Drink|QID|31480|M|53.16,52.24|N|From Bobo Ironpaw.|PRE|31479|
 C Have a Drink|QID|31480|M|53.16,52.24|QO|1|N|Learn Recipe: Ginseng Tea from Bobo Ironpaw.|NC|
-C Have a Drink|QID|31480|M|53.38,51.85|QO|2|N|Move over to the oven so you can cook the Ginseng Tea.|NC|
+C Have a Drink|QID|31480|M|53.38,51.85|QO|2|N|Move over to the oven so you can cook the Ginseng Tea.\n[color=FF0000]NOTE: [/color]Make all 5 so you can reach 25 skill points in Way of the Brew.|NC|
 T Have a Drink|QID|31480|M|53.16,52.24|N|To Bobo Ironpaw.|
+N Jade Witch Brew|QID|185104302|M|53.16,52.24|N|Learn Recipe: Jade Witch Brew from Bobo Ironpaw. You'll need this recipe later.|P|Cooking;185;4+25|RECIPE|124053|
 A Preserving Freshness|QID|31536|M|53.54,51.25|N|From Nam Ironpaw.|PRE|31480|
 B Preserving Freshness|QID|31536|M|52.98,52.44|N|Buy an empty Raw Tiger Steak Container from Merchant Cheng.|
 T Preserving Freshness|QID|31536|M|53.54,51.25|N|To Nam Ironpaw.|
