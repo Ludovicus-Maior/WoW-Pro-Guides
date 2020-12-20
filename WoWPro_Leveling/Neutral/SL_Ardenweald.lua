@@ -471,9 +471,9 @@ T Go for the Heart|QID|58488|M|71.48,54.58|Z|Ardenweald!The Shadowlands|N|To Ara
 A Sparkles Rain from Above|QID|58524|M|71.52,54.67|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|58488|MS|
 C Sparkles Rain from Above|QID|58524|M|71.52,54.67|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Lady Moonberry.|MS|
 C Sparkles Rain from Above|QID|58524|M|70.71,55.92|Z|Ardenweald!The Shadowlands|QO|2|N|Keep hitting the 1 key everytime it refreshes to slay the Invaders.|MS|
-T Sparkles Rain from Above|QID|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 T The Fallen Tree|QID|62720|M|70.10,57.17|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
-H Hibernal Hollow|ACTIVE|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|Hearth or run back to Hibernal Hollow.|TOF|
+H Hibernal Hollow|ACTIVE|58524^62763|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|Hearth or run back to Hibernal Hollow.|
+T Sparkles Rain from Above|QID|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 L Nearly Level 58|PRE|58524|M|PLAYER|LVL|57;-64000|N|You need to about 4 bubbles from 58, or you won't be able to do the last quest in Hibernal Hollow. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|MS|
 
 ; Visions of the Dreamer Storyline
@@ -503,7 +503,7 @@ C Visions of the Dreamer: Origins|QID|58590|M|61.57,50.22|Z|Ardenweald!The Shado
 C Visions of the Dreamer: Origins|QID|58590|M|60.69,49.22|Z|Ardenweald!The Shadowlands|QO|2|US|N|Slay Nightmares.|MS|
 T Visions of the Dreamer: Origins|QID|58590|M|60.08,52.92|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
 T Visions of the Dreamer: The Betrayal|QID|60578|M|60.02,52.99|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
-L You Need to be Level 58|PRE|58591|M|PLAYER|LVL|58|N|You need to be at least level 58 to continue this guide.  So, go do a sidequest, rare, dungeon, something to get a little more XP first.|
+L You Need to be Level 58|PRE|58591|M|PLAYER|LVL|58|N|You need to be at least level 58 to continue this guide.  So, go do a sidequest, rare, dungeon, something to get a little more XP first.|MS|
 A End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60578&58590|MS|LVL|58|
 C End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak to Dreamweaver.|MS|
 C Attack the Temple of Elune|QID|58593|M|61,49|Z|Val'sharah!Instance|SO|1|NC|N|Click 1 to begin the attack the Temple of Elune, then wait while you slowly fly down and land.|MS|
@@ -587,24 +587,33 @@ P Oribos|ACTIVE|58724|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Teleport to Oribos
 T The Queen's Request|QID|58724|M|48.98,60.10|Z|Ring of Transference@Oribos|N|To Tal-Inara.|MS|
 
 ; Level 60 Sidequest - Thread of Hope
-A Silk Shortage|QID|57661|M|48.48,50.42|Z|Ardenweald!The Shadowlands|N|From Aithlyn.|LVL|60|RANK|2|
+A Silk Shortage|QID|57661|M|59.4,32.6|Z|The Trunk@Heart of the Forest!Dungeon|N|From Aithlyn|PRE|59656|COV|Night Fae|RANK|2|LVL|60|;from comments -- it appears its a dif place
+A Silk Shortage|QID|57661|M|48.48,50.42|Z|Ardenweald!The Shadowlands|N|From Aithlyn.|LVL|60|RANK|2|PRE|59656|
+R Gossamer Cliffs|ACTIVE|57661|M|39.00,29.94|Z|Ardenweald!The Shadowlands|N|Run to Gossamer Cliffs, If you know the Glitterfall Basin flightpath it is slightly shorter run from there.|
 T Silk Shortage|QID|57661|M|38.98,29.93|Z|Ardenweald!The Shadowlands|N|To Caretaker Lillythistle.|
 A Tough as Silk|QID|60061|PRE|57661|M|38.98,29.93|Z|Ardenweald!The Shadowlands|N|From Caretaker Lillythistle.|RANK|2|
 A The Shattered Harp|QID|60062|PRE|57661|M|38.11,28.72|Z|Ardenweald!The Shadowlands|N|From Caretaker Lillythistle.|RANK|2|
 C Tough as Silk|QID|60061|M|38.21,29.17|Z|Ardenweald!The Shadowlands|N|Kill enemies, destroy cacoons and save Night Fae in the area.|S|
 C The Shattered Harp|QID|60062|M|36.40,28.49|Z|Ardenweald!The Shadowlands|N|Kill Briarthorn and loot Harp Pieces.|
-C Tough as Silk|QID|60061|M|38.21,29.17|Z|Ardenweald!The Shadowlands|N|Kill enemies, destroy cacoons and save Night Fae in the area.|US|
-T Tough as Silk|QID|60061|M|38.98,29.93|Z|Ardenweald!The Shadowlands|N|To Caretaker Lillythistle.|
 T The Shattered Harp|QID|60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|
-A A Song for Silkstriders|QID|60063|PRE|60061&60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|From Artisan Rees.|RANK|2|
-A Save Ol' Gertie|QID|60064|PRE|60061&60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|From Artisan Rees.|RANK|2|
+A A Song for Silkstriders|QID|60063|PRE|60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|From Artisan Rees.|RANK|2|
+A Save Ol' Gertie|QID|60064|PRE|60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|From Artisan Rees.|RANK|2|
+N Silk Shooter|ACTIVE|60063|M|37.08,29.65|Z|Ardenweald!The Shadowlands|N|Pick up the silk shooter off the ground beside Artisan Rees.|BUFF|325637|
+N Silk Shooter|ACTIVE|60063|M|PLAYER|Z|Ardenweald!The Shadowlands|EAB|S!US|N|Use the silk shooter Extra Action button to quickly travel from Meribel to Meribel.|
+C Save Ol' Gertie|QID|60064|M|36.36,25.70|Z|Ardenweald!The Shadowlands|N|Kill Noisul of Many Faces.|
+$ Enchanted Dreamcatcher|ACTIVE|-62259|M|38.46,25.10|Z|Ardenweald!The Shadowlands|N|Use the silkshooter to help climb the roots.|ITEM|183129|L|183129|ACH|14313;12|;ACH doesn't complete till you turn in the quest.
+A Anima-Laden Dreamcatcher|ACTIVE|60064|QID|62259|M|38.46,25.10|Z|Ardenweald!The Shadowlands|N|From item just picked up.|O|U|183129|
+T Save Ol' Gertie|QID|60064|M|37.29,25.97|Z|Ardenweald!The Shadowlands|N|To Gertie Jr.|
+A Thread of Hope|QID|60065|PRE|60064|M|37.29,25.97|Z|Ardenweald!The Shadowlands|N|From Gertie Jr.|RANK|2|
 C A Song for Silkstriders|QID|60063|M|35.03,28.70|Z|Ardenweald!The Shadowlands|NC|U|178143|N|Play the harp for the Silkstriders, then click on the Silk in front of them.|
 T A Song for Silkstriders|QID|60063|M|37.05,29.67|Z|Ardenweald!The Shadowlands|N|To Artisan Rees.|
-C Save Ol' Gertie|QID|60064|M|36.36,25.70|Z|Ardenweald!The Shadowlands|N|Kill Noisul of Many Faces.|
-T Save Ol' Gertie|QID|60064|M|37.29,25.97|Z|Ardenweald!The Shadowlands|N|To Gertie Jr.|
-A Thread of Hope|QID|60065|PRE|60063&60064|M|37.29,25.97|Z|Ardenweald!The Shadowlands|N|From Gertie Jr.|RANK|2|
+C Tough as Silk|QID|60061|M|38.21,29.17|Z|Ardenweald!The Shadowlands|N|Kill enemies, destroy cacoons and save Night Fae in the area.|US|
+T Tough as Silk|QID|60061|M|38.98,29.93|Z|Ardenweald!The Shadowlands|N|To Caretaker Lillythistle.|
 T Thread of Hope|QID|60065|M|38.97,29.93|Z|Ardenweald!The Shadowlands|N|To Caretaker Lillythistle.|
-A Silk for Ardenweald|QID|60066|PRE|60065|M|38.97,29.93|Z|Ardenweald!The Shadowlands|N|From Caretaker Lillythistle.|RANK|2|
+A Silk for Ardenweald|QID|60065^60066|PRE|60065^60061|M|38.97,29.93|Z|Ardenweald!The Shadowlands|N|From Caretaker Lillythistle.|RANK|2|
+T Anima-Laden Dreamcatcher|QID|62259|M|38.17,36.75|Z|Ardenweald!The Shadowlands|N|To Droman Dawnblossom in Dreamsong Fenn.|
+$ Dreamsong Heart|QID|61070|CS|M|38.01,36.29;37.6,37.1|Z|Ardenweald!The Shadowlands|N|Step on Bounding Shroom at first coordinate (behind bramble wall behind Dawnblossom), jump to treasure at top of the tree. (2nd coord). It may take more than one try. you need to WALK out the tiny branch to get it.|ITEM|179510|ACH|14313;11|
+T Silk for Ardenweald|QID|60065|M|48.48,50.40|Z|Ardenweald!The Shadowlands|N|Bring Gertie Jr. to Aithlyn at the Refugee.|
 T Silk for Ardenweald|QID|60066|M|48.48,50.42|Z|Ardenweald!The Shadowlands|N|To Aithlyn.|
 ]]
 end)
