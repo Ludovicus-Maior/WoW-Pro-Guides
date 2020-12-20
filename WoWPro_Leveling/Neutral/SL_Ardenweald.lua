@@ -596,21 +596,21 @@ A The Shattered Harp|QID|60062|PRE|57661|M|38.11,28.72|Z|Ardenweald!The Shadowla
 C Tough as Silk|QID|60061|M|38.21,29.17|Z|Ardenweald!The Shadowlands|N|Kill enemies, destroy cacoons and save Night Fae in the area.|S|
 C The Shattered Harp|QID|60062|M|36.40,28.49|Z|Ardenweald!The Shadowlands|N|Kill Briarthorn and loot Harp Pieces.|
 T The Shattered Harp|QID|60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|
-A A Song for Silkstriders|QID|60063|PRE|60061&60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|From Artisan Rees.|RANK|2|
-A Save Ol' Gertie|QID|60064|PRE|60061&60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|From Artisan Rees.|RANK|2|
+A A Song for Silkstriders|QID|60063|PRE|60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|From Artisan Rees.|RANK|2|
+A Save Ol' Gertie|QID|60064|PRE|60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|From Artisan Rees.|RANK|2|
 N Silk Shooter|ACTIVE|60063|M|37.08,29.65|Z|Ardenweald!The Shadowlands|N|Pick up the silk shooter off the ground beside Artisan Rees.|BUFF|325637|
 N Silk Shooter|ACTIVE|60063|M|PLAYER|Z|Ardenweald!The Shadowlands|EAB|S!US|N|Use the silk shooter Extra Action button to quickly travel from Meribel to Meribel.|
 C Save Ol' Gertie|QID|60064|M|36.36,25.70|Z|Ardenweald!The Shadowlands|N|Kill Noisul of Many Faces.|
 $ Enchanted Dreamcatcher|ACTIVE|-62259|M|38.46,25.10|Z|Ardenweald!The Shadowlands|N|Use the silkshooter to help climb the roots.|ITEM|183129|L|183129|ACH|14313;12|;ACH doesn't complete till you turn in the quest.
 A Anima-Laden Dreamcatcher|ACTIVE|60064|QID|62259|M|38.46,25.10|Z|Ardenweald!The Shadowlands|N|From item just picked up.|O|U|183129|
 T Save Ol' Gertie|QID|60064|M|37.29,25.97|Z|Ardenweald!The Shadowlands|N|To Gertie Jr.|
-A Thread of Hope|QID|60065|PRE|60063&60064|M|37.29,25.97|Z|Ardenweald!The Shadowlands|N|From Gertie Jr.|RANK|2|
+A Thread of Hope|QID|60065|PRE|60064|M|37.29,25.97|Z|Ardenweald!The Shadowlands|N|From Gertie Jr.|RANK|2|
 C A Song for Silkstriders|QID|60063|M|35.03,28.70|Z|Ardenweald!The Shadowlands|NC|U|178143|N|Play the harp for the Silkstriders, then click on the Silk in front of them.|
 T A Song for Silkstriders|QID|60063|M|37.05,29.67|Z|Ardenweald!The Shadowlands|N|To Artisan Rees.|
 C Tough as Silk|QID|60061|M|38.21,29.17|Z|Ardenweald!The Shadowlands|N|Kill enemies, destroy cacoons and save Night Fae in the area.|US|
 T Tough as Silk|QID|60061|M|38.98,29.93|Z|Ardenweald!The Shadowlands|N|To Caretaker Lillythistle.|
 T Thread of Hope|QID|60065|M|38.97,29.93|Z|Ardenweald!The Shadowlands|N|To Caretaker Lillythistle.|
-A Silk for Ardenweald|QID|60065^60066|PRE|60065|M|38.97,29.93|Z|Ardenweald!The Shadowlands|N|From Caretaker Lillythistle.|RANK|2|
+A Silk for Ardenweald|QID|60065^60066|PRE|60065^60061|M|38.97,29.93|Z|Ardenweald!The Shadowlands|N|From Caretaker Lillythistle.|RANK|2|
 T Anima-Laden Dreamcatcher|QID|62259|M|38.17,36.75|Z|Ardenweald!The Shadowlands|N|To Droman Dawnblossom in Dreamsong Fenn.|
 $ Dreamsong Heart|QID|61070|CS|M|38.01,36.29;37.6,37.1|Z|Ardenweald!The Shadowlands|N|Step on Bounding Shroom at first coordinate (behind bramble wall behind Dawnblossom), jump to treasure at top of the tree. (2nd coord). It may take more than one try. you need to WALK out the tiny branch to get it.|ITEM|179510|ACH|14313;11|
 T Silk for Ardenweald|QID|60065|M|48.48,50.40|Z|Ardenweald!The Shadowlands|N|Bring Gertie Jr. to Aithlyn at the Refugee.|
