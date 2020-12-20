@@ -471,9 +471,9 @@ T Go for the Heart|QID|58488|M|71.48,54.58|Z|Ardenweald!The Shadowlands|N|To Ara
 A Sparkles Rain from Above|QID|58524|M|71.52,54.67|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|58488|MS|
 C Sparkles Rain from Above|QID|58524|M|71.52,54.67|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Lady Moonberry.|MS|
 C Sparkles Rain from Above|QID|58524|M|70.71,55.92|Z|Ardenweald!The Shadowlands|QO|2|N|Keep hitting the 1 key everytime it refreshes to slay the Invaders.|MS|
-T Sparkles Rain from Above|QID|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 T The Fallen Tree|QID|62720|M|70.10,57.17|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
-H Hibernal Hollow|ACTIVE|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|Hearth or run back to Hibernal Hollow.|TOF|
+H Hibernal Hollow|ACTIVE|58524^62763|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|Hearth or run back to Hibernal Hollow.|
+T Sparkles Rain from Above|QID|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 L Nearly Level 58|PRE|58524|M|PLAYER|LVL|57;-64000|N|You need to about 4 bubbles from 58, or you won't be able to do the last quest in Hibernal Hollow. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|MS|
 
 ; Visions of the Dreamer Storyline
