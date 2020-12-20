@@ -17,48 +17,50 @@ C Speak with Sunni|QID|30079|M|81.50,2.51|QO|2|N|up the stairs, inside.|CHAT|
 f Zhu's Watch|QID|30080|M|80.71,2.35|N|At Gee Hung.|TAXI|-Zhu's Watch|
 $ Boat-Building Instructions|QID|31869|M|88.53,50.60;92.08,39.08|Z|Valley of the Four Winds|CS|L|87524|N|Optional, but it's worth 10g and some XP. Dot is at the beginning of the path down. Run down the hill and head north along the shore into the house. The papers are on table.|FLY|OLD|RANK|3|
 $ Boat-Building Instructions|QID|31869|M|92.08,39.08|Z|Valley of the Four Winds|L|87524|N|Optional, but it's worth 10g and some XP. The papers are on the table inside the house.|RANK|3|
-C Finding Yi-Mo|QID|30080|M|78.97,7.73|N|He is lying on the ground.|CHAT|
+C Finding Yi-Mo|QID|30080|M|85.62,0.69|N|He is lying on the ground.|CHAT|
 T Finding Yi-Mo|QID|30080|M|81.31,6.78|N|To Yi-Mo Longbrow.|
 A Cheer Up, Yi-Mo|QID|30082|M|81.31,6.78|N|From Yi-Mo Longbrow.|PRE|30080|
-C Cheer Up, Yi-Mo|QID|30082|M|76.77,7.74|N|Talk to him, then you have to roll him home. You will be attacked by large birds on the way.|CHAT|
-T Cheer Up, Yi-Mo|QID|30082|M|75.87,7.63|N|To Mei Barrelbottom.|
-A Tears of Pandaria|QID|30091|M|75.87,7.63|N|From Mei Barrelbottom.|PRE|30082|
-T What's Eating Zhu's Watch?|QID|30079|M|76.24,7.14|N|To Ken-Ken.|
+C Cheer Up, Yi-Mo|QID|30082|M|76.77,7.74;80.75,1.80|CS|N|Talk to him twice. The second time, choose the second option and click on Yi-Mo to start rolling him toward Zhu's Watch.\nContinue doing this until the quest completes. \nAlong the way, You will be attacked by a large bird 3 or 4 times.\n[color=FF0000]NOTE: [/color]You can only roll him from one direction, behind him towards home.|CHAT|
+T Cheer Up, Yi-Mo|QID|30082|M|79.74,1.50|N|To Mei Barrelbottom.|
+A Tears of Pandaria|QID|30091|M|79.74,1.50|N|From Mei Barrelbottom.|PRE|30082|
+T What's Eating Zhu's Watch?|QID|30079|M|80.14,0.93|N|To Ken-Ken.|
 A Materia Medica|QID|30081|M|76.23,7.12|N|From Ken-Ken.|PRE|30079&30082|
-C Materia Medica|QID|30081|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|S|
-C Tears of Pandaria|QID|30091|M|72.19,10.68;75.41,10.87|CN|
-C Materia Medica|QID|30081|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|US|
-T Tears of Pandaria|QID|30091|M|75.83,7.65|N|To Mei Barrelbottom.|
-A Securing the Province|QID|30083|M|75.83,7.65|N|From Mei Barrelbottom.|PRE|30091|
-A Borderlands|QID|30084|M|75.83,7.65|N|From Mei Barrelbottom.|PRE|30091|
-T Materia Medica|QID|30081|M|76.24,7.14|N|To Ken-Ken.|
-A Why So Serious?|QID|30088|M|76.24,7.14|N|From Ken-Ken.|PRE|30081|
-C Why So Serious?|QID|30088|M|72.00,16.91|L|78941 18|N|The panthers are in the area around the Memorial Flames.|S|
-C Memorial Flame of Po|QID|30084|M|75.20,17.20|U|78928|QO|2|NC|; Memorial Flame of Po: 1/1
-C Memorial Flame of Zhu|QID|30084|M|72.71,18.11|U|78928|QO|1|NC|; Memorial Flame of Zhu: 1/1
-C Memorial Flame of Rin|QID|30084|M|71.21,17.55|U|78928|QO|3|NC|; Memorial Flame of Rin: 1/1
-C Securing the Province|QID|30083|M|77.30,58.91|Z|Valley of the Four Winds|N|Kill the sauroks on the way in and out of the cave.|S| ;the tomtom arrow doesn't show up for the next few steps (located outside of Krasarang Wilds).
-$ Saurok Stone Tablet|QID|30088|L|86220|M|75.05,55.12|Z|Valley of the Four Winds|N|The tablet, located in the second "room" of the cave, is a world drop worth ~100G and a random amount of XP (at least as much as one quest)|RANK|3|
-l Jar of Pigment|QID|30088|M|73.89,56.30|Z|Valley of the Four Winds|L|78942|N|Pick up the jar of pigment here.|US|
-C Securing the Province|QID|30083|M|77.30,58.91|Z|Valley of the Four Winds|N|When you finish killing the sauroks, you can mount up in the cave and make a run for it.|US|
-T Securing the Province|QID|30083|M|75.83,7.65|N|To Mei Barrelbottom.|
-T Borderlands|QID|30084|M|75.83,7.65|N|To Mei Barrelbottom.|
-T Why So Serious?|QID|30088|M|76.24,7.14|N|To Ken-Ken.|
-A Apply Directly to the Forehead|QID|30089|M|76.25,7.15|N|From Ken-Ken.|PRE|30088|
-C Apply Directly to the Forehead|QID|30089|M|76.69,9.11|N|Use Ken Ken's mask on the Despondant Warden's of Zhu.|U|79021|
-T Apply Directly to the Forehead|QID|30089|M|76.24,7.10|N|To Ken-Ken.|
-A Zhu's Despair|QID|30090|M|76.24,7.10|N|From Ken-Ken.|PRE|30089|
-C Zhu's Despair|QID|30090|U|79057|M|76.43,8.76|N|After you kill the sha, use the mask on Yi-Mo, who is standing by the well.|
-T Zhu's Despair|QID|30090|M|76.23,7.10|N|To Ken-Ken.|
-A Into the Wilds|QID|30133|M|75.85,7.59|N|From Mei Barrelbottom.|PRE|30090|
-A Poisoned!|QID|30179|M|68.81,22.27|N|From Chezin Dawnchaser.|
-C Poisoned!|QID|30179|M|67.62,21.08|N|The blades are a random drop from the mogu in the area.|
-A Crane Mastery|QID|30352|M|67.60,25.77|N|From Daggle Bombstrider.|
-A Profit Mastery|QID|30353|M|67.60,25.77|N|From Daggle Bombstrider.|
-C Into the Wilds|QID|30133|M|62.55,25.35|CHAT|N|Check on the courier lying on the ground.|
-T Kang Bramblestaff|QID|29875|M|60.05,25.07|N|To Kang Bramblestaff.|
-T Poisoned!|QID|30179|M|59.92,24.81|N|To Sunwalker Dezco.|
-A Blind Them!|QID|30124|M|59.92,24.81|N|From Kor Bloodtusk.|PRE|30179|
+C Materia Medica|QID|30081|M|79.33,5.11;75.51,4.76|CN|N|The salty cores drop from the horrors. The fish are sparklies on the ground where you kill the Horrors. The honeycomb is found in trees nearby\n[color=FF0000]NOTE: [/color]There are two areas to do this; one on either side of the road.|NC|S|
+K Tears of Pandaria|QID|30091|M|79.33,5.11;75.51,4.76|CN|QO|1|
+C Materia Medica|QID|30081|M|79.33,5.11;75.51,4.76|CN|N|The salty cores drop from the horrors. The fish are sparklies on the ground where you kill the Horrors. The honeycomb is found in trees nearby\n[color=FF0000]NOTE: [/color]There are two areas to do this; one on either side of the road.|US|
+T Tears of Pandaria|QID|30091|M|79.74,1.50|N|To Mei Barrelbottom.|
+A Securing the Province|QID|30083|M|79.74,1.50|N|From Mei Barrelbottom.|PRE|30091|
+A Borderlands|QID|30084|M|79.74,1.50|N|From Mei Barrelbottom.|PRE|30091|
+T Materia Medica|QID|30081|M|80.14,0.93|N|To Ken-Ken.|
+A Why So Serious?|QID|30088|M|80.14,0.93|N|From Ken-Ken.|PRE|30081|
+l Why So Serious?|QID|30088|M|76.03,10.95|QO|1|N|The panthers are in the area around the Memorial Flames.|S|
+C Memorial Flame of Po|QID|30084|M|77.71,11.53|QO|2|U|78928|NC|
+C Memorial Flame of Zhu|QID|30084|M|76.42,12.89|QO|1|U|78928|NC|
+C Memorial Flame of Rin|QID|30084|M|74.78,12.19|QO|3|U|78928|NC|
+l Why So Serious?|QID|30088|M|76.03,10.95|QO|1|N|The panthers are in the area around the Memorial Flames.|US|
+K Securing the Province|QID|30083|M|77.30,58.91|Z|Valley of the Four Winds|QO|1|N|Kill the sauroks on the way in and out of the cave.|S|
+$ Saurok Stone Tablet|QID|213750|M|74.99,55.15|Z|Valley of the Four Winds|L|86220|N|On your way out, stop and pick this up.\nThe tablet, located in the second "room" of the cave, is a world drop worth ~100G and a random amount of XP (at least as much as one quest)|RANK|3|
+l Jar of Pigment|ACTIVE|30088|M|73.88,56.42|Z|Valley of the Four Winds|QO|2|N|Make your way inside the cave and all the way to the back of it. Pick up the jar of pigment here.|
+K Securing the Province|QID|30083|M|77.30,58.91|Z|Valley of the Four Winds|QO|1|N|When you finish killing the sauroks, you can mount up in the cave and make a run for it.|US|
+T Securing the Province|QID|30083|M|79.74,1.50|N|To Mei Barrelbottom.|
+T Borderlands|QID|30084|M|79.74,1.50|N|To Mei Barrelbottom.|
+T Why So Serious?|QID|30088|M|80.14,0.93|N|To Ken-Ken.|
+A Apply Directly to the Forehead|QID|30089|M|80.14,0.93|N|From Ken-Ken.|PRE|30088|
+C Apply Directly to the Forehead|QID|30089|M|79.94,2.26|N|Use Ken-Ken's mask on a Despondant Warden's of Zhu and kill the Manifestation of Despair that spawns.\nThey are all around Zhu's Watch.|T|Despondent|U|79021|
+T Apply Directly to the Forehead|QID|30089|M|80.14,0.93|N|To Ken-Ken.|
+A Zhu's Despair|QID|30090|M|80.14,0.93|N|From Ken-Ken.|PRE|30089|
+C Zhu's Despair|QID|30090|M|79.93,2.27|QO|1|N|With Ken-Ken's help, kill the sha around Zhu's Watch.|
+C Zhu's Despair|QID|30090|M|80.45,2.79|QO|2|N|Use the mask on Yi-Mo, who is standing by the well. Kill the Quintessence of Despair that spawns.|T|Yi-Mo|U|79057|
+T Zhu's Despair|QID|30090|M|80.14,0.93|N|To Ken-Ken.|
+A Into the Wilds|QID|30133|M|79.74,1.50|N|From Mei Barrelbottom.|PRE|30090|
+A Poisoned!|QID|30179|M|72.16,17.26|N|From Chezin Dawnchaser at the Krasari Ruins.|
+l Poisoned!|QID|30179|M|71.09,16.83|QO|1|N|Kill the Krasari Tormentors/Runekeepers to loot the blades.|
+A Crane Mastery|QID|30352|M|70.91,21.01|N|From Daggle Bombstrider.|
+A Profit Mastery|QID|30353|M|70.91,21.01|N|From Daggle Bombstrider.|
+C Into the Wilds|QID|30133|M|65.44,20.72|N|Check on the courier lying on the ground.|
+T Kang Bramblestaff|QID|29875|M|62.79,20.24|N|To Kang Bramblestaff.|
+T Poisoned!|QID|30179|M|62.57,19.92|N|To Sunwalker Dezco.|
+A Blind Them!|QID|30124|M|62.56,20.03|N|From Kor Bloodtusk.|PRE|30179|
 A Skitterer Stew|QID|30123|M|60.11,24.98|N|From Kang Bramblestaff.|PRE|30179|
 f Thunder Cleft|QID|30123|M|59.23,24.55|N|At Lira Skysplitter.|
 C Kill and loot skitterers|QID|30123|M|62.46,32.89|N|Its a random drop from the skitterers.|S|
@@ -68,8 +70,8 @@ K Darnassian Outrider|QID|30124|M|61.56,30.64|QO|1|N|She paths up and down this 
 C Kill and loot skitterers|QID|30123|M|62.46,32.89|N|Its a random drop from the skitterers.|US|
 C Kill cranes|QID|30352|M|63.94,29.44|US|
 C Kill tigers|QID|30353|M|71.15,24.65|N|The tigers drop 0-3 blood, they are likely to be stealthed.|US|
-T Profit Mastery|QID|30353|M|67.60,25.77|N|To Daggle Bombstrider.|
-A Profit Mastery: Chasheen|QID|31260|M|67.60,25.77|N|From Daggle Bombstrider.|PRE|30353|
+T Profit Mastery|QID|30353|M|70.91,21.01|N|To Daggle Bombstrider.|
+A Profit Mastery: Chasheen|QID|31260|M|70.91,21.01|N|From Daggle Bombstrider.|PRE|30353|
 T Crane Mastery|QID|30352|M|67.6, 25.77|
 A Crane Mastery: Needlebeak|QID|31262|M|67.61,25.70|N|From Daggle Bombstrider.|PRE|30352|
 K Needlebeak|QID|31262|M|63.19,20.39|L|85854|T|Needlebeak|
@@ -184,10 +186,10 @@ A For the Tribe|QID|30163|M|28.72,50.86|N|From Kor Bloodtusk.|PRE|30132|
 A The Greater Danger|QID|30229|M|28.72,50.86|N|From Kor Bloodtusk.|PRE|30132|
 A Re-Reclaim|QID|30230|M|28.77,50.68|N|From Kang Bramblestaff.|PRE|30132|
 C Re-Reclaim|QID|30230|M|25.04,37.99|N|Pick up the sparkly artifacts from the ground.|NC|S|
-C For the Tribe|QID|30163|M|23.95,41.43|N|Click on the horde members to free them from the traps.|S|NC|
+C For the Tribe|QID|30163|M|23.95,41.43|N|Click on the horde members to free them from the traps.|NC|S|
 C The Greater Danger|QID|30229|M|23.76,41.88|N|To maximize efficiency, try to kill the ones that are beside trapped horde people or ground spawns you need to pick up.|
-C Re-Reclaim|QID|30230|M|25.04,37.99|US|NC|
-C For the Tribe|QID|30163|M|23.95,41.43|US|NC|
+C Re-Reclaim|QID|30230|M|25.04,37.99|NC|US|
+C For the Tribe|QID|30163|M|23.95,41.43|NC|US|
 T Re-Reclaim|QID|30230|M|28.80,50.42|N|To Kang Bramblestaff.|
 T For the Tribe|QID|30163|M|28.70,50.89|N|To Kor Bloodtusk.|
 T The Greater Danger|QID|30229|M|28.72,50.86|N|To Kor Bloodtusk.|
