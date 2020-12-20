@@ -457,12 +457,12 @@ T The Mile-High Grub|QID|30331|M|52.54,51.65|N|To Mei Mei Ironpaw.|
 B The "Jinyu Princess" Irrigation System|LEAD|31936|M|53.17,51.86|L|89812|N|Buy from Gina Mudclaw. Even if you like using inventory space for the watering can, its still 250 rep for 90g. Not available until after the weeds are removed (so, in 15 minutes, if Gao Lan just started.)|PRE|30531|
 A The "Jinyu Princess" Irrigation System|QID|31936|N|From the item you just bought.|U|89812|PRE|30531|O|
 T The "Jinyu Princess" Irrigation System|QID|31936|M|52.25,48.80|N|To Farmer Yoon who installs it for you.|
-
+* Rusty Watering Can|AVAILABLE|-31936|M|PLAYER|N|As you no longer require it, destroy the Watering Can to save bag space.|U|79104|
 ;BUY THE BUG SPRAYER - requires remove the cart
 B "Thunder King" Pest Repellers|LEAD|31937|M|53.17,51.86|L|89813|N|Buy from Gina Mudclaw. Even if you like using inventory space for the bug sprayer, its still 250 rep for 80g. Not available until after the weeds are removed (so, in 15 minutes, if Fish just started.)|PRE|30533|
 A "Thunder King" Pest Repellers|QID|31937|M|53.17,51.86|N|From the item you just bought.|U|89813|PRE|30533|O|
 T "Thunder King" Pest Repellers|QID|31937|M|52.25,48.80|N|To Farmer Yoon who installs it for you.|
-
+* Vintage Bug Sprayer|AVAILABLE|-31937|M|PLAYER|N|As you no longer require it, destroy the Bug Sprayer to save bag space.|U|80513|
 ;BUY THE PLOW
 B The "Earth-Slasher" Master Plow|LEAD|31938|M|53.17,51.86|L|89814|N|Buy from Gina Mudclaw. Much faster as you can plow 4 plots with one click. Not available until after the weeds are removed (so, in 15 minutes, if Thundar just started.)|PRE|30574|
 A The "Earth-Slasher" Master Plow|QID|31938|N|From the item you just bought.|U|89814|PRE|30574|O|
@@ -476,8 +476,7 @@ A Buy A Fish A Round?|QID|31321|M|53.6,52.4|N|From Jogu the Drunk.|PRE|31320|REP
 B Buy Plum Wine|ACTIVE|31321|L|81415 5|M|54.96,50.47|N|Buy from Den Den the bartender in the The Lazy Turnip Inn|
 t Buy A Fish A Round?|QID|31321|M|53.6,52.4|N|To Jogu the Drunk.|
 A Buy A Fish A Keg?|QID|31322|M|53.6,52.4|N|From Jogu the Drunk.|PRE|31321|REP|Jogu;1273;Friend| ; -- 25200 rep
-
-B Buy or Make Jade Witch Brew|ACTIVE|31322|L|75037 10|N|Make with cooking or buy from another player.|
+B Buy or Make Jade Witch Brew|ACTIVE|31322|L|75037 10|N|Make with cooking or buy from another player.\n[color=FF0000]NOTE: [/color]If you wish make them and need to grow the Jade Squash and/or Witchberries, skip this step until you can harvest them.|
 t Buy A Fish A Keg?|QID|31322|M|53.6,52.4|N|To Jogu the Drunk.|
 A Buy A Fish A Brewery?|QID|31323|M|53.6,52.4|N|From Jogu the Drunk.|PRE|31322|REP|Jogu;1273;Good Friend| ; -- 33600 rep
 B Buy or Make Mad Brewer's Breakfast|ACTIVE|31323|L|75038 20|N|Make with cooking or buy from another player. I suspect this one is too expensive to be worth doing, only consequence of not doing it, is not gaining the faction/reward).|
