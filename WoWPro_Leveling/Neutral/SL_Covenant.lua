@@ -8,7 +8,7 @@ return [[
 ; Torghast
 A Into Torghast|QID|60136|M|39.93,68.59|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|63029^63030^63032^63033|
 P Ring of Transference|QID|60136|ACTIVE|60136|M|52.07,57.87|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
-P Ve'nari's Refuge|QID|60136|ACTIVE|60136|M|46.98,51.57|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|
+P Ve'nari's Refuge|QID|60136|ACTIVE|60136|M|49.55,51.62|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|
 C Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|QO|1|CHAT|N|Ask Ve'nari about a way into Torghast.|
 T Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|N|To Ve'nari.|
 A The Search for Baine|QID|61099|M|PLAYER|Z|The Maw|N|From Ve'nari.|PRE|60136|
@@ -146,7 +146,7 @@ A Recover the Lost|QID|62892|M|40.03,56.78|Z|The Roots@Heart of the Forest!Dunge
 T Recover the Lost|QID|62892|M|34.40,43.73|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
 A Do What We Cannot|QID|62893|M|34.40,43.73|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|COV|Night Fae|
 F Oribos|ACTIVE|62893|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
-P Cocyrus|ACTIVE|62893|M|46.98,51.57|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|COV|Night Fae|
+P Ve'nari's Refuge|ACTIVE|62893|M|49.55,51.62|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|COV|Night Fae|
 T Do What We Cannot|QID|62893|M|46.81,41.62|Z|The Maw|N|To Ve'nari.|COV|Night Fae|
 A Setting the Ground Rules|QID|62882|PRE|62893|M|46.92,41.69|Z|The Maw|N|From Ve'nari.|COV|Night Fae|
 C Setting the Ground Rules|QID|62882|M|46.90,41.68|Z|The Maw|CHAT|N|Speak with Ve'nari to set some ground rules.|COV|Night Fae|
@@ -174,8 +174,10 @@ P Oribos|ACTIVE|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Orib
 C Hopeful News|QID|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Night Fae|
 T Hopeful News|QID|62837|M|39.94,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Night Fae|
 A Flutterback|QID|62894|M|40.31,68.69|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|62837|COV|Night Fae|
-P Ring of Transference|ACTIVE|62894|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|COV|Night Fae|
-F Heart of the Forest|ACTIVE|62894|M|60.59,68.98|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi.|COV|Night Fae|
+
+P Ring of Transference|ACTIVE|62894|M|49.55,60.83|Z|Ring of Transference@Oribos|IZ|-Heart of the Forest|N|Take the Teleporation Pad up to the Ring of Transference.|COV|Night Fae|
+F Heart of the Forest|ACTIVE|62894|M|60.59,68.98|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi.|IZ|Ring of Transference|COV|Night Fae|
+
 T Flutterback|QID|62894|M|34.14,43.99|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
 A Recovered Souls|QID|62897|M|33.92,43.52|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|PRE|62894|COV|Night Fae|
 T Recovered Souls|QID|62897|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder.|COV|Night Fae|
@@ -1572,7 +1574,7 @@ A Opportunity Strikes|QID|61397|PRE|62840|M|52.77,38.25|Z|Seat of the Primus!Dun
 T Opportunity Strikes|QID|61397|M|46.58,42.44|Z|Seat of the Primus!Dungeon|N|To Osbourne Black.|COV|Necrolord|
 A The Soul Contact|QID|62843|PRE|61397|M|46.58,42.44|Z|Seat of the Primus!Dungeon|N|From Osbourne Black.|COV|Necrolord|
 F Ring of Transference|ACTIVE|62843|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Necrolord|
-P Cocyrus|ACTIVE|62843|M|46.98,51.57|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|COV|Necrolord|
+P Ve'nari's Refuge|ACTIVE|62843|M|49.55,51.62|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|COV|Necrolord|
 T The Soul Contact|QID|62843|M|46.92,41.69|Z|The Maw|N|To Ve'nari.|COV|Necrolord|
 A Setting the Ground Rules|QID|62882|PRE|62843|M|46.92,41.69|Z|The Maw|N|From Ve'nari.|COV|Necrolord|
 C Setting the Ground Rules|QID|62882|M|46.90,41.68|Z|The Maw|CHAT|N|Speak with Ve'nari to set some ground rules.|COV|Necrolord|
