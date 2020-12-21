@@ -708,7 +708,7 @@ WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 -- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
 
 WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
-	if not _G.UnitInParty("player") then
+	if not _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) > 0 then
 		WoWPro.GroupSync = false
 	end
 	if successfulRequest then
@@ -736,7 +736,7 @@ end
 
 WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 	local _, prefix, text, _, sender = event, ...
-	if successfulRequest and prefix == "WoWPro" and _G.UnitInParty("player") then
+	if successfulRequest and prefix == "WoWPro" and _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) > 0 then
 		local synctype, message = string.split(" ", text, 2)
 		local gname = string.split("-", sender, 2)
 		if gname ~= _G.UnitName("Player") then
