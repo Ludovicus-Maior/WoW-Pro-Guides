@@ -166,10 +166,10 @@ B Witchberry Seeds|ACTIVE|31943|L|89326|M|52.88,52.14|N|Don't forget to buy what
 B Witchberry Seeds|ACTIVE|32645|L|89326 8|M|52.88,52.14|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
 B Scallion Seeds|ACTIVE|31671|L|80591|M|52.88,52.14|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
 B Scallion Seeds|ACTIVE|32972|L|80591 8|M|52.88,52.14|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Juicycrunch Carrot Seeds (Mung Mung)|QID|31946|ACTIVE|31946|M|52.88,52.14|L|80590 2|N|Buy seeds from Merchant Greenfield.|
-B Green Cabbage Seeds(Farmer Fung)|ACTIVE|31947|M|52.88,52.14|L|79102 3|N|Buy seeds from Merchant Greenfield.|
+B Juicycrunch Carrot Seeds (Mung Mung)|QID|31946|ACTIVE|31946|M|52.88,52.14|L|80590 2|QO|1|N|Buy seeds from Merchant Greenfield.|
+B Green Cabbage Seeds(Farmer Fung)|ACTIVE|31947|M|52.88,52.14|L|79102 3|QO|1|N|Buy seeds from Merchant Greenfield.|
 B Witchberry Seeds(Nana)|ACTIVE|31949|M|52.88,52.14|L|89326 3|QO|1|N|Buy seeds from Merchant Greenfield.|
-B Striped Melon Seeds(Haohan)|ACTIVE|30527|M|52.88,52.14|L|89329 4|N|Buy seeds from Merchant Greenfield.|
+B Striped Melon Seeds(Haohan)|ACTIVE|30527|M|52.88,52.14|L|89329 4|QO|1|N|Buy seeds from Merchant Greenfield.|
 t A Shabby New Face|QID|32189|M|53.36,51.42|N|To Barnaby Fletcher,|
 A One Magical, Flying Kingdom's Trash...|QID|32198|M|53.36,51.42|N|From Barnaby Fletcher. (Instant Accept/Turn In quest, you now have a shard to plant that will grow into a random portal shard.) After completing this quest, anytime Barnaby is at the market, you can buy more portal shards from him.|PRE|32189|
 
@@ -196,11 +196,14 @@ T The Pink Turnip Challenge|QID|31674|M|52.25,48.80|N|To Farmer Yoon.|
 T Which Berries? Witchberries.|QID|31943|M|52.25,48.80|N|To Farmer Yoon.|
 T Why Not Scallions?|QID|31671|M|52.25,48.80|N|To Farmer Yoon.|
 
-C Nana's Vote III: Plant Witchberry|QID|31949|M|51.86,48.58|QO|1|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. They won't grow until the next day.|T|Tilled Soil|U|89326|NC|
+C Nana's Vote III: Plant Witchberry|QID|31949|M|51.86,48.58|QO|1|N|After planting, be sure and take care of any issues so they are "growing". Check this step off manually on day 1. They won't grow until the next day.|T|Tilled Soil|U|89326|NC|
 C Nana's Vote III: Harvest Witchberry|QID|31949|M|51.86,48.58|QO|2;3|N|Harvest the Witchberry plants and deliver them to Nana.|NC|
-C Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Farmer Fung.|T|Tilled Soil|U|79102|NC|
-C Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Mung-Mung.|T|Tilled Soil|U|80590|NC|
-C Haohan's Vote IV: Melons For Felons|QID|30527|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing". Check this step off manually on day 1. The next day you can harvest and deliver them to Haohan Mudclaw.|T|Tilled Soil|U|89329|NC|
+C Farmer Fung's Vote III: Plant Cabbage|QID|31947|M|51.86,48.58|QO|1|N|After planting, be sure and take care of any issues so they are "growing". Check this step off manually on day 1. They won't grow until the next day.|T|Tilled Soil|U|79102|NC|
+C Farmer Fung's Vote III: Harvest Cabbage|QID|31947|M|51.86,48.58|QO|2;3|N|Harvest the Cabbage plants and deliver them to Farmer Fung.|NC|
+C Mung-Mung's Vote III: Plant Juicycrunch Carrots|QID|31946|M|51.86,48.58|QO|1|N|After planting, be sure and take care of any issues so they are "growing". Check this step off manually on day 1. They won't grow until the next day.|T|Tilled Soil|U|80590|NC|
+C Mung-Mung's Vote III: Harvest Juicycrunch Carrots|QID|31946|M|51.86,48.58|QO|2;3|N|Harvest the Carrot plants and deliver them to Mung-Mung.|NC|
+C Haohan's Vote IV: Plant Striped Melons|QID|30527|M|51.86,48.58|QO|1|N|After planting, be sure and take care of any issues so they are "growing". Check this step off manually on day 1. They won't grow until the next day.|T|Tilled Soil|U|89329|NC|
+C Haohan's Vote IV: Harvest Striped Melons|QID|30527|M|51.86,48.58|QO|2;3|N|Harvest the Melon plants and deliver them to Haohan.|NC|
 A Unstable Portal Shard|QID|31315|M|51.86,48.58|L|91806|N|{not actually a quest) After planting, be sure and take care of the pests so it is stable. Results in a random, one time use soulbound portal shard to one of your faction's cities on EK/Kalimdor (stones stack to 20). Check this step off manually.|T|Tilled Soil|U|91806|NC|PRE|32198|O| ; -- QID,? using 31315 since it is the final quest in the whole Tillers chain --32198 is not active at this point since this is the reward from it...- Grail is wrong on |PRE|31314| as I have gotten this item before completing 31314.
 
 ;plant for work orders
@@ -323,7 +326,7 @@ T Where It Counts|QID|30325|M|29.47,30.26|N|To Sho.\nIf Sho is not here, she is 
 C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|CN|S|N|Random drops while killing the other mobs for your other quests.|
 C Uncut Chrysoberyl|QID|30470|M|39,20;44,22;47,21|CN|N|This is a smallish rock in any of the 3 virmen caves (and just outside them.) It can appear in several colors. It respawns at a new spot everytime someone loots it.|S|NC
 C The Thousand-Year Dumpling|QID|30328|M|39,20;44,22;47,21|CN|N|Pick up the jars located in the 3 virmen caves.| ; -- Yan Ironpaw.|S|NC|
-C Mission: Culling The Vermin|QID|31529|M|39,20;44,22;47,21|CN|N|Do this while you are doing the other quests in theVe area.|S|
+K Mission: Culling The Vermin|QID|31529|M|39,20;44,22;47,21|CN|QO|1|N|Do this while you are doing the other quests in theVe area.|S|
 C Haohan's Vote III: Pure Poison|QID|30525|M|44.4,22|QO|4|N|Found in the grassy areas near the cave entrances.|S|
 C Haohan's Vote III: Pure Poison|QID|30525|M|44.2,21.3|QO|3|N|Found inside vermin caves.|
 C Haohan's Vote III: Pure Poison|QID|30525|M|48.4,18.4|QO|2|N|Found inside vermin caves.|
@@ -333,7 +336,7 @@ C Haohan's Vote III: Pure Poison|QID|30525|M|44.4,22|QO|4|N|Found in the grassy 
 C Uncut Chrysoberyl|QID|30470|M|39,20;44,22;47,21|CN|N|This is a smallish rock in the 3 virmen caves (and just outside them.) It can appear in several colors. It respawns at a new spot everytime someone loots it.|US|NC|
 C The Thousand-Year Dumpling|QID|30328|M|39,20;44,22;47,21|CN|N|Pick up the jars located in the 3 virmen caves.|US|NC| ; -- Yan Ironpaw.
 C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|CN|N|Random drops while killing the other mobs for your other quests.|US|
-C Mission: Culling The Vermin|QID|31529|M|39,20;44,22;47,21|CN|N|Do this while you are doing the other quests in theVe area.|US|
+K Mission: Culling The Vermin|QID|31529|M|39,20;44,22;47,21|CN|QO|1|N|Do this while you are doing the other quests in theVe area.|US|
 C Mission: Aerial Threat|QID|31531|M|45,16|N|These are the birds that are yellow (non-aggro).|
 C Mission: Predator of the Cliffs|QID|31532|M|46.4,16.4|N|This bird is in a nest near the caves.|
 C Nana's Vote II: The Sacred Springs|QID|31948|M|56.83,22.57|N|If you land at the coordinates, you can fill your pitcher without the guardian attacking you.\n[color=FF0000]NOTE: [/color]As long as you stay back from the green rock, you'll be fine.|U|89902|
