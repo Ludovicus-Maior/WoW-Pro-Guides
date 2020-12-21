@@ -1078,7 +1078,7 @@ end
 
 function WoWPro:SendGroupInfo()
 	--if WoWProCharDB.GroupSync then
-	if _G.GetNumSubgroupMembers(LE_PARTY_CATEGORY_HOME) > 0 then
+	if _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) > 0 then
 		local _, myclass = _G.UnitClass("player")
 		local _, myrace = _G.UnitRace("player")
 		local gender = _G.UnitSex("player")
