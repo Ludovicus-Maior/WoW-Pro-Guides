@@ -150,7 +150,7 @@ T What a Buzzkill|QID|59623|M|51.54,33.97|Z|Ardenweald!The Shadowlands|N|To Gorm
 ;Thread of Hope:
 F Refugee Camp|QID|57661|N|Fly to Refugee Camp from your nearest flightmaster.|COV|-Night Fae|
 F Heart of the Forest|QID|57661|N|Fly to Refugee Camp from your nearest flightmaster.|COV|Night Fae|
-A Silk Shortage|QID|57661|M|59.4,32.6|Z|The Trunk@Heart of the Forest!Dungeon|N|From Aithlyn|PRE|59656|COV|Night Fae|;from comments -- it appears its a dif place
+A Silk Shortage|QID|57661|M|59.46,31.85|Z|The Trunk@Heart of the Forest!Dungeon|N|From Aithlyn|PRE|59656|COV|Night Fae|;from comments -- it appears its a dif place
 A Silk Shortage|QID|57661|M|48.48,50.40|Z|Ardenweald!The Shadowlands|N|From Aithlyn|PRE|59656|;PRE may be wrong, but it's somewhere in that chain
 R Gossamer Cliffs|ACTIVE|57661|M|39.00,29.94|Z|Ardenweald!The Shadowlands|N|Run to Gossamer Cliffs, If you know the Glitterfall Basin flightpath it is slightly shorter run from there.|
 T Silk Shortage|QID|57661|M|38.98,29.93|Z|Ardenweald!The Shadowlands|N|To Caretaker Lillythistle in the Gossamer Cliffs.|
@@ -178,7 +178,7 @@ A Silk for Ardenweald|QID|60065^60066|M|38.98,29.93|Z|Ardenweald!The Shadowlands
 T Anima-Laden Dreamcatcher|QID|62259|M|38.17,36.75|Z|Ardenweald!The Shadowlands|N|To Droman Dawnblossom in Dreamsong Fenn.|
 $ Dreamsong Heart|QID|61070|CS|M|38.01,36.29;37.6,37.1|Z|Ardenweald!The Shadowlands|N|Step on Bounding Shroom at first coordinate (behind bramble wall behind Dawnblossom), jump to treasure at top of the tree. (2nd coord). It may take more than one try. you need to WALK out the tiny branch to get it.|ITEM|179510|ACH|14313;11|
 T Silk for Ardenweald|QID|60065|M|48.48,50.40|Z|Ardenweald!The Shadowlands|N|Bring Gertie Jr. to Aithlyn at the Refugee.|
-T Silk for Ardenweald|QID|60066|M|59.4,32.6|Z|The Trunk@Heart of the Forest!Dungeon|N|Bring Gertie Jr. to Aithlyn at the Heart of the Forest.|
+T Silk for Ardenweald|QID|60066|M|59.46,31.85|Z|The Trunk@Heart of the Forest!Dungeon|N|Bring Gertie Jr. to Aithlyn at the Heart of the Forest.|
 
 N Revendreth|ACH|14798|
 ;The Final Atonement
