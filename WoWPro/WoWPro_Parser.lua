@@ -667,6 +667,9 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     end
 
 
+    -- Expand markup in the step, for professions.
+    WoWPro.step[i] = WoWPro.ExpandMarkup(WoWPro.step[i])
+
     -- If there is a note, expand any markup.
     if WoWPro.note[i] then
         WoWPro.note[i] = WoWPro.ExpandMarkup(WoWPro.note[i])
