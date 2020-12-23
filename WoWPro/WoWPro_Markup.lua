@@ -40,6 +40,23 @@ function WoWPro.ExpandItem(item, want_icon, want_text)
 end
 RegisterMarkup("item", WoWPro.ExpandItem)
 
+function WoWPro.ExpandSpell(spell, want_icon, want_text)
+    local name, _, texture = _G.GetSpellInfo(tonumber(spell))
+    local link  = _G.GetSpellLink(tonumber(spell))
+    local expanded = ""
+    if name then
+        if want_icon then
+            expanded = expanded .. "|T" .. texture .. ":0::0:0|t"
+        end
+        if want_text then
+            expanded = expanded .. " " .. link
+        end
+    else
+        expanded = "{Invalid spell=" .. tostring(spell) .."}"
+    end
+    return expanded
+end
+RegisterMarkup("spell", WoWPro.ExpandSpell)
 
 function WoWPro.ExpandMoney(money,want_icon, want_text)
     local expanded = _G.GetCoinTextureString(tonumber(money)*100*100)
@@ -70,19 +87,23 @@ function WoWPro.ExpandMarkup(text)
     local want_icon, want_text
     -- WoWPro:dbp("ExpandMarkup starting on %s",text:gsub("|", "¦"))
     while true do
-        local tag_start, tag_text, tag_id, tag_qual, tag_end = text:match("()%[%s*([%a/]+)%s*=%s*([%d%a/-]+)%s*;%s*?([icontex]+)%s*%]()")
+        -- [spell=123/foooBar;icon]
+        local tag_start, tag_text, tag_id, tag_qual, tag_end = text:match("()%[([%a]+)=([%d%a/: -]+);([icontex]+)%]()")
         if not tag_start then
             -- Lets try no qualifier
-            -- WoWPro:dbp("ExpandMarkup Failed 1")
-            tag_start, tag_text, tag_id, tag_end = text:match("()%[%s*([%a/]+)%s*=%s*([%d%a/-]+)%s*%]()")
+            -- WoWPro:dbp("ExpandMarkup Failed [spell=123/foooBar;icon]")
+            -- [fizzel=123AZ/XXX and Y]
+            tag_start, tag_text, tag_id, tag_end = text:match("()%[([%a]+)=([%d%a/: -]+)%]()")
             if not tag_start then
-                -- WoWPro:dbp("ExpandMarkup Failed 2")
-                tag_start, tag_text, tag_id, tag_end = text:match("()%[%s*(money)%s*=%s*([%d.]+)%s*%]()")
+                -- WoWPro:dbp("ExpandMarkup Failed [foo=123/XXX-and-Y]")
+                -- [money=123.45]
+                tag_start, tag_text, tag_id, tag_end = text:match("()%[(money)=([%d.]+)%]()")
                 if not tag_start then
-                    -- WoWPro:dbp("ExpandMarkup Failed 3")
-                    tag_start, tag_text, tag_end = text:match("()%[%s*([/%a]+)%s*]()")
+                    -- WoWPro:dbp("ExpandMarkup Failed [money=1.2]")
+                    -- [/color]
+                    tag_start, tag_text, tag_end = text:match("()%[(/[%a]+)%]()")
                     if not tag_start then
-                        -- WoWPro:dbp("ExpandMarkup failed on %s",text:gsub("|", "¦"))
+                        WoWPro:dbp("ExpandMarkup failed on %s",text:gsub("|", "¦"))
                         return text
                     end
                     tag_id = ""
@@ -119,4 +140,12 @@ function WoWPro.ExpandMarkup(text)
         -- WoWPro:dbp("ExpandMarkup [%s=%s;%s] => %s",tag_text, tostring(tag_id), tag_qual, expand:gsub("|", "¦"))
         text = pre..expand..post
     end
+end
+
+function WoWPro.TestMarkup()
+    _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[spell=1459/Arcane Intellect]"))
+    _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[item=137642/mark-of-honor]"))
+    _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[money=12.34]"))
+    _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[ability=593/surge-of-power]"))
+    _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[color=112233]Oh Yeah![/color]"))
 end
