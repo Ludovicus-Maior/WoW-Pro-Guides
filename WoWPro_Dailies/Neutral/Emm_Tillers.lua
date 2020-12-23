@@ -242,7 +242,7 @@ A Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.28,33.86|N|From Farme
 C Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|N|Plant and harvest Green Cabbages, this will take till tomorrow. Plant them and skip this step for later.|
 t Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.28,33.86|
 C Lost Sheepie... Again|QID|31339|M|47,37|N|Pick up the sheep and take it home.|NC|
-A A Dish for Tina|QID|30433|M|45.1,33.8|N|To Tina Mudclaw - Fire Spirit Salmon - Ruby Shard. Check this off manually if you have no food or treasure for her.|PRE|30257|REP|Tina Mudclaw;1280;Stranger-Good Friend|RANK|3|
+A A Dish for Tina|QID|30433|M|45.09,33.77|N|To Tina Mudclaw - Fire Spirit Salmon - Ruby Shard. Check this off manually if you have no food or treasure for her.|PRE|30257|REP|Tina Mudclaw;1280;Stranger-Good Friend|RANK|3|
 A A Dish for Haohan|QID|30414|M|44.6,34.1|N|To Haohan Mudclaw - Charbroiled Tiger Steak - Ruby Shard. Check this off manually if you have no food or treasure for him.|PRE|30257|REP|Haohan Mudclaw;1279;Stranger-Good Friend|RANK|3|
 C Talk to Haohan|QID|31534|M|45,34|QO|1|N|Coords* In the market or at his farm (where the green dot is).|CHAT|
 T Mung-Mung's Vote I: A Hozen's Problem|QID|30258|M|44.17,34.21|N|To Mung-Mung.|
@@ -354,10 +354,10 @@ A A Very Nice Necklace|QID|31325|N|From 'Nice Necklace' randomly dropped.|U|8643
 A Tina's Tasteful Tiara|QID|31326|N|From 'Tasteful Tiara' randomly dropped.|U|86434|REP|Tina Mudclaw;1280;Acquaintance-Best Friend|O| ;8400-16800
 A An Exquisite Earring|QID|31328|N|From 'Exquisite Earring' randomly dropped.|U|86435|REP|Tina Mudclaw;1280;Buddy-Best Friend|O| ;16800-25200
 A A Beautiful Brooch|QID|31329|N|From 'Beautiful Brooch' randomly dropped.|U|86436|REP|Tina Mudclaw;1280;Friend-Best Friend|O| ;25200-42999
-t A Very Nice Necklace|QID|31325|M|45.1,33.8|N|If Tina isn't on her family's farm, she can be found at the market.|
-t Tina's Tasteful Tiara|QID|31326|M|45.1,33.8|N|If Tina isn't on her family's farm, she can be found at the market.|
-t An Exquisite Earring|QID|31328|M|45.1,33.8|N|If Tina isn't on her family's farm, she can be found at the market.|
-t A Beautiful Brooch|QID|31329|M|45.1,33.8|N|If Tina isn't on her family's farm, she can be found at the market.|
+t A Very Nice Necklace|QID|31325|M|45.09,33.77|N|If Tina isn't on her family's farm, she can be found at the market.|
+t Tina's Tasteful Tiara|QID|31326|M|45.09,33.77|N|If Tina isn't on her family's farm, she can be found at the market.|
+t An Exquisite Earring|QID|31328|M|45.09,33.77|N|If Tina isn't on her family's farm, she can be found at the market.|
+t A Beautiful Brooch|QID|31329|M|45.09,33.77|N|If Tina isn't on her family's farm, she can be found at the market.|
 
 ;turn in quests
 T Lost and Lonely|QID|30526|M|42.39,49.98|N|To Lost Dog.|
@@ -423,8 +423,8 @@ T A Gift For Jogu|QID|30478|M|53.56,52.43|N|To Jogu the Drunk, also he prefers t
 T Weed War II|QID|30321|M|53.56,52.43|N|To Jogu the Drunk.|
 T Buy A Fish A Drink?|QID|31320|M|53.56,52.55|N|To Jogu the Drunk, also he prefers the Lovely Apple.|
 
-T They Don't Even Wear Them|QID|30323|M|52.97,51.79;45.1,33.8|CN|N|To Tina Mudclaw, also she prefers Ruby Shards.|
-T A Gift For Tina|QID|30470|M|52.97,51.79|CN|N|To Tina Mudclaw|
+T They Don't Even Wear Them|QID|30323|M|45.09,33.77|N|To Tina Mudclaw, also she prefers Ruby Shards.|
+T A Gift For Tina|QID|30470|M|45.09,33.77|N|To Tina Mudclaw|
 
 T Not in Chee-Chee's Backyard|QID|30324|M|53.13,51.93|N|To Chee Chee also he prefers the Blue Feather.|
 T A Gift For Chee Chee|QID|30471|M|53.13,51.93|N|To Chee Chee.|
