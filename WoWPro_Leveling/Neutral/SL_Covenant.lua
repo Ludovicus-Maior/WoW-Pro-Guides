@@ -260,7 +260,7 @@ C Their New Home|QID|59242|M|44.30,38.65|Z|The Trunk@Heart of the Forest!Dungeon
 T Their New Home|QID|59242|M|44.30,38.65|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
 
 ;Chapter 4
-N Renown Level 8|AVAILABLE|58787|N|You must reach Renown level 8 to continue to the next chapter.|COV|Night Fae|REN|-8|
+N Renown Level 8|AVAILABLE|59809|N|You must reach Renown level 8 to continue to the next chapter.|COV|Night Fae|REN|-8|
 A On De Other Side|QID|59809|M|43.78,38.23|Z|The Trunk@Heart of the Forest!Dungeon|N|From Mask of Bwonsamdi. If this quest isnt there, relog.|PRE|59242|COV|Night Fae|REN|8|
 C On De Other Side|QID|59809|M|44.19,37.50|Z|The Trunk@Heart of the Forest!Dungeon|U|177904|N|Travel to the Other Side|COV|Night Fae|REN|8|
 T On De Other Side|QID|59809|M|50.43,25.29|Z|De Other Side!Instance|N|To Bwonsamdi.|COV|Night Fae|
@@ -302,7 +302,7 @@ A Report to the Queen|QID|59821|M|68.39,65.16|Z|Ardenweald!The Shadowlands|N|Fro
 T Report to the Queen|QID|59821|M|50.86,31.82|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|COV|Night Fae|
 
 ;Chapter 5.
-N Renown Level 11|AVAILABLE|58787|N|You must reach Renown level 11 to continue to the next chapter.|COV|Night Fae|REN|-11|
+N Renown Level 11|AVAILABLE|58610|N|You must reach Renown level 11 to continue to the next chapter.|COV|Night Fae|REN|-11|
 A The Speaker of Elune|QID|58610|M|45.47,39.85|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera. Talk to Shimmerwing to leave the Audience Chambers.|PRE|59821|COV|Night Fae|REN|11|
 C The Speaker of Elune|QID|58610|M|40.35,51.20|Z|Ardenweald!The Shadowlands|CHAT|N|Speak with Thiernax|COV|Night Fae|
 T The Speaker of Elune|QID|58610|M|40.31,51.18|Z|Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
@@ -339,9 +339,9 @@ A A Secret Never Spoken|QID|59068|M|44.30,37.02|Z|The Trunk@Heart of the Forest!
 A A Sacrifice of Anima|QID|59070|M|44.30,37.02|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|59063|COV|Night Fae|REN|11|
 A A Token of Lost Love|QID|59069|M|44.54,37.82|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|59063|COV|Night Fae|REN|11|
 C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Ask Watcher Vesperbloom for a Secret|COV|Night Fae|
-C A Secret Never Spoken|QID|59068|M|54.35,46.13|Z|Ardenweald!The Shadowlands|QO|2|N|Book of Secrets Obtained|COV|Night Fae|
+C A Secret Never Spoken|QID|59068|M|55.19,48.21;54.35,46.13|CC|Z|Ardenweald!The Shadowlands|QO|2|N|In the Tunnel, kill the Darkwarren Matriarch an loot the Book of Secrets.|COV|Night Fae|
 C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|3|CHAT|N|Speak with Watcher Vesperbloom|COV|Night Fae|
-C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|4|NC|N|Secret Never Spoken obtained|COV|Night Fae|
+C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|4|NC|N|Click the scroll on the ground.|COV|Night Fae|
 T A Secret Never Spoken|QID|59068|M|44.02,37.33|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
 C A Sacrifice of Anima|QID|59070|M|27.62,53.74|Z|Ardenweald!The Shadowlands|N|Mischief-touched Anima collected|COV|Night Fae|
 T A Sacrifice of Anima|QID|59070|M|43.94,36.71|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
@@ -355,52 +355,52 @@ C Mending a Broken Hart|QID|59071|M|43.88,37.77|Z|The Trunk@Heart of the Forest!
 T Mending a Broken Hart|QID|59071|M|44.91,37.22|Z|The Trunk@Heart of the Forest!Dungeon|N|To Thiernax.|COV|Night Fae|
 
 ;Chapter 6
-N Renown Level 13|AVAILABLE|58787|N|You must reach Renown level 13 to continue to the next chapter.|COV|Night Fae|REN|-13|
-A The Fate of Ara'lon|QID|60898|M|39.47,70.78|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lord Herne.|PRE|59071|COV|Night Fae|REN|13|
+N Renown Level 13|AVAILABLE|60898|N|You must reach Renown level 13 to continue to the next chapter.|COV|Night Fae|REN|-13|
+A The Fate of Ara'lon|QID|60898|M|42.33,74.15|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lord Herne.|PRE|59071|COV|Night Fae|REN|13|
 C The Fate of Ara'lon|QID|60898|M|43.41,40.21|Z|Ardenweald!The Shadowlands|N|Ara'lon found|COV|Night Fae|
 T The Fate of Ara'lon|QID|60898|M|43.29,40.09|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
 A Masks of Deception|QID|60910|M|43.29,40.09|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60898|COV|Night Fae|REN|13|
-C Masks of Deception|QID|60910|M|42.67,37.29|Z|Ardenweald!The Shadowlands|N|Mask of Possession|COV|Night Fae|
+C Masks of Deception|QID|60910|M|42.67,37.29|Z|Ardenweald!The Shadowlands|N|Kiill possessed enemies and loot their Mask of Possession.|COV|Night Fae|
 T Masks of Deception|QID|60910|M|43.28,40.04|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
 A Blackthorn Captives|QID|60928|M|43.28,40.04|Z|Ardenweald!The Shadowlands|N|From Unknown.|PRE|60910|COV|Night Fae|REN|13|
-C Blackthorn Captives|QID|60928|M|41.45,35.52|Z|Ardenweald!The Shadowlands|QO|1|U|180523|N|Azelor found|COV|Night Fae|
-C Blackthorn Captives|QID|60928|M|41.16,33.78|Z|Ardenweald!The Shadowlands|QO|3|U|180523|N|Nera found|COV|Night Fae|
-C Blackthorn Captives|QID|60928|M|42.49,32.28|Z|Ardenweald!The Shadowlands|QO|2|U|180523|N|Taeras found|COV|Night Fae|
-C Blackthorn Captives|QID|60928|M|41.06,31.55|Z|Ardenweald!The Shadowlands|QO|4|U|180523|N|Gweyir found|COV|Night Fae|
+C Blackthorn Captives|QID|60928|M|41.45,35.52|Z|Ardenweald!The Shadowlands|QO|1|U|180523|NC|N|Click Azelor's body on the ground.|COV|Night Fae|
+C Blackthorn Captives|QID|60928|M|41.16,33.78|Z|Ardenweald!The Shadowlands|QO|3|U|180523|NC|N|To the east in a tunnel under the roots, Click Nera's body on the ground.|COV|Night Fae|
+C Blackthorn Captives|QID|60928|M|42.49,32.28|Z|Ardenweald!The Shadowlands|QO|2|U|180523|NC|N|Click Taeras's body on the ground.|COV|Night Fae|
+C Blackthorn Captives|QID|60928|M|41.06,31.55|Z|Ardenweald!The Shadowlands|QO|4|U|180523|NC|N|Down a tunnel again, Click on the cage with Gweyir.|COV|Night Fae|
 T Blackthorn Captives|QID|60928|M|41.08,31.57|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
 A Report to Lord Herne|QID|60934|M|41.08,31.57|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|COV|Night Fae|REN|13|
 T Report to Lord Herne|QID|60934|M|53.70,77.59|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lord Herne.|PRE|60928|COV|Night Fae|
 A Ulfar's Guidance|QID|61061|M|53.70,77.59|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|60934|COV|Night Fae|REN|13|
-T Ulfar's Guidance|QID|61061|M|45.26,45.81|Z|Drustvar|N|To Ulfar.|COV|Night Fae|
+T Ulfar's Guidance|QID|61061|M|45.26,45.81|Z|Drustvar|N|Step in the Portal to Ulfar's Den and turn in to Ulfar.|COV|Night Fae|
 A Into the Flame|QID|61076|M|45.26,45.81|Z|Drustvar|N|From Ulfar.|PRE|61061|COV|Night Fae|REN|13|
-C Into the Flame|QID|61076|M|27.53,58.96|Z|Drustvar|QO|1|N|Fetish placed|COV|Night Fae|
-C Into the Flame|QID|61076|M|27.55,59.05|Z|Drustvar|QO|2|N|Drust Behemoth slain|COV|Night Fae|
-C Into the Flame|QID|61076|M|27.56,58.96|Z|Drustvar|QO|3|N|Imbued Drust Fetish|COV|Night Fae|
+R Gol Inath|ACTIVE|61076|M|27.00,58.43|Z|Drustvar|N|Go down into the depths of the Tree Gol Inath.|COV|Night Fae|
+C Into the Flame|QID|61076|M|27.53,58.96|Z|Drustvar|QO|1|NC|N|All the way to the bottom, Click on the Flame of Oblivion.|COV|Night Fae|
+C Into the Flame|QID|61076|M|27.55,59.05|Z|Drustvar|QO|2|N|Kill the Drust Behemoth.|COV|Night Fae|
+C Into the Flame|QID|61076|M|27.56,58.96|Z|Drustvar|QO|3|N|Back at the Flame of Oblivion, Imbue the Drust Fetish.|COV|Night Fae|
 T Into the Flame|QID|61076|M|45.25,45.80|Z|Drustvar|N|To Ulfar.|COV|Night Fae|
 A Kivarr the Thornspeaker|QID|61102|M|45.25,45.80|Z|Drustvar|N|From Ulfar.|PRE|61076|COV|Night Fae|REN|13|
 T Kivarr the Thornspeaker|QID|61102|M|51.09,80.63|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lord Herne.|COV|Night Fae|
 A Kivarr's Den|QID|61113|M|51.09,80.63|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lord Herne.|PRE|61102|COV|Night Fae|REN|13|
-F Claw's Edge|ACTIVE|61113|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
-C Kivarr's Den|QID|61113|M|46.04,56.67|Z|Ardenweald!The Shadowlands|QO|1|N|Speak with Ara'lon|COV|Night Fae|
-C Kivarr's Den|QID|61113|M|43.60,69.20|Z|Ardenweald!The Shadowlands|QO|2|N|Meet Ara'lon at Eventide Grove|COV|Night Fae|
+C Kivarr's Den|QID|61113|M|46.04,56.67|Z|Ardenweald!The Shadowlands|CHAT|QO|1|N|Speak with Ara'lon|COV|Night Fae|
+C Kivarr's Den|QID|61113|M|43.60,69.20|Z|Ardenweald!The Shadowlands|NC|QO|2|N|Meet Ara'lon at Eventide Grove inside the cave.|COV|Night Fae|
 T Kivarr's Den|QID|61113|M|43.68,69.04|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
-A Searching the Grove|QID|61701|M|43.68,69.04|Z|Ardenweald!The Shadowlands|N|From Unknown.|PRE|61113|COV|Night Fae|REN|13|
-C Searching the Grove|QID|61701|M|46.53,72.97|Z|Ardenweald!The Shadowlands|N|Kivarr located|COV|Night Fae|
+A Searching the Grove|QID|61701|M|43.68,69.04|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|61113|COV|Night Fae|REN|13|
+C Searching the Grove|QID|61701|M|46.53,72.97|Z|Ardenweald!The Shadowlands|N|Find Kivarr in a cage in another cave.|COV|Night Fae|
 T Searching the Grove|QID|61701|M|46.62,73.07|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 A The Thornspeaker Captive|QID|58773|M|46.62,73.07|Z|Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61701|COV|Night Fae|REN|13|
-C The Thornspeaker Captive|QID|58773|M|45.82,75.08|Z|Ardenweald!The Shadowlands|QO|3|N|Lustrous Silver Key|COV|Night Fae|
-C The Thornspeaker Captive|QID|58773|M|45.60,72.93|Z|Ardenweald!The Shadowlands|QO|1|N|Thros-Forged Key|COV|Night Fae|
-C The Thornspeaker Captive|QID|58773|M|44.05,71.41|Z|Ardenweald!The Shadowlands|QO|2|N|Gilded Skull Key|COV|Night Fae|
+C The Thornspeaker Captive|QID|58773|M|45.73,75.90|Z|Ardenweald!The Shadowlands|QO|3|N|Kill Haassert and loot the Lustrous Silver Key.|COV|Night Fae|
+C The Thornspeaker Captive|QID|58773|M|45.41,73.28|Z|Ardenweald!The Shadowlands|QO|1|N|Kill Lukir and loot the Thros-Forged Key.|COV|Night Fae|
+C The Thornspeaker Captive|QID|58773|M|44.21,72.30|Z|Ardenweald!The Shadowlands|QO|2|N|Kill Gallak and loot the Gilded Skull Key.|COV|Night Fae|
 T The Thornspeaker Captive|QID|58773|M|46.58,73.06|Z|Ardenweald!The Shadowlands|N|To Nika.|COV|Night Fae|
 A A Swift Intervention|QID|61702|M|46.58,73.06|Z|Ardenweald!The Shadowlands|N|From Unknown.|PRE|58773|COV|Night Fae|REN|13|
-C A Swift Intervention|QID|61702|M|41.57,74.59|Z|Ardenweald!The Shadowlands|QO|1|N|Kivarr located, Hange out with Nika (the Squirrel) until it completes|COV|Night Fae|
-C A Swift Intervention|QID|61702|M|41.55,74.57|Z|Ardenweald!The Shadowlands|QO|2|N|Thulsketha the Binder slain|COV|Night Fae|
-T A Swift Intervention|QID|61702|M|41.37,74.36|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
+C A Swift Intervention|QID|61702|M|41.57,74.59|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Stay with with Nika (the Squirrel) and follow her, if you get too far ahead she will stop.|COV|Night Fae|
+C A Swift Intervention|QID|61702|M|41.47,74.36|Z|Ardenweald!The Shadowlands|QO|2|N|Kill Thulsketha the Binder.|COV|Night Fae|
+T A Swift Intervention|QID|61702|M|41.29,74.34|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 A Return to the Den|QID|61143|M|41.37,74.36|Z|Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61702|COV|Night Fae|REN|13|
 C Return to the Den|QID|61143|M|43.60,69.25|Z|Ardenweald!The Shadowlands|N|Travel to Kivarr's Den|COV|Night Fae|
 T Return to the Den|QID|61143|M|43.65,69.11|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 A Nox Root|QID|61703|M|43.65,69.11|Z|Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61143|COV|Night Fae|REN|13|
-C Nox Root|QID|61703|M|39.20,69.74|Z|Ardenweald!The Shadowlands|N|12/12 Nox Root, Looks like Mushrooms located all around this area|COV|Night Fae|
+C Nox Root|QID|61703|M|39.20,69.74|Z|Ardenweald!The Shadowlands|NC|N|Collect Nox Root, Looks like Mushrooms located all around this area.|COV|Night Fae|
 H Heart of the Forest|ACTIVE|61703|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Use your hearth or otherwise make your back to Heart of the Forest.|COV|Night Fae|
 T Nox Root|QID|61703|M|46.18,56.37|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 A Witch's Satchel|QID|61709|M|46.17,56.38|Z|Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61703|COV|Night Fae|REN|13|
@@ -418,7 +418,7 @@ A Unbroken Bonds|QID|61171|PRE|61711|M|46.20,56.64|Z|Ardenweald!The Shadowlands|
 T Unbroken Bonds|QID|61171|M|50.63,30.29|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|COV|Night Fae|
 
 ;Chapter 7
-N Renown Level 17|AVAILABLE|58787|N|You must reach Renown level 17 to continue to the next chapter.|COV|Night Fae|REN|-17|
+N Renown Level 17|AVAILABLE|58445|N|You must reach Renown level 17 to continue to the next chapter.|COV|Night Fae|REN|-17|
 A Containing the Night|QID|58445|PRE|61171|M|44.89,39.34|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.Talk to Shimmerwing to leave the Audience Chambers.|COV|Night Fae|REN|17|
 C Containing the Night|QID|58445|M|43.99,38.76|Z|The Trunk@Heart of the Forest!Dungeon|CHAT|N|Talk to Ysera to hear the plan|COV|Night Fae|
 T Containing the Night|QID|58445|M|43.99,38.76|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
@@ -461,7 +461,7 @@ H Heart of the Forest|ACTIVE|58452|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Use y
 T Tracking the Shadows|QID|58452|M|44.81,38.33|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera, she is still hanging out on the middle platform.|COV|Night Fae|
 
 ;Chapter 8
-N Renown Level 20|AVAILABLE|58787|N|You must reach Renown level 20 to continue to the next chapter.|COV|Night Fae|REN|-20|
+N Renown Level 20|AVAILABLE|59731|N|You must reach Renown level 20 to continue to the next chapter.|COV|Night Fae|REN|-20|
 A An Expected Guest|QID|59731|PRE|58452|M|44.08,38.81|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|REN|20|
 T An Expected Guest|QID|59731|M|48.33,52.53|Z|Ardenweald!The Shadowlands|N|To Bwonsamdi outside being "greated" by the Hunt.|COV|Night Fae|
 A Something Extra for the Winter Queen|QID|59732|PRE|59731|M|48.33,52.53|Z|Ardenweald!The Shadowlands|N|From Bwonsamdi.|COV|Night Fae|REN|20|
@@ -516,7 +516,7 @@ P Heart of the Forest|ACTIVE|59866|M|43.05,51.44|Z|The Canopy@Heart of the Fores
 T Parting Ways|QID|59866|M|44.65,38.58|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
 
 ;Chapter 9
-N Renown Level 22|AVAILABLE|58787|N|You must reach Renown level 22 to continue to the next chapter.|COV|Night Fae|REN|-22|
+N Renown Level 22|AVAILABLE|60189|N|You must reach Renown level 22 to continue to the next chapter.|COV|Night Fae|REN|-22|
 A We Strike Now|QID|60189|PRE|59866|M|44.54,38.87|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|REN|22|
 T We Strike Now|QID|60189|M|39.09,63.74|Z|Ardenweald!The Shadowlands|N|To Lord Herne he is no longer in the training yard.|COV|Night Fae|
 A Assault on Darkreach|QID|60190|PRE|60189|M|39.07,63.71|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|COV|Night Fae|REN|22|
