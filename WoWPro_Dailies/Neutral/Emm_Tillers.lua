@@ -98,28 +98,25 @@ A Farmer Yoon|QID|30333^30334^30335^30336^30337|M|52.92,51.83|N|Farmer Yoon has 
 
 ;prepare food
 ; Shopping list for making food
-N Daily Food for Friends|AVAILABLE|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479^30402^30386^30421^30427^30390^30414^30439^30396^30408^30433|M|PLAYER|N|The following steps are the ingredients you need to gather if you plan on cooking your Friends' Favorite foods for the day.\nHow you get them is entirely up to you.\nThe steps will complete as you acquire the items.|RANK|3|
-N Shopping list|AVAILABLE|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479^30402^30386^30421^30427^30390^30414^30439^30396^30408^30433|N|For anyone trying to maximise their individual reps each day, you'll need:\n10x Krasarang Paddlefish, 10x Jade Lungfish, 5x Reef Octopus, 5x Giant Mantis Shrimp, 5x Emperor Salmon, 10x Wildfowl Breast, 5x Raw Tiger Steak, 5x Raw Turtle Meat, 35x Juicycrunch Carrot, 25x Striped Melon, and 25x Scallions.|RANK|3|
-l Jade Lungfish|AVAILABLE|30408^30390|M|46.71,87.84|Z|The Jade Forest|L|74856 5|N|In Jade Forest, locate a Jade Lungfish School in the water near Paw'don Glade.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|RANK|3|
-l Jade Lungfish|AVAILABLE|30408&30390|M|46.71,87.84|Z|The Jade Forest|L|74856 10|N|In Jade Forest, locate a Jade Lungfish School in the water near Paw'don Glade.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|RANK|3|
-l Reef Octopus|AVAILABLE|30402|M|46.71,87.84|Z|The Jade Forest|L|74864 5|N|In Jade Forest, locate a Reef Octopus Swarm in the water all along the shore line\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|RANK|3|
-l Giant Mantis Shrimp|AVAILABLE|30386|M|38.20,77.00|Z|The Jade Forest|L|74857 5|N|In Jade Forest, locate a Giant Mantis Shrimp Swarm in the water along the south coast and north along the east coast.\nDepending on your luck, this should only take fishing 1 or 2 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|RANK|3|
-l Krasarang Paddlefish|AVAILABLE|30421|M|87.09,16.52|L|74865 10|N|In Valley of the Four Winds, locate a Krasarang Paddlefish School in the water anywhere in the area.\nDepending on your luck, this should only take fishing 2 or 3 spots.\n[color=FF0000]NOTE: [/color]These are random spawns.|RANK|3|
-l Emperor Salmon|AVAILABLE|30433|M|87.09,16.52|L|74859 5|N|Locate an Emperor Salmon School anywhere in the water in Valley of the Four Winds.\n[color=FF0000]NOTE: [/color]These are random spawns and may be difficult to find.|RANK|3|
-l Raw Tiger Steak|AVAILABLE|30414|M|14.00,74.40|L|74833 5|N|Kill Gorge Stalkers to loot it.|RANK|3|
-l Raw Turtle Meat|AVAILABLE|30396|M|71.60,51.80|L|74837 5|N||RANK|3|
-l Wildfowl Breast|AVAILABLE|30402^30421|M|57.00,36.80|L|74839 5|N|Kill the cranes in the area to collect them.|RANK|3|
-l Wildfowl Breast|AVAILABLE|30402&30421|M|57.00,36.80|L|74839 10|N|Kill the cranes in the area to collect them.|RANK|3|
-N Juicycrunch Carrots|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|PLAYER|L|74841 35|N|You have many options to acquire these. You can buy, loot or harvest them.\nUntil you establish your farm, buying may be your best option. Trying to loot 25-35 of them every day, could prove time consuming and difficult.\nFarming them is an option. But, you'll need to balance this with the crops you need to grow for other quests. All dishes combined, you'll need to harvest 17 plants per day.|RANK|3|
-l Juicycrunch Carrot|AVAILABLE|30396&-30439|M|52.02,48.30|L|74841 25|N|If you prefer, you can grow these on your farm. You'll have to harvest 5 plants/day (depending on which dish you're cooking)|RANK|3|
-l Juicycrunch Carrot|AVAILABLE|-30396&30439|M|52.02,48.30|L|74841 10|N|If you prefer, you can grow these on your farm. You'll have to harvest 2 plants/day (depending on which dish you're cooking)|RANK|3|
-l Juicycrunch Carrot|AVAILABLE|30396&30439|M|52.02,48.30|L|74841 35|N|If you prefer, you can grow these on your farm. You'll have to harvest 7 plants/day (depending on which dish you're cooking)|RANK|3|
-l Juicycrunch Carrot|AVAILABLE|30396^30439|M|64.13,25.15|Z|Krasarang Wilds|L|74841 25|N|Kill Darnassian Outrider. She respawns every ~60 seconds.\nShe drops 1-3 and her drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of her dropping Red Blossom Leeks instead.|FACTION|Horde|RANK|3|
-l Juicycrunch Carrot|AVAILABLE|30396&30439|M|64.13,25.15|Z|Krasarang Wilds|L|74841 35|N|Kill Darnassian Outrider. She respawns every ~60 seconds.\nShe drops 1-3 and her drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of her dropping Red Blossom Leeks instead.|FACTION|Horde|RANK|3|
-l Juicycrunch Carrot|AVAILABLE|30396^30439|M|70.12,20.56|Z|Krasarang Wilds|L|74841 25|N|Kill Sunwalker Scout. He paths the road in front of The Krasari Ruins. He respawns every ~60 seconds.\nHe drops 1-3 and his drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of him dropping Red Blossom Leeks instead.|FACTION|Alliance|RANK|3|
-l Juicycrunch Carrot|AVAILABLE|30396&30439|M|70.12,20.56|Z|Krasarang Wilds|L|74841 35|N|Kill Sunwalker Scout. He paths the road in front of The Krasari Ruins. He respawns every ~60 seconds.\nHe drops 1-3 and his drop rate (20%) is much better than trying to kill virmen (2%) for them. Unfortunately, you've got the same odds of him dropping Red Blossom Leeks instead.|FACTION|Alliance|RANK|3|
-l Striped Melon|AVAILABLE|30408|M|52.02,48.30|L|74848 25|N|There is a very slim chance of getting these from a drop. Best bet is to grow them on your farm. You need to harvest 5 plants/day.|
-l Scallions|AVAILABLE|30433|M|52.02,48.30|L|74843 25|N|There is a very slim chance of getting these from a drop. Best bet is to grow them on your farm. You need to harvest 5 plants/day.|RANK|3|
+N Daily Food for Friends|AVAILABLE|30402^30386^30421^30427^30390^30414^30439^30396^30408^30433|M|PLAYER|N|The following steps are the ingredients you need to gather if you plan on cooking your Friends' Favorite foods for the day.\nHow you get them is entirely up to you.\nThe steps will complete as you acquire the items.|RANK|3|
+N Shopping list|AVAILABLE|30402^30386^30421^30427^30390^30414^30439^30396^30408^30433|N|For anyone trying to maximise their individual reps each day, you'll need:\n10x Krasarang Paddlefish, 10x Jade Lungfish, 5x Reef Octopus, 5x Giant Mantis Shrimp, 5x Emperor Salmon, 10x Wildfowl Breast, 5x Raw Tiger Steak, 5x Raw Turtle Meat, 35x Juicycrunch Carrot, 25x Striped Melon, and 25x Scallions.|RANK|3|
+l Jade Lungfish|AVAILABLE|30390&-30408|M|46.71,87.84|Z|The Jade Forest|L|74856 5|N|Locate a Jade Lungfish School in the water near Paw'don Glade or along the river running through Jade Forest.\n[color=FF0000]NOTE: [/color]To make Swirling Mist Soup for Gina.|RANK|3|
+l Jade Lungfish|AVAILABLE|30408&-30390|M|46.71,87.84|Z|The Jade Forest|L|74856 5|N|Locate a Jade Lungfish School in the water near Paw'don Glade or along the river running through Jade Forest.\n[color=FF0000]NOTE: [/color]To make Eternal Blossom Fish for Sho.|RANK|3|
+l Jade Lungfish|AVAILABLE|30408&30390|M|46.71,87.84|Z|The Jade Forest|L|74856 10|N|Locate a Jade Lungfish School in the water near Paw'don Glade or along the river running through Jade Forest.\n[color=FF0000]NOTE: [/color]To make Swirling Mist Soup for Gina and Eternal Blossom Fish for Sho.|RANK|3|
+l Reef Octopus|AVAILABLE|30402|M|46.71,87.84|Z|The Jade Forest|L|74864 5|N|In Jade Forest, locate a Reef Octopus Swarm in the water all along the shore line.\n[color=FF0000]NOTE: [/color]To make Valley Stir Fry for Chee Chee.|RANK|3|
+l Giant Mantis Shrimp|AVAILABLE|30386|M|38.20,77.00|Z|The Jade Forest|L|74857 5|N|In Jade Forest, locate a Giant Mantis Shrimp Swarm in the water along the south coast and north along the east coast.\n[color=FF0000]NOTE: [/color]To make Shrimp Dumplings for Ella.|RANK|3|
+l Krasarang Paddlefish|AVAILABLE|30421|M|87.09,16.52|L|74865 10|N|In Valley of the Four Winds, locate a Krasarang Paddlefish School in the water anywhere in the area.\n[color=FF0000]NOTE: [/color]To make Twin Fish Platter for Fish.|RANK|3|
+l Emperor Salmon|AVAILABLE|30433|M|87.09,16.52|L|74859 5|N|Locate an Emperor Salmon School anywhere in the water in Valley of the Four Winds.\n[color=FF0000]NOTE: [/color]To make Fire Spirit Salmon for Tina.|RANK|3|
+l Raw Tiger Steak|AVAILABLE|30414|M|14.00,74.40|L|74833 5|N|Kill Gorge Stalkers to loot it. Or head into Krasarang and kill the tigers and panthers there.\n[color=FF0000]NOTE: [/color]To make Charbroiled Tiger Steak for Haohan.|RANK|3|
+l Raw Turtle Meat|AVAILABLE|30396|M|71.60,51.80|L|74837 5|N|You'll find them on either shore of the Yan-Zhe River at several locations. You can also find them at the Torjari Pit.\n[color=FF0000]NOTE: [/color]To make Braised Turtle for Old Hillpaw.|RANK|3|
+l Wildfowl Breast|AVAILABLE|30402&-30421|M|57.00,36.80|L|74839 5|N|Kill the cranes in the area to collect them.\n[color=FF0000]NOTE: [/color]To make Valley Stir Fry for Chee Chee.|RANK|3|
+l Wildfowl Breast|AVAILABLE|30402&30421|M|57.00,36.80|L|74839 10|N|Kill the cranes in the area to collect them.\n[color=FF0000]NOTE: [/color]To Make Wildfowl Breast for Farmer Fung.|RANK|3|
+N Vegetables|AVAILABLE|30396^30439^30408^30433|M|PLAYER|N|You have many options through which to acquire these. You can buy, loot or harvest them.\nUntil you establish your farm, buying may be your best option. Trying to loot between 10 and 80 of them combined (depending on your dishes) daily could prove time consuming and difficult. The drop rates are extremely low.\nFarming them is an option. But, you'll need to balance this with the crops you need to grow for other quests. All dishes combined, you'll need to harvest 17 plants per day with only 16 spots available. The AH may be a good choice to offset this issue.|RANK|3|
+l Juicycrunch Carrot|AVAILABLE|30396&-30439|M|52.02,48.30|L|74841 25|N|If you prefer to grow these on your farm, you'll have to harvest 5 plants.\n[color=FF0000]NOTE: [/color]To make Braised Turtle for Old Hillpaw.|RANK|3|
+l Juicycrunch Carrot|AVAILABLE|-30396&30439|M|52.02,48.30|L|74841 10|N|If you prefer to grow these on your farm, you'll have to harvest 2 plants.\n[color=FF0000]NOTE: [/color]To make Sauteed Carrots for Jogu.|RANK|3|
+l Juicycrunch Carrot|AVAILABLE|30396&30439|M|52.02,48.30|L|74841 35|N|If you prefer to grow these on your farm, you'll have to harvest 7 plants.\n[color=FF0000]NOTE: [/color]To make Braised Turtle for Old Hillpaw and Sauteed Carrots for Jogu.|RANK|3|
+l Striped Melon|AVAILABLE|30408|M|52.02,48.30|L|74848 25|N|If you prefer to grow these on your farm, you'll have to harvest 5 plants.|RANK|3|
+l Scallions|AVAILABLE|30433|M|52.02,48.30|L|74843 25|N|If you prefer to grow these on your farm, you'll have to harvest 5 plants.|RANK|3|
 
 B Buy or Make 5 Eternal Blossom Fish|AVAILABLE|30408|L|74645 5|N|This is for Sho. It requires Jade Lungfish x5 and Striped Melon x25.|REP|Sho;1278;Stranger-Good Friend|RANK|3|
 B Buy or Make 5 Charbroiled Tiger Steak|AVAILABLE|30414|L|74642 5|N|This is for Haohan. It requires Raw Tiger Steak x5.|REP|Haohan Mudclaw;1279;Stranger-Good Friend|RANK|3|
@@ -204,7 +201,6 @@ C Mung-Mung's Vote III: Plant Juicycrunch Carrots|QID|31946|M|51.86,48.58|QO|1|N
 C Mung-Mung's Vote III: Harvest Juicycrunch Carrots|QID|31946|M|51.86,48.58|QO|2;3|N|Harvest the Carrot plants and deliver them to Mung-Mung.|NC|
 C Haohan's Vote IV: Plant Striped Melons|QID|30527|M|51.86,48.58|QO|1|N|After planting, be sure and take care of any issues so they are "growing". Check this step off manually on day 1. They won't grow until the next day.|T|Tilled Soil|U|89329|NC|
 C Haohan's Vote IV: Harvest Striped Melons|QID|30527|M|51.86,48.58|QO|2;3|N|Harvest the Melon plants and deliver them to Haohan.|NC|
-A Unstable Portal Shard|QID|31315|M|51.86,48.58|L|91806|N|{not actually a quest) After planting, be sure and take care of the pests so it is stable. Results in a random, one time use soulbound portal shard to one of your faction's cities on EK/Kalimdor (stones stack to 20). Check this step off manually.|T|Tilled Soil|U|91806|NC|PRE|32198|O| ; -- QID,? using 31315 since it is the final quest in the whole Tillers chain --32198 is not active at this point since this is the reward from it...- Grail is wrong on |PRE|31314| as I have gotten this item before completing 31314.
 
 ;plant for work orders
 C Plant 8 Witchberries|QID|32645|M|51.86,48.58|N|After planting, be sure and take care of the pests so they are "growing". The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|U|89326|NC|
@@ -246,7 +242,7 @@ A Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.28,33.86|N|From Farme
 C Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|N|Plant and harvest Green Cabbages, this will take till tomorrow. Plant them and skip this step for later.|
 t Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.28,33.86|
 C Lost Sheepie... Again|QID|31339|M|47,37|N|Pick up the sheep and take it home.|NC|
-A A Dish for Tina|QID|30433|M|45.1,33.8|N|To Tina Mudclaw - Fire Spirit Salmon - Ruby Shard. Check this off manually if you have no food or treasure for her.|PRE|30257|REP|Tina Mudclaw;1280;Stranger-Good Friend|RANK|3|
+A A Dish for Tina|QID|30433|M|45.09,33.77|N|To Tina Mudclaw - Fire Spirit Salmon - Ruby Shard. Check this off manually if you have no food or treasure for her.|PRE|30257|REP|Tina Mudclaw;1280;Stranger-Good Friend|RANK|3|
 A A Dish for Haohan|QID|30414|M|44.6,34.1|N|To Haohan Mudclaw - Charbroiled Tiger Steak - Ruby Shard. Check this off manually if you have no food or treasure for him.|PRE|30257|REP|Haohan Mudclaw;1279;Stranger-Good Friend|RANK|3|
 C Talk to Haohan|QID|31534|M|45,34|QO|1|N|Coords* In the market or at his farm (where the green dot is).|CHAT|
 T Mung-Mung's Vote I: A Hozen's Problem|QID|30258|M|44.17,34.21|N|To Mung-Mung.|
@@ -358,10 +354,10 @@ A A Very Nice Necklace|QID|31325|N|From 'Nice Necklace' randomly dropped.|U|8643
 A Tina's Tasteful Tiara|QID|31326|N|From 'Tasteful Tiara' randomly dropped.|U|86434|REP|Tina Mudclaw;1280;Acquaintance-Best Friend|O| ;8400-16800
 A An Exquisite Earring|QID|31328|N|From 'Exquisite Earring' randomly dropped.|U|86435|REP|Tina Mudclaw;1280;Buddy-Best Friend|O| ;16800-25200
 A A Beautiful Brooch|QID|31329|N|From 'Beautiful Brooch' randomly dropped.|U|86436|REP|Tina Mudclaw;1280;Friend-Best Friend|O| ;25200-42999
-t A Very Nice Necklace|QID|31325|M|45.1,33.8|N|If Tina isn't on her family's farm, she can be found at the market.|
-t Tina's Tasteful Tiara|QID|31326|M|45.1,33.8|N|If Tina isn't on her family's farm, she can be found at the market.|
-t An Exquisite Earring|QID|31328|M|45.1,33.8|N|If Tina isn't on her family's farm, she can be found at the market.|
-t A Beautiful Brooch|QID|31329|M|45.1,33.8|N|If Tina isn't on her family's farm, she can be found at the market.|
+t A Very Nice Necklace|QID|31325|M|45.09,33.77|N|If Tina isn't on her family's farm, she can be found at the market.|
+t Tina's Tasteful Tiara|QID|31326|M|45.09,33.77|N|If Tina isn't on her family's farm, she can be found at the market.|
+t An Exquisite Earring|QID|31328|M|45.09,33.77|N|If Tina isn't on her family's farm, she can be found at the market.|
+t A Beautiful Brooch|QID|31329|M|45.09,33.77|N|If Tina isn't on her family's farm, she can be found at the market.|
 
 ;turn in quests
 T Lost and Lonely|QID|30526|M|42.39,49.98|N|To Lost Dog.|
@@ -427,8 +423,8 @@ T A Gift For Jogu|QID|30478|M|53.56,52.43|N|To Jogu the Drunk, also he prefers t
 T Weed War II|QID|30321|M|53.56,52.43|N|To Jogu the Drunk.|
 T Buy A Fish A Drink?|QID|31320|M|53.56,52.55|N|To Jogu the Drunk, also he prefers the Lovely Apple.|
 
-T They Don't Even Wear Them|QID|30323|M|52.97,51.79;45.1,33.8|CN|N|To Tina Mudclaw, also she prefers Ruby Shards.|
-T A Gift For Tina|QID|30470|M|52.97,51.79|CN|N|To Tina Mudclaw|
+T They Don't Even Wear Them|QID|30323|M|45.09,33.77|N|To Tina Mudclaw, also she prefers Ruby Shards.|
+T A Gift For Tina|QID|30470|M|45.09,33.77|N|To Tina Mudclaw|
 
 T Not in Chee-Chee's Backyard|QID|30324|M|53.13,51.93|N|To Chee Chee also he prefers the Blue Feather.|
 T A Gift For Chee Chee|QID|30471|M|53.13,51.93|N|To Chee Chee.|
