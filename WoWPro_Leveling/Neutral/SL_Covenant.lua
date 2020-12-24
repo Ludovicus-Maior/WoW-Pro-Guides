@@ -840,8 +840,8 @@ A Eyes of the Master|QID|58559|PRE|58557|M|60.33,60.82|Z|Revendreth|N|From Kleia
 A Gothic Fashion|QID|58560|PRE|58557|M|50.40,52.89|Z|Revendreth|N|From Pelagos, as you get to the Chalice District.|COV|Kyrian|
 C Overhead Intelligence|QID|58558|M|54.26,47.68|Z|Revendreth|QO|1|S|US|N|Kill Chalice Couriers to find Rumors of Favor.|COV|Kyrian|
 C Gothic Fashion|QID|58560|M|51.92,47.12|Z|Revendreth|S|US|N|Kill Chalice Residents for Venthyr clothing.|COV|Kyrian|
-C Eyes of the Master|QID|58559|M|50.87,51.60|Z|Revendreth|QO|1|T|Evaala|N|Evaala the All-Seeing slain.|COV|Kyrian|
 C Eyes of the Master|QID|58559|M|52.86,45.04|Z|Revendreth|QO|2|T|Guardian Mastrus|N|Guardian Mastrus slain.|COV|Kyrian|
+C Eyes of the Master|QID|58559|M|50.87,51.60|Z|Revendreth|QO|1|T|Evaala|N|Evaala the All-Seeing slain.|COV|Kyrian|
 C Eyes of the Master|QID|58559|M|48.41,53.98|Z|Revendreth|QO|3|T|Keraal|N|Keraal the Ripper slain.|COV|Kyrian|
 T Gothic Fashion|QID|58560|M|54.84,45.69;56.32,41.37|Z|Revendreth|CS|N|To Pelagos.|COV|Kyrian|
 T Eyes of the Master|QID|58559|M|56.36,41.42|Z|Revendreth|N|To Kleia.|COV|Kyrian|
@@ -851,9 +851,9 @@ A Shards of the Countess|QID|58561|PRE|58558&58559&58560|M|56.36,41.42|Z|Revendr
 C Shards of the Countess|QID|58561|M|55.41,41.20|Z|Revendreth|QO|1|NC|N|Bell of Transport rang (Optional).|COV|Kyrian|
 C Collecting Dust|QID|58562|M|55.41,41.20|Z|Revendreth|QO|1|NC|N|Bell of Transport rung (Optional).|COV|Kyrian|
 C Collecting Dust|QID|58562|M|56.05,36.19|Z|Revendreth|QO|2|NC|N|Death Lotus Petal.|COV|Kyrian|
-C Shards of the Countess|QID|58561|M|52.81,37.85|Z|Revendreth|QO|2>1|N|Kill Mob, get Shard of the Countess, from in the window.|COV|Kyrian|
-C Shards of the Countess|QID|58561|M|54.79,37.14|Z|Revendreth|QO|2>2|N|Kill the 2 mobs, get Shard of the Countess from the table.|COV|Kyrian|
-C Shards of the Countess|QID|58561|M|56.22,39.84|Z|Revendreth|QO|2>3|T|Duchess Minodora|N|Kill Duchess Minodora amd loot the last Shard of the Countess.|COV|Kyrian|
+C Shards of the Countess|QID|58561|M|52.81,37.85|Z|Revendreth|QO|2<1|N|Kill Mob, get Shard of the Countess, from in the window.|COV|Kyrian|
+C Shards of the Countess|QID|58561|M|54.78,37.11|Z|Revendreth|QO|2<2|N|Kill the 2 mobs, get Shard of the Countess from the table.|COV|Kyrian|
+C Shards of the Countess|QID|58561|M|56.22,39.84|Z|Revendreth|QO|2<3|T|Duchess Minodora|N|Kill Duchess Minodora amd loot the last Shard of the Countess.|COV|Kyrian|
 T Shards of the Countess|QID|58561|M|55.19,34.79|Z|Revendreth|N|To The Curator.|COV|Kyrian|
 T Collecting Dust|QID|58562|M|55.19,34.79|Z|Revendreth|N|To The Curator.|COV|Kyrian|
 A Through Glass|QID|58563|PRE|58562&58561|M|55.19,34.79|Z|Revendreth|N|From The Curator.|COV|Kyrian|
