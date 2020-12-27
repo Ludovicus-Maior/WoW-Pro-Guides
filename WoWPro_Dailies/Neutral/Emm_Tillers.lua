@@ -89,6 +89,22 @@ A Haohan's Vote IV: Melons For Felons|QID|30527|M|52.26,48.79|N|From Farmer Yoon
 A Haohan's Vote V: Chief Yip-Yip|QID|30528|M|52.26,48.79|N|From Farmer Yoon.\n[color=FF0000]NOTE: [/color]You may have to leave the farm area and come back for this to show up.|PRE|30527| ; -- REP 20,000 Revered
 K Chief Yip-Yip|ACTIVE|30528|M|32.4,20.4|QO|1|N|Head to the cave, use your 'extra action' button whenever its available (not grey) to temporarily weaken him, kill him while he is weak.|T|Chief Yip-Yip|
 
+;pick up quests
+;an extra hand - totally worthless quest...
+A A Second Hand|QID|30534|M|52.03,49.06|N|From Tillers Shrine.|PRE|30574|ACH|6551;;true|
+C A Second Hand|QID|30534|N|Ask a 'Best Friend' to help you on the farm.\nThe only advantage to which friend to pick is so that you don't have to walk as far to see Gina (quartermaster) or Jogu (crop predictions - which incidentally are now free since you are exalted). So take your pick.\n[color=FF0000]NOTE: [/color]For now, to complete the quest, pick whichever friend you have already reached best friend status with. You can always change this later.|NC|
+T A Second Hand|QID|30534|M|52.03,49.06|N|To Tillers Shrine.|
+
+A Farmer Yoon's First Daily|QID|30333^30334^30335^30336^30337|M|52.25,48.78|N|He will have one of five different quests for you to pick up. These quests concern either the Hozen on Skyridge or the Virmen in the caves above Cattail Lake.|PRE|30257|REP|The Tillers;1272;Neutral-Revered|
+A Farmer Yoon's Second Daily|QID|31672^31942^31673^31941^31670^31669^31674^31675^31943^31671|M|52.25,48.78|N|He will have one of nine different planting quests for you to pick up.|PRE|30257|REP|The Tillers;1272;Neutral-Revered|
+A Work Order Post|QID|32642^32645^32647^32649^32653^32658^32942^32944|M|52.3,48.68|N|Now that Yoon is on the council, his 'grow something' quest is replaced by quests that earn you rep with other Pandaria factions. You can only do one a day, take whichever you like (or none).\n[color=FF0000]NOTE: [/color]Unlike Yoon's quests, you have to harvest and turn in the produce to get credit.\nIf you want to keep your farm's production for growing specific items and not earning other faction's favor, skip this.|PRE|32682|REP|The Tillers;1272;Exalted|
+; Best Friend on your Farm
+A Daily Quest (Best Friend on your farm)|QID|30318^30322^30324^30319^30326^30323^30317^30321^30325^30327|N|Check with the Friend on your farm to see if they have a daily available.\Manually check this step if they do not have a quest for you.|PRE|30534|
+A A Gift For ??? (random friend)|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|52.70,50.47|N|From Andi.|PRE|30257|
+; Being already exalted, there's really no point to doing Yoon's daily quests.
+A Farmer Yoon's Daily|QID|30333^30334^30335^30336^30337|M|52.93,51.84|N|Farmer Yoon has moved into the Market and only offers one daily quest now.\n[color=FF0000]NOTE: [/color]Being already exalted, there's really no point to doing these quests.|PRE|32682|REP|The Tillers;1272;Exalted|
+A Master Cook Daily Quest|QID|30328^30329^30330^30331^30332|M|52.88,51.72|N|One of the master cooks will offer you a quest to either get, cook, or do something for them.\n[color=FF0000]NOTE: [/color]These quests only reward Cooking skill points and Ironpaw Tokens (no Tiller Rep). You can skip them if you don't have a use for Ironpaw tokens. But, as they're done in the same area, you might as well do it.|PRE|30257|LVL|35|RANK|2|
+
 ;prepare food
 ; Shopping list for making food
 N Daily Food for Friends|AVAILABLE|30402^30386^30421^30427^30390^30414^30439^30396^30408^30433|M|PLAYER|N|The following steps are the ingredients you need to gather if you plan on cooking your Friends' Favorite foods for the day.\nHow you get them is entirely up to you.\nThe steps will complete as you acquire the items.|RANK|3|
@@ -122,16 +138,9 @@ B Buy or Make 5 Shrimp Dumplings|AVAILABLE|30386|L|74651 5|N|This is for Ella. I
 B Buy or Make 5 Twin Fish Platter|AVAILABLE|30427|L|74655 5|N|This is for Fish. It requires Krasarang Paddlefish x10.|REP|Fish Fellreed;1282;Stranger-Good Friend|RANK|3|
 B Buy or Make 5 Wildfowl Roast|AVAILABLE|30421|L|74654 5|N|This is for Farmer Fung. It requires Wildfowl Breast x5.|REP|Farmer Fung;1283;Stranger-Good Friend|RANK|3|
 
-;pick up quests
-A Farmer Yoon First Daily|QID|30333^30334^30335^30336^30337|M|52.92,51.83|N|Farmer Yoon has moved into town and only offers one quest a day now.|PRE|32682|REP|The Tillers;1272;Exalted| ; -- pre quest mismatch per grail is intentional, so wont trigger if you haven't bought the farm from Yoon
-A Farmer Yoon First Daily|QID|31672^31942^31673^31941^31670^31669^31674^31675^31943^31671|M|52.25,48.78|N|He will have at least 2 quests for you to pick up.|PRE|30257|REP|The Tillers;1272;Neutral-Revered|
-A Farmer Yoon|QID|31672^31942^31673^31941^31670^31669^31674^31675^31943^31671|M|52.25,48.78|N|He will have at least 2 quests for you to pick up.|PRE|30257|REP|The Tillers;1272;Neutral-Revered|
-A Work Order Post|QID|32642^32645^32647^32649^32653^32658^32942^32944|M|52.3,48.68|N|Now that Yoon is on the council, his 'grow something' quest is replaced by quests that earn you rep with other Pandaria factions. You can only do one a day, take whichever you like (or none).\n[color=FF0000]NOTE: [/color]Unlike Yoon's quests, you have to harvest and turn in the produce to get credit.\nIf you want to keep your farm's production for growing specific items and not earning other faction's favor, skip this.|PRE|32682|REP|The Tillers;1272;Exalted|
-A A Gift For ??? (random friend)|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|M|52.70,50.47|N|From Andi.|PRE|30257|
-A Master Cook Daily Quest|QID|30328^30329^30330^30331^30332|M|52.88,51.72|N|One of the master cooks will offer you a quest to either get, cook, or do something for them.\n[color=FF0000]NOTE: [/color]These quests only reward Cooking skill points and Ironpaw Tokens (no Tiller Rep). You can skip them if you don't have a use for Ironpaw tokens. But, as they're done in the same area, you might as well do it.|PRE|30257|LVL|35|RANK|2|
-
 ;pick up last 2 quests
 ; Jogu
+
 A A Dish for Jogu|QID|30439|M|53.59,52.51|N|Jogu the Drunk - Sauteed Carrots.\nSkip this step if you have no food to give him.|PRE|30257|REP|Jogu the Drunk;1273;Stranger-Good Friend|RANK|3|
 t A Dish for Jogu|QID|30439|M|53.59,52.51|N|To Jogu the Drunk.|
 N Treasure for Jogu|QID|30416^30417^30418^30419^30420|M|48.28,33.86|N|Give whatever treasures you to Jogu the Drunk. He prefers a Lovely Apple.\nManually check off this step when you are done.|REP|Jogu the Drunk;1273;Stranger-Good Friend|
@@ -253,7 +262,7 @@ C Water, Water Everywhere|QID|30317|M|56.39,50.24|N|Talk to Wing Nga (flightmast
 A A Dish for Farmer Fung|QID|30421|M|48.28,33.86|N|Farmer Fung - Wildfowl Roast.\nSkip this step if you have no food to give him.|PRE|30257|REP|Farmer Fung;1283;Stranger-Good Friend|RANK|3|
 t A Dish for Farmer Fung|QID|30421|M|48.28,33.86|N|To Farmer Fung.|
 N Treasure for Farmer Fung|QID|30416^30417^30418^30419^30420|M|48.28,33.86|N|Give whatever treasures you to Farmer Fung. He prefers the Marsh Lily.\nManually check off this step when you are done.|REP|Farmer Fung;1283;Stranger-Good Friend|
-C Talk to Farmer Fung|QID|31534|M|48.28,33.86|QO|4|N|At his farm (unless he's at the market).|CHAT|
+C Talk to Farmer Fung|QID|31534|M|48.28,33.86|QO|4|N|Talk to him at his farm. If he's not here`, he's at the Market or at Sunsong Ranch|CHAT|
 T Farmer Fung's Vote I: Yak Attack|QID|30517|M|48.28,33.86|N|To Farmer Fung.|
 A Farmer Fung's Vote II: On the Loose|QID|30518|M|48.28,33.86|N|From Farmer Fung.|PRE|30517|
 C Farmer Fung's Vote II: On the Loose|QID|30518|M|50.46,37.27;50.45,34.84|CC|N|Jump on the Escaped Shagskin and ride it back to the pen; rinse and repeat five times.|V|
@@ -263,11 +272,14 @@ t Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.28,33.86|
 C Lost Sheepie... Again|QID|31339|M|47,37|N|Pick up the sheep and take it home.|NC|
 A A Dish for Tina|QID|30433|M|45.09,33.77|N|Tina Mudclaw - Fire Spirit Salmon.\nSkip this step if you have no food for her.|PRE|30257|REP|Tina Mudclaw;1280;Stranger-Good Friend|RANK|3|
 t A Dish for Tina|QID|30433|M|45.09,33.77|N|To Tina Mudclaw.|
-N Treasure for Tina|QID|30428^30429^30430^30431^30432|M|45.09,33.77|N|Give Tina any treasures you have for her. She prefers the Ruby Shard.\nManually check off this step when you are done.|REP|Tina Mudclaw;1280;Stranger-Good Friend|
-A A Dish for Haohan|QID|30414|M|44.6,34.1|N|Haohan Mudclaw - Charbroiled Tiger Steak.\nSkip this step if you have no food for him.|PRE|30257|REP|Haohan Mudclaw;1279;Stranger-Good Friend|RANK|3|
-t A Dish for Haohan|QID|30414|M|44.6,34.1|N|To Haohan Mudclaw.|
+t A Ruby Shard for Tina|QID|30428|M|45.09,33.77|N|Give Tina any Ruby Shards you have for her.\nSkip this step if you do not wish to give her anymore.|REP|Tina Mudclaw;1280;Stranger-Good Friend|NOCACHE|
+A A Ruby Shard for Tina|QID|30428|M|45.09,33.77|L|79264|N|Give Tina a Ruby Shard.\nSkip this step if you do not wish to give her anymore.|REP|Tina Mudclaw;1280;Stranger-Good Friend|O|
+N Treasure for Tina|QID|30429^30430^30431^30432|M|45.09,33.77|N|Give Tina any treasures you have for her. She prefers the Ruby Shard.\nSkip this step if you have no gifts for her.|REP|Tina Mudclaw;1280;Stranger-Good Friend|
+A A Dish for Haohan|QID|30414|M|45.09,33.77|N|Haohan Mudclaw - Charbroiled Tiger Steak.\nSkip this step if you have no food for him.|PRE|30257|REP|Haohan Mudclaw;1279;Stranger-Good Friend|RANK|3|
+t A Dish for Haohan|QID|30414|M|45.09,33.77|N|To Haohan Mudclaw.|
+A A Ruby Shard for Haohan|QID|30428|M|45.09,33.77|L|79264|N|Give Haohan a Ruby Shard.\nSkip this step if you do not wish to give him anymore.|REP|Haohan Mudclaw;1279;Stranger-Good Friend|O|
 N Treasure for Haohan|QID|30409^30410^30411^30412^30413|M|45.09,33.77|N|Give Haohan any treasures you have for him. He prefers the Ruby Shard.\nManually check off this step when you are done.|REP|Haohan Mudclaw;1279;Stranger-Good Friend|
-C Talk to Haohan|QID|31534|M|45,34|QO|1|N|Coords* In the market or at his farm (where the green dot is).|CHAT|
+C Talk to Haohan|QID|31534|M|45.09,33.77|QO|1|N|To Haohan on his farm. If he's not here, he's at the MArket or at Sunsong Ranch|CHAT|
 T Mung-Mung's Vote I: A Hozen's Problem|QID|30258|M|44.17,34.21|N|To Mung-Mung.|
 A Mung-Mung's Vote II: Rotten to the Core|QID|30259|M|44.17,34.21|N|From Mung-Mung.|PRE|30258|
 C Mung-Mung's Vote II: Rotten to the Core|QID|30259|M|42.49,39.99|N|Pick up sparkly carrot bits, avoiding or killing Vermin as you go.|NC|
@@ -276,8 +288,9 @@ A Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|44.14,34.27|N|From Mu
 t Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|44.17,34.21|N|This can't be completed or turned in until the next day. If Mung-Mung is not at the market he will be back at the Mudclaw Farm, (where the green dot is.)|
 A A Dish for Fish|QID|30427|M|41.73,30.02|N|Fish Fellreed - Twin Fish Platter.\nSkip this step if you have no food for her.|REP|Fish Fellreed;1282;Stranger-Good Friend|RANK|3|
 t A Dish for Fish|QID|30427|M|41.73,30.02|N|To Fish Fellreed.|
+A A Ruby Shard for Haohan|QID|30428|M|45.09,33.77|L|79264|N|Give Haohan a Ruby Shard.\nSkip this step if you do not wish to give him anymore.|REP|Haohan Mudclaw;1279;Stranger-Good Friend|O|
 N Treasure for Fish|QID|30428^30429^30430^30431^30432|M|41.73,30.02|N|Give Fish Fellreed any treasures you have for her. She prefers the Jade Cat.\nManually check off this step when you are done.|REP|Fish Fellreed;1282;Stranger-Good Friend|
-C Talk to Fish|QID|31534|M|41.7,30.0|QO|3|N|In the market or on the dock (where the green dot is).|CHAT|
+C Talk to Fish|QID|31534|M|41.7,30.0|QO|3|N|To Fish on the dock. If she's not here, she's at the Market or at Sunsong Ranch|CHAT|
 K Enormous Cattail Grouper|ACTIVE|30477|M|44.52,22.76|QO|1|N|Kill and loot the very big fish.|T|Enormous Cattail Grouper|
 K Monstrous Plainshawk|ACTIVE|30475|L|80232|M|41.98,41.92; 45.97,78.98; 37.36,36.98|CN|N|Kill and loot a 'Bloody Plainshawk Leg'. They are all over the place, the green dots are at spots you can pull them if you don't have a way to do long ranged damage.|T|Monstrous Plainshawk|
 l Blue Freshwater Pearl|ACTIVE|30476|M|42.54,28.41|QO|1|N|To loot this item, locate a Freshwater Oyster in Cattail Lake and open it.|
@@ -380,19 +393,19 @@ T Mission: Predator of the Cliffs|QID|31532|M|29.47,30.26|N|To Sho, if she is no
 ;Chee chee's one time quests|REP|1277
 
 ;Ella's one time Quests|REP|1275
-T The Beginner's Brew|QID|31534|M|31.6,58|N|To Ella in the market or if she is not there, on her farm (where the green dot is}.|
-T Ella's Taste Test|QID|31537|M|31.6,58|N|To Ella in the market or if she is not there, on her farm (where the green dot is}.|
-T A Worthy Brew|QID|31538|M|31.6,58|N|To Ella in the market or if she is not there, on her farm (where the green dot is}.|
+T The Beginner's Brew|QID|31534|M|31.51,58.06|N|To Ella on her farm (She may be in her garden). If She's not here, she's at the Market.|
+T Ella's Taste Test|QID|31537|M|31.51,58.06|N|To Ella on her farm (She may be in her garden). If She's not here, she's at the Market.|
+T A Worthy Brew|QID|31538|M|31.51,58.06|N|To Ella on her farm (She may be in her garden). If She's not here, she's at the Market.|
 
-;accept quests from dropped items|REP|1280
-A A Very Nice Necklace|QID|31325|N|From 'Nice Necklace' randomly dropped.|U|86433|O|
-A Tina's Tasteful Tiara|QID|31326|N|From 'Tasteful Tiara' randomly dropped.|U|86434|REP|Tina Mudclaw;1280;Acquaintance-Best Friend|O| ;8400-16800
-A An Exquisite Earring|QID|31328|N|From 'Exquisite Earring' randomly dropped.|U|86435|REP|Tina Mudclaw;1280;Buddy-Best Friend|O| ;16800-25200
-A A Beautiful Brooch|QID|31329|N|From 'Beautiful Brooch' randomly dropped.|U|86436|REP|Tina Mudclaw;1280;Friend-Best Friend|O| ;25200-42999
-t A Very Nice Necklace|QID|31325|M|45.09,33.77|N|If Tina isn't on her family's farm, she can be found at the market.|
-t Tina's Tasteful Tiara|QID|31326|M|45.09,33.77|N|If Tina isn't on her family's farm, she can be found at the market.|
-t An Exquisite Earring|QID|31328|M|45.09,33.77|N|If Tina isn't on her family's farm, she can be found at the market.|
-t A Beautiful Brooch|QID|31329|M|45.09,33.77|N|If Tina isn't on her family's farm, she can be found at the market.|
+; Tina's quests from dropped items|REP|1280
+A A Very Nice Necklace|QID|31325|M|PLAYER|N|From 'Nice Necklace' randomly dropped (UI Alert).|U|86433|O|
+A Tina's Tasteful Tiara|QID|31326|M|PLAYER|N|From 'Tasteful Tiara' randomly dropped (UI Alert).|U|86434|REP|Tina Mudclaw;1280;Acquaintance-Best Friend|O| ;8400-16800
+A An Exquisite Earring|QID|31328|M|PLAYER|N|From 'Exquisite Earring' randomly dropped (UI Alert).|U|86435|REP|Tina Mudclaw;1280;Buddy-Best Friend|O| ;16800-25200
+A A Beautiful Brooch|QID|31329|M|PLAYER|N|From 'Beautiful Brooch' randomly dropped (UI Alert).|U|86436|REP|Tina Mudclaw;1280;Friend-Best Friend|O| ;25200-42999
+t A Very Nice Necklace|QID|31325|M|45.09,33.77|N|To Tina on her family's farm. If she's not here, she can be found at the Market.|
+t Tina's Tasteful Tiara|QID|31326|M|45.09,33.77|N|To Tina on her family's farm. If she's not here, she can be found at the Market.|
+t An Exquisite Earring|QID|31328|M|45.09,33.77|N|To Tina on her family's farm. If she's not here, she can be found at the Market.|
+t A Beautiful Brooch|QID|31329|M|45.09,33.77|N|To Tina on her family's farm. If she's not here, she can be found at the Market.|
 
 ;turn in quests
 T Lost and Lonely|QID|30526|M|42.39,49.98|N|To Lost Dog.|
@@ -473,7 +486,7 @@ T A Wolf In Sheep's Clothing|QID|31341|M|34.44,46.84|N|To Chee Chee|
 T The Kunzen Legend-Chief|QID|30326|M|41.7,30.0|N|To Fish Fellreed, also she prefers the Jade Cat.|
 T A Gift For Fish|QID|30473|M|41.7,30.0|N|To Fish Fellreed.|
 
-T You Have to Burn the Ropes|QID|30327|M|31.5,58.1|N|To Ella, also she prefers the Jade Cat.|
+T You Have to Burn the Ropes|QID|30327|M|31.5,58.1|N|To Ella.|
 T A Gift For Ella|QID|30474|M|31.5,58.1|N|To Ella.|
 
 T Chasing the Chicken|QID|30318|M|30.9,53.1|N|To Old Hillpaw, also he prefers the Blue Feather.|
@@ -516,11 +529,6 @@ A Buy A Fish A Brewery?|QID|31323|M|53.6,52.4|N|From Jogu the Drunk.|PRE|31322|R
 B Buy or Make Mad Brewer's Breakfast|ACTIVE|31323|L|75038 20|N|Make with cooking or buy from another player. I suspect this one is too expensive to be worth doing, only consequence of not doing it, is not gaining the faction/reward).|
 t Buy A Fish A Brewery?|QID|31323|M|53.6,52.4|N|To Jogu the Drunk.|
 
-;an extra hand - totally worthless quest...
-A A Second Hand|QID|30534|M|52,49|N|From Tillers Shrine.|PRE|30574|ACH|6551;;true|
-C A Second Hand|QID|30534|N|The only advantage to which friend to pick is so that you don't have to walk as far to see Gina (quartermaster) or Jogu (crop predictions - which incidentally are now free since you are exalted). So take your pick.|NC|
-T A Second Hand|QID|30534|M|52,49|N|To Tillers Shrine.|
-
 ;Fish's one time chain - requires exalted with Tillers and best friend status with all the farmers (ie ach 6552 Friends on the Farm)
 K Enormous Cattail Grouper|M|44.52, 22.76|QO|1|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end. If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|T|Enormous Cattail Grouper|ACH|6552;;true|REP|The Tillers;1272;exalted|
 U Old Map|QID|31312|N|Click on the map to start a quest.|U|86404|ACH|6552;;true|REP|The Tillers;1272;exalted|
@@ -540,7 +548,7 @@ A The Heartland Legacy|QID|31315|M|31.4,53.4|N|From Hidden Treasure. Often the e
 T The Heartland Legacy|QID|31315|N|To Seedkeeper Shing Sing, inside a cave in Halfhill, (who knew there was a cave here...} Her seed vault is to the left of Stonecarver Mac's house, hidden behind some bushes.|
 
 ; you bought the farm
-A Inherit the Earth|QID|32682|M|54.67,47.04|N|From Nana Mudclaw. This will give you access to Farmer Yoon's new dailies.|PRE|30574|REP|The Tillers;1272;exalted|
+A Inherit the Earth|QID|32682|M|54.67,47.04|N|From Nana Mudclaw.\n[color=FF0000]NOTE: [/color]This quest becomes available as soon as the 'Growing the Farm' timer expires after 15 minutes. Just wait out.|PRE|30574|REP|The Tillers;1272;exalted|
 C Inherit the Earth|QID|32682|M|52.25,48.79|N|Ask Farmer Yoon to join the council.|CHAT|
 T Inherit the Earth|QID|32682|M|54.67,47.04|N|To Nana Mudclaw. New dailies are from a post where he used to be, and now Yoon is in the Marketplace.|
 
