@@ -3712,7 +3712,7 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname, action)
     if not Grail or not WoWProCharDB.EnableGrailQuestName then return nil end
     if QID == "*" then return QID end
     if not QID then
-        WoWPro:Warning("In guide %s, quest %s[%s]  does not have a QID",guide, action, tostring(myname))
+        WoWPro:dbp("In guide %s, quest %s[%s]  does not have a QID",guide, action, tostring(myname))
         return false
     end
     local numQIDs = select("#", ("^"):split(QID))
