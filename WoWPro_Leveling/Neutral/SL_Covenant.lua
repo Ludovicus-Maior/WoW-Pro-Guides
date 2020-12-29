@@ -1331,11 +1331,11 @@ A Right our Wrongs|QID|58584|PRE|58555|M|50.09,20.71|Z|Bastion!The Shadowlands|N
 A No Friend of Mine|QID|58585|PRE|58555|M|50.11,20.54|Z|Bastion!The Shadowlands|N|From Mikanikos.|COV|Venthyr|REN|13|
 A The Right Stuff|QID|58586|PRE|58555|M|50.11,20.54|Z|Bastion!The Shadowlands|N|From Mikanikos.|COV|Venthyr|REN|13|
 C Right our Wrongs|QID|58584|M|50.13,20.34|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak to Theotar.|COV|Venthyr|
-C Right our Wrongs|QID|58584|M|51.63,17.91|Z|Bastion!The Shadowlands|U|174465|QO|2|NC|N|Look for red pools around, Theotar will disenchant them to allow you to click and destroy the Anima Siphons.|S|COV|Venthyr|
-C The Right Stuff|QID|58586|M|51.99,18.39|Z|Bastion!The Shadowlands|N|Kill enemies around the are to get them to drop Tainted Centurion Component. Once you have it, use it to smelt the bodies right there and collect the metal.|S|COV|Venthyr|
+C Right our Wrongs|QID|58584|M|51.63,17.91|Z|Bastion!The Shadowlands|QO|2|NC|N|Look for red pools around, Theotar will disenchant them to allow you to click and destroy the Anima Siphons.|S|COV|Venthyr|
+C The Right Stuff|QID|58586|M|51.99,18.39|Z|Bastion!The Shadowlands|U|174465|N|Kill enemies around the are to get them to drop Tainted Centurion Component. Once you have it, use it to smelt the bodies right there and collect the metal.|S|COV|Venthyr|
 C No Friend of Mine|QID|58585|M|52.95,15.27|Z|Bastion!The Shadowlands|N|Kill Famos and loot Mikanikos's Tool Chest.|T|Famos|COV|Venthyr|
-C The Right Stuff|QID|58586|M|51.99,18.39|Z|Bastion!The Shadowlands|N|Kill enemies around the are to get them to drop Tainted Centurion Component. Once you have it, use it to smelt the bodies right there and collect the metal.|US|COV|Venthyr|
-C Right our Wrongs|QID|58584|M|51.63,17.91|Z|Bastion!The Shadowlands|U|174465|QO|2|NC|N|Look for red pools around, Theotar will disenchant them to allow you to click and destroy the Anima Siphons.|US|COV|Venthyr|
+C The Right Stuff|QID|58586|M|51.99,18.39|Z|Bastion!The Shadowlands|U|174465|N|Kill enemies around the are to get them to drop Tainted Centurion Component. Once you have it, use it to smelt the bodies right there and collect the metal.|US|COV|Venthyr|
+C Right our Wrongs|QID|58584|M|51.63,17.91|Z|Bastion!The Shadowlands|QO|2|NC|N|Look for red pools around, Theotar will disenchant them to allow you to click and destroy the Anima Siphons.|US|COV|Venthyr|
 T Right our Wrongs|QID|58584|M|50.09,20.71|Z|Bastion!The Shadowlands|N|To General Draven.|COV|Venthyr|
 T No Friend of Mine|QID|58585|M|50.11,20.54|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Venthyr|
 T The Right Stuff|QID|58586|M|50.11,20.54|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Venthyr|

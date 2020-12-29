@@ -34,10 +34,13 @@ t Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A A Fresh Blade|QID|62738^63035|PRE|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62738^63035|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
 F Bleak Redoubt|ACTIVE|62738^63035|M|60.87,68.63|Z|Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
+T A Fresh Blade|QID|62738^63035|M|49.70,44.13|Z|Seat of the Primus!Dungeon|N|To Secutor Mevix.|TOF|COV|Necrolord|
 T A Fresh Blade|QID|62738^63035|M|52.85,68.33|N|To Secutor Mevix.|TOF|
+A Rallying Maldraxxus|QID|62748|PRE|62738^63035|M|49.70,44.13|Z|Seat of the Primus!Dungeon|N|From Secutor Menvix.|TOF|COV|Necrolord|
 A Rallying Maldraxxus|QID|62748|PRE|62738^63035|N|From Secutor Menvix.|TOF|
 l Rallying Maldraxxus|QID|62748|QO|1|S!US|N|Literally everything you do in Maldraxxus counts towards this quest. You may [color=40C7EB]return[/color] to [color=40C7EB]Bleak Redoubt[/color] to turn in and be done with the zone anytime after this step closes.|TOF|
-t Rallying Maldraxxus|QID|62748|IZ|Bleak Redoubt|M|52.85,68.28|Z|Maldraxxus|N|To Secutor Mevix.|TOF|
+t Rallying Maldraxxus|QID|62748|IZ|Seat of the Primus!Dungeon|M|49.70,44.13|Z|Seat of the Primus!Dungeon|N|To Secutor Mevix.|TOF|COV|Necrolord|
+t Rallying Maldraxxus|QID|62748|IZ|Bleak Redoubt|M|52.85,68.28|Z|Maldraxxus|N|To Secutor Mevix.|
 A Return to Oribos|QID|62761|M|52.85,68.28|Z|Maldraxxus|N|From Secutor Mevix.|PRE|62748|TOF|
 F Oribos|ACTIVE|62761|M|52.46,67.64|Z|Maldraxxus|N|At Wing Guard Buurkin|TOF|
 t Return to Oribos|QID|62761|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|IZ|Oribos|TOF|
