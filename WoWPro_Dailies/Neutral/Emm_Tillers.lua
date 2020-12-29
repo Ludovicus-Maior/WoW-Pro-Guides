@@ -414,20 +414,6 @@ t A Beautiful Brooch|QID|31329|M|45.09,33.77|N|To Tina on her family's farm. If 
 ;turn in quests
 T Lost and Lonely|QID|30526|M|42.39,49.98|N|To Lost Dog.|
 
-T Stalling the Ravage|QID|30335|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T The Lesser of Two Evils|QID|30333|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T The Kunzen Hunter-Chief|QID|30336|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-T Simian Sabotage|QID|30337|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
-A Mung-Mung's Vote I: A Hozen's Problem|QID|30258|M|52.28,48.74|N|From Farmer Yoon.|PRE|31945|REP|The Tillers;1272;Honored;5500|
-
-;Yoon turns in after you buy the farm
-T Stalling the Ravage|QID|30335|M|52.92,51.83|N|To Farmer Yoon.|REP|The Tillers;1272;Exalted|
-T The Lesser of Two Evils|QID|30333|M|52.92,51.83|N|To Farmer Yoon.|REP|The Tillers;1272;Exalted|
-T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.92,51.83|N|To Farmer Yoon.|REP|The Tillers;1272;Exalted|
-T The Kunzen Hunter-Chief|QID|30336|M|52.92,51.83|N|To Farmer Yoon.|REP|The Tillers;1272;Exalted|
-T Simian Sabotage|QID|30337|M|52.92,51.83|N|To Farmer Yoon.|REP|The Tillers;1272;Exalted|
-
 T Haohan's Vote I: Bungalow Break-In|QID|30521|M|44.6,34|N|To Haohan Mudclaw.|
 T Haohan's Vote II: The Real Culprits|QID|30522|M|52.26,48.79|N|To Farmer Yoon.|
 T Haohan's Vote III: Pure Poison|QID|30525|M|52.26,48.79|N|To Farmer Yoon.|
@@ -493,13 +479,28 @@ T A Gift For Ella|QID|30474|M|31.5,58.1|N|To Ella.|
 T Chasing the Chicken|QID|30318|M|30.9,53.1|N|To Old Hillpaw, also he prefers the Blue Feather.|
 T A Gift For Old Hillpaw|QID|30476|M|30.9,53.1|N|To Old Hillpaw.|
 
-T Pest Problems|QID|30319|M|44.6,34.1|N|To Haohan Mudclaw, also he prefers Ruby Shards.|
+T Pest Problems|QID|30319|M|52.98,51.73|N|To Haohan Mudclaw at the Market. If he's not there, he's on the Mudclaw Farm.|
 T A Gift For Haohan|QID|30477|M|44.6,34.1|N|To Haohan Mudclaw.|
 
 T Money Matters|QID|30322|M|53.16,51.79|N|To Gina Mudclaw, also she prefers the Marsh Lily.|
 T A Gift For Gina|QID|30479|M|53.16,51.79|N|To Gina Mudclaw.|
 
 T The Mile-High Grub|QID|30331|M|52.54,51.65|N|To Mei Mei Ironpaw.|
+
+T Stalling the Ravage|QID|30335|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T The Lesser of Two Evils|QID|30333|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T The Kunzen Hunter-Chief|QID|30336|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+T Simian Sabotage|QID|30337|M|52.25,48.80|N|To Farmer Yoon.|REP|The Tillers;1272;Neutral-Revered|
+A Mung-Mung's Vote I: A Hozen's Problem|QID|30258|M|52.28,48.74|N|From Farmer Yoon.|PRE|31945|REP|The Tillers;1272;Honored;5500|
+
+;Yoon turns in after you buy the farm
+T Stalling the Ravage|QID|30335|M|52.92,51.83|N|To Farmer Yoon.|REP|The Tillers;1272;Exalted|
+T The Lesser of Two Evils|QID|30333|M|52.92,51.83|N|To Farmer Yoon.|REP|The Tillers;1272;Exalted|
+T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.92,51.83|N|To Farmer Yoon.|REP|The Tillers;1272;Exalted|
+T The Kunzen Hunter-Chief|QID|30336|M|52.92,51.83|N|To Farmer Yoon.|REP|The Tillers;1272;Exalted|
+T Simian Sabotage|QID|30337|M|52.92,51.83|N|To Farmer Yoon.|REP|The Tillers;1272;Exalted|
+
 
 ;WATERING SYSTEM - requires clear the weeds
 B The "Jinyu Princess" Irrigation System|LEAD|31936|M|53.16,51.79|L|89812|N|Buy from Gina Mudclaw. Even if you like using inventory space for the watering can, its still 250 rep for 90g. Not available until after the weeds are removed (so, in 15 minutes, if Gao Lan just started.)|PRE|30531|
@@ -517,18 +518,18 @@ A The "Earth-Slasher" Master Plow|QID|31938|N|From the item you just bought.|U|8
 T The "Earth-Slasher" Master Plow|QID|31938|M|52.25,48.80|N|To Farmer Yoon who installs it for you. This is unfortunately an item that you will have to pick up and use from your inventory.|
 
 ;Jogu's one time chain|REP|1273
-A Buy A Fish A Drink?|QID|31320|M|53.6,52.4|N|From Jogu the Drunk.|REP|Jogu;1273;Acquaintance| ; -- 8400rep
+A Buy A Fish A Drink?|QID|31320|M|53.56,52.57|N|From Jogu the Drunk.|REP|Jogu;1273;Acquaintance| ; -- 8400rep
 B Buy Four Winds Soju|ACTIVE|31320|L|81407|M|54.96,50.47|N|Buy from Den Den the Bartender in the The Lazy Turnip Inn|
-t Buy A Fish A Drink?|QID|31320|M|53.6,52.4|N|To Jogu the Drunk.|
-A Buy A Fish A Round?|QID|31321|M|53.6,52.4|N|From Jogu the Drunk.|PRE|31320|REP|Jogu;1273;Buddy| ; -- 16800 rep
+t Buy A Fish A Drink?|QID|31320|M|53.56,52.57|N|To Jogu the Drunk.|
+A Buy A Fish A Round?|QID|31321|M|53.56,52.57|N|From Jogu the Drunk.|PRE|31320|REP|Jogu;1273;Buddy| ; -- 16800 rep
 B Buy Plum Wine|ACTIVE|31321|L|81415 5|M|54.96,50.47|N|Buy from Den Den the bartender in the The Lazy Turnip Inn|
-t Buy A Fish A Round?|QID|31321|M|53.6,52.4|N|To Jogu the Drunk.|
-A Buy A Fish A Keg?|QID|31322|M|53.6,52.4|N|From Jogu the Drunk.|PRE|31321|REP|Jogu;1273;Friend| ; -- 25200 rep
+t Buy A Fish A Round?|QID|31321|M|53.56,52.57|N|To Jogu the Drunk.|
+A Buy A Fish A Keg?|QID|31322|M|53.56,52.57|N|From Jogu the Drunk.|PRE|31321|REP|Jogu;1273;Friend| ; -- 25200 rep
 B Buy or Make Jade Witch Brew|ACTIVE|31322|L|75037 10|N|Make with cooking or buy from another player.\n[color=FF0000]NOTE: [/color]If you wish make them and need to grow the Jade Squash and/or Witchberries, skip this step until you can harvest them.|
-t Buy A Fish A Keg?|QID|31322|M|53.6,52.4|N|To Jogu the Drunk.|
-A Buy A Fish A Brewery?|QID|31323|M|53.6,52.4|N|From Jogu the Drunk.|PRE|31322|REP|Jogu;1273;Good Friend| ; -- 33600 rep
+t Buy A Fish A Keg?|QID|31322|M|53.56,52.57|N|To Jogu the Drunk.|
+A Buy A Fish A Brewery?|QID|31323|M|53.56,52.57|N|From Jogu the Drunk.|PRE|31322|REP|Jogu;1273;Good Friend|O| ; -- 33600 rep
 B Buy or Make Mad Brewer's Breakfast|ACTIVE|31323|L|75038 20|N|Make with cooking or buy from another player. I suspect this one is too expensive to be worth doing, only consequence of not doing it, is not gaining the faction/reward).|
-t Buy A Fish A Brewery?|QID|31323|M|53.6,52.4|N|To Jogu the Drunk.|
+t Buy A Fish A Brewery?|QID|31323|M|53.56,52.57|N|To Jogu the Drunk.|
 
 ;Fish's one time chain - requires exalted with Tillers and best friend status with all the farmers (ie ach 6552 Friends on the Farm)
 K Enormous Cattail Grouper|M|44.52, 22.76|QO|1|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end. If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|T|Enormous Cattail Grouper|ACH|6552;;true|REP|The Tillers;1272;exalted|
