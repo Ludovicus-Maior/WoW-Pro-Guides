@@ -89,33 +89,42 @@ function WoWPro.ExpandMarkup(text)
     end
     local want_icon, want_text
     -- WoWPro:dbp("ExpandMarkup starting on %s",text:gsub("|", "¦"))
-    -- [spell=123/foooBar;icon]
-    local tag_start, tag_text, tag_id, tag_qual, tag_end = text:match("()%[([%a]+)=([%d%a/: -]+);([icontex]+)%]()")
-    if not tag_start then
-        -- Lets try no qualifier
-        -- WoWPro:dbp("ExpandMarkup Failed [spell=123/foooBar;icon]")
-        -- [fizzel=123AZ/XXX and Y]
-        tag_start, tag_text, tag_id, tag_end = text:match("()%[([%a]+)=([%d%a/: -]+)%]()")
-        if not tag_start then
-            -- WoWPro:dbp("ExpandMarkup Failed [foo=123/XXX-and-Y]")
-            -- [money=123.45]
-            tag_start, tag_text, tag_id, tag_end = text:match("()%[(money)=([%d.]+)%]()")
-            if not tag_start then
-                -- WoWPro:dbp("ExpandMarkup Failed [money=1.2]")
-                -- [/color]
-                tag_start, tag_text, tag_end = text:match("()%[(/[%a]+)%]()")
-                if not tag_start then
-                    -- WoWPro:print("ExpandMarkup failed on %s",text:gsub("|", "¦"))
-                    return text
+
+    local tag_start, tag, tag_text, tag_id, tag_qual, tag_end
+    -- First test for any tag-like thing [.*]
+    tag_start, tag, tag_end = text:match("()(%[[^]]+%])()")
+    if tag_start then
+        -- OK, we have a possible tag.  Classify
+        -- Is it like [/color] ?
+        tag_text = tag:match("^%[(/[%a]+)%]$")
+        if not tag_text then
+            -- Lets try no qualifier
+            -- WoWPro:dbp("ExpandMarkup Failed [/color]")
+            -- [fizzel=123AZ/XXX and Y]
+            tag_text, tag_id = tag:match("^%[([%a]+)=([%d%a/: -]+)%]$")
+            if not tag_text then
+                -- WoWPro:dbp("ExpandMarkup Failed [foo=123/XXX-and-Y]")
+                -- [money=123.45]
+                tag_text, tag_id = tag:match("^%[(money)=([%d.]+)%]$")
+                if not tag_text then
+                    -- WoWPro:dbp("ExpandMarkup Failed [money=1.2]")
+                    -- [spell=123/foooBar;icon]
+                    tag_text, tag_id, tag_qual = tag:match("^%[([%a]+)=([%d%a/: -]+);([icontex]+)%]$")
+                    if not tag_text then
+                        -- WoWPro:print("ExpandMarkup failed on %s",text:gsub("|", "¦"))
+                        return text
+                    end
                 end
-                tag_id = ""
             end
         end
-        tag_qual = "itext"
+    else
+        -- No tag, exit
+        return text
     end
+    tag_id = tag_id or ""
     tag_text = tag_text:lower()
-    tag_qual = tag_qual:lower()
-    -- WoWPro:dbp("ExpandMarkup  text=%s, qual=%s, id=%s", tag_text, tag_qual, tag_id)
+    tag_qual = (tag_qual and tag_qual:lower()) or "itext"
+    WoWPro:dbp("ExpandMarkup  text=%s, qual=%s, id=%s", tag_text, tag_qual, tag_id)
     -- could have comment text after /
     tag_id = select(1, ("/"):split(tag_id))
     if tag_qual == "itext" then
@@ -143,7 +152,7 @@ function WoWPro.ExpandMarkup(text)
         -- If we were unable to expand, punt!
         expand = text:sub(tag_start, tag_end)
     end
-    -- WoWPro:dbp("ExpandMarkup [%s=%s;%s] => %s",tag_text, tostring(tag_id), tag_qual, expand:gsub("|", "¦"))
+    WoWPro:dbp("ExpandMarkup [%s=%s;%s] => %s",tag_text, tostring(tag_id), tag_qual, expand:gsub("|", "¦"))
     text = pre..expand..WoWPro.ExpandMarkup(post)
     return text
 end
@@ -154,4 +163,5 @@ function WoWPro.TestMarkup()
     _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[money=12.34]"))
     _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[ability=593/surge-of-power]"))
     _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[color=112233]Oh Yeah![/color]"))
+    _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.\n[color=FF0000]NOTE: [/color]Despite being yellow, it will attack you as soon as you step within the colored area.\nXXX"))
 end
