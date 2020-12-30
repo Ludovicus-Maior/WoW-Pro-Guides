@@ -708,7 +708,7 @@ WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 -- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
 
 WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
-	if not _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) > 0 then
+	if _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) == 0 then
 		WoWPro.GroupSync = false
 	end
 	if successfulRequest then
