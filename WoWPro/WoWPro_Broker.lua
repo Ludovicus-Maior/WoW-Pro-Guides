@@ -1600,7 +1600,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- Optional Quests --
-            if WoWPro.optional[guideIndex] and QID then
+            if WoWPro.optional[guideIndex] then
                 skip = true --Optional steps default to skipped --
                 WoWPro.why[guideIndex] = "NextStep(): Optional steps default to skipped."
                 -- Checking Use Items --
@@ -1611,7 +1611,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
                 end
                 -- Are we on the quest?
-                if WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then
+                if QID and WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then
                     skip = false -- The optional quest is not skipped if we are on it!
                     WoWPro.why[guideIndex] = "NextStep(): Optional not skipped if on the quest!"
                 end
