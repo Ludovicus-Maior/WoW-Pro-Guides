@@ -108,8 +108,8 @@ A Master Cook Daily Quest|QID|30328^30329^30330^30331^30332|M|52.88,51.72|N|One 
 
 ;prepare food
 ; Shopping list for making food
-N Daily Food for Friends|AVAILABLE|30402^30386^30421^30427^30390^30414^30439^30396^30408^30433|M|PLAYER|N|The following steps are the ingredients you need to gather if you plan on cooking your Friends' Favorite foods for the day.\nHow you get them is entirely up to you.\nThe steps will complete as you acquire the items.|RANK|3|
-N Shopping list|AVAILABLE|30402^30386^30421^30427^30390^30414^30439^30396^30408^30433|N|For anyone trying to maximise their individual reps each day, you'll need:\n10x Krasarang Paddlefish, 10x Jade Lungfish, 5x Reef Octopus, 5x Giant Mantis Shrimp, 5x Emperor Salmon, 10x Wildfowl Breast, 5x Raw Tiger Steak, 5x Raw Turtle Meat, 35x Juicycrunch Carrot, 25x Striped Melon, and 25x Scallions.|RANK|3|
+N Daily Food for Friends|AVAILABLE|30402^30386^30421^30427^30390^30414^30439^30396^30408^30433|M|PLAYER|N|The following steps are the ingredients you need to gather if you plan on cooking your Friends' Favorite foods for the day.\nHow you get them is entirely up to you.\nThe steps will complete as you acquire the items.|ACH|6552;;false|RANK|3|
+N Shopping list|AVAILABLE|30402^30386^30421^30427^30390^30414^30439^30396^30408^30433|N|For anyone trying to maximise their individual reps each day, you'll need:\n10x Krasarang Paddlefish, 10x Jade Lungfish, 5x Reef Octopus, 5x Giant Mantis Shrimp, 5x Emperor Salmon, 10x Wildfowl Breast, 5x Raw Tiger Steak, 5x Raw Turtle Meat, 35x Juicycrunch Carrot, 25x Striped Melon, and 25x Scallions.|ACH|6552;;false|RANK|3|
 l Jade Lungfish|AVAILABLE|30390&-30408|M|46.71,87.84|Z|The Jade Forest|L|74856 5|N|Locate a Jade Lungfish School in the water near Paw'don Glade or along the river running through Jade Forest.\n[color=FF0000]NOTE: [/color]To make Swirling Mist Soup for Gina.|REP|Gina Mudclaw;1281;Stranger-Good Friend|RANK|3|
 l Jade Lungfish|AVAILABLE|30408&-30390|M|46.71,87.84|Z|The Jade Forest|L|74856 5|N|Locate a Jade Lungfish School in the water near Paw'don Glade or along the river running through Jade Forest.\n[color=FF0000]NOTE: [/color]To make Eternal Blossom Fish for Sho.|REP|Sho;1278;Stranger-Good Friend|RANK|3|
 l Jade Lungfish|AVAILABLE|30408&30390|M|46.71,87.84|Z|The Jade Forest|L|74856 10|N|Locate a Jade Lungfish School in the water near Paw'don Glade or along the river running through Jade Forest.\n[color=FF0000]NOTE: [/color]To make Swirling Mist Soup for Gina and Eternal Blossom Fish for Sho.|RANK|3| ; Can't use REP filter
@@ -121,7 +121,7 @@ l Raw Tiger Steak|AVAILABLE|30414|M|14.00,74.40|L|74833 5|N|Kill Gorge Stalkers 
 l Raw Turtle Meat|AVAILABLE|30396|M|71.60,51.80|L|74837 5|N|You'll find them on either shore of the Yan-Zhe River at several locations. You can also find them at the Torjari Pit.\n[color=FF0000]NOTE: [/color]To make Braised Turtle for Old Hillpaw.|REP|Old Hillpaw;1276;Stranger-Good Friend|RANK|3|
 l Wildfowl Breast|AVAILABLE|30402&-30421|M|57.00,36.80|L|74839 5|N|Kill the cranes in the area to collect them.\n[color=FF0000]NOTE: [/color]To make Valley Stir Fry for Chee Chee.|REP|Chee Chee;1277;Stranger-Good Friend|RANK|3|
 l Wildfowl Breast|AVAILABLE|30402&30421|M|57.00,36.80|L|74839 10|N|Kill the cranes in the area to collect them.\n[color=FF0000]NOTE: [/color]To Make Wildfowl Breast for Farmer Fung.|REP|Farmer Fung;1283;Stranger-Good Friend|RANK|3| ; Can't use REP filter
-N Vegetables|AVAILABLE|30396^30439^30408^30433|M|PLAYER|N|You have many options through which to acquire these. You can buy, loot or harvest them.\nUntil you establish your farm, buying may be your best option. Trying to loot between 10 and 80 of them combined (depending on your dishes) daily could prove time consuming and difficult. The drop rates are extremely low.\nFarming them is an option. But, you'll need to balance this with the crops you need to grow for other quests. All dishes combined, you'll need to harvest 17 plants per day with only 16 spots available. The AH may be a good choice to offset this issue.|RANK|3|
+N Vegetables|AVAILABLE|30396^30439^30408^30433|M|PLAYER|N|You have many options through which to acquire these. You can buy, loot or harvest them.\nUntil you establish your farm, buying may be your best option. Trying to loot between 10 and 80 of them combined (depending on your dishes) daily could prove time consuming and difficult. The drop rates are extremely low.\nFarming them is an option. But, you'll need to balance this with the crops you need to grow for other quests. All dishes combined, you'll need to harvest 17 plants per day with only 16 spots available. The AH may be a good choice to offset this issue.|ACH|6552;;false|RANK|3|
 l Juicycrunch Carrot|AVAILABLE|30396&-30439|M|52.02,48.30|L|74841 25|N|If you prefer to grow these on your farm, you'll have to harvest 5 plants.\n[color=FF0000]NOTE: [/color]To make Braised Turtle for Old Hillpaw.|REP|Old Hillpaw;1276;Stranger-Good Friend|RANK|3|
 l Juicycrunch Carrot|AVAILABLE|-30396&30439|M|52.02,48.30|L|74841 10|N|If you prefer to grow these on your farm, you'll have to harvest 2 plants.\n[color=FF0000]NOTE: [/color]To make Sauteed Carrots for Jogu.|REP|Jogu the Drunk;1273;Stranger-Good Friend|RANK|3|
 l Juicycrunch Carrot|AVAILABLE|30396&30439|M|52.02,48.30|L|74841 35|N|If you prefer to grow these on your farm, you'll have to harvest 7 plants.\n[color=FF0000]NOTE: [/color]To make Braised Turtle for Old Hillpaw and Sauteed Carrots for Jogu.|RANK|3| ; Can't use REP filter
@@ -153,7 +153,7 @@ T A Marsh Lily for Gina|M|53.16,51.79|N|To Gina Mudclaw.\nSkip this step if you 
 N Treasure for Gina|QID|30416^30417^30418^30419^30420|M|48.28,33.86|N|Give Gina Mudclaw any non-preferred treasures you have for her.\nManually check off this step when you are done.|REP|Gina Mudclaw;1281;Stranger-Good Friend|
 A Money Matters|QID|30322|ACTIVE|30479|M|53.16,51.79|N|From Gina Mudclaw.|PRE|30257|REP|Gina Mudclaw;1281;Best Friend| ; Gina's Daily
 ; Friends who happen to be at the market.
-A A Dish for ??? (random friend at Market)|AVAILABLE|30386^30390^30396^30402^30408^30414^30421^30427^30433^30439|N|Check the Market for friends who are there instead of at their 'home' location.\nThis step will close when you turn in your first food item.\nif you have no food items to turn in at the Market, manually check this step off.\n[color=FF0000]NOTE: [/color]Once you are best friends with someone, they don't accept your food or gifts; but will still offer daily quests.|PRE|30257|RANK|3|
+A A Dish for ??? (random friend at Market)|QID|30386^30390^30396^30402^30408^30414^30421^30427^30433^30439|N|Check the Market for friends who are there instead of at their 'home' location.\nThis step will close when you turn in your first food item.\nif you have no food items to turn in at the Market, manually check this step off.\n[color=FF0000]NOTE: [/color]Once you are best friends with someone, they don't accept your food or gifts; but will still offer daily quests.|PRE|30257|RANK|3|
 T A Dish for ??? (random friend at Market)|QID|30386^30390^30396^30402^30408^30414^30421^30427^30433^30439|N|To random friend at the Market.|
 A Daily quest (random friend at Market)|QID|30318^30322^30324^30319^30326^30323^30317^30321^30325^30327|N|Check the Market for 2 friends who are there instead of at their 'home' location.\nThis step will close when you accept one of the quests.\n[color=FF0000]NOTE: [/color]If there is only one friend at the Market, the 2nd quest will come from Gina or Jogu. If there are no friends at the market, Gina and Jogu will give you the dailies.|
 
@@ -247,7 +247,7 @@ C Ella's Taste Test|QID|31537|M|54.66,47.04|QO|4|N|Offer the drink to Nana Mudcl
 C Ella's Taste Test|QID|31537|M|52.25,48.79|QO|3|N|Offer the drink to Farmer Yoon.|T|Farmer Yoon|U|87558|PRE|-32682|NC| ; Farmer Yoon at Sunsong Ranch
 C Ella's Taste Test|QID|31537|M|52.93,51.84|QO|3|N|Offer the drink to Farmer Yoon.|T|Farmer Yoon|U|87558|PRE|32682|CHAT| ; Farmer Yoon at the Market
 C Talk to Gina|QID|31534|M|53.16,51.79|QO|2|CHAT|
-C A Worthy Brew|QID|31538|M|55.29,50.80|N|Have Chen taste it (he is inside the inn).|U|87763|NC|
+C A Worthy Brew|QID|31538|M|55.29,50.80|N|Have Chen taste it (he is inside the inn).|T|Chen Stormstout|U|87763|NC|
 C Water, Water Everywhere|QID|30317|M|56.39,50.24|N|Talk to Wing Nga (flightmaster) for a kite. You are looking for circles on the ground to drop water on with the "1" key.|NC|
 
 ; Farmer Fung
@@ -262,12 +262,11 @@ C Farmer Fung's Vote II: On the Loose|QID|30518|M|50.46,37.27;50.45,34.84|CC|N|J
 T Farmer Fung's Vote II: On the Loose|QID|30518|M|48.28,33.86|N|To Farmer Fung.|
 A Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.28,33.86|N|From Farmer Fung.|PRE|30518|
 t Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.28,33.86|
-C Lost Sheepie... Again|QID|31339|M|47,37|N|Pick up the sheep and take it home.|NC|
+C Lost Sheepie... Again|QID|31339|M|47.57,37.47|N|Pick up the sheep and take it home.|NC|
 ; Tina Mudclaw
 A A Dish for Tina|QID|30433|M|45.09,33.77|N|Tina Mudclaw - Fire Spirit Salmon.\nSkip this step if you have no food for her.|PRE|30257|REP|Tina Mudclaw;1280;Stranger-Good Friend|RANK|3|
 t A Dish for Tina|QID|30433|M|45.09,33.77|N|To Tina Mudclaw.|
-t A Ruby Shard for Tina|QID|30428|M|45.09,33.77|N|To Tina Mudclaw.\nClick cancel if you do not wish to give her anymore.|REP|Tina Mudclaw;1280;Stranger-Good Friend|NOCACHE|
-A A Ruby Shard for Tina|QID|30428|M|45.09,33.77|L|79264|N|Tina Mudclaw - Ruby Shard.\nSkip this step if you do not wish to give her anymore.|REP|Tina Mudclaw;1280;Stranger-Good Friend|O|NOCACHE|
+T A Ruby Shard for Tina|M|45.09,33.77|L|79264|N|To Tina Mudclaw.\nSkip this step if you do not wish to give her anymore.\n[color=FF0000]NOTE: [/color]Watch your Rep level when turning in multiple.|U|79264|REP|Tina Mudclaw;1280;Stranger-Good Friend|O|NOCACHE|
 N Treasure for Tina|QID|30429^30430^30431^30432|M|45.09,33.77|N|Give Tina any non-preferred treasures you have for her.\nSkip this step if you have no gifts for her.|REP|Tina Mudclaw;1280;Stranger-Good Friend|
 ; Haohan Mudclaw
 A A Dish for Haohan|QID|30414|M|44.62,34.06|N|Haohan Mudclaw - Charbroiled Tiger Steak.\nSkip this step if you have no food for him.|PRE|30257|REP|Haohan Mudclaw;1279;Stranger-Good Friend|RANK|3|
@@ -300,7 +299,7 @@ C Haohan's Vote II: The Real Culprits|QID|30522|M|38,45|N|You can examine the ar
 ; Chee Chee
 A A Dish for Chee Chee|QID|30402|M|34.44,46.84|N|Chee Chee - Valley Stir Fry.\nSkip this step if you have no food for him.|PRE|30257|REP|Chee Chee;1277;Stranger-Good Friend|RANK|3|
 t A Dish for Chee Chee|QID|30402|M|34.44,46.84|N|To Chee Chee.|
-T A Blue Feather for Chee Chee|M|34.44,46.84|N|To Chee Chee.\nSkip this step if you do not wish to give him anymore.\n[color=FF0000]NOTE: [/color]Watch your Rep level when turning in multiple.|U|79265|REP|Chee Chee;1277;Stranger-Good Friend|O|NOCACHE|
+t A Blue Feather for Chee Chee|M|34.44,46.84|L|79265|N|To Chee Chee.\nSkip this step if you do not wish to give him anymore.\n[color=FF0000]NOTE: [/color]Watch your Rep level when turning in multiple.|U|79265|REP|Chee Chee;1277;Stranger-Good Friend|O|
 N Treasure for Chee Chee|QID|30428^30429^30430^30431^30432|M|34.44,46.84|N|Give Chee Chee any non-preferred treasures you have for him.\nManually check off this step when you are done.|REP|Chee Chee;1277;Stranger-Good Friend|
 A Lost Sheepie|QID|31338|M|34.44,46.84|N|From Chee Chee|REP|Chee Chee;1277;Buddy| ; -- 16800
 A Lost Sheepie... Again|QID|31339|M|34.44,46.84|N|From Chee Chee|PRE|31338|REP|Chee Chee;1277;Friend| ; -- 25200
@@ -392,9 +391,9 @@ T Mission: Aerial Threat|QID|31531|M|29.52,30.59|N|To Sho. If she's not here, Sh
 T Mission: Predator of the Cliffs|QID|31532|M|29.52,30.59|N|To Sho. If she's not here, Sho's at the Market.|
 
 ;Chee Chee's one time quests|REP|1277
-T Lost Sheepie|QID|31338|M|34.4,46.8|N|To Chee Chee.|
-T Lost Sheepie... Again|QID|31339|M|34.4,46.8|N|To Chee Chee.|
-T Oh Sheepie...|QID|31340|M|34.4,46.8|N|To Chee Chee.|
+t Lost Sheepie|QID|31338|M|34.4,46.8|N|To Chee Chee.|
+t Lost Sheepie... Again|QID|31339|M|34.4,46.8|N|To Chee Chee.|
+t Oh Sheepie...|QID|31340|M|34.4,46.8|N|To Chee Chee.|
 
 ;Ella's one time Quests|REP|1275
 T The Beginner's Brew|QID|31534|M|31.51,58.06|N|To Ella on her farm (She may be in her garden). If She's not here, she's at the Market.|
@@ -528,26 +527,25 @@ A Buy A Fish A Keg?|QID|31322|M|53.56,52.57|N|From Jogu the Drunk.|PRE|31321|REP
 B Buy or Make Jade Witch Brew|ACTIVE|31322|L|75037 10|N|Make with cooking or buy from another player.\n[color=FF0000]NOTE: [/color]If you wish make them and need to grow the Jade Squash and/or Witchberries, skip this step until you can harvest them.|
 t Buy A Fish A Keg?|QID|31322|M|53.56,52.57|N|To Jogu the Drunk.|
 A Buy A Fish A Brewery?|QID|31323|M|53.56,52.57|N|From Jogu the Drunk.|PRE|31322|REP|Jogu;1273;Good Friend|O| ; -- 33600 rep
-B Buy or Make Mad Brewer's Breakfast|ACTIVE|31323|L|75038 20|N|Make with cooking or buy from another player. I suspect this one is too expensive to be worth doing, only consequence of not doing it, is not gaining the faction/reward).|
+B Buy or Make Mad Brewer's Breakfast|ACTIVE|31323|L|75038 20|N|Make with cooking or buy from another player. I suspect this one is too expensive to be worth doing, only consequence of not doing it, is not gaining the faction/reward).|O|
 t Buy A Fish A Brewery?|QID|31323|M|53.56,52.57|N|To Jogu the Drunk.|
 
 ;Fish's one time chain - requires exalted with Tillers and best friend status with all the farmers (ie ach 6552 Friends on the Farm)
-K Enormous Cattail Grouper|M|44.52, 22.76|QO|1|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end. If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|T|Enormous Cattail Grouper|ACH|6552;;true|REP|The Tillers;1272;exalted|
-U Old Map|QID|31312|N|Click on the map to start a quest.|U|86404|ACH|6552;;true|REP|The Tillers;1272;exalted|
-A The Old Map|QID|31312|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm and are exalted with the Tillers.|ACH|6552;;true|REP|The Tillers;1272;exalted|
-T The Old Map|QID|31312|M|41.73,30.03|N|To Fish Fellreed in the market or where the green dot is.|
+K Enormous Cattail Grouper|AVAILABLE|31312|M|44.52,22.76|L|86404|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end. If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish.\n[color=FF0000]NOTE: [/color]Not available until you earn the achievement 'Friends on the Farm'.|T|Enormous Cattail Grouper|ACH|6552;;true|REP|The Tillers;1272;exalted|
+A The Old Map|QID|31312|M|PLAYER|N|<UI Alert>|ACH|6552;;true|REP|The Tillers;1272;exalted|
+t The Old Map|QID|31312|M|41.73,30.03|N|To Fish Fellreed in the market or where the green dot is.|
 A Just A Folk Story|QID|31313|M|41.73,30.03|N|From Fish Fellreed.|PRE|31312|
-C Talk to Stonecarver Mac|QID|31313|M|55.2,47.4|QO|2|CHAT|
+C Talk to Stonecarver Mac|QID|31313|M|55.14,47.37|QO|2|N|He moves around a but, but always around the grain silo.|CHAT|
 C Talk to Old Man Whitewhiskers|QID|31313|M|54.81,46.99|QO|4|N|He is upstairs.|CHAT|
-C Talk to Grainsorter Pei|QID|31313|M|54.2,44.4|QO|1|CHAT|
-C Talk to Mama Min|QID|31313|M|56.2,45.2|QO|3|N|Inside the house.|CHAT|
+C Talk to Grainsorter Pei|QID|31313|M|54.21,44.63|QO|1|CHAT|
+C Talk to Mama Min|QID|31313|M|56.22,45.42|QO|3|N|Inside the house.|CHAT|
 T Just A Folk Story|QID|31313|M|41.73,30.03|N|To Fish Fellreed in the market or where the green dot is.|
 A Old Man Thistle's Treasure|QID|31314|M|41.73,30.03|N|From Fish Fellreed. The exit from the cave often bugs out, if your hearthstone is down, you may want to wait a few minutes to do this quest.|PRE|31313|
-C Old Man Thistle's Treasure|QID|31314|M|37.23,23.84|QO|1|N|Click to remove the rubble, you should get discover credit.|NC|
-C Old Man Thistle's Treasure|QID|31314|M|31.4,53.4|QO|2|N|Stealth or kill your way to the end of the cave where a bigger spider and the treasure awaits.|
+C Old Man Thistle's Treasure|QID|31314|M|37.23,23.84|QO|1|N|Head to the entrance of Cavern of Endless Echoes.|
+C Old Man Thistle's Treasure|QID|31314|M|31.4,53.4|QO|2|N|Click on the rubble to gain access to the cave. Stealth or kill your way to the end of the cave where a bigger spider and the treasure awaits.|T|Echoweb Toxiclaw|
 T Old Man Thistle's Treasure|QID|31314|M|31.4,53.4|N|To Hidden Treasure.|
-A The Heartland Legacy|QID|31315|M|31.4,53.4|N|From Hidden Treasure. Often the exit (entrance/rockfall) is bugged, so be ready to hearth out (or die).|PRE|31314|
-T The Heartland Legacy|QID|31315|N|To Seedkeeper Shing Sing, inside a cave in Halfhill, (who knew there was a cave here...} Her seed vault is to the left of Stonecarver Mac's house, hidden behind some bushes.|
+A The Heartland Legacy|QID|31315|M|31.4,53.4|N|From Hidden Treasure. You'll have to fight your way back out to the cave entrance. Often, the exit (entrance/rockfall) is bugged and you can't click on it; so be ready to hearth out (or die).|PRE|31314|
+T The Heartland Legacy|QID|31315|M|53.88,47.39|N|To Seedkeeper Shing Sing, inside a cave in Halfhill. The entrance is hidden behind some bushes to the left of Nana Mudclaw's house.\n[color=FF0000]NOTE: [/color]You can see the entrance if you stand on the west side of the porch and look at the hill.|
 
 ; you bought the farm
 A Inherit the Earth|QID|32682|M|54.66,47.04|N|From Nana Mudclaw.\n[color=FF0000]NOTE: [/color]This quest becomes available as soon as the 'Growing the Farm' timer expires after 15 minutes. Just wait out.|PRE|30574|REP|The Tillers;1272;exalted|
