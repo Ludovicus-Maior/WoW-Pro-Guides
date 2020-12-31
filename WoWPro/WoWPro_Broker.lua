@@ -2139,12 +2139,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     profLvl = 175+1
                 end
                 local proflvl = tonumber(profLvl or profExp) or 1
-                -- Still to be fixed: local profexp = tonumber((profLvl and profExp) or 0)
+                local profexp = tonumber(profLvl and profExp) or 0
                 profmaxskill = tonumber(profmaxskill) or 0
-                profflip = tonumber(profflip) or 0
-                if type(WoWProCharDB.Tradeskills) == 'table' and profID > 0 then
+                profflip = WoWPro.toboolean(profflip)
+                local skill = WoWPro.ProfessionExpansion2Skill[profID] and WoWPro.ProfessionExpansion2Skill[profID][profexp]
+                WoWPro:dbp("Mapped profID=%d/profExp=%d to skill=%d", profID, profexp, tostring(skill))
+                if type(WoWProCharDB.Tradeskills) == 'table' and skill then
                     skip = true -- Profession steps skipped by default
-                    local tradeskill = WoWProCharDB.Tradeskills[profID]
+                    local tradeskill = WoWProCharDB.Tradeskills[skill]
                     if tradeskill then
                         if stepAction == 'M' and tradeskill.skillMod > 0 then
                             WoWPro:dbp("NextStep(): Adjusting proflvl(%d) and profmaxskill=%d down by skillMod=%d", proflvl, profmaxskill, tradeskill.skillMod)
