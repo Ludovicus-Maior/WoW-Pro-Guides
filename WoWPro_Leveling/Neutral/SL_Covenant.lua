@@ -1552,17 +1552,17 @@ C Power of the Primus|QID|61359|M|49.72,54.82|Z|Seat of the Primus!Dungeon|QO|1|
 C Power of the Primus|QID|61359|M|49.67,54.65|Z|Seat of the Primus!Dungeon|QO|2|NC|N|Use Action Ability "[color=40C7EB]Power of the Primus[/color]" to receive the Power of the Primus.|EAB|COV|Necrolord|
 T Power of the Primus|QID|61359|M|49.66,43.79|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A A Hero of Great Renown|QID|62833|PRE|61359|M|49.72,43.85|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
-T A Hero of Great Renown|QID|62833|M|52.73,38.34|Z|Seat of the Primus!Dungeon|N|To Arkadia Moa.|COV|Necrolord|
-A Glorious Ambition|QID|62834|PRE|62833|M|52.73,38.34|Z|Seat of the Primus!Dungeon|N|From Arkadia Moa.|COV|Necrolord|
-C Glorious Ambition|QID|62834|M|52.73,38.34|Z|Seat of the Primus!Dungeon|CHAT|N|Speak with Arkadia to examine Sanctum Upgrades and Renown.|COV|Necrolord|
-T Glorious Ambition|QID|62834|M|52.73,38.34|Z|Seat of the Primus!Dungeon|N|To Arkadia Moa.|COV|Necrolord|
-A A Call to Service|QID|62835|PRE|62834|M|52.73,38.34|Z|Seat of the Primus!Dungeon|N|From Arkadia Moa.|COV|Necrolord|
+T A Hero of Great Renown|QID|62833|M|46.51,40.17|Z|Seat of the Primus!Dungeon|N|To Elspeth Larink.|COV|Necrolord|
+A Glorious Ambition|QID|62834|PRE|62833|M|46.51,40.17|Z|Seat of the Primus!Dungeon|N|From Elspeth Larink.|COV|Necrolord|
+C Glorious Ambition|QID|62834|M|46.51,40.17|Z|Seat of the Primus!Dungeon|CHAT|N|Speak with Elspeth Larink to examine Sanctum Upgrades and Renown.|COV|Necrolord|
+T Glorious Ambition|QID|62834|M|46.51,40.17|Z|Seat of the Primus!Dungeon|N|To Elspeth Larink.|COV|Necrolord|
+A A Call to Service|QID|62835|PRE|62834|M|46.51,40.17|Z|Seat of the Primus!Dungeon|N|From Elspeth Larink.|COV|Necrolord|
 T A Call to Service|QID|62835|M|47.66,28.63|Z|Seat of the Primus!Dungeon|N|To Sergeant Romark.|COV|Necrolord|
 A A Calling in Maldraxxus|QID|62694|PRE|62835|M|47.66,28.63|Z|Seat of the Primus!Dungeon|N|From Sergeant Romark. Even though this is flagged as a daily, it is required.|COV|Necrolord|
 C A Calling in Maldraxxus|QID|62694|Z|Maldraxxus|QO|1|NC|N|Complete 3 World Quests in Maldraxxus.|COV|Necrolord|
-H Seat of the Primus|ACTIVE|59703|M|PLAYER|Z|Maldraxxus|N|Use your Hearthstone back to the Seat of the Primus.|COV|Necrolord|
+H Seat of the Primus|ACTIVE|62694|M|PLAYER|Z|Maldraxxus|N|Use your Hearthstone back to the Seat of the Primus.|COV|Necrolord|
 T A Calling in Maldraxxus|QID|62694|M|47.64,28.72|Z|Seat of the Primus!Dungeon|N|To Sergeant Romark.|COV|Necrolord|
-A Anima is Strength|QID|62839|PRE|59703&62694|M|47.64,28.72|Z|Seat of the Primus!Dungeon|N|From Sergeant Romark.|COV|Necrolord|
+A Anima is Strength|QID|62839|PRE|62694|M|47.64,28.72|Z|Seat of the Primus!Dungeon|N|From Sergeant Romark.|COV|Necrolord|
 T Anima is Strength|QID|62839|M|52.77,38.23|Z|Seat of the Primus!Dungeon|N|To Arkadia Moa.|COV|Necrolord|
 A Into the Reservoir|QID|62840|PRE|62839|M|52.77,38.23|Z|Seat of the Primus!Dungeon|N|From Arkadia Moa.|COV|Necrolord|
 C Into the Reservoir|QID|62840|M|52.77,38.25|Z|Seat of the Primus!Dungeon|QO|1|NC|N|Open the Tribute of the Ambitious to get your resources.|U|181732|COV|Necrolord|
@@ -1571,7 +1571,7 @@ T Into the Reservoir|QID|62840|M|52.77,38.25|Z|Seat of the Primus!Dungeon|N|To A
 A Opportunity Strikes|QID|61397|PRE|62840|M|52.77,38.25|Z|Seat of the Primus!Dungeon|N|From Arkadia Moa.|COV|Necrolord|
 T Opportunity Strikes|QID|61397|M|46.58,42.44|Z|Seat of the Primus!Dungeon|N|To Osbourne Black.|COV|Necrolord|
 A The Soul Contact|QID|62843|PRE|61397|M|46.58,42.44|Z|Seat of the Primus!Dungeon|N|From Osbourne Black.|COV|Necrolord|
-F Ring of Transference|ACTIVE|62843|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Necrolord|
+F Oribos|ACTIVE|62843|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Necrolord|
 P Ve'nari's Refuge|ACTIVE|62843|M|49.55,51.62|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|COV|Necrolord|
 T The Soul Contact|QID|62843|M|46.92,41.69|Z|The Maw|N|To Ve'nari.|COV|Necrolord|
 A Setting the Ground Rules|QID|62882|PRE|62843|M|46.92,41.69|Z|The Maw|N|From Ve'nari.|COV|Necrolord|
@@ -1623,8 +1623,8 @@ A No Rest For the Dead|QID|59609|PRE|62848|M|38.89,32.21|Z|Seat of the Primus!Du
 T No Rest For the Dead|QID|59609|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 
 ;Chapter 2 - Torghast
-A The Highlord Calls|QID|63032|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|PRE|62921|COV|Necrolord|
-F Ring of Transference|ACTIVE|63032|M|52.47,67.65|Z|Maldraxxus|N|Take a flight to the Oribos.|COV|Necrolord|
+A The Highlord Calls|QID|63032|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|PRE|59609|COV|Necrolord|
+F Oribos|ACTIVE|63032|M|52.47,67.65|Z|Maldraxxus|N|Take a flight to the Oribos.|COV|Necrolord|
 P Ring of Fates|ACTIVE|63032|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Necrolord|
 T The Highlord Calls|QID|63032|M|39.94,68.55|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Necrolord|
 
