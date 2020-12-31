@@ -19,11 +19,12 @@ $ Experimental Construct Part|M|51.4,17.9|Z|Bastion!The Shadowlands|N|WH - Requi
 $ Memorial Offerings|M|56.5,17.2|Z|Bastion!The Shadowlands|N|WH - Buy Memorial Wine from Kobri, use on drink tray near treasure to get the Key.|ACH|14311;13|
 $ Gift of Vesiphone|M|65.2,70.3|Z|Bastion!The Shadowlands|N|WH - Ring nearby bell, while standing under waterfall for Proof of Purity, to unlock treasure.|ITEM|180859|ACH|14311;14|
 $ Gift of Thenios|M|40.2,18.2|Z|Bastion!The Shadowlands|N|WH - Obtain Proof of Wisdom, using nearby teleporter, and light the incenses in the correct order.\nClick Incense of Patience\nClick Incense of Knowledge\nClick Incense of Insight\n[color=FF0000]SKIP[/color] Incense of Judgement\nClick Anima Orb\nClick Incense of Judgement on the FIFTH platform, then port back.|ACH|14311;15|
-$ Sophia's Gift|QID|58319|M|51.75,68.84|Z|Bastion!The Shadowlands|N|Treasure for your enjoyment.| commenting out, because this appears to reset.  leaving it here incase that is wrong and we want to add it back)
+; this appears to reset.  leaving it here incase that is wrong
+$ Sophia's Gift|QID|58319|M|51.75,68.84|Z|Bastion!The Shadowlands|N|Treasure for your enjoyment.|
 $ Purifying Draught|QID|58329|M|52.04,86.08|Z|Bastion!The Shadowlands|N|One of the treasures of Bastion.|ITEM|174007|ACH|14311;2|
 $ Vesper of Virtues|QID|62841^60478|M|58.66,71.39|Z|Bastion!The Shadowlands|N|Treasure is an item that buffs and gives small Heal.|ITEM|179982|ACH|14311;9|
 $ Lost Disciple's Notes|QID|61048|M|59.33,60.92|Z|Bastion!The Shadowlands|N|Treasure for you. Midway down waterfall on a rock.|ACH|14311;10|
-A You'll Never Walk Alone|QID|62170|M|59.33,60.92|N|From Lost Disciple's Notes found midway down waterfall.|RANK|2|;$
+A You'll Never Walk Alone|QID|62170|M|59.33,60.92|Z|Bastion!The Shadowlands|N|From Lost Disciple's Notes found midway down waterfall.|RANK|2|;$
 t You'll Never Walk Alone|QID|62170|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep at Hero's Rest|IZ|Hero's Rest|
 $ Worthy Aspirant's Cache|QID|61091|M|46.98,63.43|Z|Bastion!The Shadowlands|N|Challenge Echo of Aella to a fight.(paths around this area), After dueling, he leaves behind a treasure for you. Check off manually if you can't find him or don't want to wait.|ITEM|180062|RARE|RANK|2|
 $ Stolen Equipment|QID|61044|M|40.51,49.81|Z|Bastion!The Shadowlands|N|Click for another of the treasures of Bastion.|ACH|14311;11|
@@ -63,9 +64,9 @@ K Corrupted Clawguard|QID|60999^62202|QO|1|M|56.47,46.18|Z|Bastion!The Shadowlan
 
 N Maldraxxus|ACH|14312|
 $ Runespeaker's Trove|M|31.7,70.0|Z|Maldraxxus|N|WH - Kill Runespeaker Phaeton @37.94,69.91 to loot his key.|T|Runespeaker Phaeton|ITEM|183516|ACH|14312;11|LVL|60|
-$ Ritualist's Cache|M|71.7,35.4;64.6,24.7|CS|Z|Maldraxxus|N|Loot Bone Pile for Missing Ritual Pages(1st coord)\nUse book of Binding Rituals (2nd Coords)\nYou have 5 mins to get treasure(last coord)|ITEM|183517|ACH|14312;13| - level 60 area, no icon visable for treasure at lvl 58
+$ Ritualist's Cache|M|71.7,35.4;64.6,24.7|CS|Z|Maldraxxus|N|Loot Bone Pile for Missing Ritual Pages(1st coord)\nUse book of Binding Rituals (2nd Coords)\nYou have 5 mins to get treasure(last coord)|ITEM|183517|ACH|14312;13| ; level 60 area, no icon visable for treasure at lvl 58
 $ Chest of Eyes|M|48.4,15.1|Z|Maldraxxus|N|WH - Inside wreckage of Nurakkir in the House of Eyes.|ITEM|183696|ACH|14312;8|
-$ Ornate Bone Shield|QID|59358|M|47.25,62.14|ITEM|180749|N|Up the hill for a bit of treasure.|ACH|14312;1|
+$ Ornate Bone Shield|QID|59358|M|47.25,62.14|Z|Maldraxxus|ITEM|180749|N|Up the hill for a bit of treasure.|ACH|14312;1|
 $ Strange Growth|QID|59429|M|55.88,38.98|Z|Maldraxxus|N|Pull on the strange growth to find a bit of treasure for you.|ITEM|182607|RANK|2| ; (pulling the vine is QID 59428)
 $ Kyrian Corpse|QID|60587|M|32.73,21.31|Z|Maldraxxus|U|180085|N|Open the box for a bit of treasure.|ACH|14312;2|
 $ Haily's Lunch Pail|QID|60730|M|30.8,28.76|Z|Maldraxxus|N|Some treasure for you.|ACH|14312;3|
