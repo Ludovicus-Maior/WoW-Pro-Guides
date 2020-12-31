@@ -2135,7 +2135,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 profID = tonumber(profID) or 0
                 if profLvl == '*' then
                     -- Set to the maximum level obtainable in the expansion plus 1
-                    profExp = 7
+                    profExp = 8
                     profLvl = 175+1
                 end
                 local proflvl = tonumber(profLvl or profExp) or 1
