@@ -52,13 +52,13 @@ F Oribos|ACTIVE|62779|M|67.37,21.44|Z|Revendreth|N|At Courier Snaggle.|TOF|COV|V
 F Oribos|ACTIVE|62779|M|60.50,60.64|Z|Revendreth|N|At Courier Rokalai|TOF|
 T Return to Oribos|QID|62779|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62779|CCOUNT|1;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;new quest, after finishing first zone.
-C Tal-Inara|QID|63208|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+C Tal-Inara|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
 T The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62779&63208|CCOUNT|2;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 2nd zone
-C Tal-Inara|QID|63209|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+C Tal-Inara|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
 T Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62779&63209|CCOUNT|3;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 3rd zone
-C Tal-Inara|QID|63210|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+C Tal-Inara|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
 T The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
