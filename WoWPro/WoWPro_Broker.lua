@@ -2153,18 +2153,18 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             proflvl = max(proflvl - tradeskill.skillMod, 1)
                             profmaxskill = min(profmaxskill, max(profmaxskill - tradeskill.skillMod, 1))
                         end
-                        if ((profflip == 0) and (tradeskill.skillLvl >= proflvl)) then
-                            WoWPro.why[guideIndex] = ("NextStep(prof): profflip == 0 and skillLvl=%d >= proflvl=%d"):format(tradeskill.skillLvl, proflvl)
+                        if ((not profflip) and (tradeskill.skillLvl >= proflvl)) then
+                            WoWPro.why[guideIndex] = ("NextStep(prof): skillLvl=%d >= proflvl=%d"):format(tradeskill.skillLvl, proflvl)
                             WoWPro:dbp(WoWPro.why[guideIndex])
                             skip = false
                         end
-                        if ((profflip ~= 0) and (tradeskill.skillLvl < proflvl)) then
-                            WoWPro.why[guideIndex] = ("NextStep(prof): profflip ~= 0 and skillLvl=%d < proflvl=%d"):format(tradeskill.skillLvl, proflvl)
+                        if (profflip and (tradeskill.skillLvl < proflvl)) then
+                            WoWPro.why[guideIndex] = ("NextStep(prof): profflip and skillLvl=%d < proflvl=%d"):format(tradeskill.skillLvl, proflvl)
                             WoWPro:dbp(WoWPro.why[guideIndex])
                             skip = false
                         end
-                        if ((profflip ~= 0) and (profmaxskill < tradeskill.skillMax)) then
-                            WoWPro.why[guideIndex] = ("NextStep(prof): profflip ~= 0 and profmaxskill=%d < maxskill=%d"):format(profmaxskill, tradeskill.skillMax)
+                        if (profflip and (profmaxskill < tradeskill.skillMax)) then
+                            WoWPro.why[guideIndex] = ("NextStep(prof): profflip and profmaxskill=%d < maxskill=%d"):format(profmaxskill, tradeskill.skillMax)
                             WoWPro:dbp(WoWPro.why[guideIndex])
                             skip = true
                         end
