@@ -1,3 +1,25 @@
+# Release 9.0.2-A7 / (1.13.6-D7)
+## Bug Fixes
+* Add EmitSafeStep() for safe error messsages with the current step.
+* @Maquis: Professions debug message  is wrong.
+* Add ProfessionExpansion2Skill map so expansion selection can be fixed later.
+* @Hendo72: Please support pure turnin-quests for the Tillers.
+* @Spoony: I can't read chat because of this Party Spam
+* @Maquis: Add Markup in the step text for professions.
+* @Maquis: Add support for [spell=309608] markup.
+* Fixed bug in Markup expansion with multiple [color] tags.
+## Guide Updates
+### Retail
+* Achievements: Blancy, SL Rares & Treasures, SL Sojourners
+* Dailies: Tillers
+* Alliance: BFA Intro, WOD Gorgorond
+* Horde: Krasarang_Wilds, WOD Gorgorond, WOD Talador
+* Neutral: Pandaren Cooking, Spires_of_Arak
+* Shadowlands: Ardenweald, Bastion, Covenant, Maldraxxus, Maw_Intro, Revendreth
+* Professions: SL Enchanting
+### Classic
+* No guide updates
+
 # Release 9.0.2-A6 / (1.13.6-D6)
 ## Bug Fixes
 * Added new DevMode for improved guide checking
