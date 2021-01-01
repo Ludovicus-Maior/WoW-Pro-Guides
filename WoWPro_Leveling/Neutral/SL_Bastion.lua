@@ -56,13 +56,13 @@ F Oribos|ACTIVE|62729|M|50.96,49.08|Z|1707|N|At Cassius.|COV|Kyrian|TOF|
 F Oribos|ACTIVE|62729|M|51.36,46.80|Z|Bastion!The Shadowlands|N|At Navarros.|TOF|
 T Return to Oribos|QID|62729|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62729|CCOUNT|1;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;new quest, after finishing first zone.
-C Tal-Inara|QID|63208|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+C Tal-Inara|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
 T The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62729&63208|CCOUNT|2;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 2nd zone
-C Tal-Inara|QID|63209|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+C Tal-Inara|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
 T Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62729&63209|CCOUNT|3;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 3rd zone
-C Tal-Inara|QID|63210|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+C Tal-Inara|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
 T The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
@@ -120,7 +120,7 @@ T The Things That Haunt Us|QID|57676|M|48.20,72.60|Z|Bastion!The Shadowlands|N|T
 A Aspirant For a Day|QID|62737|M|52.13,77.57|Z|Bastion!The Shadowlands|N|Bonus Objective, autoaccepted as you come into Aspirant's Crucible.|TOF|RANK|2|
 C Aspirant For a Day|QID|62737|M|52.13,77.57|Z|Bastion!The Shadowlands|S!US|N|Bonus Objective, In addition to the killing hostile mobs you can also pick up Adrima's lilies (blue flower) and Lost Library Scrolls. The lost scrolls are delivered to Scrollminder Vesi for 2% progress each.|TOF|RANK|2|
 A The Aspirant's Crucible|QID|57709|M|48.23,72.65|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57677^57676|MS|
-A The Old Ways|QID|60466|M|47.88,73.50|Z|Bastion!The Shadowlands|N|From Klystere.|LVL|50|RANK|2|
+A The Old Ways|QID|60466|M|47.88,73.50|Z|Bastion!The Shadowlands|N|From Klystere.|RANK|2|
 B The Old Ways|ACTIVE|60466|M|48.07,73.00|QO|1|Z|Bastion!The Shadowlands|NC|N|Buy the thread from Caretaker Mirene.|
 h Aspirant's Rest|ACTIVE|60466^57709|M|48.07,73.00|Z|Bastion!The Shadowlands|N|Set Hearthstone at Caretaker Mirene.|
 f Aspirant's Rest|ACTIVE|60466^57709|M|48.13,74.16|Z|Bastion!The Shadowlands|N|At Rheus.|
@@ -174,10 +174,10 @@ C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|4|Z|Bastion!The Shadowlands
 C The Work of One's Hands|QID|57713|M|52.85,83.33|QO|5|Z|Bastion!The Shadowlands|NC|N|Click on the armor that is resting atop the anvil and wait for the step to complete.|MS|
 T The Work of One's Hands|QID|57713|M|52.95,83.50|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A The True Crucible Awaits|QID|57908|M|52.95,83.50|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57713|MS|
-T Suggested Reading|QID|57712|M|55.36,83.42|Z|Bastion!The Shadowlands|N|To Aspirant Akimos.|
+T Suggested Reading|QID|57712|M|55.39,83.43|Z|Bastion!The Shadowlands|N|To Aspirant Akimos.|
 C The True Crucible Awaits|QID|57908|M|52.79,82.58|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia and Pelagos in Aspirant's Crucible.|MS|
-T The True Crucible Awaits|QID|57908|M|51.76,81.07|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
-A Assessing Your Strength|QID|57288|M|51.76,81.07|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57908|MS|
+T The True Crucible Awaits|QID|57908|M|51.72,81.02|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
+A Assessing Your Strength|QID|57288|M|51.72,81.02|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57908|MS|
 A Assessing Your Stamina|QID|57909|M|51.74,80.99|Z|Bastion!The Shadowlands|N|From Pelagos.|PRE|57908|MS|
 C Assessing Your Stamina|QID|57909|M|51.76,81.07|Z|Bastion!The Shadowlands|N|Talk to the Sparring Aspirants and challenge them to a duel.|S|MS|
 C Assessing Your Strength|QID|57288|M|50.55,82.12|QO|1|Z|Bastion!The Shadowlands|N|Defeat Archilon.|T|Archilon|MS|
@@ -189,7 +189,7 @@ T Assessing Your Strength|QID|57288|M|51.63,80.95|Z|Bastion!The Shadowlands|N|To
 A Assessing Your Spirit|QID|57714|M|51.63,80.95|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57909&57288|MS|
 C Assessing Your Spirit|QID|57714|M|51.63,80.95|Z|Bastion!The Shadowlands|N|Fight Athanos and lose.|MS|
 T Assessing Your Spirit|QID|57714|M|51.63,80.95|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
-A The Chamber of First Reflection|QID|57291|M|51.63,80.95|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57714|MS|
+A The Chamber of First Reflection|QID|57291|M|51.64,80.90|Z|Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57714|MS|
 C The Chamber of First Reflection|QID|57291|M|55.95,86.46|Z|Bastion!The Shadowlands|NC|N|Enter the Chamber of First Reflection.|MS|
 T The Chamber of First Reflection|QID|57291|M|57.22,86.58|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A The First Cleansing|QID|57266|M|57.22,86.58|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57291|MS|
@@ -217,9 +217,9 @@ A The Temple of Purity|QID|57270|M|48.36,72.80|Z|Bastion!The Shadowlands|N|From 
 A Hero's Rest|QID|62718|M|48.79,73.26|Z|Bastion!The Shadowlands|N|From the Scroll hanging on the wall.|LVL|50|RANK|2|LEAD|62275|
 A WANTED: Altered Sentinel|QID|60316|M|49.13,72.82|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll next to the tent.|RANK|2|
 C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.\n[color=FF0000]NOTE: [/color]Despite being yellow, it will attack you as soon as you step within the colored area.|
-C A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion!The Shadowlands|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
-T A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion!The Shadowlands|N|To Acolyte Amalthina.|
-A More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|62714|RANK|2|
+C A Gift for An Acolyte|QID|62714|M|54.10,73.62|Z|Bastion!The Shadowlands|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
+T A Gift for An Acolyte|QID|62714|M|54.10,73.62|Z|Bastion!The Shadowlands|N|To Acolyte Amalthina.|
+A More Than A Gift|QID|62715|M|53.10,73.62|Z|Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|62714|RANK|2|
 C The Temple of Purity|QID|57270|M|54.09,73.62|Z|Bastion!The Shadowlands|NC|N|Find Eridia in the Temple of Purity.|MS|
 T The Temple of Purity|QID|57270|M|54.09,73.62|N|To Eridia.|MS|
 A An Inspired Moral Inventory|QID|57444|M|54.03,73.74|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|TOF| ; needs to be moved upwards..

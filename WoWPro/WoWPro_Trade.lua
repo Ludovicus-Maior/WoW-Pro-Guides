@@ -168,6 +168,25 @@ WoWPro.ProfessionSkillLines = {
     [2787] = { exp = 8, name = 'Abominable Stitching'}
 }
 
+WoWPro.ProfessionExpansion2Skill = {}
+for skill, data in pairs(WoWPro.ProfessionSkillLines) do
+    if data.parent and data.exp then
+        -- Yeah!
+        WoWPro.ProfessionExpansion2Skill[data.parent] = WoWPro.ProfessionExpansion2Skill[data.parent] or {}
+        WoWPro.ProfessionExpansion2Skill[data.parent][data.exp] = skill
+    else
+        WoWPro.ProfessionExpansion2Skill[skill] = WoWPro.ProfessionExpansion2Skill[skill] or {}
+        WoWPro.ProfessionExpansion2Skill[skill]['name'] = data.name
+        if data.exp then
+            WoWPro.ProfessionExpansion2Skill[skill][data.exp] = skill
+        else
+            for exp=0,8 do
+                WoWPro.ProfessionExpansion2Skill[skill][exp] = skill
+            end
+        end
+    end
+end
+
 -- special handling for Classic because of the reduced addon API
 if WoWPro.CLASSIC then
 

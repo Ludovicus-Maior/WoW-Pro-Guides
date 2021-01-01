@@ -60,7 +60,7 @@ A Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|6277
 C Tal-Inara|QID|63209|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
 T Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62776&67209|CCOUNT|3;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 3rd zone pre may be 62154?
-C Tal-Inara|QID|63210|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+C Tal-Inara|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
 T The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
@@ -166,7 +166,7 @@ A One Special Spirit|QID|60594|M|62.18,36.47|Z|Ardenweald!The Shadowlands|N|From
 C One Special Spirit|QID|60594|M|49.49,50.26|Z|Tirna Vaal|QO|1|CHAT|N|Speak with Dreamweaver at the young wildseed.|MS|
 C One Special Spirit|QID|60594|M|49.49,50.26|Z|Tirna Vaal|QO|2|NC|U|179978|N|Animacone used on young wildseed.|MS|
 T One Special Spirit|QID|60594|M|63.51,36.25|Z|Ardenweald!The Shadowlands|N|To Droman Tashmur.|MS|
-T Tranquil Pools|QID|62774|M|64.88,38.93|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
+t Tranquil Pools|QID|62774|M|64.88,38.93|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
 
 ; Waning Grove Storyline
 A Preparing for the Winter Queen|QID|60600|M|63.56,36.29|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|60594|MS|
@@ -214,7 +214,8 @@ T Audience with the Winter Queen|QID|60519|M|63.60,36.23|Z|Ardenweald!The Shadow
 ; Sidequest Storyline - When a Gorm Eats a God
 A Call of the Hunt|QID|60521|M|63.60,36.23|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|MS|
 A In Need of Gorm Gris|QID|57952|M|62.68,36.09|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|RANK|2|
-f Tirna Vaal|ACTIVE|62763|M|63.46,37.59|Z|Ardenweald!The Shadowlands|N|At Lanra.|TOF|;not TOF gets this one with flight to zone.
+h Tirna Vaal|ACTIVE|57952|M|62.56,35.32|Z|Ardenweald!The Shadowlands|N|Set your home to Tirna Vaal with Innkeeper Nolon.|TOF|
+f Tirna Vaal|ACTIVE|62763|M|63.46,37.59|Z|Ardenweald!The Shadowlands|N|At Lanra.|TOF|;note TOF gets this one with flight to zone.
 T In Need of Gorm Gris|QID|57952|M|64.88,38.93|Z|Ardenweald!The Shadowlands|N|To Master Sha'lor.|
 A Nothing Goes to Waste|QID|57818|M|64.88,38.93|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|57952|RANK|2|
 C Nothing Goes to Waste|QID|57818|M|65.00,38.97|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Collect Depleted Wildseed.|
@@ -431,6 +432,7 @@ T Ride of the Wild Hunt|QID|60881|M|62.34,45.56|Z|Ardenweald!The Shadowlands|N|T
 A Passage to Hibernal Hollow|QID|60901|M|62.34,45.56|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60881|MS|
 C Passage to Hibernal Hollow|QID|60901|CS|M|62.34,45.53;59.93,52.55|Z|Ardenweald!The Shadowlands|CHAT|N|Speak with Ara'lon, then run with him to Hibernal Hollow.|MS|
 R Hibernal Hollow|QID|58265|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|Follow the road Southish to Hibernal Hollow.|TOF|RANK|2|
+h Hibernal Hollow|ACTIVE|58265|M|60.48,53.94|N|Ask Taiba to make Hibernal Hollow your new home.|RANK|2|
 f Hibernal Hollow|ACTIVE|60901^62763|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|
 T Passage to Hibernal Hollow|QID|60901|M|60.12,53.80|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 A Infusing the Wildseed|QID|60905|M|60.12,53.80|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|PRE|60901|MS|
@@ -438,7 +440,7 @@ C Infusing the Wildseed|QID|60905|CS|M|60.34,54.03;59.99,53.99|Z|Ardenweald!The 
 C Infusing the Wildseed|QID|60905|M|60.03,53.00|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak with Dreamweaver to perform ritual.|MS|
 T Infusing the Wildseed|QID|60905|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 
-; The Fallen Tree Storyline
+; The Fallen w Storyline
 R Tirna Noch|AVAILABLE|62720|M|66.43,55.80|Z|Ardenweald!The Shadowlands|N|Take the road east out of Hibernal Holllow to find Tirna Noch.|TOF|RANK|2|
 A The Fallen Tree|QID|62720|M|66.43,55.80|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
 C The Fallen Tree|QID|62720|M|70.10,57.17|Z|Ardenweald!The Shadowlands|N|Reclaim Tirna Noch by freeing captives, reclaiming mementos, destroying drust runes and of course killing the hostiles.|TOF|
@@ -532,7 +534,7 @@ A Wake Up, Get Up, Get Out There|QID|58264|M|53.47,58.72|Z|Ardenweald!The Shadow
 R Shimmerbough|ACTIVE|58265|M|53.48,58.71|Z|Ardenweald!The Shadowlands|N|Northish to Shimmerbough and the last set of sidequests in Ardenweald.|
 A Break It Down|QID|58266|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Primrose.|RANK|2|
 N Break It Down|ACTIVE|58266|M|52.67,57.52|Z|Ardenweald!The Shadowlands|N|Take some Enchanted Wings from one of the baskets scattered around the area and then you can jump up in the air to get her Pyrotechnic powder out of the hanging fairy basket houses.|BUFF|323695^313053|
-N Break It Down|ACTIVE|58266|M|PLAYER|Z|Ardenweald!The Shadowlands|S!US|N|If the wings wear off before you get 5 powders, or if you just want to flit around, you can use a Pinch of Faerie Dust looted from the hostile faeries in the area.|U|174042|L|174078 5|
+N Break It Down|ACTIVE|58266|M|PLAYER|Z|Ardenweald!The Shadowlands|S!US|N|If the wings wear off before you get 5 powders, or if you just want to flit around, you can use a Pinch of Faerie Dust looted from the hostile faeries in the area.|L|174078 5|
 C Blooming Villains|QID|58265|M|51.55,56.67|Z|Ardenweald!The Shadowlands|N|Slay Ritualists.|S!US|
 C Wake Up, Get Up, Get Out There|QID|58264|M|51.48,56.23|Z|Ardenweald!The Shadowlands|NC|N|Aid the Subdued Faeries.|S|
 C Break It Down|QID|58266|M|53.77,61.54|Z|Ardenweald!The Shadowlands|U|174078|N|Destroy Runed Altar. They are all on the platforms above.|
@@ -560,9 +562,9 @@ C Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|
 $ Faerie Trove|QID|61073|M|49.72,55.89|N|Basket with pet is around and underneath platform(treestump).|RANK|2|ITEM|182673|ACH|14313;5|
 C Dying Dreams|QID|60661|M|48.22,54.30|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Escort Ysera's wildseed.|MS|
 T Dying Dreams|QID|60661|M|47.94,53.85|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|MS|
-A Awaken the Dreamer|QID|58721|M|48,53.8|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|PRE|60661|RANK|2|
+A Awaken the Dreamer|QID|58721|M|48,53.8|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|PRE|60661|MS|
 C Awaken the Dreamer|QID|58721|M|45.36,62.13|Z|Ardenweald!The Shadowlands|NC|N|Travel to the Grove of Awakening.|
-T Awaken the Dreamer|QID|58721|M|45.2,63|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|MS|
+T Awaken the Dreamer|QID|58721|M|45.2,63|Z|Ardenweald!The Shadowlands|N|To Winter Queen.
 A The Court of Winter|QID|58723|M|45.27,63.14|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|PRE|58721|MS|
 C The Court of Winter|QID|58723|M|45.27,63.14|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Deliver Primus's Message.|MS|
 

@@ -893,16 +893,17 @@ T The Seal of Contrition|QID|58571|M|44.46,58.80|Z|Archon's Rise@Elysian Hold!Du
 
 ; Chapter 7
 N Renown Level 17|AVAILABLE|58775|N|You must reach Renown level 17 to continue to the next chapter.|COV|Kyrian|REN|-17|
-A Meet the Queen|QID|58775|PRE|58571|M|45.35,56.64|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes, he moves back to his normal spot if you wait too long.|COV|Kyrian|REN|17|
+A Meet the Queen|QID|58775|PRE|58571|M|55.65,41.94|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|REN|17|
 F Heart of the Forest|ACTIVE|58775|M|51.35,48.49|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|N|Head to the flightmaster and take a flight to Refugee Camp.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|25.13,23.77|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak with Lord Herne at the Heart of the Forest.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|45.98,57.61|Z|The Canopy@Heart of the Forest!Dungeon|QO|2|NC|N|Tell Pelagos, Let's hear what the Queen has to say.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|36.77,62.85|Z|The Canopy@Heart of the Forest!Dungeon|QO|3;4|NC|N|Listen to the Winter Queen's reply,\nThen speak with the attendent to Exit the Heart.|COV|Kyrian|
 T Meet the Queen|QID|58775|M|44.01,51.78|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
 A Who Are You Fooling?|QID|58856|PRE|58775|M|44.01,51.78|Z|Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
-C Who Are You Fooling?|QID|58856|M|40.38,57.57|Z|Ardenweald!The Shadowlands|S|US|U|174843|N|Kill Sicklethorn mobs to loot Powder.\nUse Powder to find Illustions, to find Grubby.|COV|Kyrian|
-A Trinkle Trinkle Little Twerp|QID|58832|PRE|58775|M|PLAYER|Z|Ardenweald!The Shadowlands|L|175982|N|Accept from UI Popup.|COV|Kyrian|
+C Who Are You Fooling?|QID|58856|M|40.38,57.57|Z|Ardenweald!The Shadowlands|U|174843|N|Kill Sicklethorn mobs to loot Powder.\nUse Powder to find Illustions, to find Grubby.|S|COV|Kyrian|
+A Trinkle Trinkle Little Twerp|QID|58832|PRE|58775|M|40.38,57.57|Z|Ardenweald!The Shadowlands|L|175982|N|Kill a Sicklethorn and loot this quest.|COV|Kyrian|
 C Trinkle Trinkle Little Twerp|QID|58832|M|38.84,59.26|Z|Ardenweald!The Shadowlands|N|Trinkle the Silk Eater slain.|COV|Kyrian|
+C Who Are You Fooling?|QID|58856|M|40.38,57.57|Z|Ardenweald!The Shadowlands|U|174843|N|Kill Sicklethorn mobs to loot Powder.\nUse Powder to find Illustions, to find Grubby.|US|COV|Kyrian|
 T Who Are You Fooling?|QID|58856|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
 T Trinkle Trinkle Little Twerp|QID|58832|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
 A Getting Backstage|QID|58816|PRE|58832&58856|M|38.84,59.26|Z|Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
@@ -916,8 +917,9 @@ A Picking Up Pelagos|QID|58905|PRE|58816|M|41.21,42.70|Z|Ardenweald!The Shadowla
 T Picking Up Pelagos|QID|58905|M|50.56,68.91|Z|Ardenweald!The Shadowlands|N|To Pelagos.|COV|Kyrian|
 A Evil Grubbies|QID|58937|PRE|58905|M|50.56,68.91|Z|Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
 A Gorm Ruin Everything|QID|58938|PRE|58905|M|50.56,68.91|Z|Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
-C Gorm Ruin Everything|QID|58938|M|50.41,76.27|Z|Ardenweald!The Shadowlands|EAB|N|Kill Mature Gorms, seeds do damage to them.|COV|Kyrian|
+C Gorm Ruin Everything|QID|58938|M|50.41,76.27|Z|Ardenweald!The Shadowlands|EAB|N|Kill Mature Gorms, seeds do damage to them.|S|COV|Kyrian|
 C Evil Grubbies|QID|58937|M|50.51,76.14|Z|Ardenweald!The Shadowlands|EAB|N|Use seeds to burn Evolving Mites.|COV|Kyrian|
+C Gorm Ruin Everything|QID|58938|M|50.41,76.27|Z|Ardenweald!The Shadowlands|EAB|N|Kill Mature Gorms, seeds do damage to them.|US|COV|Kyrian|
 T Gorm Ruin Everything|QID|58938|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
 T Evil Grubbies|QID|58937|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
 A The Blue Seed|QID|58939|PRE|58937&58938|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Pelagos.|COV|Kyrian|
@@ -933,8 +935,8 @@ C I Dreamed A Dream|QID|58995|M|45.22,65.31|Z|Ardenweald!The Shadowlands|QO|1|CH
 C I Dreamed A Dream|QID|58995|M|45.28,65.62|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Click on the Vessel of Ardenweald.|COV|Kyrian|
 T I Dreamed A Dream|QID|58995|M|45.20,65.38|Z|Ardenweald!The Shadowlands|N|To Pelagos.|COV|Kyrian|
 A A Bittersweet Prize|QID|58997|PRE|58995|M|45.20,65.38|Z|Ardenweald!The Shadowlands|N|From Pelagos.|COV|Kyrian|
-R Heart of the Forest|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Make your way to the Refugee Camp.|COV|Kyrian|
-F Elysian Hold|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
+R Heart of the Forest|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Make your way to the Refugee Camp or Hearth back to Elysian Hold if you are bound there.|IZ|-Elysian Hold|COV|Kyrian|
+F Elysian Hold|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Elysian Hold.|IZ|-Elysian Hold|COV|Kyrian|
 T A Bittersweet Prize|QID|58997|M|55.36,42.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Heart of the Crest|QID|61135|PRE|58997|M|55.36,42.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 T Heart of the Crest|QID|61135|M|43.54,64.61|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Vessel at the Crest.|COV|Kyrian|
@@ -1552,17 +1554,17 @@ C Power of the Primus|QID|61359|M|49.72,54.82|Z|Seat of the Primus!Dungeon|QO|1|
 C Power of the Primus|QID|61359|M|49.67,54.65|Z|Seat of the Primus!Dungeon|QO|2|NC|N|Use Action Ability "[color=40C7EB]Power of the Primus[/color]" to receive the Power of the Primus.|EAB|COV|Necrolord|
 T Power of the Primus|QID|61359|M|49.66,43.79|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A A Hero of Great Renown|QID|62833|PRE|61359|M|49.72,43.85|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
-T A Hero of Great Renown|QID|62833|M|52.73,38.34|Z|Seat of the Primus!Dungeon|N|To Arkadia Moa.|COV|Necrolord|
-A Glorious Ambition|QID|62834|PRE|62833|M|52.73,38.34|Z|Seat of the Primus!Dungeon|N|From Arkadia Moa.|COV|Necrolord|
-C Glorious Ambition|QID|62834|M|52.73,38.34|Z|Seat of the Primus!Dungeon|CHAT|N|Speak with Arkadia to examine Sanctum Upgrades and Renown.|COV|Necrolord|
-T Glorious Ambition|QID|62834|M|52.73,38.34|Z|Seat of the Primus!Dungeon|N|To Arkadia Moa.|COV|Necrolord|
-A A Call to Service|QID|62835|PRE|62834|M|52.73,38.34|Z|Seat of the Primus!Dungeon|N|From Arkadia Moa.|COV|Necrolord|
+T A Hero of Great Renown|QID|62833|M|46.51,40.17|Z|Seat of the Primus!Dungeon|N|To Elspeth Larink.|COV|Necrolord|
+A Glorious Ambition|QID|62834|PRE|62833|M|46.51,40.17|Z|Seat of the Primus!Dungeon|N|From Elspeth Larink.|COV|Necrolord|
+C Glorious Ambition|QID|62834|M|46.51,40.17|Z|Seat of the Primus!Dungeon|CHAT|N|Speak with Elspeth Larink to examine Sanctum Upgrades and Renown.|COV|Necrolord|
+T Glorious Ambition|QID|62834|M|46.51,40.17|Z|Seat of the Primus!Dungeon|N|To Elspeth Larink.|COV|Necrolord|
+A A Call to Service|QID|62835|PRE|62834|M|46.51,40.17|Z|Seat of the Primus!Dungeon|N|From Elspeth Larink.|COV|Necrolord|
 T A Call to Service|QID|62835|M|47.66,28.63|Z|Seat of the Primus!Dungeon|N|To Sergeant Romark.|COV|Necrolord|
 A A Calling in Maldraxxus|QID|62694|PRE|62835|M|47.66,28.63|Z|Seat of the Primus!Dungeon|N|From Sergeant Romark. Even though this is flagged as a daily, it is required.|COV|Necrolord|
 C A Calling in Maldraxxus|QID|62694|Z|Maldraxxus|QO|1|NC|N|Complete 3 World Quests in Maldraxxus.|COV|Necrolord|
-H Seat of the Primus|ACTIVE|59703|M|PLAYER|Z|Maldraxxus|N|Use your Hearthstone back to the Seat of the Primus.|COV|Necrolord|
+H Seat of the Primus|ACTIVE|62694|M|PLAYER|Z|Maldraxxus|N|Use your Hearthstone back to the Seat of the Primus.|COV|Necrolord|
 T A Calling in Maldraxxus|QID|62694|M|47.64,28.72|Z|Seat of the Primus!Dungeon|N|To Sergeant Romark.|COV|Necrolord|
-A Anima is Strength|QID|62839|PRE|59703&62694|M|47.64,28.72|Z|Seat of the Primus!Dungeon|N|From Sergeant Romark.|COV|Necrolord|
+A Anima is Strength|QID|62839|PRE|62694|M|47.64,28.72|Z|Seat of the Primus!Dungeon|N|From Sergeant Romark.|COV|Necrolord|
 T Anima is Strength|QID|62839|M|52.77,38.23|Z|Seat of the Primus!Dungeon|N|To Arkadia Moa.|COV|Necrolord|
 A Into the Reservoir|QID|62840|PRE|62839|M|52.77,38.23|Z|Seat of the Primus!Dungeon|N|From Arkadia Moa.|COV|Necrolord|
 C Into the Reservoir|QID|62840|M|52.77,38.25|Z|Seat of the Primus!Dungeon|QO|1|NC|N|Open the Tribute of the Ambitious to get your resources.|U|181732|COV|Necrolord|
@@ -1571,7 +1573,7 @@ T Into the Reservoir|QID|62840|M|52.77,38.25|Z|Seat of the Primus!Dungeon|N|To A
 A Opportunity Strikes|QID|61397|PRE|62840|M|52.77,38.25|Z|Seat of the Primus!Dungeon|N|From Arkadia Moa.|COV|Necrolord|
 T Opportunity Strikes|QID|61397|M|46.58,42.44|Z|Seat of the Primus!Dungeon|N|To Osbourne Black.|COV|Necrolord|
 A The Soul Contact|QID|62843|PRE|61397|M|46.58,42.44|Z|Seat of the Primus!Dungeon|N|From Osbourne Black.|COV|Necrolord|
-F Ring of Transference|ACTIVE|62843|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Necrolord|
+F Oribos|ACTIVE|62843|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Necrolord|
 P Ve'nari's Refuge|ACTIVE|62843|M|49.55,51.62|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|COV|Necrolord|
 T The Soul Contact|QID|62843|M|46.92,41.69|Z|The Maw|N|To Ve'nari.|COV|Necrolord|
 A Setting the Ground Rules|QID|62882|PRE|62843|M|46.92,41.69|Z|The Maw|N|From Ve'nari.|COV|Necrolord|
@@ -1623,8 +1625,8 @@ A No Rest For the Dead|QID|59609|PRE|62848|M|38.89,32.21|Z|Seat of the Primus!Du
 T No Rest For the Dead|QID|59609|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 
 ;Chapter 2 - Torghast
-A The Highlord Calls|QID|63032|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|PRE|62921|COV|Necrolord|
-F Ring of Transference|ACTIVE|63032|M|52.47,67.65|Z|Maldraxxus|N|Take a flight to the Oribos.|COV|Necrolord|
+A The Highlord Calls|QID|63032|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|PRE|59609|COV|Necrolord|
+F Oribos|ACTIVE|63032|M|52.47,67.65|Z|Maldraxxus|N|Take a flight to the Oribos.|COV|Necrolord|
 P Ring of Fates|ACTIVE|63032|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Necrolord|
 T The Highlord Calls|QID|63032|M|39.94,68.55|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Necrolord|
 

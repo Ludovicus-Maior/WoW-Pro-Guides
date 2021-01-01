@@ -124,7 +124,7 @@ function WoWPro.ExpandMarkup(text)
     tag_id = tag_id or ""
     tag_text = tag_text:lower()
     tag_qual = (tag_qual and tag_qual:lower()) or "itext"
-    WoWPro:dbp("ExpandMarkup  text=%s, qual=%s, id=%s", tag_text, tag_qual, tag_id)
+    -- WoWPro:dbp("ExpandMarkup  text=%s, qual=%s, id=%s", tag_text, tag_qual, tag_id)
     -- could have comment text after /
     tag_id = select(1, ("/"):split(tag_id))
     if tag_qual == "itext" then
@@ -152,7 +152,7 @@ function WoWPro.ExpandMarkup(text)
         -- If we were unable to expand, punt!
         expand = text:sub(tag_start, tag_end)
     end
-    WoWPro:dbp("ExpandMarkup [%s=%s;%s] => %s",tag_text, tostring(tag_id), tag_qual, expand:gsub("|", "¦"))
+    -- WoWPro:dbp("ExpandMarkup [%s=%s;%s] => %s",tag_text, tostring(tag_id), tag_qual, expand:gsub("|", "¦"))
     text = pre..expand..WoWPro.ExpandMarkup(post)
     return text
 end
