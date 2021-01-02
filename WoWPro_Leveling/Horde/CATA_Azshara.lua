@@ -6,7 +6,9 @@ return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 A Beyond Durotar|QID|25648|M|45.0,14.6|Z|Durotar|N|From Gor the Enforcer, just outside Orgrimmar's Southern Gates|PRE|25206&25236|
 T Beyond Durotar|QID|25648|M|26.84,77.00|N|To Ag'tor Bloodfist.|LEAD|25275^28496|
+; NO! Bad Command Board
 ;A Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|From the Warchief's Command Board.|LEAD|14129^25275^25648|
+R Orgrimmar Rear Gate|AVAILABLE|14118|M|26.75,78.04|N|Exit Grommash Hold and make your way through The Drag to Valley of Honor. Continue following the road north through Valley of Honor until you reach the gates.|
 T Warchief's Command: Azshara!|QID|28496|M|27.00,77.09|N|To Labor Captain Grabbit.|
 A Venison for the Troops|QID|14118|M|26.82,76.95|N|From Ag'tor Bloodfist.|
 A The Eyes of Ashenvale|QID|14117|M|26.82,76.95|N|From Ag'tor Bloodfist.|
@@ -14,14 +16,14 @@ C Venison for the Troops|QID|14118|M|27.98,68.76|N|Loot the Slab of Vension by k
 K The Eyes of Ashenvale|ACTIVE|14117|M|29.80,74.71|N|Kill 8 Talrendis Scouts.|S|
 ; -- Goblin specific quest chain
 T Report to the Labor Captain|QID|25275|M|27.00,77.09|N|To Labor Captain Grabbit|
-A Runaway Shredder!|QID|14129|M|27.00,77.09|N|From Labor Captain Grabbit.|R|Goblin|
-C Runaway Shredder!|QID|14129|M|27.00,72.83|N|Attack one of the runaway shredders and hop inside when it's damaged enough.|
+A Runaway Shredder!|QID|14129|M|27.00,77.09|N|From Labor Captain Grabbit.|
+C Runaway Shredder!|QID|14129|M|27.00,72.83|N|Attack one of the runaway shredders and hop inside when it's damaged enough.|V|
 T Runaway Shredder!|QID|14129|M|PLAYER|N|(UI Alert)|
 A The Captain's Logs|QID|14134|M|PLAYER|N|(UI Alert)|PRE|14129|R|Goblin|
-C The Captain's Logs|QID|14134|M|26.45,75.40|N|Use the Reprogrammed Shredder to collect 6 piles of Azshara Lumber.|
+l The Captain's Logs|ACTIVE|14134|M|26.42,74.68|QO|1|N|Stand beside an Azshara Lumber Pile and press <1> to pick it up.|
 T The Captain's Logs|QID|14134|M|PLAYER|N|(UI Alert)|
 A Up a Tree|QID|14135|M|PLAYER|N|(UI Alert)|PRE|14134|R|Goblin|
-C Up a Tree|QID|14135|M|23.08,74.40|N|Use the shredder's buzzsaw to cut down Azshara Saplings and kill 9 Talrendis Snipers as they emerge.|
+C Up a Tree|QID|14135|M|23.08,74.40|N|Stand beside an Azshara Tree and press <1> to cut it down. Kill the Talrendis Sniper when s/he jumps out.\n[color=FF0000]NOTE: [/color]<1> is a melee attack with a 3 sec CD and <2> is a ranged attack with a 5 sec CD|
 T Up a Tree|QID|14135|M|PLAYER|N|(UI Alert)|
 A Defend the Gates!|QID|14146|M|PLAYER|N|(UI Alert)|PRE|14135|
 C Defend the Gates!|QID|14146|M|27.08,76.63|N|Go back to the Rear Gate of Orgrimmar to slay 20 Night Elf Raiders.|
@@ -207,7 +209,7 @@ T Head of the Snake|QID|14484|M|34.44,44.77|N|To Sergeant Zelks.|
 T Ticker Required|QID|14485|M|34.44,44.77|N|To Sergeant Zelks.|
 T Extermination|QID|14480|M|34.44,44.77|N|From Sergeant Zelks.|
 T Handling the Goods|QID|14486|M|34.52,44.71|N|To Tora Halotrix.|
-A Shore Leave|QID|24449M|34.33,44.88;34.48,44.59|CS|N|From Captain Tork.||PRE|14480&14484&14485&14486&14487|
+A Shore Leave|QID|24449|M|34.33,44.88;34.48,44.59|CS|N|From Captain Tork.|PRE|14480&14484&14485&14486&14487|
 T Shore Leave|QID|24449|M|60.59,50.57|N|To Uncle Bedlam. Hop on the Military Gyrocopter when ready to leave.|
 A Azshara Blues|QID|14407|M|59.38,50.68|N|From Teemo.|
 T Azshara Blues|QID|14407|M|55.47,52.16|N|To Kalec.|
