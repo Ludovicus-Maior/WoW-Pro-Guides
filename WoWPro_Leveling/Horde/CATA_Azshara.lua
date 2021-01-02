@@ -13,7 +13,8 @@ T Warchief's Command: Azshara!|QID|28496|M|27.00,77.09|N|To Labor Captain Grabbi
 A Venison for the Troops|QID|14118|M|26.82,76.95|N|From Ag'tor Bloodfist.|
 A The Eyes of Ashenvale|QID|14117|M|26.82,76.95|N|From Ag'tor Bloodfist.|
 C Venison for the Troops|QID|14118|M|27.98,68.76|N|Loot the Slab of Vension by killing Weakened Mosshoof Stags.|S|
-K The Eyes of Ashenvale|ACTIVE|14117|M|29.80,74.71|N|Kill 8 Talrendis Scouts.|S|
+K The Eyes of Ashenvale|ACTIVE|14117|M|29.80,74.71|QO|1|N|Kill 8 Talrendis Scouts.\n[color=FF0000]NOTE: [/color]They are 'stealthed' all around the area.|S|
+l Scout's Orders|AVAILABLE|14127|M|29.95,74.40|L|47039|N|Kill and loot Talrendis Scouts until this drops.|S|RANK|2|
 ; -- Goblin specific quest chain
 T Report to the Labor Captain|QID|25275|M|27.00,77.09|N|To Labor Captain Grabbit|
 A Runaway Shredder!|QID|14129|M|27.00,77.09|N|From Labor Captain Grabbit.|
@@ -23,7 +24,7 @@ A The Captain's Logs|QID|14134|M|PLAYER|N|(UI Alert)|PRE|14129|R|Goblin|
 l The Captain's Logs|ACTIVE|14134|M|26.42,74.68|QO|1|N|Stand beside an Azshara Lumber Pile and press <1> to pick it up.|
 T The Captain's Logs|QID|14134|M|PLAYER|N|(UI Alert)|
 A Up a Tree|QID|14135|M|PLAYER|N|(UI Alert)|PRE|14134|R|Goblin|
-C Up a Tree|QID|14135|M|23.08,74.40|N|Stand beside an Azshara Tree and press <1> to cut it down. Kill the Talrendis Sniper when s/he jumps out.\n[color=FF0000]NOTE: [/color]<1> is a melee attack with a 3 sec CD and <2> is a ranged attack with a 5 sec CD|
+C Up a Tree|QID|14135|M|23.08,74.40|N|Stand beside an Azshara Tree and press <1> to cut it down. Kill the Talrendis Snipers when they jump out.\n[color=FF0000]NOTE: [/color]<1> is a melee attack with a 3 sec CD and <2> is a ranged attack with a 5 sec CD|
 T Up a Tree|QID|14135|M|PLAYER|N|(UI Alert)|
 A Defend the Gates!|QID|14146|M|PLAYER|N|(UI Alert)|PRE|14135|
 C Defend the Gates!|QID|14146|M|27.08,76.63|N|Go back to the Rear Gate of Orgrimmar to slay 20 Night Elf Raiders.|
@@ -31,10 +32,10 @@ T Defend the Gates!|QID|14146|M|PLAYER|N|(UI Alert)|
 A Arborcide|QID|14155|M|PLAYER|N|(UI Alert)|PRE|14146|
 C Arborcide|QID|14155|M|21.92,75.71|N|Use the shredder to destroy the Talrendis Ancient.|
 ; --
-C Venison for the Troops|QID|14118|M|27.08,72.91|N|Finish looting the Slabs of Venison from Weakened Mosshoof Stags.|US|
-K The Eyes of Ashenvale|ACTIVE|14117|M|29.80,74.71|N|Kill 8 Talrendis Scouts.|US|
-l Scout's Orders|AVAILABLE|14127|M|29.95,74.40|L|47039|N|Kill and loot Talrendis Scouts until this drops.|RANK|3|
-A Return of the Highborne?|QID|14127|M|PLAYER|N|From the Scout's Orders.|U|47039|O|RANK|3|
+C Venison for the Troops|QID|14118|M|27.08,72.91|N|Finish looting the Slabs of Venison from Weakened Mosshoof Stags.|T|Weakened|US|
+K The Eyes of Ashenvale|ACTIVE|14117|M|29.80,74.71|QO|1|N|Kill 8 Talrendis Scouts.|US|
+l Scout's Orders|AVAILABLE|14127|M|29.95,74.40|L|47039|N|Kill and loot Talrendis Scouts until this drops.|S|RANK|2|
+A Return of the Highborne?|QID|14127|M|PLAYER|N|From the Scout's Orders.|U|47039|O|RANK|2|
 T Arborcide|QID|14155|M|27.00,77.09|N|To Labor Captain Grabbit.|
 A Report to Horzak|QID|14162|M|27.00,77.09|N|From Labor Captain Grabbit.|PRE|14155|
 T Venison for the Troops|QID|14118|M|26.82,76.95|N|To Ag'tor Bloodfist.|
