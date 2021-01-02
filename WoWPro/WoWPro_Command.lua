@@ -23,9 +23,11 @@ local function handler(msg, editbox)
 		end
 	elseif ltoken == "devmode" then
 		if WoWPro.DevMode then
-			WoWPro.DevMode = false
+            WoWPro.DevMode = false
+            _G.ChatFrame1:AddMessage("WoWPro.DevMode = false")
 		else
-			WoWPro.DevMode = true
+            WoWPro.DevMode = true
+            _G.ChatFrame1:AddMessage("WoWPro.DevMode = true")
 		end
 		WoWPro.LoadGuideStepsReal()
     elseif ltoken == "where" then
