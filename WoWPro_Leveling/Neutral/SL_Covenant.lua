@@ -442,11 +442,10 @@ C Monster Hunting|QID|58447|M|24.35,48.03|Z|Ardenweald!The Shadowlands|QO|3|NC|N
 T Monster Hunting|QID|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
 A Acid Reflux|QID|58449|PRE|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
 A Anima Instincts|QID|58450|PRE|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
-F Claw's Edge|ACTIVE|58449|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Tishereenelee is the flightmaster.|COV|Night Fae|
+F Claw's Edge|ACTIVE|58449|M|35.15,51.68|Z|The Trunk@Heart of the Forest!Dungeon|N|Tishereenelee is the flightmaster.|COV|Night Fae|
 C Acid Reflux|QID|58449|M|51.28,71.19|Z|Ardenweald!The Shadowlands|S|NC|N|Use the "[color=40C7EB]Pacify Gorm[/color]" button to "Pacify" the Gorm, pick up the Digestive leftovers.|EAB|COV|Night Fae|
-C Anima Instincts|QID|58450|M|51.28,71.19|Z|Ardenweald!The Shadowlands|N|The wildseed are all over the place in this location.|COV|Night Fae|
-C Anima Instincts|QID|58450|M|51.28,78.93|Z|Ardenweald!The Shadowlands|N|The wildseed are all over the place in this location.|COV|Night Fae|
-C Acid Reflux|QID|58449|M|51.70,79.18|Z|Ardenweald!The Shadowlands|QO|2|US|N|Bulging Digestive Sac.|COV|Night Fae|
+C Anima Instincts|QID|58450|M|51.85,76.25|Z|Ardenweald!The Shadowlands|N|The wildseed are all over the place in this location.|COV|Night Fae|
+C Acid Reflux|QID|58449|M|51.70,79.18|Z|Ardenweald!The Shadowlands|QO|2|US|N|Use the "[color=40C7EB]Pacify Gorm[/color]" button to "Pacify" the Gorm, pick up the Digestive leftovers.|EAB|COV|Night Fae|
 F Root-Home|ACTIVE|58449|M|51.30,71.31|Z|Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Root-Home.|COV|Night Fae|
 T Acid Reflux|QID|58449|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|To Reldorn.|COV|Night Fae|
 T Anima Instincts|QID|58450|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|To Reldorn.|COV|Night Fae|
@@ -850,10 +849,11 @@ A Collecting Dust|QID|58562|PRE|58558&58559&58560|M|56.36,41.42|Z|Revendreth|N|F
 A Shards of the Countess|QID|58561|PRE|58558&58559&58560|M|56.36,41.42|Z|Revendreth|N|From Kleia.|COV|Kyrian|
 C Shards of the Countess|QID|58561|M|55.41,41.20|Z|Revendreth|QO|1|NC|N|Bell of Transport rang (Optional).|COV|Kyrian|
 C Collecting Dust|QID|58562|M|55.41,41.20|Z|Revendreth|QO|1|NC|N|Bell of Transport rung (Optional).|COV|Kyrian|
-C Collecting Dust|QID|58562|M|56.05,36.19|Z|Revendreth|QO|2|NC|N|Death Lotus Petal.|COV|Kyrian|
+C Collecting Dust|QID|58562|M|56.05,36.19|Z|Revendreth|QO|2|NC|N|Click on Death Lotus Petal around the area.|S|COV|Kyrian|
 C Shards of the Countess|QID|58561|M|52.81,37.85|Z|Revendreth|QO|2<1|N|Kill Mob, get Shard of the Countess, from in the window.|COV|Kyrian|
 C Shards of the Countess|QID|58561|M|54.78,37.11|Z|Revendreth|QO|2<2|N|Kill the 2 mobs, get Shard of the Countess from the table.|COV|Kyrian|
 C Shards of the Countess|QID|58561|M|56.22,39.84|Z|Revendreth|QO|2<3|T|Duchess Minodora|N|Kill Duchess Minodora amd loot the last Shard of the Countess.|COV|Kyrian|
+C Collecting Dust|QID|58562|M|56.05,36.19|Z|Revendreth|QO|2|NC|N|Click on Death Lotus Petal around the area.|US|COV|Kyrian|
 T Shards of the Countess|QID|58561|M|55.19,34.79|Z|Revendreth|N|To The Curator.|COV|Kyrian|
 T Collecting Dust|QID|58562|M|55.19,34.79|Z|Revendreth|N|To The Curator.|COV|Kyrian|
 A Through Glass|QID|58563|PRE|58562&58561|M|55.19,34.79|Z|Revendreth|N|From The Curator.|COV|Kyrian|
@@ -870,12 +870,14 @@ A Land of Light|QID|58565|PRE|58564|M|58.11,27.52|Z|Revendreth|N|From The Curato
 C Land of Light|QID|58565|M|56.99,27.11|Z|Revendreth|V|N|Go up the stairs, through the door, up more stairs to another door till you reach the balcony.|COV|Kyrian|
 T Land of Light|QID|58565|M|32.00,47.51|Z|Revendreth|N|To Theotar.|COV|Kyrian|
 A Skulking in the Darkness|QID|58567|PRE|58565|M|31.97,47.64|Z|Revendreth|N|From Kleia.|
-A Light Respite|QID|58568|PRE|58565|M|31.97,47.64|Z|Revendreth|N|From Kleia.|COV|Kyrian|
+A Light Respite|QID|58568|PRE|58565|M|31.97,47.64|Z|Revendreth|N|From Kleia.|COV|Kyrian|COV|Kyrian|
 A Actions Speak Louder than Words|QID|58566|PRE|58565|M|31.85,47.60|Z|Revendreth|N|From Mindscorched Alwin.|COV|Kyrian|
 C Actions Speak Louder than Words|QID|58566|M|31.85,47.60|Z|Revendreth|QO|1|CHAT|N|Speak to Mindscorched Alwin.|COV|Kyrian|
-C Light Respite|QID|58568|M|36.27,53.20|Z|Revendreth|S|US|N|Brushberry.|COV|Kyrian|
-C Skulking in the Darkness|QID|58567|M|38.73,53.88|Z|Revendreth|S|US|N|Outcast venthyr slain.|COV|Kyrian|
+C Light Respite|QID|58568|M|36.27,53.20|Z|Revendreth|S|NC|N|Click on the Brushberry bushes along the way.|COV|Kyrian|
+C Skulking in the Darkness|QID|58567|M|38.73,53.88|Z|Revendreth|S|N|Slay all the Scorched enemies.|COV|Kyrian|
 C Actions Speak Louder than Words|QID|58566|M|39.93,58.25|Z|Revendreth|QO|2|NC|N|Follow Mindscorched Alwin, you can gather the berries, and kill mobs enroute.|COV|Kyrian|
+C Skulking in the Darkness|QID|58567|M|38.73,53.88|Z|Revendreth|US|N|Slay all the Scorched enemies.|COV|Kyrian|
+C Light Respite|QID|58568|M|36.27,53.20|Z|Revendreth|US|NC|N|Click on the Brushberry bushes along the way.|COV|Kyrian|
 T Skulking in the Darkness|QID|58567|M|39.90,59.00|Z|Revendreth|N|To Kleia.|COV|Kyrian|
 T Light Respite|QID|58568|M|39.90,59.00|Z|Revendreth|N|To Kleia.|COV|Kyrian|
 T Actions Speak Louder than Words|QID|58566|M|40.01,58.97|Z|Revendreth|N|To Mindscorched Alwin.|COV|Kyrian|
