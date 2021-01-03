@@ -442,7 +442,7 @@ C Monster Hunting|QID|58447|M|24.35,48.03|Z|Ardenweald!The Shadowlands|QO|3|NC|N
 T Monster Hunting|QID|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
 A Acid Reflux|QID|58449|PRE|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
 A Anima Instincts|QID|58450|PRE|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
-F Claw's Edge|ACTIVE|58449|M|35.15,51.68|Z|The Trunk@Heart of the Forest!Dungeon|N|Tishereenelee is the flightmaster.|COV|Night Fae|
+F Claw's Edge|ACTIVE|58449|M|35.22,51.76|Z|Ardenweald!The Shadowlands|N|Tishereenelee is the flightmaster.|COV|Night Fae|
 C Acid Reflux|QID|58449|M|51.28,71.19|Z|Ardenweald!The Shadowlands|S|NC|N|Use the "[color=40C7EB]Pacify Gorm[/color]" button to "Pacify" the Gorm, pick up the Digestive leftovers.|EAB|COV|Night Fae|
 C Anima Instincts|QID|58450|M|51.85,76.25|Z|Ardenweald!The Shadowlands|N|The wildseed are all over the place in this location.|COV|Night Fae|
 C Acid Reflux|QID|58449|M|51.70,79.18|Z|Ardenweald!The Shadowlands|QO|2|US|N|Use the "[color=40C7EB]Pacify Gorm[/color]" button to "Pacify" the Gorm, pick up the Digestive leftovers.|EAB|COV|Night Fae|
