@@ -48,7 +48,7 @@ A Stone Cold|QID|14165|M|29.15,66.24|N|From Horzak Zignibble.|
 A A Quota to Meet|QID|14197|M|29.21,66.44|N|From Foreman Fisk, who wanders.|
 l A Quota to Meet|QID|14197|M|23.20,67.44|QO|1|N|Gather 20 ingots of Mountainfoot Iron.\nKeep an eye out for the pallets. They give you multiple bars.|S|
 K Basilisk Bashin'|ACTIVE|14161|M|25.50,68.50|QO|1|N|Kill Greystone Basilisks.|S|
-C Stone Cold|QID|14165|M|25.66,68.79|N|Seek out a Stonified Miner.\n[color=FF0000]NOTE: [/color]You may have to click on it twice to pick it up.|NC|BUFF|67032^91695^69619|
+C Stone Cold|QID|14165|M|25.66,68.79|N|Seek out a Stonified Miner.\n[color=FF0000]NOTE: [/color]You may have to click on it twice to pick it up.|BUFF|67032^91695^69619|
 R Orgrimmar Rocketway Exchange|QID|14165|M|27.77,67.70|N|With the Goblin on your back, head back to Horzak Zignibble.\n[color=FF0000]NOTE: [/color]You will lose the goblin if you mount.\nDon't worry about losing it during a fight; unless you die.|
 T Stone Cold|QID|14165|M|29.15,66.24|N|To Horzak Zignibble.|
 t Basilisk Bashin'|QID|14161|M|29.15,66.24|N|To Horzak Zignibble.|IZ|Orgrimmar Rocketway Exchange|
@@ -94,7 +94,8 @@ C A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|N|Collect Recovered Art
 T A Thousand Stories in the Sand|QID|14201|M|29.68,66.88|N|To Malynea Skyreaver.|
 A Memories of the Dead|QID|14215|M|29.64,66.86|N|From Malynea Skyreaver.|PRE|14201|
 T Survey the Lakeshore|QID|14202|M|29.59,66.85|N|To Custer Clubnik, who wanders.|
-C Memories of the Dead|QID|14215|M|36.57,72.50;37.52,74.53|CS|N|Talk to the Spirit of Kalytha then follow the arrow to Archmage Selwyn.|
+C Memories of the Dead|QID|14215|M|36.57,72.50|N|Talk to the Spirit of Kalytha (she moves around).\n[color=FF0000]NOTE: [/color]Once you do this, you will receive a 10 minute buff so you can complete the quest.|BUFF|67704|CHAT|
+C Memories of the Dead|QID|14215|M|37.52,74.53|N|Once you've done that, continue to Archmage Selwyn and talk to her.\n[color=FF0000]NOTE: [/color]If she's not there, you need to go back and get the buff from the Spirit of Kalytha again.|CHAT|
 T Memories of the Dead|QID|14215|M|PLAYER|N|(UI Alert)|
 A Mystery of the Sarcen Stone|QID|14216|M|PLAYER|N|(UI Alert)|PRE|14215|
 C Mystery of the Sarcen Stone|QID|14216|M|35.52,75.28|N|Open the Ancient Stone Cask at the bottom of the Lake.|
@@ -134,15 +135,15 @@ T Mortar the Point|QID|14258|M|52.22,74.23|N|To Bombardier Captain Smooks.|
 A To Gut a Fish|QID|14262|M|50.68,75.30|N|From Torg Twocrush.|PRE|14258|
 A Investigating the Sea Shrine|QID|14267|M|50.68,75.30|N|From Torg Twocrush.|PRE|14258|
 C A Gigantic Snack|QID|14371|M|46.7,72.2|N|Kill and loot Mistwing Cliffdwellers.|S|
-C Mysterious Azsharite|QID|14370|M|50.55,82.10|N|Loot Azharite Formations off the ground. If you come across a "Crystallized Note" while looting the formations, I would recommend reading it for a laugh and a hint on what Azharite is.|
+C Mysterious Azsharite|QID|14370|M|50.55,82.10|N|Loot Azsharite Formations off the ground. If you come across a "Crystallized Note" while looting the formations, I would recommend reading it for a laugh and a hint on what Azsharite is.|
 C A Gigantic Snack|QID|14371|M|46.7,72.2|N|Kill and loot Mistwing Cliffdwellers.|US|
-C To Gut a Fish|QID|14262|M|55.49,76.45|N|Kill Spitelash Stormfurys and Seacallers.|S|
+C To Gut a Fish|QID|14262|M|55.49,76.45|N|Kill Spitelash Stormfuries and Seacallers.|S|
 T Investigating the Sea Shrine|QID|14267|M|58.98,71.98|N|To the Naga Power Stone.|
 A The Keystone Shard|QID|14270|M|58.98,71.98|N|From the Naga Power Stone.|PRE|14267|
 C The Keystone Shard|QID|14270|M|57.57,71.02|N|Pick up the Keystone Shard.|
 T The Keystone Shard|QID|14270|M|58.99,71.93|N|To the Naga Power Stone.|
 A Report to Twocrush|QID|14271|M|58.99,71.93|N|From the Naga Power Stone.|PRE|14270|
-C To Gut a Fish|QID|14262|M|55.49,76.45|N|Kill Spitelash Stormfurys and Seacallers.|US|
+C To Gut a Fish|QID|14262|M|55.49,76.45|N|Kill Spitelash Stormfuries and Seacallers.|US|
 T To Gut a Fish|QID|14262|M|50.68,75.30|N|To Torg Twocrush.|
 T Report to Twocrush|QID|14271|M|50.68,75.30|N|To Torg Twocrush.|
 A Sisters of the Sea|QID|14295|M|50.68,75.30|N|From Torg Twocrush.|PRE|14271|RANK|3|
@@ -304,7 +305,7 @@ A Pro-liberation|QID|14297|M|66.42,20.29|N|From Jellix Fuselighter.|
 A Ice Cold|QID|14261|M|66.57,19.63|N|From Feno Blastnoggin.|
 C Ice Cold|QID|14261|N|Use the Cryomatic 16 to freeze and kill 8 Sable Drakes. Usually flying or on top of hills.|S|
 C Pro-liberation|QID|14297|M|69.16,16.89|N|Kill cultists and dragonkin for Ironwrought Keys, use them to free 4 Goblin Workers.|S|
-C Fade to Black|QID|24467|M|71.74,16.39|N|Kill Twilight Lord Katrana and Malicion in Sable Ridge. For the high-levels doing this, do not one-shot Katrana immediatly, aggro then kill her after she says something.|
+C Fade to Black|QID|24467|M|71.74,16.39|N|Kill Twilight Lord Katrana and Malicion in Sable Ridge. For the high-levels doing this, do not one-shot Katrana immediately, aggro then kill her after she says something.|
 T Fade to Black|QID|24467|M|71.79,16.68|N|To Kalecgos.|
 C Pro-liberation|QID|14297|M|69.16,16.89|N|Kill cultists and dragonkin for Ironwrought Keys, use them to free 4 Goblin Workers.|US|
 C Ice Cold|QID|14261|M|69.59,19.40|N|Use the Cryomatic 16 to freeze and kill 8 Sable Drakes. Usually flying or on top of hills.|U|49596|US|
@@ -338,7 +339,7 @@ C Let Them Feast on Fear|QID|24433|M|12.74,74.19|N|Fight your way across Talrend
 T Lightning Strike Assassination|QID|14464|M|13.95,64.79|N|To Chawg.|
 T Let Them Feast on Fear|QID|24433|M|13.95,64.79|N|To Chawg.|
 T Push the Button!|QID|14477|M|14.30,64.99|N|To Kroum.|
-A Blacken the Skies|QID|24430|M|14.45,65.64|N|From Jr. Bombardier Hacke.|PRE|14477&24433|
+A Blacken the Skies|QID|24430|M|14.45,65.64|N|From Jr. Bombardier Hackel.|PRE|14477&24433|
 C Blacken the Skies|QID|24430|M|9.28,72.53|N|Mount a Grounded Wind Rider. Destroy 6 Talrendis Glaive Throwers and bomb the Command Center. Don't fly too low.|
 T Blacken the Skies|QID|24430|M|14.44,65.74|N|To Jr. Bombardier Hackel.|
 A The Conquest of Azshara|QID|24439|M|14.05,64.86|N|From Chawg.|PRE|24430|
