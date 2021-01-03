@@ -566,7 +566,12 @@ F Oribos|ACTIVE|60056|M|51.40,46.80|N|Fly back to Oribos|
 P Ring of Fates|ACTIVE|60056|M|49.52,60.92|Z|Ring of Transference@Oribos|N|Click the teleporter.|
 C Follow the Path|QID|60056|M|38.91,69.93|Z|Ring of Fates@Oribos|CHAT|N|Tell Tal-Inara of the Maldraxxi's attack.|MS|
 T Follow the Path|QID|60056|M|38.91,69.93|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
-
+A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60056|MS|
+C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|Ring of Fates@Oribos|NC|N|Use the Teleport Pad.|MS|
+T The Arbiter's Will|QID|61096|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
+A A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61096|MS|
+C A Land of Strife|QID|61107|M|59.67,36.36|Z|Ring of Transference@Oribos|NC|N|Click on the blue sword.|MS|
+T A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|; Bastion Completion and Achievement is here, so don't remove it again.
 ;wings of freedom
 R Kowalskos' Workshop|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|Run Northwest of Hero's rest to Kowalskos' Workshop.|LVL|60|RANK|2|
 A Broken Wings|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
