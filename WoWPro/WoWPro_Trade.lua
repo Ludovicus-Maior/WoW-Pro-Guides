@@ -181,7 +181,7 @@ for skill, data in pairs(WoWPro.ProfessionSkillLines) do
             WoWPro.ProfessionExpansion2Skill[skill][data.exp] = skill
         else
             for exp=0,8 do
-                WoWPro.ProfessionExpansion2Skill[skill][exp] = skill
+                WoWPro.ProfessionExpansion2Skill[skill][exp] = WoWPro.ProfessionExpansion2Skill[skill][exp] or skill
             end
         end
     end
