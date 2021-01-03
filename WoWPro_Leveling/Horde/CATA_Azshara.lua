@@ -15,15 +15,14 @@ A The Eyes of Ashenvale|QID|14117|M|26.82,76.95|N|From Ag'tor Bloodfist.|
 C Venison for the Troops|QID|14118|M|27.98,68.76|N|Loot the Slab of Vension by killing Weakened Mosshoof Stags.|S|
 K The Eyes of Ashenvale|ACTIVE|14117|M|29.80,74.71|QO|1|N|Kill 8 Talrendis Scouts.\n[color=FF0000]NOTE: [/color]They are 'stealthed' all around the area.|S|
 l Scout's Orders|AVAILABLE|14127|M|29.95,74.40|L|47039|N|Kill and loot Talrendis Scouts until this drops.|S|RANK|2|
-; -- Goblin specific quest chain
 T Report to the Labor Captain|QID|25275|M|27.00,77.09|N|To Labor Captain Grabbit|
 A Runaway Shredder!|QID|14129|M|27.00,77.09|N|From Labor Captain Grabbit.|
 C Runaway Shredder!|QID|14129|M|27.00,72.83|N|Attack one of the runaway shredders and hop inside when it's damaged enough.|V|
 T Runaway Shredder!|QID|14129|M|PLAYER|N|(UI Alert)|
-A The Captain's Logs|QID|14134|M|PLAYER|N|(UI Alert)|PRE|14129|R|Goblin|
+A The Captain's Logs|QID|14134|M|PLAYER|N|(UI Alert)|PRE|14129|
 l The Captain's Logs|ACTIVE|14134|M|26.42,74.68|QO|1|N|Stand beside an Azshara Lumber Pile and press <1> to pick it up.|
 T The Captain's Logs|QID|14134|M|PLAYER|N|(UI Alert)|
-A Up a Tree|QID|14135|M|PLAYER|N|(UI Alert)|PRE|14134|R|Goblin|
+A Up a Tree|QID|14135|M|PLAYER|N|(UI Alert)|PRE|14134|
 C Up a Tree|QID|14135|M|23.08,74.40|N|Stand beside an Azshara Tree and press <1> to cut it down. Kill the Talrendis Snipers when they jump out.\n[color=FF0000]NOTE: [/color]<1> is a melee attack with a 3 sec CD and <2> is a ranged attack with a 5 sec CD|
 T Up a Tree|QID|14135|M|PLAYER|N|(UI Alert)|
 A Defend the Gates!|QID|14146|M|PLAYER|N|(UI Alert)|PRE|14135|
@@ -34,7 +33,7 @@ C Arborcide|QID|14155|M|21.92,75.71|N|Use the shredder to destroy the Talrendis 
 ; --
 C Venison for the Troops|QID|14118|M|27.08,72.91|N|Finish looting the Slabs of Venison from Weakened Mosshoof Stags.|T|Weakened|US|
 K The Eyes of Ashenvale|ACTIVE|14117|M|29.80,74.71|QO|1|N|Kill 8 Talrendis Scouts.|US|
-l Scout's Orders|AVAILABLE|14127|M|29.95,74.40|L|47039|N|Kill and loot Talrendis Scouts until this drops.|S|RANK|2|
+l Scout's Orders|AVAILABLE|14127|M|29.95,74.40|L|47039|N|Kill and loot Talrendis Scouts until this drops.|S!US|RANK|2|
 A Return of the Highborne?|QID|14127|M|PLAYER|N|From the Scout's Orders.|U|47039|O|RANK|2|
 T Arborcide|QID|14155|M|27.00,77.09|N|To Labor Captain Grabbit.|
 A Report to Horzak|QID|14162|M|27.00,77.09|N|From Labor Captain Grabbit.|PRE|14155|
@@ -47,47 +46,47 @@ T Report to Horzak|QID|14162|M|29.15,66.24|N|To Horzak Zignibble.|
 A Basilisk Bashin'|QID|14161|M|29.15,66.24|N|From Horzak Zignibble.|PRE|14162|
 A Stone Cold|QID|14165|M|29.15,66.24|N|From Horzak Zignibble.|
 A A Quota to Meet|QID|14197|M|29.21,66.44|N|From Foreman Fisk, who wanders.|
-C A Quota to Meet|QID|14197|M|23.20,67.44|N|Gather 20 ingots of Mountainfoot Iron.|S|NC|
-K Basilisk Bashin'|ACTIVE|14161|M|25.50,68.50|N|Kill Greystone Basilisks.|S|
-C Stone Cold|QID|14165|M|26.56,68.50|N|Seek out a Stonified Miner.|BUFF|67032^91695^69619|NC|
-C Stone Cold|QID|14165|M|26.56,68.50|N|With the Goblin on your back, head back to Horzak Zignibble.\n[color=FF0000]NOTE: [/color]You will lose the goblin if you mount.|NC|
-T Basilisk Bashin'|QID|14161|M|29.15,66.24|N|To Horzak Zignibble.|
+l A Quota to Meet|QID|14197|M|23.20,67.44|QO|1|N|Gather 20 ingots of Mountainfoot Iron.\nKeep an eye out for the pallets. They give you multiple bars.|S|
+K Basilisk Bashin'|ACTIVE|14161|M|25.50,68.50|QO|1|N|Kill Greystone Basilisks.|S|
+C Stone Cold|QID|14165|M|25.66,68.79|N|Seek out a Stonified Miner.\n[color=FF0000]NOTE: [/color]You may have to click on it twice to pick it up.|NC|BUFF|67032^91695^69619|
+R Orgrimmar Rocketway Exchange|QID|14165|M|27.77,67.70|N|With the Goblin on your back, head back to Horzak Zignibble.\n[color=FF0000]NOTE: [/color]You will lose the goblin if you mount.\nDon't worry about losing it during a fight; unless you die.|
 T Stone Cold|QID|14165|M|29.15,66.24|N|To Horzak Zignibble.|
+t Basilisk Bashin'|QID|14161|M|29.15,66.24|N|To Horzak Zignibble.|IZ|Orgrimmar Rocketway Exchange|
 A The Perfect Prism|QID|14190|M|29.15,66.24|N|From Horzak Zignibble.|PRE|14165|
-t A Quota to Meet|QID|14197|M|29.15,66.27|N|To Foreman Fisk, who wanders.|
-C The Perfect Prism|QID|14190|M|21.57,66.10|N|Kill Talrendis Saboteurs until you loot a Crystal Pendant.|
-l A Quota to Meet|ACTIVE|14197|M|23.20,67.44|N|Gather 20 ingots of Mountainfoot Iron.|US|
-T The Perfect Prism|QID|14190|M|20.29,70.31|N|To the Headquarters Radio.|
-A Prismbreak|QID|14192|M|20.29,70.31|N|From the Headquarters Radio.|PRE|14190|
-T Prismbreak|QID|14192|M|20.09,70.06|N|To the Weapons Cabinet.|
+t A Quota to Meet|QID|14197|M|29.15,66.27|N|To Foreman Fisk, who wanders.|IZ|Orgrimmar Rocketway Exchange|
+C The Perfect Prism|QID|14190|M|21.61,69.50|N|Kill Talrendis Saboteurs until you loot a Crystal Pendant.|
+l A Quota to Meet|QID|14197|M|23.20,67.44|QO|1|N|Gather 20 ingots of Mountainfoot Iron.|US|
+T The Perfect Prism|QID|14190|M|20.26,70.40|N|To the Headquarters Radio (inside the building).|
+A Prismbreak|QID|14192|M|20.26,70.40|N|From the Headquarters Radio.|PRE|14190|
+T Prismbreak|QID|14192|M|20.09,70.06|N|To the Weapons Cabinet.\n[color=FF0000]NOTE: [/color]You may get attacked when you get close to it.|
 A Refleshification|QID|14194|M|20.09,70.06|N|From the Weapons Cabinet.|PRE|14192|
-C Refleshification|QID|14194|M|24.56,72.63|N|Use The Refleshifier to de-stonify eight Mountainfoot Miners.|U|48104|NC|
+C Refleshification|QID|14194|M|24.56,72.63|N|Use the Refleshifier to de-stonify eight Mountainfoot Miners.|T|Mountainfoot Miner|U|48104|NC|
 T A Quota to Meet|QID|14197|M|29.15,66.27|N|To Foreman Fisk, who wanders.|
 T Refleshification|QID|14194|M|29.15,66.24|N|To Horzak Zignibble.|
 A Another Warm Body|QID|14468|M|29.52,66.84|N|From Private Worcester.|PRE|14194&14197&14161|RANK|2|
-T Another Warm Body|QID|14468|M|29.43,57.68|N|To Commander Molotov.|
-A Hand-me-downs|QID|14469|M|29.43,57.68|N|From Commander Molotov.|PRE|14468|RANK|2|
+T Another Warm Body|QID|14468|M|29.45,57.67|N|To Commander Molotov.|
+A Hand-me-downs|QID|14469|M|29.45,57.67|N|From Commander Molotov.|PRE|14468|RANK|2|
 A Military Breakthrough|QID|14470|M|29.38,57.61|N|From Glix Grindlock.|PRE|14468|RANK|2|
 C Hand-me-downs|QID|14469|M|27.75,54.06|N|Loot the Military Supplies from the Dead Soldier corpses in the central minefield.|S|NC|
-K Warlord Krellian|ACTIVE|14470|M|27.63,51.91|QO|1|N|Kill Warlord Krellen|
-l Military Breakthrough|ACTIVE|14470|M|27.63,51.91|QO|2|N|Loot the SFG from the floor|NC|
+K Warlord Krellian|ACTIVE|14470|M|27.63,51.91|QO|1|N|Kill Warlord Krellian.|
+l Military Breakthrough|ACTIVE|14470|M|27.70,51.87|QO|2|N|Loot the SFG from the ground beside Warlord Krellian.|NC|
 C Hand-me-downs|QID|14469|M|27.75,54.06|N|Loot the Military Supplies from the Dead Soldier corpses in the central minefield.|US|NC|
 T Military Breakthrough|QID|14470|M|29.38,57.61|N|To Glix Grindlock.|
 T Hand-me-downs|QID|14469|M|29.46,57.67|N|To Commander Molotov.|
 A First Degree Mortar|QID|14471|M|29.10,57.94|N|From Xiz "The Eye" Salvoblast.|PRE|14468|RANK|2|
-C First Degree Mortar|QID|14471|M|31.10,57.63|N|Use a Goblin Mortar to slaughter 60 Spitelash Attackers.|
+C First Degree Mortar|QID|14471|M|31.10,57.63|N|Use a Bilgewater Mortar to slaughter 60 Spitelash Attackers.|V|
 T First Degree Mortar|QID|14471|M|29.10,57.94|N|To Xiz "The Eye" Salvoblast.|
 A In The Face!|QID|14472|M|29.38,57.61|N|From Glix Grindlock.|PRE|14469&14470&14471|RANK|2|
-C In The Face!|QID|14472|M|31.44,60.75|N|Use an SFG to kill an Enslaved Son of Arkkoroc in the southern minefield.|U|49700|
+C In The Face!|QID|14472|M|31.44,60.75|N|Use an SFG to kill an Enslaved Son of Arkkoroc in the southern minefield.|T|Enslaved|U|49700|
 T In The Face!|QID|14472|M|29.38,57.61|N|To Glix Grindlock.|
 A Profitability Scouting|QID|24452|M|29.46,57.67|N|From Commander Molotov.|PRE|14472|RANK|2|
 C Profitability Scouting|QID|24452|M|31.31,49.92|N|Use the stealth field generator to infiltrate the Ruins of Eldarath and identify the Heart of Arkkoroc.|U|49701|NC|
 T Profitability Scouting|QID|24452|M|29.46,57.67|N|To Commander Molotov.|
 A Private Chat|QID|24453|M|29.46,57.67|N|From Commander Molotov.|PRE|24452|RANK|2|
-T Private Chat|QID|24453|M|29.52,66.84|N|Back to the Orgrimmar Rocketway Exchange, to Private Worcester.|
+T Private Chat|QID|24453|M|29.52,66.84|N|To Private Worcester back at the Orgrimmar Rocketway Exchange.|
 A A Thousand Stories in the Sand|QID|14201|M|29.68,66.88|N|From Malynea Skyreaver.|PRE|24453|
-A Survey the Lakeshore|QID|14202|M|29.59,66.85|N|From Custer Clubnik.|PRE|24453|
-C A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|N|Collect Recovered Artifacts.|S|
+A Survey the Lakeshore|QID|14202|M|29.59,66.85|N|From Custer Clubnik (he moves around a bit).|PRE|24453|
+l A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|QO|1|N|Collect Recovered Artifacts.|S|
 C Survey North Marker|QID|14202|M|34.69,71.57|QO|2|N|Stand next to the Survey Equipment and protect the Surveyor until you get the completion for that section.|U|48665|
 C Survey East Marker|QID|14202|M|37.37,74.61|QO|3|N|Stand next to the Survey Equipment and protect the Surveyor until you get the completion for that section.|U|48665|
 C Survey the Lakeshore|QID|14202|M|34.29,76.62|QO|1|N|Stand next to the Survey Equipment and protect the Surveyor until you get the completion for that section.|U|48665|
@@ -116,7 +115,7 @@ C Mortar the Point|QID|14258|M|43.11,77.18|N|Collect Mortar shells.|S|
 C When Science Attacks|QID|14308|M|43.39,76.07|N|Put out Lab fires, and put out Research Interns that are on fire.|U|49132|S|NC|
 A Bad Science! Bad!|QID|14322|M|45.09,75.46|N|From Twistex Happytongs.|
 A Nine's Plan|QID|14408|M|42.19,76.13|N|From Subject Nine.|RANK|2|
-K Bad Science! Bad!|ACTIVE|14322|M|44.40,79.00|N|Kill Static-Charged Hippogryphs.|
+K Bad Science! Bad!|ACTIVE|14322|M|44.40,79.00|QO|1|N|Kill Static-Charged Hippogryphs.|
 T Bad Science! Bad!|QID|14322|M|45.06,75.53|N|To Twistex Happytongs.|
 C Nine's Plan|QID|14408|M|45.97,76.06|N|Activate the Buzzer. It looks like a torch to the right of the locked door.|NC|
 T Nine's Plan|QID|14408|M|42.22,76.12|N|To Subject Nine.|
@@ -204,7 +203,7 @@ C Ticker Required|QID|14485|M|34.30,48.21;34.06,51.64|CN|N|Bring Ticker into the
 K Head of the Snake|ACTIVE|14484|M|36.01,49.87|QO|1|N|Kill Lord Kassarus. Pick up the Impaling Spines he throws and throw them back during the fight.|U|49649|
 C Still Beating Heart|QID|14487|M|31.92,50.20|N|Recover the Heart of Arkkoroc from the center of the Ruins of Eldarath.|U|49629|
 l Handling the Goods|ACTIVE|14486|M|35.11,49.95|QO|1|N|Collect 12 Highborne Tablets from the Ruins of Eldarath.|U|49629|US|
-K Extermination|ACTIVE|14480|M|33.49,48.16|N|Kill 30 Spitelash Naga in the Ruins of Eldarath.|U|49629|US|
+K Extermination|ACTIVE|14480|M|33.49,48.16|QO|1|N|Kill 30 Spitelash Naga in the Ruins of Eldarath.|U|49629|US|
 T Still Beating Heart|QID|14487|M|34.34,44.89|N|To Captain Tork.|
 T Head of the Snake|QID|14484|M|34.44,44.77|N|To Sergeant Zelks.|
 T Ticker Required|QID|14485|M|34.44,44.77|N|To Sergeant Zelks.|
