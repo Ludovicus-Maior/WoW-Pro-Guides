@@ -68,25 +68,25 @@ T Another Warm Body|QID|14468|M|29.45,57.67|N|To Commander Molotov.|
 A Hand-me-downs|QID|14469|M|29.45,57.67|N|From Commander Molotov.|PRE|14468|RANK|2|
 A Military Breakthrough|QID|14470|M|29.38,57.61|N|From Glix Grindlock.|PRE|14468|RANK|2|
 C Hand-me-downs|QID|14469|M|27.75,54.06|N|Loot the Military Supplies from the Dead Soldier corpses in the central minefield.|S|NC|
-K Warlord Krellian|ACTIVE|14470|M|27.63,51.91|QO|1|N|Kill Warlord Krellen|
-l Military Breakthrough|ACTIVE|14470|M|27.63,51.91|QO|2|N|Loot the SFG from the floor|NC|
+K Warlord Krellian|ACTIVE|14470|M|27.63,51.91|QO|1|N|Kill Warlord Krellian.|
+l Military Breakthrough|ACTIVE|14470|M|27.70,51.87|QO|2|N|Loot the SFG from the ground beside Warlord Krellian.|NC|
 C Hand-me-downs|QID|14469|M|27.75,54.06|N|Loot the Military Supplies from the Dead Soldier corpses in the central minefield.|US|NC|
 T Military Breakthrough|QID|14470|M|29.38,57.61|N|To Glix Grindlock.|
 T Hand-me-downs|QID|14469|M|29.46,57.67|N|To Commander Molotov.|
 A First Degree Mortar|QID|14471|M|29.10,57.94|N|From Xiz "The Eye" Salvoblast.|PRE|14468|RANK|2|
-C First Degree Mortar|QID|14471|M|31.10,57.63|N|Use a Goblin Mortar to slaughter 60 Spitelash Attackers.|
+C First Degree Mortar|QID|14471|M|31.10,57.63|N|Use a Bilgewater Mortar to slaughter 60 Spitelash Attackers.|V|
 T First Degree Mortar|QID|14471|M|29.10,57.94|N|To Xiz "The Eye" Salvoblast.|
 A In The Face!|QID|14472|M|29.38,57.61|N|From Glix Grindlock.|PRE|14469&14470&14471|RANK|2|
-C In The Face!|QID|14472|M|31.44,60.75|N|Use an SFG to kill an Enslaved Son of Arkkoroc in the southern minefield.|U|49700|
+C In The Face!|QID|14472|M|31.44,60.75|N|Use an SFG to kill an Enslaved Son of Arkkoroc in the southern minefield.|T|Enslaved|U|49700|
 T In The Face!|QID|14472|M|29.38,57.61|N|To Glix Grindlock.|
 A Profitability Scouting|QID|24452|M|29.46,57.67|N|From Commander Molotov.|PRE|14472|RANK|2|
 C Profitability Scouting|QID|24452|M|31.31,49.92|N|Use the stealth field generator to infiltrate the Ruins of Eldarath and identify the Heart of Arkkoroc.|U|49701|NC|
 T Profitability Scouting|QID|24452|M|29.46,57.67|N|To Commander Molotov.|
 A Private Chat|QID|24453|M|29.46,57.67|N|From Commander Molotov.|PRE|24452|RANK|2|
-T Private Chat|QID|24453|M|29.52,66.84|N|Back to the Orgrimmar Rocketway Exchange, to Private Worcester.|
+T Private Chat|QID|24453|M|29.52,66.84|N|To Private Worcester back at the Orgrimmar Rocketway Exchange.|
 A A Thousand Stories in the Sand|QID|14201|M|29.68,66.88|N|From Malynea Skyreaver.|PRE|24453|
-A Survey the Lakeshore|QID|14202|M|29.59,66.85|N|From Custer Clubnik.|PRE|24453|
-C A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|N|Collect Recovered Artifacts.|S|
+A Survey the Lakeshore|QID|14202|M|29.59,66.85|N|From Custer Clubnik (he moves around a bit).|PRE|24453|
+l A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|QO|1|N|Collect Recovered Artifacts.|S|
 C Survey North Marker|QID|14202|M|34.69,71.57|QO|2|N|Stand next to the Survey Equipment and protect the Surveyor until you get the completion for that section.|U|48665|
 C Survey East Marker|QID|14202|M|37.37,74.61|QO|3|N|Stand next to the Survey Equipment and protect the Surveyor until you get the completion for that section.|U|48665|
 C Survey the Lakeshore|QID|14202|M|34.29,76.62|QO|1|N|Stand next to the Survey Equipment and protect the Surveyor until you get the completion for that section.|U|48665|
