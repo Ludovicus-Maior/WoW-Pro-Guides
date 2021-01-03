@@ -244,6 +244,7 @@ end
 
 
 function WoWPro.toboolean(v)
+    v = tonumber(v) or v  -- Catch numeric strings
     if type(v) == "string" then
         v = v:lower()
         if v == "true" then
