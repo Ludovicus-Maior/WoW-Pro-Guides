@@ -97,17 +97,18 @@ T Survey the Lakeshore|QID|14202|M|29.59,66.85|N|To Custer Clubnik, who wanders.
 C Memories of the Dead|QID|14215|M|36.57,72.50|N|Talk to the Spirit of Kalytha (she moves around).\n[color=FF0000]NOTE: [/color]Once you do this, you will receive a 10 minute buff so you can complete the quest.|BUFF|67704|CHAT|
 C Memories of the Dead|QID|14215|M|37.52,74.53|N|Once you've done that, continue to Archmage Selwyn and talk to her.\n[color=FF0000]NOTE: [/color]If she's not there, you need to go back and get the buff from the Spirit of Kalytha again.|CHAT|
 T Memories of the Dead|QID|14215|M|PLAYER|N|(UI Alert)|
-A Mystery of the Sarcen Stone|QID|14216|M|PLAYER|N|(UI Alert)|PRE|14215|
-C Mystery of the Sarcen Stone|QID|14216|M|35.52,75.28|N|Open the Ancient Stone Cask at the bottom of the Lake.|
-T Mystery of the Sarcen Stone|QID|14216|M|29.66,66.88|N|To Malynea Skyreaver.|
+A Mystery of the Sarcen Stone|QID|14216|M|PLAYER|N|(UI Alert)\n[color=FF0000]NOTE: [/color]This quest is currently bugged and the UI Alert may not give you the quest. If this does happen, close this step manually.|PRE|14215|
+A Mystery of the Sarcen Stone|AVAILABLE|14216|M|29.67,66.88|N|(UI Alert)\n[color=FF0000]NOTE: [/color]This quest is currently bugged. You have to go to Malynea Skyreaver in Orgrimmar Rocketway Exchange to get it.|PRE|14215|
+C Mystery of the Sarcen Stone|QID|14216|M|35.57,75.30|N|Open the Ancient Stone Cask at the bottom of the Lake.|
+T Mystery of the Sarcen Stone|QID|14216|M|29.66,66.88|N|To Malynea Skyreaver in Orgrimmar Rocketway Exchange.|
 A Gunk in the Trunk|QID|14209|M|29.71,67.11|N|From Custer Clubnik.|PRE|14202|
-C Gunk in the Trunk|QID|14209|M|30.02,67.37|N|Click on the Dozer and kill the Ectoplasmic Exhaust that appears. Loot the sample.|
-T Gunk in the Trunk|QID|14209|M|29.73,67.15|N|To Custer Clubnik, who wanders.|
-A Dozercism|QID|14423|M|29.73,67.15|N|From Custer Clubnik, who wanders.|PRE|14209|
-C Dozercism|QID|14423|M|28.94,66.54|N|Use the Blessed Flaregun by Clubnik's Dozer. Be sure you have the Dozer targeted when the priest appears, or it is hard to target it afterwards.|U|49350|
-T Dozercism|QID|14423|M|29.62,67.07|N|To Custer Clubnik, who wanders.|
-A Need More Science|QID|14424|M|29.62,67.07;29.39,66.63|CS|N|From Custer Clubnik. Ride the lift to the top of the tower and talk to the goblin for a rocket ride to the Southern Rocketway Terminus.|LEAD|14308|PRE|14423|
-F Southern Rocketway Terminus|QID|14424|M|29.47,66.22|N|Go to the top of the tower, talk to the Bilgewater Rocket-jockey and ride the rocket to Southern Rocketway Terminus.|
+C Gunk in the Trunk|QID|14209|M|30.10,67.23|N|Click on the Dozer and kill the Ectoplasmic Exhaust that appears. Loot the sample.|
+T Gunk in the Trunk|QID|14209|M|29.65,66.97|N|To Custer Clubnik, who wanders.|
+A Dozercism|QID|14423|M|29.65,66.97|N|From Custer Clubnik, who wanders.|PRE|14209|
+C Dozercism|QID|14423|M|29.65,66.97|N|Use the Blessed Flaregun to start the quest. When the Dozer becomes hostile, attack and defeat it.|T|Clubnik's Dozer|U|49350|
+T Dozercism|QID|14423|M|29.65,66.97|N|To Custer Clubnik, who wanders.|
+A Need More Science|QID|14424|M|29.39,66.63|N|From Custer Clubnik.|LEAD|14308|PRE|14423|
+F Southern Rocketway Terminus|QID|14424|M|29.47,66.22|N|Take the lift up the tower and ask the Bilgewater Rocket-jockey for a ride to Southern Rocketway Terminus.|
 f Southern Rocketway|QID|14424|M|51.49,74.28|N|Get flight point from Friz Groundspin|
 T Need More Science|QID|14424|M|50.41,74.29|N|To Assistant Greely.|
 A When Science Attacks|QID|14308|M|50.41,74.29|N|From Assistant Greely.|
