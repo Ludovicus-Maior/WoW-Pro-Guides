@@ -442,7 +442,7 @@ C Monster Hunting|QID|58447|M|24.35,48.03|Z|Ardenweald!The Shadowlands|QO|3|NC|N
 T Monster Hunting|QID|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
 A Acid Reflux|QID|58449|PRE|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
 A Anima Instincts|QID|58450|PRE|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
-F Claw's Edge|ACTIVE|58449|M|35.15,51.68|Z|The Trunk@Heart of the Forest!Dungeon|N|Tishereenelee is the flightmaster.|COV|Night Fae|
+F Claw's Edge|ACTIVE|58449|M|35.22,51.76|Z|Ardenweald!The Shadowlands|N|Tishereenelee is the flightmaster.|COV|Night Fae|
 C Acid Reflux|QID|58449|M|51.28,71.19|Z|Ardenweald!The Shadowlands|S|NC|N|Use the "[color=40C7EB]Pacify Gorm[/color]" button to "Pacify" the Gorm, pick up the Digestive leftovers.|EAB|COV|Night Fae|
 C Anima Instincts|QID|58450|M|51.85,76.25|Z|Ardenweald!The Shadowlands|N|The wildseed are all over the place in this location.|COV|Night Fae|
 C Acid Reflux|QID|58449|M|51.70,79.18|Z|Ardenweald!The Shadowlands|QO|2|US|N|Use the "[color=40C7EB]Pacify Gorm[/color]" button to "Pacify" the Gorm, pick up the Digestive leftovers.|EAB|COV|Night Fae|
@@ -1539,10 +1539,9 @@ T The Medallion of Dominion|QID|58407|M|51.69,37.47|Z|Sinfall Reaches@Sinfall!Du
 ;N Necrolord Campaign|QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Necrolord|
 ; Chapter 1
 A Taking The Seat|QID|58609|M|42.97,74.24|Z|Ring of Fates@Oribos|N|From Secutor Mevix.|COV|Necrolord|
-P Ring of Transference|ACTIVE|58609|M|52.08,57.83|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Necrolord|
-F Bleak Redoubt|ACTIVE|58609|M|60.91,68.62|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Bleak Redoubt.|COV|Necrolord|
+P Ring of Transference|ACTIVE|58609|M|52.08,57.83|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|IZ|Oribos|COV|Necrolord|
+F Bleak Redoubt|ACTIVE|58609|M|60.91,68.62|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Bleak Redoubt.|IZ|Oribos|COV|Necrolord|
 C Taking The Seat|QID|58609|M|60.91,68.62|Z|Ring of Transference@Oribos|QO|1|NC|N|Fly to the Bleak Redoubt in Maldraxxus.|COV|Necrolord|
-h Seat of the Primus|ACTIVE|58609|M|47.02,29.95|Z|Seat of the Primus!Dungeon|N|At Tapani Nightwish. I would suggest setting your hearthstone here to save a lot of time if you're gonna working on Covenant.|COV|Necrolord|
 C Taking The Seat|QID|58609|M|51.28,20.15|Z|Seat of the Primus!Dungeon|QO|2|NC|N|Report to Baroness Draka in the Seat of the Primus.|COV|Necrolord|
 T Taking The Seat|QID|58609|M|49.52,21.86|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Welcome To Our House|QID|59556|PRE|58609|M|49.52,21.86|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
@@ -1561,8 +1560,9 @@ A Glorious Ambition|QID|62834|PRE|62833|M|46.51,40.17|Z|Seat of the Primus!Dunge
 C Glorious Ambition|QID|62834|M|46.51,40.17|Z|Seat of the Primus!Dungeon|CHAT|N|Speak with Elspeth Larink to examine Sanctum Upgrades and Renown.|COV|Necrolord|
 T Glorious Ambition|QID|62834|M|46.51,40.17|Z|Seat of the Primus!Dungeon|N|To Elspeth Larink.|COV|Necrolord|
 A A Call to Service|QID|62835|PRE|62834|M|46.51,40.17|Z|Seat of the Primus!Dungeon|N|From Elspeth Larink.|COV|Necrolord|
+h Seat of the Primus|ACTIVE|58609|M|47.02,29.95|Z|Seat of the Primus!Dungeon|N|At Tapani Nightwish. I would suggest setting your hearthstone here to save a lot of time if you're gonna working on Covenant.|COV|Necrolord|
 T A Call to Service|QID|62835|M|47.66,28.63|Z|Seat of the Primus!Dungeon|N|To Sergeant Romark.|COV|Necrolord|
-A A Calling in Maldraxxus|QID|62694|PRE|62835|M|47.66,28.63|Z|Seat of the Primus!Dungeon|N|From Sergeant Romark. Even though this is flagged as a daily, it is required.|COV|Necrolord|
+A A Calling in Maldraxxus|QID|62694|AVAILABLE|62840|PRE|62835|M|47.66,28.63|Z|Seat of the Primus!Dungeon|N|From Sergeant Romark. Even though this is flagged as a daily, it is required.|COV|Necrolord|
 C A Calling in Maldraxxus|QID|62694|Z|Maldraxxus|QO|1|NC|N|Complete 3 World Quests in Maldraxxus.|COV|Necrolord|
 H Seat of the Primus|ACTIVE|62694|M|PLAYER|Z|Maldraxxus|N|Use your Hearthstone back to the Seat of the Primus.|COV|Necrolord|
 T A Calling in Maldraxxus|QID|62694|M|47.64,28.72|Z|Seat of the Primus!Dungeon|N|To Sergeant Romark.|COV|Necrolord|
@@ -1588,10 +1588,10 @@ C Collect Stygia|QID|60287|M|32.19,40.17|Z|The Maw|QO|3|N|Killing enemies, and o
 C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 60 Stygia.|COV|Necrolord|
 T Rule 1: Have an Escape Plan|QID|60287|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Necrolord|
 A Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60287|COV|Necrolord|
-C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|The Maw|QO|1<1|U|184314|T|Soul Ward|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Necrolord|
-C Rule 2: Keep a Low Profile|QID|61355|M|48.20,40.21|Z|The Maw|QO|1<2|U|184314|T|Soul Ward|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Necrolord|
-C Rule 2: Keep a Low Profile|QID|61355|M|48.41,41.82|Z|The Maw|QO|1<3|U|184314|T|Soul Ward|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Necrolord|
-C Rule 2: Keep a Low Profile|QID|61355|M|47.20,43.16|Z|The Maw|QO|1<4|U|184314|T|Soul Ward|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Necrolord|
+C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|The Maw|QO|1<1|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Necrolord|
+C Rule 2: Keep a Low Profile|QID|61355|M|48.20,40.21|Z|The Maw|QO|1<2|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Necrolord|
+C Rule 2: Keep a Low Profile|QID|61355|M|48.41,41.82|Z|The Maw|QO|1<3|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Necrolord|
+C Rule 2: Keep a Low Profile|QID|61355|M|47.20,43.16|Z|The Maw|QO|1<4|NC|N|Target the Soul Wards and then use the Broker Device.|COV|Necrolord|
 T Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.70|Z|The Maw|N|To Ve'nari.|COV|Necrolord|
 A Rule 3: Trust is Earned|QID|60289|M|46.91,41.70|Z|The Maw|N|From Ve'nari.|COV|Necrolord|
 C Rule 3: Trust is Earned|QID|60289|M|34.98,47.68|Z|The Maw|QO|1|NC|N|Place the Signaling Beacon.|COV|Necrolord|
@@ -1633,8 +1633,8 @@ P Ring of Fates|ACTIVE|63032|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take 
 T The Highlord Calls|QID|63032|M|39.94,68.55|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Necrolord|
 
 ; Chapter 3
-N Renown Level 5|AVAILABLE|62448|N|You must reach Renown level 5 to continue to the next chapter.|COV|Necrolord|REN|-5|
-A Securing the House|QID|62448|PRE|59609|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|5|
+A Securing the House|QID|62448|PRE|59609|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
+C Renown Level 5|QID|62448|NC|N|You must reach Renown level 5 to continue to the next chapter.|COV|Necrolord|
 T Securing the House|QID|62448|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Enemy at the Door|QID|59555|PRE|62448|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|5|
 C Enemy at the Door|QID|59555|M|52.84,67.68|Z|Maldraxxus|QO|1|V|N|Hop onto Ragewing.|COV|Necrolord|
@@ -1678,8 +1678,8 @@ H Seat of the Primus|ACTIVE|57648|M|50.72,15.57|Z|Maldraxxus|N|Hearth back or ot
 T The Impossible Plan|QID|57648|M|49.74,50.75|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 
 ; Chapter 4
-N Renown Level 8|AVAILABLE|62169|N|You must reach Renown level 8 to continue to the next chapter.|COV|Necrolord|REN|-8|
-A Eyes to the Sky|QID|62169|PRE|57648|M|49.74,50.75|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|8|
+A Eyes to the Sky|QID|62169|PRE|57648|M|49.74,50.75|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
+C Renown Level 8|QID|62169|NC|N|You must reach Renown level 8 to continue to the next chapter.|COV|Necrolord|
 T Eyes to the Sky|QID|62169|M|49.74,50.75|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A The Maldraxxian Job|QID|57778|PRE|62169|M|49.74,50.75|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|8|
 F Keres' Rest|ACTIVE|57778|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|COV|Necrolord|
@@ -1712,9 +1712,9 @@ C Keys to the Ruin|QID|61569|M|29.46,44.48|Z|Maldraxxus|QO|3|N|Kill Vo'treus the
 T Keys to the Ruin|QID|61569|M|29.62,43.97|Z|Maldraxxus|N|To Khaliiq.|COV|Necrolord|
 A This Way Out|QID|61594|PRE|61569|M|29.62,43.97|Z|Maldraxxus|N|From Khaliiq.|COV|Necrolord|REN|8|
 C This Way Out|QID|61594|M|29.58,43.90|Z|Maldraxxus|QO|1|CHAT|N|Speak with Twigin so it can fly you to the Zerekriss.|COV|Necrolord|
-T This Way Out|QID|61594|M|36.32,52.67|Z|Maldraxxus|N|To Whisperer Vyn.|COV|Necrolord|
-A Grand Theft Necropolis|QID|59722|PRE|61594|M|38.82,56.52|Z|Maldraxxus|N|From Whisperer Vyn. \n\n Note: Necropolis is moving so coordinates are impossible while in here.|COV|Necrolord|REN|8|
-A Search the Place|QID|61869|PRE|61594|Z|Maldraxxus|N|From Whisperer Vyn.|COV|Necrolord|REN|8|
+T This Way Out|QID|61594|M|29.68,44.21|Z|Maldraxxus|N|To Whisperer Vyn.|COV|Necrolord|
+A Grand Theft Necropolis|QID|59722|PRE|61594|M|PLAYER|Z|Maldraxxus|N|From Whisperer Vyn. \n\n Note: Necropolis is moving so coordinates are impossible while in here.|COV|Necrolord|REN|8|
+A Search the Place|QID|61869|PRE|61594|M|PLAYER|Z|Maldraxxus|N|From Whisperer Vyn.|COV|Necrolord|REN|8|
 C Search the Place|QID|61869|Z|Maldraxxus|QO|2|NC|N|Use Transport Pad: Zerekriss Upper Floor.|COV|Necrolord|
 C Search the Place|QID|61869|Z|Maldraxxus|QO|1|NC|N|Click on the chest to loot the Bindings of Fleshcrafting.|COV|Necrolord|
 C Grand Theft Necropolis|QID|59722|Z|Maldraxxus|NC|N|Take the gate to travel to the Seat of the Primus.|COV|Necrolord|
@@ -1785,9 +1785,9 @@ C The Golden Dawn|QID|59894|M|50.39,70.56|Z|Maldraxxus|NC|N|Meet with Draka.|COV
 T The Golden Dawn|QID|59894|M|50.39,70.56|Z|Maldraxxus|N|To Baroness Draka.|COV|Necrolord|
 
 ; Chapter 6
-N Renown Level 13|AVAILABLE|61586|N|You must reach Renown level 13 to continue to the next chapter.|COV|Necrolord|REN|-13|
-A Machinations of War|QID|61586|PRE|59894|M|50.39,70.56|Z|Maldraxxus|N|From Baroness Draka.|COV|Necrolord|REN|13|
-P Seat of the Primus|ACTIVE|61586|M|50.39,73.99|Z|Maldraxxus|N|Take the gate to Seat of the Primus.|COV|Necrolord|
+A Machinations of War|QID|61586|PRE|59894|M|50.39,70.56|Z|Maldraxxus|N|From Baroness Draka.|COV|Necrolord|
+P Seat of the Primus|ACTIVE|61586|M|50.39,73.99|Z|Maldraxxus|IZ|Bleak Redoubt|N|Take the gate to Seat of the Primus.|COV|Necrolord|REN|-13|
+C Renown Level 13|QID|61586|NC|N|You must reach Renown level 13 to continue to the next chapter.|COV|Necrolord|
 T Machinations of War|QID|61586|M|49.73,50.70|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Take The Fight To Them|QID|61145|PRE|61586|M|49.73,50.70|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|13|
 C Take The Fight To Them|QID|61145|M|62.98,34.28|Z|Seat of the Primus!Dungeon|NC|N|Take the portal to the Zerekriss.|COV|Necrolord|
@@ -1860,8 +1860,8 @@ C Pride of Place|QID|57636|M|49.65,54.63|Z|Seat of the Primus!Dungeon|NC|N|Click
 T Pride of Place|QID|57636|M|49.77,50.67|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 
 ; Chapter 7
-N Renown Level 17|AVAILABLE|62161|N|You must reach Renown level 17 to continue to the next chapter.|COV|Necrolord|REN|-17|
-A Blood from a Bone|QID|62161|PRE|57636|M|49.77,50.67|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|17|
+A Blood from a Bone|QID|62161|PRE|57636|M|49.77,50.67|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
+C Renown Level 17|QID|62161|N|You must reach Renown level 17 to continue to the next chapter.|COV|Necrolord|
 T Blood from a Bone|QID|62161|M|49.77,50.67|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Accusatory Missive|QID|58504|PRE|62161|M|49.77,50.67|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|17|
 F Absolution Crypt|ACTIVE|58504|M|52.46,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Absolution Crypt.|COV|Necrolord|

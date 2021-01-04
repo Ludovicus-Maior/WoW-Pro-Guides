@@ -275,6 +275,12 @@ DefineTag("L","lootitem","string",nil,function(text,i)
         end
     end
 end)
+
+-- Craft, Mats and ProfNote Tags for Profession Make lines
+DefineTag("CRAFT","craft","string",nil,nil)
+DefineTag("MATS","mats","string",nil,nil)
+DefineTag("PN","pn","string",nil,nil)
+
 DefineTag("QO","questtext","string",nil,nil)
 DefineTag("SO","sobjective","string",nil,nil)
 
