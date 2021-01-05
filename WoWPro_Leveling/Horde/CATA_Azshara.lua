@@ -113,10 +113,10 @@ f Southern Rocketway|QID|14424|M|51.49,74.28|N|Get flight point from Friz Ground
 T Need More Science|QID|14424|M|50.41,74.29|N|To Assistant Greely.|
 A When Science Attacks|QID|14308|M|50.41,74.29|N|From Assistant Greely.| ; Storyline
 A Mortar the Point|QID|14258|M|52.22,74.23|N|From Bombardier Captain Smooks.| ; Storyline
-C Mortar the Point|QID|14258|M|43.11,77.18|N|Collect Mortar shells.|S|
+l Mortar the Point|QID|14258|M|43.11,77.18|QO|1|N|Collect Mortar shells.|S|
 C When Science Attacks|QID|14308|M|43.39,76.07|N|Put out Lab fires, and put out Research Interns that are on fire.|U|49132|S|NC|
 A Bad Science! Bad!|QID|14322|M|45.09,75.46|N|From Twistex Happytongs.|
-A Nine's Plan|QID|14408|M|42.19,76.13|N|From Subject Nine.| ; Storyline - Subject Nine from Space!
+A Nine's Plan|QID|14408|M|42.23,76.09|N|From Subject Nine.\n[color=FF0000]NOTE: [/color]Cut through the Secret lab and climb the hill on the other side. Go out the right side if you want to avoid "Subject Fear".| ; Storyline - Subject Nine from Space!
 K Bad Science! Bad!|ACTIVE|14322|M|44.40,79.00|QO|1|N|Kill Static-Charged Hippogryphs.|
 T Bad Science! Bad!|QID|14322|M|45.06,75.53|N|To Twistex Happytongs.|
 C Nine's Plan|QID|14408|M|45.97,76.06|N|Activate the Buzzer. It looks like a torch to the right of the locked door.|NC|
@@ -124,7 +124,7 @@ T Nine's Plan|QID|14408|M|42.22,76.12|N|To Subject Nine.|
 A Raptor Raptor Rocket|QID|14422|M|42.22,76.12|N|From Subject Nine.|PRE|14408| ; Storyline - Subject Nine from Space!
 C Raptor Raptor Rocket|QID|14422|M|42.21,76.09|N|Go back down, Free 5 raptors and return to Subject Nine with them.|
 T Raptor Raptor Rocket|QID|14422|M|42.21,76.09|N|To Subject Nine.|
-C Mortar the Point|QID|14258|M|43.11,77.18|N|Collect Mortar shells.|US|
+l Mortar the Point|QID|14258|M|43.11,77.18|QO|1|N|Collect Mortar shells.|US|
 C When Science Attacks|QID|14308|M|43.39,76.07|N|Put out Lab fires, and put out Research Interns that are on fire.|U|49132|US|NC|
 T When Science Attacks|QID|14308|M|43.80,77.36|N|To the Secret Lab Squawkbox.|
 A Segmentation Fault: Core Dumped|QID|14310|M|43.80,77.36|N|From the Secret Lab Squawkbox.|PRE|14308| ; Storyline
