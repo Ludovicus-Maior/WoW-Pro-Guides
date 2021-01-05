@@ -1,4 +1,4 @@
--- luacheck: globals select tonumber tostring type max math
+-- luacheck: globals select tonumber tostring type max min math
 
 --------------------------------------
 --      WoWPro_Profession_Parser      --
@@ -34,7 +34,7 @@ function WoWPro.Profession:PreRowUpdate(row)
     -- Break down the current step and re-create
     if WoWPro.prof[k] then
 		WoWPro.step[k] = WoWPro.ExpandMarkup(WoWPro.step[k])
-		local _, profnum, proflvl, pflip, profmaxlvl = (";"):split(WoWPro.prof[k])
+		local _, profnum, proflvl, _, profmaxlvl = (";"):split(WoWPro.prof[k])
 		if proflvl == '*' then proflvl = 301 end -- Set to the maximum level obtainable in the expansion plus 1
 		if not proflvl then
 			WoWPro.Profession:Error("P tag [%s] malformed at [%s] QID %s", WoWPro.prof[k], WoWPro.step[k], tostring(WoWPro.QID[k]))
@@ -50,7 +50,8 @@ function WoWPro.Profession:PreRowUpdate(row)
 				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = _G.GetProfessions()
 				for p=1,6 do
 					if profs[p] then
-						local _, skillLoc, skillRank, _, _, _, skillnum, rankModifier = _G.GetProfessionInfo(profs[p])
+						local _, _, skillRank, _, _, _, skillnum, rankModifier = _G.GetProfessionInfo(profs[p])
+						--  _, skillLoc, ...   skillLoc changed to _ it is needed for Target 
 						if (tonumber(skillnum) == tonumber(profnum)) then
 							-- How take racial bonuses into account using rankModifier
 							if WoWPro.action[k] == "M" then
@@ -59,7 +60,8 @@ function WoWPro.Profession:PreRowUpdate(row)
 							end
 --							row.targeticon:SetTexture(skillLoc)											-- target function not working right, commented out.
 							local m = {(";"):split(WoWPro.mats[k])}
-							local CraftItem, CraftQty = (" "):split(WoWPro.craft[k])					-- Split CraftItem and CraftQty from the CRAFT tag.
+							local _, CraftQty = (" "):split(WoWPro.craft[k])					-- Split (_)CraftItem and CraftQty from the CRAFT tag.
+							-- temporarily CraftItem is set to _ as CraftItem is not used at this time.
 							WoWPro.note[k] = ""
 							WoWPro.note[k] = WoWPro.note[k]..' [color=FFFFFF]Craft from '.. tostring(skillRank) ..' to '.. tostring(proflvl)..': Craft upto '..tostring(CraftQty)..' using:[/color]\n '
 							for j=1,#m do
@@ -70,7 +72,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 										WoWPro.Profession:Error("%s step %s tag M for [%s] malformed at [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mat[k],m[j])
 									end
 									WoWPro.Profession:dbp("Qty %s, k=%d",tostring(CraftQty),k)			-- may need changing to new info.
-									MatsAmt = MatsQty * (proflvl-skillRank)								-- take MatsQty to expand with Prof lvl difference.
+									local MatsAmt = MatsQty * (proflvl-skillRank)						-- take MatsQty to expand with Prof lvl difference.
 --									local skillpoints = (profmaxlvl - proflvl)/(CraftQty)				-- left over from Old guide handling / I think needed to make target work.
 --									if j == 1 then
 --										WoWPro.target[k] = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)		-- commented out, currently not working.
@@ -88,32 +90,34 @@ function WoWPro.Profession:PreRowUpdate(row)
 				end
 --  Old guide handling, until all changed over.
 			elseif not WoWPro.CLASSIC and WoWPro.action[k] == "N" then
-	if WoWPro.action[k] == "N" then
+--  this was at beginning of old, thought it was needed to procress... things seem to work with it all commented out.
+--	if WoWPro.action[k] == "N" then
 		-- Verify the mat line
-		local numMATs = select("#", (":"):split(WoWPro.mat[k]))
-		local m = {}
-		m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = (":"):split(WoWPro.mat[k])
-		for j=1,tonumber(numMATs) do
-			local numItem = select("#", (";"):split(m[j]))
-			if numItem > 1 then
-				local Qty, Item, Mats, Tot = (";"):split(m[j])
-				if tonumber(Qty) == nil or type(Item) ~= "string" or tonumber(Mats) == nil or tonumber(Tot) == nil then
-					WoWPro.Profession:Error("Line [%s] tag N malformed at [%s]",text,m[j])
-				end
-			end
-		end
-	end
+--		local numMATs = select("#", (":"):split(WoWPro.mat[k]))
+--		local m = {}
+--		m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = (":"):split(WoWPro.mat[k])
+--		for j=1,tonumber(numMATs) do
+--			local numItem = select("#", (";"):split(m[j]))
+--			if numItem > 1 then
+--				local Qty, Item, Mats, Tot = (";"):split(m[j])
+--				if tonumber(Qty) == nil or type(Item) ~= "string" or tonumber(Mats) == nil or tonumber(Tot) == nil then
+--					WoWPro.Profession:Error("Line [%s] tag N malformed at [%s]",text,m[j])
+--				end
+--			end
+--		end
+--	end
 				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = _G.GetProfessions()
 				for p=1,6 do
 					if profs[p] then
-						local _, skillLoc, skillRank, _, _, _, skillnum, rankModifier = _G.GetProfessionInfo(profs[p])
+						local _, _, skillRank, _, _, _, skillnum, rankModifier = _G.GetProfessionInfo(profs[p])
+						  --  _, skillLoc, ...   skillLoc changed to _ it is needed for Target 
 						if (tonumber(skillnum) == tonumber(profnum)) then
 							if WoWPro.action[k] == "N" then
 								proflvl = max(proflvl-rankModifier,1)
 								profmaxlvl = min(profmaxlvl, max(profmaxlvl-rankModifier,1))
 							end
 							local craft = (":"):split(WoWPro.step[k])
-							row.targeticon:SetTexture(skillLoc)
+--							row.targeticon:SetTexture(skillLoc)
 							-- How take racial bonuses into account using rankModifier
 							local numMATs = select("#", (":"):split(WoWPro.mat[k]))
 							local m = {}
@@ -168,7 +172,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 										WoWPro.Profession:Error("N step %s tag N for [%s] malformed at [%s]",WoWPro.step[k], WoWPro.mat[k],m[j])
 									end
 									WoWPro.Profession:dbp("Qty %s, k=%d",tostring(Qty),k)
-									local skillpoints = (proflvl-skillRank)/(Mats/Tot)
+--									local skillpoints = (proflvl-skillRank)/(Mats/Tot)  -- used by 'target'
 									Mats = (Tot*Qty) - (skillRank - math.ceil(proflvl/(Tot*Qty)))
 									if j == 1 then
 										WoWPro.step[k] = craft..': Craft these from '.. skillRank .. ' to '.. proflvl
