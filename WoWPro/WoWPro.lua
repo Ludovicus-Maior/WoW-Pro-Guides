@@ -253,7 +253,7 @@ function WoWPro.toboolean(v)
         if v == "false" then
             return false
         end
-        return nil
+        return false
     end
     if type(v) == "number" then
         return  v ~= 0
@@ -261,7 +261,7 @@ function WoWPro.toboolean(v)
     if type(v) == "boolean" then
         return v
     end
-    return nil
+    return false
 end
 WoWPro:Export("toboolean")
 
