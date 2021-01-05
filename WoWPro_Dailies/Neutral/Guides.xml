@@ -41,4 +41,5 @@
   <Script file="Ludo_PetWQ_Antoran.lua"/>
   <Script file="Ludo_PetWQ_Krokuun.lua"/>
   <Script file="Ludo_PetWQ_MacAree.lua"/>
+  <Script file="WotLK_ArgTour_N.lua"/>
 </Ui>
