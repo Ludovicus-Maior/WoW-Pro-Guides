@@ -50,12 +50,24 @@ function WoWPro.Dailies:RegisterGuide(guide)
     WoWPro:NoCache(guide)
 end
 
-function WoWPro.Dailies:GuideFaction(guide,faction)
-    guide.faction = tonumber(faction)
+function WoWPro.Dailies:GuideFaction(guide,faction, hfaction)
+    if not hfaction then
+        guide.faction = tonumber(faction)
+    else
+        if WoWPro.Faction == 'Alliance' then
+            guide.faction = tonumber(faction)
+        else
+            guide.faction = tonumber(hfaction)
+        end
+    end
+    guide.name = _G.GetFactionInfoByID(guide.faction)
+    guide.category = "Dailies"
 end
 
 function WoWPro.Dailies:GuideNameAndCategory(guide,name,cat)
-    guide.name = name
+    if name then
+        guide.name = name
+    end
     if cat then
         guide.category = cat
     else
