@@ -51,7 +51,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 				for p=1,6 do
 					if profs[p] then
 						local _, _, skillRank, _, _, _, skillnum, rankModifier = _G.GetProfessionInfo(profs[p])
-						--  _, skillLoc, ...   skillLoc changed to _ it is needed for Target 
+						--  _, skillLoc, ...   skillLoc changed to _ it is needed for Target
 						if (tonumber(skillnum) == tonumber(profnum)) then
 							-- How take racial bonuses into account using rankModifier
 							if WoWPro.action[k] == "M" then
@@ -110,7 +110,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 				for p=1,6 do
 					if profs[p] then
 						local _, _, skillRank, _, _, _, skillnum, rankModifier = _G.GetProfessionInfo(profs[p])
-						  --  _, skillLoc, ...   skillLoc changed to _ it is needed for Target 
+						  --  _, skillLoc, ...   skillLoc changed to _ it is needed for Target
 						if (tonumber(skillnum) == tonumber(profnum)) then
 							if WoWPro.action[k] == "N" then
 								proflvl = max(proflvl-rankModifier,1)
