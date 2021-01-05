@@ -6,15 +6,18 @@
 
 local guide = WoWPro:RegisterGuide("WotLK_ArgTour_N",'Dailies', "Icecrown", "Ludovicus", "Neutral")
 WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
-WoWPro.Dailies:GuideName(guide, "Argent Tourney Dailies")
 WoWPro:GuideSteps(guide, function()
+WoWPro:NoCache(guide)
+
 return [[
 
 ; Quick and dirty adding of Horde to the old Alliance guide, and moved to Neutral.  I know Nzall was asking about this, and was also trying himself to make a guide. This is here incase he doesn't and or to 'merge' that one here.
 ; this has been done by Blanckaert 4/Jan/2021
 
 N The Argent Tournament|N|Quests for the The Argent Tournament, for your faction, and MAYBE for the others too!|
+
 ; Setup Quests
+
 A The Argent Tournament|QID|13667^13668|M|69.6,22.8|N|From Justicar Mariel Trueheart.|
 T The Argent Tournament|QID|13667|M|76.4,19.4|N|To Arcanist Taelis.|FACTION|Alliance|
 T The Argent Tournament|QID|13668|M|76.2,24.2|N|To Magister Edien Sunhollow.|FACTION|Horde|
