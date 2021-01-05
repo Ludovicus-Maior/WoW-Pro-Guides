@@ -4,55 +4,50 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 
-local guide = WoWPro:RegisterGuide("WotLK_ArgTour_N",'Dailies', "Icecrown", "Ludovicus", "Neutral")
-WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
-WoWPro.Dailies:GuideName(guide, "Argent Tourney Dailies")
+local guide = WoWPro:RegisterGuide("WotLK_ArgTour_H",'Dailies', "Icecrown", "Ludovicus", "Horde")
+WoWPro.Dailies:GuideFaction(guide,1124) --  "Argent Tournament"
 WoWPro:GuideSteps(guide, function()
+WoWPro:NoCache(guide)
+
 return [[
 
 ; Quick and dirty adding of Horde to the old Alliance guide, and moved to Neutral.  I know Nzall was asking about this, and was also trying himself to make a guide. This is here incase he doesn't and or to 'merge' that one here.
 ; this has been done by Blanckaert 4/Jan/2021
+; Can't move to neutral, as different Guide Factions 1094 for alliance, 1124 for horde
 
 N The Argent Tournament|N|Quests for the The Argent Tournament, for your faction, and MAYBE for the others too!|
+
 ; Setup Quests
-A The Argent Tournament|QID|13667^13668|M|69.6,22.8|N|From Justicar Mariel Trueheart.|
-T The Argent Tournament|QID|13667|M|76.4,19.4|N|To Arcanist Taelis.|FACTION|Alliance|
+
+A The Argent Tournament|QID|13668|M|69.6,22.8|N|From Justicar Mariel Trueheart.|
 T The Argent Tournament|QID|13668|M|76.2,24.2|N|To Magister Edien Sunhollow.|FACTION|Horde|
 
-A Mastery Of Melee|QID|13828|M|76.4,19.4|PRE|13667|N|From Arcanist Taelis.|FACTION|Alliance|
+
 A Mastery Of Melee|QID|13829|M|76.2,24.2|PRE|13668|N|From Magister Edien Sunhollow.|FACTION|Horde|
-A Mastery Of The Charge|QID|13837|M|76.4,19.4|PRE|13667|N|From Avareth Swiftstrike.|FACTION|Alliance|
 A Mastery Of The Charge|QID|13839|M|76.2,24.2|PRE|13668|N|From Amariel Sunsworn.|FACTION|Horde|
-A Mastery Of The Shield-Breaker|QID|13835|M|76.4,19.4|PRE|13667|N|From Scout Shalyndria.|FACTION|Alliance|
 A Mastery Of The Shield-Breaker|QID|13838|M|76.2,24.2|PRE|13668|N|From Galathia Brightdawn.|FACTION|Horde|
 
-C Mastery Of Melee|ACTIVE|13828^13829^13837^13839^13835^13838|M|PLAYER|ITEM|46069|N|Equip your Lance, then head for Tha Aspirant's Ring for your mount.|FACTION|Alliance|
-C Mastery Of Melee|ACTIVE|13828^13829^13837^13839^13835^13838|M|PLAYER|ITEM|46070|N|Equip your Lance, then head for Tha Aspirant's Ring for your mount.|FACTION|Horde|
+C Mastery Of Melee|ACTIVE|13829^13838^13839|M|PLAYER|ITEM|46070|N|Equip your Lance, then head for Tha Aspirant's Ring for your mount.|FACTION|Horde|
 
-C Mastery Of Melee|ACTIVE|13828^13829|QO|1|M|72.47,19.29|N|Seek Jeran Lockwood's advice.|
-C Mastery Of The Charge|ACTIVE|13837^13839|QO|1|M|72.67,18.88|N|Seek Rugan Steelbelly's advice.|
-C Mastery Of The Shield-Breaker|ACTIVE|13835^13838|QO|1|M|73.20,19.24|N|Seek Valis Windchaser's advice.|
+C Mastery Of Melee|ACTIVE|13829|QO|1|M|72.47,19.29|N|Seek Jeran Lockwood's advice.|
+C Mastery Of The Charge|ACTIVE|13839|QO|1|M|72.67,18.88|N|Seek Rugan Steelbelly's advice.|
+C Mastery Of The Shield-Breaker|ACTIVE|13838|QO|1|M|73.20,19.24|N|Seek Valis Windchaser's advice.|
 
-C Mastery Of Melee|ACTIVE|13828^13829|QO|2|M|PLAYER|N|Use Thrust ability (1) on Melee Target 5 times.|
-C Mastery Of The Charge|ACTIVE|13837^13839|QO|2|M|PLAYER|N|Use Charge ability (3) on a Charge Target 5 times.|
-C Mastery Of The Shield-Breaker|ACTIVE|13835^13838|QO|2|M|PLAYER|N|Use Shield Breaker ability (2) on Melee Target 5 times.|
+C Mastery Of Melee|ACTIVE|13829|QO|2|M|PLAYER|N|Use Thrust ability (1) on Melee Target 5 times.|
+C Mastery Of The Charge|ACTIVE|13839|QO|2|M|PLAYER|N|Use Charge ability (3) on a Charge Target 5 times.|
+C Mastery Of The Shield-Breaker|ACTIVE|13838|QO|2|M|PLAYER|N|Use Shield Breaker ability (2) on Melee Target 5 times.|
 
-T Mastery Of The Charge|QID|13837|M|76.4,19.4|N|To Avareth Swiftstrike.|FACTION|Alliance|
 T Mastery Of The Charge|QID|13839|M|76.2,24.2|N|To Amariel Sunsworn.|FACTION|Horde|
-T Mastery Of The Shield-Breaker|QID|13835|M|76.4,19.4|N|To Scout Shalyndria.|FACTION|Alliance|
 T Mastery Of The Shield-Breaker|QID|13838|M|76.2,24.2|N|To Galathia Brightdawn.|FACTION|Horde|
-T Mastery Of Melee|QID|13828|M|76.4,19.4|N|To Arcanist Taelis.|FACTION|Alliance|
 T Mastery Of Melee|QID|13829|M|76.2,24.2|N|To Magister Edien Sunhollow.|FACTION|Horde|
 
-A Up To The Challenge|QID|13672|M|76.4,19.4|PRE|13828&13835&13837|N|From Arcanist Taelis.|FACTION|Alliance|
 A Up To The Challenge|QID|13678|M|76.4,19.4|PRE|13829&13839&13839|N|From Magister Edien Sunhollow.|FACTION|Horde|
 
 ; Black Knight Quest Chain
-A The Black Knight of Westfall?|QID|13633|M|69.43,23.02|N|From Crusader Rhydalla.|FACTION|Alliance|	; Need Pre?
+
 A The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|N|From Crusader Rhydalla.|FACTION|Horde|	; Need Pre?
 C The Black Knight of Westfall?|ACTIVE|13633|M|42.10,69.66|Z|Westfall|N|Get to Moonbrook in Westfall and look at the Dusty Journal.|FACTION|Alliance|
 C The Black Knight of Silverpine?|ACTIVE|13634|M|53.1,28.1|Z|Silverpine Forest|N|Get to just past the Forsaken Rear Guard in Silverpine Forest and read the Dusty Journal.|FACTION|Horde|
-T The Black Knight of Westfall?|QID|13633|M|69.43,23.02|N|To Crusader Rhydalla.|FACTION|Alliance|
 T The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|N|To Crusader Rhydalla.|FACTION|Horde|
 A The Seer's Crystal|QID|13641|PRE|13633^13634|M|69.43,23.02|N|From Crusader Rhydalla.|
 C The Seer's Crystal|ACTIVE|13641|M|46,42|Z|Crystalsong Forest|N|Kill Unbound Seer's to get the crystal.|
@@ -84,30 +79,20 @@ T The Black Knight's Fate|QID|14017|M|69.43,23.02|N|To Crusader Rhydalla.|
 
 ; Aspirant Quests
 
-A One of Three|QID|13666^13669^13670|LEAD|13679|M|76.47,19.40|N|From Arcanist Taelis, one of three quests.|FACTION|Alliance|
-A Learning The Reins|QID|13625|M|76.47,19.46|N|From Scout Shalyndria.|FACTION|Alliance|
-A Training In The Field|QID|13671|M|76.44,19.35|N|From Avareth Swiftstrike.|FACTION|Alliance|
-
 A One of Three|QID|13673^13674^13675|LEAD|13679|M|76.2,24.2|N|From Magister Edien Sunhollow, one of three quests.|FACTION|Horde|
 A Learning The Reins|QID|13677|M|76.2,24.2|N|From Galathia Brightdawn.|FACTION|Horde|
 A Training In The Field|QID|13676|M|76.2,24.2|N|From Amariel Sunsworn.|FACTION|Horde|
 
 C Learning The Reins|QID|13625|N|Mount up and go practice on the fields.|U|46069|
-C Training In The Field|QID|13671^13676|QO|1|M|PLAYER|N|Equip your regular weapon(s) and go kill any Scourge with Icecrown.|
+C Training In The Field|QID|13676|QO|1|M|PLAYER|N|Equip your regular weapon(s) and go kill any Scourge with Icecrown.|
 
-C A Blade Fit For A Champion|QID|13666^13673|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog,kiss|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
+C A Blade Fit For A Champion|QID|13673|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog,kiss|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
 
-C A Worthy Weapon|QID|13669^13674|M|68.75,76.38;72.62,73.12;70.56,74.71|L|194213 4|CN|N|Pick flowers along the Ironwall Dam.|
-C A Worthy Weapon|QID|13669^13674|M|93,26|Z|Dragonblight|U|194213|N|Use the stack of flowers within the circle outlined with the purple floating bouys. Loot the sword.|L|44978|
+C A Worthy Weapon|QID|13674|M|68.75,76.38;72.62,73.12;70.56,74.71|L|194213 4|CN|N|Pick flowers along the Ironwall Dam.|
+C A Worthy Weapon|QID|13674|M|93,26|Z|Dragonblight|U|194213|N|Use the stack of flowers within the circle outlined with the purple floating bouys. Loot the sword.|L|44978|
 
-C The Edge Of Winter|QID|13670^13675|M|55.5,74.9|Z|Crystalsong Forest|T|Lord Everblaze|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
-C The Edge Of Winter|QID|13670^13675|M|42.19,19.66|Z|Howling Fjord|N|Find the Maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
-
-T Training In The Field|QID|13671|M|76.44,19.35|N|To Avareth Swiftstrike.|FACTION|Alliance|
-T A Blade Fit For A Champion|QID|13666|M|76.47,19.40|N|To Arcanist Taelis.|FACTION|Alliance|
-T A Worthy Weapon|QID|13669|M|76.47,19.40|N|To Arcanist Taelis.|FACTION|Alliance|
-T The Edge Of Winter|QID|13670|M|76.47,19.40|N|To Arcanist Taelis.|FACTION|Alliance|
-T Learning The Reins|QID|13625|M|76.47,19.46|N|To Scout Shalyndria.|FACTION|Alliance|
+C The Edge Of Winter|QID|13675|M|55.5,74.9|Z|Crystalsong Forest|T|Lord Everblaze|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
+C The Edge Of Winter|QID|13675|M|42.19,19.66|Z|Howling Fjord|N|Find the Maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
 
 T Training In The Field|QID|13676|M|76.2,24.2|N|To Amariel Sunsworn.|FACTION|Horde|
 T A Blade Fit For A Champion|QID|13673|M|76.2,24.2|N|To Magister Edien Sunhollow.|FACTION|Horde|
@@ -116,13 +101,11 @@ T The Edge Of Winter|QID|13675|M|76.2,24.2|N|To Magister Edien Sunhollow.|FACTIO
 T Learning The Reins|QID|13677 |M|76.2,24.2|N|To Galathia Brightdawn.|FACTION|Horde|
 
 ; Finishing up being an Aspirant
-C Up To The Challenge|QID|13672|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals, come back another day.|FACTION|Alliance|
 C Up To The Challenge|QID|13678|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals, come back another day.|FACTION|Horde|
-
-T Up To The Challenge|QID|13672|M|76.47,19.40|N|To Arcanist Taelis.|FACTION|Alliance|
 T Up To The Challenge|QID|13678|M|76.2,24.2|N|To Magister Edien Sunhollow.|FACTION|Horde|
 
 ; Merge / rework with Horde done to this point, ALL based on Wowhead info.
+; all the below need changing to Horde.
 
 A The Aspirant's Challenge|QID|13679|PRE|13672|M|76.47,19.40|N|From Arcanist Taelis.|FACTION|Alliance|
 C The Aspirant's Challenge|QID|13679|PRE|13672|M|71.43,19.56|N|Mount up and stack up on your shields BEFORE talking to the Squire.  Favor charging your opponjent.|U|46069|

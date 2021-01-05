@@ -5,4 +5,5 @@
   <Script file="KatM_Thunder.lua"/>
   <Script file="Ludo_DomOffence.lua"/>
   <Script file="PilgrimsBounty.lua"/>
+  <Script file="WotLK_ArgTour_H.lua"/>
 </Ui>
