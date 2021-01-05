@@ -6,7 +6,7 @@
 
 local guide = WoWPro:RegisterGuide("WotLK_ArgTour_N",'Dailies', "Icecrown", "Ludovicus", "Neutral")
 WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
-WoWPro.Dailies:GuideName(guide, "Argent Tourney Dailies")
+WoWPro.Dailies:GuideName(guide, 'Argent Tourney Dailies')
 WoWPro:GuideSteps(guide, function()
 return [[
 
