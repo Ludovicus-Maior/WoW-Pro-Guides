@@ -215,55 +215,55 @@ WoWPro:GuideQuestTriggers(guide, 7905, 7926, 29443, 29444, 29445, 29446, 29451, 
 WoWPro:GuideSteps(guide, function()
 return [[
 
-B Fossil Archeology Fragments|M|83.6,61|Z|Vale of Eternal Blossoms|L|393 15|P|Archaeology;794;*;0;75|N|If you have some spare crated artifacts, You can use them to buy crates of fossil archeology fragments from Brann Bronzebeard at Mogu'shan palace, otherwise, you have to dig them up yourself.|LVL|90|RANK|3|
+B Fossil Archeology Fragments|QID|29507|M|83.6,61|Z|Vale of Eternal Blossoms|L|393 15|P|Archaeology;794;0+75|N|If you have some spare crated artifacts, You can use them to buy crates of fossil archeology fragments from Brann Bronzebeard at Mogu'shan palace, otherwise, you have to dig them up yourself.|LVL|35|RANK|3|
 
-B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Shadowforge City@BlackrockDepths|L|11325 10|U|37863|PET|14878;1|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths. Grab your Direbrew remote for a quick trip there. (Note: Jubling isn't tradeable)|RANK|3|
-B Imbued Crystal|QID|29443|N|Consider buying an "Imbued Crystal" in the AH if you don't have one.|L|71635|LVL|15|RANK|3|
-B Monstrous Egg|QID|29444|N|Consider buying a "Monstrous Egg" in the AH if you don't have one.|L|71636|LVL|15|RANK|3|
-B Mysterious Grimoire|QID|29445|N|Consider buying a "Mysterious Grimoire" in the AH if you don't have one.|L|71637|LVL|15|RANK|3|
-B Ornate Weapon|QID|29446|N|Consider buying an "Ornate Weapon" in the AH if you don't have one.|L|71638|LVL|15|RANK|3|
-B A Treatise on Strategy|QID|29451|N|Consider buying an "A Treatise on Strategy" in the AH if you don't have one.|L|71715|LVL|85|RANK|3|
-B Soothsayer's Runes|QID|29464|N|Consider buying an "Soothsayer's Runes" in the AH if you don't have one.|L|71716|LVL|85|RANK|3|
+B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Shadowforge City@BlackrockDepths|L|11325 10|U|37863|PET|14878;1|ITEM|11325|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths. Grab your Direbrew remote for a quick trip there. (Note: Jubling isn't tradeable)|RANK|3|
+B Imbued Crystal|QID|29443|N|Consider buying an "Imbued Crystal" in the AH if you don't have one.|L|71635|LVL|7|RANK|3|ITEM|71635|
+B Monstrous Egg|QID|29444|N|Consider buying a "Monstrous Egg" in the AH if you don't have one.|L|71636|LVL|7|RANK|3|ITEM|71636|
+B Mysterious Grimoire|QID|29445|N|Consider buying a "Mysterious Grimoire" in the AH if you don't have one.|L|71637|LVL|7|RANK|3|ITEM|71637|
+B Ornate Weapon|QID|29446|N|Consider buying an "Ornate Weapon" in the AH if you don't have one.|L|71638|LVL|7|RANK|3|ITEM|71638|
+B A Treatise on Strategy|QID|29451|N|Consider buying an "A Treatise on Strategy" in the AH if you don't have one.|L|71715|LVL|32|RANK|3|ITEM|71715|
+B Soothsayer's Runes|QID|29464|N|Consider buying an "Soothsayer's Runes" in the AH if you don't have one.|L|71716|LVL|32|RANK|3|ITEM|71716|
 
-B Banner of the Fallen|QID|29456|N|Consider buying a "Banner of the Fallen" in the AH if you don't have one.|L|71951|LVL|15|RANK|3|
-B Captured Insignia|QID|29457|N|Consider buying a "Fallen Adventurer's Journal" in the AH if you don't have one.|L|71952|LVL|15|RANK|3|
-B Fallen Adventurer's Journal|QID|29458|N|Consider buying a "Fallen Adventurer's Journal" in the AH if you don't have one.|L|71953|LVL|15|RANK|3|
+B Banner of the Fallen|QID|29456|N|Consider buying a "Banner of the Fallen" in the AH if you don't have one.|L|71951|LVL|7|RANK|3|ITEM|71951|
+B Captured Insignia|QID|29457|N|Consider buying a "Fallen Adventurer's Journal" in the AH if you don't have one.|L|71952|LVL|7|RANK|3|ITEM|71952|
+B Fallen Adventurer's Journal|QID|29458|N|Consider buying a "Fallen Adventurer's Journal" in the AH if you don't have one.|L|71953|LVL|7|RANK|3|ITEM|71953|
 
 A The Darkmoon Faire|QID|7905|M|62.20,32.29;62.41,73.03|CN|N|From Darkmoon Faire Mystic Mage who's near Dwarven District or the Trade District in Stormwind.|Z|Stormwind City|FACTION|Alliance|
 A The Darkmoon Faire|QID|7926|M|48.22,62.14|N|From Darkmoon Faire Mystic Mage who's near the flying trainer in Orgrimmar.|Z|Orgrimmar|FACTION|Horde|
 R Transport to Entrance|QID|7905|M|41.87,68.17|N|Talk to her again to get ported to the entrance.You can use her for future trips as well.|Z|Elwynn Forest|FACTION|Alliance|CC|
 R Transport to Entrance|QID|7926|M|36.49,35.11|N|Talk to her again to get ported to the entrance.You can use him for future trips as well.|Z|Thunder Bluff|FACTION|Horde|CC|
 
-B Moonberry Juice|QID|29506|M|43.76,65.88|L|1645 5|N|From Innkeeper Farley in the Lion's Pride Inn.|P|Alchemy;171;*;0;75|Z|Elwynn Forest|FACTION|Alliance|
-B Moonberry Juice|QID|29506|M|38.89,64.67|L|1645 5|N|From Kuruk of Kuruk's Goods in Thunder Bluff main elevator and to your right.|P|Alchemy;171;*;0;75|Z|Thunder Bluff|FACTION|Horde|
+B Moonberry Juice|QID|29506|M|43.76,65.88|L|1645 5|N|From Innkeeper Farley in the Lion's Pride Inn.|P|Alchemy;171;0+75|Z|Elwynn Forest|FACTION|Alliance|ITEM|1645|
+B Moonberry Juice|QID|29506|M|38.89,64.67|L|1645 5|N|From Kuruk of Kuruk's Goods in Thunder Bluff main elevator and to your right.|P|Alchemy;171;0+75|Z|Thunder Bluff|FACTION|Horde|ITEM|1645|
 
-B Simple Flour|QID|29509|M|41.87,67.04|L|30817 5|N|Purchase 5 from Tharynn Borden.|P|Cooking;185;*;0;75|Z|Elwynn Forest|FACTION|Alliance|
-B Simple Flour|QID|29509|M|40.6,63.6|L|30817 5|N|Purchase 5 from Shadi Mistrunner.|P|Cooking;185;*;0;75|Z|Thunder Bluff|FACTION|Horde|
+B Simple Flour|QID|29509|M|41.87,67.04|L|30817 5|N|Purchase 5 from Tharynn Borden.|P|Cooking;185;0+75|Z|Elwynn Forest|FACTION|Alliance|ITEM|30817|
+B Simple Flour|QID|29509|M|40.6,63.6|L|30817 5|N|Purchase 5 from Shadi Mistrunner.|P|Cooking;185;0+75|Z|Thunder Bluff|FACTION|Horde|ITEM|30817|
 
-B Light Parchment|QID|29515|M|41.87,67.04|L|39354 5|N|Purchase 5 from Tharynn Borden.|P|Inscription;773;*;0;75|Z|Elwynn Forest|FACTION|Alliance|
-B Light Parchment|QID|29515|M|40.28,63.41|L|39354 5|N|Purchase 5 from Shadi Mistrunner.|P|Inscription;773;*;0;75|Z|Thunder Bluff|FACTION|Horde|
+B Light Parchment|QID|29515|M|41.87,67.04|L|39354 5|N|Purchase 5 from Tharynn Borden.|P|Inscription;773;0+75|Z|Elwynn Forest|FACTION|Alliance|ITEM|39354|
+B Light Parchment|QID|29515|M|40.28,63.41|L|39354 5|N|Purchase 5 from Shadi Mistrunner.|P|Inscription;773;0+75|Z|Thunder Bluff|FACTION|Horde|ITEM|39354|
 
-B Coarse Thread|QID|29517|M|41.87,67.04|L|2320 5|N|Purchase 5 from Tharynn Borden.  Warning:  If you also have tailoring, get 6.|P|Leatherworking;165;*;0;75|Z|Elwynn Forest|FACTION|Alliance|
-B Coarse Thread|QID|29517|M|40.28,63.416|L|2320 5|N|Purchase 5 from Shadi Mistrunner. Warning:  If you also have tailoring, get 6.|P|Leatherworking;165;*;0;75|Z|Thunder Bluff|FACTION|Horde|
+B Coarse Thread|QID|29517|M|41.87,67.04|L|2320 5|N|Purchase 5 from Tharynn Borden.  Warning:  If you also have tailoring, get 6.|P|Leatherworking;165;0+75|Z|Elwynn Forest|FACTION|Alliance|ITEM|2320|
+B Coarse Thread|QID|29517|M|40.28,63.416|L|2320 5|N|Purchase 5 from Shadi Mistrunner. Warning:  If you also have tailoring, get 6.|P|Leatherworking;165;0+75|Z|Thunder Bluff|FACTION|Horde|ITEM|2320|
 
-B Shiny Bauble|QID|29517|M|41.87,67.04|L|6529 10|N|Purchase 10 from Tharynn Borden.|P|Leatherworking;165;*;0;75|Z|Elwynn Forest|FACTION|Alliance|
-B Shiny Bauble|QID|29517|M|40.28,63.41|L|6529 10|N|Purchase 10 from Shadi Mistrunner.|P|Leatherworking;165;*;0;75|Z|Thunder Bluff|FACTION|Horde|
+B Shiny Bauble|QID|29517|M|41.87,67.04|L|6529 10|N|Purchase 10 from Tharynn Borden.|P|Leatherworking;165;0+75|Z|Elwynn Forest|FACTION|Alliance|ITEM|6529|
+B Shiny Bauble|QID|29517|M|40.28,63.41|L|6529 10|N|Purchase 10 from Shadi Mistrunner.|P|Leatherworking;165;0+75|Z|Thunder Bluff|FACTION|Horde|ITEM|6529|
 
-B Blue Dye|QID|29517|M|41.87,67.04|L|6260 5|N|Purchase 5 from Tharynn Borden. Warning:  If you also have tailoring, get 6.|P|Leatherworking;165;*;0;75|Z|Elwynn Forest|FACTION|Alliance|
-B Blue Dye|QID|29517|M|40.28,63.41|L|6260 5|N|Purchase 5 from Shadi Mistrunner. Warning:  If you also have tailoring, get 6.|P|Leatherworking;165;*;0;75|Z|Thunder Bluff|FACTION|Horde|
+B Blue Dye|QID|29517|M|41.87,67.04|L|6260 5|N|Purchase 5 from Tharynn Borden. Warning:  If you also have tailoring, get 6.|P|Leatherworking;165;0+75|Z|Elwynn Forest|FACTION|Alliance|ITEM|6260|
+B Blue Dye|QID|29517|M|40.28,63.41|L|6260 5|N|Purchase 5 from Shadi Mistrunner. Warning:  If you also have tailoring, get 6.|P|Leatherworking;165;0+75|Z|Thunder Bluff|FACTION|Horde|ITEM|6260|
 
-B Coarse Thread|QID|29520|M|41.87,67.04|L|2320 1|N|Purchase 1 from Tharynn Borden.|P|Tailoring;197;*;0;75|Z|Elwynn Forest|FACTION|Alliance|
-B Coarse Thread|QID|29520|M|40.28,63.41|L|2320 1|N|Purchase 1 from Shadi Mistrunner.|P|Tailoring;197;*;0;75|Z|Thunder Bluff|FACTION|Horde|
+B Coarse Thread|QID|29520|M|41.87,67.04|L|2320 1|N|Purchase 1 from Tharynn Borden.|P|Tailoring;197;0+75|Z|Elwynn Forest|FACTION|Alliance|ITEM|2320|
+B Coarse Thread|QID|29520|M|40.28,63.41|L|2320 1|N|Purchase 1 from Shadi Mistrunner.|P|Tailoring;197;0+75|Z|Thunder Bluff|FACTION|Horde|ITEM|2320|
 
-B Red Dye|QID|29520|M|41.87,67.04|L|2604 1|N|Purchase 1 from Tharynn Borden.|P|Tailoring;197;*;0;75|Z|Elwynn Forest|FACTION|Alliance|
-B Red Dye|QID|29520|M|40.28,63.41|L|2604 1|N|Purchase 1 from Shadi Mistrunner.|P|Tailoring;197;*;0;75|Z|Thunder Bluff|FACTION|Horde|
+B Red Dye|QID|29520|M|41.87,67.04|L|2604 1|N|Purchase 1 from Tharynn Borden.|P|Tailoring;197;0+75|Z|Elwynn Forest|FACTION|Alliance|ITEM|2604|
+B Red Dye|QID|29520|M|40.28,63.41|L|2604 1|N|Purchase 1 from Shadi Mistrunner.|P|Tailoring;197;0+75|Z|Thunder Bluff|FACTION|Horde|ITEM|2604|
 
-B Blue Dye|QID|29520|M|41.87,67.04|L|6260 1|N|Purchase 1 from Tharynn Borden.|P|Tailoring;197;*;0;75|Z|Elwynn Forest|FACTION|Alliance|
-B Blue Dye|QID|29520|M|40.28,63.41|L|6260 1|N|Purchase 1 from Shadi Mistrunner.|P|Tailoring;197;*;0;75|Z|Thunder Bluff|FACTION|Horde|
+B Blue Dye|QID|29520|M|41.87,67.04|L|6260 1|N|Purchase 1 from Tharynn Borden.|P|Tailoring;197;0+75|Z|Elwynn Forest|FACTION|Alliance|ITEM|6260|
+B Blue Dye|QID|29520|M|40.28,63.41|L|6260 1|N|Purchase 1 from Shadi Mistrunner.|P|Tailoring;197;0+75|Z|Thunder Bluff|FACTION|Horde|ITEM|6260|
 
 B Sack o'Tokens|QID|29463|M|54.59,53.33|N|From Zina Sharpworth after you enter the portal. Open the bag in your inventory, we can't automate it yet!|L|71083|
 
-A Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|From Selina Dourman.|P|Tailoring;197;*;0;75|
+A Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|From Selina Dourman.|P|Tailoring;197;0+75|
 N Create your Banner|QID|29520|N|Use your Darkmoon Banner Kit.|U|72048|L|72049|
 C Banners, Banners Everywhere!|QID|29520|M|50.99,86.23|U|72049|NC|N|Look for a sparkling dirt pile "base" for the banner.|
 T Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|To Selina Dourman.|
@@ -285,14 +285,14 @@ T A Curious Crystal|QID|29443|M|51.89,60.92|N|To Professor Thaddeus Paleo.|
 T A Wondrous Weapon|QID|29446|M|51.89,60.92|N|To Professor Thaddeus Paleo.|
 T The Master Strategist|QID|29451|M|51.89,60.92|N|To Professor Thaddeus Paleo.|
 T Tools of Divination|QID|29464|M|51.89,60.92|N|To Professor Thaddeus Paleo.|
-A Fun for the Little Ones|QID|29507|M|51.89,60.92|N|From Professor Thaddeus Paleo.|P|Archaeology;794;*;0;75|
-T Fun for the Little Ones|QID|29507|M|51.89,60.92|N|From Professor Thaddeus Paleo.|P|Archaeology;794;*;0;75|
+A Fun for the Little Ones|QID|29507|M|51.89,60.92|N|From Professor Thaddeus Paleo.|P|Archaeology;794;0+75|
+T Fun for the Little Ones|QID|29507|M|51.89,60.92|N|From Professor Thaddeus Paleo.|P|Archaeology;794;0+75|
 
 A He Shoots, He Scores!|QID|29438|M|49.25,60.79|N|From Rinling.|RANK|2|
-A Rearm, Reuse, Recycle|QID|29518|M|49.25,60.79|N|From Rinling.|P|Mining;186;*;0;75|
-A Talkin' Tonks|QID|29511|M|49.25,60.79|N|From Rinling.|P|Engineering;202;*;0;75|
+A Rearm, Reuse, Recycle|QID|29518|M|49.25,60.79|N|From Rinling.|P|Mining;186;0+75|
+A Talkin' Tonks|QID|29511|M|49.25,60.79|N|From Rinling.|P|Engineering;202;0+75|
 
-A Eyes on the Prizes|QID|29517|M|49.25,60.79|N|From Rinling.|P|Leatherworking;165;*;0;75|
+A Eyes on the Prizes|QID|29517|M|49.25,60.79|N|From Rinling.|P|Leatherworking;165;0+75|
 C Eyes on the Prizes|QID|29517|NC|N|Use your Darkmoon Craftsman's Kit.|U|71977|
 T Eyes on the Prizes|QID|29517|M|49.25,60.79|N|From Rinling.|
 
@@ -342,37 +342,37 @@ T The Darkmoon Faire|QID|7926|M|48.10,64.88|N|To Gelvas Grimegate.|FACTION|Horde
 t Test Your Strength|QID|29433|M|47.91,67.12|N|To Kerri Hicks.|
 A Test Your Strength|QID|29433|M|47.91,67.12|N|From Kerri Hicks.|
 
-A Putting the Crunch in the Frog|QID|29509|M|52.89,67.94|N|From Stamp Thunderhorn.|P|Cooking;185;*;0;75|
-A Spoilin' for Salty Sea Dogs|QID|29513|M|52.89,67.94|N|From Stamp Thunderhorn.|P|Fishing;356;*;0;75|
+A Putting the Crunch in the Frog|QID|29509|M|52.89,67.94|N|From Stamp Thunderhorn.|P|Cooking;185;0+75|
+A Spoilin' for Salty Sea Dogs|QID|29513|M|52.89,67.94|N|From Stamp Thunderhorn.|P|Fishing;356;0+75|
 
 U Coat the Frogs in Flour|QID|29509|M|52.89,67.94|L|72057|U|72056|
 C Putting the Crunch in the Frog|QID|29509|M|52.89,67.94|NC|N|Throw the breaded frogs into the green bubbling pot next to Stamp Thunderhorn.|U|72057|
 T Putting the Crunch in the Frog|QID|29509|M|52.89,67.94|N|To Stamp Thunderhorn.|
 
-B Darkmoon Dog|QID|99602603|ACH|6026;3|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19223|LVL|5|RANK|3|
-B Pickled Kodo Foot|QID|99602607|ACH|6026;7|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19305|LVL|15|RANK|3|
-B Crunchy Frog|QID|960260002|ACH|6026;2|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19306|LVL|35|RANK|3|
-B Funnel Cake|QID|99602606|ACH|6026;6|M|52.89,67.94|N|From Stamp Thunderhorn.|L|33246|LVL|55|RANK|3|
-B Corn-Breaded Sausage|QID|99602601|ACH|6026;1|M|52.89,67.94|N|From Stamp Thunderhorn.|L|44940|LVL|75|RANK|3|
-B Spiced Beef Jerky|QID|99602610|ACH|6026;10|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19304|LVL|5|RANK|3|
-B Red Hot Wings|QID|99602608|ACH|6026;8|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19224|LVL|25|RANK|3|
-B Deep Fried Candybar|QID|99602605|ACH|6026;4|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19225|LVL|45|RANK|3|
-B Forest Strider Drumstick|QID|99602605|ACH|6026;5|M|52.89,67.94|N|From Stamp Thunderhorn.|L|33254|LVL|65|RANK|3|
-B Salty Sea Dog|QID|99602609|ACH|6026;9|M|52.89,67.94|N|From Stamp Thunderhorn.|L|73260|LVL|85|RANK|3|
-N Eat Darkmoon Dog|QID|99602603|ACH|6026;3|U|19223|LVL|5|RANK|3|
-N Eat Spiced Beef Jerky|QID|99602610|ACH|6026;10|U|19304|LVL|5|RANK|3|
-N Eat Pickled Kodo Foot|QID|99602607|ACH|6026;7|U|19305|LVL|15|RANK|3|
-N Eat Red Hot Wings|QID|99602608|ACH|6026;8|U|19224|LVL|25|RANK|3|
-N Eat Crunchy Frog|QID|960260002|ACH|6026;2|U|19306|LVL|35|RANK|3|
-N Eat Deep Fried Candybar|QID|99602605|ACH|6026;4|U|19225|LVL|45|RANK|3|
-N Eat Funnel Cake|QID|99602606|ACH|6026;6|U|33246|LVL|55|RANK|3|
-N Eat Forest Strider Drumstick|QID|99602605|ACH|6026;5|U|33254|LVL|65|RANK|3|
-N Eat Corn Breaded Sausage|QID|99602601|ACH|6026;1|U|44940|LVL|75|RANK|3|
-N Eat Salty Sea Dog|QID|99602609|ACH|6026;9|U|73260|LVL|85|RANK|3|
+B Darkmoon Dog|QID|99602603|ACH|6026;3|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19223|LVL|1|RANK|3|
+B Pickled Kodo Foot|QID|99602607|ACH|6026;7|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19305|LVL|7|RANK|3|
+B Crunchy Frog|QID|960260002|ACH|6026;2|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19306|LVL|15|RANK|3|
+B Funnel Cake|QID|99602606|ACH|6026;6|M|52.89,67.94|N|From Stamp Thunderhorn.|L|33246|LVL|23|RANK|3|
+B Corn-Breaded Sausage|QID|99602601|ACH|6026;1|M|52.89,67.94|N|From Stamp Thunderhorn.|L|44940|LVL|27|RANK|3|
+B Spiced Beef Jerky|QID|99602610|ACH|6026;10|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19304|LVL|3|RANK|3|
+B Red Hot Wings|QID|99602608|ACH|6026;8|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19224|LVL|11|RANK|3|
+B Deep Fried Candybar|QID|99602605|ACH|6026;4|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19225|LVL|20|RANK|3|
+B Forest Strider Drumstick|QID|99602605|ACH|6026;5|M|52.89,67.94|N|From Stamp Thunderhorn.|L|33254|LVL|27|RANK|3|
+B Salty Sea Dog|QID|99602609|ACH|6026;9|M|52.89,67.94|N|From Stamp Thunderhorn.|L|73260|LVL|32|RANK|3|
+N Eat Darkmoon Dog|QID|99602603|ACH|6026;3|U|19223|LVL|1|RANK|3|
+N Eat Spiced Beef Jerky|QID|99602610|ACH|6026;10|U|19304|LVL|3|RANK|3|
+N Eat Pickled Kodo Foot|QID|99602607|ACH|6026;7|U|19305|LVL|7|RANK|3|
+N Eat Red Hot Wings|QID|99602608|ACH|6026;8|U|19224|LVL|11|RANK|3|
+N Eat Crunchy Frog|QID|960260002|ACH|6026;2|U|19306|LVL|15|RANK|3|
+N Eat Deep Fried Candybar|QID|99602605|ACH|6026;4|U|19225|LVL|20|RANK|3|
+N Eat Funnel Cake|QID|99602606|ACH|6026;6|U|33246|LVL|23|RANK|3|
+N Eat Forest Strider Drumstick|QID|99602605|ACH|6026;5|U|33254|LVL|27|RANK|3|
+N Eat Corn Breaded Sausage|QID|99602601|ACH|6026;1|U|44940|LVL|27|RANK|3|
+N Eat Salty Sea Dog|QID|99602609|ACH|6026;9|U|73260|LVL|32|RANK|3|
 
-A Keeping the Faire Sparkling|QID|29516|M|55.00,70.76|N|From Chronos.|P|Jewelcrafting;755;*;0;75|
-A Herbs for Healing|QID|29514|M|55.00,70.76|N|From Chronos.|P|Herbalism;182;*;0;75|
-A Tan My Hide|QID|29519|M|55.00,70.7|N|From Chronos.|P|Skinning;393;*;0;75|
+A Keeping the Faire Sparkling|QID|29516|M|55.00,70.76|N|From Chronos.|P|Jewelcrafting;755;0+75|
+A Herbs for Healing|QID|29514|M|55.00,70.76|N|From Chronos.|P|Herbalism;182;0+75|
+A Tan My Hide|QID|29519|M|55.00,70.7|N|From Chronos.|P|Skinning;393;0+75|
 
 C Collect 6 Darkblossom|QID|29514|QO|1|S|NC|
 C Tan My Hide|QID|29519|NC|N|Found throughout the Island.|S|
@@ -389,8 +389,8 @@ B Taking the Show on the Road: Darkmoon Fireworks (6)|QID|99603000|M|48.50,71.76
 B Taking the Show on the Road: Darkmoon Fireworks (6)|QID|99603100|M|48.50,71.76|N|Buy 6 from Boomie Sparks. Skip step to skip the achievement.|ACH|6031|L|74142 6|FACTION|Horde|RANK|3|
 
 T An Intriguing Grimoire|QID|29445|M|53.24,75.83|N|To Sayge.|
-A Putting Trash to Good Use|QID|29510|M|53.24,75.83|N|From Sayge.|P|Enchanting;333;*;0;75|
-A Writing the Future|QID|29515|M|53.24,75.83|N|From Sayge.|P|Inscription;773;*;0;75|
+A Putting Trash to Good Use|QID|29510|M|53.24,75.83|N|From Sayge.|P|Enchanting;333;0+75|
+A Writing the Future|QID|29515|M|53.24,75.83|N|From Sayge.|P|Inscription;773;0+75|
 
 N Create 5 Prophetic Ink|QID|29515|N|Use the Bundle of Exotic Herbs.|L|71972|U|71971|
 C Writing the Future|QID|29515|NC|N|Use the Prophetic Ink. Repeat until completed.|U|71972|
@@ -414,7 +414,7 @@ C Target: Turtle|QID|29455|NC|N|Talk to Jessica Rogers and select Ready to play!
 T Target: Turtle|QID|29455|M|51.51,77.70|N|Jessica Rogers.|RANK|2|
 
 T An Exotic Egg|QID|29444|M|51.10,82.04|N|To Yebb Neblegear.|
-A Baby Needs Two Pair of Shoes|QID|29508|M|51.10,82.04|N|From Yebb Neblegear.|P|Blacksmithing;164;*;0;75|
+A Baby Needs Two Pair of Shoes|QID|29508|M|51.10,82.04|N|From Yebb Neblegear.|P|Blacksmithing;164;0+75|
 
 N I Was Promised a Pony|QID|99602501|M|50.75,81.63;56.67,81.68|CS|N|Follow the maze and hop on a pony at the end.|ACH|6025|RANK|3|
 
@@ -443,26 +443,26 @@ T Baby Needs Two Pair of Shoes|QID|29508|M|51.10,82.04|N|From Yebb Neblegear.|
 
 T Tan My Hide|QID|29519|M|54.84,70.66|N|From Chronos.|
 
-A A Fizzy Fusion|QID|29506|M|50.31,69.39|N|From Sylannia.|P|Alchemy;171;*;0;75|
+A A Fizzy Fusion|QID|29506|M|50.31,69.39|N|From Sylannia.|P|Alchemy;171;0+75|
 B Cheap Beer|QID|99602612|M|50.31,69.39|ACH|6026;12|N|From Sylannia. Drink up!|L|19222|LVL|1|RANK|3|
-B Fizzy Faire Drink|QID|99602614|M|50.31,69.39|ACH|6026;14|N|From Sylannia. Drink up!|L|19299|LVL|15|RANK|3|
-B Iced Berry Slush|QID|99602617|M|50.31,69.39|ACH|6026;17|N|From Sylannia. Drink up!|L|33234|LVL|45|RANK|3|
-B Fresh-Squeezed Limeade|QID|99602616|M|50.31,69.39|ACH|6026;16|N|From Sylannia. Drink up!|L|44941|LVL|70|RANK|3|
+B Fizzy Faire Drink|QID|99602614|M|50.31,69.39|ACH|6026;14|N|From Sylannia. Drink up!|L|19299|LVL|7|RANK|3|
+B Iced Berry Slush|QID|99602617|M|50.31,69.39|ACH|6026;17|N|From Sylannia. Drink up!|L|33234|LVL|20|RANK|3|
+B Fresh-Squeezed Limeade|QID|99602616|M|50.31,69.39|ACH|6026;16|N|From Sylannia. Drink up!|L|44941|LVL|25|RANK|3|
 B Darkmoon Special Reserve|QID|99602613|M|50.31,69.39|ACH|6026;13|N|From Sylannia. Drink up!|L|19221|LVL|1|RANK|3|
-B Bottled Winterspring Water|QID|99602611|M|50.31,69.39|ACH|6026;11|N|From Sylannia. Drink up!|L|19300|LVL|35|RANK|3|
-B Fizzy Faire Drink 'Classic'|QID|99602615|M|50.31,69.39|ACH|6026;15|N|From Sylannia. Drink up!|L|33236|LVL|60|RANK|3|
-B Sasparilla Sinker|QID|99602618|M|50.31,69.39|ACH|6026;18|N|From Sylannia. Drink up!|L|74822|LVL|85|RANK|3|
+B Bottled Winterspring Water|QID|99602611|M|50.31,69.39|ACH|6026;11|N|From Sylannia. Drink up!|L|19300|LVL|15|RANK|3|
+B Fizzy Faire Drink 'Classic'|QID|99602615|M|50.31,69.39|ACH|6026;15|N|From Sylannia. Drink up!|L|33236|LVL|25|RANK|3|
+B Sasparilla Sinker|QID|99602618|M|50.31,69.39|ACH|6026;18|N|From Sylannia. Drink up!|L|74822|LVL|32|RANK|3|
 
 N Drink Cheap Beer|QID|99602612|ACH|6026;12|U|19222|LVL|1|RANK|3|
 N Drink Darkmoon Special Reserve|QID|99602613|ACH|6026;13|U|19221|LVL|1|RANK|3|
-N Drink Fizzy Faire Drink|QID|99602614|ACH|6026;14|U|19299|LVL|15|RANK|3|
-N Drink Bottled Winterspring Water|QID|99602611|ACH|6026;11|U|19300|LVL|35|RANK|3|
-N Drink Iced Berry Slush|QID|99602617|ACH|6026;17|U|33234|LVL|45|RANK|3|
-N Drink Fizzy Faire Drink 'Classic'|QID|99602615|ACH|6026;15|U|33236|LVL|60|RANK|3|
-N Drink Fresh-Squeezed Limeade|QID|99602616|ACH|6026;16|U|44941|LVL|70|RANK|3|
-N Drink Sasparilla Sinker|QID|99602618|ACH|6026;18|U|74822|LVL|85|RANK|3|
+N Drink Fizzy Faire Drink|QID|99602614|ACH|6026;14|U|19299|LVL|7|RANK|3|
+N Drink Bottled Winterspring Water|QID|99602611|ACH|6026;11|U|19300|LVL|15|RANK|3|
+N Drink Iced Berry Slush|QID|99602617|ACH|6026;17|U|33234|LVL|20|RANK|3|
+N Drink Fizzy Faire Drink 'Classic'|QID|99602615|ACH|6026;15|U|33236|LVL|25|RANK|3|
+N Drink Fresh-Squeezed Limeade|QID|99602616|ACH|6026;16|U|44941|LVL|25|RANK|3|
+N Drink Sasparilla Sinker|QID|99602618|ACH|6026;18|U|74822|LVL|32|RANK|3|
 
-B Fizzy Faire Drink|QID|29506|M|50.31,69.39|N|From Sylannia.|L|19299 5|P|Alchemy;171;*;0;75|
+B Fizzy Faire Drink|QID|29506|M|50.31,69.39|N|From Sylannia.|L|19299 5|P|Alchemy;171;0+75|
 C A Fizzy Fusion|QID|29506|NC|N|Use the Cocktail Shaker.|U|72043|
 T A Fizzy Fusion|QID|29506|M|50.31,69.39|N|To Sylannia.|
 

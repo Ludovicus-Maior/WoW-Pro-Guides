@@ -492,7 +492,7 @@ T Tubbins's Tea|QID|57460|M|31.01,57.53|Z|Revendreth|N|To Tubbins.|MS|
 A An Uneventful Stroll|QID|57461|M|31.17,57.53|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57460|MS|
 C An Uneventful Stroll|QID|57461|M|31.17,57.53|Z|Revendreth|QO|1|CHAT|N|Speak with Theotar to get going.|MS|
 $ Smuggled Cache|QID|59889|M|31.05,55.10|Z|Revendreth|N|Under broken bridge, across from the entrance to Theotar's hideout.|ITEM|182738|ACH|14314;9|
-A Parasol Components|QID|62189|M|31.05,55.10|Z|Revendreth|N|From the item you just looted.|;$
+A Parasol Components|QID|62189|PRE|59889|M|31.05,55.10|Z|Revendreth|N|From the item you just looted.|;$
 C An Uneventful Stroll|QID|57461|M|32.01,47.60|Z|Revendreth|QO|2|N|Escort Theotar to the sanctuary, defending him along the way.|MS|
 T An Uneventful Stroll|QID|57461|M|32.01,47.60|Z|Revendreth|N|To Theotar.|MS|
 A Into the Light|QID|60566|M|32,47.6|Z|Revendreth|N|From Theotar.|LVL|58|PRE|57461|MS|

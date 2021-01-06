@@ -276,10 +276,11 @@ DefineTag("L","lootitem","string",nil,function(text,i)
     end
 end)
 
--- Craft, Mats and ProfNote Tags for Profession Make lines
-DefineTag("CRAFT","craft","string",nil,nil)
-DefineTag("MATS","mats","string",nil,nil)
-DefineTag("PN","pn","string",nil,nil)
+-- Profession Parser Tags: Craft, Mats and ProfNote - Only used by Prof Parser.
+DefineTag("CRAFT","craft","string",nil,nil)			-- for craft item and qty
+DefineTag("MATS","mats","string",nil,nil)			-- for material item and qty
+DefineTag("PN","pn","string",nil,nil)				-- for Prof notes, replaces N due to guide handling
+-- End Prof Parser Tags
 
 DefineTag("QO","questtext","string",nil,nil)
 DefineTag("SO","sobjective","string",nil,nil)

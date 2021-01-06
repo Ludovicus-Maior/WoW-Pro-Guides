@@ -2143,9 +2143,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 profmaxskill = tonumber(profmaxskill) or 0
                 profflip = WoWPro.toboolean(profflip)
                 local skill = WoWPro.ProfessionExpansion2Skill[profID] and WoWPro.ProfessionExpansion2Skill[profID][profexp]
-                WoWPro:dbp("Mapped profID=%d/profExp=%d to skill=%d", profID, profexp, tostring(skill))
+                WoWPro:dbp("Mapped profID=%d/profExp=%d to skill=%s", profID, profexp, tostring(skill))
                 if type(WoWProCharDB.Tradeskills) == 'table' and skill then
                     skip = true -- Profession steps skipped by default
+                    WoWPro.why[guideIndex] = "NextStep(prof): skipped by default"
                     local tradeskill = WoWProCharDB.Tradeskills[skill]
                     if tradeskill then
                         if stepAction == 'M' and tradeskill.skillMod > 0 then
@@ -2153,22 +2154,18 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             proflvl = max(proflvl - tradeskill.skillMod, 1)
                             profmaxskill = min(profmaxskill, max(profmaxskill - tradeskill.skillMod, 1))
                         end
-                        if ((not profflip) and (tradeskill.skillLvl >= proflvl)) then
+                        if (tradeskill.skillLvl >= proflvl) then
                             WoWPro.why[guideIndex] = ("NextStep(prof): skillLvl=%d >= proflvl=%d"):format(tradeskill.skillLvl, proflvl)
                             WoWPro:dbp(WoWPro.why[guideIndex])
                             skip = false
                         end
-                        if (profflip and (tradeskill.skillLvl < proflvl)) then
-                            WoWPro.why[guideIndex] = ("NextStep(prof): profflip and skillLvl=%d < proflvl=%d"):format(tradeskill.skillLvl, proflvl)
+                        if (profmaxskill > 1) and (profmaxskill >= tradeskill.skillMax) then
+                            WoWPro.why[guideIndex] = ("NextStep(prof): profmaxskill=%d >= skillMax=%d"):format(profmaxskill, tradeskill.skillMax)
                             WoWPro:dbp(WoWPro.why[guideIndex])
                             skip = false
                         end
-                        if (profflip and (profmaxskill < tradeskill.skillMax)) then
-                            WoWPro.why[guideIndex] = ("NextStep(prof): profflip and profmaxskill=%d < maxskill=%d"):format(profmaxskill, tradeskill.skillMax)
-                            WoWPro:dbp(WoWPro.why[guideIndex])
-                            skip = true
-                        end
-                        WoWPro:dbp("prof skip = %s", tostring(skip))
+                        skip = skip ~= profflip
+                        WoWPro:dbp("prof skip=%s, profflip=%s", tostring(skip), tostring(profflip))
 
                         -- zero proflvl special unskip logic
                     elseif proflvl == 0 then
