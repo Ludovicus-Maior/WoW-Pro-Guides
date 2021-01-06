@@ -1455,7 +1455,7 @@ H Sinfall|ACTIVE|58395|M|PLAYER|Z|Revendreth|N|Hearth back or otherwise make you
 T Enough Vengeance For One Day|QID|58395|M|51.78,37.53|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 
 ; Chapter 8
-N Renown Level 20|AVAILABLE|58395|N|You must reach Renown level 20 to continue to the next chapter.|COV|Venthyr|REN|-20|
+N Renown Level 20|AVAILABLE|57727|N|You must reach Renown level 20 to continue to the next chapter.|COV|Venthyr|REN|-20|
 A Stonevigil Unrest|QID|57727|PRE|58395|M|51.78,37.53|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|COV|Venthyr|REN|20|
 F Darkhaven|ACTIVE|57727|M|67.31,21.48|Z|Sinfall Reaches@Sinfall!Dungeon|N|Head to the flightmaster and take a flight to Darkhaven.|COV|Venthyr|
 T Stonevigil Unrest|QID|57727|M|56.32,66.71|Z|Revendreth|N|To Prince Renathal.|COV|Venthyr|
@@ -1889,8 +1889,8 @@ C Pauldrons of Imperium|QID|58624|M|49.67,54.73|Z|Seat of the Primus!Dungeon|NC|
 T Pauldrons of Imperium|QID|58624|M|49.75,50.53|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 
 ; Chapter 8
-N Renown Level 20|AVAILABLE|62388|N|You must reach Renown level 20 to continue to the next chapter.|COV|Necrolord|REN|-20|
 A House of Rituals|QID|62388|PRE|58624|M|49.75,50.53|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|20|
+C Renown Level 20|AVAILABLE|62388|N|You must reach Renown level 20 to continue to the next chapter.|COV|Necrolord|REN|-20|
 T House of Rituals|QID|62388|M|49.75,50.53|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A The Wayward Baron|QID|61739|PRE|62388|M|49.79,49.78|Z|Seat of the Primus!Dungeon|N|From Balmedar.|COV|Necrolord|REN|20|
 F Keres' Rest|ACTIVE|61540|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|COV|Necrolord|
@@ -1982,13 +1982,13 @@ P Bleak Redoubt|ACTIVE|57650|M|70.11,26.76|Z|Maldraxxus|N|Use Balmedar's portal 
 T The Better Part of Valor|QID|61761|M|49.72,50.73|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 
 ; Chapter 9
-N Renown Level 22|AVAILABLE|62391|N|You must reach Renown level 22 to continue to the next chapter.|COV|Necrolord|REN|-22|
-A Mobilize Maldraxxus|QID|62391|PRE|61761|M|49.72,50.73|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|20|
+A Mobilize Maldraxxus|QID|62391|PRE|61761|M|49.72,50.73|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|22|
+C Renown Level 22|AVAILABLE|62391|N|You must reach Renown level 22 to continue to the next chapter.|COV|Necrolord|REN|-22|
 T Mobilize Maldraxxus|QID|62391|M|49.75,50.78|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
-A Calling in All Favors|QID|58833|PRE|62391|M|49.75,50.78|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|20|
+A Calling in All Favors|QID|58833|PRE|62391|M|49.75,50.78|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|22|
 F Renounced Bastille|ACTIVE|57567|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Renounced Bastille.|COV|Necrolord|
 T Calling in All Favors|QID|58833|M|62.17,41.04|Z|Maldraxxus|N|To Baroness Draka.|COV|Necrolord|
-A The Third Fall of Kel'thuzad|QID|59020|PRE|58833|M|62.17,41.04|Z|Maldraxxus|N|From Baroness Draka.|COV|Necrolord|REN|20|
+A The Third Fall of Kel'thuzad|QID|59020|PRE|58833|M|62.17,41.04|Z|Maldraxxus|N|From Baroness Draka.|COV|Necrolord|REN|22|
 C The Third Fall of Kel'thuzad|QID|59020|M|62.17,41.04|Z|Maldraxxus|QO|1|CHAT|N|Speak to Baroness Draka.|COV|Necrolord|
 C Into the Breach|Z|Maldraxxus|SO|1|N|Confront Kel'Thuzad at the House of Rituals.|COV|Necrolord|
 C Listen to Draka's Plan|M|63.18,33.34|Z|Maldraxxus!Instance1689|SO|2;1|N|Listen to Draka's Plan.|COV|Necrolord|
@@ -2006,7 +2006,7 @@ C The Third Fall of Kel'thuzad|QID|59020|M|74.22,33.64|Z|Maldraxxus!Instance1689
 H Seat of the Primus|ACTIVE|59020|M|74.06,33.40|Z|Maldraxxus!Instance1689|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
 C The Third Fall of Kel'thuzad|QID|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|QO|3|NC|N|Return to Baroness Draka at the Seat of the Primus.|COV|Necrolord|
 T The Third Fall of Kel'thuzad|QID|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
-A Staff of the Primus|QID|62406|PRE|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|20|
+A Staff of the Primus|QID|62406|PRE|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|22|
 C Staff of the Primus|QID|62406|M|49.65,54.35|Z|Seat of the Primus!Dungeon|NC|N|Click on the Staff to return it to the Primus statue.|COV|Necrolord|
 T Staff of the Primus|QID|62406|M|49.75,50.64|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 ]]
