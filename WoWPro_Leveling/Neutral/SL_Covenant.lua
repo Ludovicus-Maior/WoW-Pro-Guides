@@ -1894,8 +1894,8 @@ C Pauldrons of Imperium|QID|58624|M|49.67,54.73|Z|Seat of the Primus!Dungeon|NC|
 T Pauldrons of Imperium|QID|58624|M|49.75,50.53|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 
 ; Chapter 8
-A House of Rituals|QID|62388|PRE|58624|M|49.75,50.53|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|20|
-C Renown Level 20|AVAILABLE|62388|N|You must reach Renown level 20 to continue to the next chapter.|COV|Necrolord|REN|-20|
+A House of Rituals|QID|62388|PRE|58624|M|49.75,50.53|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
+C Renown Level 20|QID|62388|N|You must reach Renown level 20 to continue to the next chapter.|COV|Necrolord|
 T House of Rituals|QID|62388|M|49.75,50.53|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A The Wayward Baron|QID|61739|PRE|62388|M|49.79,49.78|Z|Seat of the Primus!Dungeon|N|From Balmedar.|COV|Necrolord|REN|20|
 F Keres' Rest|ACTIVE|61540|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|COV|Necrolord|
@@ -1908,8 +1908,8 @@ C Burying Suspicion|QID|62414|M|63.26,31.86|Z|Maldraxxus|N|Kill Lichsworn enemie
 C Pilfered Power|QID|61741|M|63.24,30.68|Z|Maldraxxus|NC|N|Click on Anima objects around the area to Siphon it.|S|COV|Necrolord|
 C Playing Favorites|QID|61740|M|63.28,27.26|Z|Maldraxxus|QO|1|N|Kill Acolyte Nelesis and then click on the corpse afterward.|COV|Necrolord|
 C Pilfered Power|QID|61741|M|63.24,30.68|Z|Maldraxxus|NC|N|Click on Anima objects around the area to Siphon it.|US|COV|Necrolord|
+C Playing Favorites|QID|61740|M|59.79,32.67|Z|Maldraxxus|QO|2|NC|N|Hopefully you clicked Acolyte Nelesis corpse and are now dragging it, make your way back to the ritual circle and use Action Ability "[color=40C7EB]Drop Body[/color]"\n\nYou may want to finish any other objectives before you do this.|EAB|COV|Necrolord|
 C Burying Suspicion|QID|62414|M|63.26,31.86|Z|Maldraxxus|N|Kill Lichsworn enemies.|US|COV|Necrolord|
-C Playing Favorites|QID|61740|M|59.79,32.67|Z|Maldraxxus|QO|2|NC|N|Hopefully you clicked Acolyte Nelesis corpse and are now dragging it, make your way back to the ritual circle and use Action Ability "[color=40C7EB]Drop Body[/color]"|EAB|COV|Necrolord|
 T Playing Favorites|QID|61740|M|59.78,32.70|Z|Maldraxxus|N|To Balmedar's Oculus.|COV|Necrolord|
 T Pilfered Power|QID|61741|M|59.78,32.70|Z|Maldraxxus|N|To Balmedar's Oculus.|COV|Necrolord|
 T Burying Suspicion|QID|62414|M|59.78,32.70|Z|Maldraxxus|N|To Balmedar's Oculus.|COV|Necrolord|
@@ -1928,7 +1928,7 @@ A Cantrip Collections|QID|61746|PRE|61745|M|66.31,26.38|Z|Maldraxxus|N|From Baro
 A Errant Enchantments|QID|61747|PRE|61745|M|66.31,26.38|Z|Maldraxxus|N|From Baroness Ninadar.|COV|Necrolord|REN|20|
 C Errant Enchantments|QID|61747|M|65.04,28.05|Z|Maldraxxus|NC|N|Click on the Mischievous Quill and Errant tomes floating around.|S|COV|Necrolord|
 C Cantrip Collections|QID|61746|M|67.14,27.10|Z|Maldraxxus|N|Interact with Acolyte's and collect their Overdue Scrolls by any means necessary.|COV|Necrolord|
-C Errant Enchantments|QID|61747|M|65.04,28.05|Z|Maldraxxus|NC|N|Click on the Mischievous Quill and Errant tomes floating around.|S|COV|Necrolord|
+C Errant Enchantments|QID|61747|M|65.04,28.05|Z|Maldraxxus|NC|N|Click on the Mischievous Quill and Errant tomes floating around.|US|COV|Necrolord|
 T Cantrip Collections|QID|61746|M|66.31,26.39|Z|Maldraxxus|N|To Baroness Ninadar.|COV|Necrolord|
 T Errant Enchantments|QID|61747|M|66.31,26.39|Z|Maldraxxus|N|To Baroness Ninadar.|COV|Necrolord|
 A The Hall of Tomes|QID|61748|PRE|61746&61747|M|66.31,26.39|Z|Maldraxxus|N|From Baroness Ninadar.|COV|Necrolord|REN|20|
@@ -1987,8 +1987,8 @@ P Bleak Redoubt|ACTIVE|57650|M|70.11,26.76|Z|Maldraxxus|N|Use Balmedar's portal 
 T The Better Part of Valor|QID|61761|M|49.72,50.73|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 
 ; Chapter 9
-A Mobilize Maldraxxus|QID|62391|PRE|61761|M|49.72,50.73|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|22|
-C Renown Level 22|AVAILABLE|62391|N|You must reach Renown level 22 to continue to the next chapter.|COV|Necrolord|REN|-22|
+A Mobilize Maldraxxus|QID|62391|PRE|61761|M|49.72,50.73|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
+C Renown Level 22|QID|62391|N|You must reach Renown level 22 to continue to the next chapter.|COV|Necrolord|
 T Mobilize Maldraxxus|QID|62391|M|49.75,50.78|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Calling in All Favors|QID|58833|PRE|62391|M|49.75,50.78|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|22|
 F Renounced Bastille|ACTIVE|57567|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Renounced Bastille.|COV|Necrolord|
