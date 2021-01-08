@@ -2,11 +2,11 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancBSM_SLN","Profession","Blacksmithing_SLN", "Blanckaert", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancBSM_SL","Profession","Blacksmithing_SL", "Blanckaert", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Blacksmithing_ShadowLands_NEW")
-WoWPro:GuideNickname(guide, "BSM_SLN")
+WoWPro:GuideName(guide, "Blacksmithing_ShadowLands")
+WoWPro:GuideNickname(guide, "BSM_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 

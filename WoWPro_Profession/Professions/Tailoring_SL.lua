@@ -12,11 +12,11 @@
 
 
 
-local guide = WoWPro:RegisterGuide("SpoonyTAI_SLN","Profession","Tailoring_SLN", "Spoony", "Neutral")
+local guide = WoWPro:RegisterGuide("SpoonyTAI_SL","Profession","Tailoring_SL", "Spoony", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",197)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Tailoring_ShadowLands_NEW")
-WoWPro:GuideNickname(guide, "TAI_SLN")
+WoWPro:GuideName(guide, "Tailoring_ShadowLands")
+WoWPro:GuideNickname(guide, "TAI_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 

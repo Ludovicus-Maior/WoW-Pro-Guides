@@ -10,11 +10,11 @@
 
 
 
-local guide = WoWPro:RegisterGuide("SpoonyENG_SLN","Profession","Engineering_SLN", "Spoony", "Neutral")
+local guide = WoWPro:RegisterGuide("SpoonyENG_SL","Profession","Engineering_SL", "Spoony", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",202)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Engineering_ShadowLands_NEW")
-WoWPro:GuideNickname(guide, "ENG_SLN")
+WoWPro:GuideName(guide, "Engineering_ShadowLands")
+WoWPro:GuideNickname(guide, "ENG_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 
