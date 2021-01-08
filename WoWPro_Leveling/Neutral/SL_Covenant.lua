@@ -869,8 +869,8 @@ T Sins of the Past|QID|58564|M|58.11,27.52|Z|Revendreth|N|To The Countess.|COV|K
 A Land of Light|QID|58565|PRE|58564|M|58.11,27.52|Z|Revendreth|N|From The Curator.|COV|Kyrian|
 C Land of Light|QID|58565|M|56.99,27.11|Z|Revendreth|V|N|Go up the stairs, through the door, up more stairs to another door till you reach the balcony.|COV|Kyrian|
 T Land of Light|QID|58565|M|32.00,47.51|Z|Revendreth|N|To Theotar.|COV|Kyrian|
-A Skulking in the Darkness|QID|58567|PRE|58565|M|31.97,47.64|Z|Revendreth|N|From Kleia.|
-A Light Respite|QID|58568|PRE|58565|M|31.97,47.64|Z|Revendreth|N|From Kleia.|COV|Kyrian|COV|Kyrian|
+A Skulking in the Darkness|QID|58567|PRE|58565|M|31.97,47.64|Z|Revendreth|N|From Kleia.|COV|Kyrian|
+A Light Respite|QID|58568|PRE|58565|M|31.97,47.64|Z|Revendreth|N|From Kleia.|COV|Kyrian|
 A Actions Speak Louder than Words|QID|58566|PRE|58565|M|31.85,47.60|Z|Revendreth|N|From Mindscorched Alwin.|COV|Kyrian|
 C Actions Speak Louder than Words|QID|58566|M|31.85,47.60|Z|Revendreth|QO|1|CHAT|N|Speak to Mindscorched Alwin.|COV|Kyrian|
 C Light Respite|QID|58568|M|36.27,53.20|Z|Revendreth|S|NC|N|Click on the Brushberry bushes along the way.|COV|Kyrian|
@@ -955,21 +955,26 @@ R Temple of Humility|ACTIVE|57113|M|61.82,43.69|Z|Bastion!The Shadowlands|N|Make
 T On Lysonia's Trail|QID|57113|M|61.82,43.69|Z|Bastion!The Shadowlands|N|To Kleia.|COV|Kyrian|
 A Aerial Reconnaissance|QID|57114|PRE|57113|M|61.82,43.69|Z|Bastion!The Shadowlands|N|From Kleia.|COV|Kyrian|
 C Aerial Reconnaissance|QID|57114|M|61.82,43.69|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak to Kleia, to take flight.|COV|Kyrian|
-C Aerial Reconnaissance|QID|57114|M|66.10,46.66|Z|Bastion!The Shadowlands|QO|2|NC|N|Temple of Humility surveyed.|COV|Kyrian|
+C Aerial Reconnaissance|QID|57114|M|66.10,46.66|Z|Bastion!The Shadowlands|QO|2|NC|N|Just relax while you fly around, soak in the visuals.|COV|Kyrian|
 T Aerial Reconnaissance|QID|57114|M|66.01,47.04|Z|Bastion!The Shadowlands|N|To Voitha.|COV|Kyrian|
 A Sacred Scrolls of Humility|QID|57115|PRE|57114|M|66.01,47.04|Z|Bastion!The Shadowlands|N|From Voitha.|COV|Kyrian|
 A Succumbing to Pride|QID|57116|PRE|57114|M|65.92,46.88|Z|Bastion!The Shadowlands|N|From Kleia.|COV|Kyrian|
 A Compassion, Blade of Humility|QID|57120|PRE|57114|M|64.75,45.62|Z|Bastion!The Shadowlands|COV|Kyrian|
-C Compassion, Blade of Humility|QID|57120|M|63.24,42.83|Z|Bastion!The Shadowlands|S|US|N|Charge Compassion, by killing the Pride mobs.|COV|Kyrian|
-C Sacred Scrolls of Humility|QID|57115|M|63.54,45.72|Z|Bastion!The Shadowlands|QO|1|NC|N|Loot Sacred Scrolls scattered around the area.|COV|Kyrian|
-C Succumbing to Pride|QID|57116|M|63.91,43.16|Z|Bastion!The Shadowlands|NC|N|Stop the Rituals.|COV|Kyrian|
+C Compassion, Blade of Humility|QID|57120|M|63.24,42.83|Z|Bastion!The Shadowlands|S|N|Charge Compassion, by killing the Pride mobs.|COV|Kyrian|
+C Sacred Scrolls of Humility|QID|57115|M|63.54,45.72|Z|Bastion!The Shadowlands|S|QO|1|NC|N|Loot Sacred Scrolls scattered around the area.|COV|Kyrian|
+C Succumbing to Pride|QID|57116|M|63.91,43.16|Z|Bastion!The Shadowlands|NC|N|Click on Burdened Aspirants to stop the ritual.|COV|Kyrian|
+C Sacred Scrolls of Humility|QID|57115|M|63.54,45.72|Z|Bastion!The Shadowlands|US|QO|1|NC|N|Loot Sacred Scrolls scattered around the area.|COV|Kyrian|
+C Compassion, Blade of Humility|QID|57120|M|63.24,42.83|Z|Bastion!The Shadowlands|US|N|Charge Compassion, by killing the Pride mobs.|COV|Kyrian|
 T Succumbing to Pride|QID|57116|M|65.84,46.96|Z|Bastion!The Shadowlands|N|To Kleia.|COV|Kyrian|
 T Sacred Scrolls of Humility|QID|57115|M|66.04,47.14|Z|Bastion!The Shadowlands|N|To Voitha.|COV|Kyrian|
 T Compassion, Blade of Humility|QID|57120|M|66.05,47.14|Z|Bastion!The Shadowlands|N|To Voitha.|COV|Kyrian|
 A Distorted by the Maw|QID|57118|PRE|57116&57115&57120|M|66.05,47.04|Z|Bastion!The Shadowlands|N|From Voitha.|COV|Kyrian|
 A Fallen to Their Vices|QID|57117|PRE|57116&57115&57120|M|66.05,47.04|Z|Bastion!The Shadowlands|N|From Voitha.|COV|Kyrian|
-C Fallen to Their Vices|QID|57117|M|67.59,40.45|Z|Bastion!The Shadowlands|S|US|N|Kill Forsworn forces.|COV|Kyrian|
-C Distorted by the Maw|QID|57118|M|65.30,43.67|Z|Bastion!The Shadowlands|NC|N|Click on the Anima Collectors to destroy them.|COV|Kyrian|
+C Fallen to Their Vices|QID|57117|M|67.59,40.45|Z|Bastion!The Shadowlands|S|N|Kill Forsworn forces in the area, you can use the extra action button to deal more damage.|EAB|COV|Kyrian|
+C Distorted by the Maw|QID|57118|M|68.97,44.51|Z|Bastion!The Shadowlands|QO|1<1|NC|N|Click on the Anima Collectors to destroy them.|COV|Kyrian|
+C Distorted by the Maw|QID|57118|M|67.76,40.25|Z|Bastion!The Shadowlands|QO|1<2|NC|N|Click on the Anima Collectors to destroy them.|COV|Kyrian|
+C Distorted by the Maw|QID|57118|M|65.30,43.67|Z|Bastion!The Shadowlands|QO|1<3|NC|N|Click on the Anima Collectors to destroy them||COV|Kyrian|
+C Fallen to Their Vices|QID|57117|M|67.59,40.45|Z|Bastion!The Shadowlands|US|N|Kill Forsworn forces in the area, you can use the extra action button to deal more damage.|EAB|COV|Kyrian|
 T Distorted by the Maw|QID|57118|M|68.37,41.65|Z|Bastion!The Shadowlands|N|To Kleia.|COV|Kyrian|
 T Fallen to Their Vices|QID|57117|M|68.37,41.65|Z|Bastion!The Shadowlands|N|To Kleia.|COV|Kyrian|
 A Lysonia's Plan|QID|57207|PRE|57118&57117|M|68.37,41.65|Z|Bastion!The Shadowlands|N|From Kleia.|COV|Kyrian|
@@ -983,20 +988,20 @@ C The Power of the Maw|QID|57121|M|44.87,51.79|Z|Ring of Transference@Oribos|QO|
 T The Power of the Maw|QID|57121|M|33.71,55.70|Z|The Maw|N|To Kleia.|COV|Kyrian|
 A A Step Too Far|QID|57122|PRE|57121|M|33.71,55.70|Z|The Maw|N|From Kleia.|COV|Kyrian|
 A Kyrian No More|QID|57123|PRE|57121|M|33.71,55.70|Z|The Maw|N|From Kleia.|COV|Kyrian|
-A Soul Well|QID|59007|PRE|62228|M|31.24,41.72|Z|The Maw|N|From Blazing Stygia.|COV|Kyrian|
-C Kyrian No More|QID|57123|M|30.28,57.15|Z|The Maw|N|Kill Mawsworn forces, within Perdition Hold.|COV|Kyrian|
-C A Step Too Far|QID|57122|M|30.24,63.06|Z|The Maw|NC|N|Captured Forsworn freed.|COV|Kyrian|
+C Kyrian No More|QID|57123|M|30.28,57.15|Z|The Maw|N|Kill Mawsworn forces, within Perdition Hold.|S|COV|Kyrian|
+C A Step Too Far|QID|57122|M|30.24,63.06|Z|The Maw|NC|N|Click on the Forsworn on the ground.|COV|Kyrian|
+C Kyrian No More|QID|57123|M|30.28,57.15|Z|The Maw|N|Kill Mawsworn forces, within Perdition Hold.|US|COV|Kyrian|
 T A Step Too Far|QID|57122|M|PLAYER|Z|The Maw|N|To Kleia.|COV|Kyrian|
 T Kyrian No More|QID|57123|M|PLAYER|Z|The Maw|N|To Kleia.|COV|Kyrian|
-A Her Will, Inflicted|QID|57124|PRE|57122&57123|M|30.24,63.06|Z|The Maw|N|From Kleia.|COV|Kyrian|
+A Her Will, Inflicted|QID|57124|PRE|57122&57123|M|PLAYER|Z|The Maw|N|From Kleia.|COV|Kyrian|
 C Her Will, Inflicted|QID|57124|M|25.05,66.93|Z|The Maw|QO|1|NC|N|Confront Lysonia.|COV|Kyrian|
 C Her Will, Inflicted|QID|57124|M|25.00,67.18|Z|The Maw|QO|2|N|Kill the Pride of Lysonia.|COV|Kyrian|
 T Her Will, Inflicted|QID|57124|M|25.66,65.29|Z|The Maw|N|To Uther, just outside around the corner.|COV|Kyrian|
 A Time to Reflect|QID|57125|PRE|57124|M|25.66,65.29|Z|The Maw|N|From Uther.|COV|Kyrian|
 C Time to Reflect|QID|57125|M|25.66,65.29|Z|The Maw|QO|1|CHAT|N|Speak to Kleia, to Fly to the Waystone.|COV|Kyrian|
 C Oribos|QID|57125|M|42.39,42.19|Z|The Maw|QO|2|NC|N|Use the Waystone to Oribos.|COV|Kyrian|
-P Ring of Transference|ACTIVE|57125|M|51.98,58.39|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Kyrian|
-F Elysian Hold|ACTIVE|57125|M|60.26,68.26|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
+P Ring of Transference|ACTIVE|57125|M|51.98,58.39|Z|Ring of Fates@Oribos|IZ|-Elysian Hold|N|Take the portal to Ring of Transference.|COV|Kyrian|
+F Elysian Hold|ACTIVE|57125|M|60.26,68.26|Z|Ring of Transference@Oribos|IZ|-Elysian Hold|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Time to Reflect|QID|57125|M|55.48,42.49|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A A Touch of Humility|QID|62555|PRE|57125|M|55.48,42.49|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 C A Touch of Humility|QID|62555|M|45.16,56.85|Z|Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Tell Polemarch Adrestes, you are Ready to witness the empowering of the Crest of Ascension.|COV|Kyrian|
@@ -1889,8 +1894,8 @@ C Pauldrons of Imperium|QID|58624|M|49.67,54.73|Z|Seat of the Primus!Dungeon|NC|
 T Pauldrons of Imperium|QID|58624|M|49.75,50.53|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 
 ; Chapter 8
-A House of Rituals|QID|62388|PRE|58624|M|49.75,50.53|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|20|
-C Renown Level 20|AVAILABLE|62388|N|You must reach Renown level 20 to continue to the next chapter.|COV|Necrolord|REN|-20|
+A House of Rituals|QID|62388|PRE|58624|M|49.75,50.53|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
+C Renown Level 20|QID|62388|N|You must reach Renown level 20 to continue to the next chapter.|COV|Necrolord|
 T House of Rituals|QID|62388|M|49.75,50.53|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A The Wayward Baron|QID|61739|PRE|62388|M|49.79,49.78|Z|Seat of the Primus!Dungeon|N|From Balmedar.|COV|Necrolord|REN|20|
 F Keres' Rest|ACTIVE|61540|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|COV|Necrolord|
@@ -1903,8 +1908,8 @@ C Burying Suspicion|QID|62414|M|63.26,31.86|Z|Maldraxxus|N|Kill Lichsworn enemie
 C Pilfered Power|QID|61741|M|63.24,30.68|Z|Maldraxxus|NC|N|Click on Anima objects around the area to Siphon it.|S|COV|Necrolord|
 C Playing Favorites|QID|61740|M|63.28,27.26|Z|Maldraxxus|QO|1|N|Kill Acolyte Nelesis and then click on the corpse afterward.|COV|Necrolord|
 C Pilfered Power|QID|61741|M|63.24,30.68|Z|Maldraxxus|NC|N|Click on Anima objects around the area to Siphon it.|US|COV|Necrolord|
+C Playing Favorites|QID|61740|M|59.79,32.67|Z|Maldraxxus|QO|2|NC|N|Hopefully you clicked Acolyte Nelesis corpse and are now dragging it, make your way back to the ritual circle and use Action Ability "[color=40C7EB]Drop Body[/color]"\n\nYou may want to finish any other objectives before you do this.|EAB|COV|Necrolord|
 C Burying Suspicion|QID|62414|M|63.26,31.86|Z|Maldraxxus|N|Kill Lichsworn enemies.|US|COV|Necrolord|
-C Playing Favorites|QID|61740|M|59.79,32.67|Z|Maldraxxus|QO|2|NC|N|Hopefully you clicked Acolyte Nelesis corpse and are now dragging it, make your way back to the ritual circle and use Action Ability "[color=40C7EB]Drop Body[/color]"|EAB|COV|Necrolord|
 T Playing Favorites|QID|61740|M|59.78,32.70|Z|Maldraxxus|N|To Balmedar's Oculus.|COV|Necrolord|
 T Pilfered Power|QID|61741|M|59.78,32.70|Z|Maldraxxus|N|To Balmedar's Oculus.|COV|Necrolord|
 T Burying Suspicion|QID|62414|M|59.78,32.70|Z|Maldraxxus|N|To Balmedar's Oculus.|COV|Necrolord|
@@ -1923,7 +1928,7 @@ A Cantrip Collections|QID|61746|PRE|61745|M|66.31,26.38|Z|Maldraxxus|N|From Baro
 A Errant Enchantments|QID|61747|PRE|61745|M|66.31,26.38|Z|Maldraxxus|N|From Baroness Ninadar.|COV|Necrolord|REN|20|
 C Errant Enchantments|QID|61747|M|65.04,28.05|Z|Maldraxxus|NC|N|Click on the Mischievous Quill and Errant tomes floating around.|S|COV|Necrolord|
 C Cantrip Collections|QID|61746|M|67.14,27.10|Z|Maldraxxus|N|Interact with Acolyte's and collect their Overdue Scrolls by any means necessary.|COV|Necrolord|
-C Errant Enchantments|QID|61747|M|65.04,28.05|Z|Maldraxxus|NC|N|Click on the Mischievous Quill and Errant tomes floating around.|S|COV|Necrolord|
+C Errant Enchantments|QID|61747|M|65.04,28.05|Z|Maldraxxus|NC|N|Click on the Mischievous Quill and Errant tomes floating around.|US|COV|Necrolord|
 T Cantrip Collections|QID|61746|M|66.31,26.39|Z|Maldraxxus|N|To Baroness Ninadar.|COV|Necrolord|
 T Errant Enchantments|QID|61747|M|66.31,26.39|Z|Maldraxxus|N|To Baroness Ninadar.|COV|Necrolord|
 A The Hall of Tomes|QID|61748|PRE|61746&61747|M|66.31,26.39|Z|Maldraxxus|N|From Baroness Ninadar.|COV|Necrolord|REN|20|
@@ -1982,8 +1987,8 @@ P Bleak Redoubt|ACTIVE|57650|M|70.11,26.76|Z|Maldraxxus|N|Use Balmedar's portal 
 T The Better Part of Valor|QID|61761|M|49.72,50.73|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 
 ; Chapter 9
-A Mobilize Maldraxxus|QID|62391|PRE|61761|M|49.72,50.73|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|22|
-C Renown Level 22|AVAILABLE|62391|N|You must reach Renown level 22 to continue to the next chapter.|COV|Necrolord|REN|-22|
+A Mobilize Maldraxxus|QID|62391|PRE|61761|M|49.72,50.73|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
+C Renown Level 22|QID|62391|N|You must reach Renown level 22 to continue to the next chapter.|COV|Necrolord|
 T Mobilize Maldraxxus|QID|62391|M|49.75,50.78|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Calling in All Favors|QID|58833|PRE|62391|M|49.75,50.78|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|22|
 F Renounced Bastille|ACTIVE|57567|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Renounced Bastille.|COV|Necrolord|
