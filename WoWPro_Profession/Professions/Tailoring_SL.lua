@@ -66,7 +66,7 @@ M [item=173218/Shadowlace Cowl]|QID|197310900|P|Tailoring;197;8+87;1|ITEM|173218
 = Learn Recipes|QID|197000801|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;8+80|RECIPE|310897|N|Learn [spell=310897/Tailoring: Shadowlace Tunic] Recipe, from Trainer|
 M [item=173214/Shadowlace Tunic]|QID|197310897|P|Tailoring;197;8+90;1|ITEM|173214|CRAFT|310897 1|MATS|173202 30;173204 6;177062 10|
 = Learn Recipes|QID|197000901|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;8+90|RECIPE|310901|N|Learn [spell=310901/Tailoring: Shadowlace Trousers] Recipe, from Trainer|
-M [item=173219/Shadowlace Trousers]QID|197310901|P|Tailoring;197;8+96;1|ITEM|173219|CRAFT|310901 2|MATS|173202 30;173204 6;177062 10|
+M [item=173219/Shadowlace Trousers]|QID|197310901|P|Tailoring;197;8+96;1|ITEM|173219|CRAFT|310901 2|MATS|173202 30;173204 6;177062 10|
 = Learn Recipes|QID|197000951|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;8+95|RECIPE|310902|N|Learn [spell=310902/Tailoring: Shadowlace Mantle] Recipe, from Trainer|
 M [item=173220/Shadowlace Mantle]|QID|197310902|P|Tailoring;197;8+100;1|ITEM|173220|CRAFT|310902 2|MATS|173202 25;173204 5;177062 10|
 
