@@ -68,8 +68,6 @@ C Choosing Your Purpose|QID|62000^57878^57879|M|39.66,68.43|Z|Ring of Fates@Orib
 T Choosing Your Purpose|QID|62000^57878^57879|M|39.34,69.37|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
 
 ;Night Fae Campaign
-N Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Night Fae|
-
 ;Chapter 1
 A Report to Moonberry|QID|63214|PRE|57878|M|39.30,69.17|Z|Ring of Fates@Oribos|N|From Tal-Inara.|COV|Night Fae|
 T Report to Moonberry|QID|63214|M|39.71,61.18|Z|Ring of Fates@Oribos|N|To Lady Moonberry.|COV|Night Fae|
@@ -225,7 +223,7 @@ A The Recovery of Tyrande Whisperwind|QID|59189|M|46.83,41.73|Z|The Maw|N|From S
 C The Recovery of Tyrande Whisperwind|QID|59189|M|38.28,47.09|Z|Torghast - Entrance!Instance|QO|1|CHAT|N|Shandris Feathermoon followed into Torghast|COV|Night Fae|
 C Find Tyrande Whisperwind|Z|The Fracture Chambers|SO|1|QID|59189|N|Search Torghast for Tyrande Whisperind|COV|Night Fae|
 C Fend off Maw Warriors|Z|The Fracture Chambers|SO|2|QID|59189|N|Aid Tyrande in defeating Maw Assassins|COV|Night Fae|
-C Maw ambushers slain|M|78.93,35.42|Z|Covenant_Ard_Torghast!Dungeon|SO|2;1|N|Maw ambushers slain|COV|Night Fae|
+C Maw ambushers slain|M|78.93,35.42|Z|Covenant_Ard_Torghast!Dungeon|SO|2;1|QID|59189|N|Maw ambushers slain|COV|Night Fae|
 C Keep up with Tyrande Whisperwind|Z|The Fracture Chambers|SO|3|QID|59189|N|Tyrande is not stopping. Try to keep up with her.|COV|Night Fae|
 C Tyrande Whisperwind followed|M|78.18,61.23|Z|Covenant_Ard_Torghast!Dungeon|QID|59189|SO|3;1|N|Tyrande Whisperwind followed|COV|Night Fae|
 C Defeat Maw Ambushers|Z|The Fracture Chambers|SO|4|QID|59189|N|Tyrande charged ahead. Deal with 4 waves of incoming Maw minions!|COV|Night Fae|
@@ -472,46 +470,47 @@ A Dark Mojo for a Dark Loa|QID|59741|PRE|59732|M|39.55,24.78|Z|Nazmir|N|From Han
 A Delaying the Other Side|QID|59742|PRE|59732|M|39.55,24.78|Z|Nazmir|N|From Hanzabu.|COV|Night Fae|REN|20|
 C Dark Mojo for a Dark Loa|QID|59741|M|37.85,30.12|S|Z|Nazmir|NC|N|Kill the Servants, Terrors and Tyrants to fill the bar.|COV|Night Fae|
 C Delaying the Other Side|QID|59742|M|40.86,31.93|S|Z|Nazmir|U|177817|NC|N|Injured worshiper rescued.|COV|Night Fae|
-C The Problem with Containing a Death Loa|QID|59739|M|39.56,36.38|Z|Nazmir|U|177817|NC|N|Zel'han's Broken Armor loot from Zel'han.|COV|Night Fae|
+C The Problem with Containing a Death Loa|QID|59739|M|39.56,36.38|Z|Nazmir|NC|N|Zel'han's Broken Armor loot from Zel'han.|COV|Night Fae|
 C Dark Mojo for a Dark Loa|QID|59741|M|37.85,30.12|US|Z|Nazmir|NC|N|Finish Killing.|COV|Night Fae|
 C Delaying the Other Side|QID|59742|M|40.86,31.93|US|Z|Nazmir|U|177817|NC|N|Save the remaining.|COV|Night Fae|
 T The Problem with Containing a Death Loa|QID|59739|M|39.57,24.73|Z|Nazmir|N|To Mueh'zala.|COV|Night Fae|
 T Delaying the Other Side|QID|59742|M|39.57,24.73|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
 T Dark Mojo for a Dark Loa|QID|59741|M|39.57,24.73|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
 A One Little Whisper|QID|59749|PRE|59741&59742&59739|M|39.57,24.73|Z|Nazmir|N|From Bwonsamdi.|COV|Night Fae|REN|20|
-C One Little Whisper|QID|59749|M|39.19,25.18|Z|Nazmir|QO|1|NC|N|Special friend summoned.|COV|Night Fae|
+C One Little Whisper|QID|59749|M|39.19,25.18|Z|Nazmir|QO|1|NC|N|Click on the gong behind you in the SW area of the Necropolis.|COV|Night Fae|
 C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|2|CHAT|N|Speak with Bwonsamdi to begin the ritual.|COV|Night Fae|
 C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|3|NC|N|Ritual completed. Use the Mojo to heal the Priests.|COV|Night Fae|
 T One Little Whisper|QID|59749|M|39.57,24.69|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
 A Maw Manifested|QID|59805|PRE|59749|M|39.57,24.69|Z|Nazmir|N|From Bwonsamdi.|COV|Night Fae|REN|20|
 C Maw Manifested|QID|59805|M|39.57,24.69|Z|Nazmir|QO|1|CHAT|N|Speak with Vol'jin.|COV|Night Fae|
-R Ardenweald|M|50.55,44.57|Z|Ardenweald!The Shadowlands|N|Take the DK looking portal to Bwonsamdis left to return to Ardenweald.|COV|Night Fae|
-F Ring of Transference|M|52.14,8.70|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
-R Ring of Transference|ACTIVE|54180|M|52.26,55.40|Z|Ring of Transference@Oribos|N|Make your way to the Ring of Transference.|COV|Night Fae|
-C Maw Manifested|QID|59805|M|44.95,40.99|Z|The Maw|QO|2|NC|N|Make your way to the Maw.|COV|Night Fae|
+R Ardenweald|ACTIVE|59805|M|50.55,44.57|Z|Ardenweald!The Shadowlands|N|Take the DK looking portal to Bwonsamdis left to return to Ardenweald.|COV|Night Fae|
+F Ring of Transference|ACTIVE|59805|M|52.14,8.70|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
+R Ring of Transference|ACTIVE|59805|M|52.26,55.40|Z|Ring of Transference@Oribos|N|Make your way to the Ring of Transference.|COV|Night Fae|
+C Maw Manifested|QID|59805|M|49.55,51.62|Z|Ring of Transference@Oribos|QO|2|NC|N|Make your way to the Maw.|COV|Night Fae|
 T Maw Manifested|QID|59805|M|44.85,41.02|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Tracking a Wild God|QID|59822|PRE|59805|M|44.85,41.02|Z|The Maw|N|From Unknown.|COV|Night Fae|REN|20|
-C Tracking a Wild God|QID|59822|M|42.71,43.87|Z|The Maw|QO|1|NC|N|First clue found.|COV|Night Fae|
-C Tracking a Wild God|QID|59822|M|35.63,55.95|Z|The Maw|QO|2|NC|N|Second clue found.|COV|Night Fae|
-C Tracking a Wild God|QID|59822|M|37.34,66.55|Z|The Maw|QO|3|NC|N|Wild god rescued.|COV|Night Fae|
+C Tracking a Wild God|QID|59822|M|42.35,43.49|Z|The Maw|QO|1|N|Click on the "Used Cage" and kill Rulkros to get the first clue.|COV|Night Fae|
+C Tracking a Wild God|QID|59822|M|35.63,55.95|Z|The Maw|QO|2|NC|N|Near Perdition Hold, click on the "Used Cage" to get the next clue.|COV|Night Fae|
+C Tracking a Wild God|QID|59822|M|37.34,66.55|Z|The Maw|QO|3|CHAT|N|Speak with Ashamane and defend her. Kill Brynkros to give her strength to leave.|COV|Night Fae|
 R Face of Oblivion|ACTIVE|59822|M|40.85,64.33|Z|The Maw|N|Make your way to the Face of Oblivion.|COV|Night Fae|
 C Tracking a Wild God|QID|59822|M|40.86,64.40|Z|The Maw|QO|4|CHAT|N|Ashamane absorbed into the soulkeeper crystal.|COV|Night Fae|
 T Tracking a Wild God|QID|59822|M|40.89,64.32|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Loa Rescue|QID|59824|PRE|59822|M|40.89,64.32|Z|The Maw|N|From Unknown.|COV|Night Fae|REN|20|
-C Loa Rescue|QID|59824|M|47.70,72.34|Z|The Maw|QO|1|NC|N|First loa rescued.|COV|Night Fae|
-C Loa Rescue|QID|59824|M|46.08,82.77|Z|The Maw|QO|2|NC|N|Second loa rescued.|COV|Night Fae|
-C Loa Rescue|QID|59824|M|45.67,84.54|Z|The Maw|QO|3|NC|N|Third loa rescued.|COV|Night Fae|
-T Loa Rescue|QID|59824|M|45.88,85.06|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
-A Rezan, Loa of Kings|QID|59856|PRE|59824|M|45.88,85.06|Z|The Maw|N|From Spirit of Vol'jin.|COV|Night Fae|REN|20|
-C Rezan, Loa of Kings|QID|59856|M|45.88,85.13|Z|The Maw|QO|1|CHAT|N|Vol'jin's anima received.|COV|Night Fae|
-C Rezan, Loa of Kings|QID|59856|M|46.84,85.93|Z|The Maw|QO|2|NC|N|Wait and watch |COV|Night Fae|
-T Rezan, Loa of Kings|QID|59856|M|45.86,85.08|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
-A Parting Ways|QID|59866|PRE|59856|M|45.86,85.08|Z|The Maw|N|From Spirit of Vol'jin.|COV|Night Fae|REN|20|
-P Ring of Transference|ACTIVE|59866|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Night Fae|
-F Heart of the Forest|ACTIVE|59866|M|60.23,68.72|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Heart of the Forest.|COV|Night Fae|
-P Heart of the Forest|ACTIVE|59866|M|53.96,38.73|Z|The Trunk@Heart of the Forest!Dungeon|N|Talk to Sparkledew to go see the Queen.|COV|Night Fae|
-C Parting Ways|QID|59866|M|51.04,30.60|Z|The Canopy@Heart of the Forest!Dungeon|CHAT|N|Loa delivered to the Winter Queen.|COV|Night Fae|
-P Heart of the Forest|ACTIVE|59866|M|43.05,51.44|Z|The Canopy@Heart of the Forest!Dungeon|N|Talk to Shimmerwing to return to teh main foyer.|COV|Night Fae|
+C Loa Rescue|QID|59824|M|47.13,72.88|Z|The Maw|QO|1|NC|N|Click on Hir'eek to rescue him.|COV|Night Fae|
+C Loa Rescue|QID|59824|M|46.08,82.77|Z|The Maw|QO|2|NC|N|Click on Shadra to rescue her.|COV|Night Fae|
+C Loa Rescue|QID|59824|M|45.80,85.03|Z|The Maw|QO|3|NC|N|Make your way down the cave.|COV|Night Fae|
+T Loa Rescue|QID|59824|M|45.80,85.03|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
+A Rezan, Loa of Kings|QID|59856|PRE|59824|M|45.80,85.03|Z|The Maw|N|From Spirit of Vol'jin.|COV|Night Fae|REN|20|
+C Rezan, Loa of Kings|QID|59856|M|45.80,85.03|Z|The Maw|QO|1|CHAT|N|Talk with Vol'jin's and accept his anima.|COV|Night Fae|
+C Rezan, Loa of Kings|QID|59856|M|47.02,86.35|Z|The Maw|QO|2|N|Step into the barrier and kill Exhaurbius, once he dies there is a lot of dialog, you will continue to take damage so step out of the barrier while you wait and watch.|COV|Night Fae|
+T Rezan, Loa of Kings|QID|59856|M|45.80,85.03|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
+A Parting Ways|QID|59866|PRE|59856|M|45.80,85.03|Z|The Maw|N|From Spirit of Vol'jin.|COV|Night Fae|REN|20|
+P Oribos|ACTIVE|59866|M|42.37,42.15|Z|The Maw|IZ|The Maw|NC|N|Hearth or Take the Waygate back to Oribos.|
+P Ring of Transference|ACTIVE|59866|M|52.07,57.86|Z|Ring of Fates@Oribos|IZ|Oribos|N|Take the portal to Ring of Transference.|COV|Night Fae|
+F Heart of the Forest|ACTIVE|59866|M|60.23,68.72|Z|Ring of Transference@Oribos|IZ|Oribos|N|Head to the flightmaster and take a flight to Heart of the Forest.|COV|Night Fae|
+P The Canopy|ACTIVE|59866|M|53.96,38.73|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|IZ|-1703|N|Talk to Sparkledew to go see the Queen.|COV|Night Fae|
+C Parting Ways|QID|59866|M|51.04,30.60|Z|The Canopy@Heart of the Forest!Dungeon|CHAT|N|Speak with the Winter Queen and deliver the Loa to her.|COV|Night Fae|
+P The Trunk|ACTIVE|59866|M|36.21,63.74|Z|The Canopy@Heart of the Forest!Dungeon|IZ|1703|N|Talk to Shimmerwing to return to teh main foyer.|COV|Night Fae|
 T Parting Ways|QID|59866|M|44.65,38.58|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
 
 ;Chapter 9
