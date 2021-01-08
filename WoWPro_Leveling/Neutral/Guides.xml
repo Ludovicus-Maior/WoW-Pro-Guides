@@ -43,7 +43,6 @@
 	<Script file="SL_Covenant.lua"/>
 	<Script file="SL_Maldraxxus.lua"/>
 	<Script file="SL_Maw_Intro.lua"/>
-	<Script file="SL_Maw.lua"/>
 	<Script file="SL_Revendreth.lua"/>
 	<Script file="WOD_DarkPortal_Intro.lua"/>
 	<Script file="WOD_Spires_of_Arak.lua"/>
