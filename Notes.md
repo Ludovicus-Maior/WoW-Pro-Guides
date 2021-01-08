@@ -1,3 +1,19 @@
+# Release 9.0.2-A8 / (1.13.6-D8)
+## Bug Fixes
+* Major update to professions module
+* Numeric booleans in tags not being processed consistently
+## Guide Updates
+### Retail
+* Achievements: Blancy, SL Rares & Treasures, SL Sojourners
+* Dailies: Argent Tournament
+* Horde: Azshara
+* Neutral: Panaren Intro, Mage Order Hall
+* Shadowlands: Bastion, Covenant, Maw, Revendreth
+* Professions: All SL guides
+* World Events: Darkmoon Faire
+### Classic
+* No guide updates
+
 # Release 9.0.2-A7 / (1.13.6-D7)
 ## Bug Fixes
 * Add EmitSafeStep() for safe error messsages with the current step.
