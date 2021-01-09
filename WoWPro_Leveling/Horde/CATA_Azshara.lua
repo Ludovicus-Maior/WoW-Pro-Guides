@@ -160,9 +160,9 @@ T Befriending Giants|QID|14377|M|50.39,74.30|N|To Assistant Greely.|
 A Azsharite Experiment Number One|QID|14385|M|50.41,74.29|N|From Assistant Greely.|PRE|14377| ; Storyline - The Rarest Substance on Azeroth
 A The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.50,74.75|N|From Hobart Grapplehammer.|PRE|14377| ; Storyline
 C The Terrible Tinkers of the Ruined Reaches|QID|14383|M|43.49,83.00;40.07,84.43|CS|N|Follow the lit path West, kill gnomes on your way to Bingham Gadgetspring inside the house. Kill him.|S|
-l Giant-Sized Laxative|QID|14385|M|43.49,83.00;40.07,84.43|CS|QO|1|N|The Laxative is upstairs in Bingham's house.|
+l Giant-Sized Laxative|QID|14385|M|43.49,83.00;40.07,84.43|CS|QO|2|N|The Laxative is upstairs in Bingham's house.|
 C The Terrible Tinkers of the Ruined Reaches|QID|14383|M|43.49,83.00;40.07,84.43|CS|N|Kill the rest of the gnomes needed to finish the quest.|US|
-C Azsharite Experiment Number One|QID|14385|M|47.8,75.5|QO|2|N|Attempt to give the laxative to Gormungan.|
+C Azsharite Experiment Number One|QID|14385|M|47.8,75.5|QO|1|N|Attempt to give the laxative to Gormungan.|CHAT|
 T Azsharite Experiment Number One|QID|14385|M|50.41,74.29|N|To Assistant Greely.|
 A Azsharite Experiment Number Two|QID|14388|M|50.41,74.29|N|From Assistant Greely.|PRE|14385| ; Storyline - The Rarest Substance on Azeroth
 T The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.51,74.74|N|To Hobart Grapplehammer.|
