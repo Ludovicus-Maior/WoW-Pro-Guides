@@ -2,11 +2,11 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancBS_VAN","Profession","Blacksmithing_VAN", "Blanckaert", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancBSM_VAN","Profession","Blacksmithing_VAN", "Blanckaert", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Blacksmithing_Vanilla")
-WoWPro:GuideNickname(guide, "BS_VAN")
+WoWPro:GuideNickname(guide, "BSM_VAN")
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -22,23 +22,23 @@ N Shopping List|N|The next few lines are going to be the TOTAL amount of mats yo
 
 ; Begin Shopping list, as of Oct-2020
 
-l Rough Stone|QID|164002835|P|Blacksmithing;164;0|L|2835 145|N|You'll need about 145 Rough Stones.|
-l Coarse Stone|QID|164002836|P|Blacksmithing;164;0|L|2836 80|N|You'll need about  80 Coarse Stones.|
-l Copper Bar|QID|164002840|P|Blacksmithing;164;0|L|2840 150|N|You'll need about 150 Copper Bars.|
-l Copper Bar|QID|164002840|P|Mining;186;0+30;0|L|2840 225|N|You'll need about 225 Copper Bars. (75 bars needed to smelt bronze)|
-l Tin Bar|QID|164003576|P|Mining;186;0+50;0|L|3576 75|N|You'll need about  75 Tin Bars, to smelt with 75 Copper Bars to make bronze bars.|
-l Bronze Bar|QID|164002841|P|Blacksmithing;164;0|L|2841 150|N|You'll need about 150 Bronze Bars (Smelted from Copper and Tin, Click step off if you are a miner, Otherwise buy from AH.)|
-l Heavy Stone|QID|164002838|P|Blacksmithing;164;0|L|2838 105|N|You'll need about 105 Heavy Stone.|
-l Iron Bar|QID|164003575|P|Blacksmithing;164;0|L|3575 230|N|You'll need about 230 Iron Bars.|
-l Iron Bar|QID|164003575|P|Mining;186;0+125;0|L|3575 280|N|You'll need about 280 Iron Bars, 50 Bars to smelt with Coal to make Steel Bars.|
-B Coal|QID|164003857|P|Mining;186;0+125;0|L|3857 50|N|Purchase about  50 Coal from Blacksmithing Supply vendor.\nYou'll need these, with the Iron from above to smelt to make Steel Bars.|
-l Steel Bar|QID|164003859|P|Blacksmithing;164;0|L|3859 50|N|You'll need about 50 Steel Bars (Smelted from Iron Bars and Coal, Click step off if you are a miner, Otherwise buy from AH.)|
-l Solid Stone|QID|164007912|P|Blacksmithing;164;0|L|7912 20|N|You'll need about 20 Solid Stone.|
-l Mageweave Cloth|QID|164004338|P|Blacksmithing;164;0|L|4338 144|N|You'll need about 144 Mageweave Cloth.|
-l Mithril Bar|QID|164003860|P|Blacksmithing;164;0|L|3860 320|N|You'll need about 320 Mithril Bar.|
-l Dense Stone|QID|164012365|P|Blacksmithing;164;0|L|12365 20|N|You'll need about  20 Dense Stone.|
-l Thorium Bar|QID|164012359|P|Blacksmithing;164;0|L|12359 428|N|You'll need about 428 Thorium Bar.|
-l Star Ruby|QID|164007910|P|Blacksmithing;164;0|L|7910 10|N|You'll need about 10 Star Rubies.|
+l [item=2835/Rough Stone]|QID|164002835|L|2835 145|ITEM|2835|N|You'll need about 145 Rough Stones.|
+l [item=2836/Coarse Stone]|QID|164002836|L|2836 80|ITEM|2836|N|You'll need about  80 Coarse Stones.|
+l [item=2840/Copper Bar]|QID|164002840|L|2840 150|ITEM|2840|N|You'll need about 150 Copper Bars.|
+l [item=2840/Copper Bar]|QID|164002840|P|Mining;186;0+30;0|L|2840 225|ITEM|2840|N|You'll need about 225 Copper Bars. (75 bars needed to smelt bronze)|
+l [item=3576/Tin Bar]|QID|164003576|P|Mining;186;0+50;0|L|3576 75|ITEM|3576|N|You'll need about  75 Tin Bars, to smelt with 75 Copper Bars to make bronze bars.|
+l [item=2841/Bronze Bar]|QID|164002841|L|2841 150|ITEM|2841|N|You'll need about 150 Bronze Bars (Smelted from Copper and Tin, Click step off if you are a miner, Otherwise buy from AH.)|
+l [item=2838/Heavy Stone]|QID|164002838|L|2838 105|ITEM|2838|N|You'll need about 105 Heavy Stone.|
+l [item=3575/Iron Bar]|QID|164003575|L|3575 230|ITEM|3575|N|You'll need about 230 Iron Bars.|
+l [item=3575/Iron Bar]|QID|164003575|P|Mining;186;0+125;0|L|3575 280|ITEM|3575|N|You'll need about 280 Iron Bars, 50 Bars to smelt with Coal to make Steel Bars.|
+B [item=3857/Coal]|QID|164003857|P|Mining;186;0+125;0|L|3857 50|ITEM|3857|N|Purchase about  50 Coal from Blacksmithing Supply vendor.\nYou'll need these, with the Iron from above to smelt to make Steel Bars.|
+l [item=3589/Steel Bar]|QID|164003859|L|3859 50|ITEM|3859|N|You'll need about 50 Steel Bars (Smelted from Iron Bars and Coal, Click step off if you are a miner, Otherwise buy from AH.)|
+l [item=7912/Solid Stone]|QID|164007912|L|7912 20|ITEM|7912|N|You'll need about 20 Solid Stone.|
+l [item=4338/Mageweave Cloth]|QID|164004338|L|4338 144|ITEM|4338|N|You'll need about 144 Mageweave Cloth.|
+l [item=3860/Mithril Bar]|QID|164003860|L|3860 320|ITEM|3860|N|You'll need about 320 Mithril Bar.|
+l [item=2365/Dense Stone]|QID|164012365|L|12365 20|ITEM|12365|N|You'll need about  20 Dense Stone.|
+l [item=2359/Thorium Bar]|QID|164012359|L|12359 428|ITEM|12359|N|You'll need about 428 Thorium Bar.|
+l [item=7910/Star Ruby]|QID|164007910|L|7910 10|ITEM|7910|N|You'll need about 10 Star Rubies.|
 
 N Plans- Mithril Scale Bracers|P|Blacksmithing;164;0|RECIPE|7995|N|Next step you will need to travel to go buy this Blacksmithing Plan for about 60s, or you can buy from your local AH, but an alternate item to craft is in the guide.|
 B Plans- Mithril Scale Bracers|QID|164007995|M|47.2,52.2|Z|Swamp of Sorrows|P|Blacksmithing;164;0|RECIPE|7995|N|Purchase from Gharash, Swamp of Sorrows\n[color=cc0000]Random spawn timer for plans[color]\nIf you dont want to get, Right Click this step.|FACTION|Horde|
@@ -46,8 +46,8 @@ B Plans- Mithril Scale Bracers|QID|164007995|M|13.6,44.8|Z|The Hinterlands|P|Bla
 l Mithril Bar|QID|164003860|P|Blacksmithing;164;0|RECIPE|7995|L|3860 374|N|You'll need about 374 Mithril Bar instead, since you skipped the Plans- Mithril Scale Bracers.|
 
 N Smelting|QID|186002841|P|Mining;186;0|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
-N Bronze Bar|QID|164002841|P|Mining;186;0+50;0|L|2841 150|N|1;Copper Bar;75;75:1;Tin Bar;75;75|
-N Steel Bar|QID|164003859|P|Mining;186;0+125;0|L|3859 50|N|1;Iron Bar;50;50:1;Coal;50;50|
+M [item=2841/Bronze Bar]|QID|164002689|P|Mining;186;0+50;0|L|2841 150|CRAFT|2689 150|MATS|2840 1;3576 1|
+M [item=3859/Steel Bar]|QID|164003569|P|Mining;186;0+125;0|L|3859 50|CRAFT|3569 50|MATS|3575 1;3857 1|
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
@@ -83,8 +83,8 @@ N Golden Scale Bracers|QID|164007223|P|Blacksmithing;164;0+200;1|N|5;Steel Bar;5
 N Solid Sharpening Stone|QID|164009918|P|Blacksmithing;164;0+210;1|N|1;Solid Stone;20;20|
 N Heavy Mithril Gauntlet|QID|164009928|P|Blacksmithing;164;0+225;1|N|6;Mithril Bar;90;360:4;Mageweave Cloth;60;144|
 ; N Learn Artisan Blacksmithing |QID|901640020|P|Blacksmithing;164;*;0;300|N|Visit your Trainer in any major city.  Requires Level 35.|
-N Mithril Scale Bracers|QID|164009937|P|Blacksmithing;164;0+236;1|RECIPE|7995|N|8;Mithril Bar;88;100:\nIf you didnt get the plans, RIGHT click this step.|
-N Mithril Scale Pants|QID|164009931|P|Blacksmithing;164;0+236;1|N|12;Mithril Bar;144;144:\n Make this if you didn't get the Bracers Plans.|
+N Mithril Scale Bracers|QID|164009937|P|Blacksmithing;164;0+236;1|N|8;Mithril Bar;88;100:\nIf you didnt get the plans, RIGHT click this step.|
+N Mithril Scale Pants|QID|164009931|P|Blacksmithing;164;0+236;1|RECIPE|7995|N|12;Mithril Bar;144;144:\n Make this if you didn't get the Bracers Plans.|
 N Mithril Coif|QID|164009961|P|Blacksmithing;164;0+250;|N|10;Mithril Bar;140;140:6;Mageweave Cloth;84;84|
 N Dense Shapening Stone|QID|164016641|P|Blacksmithing;164;0+260;|N|1;Dense Stone;20;20:\nMake all you have and keep.|
 

@@ -43,7 +43,7 @@ N Shopping List|QID|164000005|N|This completes the Shopping List, you may either
 ; end of shopping list, and pre craft.
 
 = Learn [spell=2018/Blacksmithing]|QID|164002018|M|40.52,31.55|Z|Ring of Fates@Oribos|SPELL|Blacksmithing;2018|LVL|5|N|Learn from Smith Au'berk in Oribos.|
-= Learn [spell=309827/Shadowlands Blacksmithing|QID|164309827|M|40.52,31.55|Z|Ring of Fates@Oribos|P|Blacksmithing;164;*;0;75|SPELL|Shadowlands Blacksmithing;309827|LVL|48|N|Learn from Smith Au'berk in Oribos.|
+= Learn [spell=309827/Shadowlands Blacksmithing]|QID|164309827|M|40.52,31.55|Z|Ring of Fates@Oribos|P|Blacksmithing;164;*;0;75|SPELL|Shadowlands Blacksmithing;309827|LVL|48|N|Learn from Smith Au'berk in Oribos.|
 
 M [item=171381/Ceremonious Armguards]|QID|164307670|P|Blacksmithing;164;8+06;1|ITEM|171381|CRAFT|307670 5|MATS|171828 4;180733 1|
 = Learn Recipes|QID|164000051|M|40.52,31.55|Z|Ring of Fates@Oribos|P|Blacksmithing;164;8+05|RECIPE|307669|N|Learn [spell=307669/Blacksmithing: Ceremonious Waistguard] Recipe from Trainer.|
@@ -69,10 +69,11 @@ M [item=173381/Crafters Mark I]|QID|164343184|P|Blacksmithing;164;8+50;1|ITEM|17
 = Learn Recipes|QID|164000501|M|40.52,31.55|Z|Ring of Fates@Oribos|P|Blacksmithing;164;8+50|RECIPE|307611|N|Learn [spell=307611/Blacksmithing: Shadowghast Ingot] Recipe from Trainer.|
 B [item=180733/Luminous Flux]|QID|164180733|M|38.55,33.50|Z|Ring of Fates@Oribos|P|Blacksmithing;164;8+60;1|L|180733 431|ITEM|180733|N|You'll need about 431 Luminous Flux. To finish the guide. 380 for the next step, then another 51 to finish.|
 M [item=171428/Shadowghast Ingot]|QID|164307611|P|Blacksmithing;164;8+60;1|ITEM|171428|CRAFT|307611 95|MATS|171829 1;171832 1;171831 1;171830 1;180733 4|PN|Make all 190, you will need them for the next 4 steps.|
+L [item=171428/Shadowghast Ingot]|QID|164307611|P|Blacksmithing;164;8+60|ITEM|171428|L|171428 190|PN|Keep crafting, you need about 190 for the next 4 steps.|
 = Learn Recipes|QID|164000601|M|40.52,31.55|Z|Ring of Fates@Oribos|P|Blacksmithing;164;8+60|RECIPE|322594|N|Learn [spell=325594/Blacksmithing: Shadowsteel Waistguard] Recipe from Trainer.|
 M [item=171448/Shadowsteel Waistguard]|QID|164322594|P|Blacksmithing;164;8+70;1|ITEM|171448|CRAFT|322594 5|MATS|171828 4;171428 7;171833 1;180733 2|PN|This might get skipped, depending on the Ingots.|
 = Learn Recipes|QID|164000651|M|40.52,31.55|Z|Ring of Fates@Oribos|P|Blacksmithing;164;8+65|RECIPE|322589|N|Learn [spell=322589/Blacksmithing: Shadowsteel Gauntlets] Recipe from Trainer.|
-M [item=171444/Shadowsteel Gauntlets]|QID|164322589|P|Blacksmithing;164;8+80;1|ITEM|171444|CRAFT|322589 10|MATS|171828 5;171428 7;171833 1;180733 2|
+M [item=171444/Shadowsteel Gauntlets]|QID|164322589|P|Blacksmithing;164;8+80;1|ITEM|171444|CRAFT|322589 10|MATS|171828 5;171428 7;171833 1;180733 2|PN|Drops to single crafting points after you make 5.|
 = Learn Recipes|QID|164000801|M|40.52,31.55|Z|Ring of Fates@Oribos|P|Blacksmithing;164;8+80|RECIPE|322587|N|Learn [spell=322587/Blacksmithing: Shadowsteel Breastplate] Recipe from Trainer.|
 M [item=171442/Shadowsteel Breastplate]|QID|164322587|P|Blacksmithing;164;8+92;1|ITEM|171442|CRAFT|322587 4|MATS|171828 6;171428 12;171833 2;180733 3|
 = Learn Recipes|QID|164000901|M|40.52,31.55|Z|Ring of Fates@Oribos|P|Blacksmithing;164;8+90|RECIPE|322591|N|Learn [spell=322591/Blacksmithing: Shadowsteel Greaves] Recipe from Trainer.|
