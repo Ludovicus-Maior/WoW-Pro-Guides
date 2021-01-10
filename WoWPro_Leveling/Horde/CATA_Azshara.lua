@@ -119,16 +119,17 @@ A Bad Science! Bad!|QID|14322|M|45.09,75.46|N|From Twistex Happytongs.|
 A Nine's Plan|QID|14408|M|42.23,76.09|N|From Subject Nine.\n[color=FF0000]NOTE: [/color]Cut through the Secret lab and climb the hill on the other side. Go out the right side if you want to avoid "Subject Fear".| ; Storyline - Subject Nine from Space!
 K Bad Science! Bad!|ACTIVE|14322|M|44.40,79.00|QO|1|N|Kill Static-Charged Hippogryphs.|
 T Bad Science! Bad!|QID|14322|M|45.06,75.53|N|To Twistex Happytongs.|
-C Nine's Plan|QID|14408|M|45.97,76.06|N|Activate the Buzzer. It looks like a torch to the right of the locked door.|NC|
+C Nine's Plan|QID|14408|M|45.97,76.06|QO|1|N|Activate the Buzzer. It looks like a torch to the right of the locked door.|NC|
+C Nine's Plan|QID|14408|M|45.97,76.06|QO|2|N|When the door opens, defeat the Mutant Goblin after he attacks you.\n[color=FF0000]NOTE: [/color]The Mutant Tentacles will continue to attack you after you defeat the Goblin. Just walk away and they will eventually despawn.|
 T Nine's Plan|QID|14408|M|42.22,76.12|N|To Subject Nine.|
 A Raptor Raptor Rocket|QID|14422|M|42.22,76.12|N|From Subject Nine.|PRE|14408| ; Storyline - Subject Nine from Space!
-C Raptor Raptor Rocket|QID|14422|M|42.21,76.09|N|Go back down, Free 5 raptors and return to Subject Nine with them.|
-T Raptor Raptor Rocket|QID|14422|M|42.21,76.09|N|To Subject Nine.|
+C Raptor Raptor Rocket|QID|14422|M|43.27,77.44|N|Go back down to the Secret Lab and click on a Specimen Cage to free a Raptor. Once you have 5 of them, return to Subject Nine.|NC|
+T Raptor Raptor Rocket|QID|14422|M|42.21,76.09|N|To Subject Nine.| ; Completes Subject Nine from Space!
 l Mortar the Point|QID|14258|M|43.11,77.18|QO|1|N|Collect Mortar shells.|US|
 C When Science Attacks|QID|14308|M|43.39,76.07|N|Put out Lab fires, and put out Research Interns that are on fire.|U|49132|US|NC|
 T When Science Attacks|QID|14308|M|43.80,77.36|N|To the Secret Lab Squawkbox.|
 A Segmentation Fault: Core Dumped|QID|14310|M|43.80,77.36|N|From the Secret Lab Squawkbox.|PRE|14308| ; Storyline
-C Segmentation Fault: Core Dumped|QID|14310|M|49.37,74.92|N|Pull the lever! Use the Extinguisher on the cart when it starts flaming.|U|49132|
+C Segmentation Fault: Core Dumped|QID|14310|M|49.44,74.73|N|Pull the big lever beside you. The Hulking Labgoblin will begin pushing the cart along the track towards Southern Rocketway Terminus.\nUse the Extinguisher on the cart when it starts flaming.\n[color=FF0000]NOTE: [/color]Try and stay a little bit ahead of the cart so you don't fall behind when you stop to use the Extinguisher.|U|49132|NC|
 T Segmentation Fault: Core Dumped|QID|14310|M|50.38,74.28|N|To Assistant Greely.|
 A Mysterious Azsharite|QID|14370|M|50.41,74.29|N|From Assistant Greely.|PRE|14310| ; Storyline
 A A Gigantic Snack|QID|14371|M|50.41,74.29|N|From Assistant Greely.|PRE|14310| ; Storyline
@@ -136,39 +137,40 @@ T Mortar the Point|QID|14258|M|52.22,74.23|N|To Bombardier Captain Smooks.|
 A To Gut a Fish|QID|14262|M|50.68,75.30|N|From Torg Twocrush.|PRE|14258| ; Storyline
 A Investigating the Sea Shrine|QID|14267|M|50.68,75.30|N|From Torg Twocrush.|PRE|14258| ; Storyline - Sisters of the Sea
 C A Gigantic Snack|QID|14371|M|46.7,72.2|N|Kill and loot Mistwing Cliffdwellers.|S|
-C Mysterious Azsharite|QID|14370|M|50.55,82.10|N|Loot Azsharite Formations off the ground. If you come across a "Crystallized Note" while looting the formations, I would recommend reading it for a laugh and a hint on what Azsharite is.|
+C Mysterious Azsharite|QID|14370|M|50.55,82.10|N|Loot Azsharite Formations off the ground. If you come across a "Crystallized Note" while looting the formations, I would recommend reading it for a laugh and a hint on what Azsharite is.\n[color=FF0000]NOTE: [/color]These may be a little spread out.|
 C A Gigantic Snack|QID|14371|M|46.7,72.2|N|Kill and loot Mistwing Cliffdwellers.|US|
 C To Gut a Fish|QID|14262|M|55.49,76.45|N|Kill Spitelash Stormfuries and Seacallers.|S|
-T Investigating the Sea Shrine|QID|14267|M|58.98,71.98|N|To the Naga Power Stone.|
-A The Keystone Shard|QID|14270|M|58.98,71.98|N|From the Naga Power Stone.|PRE|14267| ; Storyline - Sisters of the Sea
-C The Keystone Shard|QID|14270|M|57.57,71.02|N|Pick up the Keystone Shard.|
-T The Keystone Shard|QID|14270|M|58.99,71.93|N|To the Naga Power Stone.|
-A Report to Twocrush|QID|14271|M|58.99,71.93|N|From the Naga Power Stone.|PRE|14270| ; Storyline - Sisters of the Sea
-C To Gut a Fish|QID|14262|M|55.49,76.45|N|Kill Spitelash Stormfuries and Seacallers.|US|
+T Investigating the Sea Shrine|QID|14267|M|58.98,71.85|N|To the Naga Power Stone.|
+A The Keystone Shard|QID|14270|M|58.98,71.85|N|From the Naga Power Stone.|PRE|14267| ; Storyline - Sisters of the Sea
+l The Keystone Shard|QID|14270|M|57.52,70.95|QO|1|N|Pick up the Keystone Shard.|
+T The Keystone Shard|QID|14270|M|58.98,71.85|N|To the Naga Power Stone.|
+A Report to Twocrush|QID|14271|M|58.98,71.85|N|From the Naga Power Stone.|PRE|14270| ; Storyline - Sisters of the Sea
+K To Gut a Fish|QID|14262|M|55.49,76.45|QO|1;2|N|Kill Spitelash Stormfuries and Seacallers.|US|
 T To Gut a Fish|QID|14262|M|50.68,75.30|N|To Torg Twocrush.|
 T Report to Twocrush|QID|14271|M|50.68,75.30|N|To Torg Twocrush.|
 A Sisters of the Sea|QID|14295|M|50.68,75.30|N|From Torg Twocrush.|PRE|14271| ; Storyline - Sisters of the Sea
-T Mysterious Azsharite|QID|14370|M|50.45,74.37|N|To Assistant Greely.|
-T A Gigantic Snack|QID|14371|M|50.45,74.37|N|To Assistant Greely.|
-A Befriending Giants|QID|14377|M|50.45,74.37|N|From Assistant Greely.|PRE|14370&14371| ; Storyline - The Rarest Substance on Azeroth
-K Lady Silisthra|QID|14295|M|62.81,76.32|QO|1|N|Kill Lady Silisthra, disable the Power Stone behind her to make it easier to kill her.|
-C Sisters of the Sea|QID|14295|M|63.13,79.38|QO|2|N|Kill Lady Vesthra, disable the Power Stone behind her to make it easier to kill her.|
+T Mysterious Azsharite|QID|14370|M|50.40,74.30|N|To Assistant Greely.|
+T A Gigantic Snack|QID|14371|M|50.40,74.30|N|To Assistant Greely.|
+A Befriending Giants|QID|14377|M|50.40,74.30|N|From Assistant Greely.|PRE|14370&14371| ; Storyline - The Rarest Substance on Azeroth
+K Lady Silisthra|QID|14295|M|62.81,76.32|QO|1|N|Kill Lady Silisthra.\n[color=FF0000]NOTE: [/color]Disable the Power Stone behind her to make it easier to kill her.|
+K Lady Vesthra|QID|14295|M|63.13,79.38|QO|2|N|Kill Lady Vesthra.\n[color=FF0000]NOTE: [/color]Disable the Power Stone behind her to make it easier to kill her.|
 T Sisters of the Sea|QID|14295|M|50.68,75.30|N|To Torg Twocrush.|
-C Befriending Giants|QID|14377|M|47.78,75.47|N|Talk to Gormungan.|
+C Befriending Giants|QID|14377|M|47.78,75.47|N|Talk to Gormungan.|CHAT|
 T Befriending Giants|QID|14377|M|50.39,74.30|N|To Assistant Greely.|
 A Azsharite Experiment Number One|QID|14385|M|50.41,74.29|N|From Assistant Greely.|PRE|14377| ; Storyline - The Rarest Substance on Azeroth
 A The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.50,74.75|N|From Hobart Grapplehammer.|PRE|14377| ; Storyline
-C The Terrible Tinkers of the Ruined Reaches|QID|14383|M|43.49,83.00;40.07,84.43|CS|N|Follow the lit path West, kill gnomes on your way to Bingham Gadgetspring inside the house. Kill him.|S|
-l Giant-Sized Laxative|QID|14385|M|43.49,83.00;40.07,84.43|CS|QO|1|N|The Laxative is upstairs in Bingham's house.|
-C The Terrible Tinkers of the Ruined Reaches|QID|14383|M|43.49,83.00;40.07,84.43|CS|N|Kill the rest of the gnomes needed to finish the quest.|US|
-C Azsharite Experiment Number One|QID|14385|M|47.8,75.5|QO|2|N|Attempt to give the laxative to Gormungan.|
+C The Terrible Tinkers of the Ruined Reaches|QID|14383|M|43.49,83.00;40.07,84.43|CS|QO|1;2;3|N|Follow the lit path West, kill gnomes on your way to Bingham Gadgetspring inside the house. Kill him.|S|
+l Giant-Sized Laxative|QID|14385|M|43.49,83.00;40.07,84.43|CS|QO|2|N|The Laxative is upstairs in Bingham's house.|
+K The Terrible Tinkers of the Ruined Reaches|QID|14383|M|43.49,83.00;40.07,84.43|CS|QO|1;2;3|N|Kill the rest of the gnomes needed to finish the quest.|US|
+C Azsharite Experiment Number One|QID|14385|M|47.8,75.5|QO|1|N|Attempt to give the laxative to Gormungan.|CHAT|
 T Azsharite Experiment Number One|QID|14385|M|50.41,74.29|N|To Assistant Greely.|
 A Azsharite Experiment Number Two|QID|14388|M|50.41,74.29|N|From Assistant Greely.|PRE|14385| ; Storyline - The Rarest Substance on Azeroth
 T The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.51,74.74|N|To Hobart Grapplehammer.|
-C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk to Assistant Greely when you're ready to shrink. Hop on a rat and run to Gormungan.|
-T Azsharite Experiment Number Two|QID|14388|M|50.41,74.29|N|To Assistant Greely.|
-A A Hello to Arms|QID|24458|M|50.53,74.77;51.48,74.32|CS|N|From Hobart Grapplehammer.|PRE|14383&14388|
-F Bilgewater Harbor|QID|24458|M|51.48,74.3|N|Speak with Friz Groundspin for a free airlift.|
+C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk to Assistant Greely when you're ready to shrink.\nHop on a rat and run to Gormungan.|
+C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk to Assistant Greely when you're ready to shrink. Hop on a rat and run to Gormungan. Chat with him to complete the quest.|V|
+T Azsharite Experiment Number Two|QID|14388|M|50.41,74.29|N|To Assistant Greely.| ; Completes Storyline 'The Rarest Substance on Azeroth'
+A A Hello to Arms|QID|24458|M|50.53,74.77|N|From Hobart Grapplehammer.\nHe paces around a bit.|PRE|14383&14388|
+F Bilgewater Harbor|QID|24458|M|51.48,74.28|N|Speak with Friz Groundspin for a free airlift.|
 f Bilgewater Harbor|QID|24458|M|52.92,49.85|N|Head down to the docks to get the flight point.|
 A Operation Fishgut|QID|14478|M|52.31,50.30|N|From the Wrenchmen Recruitment Poster on the column.|PRE|24452| ; Storyline - Heart of Arkkoroc
 h Bilgewater Harbor|QID|24458|M|57.02,50.29|N|At Grimy Greasefingers.|

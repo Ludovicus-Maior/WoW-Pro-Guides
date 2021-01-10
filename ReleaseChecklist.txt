@@ -1,30 +1,22 @@
-1) Check http://wow-pro.com/tracker for pending changes.
-
-2) Make sure your checkout of the master branch is clean:
+1) Make sure your checkout of the main branch is clean:
    git status
 
-3) Run updater script to pull changes from WoW-Pro:
-   python WoWPro_Utilities/UpdateGuides.py --root=./WoWPro_Leveling
-
-4) Review changes:
-   git diff
-
-5) Spin up Wow on an Alliance and a Horde toon and do:
+2) Spin up Wow on an Alliance and a Horde toon Retail/Classic and do:
    /run WoWPro:LoadAllGuides()
    This verifies that all guides can be parsed.
 
-6) Look at the number of guides listed in the config pane and verify the count against
-   echo */Alliance/*.lua | wc -w
-   echo */Horde/*.lua | wc -w
-   echo */Neutral/*.lua | wc -w
+3) Look at <WOW>/Logs/FrameXML.log for errors
 
-7) Look at /Applications/World of Warcraft/Logs/FrameXML.log for errors
+4) Update Release notes in Notes.md and check in.
 
-8) Check in changes
-   git commit -m "...." 
-
-9) Generate zip file
+5) Generate zip files (you will be prompted for the tag to use):
    WoWPro_Utilities/CutRelease.sh
+   WoWPro_Utilities/CutTrial.sh
+   WoWPro_Utilities/CutRelease.sh --classic
+   WoWPro_Utilities/CutTrial.sh --classic
 
-10) Upload to https://github.com/Jiyambi/WoW-Pro-Guides/downloads
+6) Upload the Trial versions to CurseForge.com
 
+7) Generate WoWUp release
+   ln -s ""WoWPro v1.13.6-D7.zip" "WoWPro v1.13.6-D7-classic.zip"
+   gh release create 20201231  -F Notes.md "WoWPro v9.0.2-A7.zip" "WoWPro v1.13.6-D7-classic.zip"
