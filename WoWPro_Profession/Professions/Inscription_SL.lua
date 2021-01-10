@@ -34,7 +34,7 @@ N Herbs|QID|773000005|N|You will need upwards of 900+ herbs to mill to make your
 l [item=169701/Death Blossom]|QID|773169701|L|169701 900|ITEM|169701|N|You'll need about 900 Death Blossoms (or combination of herbs).  Common herb found in all 4 zones.|
 l [item=168586/Rising Glory]|QID|773168586|L|168586 900|ITEM|168586|N|You'll need about 900 Rising Glory (or combination of herbs). Grows in Bastion Only.|
 l [item=168589/Marrowroot]|QID|773168589|L|168589 900|ITEM|168589|N|You'll need about 900 Marrowroot (or combination of herbs). Grows in Maldaxxus Only.|
-l [item=170554/Vigil's Torch]|QID|773170554|L|170554 900|ITEM|170554|N|You'll need about 900 Vigil's Torch (or combination of herbs). Grows in Ardenweald Only.|
+l [item=170554/Vigils Torch]|QID|773170554|L|170554 900|ITEM|170554|N|You'll need about 900 Vigil's Torch (or combination of herbs). Grows in Ardenweald Only.|
 l [item=168583/Widowbloom]|QID|773168583|L|168583 900|ITEM|168583|N|You'll need about 900 Widowbloom (or combination of herbs). Grows in Revendreth Only.|
 l [item=171315/Nightshade]|QID|773171315|L|171315 150|ITEM|171315|N|You'll need about 150 Nightshade. Grows in The Maw Only.|
 B [item=175886/Dark Parchment]|QID|773175886|M|35.97,38.53|Z|Ring of Fates@Oribos|L|175886 100|ITEM|175886|N|You'll need at least 100 Dark Parchments.|
