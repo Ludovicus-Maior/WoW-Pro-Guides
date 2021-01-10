@@ -572,9 +572,10 @@ T The Arbiter's Will|QID|61096|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To 
 A A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61096|MS|
 C A Land of Strife|QID|61107|M|59.67,36.36|Z|Ring of Transference@Oribos|NC|N|Click on the blue sword.|MS|
 T A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|; Bastion Completion and Achievement is here, so don't remove it again.
+
 ;wings of freedom
 R Kowalskos' Workshop|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|Run Northwest of Hero's rest to Kowalskos' Workshop.|LVL|60|RANK|2|
-A Broken Wings|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
+A Broken Wings|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|LVL|60|
 K Ariella|ACTIVE|59262|QID|59262|QO|1|M|45.44,36.82|Z|Bastion!The Shadowlands|N|Kill Ariella flying above you and bring Kowalskos her wing.|T|Ariella|
 T Broken Wings|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
 A Feathers of Flight|QID|59263|PRE|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
