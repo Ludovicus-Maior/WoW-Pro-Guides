@@ -39,7 +39,7 @@ N Shopping List|QID|202000004|N|The next few lines are going to be the Approxima
 l [item=171828/Laestrite Ore]|QID|202171828|L|171828 281|ITEM|171828|N|You'll need about 281 Laestrite Ore. Found everywhere.|
 l [item=171840/Porous Stone]|QID|202171840|L|171840 124|ITEM|171840|N|You'll need about 124 Porous Stone.|
 l [item=177061/Twilight Bark]|QID|202177061|L|177061 24|ITEM|177061|N|You'll need about 24 Twilight Bark. Mined from [item=171831/Phaedrum Ore] in Ardenweald, Can also purchase in limited quantities from Distrbutor Au'burk.|
-N Decision Time|QID|202000002|N|You have a choice of two Scopes to make.\n[item=172921/Infra-green Relfex Sight] needs 30 [item=173108/Oriblase] (High AH Cost), or [item=172920/Optical Target Embiggener] need 15 [item=173108/Oriblase] AND 15 [item=173109/Angerseye] (Cheap on AH).|
+N Decision Time|QID|202000002|N|You have a choice of two Scopes to make.\n[item=172921/Infra-green Reflex Sight] needs 30 [item=173108/Oriblase] (High AH Cost), or [item=172920/Optical Target Embiggener] need 15 [item=173108/Oriblase] AND 15 [item=173109/Angerseye] (Cheap on AH).|
 l [item=173108/Oriblase]|QID|202173108|L|173108 30|ITEM|173108|N|You'll need 30 Oriblase. If you are making the [item=172921/Infra-green Relfex Sight], Click off to skip.|
 l [item=173108/Oriblase]|QID|202173108|L|173108 15|ITEM|173108|N|You'll need 15 Oriblase. If you are making the [item=172920/Optical Target Embiggener], Click off to skip.|
 l [item=173109/Angerseye]|QID|202173109|L|173109 15|ITEM|173109|N|You'll need 15 Angerseye. If you are making the [item=172920/Optical Target Embiggener], Click off to skip.|
