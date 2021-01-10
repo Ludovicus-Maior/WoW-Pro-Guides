@@ -170,8 +170,8 @@ C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk 
 C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk to Assistant Greely when you're ready to shrink. Hop on a rat and run to Gormungan. Chat with him to complete the quest.|V|
 T Azsharite Experiment Number Two|QID|14388|M|50.41,74.29|N|To Assistant Greely.| ; Completes Storyline 'The Rarest Substance on Azeroth'
 A A Hello to Arms|QID|24458|M|50.53,74.77|N|From Hobart Grapplehammer.\nHe paces around a bit.|PRE|14383&14388|
-F Bilgewater Harbor|QID|24458|M|51.48,74.28|N|Speak with Friz Groundspin for a free airlift.|
-f Bilgewater Harbor|QID|24458|M|52.92,49.85|N|Head down to the docks to get the flight point.|
+F Bilgewater Harbor|QID|24458|M|51.48,74.28|N|Speak with Friz Groundspin for a free airlift.|IZ|Southern Rocketway|
+f Bilgewater Harbor|QID|24458|M|52.92,49.85|N|Head down to the docks to get the flight point.|TAXI|-Bilgewater Harbor|
 A Operation Fishgut|QID|14478|M|52.31,50.30|N|From the Wrenchmen Recruitment Poster on the column.|PRE|24452| ; Storyline - Heart of Arkkoroc
 h Bilgewater Harbor|QID|24458|M|57.02,50.29|N|At Grimy Greasefingers.|
 T A Hello to Arms|QID|24458|M|60.51,50.86|N|To Bleenik Fizzlefuse.|
