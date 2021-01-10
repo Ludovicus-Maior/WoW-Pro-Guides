@@ -74,7 +74,7 @@ N Mass Mill - Nightshade|QID|77311418|P|Inscription;773;8+60;1|N|Just mill all y
 = Learn Recipe|QID|773000403|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+40|RECIPE|324197|N|Learn [spell=324197/Incription: Missive of Critical Strike] Recipe from Trainer.|
 = Learn Recipe|QID|773000404|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+40|RECIPE|324198|N|Learn [spell=324198/Incription: Missive of Haste] Recipe from Trainer.|
 l Tranquil Ink|QID|773175788|P|Inscription;773;8+60|L|175788 25|ITEM|175788|N|Mill more Nightshade (if Available) till you have 25 Pigments.|
-M [item=177970/Tranquil Ink]|QID|773321029|P|Inscription;773;8+75;1|ITEM|177970|CRAFT|321029 25|MATS|175788 1;173060 1;180732 1|
+M [item=175970/Tranquil Ink]|QID|773321029|P|Inscription;773;8+75;1|ITEM|175970|CRAFT|321029 25|MATS|175788 1;173060 1;180732 1|
 M [item=173161/Missive of Critical Strike]|QID|773324197|P|Inscription;773;8+78;1|ITEM|173161|CRAFT|324197 3|MATS|173059 8;173058 2;175970 1;175886 1|PN|Be sure to craft all 3, then click off step.|L|173161 3|
 M [item=173163/Missive of Versatility]|QID|773324195|P|Inscription;773;8+81;1|ITEM|173163|CRAFT|324195 3|MATS|173059 2;173058 8;175970 1;175886 1|PN|Be sure to craft all 3, then click off step.|L|173163 3|
 M [item=173160/Missive of Haste]|QID|773324198|P|Inscription;773;8+84;1|ITEM|173160|CRAFT|324198 3|MATS|173059 6;173058 4;175970 1;175886 1|PN|Be sure to craft all 3, then click off step.|L|173160 3|
