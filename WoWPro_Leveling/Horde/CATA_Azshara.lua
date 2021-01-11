@@ -174,49 +174,50 @@ F Bilgewater Harbor|QID|24458|M|51.48,74.28|N|Speak with Friz Groundspin for a f
 f Bilgewater Harbor|QID|24458|M|52.92,49.85|N|Head down to the docks to get the flight point.|TAXI|-Bilgewater Harbor|
 A Operation Fishgut|QID|14478|M|52.31,50.30|N|From the Wrenchmen Recruitment Poster on the column.|PRE|24452| ; Storyline - Heart of Arkkoroc
 h Bilgewater Harbor|QID|24458|M|57.02,50.29|N|At Grimy Greasefingers.|
-T A Hello to Arms|QID|24458|M|60.51,50.86|N|To Bleenik Fizzlefuse.|
-T Operation Fishgut|QID|14478|M|60.62,50.67|N|To Commander Molotov.|
-A Rapid Deployment|QID|24455|M|60.62,50.67|N|From Commander Molotov.|PRE|14478| ; Storyline - Heart of Arkkoroc
+T A Hello to Arms|QID|24458|M|60.51,50.86|N|To Bleenik Fizzlefuse. He moves around.|
+T Operation Fishgut|QID|14478|M|60.64,50.58|N|To Commander Molotov.|
+A Rapid Deployment|QID|24455|M|60.64,50.58|N|From Commander Molotov.|PRE|14478| ; Storyline - Heart of Arkkoroc
 T Rapid Deployment|QID|24455|M|58.07,52.32|N|To Captain Desoto.|
 A There Are Many Like It|QID|14479|M|58.07,52.32|N|From Captain Desoto.|PRE|24455| ; Storyline - Heart of Arkkoroc
-F The Shattered Strand|QID|14479|M|57.89,52.22|N|Hop on the Surface to Other Surface Transport rocket when you're ready to leave.|
+F The Shattered Strand|QID|14479|M|57.89,52.22|N|Hop on the Surface to Other Surface Transport rocket when you're ready to leave.|V|
 A First Come, First Served|QID|24437|M|39.14,51.77|N|From Ruckus.|
 T There Are Many Like It|QID|14479|M|41.50,53.63|N|To Lieutenant Drex.|
 A Mop Up|QID|24435|M|41.50,53.63|N|From Lieutenant Drex.|PRE|14479| ; Storyline - Heart of Arkkoroc
 A Halo Drops|QID|24436|M|41.41,53.92|N|From Sergeant Hort.| ; Storyline
-C Mop Up|QID|24435|M|41.50,53.63|N|Kill Naga.|PRE|14479|S|
-C Halo Drops|QID|24436|M|41.41,53.92|N|Use the Flare Gun near Wounded Soldiers.|U|49679|S|
-N Southern Pagoda|QID|24437|M|43.88,59.92|QO|1|N|Stand in the blue light and use the Flag and claim the Southern Pagoda.|U|49685|
-N Big ol' Tower|QID|24437|M|43.6,43.42|QO|2|N|Stand in the blue light and use the Flag and claim the Big ol' Tower.|U|49685|
-C First Come, First Served|QID|24437|M|45.46,38.54|QO|3|N|Stand in the blue light and use the Flag and claim the Northern Vista.|U|49685|
+K Mop Up|QID|24435|M|41.50,53.63|QO|1|N|Kill Naga.|S|
+C Halo Drops|QID|24436|M|41.41,53.92|N|Use the Flare Gun near Wounded Soldiers.|U|49679|S|NC|
+C Southern Pagoda|QID|24437|M|43.88,59.92|QO|1|N|Stand in the blue light and use the Flag to claim the Southern Pagoda.\n[color=FF0000]NOTE: [/color]The 'Use' hot key will not work for this until you complete 'Halo Drop'. Click on the item or the button.|U|49685|NC|
+C Big ol' Tower|QID|24437|M|43.6,43.42|QO|2|N|Stand in the blue light and use the Flag to claim the Big ol' Tower.\n[color=FF0000]NOTE: [/color]The 'Use' hot key will not work for this until you complete 'Halo Drop'. Click on the item or the button.|U|49685|NC|
+C Northern Vista|QID|24437|M|45.46,38.54|QO|3|N|Stand in the blue light and use the Flag to claim the Northern Vista.\n[color=FF0000]NOTE: [/color]The 'Use' hot key will not work for this until you complete 'Halo Drop'. Click on the item or the button.|U|49685|NC|
 C Halo Drops|QID|24436|M|41.41,53.92|N|Use the Flare Gun near Wounded Soldiers.|U|49679|US|
-C Mop Up|QID|24435|M|41.50,53.63|N|Finish killing Nagas for this quest.|PRE|14479|US|
+K Mop Up|QID|24435|M|41.50,53.63|QO|1|N|Finish killing Nagas for this quest.|US|
 T First Come, First Served|QID|24437|M|39.14,51.77|N|To Ruckus.|
 T Mop Up|QID|24435|M|41.50,53.63|N|To Lieutenant Drex.|
 T Halo Drops|QID|24436|M|41.41,53.92|N|To Sergeant Hort.|
 A Field Promotion|QID|24448|M|41.50,53.63|N|From Lieutenant Drex.|PRE|24435&24436| ; Storyline - Heart of Arkkoroc
-T Field Promotion|QID|24448|M|34.34,44.89|N|To Captain Tork.|
-A Still Beating Heart|QID|14487|M|34.34,44.89|N|From Captain Tork.|PRE|24448| ; Storyline
-A Extermination|QID|14480|M|34.44,44.77|N|From Sergeant Zelks.|PRE|24448| ; Storyline - Heart of Arkkoroc
-A Head of the Snake|QID|14484|M|34.44,44.77|N|From Sergeant Zelks.|PRE|24448| ; Storyline
-A Ticker Required|QID|14485|M|34.44,44.77|N|From Sergeant Zelks.|PRE|24448| ; Storyline
-A Handling the Goods|QID|14486|M|34.52,44.71|N|From Tora Halotrix.|PRE|24448| ; Storyline
-l Handling the Goods|ACTIVE|14486|M|35.11,49.95|QO|1|N|Collect 12 Highborne Tablets from the Ruins of Eldarath.|U|49629|S|
-K Extermination|QID|14480|M|33.49,48.16|QO|1|N|Kill 30 Spitelash Naga in the Ruins of Eldarath.|U|49629|S|
+T Field Promotion|QID|24448|M|34.31,44.90|N|To Captain Tork, in Ruins of Eldrath.|
+A Still Beating Heart|QID|14487|M|34.31,44.90|N|From Captain Tork.|PRE|24448| ; Storyline
+A Extermination|QID|14480|M|34.46,44.73|N|From Sergeant Zelks.|PRE|24448| ; Storyline - Heart of Arkkoroc
+A Head of the Snake|QID|14484|M|34.46,44.73|N|From Sergeant Zelks.|PRE|24448| ; Storyline
+A Ticker Required|QID|14485|M|34.46,44.73|N|From Sergeant Zelks.|PRE|24448| ; Storyline
+A Handling the Goods|QID|14486|M|34.52,44.68|N|From Tora Halotrix.|PRE|24448| ; Storyline
+l Handling the Goods|ACTIVE|14486|M|35.11,49.95|QO|1|N|Collect 12 Highborne Tablets from the Ruins of Eldarath.|S|
+K Extermination|QID|14480|M|33.49,48.16|QO|1|N|Kill 30 Spitelash Naga in the Ruins of Eldarath.|S|
 C Ticker Required|QID|14485|M|34.30,48.21;34.06,51.64|CN|N|Bring Ticker into the ruins and cover him as he sets up bombs at 3 of the Spitelash Runestones. The first one should be respawned by the time you've blown the second one up.|U|49629|
-K Head of the Snake|ACTIVE|14484|M|36.01,49.87|QO|1|N|Kill Lord Kassarus. Pick up the Impaling Spines he throws and throw them back during the fight.|U|49649|
-C Still Beating Heart|QID|14487|M|31.92,50.20|N|Recover the Heart of Arkkoroc from the center of the Ruins of Eldarath.|U|49629|
-l Handling the Goods|ACTIVE|14486|M|35.11,49.95|QO|1|N|Collect 12 Highborne Tablets from the Ruins of Eldarath.|U|49629|US|
-K Extermination|ACTIVE|14480|M|33.49,48.16|QO|1|N|Kill 30 Spitelash Naga in the Ruins of Eldarath.|U|49629|US|
-T Still Beating Heart|QID|14487|M|34.34,44.89|N|To Captain Tork.|
-T Head of the Snake|QID|14484|M|34.44,44.77|N|To Sergeant Zelks.|
-T Ticker Required|QID|14485|M|34.44,44.77|N|To Sergeant Zelks.|
-T Extermination|QID|14480|M|34.44,44.77|N|From Sergeant Zelks.|
-T Handling the Goods|QID|14486|M|34.52,44.71|N|To Tora Halotrix.|
-A Shore Leave|QID|24449|M|34.33,44.88;34.48,44.59|CS|N|From Captain Tork.|PRE|14480&14484&14485&14486&14487| ; Storyline - Heart of Arkkoroc
-T Shore Leave|QID|24449|M|60.59,50.57|N|To Uncle Bedlam. Hop on the Military Gyrocopter when ready to leave.|
-A Azshara Blues|QID|14407|M|59.38,50.68|N|From Teemo.| ; Storyline
-T Azshara Blues|QID|14407|M|55.47,52.16|N|To Kalec.|
+K Head of the Snake|QID|14484|M|36.01,49.87|QO|1|N|Kill Lord Kassarus. Pick up the Impaling Spines he throws and throw them back during the fight.|
+l Still Beating Heart|QID|14487|M|31.87,50.09|QO|1|N|Recover the Heart of Arkkoroc from the center of the Ruins of Eldarath.|
+K Extermination|ACTIVE|14480|M|33.49,48.16|QO|1|N|Kill 30 Spitelash Naga in the Ruins of Eldarath.|US|
+l Handling the Goods|ACTIVE|14486|M|35.11,49.95|QO|1|N|Collect 12 Highborne Tablets from the Ruins of Eldarath.|US|
+T Still Beating Heart|QID|14487|M|34.31,44.90|N|To Captain Tork.|
+T Head of the Snake|QID|14484|M|34.46,44.73|N|To Sergeant Zelks.|
+T Ticker Required|QID|14485|M|34.46,44.73|N|To Sergeant Zelks.|
+T Extermination|QID|14480|M|34.46,44.73|N|From Sergeant Zelks.|
+T Handling the Goods|QID|14486|M|34.52,44.68|N|To Tora Halotrix.|
+A Shore Leave|QID|24449|M|34.31,44.90|N|From Captain Tork.|PRE|14480&14484&14485&14486&14487| ; Storyline - Heart of Arkkoroc
+F Bilgewater Harbor|ACTIVE|24449|M|34.51,44.52|N|Hop into the Military Gyrocopter when ready to leave.|IZ|Ruins of Eldarath|V|
+T Shore Leave|QID|24449|M|60.61,50.53|N|To Uncle Bedlam.| ; Completes Storyline - Heart of Arkkoroc
+A Azshara Blues|QID|14407|M|59.33,50.74|N|From Teemo.| ; Storyline
+T Azshara Blues|QID|14407|M|55.47,52.16|N|To Kalec. He's in the tunnel under the road.|
 A Friends Come In All Colors|QID|14130|M|55.47,52.16|N|From Kalec.|PRE|14407| ; Storyline
 F Bitter Reaches|QID|14130|M|67.46,21.13|N|The flight point you're actually headed to is Northern Rocketway north of Bilgewater Harbor.|
 T Friends Come In All Colors|QID|14130|M|70.33,36.28|N|To Ergll.|
