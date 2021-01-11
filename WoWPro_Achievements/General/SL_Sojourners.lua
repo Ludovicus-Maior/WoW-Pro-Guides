@@ -9,7 +9,7 @@ L Level 60|N|This guide is meant for Finishing the Sojourner's achievement quest
 N Bastion|ACH|14801|
 ;wings of freedom
 R Kowalskos' Workshop|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|Run Northwest of Hero's rest to Kowalskos' Workshop.|LVL|60|
-A Broken Wings|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|
+A Broken Wings|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|LVL|60|
 K Ariella|ACTIVE|59262|QID|59262|QO|1|M|45.44,36.82|Z|Bastion!The Shadowlands|N|Kill Ariella flying above you and bring Kowalskos her wing.|T|Ariella|
 T Broken Wings|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
 A Feathers of Flight|QID|59263|PRE|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|
