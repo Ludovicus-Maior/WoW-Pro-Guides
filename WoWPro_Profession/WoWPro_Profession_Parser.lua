@@ -77,10 +77,10 @@ function WoWPro.Profession:PreRowUpdate(row)
 --									if j == 1 then
 --										WoWPro.target[k] = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)		-- commented out, currently not working.
 --									end
-									if _G.GetItemCount(MatsItem) >= MatsAmt then						-- post msg if have or short what is needed for crafting.
-										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..', You will use '..MatsAmt..' of the '.._G.GetItemCount(MatsItem)..' you have available.\n'
+									if _G.GetItemCount(MatsItem, true) >= MatsAmt then						-- post msg if have or short what is needed for crafting.
+										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..', You will use '..MatsAmt..' of the '.._G.GetItemCount(MatsItem, true)..' you have available.\n'
 									else
-										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..',\nYou need '..MatsAmt..', [color=FF0000]you have '.._G.GetItemCount(MatsItem)..' available.[/color]\n'
+										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..',\nYou need '..MatsAmt..', [color=FF0000]you have '.._G.GetItemCount(MatsItem, true)..' available.[/color]\n'
 									end
 							end
 							WoWPro.note[k] = WoWPro.note[k] .. ('\n'..(WoWPro.pn[k] or ""))
