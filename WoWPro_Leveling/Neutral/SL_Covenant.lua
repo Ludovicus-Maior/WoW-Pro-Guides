@@ -1156,8 +1156,8 @@ N Renown Level 5|AVAILABLE|59701|N|You must reach Renown level 5 to continue to 
 A Common Ground|QID|59701|M|51.77,37.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|62921|COV|Venthyr|REN|5|
 A The Princeguard|QID|61492|M|46.15,14.84|Z|Sinfall Reaches@Sinfall!Dungeon|N|From General Draven.|PRE|62921|COV|Venthyr|REN|5|
 F Charred Ramparts|ACTIVE|61492|M|67.27,21.51|Z|Sinfall Reaches@Sinfall!Dungeon|N|Fly to the Charred Ramparts.|COV|Venthyr|
-R Hole in the Wall|ACTIVE|61492|M|40.55,47.67|Z|Sinfall Reaches@Sinfall!Dungeon|N|Run to the Hole in the Wall.|COV|Venthyr|
-R Darkwall Tower|ACTIVE|61492|M|42.07,47.15|Z|Sinfall Reaches@Sinfall!Dungeon|N|Run to and take the lift up Darkwall Tower.|COV|Venthyr|
+R Hole in the Wall|ACTIVE|61492|M|40.55,47.67|Z|Revendreth|N|Run to the Hole in the Wall.|COV|Venthyr|
+R Darkwall Tower|ACTIVE|61492|M|42.07,47.15|Z|Revendreth|N|Run to and take the lift up Darkwall Tower.|COV|Venthyr|
 C The Princeguard|QID|61492|M|43.99,50.75|Z|Revendreth|QO|1|NC|N|Click on Chelra the Bladewall to revive her.|COV|Venthyr|
 C The Princeguard|QID|61492|M|41.03,48.71|Z|Revendreth|QO|2|N|Kill the Venthyr invaders.|S|COV|Venthyr|
 t The Princeguard|QID|61492|M|PLAYER|Z|Revendreth|N|To Chelra the Bladewall.|COV|Venthyr|
@@ -1187,9 +1187,9 @@ R Dominance Gate|ACTIVE|59708|M|45.19,31.24|Z|Revendreth|N|Cut your way through 
 T Invitation for the Stonewright|QID|59708|M|40.27,30.60|Z|Revendreth|N|To General Draven.|COV|Venthyr|
 A Harvester of Wrath|QID|59720|M|40.27,30.60|Z|Revendreth|N|From General Draven.|PRE|59708|COV|Venthyr|
 C Harvester of Wrath|QID|59720|M|34.28,21.92|Z|Revendreth|N|Do NOT mount up, you must cross the bridge on foot and fight your way across. At the end you can deliver your message to the Stonewright.|COV|Venthyr|
-F Charred Ramparts|ACTIVE|59720|M|25.96,28.88|Z|Sinfall Reaches@Sinfall!Dungeon|N|Take the lift down and head to the flightpoint to fly you back to the Carred Ramparts.|COV|Venthyr|
-R Hole in the Wall|ACTIVE|59720|M|40.77,47.18|Z|Sinfall Reaches@Sinfall!Dungeon|N|Run to the Hole in the Wall.|COV|Venthyr|
-R Darkwall Tower|ACTIVE|59720|M|42.07,46.80|Z|Sinfall Reaches@Sinfall!Dungeon|N|Run to and take the lift up Darkwall Tower.|COV|Venthyr|
+F Charred Ramparts|ACTIVE|59720|M|25.96,28.88|Z|Revendreth|N|Take the lift down and head to the flightpoint to fly you back to the Carred Ramparts.|COV|Venthyr|
+R Hole in the Wall|ACTIVE|59720|M|40.77,47.18|Z|Revendreth|N|Run to the Hole in the Wall.|COV|Venthyr|
+R Darkwall Tower|ACTIVE|59720|M|42.07,46.80|Z|Revendreth|N|Run to and take the lift up Darkwall Tower.|COV|Venthyr|
 T Harvester of Desire|QID|59676|M|41.02,54.80|Z|Revendreth|N|To Prince Renathal.|COV|Venthyr|
 T Harvester of Envy|QID|59711|M|41.02,54.80|Z|Revendreth|N|To Prince Renathal.|COV|Venthyr|
 T Harvester of Wrath|QID|59720|M|41.02,54.80|Z|Revendreth|N|To Prince Renathal.|COV|Venthyr|
@@ -1202,7 +1202,7 @@ T Kindred Spirits|QID|59343|M|43.69,17.42|Z|Sinfall Reaches@Sinfall!Dungeon|N|To
 
 ; Chapter 4
 N Renown Level 8|AVAILABLE|60904|N|You must reach Renown level 8 to continue to the next chapter.|COV|Venthyr|REN|-8|
-A Medallion of Desire|QID|60904|M|53.59,32.94|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Theotar.|COV|Venthyr|REN|8|
+A Medallion of Desire|QID|60904|M|53.59,32.94|Z|Sinfall Reaches@Sinfall!Dungeon|N|From The Medallion of Desire.|COV|Venthyr|REN|8|
 T Medallion of Desire|QID|60904|M|50.25,18.08|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Theotar.|COV|Venthyr|
 A An Estate Within the Old Gate|QID|57880|M|50.25,18.08|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Theotar.|COV|Venthyr|REN|8|
 F Old Gate|ACTIVE|57880|M|67.27,21.51|Z|Sinfall Reaches@Sinfall!Dungeon|N|Fly to the Old Gate.|COV|Venthyr|
@@ -1224,6 +1224,7 @@ C A Discreet Entrance|QID|57885|M|58.75,30.29|Z|Revendreth|NC|N|Walk through the
 T A Discreet Entrance|QID|57885|M|58.05,27.54|Z|Revendreth|N|To The Countess.|COV|Venthyr|
 A A Meal and A Deal|QID|57886|M|58.05,27.54|Z|Revendreth|N|From The Countess.|PRE|57885|COV|Venthyr|REN|8|
 C A Meal and A Deal|QID|57886|M|58.13,27.65|Z|Revendreth|QO|1|NC|N|Click on the chair to sit down.|COV|Venthyr|
+C A Meal and A Deal|QID|57886|M|58.09,27.61|Z|Revendreth|QO|2|NC|N|Listen to the Countess.|COV|Venthyr|
 C A Meal and A Deal|QID|57886|M|58.09,27.61|Z|Revendreth|QO|3|NC|N|Click on some of the food on the table.|COV|Venthyr|
 C A Meal and A Deal|QID|57886|M|58.09,27.61|Z|Revendreth|QO|4|NC|N|Sit back and listen to the Countess.|COV|Venthyr|
 T A Meal and A Deal|QID|57886|M|58.05,27.53|Z|Revendreth|N|To The Countess.|COV|Venthyr|
@@ -1238,12 +1239,12 @@ A Beautiful, But Deadly|QID|57890|M|58.05,27.53|Z|Revendreth|N|From The Countess
 R Thornhill Manor|ACTIVE|57890|M|57.39,28.65|Z|Revendreth|N|Run back through the mirror to Thornhill Manor.|COV|Venthyr|
 R Redelav District|ACTIVE|57890|M|56.92,37.21|Z|Revendreth|N|Run up to the Redelav District.|COV|Venthyr|
 C Beautiful, But Deadly|QID|57890|M|53.97,38.16|Z|Revendreth|NC|N|Collect Duskmire Mushrooms around on the ground.|S|COV|Venthyr|
+C "Accidental" Arson|QID|57889|M|56.43,35.37|Z|Revendreth|QO|1|N|Kill Lord Andrei.|COV|Venthyr|
+C "Accidental" Arson|QID|57889|M|56.31,35.51|Z|Revendreth|QO|2|NC|N|Click on the Ornate Rug to start the fire.|COV|Venthyr|
 C An Invitation to Treachery|QID|57888|M|55.27,34.92|Z|Revendreth|QO|4|U|173358|NC|N|Target the Redelav's Servant and use the invitation to toss it.|T|Fiendish Servant|COV|Venthyr|
 C An Invitation to Treachery|QID|57888|M|53.06,37.01|Z|Revendreth|QO|1|U|173358|NC|N|Target the Darkvein's Servant and use the invitation to toss it.|T|Fiendish Servant|COV|Venthyr|
 C An Invitation to Treachery|QID|57888|M|54.30,38.80|Z|Revendreth|QO|2|U|173358|NC|N|Target the Duskmire's Servant and use the invitation to toss it.|T|Fiendish Servant|COV|Venthyr|
 C An Invitation to Treachery|QID|57888|M|55.90,39.50|Z|Revendreth|QO|3|U|173358|NC|N|Target the Primrose's Servant and use the invitation to toss it.|T|Fiendish Servant|COV|Venthyr|
-C "Accidental" Arson|QID|57889|M|56.43,35.37|Z|Revendreth|QO|1|N|Kill Lord Andrei.|COV|Venthyr|
-C "Accidental" Arson|QID|57889|M|56.31,35.51|Z|Revendreth|QO|2|NC|N|Click on the Ornate Rug to start the fire.|COV|Venthyr|
 C Beautiful, But Deadly|QID|57890|M|53.97,38.16|Z|Revendreth|U|173358|NC|N|Collect Duskmire Mushrooms around on the ground.|US|COV|Venthyr|
 R Redelav Tower|ACTIVE|57890|M|58.75,30.29|Z|Revendreth|N|Run back through the mirror to Redelav Tower.|COV|Venthyr|
 T An Invitation to Treachery|QID|57888|M|58.05,27.53|Z|Revendreth|N|To The Countess.|COV|Venthyr|
@@ -1266,7 +1267,7 @@ T Neither Enemy nor Ally|QID|57893|M|51.78,37.44|Z|Sinfall Reaches@Sinfall!Dunge
 
 ; Chapter 5
 N Renown Level 11|AVAILABLE|60935|N|You must reach Renown level 11 to continue to the next chapter.|COV|Venthyr|REN|-11|
-A Medallion of Avarice|QID|60935|M|54.88,31.04|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|57893|COV|Venthyr|REN|11|
+A Medallion of Avarice|QID|60935|M|54.88,31.04|Z|Sinfall Reaches@Sinfall!Dungeon|N|From The Medallion of Avarice.|PRE|57893|COV|Venthyr|REN|11|
 T Medallion of Avarice|QID|60935|M|51.83,37.52|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 A The Curator|QID|58842|M|51.83,37.52|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|60935|COV|Venthyr|REN|11|
 F Halls of Atonement|ACTIVE|58842|M|67.27,21.51|Z|Sinfall Reaches@Sinfall!Dungeon|N|Fly to the Halls of Atonement.|COV|Venthyr|
@@ -1385,7 +1386,7 @@ F Sinfall|ACTIVE|59233|M|44.07,32.45|Z|Bastion!The Shadowlands|N|Head to the fli
 T The Prince's New Crown|QID|59233|M|51.82,37.71|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 
 ; Chapter 7
-N Renown Level 17|AVAILABLE|59233|N|You must reach Renown level 17 to continue to the next chapter.|COV|Venthyr|REN|-17|
+N Renown Level 17|AVAILABLE|61077|N|You must reach Renown level 17 to continue to the next chapter.|COV|Venthyr|REN|-17|
 A Confronting Sin|QID|61077|PRE|59233|M|51.77,37.55|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|COV|Venthyr|REN|17|
 P Confronting Sin|ACTIVE|61077|M|36.71,48.01|Z|Sinfall Reaches@Sinfall!Dungeon|N|Take the portal to Sinfall.|IZ|1699|COV|Venthyr|
 T Confronting Sin|QID|61077|M|56.09,78.57|Z|Sinfall Depths@Sinfall!Dungeon|N|To The Accuser.|COV|Venthyr|
