@@ -16,8 +16,8 @@ return [[
 ;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |PN|Profession Note (aka |N|)  -- PN ONLY in M Steps.
 ;	 IE M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;8+8;1|CRAFT|301578 8|MATS|180732 1;169701 2|PN|Create 8, needed in 2 steps.|
 ;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 15 |171000151| and |171000152|  // |RECIPE|261423|N|Learn [spell=261423/Alchemy: Spiritual Rejuvenation Potion]
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Alchemy: Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+; 	 IE learn 2 at lvl 15 |171000151| and |171000152|  // |RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion]
+; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
 ;  Typed update to SL splits on 12-Dec-2020 by Blanckaert (This is NOT tested)  UPDATE 25-DEC-2020 to Prof rewrite.
 
@@ -50,38 +50,38 @@ M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;8+8;1|ITEM|
 l [item=171267/Spiritual Healing Potion]|QID|171301578|L|171267 8|ITEM|171267|N|Step cleared before you made 8, craft a few more.  You will need 8 for the [item=171269/Spiritual Rejuvenation Potion].|
 M [item=171268/Spiritual Mana Potion]|QID|171301683|P|Alchemy;171;8+15;1|ITEM|171268|CRAFT|301683 8|MATS|180732 1;169701 2|PN|Create 8, needed in next step.|
 l [item=171268/Spiritual Mana Potion]|QID|171301683|L|171268 8|ITEM|171268|N|Step cleared before you made 8, craft a few more.  You will need 8 for the [item=171269/Spiritual Rejuvenation Potion].|
-= Learn Recipe|QID|171000151|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Alchemy: Spiritual Rejuvenation Potion] Recipe, from Trainer.|
-= Learn Recipe|QID|171000152|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|307120|N|Learn [spell=307120/Alchemy: Ground Death Blossom] Recipe, from Trainer.|
+= Learn Recipe|QID|171000151|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion] Recipe, from Trainer.|
+= Learn Recipe|QID|171000152|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|307120|N|Learn [spell=307120/Ground Death Blossom] Recipe, from Trainer.|
 M [item=171269/Spiritual Rejuvenation Potion]|QID|171301683|P|Alchemy;171;8+20;1|ITEM|171269|CRAFT|301683 8|MATS|171267 8;171268 8|PN|Create all 8.|
-= Learn Recipe|QID|171000201|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+20|RECIPE|307124|N|Learn [spell=307124/Alchemy: Ground Rising Glory] Recipe, from Trainer.|
+= Learn Recipe|QID|171000201|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+20|RECIPE|307124|N|Learn [spell=307124/Ground Rising Glory] Recipe, from Trainer.|
 M [item=171287/Ground Death Blossom]|QID|171307120|P|Alchemy;171;8+30;1|ITEM|171287|CRAFT|307120 12|MATS|169701 2|PN|If you run out, click off and make next one.|
 M [item=171291/Ground Rising Glory]|QID|171307124|P|Alchemy;171;8+30;1|ITEM|171291|CRAFT|307124 12|MATS|168586 2|PN|Make until you hit 30, or just over.|
-= Learn Recipe|QID|171000301|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+30|RECIPE|261424|N|Learn [spell=261424/Alchemy: Potion of the Hidden Spirit] Recipe, from Trainer.|
+= Learn Recipe|QID|171000301|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+30|RECIPE|261424|N|Learn [spell=261424/Potion of the Hidden Spirit] Recipe, from Trainer.|
 M [item=171266/Potion of the Hidden Spirit]|QID|171261424|P|Alchemy;171;8+45;1|ITEM|171266|CRAFT|261424 15|MATS|180732 1;169701 2;168586 3|
-= Learn Recipe|QID|171000451|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+45|RECIPE|307123|N|Learn [spell=307123/Alchemy: Ground Marrowroot] Recipe, from Trainer.|
+= Learn Recipe|QID|171000451|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+45|RECIPE|307123|N|Learn [spell=307123/Ground Marrowroot] Recipe, from Trainer.|
 M [item=171290/Ground Marrowroot]|QID|171307123|P|Alchemy;171;8+55;1|ITEM|171290|CRAFT|307123 10|MATS|168589 2|
-= Learn Recipe|QID|171000501|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+50|RECIPE|256134|N|Learn [spell=256134/Alchemy: Potion of Soul Purity] Recipe, from Trainer.|
+= Learn Recipe|QID|171000501|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+50|RECIPE|256134|N|Learn [spell=256134/Potion of Soul Purity] Recipe, from Trainer.|
 M [item=171263/Potion of Soul Purity]|QID|171256134|P|Alchemy;171;8+60;1|ITEM|171263|CRAFT|256134 5|MATS|180732 1;169701 2;170554 3|
-= Learn Recipe|QID|171000601|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+60|RECIPE|256133|N|Learn [spell=256133/Alchemy: Potion of Specter Swiftness] Recipe, from Trainer.|
+= Learn Recipe|QID|171000601|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+60|RECIPE|256133|N|Learn [spell=256133/Potion of Specter Swiftness] Recipe, from Trainer.|
 M [item=171370/Potion of Specter Swiftness]|QID|171256133|P|Alchemy;171;8+80;1|ITEM|171370|CRAFT|256133 28|MATS|180732 1;169701 2;168589 3|
-= Learn Recipe|QID|171000801|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+80|RECIPE|307121|N|Learn [spell=307121/Alchemy: Ground Vigil's Torch] Recipe, from Trainer.|
+= Learn Recipe|QID|171000801|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+80|RECIPE|307121|N|Learn [spell=307121/Ground Vigil's Torch] Recipe, from Trainer.|
 M [item=171288/Ground Vigil's Torch]|QID|171307121|P|Alchemy;171;8+97;1|ITEM|171288|CRAFT|307121 22|MATS|170554 2|PN|Will be Yellow for the last 7 points.|
-= Learn Recipe|QID|171000901|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+90|RECIPE|344316|N|Learn [spell=344316/Alchemy: Potion of Psychopomp's Speed] Recipe, from Trainer.|
+= Learn Recipe|QID|171000901|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+90|RECIPE|344316|N|Learn [spell=344316/Potion of Psychopomp's Speed] Recipe, from Trainer.|
 M [item=184090/Potion of Psychopomps Speed]|QID|171344316|P|Alchemy;171;8+100;1|ITEM|184090|CRAFT|344316 3|MATS|180732 1;168586 3;170554 3|
-= Learn Recipe|QID|171001001|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+100|RECIPE|307094|N|Learn [spell=307094/Alchemy: Potion of Hardened Shadows] Recipe, from Trainer.|
-= Learn Recipe|QID|171001002|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+100|RECIPE|307095|N|Learn [spell=307095/Alchemy: Potion of Spiritual Clarity] Recipe, from Trainer.|
+= Learn Recipe|QID|171001001|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+100|RECIPE|307094|N|Learn [spell=307094/Potion of Hardened Shadows] Recipe, from Trainer.|
+= Learn Recipe|QID|171001002|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+100|RECIPE|307095|N|Learn [spell=307095/Potion of Spiritual Clarity] Recipe, from Trainer.|
 M [item=171271/Potion of Hardened Shadows]|QID|171307094|P|Alchemy;171;8+110;1|ITEM|171271|CRAFT|307094 10|MATS|180732 1;168586 3;170554 3|PN|You can make [item=171272/Potion of Spiritual Clarity], if you have extra Vigil's Torch (Click step off).|
 M [item=171272/Potion of Spiritual Clarity]|QID|171307095|P|Alchemy;171;8+110;1|ITEM|171272|CRAFT|307095 10|MATS|180732 1;170554 5|PN|In case you have extra Vigil's Torch.|
-= Learn Recipe|QID|171001051|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+105|RECIPE|307122|N|Learn [spell=307122/Alchemy: Ground Widowbloom] Recipe, from Trainer.|
-= Learn Recipe|QID|171001101|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+110|RECIPE|322301|N|Learn [spell=322301/Alchemy: Potion of Sacrifical Anima] Recipe, from Trainer.|
+= Learn Recipe|QID|171001051|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+105|RECIPE|307122|N|Learn [spell=307122/Ground Widowbloom] Recipe, from Trainer.|
+= Learn Recipe|QID|171001101|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+110|RECIPE|322301|N|Learn [spell=322301/Potion of Sacrifical Anima] Recipe, from Trainer.|
 M [item=171289/Ground Widowbloom]|QID|171307122|P|Alchemy;171;8+120;1|ITEM|171289|CRAFT|307122 14|MATS|168583 2|PN|Will be Yellow for the last 5 points.|
 M [item=176811/Potion of Sacrifical Anima]|QID|171322301|P|Alchemy;171;8+125;1|ITEM|176811|CRAFT|322301 7|MATS|180732 1;168583 6|
-= Learn Recipe|QID|171001251|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+125|RECIPE|343675|N|Learn [spell=343679/Alchemy: Crafter's Mark I] Recipe, from Trainer.|
+= Learn Recipe|QID|171001251|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+125|RECIPE|343675|N|Learn [spell=343679/Crafter's Mark I] Recipe, from Trainer.|
 M [item=173381/Crafters Mark I]|QID|171343679|P|Alchemy;171;8+157;1|ITEM|173381|CRAFT|343679 38|MATS|180732 1;183950 3;169701 5|
-= Learn Recipe|QID|171001501|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+150|RECIPE|307093|N|Learn [spell=307093/Alchemy: Potion of Specter Agility] Recipe, from Trainer.|
-= Learn Recipe|QID|171001502|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+150|RECIPE|307098|N|Learn [spell=307098/Alchemy: Potion of Specter Strength] Recipe, from Trainer.|
-= Learn Recipe|QID|171001503|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+150|RECIPE|307097|N|Learn [spell=307097/Alchemy: Potion of Specter Stamina] Recipe, from Trainer.|
-= Learn Recipe|QID|171001504|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+150|RECIPE|307096|N|Learn [spell=307096/Alchemy: Potion of Specter Intellect] Recipe, from Trainer.|
+= Learn Recipe|QID|171001501|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+150|RECIPE|307093|N|Learn [spell=307093/Potion of Specter Agility] Recipe, from Trainer.|
+= Learn Recipe|QID|171001502|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+150|RECIPE|307098|N|Learn [spell=307098/Potion of Specter Strength] Recipe, from Trainer.|
+= Learn Recipe|QID|171001503|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+150|RECIPE|307097|N|Learn [spell=307097/Potion of Specter Stamina] Recipe, from Trainer.|
+= Learn Recipe|QID|171001504|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+150|RECIPE|307096|N|Learn [spell=307096/Potion of Specter Intellect] Recipe, from Trainer.|
 M [item=171270/Potion of Specter Agility]|QID|171307093|P|Alchemy;171;8+162;1|ITEM|171270|CRAFT|307093 5|MATS|180732 1;168583 5|
 M [item=171275/Potion of Specter Strength]|QID|171307098|P|Alchemy;171;8+166;1|ITEM|171275|CRAFT|307098 5|MATS|180732 1;168586 5|
 M [item=171274/Potion of Specter Stamina]|QID|171307097|P|Alchemy;171;8+170;1|ITEM|171274|CRAFT|307097 5|MATS|180732 1;170554 5|
