@@ -484,7 +484,7 @@ T One Little Whisper|QID|59749|M|39.57,24.69|Z|Nazmir|N|To Bwonsamdi.|COV|Night 
 A Maw Manifested|QID|59805|PRE|59749|M|39.57,24.69|Z|Nazmir|N|From Bwonsamdi.|COV|Night Fae|REN|20|
 C Maw Manifested|QID|59805|M|39.57,24.69|Z|Nazmir|QO|1|CHAT|N|Speak with Vol'jin.|COV|Night Fae|
 R Ardenweald|ACTIVE|59805|M|50.55,44.57|Z|Ardenweald!The Shadowlands|N|Take the DK looking portal to Bwonsamdis left to return to Ardenweald.|COV|Night Fae|
-F Ring of Transference|ACTIVE|59805|M|52.14,8.70|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
+F Oribos|ACTIVE|59805|M|52.14,8.70|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
 R Ring of Transference|ACTIVE|59805|M|52.26,55.40|Z|Ring of Transference@Oribos|N|Make your way to the Ring of Transference.|COV|Night Fae|
 C Maw Manifested|QID|59805|M|49.55,51.62|Z|Ring of Transference@Oribos|QO|2|NC|N|Make your way to the Maw.|COV|Night Fae|
 T Maw Manifested|QID|59805|M|44.85,41.02|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
