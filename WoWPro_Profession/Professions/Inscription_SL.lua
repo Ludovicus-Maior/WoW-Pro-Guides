@@ -15,8 +15,8 @@ return [[
 ;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |PN|Profession Note (aka |N|)  -- PN ONLY in M Steps.
 ;	 IE M [item=173059/Luminous Ink]|QID|773311406|P|Inscription;773;8+13;1|ITEM|173059|CRAFT|311406 15|MATS|173057 1;173060 1;180732 1|PN|Only create 15 for now.|
 ;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 15 |773000151| and |773000152|  // |RECIPE|311423|N|Learn [spell=311423/Incription: Writ of Grave Robbing] Recipe from Trainer.|
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Blacksmithing: Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+; 	 IE learn 2 at lvl 15 |773000151| and |773000152|  // |RECIPE|311423|N|Learn [spell=311423/Writ of Grave Robbing] Recipe from Trainer.|
+; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
 ;  Typed update to SL splits on 27-Nov-2020 by Blanckaert (This is NOT tested)
 
@@ -52,38 +52,38 @@ M Mill Herbs|QID|773173057|P|Inscription;773;8+0|L|173057 15|ITEM|173057|N|Mill 
 M Mill Herbs|QID|773173056|P|Inscription;773;8+0|L|173055 15|ITEM|173055|N|Mill until you have at least 15 Umbral Pigments. Do not Mill ALL the herbs yet, once you learn Mass Milling you can go crazy on milling.|
 M [item=173059/Luminous Ink]|QID|773311406|P|Inscription;773;8+13;1|ITEM|173059|CRAFT|311406 15|MATS|173057 1;173060 1;180732 1|PN|Only create 15 for now.|
 M [item=173058/Umbral Ink]|QID|773311405|P|Inscription;773;8+25;1|ITEM|173058|CRAFT|311405 15|MATS|173055 1;173060 1;180732 1|PN|Only create 15 for now.|
-= Learn Recipe|QID|773000101|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+10|RECIPE|311423|N|Learn [spell=311423/Incription: Writ of Grave Robbing] Recipe from Trainer.|
-= Learn Recipe|QID|773000151|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+15|RECIPE|311425|N|Learn [spell=311425/Incription: Tome of the Still Mind] Recipe from Trainer.|
+= Learn Recipe|QID|773000101|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+10|RECIPE|311423|N|Learn [spell=311423/Writ of Grave Robbing] Recipe from Trainer.|
+= Learn Recipe|QID|773000151|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+15|RECIPE|311425|N|Learn [spell=311425/Tome of the Still Mind] Recipe from Trainer.|
 M [item=173065/Writ of Grave Robbing]|QID|773311423|P|Inscription;773;8+30;1|ITEM|173065|CRAFT|311423 10|MATS|173059 1;173058 1;175886 1|PN|Alternate: [item=173049/Tome of the Still Mind], Takes 3 times the inks, AND 25 of [item=175886/Dark Parchment]\nClick step of to make Alternate.|
 M [item=173049/Tome of the Still Mind]|QID|733311425|P|Inscription;773;8+30;1|ITEM|173049|CRAFT|311425 5|MATS|173059 3;173058 3; 175886 25|
-= Learn Recipe|QID|773000301|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311413|N|Learn [spell=311413/Incription: Mass Milling Deathblossom] Recipe from Trainer.|
-= Learn Recipe|QID|773000302|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311414|N|Learn [spell=311414/Incription: Mass Milling Vigil's Torch] Recipe from Trainer.|
-= Learn Recipe|QID|773000303|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311415|N|Learn [spell=311415/Incription: Mass Milling Widowbloom] Recipe from Trainer.|
-= Learn Recipe|QID|773000304|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311416|N|Learn [spell=311416/Incription: Mass Milling Marrowroot] Recipe from Trainer.|
-= Learn Recipe|QID|773000305|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311417|N|Learn [spell=311417/Incription: Mass Milling Rising Glory] Recipe from Trainer.|
-= Learn Recipe|QID|773000306|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311418|N|Learn [spell=311418/Incription: Mass Milling Nightshade] Recipe from Trainer.|
+= Learn Recipe|QID|773000301|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311413|N|Learn [spell=311413/Mass Milling Deathblossom] Recipe from Trainer.|
+= Learn Recipe|QID|773000302|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311414|N|Learn [spell=311414/Mass Milling Vigil's Torch] Recipe from Trainer.|
+= Learn Recipe|QID|773000303|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311415|N|Learn [spell=311415/Mass Milling Widowbloom] Recipe from Trainer.|
+= Learn Recipe|QID|773000304|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311416|N|Learn [spell=311416/Mass Milling Marrowroot] Recipe from Trainer.|
+= Learn Recipe|QID|773000305|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311417|N|Learn [spell=311417/Mass Milling Rising Glory] Recipe from Trainer.|
+= Learn Recipe|QID|773000306|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311418|N|Learn [spell=311418/Mass Milling Nightshade] Recipe from Trainer.|
 N Mass Mill - Deathblossom|QID|773311413|P|Inscription;773;8+60;1|N|Just mill all your herbs. Be sure to mix up your herbs.|
 N Mass Mill - Rising Glory|QID|773311417|P|Inscription;773;8+60;1|N|Just mill all your herbs. Be sure to mix up your herbs.|
 N Mass Mill - Marrowroot|QID|773311416|P|Inscription;773;8+60;1|N|Just mill all your herbs. Be sure to mix up your herbs.|
 N Mass Mill - Vigil's Torch|QID|773311414|P|Inscription;773;8+60;1|N|Just mill all your herbs. Be sure to mix up your herbs.|
 N Mass Mill - Widowbloom|QID|773311415|P|Inscription;773;8+60;1|N|Just mill all your herbs. Be sure to mix up your herbs.|
 N Mass Mill - Nightshade|QID|77311418|P|Inscription;773;8+60;1|N|Just mill all your herbs. Be sure to mix up your herbs.|
-= Learn Recipe|QID|773000351|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+35|RECIPE|321029|N|Learn [spell=321029/Incription: Tranquil Ink] Recipe from Trainer.|
-= Learn Recipe|QID|773000401|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+40|RECIPE|324195|N|Learn [spell=324195/Incription: Missive of Versatility] Recipe from Trainer.|
-= Learn Recipe|QID|773000402|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+40|RECIPE|324196|N|Learn [spell=324196/Incription: Missive of Mastery] Recipe from Trainer.|
-= Learn Recipe|QID|773000403|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+40|RECIPE|324197|N|Learn [spell=324197/Incription: Missive of Critical Strike] Recipe from Trainer.|
-= Learn Recipe|QID|773000404|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+40|RECIPE|324198|N|Learn [spell=324198/Incription: Missive of Haste] Recipe from Trainer.|
+= Learn Recipe|QID|773000351|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+35|RECIPE|321029|N|Learn [spell=321029/Tranquil Ink] Recipe from Trainer.|
+= Learn Recipe|QID|773000401|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+40|RECIPE|324195|N|Learn [spell=324195/Missive of Versatility] Recipe from Trainer.|
+= Learn Recipe|QID|773000402|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+40|RECIPE|324196|N|Learn [spell=324196/Missive of Mastery] Recipe from Trainer.|
+= Learn Recipe|QID|773000403|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+40|RECIPE|324197|N|Learn [spell=324197/Missive of Critical Strike] Recipe from Trainer.|
+= Learn Recipe|QID|773000404|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+40|RECIPE|324198|N|Learn [spell=324198/Missive of Haste] Recipe from Trainer.|
 l Tranquil Ink|QID|773175788|P|Inscription;773;8+60|L|175788 25|ITEM|175788|N|Mill more Nightshade (if Available) till you have 25 Pigments.|
 M [item=175970/Tranquil Ink]|QID|773321029|P|Inscription;773;8+75;1|ITEM|175970|CRAFT|321029 25|MATS|175788 1;173060 1;180732 1|
 M [item=173161/Missive of Critical Strike]|QID|773324197|P|Inscription;773;8+78;1|ITEM|173161|CRAFT|324197 3|MATS|173059 8;173058 2;175970 1;175886 1|PN|Be sure to craft all 3, then click off step.|L|173161 3|
 M [item=173163/Missive of Versatility]|QID|773324195|P|Inscription;773;8+81;1|ITEM|173163|CRAFT|324195 3|MATS|173059 2;173058 8;175970 1;175886 1|PN|Be sure to craft all 3, then click off step.|L|173163 3|
 M [item=173160/Missive of Haste]|QID|773324198|P|Inscription;773;8+84;1|ITEM|173160|CRAFT|324198 3|MATS|173059 6;173058 4;175970 1;175886 1|PN|Be sure to craft all 3, then click off step.|L|173160 3|
 M [item=173162/Missive of Mastery]|QID|773324196|P|Inscription;773;8+87;1|ITEM|173162|CRAFT|324196 3|MATS|173059 4;173058 6;175970 1;175886 1|PN|Be sure to craft all 3, then click off step.|L|173162 3|
-= Learn Recipe|QID|773000801|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+80|RECIPE|311441|N|Learn [spell=311441/Incription: Darkmoon Card of Death] Recipe from Trainer.|
-= Learn Recipe|QID|773000802|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+80|RECIPE|324035|N|Learn [spell=324035/Incription: Darkmoon Card of Voracity] Recipe from Trainer.|
-= Learn Recipe|QID|773000803|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+80|RECIPE|324036|N|Learn [spell=324036/Incription: Darkmoon Card of Repose] Recipe from Trainer.|
-= Learn Recipe|QID|773000804|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+80|RECIPE|324037|N|Learn [spell=324037/Incription: Darkmoon Card of Putrescence] Recipe from Trainer.|
-= Learn Recipe|QID|773000805|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+80|RECIPE|324039|N|Learn [spell=324039/Incription: Darkmoon Card of the Indomitable] Recipe from Trainer.|
+= Learn Recipe|QID|773000801|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+80|RECIPE|311441|N|Learn [spell=311441/Darkmoon Card of Death] Recipe from Trainer.|
+= Learn Recipe|QID|773000802|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+80|RECIPE|324035|N|Learn [spell=324035/Darkmoon Card of Voracity] Recipe from Trainer.|
+= Learn Recipe|QID|773000803|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+80|RECIPE|324036|N|Learn [spell=324036/Darkmoon Card of Repose] Recipe from Trainer.|
+= Learn Recipe|QID|773000804|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+80|RECIPE|324037|N|Learn [spell=324037/Darkmoon Card of Putrescence] Recipe from Trainer.|
+= Learn Recipe|QID|773000805|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+80|RECIPE|324039|N|Learn [spell=324039/Darkmoon Card of the Indomitable] Recipe from Trainer.|
 M [item=173066/Darkmoon Card of Death]|QID|773311441|P|Inscription;773;8+96;1|ITEM|173066|CRAFT|311441 10|MATS|173059 7;173058 7;175970 1;175886 1|
 N Blank Darkmoon Card of|QID|77300055|P|Inscription;773;8+96|N|Create ANY Darkmoon Card of.. that you have.|
 
