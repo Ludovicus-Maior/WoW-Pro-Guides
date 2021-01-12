@@ -217,35 +217,38 @@ A Shore Leave|QID|24449|M|34.31,44.90|N|From Captain Tork.|PRE|14480&14484&14485
 F Bilgewater Harbor|ACTIVE|24449|M|34.51,44.52|N|Hop into the Military Gyrocopter when ready to leave.|IZ|Ruins of Eldarath|V|
 T Shore Leave|QID|24449|M|60.61,50.53|N|To Uncle Bedlam.| ; Completes Storyline - Heart of Arkkoroc
 A Azshara Blues|QID|14407|M|59.33,50.74|N|From Teemo.| ; Storyline
-T Azshara Blues|QID|14407|M|55.47,52.16|N|To Kalec. He's in the tunnel under the road.|
-A Friends Come In All Colors|QID|14130|M|55.47,52.16|N|From Kalec.|PRE|14407| ; Storyline
-F Bitter Reaches|QID|14130|M|67.46,21.13|N|The flight point you're actually headed to is Northern Rocketway north of Bilgewater Harbor.|
-T Friends Come In All Colors|QID|14130|M|70.33,36.28|N|To Ergll.|
-A A Little Pick-me-up|QID|14131|M|70.33,36.28|N|From Ergll.|PRE|14130| ; Storyline
-A That's Just Rude!|QID|14132|M|70.33,36.28|N|From Ergll.|PRE|14130| ; Storyline
-A Absorbent|QID|14323|M|70.33,36.28|N|From Ergll.|PRE|14130| ; Storyline
-C That's Just Rude!|QID|14132|M|71.58,36.23|N|Collect Kawphi Beans and kill Makrinni while collecting Simmering Water Droplets.|S|
+T Azshara Blues|QID|14407|M|55.49,52.14|N|To Kalec. He's in the tunnel under the road.|
+A Friends Come In All Colors|QID|14130|M|55.49,52.14|N|From Kalec.\n[color=FF0000]NOTE: [/color]When you accept this quest, Kalec will give you a 5 minute water walking buff.|PRE|14407| ; Storyline
+R Bitter Reaches|ACTIVE|14130|M|60.43,30.94|N|Bitter Reaches is to the north of Bilgewater Harbor and you need to cross the Bay of Storms to get there.\nThe buff from Kalec makes this really easy.\n[color=FF0000]NOTE: [/color]If you lose the buff before you get there, abandon 'Friends Come In All Sizes' and you'll get the buff again when you re-accept it.|
+R Ruins of Arkkoran|ACTIVE|14130|M|70.33,36.28|N|Follow the shoreline to the east.|
+T Friends Come In All Colors|QID|14130|M|70.36,36.25|N|To Ergll.|
+A A Little Pick-me-up|QID|14131|M|70.36,36.25|N|From Ergll.|PRE|14130| ; Storyline
+A That's Just Rude!|QID|14132|M|70.36,36.25|N|From Ergll.|PRE|14130| ; Storyline
+A Absorbent|QID|14323|M|70.36,36.25|N|From Ergll.|PRE|14130| ; Storyline
+K That's Just Rude!|ACTIVE|14132|M|71.58,36.23|QO|1|N|Kill 10 Makrinni in the Ruins of Arkkoran.|S|
 l A Little Pick-me-up|ACTIVE|14131|QO|1|N|Collect 10 Kawphi Beans. (lol. Kawphi...Coffee! Nice!)|S|
-C Absorbent|QID|14323|M|82.13,40.46|N|Use the Enchanted Azshari Sea Sponge and run past the Vile Splashes.|U|49168|
+C Absorbent|QID|14323|M|82.13,40.46|N|Use the Enchanted Azshari Sea Sponge and run past the Vile Splashes to collect the Simmering Water Droplets.\n[color=FF0000]NOTE: [/color]If you stop and let the Vile Splashes attack you, you can loot their corpses after you absorb the droplets.|U|49168|
 T Absorbent|QID|14323|M|PLAYER|N|(UI Alert)|
-A Full of Hot Water|QID|14324|M|PLAYER|N|(UI Alert)|PRE|14323|
-C Full of Hot Water|QID|14324|M|81.18,30.62|N|Use the sponge, kill Scalding Water Lord, loot the Globe.|U|49176|
-l A Little Pick-me-up|ACTIVE|14131|M|72.58,34.56|QO|1|N|Collect 10 Kawphi Beans.|US|
+A Full of Hot Water|QID|14324|M|PLAYER|N|(UI Alert)\n[color=FF0000]NOTE: [/color]If you don't get the quest from the UI, go get it from Ergll.|PRE|14323|
+C Full of Hot Water|QID|14324|M|80.87,30.67|N|Head over to the Stone of the Scalding Water Lords beside the Tower of Eldara. Use the Sponge to summon the Scalding Water Lord. Kill him to loot the Globe.|U|49176|
+l A Little Pick-me-up|ACTIVE|14131|M|72.58,34.56|QO|1|N|Collect 10 Kawphi Beans. You'll find the bushes all around the Ruins.|US|
 K That's Just Rude!|ACTIVE|14132|M|71.58,36.23|QO|1|N|Kill 10 Makrinni in the Ruins of Arkkoran.|US|
 T A Little Pick-me-up|QID|14131|M|70.36,36.25|N|To Ergll.|
 T That's Just Rude!|QID|14132|M|70.36,36.25|N|To Ergll.|
 T Full of Hot Water|QID|14324|M|70.36,36.25|N|To Ergll.|
-A Wash Out|QID|14345|M|70.36,36.25|N|From Ergll.|PRE|14131&14132&14324| ; Storyline
-T Wash Out|QID|14345|M|42.73,25.20|N|To Sorata Firespinner.|
-A Dressed to Impress|QID|14340|M|42.73,25.20|N|From Sorata Firespinner.|PRE|14345| ; Storyline
+A Wash Out|QID|14345|M|70.36,36.25|N|From Ergll.\n[color=FF0000]NOTE: [/color]As soon as you accept this quest, Ergll will send you to Northern Rocketway Exchange on Gurgll the Tracking Turtle. This free ride takes a few minutes.|PRE|14131&14132&14324| ; Storyline
+T Wash Out|QID|14345|M|42.70,25.11|N|To Sorata Firespinner.|
+A Dressed to Impress|QID|14340|M|42.70,25.11|N|From Sorata Firespinner.|PRE|14345| ; Storyline
 A The Blackmaw Scar|QID|14431|M|42.40,23.62|N|From Haggrum Bloodfist.|
-C The Blackmaw Scar|QID|14431|M|37.50,34.06|N|Slay 8 Talrendis Biologists and gather up Blackmaw Intelligence from one of the bodies.|US|
+l The Blackmaw Scar|QID|14431|M|38.78,26.39|QO|2|N|Loot it from one the Biologists' corpses.|S|
+K The Blackmaw Scar|QID|14431|M|38.78,26.39|QO|1|N|Slay 8 Talrendis Biologists.|
+l The Blackmaw Scar|QID|14431|M|38.78,26.39|QO|2|N|Continue killing Talrendis Biologists until you loot it from one of the bodies.|US|
 T The Blackmaw Scar|QID|14431|M|42.40,23.71|N|To Haggrum Bloodfist.|
 A A Pale Brew|QID|14432|M|42.40,23.71|N|From Haggrum Bloodfist.|PRE|14431|
 A Diplomacy by Another Means|QID|14433|M|42.40,23.71|N|From Haggrum Bloodfist.|PRE|14431|
-C A Pale Brew|QID|14432|M|30.27,39.35|N|Gather up 10 samples of Briaroot Brew from Blackmaw furbolgs.|S|
+l A Pale Brew|QID|14432|M|30.27,39.35|QO|1|N|Gather up 10 samples of Briaroot Brew from Blackmaw furbolgs.|S|
 C Diplomacy by Another Means|QID|14433|M|29.83,38.58|N|Gather a Blackmaw Meeting Agenda at Blackmaw Hold, and kill a Talrendis Ambassador to collect her Ambassador's Robes.|
-C A Pale Brew|QID|14432|M|30.27,39.35|N|Gather up 10 samples of Briaroot Brew from Blackmaw furbolgs.|US|
+l A Pale Brew|QID|14432|M|30.27,39.35|QO|1|N|Gather up 10 samples of Briaroot Brew from Blackmaw furbolgs.|US|
 T A Pale Brew|QID|14432|M|42.43,23.61|N|To Haggrum Bloodfist.|
 T Diplomacy by Another Means|QID|14433|M|42.43,23.61|N|To Haggrum Bloodfist.|
 A The Blackmaw Doublecross|QID|14435|M|42.43,23.61|N|From Haggrum Bloodfist.|PRE|14442&14433|
