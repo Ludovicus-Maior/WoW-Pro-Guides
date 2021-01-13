@@ -536,10 +536,10 @@ A The Call of the Hunt|QID|60194|PRE|60193|M|36.18,69.57|Z|Ardenweald!The Shadow
 C The Call of the Hunt|QID|60194|M|36.18,69.58|Z|Ardenweald!The Shadowlands|CHAT|N|Fly out with Lady Moonberry.|COV|Night Fae|
 T The Call of the Hunt|QID|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
 A Drust and Ashes|QID|60108|PRE|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|From Lord Herne. Talk to him again after acceptingng to start the senario.|COV|Night Fae|REN|22|
-C Clear the Way|QID|60108|Z|Ardenweald|SO|1|N|Jump on Ysera and use the Dreamers sleep to finish this step.|COV|Night Fae|
+C Clear the Way|QID|60108|Z|Ardenweald!The Shadowlands|SO|1;1|N|Jump on Ysera and use the Dreamers sleep to finish this step.|COV|Night Fae|
 C Drust put to sleep|QID|60108|M|31.03,76.99|Z|Ardenweald!Instance1709|SO|1;2|N|Drust put to sleep|COV|Night Fae|
 C Fly to the Heart of the Forest|QID|60108|M|31.03,76.99|Z|Ardenweald!Instance1709|SO|1;3|N|Fly to the Heart of the Forest|COV|Night Fae|
-C Report to the Winter Queen|QID|60108|Z|Ardenweald|SO|2|CHAT|N|Tell the Winter Queen what transpired at Darkreach.|COV|Night Fae|
+C Report to the Winter Queen|QID|60108|Z|Ardenweald!The Shadowlands|SO|2|CHAT|N|Tell the Winter Queen what transpired at Darkreach.|COV|Night Fae|
 C Recieve the Queen's Blessing|QID|60108|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|3;1|N|Recieve the "[color=40C7EB]Queen's Blessing[/color]".|EAB|COV|Night Fae|
 C Sound the Horn of the Wild Hunt|QID|60108|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|4;1|N|Sound the Horn of the Wild Hunt by clicking on it.|COV|Night Fae|
 C Slay Drust Forces|QID|60108|M|55.62,47.71|Z|Ardenweald!Instance1709|SO|4;2|N|Slay Drust Forces|COV|Night Fae|
@@ -1013,24 +1013,25 @@ C Convene the Paragons|QID|58854|M|56.02,41.27|Z|Archon's Rise@Elysian Hold!Dung
 C Convene the Paragons|QID|58854|M|58.15,40.37|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2;3|NC|N|Enter Archon's Rise, as the Paragons arrive, to plan an Assualt.|COV|Kyrian|
 T Convene the Paragons|QID|58854|M|55.51,42.47|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Before the Dawn|QID|58844|PRE|58854|M|55.51,42.47|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
-F Aspirant's Rest|ACTIVE|58844|M|51.31,48.72|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Aspirant's Rest.|COV|Kyrian|
-R Temple of Purity|ACTIVE|58844|M|60.04,73.49|Z|Bastion!The Shadowlands|N|Run to the Temple of Purity.|COV|Kyrian|
-C Before the Dawn|QID|58844|CS|M|60.13,72.73;60.62,72.85;60.69,73.60|Z|Bastion!The Shadowlands|NC|N|Click on the bells, to restore the vespers.|
-C Before the Dawn|QID|58844|M|60.04,73.49|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Talk to Eridia, the Watchers' are needed for Battle.|COV|Kyrian|
-P Xandria's Vigil|ACTIVE|58844|M|48.32,72.83|Z|Bastion!The Shadowlands|N|Take the Gateway to Xandria's Vigil.|COV|Kyrian|
+F Aspirant's Rest|ACTIVE|58844|M|51.31,48.72|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|IZ|-The Temple of Purity|N|Head to the flightmaster and take a flight to Aspirant's Rest.\n\n Or you can use your gateway to go directly to the Temple of Purity if you have it unlocked.|COV|Kyrian|
+R Temple of Purity|ACTIVE|58844|M|60.04,73.49|Z|Bastion!The Shadowlands|QO|1|IZ|-The Temple of Purity|N|Run to the Temple of Purity.|COV|Kyrian|
+C Before the Dawn|QID|58844|M|60.04,73.49|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Click on the bells, to restore the vespers then talk to Eridia, the Watchers' are needed for Battle.|COV|Kyrian|
+P Xandria's Vigil|ACTIVE|58844|M|59.43,77.12|Z|Bastion!The Shadowlands|QO|2|N|Take the Gateway to Xandria's Vigil if you have it unlocked, otherwise skip this step, mount up and proceed.|COV|Kyrian|
 C Before the Dawn|QID|58844|M|41.25,56.25|Z|Bastion!The Shadowlands|QO|2|NC|N|Talk to Apolon, the Bearers are needed for Battle.|COV|Kyrian|
-R The Eternal Forge|ACTIVE|58844|CC|M|43.64,54.54;44.93,41.45;44.41,30.24;50.43,22.27|Z|Bastion!The Shadowlands|N|Run to The Eternal Forge.|COV|Kyrian|
+P Sagehaven|ACTIVE|58844|M|40.71,55.20|Z|Bastion!The Shadowlands|QO|3|N|Take the gateway to Sagehaven if you have it unlocked, otherwise skip this step, mount up and proceed.|COV|Kyrian|
+R The Eternal Forge|ACTIVE|58844|M|50.43,22.27|Z|Bastion!The Shadowlands|QO|3|N|Run to The Eternal Forge.|COV|Kyrian|
 C Before the Dawn|QID|58844|M|51.27,19.11|Z|Bastion!The Shadowlands|QO|3|NC|N|To Sika, the Centurions are needed for Battle.|COV|Kyrian|
-R The Eonian Archives|ACTIVE|58844|CC|M|49.64,18.88;47.89,17.28;43.59,20.68|Z|Bastion!The Shadowlands|N|Run to The Eonian Archives.|COV|Kyrian|
-C Before the Dawn|QID|58844|M|40.45,20.46|Z|Bastion!The Shadowlands|CHAT|N|To Pelagos, tell him, You are with him.|COV|Kyrian|
-K Before the Dawn|ACTIVE|58844|M|40.45,20.46|Z|Bastion!The Shadowlands|T|Pelagos Shadeweaver|N|Kill Pelagos Shadeweaver.|COV|Kyrian|
-C Before the Dawn|QID|58844|M|40.30,20.57|Z|Bastion!The Shadowlands|QO|4|NC|N|To Arios Riftbearer, the Collectors are needed for Battle.|COV|Kyrian|
-R Court of Elation|ACTIVE|58844|CC|M|38.48,23.23;34.37,22.54|Z|Bastion!The Shadowlands|N|Run to the Court of Elation.|COV|Kyrian|
+R The Eonian Archives|ACTIVE|58844|CC|M|49.64,18.88;47.89,17.28;43.59,20.68|Z|Bastion!The Shadowlands|QO|4|N|Run to The Eonian Archives.|COV|Kyrian|
+R Path of Wisdom|ACTIVE|58844|M|41.65,23.28|Z|Bastion!The Shadowlands|QO|4|N|Run to The Path of Wisdom and click on the teleport pad.|COV|Kyrian|
+C Before the Dawn|QID|58844|M|40.45,20.46|Z|Bastion!The Shadowlands|CHAT|QO|4|N|Speak with Pelagos, tell him that you're with him and then kill his Shadeweaver. Afterward speak with Arios Riftbearer to recruit the collectors.|COV|Kyrian|
+P Path of Wisdom|ACTIVE|58844|M|40.55,21.09|Z|Bastion!The Shadowlands|QO|5|N|Take Gateway to The Path of Wisdom.|COV|Kyrian|
+R Terrace of the Collectors|ACTIVE|58844|M|36.26,21.97|Z|Bastion!The Shadowlands|QO|5|N|Run to the Terrace of the Collectors.|COV|Kyrian|
+R Court of Elation|ACTIVE|58844|M|34.37,22.54|Z|Bastion!The Shadowlands|QO|5|N|Run to the Court of Elation.|COV|Kyrian|
 T Before the Dawn|QID|58844|M|31.42,23.43|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|
 A The Greater Good|QID|58846|PRE|58844|M|31.42,23.43|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|COV|Kyrian|
 C The Greater Good|QID|58846|M|31.42,23.43|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Tell Polemarch Adrestes, you are ready.|COV|Kyrian|
 C One Small Step|ACTIVE|58846|M|30.68,23.38|Z|Bastion!The Shadowlands|SO|1|N|Push forward and enter the Citadel of Loyalty.|COV|Kyrian|
-C No Doubt|ACTIVE|58846|Z|Bastion|SO|2|N|Clear the Courtyard of the Forsworn.|COV|Kyrian|
+C No Doubt|ACTIVE|58846|M|28.76,22.85|Z|Bastion|SO|2|N|Clear the Courtyard of the Forsworn.|COV|Kyrian|
 C Defeat Adonias and Phaedra|ACTIVE|58846|M|28.76,22.59|Z|Bastion!The Shadowlands|SO|3|N|Defeat Adonias and Phaedra|COV|Kyrian|
 C Attack of Opportunity|ACTIVE|58846|M|27.99,24.35|Z|Bastion!The Shadowlands|SO|4|S|N|Push forward to the Truthbringer.|COV|Kyrian|
 C An Old Friend|ACTIVE|58846|M|27.20,22.83|Z|Bastion!The Shadowlands|SO|5|N|Prevent the Truthbringer from activating|COV|Kyrian|

@@ -247,14 +247,15 @@ T The Blackmaw Scar|QID|14431|M|42.40,23.71|N|To Haggrum Bloodfist.|
 A A Pale Brew|QID|14432|M|42.40,23.71|N|From Haggrum Bloodfist.|PRE|14431|
 A Diplomacy by Another Means|QID|14433|M|42.40,23.71|N|From Haggrum Bloodfist.|PRE|14431|
 l A Pale Brew|QID|14432|M|30.27,39.35|QO|1|N|Gather up 10 samples of Briaroot Brew from Blackmaw furbolgs.|S|
-C Diplomacy by Another Means|QID|14433|M|29.83,38.58|N|Gather a Blackmaw Meeting Agenda at Blackmaw Hold, and kill a Talrendis Ambassador to collect her Ambassador's Robes.|
-l A Pale Brew|QID|14432|M|30.27,39.35|QO|1|N|Gather up 10 samples of Briaroot Brew from Blackmaw furbolgs.|US|
+C Diplomacy by Another Means|QID|14433|M|30.16,38.60|QO|2|N|Kill a Talrendis Ambassador to collect her Ambassador's Robes.|
+l Diplomacy by Another Means|QID|14433|M|29.82,38.57|QO|1|N|Loot the Blackmaw Meeting Agenda at Blackmaw Hold.|
+l A Pale Brew|QID|14432|M|30.72,36.80|QO|1|N|Gather up 10 samples of Briaroot Brew from Blackmaw furbolgs.\nYou can find bowls of it on 'tables' around the camp as well.|US|
 T A Pale Brew|QID|14432|M|42.43,23.61|N|To Haggrum Bloodfist.|
 T Diplomacy by Another Means|QID|14433|M|42.43,23.61|N|To Haggrum Bloodfist.|
-A The Blackmaw Doublecross|QID|14435|M|42.43,23.61|N|From Haggrum Bloodfist.|PRE|14442&14433|
+A The Blackmaw Doublecross|QID|14435|M|42.43,23.61|N|From Haggrum Bloodfist.|PRE|14432&14433|
 C The Blackmaw Doublecross|QID|14435|M|42.65,23.71;32.13,30.41|CS|N|Use Ambassador Disguise, talk to Andorel when you're ready. Speak with Ungarl to wreck the negotiations, then kill 4 Blackmaw Warriors and 4 Blackmaw Shaman on your way out.|U|49368|
 T The Blackmaw Doublecross|QID|14435|M|42.39,23.62|N|To Haggrum Bloodfist.|
-A Amberwind's Journal|QID|14428|M|42.59,23.72|N|From Andorel Sunsworn.|
+A Amberwind's Journal|QID|14428|M|42.61,23.72|N|From Andorel Sunsworn.|
 C Dressed to Impress|QID|14340|M|47.76,18.35;47.22,20.83|CS|N|Follow the path up the hill.\nPut on your new wizard hat and then speak to the Image of Archmage Xylem.|U|49201|NC|
 T Dressed to Impress|QID|14340|M|47.22,20.83|N|To the Image of Archmage Xylem.|
 A Renewable Resource|QID|14250|M|47.30,21.16|N|From Tharkul Ironskull.|PRE|14340| ; Storyline

@@ -1,34 +1,23 @@
-
-
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-
--- Things that need doing by an expert
--- Check for errors, there will be lots  -  errors? maybe, dont have a Tailor to check.
--- Make guide Hub and integrate  -  in future, once all lower guides are done.
--- Add in comments to train new recipes where needed -- Completed.
-
-
-
-local guide = WoWPro:RegisterGuide("SpoonyTAI_SL","Profession","Tailoring_SL", "Spoony", "Neutral")
+local guide = WoWPro:RegisterGuide("SpoonyTLR_SL","Profession","Tailoring_SL", "Spoony", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",197)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Tailoring_ShadowLands")
-WoWPro:GuideNickname(guide, "TAI_SL")
+WoWPro:GuideNickname(guide, "TLR_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 
 ;  Guide structures:
 ;  For the QID is Prof (197), Item ID/Spell ID(000000) - QIDs Mean NOTHING in guide.
-;  For the N Steps - QID is just 333+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |PN|Profession Note (aka |N|)  -- PN ONLY in M Steps.
-;	 ie M [item=173192/Shrouded Cloth Bandage]|QID|197310924|CRAFT|310924 17|P|Tailoring;197;8+15;1|MATS|173202 17|PN|Recipe will be yellow for the last 5 points.|
+;  For the N Steps - QID is just 197+00000# - Prof and increment numbers padded to 6 digits.
+;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
+;	 ie M [item=173192/Shrouded Cloth Bandage]|QID|197310924|CRAFT|310924 17|P|Tailoring;197;8+15;1|MATS|173202 17|N|Recipe will be yellow for the last 5 points.|
 ;  For the = Steps - QID|Prof,Step Increment| |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 40 |197000401| and |197000402|  // |RECIPE|310871|N|Learn [spell=310871/Shrouded Cloth Cape] Recipe, from Trainer|
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
-
 
 ; N Guide Hub|QID|197000000|JUMP|Tailoring: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
@@ -45,10 +34,10 @@ N Shopping List|QID|197000005|N|This completes the Shopping List|
 
 ; end of shopping list.
 
-= Learn [spell=3908/Tailoring]|QID|197310949|M|45.50,31.78|Z|Ring of Fates@Oribos|SPELL|Tailoring;3908|LVL|5|N|Learn from Stitcher Au'phes in Oribos.|
+= Learn [spell=3908/Tailoring]|QID|197003908|M|45.50,31.78|Z|Ring of Fates@Oribos|SPELL|Tailoring;3908|LVL|5|N|Learn from Stitcher Au'phes in Oribos.|
 = Learn [spell=310949/Shadowlands Tailoring]|QID|197310949|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;*;0;75|SPELL|Shadowlands Tailoring;310949|LVL|48|N|Learn from Stitcher Au'phes in Oribos.|
 
-M [item=173192/Shrouded Cloth Bandage]|QID|197310924|P|Tailoring;197;8+15;1|ITEM|173192|CRAFT|310924 17|MATS|173202 17|PN|Recipe will be yellow for the last 5 points.|
+M [item=173192/Shrouded Cloth Bandage]|QID|197310924|P|Tailoring;197;8+15;1|ITEM|173192|CRAFT|310924 17|MATS|173202 17|N|Recipe will be yellow for the last 5 points.|
 = Learn Recipes|QID|197000151|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;8+15|RECIPE|310871|N|Learn [spell=310871/Shrouded Cloth Cape] Recipe, from Trainer|
 M [item=173194/Shrouded Cloth Cape]|QID|197310871|P|Tailoring;197;8+31;1|ITEM|173194|CRAFT|310871 8|MATS|173202 4;177062 4|
 = Learn Recipes|QID|197000201|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;8+20|RECIPE|310873|N|Learn [spell=310873/Shrouded Cloth Hood] Recipe, from Trainer|
@@ -56,7 +45,7 @@ M [item=173197/Shrouded Cloth Hood]|QID|197310873|P|Tailoring;197;8+37;1|ITEM|17
 = Learn Recipes|QID|197000351|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;8+35|RECIPE|310875|N|Learn [spell=310875/Shrouded Cloth Spaulders] Recipe, from Trainer|
 M [item=173199/Shrouded Cloth Spaulders]|QID|197310875|P|Tailoring;197;8+52;1|ITEM|173199|CRAFT|310875 5|MATS|173202 6;177062 4|
 = Learn Recipes|QID|197000401|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;8+40|RECIPE|310923|N|Learn [spell=310923/Heavy Shrouded Cloth Bandage] Recipe, from Trainer|
-M [item=173191/Heavy Shrouded Cloth Bandage]|QID|197310923|P|Tailoring;197;8+65;1|ITEM|173191|CRAFT|310923 20|MATS|173202 2|PN|Recipe will be yellow for the last 10 points.|
+M [item=173191/Heavy Shrouded Cloth Bandage]|QID|197310923|P|Tailoring;197;8+65;1|ITEM|173191|CRAFT|310923 20|MATS|173202 2|N|Recipe will be yellow for the last 10 points.|
 = Learn Recipes|QID|197000601|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;8+60|RECIPE|310903|N|Learn [spell=310903/Shadowlace Cord] Recipe, from Trainer|
 M [item=173221/Shadowlace Cord]|QID|197310903|P|Tailoring;197;8+71;1|ITEM|173221|CRAFT|310903 3|MATS|173202 20;173204 4;177062 3|
 = Learn Recipes|QID|197000651|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;8+65|RECIPE|310899|N|Learn [spell=310899/Shadowlace Handwarps] Recipe, from Trainer|
