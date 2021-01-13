@@ -536,10 +536,10 @@ A The Call of the Hunt|QID|60194|PRE|60193|M|36.18,69.57|Z|Ardenweald!The Shadow
 C The Call of the Hunt|QID|60194|M|36.18,69.58|Z|Ardenweald!The Shadowlands|CHAT|N|Fly out with Lady Moonberry.|COV|Night Fae|
 T The Call of the Hunt|QID|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
 A Drust and Ashes|QID|60108|PRE|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|From Lord Herne. Talk to him again after acceptingng to start the senario.|COV|Night Fae|REN|22|
-C Clear the Way|QID|60108|Z|Ardenweald|SO|1|N|Jump on Ysera and use the Dreamers sleep to finish this step.|COV|Night Fae|
+C Clear the Way|QID|60108|Z|Ardenweald!The Shadowlands|SO|1;1|N|Jump on Ysera and use the Dreamers sleep to finish this step.|COV|Night Fae|
 C Drust put to sleep|QID|60108|M|31.03,76.99|Z|Ardenweald!Instance1709|SO|1;2|N|Drust put to sleep|COV|Night Fae|
 C Fly to the Heart of the Forest|QID|60108|M|31.03,76.99|Z|Ardenweald!Instance1709|SO|1;3|N|Fly to the Heart of the Forest|COV|Night Fae|
-C Report to the Winter Queen|QID|60108|Z|Ardenweald|SO|2|CHAT|N|Tell the Winter Queen what transpired at Darkreach.|COV|Night Fae|
+C Report to the Winter Queen|QID|60108|Z|Ardenweald!The Shadowlands|SO|2|CHAT|N|Tell the Winter Queen what transpired at Darkreach.|COV|Night Fae|
 C Recieve the Queen's Blessing|QID|60108|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|3;1|N|Recieve the "[color=40C7EB]Queen's Blessing[/color]".|EAB|COV|Night Fae|
 C Sound the Horn of the Wild Hunt|QID|60108|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|4;1|N|Sound the Horn of the Wild Hunt by clicking on it.|COV|Night Fae|
 C Slay Drust Forces|QID|60108|M|55.62,47.71|Z|Ardenweald!Instance1709|SO|4;2|N|Slay Drust Forces|COV|Night Fae|
