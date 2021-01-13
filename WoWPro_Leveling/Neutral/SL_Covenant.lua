@@ -536,24 +536,25 @@ A The Call of the Hunt|QID|60194|PRE|60193|M|36.18,69.57|Z|Ardenweald!The Shadow
 C The Call of the Hunt|QID|60194|M|36.18,69.58|Z|Ardenweald!The Shadowlands|CHAT|N|Fly out with Lady Moonberry.|COV|Night Fae|
 T The Call of the Hunt|QID|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
 A Drust and Ashes|QID|60108|PRE|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|From Lord Herne. Talk to him again after acceptingng to start the senario.|COV|Night Fae|REN|22|
-C Clear the Way|QID|60108|Z|Ardenweald!The Shadowlands|SO|1;1|N|Jump on Ysera and use the Dreamers sleep to finish this step.|COV|Night Fae|
-C Drust put to sleep|QID|60108|M|31.03,76.99|Z|Ardenweald!Instance1709|SO|1;2|N|Drust put to sleep|COV|Night Fae|
-C Fly to the Heart of the Forest|QID|60108|M|31.03,76.99|Z|Ardenweald!Instance1709|SO|1;3|N|Fly to the Heart of the Forest|COV|Night Fae|
-C Report to the Winter Queen|QID|60108|Z|Ardenweald!The Shadowlands|SO|2|CHAT|N|Tell the Winter Queen what transpired at Darkreach.|COV|Night Fae|
-C Recieve the Queen's Blessing|QID|60108|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|3;1|N|Recieve the "[color=40C7EB]Queen's Blessing[/color]".|EAB|COV|Night Fae|
-C Sound the Horn of the Wild Hunt|QID|60108|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|4;1|N|Sound the Horn of the Wild Hunt by clicking on it.|COV|Night Fae|
-C Slay Drust Forces|QID|60108|M|55.62,47.71|Z|Ardenweald!Instance1709|SO|4;2|N|Slay Drust Forces|COV|Night Fae|
-C Reach the Grove of Awakening|QID|60108|M|63.22,62.72|Z|Ardenweald!Instance1709|SO|4;3|N|Reach the Grove of Awakening|COV|Night Fae|
-C Speak with Winter Queen|QID|60108|M|59.74,65.78|Z|Ardenweald!Instance1709|SO|5;1|CHAT|N|Speak with Winter Queen|COV|Night Fae|
-C Assist Aliothe|QID|60108|M|65.91,72.78|Z|Ardenweald!Instance1709|SO|6;3|N|Assist Aliothe, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".|EAB|COV|Night Fae|
-C Assist Zayhad|QID|60108|M|65.75,80.28|Z|Ardenweald!Instance1709|SO|6;4|N|Assist Zayhad, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".|EAB|COV|Night Fae|
-C Assist Herne|QID|60108|M|54.37,71.90|Z|Ardenweald!Instance1709|SO|6;2|N|Assist Herne, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".|EAB|COV|Night Fae|
-C Assist Moonberry|QID|60108|M|53.75,81.36|Z|Ardenweald!Instance1709|SO|6;1|N|Assist Moonberry, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".|EAB|COV|Night Fae|
-C Return to Winter Queen|QID|60108|M|60.24,76.08|Z|Ardenweald!Instance1709|SO|7;1|N|Return to Winter Queen.|COV|Night Fae|
-C Destroy Anchoring Runes|QID|60108|M|58.61,86.27|Z|Ardenweald!Instance1709|SO|7;2|N|Destroy the Anchoring Runes.|COV|Night Fae|
-C Defeat Gorak Zhar|QID|60108|M|58.82,87.12|Z|Ardenweald!Instance1709|SO|7;3|N|Defeat Gorak Zhar.|COV|Night Fae|
-C Drust and Ashes|QID|60108|M|58.82,87.12|Z|Ardenweald!Instance1709|QO|1|N|Gorak Zhar defeated.|COV|Night Fae|
-T Drust and Ashes|QID|60108|M|50.62,30.89|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen. Congratulations on finishing the Campaign!|COV|Night Fae|
+C Clear the Way|QID|60108|M|30.76,77.31|Z|Ardenweald!Instance1709|SO|1;1|V|N|Jump on Ysera.|COV|Night Fae|
+C Drust put to sleep|QID|60108|M|PLAYER|Z|Ardenweald!Instance1709|SO|1;2|N|Press "1" to put the Drust to sleep.|COV|Night Fae|
+C Fly to the Heart of the Forest|QID|60108|M|53.88,24.34|Z|Ardenweald!Instance1709|SO|1;3|N|Sit back and watch the show as you fly to the Heart of the Forest.|COV|Night Fae|
+C Report to the Winter Queen|QID|60108|M|55.71,23.31|Z|Ardenweald!Instance1709|SO|2|CHAT|N|Speak with the Winter Queen.|COV|Night Fae|
+C Recieve the Queen's Blessing|QID|60108|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|3;1|N|Stand in the blue circle and click the Action Button "[color=40C7EB]Recieving Blessing[/color]".|EAB|COV|Night Fae|
+C Sound the Horn of the Wild Hunt|QID|60108|M|55.24,23.35|Z|Ardenweald!Instance1709|SO|4;1|NC|N|Click on the Horn of the Hunt.|COV|Night Fae|
+C Slay Drust Forces|QID|60108|M|61.63,56.25|Z|Ardenweald!Instance1709|SO|4;2|N|Go out and kill a few dozen of the Drust Forces.|COV|Night Fae|
+C Reach the Grove of Awakening|QID|60108|M|62.77,63.67|Z|Ardenweald!Instance1709|SO|4;3|N|Follow the road toward the Grove of Awakening.|COV|Night Fae|
+C Speak with Winter Queen|QID|60108|M|62.77,63.67|Z|Ardenweald!Instance1709|SO|5;1|CHAT|N|Speak with Winter Queen.|COV|Night Fae|
+C Assist Aliothe|QID|60108|M|65.91,72.78|Z|Ardenweald!Instance1709|SO|6;3|N|Assist Aliothe, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".\n\nAfter Fulfir the Scarred is dead, click the Orb "Focus of Renewal".|EAB|COV|Night Fae|
+C Assist Zayhad|QID|60108|M|65.75,80.28|Z|Ardenweald!Instance1709|SO|6;4|N|Assist Zayhad, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".\n\nAfter the Hungering Ones are dead, click the Orb "Focus of Cycles".|EAB|COV|Night Fae|
+C Assist Herne|QID|60108|M|54.37,71.90|Z|Ardenweald!Instance1709|SO|6;2|N|Assist Herne, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".\n\nAfter Skulfir and Yulkatar are dead, click the Orb "Focus of Protection".|EAB|COV|Night Fae|
+C Assist Moonberry|QID|60108|M|53.75,81.36|Z|Ardenweald!Instance1709|SO|6;1|N|Assist Moonberry, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".\n\nAfter Brightsparkle and Gerwyn are dead, click the Orb "Focus of Destiny".|EAB|COV|Night Fae|
+C Return to Winter Queen|QID|60108|M|60.24,76.08|Z|Ardenweald!Instance1709|SO|7;1|N|Run back to the Winter Queen.|COV|Night Fae|
+C Destroy Anchoring Runes|QID|60108|M|58.61,86.27|Z|Ardenweald!Instance1709|SO|7;2|N|Destroy the Anchoring Runes and their elite guardians. It's possible to destroy them all at range but the elites will still pull.|COV|Night Fae|
+C Defeat Gorak Zhar|QID|60108|M|59.98,85.90|Z|Ardenweald!Instance1709|SO|7;3|N|Defeat Gorak Zhar.|COV|Night Fae|
+C The Return to Calm|ACTIVE|60108|M|60.03,76.45|Z|Ardenweald!Instance1709|SO|8|CHAT|N|Speak with the Winter Queen to leave the Scenerio.|COV|Night Fae|
+C Drust and Ashes|QID|60108|M|38.94,63.45|Z|Ardenweald!The Shadowlands|CHAT|QO|1|N|Speak with Lord Herne and tell him you are ready.|COV|Night Fae| ;Yes this belongs down here. - Elidion
+t Drust and Ashes|QID|60108|M|50.62,30.89|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen. Congratulations on finishing the Campaign!|COV|Night Fae|
 
 ;N Kyrian Campaign|QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Kyrian|
 ;   Run through by Blanckaert ending 02/Nov/2020
@@ -1396,9 +1397,9 @@ C Someone Worth Saving|QID|58382|M|48.17,24.73|Z|Sinfall Depths@Sinfall!Dungeon|
 T Someone Worth Saving|QID|58382|M|46.41,32.26|Z|Sinfall Depths@Sinfall!Dungeon|N|To The Accuser.|COV|Venthyr|
 A The Many Sins of Kael'thas Sunstrider|QID|58383|PRE|58382|M|46.41,32.26|Z|Sinfall Depths@Sinfall!Dungeon|N|From Sinfall Executor.|COV|Venthyr|REN|17|
 C The Many Sins of Kael'thas Sunstrider|QID|58383|M|46.45,32.13|Z|Sinfall Depths@Sinfall!Dungeon|QO|1|CHAT|N|Talk with the Accuser to begin the ritual of absolution.|COV|Venthyr|
-C The Many Sins of Kael'thas Sunstrider|QID|58383|M|39.54,36.80|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<1|NC|N|Click on Kael'thas: Arrogance.|COV|Venthyr|
-C The Many Sins of Kael'thas Sunstrider|QID|58383|M|39.54,36.80|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<2|NC|N|Click on Kael'thas: Burning Legion.|COV|Venthyr|
-C The Many Sins of Kael'thas Sunstrider|QID|58383|M|39.54,36.80|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<5|NC|N|Click on any of them, he is guilty of all 3.|COV|Venthyr|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|41.71,31.43|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<1|NC|N|Click on Kael'thas: Arrogance.|COV|Venthyr|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|43.74,26.40|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<2|NC|N|Click on Kael'thas: Burning Legion.|COV|Venthyr|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|41.71,31.43|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<5|NC|N|Click on any of them, he is guilty of all 3.|COV|Venthyr|
 T The Many Sins of Kael'thas Sunstrider|QID|58383|M|46.44,32.15|Z|Sinfall Depths@Sinfall!Dungeon|N|To The Accuser.|COV|Venthyr|
 A In the Shadow of our Failures|QID|58426|PRE|58383|M|46.44,32.15|Z|Sinfall Depths@Sinfall!Dungeon|N|From The Accuser.|COV|Venthyr|REN|17|
 P In the Shadow of our Failures|ACTIVE|58426|M|70.41,38.48|Z|Sinfall Depths@Sinfall!Dungeon|N|Take the portal to Sinfall.|IZ|1700|COV|Venthyr|
@@ -1993,20 +1994,18 @@ F Renounced Bastille|ACTIVE|57567|M|52.47,67.65|Z|Maldraxxus|N|Head to the fligh
 T Calling in All Favors|QID|58833|M|62.17,41.04|Z|Maldraxxus|N|To Baroness Draka.|COV|Necrolord|
 A The Third Fall of Kel'thuzad|QID|59020|PRE|58833|M|62.17,41.04|Z|Maldraxxus|N|From Baroness Draka.|COV|Necrolord|REN|22|
 C The Third Fall of Kel'thuzad|QID|59020|M|62.17,41.04|Z|Maldraxxus|QO|1|CHAT|N|Speak to Baroness Draka.|COV|Necrolord|
-C Into the Breach|Z|Maldraxxus|SO|1|N|Confront Kel'Thuzad at the House of Rituals.|COV|Necrolord|
-C Listen to Draka's Plan|M|63.18,33.34|Z|Maldraxxus!Instance1689|SO|2;1|N|Listen to Draka's Plan.|COV|Necrolord|
-C Defeat Baroness Ninadar|M|65.18,29.71|Z|Maldraxxus!Instance1689|SO|2;2|N|Kill Baroness Ninadar.|COV|Necrolord|
-C Defeat Ascended Lichs|M|66.19,24.93|Z|Maldraxxus!Instance1689|SO|3;2|N|Kill Ascended Lichs.|S|COV|Necrolord|
-C Defeat Nrcromancer Ritualists|M|65.99,25.05|Z|Maldraxxus!Instance1689|SO|3;1|N|Kill Nrcromancer Ritualists.|COV|Necrolord|
-C Defeat Ascended Lichs|M|66.19,24.93|Z|Maldraxxus!Instance1689|SO|3;2|N|Defeat Ascended Lichs.|US|COV|Necrolord|
-C Defeat Empowered Baroness Ninadar|M|65.65,26.27|Z|Maldraxxus!Instance1689|SO|4|N|Kill Empowered Baroness Ninadar.|COV|Necrolord|
-C Destroy Stabilization Crystals|M|68.04,32.04|Z|Maldraxxus!Instance1689|SO|5|N|Kill the Lich drawing power from it, then destroy the Stabilization Crystals.|COV|Necrolord|
-C Defeat the Maw Infernous.|M|68.19,29.76|Z|Maldraxxus!Instance1689|SO|6|N|Use Action Ability "[color=40C7EB]Call General Draven[/color]" to help you Kill the Maw Infernous.|EAB|COV|Necrolord|
-C Speak to General Draven|M|68.19,29.76|Z|Maldraxxus!Instance1689|CHAT|SO|7;1|N|Speak to General Draven|COV|Necrolord|
-C Defeat Kel'Thuzad|M|74.22,33.64|Z|Maldraxxus!Instance1689|SO|7;2|N|Defeat Kel'Thuzad|COV|Necrolord|
-C Listen to Margrave Sin'dane|M|74.22,33.64|Z|Maldraxxus!Instance1689|SO|8|N|Listen to Margrave Sin'dane|COV|Necrolord|
-C The Third Fall of Kel'thuzad|QID|59020|M|74.22,33.64|Z|Maldraxxus!Instance1689|QO|2|NC|N|Remove Kel'Thuzad from Maldraxxus.|COV|Necrolord|
-H Seat of the Primus|ACTIVE|59020|M|74.06,33.40|Z|Maldraxxus!Instance1689|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
+C Into the Breach|ACTIVE|59020|M|64.10,35.60|Z|Maldraxxus|SO|1|N|Confront Kel'Thuzad at the House of Rituals.|COV|Necrolord|
+C Listen to Draka's Plan|ACTIVE|59020|M|64.10,35.60|Z|Maldraxxus!Instance1689|SO|2;1|N|Listen to Draka's Plan.|COV|Necrolord|
+C Defeat Baroness Ninadar|ACTIVE|59020|M|65.18,29.71|Z|Maldraxxus!Instance1689|SO|2;2|N|Kill Baroness Ninadar.|COV|Necrolord|
+C Defeat Ascended Lichs|ACTIVE|59020|M|66.19,24.93|Z|Maldraxxus!Instance1689|SO|3;2|N|Kill Ascended Lichs.|S|COV|Necrolord|
+C Defeat Nrcromancer Ritualists|ACTIVE|59020|M|65.99,25.05|Z|Maldraxxus!Instance1689|SO|3;1|N|Kill Nrcromancer Ritualists.|COV|Necrolord|
+C Defeat Ascended Lichs|ACTIVE|59020|M|66.19,24.93|Z|Maldraxxus!Instance1689|SO|3;2|N|Defeat Ascended Lichs.|US|COV|Necrolord|
+C Defeat Empowered Baroness Ninadar|ACTIVE|59020|M|65.65,26.27|Z|Maldraxxus!Instance1689|SO|4|N|Kill Empowered Baroness Ninadar.|COV|Necrolord|
+C Destroy Stabilization Crystals|ACTIVE|59020|M|68.04,32.04|Z|Maldraxxus!Instance1689|SO|5|N|Kill the Lich drawing power from it, then destroy the Stabilization Crystals.|COV|Necrolord|
+C Defeat the Maw Infernous.|ACTIVE|59020|M|68.19,29.76|Z|Maldraxxus!Instance1689|SO|6|N|Use Action Ability "[color=40C7EB]Call General Draven[/color]" to help you Kill the Maw Infernous.|EAB|COV|Necrolord|
+C Speak to General Draven|ACTIVE|59020|M|68.19,29.76|Z|Maldraxxus!Instance1689|CHAT|SO|7;1|N|Speak to General Draven|COV|Necrolord|
+C Defeat Kel'Thuzad|ACTIVE|59020|M|74.22,33.64|Z|Maldraxxus!Instance1689|SO|7;2|N|Defeat Kel'Thuzad|COV|Necrolord|
+C Listen to Margrave Sin'dane|ACTIVE|59020|M|73.89,34.53|Z|Maldraxxus!Instance1689|SO|8|N|Listen to Margrave Sin'dane and then take the portal up to the 2nd floor and then use the waygate back to the Seat of the Primus.|COV|Necrolord|
 C The Third Fall of Kel'thuzad|QID|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|QO|3|NC|N|Return to Baroness Draka at the Seat of the Primus.|COV|Necrolord|
 T The Third Fall of Kel'thuzad|QID|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Staff of the Primus|QID|62406|PRE|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|22|
