@@ -54,7 +54,7 @@ N Shopping List|QID|171000005|N|This completes the Shopping List, you may either
 = Learn [spell=2259/Alchemy]|QID|171002259|SPELL|Alchemy;2259|LVL|5|N|Learn from a Trainer in any major city.|
 
 M [item=118/Minor Healing Potion]|QID|171002330|P|Alchemy;171;0+60;1|ITEM|118|CRAFT|2330 60|MATS|2447 1;765 1;3371 1|PN|Keep what you make, need for next step.|
-= Learn Recipe|QID|171000551|P|Alchemy;171;0+55|RECIPE|2337|N|Learn [spell=2337/Lesser Healing Potion] Recipe from Trainer.| 
+= Learn Recipe|QID|171000551|P|Alchemy;171;0+55|RECIPE|2337|N|Learn [spell=2337/Lesser Healing Potion] Recipe from Trainer.|
 M [item=858/Lesser Healing Potion]|QID|171002337|P|Alchemy;171;0+105;1|ITEM|858|CRAFT|2337 50|MATS|118 1;2450 1|
 = Learn Recipe|QID|171000901|P|Alchemy;171;0+90|RECIPE|3171|N|Learn [spell=3171/Elixir of Wisdom] Recipe from Trainer.|
 M [item=3383/Elixir of Wisdom]|QID|171003171|P|Alchemy;171;0+110;1|ITEM|3383|CRAFT|3171 5|MATS|785 1;2450 2;3371 1|

@@ -21,7 +21,7 @@ return [[
 
 ; N Guide Hub|QID|197000000|JUMP|Tailoring: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N Things To Note|QID|197000001|N|\nThis guide only covers Retail VANILLA content, currently rewritten to our new format.| 
+N Things To Note|QID|197000001|N|\nThis guide only covers Retail VANILLA content, currently rewritten to our new format.|
 N PLEASE Report any issues|QID|197000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|197000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 300.\n This is for those that want to farm all mats prior to starting.\n If you don't want to farm the mats just click off the steps.|
