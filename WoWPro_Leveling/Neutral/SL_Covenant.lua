@@ -541,9 +541,9 @@ C Drust put to sleep|QID|60108|M|PLAYER|Z|Ardenweald!Instance1709|SO|1;2|N|Press
 C Fly to the Heart of the Forest|QID|60108|M|53.88,24.34|Z|Ardenweald!Instance1709|SO|1;3|N|Sit back and watch the show as you fly to the Heart of the Forest.|COV|Night Fae|
 C Report to the Winter Queen|QID|60108|M|55.71,23.31|Z|Ardenweald!Instance1709|SO|2|CHAT|N|Speak with the Winter Queen.|COV|Night Fae|
 C Recieve the Queen's Blessing|QID|60108|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|3;1|N|Stand in the blue circle and click the Action Button "[color=40C7EB]Recieving Blessing[/color]".|EAB|COV|Night Fae|
-C Sound the Horn of the Wild Hunt|QID|60108|M|55.24,23.35|Z|Ardenweald!Instance1709|SO|4;1|NC|N|Clicking on the Horn of the Hunt.|COV|Night Fae|
+C Sound the Horn of the Wild Hunt|QID|60108|M|55.24,23.35|Z|Ardenweald!Instance1709|SO|4;1|NC|N|Click on the Horn of the Hunt.|COV|Night Fae|
 C Slay Drust Forces|QID|60108|M|61.63,56.25|Z|Ardenweald!Instance1709|SO|4;2|N|Go out and kill a few dozen of the Drust Forces.|COV|Night Fae|
-C Reach the Grove of Awakening|QID|60108|M|62.77,63.67|Z|Ardenweald!Instance1709|SO|4;3|N|Follow the road towar the Grove of Awakening.|COV|Night Fae|
+C Reach the Grove of Awakening|QID|60108|M|62.77,63.67|Z|Ardenweald!Instance1709|SO|4;3|N|Follow the road toward the Grove of Awakening.|COV|Night Fae|
 C Speak with Winter Queen|QID|60108|M|62.77,63.67|Z|Ardenweald!Instance1709|SO|5;1|CHAT|N|Speak with Winter Queen.|COV|Night Fae|
 C Assist Aliothe|QID|60108|M|65.91,72.78|Z|Ardenweald!Instance1709|SO|6;3|N|Assist Aliothe, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".\n\nAfter Fulfir the Scarred is dead, click the Orb "Focus of Renewal".|EAB|COV|Night Fae|
 C Assist Zayhad|QID|60108|M|65.75,80.28|Z|Ardenweald!Instance1709|SO|6;4|N|Assist Zayhad, you have the ability to direct the "[color=40C7EB]Queens Wrath[/color]".\n\nAfter the Hungering Ones are dead, click the Orb "Focus of Cycles".|EAB|COV|Night Fae|
@@ -1397,9 +1397,9 @@ C Someone Worth Saving|QID|58382|M|48.17,24.73|Z|Sinfall Depths@Sinfall!Dungeon|
 T Someone Worth Saving|QID|58382|M|46.41,32.26|Z|Sinfall Depths@Sinfall!Dungeon|N|To The Accuser.|COV|Venthyr|
 A The Many Sins of Kael'thas Sunstrider|QID|58383|PRE|58382|M|46.41,32.26|Z|Sinfall Depths@Sinfall!Dungeon|N|From Sinfall Executor.|COV|Venthyr|REN|17|
 C The Many Sins of Kael'thas Sunstrider|QID|58383|M|46.45,32.13|Z|Sinfall Depths@Sinfall!Dungeon|QO|1|CHAT|N|Talk with the Accuser to begin the ritual of absolution.|COV|Venthyr|
-C The Many Sins of Kael'thas Sunstrider|QID|58383|M|39.54,36.80|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<1|NC|N|Click on Kael'thas: Arrogance.|COV|Venthyr|
-C The Many Sins of Kael'thas Sunstrider|QID|58383|M|39.54,36.80|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<2|NC|N|Click on Kael'thas: Burning Legion.|COV|Venthyr|
-C The Many Sins of Kael'thas Sunstrider|QID|58383|M|39.54,36.80|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<5|NC|N|Click on any of them, he is guilty of all 3.|COV|Venthyr|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|41.71,31.43|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<1|NC|N|Click on Kael'thas: Arrogance.|COV|Venthyr|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|43.74,26.40|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<2|NC|N|Click on Kael'thas: Burning Legion.|COV|Venthyr|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|41.71,31.43|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<5|NC|N|Click on any of them, he is guilty of all 3.|COV|Venthyr|
 T The Many Sins of Kael'thas Sunstrider|QID|58383|M|46.44,32.15|Z|Sinfall Depths@Sinfall!Dungeon|N|To The Accuser.|COV|Venthyr|
 A In the Shadow of our Failures|QID|58426|PRE|58383|M|46.44,32.15|Z|Sinfall Depths@Sinfall!Dungeon|N|From The Accuser.|COV|Venthyr|REN|17|
 P In the Shadow of our Failures|ACTIVE|58426|M|70.41,38.48|Z|Sinfall Depths@Sinfall!Dungeon|N|Take the portal to Sinfall.|IZ|1700|COV|Venthyr|
