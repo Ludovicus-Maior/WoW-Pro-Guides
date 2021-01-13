@@ -10,9 +10,8 @@ WoWPro:GuideNickname(guide, "LTW_BFA")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-;  Guide structure the QID is Prof, Spell ID; The N for materials is Qty of ; Name of Mat ; total needed ; total needed : Separator of mats.
 ;  For the QID is Prof (164), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |PN|Profession Note (aka |N|)  -- PN ONLY in M Steps.
+;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
 ;	 IE M [item=154153/Shimmerscale Armguards]|QID|165256757|P|Leatherworking;165;7+13;1|ITEM|154153|CRAFT|256757 13|MATS|153050 1;154164 1|
 ;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 15 |164000151| and |164000152|  // |RECIPE|256759|N|Learn [spell=256759/Shimmerscale Pauldrons] Recipe from Trainer.|
@@ -54,7 +53,7 @@ M [item=152542/Hardened Tempest Hide]|QID|165272278|P|Leatherworking;165;7+70;1|
 M [item=154166/Coarse Leather Barding]|QID|165256790|P|Leatherworking;165;7+85;1|ITEM|154166|CRAFT|256790 15|MATS|152541 25|
 = Learn Recipe|QID|165000751|P|Leatherworking;165;7+75;0|RECIPE|256791|N|Learn [spell=256791/Drums of the Maelstrom] Recipe from Trainer.|
 = Learn Recipe|QID|165000851|P|Leatherworking;165;7+85;0|RECIPE|286019|N|Learn [spell=286019/Coarse Leather Barding] (Rank 2) Recipe from Trainer.|
-M [item=154166/Coarse Leather Barding]|QID|165286019|P|Leatherworking;165;7+120;1|RECIPE|286021|ITEM|154166|CRAFT|286019 45|MATS|152541 20|PN|Make sure you learn Rank 2, before doing this one!|
+M [item=154166/Coarse Leather Barding]|QID|165286019|P|Leatherworking;165;7+120;1|RECIPE|286021|ITEM|154166|CRAFT|286019 45|MATS|152541 20|N|Make sure you learn Rank 2, before doing this one!|
 U Coarse Leather Barding|QID|165000851|P|Leatherworking;165;7+85;0|RECIPE|286021|ITEM|166313|N|Learn [spell=286021/Coarse Leather Barding] (Rank 3)\nRandom World Drop, must have learned Rank 2m before you can use.|
 M [item=154166/Coarse Leather Barding]|QID|165286019|P|Leatherworking;165;7+125;1|ITEM|154166|CRAFT|286019 45|MATS|152541 15|
 M [item=154167/Drums of the Maelstrom]|QID|165256791|P|Leatherworking;165;7+120;1|ITEM|154167|CRAFT|256791 30|MATS|152541 25;154164 10|

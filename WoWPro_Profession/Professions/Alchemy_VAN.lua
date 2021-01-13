@@ -4,17 +4,16 @@
 
 local guide = WoWPro:RegisterGuide("BlancAlchemy_VAN","Profession","Alchemy_VAN", "Blanckaert", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",171)
+WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Alchemy_Vanilla")
 WoWPro:GuideNickname(guide, "ALC_VAN")
-WoWPro:GuideLevels(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
 ;  Guide structures:
 ;  For the QID is Prof (171), Spell ID(000000)
-
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |PN|Profession Note (aka |N|)  -- PN ONLY in M Steps.
-;	 IE M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;8+8;1|CRAFT|301578 8|MATS|180732 1;169701 2|PN|Create 8, needed in 2 steps.|
+;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
+;	 IE M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;8+8;1|CRAFT|301578 8|MATS|180732 1;169701 2|N|Create 8, needed in 2 steps.|
 ;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 15 |171000151| and |171000152|  // |RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion]
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
@@ -53,7 +52,7 @@ N Shopping List|QID|171000005|N|This completes the Shopping List, you may either
 
 = Learn [spell=2259/Alchemy]|QID|171002259|SPELL|Alchemy;2259|LVL|5|N|Learn from a Trainer in any major city.|
 
-M [item=118/Minor Healing Potion]|QID|171002330|P|Alchemy;171;0+60;1|ITEM|118|CRAFT|2330 60|MATS|2447 1;765 1;3371 1|PN|Keep what you make, need for next step.|
+M [item=118/Minor Healing Potion]|QID|171002330|P|Alchemy;171;0+60;1|ITEM|118|CRAFT|2330 60|MATS|2447 1;765 1;3371 1|N|Keep what you make, need for next step.|
 = Learn Recipe|QID|171000551|P|Alchemy;171;0+55|RECIPE|2337|N|Learn [spell=2337/Lesser Healing Potion] Recipe from Trainer.|
 M [item=858/Lesser Healing Potion]|QID|171002337|P|Alchemy;171;0+105;1|ITEM|858|CRAFT|2337 50|MATS|118 1;2450 1|
 = Learn Recipe|QID|171000901|P|Alchemy;171;0+90|RECIPE|3171|N|Learn [spell=3171/Elixir of Wisdom] Recipe from Trainer.|
@@ -71,7 +70,7 @@ M [item=8949/Elixir of Agility]|QID|171011449|P|Alchemy;171;0+205;1|ITEM|8949|CR
 = Learn Recipe|QID|171001951|P|Alchemy;171;0+195|RECIPE|11450|N|Learn [spell=11450/Elixir of Greater Defense] Recipe from Trainer.|
 M [item=8951/Elixir of Greater Defense]|QID|171011450|P|Alchemy;171;0+215;1|ITEM|8951|CRAFT|11450 10|MATS|3355 1;3821 1;3371 1|
 = Learn Recipe|QID|171002151|P|Alchemy;171;0+215|RECIPE|11457|N|Learn [spell=11457/Superior Healing Potion] Recipe from Trainer.|
-M [item=3928/Superior Healing Potion]|QID|171011457|P|Alchemy;171;0+240;1|ITEM|3928|CRAFT|11457 25|MATS|8838 1;3358 1;3371 1|PN|You can make upto 250 if you have enough materials.|
+M [item=3928/Superior Healing Potion]|QID|171011457|P|Alchemy;171;0+240;1|ITEM|3928|CRAFT|11457 25|MATS|8838 1;3358 1;3371 1|N|You can make upto 250 if you have enough materials.|
 = Learn Recipe|QID|171002351|P|Alchemy;171;0+235|RECIPE|11465|N|Learn [spell=11465/Elixir of Greater Intellect] Recipe from Trainer.|
 M [item=9179/Elixir of Greater Intellect]|QID|171011465|P|Alchemy;171;0+250;1|ITEM|9179|CRAFT|11465 10|MATS|8839 1;3358 1;3371 1|
 = Learn Recipe|QID|171002501|P|Alchemy;171;0+250|RECIPE|11478|N|Learn [spell=11478/Elixir of Detect Demon] Recipe from Trainer.|

@@ -12,8 +12,8 @@ return [[
 
 ;  Guide structures:
 ;  For the QID is Prof (164), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |PN|Profession Note (aka |N|)  -- PN ONLY in M Steps.
-;	 IE M [item=2862/Rough Sharpening Stone]|QID|164002660|P|Blacksmithing;164;0+25;1|ITEM|2862|CRAFT|2660 25|MATS|2835 25|PN|Might have to make more then 25, This will be yellow for the last 5 points.|
+;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Note.
+;	 IE M [item=2862/Rough Sharpening Stone]|QID|164002660|P|Blacksmithing;164;0+25;1|ITEM|2862|CRAFT|2660 25|MATS|2835 25|N|Might have to make more then 25, This will be yellow for the last 5 points.|
 ;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 15 |164000151| and |164000152|  // |RECIPE|307671|N|Learn [spell=307671/Ceremonious Shield] Recipe from Trainer.|
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
@@ -63,24 +63,24 @@ N Shopping List|N|This completes the Shopping List, you may either have a few le
 = Learn [spell=2018/Blacksmithing]|QID|164002018|SPELL|Blacksmithing;2018|LVL|5|N|Learn from a Trainer in any major city.|
 B Hammer|QID|164005956|P|Blacksmithing;164;0+1;0|N|Buy from an NPC Supply|L|5956|
 
-M [item=2862/Rough Sharpening Stone]|QID|164002660|P|Blacksmithing;164;0+25;1|ITEM|2862|CRAFT|2660 25|MATS|2835 25|PN|Might have to make more then 25, This will be yellow for the last 5 points.|
+M [item=2862/Rough Sharpening Stone]|QID|164002660|P|Blacksmithing;164;0+25;1|ITEM|2862|CRAFT|2660 25|MATS|2835 25|N|Might have to make more then 25, This will be yellow for the last 5 points.|
 = Learn Recipe|QID|164000251|P|Blacksmithing;164;0+25|RECIPE|3320|N|Learn [spell=3320/Rough Grinding Stone] Recipe from Trainer.|
 M [item=3470/Rough Grinding Stone]|QID|164003320|P|Blacksmithing;164;0+65;1|ITEM|3470|CRAFT|3320 50|MATS|2835 2|
-M [item=3470/Rough Grinding Stone]|QID|164003320|P|Blacksmithing;164;0+75;1|ITEM|3470|CRAFT|3320 25|MATS|2835 2|PN|If you still have more Stone, keep making till 75, otherwise click off step.|
+M [item=3470/Rough Grinding Stone]|QID|164003320|P|Blacksmithing;164;0+75;1|ITEM|3470|CRAFT|3320 25|MATS|2835 2|N|If you still have more Stone, keep making till 75, otherwise click off step.|
 = Learn Recipe|QID|164000651|P|Blacksmithing;164;0+65|RECIPE|2665|N|Learn [spell=2665/Coarse Sharpening Stone] Recipe from Trainer.|
-M [item=2863/Coarse Sharpening Stone]|QID|164002665|P|Blacksmithing;164;0+75;1|ITEM|2863|CRAFT|2665 16|MATS|2836 1|PN|Just make to 75, depending on how many [item=3470/Rough Grinding Stone] you made.|
+M [item=2863/Coarse Sharpening Stone]|QID|164002665|P|Blacksmithing;164;0+75;1|ITEM|2863|CRAFT|2665 16|MATS|2836 1|N|Just make to 75, depending on how many [item=3470/Rough Grinding Stone] you made.|
 = Learn Recipe|QID|164000701|P|Blacksmithing;164;0+70|RECIPE|2666|N|Learn [spell=2666/Runed Copper Belt] Recipe from Trainer.|
 = Learn Recipe|QID|164000751|P|Blacksmithing;164;0+75|RECIPE|3326|N|Learn [spell=3326/Coarse Grinding Stone] Recipe from Trainer.|
-M [item=3478/Coarse Grinding Stone]|QID|164003326|P|Blacksmithing;164;0+90;1|ITEM|3478|CRAFT|3326 25|MATS|2836 2|PN|Might have to make more, but SAVE 25 for later steps.|
-l [item=3478/Coarse Grinding Stone]|QID|164003326|P|Blacksmithing;164;0+90|L|3478 25|ITEM|3478|PN|Craft more [item=3478/Coarse Grinding Stone], you need about 25 for later steps.|
+M [item=3478/Coarse Grinding Stone]|QID|164003326|P|Blacksmithing;164;0+90;1|ITEM|3478|CRAFT|3326 25|MATS|2836 2|N|Might have to make more, but SAVE 25 for later steps.|
+l [item=3478/Coarse Grinding Stone]|QID|164003326|P|Blacksmithing;164;0+90|L|3478 25|ITEM|3478|N|Craft more [item=3478/Coarse Grinding Stone], you need about 25 for later steps.|
 M [item=2857/Runed Copper Belt]|QID|164002666|P|Blacksmithing;164;0+105;1|ITEM|2857|CRAFT|2666 17|MATS|2840 10|
 = Learn Recipe|QID|164001051|P|Blacksmithing;164;0+105|RECIPE|2865|N|Learn [spell=3320/Rough Bronze Leggings] Recipe from Trainer.|
 M [item=2865/Rough Bronze Leggings]|QID|164002668|P|Blacksmithing;164;0+115;1|ITEM|2865|CRAFT|2668 5|MATS|2841 6|
 = Learn Recipe|QID|164001101|P|Blacksmithing;164;0+110|RECIPE|3328|N|Learn [spell=3328/Rough Bronze Shoulders] Recipe from Trainer.|
-M [item=3480/Rough Bronze Shoulders]|QID|164003328|P|Blacksmithing;164;0+125;1|ITEM|3480|CRAFT|3328 15|MATS|2841 5;3478 1|PN|Stop at 125, Depending on how the next one goes, you might make more from 140-145.|
+M [item=3480/Rough Bronze Shoulders]|QID|164003328|P|Blacksmithing;164;0+125;1|ITEM|3480|CRAFT|3328 15|MATS|2841 5;3478 1|N|Stop at 125, Depending on how the next one goes, you might make more from 140-145.|
 = Learn Recipe|QID|164001251|P|Blacksmithing;164;0+125|RECIPE|3337|N|Learn [spell=3337/Heavy Grinding Stone] Recipe from Trainer.|
-M [item=3486/Heavy Grinding Stone]|QID|164003337|P|Blacksmithing;164;0+140;1|ITEM|3486|CRAFT|3337 35|MATS|2838 3|PN|Make all you have and keep, don't worry if you hit 145 or 150 with this, guide will skip steps if needed.|
-M [item=3480/Rough Bronze Shoulders]|QID|164003328|P|Blacksmithing;164;0+145;1|ITEM|3480|CRAFT|3328 5|MATS|2841 5;3478 1|PN|Step might skip, depending on how many skill points [item=3486/Heavy Grinding Stone] gave you.|
+M [item=3486/Heavy Grinding Stone]|QID|164003337|P|Blacksmithing;164;0+140;1|ITEM|3486|CRAFT|3337 35|MATS|2838 3|N|Make all you have and keep, don't worry if you hit 145 or 150 with this, guide will skip steps if needed.|
+M [item=3480/Rough Bronze Shoulders]|QID|164003328|P|Blacksmithing;164;0+145;1|ITEM|3480|CRAFT|3328 5|MATS|2841 5;3478 1|N|Step might skip, depending on how many skill points [item=3486/Heavy Grinding Stone] gave you.|
 = Learn Recipe|QID|164001201|P|Blacksmithing;164;0+120|RECIPE|2672|N|Learn [spell=2672/Patterned Bronze Bracers] Recipe from Trainer.|
 M [item=2868/Patterned Bronze Bracers]|QID|164002672|P|Blacksmithing;164;0+155;1|ITEM|2868|CRAFT|2672 10|MATS|2841 5;3478 2|
 = Learn Recipe|QID|164001551|P|Blacksmithing;164;0+155|RECIPE|3506|N|Learn [spell=3506/Green Iron Leggings] Recipe from Trainer.|
@@ -94,13 +94,13 @@ M [item=7964/Solid Sharpening Stone]|QID|164009918|P|Blacksmithing;164;0+210;1|I
 = Learn Recipe|QID|164002051|P|Blacksmithing;164;0+205|RECIPE|9928|N|Learn [spell=9928/Heavy Mithril Gauntlet] Recipe from Trainer.|
 M [item=7919/Heavy Mithril Gauntlet]|QID|164009928|P|Blacksmithing;164;0+225;1|ITEM|7919|CRAFT|9928 15|MATS|3860 6 4338 4|
 U Learn Recipe|QID|164002151|P|Blacksmithing;164;0+215|RECIPE|9937|U|7995|N|Learn [spell=9937/Mithril Scale Bracers] from [item=7995/Plans: Mithril Scale Bracers].|
-M [item=7924/Mithril Scale Bracers]|QID|164009937|P|Blacksmithing;164;0+236;1|ITEM|7924|CRAFT|9937 11|MATS|3860 8|PN|If you didn't get [spell=9937/Plans: Mithril Scale Bracers], RIGHT click this step.|
+M [item=7924/Mithril Scale Bracers]|QID|164009937|P|Blacksmithing;164;0+236;1|ITEM|7924|CRAFT|9937 11|MATS|3860 8|N|If you didn't get [spell=9937/Plans: Mithril Scale Bracers], RIGHT click this step.|
 = Learn Recipe|QID|164002101|P|Blacksmithing;164;0+210|RECIPE|9931|N|Learn [spell=9931/Mithril Scale Pants] Recipe from Trainer.|
-M [item=7920/Mithril Scale Pants]|QID|164009931|P|Blacksmithing;164;0+236;1|RECIPE|9937|ITEM|7920|CRAFT|9931 11|MATS|3860 12|PN|Make this since you don't have [spell=9937/Plans: Mithril Scale Bracers].|
+M [item=7920/Mithril Scale Pants]|QID|164009931|P|Blacksmithing;164;0+236;1|RECIPE|9937|ITEM|7920|CRAFT|9931 11|MATS|3860 12|N|Make this since you don't have [spell=9937/Plans: Mithril Scale Bracers].|
 = Learn Recipe|QID|164002301|P|Blacksmithing;164;0+230|RECIPE|9961|N|Learn [spell=9961/Mithril Coif] Recipe from Trainer.|
 M [item=7931/Mithril Coif]|QID|164009961|P|Blacksmithing;164;0+250;|ITEM|7931|CRAFT|9961 14|MATS|3860 10;4338 6|
 = Learn Recipe|QID|164002501|P|Blacksmithing;164;0+250|RECIPE|16641|N|Learn [spell=16641/Dense Sharpening Stone] Recipe from Trainer.|
-M [item=12404/Dense Sharpening Stone]|QID|164016641|P|Blacksmithing;164;0+260;|ITEM|12404|CRAFT|16641 20|MATS|12365 1|PN|Might have to make more then 20, this will be green for that last few points.|
+M [item=12404/Dense Sharpening Stone]|QID|164016641|P|Blacksmithing;164;0+260;|ITEM|12404|CRAFT|16641 20|MATS|12365 1|N|Might have to make more then 20, this will be green for that last few points.|
 = Learn Recipe|QID|164002551|P|Blacksmithing;164;0+255|RECIPE|16644|N|Learn [spell=16644/Thorium Bracers] Recipe from Trainer.|
 M [item=12408/Thorium Bracers]|QID|164016644|P|Blacksmithing;164;0+276;1|ITEM|12408|CRAFT|16644 16|MATS|12359 8|
 = Learn Recipe|QID|164002701|P|Blacksmithing;164;0+270|RECIPE|16649|N|Learn [spell=16649/Imperial Plate Bracers] Recipe from Trainer.|

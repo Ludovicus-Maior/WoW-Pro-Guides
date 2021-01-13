@@ -13,7 +13,7 @@ return [[
 ;  Guide structures:
 ;  For the QID is Prof (197), Item ID/Spell ID(000000) - QIDs Mean NOTHING in guide.
 ;  For the N Steps - QID is just 197+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |PN|Profession Note (aka |N|)  -- PN ONLY in M Steps.
+;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
 ;	 ie M [item=1251/Linen Bandage]|QID|197003275|P|Tailoring;197;0+50;1|ITEM|1251|CRAFT|3275 55|MATS|2589 1|
 ;  For the = Steps - QID|Prof,Step Increment| |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 40 |197000401| and |197000402|  // |RECIPE|3276|N|Learn [spell=3276/Heavy Linen Bandage] Recipe, from Trainer|

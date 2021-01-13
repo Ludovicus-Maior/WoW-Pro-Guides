@@ -12,7 +12,7 @@ return [[
 
 ;  Guide Structure
 ;  For the QID is Prof (755), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |PN|Profession Note (aka |N|)  -- PN ONLY in M Steps.
+;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
 ;	 IE M [item=171381/Ceremonious Armguards]|QID|164307670|P|Blacksmithing;164;8+06;1|CRAFT|307670 5|MATS|171828 4;180733 1|
 ;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 15 |164000151| and |164000152|  // |RECIPE|307671|N|Learn [spell=307671/Ceremonious Shield] Recipe from Trainer.|
@@ -46,7 +46,7 @@ N Profession Levelling Points|QID|755000006|N|You might be ahead of this guide a
 = Learn [spell=311967/Shadowlands Jewelcrafting]|QID|755311967|M|35.20,41.34|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;*;0;75|SPELL|Shadowlands Jewelcrafting;311967|LVL|48|N|Learn from Appraiser Au'vesk in Oribos.|
 
 l [item=171828/Laestrite Ore]|QID|755171828|P|Jewelcrafting;755;8+20;1|L|171828 200|ITEM|171828|N|You'll need upto 200 Laestrite Ore for this step. Be sure to save 210 Ores for later steps.|
-M Prospect Ores|QID|755307670|P|Jewelcrafting;755;8+20;1|CRAFT|307670 30|MATS|171828 5|PN|This step will not update until you reach 20.|
+M Prospect Ores|QID|755307670|P|Jewelcrafting;755;8+20;1|CRAFT|307670 30|MATS|171828 5|N|This step will not update until you reach 20.|
 = Learn Recipe|QID|755000151|M|35.20,41.34|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+15|RECIPE|311871|N|Learn [spell=311871/Quick Jewel Doublet] Recipe from Trainer.|
 = Learn Recipe|QID|755000201|M|35.20,41.34|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+20|RECIPE|311948|N|Learn [spell=311948/Mass Prospect Laestrite] Recipe from Trainer.|
 l [item=171828/Laestrite Ore]|QID|755171828|P|Jewelcrafting;755;8+30;1|L|171828 200|ITEM|171828|N|You'll need about 200 Laestrite Ore for this step. Be sure to save at least 10 Ores for later steps.|
@@ -69,15 +69,15 @@ l [item=173110/Umbryl]|QID|755173110|P|Jewelcrafting;755;8+50;1|L|173110 48|ITEM
 l [item=173110/Umbryl]|QID|755173110|P|Jewelcrafting;755;8+42|L|173109 12|RECIPE|311905|ITEM|173109|N|You'll need about 12 Umbryl for this step.  Be sure to save at least 36 Gems for later steps.|
 B [item=173168/Laestrite Setting]|QID|755173168|M|34.51,44.61|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+42;1|L|173168 12|RECIPE|311905|ITEM|173168|N|You'll need 12 Laestrite Settings for this step.  Be sure to save at least 32 Settings for later steps.|
 l [item=173123/Versatile Jewel Doublet]|QID|755173123|P|Jewelcrafting;755;8+50|L|173123 6|S|US|RECIPE|311905|ITEM|173123|N|You need 6 of these for a later step.|
-M [item=173123/Versatile Jewel Doublet]|QID|755311866|P|Jewelcrafting;755;8+38;1|ITEM|173123|CRAFT|311866 6|N|173110 2;173168 2|PN|Make all 6, you will need these later.|
+M [item=173123/Versatile Jewel Doublet]|QID|755311866|P|Jewelcrafting;755;8+38;1|ITEM|173123|CRAFT|311866 6|N|173110 2;173168 2|N|Make all 6, you will need these later.|
 l [item=173108/Oriblase]|QID|755173108|P|Jewelcrafting;755;8+40|L|173109 8|RECIPE|311903|ITEM|173108|N|You'll need about 8 Oriblase for this step.  Be sure to save at least 36 Gems for later steps.|
 B [item=173168/Laestrite Setting]|QID|755173168|M|34.51,44.61|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+40;1|L|173168 8|RECIPE|311903|ITEM|173168|N|You'll need 8 Laestrite Settings for this step.  Be sure to save at least 24 Settings for later steps.|
 l [item=173122/Quick Jewel Doublet]|QID|755173122|P|Jewelcrafting;755;8+40|L|173122 4|S|US|RECIPE|311903|ITEM|173122|N|You need 4 of these for a later step.|
-M [item=173122/Quick Jewel Doublet]|QID|755311871|P|Jewelcrafting;755;8+41;1|ITEM|173122|CRAFT|311871 4|MATS|173108 2;173168 2|PN|Make all 4, you will need these later.|
+M [item=173122/Quick Jewel Doublet]|QID|755311871|P|Jewelcrafting;755;8+41;1|ITEM|173122|CRAFT|311871 4|MATS|173108 2;173168 2|N|Make all 4, you will need these later.|
 = Learn Recipe|QID|755000351|M|35.20,41.34|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+35|RECIPE|311903|N|Learn [spell=311903/Quick Laestrite Choker] Recipe from Trainer.|
 = Learn Recipe|QID|755000352|M|35.20,41.34|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+35|RECIPE|311905|N|Learn [spell=311905/Versatile Laestrite Choker] Recipe from Trainer.|
-M [item=173142/Quick Laestrite Choker]|QID|755311903|P|Jewelcrafting;755;8+45;1|ITEM|173142|CRAFT|311903 2|MATS|173122 2;171828 2|PN|Make 2, Ignore Skill Points|
-M [item=173140/Versatile Laestrite Choker]|QID|755311905|P|Jewelcrafting;755;8+51;1|ITEM|173140|CRAFT|311905 3|MATS|173123 2;171828 2|PN|Make 3, Ignore Skill Points|
+M [item=173142/Quick Laestrite Choker]|QID|755311903|P|Jewelcrafting;755;8+45;1|ITEM|173142|CRAFT|311903 2|MATS|173122 2;171828 2|N|Make 2, Ignore Skill Points|
+M [item=173140/Versatile Laestrite Choker]|QID|755311905|P|Jewelcrafting;755;8+51;1|ITEM|173140|CRAFT|311905 3|MATS|173123 2;171828 2|N|Make 3, Ignore Skill Points|
 = Learn Recipe|QID|755000501|M|35.20,41.34|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+50|RECIPE|311863|N|Learn [spell=311863/Deadly Jewel Cluster] Recipe from Trainer.|
 = Learn Recipe|QID|755000502|M|35.20,41.34|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+50|RECIPE|311859|N|Learn [spell=311859/Versatile Jewel Cluster] Recipe from Trainer.|
 l [item=173109/Angerseye]|QID|755173109|P|Jewelcrafting;755;8+50|L|173109 12|RECIPE|311884|ITEM|173109|N|You'll need about 12 Angerseye for this step.  Be sure to save at least 12 Gems for a later step.|
