@@ -253,7 +253,9 @@ l A Pale Brew|QID|14432|M|30.72,36.80|QO|1|N|Gather up 10 samples of Briaroot Br
 T A Pale Brew|QID|14432|M|42.43,23.61|N|To Haggrum Bloodfist.|
 T Diplomacy by Another Means|QID|14433|M|42.43,23.61|N|To Haggrum Bloodfist.|
 A The Blackmaw Doublecross|QID|14435|M|42.43,23.61|N|From Haggrum Bloodfist.|PRE|14432&14433|
-C The Blackmaw Doublecross|QID|14435|M|42.65,23.71;32.13,30.41|CS|N|Use Ambassador Disguise, talk to Andorel when you're ready. Speak with Ungarl to wreck the negotiations, then kill 4 Blackmaw Warriors and 4 Blackmaw Shaman on your way out.|U|49368|
+P Blackmaw Hold|ACTIVE|14435|M|42.61,23.70|N|When you're ready, stand beside Haggrum's Smokepit and use the Ambassador Disguise. Immediately after using the Disguise, talk to Andorel to have him teleport you.\n[color=FF0000]NOTE: [/color]The Disguise only lasts 5 minutes and you have to be near the Smokepit to re-apply it.|U|49368|CHAT|IZ|Northern Rocketway Exchange|
+C The Blackmaw Doublecross|QID|14435|M|30.97,29.99|QO|1|N|Speak with Ungarl to wreck the negotiations.\n[color=FF0000]NOTE: [/color]If your Disguise fades before you complete this step, you have basically failed and will have to go back and start again at the Smokepit.\nSpeak with him as quickly as you can.|CHAT|
+K The Blackmaw Doublecross|QID|14435|M|32.13,30.41|QO|2;3|N|Kill 4 Blackmaw Warriors and 4 Blackmaw Shaman on your way out.|
 T The Blackmaw Doublecross|QID|14435|M|42.39,23.62|N|To Haggrum Bloodfist.|
 A Amberwind's Journal|QID|14428|M|42.61,23.72|N|From Andorel Sunsworn.|
 C Dressed to Impress|QID|14340|M|47.76,18.35;47.22,20.83|CS|N|Follow the path up the hill.\nPut on your new wizard hat and then speak to the Image of Archmage Xylem.|U|49201|NC|
