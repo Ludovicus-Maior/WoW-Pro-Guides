@@ -213,7 +213,7 @@ t Relics of the Ancient Eredar|QID|48446|M|38.86,25.64|Z|Upper Deck@ArgusSurface
 A Shadowguard Dispersion|QID|48447|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner.|PRE|48446|
 C Scouting Map|QID|48447|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the mission, "Shadowguard Dispersion". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
 t Shadowguard Dispersion|QID|48447|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|To Alleria Windrunner.|
-A Hindering the Legion War Machine|QID|48448|M|39.12,24.77|Z|Upper Deck@ArgusSurface|N|From High Exarch Turalyon.|
+A Hindering the Legion War Machine|QID|48448|PRE|48447|M|39.12,24.77|Z|Upper Deck@ArgusSurface|N|From High Exarch Turalyon.|
 C Scouting Map|QID|48448|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the mission, "Gambit in the Wastes". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
 t Hindering the Legion War Machine|QID|48448|M|39.12,24.77|Z|Upper Deck@ArgusSurface|N|To High Exarch Turalyon.|
 A Take the Edge Off|QID|48600|M|39.12,24.77|Z|Upper Deck@ArgusSurface|N|From High Exarch Turalyon. This opens up missions for ilvl 950 champion equipment.|PRE|48448|

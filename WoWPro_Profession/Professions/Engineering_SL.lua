@@ -2,14 +2,6 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-
--- Things that need doing by an expert
--- Check for errors, there will be lots  - Dont know if I'm the 'expert' but guide is correct, NOT tested, I dont have an eng
--- Make guide Hub and integrate  -  once other lower guides are done.
--- Add in comments to train new recipes where needed -- completed.
-
-
-
 local guide = WoWPro:RegisterGuide("SpoonyENG_SL","Profession","Engineering_SL", "Spoony", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",202)
 WoWPro:GuideLevels(guide)
@@ -20,7 +12,7 @@ return [[
 
 ;  Guide structures:
 ;  For the QID is Prof (202), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |PN|Profession Note (aka |N|)  -- PN ONLY in M Steps.
+;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
 ;	 IE M [item=172936/Mortal Coiled Spring]|QID|202310525|P|Engineering;202;8+35;1|CRAFT|310525 10|MATS|172935 3;171828 5;180733 2|
 ;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 15 |222000151| and |222000152|  // |RECIPE|310525|N|Learn [spell=310525/Mortal Coiled Spring] Recipe from Trainer.|
@@ -67,9 +59,9 @@ N Shopping List|QID|202000005|N|This completes the Shopping List|
 N These Crafts|QID|202000006|N|Will be used in most Shadowlands Engineering recipes, Make them now for "free" skill points and save them. Hopefully this will get you to 25|
 l [item=171840/Porous Stone]|QID|202171840|P|Engineering;202;8+0|L|171840 124|ITEM|171840|N|You'll need about 124 Porous Stone, for this step.|
 l [item=171828/Laestrite Ore]|QID|202171828|P|Engineering;202;8+0|L|171828 115|ITEM|171828|N|You'll need about 115 Laestrite Ore, for this step.|
-M [item=172935/Porous Polishing Abrasive]|QID|202310524|P|Engineering;202;8+15;1|CRAFT|310524 62|MATS|171840 2|PN|Make a total of 186, so craft 62.|
+M [item=172935/Porous Polishing Abrasive]|QID|202310524|P|Engineering;202;8+15;1|CRAFT|310524 62|MATS|171840 2|N|Make a total of 186, so craft 62.|
 l [item=172935/Porous Polishing Abrasive]|QID|202310524|L|172935 184|ITEM|172935|N|Step cleared before you finished, Make more until you have a total of 184.  Remember each time you craft it, it makes 3.|
-M [item=172934/Handful of Laestrite Bolts]|QID|202310522|P|Engineering;202;8+25;1|CRAFT|310522 113|MATS|171828 1|PN|Make a total of 226, so craft 113.|
+M [item=172934/Handful of Laestrite Bolts]|QID|202310522|P|Engineering;202;8+25;1|CRAFT|310522 113|MATS|171828 1|N|Make a total of 226, so craft 113.|
 l [item=172934/Handful of Laestrite Bolts]|QID|202310522|L|172934 226|ITEM|172934|N|Step cleared before you finished, Make more until you have a total of 226.  Remember each time you craft it, it makes 2.|
 = Learn Recipe|QID|202000151|P|Engineering;202;8+15|RECIPE|310525|N|Learn [spell=310525/Mortal Coiled Spring] Recipe from Trainer.|
 = Learn Recipe|QID|202000152|P|Engineering;202;8+25|RECIPE|310526|N|Learn [spell=310526/Wormfed Gear Assembly] Recipe from Trainer.|
@@ -78,10 +70,10 @@ M [item=172936/Mortal Coiled Spring]|QID|202310525|P|Engineering;202;8+35;1|ITEM
 M [item=172923/Precision Lifeforce Inverter]|QID|202310536|P|Engineering;202;8+41;1|ITEM|172923|CRAFT|30|MATS|171828 4;172934 4;177061 8;172936 1|
 M [item=172936/Mortal Coiled Spring]|QID|202310525|P|Engineering;202;8+46;1|ITEM|172936|CRAFT|310525 5|MATS|172935 3;171828 5;180733 2|
 = Learn Recipe|QID|202000451|P|Engineering;202;8+45|RECIPE|343099|N|Learn [spell=343099/Crafters Mark I] Recipe from Trainer.|
-M [item=172937/Wormfed Gear Assembly]|QID|202310526|P|Engineering;202;8+50;1|ITEM|172937|CRAFT|310526 4|MATS|172935 5;171828 3;172934 4;183952 1|PN|Need 4 for next recipe, we'll come back to make more.|
+M [item=172937/Wormfed Gear Assembly]|QID|202310526|P|Engineering;202;8+50;1|ITEM|172937|CRAFT|310526 4|MATS|172935 5;171828 3;172934 4;183952 1|N|Need 4 for next recipe, we'll come back to make more.|
 = Learn Recipe|QID|202000501|P|Engineering;202;8+50|RECIPE|345179|N|Learn [spell=345179/Disposable Spectrophasic Reanimator] Recipe from Trainer.|
 M [item=184308/Disposable Spectrophasic Reanimator]|QID|202345179|P|Engineering;202;8+55;1|ITEM|184308|CRAFT|345179 5|MATS|172934 4;183952 1;172937 1;172936 1|
-M [item=172937/Wormfed Gear Assembly]|QID|202310526|P|Engineering;202;8+76;1|ITEM|172937|CRAFT|310526 22|MATS|172935 5;171828 3;172934 4;183952 1|PN|Make another 22, for later use.|
+M [item=172937/Wormfed Gear Assembly]|QID|202310526|P|Engineering;202;8+76;1|ITEM|172937|CRAFT|310526 22|MATS|172935 5;171828 3;172934 4;183952 1|N|Make another 22, for later use.|
 = Learn Recipe|QID|202000751|P|Engineering;202;8+75|RECIPE|310534|N|Learn [spell=310534/Infra-green Relfex Sight] Recipe from Trainer.|
 = Learn Recipe|QID|202000752|P|Engineering;202;8+75|RECIPE|310533|N|Learn [spell=310533/Optical Target Embiggener] Recipe from Trainer.|
 N Did you decide?|QID|202000008|P|Engineering;202;8+76|N|Did you decide which you want to make? The Infra-green Reflex Sight or the Optical Target Embiggener. Click step to continue.|
@@ -98,8 +90,8 @@ N Next Item up|QID|202000009|N|is your Class specific Head Gear. This will give 
 = Learn Recipe|QID|202000853|P|Engineering;202;8+85|RECIPE|310504|N|Learn [spell=310504/Grounded Ectoplasmic Specs] (Leather) Recipe from Trainer.|C|Demon Hunter,Druid,Monk,Rogue|
 = Learn Recipe|QID|202000854|P|Engineering;202;8+85|RECIPE|310507|N|Learn [spell=310507/Articulated Ectoplasmic Specs] (Mail) Recipe from Trainer.|C|Hunter,Shaman|
 = Learn Recipe|QID|202000855|P|Engineering;202;8+85|RECIPE|310509|N|Learn [spell=310509/Reinforced Ectoplasmic Specs] (Plate) Recipe from Trainer.|C|Death Knight,Paladin,Warrior|
-M [item=183942/Novice Crafters Mark]|QID|202343661|P|Engineering;202;8+91|LVL|-54|ITEM|183942|CRAFT|343661 1|MATS|172935 3;172934 5;183952 1|PN|Craft to make your headgear usable at Level 50|
-M [item=173381/Crafters Mark I]|QID|202343099|P|Engineering;202;8+91|LVL|-59|ITEM|173381|CRAFT|343099 1|MATS|172935 3;172934 5;183952 3|PN|Craft to make your headgear usable at Level 55|
+M [item=183942/Novice Crafters Mark]|QID|202343661|P|Engineering;202;8+91|LVL|-54|ITEM|183942|CRAFT|343661 1|MATS|172935 3;172934 5;183952 1|N|Craft to make your headgear usable at Level 50|
+M [item=173381/Crafters Mark I]|QID|202343099|P|Engineering;202;8+91|LVL|-59|ITEM|173381|CRAFT|343099 1|MATS|172935 3;172934 5;183952 3|N|Craft to make your headgear usable at Level 55|
 N Headgear Changes|QID|202000010|N|Using the Carfter's Mark will drop your headgear from 60 to 50 or 55, depending which you use.  The Following Material steps is ONLY for making one, so you will need to get extra mats on your own.|
 l [item=172937/Wormfed Gear Assembly]|P|Engineering;202;8+91|L|172937 3|ITEM|172937|N|You will need 3 Wormfed Gear Assemblies for this step.|
 l [item=172934/Handful of Laestrite Bolts]|P|Engineering;202;8+91|L|172934 5|ITEM|172934|N|You will need 5 Handful of Laestrite Bolts for this step.|

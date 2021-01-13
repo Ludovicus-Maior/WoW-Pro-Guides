@@ -10,9 +10,8 @@ WoWPro:GuideNickname(guide, "LTW_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-;  Guide structure the QID is Prof, Spell ID; The N for materials is Qty of ; Name of Mat ; total needed ; total needed : Separator of mats.
 ;  For the QID is Prof (164), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |PN|Profession Note (aka |N|)  -- PN ONLY in M Steps.
+;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N|Profession Note (aka |N|)  -- PN ONLY in M Steps.
 ;	 IE M [item=172243/Desolate Leather Treads]|QID|165309174|P|Leatherworking;165;8+11;1|ITEM|172243|CRAFT|309174 5|MATS|172089 8;177062 2|
 ;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 15 |164000151| and |164000152|  // |RECIPE|309176|N|Learn [spell=309176/Desolate Leather Gauntlets] Recipe from Trainer.|
@@ -51,11 +50,11 @@ M [item=173381/Crafters Mark I]|QID|165343195|P|Leatherworking;165;8+60;1|ITEM|1
 = Learn Recipes|QID|165000601|M|42.28,62.59|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+60|RECIPE|309236|N|Learn [spell=309236/Shadebound Waistguard] Recipe from Trainer.|
 M [item=172256/Shadebound Waistguard]|QID|165309236|P|Leatherworking;165;8+70;1|ITEM|172256|CRAFT|309236 5|MATS|172089 30;177062 1;172094 1|
 = Learn Recipes|QID|165000701|M|42.28,62.59|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+70|RECIPE|308899|N|Learn [spell=308899/Heavy Desolate Leather] Recipe from Trainer.|
-M [item=172096/Heavy Desolate Leather]|QID|165308899|P|Leatherworking;165;8+85;1|ITEM|172096|CRAFT|308899 24|MATS|172089 10|PN|Make all 24 you need them for later steps.|
+M [item=172096/Heavy Desolate Leather]|QID|165308899|P|Leatherworking;165;8+85;1|ITEM|172096|CRAFT|308899 24|MATS|172089 10|N|Make all 24 you need them for later steps.|
 l [item=172096/Heavy Desolate Leather]|QID|165172096|P|Leatherworking;165;8+85|L|172096 24|ITEM|172096|RECIPE|309239|N|Step cleared before you made 24, craft a few more.  You will need 24 for later steps.|
 = Learn Recipes|QID|165000801|M|42.28,62.59|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+80|RECIPE|308897|N|Learn [spell=308897/Heavy Callous Hide] Recipe from Trainer.|
 = Learn Recipes|QID|165000802|M|42.28,62.59|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+80|RECIPE|309239|N|Learn [spell=309239/Shadowscale Vest] Recipe from Trainer.|
-M [item=172097/Heavy Callous Hide]|QID|165308897|P|Leatherworking;165;8+88;1|ITEM|172097|CRAFT|308897 4|MATS|172094 10|PN|Make all 4 you need them for later steps.|
+M [item=172097/Heavy Callous Hide]|QID|165308897|P|Leatherworking;165;8+88;1|ITEM|172097|CRAFT|308897 4|MATS|172094 10|N|Make all 4 you need them for later steps.|
 l [item=172097/Heavy Callous Hide]|QID|165172097|P|Leatherworking;165;8+88|ITEM|172097|RECIPE|309242|N|Step cleared before you made 4, craft a few more.  You will need 4 for later steps.|
 M [item=172258/Shadowscale Vest]|QID|165309239|P|Leatherworking;165;8+91;1|ITEM|172258|CRAFT|309239 1|MATS|172097 1;172096 6;172092 7;177062 3|
 = Learn Recipes|QID|165000901|M|42.28,62.59|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+90|RECIPE|309242|N|Learn [spell=309242/Shadowscale Leggings] Recipe from Trainer.|

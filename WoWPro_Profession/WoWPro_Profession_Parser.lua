@@ -20,17 +20,15 @@ function WoWPro.Profession:NextStep(k, skip)
     return skip
 end
 
-
 function WoWPro.Profession:ParseQuestLine(text,k)
     if not WoWPro.note[k] then
         return
     end
-	WoWPro.mat[k] = WoWPro.note[k]  -- move the WP.note to WP.mat for old guide handling
+	WoWPro.pn[k] = WoWPro.note[k]
 end
 
 function WoWPro.Profession:PreRowUpdate(row)
     local k = row.index
-
     -- Break down the current step and re-create
     if WoWPro.prof[k] then
 		WoWPro.step[k] = WoWPro.ExpandMarkup(WoWPro.step[k])
@@ -43,10 +41,9 @@ function WoWPro.Profession:PreRowUpdate(row)
 		local _, proflvls = ("+"):split(proflvl)
         proflvl = tonumber(proflvls) or 1
         profmaxlvl = tonumber(profmaxlvl) or 0
-
 		if (k == WoWPro.rows[WoWPro.ActiveStickyCount+1].index) then
             local profs = {}
-			if not WoWPro.CLASSIC and WoWPro.action[k] == "M" then
+			if not WoWPro.CLASSIC then
 				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = _G.GetProfessions()
 				for p=1,6 do
 					if profs[p] then
@@ -88,65 +85,6 @@ function WoWPro.Profession:PreRowUpdate(row)
 						end
 					end
 				end
---  Old guide handling, until all changed over.
-			elseif not WoWPro.CLASSIC and WoWPro.action[k] == "N" then
---  this was at beginning of old, thought it was needed to procress... things seem to work with it all commented out.
---	if WoWPro.action[k] == "N" then
-		-- Verify the mat line
---		local numMATs = select("#", (":"):split(WoWPro.mat[k]))
---		local m = {}
---		m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = (":"):split(WoWPro.mat[k])
---		for j=1,tonumber(numMATs) do
---			local numItem = select("#", (";"):split(m[j]))
---			if numItem > 1 then
---				local Qty, Item, Mats, Tot = (";"):split(m[j])
---				if tonumber(Qty) == nil or type(Item) ~= "string" or tonumber(Mats) == nil or tonumber(Tot) == nil then
---					WoWPro.Profession:Error("Line [%s] tag N malformed at [%s]",text,m[j])
---				end
---			end
---		end
---	end
-				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = _G.GetProfessions()
-				for p=1,6 do
-					if profs[p] then
-						local _, _, skillRank, _, _, _, skillnum, rankModifier = _G.GetProfessionInfo(profs[p])
-						  --  _, skillLoc, ...   skillLoc changed to _ it is needed for Target
-						if (tonumber(skillnum) == tonumber(profnum)) then
-							if WoWPro.action[k] == "N" then
-								proflvl = max(proflvl-rankModifier,1)
-								profmaxlvl = min(profmaxlvl, max(profmaxlvl-rankModifier,1))
-							end
-							local craft = (":"):split(WoWPro.step[k])
---							row.targeticon:SetTexture(skillLoc)
-							-- How take racial bonuses into account using rankModifier
-							local numMATs = select("#", (":"):split(WoWPro.mat[k]))
-							local m = {}
-							m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = (":"):split(WoWPro.mat[k])
-							WoWPro.note[k] = ""
-							for j=1,tonumber(numMATs) do
-								WoWPro.note[k] = WoWPro.note[k]..'Materials: '
-								local numItem = select("#", (";"):split(m[j]))
-								if numItem > 1 then
-									local Qty, Item, Mats, Tot = (";"):split(m[j])
-									if tonumber(Qty) == nil or type(Item) ~= "string" or tonumber(Mats) == nil or tonumber(Tot) == nil then
-										WoWPro.Profession:Error("%s step %s tag N for [%s] malformed at [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mat[k],m[j])
-									end
-									WoWPro.Profession:dbp("Qty %s, k=%d",tostring(Qty),k)
-									local skillpoints = (proflvl-skillRank)/(Mats/Tot)
-									Mats = Tot - math.ceil((( profmaxlvl - skillRank )/skillpoints) * Qty)
-									if j == 1 then
-										WoWPro.step[k] = craft..': Craft these from '.. skillRank .. ' to '.. proflvl
---										WoWPro.target[k] = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)  -- commented out, currently not working.
-									end
-									WoWPro.note[k] = WoWPro.note[k]..Qty..' '..Item..'\nYou will need about ('..Mats..') more '..Item..' to max out.\n\n'
-								else
-									WoWPro.note[k] = WoWPro.note[k]..m[j]
-								end
-							end
-						end
-					end
-				end
--- Remove preceeding block when all OLD guides converted
 			elseif WoWPro.CLASSIC then											-- If classic can handle new processing, this is next to be changed over.
 				for p = 1, _G.GetNumSkillLines() do
 						local skillName, _, _, skillRank, _, rankModifier = _G.GetSkillLineInfo(p)

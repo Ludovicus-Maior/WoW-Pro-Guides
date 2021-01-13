@@ -12,7 +12,7 @@ return [[
 
 ;  Guide structures:
 ;  For the QID is Prof (164), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |PN|Profession Note (aka |N|)  -- PN ONLY in M Steps.
+;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
 ;	 IE [item=28420/Fel Weightstone]|QID|164034607|P|Blacksmithing;164;1+5;1|ITEM|28420|CRAFT|34607 7|MATS|23445 1;21877 1|
 ;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 15 |164000151| and |164000152|  // |RECIPE|29547|N|Learn [spell=29547/Fel Iron Plate Belt] Recipe from Trainer.|
@@ -56,7 +56,7 @@ F Thrallmar|QID|164029728|M|63.95,41.38|Z|Shattrath City|RECIPE|29728|FACTION|Ho
 B [spell=29728/Lesser Ward of Shielding]|QID|164029728|M|53.2,38.2|Z|Hellfire Peninsula|P|Blacksmithing;164;1+40;0|RECIPE|29728|T|Rohok|U|23638|N|Purchase [item=23638/Plans: Lesser Ward of Shielding] from Rohok in Thrallmar|FACTION|Horde|
 F Wildhammer Stronghold|QID|164029728|M|63.95,41.38|Z|Shattrath City|RECIPE|29728|FACTION|Alliance|N|Fly to Wildhammer Stronghold.|
 B [spell=29728/Lesser Ward of Shielding]|QID|164029728|M|36.8,55.0|Z|Shadowmoon Valley|P|Blacksmithing;164;1+40;0|RECIPE|29728|T|Mari Stonehand|U|23638|N|Purchase [item=23638/Plans: Lesser Ward of Shielding] from Mari Stonehand in Wildhammer Stronghold|FACTION|Alliance|
-M [item=23575/Lesser Ward of Shielding]|QID|164029728|P|Blacksmithing;164;1+50;1|ITEM|23575|CRAFT|29728 25|MATS|23446 1|PN|Might have to make more then 25|
+M [item=23575/Lesser Ward of Shielding]|QID|164029728|P|Blacksmithing;164;1+50;1|ITEM|23575|CRAFT|29728 25|MATS|23446 1|N|Might have to make more then 25|
 F Swamprat Post|QID|164028632|M|63.95,41.38|Z|Shattrath City|RECIPE|34608|FACTION|Horde|N|Fly to Swamprat Post, then run to Cenarion Refuge.|
 F Telredor|QID|164028632|M|63.95,41.38|Z|Shattrath City|RECIPE|34608|FACTION|Alliance|N|Fly to Telredor, then run to Cenarion Refuge.|
 B [spell=34608/Adamantite Weightstone]|QID|164028632|M|79.2,63.8|Z|Zangarmarsh|RECIPE|34608|P|Blacksmithing;164;1+50;0|REP|Cenarion Expedition;942;Honored-Exalted|T|Fedryen Swiftspear|N|Purchase [item=28632/Plans: Adamantite Weightstone] from Fedryen Swiftspear, Cenarion Refuge\n(Needs at least Honoured with Cenarion Expedition).|
