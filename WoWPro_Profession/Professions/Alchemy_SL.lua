@@ -6,7 +6,7 @@ local guide = WoWPro:RegisterGuide("BlancAlchemy_SL","Profession","Alchemy_SL", 
 WoWPro:GuideIcon(guide,"PRO",171)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Alchemy_ShadowLands")
-WoWPro:GuideNickname(guide, "Alch_SL")
+WoWPro:GuideNickname(guide, "ALC_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 
