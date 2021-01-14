@@ -254,34 +254,34 @@ T A Pale Brew|QID|14432|M|42.43,23.61|N|To Haggrum Bloodfist.|
 T Diplomacy by Another Means|QID|14433|M|42.43,23.61|N|To Haggrum Bloodfist.|
 A The Blackmaw Doublecross|QID|14435|M|42.43,23.61|N|From Haggrum Bloodfist.|PRE|14432&14433|
 P Blackmaw Hold|ACTIVE|14435|M|42.61,23.70|N|When you're ready, stand beside Haggrum's Smokepit and use the Ambassador Disguise. Immediately after using the Disguise, talk to Andorel to have him teleport you.\n[color=FF0000]NOTE: [/color]The Disguise only lasts 5 minutes and you have to be near the Smokepit to re-apply it.|U|49368|CHAT|IZ|Northern Rocketway Exchange|
-C The Blackmaw Doublecross|QID|14435|M|30.97,29.99|QO|1|N|Speak with Ungarl to wreck the negotiations.\n[color=FF0000]NOTE: [/color]If your Disguise fades before you complete this step, you have basically failed and will have to go back and start again at the Smokepit.\nSpeak with him as quickly as you can.|CHAT|
-K The Blackmaw Doublecross|QID|14435|M|32.13,30.41|QO|2;3|N|Kill 4 Blackmaw Warriors and 4 Blackmaw Shaman on your way out.|
-T The Blackmaw Doublecross|QID|14435|M|42.39,23.62|N|To Haggrum Bloodfist.|
+C The Blackmaw Doublecross|QID|14435|M|30.97,29.99|QO|1|N|Speak with Ungarl to wreck the negotiations. Be prepared for a 3 NPC fight when you finish the conversation.\n[color=FF0000]NOTE: [/color]If your Disguise fades before you complete this step, you have basically failed and will have to go back and start again at the Smokepit.\nSpeak with him as quickly as you can.|CHAT|
+K The Blackmaw Doublecross|QID|14435|M|32.41,31.64|QO|2;3|N|Kill 4 Blackmaw Warriors and 4 Blackmaw Shaman on your way out.\n[color=FF0000]NOTE: [/color]To exit, go up the stairs to the right of where Ungarl was standing, cross over the bridge and go to the left of the fork.|
+T The Blackmaw Doublecross|QID|14435|M|42.43,23.61|N|To Haggrum Bloodfist.|
 A Amberwind's Journal|QID|14428|M|42.61,23.72|N|From Andorel Sunsworn.|
-C Dressed to Impress|QID|14340|M|47.76,18.35;47.22,20.83|CS|N|Follow the path up the hill.\nPut on your new wizard hat and then speak to the Image of Archmage Xylem.|U|49201|NC|
-T Dressed to Impress|QID|14340|M|47.22,20.83|N|To the Image of Archmage Xylem.|
-A Renewable Resource|QID|14250|M|47.30,21.16|N|From Tharkul Ironskull.|PRE|14340| ; Storyline
-A Shear Will|QID|14249|M|47.13,21.10|N|From Will Robotronic.|PRE|14340| ; Storyline
-A Waste of Thyme|QID|14263|M|47.04,21.02|N|From Quarla Whistlebreak.|PRE|14340| ; Storyline
-C Waste of Thyme|QID|14263|M|49.27,18.71|N|Collect Living Ire Thyme. Almost impossible to see on the ground, watch for sparkles. You get a 20% damage done and taken debuff per patch you pick up (Lasts 60 secs)|S|
-C Shear Will|QID|14249|M|42.38,18.43|N|Obtain 80 Pristine Thunderhead Feathers from Thunderhead Hippogryphs and Stagwings.|S|
-C Renewable Resource|QID|14250|M|52.10,20.10|N|Use the Arcane Charge in front of Balboa near the Ruins of Nordressa, loot 5 Animate Basalt after it goes off.|U|49038|
+C Dressed to Impress|QID|14340|M|48.44,19.75;47.23,20.85|CS|N|Head to the far side of the hill (look for the torches) and follow the path to the top.\nPut on your new wizard hat and approach the Image of Archmage Xylem.|U|49201|NC|
+T Dressed to Impress|QID|14340|M|47.23,20.85|N|To the Image of Archmage Xylem.\n[color=FF0000]NOTE: [/color]You can take off the Dingy Wizard Hat if you have a better one to wear.|
+A Renewable Resource|QID|14250|M|47.29,21.20|N|From Tharkul Ironskull.|PRE|14340| ; Storyline
+A Shear Will|QID|14249|M|47.15,21.07|N|From Will Robotronic.|PRE|14340| ; Storyline
+A Waste of Thyme|QID|14263|M|47.01,21.04|N|From Quarla Whistlebreak.|PRE|14340| ; Storyline
+l Waste of Thyme|QID|14263|M|49.27,18.71|QO|1|N|Collect Living Ire Thyme. Almost impossible to see on the ground, watch for sparkles.\n[color=FF0000]NOTE: [/color]You get a 20% damage done and taken by you debuff per patch you pick up. This non-cancelable debuff stacks and lasts 60 secs; renewing with each one picked up.|S|
+l Shear Will|QID|14249|M|42.38,18.43|QO|1|N|Kill Thunderhead Hippogryphs and Stagwings to loot the feathers.|S|
+C Renewable Resource|QID|14250|M|46.52,15.28;52.10,20.10|CN|N|Use the Arcane Charge in front of Balboa (the Elite Giant)near the Ruins of Nordressa, loot 5 Animate Basalt after it goes off.\n[color=FF0000]NOTE: [/color]He pathes between the 2 points. You can clearly see his 'path'. Just stand in his path at the bottom of the hill and wait.|U|49038|
 C Amberwind's Journal|QID|14428|M|49.85,28.43|N|Slay Lorekeeper Amberwind at the Darnassian Base Camp and retrieve her journal.|
 T Amberwind's Journal|QID|14428|M|49.53,28.73|N|At the Upper Scrying Stone.|
 A Arcane De-Construction|QID|14429|M|49.53,28.73|N|From the Upper Scrying Stone.|PRE|14428|
 C Arcane De-Construction|QID|14429|M|52.49,26.79|N|Slay Apprentice Investigators and Apprentice Illuminators to collect 10 Attuned Runestones.|
-T Arcane De-Construction|QID|14429|M|52.99,29.00|N|To the Lower Scrying Stone.|
-A Hacking the Construct|QID|14430|M|52.99,29.00|N|From the Lower Scrying Stone.|PRE|14429|
-C Hacking the Construct|QID|14430|M|52.97,29.84|N|Speak with the Arcane Construct at the Darnassian Base Camp and utter the words of arcane power.|NC|
-C Shear Will|QID|14249|M|42.38,18.43|N|Obtain 80 Pristine Thunderhead Feathers from Thunderhead Hippogryphs and Stagwings.|US|
-C Waste of Thyme|QID|14263|M|49.27,18.71|N|Collect 8 bundles of Living Ire Thyme near the Ruins of Nordressa. Almost impossible to see on the ground, watch for sparkles. You get a 20% damage done and taken debuff per patch you pick up (Lasts 60 secs).|US|
-T Waste of Thyme|QID|14263|M|47.04,21.02|N|To Quarla Whistlebreak.|
-T Shear Will|QID|14249|M|47.11,21.04|N|To Will Robotronic.|
+T Arcane De-Construction|QID|14429|M|53.00,29.03|N|To the Lower Scrying Stone.|
+A Hacking the Construct|QID|14430|M|53.00,29.03|N|From the Lower Scrying Stone.|PRE|14429|
+C Hacking the Construct|QID|14430|M|52.99,29.95|N|Speak with the Arcane Construct at the Darnassian Base Camp and utter the words of arcane power.|CHAT|
+l Shear Will|QID|14249|M|42.38,18.43|QO|1|N|Kill Thunderhead Hippogryphs and Stagwings to loot the feathers.|US|
+l Waste of Thyme|QID|14263|M|49.27,18.71|QO|1|N|Finish collecting the Living Ire Thyme. Look around the base of the trees for them.|US|
+T Waste of Thyme|QID|14263|M|47.01,21.04|N|To Quarla Whistlebreak.|
+T Shear Will|QID|14249|M|47.15,21.07|N|To Will Robotronic.|
 T Renewable Resource|QID|14250|M|47.28,21.19|N|To Tharkul Ironskull.|
-A Manual Labor|QID|14230|M|47.22,21.24|N|From Teresa Spireleaf.|PRE|14249&14250&14263| ; Storyline
+A Manual Labor|QID|14230|M|47.24,21.29|N|From Teresa Spireleaf. She paths between the two tables.|PRE|14249&14250&14263| ; Storyline
 A Trouble Under Foot|QID|14226|M|47.23,20.83|N|From the Image of Archmage Xylem.|PRE|14249&14250&14263| ; Storyline
-C Trouble Under Foot|QID|14226|M|54.17,23.96|N|Use your Personal Arcane Assistant to turn 12 Legash demons into insects and then squash them.|S|
-C Manual Labor|QID|14230|M|55.23,25.07|N|Retrieve the Abjurer's Manual from the Lagash Encampment. It is at the waypoint and the tooltip will say it is the Manual.|
+C Trouble Under Foot|QID|14226|M|54.17,23.96|N|Have your Personal Arcane Assistant cast 'Polymorph Insect' (<CTRL>+1 - by default) to turn a Legash demon into an insect so you can squash it.\n[color=FF0000]NOTE: [/color]If you manage to lose your PAA, go back to the Image of Archmage Xylem to get another one.|S|
+l Manual Labor|QID|14230|M|55.23,25.07|QO|1|N|Retrieve the Abjurer's Manual from the Lagash Encampment. It is at the waypoint and the tooltip will say it is the Manual.|
 C Trouble Under Foot|QID|14226|M|54.17,23.96|N|Use your Personal Arcane Assistant to turn 12 Legash demons into insects and then squash them.|US|
 T Trouble Under Foot|QID|14226|M|47.18,20.83|N|To the Image of Archmage Xylem. Use your personal Arcane Assistant to port you back.|
 T Manual Labor|QID|14230|M|47.28,21.20|N|To Teresa Spireleaf.|
