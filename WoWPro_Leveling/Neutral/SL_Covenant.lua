@@ -1466,12 +1466,11 @@ T Stonevigil Unrest|QID|57727|M|56.32,66.71|Z|Revendreth|N|To Prince Renathal.|C
 A Fangs and Minds|QID|57772|PRE|57727|M|56.32,66.71|Z|Revendreth|N|From Prince Renathal.|COV|Venthyr|REN|20|
 A An Unwelcome Incursion|QID|57771|PRE|57727|M|56.33,66.59|Z|Revendreth|N|From Baroness Draka.|COV|Venthyr|REN|20|
 A Third Talon Vartox|QID|60145|PRE|57727|M|56.33,66.59|Z|Revendreth|N|From Baroness Draka.|COV|Venthyr|REN|20|
-N Anima Collector|ACTIVE|57771|M|56.89,69.16|Z|Revendreth|BUFF|327012|NC|N|Look for an Anima Collector laying around the ground and click it to wear it.|COV|Venthyr|
 L Supply Chain Memo|AVAILABLE|60265|M|56.89,69.16|Z|Revendreth|L|178557|N|Kill Stonevigil enemies until you find the Supply Chain Memo.|PRE|60145|COV|Venthyr|
 A Disrupting the Chain|QID|60265|PRE|57727|M|56.89,69.16|Z|Revendreth|U|178557|N|Click on the memo to get the quest.|COV|Venthyr|REN|20|
 C Fangs and Minds|QID|57772|M|57.96,68.08|Z|Revendreth|NC|U|178213|N|Use Prince Renathal's Decree to inspire Stonevigil Citizens.|S|COV|Venthyr|
 C An Unwelcome Incursion|QID|57771|M|57.45,68.22|Z|Revendreth|QO|1|N|Kill Stoneborn enemies and collect their anima.|S|COV|Venthyr|
-C Third Talon Vartox|QID|60145|M|56.57,68.90|Z|Revendreth|N|Kill Third Talon Vartox.|COV|Venthyr|
+C Third Talon Vartox|QID|60145|M|56.57,68.90|Z|Revendreth|N|Go down inside the tomb near the waypoint and kill Third Talon Vartox.|COV|Venthyr|
 C Disrupting the Chain|QID|60265|M|56.70,71.23|Z|Revendreth|QO|2|NC|N|Destroy the Manor Carriage.|COV|Venthyr|
 C Disrupting the Chain|QID|60265|M|58.50,68.57|Z|Revendreth|QO|1|NC|N|Destroy the Darkhaven Carriage.|COV|Venthyr|
 C An Unwelcome Incursion|QID|57771|M|57.45,68.22|Z|Revendreth|QO|1|N|Kill Stoneborn enemies and collect their anima.|US|COV|Venthyr|
@@ -1482,14 +1481,14 @@ T Disrupting the Chain|QID|60265|M|56.32,66.72|Z|Revendreth|N|To Prince Renathal
 T An Unwelcome Incursion|QID|57771|M|56.34,66.59|Z|Revendreth|N|To Baroness Draka.|COV|Venthyr|
 T Third Talon Vartox|QID|60145|M|56.34,66.59|Z|Revendreth|N|To Baroness Draka.|COV|Venthyr|
 A After Them!|QID|60183|PRE|57771&60145&57772&60265|M|56.35,66.58|Z|Revendreth|N|From Baroness Draka.|COV|Venthyr|REN|20|
-C After Them!|QID|60183|M|56.35,66.58|Z|Revendreth|QO|1|V|N|Hop onto Deathfang to chase the Carriage.|COV|Venthyr|
-C After Them!|QID|60183|M|61.79,69.29|Z|Revendreth|QO|2|N|Kill Provisioner Kraus.|COV|Venthyr|
+C After Them!|QID|60183|M|56.34,66.34|Z|Revendreth|QO|1|V|N|Hop onto Deathfang to chase the Carriage.|COV|Venthyr|
+C After Them!|QID|60183|M|61.54,69.35|Z|Revendreth|QO|2|N|Kill Provisioner Kraus.|COV|Venthyr|
 T After Them!|QID|60183|M|61.60,69.65|Z|Revendreth|N|To Prince Renathal.|COV|Venthyr|
 A To the Estate|QID|57729|PRE|60183|M|61.60,69.65|Z|Revendreth|N|From Prince Renathal.|COV|Venthyr|REN|20|
 T To the Estate|QID|57729|M|71.93,68.86|Z|Revendreth|N|To Prince Renathal.|COV|Venthyr|
 A The Tithelord|QID|57646|PRE|57729|M|71.93,68.86|Z|Revendreth|N|From Prince Renathal.|COV|Venthyr|REN|20|
 C The Tithelord|QID|57646|M|77.79,70.18|Z|Revendreth|QO|1|N|Fight the Tithelord, this is a 3 phase battle.\n\nRoughly every 1/3 of his health he will shield and run the toward his manor.\n\nOnce he's been killed, look the Medallion of Envy.|COV|Venthyr|
-C The Tithelord|QID|57646|M|77.79,70.18|Z|Revendreth|QO|2|V|N|Hop on Clemency Enforcer Traal for a free ride back to Sinfall.|COV|Venthyr|
+N The Tithelord|ACTIVE|57646|M|77.38,70.32|Z|Revendreth|IZ|-Sinfall|QO|2|V|N|Hop on Clemency Enforcer Traal for a free ride back to Sinfall. This is quick and will basically teleport you back to your Sanctum.|COV|Venthyr|
 T The Tithelord|QID|57646|M|51.87,37.70|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 
 ; Sidequest Storyline - Mirror Maker of the Master - From Revendreth guide (this is a PRE for chapter 8 and is available to everyone regardless of covenant.)
@@ -1533,11 +1532,13 @@ N Renown Level 22|AVAILABLE|58406|N|You must reach Renown level 22 to continue t
 A Mirror to Maldraxxus|QID|58406|M|51.73,37.59|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|57536|COV|Venthyr|REN|22|
 T Mirror to Maldraxxus|QID|58406|M|27.27,40.39|Z|Revendreth|N|Take the ramp and portal outside to the surface and make your way to Laurent.|COV|Venthyr|
 A The Medallion of Dominion|QID|58407|PRE|58406|M|27.42,40.34|Z|Revendreth|N|From General Draven.|COV|Venthyr|REN|22|
-C Taking the Necropolis|ACTIVE|58407|Z|Maldraxxus|SO|1|N|Kill Necromancers until one discloses the location of Kel'Thuzad.|COV|Venthyr|
-C To the Skies!|ACTIVE|58407|M|PLAYER|Z|Maldraxxus|SO|2|N|Hop onto General Draven to assist him in clearing the skies of enemies.|COV|Venthyr|
-C Reanimating Your Allies|ACTIVE|58407|Z|Maldraxxus|SO|4|NC|N|Click on the giant crystals to reanimate your allies.|COV|Venthyr|
-C United in Battle|ACTIVE|58407|Z|Maldraxxus|SO|5|N|Use Action Ability "[color=40C7EB]Call General Draven[/color]" to help kill Maw Infernous.|EAB|COV|Venthyr|
-C The Medallion of Dominion|ACTIVE|58407|M|73.93,33.24|Z|Maldraxxus!Instance1689|SO|6|S|N|Recover the Medallion of Dominion from Kel'Thuzad.|COV|Venthyr|
+P Maldraxxus|ACTIVE|58407|M|27.24,40.28|Z|Revendreth|IZ|Revendreth|N|Take the Portal to Maldraxxus.|COV|Venthyr|REN|22|
+C Taking the Necropolis|ACTIVE|58407|M|74.10,34.84|Z|Maldraxxus!Instance1689|SO|1|N|Kill Necromancers until one discloses the location of Kel'Thuzad.|COV|Venthyr|
+C To the Skies!|ACTIVE|58407|M|73.62,33.80|Z|Maldraxxus!Instance1689|SO|2|N|Hop onto General Draven to assist him in clearing the skies of enemies.|COV|Venthyr|
+C Reanimating Your Allies|ACTIVE|58407|Z|Maldraxxus!Instance1689|SO|4|NC|N|Click on the giant crystals to reanimate your allies.|COV|Venthyr|
+C United in Battle|ACTIVE|58407|Z|Maldraxxus!Instance1689|SO|5|N|Use Action Ability "[color=40C7EB]Call General Draven[/color]" to help kill Maw Infernous.|EAB|COV|Venthyr|
+N Maldraxxus|ACTIVE|58407|M|68.52,30.02|Z|Maldraxxus!Instance1689|IZ|House of Rituals|SO|6;1|V|N|Jump onto the Stoneborn Legionnaire for a ride to the Necropolis.|COV|Venthyr|REN|22|
+C The Medallion of Dominion|ACTIVE|58407|M|74.56,33.64|Z|Maldraxxus!Instance1689|SO|6;1|N|Fight Kel'Thuzad and recover the Medallion of Dominion.|COV|Venthyr|
 T The Medallion of Dominion|QID|58407|M|51.69,37.47|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 
 ;N Necrolord Campaign|QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Necrolord|
