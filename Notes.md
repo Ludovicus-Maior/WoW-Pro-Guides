@@ -1,4 +1,17 @@
-# Release 9.0.2-A8 / (1.13.6-D8)
+# Release 9.0.2-A9 / 1.13.6-D9
+## Bug Fixes
+* Minor Profession guide fixes
+## Guide Updates
+### Retail
+* Achievements: SL Sojourners
+* Leveling Horde: Azshara
+* Leveling Neutral: Argus
+* Leveling Shadowlands: Bastion, Covenant
+* Professions: All SL guides, Blacksmithing all expansions
+### Classic
+* No guide updates
+
+# Release 9.0.2-A8 / 1.13.6-D8
 ## Bug Fixes
 * Major update to professions module
 * Numeric booleans in tags not being processed consistently
