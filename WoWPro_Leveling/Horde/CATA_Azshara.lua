@@ -258,14 +258,14 @@ C The Blackmaw Doublecross|QID|14435|M|30.97,29.99|QO|1|N|Speak with Ungarl to w
 K The Blackmaw Doublecross|QID|14435|M|32.41,31.64|QO|2;3|N|Kill 4 Blackmaw Warriors and 4 Blackmaw Shaman on your way out.\n[color=FF0000]NOTE: [/color]To exit, go up the stairs to the right of where Ungarl was standing, cross over the bridge and go to the left of the fork.|
 T The Blackmaw Doublecross|QID|14435|M|42.43,23.61|N|To Haggrum Bloodfist.|
 A Amberwind's Journal|QID|14428|M|42.61,23.72|N|From Andorel Sunsworn.|
-C Dressed to Impress|QID|14340|M|48.44,19.75;47.23,20.85|CS|N|Head to the far side of the hill (look for the torches) and follow the path to the top.\nPut on your new wizard hat and approach the Image of Archmage Xylem.|U|49201|NC|
+C Dressed to Impress|QID|14340|M|47.61,19.55;47.23,20.85|CS|N|Head to the far side of the hill (look for the torches) and follow the path to the top.\nPut on your new wizard hat and approach the Image of Archmage Xylem.|U|49201|NC|
 T Dressed to Impress|QID|14340|M|47.23,20.85|N|To the Image of Archmage Xylem.\n[color=FF0000]NOTE: [/color]You can take off the Dingy Wizard Hat if you have a better one to wear.|
 A Renewable Resource|QID|14250|M|47.29,21.20|N|From Tharkul Ironskull.|PRE|14340| ; Storyline
 A Shear Will|QID|14249|M|47.15,21.07|N|From Will Robotronic.|PRE|14340| ; Storyline
 A Waste of Thyme|QID|14263|M|47.01,21.04|N|From Quarla Whistlebreak.|PRE|14340| ; Storyline
 l Waste of Thyme|QID|14263|M|49.27,18.71|QO|1|N|Collect Living Ire Thyme. Almost impossible to see on the ground, watch for sparkles.\n[color=FF0000]NOTE: [/color]You get a 20% damage done and taken by you debuff per patch you pick up. This non-cancelable debuff stacks and lasts 60 secs; renewing with each one picked up.|S|
 l Shear Will|QID|14249|M|42.38,18.43|QO|1|N|Kill Thunderhead Hippogryphs and Stagwings to loot the feathers.|S|
-C Renewable Resource|QID|14250|M|46.52,15.28;52.10,20.10|CN|N|Use the Arcane Charge in front of Balboa (the Elite Giant)near the Ruins of Nordressa, loot 5 Animate Basalt after it goes off.\n[color=FF0000]NOTE: [/color]He pathes between the 2 points. You can clearly see his 'path'. Just stand in his path at the bottom of the hill and wait.|U|49038|
+C Renewable Resource|QID|14250|M|46.52,15.28;53.83,21.24|CN|N|Use the Arcane Charge in front of Balboa (the Elite Giant)near the Ruins of Nordressa, loot 5 Animate Basalt after it goes off.\n[color=FF0000]NOTE: [/color]He pathes between the 2 points. You can clearly see his 'path'. Just stand in his path at the bottom of the hill and wait.|U|49038|
 C Amberwind's Journal|QID|14428|M|49.85,28.43|N|Slay Lorekeeper Amberwind at the Darnassian Base Camp and retrieve her journal.|
 T Amberwind's Journal|QID|14428|M|49.53,28.73|N|At the Upper Scrying Stone.|
 A Arcane De-Construction|QID|14429|M|49.53,28.73|N|From the Upper Scrying Stone.|PRE|14428|
@@ -280,9 +280,9 @@ T Shear Will|QID|14249|M|47.15,21.07|N|To Will Robotronic.|
 T Renewable Resource|QID|14250|M|47.28,21.19|N|To Tharkul Ironskull.|
 A Manual Labor|QID|14230|M|47.24,21.29|N|From Teresa Spireleaf. She paths between the two tables.|PRE|14249&14250&14263| ; Storyline
 A Trouble Under Foot|QID|14226|M|47.23,20.83|N|From the Image of Archmage Xylem.|PRE|14249&14250&14263| ; Storyline
-C Trouble Under Foot|QID|14226|M|54.17,23.96|N|Have your Personal Arcane Assistant cast 'Polymorph Insect' (<CTRL>+1 - by default) to turn a Legash demon into an insect so you can squash it.\n[color=FF0000]NOTE: [/color]If you manage to lose your PAA, go back to the Image of Archmage Xylem to get another one.|S|
-l Manual Labor|QID|14230|M|55.23,25.07|QO|1|N|Retrieve the Abjurer's Manual from the Lagash Encampment. It is at the waypoint and the tooltip will say it is the Manual.|
-C Trouble Under Foot|QID|14226|M|54.17,23.96|N|Use your Personal Arcane Assistant to turn 12 Legash demons into insects and then squash them.|US|
+C Trouble Under Foot|QID|14226|M|54.17,23.96|N|Have your Personal Arcane Assistant cast 'Polymorph Insect' ([<CTRL>+1] by default) to turn a Legash demon into an insect so you can kill it.\n[color=FF0000]NOTE: [/color]You cannot do this while mounted.\nIf you manage to lose your PAA, go back to the Image of Archmage Xylem to get another one.|T|Polymorphed Cockroach|S|
+l Manual Labor|QID|14230|M|55.25,25.21|QO|1|N|Retrieve the Abjurer's Manual from the Lagash Encampment. It is at the waypoint and the tooltip will say it is the Manual.|
+C Trouble Under Foot|QID|14226|M|54.17,23.96|N|Use your Personal Arcane Assistant to turn 12 Legash demons into insects and then kill them.|T|Polymorphed Cockroach|US|
 T Trouble Under Foot|QID|14226|M|47.18,20.83|N|To the Image of Archmage Xylem. Use your personal Arcane Assistant to port you back.|
 T Manual Labor|QID|14230|M|47.28,21.20|N|To Teresa Spireleaf.|
 A The Pinnacle of Learning|QID|14413|M|47.28,20.80|N|From the Image of Archmage Xylem. I found the next quest incredibly annoying, but there are quite a few after it, so it's your call.|PRE|14226&14230| ; Storyline
