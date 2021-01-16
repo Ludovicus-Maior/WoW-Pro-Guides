@@ -279,35 +279,45 @@ T Waste of Thyme|QID|14263|M|47.01,21.04|N|To Quarla Whistlebreak.|
 T Shear Will|QID|14249|M|47.15,21.07|N|To Will Robotronic.|
 T Renewable Resource|QID|14250|M|47.28,21.19|N|To Tharkul Ironskull.|
 A Manual Labor|QID|14230|M|47.24,21.29|N|From Teresa Spireleaf. She paths between the two tables.|PRE|14249&14250&14263| ; Storyline
-A Trouble Under Foot|QID|14226|M|47.23,20.83|N|From the Image of Archmage Xylem.|PRE|14249&14250&14263| ; Storyline
+A Trouble Under Foot|QID|14226|M|47.23,20.85|N|From the Image of Archmage Xylem.|PRE|14249&14250&14263| ; Storyline
 C Trouble Under Foot|QID|14226|M|54.17,23.96|N|Have your Personal Arcane Assistant cast 'Polymorph Insect' ([<CTRL>+1] by default) to turn a Legash demon into an insect so you can kill it.\n[color=FF0000]NOTE: [/color]You cannot do this while mounted.\nIf you manage to lose your PAA, go back to the Image of Archmage Xylem to get another one.|T|Polymorphed Cockroach|S|
 l Manual Labor|QID|14230|M|55.25,25.21|QO|1|N|Retrieve the Abjurer's Manual from the Lagash Encampment. It is at the waypoint and the tooltip will say it is the Manual.|
 C Trouble Under Foot|QID|14226|M|54.17,23.96|N|Use your Personal Arcane Assistant to turn 12 Legash demons into insects and then kill them.|T|Polymorphed Cockroach|US|
-T Trouble Under Foot|QID|14226|M|47.18,20.83|N|To the Image of Archmage Xylem. Use your personal Arcane Assistant to port you back.|
+T Trouble Under Foot|QID|14226|M|47.23,20.85|N|\n[color=FF0000]NOTE: [/color]Use your personal Arcane Assistant to port you back.\nTo the Image of Archmage Xylem at Ruins of Nordressa.|
 T Manual Labor|QID|14230|M|47.28,21.20|N|To Teresa Spireleaf.|
-A The Pinnacle of Learning|QID|14413|M|47.28,20.80|N|From the Image of Archmage Xylem. I found the next quest incredibly annoying, but there are quite a few after it, so it's your call.|PRE|14226&14230| ; Storyline
-T The Pinnacle of Learning|QID|14413|M|55.67,14.66|N|To the Image of Archmage Xylem.|
-A Watch Your Step|QID|14296|M|55.67,14.66|N|From the Image of Archmage Xylem.|PRE|14413| ; Storyline
-C Watch Your Step|QID|14296|M|55.95,11.89|N|Click on every conduit and run to the glowing circles to jump. Don't get hit by energy charges or you start over.|
-T Watch Your Step|QID|14296|M|55.92,12.20|N|To the Image of Archmage Xylem.|
-A The Trial of Fire|QID|14300|M|55.92,12.20|N|From the Image of Archmage Xylem.|PRE|14296| ; Storyline
-A The Trial of Frost|QID|24478|M|55.92,12.20|N|From the Image of Archmage Xylem.|PRE|14296| ; Storyline
-A The Trial of Shadow|QID|24479|M|55.92,12.20|N|From the Image of Archmage Xylem.|PRE|14296| ; Storyline
-C The Trial of Shadow|QID|24479|M|31.06,26.76|N|Click on the Shadow Portal Stone, then enter the portal. Lure 20 Weeping Souls into the shadow runes. Every time one hits you, you lose one.|
+A The Pinnacle of Learning|QID|14413|M|47.23,20.85|N|From the Image of Archmage Xylem. You will transported to Arcane Pinnacle after you accept the quest.|PRE|14226&14230| ; Storyline
+T The Pinnacle of Learning|QID|14413|M|55.71,14.77|N|To the Image of Archmage Xylem in Arcane Pinnacle.|
+A Watch Your Step|QID|14296|M|55.71,14.77|N|From the Image of Archmage Xylem.|PRE|14413| ; Storyline
+C Watch Your Step|QID|14296|M|55.95,11.89|N|Click on the energy conduit beside you to get started. Run to the glowing circle to jump to the next spot. Rinse and repeat until you get to the top. Not all spots have a conduit. But, they will have a ring.\n[color=FF0000]NOTE: [/color]Do not stop moving or you might get hit by the energy blast and sent flying. If you get knocked off the hill into the water, there is a ring on the southwest side to get back up.|NC|
+T Watch Your Step|QID|14296|M|55.95,12.17|N|To the Image of Archmage Xylem.|
+A The Trial of Fire|QID|14300|M|55.95,12.17|N|From the Image of Archmage Xylem.|PRE|14296| ; Storyline
+A The Trial of Frost|QID|24478|M|55.95,12.17|N|From the Image of Archmage Xylem.|PRE|14296| ; Storyline
+A The Trial of Shadow|QID|24479|M|55.95,12.17|N|From the Image of Archmage Xylem.|PRE|14296| ; Storyline
+P Grim Intention|ACTIVE|24479|M|56.11,11.95|N|Click on the Shadow Portal Stone to activate the portal. Then, click on the portal to enter it.|IZ|Arcane Pinnacle|
+C The Trial of Shadow|QID|24479|M|30.76,27.26|N|Click on the Altar (floating stone) to begin. Lure 20 Weeping Souls into the shadow runes by standing on the other side of it. Every time one hits you, you lose one.|
 T The Trial of Shadow|QID|24479|M|31.06,26.76|N|To the Image of Archmage Xylem.|
-C The Trial of Fire|QID|14300|M|32.98,23.59|N|Go through the Waning Sanity Portal. Click on the Fire Portal Stone, then enter the portal. Stand in the fire runes without getting hit by flame for 10 consecutive bursts. Watch for flares before they flame.|
-T The Trial of Fire|QID|14300|M|32.98,23.59|N|To the Image of Archmage Xylem.|
-C The Trial of Frost|QID|24478|M|61.98,21.02|N|Go through the Waning Sanity Portal. Click on the Frost Portal Stone, then enter the portal. Collect 20 small ice orbs. Getting hit by Frostburns will lose some. Can use runes to jump straight up.|
-T The Trial of Frost|QID|24478|M|62.16,21.16|N|Go through the Waning Sanity Portal. To the Image of Archmage Xylem.|
-A Xylem's Asylum|QID|14299|M|55.92,12.17|N|From the Image of Archmage Xylem.|PRE|14300&24478&24479| ; Storyline
-T Xylem's Asylum|QID|14299|M|56.17,12.11;25.54,38.01|CS|N|To Joanna. Take the portal.|
-A Wasn't It Obvious?|QID|14389|M|25.54,38.01|N|From Joanna.|PRE|14299| ; Storyline
-C Wasn't It Obvious?|QID|14389|M|27.75,40.81|N|Take the portal behind her. Don't panic.|NC|
+P Waning Sanity|ACTIVE|14300|M|31.17,26.65|N|Click on the Waning Sanity Portal to return to Arcane Pinnacle.|IZ|Trial of Shadow|
+P Burning Determination|ACTIVE|14300|M|56.08,11.96|N|Click on the Fire Portal Stone to activate the portal. Then, click on the portal to enter it.|IZ|Arcane Pinnacle|
+C The Trial of Fire|QID|14300|M|32.98,23.59|N|Stand in the fire runes without getting hit by Flame Strike for 10 consecutive bursts.\n[color=FF0000]NOTE: [/color]Just follow Darwin. When and where he moves, you move.|
+T The Trial of Fire|QID|14300|M|32.97,23.56|N|To the Image of Archmage Xylem.|
+P Waning Sanity|ACTIVE|24478|M|32.85,23.39|N|Click on the Waning Sanity Portal to return to Arcane Pinnacle.|IZ|Trial of Fire|
+P Icy Mortality|ACTIVE|24478|M|56.05,11.92|N|Click on the Frost Portal Stone to activate the portal. Then, click on the portal to enter it.|IZ|Arcane Pinnacle|
+C The Trial of Frost|QID|24478|M|62.17,20.84|N|Mount up (if you have one) and circle around the outside edge in a counter-clockwise direction; keeping a safe distance from the Frostburns. To collect an ice orb, stand near it for a couple seconds. Getting hit by a Frostburn will take away an orb.\nAvoid the Frostburns by standing on the edge of the hill top. Avoid the runes because they'll toss you up in the air and you will take falling damage when you land.\n[color=FF0000]NOTE: [/color]If you fall off the hill, you'll have to do the jumps to climb back up to Arcane Pinnacle and take the portal again (Unless you can fly).|
+T The Trial of Frost|QID|24478|M|62.20,21.08|N|To the Image of Archmage Xylem.|
+P Waning Sanity|QID|14299|M|62.11,21.25|N|Click on the Waning Sanity Portal to return to Arcane Pinnacle.|IZ|Trial of Frost|
+A Xylem's Asylum|QID|14299|M|55.95,12.17|N|From the Image of Archmage Xylem.|PRE|14300&24478&24479| ; Storyline
+P Bear's Head|ACTIVE|14299|M|56.19,12.07|N|Click on the portal to be transported to Bear's Head.|IZ|Arcane Pinnacle|
+R Xylem's Tower|ACTIVE|14299|M|24.98,38.74|N|Walk up the winding 'path' to the top up.|
+T Xylem's Asylum|QID|14299|M|25.58,37.96|N|To Joanna inside Xylem's Tower.|
+A Wasn't It Obvious?|QID|14389|M|25.58,37.96|N|From Joanna.|PRE|14299| ; Storyline
+P Ambitious Reach|ACTIVE|14389|M|25.73,37.97|N|Click on the portal behind Joanna.\n[color=FF0000]NOTE: [/color]Relax... you're suppose to 'die'.|IZ|Xylem's Tower|
+C Wasn't It Obvious?|QID|14389|M|27.73,40.70|N|Walk towards Anara.|
 T Wasn't It Obvious?|QID|14389|M|PLAYER|N|(UI Alert)|
 A Easy is Boring|QID|14390|M|PLAYER|N|(UI Alert)|PRE|14389| ; Storyline
-C Easy is Boring|QID|14390|M|27.88,40.21|N|Talk to Azuregos.|NC|
+C Easy is Boring|QID|14390|M|27.88,40.21|N|Talk to Azuregos.|CHAT|
 T Easy is Boring|QID|14390|M|27.88,40.21|N|To Spirit of Azuregos.|
-A Turning the Tables|QID|14391|M|27.88,40.21|N|From Spirit of Azuregos.|PRE|14390| ; Storyline
+A Turning the Tables|QID|14391|M|PLAYER|N|UI Alert|PRE|14390| ; Storyline
+s Rez|ACTIVE|14430|M|27.60,39.58|N|Speak with Anara to resurrect yourself.|
 T Hacking the Construct|QID|14430|M|42.58,23.72|N|Talk to Anara and rez. Turn in to Andorel Sunsworn.|
 T Turning the Tables|QID|14391|M|66.59,20.39|N|Take the Rocket to the Northern Rocketway Terminus. Turn in to Kalec.|
 A Fade to Black|QID|24467|M|66.51,20.34|N|From Kalec.|PRE|14391| ; Storyline - The Best Apprentice
