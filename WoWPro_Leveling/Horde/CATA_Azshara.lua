@@ -307,7 +307,7 @@ T The Trial of Frost|QID|24478|M|62.20,21.08|N|To the Image of Archmage Xylem.|
 P Waning Sanity|QID|14299|M|62.11,21.25|N|Click on the Waning Sanity Portal to return to Arcane Pinnacle.|IZ|Trial of Frost|
 A Xylem's Asylum|QID|14299|M|55.95,12.17|N|From the Image of Archmage Xylem.|PRE|14300&24478&24479| ; Storyline
 P Bear's Head|ACTIVE|14299|M|56.19,12.07|N|Click on the portal to be transported to Bear's Head.|IZ|Arcane Pinnacle|
-R Xylem's Tower|ACTIVE|14299|M|24.98,38.74|N|Walk up the winding 'path' to the top up.|
+R Xylem's Tower|ACTIVE|14299|M|24.98,38.74|N|Walk up the winding 'path' to the top up.|FLY|OLD|
 T Xylem's Asylum|QID|14299|M|25.58,37.96|N|To Joanna inside Xylem's Tower.|
 A Wasn't It Obvious?|QID|14389|M|25.58,37.96|N|From Joanna.|PRE|14299| ; Storyline
 P Ambitious Reach|ACTIVE|14389|M|25.73,37.97|N|Click on the portal behind Joanna.\n[color=FF0000]NOTE: [/color]Relax... you're suppose to 'die'.|IZ|Xylem's Tower|
@@ -317,26 +317,30 @@ A Easy is Boring|QID|14390|M|PLAYER|N|(UI Alert)|PRE|14389| ; Storyline
 C Easy is Boring|QID|14390|M|27.88,40.21|N|Talk to Azuregos.|CHAT|
 T Easy is Boring|QID|14390|M|27.88,40.21|N|To Spirit of Azuregos.|
 A Turning the Tables|QID|14391|M|PLAYER|N|UI Alert|PRE|14390| ; Storyline
-s Rez|ACTIVE|14430|M|27.60,39.58|N|Speak with Anara to resurrect yourself.|
-T Hacking the Construct|QID|14430|M|42.58,23.72|N|Talk to Anara and rez. Turn in to Andorel Sunsworn.|
-T Turning the Tables|QID|14391|M|66.59,20.39|N|Take the Rocket to the Northern Rocketway Terminus. Turn in to Kalec.|
-A Fade to Black|QID|24467|M|66.51,20.34|N|From Kalec.|PRE|14391| ; Storyline - The Best Apprentice
-A Pro-liberation|QID|14297|M|66.42,20.29|N|From Jellix Fuselighter.| ; Storyline - The Best Apprentice
-A Ice Cold|QID|14261|M|66.57,19.63|N|From Feno Blastnoggin.| ; Storyline - The Best Apprentice
-C Ice Cold|QID|14261|N|Use the Cryomatic 16 to freeze and kill 8 Sable Drakes. Usually flying or on top of hills.|S|
+s Rez|ACTIVE|14430|M|27.60,39.58|N|Speak with Anara to resurrect yourself.|BUFF|-69812|
+R Northern Rocketway Exchange|ACTIVE|14430|N|Run to the road behind you and follow it east.|FLY|OLD|
+T Hacking the Construct|QID|14430|M|42.61,23.72|N|To Andorel Sunsworn.|
+R Northern Rocketway Terminus|ACTIVE|14391|M|42.53,24.57|N|Speak with Bilgewater Rocket-jockey to get a ride there.\n[color=FF0000]NOTE: [/color]Make sure click the exit button when you get to the end or you will overshoot and have to run back.|CHAT|FLY|OLD|IZ|-Bitter Reaches|
+f Northern Rocketway Terminus|QID|14391|M|66.50,21.00|N|At Blitz Blastospazz.|TAXI|-Northern Rocketway Terminus|
+T Turning the Tables|QID|14391|M|66.55,20.36|N|To Kalec.|
+A Fade to Black|QID|24467|M|66.55,20.36|N|From Kalec.|PRE|14391| ; Storyline - The Best Apprentice
+A Pro-liberation|QID|14297|M|66.34,20.25|N|From Jellix Fuselighter.| ; Storyline - The Best Apprentice
+A Ice Cold|QID|14261|M|66.55,19.59|N|From Feno Blastnoggin.| ; Storyline - The Best Apprentice
+K Ice Cold|QID|14261|M|69.59,19.40|QO|1|N|Use the Cryomatic 16 to freeze and 8 kill Sable Drakes. You'll find them flying over head or on top of hills.|T|Sable Drake|U|49596|S|
 C Pro-liberation|QID|14297|M|69.16,16.89|N|Kill cultists and dragonkin for Ironwrought Keys, use them to free 4 Goblin Workers.|S|
-C Fade to Black|QID|24467|M|71.74,16.39|N|Kill Twilight Lord Katrana and Malicion in Sable Ridge. For the high-levels doing this, do not one-shot Katrana immediately, aggro then kill her after she says something.|
-T Fade to Black|QID|24467|M|71.79,16.68|N|To Kalecgos.|
+K Fade to Black|ACTIVE|24467|M|71.74,16.39|QO|1|N|Kill Twilight Lord Katrana in Sable Ridge. Ignore Malicion (except his fireballs) and focus on killing Katrana.\n[color=FF0000]NOTE: [/color]For the high-levels doing this, do not one-shot Katrana immediately; build aggro, then kill her after she says something.|
+K Fade to Black|ACTIVE|24467|M|71.74,16.39|QO|2|N|Kill Malicion in Sable Ridge.\n[color=FF0000]NOTE: [/color]When Malicion picks you up, Kalecgos will come to your rescue and kill Malicion for you.|
+T Fade to Black|QID|24467|M|71.81,16.72|N|To Kalecgos.\n[color=FF0000]NOTE: [/color]Do not wait too long to turn this in. After about 1 minute, he will despawn when Katrana and Malicion respawn.|
 C Pro-liberation|QID|14297|M|69.16,16.89|N|Kill cultists and dragonkin for Ironwrought Keys, use them to free 4 Goblin Workers.|US|
-C Ice Cold|QID|14261|M|69.59,19.40|N|Use the Cryomatic 16 to freeze and kill 8 Sable Drakes. Usually flying or on top of hills.|U|49596|US|
-T Ice Cold|QID|14261|M|66.57,19.63|N|To Blastnoggin.|
-T Pro-liberation|QID|14297|M|66.42,20.29|N|To Jellix Fuselighter.|
-A Farewell, Minnow|QID|14392|M|67,20.4|N|From Azuregos.|PRE|14261&14297&24467| ; Storyline - The Best Apprentice
-H Bilgewater Harbor|QID|14392|M|67.07,21.15|N|Hearth to Bilgewater Harbor, or fly back.|
-T Farewell, Minnow|QID|14392|M|53.25,49.96|N|Speak to Sorata Firespinner in Bilgewater Harbor.|
+K Ice Cold|QID|14261|M|69.59,19.40|QO|1|N|Use the Cryomatic 16 to freeze and 8 kill Sable Drakes. You'll find them flying over head or on top of hills.|T|Sable Drake|U|49596|US|
+T Ice Cold|QID|14261|M|66.55,19.59|N|To Feno Blastnoggin.|
+T Pro-liberation|QID|14297|M|66.34,20.25|N|To Jellix Fuselighter.|
+A Farewell, Minnow|QID|14392|M|67.05,20.41|N|From Azuregos.|PRE|14261&14297&24467| ; Storyline - The Best Apprentice
+H Bilgewater Harbor|QID|14392|M|PLAYER|N|Hearth to Bilgewater Harbor.|FLY|OLD|
+T Farewell, Minnow|QID|14392|M|53.25,49.96|N|Speak to Sorata Firespinner down by the dock.| ; Completes Storyline - The Best Apprentice
 A Airborne Again|QID|24497|M|52.98,49.78|N|Secure a ride to Valermok with the Airborne Priests in the eastern portion of Bilgewater Harbor.|PRE|14392| ; Storyline
-F Valormok|QID|24497|M|60.58,52.55|N|Hop in a Wings of Steel and fly to Valormok.|
-T Airborne Again|QID|24497|M|13.98,64.78|N|To Chawg.|PRE|14392|
+F Valormok|QID|24497|M|60.47,52.25|N|Hop into a Wings of Steel and fly to Valormok.|V|IZ|Bilgewater Harbor|
+T Airborne Again|QID|24497|M|13.06,57.22;13.98,64.78|CS|N|To Chawg.|PRE|14392|
 A Where's My Head?|QID|14462|M|13.98,64.78|N|From Chawg.| ; Storyline
 A Let Them Feast on Fear|QID|24433|M|13.98,64.78|N|From Chawg.| ; Storyline - Heart of Arkkoroc
 A Commando Drop|QID|24434|M|13.87,64.50|N|From Andorel Sunsworn.| ; Storyline
