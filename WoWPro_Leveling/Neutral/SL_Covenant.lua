@@ -1189,7 +1189,7 @@ R Dominance Gate|ACTIVE|59708|M|45.19,31.24|Z|Revendreth|N|Cut your way through 
 T Invitation for the Stonewright|QID|59708|M|40.27,30.60|Z|Revendreth|N|To General Draven.|COV|Venthyr|
 A Harvester of Wrath|QID|59720|M|40.27,30.60|Z|Revendreth|N|From General Draven.|PRE|59708|COV|Venthyr|
 C Harvester of Wrath|QID|59720|M|34.28,21.92|Z|Revendreth|N|Do NOT mount up, you must cross the bridge on foot and fight your way across. At the end you can deliver your message to the Stonewright.|COV|Venthyr|
-F Charred Ramparts|ACTIVE|59720|M|25.96,28.88|Z|Revendreth|N|Take the lift down and head to the flightpoint to fly you back to the Carred Ramparts.|COV|Venthyr|
+F Charred Ramparts|ACTIVE|59720|M|25.96,28.88|Z|Revendreth|N|Take the lift down and head to the flightpoint to fly you back to the Scarred Ramparts.|COV|Venthyr|
 R Hole in the Wall|ACTIVE|59720|M|40.77,47.18|Z|Revendreth|N|Run to the Hole in the Wall.|COV|Venthyr|
 R Darkwall Tower|ACTIVE|59720|M|42.07,46.80|Z|Revendreth|N|Run to and take the lift up Darkwall Tower.|COV|Venthyr|
 T Harvester of Desire|QID|59676|M|41.02,54.80|Z|Revendreth|N|To Prince Renathal.|COV|Venthyr|
