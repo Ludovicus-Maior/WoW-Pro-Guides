@@ -340,17 +340,19 @@ H Bilgewater Harbor|QID|14392|M|PLAYER|N|Hearth to Bilgewater Harbor.|FLY|OLD|
 T Farewell, Minnow|QID|14392|M|53.25,49.96|N|Speak to Sorata Firespinner down by the dock.| ; Completes Storyline - The Best Apprentice
 A Airborne Again|QID|24497|M|52.98,49.78|N|Secure a ride to Valermok with the Airborne Priests in the eastern portion of Bilgewater Harbor.|PRE|14392| ; Storyline
 F Valormok|QID|24497|M|60.47,52.25|N|Hop into a Wings of Steel and fly to Valormok.|V|IZ|Bilgewater Harbor|
-T Airborne Again|QID|24497|M|13.06,57.22;13.98,64.78|CS|N|To Chawg.|PRE|14392|
-A Where's My Head?|QID|14462|M|13.98,64.78|N|From Chawg.| ; Storyline
-A Let Them Feast on Fear|QID|24433|M|13.98,64.78|N|From Chawg.| ; Storyline - Heart of Arkkoroc
+T Airborne Again|QID|24497|M|14.01,64.85|N|To Chawg.\n[color=FF0000]NOTE: [/color]Much like the rockets, be prepared to jump out early. If you ride to the end, you will land in the South Fury River and have to foot it back quite a distance.\nI suggest jumping as soon as you enter Valormok.|PRE|14392|
+A Where's My Head?|QID|14462|M|14.01,64.85|N|From Chawg.| ; Storyline
+A Let Them Feast on Fear|QID|24433|M|14.01,64.85|N|From Chawg.| ; Storyline - Heart of Arkkoroc
 A Commando Drop|QID|24434|M|13.87,64.50|N|From Andorel Sunsworn.| ; Storyline
 A Grounded!|QID|14475|M|14.33,65.01|N|From Kroum.| ; Storyline
-F Orgrimmar|QID|14462|M|14.33,65.01|N|Train, repair, sell, etc. if you wish.|
+F Orgrimmar|QID|14462|M|14.33,65.01|N|Train, repair, sell, etc. if you wish.\n[color=FF0000]NOTE: [/color]Skip this step if you don't want/need to go.|
+F Valormok|QID|14462|M|49.67,59.24|Z|Orgrimmar|N|Fly back to Valormok.|IZ|Orgrimmar|
 C Let Them Feast on Fear|QID|24433|M|12.74,74.19|N|Slay 12 Talrendis Defenders, and 6 Talrendis Sentinels.|S|
 C Commando Drop|QID|24434|M|10.06,71.18|N|Slay 5 Talrendis Lorekeepers and locate a Lorekeeper Summoning Stone somewhere within Talrendis Point.|S|
-T Where's My Head?|QID|14462|M|12.55,67.45|N|To Slinky Sharpshiv.|
-A Lightning Strike Assassination|QID|14464|M|12.55,67.45|N|From Slinky Sharpshiv.|PRE|14462| ; Storyline
-C Lightning Strike Assassination|QID|14464|M|11.83,68.25|N|Talk to Slinky Sharpshiv to ascend the tower and assassinate Captain Grunwald. Collect Captain Grunwald's head.|
+T Where's My Head?|QID|14462|M|12.52,67.45|N|To Slinky Sharpshiv.|
+A Lightning Strike Assassination|QID|14464|M|12.52,67.45|N|From Slinky Sharpshiv.\n[color=FF0000]NOTE: [/color]Do not accept this quest until you are prepared for a fight. The quest event begins immediately after accepting.|PRE|14462| ; Storyline
+C Lightning Strike Assassination|QID|14464|M|11.83,68.25|N|Once you accept the quest, Slinky Sharpshiv and you will ascend the tower to assassinate Captain Grunwald.\n[color=FF0000]NOTE: [/color]Captain Grunwald is not alone; Mariel Dawnsong is there with him.|
+R Return to Valormok|QID|14464|N|Click on Slinky.|V|
 T Grounded!|QID|14475|M|14.51,75.56|N|Find Bombardier Captain Smooks at the southernmost night elf tower at Talrendis Point.|
 A Rigged to Blow|QID|14476|M|14.51,75.56|N|From Bombardier Captain Smooks.|PRE|14475| ; Storyline
 C Rigged to Blow|QID|14476|M|14.99,74.22;15.42,73.60;15.63,74.38|CS|N|Arm the three Explosive Charges located around the base of the southern-most tower at Talrendis Point.|
