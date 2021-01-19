@@ -9,7 +9,8 @@ return [[
 N Work in Progross|ACH|14311|N|All are listed, some with comments from Wowhead (WH) or others that I have personally verified and wrote the comments my own way.|
 
 N Bastion|ACH|14311|
-$ Scroll of Aeons|M|53.5,80.3|Z|Bastion!The Shadowlands|N|WH - Loot 2 Purian around Aspirant's Crucible and put them in tribute bowl to spawn treasure.|ITEM|173984|ACH|14311;1|
+$ Scroll of Aeons 1|QID|58294|M|54.37,82.64|Z|Bastion!The Shadowlands|N|Loot Purians from bowl on table in Aspirant's Crucible.|ITEM|173984|ACH|14311;1|
+$ Scroll of Aeons 2|QID|54293^53298|CS|M|56.17,83.06;54.43,83.88;53.50,80.37|Z|Bastion!The Shadowlands|N|Click on the bowls to place fruit at the first two locations, then go to last coord to loot treasure and learn toy.|ITEM|173984|ACH|14311;1|
 $ Abandoned Stockpile|QID|61006|M|44.6,46.5|Z|Bastion!The Shadowlands|N|Entrance is hidden behind bushes.|ACH|14311;7|
 $ Windsmith's Tools|M|35.8,48.1|Z|Bastion!The Shadowlands|N|WH - Requires Broken Kyrian Flute, dropped by Agitated Etherwyrms|T|Agitated Etherwyrm|ITEM|180064|ACH|14311;9|
 $ Gift of Agthia|M|35.1,58.0|Z|Bastion!The Shadowlands|N|WH - Interact with Agthia's Flame at 39.1,54.4 to obtain Proof of Courage, then complete her test to unlock treasure.|ITEM|180063|ACH|14311;11|
