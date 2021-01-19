@@ -243,8 +243,8 @@ C Parasites of Reality|QID|62780|M|68.02,62.64|S|Z|Revendreth|N|Kill Hostiles, i
 A The Endmire|QID|60480|M|65.11,63.53|Z|Revendreth|N|From Tessle the Snitch.|TOF|RANK|2|
 C The Endmire|QID|60480|M|65.11,63.53|Z|Revendreth|S|NC|N|Pick up the rubies as you are doing the other things.|TOF|
 K The Pale Doom|QID|60279|QO|1|ACTIVE|60279|M|56.05,58.33|Z|Revendreth|T|The Pale Doom|N|Kill The Pale Doom.|
-K Endlurker|QID|59582|QO|1|RARE|M|66.44,59.69|Z|Revendreth|ITEM|179927|N|Pick up the anima lure from the ground here, then use Extra Action Button "[color=40C7EB]Lure[/color]" near gateway to summon the silver elite.|TOF|
-$ Vyrtha's Dredglaive|QID|62164|M|70.19,60.04|Z|Revendreth|N|Treasure located under the bridge.|ITEM|177807|ACH|14314;3|TOF|
+K Endlurker|QID|59582|QO|1|RARE|M|66.44,59.69|Z|Revendreth|ITEM|179927|N|Pick up the anima lure from the ground here, then use Extra Action Button "[color=40C7EB]Lure[/color]" near gateway to summon the silver elite.|TOF|ACH|14310;11|
+$ Vyrtha's Dredglaive|QID|62164|M|70.19,60.04|Z|Revendreth|N|Treasure located under the bridge.|ITEM|177807|ACH|14314;5|TOF|
 C The Endmire|QID|60480|M|65.11,63.53|Z|Revendreth|US|NC|N|Pick up the rubies as you are doing the other things.|TOF|
 T The Endmire|QID|60480|M|65.11,63.53|Z|Revendreth|N|To Tessle the Snitch.|TOF|
 C Parasites of Reality|QID|62780|M|68.02,62.64|US|Z|Revendreth|N|Kill Hostiles, interact with non-hostiles.|TOF|
