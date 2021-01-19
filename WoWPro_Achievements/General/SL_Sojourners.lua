@@ -240,8 +240,9 @@ T Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane
 A Halls of Atonement: Your Absolution|QID|58092|M|72.98,51.98|Z|Revendreth|ELITE|N|[color=e6cc80]Dungeon: [/color]\nFrom Archivist Fane. This quest is optional and out of scope for this guide.|LVL|58|PRE|57929|
 ;dungeon quest wasnt offered. WH says 58, i wasnt offered on a lvl 52 and lvl 60. (maybe it's after stop the inquisition -- havent done it yet.)
 R Absolution Crypt|AVAILABLE|62653|M|71.58,40.07|Z|Revendreth|N|Down the elevator and return to The Accuser.|
-A Stop the Inquisition|QID|62653|M|71.79,40.41|Z|Revendreth|N|From Gresit.|
+A Stop the Inquisition|QID|62653|M|71.73,40.37|Z|Revendreth|N|From Gresit.|
 C Stop the Inquisition|QID|62653|M|76,51.8|Z|Revendreth|N|This is a weekly repeatable quest. Archivist Fane offers repeatable quest for Sinstones that makes it possible to kill the inquisitors. Only one person in the group needs one. The location varies as not all are up and any given time.|
 T Stop the Inquisition|QID|62653|M|76,51.8|Z|Revendreth|N|To Archivist Janeera.|
+T Halls of Atonement: Your Absolution|QID|58092|M|71.73,40.37|Z|Revendreth|N|From Gresit. Yes, you have to do the dungeon to get Sojourner of Revendreth. It's the only dungeon required.|
 ]]
 end)

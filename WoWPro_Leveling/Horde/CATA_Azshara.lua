@@ -347,22 +347,20 @@ A Commando Drop|QID|24434|M|13.87,64.50|N|From Andorel Sunsworn.| ; Storyline
 A Grounded!|QID|14475|M|14.33,65.01|N|From Kroum.| ; Storyline
 F Orgrimmar|QID|14462|M|14.33,65.01|N|Train, repair, sell, etc. if you wish.\n[color=FF0000]NOTE: [/color]Skip this step if you don't want/need to go.|
 F Valormok|QID|14462|M|49.67,59.24|Z|Orgrimmar|N|Fly back to Valormok.|IZ|Orgrimmar|
-C Let Them Feast on Fear|QID|24433|M|12.74,74.19|N|Slay 12 Talrendis Defenders, and 6 Talrendis Sentinels.|S|
-C Commando Drop|QID|24434|M|10.06,71.18|N|Slay 5 Talrendis Lorekeepers and locate a Lorekeeper Summoning Stone somewhere within Talrendis Point.|S|
+K Let Them Feast on Fear|QID|24433|M|12.74,74.19|QO|1;2|N|Slay 12 Talrendis Defenders and 6 Talrendis Sentinels.|S|
+K Commando Drop|QID|24434|M|10.06,71.18|QO|1|N|Slay 5 Talrendis Lorekeepers.|
+T Commando Drop|QID|24434|M|10.56,69.85|N|To the Lorekeeper's Summoning Stone.|
 T Where's My Head?|QID|14462|M|12.52,67.45|N|To Slinky Sharpshiv.|
 A Lightning Strike Assassination|QID|14464|M|12.52,67.45|N|From Slinky Sharpshiv.\n[color=FF0000]NOTE: [/color]Do not accept this quest until you are prepared for a fight. The quest event begins immediately after accepting.|PRE|14462| ; Storyline
 C Lightning Strike Assassination|QID|14464|M|11.83,68.25|N|Once you accept the quest, Slinky Sharpshiv and you will ascend the tower to assassinate Captain Grunwald.\n[color=FF0000]NOTE: [/color]Captain Grunwald is not alone; Mariel Dawnsong is there with him.|
-R Return to Valormok|QID|14464|N|Click on Slinky.|V|
+R Jump or Die|QID|14464|M|11.83,68.16;14.07,65.21|CC|N|Click on Slinky to parachute down. If Slinky died, jump off the ledge and hope for the best.\n[color=FF0000]NOTE: [/color]If you wait too long, Captain will respawn and Slinky will despawn. If that happens, jump and hope for the best.|V|
 T Grounded!|QID|14475|M|14.51,75.56|N|Find Bombardier Captain Smooks at the southernmost night elf tower at Talrendis Point.|
 A Rigged to Blow|QID|14476|M|14.51,75.56|N|From Bombardier Captain Smooks.|PRE|14475| ; Storyline
 C Rigged to Blow|QID|14476|M|14.99,74.22;15.42,73.60;15.63,74.38|CS|N|Arm the three Explosive Charges located around the base of the southern-most tower at Talrendis Point.|
 T Rigged to Blow|QID|14476|M|14.55,75.54|N|To Bombardier Captain Smooks.|
 A Push the Button!|QID|14477|M|14.39,75.63|N|From Bombardier Captain Smooks.|PRE|14476| ; Storyline - Heart of Arkkoroc
 C Push the Button!|QID|14477|M|14.39,75.63|N|You get to push THE BUTTON and detonate the explosives!|NC|
-C Commando Drop|QID|24434|M|10.06,71.18|N|Slay 5 Talrendis Lorekeepers and locate a Lorekeeper Summoning Stone somewhere within Talrendis Point.|US|
-T Commando Drop|QID|24434|M|10.51,69.85|N|To the Lorekeeper's Summoning Stone.|
-C Let Them Feast on Fear|QID|24433|M|12.74,74.19|N|Fight your way across Talrendis Point, slaying 12 Talrendis Defenders and 6 Talrendis Sentinels.|US|
-T Lightning Strike Assassination|QID|14464|M|13.95,64.79|N|To Chawg.|
+K Let Them Feast on Fear|QID|24433|M|12.74,74.19|QO|1;2|N|Fight your way across Talrendis Point, slaying 12 Talrendis Defenders and 6 Talrendis Sentinels.|US|
 T Let Them Feast on Fear|QID|24433|M|13.95,64.79|N|To Chawg.|
 T Push the Button!|QID|14477|M|14.30,64.99|N|To Kroum.|
 A Blacken the Skies|QID|24430|M|14.45,65.64|N|From Jr. Bombardier Hackel.|PRE|14477&24433| ; Storyline - Heart of Arkkoroc
