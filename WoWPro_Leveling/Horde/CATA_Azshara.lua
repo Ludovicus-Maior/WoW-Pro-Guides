@@ -361,9 +361,10 @@ C Rigged to Blow|QID|14476|M|15.47,73.74|QO|1;2|N|Arm the second Detonator Charg
 C Rigged to Blow|QID|14476|M|15.57,74.46|N|Arm the third Detonator Charge (yellow barrel) located on the right side of the tower.|NC|
 T Rigged to Blow|QID|14476|M|14.46,75.57|N|To Bombardier Captain Smooks.|
 A Push the Button!|QID|14477|M|14.46,75.57|N|From Bombardier Captain Smooks.|PRE|14476| ; Storyline - Heart of Arkkoroc
-C Push the Button!|QID|14477|M|14.39,75.63|N|You get to push THE BUTTON and detonate the explosives!|NC|
+C Push the Button!|QID|14477|M|14.42,75.74|N|You get to push THE BUTTON and detonate the explosives!|NC|
 K Let Them Feast on Fear|QID|24433|M|12.74,74.19|QO|1;2|N|Fight your way across Talrendis Point, slaying 12 Talrendis Defenders and 6 Talrendis Sentinels.|US|
-T Let Them Feast on Fear|QID|24433|M|13.95,64.79|N|To Chawg.|
+T Let Them Feast on Fear|QID|24433|M|14.01,64.85|N|To Chawg.|
+T Lightning Strike Assassination|QID|14464|M|14.01,64.85|N|To Chawg.|
 T Push the Button!|QID|14477|M|14.30,64.99|N|To Kroum.|
 A Blacken the Skies|QID|24430|M|14.45,65.64|N|From Jr. Bombardier Hackel.|PRE|14477&24433| ; Storyline - Heart of Arkkoroc
 C Blacken the Skies|QID|24430|M|9.28,72.53|N|Mount a Grounded Wind Rider. Destroy 6 Talrendis Glaive Throwers and bomb the Command Center. Don't fly too low.|
