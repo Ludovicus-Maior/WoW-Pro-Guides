@@ -353,12 +353,14 @@ T Commando Drop|QID|24434|M|10.56,69.85|N|To the Lorekeeper's Summoning Stone.|
 T Where's My Head?|QID|14462|M|12.52,67.45|N|To Slinky Sharpshiv.|
 A Lightning Strike Assassination|QID|14464|M|12.52,67.45|N|From Slinky Sharpshiv.\n[color=FF0000]NOTE: [/color]Do not accept this quest until you are prepared for a fight. The quest event begins immediately after accepting.|PRE|14462| ; Storyline
 C Lightning Strike Assassination|QID|14464|M|11.83,68.25|N|Once you accept the quest, Slinky Sharpshiv and you will ascend the tower to assassinate Captain Grunwald.\n[color=FF0000]NOTE: [/color]Captain Grunwald is not alone; Mariel Dawnsong is there with him.|
-R Jump or Die|QID|14464|M|11.83,68.16;14.07,65.21|CC|N|Click on Slinky to parachute down. If Slinky died, jump off the ledge and hope for the best.\n[color=FF0000]NOTE: [/color]If you wait too long, Captain will respawn and Slinky will despawn. If that happens, jump and hope for the best.|V|
-T Grounded!|QID|14475|M|14.51,75.56|N|Find Bombardier Captain Smooks at the southernmost night elf tower at Talrendis Point.|
-A Rigged to Blow|QID|14476|M|14.51,75.56|N|From Bombardier Captain Smooks.|PRE|14475| ; Storyline
-C Rigged to Blow|QID|14476|M|14.99,74.22;15.42,73.60;15.63,74.38|CS|N|Arm the three Explosive Charges located around the base of the southern-most tower at Talrendis Point.|
-T Rigged to Blow|QID|14476|M|14.55,75.54|N|To Bombardier Captain Smooks.|
-A Push the Button!|QID|14477|M|14.39,75.63|N|From Bombardier Captain Smooks.|PRE|14476| ; Storyline - Heart of Arkkoroc
+R Jump or Die|QID|14464|M|11.83,68.16;14.07,65.21|CC|N|Click on Slinky's Parachute pack to parachute down. If Slinky died, jump off the ledge and hope for the best.\n[color=FF0000]NOTE: [/color]If you wait too long, Captain will respawn and Slinky will despawn. If that happens, jump and hope for the best.|V|
+T Grounded!|QID|14475|M|13.72,70.89;14.46,75.57|CS|N|Find Bombardier Captain Smooks at the southernmost night elf tower at Talrendis Point.|
+A Rigged to Blow|QID|14476|M|14.46,75.57|N|From Bombardier Captain Smooks.|PRE|14475| ; Storyline
+C Rigged to Blow|QID|14476|M|15.03,74.27|QO|1|N|Arm the first Detonator Charge (yellow barrel) located in the corner to the left of the ramp into the southern-most tower at Talrendis Point.|NC|
+C Rigged to Blow|QID|14476|M|15.47,73.74|QO|1;2|N|Arm the second Detonator Charge (yellow barrel) located at the back of the tower.|NC|
+C Rigged to Blow|QID|14476|M|15.57,74.46|N|Arm the third Detonator Charge (yellow barrel) located on the right side of the tower.|NC|
+T Rigged to Blow|QID|14476|M|14.46,75.57|N|To Bombardier Captain Smooks.|
+A Push the Button!|QID|14477|M|14.46,75.57|N|From Bombardier Captain Smooks.|PRE|14476| ; Storyline - Heart of Arkkoroc
 C Push the Button!|QID|14477|M|14.39,75.63|N|You get to push THE BUTTON and detonate the explosives!|NC|
 K Let Them Feast on Fear|QID|24433|M|12.74,74.19|QO|1;2|N|Fight your way across Talrendis Point, slaying 12 Talrendis Defenders and 6 Talrendis Sentinels.|US|
 T Let Them Feast on Fear|QID|24433|M|13.95,64.79|N|To Chawg.|
