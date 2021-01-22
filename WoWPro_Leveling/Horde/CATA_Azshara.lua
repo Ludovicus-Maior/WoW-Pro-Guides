@@ -344,8 +344,8 @@ T Airborne Again|QID|24497|M|14.01,64.85|N|To Chawg.\n[color=FF0000]NOTE: [/colo
 A Where's My Head?|QID|14462|M|14.01,64.85|N|From Chawg.| ; Storyline
 A Let Them Feast on Fear|QID|24433|M|14.01,64.85|N|From Chawg.| ; Storyline - Heart of Arkkoroc
 A Commando Drop|QID|24434|M|13.87,64.50|N|From Andorel Sunsworn.| ; Storyline
-A Grounded!|QID|14475|M|14.33,65.01|N|From Kroum.| ; Storyline
-F Orgrimmar|QID|14462|M|14.33,65.01|N|Train, repair, sell, etc. if you wish.\n[color=FF0000]NOTE: [/color]Skip this step if you don't want/need to go.|
+A Grounded!|QID|14475|M|14.35,65.03|N|From Kroum.| ; Storyline
+F Orgrimmar|QID|14462|M|14.35,65.03|N|Train, repair, sell, etc. if you wish.\n[color=FF0000]NOTE: [/color]Skip this step if you don't want/need to go.|
 F Valormok|QID|14462|M|49.67,59.24|Z|Orgrimmar|N|Fly back to Valormok.|IZ|Orgrimmar|
 K Let Them Feast on Fear|QID|24433|M|12.74,74.19|QO|1;2|N|Slay 12 Talrendis Defenders and 6 Talrendis Sentinels.|S|
 K Commando Drop|QID|24434|M|10.06,71.18|QO|1|N|Slay 5 Talrendis Lorekeepers.|
@@ -361,20 +361,21 @@ C Rigged to Blow|QID|14476|M|15.47,73.74|QO|1;2|N|Arm the second Detonator Charg
 C Rigged to Blow|QID|14476|M|15.57,74.46|N|Arm the third Detonator Charge (yellow barrel) located on the right side of the tower.|NC|
 T Rigged to Blow|QID|14476|M|14.46,75.57|N|To Bombardier Captain Smooks.|
 A Push the Button!|QID|14477|M|14.46,75.57|N|From Bombardier Captain Smooks.|PRE|14476| ; Storyline - Heart of Arkkoroc
-C Push the Button!|QID|14477|M|14.39,75.63|N|You get to push THE BUTTON and detonate the explosives!|NC|
+C Push the Button!|QID|14477|M|14.42,75.74|N|You get to push THE BUTTON and detonate the explosives!|NC|
 K Let Them Feast on Fear|QID|24433|M|12.74,74.19|QO|1;2|N|Fight your way across Talrendis Point, slaying 12 Talrendis Defenders and 6 Talrendis Sentinels.|US|
-T Let Them Feast on Fear|QID|24433|M|13.95,64.79|N|To Chawg.|
-T Push the Button!|QID|14477|M|14.30,64.99|N|To Kroum.|
-A Blacken the Skies|QID|24430|M|14.45,65.64|N|From Jr. Bombardier Hackel.|PRE|14477&24433| ; Storyline - Heart of Arkkoroc
+T Let Them Feast on Fear|QID|24433|M|14.01,64.85|N|To Chawg.|
+T Lightning Strike Assassination|QID|14464|M|14.01,64.85|N|To Chawg.|
+T Push the Button!|QID|14477|M|14.35,65.03|N|To Kroum.|
+A Blacken the Skies|QID|24430|M|14.47,65.72|N|From Jr. Bombardier Hackel.|PRE|14477&24433| ; Storyline - Heart of Arkkoroc
 C Blacken the Skies|QID|24430|M|9.28,72.53|N|Mount a Grounded Wind Rider. Destroy 6 Talrendis Glaive Throwers and bomb the Command Center. Don't fly too low.|
-T Blacken the Skies|QID|24430|M|14.44,65.74|N|To Jr. Bombardier Hackel.|
-A The Conquest of Azshara|QID|24439|M|14.05,64.86|N|From Chawg.|PRE|24430| ; Storyline - Heart of Arkkoroc
-C The Conquest of Azshara|QID|24439|M|9.14,72.80|N|Slay Commander Jarrodenus in Talrendis Point and collect his head.|
-T The Conquest of Azshara|QID|24439|M|14.03,64.78|N|To Chawg.|
-A Probing into Ashenvale|QID|24463|M|14.32,65.05|N|From Kroum.|PRE|24439|
-T Probing into Ashenvale|QID|24463|M|94.39,46.80|Z|Ashenvale|N|Run back through all the hostile mobs and across the bridge to Kulg Gorespatter.|
-A To The Ramparts!|QID|13866|M|94.39,46.80|Z|Ashenvale|N|From Kulg Gorespatter.|LEAD|13612|PRE|24463|
-F Northern Barrens|QID|13866|M|94.39,46.80|Z|Ashenvale|N|Talk to Kulg for a free flight.|
-T To The Ramparts!|QID|13866|M|42.41,15.18|Z|Northern Barrens|N|To Kadrak.|
+T Blacken the Skies|QID|24430|M|14.47,65.72|N|To Jr. Bombardier Hackel.\n[color=FF0000]NOTE: [/color]Exit the vehicle screen to turn in the quest.|
+A The Conquest of Azshara|QID|24439|M|14.01,64.85|N|From Chawg.|PRE|24430| ; Storyline - The Conquest of Azshara
+K The Conquest of Azshara|QID|24439|M|9.14,72.80|QO|1|N|Slay Commander Jarrodenus in Talrendis Point and collect his head.|
+T The Conquest of Azshara|QID|24439|M|14.01,64.85|N|To Chawg.| ; Completes Storyline The Conquest of Azshara and achievement 'Azshara Quests'
+A Probing into Ashenvale|QID|24463|M|14.35,65.03|N|From Kroum.|PRE|24439|
+T Probing into Ashenvale|QID|24463|M|94.40,46.83|Z|Ashenvale|N|Run back through all the hostile mobs and across the bridge to Kulg Gorespatter.\n[color=FF0000]NOTE: [/color]Follow the edge (cliff) of the South Fury River to avoid most of the fighting.|
+A To The Ramparts!|QID|13866|M|94.40,46.83|Z|Ashenvale|N|From Kulg Gorespatter.|LEAD|13612|PRE|24463|
+F Northern Barrens|QID|13866|M|94.40,46.83|Z|Ashenvale|N|Talk to Kulg for a free flight the Mor'shan Ramparts.|
+T To The Ramparts!|QID|13866|M|42.41,15.18|Z|Northern Barrens|N|To Kadrak.\n[color=FF0000]NOTE: [/color]He paths back and forth across the road in front of the towers.|
 ]]
 end)
