@@ -29,15 +29,15 @@ T Gorat's Vengeance|QID|13621|M|42.74,14.91|Z|Northern Barrens|N|To Kadrak.|
 A Got Wood?|QID|13628|M|42.26,15.20|Z|Northern Barrens|N|From Truun.|PRE|13621|RANK|1|
 C Got Wood?|QID|13628|M|42.58,15.19|Z|Northern Barrens|QO|1|N|When you're ready to leave, speak with Kadrak to acquire the reins.|CHAT|
 C Got Wood?|QID|13628|M|42.82,16.05|Z|Northern Barrens|QO|2|N|Mount Brutusk and ride to Warsong Lumber Camp.[color=FF0000]NOTE: [/color]If you can't mount Brutusk, /reload your UI and all will be well.|V|
-T Got Wood?|QID|13628|M|72.89,80.42|N|To Gorka.|
-A Management Material|QID|13640|PRE|13628|RANK|1|M|72.86,80.42|N|From Gorka.|
-C Management Material|QID|13640|M|71.51,82.40|N|Talk to 5 Peons and protect them while they chop the wood you need. Stalker may appear behind them. Pick up the wood when they are done chopping it.|
-T Management Material|QID|13640|M|72.86,80.42|N|To Gorka.|
-A Needs a Little Lubrication|QID|13651|M|72.87,80.42|N|From Gorka.|PRE|13640|RANK|1|
+T Got Wood?|QID|13628|M|72.93,80.44|N|To Gorka.|
+A Management Material|QID|13640|PRE|13628|RANK|1|M|72.93,80.44|N|From Gorka.|
+C Management Material|QID|13640|M|71.51,82.40|N|Talk to a Demoralized Peon and follow them to where they chop the wood you need.\nStand behind the Peon to protect them in case a Stalker appears to try and attack them.\nPick up the wood when they are done chopping it.|T|Demoralized Peon|
+T Management Material|QID|13640|M|72.93,80.44|N|To Gorka.|
+A Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|From Gorka.|PRE|13640|RANK|1|
 C Needs a Little Lubrication|QID|13651|M|74.25,73.56|N|Kill Rotting Slime until you have 5 Natural Oil.|
-T Needs a Little Lubrication|QID|13651|M|72.85,80.42|N|To Gorka.|
-A Crisis at Splintertree|QID|13653|M|72.85,80.42|N|From Gorka.|PRE|13651|RANK|1|
-C Crisis at Splintertree|QID|13653|M|72.85,80.42|N|Speak to Gorka when you are ready to leave.|
+T Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|To Gorka.|
+A Crisis at Splintertree|QID|13653|M|72.93,80.44|N|From Gorka.|PRE|13651|RANK|1|
+C Crisis at Splintertree|QID|13653|M|72.93,80.44|N|Speak to Gorka when you are ready to leave.\n[color=FF0000]NOTE: [/color]A cancelable cinematic will begin; giving you a free ride back to The Mor'shan Ramparts.|CHAT|
 T Crisis at Splintertree|QID|13653|M|42.67,15.01|Z|Northern Barrens|N|To Kadrak.|
 A To the Rescue!|QID|13712|M|42.67,15.01|Z|Northern Barrens|N|From Kadrak.|PRE|13653|RANK|1|
 r To the Rescue!|QID|13712|Z|Northern Barrens|N|Repair and Restock if necessary. Then check off this step.|
@@ -56,8 +56,8 @@ K Ashenvale Outrunners|QID|6503|M|75.52,70.28|QO|1|N|Kill Ashenvale Outrunners w
 C Dead Elves Walking|QID|13801|M|75.64,75.25|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|S|
 A Torek's Assault|QID|6544|M|68.36,75.21|ELITE|N|[color=80FF00]Escort Quest:[/color]\nClear the path and house before accepting quest. Be sure to keep Torek alive.|RANK|3|
 C Torek's Assault|QID|6544|M|64.71,75.40|N|Help Torek take Silverwing Outpost.|
-K Sharptalon|QID|2|M|78.1,65.8;73.3,70.6;71.3,75.5;73.7,78.5|CN|L|16305|N|Keep and eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|T|Sharptalon|
-A Sharptalon's Claw|QID|2|N|From Sharptalon's Claw.|U|16305|O|
+K Sharptalon|QID|2|M|78.1,65.8;73.3,70.6;71.3,75.5;73.7,78.5|CN|L|16305|N|Keep an eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|T|Sharptalon|S!US|IZ|The Dor'Danil Barrow Den|
+A Sharptalon's Claw|QID|2|M|PLAYER|N|From Sharptalon's Claw.|U|16305|O|
 C Pierce Their Heart!|QID|13805|M|75.91,75.36;75.54,74.12|CS|N|Enter Barrow Den. Follow the blood trail and use the Tainted Blood of the Kaldorei on the Heart.|U|45683|
 C Dead Elves Walking|QID|13801|M|75.64,75.25|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|US|
 K Ashenvale Outrunners|QID|6503|M|75.52,70.28|QO|1|N|Finish killing Ashenvale Outrunners.|US|
