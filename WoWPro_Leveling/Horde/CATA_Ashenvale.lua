@@ -38,13 +38,13 @@ C Needs a Little Lubrication|QID|13651|M|74.25,73.56|N|Kill Rotting Slime until 
 T Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|To Gorka.|
 A Crisis at Splintertree|QID|13653|M|72.93,80.44|N|From Gorka.|PRE|13651|RANK|1|
 C Crisis at Splintertree|QID|13653|M|72.93,80.44|N|Speak to Gorka when you are ready to leave.\n[color=FF0000]NOTE: [/color]A cancelable cinematic will begin; giving you a free ride back to The Mor'shan Ramparts.|CHAT|
-T Crisis at Splintertree|QID|13653|M|42.67,15.01|Z|Northern Barrens|N|To Kadrak.|
-A To the Rescue!|QID|13712|M|42.67,15.01|Z|Northern Barrens|N|From Kadrak.|PRE|13653|RANK|1|
-r To the Rescue!|QID|13712|Z|Northern Barrens|N|Repair and Restock if necessary. Then check off this step.|
-C To the Rescue!|QID|13712|M|42.66,14.96;73.26,64.99|CC|N|Speak to Kadrak when you're ready to leave.|
-T To the Rescue!|QID|13712|M|73.64,62.22|N|After breaking the seige, follow Kadrak into Splintertree Post and turn in the quest to him there.|
-f Splintertree Post|QID|13803|M|73.18,61.59|N|Get the flight point from Vuhlgra|
-A Blood of the Weak|QID|13803|M|73.64,62.22|N|From Kadrak.|PRE|13712|RANK|1|
+T Crisis at Splintertree|QID|13653|M|42.69,14.97|Z|Northern Barrens|N|To Kadrak.|
+A To the Rescue!|QID|13712|M|42.69,14.97|Z|Northern Barrens|N|From Kadrak.|PRE|13653|RANK|1|
+r Repair|QID|13712|M|42.38,14.97|Z|Northern Barrens|N|Speak with Ornag to repair/restock/unload, if necessary. Then check off this step.|
+F Splintertree Post|QID|13712|M|42.69,14.97|Z|Northern Barrens|N|Speak to Kadrak for a free ride to Splintertree Post.|IZ|The Mor'shan Ramparts|CHAT|
+T To the Rescue!|QID|13712|M|73.61,62.12|N|To Kadrak in Splintertree Post.|
+f Splintertree Post|QID|13803|M|73.18,61.59|N|Get the flight point from Vhulgra.|TAXI|-Splintertree Post|
+A Blood of the Weak|QID|13803|M|73.61,62.12|N|From Kadrak.|PRE|13712|RANK|1|
 A Destroy the Legion|QID|26448|M|73.22,60.09|N|From Valusha.|RANK|1|
 A Ashenvale Outrunners|QID|6503|M|73.55,60.92|N|From Kuray'bin.|RANK|1|
 T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.18,57.62|CC|N|To Durak.|
