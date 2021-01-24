@@ -23,18 +23,20 @@ T Empty Quivers|QID|13615|M|42.26,15.20|Z|Northern Barrens|N|To Truun.|
 T Rescue the Fallen|QID|13613|M|42.43,15.75|Z|Northern Barrens|N|To Dinah Halfmoon.|
 T To Dinah, at Once!|QID|13620|M|42.43,15.75|Z|Northern Barrens|N|To Dinah Halfmoon.|
 A Gorat's Vengeance|QID|13621|M|42.43,15.75|Z|Northern Barrens|N|From Dinah Halfmoon.|PRE|13620|RANK|1|
-R Gorat's Corpse|ACTIVE|13621|M|64.16,84.51|CS|N|Head back to Gorat's body.|
+R Gorat's Corpse|ACTIVE|13621|M|64.16,84.51|CS|N|Head back to Gorat's body.|FLY|OLD|
 C Gorat's Vengeance|QID|13621|M|65.70,82.19|N|Use Gorat's Imbued Blood on Gorat's corpse to rez him.\nAfter a brief conversation (one-sided), follow him to the spot where he will summon Captain Elendilad so you can kill him.|U|45023|
 T Gorat's Vengeance|QID|13621|M|42.74,14.91|Z|Northern Barrens|N|To Kadrak.|
 A Got Wood?|QID|13628|M|42.26,15.20|Z|Northern Barrens|N|From Truun.|PRE|13621|RANK|1|
 C Got Wood?|QID|13628|M|42.58,15.19|Z|Northern Barrens|QO|1|N|When you're ready to leave, speak with Kadrak to acquire the reins.|CHAT|
 C Got Wood?|QID|13628|M|42.82,16.05|Z|Northern Barrens|QO|2|N|Mount Brutusk and ride to Warsong Lumber Camp.[color=FF0000]NOTE: [/color]If you can't mount Brutusk, /reload your UI and all will be well.|V|
 T Got Wood?|QID|13628|M|72.93,80.44|N|To Gorka.|
-A Management Material|QID|13640|PRE|13628|RANK|1|M|72.93,80.44|N|From Gorka.|
+A Management Material|QID|13640|M|72.93,80.44|N|From Gorka.|PRE|13628|RANK|1|
 C Management Material|QID|13640|M|71.51,82.40|N|Talk to a Demoralized Peon and follow them to where they chop the wood you need.\nStand behind the Peon to protect them in case a Stalker appears to try and attack them.\nPick up the wood when they are done chopping it.|T|Demoralized Peon|
 T Management Material|QID|13640|M|72.93,80.44|N|To Gorka.|
 A Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|From Gorka.|PRE|13640|RANK|1|
 C Needs a Little Lubrication|QID|13651|M|74.25,73.56|N|Kill Rotting Slime until you have 5 Natural Oil.|
+K Sharptalon|QID|2|M|72.33,76.83|L|16305|N|Keep an eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|T|Sharptalon|S!US|IZ|The Dor'Danil Barrow Den|
+A Sharptalon's Claw|QID|2|M|PLAYER|N|From Sharptalon's Claw.|U|16305|O|
 T Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|To Gorka.|
 A Crisis at Splintertree|QID|13653|M|72.93,80.44|N|From Gorka.|PRE|13651|RANK|1|
 C Crisis at Splintertree|QID|13653|M|72.93,80.44|N|Speak to Gorka when you are ready to leave.\n[color=FF0000]NOTE: [/color]A cancelable cinematic will begin; giving you a free ride back to The Mor'shan Ramparts.|CHAT|
@@ -45,26 +47,26 @@ F Splintertree Post|QID|13712|M|42.69,14.97|Z|Northern Barrens|N|Speak to Kadrak
 T To the Rescue!|QID|13712|M|73.61,62.12|N|To Kadrak in Splintertree Post.|
 f Splintertree Post|QID|13803|M|73.18,61.59|N|Get the flight point from Vhulgra.|TAXI|-Splintertree Post|
 A Blood of the Weak|QID|13803|M|73.61,62.12|N|From Kadrak.|PRE|13712|RANK|1|
-A Destroy the Legion|QID|26448|M|73.22,60.09|N|From Valusha.|RANK|1|
-A Ashenvale Outrunners|QID|6503|M|73.55,60.92|N|From Kuray'bin.|RANK|1|
-T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.18,57.62|CC|N|To Durak.|
-A Pierce Their Heart!|QID|13805|M|72.18,57.62|N|From Durak.|PRE|13803|RANK|1|
-A Playing With Felfire|QID|13730|M|72.68,56.76;73.18,56.99;72.92,58.08;72.55,58.04;73.35,62.03|CS|N|From Splintertree Demolisher.|PRE|13803|RANK|1|
-A Dead Elves Walking|QID|13801|M|73.83,62.43|N|From Pixel.|PRE|13803|RANK|1|
-h Splintertree Post|QID|6503|M|73.94,60.72|N|At Innkeeper Kaylisk.|
+h Splintertree Post|QID|6503|M|73.99,60.64|N|At Innkeeper Kaylisk.|
+A Ashenvale Outrunners|QID|6503|M|73.56,60.86|N|From Kuray'bin.|RANK|1|
+A Destroy the Legion|QID|26448|M|73.16,60.11|N|From Valusha.|RANK|1|
+T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.20,57.65|CC|N|To Durak.|
+A Pierce Their Heart!|QID|13805|M|72.20,57.65|N|From Durak.|PRE|13803|RANK|1|
+R Exit the mine|QID|13730|M|73.31,59.81|N|Head back outside the mine.|IZ|Splintertree Mine|
+A Playing With Felfire|QID|13730|M|73.33,62.13|N|From Splintertree Demolisher.|PRE|13803|RANK|1|
+A Dead Elves Walking|QID|13801|M|73.87,62.49|N|From Pixel.|PRE|13803|RANK|1|
 K Ashenvale Outrunners|QID|6503|M|75.52,70.28|QO|1|N|Kill Ashenvale Outrunners while questing.|S|
 C Dead Elves Walking|QID|13801|M|75.64,75.25|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|S|
-A Torek's Assault|QID|6544|M|68.36,75.21|ELITE|N|[color=80FF00]Escort Quest:[/color]\nClear the path and house before accepting quest. Be sure to keep Torek alive.|RANK|3|
-C Torek's Assault|QID|6544|M|64.71,75.40|N|Help Torek take Silverwing Outpost.|
-K Sharptalon|QID|2|M|78.1,65.8;73.3,70.6;71.3,75.5;73.7,78.5|CN|L|16305|N|Keep an eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|T|Sharptalon|S!US|IZ|The Dor'Danil Barrow Den|
-A Sharptalon's Claw|QID|2|M|PLAYER|N|From Sharptalon's Claw.|U|16305|O|
-C Pierce Their Heart!|QID|13805|M|75.91,75.36;75.54,74.12|CS|N|Enter Barrow Den. Follow the blood trail and use the Tainted Blood of the Kaldorei on the Heart.|U|45683|
-C Dead Elves Walking|QID|13801|M|75.64,75.25|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|US|
+A Torek's Assault|QID|6544|M|68.34,75.30|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Torek.\n[color=FF0000]NOTE: [/color]If he's not there, it means someone is already on the quest and you'll have to wait a few minutes. The quest doesn't take all that long.|RANK|3|
+C Torek's Assault|QID|6544|M|64.71,75.40|N|Follow Torek and his troops to Silverwing Outpost. Let Torek lead the fight.\n[color=FF0000]NOTE: [/color]Be sure to keep Torek alive. If he dies, it's game over. (the quest is; not the fighting)|
+R The Dor'Danil Barrow Den|ACTIVE|13805|M|75.91,75.36|N|Make your way to Barrow Den.|FLY|OLD|
+C Pierce Their Heart!|QID|13805|M|75.51,74.20|N|Enter Barrow Den and follow the blood trail. Use the Tainted Blood of the Kaldorei on the Forest Heart.|U|45683|
+K Dead Elves Walking|QID|13801|M|75.64,75.25|QO|1|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|US|
 K Ashenvale Outrunners|QID|6503|M|75.52,70.28|QO|1|N|Finish killing Ashenvale Outrunners.|US|
 K Destroy the Legion|QID|26448|M|84.07,70.30|QO|1|N|Slay any 15 demons.|S|
-C Playing With Felfire|QID|13730|M|79.84,64.72|N|Fill the Reinforced Canister with 7 Felfires from Felfire Hill.|U|45478|
+C Playing With Felfire|QID|13730|M|79.84,64.72|N|Use the Reinforced Canister to siphon 7 Felfires (the greenish fires on the ground) in Felfire Hill.|U|45478|
 C Destroy the Legion|QID|26448|US|M|84.07,70.30|N|Slay any 15 demons at Felfire Hill, Demon Fall Canyon, or Demon Fall Ridge.|
-l Diabolical Plans|QID|26447|M|80.81,68.51|L|23797|N|Kill demons until this drops.|RANK|1|
+l Diabolical Plans|AVAILABLE|26447|M|80.81,68.51|L|23780|N|Continue killing demons until you loot it.|RANK|1|
 A Diabolical Plans|QID|26447|M|80.81,68.51|N|From the Diabolical Plans.|U|23797|RANK|1|
 H Splintertree Post|QID|6503|
 T Ashenvale Outrunners|QID|6503|M|73.47,60.87|N|To Kuray'bin.|
