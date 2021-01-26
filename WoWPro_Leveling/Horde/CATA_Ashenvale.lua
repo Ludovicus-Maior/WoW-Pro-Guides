@@ -44,17 +44,17 @@ T Crisis at Splintertree|QID|13653|M|42.69,14.97|Z|Northern Barrens|N|To Kadrak.
 A To the Rescue!|QID|13712|M|42.69,14.97|Z|Northern Barrens|N|From Kadrak.|PRE|13653|RANK|1|
 r Repair|QID|13712|M|42.38,14.97|Z|Northern Barrens|N|Speak with Ornag to repair/restock/unload, if necessary. Then check off this step.|
 F Splintertree Post|QID|13712|M|42.69,14.97|Z|Northern Barrens|N|Speak to Kadrak for a free ride to Splintertree Post.|IZ|The Mor'shan Ramparts|CHAT|
-T To the Rescue!|QID|13712|M|73.61,62.12|N|To Kadrak in Splintertree Post.|
+T To the Rescue!|QID|13712|M|73.61,62.14|N|To Kadrak in Splintertree Post.|
 f Splintertree Post|QID|13803|M|73.18,61.59|N|Get the flight point from Vhulgra.|TAXI|-Splintertree Post|
-A Blood of the Weak|QID|13803|M|73.61,62.12|N|From Kadrak.|PRE|13712|RANK|1|
+A Blood of the Weak|QID|13803|M|73.61,62.14|N|From Kadrak.|PRE|13712|RANK|1|
 h Splintertree Post|QID|6503|M|73.99,60.64|N|At Innkeeper Kaylisk.|
 A Ashenvale Outrunners|QID|6503|M|73.56,60.86|N|From Kuray'bin.|RANK|1|
-A Destroy the Legion|QID|26448|M|73.16,60.11|N|From Valusha.|RANK|1|
-T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.20,57.65|CC|N|To Durak.|
+A Destroy the Legion|QID|26448|M|73.17,60.11|N|From Valusha.|RANK|1|
+T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.20,57.65|CC|N|To Durak inside the Splintertree Mine.|
 A Pierce Their Heart!|QID|13805|M|72.20,57.65|N|From Durak.|PRE|13803|RANK|1|
 R Exit the mine|QID|13730|M|73.31,59.81|N|Head back outside the mine.|IZ|Splintertree Mine|
 A Playing With Felfire|QID|13730|M|73.33,62.13|N|From Splintertree Demolisher.|PRE|13803|RANK|1|
-A Dead Elves Walking|QID|13801|M|73.87,62.49|N|From Pixel.|PRE|13803|RANK|1|
+A Dead Elves Walking|QID|13801|M|73.86,62.47|N|From Pixel.|PRE|13803|RANK|1|
 K Ashenvale Outrunners|QID|6503|M|75.52,70.28|QO|1|N|Kill Ashenvale Outrunners while questing.|S|
 C Dead Elves Walking|QID|13801|M|75.64,75.25|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|S|
 A Torek's Assault|QID|6544|M|68.34,75.30|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Torek.\n[color=FF0000]NOTE: [/color]If he's not there, it means someone is already on the quest and you'll have to wait a few minutes. The quest doesn't take all that long.|RANK|3|
@@ -69,31 +69,32 @@ C Destroy the Legion|QID|26448|US|M|84.07,70.30|N|Slay any 15 demons at Felfire 
 l Diabolical Plans|AVAILABLE|26447|M|80.81,68.51|L|23780|N|Continue killing demons until you loot it.|RANK|1|
 A Diabolical Plans|QID|26447|M|80.81,68.51|N|From the Diabolical Plans.|U|23797|RANK|1|
 H Splintertree Post|QID|6503|
-T Ashenvale Outrunners|QID|6503|M|73.47,60.87|N|To Kuray'bin.|
-T Destroy the Legion|QID|26448|M|73.22,60.13|N|To Valusha.|
-T Diabolical Plans|QID|26447|M|73.22,60.13|N|To Valusha.|
-A Never Again!|QID|26449|M|73.22,60.13|N|From Valusha.|PRE|26447|RANK|1|
-T Pierce Their Heart!|QID|13805|M|73.53,62.17|N|To Kadrak.|
-A Mission Improbable|QID|13808|M|73.53,62.17|N|From Kadrak.|PRE|13805|RANK|2|
-A Bad News Bear-er|QID|13848|M|73.53,62.17|N|From Kadrak.|PRE|13805|RANK|1|
-T Dead Elves Walking|QID|13801|M|73.87,62.39|N|To Pixel.|
-T Playing With Felfire|QID|13730|M|73.31,62.06|N|To Splintertree Demolisher.|
-A Tell No One!|QID|13751|PRE|13730|M|73.31,62.06|N|From Splintertree Demolisher.|
+T Ashenvale Outrunners|QID|6503|M|73.56,60.86|N|To Kuray'bin.|
+T Destroy the Legion|QID|26448|M|73.17,60.11|N|To Valusha.|
+T Diabolical Plans|QID|26447|M|73.17,60.11|N|To Valusha.|
+A Never Again!|QID|26449|M|73.17,60.11|N|From Valusha.|PRE|26447|RANK|1|
+T Pierce Their Heart!|QID|13805|M|73.61,62.14|N|To Kadrak.| ; Completes The Corrupted Heart of the Forest
+A Mission Improbable|QID|13808|M|73.61,62.14|N|From Kadrak.|PRE|13805|RANK|2|
+A Bad News Bear-er|QID|13848|M|73.61,62.14|N|From Kadrak.|PRE|13805|RANK|1|
+T Dead Elves Walking|QID|13801|M|73.86,62.47|N|To Pixel.|
+T Playing With Felfire|QID|13730|M|73.33,62.13|N|To Splintertree Demolisher.|
+A Tell No One!|QID|13751|M|73.33,62.13|N|From Splintertree Demolisher.|PRE|13730|
 T Torek's Assault|QID|6544|M|73.04,62.46|N|To Ertog Ragetusk.|
-T Tell No One!|QID|13751|M|72.24,57.64|N|To Durak.|
-A Dirty Deeds|QID|13797|PRE|13751|RANK|1|M|72.24,57.64|N|From Durak.|
-C Dirty Deeds|QID|13797|M|73.21,55.91|N|Search the nearby piles of Fresh Rubble to find 10 Chunks of Ore.|
-T Dirty Deeds|QID|13797|M|72.25,57.55|N|To Durak.|
-A Rain of Destruction|QID|13798|M|72.25,57.55|N|From Durak.|PRE|13797|RANK|1|
-C Rain of Destruction|QID|13798|M|74.19,62.95|N|Leave the mine tunnel, climb a guard tower, use the Accursed Ore to target Elves and Ancients until complete.|U|45598|
-T Rain of Destruction|QID|13798|M|72.21,57.61|N|To Durak.|
-A All Apologies|QID|13841|M|73.33,62.12|N|From Splintertree Demolisher.|PRE|13798|RANK|1|
+T Tell No One!|QID|13751|M|72.20,57.65|N|To Durak inside Splintertree Mine (go left at the fork).|
+A Dirty Deeds|QID|13797|M|72.20,57.65|N|From Durak.|PRE|13751|RANK|1|
+l Dirty Deeds|QID|13797|M|73.21,55.91|QO|1|N|Throughout the mine, search the piles of Fresh Rubble to find the Chunks of Ore.|
+T Dirty Deeds|QID|13797|M|72.20,57.65|N|To Durak.|
+A Rain of Destruction|QID|13798|M|72.20,57.65|N|From Durak.\n[color=FF0000]NOTE: [/color]You will receive an Imp disguise buff when you accept this quest.|PRE|13797|RANK|1|
+R Exit the mine|QID|13798|M|73.31,59.81|QO|1|N|Head back outside the mine.|IZ|Splintertree Mine|
+C Rain of Destruction|QID|13798|M|74.19,62.95|QO|1;2|N|Climb one of the two guard towers and use the Accursed Ore to target Elves and Ancients until complete.|U|45598|
+T Rain of Destruction|QID|13798|M|72.20,57.65|N|To Durak.|
+A All Apologies|QID|13841|M|73.33,62.13|N|From Splintertree Demolisher.|PRE|13798|RANK|1|
 K Gorgannon|QID|26449|M|84.08,71.07;84.24,77.20;87.41,78.98;89.57,76.78|CS|QO|0|N|Follow the waypoints to Gorgannon in Demonfall Canyon. Kill him, pick up the loot.|
 C Never Again!|QID|26449|M|82.72,77.91;81.38,78.12;81.12,79.32;80.94,80.05;79.53,80.65;78.41,81.57;78.38,83.84|CS|N|Follow the waypoints through the Canyon and up another path to Diathorus. Kill him, pick up the loot.|
 H Splintertree Post|QID|26449|N|[coords]If Hearthstone isn't ready, just run back to Splintertree Post.|
 T Never Again!|QID|26449|M|73.20,60.08|N|To Valusha.|
 A Demon Duty|QID|13806|M|73.76,61.59|N|From Locke Okarr.|PRE|26449|RANK|1|
-A Satyr Horns|QID|6441|M|73.86,62.41|N|From Pixel.|PRE|26449|RANK|1|
+A Satyr Horns|QID|6441|M|73.86,62.47|N|From Pixel.|PRE|26449|RANK|1|
 C Satyr Horns|QID|6441|N|Kill Satyrs and collect horns.|S|
 C Demon Duty|QID|13806|M|82.08,52.74;80.64,49.04|CC|N|Take the path Northwest to get to this area. Close portals.|
 C Satyr Horns|QID|6441|M|81.42,51.21|N|Kill Satyrs and collect horns.|US|
@@ -117,14 +118,14 @@ A Gurtar's Request|QID|13875|RANK|1|M|89.59,48.71|N|From Guardian Gurtar.|
 l Thorned Bloodcup|QID|13875|M|86.52,54.98|L|46315 8|N|Collect 8 Thorned Bloodcups sparking on the ground,  These are tricky to see, but the red flowers are found all over the lumber camp (They do not show on the mini map for herb gatherers).|
 C Gurtar's Request|QID|13875|M|86.52,54.98|N|Use the Orc-Hair Braid to make the Bloodcup Braid.|U|46316|
 H Splintertree Post|QID|13875|N|If Hearthstone isn't ready, just run back to Splintertree Post.|
-T Gurtar's Request|QID|13875|M|73.34,62.08|N|To Splintertree Demolisher.|
+T Gurtar's Request|QID|13875|M|73.33,62.13|N|To Splintertree Demolisher.|
 T Demon Duty|QID|13806|M|73.76,61.71|N|To Locke Okarr.|
-T Satyr Horns|QID|6441|M|73.84,62.45|N|To Pixel.|
+T Satyr Horns|QID|6441|M|73.86,62.47|N|To Pixel.|
 F Orgrimmar|QID|13841|M|73.21,61.54|N|Fly to Orgrimmar|FLY|OLD|
 T All Apologies|QID|13841|M|50.79,63.38;48.12,70.72|Z|Orgrimmar|CC|N|Take the lift down, then turn in to Vol'jin.|
 A Dread Head Redemption|QID|13842|M|48.12,70.72|Z|Orgrimmar|N|From Vol'jin.|PRE|13841|
 F Splintertree Outpost|QID|13842|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|FLY|OLD|
-C Dread Head Redemption|QID|13842|M|72.22,56.76|N|Back into the mine, talk to Durak, he'll monologue, then attack you with a minion. Kill and loot.|
+C Dread Head Redemption|QID|13842|M|72.20,57.65|N|Back into the mine, talk to Durak, he'll monologue, then attack you with a minion. Kill and loot.|
 F Orgrimmar|QID|13842|M|73.21,61.54|N|Fly back to Orgrimmar.|FLY|OLD|
 T Dread Head Redemption|QID|13842|M|48.17,70.75|Z|Orgrimmar|N|To Vol'jin.|
 F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|FLY|OLD|
