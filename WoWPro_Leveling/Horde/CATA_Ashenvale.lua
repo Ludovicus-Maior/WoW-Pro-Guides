@@ -23,75 +23,78 @@ T Empty Quivers|QID|13615|M|42.26,15.20|Z|Northern Barrens|N|To Truun.|
 T Rescue the Fallen|QID|13613|M|42.43,15.75|Z|Northern Barrens|N|To Dinah Halfmoon.|
 T To Dinah, at Once!|QID|13620|M|42.43,15.75|Z|Northern Barrens|N|To Dinah Halfmoon.|
 A Gorat's Vengeance|QID|13621|M|42.43,15.75|Z|Northern Barrens|N|From Dinah Halfmoon.|PRE|13620|RANK|1|
-R Gorat's Corpse|ACTIVE|13621|M|64.16,84.51|CS|N|Head back to Gorat's body.|
+R Gorat's Corpse|ACTIVE|13621|M|64.16,84.51|CS|N|Head back to Gorat's body.|FLY|OLD|
 C Gorat's Vengeance|QID|13621|M|65.70,82.19|N|Use Gorat's Imbued Blood on Gorat's corpse to rez him.\nAfter a brief conversation (one-sided), follow him to the spot where he will summon Captain Elendilad so you can kill him.|U|45023|
 T Gorat's Vengeance|QID|13621|M|42.74,14.91|Z|Northern Barrens|N|To Kadrak.|
 A Got Wood?|QID|13628|M|42.26,15.20|Z|Northern Barrens|N|From Truun.|PRE|13621|RANK|1|
 C Got Wood?|QID|13628|M|42.58,15.19|Z|Northern Barrens|QO|1|N|When you're ready to leave, speak with Kadrak to acquire the reins.|CHAT|
 C Got Wood?|QID|13628|M|42.82,16.05|Z|Northern Barrens|QO|2|N|Mount Brutusk and ride to Warsong Lumber Camp.[color=FF0000]NOTE: [/color]If you can't mount Brutusk, /reload your UI and all will be well.|V|
 T Got Wood?|QID|13628|M|72.93,80.44|N|To Gorka.|
-A Management Material|QID|13640|PRE|13628|RANK|1|M|72.93,80.44|N|From Gorka.|
+A Management Material|QID|13640|M|72.93,80.44|N|From Gorka.|PRE|13628|RANK|1|
 C Management Material|QID|13640|M|71.51,82.40|N|Talk to a Demoralized Peon and follow them to where they chop the wood you need.\nStand behind the Peon to protect them in case a Stalker appears to try and attack them.\nPick up the wood when they are done chopping it.|T|Demoralized Peon|
 T Management Material|QID|13640|M|72.93,80.44|N|To Gorka.|
 A Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|From Gorka.|PRE|13640|RANK|1|
 C Needs a Little Lubrication|QID|13651|M|74.25,73.56|N|Kill Rotting Slime until you have 5 Natural Oil.|
+K Sharptalon|QID|2|M|72.33,76.83|L|16305|N|Keep an eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|T|Sharptalon|S!US|IZ|The Dor'Danil Barrow Den|
+A Sharptalon's Claw|QID|2|M|PLAYER|N|From Sharptalon's Claw.|U|16305|O|
 T Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|To Gorka.|
 A Crisis at Splintertree|QID|13653|M|72.93,80.44|N|From Gorka.|PRE|13651|RANK|1|
 C Crisis at Splintertree|QID|13653|M|72.93,80.44|N|Speak to Gorka when you are ready to leave.\n[color=FF0000]NOTE: [/color]A cancelable cinematic will begin; giving you a free ride back to The Mor'shan Ramparts.|CHAT|
-T Crisis at Splintertree|QID|13653|M|42.67,15.01|Z|Northern Barrens|N|To Kadrak.|
-A To the Rescue!|QID|13712|M|42.67,15.01|Z|Northern Barrens|N|From Kadrak.|PRE|13653|RANK|1|
-r To the Rescue!|QID|13712|Z|Northern Barrens|N|Repair and Restock if necessary. Then check off this step.|
-C To the Rescue!|QID|13712|M|42.66,14.96;73.26,64.99|CC|N|Speak to Kadrak when you're ready to leave.|
-T To the Rescue!|QID|13712|M|73.64,62.22|N|After breaking the seige, follow Kadrak into Splintertree Post and turn in the quest to him there.|
-f Splintertree Post|QID|13803|M|73.18,61.59|N|Get the flight point from Vuhlgra|
-A Blood of the Weak|QID|13803|M|73.64,62.22|N|From Kadrak.|PRE|13712|RANK|1|
-A Destroy the Legion|QID|26448|M|73.22,60.09|N|From Valusha.|RANK|1|
-A Ashenvale Outrunners|QID|6503|M|73.55,60.92|N|From Kuray'bin.|RANK|1|
-T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.18,57.62|CC|N|To Durak.|
-A Pierce Their Heart!|QID|13805|M|72.18,57.62|N|From Durak.|PRE|13803|RANK|1|
-A Playing With Felfire|QID|13730|M|72.68,56.76;73.18,56.99;72.92,58.08;72.55,58.04;73.35,62.03|CS|N|From Splintertree Demolisher.|PRE|13803|RANK|1|
-A Dead Elves Walking|QID|13801|M|73.83,62.43|N|From Pixel.|PRE|13803|RANK|1|
-h Splintertree Post|QID|6503|M|73.94,60.72|N|At Innkeeper Kaylisk.|
+T Crisis at Splintertree|QID|13653|M|42.69,14.97|Z|Northern Barrens|N|To Kadrak.|
+A To the Rescue!|QID|13712|M|42.69,14.97|Z|Northern Barrens|N|From Kadrak.|PRE|13653|RANK|1|
+r Repair|QID|13712|M|42.38,14.97|Z|Northern Barrens|N|Speak with Ornag to repair/restock/unload, if necessary. Then check off this step.|
+F Splintertree Post|QID|13712|M|42.69,14.97|Z|Northern Barrens|N|Speak to Kadrak for a free ride to Splintertree Post.|IZ|The Mor'shan Ramparts|CHAT|
+T To the Rescue!|QID|13712|M|73.61,62.14|N|To Kadrak in Splintertree Post.|
+f Splintertree Post|QID|13803|M|73.18,61.59|N|Get the flight point from Vhulgra.|TAXI|-Splintertree Post|
+A Blood of the Weak|QID|13803|M|73.61,62.14|N|From Kadrak.|PRE|13712|RANK|1|
+h Splintertree Post|QID|6503|M|73.99,60.64|N|At Innkeeper Kaylisk.|
+A Ashenvale Outrunners|QID|6503|M|73.56,60.86|N|From Kuray'bin.|RANK|1|
+A Destroy the Legion|QID|26448|M|73.17,60.11|N|From Valusha.|RANK|1|
+T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.20,57.65|CC|N|To Durak inside the Splintertree Mine.|
+A Pierce Their Heart!|QID|13805|M|72.20,57.65|N|From Durak.|PRE|13803|RANK|1|
+R Exit the mine|QID|13730|M|73.31,59.81|N|Head back outside the mine.|IZ|Splintertree Mine|
+A Playing With Felfire|QID|13730|M|73.33,62.13|N|From Splintertree Demolisher.|PRE|13803|RANK|1|
+A Dead Elves Walking|QID|13801|M|73.86,62.47|N|From Pixel.|PRE|13803|RANK|1|
 K Ashenvale Outrunners|QID|6503|M|75.52,70.28|QO|1|N|Kill Ashenvale Outrunners while questing.|S|
 C Dead Elves Walking|QID|13801|M|75.64,75.25|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|S|
-A Torek's Assault|QID|6544|M|68.36,75.21|ELITE|N|[color=80FF00]Escort Quest:[/color]\nClear the path and house before accepting quest. Be sure to keep Torek alive.|RANK|3|
-C Torek's Assault|QID|6544|M|64.71,75.40|N|Help Torek take Silverwing Outpost.|
-K Sharptalon|QID|2|M|78.1,65.8;73.3,70.6;71.3,75.5;73.7,78.5|CN|L|16305|N|Keep an eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|T|Sharptalon|S!US|IZ|The Dor'Danil Barrow Den|
-A Sharptalon's Claw|QID|2|M|PLAYER|N|From Sharptalon's Claw.|U|16305|O|
-C Pierce Their Heart!|QID|13805|M|75.91,75.36;75.54,74.12|CS|N|Enter Barrow Den. Follow the blood trail and use the Tainted Blood of the Kaldorei on the Heart.|U|45683|
-C Dead Elves Walking|QID|13801|M|75.64,75.25|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|US|
+A Torek's Assault|QID|6544|M|68.34,75.30|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Torek.\n[color=FF0000]NOTE: [/color]If he's not there, it means someone is already on the quest and you'll have to wait a few minutes. The quest doesn't take all that long.|RANK|3|
+C Torek's Assault|QID|6544|M|64.71,75.40|N|Follow Torek and his troops to Silverwing Outpost. Let Torek lead the fight.\n[color=FF0000]NOTE: [/color]Be sure to keep Torek alive. If he dies, it's game over. (the quest is; not the fighting)|
+R The Dor'Danil Barrow Den|ACTIVE|13805|M|75.91,75.36|N|Make your way to Barrow Den.|FLY|OLD|
+C Pierce Their Heart!|QID|13805|M|75.51,74.20|N|Enter Barrow Den and follow the blood trail. Use the Tainted Blood of the Kaldorei on the Forest Heart.|U|45683|
+K Dead Elves Walking|QID|13801|M|75.64,75.25|QO|1|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|US|
 K Ashenvale Outrunners|QID|6503|M|75.52,70.28|QO|1|N|Finish killing Ashenvale Outrunners.|US|
 K Destroy the Legion|QID|26448|M|84.07,70.30|QO|1|N|Slay any 15 demons.|S|
-C Playing With Felfire|QID|13730|M|79.84,64.72|N|Fill the Reinforced Canister with 7 Felfires from Felfire Hill.|U|45478|
+C Playing With Felfire|QID|13730|M|79.84,64.72|N|Use the Reinforced Canister to siphon 7 Felfires (the greenish fires on the ground) in Felfire Hill.|U|45478|
 C Destroy the Legion|QID|26448|US|M|84.07,70.30|N|Slay any 15 demons at Felfire Hill, Demon Fall Canyon, or Demon Fall Ridge.|
-l Diabolical Plans|QID|26447|M|80.81,68.51|L|23797|N|Kill demons until this drops.|RANK|1|
+l Diabolical Plans|AVAILABLE|26447|M|80.81,68.51|L|23780|N|Continue killing demons until you loot it.|RANK|1|
 A Diabolical Plans|QID|26447|M|80.81,68.51|N|From the Diabolical Plans.|U|23797|RANK|1|
 H Splintertree Post|QID|6503|
-T Ashenvale Outrunners|QID|6503|M|73.47,60.87|N|To Kuray'bin.|
-T Destroy the Legion|QID|26448|M|73.22,60.13|N|To Valusha.|
-T Diabolical Plans|QID|26447|M|73.22,60.13|N|To Valusha.|
-A Never Again!|QID|26449|M|73.22,60.13|N|From Valusha.|PRE|26447|RANK|1|
-T Pierce Their Heart!|QID|13805|M|73.53,62.17|N|To Kadrak.|
-A Mission Improbable|QID|13808|M|73.53,62.17|N|From Kadrak.|PRE|13805|RANK|2|
-A Bad News Bear-er|QID|13848|M|73.53,62.17|N|From Kadrak.|PRE|13805|RANK|1|
-T Dead Elves Walking|QID|13801|M|73.87,62.39|N|To Pixel.|
-T Playing With Felfire|QID|13730|M|73.31,62.06|N|To Splintertree Demolisher.|
-A Tell No One!|QID|13751|PRE|13730|M|73.31,62.06|N|From Splintertree Demolisher.|
+T Ashenvale Outrunners|QID|6503|M|73.56,60.86|N|To Kuray'bin.|
+T Destroy the Legion|QID|26448|M|73.17,60.11|N|To Valusha.|
+T Diabolical Plans|QID|26447|M|73.17,60.11|N|To Valusha.|
+A Never Again!|QID|26449|M|73.17,60.11|N|From Valusha.|PRE|26447|RANK|1|
+T Pierce Their Heart!|QID|13805|M|73.61,62.14|N|To Kadrak.| ; Completes The Corrupted Heart of the Forest
+A Mission Improbable|QID|13808|M|73.61,62.14|N|From Kadrak.|PRE|13805|RANK|2|
+A Bad News Bear-er|QID|13848|M|73.61,62.14|N|From Kadrak.|PRE|13805|RANK|1|
+T Dead Elves Walking|QID|13801|M|73.86,62.47|N|To Pixel.|
+T Playing With Felfire|QID|13730|M|73.33,62.13|N|To Splintertree Demolisher.|
+A Tell No One!|QID|13751|M|73.33,62.13|N|From Splintertree Demolisher.|PRE|13730|
 T Torek's Assault|QID|6544|M|73.04,62.46|N|To Ertog Ragetusk.|
-T Tell No One!|QID|13751|M|72.24,57.64|N|To Durak.|
-A Dirty Deeds|QID|13797|PRE|13751|RANK|1|M|72.24,57.64|N|From Durak.|
-C Dirty Deeds|QID|13797|M|73.21,55.91|N|Search the nearby piles of Fresh Rubble to find 10 Chunks of Ore.|
-T Dirty Deeds|QID|13797|M|72.25,57.55|N|To Durak.|
-A Rain of Destruction|QID|13798|M|72.25,57.55|N|From Durak.|PRE|13797|RANK|1|
-C Rain of Destruction|QID|13798|M|74.19,62.95|N|Leave the mine tunnel, climb a guard tower, use the Accursed Ore to target Elves and Ancients until complete.|U|45598|
-T Rain of Destruction|QID|13798|M|72.21,57.61|N|To Durak.|
-A All Apologies|QID|13841|M|73.33,62.12|N|From Splintertree Demolisher.|PRE|13798|RANK|1|
+T Tell No One!|QID|13751|M|72.20,57.65|N|To Durak inside Splintertree Mine (go left at the fork).|
+A Dirty Deeds|QID|13797|M|72.20,57.65|N|From Durak.|PRE|13751|RANK|1|
+l Dirty Deeds|QID|13797|M|73.21,55.91|QO|1|N|Throughout the mine, search the piles of Fresh Rubble to find the Chunks of Ore.|
+T Dirty Deeds|QID|13797|M|72.20,57.65|N|To Durak.|
+A Rain of Destruction|QID|13798|M|72.20,57.65|N|From Durak.\n[color=FF0000]NOTE: [/color]You will receive an Imp disguise buff when you accept this quest.|PRE|13797|RANK|1|
+R Exit the mine|QID|13798|M|73.31,59.81|QO|1|N|Head back outside the mine.|IZ|Splintertree Mine|
+C Rain of Destruction|QID|13798|M|74.19,62.95|QO|1;2|N|Climb one of the two guard towers and use the Accursed Ore to target Elves and Ancients until complete.|U|45598|
+T Rain of Destruction|QID|13798|M|72.20,57.65|N|To Durak.|
+A All Apologies|QID|13841|M|73.33,62.13|N|From Splintertree Demolisher.|PRE|13798|RANK|1|
 K Gorgannon|QID|26449|M|84.08,71.07;84.24,77.20;87.41,78.98;89.57,76.78|CS|QO|0|N|Follow the waypoints to Gorgannon in Demonfall Canyon. Kill him, pick up the loot.|
 C Never Again!|QID|26449|M|82.72,77.91;81.38,78.12;81.12,79.32;80.94,80.05;79.53,80.65;78.41,81.57;78.38,83.84|CS|N|Follow the waypoints through the Canyon and up another path to Diathorus. Kill him, pick up the loot.|
 H Splintertree Post|QID|26449|N|[coords]If Hearthstone isn't ready, just run back to Splintertree Post.|
 T Never Again!|QID|26449|M|73.20,60.08|N|To Valusha.|
 A Demon Duty|QID|13806|M|73.76,61.59|N|From Locke Okarr.|PRE|26449|RANK|1|
-A Satyr Horns|QID|6441|M|73.86,62.41|N|From Pixel.|PRE|26449|RANK|1|
+A Satyr Horns|QID|6441|M|73.86,62.47|N|From Pixel.|PRE|26449|RANK|1|
 C Satyr Horns|QID|6441|N|Kill Satyrs and collect horns.|S|
 C Demon Duty|QID|13806|M|82.08,52.74;80.64,49.04|CC|N|Take the path Northwest to get to this area. Close portals.|
 C Satyr Horns|QID|6441|M|81.42,51.21|N|Kill Satyrs and collect horns.|US|
@@ -115,14 +118,14 @@ A Gurtar's Request|QID|13875|RANK|1|M|89.59,48.71|N|From Guardian Gurtar.|
 l Thorned Bloodcup|QID|13875|M|86.52,54.98|L|46315 8|N|Collect 8 Thorned Bloodcups sparking on the ground,  These are tricky to see, but the red flowers are found all over the lumber camp (They do not show on the mini map for herb gatherers).|
 C Gurtar's Request|QID|13875|M|86.52,54.98|N|Use the Orc-Hair Braid to make the Bloodcup Braid.|U|46316|
 H Splintertree Post|QID|13875|N|If Hearthstone isn't ready, just run back to Splintertree Post.|
-T Gurtar's Request|QID|13875|M|73.34,62.08|N|To Splintertree Demolisher.|
+T Gurtar's Request|QID|13875|M|73.33,62.13|N|To Splintertree Demolisher.|
 T Demon Duty|QID|13806|M|73.76,61.71|N|To Locke Okarr.|
-T Satyr Horns|QID|6441|M|73.84,62.45|N|To Pixel.|
+T Satyr Horns|QID|6441|M|73.86,62.47|N|To Pixel.|
 F Orgrimmar|QID|13841|M|73.21,61.54|N|Fly to Orgrimmar|FLY|OLD|
 T All Apologies|QID|13841|M|50.79,63.38;48.12,70.72|Z|Orgrimmar|CC|N|Take the lift down, then turn in to Vol'jin.|
 A Dread Head Redemption|QID|13842|M|48.12,70.72|Z|Orgrimmar|N|From Vol'jin.|PRE|13841|
 F Splintertree Outpost|QID|13842|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|FLY|OLD|
-C Dread Head Redemption|QID|13842|M|72.22,56.76|N|Back into the mine, talk to Durak, he'll monologue, then attack you with a minion. Kill and loot.|
+C Dread Head Redemption|QID|13842|M|72.20,57.65|N|Back into the mine, talk to Durak, he'll monologue, then attack you with a minion. Kill and loot.|
 F Orgrimmar|QID|13842|M|73.21,61.54|N|Fly back to Orgrimmar.|FLY|OLD|
 T Dread Head Redemption|QID|13842|M|48.17,70.75|Z|Orgrimmar|N|To Vol'jin.|
 F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|FLY|OLD|
