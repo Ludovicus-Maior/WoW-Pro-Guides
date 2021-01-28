@@ -88,23 +88,27 @@ A Rain of Destruction|QID|13798|M|72.20,57.65|N|From Durak.\n[color=FF0000]NOTE:
 R Exit the mine|QID|13798|M|73.31,59.81|QO|1|N|Head back outside the mine.|IZ|Splintertree Mine|
 C Rain of Destruction|QID|13798|M|74.19,62.95|QO|1;2|N|Climb one of the two guard towers and use the Accursed Ore to target Elves and Ancients until complete.|U|45598|
 T Rain of Destruction|QID|13798|M|72.20,57.65|N|To Durak.|
+R Exit the mine|QID|13841|M|73.31,59.81|N|Head back outside the mine.|IZ|Splintertree Mine|
 A All Apologies|QID|13841|M|73.33,62.13|N|From Splintertree Demolisher.|PRE|13798|RANK|1|
-K Gorgannon|QID|26449|M|84.08,71.07;84.24,77.20;87.41,78.98;89.57,76.78|CS|QO|0|N|Follow the waypoints to Gorgannon in Demonfall Canyon. Kill him, pick up the loot.|
-C Never Again!|QID|26449|M|82.72,77.91;81.38,78.12;81.12,79.32;80.94,80.05;79.53,80.65;78.41,81.57;78.38,83.84|CS|N|Follow the waypoints through the Canyon and up another path to Diathorus. Kill him, pick up the loot.|
-H Splintertree Post|QID|26449|N|[coords]If Hearthstone isn't ready, just run back to Splintertree Post.|
-T Never Again!|QID|26449|M|73.20,60.08|N|To Valusha.|
+R Demon Fall Canyon|QID|26449|M|84.21,72.25|N|Follow the road east out of Splintertree through Felfire Hill. Go south at the fork before the 2nd bridge.|
+K Gorgannon|QID|26449|M|87.41,78.98;89.57,76.78|CS|QO|1|N|Follow the waypoints to Gorgannon to kill him and loot the Sword.|
+R Demon Fall Ridge|ACTIVE|26449|M|82.65,77.88|N|Head back to the main road into Demon Fall Canyon and follow it west towards the red markers.|
+K Diathorus the Seeker|QID|26449|M|78.34,81.72;78.38,83.84|CS|QO|2|N|Continue following the markers up the path until you reach the village. Locate the den entrance on the far side of the village and go inside. When you get to the bottom of the entranceway, Diathorus is in the room on the other side of the bridge directly in front of. Cross the bridge and kill him to pick up the quest loot.|
+H Splintertree Post|QID|26449|M|77.19,82.76|N|Hearth back to Splintertree Post.\n[color=FF0000]NOTE: [/color]If your Hearthstone's still on CD, I suggest waiting up the tunnel for it to finish. Otherwise, it's a very long run back.|
+T Never Again!|QID|26449|M|73.17,60.11|N|To Valusha.|
 A Demon Duty|QID|13806|M|73.76,61.59|N|From Locke Okarr.|PRE|26449|RANK|1|
 A Satyr Horns|QID|6441|M|73.86,62.47|N|From Pixel.|PRE|26449|RANK|1|
-C Satyr Horns|QID|6441|N|Kill Satyrs and collect horns.|S|
-C Demon Duty|QID|13806|M|82.08,52.74;80.64,49.04|CC|N|Take the path Northwest to get to this area. Close portals.|
-C Satyr Horns|QID|6441|M|81.42,51.21|N|Kill Satyrs and collect horns.|US|
-C Mission Improbable|QID|13808|M|82.53,53.61|N|Use the Secret Signal Powder on the Smoldering Brazier across from Satyrnaar.|U|45710|
-T Mission Improbable|QID|13808|M|82.52,53.80|N|To Krokk.|
-A Making Stumps|QID|13815|M|82.52,53.80|N|From Krokk.|PRE|13808|RANK|2|
-A Wet Work|QID|13865|M|82.52,53.80|N|From Krokk.|PRE|13808|RANK|2|
-C Making Stumps|QID|13815|M|86.51,54.67|N|Use the Splintertree Axe to chop the trees.|U|45807|S|
+l Satyr Horns|QID|6441|M|81.29,51.24|QO|1|N|Kill Satyrs to collect the horns.|S|
+R Satyrnaar|QID|13806|M|81.66,53.69|N|Take the north path to Satyrnaar.|
+C Demon Duty|QID|13806|M|81.29,51.24|N|Click on the Ritual Gems to close the portals.|NC|
+l Satyr Horns|QID|6441|M|81.29,51.24|QO|1|N|Kill Satyrs to collect the horns.|US|
+C Mission Improbable|QID|13808|M|82.57,53.65|N|Click on the Smoldering Brazier across the road.|
+T Mission Improbable|QID|13808|M|82.53,53.80|N|To Krokk.\n[color=FF0000]NOTE: [/color]Clicking on the Smoldering Brazier will summon him.|
+A Making Stumps|QID|13815|M|82.53,53.80|N|From Krokk.|PRE|13808|RANK|2|
+A Wet Work|QID|13865|M|82.53,53.80|N|From Krokk.|PRE|13808|RANK|2|
+C Making Stumps|QID|13815|M|86.51,54.67|N|Use the Splintertree Axe to chop the trees.|U|45807|NC|S|
 C Wet Work|QID|13865|M|85.36,56.16;85.75,57.76;85.45,60.45|CN|N|Kill Scouts while defeating the three Protectors (where the waypoints are).|
-C Making Stumps|QID|13815|M|86.51,54.67|N|Finish chopping the needed trees.|U|45807|US|
+C Making Stumps|QID|13815|M|86.51,54.67|N|Finish chopping the needed trees.|U|45807|NC|US|
 T Making Stumps|QID|13815|M|82.52,53.78|N|Use the Signal Powder again to summon Krokk. Turn in your quest.|U|45710|
 T Wet Work|QID|13865|M|82.52,53.78|N|To Krokk.|
 A As Good as it Gets|QID|13870|M|82.52,53.78|N|From Krokk.|PRE|13815&13865|RANK|2|
