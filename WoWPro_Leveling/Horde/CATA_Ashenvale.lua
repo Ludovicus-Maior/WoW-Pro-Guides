@@ -4,10 +4,10 @@ WoWPro:GuideNextGuide(guide, 'JiySto2530')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|S!US|LVL|-50|CT|
-A Mor'shan Defense|QID|13612|M|42.73,15.06|Z|Northern Barrens|N|From Kadrak. |RANK|1|
+A Mor'shan Defense|QID|13612|M|42.73,15.06|Z|Northern Barrens|N|From Kadrak.|RANK|2|
 A Find Gorat!|QID|13618|M|42.73,15.06|Z|Northern Barrens|N|From Kadrak.|RANK|1|
-A Empty Quivers|QID|13615|M|42.26,15.20|Z|Northern Barrens|N|From Truun.|RANK|1|
-A Rescue the Fallen|QID|13613|M|42.42,15.76|Z|Northern Barrens|N|From Dinah Halfmoon.|RANK|1|
+A Empty Quivers|QID|13615|M|42.26,15.20|Z|Northern Barrens|N|From Truun.|RANK|2|
+A Rescue the Fallen|QID|13613|M|42.42,15.76|Z|Northern Barrens|N|From Dinah Halfmoon.|RANK|2|
 f The Mor'Shan Ramparts|QID|13628|M|41.98,15.88|Z|Northern Barrens|N|Get the flightpoint from Gort Goreflight|TAXI|-The Mor'Shan Ramparts|
 K Mor'shan Defense|ACTIVE|13612|M|67.29,86.43;42.15,13.06|CN|QO|1;2|N|Kill 5 Ashenvale Skirmishers and 5 Ashenvale Bowmen.|S|
 l Empty Quivers|ACTIVE|13615|M|67.57,86.13|QO|1|N|Collect "shiny" Arrows stuck in the ground.|S|
@@ -16,7 +16,7 @@ T Find Gorat!|QID|13618|M|64.16,84.51|N|To Gorat.|
 A Final Report|QID|13619|M|64.16,84.51|N|From Gorat.|PRE|13618|RANK|1|
 l Empty Quivers|ACTIVE|13615|M|67.57,86.13|QO|1|N|Collect "shiny" Arrows stuck in the ground.|US|
 K Mor'shan Defense|ACTIVE|13612|M|67.29,86.43;42.15,13.06|CN|QO|1;2|N|Kill 5 Ashenvale Skirmishers and 5 Ashenvale Bowmen.|US|
-T Mor'shan Defense|QID|13612|M|42.65,15.01|Z|Northern Barrens|N|To Kadrak.o Kadrak.\n[color=FF0000]NOTE: [/color]He paths back and forth across the road in front of the towers.|
+T Mor'shan Defense|QID|13612|M|42.65,15.01|Z|Northern Barrens|N|To Kadrak\n[color=FF0000]NOTE: [/color]He paths back and forth across the road in front of the towers.|
 T Final Report|QID|13619|M|42.65,15.01|Z|Northern Barrens|N|To Kadrak.|
 A To Dinah, at Once!|QID|13620|M|42.65,15.01|Z|Northern Barrens|N|From Kadrak.|PRE|13619|RANK|1|
 T Empty Quivers|QID|13615|M|42.26,15.20|Z|Northern Barrens|N|To Truun.|
@@ -35,19 +35,19 @@ C Management Material|QID|13640|M|71.51,82.40|N|Talk to a Demoralized Peon and f
 T Management Material|QID|13640|M|72.93,80.44|N|To Gorka.|
 A Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|From Gorka.|PRE|13640|RANK|1|
 C Needs a Little Lubrication|QID|13651|M|74.25,73.56|N|Kill Rotting Slime until you have 5 Natural Oil.|
-K Sharptalon|QID|2|M|72.33,76.83|L|16305|N|Keep an eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|T|Sharptalon|S!US|IZ|The Dor'Danil Barrow Den|
+K Sharptalon|QID|2|M|72.33,76.83|L|16305|N|Keep an eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|T|Sharptalon|S!US|IZ|The Dor'Danil Barrow Den|RANK|3|
 A Sharptalon's Claw|QID|2|M|PLAYER|N|From Sharptalon's Claw.|U|16305|O|
 T Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|To Gorka.|
 A Crisis at Splintertree|QID|13653|M|72.93,80.44|N|From Gorka.|PRE|13651|RANK|1|
 C Crisis at Splintertree|QID|13653|M|72.93,80.44|N|Speak to Gorka when you are ready to leave.\n[color=FF0000]NOTE: [/color]A cancelable cinematic will begin; giving you a free ride back to The Mor'shan Ramparts.|CHAT|
 T Crisis at Splintertree|QID|13653|M|42.69,14.97|Z|Northern Barrens|N|To Kadrak.|
 A To the Rescue!|QID|13712|M|42.69,14.97|Z|Northern Barrens|N|From Kadrak.|PRE|13653|RANK|1|
-r Repair|QID|13712|M|42.38,14.97|Z|Northern Barrens|N|Speak with Ornag to repair/restock/unload, if necessary. Then check off this step.|
+r Repair|ACTIVE|13712|M|42.38,14.97|Z|Northern Barrens|N|Speak with Ornag to repair/restock/unload, if necessary. Then check off this step.|
 F Splintertree Post|ACTIVE|13712|M|42.69,14.97|Z|Northern Barrens|N|Speak to Kadrak for a free ride to Splintertree Post.|IZ|The Mor'shan Ramparts|CHAT|
+f Splintertree Post|ACTIVE|13712|M|73.18,61.59|N|Get the flight point from Vhulgra.|TAXI|-Splintertree Post|
 T To the Rescue!|QID|13712|M|73.61,62.14|N|To Kadrak in Splintertree Post.|
-f Splintertree Post|QID|13803|M|73.18,61.59|N|Get the flight point from Vhulgra.|TAXI|-Splintertree Post|
 A Blood of the Weak|QID|13803|M|73.61,62.14|N|From Kadrak.|PRE|13712|RANK|1|
-h Splintertree Post|QID|6503|M|73.99,60.64|N|At Innkeeper Kaylisk.|
+h Splintertree Post|ACTIVE|13803|M|73.99,60.64|N|At Innkeeper Kaylisk.|
 A Ashenvale Outrunners|QID|6503|M|73.56,60.86|N|From Kuray'bin.|RANK|1|
 A Destroy the Legion|QID|26448|M|73.17,60.11|N|From Valusha.|RANK|1|
 T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.20,57.65|CC|N|To Durak inside the Splintertree Mine.|
@@ -74,8 +74,8 @@ T Destroy the Legion|QID|26448|M|73.17,60.11|N|To Valusha.|
 T Diabolical Plans|QID|26447|M|73.17,60.11|N|To Valusha.|
 A Never Again!|QID|26449|M|73.17,60.11|N|From Valusha.|PRE|26447|RANK|1|
 T Pierce Their Heart!|QID|13805|M|73.61,62.14|N|To Kadrak.| ; Completes The Corrupted Heart of the Forest
-A Mission Improbable|QID|13808|M|73.61,62.14|N|From Kadrak.|PRE|13805|RANK|2|
-A Bad News Bear-er|QID|13848|M|73.61,62.14|N|From Kadrak.|PRE|13805|RANK|1|
+A Mission Improbable|QID|13808|M|73.61,62.14|N|From Kadrak.|PRE|13805|RANK|1|
+A Bad News Bear-er|QID|13848|M|73.61,62.14|N|From Kadrak.\n[color=FF0000]NOTE: [/color]This quest leads you to Zoram'gar Outpost.|PRE|13805|RANK|1|
 T Dead Elves Walking|QID|13801|M|73.86,62.47|N|To Pixel.|
 T Playing With Felfire|QID|13730|M|73.33,62.13|N|To Splintertree Demolisher.|
 A Tell No One!|QID|13751|M|73.33,62.13|N|From Splintertree Demolisher.|PRE|13730|
@@ -104,21 +104,21 @@ C Demon Duty|QID|13806|M|81.29,51.24|N|Click on the Ritual Gems to close the por
 l Satyr Horns|ACTIVE|6441|M|81.29,51.24|QO|1|N|Kill Satyrs to collect the horns.|US|
 C Mission Improbable|QID|13808|M|82.57,53.65|N|Click on the Smoldering Brazier across the road.|
 T Mission Improbable|QID|13808|M|82.53,53.80|N|To Krokk.\n[color=FF0000]NOTE: [/color]Clicking on the Smoldering Brazier will summon him.|
-A Making Stumps|QID|13815|M|82.53,53.80|N|From Krokk.|PRE|13808|RANK|2|
-A Wet Work|QID|13865|M|82.53,53.80|N|From Krokk.|PRE|13808|RANK|2|
+A Making Stumps|QID|13815|M|82.53,53.80|N|From Krokk.|PRE|13808|RANK|1|
+A Wet Work|QID|13865|M|82.53,53.80|N|From Krokk.|PRE|13808|RANK|1|
 C Making Stumps|QID|13815|M|86.51,54.67|N|Use the Splintertree Axe to chop the trees.|U|45807|NC|S|
 C Wet Work|QID|13865|M|85.36,56.16;85.75,57.76;85.45,60.45|CN|N|Kill Scouts while defeating the three Protectors (where the waypoints are).|
 C Making Stumps|QID|13815|M|86.51,54.67|N|Finish chopping the needed trees.|U|45807|NC|US|
 T Making Stumps|QID|13815|M|82.52,53.78|N|Use the Signal Powder again to summon Krokk. Turn in your quest.|U|45710|
 T Wet Work|QID|13865|M|82.52,53.78|N|To Krokk.|
-A As Good as it Gets|QID|13870|M|82.52,53.78|N|From Krokk.|PRE|13815&13865|RANK|2|
+A As Good as it Gets|QID|13870|M|82.52,53.78|N|From Krokk.|PRE|13815&13865|RANK|1|
 T As Good as it Gets|QID|13870|M|90.93,58.29|N|To Overseer Gorthak.|
 A Security!|QID|13871|M|90.93,58.29|N|From Overseer Gorthak.|PRE|13870|RANK|1|
 C Security!|QID|13871|M|91.25,57.50|N|Wander around until the Assassin attacks you (can be inside or outside the building possibly). Kill it.|
 T Security!|QID|13871|M|90.94,58.12|N|To Overseer Gorthak.|
 A Sheelah's Last Wish|QID|13873|M|90.79,58.24|N|From Guardian Menerin.|PRE|13871|RANK|1|
-T Sheelah's Last Wish|QID|13873|M|89.59,48.71|N|To Guardian Gurtar.|
-A Gurtar's Request|QID|13875|M|89.59,48.71|N|From Guardian Gurtar.|RANK|1|
+T Sheelah's Last Wish|QID|13873|M|89.59,48.71|N|To Guardian Gurtar.| ; Completes The Diplomat from Silvermoon
+A Gurtar's Request|QID|13875|M|89.59,48.71|N|From Guardian Gurtar.|RANK|3|
 l Thorned Bloodcup|ACTIVE|13875|M|86.52,54.98|L|46315 8|N|Collect 8 Thorned Bloodcups sparking on the ground,  These are tricky to see, but the red flowers are found all over the lumber camp (They do not show on the mini map for herb gatherers).|
 C Gurtar's Request|QID|13875|M|86.52,54.98|N|Use the Orc-Hair Braid to make the Bloodcup Braid.|U|46316|
 H Splintertree Post|ACTIVE|13875|N|If Hearthstone isn't ready, just run back to Splintertree Post.|
@@ -127,33 +127,33 @@ T Demon Duty|QID|13806|M|73.76,61.71|N|To Locke Okarr.|
 T Satyr Horns|QID|6441|M|73.86,62.47|N|To Pixel.|
 F Orgrimmar|ACTIVE|13841|M|73.21,61.54|N|Fly to Orgrimmar|FLY|OLD|
 T All Apologies|QID|13841|M|50.79,63.38;48.12,70.72|Z|Orgrimmar|CC|N|Take the lift down, then turn in to Vol'jin.|
-A Dread Head Redemption|QID|13842|M|48.12,70.72|Z|Orgrimmar|N|From Vol'jin.|PRE|13841|
+A Dread Head Redemption|QID|13842|M|48.12,70.72|Z|Orgrimmar|N|From Vol'jin.|PRE|13841|RANK|1|
 F Splintertree Outpost|ACTIVE|13842|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|FLY|OLD|
 C Dread Head Redemption|QID|13842|M|72.20,57.65|N|Back into the mine, talk to Durak, he'll monologue, then attack you with a minion. Kill and loot.|
 F Orgrimmar|ACTIVE|13842|M|73.21,61.54|N|Fly back to Orgrimmar.|FLY|OLD|
-T Dread Head Redemption|QID|13842|M|48.17,70.75|Z|Orgrimmar|N|To Vol'jin.|
+T Dread Head Redemption|QID|13842|M|48.17,70.75|Z|Orgrimmar|N|To Vol'jin.| ; Completes Splintertree's Demonic Defense
 F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|FLY|OLD|
 F Zoram'gar Outpost|ACTIVE|13848|M|73.2,61.6|N|Talk to Vhulgra fly to Zoram'gar Outpost.|
-f Zoram'gar Outpost|ACTIVE|13848|M|11.2,34.4|N|Get the flight point from Andruk.|
+f Zoram'gar Outpost|ACTIVE|13848|M|11.2,34.4|N|Get the flight point from Andruk.|TAXI|-Zoram'gar Outpost|
 h Zoram'gar Outpost|ACTIVE|13848|M|12.92,34.14|N|Set your hearth with Innkeeper Duras.|
 T Bad News Bear-er|QID|13848|M|73.21,61.54;12.03,33.88|CC|N|Turn in to Commander Grimfang.|
 A Keep the Fires Burning|QID|13890|M|12.08,33.78|N|From Commander Grimfang.|RANK|1|
-A Blackfathom Deeps|QID|26894|M|12.08,33.78|N|From Commander Grimfang. Pick up if you plan on running the Blackfathom Deeps instance.|RANK|1|
-A Lousy Pieces of Ship|QID|13883|M|11.63,35.52|N|From Dagrun Ragehammer.|RANK|1|
-A The Essence of Aku'Mai|QID|26890|M|11.63,35.52|ELITE|N|[color=E6CC80]Dungeon: Blackfathom Deeps[/color]\nFrom Dagrun Ragehammer.|RANK|1|
+A Blackfathom Deeps|QID|26894|M|12.08,33.78|N|From Commander Grimfang. Pick up if you plan on running the Blackfathom Deeps instance.|RANK|3|
+A Lousy Pieces of Ship|QID|13883|M|11.63,35.52|N|From Dagrun Ragehammer.|RANK|2|
+A The Essence of Aku'Mai|QID|26890|M|11.63,35.52|ELITE|N|[color=E6CC80]Dungeon: Blackfathom Deeps[/color]\nFrom Dagrun Ragehammer.|RANK|3|
 A Naga at the Zoram Strand|QID|6442|M|12.66,35.39|N|From Marukai.|
-A Vorsha the Lasher|QID|6641|M|12.77,34.14|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash.|RANK|2|
+A Vorsha the Lasher|QID|6641|M|12.77,34.14|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash.|RANK|1|
 C Naga at the Zoram Strand|QID|6442|M|14.88,21.18|N|Kill and loot Wraithtail Naga heads.|S|
 C Vorsha the Lasher|QID|6641|M|9.58,27.88|N|Follow Muglash and help him kill Vorsha.|NC|
-C Lousy Pieces of Ship|QID|13883|M|5.00,31.12|N|Collect Sunken Ship Parts.|S|
+l Lousy Pieces of Ship|ACTIVE|13883|M|5.00,31.12|L|46357 10|N|Collect Sunken Ship Parts.|S|
 l Mystlash Hydra Blubber|ACTIVE|13890|M|8.2,32.61|L|46365 10|N|Kill and loot Hydras until you have 10 Blubber.|
-C Lousy Pieces of Ship|QID|13883|M|5.00,31.12|N|Finish collecting Ship Parts.|US|
-U Mystlash Hydra Blubber|ACTIVE|13890|M|11.44,35.23|L|46366|N|Take 10 Blubber to the Forge and turn it into Mystlash Hydra Oil.|U|46365|
+l Lousy Pieces of Ship|ACTIVE|13883|M|5.00,31.12|L|46357 10|N|Collect Sunken Ship Parts.|US|
+U Mystlash Hydra Oil|ACTIVE|13890|M|11.44,35.23|L|46366|N|Take 10 Blubber to the Forge and turn it into Mystlash Hydra Oil.|U|46365|
 C Keep the Fires Burning|QID|13890|M|6.74,28.97|N|Go light the Lighthouse.|
 C Naga at the Zoram Strand|QID|6442|M|14.88,21.18|N|Kill and loot Wraithtail Naga heads.|US|
-T Vorsha the Lasher|QID|6641|M|12.42,35.15|N|To Warsong Runner.|
+T Vorsha the Lasher|QID|6641|M|12.42,35.15|N|To Warsong Runner.| ; Completes Zoram'gar Outpost
 T Naga at the Zoram Strand|QID|6442|M|12.66,35.39|N|To Marukai.|
-A Deep Despair|QID|13901|M|12.66,35.39|N|From Marukai.|
+A Deep Despair|QID|13901|M|12.66,35.39|N|From Marukai.|RANK|1|
 T Keep the Fires Burning|QID|13890|M|12.08,33.82|N|To Commander Grimfang.|
 A Before You Go...|QID|13920|M|12.08,33.82|N|From Commander Grimfang.|PRE|13890|RANK|1|
 T Lousy Pieces of Ship|QID|13883|M|11.57,35.27|N|To Dagrun Ragehammer.|
@@ -163,7 +163,7 @@ C The Essence of Aku'Mai|QID|26890|M|13,13|N|So head down into the cave and loot
 K Deep Despair|ACTIVE|13901|M|13,13|QO|1|N|[coords]Kill Blackfathom Priestesses.|US|
 H Zoram'gar Outpost|ACTIVE|13920|N|Hearth back to Zoram'gar Outpost.|
 T Before You Go...|QID|13920|M|12.10,33.82|N|To Commander Grimfang.|
-A To Hellscream's Watch|QID|13923|M|12.10,33.82|N|From Commander Grimfang.|PRE|13920|RANK|1|
+A To Hellscream's Watch|QID|13923|M|12.10,33.82|N|From Commander Grimfang.\n[color=FF0000]NOTE: [/color]Leads you to the next area in the Storyline.|PRE|13920|RANK|1|
 T Deep Despair|QID|13901|M|12.66,35.39|N|To Marukai.|
 T The Essence of Aku'Mai|QID|26890|M|11.54,35.29|N|To Dagrun Ragehammer.|
 F Hellscream's Watch|ACTIVE|13923|M|11.20,34.40|N|Talk to Andruk for free flight.|
@@ -185,7 +185,7 @@ C Small Hands, Short Fuse|QID|13944|M|38.35,44.23|N|Use Tweedle's Improvised Exp
 T Small Hands, Short Fuse|QID|13944|M|38.00,42.84|N|To Captain Goggath.|
 A Blastranaar!|QID|13947|M|38.00,42.84|N|From Captain Goggath.|PRE|13944|RANK|1|
 C Blastranaar!|QID|13947|M|38.10,42.18|N|Talk to Thraka when you're ready to bomb some stuff!|
-T Blastranaar!|QID|13947|M|38.33,43.73|N|To Captain Goggath.|
+T Blastranaar!|QID|13947|M|38.33,43.73|N|To Captain Goggath.| ; Completes Weapons of Their Destruction
 A Condition Critical!|QID|13958|M|38.33,43.73|N|From Captain Goggath.|PRE|13947|RANK|1|
 A Tweedle's Tiny Package|QID|13974|M|38.02,43.83|N|From Tweedle.|PRE|13947|RANK|1|
 A Thunder Peak|QID|13879|M|38.84,43.37|N|From Broyk.|PRE|13947|RANK|1|
@@ -202,14 +202,15 @@ t Sharptalon's Claw|QID|2|M|49.8,65.2|N|To Senani Thunderheart.|IZ|Silverind Ref
 A Thinning the... Herd?|QID|13967|M|49.76,65.13|N|From Senani Thunderheart.|RANK|2|
 T Tweedle's Tiny Package|QID|13974|M|49.98,67.17|N|To Flooz.|
 A Mass Production|QID|13977|M|49.98,67.25|N|Wait a moment then get this quest from Flooz.|PRE|13974|RANK|2|
-A Well, Come to the Jungle|QID|26416|M|49.70,67.14|N|From Cromula.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|RANK|1|
+A Well, Come to the Jungle|QID|26416|M|49.70,67.14|N|From Cromula.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|RANK|2|
 A Simmer Down Now|QID|25|M|50.12,67.52|N|From Captain Tarkan.|RANK|2|
 h Silverwind Refuge|ACTIVE|6482|M|50.37,67.20|N|At Innkeeper Chin'toka.|
 F Splintertree Post|QID|6482|M|49.3,65.26|N|Fly to Splintertree Post.|FLY|OLD|
 T Freedom to Ruul|QID|6482|M|74.07,60.90|N|To Yama Snowhoof.|
 C Thinning the... Herd?|QID|13967|M|57.37,64.16|N|Kill and loot Furbolg until you get 15 ears.|
-C Simmer Down Now|QID|25|M|48.33,69.65|N|Kill Befouled Water Elementals and Tideress. If they drop a Befouled Water Globe accept the quest from it.|
-A The Befouled Element|QID|1918|M|50.52,65.86|N|From the Befouled Water Globe.|U|16408|RANK|2|
+K Simmer Down Now|ACTIVE|25|M|48.33,69.65|N|Kill Befouled Water Elementals and Tideress.|
+l Befouled Water Globe|AVAILABLE|1918|M|48.33,69.65|N|Continue killing Befouled Water Elementals and Tideress until one drops it.|RANK|2|
+A The Befouled Element|QID|1918|M|50.52,65.86|N|From the Befouled Water Globe.|U|16408|O|RANK|2|
 T Simmer Down Now|QID|25|M|50.13,67.52|N|To Captain Tarkan.|
 T Thinning the... Herd?|QID|13967|M|49.76,65.14|N|To Senani Thunderheart.|
 A King of the Foulweald|QID|6621|M|49.76,65.14|N|From Senani Thunderheart.|PRE|13967|RANK|2|
