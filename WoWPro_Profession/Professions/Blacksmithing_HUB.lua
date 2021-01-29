@@ -12,10 +12,10 @@ return [[
 
 N Blacksmithing Plans|QID|164001300|JUMP|BSM_VAN|S|N|Jump to Vanilla Blacksmithing Plans 1 - 300 guide.|NOCACHE|
 N Outland Plans|QID|164101075|JUMP|BSM_TBC|S|N|Jump to Outland Plans 1 - 75 guide.|NOCACHE|
-N Northrend Plans|QID|164201075|JUMP|BSM_WOTLK|S|N|Not Ready - Jump to Northrend Plans 1 - 75 guide.|NOCACHE|
-N Cataclysm Plans|QID|164301075|JUMP|BSM_CATA|S|N|Not Ready - Jump to Cataclysm Plans 1 - 75 guide.|NOCACHE|
-N Pandaren Plans|QID|164401075|JUMP|BSM_MOP|S|N|Not Ready - Jump to Pandaren Plans 1 - 75 guide.|NOCACHE|
-N Draenor Plans|QID|164501100|JUMP|BSM_WOD|S|N|Not Ready - Jump to Draenor Plans 1 - 100 guide.|NOCACHE|
+N Northrend Plans|QID|164201075|JUMP|BSM_WotLK|S|N|Jump to Northrend Plans 1 - 75 guide.|NOCACHE|
+N Cataclysm Plans|QID|164301075|JUMP|BSM_Cata|S|N|Jump to Cataclysm Plans 1 - 75 guide.|NOCACHE|
+N Pandaren Plans|QID|164401075|JUMP|BSM_MoP|S|N|Jump to Pandaren Plans 1 - 75 guide.|NOCACHE|
+N Draenor Plans|QID|164501100|JUMP|BSM_WoD|S|N|Jump to Draenor Plans 1 - 100 guide.|NOCACHE|
 N Legion Plans|QID|164601100|JUMP|BSM_LEG|S|N|Not Ready - Jump to Legion Plans 1 - 100 guide.|NOCACHE|
 N Zandalari Plans|QID|164701175|JUMP|BSM_BFA_H|S|N|Not Ready - Jump to Zandalari Plans 1 - 175 guide.|NOCACHE|FACTION|Horde|
 N Kul Tiras Plans|QID|164701175|JUMP|BSM_BFA_A|S|N|Not Ready - Jump to Kul Tiras Plans 1 - 175 guide.|NOCACHE|FACTION|Alliance|
