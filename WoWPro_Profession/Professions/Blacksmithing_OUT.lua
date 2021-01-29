@@ -23,20 +23,20 @@ return [[
 N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers what Blizzard now terms Outland Plans content Outland 1-75\nAlso ASSUMES you have the appropriate Skill|
-N Reputation Required for this Guide|QID|164000002|N|Reputation needed\nCenarion Expedition - Honored AND Either\nThe Scryers - Revered OR\nThe Aldor - Honored OR\n Run Botanica for Plans- Earthpeace Breastplate and\nAuchenai crypts for Plans- Felsteel Gloves|
+N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports|
+N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Outland 1 to 60, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
-N Blacksmithing Choices|QID|164000005|N|Once you reach 60, there are 3 different routes to go from 60 to 75, those Materials ARE NOT in this list.|
+N Reputation Required for this Guide|QID|164000005|N|Reputation needed\nCenarion Expedition - Honored AND Either\nThe Scryers - Revered OR\nThe Aldor - Honored OR\n Run Botanica for Plans- Earthpeace Breastplate and\nAuchenai crypts for Plans- Felsteel Gloves|
+N Blacksmithing Choices|QID|164000006|N|Once you reach 60, there are 3 different routes to go from 60 to 75, those Materials ARE NOT in this list.|
 ; Begin Shopping list, as of Oct-2020
 
 l [item=23445/Fel Iron Bar]|QID|164023445|L|23445 102|ITEM|23445|N|You'll need about 102 Fel Iron Bars.|
 l [item=21877/Netherweave Cloth]|QID|164021877|L|21877 60|ITEM|21877|N|You'll need about 60 Netherweave Cloths.|
 l [item=23446/Adamantite Bar]|QID|164023446|L|23446 120|ITEM|23446|N|You'll need about 120 Adamantite Bars.|
 
-N Shopping List|N|This completes the Shopping List to Level 60 only.  Due to various ways you can go from 60 to 75, we have not included a shopping list for that section. You may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|164000007|N|This completes the Shopping List to Level 60 only.  Due to various ways you can go from 60 to 75, we have not included a shopping list for that section. You may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
-
-; What to Craft 001 to 035 Outland
 
 = Learn [spell=264436/Outland Blacksmithing]|QID|164264436|M|69.83,42.02|Z|Shattrath City|P|Blacksmithing;164;*;0;0|T|Zula Slagfury|SPELL|Outland Blacksmithing;264436|LVL|5|N|From Zula Slagfury, in Shattrath.|
 
@@ -62,7 +62,7 @@ F Telredor|QID|164028632|M|63.95,41.38|Z|Shattrath City|RECIPE|34608|FACTION|All
 B [spell=34608/Adamantite Weightstone]|QID|164028632|M|79.2,63.8|Z|Zangarmarsh|RECIPE|34608|P|Blacksmithing;164;1+50;0|REP|Cenarion Expedition;942;Honored-Exalted|T|Fedryen Swiftspear|N|Purchase [item=28632/Plans: Adamantite Weightstone] from Fedryen Swiftspear, Cenarion Refuge\n(Needs at least Honoured with Cenarion Expedition).|
 M [item=28421/Adamantite Weightstone]|QID|164034608|P|Blacksmithing;164;1+60;1|ITEM|28421|CRAFT|34608 25|MATS|23446 1;21877 2|
 
-N Leveling from 60 to 75|N|There are three different ways to finish from 60 to 75, Reputation with The Scryers or The Aldor, OR running The Botanica AND Auchenai Crypts.  All three methods will be covered just RIGHT Click off which ever you want to skip.|
+N Leveling from 60 to 75|QID|164060275|N|There are three different ways to finish from 60 to 75, Reputation with The Scryers or The Aldor, OR running The Botanica AND Auchenai Crypts.  All three methods will be covered just RIGHT Click off which ever you want to skip.|
 
 ; need to add materials for these steps...  -  undecided if I am going to.
 
@@ -83,8 +83,6 @@ M [item=23517/Felsteel Gloves]|QID|164029619|P|Blacksmithing;164;1+70;1|ITEM|235
 M [item=23517/Felsteel Gloves]|QID|164029619|P|Blacksmithing;164;1+75;1|RECIPE|29649|ITEM|23517|CRAFT|29619 10|MATS|23448 6|  ; checks to see if they have next plan, if not do this step
 M [item=23527/Earthpeace Breastplate]|QID|164029649|P|Blacksmithing;164;1+75;1|ITEM|23527|CRAFT|29649|MATS|23573 4;21886 6;22452 4|
 
-N Congratulations|N|That completes Blacksmithing - Outland Plans.
+N Congratulations|QID|164000010|N|That completes Blacksmithing - Outland Plans.|
 ]]
 end)
-
-
