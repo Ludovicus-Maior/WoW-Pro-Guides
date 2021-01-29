@@ -266,8 +266,8 @@ A Audience With The Dragon Queen|QID|12495|PRE|12474|M|37.8,23.4|N|From Highlord
 F Wyrmrest Temple|QID|12146|M|39.5,25.9|N|Get the flight point and fly to Wyrmrest Temple.|
 T Disturbing Implications|QID|12146|N|Turn in to Aurastrasza, who resides at the bottom floor of Wyrmrest Temple.|M|60.0,55.1|
 A One of a Kind|QID|12148|PRE|12146^12147|M|60.0,55.1|N|From Aurastrasza.|
-T Mystery of the Infinite|QID|12470|N|Go to Tariolastrasz and ask him to fly you to the top floor. Turn the quest into Chromie.|M|60,54.49|
-A Mystery of the Infinite, Redux |QID|13343|N|From Chromie.|M|60.54.49|
+T Mystery of the Infinite|QID|12470|N|Go to Tariolastrasz and ask him to fly you to the top floor. Turn the quest into Chromie.|M|60.0,54.49|
+A Mystery of the Infinite, Redux |QID|13343|N|From Chromie.|M|60.0,54.49|
 T Audience With The Dragon Queen|QID|12495|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
 A Galakrond and the Scourge|QID|12497|PRE|12495^12496|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
 T Galakrond and the Scourge|QID|12497|N|To Torastrasza.|M|59.5,53.3|
@@ -423,7 +423,7 @@ F Wyrmrest Temple|QID|12768|M|77.03,49.79|N|Fly to Wyrmrest Temple.|
 T The Steward of Wyrmrest Temple|QID|12768|N|Go to Tariolstrasz on the western side of the temple.|M|57.9,54.2|
 A Informing the Queen|QID|12123|PRE|12768|M|57.9,54.2|N|From Tariolstrasz.|
 T That Which Creates Can Also Destroy|QID|12459|N|Ask Tariolstrasz to take you to the top floor. Turn the quest into Lord Itharius.|M|59.6,54.4|
-T Mystery of the Infinite, Redux |QID|13343|N|To Chromie.|M|60,54.49|
+T Mystery of the Infinite, Redux |QID|13343|N|To Chromie.|M|60.0,54.49|
 T Tales of Destruction|QID|12266|M|60.1,54.2|N|To Nalice.|
 T The Fate of the Ruby Dragonshrine|QID|12419|M|59.8,54.7|N|To Krasus.|
 T Informing the Queen|QID|12123|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
