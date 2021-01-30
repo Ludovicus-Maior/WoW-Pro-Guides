@@ -5,6 +5,11 @@
 	<Script file="Blacksmithing_HUB.lua"/>
 	<Script file="Blacksmithing_VAN.lua"/>
 	<Script file="Blacksmithing_OUT.lua"/>
+	<Script file="Blacksmithing_WotLK.lua"/>
+	<Script file="Blacksmithing_Cata.lua"/>
+	<Script file="Blacksmithing_MoP.lua"/>
+	<Script file="Blacksmithing_WoD.lua"/>
+	<Script file="Blacksmithing_LEG.lua"/>
 	<Script file="Blacksmithing_SL.lua"/>
 	<Script file="Enchanting_SL.lua"/>
 	<Script file="Engineering_SL.lua"/>
@@ -15,4 +20,5 @@
 	<Script file="Leatherworking_SL.lua"/>
 	<Script file="Tailoring_VAN.lua"/>
 	<Script file="Tailoring_SL.lua"/>
+	<Script file="Legion.lua"/>
 	</Ui>

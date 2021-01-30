@@ -459,8 +459,8 @@ T The Steward of Wyrmrest Temple |QID|12769|N|To Tariolstrasz.|M|58,54|
 A Informing the Queen |QID|12124|M|57.9,54.2|PRE|12769|N|From Tariolstrasz.|
 T That Which Creates Can Also Destroy |QID|12459|N|Ask Tariolstrasz to take you to the top floor. Turn the quest into Lord Itharius.|M|59.6,54.4|
 T Tales of Destruction |QID|12266|M|60.1,54.2|N|To Nalice.|
-T Mystery of the Infinite |QID|12470|N|To Chromie.|M|60,54.49|
-A Mystery of the Infinite, Redux |QID|13343|N|From Chromie.|M|60.54.49|
+T Mystery of the Infinite |QID|12470|N|To Chromie.|M|60.0,54.49|
+A Mystery of the Infinite, Redux |QID|13343|N|From Chromie.|M|60.0,54.49|
 T The Fate of the Ruby Dragonshrine |QID|12419|M|59.8,54.7|N|To Krasus.|
 T Informing the Queen |QID|12124|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
 A Report to Lord Afrasastrasz |QID|12435|PRE|12123^12124|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
@@ -472,7 +472,7 @@ N Instructions |QID|12372|N|Go on the balcony and talk to a Wyrmrest Defender, c
 C Defending Wyrmrest Temple |QID|12372|N|This is a daily quest by the way, and you get an achievement if you finish it in under 2 minutes.|M|55.1,66.4|
 T Defending Wyrmrest Temple |QID|12372|N|Go back to Lord Afrasastrasz.|M|59.2,54.3|
 C Mystery of the Infinite, Redux |QID|13343|U|37923|N|Right-click the Hourglass of Eternity from your inventory to start the event.|M|71.7,38.9|
-T Mystery of the Infinite, Redux |QID|13343|N|To Chromie.|M|60,54.49|
+T Mystery of the Infinite, Redux |QID|13343|N|To Chromie.|M|60.0,54.49|
 H Agmar's Hammer|QID|12097|N|Hearth to Agmar's Hammer.|
 T Sarathstra, Scourge of the North|QID|12097|N|To Captain Gort.|M|35.81,48.38|
 F Kor'kron Vanguard|QID|12500|N|Fly to Kor'kron Vanguard.|M|37.5,45.8|

@@ -81,6 +81,7 @@
 local guide = WoWPro:RegisterGuide("Blanc_BI_Profs","Profession", "Legion Profession", "Blanckaert", "Neutral")
 WoWPro:GuideLevels(guide,25, 60)
 WoWPro:GuideName(guide, "Legion Profession")
+WoWPro:GuideNickname(guide, "LEG_PROF")
 WoWPro:GuideIcon(guide, "PRO",98)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -169,7 +170,6 @@ A ...And the Anvil|QID|39726|PRE|39702|M|39.9,54.7|Z|Val'sharah|LVL|44|P|Blacksm
 C ...And the Anvil|QID|39726|M|41.79,49.51|Z|Val'sharah|S|P|Blacksmithing;164;6|L|128751 5|N|Kill Archers/Soliders to loot the Breastplates.|
 C Between the Hammer...|QID|39680|M|37.75,54.77;36.11,53.02;38.13,54.55|CS|Z|Val'sharah|P|Blacksmithing;164;6|N|Find the Hammer near Leygazer.|
 C ...And the Anvil|QID|39726|M|41.79,49.51|Z|Val'sharah|US|P|Blacksmithing;164;6|L|128751 5|N|Kill Archers/Soliders to loot the Breastplates.|
-
 T Between the Hammer...|QID|39680|M|39.9,54.7|Z|Val'sharah|P|Blacksmithing;164;6|N|To Saris Swifthammer.|
 T ...And the Anvil|QID|39726|M|39.9,54.7|Z|Val'sharah|P|Blacksmithing;164;6|N|To Saris Swifthammer.|
 A The Knowledge of Black Rook|QID|39729|PRE|39726|M|39.9,54.7|Z|Val'sharah|LVL|44|P|Blacksmithing;164;6|N|From Saris Swifthammer.|
