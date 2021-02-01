@@ -8,17 +8,17 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
 A Reclaiming Sunstrider Isle|QID|8325|M|60.95,45.22|N|From Magistrix Erona.|R|BloodElf|
-C Reclaiming Sunstrider Isle|QID|8325|M|51.01,41.96|QO|1|N|Slay Mana Wyrms.|R|BloodElf|
-T Reclaiming Sunstrider Isle|QID|8325|M|60.90,45.19|N|To Magistrix Erona.|R|BloodElf|
-A Unfortunate Measures|QID|8326|PRE|8325|M|60.90,45.19|N|From Magistrix Erona.|R|BloodElf|
-C Unfortunate Measures|QID|8326|M|67.18,32.63|QO|1|N|Slay and loot Lynx for collars.|R|BloodElf|
+K Reclaiming Sunstrider Isle|ACTIVE|8325|M|51.01,41.96|QO|1|N|Slay Mana Wyrms.|R|BloodElf|
+T Reclaiming Sunstrider Isle|QID|8325|M|61.04,45.13|N|To Magistrix Erona.|R|BloodElf|
+A Unfortunate Measures|QID|8326|M|61.04,45.13|N|From Magistrix Erona.|PRE|8325|R|BloodElf|
+l Unfortunate Measures|ACTIVE|8326|M|67.18,32.63|QO|1|N|Slay and loot Lynx for collars.|R|BloodElf|
 T Unfortunate Measures|QID|8326|M|61.12,45.11|N|To Magistrix Erona.|R|BloodElf|
-A Report to Lanthan Perilon|QID|8327|PRE|8326|M|61.12,45.11|N|From Magistrix Erona.|R|BloodElf|
-A Solanian's Belongings|QID|37443|M|64.04,42.66|N|From Well Watcher Solanian, inside the building and up the ramp.|R|BloodElf|
-A The Shrine of Dath'Remar|QID|37442|M|64.04,42.66|N|From Well Watcher Solanian.|R|BloodElf|
-A A Fistful of Slivers|QID|37440|M|61.75,39.55|N|From Arcanist Ithanas.|R|BloodElf|
-r Repair and restock|AVAILABLE|37439|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|S|R|BloodElf|
-A Thirst Unending|QID|37439|M|58.57,38.90|N|From Arcanist Helion.|R|BloodElf|
+A Report to Lanthan Perilon|QID|8327|M|61.12,45.11|N|From Magistrix Erona.|PRE|8326|R|BloodElf|
+A Solanian's Belongings|QID|37443|M|63.96,42.84|N|From Well Watcher Solanian, inside the building and up the ramp.|R|BloodElf|
+A The Shrine of Dath'Remar|QID|37442|M|63.96,42.84|N|From Well Watcher Solanian.|R|BloodElf|
+A A Fistful of Slivers|QID|37440|M|61.84,39.35|N|From Arcanist Ithanas.|R|BloodElf|
+r Repair and restock|AVAILABLE|37439|M|58.33,39.03|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|S|R|BloodElf|
+A Thirst Unending|QID|37439|M|58.45,38.79|N|From Arcanist Helion.|R|BloodElf|
 r Repair and restock|AVAILABLE|37439|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|US|R|BloodElf|
 C A Fistful of Slivers|QID|37440|M|48.18,39.43|QO|1|N|Slay Mana Wyrms and loot them for the Arcane Slivers.|S|R|BloodElf|
 C Thirst Unending|QID|37439|M|54.14,39.28|QO|1|N|Use Arcane Torrent on a Mana Wyrm and then slay it. Must be within 8 yds for Arcane Torrent to be used.|R|BloodElf|
