@@ -130,13 +130,15 @@ T Gurtar's Request|QID|13875|M|73.33,62.13|N|To Splintertree Demolisher.|
 T Demon Duty|QID|13806|M|73.77,61.62|N|To Locke Okarr.|
 T Satyr Horns|QID|6441|M|73.86,62.47|N|To Pixel.|
 F Orgrimmar|ACTIVE|13841|M|73.18,61.60|N|Fly to Orgrimmar.|
+R Grommash Hold|ACTIVE|13841|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
 T All Apologies|QID|13841|M|49.20,72.27|Z|Orgrimmar|N|Make your way inside Grommash Hold and then turn in to Eitrigg.|
 A Dread Head Redemption|QID|13842|M|49.20,72.27|Z|Orgrimmar|N|From Eitrigg.|PRE|13841|RANK|1|
-F Splintertree Outpost|ACTIVE|13842|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|
+F Splintertree Post|ACTIVE|13842|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|
 C Dread Head Redemption|QID|13842|M|72.20,57.65|N|Back into the mine, talk to Durak, he'll monologue, then attack you with a minion. Kill and loot.|
-F Orgrimmar|ACTIVE|13842|M|73.18,61.60|N|Fly back to Orgrimmar.|FLY|OLD|
-T Dread Head Redemption|QID|13842|M|48.17,70.75|Z|Orgrimmar|N|To Vol'jin.| ; Completes Splintertree's Demonic Defense
-F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|FLY|OLD|
+F Orgrimmar|ACTIVE|13842|M|73.18,61.60|N|Fly back to Orgrimmar.|
+R Grommash Hold|ACTIVE|13842|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
+T Dread Head Redemption|QID|13842|M|49.22,72.27|Z|Orgrimmar|N|To Eitrigg.| ; Completes Splintertree's Demonic Defense
+F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|
 F Zoram'gar Outpost|ACTIVE|13848|M|73.2,61.6|N|Talk to Vhulgra fly to Zoram'gar Outpost.|
 f Zoram'gar Outpost|ACTIVE|13848|M|11.2,34.4|N|Get the flight point from Andruk.|TAXI|-Zoram'gar Outpost|
 h Zoram'gar Outpost|ACTIVE|13848|M|12.92,34.14|N|Set your hearth with Innkeeper Duras.|
@@ -157,7 +159,7 @@ C Keep the Fires Burning|QID|13890|M|6.74,28.97|N|Go light the Lighthouse.|
 C Naga at the Zoram Strand|QID|6442|M|14.88,21.18|N|Kill and loot Wraithtail Naga heads.|US|
 T Vorsha the Lasher|QID|6641|M|12.42,35.15|N|To Warsong Runner.| ; Completes Zoram'gar Outpost
 T Naga at the Zoram Strand|QID|6442|M|12.66,35.39|N|To Marukai.|
-A Deep Despair|QID|13901|M|12.66,35.39|N|From Marukai.|RANK|1|
+A Deep Despair|QID|13901|M|12.66,35.39|N|From Marukai.|RANK|1|PRE|6442|
 T Keep the Fires Burning|QID|13890|M|12.08,33.82|N|To Commander Grimfang.|
 A Before You Go...|QID|13920|M|12.08,33.82|N|From Commander Grimfang.|PRE|13890|RANK|1|
 T Lousy Pieces of Ship|QID|13883|M|11.57,35.27|N|To Dagrun Ragehammer.|
@@ -167,7 +169,7 @@ C The Essence of Aku'Mai|QID|26890|M|13,13|N|So head down into the cave and loot
 K Deep Despair|ACTIVE|13901|M|13,13|QO|1|N|[coords]Kill Blackfathom Priestesses.|US|
 H Zoram'gar Outpost|ACTIVE|13920|N|Hearth back to Zoram'gar Outpost.|
 T Before You Go...|QID|13920|M|12.10,33.82|N|To Commander Grimfang.|
-A To Hellscream's Watch|QID|13923|M|12.10,33.82|N|From Commander Grimfang.\n[color=FF0000]NOTE: [/color]Leads you to the next area in the Storyline.|PRE|13920|RANK|1|
+A To Hellscream's Watch|QID|13923|M|12.10,33.82|N|From Commander Grimfang.\n[color=FF0000]NOTE: [/color]Leads you to the next area in the Storyline.|PRE|13920|LEAD|13936|RANK|1|
 T Deep Despair|QID|13901|M|12.66,35.39|N|To Marukai.|
 T The Essence of Aku'Mai|QID|26890|M|11.54,35.29|N|To Dagrun Ragehammer.|
 F Hellscream's Watch|ACTIVE|13923|M|11.20,34.40|N|Talk to Andruk for free flight.|
