@@ -10,13 +10,14 @@
 	<Script file="Blacksmithing_MoP.lua"/>
 	<Script file="Blacksmithing_WoD.lua"/>
 	<Script file="Blacksmithing_LEG.lua"/>
+	<Script file="Blacksmithing_BfA.lua"/>
 	<Script file="Blacksmithing_SL.lua"/>
 	<Script file="Enchanting_SL.lua"/>
 	<Script file="Engineering_SL.lua"/>
 	<Script file="Enchanting.lua"/>
 	<Script file="Inscription_SL.lua"/>
 	<Script file="Jewelcrafting_SL.lua"/>
-	<Script file="Leatherworking_BFA.lua"/>
+	<Script file="Leatherworking_BfA.lua"/>
 	<Script file="Leatherworking_SL.lua"/>
 	<Script file="Tailoring_VAN.lua"/>
 	<Script file="Tailoring_SL.lua"/>
