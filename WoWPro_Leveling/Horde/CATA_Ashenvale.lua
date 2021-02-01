@@ -96,7 +96,7 @@ R Demon Fall Ridge|ACTIVE|26449|M|82.65,77.88|N|Head back to the main road into 
 K Diathorus the Seeker|ACTIVE|26449|M|78.34,81.72;78.38,83.84|CS|QO|2|N|Continue following the markers up the path until you reach the village. Locate the den entrance on the far side of the village and go inside. When you get to the bottom of the entranceway, Diathorus is in the room on the other side of the bridge directly in front of. Cross the bridge and kill him to pick up the quest loot.|
 H Splintertree Post|ACTIVE|26449|M|77.19,82.76|N|Hearth back to Splintertree Post.\n[color=FF0000]NOTE: [/color]If your Hearthstone's still on CD, I suggest waiting up the tunnel for it to finish. Otherwise, it's a very long run back.|
 T Never Again!|QID|26449|M|73.17,60.11|N|To Valusha.|
-A Demon Duty|QID|13806|M|73.76,61.59|N|From Locke Okarr.|PRE|26449|RANK|1|
+A Demon Duty|QID|13806|M|73.77,61.62|N|From Locke Okarr.|PRE|26449|RANK|1|
 A Satyr Horns|QID|6441|M|73.86,62.47|N|From Pixel.|PRE|26449|RANK|1|
 l Satyr Horns|ACTIVE|6441|M|81.29,51.24|QO|1|N|Kill Satyrs to collect the horns.|S|
 R Satyrnaar|ACTIVE|13806|M|81.66,53.69|N|Take the north path to Satyrnaar.|
@@ -107,30 +107,34 @@ T Mission Improbable|QID|13808|M|82.53,53.80|N|To Krokk.\n[color=FF0000]NOTE: [/
 A Making Stumps|QID|13815|M|82.53,53.80|N|From Krokk.|PRE|13808|RANK|1|
 A Wet Work|QID|13865|M|82.53,53.80|N|From Krokk.|PRE|13808|RANK|1|
 C Making Stumps|QID|13815|M|86.51,54.67|N|Use the Splintertree Axe to chop the trees.|U|45807|NC|S|
-C Wet Work|QID|13865|M|85.36,56.16;85.75,57.76;85.45,60.45|CN|N|Kill Scouts while defeating the three Protectors (where the waypoints are).|
-C Making Stumps|QID|13815|M|86.51,54.67|N|Finish chopping the needed trees.|U|45807|NC|US|
-T Making Stumps|QID|13815|M|82.52,53.78|N|Use the Signal Powder again to summon Krokk. Turn in your quest.|U|45710|
-T Wet Work|QID|13865|M|82.52,53.78|N|To Krokk.|
-A As Good as it Gets|QID|13870|M|82.52,53.78|N|From Krokk.|PRE|13815&13865|RANK|1|
-T As Good as it Gets|QID|13870|M|90.93,58.29|N|To Overseer Gorthak.|
-A Security!|QID|13871|M|90.93,58.29|N|From Overseer Gorthak.|PRE|13870|RANK|1|
-C Security!|QID|13871|M|91.25,57.50|N|Wander around until the Assassin attacks you (can be inside or outside the building possibly). Kill it.|
+K Wet Work|ACTIVE|13865|M|83.27,57.16|QO|4|N|Kill Ashenvale Scouts.|S|
+K Protector Endolar|ACTIVE|13865|M|85.46,56.05|QO|1|
+K Protector Arminon|ACTIVE|13865|M|85.75,57.76|QO|3|
+K Protector Dorinar|ACTIVE|13865|M|85.45,60.45|QO|2|
+K Wet Work|ACTIVE|13865|M|83.85,60.11|QO|4|N|Kill Ashenvale Scouts.|US|
+C Making Stumps|QID|13815|M|86.51,54.67|N|Finish chopping the trees.|U|45807|NC|US|
+T Making Stumps|QID|13815|M|82.53,53.82|N|To Krokk.\n[color=FF0000]NOTE: [/color]Click on the Smoldering Brazier to summon him if he's not there.|
+T Wet Work|QID|13865|M|82.53,53.82|N|To Krokk.\n[color=FF0000]NOTE: [/color]Click on the Smoldering Brazier to summon him if he's not there.|
+A As Good as it Gets|QID|13870|M|82.53,53.82|N|From Krokk.\n[color=FF0000]NOTE: [/color]Click on the Smoldering Brazier to summon him if he's not there.|PRE|13815&13865|RANK|1|
+T As Good as it Gets|QID|13870|M|90.94,58.15|N|To Overseer Gorthak.\n[color=FF0000]NOTE: [/color]Take the road into Warsong Lumber Camp, unless you want to grind the whole way there.|
+A Security!|QID|13871|M|90.94,58.15|N|From Overseer Gorthak.|PRE|13870|RANK|1|
+C Security!|QID|13871|M|91.25,57.50|N|Kill the Assassin when they attack you.\nCircle the outer ring until you get attacked.\n[color=FF0000]NOTE: [/color]Keep an eye on the chat and watch for clues that the Assassin is near you.|
 T Security!|QID|13871|M|90.94,58.12|N|To Overseer Gorthak.|
-A Sheelah's Last Wish|QID|13873|M|90.79,58.24|N|From Guardian Menerin.|PRE|13871|RANK|1|
-T Sheelah's Last Wish|QID|13873|M|89.59,48.71|N|To Guardian Gurtar.| ; Completes The Diplomat from Silvermoon
-A Gurtar's Request|QID|13875|M|89.59,48.71|N|From Guardian Gurtar.|RANK|3|
-l Thorned Bloodcup|ACTIVE|13875|M|86.52,54.98|L|46315 8|N|Collect 8 Thorned Bloodcups sparking on the ground,  These are tricky to see, but the red flowers are found all over the lumber camp (They do not show on the mini map for herb gatherers).|
-C Gurtar's Request|QID|13875|M|86.52,54.98|N|Use the Orc-Hair Braid to make the Bloodcup Braid.|U|46316|
-H Splintertree Post|ACTIVE|13875|N|If Hearthstone isn't ready, just run back to Splintertree Post.|
+A Sheelah's Last Wish|QID|13873|M|90.75,58.15|N|From Guardian Menerin.|PRE|13871|RANK|1|
+T Sheelah's Last Wish|QID|13873|M|89.59,48.67|N|To Guardian Gurtar at the Warsong Lumber Camp entrance.| ; Completes The Diplomat from Silvermoon
+A Gurtar's Request|QID|13875|M|89.59,48.67|N|From Guardian Gurtar.|RANK|3|
+l Thorned Bloodcup|ACTIVE|13875|M|86.52,54.98|L|46315 8|N|These are tricky to see, but, you'll find the red flowers can be found on the ground all over the area of the camp.\n[color=FF0000]NOTE: [/color]'Find Herbs' does not work on them.|
+C Gurtar's Request|QID|13875|M|PLAYER|N|Use the Orc-Hair Braid to make the Bloodcup Braid.|U|46316|
+H Splintertree Post|ACTIVE|13875^13806^6441|M|73.51,63.51|N|If Hearthstone isn't ready, just run back to Splintertree Post.|IZ|-Splintertree Post|
 T Gurtar's Request|QID|13875|M|73.33,62.13|N|To Splintertree Demolisher.|
-T Demon Duty|QID|13806|M|73.76,61.71|N|To Locke Okarr.|
+T Demon Duty|QID|13806|M|73.77,61.62|N|To Locke Okarr.|
 T Satyr Horns|QID|6441|M|73.86,62.47|N|To Pixel.|
-F Orgrimmar|ACTIVE|13841|M|73.21,61.54|N|Fly to Orgrimmar|FLY|OLD|
-T All Apologies|QID|13841|M|50.79,63.38;48.12,70.72|Z|Orgrimmar|CC|N|Take the lift down, then turn in to Vol'jin.|
-A Dread Head Redemption|QID|13842|M|48.12,70.72|Z|Orgrimmar|N|From Vol'jin.|PRE|13841|RANK|1|
-F Splintertree Outpost|ACTIVE|13842|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|FLY|OLD|
+F Orgrimmar|ACTIVE|13841|M|73.18,61.60|N|Fly to Orgrimmar.|
+T All Apologies|QID|13841|M|49.20,72.27|Z|Orgrimmar|N|Make your way inside Grommash Hold and then turn in to Eitrigg.|
+A Dread Head Redemption|QID|13842|M|49.20,72.27|Z|Orgrimmar|N|From Eitrigg.|PRE|13841|RANK|1|
+F Splintertree Outpost|ACTIVE|13842|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|
 C Dread Head Redemption|QID|13842|M|72.20,57.65|N|Back into the mine, talk to Durak, he'll monologue, then attack you with a minion. Kill and loot.|
-F Orgrimmar|ACTIVE|13842|M|73.21,61.54|N|Fly back to Orgrimmar.|FLY|OLD|
+F Orgrimmar|ACTIVE|13842|M|73.18,61.60|N|Fly back to Orgrimmar.|FLY|OLD|
 T Dread Head Redemption|QID|13842|M|48.17,70.75|Z|Orgrimmar|N|To Vol'jin.| ; Completes Splintertree's Demonic Defense
 F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|FLY|OLD|
 F Zoram'gar Outpost|ACTIVE|13848|M|73.2,61.6|N|Talk to Vhulgra fly to Zoram'gar Outpost.|
