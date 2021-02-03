@@ -44,7 +44,7 @@ T Crisis at Splintertree|QID|13653|M|42.69,14.97|Z|Northern Barrens|N|To Kadrak.
 A To the Rescue!|QID|13712|M|42.69,14.97|Z|Northern Barrens|N|From Kadrak.|PRE|13653|RANK|1|
 r Repair|ACTIVE|13712|M|42.38,14.97|Z|Northern Barrens|N|Speak with Ornag to repair/restock/unload, if necessary. Then check off this step.|
 F Splintertree Post|ACTIVE|13712|M|42.69,14.97|Z|Northern Barrens|N|Speak to Kadrak for a free ride to Splintertree Post.|IZ|The Mor'shan Ramparts|CHAT|
-f Splintertree Post|ACTIVE|13712|M|73.18,61.59|N|Get the flight point from Vhulgra.|TAXI|-Splintertree Post|
+f Splintertree Post|ACTIVE|13712|M|73.18,61.60|N|Get the flight point from Vhulgra.|TAXI|-Splintertree Post|
 T To the Rescue!|QID|13712|M|73.61,62.14|N|To Kadrak in Splintertree Post.|
 A Blood of the Weak|QID|13803|M|73.61,62.14|N|From Kadrak.|PRE|13712|RANK|1|
 h Splintertree Post|ACTIVE|13803|M|73.99,60.64|N|At Innkeeper Kaylisk.|
@@ -134,56 +134,58 @@ R Grommash Hold|ACTIVE|13841|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the
 T All Apologies|QID|13841|M|49.20,72.27|Z|Orgrimmar|N|Make your way inside Grommash Hold and then turn in to Eitrigg.|
 A Dread Head Redemption|QID|13842|M|49.20,72.27|Z|Orgrimmar|N|From Eitrigg.|PRE|13841|RANK|1|
 F Splintertree Post|ACTIVE|13842|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|
-C Dread Head Redemption|QID|13842|M|72.20,57.65|N|Back into the mine, talk to Durak, he'll monologue, then attack you with a minion. Kill and loot.|
+C Dread Head Redemption|QID|13842|M|72.20,57.65|N|Head back into the mine and and talk to Durak. Once he is done his little monologue, Durak and his minion will attack you.|
 F Orgrimmar|ACTIVE|13842|M|73.18,61.60|N|Fly back to Orgrimmar.|
 R Grommash Hold|ACTIVE|13842|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
 T Dread Head Redemption|QID|13842|M|49.22,72.27|Z|Orgrimmar|N|To Eitrigg.| ; Completes Splintertree's Demonic Defense
-F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|
-F Zoram'gar Outpost|ACTIVE|13848|M|73.2,61.6|N|Talk to Vhulgra fly to Zoram'gar Outpost.|
-f Zoram'gar Outpost|ACTIVE|13848|M|11.2,34.4|N|Get the flight point from Andruk.|TAXI|-Zoram'gar Outpost|
-h Zoram'gar Outpost|ACTIVE|13848|M|12.92,34.14|N|Set your hearth with Innkeeper Duras.|
-T Bad News Bear-er|QID|13848|M|73.21,61.54;12.03,33.88|CC|N|Turn in to Commander Grimfang.|
-A Keep the Fires Burning|QID|13890|M|12.08,33.78|N|From Commander Grimfang.|RANK|1|
-A Blackfathom Deeps|QID|26894|M|12.08,33.78|N|From Commander Grimfang. Pick up if you plan on running the Blackfathom Deeps instance.|RANK|3|
-A Lousy Pieces of Ship|QID|13883|M|11.63,35.52|N|From Dagrun Ragehammer.|RANK|2|
-A The Essence of Aku'Mai|QID|26890|M|11.63,35.52|ELITE|N|[color=E6CC80]Dungeon: Blackfathom Deeps[/color]\nFrom Dagrun Ragehammer.|RANK|3|
-A Naga at the Zoram Strand|QID|6442|M|12.66,35.39|N|From Marukai.|
+F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|IZ|Orgrimmar|
+F Zoram'gar Outpost|ACTIVE|13848|M|73.18,61.60|N|Talk to Vhulgra for a free flight to Zoram'gar Outpost.|CHAT|
+f Zoram'gar Outpost|ACTIVE|13848|M|11.16,34.42|N|Get the flight point from Andruk.|TAXI|-Zoram'gar Outpost|IZ|Zoram'gar Outpost|
+h Zoram'gar Outpost|AVAILABLE|13848|M|12.99,34.15|N|Set your hearth with Innkeeper Duras.|
+T Bad News Bear-er|QID|13848|M|12.10,33.85|N|Turn in to Commander Grimfang.|
+A Keep the Fires Burning|QID|13890|M|12.10,33.85|N|From Commander Grimfang.|RANK|1|
+A Blackfathom Deeps|QID|26894|M|12.10,33.85|ELITE|N|[color=E6CC80]Dungeon: Blackfathom Deeps[/color]\nFrom Commander Grimfang.\nPick this up if you plan on running the Blackfathom Deeps instance.|RANK|3|
+A Lousy Pieces of Ship|QID|13883|M|11.57,35.31|N|From Dagrun Ragehammer. He paces back and forth.|RANK|2|
+A The Essence of Aku'Mai|QID|26890|M|11.57,35.31|ELITE|N|[color=E6CC80]Dungeon: Blackfathom Deeps[/color]\nFrom Dagrun Ragehammer.|RANK|3|
+A Naga at the Zoram Strand|QID|6442|M|12.66,35.39|N|From Marukai.|RANK|1|
 A Vorsha the Lasher|QID|6641|M|12.77,34.14|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash.|RANK|1|
-C Naga at the Zoram Strand|QID|6442|M|14.88,21.18|N|Kill and loot Wraithtail Naga heads.|S|
-C Vorsha the Lasher|QID|6641|M|9.58,27.88|N|Follow Muglash and help him kill Vorsha.|NC|
-l Lousy Pieces of Ship|ACTIVE|13883|M|5.00,31.12|L|46357 10|N|Collect Sunken Ship Parts.|S|
+l Naga at the Zoram Strand|QID|6442|M|14.88,21.18|QO|1|N|Kill Wraithtail Nagas to loot their heads.|S|
+C Vorsha the Lasher|QID|6641|M|9.68,27.57|N|Follow Muglash to the Naga Brazier. Right-click the brazier to extinguish the flame. Protect Muglash as you fight against 2 waves of 3 Nagas and then Vorsha in the final wave.\nMake sure you kill the Priestesses first, as they will heal everyone fully.|
+l Lousy Pieces of Ship|ACTIVE|13883|M|5.00,31.12|QO|1|N|Collect Sunken Ship Parts.|S|
 l Mystlash Hydra Blubber|ACTIVE|13890|M|8.2,32.61|L|46365 10|N|Kill and loot Hydras until you have 10 Blubber.|
-l Lousy Pieces of Ship|ACTIVE|13883|M|5.00,31.12|L|46357 10|N|Collect Sunken Ship Parts.|US|
-U Mystlash Hydra Oil|ACTIVE|13890|M|11.44,35.23|L|46366|N|Take 10 Blubber to the Forge and turn it into Mystlash Hydra Oil.|U|46365|
-C Keep the Fires Burning|QID|13890|M|6.74,28.97|N|Go light the Lighthouse.|
-C Naga at the Zoram Strand|QID|6442|M|14.88,21.18|N|Kill and loot Wraithtail Naga heads.|US|
-T Vorsha the Lasher|QID|6641|M|12.42,35.15|N|To Warsong Runner.| ; Completes Zoram'gar Outpost
+l Lousy Pieces of Ship|ACTIVE|13883|M|5.00,31.12|QO|1|N|Collect Sunken Ship Parts.|US|
+U Mystlash Hydra Oil|ACTIVE|13890|M|11.69,34.96|L|46366|N|Take the 10 Blubber to Zoram'gar Forge and turn it into Mystlash Hydra Oil.|U|46365|
+C Keep the Fires Burning|QID|13890|M|6.74,28.97|N|Go light the Lighthouse.|NC|
+l Naga at the Zoram Strand|QID|6442|M|14.88,21.18|QO|1|N|Finish collecting the Wraithtail Heads.|US|
+T Vorsha the Lasher|QID|6641|M|12.46,35.16|N|To Warsong Runner.|
 T Naga at the Zoram Strand|QID|6442|M|12.66,35.39|N|To Marukai.|
 A Deep Despair|QID|13901|M|12.66,35.39|N|From Marukai.|RANK|1|PRE|6442|
-T Keep the Fires Burning|QID|13890|M|12.08,33.82|N|To Commander Grimfang.|
-A Before You Go...|QID|13920|M|12.08,33.82|N|From Commander Grimfang.|PRE|13890|RANK|1|
+T Keep the Fires Burning|QID|13890|M|12.10,33.85|N|To Commander Grimfang.|
+A Before You Go...|QID|13920|M|12.10,33.85|N|From Commander Grimfang.|PRE|13890|RANK|1|
 T Lousy Pieces of Ship|QID|13883|M|11.57,35.27|N|To Dagrun Ragehammer.|
-C Before You Go...|QID|13920|M|22.22,33.04|N|Bring 5 Venison Steaks to Commander Grimfang in Zoram'gar.|
-K Deep Despair|ACTIVE|13901|M|13,13|QO|1|N|[coords]Kill Blackfathom Priestesses.|S|
-C The Essence of Aku'Mai|QID|26890|M|13,13|N|So head down into the cave and loot the blue crystals off the wall.\n[color=FF0000]NOTE: [/color]This is completed outside of the instance itself.|RANK|2|
-K Deep Despair|ACTIVE|13901|M|13,13|QO|1|N|[coords]Kill Blackfathom Priestesses.|US|
-H Zoram'gar Outpost|ACTIVE|13920|N|Hearth back to Zoram'gar Outpost.|
-T Before You Go...|QID|13920|M|12.10,33.82|N|To Commander Grimfang.|
-A To Hellscream's Watch|QID|13923|M|12.10,33.82|N|From Commander Grimfang.\n[color=FF0000]NOTE: [/color]Leads you to the next area in the Storyline.|PRE|13920|LEAD|13936|RANK|1|
+l Before You Go...|QID|13920|M|16.07,29.85|L|46392 5|N|Kill and loot Wild Bucks in the area until you have 5 Venison Steak.\n[color=FF0000]NOTE: [/color]The drop rate is not the best.|
+R Blackfathom Deep|ACTIVE|13901^26890|M|14.03,14.72|N|Make your way to Blackfathoms Deep.|FLY|OLD|
+K Deep Despair|ACTIVE|13901|M|13.57,13.31|QO|1|S|
+l The Essence of Aku'Mai|ACTIVE|26890|M|13.57,13.31|QO|1|N|Head down the stairs to the bottom. When you reach the bottom, continue under the water until you come out inside the cave. Loot the blue crystals off the wall.\n[color=FF0000]NOTE: [/color]This is completed outside of the instance.|RANK|2|
+K Deep Despair|ACTIVE|13901|M|13.57,13.31|QO|1|US|
+H Zoram'gar Outpost|ACTIVE|13920|M|PLAYER|N|Hearth back to Zoram'gar Outpost.|
+T Before You Go...|QID|13920|M|12.10,33.85|N|To Commander Grimfang.|
+A To Hellscream's Watch|QID|13923|M|12.10,33.85|N|From Commander Grimfang.\n[color=FF0000]NOTE: [/color]Leads you to the next area in the Storyline.|PRE|13920|LEAD|13936|RANK|1|
 T Deep Despair|QID|13901|M|12.66,35.39|N|To Marukai.|
-T The Essence of Aku'Mai|QID|26890|M|11.54,35.29|N|To Dagrun Ragehammer.|
-F Hellscream's Watch|ACTIVE|13923|M|11.20,34.40|N|Talk to Andruk for free flight.|
-A Troll Charm|QID|6462|M|38.83,42.40|N|From Mitsuwa.|RANK|2|
-h Hellscream's Watch|ACTIVE|13923|M|38.60,42.32|N|At Innkeeper Linkasa.|
-T To Hellscream's Watch|QID|13923|M|38.34,42.96|N|To Captain Goggath.|
-A Tweedle's Dumb|QID|13936|M|38.34,42.96|N|From Captain Goggath.|PRE|13923|RANK|1|
-A Between a Rock and a Thistlefur|QID|216|M|37.82,43.50|N|From Karang Amakkar.|RANK|2|
-T Tweedle's Dumb|QID|13936|M|37.97,43.83|N|To Tweedle.|
-A Set Us Up the Bomb|QID|13942|M|37.97,43.83|N|From Tweedle.|PRE|13936|RANK|1|
+T The Essence of Aku'Mai|QID|26890|M|11.54,35.29|N|To Dagrun Ragehammer.| ; Completes Storyline Zoram'gar Outpost
+F Hellscream's Watch|ACTIVE|13923|M|11.16,34.42|N|Talk to Andruk for free flight.|CHAT|
+f Hellscream's Watch|ACTIVE|13923|M|38.08,42.22|N|Get flight path from Thraka.|TAXI|-Hellscream's Watch|
+A Troll Charm|QID|6462|M|38.89,42.38|N|From Mitsuwa.|RANK|2|
+h Hellscream's Watch|ACTIVE|13923|M|38.60,42.19|N|At Innkeeper Linkasa.|
+T To Hellscream's Watch|QID|13923|M|38.27,43.11|N|To Captain Goggath.\n[color=FF0000]NOTE: [/color]He paths around quite a bit.|
+A Tweedle's Dumb|QID|13936|M|38.27,43.11|N|From Captain Goggath.|RANK|1|
+A Between a Rock and a Thistlefur|QID|216|M|37.76,43.49|N|From Karang Amakkar.|RANK|2|
+T Tweedle's Dumb|QID|13936|M|37.98,43.86|N|To Tweedle.|
+A Set Us Up the Bomb|QID|13942|M|37.98,43.86`|N|From Tweedle.|PRE|13936|RANK|1|
 A Breathing Room|QID|13943|M|38.31,43.10|N|From Captain Goggath.|PRE|13936|RANK|1|
-C Set Us Up the Bomb|QID|13942|M|39.51,47.54|N|Collect Moon Kissed Clay from the ground.|S|
-C Breathing Room|QID|13943|M|34.96,45.77|N|Kill Astranaar Skirmishers and Officers.|
-C Set Us Up the Bomb|QID|13942|M|39.51,47.54|US|
+l Set Us Up the Bomb|QID|13942|M|39.51,47.54|QO|1|N|Collect Moon-Kissed Clay from the ground.|S|
+K Breathing Room|ACTIVE|13943|M|34.96,45.77|QO|1;2|N|Kill Astranaar Skirmishers and Officers.|
+l Set Us Up the Bomb|QID|13942|M|39.51,47.54|QO|1|N|Finish collecting the Moon-Kissed Clay.|US|
 T Breathing Room|QID|13943|M|38.07,42.92|N|To Captain Goggath.|
 T Set Us Up the Bomb|QID|13942|M|37.99,43.86|N|To Tweedle.|
 A Small Hands, Short Fuse|QID|13944|M|37.99,43.86|N|From Tweedle.|PRE|13942|RANK|1|
