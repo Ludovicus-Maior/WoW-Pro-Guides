@@ -4,6 +4,13 @@
 --      WoWPro_Profession_Parser      --
 --------------------------------------
 
+
+-- Profession Parser Tags: Craft, Mats and ProfNote - Only used by Prof Parser.
+WoWPro.DefineTag("CRAFT","craft","string",nil,nil)                    -- for craft item and qty
+WoWPro.DefineTag("MATS","mats","string",nil,nil)                      -- for material item and qty
+WoWPro.DefineTag("PN","pn","string",nil,nil)                          -- for Prof notes, replaces N due to guide handling
+-- End Prof Parser Tags
+
 -- Determine Next Active Step (Profession Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
 
