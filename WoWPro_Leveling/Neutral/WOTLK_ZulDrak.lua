@@ -257,7 +257,7 @@ T Breaking Through Jin'Alai|QID|12627|N|To Witch Doctor Khufu.|M|59.51,57.99|
 A To Speak With Har'koa|QID|12628|PRE|12627|M|59.5,58.1|N|From Witch Doctor Khufu.|
 A Relics of the Snow Leopard Goddess|QID|12635|PRE|12627|M|60.0,57.9|N|From Chronicler To'kini.|
 ; The quest "Just Checkin'" on the following line is missing the ' after "Checkin" (it should read " Just Checkin'' ")so it does not auto-accept, since it is optional.|
-A Just Checkin'|QID|29836|M|60.0,57.9|N|From Chronicler To'kini. This quest takes you into Gundrak, you can do this if you wish. There is another quest that leads you into Gundrak later in the guide.|
+A Just Checkin'|QID|29836|ACTIVE|-29833|M|60.0,57.9|N|From Chronicler To'kini. This quest takes you into Gundrak, you can do this if you wish. There is another quest that leads you into Gundrak later in the guide.|RANK|3|
 f Zim'Torga|QID|12622|M|60.02,56.74|N|Get the flightpoint from Maaka.|
 T The Leaders at Jin'Alai|QID|12622|M|59.2,56.2|N|To Scalper Ahunae.|
 T To Speak With Har'koa|QID|12628|N|Head to the Altar of Har'koa to the SE. To Har'koa.|M|63.73,70.44|
@@ -361,8 +361,8 @@ T The Gods Have Spoken|QID|12729|N|Back to Har'koa. Remember she's at Zim'Torga 
 A Convocation at Zol'Heb|QID|12730|PRE|12729|N|From Har'koa.|
 C Convocation at Zol'Heb|QID|12730|N|Use the item in the circle to summon the Prophet. After you get him to about 75% health, Har'koa will show up to help. The Prophet has an evil AoE, but Har'koa can remove it so stay close to her. If you die just run back and try to pick a good time to rez. He may kill Har'koa, so be prepared to finish him off, if necessary.|U|39566|M|77.55,36.67|
 T Convocation at Zol'Heb|QID|12730|N|Back to Har'koa.|M|60.13,57.72|
-; The quest "Unfinished Business" on the following line has wrong caps on 'Business' so it does not auto-accept since it is optional.|
-A Unfinished Business|QID|29833|N|From Har'koa. This quest is optional as it leads into Gundrak|
+; [Unfinished Business] is a mutually exclusive bread-crumb quest with [Just Checkin']
+A Unfinished Business|QID|29833|ACTIVE|-29836|N|From Har'koa. This quest is optional as it leads into Gundrak|RANK|3|
 N Amphitheater of Anguish|QID|12948|N|If you haven't gotten the achievement yet (and you know you want it), get a group up for the Amphitheater of Anguish.|
 t The Champion's Call!|QID|12974|N|To Gurgthock.|M|48.43,56.35|
 ; Grail has a  P:X9977 tag for 12932, and I dunno what it means.

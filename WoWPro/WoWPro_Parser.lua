@@ -222,18 +222,21 @@ local function DefineTag(action, key, vtype, validator, setter)
         tinsert(WoWPro.TagList, action)
     end
 end
+WoWPro.DefineTag = DefineTag
 
 local function validate_andor_list_of_ints(action, step, tag, value)
     --- Either X^Y^Z or X&Y&Z, or *, empty allowed
     if value == "*" then return true; end
     return WoWPro.IntListVerify(value, true,"^","&")
 end
+WoWPro.validate_andor_list_of_ints = validate_andor_list_of_ints
 
 local function validate_old_list_of_ints(action, step, tag, value)
     ---  X;Y, no empties
     --- WoWPro.IntListVerify(list,empty_ok,or_string,and_string)
     return WoWPro.IntListVerify(value, false,";","|")
 end
+WoWPro.validate_old_list_of_ints = validate_old_list_of_ints
 
 -- QID Tags first
 DefineTag("QID","QID","string",validate_andor_list_of_ints,nil)
@@ -275,12 +278,6 @@ DefineTag("L","lootitem","string",nil,function(text,i)
         end
     end
 end)
-
--- Profession Parser Tags: Craft, Mats and ProfNote - Only used by Prof Parser.
-DefineTag("CRAFT","craft","string",nil,nil)			-- for craft item and qty
-DefineTag("MATS","mats","string",nil,nil)			-- for material item and qty
-DefineTag("PN","pn","string",nil,nil)				-- for Prof notes, replaces N due to guide handling
--- End Prof Parser Tags
 
 DefineTag("QO","questtext","string",nil,nil)
 DefineTag("SO","sobjective","string",nil,nil)

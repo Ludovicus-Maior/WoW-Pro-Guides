@@ -261,7 +261,8 @@ else
         for _, skillLineID in ipairs(_G.C_TradeSkillUI.GetAllProfessionTradeSkillLines()) do
             -- WoWPro:dbp("UpdateTradeSkills() scanning %d", skillLineID)
             local displayName, skillLineRank, skillLineMaxRank, skillLineModifier = _G.C_TradeSkillUI.GetTradeSkillLineInfoByID(skillLineID)
-            -- WoWPro:dbp("UpdateTradeSkills() scanned %d/%s", skillLineID, displayName)
+            -- LUDO: Comment out before release
+            WoWPro:dbp("UpdateTradeSkills() scanned %d/%s", skillLineID, displayName)
             if skillLineRank > 0 and WoWPro.ProfessionSkillLines[skillLineID] then
                 tradeskills[skillLineID] = {
                     name = WoWPro.ProfessionSkillLines[skillLineID].name,
@@ -269,7 +270,8 @@ else
                     skillMax = skillLineMaxRank,
                     skillMod = skillLineModifier
                 }
-                WoWPro:dbp("UpdateTradeSkills() added %d/%s", skillLineID, displayName)
+                -- LUDO: Comment out before release
+                WoWPro:dbp("UpdateTradeSkills() added %d/%s skillLvl=%d skillMax=%d", skillLineID, displayName, skillLineRank, skillLineMaxRank)
                 scanned = scanned + 1
             end
         end
