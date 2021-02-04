@@ -175,35 +175,39 @@ T Deep Despair|QID|13901|M|12.66,35.39|N|To Marukai.|
 T The Essence of Aku'Mai|QID|26890|M|11.54,35.29|N|To Dagrun Ragehammer.| ; Completes Storyline Zoram'gar Outpost
 F Hellscream's Watch|ACTIVE|13923|M|11.16,34.42|N|Talk to Andruk for free flight.|CHAT|
 f Hellscream's Watch|ACTIVE|13923|M|38.08,42.22|N|Get flight path from Thraka.|TAXI|-Hellscream's Watch|
-A Troll Charm|QID|6462|M|38.89,42.38|N|From Mitsuwa.|RANK|2|
+A Troll Charm|QID|6462|M|38.89,42.38|N|From Mitsuwa.|RANK|3|
 h Hellscream's Watch|ACTIVE|13923|M|38.60,42.19|N|At Innkeeper Linkasa.|
 T To Hellscream's Watch|QID|13923|M|38.27,43.11|N|To Captain Goggath.\n[color=FF0000]NOTE: [/color]He paths around quite a bit.|
 A Tweedle's Dumb|QID|13936|M|38.27,43.11|N|From Captain Goggath.|RANK|1|
 A Between a Rock and a Thistlefur|QID|216|M|37.76,43.49|N|From Karang Amakkar.|RANK|2|
 T Tweedle's Dumb|QID|13936|M|37.98,43.86|N|To Tweedle.|
 A Set Us Up the Bomb|QID|13942|M|37.98,43.86`|N|From Tweedle.|PRE|13936|RANK|1|
-A Breathing Room|QID|13943|M|38.31,43.10|N|From Captain Goggath.|PRE|13936|RANK|1|
-l Set Us Up the Bomb|QID|13942|M|39.51,47.54|QO|1|N|Collect Moon-Kissed Clay from the ground.|S|
+A Breathing Room|QID|13943|M|38.27,43.11|N|From Captain Goggath.|PRE|13936|RANK|1|
+l Set Us Up the Bomb|QID|13942|M|39.51,47.54|QO|1|N|Collect Moon-Kissed Clay from the ground in the area between the camp and the main road into Astranaar.|S|
 K Breathing Room|ACTIVE|13943|M|34.96,45.77|QO|1;2|N|Kill Astranaar Skirmishers and Officers.|
 l Set Us Up the Bomb|QID|13942|M|39.51,47.54|QO|1|N|Finish collecting the Moon-Kissed Clay.|US|
-T Breathing Room|QID|13943|M|38.07,42.92|N|To Captain Goggath.|
-T Set Us Up the Bomb|QID|13942|M|37.99,43.86|N|To Tweedle.|
-A Small Hands, Short Fuse|QID|13944|M|37.99,43.86|N|From Tweedle.|PRE|13942|RANK|1|
-C Small Hands, Short Fuse|QID|13944|M|38.35,44.23|N|Use Tweedle's Improvised Explosive on the wagon.|U|46701|
-T Small Hands, Short Fuse|QID|13944|M|38.00,42.84|N|To Captain Goggath.|
-A Blastranaar!|QID|13947|M|38.00,42.84|N|From Captain Goggath.|PRE|13944|RANK|1|
-C Blastranaar!|QID|13947|M|38.10,42.18|N|Talk to Thraka when you're ready to bomb some stuff!|
-T Blastranaar!|QID|13947|M|38.33,43.73|N|To Captain Goggath.| ; Completes Weapons of Their Destruction
-A Condition Critical!|QID|13958|M|38.33,43.73|N|From Captain Goggath.|PRE|13947|RANK|1|
-A Tweedle's Tiny Package|QID|13974|M|38.02,43.83|N|From Tweedle.|PRE|13947|RANK|1|
-A Thunder Peak|QID|13879|M|38.84,43.37|N|From Broyk.|PRE|13947|RANK|1|
-K Between a Rock and a Thistlefur|ACTIVE|216|M|38.22,30.61|QO|1|N|Kill Thistlefur Village Furbolgs.|S|
-C Troll Charm|QID|6462|M|38.45,30.6|N|Loot the Troll Chests around the cave until you have 8 Troll Charms.|
-A Freedom to Ruul|QID|6482|M|41.50,34.60|ELITE|N|[color=80FF00]Escort Quest:[/color]\nEscort Ruul Snowhoof out.|RANK|2|
-C Freedom to Ruul|QID|6482|M|38.55,36.66|N|Protect Ruul.|
-C Between a Rock and a Thistlefur|QID|216|M|38.22,30.61;37.37,32.61|CN|N|Finish killing Thistlefur Village Furbolgs.|US|
+T Breathing Room|QID|13943|M|38.27,43.11|N|To Captain Goggath.|
+T Set Us Up the Bomb|QID|13942|M|37.98,43.86|N|To Tweedle.|
+A Small Hands, Short Fuse|QID|13944|M|37.98,43.86|N|From Tweedle.|PRE|13942|RANK|1|
+C Small Hands, Short Fuse|QID|13944|M|38.13,43.98|N|Use Tweedle's Improvised Explosive on the Broken-down Wagon.|U|46701|NC|
+T Small Hands, Short Fuse|QID|13944|M|38.27,43.11|N|To Captain Goggath.|
+A Blastranaar!|QID|13947|M|38.27,43.11|N|From Captain Goggath.|PRE|13944|RANK|1|
+C Blastranaar!|QID|13947|M|38.08,42.22|N|Talk to Thraka when you're ready to bomb some stuff.\n[color=FF0000]NOTE: [/color]<1> to drop bombs and <2> to recall when you are done.|
+T Blastranaar!|QID|13947|M|38.27,43.11|N|To Captain Goggath.| ; Completes The Bombing of Astranaar
+A Condition Critical!|QID|13958|M|38.27,43.11|N|From Captain Goggath.|PRE|13947|RANK|1|
+A Tweedle's Tiny Package|QID|13974|M|37.98,43.86|N|From Tweedle.|PRE|13947|RANK|1|
+A Thunder Peak|QID|13879|M|38.77,43.33|N|From Broyk.|PRE|13947|RANK|1|
+R Thistlefur Village|ACTIVE|216^6462|M|38.79,38.15|N|Make your way to Thistlefur Village. How you get there is entirely up to you.|
+K Between a Rock and a Thistlefur|QID|216|QO|1|N|Kill Thistlefur Furblogs as you run into them. You'll have plenty of time to work on this.|S|
+R Thistlefur Hold|ACTIVE|6462|M|39.95,33.04;38.46,30.63|CC|N|Make your way through the village to Thistlefur Hold.|
+l Troll Charm|ACTIVE|6462|N|Head to the first intersection and take the path to the right. As you make your way along, loot the Troll Charms from the chests you'll find along the way.\n[color=FF0000]NOTE: [/color]When you have looted 5 of them, head back to the first intersection and take the other path.|
+A Freedom to Ruul|QID|6482|M|41.59,34.49|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ruul Snowhoof.\nThis a really, long escort course.\n[color=FF0000]NOTE: [/color]The easiest way to get to Ruul is from the path that runs up the center under the bridge or to drop down behind him. Using the center path, you can clear the path before you accept the quest.|
+A Freedom to Ruul|QID|6482|M|41.59,34.49|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\n[color=80FF00]Escort Quest:[/color]\nHead back inside Thistlefur Hold to Ruul Snowhoof to restart it.\n By this time, the mobs have started respawning and you will have to fight your way back in. If you are quick, you may not have to fight as much on the way out.|FAIL|
+C Freedom to Ruul|QID|6482|M|40.00,31.98;38.48,36.53;38.57,37.21|CC|QO|1|N|Follow Ruul out of Thistlefur Hold and through Thistlefur Village.\nAs you make your way along, you'll be attacked by a trio of Thistlefurs on two occasions. First one is inside the Hold and the second is just outside the east gate. Fairly easy to handle, unless they run too far.\nFocus on keeping alive. Ruul can handle himself fairly well. Avoid pulling unnecessarily; Ruul will be pulling plenty on his own.\nIf you die, the quest is over. You will not make it back in time.|
+K Between a Rock and a Thistlefur|ACTIVE|216|QO|1|N|Finish killing Thistlefur Furbolgs. No need to focus on one area as you'll find plenty on your way out.|US|
+R Hellscream's Watch|ACTIVE|216^6462|M|37.74,35.17;13.48,32.21|CC|N|Run back to Hellscream's Watch. Feel free to take whatever path you desire.|
 T Troll Charm|QID|6462|M|38.82,42.47|N|To Mitsuwa.|
-T Between a Rock and a Thistlefur|QID|216|M|37.84,43.41|N|To Karang Amakkar.|
+T Between a Rock and a Thistlefur|QID|216|M|37.84,43.41|N|To Karang Amakkar.\n[color=FF0000]NOTE: [/color]Do NOT accept the follow-up quest. It's not worth the effort.|
 F Silverwind Refuge|QID|13974|M|38.09,42.23|N|Fly to Silverwind Refuge.|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.88,65.67|N|From Blood Guard Aldo Rockrain.\n[color=FF0000]NOTE: [/color]Skip this if you don't plan on going to Stonetalon Mountains.\nDon't get on the caravan until you're ready to leave Ashenvale.|RANK|3|
 t Sharptalon's Claw|QID|2|M|49.8,65.2|N|To Senani Thunderheart.|IZ|Silverind Refuge|
