@@ -35,7 +35,7 @@ C Management Material|QID|13640|M|71.51,82.40|N|Talk to a Demoralized Peon and f
 T Management Material|QID|13640|M|72.93,80.44|N|To Gorka.|
 A Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|From Gorka.|PRE|13640|RANK|1|
 C Needs a Little Lubrication|QID|13651|M|74.25,73.56|N|Kill Rotting Slime until you have 5 Natural Oil.|
-K Sharptalon|QID|2|M|72.33,76.83|L|16305|N|Keep an eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|T|Sharptalon|S!US|IZ|The Dor'Danil Barrow Den|RANK|3|
+K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Keep an eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|T|Sharptalon|S|IZ|The Dor'Danil Barrow Den|RANK|3|
 A Sharptalon's Claw|QID|2|M|PLAYER|N|From Sharptalon's Claw.|U|16305|O|
 T Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|To Gorka.|
 A Crisis at Splintertree|QID|13653|M|72.93,80.44|N|From Gorka.|PRE|13651|RANK|1|
@@ -61,7 +61,7 @@ A Torek's Assault|QID|6544|M|68.34,75.30|ELITE|N|[color=80FF00]Escort Quest:[/co
 C Torek's Assault|QID|6544|M|64.71,75.40|N|Follow Torek and his troops to Silverwing Outpost. Let Torek lead the fight.\n[color=FF0000]NOTE: [/color]Be sure to keep Torek alive. If he dies, it's game over. (the quest is; not the fighting)|
 R The Dor'Danil Barrow Den|ACTIVE|13805|M|75.91,75.36|N|Make your way to Barrow Den.|FLY|OLD|
 C Pierce Their Heart!|QID|13805|M|75.51,74.20|N|Enter Barrow Den and follow the blood trail. Use the Tainted Blood of the Kaldorei on the Forest Heart.|U|45683|
-K Dead Elves Walking|ACTIVE|13801|M|75.64,75.25|QO|1|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|US|
+K Dead Elves Walking|ACTIVE|13801|M|75.64,75.25|QO|1|N|Destroy any 15 of the Nightelf ghosts at Dor'danil Barrow Den.|US|
 K Ashenvale Outrunners|ACTIVE|6503|M|75.52,70.28|QO|1|N|Finish killing Ashenvale Outrunners.|US|
 K Destroy the Legion|ACTIVE|26448|M|84.07,70.30|QO|1|N|Slay any 15 demons.|S|
 C Playing With Felfire|QID|13730|M|79.84,64.72|N|Use the Reinforced Canister to siphon 7 Felfires (the greenish fires on the ground) in Felfire Hill.|U|45478|
@@ -139,6 +139,7 @@ F Orgrimmar|ACTIVE|13842|M|73.18,61.60|N|Fly back to Orgrimmar.|
 R Grommash Hold|ACTIVE|13842|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
 T Dread Head Redemption|QID|13842|M|49.22,72.27|Z|Orgrimmar|N|To Eitrigg.| ; Completes Splintertree's Demonic Defense
 F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|IZ|Orgrimmar|
+K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Go kill Sharptalon and loot the claw.\n[color=FF0000]NOTE: [/color]You are leaving this area and this is the last opportunity to do this.|T|Sharptalon|US|RANK|3|
 F Zoram'gar Outpost|ACTIVE|13848|M|73.18,61.60|N|Talk to Vhulgra for a free flight to Zoram'gar Outpost.|CHAT|
 f Zoram'gar Outpost|ACTIVE|13848|M|11.16,34.42|N|Get the flight point from Andruk.|TAXI|-Zoram'gar Outpost|IZ|Zoram'gar Outpost|
 h Zoram'gar Outpost|AVAILABLE|13848|M|12.99,34.15|N|Set your hearth with Innkeeper Duras.|
@@ -197,18 +198,19 @@ T Blastranaar!|QID|13947|M|38.27,43.11|N|To Captain Goggath.| ; Completes The Bo
 A Condition Critical!|QID|13958|M|38.27,43.11|N|From Captain Goggath.|PRE|13947|RANK|1|
 A Tweedle's Tiny Package|QID|13974|M|37.98,43.86|N|From Tweedle.|PRE|13947|RANK|1|
 A Thunder Peak|QID|13879|M|38.77,43.33|N|From Broyk.|PRE|13947|RANK|1|
-R Thistlefur Village|ACTIVE|216^6462|M|38.79,38.15|N|Make your way to Thistlefur Village. How you get there is entirely up to you.|
+R Thistlefur Village|ACTIVE|216^6462|M|38.79,38.15|N|Make your way to Thistlefur Village. How you get there is entirely up to you.|FLY|OLD|
 K Between a Rock and a Thistlefur|QID|216|QO|1|N|Kill Thistlefur Furblogs as you run into them. You'll have plenty of time to work on this.|S|
-R Thistlefur Hold|ACTIVE|6462|M|39.95,33.04;38.46,30.63|CC|N|Make your way through the village to Thistlefur Hold.|
-l Troll Charm|ACTIVE|6462|N|Head to the first intersection and take the path to the right. As you make your way along, loot the Troll Charms from the chests you'll find along the way.\n[color=FF0000]NOTE: [/color]When you have looted 5 of them, head back to the first intersection and take the other path.|
-A Freedom to Ruul|QID|6482|M|41.59,34.49|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ruul Snowhoof.\nThis a really, long escort course.\n[color=FF0000]NOTE: [/color]The easiest way to get to Ruul is from the path that runs up the center under the bridge or to drop down behind him. Using the center path, you can clear the path before you accept the quest.|
-A Freedom to Ruul|QID|6482|M|41.59,34.49|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\n[color=80FF00]Escort Quest:[/color]\nHead back inside Thistlefur Hold to Ruul Snowhoof to restart it.\n By this time, the mobs have started respawning and you will have to fight your way back in. If you are quick, you may not have to fight as much on the way out.|FAIL|
-C Freedom to Ruul|QID|6482|M|40.00,31.98;38.48,36.53;38.57,37.21|CC|QO|1|N|Follow Ruul out of Thistlefur Hold and through Thistlefur Village.\nAs you make your way along, you'll be attacked by a trio of Thistlefurs on two occasions. First one is inside the Hold and the second is just outside the east gate. Fairly easy to handle, unless they run too far.\nFocus on keeping alive. Ruul can handle himself fairly well. Avoid pulling unnecessarily; Ruul will be pulling plenty on his own.\nIf you die, the quest is over. You will not make it back in time.|
+R Thistlefur Hold|ACTIVE|6462|M|37.06,33.03|N|Make your way through the village to Thistlefur Hold.|
+l Troll Charm|ACTIVE|6462|M|38.46,30.63|CC|QO|1|N|Head to the first intersection and take the path to the right. As you make your way along, loot the Troll Charms from the chests you'll find along the way.\n[color=FF0000]NOTE: [/color]When you have looted 5 of them, head back to the first intersection and take the other path.|
+A Freedom to Ruul|QID|6482|M|41.59,34.49|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ruul Snowhoof.\nThis a really, long escort course.\n[color=FF0000]NOTE: [/color]The easiest way to get to Ruul is from the path that runs up the center under the bridge or to drop down behind him. Using the center path, you can clear the path before you accept the quest.|RANK|3|
+A Freedom to Ruul|QID|6482|M|41.59,34.49|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\n[color=80FF00]Escort Quest:[/color]\nHead back inside Thistlefur Hold to Ruul Snowhoof to restart it.\n By this time, the mobs have started respawning and you will have to fight your way back in. If you are quick, you may not have to fight as much on the way out.|FAIL|RANK|3|
+C Freedom to Ruul|QID|6482|M|40.00,31.98;38.48,36.53;38.55,37.48|CC|QO|1|N|Follow Ruul out of Thistlefur Hold and through Thistlefur Village.\nAs you make your way along, you'll be attacked by a trio of Thistlefurs on two occasions. First one is inside the Hold and the second is just outside the east gate. Fairly easy to handle, unless they run too far.\nFocus on keeping alive. Ruul can handle himself fairly well. Avoid pulling unnecessarily; Ruul will be pulling plenty on his own.\nIf you die, the quest is over. You will not make it back in time.|
 K Between a Rock and a Thistlefur|ACTIVE|216|QO|1|N|Finish killing Thistlefur Furbolgs. No need to focus on one area as you'll find plenty on your way out.|US|
-R Hellscream's Watch|ACTIVE|216^6462|M|37.74,35.17;13.48,32.21|CC|N|Run back to Hellscream's Watch. Feel free to take whatever path you desire.|
-T Troll Charm|QID|6462|M|38.82,42.47|N|To Mitsuwa.|
-T Between a Rock and a Thistlefur|QID|216|M|37.84,43.41|N|To Karang Amakkar.\n[color=FF0000]NOTE: [/color]Do NOT accept the follow-up quest. It's not worth the effort.|
-F Silverwind Refuge|QID|13974|M|38.09,42.23|N|Fly to Silverwind Refuge.|
+R Hellscream's Watch|ACTIVE|216^6462|M|38.28,43.11|N|Run back to Hellscream's Watch. Feel free to take whatever path you desire.|FLY|OLD|
+T Troll Charm|QID|6462|M|38.89,42.38|N|To Mitsuwa.|
+T Between a Rock and a Thistlefur|QID|216|M|37.76,43.49|N|To Karang Amakkar.|
+F Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|
+R Silverwind Refuge|ACTIVE|13974|M|44.30,56.59;51.22,58.37|CC|N|Run to Silverwind Refuge.|TAXI|-Silverwind Refuge|FLY|OLD|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.88,65.67|N|From Blood Guard Aldo Rockrain.\n[color=FF0000]NOTE: [/color]Skip this if you don't plan on going to Stonetalon Mountains.\nDon't get on the caravan until you're ready to leave Ashenvale.|RANK|3|
 t Sharptalon's Claw|QID|2|M|49.8,65.2|N|To Senani Thunderheart.|IZ|Silverind Refuge|
 A Thinning the... Herd?|QID|13967|M|49.76,65.13|N|From Senani Thunderheart.|RANK|2|
