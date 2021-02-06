@@ -139,7 +139,6 @@ F Orgrimmar|ACTIVE|13842|M|73.18,61.60|N|Fly back to Orgrimmar.|
 R Grommash Hold|ACTIVE|13842|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
 T Dread Head Redemption|QID|13842|M|49.22,72.27|Z|Orgrimmar|N|To Eitrigg.| ; Completes Splintertree's Demonic Defense
 F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|IZ|Orgrimmar|
-K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Go kill Sharptalon and loot the claw.\n[color=FF0000]NOTE: [/color]You are leaving this area and this is the last opportunity to do this.|T|Sharptalon|US|RANK|3|
 F Zoram'gar Outpost|ACTIVE|13848|M|73.18,61.60|N|Talk to Vhulgra for a free flight to Zoram'gar Outpost.|CHAT|
 f Zoram'gar Outpost|ACTIVE|13848|M|11.16,34.42|N|Get the flight point from Andruk.|TAXI|-Zoram'gar Outpost|IZ|Zoram'gar Outpost|
 h Zoram'gar Outpost|AVAILABLE|13848|M|12.99,34.15|N|Set your hearth with Innkeeper Duras.|
@@ -209,18 +208,21 @@ K Between a Rock and a Thistlefur|ACTIVE|216|QO|1|N|Finish killing Thistlefur Fu
 R Hellscream's Watch|ACTIVE|216^6462|M|38.28,43.11|N|Run back to Hellscream's Watch. Feel free to take whatever path you desire.|FLY|OLD|
 T Troll Charm|QID|6462|M|38.89,42.38|N|To Mitsuwa.|
 T Between a Rock and a Thistlefur|QID|216|M|37.76,43.49|N|To Karang Amakkar.|
+F Splintertree Post|ACTIVE|6482|M|49.29,65.25|N|Fly to Splintertree Post.|
+T Freedom to Ruul|QID|6482|M|74.11,60.91|N|To Yama Snowhoof.|
+K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Go kill Sharptalon and loot the claw.\n[color=FF0000]NOTE: [/color]You are leaving this area and this is the last opportunity to do this.|T|Sharptalon|US|RANK|3|
 F Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|
-R Silverwind Refuge|ACTIVE|13974|M|44.30,56.59;51.22,58.37|CC|N|Run to Silverwind Refuge.|TAXI|-Silverwind Refuge|FLY|OLD|
-A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.88,65.67|N|From Blood Guard Aldo Rockrain.\n[color=FF0000]NOTE: [/color]Skip this if you don't plan on going to Stonetalon Mountains.\nDon't get on the caravan until you're ready to leave Ashenvale.|RANK|3|
-t Sharptalon's Claw|QID|2|M|49.8,65.2|N|To Senani Thunderheart.|IZ|Silverind Refuge|
-A Thinning the... Herd?|QID|13967|M|49.76,65.13|N|From Senani Thunderheart.|RANK|2|
-T Tweedle's Tiny Package|QID|13974|M|49.98,67.17|N|To Flooz.|
-A Mass Production|QID|13977|M|49.98,67.25|N|Wait a moment then get this quest from Flooz.|PRE|13974|RANK|2|
-A Well, Come to the Jungle|QID|26416|M|49.70,67.14|N|From Cromula.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|RANK|2|
-A Simmer Down Now|QID|25|M|50.12,67.52|N|From Captain Tarkan.|RANK|2|
-h Silverwind Refuge|ACTIVE|6482|M|50.37,67.20|N|At Innkeeper Chin'toka.|
-F Splintertree Post|QID|6482|M|49.3,65.26|N|Fly to Splintertree Post.|FLY|OLD|
-T Freedom to Ruul|QID|6482|M|74.07,60.90|N|To Yama Snowhoof.|
+R Silverwind Refuge|ACTIVE|13974|M|51.22,58.37|N|Run to Silverwind Refuge.|TAXI|-Silverwind Refuge|FLY|OLD|
+A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.88,65.78|N|From Blood Guard Aldo Rockrain.\n[color=FF0000]NOTE: [/color]Skip this if you don't plan on going to Stonetalon Mountains.\nDon't get on the caravan until you're ready to leave Ashenvale.|RANK|3|
+T Sharptalon's Claw|QID|2|M|49.75,65.08|N|To Senani Thunderheart.|
+A Thinning the... Herd?|QID|13967|M|49.75,65.08|N|From Senani Thunderheart.|RANK|2|
+f Silverwind Refuge|ACTIVE|13974|M|49.29,65.25|N|Get flightpath from Wind Tamer Shosok.|TAXI|-Silverwind Refuge|
+T Tweedle's Tiny Package|QID|13974|M|49.96,67.25|N|To Flooz.|
+A Mass Production|QID|13977|M|49.96,67.25|N|Wait a moment then get this quest from Flooz.|PRE|13974|RANK|2|
+A Simmer Down Now|QID|25|M|50.13,67.58|N|From Captain Tarkan.|RANK|2|
+h Silverwind Refuge|ACTIVE|6482|M|50.43,67.16|N|At Innkeeper Chin'toka.|
+A Well, Come to the Jungle|QID|26416|M|50.75,67.12|N|From Cromula. She paces back and forth between the two wings of the building.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|RANK|2|
+R Greenpaw Village|ACTIVE|13967|M|52.63,63.44|N|Make your way to Greenpaw Village, just to the north of Silverwind Refuge.|FLY|OLD|
 C Thinning the... Herd?|QID|13967|M|57.37,64.16|N|Kill and loot Furbolg until you get 15 ears.|
 K Simmer Down Now|ACTIVE|25|M|48.33,69.65|N|Kill Befouled Water Elementals and Tideress.|
 l Befouled Water Globe|AVAILABLE|1918|M|48.33,69.65|N|Continue killing Befouled Water Elementals and Tideress until one drops it.|RANK|2|
