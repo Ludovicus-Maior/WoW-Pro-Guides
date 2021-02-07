@@ -208,69 +208,80 @@ K Between a Rock and a Thistlefur|ACTIVE|216|QO|1|N|Finish killing Thistlefur Fu
 R Hellscream's Watch|ACTIVE|216^6462|M|38.28,43.11|N|Run back to Hellscream's Watch. Feel free to take whatever path you desire.|FLY|OLD|
 T Troll Charm|QID|6462|M|38.89,42.38|N|To Mitsuwa.|
 T Between a Rock and a Thistlefur|QID|216|M|37.76,43.49|N|To Karang Amakkar.|
+R Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Run to Silverwind Refuge.|TAXI|-Silverwind Refuge|FLY|OLD|
+A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.88,65.78|N|From Blood Guard Aldo Rockrain.\n[color=FF0000]NOTE: [/color]Skip this if you don't plan on going to Stonetalon Mountains.\nDon't get on the caravan until you're ready to leave Ashenvale.|RANK|3|
+t Sharptalon's Claw|QID|2|M|49.75,65.08|N|To Senani Thunderheart.|IZ|Silverwind Refuge|
+f Silverwind Refuge|ACTIVE|13974|M|49.29,65.25|N|Get flightpath from Wind Tamer Shosok.|TAXI|-Silverwind Refuge|
 F Splintertree Post|ACTIVE|6482|M|49.29,65.25|N|Fly to Splintertree Post.|
 T Freedom to Ruul|QID|6482|M|74.11,60.91|N|To Yama Snowhoof.|
-K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Go kill Sharptalon and loot the claw.\n[color=FF0000]NOTE: [/color]You are leaving this area and this is the last opportunity to do this.|T|Sharptalon|US|RANK|3|
+K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Go kill Sharptalon and loot the claw.\n[color=FF0000]NOTE: [/color]You are leaving the area and this is the last opportunity to do this.|T|Sharptalon|US|RANK|3|
 F Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|
-R Silverwind Refuge|ACTIVE|13974|M|51.22,58.37|N|Run to Silverwind Refuge.|TAXI|-Silverwind Refuge|FLY|OLD|
-A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.88,65.78|N|From Blood Guard Aldo Rockrain.\n[color=FF0000]NOTE: [/color]Skip this if you don't plan on going to Stonetalon Mountains.\nDon't get on the caravan until you're ready to leave Ashenvale.|RANK|3|
-T Sharptalon's Claw|QID|2|M|49.75,65.08|N|To Senani Thunderheart.|
 A Thinning the... Herd?|QID|13967|M|49.75,65.08|N|From Senani Thunderheart.|RANK|2|
-f Silverwind Refuge|ACTIVE|13974|M|49.29,65.25|N|Get flightpath from Wind Tamer Shosok.|TAXI|-Silverwind Refuge|
 T Tweedle's Tiny Package|QID|13974|M|49.96,67.25|N|To Flooz.|
 A Mass Production|QID|13977|M|49.96,67.25|N|Wait a moment then get this quest from Flooz.|PRE|13974|RANK|2|
 A Simmer Down Now|QID|25|M|50.13,67.58|N|From Captain Tarkan.|RANK|2|
 h Silverwind Refuge|ACTIVE|6482|M|50.43,67.16|N|At Innkeeper Chin'toka.|
-A Well, Come to the Jungle|QID|26416|M|50.75,67.12|N|From Cromula. She paces back and forth between the two wings of the building.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|RANK|2|
+A Well, Come to the Jungle|QID|26416|M|50.75,67.12|N|From Cromula. She paces back and forth between the two wings of the building.\n[color=FF0000]NOTE: [/color]This quest brings you to Orgrimmar at the end of the guide.|RANK|1|
 R Greenpaw Village|ACTIVE|13967|M|52.63,63.44|N|Make your way to Greenpaw Village, just to the north of Silverwind Refuge.|FLY|OLD|
-C Thinning the... Herd?|QID|13967|M|57.37,64.16|N|Kill and loot Furbolg until you get 15 ears.|
-K Simmer Down Now|ACTIVE|25|M|48.33,69.65|N|Kill Befouled Water Elementals and Tideress.|
-l Befouled Water Globe|AVAILABLE|1918|M|48.33,69.65|N|Continue killing Befouled Water Elementals and Tideress until one drops it.|RANK|2|
-A The Befouled Element|QID|1918|M|50.52,65.86|N|From the Befouled Water Globe.|U|16408|O|RANK|2|
-T Simmer Down Now|QID|25|M|50.13,67.52|N|To Captain Tarkan.|
-T Thinning the... Herd?|QID|13967|M|49.76,65.14|N|To Senani Thunderheart.|
-A King of the Foulweald|QID|6621|M|49.76,65.14|N|From Senani Thunderheart.|PRE|13967|RANK|2|
-T Mass Production|QID|13977|M|46.12,63.25|N|To Foreman Jinx.|
-A They're Out There!|QID|13980|M|46.12,63.25|N|From Foreman Jinx.|PRE|13977|RANK|2|
-A Building Your Own Coffin|QID|13983|M|46.12,63.25|N|From Foreman Jinx.|PRE|13977|RANK|2|
-C Building Your Own Coffin|QID|13983|M|37.38,71.32|N|Finish gathering parts.|S|
-C They're Out There!|QID|13980|M|41.25,68.99|N|Kill Assassins. Use Jinx's Goggles to be able to see them.|U|46776|S|
-K Ursangous|QID|23|M|41.8,65.2|L|16303|N|Keep and eye out for Ursangous. Kill and loot the paw. Use the paw to start the quest.|T|Ursangous|
+l Thinning the... Herd?|ACTIVE|13967|M|54.15,62.44|QO|1|N|Kill and loot Furbolg until you get 15 ears.|
+K Simmer Down Now|ACTIVE|25|M|51.25,68.79|QO|1|N|Kill Befouled Water Elementals.|S|
+K Tideress|ACTIVE|25|AVAILABLE|1918|L|16408|M|48.33,69.65|N|You'll find her on the island in the middle of Mystral Lake.\n[color=FF0000]NOTE: [/color]She also drops a quest starter item, Befouled Water Globe.|T|Tideress|
+K Tideress|ACTIVE|25|AVAILABLE|-1918|M|48.33,69.65|QO|2|N|You'll find her on the island in the middle of Mystral Lake.|T|Tideress|
+l Befouled Water Globe|AVAILABLE|1918|M|48.33,69.65|N|If Tideress didn't drop it yet, you will have to continue killing her until she does.\n[color=FF0000]NOTE: [/color]She respawns every 30 seconds|RANK|2|
+A The Befouled Element|QID|1918|M|50.52,65.86|N|From the Befouled Water Globe.|U|16408|O|
+K Simmer Down Now|ACTIVE|25|M|51.25,68.79|QO|1|N|Finish killing Befouled Water Elementals.|US|
+T Simmer Down Now|QID|25|M|50.13,67.58|N|To Captain Tarkan.|
+T Thinning the... Herd?|QID|13967|M|49.75,65.08|N|To Senani Thunderheart.|
+A King of the Foulweald|QID|6621|M|49.75,65.08|N|From Senani Thunderheart.|PRE|13967|RANK|2|
+T Mass Production|QID|13977|M|46.17,63.27|N|To Foreman Jinx.|
+A They're Out There!|QID|13980|M|46.17,63.27|N|From Foreman Jinx.|PRE|13977|RANK|2|
+A Building Your Own Coffin|QID|13983|M|46.17,63.27|N|From Foreman Jinx.|PRE|13977|RANK|2|
+K They're Out There!|QID|13980|M|41.25,68.99|QO|1|N|Kill Assassins.\n[color=FF0000]NOTE: [/color]Use Jinx's Goggles if you lose the buff.|U|46776|S|
+R Talondeep Vale|ACTIVE|13980^13983|M|42.15,64.98|N|Follow the road southwest out of Silverwind Refuge.|FLY|OLD|
+l Building Your Own Coffin|QID|13983|M|37.38,71.32|QO|1;2;3|N|Collect the required parts. You'll find them spread out all over the ground in Talondeep Vale.|S|
+K Ursangous|QID|23|M|41.8,65.2|L|16303|N|Keep an eye out for a light-colored (blue) bear named Ursangous. He is part of the 'Ashenvale Hunt' quest. He circles the big tree in the center.|T|Ursangous|S|
 A Ursangous' Paw|QID|23|N|From Ursangous' Paw.|U|16303|O|
-C Building Your Own Coffin|QID|13983|M|37.38,71.32|N|Finish gathering parts.|US|
-C They're Out There!|QID|13980|M|41.25,68.99|N|Finish killing Assassins. Use Jinx's Goggles to be able to see them.|U|46776|US|
-T They're Out There!|QID|13980|M|46.14,63.27|N|To Foreman Jinx.|
-T Building Your Own Coffin|QID|13983|M|46.14,63.27|N|To Foreman Jinx.|
-T Thunder Peak|QID|13879|M|52.06,56.46|N|To Stikwad.|RANK|1|
-A Hot Lava|QID|13880|M|52.22,56.54|N|From Core.|PRE|13879|RANK|2|
-A Put Out The Fire|QID|13884|M|52.12,56.59|N|From Arctanus.|PRE|13879|RANK|2|
-C Put Out The Fire|QID|13884|M|52.16,49.41|N|Kill Lava Ragers while filling in fissures.|S|
-C Hot Lava|QID|13880|U|46352|M|50.89,48.66|N|Use the Gift of the Earth to fill fissures (they look like brown geysers occassionally spewing lava.|
-C Put Out The Fire|QID|13884|M|52.16,49.41|N|Freezing Surger will help you. If you lose it, speak to Arctianus for another. (52.16,56.67).|US|
-T Hot Lava|QID|13880|M|52.38,56.63|N|To Core.|
-T Put Out The Fire|QID|13884|M|52.15,56.72|N|To Arctanus.|
-A Vortex|QID|13888|M|52.36,56.84|N|From The Vortex.|PRE|13880&13884|RANK|2|
-C Vortex|QID|13888|M|47.05,39.08|N|Speak to Vortex when ready to go. Use his attacks to defeat Lord Magmathar.|
-T Vortex|QID|13888|M|52.06,56.46|N|To Stikwad.|
-K Shadumbra|QID|24|M|61.8,49.9;59.3,54.4;53.6,54.7|CN|L|16304|N|Keep and eye out for Shadumbra. Kill and loot the head. Use the head to start the quest.|T|Shadumbra|
+C They're Out There!|QID|13980|M|41.25,68.99|N|Kill Assassins.\n[color=FF0000]NOTE: [/color]Use Jinx's Goggles if you lose the buff.|U|46776|US|
+l Building Your Own Coffin|QID|13983|M|37.38,71.32|QO|1;2;3|N|Finish gathering parts.\n[color=FF0000]NOTE: [/color]Use Jinx's Goggles so you can see where the Assassins are.|U|46776|US|
+K Ursangous|QID|23|M|41.8,65.2|L|16303|N|Keep and eye out for Ursangous. Kill and loot the paw. Use the paw to start the quest.|T|Ursangous|US|
+T They're Out There!|QID|13980|M|46.17,63.27|N|To Foreman Jinx.|
+T Building Your Own Coffin|QID|13983|M|46.17,63.27|N|To Foreman Jinx.| ; Completes storyline Weapons of Their Destruction
+R Thunder Peak|QID|13879|M|46.63,56.07|N|Head north out of Skunkworks to the main road.|FLY|OLD|
+T Thunder Peak|QID|13879|M|52.09,56.51|N|To Stikwad.|
+A Hot Lava|QID|13880|M|52.33,56.51|N|From Core.|PRE|13879|RANK|1|
+A Put Out The Fire|QID|13884|M|52.08,56.72|N|From Arctanus.|PRE|13879|RANK|2|
+K Put Out The Fire|ACTIVE|13884|M|52.16,49.41|QO|1|N|Kill Lava Ragers.\n[color=FF0000]NOTE: [/color]Freezing Surger will kill them for you. If you lose it, speak to Arctanus for another.|S|
+C Hot Lava|QID|13880|U|46352|M|50.89,48.66|N|Use the Gift of the Earth to fill fissures\n[color=FF0000]NOTE: [/color]They look like brown geysers occassionally spewing lava.|NC|
+K Put Out The Fire|ACTIVE|13884|M|52.16,49.41|QO|1|N|Kill Lava Ragers.\n[color=FF0000]NOTE: [/color]Freezing Surger will kill them for you. If you lose it, speak to Arctanus for another.|US|
+T Hot Lava|QID|13880|M|52.33,56.51|N|To Core.|
+T Put Out The Fire|QID|13884|M|52.08,56.72|N|To Arctanus.|
+A Vortex|QID|13888|M|52.33,56.78|N|From The Vortex.|PRE|13880&13884|RANK|2|
+K Lord Magmathar|ACTIVE|13888|M|47.05,39.08|QO|1|N|Speak to Vortex when you're ready to go.\nUse Vortex's attacks to defeat him.|T|Lord Magmathar|
+T Vortex|QID|13888|M|52.09,56.51|N|To Stikwad.| ; Completes storyline Bringing Harmony to the Elements and Ashenvale storyline
+R Raynewood Retreat|ACTIVE|13958|M|59.93,53.29|N|Make your way to Raynewood Retreat.|FLY|OLD|
+K Shadumbra|AVAILABLE|24|M|62.04,52.40|L|16304|N|While you're on the way to Raynewood Retreat, locate and kill Shadumbra, a nightsaber cat that paths in that area.\n[color=FF0000]NOTE: [/color]She drops a quest starter item.|T|Shadumbra|S|RANK|2|
 A Shadumbra's Head|QID|24|N|From Shadumbra's Head.|U|16304|O|
-T Condition Critical!|QID|13958|M|60.65,52.70|N|To Thagg.|
-A Stalemate|QID|13962|PRE|13958|M|60.65,52.70|N|From Thagg.|RANK|2|
+T Condition Critical!|QID|13958|M|60.66,52.68|N|To Thagg.\n[color=FF0000]NOTE: [/color]He paths up and down the road.|
+A Stalemate|QID|13962|M|60.66,52.68|N|From Thagg.|PRE|13958|RANK|2|
 C Stalemate|QID|13962|M|62.06,51.25|N|Go to the top floor of nearby building and slay Keeper Ordanus.|
-T Stalemate|QID|13962|M|60.70,52.71|N|To Thagg.|
-C King of the Foulweald|QID|6621|M|56.37,63.49|N|Use Senani's Banner on top of the hill. Defend it against the mobs that appear. Activate Murgut's Totem Basket.|U|16972|
-H Silverwind Refuge|ACTIVE|23^6621|N|Hearth to Silverwind Refuge.|
-t Ursangous' Paw|QID|23|M|50.12,67.52|N|To Captain Tarkan.|IZ|Silverwind Refuge|
-T King of the Foulweald|QID|6621|M|49.78,65.07|N|To Senani Thunderheart.|
+T Stalemate|QID|13962|M|60.65,52.69|N|To Thagg.|
+K Shadumbra|AVAILABLE|24|M|62.45,49.70|L|16304|N|Locate and kill Shadumbra, a nightsaber cat that paths in that area.\n[color=FF0000]NOTE: [/color]She drops a quest starter item.|T|Shadumbra|US|RANK|2|
+R Greenpaw Village|ACTIVE|6621|M|58.02,61.75|N|Using the main road, make your way south.\n[color=FF0000]NOTE: [/color]Unless you enjoy PvP, avoid getting too close to the Raynewood Tower.|FLY|OLD|
+C King of the Foulweald|QID|6621|M|56.35,63.50|N|Use Senani's Banner at top of the hill and defend it against the mobs that appear. When Chief Murgut appears, kill him and loot Murgut's Totem from the basket he drops.|
+H Silverwind Refuge|ACTIVE|23^6621|M|50.43,67.16|N|Hearth to Silverwind Refuge.|
+T Ursangous' Paw|QID|23|M|50.13,67.58|N|To Captain Tarkan.|
+T King of the Foulweald|QID|6621|M|49.75,65.08|N|To Senani Thunderheart.|
 F Splintertree Post|ACTIVE|1918|M|49.29,65.25|N|Fly to Splintertree Post.|
-T The Befouled Element|QID|1918|M|74.15,60.77|N|To Mastok Wrilehiss.|
-A Je'neu of the Earthen Ring|QID|824|M|74.15,60.77|N|From Mastok Wrilehiss. This quest is currently turned in inside of the Blackfathom Deeps instance.|PRE|1918|RANK|2|
-F Hellscream's Watch|ACTIVE|24|N|Fly to Hellscream's Watch|
-T Shadumbra's Head|QID|24|M|38.10,43.80|N|To Captain Goggath.|
+T The Befouled Element|QID|1918|M|74.20,60.72|N|To Mastok Wrilehiss.|
+A Je'neu of the Earthen Ring|QID|824|M|74.20,60.72|ELITE|N|[color=E6CC80]Dungeon: 'Blackfathom Deeps'[/color]\nFrom Mastok Wrilehiss.|PRE|1918|RANK|3|
+F Hellscream's Watch|ACTIVE|24|M|73.18,61.60|N|Fly to Hellscream's Watch|
+T Shadumbra's Head|QID|24|M|38.27,43.11|N|To Captain Goggath.|
 F Zoram'gar Outpost|ACTIVE|26894^824|N|Fly to Zoram'gar Outpost.|
-T Blackfathom Deeps|QID|26894|M|10.00,14.00|N|To Je'nue Sancrea.\n[color=FF0000]NOTE: [/color]He is inside of the Blackfathom Deeps instance.|RANK|1|
-T Je'neu of the Earthen Ring|QID|824|M|10.00,14.00|N|To Je'neu Sancrea.\n[color=FF0000]NOTE: [/color]He is inside of the Blackfathom Deeps instance.|RANK|2|
-F Orgrimmar|QID|26416|N|Fly to Orgrimmar.|
+R Blackfathom Deeps|ACTIVE|26894^824|M|16.51,11.00|N|Make your way to Blackfathom Deeps.|FLY|OLD|
+R Blackfathom Deeps Portal|ACTIVE|26894^824|M|16.50,11.01|N|Make your way through the caverns to the instance portal and enter it.|IZ|-221|
+T Blackfathom Deeps|QID|26894|M|10.00,14.00|Z|221|N|To Je'nue Sancrea.\n[color=FF0000]NOTE: [/color]He is inside of the Blackfathom Deeps instance.|
+T Je'neu of the Earthen Ring|QID|824|M|10.00,14.00|Z|221|N|To Je'neu Sancrea.\n[color=FF0000]NOTE: [/color]He is inside of the Blackfathom Deeps instance.|
+F Orgrimmar|ACTIVE|26416|N|Fly to Orgrimmar.| ; Depending on RANK and ACTIVE QIDs, location may not be the same at this point.
 T Well, Come to the Jungle|QID|26416|M|51.31,56.19|Z|Orgrimmar|N|To Bort.|
 A Northern Stranglethorn: The Fallen Empire|QID|26417|M|51.31,56.19|Z|Orgrimmar|N|From Bort.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|LEAD|26278|PRE|26416|RANK|2|
 ]]
