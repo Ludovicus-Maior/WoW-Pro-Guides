@@ -278,7 +278,7 @@ T Take the High Ground|QID|58268|M|39.43,46.73|Z|Maldraxxus|N|To Secutor Mevix.|
 A Offensive Behavior|QID|57979|M|39.43,46.73|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57976&60557&58268|MS|
 C Offensive Behavior|QID|57979|M|37.68,43.83|Z|Maldraxxus|U|179923|N|Use the Attack Battlehorn to rally troops to assist you in killing General Alver.|MS|; EAB?
 T Offensive Behavior|QID|57979|M|39.44,46.69|Z|Maldraxxus|N|To Secutor Mevix.|MS|
-T War of Attrition|QID|62712|M|39.10,55.21|Z|Maldraxxus|N|Bonus Objective-Autocompleted.|TOF|
+t War of Attrition|QID|62712|M|39.10,55.21|Z|Maldraxxus|N|Bonus Objective-Autocompleted.|TOF|
 R Spider's Watch|QID|62721|CS|M|40.22,40.71;37.57,29.24|Z|Maldraxxus|N|Head east to get to the road, then follow it north to Spider's Watch.|RANK|2|TOF|
 f Spider's Watch|QID|62721|M|37.57,29.24|Z|Maldraxxus|N|At Flight Master Nudolva.|RANK|2|TOF|
 R Hall of Chains|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Run down the hill to the Hall of Chains.|RANK|2|TOF|
@@ -402,8 +402,8 @@ P Scroll of Teleportation|ACTIVE|62462|QO|1|M|59.96,12.22|Z|Maldraxxus|N|Use Scr
 K Chelicera|ACTIVE|62462|QO|2|M|56,12|Z|Maldraxxus|T|Chelicera|N|Kill Chelicera.|TOF|
 R Keres' Rest|ACTIVE|62462|M|53.81,30.71|Z|Maldraxxus|N|There is another scroll of teleportaion of Chelicera's balcony. Return to ground level then run to Keres' Rest, being aware of the hostile NPC's most likely higher level than you.|TOF|
 F Theater of Pain|ACTIVE|62462|M|53.81,30.71|Z|Maldraxxus|N|At Fly-eyed Eliera.|TOF|
-T Wanted: Appraiser Vix|QID|59867|M|53.58,47.49|Z|Maldraxxus|N|To Au'narim|TOF|;perhaps wait to turn this in when we get the one from the treasure too?
-T Wanted: The Key of Eyes|QID|62462|M|53.13,41.33|Z|Maldraxxus|N|To One-Eyed Joby|TOF|;perhaps switch with step above and run down from Keres' Rest?
+T WANTED: Appraiser Vix|QID|59867|M|53.58,47.49|Z|Maldraxxus|N|To Au'narim|TOF|;perhaps wait to turn this in when we get the one from the treasure too?
+T WANTED: The Key of Eyes|QID|62462|M|53.13,41.33|Z|Maldraxxus|N|To One-Eyed Joby|TOF|;perhaps switch with step above and run down from Keres' Rest?
 
 C Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Might.|EAB|MS|
 T Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
