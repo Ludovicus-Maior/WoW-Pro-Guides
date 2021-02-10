@@ -447,7 +447,7 @@ C The Fallen Tree|QID|62720|M|70.10,57.17|Z|Ardenweald!The Shadowlands|N|Reclaim
 
 A Echoes of Tirna Noch|QID|58473|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60905|MS|
 C Echoes of Tirna Noch|QID|58473|M|60.15,52.86|Z|Ardenweald!The Shadowlands|CHAT|N|Listen to Ara'lon's tale.|MS|
-h Hibernal Hollow|ACTIVE|58473|M|60.48,53.94|N|Ask Taiba to make Hibernal Hollow your new home.|RANK|2|
+h Hibernal Hollow|ACTIVE|58473^62763|M|60.48,53.94|N|Ask Taiba to make Hibernal Hollow your new home.|RANK|2|
 T Echoes of Tirna Noch|QID|58473|M|68.47,57.47|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 A Take What You Can|QID|58484|M|68.47,57.47|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|58473|MS|
 A Read the Roots|QID|58480|M|68.47,57.47|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|58473|MS|

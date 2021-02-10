@@ -474,7 +474,7 @@ C A Time for Courage|QID|60055|M|34.41,55.34|QO|2|Z|Bastion!The Shadowlands|N|Ki
 C A Time for Courage|QID|60055|M|34.59,55.10|QO|3|Z|Bastion!The Shadowlands|V|N|Click on Disciple Apolon to escape the Necrotic Wake.|MS|
 T A Time for Courage|QID|60055|M|40.88,55.10|Z|Bastion!The Shadowlands|N|To Disciple Apolon.|MS|
 A Follow the Path|QID|60056|M|40.88,55.10|Z|Bastion!The Shadowlands|N|From Disciple Apolon.|PRE|60055|MS|
-T Maldraxxi Eviction Notice-Bonus Objective|QID|62736|M|41.79,55.19|N|Autocompleted.|TOF|
+t Maldraxxi Eviction Notice-Bonus Objective|QID|62736|M|41.79,55.19|N|Autocompleted.|TOF|
 A Necrotic Wake: A Paragon's Plight|QID|60057|M|40.93,55.34|Z|Bastion!The Shadowlands|ELITE|N|From Disciple Artemede. This is a [color=e6cc80]Dungeon[/color]\n quest.|RANK|2|
 H Hero's Rest|ACTIVE|60056^62723^60729|U|6948|M|PLAYER|N|Hearth back to Hero's Rest.|
 
