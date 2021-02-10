@@ -559,8 +559,10 @@ t Drust and Ashes|QID|60108|M|50.62,30.89|Z|The Canopy@Heart of the Forest!Dunge
 ;N Kyrian Campaign|QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Kyrian|
 ;   Run through by Blanckaert ending 02/Nov/2020
 
-T Report to Adrestes|QID|63211|PRE|57878|M|36.67,64.20|Z|Ring of Fates@Oribos|N|To Polemarch Adrestes.|COV|Kyrian|  ; not sure if this is LEAD to next quest, but given once you turned in 57878.
-A Among the Kyrian|QID|60491|PRE|57878|M|36.50,64.50|Z|Ring of Fates@Oribos|N|From Polemarch Adrestes.|COV|Kyrian|
+A Report to Adrestes|QID|63211|M|38.91,69.97|Z|Ring of Fates@Oribos|N|To Polemarch Adrestes.|COV|Kyrian|
+C Report to Adrestes|QID|63211|M|36.67,64.20|Z|Ring of Fates@Oribos|N|To Polemarch Adrestes.|COV|Kyrian|
+T Report to Adrestes|QID|63211|M|36.67,64.20|Z|Ring of Fates@Oribos|N|To Polemarch Adrestes.|COV|Kyrian|
+A Among the Kyrian|QID|60491|PRE|63211|M|36.50,64.50|Z|Ring of Fates@Oribos|N|From Polemarch Adrestes.|COV|Kyrian|
 P Ring of Transference|ACTIVE|60491|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Kyrian|
 F Hero's Rest|ACTIVE|60491|M|60.50,68.12|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Hero's Rest.|COV|Kyrian|
 P Firstborne's Bounty|ACTIVE|60491|M|53.15,45.16|Z|Bastion!The Shadowlands|N|Take the portal to Firstborne's Bounty.|COV|Kyrian|
