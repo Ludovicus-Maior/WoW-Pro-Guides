@@ -20,7 +20,7 @@ return [[
 
 ;  Typed update to SL splits on 12-Dec-2020 by Blanckaert (This is NOT tested)  UPDATE 25-DEC-2020 to Prof rewrite.
 
-; N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|171000001|N|Currently in Development, This Guide covers SHADOWLANDS content in Retail.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports|
@@ -85,7 +85,6 @@ M [item=171270/Potion of Specter Agility]|QID|171307093|P|Alchemy;171;8+162;1|IT
 M [item=171275/Potion of Specter Strength]|QID|171307098|P|Alchemy;171;8+166;1|ITEM|171275|CRAFT|307098 5|MATS|180732 1;168586 5|
 M [item=171274/Potion of Specter Stamina]|QID|171307097|P|Alchemy;171;8+170;1|ITEM|171274|CRAFT|307097 5|MATS|180732 1;170554 5|
 M [item=171273/Potion of Specter Intellect]|QID|171307096|P|Alchemy;171;8+175;1|ITEM|171273|CRAFT|307096 5|MATS|180732 1;168589 5|
-
 
 N That completes Shadowlands Alchemy.|N|Congrats on hitting at least 170, with this guide Go do World Quests, Darkmoon Faire (if avail) or go buy [item=183106/Recipe: Eternal Cauldron], requires The Wild Hunt - Revered.|
 ]]

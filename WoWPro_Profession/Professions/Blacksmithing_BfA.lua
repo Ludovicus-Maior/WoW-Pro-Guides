@@ -16,7 +16,7 @@ return [[
 ;	 IE M [item=171381/Ceremonious Armguards]|QID|164307670|P|Blacksmithing;164;8+06;1|CRAFT|307670 5|MATS|171828 4;180733 1|
 ;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 15 |164000151| and |164000152|  // |RECIPE|307671|N|Learn [spell=307671/Ceremonious Shield] Recipe from Trainer.|
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;  Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
 ;  Typed update to SL splits on 25-Dec-2020 by Blanckaert
 
@@ -84,8 +84,8 @@ M [item=159863/Honorable Combatants Plate Greaves]|QID|164269444|P|Blacksmithing
 B [item=162275/Recipe: Stormsteel Dagger](Rank 3)|QID|164253158|M|74.1,25.8|Z|Tiragarde Sound|P|Blacksmithing;164;7+120|T|Vindicator Jaelaana|RECIPE|253158|N|Purchase [spell=253158/Stormsteel Dagger](Rank 3) from Vindicator Jaelaana|FACTION|Alliance|REP|7th Legion;2159;revered-exalted|
 B [item=162707/Recipe: Stormsteel Dagger](Rank 3)|QID|164253158|M|58.0,62.6|Z|Zuldazar|P|Blacksmithing;164;7+120|T|Ransa Greyfeather|RECIPE|253158|N|Purchase [spell=253158/Stormsteel Dagger](Rank 3) from Ransa Greyfeather|FACTION|Horde|REP|The Honorbound;2157;revered-exalted|
 M [item=152835/Stormsteel Dagger]|QID|164253158|P|Blacksmithing;164;7+145;1|ITEM|152835|CRAFT|253158 40|MATS|152579 16;152513 6;18567 6;152668 1|
-= Learn Recipe|QID|164001451|PRE|55636|M|38.0,53.6|Z|Nazjatar|P|Blacksmithing;164;7+145|RECIPE|294763|N|Learn [spell=294763/Notorious Combatants Plate Armguards] Recipe from Instructor Alikana|FACTION|ALLIANCE|
-= Learn Recipe|QID|164001451|PRE|55636|M|49.0,61.6|Z|Nazjatar|P|Blacksmithing;164;7+145|RECIPE|294763|N|Learn [spell=294763/Notorious Combatants Plate Armguards] Recipe from Jada.|FACTION|HORDE|
+= Learn Recipe|QID|164001451|PRE|54972|M|38.0,53.6|Z|Nazjatar|P|Blacksmithing;164;7+145|RECIPE|294763|N|Learn [spell=294763/Notorious Combatants Plate Armguards] Recipe from Instructor Alikana|FACTION|ALLIANCE|
+= Learn Recipe|QID|164001451|PRE|55053|M|49.0,61.6|Z|Nazjatar|P|Blacksmithing;164;7+145|RECIPE|294763|N|Learn [spell=294763/Notorious Combatants Plate Armguards] Recipe from Jada.|FACTION|HORDE|
 M [item=167965/Notorious Combatants Plate Armguards]|QID|164294763|P|Blacksmithing;164;7+160;1|ITEM|167965|CRAFT|294763 15|MATS|168185 8;152579 3;160298 7;152668 2|
 N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169507/Recipe: Notorious Combatants Plate Armguards](Rank 2) and [item=169508/Recipe: Notorious Combatants Plate Armguards](Rank 3) recipes of Dazzerian (Horde) or Crafticus Mindbender (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|
 

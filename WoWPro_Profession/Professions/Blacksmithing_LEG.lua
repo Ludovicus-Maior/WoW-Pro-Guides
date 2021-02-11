@@ -22,12 +22,10 @@ return [[
 
 N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers what Blizzard now terms Legion Plans, content of Legion 1-100\nAlso ASSUMES you have the appropriate Skill|
+N This Guide|QID|164000001|N|Covers what Blizzard now terms Legion Plans, content of Legion 1-100\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Legion 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
-
-; Begin Shopping list, as of Jan-2021
 
 l [item=123918/Leystone Ore]|QID|164123918|L|123918 10|ITEM|123918|N|You'll need about 10 Leystone Ores.|
 
@@ -47,6 +45,6 @@ M [item=124461/Demonsteel Bar]|QID|164184442|PRE|38833|M|54.65,84.08|Z|Highmount
 M [item=123916/Demonsteel Waistguard]|QID|164182945|M|54.65,84.08|Z|Highmountain|P|Blacksmithing;164;6+61;1|ITEM|123916|CRAFT|182945 1|MATS|124461 8;124439 20;124124 3|N|Just make one, and turn into Muirn Ironhorn for Rank 2 recipe.|
 M [item=123916/Demonsteel Waistguard]|QID|164182983|M|54.65,84.08|Z|Highmountain|P|Blacksmithing;164;6+100;1|ITEM|123916|CRAFT|182983 14|MATS|124461 4;124124 2|N|Make sure you have Rank 3! You can purchase from Strap Bucklebolt for 500 Sightless Eyes, Dalaran Sewers.|
 
-N Congratulations|QID|164000010|N|That completes Blacksmithing - Draenor Plans.|
+N Congratulations|QID|164000010|N|That completes Blacksmithing - Legion Plans.|
 ]]
 end)

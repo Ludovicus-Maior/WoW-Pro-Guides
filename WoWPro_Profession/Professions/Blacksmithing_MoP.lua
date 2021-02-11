@@ -22,7 +22,7 @@ return [[
 
 N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers what Blizzard now terms Pandaria Plans, content of Mists of Pandaria 1-75\nAlso ASSUMES you have the appropriate Skill|
+N This Guide|QID|164000001|N|Covers what Blizzard now terms Pandaria Plans, content of Mists of Pandaria 1-75\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Pandaria 1 to 75, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
@@ -38,7 +38,7 @@ N Shopping List|QID|164000005|N|This completes the Shopping List. You may either
 
 ; end of shopping list, and pre craft.
 
-= Learn [spell=264442/Pandaria Blacksmithing]|QID|164264442|M|48.4,36.8|Z|The Jade Forest|P|Blacksmithing;164;*;0;0|SPELL|Pandaria Blacksmithing;264442|LVL|5|N|From Len the Hammer, in The Jade Forest, Or Any Blacksmith Trainers in the Vale of Eternal Blossoms.|
+= Learn [spell=264442/Pandaria Blacksmithing]|QID|164264442|M|48.42,36.81|Z|The Jade Forest|P|Blacksmithing;164;*;0;0|SPELL|Pandaria Blacksmithing;264442|LVL|5|N|From Len the Hammer, Greenstone Village, The Jade Forest, Or Any Blacksmith Trainers in the Vale of Eternal Blossoms.|
 
 M [item=82906/Ghost Forged Gauntlets]|QID|164122579|P|Blacksmithing;164;4+15;1|ITEM|82906|CRAFT|122579 15|MATS|72096 7|
 = Learn Recipe|QID|164000151|P|Blacksmithing;164;4+15|RECIPE|122577|N|Learn [spell=122577/Ghost Forged Shoulders] Recipe from Trainer.|

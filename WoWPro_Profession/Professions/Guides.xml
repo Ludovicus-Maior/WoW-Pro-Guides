@@ -1,5 +1,13 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Alchemy_HUB.lua"/>
 	<Script file="Alchemy_VAN.lua"/>
+	<Script file="Alchemy_OUT.lua"/>
+	<Script file="Alchemy_WotLK.lua"/>
+	<Script file="Alchemy_Cata.lua"/>
+	<Script file="Alchemy_MoP.lua"/>
+	<Script file="Alchemy_WoD.lua"/>
+	<Script file="Alchemy_LEG.lua"/>
+	<Script file="Alchemy_BfA.lua"/>
 	<Script file="Alchemy_SL.lua"/>
 	<Script file="Blacksmithing.lua"/>
 	<Script file="Blacksmithing_HUB.lua"/>
