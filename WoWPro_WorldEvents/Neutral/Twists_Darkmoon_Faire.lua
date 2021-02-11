@@ -376,7 +376,7 @@ A Tan My Hide|QID|29519|M|55.00,70.7|N|From Chronos.|P|Skinning;393;0+75|
 
 C Collect 6 Darkblossom|QID|29514|QO|1|S|NC|
 C Tan My Hide|QID|29519|NC|N|Found throughout the Island.|S|
-l Collect 5 Bits of Glass|ACTIVE|29516|N|Green sparkling Gems.|L|72052 5|S|
+l Collect 5 Bits of Glass|ACTIVE|29516|QO|1|N|Green sparkling Gems.|L|72052 5|S|
 
 C Collect 6 Darkblossom|QID|29514|QO|1|US|NC|
 T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
@@ -406,7 +406,7 @@ N Sayge's Dark Fortune of Armor|QID|99023735|M|53.24,75.83|BUFF|23735^23736^2373
 N Sayge's Dark Fortune of Damage|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Slay the man, Execute your friend painfully|RANK|3|
 N Sayge's Dark Fortune of Resistance|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Turn him over to liege, Remain quiet|RANK|3|
 
-l Collect 6 Discarded Weapon|ACTIVE|29510|N|Around the faire|L|72018 6|S|
+l Collect 6 Discarded Weapon|ACTIVE|29510|QO|1|N|Around the faire|L|72018 6|S|
 
 A Target: Turtle|QID|29455|M|51.51,77.70|N|Jessica Rogers.|RANK|2|
 N Triumphant Turtle Tossing|ACTIVE|29455|ACH|9894|N|Successfully toss 10 rings onto Dubenko the Darkmoon Turtle in one session of the Ring Toss.|ITEM|122123|S|
@@ -420,13 +420,13 @@ N I Was Promised a Pony|QID|99602501|M|50.75,81.63;56.67,81.68|CS|N|Follow the m
 
 C Spoilin' for Salty Sea Dogs|QID|29513|M|51.48,91.09|N|Fish off the dock.|
 
-N Make 4 horseshoes at the Anvil|QID|29508|M|47.54,66.31|L|71967 4|U|71964|N|Don't forget to click 4 times.|
+N Make 4 horseshoes at the Anvil|ACTIVE|29508|M|47.54,66.31|L|71967 4|U|71964|N|Don't forget to click 4 times.|
 
-N Collect 6 Discarded Weapon|QID|29510|N|Around the faire|L|72018 6|US|
+l Collect 6 Discarded Weapon|ACTIVE|29510|QO|1|N|Around the faire|L|72018 6|US|
 C Putting Trash to Good Use|QID|29510|NC|U|72018|
 
 C Tan My Hide|QID|29519|NC|N|Found throughout the Island.|US|
-N Collect 5 Bits of Glass|QID|29516|N|Green sparkling Gems.|L|72052 5|US|
+l Collect 5 Bits of Glass|ACTIVE|29516|QO|1|N|Green sparkling Gems.|L|72052 5|US|
 C Keeping the Faire Sparkling|QID|29516|NC|N|Convert to Sparkling 'Gemstone'|U|72052|
 
 C Rearm, Reuse, Recycle|QID|29518|NC|N|Look for Tonk Scrap.|US|
@@ -438,7 +438,7 @@ T Keeping the Faire Sparkling|QID|29516|M|54.84,70.66|N|From Chronos.|
 T Putting Trash to Good Use|QID|29510|M|53.24,75.83|N|To Sayge.|
 T Spoilin' for Salty Sea Dogs|QID|29513|M|52.89,67.94|N|To Stamp Thunderhorn.|
 
-C Baby Needs Two Pair of Shoes|QID|29508|NC|M|51.10,82.04|N|Shoe Baby.|U|71967|
+C Baby Needs Two Pair of Shoes|ACTIVE|29508|NC|M|51.10,82.04|N|Shoe Baby.|U|71967|
 T Baby Needs Two Pair of Shoes|QID|29508|M|51.10,82.04|N|From Yebb Neblegear.|
 
 T Tan My Hide|QID|29519|M|54.84,70.66|N|From Chronos.|
