@@ -8,9 +8,10 @@ WoWPro:GuideSteps(guide, function()
 return [[
 A The Rise of Aku'mai|QID|34673|Z|The Pool of Ask'Ar@Blackfathom Deeps!Dungeon|N|From Zeya, just inside the Instance.|
 C Blackfathom Deeps|Z|Blackfathom Deeps|SO|1|N|Defeat the bosses of Blackfathom Deeps|S!US|
-N The Drowned Sacellum|QID|34673|N|Swimming in the water is hazardous to your health, but, swim you must.\nMake your way across to the other shore and jump across each platform until you reach the road on the other side.\n[color=FF0000]NOTE: [/color]Only one person needs to make the swim, as there is a rope on the other side that you click on to make a 'bridge'.|IZ|The Drowned Sacellum|
-C Defeat Ghamoo-ra|Z|The Pool of Ask'Ar@Blackfathom Deeps!Dungeon|SO|1;1|N|Defeat Ghamoo-ra|
-C Domina|Z|The Pool of Ask'Ar@Blackfathom Deeps!Dungeon|N|[color=FF0000]NOTE: [/color]Bonus Objective\nHead NE from Ghamoo-ra's island into the cavern. Defeat Domina and click on the Altar of Blood for a 10% boost to all stats.|
+N The Drowned Sacellum|Z|The Pool of Ask'Ar@Blackfathom Deeps!Dungeon|N|Swimming in the water is hazardous to your health. Unless you can walk on water, you will be swimming.\nHead to the northwest corner and follow the shore to the other side of the platform. Starting at the shore, jump across the gap between each section of the platform until you reach the road on the other side.\n[color=FF0000]NOTE: [/color]Only one person needs to make the swim, as there is a rope on the other side that you click on to make a 'bridge'.\n\nRight-click to close this step.|IZ|The Drowned Sacellum|
+C Ghamoo-ra|Z|The Pool of Ask'Ar@Blackfathom Deeps!Dungeon|SO|1;1|N|Defeat Ghamoo-ra on the island.|
+N Pahboo-RaZ|The Pool of Ask'Ar@Blackfathom Deeps!Dungeon|N|This guy is behind Ghamoo-ra by the wall. He's meant to be tamed by Hunters. He has a very slight chance of dropping something worthwhile.\nRight-click the box to continue.|
+C Domina|Z|The Pool of Ask'Ar@Blackfathom Deeps!Dungeon|N|[color=FF0000]NOTE: [/color]Bonus Objective\nHead northeast from Ghamoo-ra's island into the cavern. Defeat Domina and click on the Altar of Blood for a 10% boost to all stats.|
 C Subjugator Kor'ul|Z|The Pool of Ask'Ar@Blackfathom Deeps!Dungeon|N|[color=FF0000]NOTE: [/color]Bonus Objective\nYou'll find him at the end the south tunnel.|
 C Defeat Thruk|Z|Moonshrine Sanctum@Blackfathom Deeps!Dungeon|SO|1;2|N|Defeat Thruk|
 C Defeat Executioner Gore|Z|Moonshrine Sanctum@Blackfathom Deeps!Dungeon|SO|1;3|N|Defeat Executioner Gore|
