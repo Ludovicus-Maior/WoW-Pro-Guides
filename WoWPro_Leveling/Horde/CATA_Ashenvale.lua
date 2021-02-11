@@ -281,6 +281,7 @@ R Blackfathom Deeps|ACTIVE|26894^824|M|16.51,11.00|N|Make your way to Blackfatho
 R Blackfathom Deeps Portal|ACTIVE|26894^824|M|16.50,11.01|N|Make your way through the caverns to the instance portal and enter it.|IZ|-221|
 T Blackfathom Deeps|QID|26894|M|10.00,14.00|Z|221|N|To Je'nue Sancrea.\n[color=FF0000]NOTE: [/color]He is inside of the Blackfathom Deeps instance.|
 T Je'neu of the Earthen Ring|QID|824|M|10.00,14.00|Z|221|N|To Je'neu Sancrea.\n[color=FF0000]NOTE: [/color]He is inside of the Blackfathom Deeps instance.|
+N Blackfathom Deeps|AVAILABLE|34673|M|PLAYER|JUMP|Blackfathom Deeps|N|Load the guide to run through Blackfathom Deeps, if you wish to do it now.|
 F Orgrimmar|ACTIVE|26416|N|Fly to Orgrimmar.| ; Depending on RANK and ACTIVE QIDs, location may not be the same at this point.
 T Well, Come to the Jungle|QID|26416|M|51.31,56.19|Z|Orgrimmar|N|To Bort.|
 A Northern Stranglethorn: The Fallen Empire|QID|26417|M|51.31,56.19|Z|Orgrimmar|N|From Bort.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|LEAD|26278|PRE|26416|RANK|2|
