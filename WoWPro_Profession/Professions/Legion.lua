@@ -90,39 +90,43 @@ return [[
 N Profession Quests in Legion|N|This guide was created to put all the Profession quests in one place.  This guide has not been updated since Legion, the only changes have been the Levels changed, and First Aid removed.|
 ; Alchemy;171
 
-A Get Your Mix On|QID|39325|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|From Deucus Valdera|
-B Recipe: Ancient Healing Potion|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|L|127898|N|From Patricia Egan|RECIPE|188297|
-B Recipe: Ancient Healing Potion Rank 2|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|L|127917|N|From Patricia Egan|RECIPE|188299|
-B Recipe: Ancient Mana Potion|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|L|127899|N|From Patricia Egan|RECIPE|188301|
-B Recipe: Ancient Rejuvenation Potion|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|L|127900|N|From Patricia Egan|RECIPE|188304|
-B Crystal Vial|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|L|3371 2|N|From Patricia Egan|
-U Recipe: Ancient Healing Potion|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|U|127898|N|Learn Recipe|RECIPE|188297|
-U Recipe: Ancient Healing Potion Rank 2|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|U|127917|N|Learn Recipe|RECIPE|188299|
-U Recipe: Ancient Mana Potion|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|U|127899|N|Learn Recipe|RECIPE|188301|
-U Recipe: Ancient Rejuvenation Potion|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|U|127900|N|Learn Recipe|RECIPE|188304|
-C Get Your Mix On|QID|39325|M|41.53,32.95|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|L|128304 9|N|You will need Yseralline Seed x9, Either herb them, or buy at Auction House.|
-C Get Your Mix On|QID|39325|M|41.53,32.95|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|Create one of each at the Dalaran Alchemy Station\n|
-t Get Your Mix On|QID|39325|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|To Deucus Valdera|
-A Missing Shipments|QID|39326|PRE|39325|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|From Deucus Valdera|
+A Get Your Mix On|QID|39325|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|From Deucus Valdera|
+B [spell=188297/Ancient Healing Potion] Rank 1|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|P|Alchemy;171;6|RECIPE|188297|L|127898|N|Purchase [item=127898/Recipe: Ancient Healing Potion] from Patricia Egan.|
+B [spell=188299/Ancient Healing Potion] Rank 2|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|P|Alchemy;171;6|RECIPE|188299|L|127917|N|Purchase [item=127917/Recipe: Ancient Healing Potion] Rank 2, from Patricia Egan.|
+B [spell=188301/Ancient Mana Potion] Rank 1|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|P|Alchemy;171;6|RECIPE|188301|L|127899|N|Purchase [item=127899/Recipe: Ancient Mana Potion] from Patricia Egan.|
+B [spell=188304/Ancient Rejuvenation Potion] Rank 1|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|P|Alchemy;171;6|RECIPE|188304|L|127900|N|Purchase [item=127900/Recipe: Ancient Rejuvenation Potion] from Patricia Egan.|
+B [item=3371/Crystal Vial]|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|P|Alchemy;171;6|L|3371 2|N|From Patricia Egan.|
+U [item=127898/Recipe: Ancient Healing Potion] Rank 1|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|P|Alchemy;171;6|U|127898|N|Learn Recipe|RECIPE|188297|
+U [item=127917/Recipe: Ancient Healing Potion] Rank 2|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|P|Alchemy;171;6|U|127917|N|Learn Recipe|RECIPE|188299|
+U [item=127899/Recipe: Ancient Mana Potion]|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|P|Alchemy;171;6|U|127899|N|Learn Recipe|RECIPE|188301|
+U [item=127900/Recipe: Ancient Rejuvenation Potion]|ACTIVE|39325|M|42.15,32.31|Z|Dalaran@Dalaran70|P|Alchemy;171;6|U|127900|N|Learn Recipe|RECIPE|188304|
+C Get Your Mix On|QID|39325|M|41.53,32.95|Z|Dalaran@Dalaran70|P|Alchemy;171;6|L|128304 9|N|You will need Yseralline Seed x9, Either herb them, or buy at Auction House.|
+C Get Your Mix On|QID|39325|M|41.53,32.95|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|Create one of each at the Dalaran Alchemy Station\n|
+t Get Your Mix On|QID|39325|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|To Deucus Valdera|
+A Missing Shipments|QID|39326|PRE|39325|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|From Deucus Valdera|
 C Missing Shipments|QID|39326|M|43.92,47.35|Z|Azsuna|P|Alchemy;171;6|QO|1|N|Find the Crate of Khadgar's Whiskers, here|
 C Missing Shipments|QID|39326|M|44.87,52.20|Z|Azsuna|P|Alchemy;171;6|QO|2|N|Find the Barrel of Fish Oil, here|
-A A Mysterious Text|QID|39390|M|44.87,52.20|Z|Azsuna|LVL|40|P|Alchemy;171;6|N|From Alchemy Book|
+A A Mysterious Text|QID|39390|M|44.87,52.20|Z|Azsuna|P|Alchemy;171;6|N|From Alchemy Book|
 C Missing Shipments|QID|39326|M|44.90,53.46|Z|Azsuna|P|Alchemy;171;6|QO|3|N|Find the Basket of Dried Herbs, here|
-t Missing Shipments|QID|39326|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|To Deucus Valdera|
-t A Mysterious Text|QID|39390|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|To Deucus Valdera|
-A There's a Scribe for That|QID|39327|PRE|39390|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|From Deucus Valdera|
-C There's a Scribe for That|QID|39327|M|41.29,37.02|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|CHAT|N|Talk to Professor Pallin, Deucus said you owe him.|
-T There's a Scribe for That|QID|39327|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|To Deucus Valdera|
-A Ancient Knowledge|QID|39328|PRE|39327|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|From Deucus Valdera|
-t Ancient Knowledge|QID|39328|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|To Deucus Valdera|
-A A Dormant Burner|QID|39329|PRE|39328|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|From Deucus Valdera|
-B Depleted Leyflame Burner|QID|39329|M|38.36,24.52|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|L|127871 1|N|Buy the Burner, from Hobatt Grapplehammer (27G)|
-T A Dormant Burner|QID|39329|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|To Deucus Valdera|
-A Ley Hunting|QID|39330|PRE|39329|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|From Deucus Valdera|
+t Missing Shipments|QID|39326|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|To Deucus Valdera|
+t A Mysterious Text|QID|39390|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|To Deucus Valdera|
+
+A The Search for Knowledge|QID|39566|PRE|39326|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|From Deucus Valdera|
+t The Search for Knowledge|QID|39566|M|44.9,52.1|Z|Azsuna|P|Alchemy;171;6|N|To Alchemy Book.|
+
+A There's a Scribe for That|QID|39327|PRE|39390|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|From Deucus Valdera|
+C There's a Scribe for That|QID|39327|M|41.29,37.02|Z|Dalaran@Dalaran70|P|Alchemy;171;6|CHAT|N|Talk to Professor Pallin, Deucus said you owe him.|
+T There's a Scribe for That|QID|39327|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|To Deucus Valdera|
+A Ancient Knowledge|QID|39328|PRE|39327|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|From Deucus Valdera|
+t Ancient Knowledge|QID|39328|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|To Deucus Valdera|
+A A Dormant Burner|QID|39329|PRE|39328|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|From Deucus Valdera|
+B Depleted Leyflame Burner|QID|39329|M|38.36,24.52|Z|Dalaran@Dalaran70|P|Alchemy;171;6|L|127871 1|N|Buy the Burner, from Hobatt Grapplehammer (27G)|
+T A Dormant Burner|QID|39329|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|To Deucus Valdera|
+A Ley Hunting|QID|39330|PRE|39329|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|From Deucus Valdera|
 C Ley Hunting|QID|39330|M|53.62,39.74|Z|Azsuna|P|Alchemy;171;6|U|128329|QO|1|N|Collect Ley Energy - Nar'thalas|
 C Ley Hunting|QID|39330|M|48.13,25.70|Z|Azsuna|P|Alchemy;171;6|U|128329|QO|2|N|Collect Ley Energy - Dragon Pool|
 C Ley Hunting|QID|39330|M|55.90,16.76|Z|Azsuna|P|Alchemy;171;6|U|128329|QO|3|N|Collect Ley Energy - Zarkhenar|
-T Ley Hunting|QID|39330|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|40|P|Alchemy;171;6|N|To Deucus Valdera|
+T Ley Hunting|QID|39330|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|To Deucus Valdera|
 A Eye of Azshara: Put a Cork in It|QID|39331|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|41|P|Alchemy;171;6|N|From Deucus Valdera|
 t Eye of Azshara: Put a Cork in It|QID|39331|M|41.27,33.43|Z|Dalaran@Dalaran70|P|Alchemy;171;6|N|To Deucus Valdera|
 A Furbolg Firewater|QID|39332|PRE|39331|M|41.27,33.43|Z|Dalaran@Dalaran70|LVL|41|P|Alchemy;171;6|N|From Deucus Valdera|

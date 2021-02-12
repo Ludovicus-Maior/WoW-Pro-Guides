@@ -39,7 +39,7 @@ N Shopping List|QID|164000005|N|This completes the Shopping List. You may either
 
 ; end of shopping list, and pre craft.
 
-= Learn [spell=264440/Cataclysm Blacksmithing]|QID|164264438|P|Blacksmithing;164;*;0;0|SPELL|Cataclysm Blacksmithing;264440|LVL|5|N|From Any Blacksmith Trainer, in any Major City.|
+= Learn [spell=264440/Cataclysm Blacksmithing]|QID|164264438|P|Blacksmithing;164;*;0;0|SPELL|Cataclysm Blacksmithing;264440|LVL|5|N|From Any Blacksmith Trainer, in any Major City of Old Azeroth.|
 
 M [item=65365/Folded Obsidium]|QID|164076178|P|Blacksmithing;164;3+5;1|ITEM|65365|CRAFT|76178 195|MATS|54849 2|N|You'll need about 195 of these for making items in later steps.|
 l [item=65365/Folded Obsidium]|QID|164076178|ITEM|65365|L|65365 195|N|You'll need about 195 of these for making items in later steps, so keep making.|

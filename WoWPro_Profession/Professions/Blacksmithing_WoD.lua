@@ -22,7 +22,7 @@ return [[
 
 N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers what Blizzard now terms Draenor Plans, content of Worlds of Draenor 1-100\nAlso ASSUMES you have the appropriate Skill|
+N This Guide|QID|164000001|N|Covers what Blizzard now terms Draenor Plans, content of Worlds of Draenor 1-100\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Draenor 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
@@ -41,7 +41,6 @@ M [item=118720/Secret of Draenor Blacksmithing]|QID|164176090|P|Blacksmithing;16
 B [spell=173355/Truesteel Reshaper]|QID|164173355|M|75.2;37.6|Z|Warspear|P|Blacksmithing;164;*;0;0|RECIPE|173355|T|Nonn Threeratchet|N|Use the [item=118720/Secret of Draenor Blacksmithing] to Purchase [item=118044/Recipe: Truesteel Reshaper]|FACTION|Horde|
 B [spell=173355/Truesteel Reshaper]|QID|164173355|M|48.8,48.2|Z|Stormshield|P|Blacksmithing;164;*;0;0|RECIPE|173355|T|Royce Bigbeard|N|Use the [item=118720/Secret of Draenor Blacksmithing] to Purchase [item=118044/Recipe: Truesteel Reshaper]|FACTION|Alliance|
 M [item=116428/Truesteel Reshaper]|QID|164173355|P|Blacksmithing;164;5+100;1|ITEM|116428|CRAFT|173355 98|MATS|109119 30|
-
 
 N Congratulations|QID|164000010|N|That completes Blacksmithing - Draenor Plans.|
 ]]
