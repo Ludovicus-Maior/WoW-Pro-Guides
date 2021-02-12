@@ -646,7 +646,7 @@ A Our Eternal Charge|QID|57904|PRE|62795|M|59.71,34.97|Z|Sanctum of Binding@Elys
 T Our Eternal Charge|QID|57904|M|55.39,42.38|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes, up one level.|COV|Kyrian|
 A More Work?|QID|57899|PRE|57904|M|42.74,53.60|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus. Once the Command Table is active.|COV|Kyrian|
 A Replenish the Reservoir|QID|61982|PRE|57900|M|42.71,53.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
-t Replenish the Reservoir|QID|61982|M|53.30,46.15|Z|Archon's Rise@Elysian Hold!Dungeon|COV|Kyrian|
+t Replenish the Reservoir|QID|61982|M|42.71,53.56|Z|Archon's Rise@Elysian Hold!Dungeon|COV|Kyrian|
 T More Work?|QID|57899|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Koros.|COV|Kyrian|
 A Across the Shadowlands|QID|57900|PRE|57899|M|43.89,41.10|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Koros.|COV|Kyrian|
 C Across the Shadowlands|QID|57900|M|43.09,41.28|Z|Archon's Rise@Elysian Hold!Dungeon|NC|N|Adventure started.|COV|Kyrian|
@@ -702,15 +702,18 @@ A Where a Soul Belongs|QID|58792|PRE|58951|M|32.50,39.75|Z|Redridge Mountains|N|
 C Where a Soul Belongs|QID|58792|M|32.50,39.75|Z|Redridge Mountains|QO|1|NC|U|175011|N|Vesper of Veilflight used.|COV|Kyrian|
 C Where a Soul Belongs|QID|58792|M|49.55,65.55|Z|Ring of Transference@Oribos|QO|2|NC|N|Arrive in Oribos.|COV|Kyrian|
 C Where a Soul Belongs|QID|58792|M|49.77,62.05|Z|Ring of Transference@Oribos|QO|3|NC|N|Talk to Kleia.|COV|Kyrian|
-T Where a Soul Belongs|QID|58792|M|49.77,62.05|Z|Ring of Transference@Oribos|N|To Kleia.|COV|Kyrian|
-A Faith Through the Darkness|QID|58793|PRE|58792|M|49.77,62.05|Z|Ring of Transference@Oribos|N|From Kleia.|COV|Kyrian|
+T Where a Soul Belongs|QID|58792|M|43.62,51.57|Z|Ring of Transference@Oribos|N|To Kleia.|COV|Kyrian|
+A Faith Through the Darkness|QID|58793|PRE|58792|M|43.62,51.57|Z|Ring of Transference@Oribos|N|From Kleia.|COV|Kyrian|
 F Elysian Hold|ACTIVE|58793|M|59.57,68.00|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Faith Through the Darkness|QID|58793|M|47.61,54.14|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Ascended|QID|58795|PRE|58793|M|47.61,54.14|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 C Ascended|QID|58795|M|45.73,55.04|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|CHAT|N|Meet with Pelagos.|COV|Kyrian|
-C Ascended|QID|58795|M|45.82,57.27|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2;3|CHAT|N|Tell Clora that, Her time has come, and witness their Ascension.|COV|Kyrian|
-C Ascended|QID|58795|M|45.99,58.88|Z|Archon's Rise@Elysian Hold!Dungeon|QO|4;5|CHAT|N|Tell Sophone that, Her time has come, and witness their Ascension.|COV|Kyrian|
-C Ascended|QID|58795|M|45.51,57.72|Z|Archon's Rise@Elysian Hold!Dungeon|QO|6;7|CHAT|N|Tell Kleia that, Her time has come, and wintess their Ascension.|COV|Kyrian|
+C Ascended|QID|58795|M|45.82,57.27|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2|CHAT|N|Tell Clora her time has come.|COV|Kyrian|
+C Ascended|QID|58795|M|45.82,57.27|Z|Archon's Rise@Elysian Hold!Dungeon|QO|3|N|Witness Clora's Ascension.|COV|Kyrian|
+C Ascended|QID|58795|M|45.99,58.88|Z|Archon's Rise@Elysian Hold!Dungeon|QO|4|CHAT|N|Tell Sophone her time has come.|COV|Kyrian|
+C Ascended|QID|58795|M|45.99,58.88|Z|Archon's Rise@Elysian Hold!Dungeon|QO|5|N|Witness Sophone's Ascension.|COV|Kyrian|
+C Ascended|QID|58795|M|45.51,57.72|Z|Archon's Rise@Elysian Hold!Dungeon|QO|6|CHAT|N|Tell Kleia her time has come.|COV|Kyrian|
+C Ascended|QID|58795|M|45.51,57.72|Z|Archon's Rise@Elysian Hold!Dungeon|QO|7|N|Wintess Kleia's Ascension.|COV|Kyrian|
 T Ascended|QID|58795|M|51.47,48.05|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Kleia.|COV|Kyrian|
 A The Forsworn Onslaught|QID|58796|PRE|58795|M|51.47,48.05|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Kleia.|COV|Kyrian|
 C The Forsworn Onslaught|QID|58796|M|59.14,85.83|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|NC|N|Repel the Forsworn invasion, while heading towards the wards.|COV|Kyrian|
@@ -722,6 +725,7 @@ A Forged by Trial|QID|58797|PRE|58796|M|51.42,48.03|Z|Archon's Rise@Elysian Hold
 C Forged by Trial|QID|58797|M|59.81,36.27|Z|Sanctum of Binding@Elysian Hold!Dungeon|NC|CHAT|N|Soulbind with Kleia.|COV|Kyrian|
 T Forged by Trial|QID|58797|M|59.81,36.27|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|To Kleia.|COV|Kyrian|
 A The Spires of Ascension|QID|58798|PRE|58797|M|59.81,36.27|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|From Kleia. Dungeon Quest.|COV|Kyrian|
+C The Spires of Ascension|QID|58798|N|Dungeon Quest.|COV|Kyrian|
 T The Spires of Ascension|QID|58798|M|55.37,42.40|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 
 ; Chapter 4
@@ -732,11 +736,13 @@ T The Eternal Forge|QID|58175|M|50.18,20.51|Z|Bastion!The Shadowlands|N|To Mikan
 A Refining Ego|QID|58177|PRE|58175|M|50.18,20.51|Z|Bastion!The Shadowlands|N|From Mikanikos.|COV|Kyrian|
 A Instruments of Perfection|QID|58179|PRE|58175|M|50.16,20.56|Z|Bastion!The Shadowlands|N|From Sika. As of 12/10/2020 She can still be bugged sometimes, you can wait for her to respawn or server hop until you find her.|COV|Kyrian|
 A Stewards of a Feather|QID|58176|PRE|58175|M|50.16,20.56|Z|Bastion!The Shadowlands|N|From Sika. As of 12/10/2020 She can still be bugged sometimes, you can wait for her to respawn or server hop until you find her.|COV|Kyrian|
-C Refining Ego|QID|58177|M|51.60,17.94|Z|Bastion!The Shadowlands|S|US|N|Kill mobs to loot items that convert to Purified Metal.|COV|Kyrian|
-C Stewards of a Feather|QID|58176|M|51.88,15.87|Z|Bastion!The Shadowlands|S|US|N|Rescue Captured Forgehands.|COV|Kyrian|
+C Refining Ego|QID|58177|M|51.60,17.94|Z|Bastion!The Shadowlands|S|N|Kill mobs to loot items that convert to Purified Metal.|COV|Kyrian|
+C Stewards of a Feather|QID|58176|M|51.88,15.87|Z|Bastion!The Shadowlands|S|N|Rescue Captured Forgehands.|COV|Kyrian|
 C Instruments of Perfection|QID|58179|M|53.03,18.19|Z|Bastion!The Shadowlands|QO|2|NC|N|Find the Sparkling Driftglobe Core.|COV|Kyrian|
 C Instruments of Perfection|QID|58179|M|51.11,18.39|Z|Bastion!The Shadowlands|QO|1|NC|N|Find the Soulsteel Clamps.|COV|Kyrian|
 C Instruments of Perfection|QID|58179|M|49.91,17.24|Z|Bastion!The Shadowlands|QO|3|NC|N|Find the Gracepetal Incense Burner.|COV|Kyrian|
+C Stewards of a Feather|QID|58176|M|51.88,15.87|Z|Bastion!The Shadowlands|US|N|Rescue Captured Forgehands.|COV|Kyrian|
+C Refining Ego|QID|58177|M|51.60,17.94|Z|Bastion!The Shadowlands|US|N|Kill mobs to loot items that convert to Purified Metal.|COV|Kyrian|
 T Stewards of a Feather|QID|58176|M|50.13,20.56|Z|Bastion!The Shadowlands|N|To Sika. Hopefully she is still up and not bugged, turn this in as soon as you can. The other quests turn into Mikanikos.|COV|Kyrian|
 T Instruments of Perfection|QID|58179|M|50.16,20.50|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
 T Refining Ego|QID|58177|M|50.18,20.53|Z|Bastion!The Shadowlands|N|To Mikanikos.|COV|Kyrian|
@@ -772,7 +778,7 @@ T An Expected Visitor|QID|61785|M|62.05,37.56|Z|Archon's Rise@Elysian Hold!Dunge
 A A Perilous Journey|QID|61767|PRE|61785|M|62.05,37.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Xandria.|COV|Kyrian|
 F Spider's Watch|ACTIVE|61767|M|51.29,48.43|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|Kyrian|
 T A Perilous Journey|QID|61767|M|37.72,29.38|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
-A Stronger Together|QID|61768|PRE|61540&61767|M|37.72,29.38|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
+A Stronger Together|QID|61768|PRE|61767|M|37.72,29.38|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
 C Stronger Together|QID|61768|M|37.79,29.45|Z|Maldraxxus|CHAT|N|Speak to Xandria.|COV|Kyrian|
 T Stronger Together|QID|61768|M|36.28,36.60|Z|Maldraxxus|N|To Baroness Draka.|COV|Kyrian|
 A Fight and Flight|QID|61769|PRE|61768|M|36.28,36.60|Z|Maldraxxus|N|From Baroness Draka.|COV|Kyrian|
@@ -781,17 +787,20 @@ T Fight and Flight|QID|61769|M|35.61,26.46|Z|Maldraxxus|N|To Xandria.|COV|Kyrian
 A Justice from Above|QID|61771|PRE|61769|M|35.61,26.46|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
 A The Butchers of Bastion|QID|61770|PRE|61769|M|35.35,26.00|Z|Maldraxxus|N|From Apolon.|COV|Kyrian|
 A Dark Developments|QID|61772|PRE|61769|M|33.54,24.18|Z|Maldraxxus|COV|Kyrian|
-C The Butchers of Bastion|QID|61770|M|32.45,25.42|Z|Maldraxxus|N|House of Constructs forces slain.|COV|Kyrian|
+C The Butchers of Bastion|QID|61770|M|32.45,25.42|S|Z|Maldraxxus|N|House of Constructs forces slain.|COV|Kyrian|
 C Justice from Above|QID|61771|M|34.63,23.70|Z|Maldraxxus|NC|N|Maldracite Core destroyed.|COV|Kyrian|
+C The Butchers of Bastion|QID|61770|M|32.45,25.42|US|Z|Maldraxxus|N|House of Constructs forces slain.|COV|Kyrian|
 T The Butchers of Bastion|QID|61770|M|35.33,26.06|Z|Maldraxxus|N|To Apolon.|COV|Kyrian|
 T Justice from Above|QID|61771|M|35.55,26.41|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
 T Dark Developments|QID|61772|M|35.19,26.83|Z|Maldraxxus|N|To Artemede.|COV|Kyrian|
 A Burn Before Reading|QID|61774|PRE|61770&61771&61772|M|35.19,26.83|Z|Maldraxxus|N|From Artemede.|COV|Kyrian|
 A Descended|QID|61773|PRE|61770&61771&61772|M|35.53,26.52|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
 A An Early End|QID|61775|PRE|61770&61771&61772|M|35.34,26.04|Z|Maldraxxus|N|From Apolon.|COV|Kyrian|
-C An Early End|QID|61775|M|34.62,30.36|Z|Maldraxxus|NC|N|Click on Inert Butchers to destroy them.|COV|Kyrian|
-C Burn Before Reading|QID|61774|M|36.59,29.41|Z|Maldraxxus|NC|N|Kill mobs to loot Stitchflesh Design.|COV|Kyrian|
+C An Early End|QID|61775|M|34.62,30.36|Z|Maldraxxus|NC|N|Click on Inert Butchers to destroy them.|COV|Kyrian|S|
+C Burn Before Reading|QID|61774|M|36.59,29.41|Z|Maldraxxus|NC|N|Kill mobs to loot Stitchflesh Design.|COV|Kyrian|S|
 C Descended|QID|61773|M|33.41,30.71|Z|Maldraxxus|N|Woeblade slain.|COV|Kyrian|
+C An Early End|QID|61775|M|34.62,30.36|Z|Maldraxxus|NC|N|Click on Inert Butchers to destroy them.|COV|Kyrian|US|
+C Burn Before Reading|QID|61774|M|36.59,29.41|Z|Maldraxxus|NC|N|Kill mobs to loot Stitchflesh Design.|COV|Kyrian|US|
 T Burn Before Reading|QID|61774|M|35.23,26.91|Z|Maldraxxus|N|To Artemede.|COV|Kyrian|
 T Descended|QID|61773|M|35.56,26.52|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
 T An Early End|QID|61775|M|35.36,26.03|Z|Maldraxxus|N|To Apolon.|COV|Kyrian|
@@ -827,7 +836,7 @@ T Take Heart|QID|61876|M|31.00,29.05|Z|Maldraxxus|N|To Xandria.|COV|Kyrian|
 A Return to the Hold|QID|61877|PRE|61876|M|31.00,29.05|Z|Maldraxxus|N|From Xandria.|COV|Kyrian|
 F Elysian Hold|ACTIVE|61877|M|37.54,29.28|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Return to the Hold|QID|61877|M|39.19,59.55|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Xandria.|COV|Kyrian|
-A Crest of Greatness|QID|61878|PRE|61540&59703&61877|M|39.19,59.55|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Xandria.|COV|Kyrian|
+A Crest of Greatness|QID|61878|PRE|61877|M|39.19,59.55|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Xandria.|COV|Kyrian|
 T Crest of Greatness|QID|61878|M|40.50,60.50|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Fleshshaper's Heart, on the Crest.|COV|Kyrian|
 
 ; Chapter 6
@@ -859,14 +868,19 @@ C Collecting Dust|QID|58562|M|56.05,36.19|Z|Revendreth|QO|2|NC|N|Click on Death 
 T Shards of the Countess|QID|58561|M|55.19,34.79|Z|Revendreth|N|To The Curator.|COV|Kyrian|
 T Collecting Dust|QID|58562|M|55.19,34.79|Z|Revendreth|N|To The Curator.|COV|Kyrian|
 A Through Glass|QID|58563|PRE|58562&58561|M|55.19,34.79|Z|Revendreth|N|From The Curator.|COV|Kyrian|
-C Through Glass|QID|58563|M|55.21,35.61|Z|Revendreth|QO|1;2|CHAT|N|Speak with the Curator, telling her you are Ready.  Give a moment for her to repair the mirror.|COV|Kyrian|
-C Through Glass|QID|58563|M|55.26,35.67|Z|Revendreth|QO|3;4|U|174382|N|Apply Death Lotus Powder (Optional), before you walk through the mirror.|COV|Kyrian|
+C Through Glass|QID|58563|M|55.21,35.61|Z|Revendreth|QO|1|CHAT|N|Speak with the Curator, telling her you are Ready.|COV|Kyrian|
+C Through Glass|QID|58563|M|55.21,35.61|Z|Revendreth|QO|2|CHAT|N|Give a moment for her to repair the mirror.|COV|Kyrian|
+C Through Glass|QID|58563|M|55.26,35.67|Z|Revendreth|QO|3|U|174382|N|Apply Death Lotus Powder (Optional), before you walk through the mirror.|COV|Kyrian|
+C Through Glass|QID|58563|M|55.26,35.67|Z|Revendreth|QO|4|N|Walk through the mirror.|COV|Kyrian|
 C Through Glass|QID|58563|M|78.31,38.96|Z|Revendreth|QO|5;6|T|Warden Eriken|N|Kill Warden Eriken, then click on the Countess's Sinstone.|COV|Kyrian|
 T Through Glass|QID|58563|M|77.93,39.58|Z|Revendreth|N|To Kleia.|COV|Kyrian|
 A Sins of the Past|QID|58564|PRE|58563|M|77.93,39.58|Z|Revendreth|N|From The Curator.|COV|Kyrian|
-C Sins of the Past|QID|58564|M|57.52,28.45|Z|Revendreth|QO|1;2|N|Walk through the mirror, on the other side you'll be stunned by the Countess before she invites you to the next room.|COV|Kyrian|
-C Sins of the Past|QID|58564|M|58.13,27.65|Z|Revendreth|QO|3;4|N|Click on the Ornate Chair, to start the Countess' discussion.|COV|Kyrian|
-C Sins of the Past|QID|58564|M|58.13,27.65|Z|Revendreth|QO|5;6|N|After The Countess talks for a bit, she will invite you to eat. Then she'll resume speaking.|COV|Kyrian|
+C Sins of the Past|QID|58564|M|57.52,28.45|Z|Revendreth|QO|1|N|Walk through the mirror, on the other side you'll be stunned by the Countess before she invites you to the next room.|COV|Kyrian|
+C Sins of the Past|QID|58564|M|57.52,28.45|Z|Revendreth|QO|2|N|Meet The Countess|COV|Kyrian|
+C Sins of the Past|QID|58564|M|58.13,27.65|Z|Revendreth|QO|3|N|Click on the Ornate Chair.|COV|Kyrian|
+C Sins of the Past|QID|58564|M|58.13,27.65|Z|Revendreth|QO|4|N|Listen to The Countess.|COV|Kyrian|
+C Sins of the Past|QID|58564|M|58.13,27.65|Z|Revendreth|QO|5|N|Eat the Grand Feast.|COV|Kyrian|
+C Sins of the Past|QID|58564|M|58.13,27.65|Z|Revendreth|QO|6|N|Listen to The Countess.|COV|Kyrian|
 T Sins of the Past|QID|58564|M|58.11,27.52|Z|Revendreth|N|To The Countess.|COV|Kyrian|
 A Land of Light|QID|58565|PRE|58564|M|58.11,27.52|Z|Revendreth|N|From The Curator.|COV|Kyrian|
 C Land of Light|QID|58565|M|56.99,27.11|Z|Revendreth|V|N|Go up the stairs, through the door, up more stairs to another door till you reach the balcony.|COV|Kyrian|
