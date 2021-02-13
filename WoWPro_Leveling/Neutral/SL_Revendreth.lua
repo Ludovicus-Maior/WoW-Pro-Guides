@@ -21,13 +21,13 @@ return [[
 ; K Famu the Infinite|M|62.51,47.18|Z|Revendreth|T|Famu the Infinite|N|WH - Speak to Seeker Hilda to start event, if you die, Rare attacks Hilda until she dies.|ITEM|180582|RARE|ACH|14310;15|
 ; K Hopecrusher|M|51.06,52.87|Z|Revendreth|T|Hopecrusher|N|WH - Tough one, Main danger is Enrage, hits like crazy when enraged.|RARE|ACH|14310;17|
 ; K Executioner Aatron|M|37.11,47.95|Z|Revendreth|T|Executioner Aatron|N|WH - Shatter all 3 Stone Legion Punishers along castle wall.|ITEM|183737|RARE|ACH|14310;19|
-; K Amalgamation of Sin|M|PLAYER|Z|Revendreth|T|Amalgamation of Sin|N|WH - UNKNOWN|RARE|ACH|14310;23|
-; K Tomb Burster|M|43.10,79.20|Z|Revendreth|T|Tomb Burster|N|WH - Break all spider eggs around the webbed NPC, then fight through 3 waves of spiders: 2 - 3 - 4.|RARE|ACH|14310;4|
+; K Amalgamation of Sin|M|65.86,29.08|Z|Revendreth|T|Amalgamation of Sin|N|Requres !WQ "Summon You Sins." When making the potion choose the "catalyst of power" then you have a chance of recieving a blue quality item that can summon the rare.|RARE|ACH|14310;23|
+; K Tomb Burster|QID|59612|M|43.10,79.20|Z|Revendreth|T|Tomb Burster|N|Funguss, (webbed NPC) must be up. Break all spider eggs around the webbed NPC, until zone emote saying 'The sound of a massive crawler rings in teh distance' then fight through 3 waves of spiders: 2 - 3 - 4.|RARE|ACH|14310;4|
 ; K Worldedge Gorger|M|38.62,72.21|Z|Revendreth|T|Worldedge Gorger|N|WH - Use Enticing Anima to lit worldedge braziers, drop form worldeater rift mobs along the river.|ITEM|180583|RARE|ACH|14310;6|
 ; K Executioner Adrastia|M|43.73,51.24|Z|Revendreth|T|Executioner Adrastia|N|WH - Flies around the central platform in the middle of Darkwall Tower. Pull carefully to not aggro mobs.|ITEM|180502|RARE|ACH|14310;8|
 ; K Amalgamation of Filth|M|52.70,73.27|Z|Revendreth|T|Amalgamation of Filth|N|WH - Giant elemental in pool, usually fighting Muckmaster Rotjaw.|RARE|ACH|14310;14|
 ; K Azgar|M|35.48,68.70|Z|Revendreth|T|Azgar|N|WH - Annoying Rare, casts shield at 70% and 30%, and blinks.  Overkill sheild to collapse.|ITEM|183731|RARE|ACH|14310;16|
-; K Bog Beast|M|36.19,32.92|Z|Revendreth|T|Bog Beast|N|WH - WQ! Muck it up, needed to summon. Toss a couple Primordial Muck into dirt to spawn rare mob.  Muck drops off slimes in WQ Area.|ITEM|180588|RARE|ACH|14310;18|
+; K Bog Beast|QID|59823|M|36.19,32.92|Z|Revendreth|T|Bog Beast|N|Requires !WQ "Muck It Up" to be active. Toss Primordial Muck into water to spawn rare mob.  Muck drops off slimes killed for WQ|ITEM|180588|RARE|ACH|14310;18|
 ; K Huntmaster Petrus|M|61.89,78.50|Z|Revendreth|T|Huntmaster Petrus|N|Rare found down some stairs and under a porch within the ruined castle two dogs assist him, Kill dogs first!|ITEM|180705|RARE|ACH|14310;20|LVL|60|;not a silver if not lvl 60.
 ; K Manifestation of Wrath|M|49.84,35.02|Z|Revendreth|T|Manifestation of Wrath|N|WH - WQ! Swarming Souls, needed.  During quest you deliver souls to Avowed Ritualist, rare has a chance to spawn after a delivering.|RARE|ACH|14310;22
 ; K Sinstone Hoarder|M|PLAYER|Z|Revendreth|T|Sinstone Hoarder|N|WH - UNKNOWN|RARE|ACH|14310;24|
@@ -450,7 +450,7 @@ K Scrivener Lenua|QID|58213|M|38.32,69.21|Z|Revendreth|T|Scrivener Lenua|N|WH - 
 T Sign Your Own Death Warrant|QID|57380|M|38.97,66.03|Z|Revendreth|N|To Stonehead.|MS|
 N Pick up Hollow Rock|AVAILABLE|58327|M|38.87,64.31|Z|Revendreth|N|After Stonehead has unavoidably thrown you, pick up the Hollow Rock to disguise yourself.|BUFF|320559|RANK|2|TOF|
 A Snacks for Stonehead|QID|58327|M|39.33,65.25|Z|Revendreth|N|Now that you have your disguise, go over to the Chewed Light Shard and pick up this quest.|RANK|2|TOF|
-A Ash You Like It|QID|62781|M|38.69,63.57|IZ|Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
+; commenting out - so doesnt pop up when you go out of the area. == A Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
 C Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|S!US|N|Kill Hostiles and give parasols to the desicated as you do the side quests in the area.|TOF|
 K Sire Ladinas|M|34.08,55.47|Z|Revendreth|T|Sire Ladinas|S!US|N|To summon rare, pick up Remnant of Light from ground, use EAB to cast Light Impalement on all mobs in the Dessication area, keep tossing till one yells 'The Light... buuurns!'. Rare will then come down. Drop item not 100%. Check off manually if he hasn't spawned and you want to |ITEM|180873|RARE|ACH|14310;7|EAB|
 A Chasing Madness|QID|57405|M|37.07,63.14|Z|Revendreth|N|From Lost Sybille.|LVL|58|PRE|57380|MS|
@@ -549,7 +549,7 @@ C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|NC|N|Click on Anima ca
 C Escaping the Master|QID|57535|M|24.79,53.51|Z|Revendreth|S|N|Kill enemies and loot their Mirror Fragments.|
 C Snacks for Stonehead|QID|58327|QO|3|M|26.33,53.32|Z|Revendreth|S|N|The Shrouded type mobs in the Shrouded Asylum drop the Mirror Candy needed.|
 K Enforcer Kristof|ACTIVE|60275|QO|1|CS|M|23.42,53.75;22.78,55.79|Z|Revendreth|N|Up to The Shrouded Asylum and inside the building to find Enforcer Kristof.|
-K Grand Arcanist Dimitri|QID|60173|QO|1|M|21.33,54.34|Z|Revendreth|T|Grand Arcanist Dimitri|N|Kill the Shrouded Ritualists on the platform with him to activate.|ITEM|180708|RARE|ACH|14310;21|LVL|60
+K Grand Arcanist Dimitri|QID|60173|QO|1|M|21.33,54.34|Z|Revendreth|T|Grand Arcanist Dimitri|N|Kill the Shrouded Ritualists on the platform with him to activate.|ITEM|180708|RARE|ACH|14310;21|LVL|60|
 C Snacks for Stonehead|QID|58327|QO|3|M|26.33,53.32|Z|Revendreth|US|N|Finish collecting Mirror Candy from the Shrouded type mobs.|
 C Escaping the Master|QID|57535|M|24.79,53.51|Z|Revendreth|US|N|Kill enemies and loot their Mirror Fragments.|
 C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|N|Click on Anima canisters laying around the area.|US|
@@ -563,7 +563,7 @@ T Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|N|To Laurent.
 P Sanctuary of the Mad|ACTIVE|60275^60276|M|24.80,50.27|Z|Revendreth|N|Walk thru the mirror for a quick trip to Sanctuary of the Mad.|IZ|The Shrouded Asylum|
 T WANTED: Enforcer Kristof|QID|60275|M|30.71,49.12|Z|Revendreth|N|To Dispatcher Raluca. Up the stairs, outside.|
 T WANTED: Summoner Marcelis|QID|60276|M|30.81,49.12|Z|Revendreth|N|To Dispatcher Raluca. Up the stairs, outside.|
-$ Makeshift Muckpool|CS|M|28.2,38.0;29.7,37.2|Z|Revendreth|LVL|60|N|Up path to get to upper floor of Ruins at Ember Ward, need 30 Infused Ruby to loot.|ACH|14314;6|
+$ Makeshift Muckpool|QID|62198|CS|M|28.2,38.0;29.7,37.2|Z|Revendreth|LVL|60|N|Up path to get to upper floor of Ruins at Ember Ward, need 30 Infused Ruby to loot.|ACH|14314;6|
 T Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autocompleted.|TOF|
 T Snacks for Stonehead|QID|58327|M|39.06,65.91|Z|Revendreth|N|To Stonehead.|;--not sure where to place this. leaving it here for now. quest is finished during the Mirror Maker story arc ~ line 448
 
