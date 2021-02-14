@@ -5,60 +5,63 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 N This guide starts in Orgrimmar|QID|25945^28532|M|PLAYER|N|This guide starts in Orgrimmar and heads to Ashenvale.|
-R Silverwind Refuge|QID|25945^28532|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|TAXI|-Silverwind Refuge|
-F Silverwind Refuge|QID|25945^28532|M|49.67,59.24|Z|Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|Orgrimmar|
 H Silverwind Refuge|ACTIVE|25945|M|49.67,59.24|Z|Orgrimmar|N|Hearth back to Silverwind Refuge. Fly/run if your Hearth is on CD.|
+R Silverwind Refuge|ACTIVE|-28352|AVAILABLE|25945|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|TAXI|-Silverwind Refuge|
+F Silverwind Refuge|ACTIVE|-28352|AVAILABLE|25945|M|49.67,59.24|Z|Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|Orgrimmar|
+R Silverwind Refuge|ACTIVE|28352|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|TAXI|-Silverwind Refuge|FLY|OLD|
+F Silverwind Refuge|ACTIVE|28532|M|49.67,59.24|Z|Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|Orgrimmar|
 T Warchief's Command: Stonetalon Mountains!|QID|28532|M|49.90,65.74|Z|Ashenvale|N|To Blood Guard Aldo Rockrain in Ashenvale.|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.90,65.74|Z|Ashenvale|N|From Blood Guard Aldo Rockrain.|RANK|1|
-R The Fold|QID|25945|M|48.58,66.46|Z|Ashenvale|N|Hop on the wagon and enjoy the ride.|V|
-T We're Here to Do One Thing, Maybe Two...|QID|25945|M|74.28,47.70|N|To Saurboz.|
-A Barrier to Entry|QID|25999|M|74.28,47.70|N|From Saurboz.|PRE|25945|RANK|1|
-C Barrier to Entry|QID|25999|M|73.37,42.68|N|You can't trigger the mines, don't worry. There are sentinels scattered around - if you aggro one, you can lead it into an armed mine to cause major damage.|U|56263|
+R The Fold|QID|25945|M|48.55,66.44|Z|Ashenvale|N|Hop on the Krom'gar Wagon and enjoy the free ride.|V|
+T We're Here to Do One Thing, Maybe Two...|QID|25945|M|48.55,66.44|N|To Saurboz.|
+A Barrier to Entry|QID|25999|M|48.55,66.44|N|From Saurboz.|PRE|25945|RANK|1|
+C Barrier to Entry|QID|25999|M|73.37,42.68|N|Click on the mines to arm them.\nIf you aggro one of the Sentinel Ambushers, you can lead it into an armed mine to cause major damage.\n[color=FF0000]NOTE: [/color]Using the wrench still requires you to click on the mine.|
 T Barrier to Entry|QID|25999|M|74.27,47.71|N|To Saurboz.|
 A The Missing Blastgineer|QID|26001|M|74.27,47.71|N|From Saurboz.|PRE|25999|RANK|1|
-A Lessons from the Lost Isles|QID|26003|M|74.41,47.63|N|From Kilag Gorefang.|PRE|25999|RANK|2|
-C Lessons from the Lost Isles|QID|26003|M|73.74,57.29|N|Use the goggles to see the elves. They even show up on your mini-map!|U|56470|S|
-T The Missing Blastgineer|QID|26001|M|73.32,56.65|N|To Blastgineer Fuzzwhistle.|
-A Alliance Attack Plans|QID|26002|M|73.32,56.65|N|From Blastgineer Fuzzwhistle.|PRE|26001|RANK|1|
-C Alliance Attack Plans|QID|26002|M|75.28,58.04|N|Kill the named night elf and loot the attack plans from her.|
-C Lessons from the Lost Isles|QID|26003|M|73.74,57.29|N|Use the goggles to see the elves. They even show up on your mini-map!|U|56470|US|
-T Lessons from the Lost Isles|QID|26003|M|74.45,47.63|N|To Kilag Gorefang, back at the camp.|
+A Lessons from the Lost Isles|QID|26003|M|74.44,47.67|N|From Kilag Gorefang.|PRE|25999|RANK|2|
+K Lessons from the Lost Isles|QID|26003|M|73.74,57.29|QO|1|N|Kill Darnassian Scouts.\nUse the Infrared Heat Focals to see the elves. They even show up on your mini-map!|U|56470|S|
+T The Missing Blastgineer|QID|26001|M|73.29,56.61|N|To Blastgineer Fuzzwhistle.|
+A Alliance Attack Plans|QID|26002|M|73.29,56.61|N|From Blastgineer Fuzzwhistle.|PRE|26001|RANK|1|
+l Alliance Attack Plans|QID|26002|M|75.28,58.04|QO|1|N|Kill Huntress Davinia and loot the Attack Plans from her.\nShe has a pet, Moonshadow, with her.|
+K Lessons from the Lost Isles|QID|26003|M|73.74,57.29|QO|1|N|Kill Darnassian Scouts.\nUse the Infrared Heat Focals to see the elves. They even show up on your mini-map!|U|56470|US|
+T Lessons from the Lost Isles|QID|26003|M|74.44,47.67|N|To Kilag Gorefang, back at the camp.|
 T Alliance Attack Plans|QID|26002|M|74.28,47.71|N|To Saurboz.|
 A Krom'gar Fortress|QID|26004|M|74.28,47.71|N|From Saurboz.|PRE|26002|RANK|1|
-R Krom'gar Fortress|QID|26004|M|66.54,62.80|N|Run to Krom'gar Fortress.|
-f Krom'gar Fortress|QID|26004|M|66.52,62.75|N|Get the flight point.|
-h Krom'gar Fortress|QID|26004|M|66.45,64.20|N|If you like, set your hearth at Felonius Stark.|
-T Krom'gar Fortress|QID|26004|M|66.13,63.72|N|To Overlord Krom'gar.|
-A Seek and Destroy|QID|26009|M|66.07,63.75|N|From Overlord Krom'gar. May only be available at certain times.|RANK|3|
-A Ashes to Ashes|QID|26010|M|66.13,63.72|N|From Overlord Krom'gar.|PRE|26004|RANK|1|
+R Krom'gar Fortress|QID|26004|M|66.54,62.80|N|Run to Krom'gar Fortress.|FLY|OLD|
+f Krom'gar Fortress|QID|26004|M|66.53,62.75|N|Get the flight point.|
+h Krom'gar Fortress|QID|26004|M|66.48,64.24|N|If you like, set your hearth at Felonius Stark.|
+T Krom'gar Fortress|QID|26004|M|66.12,63.70|N|To Overlord Krom'gar.|
+A Seek and Destroy|QID|26009|M|66.12,63.70|N|From Overlord Krom'gar.\n[color=FF0000]NOTE: [/color]A daily Rep quest that is available until you complete 'To Be Horde...'|PRE|26004|REP|Orgrimmar;76|RANK|3| ; There is some discrepancy as to when the Rep limits kick in, if there's any all.
+A Ashes to Ashes|QID|26010|M|66.12,63.70|N|From Overlord Krom'gar.|PRE|26004|RANK|1|
 A Dream of a Better Tomorrow|QID|26026|M|66.13,64.23|N|From Clarissa.|PRE|26004|RANK|2|
-A Might of the Krom'gar|QID|28084|M|65.85,64.12|N|From the Krom'gar Quartermaster. The quartermaster will sell you items depending on your rank in the army. Your current rank is listed up in your buffs.|PRE|26004|RANK|2|
-A Enemy of the Horde: Marshal Paltrow|QID|26011|M|65.77,63.33|N|From Spy-Mistress Anara.|PRE|26004|RANK|2|
-C Seek and Destroy|QID|26009|M|61.42,64.88|N|Kill Alliance soldiers.|S|RANK|3|
-C Ashes to Ashes|QID|26010|U|56473|M|61.42,64.88|N|Use the flamethrower on the tents.|S|
-C Enemy of the Horde: Marshal Paltrow|QID|26011|M|62.1,68.02|N|Kill Marshal Paltrow.|
-; A Orders from Base Camp|QID|26016|M|62.04,67.88|N|The orders drop from Marshal Paltrow. Right-click them to accept the quest.|U|56474|
-C Ashes to Ashes|NC|QID|26010|M|61.42,64.88|N|Use the flamethrower on the tents.|U|56473|US|
-C Seek and Destroy|QID|26009|M|61.42,64.88|N|Kill Alliance soldiers.|US|RANK|3|
-C Mechanized Air|QID|26026|M|59.94,64.21|QO|4|N|Inside the goblin hut.|RANK|2|
-C Mechanized Fire|QID|26026|M|63.09,56.72|QO|2|N|On top of the huge logging machine.|RANK|2|
-C Mechanized Ice|QID|26026|M|66.18,50.05|QO|3|N|On top of the tower.|RANK|2|
-A BEWARE OF CRAGJAW!|QID|26043|M|65.01,49.37|N|From the STAY OUT! poster.|RANK|3|
-C Dream of a Better Tomorrow|QID|26026|M|68.42,45.70;67.09,43.60;63.05,45.65|CS|QO|1|N|At the end of the stretch of deck, guarded by Gerenzo Wrenchwhistle.|NC|
-C BEWARE OF CRAGJAW!|QID|26043|M|65.21,47.19|N|Jump off if you'd like to try to take on Cragjaw. He's at the center of the lake. Feel free to skip this quest if it's too hard and you can't find someone to help you.|
-H Krom'gar Fortress|QID|26011|M|66.54,62.80|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
+A Might of the Krom'gar|QID|28084|M|65.85,64.13|N|From the Krom'gar Quartermaster. The quartermaster will sell you items depending on your rank in the army. Your current rank is listed up in your buffs.|PRE|26004|RANK|2|
+A Enemy of the Horde: Marshal Paltrow|QID|26011|M|65.76,63.30|N|From Spy-Mistress Anara.|PRE|26004|RANK|2|
+K Seek and Destroy|ACTIVE|26009|M|61.42,64.88|QO|1|N|Killing 'ANY' Alliance soldier counts.|S|
+C Ashes to Ashes|QID|26010|M|61.42,64.88|N|Use the flamethrower on the tents.|U|56473|S|
+K Enemy of the Horde: Marshal Paltrow|QID|26011|M|62.1,68.02|QO|1|N|Kill Marshal Paltrow.\n[color=FF0000]NOTE: [/color]He counts towards your kill count as well.|
+C Ashes to Ashes|QID|26010|M|61.42,64.88|N|Use the flamethrower on the tents.|U|56473|US|
+l Mechanized Air|ACTIVE|26026|M|59.95,64.24|QO|4|N|Inside the goblin hut.|
+l Mechanized Fire|ACTIVE|26026|M|63.05,56.77|QO|2|N|On top of the huge logging machine.|
+l Mechanized Ice|ACTIVE|26026|M|66.18,50.05|QO|3|N|On top of the tower.|
+K Seek and Destroy|ACTIVE|26009|M|61.42,64.88|QO|1|N|Killing 'ANY' Alliance soldier counts.|US|
+A BEWARE OF CRAGJAW!|QID|26043|M|64.97,49.37|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the 'STAY OUT!' sign.|RANK|3|
+l BD-816 War Apparatus|ACTIVE|26026|M|68.42,45.70;67.09,43.60;63.05,45.65|CS|QO|1|N|Follow the path up to the tower. Make your way along the different platforms until you get to the dead end.\nIt's guarded by Gerenzo Wrenchwhistle and you'll have to defeat him before you can loot it.|FLY|OLD|
+l BD-816 War Apparatus|ACTIVE|26026|M|63.05,45.65|QO|1|N|It's located on the platform below the waterfall. Fly up and defeat Gerenzo Wrenchwhistle, whom is guarding it.|
+K Cragjaw|QID|26043|M|65.52,47.31|QO|1|N|If you'd like to try to take on Cragjaw, drop into the water and swim over to him. He swims in a circle in the northeast corner of the lake.\n[color=FF0000]NOTE: [/color]Feel free to skip this quest if it's too hard and you can't find someone to help you. You'll get another chance at it later.|
+H Krom'gar Fortress|QID|26011|M|64.49,62.26|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T Enemy of the Horde: Marshal Paltrow|QID|26011|M|65.77,63.31|N|To Spy-Mistress Anara, back at Krom'gar Fortress.|
-T BEWARE OF CRAGJAW!|QID|26043|M|65.77,63.31|N|To Spy-Mistress Anara.|
-T Seek and Destroy|QID|26009|M|66.09,63.75|N|To Overlord Krom'gar.|
-T Ashes to Ashes|QID|26010|M|66.09,63.75|N|To Overlord Krom'gar.|
-A Report to Bombgutz|QID|26020|M|66.09,63.75|N|From Overlord Krom'gar.|PRE|26010|RANK|1|
-; T Orders from Base Camp|QID|26016|M|66.09,63.75|N|To Overlord Krom'gar.|
-T Report to Bombgutz|QID|26020|M|66.27,62.92|N|To Chief Blastgineer Bombgutz.|
-A Where Are the Parts?|QID|26044|M|66.27,62.92|N|From Chief Blastgineer Bombgutz.|PRE|26020|RANK|1|
+t BEWARE OF CRAGJAW!|QID|26043|M|65.77,63.31|N|To Spy-Mistress Anara.|IZ|Krom'gar Fortress|
+T Seek and Destroy|QID|26009|M|66.12,63.70|N|To Overlord Krom'gar.|
+T Ashes to Ashes|QID|26010|M|66.12,63.70|N|To Overlord Krom'gar.| ; Completes Storyline A Short-Lived Victory
+A Report to Bombgutz|QID|26020|M|66.12,63.70|N|From Overlord Krom'gar.|PRE|26010|RANK|1|
+T Report to Bombgutz|QID|26020|M|66.23,62.92|N|To Chief Blastgineer Bombgutz.|
+A Where Are the Parts?|QID|26044|M|66.23,62.92|N|From Chief Blastgineer Bombgutz.|PRE|26020|RANK|1|
 T Dream of a Better Tomorrow|QID|26026|M|66.12,64.26|N|To Clarissa.|
 A Mr. D's Wild Ride|QID|26028|M|66.12,64.26|N|From Clarissa.|PRE|26026|RANK|2|
-C Mr. D's Wild Ride|QID|26028|M|67.21,57.87|N|Drive the Large Daddy down the cliff and kill gnomes and mechs below. Just look for the biggest groups of them - the Large Daddy's abilities destroy everything in front of him very effectively.|
-T Where Are the Parts?|QID|26044|M|66.39,60.84;67.13,64.48|CS|N|Ditch the Large Daddy and head to the cave underneath Krom'gar Fortress. Turn-in to Sergeant Dontrag.|
+K Mr. D's Wild Ride|QID|26028|M|67.21,57.87|QO|1;2|N|Drive the Large Daddy off the cliff (You won't take damage) and kill the gnomes and mechs below.\nJust look for the biggest groups of them. The Large Daddy's abilities destroy everything in front of him very effectively.\n[color=FF0000]NOTE: [/color]You can control the Large Daddy for 15 minutes. Speak with Clarissa if need a new one.|
+R The Deep Reaches|ACTIVE|26044|M|66.47,60.50|N|The entrance is at the base of the cliff between the two pathes leading up to Krom'gar.\nLook for the Horde flags.|
+N Exit Large Daddy|ACTIVE|26044|M|PLAYER|N|You need to manually exit the Large Daddy.\n(Yellow arrow on the left side of the UI)|BUFF|-78257|
+T Where Are the Parts?|QID|26044|M|67.13,64.48|N|To Sergeant Dontrag, inside The Deep Reaches.|
 A I Got Your Parts Right Here...|QID|26045|M|67.13,64.48|N|From Sergeant Dontrag.|PRE|26044|RANK|1|
 A Between a Rock and a Hard Place|QID|26046|M|67.13,64.50|N|From Scout Utvoch.|PRE|26044|RANK|1|
 A And That's Why They Call Them Peons...|QID|26047|M|67.14,64.48|N|From Blastgineer Igore.|PRE|26044|RANK|1|
@@ -74,9 +77,9 @@ A Spare Parts Up In Here!|QID|26048|M|67.15,64.49|N|From Sergeant Dontrag.|PRE|2
 T Spare Parts Up In Here!|QID|26048|M|66.46,60.48;66.25,62.94|CC|N|To Chief Blastgineer Bombgutz, back on top of the hill at Krom'gar Fortress.|
 A In Defense of Krom'gar Fortress|QID|26058|M|66.25,62.94|N|From Chief Blastgineer Bombgutz.|PRE|26048|RANK|1|
 C In Defense of Krom'gar Fortress|QID|26058|M|66.09,63.01|N|Right-click one of the guns to get in. Shoot down the flying machines and make sure to shoot the pilots after you destroy the machine. When you are done, you need to exit the gun manually.|
-T Mr. D's Wild Ride|QID|26028|M|66.13,63.69|N|When you are done, you need to exit the gun manually. Turn-in to Overlord Krom'gar.|
-T In Defense of Krom'gar Fortress|QID|26058|M|66.13,63.69|N|To Overlord Krom'gar.|
-A Eyes and Ears: Malaka'jin|QID|26059|M|66.13,63.69|N|From Overlord Krom'gar.|PRE|26058|RANK|1|
+T Mr. D's Wild Ride|QID|26028|M|66.12,63.70|N|When you are done, you need to exit the gun manually. Turn-in to Overlord Krom'gar.|
+T In Defense of Krom'gar Fortress|QID|26058|M|66.12,63.70|N|To Overlord Krom'gar.|
+A Eyes and Ears: Malaka'jin|QID|26059|M|66.12,63.70|N|From Overlord Krom'gar.|PRE|26058|RANK|1|
 B Quartermaster|QID|26059|M|65.85,64.12|N|You've gone up a rank in the Krom'gar army! Check and see if there's anything you want at the quartermaster before moving on.|
 F Malaka'jin|QID|26059|M|66.52,62.77|N|Fly to Malaka'jin.|
 T Eyes and Ears: Malaka'jin|QID|26059|M|71.15,91.23|N|To Witch Doctor Jin'Zil.|
