@@ -915,7 +915,8 @@ A Meet the Queen|QID|58775|PRE|58571|M|55.65,41.94|Z|Archon's Rise@Elysian Hold!
 F Refugee Camp|ACTIVE|58775|M|51.35,48.49|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|N|Head to the flightmaster and take a flight to Refugee Camp.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|71.74,45.81|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak with Lord Herne at the Heart of the Forest.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|45.98,57.61|Z|The Canopy@Heart of the Forest!Dungeon|QO|2|NC|N|Tell Pelagos, Let's hear what the Queen has to say.|COV|Kyrian|
-C Meet the Queen|QID|58775|M|36.77,62.85|Z|The Canopy@Heart of the Forest!Dungeon|QO|3;4|NC|N|Listen to the Winter Queen's reply,\nThen speak with the attendent to Exit the Heart.|COV|Kyrian|
+C Meet the Queen|QID|58775|M|36.77,62.85|Z|The Canopy@Heart of the Forest!Dungeon|QO|3|NC|N|Listen to the Winter Queen's reply.|COV|Kyrian|
+C Meet the Queen|QID|58775|M|36.77,62.85|Z|The Canopy@Heart of the Forest!Dungeon|QO|4|NC|N|Speak with the attendent to Exit the Heart.|COV|Kyrian|
 T Meet the Queen|QID|58775|M|44.01,51.78|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
 A Who Are You Fooling?|QID|58856|PRE|58775|M|44.01,51.78|Z|Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
 C Who Are You Fooling?|QID|58856|M|40.38,57.57|Z|Ardenweald!The Shadowlands|U|174843|N|Kill Sicklethorn mobs to loot Powder.\nUse Powder to find Illustions, to find Grubby.|S|COV|Kyrian|
