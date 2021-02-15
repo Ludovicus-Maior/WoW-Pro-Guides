@@ -60,8 +60,11 @@ T Dream of a Better Tomorrow|QID|26026|M|66.12,64.26|N|To Clarissa.|
 A Mr. D's Wild Ride|QID|26028|M|66.12,64.26|N|From Clarissa.|PRE|26026|RANK|2|
 K Mr. D's Wild Ride|QID|26028|M|67.21,57.87|QO|1;2|N|Drive the Large Daddy off the cliff (You won't take damage) and kill the gnomes and mechs below.\nJust look for the biggest groups of them. The Large Daddy's abilities destroy everything in front of him very effectively.\n[color=FF0000]NOTE: [/color]You can control the Large Daddy for 15 minutes. Speak with Clarissa if need a new one.|
 R The Deep Reaches|ACTIVE|26044|M|66.47,60.50|N|The entrance is at the base of the cliff between the two pathes leading up to Krom'gar.\nLook for the Horde flags.|
-N Exit Large Daddy|ACTIVE|26044|M|PLAYER|N|You need to manually exit the Large Daddy.\n(Yellow arrow on the left side of the UI)|BUFF|-78257|
-T Where Are the Parts?|QID|26044|M|67.13,64.48|N|To Sergeant Dontrag, inside The Deep Reaches.|
+;  -- Having an issue making this work properly - Hendo72
+;N Exit Large Daddy|ACTIVE|26044|M|PLAYER|N|You need to manually exit the Large Daddy.\n(Yellow arrow on the left side of the UI)|BUFF|78257|
+;T Where Are the Parts?|QID|26044|M|67.13,64.48|N|To Sergeant Dontrag, inside The Deep Reaches.
+T Where Are the Parts?|QID|26044|M|67.13,64.48|N|To Sergeant Dontrag, inside The Deep Reaches.\n[color=FF0000]NOTE: [/color]You need to manually exit the Large Daddy.\n(Yellow arrow on the left side of the UI)|
+|
 A I Got Your Parts Right Here...|QID|26045|M|67.13,64.48|N|From Sergeant Dontrag.|PRE|26044|RANK|1|
 A Between a Rock and a Hard Place|QID|26046|M|67.13,64.50|N|From Scout Utvoch.|PRE|26044|RANK|1|
 A And That's Why They Call Them Peons...|QID|26047|M|67.14,64.48|N|From Blastgineer Igore.|PRE|26044|RANK|1|
