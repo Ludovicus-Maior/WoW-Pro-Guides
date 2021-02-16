@@ -465,9 +465,10 @@ C The Crest of Knowledge|QID|47654|M|53.37,56.01|Z|Upper Deck@ArgusMacAree|N|If 
 t Seat of the Triumvirate: The Crest of Knowledge|QID|47654|M|53.36,50.33|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
 C An Offering of Shadow|QID|48560|M|56.20,68.40|Z|Lower Deck@ArgusMacAree|QO|1|U|152594|NC|N|Go downstairs to the Netherlight Crucible and infuse it with the Essence of Shadow.\nClick on it.|
 T An Offering of Shadow|QID|48560|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|To Artificer Shela'na.|
-A The Netherlight Crucible|QID|49224|PRE|48560|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|From Artificer Shela'na.|ACH|12184|
-C The Netherlight Crucible|QID|49224|M|56.20,68.40|Z|Lower Deck@ArgusMacAree|QO|1|NC|N|Imbue a relic (or all your relics) with Netherlight Fortification.|
-T The Netherlight Crucible|QID|49224|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|To Artificer Shela'na.|
+; Obsolete as of 8.0.1
+; A The Netherlight Crucible|QID|49224|PRE|48560|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|From Artificer Shela'na.|ACH|12184|
+; C The Netherlight Crucible|QID|49224|M|56.20,68.40|Z|Lower Deck@ArgusMacAree|QO|1|NC|N|Imbue a relic (or all your relics) with Netherlight Fortification.|
+; T The Netherlight Crucible|QID|49224|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|To Artificer Shela'na.|
 A The Speaker Listens|QID|48273|M|45.66,23.86|Z|Upper Deck@ArgusMacAree|N|From High Exarch Turalyon.|
 T The Speaker Listens|QID|48273|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
 A Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|

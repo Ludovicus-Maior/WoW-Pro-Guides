@@ -18,7 +18,9 @@ $ Gift of Chyrus|M|70.5,36.5|Z|Bastion!The Shadowlands|N|WH - /kneel in front of
 $ Gift of Devos|M|27.6,21.7|Z|Bastion!The Shadowlands|N|WH - Take Flame of Devotion at 23.9,24.8, and bring it to the brazier, Obtaining Proof of Loyalty.|ITEM|179977|ACH|14311;15|
 $ Experimental Construct Part|QID|61052|M|51.4,17.9|Z|Bastion!The Shadowlands|N|Requires Unstable Construct Anima, smallish anima canister, groundspawn various locations nearby.|ITEM|183609|ACH|14311;8|
 $ Memorial Offerings|M|56.5,17.2|Z|Bastion!The Shadowlands|N|WH - Buy Memorial Wine from Kobri, use on drink tray near treasure to get the Key.|ACH|14311;10|
-$ Gift of Vesiphone|M|65.2,70.3|Z|Bastion!The Shadowlands|N|WH - Ring nearby bell, while standing under waterfall for Proof of Purity, to unlock treasure.|ITEM|180859|ACH|14311;12|
+$ Gift of Vesiphone 1|QID|60890|M|64.87,71.15|Z|Bastion!The Shadowlands|N|Ring bell on either side of treasure chest, kill mob that spawns|BUFF|333239|ITEM|180859|LVL|60|ACH|14311;12|
+$ Gift of Vesiphone 2|QID|60890|M|64.91,70.38|Z|Bastion!The Shadowlands|N|Next stand under waterfall for Proof of Purity buff, which unlocks treasure.|BUFF|332785|ITEM|180859|LVL|60|ACH|14311;12|
+$ Gift of Vesiphone 3|QID|60890|M|64.87,71.15|Z|Bastion!The Shadowlands|N|Go open the chest and get your cute companion and anima|ITEM|180859|LVL|60|ACH|14311;12|
 $ Gift of Thenios|M|40.2,18.2|Z|Bastion!The Shadowlands|N|WH - Obtain Proof of Wisdom, using nearby teleporter, and light the incenses in the correct order.\nClick Incense of Patience\nClick Incense of Knowledge\nClick Incense of Insight\n[color=FF0000]SKIP[/color] Incense of Judgement\nClick Anima Orb\nClick Incense of Judgement on the FIFTH platform, then port back.|ACH|14311;14|
 ; this appears to reset.  leaving it here incase that is wrong -- i think because actually an encounter, not treasure. - ITEM|174038|RARE|ACH|14307;27|?
 $ Sophia's Gift|QID|58319|M|51.75,68.84|Z|Bastion!The Shadowlands|N|Treasure for your enjoyment.|
@@ -163,15 +165,15 @@ K Soultwister Cero|QID|58013^61177|M|72.33,51.05|Z|Ardenweald!The Shadowlands|T|
 
 N Revendreth|ACH|14314|
 $ The Count|M|57.3,43.3|Z|Revendreth|ACH|14314;3|
-$ Gilded Plum Chest|M|46.42,58.12|Z|Revendreth|N|Greedy Soul mob paths down road, defeat mob and LOTS of adds for treasure.|ITEM|179390|ACH|14314;15|
+$ Gilded Plum Chest|M|46.42,58.12|Z|Revendreth|N|'Greedy Soul' paths down road, defeat him and LOTS of adds for treasure.|ITEM|179390|ACH|14314;15|
 $ Stylish Parasol|QID|61999|CS|M|42.04,47.03;38.63,44.36|Z|Revendreth|N|Treasure on Castle Wall, use elevator at 1st Coords. NOTE, toy has a casting time unlike most slowfall items.|ITEM|182694|ACH|14314;2|
 $ Rapier of the Fearless|QID|61546^62156|M|79.9,37.0|Z|Revendreth|N|Directly above Boian - North-East of Halls of Atonement FP, after picking up it becomes animated, kill it and the other mobs to loot.|ITEM|182689|ACH|14314;4|
-$ Forbidden Chamber|Z|Revendreth|ACH|14314;8|
-$ Fleeing Soul's Bundle|QID|59886|M|46.42,58.12|Z|Revendreth|N|On wall above Stalker's Lodge, jump from nearby eleveator (43.53,59.50)|ACH|14314;14|
+$ Forbidden Chamber|QID|62443|M|47.57,55.45|Z|Revendreth|N|Pick up the Anima Canister outside the locked door, use it on the 5 silent watchers around the area, then use the filled container to open the door|EAB|ITEM|184075|ACH|14314;8|
+$ Fleeing Soul's Bundle|QID|59886|M|CS|44.30,57.69;46.42,58.12|Z|Revendreth|N|On wall above Stalker's Lodge. Start at first point, run along roof of the ruins to the treasure.|ACH|14314;14|
 $ Chest of Envious Dreams|QID|59833|M|69.28,78.08|Z|Revendreth|N|Mobs will appear and attack after you open.|ITEM|179393|ACH|14314;10|
 $ Filcher's Prize|QID|59883|M|64.21,72.76|Z|Revendreth|N|Just down from road, outside of Pridefall Hamlet. Two statues of stoneborn with treasure between them, upon looting treasure, one comes alive.|ITEM|179392|ACH|14314;11|
 $ Vrytha's Dredglaive|QID|62164|M|70.19,60.04|Z|Revendreth|N|Treasure located under the bridge.|ITEM|177807|ACH|14314;5|
-$ Forgotten Fishing Pole|QID|62196|M|73.68,75.40|Z|Revendreth|N|Pick up the fishing pole, to catch Muckribbon.|ITEM|180993|MS|
+$ Forgotten Angler's Rod|QID|62196|M|73.68,75.40|Z|Revendreth|N|Pick up the fishing pole, to catch Muckribbon.|ITEM|180993|;possibly lvl 60 (wasn't 60 in beta i don't think)
 $ Wayfarer's Abandoned Spoils|QID|59884|CS|M|67.93,64.51;68.45,64.43|Z|Revendreth|N|Walk on the Bounding Shroom to be shot up in the air. Aim yourself to come down on the ledge where the treasure is.|ACH|14314;12|
 $ Remlate's Hidden Cache|QID|59885|CS|M|60.44,59.93;61.52,58.63|Z|Revendreth|N|Outer wall of Darkhaven. Jump carefully to the right on outer wall. You can get back to Darkhaven by killing the two Stoneborn east of the chest and walking into town.|ACH|14314;13|
 $ Taskmaster's Trove|QID|62199|CS|M|63.00,72.39;62.85,75.31|Z|Revendreth|N|Pick up Ingress and Egrees Rites in niche next to wall, Minimize contact with runic bombs and collect treasure.|ITEM|183986|ACH|14314;7|
@@ -183,7 +185,7 @@ $ Abandoned Curios|QID|59888|CS|M|51.06,59.14;51.85,59.54|Z|Revendreth|N|Jump fr
 $ Forbidden Ink|QID|61990|M|37.66,68.74|Z|Revendreth|L|182475|N|Pick up the ink.|ACH|14314;1|
 $ Lost Quill|QID|61990|CS|M|38.64,68.17;37.94,69.07|Z|Revendreth|ACH|14314;1|N|Run along the ledge to get over to where the quill is then drop down beside it. Offer the ink to the quill for a pet.|ITEM|182613|
 $ Smuggled Cache|QID|59889|M|31.05,55.10|Z|Revendreth|N|Under broken bridge, across from the entrance to Theotar's hideout.|ITEM|182738|ACH|14314;9|
-$ Makeshift Muckpool|CS|M|28.2,38.0;29.7,37.2|Z|Revendreth|LVL|60|N|Up path to get to upper floor of Ruins at Ember Ward, need 30 Infused Ruby to loot.|ACH|14314;6|
+$ Makeshift Muckpool|QID|62198|CS|M|28.2,38.0;29.7,37.2|Z|Revendreth|LVL|60|N|Up path to get to upper floor of Ruins at Ember Ward, need 30 Infused Ruby to loot.|ACH|14314;6|
 K Soulstalker Doina|M|78.11,49.70|Z|Revendreth|T|Soulstalker Doina|N|Tower above the Atonement Entrance, Her two hounds assist her. At 75% and 40% she runs through portal to new area, Chase her. Watch out for traps in 2nd area. She may be up in 2nd area if person trying to kill her didn't know to follow.|RARE|ACH|14310;1|
 K Innervus|M|21.78.36.03|Z|Revendreth|T|Innervus|N|WH - Bottom level of crypt. Need Scorched Crypt Key from Feral Ritualist in area.|ITEM|183735|RARE|ACH|14310;3|
 K Stonefist|M|30.64,22.45|Z|Revendreth|T|Stonefist|N|WH - Fattest mob in Revendreth, 943k HP, Hits hard, long cast AOEs.|ITEM|180488|RARE|ACH|14310;5|
@@ -192,13 +194,13 @@ K Tollkeeper Varaboss|QID|59595^60583|QO|1|M|66.74,70.44|Z|Revendreth|T|Tollkeep
 K Famu the Infinite|M|62.51,47.18|Z|Revendreth|T|Famu the Infinite|N|WH - Speak to Seeker Hilda to start event, if you die, Rare attacks Hilda until she dies.|ITEM|180582|RARE|ACH|14310;15|
 K Hopecrusher|M|51.06,52.87|Z|Revendreth|T|Hopecrusher|N|WH - Tough one, Main danger is Enrage, hits like crazy when enraged.|RARE|ACH|14310;17|
 K Executioner Aatron|M|37.11,47.95|Z|Revendreth|T|Executioner Aatron|N|WH - Shatter all 3 Stone Legion Punishers along castle wall.|ITEM|183737|RARE|ACH|14310;19|
-K Amalgamation of Sin|M|PLAYER|Z|Revendreth|T|Amalgamation of Sin|N|WH - UNKNOWN|RARE|ACH|14310;23|
-K Tomb Burster|M|43.10,79.20|Z|Revendreth|T|Tomb Burster|N|WH - Break all spider eggs around the webbed NPC, then fight through 3 waves of spiders: 2 - 3 - 4.|RARE|ACH|14310;4|
+K Amalgamation of Sin|M|65.86,29.08|Z|Revendreth|T|Amalgamation of Sin|N|Only available when WQ-Summon your Sins is up. The reward if you choose the "catalyst of power" component has a chance to be an item that will summon the rare.|RARE|ACH|14310;23|
+K Tomb Burster|QID|59612|M|43.10,79.20|Z|Revendreth|T|Tomb Burster|N|Funguss, (webbed NPC) must be up. Break all spider eggs around the webbed NPC, until zone emote saying 'The sound of a massive crawler rings in teh distance' then fight through 3 waves of spiders: 2 - 3 - 4.|RARE|ACH|14310;4|
 K Worldedge Gorger|M|38.62,72.21|Z|Revendreth|T|Worldedge Gorger|N|WH - Use Enticing Anima to lit worldedge braziers, drop form worldeater rift mobs along the river.|ITEM|180583|RARE|ACH|14310;6|
 K Executioner Adrastia|M|43.73,51.24|Z|Revendreth|T|Executioner Adrastia|N|WH - Flies around the central platform in the middle of Darkwall Tower. Pull carefully to not aggro mobs.|ITEM|180502|RARE|ACH|14310;8|
 K Amalgamation of Filth|M|52.70,73.27|Z|Revendreth|T|Amalgamation of Filth|N|WH - Giant elemental in pool, usually fighting Muckmaster Rotjaw.|RARE|ACH|14310;14|
 K Azgar|M|35.48,68.70|Z|Revendreth|T|Azgar|N|WH - Annoying Rare, casts shield at 70% and 30%, and blinks.  Overkill sheild to collapse.|ITEM|183731|RARE|ACH|14310;16|
-K Bog Beast|M|36.19,32.92|Z|Revendreth|T|Bog Beast|N|WH - WQ! Muck it up, needed to summon. Toss a couple Primordial Muck into dirt to spawn rare mob.  Muck drops off slimes in WQ Area.|ITEM|180588|RARE|ACH|14310;18|
+K Bog Beast|QID|59823|M|36.19,32.92|Z|Revendreth|T|Bog Beast|N|Requires !WQ "Muck It Up" to be active. Toss Primordial Muck into water to spawn rare mob.  Muck drops off slimes killed for WQ|ITEM|180588|RARE|ACH|14310;18|
 K Huntmaster Petrus|M|61.89,78.50|Z|Revendreth|T|Huntmaster Petrus|N|Rare found down some stairs and under a porch within the ruined castle two dogs assist him, Kill dogs first!|ITEM|180705|RARE|ACH|14310;20|LVL|60|;not a silver if not lvl 60.
 K Manifestation of Wrath|M|49.84,35.02|Z|Revendreth|T|Manifestation of Wrath|N|WH - WQ! Swarming Souls, needed.  During quest you deliver souls to Avowed Ritualist, rare has a chance to spawn after a delivering.|RARE|ACH|14310;22
 K Sinstone Hoarder|M|PLAYER|Z|Revendreth|T|Sinstone Hoarder|N|WH - UNKNOWN|RARE|ACH|14310;24|
