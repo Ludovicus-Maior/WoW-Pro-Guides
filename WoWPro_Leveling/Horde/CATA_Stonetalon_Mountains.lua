@@ -31,7 +31,7 @@ R Krom'gar Fortress|QID|26004|M|66.54,62.80|N|Run to Krom'gar Fortress.|FLY|OLD|
 f Krom'gar Fortress|QID|26004|M|66.53,62.75|N|Get the flight point.|
 h Krom'gar Fortress|QID|26004|M|66.48,64.24|N|If you like, set your hearth at Felonius Stark.|
 T Krom'gar Fortress|QID|26004|M|66.12,63.70|N|To Overlord Krom'gar.|
-A Seek and Destroy|QID|26009|M|66.12,63.70|N|From Overlord Krom'gar.\n[color=FF0000]NOTE: [/color]A daily Rep quest that is available until you complete 'To Be Horde...'|PRE|26004|REP|Orgrimmar;76|RANK|3| ; There is some discrepancy as to when the Rep limits kick in, if there's any all.
+A Seek and Destroy|QID|26009|M|66.12,63.70|N|From Overlord Krom'gar.\n[color=FF0000]NOTE: [/color]A daily Rep quest that is available until you complete 'To Be Horde...'|PRE|26004|REP|Orgrimmar;76|RANK|3|IZ|Krom'gar Fortress| ; There is some discrepancy as to when the Rep limits kick in, if there's any all.
 A Ashes to Ashes|QID|26010|M|66.12,63.70|N|From Overlord Krom'gar.|PRE|26004|RANK|1|
 A Dream of a Better Tomorrow|QID|26026|M|66.13,64.23|N|From Clarissa.|PRE|26004|RANK|2|
 A Might of the Krom'gar|QID|28084|M|65.85,64.13|N|From the Krom'gar Quartermaster. The quartermaster will sell you items depending on your rank in the army. Your current rank is listed up in your buffs.|PRE|26004|RANK|2|
@@ -44,10 +44,10 @@ l Mechanized Air|ACTIVE|26026|M|59.95,64.24|QO|4|N|Inside the goblin hut.|
 l Mechanized Fire|ACTIVE|26026|M|63.05,56.77|QO|2|N|On top of the huge logging machine.|
 l Mechanized Ice|ACTIVE|26026|M|66.18,50.05|QO|3|N|On top of the tower.|
 K Seek and Destroy|ACTIVE|26009|M|61.42,64.88|QO|1|N|Killing 'ANY' Alliance soldier counts.|US|
-A BEWARE OF CRAGJAW!|QID|26043|M|64.97,49.37|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the 'STAY OUT!' sign.|RANK|3|
+A BEWARE OF CRAGJAW!|QID|26043|AVAILABLE|26115|M|64.97,49.37|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the 'STAY OUT!' sign.|RANK|3|
 l BD-816 War Apparatus|ACTIVE|26026|M|68.42,45.70;67.09,43.60;63.05,45.65|CS|QO|1|N|Follow the path up to the tower. Make your way along the different platforms until you get to the dead end.\nIt's guarded by Gerenzo Wrenchwhistle and you'll have to defeat him before you can loot it.|FLY|OLD|
 l BD-816 War Apparatus|ACTIVE|26026|M|63.05,45.65|QO|1|N|It's located on the platform below the waterfall. Fly up and defeat Gerenzo Wrenchwhistle, whom is guarding it.|
-K Cragjaw|QID|26043|M|65.52,47.31|QO|1|N|If you'd like to try to take on Cragjaw, drop into the water and swim over to him. He swims in a circle in the northeast corner of the lake.\n[color=FF0000]NOTE: [/color]Feel free to skip this quest if it's too hard and you can't find someone to help you. You'll get another chance at it later.|
+K Cragjaw|ACTIVE|26043|M|65.52,47.31|QO|1|N|If you'd like to try to take on Cragjaw, drop into the water and swim over to him. He swims in a circle in the northeast corner of the lake.\n[color=FF0000]NOTE: [/color]Feel free to skip this quest if it's too hard and you can't find someone to help you.|
 H Krom'gar Fortress|QID|26011|M|64.49,62.26|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T Enemy of the Horde: Marshal Paltrow|QID|26011|M|65.77,63.31|N|To Spy-Mistress Anara, back at Krom'gar Fortress.|
 t BEWARE OF CRAGJAW!|QID|26043|M|65.77,63.31|N|To Spy-Mistress Anara.|IZ|Krom'gar Fortress|
@@ -62,64 +62,74 @@ K Mr. D's Wild Ride|QID|26028|M|67.21,57.87|QO|1;2|N|Drive the Large Daddy off t
 R The Deep Reaches|ACTIVE|26044|M|66.47,60.50|N|The entrance is at the base of the cliff between the two pathes leading up to Krom'gar.\nLook for the Horde flags.|
 ;  -- Having an issue making this work properly - Hendo72
 ;N Exit Large Daddy|ACTIVE|26044|M|PLAYER|N|You need to manually exit the Large Daddy.\n(Yellow arrow on the left side of the UI)|BUFF|78257|
-;T Where Are the Parts?|QID|26044|M|67.13,64.48|N|To Sergeant Dontrag, inside The Deep Reaches.
-T Where Are the Parts?|QID|26044|M|67.13,64.48|N|To Sergeant Dontrag, inside The Deep Reaches.\n[color=FF0000]NOTE: [/color]You need to manually exit the Large Daddy.\n(Yellow arrow on the left side of the UI)|
-|
-A I Got Your Parts Right Here...|QID|26045|M|67.13,64.48|N|From Sergeant Dontrag.|PRE|26044|RANK|1|
-A Between a Rock and a Hard Place|QID|26046|M|67.13,64.50|N|From Scout Utvoch.|PRE|26044|RANK|1|
-A And That's Why They Call Them Peons...|QID|26047|M|67.14,64.48|N|From Blastgineer Igore.|PRE|26044|RANK|1|
-C And That's Why They Call Them Peons...|QID|26047|M|67.44,65.58;66.90,71.66;67.06,73.53|CN|N|Right-click peons to rescue them.|S|NC|
-C Between a Rock and a Hard Place|QID|26046|M|67.44,65.58;66.90,71.66;67.06,73.53|CN|N|Kill the elementals that populate the cave.|S|
-C I Got Your Parts Right Here...|QID|26045|M|67.44,65.58;66.90,71.66;67.06,73.53|CN|N|Loot the spare parts lying around the cave.|NC|
-C And That's Why They Call Them Peons...|QID|26047|M|67.44,65.58;66.90,71.66;67.06,73.53|CN|N|Right-click peons to rescue them.|US|NC|
-C Between a Rock and a Hard Place|QID|26046|M|67.44,65.58;66.90,71.66;67.06,73.53|CN|N|Kill the elementals that populate the cave.|US|
-T Between a Rock and a Hard Place|QID|26046|M|67.08,64.50|N|Back to Scout Utvoch.|
-T And That's Why They Call Them Peons...|QID|26047|M|67.15,64.49|N|To Blastgineer Igore.|
-T I Got Your Parts Right Here...|QID|26045|M|67.15,64.49|N|To Sergeant Dontrag.|
-A Spare Parts Up In Here!|QID|26048|M|67.15,64.49|N|From Sergeant Dontrag.|PRE|26045&26046&26047|RANK|1|
-T Spare Parts Up In Here!|QID|26048|M|66.46,60.48;66.25,62.94|CC|N|To Chief Blastgineer Bombgutz, back on top of the hill at Krom'gar Fortress.|
+;T Where Are the Parts?|QID|26044|M|67.14,64.52|N|To Sergeant Dontrag, inside The Deep Reaches.|
+T Where Are the Parts?|QID|26044|M|67.14,64.52|N|To Sergeant Dontrag, inside The Deep Reaches.\n[color=FF0000]NOTE: [/color]You need to manually exit the Large Daddy.\n(Yellow arrow on the left side of the UI)|
+A I Got Your Parts Right Here...|QID|26045|M|67.14,64.52|N|From Sergeant Dontrag.|PRE|26044|RANK|1|
+A Between a Rock and a Hard Place|QID|26046|M|67.10,64.56|N|From Scout Utvoch.|PRE|26044|RANK|1|
+A And That's Why They Call Them Peons...|QID|26047|M|67.18,64.47|N|From Blastgineer Igore.|PRE|26044|RANK|1|
+C And That's Why They Call Them Peons...|QID|26047|M|67.44,65.58|N|Right-click peons to rescue them.|S|NC|
+K Between a Rock and a Hard Place|QID|26046|M|67.44,65.58|QO|1|N|Kill the elementals that populate the cave.|S|
+l I Got Your Parts Right Here...|QID|26045|M|67.44,65.58|QO|1|N|Loot the spare parts lying around the cave.|
+C And That's Why They Call Them Peons...|QID|26047|M|67.44,65.58|N|Right-click peons to rescue them.|US|NC|
+K Between a Rock and a Hard Place|QID|26046|M|67.44,65.58|QO|1|N|Kill the elementals that populate the cave.|US|
+T Between a Rock and a Hard Place|QID|26046|M|67.10,64.56|N|Back to Scout Utvoch.|
+T And That's Why They Call Them Peons...|QID|26047|M|67.18,64.47|N|To Blastgineer Igore.|
+T I Got Your Parts Right Here...|QID|26045|M|67.14,64.52|N|To Sergeant Dontrag.|
+A Spare Parts Up In Here!|QID|26048|M|67.14,64.52|N|From Sergeant Dontrag.|PRE|26045&26046&26047|RANK|1|
+R Exit Deep Reaches|ACTIVE|26048|M|66.49,60.47|N|Make your way out of Deep Reaches.|IZ|The Deep Reaches|
+T Spare Parts Up In Here!|QID|26048|M|66.25,62.94|N|To Chief Blastgineer Bombgutz, back on top of the hill at Krom'gar Fortress.|
 A In Defense of Krom'gar Fortress|QID|26058|M|66.25,62.94|N|From Chief Blastgineer Bombgutz.|PRE|26048|RANK|1|
 C In Defense of Krom'gar Fortress|QID|26058|M|66.09,63.01|N|Right-click one of the guns to get in. Shoot down the flying machines and make sure to shoot the pilots after you destroy the machine. When you are done, you need to exit the gun manually.|
 T Mr. D's Wild Ride|QID|26028|M|66.12,63.70|N|When you are done, you need to exit the gun manually. Turn-in to Overlord Krom'gar.|
-T In Defense of Krom'gar Fortress|QID|26058|M|66.12,63.70|N|To Overlord Krom'gar.|
+T In Defense of Krom'gar Fortress|QID|26058|M|66.12,63.70|N|To Overlord Krom'gar.| ; Completes storyline Legionnaire
 A Eyes and Ears: Malaka'jin|QID|26059|M|66.12,63.70|N|From Overlord Krom'gar.|PRE|26058|RANK|1|
-B Quartermaster|QID|26059|M|65.85,64.12|N|You've gone up a rank in the Krom'gar army! Check and see if there's anything you want at the quartermaster before moving on.|
-F Malaka'jin|QID|26059|M|66.52,62.77|N|Fly to Malaka'jin.|
-T Eyes and Ears: Malaka'jin|QID|26059|M|71.15,91.23|N|To Witch Doctor Jin'Zil.|
-A Da Voodoo: Stormer Heart|QID|26060|M|71.15,91.23|N|From Witch Doctor Jin'Zil.|PRE|26059|RANK|1|
-A Da Voodoo: Ram Horns|QID|26061|M|71.15,91.23|N|From Witch Doctor Jin'Zil.|PRE|26059|RANK|1|
-A Fight On Their Stomachs|QID|26064|M|72.03,91.20|N|From Denni'ka.|PRE|26059|RANK|2|
-C Da Voodoo: Stormer Heart|QID|26060|M|69.07,86.03|N|Keep an eye out for stormers.|S|
-C Da Voodoo: Ram Horns|QID|26061|M|65.80,84.27|N|Kill and loot rams.|S|
-C Fight On Their Stomachs|QID|26064|M|64.17,89.53|N|The eggs come from nests on the ground.|NC|
-C Da Voodoo: Ram Horns|QID|26061|M|65.80,84.27|N|Kill and loot rams.|US|
-C Da Voodoo: Stormer Heart|QID|26060|M|69.07,86.03|N|Kill and loot a stormer. They tend to be near the valley walls.|US|
-A The Queen and Her Court|QID|26063|M|64.91,82.59|N|From Darn Talongrip, on the road halfway between Krom'gar and Malaka'jin.|RANK|3|
-C The Queen and Her Court|QID|26063|M|58.44,74.28|N|Kill the giant spider and ten other spiders.|
-T The Queen and Her Court|QID|26063|M|64.92,82.66|N|To Darn Talongrip.|
+r Quartermaster|ACTIVE|26059|M|65.85,64.12|N|You've gone up a rank in the Krom'gar army! Check and see if there's anything you want at the quartermaster before moving on.\nMake sure you repair while you're here.|
+F Malaka'jin|QID|26059|M|66.52,62.77|N|Fly to Malaka'jin.|TAXI|Malaka'jin|
+R Webwinder Path|ACTIVE|26059|M|60.96,71.09|N|Take the west ramp down and follow the 'road' south through Windshear Valley and out of Windshear Crag to Webwinder Path.|TAXI|-Malaka'jin|FLY|OLD|
+R Malaka'jin|ACTIVE|26059|M|70.51,87.49|N|Follow Webwinder Path south to Malaka'jin.\n[color=FF0000]NOTE: [/color]Just go around the barricade.|TAXI|-Malaka'jin|FLY|OLD|
+R Malaka'jin|QID|26059|M|70.51,87.49|N|Fly to Malaka'jin.|TAXI|-Malaka'jin|IZ|-Malaka'jin|
+f Malaka'jin|ACTIVE|26059|M|70.61,89.46|N|Get the Malaka'jin FP from Zillane./n(Access to him is from a path in the western corner of the village)|TAXI|-Malaka'jin|
+T Eyes and Ears: Malaka'jin|QID|26059|M|71.11,91.23|N|To Witch Doctor Jin'Zil.|
+A Da Voodoo: Stormer Heart|QID|26060|M|71.11,91.23|N|From Witch Doctor Jin'Zil.|PRE|26059|RANK|1|
+A Da Voodoo: Ram Horns|QID|26061|M|71.11,91.23|QO|1|N|From Witch Doctor Jin'Zil.|PRE|26059|RANK|1|
+A Fight On Their Stomachs|QID|26064|M|72.05,91.20|N|From Denni'ka.|PRE|26059|RANK|2|
+l Da Voodoo: Stormer Heart|QID|26060|M|69.07,86.03|QO|1|N|Kill and loot it from a stormer.|S|
+l Da Voodoo: Ram Horns|QID|26061|M|65.32,85.77|QO|1|N|Kill and loot rams.|S|
+l Fight On Their Stomachs|QID|26064|M|64.17,89.53|QO|1|N|The eggs come from nests on the ground in Boulderslide Ravine.|S|
+R Boulderslide Ravine|ACTIVE|26060^26061^26064|N|Follow Webwinder Path west to the first sign post and continue along the south road.|FLY|OLD|
+l Fight On Their Stomachs|QID|26064|M|64.17,89.53|QO|1|N|The eggs come from nests on the ground in Boulderslide Ravine.|US|
+A The Queen and Her Court|QID|26063|M|64.92,82.60|N|From Darn Talongrip, at the road block halfway between Krom'gar and Malaka'jin.|RANK|3|
+R Webwinder Hollow|ACTIVE|26063|M|59.27,73.93|N|Make your west along Webwinder Path until you see spiders. The entrance to Webwinder Hollow is to the left of the road.|FLY|OLD|
+K ...and Her Court|ACTIVE|26063|M|59.73,74.01|QO|2|N|Kill the little spiders. Not the critter ones...!|S|
+K The Queen|ACTIVE|26063|M|57.96,72.98|QO|1|N|Kill Queen Silith. She paths around the outer edge of the area.|
+K ...and Her Court|ACTIVE|26063|M|59.73,74.01|QO|2|N|Kill the little spiders. Not the critter ones...!|US|
+l Da Voodoo: Ram Horns|QID|26061|M|65.32,85.77|QO|1|N|Kill and loot rams.|US|
+l Da Voodoo: Stormer Heart|QID|26060|M|69.07,86.03|QO|1|N|Kill and loot it from a Stormer.|
+T The Queen and Her Court|QID|26063|M|64.92,82.60|N|To Darn Talongrip.|
+R Malaka'jin|ACTIVE|26060^26061^26064|M|70.51,87.49|N|Return to Malaka'jin.|FLY|OLD|
 T Da Voodoo: Stormer Heart|QID|26060|M|71.13,91.20|N|To Witch Doctor Jin'Zil, back at Malaka'jin.|
 T Da Voodoo: Ram Horns|QID|26061|M|71.13,91.20|N|To Witch Doctor Jin'Zil.|
 A Da Voodoo: Resonite Crystal|QID|26062|M|71.13,91.20|N|From Witch Doctor Jin'Zil.|PRE|26060&26061|RANK|1|
-A Reinforcements...|QID|26066|M|71.15,91.15|N|From Subjugator Devo.|PRE|26060&26061|RANK|1|
+A Reinforcements...|QID|26066|M|71.17,91.10|N|From Subjugator Devo.|PRE|26060&26061|RANK|1|
 T Fight On Their Stomachs|QID|26064|M|71.98,91.27|N|To Denni'ka.|
-C Da Voodoo: Resonite Crystal|QID|26062|M|59.78,88.81|N|Loot crystals by right-clicking them.|S|NC|
+l Da Voodoo: Resonite Crystal|QID|26062|M|59.78,88.81|QO|1|N|Loot crystals by right-clicking them.|S|
 C Reinforcements...|QID|26066|M|65.11,88.33;62.07,89.29;60.17,87.05|CS|N|Use the whip on kobolds. If it doesn't work the first time, you can keep using it until the kobold becomes under your control.|U|56794|
-C Da Voodoo: Resonite Crystal|QID|26062|M|59.78,88.81|N|Loot crystals by right-clicking them.|US|NC|
-T Reinforcements...|QID|26066|M|71.12,91.15|N|To Subjugator Devo.|
-A Kobold Fury!|QID|26068|M|71.12,91.15|N|From Subjugator Devo.|PRE|26066|RANK|1|
-T Da Voodoo: Resonite Crystal|QID|26062|M|71.12,91.15|N|To Witch Doctor Jin'Zil.|
-A Jin'Zil's Blessing|QID|26067|M|71.12,91.15|N|From Witch Doctor Jin'Zil.|PRE|26062|RANK|1|
+l Da Voodoo: Resonite Crystal|QID|26062|M|59.78,88.81|QO|1|N|Loot crystals by right-clicking them.|US|
+T Reinforcements...|QID|26066|M|71.17,91.10|N|To Subjugator Devo.|
+A Kobold Fury!|QID|26068|M|71.17,91.10|N|From Subjugator Devo.|PRE|26066|RANK|1|
+T Da Voodoo: Resonite Crystal|QID|26062|M|71.13,91.20|N|To Witch Doctor Jin'Zil.|
+A Jin'Zil's Blessing|QID|26067|M|71.13,91.20|N|From Witch Doctor Jin'Zil.|PRE|26062|RANK|1|
 C Jin'Zil's Blessing|QID|26067|M|79.67,83.49|N|Use the voodoo stick on the Marauders.|T|Krom'gar Marauders|U|56798|S|NC|
 C Kobold Fury!|QID|26068|M|79.22,81.38;79.09,78.25;73.90,78.40|CS|N|Use the horn at the horde banner in the Unearthed Grounds.|U|56799|NC|
 C Jin'Zil's Blessing|QID|26067|M|79.67,83.49|N|Use the voodoo stick on the Marauders.|T|Krom'gar Marauders|U|56798|NC|US|
 T Kobold Fury!|QID|26068|M|71.18,91.08|N|To Subjugator Devo, back in Malaka'jin.|
 T Jin'Zil's Blessing|QID|26067|M|71.11,91.19|N|To Witch Doctor Jin'Zil.|
 A All's Quiet on the Southern Front|QID|26073|M|71.11,91.19|N|From Witch Doctor Jin'Zil.|PRE|26067&26068|RANK|1|
-A Nura Pathfinder|QID|26069|M|71.11,91.19|N|From Witch Doctor Jin'Zil. Take this quest if you plan on going to Southern Barrens.|LEAD|24504|
+A Nura Pathfinder|QID|26069|M|71.11,91.19|N|From Witch Doctor Jin'Zil.\n[color=FF0000]NOTE: [/color]Take this quest if you plan on going to Southern Barrens.|LEAD|24504|
 H Krom'gar Fortress|QID|26073|M|66.54,62.80|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T All's Quiet on the Southern Front|QID|26073|M|66.14,63.75|N|To Overlord Krom'gar.|
 A Beginning of the End|QID|26074|M|66.20,63.64|N|From Overlord Krom'gar.|PRE|26073|RANK|1|
-B Quartermaster|QID|26074|M|65.85,64.12|N|You've gone up a rank in the Krom'gar army! Check and see if there's anything you want at the quartermaster before moving on.|
+r Quartermaster|QID|26074|M|65.85,64.12|N|You've gone up a rank in the Krom'gar army! Check and see if there's anything you want at the quartermaster before moving on.|
 R Sludgeworks|ACTIVE|26074|M|66.65,63.62|N|Hop on the balloon and ride it to the Sludgeworks.|V|
 T Beginning of the End|QID|26074|M|52.93,39.18|N|To Jibbly Rakit.|
 A The Turd Problem|QID|26075|M|52.93,39.18|N|From Jibbly Rakit.|PRE|26074|RANK|1|
@@ -151,6 +161,7 @@ A To Be Horde...|QID|26115|M|45.63,34.17|N|From Overlord Krom'gar.|PRE|26101|RAN
 C To Be Horde...|QID|26115|M|45.58,34.17|N|Just enjoy the event.|NC|
 T To Be Horde...|QID|26115|M|45.58,34.17|N|To High Chieftain Cliffwalker. Congrats on some nice gear! You can get more gear from the quartermaster now as well.|
 A Nothing Left for You Here|QID|26134|M|45.54,33.80|N|From High Chieftain Cliffwalker. Pick this up if you'd like to go to Desolace next.|PRE|26115|
+K Cragjaw|ACTIVE|26043|M|65.52,47.31|QO|1|N|This is your last to take on Cragjaw. Head into Cragpool Lake and swim over to him. He swims in a circle in the northeast corner of the lake.\n[color=FF0000]NOTE: [/color]Feel free to abandon this quest if it's too hard and you can't find someone to help you.|
 N Zone Choice - Desolace or Southern Barrens|QID|26134|N|You now have the choice of which zone to go to next. If you chose Desolace, open the guide list and select that zone. Otherwise, the guide will automatically continue to the Southern Barrens. Both are great zones, so just pick one!|
 ]]
 end)
