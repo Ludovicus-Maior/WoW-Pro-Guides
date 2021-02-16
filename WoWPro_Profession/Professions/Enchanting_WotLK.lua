@@ -5,7 +5,7 @@
 local guide = WoWPro:RegisterGuide("BlancENCH_WotLK","Profession","Enchanting_WotLK", "Blanckaert", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",333)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Enchanting_Northrend)
+WoWPro:GuideName(guide, "Enchanting_Northrend")
 WoWPro:GuideNickname(guide, "ENCH_WotLK")
 WoWPro:GuideSteps(guide, function()
 return [[
