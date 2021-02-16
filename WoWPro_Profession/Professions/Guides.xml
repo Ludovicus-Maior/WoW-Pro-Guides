@@ -9,7 +9,6 @@
 	<Script file="Alchemy_LEG.lua"/>
 	<Script file="Alchemy_BfA.lua"/>
 	<Script file="Alchemy_SL.lua"/>
-	<Script file="Blacksmithing.lua"/>
 	<Script file="Blacksmithing_HUB.lua"/>
 	<Script file="Blacksmithing_VAN.lua"/>
 	<Script file="Blacksmithing_OUT.lua"/>
@@ -20,6 +19,15 @@
 	<Script file="Blacksmithing_LEG.lua"/>
 	<Script file="Blacksmithing_BfA.lua"/>
 	<Script file="Blacksmithing_SL.lua"/>
+	<Script file="Enchanting_HUB.lua"/>
+	<Script file="Enchanting_VAN.lua"/>
+	<Script file="Enchanting_OUT.lua"/>
+	<Script file="Enchanting_WotLK.lua"/>
+	<Script file="Enchanting_Cata.lua"/>
+	<Script file="Enchanting_MoP.lua"/>
+	<Script file="Enchanting_WoD.lua"/>
+	<Script file="Enchanting_LEG.lua"/>
+	<Script file="Enchanting_BfA.lua"/>
 	<Script file="Enchanting_SL.lua"/>
 	<Script file="Engineering_SL.lua"/>
 	<Script file="Enchanting.lua"/>

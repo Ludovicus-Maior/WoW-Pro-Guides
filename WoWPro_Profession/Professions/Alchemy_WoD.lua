@@ -18,11 +18,11 @@ return [[
 ; 	 IE learn 2 at lvl 15 |171000151| and |171000152|  // |RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion]
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Updated to Pandaria splits / new format on 8-Feb-2021 by Blanckaert
+;  Updated to Warlods of Draenor splits / new format on 8-Feb-2021 by Blanckaert
 
 N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide|QID|171000001|N|Covers what Blizzard now terms Draenor Plans, content of Warlord of Draenor 1-75\nAlso ASSUMES you have the appropriate Skill|
+N This Guide|QID|171000001|N|Covers what Blizzard now terms Draenor Plans, content of Warlord of Draenor 1-100\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|171000004|N|The next few lines are going to be an approximate amount of mats you need to complete Alchemy 1 to 75, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
@@ -32,7 +32,7 @@ l [item=109126/Gorgrond Flytrap]|QID|171109126|L|109126 342|ITEM|109126|N|You'll
 l [item=109128/Nagrand Arrowbloom]|QID|171109128|L|109128 180|ITEM|109128|N|You'll need about 180 Nagrand Arrowbloom.|
 B [item=3371/Crystal Vial]|QID|171003371|L|3371 100|ITEM|3371|N|You'll need about 100 Crystal Vials.|
 
-U [item=109558/A Treatise on the Alchemy of Draenor]|QID|171264247|SPELL|Draenor Alchemy;264247|U|109558|N|You need to buy from a Vendor in Ashran, complete a Quest Chain, or Build the The Forge in your Garrison to Learn Draenor Alchemy.|
+U [item=109558/A Treatise on the Alchemy of Draenor]|QID|171264247|SPELL|Draenor Alchemy;264247|U|109558|N|You need to buy from a Vendor in Ashran, complete a Quest Chain, or Build the Alchemy Lab in your Garrison to Learn Draenor Alchemy.|
 
 M [item=118700/Secrets of Draenor Alchemy]|QID|171175880|P|Alchemy;171;5+2;1|ITEM|118700|CRAFT|175880 1|MATS|109124 5|
 B [spell=156564/Draenic Strength Flask]|QID|171156564|M|60.8,27.4|Z|Warspear|P|Alchemy;171;*;0;0|RECIPE|156564|T|Joshua Alvarez|N|Use the [item=118700/Secret of Draenor Alchemy] to Purchase [item=109148/Draenic Strength Flask]|FACTION|Horde|
@@ -40,6 +40,6 @@ B [spell=156564/Draenic Strength Flask]|QID|171156564|M|36.6,69.6|Z|Stormshield|
 M [item=109222/Draenic Mana Potion]|QID|171156582|P|Alchemy;171;5+55;1|ITEM|109222|CRAFT|156582 54|MATS|109126 3;3371 1|
 M [item=109148/Draenic Strength Flask]|QID|171156564|P|Alchemy;171;5+100;1|ITEM|109148|CRAFT|156564 45|MATS|109128 4;109126 4;3371 1|
 
-N Congratualations!|QID|171000010|N|On reaching 75 in Draenor Alchemy.|
+N Congratualations!|QID|171000010|N|On reaching 100 in Draenor Alchemy.|
 ]]
 end)
