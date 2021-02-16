@@ -587,11 +587,11 @@ C Flight Test|QID|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|CHAT|N|Tell Kowa
 C Flight Test|QID|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|NC|N|Wait and observe.|
 T Flight Test|QID|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
 A More Wings!|QID|59348|PRE|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
-A Strings and Things|QID|59351|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
+A Strings and Things|QID|59351|PRE|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
 C Strings and Things|QID|59351|M|47.79,47.22|Z|Bastion!The Shadowlands|S|N|While you can find these up in the nearby Garden of Edenia, I recomend running thru firstborne bounty and out the other side to a much better spawning place. Kill Etherwyrms and collect their Filaments.|
-C More Wings!|QID|59348|PRE|60660|M|47.79,47.22|Z|Bastion!The Shadowlands|NC|N|Collect Animyllis Blooms as you run towards the Etherwyrms.|
+C More Wings!|QID|59348|M|47.79,47.22|Z|Bastion!The Shadowlands|NC|N|Collect Animyllis Blooms as you run towards the Etherwyrms.|
 C Strings and Things|QID|59351|M|47.79,47.22|Z|Bastion!The Shadowlands|US|N|Kill Etherwyrms and collect their Filaments.|
-T More Wings!|QID|59348|PRE|60660|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
+T More Wings!|QID|59348|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
 T Strings and Things|QID|59351|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
 A How to Catch a Glimmerfly|QID|59311|PRE|59348&59351|M|42.83,42.73|Z|Bastion!The Shadowlands|N|From Kowalskos.|RANK|2|
 C How to Catch a Glimmerfly|QID|59311|M|41.11,29.75|Z|Bastion!The Shadowlands|U|176812|NC|N|Set out the flower and then click to capture Starving Glimmerflies in the Shimmering Pools.|
