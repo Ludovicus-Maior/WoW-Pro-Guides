@@ -6,7 +6,7 @@ local guide = WoWPro:RegisterGuide("BlancENCH_SL","Profession","Enchanting_SL", 
 WoWPro:GuideIcon(guide,"PRO",333)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Enchanting_ShadowLands")
-WoWPro:GuideNickname(guide, "Ench_SL")
+WoWPro:GuideNickname(guide, "ENCH_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -21,7 +21,7 @@ return [[
 
 ;  Typed update to SL splits on 27-Nov-2020 by Blanckaert - Tested to skill point 74
 
-; N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|333000001|N|Currently in Development, This Guide covers SHADOWLANDS content in Retail.|
 N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|

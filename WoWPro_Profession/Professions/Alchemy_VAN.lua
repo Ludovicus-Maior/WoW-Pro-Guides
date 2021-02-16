@@ -22,9 +22,8 @@ return [[
 
 ; N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide covers VANILLA content in Retail only.|QID|171000001|N|Guide rewritten to new format.|
+N This Guide|QID|171000001|N|Covers VANILLA content in Retail only. Guide rewritten to new format.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
-N Herbalist|P|Herbalism;182;0;0|N|If you are a herbalist, running around for these mats will level you up, currently no guide in the works for herbalism|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 
 N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
