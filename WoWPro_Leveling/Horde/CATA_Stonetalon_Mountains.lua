@@ -89,10 +89,10 @@ R Webwinder Path|ACTIVE|26059|M|60.96,71.09|N|Take the west ramp down and follow
 R Malaka'jin|ACTIVE|26059|M|70.51,87.49|N|Follow Webwinder Path south to Malaka'jin.\n[color=FF0000]NOTE: [/color]Just go around the barricade.|TAXI|-Malaka'jin|FLY|OLD|
 R Malaka'jin|QID|26059|M|70.51,87.49|N|Fly to Malaka'jin.|TAXI|-Malaka'jin|IZ|-Malaka'jin|
 f Malaka'jin|ACTIVE|26059|M|70.61,89.46|N|Get the Malaka'jin FP from Zillane./n(Access to him is from a path in the western corner of the village)|TAXI|-Malaka'jin|
-T Eyes and Ears: Malaka'jin|QID|26059|M|71.11,91.23|N|To Witch Doctor Jin'Zil.|
-A Da Voodoo: Stormer Heart|QID|26060|M|71.11,91.23|N|From Witch Doctor Jin'Zil.|PRE|26059|RANK|1|
-A Da Voodoo: Ram Horns|QID|26061|M|71.11,91.23|QO|1|N|From Witch Doctor Jin'Zil.|PRE|26059|RANK|1|
-A Fight On Their Stomachs|QID|26064|M|72.05,91.20|N|From Denni'ka.|PRE|26059|RANK|2|
+T Eyes and Ears: Malaka'jin|QID|26059|M|71.12,91.23|N|To Witch Doctor Jin'Zil.|
+A Da Voodoo: Stormer Heart|QID|26060|M|71.12,91.23|N|From Witch Doctor Jin'Zil.|PRE|26059|RANK|1|
+A Da Voodoo: Ram Horns|QID|26061|M|71.12,91.23|QO|1|N|From Witch Doctor Jin'Zil.|PRE|26059|RANK|1|
+A Fight On Their Stomachs|QID|26064|M|72.04,91.20|N|From Denni'ka.|PRE|26059|RANK|2|
 l Da Voodoo: Stormer Heart|QID|26060|M|69.07,86.03|QO|1|N|Kill and loot it from a stormer.|S|
 l Da Voodoo: Ram Horns|QID|26061|M|65.32,85.77|QO|1|N|Kill and loot rams.|S|
 l Fight On Their Stomachs|QID|26064|M|64.17,89.53|QO|1|N|The eggs come from nests on the ground in Boulderslide Ravine.|S|
@@ -107,25 +107,27 @@ l Da Voodoo: Ram Horns|QID|26061|M|65.32,85.77|QO|1|N|Kill and loot rams.|US|
 l Da Voodoo: Stormer Heart|QID|26060|M|69.07,86.03|QO|1|N|Kill and loot it from a Stormer.|
 T The Queen and Her Court|QID|26063|M|64.92,82.60|N|To Darn Talongrip.|
 R Malaka'jin|ACTIVE|26060^26061^26064|M|70.51,87.49|N|Return to Malaka'jin.|FLY|OLD|
-T Da Voodoo: Stormer Heart|QID|26060|M|71.13,91.20|N|To Witch Doctor Jin'Zil, back at Malaka'jin.|
-T Da Voodoo: Ram Horns|QID|26061|M|71.13,91.20|N|To Witch Doctor Jin'Zil.|
-A Da Voodoo: Resonite Crystal|QID|26062|M|71.13,91.20|N|From Witch Doctor Jin'Zil.|PRE|26060&26061|RANK|1|
-A Reinforcements...|QID|26066|M|71.17,91.10|N|From Subjugator Devo.|PRE|26060&26061|RANK|1|
-T Fight On Their Stomachs|QID|26064|M|71.98,91.27|N|To Denni'ka.|
+T Da Voodoo: Stormer Heart|QID|26060|M|71.12,91.23|N|To Witch Doctor Jin'Zil, back at Malaka'jin.|
+T Da Voodoo: Ram Horns|QID|26061|M|71.12,91.23|N|To Witch Doctor Jin'Zil.|
+A Da Voodoo: Resonite Crystal|QID|26062|M|71.12,91.23|N|From Witch Doctor Jin'Zil.|PRE|26060&26061|RANK|1|
+A Reinforcements...|QID|26066|M|71.17,91.12|N|From Subjugator Devo.|PRE|26060&26061|RANK|1|
+T Fight On Their Stomachs|QID|26064|M|72.04,91.20|N|To Denni'ka.|
 l Da Voodoo: Resonite Crystal|QID|26062|M|59.78,88.81|QO|1|N|Loot crystals by right-clicking them.|S|
-C Reinforcements...|QID|26066|M|65.11,88.33;62.07,89.29;60.17,87.05|CS|N|Use the whip on kobolds. If it doesn't work the first time, you can keep using it until the kobold becomes under your control.|U|56794|
+R Boulderslide Cavern|ACTIVE|26062^26066|M|62.38,89.58|N|Head back to Boulderslide Ravine and go all the way to the end of it.|
+C Reinforcements...|QID|26066|M|58.78,86.61|N|Use the whip on kobolds. If it doesn't work the first time, you can keep using it until the kobold becomes under your control.|U|56794|NC|
 l Da Voodoo: Resonite Crystal|QID|26062|M|59.78,88.81|QO|1|N|Loot crystals by right-clicking them.|US|
-T Reinforcements...|QID|26066|M|71.17,91.10|N|To Subjugator Devo.|
-A Kobold Fury!|QID|26068|M|71.17,91.10|N|From Subjugator Devo.|PRE|26066|RANK|1|
-T Da Voodoo: Resonite Crystal|QID|26062|M|71.13,91.20|N|To Witch Doctor Jin'Zil.|
-A Jin'Zil's Blessing|QID|26067|M|71.13,91.20|N|From Witch Doctor Jin'Zil.|PRE|26062|RANK|1|
+T Reinforcements...|QID|26066|M|71.17,91.12|N|Exit Boulderslide Cavern and return to Subjugator Devo in Malaka'jin.|
+A Kobold Fury!|QID|26068|M|71.17,91.12|N|From Subjugator Devo.|PRE|26066|RANK|1|
+T Da Voodoo: Resonite Crystal|QID|26062|M|71.12,91.23|N|To Witch Doctor Jin'Zil.|
+A Jin'Zil's Blessing|QID|26067|M|71.12,91.23|N|From Witch Doctor Jin'Zil.|PRE|26062|RANK|1|
 C Jin'Zil's Blessing|QID|26067|M|79.67,83.49|N|Use the voodoo stick on the Marauders.|T|Krom'gar Marauders|U|56798|S|NC|
+R Unearthed Grounds|ACTIVE|26068|M|71.12,91.23|N|The path to Unearthed Grounds is located at the dead end on the other side of Grimtotem Post.|FLY|OLD|
 C Kobold Fury!|QID|26068|M|79.22,81.38;79.09,78.25;73.90,78.40|CS|N|Use the horn at the horde banner in the Unearthed Grounds.|U|56799|NC|
 C Jin'Zil's Blessing|QID|26067|M|79.67,83.49|N|Use the voodoo stick on the Marauders.|T|Krom'gar Marauders|U|56798|NC|US|
 T Kobold Fury!|QID|26068|M|71.18,91.08|N|To Subjugator Devo, back in Malaka'jin.|
-T Jin'Zil's Blessing|QID|26067|M|71.11,91.19|N|To Witch Doctor Jin'Zil.|
-A All's Quiet on the Southern Front|QID|26073|M|71.11,91.19|N|From Witch Doctor Jin'Zil.|PRE|26067&26068|RANK|1|
-A Nura Pathfinder|QID|26069|M|71.11,91.19|N|From Witch Doctor Jin'Zil.\n[color=FF0000]NOTE: [/color]Take this quest if you plan on going to Southern Barrens.|LEAD|24504|
+T Jin'Zil's Blessing|QID|26067|M|71.12,91.23|N|To Witch Doctor Jin'Zil.|
+A All's Quiet on the Southern Front|QID|26073|M|71.12,91.23|N|From Witch Doctor Jin'Zil.|PRE|26067&26068|RANK|1|
+A Nura Pathfinder|QID|26069|M|71.12,91.23|N|From Witch Doctor Jin'Zil.\n[color=FF0000]NOTE: [/color]Take this quest if you plan on going to Southern Barrens.|LEAD|24504|
 H Krom'gar Fortress|QID|26073|M|66.54,62.80|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T All's Quiet on the Southern Front|QID|26073|M|66.14,63.75|N|To Overlord Krom'gar.|
 A Beginning of the End|QID|26074|M|66.20,63.64|N|From Overlord Krom'gar.|PRE|26073|RANK|1|
