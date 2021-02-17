@@ -42,9 +42,9 @@ B [item=4470/Simple Wood]|QID|33300470|L|4470 10|ITEM|4470|N|You'll need to purc
 B [item=38682/Enchanting Vellum]|QID|333038682|L|38682 315|ITEM|38682|N|You'll need at least 315 Enchanting Vellums.|
 N Couple Recipes to Buy|QID|333000006|N|There are a couple recipes to go buy, that you'll need for later.|
 B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|35.0,52.0|Z|Ashenvale|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Dalria in Astranaar, Ashenvale|FACTION|Alliance|
-B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|48.6,61.6|Z|Stonetalon Mountain|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Kulwia in Sun Rock Retreat, Stonetalon Mountains|FACTION|Horde|
+B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|48.6,61.6|Z|Stonetalon Mountains|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Kulwia in Sun Rock Retreat, Stonetalon Mountains|FACTION|Horde|
 B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|35.0,52.0|Z|Ashenvale|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Dalria in Astranaar, Ashenvale|FACTION|Alliance|
-B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|48.6,61.6|Z|Stonetalon Mountain|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Kulwia in Sun Rock Retreat, Stonetalon Mountains|FACTION|Horde|
+B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|48.6,61.6|Z|Stonetalon Mountains|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Kulwia in Sun Rock Retreat, Stonetalon Mountains|FACTION|Horde|
 B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|64.8,38.2|Z|Undercity|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Daniel Bartlett in Undercity, with your Enchanter!** Find NPC in Tirisfal Glades to Visit Old Undercity **|FACTION|Horde|
 B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|58.2,35.0|Z|Darnassus|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Mythrin'dir in Old Darnassus, with your Enchanter! ** Find Zidormi in Darkshore to Visit Old Darnassus. **|FACTION|Alliance|
 
