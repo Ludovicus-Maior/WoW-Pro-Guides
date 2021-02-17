@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Blackfathom Deeps', 'Leveling', 'Ashenvale', 'Hendo72', 'Horde')
 WoWPro:GuideName(guide,"Blackfathom Deeps")
 WoWPro:GuideNickname(guide, "Blackfathom Deeps")
-WoWPro:GuideContent(guide, "Dungeon")
+WoWPro:GuideContent(guide, 1)
 WoWPro:GuideLevels(guide,1, 50)
 WoWPro:GuideNextGuide(guide, 'Ashenvale')
 WoWPro:GuideSteps(guide, function()
