@@ -783,7 +783,7 @@ local function createBlizzOptions()
                         end
                     end
             },
-            arank = {
+            grank = {
                 order = 25,
                 type = "range",
                 name = L["Global Rank (Difficulty/Completeness)"],
@@ -794,7 +794,21 @@ local function createBlizzOptions()
                     if WoWProDB.char.currentguide and WoWProCharDB.Guide[WoWProDB.char.currentguide] then
                         WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
                     end
-                    WoWPro.UpdateGuide("Config: Rank") end,
+                    WoWPro.UpdateGuide("Config: GRank") end,
+                width = "double"
+            },
+            trank = {
+                order = 26,
+                type = "range",
+                name = L["Toon Rank (Difficulty/Completeness)"],
+                desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
+                min = 1, max = 3, step = 1,
+                get = function(info) return WoWProCharDB.Rank[1] end,
+                set = function(info,val) WoWProCharDB.Rank[1] = val
+                    if WoWProDB.char.currentguide and WoWProCharDB.Guide[WoWProDB.char.currentguide] then
+                        WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
+                    end
+                    WoWPro.UpdateGuide("Config: TRank") end,
                 width = "double"
             },
             header4 = {
