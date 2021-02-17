@@ -27,7 +27,7 @@ $ Sophia's Gift|QID|58319|M|51.75,68.84|Z|Bastion!The Shadowlands|N|Treasure for
 $ Purifying Draught|QID|58329|M|52.04,86.08|Z|Bastion!The Shadowlands|N|One of the treasures of Bastion.|ITEM|174007|ACH|14311;3|
 $ Vesper of Virtues|QID|62841^60478|M|58.66,71.39|Z|Bastion!The Shadowlands|N|Treasure is an item that buffs and gives small Heal.|ITEM|179982|ACH|14311;2|
 $ Lost Disciple's Notes|QID|61048|M|59.33,60.92|Z|Bastion!The Shadowlands|N|Treasure for you. Midway down waterfall on a rock.|ACH|14311;4|
-A You'll Never Walk Alone|QID|62170|M|59.33,60.92|Z|Bastion!The Shadowlands|N|From Lost Disciple's Notes found midway down waterfall.|O|182693|;$
+A You'll Never Walk Alone|QID|62170|M|59.33,60.92|Z|Bastion!The Shadowlands|N|From Lost Disciple's Notes found midway down waterfall.|O|U|182693|;$
 t You'll Never Walk Alone|QID|62170|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep at Hero's Rest|IZ|Hero's Rest|
 $ Stolen Equipment|QID|61044|M|40.51,49.81|Z|Bastion!The Shadowlands|N|Click for another of the treasures of Bastion.|ACH|14311;6|
 $ Larion Tamer's Harness|QID|61049|M|58.23,39.97|Z|Bastion!The Shadowlands|N|Treasure for your enjoyment.|ACH|14311;5|
@@ -119,17 +119,17 @@ $ Dessiccated Moth 1|QID|61147|L|180784|M|48.74,33.78|Z|Ardenweald!The Shadowlan
 $ Dessiccated Moth 2|M|41.9,32.5|Z|Ardenweald!The Shadowlands|N|Step on jumping mushroom, land in tree branches and click on the brazier to burn the flowers. Moth comes close and you can pick up.|ITEM|180640|ACH|14313;10|
 $ Enchanted Dreamcatcher 1|QID|62259|M|37.08,29.65|Z|Ardenweald!The Shadowlands|N|Pick up the silk shooter off the ground beside Artisan Rees.|BUFF|325637|;dont know if this is available if not on nearby quest? (60063/60064)
 $ Enchanted Dreamcatcher 2|QID|62259|M|38.46,25.10|Z|Ardenweald!The Shadowlands|N|Use the silkshooter to help climb the roots.|ITEM|183129|L|183129|EAB|ACH|14313;12|;ACH doesn't complete till you turn in the quest.
-A Anima-Laden Dreamcatcher|QID|62259|M|38.46,25.10|Z|Ardenweald!The Shadowlands|N|From item just picked up.|O|183129|
+A Anima-Laden Dreamcatcher|QID|62259|M|38.46,25.10|Z|Ardenweald!The Shadowlands|N|From item just picked up.|O|U|183129|
 t Anima-Laden Dreamcatcher|QID|62259|M|38.17,36.75|Z|Ardenweald!The Shadowlands|N|To Droman Dawnblossom in Dreamsong Fenn.|
 $ Cache of the Night|CS|M|51.6,61.6;42.4,46.7;37.0,29.8;36.0,66.5|Z|Ardenweald!The Shadowlands|N|WH - need to loot 3 items at each Coord, Craft Dreamcatcher to break barrier on treasure at last Coord.|ITEM|171225|ACH|14313;14|
 $ Harmonic Chest|QID|61165|M|68.01,34.62|Z|Ardenweald!The Shadowlands|N|This takes two people of the same faction, one to channel playing the fae drum and one to channel playing the fae harp, which unlocks the Harmonic chest for some treasure.|ACH|14313;6|
 $ Swollen Anima Seed|QID|62186|M|76.65,29.76|Z|Ardenweald!The Shadowlands|N|In a niche in tree trunk.|ACH|14313;4|ITEM|182730|L|182730|
-A Swollen Anima Seed|QID|62186|M|76.65,29.76|Z|Ardenweald!The Shadowlands|N|From the Swollen Anima Seed at the base of a tree.|O|182730|ACH|14313;4|;$
+A Swollen Anima Seed|QID|62186|M|76.65,29.76|Z|Ardenweald!The Shadowlands|N|From the Swollen Anima Seed at the base of a tree.|O|U|182730|ACH|14313;4|;$
 t Swollen Anima Seed|QID|62186|M|63.52,36.21|Z|Ardenweald!The Shadowlands|N|To Droman Tashmur.|ACH|14313;4|
 $ Ancient Cloudfeather Egg|QID|61065|CS|M|52.60,37.88;52.97,37.31|Z|Ardenweald!The Shadowlands|N|Take the path right behind Ara'lon up the hill, across the top of a waterfall and out on a root to find the Ancient Cloudfeather Egg.|ITEM|180642|ACH|14313;3|
 $ Hearty Dragon Plume|QID|61067|CS|M|47.81,39.06;45.81,36.29;47.97,38.65;48.21,39.26|Z|Ardenweald!The Shadowlands|N|Up the path for a cool slowfall item. This requires jumping down the tree roots, so make sure you are at the right spot before jumping.|ITEM|182729|ACH|14313;7|
 $ Lost Satchel|QID|62187|M|48.19,20.39|Z|Ardenweald!The Shadowlands|N|Carefully, slowly, walk down the tree root to get this treasure. Turns in for a decent amount of xp. Return the same way you came down.|ITEM|182731|ACH|14313;2|
-A Satchel of Culexwood|QID|62187|M|48.19,20.39|Z|Ardenweald!The Shadowlands|N|From Lost Satchel hanging from a branch. Carefully, slowly, walk down the tree root to get this treasure. Turns in for a decent amount of xp. Return the same way you came down.|O|182731|
+A Satchel of Culexwood|QID|62187|M|48.19,20.39|Z|Ardenweald!The Shadowlands|N|From Lost Satchel hanging from a branch. Carefully, slowly, walk down the tree root to get this treasure. Turns in for a decent amount of xp. Return the same way you came down.|O|U|182731|
 t Satchel of Culexwood|QID|62127|M|48.05,24.39|Z|Ardenweald!The Shadowlands|N|To Fluttercatch.|
 $ Aerto|QID|61072|M|56.00,21.02|Z|Ardenweald!The Shadowlands|N|Check on Aerto, the Fallen Ranger, after picking up the treasure the Stellerwasps in the area attack.|ITEM|180630|ACH|14313;1|
 $ Faerie Trove|QID|61073|M|49.72,55.89|Z|Ardenweald!The Shadowlands|N|Basket with pet is around and underneath platform(treestump).|ITEM|182673|ACH|14313;5|
@@ -169,7 +169,7 @@ $ Gilded Plum Chest|M|46.42,58.12|Z|Revendreth|N|'Greedy Soul' paths down road, 
 $ Stylish Parasol|QID|61999|CS|M|42.04,47.03;38.63,44.36|Z|Revendreth|N|Treasure on Castle Wall, use elevator at 1st Coords. NOTE, toy has a casting time unlike most slowfall items.|ITEM|182694|ACH|14314;2|
 $ Rapier of the Fearless|QID|61546^62156|M|79.9,37.0|Z|Revendreth|N|Directly above Boian - North-East of Halls of Atonement FP, after picking up it becomes animated, kill it and the other mobs to loot.|ITEM|182689|ACH|14314;4|
 $ Forbidden Chamber|QID|62443|M|47.57,55.45|Z|Revendreth|N|Pick up the Anima Canister outside the locked door, use it on the 5 silent watchers around the area, then use the filled container to open the door|EAB|ITEM|184075|ACH|14314;8|
-$ Fleeing Soul's Bundle|QID|59886|M|CS|44.30,57.69;46.42,58.12|Z|Revendreth|N|On wall above Stalker's Lodge. Start at first point, run along roof of the ruins to the treasure.|ACH|14314;14|
+$ Fleeing Soul's Bundle|QID|59886|M|44.30,57.69;46.42,58.12|CS|Z|Revendreth|N|On wall above Stalker's Lodge. Start at first point, run along roof of the ruins to the treasure.|ACH|14314;14|
 $ Chest of Envious Dreams|QID|59833|M|69.28,78.08|Z|Revendreth|N|Mobs will appear and attack after you open.|ITEM|179393|ACH|14314;10|
 $ Filcher's Prize|QID|59883|M|64.21,72.76|Z|Revendreth|N|Just down from road, outside of Pridefall Hamlet. Two statues of stoneborn with treasure between them, upon looting treasure, one comes alive.|ITEM|179392|ACH|14314;11|
 $ Vrytha's Dredglaive|QID|62164|M|70.19,60.04|Z|Revendreth|N|Treasure located under the bridge.|ITEM|177807|ACH|14314;5|
