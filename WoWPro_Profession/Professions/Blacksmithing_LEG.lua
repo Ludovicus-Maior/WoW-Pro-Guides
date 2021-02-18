@@ -32,7 +32,7 @@ l [item=123918/Leystone Ore]|QID|164123918|L|123918 10|ITEM|123918|N|You'll need
 N Legion Profession Quests|QID|164000005|N|Before doing this guide it is recommened you do all the Legion Blacksmithing Quests.  They are all in the 'Legion Profession' Guide. Right Click this step to active the Jump step for that guide.  Once you are done with that guide, please manually switch back to this one.|
 N Legion Profession Quests|QID|164000006|JUMP|LEG_PROF|N|Before doing this guide it is recommened you do all the Legion Blacksmithing Quests.  They are all in the 'Legion Profession' Guide.|
 
-l [item=123919/Felslate]QID|164123919|L|123919 120|ITEM|123919|N|You'll need about 120 Felslate.|
+l [item=123919/Felslate]|QID|164123919|L|123919 120|ITEM|123919|N|You'll need about 120 Felslate.|
 l [item=123918/Leystone Ore]|QID|164123918|L|123918 60|ITEM|123918|N|You'll need about 60 Leystone Ores.|
 l [item=124124/Blood of Sargeras]|QID|164124124|L|124124 28|ITEM|124124|N|You'll need about 28 Blood of Sargeras.|
 l [item=124439/Unbroken Tooth]|QID|164124439|L|124439 20|ITEM|124439|N|You'll need about 20 Unbroken Tooth.|
