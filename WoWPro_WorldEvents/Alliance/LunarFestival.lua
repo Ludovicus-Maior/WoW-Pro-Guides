@@ -166,7 +166,7 @@ F Tower of Estulan|N|Fly to the Tower of Estulan.|QID|8685|M|36.75,71.69|Z|Desol
 A Mistwalker the Elder|N|From Mistwalker the Elder.|QID|8685|M|62.56,31.07|Z|Feralas|
 A Grimtotem the Elder|N|From Grimtotem the Elder.|QID|8679|M|76.70,37.90|Z|Feralas|
 F Cenarion Hold|N|Fly to Cenarion Hold.|QID|8719|M|77.2,56.8|Z|Feralas|
-F Zidormi|N|If you have finished the Antarus raid, you will need to talk to Zidormi before you can see the elders.|LVL|110|M|78.8,21.8|Z|Silithus|
+F Zidormi|N|If you have finished the Antarus raid, you will need to talk to Zidormi before you can see the elders.|M|78.8,21.8|Z|Silithus|
 A Bladesing the Elder|N|From Bladesing the Elder.|QID|8719|M|53.02,35.47|Z|Silithus|
 A Primestone the Elder|N|From Primestone the Elder.|QID|8654|M|30.80,13.31|Z|Silithus|
 

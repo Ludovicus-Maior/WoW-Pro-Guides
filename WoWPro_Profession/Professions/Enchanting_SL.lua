@@ -6,7 +6,7 @@ local guide = WoWPro:RegisterGuide("BlancENCH_SL","Profession","Enchanting_SL", 
 WoWPro:GuideIcon(guide,"PRO",333)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Enchanting_ShadowLands")
-WoWPro:GuideNickname(guide, "Ench_SL")
+WoWPro:GuideNickname(guide, "ENCH_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -21,7 +21,7 @@ return [[
 
 ;  Typed update to SL splits on 27-Nov-2020 by Blanckaert - Tested to skill point 74
 
-; N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|333000001|N|Currently in Development, This Guide covers SHADOWLANDS content in Retail.|
 N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|
@@ -61,7 +61,7 @@ M [item=172418/Enchant Chest - Eternal Bulwark]|QID|333309535|P|Enchanting;333;8
 = Learn Recipes|QID|333000751|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+75|RECIPE|309534|N|Learn [spell=309534/Eternal Agility] Recipe from Trainer.|
 = Learn Recipes|QID|333000752|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+75|RECIPE|309609|N|Learn [spell=309609/Eternal Intellect] Recipe from Trainer.|
 = Learn Recipes|QID|333000753|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+75|RECIPE|309526|N|Learn [spell=309526/Eternal Strength] Recipe from Trainer.|
-M [item=172419/Enchant Boots - Eternal Agility]|QID|333309534|P|Enchanting;333;8+80;1|ITEM|172419|CRAFT|309534 5|MATS|172232 1;172231 2|N|[color=FF0000]Alternates:[/color]\n[item=172415/Enchant Bracers - Eternal Intellect] or\n[item=172408/Enchant Gloves - Eternal Strength].|
+M [item=172419/Enchant Boots - Eternal Agility]|QID|333309534|P|Enchanting;333;8+80;1|ITEM|172419|CRAFT|309534 5|MATS|172232 1;172231 2|N|[color=FF0000]Alternates:[/color]\n[item=172415/Enchant Bracers - Eternal Intellect]\nor [item=172408/Enchant Gloves - Eternal Strength].|
 = Learn Recipes|QID|333000801|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+80|RECIPE|309616|N|Learn [spell=309616/Tenet of Critical Strike] Recipe from Trainer.|
 = Learn Recipes|QID|333000802|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+80|RECIPE|309617|N|Learn [spell=309617/Tenet of Haste] Recipe from Trainer.|
 = Learn Recipes|QID|333000803|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+80|RECIPE|309618|N|Learn [spell=309618/Tenet of Mastery] Recipe from Trainer.|
@@ -70,7 +70,7 @@ M [item=172361/Enchant Ring - Tenet of Critical Strike]|QID|333309616|P|Enchanti
 = Learn Recipes|QID|333000951|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+95|RECIPE|324773|N|Learn [spell=324773/Eternal Stats] Recipe from Trainer.|
 = Learn Recipes|QID|333000952|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+95|RECIPE|323760|N|Learn [spell=323760/Eternal Skirmish] Recipe from Trainer.|
 = Learn Recipes|QID|333000953|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+95|RECIPE|323761|N|Learn [spell=323761/Eternal Bounds] Recipe from Trainer.|
-M [item=177659/Enchant Chest - Eternal Skirmish]|QID|333323760|P|Enchanting;333;8+100;1|ITEM|177659|CRAFT|323760 5|MATS|172232 1;172231 2|N|[color=FF0000]Alternates:[/color] [item=177715/Enchant Chest - Eternal Bounds] or\n[item=177962/Enchant Chest - Stats].|
+M [item=177659/Enchant Chest - Eternal Skirmish]|QID|333323760|P|Enchanting;333;8+100;1|ITEM|177659|CRAFT|323760 5|MATS|172232 1;172231 2|N|[color=FF0000]Alternates:[/color] [item=177715/Enchant Chest - Eternal Bounds] or [item=177962/Enchant Chest - Stats].|
 = Learn Recipes|QID|333001001|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+100|RECIPE|309621|N|Learn [spell=309621/Eternal Grace] Recipe from Trainer.|
 = Learn Recipes|QID|333001002|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+100|RECIPE|309620|N|Learn [spell=309620/Lightless Force] Recipe from Trainer.|
 M [item=172367/Enchant Weapon - Eternal Grace]|QID|333309621|P|Enchanting;333;8+110;1|ITEM|172367|CRAFT|309621 5|MATS|172232 2;172231 3|N|[color=FF0000]Alternates:[/color] [item=172370/Enchant Weapon - Lightless Force].|
