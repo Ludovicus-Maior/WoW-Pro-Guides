@@ -52,7 +52,7 @@ M [item=152496/Demitris Draught of Deception]|QID|171252391|P|Alchemy;171;7+40;1
 = Learn Recipe|QID|171000401|P|Alchemy;171;7+40|RECIPE|252383|N|Learn [spell=252383/Coastal Healing Potion] Recipe, from Trainer.|
 = Learn Recipe|QID|171000402|P|Alchemy;171;7+40|RECIPE|252386|N|Learn [spell=252386/Coastal Mana Potion] Recipe, from Trainer.|
 B [item=162255/Recipe: Coastal Healing Potion] - Rank 3|QID|171000403|M|59.2,69.4|Z|Stormsong Valley|P|Alchemy;171;7+40|RECIPE|252384|T|Sister Lilyana|N|Purchase [spell=252384/Coastal Healing Potion] Recipe, from Sister Lilyana.|FACTION|Alliance|REP|Storm's Wake;2162;revered-exalted|
-B [item=162704/Recipe: Coastal Healing Potion] - Rank 3|QID|171000404|M|67.6,71.4|Z|The Great Seal|P|Alchemy;171;7+40|RECIPE|252384|T|Natal'Halata|N|Purchase [spell=252384/Coastal Healing Potion] Recipe, from Natal'Halata.|FACTION|Horde|REP|Zandalari Empire;2103;revered-exalted|
+B [item=162704/Recipe: Coastal Healing Potion] - Rank 3|QID|171000404|M|67.6,71.4|Z|The Great Seal!Dazar'alor|P|Alchemy;171;7+40|RECIPE|252384|T|Natal'Halata|N|Purchase [spell=252384/Coastal Healing Potion] Recipe, from Natal'Halata.|FACTION|Horde|REP|Zandalari Empire;2103;revered-exalted|
 M [item=152494/Coastal Healing Potion]|QID|171252383|P|Alchemy;171;7+40;1|ITEM|152494|CRAFT|252383 5|MATS|152509 2;3371 1|RECIPE|252384|
 M [item=152494/Coastal Healing Potion]|QID|171252383|P|Alchemy;171;7+58;1|ITEM|152494|CRAFT|252383 18|MATS|152509 2;3371 1|
 B [item=162254/Recipe: Coastal Mana Potion] - Rank 3|QID|171000405|M|67.50,21.60|Z|Boralus|P|Alchemy;171;7+40|RECIPE|252387|T|Provisioner Fray|N|Purchase [spell=252387/Coastal Mana Potion] Recipe, from Provisioner Fray.|FACTION|Alliance|REP|Proudmoore Admiralty;2160;revered-exalted|
