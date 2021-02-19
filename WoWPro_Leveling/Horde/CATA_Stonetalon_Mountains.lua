@@ -120,11 +120,11 @@ T Reinforcements...|QID|26066|M|71.17,91.12|N|Exit Boulderslide Cavern and retur
 A Kobold Fury!|QID|26068|M|71.17,91.12|N|From Subjugator Devo.|PRE|26066|RANK|1|
 T Da Voodoo: Resonite Crystal|QID|26062|M|71.12,91.23|N|To Witch Doctor Jin'Zil.|
 A Jin'Zil's Blessing|QID|26067|M|71.12,91.23|N|From Witch Doctor Jin'Zil.|PRE|26062|RANK|1|
-C Jin'Zil's Blessing|QID|26067|M|79.67,83.49|N|Use the voodoo stick on the Marauders.|T|Krom'gar Marauder|U|56798|S|NC|
-R Unearthed Grounds|ACTIVE|26068|M|71.12,91.23|N|The path to Unearthed Grounds is located at the dead end on the other side of Grimtotem Post.|FLY|OLD|
-C Kobold Fury!|QID|26068|M|79.22,81.38;79.09,78.25;73.90,78.40|CS|N|Use the horn at the horde banner in the Unearthed Grounds.|U|56799|NC|
-C Jin'Zil's Blessing|QID|26067|M|79.67,83.49|N|Use the voodoo stick on the Marauders.|T|Krom'gar Marauder|U|56798|US|NC|
-T Kobold Fury!|QID|26068|M|71.18,91.08|N|To Subjugator Devo, back in Malaka'jin.|
+C Jin'Zil's Blessing|QID|26067|M|79.67,83.49|N|Use the voodoo stick on the Marauders.\nYou'll find the Marauders in the area around Grimtotem Post and Camp Aparaje.|T|Krom'gar Marauder|U|56798|S|NC|
+R Unearthed Grounds|ACTIVE|26068|M|79.10,81.21;79.41,79.74|CC|N|The winding path/ramp to Unearthed Grounds is located at the dead end on the other side of Grimtotem Post. Climb to the top of it when you find it.|FLY|OLD|
+C Kobold Fury!|QID|26068|M|73.89,78.34|N|Use the horn at the Horde banner in the Unearthed Grounds.\n[color=FF0000]NOTE: [/color]Your <Use Item> keybind will not work for the horn at this point in time.|U|56799|NC|
+C Jin'Zil's Blessing|QID|26067|M|79.67,83.49|N|Use the voodoo stick on the Marauders.\nYou'll find the Marauders in the area around Grimtotem Post and Camp Aparaje.|T|Krom'gar Marauder|U|56798|US|NC|
+T Kobold Fury!|QID|26068|M|71.17,91.12|N|To Subjugator Devo, back in Malaka'jin.|
 T Jin'Zil's Blessing|QID|26067|M|71.12,91.23|N|To Witch Doctor Jin'Zil.|
 A All's Quiet on the Southern Front|QID|26073|M|71.12,91.23|N|From Witch Doctor Jin'Zil.|PRE|26067&26068|RANK|1|
 A Nura Pathfinder|QID|26069|M|71.12,91.23|N|From Witch Doctor Jin'Zil.\n[color=FF0000]NOTE: [/color]Take this quest if you plan on going to Southern Barrens.|LEAD|24504|
