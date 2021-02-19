@@ -196,7 +196,7 @@ T Inform the Elder|RANK|2|QID|12012|M|47.6,38.2|N|To the Earthen Ring Elder.|
 A Striking Back|RANK|2|QID|11917^11947^11948^11952^11953^11954|M|47.6,38.2|N|From the Earthern Rint Elder. This is a daily ... if you need more flowers.|PRE|29092^12012|
 F Zoram'gar Strand|ACTIVE|11917|RANK|2|M|49.5,59.1|N|Fly to Zoram'gar Strand.|
 C Striking Back|ACTIVE|11917|RANK|2|M|9,12|Z|Ashenvale|N|Click on the Ice Stone to summon the Frostweave Lieutenant.|
-H Orgrimmar|ACTIVE|11917|RANK|2|N|Back to Orgimmar to continue thru the guide.|Z|Ashenvale|
+H Orgrimmar|ACTIVE|11917|RANK|2|N|Back to Orgrimmar to continue thru the guide.|Z|Ashenvale|
 
 R Mount Hyjal|N|Click the portal to Mt Hyjal.|M|50.83,38.02|RANK|2|QID|29030|
 A Honor the Flame|RANK|2|QID|29030|M|62.83,22.72|Z|Mount Hyjal|N|From the Flame Guardian. (Nordrassil)|
@@ -378,7 +378,7 @@ T Stealing Ironforge's Flame|RANK|3|QID|9331|M|47.8,37.8|N|To the Festival Tales
 T Stealing Stormwind's Flame|RANK|3|QID|9330|M|47.8,37.8|N|To the Festival Talespinner.|
 A A Thief's Reward|RANK|3|QID|9339|M|47.8,37.8|N|From the Festival Talespinner. You can do this every year, but there is no particular reason to do it more than once.|
 N Eastern Kingdoms Complete!|RANK|2|QID|910250014|N|You should now have completed both Flame Keeper of Eastern Kingdoms and Extinguish Eastern Kingdoms achievements completed. Check this step off to move on to Outland!|
-H Orgrimmar|U|6948|RANK|2|N|Return to Orgimmar using your choice of methods.|QID|11917^11947^11948^11952^11953^11954|
+H Orgrimmar|U|6948|RANK|2|N|Return to Orgrimmar using your choice of methods.|QID|11917^11947^11948^11952^11953^11954|
 
 T Striking Back|RANK|2|QID|11917^11947^11948^11952^11953^11954|M|47.6,38.2|N|To the Earthen Ring Elder.|
 B Buy 15 Juggling Torches from Midsummer Merchant.|RANK|2|QID|902720001|ACH|272;1|M|47.6,38.6|L|34599 15|N|These aren't soulbound, check with your friends if you want to save the flowers.|
