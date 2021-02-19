@@ -38,7 +38,7 @@ N Shopping List|QID|164000005|N|This completes the Shopping List. You may either
 U [item=115356/Draenor Blacksmithing]|QID|164264445|SPELL|Draenor Blacksmithing;264445|U|115365|N|You need to buy from a Vendor in Ashran, complete a Quest Chain, or Build the The Forge in your Garrison to Learn Draenor Blacksmithing.|
 
 M [item=118720/Secret of Draenor Blacksmithing]|QID|164176090|P|Blacksmithing;164;5+2;1|ITEM|118720|CRAFT|118720|MATS|109119 5|
-B [spell=173355/Truesteel Reshaper]|QID|164173355|M|75.2;37.6|Z|Warspear|P|Blacksmithing;164;*;0;0|RECIPE|173355|T|Nonn Threeratchet|N|Use the [item=118720/Secret of Draenor Blacksmithing] to Purchase [item=118044/Recipe: Truesteel Reshaper]|FACTION|Horde|
+B [spell=173355/Truesteel Reshaper]|QID|164173355|M|75.2,37.6|Z|Warspear|P|Blacksmithing;164;*;0;0|RECIPE|173355|T|Nonn Threeratchet|N|Use the [item=118720/Secret of Draenor Blacksmithing] to Purchase [item=118044/Recipe: Truesteel Reshaper]|FACTION|Horde|
 B [spell=173355/Truesteel Reshaper]|QID|164173355|M|48.8,48.2|Z|Stormshield|P|Blacksmithing;164;*;0;0|RECIPE|173355|T|Royce Bigbeard|N|Use the [item=118720/Secret of Draenor Blacksmithing] to Purchase [item=118044/Recipe: Truesteel Reshaper]|FACTION|Alliance|
 M [item=116428/Truesteel Reshaper]|QID|164173355|P|Blacksmithing;164;5+100;1|ITEM|116428|CRAFT|173355 98|MATS|109119 30|
 
