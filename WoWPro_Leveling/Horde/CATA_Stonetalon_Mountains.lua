@@ -31,7 +31,7 @@ R Krom'gar Fortress|QID|26004|M|66.54,62.80|N|Run to Krom'gar Fortress.|FLY|OLD|
 f Krom'gar Fortress|QID|26004|M|66.53,62.75|N|Get the flight point.|
 h Krom'gar Fortress|QID|26004|M|66.48,64.24|N|If you like, set your hearth at Felonius Stark.|
 T Krom'gar Fortress|QID|26004|M|66.12,63.70|N|To Overlord Krom'gar.|
-A Seek and Destroy|QID|26009|M|66.12,63.70|N|From Overlord Krom'gar.\n[color=FF0000]NOTE: [/color]A daily Rep quest that is available until you complete 'To Be Horde...'|PRE|26004|REP|Orgrimmar;76|RANK|3|IZ|Krom'gar Fortress| ; There is some discrepancy as to when the Rep limits kick in, if there's any all.
+A Seek and Destroy|QID|26009|M|66.12,63.70|N|From Overlord Krom'gar.\n[color=FF0000]NOTE: [/color]A daily Rep quest that is available until you complete 'To Be Horde...'\nSkip this step if don't wish to repeat it.|PRE|26004|REP|Orgrimmar;76|RANK|3|IZ|Krom'gar Fortress| ; There is some discrepancy as to when the Rep limits kick in, if there's any all.
 A Ashes to Ashes|QID|26010|M|66.12,63.70|N|From Overlord Krom'gar.|PRE|26004|RANK|1|
 A Dream of a Better Tomorrow|QID|26026|M|66.13,64.23|N|From Clarissa.|PRE|26004|RANK|2|
 A Might of the Krom'gar|QID|28084|M|65.85,64.13|N|From the Krom'gar Quartermaster. The quartermaster will sell you items depending on your rank in the army. Your current rank is listed up in your buffs.|PRE|26004|RANK|2|
@@ -132,15 +132,17 @@ H Krom'gar Fortress|QID|26073|M|66.54,62.80|N|Run back if you didn't set your he
 T All's Quiet on the Southern Front|QID|26073|M|66.14,63.75|N|To Overlord Krom'gar.|
 A Beginning of the End|QID|26074|M|66.20,63.64|N|From Overlord Krom'gar.|PRE|26073|RANK|1|
 r Quartermaster|QID|26074|M|65.85,64.12|N|You've gone up a rank in the Krom'gar army! Check and see if there's anything you want at the quartermaster before moving on.|
-R Sludgeworks|ACTIVE|26074|M|66.65,63.62|N|Hop on the balloon and ride it to the Sludgeworks.|V|
-T Beginning of the End|QID|26074|M|52.93,39.18|N|To Jibbly Rakit.|
-A The Turd Problem|QID|26075|M|52.93,39.18|N|From Jibbly Rakit.|PRE|26074|RANK|1|
-C The Turd Problem|QID|26075|M|55.65,45.93;56.04,44.01|CS|N|Kill wyverns.|
+R The Sludgewerks|ACTIVE|26074|M|66.65,63.62|QO|1|N|Click on the rope ladder to board the Grom'Gar Hot Air Balloon for a free ride to the Sludgeworks (Well... almost all the way there.)|V|
+T Beginning of the End|QID|26074|M|52.95,39.12|N|To Jibbly Rakit.|
+A The Turd Problem|QID|26075|M|52.95,39.12|N|From Jibbly Rakit.|PRE|26074|RANK|1|
+f The Sludgewerks|ACTIVE|26075|M|53.88,40.12|N|Get the FP from Flok at top of the hill/ramp to the east of Jibbly.|TAXI|-The Sludgewerks|
+R Windshear Heights|ACTIVE|26075|M|54.95,46.68|N|Run around to the east side of the mountain.|FLY|OLD|
+K The Turd Problem|ACTIVE|26075|M|55.69,45.77|QO|1|N|Kill Wyverns in Windshear Heights.|
 T The Turd Problem|QID|26075|M|52.93,39.15|N|To Jibbly Rakit.|
 A Spy Infestation|QID|26076|M|52.93,39.15|N|From Jibbly Rakit.|PRE|26075|RANK|1|
 C Spy Infestation|QID|26076|M|52.57,44.01|N|When you see a sparkle, use the gas bomb on it. Then kill the spy.|U|56800|
-T Spy Infestation|QID|26076|M|52.93,39.18|N|To Jibbly Rakit.|
-A Final Delivery|QID|26077|M|52.93,39.18|N|From Jibbly Rakit.|PRE|26076|RANK|1|
+T Spy Infestation|QID|26076|M|52.95,39.12|N|To Jibbly Rakit.|
+A Final Delivery|QID|26077|M|52.95,39.12|N|From Jibbly Rakit.|PRE|26076|RANK|1|
 R Cliffwalker Post|QID|26077|M|51.20,45.51|N|Hop on the balloon and ride it to Cliffwalker Post.|V|
 T Final Delivery|QID|26077|M|45.11,32.75|N|To General Grebo.|
 A To Battlescar!|QID|26082|M|45.11,32.75|N|From General Grebo.|PRE|26077|RANK|1|
