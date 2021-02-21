@@ -6,7 +6,7 @@ WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
-R Orgrimmar|QID|28717|Z|Orgrimmar|N|Make your way to Orgimmar.|
+R Orgrimmar|QID|28717|Z|Orgrimmar|N|Make your way to Orgrimmar.|
 A Warchief's Command: Twilight Highlands!|QID|28717|M|49.67,76.45|Z|Orgrimmar|
 T Warchief's Command: Twilight Highlands!|QID|28717|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg.|
 A Machines of War|QID|26293|PRE|28717|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|

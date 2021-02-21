@@ -55,13 +55,11 @@ A The Deserter|QID|8285|PRE|8284|M|53.66,35.19|N|From Geologist Larksbane.|
 T The Deserter|QID|8285|M|68.65,62.99|N|To Hermit Ortell.|
 A The Twilight Lexicon|QID|8279|PRE|8285|M|68.65,62.99|N|From Hermit Ortell.|
 T Report to General Kirika|QID|9416|M|54.63,62.86|N|To General Kirika.|FACTION|Horde|
-A Scouring the Desert|RANK|3|QID|9422|PRE|9416|M|54.63,62.86|N|From General Kirika. NOTE: This PVP quest and is optional, it's up to you to complete it on your own.|FACTION|Horde|
 C The Twilight Lexicon|QID|8279|M|24.75,77.23|QO|2|T|Twilight Keeper Exeter|N|Kill and loot Twilight Keeper Exeter. He is way back in the back of the camp.|
 H Cenarion Hold|QID|9415|M|55.51,36.72|N|If your hearth isn't up or you didn't set it there, skip this step since it is near Cenarion Hold anyways.|
 C The Twilight Lexicon|QID|8279|M|45.82,39.06|QO|3|T|Twilight Keeper Havunth|N|Kill and loot Twilight Keeper Havunth.|
 C The Twilight Lexicon|QID|8279|M|33.51,34.56|QO|1|T|Twilight Keeper Mayna|N|Kill and loot Twilight Keeper Mayna.|
 T Report to Marshal Bluewall|QID|9415|M|39.56,46.93|N|To Marshal Bluewall|FACTION|Alliance|
-A Scouring the Desert|RANK|3|QID|9419|PRE|9415|M|39.56,46.93|N|From Marshal Bluewall NOTE: This PVP quest and is optional, it's up to you to complete it on your own.|FACTION|Alliance|
 T The Twilight Lexicon|QID|8279|M|68.63,63.01|N|To Hermit Ortell.|
 A A Terrible Purpose|QID|8287|PRE|8279|M|68.63,63.01|N|From Hermit Ortell.|
 A True Believers|QID|8323|PRE|8279|M|68.63,63.01|N|From Hermit Ortell.|
