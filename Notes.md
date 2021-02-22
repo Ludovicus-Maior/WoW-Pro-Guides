@@ -1,3 +1,18 @@
+# Release 9.0.2-B0 / 1.13.6-E0
+## Bug Fixes
+* ???
+## Guide Updates
+### Retail
+* Achievements: SL Sojourners & RaresTreasures
+* Leveling Alliance: Dragonblight
+* Leveling Horde: Blackfathom_Deeps, BFA_Intro, Ashenvale, Azshara, Stonetalon, Twilight Highlands, Belf Intro, Dragonblight
+* Leveling Neutral: Deepholm, Silithus, Argus
+* Leveling Shadowlands: Ardenweald, Bastion, Covenant, Maldraxxus, Revendreth
+* Professions: Alchemy, Blacksmithing, Enchanting (all expansions)
+* World Events: Lunar Festival, Midsummer, Darkmoon
+### Classic
+* Horde: Durotar, 31-40 Jame
+
 # Release 9.0.2-A9 / 1.13.6-D9
 ## Bug Fixes
 * Minor Profession guide fixes
