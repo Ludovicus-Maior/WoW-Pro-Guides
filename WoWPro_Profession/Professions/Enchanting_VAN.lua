@@ -41,12 +41,14 @@ l [item=16203/Greater Eternal Essence]|QID|333016203|L|16203 45|ITEM|16203|N|You
 B [item=4470/Simple Wood]|QID|33300470|L|4470 10|ITEM|4470|N|You'll need to purchase at least 10 Simple Wood.|
 B [item=38682/Enchanting Vellum]|QID|333038682|L|38682 315|ITEM|38682|N|You'll need at least 315 Enchanting Vellums.|
 N Couple Recipes to Buy|QID|333000006|N|There are a couple recipes to go buy, that you'll need for later.|
-B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|35.0,52.0|Z|Ashenvale|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Dalria in Astranaar, Ashenvale|FACTION|Alliance|
-B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|48.6,61.6|Z|Stonetalon Mountains|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Kulwia in Sun Rock Retreat, Stonetalon Mountains|FACTION|Horde|
-B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|35.0,52.0|Z|Ashenvale|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Dalria in Astranaar, Ashenvale|FACTION|Alliance|
-B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|48.6,61.6|Z|Stonetalon Mountains|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Kulwia in Sun Rock Retreat, Stonetalon Mountains|FACTION|Horde|
-B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|64.8,38.2|Z|Undercity|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Daniel Bartlett in Undercity, with your Enchanter!** Find NPC in Tirisfal Glades to Visit Old Undercity **|FACTION|Horde|
-B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|58.2,35.0|Z|Darnassus|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Mythrin'dir in Old Darnassus, with your Enchanter! ** Find Zidormi in Darkshore to Visit Old Darnassus. **|FACTION|Alliance|
+B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|35.12,52.12|Z|Ashenvale|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Dalria in Astranaar, Ashenvale (Limited Quantity)|FACTION|Alliance|
+B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|48.69,61.52|Z|Stonetalon Mountains|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Kulwia in Sun Rock Retreat, Stonetalon Mountains (Limited Quantity)|FACTION|Horde|
+B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|35.12,52.12|Z|Ashenvale|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Dalria in Astranaar, Ashenvale (Limited Quantity)|FACTION|Alliance|
+B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|48.69,61.52|Z|Stonetalon Mountains|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Kulwia in Sun Rock Retreat, Stonetalon Mountains (Limited Quantity)|FACTION|Horde|
+N [item=16217/Formula: Enchant Shield - Greater Stamina]|QID|333016217|M|69.46,62.81|Z|Tirisfal Glades|RECIPE|20017|N|Go to Zidormi, in Tirisfal Glades, and Ask to show how the Glades was before the Battle.|FACTION|Horde|
+B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|64.08,37.39|Z|Undercity|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Daniel Bartlett in Undercity, with your Enchanter!** Find Zidormi in Tirisfal Glades to Visit Old Undercity **|FACTION|Horde|
+N [item=16217/Formula: Enchant Shield - Greater Stamina]|QID|333016217|M|48.86,24.46|Z|Darkshore|RECIPE|20017|N|Go to Zidormi, in Darkshore, and Ask to show how Darkshore was before the Battle.|FACTION|Alliance|
+B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|58.09,34.16|Z|Darnassus|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Mythrin'dir in Old Darnassus, with your Enchanter! ** Find Zidormi in Darkshore to Visit Old Darnassus. **|FACTION|Alliance|
 
 N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
@@ -60,9 +62,11 @@ M [item=38679/Enchant Bracers - Minor Health]|QID|333007418|P|Enchanting;333;0+9
 = Learn Recipe|QID|333000701|P|Enchanting;333;0+70|RECIPE|14807|N|Learn [spell=14807/Greater Magic Wand] Recipe from Trainer.|
 M [item=38771/Enchant Bracers - Minor Health]|QID|333007457|P|Enchanting;333;0+100;1|ITEM|38771|CRAFT|7457 10|MATS|10940 3;38682 1|
 M [item=11288/Greater Magic Wand]|QID|333014807|P|Enchanting;333;0+110;1|ITEM|11288|CRAFT|14807 10|MATS|4470 1;10939 1|
+U Learn Recipe|QID|333001101|P|Enchanting;333;0+110|RECIPE|13419|U|11039|N|Learn [spell=13419/Enchant Cloak - Minor Agility] Recipe from Item.|
 M [item=38789/Enchant Cloak - Minor Agility]|QID|333013419|P|Enchanting;333;0+135;1|ITEM|38789|CRAFT|13419 25|MATS|16202 1|
 = Learn Recipe|QID|333001301|P|Enchanting;333;0+130|RECIPE|13501|N|Learn [spell=13501/Enchant Bracer - Lesser Stamina] Recipe from Trainer.|
 M [item=38793/Enchant Bracer - Lesser Stamina]|QID|333013501|P|Enchanting;333;0+155;1|ITEM|38793|CRAFT|13501 25|MATS|16204 2|
+U Learn Recipe|QID|333001401|P|Enchanting;333;0+140|RECIPE|13536|U|11101|N|Learn [spell=13536/Enchant Bracer - Lesser Strength] Recipe from Item.|
 M [item=38797/Enchant Bracer - Lesser Strength]|QID|333013536|P|Enchanting;333;0+180;1|ITEM|38797|CRAFT|13536 40|MATS|16204 2|
 = Learn Recipe|QID|333001801|P|Enchanting;333;0+180|RECIPE|13661|N|Learn [spell=13661/Enchant Bracer - Strength] Recipe from Trainer.|
 M [item=38817/Enchant Bracer - Strength]|QID|333013661|P|Enchanting;333;0+220;1|ITEM|38817|CRAFT|13661 50|MATS|16204 1|
@@ -78,6 +82,7 @@ M [item=38844/Enchant Boots - Agility]|QID|333013935|P|Enchanting;333;0+255;1|IT
 = Learn Recipe|QID|333002551|P|Enchanting;333;0+255|RECIPE|20008|N|Learn [spell=20008/Enchant Bracer - Greater Intellect] Recipe from Trainer.|
 M [item=38846/Enchant Bracer - Greater Strength]|QID|333013939|P|Enchanting;333;0+260;1|ITEM|38846|CRAFT|13939 5|MATS|16203 2;156930 2|
 M [item=38852/Enchant Bracer - Greater Intellect]|QID|333020008|P|Enchanting;333;0+265;1|ITEM|38852|CRAFT|20008 5|MATS|16203 3|
+U Learn Recipe|QID|333002651|P|Enchanting;333;0+265|RECIPE|20017|U|16217|N|Learn [spell=20017/Enchant Shield - Greater Stamina] Recipe from Item.|
 M [item=38861/Enchant Shield - Greater Stamina]|QID|333020017|P|Enchanting;333;0+300;1|ITEM|38861|CRAFT|20017 40|MATS|156930 4|
 
 N Congratulations|QID|333000010|N|You've reached at least 300 in Vanilla Enchanting.|
