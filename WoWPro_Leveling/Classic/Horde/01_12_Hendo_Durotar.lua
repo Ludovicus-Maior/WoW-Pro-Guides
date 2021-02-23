@@ -150,13 +150,11 @@ T The Admiral's Orders|QID|830|M|51.95,43.50|N|To Gar'Thok.|
 A The Admiral's Orders|QID|831|M|51.95,43.50|N|From Gar'Thok.|PRE|830|
 A Encroachment|QID|837|M|51.95,43.50|N|From Gar'Thok.|
 T Carry Your Weight|QID|791|M|50.18,43.09;49.65,40.41;49.87,40.35|CS|N|To Furl Scornbrow.|
+l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|QO|1;2|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|S|
+l From The Wreckage....|ACTIVE|825|M|60.33,49.85|L|4863 3|N|Go south-east and look for the Gnomish Tools amongst the ship wrecks.|
+l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|QO|1;2|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|US|
 K Encroachment|QID|837|M|51.03,48.31|QO|1;2|N|Head southwest of Razor Hill and kill Razormane Quillboars and Scouts.|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4887 4|N|Kill Makrura along the way to loot the Eyes.|S|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4888 8|N|Kill Crawlers along the way to loot the Mucus.|S|
-l From The Wreckage....|ACTIVE|825|M|60.33,49.85|L|4863 3|N|Go south-east and look for Gnomish Tools.|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4887 4|N|Finish killing Makrura to loot the Eyes.|US|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4888 8|N|Finish killing Crawlers to loot the Mucus.|US|
-L Level 8|QID|825|N|You should be level 8 or shortly before. Grind a bit on the Crawlers and Makrura if not.|LVL|7;-700|
+L Level 8|QID|825|N|You should be level 8 or shortly before. Grind a bit on the Razormane in the area.|LVL|7;-700|
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|
 r Repair/Restock|QID|786|M|51.92,41.18|N|At Wuark.|
 = Train|QID|786|N|Go learn your level 8 skills/spells. Right-click this step off once you are done.|C|-Mage|
