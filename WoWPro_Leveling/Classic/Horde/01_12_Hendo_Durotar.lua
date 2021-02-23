@@ -136,25 +136,27 @@ A Vanquish the Betrayers|QID|784|M|51.95,43.50|N|From Gar'Thok.|
 T A Peon's Burden|QID|2161|M|51.52,41.65|N|To Innkeeper Grosk.|
 h Razor Hill|QID|784|M|51.52,41.65|N|At Innkeeper Grosk.|
 A Break a Few Eggs|QID|815|M|51.11,42.45|N|From Cook Torka.|
-A Carry Your Weight|QID|791|M|50.07,42.93;49.88,40.38|CC|N|From Furl Scornbrow atop the watchtower northwest of Razor Hill.|
-l Carry Your Weight|QID|791|M|56.36,54.22|QO|1|N|Just kill things. You have a chance of looting the Canvas Scraps from every kill.\nThe Kul Tiras Marines and Sailors have the highest drop rate.|S|
+A Carry Your Weight|QID|791|M|50.18,43.09;49.65,40.41;49.87,40.35|CS|N|From Furl Scornbrow atop the watchtower northwest of Razor Hill.|
+l Carry Your Weight|ACTIVE|791|M|56.36,54.22|L|4870 8|N|Just kill things. You have a chance of looting the Canvas Scraps from every kill.\nThe Kul Tiras Marines and Sailors have the highest drop rate.|S|
 K Vanquish the Betrayers|QID|784|M|56.33,54.25|QO|1;2|N|Kill Kul Tiras Sailors & Marines as you make your way into the building.|S|
 K Lieutenant Benedict|QID|784|M|59.6,58.2|QO|3|N|Kill Lieutenant Benedict. You'll find him in the main room upstairs.
-l Benedict's Chest|AVAILABLE|830|M|59.26,57.67|CC|L|4881 1|N|Make your way upstairs to the roof. Use Benedict's key to unlock the chest and loot the Aged Envelope.|U|4882|
+l Benedict's Chest|AVAILABLE|830|M|59.26,57.67|L|4881 1|N|Make your way upstairs to the roof. Use Benedict's key to unlock the chest and loot the Aged Envelope.|U|4882|
 A The Admiral's Orders|QID|830|U|4881|N|Open the Aged Envelope.|
-C Vanquish the Betrayers|QID|784|QO|1;2|N|Finish killing Kul Tiras Sailors & Marines.|US|
-C Carry Your Weight|QID|791|QO|1|N|Finish collecting the Canvas Straps before leaving the area.|US|
+K Vanquish the Betrayers|QID|784|QO|1;2|N|Finish killing Kul Tiras Sailors & Marines.|US|
+l Carry Your Weight|ACTIVE|791|L|4870 8|N|Finish collecting the Canvas Straps before leaving the area.|US|
 T Vanquish the Betrayers|QID|784|M|51.95,43.50|N|To Gar'Thok.|
 A From The Wreckage....|QID|825|M|51.95,43.50|N|From Gar'Thok.|PRE|784|
 T The Admiral's Orders|QID|830|M|51.95,43.50|N|To Gar'Thok.|
 A The Admiral's Orders|QID|831|M|51.95,43.50|N|From Gar'Thok.|PRE|830|
 A Encroachment|QID|837|M|51.95,43.50|N|From Gar'Thok.|
 T Carry Your Weight|QID|791|M|50.18,43.09;49.65,40.41;49.87,40.35|CS|N|To Furl Scornbrow.|
-C Encroachment|QID|837|M|51.03,48.31|QO|1;2|N|Head southwest of Razor Hill and kill Razormane Quillboars and Scouts.|
-C A Solvent Spirit|QID|818|QO|1;2|N|Kill Makrura and Crawlers on the way.|S|
-C From The Wreckage....|QID|825|M|60.33,49.85|QO|1|N|Go south-east and look for Gnomish Tools.|NC|
-C A Solvent Spirit|QID|818|QO|1;2|N|Kill Makrura and Crawlers on the way.|US|
-L Level 8|QID|825|LVL|7;-700|N|You should be level 8 or shortly before. Grind a bit on the Quillboars if not.|
+K Encroachment|QID|837|M|51.03,48.31|QO|1;2|N|Head southwest of Razor Hill and kill Razormane Quillboars and Scouts.|
+l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4887 4|N|Kill Makrura along the way to loot the Eyes.|S|
+l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4888 8|N|Kill Crawlers along the way to loot the Mucus.|S|
+l From The Wreckage....|ACTIVE|825|M|60.33,49.85|L|4863 3|N|Go south-east and look for Gnomish Tools.|
+l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4887 4|N|Finish killing Makrura to loot the Eyes.|US|
+l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4888 8|N|Finish killing Crawlers to loot the Mucus.|US|
+L Level 8|QID|825|N|You should be level 8 or shortly before. Grind a bit on the Crawlers and Makrura if not.|LVL|7;-700|
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|
 r Repair/Restock|QID|786|M|51.92,41.18|N|At Wuark.|
 = Train|QID|786|N|Go learn your level 8 skills/spells. Right-click this step off once you are done.|C|-Mage|

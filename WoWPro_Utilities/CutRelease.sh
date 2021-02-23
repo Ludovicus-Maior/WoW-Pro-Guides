@@ -54,6 +54,7 @@ if [ "$CLASSIC" != "1" ] ; then
 else
     git tag ${nrelease}
     git push --tags
+    ln -s "WoWPro v${nrelease}.zip" "WoWPro v${nrelease}-classic.zip"
 fi
 
 if [ -r .s3cfg ] ; then
