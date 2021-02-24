@@ -97,37 +97,37 @@ function WoWPro.Profession:PreRowUpdate(row)
 						local skillName, _, _, skillRank, _, rankModifier = _G.GetSkillLineInfo(p)
 						local skillnum = WoWPro.ProfessionNameToSkillLine[skillName]
 						if (tonumber(skillnum) == tonumber(profnum)) then
+							-- How take racial bonuses into account using rankModifier
 							if WoWPro.action[k] == "M" then
 								proflvl = max(proflvl-rankModifier,1)
 								profmaxlvl = max(profmaxlvl-rankModifier,1)
 							end
-							local craft = (":"):split(WoWPro.step[k])
-							--row.targeticon:SetTexture(skillLoc)
-							-- How take racial bonuses into account using rankModifier
-							local numMATs = select("#", (":"):split(WoWPro.mat[k]))
-							local m = {}
-							m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = (":"):split(WoWPro.mat[k])
+							local m = {(";"):split(WoWPro.mats[k])}
+							local _, CraftQty = (" "):split(WoWPro.craft[k])					-- Split (_)CraftItem and CraftQty from the CRAFT tag.
+							-- temporarily CraftItem is set to _ as CraftItem is not used at this time.
 							WoWPro.note[k] = ""
-							for j=1,tonumber(numMATs) do
-								WoWPro.note[k] = WoWPro.note[k]..'Materials: '
-								local numItem = select("#", (";"):split(m[j]))
-								if numItem > 1 then
-									local Qty, Item, Mats, Tot = (";"):split(m[j])
-									if tonumber(Qty) == nil or type(Item) ~= "string" or tonumber(Mats) == nil or tonumber(Tot) == nil then
-										WoWPro.Profession:Error("N step %s tag N for [%s] malformed at [%s]",WoWPro.step[k], WoWPro.mat[k],m[j])
+							WoWPro.note[k] = WoWPro.note[k]..' [color=FFFFFF]Craft from '.. tostring(skillRank) ..' to '.. tostring(proflvl)..': Craft upto '..tostring(CraftQty)..' using:[/color]\n '
+							for j=1,#m do
+								WoWPro.note[k] = WoWPro.note[k]..'\nMaterial '..(j)..': '
+									local MatsItem, MatsQty = (" "):split(m[j])							-- grab Mats info
+									local MatsItemLink = ('[item='..tostring(MatsItem)..'/'.._G.GetItemInfo(MatsItem)..']')  -- recreate item num/name info
+									if tonumber(CraftQty) == nil or tonumber(MatsItem) == nil or tonumber(MatsQty) == nil then
+										WoWPro.Profession:Error("%s step %s tag M for [%s] malformed at [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mat[k],m[j])
 									end
-									WoWPro.Profession:dbp("Qty %s, k=%d",tostring(Qty),k)
---									local skillpoints = (proflvl-skillRank)/(Mats/Tot)  -- used by 'target'
-									Mats = (Tot*Qty) - (skillRank - math.ceil(proflvl/(Tot*Qty)))
-									if j == 1 then
-										WoWPro.step[k] = craft..': Craft these from '.. skillRank .. ' to '.. proflvl
---										WoWPro.target[k] = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)  -- Commented out, currently not working.
+									WoWPro.Profession:dbp("Qty %s, k=%d",tostring(CraftQty),k)			-- may need changing to new info.
+									local MatsAmt = MatsQty * (proflvl-skillRank)						-- take MatsQty to expand with Prof lvl difference.
+--									local skillpoints = (profmaxlvl - proflvl)/(CraftQty)				-- left over from Old guide handling / I think needed to make target work.
+--									if j == 1 then
+--										WoWPro.target[k] = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)		-- commented out, currently not working.
+--									end
+									if _G.GetItemCount(MatsItem, true) >= MatsAmt then						-- post msg if have or short what is needed for crafting.
+										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..', You will use '..MatsAmt..' of the '.._G.GetItemCount(MatsItem, true)..' you have available.\n'
+									else
+										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..',\nYou need '..MatsAmt..', [color=FF0000]you have '.._G.GetItemCount(MatsItem, true)..' available.[/color]\n'
 									end
-									WoWPro.note[k] = WoWPro.note[k]..Qty..' '..Item..'\nYou will need about ('..Mats..') more '..Item..'\n\n'
-								else
-									WoWPro.note[k] = WoWPro.note[k]..m[j]
-								end
 							end
+							WoWPro.note[k] = WoWPro.note[k] .. ('\n'..(WoWPro.pn[k] or ""))
+							WoWPro.note[k] = WoWPro.ExpandMarkup(WoWPro.note[k])
 						end
 
 				end
