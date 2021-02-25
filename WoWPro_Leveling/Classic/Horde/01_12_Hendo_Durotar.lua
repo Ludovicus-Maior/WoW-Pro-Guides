@@ -120,6 +120,9 @@ A Dark Storms|QID|806|M|52.24,43.15|N|From Orgnil Soulscar.|PRE|823|
 A Vanquish the Betrayers|QID|784|M|51.95,43.50|N|From Gar'Thok.|
 
 ; -- Training in Razor Hill
+= Train|ACTIVE|2161|M|51.98,43.70|N|Go learn your level 6 spells from Kaplak standing beside Gar'Thok.\nRight-click this step off once you are done.|C|Rogue|
+= Train|ACTIVE|2161|M|51.85,43.49|N|Go learn your level 6 spells from Thotar standing below Gar'Thok.\nRight-click this step off once you are done.|C|Hunter|
+= Train|ACTIVE|2161|M|52.02,43.55|N|Go learn your level 6 spells from Harruk standing beside Thotar.\nRight-click this step off once you are done.|C|Hunter|
 = Train|ACTIVE|2161|M|54.26,42.94|N|Go learn your level 6 spells from Tai'jin inside Razor Hill Barracks.\nRight-click this step off once you are done.|C|Priest|
 = Train|ACTIVE|2161|M|54.42,42.59|N|Go learn your level 6 skills/spells from Swart inside Razor Hill Barracks.\nRight-click this step off once you are done.|C|Shaman|
 = Train|ACTIVE|2161|M|54.19,42.47|N|Go learn your level 6 spells from Tarshaw Jaggedscar inside Razor Hill Barracks.\nRight-click this step off once you are done.|C|Warrior|
@@ -150,23 +153,22 @@ T The Admiral's Orders|QID|830|M|51.95,43.50|N|To Gar'Thok.|
 A The Admiral's Orders|QID|831|M|51.95,43.50|N|From Gar'Thok.|PRE|830|
 A Encroachment|QID|837|M|51.95,43.50|N|From Gar'Thok.|
 T Carry Your Weight|QID|791|M|50.18,43.09;49.65,40.41;49.87,40.35|CS|N|To Furl Scornbrow.|
+l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|QO|1;2|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|S|
+l From The Wreckage....|ACTIVE|825|M|60.33,49.85|L|4863 3|N|Go south-east and look for the Gnomish Tools amongst the ship wrecks.|
+l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|QO|1;2|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|US|
 K Encroachment|QID|837|M|51.03,48.31|QO|1;2|N|Head southwest of Razor Hill and kill Razormane Quillboars and Scouts.|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4887 4|N|Kill Makrura along the way to loot the Eyes.|S|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4888 8|N|Kill Crawlers along the way to loot the Mucus.|S|
-l From The Wreckage....|ACTIVE|825|M|60.33,49.85|L|4863 3|N|Go south-east and look for Gnomish Tools.|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4887 4|N|Finish killing Makrura to loot the Eyes.|US|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4888 8|N|Finish killing Crawlers to loot the Mucus.|US|
-L Level 8|QID|825|N|You should be level 8 or shortly before. Grind a bit on the Crawlers and Makrura if not.|LVL|7;-700|
+L Level 8|QID|825|N|You should be level 8 or shortly before. Grind a bit on the Razormane in the area.|LVL|7;-700|
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|
-r Repair/Restock|QID|786|M|51.92,41.18|N|At Wuark.|
+r Repair/Restock|QID|786|M|51.90,41.14|N|At Wuark.|
 = Train|QID|786|N|Go learn your level 8 skills/spells. Right-click this step off once you are done.|C|-Mage|
 R Sen'jin Village|QID|786|M|54.33,72.91|N|Head to Sen'jin Village.|C|Mage|
 = Train|QID|786|N|Learn your level 8 spells. Right-click this step off once you are done.|C|Mage|
 
 R Kolkar Crag|QID|786|M|50.84,79.13|N|Run south to the Kolkar Crag.|
-C Thwarting Kolkar Aggression|QID|786|M|49.82,81.30|QO|1|N|Destroy Attack Plan: Valley of Trials.|NC|
-C Thwarting Kolkar Aggression|QID|786|M|47.66,77.33|QO|2|N|Destroy Attack Plan: Sen'jin Village.|NC|
-C Thwarting Kolkar Aggression|QID|786|M|48.13,79.97;46.22,78.96|CC|QO|3|N|Destroy Attack Plan: Orgrimmar.|NC|
+C Thwarting Kolkar Aggression|QID|786|M|49.82,81.30|QO|1|N|Enter Kolkar Crag and head into the alcove to your left.\nClick on the 'Attack Plan: Valley of Trials' to destroy it. It's on the ground inside the tent.|NC|
+C Thwarting Kolkar Aggression|QID|786|M|47.66,77.33|QO|2|N|Continue west into Kolkar Crag and go right at the fork.\nClick on the 'Attack Plan: Sen'jin Village' to destroy it. It's on the ground beneath the canopy.|NC|
+C Thwarting Kolkar Aggression|QID|786|M|46.22,78.96|QO|3|N|Head back to the fork and go to the right of it\nClick on the 'Attack Plan: Orgrimmar' to destroy it. It's on the ground beneath the canopy.\n[color=FF0000]NOTE: [/color]The 3 guards won't be cleared as easily as the previous ones. All three of them are range attackers. Approach them accordingly.|NC|
+R Sen'jin Village|ACTIVE|786|M|53.67,75.92|N|Head back to the Kolkar Crag Entrance and make your way to Sen'jin.|
 T Thwarting Kolkar Aggression|QID|786|M|54.42,75.01|N|To Lar Prowltusk.|
 T A Solvent Spirit|QID|818|M|55.94,74.39|N|To Master Vornal.|
 
