@@ -52,12 +52,12 @@ T Tainted Parchment|QID|3090|N|To Nartok at the very back of the Den. Also train
 
 A Galgar's Cactus Apple Surprise|QID|4402|M|42.73,67.24|N|From Galgar.|PRE|788|
 l Galgar's Cactus Apple Surprise|QID|4402|M|43.30,64.23|QO|1|N|Collect Cactus apples from random cactuses around the area.|S|
-l Sting of the Scorpid|QID|789|M|41.61,63.61|QO|1|N|Kill Scorpid Workers for their tails.|S|
+C Sting of the Scorpid|QID|789|M|41.61,63.61|N|Kill Scorpid Workers for their tails.|S|
 A Sarkoth|QID|790|M|40.63,62.63|N|From Hana'zua.|
-K Sarkoth|QID|790|M|40.66,65.73|QO|1|N|Kill Sarkoth and loot his Mangled Claw. He is a level 4 mob.|T|Sarkoth|
+C Sarkoth|QID|790|M|40.66,65.73|QO|1|N|Kill Sarkoth and loot his Mangled Claw. He is a level 4 mob.|T|Sarkoth|
 T Sarkoth|QID|790|M|40.59,62.59|N|To Hana'zua.|
 A Sarkoth|QID|804|M|40.59,62.59|N|From Hana'zua.|PRE|790|
-l Sting of the Scorpid|QID|789|M|41.61,63.61|QO|1|N|Kill Scorpid Workers for their tails.|US|
+C Sting of the Scorpid|QID|789|M|41.61,63.61|N|Kill Scorpid Workers for their tails.|US|
 l Galgar's Cactus Apple Surprise|QID|4402|M|43.30,64.23|QO|1|N|Finish collecting your Cactus apples.|US|
 L Level 4|QID|4402^789^804|N|Grind until your xp bar is at least halfway to level 4. The three quests we are about to turn in will make you level.|LVL|3;-700|
 
@@ -70,9 +70,9 @@ A Call of Earth|QID|1516|M|42.41,69.16|N|From Canaga Earthcaller.|R|Orc,Troll|C|
 A Vile Familiars|QID|792|M|42.85,69.15|N|From Zureetha Fargaze.|C|-Warlock|
 A Lazy Peons|QID|5441|M|44.62,68.65|N|From Foreman Thazz'ril.|
 C Lazy Peons|QID|5441|N|Target sleeping Lazy Peons and use the Foreman's Blackjack on them. Look for the piles of wood logs.|T|Lazy Peon|U|16114|S|NC|
-l Call of Earth|QID|1516|L|6640 2|N|Kill Felstalkers to loot their hooves.\nYou'll find them inside the cave.|R|Orc,Troll|C|Shaman|S|
+C Call of Earth|QID|1516|N|Kill Felstalkers to loot their hooves.\nYou'll find them inside the cave.|R|Orc,Troll|C|Shaman|S|
 K Vile Familiars|QID|792|M|45.17,57.12|QO|1|N|Kill Vile Familiars in front of the cave.|
-l Call of Earth|QID|1516|L|6640 2|N|Continue killing Felstalkers until you are done.|R|Orc,Troll|C|Shaman|US|
+C Call of Earth|QID|1516|N|Continue killing Felstalkers until you are done.|R|Orc,Troll|C|Shaman|US|
 C Lazy Peons|QID|5441|N|Finish waking the Lazy Peons.|T|Lazy Peon|U|16114|US|NC|
 T Lazy Peons|QID|5441|M|44.62,68.65|N|To Foreman Thazz'ril.|
 A Thazz'ril's Pick|QID|6394|M|44.62,68.65|N|From Foreman Thazz'ril.|PRE|5441|
@@ -140,22 +140,22 @@ T A Peon's Burden|QID|2161|M|51.52,41.65|N|To Innkeeper Grosk.|
 h Razor Hill|QID|784|M|51.52,41.65|N|At Innkeeper Grosk.|
 A Break a Few Eggs|QID|815|M|51.11,42.45|N|From Cook Torka.|
 A Carry Your Weight|QID|791|M|50.18,43.09;49.65,40.41;49.87,40.35|CS|N|From Furl Scornbrow atop the watchtower northwest of Razor Hill.|
-l Carry Your Weight|ACTIVE|791|M|56.36,54.22|L|4870 8|N|Just kill things. You have a chance of looting the Canvas Scraps from every kill.\nThe Kul Tiras Marines and Sailors have the highest drop rate.|S|
+C Carry Your Weight|QID|791|M|56.36,54.22|N|Just kill things. You have a chance of looting the Canvas Scraps from every kill.\nThe Kul Tiras Marines and Sailors have the highest drop rate.|S|
 K Vanquish the Betrayers|QID|784|M|56.33,54.25|QO|1;2|N|Kill Kul Tiras Sailors & Marines as you make your way into the building.|S|
 K Lieutenant Benedict|QID|784|M|59.6,58.2|QO|3|N|Kill Lieutenant Benedict. You'll find him in the main room upstairs.
 l Benedict's Chest|AVAILABLE|830|M|59.26,57.67|L|4881 1|N|Make your way upstairs to the roof. Use Benedict's key to unlock the chest and loot the Aged Envelope.|U|4882|
 A The Admiral's Orders|QID|830|U|4881|N|Open the Aged Envelope.|
 K Vanquish the Betrayers|QID|784|QO|1;2|N|Finish killing Kul Tiras Sailors & Marines.|US|
-l Carry Your Weight|ACTIVE|791|L|4870 8|N|Finish collecting the Canvas Straps before leaving the area.|US|
+C Carry Your Weight|QID|791|N|Finish collecting the Canvas Straps before leaving the area.|US|
 T Vanquish the Betrayers|QID|784|M|51.95,43.50|N|To Gar'Thok.|
 A From The Wreckage....|QID|825|M|51.95,43.50|N|From Gar'Thok.|PRE|784|
 T The Admiral's Orders|QID|830|M|51.95,43.50|N|To Gar'Thok.|
 A The Admiral's Orders|QID|831|M|51.95,43.50|N|From Gar'Thok.|PRE|830|
 A Encroachment|QID|837|M|51.95,43.50|N|From Gar'Thok.|
 T Carry Your Weight|QID|791|M|50.18,43.09;49.65,40.41;49.87,40.35|CS|N|To Furl Scornbrow.|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|QO|1;2|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|S|
+C A Solvent Spirit|QID|818|M|60.33,49.85|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|S|
 l From The Wreckage....|ACTIVE|825|M|60.33,49.85|L|4863 3|N|Go south-east and look for the Gnomish Tools amongst the ship wrecks.|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|QO|1;2|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|US|
+C A Solvent Spirit|ACTIVE|818|M|60.33,49.85|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|US|
 K Encroachment|QID|837|M|51.03,48.31|QO|1;2|N|Head southwest of Razor Hill and kill Razormane Quillboars and Scouts.|
 L Level 8|QID|825|N|You should be level 8 or shortly before. Grind a bit on the Razormane in the area.|LVL|7;-700|
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|
@@ -168,25 +168,25 @@ R Kolkar Crag|QID|786|M|50.84,79.13|N|Run south to the Kolkar Crag.|
 C Thwarting Kolkar Aggression|QID|786|M|49.82,81.30|QO|1|N|Enter Kolkar Crag and head into the alcove to your left.\nClick on the 'Attack Plan: Valley of Trials' to destroy it. It's on the ground inside the tent.|NC|
 C Thwarting Kolkar Aggression|QID|786|M|47.66,77.33|QO|2|N|Continue west into Kolkar Crag and go right at the fork.\nClick on the 'Attack Plan: Sen'jin Village' to destroy it. It's on the ground beneath the canopy.|NC|
 C Thwarting Kolkar Aggression|QID|786|M|46.22,78.96|QO|3|N|Head back to the fork and go to the right of it\nClick on the 'Attack Plan: Orgrimmar' to destroy it. It's on the ground beneath the canopy.\n[color=FF0000]NOTE: [/color]The 3 guards won't be cleared as easily as the previous ones. All three of them are range attackers. Approach them accordingly.|NC|
-R Sen'jin Village|ACTIVE|786|M|53.67,75.92|N|Head back to the Kolkar Crag Entrance and make your way to Sen'jin.|
-T Thwarting Kolkar Aggression|QID|786|M|54.42,75.01|N|To Lar Prowltusk.|
+R Sen'jin Village|ACTIVE|786|M|53.67,75.92|N|Head back to the Kolkar Crag Entrance and make your way to Sen'jin Village.|
+T Thwarting Kolkar Aggression|QID|786|M|54.43,75.00|N|To Lar Prowltusk, just outside Sen'jin Village.\n[color=FF0000]NOTE: [/color]He likes to move around quite a bit, making stops at several locations between the fallen tree, the rocks and the tree by the road.|
 T A Solvent Spirit|QID|818|M|55.94,74.39|N|To Master Vornal.|
 
-C Break a Few Eggs|QID|815|QO|1|N|Loot Taillasher Eggs from the Raptor nests.|NC|S|
-C Practical Prey|QID|817|QO|1|N|Kill Durotar Tigers for their hides.|S|
-C Zalazane|QID|826|QO|1;2|N|Kill Voodoo and Hexed Trolls.|S|
+l Break a Few Eggs|ACTIVE|815|L|4890 3|N|Loot the Taillasher Eggs from the Raptor nests on the ground.\n[color=FF0000]NOTE: [/color]Look for the Raptors. You'll find a nest nearby.|S|
+C Practical Prey|QID|817|M|64.68,80.84|N|Kill Durotar Tigers for their hides.|S|
+K Zalazane|QID|826|QO|1;2|M|67.25,86.96|N|Kill Voodoo and Hexed Trolls.|S|
 C Zalazane|QID|826|M|67.40,86.99|QO|3|N|Kill Zalane and loot his head.|
-C Minshina's Skull|QID|808|M|67.46,87.81|QO|1|N|Loot Minshina's Skull from the pile.|NC|
-C Zalazane|QID|826|QO|1;2|N|Kill the remaining Voodoo and Hexed Trolls in the area.|US|
-C Break a Few Eggs|QID|815|QO|1|N|Finish collecting your Taillasher Eggs.|US|
-C Practical Prey|QID|817|QO|1|N|Finish colDestroy lecting your Durotar hides.|US|
+l Minshina's Skull|ACTIVE|808|M|67.46,87.81|L|4864|N|Loot Minshina's Skull from the pile.|
+K Zalazane|QID|826|QO|1;2|M|67.25,86.96|N|Kill the remaining Voodoo and Hexed Trolls in the area.|US|
+l Break a Few Eggs|ACTIVE|815|L|4890 3|N|Loot the Taillasher Eggs from the Raptor nests on the ground.|US|
+C Practical Prey|QID|817|M|64.68,80.84|N|Finish collecting your Durotar hides.|US|
 T Minshina's Skull|QID|808|M|55.97,74.73|N|To Master Gadrin.|
 T Zalazane|QID|826|M|55.97,74.73|N|To Master Gadrin.|
-r Repair/Restock|QID|817|M|56.46,73.15|N|At Master Gadrin.|
+r Repair/Restock|ACTIVE|817|M|56.46,73.15|N|At Master Gadrin.|
 T Practical Prey|QID|817|M|55.95,73.93|N|To Vel'rin Fang.|
 T Break a Few Eggs|QID|815|M|51.20,42.47|N|To Cook Torka in Razor Hill.|
 
-C Encroachment|QID|837|M|44.50,40.70|QO|3;4|N|Head west from Razor Hill and kill Razormane Dustunners and Battleguards.\nDon't get too close to the village. There is an 11 elite in there.|
+K Encroachment|QID|837|M|44.50,40.70|QO|3;4|N|Head west from Razor Hill and kill Razormane Dustunners and Battleguards.\nDon't get too close to the village. There is an 11 elite in there.|
 A Lost But Not Forgotten|QID|816|M|43.11,30.39|N|From Misha Tor'kren.|
 A Winds in the Desert|QID|834|M|46.36,22.84|QO|1|N|From Rezlak.|
 C Winds in the Desert|QID|834|M|48.76,21.41|QO|1|N|Walk east across the road to the entrance of the Razorwind Canyon. Loot the Sacks of Supplies on the ground.|NC|
