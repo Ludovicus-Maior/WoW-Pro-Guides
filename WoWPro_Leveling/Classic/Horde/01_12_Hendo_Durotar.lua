@@ -184,9 +184,10 @@ T Minshina's Skull|QID|808|M|55.95,74.72|N|To Master Gadrin in Sen'jin Village.|
 T Zalazane|QID|826|M|55.97,74.73|N|To Master Gadrin.|
 r Repair/Restock|ACTIVE|817|M|56.39,73.53|N|There are several vendors inside the hut.\nTrayexir can repair you.|
 T Practical Prey|QID|817|M|55.95,73.93|N|To Vel'rin Fang.|
-T Break a Few Eggs|QID|815|M|51.20,42.47|N|To Cook Torka in Razor Hill.|
-
-K Encroachment|QID|837|M|44.50,40.70|QO|3;4|N|Head west from Razor Hill and kill Razormane Dustunners and Battleguards.\nDon't get too close to the village. There is an 11 elite in there.|
+R Razor Hill|ACTIVE|815|M|52.48,44.42|N|Follow the road north to Razor Hill, or go cross country to do some grinding.|
+T Break a Few Eggs|QID|815|M|51.11,42.45|N|To Cook Torka in Razor Hill.|
+R Razormane Grounds|ACTIVE|837|M|44.53,40.85|N|Head west out of Razor Hill to Razormane Grounds (north side of the road).|
+K Encroachment|QID|837|M|43.94,40.46|QO|3;4|N|Kill Razormane Dustunners and Battleguards.\n[color=FF0000]NOTE: [/color]Don't get too close to the village (where the fire is). There is an 11 elite in there, Captain Flat Tusk.|
 A Lost But Not Forgotten|QID|816|M|43.11,30.39|N|From Misha Tor'kren.|
 A Winds in the Desert|QID|834|M|46.36,22.84|QO|1|N|From Rezlak.|
 C Winds in the Desert|QID|834|M|48.76,21.41|QO|1|N|Walk east across the road to the entrance of the Razorwind Canyon. Loot the Sacks of Supplies on the ground.|NC|
