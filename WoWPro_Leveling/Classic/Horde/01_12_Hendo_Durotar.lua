@@ -172,17 +172,17 @@ R Sen'jin Village|ACTIVE|786|M|53.67,75.92|N|Head back to the Kolkar Crag Entran
 T Thwarting Kolkar Aggression|QID|786|M|54.43,75.00|N|To Lar Prowltusk, just outside Sen'jin Village.\n[color=FF0000]NOTE: [/color]He likes to move around quite a bit, making stops at several locations between the fallen tree, the rocks and the tree by the road.|
 T A Solvent Spirit|QID|818|M|55.94,74.39|N|To Master Vornal.|
 
-l Break a Few Eggs|ACTIVE|815|L|4890 3|N|Loot the Taillasher Eggs from the Raptor nests on the ground.\n[color=FF0000]NOTE: [/color]Look for the Raptors. You'll find a nest nearby.|S|
+l Break a Few Eggs|ACTIVE|815|L|4890 3|N|Loot the Taillasher Eggs from the Raptor nests on the ground.|S|
 C Practical Prey|QID|817|M|64.68,80.84|N|Kill Durotar Tigers for their hides.|S|
 K Zalazane|QID|826|QO|1;2|M|67.25,86.96|N|Kill Voodoo and Hexed Trolls.|S|
 C Zalazane|QID|826|M|67.40,86.99|QO|3|N|Kill Zalane and loot his head.|
 l Minshina's Skull|ACTIVE|808|M|67.46,87.81|L|4864|N|Loot Minshina's Skull from the pile.|
-K Zalazane|QID|826|QO|1;2|M|67.25,86.96|N|Kill the remaining Voodoo and Hexed Trolls in the area.|US|
-l Break a Few Eggs|ACTIVE|815|L|4890 3|N|Loot the Taillasher Eggs from the Raptor nests on the ground.|US|
-C Practical Prey|QID|817|M|64.68,80.84|N|Finish collecting your Durotar hides.|US|
-T Minshina's Skull|QID|808|M|55.97,74.73|N|To Master Gadrin.|
+K Zalazane|QID|826|QO|1;2|M|67.16,82.59|N|Finish killing Voodoo and Hexed Trolls.\n[color=FF0000]NOTE: [/color]You'll find most of them around the huts on the outskirts of the main village (where Zalazane is).|US|
+l Break a Few Eggs|ACTIVE|815|M|63.68,83.25|L|4890 3|N|Loot the Taillasher Eggs from the Raptor nests on the ground.\n[color=FF0000]NOTE: [/color]Look for the Raptors. You might find a nest nearby.|US|
+C Practical Prey|QID|817|M|65.49,81.55|N|Finish collecting your Durotar hides.|US|
+T Minshina's Skull|QID|808|M|55.95,74.72|N|To Master Gadrin in Sen'jin Village.|
 T Zalazane|QID|826|M|55.97,74.73|N|To Master Gadrin.|
-r Repair/Restock|ACTIVE|817|M|56.46,73.15|N|At Master Gadrin.|
+r Repair/Restock|ACTIVE|817|M|56.39,73.53|N|There are several vendors inside the hut.\nTrayexir can repair you.|
 T Practical Prey|QID|817|M|55.95,73.93|N|To Vel'rin Fang.|
 T Break a Few Eggs|QID|815|M|51.20,42.47|N|To Cook Torka in Razor Hill.|
 
