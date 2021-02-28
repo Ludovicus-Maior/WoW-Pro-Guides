@@ -186,16 +186,22 @@ r Repair/Restock|ACTIVE|817|M|56.39,73.53|N|There are several vendors inside the
 T Practical Prey|QID|817|M|55.95,73.93|N|To Vel'rin Fang.|
 R Razor Hill|ACTIVE|815|M|52.48,44.42|N|Follow the road north to Razor Hill, or go cross country to do some grinding.|
 T Break a Few Eggs|QID|815|M|51.11,42.45|N|To Cook Torka in Razor Hill.|
-R Razormane Grounds|ACTIVE|837|M|44.53,40.85|N|Head west out of Razor Hill to Razormane Grounds (north side of the road).|
+R Razormane Grounds|ACTIVE|837|M|44.53,40.85|QO|1;2|N|Head west out of Razor Hill to Razormane Grounds (north side of the road).|
 K Encroachment|QID|837|M|43.94,40.46|QO|3;4|N|Kill Razormane Dustunners and Battleguards.\n[color=FF0000]NOTE: [/color]Don't get too close to the village (where the fire is). There is an 11 elite in there, Captain Flat Tusk.|
-A Lost But Not Forgotten|QID|816|M|43.11,30.39|N|From Misha Tor'kren.|
-A Winds in the Desert|QID|834|M|46.36,22.84|QO|1|N|From Rezlak.|
-C Winds in the Desert|QID|834|M|48.76,21.41|QO|1|N|Walk east across the road to the entrance of the Razorwind Canyon. Loot the Sacks of Supplies on the ground.|NC|
-T Winds in the Desert|QID|834|M|46.36,22.84|N|To Rezlak.|
-A Securing the Lines|QID|835|M|46.36,22.84|N|From Rezlak.|PRE|834|
+A Lost But Not Forgotten|QID|816|M|43.10,30.24|N|From Misha Tor'kren.|
+A Winds in the Desert|QID|834|M|46.37,22.94|N|From Rezlak.|
+l Winds in the Desert|QID|834|M|49.86,24.32|L|4918 5|N|Walk east across the road to the entrance of the Razorwind Canyon. Loot the Sacks of Supplies on the ground.|
+T Winds in the Desert|QID|834|M|46.37,22.94|N|To Rezlak.|
+A Securing the Lines|QID|835|M|46.37,22.94|N|From Rezlak.|PRE|834|
 
 L Level 10|QID|837|N|You'll want to be level 10 when you turn in your next quest in Razor Hill. Grind on harpies until you are 2 bubbles from leveling.|LVL|9;-630|
-T Encroachment|QID|837|M|51.92,43.51|N|To Gar'Thok.|
+T Encroachment|QID|837|M|51.95,43.50|N|To Gar'Thok in Razor Hill.|
+
+= Train|QID|840|N|Go learn your level 10 skills/spells. Right-click this step off once you are done.|LVL|10|C|-Mage|
+R Sen'jin Village|QID|840|M|54.33,72.91|N|Head to Sen'jin Village.|LVL|10|C|Mage|
+= Train|QID|840|N|Learn your level 10 spells. Right-click this step off once you are done.|LVL|10|C|Mage|
+R Razor Hill|QID|840|M|52.48,44.42|N|Return to Razor Hill.|LVL|10|C|Mage|
+
 ; --- Level 10 Class Quests
 ; --- Hunter (Only quest chain that is done in Razor Hill)
 T The Hunter's Path|QID|6069|M|51.85,43.49|N|To Thotar.|R|Orc,Troll|C|Hunter|
