@@ -108,8 +108,8 @@ A Zalazane|QID|826|M|55.95,74.72|N|From Master Gadrin.|
 A Report to Orgnil|QID|823|M|55.95,74.72|N|From Master Gadrin.|
 A A Solvent Spirit|QID|818|M|55.94,74.39|N|From Master Vornal.|
 A Practical Prey|QID|817|M|55.95,73.93|N|From Vel'rin Fang.|
-= Herbalism|ACTIVE|808^817^818^823^826|M|55.44,75.08|N|Mishiki, Herbalist, trainer. Sen'jin Village|P|Herbalism;182;0+1;0|
-= Alchemy|ACTIVE|808^817^818^823^826|M|55.41,73.95|N|Miao'zan, Journeyman Alchemist, Sen'jin Village.|P|Alchemy;171;0+1;0|
+= Herbalism|ACTIVE|808^817^818^823^826|M|55.44,75.08|N|Mishiki, Herbalist, trainer. Sen'jin Village|P|Herbalism;182;0;0|
+= Alchemy|ACTIVE|808^817^818^823^826|M|55.41,73.95|N|Miao'zan, Journeyman Alchemist, Sen'jin Village.|P|Alchemy;171;0;0|
 A Thwarting Kolkar Aggression|QID|786|M|54.29,73.23|N|From Lar Prowltusk. If he's not here by the tree, wait a few minutes for him to return. If you chose not to wait for him, you can find him just SW of your location.|
 A A Peon's Burden|QID|2161|M|52.05,68.32|N|From Ukor, at the sign post.|
 
@@ -197,7 +197,7 @@ A Securing the Lines|QID|835|M|46.37,22.94|N|From Rezlak.|PRE|834|
 L Level 10|QID|837|N|You'll want to be level 10 when you turn in your next quest in Razor Hill. Grind on harpies until you are 2 bubbles from leveling.|LVL|9;-630|
 T Encroachment|QID|837|M|51.95,43.50|N|To Gar'Thok in Razor Hill.|
 
-= Train|QID|840|N|Go learn your level 10 skills/spells. Right-click this step off once you are done.|LVL|10|C|-Mage|
+= Train|QID|840|N|Go learn your level 10 skills/spells. Right-click this step off once you are done.|LVL|10|C|-Mage|IZ|Razor Hill|
 R Sen'jin Village|QID|840|M|54.33,72.91|N|Head to Sen'jin Village.|LVL|10|C|Mage|
 = Train|QID|840|N|Learn your level 10 spells. Right-click this step off once you are done.|LVL|10|C|Mage|
 R Razor Hill|QID|840|M|52.48,44.42|N|Return to Razor Hill.|LVL|10|C|Mage|
@@ -225,30 +225,31 @@ A Veteran Uzzek|QID|1505|M|54.19,42.47|N|From Tarshaw Jaggedscar.|R|Orc,Troll|C|
 ; --- Shaman
 A Call of Fire|QID|2983|M|54.42,42.59|N|From Swart.|R|Orc,Troll|C|Shaman|
 
-A Conscript of the Horde|QID|840|M|50.89,43.56|N|From Takrin Pathseeker.|
-A Need for a Cure|QID|812|M|41.53,18.62|L|-4904|N|From Rhinag.\n\n[color=FF0000]NOTE: [/color]This quest is on a 45 min timer. The exp/min is low for this quest. You can skip this quest if you so choose.|RANK|3|
-R Orgrimmar|QID|812|M|45.51,12.06|CC|N|Follow the road north out of Razor Hill to the gates of Orgrimmar.|
-T The Admiral's Orders|QID|831|M|52.33,84.15;49.66,60.39;52.65,57.20;59.28,47.18;55.59,37.06;32.27,35.79|Z|Orgrimmar|CC|N|As you enter Orgrimmar, continue straight until you reach the Drag. Enter the Drag and follow the road until you reach Grommash Hold. You'll find Nazgrel inside the 2nd room.|
-A Hidden Enemies|QID|5726|M|31.91,37.78|Z|Orgrimmar|N|From Thrall.|
-A Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|L|-4904|N|From Khorgan.\n\n[color=FF0000]NOTE: [/color]As long as you pick up this quest, the 'Need for a Cure' timer is irrelevant.|
+A Conscript of the Horde|QID|840|M|50.85,43.59|N|From Takrin Pathseeker.|
+A Need for a Cure|QID|812|M|41.53,18.62|L|-4904|N|From Rhinag at Rocktusk Farm. Follow the road north out of Razor Hill or go cross country for some grinding.\n\n[color=FF0000]NOTE: [/color]This quest is on a 45 min timer. The exp/min is low for this quest. You can skip this quest if you so choose.|RANK|3|
+R Orgrimmar|ACTIVE|-812&831|M|45.51,12.06|N|Follow the road north out of Razor Hill to the gates of Orgrimmar.|
+R Orgrimmar|ACTIVE|812|AVAILABLE|813|M|45.51,12.06|QO|1|N|Make your way northeast to the gates of Orgrimmar.|
+R Grommash Hold|ACTIVE|831|M|52.33,84.15;49.66,60.39;52.65,57.20;59.28,47.18;55.59,37.06;40.30,36.94|Z|Orgrimmar|CC|N|As you enter Orgrimmar, continue straight until you reach the Drag. Enter the Drag and follow the road until you reach Grommash Hold.\n[color=FF0000]NOTE: [/color]There are multiple routes, but this is the fastest one I've found.|
+T The Admiral's Orders|QID|831|M|32.27,35.79|Z|Orgrimmar|N|To Nazgrel inside the 2nd room of Grommash Hold.|
+A Hidden Enemies|QID|5726|M|31.75,37.82|Z|Orgrimmar|N|From Thrall.|
+A Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|L|-4904|N|From Khorgan in the Cleft of Shadow.\n\n[color=FF0000]NOTE: [/color]As long as you pick up this quest, the 'Need for a Cure' timer is irrelevant.|
 
 ; --- locations of profession trainers in Orgrimmar
-N First Aid|ACTIVE|5726|M|34.17,84.55|Z|Orgrimmar|P|First Aid;129;0+1;0|N|Arnok, First Aid Trainer, The Valley of Spirits.|
-N Cooking|ACTIVE|5726|M|57.39,53.95|Z|Orgrimmar|P|Cooking;185;0+1;0|N|Zamja, Cooking Trainer, The Drag - 2nd level.|
-N Enchanting|ACTIVE|5726|M|53.46,38.56|Z|Orgrimmar|P|Enchanting;333;0+1;0|N|Jhag, Journeyman Enchanter, The Drag.|
-N Leatherworking|ACTIVE|5726|M|63.30,44.75|Z|Orgrimmar|P|Leatherworking;165;0+1;0|N|Kamari, Journeyman Leatherworker, The Drag.|
-N Skinning|ACTIVE|5726|M|63.35,45.42|Z|Orgrimmar|P|Skinning;393;0+1;0|N|Thuwd, Skinning Trainer, The Drag.|
-N Tailoring|ACTIVE|5726|M|62.93,49.26|Z|Orgrimmar|P|Tailoring;197;0+1;0|N|Snang, Journeyman Tailor, The Drag.|
-N Alchemy|ACTIVE|5726|M|55.80,32.91|Z|Orgrimmar|P|Alchemy;171;0+1;0|N|Whuut, Journeyman Alchemist, The Drag.|
-N Herbalism|ACTIVE|5726|M|55.61,39.46|Z|Orgrimmar|P|Herbalism;182;0+1;0|N|Jandi, Herbalism Trainer, The Drag - 2nd level.|
-N Fishing|ACTIVE|5726|M|69.81,29.20|Z|Orgrimmar|P|Fishing;356;0+1;0|N|Lumak, Fishing Trainer, Valley of Honor.|
-N Mining|ACTIVE|5726|M|73.12,26.08|Z|Orgrimmar|P|Mining;186;0+1;0|N|Makaru, Mining Trainer, Valley of Honor.|
-N Engineering|ACTIVE|5726|M|75.95,24.18|Z|Orgrimmar|P|Engineering;202;0+1;0|N|Thund, Journey Engineer, Valley of Honor.|
-N Blacksmithing|ACTIVE|5726|M|80.76,23.70|Z|Orgrimmar|P|Blacksmithing;164;0+1;0|N|Ug'thok, Journey Blacksmith, Valley of Honor.|
-; ---
-N Weapon Masters|ACTIVE|5726|M|81.70,19.53|Z|Orgrimmar|N|Sayoc and Hanashi in Valley of Honor.\nSayoc teaches bows, daggers, fist weapons, one & two-handed axes, and thrown weapons.\nHanashi teaches bows, one & two-handed axes, staves, and thrown weapons.|
-N Weapon Masters|ACTIVE|5726|M|57,32|Z|Undercity|N|If you wish to learn swords, you'll have to take the Zepplin to Undercity. Archibald is in the War Quarter. He teaches crossbows, daggers, one & two handed swords and polearms.|
-N Weapon Masters|ACTIVE|5726|M|40.94,62.74|Z|Thunder Bluff|N|If you wish to learn maces, you'll have to take the Zepplin to Thunder Bluff. Ansekwa is on the lower plateau. He teaches one & two handed maces, staves and guns.|
+N Cooking|ACTIVE|5726|M|57.39,53.95|Z|Orgrimmar|N|Zamja, Cooking Trainer, The Drag - 2nd level.|P|Cooking;185;0;0|IZ|Orgrimmar|
+N Enchanting|ACTIVE|5726|M|53.46,38.56|Z|Orgrimmar|N|Jhag, Journeyman Enchanter, The Drag.|P|Enchanting;333;0;0|IZ|Orgrimmar|
+N Leatherworking|ACTIVE|5726|M|63.30,44.75|Z|Orgrimmar|N|Kamari, Journeyman Leatherworker, The Drag.|P|Leatherworking;165;0;0|IZ|Orgrimmar|
+N Skinning|ACTIVE|5726|M|63.35,45.42|Z|Orgrimmar|N|Thuwd, Skinning Trainer, The Drag.|P|Skinning;393;0;0|IZ|Orgrimmar|
+N Tailoring|ACTIVE|5726|M|62.93,49.26|Z|Orgrimmar|N|Snang, Journeyman Tailor, The Drag.|P|Tailoring;197;0;0|IZ|Orgrimmar|
+N Alchemy|ACTIVE|5726|M|55.80,32.91|Z|Orgrimmar|N|Whuut, Journeyman Alchemist, The Drag.|P|Alchemy;171;0;0|IZ|Orgrimmar|
+N Herbalism|ACTIVE|5726|M|55.61,39.46|Z|Orgrimmar|N|Jandi, Herbalism Trainer, The Drag - 2nd level.|P|Herbalism;182;0;0|IZ|Orgrimmar|
+N Mining|ACTIVE|5726|M|73.12,26.08|Z|Orgrimmar|N|Makaru, Mining Trainer, Valley of Honor.|P|Mining;186;0;0|IZ|Orgrimmar|
+N Engineering|ACTIVE|5726|M|75.95,24.18|Z|Orgrimmar|N|Thund, Journey Engineer, Valley of Honor.|P|Engineering;202;0;0|IZ|Orgrimmar|
+N Blacksmithing|ACTIVE|5726|M|80.76,23.70|Z|Orgrimmar|N|Ug'thok, Journey Blacksmith, Valley of Honor.|P|Blacksmithing;164;0;0|IZ|Orgrimmar|
+N Fishing|ACTIVE|5726|M|69.81,29.20|Z|Orgrimmar|N|Lumak, Fishing Trainer, Valley of Honor.|P|Fishing;356;0;0|IZ|Orgrimmar|
+N Weapon Masters|ACTIVE|5726|M|81.70,19.53|Z|Orgrimmar|N|Sayoc and Hanashi in Valley of Honor.\nSayoc teaches bows, daggers, fist weapons, one & two-handed axes, and thrown weapons.\nHanashi teaches bows, one & two-handed axes, staves, and thrown weapons.|IZ|Orgrimmar|
+N Weapon Masters|ACTIVE|5726|M|57,32|Z|Undercity|N|If you wish to learn swords, you'll have to take the Zepplin to Undercity. Archibald is in the War Quarter. He teaches crossbows, daggers, one & two handed swords and polearms.|IZ|Orgrimmar|
+N Weapon Masters|ACTIVE|5726|M|40.94,62.74|Z|Thunder Bluff|N|If you wish to learn maces, you'll have to take the Zepplin to Thunder Bluff. Ansekwa is on the lower plateau. He teaches one & two handed maces, staves and guns.|IZ|Orgrimmar|
+N First Aid|ACTIVE|5726|M|34.17,84.55|Z|Orgrimmar|N|Arnok, First Aid Trainer, The Valley of Spirits.|P|First Aid;129;0;0|IZ|Orgrimmar|
 
 ; --- Class quests in Orgrimmar
 ; --- Mage
@@ -256,18 +257,19 @@ A Speak with Un'thuwa|QID|1883|M|39.15,86.27|Z|Orgrimmar|N|From Uthel'nay, Valle
 ; --- Hunter
 T Training the Beast|QID|6081|M|66.06,18.52|Z|Orgrimmar|N|To Ormak Grimshot.|R|Orc,Troll|C|Hunter|
 ; --- Rogue
-T Therzok|QID|1859|M|42.74,53.55|Z|Orgrimmar|N|To Therzok.|R|Orc,Troll|C|Rogue|
+T Therzok|QID|1859|M|42.74,53.55|Z|Orgrimmar|N|To Therzok in Cleft of Shadow.|R|Orc,Troll|C|Rogue|
 A The Shattered Hand|QID|1963|M|42.73,53.44|Z|Orgrimmar|N|From Therzok.|R|Orc,Troll|C|Rogue|
 ; --- Warlock
 T Gan'rul's Summons|QID|1506|M|48.25,45.29|Z|Orgrimmar|N|To Gan'rul Bloodeye.|R|Orc|C|Warlock|
 A Creature of the Void|QID|1501|M|48.20,45.70|Z|Orgrimmar|N|From Gan'rul Bloodeye.|PRE|1506|R|Orc|C|Warlock|
 ; ---
-R Leave Orgrimmar|ACTIVE|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
+R Leave Orgrimmar|ACTIVE|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|Orgrimmar|
 C Finding the Antidote|QID|813|ACTIVE|812|M|41.49,19.39|QO|1|N|Head back to the area around Rhinag and kill Venomtail Scorpids for their Venomtail Scorpid Sacs.|
-R Enter Orgrimmar|QID|812|M|45.52,12.07|CC|N|Head back to Orgrimmar.|
-T Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58;51.75,57.85;56.03,41.16;59.91,49.37;51.26,46.39;47.24,53.58|Z|Orgrimmar|CC|N|Go back to Khorgan and turn in the quest for the Venomtail Antidote. if you lose the antidote, this quest is repeatable.|
-R Leave Orgrimmar|QID|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
-A Need for a Cure|QID|812|M|41.54,18.60|N|From Rhinag.|
+R Orgrimmar|ACTIVE|813|M|45.52,12.07|N|Head back to Orgrimmar.|
+R Cleft of Shadow|ACTIVE|813|M|47.24,53.58;51.75,57.85;56.03,41.16;59.91,49.37;51.26,46.39|Z|Orgrimmar|CC|
+T Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|N|Go back to Khorgan and turn in the quest for the Venomtail Antidote. if you lose the antidote, this quest is repeatable.|
+R Leave Orgrimmar|QID|812|M|56.73,41.96;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|Orgrimmar|
+A Need for a Cure|QID|812|M|41.54,18.60|N|From Rhinag.|FAIL|
 T Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
 
 C Lost But Not Forgotten|QID|816|M|37.22,20.26|QO|1|N|Head to the Southfury River and kill the Dreadmaw Crocolisks until you loot Kron's Amulet.|
