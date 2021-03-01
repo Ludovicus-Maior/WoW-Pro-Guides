@@ -264,6 +264,14 @@ T Gan'rul's Summons|QID|1506|M|48.25,45.29|Z|Orgrimmar|N|To Gan'rul Bloodeye.|R|
 A Creature of the Void|QID|1501|M|48.20,45.70|Z|Orgrimmar|N|From Gan'rul Bloodeye.|PRE|1506|R|Orc|C|Warlock|
 ; ---
 R Leave Orgrimmar|ACTIVE|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|Orgrimmar|
+
+N Sword Training|ACTIVE|816|M|PLAYER|N|If you wish to start using swords, now is the best time to go learn the skill from Archibald in Undercity. The cost is 10 silver.\n[color=FF0000]NOTE: [/color]If you are not interested, then just skip the next few steps.|C|Rogue|
+b Tirisfal Glades|ACTIVE|816|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|C|Rogue|
+R Undercity|ACTIVE|816|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity and take the elevator down.|C|Rogue|
+N Archibald|ACTIVE|816|M|57.32,32.74|Z|Undercity|N|Make your way to Undercity's War Quarter inner ring.\n[color=FF0000]NOTE: [/color]Check this step off when you are done.|C|Rogue|IZ|Undercity|
+R Leave Undercity|ACTIVE|816|M|53.40,43.56;63.61,47.52;72.77,40.03;66.15,37.11;66.29,1.94|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|C|Rogue|IZ|Undercity|
+b Durotar|ACTIVE|816|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|C|Rogue|IZ|Tirisfal Glades|
+
 C Finding the Antidote|QID|813|ACTIVE|812|M|41.49,19.39|QO|1|N|Head back to the area around Rhinag and kill Venomtail Scorpids for their Venomtail Scorpid Sacs.|
 R Orgrimmar|ACTIVE|813|M|45.52,12.07|N|Head back to Orgrimmar.|
 R Cleft of Shadow|ACTIVE|813|M|47.24,53.58;51.75,57.85;56.03,41.16;59.91,49.37;51.26,46.39|Z|Orgrimmar|CC|
