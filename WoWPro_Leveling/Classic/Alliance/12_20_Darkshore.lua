@@ -73,6 +73,7 @@ T For Love Eternal|QID|963|M|35.8, 43.7|N|To Cerellean Whiteclaw.|
 T The Red Crystal|QID|4811|M|37.7, 43.4|N|To Sentinel Glynda Nal'Shea.|
 A As Water Cascades|QID|4812|M|37.7, 43.4|N|From Sentinel Glynda Nal'Shea.|PRE|4811|
 C As Water Cascades|QID|4812|M|37.71,43.96|N|Fill your Empty Water Tube at the moonwell by the Inn.|U|14338|NC|
+T How Big a Threat?|QID|985|M|39.37,43.48|N|To Terenthis.|
 A The Tower of Althalaxx|QID|965|M|39.1, 43.5|N|From Sentinel Elissa Starbreeze upstairs.|
 A Deep Ocean, Vast Sea|LVL|13|QID|982|M|38.1,41.2|N|From Gorbold Steelhand.|
 T Tools of the Highborne|QID|958|M|37.4, 40.2|N|To Thundris Windweaver.|
@@ -114,7 +115,6 @@ A WANTED: Murkdeep!|QID|4740|M|37.23,44.23|N|From Board, no quest symbol above i
 T The Fragments Within|QID|4813|M|37.7, 43.4|N|To Sentinel Glynda Nal'Shea.|
 T Cleansing of the Infected|QID|2138|M|38.84,43.42|N|To Tharnariun Treetender.|
 A Tharnariun's Hope|QID|2139|PRE|2138|M|38.84,43.42|N|From Tharnariun Treetender.|
-T How Big a Threat?|QID|985|M|39.37,43.48|N|To Terenthis.|
 A A Lost Master|QID|986|PRE|985|M|39.37,43.48|N|From Terenthis.|
 T Deep Ocean, Vast Sea|QID|982|M|38.12,41.22|N|To Gorbold Steelhand.|
 r Repair/Sell|QID|2178|M|38.12,41.22|N|While standing here, repair and sell junk to Elisa Steelhand.|
