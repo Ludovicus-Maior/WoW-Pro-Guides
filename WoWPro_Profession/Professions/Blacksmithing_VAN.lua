@@ -53,7 +53,7 @@ B [item=2605/Green Dye]|QID|164002605|L|2605 35|ITEM|2605|N|You'll need about 35
 N [item=7995/Plans: Mithril Scale Bracers]|RECIPE|9937|N|Next step you will need to travel to go buy this Blacksmithing Plan for about 60s, or you can buy from your local AH, but an alternate item to craft is in the guide.|
 B [spell=9937/Plans: Mithril Scale Bracers]|QID|164007995|M|47.23,52.11|Z|Swamp of Sorrows|RECIPE|9937|N|Purchase [item=7995/Plans: Mithril Scale Bracers] from Gharash, Stonard, Swamp of Sorrows\n[color=cc0000]Random spawn timer for plans[/color]\nIf you dont want to get, Right Click this step.|FACTION|Horde|
 B [spell=9937/Plans: Mithril Scale Bracers]|QID|164007995|M|13.6,44.8|Z|The Hinterlands|RECIPE|9937|N|Purchase [item=7995/Plans: Mithril Scale Bracers] from Harggan, The Hinterlands\n[color=cc0000]Random spawn timer for plans[/color]\nIf you dont want to get, Right Click this step.|FACTION|Alliance|
-l Mithril Bar|QID|164003860|RECIPE|7995|L|3860 374|N|You'll need about 374 Mithril Bar instead, since you skipped the [item=7995/Plans: Mithril Scale Bracers].|
+l [item=3860/Mithril Bar]|QID|164003860|RECIPE|9937|L|3860 374|N|You'll need about 374 Mithril Bar instead, since you skipped the [item=7995/Plans: Mithril Scale Bracers].|
 N Smelting|QID|186002841|P|Mining;186;0|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
 M [item=2841/Bronze Bar]|QID|164002689|P|Mining;186;0+50;0|L|2841 150|CRAFT|2689 150|MATS|2840 1;3576 1|
 M [item=3859/Steel Bar]|QID|164003569|P|Mining;186;0+125;0|L|3859 50|CRAFT|3569 50|MATS|3575 1;3857 1|
@@ -108,7 +108,7 @@ M [item=12425/Imperial Plate Bracers]|QID|164016649|P|Blacksmithing;164;0+291;1|
 = Learn Recipe|QID|164002801|P|Blacksmithing;164;0+280|RECIPE|16653|N|Learn [spell=16653/Thorium Helm] Recipe from Trainer.|
 M [item=12410/Thorium Helm]|QID|164016653|P|Blacksmithing;164;0+300;1|ITEM|12410|CRAFT|16653 10|MATS|12359 12;7910 1|
 
-N Congradulations!|N|That completes Blacksmithing Plans 1-300.
+N Congratulations!|N|That completes Blacksmithing Plans 1-300.
 ]]
 end)
 
