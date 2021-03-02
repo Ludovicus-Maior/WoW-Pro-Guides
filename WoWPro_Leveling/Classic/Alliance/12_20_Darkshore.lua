@@ -102,6 +102,7 @@ T The Tower of Althalaxx|QID|965|M|54.9, 24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|966|M|54.9, 24.9|N|From Balthule Shadowstrike.|PRE|965|
 A Beached Sea Turtle|QID|4727|PRE|4681|M|53.12,18.17|N|On the beach, no enemies around.|
 C The Principal Source|QID|6122|C|Druid|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|NC|
+H Auberdine|ACTIVE|730|M|37.04,44.12|Z|Darkshore|N|Return to Auberdine. If hearthstone is on CD you can be killing any animals with quest objectives remaining in the area|
 A Beached Sea Turtle|QID|4722|PRE|4681|M|37.15,62.19|N|On Beach with level 13 Murlocs around.|
 C Cleansing of the Infected|QID|2138|US|N|Finish killing the Rabid Thistle Bears that spawn around the area.|
 C Buzzbox 323|QID|1002|US|N|Finish collecting fangs.|
