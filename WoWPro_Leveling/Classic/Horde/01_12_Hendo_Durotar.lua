@@ -297,7 +297,7 @@ R Thunder Ridge|QID|806|M|39.18,32.29|N|Run to the entrance of Thunder Ridge.|
 C Path of Defense|QID|1498|N|While you are in Thunder Ridge get the scales from the Thunder Lizards.|R|Orc,Troll|C|Warrior|S|
 R Dark Storms|QID|806|M|41.67,25.54|CC|N|The path to Fizzle Darkstorm's camp is here.|
 C Hidden Enemies|QID|5726|QO|1|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenant's Insignia.|S|
-C Dark Storms|QID|806|QO|1|N|Kill Fizzle Darkstorm and loot his Claw. He wanders around the camp, so clear the camp around him to get him without adds. Depending on your class you should kill his Imp first.|
+C Dark Storms|QID|806|QO|1|N|Kill Fizzle Darkstorm and loot his Claw. He pathes between the campfire and the alcove to the east.\nStarting with the guard circling the perimeter, clear the camp in a counter-clockwise direction. It's probably best to wait until Fizzle moves to the alcove before starting each fight.|
 C Path of Defense|QID|1498|N|Finish collecting the scales from the Thunder Lizards.|R|Orc,Troll|C|Warrior|US|
 R Exit Thunder Ridge|QID|806|M|39.18,32.29|CC|N|Run back to the entrance of Thunder Ridge.|
 T Lost But Not Forgotten|QID|816|M|43.11,30.22|N|To Misha Tor'kren.|
