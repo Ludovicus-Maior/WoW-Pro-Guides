@@ -85,7 +85,7 @@ A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of 
 A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor.|
 T Lessons Anew|QID|6121|C|Druid|M|56.21,30.62|Z|Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|
 A The Principal Source|QID|6122|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6121|
-H Auberdine|ACTIVE|730|M|58.40,94.01|Z|Teldrassil|N|Hearth back to Auberdine. Fly from Rut'theran Village if on CD|
+H Auberdine|ACTIVE|730|M|37.04,44.12|Z|Auberdine|N|Hearth back to Auberdine. Fly from Rut'theran Village if on CD|
 T Trouble In Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
 T As Water Cascades|QID|4812|M|47.3,48.7|N|At the Mysterious Red Crystal|
 A The Fragments Within|QID|4813|M|47.3,48.7|N|At the Mysterious Red Crystal|PRE|4812|
