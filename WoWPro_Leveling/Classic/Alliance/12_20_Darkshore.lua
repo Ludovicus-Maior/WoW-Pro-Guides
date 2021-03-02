@@ -64,7 +64,7 @@ A The Fall of Ameth'Aran|QID|953|M|40.3,59.7|N|From Sentinel Tysha Moonblade.|
 C The Fall of Ameth'Aran|QID|953|QO|2|M|42.7,63.1|N|Click to read the Fall.|NC|
 C Bashal'Aran|QID|957|M|42.37,61.83|N|Click on the flame to destroy the seal.|NC|
 C The Lay of Ameth'Aran|QID|953|QO|1|M|43.3,58.8|N|Click to read the Lay.|NC|
-C For Love Eternal|QID|963|M|42,62|N|Kill Anaya Dawnrunner. Neutral Ghost NE Female that roams around the area. She is level 16 but doesn't hit hard.|T|Anaya Dawnrunner|
+C For Love Eternal|QID|963|M|42,62|N|Kill Anaya Dawnrunner. Neutral NE Female ghost that roams around the area. She is level 16 but doesn't hit hard.|T|Anaya Dawnrunner|
 C Tools of the Highborne|QID|958|M|42.7,63.1|US|N|Finish killing the Highbornes.|
 T The Fall of Ameth'Aran|QID|953|M|40.3, 59.7|N|To Sentinel Tysha Moonblade.|
 C How Big a Threat?|QID|985|M|39,53|N|Head north to kill the furbolg camps|
