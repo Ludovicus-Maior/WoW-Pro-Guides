@@ -160,12 +160,12 @@ R Lake Elune'ara|ACTIVE|29|C|Druid|M|52.72,37.91|Z|Moonglade|N|Run to this rock 
 C Trial of the Lake|QID|29|C|Druid|N|Search the lake bed for a Shrine Bauble. They can be anywhere in the water. There is a fissure at the bottom of the lake to replenish your breath with.\nOnce you have the Bauble, make your way to the Shrine of Remulos (NW of the lake) and use it within the boundaries of the Shrine. The Bauble has a 5 minute timer attached to it.|U|15877|
 T Trial of the Lake|QID|29|C|Druid|M|36.51,40.12|N|To Tajarri. The quest timer continues running until you speak with her.\n** You will fail the quest if the timer expires.|
 A Trial of the Sea Lion|QID|272|C|Druid|M|36.51,40.12|N|From Tajarri.|PRE|29|
-F Rut'theran Village|QID|272|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
-F Auberdine|QID|272|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
+F Rut'theran Village|QID|968|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
+F Auberdine|QID|968|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
 C Buzzbox 525|QID|1003|M|41,80|S|N|Now that we're heading south you will find Grizzled Thistle Bears to kill.|
 C A Lost Master|QID|986|M|42,92|S|N|Slay all Moonstalker Sires and Moonstalker Matriarchs on sight.|
-A Beached Sea Creature|QID|4728|PRE|4681|M|36.08,70.92|N|Surrounded by level 15 Murlocs.|
+A Beached Sea Creature|QID|4728|PRE|4681|M|36.08,70.92|N|Surrounded by level 15 Murlocs, stand at the base of the neck again to be able to interact|
 C WANTED: Murkdeep!|QID|4740|M|36.3,76.5|N|Before you start clearing here is whats going to happen. After you clear the camp out you will stand near the bonfire. The first wave of murlocs will be three level 12 coastrunners, no big deal. The second wave will be two level 15 warriors, no big deal. The third and hardest wave is level 19 Murkdeep and a level 16 hunter. Once you drink up, stand near the bonfire and complete the event. Group up if you can.|
 T Grove of the Ancients|QID|952|M|43.5, 76.3|N|To Onu.|
 T Onu|QID|948|M|43.5,76.3|N|To Onu.|
@@ -177,25 +177,20 @@ C The Twilight Camp|QID|949|M|38.55,86.05|N|Click the book on the podium beside 
 T The Twilight Camp|QID|949|M|38.55,86.05|N|To Twilight Tome.|
 A Return to Onu|QID|950|M|38.55,86.05|N|From Twilight Tome.|PRE|949|
 N Leftover quest item|QID|950|N|As you no longer need it, you can safely destroy the Phial of Scrying to free up bag space.|
+L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|The Twilight around here have a small chance to drop the book, turn in is in ironforge which we will head to later. Skip if you're not interested.|
+A The Powers Below|QID|968|M|38.64,87.33|U|5352|N|Click the book to accept the quest.|
 T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
-A Mathystra Relics|QID|951|PRE|950|M|43.5,76.5|N|From Onu.|
-T The Absent Minded Prospector|QID|729|M|35.69,83.63|N|This will most likely require a group unless you're really overleveled and strong. It opens up a chain that will benefit you later so I recommend you doing it if possible. DON'T accept next quest until all of your group has turned this in. Warn your group as well, so you can all start the escort together.|
-N Escort may need group|QID|731|GROUP|2|N|This next quest is an escort quest, and is almost impossible to solo for any class. I suggest asking in general chat for people interested in doing it, or looking for people who are doing it already in the camp but are having trouble. While your waiting move on to the next step.|
-A The Absent Minded Prospector|QID|731|M|35.69,83.63|N|Remember you should have a group for this, he will pull lots of aggro and won't stop to help like most escorts. You can move to next quest while waiting for a group.|PRE|729|
-C The Absent Minded Prospector|QID|731|M|35.69,83.63|N|Protect him as he digs up stuff.|
-C Fruit of the Sea|QID|1138|S|N|Kill Reef Crawlers and Encrusted Tide Crawlers until you have 6 Fine Crab Chunks.|
+C Fruit of the Sea|QID|1138|S|N|Keep an eye out for Reef Crawlers and Encrusted Reef Crawlers whilst on the beaches of Darkshore|
 A Beached Sea Creature|QID|4730|PRE|4681|M|32.73,80.75|N|Surrounded by level 15 Murlocs|
 A Beached Sea Turtle|QID|4731|PRE|4681|M|31.68,83.63|N|Surrounded by level 20 Murlocs.|
 A Beached Sea Turtle|QID|4732|PRE|4681|M|31.27,85.54|N|Surrounded by level 20 Murlocs.|
 A Beached Sea Creature|QID|4733|PRE|4681|M|31.29,87.35|N|Surrounded by level 20 Murlocs.|
-C Fruit of the Sea|QID|1138|US|N|Kill Reef Crawlers and Encrusted Tide Crawlers until you have 6 Fine Crab Chunks.|
 C A Lost Master|QID|986|M|43.5, 76.3|US|N|Finish up with your Pelts.|
 C Buzzbox 525|QID|1003|M|41,80|US|N|Finish up with your scalps.|
 T Buzzbox 525|QID|1003|M|41.40,80.56|US|N|Finish up with your scalps.|
 H Auberdine|QID|986|N|Time to head back and turn stuff in.|
 T WANTED: Murkdeep!|QID|4740|M|37.6,43.41|N|To Sentinel Glynda Nal'Shea.|
-T The Absent Minded Prospector|QID|731|M|37.44,41.85|N|To Archaeologist Hollee.|
-A The Absent Minded Prospector|QID|741|M|37.44,41.85|N|From Archaeologist Hollee.|PRE|731|
+A Mathystra Relics|QID|951|PRE|950|M|43.5,76.5|N|From Onu.|
 T A Lost Master|QID|986|M|39.37,43.48|N|To Terenthis.|
 A A Lost Master|QID|993|M|39.37,43.48|N|From Terenthis.|PRE|986|
 T Fruit of the Sea|QID|1138|M|36.1,44.9|N|To Gubber Blump.|
@@ -204,25 +199,41 @@ T Beached Sea Creature|QID|4730|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4731|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4732|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Creature|QID|4733|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
-F Rut'theran Village|ACTIVE|741|M|36.34,45.58|N|Time to head back to Darnassus, if you're level 18 be sure to train up while you're there, do professions, bank, repair, sell.|
-R Darnassus|ACTIVE|741|M|55.88,89.55|Z|Teldrassil|
-T The Absent Minded Prospector|QID|741|M|31.23,84.41|Z|Darnassus|N|To Chief Archaeologist Greywhisker.|
-A The Absent Minded Prospector|QID|942|PRE|741|M|31.23,84.41|Z|Darnassus|N|From Chief Archaeologist Greywhisker.|
-F Auberdine|QID|993|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
+N Visit Darnassus|QID|1002|N|If you are level 18 take this opportunity to go visit your trainers, the bank, AH, etc.|
+N Escorts may need group|QID|741|N|You will be doing 5 escort quests in a row here. You can take the opportunity to look for others to assist you as it will make the next steps a lot easier.|
+T The Absent Minded Prospector|QID|729|M|35.69,83.63|N|If you are doing this quest with a group. DON'T accept next quest until all of your group has turned this in. Warn your group as well, so you can all start the escort together.|
+A The Absent Minded Prospector|QID|731|M|35.69,83.63|N|This NPC will only stop to assist in combat if he gets hit first. If you are doing this quest solo be sure to let him walk ahead to engage in combat.|PRE|729|
+C The Absent Minded Prospector|QID|731|M|35.69,83.63|N|Protect him as he digs up stuff, let him engage the combat but watch his health to ensure he doesn't die. Troggs will spawn as he walks around, the very last wave will contain a geomancer. Be sure to kill the geomancer first as they cast fireball which does a LOT of damage. Interupts and Stuns help a lot.|
+A Therylune's Escape|QID|945|M|38.64,87.33|N|From Therylune. Might have to wait a few for her to respawn.|
+C Therylune's Escape|QID|945|M|40.51,87.09|N|Escort her out. Be sure to loot everything you kill as they have a chance of dropping a book that starts a quest.|
+A The Powers Below|QID|968|M|38.64,87.33|U|5352|N|If you manage to loot the book click it in your inventory to accept the quest. Skip if you're not interested.|
+A One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|From Sentinel Aynasha.|
+C One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|Three waves of attacks... 1st wave has 2 enemies, 2nd has 3, 3rd has a single level 16. After killing all 3 waves, a short period of time will pass and the quest will complete.|
 T A Lost Master|QID|993|M|45,85.3|N|Start clearing into the camp, make sure to clear ALL the furbolgs out. Go into the cave and turn in A Lost Master. You will have 2 options, to escape by stealth or escape by force. Stealth is easy and awards cloth pants. Force is a very difficult escort and awards a leather belt and double the exp/silver than the stealth. If you have a group go for the force.|
 A Escape Through Force or Stealth|QID|994^995|N|Stealth is much easier and requires no fighting but rewards half the exp and silver. Force is a tough escort that will probably require a group.|PRE|993|
 C Escape Through Force|ACTIVE|994|M|41.91,81.59|N|Prepare for an escort with 3 waves of fighting. Stay behind Volcor and allow him to pull the aggro first. If he doesn't get aggro, he will keep walking into the next wave.\nThe quest will complete when you reach the road/Grimclaw.|
-A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|N|A 25 minute quest timer will start as soon as you accept this quest. Escort Kerlonian to Maestra's Post in Ashenvale.\nThis is not an easy quest. The point of this quest is to get the FP in Ashenvale.|
+A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|N|A 25 minute quest timer will start as soon as you accept this quest. Escort Kerlonian to Maestra's Post in Ashenvale.\n|
 C The Sleeper Has Awakened|QID|5321|M|44.38,76.31|QO|1|N|Loot the Horn of awakening from the box on the ground.|
 C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Kerlonian will follow you at your pace. He will announce when he is falling asleep. Move close to him and use the horn to wake him up. Get to the road and travel south.\nYou'll face two ambushes, both will consist of three Twilight mobs. He will announce when these ambushes are about to happen. You can avoid the ambushes by not taking the road and sticking to the hills instead.|
+T One Shot.  One Kill.|QID|5713|M|26.60,36.72|Z|Ashenvale|N|From Sentinel Onaeya at Maestra's Post.|
 T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|To Liladris Moonriver.|
 T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|Ashenvale|N|Do not get followup.|
+T Therylune's Escape|QID|945|M|22.65,51.92|Z|Ashenvale|N|To Therysil at the Shrine of Aessina.|
 f Astranaar|QID|994^995|M|25.53,38.73;26.17,46.43;34.41,47.99|CC|Z|Ashenvale|N|Get the flight path while you're here.|
-F Auberdine|QID|994^995|N|Fly back to turn in quests, repair and sell. If you reached level 18 goto Darnassus and train up.|
+F Auberdine|QID|994^995|N|Fly back to turn in quests, repair and sell.|
+T The Absent Minded Prospector|QID|731|M|37.44,41.85|N|To Archaeologist Hollee.|
+A The Absent Minded Prospector|QID|741|M|37.44,41.85|N|From Archaeologist Hollee.|PRE|731|
 T Escape Through Stealth|QID|995|M|39.37,43.48|N|To Terenthis.|
 T Escape Through Force|QID|994|M|39.37,43.48|N|To Terenthis.|
-C The Blackwood Corrupted|QID|4763|M|52.5, 33.5|U|12347|N|Use your Filled Cleansing Bowel at the bonfire in the center of the furbolg camp, wait for a second then kill Xabraxxis and loot his bag he drops on the ground.\nBe aware that if you die after using the bowl, you have to abandon the quest and start again from Auberdine. \n Do note, you do not have to kill him to get the bag. As long as you are there when he dies and get to it before it despawns.|
-R Gyromast's Retrieval|QID|2098|M|40.13,46.46;50.75,24.68|CN|N|Follow the river up to the beach, and jump off the bridge into the water.|
+F Rut'theran Village|ACTIVE|741|M|36.34,45.58|N|Time to head back to Darnassus, Be sure to pickup your level 18 skills from your trainer, do professions, bank, repair, sell.|
+R Darnassus|ACTIVE|741|M|55.88,89.55|Z|Teldrassil|
+T The Absent Minded Prospector|QID|741|M|31.23,84.41|Z|Darnassus|N|To Chief Archaeologist Greywhisker.|
+A The Absent Minded Prospector|QID|942|PRE|741|M|31.23,84.41|Z|Darnassus|N|From Chief Archaeologist Greywhisker.|
+T The Absent Minded Prospector|QID|741|M|31.23,84.41|Z|Darnassus|N|To Chief Archaeologist Greywhisker.|
+A The Absent Minded Prospector|QID|942|PRE|741|M|31.23,84.41|Z|Darnassus|N|From Chief Archaeologist Greywhisker.|
+F Auberdine|QID|993|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
+C The Blackwood Corrupted|QID|4763|M|52.5, 33.5|U|12347|N|Clear the furbolgs at the center of the camp and use your Filled Cleansing Bowel on the bonfire, all the furbolgs near by will run to the bonfire but don't panic. \nA hostile Satyr named Xabraxxis will spawn who you need to kill and then loot his bag. \nDo note, if you die you have a short amount of time to run back before he despawns. Otherwise you will have to abandon and start the quest again in Auberdine or wait for someone else to spawn him. \nYou do not have be the one to kill him to get the bag. As long as you are there when he dies and get to it before it despawns.|
+C Fruit of the Sea|QID|1138|M|50.00,22.00|US|N|Kill Reef Crawlers and Encrusted Tide Crawlers until you have 6 Fine Crab Chunks.|
 ; Druid class quest line for swim form
 C Trial of the Sea Lion|QID|272|C|Druid|M|48.85,11.28|L|15883|N|Swim out towards the furthest set of rock islands in front of you. Look for the group of Threshers. They surround the chest you are looking for.\nThe 2nd part of this quest is in Westfall, EK. You'll back-burner this quest chain for now until you are in the area.|NC|
 A Gyromast's Retrieval|QID|2098|M|56.67,13.49|N|From Gelkak Gyromast.|
@@ -243,27 +254,14 @@ F Rut'theran Village|QID|951|M|36.34,45.58|N|Time to head back to Darnassus to d
 R Darnassus|QID|951|M|55.88,89.55|Z|Teldrassil|
 F Auberdine|QID|951|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
 T Mathystra Relics|QID|951|M|43.5,76.3|N|To Onu.|
-A Therylune's Escape|QID|945|M|38.64,87.33|N|From Therylune. Might have to wait a few for her to respawn.|
-C Therylune's Escape|QID|945|M|40.51,87.09|N|Escort her out. Be sure to loot everything you kill as they have a chance of dropping a book that starts a quest.|
-L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|The Twilight around here have a small chance to drop the book, turn in is in ironforge which we will head to later. Skip if you're not interested.|
-A The Powers Below|QID|968|M|38.64,87.33|U|5352|N|Click the book to accept the quest. Skip if you're not interested.|
-A One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|From Sentinel Aynasha.|
-C One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|Three waves of attacks... 1st wave has 2 enemies, 2nd has 3, 3rd has a single level 16. After killing all 3 waves, a short period of time will pass and the quest will complete.|
-T One Shot.  One Kill.|QID|5713|M|26.60,36.72|Z|Ashenvale|N|From Sentinel Onaeya at Maestra's Post.|
-T Therylune's Escape|QID|945|M|22.65,51.92|Z|Ashenvale|N|To Therysil at the Shrine of Aessina.|
-N Pretty much done|QID|942|N|At this point, you should be done with every quest in the zone. Ideally, you would be higher level and move on to Ashenvale next. But, chances are, you're only 18 or 19 right now. So, you can continue on to Ashenvale from here (but, it will be difficult), or go back to Auberdine, to sail to Wetlands and follow through with the prospector and book of power quests, getting the Ironforge flightpath which will be useful in the Ashenvale questline anyway. The rest of this guide will assume you're going to Wetlands.|
+L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|If you haven't gotten the book yet you can grind here one last time as we will be moving to Ironforge next where the quest turn in is. Otherwise go ahead and skip again.|
+N Next steps|QID|942|N|At this point, you should be done with every quest in the zone. The guide from this point will direct you on how to travel to Ironforge to turn in the Prospector and Powers Below quests. If you are already 20+ and do not wish to go to Ironforge yet you can finish the guide here and move to Ashenvale.|
 H Auberdine|ACTIVE|942|N|Hearth back to Auberdine or run to Astranaar and fly back to Auberdine.|
 b Wetlands|QID|942|M|32.42,43.74|N|Get on the boat to Menethil Harbor (read the sign post).|
 f Menethil Harbor|QID|942|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|
 T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|Wetlands|N|To Archaeologist Flagongut, on the 2nd floor of the Deepwater Tavern. Don't take follow up, too high level for now.|
-N Put on your running shoes|QID|968|N|You have a long run ahead of you. You will be travelling from here to Ironforge and on to Stormwind City.\nPart of this run is to turn in a quest (if you found the book). The other part is to get a couple required FPs along the way.|
-R Dun Algaz|QID|968|M|53.89,70.32|Z|Wetlands|N|Run to Loch Modan. Stick to the road.|
-R Loch Modan|QID|968|M|55.64,84.75|Z|Wetlands|N|Run to Loch Modan. Go through tunnel and stick to the road.|
-R Thelsamar|QID|968|M|33.92,50.95|Z|Loch Modan|N|Run to Thelsamar. Go through tunnel and stick to the road.|
-f Thelsamar|QID|968|M|33.92,50.95|Z|Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|TAXI|-Thelsamar|
-R Dun Morogh|QID|968|M|16.40,58.43|Z|Loch Modan|N|Run to Dun Morogh. Stick to the road, follow the signs.|
-R Gates of Ironforge|QID|968|M|51.03,40.35|Z|Dun Morogh|N|Run to Dun Ironforge. Stick to the road, follow the signs.|
-R Ironforge|QID|968|M|53.46,34.96|Z|Dun Morogh|N|Keep running up.|
+N Heading to Stormwind|QID|968|N|From here we need to get to Ironforge and on to Stormwind City to grab the FPs for the other major cities and turn in a quest (if you found the book). If you do not already have means to get to Ironforge (Mage/Warlock/FP) then you can follow the next steps to get there relatively quickly |
+N I'm on a boat|QID|968|N| To get to IF quickly you can use the following steps. \nGet onto the boat to Theramore at the docks. \nAs it sets off look out on the port side, once you see the boat get very close to land jump off. \nOpen the map and look at the Dun Morogh map you will see your character in the north above the mountains. \nRun west along the coast until you arrive at the small bay visible on the map. \nHead towards the shore in the bay until you see your General Chat change to Dun Morogh. \nWhilst staying in the Dun Morogh zone drown yourself in the water. \nFrom the graveyard head north and then east at the fork after the bridge. \nOnce inside Ironforge take a right and zone into the Deeprun tram. \nYou will end up in the Deeprun Tram alive again and can now head back into Ironforge|
 f Ironforge|QID|968|M|55.49,47.72|Z|Ironforge|N|Grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|
 T The Powers Below|QID|968|M|50.82,5.66|Z|Ironforge|N|To Gerrig Bonegrip.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|ELITE|N|[color=E6CC80]Dungeon: 'BFD'[/color]\nAnother quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
