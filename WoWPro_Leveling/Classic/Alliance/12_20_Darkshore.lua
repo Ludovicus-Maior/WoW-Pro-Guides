@@ -8,7 +8,6 @@ WoWPro:GuideNextGuide(guide, 'ClassicRedridge1517')
 WoWPro:GuideSteps(guide, function() return [[
 
 ; --- This guide begins in Darnassus
-
 R Rut'theran Village|QID|952|AVAILABLE|3524|M|28.82,41.50|Z|Darnassus|N|Walk into the portal down to Rut'theran.|
 F Auberdine|QID|952|AVAILABLE|3524|M|58.40,94.01|Z|Teldrassil|N|At Vesprystus.|
 A Washed Ashore|QID|3524|M|36.6,45.6|N|From Gwennyth Bly'Leggonde.|
@@ -79,7 +78,6 @@ A Deep Ocean, Vast Sea|LVL|13|QID|982|M|38.1,41.2|N|From Gorbold Steelhand.|
 T Tools of the Highborne|QID|958|M|37.4, 40.2|N|To Thundris Windweaver.|
 N Get to level 14|QID|1003|LVL|-14|N|Grind mobs until you are level 14. Finish any sticky quests left.|
 N Sell junk, train, etc.|QID|730|N|Head back to Darnassus to train up, grab a quest, do some banking, profession work and sell/repair.|
-
 F Rut'theran Village|QID|730|M|36.34,45.58|N|Take a ride to the village.|
 R Darnassus|QID|730|M|55.88,89.55|Z|Teldrassil|
 A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
@@ -164,7 +162,6 @@ T Trial of the Lake|QID|29|C|Druid|M|36.51,40.12|N|To Tajarri. The quest timer c
 A Trial of the Sea Lion|QID|272|C|Druid|M|36.51,40.12|N|From Tajarri.|PRE|29|
 F Rut'theran Village|QID|272|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
 F Auberdine|QID|272|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
-
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
 C Buzzbox 525|QID|1003|M|41,80|S|N|Now that we're heading south you will find Grizzled Thistle Bears to kill.|
 C A Lost Master|QID|986|M|42,92|S|N|Slay all Moonstalker Sires and Moonstalker Matriarchs on sight.|
@@ -207,13 +204,11 @@ T Beached Sea Creature|QID|4730|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4731|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4732|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Creature|QID|4733|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
-
 F Rut'theran Village|ACTIVE|741|M|36.34,45.58|N|Time to head back to Darnassus, if you're level 18 be sure to train up while you're there, do professions, bank, repair, sell.|
 R Darnassus|ACTIVE|741|M|55.88,89.55|Z|Teldrassil|
 T The Absent Minded Prospector|QID|741|M|31.23,84.41|Z|Darnassus|N|To Chief Archaeologist Greywhisker.|
 A The Absent Minded Prospector|QID|942|PRE|741|M|31.23,84.41|Z|Darnassus|N|From Chief Archaeologist Greywhisker.|
 F Auberdine|QID|993|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
-
 T A Lost Master|QID|993|M|45,85.3|N|Start clearing into the camp, make sure to clear ALL the furbolgs out. Go into the cave and turn in A Lost Master. You will have 2 options, to escape by stealth or escape by force. Stealth is easy and awards cloth pants. Force is a very difficult escort and awards a leather belt and double the exp/silver than the stealth. If you have a group go for the force.|
 A Escape Through Force or Stealth|QID|994^995|N|Stealth is much easier and requires no fighting but rewards half the exp and silver. Force is a tough escort that will probably require a group.|PRE|993|
 C Escape Through Force|ACTIVE|994|M|41.91,81.59|N|Prepare for an escort with 3 waves of fighting. Stay behind Volcor and allow him to pull the aggro first. If he doesn't get aggro, he will keep walking into the next wave.\nThe quest will complete when you reach the road/Grimclaw.|
@@ -223,14 +218,11 @@ C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Kerlonian 
 T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|To Liladris Moonriver.|
 T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|Ashenvale|N|Do not get followup.|
 f Astranaar|QID|994^995|M|25.53,38.73;26.17,46.43;34.41,47.99|CC|Z|Ashenvale|N|Get the flight path while you're here.|
-
 F Auberdine|QID|994^995|N|Fly back to turn in quests, repair and sell. If you reached level 18 goto Darnassus and train up.|
 T Escape Through Stealth|QID|995|M|39.37,43.48|N|To Terenthis.|
 T Escape Through Force|QID|994|M|39.37,43.48|N|To Terenthis.|
-
 C The Blackwood Corrupted|QID|4763|M|52.5, 33.5|U|12347|N|Use your Filled Cleansing Bowel at the bonfire in the center of the furbolg camp, wait for a second then kill Xabraxxis and loot his bag he drops on the ground.\nBe aware that if you die after using the bowl, you have to abandon the quest and start again from Auberdine. \n Do note, you do not have to kill him to get the bag. As long as you are there when he dies and get to it before it despawns.|
 R Gyromast's Retrieval|QID|2098|M|40.13,46.46;50.75,24.68|CN|N|Follow the river up to the beach, and jump off the bridge into the water.|
-
 ; Druid class quest line for swim form
 C Trial of the Sea Lion|QID|272|C|Druid|M|48.85,11.28|L|15883|N|Swim out towards the furthest set of rock islands in front of you. Look for the group of Threshers. They surround the chest you are looking for.\nThe 2nd part of this quest is in Westfall, EK. You'll back-burner this quest chain for now until you are in the area.|NC|
 A Gyromast's Retrieval|QID|2098|M|56.67,13.49|N|From Gelkak Gyromast.|
@@ -247,11 +239,9 @@ C Mathystra Relics|QID|951|M|59.55,15.66|QO|1|US|N|Look for the relics on the gr
 H Auberdine|QID|951|ACTIVE|951|N|Hearth or run back to Auberdine.|
 T The Blackwood Corrupted|QID|4763|M|37.40,40.13|N|To Thundris Windweaver|
 A Researching the Corruption|QID|1275|PRE|3765|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|
-
 F Rut'theran Village|QID|951|M|36.34,45.58|N|Time to head back to Darnassus to do your professions, bank, repair, sell. If you're level 20, be sure to visit your trainer.|
 R Darnassus|QID|951|M|55.88,89.55|Z|Teldrassil|
 F Auberdine|QID|951|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
-
 T Mathystra Relics|QID|951|M|43.5,76.3|N|To Onu.|
 A Therylune's Escape|QID|945|M|38.64,87.33|N|From Therylune. Might have to wait a few for her to respawn.|
 C Therylune's Escape|QID|945|M|40.51,87.09|N|Escort her out. Be sure to loot everything you kill as they have a chance of dropping a book that starts a quest.|
@@ -262,12 +252,10 @@ C One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|Three waves of attacks... 1st wa
 T One Shot.  One Kill.|QID|5713|M|26.60,36.72|Z|Ashenvale|N|From Sentinel Onaeya at Maestra's Post.|
 T Therylune's Escape|QID|945|M|22.65,51.92|Z|Ashenvale|N|To Therysil at the Shrine of Aessina.|
 N Pretty much done|QID|942|N|At this point, you should be done with every quest in the zone. Ideally, you would be higher level and move on to Ashenvale next. But, chances are, you're only 18 or 19 right now. So, you can continue on to Ashenvale from here (but, it will be difficult), or go back to Auberdine, to sail to Wetlands and follow through with the prospector and book of power quests, getting the Ironforge flightpath which will be useful in the Ashenvale questline anyway. The rest of this guide will assume you're going to Wetlands.|
-
 H Auberdine|ACTIVE|942|N|Hearth back to Auberdine or run to Astranaar and fly back to Auberdine.|
 b Wetlands|QID|942|M|32.42,43.74|N|Get on the boat to Menethil Harbor (read the sign post).|
 f Menethil Harbor|QID|942|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|
 T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|Wetlands|N|To Archaeologist Flagongut, on the 2nd floor of the Deepwater Tavern. Don't take follow up, too high level for now.|
-
 N Put on your running shoes|QID|968|N|You have a long run ahead of you. You will be travelling from here to Ironforge and on to Stormwind City.\nPart of this run is to turn in a quest (if you found the book). The other part is to get a couple required FPs along the way.|
 R Dun Algaz|QID|968|M|53.89,70.32|Z|Wetlands|N|Run to Loch Modan. Stick to the road.|
 R Loch Modan|QID|968|M|55.64,84.75|Z|Wetlands|N|Run to Loch Modan. Go through tunnel and stick to the road.|
