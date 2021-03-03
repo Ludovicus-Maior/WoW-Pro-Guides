@@ -64,7 +64,7 @@ A The Fall of Ameth'Aran|QID|953|M|40.3,59.7|N|From Sentinel Tysha Moonblade.|
 C The Fall of Ameth'Aran|QID|953|QO|2|M|42.7,63.1|N|Click to read the Fall.|NC|
 C Bashal'Aran|QID|957|M|42.37,61.83|N|Click on the flame to destroy the seal.|NC|
 C The Lay of Ameth'Aran|QID|953|QO|1|M|43.3,58.8|N|Click to read the Lay.|NC|
-C For Love Eternal|QID|963|M|42,62|N|Kill Anaya Dawnrunner. Neutral NE Female ghost that roams around the area. She is level 16 but doesn't hit hard.|T|Anaya Dawnrunner|
+C For Love Eternal|QID|963|M|42,62|N|Kill Anaya Dawnrunner. Neutral Ghost NE Female that roams around the area. She is level 16 but doesn't hit hard.|T|Anaya Dawnrunner|
 C Tools of the Highborne|QID|958|M|42.7,63.1|US|N|Finish killing the Highbornes.|
 T The Fall of Ameth'Aran|QID|953|M|40.3, 59.7|N|To Sentinel Tysha Moonblade.|
 C How Big a Threat?|QID|985|M|39,53|N|Head north to kill the furbolg camps|
@@ -79,6 +79,7 @@ A Deep Ocean, Vast Sea|LVL|13|QID|982|M|38.1,41.2|N|From Gorbold Steelhand.|
 T Tools of the Highborne|QID|958|M|37.4, 40.2|N|To Thundris Windweaver.|
 N Get to level 14|QID|1003|LVL|-14|N|Grind mobs until you are level 14. Finish any sticky quests left.|
 N Sell junk, train, etc.|QID|730|N|Head back to Darnassus to train up, grab a quest, do some banking, profession work and sell/repair.|
+
 F Rut'theran Village|QID|730|M|36.34,45.58|N|Take a ride to the village.|
 R Darnassus|QID|730|M|55.88,89.55|Z|Teldrassil|
 A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
@@ -126,52 +127,43 @@ T The Principal Source|QID|6122|C|Druid|M|37.67,40.70|N|To Alanndarian Nightsong
 A The Blackwood Corrupted|QID|4763|PRE|4762|M|37.4,40.2|N|From Thundris Windweaver|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|U|12346|L|12347|M|37.76,44.02|N|Clean the bowl in the moonwell.|
 A Gathering the Cure|QID|6123|C|Druid|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6122|
-
-N Visit Darnassus|QID|1002|N|Take this opportunity to go visit your trainers, the bank, AH, etc.|
-
 C Gathering the Cure|QID|6123|C|Druid|M|43,45;46,45;45,50|CS|QO|1;2|N|Found in the moonkin caves. Earthroot requires Herbalism or buy from AH or vendors.|NC|
-T Buzzbox 323|QID|1002|M|51.28,24.58|N|Long run back up north to Buzzbox 323.|
-A Buzzbox 525|QID|1003|M|51.28,24.58|N|From Buzzbox 323.|PRE|1002|
+T Gathering the Cure|QID|6123|C|Druid|M|37.67,40.70|N|To Alanndarian Nightsong.|
+A Curing the Sick|QID|6124|C|Druid|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6123|
+C Curing the Sick|QID|6124|C|Druid|S|N|They are all over the place.|U|15826|NC|
 C Tharnariun's Hope|QID|2139|M|52.37,35.88;52.71,36.65;51.6, 37.6|CS|N|Pull one of the Thistle Cubs and they will all run at you, burn one of the cubs down quickly and run away. Rinse and repeat until all 4 cubs are dead. Pull the Den Mother and kill her.|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12342|M|50.65,34.99|N|Interact with the Blackwood Grain Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12343|M|51.79,33.46|N|Interact with the Blackwood Nut Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12341|M|52.88,33.39|N|Interact with the Blackwood Fruit Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
-C The Blackwood Corrupted|QID|4763|M|52.5, 33.5|U|12347|N|Use your Filled Cleansing Bowel at the bonfire in the center of the furbolg camp, wait for a second then kill Xabraxxis and loot his bag he drops on the ground.\nBe aware that if you die after using the bowl, you have to abandon the quest and start again from Auberdine. \n Do note, you do not have to kill him to get the bag. As long as you are there when he dies and get to it before it despawns.|
-C Cave Mushrooms|QID|947|M|55,35|N|Collect the needed mushrooms that spawn on the ground.|NC|
+C Cave Mushrooms|QID|947|M|55,35|N|Head inside the cave and go to the right to find a Death Cap. The Scaber Stalks can be found all over the cave.  |NC|
 C The Tower of Althalaxx|QID|966|M|55.41,26.86|N|Do not enter the tower. Kill fanatics around the outside.|
 T The Tower of Althalaxx|QID|966|M|54.9,24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|967|N|From Balthule Shadowstrike.|PRE|966|
+T Buzzbox 323|QID|1002|M|51.28,24.58|N|Long run back up north to Buzzbox 323.|
+A Buzzbox 525|QID|1003|M|51.28,24.58|N|From Buzzbox 323.|PRE|1002|
 H Auberdine|ACTIVE|947|N|Hearth or run back to Auberdine.|
 T Cave Mushrooms|QID|947|M|37.3, 43.7|N|To Barithras Moonshade.|
 A Onu|QID|948|PRE|947|M|37.3, 43.7|N|From Barithras Moonshade.|
 T Tharnariun's Hope|QID|2139|M|38.84,43.42|N|To Tharnariun Treetender.|
 A The Absent Minded Prospector|QID|729|M|37.5,41.9|N|From Archaeologist Hollee.|
-N Leftover quest items|QID|4763|N|If you didn't use your bowl to summon Xabraxxis, you can safely destroy the 4 quest items.|
-T The Blackwood Corrupted|QID|4763|M|37.40,40.13|N|To Thundris Windweaver|
-T Gathering the Cure|QID|6123|C|Druid|M|37.67,40.70|N|To Alanndarian Nightsong.|
-
-A Curing the Sick|QID|6124|C|Druid|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6123|
 L Level 16|C|Druid|LVL|16;-1720|N|Make sure you are within 2 bubbles of level 16 before porting to Moonglade.|
-C Curing the Sick|QID|6124|C|Druid|N|They are all over the place. When done, teleport to Moonglade.|U|15826|T|Sickly Deer|NC|
-T Curing the Sick|QID|6124|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze in Moonglade.|
+C Curing the Sick|QID|6124|C|Druid|N|Finish curing the deer.|U|15826|T|Sickly Deer|NC|
+T Curing the Sick|QID|6124|C|Druid|M|56.21,30.62|Z|Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|
 A Power over Poison|QID|6125|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6124|
-F Rut'theran Village|QID|6125|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
-R Darnassus|QID|6125|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|
+F Rut'theran Village|QID|6125|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|PRE|6125|
+R Darnassus|QID|6125|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|PRE|6125|
 T Power over Poison|QID|6125|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
-
 ; Druid class quest line to gain swim form
 A A Lesson to Learn|QID|26|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker. This begins your class quest line to learn Aquatic form.|LVL|16|
 P Moonglade|QID|26|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|
 T A Lesson to Learn|QID|26|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|
 A Trial of the Lake|QID|29|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.|PRE|27|
-
 R Lake Elune'ara|ACTIVE|29|C|Druid|M|52.72,37.91|Z|Moonglade|N|Run to this rock ledge and JUMP into the water. Make sure you jump or you will take falling damage.|
-
 C Trial of the Lake|QID|29|C|Druid|N|Search the lake bed for a Shrine Bauble. They can be anywhere in the water. There is a fissure at the bottom of the lake to replenish your breath with.\nOnce you have the Bauble, make your way to the Shrine of Remulos (NW of the lake) and use it within the boundaries of the Shrine. The Bauble has a 5 minute timer attached to it.|U|15877|
 T Trial of the Lake|QID|29|C|Druid|M|36.51,40.12|N|To Tajarri. The quest timer continues running until you speak with her.\n** You will fail the quest if the timer expires.|
 A Trial of the Sea Lion|QID|272|C|Druid|M|36.51,40.12|N|From Tajarri.|PRE|29|
 F Rut'theran Village|QID|272|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
-F Auberdine|QID|272|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
+F Auberdine|QID|272|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
 
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
 C Buzzbox 525|QID|1003|M|41,80|S|N|Now that we're heading south you will find Grizzled Thistle Bears to kill.|
@@ -231,15 +223,16 @@ C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Kerlonian 
 T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|To Liladris Moonriver.|
 T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|Ashenvale|N|Do not get followup.|
 f Astranaar|QID|994^995|M|25.53,38.73;26.17,46.43;34.41,47.99|CC|Z|Ashenvale|N|Get the flight path while you're here.|
+
 F Auberdine|QID|994^995|N|Fly back to turn in quests, repair and sell. If you reached level 18 goto Darnassus and train up.|
 T Escape Through Stealth|QID|995|M|39.37,43.48|N|To Terenthis.|
 T Escape Through Force|QID|994|M|39.37,43.48|N|To Terenthis.|
 
-R Gyromast's Retrieval|QID|2098|M|40.13,46.46;50.75,24.68|CN|N|Leave Auberdine, follow the road north to Cliffspring River bridge, and jump off the bridge into the water.|
+C The Blackwood Corrupted|QID|4763|M|52.5, 33.5|U|12347|N|Use your Filled Cleansing Bowel at the bonfire in the center of the furbolg camp, wait for a second then kill Xabraxxis and loot his bag he drops on the ground.\nBe aware that if you die after using the bowl, you have to abandon the quest and start again from Auberdine. \n Do note, you do not have to kill him to get the bag. As long as you are there when he dies and get to it before it despawns.|
+R Gyromast's Retrieval|QID|2098|M|40.13,46.46;50.75,24.68|CN|N|Follow the river up to the beach, and jump off the bridge into the water.|
 
 ; Druid class quest line for swim form
 C Trial of the Sea Lion|QID|272|C|Druid|M|48.85,11.28|L|15883|N|Swim out towards the furthest set of rock islands in front of you. Look for the group of Threshers. They surround the chest you are looking for.\nThe 2nd part of this quest is in Westfall, EK. You'll back-burner this quest chain for now until you are in the area.|NC|
-
 A Gyromast's Retrieval|QID|2098|M|56.67,13.49|N|From Gelkak Gyromast.|
 C Gyromast's Retrieval|QID|2098|QO|2|M|55.41,12.52|N|Swim to the boat wreckage ahead of you and kill murlocs until you find the Middle of Gelkak's Key.|
 C Gyromast's Retrieval|QID|2098|QO|3|N|Kill Raging Reef Crawlers until you find the Bottom of Gelkak's Key.|
@@ -252,6 +245,7 @@ T Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|To Gelkak Gyromast.|
 N Trash the key|QID|951|N|Destroy Gyromast's Key, it is useless and wastes precious bag space. Skip this step when done.|
 C Mathystra Relics|QID|951|M|59.55,15.66|QO|1|US|N|Look for the relics on the ground in the area of the Ruins of Mathystra.|NC|
 H Auberdine|QID|951|ACTIVE|951|N|Hearth or run back to Auberdine.|
+T The Blackwood Corrupted|QID|4763|M|37.40,40.13|N|To Thundris Windweaver|
 A Researching the Corruption|QID|1275|PRE|3765|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|
 
 F Rut'theran Village|QID|951|M|36.34,45.58|N|Time to head back to Darnassus to do your professions, bank, repair, sell. If you're level 20, be sure to visit your trainer.|
