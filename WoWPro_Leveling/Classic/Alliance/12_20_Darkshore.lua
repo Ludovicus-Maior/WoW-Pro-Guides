@@ -137,7 +137,7 @@ C Cave Mushrooms|QID|947|M|55,35|N|Head inside the cave and go to the right to f
 C The Tower of Althalaxx|QID|966|M|55.41,26.86|N|Do not enter the tower. Kill fanatics around the outside.|
 T The Tower of Althalaxx|QID|966|M|54.9,24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|967|N|From Balthule Shadowstrike.|PRE|966|
-T Buzzbox 323|QID|1002|M|51.28,24.58|N|Long run back up north to Buzzbox 323.|
+T Buzzbox 323|QID|1002|M|51.28,24.58|N|Turn in to Buzzbox 323.|
 A Buzzbox 525|QID|1003|M|51.28,24.58|N|From Buzzbox 323.|PRE|1002|
 H Auberdine|ACTIVE|947|N|Hearth or run back to Auberdine.|
 T Cave Mushrooms|QID|947|M|37.3, 43.7|N|To Barithras Moonshade.|
