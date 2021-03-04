@@ -12,7 +12,7 @@ WoWPro:GuideSteps(guide, function() return [[
 R Rut'theran Village|QID|952|AVAILABLE|3524|M|28.82,41.50|Z|Darnassus|N|Walk into the portal down to Rut'theran.|
 F Auberdine|QID|952|AVAILABLE|3524|M|58.40,94.01|Z|Teldrassil|N|At Vesprystus.|
 A Washed Ashore|QID|3524|M|36.6,45.6|N|From Gwennyth Bly'Leggonde.|
-h Auberdine|QID|952|ACTIVE|3524|M|37.04,44.12|N|Just go down the ramp from the flight area.|
+h Auberdine|QID|952|ACTIVE|3524|M|37.04,44.12|N|Go down the ramp from the flight area and set your hearthstone at the Innkeeper|
 A Buzzbox 827|QID|983|M|37,44.1|N|From Wizbang Cranktoggle, on the top floor of the Inn.|
 A For Love Eternal|QID|963|M|35.8, 43.7|N|From Cerellean Whiteclaw.|
 A Plagued Lands|QID|2118|M|38.8,43.4|N|From Tharnariun Treetender.|
@@ -64,14 +64,16 @@ A The Fall of Ameth'Aran|QID|953|M|40.3,59.7|N|From Sentinel Tysha Moonblade.|
 C The Fall of Ameth'Aran|QID|953|QO|2|M|42.7,63.1|N|Click to read the Fall.|NC|
 C Bashal'Aran|QID|957|M|42.37,61.83|N|Click on the flame to destroy the seal.|NC|
 C The Lay of Ameth'Aran|QID|953|QO|1|M|43.3,58.8|N|Click to read the Lay.|NC|
-C For Love Eternal|QID|963|M|42,62|N|Kill Anaya Dawnrunner. Roams around the area stealthed. She is level 16 but doesn't hit hard.|T|Anaya Dawnrunner|
+C For Love Eternal|QID|963|M|42,62|N|Kill Anaya Dawnrunner. Neutral NE Female ghost that roams around the area. She is level 16 but doesn't hit hard.|T|Anaya Dawnrunner|
 C Tools of the Highborne|QID|958|M|42.7,63.1|US|N|Finish killing the Highbornes.|
 T The Fall of Ameth'Aran|QID|953|M|40.3, 59.7|N|To Sentinel Tysha Moonblade.|
-H Auberdine|QID|963|ACTIVE|963|M|37.04,44.12|N|Head back to sell/repair and turn in quests.|
+C How Big a Threat?|QID|985|M|39,53|N|Head north to kill the furbolg camps|
+R Auberdine|QID|963|ACTIVE|963|M|37.04,44.12|N|Head back to sell/repair and turn in quests.|
 T For Love Eternal|QID|963|M|35.8, 43.7|N|To Cerellean Whiteclaw.|
 T The Red Crystal|QID|4811|M|37.7, 43.4|N|To Sentinel Glynda Nal'Shea.|
 A As Water Cascades|QID|4812|M|37.7, 43.4|N|From Sentinel Glynda Nal'Shea.|PRE|4811|
 C As Water Cascades|QID|4812|M|37.71,43.96|N|Fill your Empty Water Tube at the moonwell by the Inn.|U|14338|NC|
+T How Big a Threat?|QID|985|M|39.37,43.48|N|To Terenthis.|
 A The Tower of Althalaxx|QID|965|M|39.1, 43.5|N|From Sentinel Elissa Starbreeze upstairs.|
 A Deep Ocean, Vast Sea|LVL|13|QID|982|M|38.1,41.2|N|From Gorbold Steelhand.|
 T Tools of the Highborne|QID|958|M|37.4, 40.2|N|To Thundris Windweaver.|
@@ -80,11 +82,10 @@ N Sell junk, train, etc.|QID|730|N|Head back to Darnassus to train up, grab a qu
 F Rut'theran Village|QID|730|M|36.34,45.58|N|Take a ride to the village.|
 R Darnassus|QID|730|M|55.88,89.55|Z|Teldrassil|
 A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
-A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor. Teleport to Moonglade after accepting.|
-T Lessons Anew|QID|6121|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|
+A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor.|
+T Lessons Anew|QID|6121|C|Druid|M|56.21,30.62|Z|Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|
 A The Principal Source|QID|6122|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6121|
-F Rut'theran Village|ACTIVE|6122|M|44.15,45.22|Z|Moonglade|N|Fly back using Silva, the Darnassus Flight Master.|
-F Auberdine|ACTIVE|730|M|58.40,94.01|Z|Teldrassil|N|Go back through the portal to Vesprystus and fly back to Auberdine.|
+H Auberdine|ACTIVE|730|M|37.04,44.12|Z|Darkshore|N|Hearth back to Auberdine. Fly from Rut'theran Village if on CD|
 T Trouble In Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
 T As Water Cascades|QID|4812|M|47.3,48.7|N|At the Mysterious Red Crystal|
 A The Fragments Within|QID|4813|M|47.3,48.7|N|At the Mysterious Red Crystal|PRE|4812|
@@ -101,8 +102,9 @@ T The Tower of Althalaxx|QID|965|M|54.9, 24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|966|M|54.9, 24.9|N|From Balthule Shadowstrike.|PRE|965|
 A Beached Sea Turtle|QID|4727|PRE|4681|M|53.12,18.17|N|On the beach, no enemies around.|
 C The Principal Source|QID|6122|C|Druid|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|NC|
-C How Big a Threat?|QID|985|M|39,53|N|Bit of a run back down south but you can also get other quests done on the way|
-A Beached Sea Turtle|QID|4722|PRE|4681|M|37.15,62.19|N|On Beach with level 13 Murlocs around.|
+H Auberdine|ACTIVE|730|M|37.04,44.12|Z|Darkshore|N|Return to Auberdine. If hearthstone is on CD you can be killing any wildlife with quest objectives remaining in the area|
+R Auberdine|QID|963|ACTIVE|963|M|37.04,44.12|N|Sell/repair whilst at the Inn|
+A Beached Sea Turtle|QID|4722|PRE|4681|M|37.15,62.19|N| South of Auberdine with level 13 Murlocs around. Reminder to kill any wildlife you still need as you travel|
 C Cleansing of the Infected|QID|2138|US|N|Finish killing the Rabid Thistle Bears that spawn around the area.|
 C Buzzbox 323|QID|1002|US|N|Finish collecting fangs.|
 C Easy Strider Living|QID|2178|US|N|Finish collecting Strider meat.|
@@ -115,7 +117,6 @@ A WANTED: Murkdeep!|QID|4740|M|37.23,44.23|N|From Board, no quest symbol above i
 T The Fragments Within|QID|4813|M|37.7, 43.4|N|To Sentinel Glynda Nal'Shea.|
 T Cleansing of the Infected|QID|2138|M|38.84,43.42|N|To Tharnariun Treetender.|
 A Tharnariun's Hope|QID|2139|PRE|2138|M|38.84,43.42|N|From Tharnariun Treetender.|
-T How Big a Threat?|QID|985|M|39.37,43.48|N|To Terenthis.|
 A A Lost Master|QID|986|PRE|985|M|39.37,43.48|N|From Terenthis.|
 T Deep Ocean, Vast Sea|QID|982|M|38.12,41.22|N|To Gorbold Steelhand.|
 r Repair/Sell|QID|2178|M|38.12,41.22|N|While standing here, repair and sell junk to Elisa Steelhand.|
