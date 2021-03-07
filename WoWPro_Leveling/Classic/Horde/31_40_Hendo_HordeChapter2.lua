@@ -602,14 +602,33 @@ R Tarren Mill|ACTIVE|508^545^557^566|M|62.27,20.27|Z|Hillsbrad Foothills|N|Retur
 T Taretha's Gift|QID|508|M|63.23,20.65|Z|Hillsbrad Foothills|N|To Krusk.|
 T Dalaran Patrols|QID|545|M|61.60,20.85|Z|Hillsbrad Foothills|N|To Magus Wordeen Voidglare.|
 T Bracers of Binding|QID|557|M|61.50,20.93|Z|Hillsbrad Foothills|N|To Keeper Bel'varil.|
-F Undercity|QID|1107|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
+
+; -- Dustwallow Marsh
+F Undercity|AVAILABLE|1251^1268^1269|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
+b Orgrimmar|AVAILABLE|1251^1268^1269|M|31.37,30.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Orgrimmar.|
+F Camp Taurajo|AVAILABLE|1251^1268^1269|M|45.50,63.84|Z|Orgrimmar|
+R Dustwallow Marsh|AVAILABLE|1251^1268^1269|M|28.53,47.18|N|Head east out Camp Taurajo to Southern Gold Road and follow the signs to Dustwallow Marsh.|
+
+A Suspicious Hoofprints|QID|1268|M|29.70,47.65|Z|Dustwallow Marsh|
+A The Black Shield |QID|1251|M|29.63,48.59|Z|Dustwallow Marsh|
+A Lieutenant Paval Reethe|QID|1269|M|29.82,48.21|Z|Dustwallow Marsh|
+A Hungry!|QID|1177|M|35.16,38.26|Z|Dustwallow Marsh|N|From Mudcrush Durtfeet.|
+R Brackenwall Village|ACTIVE|1177|M|34.59,30.63|Z|Dustwallow Marsh|N|Make your way to the Brackenwall Village.|
+A Theramore Spies|QID|1201|M|35.21,30.67|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|
+f Brackenwall Village|QID|1201|M|35.56,31.88|Z|Dustwallow Marsh|N|At Shardi.|
+T Suspicious Hoofprints|QID|1268|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
+T Lieutenant Paval Reethe|QID|1269|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
+T The Black Shield |QID|1251|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
+A The Black Shield|QID|1321|PRE|1268&1251|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|
+
+; Stranglethorn Vale
 b Grom'gol Base Camp|QID|1107|M|61.85,59.07|Z|Tirisfal Glades|N|[color=FF0000]NOTE: [/color]Before you leave Undercity, make sure to grab the items you stashed in your bank.|
 R Southern Savage Coast|ACTIVE|605^572^196|M|32.62,35.53|Z|Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
 K Raptor Mastery|ACTIVE|196|M|33.63,37.87|Z|Stranglethorn Vale|QO|1|N|Kill Jungle Stalkers.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
 l Singing Blue Shards|ACTIVE|605|M|33.63,37.87|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|US|
-
+R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|Stranglethorn Vale|
 
 
 
