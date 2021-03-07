@@ -148,12 +148,12 @@ L Level 16|C|Druid|LVL|16;-1720|N|Make sure you are within 2 bubbles of level 16
 C Curing the Sick|QID|6124|C|Druid|N|Finish curing the deer.|U|15826|T|Sickly Deer|NC|
 T Curing the Sick|QID|6124|C|Druid|M|56.21,30.62|Z|Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|
 A Power over Poison|QID|6125|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6124|
-F Rut'theran Village|QID|6125|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|PRE|6125|
-R Darnassus|QID|6125|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|PRE|6125|
+F Rut'theran Village|AVAILABLE|26|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.
+R Darnassus|AVAILABLE|26|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.
 T Power over Poison|QID|6125|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
 ; Druid class quest line to gain swim form
 A A Lesson to Learn|QID|26|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker. This begins your class quest line to learn Aquatic form.|LVL|16|
-P Moonglade|QID|26|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|
+P Moonglade|AVAILABLE|26|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|
 T A Lesson to Learn|QID|26|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|
 A Trial of the Lake|QID|29|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.|PRE|27|
 R Lake Elune'ara|ACTIVE|29|C|Druid|M|52.72,37.91|Z|Moonglade|N|Run to this rock ledge and JUMP into the water. Make sure you jump or you will take falling damage.|
@@ -260,9 +260,14 @@ H Auberdine|ACTIVE|942|N|Hearth back to Auberdine or run to Astranaar and fly ba
 b Wetlands|QID|942|M|32.42,43.74|N|Get on the boat to Menethil Harbor (read the sign post).|
 f Menethil Harbor|QID|942|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|
 T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|Wetlands|N|To Archaeologist Flagongut, on the 2nd floor of the Deepwater Tavern. Don't take follow up, too high level for now.|
-N Heading to Stormwind|QID|968|N|From here we need to get to Ironforge and on to Stormwind City to grab the FPs for the other major cities and turn in a quest (if you found the book). If you do not already have means to get to Ironforge (Mage/Warlock/FP) then you can follow the next steps to get there relatively quickly |
-N I'm on a boat|QID|968|N| To get to IF quickly you can use the following steps. \nGet onto the boat to Theramore at the docks. \nAs it sets off look out on the port side, once you see the boat get very close to land jump off. \nOpen the map and look at the Dun Morogh map you will see your character in the north above the mountains. \nRun west along the coast until you arrive at the small bay in the top left visible on the Dun Morogh map. \nHead towards the shore in the bay until you see your General Chat change to Dun Morogh. \nWhilst staying in the Dun Morogh zone drown yourself in the water. \nFrom the graveyard head north and then east at the fork after the bridge. \nOnce inside Ironforge take a right and zone into the Deeprun tram. \nYou will end up in the Deeprun Tram alive again and can now head back into Ironforge|
-f Ironforge|QID|968|M|55.49,47.72|Z|Ironforge|N|Grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|
+F Ironforge|QID|968|N|Fly to Ironforge|TAXI|Ironforge|
+N Heading to Stormwind|QID|968|N|From here we need to get to Ironforge and on to Stormwind City to grab the FPs for the other major cities and turn in a quest (if you found the book). You can follow the next steps to get there relatively quickly.|TAXI|-Ironforge|
+R Harbor Docks|QID|968|M|5.1,63.4|CC|N|Get on the boat for Theramore|TAXI|-Ironforge|
+R Dun Morogh|QID|968|M|32.0,6.4;17.7,16.4|CS|Z|Dun Morogh|N|Wait for the boat to set off, when it comes alongside land jump off and swim to shore.\nRun west along the coast until you arrive at the small bay visible on the Dun Morogh map.\nHead towards the shore in the bay until you see your zone change to Dun Morogh.|TAXI|-Ironforge|
+R Kharanos|QID|968|M|17.9,17|Z|Dun Morogh|CN|N|Head into the water and whilst ensuring you are still in the Dun Morogh zone drown yourself|TAXI|-Ironforge|
+R Ironforge|QID|968|M|47.40,41.80;54.2,34.40|CS|N|Head out of Kharanos and up the hill towards Ironforge (you do not need to resurrect at the Spirit Healer)|TAXI|-Ironforge|
+R Deeprun Tram|QID|968|M|78.20,52.00|N|Take a right once inside Ironforge and zone into the Deeprun Tram to resurrect yourself|TAXI|-Ironforge|
+f Ironforge|QID|968|M|55.49,47.72|Z|Ironforge|N|run back into Ironforge and grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|
 T The Powers Below|QID|968|M|50.82,5.66|Z|Ironforge|N|To Gerrig Bonegrip.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|ELITE|N|[color=E6CC80]Dungeon: 'BFD'[/color]\nAnother quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
 R Deeprun Tram|QID|244|M|76.83,51.28|Z|Ironforge|N|Go to Tinker Town and zone into the Deeprun Tram.|
