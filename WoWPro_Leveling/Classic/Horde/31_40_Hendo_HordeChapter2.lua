@@ -624,6 +624,15 @@ T The Black Shield|QID|1321|M|36.53,30.79|Z|Dustwallow Marsh|N|To Do'gol.|
 A The Black Shield|QID|1322|PRE|1321|M|36.53,30.79|Z|Dustwallow Marsh|N|From Do'gol.|
 C The Black Shield|QID|1322|M|35.54,40.01|Z|Dustwallow Marsh|N|Kill Darkfang spiders to collect the Acidic Venom Sacs.|S|
 K Theramore Spies|ACTIVE|1201|M|38.00,26.95|Z|Dustwallow Marsh|QO|1|N|You'll find them outside of the village to the north and south.|
+C The Black Shield|QID|1322|M|35.54,40.01|Z|Dustwallow Marsh|N|Kill Darkfang spiders to collect the Acidic Venom Sacs.|US|
+A The Black Shield|QID|1323|PRE|1322|M|36.53,30.79|Z|Dustwallow Marsh|N|From Do'gol.|
+T The Black Shield|QID|1323|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
+T Theramore Spies|QID|1201|M|35.21,30.66|Z|Dustwallow Marsh|N|To Nazeer Bloodpike.|
+A The Theramore Docks|QID|1202|PRE|1323&1201|M|35.21,30.66|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|
+R Main Road|ACTIVE|1202|M|39.14,37.96|Z|Dustwallow Marsh|CC|N|Exit Brackenwall from the south and follow the road until it ends at the main road.|
+A Questioning Reethe|QID|1273|PRE|1323&1201|M|40.96,36.70|Z|Dustwallow Marsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ogron, just to the north of your current position.|
+C Questioning Reethe|QID|1273|PRE|1323&1201|M|40.96,36.70|Z|Dustwallow Marsh|N|Follow Ogron to Reethe's camp. He is protected by 4 guards who will attack you all at once.\n[color=FF0000]NOTE: [/color]It's best to let Ogron pull aggro and you take it from him. Keep in mind that if Ogron dies, you fail.|
+A Questioning Reethe|QID|1273|PRE|1323&1201|M|40.96,36.70|Z|Dustwallow Marsh|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Ogron and re-accept the quest from him.\n[color=FF0000]NOTE: [/color]You'll probably have to wait for him to respawn.|FAIL|
 
 
 ; Stranglethorn Vale
