@@ -612,7 +612,7 @@ R Dustwallow Marsh|AVAILABLE|1251^1268^1269|M|28.53,47.18|N|Head east out Camp T
 A Suspicious Hoofprints|QID|1268|M|29.70,47.65|Z|Dustwallow Marsh|
 A The Black Shield |QID|1251|M|29.63,48.59|Z|Dustwallow Marsh|
 A Lieutenant Paval Reethe|QID|1269|M|29.82,48.21|Z|Dustwallow Marsh|
-A Hungry!|QID|1177|M|35.16,38.26|Z|Dustwallow Marsh|N|From Mudcrush Durtfeet.|
+A Hungry!|QID|1177|M|35.16,38.26|Z|Dustwallow Marsh|N|Head From Mudcrush Durtfeet.|
 R Brackenwall Village|ACTIVE|1177|M|34.59,30.63|Z|Dustwallow Marsh|N|Make your way to the Brackenwall Village.|
 A Theramore Spies|QID|1201|M|35.21,30.67|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|
 f Brackenwall Village|QID|1201|M|35.56,31.88|Z|Dustwallow Marsh|N|At Shardi.|
@@ -620,6 +620,11 @@ T Suspicious Hoofprints|QID|1268|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
 T Lieutenant Paval Reethe|QID|1269|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
 T The Black Shield |QID|1251|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
 A The Black Shield|QID|1321|PRE|1268&1251|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|
+T The Black Shield|QID|1321|M|36.53,30.79|Z|Dustwallow Marsh|N|To Do'gol.|
+A The Black Shield|QID|1322|PRE|1321|M|36.53,30.79|Z|Dustwallow Marsh|N|From Do'gol.|
+C The Black Shield|QID|1322|M|35.54,40.01|Z|Dustwallow Marsh|N|Kill Darkfang spiders to collect the Acidic Venom Sacs.|S|
+K Theramore Spies|ACTIVE|1201|M|38.00,26.95|Z|Dustwallow Marsh|QO|1|N|You'll find them outside of the village to the north and south.|
+
 
 ; Stranglethorn Vale
 b Grom'gol Base Camp|QID|1107|M|61.85,59.07|Z|Tirisfal Glades|N|[color=FF0000]NOTE: [/color]Before you leave Undercity, make sure to grab the items you stashed in your bank.|
