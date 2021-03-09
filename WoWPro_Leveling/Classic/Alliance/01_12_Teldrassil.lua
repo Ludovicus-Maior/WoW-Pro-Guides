@@ -9,9 +9,8 @@ WoWPro:GuideLevels(guide, 1, 12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicDarkshore1220')
 WoWPro:GuideSteps(guide, function() return [[
 
-A The Balance of Nature|QID|456|M|58.69,44.27|N|From Conservator Ilthalaine in front of you.|
+A The Balance of Nature|QID|456|M|58.69,44.27|N|From Conservator Ilthalaine in front of you.|Z|Teldrassil|
 C The Balance of Nature|QID|456|N|Kill Young Nightsabers and Young Thistle Boars.|
-r Sell and Repair|QID|456|S|M|59.31,41.09|ACTIVE|456|N|Sell and Repair with Keina in Aldrassil.|
 T The Balance of Nature|QID|456|M|58.68,44.27|N|To Conservator Ilthalaine.|
 
 A Simple Sigil|QID|3116|PRE|456|C|Warrior|M|58.69,44.27|N|From Conservator Ilthalaine.|
@@ -20,7 +19,6 @@ A Encrypted Sigil|QID|3118|PRE|456|C|Rogue|M|58.69,44.27|N|From Conservator Ilth
 A Hallowed Sigil|QID|3119|PRE|456|C|Priest|M|58.69,44.27|N|From Conservator Ilthalaine.|
 A Verdant Sigil|QID|3120|PRE|456|C|Druid|M|58.69,44.27|N|From Conservator Ilthalaine.|
 A The Balance of Nature|PRE|456|QID|457|M|58.69,44.27|N|From Conservator Ilthalaine.|
-
 A The Woodland Protector|QID|458|M|59.92,42.47|N|From Melithar Staghelm.|
 A A Good Friend|QID|4495|LVL|2|M|60.90,41.97|N|From Dirania Silvershine.|
 
@@ -39,19 +37,20 @@ A The Woodland Protector|QID|459|PRE|458|M|57.75,45.02|N|From Tarindrella.|
 C The Woodland Protector|QID|459|M|55.91,45.79|N|Kill and loot the Grell for the Moss.|
 T The Woodland Protector|QID|459|M|57.75,45.02|N|To Tarindrella.|
 A Webwood Venom|QID|916|LVL|3|M|57.81,41.65|N|From Gilshalan Windwalker.|
-C Webwood Venom|QID|916|M|56.55,30.85;57.03,26.01;56.16,28.43;57.30,33.19|CN|S!US|QO|1|N|Kill and loot Webwood Spiders.|
+C Webwood Venom|QID|916|S|QO|1|N|Kill and loot Webwood Spiders.|
 C The Balance of Nature|QID|457|S|N|Kill Mangy Nightsabers and Thistle Boars along the way.|
 T A Good Friend|QID|4495|M|54.60,32.99|N|To Iverron.|
 A A Friend in Need|QID|3519|PRE|4495|M|54.60,32.99|N|From Iverron.|
-r Sell and Repair|QID|3519|S|M|59.31,41.09|ACTIVE|3519|N|Sell and Repair with Keina in Aldrassil.|
+r Sell and Repair|QID|3519|M|59.31,41.09|ACTIVE|3519|N|Sell and Repair with Keina in Aldrassil.|
 T A Friend in Need|QID|3519|M|60.90,41.97|N|To Dirania Silvershine.|
 
 A Iverron's Antidote|QID|3521|PRE|3519|M|60.90,41.96|N|From Dirania Silvershine.|
 C Hyacinth Mushrooms|QID|3521|M|62.20,38.60;59.40,35.55;57.90,33.40;56.48,34.88;55.02,44.17;55.33,38.86;61.80,35.15|CN|S!US|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
-C The Balance of Nature|QID|457|US|M|62.38,38.36|N|Kill Mangy Nightsabers and Thistle Boars.|
+
 C Webwood Ichor|QID|3521|M|56.55,30.85;57.03,26.01;56.16,28.43;57.30,33.19|CN|QO|3|N|Kill Spiders until you get the Webwood Ichor.|
 C Moonpetal Lilies|QID|3521|M|57.69,37.59|QO|2|N|You should find plenty of Moonpetal Lilies at the lake.|
-
+C The Balance of Nature|QID|457|US|M|62.38,38.36|N|Kill Mangy Nightsabers and Thistle Boars.|
+C Webwood Venom|QID|916|M|56.80,33.60|US|QO|1|N|Kill and loot Webwood Spiders.|
 T Webwood Venom|QID|916|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Webwood Egg|QID|917|PRE|916|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T The Balance of Nature|QID|457|M|58.69,44.27|N|To Conservator Ilthalaine.|

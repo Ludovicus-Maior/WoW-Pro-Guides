@@ -4,7 +4,7 @@ WoWPro:GuideLevels(guide, 25, 26, 25.5)
 WoWPro:GuideNextGuide(guide, 'ClassicRedridge2627')
 WoWPro:GuideSteps(guide, function() return [[
 
-b Wetlands|QID|299|M|32.42,43.74|Z|Darkshore|N|Run back to Auberdine. and get on the boat to Menethil.|
+b Wetlands|QID|299|M|32.42,43.74|Z|Darkshore|N|Take the boat to Menethil from Auberdine.|
 A Reclaiming Goods|QID|281|M|8.3,58.6|N|From Karl Boran.|PRE|279|
 A Apprentice's Duties|QID|471|M|8.49,55.7|N|From James Halloran.|PRE|484|
 A Fall of Dun Modr|QID|472|M|10.84,55.89|N|From Harlo Barnaby.|

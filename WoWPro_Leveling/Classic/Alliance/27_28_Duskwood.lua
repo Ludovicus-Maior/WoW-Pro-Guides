@@ -31,15 +31,16 @@ A Look To The Stars|QID|177|M|81.9,59.2|N|From Blind Mary.|PRE|175|
 C Look To The Stars|QID|177|M|80.70,71.45|N|Kill the Insane Ghoul inside the building and loot Mary's Looking Glass from him. Can take a bit to respawn.|
 T Look To The Stars|QID|177|M|79.79,48.06|N|To Viktori Prism'Antras.|
 A Look To The Stars|QID|181|M|79.79,48.06|N|From Viktori Prism'Antras.|PRE|177|
-C Worgen in the Woods|QID|173|M|63.00,70.00|N|Kill the mobs needed for the quest.|
+C Worgen in the Woods|QID|173|M|65.00,44.00|N|Kill the Nightbane Shadow Weavers for the quest.|
+T Worgen in the Woods|QID|173|M|75.75,47.56|N|To Calor.|
+A Worgen in the Woods|QID|221|M|75.75,47.56|N|From Calor.|PRE|173|
+C Worgen in the Woods|QID|221|M|65.00,44.00|N|Kill Nightbane Dark Runners until you complete this quest.|
 C Seasoned Wolf Kabobs|QID|90|M|60,59|N|Kill wolves (Ravagers) until you've looted 10 Lean Wolf Flanks.|L|1015 10|
-t Sven's Revenge|QID|95|M|49.87,77.70|N|To a Mound of loose dirt.|
+T Sven's Revenge|QID|95|M|49.87,77.70|N|To a Mound of loose dirt.|
 A Sven's Camp|QID|230|M|49.87,77.70|N|From a Mound of loose dirt.|PRE|95|
 T Deliver the Thread|QID|157|M|28.11,31.47|N|To Abercrombie. Lots of spiders on the way.|
 A Zombie Juice|QID|158|M|28.11,31.47|N|From Abercrombie.|PRE|157|
-C The Night Watch|QID|57|M|23.00,43.50|N|Don't forget to loot the fingers. But don't worry if you don't get them all, you will be back.|
 T Return to Jitters|QID|240|M|18.13,56.32|N|To Jitters.|
-K Spiders|QID|101|M|28,50|US|QO|2|N|Kill the Black Widow Hatchlings around the eastern edge of this area until you get 5 Vials of Spider Venom.|
 T Sven's Camp|QID|230|M|7.79,33.99|N|To Sven Yorgen.|
 A The Shadowy Figure|QID|262|M|7.79,33.99|N|From Sven Yorgen.|PRE|230|
 t Mathias and the Defias|QID|2360|M|68.4,70.2|Z|Westfall|N|To Agent Kearnen. You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|
@@ -56,24 +57,19 @@ A The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|From Daphne Stilwell.|PRE|
 C The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|Protect her from 3 waves of enemies.|C|Paladin|
 T The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|To Daphne Stilwell.|C|Paladin|
 A The Tome of Valor|QID|1652|M|41.6,88.6|Z|Westfall|N|From Daphne Stilwell.|PRE|1651|C|Paladin|
-H Scarlet Raven Tavern|QID|90|N|Hearth/Run or Fly (From Sentinel Hill) back to Darkshire.|
+H Scarlet Raven Tavern|QID|158|N|Hearth back to Darkshire, or fly from Sentinel Hill. |
 T Zombie Juice|QID|158|M|73.79,44.49|N|To Tavernkeep Smitts.|
 A Gather Rot Blossoms|QID|156|M|73.79,44.49|N|From Tavernkeep Smitts.|PRE|158|
 T Seasoned Wolf Kabobs|QID|90|M|73.77,43.51|N|To Chef Graul|
-T The Night Watch|QID|57|M|73.56,46.85|N|To Commander Althea Ebonlocke.|
-A The Night Watch|QID|58|M|73.56,46.85|N|From Commander Althea Ebonlocke.|PRE|57|
 T The Legend of Stalvan|QID|68|M|72.5,46.8|N|To Clerk Daltry.|
 A The Legend of Stalvan|QID|69|M|72.5,46.8|N|From Clerk Daltry.|PRE|68|
-T Worgen in the Woods|QID|173|M|75.75,47.56|N|To Calor.|
-A Worgen in the Woods|QID|221|M|75.75,47.56|N|From Calor.|PRE|173|
 T The Shadowy Figure|QID|262|M|75.8,45.3|N|To Madame Eva.|
 A The Shadowy Search Continues|QID|265|M|75.8,45.3|N|From Madame Eva.|PRE|262|
 T The Shadowy Search Continues|QID|265|M|72.5,46.8|N|To Clerk Daltry.|
 A Inquire at the Inn|QID|266|M|72.5,46.8|N|From Clerk Daltry.|PRE|265|
 T Inquire at the Inn|QID|266|M|73.79,44.49|N|To Tavernkeep Smitts.|
 A Finding the Shadowy Figure|QID|453|M|73.79,44.49|N|From Tavernkeep Smitts.|PRE|266|
-N Level 28|QID|453|N|You should be level 28 or close by now. We're about to go to Stormwind and train new skills, so if you're not 28, I suggest you go grind for it.|LVL|-28|
-F Stormwind|QID|453|M|77.50,44.30|N|Fly to Stormwind City.|
+F Stormwind|QID|453|M|77.50,44.30|N|Fly to Stormwind City.|C|Paladin,Rogue|
 T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
 T Klaven's Tower|QID|2359|M|76,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
@@ -85,24 +81,27 @@ T The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C
 A The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
 C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
 T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
-N Sell junk, repair, train skills|QID|453|N|Close this step when you're done.|
-F Darkshire|QID|453|N|Fly back to Darkshire, Duskwood.|Z|Stormwind City|M|71,72.6|
-C Worgen in the Woods|QID|221|M|64.00,72.00|N|Kill Nightbane Dark Runners until you complete this quest.|
+N Sell junk, repair, train skills|QID|453|N|Close this step when you're done.|C|Paladin,Rogue|
+F Darkshire|QID|453|N|Fly back to Darkshire, Duskwood.|Z|Stormwind City|M|71,72.6|C|Paladin|
 T Finding the Shadowy Figure|QID|453|M|18.13,56.32|N|To Jitters.|
 A Return to Sven|QID|268|M|18.13,56.32|N|From Jitters.|PRE|453|
-K Skeleton Finger|QID|101|M|23.00,43.50|QO|3|S|N|Kill skeleton mobs until you get 10 Skeleton Fingers.|
-C Gather Rot Blossoms|QID|156|M|15.4,46.5|N|Kill skeleton Horrors and Fiends.|
-K Skeleton Finger|QID|101|M|23.00,43.50|QO|3|US|N|Now you need to finish collecting these fingers.|
+K Skeleton Finger|QID|101|M|23.00,43.50|QO|3|S|N|Loot Skeleton Fingers from any skeletons you kill in the area|
+C Gather Rot Blossoms|QID|156|M|15.4,46.5|S|N|Loot Rot Blossom from any Skeleton Horror or Fiend you kill in the area|
+C The Night Watch|QID|57|M|23.00,43.50|N|Kill Skeleton Horrors and Fiends.\nBe aware of the Level 35 Elite Mor'Ladim that patrols this area|
+C Gather Rot Blossoms|QID|156|M|15.4,46.5|US|N|Keep killing Horrors and Fiends until you have 8 Rot Blossom|
 A The Weathered Grave|QID|225|M|17.71,29.10|N|Right-click the wooden tomb marker and accept the quest.|
 T Return to Sven|QID|268|M|7.79,33.99|N|To Sven Yorgen.|
 A Proving Your Worth|QID|323|M|7.79,33.99|N|From Sven Yorgen.|PRE|268|
-C Proving Your Worth|QID|323|M|15.95,38.75|N|Kill the mobs here until you finish this quest. Skeletal Warders are found inside the catacombs.|
+C Proving Your Worth|QID|323|M|15.95,38.75|N|Kill the mobs here until you finish this quest. Skeletal Warders are found inside the catacombs.\nBe aware of the Level 35 Elite Mor'Ladim that patrols this area|
+K Skeleton Finger|QID|101|M|23.00,43.50|QO|3|US|N|Now you need to finish collecting these fingers.|
 T Proving Your Worth|QID|323|M|7.79,33.99|N|To Sven Yorgen.|
 A Seeking Wisdom|QID|269|M|7.79,33.99|N|From Sven Yorgen.|PRE|323|
 T The Legend of Stalvan|QID|69|M|43.77,65.81|Z|Elwynn Forest|N|Cross the river to Elwynn Forest. To Innkeeper Farley.|
 A The Legend of Stalvan|QID|70|M|43.77,65.81|Z|Elwynn Forest|N|From Innkeeper Farley.|PRE|69|
 C The Legend of Stalvan|QID|70|M|44.30,65.80|Z|Elwynn Forest|N|In the room upstairs, get the Undelivered Letter from the Storage Chest.|
 H Scarlet Raven Tavern|QID|225|M|74.1,44.7|N|Hearth, Run or Fly back to Darkshire.|
+T The Night Watch|QID|57|M|73.56,46.85|N|To Commander Althea Ebonlocke.|
+A The Night Watch|QID|58|M|73.56,46.85|N|From Commander Althea Ebonlocke.|PRE|57|
 T Gather Rot Blossoms|QID|156|M|73.79,44.49|N|To Tavernkeep Smitts.|
 A Juice Delivery|QID|159|M|73.79,44.49|N|From Tavernkeep Smitts.|PRE|156|
 T The Weathered Grave|QID|225|M|72.65,47.64|N|To Sirra Von'lndi.|
@@ -111,7 +110,7 @@ T Morgan Ladimore|QID|227|M|73.56,46.85|N|To Commander Althea Ebonlocke. Don't g
 N Trash the book|QID|221|N|Destroy The Story of Morgan Ladimore, it is useless and wastes precious bag space. Skip this step when done.|PRE|227|
 T Worgen in the Woods|QID|221|M|75.29,48.04|N|To Calor. Don't get the follow up.|
 F Stormwind|QID|72|N|Fly to Stormwind City.|M|77.50,44.30|
-N Sell junk, repair, etc|QID|72|N|Close this step when you're done.|
+N Train, Sell junk, repair, etc|QID|72|N|Close this step when you're done.|
 T The Legend of Stalvan|QID|70|M|29.53,61.93|Z|Stormwind City|N|To Caretaker Folsom.|
 A The Legend of Stalvan|QID|72|M|29.53,61.93|Z|Stormwind City|N|From Caretaker Folsom.|PRE|70|
 T The Legend of Stalvan|QID|72|M|29.44,61.52|Z|Stormwind City|N|Right-click the Sealed Crate just next to Caretaker Folsom.|
@@ -145,12 +144,13 @@ C Ghoulish Effigy|QID|133|M|23.59,35.05|US|N|Kill ghouls that spawn around and l
 T Ghoulish Effigy|QID|133|M|28.11,31.47|N|To Abercrombie.|
 A Ogre Thieves|QID|134|M|28.11,31.47|N|From Abercrombie.|PRE|133|
 C Ogre Thieves|QID|134|M|33.42,76.36|N|Find the crate to the right of the cave.|NC|
-C Look To The Stars|QID|181|M|34.1,77.3|N|Enter the ogre cave and find Zzarc'Vul, he can spawn at various locations inside the cave. Kill him and loot the Ogre's Monocle.|
+K Spiders|QID|101|M|28,50|US|QO|2|N|Kill spiders all around this area until you get 5 Vials of Spider Venom.|
+C Look To The Stars|QID|181|M|34.1,77.3|N|Enter the ogre cave and find Zzarc'Vul, he can spawn at various locations inside the cave. Kill him and loot the Ogre's Monocle.|T|Zzarc'Vul|
 C The Missing Diplomat|QID|1244|M|23.93,72.07|N|In the house, in a chest on the floor.|NC|
 T Ogre Thieves|QID|134|M|28.11,31.47|N|To Abercrombie.|
 A Note to the Mayor|QID|160|M|28.11,31.47|N|To Abercrombie.|PRE|134|
 L An Old History Book|QID|337|M|15.95,38.75|L|2794|N|If you still haven't got the book, you should kill humanoid and undead in the area, we will come back in a later guide so you can skip if you want, but if you're not close to 29 yet I would suggest farming in the graveyard area for a bit until this drops.|
-H Scarlet Raven Tavern|QID|58|M|74.1,44.7|N|Hearth, Run or Fly back to Darkshire.|
+H Scarlet Raven Tavern|QID|58|M|74.1,44.7|N|Hearth or run back to Darkshire.|
 T The Legend of Stalvan|QID|78|M|73.79,44.49|N|To Tavernkeep Smitts.|
 A The Legend of Stalvan|QID|79|M|73.79,44.49|N|To Tavernkeep Smitts.|PRE|78|
 T The Legend of Stalvan|QID|79|M|73.56,46.85|N|To Commander Althea Ebonlocke.|
