@@ -177,7 +177,7 @@ C The Twilight Camp|QID|949|M|38.55,86.05|N|Click the book on the podium beside 
 T The Twilight Camp|QID|949|M|38.55,86.05|N|To Twilight Tome.|
 A Return to Onu|QID|950|M|38.55,86.05|N|From Twilight Tome.|PRE|949|
 N Leftover quest item|ACTIVE|950|N|As you no longer need it, you can safely destroy the Phial of Scrying to free up bag space.|
-L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|The Twilight around here have a small chance to drop the book, turn in is in ironforge which we will head to later.|RANK|3|
+L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|The Twilight around here have a small chance to drop this book, turn in is in ironforge which we will head to later.|RANK|3|
 A The Powers Below|QID|968|U|5352|O|N|The Twilight around here have a small chance to drop this book. Click the book to accept the quest.|
 T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
 C Fruit of the Sea|QID|1138|S|N|Keep an eye out for Reef Crawlers and Encrusted Reef Crawlers whilst on the beaches of Darkshore|
