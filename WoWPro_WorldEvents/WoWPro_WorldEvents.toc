@@ -1,10 +1,10 @@
-## Interface: 90002
+## Interface: 90005
 #classic ## Interface: 11306
 ## Title: |cffFF9900WoW-|r|cff46921APro|r WorldEvents
 ## Notes: World Event guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 9.0.2-A9
+## Version: 9.0.5-A0
 #classic ## Version: 1.13.6-D4
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
