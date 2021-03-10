@@ -85,7 +85,7 @@ C The Lost Tools|QID|125|M|41.60,54.70|L|1309|N|Loot the tools from the chest at
 T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|
 t Underbelly Scales|QID|122|M|31.00,47.30|N|To Verner Osgood.|
 T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|
-T Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|
+t Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|
 T Visit the Herbalist|QID|130|M|21.85,46.32|N|To Martie Jainrose.|
 A Delivering Daffodils|QID|131|M|21.85,46.32|N|From Martie Jainrose.|PRE|130|
 T Delivering Daffodils|QID|131|M|26.9,44.53|N|To Darcy. She wanders around a bit.|

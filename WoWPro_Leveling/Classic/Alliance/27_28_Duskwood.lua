@@ -33,7 +33,7 @@ T Look To The Stars|QID|177|M|79.79,48.06|N|To Viktori Prism'Antras.|
 A Look To The Stars|QID|181|M|79.79,48.06|N|From Viktori Prism'Antras.|PRE|177|
 C Worgen in the Woods|QID|173|M|63.00,70.00|N|Kill the mobs needed for the quest.|
 C Seasoned Wolf Kabobs|QID|90|M|60,59|N|Kill wolves (Ravagers) until you've looted 10 Lean Wolf Flanks.|L|1015 10|
-t Sven's Revenge|QID|95|M|49.87,77.70|N|To a Mound of loose dirt.|
+T Sven's Revenge|QID|95|M|49.87,77.70|N|To a Mound of loose dirt.|
 A Sven's Camp|QID|230|M|49.87,77.70|N|From a Mound of loose dirt.|PRE|95|
 T Deliver the Thread|QID|157|M|28.11,31.47|N|To Abercrombie. Lots of spiders on the way.|
 A Zombie Juice|QID|158|M|28.11,31.47|N|From Abercrombie.|PRE|157|
@@ -96,7 +96,7 @@ A Morgan Ladimore|QID|227|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|225|
 T Morgan Ladimore|QID|227|M|73.56,46.85|N|To Commander Althea Ebonlocke. Don't get follow up.|
 N Trash the book|ACTIVE|221|S|N|Destroy The Story of Morgan Ladimore, it is useless and wastes precious bag space.|PRE|227|
 T Worgen in the Woods|QID|221|M|75.29,48.04|N|To Calor. Don't get the follow up.|
-N Level 28|ACTIVE|70|N|You should be level 28 or close by now. We're about to go to Stormwind and train new skills, so if you're not 28, I suggest you go grind for it.|LVL|-28|
+L Level 28|ACTIVE|70|N|You should be level 28 or close by now. We're about to go to Stormwind and train new skills, so if you're not 28, I suggest you go grind for it.|LVL|-28|
 F Stormwind|ACTIVE|70|M|77.50,44.30|N|Fly to Stormwind City.|
 T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
@@ -147,7 +147,7 @@ C Look To The Stars|QID|181|M|34.1,77.3|N|Enter the ogre cave and find Zzarc'Vul
 C The Missing Diplomat|QID|1244|M|23.93,72.07|N|In the house, in a chest on the floor.|NC|
 T Ogre Thieves|QID|134|M|28.11,31.47|N|To Abercrombie.|
 A Note to the Mayor|QID|160|M|28.11,31.47|N|To Abercrombie.|PRE|134|
-L An Old History Book|QID|337|M|15.95,38.75|L|2794|N|If you still haven't got the book, you should kill humanoid and undead in the area, we will come back in a later guide so you can skip if you want, but if you're not close to 29 yet I would suggest farming in the graveyard area for a bit until this drops.|
+l An Old History Book|QID|337|M|15.95,38.75|L|2794|N|If you still haven't got the book, you should kill humanoid and undead in the area, we will come back in a later guide so you can skip if you want, but if you're not close to 29 yet I would suggest farming in the graveyard area for a bit until this drops.|
 H Scarlet Raven Tavern|QID|58|M|74.1,44.7|N|Hearth, Run or Fly back to Darkshire.|
 T The Legend of Stalvan|QID|78|M|73.79,44.49|N|To Tavernkeep Smitts.|
 A The Legend of Stalvan|QID|79|M|73.79,44.49|N|To Tavernkeep Smitts.|PRE|78|
@@ -163,7 +163,7 @@ A Wait for Sirra to Finish|QID|401|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|251|
 T Wait for Sirra to Finish|QID|401|M|72.65,47.64|N|To Sirra Von'lndi.|
 A Translation to Ello|QID|252|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|401|
 T Translation to Ello|QID|252|M|71.93,46.43|N|To Lord Ello Ebonlocke. Don't get Follow up for now.|
-N Trash the Letter|ACTIVE|253|N|Destroy Translated Letter from The Embalmer, it is useless and wastes precious bag space. Skip this step when done.|PRE|252|
+N Trash the Letter|ACTIVE|101|S|N|Destroy Translated Letter from The Embalmer, it is useless and wastes precious bag space.|PRE|252|
 T The Legend of Stalvan|QID|97|M|73.56,46.85|N|To Commander Althea Ebonlocke. Don't get follow up for now.|
 T The Totem of Infliction|QID|101|M|75.8,45.3|N|To Madame Eva.|
 T The Missing Diplomat|QID|1244|M|74.4,40.8|N|To Watcher Backus. He patrols the north road leading out of town.|
