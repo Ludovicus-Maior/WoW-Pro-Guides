@@ -3,7 +3,7 @@
 
 local guide = WoWPro:RegisterGuide('ClassicDuskwood2122', 'Leveling', 'Duskwood', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Duskwood 21-22')
-WoWPro:GuideLevels(guide, 17, 20, 21)
+WoWPro:GuideLevels(guide, 21, 20, 21)
 WoWPro:GuideNextGuide(guide, 'ClassicWetlands2223')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -29,7 +29,7 @@ T Wolves at Our Heels|QID|226|M|7.73,33.26|N|To Lars.|
 C Eight-Legged Menaces|QID|245|M|12,49|US|N|Kill all the spiders in this area, even the other kinds of spiders. Keep on killing them until you finish this quest.|
 K Gooey Spider Leg|QID|93|M|12,49|N|Kill any spiders around until you get 6 Gooey Spider Legs.|L|2251 6|
 T Eight-Legged Menaces|QID|245|M|21.37,60;45.12,67.02|CS|N|Get back on the road and then go turn in to Watcher Dodds.|
-H Darkshire|QID|5|M|73.77,43.51|N|Hearth or Run back to Darkshire.|
+H Darkshire|QID|5|M|73.95,44.48|CC|N|Hearth or Run back to Darkshire.|
 T Jitters' Growling Gut|QID|5|M|73.77,43.51|N|To Chef Graul at the Inn.|
 A Dusky Crab Cakes|QID|93|M|73.77,43.51|N|From Chef Graul.|PRE|5|
 T Dusky Crab Cakes|QID|93|M|73.77,43.51|N|To Chef Graul. Don't get the follow-up for now.|
