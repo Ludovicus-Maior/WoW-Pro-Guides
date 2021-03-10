@@ -634,7 +634,11 @@ A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|ELITE|N|[color=80
 A Questioning Reethe|QID|1273|PRE|1323&1201|M|40.96,36.70|Z|Dustwallow Marsh|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Ogron and re-accept the quest from him.\n[color=FF0000]NOTE: [/color]You'll probably have to wait for him to respawn.|FAIL|
 N Questioning Reethe|ACTIVE|1273|N|If Reethe's not alone, the quest has bugged and you need to clear the mobs before you can do it.\n[color=FF0000]NOTE: [/color]Let Ogron die so the quest will fail and you can restart it.|
 C Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|N|Follow Ogron to Reethe's camp.\n[color=FF0000]NOTE: [/color]If you fail the quest, you need to clear the soldiers before you can do it again. Otherwise, the quest will bug and you can't finish it.|
-
+R North Point Tower|AVAILABLE|1218|M|46.43,22.88|Z|Dustwallow Marsh|N|Head back to the main road and make your way north to the North Point Tower.|
+R Witch Hill|AVAILABLE|1218|M|50.88,25.01|Z|Dustwallow Marsh|N|Continue along the road to the Witch Hill.|
+R Swamplight Manor|AVAILABLE|1218|M|55.17,26.96|Z|Dustwallow Marsh|N|Continue east to the Swamplight Manor. There is a road leading north from the main road to the house.|
+A Soothing Spices|QID|1218|M|55.43,26.26|Z|Dustwallow Marsh|N|From "Swamp Eye" Jarl.|
+A The Lost Report|QID|1238|M|55.44,25.92|Z|Dustwallow Marsh|N|From the dirt pile beside the house.|
 
 ; Stranglethorn Vale
 ;b Grom'gol Base Camp|QID|1107|M|61.85,59.07|Z|Tirisfal Glades|N|[color=FF0000]NOTE: [/color]Before you leave Undercity, make sure to grab the items you stashed in your bank.|
