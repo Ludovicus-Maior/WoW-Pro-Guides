@@ -47,10 +47,11 @@ T A Friend in Need|QID|3519|M|60.90,41.97|N|To Dirania Silvershine.|
 A Iverron's Antidote|QID|3521|PRE|3519|M|60.90,41.96|N|From Dirania Silvershine.|
 C Hyacinth Mushrooms|QID|3521|M|62.20,38.60;59.40,35.55;57.90,33.40;56.48,34.88;55.02,44.17;55.33,38.86;61.80,35.15|CN|S!US|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
 
-C Webwood Ichor|QID|3521|M|56.55,30.85;57.03,26.01;56.16,28.43;57.30,33.19|CN|QO|3|N|Kill Spiders until you get the Webwood Ichor.|
+C Webwood Ichor|QID|3521|M|56.80,33.60|CN|QO|3|N|Kill Spiders until you get the Webwood Ichor.|
+C Webwood Venom|QID|916|M|56.80,33.60|US|QO|1|N|Kill and loot Webwood Spiders.|
 C Moonpetal Lilies|QID|3521|M|57.69,37.59|QO|2|N|You should find plenty of Moonpetal Lilies at the lake.|
 C The Balance of Nature|QID|457|US|M|62.38,38.36|N|Kill Mangy Nightsabers and Thistle Boars.|
-C Webwood Venom|QID|916|M|56.80,33.60|US|QO|1|N|Kill and loot Webwood Spiders.|
+
 T Webwood Venom|QID|916|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Webwood Egg|QID|917|PRE|916|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T The Balance of Nature|QID|457|M|58.69,44.27|N|To Conservator Ilthalaine.|
