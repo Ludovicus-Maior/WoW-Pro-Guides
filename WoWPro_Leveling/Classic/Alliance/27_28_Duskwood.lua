@@ -9,6 +9,7 @@ WoWPro:GuideSteps(guide, function() return [[
 
 ;This is a near complete rewrite of the original Boston guide but polished, reorganized,  more efficent quest grouping, additional quests.
 B Bronze Tube|QID|174|M|53.19,60.7|Z|Stormwind City|N|Oops, you didn't buy it earlier. Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
+r Sell junk and repair|AVAILABLE|67|S|
 A An Old History Book|QID|337|M|7.79,33.99|U|2794|N|Click the book to accept the quest.|
 A Look To The Stars|QID|174|M|79.79,48.06|N|From Viktori Prism'Antras.|
 T Look To The Stars|QID|174|M|79.79,48.06|N|To Viktori Prism'Antras.|
@@ -20,11 +21,10 @@ A Worgen in the Woods|QID|173|M|75.75,47.56|N|From Calor.|
 A The Night Watch|QID|57|M|73.56,46.85|N|From Commander Althea Ebonlocke.|PRE|56|
 T The Legend of Stalvan|QID|66|M|72.5,46.8|N|To Clerk Daltry.|
 A The Legend of Stalvan|QID|67|M|72.5,46.8|N|From Clerk Daltry.|PRE|66|
-N Level 27|QID|175|N|You should be level 27 or close. If you are behind, keep following the guide normally, but kill more stuff on the way. Close this step.|LVL|-27|
-h Darkshire|QID|175|N|Set your home location to Darkshire.|M|73.90,44.40|
+L Level 27|AVAILABLE|240|S|N|You should be level 27 or close. If you are behind, keep following the guide normally, but kill more stuff on the way.|LVL|-27|
+h Darkshire|AVAILABLE|181|N|Set your home location to Darkshire.|M|73.90,44.40|
 A Seasoned Wolf Kabobs|QID|90|M|73.77,43.51|P|Cooking;185;0+50|N|From Chef Graul|
 A Return to Jitters|QID|240|M|73.77,43.51|N|From Chef Graul|PRE|93|
-N Sell junk and repair|QID|175|N|Close this step when you're done.|M|74,48.55|
 K Spiders|QID|101|M|81.8,59.3|S|QO|2|N|From now on kill any type of spider you see along the way.|
 T Look To The Stars|QID|175|M|81.9,59.2|N|To Blind Mary.|
 A Look To The Stars|QID|177|M|81.9,59.2|N|From Blind Mary.|PRE|175|
@@ -57,6 +57,7 @@ C The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|Protect her from 3 waves o
 T The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|To Daphne Stilwell.|C|Paladin|
 A The Tome of Valor|QID|1652|M|41.6,88.6|Z|Westfall|N|From Daphne Stilwell.|PRE|1651|C|Paladin|
 H Scarlet Raven Tavern|QID|90|N|Hearth/Run or Fly (From Sentinel Hill) back to Darkshire.|
+r Sell junk and repair|AVAILABLE|453|S|
 T Zombie Juice|QID|158|M|73.79,44.49|N|To Tavernkeep Smitts.|
 A Gather Rot Blossoms|QID|156|M|73.79,44.49|N|From Tavernkeep Smitts.|PRE|158|
 T Seasoned Wolf Kabobs|QID|90|M|73.77,43.51|N|To Chef Graul|
@@ -72,21 +73,6 @@ T The Shadowy Search Continues|QID|265|M|72.5,46.8|N|To Clerk Daltry.|
 A Inquire at the Inn|QID|266|M|72.5,46.8|N|From Clerk Daltry.|PRE|265|
 T Inquire at the Inn|QID|266|M|73.79,44.49|N|To Tavernkeep Smitts.|
 A Finding the Shadowy Figure|QID|453|M|73.79,44.49|N|From Tavernkeep Smitts.|PRE|266|
-N Level 28|QID|453|N|You should be level 28 or close by now. We're about to go to Stormwind and train new skills, so if you're not 28, I suggest you go grind for it.|LVL|-28|
-F Stormwind|QID|453|M|77.50,44.30|N|Fly to Stormwind City.|
-T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
-T Klaven's Tower|QID|2359|M|76,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
-A The Touch of Zanzil|QID|2607|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Optional quest if you need help displling the poison.|C|Rogue|PRE|2359|
-T The Touch of Zanzil|QID|2607|M|78,59|Z|Stormwind City|N|To Doc Mixilpixil down in the basement.|C|Rogue|PRE|2359|
-A The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2607|
-C The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|Target Doc Mixilpixil and type /lay. Wait for his diagnosis.|C|Rogue|
-T The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
-A The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
-C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
-T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
-N Sell junk, repair, train skills|QID|453|N|Close this step when you're done.|
-F Darkshire|QID|453|N|Fly back to Darkshire, Duskwood.|Z|Stormwind City|M|71,72.6|
 C Worgen in the Woods|QID|221|M|64.00,72.00|N|Kill Nightbane Dark Runners until you complete this quest.|
 T Finding the Shadowy Figure|QID|453|M|18.13,56.32|N|To Jitters.|
 A Return to Sven|QID|268|M|18.13,56.32|N|From Jitters.|PRE|453|
@@ -108,10 +94,22 @@ A Juice Delivery|QID|159|M|73.79,44.49|N|From Tavernkeep Smitts.|PRE|156|
 T The Weathered Grave|QID|225|M|72.65,47.64|N|To Sirra Von'lndi.|
 A Morgan Ladimore|QID|227|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|225|
 T Morgan Ladimore|QID|227|M|73.56,46.85|N|To Commander Althea Ebonlocke. Don't get follow up.|
-N Trash the book|QID|221|N|Destroy The Story of Morgan Ladimore, it is useless and wastes precious bag space. Skip this step when done.|PRE|227|
+N Trash the book|ACTIVE|221|S|N|Destroy The Story of Morgan Ladimore, it is useless and wastes precious bag space.|PRE|227|
 T Worgen in the Woods|QID|221|M|75.29,48.04|N|To Calor. Don't get the follow up.|
-F Stormwind|QID|72|N|Fly to Stormwind City.|M|77.50,44.30|
-N Sell junk, repair, etc|QID|72|N|Close this step when you're done.|
+N Level 28|ACTIVE|70|N|You should be level 28 or close by now. We're about to go to Stormwind and train new skills, so if you're not 28, I suggest you go grind for it.|LVL|-28|
+F Stormwind|ACTIVE|70|M|77.50,44.30|N|Fly to Stormwind City.|
+T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
+T Klaven's Tower|QID|2359|M|76,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
+A The Touch of Zanzil|QID|2607|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Optional quest if you need help displling the poison.|C|Rogue|PRE|2359|
+T The Touch of Zanzil|QID|2607|M|78,59|Z|Stormwind City|N|To Doc Mixilpixil down in the basement.|C|Rogue|PRE|2359|
+A The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2607|
+C The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|Target Doc Mixilpixil and type /lay. Wait for his diagnosis.|C|Rogue|
+T The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
+A The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
+C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
+T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
+r Sell junk, repair, train etc|AVAILABLE|1243|S|
 T The Legend of Stalvan|QID|70|M|29.53,61.93|Z|Stormwind City|N|To Caretaker Folsom.|
 A The Legend of Stalvan|QID|72|M|29.53,61.93|Z|Stormwind City|N|From Caretaker Folsom.|PRE|70|
 T The Legend of Stalvan|QID|72|M|29.44,61.52|Z|Stormwind City|N|Right-click the Sealed Crate just next to Caretaker Folsom.|
@@ -165,7 +163,7 @@ A Wait for Sirra to Finish|QID|401|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|251|
 T Wait for Sirra to Finish|QID|401|M|72.65,47.64|N|To Sirra Von'lndi.|
 A Translation to Ello|QID|252|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|401|
 T Translation to Ello|QID|252|M|71.93,46.43|N|To Lord Ello Ebonlocke. Don't get Follow up for now.|
-N Trash the Letter|QID|253|N|Destroy Translated Letter from The Embalmer, it is useless and wastes precious bag space. Skip this step when done.|PRE|252|
+N Trash the Letter|ACTIVE|253|N|Destroy Translated Letter from The Embalmer, it is useless and wastes precious bag space. Skip this step when done.|PRE|252|
 T The Legend of Stalvan|QID|97|M|73.56,46.85|N|To Commander Althea Ebonlocke. Don't get follow up for now.|
 T The Totem of Infliction|QID|101|M|75.8,45.3|N|To Madame Eva.|
 T The Missing Diplomat|QID|1244|M|74.4,40.8|N|To Watcher Backus. He patrols the north road leading out of town.|
