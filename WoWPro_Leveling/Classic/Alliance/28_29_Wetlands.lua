@@ -13,6 +13,7 @@ t The Test of Righteousness|QID|1653|M|52.6,36.8|Z|Dun Morogh|N|To Jordan Stilwe
 A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|Dun Morogh|N|From Jordan Stilwell. We won't follow the rest of this quest as it takes you all over the world to complete, but you now have the quest in your logs to complete as you see fit.|C|Paladin|PRE|1653|
 F Menethil Harbor|QID|270|M|55.3,47.6|N|Fly to Menethil Harbor.|Z|Ironforge|C|Paladin|
 F Menethil Harbor|QID|270|M|77.50,44.30|N|Fly to Menethil Harbor.|C|-Paladin|
+r Sell junk, repair, train etc|AVAILABLE|321|S|
 h Deepwater Tavern|QID|270|N|Go to the inn and make it your home location.|M|10.70,60.95|
 t The Doomed Fleet|QID|270|M|10.6,60.6|N|To Glorin Steelbrow.|
 A Lightforge Iron|QID|321|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|270|
