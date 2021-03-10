@@ -143,7 +143,7 @@ C Ghoulish Effigy|QID|133|M|23.59,35.05|US|N|Kill ghouls that spawn around and l
 T Ghoulish Effigy|QID|133|M|28.11,31.47|N|To Abercrombie.|
 A Ogre Thieves|QID|134|M|28.11,31.47|N|From Abercrombie.|PRE|133|
 C Ogre Thieves|QID|134|M|33.42,76.36|N|Find the crate to the right of the cave.|NC|
-C Look To The Stars|QID|181|M|34.1,77.3|N|Enter the ogre cave and find Zzarc'Vul, he can spawn at various locations inside the cave. Kill him and loot the Ogre's Monocle.|
+C Look To The Stars|QID|181|M|34.1,77.3|N|Enter the ogre cave and find Zzarc' Vul, he can spawn at various locations inside the cave. Kill him and loot the Ogre's Monocle.|T|Zzarc' Vul|
 C The Missing Diplomat|QID|1244|M|23.93,72.07|N|In the house, in a chest on the floor.|NC|
 T Ogre Thieves|QID|134|M|28.11,31.47|N|To Abercrombie.|
 A Note to the Mayor|QID|160|M|28.11,31.47|N|To Abercrombie.|PRE|134|
@@ -163,7 +163,7 @@ A Wait for Sirra to Finish|QID|401|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|251|
 T Wait for Sirra to Finish|QID|401|M|72.65,47.64|N|To Sirra Von'lndi.|
 A Translation to Ello|QID|252|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|401|
 T Translation to Ello|QID|252|M|71.93,46.43|N|To Lord Ello Ebonlocke. Don't get Follow up for now.|
-N Trash the Letter|ACTIVE|101|S|N|Destroy Translated Letter from The Embalmer, it is useless and wastes precious bag space.|PRE|252|
+N Trash the Letter|ACTIVE|181|S|N|Destroy Translated Letter from The Embalmer, it is useless and wastes precious bag space.|PRE|252|
 T The Legend of Stalvan|QID|97|M|73.56,46.85|N|To Commander Althea Ebonlocke. Don't get follow up for now.|
 T The Totem of Infliction|QID|101|M|75.8,45.3|N|To Madame Eva.|
 T The Missing Diplomat|QID|1244|M|74.4,40.8|N|To Watcher Backus. He patrols the north road leading out of town.|
