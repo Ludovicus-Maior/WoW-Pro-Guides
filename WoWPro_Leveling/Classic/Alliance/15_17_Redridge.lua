@@ -73,23 +73,26 @@ F Lakeshire|ACTIVE|119|M|66.29,62.13|Z|Stormwind City|N|Fly back to Redridge.|
 T Return to Verner|QID|119|M|30.98,47.28|Z|Redridge Mountains|N|To Verner Osgood.|
 A Underbelly Scales|QID|122|M|30.98,47.28|N|From Verner Osgood.|PRE|119|
 
-C Redridge Goulash|ACTIVE|92|M|11.94,77.5|QO|1;2;3|N|Kill the tarantulas, goretusks and condors for the items required|S|
+C Redridge Goulash|ACTIVE|92|QO|1;2;3|N|Kill tarantulas, goretusks and Condors for the items required.|S|
 C Underbelly Scales|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S|
 T A Free Lunch|QID|129|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road up ahead.|
 A Visit the Herbalist|QID|130|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road.|PRE|129|
 
+
+
 R Lakeridge Highway|ACTIVE|246|M|24.39,76.09|N|Follow the road east.|
 C Assessing the Threat|QID|246|QO|1;2|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|
+C Redridge Goulash|ACTIVE|92|QO|1;2;3|M|28.00,71.00|CS|N|Kill tarantulas, goretusks and Condors for any remaining items required.|US|
+C Underbelly Scales|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|US|
 T Assessing the Threat|QID|246|M|30.74,59.99|N|To Deputy Feldon.|
 C The Lost Tools|QID|125|M|41.60,54.70|L|1309|N|Loot the tools from the chest at the bottom of the lake.|
 T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|
-t Underbelly Scales|QID|122|M|31.00,47.30|N|To Verner Osgood.|
+T Underbelly Scales|QID|122|M|31.00,47.30|N|To Verner Osgood.|
 T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|
-t Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|
+T Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|US|
 T Visit the Herbalist|QID|130|M|21.85,46.32|N|To Martie Jainrose.|
 A Delivering Daffodils|QID|131|M|21.85,46.32|N|From Martie Jainrose.|PRE|130|
 T Delivering Daffodils|QID|131|M|26.9,44.53|N|To Darcy. She wanders around a bit.|
-
 R Duskwood|ACTIVE|132|M|6.42,91.32|N|Go to Duskwood|
 R Darkshire|ACTIVE|132|M|72.40,37.99|Z|Duskwood|N|Continue following the road south into Darkshire.|
 B Bottle of Moonshine|ACTIVE|116|M|73.70,44.10|Z|Duskwood|L|1942|N|Buy a Bottle of Moonshine from Barkeep Hann.|
@@ -98,9 +101,6 @@ F Sentinel Hill|ACTIVE|132|M|77.50,44.30|Z|Duskwood|N|Fly to Sentinel Hill.|
 
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|PRE|132|
-
-N Redridge Goulash|ACTIVE|1097|S|N|This quest can be continued in a later guide. I suggest putting your quest items in the bank when you return to Stormwind if you need the bag space.|
-N Underbelly Scales|ACTIVE|1097|S|N|This quest can be continued in a later guide. I suggest putting your quest items in the bank when you return to Stormwind if you need the bag space.|
 
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Stormwind City|
 
