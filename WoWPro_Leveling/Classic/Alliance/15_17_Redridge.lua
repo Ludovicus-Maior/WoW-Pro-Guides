@@ -99,8 +99,8 @@ F Sentinel Hill|ACTIVE|132|M|77.50,44.30|Z|Duskwood|N|Fly to Sentinel Hill.|
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|PRE|132|
 
-C Redridge Goulash|ACTIVE|92|N|Left-click this step and skip it.  You will be returning to Redridge at the end of the next guide.\n[color=FF0000]NOTE: [/color]I suggest putting your quest items in the bank when you return to Stormwind. No point taking up precious bag space.|US|
-C Underbelly Scales|ACTIVE|122|N|Left-click this step and skip it You will be returning to Redridge at the end of the next guide.\n[color=FF0000]NOTE: [/color]I suggest putting the quest item in the bank when you return to Stormwind.. No point taking up precious bag space.|US|
+N Redridge Goulash|ACTIVE|1097|S|N|This quest can be continued in a later guide. I suggest putting your quest items in the bank when you return to Stormwind if you need the bag space.|
+N Underbelly Scales|ACTIVE|1097|S|N|This quest can be continued in a later guide. I suggest putting your quest items in the bank when you return to Stormwind if you need the bag space.|
 
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Stormwind City|
 
