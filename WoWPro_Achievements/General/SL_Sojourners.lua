@@ -180,7 +180,6 @@ $ Dreamsong Heart|QID|61070|CS|M|38.01,36.29;37.6,37.1|Z|Ardenweald!The Shadowla
 T Silk for Ardenweald|QID|60066|M|59.46,31.85|Z|The Trunk@Heart of the Forest!Dungeon|N|Bring Gertie Jr. to Aithlyn at the Heart of the Forest.|COV|Night Fae|
 T Silk for Ardenweald|QID|60066|M|48.48,50.40|Z|Ardenweald!The Shadowlands|N|Bring Gertie Jr. to Aithlyn at the Refugee.|
 
-
 N Revendreth|ACH|14798|
 ;The Final Atonement
 F Darkhaven|QID|58093|N|Fly back to Darkhaven if you wish to complete the final side story quests for achievement.|TAXI|-Absolution Crypt|ACH|14798|
