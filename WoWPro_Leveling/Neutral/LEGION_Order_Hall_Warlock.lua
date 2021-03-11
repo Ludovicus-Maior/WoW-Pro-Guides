@@ -418,9 +418,7 @@ T Runes of Rending|QID|45192|M|59.78,27.44|Z|Broken Shore|N|To Karam Magespear.|
 A One Step Behind|QID|45193|M|59.78,27.44|Z|Broken Shore|N|From Karam Magespear.|PRE|45192|
 H Krasus' Landing|ACTIVE|45193|M|59.78,27.44|Z|Broken Shore|U|140192|N|Return to Dalaran.|
 T One Step Behind|QID|45193|M|28.38,48.28|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar, in the Violet Citadel.|
-A A Gift From the Six|QID|45866|PRE|45193|M|28.39,48.96|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Modera.|
-C A Gift From the Six|QID|45866|M|30.43,48.95|Z|Dalaran!Dalaran!Dungeon|NC|N|You must be in Afliction spec to receive the Gift of the Six. Stand in the middle of the circle and use the extra action button.|
-T A Gift From the Six|QID|45866|M|28.46,48.88|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Modera.|
+; [A Gift From the Six] is obsolete
 ;A Demonology: Fate of the Tideskorn|QID|47079| given on Broken Shore - included in that guide
 F Crimson Thicket|ACTIVE|47079|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|
 C Demonology: Fate of the Tideskorn|QID|47079|M|65.42,50.82|Z|Suramar|CHAT|QO|1|N|Speak with Huntsman Slodi|
@@ -453,9 +451,7 @@ T Unanswered Questions|QID|45525|M|72.87,51.19|Z|Stormheim/28|N|To Eyir.|
 A The Gates Are Closed|QID|46340|M|72.87,51.19|Z|Stormheim/28|N|From Eyir.|PRE|45525|
 H Krasus' Landing|ACTIVE|46340|M|59.78,27.44|Z|Broken Shore|U|140192|N|Return to Dalaran.|
 T The Gates Are Closed|QID|46340|M|28.44,48.33|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
-A A Gift From the Six|QID|45862|M|28.41,48.98|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Modera.|PRE|46340|
-C A Gift From the Six|QID|45862|M|30.43,48.95|Z|Dalaran!Dalaran!Dungeon|N|You must be in Demonology Spec to Receive the Council's gift. Stand in the center of the circle and use your extra action button.|
-T A Gift From the Six|QID|45862|M|28.46,48.92|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Modera.|
+; [A Gift From the Six] is obsolete
 ;A Destruction: Rumblings Near Feltotem|QID|45560| given on Broken Shore - included in that guide
 T Destruction: Rumblings Near Feltotem|QID|45560|M|35.74,23.98|Z|Highmountain|N|To Navarrogg in Highmountain..|
 A The Burning Birds|QID|45564|PRE|45560|M|35.74,23.98|Z|Highmountain|N|From Navarrogg.|
@@ -483,9 +479,7 @@ T Destroying the Nest|QID|45796|M|31.29,25.13|Z|Highmountain|N|To Navarrogg.|
 A A Triumphant Report|QID|45841|M|31.29,25.13|Z|Highmountain|N|From Navarrogg.|PRE|45796|
 H Krasus' Landing|ACTIVE|45841|M|59.78,27.44|Z|Broken Shore|U|140192|N|Return to Dalaran.|
 T A Triumphant Report|QID|45841|M|28.41,48.90|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Modera.|
-A A Gift From the Six|QID|45842|M|28.41,48.90|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Modera.|PRE|45841|
-C A Gift From the Six|QID|45842|M|30.43,48.95|Z|Dalaran!Dalaran!Dungeon|NC|N|You must be in Destruction Spec to Receive the Council's gift. Stand in the center of the circle and use your extra action button.|
-T A Gift From the Six|QID|45842|M|28.43,48.91|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Modera.|
+; [A Gift From the Six] Obsolete
 ;Broken Shore Follower Quest
 N Broken Shore Follower Quest|ACTIVE|-47137|N|You must finish your class hall campaign to be offered the quest. Once Maeve Shadowsong offers you Champions of Legionfall, then you can go to your order hall and get this quest.|
 A Answers Unknown|QID|45021|M|57.14,38.24|N|From Shinfel Blightsworn.|ACTIVE|47137|
