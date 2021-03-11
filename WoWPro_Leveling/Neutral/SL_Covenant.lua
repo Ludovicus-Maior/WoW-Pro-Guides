@@ -2011,8 +2011,8 @@ T Mobilize Maldraxxus|QID|62391|M|49.75,50.78|Z|Seat of the Primus!Dungeon|N|To 
 A Calling in All Favors|QID|58833|PRE|62391|M|49.75,50.78|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|22|
 F Renounced Bastille|ACTIVE|57567|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Renounced Bastille.|COV|Necrolord|
 T Calling in All Favors|QID|58833|M|62.17,41.04|Z|Maldraxxus|N|To Baroness Draka.|COV|Necrolord|
-A The Third Fall of Kel'thuzad|QID|59020|PRE|58833|M|62.17,41.04|Z|Maldraxxus|N|From Baroness Draka.|COV|Necrolord|REN|22|
-C The Third Fall of Kel'thuzad|QID|59020|M|62.17,41.04|Z|Maldraxxus|QO|1|CHAT|N|Speak to Baroness Draka.|COV|Necrolord|
+A The Third Fall of Kel'Thuzad|QID|59020|PRE|58833|M|62.17,41.04|Z|Maldraxxus|N|From Baroness Draka.|COV|Necrolord|REN|22|
+C The Third Fall of Kel'Thuzad|QID|59020|M|62.17,41.04|Z|Maldraxxus|QO|1|CHAT|N|Speak to Baroness Draka.|COV|Necrolord|
 C Into the Breach|ACTIVE|59020|M|64.10,35.60|Z|Maldraxxus|SO|1|N|Confront Kel'Thuzad at the House of Rituals.|COV|Necrolord|
 C Listen to Draka's Plan|ACTIVE|59020|M|64.10,35.60|Z|Maldraxxus!Instance1689|SO|2;1|N|Listen to Draka's Plan.|COV|Necrolord|
 C Defeat Baroness Ninadar|ACTIVE|59020|M|65.18,29.71|Z|Maldraxxus!Instance1689|SO|2;2|N|Kill Baroness Ninadar.|COV|Necrolord|
@@ -2025,8 +2025,8 @@ C Defeat the Maw Infernous.|ACTIVE|59020|M|68.19,29.76|Z|Maldraxxus!Instance1689
 C Speak to General Draven|ACTIVE|59020|M|68.19,29.76|Z|Maldraxxus!Instance1689|CHAT|SO|7;1|N|Speak to General Draven|COV|Necrolord|
 C Defeat Kel'Thuzad|ACTIVE|59020|M|74.22,33.64|Z|Maldraxxus!Instance1689|SO|7;2|N|Defeat Kel'Thuzad|COV|Necrolord|
 C Listen to Margrave Sin'dane|ACTIVE|59020|M|73.89,34.53|Z|Maldraxxus!Instance1689|SO|8|N|Listen to Margrave Sin'dane and then take the portal up to the 2nd floor and then use the waygate back to the Seat of the Primus.|COV|Necrolord|
-C The Third Fall of Kel'thuzad|QID|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|QO|3|NC|N|Return to Baroness Draka at the Seat of the Primus.|COV|Necrolord|
-T The Third Fall of Kel'thuzad|QID|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
+C The Third Fall of Kel'Thuzad|QID|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|QO|3|NC|N|Return to Baroness Draka at the Seat of the Primus.|COV|Necrolord|
+T The Third Fall of Kel'Thuzad|QID|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Staff of the Primus|QID|62406|PRE|59020|M|49.76,50.68|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|22|
 C Staff of the Primus|QID|62406|M|49.65,54.35|Z|Seat of the Primus!Dungeon|NC|N|Click on the Staff to return it to the Primus statue.|COV|Necrolord|
 T Staff of the Primus|QID|62406|M|49.75,50.64|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
