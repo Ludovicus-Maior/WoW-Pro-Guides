@@ -111,7 +111,7 @@ T Beached Sea Turtle|QID|4722|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Creature|QID|4723|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4727|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4725|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
-L Get to level 15|AVAILABLE|2139|LVL|-15|N|Grind mobs until you are level 15.|
+L Get to level 15|AVAILABLE|4740|LVL|-15|N|Grind mobs until you are level 15.|
 A WANTED: Murkdeep!|QID|4740|M|37.23,44.23|N|From Board, no quest symbol above it.|
 T The Fragments Within|QID|4813|M|37.7, 43.4|N|To Sentinel Glynda Nal'Shea.|
 T Cleansing of the Infected|QID|2138|M|38.84,43.42|N|To Tharnariun Treetender.|
@@ -176,7 +176,7 @@ A The Twilight Camp|QID|949|N|From Onu through the scrying bowl.|PRE|944|
 C The Twilight Camp|QID|949|M|38.55,86.05|N|Click the book on the podium beside the Disciple. The one beside the Thug is the wrong one.|NC|
 T The Twilight Camp|QID|949|M|38.55,86.05|N|To Twilight Tome.|
 A Return to Onu|QID|950|M|38.55,86.05|N|From Twilight Tome.|PRE|949|
-N Leftover quest item|ACTIVE|950|S|N|As you no longer need it, you can safely destroy the Phial of Scrying to free up bag space.|
+* Leftover quest item|ACTIVE|950|U|5251|S|N|As you no longer need it, you can safely destroy the Phial of Scrying to free up bag space.|
 A The Powers Below|QID|968|U|5352|O|N|The Twilight around here have a small chance to drop this book. Click the book to accept the quest.|
 T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
 C Fruit of the Sea|QID|1138|S|N|Keep an eye out for Reef Crawlers and Encrusted Reef Crawlers whilst on the beaches of Darkshore|
@@ -242,7 +242,7 @@ T Gyromast's Retrieval|QID|2098|M|56.7, 13.5|N|To Gelkak Gyromast.|
 A Gyromast's Revenge|QID|2078|PRE|2098|M|56.7, 13.5|N|From Gelkak Gyromast.|
 C Gyromast's Revenge|QID|2078|M|55.8,18.2|QO|1|N|Robot will attack you as you are about to finish quest. Be ready. He is a level 20 elite. You will probably need a group.|
 T Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|To Gelkak Gyromast.|
-N Trash the key|ACTIVE|4763|S|N|Destroy Gyromast's Key, it is useless and wastes precious bag space. Skip this step when done.|
+* Trash the key|ACTIVE|4763|U|7442|S|N|Destroy Gyromast's Key, it is useless and wastes precious bag space|
 C Mathystra Relics|QID|951|M|59.55,15.66|QO|1|US|N|Look for the relics on the ground in the area of the Ruins of Mathystra.|NC|
 H Auberdine|ACTIVE|4763|N|Hearth or run back to Auberdine.|
 T The Blackwood Corrupted|QID|4763|M|37.40,40.13|N|To Thundris Windweaver|
