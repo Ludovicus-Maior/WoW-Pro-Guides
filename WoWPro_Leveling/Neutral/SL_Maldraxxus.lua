@@ -360,8 +360,8 @@ A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|RA
 C Read Between the Lines|QID|58619|CS|M|40.69,33.08;43.30,28.62|Z|Maldraxxus|CHAT|N|Talk to Ta'ern, then walk with him and at least pretend to listen.|
 T Read Between the Lines|QID|58619|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
 A Repeat After Me|QID|58621|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|RANK|2|
-A Kill Them, of Course|QID|59917|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|RANK|2|
-C Kill Them, of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|S|
+A Kill Them, Of Course|QID|59917|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|RANK|2|
+C Kill Them, Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|S|
 C Repeat After Me|QID|58621|M|41.65,28.35|QO|4|Z|Maldraxxus|N|Enter the cave, target the Runestone of Rituals and /kneel\n\nKill Echo of the Magus.|T|Runestone of Rituals,kneel|
 C Repeat After Me|QID|58621|M|40.70,31.11|QO|3|Z|Maldraxxus|N|The next runestone is inside a crater, target it and /bleed\n\nKill Echo of the Chemist.|T|Runestone of Plague,bleed|
 C Repeat After Me|QID|58621|M|43.83,34.63|QO|1|Z|Maldraxxus|N|Enter the cave, target the Runestone of Chosen and /salute\n\nKill Echo of the Hero.|T|Runestone of Chosen,salute|
@@ -374,8 +374,8 @@ C Slaylines|QID|58620|QO|1|M|45.87,29.89|Z|Maldraxxus|NC|N|Locate the East Power
 C Slaylines|QID|58620|QO|4|CS|M|44.94,29.50;43.39,26.84|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the East Obelisk, run back to it and click to activate.|
 C Slaylines|QID|58620|QO|2|M|42.17,31.04|Z|Maldraxxus|NC|N|Locate the West Power Crystal.|
 C Slaylines|QID|58620|QO|3|CS|M|43.17,30.80;43.03,28.54;42.81,27.16|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the West Obelisk, run back to it and click to activate.|
-C Kill Them, of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|US|
-T Kill Them, of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
+C Kill Them, Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|US|
+T Kill Them, Of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
 T Slaylines|QID|58620|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
 A Secrets Among the Shelves|QID|58622|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58620|RANK|2|
 C Secrets Among the Shelves|QID|58622|M|PLAYER|Z|Maldraxxus|NC|N|Enter and climb the tower avoiding the floating books while collecting the highlighted tomes from the ground and bookshelves.|
