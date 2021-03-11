@@ -282,8 +282,8 @@ t War of Attrition|QID|62712|M|39.10,55.21|Z|Maldraxxus|N|Bonus Objective-Autoco
 R Spider's Watch|QID|62721|CS|M|40.22,40.71;37.57,29.24|Z|Maldraxxus|N|Head east to get to the road, then follow it north to Spider's Watch.|RANK|2|TOF|
 f Spider's Watch|QID|62721|M|37.57,29.24|Z|Maldraxxus|N|At Flight Master Nudolva.|RANK|2|TOF|
 R Hall of Chains|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Run down the hill to the Hall of Chains.|RANK|2|TOF|
-A Deconstructing the Problem|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Bonus Objective - Autoaccepted.|TOF|O|U|-183987|LVL|-59|
-C Deconstructing the Problem|QID|62721|M|36.60,30.91|Z|Maldraxxus|S!US|N|Don't just kill in one area, keep moving towards the other objectives, this one gets done as you travel through.\n\nKill Hostiles, fleshwardens drop keys, open cages and otherwise disrupt operations.|TOF|
+A Deconstructing The Problem|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Bonus Objective - Autoaccepted.|TOF|O|U|-183987|LVL|-59|
+C Deconstructing The Problem|QID|62721|M|36.60,30.91|Z|Maldraxxus|S!US|N|Don't just kill in one area, keep moving towards the other objectives, this one gets done as you travel through.\n\nKill Hostiles, fleshwardens drop keys, open cages and otherwise disrupt operations.|TOF|
 A Army of One|QID|59616|M|39.78,46.71|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57979|MS|
 K Indomitable Schmitd|QID|58332|QO|1|M|38.88,42.46|Z|Maldraxxus|T|Indomitable Schmitd|N|[color=ff8000]NOTE[/color]Shield buff makes invulnerable to hit, So, clear the area first, then grab one of the small [color=ff8000]Fuseless bombs[/color] When you have a cleared around a few pick one up and throw it at him. He will reshield a few times during the fight, so make sure you know where several are.|RARE|ACH|14308;8|EAB|
 C Army of One|QID|59616|CS|M|39.68,40.11;36.03,34.96|Z|Maldraxxus|QO|1|NC|N|Meet Secutor Mevix at the House of Constructs. Click on him to continue.|MS|
@@ -360,8 +360,8 @@ A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|RA
 C Read Between the Lines|QID|58619|CS|M|40.69,33.08;43.30,28.62|Z|Maldraxxus|CHAT|N|Talk to Ta'ern, then walk with him and at least pretend to listen.|
 T Read Between the Lines|QID|58619|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
 A Repeat After Me|QID|58621|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|RANK|2|
-A Kill Them, Of Course|QID|59917|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|RANK|2|
-C Kill Them, Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|S|
+A Kill Them, of Course|QID|59917|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|RANK|2|
+C Kill Them, of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|S|
 C Repeat After Me|QID|58621|M|41.65,28.35|QO|4|Z|Maldraxxus|N|Enter the cave, target the Runestone of Rituals and /kneel\n\nKill Echo of the Magus.|T|Runestone of Rituals,kneel|
 C Repeat After Me|QID|58621|M|40.70,31.11|QO|3|Z|Maldraxxus|N|The next runestone is inside a crater, target it and /bleed\n\nKill Echo of the Chemist.|T|Runestone of Plague,bleed|
 C Repeat After Me|QID|58621|M|43.83,34.63|QO|1|Z|Maldraxxus|N|Enter the cave, target the Runestone of Chosen and /salute\n\nKill Echo of the Hero.|T|Runestone of Chosen,salute|
@@ -374,8 +374,8 @@ C Slaylines|QID|58620|QO|1|M|45.87,29.89|Z|Maldraxxus|NC|N|Locate the East Power
 C Slaylines|QID|58620|QO|4|CS|M|44.94,29.50;43.39,26.84|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the East Obelisk, run back to it and click to activate.|
 C Slaylines|QID|58620|QO|2|M|42.17,31.04|Z|Maldraxxus|NC|N|Locate the West Power Crystal.|
 C Slaylines|QID|58620|QO|3|CS|M|43.17,30.80;43.03,28.54;42.81,27.16|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the West Obelisk, run back to it and click to activate.|
-C Kill Them, Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|US|
-T Kill Them, Of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
+C Kill Them, of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|US|
+T Kill Them, of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
 T Slaylines|QID|58620|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
 A Secrets Among the Shelves|QID|58622|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58620|RANK|2|
 C Secrets Among the Shelves|QID|58622|M|PLAYER|Z|Maldraxxus|NC|N|Enter and climb the tower avoiding the floating books while collecting the highlighted tomes from the ground and bookshelves.|
