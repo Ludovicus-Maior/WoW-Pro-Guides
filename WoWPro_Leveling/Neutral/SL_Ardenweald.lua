@@ -612,10 +612,10 @@ T A Song for Silkstriders|QID|60063|M|37.05,29.67|Z|Ardenweald!The Shadowlands|N
 C Tough as Silk|QID|60061|M|38.21,29.17|Z|Ardenweald!The Shadowlands|N|Kill enemies, destroy cacoons and save Night Fae in the area.|US|
 T Tough as Silk|QID|60061|M|38.98,29.93|Z|Ardenweald!The Shadowlands|N|To Caretaker Lillythistle.|
 T Thread of Hope|QID|60065|M|38.97,29.93|Z|Ardenweald!The Shadowlands|N|To Caretaker Lillythistle.|
-A Silk for Ardenweald|QID|60065^60066|PRE|60065^60061|M|38.97,29.93|Z|Ardenweald!The Shadowlands|N|From Caretaker Lillythistle.|RANK|2|
+A Silk for Ardenweald|QID|60066|PRE|60065&60061|M|38.97,29.93|Z|Ardenweald!The Shadowlands|N|From Caretaker Lillythistle.|RANK|2|
 T Anima-Laden Dreamcatcher|QID|62259|M|38.17,36.75|Z|Ardenweald!The Shadowlands|N|To Droman Dawnblossom in Dreamsong Fenn.|
 $ Dreamsong Heart|QID|61070|CS|M|38.01,36.29;37.6,37.1|Z|Ardenweald!The Shadowlands|N|Step on Bounding Shroom at first coordinate (behind bramble wall behind Dawnblossom), jump to treasure at top of the tree. (2nd coord). It may take more than one try. you need to WALK out the tiny branch to get it.|ITEM|179510|ACH|14313;11|
-T Silk for Ardenweald|QID|60065|M|48.48,50.40|Z|Ardenweald!The Shadowlands|N|Bring Gertie Jr. to Aithlyn at the Refugee.|
-T Silk for Ardenweald|QID|60066|M|59.46,31.85|Z|The Trunk@Heart of the Forest!Dungeon|N|Bring Gertie Jr. to Aithlyn at the Heart of the Forest.|
+T Silk for Ardenweald|QID|60066|M|59.46,31.85|Z|The Trunk@Heart of the Forest!Dungeon|N|Bring Gertie Jr. to Aithlyn at the Heart of the Forest.|COV|Night Fae|
+T Silk for Ardenweald|QID|60066|M|48.48,50.40|Z|Ardenweald!The Shadowlands|N|Bring Gertie Jr. to Aithlyn at the Refugee.|
 ]]
 end)
