@@ -234,7 +234,7 @@ C Friend of the Exarchs|QID|34788|N|Choose a follower.\n\n- Andren is good for D
 T Friend of the Exarchs|QID|34788|N|To Exarch Naielle|M|62.48,26.22|
 A Supply Drop|QID|35905|N|From Exarch Naielle|PRE|34788|M|62.48,26.22|
 ;The next block is for Engineers only
-T Gnomish Location Transponder|QID|36286|N|To Goggles|M|60.9,32.6|ACTIVE|36286|
+T Transponder 047-B|QID|36286|N|To Goggles|M|60.9,32.6|ACTIVE|36286|
 A Snatch 'n' Grab|QID|36287|N|From Goggles|M|60.9,32.6|PRE|36286|
 C Snatch 'n' Grab|QID|36287|N|Obtain the Pilfered Parts from Moonlit Shore|NC|M|66.9,27.5|
 T Snatch 'n' Grab|QID|36287|N|To Goggles|M|60.9,32.6|PRE|36286|
