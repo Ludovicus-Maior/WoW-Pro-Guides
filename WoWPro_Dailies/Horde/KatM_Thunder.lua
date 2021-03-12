@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/isle_thunder_horde
+-- URL:
 -- Date: 2018-09-04 21:23
 -- Who: Ludovicus
 -- Log: Corrected QO on [De-Constructed]

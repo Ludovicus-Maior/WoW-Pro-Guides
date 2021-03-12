@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/anglers_reputation
+-- URL:
 -- Date: 2019-07-09 08:03
 -- Who: Hendo72
 -- Log: Fixed a coordinate typo in: C Like Bombing Fish In A Barrel. I used a comma instead of a decimal. My bad.

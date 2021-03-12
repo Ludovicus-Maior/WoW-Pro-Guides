@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/battle_pet_world_quests_azsuna
+-- URL:
 -- Date: 2017-08-03 21:55
 -- Who: Ludovicus_Maior
 -- Log: Work off of World QIDs.

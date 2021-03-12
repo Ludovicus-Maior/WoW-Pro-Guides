@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/sky_race
+-- URL:
 -- Date: 2017-03-11 18:37
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.

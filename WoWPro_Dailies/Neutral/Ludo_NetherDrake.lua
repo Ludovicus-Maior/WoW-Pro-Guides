@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/neutral_netherdrake
+-- URL:
 -- Date: 2018-08-24 15:55
 -- Who: Ludovicus_Maior
 -- Log: Updated old style QO's.

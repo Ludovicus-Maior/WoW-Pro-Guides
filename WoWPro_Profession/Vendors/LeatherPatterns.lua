@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/leatherworking_patterns
+-- URL:
 -- Date: 2017-01-02 22:47
 -- Who: Ludovicus_Maior
 -- Log: New registration style

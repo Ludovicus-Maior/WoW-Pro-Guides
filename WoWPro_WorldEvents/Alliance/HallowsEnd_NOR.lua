@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- URL:
 -- Date: 2020-08-14 15:19
 -- Who: Ludovicus_Maior
 -- Log: Step C [Taking Precautions:29402] in TwiHollEK has a bad QO¦Blood Nettle: 5/5¦ tag.

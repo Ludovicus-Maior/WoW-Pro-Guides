@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/blacksmithing_plans
+-- URL:
 -- Date: 2018-01-15 19:09
 -- Who: Ludovicus
 -- Log: Correct source of [Adamantite Rapier] for Alliance from Thunder Bluff to The Exodar!

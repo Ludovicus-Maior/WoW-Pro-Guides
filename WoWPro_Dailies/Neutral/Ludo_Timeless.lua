@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/timeless_isle
+-- URL:
 -- Date: 2019-10-16 00:01
 -- Who: Ludovicus_Maior
 -- Log: Avoid bad markup

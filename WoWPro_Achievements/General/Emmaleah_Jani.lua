@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/child_jani
+-- URL:
 -- Date: 2018-10-17 02:20
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit

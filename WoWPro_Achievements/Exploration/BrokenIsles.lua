@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_legion
+-- URL:
 -- Date: 2017-03-17 15:31
 -- Who: Ludovicus_Maior
 -- Log: Change title to Exploration Achievements - Legion

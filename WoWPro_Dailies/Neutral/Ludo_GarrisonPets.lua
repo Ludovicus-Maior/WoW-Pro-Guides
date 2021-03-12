@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/garrison_daily_pet_battles
+-- URL:
 -- Date: 2020-05-11 21:31
 -- Who: Ludovicus_Maior
 -- Log: Add a [Bronze Whelpling]+[Widget the Departed] strategy for Deebs, Tyri, and Puzzle.

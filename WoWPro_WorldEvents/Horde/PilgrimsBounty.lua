@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_horde
+-- URL:
 -- Date: 2018-08-24 09:07
 -- Who: Emmaleah
 -- Log: Fix Old Style QOs

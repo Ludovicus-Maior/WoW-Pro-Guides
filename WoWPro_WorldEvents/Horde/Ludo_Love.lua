@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/love_air_we_horde
+-- URL:
 -- Date: 2018-10-23 22:02
 -- Who: Ludovicus_Maior
 -- Log: And/Or

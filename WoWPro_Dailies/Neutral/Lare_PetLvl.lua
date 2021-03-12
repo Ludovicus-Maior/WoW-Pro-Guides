@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/battle_pet_levelup_125
+-- URL:
 -- Date: 2020-05-11 21:26
 -- Who: Ludovicus_Maior
 -- Log: Correct location for [Grand Master Mo'ruk].  Update [ Burning Pandaren Spirit] with better alternatives and text.

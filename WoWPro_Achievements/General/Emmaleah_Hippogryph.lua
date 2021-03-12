@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/time_forgotten_hippogryph_mount
+-- URL:
 -- Date: 2017-06-12 23:30
 -- Who: Ludovicus_Maior
 -- Log: Change Icon to a MOUNT instead of spell.

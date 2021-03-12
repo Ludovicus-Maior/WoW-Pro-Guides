@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- URL:
 -- Date: 2018-10-17 22:26
 -- Who: Ludovicus_Maior
 -- Log: And/Or

@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
+-- URL:
 -- Date: 2015-04-13 17:22
 -- Who: Ludovicus_Maior
 -- Log: Converted to continent guide with proximity sorting.

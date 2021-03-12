@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- URL:
 -- Date: 2020-04-08 18:25
 -- Who: Ludovicus_Maior
 -- Log: The spaces around the & get eaten up by the scraper. May need an escape sequence for [Round 2: Clever Ashyo & Ken-Ken]

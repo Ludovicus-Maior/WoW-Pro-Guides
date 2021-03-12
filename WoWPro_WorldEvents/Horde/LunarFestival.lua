@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/lunar_festival_horde
+-- URL:
 -- Date: 2019-02-04 23:53
 -- Who: Emmaleah
 -- Log: multiple updates for BFA - including map changes, and Zidormi to darkshore and tirisfal glades
