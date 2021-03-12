@@ -53,7 +53,7 @@ C Creating the Ink|QID|34634|M|81,29|S|N|Kill the giants and the sporebats for t
 C Forming the Scroll|QID|34635|M|81,29|S|NC|N|Click on the the ancients for thier bark.|
 C Gathering the Spark|QID|34636|M|81,29|NC|S|N|Click on the glowing balls labled 'Arcane Vortex' to collect thier energy.|
 K No'losh|QID|34859|M|86.4,30.8|L|116077|ACTIVE|34636^37422|ITEM|116077|N|Kill and loot for a bit of treasure.|T|No'losh|
-C Gathering the Spark|QID|34636|M|81,29|NC|US|N|Click on the glowing balls labled 'Arcane Vortex' to collect thier energy.|
+C Gathering the Spark|QID|34636|M|81,29|NC|US|N|Click on the glowing balls labled 'Arcane Vortex' to collect their energy.|
 C Forming the Scroll|QID|34635|M|81,29|US|NC|N|Click on the ancients for thier bark.|
 C Creating the Ink|QID|34634|M|81,29|US|N|Kill the giants and the sporebats for the 'pulsating pustules'.|
 T Creating the Ink|QID|34634|M|81.74,27.27|N|To Magister Krelas.|
