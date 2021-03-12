@@ -220,7 +220,6 @@ K Sin'dall|ACTIVE|188|QO|1|M|33,18|T|Sin'Dall|N|Spawns on top of this hill.|
 T Panther Mastery |QID|193|M|35.6,10.6|N|To S.J. Erlgadinback at Nesingwary's Expedition.|
 T Raptor Mastery |QID|197|M|35.6,10.6|N|To Hemet Nesingwary.|
 T Tiger Mastery |QID|188|M|35.6,10.6|N|To Ajeck Rouack.|
-A Big Game Hunter|QID|208|M|35.6,10.6|N|From Hemet Nesingwary.|
 K King Bangalash|ACTIVE|208|QO|1|M|38,37|T|King Bangalash|N|Very difficult fight without a full group at this level.|
 T Bloodscalp Clan Heads|QID|584|M|32.27,2.6|N|Ride back to Grom'gol Base Camp. Right click on the Bubbling Cauldron next to Nimboya to turn in the quest.|
 A Speaking with Nezzliok|QID|585|PRE|584|M|32.27,2.6|N|From the cauldron.|
@@ -733,10 +732,11 @@ L Level Check|LVL|51|N|You should be level 51, if not stay and grind here abit.|
 ;A Cracking Maury's Foot|QID|613|
 
 ;A The Mind's Eye|QID|591|
+;A Big Game Hunter|QID|208|M|35.6,10.6|N|From Hemet Nesingwary.|
 ;C Big Game Hunter|QID|208|N|This is a good time to kill King Bangalash if you plan to do so. This is very difficult but possible, especially with a little help or if you're higher level then the guild specifies. He can spawn at either or (37.9,37.2) and summons two panthers to help him, so be prepared for quite a fight.|M|38.2,35.6|
+;T Big Game Hunter|QID|208|N|Ride back out to Nesingwary's Expedition. On completing this quest, you'll gain an achievement.|M|35.6,10.6|
 ;C The Mind's Eye|QID|591|L|3616|N|Ride out to the Ogre Mound. Clear the cave until you find Mai'Zoth . Pull his right guard before dealing with the rest. Kill Mai'Zoth and loot Mind's Eye. Clear your way out looting the ogres for Maury's Key if you haven't found it yet.|M|52.9,27.6|
 ;C Cracking Maury's Foot|QID|613|N|If you haven't found it yet, keep killing ogres until Maury's Key drops.|
-;T Big Game Hunter|QID|208|N|Ride back out to Nesingwary's Expedition. On completing this quest, you'll gain an achievement.|M|35.6,10.6|
 ;T The Mind's Eye|QID|591|
 ;A Saving Yenniku|QID|592|
 ;T Cracking Maury's Foot|QID|613|N|Fly to Booty Bay and turn the key into Sea Wolf KcKinley.|
