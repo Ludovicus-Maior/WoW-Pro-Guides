@@ -420,9 +420,7 @@ T Runes of Rending|QID|45192|M|59.81,27.45|N|To Karam Magespear.|
 A One Step Behind|QID|45193|M|59.81,27.45|N|From Karam Magespear.|PRE|45192|
 P Dalaran|QID|45193|M|59.7,27.4|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45193|
 T One Step Behind|QID|45193|M|28.48,48.30|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A A Gift From the Six|QID|45842^45861^45862^45863^45864^45865^45866|M|28.35,48.93|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|45843^46177^46340^46200^45841^45127^45193|
-C A Gift From the Six|QID|45842^45861^45862^45863^45864^45865^45866|M|30.43,48.95|Z|Dalaran@Dalaran70|NC|N|Stand in the center of the rug and use your extra action button to receive the Council's gift.|
-T A Gift From the Six|QID|45842^45861^45862^45863^45864^45865^45866|M|28.45,48.93|Z|Dalaran@Dalaran70|N|To Archmage Modera. After turning in the quest return to your order hall and spend your artifact power in your freshly empowered weapon.|
+; Obsolete [A Gift From the Six]
 F Deliverance Point|QID|47000|N|Now that you have your artifact knowledge research restarted, you can now upgrade your artifact (assuming you have at least 35 ranks).|
 N Finish WQs|QID|99999|N|Look at the map and run around to the various world quests. The guide will show the quest when you are in the area for it (more accurately when it is in your quest log). Check this step off manually.|
 F Deliverance Point|QID|99999|N|Fly back to Deliverance Point, make your donation to the construction effort and turn in the archeology quest.|

@@ -239,8 +239,8 @@ A Bounty: A Few Murlocs|QID|55819|M|39.58,55.52|N|From Tamer Orami.|O|;daily
 A Bounty: More Murlocs|QID|55828|M|39.58,55.52|N|From Tamer Orami.|O|;daily
 A Bounty: A Few Fathom Rays|QID|55825|M|39.93,54.12|N|From Ray Tamer Enaka.|O|
 A Bounty: More Fathom Rays|QID|55834|M|39.92,54.12|N|From Ray Tamer Enaka.|O|
-A Requistion: A Few Deepcoral Buds|QID|55724|M|39.92,54.12|N|From Ray Tamer Enaka.|O|
-A Requistion: More Deepcoral Buds|QID|55790|M|39.92,54.12|N|From Ray Tamer Enaka.|O|
+A Requisition: A Few Deepcoral Buds|QID|55724|M|39.92,54.12|N|From Ray Tamer Enaka.|O|
+A Requisition: More Deepcoral Buds|QID|55790|M|39.92,54.12|N|From Ray Tamer Enaka.|O|
 A More Mouths To Feed|QID|54949|M|35.03,48.96|N|From Tracker Onu.|O|
 ;Requisition More Carp; A Few Carp; A Few Cone Shells; More Cone Shells unknown who quest giver is.
 ;bounty A Few Naga;More Naga unknown who gives quest
@@ -251,7 +251,7 @@ A A Worthy Ally|QID|57006|M|39.43,53.53|N|From Deepflame Campfire.|PRE|56156|
 A Requisition: A Few Flotsam|QID|55727|M|37.92,55.81|N|From Artisan Okata.|O|;daily
 A Requisition: More Flotsam|QID|55793|M|37.92,55.81|N|From Artisan Okata.|O|;daily
 A Requisition: A Few Starfish|QID|55719|M|37.92,55.81|N|From Artisan Okata.|O|;daily
-A Requisition: More Starfish|QID|55875|M|37.92,55.81|N|From Artisan Okata.|O|;daily
+A Requisition: More Starfish|QID|55785|M|37.92,55.81|N|From Artisan Okata.|O|;daily
 A Bounty: A Few Coral Ancients|QID|55821|M|37.88,55.85|N|From Artisan Okata.|O|
 A Bounty: More Coral Ancients|QID|55830|M|37.88,55.85|N|From Artisan Okata.|O|
 A Requisition: We Need It All|QID|55801|M|37.80,55.47|N|From Enizo.|O|
@@ -289,11 +289,11 @@ C Requisition: Deepcoral Buds|QID|55790^55724|M|59.48,46.01|N|Deepcoral Buds can
 C Bounty: Crabs|QID|55823^55832|M|62.55,42.66|N|Kill Crabs in the area.|
 K Inquisitor Ithriza|ACTIVE|55774|M|47.95,46.34|QO|1|T|Inquisitor Ithriza|N|Kill Inquisitor Ithriza and claim his head.|
 C Depopulation Effort|QID|57338|M|41.48,40.57|N|
-A Plug the Geysers.|QID|56159|M|44.74,45.20|N|From Apprentice Uataro.|O|
-C Plug the Geysers.|QID|56159|M|47.25,49.30|U|168482|N|Use the provided Benthic Sealer, and target the geysers to seal.|
+A Plug the Geysers|QID|56159|M|44.74,45.20|N|From Apprentice Uataro.|O|
+C Plug the Geysers|QID|56159|M|47.25,49.30|U|168482|N|Use the provided Benthic Sealer, and target the geysers to seal.|
 C Pearlhusk Crawler|QID|56385|M|50.55,50.10|N|Defeat the Pearlhusk Crawler in a pet battle.|
 A Pearlescent Shell|QID|56449|M|50.55,50.10|N|From item dropped the first time you defeat the Pearlhusk Crawler in a pet battle.|PRE|56385|
-T Plug the Geysers.|QID|56159|M|44.74,45.20|N|To Apprentice Uataro.|
+T Plug the Geysers|QID|56159|M|44.74,45.20|N|To Apprentice Uataro.|
 A Unchained Resistance|QID|55032|M|48.4,52.4|N|From Tracker Okaju.|O|
 C Unchained Resistance|QID|55032|M|48.4,52.4|N|Kill Naga and loot to get cage keys, Release the Makrura.|
 T Unchained Resistance|QID|55032|M|48.4,52.4|N|To Tracker Okaju.|
@@ -386,12 +386,12 @@ C Bounty: Fathom Rays|QID|55825^55834|M|38.11,15.57|N|Kill Fathom Rays.|T|Fathom
 A Feed Them All|QID|56149|M|55.6,47|N|From Harvester Akaro.|O|
 C Feed Them All|QID|56149|M|58.61,52.17|N|Kill and loot Fathom Rays.|
 T Feed Them All|QID|56149|M|55.6,47|N|To Harvester Akaro.|
-A What will it Grow?|QID|55426|N|From Germinating Seed, randomly dropped.|O|
-C What will it Grow?|QID|55426|M|54.70,41.71|QO|1|U|167786|NC|N|Plant the seed in fertile soil.|
-C What will it Grow?|QID|55426|M|54.70,41.71|QO|2|NC|N|Click on the Bloated Seaflies to capture one.|
-C What will it Grow?|QID|55426|M|54.70,41.71|QO|3|NC|N|Use special action button to feed the Carniverous Lasher.|
-C What will it Grow?|QID|55426|M|54.70,41.71|QO|4|NC|N|Catch them one a time and come back and feed it.|
-C What will it Grow?|QID|55426|M|54.70,41.71|QO|5|N|Uht Oh, it's tired of flies, Kill it and loot the Coral Petal.|
+A What Will It Grow?|QID|55426|N|From Germinating Seed, randomly dropped.|O|
+C What Will It Grow?|QID|55426|M|54.70,41.71|QO|1|U|167786|NC|N|Plant the seed in fertile soil.|
+C What Will It Grow?|QID|55426|M|54.70,41.71|QO|2|NC|N|Click on the Bloated Seaflies to capture one.|
+C What Will It Grow?|QID|55426|M|54.70,41.71|QO|3|NC|N|Use special action button to feed the Carniverous Lasher.|
+C What Will It Grow?|QID|55426|M|54.70,41.71|QO|4|NC|N|Catch them one a time and come back and feed it.|
+C What Will It Grow?|QID|55426|M|54.70,41.71|QO|5|N|Uht Oh, it's tired of flies, Kill it and loot the Coral Petal.|
 C Requisition: We Need It All|QID|55801|M|57.24,54.61|QO|6|N|These are growing and must be attacked and then looted.|
 A Making Kelpberry Wine|QID|56146|M|59.57,41.91|N|From an Empty Cask.|O|
 C Making Kelpberry Wine|QID|56146|M|63.35,44.28|QO|1|NC|N|Pick up the Kelpberries from the ground.|
@@ -447,9 +447,9 @@ C Leylocked Chest|QID|56023|M|67.05,35.71|NC|N|Click on the Arcane Device to ope
 C Requisition: Kelp Buds|QID|55787^55721|M|72.41,43.94|QO|1|N|Pick up a Fallen Kelp Bud in the area.|
 C Requisition: We Need It All|QID|55801|M|59.99,51.96|QO|2|NC|N|Pick up a Fallen Kelp Bud in the area.|
 K Haggronar|ACTIVE|55775|M|71.96,35.60|QO|1|T|Haggronar|N|Kill Haggronar and loot his head.|
-A Plug the Geysers.|QID|56160|M|71.62,31.55|N|From Apprentice Aonari.|O|
-C Plug the Geysers.|QID|56160|M|71.62,31.55|U|168482|NC|N|Use Benthic Sealent to close the geysers.|
-T Plug the Geysers.|QID|56160|M|71.62,31.55|N|To Apprentice Aonari.|
+A Plug the Geysers|QID|56160|M|71.62,31.55|N|From Apprentice Aonari.|O|
+C Plug the Geysers|QID|56160|M|71.62,31.55|U|168482|NC|N|Use Benthic Sealent to close the geysers.|
+T Plug the Geysers|QID|56160|M|71.62,31.55|N|To Apprentice Aonari.|
 C The Drowned Oracles|QID|56048|M|78.45,34.09|N|Kill 3 Drowned Oracle.|
 C Bounty: Snapdragons|QID|55824^55833|M|69.76,50.56|N|Kill snapdragons.|
 K Gler'thogg|ACTIVE|55773|M|67.79,23.04|QO|1|T|Gler'thogg|N|Kill and loot Gler'thogg.|
@@ -458,9 +458,9 @@ A Poor, Unfortunate Souls|QID|55637|M|74.23,24.75|N|From Elycina Starcaller.|O|
 C Poor, Unfortunate Souls|QID|55637|M|79.36,29.82|N|Click on the bones to spawn Tortured Souls and then kill them.|
 T Poor, Unfortunate Souls|QID|55637|M|74.24,24.74|N|To Elycina Starcaller.|
 A Additional Supplies|QID|56787|M|74.36,25.02|N|From Bladesman Inowari.|O|
-A Forbidden Rituels|QID|55846|M|56.64,29.25|N|From Apprentice Ukaro.|O|
-C Forbidden Rituels|QID|55846|M|56.64,29.25|N|Drops from Naga Casters in the area.|
-T Forbidden Rituels|QID|55846|M|56.64,29.25|N|To Apprentice Ukaro.|
+A Forbidden Rituals|QID|55846|M|56.64,29.25|N|From Apprentice Ukaro.|O|
+C Forbidden Rituals|QID|55846|M|56.64,29.25|N|Drops from Naga Casters in the area.|
+T Forbidden Rituals|QID|55846|M|56.64,29.25|N|To Apprentice Ukaro.|
 C Runelocked Chest|QID|56006|M|59.26,24.26|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 18 orange runes.|
 C Runelocked Chest|QID|56007|M|59.26,24.26|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 17 red runes.|
 C Runelocked Chest|QID|56008|M|59.67,24.25|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 15 yellow runes.|
@@ -533,7 +533,7 @@ A Wiggletail's Poking Fork|QID|56444|M|34.72,27.41|N|From item dropped the first
 A We've Got Crabs!|QID|56000|M|27.04,30.33;25.47,26.39|CS|N|From King Mrgl-Mrgl in an underwater cave.|PRE|57040|O|
 C We've Got Crabs!|QID|56000|M|28.32,31.81|NC|N|Pick up the crabs.|
 T We've Got Crabs!|QID|56000|M|27.04,30.33;25.47,26.39|CS|N|To King Mrgl-Mrgl back in the same underwater cave.|
-A Gift From The Clan|QID|56777|M|25.44,26.32|N|From Hunter Akana.|O|
+A A Gift From The Clan|QID|56777|M|25.44,26.32|N|From Hunter Akana.|O|
 C Attrition|QID|55970|M|26.59,29.48|QO|1|N|Tag at least one mob from each wave.|
 C Attrition|QID|55970|M|26.20,29.39|QO|2|N|Destroy Tadpole Collectors.|
 A Drunk Angry Murlocs|QID|56001|M|25.48,26.48|N|From King Mrgl-Mrgl.|O|

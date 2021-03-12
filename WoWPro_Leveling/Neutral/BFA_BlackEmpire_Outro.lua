@@ -238,7 +238,7 @@ C Collect Torn Pages|ACTIVE|57392|QO|1|N|Collect Torn Pages, from a Run of Horri
 t Reconstructing "The Curse of Stone"|QID|57392|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
 A Reconstructing "The Curse of Stone"|QID|57402|PRE|57392|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
 C Collect Torn Pages|ACTIVE|57402|QO|1|SO|1|N|Collect Torn Pages, from a Run of Horrific Visions for Wrathion.|
-t Reconstructing "The Curse of Stone"|QID|57340|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
+t Reconstructing "The Curse of Stone"|QID|57402|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
 A Stepping Through the Darkness|QID|57393|PRE|57402|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
 C Fear and Flesh|ACTIVE|57393|QO|1|N|Recover a copy of "Fear and Flesh", from a Run of Horrific Visions for Wrathion.|
 t Stepping Through the Darkness|QID|57393|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|

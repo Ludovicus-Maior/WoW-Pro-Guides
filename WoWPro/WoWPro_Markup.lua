@@ -24,6 +24,7 @@ function WoWPro.ExpandAbility(ability,want_icon, want_text)
 end
 RegisterMarkup("ability", WoWPro.ExpandAbility)
 
+local InvalidCount = {}
 function WoWPro.ExpandItem(item, want_icon, want_text)
     local name, link, _, _, _, _, _, _, _, texture = _G.GetItemInfo(tonumber(item))
     local expanded = ""
@@ -35,7 +36,11 @@ function WoWPro.ExpandItem(item, want_icon, want_text)
             expanded = expanded .. " " .. link
         end
     else
-        WoWPro:print("Invalid Markup item=%s", tostring(item))
+        InvalidCount[tonumber(item)] = InvalidCount[tonumber(item)] or 0
+        InvalidCount[tonumber(item)] = InvalidCount[tonumber(item)] + 1
+        if InvalidCount[tonumber(item)] > 2 then
+           WoWPro:print("Invalid Markup item=%s", tostring(item))
+        end
         return nil
     end
     return expanded

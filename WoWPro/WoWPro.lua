@@ -1293,7 +1293,7 @@ local function TestGuideLoad(guidID)
     if nextG and WoWPro.Guides[nextG] == nil then
         WoWPro:Error("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
     end
-    if not WoWPro.Guides[guidID].icon then
+    if not WoWPro.Guides[guidID].icon and WoWPro.DebugLevel > 0 then
         WoWPro:Warning("Guide %s has no icon.",guidID)
     end
     if WoWPro.Guides[guidID].faction then
