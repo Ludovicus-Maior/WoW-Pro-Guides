@@ -592,9 +592,9 @@ R Dalaran|ACTIVE|557^545|M|48.94,71.34;41.51,81.86;29.72,78.88|Z|Alterac Mountai
 C Bracers of Binding|QID|557|L|3715 4|N|Kill Elemental Slaves to loot 4 Bracers of Earth Binding.|S|
 C Dalaran Patrols|QID|545|QO|1;2|N|Kill 12 Elemental Slaves and 6 Dalaran Summoners.|
 C Bracers of Binding|QID|557|L|3715 4|N|Finish collecting your Bracers of Earth Binding before leaving.|US|
-R Misty Shore|M|23.26,50.44|Z|Alterac Mountains|N|Head north out of Dalaran to Misty Shore.|
+R Misty Shore|ACTIVE|507|M|23.26,50.44|Z|Alterac Mountains|N|Head north out of Dalaran to Misty Shore.|
 R Dandred's Fold|ACTIVE|507|M|36.91,22.68|Z|Alterac Mountains|N|Follow the shore line north.|
-K Lord Aliden Perenolde|QID|507|M|39.30,14.32|Z|Alterac Mountains|QO|1|N|Make your way inside the house and upstairs to kill Lord Aliden Perenolde.\nClear the mobs all around the house before entering. The mobs inside the house will run through the walls and bring them with them.\n[color=FF0000]NOTE: [/color]Do not walk directly into the house. You will need to clear it first by pulling. Same goes for the top of the stairs.\nDo not take your time as respawns happen quickly.|
+K Lord Aliden Perenolde|ACTIVE|507|M|39.30,14.32|Z|Alterac Mountains|QO|1|N|Make your way inside the house and upstairs to kill Lord Aliden Perenolde.\nClear the mobs all around the house before entering. The mobs inside the house will run through the walls and bring them with them.\n[color=FF0000]NOTE: [/color]Do not walk directly into the house. You will need to clear it first by pulling. Same goes for the top of the stairs.\nDo not take your time as respawns happen quickly.|
 T Lord Aliden Perenolde|QID|507|M|39.30,14.32|Z|Alterac Mountains|N|To Elysa.|
 A Taretha's Gift|QID|508|M|39.30,14.32|Z|Alterac Mountains|N|From Elysa.|
 K WANTED: Baron Vardus|QID|566|M|47.15,17.95;52.76,21.16;55.26,26.98;57.81,30.84;59.77,44.00|Z|Alterac Mountains|CN|QO|1|N|Check the 4 camps in The Uplands for Baron Vardus. Once you have located him, clear the camp, kill Baron Vardus and loot his head.\nThe Syndicate Saboteurs are range attack and require a clear area for pulling. Baron Vardus is also a Frost caster. He can be LoS kited to a point. Outlast his mana and you should be ok.\n[color=FF0000]NOTE: [/color]If you cannot find him in one of the camps (he has a quick respawn timer), check the basement of the tavern in Strahnbrad.|
@@ -613,9 +613,9 @@ A Suspicious Hoofprints|QID|1268|M|29.70,47.65|Z|Dustwallow Marsh|
 A The Black Shield |QID|1251|M|29.63,48.59|Z|Dustwallow Marsh|
 A Lieutenant Paval Reethe|QID|1269|M|29.82,48.21|Z|Dustwallow Marsh|
 A Hungry!|QID|1177|M|35.16,38.26|Z|Dustwallow Marsh|N|Head From Mudcrush Durtfeet.|
-R Brackenwall Village|ACTIVE|1177|M|34.59,30.63|Z|Dustwallow Marsh|N|Make your way to the Brackenwall Village.|
+R Brackenwall Village|ACTIVE|1268^1251^1269|M|34.59,30.63|Z|Dustwallow Marsh|N|Make your way to the Brackenwall Village.|
 A Theramore Spies|QID|1201|M|35.21,30.67|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|
-f Brackenwall Village|QID|1201|M|35.56,31.88|Z|Dustwallow Marsh|N|At Shardi.|
+f Brackenwall Village|QID|1201|M|35.56,31.88|Z|Dustwallow Marsh|N|At Shardi.|TAXI|-Brackenwall Village|
 T Suspicious Hoofprints|QID|1268|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
 T Lieutenant Paval Reethe|QID|1269|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
 T The Black Shield |QID|1251|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
@@ -630,10 +630,10 @@ T The Black Shield|QID|1323|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
 T Theramore Spies|QID|1201|M|35.21,30.66|Z|Dustwallow Marsh|N|To Nazeer Bloodpike.|
 A The Theramore Docks|QID|1202|M|35.21,30.66|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|PRE|1323&1201|
 R Main Road|ACTIVE|1202|M|39.14,37.96|Z|Dustwallow Marsh|CC|N|Exit Brackenwall from the south and follow the road until it ends at the main road.|
-A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ogron, just to the north of your current position.|PRE|1323&1201|
+A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ogron, just to the north of your current position.\n[color=FF0000]NOTE: [/color]This quest is not easy and can be bugged requiring you to finish it twice.|PRE|1323&1201|RANK|3|
 A Questioning Reethe|QID|1273|PRE|1323&1201|M|40.96,36.70|Z|Dustwallow Marsh|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Ogron and re-accept the quest from him.\n[color=FF0000]NOTE: [/color]You'll probably have to wait for him to respawn.|FAIL|
 N Questioning Reethe|ACTIVE|1273|N|If Reethe's not alone, the quest has bugged and you need to clear the mobs before you can do it.\n[color=FF0000]NOTE: [/color]Let Ogron die so the quest will fail and you can restart it.|
-C Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|N|Follow Ogron to Reethe's camp.\n[color=FF0000]NOTE: [/color]If you fail the quest, you need to clear the soldiers before you can do it again. Otherwise, the quest will bug and you can't finish it.|
+C Questioning Reethe|QID|1273|M|42.64,38.08|Z|Dustwallow Marsh|N|Follow Ogron to Reethe's camp.\n[color=FF0000]NOTE: [/color]If you fail the quest, you need to clear the soldiers before you can do it again. Otherwise, the quest will bug and you can't finish it.|
 R North Point Tower|AVAILABLE|1218|M|46.43,22.88|Z|Dustwallow Marsh|N|Head back to the main road and make your way north to the North Point Tower.|
 R Witch Hill|AVAILABLE|1218|M|50.88,25.01|Z|Dustwallow Marsh|N|Continue along the road to the Witch Hill.|
 R Swamplight Manor|AVAILABLE|1218|M|55.17,26.96|Z|Dustwallow Marsh|N|Continue east to the Swamplight Manor. There is a road leading north from the main road to the house.|
