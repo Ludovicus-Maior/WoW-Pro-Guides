@@ -20,7 +20,7 @@ C The Howling Vale|QID|1022|M|53.76,35.08;52.81,37.68;50.49,39.13|CC|N|Run up th
 R Moonwell|ACTIVE|1026|M|54.42,35.39;61.00,44.20;57.30,55.80;51.40,52.50;50.60,46.90;53.50,46.30|CS|N|Run back out of the tunnel and south along the Road. Once past Raynewood Retreat head west along the hill and then follow it up towards the Moonwell|
 T Raene's Cleansing|QID|1026|M|53.50,46.30|CS|N|To Shael'dryn.|
 A Raene's Cleansing|QID|1027|M|53.50,46.30|N|From Shael'dryn.|PRE|1026|
-R Night Run|ACTIVE|1140|M|50.60,46.90;51.40,52.50;57.30,55.80;65.50,43.80|CS|N|Go back around the hill and around Raynewood Retreat. Cross over the road to head up the hill towards Night Run.|
+R Night Run|AVAILABLE|1031|M|50.60,46.90;51.40,52.50;57.30,55.80;65.50,43.80|CS|N|Go back around the hill and around Raynewood Retreat. Cross over the road to head up the hill towards Night Run.|
 C The Tower of Althalaxx|QID|1140|M|66.63,57|Z|Ashenvale|CC|QO|1|N|Make your way through the Satyr in Night Run to click on the Red Crystal in the camp.|
 T Vile Satyr! Dryads in Danger!|QID|1021|M|78.32,44.85|N|Head north-east out of Night Run and cross the lake at Xavian.\nAnilia is the wounded Dryad in the middle of a Satyr camp.|
 A The Branch of Cenarius|QID|1031|M|78.2,44.8|N|From Anilia.|PRE|1021|
@@ -35,37 +35,41 @@ C Raene's Cleansing|QID|1027|M|74.55,73.33|US|N|Kill Slimes until they drop a Ru
 N Rank 3 Guide Steps|AVAILABLE|1012|S|N|You currently have your WoW-Pro Rank set to 3.\nThe guide will shortly be going through a set of quests that are really out of the way.\nIf you wish to skip these quests please set your Rank below 3 in settings and continue the guide.|RANK|3|
 T Forsaken Diseases|QID|1011|M|85.28,44.72|N|Take the road back north and turn in to Kayneth Stillwind. Don't get follow up.|
 A Insane Druids|QID|1012|M|85.28,44.72|N|From Kayneth Stillwind.|PRE|1011|RANK|3|
-R The Dor'Danil Barrow Den|QID|1012|ACTIVE|1012|M|78.6,55.57;75.9,66.93;74.59,76.38;75.96,75.39|CC|N|Back south along the road towards The Dor'Danil Barrow Den|
-K Insane Druids|QID|1012|ACTIVE|1012|M|77.2,73.98|CC|QO|1|N|Kill Taneel Darkwood. Just on the other side of the bridge.|
-K Insane Druids|QID|1012|ACTIVE|1012|M|77.97,72.73|QO|2|N|Kill Uthil Mooncall. Drop down from bridge and go down the tunner on our left. Fall down into another tunnel and he should be to your right.|
-K Insane Druids|QID|1012|ACTIVE|1012|M|74.78,74.33|QO|3|N|Kill Mavoris Cloudsbreak. Go straight out, follow the tunnel ahead then go up the ramp to the big center thing, hang a right up the bridge and follow the thin tunner that wraps around the room.|
-T Insane Druids|QID|1012|M|85.28,44.72|N|To Kayneth Stillwind.|
-f Azshara|QID|1027|M|11.90,77.59|Z|Azshara|N|Grab the Azshara flightpoint while you're here. From Jarrodenus.|
-F Astranaar|QID|1027|M|11.90,77.59|Z|Azshara|N|Fly, Hearth or Run back to Astranaar.|
-T Raene's Cleansing|QID|1027|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CC|N|To Shael'dryn.|
+K Insane Druids|QID|1012|ACTIVE|1012|M|74.60,76.40;77.2,73.98|CS|QO|1|N|Head south along the road towards the Barrow Den entrance. Once inside cross over the bridge to find Taneel Darkwood|
+K Insane Druids|QID|1012|ACTIVE|1012|M|77.97,72.73|QO|2|N|Drop down from bridge and go down the tunner on our left. Fall down into another tunnel and Uthil Mooncall will be to your right.|
+K Insane Druids|QID|1012|ACTIVE|1012|M|74.78,74.33|QO|3|N|Go straight out, follow the tunnel ahead. At the end of the tunnel head up the ramp to your left onto the platform in the center of the room. Take the right-side bridge and follow the tunnel that wraps around the room to find Mavoris Cloudsbreak.|
+T Insane Druids|QID|1012|M|85.28,44.72|N|Take the tunnel to the south, follow it up and to the right to return to the entrance. Return north along the road to Kayneth Stillwind.|
+f Talrendis Point|QID|1027|M|11.90,77.59|Z|Azshara|N|Grab the Azshara flightpoint while you're here. From Jarrodenus.|
+F Astranaar|QID|1027|M|11.90,77.59|Z|Azshara|N|Fly back to Astranaar.|
+T Fallen Sky Lake|QID|1035|M|37.36,51.79|N|To Pelturas Whitemoon.|
+R Moonwell|AVAILABLE|1024|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CS|N|Head to Moonwell to turn in Raene's Cleansing|
+T Raene's Cleansing|QID|1027|M|53.5,46.3|CC|N|To Shael'dryn.|
 A Raene's Cleansing|QID|1028|M|53.5,46.3|N|From Shael'dryn. Wait a moment while she fixes the rod.|PRE|1027|
-R Raene's Cleansing|QID|1028|ACTIVE|1028|M|54.12,53.02;56.08,51.28;57.31,51.82|CC|N|Run back the way you came, circle the mountains counter clockwise until you hit the path.|
-T Raene's Cleansing|QID|1028|M|56.38,49.23|CC|N|To Hidden Shrine.|
+T Raene's Cleansing|QID|1028|M|50.60,46.90;51.40,52.50;53.70,54.00;56.38,49.23|CC|N|Run back around the mountains counter clockwise until you hit the path leading up to the Hidden Shrine.|
 A Raene's Cleansing|QID|1055|M|56.4,49.3|N|From Hidden Shrine.|PRE|1028|
-T Raene's Cleansing|QID|1055|M|53.5,46.3|N|To Shael'dryn.|
+T Raene's Cleansing|QID|1055|M|56.10,51.35;51.40,52.50;53.5,46.3|CC|N|Return along the route to Shael'dryn.|
 A Raene's Cleansing|QID|1029|M|53.5,46.3|N|From Shael'dryn.|PRE|1055|
-T Raene's Cleansing|QID|1029|M|36.6,49.6|N|To Raene Wolfrunner. Don't get follow up.|
-N Rod of Transformation|QID|1030|M|36.6,49.6|N|Raenes questline has 2 more quests really out of the way. If you complete the quest you lose the Rod of Transformation a lot of people like to keep. If you want to play out her story, set WoW-Pro Rank to 3 for out of the way quests. If you want the rod, accept the next quest then abandon it. Click off this step when done.|
+T Raene's Cleansing|QID|1029|M|36.6,49.6|N|To Raene Wolfrunner. Don't get follow up.|RANK|-3|
+T Raene's Cleansing|QID|1029|M|36.6,49.6|N|To Raene Wolfrunner.|RANK|3|
+* Rod of Transformation|AVAILABLE|1030|U|5462|M|36.6,49.6|N|Once the Raene's Cleansing questline is complete the Rod of Transformation will be removed from your inventory. If you wish to retain the ability to transform into a Furbolg after completing the quest discard the rod now before picking up the next quest. After completing the questline go to battle.net/support/en/restoration and select your character to restore the item|RANK|3|
 A Raene's Cleansing|QID|1030|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1029|RANK|3|
 T The Howling Vale|QID|1022|M|22.24,52.98|N|To Sentinel Melyria Frostshadow.|
 A Velinde Starsong|QID|1037|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|PRE|1022|
 T The Branch of Cenarius|QID|1031|M|21.74,53.35|N|To Illiyana.|
 A Satyr Slaying!|QID|1032|M|21.74,53.35|N|From Illiyana.|PRE|1031|RANK|3|
-T Raene's Cleansing|QID|1030|M|50.8,75|N|To Krolg. Be sure to use your rod so you can speak with him.|U|5462|
+T Raene's Cleansing|QID|1030|M|50.8,75|N|To Krolg. Run around the south-east edge of the lake to find the hill up to him. Be sure to use your rod so you can speak with him.|U|5462|
 A Raene's Cleansing|QID|1045|M|50.8,75|N|From Krolg. Be sure to use your rod so you can speak with him.|U|5462|PRE|1030|RANK|3|
 C Raene's Cleansing|QID|1045|M|54.4,79.2|S|N|Kill Bloodtooth Guards in the area.|
 K Raene's Cleansing|QID|1045|ACTIVE|1045|M|54.4,79.2|N|Kill Ran Bloodtooth and loot his skull.|L|5388|
 C Raene's Cleansing|QID|1045|M|54.4,79.2|US|N|Finish Killing Guards.|
 T Raene's Cleansing|QID|1045|M|50.8,75|N|To Krolg. Be sure to use your rod so you can speak with him.|U|5462|
 A Raene's Cleansing|QID|1046|M|50.8,75|N|From Krolg. Be sure to use your rod so you can speak with him.|U|5462|PRE|1045|RANK|3|
-C Satyr Slaying!|QID|1032|M|80,50|N|Kill Satyr up in Satynaar or Nightrun.|
-H Astranaar|QID|1032|ACTIVE|1032|M|36.97,49.26|N|Hearth or Run back to Astranaar.|
-T Raene's Cleansing|QID|1046|M|36.6,49.6|N|To Raene Wolfrunner. Last chance, you turn this in, you lose rod.|
+H Astranaar|QID|1032|ACTIVE|1046|M|36.97,49.26|N|Hearth or Run back to Astranaar.|
+* Rod of Transformation|ACTIVE|1046|S|U|5462|M|36.6,49.6|N|Once you turn in the next step the Rod of Transformation will be removed from your inventory. If you haven't already be sure to discard it and request a new one from Raene before turning the quest in to be able to use the Item Restoration service.|
+T Raene's Cleansing|QID|1046|M|36.6,49.6|N|To Raene Wolfrunner.|
+F Talrendis Point|ACTIVE|1032|M|34.40,48.00|N|Fly to Talrendis Point|
+C Satyr Slaying!|QID|1032|M|80,50|Z|Ashenvale|N|Kill Satyr in Satynaar|
+F Astranaar|ACTIVE|1032|M|11.90,77.59|Z|Azshara|N|Fly back to Astranaar.|
 T Satyr Slaying!|QID|1032|M|21.74,53.35|N|To Illiyana.|
 T The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
 A The Tower of Althalaxx|QID|1167|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|1140|

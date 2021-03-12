@@ -115,8 +115,8 @@ f Ratchet|QID|1017|M|63.09,37.16|Z|The Barrens|N|Grab the Ratchet flightpoint fr
 H Astranaar|AVAILABLE|1026|M|34.68,48.84|N|Hearth or fly back to Astranaar.|
 A Raene's Cleansing|QID|1024|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1023|
 T An Aggressive Defense|QID|1025|M|36.6,49.6|N|To Raene Wolfrunner.|
-R Moonwell|AVAILABLE|1024|M|49.80,56.65;52.75,49.90|CS|N|Head to Moonwell to turn in Raene's Cleansing|
-T Raene's Cleansing|QID|1024|M|53.52,46.28|N|To Shael'dryn.|
+R Moonwell|AVAILABLE|1024|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CS|N|Head to Moonwell to turn in Raene's Cleansing|
+T Raene's Cleansing|QID|1024|M|53.5,46.3|N|To Shael'dryn.|
 A Raene's Cleansing|QID|1026|M|53.5,46.3|N|From Shael'dryn.|PRE|1024|
 T Mage Summoner|QID|1017|M|49.79,67.21|N|To Sentinel Velene Starstrike at Mystral Lake.|
 C The Ruins of Stardust|QID|1034|M|33.9,66.6|N|Loot from big white bushes that have sparkles.|
