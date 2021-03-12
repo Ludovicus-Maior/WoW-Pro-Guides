@@ -6,18 +6,21 @@ WoWPro:GuideName(guide, 'Ashenvale 29-30')
 WoWPro:GuideLevels(guide, 29, 30, 29)
 WoWPro:GuideNextGuide(guide, 'ElidionAlli_I')
 WoWPro:GuideSteps(guide, function() return [[
-b Darkshore|QID|1022|M|4.61,57.07|Z|Wetlands|N|Take Boat to Auberdine.|
-F Astranaar|QID|1022|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar.|
+b Darkshore|AVAILABLE|4581|M|4.61,57.07|Z|Wetlands|N|Take Boat to Auberdine.|
+F Astranaar|AVAILABLE|4581|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar.|
 A Kayneth Stillwind|QID|4581|M|34.67,48.84|N|From Shindrell Swiftfire.|
-h Astranaar|QID|1022|N|Make Astranaar your home location.|M|36.97,49.26|
+h Astranaar|AVAILABLE|1021|N|Make Astranaar your home location.|M|36.97,49.26|
 A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|
 A Vile Satyr! Dryads in Danger!|QID|1021|M|21.74,53.35|N|From Illiyana.|
-K Raene's Cleansing|QID|1026|M|54.42,35.39|S!US|N|Kill Treants until you get the Wooden Key.|L|5475|
-C Raene's Cleansing|QID|1026|M|49.5,56.74;60,53.67;60.71,46.23;58.47,41.05;55.9,35;54.42,35.39|CC|N|Run toward Felwood and into the nightsong woods. Click on the Worn Chest once you have the key.|
+R Raynewood Retreat|ACTIVE|1026|M|62.00,51.00|CS|N|Follow the path east out of Astrannar and take the North path at the fork in the road towards Raynewood Retreat.|
+K Raene's Cleansing|QID|1026|M|54.42,35.39||N|Kill Withered and Crazed Ancients in the area until you get the Wooden Key.|L|5475|
+C Raene's Cleansing|QID|1026|M|54.42,35.39|N|Click on the Worn Chest once you have the key.|
 C The Howling Vale|QID|1022|M|53.76,35.08;52.81,37.68;50.49,39.13|CC|N|Run up the hill next to you and find a worgen guarded tunnel. Fight or sneak your way through to find the tome.|
-T Raene's Cleansing|QID|1026|M|55.9,35;58.47,41.05;60.71,46.23;60,53.67;52.89,54.11;53.5,46.3|CC|N|To Shael'dryn. Run back out of tunnel, head toward road and circle around.|
+R Night Run|ACTIVE|1140|M|54.42,35.39;65.50,43.80|CS|N|Run back out of the tunnel and back south along the road. Look to your left and run through the clearing up the hill towards Night Run|
+C The Tower of Althalaxx|QID|1140|M|66.63,57|Z|Ashenvale|CC|QO|1|N|Click on the Crystal in Night Run.|
+T Raene's Cleansing|QID|1026|M|57.30,55.80;51.40,52.50;50.60,46.90;53.50,46.30|CS|N|Drop down from the hill to your west and head around to Shael'dryn.|
 A Raene's Cleansing|QID|1027|M|53.5,46.3|N|From Shael'dryn.|PRE|1026|
-C The Tower of Althalaxx|QID|1140|M|63.84,43.80;66.63,57|Z|Ashenvale|CC|QO|1|N|Click on the Crystal from Night Run.|
+
 T Vile Satyr! Dryads in Danger!|QID|1021|M|78.32,44.85|N|To Anilia.|
 A The Branch of Cenarius|QID|1031|M|78.2,44.8|N|To Anilia.|PRE|1021|
 C The Branch of Cenarius|QID|1031|M|78,42.48|N|Kill Geltharis.|
