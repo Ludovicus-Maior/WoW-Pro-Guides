@@ -464,7 +464,7 @@ def UpdateGuideFile(guide):
     print("", file=file)
     print("-- WoWPro Guides by \"The WoW-Pro Community\" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.", file=file)
     print("-- Based on a work at github.com.", file=file)
-    print("-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.", file=file)
+    print("-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.", file=file)
     print("", file=file)
 
 
