@@ -28,15 +28,14 @@ C The Branch of Cenarius|QID|1031|M|78,42.48|N|Kill Geltharis in the clearing to
 C The Tower of Althalaxx|QID|1140|M|81.59,48.58|Z|Ashenvale|QO|2|N|Make your way through the Satyr in Sayrnaar to click on the Red Crystal behind the red statue.|
 T Kayneth Stillwind|QID|4581|M|85.28,44.72|N|From Shindrell Swiftfire.|
 A Forsaken Diseases|QID|1011|M|85.28,44.72|N|From Kayneth Stillwind.|
-R The Dor'Danil Barrow Den|QID|1011|M|78.6,55.57;75.65,71.30|CS|N|Go south then follow the road toward The Dor'Danil Barrow Den.|
-C Forsaken Diseases|QID|1011|M|75.3,72.22|N|Loot a Bottle of Disease.|
+C Forsaken Diseases|QID|1011|M|75.3,72.22|N|Head south along the road past Splintertree Post. Loot a Bottle of Disease from the Forsaken camp.|
 C Raene's Cleansing|QID|1027|S||N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|
 C Fallen Sky Lake|QID|1035|M|66.60,82.00|N|Kill the Shadethicket Oracle|
 C Raene's Cleansing|QID|1027|M|74.55,73.33|US|N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|
-N Rank 3 Guide Steps|AVAILABLE|1012|S|N|You are seeing this because you have WoW-Pro rank setting at 3. If you want more essential questing without going too much out of the way drop your rank down to 2 and continue the guide.|RANK|3|
-T Forsaken Diseases|QID|1011|M|85.28,44.72|N|To Kayneth Stillwind. Don't get follow up.|
+N Rank 3 Guide Steps|AVAILABLE|1012|S|N|You currently have your WoW-Pro Rank set to 3.\nThe guide will shortly be going through a set of quests that are really out of the way.\nIf you wish to skip these quests please set your Rank below 3 in settings and continue the guide.|RANK|3|
+T Forsaken Diseases|QID|1011|M|85.28,44.72|N|Take the road back north and turn in to Kayneth Stillwind. Don't get follow up.|
 A Insane Druids|QID|1012|M|85.28,44.72|N|From Kayneth Stillwind.|PRE|1011|RANK|3|
-R Insane Druids|QID|1012|ACTIVE|1012|M|78.6,55.57;75.9,66.93;74.59,76.38;75.96,75.39|CC|N|Go south then follow the road toward Splintertree Post.|
+R The Dor'Danil Barrow Den|QID|1012|ACTIVE|1012|M|78.6,55.57;75.9,66.93;74.59,76.38;75.96,75.39|CC|N|Back south along the road towards The Dor'Danil Barrow Den|
 K Insane Druids|QID|1012|ACTIVE|1012|M|77.2,73.98|CC|QO|1|N|Kill Taneel Darkwood. Just on the other side of the bridge.|
 K Insane Druids|QID|1012|ACTIVE|1012|M|77.97,72.73|QO|2|N|Kill Uthil Mooncall. Drop down from bridge and go down the tunner on our left. Fall down into another tunnel and he should be to your right.|
 K Insane Druids|QID|1012|ACTIVE|1012|M|74.78,74.33|QO|3|N|Kill Mavoris Cloudsbreak. Go straight out, follow the tunnel ahead then go up the ramp to the big center thing, hang a right up the bridge and follow the thin tunner that wraps around the room.|
