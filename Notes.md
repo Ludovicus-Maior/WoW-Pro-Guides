@@ -1,3 +1,24 @@
+# Release 9.0.5-A0
+## Bug Fixes
+* Don't complain about missing guide icons, except in debug mode
+* Don't complain about "Invalid Markup item=" until after the second try
+* Updated Interface to 90005
+## Known bugs
+* Classic release held up to fix Professions processing
+
+## Guide Updates
+### Retail
+* Achievements: SL Sojourners & RaresTreasures
+* Leveling Alliance: Nazjatar
+* Leveling Horde: No soup for you!
+* Leveling Neutral: BlackEmpire Outro, Broken Shore, Warlock Order Hall, Spires of Arak
+* Leveling Shadowlands: Ardenweald, Covenant, Maldraxxus
+* Professions: Alchemy, Blacksmithing
+### Classic
+* Alliance: Darkshore
+* Horde: Durotar, Hendo II
+
+
 # Release 9.0.2-B0 / 1.13.6-E0
 ## Bug Fixes
 * Do not try to recyle the nil guide!
