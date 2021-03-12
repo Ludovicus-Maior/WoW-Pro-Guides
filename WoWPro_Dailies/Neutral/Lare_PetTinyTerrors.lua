@@ -8,12 +8,12 @@
 -- Who: Ludovicus_Maior
 -- Log: Syntax changes.
 
--- URL: http://wow-pro.com/node/3644/revisions/27411/view
+-- URL:
 -- Date: 2016-01-08 23:22
 -- Who: Ludovicus_Maior
 -- Log: Use 3644
 
--- URL: http://wow-pro.com/node/3644/revisions/27410/view
+-- URL:
 -- Date: 2016-01-08 23:22
 -- Who: Ludovicus_Maior
 -- Log: Initial Cut

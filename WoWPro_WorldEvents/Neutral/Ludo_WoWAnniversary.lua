@@ -3,32 +3,32 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/node/3748
+-- URL:
 -- Date: 2018-12-03 23:07
 -- Who: Ludovicus_Maior
 -- Log: Updated
 
--- URL: http://wow-pro.com/node/3748/revisions/30126/view
+-- URL:
 -- Date: 2018-11-17 23:17
 -- Who: Ludovicus_Maior
 -- Log: Minor corrections and cleanups.
 
--- URL: http://wow-pro.com/node/3748/revisions/30040/view
+-- URL:
 -- Date: 2018-10-17 02:32
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3748/revisions/28820/view
+-- URL:
 -- Date: 2017-11-24 18:23
 -- Who: Ludovicus
 -- Log: Tweaks
 
--- URL: http://wow-pro.com/node/3748/revisions/28818/view
+-- URL:
 -- Date: 2017-11-23 05:07
 -- Who: Ludovicus
 -- Log: Add the [The Originals] quest.
 
--- URL: http://wow-pro.com/node/3748/revisions/28814/view
+-- URL:
 -- Date: 2017-11-22 00:01
 -- Who: Ludovicus
 -- Log: Initial Cut

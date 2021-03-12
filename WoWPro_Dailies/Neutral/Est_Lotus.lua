@@ -8,130 +8,130 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3502/revisions/29454/view
+-- URL:
 -- Date: 2018-07-30 19:52
 -- Who: Emmaleah
 -- Log: replace Text with |QO|1| on Roll Club
 
--- URL: http://wow-pro.com/node/3502/revisions/26855/view
+-- URL:
 -- Date: 2014-11-07 20:43
 -- Who: Fluclo
 -- Log: Removed duplicate |CN| tag
 
--- URL: http://wow-pro.com/node/3502/revisions/26544/view
+-- URL:
 -- Date: 2014-06-18 00:51
 -- Who: Ludovicus_Maior
 -- Log: Butchery for 5.4
 
--- URL: http://wow-pro.com/node/3502/revisions/26535/view
+-- URL:
 -- Date: 2014-06-11 19:23
 -- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
--- URL: http://wow-pro.com/node/3502/revisions/25636/view
+-- URL:
 -- Date: 2013-05-14 18:48
 -- Who: Ludovicus_Maior
 -- Log: Bad coord for Baolai the Immolator
 
--- URL: http://wow-pro.com/node/3502/revisions/25615/view
+-- URL:
 -- Date: 2013-05-09 22:20
 -- Who: Ludovicus_Maior
 -- Log: Fixes around [Battle XXX of the Thunder King] quests.
 
--- URL: http://wow-pro.com/node/3502/revisions/25561/view
+-- URL:
 -- Date: 2013-03-23 16:59
 -- Who: Ludovicus_Maior
 -- Log: Added Some T tags.
 
--- URL: http://wow-pro.com/node/3502/revisions/25551/view
+-- URL:
 -- Date: 2013-03-16 18:28
 -- Who: Ludovicus_Maior
 -- Log: Conditionalize  the steps with the water skimmer so that if you have done some Golden lotus quests, you do not see them until the end.  Better coords for [Steer Clear of the Beer Here]
 
--- URL: http://wow-pro.com/node/3502/revisions/25417/view
+-- URL:
 -- Date: 2013-01-13 14:48
 -- Who: Ludovicus_Maior
 -- Log: Added a CN tag
 
--- URL: http://wow-pro.com/node/3502/revisions/25326/view
+-- URL:
 -- Date: 2013-01-11 19:10
 -- Who: Emmaleah
 -- Log: revert LEAD tag changes to version Est posted 12/27/12
 
--- URL: http://wow-pro.com/node/3502/revisions/25325/view
+-- URL:
 -- Date: 2013-01-11 11:24
 -- Who: Estelyen
 -- Log: Correction of Emmaleahs LEAD steps
 
--- URL: http://wow-pro.com/node/3502/revisions/25321/view
+-- URL:
 -- Date: 2013-01-10 03:56
 -- Who: Emmaleah
 -- Log: Added note about Golden Water Skimmer.
 
--- URL: http://wow-pro.com/node/3502/revisions/25278/view
+-- URL:
 -- Date: 2013-01-06 02:17
 -- Who: Emmaleah
 -- Log: Changed LEAD quests for the Whitepetal Lake attacked hub, so it will not require manually checking the hub off.
 
--- URL: http://wow-pro.com/node/3502/revisions/25271/view
+-- URL:
 -- Date: 2012-12-27 11:30
 -- Who: Estelyen
 -- Log: Reversed one change from the previous rewrite as it didn't work like I hoped it would
 
--- URL: http://wow-pro.com/node/3502/revisions/25268/view
+-- URL:
 -- Date: 2012-12-26 18:31
 -- Who: Estelyen
 -- Log: Compressed Accept-steps with multiple prequests into one step, removed all hardcoded numbering as to how many mobs the player needs to kill for a quest
 
--- URL: http://wow-pro.com/node/3502/revisions/25267/view
+-- URL:
 -- Date: 2012-12-26 01:56
 -- Who: Ludovicus_Maior
 -- Log: Add new guide start and Introduction Questline tweaks.
 
--- URL: http://wow-pro.com/node/3502/revisions/25253/view
+-- URL:
 -- Date: 2012-12-17 12:38
 -- Who: Estelyen
 -- Log: Some more corrections to update the guide to the changes Blizz made in patch 5.1
 
--- URL: http://wow-pro.com/node/3502/revisions/25221/view
+-- URL:
 -- Date: 2012-11-30 18:53
 -- Who: Estelyen
 -- Log: Patch 5.1 had the Stillwater Crocodiles renamed to Stillwater Crocolisks (I was wondering about that while writing the guide, having never encountered a crocodile in WoW before), guide text changed accordingly
 
--- URL: http://wow-pro.com/node/3502/revisions/25203/view
+-- URL:
 -- Date: 2012-11-11 11:36
 -- Who: Estelyen
 -- Log: Found General Temuja, added tactics
 
--- URL: http://wow-pro.com/node/3502/revisions/25195/view
+-- URL:
 -- Date: 2012-11-10 14:55
 -- Who: Estelyen
 -- Log: Found a missing link-quest between two quest hubs, added
 
--- URL: http://wow-pro.com/node/3502/revisions/25192/view
+-- URL:
 -- Date: 2012-11-09 11:49
 -- Who: Estelyen
 -- Log: Found Gaohun the Soul-Severer today, added tactics
 
--- URL: http://wow-pro.com/node/3502/revisions/25185/view
+-- URL:
 -- Date: 2012-11-07 15:04
 -- Who: Estelyen
 -- Log: Oops, forgot to remove the "Work in progress" note :P
 
--- URL: http://wow-pro.com/node/3502/revisions/25184/view
+-- URL:
 -- Date: 2012-11-07 14:56
 -- Who: Estelyen
 
--- URL: http://wow-pro.com/node/3502/revisions/25142/view
+-- URL:
 -- Date: 2012-10-17 13:41
 -- Who: Estelyen
 -- Log: Please do not yet include in the Addon, the guide is NOT completed
 
--- URL: http://wow-pro.com/node/3502/revisions/25113/view
+-- URL:
 -- Date: 2012-10-07 22:31
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3502/revisions/25112/view
+-- URL:
 -- Date: 2012-10-07 22:31
 -- Who: Ludovicus_Maior
 

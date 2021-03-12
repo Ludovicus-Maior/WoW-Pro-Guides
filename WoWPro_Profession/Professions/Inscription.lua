@@ -8,26 +8,26 @@
 -- Who: Ludovicus_Maior
 -- Log: WoWPro:GuideLevels(guide)
 
--- URL: http://wow-pro.com/node/3411/revisions/28196/view
+-- URL:
 -- Date: 2017-01-02 22:38
 -- Who: Ludovicus_Maior
 -- Log: New style registration
 
--- URL: http://wow-pro.com/node/3411/revisions/25661/view
+-- URL:
 -- Date: 2013-05-16 01:09
 -- Who: Twists
 -- Log: Update to the new parser.
 
--- URL: http://wow-pro.com/node/3411/revisions/24683/view
+-- URL:
 -- Date: 2011-07-13 22:46
 -- Who: Ludovicus_Maior
 -- Log: Sync to GitHub
 
--- URL: http://wow-pro.com/node/3411/revisions/24644/view
+-- URL:
 -- Date: 2011-06-30 06:06
 -- Who: Crackerhead22
 
--- URL: http://wow-pro.com/node/3411/revisions/24636/view
+-- URL:
 -- Date: 2011-06-30 05:56
 -- Who: Crackerhead22
 

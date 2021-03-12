@@ -8,31 +8,31 @@
 -- Who: Ludovicus
 -- Log: Correct source of [Adamantite Rapier] for Alliance from Thunder Bluff to The Exodar!
 
--- URL: http://wow-pro.com/node/3566/revisions/28201/view
+-- URL:
 -- Date: 2017-01-02 22:44
 -- Who: Ludovicus_Maior
 -- Log: New registration style
 
--- URL: http://wow-pro.com/node/3566/revisions/28083/view
+-- URL:
 -- Date: 2016-11-30 20:25
 -- Who: Ludovicus_Maior
 -- Log: Fix single section error.
 
--- URL: http://wow-pro.com/node/3566/revisions/26948/view
+-- URL:
 -- Date: 2014-11-08 20:21
 -- Who: Ludovicus_Maior
 -- Log: Update the Shrines
 
--- URL: http://wow-pro.com/node/3566/revisions/25911/view
+-- URL:
 -- Date: 2014-03-06 23:50
 -- Who: Ludovicus_Maior
 -- Log: Correct Molten Front zone tags.
 
--- URL: http://wow-pro.com/node/3566/revisions/25899/view
+-- URL:
 -- Date: 2014-02-14 00:15
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3566/revisions/25884/view
+-- URL:
 -- Date: 2014-02-13 23:59
 -- Who: Ludovicus_Maior
 

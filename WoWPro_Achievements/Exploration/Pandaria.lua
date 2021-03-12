@@ -7,22 +7,22 @@
 -- Date: 2018-08-02 01:50
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3645/revisions/29457/view
+-- URL:
 -- Date: 2018-08-01 00:30
 -- Who: Ludovicus_Maior
 -- Log: It is  |The Jade Forest| Ludo!
 
--- URL: http://wow-pro.com/node/3645/revisions/29418/view
+-- URL:
 -- Date: 2018-07-10 18:19
 -- Who: Ludovicus_Maior
 -- Log: Lots of missing coords.
 
--- URL: http://wow-pro.com/node/3645/revisions/27414/view
+-- URL:
 -- Date: 2016-01-08 23:28
 -- Who: Ludovicus_Maior
 -- Log: 3645
 
--- URL: http://wow-pro.com/node/3645/revisions/27413/view
+-- URL:
 -- Date: 2016-01-08 23:28
 -- Who: Ludovicus_Maior
 -- Log: Initial

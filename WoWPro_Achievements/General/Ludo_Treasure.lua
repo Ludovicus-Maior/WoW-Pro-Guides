@@ -8,12 +8,12 @@
 -- Who: Ludovicus_Maior
 -- Log: Converted
 
--- URL: http://wow-pro.com/node/3562/revisions/25878/view
+-- URL:
 -- Date: 2014-02-13 16:53
 -- Who: Ludovicus_Maior
 -- Log: Tweaks!
 
--- URL: http://wow-pro.com/node/3562/revisions/25868/view
+-- URL:
 -- Date: 2014-01-13 22:31
 -- Who: Ludovicus_Maior
 -- Log: Initial Version

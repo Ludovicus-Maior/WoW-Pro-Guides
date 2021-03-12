@@ -3,17 +3,17 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/node/3555
+-- URL:
 -- Date: 2014-12-25 18:53
 -- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
--- URL: http://wow-pro.com/node/3555/revisions/26195/view
+-- URL:
 -- Date: 2014-05-22 22:35
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3555/revisions/25752/view
+-- URL:
 -- Date: 2013-08-24 18:59
 -- Who: Estelyen
 

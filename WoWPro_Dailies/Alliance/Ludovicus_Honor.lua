@@ -8,16 +8,16 @@
 -- Who: Ludovicus_Maior
 -- Log: Added levels and faction
 
--- URL: http://wow-pro.com/node/3528/revisions/26514/view
+-- URL:
 -- Date: 2014-06-10 23:22
 -- Who: Ludovicus_Maior
 -- Log: Changed guide level.
 
--- URL: http://wow-pro.com/node/3528/revisions/25493/view
+-- URL:
 -- Date: 2013-01-14 00:32
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3528/revisions/25486/view
+-- URL:
 -- Date: 2013-01-13 23:37
 -- Who: Ludovicus_Maior
 -- Log: Init version with CS correction.

@@ -8,72 +8,72 @@
 -- Who: Ludovicus_Maior
 -- Log: Avoid bad markup
 
--- URL: http://wow-pro.com/node/3712/revisions/30033/view
+-- URL:
 -- Date: 2018-10-17 02:31
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3712/revisions/28727/view
+-- URL:
 -- Date: 2017-08-03 21:47
 -- Who: Ludovicus_Maior
 -- Log: Started Enchanting, not done yet.
 
--- URL: http://wow-pro.com/node/3712/revisions/28723/view
+-- URL:
 -- Date: 2017-07-15 22:30
 -- Who: Ludovicus_Maior
 -- Log: Expanded Jewelcrafting.
 
--- URL: http://wow-pro.com/node/3712/revisions/28711/view
+-- URL:
 -- Date: 2017-07-04 23:42
 -- Who: Ludovicus_Maior
 -- Log: Expanded Inscription.  Moved secondary professions to the end.
 
--- URL: http://wow-pro.com/node/3712/revisions/28614/view
+-- URL:
 -- Date: 2017-03-27 19:20
 -- Who: Blanckaert
 -- Log: replacing of guide, with some changes.
 
--- URL: http://wow-pro.com/node/3712/revisions/28602/view
+-- URL:
 -- Date: 2017-03-23 19:41
 -- Who: Ludovicus_Maior
 -- Log: Spelling
 
--- URL: http://wow-pro.com/node/3712/revisions/28499/view
+-- URL:
 -- Date: 2017-03-17 00:37
 -- Who: Ludovicus_Maior
 -- Log: Syntax tweaks
 
--- URL: http://wow-pro.com/node/3712/revisions/28268/view
+-- URL:
 -- Date: 2017-03-04 19:13
 -- Who: Blanckaert
 -- Log: added more quests....  just cheated and cut and pasted whole guide
 
--- URL: http://wow-pro.com/node/3712/revisions/28253/view
+-- URL:
 -- Date: 2017-02-18 03:14
 -- Who: Blanckaert
 -- Log: rewite, broke up guide into the Profs, and sorted alphabetically.  Still adding and adjusting.
 
--- URL: http://wow-pro.com/node/3712/revisions/28249/view
+-- URL:
 -- Date: 2017-01-31 00:56
 -- Who: Blanckaert
 -- Log: updates, added quests, got 'most' of some professions, sorry - jewelcrafting I forgot to record, going to be manualing adding that one
 
--- URL: http://wow-pro.com/node/3712/revisions/28241/view
+-- URL:
 -- Date: 2017-01-14 22:51
 -- Who: Blanckaert
 -- Log: multi updates
 
--- URL: http://wow-pro.com/node/3712/revisions/28210/view
+-- URL:
 -- Date: 2017-01-02 23:09
 -- Who: Ludovicus_Maior
 -- Log: Updated guide registration
 
--- URL: http://wow-pro.com/node/3712/revisions/28183/view
+-- URL:
 -- Date: 2016-12-28 19:46
 -- Who: Blanckaert
 -- Log: fixed header info for guides
 
--- URL: http://wow-pro.com/node/3712/revisions/28179/view
+-- URL:
 -- Date: 2016-12-28 02:19
 -- Who: Blanckaert
 -- Log: New Guide... Attempt at putting Professions into one guide.

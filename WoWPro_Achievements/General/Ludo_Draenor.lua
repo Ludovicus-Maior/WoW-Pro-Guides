@@ -8,72 +8,72 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3633/revisions/28551/view
+-- URL:
 -- Date: 2017-03-23 17:37
 -- Who: Ludovicus_Maior
 -- Log: Spelling
 
--- URL: http://wow-pro.com/node/3633/revisions/28315/view
+-- URL:
 -- Date: 2017-03-10 23:02
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
--- URL: http://wow-pro.com/node/3633/revisions/27356/view
+-- URL:
 -- Date: 2015-07-24 03:35
 -- Who: Blanckaert
 -- Log: fixed a bad coord, added to last treasures I hadn't gotten yet, but still need to go back over with a fresh toon.
 
--- URL: http://wow-pro.com/node/3633/revisions/27355/view
+-- URL:
 -- Date: 2015-07-23 05:36
 -- Who: Blanckaert
 -- Log: fleshed out more of the treasures, going to start going back over them to get Coords to xx.xx. * there is an issue with the ACTIVE on the last three items.
 
--- URL: http://wow-pro.com/node/3633/revisions/27354/view
+-- URL:
 -- Date: 2015-07-22 03:37
 -- Who: Blanckaert
 -- Log: added some details as I played through Tanaan items.  a few need there cave entrance coords put in with right tags.  Will adjust more later in week, hope to have the treasures filled out by weekend.
 
--- URL: http://wow-pro.com/node/3633/revisions/27353/view
+-- URL:
 -- Date: 2015-07-22 01:46
 -- Who: Blanckaert
 -- Log: for some reason, change didn't go through.  fleshed out some of the items, a few need you to be ON a quest to get, put PRE tags on those.. but that might not work right
 
--- URL: http://wow-pro.com/node/3633/revisions/27352/view
+-- URL:
 -- Date: 2015-07-22 01:41
 -- Who: Blanckaert
 -- Log: Added some Item IDs, and listed if needs a quest in log at the time to get Used PRE tag, but not sure if that was the right one
 
--- URL: http://wow-pro.com/node/3633/revisions/27351/view
+-- URL:
 -- Date: 2015-07-21 23:59
 -- Who: Blanckaert
 -- Log: changed -- to ; for two comments I had put in
 
--- URL: http://wow-pro.com/node/3633/revisions/27350/view
+-- URL:
 -- Date: 2015-07-21 21:13
 -- Who: Blanckaert
 -- Log: Added Tanaan Jungle items, though it still need item type, Name, and IDs added.  (Hope I formatted it right)
 
--- URL: http://wow-pro.com/node/3633/revisions/27349/view
+-- URL:
 -- Date: 2015-07-21 16:10
 -- Who: Blanckaert
 -- Log: Removed Duplicate entries for Faction Specific Items. QIDs #35383, 35384, 35381, 35530, 35289, 35382
 
--- URL: http://wow-pro.com/node/3633/revisions/27348/view
+-- URL:
 -- Date: 2015-07-21 15:34
 -- Who: Blanckaert
 -- Log: Adjusted spawn point of Earthshaker Holar
 
--- URL: http://wow-pro.com/node/3633/revisions/27347/view
+-- URL:
 -- Date: 2015-07-20 22:37
 -- Who: Ludovicus_Maior
 -- Log: Got rid of QID|xxx placeholders and either filled them in or deleted.
 
--- URL: http://wow-pro.com/node/3633/revisions/27346/view
+-- URL:
 -- Date: 2015-07-20 19:37
 -- Who: Blanckaert
 -- Log: Added spawn time and cave to Ragore.
 
--- URL: http://wow-pro.com/node/3633/revisions/27298/view
+-- URL:
 -- Date: 2015-06-23 12:21
 -- Who: Ludovicus_Maior
 -- Log: Initial Version

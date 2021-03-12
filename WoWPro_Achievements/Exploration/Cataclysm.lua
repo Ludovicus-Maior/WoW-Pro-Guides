@@ -8,12 +8,12 @@
 -- Who: Ludovicus_Maior
 -- Log: Converted to Continent guide with proximity sort.
 
--- URL: http://wow-pro.com/node/3578/revisions/26486/view
+-- URL:
 -- Date: 2014-06-03 22:20
 -- Who: Ludovicus_Maior
 -- Log: Modernize the remaining explorations for CATA zones.
 
--- URL: http://wow-pro.com/node/3578/revisions/26382/view
+-- URL:
 -- Date: 2014-05-28 21:57
 -- Who: Ludovicus_Maior
 -- Log: Initial Cut

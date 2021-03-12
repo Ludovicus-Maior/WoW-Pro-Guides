@@ -8,27 +8,27 @@
 -- Who: Ludovicus_Maior
 -- Log: [Snail Fight!]
 
--- URL: http://wow-pro.com/node/3734/revisions/28733/view
+-- URL:
 -- Date: 2017-08-03 22:02
 -- Who: Ludovicus_Maior
 -- Log: Work of just World QIDs
 
--- URL: http://wow-pro.com/node/3734/revisions/28732/view
+-- URL:
 -- Date: 2017-08-03 21:59
 -- Who: Ludovicus_Maior
 -- Log: .
 
--- URL: http://wow-pro.com/node/3734/revisions/28731/view
+-- URL:
 -- Date: 2017-08-03 21:58
 -- Who: Ludovicus_Maior
 -- Log: Work off of World QIDs
 
--- URL: http://wow-pro.com/node/3734/revisions/28717/view
+-- URL:
 -- Date: 2017-07-05 21:09
 -- Who: Ludovicus_Maior
 -- Log: Add AS
 
--- URL: http://wow-pro.com/node/3734/revisions/28696/view
+-- URL:
 -- Date: 2017-06-13 20:10
 -- Who: rpotor
 -- Log: Initial version

@@ -3,31 +3,31 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/node/3707
+-- URL:
 -- Date: 2018-10-17 02:20
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3707/revisions/28252/view
+-- URL:
 -- Date: 2017-02-11 21:16
 -- Who: Blanckaert
 -- Log: added (Zone Name) to Notes, removed Prox sort, to make it done manual after loading.
 
--- URL: http://wow-pro.com/node/3707/revisions/28165/view
+-- URL:
 -- Date: 2017-01-03 00:03
 -- Who: Blanckaert
 -- Log: adjusted chest that where moved in suramar
 
--- URL: http://wow-pro.com/node/3707/revisions/28150/view
+-- URL:
 -- Date: 2016-12-14 00:58
 -- Who: Blanckaert
 
--- URL: http://wow-pro.com/node/3707/revisions/28148/view
+-- URL:
 -- Date: 2016-12-14 00:46
 -- Who: Blanckaert
 -- Log: remove -- from prox sort
 
--- URL: http://wow-pro.com/node/3707/revisions/28138/view
+-- URL:
 -- Date: 2016-12-10 21:48
 -- Who: Blanckaert
 -- Log: Start of a Treasures guide, for all the Broken Isle Zones, in one file.

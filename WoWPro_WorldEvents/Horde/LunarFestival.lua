@@ -8,116 +8,116 @@
 -- Who: Emmaleah
 -- Log: multiple updates for BFA - including map changes, and Zidormi to darkshore and tirisfal glades
 
--- URL: http://wow-pro.com/node/3452/revisions/29225/view
+-- URL:
 -- Date: 2018-03-06 01:33
 -- Who: Ludovicus_EditBot
 -- Log: LVL strips
 
--- URL: http://wow-pro.com/node/3452/revisions/29146/view
+-- URL:
 -- Date: 2018-02-24 07:04
 -- Who: Emmaleah
 -- Log: Minor updates to Eastern Kingdoms
 
--- URL: http://wow-pro.com/node/3452/revisions/29102/view
+-- URL:
 -- Date: 2018-02-21 10:53
 -- Who: Emmaleah
 -- Log: Add note about Zidormi in Silithus
 
--- URL: http://wow-pro.com/node/3452/revisions/28515/view
+-- URL:
 -- Date: 2017-03-17 14:11
 -- Who: Ludovicus_Maior
 -- Log: 1 Syntax fix
 
--- URL: http://wow-pro.com/node/3452/revisions/28290/view
+-- URL:
 -- Date: 2017-03-05 18:55
 -- Who: Ludovicus_Maior
 -- Log: Float the level
 
--- URL: http://wow-pro.com/node/3452/revisions/28024/view
+-- URL:
 -- Date: 2016-11-16 22:56
 -- Who: Ludovicus_Maior
 -- Log: Corrected ¦Z¦The Temple of Atal Hakkar¦
 
--- URL: http://wow-pro.com/node/3452/revisions/27718/view
+-- URL:
 -- Date: 2016-09-07 14:35
 -- Who: Ludovicus_Maior
 -- Log: Use The Nexus@TheNexus
 
--- URL: http://wow-pro.com/node/3452/revisions/27711/view
+-- URL:
 -- Date: 2016-09-07 04:03
 -- Who: Emmaleah
 -- Log: changed |Z|TheTempleOfAtalHakkar to |Z|The Temple of Atal' Hakkar x 2 lines
 
--- URL: http://wow-pro.com/node/3452/revisions/27360/view
+-- URL:
 -- Date: 2015-07-25 18:14
 -- Who: Ludovicus_Maior
 -- Log: Add Icon
 
--- URL: http://wow-pro.com/node/3452/revisions/27147/view
+-- URL:
 -- Date: 2015-02-24 08:27
 -- Who: Emmaleah
 -- Log: Correct a misplaced "|"
 
--- URL: http://wow-pro.com/node/3452/revisions/27144/view
+-- URL:
 -- Date: 2015-02-24 04:58
 -- Who: Emmaleah
 -- Log: updated for WOD, also streamlined quest order so you aren't flying thru hubs multiple times. Put Vashj'ir and Uldam in the sequence while flying around since they do not have portals back to orgrimmar.
 
--- URL: http://wow-pro.com/node/3452/revisions/26495/view
+-- URL:
 -- Date: 2014-06-10 21:32
 -- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
--- URL: http://wow-pro.com/node/3452/revisions/25874/view
+-- URL:
 -- Date: 2014-01-23 00:22
 -- Who: Ludovicus_Maior
 -- Log: Z tags corrections
 
--- URL: http://wow-pro.com/node/3452/revisions/25524/view
+-- URL:
 -- Date: 2013-02-06 20:29
 -- Who: Ludovicus_Maior
 -- Log: Coord fixes and a few LVL tags
 
--- URL: http://wow-pro.com/node/3452/revisions/25514/view
+-- URL:
 -- Date: 2013-01-28 12:03
 -- Who: Ludovicus_Maior
 -- Log: Updated with new Alliance coord.  Horde cords not verified yet.
 
--- URL: http://wow-pro.com/node/3452/revisions/25302/view
+-- URL:
 -- Date: 2013-01-09 17:28
 -- Who: Ludovicus_Maior
 -- Log: Added CS tags
 
--- URL: http://wow-pro.com/node/3452/revisions/24941/view
+-- URL:
 -- Date: 2012-02-07 03:29
 -- Who: Laotseu
 -- Log: Merge back the corrections that I had made in the previous version of the guide with the new Cata elders.
 
--- URL: http://wow-pro.com/node/3452/revisions/24940/view
+-- URL:
 -- Date: 2012-02-05 23:54
 -- Who: Ludovicus_Maior
 -- Log: Add in LaoTseu's changes
 
--- URL: http://wow-pro.com/node/3452/revisions/24932/view
+-- URL:
 -- Date: 2012-02-04 22:39
 -- Who: Ludovicus_Maior
 -- Log: Elders of Cata
 
--- URL: http://wow-pro.com/node/3452/revisions/24918/view
+-- URL:
 -- Date: 2012-01-23 23:13
 -- Who: Ludovicus_Maior
 -- Log: Merge in Laotseu's update.
 
--- URL: http://wow-pro.com/node/3452/revisions/24853/view
+-- URL:
 -- Date: 2011-12-10 04:35
 -- Who: Crackerhead22
 
--- URL: http://wow-pro.com/node/3452/revisions/24846/view
+-- URL:
 -- Date: 2011-12-07 18:37
 -- Who: Crackerhead22
 -- Log: Added Elders guide source code, added section for Lunar Festival achievements.
 
--- URL: http://wow-pro.com/node/3452/revisions/24844/view
+-- URL:
 -- Date: 2011-12-07 18:30
 -- Who: Crackerhead22
 -- Log: Source page created.

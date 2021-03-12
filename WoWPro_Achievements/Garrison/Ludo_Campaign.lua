@@ -8,146 +8,146 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3648/revisions/28974/view
+-- URL:
 -- Date: 2018-02-19 22:30
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
 
--- URL: http://wow-pro.com/node/3648/revisions/28802/view
+-- URL:
 -- Date: 2017-10-07 19:56
 -- Who: Ludovicus_Maior
 -- Log: Cleanup for Horde
 
--- URL: http://wow-pro.com/node/3648/revisions/28548/view
+-- URL:
 -- Date: 2017-03-23 17:34
 -- Who: Ludovicus_Maior
 -- Log: Spelling
 
--- URL: http://wow-pro.com/node/3648/revisions/28309/view
+-- URL:
 -- Date: 2017-03-10 22:41
 -- Who: Ludovicus_Maior
 -- Log: Add PREs
 
--- URL: http://wow-pro.com/node/3648/revisions/27607/view
+-- URL:
 -- Date: 2016-08-28 23:27
 -- Who: tubera
 -- Log: Add missing Zone
 
--- URL: http://wow-pro.com/node/3648/revisions/27606/view
+-- URL:
 -- Date: 2016-08-28 23:17
 -- Who: tubera
 -- Log: Fix typo Forstwolf Overlook
 
--- URL: http://wow-pro.com/node/3648/revisions/27598/view
+-- URL:
 -- Date: 2016-08-26 23:45
 -- Who: tubera
 -- Log: Tweak Seismic Matters; remove duplicate Z tag in Heart of the Breakers;Fix Cragplume depths (@Gorgrond)
 
--- URL: http://wow-pro.com/node/3648/revisions/27597/view
+-- URL:
 -- Date: 2016-08-26 22:09
 -- Who: tubera
 -- Log: Worked out Awakinging, Horde
 
--- URL: http://wow-pro.com/node/3648/revisions/27596/view
+-- URL:
 -- Date: 2016-08-26 20:53
 -- Who: tubera
 -- Log: Darkride Roost: Add quest "free their mind"; Add Alliance flight to DR; Add missing zones.
 
--- URL: http://wow-pro.com/node/3648/revisions/27595/view
+-- URL:
 -- Date: 2016-08-26 02:10
 -- Who: tubera
 -- Log: Cleanup: Ours is the Fury, Horde
 
--- URL: http://wow-pro.com/node/3648/revisions/27583/view
+-- URL:
 -- Date: 2016-08-21 20:10
 -- Who: tubera
 -- Log: Tweak The Sargerei
 
--- URL: http://wow-pro.com/node/3648/revisions/27555/view
+-- URL:
 -- Date: 2016-08-15 22:25
 -- Who: Ludovicus_Maior
 -- Log: Correct [Garrison Campaign: The Fall of Shattrath] for the alliance.
 
--- URL: http://wow-pro.com/node/3648/revisions/27536/view
+-- URL:
 -- Date: 2016-08-08 02:42
 -- Who: tubera
 -- Log: Tweaked: Garrison Campaign: The Search for Shadow Hunter Bwu'ja (Horde)
 
--- URL: http://wow-pro.com/node/3648/revisions/27527/view
+-- URL:
 -- Date: 2016-08-05 19:38
 -- Who: tubera
 -- Log: Cleaned up "Deep Recon" (Horde)
 
--- URL: http://wow-pro.com/node/3648/revisions/27525/view
+-- URL:
 -- Date: 2016-08-04 15:49
 -- Who: tubera
 -- Log: Refixed last fix, so step will autocomplete.
 
--- URL: http://wow-pro.com/node/3648/revisions/27524/view
+-- URL:
 -- Date: 2016-08-04 15:41
 -- Who: tubera
 -- Log: Add Zone tag to Fall of Shattrath: Challenge
 
--- URL: http://wow-pro.com/node/3648/revisions/27522/view
+-- URL:
 -- Date: 2016-08-03 14:07
 -- Who: tubera
 -- Log: Strike at the heart, Horde: Add coordinates Azuka. Add Zone. Change ACTIVE to QID on "Where the is Smoke"
 
--- URL: http://wow-pro.com/node/3648/revisions/27521/view
+-- URL:
 -- Date: 2016-08-02 21:49
 -- Who: tubera
 -- Log: Add " to fly to the Broken Precipe" to be more clear.
 
--- URL: http://wow-pro.com/node/3648/revisions/27517/view
+-- URL:
 -- Date: 2016-08-02 19:15
 -- Who: tubera
 -- Log: added QID/ACTIVE Id value on Azuka Bladefury to prevent error messages, I hope it's the correct one.
 
--- URL: http://wow-pro.com/node/3648/revisions/27515/view
+-- URL:
 -- Date: 2016-08-02 13:56
 -- Who: tubera
 -- Log: Removed duplicate Z tags in broken precipe
 
--- URL: http://wow-pro.com/node/3648/revisions/27513/view
+-- URL:
 -- Date: 2016-08-01 13:42
 -- Who: tubera
 -- Log: Heart of the Breakers: Added missing step Heart of Gorgorek. Changed K steps to C steps so they would autocomplete. Added some N tags where it was unclear what to do. Fixed Zones on last step. Added basic F step to fly to Gorgrond.
 
--- URL: http://wow-pro.com/node/3648/revisions/27508/view
+-- URL:
 -- Date: 2016-07-31 19:58
 -- Who: tubera
 -- Log: Cleaned up Broken Precipe. Added zone tags; Flight option from garrison; Stickied Ogre Onslaught.
 
--- URL: http://wow-pro.com/node/3648/revisions/27487/view
+-- URL:
 -- Date: 2016-07-30 18:54
 -- Who: Ludovicus_Maior
 -- Log: Added missing M tag
 
--- URL: http://wow-pro.com/node/3648/revisions/27482/view
+-- URL:
 -- Date: 2016-07-30 16:14
 -- Who: Ludovicus_Maior
 -- Log: Uploaded the new merged guide.
 
--- URL: http://wow-pro.com/node/3648/revisions/27438/view
+-- URL:
 -- Date: 2016-03-23 01:27
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3648/revisions/27437/view
+-- URL:
 -- Date: 2016-03-23 01:26
 -- Who: Ludovicus_Maior
 -- Log: Add Horde Guide.
 
--- URL: http://wow-pro.com/node/3648/revisions/27436/view
+-- URL:
 -- Date: 2016-03-23 01:25
 -- Who: Ludovicus_Maior
 -- Log: Alliance switch
 
--- URL: http://wow-pro.com/node/3648/revisions/27422/view
+-- URL:
 -- Date: 2016-01-09 00:41
 -- Who: Ludovicus_Maior
 -- Log: 3648
 
--- URL: http://wow-pro.com/node/3648/revisions/27421/view
+-- URL:
 -- Date: 2016-01-09 00:40
 -- Who: Ludovicus_Maior
 -- Log: Initial

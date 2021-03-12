@@ -8,17 +8,17 @@
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
--- URL: http://wow-pro.com/node/3420/revisions/26561/view
+-- URL:
 -- Date: 2014-07-06 15:47
 -- Who: Ludovicus_Maior
 -- Log: Added levels and faction
 
--- URL: http://wow-pro.com/node/3420/revisions/26528/view
+-- URL:
 -- Date: 2014-06-11 19:15
 -- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
--- URL: http://wow-pro.com/node/3420/revisions/24652/view
+-- URL:
 -- Date: 2011-06-30 19:14
 -- Who: Ludovicus_Maior
 

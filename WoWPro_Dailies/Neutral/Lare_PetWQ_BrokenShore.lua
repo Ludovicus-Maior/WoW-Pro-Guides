@@ -8,27 +8,27 @@
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
 
--- URL: http://wow-pro.com/node/3732/revisions/28729/view
+-- URL:
 -- Date: 2017-08-03 21:56
 -- Who: Ludovicus_Maior
 -- Log: Use world QIDs
 
--- URL: http://wow-pro.com/node/3732/revisions/28721/view
+-- URL:
 -- Date: 2017-07-05 21:16
 -- Who: Ludovicus_Maior
 -- Log: Update text.
 
--- URL: http://wow-pro.com/node/3732/revisions/28714/view
+-- URL:
 -- Date: 2017-07-05 21:08
 -- Who: Ludovicus_Maior
 -- Log: Add AS
 
--- URL: http://wow-pro.com/node/3732/revisions/28694/view
+-- URL:
 -- Date: 2017-06-13 20:05
 -- Who: rpotor
 -- Log: Fix edit and comment links
 
--- URL: http://wow-pro.com/node/3732/revisions/28693/view
+-- URL:
 -- Date: 2017-06-13 20:03
 -- Who: rpotor
 -- Log: Initial version

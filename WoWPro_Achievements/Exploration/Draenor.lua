@@ -8,7 +8,7 @@
 -- Who: Ludovicus_Maior
 -- Log: 3646
 
--- URL: http://wow-pro.com/node/3646/revisions/27415/view
+-- URL:
 -- Date: 2016-01-08 23:30
 -- Who: Ludovicus_Maior
 -- Log: Initial

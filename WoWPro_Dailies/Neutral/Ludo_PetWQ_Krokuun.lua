@@ -3,12 +3,12 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/node/3744
+-- URL:
 -- Date: 2017-09-12 21:30
 -- Who: Ludovicus_Maior
 -- Log: Revised Gnasher
 
--- URL: http://wow-pro.com/node/3744/revisions/28781/view
+-- URL:
 -- Date: 2017-09-05 23:00
 -- Who: Ludovicus_Maior
 -- Log: First Cut

@@ -8,22 +8,22 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3630/revisions/28973/view
+-- URL:
 -- Date: 2018-02-19 22:27
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
 
--- URL: http://wow-pro.com/node/3630/revisions/28547/view
+-- URL:
 -- Date: 2017-03-23 17:33
 -- Who: Ludovicus_Maior
 -- Log: Spelling
 
--- URL: http://wow-pro.com/node/3630/revisions/28518/view
+-- URL:
 -- Date: 2017-03-17 14:43
 -- Who: Ludovicus_Maior
 -- Log: Add [The Assault Base] as PRE
 
--- URL: http://wow-pro.com/node/3630/revisions/27295/view
+-- URL:
 -- Date: 2015-06-23 12:15
 -- Who: Ludovicus_Maior
 -- Log: Initial version

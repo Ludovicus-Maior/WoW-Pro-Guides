@@ -8,17 +8,17 @@
 -- Who: Ludovicus_Maior
 -- Log: WoWPro:GuideLevels(guide)
 
--- URL: http://wow-pro.com/node/3463/revisions/28280/view
+-- URL:
 -- Date: 2017-03-05 18:43
 -- Who: Ludovicus_Maior
 -- Log: Initial Skinning guide
 
--- URL: http://wow-pro.com/node/3463/revisions/28200/view
+-- URL:
 -- Date: 2017-01-02 22:42
 -- Who: Ludovicus_Maior
 -- Log: New style registration
 
--- URL: http://wow-pro.com/node/3463/revisions/24908/view
+-- URL:
 -- Date: 2012-01-19 00:31
 -- Who: Ludovicus_Maior
 -- Log: Sync to GIT

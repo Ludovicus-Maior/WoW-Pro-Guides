@@ -8,71 +8,71 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3607/revisions/29142/view
+-- URL:
 -- Date: 2018-02-23 01:43
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
 
--- URL: http://wow-pro.com/node/3607/revisions/27321/view
+-- URL:
 -- Date: 2015-07-05 18:12
 -- Who: Ludovicus_Maior
 -- Log: Add Icon
 
--- URL: http://wow-pro.com/node/3607/revisions/27132/view
+-- URL:
 -- Date: 2015-02-01 22:02
 -- Who: Ludovicus_Maior
 -- Log: Tweaks.
 
--- URL: http://wow-pro.com/node/3607/revisions/26875/view
+-- URL:
 -- Date: 2014-11-07 23:49
 -- Who: Emmaleah
 -- Log: corrected correction :)
 
--- URL: http://wow-pro.com/node/3607/revisions/26864/view
+-- URL:
 -- Date: 2014-11-07 21:53
 -- Who: Emmaleah
 -- Log: eliminated some duplicate M tags (that pointed to horde locations. wouldn't that be fun!?!) per the big list o'errors
 
--- URL: http://wow-pro.com/node/3607/revisions/26765/view
+-- URL:
 -- Date: 2014-10-26 00:34
 -- Who: Emmaleah
 -- Log: correct item id of iron starlette
 
--- URL: http://wow-pro.com/node/3607/revisions/26762/view
+-- URL:
 -- Date: 2014-10-25 21:56
 -- Who: Ludovicus_Maior
 -- Log: Some coord tweaks and got rid of a death-trap typo!
 
--- URL: http://wow-pro.com/node/3607/revisions/26732/view
+-- URL:
 -- Date: 2014-10-17 00:41
 -- Who: Ludovicus_Maior
 -- Log: Coord tweaks and changed to a WE guide.
 
--- URL: http://wow-pro.com/node/3607/revisions/26729/view
+-- URL:
 -- Date: 2014-10-15 12:19
 -- Who: Fluclo
 -- Log: Wrong QO for Gar Steelcrush
 
--- URL: http://wow-pro.com/node/3607/revisions/26728/view
+-- URL:
 -- Date: 2014-10-15 12:14
 -- Who: Fluclo
 -- Log: Missing |
 
--- URL: http://wow-pro.com/node/3607/revisions/26722/view
+-- URL:
 -- Date: 2014-10-13 01:38
 -- Who: Fluclo
 -- Log: typo
 
--- URL: http://wow-pro.com/node/3607/revisions/26719/view
+-- URL:
 -- Date: 2014-10-13 01:17
 -- Who: Emmaleah
 -- Log: added step to use the battlepet to add it to your pet collection
 
--- URL: http://wow-pro.com/node/3607/revisions/26717/view
+-- URL:
 -- Date: 2014-10-13 01:12
 -- Who: Fluclo
 
--- URL: http://wow-pro.com/node/3607/revisions/26715/view
+-- URL:
 -- Date: 2014-10-13 01:10
 -- Who: Fluclo
 

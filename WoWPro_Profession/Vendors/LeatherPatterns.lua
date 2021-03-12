@@ -8,36 +8,36 @@
 -- Who: Ludovicus_Maior
 -- Log: New registration style
 
--- URL: http://wow-pro.com/node/3572/revisions/28078/view
+-- URL:
 -- Date: 2016-11-30 20:24
 -- Who: Ludovicus_Maior
 -- Log: Fix single section error.
 
--- URL: http://wow-pro.com/node/3572/revisions/27777/view
+-- URL:
 -- Date: 2016-09-14 17:51
 -- Who: Ludovicus_Maior
 -- Log: Dalaran City@Dalaran
 
--- URL: http://wow-pro.com/node/3572/revisions/27719/view
+-- URL:
 -- Date: 2016-09-07 14:37
 -- Who: Ludovicus_Maior
 -- Log: Use Old Hillsbrad@CoTHillsbradFoothills
 
--- URL: http://wow-pro.com/node/3572/revisions/26950/view
+-- URL:
 -- Date: 2014-11-08 20:24
 -- Who: Ludovicus_Maior
 -- Log: Update Shrines
 
--- URL: http://wow-pro.com/node/3572/revisions/25912/view
+-- URL:
 -- Date: 2014-03-06 23:51
 -- Who: Ludovicus_Maior
 -- Log: Zone tag corrections
 
--- URL: http://wow-pro.com/node/3572/revisions/25893/view
+-- URL:
 -- Date: 2014-02-14 00:13
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3572/revisions/25890/view
+-- URL:
 -- Date: 2014-02-14 00:09
 -- Who: Ludovicus_Maior
 

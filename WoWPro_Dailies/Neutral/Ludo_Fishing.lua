@@ -8,32 +8,32 @@
 -- Who: Ludovicus_Maior
 -- Log: Wrong QID for Moat Monster!
 
--- URL: http://wow-pro.com/node/3752/revisions/29547/view
+-- URL:
 -- Date: 2018-08-18 21:00
 -- Who: Ludovicus_Maior
 -- Log: Correct L steps to l.
 
--- URL: http://wow-pro.com/node/3752/revisions/29342/view
+-- URL:
 -- Date: 2018-06-04 18:13
 -- Who: Ludovicus_Maior
 -- Log: Got rid of obsolete alliance quest for Nat and corrected QID on [The Race to Restock]
 
--- URL: http://wow-pro.com/node/3752/revisions/28994/view
+-- URL:
 -- Date: 2018-02-19 22:57
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
 
--- URL: http://wow-pro.com/node/3752/revisions/28965/view
+-- URL:
 -- Date: 2018-02-02 20:53
 -- Who: Ludovicus
 -- Log: Fixed the Horde Quests & added [Nat Pagle, Angler Extreme]
 
--- URL: http://wow-pro.com/node/3752/revisions/28833/view
+-- URL:
 -- Date: 2018-01-15 18:52
 -- Who: Ludovicus
 -- Log: Enable WoWPro:GuideAutoSwitch(guide)
 
--- URL: http://wow-pro.com/node/3752/revisions/28832/view
+-- URL:
 -- Date: 2018-01-15 18:50
 -- Who: Ludovicus
 -- Log: Initial Version

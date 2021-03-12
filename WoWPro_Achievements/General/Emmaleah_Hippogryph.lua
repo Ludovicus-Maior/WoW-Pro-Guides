@@ -8,17 +8,17 @@
 -- Who: Ludovicus_Maior
 -- Log: Change Icon to a MOUNT instead of spell.
 
--- URL: http://wow-pro.com/node/3728/revisions/28671/view
+-- URL:
 -- Date: 2017-05-26 18:27
 -- Who: Emmaleah
 -- Log: added missing CS tags, deleted extraneous |N| tag
 
--- URL: http://wow-pro.com/node/3728/revisions/28670/view
+-- URL:
 -- Date: 2017-05-15 07:16
 -- Who: Emmaleah
 -- Log: correct header for node #
 
--- URL: http://wow-pro.com/node/3728/revisions/28669/view
+-- URL:
 -- Date: 2017-05-15 07:15
 -- Who: Emmaleah
 -- Log: First public draft

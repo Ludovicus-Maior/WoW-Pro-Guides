@@ -8,21 +8,21 @@
 -- Who: Ludovicus_Maior
 -- Log: New registration style
 
--- URL: http://wow-pro.com/node/3571/revisions/28079/view
+-- URL:
 -- Date: 2016-11-30 20:24
 -- Who: Ludovicus_Maior
 -- Log: Fix single section error.
 
--- URL: http://wow-pro.com/node/3571/revisions/27778/view
+-- URL:
 -- Date: 2016-09-14 18:13
 -- Who: Ludovicus_Maior
 -- Log: Dalaran City@Dalaran
 
--- URL: http://wow-pro.com/node/3571/revisions/25894/view
+-- URL:
 -- Date: 2014-02-14 00:14
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3571/revisions/25889/view
+-- URL:
 -- Date: 2014-02-14 00:08
 -- Who: Ludovicus_Maior
 

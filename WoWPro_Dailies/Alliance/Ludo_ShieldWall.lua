@@ -8,152 +8,152 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3519/revisions/29577/view
+-- URL:
 -- Date: 2018-08-23 01:37
 -- Who: jovieve
 -- Log: Updated numerous old style QO tags.
 
--- URL: http://wow-pro.com/node/3519/revisions/28983/view
+-- URL:
 -- Date: 2018-02-19 22:46
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
 
--- URL: http://wow-pro.com/node/3519/revisions/28317/view
+-- URL:
 -- Date: 2017-03-10 23:10
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
--- URL: http://wow-pro.com/node/3519/revisions/26833/view
+-- URL:
 -- Date: 2014-11-06 18:14
 -- Who: Fluclo
 -- Log: Added missing |N| tag, removed duplicate |QID| tag.
 
--- URL: http://wow-pro.com/node/3519/revisions/26549/view
+-- URL:
 -- Date: 2014-07-06 15:26
 -- Who: Ludovicus_Maior
 -- Log: Guide Levels
 
--- URL: http://wow-pro.com/node/3519/revisions/26509/view
+-- URL:
 -- Date: 2014-06-10 23:07
 -- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
--- URL: http://wow-pro.com/node/3519/revisions/25941/view
+-- URL:
 -- Date: 2014-04-21 18:33
 -- Who: Ludovicus_Maior
 -- Log: Add some CHAT tags.
 
--- URL: http://wow-pro.com/node/3519/revisions/25937/view
+-- URL:
 -- Date: 2014-04-14 20:10
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3519/revisions/25934/view
+-- URL:
 -- Date: 2014-04-14 19:39
 -- Who: Ludovicus_Maior
 -- Log: Starter quest is no longer a UI popup.
 
--- URL: http://wow-pro.com/node/3519/revisions/25757/view
+-- URL:
 -- Date: 2013-09-10 23:50
 -- Who: Ludovicus_Maior
 -- Log: Fixed coords for "Mogujia" section.
 
--- URL: http://wow-pro.com/node/3519/revisions/25694/view
+-- URL:
 -- Date: 2013-06-04 23:28
 -- Who: Ludovicus_Maior
 -- Log: Some ACTIVE tags to make starting the guide correct!
 
--- URL: http://wow-pro.com/node/3519/revisions/25632/view
+-- URL:
 -- Date: 2013-05-14 16:52
 -- Who: Ludovicus_Maior
 -- Log: Many bad coords
 
--- URL: http://wow-pro.com/node/3519/revisions/25631/view
+-- URL:
 -- Date: 2013-05-14 15:53
 -- Who: Ludovicus_Maior
 -- Log: Removed extra partial coord for Bizmo's Brawlpub
 
--- URL: http://wow-pro.com/node/3519/revisions/25543/view
+-- URL:
 -- Date: 2013-03-05 23:12
 -- Who: Ludovicus_Maior
 -- Log: Did [Breath of Darkest Shadow]
 
--- URL: http://wow-pro.com/node/3519/revisions/25542/view
+-- URL:
 -- Date: 2013-02-26 13:17
 -- Who: Ludovicus_Maior
 -- Log: Played through [In Search of Harmony]
 
--- URL: http://wow-pro.com/node/3519/revisions/25541/view
+-- URL:
 -- Date: 2013-02-24 21:03
 -- Who: Ludovicus_Maior
 -- Log: Tweaked coords and updated [The Purge of Dalaran] and [An Ancient Ally] after play.  Filled in [In Search of Harmony].  Added new NPC tag required for QID|*| usages.
 
--- URL: http://wow-pro.com/node/3519/revisions/25539/view
+-- URL:
 -- Date: 2013-02-23 18:06
 -- Who: Ludovicus_Maior
 -- Log: Update [Secrets of the Past] and [The Divine Bell] segments after play through.
 
--- URL: http://wow-pro.com/node/3519/revisions/25536/view
+-- URL:
 -- Date: 2013-02-18 23:02
 -- Who: Ludovicus_Maior
 -- Log: Sketches of [The Purge of Dalaran], [An Ancient Ally], [In Search of Harmony] and [Breath of Darkest Shadow]
 
--- URL: http://wow-pro.com/node/3519/revisions/25532/view
+-- URL:
 -- Date: 2013-02-17 20:20
 -- Who: Ludovicus_Maior
 -- Log: Refined [Heart of the Alliance] sequence after playing through.
 
--- URL: http://wow-pro.com/node/3519/revisions/25531/view
+-- URL:
 -- Date: 2013-02-17 20:18
 -- Who: Ludovicus_Maior
 -- Log: Refined Korune series after playing through
 
--- URL: http://wow-pro.com/node/3519/revisions/25521/view
+-- URL:
 -- Date: 2013-02-06 20:19
 -- Who: Ludovicus_Maior
 -- Log: Added Jaina's Hope sequence.
 
--- URL: http://wow-pro.com/node/3519/revisions/25516/view
+-- URL:
 -- Date: 2013-01-28 21:01
 -- Who: Ludovicus_Maior
 -- Log: Andy pointed out Troteman's name was not spelt right!
 
--- URL: http://wow-pro.com/node/3519/revisions/25373/view
+-- URL:
 -- Date: 2013-01-12 19:25
 -- Who: Ludovicus_Maior
 -- Log: Lots of CN tags
 
--- URL: http://wow-pro.com/node/3519/revisions/25264/view
+-- URL:
 -- Date: 2012-12-25 00:51
 -- Who: Ludovicus_Maior
 -- Log: Added skeletal: Jaina's Hope,  The Korune, Heart of the Alliance, Secrets of the Past, The Divine Bell.
 --	Corrected Domination Point dailies and a missing PRE tag.
 
--- URL: http://wow-pro.com/node/3519/revisions/25243/view
+-- URL:
 -- Date: 2012-12-08 17:00
 -- Who: Ludovicus_Maior
 -- Log: Tweak Hilda's quests.  Maps in the cave seem to have changed.
 
--- URL: http://wow-pro.com/node/3519/revisions/25240/view
+-- URL:
 -- Date: 2012-12-06 23:39
 -- Who: Ludovicus_Maior
 -- Log: Played "The Voice of Gods" questline.
 
--- URL: http://wow-pro.com/node/3519/revisions/25234/view
+-- URL:
 -- Date: 2012-12-03 00:07
 -- Who: Ludovicus_Maior
 -- Log: Played Bilgewater Operations
 
--- URL: http://wow-pro.com/node/3519/revisions/25224/view
+-- URL:
 -- Date: 2012-12-02 01:02
 -- Who: Ludovicus_Maior
 -- Log: Add "The Man With a Thousand Faces" questline
 
--- URL: http://wow-pro.com/node/3519/revisions/25223/view
+-- URL:
 -- Date: 2012-12-01 14:22
 -- Who: Ludovicus_Maior
 -- Log: Played the Ruins of Ogudei quests
 
--- URL: http://wow-pro.com/node/3519/revisions/25219/view
+-- URL:
 -- Date: 2012-11-29 18:03
 -- Who: Ludovicus_Maior
 -- Log: Initial cut.

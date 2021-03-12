@@ -8,16 +8,16 @@
 -- Who: Ludovicus_Maior
 -- Log: New registration style
 
--- URL: http://wow-pro.com/node/3569/revisions/28081/view
+-- URL:
 -- Date: 2016-11-30 20:24
 -- Who: Ludovicus_Maior
 -- Log: Fix single section error.
 
--- URL: http://wow-pro.com/node/3569/revisions/25896/view
+-- URL:
 -- Date: 2014-02-14 00:14
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3569/revisions/25887/view
+-- URL:
 -- Date: 2014-02-14 00:05
 -- Who: Ludovicus_Maior
 

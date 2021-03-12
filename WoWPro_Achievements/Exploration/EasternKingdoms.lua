@@ -8,147 +8,147 @@
 -- Who: Ludovicus_Maior
 -- Log: Converted to continent guide with proximity sorting.
 
--- URL: http://wow-pro.com/node/3475/revisions/26375/view
+-- URL:
 -- Date: 2014-05-28 19:48
 -- Who: Ludovicus_Maior
 -- Log: Correct exploration for EK.
 
--- URL: http://wow-pro.com/node/3475/revisions/26324/view
+-- URL:
 -- Date: 2014-05-27 00:59
 -- Who: Ludovicus_Maior
 -- Log: Guide Intro edits
 
--- URL: http://wow-pro.com/node/3475/revisions/26309/view
+-- URL:
 -- Date: 2014-05-26 17:28
 -- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
--- URL: http://wow-pro.com/node/3475/revisions/26308/view
+-- URL:
 -- Date: 2014-05-26 17:18
 -- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
--- URL: http://wow-pro.com/node/3475/revisions/26192/view
+-- URL:
 -- Date: 2014-05-21 16:15
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26191/view
+-- URL:
 -- Date: 2014-05-21 16:14
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26190/view
+-- URL:
 -- Date: 2014-05-21 16:13
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26189/view
+-- URL:
 -- Date: 2014-05-21 16:12
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26188/view
+-- URL:
 -- Date: 2014-05-21 16:09
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26187/view
+-- URL:
 -- Date: 2014-05-21 16:07
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26186/view
+-- URL:
 -- Date: 2014-05-21 16:05
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26185/view
+-- URL:
 -- Date: 2014-05-21 16:03
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26184/view
+-- URL:
 -- Date: 2014-05-21 14:53
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26183/view
+-- URL:
 -- Date: 2014-05-21 14:52
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26182/view
+-- URL:
 -- Date: 2014-05-21 14:48
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26181/view
+-- URL:
 -- Date: 2014-05-21 14:47
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26180/view
+-- URL:
 -- Date: 2014-05-21 14:45
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26179/view
+-- URL:
 -- Date: 2014-05-21 14:40
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26178/view
+-- URL:
 -- Date: 2014-05-21 14:38
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26177/view
+-- URL:
 -- Date: 2014-05-21 14:37
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26176/view
+-- URL:
 -- Date: 2014-05-21 14:35
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26175/view
+-- URL:
 -- Date: 2014-05-21 14:33
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26174/view
+-- URL:
 -- Date: 2014-05-21 14:31
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26173/view
+-- URL:
 -- Date: 2014-05-21 14:12
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26172/view
+-- URL:
 -- Date: 2014-05-21 14:05
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/26171/view
+-- URL:
 -- Date: 2014-05-21 14:05
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3475/revisions/25352/view
+-- URL:
 -- Date: 2013-01-12 17:49
 -- Who: Ludovicus_Maior
 -- Log: Update exploration of Dun_Morogh: The Grizzled Den is gone.
 
--- URL: http://wow-pro.com/node/3475/revisions/25011/view
+-- URL:
 -- Date: 2012-06-30 16:06
 -- Who: Ludovicus_Maior
 -- Log: Wrong zone name for The Cape of Stranglethorn
 
--- URL: http://wow-pro.com/node/3475/revisions/24982/view
+-- URL:
 -- Date: 2012-05-27 17:50
 -- Who: Ludovicus_Maior
 

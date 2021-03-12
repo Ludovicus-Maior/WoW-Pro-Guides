@@ -8,62 +8,62 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3476/revisions/29760/view
+-- URL:
 -- Date: 2018-09-17 01:57
 -- Who: jovieve
 -- Log: Lowered level requirements for new scaling.
 
--- URL: http://wow-pro.com/node/3476/revisions/29592/view
+-- URL:
 -- Date: 2018-08-24 01:03
 -- Who: jovieve
 -- Log: Updated old style QO tags. Also added kiss emote to the T tag in A Blade Fit for a Champion.
 
--- URL: http://wow-pro.com/node/3476/revisions/28985/view
+-- URL:
 -- Date: 2018-02-19 22:48
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
 
--- URL: http://wow-pro.com/node/3476/revisions/28319/view
+-- URL:
 -- Date: 2017-03-10 23:12
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
--- URL: http://wow-pro.com/node/3476/revisions/26592/view
+-- URL:
 -- Date: 2014-07-25 20:43
 -- Who: Ludovicus_Maior
 -- Log: adj meanlevel
 
--- URL: http://wow-pro.com/node/3476/revisions/26545/view
+-- URL:
 -- Date: 2014-07-06 15:22
 -- Who: Ludovicus_Maior
 -- Log: guide level
 
--- URL: http://wow-pro.com/node/3476/revisions/26504/view
+-- URL:
 -- Date: 2014-06-10 22:26
 -- Who: Ludovicus_Maior
 -- Log: Coverted guide
 
--- URL: http://wow-pro.com/node/3476/revisions/25621/view
+-- URL:
 -- Date: 2013-05-14 15:19
 -- Who: Ludovicus_Maior
 -- Log: Removed extra M tag
 
--- URL: http://wow-pro.com/node/3476/revisions/25411/view
+-- URL:
 -- Date: 2013-01-13 14:31
 -- Who: Ludovicus_Maior
 -- Log: Added CC and CN tag
 
--- URL: http://wow-pro.com/node/3476/revisions/25358/view
+-- URL:
 -- Date: 2013-01-12 18:32
 -- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
--- URL: http://wow-pro.com/node/3476/revisions/25291/view
+-- URL:
 -- Date: 2013-01-09 01:41
 -- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
--- URL: http://wow-pro.com/node/3476/revisions/24983/view
+-- URL:
 -- Date: 2012-05-27 18:11
 -- Who: Ludovicus_Maior
 

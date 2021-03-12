@@ -8,21 +8,21 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3782/revisions/29861/view
+-- URL:
 -- Date: 2018-10-02 01:10
 -- Who: Emmaleah
 -- Log: FACTION!
 
--- URL: http://wow-pro.com/node/3782/revisions/29837/view
+-- URL:
 -- Date: 2018-09-25 22:25
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3782/revisions/29836/view
+-- URL:
 -- Date: 2018-09-25 08:20
 -- Who: Emmaleah
 -- Log: now with travel steps. Tested on Horde side.
 
--- URL: http://wow-pro.com/node/3782/revisions/29807/view
+-- URL:
 -- Date: 2018-09-23 11:55
 -- Who: Emmaleah
 -- Log: First Draft . Missing almost all travel steps.

@@ -56,7 +56,7 @@ else:
 
 def ParseArgs():
     parser = optparse.OptionParser()
-    parser.add_option('-U','--url',dest="url",help="Root URL for WoWPro Source",default='http://wow-pro.com/node/3196')
+-- URL:
     parser.add_option('-R','--root',dest="root",help='Root directory for WoWPro_Leveling',default=DEFAULT_ROOT)
     parser.add_option('-N',"--no",dest="noupdate",action='store_true',default=False,help='Check, but do not update')
     parser.add_option('-T',"--test",dest="test",action='store_true',default=False,help='Test updating one guide')
@@ -498,9 +498,9 @@ if __name__ == "__main__":
     if pa.test == True:
         logging.info("Running short test")
         ScrapeWoWProLua("/Users/lfo/WoW/WoW-Pro-Guides_Master/WoWPro_Achievements/Garrison_Alliance/Ludo_BuildA.lua")
-        fs=FindSource("http://wow-pro.com/node/3631")
+-- URL:
         src=fs.ReadGuide()
-        fs=FindRevisions("http://wow-pro.com/node/3631",True)
+-- URL:
         src=fs.ReadGuide()
         UpdateGuideFile("LudoBuildingsAlliance")
         exit(0)

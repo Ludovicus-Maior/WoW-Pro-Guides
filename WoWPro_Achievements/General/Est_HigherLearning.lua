@@ -3,22 +3,22 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/node/3538
+-- URL:
 -- Date: 2014-12-25 18:51
 -- Who: Ludovicus_Maior
 -- Log: Moved Author to the right slot!
 
--- URL: http://wow-pro.com/node/3538/revisions/26313/view
+-- URL:
 -- Date: 2014-05-26 18:05
 -- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
--- URL: http://wow-pro.com/node/3538/revisions/26199/view
+-- URL:
 -- Date: 2014-05-22 22:57
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3538/revisions/25546/view
+-- URL:
 -- Date: 2013-03-23 16:35
 -- Who: Ludovicus_Maior
 

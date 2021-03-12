@@ -8,37 +8,37 @@
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
--- URL: http://wow-pro.com/node/3415/revisions/27579/view
+-- URL:
 -- Date: 2016-08-20 01:00
 -- Who: Emmaleah
 -- Log: changed link in header to match the page it should.
 
--- URL: http://wow-pro.com/node/3415/revisions/26887/view
+-- URL:
 -- Date: 2014-11-08 00:32
 -- Who: Ludovicus_Maior
 -- Log: Missing M
 
--- URL: http://wow-pro.com/node/3415/revisions/26837/view
+-- URL:
 -- Date: 2014-11-06 18:23
 -- Who: Fluclo
 -- Log: Added missing |M| tag to Never Leave a Dinner Behind
 
--- URL: http://wow-pro.com/node/3415/revisions/26550/view
+-- URL:
 -- Date: 2014-07-06 15:27
 -- Who: Ludovicus_Maior
 -- Log: Guide level and faction
 
--- URL: http://wow-pro.com/node/3415/revisions/26510/view
+-- URL:
 -- Date: 2014-06-10 23:09
 -- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
--- URL: http://wow-pro.com/node/3415/revisions/24672/view
+-- URL:
 -- Date: 2011-07-11 22:20
 -- Who: Ludovicus_Maior
 -- Log: Add a flight point home.
 
--- URL: http://wow-pro.com/node/3415/revisions/24647/view
+-- URL:
 -- Date: 2011-06-30 19:01
 -- Who: Ludovicus_Maior
 

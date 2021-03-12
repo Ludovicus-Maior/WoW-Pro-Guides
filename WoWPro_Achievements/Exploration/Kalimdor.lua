@@ -8,35 +8,35 @@
 -- Who: Ludovicus_Maior
 -- Log: Woops, misisng Z tags
 
--- URL: http://wow-pro.com/node/3473/revisions/27195/view
+-- URL:
 -- Date: 2015-04-13 17:42
 -- Who: Ludovicus_Maior
 -- Log: Converted to continent guide with proximity sort.
 
--- URL: http://wow-pro.com/node/3473/revisions/26385/view
+-- URL:
 -- Date: 2014-05-28 22:18
 -- Who: Ludovicus_Maior
 -- Log: Uldum moved to Cata
 
--- URL: http://wow-pro.com/node/3473/revisions/26376/view
+-- URL:
 -- Date: 2014-05-28 20:32
 -- Who: Ludovicus_Maior
 -- Log: Converted
 
--- URL: http://wow-pro.com/node/3473/revisions/26310/view
+-- URL:
 -- Date: 2014-05-26 17:38
 -- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
--- URL: http://wow-pro.com/node/3473/revisions/24981/view
+-- URL:
 -- Date: 2012-05-27 17:49
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3473/revisions/24979/view
+-- URL:
 -- Date: 2012-05-27 17:19
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3473/revisions/24978/view
+-- URL:
 -- Date: 2012-05-27 17:19
 -- Who: Ludovicus_Maior
 

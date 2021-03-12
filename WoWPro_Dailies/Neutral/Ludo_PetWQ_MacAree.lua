@@ -3,17 +3,17 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/node/3745
+-- URL:
 -- Date: 2017-10-19 21:31
 -- Who: Ludovicus
 -- Log: Add SWITCH|0| to account for forced pet swaps.
 
--- URL: http://wow-pro.com/node/3745/revisions/28786/view
+-- URL:
 -- Date: 2017-09-06 22:30
 -- Who: Ludovicus_Maior
 -- Log: Fixed Bucky STRATEGY tags.
 
--- URL: http://wow-pro.com/node/3745/revisions/28782/view
+-- URL:
 -- Date: 2017-09-05 23:02
 -- Who: Ludovicus_Maior
 -- Log: Initial Cut

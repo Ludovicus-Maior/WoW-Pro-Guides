@@ -8,27 +8,27 @@
 -- Who: Ludovicus_Maior
 -- Log: Spelling
 
--- URL: http://wow-pro.com/node/3632/revisions/28312/view
+-- URL:
 -- Date: 2017-03-10 22:50
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
--- URL: http://wow-pro.com/node/3632/revisions/27716/view
+-- URL:
 -- Date: 2016-09-07 14:27
 -- Who: Ludovicus_Maior
 -- Log: Use Bladespire Citadel@FrostfireRidge
 
--- URL: http://wow-pro.com/node/3632/revisions/27500/view
+-- URL:
 -- Date: 2016-07-30 21:03
 -- Who: Ludovicus_Maior
 -- Log: Added @FrostfireRidge
 
--- URL: http://wow-pro.com/node/3632/revisions/27435/view
+-- URL:
 -- Date: 2016-03-22 20:44
 -- Who: Ludovicus_Maior
 -- Log: Trimmed useless |N| from [Big Frostfire Gun]
 
--- URL: http://wow-pro.com/node/3632/revisions/27297/view
+-- URL:
 -- Date: 2015-06-23 12:19
 -- Who: Ludovicus_Maior
 

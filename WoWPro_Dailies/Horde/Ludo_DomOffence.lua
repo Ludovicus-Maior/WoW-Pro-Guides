@@ -8,37 +8,37 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3603/revisions/29568/view
+-- URL:
 -- Date: 2018-08-22 18:51
 -- Who: Emmaleah
 -- Log: Correct Old Style QO
 
--- URL: http://wow-pro.com/node/3603/revisions/28987/view
+-- URL:
 -- Date: 2018-02-19 22:50
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
 
--- URL: http://wow-pro.com/node/3603/revisions/28555/view
+-- URL:
 -- Date: 2017-03-23 17:42
 -- Who: Ludovicus_Maior
 -- Log: Spelling
 
--- URL: http://wow-pro.com/node/3603/revisions/28325/view
+-- URL:
 -- Date: 2017-03-10 23:23
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
--- URL: http://wow-pro.com/node/3603/revisions/27170/view
+-- URL:
 -- Date: 2015-03-09 18:09
 -- Who: Ludovicus_Maior
 -- Log: Z corrections
 
--- URL: http://wow-pro.com/node/3603/revisions/26848/view
+-- URL:
 -- Date: 2014-11-07 20:34
 -- Who: Fluclo
 -- Log: Added missing |N| tags, removed duplicate PRE cag, fixed missing comma in coords for The Bell
 
--- URL: http://wow-pro.com/node/3603/revisions/26690/view
+-- URL:
 -- Date: 2014-09-27 22:13
 -- Who: Ludovicus_Maior
 -- Log: INital Version

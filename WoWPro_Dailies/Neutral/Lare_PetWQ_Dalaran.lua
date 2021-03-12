@@ -8,17 +8,17 @@
 -- Who: Ludovicus_Maior
 -- Log: Added alternate Tiffany Nelson pet lineup.
 
--- URL: http://wow-pro.com/node/3733/revisions/28730/view
+-- URL:
 -- Date: 2017-08-03 21:57
 -- Who: Ludovicus_Maior
 -- Log: Work of of world QIDs
 
--- URL: http://wow-pro.com/node/3733/revisions/28715/view
+-- URL:
 -- Date: 2017-07-05 21:09
 -- Who: Ludovicus_Maior
 -- Log: Add AS
 
--- URL: http://wow-pro.com/node/3733/revisions/28695/view
+-- URL:
 -- Date: 2017-06-13 20:08
 -- Who: rpotor
 -- Log: Initial version

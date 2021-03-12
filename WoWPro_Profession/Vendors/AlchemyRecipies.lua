@@ -8,26 +8,26 @@
 -- Who: Ludovicus_Maior
 -- Log: Fix single section error.
 
--- URL: http://wow-pro.com/node/3565/revisions/27782/view
+-- URL:
 -- Date: 2016-09-14 18:28
 -- Who: Ludovicus_Maior
 -- Log: Dalaran City@Dalaran
 
--- URL: http://wow-pro.com/node/3565/revisions/27427/view
+-- URL:
 -- Date: 2016-01-09 01:23
 -- Who: Ludovicus_Maior
 -- Log: Orgrimmar@Orgrimmar
 
--- URL: http://wow-pro.com/node/3565/revisions/25910/view
+-- URL:
 -- Date: 2014-03-06 23:49
 -- Who: Ludovicus_Maior
 -- Log: Correct coords for [Transmute: Fire to Earth]
 
--- URL: http://wow-pro.com/node/3565/revisions/25900/view
+-- URL:
 -- Date: 2014-02-14 00:16
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3565/revisions/25883/view
+-- URL:
 -- Date: 2014-02-13 23:58
 -- Who: Ludovicus_Maior
 

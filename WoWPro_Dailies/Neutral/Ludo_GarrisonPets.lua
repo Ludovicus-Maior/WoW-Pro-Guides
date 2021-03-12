@@ -8,22 +8,22 @@
 -- Who: Ludovicus_Maior
 -- Log: Add a [Bronze Whelpling]+[Widget the Departed] strategy for Deebs, Tyri, and Puzzle.
 
--- URL: http://wow-pro.com/node/3719/revisions/28790/view
+-- URL:
 -- Date: 2017-09-12 21:28
 -- Who: Ludovicus_Maior
 -- Log: Replaced strategy for Rockbiter, Stonechewer, and Acidtooth
 
--- URL: http://wow-pro.com/node/3719/revisions/28756/view
+-- URL:
 -- Date: 2017-08-27 18:47
 -- Who: Ludovicus_Maior
 -- Log: [Fiero and Tirs] tweak
 
--- URL: http://wow-pro.com/node/3719/revisions/28634/view
+-- URL:
 -- Date: 2017-04-05 19:56
 -- Who: Emmaleah
 -- Log: typo (\m s/b \n)
 
--- URL: http://wow-pro.com/node/3719/revisions/28524/view
+-- URL:
 -- Date: 2017-03-17 16:43
 -- Who: Ludovicus_Maior
 -- Log: Initial Upload

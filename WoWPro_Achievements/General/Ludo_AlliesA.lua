@@ -8,17 +8,17 @@
 -- Who: Ludovicus_Maior
 -- Log: ThunderTotem/6 => Thunder Totem
 
--- URL: http://wow-pro.com/node/3778/revisions/30383/view
+-- URL:
 -- Date: 2019-08-25 17:02
 -- Who: Ludovicus_Maior
 -- Log: ThunderTotem update
 
--- URL: http://wow-pro.com/node/3778/revisions/30071/view
+-- URL:
 -- Date: 2018-10-23 21:54
 -- Who: Ludovicus_Maior
 -- Log: And/Or
 
--- URL: http://wow-pro.com/node/3778/revisions/29464/view
+-- URL:
 -- Date: 2018-08-01 19:22
 -- Who: Ludovicus_Maior
 -- Log: Legion Allied Races Guides

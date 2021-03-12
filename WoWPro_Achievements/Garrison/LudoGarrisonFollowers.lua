@@ -8,22 +8,22 @@
 -- Who: Ludovicus_Maior
 -- Log: Add secret QIDs for [Services of Dagg]
 
--- URL: http://wow-pro.com/node/3720/revisions/29885/view
+-- URL:
 -- Date: 2018-10-17 02:19
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3720/revisions/28972/view
+-- URL:
 -- Date: 2018-02-19 22:27
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
 
--- URL: http://wow-pro.com/node/3720/revisions/28603/view
+-- URL:
 -- Date: 2017-03-23 19:58
 -- Who: Ludovicus_Maior
 -- Log: Spelling
 
--- URL: http://wow-pro.com/node/3720/revisions/28526/view
+-- URL:
 -- Date: 2017-03-17 16:50
 -- Who: Ludovicus_Maior
 -- Log: Initial commit

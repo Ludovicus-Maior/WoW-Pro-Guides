@@ -8,7 +8,7 @@
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
 
--- URL: http://wow-pro.com/node/3751/revisions/28831/view
+-- URL:
 -- Date: 2018-01-15 18:47
 -- Who: Ludovicus
 -- Log: Initial Version

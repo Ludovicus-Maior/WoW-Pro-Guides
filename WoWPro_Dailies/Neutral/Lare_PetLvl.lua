@@ -8,46 +8,46 @@
 -- Who: Ludovicus_Maior
 -- Log: Correct location for [Grand Master Mo'ruk].  Update [ Burning Pandaren Spirit] with better alternatives and text.
 
--- URL: http://wow-pro.com/node/3642/revisions/28277/view
+-- URL:
 -- Date: 2017-03-05 18:34
 -- Who: Ludovicus_Maior
 -- Log: Fix Shu's RANK setting
 
--- URL: http://wow-pro.com/node/3642/revisions/28182/view
+-- URL:
 -- Date: 2016-12-28 17:09
 -- Who: Ludovicus_Maior
 -- Log: Add Markup like [ability=112/peck] to guide.
 
--- URL: http://wow-pro.com/node/3642/revisions/28001/view
+-- URL:
 -- Date: 2016-11-09 21:55
 -- Who: Ludovicus_Maior
 -- Log: Add missing |STRATEGY|Elfuego/Burning| from [Burning Pandaren Spirit]
 
--- URL: http://wow-pro.com/node/3642/revisions/27909/view
+-- URL:
 -- Date: 2016-10-13 23:15
 -- Who: Ludovicus_Maior
 -- Log: [Whispering Pandaren Spirit] hits the leveling pet for H>500F
 
--- URL: http://wow-pro.com/node/3642/revisions/27554/view
+-- URL:
 -- Date: 2016-08-15 22:22
 -- Who: Ludovicus_Maior
 -- Log: Use Rank2 for the extra trainers.  Use Rank3 for the hard strategies.
 
--- URL: http://wow-pro.com/node/3642/revisions/27469/view
+-- URL:
 -- Date: 2016-07-19 18:55
 -- Who: Ludovicus_Maior
 -- Log: Major re-write.
 
--- URL: http://wow-pro.com/node/3642/revisions/27440/view
+-- URL:
 -- Date: 2016-03-23 02:09
 -- Who: Ludovicus_Maior
 -- Log: Um, 'nil' is not nil
 
--- URL: http://wow-pro.com/node/3642/revisions/27407/view
+-- URL:
 -- Date: 2016-01-08 23:16
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3642/revisions/27406/view
+-- URL:
 -- Date: 2016-01-08 23:15
 -- Who: Ludovicus_Maior
 -- Log: Initial Version

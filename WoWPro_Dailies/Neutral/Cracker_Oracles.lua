@@ -8,32 +8,32 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3418/revisions/29608/view
+-- URL:
 -- Date: 2018-08-24 16:28
 -- Who: Ludovicus_Maior
 -- Log: Upgraded the QO's.
 
--- URL: http://wow-pro.com/node/3418/revisions/26560/view
+-- URL:
 -- Date: 2014-07-06 15:44
 -- Who: Ludovicus_Maior
 -- Log: Added levels and faction
 
--- URL: http://wow-pro.com/node/3418/revisions/26527/view
+-- URL:
 -- Date: 2014-06-11 19:12
 -- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
--- URL: http://wow-pro.com/node/3418/revisions/25250/view
+-- URL:
 -- Date: 2012-12-16 02:49
 -- Who: Emmaleah
 -- Log: changed WTLK to Lich so that all the guides sort together
 
--- URL: http://wow-pro.com/node/3418/revisions/24986/view
+-- URL:
 -- Date: 2012-05-27 18:35
 -- Who: Ludovicus_Maior
 -- Log: Fixed some coordinates.
 
--- URL: http://wow-pro.com/node/3418/revisions/24650/view
+-- URL:
 -- Date: 2011-06-30 19:10
 -- Who: Ludovicus_Maior
 

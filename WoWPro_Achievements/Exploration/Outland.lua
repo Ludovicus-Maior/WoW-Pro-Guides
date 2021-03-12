@@ -8,17 +8,17 @@
 -- Who: Ludovicus_Maior
 -- Log: Code header
 
--- URL: http://wow-pro.com/node/3577/revisions/27197/view
+-- URL:
 -- Date: 2015-04-13 18:04
 -- Who: Ludovicus_Maior
 -- Log: Convert to continent guide with proximity sort.
 
--- URL: http://wow-pro.com/node/3577/revisions/26380/view
+-- URL:
 -- Date: 2014-05-28 21:35
 -- Who: Ludovicus_Maior
 -- Log: Converted
 
--- URL: http://wow-pro.com/node/3577/revisions/26379/view
+-- URL:
 -- Date: 2014-05-28 21:25
 -- Who: Ludovicus_Maior
 -- Log: Initial Cut!

@@ -8,7 +8,7 @@
 -- Who: Ludovicus_Maior
 -- Log: Change title to Exploration Achievements - Legion
 
--- URL: http://wow-pro.com/node/3718/revisions/28521/view
+-- URL:
 -- Date: 2017-03-17 15:29
 -- Who: Ludovicus_Maior
 

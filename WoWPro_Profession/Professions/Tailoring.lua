@@ -8,33 +8,33 @@
 -- Who: Ludovicus_Maior
 -- Log: WoWPro:GuideLevels(guide)
 
--- URL: http://wow-pro.com/node/3412/revisions/28199/view
+-- URL:
 -- Date: 2017-01-02 22:39
 -- Who: Ludovicus_Maior
 -- Log: New style registration
 
--- URL: http://wow-pro.com/node/3412/revisions/25750/view
+-- URL:
 -- Date: 2013-08-16 20:40
 -- Who: Ludovicus_Maior
 -- Log: Hopefully I corrected some errors right.
 
--- URL: http://wow-pro.com/node/3412/revisions/25707/view
+-- URL:
 -- Date: 2013-06-18 00:36
 -- Who: Ludovicus_Maior
 -- Log: Bad X coordinate 66.268.8, 1/1 in guide TwiTailoring, line [B Pattern: Bolt of Imdued Netherweave]
 --	Bad X coordinate 66.268.8, 1/1 in guide TwiTailoring, line [B Pattern: Netherweave Robe].
 
--- URL: http://wow-pro.com/node/3412/revisions/25656/view
+-- URL:
 -- Date: 2013-05-16 00:56
 -- Who: Twists
 -- Log: Update to the new parser.
 
--- URL: http://wow-pro.com/node/3412/revisions/24685/view
+-- URL:
 -- Date: 2011-07-13 22:48
 -- Who: Ludovicus_Maior
 -- Log: Sync to GitHub
 
--- URL: http://wow-pro.com/node/3412/revisions/24637/view
+-- URL:
 -- Date: 2011-06-30 05:56
 -- Who: Crackerhead22
 

@@ -8,17 +8,17 @@
 -- Who: Ludovicus_Maior
 -- Log: Added alternate strategy for [All Howl, No Bite]
 
--- URL: http://wow-pro.com/node/3735/revisions/28734/view
+-- URL:
 -- Date: 2017-08-03 22:02
 -- Who: Ludovicus_Maior
 -- Log: Just work off of world QIDs
 
--- URL: http://wow-pro.com/node/3735/revisions/28718/view
+-- URL:
 -- Date: 2017-07-05 21:10
 -- Who: Ludovicus_Maior
 -- Log: Add AS
 
--- URL: http://wow-pro.com/node/3735/revisions/28697/view
+-- URL:
 -- Date: 2017-06-13 20:12
 -- Who: rpotor
 -- Log: Initial version

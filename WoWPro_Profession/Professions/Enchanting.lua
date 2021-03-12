@@ -8,16 +8,16 @@
 -- Who: Ludovicus_Maior
 -- Log: WoWPro:GuideLevels(guide)
 
--- URL: http://wow-pro.com/node/3460/revisions/28192/view
+-- URL:
 -- Date: 2017-01-02 22:36
 -- Who: Ludovicus_Maior
 -- Log: New style registration
 
--- URL: http://wow-pro.com/node/3460/revisions/25658/view
+-- URL:
 -- Date: 2013-05-16 01:02
 -- Who: Twists
 
--- URL: http://wow-pro.com/node/3460/revisions/24905/view
+-- URL:
 -- Date: 2012-01-19 00:16
 -- Who: Ludovicus_Maior
 

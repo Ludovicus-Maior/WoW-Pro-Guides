@@ -8,48 +8,48 @@
 -- Who: Ludovicus_Maior
 -- Log: Spelling
 
--- URL: http://wow-pro.com/node/3527/revisions/28371/view
+-- URL:
 -- Date: 2017-03-15 20:27
 -- Who: Ludovicus_Maior
 -- Log: Add PRE
 
--- URL: http://wow-pro.com/node/3527/revisions/27105/view
+-- URL:
 -- Date: 2014-12-25 19:08
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3527/revisions/27104/view
+-- URL:
 -- Date: 2014-12-25 19:07
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3527/revisions/26315/view
+-- URL:
 -- Date: 2014-05-26 18:09
 -- Who: Ludovicus_Maior
 -- Log: Added guide type.
 
--- URL: http://wow-pro.com/node/3527/revisions/26194/view
+-- URL:
 -- Date: 2014-05-22 22:26
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3527/revisions/26193/view
+-- URL:
 -- Date: 2014-05-22 22:25
 -- Who: Ludovicus_Maior
 -- Log: Registration guide
 
--- URL: http://wow-pro.com/node/3527/revisions/25820/view
+-- URL:
 -- Date: 2013-11-27 20:46
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3527/revisions/25635/view
+-- URL:
 -- Date: 2013-05-14 18:46
 -- Who: Ludovicus_Maior
 -- Log: In not in
 
--- URL: http://wow-pro.com/node/3527/revisions/25487/view
+-- URL:
 -- Date: 2013-01-13 23:40
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3527/revisions/25485/view
+-- URL:
 -- Date: 2013-01-13 21:06
 -- Who: Ludovicus_Maior
 -- Log: Uploading existing files to website

@@ -8,77 +8,77 @@
 -- Who: Ludovicus_Maior
 -- Log: And/Or
 
--- URL: http://wow-pro.com/node/3467/revisions/29594/view
+-- URL:
 -- Date: 2018-08-24 08:42
 -- Who: Emmaleah
 -- Log: update old style QOs
 
--- URL: http://wow-pro.com/node/3467/revisions/29550/view
+-- URL:
 -- Date: 2018-08-18 21:04
 -- Who: Ludovicus_Maior
 -- Log: Fix L step that should have been an l step.
 
--- URL: http://wow-pro.com/node/3467/revisions/28514/view
+-- URL:
 -- Date: 2017-03-17 14:10
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
 
--- URL: http://wow-pro.com/node/3467/revisions/28292/view
+-- URL:
 -- Date: 2017-03-05 18:55
 -- Who: Ludovicus_Maior
 -- Log: Float the level
 
--- URL: http://wow-pro.com/node/3467/revisions/27358/view
+-- URL:
 -- Date: 2015-07-25 18:11
 -- Who: Ludovicus_Maior
 -- Log: Add Icon
 
--- URL: http://wow-pro.com/node/3467/revisions/26850/view
+-- URL:
 -- Date: 2014-11-07 20:37
 -- Who: Emmaleah
 -- Log: Delete 2 dup QID's per Ludo's list o' errors
 
--- URL: http://wow-pro.com/node/3467/revisions/26492/view
+-- URL:
 -- Date: 2014-06-10 21:24
 -- Who: Ludovicus_Maior
 -- Log: Changed  guide format
 
--- URL: http://wow-pro.com/node/3467/revisions/25903/view
+-- URL:
 -- Date: 2014-02-21 19:21
 -- Who: Ludovicus_Maior
 -- Log: Missing A in [T A Gift]
 
--- URL: http://wow-pro.com/node/3467/revisions/25880/view
+-- URL:
 -- Date: 2014-02-13 16:56
 -- Who: Ludovicus_Maior
 -- Log: Added Leaders dailies and shuffled flow.
 
--- URL: http://wow-pro.com/node/3467/revisions/25704/view
+-- URL:
 -- Date: 2013-06-18 00:31
 -- Who: Ludovicus_Maior
 -- Log: Guide errors
 
--- URL: http://wow-pro.com/node/3467/revisions/25674/view
+-- URL:
 -- Date: 2013-05-17 20:45
 -- Who: Ludovicus_Maior
 -- Log: Corrections
 
--- URL: http://wow-pro.com/node/3467/revisions/25530/view
+-- URL:
 -- Date: 2013-02-11 11:48
 -- Who: Ludovicus_Maior
 -- Log: Better coords for Uldum and Crystalsong
 
--- URL: http://wow-pro.com/node/3467/revisions/25529/view
+-- URL:
 -- Date: 2013-02-11 11:23
 -- Who: Ludovicus_Maior
 -- Log: Added Crushing the Crown and a random daily
 
--- URL: http://wow-pro.com/node/3467/revisions/24937/view
+-- URL:
 -- Date: 2012-02-05 13:35
 -- Who: Ludovicus_Maior
 -- Log: Corrections after runthrough.
 
--- URL: http://wow-pro.com/node/3467/revisions/24935/view
+-- URL:
 -- Date: 2012-02-04 23:23
 -- Who: Ludovicus_Maior
 

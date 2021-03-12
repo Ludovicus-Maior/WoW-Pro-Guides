@@ -3,53 +3,53 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/node/3584
+-- URL:
 -- Date: 2018-10-17 02:31
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3584/revisions/27322/view
+-- URL:
 -- Date: 2015-07-05 18:13
 -- Who: Ludovicus_Maior
 -- Log: Icon add
 
--- URL: http://wow-pro.com/node/3584/revisions/27133/view
+-- URL:
 -- Date: 2015-02-01 22:03
 -- Who: Ludovicus_Maior
 -- Log: TRweaks
 
--- URL: http://wow-pro.com/node/3584/revisions/26736/view
+-- URL:
 -- Date: 2014-11-07 20:45
 -- Who: Emmaleah
 -- Log: OK.  PLayed through, tweaked QO tags, missing T steps and mucked with the order.
 --	Every coordinate was dead on!
 
--- URL: http://wow-pro.com/node/3584/revisions/26734/view
+-- URL:
 -- Date: 2014-10-17 22:47
 -- Who: Ludovicus_Maior
 -- Log: Orgrimmar zone tags were wrong, changed F step and changed a US into an S.
 --	Still Testing!
 
--- URL: http://wow-pro.com/node/3584/revisions/26733/view
+-- URL:
 -- Date: 2014-10-17 00:42
 -- Who: Ludovicus_Maior
 -- Log: Chnage to a WE guide.
 
--- URL: http://wow-pro.com/node/3584/revisions/26726/view
+-- URL:
 -- Date: 2014-10-15 00:44
 -- Who: Ludovicus_Maior
 -- Log: CHanged guide name to IronHordeInvasionH and make names conform with Alliance version.
 
--- URL: http://wow-pro.com/node/3584/revisions/26712/view
+-- URL:
 -- Date: 2014-10-13 02:18
 -- Who: Emmaleah
 -- Log: Neutralized by Fluclo
 
--- URL: http://wow-pro.com/node/3584/revisions/26698/view
+-- URL:
 -- Date: 2014-09-28 22:20
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3584/revisions/26642/view
+-- URL:
 -- Date: 2014-08-28 03:37
 -- Who: Emmaleah
 

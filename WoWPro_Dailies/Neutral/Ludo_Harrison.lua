@@ -8,12 +8,12 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3647/revisions/27419/view
+-- URL:
 -- Date: 2016-01-08 23:51
 -- Who: Ludovicus_Maior
 -- Log: 3647
 
--- URL: http://wow-pro.com/node/3647/revisions/27418/view
+-- URL:
 -- Date: 2016-01-08 23:50
 -- Who: Ludovicus_Maior
 -- Log: Initial

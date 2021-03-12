@@ -8,17 +8,17 @@
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
--- URL: http://wow-pro.com/node/3543/revisions/26565/view
+-- URL:
 -- Date: 2014-07-06 15:50
 -- Who: Ludovicus_Maior
 -- Log: Added guide level
 
--- URL: http://wow-pro.com/node/3543/revisions/26532/view
+-- URL:
 -- Date: 2014-06-11 19:20
 -- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
--- URL: http://wow-pro.com/node/3543/revisions/25557/view
+-- URL:
 -- Date: 2013-03-23 15:43
 -- Who: Ludovicus_Maior
 -- Log: Twists's Original

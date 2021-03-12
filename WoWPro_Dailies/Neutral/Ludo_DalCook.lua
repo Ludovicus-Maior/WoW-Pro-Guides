@@ -8,62 +8,62 @@
 -- Who: Ludovicus_Maior
 -- Log: And/Or
 
--- URL: http://wow-pro.com/node/3477/revisions/29546/view
+-- URL:
 -- Date: 2018-08-18 20:59
 -- Who: Ludovicus_Maior
 -- Log: Change L to l for fishing quests
 
--- URL: http://wow-pro.com/node/3477/revisions/29545/view
+-- URL:
 -- Date: 2018-08-18 20:57
 -- Who: Ludovicus_Maior
 -- Log: Change L steps to l steps for cooking dailies.
 
--- URL: http://wow-pro.com/node/3477/revisions/26857/view
+-- URL:
 -- Date: 2014-11-07 20:45
 -- Who: Fluclo
 -- Log: Fixed coord tag for Bloated Slippery Eel
 
--- URL: http://wow-pro.com/node/3477/revisions/26856/view
+-- URL:
 -- Date: 2014-11-07 20:44
 -- Who: Fluclo
 -- Log: Added missing |M| tag
 
--- URL: http://wow-pro.com/node/3477/revisions/26555/view
+-- URL:
 -- Date: 2014-07-06 15:38
 -- Who: Ludovicus_Maior
 -- Log: Added name/faction.
 
--- URL: http://wow-pro.com/node/3477/revisions/26522/view
+-- URL:
 -- Date: 2014-06-11 19:02
 -- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
--- URL: http://wow-pro.com/node/3477/revisions/25641/view
+-- URL:
 -- Date: 2013-05-14 19:03
 -- Who: Ludovicus_Maior
 -- Log: Bad coord
 
--- URL: http://wow-pro.com/node/3477/revisions/25640/view
+-- URL:
 -- Date: 2013-05-14 19:01
 -- Who: Ludovicus_Maior
 -- Log: More @DalaranCity
 
--- URL: http://wow-pro.com/node/3477/revisions/25622/view
+-- URL:
 -- Date: 2013-05-14 15:23
 -- Who: Ludovicus_Maior
 -- Log: Updated to The Underbelly@DalaranCity
 
--- URL: http://wow-pro.com/node/3477/revisions/25424/view
+-- URL:
 -- Date: 2013-01-13 15:03
 -- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
--- URL: http://wow-pro.com/node/3477/revisions/25362/view
+-- URL:
 -- Date: 2013-01-12 18:45
 -- Who: Ludovicus_Maior
 -- Log: Lots of CN tags
 
--- URL: http://wow-pro.com/node/3477/revisions/24995/view
+-- URL:
 -- Date: 2012-05-27 19:57
 -- Who: Ludovicus_Maior
 -- Log: Initial Version

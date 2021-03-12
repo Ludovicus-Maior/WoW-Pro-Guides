@@ -8,42 +8,42 @@
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
--- URL: http://wow-pro.com/node/3478/revisions/28335/view
+-- URL:
 -- Date: 2017-03-11 18:22
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
--- URL: http://wow-pro.com/node/3478/revisions/26580/view
+-- URL:
 -- Date: 2014-07-19 17:04
 -- Who: Ludovicus_Maior
 -- Log: adjusted LudoKaluak levels
 
--- URL: http://wow-pro.com/node/3478/revisions/26558/view
+-- URL:
 -- Date: 2014-07-06 15:43
 -- Who: Ludovicus_Maior
 -- Log: Updated headers
 
--- URL: http://wow-pro.com/node/3478/revisions/26525/view
+-- URL:
 -- Date: 2014-06-11 19:09
 -- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
--- URL: http://wow-pro.com/node/3478/revisions/25405/view
+-- URL:
 -- Date: 2013-01-13 01:24
 -- Who: Ludovicus_Maior
 -- Log: Add a CN tag
 
--- URL: http://wow-pro.com/node/3478/revisions/25357/view
+-- URL:
 -- Date: 2013-01-12 18:28
 -- Who: Ludovicus_Maior
 -- Log: WoWPro_Dailies: Step C [The Way to His Heart...:11472] in LudoKaluak is missing a CS|CC|CN tag.
 
--- URL: http://wow-pro.com/node/3478/revisions/25296/view
+-- URL:
 -- Date: 2013-01-09 01:49
 -- Who: Ludovicus_Maior
 -- Log: Added CN tags.
 
--- URL: http://wow-pro.com/node/3478/revisions/24996/view
+-- URL:
 -- Date: 2012-05-27 20:12
 -- Who: Ludovicus_Maior
 -- Log: Initial Versions of Hodir, Kaluak and Wyrmrest Rep guides.

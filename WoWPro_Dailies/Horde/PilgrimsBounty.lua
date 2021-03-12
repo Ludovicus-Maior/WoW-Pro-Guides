@@ -8,42 +8,42 @@
 -- Who: Ludovicus_Maior
 -- Log: One more N tag
 
--- URL: http://wow-pro.com/node/3456/revisions/26849/view
+-- URL:
 -- Date: 2014-11-07 20:36
 -- Who: Fluclo
 -- Log: Missing N tags
 
--- URL: http://wow-pro.com/node/3456/revisions/26835/view
+-- URL:
 -- Date: 2014-11-06 18:20
 -- Who: Fluclo
 -- Log: Added five missing |N| tags
 
--- URL: http://wow-pro.com/node/3456/revisions/26587/view
+-- URL:
 -- Date: 2014-07-20 19:34
 -- Who: Ludovicus_Maior
 -- Log: Added catrgories and icon
 
--- URL: http://wow-pro.com/node/3456/revisions/26551/view
+-- URL:
 -- Date: 2014-07-06 15:33
 -- Who: Ludovicus_Maior
 -- Log: Added Name and category
 
--- URL: http://wow-pro.com/node/3456/revisions/26513/view
+-- URL:
 -- Date: 2014-06-10 23:21
 -- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
--- URL: http://wow-pro.com/node/3456/revisions/25706/view
+-- URL:
 -- Date: 2013-06-18 00:35
 -- Who: Ludovicus_Maior
 -- Log: Got rid of stuttered M tag
 
--- URL: http://wow-pro.com/node/3456/revisions/24897/view
+-- URL:
 -- Date: 2012-01-19 00:02
 -- Who: Ludovicus_Maior
 -- Log: Correct node numbers
 
--- URL: http://wow-pro.com/node/3456/revisions/24896/view
+-- URL:
 -- Date: 2012-01-19 00:00
 -- Who: Ludovicus_Maior
 -- Log: Sync to GIT

@@ -8,12 +8,12 @@
 -- Who: Ludovicus_Maior
 -- Log: Work off just World QIDs
 
--- URL: http://wow-pro.com/node/3736/revisions/28719/view
+-- URL:
 -- Date: 2017-07-05 21:10
 -- Who: Ludovicus_Maior
 -- Log: Add AS
 
--- URL: http://wow-pro.com/node/3736/revisions/28698/view
+-- URL:
 -- Date: 2017-06-13 20:14
 -- Who: rpotor
 -- Log: Initial version

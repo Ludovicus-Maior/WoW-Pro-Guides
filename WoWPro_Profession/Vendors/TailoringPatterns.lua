@@ -8,36 +8,36 @@
 -- Who: Ludovicus_Maior
 -- Log: New registration style
 
--- URL: http://wow-pro.com/node/3573/revisions/28077/view
+-- URL:
 -- Date: 2016-11-30 20:24
 -- Who: Ludovicus_Maior
 -- Log: Fix single section error.
 
--- URL: http://wow-pro.com/node/3573/revisions/27787/view
+-- URL:
 -- Date: 2016-09-14 19:28
 -- Who: Ludovicus_Maior
 -- Log: missed one Dalaran City@Dalaran
 
--- URL: http://wow-pro.com/node/3573/revisions/27776/view
+-- URL:
 -- Date: 2016-09-14 17:44
 -- Who: Ludovicus_Maior
 -- Log: Dalaran City@Dalaran
 
--- URL: http://wow-pro.com/node/3573/revisions/26949/view
+-- URL:
 -- Date: 2014-11-08 20:23
 -- Who: Ludovicus_Maior
 -- Log: Chnage Shrine Z
 
--- URL: http://wow-pro.com/node/3573/revisions/25913/view
+-- URL:
 -- Date: 2014-03-06 23:52
 -- Who: Ludovicus_Maior
 -- Log: Zone tag corrections.
 
--- URL: http://wow-pro.com/node/3573/revisions/25892/view
+-- URL:
 -- Date: 2014-02-14 00:13
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3573/revisions/25891/view
+-- URL:
 -- Date: 2014-02-14 00:10
 -- Who: Ludovicus_Maior
 

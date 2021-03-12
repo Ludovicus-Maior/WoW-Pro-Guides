@@ -8,62 +8,62 @@
 -- Who: Emmaleah
 -- Log: Fix Old Style QOs
 
--- URL: http://wow-pro.com/node/3444/revisions/28823/view
+-- URL:
 -- Date: 2017-11-24 19:05
 -- Who: Ludovicus
 -- Log: Update guide to use ACTIVE tags for better navigation.
 
--- URL: http://wow-pro.com/node/3444/revisions/28517/view
+-- URL:
 -- Date: 2017-03-17 14:14
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
 
--- URL: http://wow-pro.com/node/3444/revisions/28287/view
+-- URL:
 -- Date: 2017-03-05 18:54
 -- Who: Ludovicus_Maior
 -- Log: Float the level
 
--- URL: http://wow-pro.com/node/3444/revisions/27364/view
+-- URL:
 -- Date: 2015-07-25 18:18
 -- Who: Ludovicus_Maior
 -- Log: Add Icon
 
--- URL: http://wow-pro.com/node/3444/revisions/26843/view
+-- URL:
 -- Date: 2014-11-07 20:25
 -- Who: Emmaleah
 -- Log: add 3 N tags per Ludo's list 'o errors 11/5/14
 
--- URL: http://wow-pro.com/node/3444/revisions/26497/view
+-- URL:
 -- Date: 2014-06-10 21:40
 -- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
--- URL: http://wow-pro.com/node/3444/revisions/25828/view
+-- URL:
 -- Date: 2013-12-01 00:17
 -- Who: Ludovicus_Maior
 -- Log: Added ACH tags to steps.
 
--- URL: http://wow-pro.com/node/3444/revisions/24818/view
+-- URL:
 -- Date: 2011-11-20 23:37
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3444/revisions/24815/view
+-- URL:
 -- Date: 2011-11-20 19:39
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3444/revisions/24809/view
+-- URL:
 -- Date: 2011-11-17 00:38
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3444/revisions/24805/view
+-- URL:
 -- Date: 2011-11-16 02:37
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3444/revisions/24789/view
+-- URL:
 -- Date: 2011-10-30 19:10
 -- Who: Crackerhead22
 
--- URL: http://wow-pro.com/node/3444/revisions/24788/view
+-- URL:
 -- Date: 2011-10-30 19:10
 -- Who: Crackerhead22
 

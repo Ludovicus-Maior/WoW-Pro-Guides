@@ -8,86 +8,86 @@
 -- Who: Hendo72
 -- Log: Fixed a coordinate typo in: C Like Bombing Fish In A Barrel. I used a comma instead of a decimal. My bad.
 
--- URL: http://wow-pro.com/node/3509/revisions/30312/view
+-- URL:
 -- Date: 2019-07-08 11:18
 -- Who: Hendo72
 -- Log: Removed |L| tags that were no longer needed. The counters don't work anymore.
 
--- URL: http://wow-pro.com/node/3509/revisions/30306/view
+-- URL:
 -- Date: 2019-07-04 10:47
 -- Who: Hendo72
 -- Log: Combined the 2 Snapclaw steps into 1. Originally, the Run step was showing up whether you had the quest or not. My change fixes that.
 
--- URL: http://wow-pro.com/node/3509/revisions/30305/view
+-- URL:
 -- Date: 2019-07-03 07:12
 -- Who: Hendo72
 -- Log: More coordinate adjustments and fine tuning of path coordinates. Added coordinates for the raft for "Like Bombing Fish in a Barrel" quest. Current path doesn't set the raft as your starting point.
 
--- URL: http://wow-pro.com/node/3509/revisions/30302/view
+-- URL:
 -- Date: 2019-07-02 05:15
 -- Who: Hendo72
 -- Log: Updated NPC coordinates. They were pointing to the wrong location. Quest coordinates have not been changed yet. Waiting to confirm if they need to be changed as well.
 
--- URL: http://wow-pro.com/node/3509/revisions/30301/view
+-- URL:
 -- Date: 2019-07-02 04:24
 -- Who: Hendo72
 -- Log: Correction. Incorrect coordinates for Snapclaw and cave entrance.
 
--- URL: http://wow-pro.com/node/3509/revisions/29908/view
+-- URL:
 -- Date: 2018-10-17 02:21
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3509/revisions/29603/view
+-- URL:
 -- Date: 2018-08-24 16:00
 -- Who: Ludovicus_Maior
 -- Log: Converted old style QOs.
 
--- URL: http://wow-pro.com/node/3509/revisions/26573/view
+-- URL:
 -- Date: 2014-07-06 15:58
 -- Who: Ludovicus_Maior
 -- Log: Added levels
 
--- URL: http://wow-pro.com/node/3509/revisions/26540/view
+-- URL:
 -- Date: 2014-06-11 22:09
 -- Who: Ludovicus_Maior
 -- Log: Converted
 
--- URL: http://wow-pro.com/node/3509/revisions/25727/view
+-- URL:
 -- Date: 2013-06-23 01:17
 -- Who: Ludovicus_Maior
 -- Log: Removed absent leadin quests.
 
--- URL: http://wow-pro.com/node/3509/revisions/25520/view
+-- URL:
 -- Date: 2013-02-06 20:17
 -- Who: Ludovicus_Maior
 -- Log: Move [What Lurks Below] for better flow.
 
--- URL: http://wow-pro.com/node/3509/revisions/25402/view
+-- URL:
 -- Date: 2013-01-13 01:17
 -- Who: Ludovicus_Maior
 -- Log: Lots of CN tags and a CS tag
 
--- URL: http://wow-pro.com/node/3509/revisions/25265/view
+-- URL:
 -- Date: 2012-12-25 00:54
 -- Who: Ludovicus_Maior
 -- Log: Adjusted quest pickup order.
 
--- URL: http://wow-pro.com/node/3509/revisions/25189/view
+-- URL:
 -- Date: 2012-11-08 19:08
 -- Who: Ludovicus_Maior
 -- Log: Coord Corrections.
 
--- URL: http://wow-pro.com/node/3509/revisions/25187/view
+-- URL:
 -- Date: 2012-11-08 17:44
 -- Who: Ludovicus_Maior
 -- Log: OK, First complete draft.  Time to test!
 
--- URL: http://wow-pro.com/node/3509/revisions/25186/view
+-- URL:
 -- Date: 2012-11-08 15:42
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3509/revisions/25120/view
+-- URL:
 -- Date: 2012-10-07 22:40
 -- Who: Ludovicus_Maior
 

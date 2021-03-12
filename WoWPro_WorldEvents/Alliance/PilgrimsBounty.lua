@@ -8,63 +8,63 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3443/revisions/28822/view
+-- URL:
 -- Date: 2017-11-24 19:04
 -- Who: Ludovicus
 -- Log: Update guide to use ACH and ACTIVE tags for better navigation.
 
--- URL: http://wow-pro.com/node/3443/revisions/28507/view
+-- URL:
 -- Date: 2017-03-17 13:55
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
 
--- URL: http://wow-pro.com/node/3443/revisions/28286/view
+-- URL:
 -- Date: 2017-03-05 18:53
 -- Who: Ludovicus_Maior
 -- Log: Float the level
 
--- URL: http://wow-pro.com/node/3443/revisions/27365/view
+-- URL:
 -- Date: 2015-07-25 18:18
 -- Who: Ludovicus_Maior
 -- Log: Add Icon
 
--- URL: http://wow-pro.com/node/3443/revisions/26862/view
+-- URL:
 -- Date: 2014-11-07 21:34
 -- Who: Emmaleah
 -- Log: added 3 N tags per list o' errors
 
--- URL: http://wow-pro.com/node/3443/revisions/26600/view
+-- URL:
 -- Date: 2014-07-25 21:37
 -- Who: Ludovicus_Maior
 -- Log: Adj Mean level
 
--- URL: http://wow-pro.com/node/3443/revisions/26498/view
+-- URL:
 -- Date: 2014-06-10 21:42
 -- Who: Ludovicus_Maior
 -- Log: Changed guide format.
 
--- URL: http://wow-pro.com/node/3443/revisions/25633/view
+-- URL:
 -- Date: 2013-05-14 17:01
 -- Who: Ludovicus_Maior
 -- Log: Roasted => roasted
 
--- URL: http://wow-pro.com/node/3443/revisions/24817/view
+-- URL:
 -- Date: 2011-11-20 23:35
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3443/revisions/24814/view
+-- URL:
 -- Date: 2011-11-20 19:37
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3443/revisions/24804/view
+-- URL:
 -- Date: 2011-11-16 02:02
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3443/revisions/24787/view
+-- URL:
 -- Date: 2011-10-30 19:09
 -- Who: Crackerhead22
 
--- URL: http://wow-pro.com/node/3443/revisions/24786/view
+-- URL:
 -- Date: 2011-10-30 19:09
 -- Who: Crackerhead22
 -- Log: Added source code page.

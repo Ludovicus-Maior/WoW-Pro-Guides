@@ -8,51 +8,51 @@
 -- Who: Ludovicus_Maior
 -- Log: Updated old style QO's.
 
--- URL: http://wow-pro.com/node/3455/revisions/28995/view
+-- URL:
 -- Date: 2018-02-19 22:57
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
 
--- URL: http://wow-pro.com/node/3455/revisions/28336/view
+-- URL:
 -- Date: 2017-03-11 18:28
 -- Who: Ludovicus_Maior
 -- Log: Added PREs.
 
--- URL: http://wow-pro.com/node/3455/revisions/26858/view
+-- URL:
 -- Date: 2014-11-07 20:48
 -- Who: Fluclo
 -- Log: Added missing |N| tags, removed blank |QO| tag
 
--- URL: http://wow-pro.com/node/3455/revisions/26559/view
+-- URL:
 -- Date: 2014-07-06 15:44
 -- Who: Ludovicus_Maior
 -- Log: Updated levels
 
--- URL: http://wow-pro.com/node/3455/revisions/26526/view
+-- URL:
 -- Date: 2014-06-11 19:11
 -- Who: Ludovicus_Maior
 -- Log: Changed level guide.
 
--- URL: http://wow-pro.com/node/3455/revisions/25639/view
+-- URL:
 -- Date: 2013-05-14 18:59
 -- Who: Ludovicus_Maior
 -- Log: Bad quest names and coords
 
--- URL: http://wow-pro.com/node/3455/revisions/25423/view
+-- URL:
 -- Date: 2013-01-13 15:01
 -- Who: Ludovicus_Maior
 -- Log: Added CN and CS tags
 
--- URL: http://wow-pro.com/node/3455/revisions/25299/view
+-- URL:
 -- Date: 2013-01-09 17:14
 -- Who: Ludovicus_Maior
 -- Log: Added CN tags
 
--- URL: http://wow-pro.com/node/3455/revisions/24894/view
+-- URL:
 -- Date: 2012-01-18 23:30
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3455/revisions/24893/view
+-- URL:
 -- Date: 2012-01-18 23:29
 -- Who: Ludovicus_Maior
 -- Log: Initial Version

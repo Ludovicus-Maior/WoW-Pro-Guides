@@ -8,17 +8,17 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3634/revisions/28982/view
+-- URL:
 -- Date: 2018-02-19 22:45
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
 
--- URL: http://wow-pro.com/node/3634/revisions/27396/view
+-- URL:
 -- Date: 2015-10-05 14:58
 -- Who: Ludovicus_Maior
 -- Log: Moved [Blackhand's Secret]
 
--- URL: http://wow-pro.com/node/3634/revisions/27299/view
+-- URL:
 -- Date: 2015-06-23 12:24
 -- Who: Ludovicus_Maior
 -- Log: Start

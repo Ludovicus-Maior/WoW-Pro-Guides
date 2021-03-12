@@ -8,72 +8,72 @@
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
 
--- URL: http://wow-pro.com/node/3466/revisions/29588/view
+-- URL:
 -- Date: 2018-08-23 23:33
 -- Who: jovieve
 -- Log: Updated old style QO tags.
 
--- URL: http://wow-pro.com/node/3466/revisions/29548/view
+-- URL:
 -- Date: 2018-08-18 21:02
 -- Who: Ludovicus_Maior
 -- Log: Correct L step to l step.
 
--- URL: http://wow-pro.com/node/3466/revisions/28504/view
+-- URL:
 -- Date: 2017-03-17 13:52
 -- Who: Ludovicus_Maior
 -- Log: Added PREs
 
--- URL: http://wow-pro.com/node/3466/revisions/28291/view
+-- URL:
 -- Date: 2017-03-05 18:55
 -- Who: Ludovicus_Maior
 -- Log: Float the level
 
--- URL: http://wow-pro.com/node/3466/revisions/27359/view
+-- URL:
 -- Date: 2015-07-25 18:12
 -- Who: Ludovicus_Maior
 -- Log: Add Icon
 
--- URL: http://wow-pro.com/node/3466/revisions/26863/view
+-- URL:
 -- Date: 2014-11-07 21:43
 -- Who: Emmaleah
 -- Log: Delete dup QID's per list o' errors.
 
--- URL: http://wow-pro.com/node/3466/revisions/26604/view
+-- URL:
 -- Date: 2014-07-25 21:42
 -- Who: Ludovicus_Maior
 -- Log: Adj levels
 
--- URL: http://wow-pro.com/node/3466/revisions/26493/view
+-- URL:
 -- Date: 2014-06-10 21:25
 -- Who: Ludovicus_Maior
 -- Log: Converted guide
 
--- URL: http://wow-pro.com/node/3466/revisions/25879/view
+-- URL:
 -- Date: 2014-02-13 16:55
 -- Who: Ludovicus_Maior
 -- Log: Added Leaders dailies and shuffled flow.
 
--- URL: http://wow-pro.com/node/3466/revisions/25718/view
+-- URL:
 -- Date: 2013-06-18 00:59
 -- Who: Ludovicus_Maior
 -- Log: Missing coordinate, 1/1 in guide LudoLoveA, line [A/T You've Been Served].
 
--- URL: http://wow-pro.com/node/3466/revisions/25643/view
+-- URL:
 -- Date: 2013-05-14 19:11
 -- Who: Ludovicus_Maior
 -- Log: Z tag corrections
 
--- URL: http://wow-pro.com/node/3466/revisions/25528/view
+-- URL:
 -- Date: 2013-02-11 11:21
 -- Who: Ludovicus_Maior
 -- Log: Added [Crushing the Crown] and some of the dalies.
 
--- URL: http://wow-pro.com/node/3466/revisions/24936/view
+-- URL:
 -- Date: 2012-02-05 13:33
 -- Who: Ludovicus_Maior
 -- Log: Corrections after runthrough
 
--- URL: http://wow-pro.com/node/3466/revisions/24934/view
+-- URL:
 -- Date: 2012-02-04 23:21
 -- Who: Ludovicus_Maior
 

@@ -8,17 +8,17 @@
 -- Who: Ludovicus_Maior
 -- Log: Teroclaw Hatchling was nerfed.  Starting to compensate.
 
--- URL: http://wow-pro.com/node/3756/revisions/30088/view
+-- URL:
 -- Date: 2018-10-23 23:32
 -- Who: Ludovicus_Maior
 -- Log: And/Or Mark II
 
--- URL: http://wow-pro.com/node/3756/revisions/30074/view
+-- URL:
 -- Date: 2018-10-23 22:00
 -- Who: Ludovicus_Maior
 -- Log: And/Or
 
--- URL: http://wow-pro.com/node/3756/revisions/28997/view
+-- URL:
 -- Date: 2018-02-19 23:00
 -- Who: Ludovicus_Maior
 -- Log: Initial Upload
