@@ -10,29 +10,31 @@ b Darkshore|AVAILABLE|4581|M|4.61,57.07|Z|Wetlands|N|Take Boat to Auberdine.|
 F Astranaar|AVAILABLE|4581|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar.|
 A Kayneth Stillwind|QID|4581|M|34.67,48.84|N|From Shindrell Swiftfire.|
 h Astranaar|AVAILABLE|1021|N|Make Astranaar your home location.|M|36.97,49.26|
+A Fallen Sky Lake|QID|1035|M|37.35,51.80|N|From Pelturas Whitemoon|
 A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|
 A Vile Satyr! Dryads in Danger!|QID|1021|M|21.74,53.35|N|From Illiyana.|
 R Raynewood Retreat|ACTIVE|1026|M|62.00,51.00|CS|N|Follow the path east out of Astrannar and take the North path at the fork in the road towards Raynewood Retreat.|
 K Raene's Cleansing|QID|1026|M|54.42,35.39||N|Kill Withered and Crazed Ancients in the area until you get the Wooden Key.|L|5475|
 C Raene's Cleansing|QID|1026|M|54.42,35.39|N|Click on the Worn Chest once you have the key.|
 C The Howling Vale|QID|1022|M|53.76,35.08;52.81,37.68;50.49,39.13|CC|N|Run up the hill next to you and find a worgen guarded tunnel. Fight or sneak your way through to find the tome.|
-R Night Run|ACTIVE|1140|M|54.42,35.39;65.50,43.80|CS|N|Run back out of the tunnel and back south along the road. Look to your left and run through the clearing up the hill towards Night Run|
-C The Tower of Althalaxx|QID|1140|M|66.63,57|Z|Ashenvale|CC|QO|1|N|Click on the Crystal in Night Run.|
-T Raene's Cleansing|QID|1026|M|57.30,55.80;51.40,52.50;50.60,46.90;53.50,46.30|CS|N|Drop down from the hill to your west and head around to Shael'dryn.|
-A Raene's Cleansing|QID|1027|M|53.5,46.3|N|From Shael'dryn.|PRE|1026|
-
-T Vile Satyr! Dryads in Danger!|QID|1021|M|78.32,44.85|N|To Anilia.|
-A The Branch of Cenarius|QID|1031|M|78.2,44.8|N|To Anilia.|PRE|1021|
-C The Branch of Cenarius|QID|1031|M|78,42.48|N|Kill Geltharis.|
-C The Tower of Althalaxx|QID|1140|M|81.59,48.58|Z|Ashenvale|QO|2|N|Click on the Crystal from Satynaar.|
+R Moonwell|ACTIVE|1026|M|54.42,35.39;61.00,44.20;57.30,55.80;51.40,52.50;50.60,46.90;53.50,46.30|CS|N|Run back out of the tunnel and south along the Road. Once past Raynewood Retreat head west along the hill and then follow it up towards the Moonwell|
+T Raene's Cleansing|QID|1026|M|53.50,46.30|CS|N|To Shael'dryn.|
+A Raene's Cleansing|QID|1027|M|53.50,46.30|N|From Shael'dryn.|PRE|1026|
+R Night Run|ACTIVE|1140|M|50.60,46.90;51.40,52.50;57.30,55.80;65.50,43.80|CS|N|Go back around the hill and around Raynewood Retreat. Cross over the road to head up the hill towards Night Run.|
+C The Tower of Althalaxx|QID|1140|M|66.63,57|Z|Ashenvale|CC|QO|1|N|Make your way through the Satyr in Night Run to click on the Red Crystal in the camp.|
+T Vile Satyr! Dryads in Danger!|QID|1021|M|78.32,44.85|N|Head north-east out of Night Run and cross the lake at Xavian.\nAnilia is the wounded Dryad in the middle of a Satyr camp.|
+A The Branch of Cenarius|QID|1031|M|78.2,44.8|N|From Anilia.|PRE|1021|
+C The Branch of Cenarius|QID|1031|M|78,42.48|N|Kill Geltharis in the clearing to the North.|
+C The Tower of Althalaxx|QID|1140|M|81.59,48.58|Z|Ashenvale|QO|2|N|Make your way through the Satyr in Sayrnaar to click on the Red Crystal behind the red statue.|
 T Kayneth Stillwind|QID|4581|M|85.28,44.72|N|From Shindrell Swiftfire.|
-A Forsaken Diseases|QID|1011|M|85.28,44.72|N|From Kayneth Stillwind.|PRE|4581|
-C Raene's Cleansing|QID|1027|M|75.3,71.85|S|N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|
-R Forsaken Diseases|QID|1011|M|78.6,55.57;75.9,66.93|CC|N|Go south then follow the road toward Splintertree Post.|
+A Forsaken Diseases|QID|1011|M|85.28,44.72|N|From Kayneth Stillwind.|
+R The Dor'Danil Barrow Den|QID|1011|M|78.6,55.57;75.65,71.30|CS|N|Go south then follow the road toward The Dor'Danil Barrow Den.|
 C Forsaken Diseases|QID|1011|M|75.3,72.22|N|Loot a Bottle of Disease.|
+C Raene's Cleansing|QID|1027|S||N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|
+C Fallen Sky Lake|QID|1035|M|66.60,82.00|N|Kill the Shadethicket Oracle|
 C Raene's Cleansing|QID|1027|M|74.55,73.33|US|N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|
+N Rank 3 Guide Steps|AVAILABLE|1012|S|N|You are seeing this because you have WoW-Pro rank setting at 3. If you want more essential questing without going too much out of the way drop your rank down to 2 and continue the guide.|RANK|3|
 T Forsaken Diseases|QID|1011|M|85.28,44.72|N|To Kayneth Stillwind. Don't get follow up.|
-N Rank 3 Guide Steps|QID|1012|M|PLAYER|N|You are seeing this because you have WoW-Pro rank setting at 3. That means you will see all quests even if they are out of the way. If you want more essential questing without going too much out of the way drop your rank down to 2 and continue the guide. Check off this step when you're done. A lot of Rank 3 quests ahead.|RANK|3|
 A Insane Druids|QID|1012|M|85.28,44.72|N|From Kayneth Stillwind.|PRE|1011|RANK|3|
 R Insane Druids|QID|1012|ACTIVE|1012|M|78.6,55.57;75.9,66.93;74.59,76.38;75.96,75.39|CC|N|Go south then follow the road toward Splintertree Post.|
 K Insane Druids|QID|1012|ACTIVE|1012|M|77.2,73.98|CC|QO|1|N|Kill Taneel Darkwood. Just on the other side of the bridge.|
