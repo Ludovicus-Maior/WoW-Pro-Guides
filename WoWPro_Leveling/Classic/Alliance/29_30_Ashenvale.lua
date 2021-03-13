@@ -97,14 +97,14 @@ h Darnassus|QID|1039|M|67.40,15.66|Z|Darnassus|N|Set Hearthstone to Darnassus, t
 N Level 30|QID|1039|N|You should be over level 30 or close. Be sure to train up, sell, repair, auction or any of your other big city needs. Close this step when done.|
 R Rut'theran Village|QID|1039|N|Take the teleporter to Rut'theran Village.|Z|Darnassus|M|30.10,41.40|
 f Rut'theran Village|QID|1039|M|58.4,94.02|Z|Teldrassil|N|Get the flight path.|R|-NightElf|
-F Auberdine|QID|1039|M|58.4,94.02|Z|Teldrassil|N|Fly to Auberdine.|
-b Wetlands|QID|1039|M|32.42,43.74|Z|Darkshore|N|Run down the dock and get on the boat to Menethil.|
-b Theramore Isle|QID|1039|M|5,63.51|Z|Wetlands|N|Take the boat to Theramore.|
-f Theramore Flightpoint|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|
-F Ratchet|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Fly to Ratchet.|PRE|1094|
-R Barrens|AVAILABLE|1094|ACTIVE|1039|M|27.8,46.6|Z|Dustwallow Marsh|N|You must not have got the Ratchet flightpath from the earlier guide. Follow the road to the Barrens.|
-R Ratchet|AVAILABLE|1094|ACTIVE|1039|M|62.7,36.2|Z|The Barrens|N|Run northest to Ratchet.|
-f Ratchet|AVAILABLE|1094|ACTIVE|1039|M|63.09,37.16|Z|The Barrens|N|Get the flight path.|
+F Auberdine|QID|1039|M|58.4,94.02|Z|Teldrassil|N|Fly to Auberdine.|TAXI|-Theramore|
+b Wetlands|QID|1039|M|32.42,43.74|Z|Darkshore|N|Run down the dock and get on the boat to Menethil.|TAXI|-Theramore|
+b Theramore Isle|QID|1039|M|5,63.51|Z|Wetlands|N|Take the boat to Theramore.|TAXI|-Theramore|
+f Theramore Flightpoint|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|TAXI|-Theramore|
+F Ratchet|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Fly to Ratchet.|PRE|1094|TAXI|Ratchet|
+R Barrens|AVAILABLE|1040|M|27.8,46.6|Z|Dustwallow Marsh|N|You must not have got the Ratchet flightpath from the earlier guide. Follow the road to the Barrens.|TAXI|-Ratchet|
+R Ratchet|AVAILABLE|1094|ACTIVE|1039|M|62.7,36.2|Z|The Barrens|N|Run northest to Ratchet.|TAXI|-Ratchet|
+f Ratchet|AVAILABLE|1094|ACTIVE|1039|M|63.09,37.16|Z|The Barrens|N|Get the flight path.||TAXI|-Ratchet|
 T The Barrens Port|QID|1039|Z|The Barrens|M|63.35,38.46|N|To Wharfmaster Dizzywig.|
 A Passage to Booty Bay|QID|1040|Z|The Barrens|M|63.35,38.46|N|From Wharfmaster Dizzywig.|PRE|1039|
 b Booty Bay|QID|1040|M|63.69,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
