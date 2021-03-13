@@ -27,7 +27,6 @@ T Emergency First Aid|QID|59930|M|61.88,82.89|N|To Warlord Breka Grimaxe.|
 A Finding the Lost Expedition|QID|59931|M|61.88,82.89|N|From Warlord Breka Grimaxe.|PRE|59930|
 T Finding the Lost Expedition|QID|59931|M|58.36,74.47|N|To Won'sa. Up the road north a bit.|
 A Cooking Meat|QID|59932|M|58.38,74.64|N|From Warlord Breka Grimaxe.|PRE|59931|
-$ Abandoned Treasure Chest|QID|58882|S|M|57.05,68.40|N|There is a chest to the north of the abandoned camp.|
 C Cooking Meat|QID|59932|M|58.02,74.07|QO|1|N|Kill any wildlife in the area and collect their raw meat.|
 C Cooking Meat|QID|59932|M|58.33,74.59|NC|QO|2|N|Click on the campfire to cook the meat.|
 T Cooking Meat|QID|59932|M|58.36,74.48|N|To Won'sa.|
@@ -39,7 +38,6 @@ T Enhanced Combat Tactics|QID|59933|M|58.38,74.64|N|To Warlord Breka Grimaxe.|C|
 T Enhanced Combat Tactics|QID|59934|M|58.38,74.64|N|To Warlord Breka Grimaxe.|C|Monk|
 A Northbound|QID|59935|M|58.36,74.48|N|From Won'sa.|PRE|59933^59934|
 A Northbound|QID|59935|M|58.36,74.48|N|From Won'sa.|PRE|59932|C|Hunter|
-$ Abandoned Treasure Chest|QID|58882|US|M|57.05,68.40|N|Loot the treasure chest.|
 T Northbound|QID|59935|M|62.72,69.85|N|To Mithdran Dawntracker.|
 A Taming the Wilds|QID|59937|M|62.72,69.85|N|From Mithdran Dawntracker.|PRE|59935|C|Hunter|
 C Taming the Wilds|QID|59937|M|62.72,69.85|QO|1|N|Wait a second to learn Tame Beast from Mithdran.|
@@ -48,11 +46,8 @@ T Taming the Wilds|QID|59937|M|62.71,69.86|N|To Mithdran Dawntracker.|
 A Down with the Quilboar|QID|59938|M|62.71,69.86|N|From Mithdran Dawntracker.|PRE|59935|
 A Forbidden Quilboar Necromancy|QID|59939|M|62.71,69.86|N|From Mithdran Dawntracker.|PRE|59935|
 C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|N|Kill Quilboar in the area.|S|
-K Ogre Overseer|QID|56051|M|60.52,59.86|RARE|T|Ogre Overseer|N|Silver Elite to kill and loot.|
 C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|N|Wrap up the Quilboar massacre.|US|
 C Down with the Quilboar|QID|59938|M|58.86,63.03|N|Kill Geolord Grek'og.|
-; Moved down... Finish quest before getting treasure -- Hendo72
-$ Quilboar Treasures|QID|56579|M|58.52,59.30|N|Loot the treasure chest.|
 T Forbidden Quilboar Necromancy|QID|59939|M|56.26,59.17|N|To Mithdran Dawntracker.|
 T Down with the Quilboar|QID|59938|M|56.16,59.13|N|To Cork Fizzlepop.|
 A The Choppy Booster Mk. 5|QID|59940|M|56.16,59.13|N|From Cork Fizzlepop.|PRE|59938&59939|
@@ -136,8 +131,6 @@ C Purge the Totems|QID|59946|M|58.23,44.43|QO|1<1|NC|N|Burn the Harpy Totem.|
 C Purge the Totems|QID|59946|M|58.84,42.96|QO|1<2|NC|N|Burn the Harpy Totem.|
 C Purge the Totems|QID|59946|M|61.25,41.33|QO|1<3|NC|N|Burn the Harpy Totem.|
 C Purge the Totems|QID|59946|M|59.01,39.07|QO|1<4|NC|N|Burn the Harpy Totem.|
-$ Stolen Supplies|QID|56581|M|59.30,37.61|N|Loot the treasure chest.|
-K Ogre Taskmaster|QID|59611|M|58.10,40.50|RARE|N|Silver Elite to kill and loot.|T|Ogre Taskmaster|
 C Purge the Totems|QID|59946|M|57.18,42.15|QO|1<5|NC|N|Burn the Harpy Totem.|
 C The Rescue of Herbert Gloomburst|QID|59944|M|54.28,41.60|QO|1|N|Chat with Herbert Gloomburst to start the 5 waves of attack. The first 4 waves are a mix of 2-3 Harpy Ambushers and Hunting Worgs. The 5th and final wave is Bloodbeak. Kill him to finish the quest.|
 C Purge the Totems|QID|59946|M|61.23,41.33|NC|QO|1|N|Finish burning the Harpy Totems.|US|
@@ -211,69 +204,5 @@ T Dungeon: Darkmaul Citadel|QID|59984|M|39.67,31.99|N|To Warlord Breka Grimaxe.|
 A An End to Beginnings|QID|59985|M|39.67,31.99|N|From Warlord Breka Grimaxe.|PRE|59984|
 C An End to Beginnings|QID|59985|M|40.36,32.62|N|Mount the Horde Wyvern to ride back to Orgrimmar.|V|
 T An End to Beginnings|QID|59985|M|52.51,88.06|Z|Orgrimmar|N|To Warlord Breka Grimaxe.|
-A Welcome to Orgrimmar|QID|60343|M|52.51,88.06|Z|Orgrimmar|N|From Warlord Breka Grimaxe.|PRE|59985|
-T Welcome to Orgrimmar|QID|60343|M|51.92,85.35|Z|Orgrimmar|N|To Cork Fizzlepop.|
-A Finding Your Way|QID|60344|M|51.92,85.35|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60343|
-C Finding Your Way|QID|60344|M|52.46,84.19|Z|Orgrimmar|QO|1|CHAT|N|Ask a guard for directions to the Stable Master.|
-C Finding Your Way|QID|60344|M|52.23,84.44|Z|Orgrimmar|QO|2|CHAT|N|Speak with Cork Fizzlepop to lead the way.|
-C Finding Your Way|QID|60344|M|62.09,33.24|Z|Orgrimmar|QO|3|NC|N|Follow Cork Fizzlepop to the Stables. You must be near him for him to move towards the stables, and he must reach the stables for the quest to be completable.|
-T Finding Your Way|QID|60344|M|61.43,32.76|Z|Orgrimmar|N|To Rohaka Tuskmaul.|
-A License to Ride|QID|60345|M|61.43,32.76|Z|Orgrimmar|N|From Rohaka Tuskmaul.|PRE|60344|
-C License to Ride|QID|60345|M|61.32,34.59|Z|Orgrimmar|NC|N|Speak to Kildar and learn Apprentice Riding.|
-T License to Ride|QID|60345|M|61.43,32.76|Z|Orgrimmar|N|To Rohaka Tuskmaul.|
-; Choose your class sp
-A What's Your Specialty?|QID|60346|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Druid|
-C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|QO|1|CHAT|N|Speak with Telotha Pinegrove to learn about specializations.|C|Druid|
-C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Druid|
-T What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|N|To Telotha Pinegrove.|C|Druid|
-A What's Your Specialty?|QID|60347|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Hunter|
-C What's Your Specialty?|QID|60347|M|73.88,43.63|Z|Orgrimmar|QO|1|CHAT|N|Speak with Tamanji to learn about specializations.|C|Hunter|
-C What's Your Specialty?|QID|60347|M|73.88,43.63|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Hunter|
-T What's Your Specialty?|QID|60347|M|73.89,43.62|Z|Orgrimmar|N|To Tamanji.|C|Hunter|
-A What's Your Specialty?|QID|60348|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Mage|
-C What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|QO|1|CHAT|N|Speak with Feenix Arcshine to learn about specializations.|C|Mage|
-C What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Mage|
-T What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|N|To Feenix Arcshine.|C|Mage|
-A What's Your Specialty?|QID|60349|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Monk|
-C What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|QO|1|CHAT|N|Speak with Huinli Wingpaw to learn about specializations.|C|Monk|
-C What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Monk|
-T What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|N|To Huinli Wingpaw.|C|Monk|
-A What's Your Specialty?|QID|60350|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Paladin|
-C What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|QO|1|CHAT|N|Speak with Avaros Dawnglaive to learn about specializations.|C|Paladin|
-C What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Paladin|
-T What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|N|To Avaros Dawnglaive.|C|Paladin|
-A What's Your Specialty?|QID|60351|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Priest|
-C What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|QO|1|CHAT|N|Speak with Martin Goodchilde to learn about specializations.|C|Priest|
-C What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Priest|
-T What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|N|To Martin Goodchilde.|C|Priest|
-A What's Your Specialty?|QID|60352|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Rogue|
-C What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|QO|1|CHAT|N|Speak with Thega Graveblade to learn about specializations.|C|Rogue|
-C What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Rogue|
-T What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|N|To Thega Graveblade.|C|Rogue|
-A What's Your Specialty?|QID|60353|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Shaman|
-C What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|QO|1|CHAT|N|Speak with Hretar Riverspeaker to learn about specializations.|C|Shaman|
-C What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Shaman|
-T What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|N|To Hretar Riverspeaker.|C|Shaman|
-A What's Your Specialty?|QID|60355|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Warlock|
-C What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|QO|1|CHAT|N|Speak with Kazak Darkscream to learn about specializations.|C|Warlock|
-C What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Warlock|
-T What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|N|To Kazak Darkscream.|C|Warlock|
-A What's Your Specialty?|QID|60357|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Warrior|
-C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|QO|1|CHAT|N|Speak with Gormok Ogrefistto learn about specializations.|C|Warrior|
-C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Warrior|
-T What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|N|To Gormok Ogrefist.|C|Warrior|
-A Home Is Where the Hearth Is|QID|60359|M|PLAYER|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|
-h The Wyvern's Tail|QID|60359|M|71.31,49.96|Z|Orgrimmar|QO|1|N|Make The Wyvern's Tail your home at Innkeeper Nufa.|
-T Home Is Where the Hearth Is|QID|60359|M|71.31,49.96|Z|Orgrimmar|N|To Innkeeper Nufa.|
-A An Urgent Meeting|QID|60360|M|70.86,49.53|Z|Orgrimmar|N|From Shuja Grimaxe.|PRE|60359|
-R Grommash Hold|QID|60360|M|49.90,75.62|Z|Orgrimmar|N|Head to Grommash Hold. The entrance to Grommash Hold is on the south side of the building.|ACTIVE|60360|
-R Grommash Hold|QID|60360|M|48.26,71.38|Z|Orgrimmar|QO|2|N|Head inside Grommash Hold.|
-T An Urgent Meeting|QID|60360|M|48.26,71.38|Z|Orgrimmar|N|To Warlord Breka Grimaxe.|
-A Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|N|From Warlord Breka Grimaxe.|PRE|60360|
-C Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|QO|1|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|NC|
-C Battle for Azeroth: Mission Statement|QID|60361|M|48.52,71.20|Z|Orgrimmar|QO|2|CHAT|N|Speak with Nathanos Blightcaller.|
-C Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|QO|3|CHAT|N|Speak with Warlord Breka Grimaxe. Optional step, right click the guide step to manually skip it.|
-C Battle for Azeroth: Mission Statement|QID|60361|M|51.25,77.10|Z|Orgrimmar|QO|4|N|Head outside then mount the Sturdy Wyvern for a ride to Princess Talanji's boat.|V|
-T Battle for Azeroth: Mission Statement|QID|60361|M|57.96,62.76|Z|Zuldazar|N|To Nathanos Blightcaller.|
 ]]
 end)
