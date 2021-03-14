@@ -74,13 +74,13 @@ A The Deadliest of Poisons|QID|59968|M|45.65,56.13|N|From Drizza Sidestabber.|PR
 C The Deadliest of Poisons|QID|59968|M|45.65,56.13|NC|QO|1|N|Cast instant poison before you go.|C|Rogue|
 C The Deadliest of Poisons|QID|59968|M|48.26,51.07|QO|2|N|Kill Gutgruk the Tough.|C|Rogue|
 T The Deadliest of Poisons|QID|59968|M|52.03,55.45|N|To Grunt Throg.|C|Rogue|
-A A Shaman's Duty|QID|59002|M|52.3,55.66|N|From Ghost Wolf.|PRE|59950|C|Shaman|
-C A Shaman's Duty|QID|59002|M|52.11,51.3|QO|1|NC|N|Collect Veil blossom.|C|Shaman|
-C A Shaman's Duty|QID|59002|M|52.21,55.58|QO|2|NC|N|Burn the blossoms on the campfire.|C|Shaman|
-C A Shaman's Duty|QID|59002|M|54.38,58.44|QO|3<1|NC|N|Free the captured ghost wolves.|C|Shaman|
-C A Shaman's Duty|QID|59002|M|55.27,52.79|QO|3<2|NC|N|Free the captured ghost wolves.|C|Shaman|
-C A Shaman's Duty|QID|59002|M|55.4,50.78|QO|3<3|NC|N|Free the captured ghost wolves.|C|Shaman|
-T A Shaman's Duty|QID|59002|M|52.3,55.66|N|To Ghost Wolf.|C|Shaman|
+A A Shaman's Duty|QID|59969|M|52.3,55.66|N|From Ghost Wolf.|PRE|59950|C|Shaman|
+C A Shaman's Duty|QID|59969|M|52.11,51.3|QO|1|NC|N|Collect Veil blossom.|C|Shaman|
+C A Shaman's Duty|QID|59969|M|52.21,55.58|QO|2|NC|N|Burn the blossoms on the campfire.|C|Shaman|
+C A Shaman's Duty|QID|59969|M|54.38,58.44|QO|3<1|NC|N|Free the captured ghost wolves.|C|Shaman|
+C A Shaman's Duty|QID|59969|M|55.27,52.79|QO|3<2|NC|N|Free the captured ghost wolves.|C|Shaman|
+C A Shaman's Duty|QID|59969|M|55.4,50.78|QO|3<3|NC|N|Free the captured ghost wolves.|C|Shaman|
+T A Shaman's Duty|QID|59969|M|52.3,55.66|N|To Ghost Wolf.|C|Shaman|
 A Westward Bound|QID|59948|M|52.89,56.47|N|From Lana Jordan.|PRE|59950|
 T Westward Bound|QID|59948|M|51.10,59.50|N|To Lana Jordan.|
 A Who Lurks in the Pit|QID|59949|M|51.10,59.50|N|From Lana Jordan.|PRE|59948|
