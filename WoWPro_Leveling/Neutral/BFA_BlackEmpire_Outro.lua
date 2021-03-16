@@ -103,7 +103,7 @@ A Finding the Rajani|QID|56539|M|83.80,27.17|Z|1530|N|From Lorewalker Cho.|PRE|5
 C Finding the Rajani|QID|56539|M|34.03,37.39|Z|1530|QO|1|N|Kill Mogu for the Scouting Report|
 T Finding the Rajani|QID|56539|M|83.79,27.17|Z|1530|N|To Lorewalker Cho.|
 A Time-Lost Warriors|QID|56771|M|83.10,27.30|Z|1530|N|From Magni Bronzebeard.|PRE|56539|
-f Mistfall Village|QID|56771|M|38.91,72.75|Z|1530|N|At Ryuxi.|
+f Mistfall Village|ACTIVE|56771|M|38.91,72.75|Z|1530|N|At Ryuxi.|
 C Time-Lost Warriors|QID|56771|M|39.39,75.12|Z|1530|NC|QO|1|N|Find the Rajani, near Mistfall Village.|
 C Time-Lost Warriors|QID|56771|M|44.53,74.46|Z|1530|CHAT|QO|2|N|Show Stormspeaker Qian the sigil, and His questions, then follow him in instance.|
 C Time-Lost Warriors|QID|56771|M|45.32,74.34|Z|1530|CHAT|QO|3|N|Speak with Ra-Den.|
@@ -167,7 +167,7 @@ C Calm the Whispers|QID|57222|M|PLAYER|QO|3|T|Endless Suffering|NC|N|Find your l
 T Investigating the Halls|QID|57222|M|46.55,63.58|Z|Chamber of Heart!Dungeon1473|N|To Wrathion|
 ;  Legendary Cloak
 A Beginning the Descent|QID|57290|M|46.55,63.58|Z|Chamber of Heart!Dungeon1473|N|From Wrathion. This will be another 15 minute scenario.|PRE|57222|
-P Silithus: The Wound|QID|57290|M|50.14,30.47|Z|Chamber of Heart!Dungeon1473|N|Run out to Silithus.|
+P Silithus: The Wound|ACTIVE|57290|M|50.14,30.47|Z|Chamber of Heart!Dungeon1473|N|Run out to Silithus.|
 P Boralus|ACTIVE|57290|M|41.48,44.86|Z|Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|FACTION|Alliance|
 P Stormwind City|ACTIVE|57290|M|70.10,16.78|Z|Boralus|NC|N|Take the Portal to Stormwind.|FACTION|Alliance|
 F Iron Summit|ACTIVE|57290|M|70.93,72.47|Z|Stormwind City|N|To Dungar Longdrink, to Fly to Iron Summit.|FACTION|Alliance|
