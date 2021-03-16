@@ -3,6 +3,26 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2017-03-11 18:37
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL:
+-- Date: 2014-07-06 15:50
+-- Who: Ludovicus_Maior
+-- Log: Added guide level
+
+-- URL:
+-- Date: 2014-06-11 19:20
+-- Who: Ludovicus_Maior
+-- Log: Changed level guide.
+
+-- URL:
+-- Date: 2013-03-23 15:43
+-- Who: Ludovicus_Maior
+-- Log: Twists's Original
+
 local guide = WoWPro:RegisterGuide("TwiSkyRace",'Dailies', "The Jade Forest", "Twists", "Neutral")
 WoWPro:GuideLevels(guide,90,90,90)
 WoWPro.Dailies:GuideFaction(guide,1271) --  "The Sky Race, Order of the Cloud Serpent"
@@ -29,6 +49,5 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
-
 
 

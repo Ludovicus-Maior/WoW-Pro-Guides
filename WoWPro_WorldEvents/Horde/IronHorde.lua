@@ -3,6 +3,56 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-10-17 02:31
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL:
+-- Date: 2015-07-05 18:13
+-- Who: Ludovicus_Maior
+-- Log: Icon add
+
+-- URL:
+-- Date: 2015-02-01 22:03
+-- Who: Ludovicus_Maior
+-- Log: TRweaks
+
+-- URL:
+-- Date: 2014-11-07 20:45
+-- Who: Emmaleah
+-- Log: OK.  PLayed through, tweaked QO tags, missing T steps and mucked with the order.
+--	Every coordinate was dead on!
+
+-- URL:
+-- Date: 2014-10-17 22:47
+-- Who: Ludovicus_Maior
+-- Log: Orgrimmar zone tags were wrong, changed F step and changed a US into an S.
+--	Still Testing!
+
+-- URL:
+-- Date: 2014-10-17 00:42
+-- Who: Ludovicus_Maior
+-- Log: Chnage to a WE guide.
+
+-- URL:
+-- Date: 2014-10-15 00:44
+-- Who: Ludovicus_Maior
+-- Log: CHanged guide name to IronHordeInvasionH and make names conform with Alliance version.
+
+-- URL:
+-- Date: 2014-10-13 02:18
+-- Who: Emmaleah
+-- Log: Neutralized by Fluclo
+
+-- URL:
+-- Date: 2014-09-28 22:20
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2014-08-28 03:37
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('IronHordeInvasionH', 'WorldEvents', 'Blasted Lands', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,90, 90, 90.1)
 WoWPro:GuideIcon(guide,"Icon","Inferface\\ICONS\\INV_Tabard_A_03IronHorde")
@@ -71,6 +121,5 @@ U Iron Starlette|U|111660|N|Add your starlette to your collection. Run the revam
 ]]
 
 end)
-
 
 

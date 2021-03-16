@@ -3,6 +3,51 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2017-03-11 18:33
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL:
+-- Date: 2017-03-11 18:22
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL:
+-- Date: 2014-07-19 17:04
+-- Who: Ludovicus_Maior
+-- Log: adjusted LudoKaluak levels
+
+-- URL:
+-- Date: 2014-07-06 15:43
+-- Who: Ludovicus_Maior
+-- Log: Updated headers
+
+-- URL:
+-- Date: 2014-06-11 19:09
+-- Who: Ludovicus_Maior
+-- Log: Changed level guide.
+
+-- URL:
+-- Date: 2013-01-13 01:24
+-- Who: Ludovicus_Maior
+-- Log: Add a CN tag
+
+-- URL:
+-- Date: 2013-01-12 18:28
+-- Who: Ludovicus_Maior
+-- Log: WoWPro_Dailies: Step C [The Way to His Heart...:11472] in LudoKaluak is missing a CS|CC|CN tag.
+
+-- URL:
+-- Date: 2013-01-09 01:49
+-- Who: Ludovicus_Maior
+-- Log: Added CN tags.
+
+-- URL:
+-- Date: 2012-05-27 20:12
+-- Who: Ludovicus_Maior
+-- Log: Initial Versions of Hodir, Kaluak and Wyrmrest Rep guides.
+
 local guide = WoWPro:RegisterGuide("LudoKaluak",'Dailies', "Northrend", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,68,71,69.3)
 WoWPro.Dailies:GuideFaction(guide,1073) --  "The Kalu'ak"
@@ -24,6 +69,5 @@ T Preparing for the Worst|QID|11945|M|63.95,45.71|Z|Borean Tundra|N|To Utaik.|
 
 ]]
 end)
-
 
 

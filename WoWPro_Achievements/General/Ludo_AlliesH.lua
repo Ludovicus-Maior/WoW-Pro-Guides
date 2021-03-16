@@ -3,6 +3,26 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2020-08-14 15:32
+-- Who: Ludovicus_Maior
+-- Log: ThunderTotem/6 => Thunder Totem
+
+-- URL:
+-- Date: 2019-08-25 17:02
+-- Who: Ludovicus_Maior
+-- Log: ThunderTotem update
+
+-- URL:
+-- Date: 2018-10-23 21:54
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL:
+-- Date: 2018-08-01 19:22
+-- Who: Ludovicus_Maior
+-- Log: Legion Allied Races Guides
+
 local guide = WoWPro:RegisterGuide('Ludo_AlliesH', 'Achievements', 'Orgrimmar@Orgrimmar', 'Ludo', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
 WoWPro.Achievements:GuideMisc(guide, "Allied Races Unlock", "Reputation", "Legion")
@@ -117,6 +137,5 @@ T A Second Ally For the Cause|QID|50254|M|37.76,81.15|Z|Orgrimmar@Orgrimmar|N|To
 ]]
 
 end)
-
 
 

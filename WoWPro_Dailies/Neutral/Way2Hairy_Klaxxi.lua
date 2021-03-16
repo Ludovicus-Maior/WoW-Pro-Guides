@@ -3,6 +3,125 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-10-17 02:22
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL:
+-- Date: 2018-08-24 16:43
+-- Who: Ludovicus_Maior
+-- Log: Update QOs
+
+-- URL:
+-- Date: 2017-08-05 19:47
+-- Who: Ludovicus_Maior
+-- Log: Put QID before ACTIVE for [The Warlord's Ashes], [The Matriarch's Maw] and [Kypa'rak's Core]
+
+-- URL:
+-- Date: 2014-12-02 03:15
+-- Who: Blanckaert
+-- Log: Added QID for Quest Seeds of Fear, QID#31603
+
+-- URL:
+-- Date: 2014-11-08 00:18
+-- Who: Ludovicus_Maior
+-- Log: BAd N's
+
+-- URL:
+-- Date: 2014-07-06 15:55
+-- Who: Ludovicus_Maior
+-- Log: Added levels
+
+-- URL:
+-- Date: 2014-06-10 22:35
+-- Who: Ludovicus_Maior
+-- Log: Converted guide.
+
+-- URL:
+-- Date: 2013-09-10 23:33
+-- Who: Ludovicus_Maior
+-- Log: Coordinate corrections for "Xaril the Poisoned Mind".
+
+-- URL:
+-- Date: 2013-06-04 23:34
+-- Who: Ludovicus_Maior
+-- Log: Added QUIDs to the notes at the start so it stops asking ya questions if you don't need it anymore.
+
+-- URL:
+-- Date: 2013-05-17 19:13
+-- Who: Ludovicus_Maior
+-- Log: Added the missing CN tags
+
+-- URL:
+-- Date: 2013-05-15 23:05
+-- Who: Ludovicus_Maior
+-- Log: Added missing quests at revered.  General cleanups.  Still missing some CN/CS/CC tags and T tags.
+
+-- URL:
+-- Date: 2013-03-20 00:36
+-- Who: Ludovicus_Maior
+-- Log: Corrected quest names from  Blanckaert's report.
+
+-- URL:
+-- Date: 2013-01-09 17:16
+-- Who: Ludovicus_Maior
+-- Log: Added CN tag
+
+-- URL:
+-- Date: 2012-12-31 06:41
+-- Who: Emmaleah
+-- Log: added exalted quest chain. corrected QO for Kovok, changed QO's for Sampling the Empires finest|QID|31496 (I hope this one will auto check off - but it may still be wrong)
+
+-- URL:
+-- Date: 2012-12-22 23:52
+-- Who: Emmaleah
+-- Log: patch 5.1 changed seeds of fear to require 5 shards (down from 20)
+
+-- URL:
+-- Date: 2012-12-22 23:46
+-- Who: Emmaleah
+-- Log: tweaked C Quiet Now, so it would auto check off.
+
+-- URL:
+-- Date: 2012-12-22 22:33
+-- Who: Emmaleah
+-- Log: put active tags on the A steps for Kapa'ak, Matriach's Maw and Warlords Ashes.  Put coords in for Kovak.
+
+-- URL:
+-- Date: 2012-11-09 02:23
+-- Who: Emmaleah
+-- Log: corrected Typo
+
+-- URL:
+-- Date: 2012-11-05 01:12
+-- Who: Emmaleah
+-- Log: 4 Nov 2012 -
+--	remade the changes I made just before I put the newest copy here. (quests The Warlords Ashes, The Matriarchs Maw and Kypa'rak's Core, fixed QID for Sonic Disruption, - changed some steps (but not all) to match the convention of |M| being the last thing in the step.- Added R step to clutches of shek'zeer.- Added change log.
+
+-- URL:
+-- Date: 2012-11-05 00:42
+-- Who: Emmaleah
+-- Log: changes posted by Way2Hairy on 10/18
+
+-- URL:
+-- Date: 2012-11-04 23:43
+-- Who: Emmaleah
+-- Log: These changes are from analyzing the quests so I can put them in the zone guide correctly (hopefully). I used this guide to get them all sorted by questgiver/area/faction and compared the data on wowhead.
+--	corrected QID for sonic disruption to 31487
+--	Edited "The Warlord's Ashes" by 1)added |QID|31677| 2)changed to N to K step 3)added |O| to A step, 4)added note to A step 5)added T step.
+--	added |QID|31267| to R Terrace of Gurthan
+--	Edited "The Matriarch's Maw" by 1)added QID 31599 2) added |O|to A step 3) added note to A step 4) added T step.
+
+-- URL:
+-- Date: 2012-10-18 23:03
+-- Who: Ludovicus_Maior
+-- Log: Original from way2hairy
+
+-- URL:
+-- Date: 2012-10-07 22:33
+-- Who: Ludovicus_Maior
+
 local guide = WoWPro:RegisterGuide("WayKlaxxi",'Dailies', "Dread Wastes", "Way2hairy", "Neutral")
 WoWPro:GuideLevels(guide,89,89,89)
 WoWPro.Dailies:GuideFaction(guide,1337) --  "Klaxxi"
@@ -345,6 +464,5 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
-
 
 

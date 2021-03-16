@@ -3,6 +3,41 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2020-08-14 15:39
+-- Who: Ludovicus_Maior
+-- Log: Wrong QID for Moat Monster!
+
+-- URL:
+-- Date: 2018-08-18 21:00
+-- Who: Ludovicus_Maior
+-- Log: Correct L steps to l.
+
+-- URL:
+-- Date: 2018-06-04 18:13
+-- Who: Ludovicus_Maior
+-- Log: Got rid of obsolete alliance quest for Nat and corrected QID on [The Race to Restock]
+
+-- URL:
+-- Date: 2018-02-19 22:57
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL:
+-- Date: 2018-02-02 20:53
+-- Who: Ludovicus
+-- Log: Fixed the Horde Quests & added [Nat Pagle, Angler Extreme]
+
+-- URL:
+-- Date: 2018-01-15 18:52
+-- Who: Ludovicus
+-- Log: Enable WoWPro:GuideAutoSwitch(guide)
+
+-- URL:
+-- Date: 2018-01-15 18:50
+-- Who: Ludovicus
+-- Log: Initial Version
+
 local guide = WoWPro:RegisterGuide("LudoFishing",'Dailies', "Azeroth", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,70,70)
 WoWPro:GuideName(guide, "Fishing Dailies")
@@ -221,6 +256,5 @@ N Horde Fishing|N|This Horde Fishing guide uses the auto-switch functionality.  
 ]]
 
 end)
-
 
 

@@ -3,6 +3,85 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-10-23 22:02
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL:
+-- Date: 2018-08-24 08:42
+-- Who: Emmaleah
+-- Log: update old style QOs
+
+-- URL:
+-- Date: 2018-08-18 21:04
+-- Who: Ludovicus_Maior
+-- Log: Fix L step that should have been an l step.
+
+-- URL:
+-- Date: 2017-03-17 14:10
+-- Who: Ludovicus_Maior
+-- Log: Added PREs
+
+-- URL:
+-- Date: 2017-03-05 18:55
+-- Who: Ludovicus_Maior
+-- Log: Float the level
+
+-- URL:
+-- Date: 2015-07-25 18:11
+-- Who: Ludovicus_Maior
+-- Log: Add Icon
+
+-- URL:
+-- Date: 2014-11-07 20:37
+-- Who: Emmaleah
+-- Log: Delete 2 dup QID's per Ludo's list o' errors
+
+-- URL:
+-- Date: 2014-06-10 21:24
+-- Who: Ludovicus_Maior
+-- Log: Changed  guide format
+
+-- URL:
+-- Date: 2014-02-21 19:21
+-- Who: Ludovicus_Maior
+-- Log: Missing A in [T A Gift]
+
+-- URL:
+-- Date: 2014-02-13 16:56
+-- Who: Ludovicus_Maior
+-- Log: Added Leaders dailies and shuffled flow.
+
+-- URL:
+-- Date: 2013-06-18 00:31
+-- Who: Ludovicus_Maior
+-- Log: Guide errors
+
+-- URL:
+-- Date: 2013-05-17 20:45
+-- Who: Ludovicus_Maior
+-- Log: Corrections
+
+-- URL:
+-- Date: 2013-02-11 11:48
+-- Who: Ludovicus_Maior
+-- Log: Better coords for Uldum and Crystalsong
+
+-- URL:
+-- Date: 2013-02-11 11:23
+-- Who: Ludovicus_Maior
+-- Log: Added Crushing the Crown and a random daily
+
+-- URL:
+-- Date: 2012-02-05 13:35
+-- Who: Ludovicus_Maior
+-- Log: Corrections after runthrough.
+
+-- URL:
+-- Date: 2012-02-04 23:23
+-- Who: Ludovicus_Maior
+
 local guide = WoWPro:RegisterGuide("LudoLoveH",'WorldEvents',"Love is in the Air", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"LoveInTheAir")
@@ -83,6 +162,5 @@ A You've Been Served|QID|14488|Z|ShadowfangKeep|N|To Investigator Fezzen Brassta
 N All done for the day|
 ]]
 end)
-
 
 

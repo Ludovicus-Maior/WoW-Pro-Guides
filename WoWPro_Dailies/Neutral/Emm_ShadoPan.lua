@@ -3,6 +3,127 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2020-07-10 00:24
+-- Who: Ludovicus_Maior
+-- Log: Errors corrected when playing with commendation.
+
+-- URL:
+-- Date: 2018-10-17 02:21
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL:
+-- Date: 2018-08-24 15:17
+-- Who: Ludovicus_Maior
+-- Log: Fix QOs for [Friends, Not Food!]
+
+-- URL:
+-- Date: 2018-08-24 15:09
+-- Who: Ludovicus_Maior
+-- Log: Amend QOs on [A Morale Victory] and [Fumigation]
+
+-- URL:
+-- Date: 2018-02-19 22:51
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL:
+-- Date: 2017-03-10 23:24
+-- Who: Ludovicus_Maior
+-- Log: Syntax changes.
+
+-- URL:
+-- Date: 2015-03-09 19:23
+-- Who: Ludovicus_Maior
+-- Log: Got rid of empty |N|| tags
+
+-- URL:
+-- Date: 2014-11-07 20:41
+-- Who: Fluclo
+-- Log: Added missing |M| tags
+
+-- URL:
+-- Date: 2014-07-06 15:52
+-- Who: Ludovicus_Maior
+-- Log: Added levels
+
+-- URL:
+-- Date: 2014-06-11 19:22
+-- Who: Ludovicus_Maior
+-- Log: Changed level guide.
+
+-- URL:
+-- Date: 2013-10-01 20:30
+-- Who: Fluclo
+
+-- URL:
+-- Date: 2013-10-01 20:26
+-- Who: Fluclo
+-- Log: Guide was missing an unsticky step for The Mogu Menace
+
+-- URL:
+-- Date: 2013-09-10 23:47
+-- Who: Ludovicus_Maior
+-- Log: Add a QID for finishing Townlong Steppes.
+
+-- URL:
+-- Date: 2013-06-04 23:44
+-- Who: Ludovicus_Maior
+-- Log: Cleanup around [A Morale Victory]
+
+-- URL:
+-- Date: 2013-05-30 20:26
+-- Who: Fluclo
+-- Log: Added |RANK|3| to Achievement steps since not everyone doing dailies wants to see achievement info every day (otherwise they're there everytime the user runs the guide since the achievements will never get crossed off). Removed the extra notes at the beginning.  Changed the faction requirements to the |REP| tag.  Quest Cheng Bo! not provided at the indicated point of the guide in my runs, left The Deadtalker Cipher there, this never appears to me in the guide (wowhead suggests something needs to drop)
+
+-- URL:
+-- Date: 2013-05-09 22:29
+-- Who: Ludovicus_Maior
+-- Log: Some horrid editors change ... into a proper ellipses (sp?) character and change ' into a proper quote.
+
+-- URL:
+-- Date: 2013-01-24 20:29
+-- Who: Emmaleah
+-- Log: update coords for Challenger Ring: Tenwe and Mogu Incursions. CN tags in little hatchlings
+
+-- URL:
+-- Date: 2013-01-13 23:41
+-- Who: Ludovicus_Maior
+-- Log: Added CN tags
+
+-- URL:
+-- Date: 2013-01-13 04:21
+-- Who: Emmaleah
+-- Log: update 2 more coords. notes at beginning
+
+-- URL:
+-- Date: 2013-01-12 11:25
+-- Who: Emmaleah
+-- Log: few more adj from todays questing to blackguard defenders. (I could swear I got Uruk before killing the spirits before?)
+
+-- URL:
+-- Date: 2013-01-12 04:25
+-- Who: Emmaleah
+-- Log: Draft #2, I have had all the areas at least once, but not all the quests yet, I think its clean enough to be released, but its still got a couple of rough spots I'm sure.
+
+-- URL:
+-- Date: 2013-01-06 11:10
+-- Who: Emmaleah
+-- Log: Shado Pan dailies - initial release. See to do in header. There are still known errors, but I thought I would put it here so others could test it too if they are intersted. It is not ready to be included in the next version release yet.
+
+-- URL:
+-- Date: 2012-10-24 11:27
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2012-10-07 22:30
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2012-10-07 22:29
+-- Who: Ludovicus_Maior
+
 local guide = WoWPro:RegisterGuide("EmmShadoPan",'Dailies', "Townlong Steppes", "Emmaleah", "Neutral")
 WoWPro:GuideLevels(guide,88,90,89)
 WoWPro.Dailies:GuideFaction(guide,1270) --  "Shado-Pan Dailies"
@@ -187,6 +308,5 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
-
 
 

@@ -3,6 +3,20 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2014-12-25 18:53
+-- Who: Ludovicus_Maior
+-- Log: Added guide type.
+
+-- URL:
+-- Date: 2014-05-22 22:35
+-- Who: Ludovicus_Maior
+-- Log: Registration guide
+
+-- URL:
+-- Date: 2013-08-24 18:59
+-- Who: Estelyen
+
 local guide = WoWPro:RegisterGuide('EstAchGlor',"Achievements",'MoP Zones', 'Glorious!','Neutral')
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",7439)
@@ -93,6 +107,5 @@ N Keep resetting|N|until you find them all (or give up).|
 
 ]]
 end)
-
 
 

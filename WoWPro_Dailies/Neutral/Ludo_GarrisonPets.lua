@@ -3,6 +3,31 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2020-05-11 21:31
+-- Who: Ludovicus_Maior
+-- Log: Add a [Bronze Whelpling]+[Widget the Departed] strategy for Deebs, Tyri, and Puzzle.
+
+-- URL:
+-- Date: 2017-09-12 21:28
+-- Who: Ludovicus_Maior
+-- Log: Replaced strategy for Rockbiter, Stonechewer, and Acidtooth
+
+-- URL:
+-- Date: 2017-08-27 18:47
+-- Who: Ludovicus_Maior
+-- Log: [Fiero and Tirs] tweak
+
+-- URL:
+-- Date: 2017-04-05 19:56
+-- Who: Emmaleah
+-- Log: typo (\m s/b \n)
+
+-- URL:
+-- Date: 2017-03-17 16:43
+-- Who: Ludovicus_Maior
+-- Log: Initial Upload
+
 local guide = WoWPro:RegisterGuide("LudoGarrisonPets", "Dailies", "Draenor", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide, 20, 20, 20)
 WoWPro:GuideIcon(guide,"ACH",9463)
@@ -145,6 +170,5 @@ N Garrison Daily Pet Battles|T|/run WoWPro.ResetCurrentGuide()|N|To use this gui
 
 ]]
 end)
-
 
 

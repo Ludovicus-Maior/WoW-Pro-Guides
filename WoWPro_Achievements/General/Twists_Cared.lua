@@ -3,6 +3,79 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2017-03-15 20:59
+-- Who: Ludovicus_Maior
+-- Log: Syntax
+
+-- URL:
+-- Date: 2014-12-25 20:11
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2014-12-25 18:56
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2014-12-25 18:55
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2014-05-26 19:54
+-- Who: Ludovicus_Maior
+-- Log: Added guid etype to TwoCared
+
+-- URL:
+-- Date: 2014-05-26 18:06
+-- Who: Ludovicus_Maior
+-- Log: Added guide type.
+
+-- URL:
+-- Date: 2014-05-22 22:43
+-- Who: Ludovicus_Maior
+-- Log: Registration guide
+
+-- URL:
+-- Date: 2014-05-22 22:40
+-- Who: Ludovicus_Maior
+-- Log: Registration guide
+
+-- URL:
+-- Date: 2014-04-19 20:11
+-- Who: Hendo72
+-- Log: - Commented out the note displaying the Guide title... not required.
+--	- Removed the notes for each step telling us to love the animal in the step... not required.
+--	- Added love to target option. Allows spamming of a target/action button while searching for your target.
+
+-- URL:
+-- Date: 2013-03-23 15:40
+-- Who: Ludovicus_Maior
+-- Log: Added Twists [To All the Squirrels Who Cared for Me]
+
+-- URL:
+-- Date: 2013-01-12 18:26
+-- Who: Ludovicus_Maior
+-- Log: Capitalization error on "Valley of the Four Winds"
+
+-- URL:
+-- Date: 2013-01-10 04:05
+-- Who: Emmaleah
+-- Log: added additional options for getting the golden water skimmer
+
+-- URL:
+-- Date: 2012-12-21 20:46
+-- Who: TwoToad
+-- Log: Added QID's.
+
+-- URL:
+-- Date: 2012-12-20 17:25
+-- Who: TwoToad
+
+-- URL:
+-- Date: 2012-12-19 22:00
+-- Who: Ludovicus_Maior
+-- Log: Initial
+
 local guide = WoWPro:RegisterGuide('TwiCared',"Achievements", 'Maelstrom', 'Twists','Neutral')
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",5548)
@@ -30,6 +103,5 @@ F Baradin Fox Kit|QID|955480002|M|40,26|ACH|5548;2|Z|Tol Barad|T|Baradin Fox Kit
 N Congratulations!|QID|955480050|
 ]]
 end)
-
 
 

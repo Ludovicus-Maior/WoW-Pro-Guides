@@ -3,6 +3,56 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-10-17 02:22
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL:
+-- Date: 2018-08-24 16:21
+-- Who: Ludovicus_Maior
+-- Log: Updated QO's on [Secrets of the Talonpriests]
+
+-- URL:
+-- Date: 2018-02-19 23:03
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL:
+-- Date: 2017-03-11 18:29
+-- Who: Ludovicus_Maior
+-- Log: Added PREs; syntax changes.
+
+-- URL:
+-- Date: 2014-07-06 15:48
+-- Who: Ludovicus_Maior
+-- Log: Aded levels and faction
+
+-- URL:
+-- Date: 2014-06-11 19:17
+-- Who: Ludovicus_Maior
+-- Log: Changed level guide.
+
+-- URL:
+-- Date: 2013-05-14 15:49
+-- Who: Ludovicus_Maior
+-- Log: Corrected coord for K Talonpriest Zellek
+
+-- URL:
+-- Date: 2013-01-12 19:21
+-- Who: Ludovicus_Maior
+-- Log: Added some CN tags
+
+-- URL:
+-- Date: 2012-01-19 00:04
+-- Who: Ludovicus_Maior
+-- Log: Correct node numbers.
+
+-- URL:
+-- Date: 2012-01-19 00:04
+-- Who: Ludovicus_Maior
+-- Log: Sync to GIT
+
 local guide = WoWPro:RegisterGuide("LudoSkyguard",'Dailies', "Terokkar Forest", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,70,70,70)
 WoWPro.Dailies:GuideFaction(guide,1031) --  "Sha'tari Skyguard"
@@ -69,6 +119,5 @@ T Adversarial Blood|QID|11885|PRE|11029|M|64.2,66.8|N|To Hazzik|
 
 ]]
 end)
-
 
 

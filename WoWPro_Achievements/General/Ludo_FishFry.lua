@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-02-19 22:44
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL:
+-- Date: 2018-01-15 18:47
+-- Who: Ludovicus
+-- Log: Initial Version
+
 local guide = WoWPro:RegisterGuide("LudoFishFry",'Achievements', "The Broken Isles", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",10596)
@@ -55,6 +65,5 @@ T Fish Frenzy|QID|41010|M|52.81,65.59|Z|Dalaran@Dalaran70|N|Take the boat back t
 ]]
 
 end)
-
 
 

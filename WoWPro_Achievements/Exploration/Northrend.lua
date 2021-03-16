@@ -3,6 +3,50 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2015-04-13 18:15
+-- Who: Ludovicus_Maior
+-- Log: Converted to continent guide with proximity sort.
+
+-- URL:
+-- Date: 2014-12-25 17:11
+-- Who: Ludovicus_Maior
+-- Log: Corrected prologues
+
+-- URL:
+-- Date: 2014-05-28 22:00
+-- Who: Ludovicus_Maior
+-- Log: Added Dragonblight
+
+-- URL:
+-- Date: 2014-05-28 21:53
+-- Who: Ludovicus_Maior
+-- Log: AAdded missing guides.
+
+-- URL:
+-- Date: 2014-05-28 20:33
+-- Who: Ludovicus_Maior
+-- Log: Conveted
+
+-- URL:
+-- Date: 2014-05-26 17:44
+-- Who: Ludovicus_Maior
+-- Log: Added guide type.
+
+-- URL:
+-- Date: 2013-06-18 00:41
+-- Who: Ludovicus_Maior
+-- Log: Bad X coordinate 49 21, 1/1 in guide TwiExpBT, line [F Steeljaw's Caravan].
+
+-- URL:
+-- Date: 2012-05-27 21:10
+-- Who: Ludovicus_Maior
+-- Log: Change guide nick for Exploring Howling Fjord to TwiExpHFj
+
+-- URL:
+-- Date: 2012-05-27 17:49
+-- Who: Ludovicus_Maior
+
 local guide = WoWPro:RegisterGuide("TwiExpBT","Achievements","Borean Tundra","Kaboca+Twists", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",45)
@@ -152,6 +196,5 @@ F Thrym's End|QID|912670012|M|17.2,58.6|ACH|1267;12|Z|Zul'Drak|
 N Congratulations on exploring Northrend!
 ]]
 end)
-
 
 

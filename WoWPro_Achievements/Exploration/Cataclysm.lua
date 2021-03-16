@@ -3,6 +3,21 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2015-04-13 18:38
+-- Who: Ludovicus_Maior
+-- Log: Converted to Continent guide with proximity sort.
+
+-- URL:
+-- Date: 2014-06-03 22:20
+-- Who: Ludovicus_Maior
+-- Log: Modernize the remaining explorations for CATA zones.
+
+-- URL:
+-- Date: 2014-05-28 21:57
+-- Who: Ludovicus_Maior
+-- Log: Initial Cut
+
 local guide = WoWPro:RegisterGuide("KabExpCata","Achievements","Cataclysm","Kaboca+Twists", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",4868)
@@ -111,6 +126,5 @@ N Congratulations on exploring Cataclysm!
 
 ]]
 end)
-
 
 

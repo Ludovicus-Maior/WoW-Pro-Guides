@@ -3,6 +3,21 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2017-03-10 23:34
+-- Who: Ludovicus_Maior
+-- Log: Syntax changes.
+
+-- URL:
+-- Date: 2016-01-08 23:22
+-- Who: Ludovicus_Maior
+-- Log: Use 3644
+
+-- URL:
+-- Date: 2016-01-08 23:22
+-- Who: Ludovicus_Maior
+-- Log: Initial Cut
+
 local guide = WoWPro:RegisterGuide("LarePetTinyTerrors","Dailies","Draenor","Larenon","Neutral")
 WoWPro:GuideLevels(guide,100, 100, 100)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
@@ -94,6 +109,5 @@ N DE Strategy|QID|39173|N|Geyser >> Whirlpool >> Switch to Chrominius >> Howl >>
 U Open our bag|U|127751|N|Let's see what we've got in our bag!|
 ]]
 end)
-
 
 

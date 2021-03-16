@@ -3,6 +3,52 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2017-03-06 03:10
+-- Who: Ludovicus_Maior
+-- Log: WoWPro:GuideLevels(guide)
+
+-- URL:
+-- Date: 2017-01-02 22:36
+-- Who: Ludovicus_Maior
+-- Log: New style registration
+
+-- URL:
+-- Date: 2016-09-07 14:39
+-- Who: Ludovicus_Maior
+-- Log: Use Hall of the Crescent Moon@Shrine of Two Moons
+
+-- URL:
+-- Date: 2015-03-09 17:34
+-- Who: Ludovicus_Maior
+-- Log: The Imperial Exchange@Shrine of Seven Stars
+
+-- URL:
+-- Date: 2014-11-08 00:14
+-- Who: Ludovicus_Maior
+-- Log: FACRION
+
+-- URL:
+-- Date: 2013-11-27 20:54
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2013-05-16 00:52
+-- Who: Twists
+-- Log: Update to the new parser.
+
+-- URL:
+-- Date: 2011-07-13 22:43
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2011-06-30 06:05
+-- Who: Crackerhead22
+
+-- URL:
+-- Date: 2011-06-30 05:50
+-- Who: Crackerhead22
+
 local guide = WoWPro:RegisterGuide("TwiBlacksmithing","Profession","Blacksmithing", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
@@ -80,6 +126,5 @@ N Contender's Revenant Breastplate|QID|901640063|P|Blacksmithing;164;575;600;|N|
 N That completes Blacksmithing.
 ]]
 end)
-
 
 

@@ -3,6 +3,40 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-10-17 02:21
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL:
+-- Date: 2018-08-24 16:28
+-- Who: Ludovicus_Maior
+-- Log: Upgraded the QO's.
+
+-- URL:
+-- Date: 2014-07-06 15:44
+-- Who: Ludovicus_Maior
+-- Log: Added levels and faction
+
+-- URL:
+-- Date: 2014-06-11 19:12
+-- Who: Ludovicus_Maior
+-- Log: Changed level guide.
+
+-- URL:
+-- Date: 2012-12-16 02:49
+-- Who: Emmaleah
+-- Log: changed WTLK to Lich so that all the guides sort together
+
+-- URL:
+-- Date: 2012-05-27 18:35
+-- Who: Ludovicus_Maior
+-- Log: Fixed some coordinates.
+
+-- URL:
+-- Date: 2011-06-30 19:10
+-- Who: Ludovicus_Maior
+
 local guide = WoWPro:RegisterGuide("CraShoOra",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral")
 WoWPro:GuideLevels(guide,76,77,76.5)
 WoWPro.Dailies:GuideFaction(guide,1105) --  "The Oracles Reputation"
@@ -49,6 +83,5 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
-
 
 

@@ -3,6 +3,80 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-10-17 02:21
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL:
+-- Date: 2018-02-19 22:55
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL:
+-- Date: 2018-02-02 20:56
+-- Who: Ludovicus
+-- Log: Tag Tweaks
+
+-- URL:
+-- Date: 2018-01-27 18:09
+-- Who: Ludovicus
+-- Log: Extra Z tags detected by PyroBurn
+
+-- URL:
+-- Date: 2017-10-07 19:54
+-- Who: Ludovicus_Maior
+-- Log: Updated [Garrison Campaign: Onslaught at Auchindoun] for horde
+
+-- URL:
+-- Date: 2017-03-23 17:46
+-- Who: Ludovicus_Maior
+-- Log: Spelling
+
+-- URL:
+-- Date: 2017-03-10 23:32
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL:
+-- Date: 2016-07-30 16:05
+-- Who: Ludovicus_Maior
+-- Log: Spell AVAILABLE right
+
+-- URL:
+-- Date: 2016-01-09 01:19
+-- Who: Ludovicus_Maior
+-- Log: Add Weeklies
+
+-- URL:
+-- Date: 2015-10-05 14:56
+-- Who: Ludovicus_Maior
+-- Log: More unlocks!
+
+-- URL:
+-- Date: 2015-08-09 23:46
+-- Who: Ludovicus_Maior
+-- Log: Playthrough  edits.
+
+-- URL:
+-- Date: 2015-07-19 20:59
+-- Who: Ludovicus_Maior
+-- Log: I need to spell Dailies right.
+
+-- URL:
+-- Date: 2015-07-19 20:44
+-- Who: Ludovicus_Maior
+-- Log: MAke it an WoWPro:GuideAutoSwitch guide
+
+-- URL:
+-- Date: 2015-07-19 20:42
+-- Who: Ludovicus_Maior
+-- Log: Change name and guide type.
+
+-- URL:
+-- Date: 2015-07-12 20:39
+-- Who: Ludovicus_Maior
+
 local guide = WoWPro:RegisterGuide('FlucloTanaanJungle', "Dailies", 'Tanaan Jungle', 'Fluclo', 'Neutral')
 WoWPro:GuideLevels(guide,100,100,100)
 WoWPro:GuideName(guide, "Garrison Campaign: War Council")
@@ -324,6 +398,5 @@ T Naval Domination |QID|39246|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfire R
 ]]
 
 end)
-
 
 

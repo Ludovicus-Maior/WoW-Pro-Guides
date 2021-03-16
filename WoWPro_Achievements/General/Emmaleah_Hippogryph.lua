@@ -3,6 +3,26 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2017-06-12 23:30
+-- Who: Ludovicus_Maior
+-- Log: Change Icon to a MOUNT instead of spell.
+
+-- URL:
+-- Date: 2017-05-26 18:27
+-- Who: Emmaleah
+-- Log: added missing CS tags, deleted extraneous |N| tag
+
+-- URL:
+-- Date: 2017-05-15 07:16
+-- Who: Emmaleah
+-- Log: correct header for node #
+
+-- URL:
+-- Date: 2017-05-15 07:15
+-- Who: Emmaleah
+-- Log: First public draft
+
 local guide = WoWPro:RegisterGuide('Emm_Hippogryph', 'Achievements', 'Azsuna', 'Emmaleah', 'Neutral')
 WoWPro:GuideIcon(guide,"MOUNT",215159)
 WoWPro.Achievements:GuideMisc(guide, "Long Forgotten Hippogryph", "Mount", "Legion")
@@ -142,6 +162,5 @@ N Reset|QID|99999|N|Hope you found your mount, if not reset and try another day.
 ]]
 
 end)
-
 
 

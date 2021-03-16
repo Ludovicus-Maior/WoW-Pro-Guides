@@ -3,6 +3,30 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-10-17 02:20
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL:
+-- Date: 2018-10-02 01:10
+-- Who: Emmaleah
+-- Log: FACTION!
+
+-- URL:
+-- Date: 2018-09-25 22:25
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2018-09-25 08:20
+-- Who: Emmaleah
+-- Log: now with travel steps. Tested on Horde side.
+
+-- URL:
+-- Date: 2018-09-23 11:55
+-- Who: Emmaleah
+-- Log: First Draft . Missing almost all travel steps.
+
 local guide = WoWPro:RegisterGuide('Emm_Jani', 'Achievements', "Dazar'alor", 'Emmaleah', 'Neutral')
 WoWPro.Achievements:GuideMisc(guide, "Child of Jani", "Pet", "Battle for Azeroth")
 WoWPro:GuideIcon(guide,"ACH",12482)
@@ -131,6 +155,5 @@ U Add to your collection|U|163504|N|Congratulations on your new pet. This ends t
 ]]
 
 end)
-
 
 

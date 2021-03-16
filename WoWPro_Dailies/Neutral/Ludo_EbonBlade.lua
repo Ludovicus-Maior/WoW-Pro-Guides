@@ -3,6 +3,95 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-08-23 03:55
+-- Who: jovieve
+-- Log: Removed unnecessary old style QO tag.
+
+-- URL:
+-- Date: 2017-03-15 20:33
+-- Who: Ludovicus_Maior
+-- Log: LudoEbonBlade PRE tags
+
+-- URL:
+-- Date: 2017-03-10 23:13
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL:
+-- Date: 2016-11-06 22:19
+-- Who: Ludovicus_Maior
+-- Log: Dont set bogus 666 faction on Icecrown Dailies.
+
+-- URL:
+-- Date: 2014-07-25 21:44
+-- Who: Ludovicus_Maior
+-- Log: Adj mean
+
+-- URL:
+-- Date: 2014-07-25 21:01
+-- Who: Ludovicus_Maior
+-- Log: Adj. mean levels.
+
+-- URL:
+-- Date: 2014-07-20 19:26
+-- Who: Ludovicus_Maior
+-- Log: Added faction to Ebon Blade
+
+-- URL:
+-- Date: 2014-07-06 15:24
+-- Who: Ludovicus_Maior
+-- Log: Guide Levels and faction
+
+-- URL:
+-- Date: 2014-06-10 23:03
+-- Who: Ludovicus_Maior
+-- Log: Changed level guide.
+
+-- URL:
+-- Date: 2013-01-12 21:25
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates
+
+-- URL:
+-- Date: 2013-01-09 01:48
+-- Who: Ludovicus_Maior
+-- Log: Added CN tag.
+
+-- URL:
+-- Date: 2013-01-09 01:42
+-- Who: Ludovicus_Maior
+-- Log: Added CN tag
+
+-- URL:
+-- Date: 2012-05-27 18:29
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2012-05-27 18:28
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2012-03-14 21:17
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2012-03-14 21:16
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2012-03-03 16:22
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2012-03-03 16:21
+-- Who: Ludovicus_Maior
+-- Log: Split up guides.
+
+-- URL:
+-- Date: 2011-06-29 21:12
+-- Who: Ludovicus_Maior
+
 local guide = WoWPro:RegisterGuide("LudoEbonBlade",'Dailies', "Icecrown", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.Dailies:GuideFaction(guide,1098) --  "Knights of the Ebon Blade"
@@ -35,6 +124,5 @@ T Vile Like Fire!|QID|13071|M|43.17,25.07|N|To Vile, who patrols.|
 
 ]]
 end)
-
 
 

@@ -3,6 +3,35 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2017-03-23 17:36
+-- Who: Ludovicus_Maior
+-- Log: Spelling
+
+-- URL:
+-- Date: 2017-03-10 22:50
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL:
+-- Date: 2016-09-07 14:27
+-- Who: Ludovicus_Maior
+-- Log: Use Bladespire Citadel@FrostfireRidge
+
+-- URL:
+-- Date: 2016-07-30 21:03
+-- Who: Ludovicus_Maior
+-- Log: Added @FrostfireRidge
+
+-- URL:
+-- Date: 2016-03-22 20:44
+-- Who: Ludovicus_Maior
+-- Log: Trimmed useless |N| from [Big Frostfire Gun]
+
+-- URL:
+-- Date: 2015-06-23 12:19
+-- Who: Ludovicus_Maior
+
 local guide = WoWPro:RegisterGuide('LudoBuildingsHorde', 'Achievements', 'Frostfire Ridge', 'Ludovicus', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9096)
@@ -208,6 +237,5 @@ T Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|
 ]]
 
 end)
-
 
 

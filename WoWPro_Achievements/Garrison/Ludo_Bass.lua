@@ -3,6 +3,31 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-10-17 02:19
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL:
+-- Date: 2018-02-19 22:27
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL:
+-- Date: 2017-03-23 17:33
+-- Who: Ludovicus_Maior
+-- Log: Spelling
+
+-- URL:
+-- Date: 2017-03-17 14:43
+-- Who: Ludovicus_Maior
+-- Log: Add [The Assault Base] as PRE
+
+-- URL:
+-- Date: 2015-06-23 12:15
+-- Who: Ludovicus_Maior
+-- Log: Initial version
+
 local guide = WoWPro:RegisterGuide('LudoBringingBass', 'Achievements', 'Draenor', 'Ludovicus', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9914)
@@ -72,6 +97,5 @@ B Music Roll: Song of Liu Lang|QID|38102|M|82.22,29.28|Z|Vale of Eternal Blossom
 ]]
 
 end)
-
 
 

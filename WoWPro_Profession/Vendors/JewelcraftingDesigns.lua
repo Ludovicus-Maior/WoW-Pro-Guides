@@ -3,6 +3,29 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2017-01-02 22:46
+-- Who: Ludovicus_Maior
+-- Log: New registration style
+
+-- URL:
+-- Date: 2016-11-30 20:24
+-- Who: Ludovicus_Maior
+-- Log: Fix single section error.
+
+-- URL:
+-- Date: 2016-09-14 18:13
+-- Who: Ludovicus_Maior
+-- Log: Dalaran City@Dalaran
+
+-- URL:
+-- Date: 2014-02-14 00:14
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2014-02-14 00:08
+-- Who: Ludovicus_Maior
+
 local guide = WoWPro:RegisterGuide("LudoShopJewelcrafting","Profession", "Jewelcrafting", "Ludovicus", "Neutral")
 WoWPro:GuideName(guide, "Jewelcrafting Designs")
 WoWPro:GuideLevels(guide,1,90,5)
@@ -1332,6 +1355,5 @@ B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|54.40,30.70|Z|Darn
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
-
 
 

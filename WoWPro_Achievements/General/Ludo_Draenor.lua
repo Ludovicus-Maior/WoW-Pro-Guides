@@ -3,6 +3,81 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-10-17 02:20
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL:
+-- Date: 2017-03-23 17:37
+-- Who: Ludovicus_Maior
+-- Log: Spelling
+
+-- URL:
+-- Date: 2017-03-10 23:02
+-- Who: Ludovicus_Maior
+-- Log: Added PREs.
+
+-- URL:
+-- Date: 2015-07-24 03:35
+-- Who: Blanckaert
+-- Log: fixed a bad coord, added to last treasures I hadn't gotten yet, but still need to go back over with a fresh toon.
+
+-- URL:
+-- Date: 2015-07-23 05:36
+-- Who: Blanckaert
+-- Log: fleshed out more of the treasures, going to start going back over them to get Coords to xx.xx. * there is an issue with the ACTIVE on the last three items.
+
+-- URL:
+-- Date: 2015-07-22 03:37
+-- Who: Blanckaert
+-- Log: added some details as I played through Tanaan items.  a few need there cave entrance coords put in with right tags.  Will adjust more later in week, hope to have the treasures filled out by weekend.
+
+-- URL:
+-- Date: 2015-07-22 01:46
+-- Who: Blanckaert
+-- Log: for some reason, change didn't go through.  fleshed out some of the items, a few need you to be ON a quest to get, put PRE tags on those.. but that might not work right
+
+-- URL:
+-- Date: 2015-07-22 01:41
+-- Who: Blanckaert
+-- Log: Added some Item IDs, and listed if needs a quest in log at the time to get Used PRE tag, but not sure if that was the right one
+
+-- URL:
+-- Date: 2015-07-21 23:59
+-- Who: Blanckaert
+-- Log: changed -- to ; for two comments I had put in
+
+-- URL:
+-- Date: 2015-07-21 21:13
+-- Who: Blanckaert
+-- Log: Added Tanaan Jungle items, though it still need item type, Name, and IDs added.  (Hope I formatted it right)
+
+-- URL:
+-- Date: 2015-07-21 16:10
+-- Who: Blanckaert
+-- Log: Removed Duplicate entries for Faction Specific Items. QIDs #35383, 35384, 35381, 35530, 35289, 35382
+
+-- URL:
+-- Date: 2015-07-21 15:34
+-- Who: Blanckaert
+-- Log: Adjusted spawn point of Earthshaker Holar
+
+-- URL:
+-- Date: 2015-07-20 22:37
+-- Who: Ludovicus_Maior
+-- Log: Got rid of QID|xxx placeholders and either filled them in or deleted.
+
+-- URL:
+-- Date: 2015-07-20 19:37
+-- Who: Blanckaert
+-- Log: Added spawn time and cave to Ragore.
+
+-- URL:
+-- Date: 2015-06-23 12:21
+-- Who: Ludovicus_Maior
+-- Log: Initial Version
+
 local guide = WoWPro:RegisterGuide('LudoDraenorLoots',"Achievements",'Draenor', 'Ludovicus','Neutral')
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Garrison_Resource")
 WoWPro.Achievements:GuideMisc(guide, "Equipment, Garrison $, and $$$", "Loots", "Draenor")
@@ -600,6 +675,5 @@ A Forgotten Shard of the Cipher|QID|38740|ACTIVE|39394^38463|M|63.30,28.10|Z|Tan
 ]]
 
 end)
-
 
 

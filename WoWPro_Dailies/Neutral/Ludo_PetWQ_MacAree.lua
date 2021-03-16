@@ -3,6 +3,21 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2017-10-19 21:31
+-- Who: Ludovicus
+-- Log: Add SWITCH|0| to account for forced pet swaps.
+
+-- URL:
+-- Date: 2017-09-06 22:30
+-- Who: Ludovicus_Maior
+-- Log: Fixed Bucky STRATEGY tags.
+
+-- URL:
+-- Date: 2017-09-05 23:02
+-- Who: Ludovicus_Maior
+-- Log: Initial Cut
+
 local guide = WoWPro:RegisterGuide("LudoPetWQMacAree","Dailies","ArgusMacAree","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON",1715032)
@@ -75,6 +90,5 @@ C Direbeak|QID|49048|STRATEGY|wow-petguide-Snozz|N|1) [ability=518/predatory-str
 
 ]]
 end)
-
 
 

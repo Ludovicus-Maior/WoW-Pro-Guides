@@ -3,6 +3,208 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2020-07-10 00:31
+-- Who: Ludovicus_Maior
+-- Log: Some people moved in the DMF.
+
+-- URL:
+-- Date: 2020-05-11 21:28
+-- Who: Ludovicus_Maior
+-- Log: Path for [The Humanoid Cannonball] has moved again.  Corrected.
+
+-- URL:
+-- Date: 2019-08-01 22:05
+-- Who: Ludovicus_Maior
+-- Log: BUFF update
+
+-- URL:
+-- Date: 2018-12-03 23:09
+-- Who: Ludovicus_Maior
+-- Log: Clean up Achievs and make skipping [Sayge's Dark Fortunes] and [Taking the Show on the Road] possible.
+
+-- URL:
+-- Date: 2018-10-24 19:24
+-- Who: Ludovicus_Maior
+-- Log: Fix some bad ACH tags
+
+-- URL:
+-- Date: 2018-01-15 19:07
+-- Who: Ludovicus
+-- Log: Update Cannon-Blast for new falling dynamics.
+
+-- URL:
+-- Date: 2017-05-14 22:51
+-- Who: Ludovicus_Maior
+-- Log: You can only have one Jubling per account, I think.
+
+-- URL:
+-- Date: 2017-04-23 22:11
+-- Who: Ludovicus_Maior
+-- Log: Ooops, truncated line.
+
+-- URL:
+-- Date: 2017-04-23 21:49
+-- Who: Ludovicus_Maior
+-- Log: Add STRATEGY|RikadeLevel| for Christoph VonFeasel
+
+-- URL:
+-- Date: 2017-03-08 00:04
+-- Who: Ludovicus_Maior
+-- Log: Everything
+
+-- URL:
+-- Date: 2017-03-05 18:51
+-- Who: Ludovicus_Maior
+-- Log: Darkmoon tweaks!
+
+-- URL:
+-- Date: 2017-01-05 14:05
+-- Who: Ludovicus_Maior
+-- Log: Finish Pet battle updates and move Jubling to RANK|3
+
+-- URL:
+-- Date: 2017-01-02 22:49
+-- Who: Ludovicus_Maior
+-- Log: Add new style pet battle scripts and two strategies.
+
+-- URL:
+-- Date: 2015-07-25 18:08
+-- Who: Ludovicus_Maior
+-- Log: Add Icon
+
+-- URL:
+-- Date: 2014-08-29 19:59
+-- Who: Ludovicus_Maior
+-- Log: Change zone
+
+-- URL:
+-- Date: 2014-06-09 23:14
+-- Who: Ludovicus_Maior
+-- Log: Add new guide syntax and RANK
+
+-- URL:
+-- Date: 2014-03-06 23:39
+-- Who: Ludovicus_Maior
+-- Log: Add PET tags for the Jubling series and a missing Alchemy tag.
+
+-- URL:
+-- Date: 2013-05-09 22:10
+-- Who: Ludovicus_Maior
+-- Log: Minor tweaks.
+
+-- URL:
+-- Date: 2013-03-16 19:19
+-- Who: Ludovicus_Maior
+-- Log: zone updates and spelling correction for Jubjub.
+
+-- URL:
+-- Date: 2013-02-08 22:31
+-- Who: Emmaleah
+-- Log: moved sayge's fortune to beside inscription quest, so if you happen to be an inscriptionist you dont have to run back a 2nd time.  Added comment about jubling not being tradeable. (so don't get multiples to sell on AH)
+
+-- URL:
+-- Date: 2013-02-08 02:53
+-- Who: Ludovicus_Maior
+-- Log: Bearzerker's suggestions, according to me :-)
+
+-- URL:
+-- Date: 2013-02-06 20:25
+-- Who: Ludovicus_Maior
+-- Log: Darkmoon tweaks
+
+-- URL:
+-- Date: 2013-01-13 15:11
+-- Who: Ludovicus_Maior
+-- Log: Added CN tag
+
+-- URL:
+-- Date: 2013-01-12 00:31
+-- Who: Ludovicus_Maior
+-- Log: Added CS tag, QID for the jubling and made the purchase of Fossil Archeology Fragments level 90.
+
+-- URL:
+-- Date: 2013-01-10 16:37
+-- Who: Ludovicus_Maior
+-- Log: Rearrange eating and drinking as per  Bearzerker
+
+-- URL:
+-- Date: 2013-01-10 14:00
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2013-01-09 21:57
+-- Who: Emmaleah
+-- Log: Added Spawn of JubJub quest.
+--	moved B step for archy quest to very top of guide, since it is a shame for them to be in thunder bluff then reallize they should go back to Vale of Eternal Blossoms
+--	moved N and sticked C steps for tailering to immediatedly after A step
+--	moved N and sticked C steps for enchanting quest to immediately after A step
+--	removed some extraneous |M|tags
+--	added NC tags where I must have missed them yesterday.
+
+-- URL:
+-- Date: 2013-01-09 16:35
+-- Who: Ludovicus_Maior
+-- Log: Added U|72110| to Talkin' Tonks as per  Bearzerker
+
+-- URL:
+-- Date: 2013-01-09 01:18
+-- Who: Ludovicus_Maior
+-- Log: Attempt at a manual merger of my changes.
+
+-- URL:
+-- Date: 2013-01-07 02:33
+-- Who: Emmaleah
+-- Log: changed the word flower to flour, changed all (I think) C steps to include NC, added statement about Fossil Fragments from Brann Brozebeard, added T Testing your strenth before A, since you never turn them in on the same trip to the fair, hopefully this helps)
+
+-- URL:
+-- Date: 2012-12-16 00:37
+-- Who: Ludovicus_Maior
+-- Log: You need 5X Fizzy Faire Drink.
+
+-- URL:
+-- Date: 2012-12-03 00:10
+-- Who: Ludovicus_Maior
+-- Log: Added some missing M tags.
+
+-- URL:
+-- Date: 2012-12-02 21:55
+-- Who: Ludovicus_Maior
+-- Log: STamp
+
+-- URL:
+-- Date: 2012-12-02 21:54
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2012-11-17 21:49
+-- Who: Ludovicus_Maior
+-- Log: Changed the name of the zone.
+
+-- URL:
+-- Date: 2012-11-11 05:55
+-- Who: Hendo72
+-- Log: Corrected quantity of Moonberry Juice to be purchased from 1 to 5. It was missing from code.
+
+-- URL:
+-- Date: 2012-06-08 14:15
+-- Who: Ludovicus_Maior
+-- Log: Add LVL tweaks so it wont bother you to try to eat food you can't!
+
+-- URL:
+-- Date: 2012-01-19 00:11
+-- Who: Ludovicus_Maior
+
+-- URL:
+-- Date: 2012-01-19 00:11
+-- Who: Ludovicus_Maior
+-- Log: Correct node number
+
+-- URL:
+-- Date: 2012-01-19 00:10
+-- Who: Ludovicus_Maior
+-- Log: Sync to git
+
 local guide = WoWPro:RegisterGuide("TwiDarkmoon",'WorldEvents',"DarkmoonFaireIsland", "Twists", "Neutral")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"Darkmoon Faire")
@@ -282,6 +484,5 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
-
 
 

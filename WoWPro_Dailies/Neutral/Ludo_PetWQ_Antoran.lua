@@ -3,6 +3,21 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-02-19 22:59
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL:
+-- Date: 2017-09-12 21:29
+-- Who: Ludovicus_Maior
+-- Log: Revised Earseeker
+
+-- URL:
+-- Date: 2017-09-05 22:57
+-- Who: Ludovicus_Maior
+-- Log: Initial Cut
+
 local guide = WoWPro:RegisterGuide("LudoPetWQAntoran","Dailies","ArgusCore","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON",1715032)
@@ -78,6 +93,5 @@ C Mechanical|QID|49053|STRATEGY|XuFu_Watcher|N|1) Do whatever for the last bit|S
 
 ]]
 end)
-
 
 

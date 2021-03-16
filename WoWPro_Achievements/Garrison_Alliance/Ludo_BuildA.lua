@@ -3,6 +3,56 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2018-10-17 02:19
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL:
+-- Date: 2018-06-21 22:11
+-- Who: Ludovicus_Maior
+-- Log: Ooops.  Some building quests were the wrong faction!
+
+-- URL:
+-- Date: 2018-02-19 22:31
+-- Who: Ludovicus_Maior
+-- Log: Upload Grail corrections to PRE/LEAD tags
+
+-- URL:
+-- Date: 2017-03-23 17:35
+-- Who: Ludovicus_Maior
+-- Log: Spelling
+
+-- URL:
+-- Date: 2017-03-22 07:07
+-- Who: Emmaleah
+-- Log: Updated Headhunters Harvest to use Alliance info.
+
+-- URL:
+-- Date: 2017-03-10 22:44
+-- Who: Ludovicus_Maior
+-- Log: Add PREs
+
+-- URL:
+-- Date: 2016-03-22 20:39
+-- Who: Ludovicus_Maior
+-- Log: Add Salvage Yard
+
+-- URL:
+-- Date: 2015-07-20 00:43
+-- Who: Ludovicus_Maior
+-- Log: Clean up lumber section and add pet battle station.
+
+-- URL:
+-- Date: 2015-07-12 20:33
+-- Who: Ludovicus_Maior
+-- Log: Tweaks and spell checks
+
+-- URL:
+-- Date: 2015-06-23 12:18
+-- Who: Ludovicus_Maior
+-- Log: Initial Version
+
 local guide = WoWPro:RegisterGuide('LudoBuildingsAlliance', 'Achievements', 'Shadowmoon Valley@Draenor', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9096)
@@ -305,6 +355,5 @@ T Pets Versus Pests|QID|36423|M|28.85,38.56|Z|Lunarfall|N|From Lio the Lioness|
 ]]
 
 end)
-
 
 

@@ -3,6 +3,26 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
+-- URL:
+-- Date: 2017-08-03 21:55
+-- Who: Ludovicus_Maior
+-- Log: Work off of World QIDs.
+
+-- URL:
+-- Date: 2017-07-05 21:08
+-- Who: Ludovicus_Maior
+-- Log: Add AS
+
+-- URL:
+-- Date: 2017-06-13 19:58
+-- Who: rpotor
+-- Log: Fix edit and comment links
+
+-- URL:
+-- Date: 2017-06-13 19:56
+-- Who: rpotor
+-- Log: Initial version
+
 local guide = WoWPro:RegisterGuide("LarePetWQAzs","Dailies","Legion","Larenon","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
@@ -68,6 +88,5 @@ C Strat by Hazelnuttygames@Youtube|QID|42159|STRATEGY|Hazel@YT|N|1) Arcane Storm
 
 ]]
 end)
-
 
 
