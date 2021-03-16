@@ -3,57 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2017-03-23 17:39
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL:
--- Date: 2017-03-15 20:27
--- Who: Ludovicus_Maior
--- Log: Add PRE
-
--- URL:
--- Date: 2014-12-25 19:08
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2014-12-25 19:07
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2014-05-26 18:09
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL:
--- Date: 2014-05-22 22:26
--- Who: Ludovicus_Maior
--- Log: Registration guide
-
--- URL:
--- Date: 2014-05-22 22:25
--- Who: Ludovicus_Maior
--- Log: Registration guide
-
--- URL:
--- Date: 2013-11-27 20:46
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2013-05-14 18:46
--- Who: Ludovicus_Maior
--- Log: In not in
-
--- URL:
--- Date: 2013-01-13 23:40
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2013-01-13 21:06
--- Who: Ludovicus_Maior
--- Log: Uploading existing files to website
-
 local guide = WoWPro:RegisterGuide("TwiPebble","Achievements","Deepholm","Twists", "Neutral")
 WoWPro:GuideIcon(guide,"ACH",5449)
 WoWPro:GuideLevels(guide,10,50)
@@ -67,5 +16,6 @@ T Lost In The Deeps|QID|26710|M|55.4,14.0|N|To Pyrite Stonetender.|
 
 ]]
 end)
+
 
 

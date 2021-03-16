@@ -3,55 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2020-05-11 21:26
--- Who: Ludovicus_Maior
--- Log: Correct location for [Grand Master Mo'ruk].  Update [ Burning Pandaren Spirit] with better alternatives and text.
-
--- URL:
--- Date: 2017-03-05 18:34
--- Who: Ludovicus_Maior
--- Log: Fix Shu's RANK setting
-
--- URL:
--- Date: 2016-12-28 17:09
--- Who: Ludovicus_Maior
--- Log: Add Markup like [ability=112/peck] to guide.
-
--- URL:
--- Date: 2016-11-09 21:55
--- Who: Ludovicus_Maior
--- Log: Add missing |STRATEGY|Elfuego/Burning| from [Burning Pandaren Spirit]
-
--- URL:
--- Date: 2016-10-13 23:15
--- Who: Ludovicus_Maior
--- Log: [Whispering Pandaren Spirit] hits the leveling pet for H>500F
-
--- URL:
--- Date: 2016-08-15 22:22
--- Who: Ludovicus_Maior
--- Log: Use Rank2 for the extra trainers.  Use Rank3 for the hard strategies.
-
--- URL:
--- Date: 2016-07-19 18:55
--- Who: Ludovicus_Maior
--- Log: Major re-write.
-
--- URL:
--- Date: 2016-03-23 02:09
--- Who: Ludovicus_Maior
--- Log: Um, 'nil' is not nil
-
--- URL:
--- Date: 2016-01-08 23:16
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2016-01-08 23:15
--- Who: Ludovicus_Maior
--- Log: Initial Version
-
 local guide = WoWPro:RegisterGuide("LareLvlPet","Dailies","Pandaria", "Larenon", "Neutral")
 WoWPro:GuideLevels(guide,1, 90, 90)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
@@ -167,5 +118,6 @@ T Grand Master Hyuna|QID|31953|M|47.96,54.18|Z|The Jade Forest|N|From Hyuna of t
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]
 end)
+
 
 

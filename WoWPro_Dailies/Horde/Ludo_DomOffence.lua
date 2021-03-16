@@ -3,46 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 02:21
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2018-08-22 18:51
--- Who: Emmaleah
--- Log: Correct Old Style QO
-
--- URL:
--- Date: 2018-02-19 22:50
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL:
--- Date: 2017-03-23 17:42
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL:
--- Date: 2017-03-10 23:23
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL:
--- Date: 2015-03-09 18:09
--- Who: Ludovicus_Maior
--- Log: Z corrections
-
--- URL:
--- Date: 2014-11-07 20:34
--- Who: Fluclo
--- Log: Added missing |N| tags, removed duplicate PRE cag, fixed missing comma in coords for The Bell
-
--- URL:
--- Date: 2014-09-27 22:13
--- Who: Ludovicus_Maior
--- Log: INital Version
-
 local guide = WoWPro:RegisterGuide("LudoDomOffence",'Dailies', "Krasarang Wilds", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,90,90,90)
 WoWPro.Dailies:GuideFaction(guide,1375) --  "Dominance Offensive"
@@ -342,5 +302,6 @@ N Buenas Noches|N|Wait until tomorrows adventures!|
 ]]
 
 end)
+
 
 

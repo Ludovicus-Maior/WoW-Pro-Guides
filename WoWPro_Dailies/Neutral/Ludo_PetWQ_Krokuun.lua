@@ -3,16 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2017-09-12 21:30
--- Who: Ludovicus_Maior
--- Log: Revised Gnasher
-
--- URL:
--- Date: 2017-09-05 23:00
--- Who: Ludovicus_Maior
--- Log: First Cut
-
 local guide = WoWPro:RegisterGuide("LudoPetWQKrokuun","Dailies","ArgusSurface","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON",1715032)
@@ -78,5 +68,6 @@ C Random|QID|49043|STRATEGY|wow-petguide-Baneglow|N|1) Finish Baneglow off.|SELE
 
 ]]
 end)
+
 
 

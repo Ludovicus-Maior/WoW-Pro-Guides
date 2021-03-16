@@ -3,39 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2017-01-02 22:45
--- Who: Ludovicus_Maior
--- Log: New registration style
-
--- URL:
--- Date: 2016-11-30 20:25
--- Who: Ludovicus_Maior
--- Log: Fix single section error.
-
--- URL:
--- Date: 2016-09-14 18:18
--- Who: Ludovicus_Maior
--- Log: Dalaran City@Dalaran
-
--- URL:
--- Date: 2016-09-07 14:37
--- Who: Ludovicus_Maior
--- Log: USe Old Hillsbrad@CoTHillsbradFoothills
-
--- URL:
--- Date: 2015-03-09 17:36
--- Who: Ludovicus_Maior
--- Log: CoTHillsbradFoothills
-
--- URL:
--- Date: 2014-02-14 00:15
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2014-02-14 00:04
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide("LudoShopEnchanting","Profession", "Enchanting", "Ludovicus", "Neutral")
 WoWPro:GuideName(guide, "Enchanting Formulas")
 WoWPro:GuideLevels(guide,1,90,5)
@@ -306,5 +273,6 @@ B Enchant Cloak - Greater Speed|QID|990047898|RECIPE|47898|M|38.70,40.80|Z|Dalar
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
 
 

@@ -3,91 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2019-10-16 00:01
--- Who: Ludovicus_Maior
--- Log: Avoid bad markup
-
--- URL:
--- Date: 2018-10-17 02:22
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2018-08-24 16:13
--- Who: Ludovicus_Maior
--- Log: Converted old style QOs.
-
--- URL:
--- Date: 2018-08-18 20:54
--- Who: Ludovicus_Maior
--- Log: Change bogus L steps to K steps for "Great Chef Woo"'s quests.
-
--- URL:
--- Date: 2018-02-19 23:06
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL:
--- Date: 2017-03-11 18:31
--- Who: Ludovicus_Maior
--- Log: Added PREs; syntax changes.
-
--- URL:
--- Date: 2014-11-08 00:21
--- Who: Ludovicus_Maior
--- Log: Removed rogue N tag
-
--- URL:
--- Date: 2014-07-26 22:26
--- Who: Ludovicus_Maior
--- Log: Play through as horde!
-
--- URL:
--- Date: 2014-07-06 15:51
--- Who: Ludovicus_Maior
--- Log: Added levels
-
--- URL:
--- Date: 2014-06-11 19:21
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL:
--- Date: 2014-04-21 18:34
--- Who: Ludovicus_Maior
--- Log: Re-arrange quests a bit.
-
--- URL:
--- Date: 2014-03-17 20:14
--- Who: Ludovicus_Maior
--- Log: Change zone to Temple of the Jade Serpent@EastTemple
-
--- URL:
--- Date: 2014-02-14 02:55
--- Who: Ludovicus_Maior
--- Log: Oops!
-
--- URL:
--- Date: 2014-02-13 16:51
--- Who: Ludovicus_Maior
--- Log: Cleanup coords, flow.  Spend too much time here.
-
--- URL:
--- Date: 2014-01-13 22:42
--- Who: Ludovicus_Maior
--- Log: Ahem, bad coords.
-
--- URL:
--- Date: 2014-01-12 20:57
--- Who: Ludovicus_Maior
--- Log: Break out the chests into another guide and make it useful!
-
--- URL:
--- Date: 2014-01-02 04:14
--- Who: Ludovicus_Maior
--- Log: Initial Draft.  Missing many C steps.  Order is awful till I play through it.
-
 local guide = WoWPro:RegisterGuide("LudoTimeless",'Dailies', "Timeless Isle", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,90,90,90)
 WoWPro.Dailies:GuideFaction(guide,1492) --  "Timeless Isle"
@@ -308,5 +223,6 @@ T Noodle Time: Bonus|QID|33358|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sun
 ]]
 
 end)
+
 
 

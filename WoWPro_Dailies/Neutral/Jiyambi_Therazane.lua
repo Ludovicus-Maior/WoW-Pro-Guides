@@ -3,60 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 02:21
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2018-08-24 15:49
--- Who: Ludovicus_Maior
--- Log: Added QO's for [Underground Economy]
-
--- URL:
--- Date: 2017-03-10 23:32
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL:
--- Date: 2014-07-06 15:49
--- Who: Ludovicus_Maior
--- Log: Guide levels
-
--- URL:
--- Date: 2014-06-11 19:19
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL:
--- Date: 2013-06-18 00:38
--- Who: Ludovicus_Maior
--- Log: quest 26710's name [Lost In the Deeps] does not match Grail's database [Lost In The Deeps]
-
--- URL:
--- Date: 2013-05-14 18:50
--- Who: Ludovicus_Maior
--- Log: [Lost In The Deeps] not [Lost in The Deeps]
-
--- URL:
--- Date: 2013-01-13 14:53
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL:
--- Date: 2012-05-27 18:40
--- Who: Ludovicus_Maior
--- Log: Added REP tags, a few coord fixes and redirected a quest to the right NPC.
-
--- URL:
--- Date: 2011-07-11 22:39
--- Who: Ludovicus_Maior
--- Log: Removing REP tag.
-
--- URL:
--- Date: 2011-06-30 19:13
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide("JiyDeeTher",'Dailies', "Deepholm", "Jiyambi", "Neutral")
 WoWPro:GuideLevels(guide,81,81,81)
 WoWPro.Dailies:GuideFaction(guide,1171) --  "Therazane Reputation"
@@ -118,5 +64,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
+
 
 

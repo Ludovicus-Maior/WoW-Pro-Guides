@@ -3,41 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2017-03-06 03:13
--- Who: Ludovicus_Maior
--- Log: WoWPro:GuideLevels(guide)
-
--- URL:
--- Date: 2017-01-02 22:39
--- Who: Ludovicus_Maior
--- Log: New style registration
-
--- URL:
--- Date: 2013-08-16 20:40
--- Who: Ludovicus_Maior
--- Log: Hopefully I corrected some errors right.
-
--- URL:
--- Date: 2013-06-18 00:36
--- Who: Ludovicus_Maior
--- Log: Bad X coordinate 66.268.8, 1/1 in guide TwiTailoring, line [B Pattern: Bolt of Imdued Netherweave]
---	Bad X coordinate 66.268.8, 1/1 in guide TwiTailoring, line [B Pattern: Netherweave Robe].
-
--- URL:
--- Date: 2013-05-16 00:56
--- Who: Twists
--- Log: Update to the new parser.
-
--- URL:
--- Date: 2011-07-13 22:48
--- Who: Ludovicus_Maior
--- Log: Sync to GitHub
-
--- URL:
--- Date: 2011-06-30 05:56
--- Who: Crackerhead22
-
 local guide = WoWPro:RegisterGuide("TwiTailoring","Profession","Tailoring", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",197)
 WoWPro:GuideLevels(guide)
@@ -112,5 +77,6 @@ N Highest Pattern|QID|901970062|P|Tailoring;197;575;600|N|5;Bolts of Windwool Cl
 N That completes Tailoring.
 ]]
 end)
+
 
 

@@ -3,80 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 02:31
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2018-08-23 23:33
--- Who: jovieve
--- Log: Updated old style QO tags.
-
--- URL:
--- Date: 2018-08-18 21:02
--- Who: Ludovicus_Maior
--- Log: Correct L step to l step.
-
--- URL:
--- Date: 2017-03-17 13:52
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL:
--- Date: 2017-03-05 18:55
--- Who: Ludovicus_Maior
--- Log: Float the level
-
--- URL:
--- Date: 2015-07-25 18:12
--- Who: Ludovicus_Maior
--- Log: Add Icon
-
--- URL:
--- Date: 2014-11-07 21:43
--- Who: Emmaleah
--- Log: Delete dup QID's per list o' errors.
-
--- URL:
--- Date: 2014-07-25 21:42
--- Who: Ludovicus_Maior
--- Log: Adj levels
-
--- URL:
--- Date: 2014-06-10 21:25
--- Who: Ludovicus_Maior
--- Log: Converted guide
-
--- URL:
--- Date: 2014-02-13 16:55
--- Who: Ludovicus_Maior
--- Log: Added Leaders dailies and shuffled flow.
-
--- URL:
--- Date: 2013-06-18 00:59
--- Who: Ludovicus_Maior
--- Log: Missing coordinate, 1/1 in guide LudoLoveA, line [A/T You've Been Served].
-
--- URL:
--- Date: 2013-05-14 19:11
--- Who: Ludovicus_Maior
--- Log: Z tag corrections
-
--- URL:
--- Date: 2013-02-11 11:21
--- Who: Ludovicus_Maior
--- Log: Added [Crushing the Crown] and some of the dalies.
-
--- URL:
--- Date: 2012-02-05 13:33
--- Who: Ludovicus_Maior
--- Log: Corrections after runthrough
-
--- URL:
--- Date: 2012-02-04 23:21
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide("LudoLoveA",'WorldEvents',"Love is in the Air", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"LoveInTheAir")
@@ -159,5 +85,6 @@ N All done for the day|
 
 ]]
 end)
+
 
 

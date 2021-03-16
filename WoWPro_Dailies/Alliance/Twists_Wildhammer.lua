@@ -3,45 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2017-03-10 23:18
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL:
--- Date: 2016-08-20 01:00
--- Who: Emmaleah
--- Log: changed link in header to match the page it should.
-
--- URL:
--- Date: 2014-11-08 00:32
--- Who: Ludovicus_Maior
--- Log: Missing M
-
--- URL:
--- Date: 2014-11-06 18:23
--- Who: Fluclo
--- Log: Added missing |M| tag to Never Leave a Dinner Behind
-
--- URL:
--- Date: 2014-07-06 15:27
--- Who: Ludovicus_Maior
--- Log: Guide level and faction
-
--- URL:
--- Date: 2014-06-10 23:09
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL:
--- Date: 2011-07-11 22:20
--- Who: Ludovicus_Maior
--- Log: Add a flight point home.
-
--- URL:
--- Date: 2011-06-30 19:01
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide("TwiTwiWil",'Dailies', "Twilight Highlands", "Twists", "Alliance")
 WoWPro:GuideLevels(guide,84,84,84)
 WoWPro.Dailies:GuideFaction(guide,1174) --  "Wildhammer"
@@ -73,5 +34,6 @@ F Back to the Portal|M|79.48,77.79|N|Get Back Home|CC|
 ]]
 
 end)
+
 
 

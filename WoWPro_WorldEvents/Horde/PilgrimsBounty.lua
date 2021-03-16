@@ -3,70 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-08-24 09:07
--- Who: Emmaleah
--- Log: Fix Old Style QOs
-
--- URL:
--- Date: 2017-11-24 19:05
--- Who: Ludovicus
--- Log: Update guide to use ACTIVE tags for better navigation.
-
--- URL:
--- Date: 2017-03-17 14:14
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL:
--- Date: 2017-03-05 18:54
--- Who: Ludovicus_Maior
--- Log: Float the level
-
--- URL:
--- Date: 2015-07-25 18:18
--- Who: Ludovicus_Maior
--- Log: Add Icon
-
--- URL:
--- Date: 2014-11-07 20:25
--- Who: Emmaleah
--- Log: add 3 N tags per Ludo's list 'o errors 11/5/14
-
--- URL:
--- Date: 2014-06-10 21:40
--- Who: Ludovicus_Maior
--- Log: Changed guide format.
-
--- URL:
--- Date: 2013-12-01 00:17
--- Who: Ludovicus_Maior
--- Log: Added ACH tags to steps.
-
--- URL:
--- Date: 2011-11-20 23:37
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2011-11-20 19:39
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2011-11-17 00:38
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2011-11-16 02:37
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2011-10-30 19:10
--- Who: Crackerhead22
-
--- URL:
--- Date: 2011-10-30 19:10
--- Who: Crackerhead22
-
 local guide = WoWPro:RegisterGuide("LudoPilBountyH",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"HarvestFestival")
@@ -157,5 +93,6 @@ N Pilgrim's Peril: Exodar|QID|935810002|ACH|3581;2|M|76.54,52.03|Z|The Exodar|N|
 N Fini|N|Time to take a nap!|
 ]]
 end)
+
 
 

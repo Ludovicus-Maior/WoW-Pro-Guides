@@ -3,30 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-08-02 01:50
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2018-08-01 00:30
--- Who: Ludovicus_Maior
--- Log: It is  |The Jade Forest| Ludo!
-
--- URL:
--- Date: 2018-07-10 18:19
--- Who: Ludovicus_Maior
--- Log: Lots of missing coords.
-
--- URL:
--- Date: 2016-01-08 23:28
--- Who: Ludovicus_Maior
--- Log: 3645
-
--- URL:
--- Date: 2016-01-08 23:28
--- Who: Ludovicus_Maior
--- Log: Initial
-
 local guide = WoWPro:RegisterGuide("LudoExpPandaria","Achievements","Pandaria","Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",6974)
@@ -143,5 +119,6 @@ F Zan'vess|QID|969780012|M|30,75|Z|Dread Wastes|ACH|6978;12|
 N Congratulations on exploring Pandaria!
 ]]
 end)
+
 
 

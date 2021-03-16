@@ -3,112 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 02:31
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2017-03-17 13:54
--- Who: Ludovicus_Maior
--- Log: Just 2 PREs
-
--- URL:
--- Date: 2017-03-05 18:52
--- Who: Ludovicus_Maior
--- Log: Float the level
-
--- URL:
--- Date: 2016-09-14 17:41
--- Who: Ludovicus_Maior
--- Log: Dalaran City@Dalaran
-
--- URL:
--- Date: 2015-03-09 17:19
--- Who: Ludovicus_Maior
--- Log: Added missing Z tag
-
--- URL:
--- Date: 2014-07-25 21:53
--- Who: Ludovicus_Maior
--- Log: adj levels
-
--- URL:
--- Date: 2014-06-10 22:00
--- Who: Ludovicus_Maior
--- Log: Changed guide format.
-
--- URL:
--- Date: 2013-06-29 23:42
--- Who: Twists
--- Log: Add Pandarian Fires
-
--- URL:
--- Date: 2013-06-23 21:47
--- Who: Kaboca
--- Log: The missing Un'Goro Crater entries added to the guide.
-
--- URL:
--- Date: 2012-07-01 20:58
--- Who: Ludovicus_Maior
--- Log: Optimize ordering for Northrend.
-
--- URL:
--- Date: 2012-07-01 20:26
--- Who: Ludovicus_Maior
--- Log: Corrected coords for flight to Shattrath in Netherstorm
-
--- URL:
--- Date: 2012-07-01 20:08
--- Who: Ludovicus_Maior
--- Log: Change R step from Vashjir to Darkbreak Cove
-
--- URL:
--- Date: 2012-07-01 17:00
--- Who: Ludovicus_Maior
--- Log: Remove silly comment about setting hearth to stormwind for trip to Deepholm.
-
--- URL:
--- Date: 2012-07-01 16:58
--- Who: Ludovicus_Maior
--- Log: Trim incorrect comment about Cata zones not counting.
-
--- URL:
--- Date: 2012-06-26 18:36
--- Who: Ludovicus_Maior
--- Log: Three way merge of my, Twists and Laotseu's updates.
-
--- URL:
--- Date: 2012-06-26 11:59
--- Who: Laotseu
-
--- URL:
--- Date: 2012-06-26 11:55
--- Who: Laotseu
-
--- URL:
--- Date: 2011-10-29 18:10
--- Who: Crackerhead22
--- Log: Moved zone names from quest name to notes for quest steps for auto-accept/complete to work.
-
--- URL:
--- Date: 2011-07-12 23:21
--- Who: Ludovicus_Maior
--- Log: The )end must be on a line by itself.
-
--- URL:
--- Date: 2011-06-30 22:39
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2011-06-30 05:42
--- Who: Crackerhead22
-
--- URL:
--- Date: 2011-06-30 05:34
--- Who: Crackerhead22
--- Log: Added source code to page.
-
 local guide = WoWPro:RegisterGuide("CraMidSumA",'WorldEvents',"Midsummer Fire Festival", "Crackerhead22", "Alliance")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"Midsummer")
@@ -323,5 +217,6 @@ N The End |N|That's all for this year.|
 
 ]]
 end)
+
 
 

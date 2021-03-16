@@ -3,84 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 22:26
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL:
--- Date: 2017-03-23 17:41
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL:
--- Date: 2017-03-10 23:19
--- Who: Ludovicus_Maior
--- Log: Syntax changes.
-
--- URL:
--- Date: 2014-11-06 18:24
--- Who: Fluclo
--- Log: Added missing |N| tag
-
--- URL:
--- Date: 2014-07-26 00:35
--- Who: Ludovicus_Maior
--- Log: OOps, wrong faction
-
--- URL:
--- Date: 2014-07-25 19:04
--- Who: Ludovicus_Maior
--- Log: Whoops!   Copied over the alliance version by accident.
-
--- URL:
--- Date: 2014-06-10 23:15
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL:
--- Date: 2013-06-18 00:57
--- Who: Ludovicus_Maior
--- Log: quest 28665's name [Cursed Shackels] does not match Grail's database [Cursed Shackles].
-
--- URL:
--- Date: 2013-05-17 20:46
--- Who: Ludovicus_Maior
--- Log: Watch Out For Splinters!
-
--- URL:
--- Date: 2013-01-13 19:56
--- Who: Ludovicus_Maior
--- Log: Spell Orgrimmar right again.
-
--- URL:
--- Date: 2013-01-13 17:49
--- Who: Ludovicus_Maior
--- Log: Spell Orgrimmar right and use ,'s to separate coords instead of ;'s!
-
--- URL:
--- Date: 2013-01-13 17:48
--- Who: Ludovicus_Maior
--- Log: Malformed coords!
-
--- URL:
--- Date: 2013-01-09 01:43
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL:
--- Date: 2011-12-29 02:26
--- Who: Crackerhead22
-
--- URL:
--- Date: 2011-12-29 02:25
--- Who: Crackerhead22
--- Log: Split Tol Barad Peninsula and Tol Barad guides.
-
--- URL:
--- Date: 2011-06-30 19:05
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide("CraToBarH",'Dailies', "Tol Barad", "Crackerhead22", "Horde")
 WoWPro:GuideLevels(guide,1,85,90)
 WoWPro.Dailies:GuideFaction(guide,1178) --  "Hellscream's Reach"
@@ -145,5 +67,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 
 ]]
 end)
+
 
 

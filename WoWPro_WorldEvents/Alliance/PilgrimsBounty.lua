@@ -3,72 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 02:31
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2017-11-24 19:04
--- Who: Ludovicus
--- Log: Update guide to use ACH and ACTIVE tags for better navigation.
-
--- URL:
--- Date: 2017-03-17 13:55
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL:
--- Date: 2017-03-05 18:53
--- Who: Ludovicus_Maior
--- Log: Float the level
-
--- URL:
--- Date: 2015-07-25 18:18
--- Who: Ludovicus_Maior
--- Log: Add Icon
-
--- URL:
--- Date: 2014-11-07 21:34
--- Who: Emmaleah
--- Log: added 3 N tags per list o' errors
-
--- URL:
--- Date: 2014-07-25 21:37
--- Who: Ludovicus_Maior
--- Log: Adj Mean level
-
--- URL:
--- Date: 2014-06-10 21:42
--- Who: Ludovicus_Maior
--- Log: Changed guide format.
-
--- URL:
--- Date: 2013-05-14 17:01
--- Who: Ludovicus_Maior
--- Log: Roasted => roasted
-
--- URL:
--- Date: 2011-11-20 23:35
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2011-11-20 19:37
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2011-11-16 02:02
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2011-10-30 19:09
--- Who: Crackerhead22
-
--- URL:
--- Date: 2011-10-30 19:09
--- Who: Crackerhead22
--- Log: Added source code page.
-
 local guide = WoWPro:RegisterGuide("LudoPilBountyA",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"HarvestFestival")
@@ -141,5 +75,6 @@ N Pilgrim's Peril: Silvermoon City|ACH|3580;2|M|55.4,53.2|Z|Eversong Woods|N|Sit
 N Fini|N|Time to take a nap!|
 ]]
 end)
+
 
 

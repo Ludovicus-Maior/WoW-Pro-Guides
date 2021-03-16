@@ -3,89 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 22:24
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL:
--- Date: 2017-03-23 17:40
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL:
--- Date: 2017-03-17 17:10
--- Who: Ludovicus_Maior
--- Log: Restore the lost CraToBarA guide
-
--- URL:
--- Date: 2017-03-10 23:08
--- Who: Ludovicus_Maior
--- Log: Syntax changes.
-
--- URL:
--- Date: 2015-03-06 19:33
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2014-11-06 18:13
--- Who: Fluclo
--- Log: Added missing |N| to First Lieutenant Connor
-
--- URL:
--- Date: 2014-11-06 18:12
--- Who: Fluclo
--- Log: Added missing pipe from Cursed Shackles QID.
-
--- URL:
--- Date: 2014-07-06 15:24
--- Who: Ludovicus_Maior
--- Log: Guide level and faction
-
--- URL:
--- Date: 2014-06-10 22:51
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL:
--- Date: 2013-05-17 19:17
--- Who: Ludovicus_Maior
--- Log: Removed empty M tag
-
--- URL:
--- Date: 2013-05-14 15:51
--- Who: Ludovicus_Maior
--- Log: Shackels => Shackles
-
--- URL:
--- Date: 2013-01-09 01:39
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL:
--- Date: 2012-08-07 21:17
--- Who: Ludovicus_Maior
--- Log: [Watch Out For Splinters!] with the bang!
-
--- URL:
--- Date: 2011-12-29 02:21
--- Who: Crackerhead22
-
--- URL:
--- Date: 2011-12-29 02:19
--- Who: Crackerhead22
--- Log: Split Tol Barad Peninsula and Tol Barad into two guides.
-
--- URL:
--- Date: 2011-07-11 22:47
--- Who: Ludovicus_Maior
--- Log: Fix  C [Cursed Shackels] and coords for turnin on Sergeant Parker.
-
--- URL:
--- Date: 2011-06-30 18:56
--- Who: Ludovicus_Maior
--- Log: Initial Create
-
 local guide = WoWPro:RegisterGuide("CraToBarPA",'Dailies', "Tol Barad Peninsula", "Crackerhead22", "Alliance")
 WoWPro:GuideLevels(guide,85,85,85)
 WoWPro.Dailies:GuideFaction(guide,1177) --  "Tol Barad Peninsula Guide"
@@ -159,5 +76,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 
 ]]
 end)
+
 
 

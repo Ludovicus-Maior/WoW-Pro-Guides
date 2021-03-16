@@ -3,25 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2014-12-25 18:51
--- Who: Ludovicus_Maior
--- Log: Moved Author to the right slot!
-
--- URL:
--- Date: 2014-05-26 18:05
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL:
--- Date: 2014-05-22 22:57
--- Who: Ludovicus_Maior
--- Log: Registration guide
-
--- URL:
--- Date: 2013-03-23 16:35
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide('EstAchHiLe',"Achievements",'Dalaran', 'Estelyen','Neutral')
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",1956)
@@ -41,5 +22,6 @@ A Transmutation|ACH|1956;8|N|In the empty bookshelf downstairs by the stove.|Z|D
 N Keep resetting|QID|972810001|N|until you find them all (or give up).|
 ]]
 end)
+
 
 

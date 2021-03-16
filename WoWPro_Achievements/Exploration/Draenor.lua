@@ -3,16 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2016-01-08 23:31
--- Who: Ludovicus_Maior
--- Log: 3646
-
--- URL:
--- Date: 2016-01-08 23:30
--- Who: Ludovicus_Maior
--- Log: Initial
-
 local guide = WoWPro:RegisterGuide("LudoExpDraenor","Achievements","Draenor","Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",8935)
@@ -116,5 +106,6 @@ R Zangar Shore|QID|989420015|M|85.7,26.9|Z|Nagrand@Draenor|ACH|8942;15|
 N Congratulations on exploring Draenor!
 ]]
 end)
+
 
 

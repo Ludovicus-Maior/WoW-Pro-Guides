@@ -3,51 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2014-11-08 00:25
--- Who: Ludovicus_Maior
--- Log: One more N tag
-
--- URL:
--- Date: 2014-11-07 20:36
--- Who: Fluclo
--- Log: Missing N tags
-
--- URL:
--- Date: 2014-11-06 18:20
--- Who: Fluclo
--- Log: Added five missing |N| tags
-
--- URL:
--- Date: 2014-07-20 19:34
--- Who: Ludovicus_Maior
--- Log: Added catrgories and icon
-
--- URL:
--- Date: 2014-07-06 15:33
--- Who: Ludovicus_Maior
--- Log: Added Name and category
-
--- URL:
--- Date: 2014-06-10 23:21
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL:
--- Date: 2013-06-18 00:35
--- Who: Ludovicus_Maior
--- Log: Got rid of stuttered M tag
-
--- URL:
--- Date: 2012-01-19 00:02
--- Who: Ludovicus_Maior
--- Log: Correct node numbers
-
--- URL:
--- Date: 2012-01-19 00:00
--- Who: Ludovicus_Maior
--- Log: Sync to GIT
-
 local guide = WoWPro:RegisterGuide("LudoPilgrimDailiesA",'Dailies',"Pilgrim's Bounty", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Pilgrim's Bounty")
@@ -95,5 +50,6 @@ T We're Out of Cranberry Chutney Again?|QID|14053|M|33.72,50.64|Z|Elwynn Forest|
 N Pilgrim's Bounty|N|You are done for the day!|
 ]]
 end)
+
 
 
