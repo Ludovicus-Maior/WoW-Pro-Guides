@@ -3,44 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2017-01-02 22:47
--- Who: Ludovicus_Maior
--- Log: New registration style
-
--- URL:
--- Date: 2016-11-30 20:24
--- Who: Ludovicus_Maior
--- Log: Fix single section error.
-
--- URL:
--- Date: 2016-09-14 19:28
--- Who: Ludovicus_Maior
--- Log: missed one Dalaran City@Dalaran
-
--- URL:
--- Date: 2016-09-14 17:44
--- Who: Ludovicus_Maior
--- Log: Dalaran City@Dalaran
-
--- URL:
--- Date: 2014-11-08 20:23
--- Who: Ludovicus_Maior
--- Log: Chnage Shrine Z
-
--- URL:
--- Date: 2014-03-06 23:52
--- Who: Ludovicus_Maior
--- Log: Zone tag corrections.
-
--- URL:
--- Date: 2014-02-14 00:13
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2014-02-14 00:10
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide("LudoShopTailoring","Profession", "Tailoring", "Ludovicus", "Neutral")
 WoWPro:GuideName(guide, "Tailoring Patterns")
 WoWPro:GuideLevels(guide,1,90,5)
@@ -393,5 +355,6 @@ B Runecloth Bag|QID|990018405|RECIPE|18405|M|59.60,49.20|Z|Winterspring|P|Tailor
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
 
 

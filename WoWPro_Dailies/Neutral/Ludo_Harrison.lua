@@ -3,21 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 02:21
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2016-01-08 23:51
--- Who: Ludovicus_Maior
--- Log: 3647
-
--- URL:
--- Date: 2016-01-08 23:50
--- Who: Ludovicus_Maior
--- Log: Initial
-
 local guide = WoWPro:RegisterGuide("LudoHarrison",'Dailies',"Draenor","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,100,100,101)
 WoWPro:GuideIcon(guide,"ACH",9825)
@@ -162,5 +147,6 @@ T The Silent Skull: Taking from the Taker|QID|37996|N|To Rokhan, at your Garriso
 
 ]]
 end)
+
 
 

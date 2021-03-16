@@ -3,31 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2019-02-14 18:27
--- Who: Ludovicus_Maior
--- Log: Add secret QIDs for [Services of Dagg]
-
--- URL:
--- Date: 2018-10-17 02:19
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2018-02-19 22:27
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL:
--- Date: 2017-03-23 19:58
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL:
--- Date: 2017-03-17 16:50
--- Who: Ludovicus_Maior
--- Log: Initial commit
-
 local guide = WoWPro:RegisterGuide("LudoGarrisonFollowers","Achievements","Draenor","Ludovicus","Neutral")
 WoWPro:GuideIcon(guide,"ACH",9109)
 WoWPro:GuideLevels(guide,10,50)
@@ -167,5 +142,6 @@ A Solidarity in Death|QID|36522|PRE|33973|M|68.68,90.59|Z|Frostwall|N|Ahm is wai
 T Solidarity in Death|QID|36522|M|68.68,90.59|Z|Frostwall|N|To Ahm.|FACTION|Horde|
 ]]
 end)
+
 
 

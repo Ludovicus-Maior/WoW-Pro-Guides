@@ -3,43 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2017-03-06 03:10
--- Who: Ludovicus_Maior
--- Log: WoWPro:GuideLevels(guide)
-
--- URL:
--- Date: 2017-01-02 22:35
--- Who: Ludovicus_Maior
--- Log: New style registration
-
--- URL:
--- Date: 2014-11-08 00:15
--- Who: Ludovicus_Maior
--- Log: FACTION
-
--- URL:
--- Date: 2013-11-27 20:57
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2013-05-16 00:44
--- Who: Twists
--- Log: Upgrade to the new parser.
-
--- URL:
--- Date: 2011-07-27 12:12
--- Who: Ludovicus_Maior
--- Log: Merge Twists Pull
-
--- URL:
--- Date: 2011-06-30 06:05
--- Who: Crackerhead22
-
--- URL:
--- Date: 2011-06-30 05:49
--- Who: Crackerhead22
-
 local guide = WoWPro:RegisterGuide("TwiAlchemy","Profession","Alchemy", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",171)
 WoWPro:GuideName(guide, "Alchemy")
@@ -107,5 +70,6 @@ N Master Mana Potion|QID|901710055|P|Alchemy;171;575;600;|N|1;Green Tea Leaf;25;
 N That completes Alchemy.
 ]]
 end)
+
 
 

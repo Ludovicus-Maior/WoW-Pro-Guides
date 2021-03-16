@@ -3,26 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2017-09-03 23:46
--- Who: Ludovicus_Maior
--- Log: Added alternate Tiffany Nelson pet lineup.
-
--- URL:
--- Date: 2017-08-03 21:57
--- Who: Ludovicus_Maior
--- Log: Work of of world QIDs
-
--- URL:
--- Date: 2017-07-05 21:09
--- Who: Ludovicus_Maior
--- Log: Add AS
-
--- URL:
--- Date: 2017-06-13 20:08
--- Who: rpotor
--- Log: Initial version
-
 local guide = WoWPro:RegisterGuide("LarePetWQDala","Dailies","Legion","Larenon","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
@@ -102,5 +82,6 @@ C Cannon|QID|40277|STRATEGY|albinoette@WH|N|1) Attack till [ability=209/ion-cann
 
 ]]
 end)
+
 
 

@@ -3,25 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2014-07-06 15:34
--- Who: Ludovicus_Maior
--- Log: Added levels and faction
-
--- URL:
--- Date: 2014-06-10 23:22
--- Who: Ludovicus_Maior
--- Log: Changed guide level.
-
--- URL:
--- Date: 2013-01-14 00:32
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2013-01-13 23:37
--- Who: Ludovicus_Maior
--- Log: Init version with CS correction.
-
 local guide = WoWPro:RegisterGuide("LudoHonorPoints",'Dailies', "Grizzly Hills", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,73,73,73)
 WoWPro.Dailies:GuideFaction(guide,1050) --  "Honor Points, Valiance Expedition"
@@ -56,5 +37,6 @@ T Riding the Red Rocket|QID|12437|N|To Commander Howser.|M|14.8,86.6|
 
 ]]
 end)
+
 
 

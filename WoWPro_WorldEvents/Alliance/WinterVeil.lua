@@ -3,81 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2020-07-17 20:59
--- Who: Ludovicus_Maior
--- Log: 29385 [A Winter Veil Gift] is obsolete
-
--- URL:
--- Date: 2018-10-17 22:33
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL:
--- Date: 2018-08-18 21:03
--- Who: Ludovicus_Maior
--- Log: Fix L steps that should be l steps.
-
--- URL:
--- Date: 2017-03-05 18:54
--- Who: Ludovicus_Maior
--- Log: Float the level
-
--- URL:
--- Date: 2015-07-25 18:17
--- Who: Ludovicus_Maior
--- Log: Add Icon
-
--- URL:
--- Date: 2015-07-25 18:17
--- Who: Ludovicus_Maior
--- Log: Add Icon
-
--- URL:
--- Date: 2014-11-07 21:31
--- Who: Emmaleah
--- Log: corrections per List 'o errors and added other QID's to Horde side A Greatfather Winter is here
-
--- URL:
--- Date: 2014-07-25 21:40
--- Who: Ludovicus_Maior
--- Log: Adj levels
-
--- URL:
--- Date: 2014-06-10 21:29
--- Who: Ludovicus_Maior
--- Log: Changed Guide format.
-
--- URL:
--- Date: 2013-05-17 20:52
--- Who: Ludovicus_Maior
--- Log: [Smokywood Pastures' Thank You!] => [A Smokywood Pastures' Thank You!]
-
--- URL:
--- Date: 2013-05-14 19:07
--- Who: Ludovicus_Maior
--- Log: Coord and quest corrections
-
--- URL:
--- Date: 2013-01-09 17:24
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL:
--- Date: 2012-12-25 20:05
--- Who: Ludovicus_Maior
--- Log: Update winter veil to use the latest WE updates and eliminate many manual click offs!
-
--- URL:
--- Date: 2012-01-19 00:08
--- Who: Ludovicus_Maior
--- Log: Correct node number
-
--- URL:
--- Date: 2012-01-19 00:07
--- Who: Ludovicus_Maior
--- Log: Sync to GIT
-
 local guide = WoWPro:RegisterGuide("LudoWinterVeilA",'WorldEvents',"Winter Veil", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"WinterVeil")
@@ -132,5 +57,6 @@ A A Ticking Present|QID|8769|LVL|40|M|33.84,66.66|Z|Ironforge|N|Your sixth gift!
 N All done for the day|
 ]]
 end)
+
 
 

@@ -3,71 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 22:30
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL:
--- Date: 2018-08-18 20:59
--- Who: Ludovicus_Maior
--- Log: Change L to l for fishing quests
-
--- URL:
--- Date: 2018-08-18 20:57
--- Who: Ludovicus_Maior
--- Log: Change L steps to l steps for cooking dailies.
-
--- URL:
--- Date: 2014-11-07 20:45
--- Who: Fluclo
--- Log: Fixed coord tag for Bloated Slippery Eel
-
--- URL:
--- Date: 2014-11-07 20:44
--- Who: Fluclo
--- Log: Added missing |M| tag
-
--- URL:
--- Date: 2014-07-06 15:38
--- Who: Ludovicus_Maior
--- Log: Added name/faction.
-
--- URL:
--- Date: 2014-06-11 19:02
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL:
--- Date: 2013-05-14 19:03
--- Who: Ludovicus_Maior
--- Log: Bad coord
-
--- URL:
--- Date: 2013-05-14 19:01
--- Who: Ludovicus_Maior
--- Log: More @DalaranCity
-
--- URL:
--- Date: 2013-05-14 15:23
--- Who: Ludovicus_Maior
--- Log: Updated to The Underbelly@DalaranCity
-
--- URL:
--- Date: 2013-01-13 15:03
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL:
--- Date: 2013-01-12 18:45
--- Who: Ludovicus_Maior
--- Log: Lots of CN tags
-
--- URL:
--- Date: 2012-05-27 19:57
--- Who: Ludovicus_Maior
--- Log: Initial Version
-
 local guide = WoWPro:RegisterGuide("LudoDalCook",'Dailies', "Dalaran", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,10,10)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Dalaran Cooking")
@@ -110,3 +45,4 @@ l Vegetable Stew|QID|13102^13114|U|43147|L|43149|Z|125|N|Make a fire and use the
 T Sewer Stew|QID|13102^13114|M|35.6,56.8|Z|The Underbelly@DalaranCity|N|To Ajay Green at inn in the Sewers.|
 ]]
 end)
+

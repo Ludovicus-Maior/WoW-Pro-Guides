@@ -3,70 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 02:20
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2018-09-17 01:57
--- Who: jovieve
--- Log: Lowered level requirements for new scaling.
-
--- URL:
--- Date: 2018-08-24 01:03
--- Who: jovieve
--- Log: Updated old style QO tags. Also added kiss emote to the T tag in A Blade Fit for a Champion.
-
--- URL:
--- Date: 2018-02-19 22:48
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL:
--- Date: 2017-03-10 23:12
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL:
--- Date: 2014-07-25 20:43
--- Who: Ludovicus_Maior
--- Log: adj meanlevel
-
--- URL:
--- Date: 2014-07-06 15:22
--- Who: Ludovicus_Maior
--- Log: guide level
-
--- URL:
--- Date: 2014-06-10 22:26
--- Who: Ludovicus_Maior
--- Log: Coverted guide
-
--- URL:
--- Date: 2013-05-14 15:19
--- Who: Ludovicus_Maior
--- Log: Removed extra M tag
-
--- URL:
--- Date: 2013-01-13 14:31
--- Who: Ludovicus_Maior
--- Log: Added CC and CN tag
-
--- URL:
--- Date: 2013-01-12 18:32
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL:
--- Date: 2013-01-09 01:41
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL:
--- Date: 2012-05-27 18:11
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide("LudoArgTour",'Dailies', "Icecrown", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,67,68,67.0131)
 WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
@@ -342,5 +278,6 @@ T The Scourgebane|QID|13795|M|73.80,20.06|N|From Crok Scourgebane.|
 
 ]]
 end)
+
 
 

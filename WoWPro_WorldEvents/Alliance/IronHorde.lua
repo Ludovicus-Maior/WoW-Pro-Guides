@@ -3,79 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 02:31
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2018-02-23 01:43
--- Who: Ludovicus_EditBot
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL:
--- Date: 2015-07-05 18:12
--- Who: Ludovicus_Maior
--- Log: Add Icon
-
--- URL:
--- Date: 2015-02-01 22:02
--- Who: Ludovicus_Maior
--- Log: Tweaks.
-
--- URL:
--- Date: 2014-11-07 23:49
--- Who: Emmaleah
--- Log: corrected correction :)
-
--- URL:
--- Date: 2014-11-07 21:53
--- Who: Emmaleah
--- Log: eliminated some duplicate M tags (that pointed to horde locations. wouldn't that be fun!?!) per the big list o'errors
-
--- URL:
--- Date: 2014-10-26 00:34
--- Who: Emmaleah
--- Log: correct item id of iron starlette
-
--- URL:
--- Date: 2014-10-25 21:56
--- Who: Ludovicus_Maior
--- Log: Some coord tweaks and got rid of a death-trap typo!
-
--- URL:
--- Date: 2014-10-17 00:41
--- Who: Ludovicus_Maior
--- Log: Coord tweaks and changed to a WE guide.
-
--- URL:
--- Date: 2014-10-15 12:19
--- Who: Fluclo
--- Log: Wrong QO for Gar Steelcrush
-
--- URL:
--- Date: 2014-10-15 12:14
--- Who: Fluclo
--- Log: Missing |
-
--- URL:
--- Date: 2014-10-13 01:38
--- Who: Fluclo
--- Log: typo
-
--- URL:
--- Date: 2014-10-13 01:17
--- Who: Emmaleah
--- Log: added step to use the battlepet to add it to your pet collection
-
--- URL:
--- Date: 2014-10-13 01:12
--- Who: Fluclo
-
--- URL:
--- Date: 2014-10-13 01:10
--- Who: Fluclo
-
 local guide = WoWPro:RegisterGuide('IronHordeInvasionA', 'WorldEvents', 'Blasted Lands', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90, 90, 90.1)
 WoWPro:GuideIcon(guide,"Icon","Inferface\\ICONS\\INV_Tabard_A_03IronHorde")
@@ -159,5 +86,6 @@ U Iron Starlette|U|111660|N|Add your starlette to your collection.|
 ]]
 
 end)
+
 
 

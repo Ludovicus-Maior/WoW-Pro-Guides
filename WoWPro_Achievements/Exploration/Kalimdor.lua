@@ -3,43 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2015-04-13 17:48
--- Who: Ludovicus_Maior
--- Log: Woops, misisng Z tags
-
--- URL:
--- Date: 2015-04-13 17:42
--- Who: Ludovicus_Maior
--- Log: Converted to continent guide with proximity sort.
-
--- URL:
--- Date: 2014-05-28 22:18
--- Who: Ludovicus_Maior
--- Log: Uldum moved to Cata
-
--- URL:
--- Date: 2014-05-28 20:32
--- Who: Ludovicus_Maior
--- Log: Converted
-
--- URL:
--- Date: 2014-05-26 17:38
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL:
--- Date: 2012-05-27 17:49
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2012-05-27 17:19
--- Who: Ludovicus_Maior
-
--- URL:
--- Date: 2012-05-27 17:19
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide("LudoExpKalimdor","Achievements","Kalimdor","Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",43)
@@ -356,5 +319,6 @@ N Congratulations on exploring Kalimdor!|
 
 ]]
 end)
+
 
 

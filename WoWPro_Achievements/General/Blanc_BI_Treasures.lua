@@ -3,35 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 02:20
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2017-02-11 21:16
--- Who: Blanckaert
--- Log: added (Zone Name) to Notes, removed Prox sort, to make it done manual after loading.
-
--- URL:
--- Date: 2017-01-03 00:03
--- Who: Blanckaert
--- Log: adjusted chest that where moved in suramar
-
--- URL:
--- Date: 2016-12-14 00:58
--- Who: Blanckaert
-
--- URL:
--- Date: 2016-12-14 00:46
--- Who: Blanckaert
--- Log: remove -- from prox sort
-
--- URL:
--- Date: 2016-12-10 21:48
--- Who: Blanckaert
--- Log: Start of a Treasures guide, for all the Broken Isle Zones, in one file.
-
 local guide = WoWPro:RegisterGuide('Blanc_BI_Treasures', "Achievements", 'Broken Isles', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",11259)
@@ -334,5 +305,6 @@ $ Treasure Chest|QID|43874|M|57.68,61.97|Z|Suramar|N|Yes, there is a see illusio
 ]]
 
 end)
+
 
 

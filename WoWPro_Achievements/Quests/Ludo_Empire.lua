@@ -3,26 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-10-17 02:20
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2018-02-19 22:45
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL:
--- Date: 2015-10-05 14:58
--- Who: Ludovicus_Maior
--- Log: Moved [Blackhand's Secret]
-
--- URL:
--- Date: 2015-06-23 12:24
--- Who: Ludovicus_Maior
--- Log: Start
-
 local guide = WoWPro:RegisterGuide('LudoEmpire', 'Achievements', 'Talador', 'Ludovicus', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9640)
@@ -156,5 +136,6 @@ T My Garona|QID|37841|M|67.4,6.6|N|To Garona Halforcen|
 ]]
 
 end)
+
 
 

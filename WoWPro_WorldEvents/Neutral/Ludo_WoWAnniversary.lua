@@ -3,36 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-12-03 23:07
--- Who: Ludovicus_Maior
--- Log: Updated
-
--- URL:
--- Date: 2018-11-17 23:17
--- Who: Ludovicus_Maior
--- Log: Minor corrections and cleanups.
-
--- URL:
--- Date: 2018-10-17 02:32
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL:
--- Date: 2017-11-24 18:23
--- Who: Ludovicus
--- Log: Tweaks
-
--- URL:
--- Date: 2017-11-23 05:07
--- Who: Ludovicus
--- Log: Add the [The Originals] quest.
-
--- URL:
--- Date: 2017-11-22 00:01
--- Who: Ludovicus
--- Log: Initial Cut
-
 local guide = WoWPro:RegisterGuide("LudoWowAnniversary",'WorldEvents',"Azeroth", "Ludo", "Neutral")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"WOW Anniversary")
@@ -125,5 +95,6 @@ N Tomorrow|N|Come back tomorrow for another set of quests.|
 ]]
 
 end)
+
 
 

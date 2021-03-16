@@ -3,36 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2018-02-19 22:55
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL:
--- Date: 2017-08-03 21:56
--- Who: Ludovicus_Maior
--- Log: Use world QIDs
-
--- URL:
--- Date: 2017-07-05 21:16
--- Who: Ludovicus_Maior
--- Log: Update text.
-
--- URL:
--- Date: 2017-07-05 21:08
--- Who: Ludovicus_Maior
--- Log: Add AS
-
--- URL:
--- Date: 2017-06-13 20:05
--- Who: rpotor
--- Log: Fix edit and comment links
-
--- URL:
--- Date: 2017-06-13 20:03
--- Who: rpotor
--- Log: Initial version
-
 local guide = WoWPro:RegisterGuide("LarePetWQBroken","Dailies","Legion","Larenon","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
@@ -80,5 +50,6 @@ C Zeppelin .vs. Fel|STRATEGY|Aranesh@WH|N|1) [ability=334/decoy] on cooldown\n2)
 
 ]]
 end)
+
 
 

@@ -3,51 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2017-05-14 22:46
--- Who: Ludovicus_Maior
--- Log: Add icon for MPD with Ashlei
-
--- URL:
--- Date: 2017-03-10 23:33
--- Who: Ludovicus_Maior
--- Log: Syntax changes.
-
--- URL:
--- Date: 2016-12-28 17:03
--- Who: Ludovicus_Maior
--- Log: Update to use markup like [ability=168/healing-flame].
-
--- URL:
--- Date: 2016-12-24 01:54
--- Who: Ludovicus_Maior
--- Log: Add Horde flight points.
-
--- URL:
--- Date: 2016-10-13 23:08
--- Who: Ludovicus_Maior
--- Log: Legion Tweaks.
-
--- URL:
--- Date: 2016-07-19 18:56
--- Who: Ludovicus_Maior
--- Log: Major rewrite
-
--- URL:
--- Date: 2016-02-08 01:08
--- Who: Ludovicus_Maior
--- Log: Tiny tweaks
-
--- URL:
--- Date: 2016-01-08 23:19
--- Who: Ludovicus_Maior
--- Log: Tweak
-
--- URL:
--- Date: 2016-01-08 23:18
--- Who: Ludovicus_Maior
--- Log: Initial Version
-
 local guide = WoWPro:RegisterGuide("LarePetTamersDrae","Dailies","Draenor","Larenon","Neutral")
 WoWPro:GuideLevels(guide,1, 90, 45)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
@@ -134,5 +89,6 @@ T Gargra|QID|37205|M|68.6,64.6|Z|Frostfire Ridge|N|To Gargra|
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]
 end)
+
 
 

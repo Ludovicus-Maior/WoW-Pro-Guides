@@ -3,26 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL:
--- Date: 2015-04-13 18:06
--- Who: Ludovicus_Maior
--- Log: Code header
-
--- URL:
--- Date: 2015-04-13 18:04
--- Who: Ludovicus_Maior
--- Log: Convert to continent guide with proximity sort.
-
--- URL:
--- Date: 2014-05-28 21:35
--- Who: Ludovicus_Maior
--- Log: Converted
-
--- URL:
--- Date: 2014-05-28 21:25
--- Who: Ludovicus_Maior
--- Log: Initial Cut!
-
 local guide = WoWPro:RegisterGuide("KabExpOutland","Achievements","Hellfire Peninsula","Kaboca", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",44)
@@ -176,5 +156,6 @@ F Eco-Dome Midrealm|QID|908430022|M|45.6,56.2|ACH|843;22|Z|Netherstorm|
 N Congratulations on exploring Outland!
 ]]
 end)
+
 
 
