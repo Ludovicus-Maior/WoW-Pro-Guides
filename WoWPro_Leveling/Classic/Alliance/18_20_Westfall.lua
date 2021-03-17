@@ -11,10 +11,10 @@ T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|
 
 C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill any Harvests to collect Flasks of Oil.|S|
-C Hops|AVAILABLE|103|ACTIVE|116|L|1274 5|N|Kill any Harvesters to collect Hops.|S|
+C Hops|ACTIVE|116|L|1274 5|N|Kill any Harvesters to collect Hops.|S|
 C The Defias Brotherhood|ACTIVE|142|L|1381|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |S|
-K Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|L|2998|N|Loot the Compass from the chest at this location.|
-K Hops|AVAILABLE|103|ACTIVE|116|L|1274 5|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|US|
+C Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|L|2998|N|Loot the Compass from the chest at this location.|
+K Hops|ACTIVE|116|L|1274 5|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|US|
 K Flasks of Oil|AVAILABLE|103|M|46.40,66.61|L|814 5|N|Finish collecting the Flasks of Oil from the Harvesters at any of the farms in Westfall|US|
 C The People's Militia|QID|13|Z|Westfall|M|38.20,57.00;34.61,43.38|CN|QO|1;2|N|Kill Defias Looters and Pillagers until you finish this quest. If this area is overcamped, move to the Quarry or Moonbrook.|
 T The People's Militia|QID|13|M|56.33,47.52|N|To Gryan Stoutmantle.|
@@ -33,12 +33,12 @@ A The Coastal Menace|QID|104|M|30.01,86.02|N|From Captain Grayson.|
 T Keeper of the Flame|QID|103|M|30.01,86.02|N|To Captain Grayson.|
 C The Coast Isn't Clear|QID|152|N|As you run along the beach kill the required murlocs|S|
 C The Coastal Menace|QID|104|M|35.23,85.47;26.34,66.12|Z|Westfall|CN|QO|1|N|Old Murk-Eye pathes between the two points.|T|Old Murk-Eye|
-N Treasure Map|L|1357|S!US|ACTIVE|152|N|If you find a treasure map, take the quest right away, remember to destroy the treasure maps after you're done to save precious bag space. Check off manually if you don't find it and want to move on.|
 C The Coast Isn't Clear|QID|152|M|34.60,84.9;27.1,52.6|QO|3;4|CN|N|The Tidehunters and Oracles are at the south end of Longshore. Keep an eye out for Old Murk-Eye to prevent him sneaking up on you.|US|
 C The Coast Isn't Clear|QID|152|M|25.70,49.80;35.80,20.00|CN|QO|2|N|The Warriors are found along the coast between The Quarry and north to Jangolode Mine.|
 C The Coast Isn't Clear|QID|152|M|42.00,12.00;57.00,8.30|CN|QO|1|N|Coastrunners are found at the north end of Longshore.|
 
-A Captain Sander's Hidden Treasure|QID|136|U|1357|N|Start the quest from the map you looted.|
+A Captain Sander's Hidden Treasure|QID|136|O|U|1357|N|Start the quest from the map you looted.|
+* Captain Sander's Hidden Treasure|QID|136|U|1357|N|Trash the item as it is no longer needed.|
 T Captain Sander's Hidden Treasure|M|25.91,47.77|QID|136|N|To Captain Sander's Foot Locker, on the beach guarded by murlocs.|
 A Captain Sander's Hidden Treasure|M|25.91,47.77|QID|138|N|From Captain Sander's Foot Locker.|PRE|136|
 T Captain Sander's Hidden Treasure|M|40.51,47.80|QID|138|N|To A Broken Barrel, alongside the path near Alexston's farm.|
@@ -51,7 +51,7 @@ T The Coast Isn't Clear|QID|152|M|30.01,86.02|N|To Captain Grayson.|
 T The Coastal Menace|QID|104|M|30.01,86.02|N|To Captain Grayson.|
 C The Defias Brotherhood|ACTIVE|142|L|1381|M|44.48,69.70|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|
 
-h Sentinel Hill|M|52.90,53.63|N|Run back to Sentinel Hill. Set your hearth at the Innkeeper|
+h Sentinel Hill|ACTIVE|153|M|52.90,53.63|N|Run back to Sentinel Hill. Set your hearth at the Innkeeper|
 T Red Leather Bandanas|QID|153|M|53.99,52.98|N|To Scout Gillian.|
 T The People's Militia|QID|14|M|56.33,47.52|N|To Gryan Stoutmantle.|
 T The Defias Brotherhood|QID|142|M|56.33,47.52|N|To Gryan Stoutmantle.|
@@ -61,18 +61,19 @@ T The Defias Brotherhood|QID|155|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|166|M|56.3,47.5|N|From Gryan Stoutmantle.|PRE|155|;kill vancleef
 A Red Silk Bandanas|QID|214|M|56.67,47.34|N|From Scout Riell on top of the tower.|PRE|155|;can be done just outside or in instane
 
-F Stormwind|QID|399|M|56.55,52.65|N|Fly to Stormwind.|TZ|Stormwind City|
+F Stormwind|ACTIVE|399|M|56.55,52.65|N|Fly to Stormwind.|TZ|Stormwind City|
 T Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|To Baros Alexston.|
 A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
 A Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
 A Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
 
-N The Deadmines|ACTIVE|167|N|You may do the Deadmines at this point. Be sure to loot the Mysterious Letter off Vancleef. Otherwise skip this step and grind until you're level 20.|
+N The Deadmines|S|ACTIVE|144|N|You may do the Deadmines at this point. Be sure to loot the Mysterious Letter off Vancleef.|
 F Lakeshire|ACTIVE|116|M|66.28,62.16|Z|Stormwind City|N|Fly to Redridge.|
 t Return to Verner|QID|119|M|30.97,47.27|Z|Redridge Mountains|N|To Verner Osgood.|;if not done elwynn guide --
 t Messenger to Stormwind|QID|121|M|29.99,44.44|Z|Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Westfall|QID|143|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
 T Dry Times|QID|116|M|26.49,43.95|Z|Redridge Mountains|N|To Barkeep Daniels.|
+L Level 20|LVL|20|N|Grind or run Deadmines until you are level 20|
 H Westfall|QID|143|N|Return to Westfall, fly if your hearthstone isn't ready.|
 T The Defias Brotherhood|QID|166|M|56.3,47.5|N|To Gryan Stoutmantle. Skip if you are not doing Deadmines.|
 T Messenger to Westfall|QID|143|M|56.3,47.5|N|To Gryan Stoutmantle.|
