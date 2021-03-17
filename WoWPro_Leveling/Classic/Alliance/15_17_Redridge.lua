@@ -11,7 +11,7 @@ WoWPro:GuideSteps(guide, function () return [[
 ; --- This guide begins in Stormwind City if you're not Human
 
 ; --- NightElves coming from Darkshore.
-N Half Pendant of Aquatic Agility|ACTIVE|272|C|Druid|L|15883|N|You will need the first half of the pendant. Grab it before you leave SW.|
+
 h Stormwind City|QID|272|C|Druid|N|Head to the Innkeeper in the trade district and set your hearthstone|
 
 ; --- NightElves coming from Darkshore or if you don't have the 'The Defias Brotherhood' quest yet.
@@ -23,10 +23,10 @@ A The Defias Brotherhood|QID|65|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.
 f Sentinel Hill|QID|118|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
 
 ; --- Completion of Druid swim form quest chain.
-N Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|N|At this point, you're now going to finish up your swim form quest chain.|
-R Longshore|ACTIVE|272|C|Druid|M|26.90,40.00|Z|Westfall|N|Run to the shoreline.|
+R Longshore|ACTIVE|272|C|Druid|M|26.90,40.00|Z|Westfall|N|At this point, you're now going to finish up your swim form quest chain.|
 l Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|M|17.91,33.10|Z|Westfall|L|15882|N|Once you have reached the location, dive under the water and open the chest. There is an air fissure beside it. You will not drown.|
 P Moonglade|ACTIVE|272|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|
+L Half Pendant of Aquatic Agility|ACTIVE|272|M|48.85,11.28|Z|Darkshore|C|Druid|L|15883|N|You will need the first half of the pendant. Fly to Darkshore and loot the item.|
 C Trial of the Sea Lion|QID|272|C|Druid|M|35.90,41.25|Z|Moonglade|QO|1|N|Head to the Shrine of Remulos and combine the 2 halves of the pendant to form the Pendant of the Sea Lion.|U|15883|NC|
 T Trial of the Sea Lion|QID|272|C|Druid|M|56.21,30.62|Z|Moonglade|N|Use your Moonglade portal spell and head upstairs to Dendrite Starblaze|
 A Aquatic Form|QID|5061|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|272|
@@ -58,7 +58,7 @@ A Redridge Goulash|QID|92|M|22.68,43.83|N|From Chef Breanna.|
 A Hilary's Necklace|QID|3741|M|29.3,53.6|N|From Shawn, at the end of the dock.|
 
 C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|CN|L|10958|N|Loot the necklace from the Glinting Mud on the ground in the water.|
-F Stormwind|ACTIVE|118|M|30.59,59.41|N|Fly to Stormwind City. We're finishing the Verner Osgood quest chain now so we're not wasting time killing whelps when they attacks us.|TZ|Stormwind City|
+F Stormwind|ACTIVE|118|M|30.59,59.41|N|Fly to Stormwind City.|TZ|Stormwind City|
 R Elwynn Forest|ACTIVE|118|M|32.03,49.18|Z|Elwynn Forest|N|Jump into the water and make your way to the front gate.|
 B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|Elwynn Forest|L|1939|N|Buy a Skin of Sweet Rum from Barkeep Dobbins inside the Inn.|
 T The Price of Shoes|QID|118|M|41.71,65.55|Z|Elwynn Forest|N|To Smith Argus in Goldshire.|
@@ -110,7 +110,7 @@ A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|Stormwind City|N|From Master Ma
 
 A Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|From Baros Alexston in Cathedral Square.|
 T Elmore's Task|QID|1097|M|51.74,12.13|Z|Stormwind City|N|To Grimand Elmore in Dwarven District. \n(skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
-N Level 18|AVAILABLE|142|N|You have to be Level 18 to start the next guide.\nIf you are close, you can grind it out until you are.\nOtherwise I suggest doing the 16-18 Loch Modan Guide. You can manually select the guide from the Guide List.|LVL|-18|
+N Level 18|AVAILABLE|142|N|S|You have to be Level 18 to start the next guide.\nIf you are close, you can grind it out until you are.\nOtherwise I suggest doing the 16-18 Loch Modan Guide. You can manually select the guide from the Guide List.|LVL|-18|
 
 H Sentinel Hill|ACTIVE|116||M|71.00,72.50|Z|Stormwind City|N|Hearth (or fly) to Westfall.|
 ; --- This guide ends in Sentinel Hill, Westfall.
