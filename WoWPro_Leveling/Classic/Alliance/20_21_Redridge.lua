@@ -11,11 +11,12 @@ F Stormwind|AVAILABLE|343|N|Guide begins with picking up a quest in Stormwind.|
 A Speaking of Fortitude|QID|343|M|45.7,38.4|Z|Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
 T Speaking of Fortitude|QID|343|M|74.2,7.6|Z|Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|LVL|20|
 A Brother Paxton|QID|344|M|74.2,7.5|Z|Stormwind City|PRE|343|N|From Brother Paxton.|LVL|20|
+h Stormwind City|ACTIVE|344|M|52.61,65.71|Z|Stormwind City|N|At Innkeeper Allison.|
+
+;Rogue class questchain
 N Mathias and the Defias|QID|2360|M|68.4,70.2|Z|Westfall|N|You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|P|Lockpicking;633;0+70;1|
 A Mathias and the Defias|QID|2360|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest chain.|C|Rogue|P|Lockpicking;633;0+70;0|
-N Grab banked quest items|ACTIVE|344|N|If you had previously banked quest items for the Redridge Goulash and Underbelly Scales Grab them now|
-h Stormwind City|ACTIVE|344|M|52.61,65.71|Z|Stormwind City|N|At Innkeeper Allison.|
-F Sentinal Hill|ACTIVE|2360|N|Hearth (or fly )to Westfall|Z|Stormwind City|M|71.00,72.50|C|Rogue|P|Lockpicking;633;0+70;0|
+F Sentinal Hill|ACTIVE|2360|N|Fly to Westfall|Z|Stormwind City|M|71.00,72.50|C|Rogue|P|Lockpicking;633;0+70;0|
 T Mathias and the Defias|QID|2360|M|68.4,70.2|Z|Westfall|N|To Agent Kearnen. You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|
 A Klaven's Tower|QID|2359|M|68.4,70.2|Z|Westfall|N|From Agent Kearnen. You will need at least 70 in Lockpicking to complete this quest.|C|Rogue|PRE|2360|
 C Klaven's Tower|QID|2359|M|70,75|Z|Westfall|QO|2|N|Pickpocket from the Malformed Defias Drone that roams around. If he doesn't have it you have to wait for him to despawn and respawn.|C|Rogue|
@@ -36,6 +37,7 @@ T Brother Paxton|QID|344|M|49.6,40.3|Z|Elwynn Forest|N|To Brother Paxton, in the
 A Ink Supplies|QID|345|M|49.6,40.3|Z|Elwynn Forest|N|From Brother Paxton.|PRE|344|LVL|20|
 A A Watchful Eye|QID|94|Z|Elwynn Forest|M|65.2,69.8|LVL|20|N|From Theocritus, at the top of the Tower of Azora.|
 R Redridge Mountains|AVAILABLE|89|N|Go to Redridge Mountains.|M|95.17,72.34|
+
 A The Everstill Bridge|QID|89|M|32.14,48.64|N|From Foreman Oslow.|PRE|125|
 T Ink Supplies|QID|345|M|32.2,48.6|N|To Foreman Oslow.|LVL|20|
 A Rethban Ore|QID|347|M|32.14,48.64|N|From Foreman Oslow.|PRE|345|LVL|20|
@@ -43,6 +45,7 @@ t Messenger to Westfall|QID|144|M|29.99,44.44|Z|Redridge Mountains|N|To Magistra
 A Messenger to Darkshire|QID|145|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|144|
 A Selling Fish|QID|127|M|27.8,47.3|N|From Dockmaster Baren.|
 A Murloc Poachers|QID|150|M|27.8,47.3|N|From Dockmaster Baren.|
+A Redridge Goulash|QID|92|M|22.68,43.83|N|From Chef Breanna.|
 A Underbelly Scales|QID|122|PRE|119|M|30.96,47.27|N|From Verner Osgood.|
 A A Baying of Gnolls|QID|124|PRE|119|M|30.96,47.27|N|From Verner Osgood.|
 C Underbelly Scales|QID|122|M|30.96,47.27|S|N|Kill Black Dragon Whelps.|
@@ -52,17 +55,18 @@ C Murloc Poachers|QID|150|M|40.00,45.00|N|Kill Murlocs until you get the items f
 C Selling Fish|QID|127|M|38.23,51.25|US|N|Kill Murlocs until you get the items for this quest.|
 C The Everstill Bridge|QID|89|M|37.41,50.35|S|N|Kill Gnolls until you get the items for this quest.|
 K Redridge Brute|QID|124|QO|1|M|26.60,38.20|N|Kill Brutes until you finish this quest.|
-K Redridge Mystic|QID|124|QO|2|M|35.00,39.40;17.10,17.50;24.50,31.90;35.50,28.10;20.80,40.20;19.90,32.45;22.82,36.26;28.66,23.26;33.23,24.39;38.42,34.01;29.99,29.36;27.86,36.41;24.04,25.40|CN|N|Kill Gnolls until you finish this quest.|
+K Redridge Mystic|QID|124|QO|2|M|35.00,39.40|N|Kill Gnolls until you finish this quest.|
 C The Everstill Bridge|QID|89|M|37.41,50.35|US|N|Kill Gnolls until you get the items for this quest.|
 C Rethban Ore|QID|347|M|19.90,34.65;20.40,27.80|CS|N|Head to the west side most gnoll camp above Lakeshire and follow the path towards the cave.\nKill Redridge Drudgers in the cave to collect the ore. (Miners can  obtain Rethban ore from nodes in the cave)|
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|N|Collect any remaining items required from the tarantulas, goretusks and condors|US|
-C Underbelly Scales|QID|122|M|43.00,31.60; 44.00,39.00; 34.5,72.5|CN|US|N|Collect any remainming underbelly scales from Black Dragon Whelps.|
+C Underbelly Scales|QID|122|M|43.00,31.60|CN|US|N|Collect any remaining underbelly scales from Black Dragon Whelps.|
 T The Everstill Bridge|QID|89|M|32.14,48.64|N|To Foreman Oslow.|
 T Underbelly Scales|QID|122|M|30.96,47.27|N|To Verner Osgood.|US|
 T A Baying of Gnolls|QID|124|M|30.96,47.27|N|To Verner Osgood.|
 T Selling Fish|QID|127|M|27.8,47.3|N|To Dockmaster Baren.|
 T Murloc Poachers|QID|150|M|27.8,47.3|N|To Dockmaster Baren.|
 T Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|US|
+
 H Stormwind City|ACTIVE|347|M|31.00,59.00|N|Hearth, or otherwise return to Stormwind.|
 T Rethban Ore|QID|347|M|49.6,40.3|Z|Elwynn Forest|N|To Brother Paxton in Northshire.|LVL|20|
 A Return to Kristoff|QID|346|M|49.6,40.3|Z|Elwynn Forest|N|From Brother Paxton in Northshire.|PRE|347|LVL|20|

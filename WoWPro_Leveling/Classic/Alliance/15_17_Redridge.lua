@@ -73,17 +73,15 @@ F Lakeshire|ACTIVE|119|M|66.29,62.13|Z|Stormwind City|N|Fly back to Redridge.|
 T Return to Verner|QID|119|M|30.98,47.28|Z|Redridge Mountains|N|To Verner Osgood.|
 A Underbelly Scales|QID|122|M|30.98,47.28|N|From Verner Osgood.|PRE|119|
 
-C Redridge Goulash|ACTIVE|92|QO|1;2;3|N|Kill tarantulas, goretusks and Condors for the items required.|S|
-C Underbelly Scales|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S|
+C Redridge Goulash|ACTIVE|92|QO|1;2;3|N|Kill tarantulas, goretusks and condors for the items required.|S|LVL|17|
+C Underbelly Scales|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S|LVL|17|
 T A Free Lunch|QID|129|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road up ahead.|
 A Visit the Herbalist|QID|130|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road.|PRE|129|
 
-
-
 R Lakeridge Highway|ACTIVE|246|M|24.39,76.09|N|Follow the road east.|
 C Assessing the Threat|QID|246|QO|1;2|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|
-C Redridge Goulash|ACTIVE|92|QO|1;2;3|M|28.00,71.00|CS|N|Kill tarantulas, goretusks and Condors for any remaining items required.|US|
-C Underbelly Scales|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|US|
+C Redridge Goulash|ACTIVE|92|QO|1;2;3|M|28.00,71.00|CS|N|Kill tarantulas, goretusks and condors for any remaining items required.|US|LVL|17|
+C Underbelly Scales|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|US|LVL|17|
 T Assessing the Threat|QID|246|M|30.74,59.99|N|To Deputy Feldon.|
 C The Lost Tools|QID|125|M|41.60,54.70|L|1309|N|Loot the tools from the chest at the bottom of the lake.|
 T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|
