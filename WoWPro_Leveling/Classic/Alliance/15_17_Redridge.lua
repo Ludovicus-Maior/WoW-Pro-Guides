@@ -5,7 +5,7 @@
 local guide = WoWPro:RegisterGuide('ClassicRedridge1517', 'Leveling', 'Redridge Mountains', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Redridge 15-17')
 WoWPro:GuideLevels(guide, 15, 17, 16)
-WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
+WoWPro:GuideNextGuide(guide, 'ClassicLochModan1618')
 WoWPro:GuideSteps(guide, function () return [[
 
 F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City.|TAXI|-Lakeshire|R|Night Elf|C|-Druid|TZ|Stormwind City|
@@ -76,13 +76,10 @@ F Stormwind|ACTIVE|135|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Storm
 T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|Stormwind City|N|To Master Mathias Shaw.|
 A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
 
-
 A Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|From Baros Alexston in Cathedral Square.|
 T Elmore's Task|QID|1097|M|51.74,12.13|Z|Stormwind City|N|To Grimand Elmore in Dwarven District. \n(skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
-N Level 18|AVAILABLE|142|S|N|You have to be Level 18 to start the next guide.\nIf you are close, you can grind it out until you are.\nOtherwise I suggest doing the 16-18 Loch Modan Guide. You can manually select the guide from the Guide List.|LVL|-18|
 
-H Sentinel Hill|ACTIVE|116||M|71.00,72.50|Z|Stormwind City|N|Hearth (or fly) to Westfall.|
-; --- This guide ends in Sentinel Hill, Westfall.
+; --- This guide ends in Stormwind City.
 
 ]]
 end)

@@ -4,7 +4,7 @@ WoWPro:GuideLevels(guide,16, 18)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Level Range|AVAILABLE|2039|N|This guide is meant to be done at any point you want to do something besides grind between level 15 and 20. It starts with picking up a quest in Ironforge, then takes place in Loch Modan.|
+N Level Range|AVAILABLE|2039|S|N|This guide is meant to be done at any point you want to do something besides grind between level 15 and 20. It starts with picking up a quest in Ironforge, then takes place in Loch Modan.|
 F Ironforge|AVAILABLE|2039|M|66.29,62.13|Z|Stormwind City|N|Fly to Ironforge to start this guide.|IZ|-Ironforge|
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|Ironforge|N|From Gnoarn.|
 F Thelsamar|ACTIVE|2039|M|55.49,47.75|Z|Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
