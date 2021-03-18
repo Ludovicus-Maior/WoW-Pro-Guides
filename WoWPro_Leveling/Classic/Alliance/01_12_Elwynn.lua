@@ -138,24 +138,22 @@ A Speak with Gramma|QID|111|M|29.8,86.0|PRE|106|N|From Tommy Joe Stonefield.|
 T Speak with Gramma|QID|111|M|34.9,83.9|N|To Gramma Stonefield, inside the house.|
 A Note to William|QID|107|M|34.9,83.9|PRE|111|N|From Gramma Stonefield.|
 
-R Goldshire|QID|62|M|43.8,65.8|N|Run back to Goldshire.|
-N Level 6 class skills |QID|47|S|LVL|6|N|Remember to visit your class trainer to learn your Level 6 skills!|
+R Goldshire|ACTIVE|62|M|43.8,65.8|N|Run back to Goldshire.|
+r Sell, Repair and Train|AVAILABLE|35|S|N|Sell and Repair at Andrew Krighton, inside the metalworks building.\nRemember to visit your class trainer to learn your Level 6 skills!|
 T Kobold Candles|QID|60|US|M|43.3,65.7|N|To William Pestle.|
 A Shipment to Stormwind|QID|61|PRE|60|M|43.3,65.7|N|From William Pestle.|
 T Note to William|QID|107|M|43.3,65.7|N|To William Pestle.|
 A Collecting Kelp|QID|112|M|43.3,65.7|PRE|107|N|From William Pestle.|
 T Gold Dust Exchange|QID|47|US|M|42.1,67.3|N|To Remy "Two Times", outside|
 A A Fishy Peril|QID|40|PRE|47|M|42.1,67.3|N|From Remy "Two Times".|
-r Sell and Repair|QID|40|S|M|41.7,65.8|ACTIVE|40|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
-
 T The Fargodeep Mine|QID|62|M|42.1,65.9|N|To Marshall Dughan.|
 A The Jasperlode Mine|QID|76|M|42.1,65.9|PRE|62|N|From Marshall Dughan.|
 T A Fishy Peril|QID|40|M|42.1,65.9|N|To Marshall Dughan.|
 A Further Concerns|QID|35|M|42.1,65.9|PRE|40|N|From Marshall Dughan.|
 
 ; The next few steps are in Stormwind City
-R Stormwind City|QID|61|M|71.1,88.9|ACTIVE|61|N|Follow the road north-west to Stormwind City.|Z|Stormwind City|
-N City Facilities|QID|61|S|N|Whilst in Stormwind City, feel free to learn your desired professions or access the bank - if you don't know where to go, ask any Stormwind City Guard.|T|Stormwind City Guard|
+R Stormwind City|ACTIVE|61|M|71.1,88.9||N|Follow the road north-west to Stormwind City.|Z|Stormwind City|
+N City Facilities|QID|334|S|N|Whilst in Stormwind City, feel free to learn your desired professions or access the bank - if you don't know where to go, ask any Stormwind City Guard.|T|Stormwind City Guard|
 T Shipment to Stormwind|QID|61|M|56.2,64.6|N|To Morgan Pestle|Z|Stormwind City| ;available to Night Elf, so Race tag removed.|
 A Wine Shop Advert|QID|332|M|57.0,63.4|N|From Renato Gallina.|Z|Stormwind City|
 A Harlan Needs a Resupply|QID|333|M|55.2,56.0|N|From Harlan Bagley, inside the Lionheart Armory.|Z|Stormwind City|
@@ -164,8 +162,8 @@ T Harlan Needs a Resupply|QID|333|M|49.65,55.64|N|To Rema Schneider in the Canal
 A Package for Thurman|QID|334|M|49.65,55.64|N|From Rema Schneider.|Z|Stormwind City|
 T Package for Thurman|QID|334|M|42.54,76.19|N|To Thurman Schneider, in Larson Clothiers found in Stormwind Mage Quarter.|Z|Stormwind City|
 
-f Stormwind City|QID|332|M|57.5,59.5;62.75,64.5;66.28,62.12|CS|N|Discover Stormwind Flightpoint with Dungar Longdrink.|Z|Stormwind City|R|-Human|
-R Goldshire|QID|112|M|32.00,49.25;41.2,62.0|CS|N|Head back to Goldshire in Elwynn Forest. You can jump down from the flight point into the water.|
+f Stormwind City|ACTIVE|35|M|57.5,59.5;62.75,64.5;66.28,62.12|CS|N|Discover Stormwind Flightpoint with Dungar Longdrink.|Z|Stormwind City|R|-Human|
+R Goldshire|ACTIVE|35|M|32.00,49.25;41.2,62.0|CS|N|Head back to Goldshire in Elwynn Forest. You can jump down from the flight point into the water.|
 
 C Collecting Kelp|QID|112|M|54.1,66.6|N|Kill and loot the Murlocs for the Crystal Kelp Fronds.|
 C The Jasperlode Mine|QID|76|M|61.0,54.1;60.5,50.1|CS|NC|N|Head up to Jasperlode Mine, then go in, stick to the left until you get the quest update.|
@@ -176,20 +174,20 @@ A Protect the Frontier|QID|52|M|74.0,72.2|N|From Guard Thomas.|
 
 C Protect the Frontier|QID|52|S|M|84.1,61.6|N|Kill the Prowlers and Young Forest Bears.|
 
+
 A A Bundle of Trouble|QID|5545|M|81.4,66.1|N|From Supervisor Raelen.|
 C A Bundle of Trouble|QID|5545|M|84.1,61.6|N|Loot the Bundles of Wood, found at the base of the trees.|NC|
-r Sell and Repair|QID|5545|S|M|83.3,66.1|ACTIVE|5545|N|Sell and Repair at Rallic Finn.|
+r Sell and Repair|AVAILABLE|83|S|M|83.3,66.1||N|Sell and Repair at Rallic Finn.|
 T A Bundle of Trouble|QID|5545|M|81.4,66.1|N|To Supervisor Raelen.|
 
 A Red Linen Goods|QID|83|M|79.46,68.79|N|From Sara Timberlain.|
 C Red Linen Goods|QID|83|S|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|
 C Princess Must Die!|QID|88|M|69.4,79.3|N|Kill and loot Princess for the Brass Collar.|T|Princess|
 C Red Linen Goods|QID|83|US|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|
-
 T Red Linen Goods|QID|83|US|M|79.46,68.79|N|To Sara Timberlain.|
 
 ; Since murlocs are level 10, this is not suitable earlier in the guide.
-N Prowlers|QID|52|US|ACTIVE|37|M|87,70|QO|1|N|The wolves in this area are Gray Forest Wolves, and not the ones required for the quest Protect the Frontier.|
+
 T Find the Lost Guards|QID|37|M|72.70,60.2|N|To "A half-eaten body".|
 A Discover Rolf's Fate|QID|45|PRE|37|M|72.7,60.3|N|From A half-eaten body.|
 T Discover Rolf's Fate|QID|45|M|79.8,55.5|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|
@@ -202,10 +200,10 @@ A Deliver Thomas' Report|QID|39|PRE|71|M|74.0,72.2|N|From Guard Thomas.|
 T Protect the Frontier|QID|52|M|74.0,72.2|N|To Guard Thomas.|
 A Report to Gryan Stoutmantle|QID|109|M|73.9,72.2|N|From Guard Thomas.|
 
-H Goldshire|QID|112|N|Hearthstone back to Goldshire (or run if your hearthstone is on cooldown).|
+H Goldshire|ACTIVE|112|N|Hearthstone back to Goldshire (or run if your hearthstone is on cooldown).|
 T Collecting Kelp|QID|112|M|43.3,65.7|N|To William Pestle.|
 A The Escape|QID|114|PRE|112|M|43.3,65.7|N|From William Pestle. It takes 10 seconds from completing the previous quest for this one to become available.|
-r Sell and Repair|QID|76|S|M|41.7,65.8|ACTIVE|76|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
+r Sell and Repair|AVAILABLE|1097|S|M|41.7,65.8||N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
 
 T The Jasperlode Mine|QID|76|M|42.1,65.9|N|To Marshall Dughan.|
 A Westbrook Garrison Needs Help!|QID|239|PRE|76|M|42.1,65.9|N|From Marshall Dughan.|
@@ -222,7 +220,7 @@ A Wanted:  "Hogger"|QID|176|M|24.52,74.65|N|This Elite level quest is available 
 K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|N|This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|T|Hogger|
 C Riverpaw Gnoll Bounty|QID|11|M|26.1,87.5|N|Kill and loot the Gnolls for the Painted Gnoll Armbands.|
 L Level Check|ACTIVE|11|M|26.1,87.5|LVL|9;-840|N|Grind at the gnolls if you aren't yet 10.|
-l Gold Pickup Schedule|QID|123|L|1307|M|26.0,93.0|N|You want to hunt down the Gold Pickup Schedule. This is most likely to drop from the rare mob Gruff Swiftbite who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|T|Gruff|
+l Gold Pickup Schedule|AVAILABLE|123|L|1307|M|26.0,93.0|N|You want to hunt down the Gold Pickup Schedule. This is most likely to drop from the rare mob Gruff Swiftbite who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|T|Gruff|
 A The Collector|QID|123|U|1307|N|Quest obtained from the Gold Pickup Schedule.|
 T Riverpaw Gnoll Bounty|QID|11|M|24.3,74.8|N|To Deputy Rainer.|
 
@@ -263,7 +261,7 @@ A Dead-tooth Jack|QID|1667|C|Warrior|M|84,69|N|From Marshal Haggard.|PRE|1666|
 C Dead-tooth Jack|QID|1667|C|Warrior|M|89.3,78.8|N|Clear the area, 'til you have just Jack and one guard. Charge the remaining guard, kill it quick, hamstring Jack and back off, Defensive if you have time and kill him. Loot key, open lockbox, get badge. (quickly due to respawn)|
 T Dead-tooth Jack|QID|1667|C|Warrior|M|84,69|N|To Marshal Haggard.|
 
-R Westfall |QID|109|ACTIVE|109|M|61.95,17.80|Z|Westfall|N|Follow the road into Westfall|
+R Westfall |ACTIVE|109|M|61.95,17.80|Z|Westfall|N|Follow the road into Westfall|
 A Furlbrow's Deed|QID|184|U|1972|N|If you happened to have found Furlbrow's deed (random rare drop) while questing thru Elwynn, accept the quest and then turn it in to Farmer Furlbrow. Else, check this off manually if you don't have the item.|
 t Furlbrow's Deed|QID|184|M|59.95,19.36|Z|Westfall|N|To Farmer Furlbrow.|
 A The Forgotten Heirloom|QID|64|M|59.95,19.36|Z|Westfall|N|From Farmer Furlbrow.|
@@ -274,16 +272,16 @@ T Westfall Stew |QID|36|M|56.41,30.52|Z|Westfall|N|To Salma Saldean.|
 A Westfall Stew |QID|38|PRE|36|M|56.41,30.52|Z|Westfall|N|From Salma Saldean.|
 A Goretusk Liver Pie|QID|22|M|56.41,30.52|Z|Westfall|N|From Salma Saldean.|
 
-R Sentinel Hill |QID|109|ACTIVE|109|M|57.61,44.45|Z|Westfall|N|Continue along the road to Sentinel Hill, taking the left hand road at the junction (it has signposts if you are unsure)|
+R Sentinel Hill|ACTIVE|109|M|57.61,44.45|Z|Westfall|N|Continue along the road to Sentinel Hill, taking the left hand road at the junction (it has signposts if you are unsure)|
 T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|Z|Westfall|N|To Gryan Stoutmantle. (you can accept The People's militia now, or wait for questlog space later.)|
 A A Swift Message|QID|6181|M|57.00,47.17|Z|Westfall|N|From Quartermaster Lewis.|R|Human|
 h Sentinel Hill|ACTIVE|6181|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|
-f Sentinel Hill |QID|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
+f Sentinel Hill|AVAILABLE|6281|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|TAXI|-Sentinel Hill|
 T A Swift Message|QID|6181|M|56.55,52.65|Z|Westfall|N|To Thor.|
 A Continue to Stormwind|QID|6281|PRE|6181|M|56.55,52.65|Z|Westfall|N|From Thor.|
-F Stormwind|QID|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|TZ|Stormwind City|
+F Stormwind|ACTIVE|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|TZ|Stormwind City|
 
-T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
+T Continue to Stormwind|ACTIVE|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
 A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|
 T Desperate Prayer|QID|5635|M|38.8,26.4|Z|Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.|
 T Seek out SI: 7|QID|2205|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
@@ -293,7 +291,7 @@ T Snatch and Grab|QID|2206|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw
 T Elmore's Task|QID|1097|M|51.75,12.10|Z|Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
 
 A Stormpike's Delivery|QID|353|PRE|1097|M|51.75,12.10|Z|Stormwind City|N|From Grimand Elmore. This quest will take you to the Loch Modan/Wetlands border.|
-R Deeprun Tram|QID|6661|M|64,8|Z|Stormwind City|N|Run to the Deeprun Tram.|
+R Deeprun Tram|AVAILABLE|6662|M|64,8|Z|Stormwind City|N|Run to the Deeprun Tram.|
 
 A Deeprun Rat Roundup|QID|6661|N|Board the Tram to take you Ironforge, then quest From Monty, at the Ironforge Tram Stop.|
 C Deeprun Rat Roundup|QID|6661|NC|U|17117|N|Use Rat Catcher's Flute on Deeprun Rats, and catch five of them.|T|Deeprun Rat|
@@ -302,36 +300,31 @@ T Deeprun Rat Roundup|QID|6661|N|To Monty.|
 A Me Brother, Nipsy |QID|6662|PRE|6661|N|From Monty. Accept only if you are want to go to Stormwind City and back. (Hop on the tram at the opposite end from Monty for a chance to turn in and make it back on the same tram.)|
 T Me Brother, Nipsy |QID|6662|N|To Nipsy at the Stormwind Tram Stop. After turning in, jump back onto tram to Ironforge. |
 
-R Tinker Town|ACTIVE|353|N|Take the tunnel to your North to go inside Ironforge.|
-f Ironforge|ACTIVE|353|M|62.85,28.38;55.50,47.76|CS|Z|Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|
-R Gates of Ironforge|ACTIVE|353|M|43.7,59.1;29.9,81.75;15.0,86.10|CS|Z|Ironforge|N|Head to the exit of Ironforge.|
+R Tinker Town|AVAILABLE|412|N|Take the tunnel to your North to go inside Ironforge.|
+f Ironforge|AVAILABLE|412|M|47.76|Z|Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|
+R Gates of Ironforge|AVAILABLE|412|M|15.0,86.10|Z|Ironforge|N|Head to the exit of Ironforge.|
 R Kharanos|QID|384|M|47.16,45.39|Z|Dun Morogh|N|Take the road down to the bottom of the hill and go south into Kharanos.|
 A Operation Recombobulation|QID|412|M|45.84,49.37|Z|Dun Morogh|N|From Razzle Sprysprocket.|
 A Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|Dun Morogh|N|From Ragnar Thunderbrew.|
 C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|Dun Morogh|L|2886 6|N|Crag Boar Rib.|S|
 A Stocking Jetsteam|QID|317|M|49.43,48.41|Z|Dun Morogh|N|From Pilot Bellowfiz.|
-C Stocking Jetsteam|QID|317|M|20.2,75.8|Z|Dun Morogh|L|769 4|N|Chunk of Boar Meat.|S|
-C Stocking Jetsteam|QID|317|M|67,59.6|Z|Dun Morogh|L|6952 2|N|Kill young black bears to loot Thick Bear Fur.|S|
+C Stocking Jetsteam|QID|317|M|67,59.6|Z|Dun Morogh|N|Kill young black bears and boars to loot the required items.|S|
 A The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|From Pilot Stonegear.|
 A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|Z|Dun Morogh|N|From Loslor Rudge.|
 
-R The Grizzled Den Entrance|ACTIVE|313|M|42.59,54.78|Z|Dun Morogh|CC|N|Make your way to the cave entrance.|
-C The Grizzled Den|QID|313|L|2671 8|N|Kill the Wendigo to loot Wendigo Mane.|
-C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|Z|Dun Morogh|L|13850|N|Exit the cave and run across the field to the camp just inside the tree line.|
-T Ammo for Rumbleshot|QID|5541|M|46.19,61.90;40.68,65.13|Z|Dun Morogh|CC|N|Head up the hill to the road and follow it to Hegnar Rumbleshot.|
-R Coldridge Pass|QID|412|M|36.20,61.79|Z|Dun Morogh|N|Follow the road westward towards Coldridge Pass.|
-R Brewnall Village|QID|412|M|33.69,57.13;30.84,51.46|Z|Dun Morogh|CC|N|Run down the hill and into the valley to the road leading into Brewnall Village.|
+C The Grizzled Den|QID|313|M|42.59,54.78|N|Make your way to the cave entrance and kill the Wendigo to loot Wendigo Mane.|
+C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|N|Exit the cave and run across the field to the camp just inside the tree line.|
+T Ammo for Rumbleshot|QID|5541|M|46.19,61.90;40.68,65.13|CC|N|Head up the hill to the road and follow it to Hegnar Rumbleshot.|
+R Brewnall Village|AVAILABLE|310|M|36.20,61.79;33.69,57.13;30.84,51.46|Z|Dun Morogh|CC|N|ollow the road westward and then run down the hill and into the valley to the road leading into Brewnall Village.|
 A Bitter Rivals|QID|310|M|30.2,45.6|Z|Dun Morogh|N|From Marleth Barleybrew.|
 A The Perfect Stout|QID|315|M|30.20,45.73|N|From Rejold Barleybrew|
 R Gnomeregan|ACTIVE|412|M|27.72,44.02|Z|Dun Morogh|CC|N|Head northeast to Gnomeregan.|
-C Operation Recombobulation|QID|412|L|3083 8|N|Kill gnomes to loot the Restabilization Cog.|S|
-C Operation Recombobulation|QID|412|L|3084 8|N|Kill gnomes to loot the Gyromechanic Gear.|
-C Operation Recombobulation|QID|412|L|3083 8|N|Kill gnomes to loot the Restabilization Cog.|US|
+C Operation Recombobulation|QID|412|L|3083 8|N|Kill gnomes to loot quest items|
 C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|Dun Morogh|L|2886 6|N|finish collecting the Crag Boar Ribs.|US|
 R Shimmer Ridge|QID|315|M|37.4,42.5;38.75,42.4|CS|N|Find the road up the mountain.|
 C The Perfect Stout|QID|315|M|41.3,44.5;41.7,35.75|CN|NC|N|Loot the Shimmerweed Baskets on the ground. Also dropped by Frostmane Seers|
 
-R Kharanos|QID|412|M|47.11,47.01|Z|Dun Morogh|CC|N|Make your way back to Kharanos.|
+R Kharanos|ACTIVE|412|M|47.11,47.01|Z|Dun Morogh|CC|N|Make your way back to Kharanos.|
 T Operation Recombobulation|QID|412|M|45.84,49.37|Z|Dun Morogh|N|To Razzle Sprysprocket.|
 T Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|Dun Morogh|N|To Ragnar Thunderbrew.|
 B Rhapsody Malt|ACTIVE|384|M|47.37,52.53|Z|Dun Morogh|L|2894|N|Go inside Thunderbrew Distillery and purchase a Rhapsody Malt from Innkeeper Belm.|
@@ -342,7 +335,11 @@ A Return to Marleth|QID|311|PRE|310|M|47.70,52.70|N|From the Barrel|
 T Stocking Jetsteam|QID|317|M|49.43,48.41|Z|Dun Morogh|N|To Pilot Bellowfiz.|
 A Evershine|QID|318|PRE|317|M|49.43,48.41|N|From Pilot Bellowfiz|
 T The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|To Pilot Stonegear.|
-T Return to Marleth|QID|311|M|30.18,45.53|N|To Marleth Barleybrew, in Brewnall Village.|
+
+A Tundra MacGrann's Stolen Stash|QID|312|M|42.70,47.50;37.40,51.60;34.60,51.65|CC|N|Head west out of Kharanos and follow the waypoints up the mountain to accept the quest from Tundra MacGrann|
+C Tundra MacGrann's Stolen Stash|QID|312|M|38.40,53.90|N|The chest is guarded by a level 11 elite Wendigo. Wait for him to patrol out of the cave and run in to loot the chest. Be ready to run once you have looted the Stash.|
+T Tundra MacGrann's Stolen Stash|QID|312|M|34.60,51.65|N|To Tundra MacGrann|
+T Return to Marleth|QID|311|M|30.18,45.53|N|Run down the north side of the hill to Brewnall Village and turn in to Marleth Barleybrew.|
 T Evershine|QID|318|M|30.20,45.73|N|To Rejold Barleybrew|
 T The Perfect Stout|QID|315|M|30.20,45.73|N|To Rejold Barleybrew|
 A Shimmer Stout|QID|413|PRE|315|M|30.20,45.73|N|From Rejold Barleybrew|
@@ -375,9 +372,9 @@ R South Gate Pass|QID|414|ACTIVE|414|M|86.3,51.3|N|Head to the South Gate Pass t
 R Valley of Kings|QID|414|ACTIVE|414|M|21.55,66.25|Z|Loch Modan|N|Continue through the tunnel onto Loch Modan|
 A The Trogg Threat|QID|267|M|23.24,73.67|N|From Captain Ruglefuss, inside the Bunker.|
 A In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside, along the path.|
-C The Trogg Threat|QID|267|S|M|N|Loot the troggs until you get the items for this quest.|
+C The Trogg Threat|QID|267|S|N|Loot the troggs until you get the items for this quest.|
 C In Defense of the King's Lands|QID|224|M|27.00,54.00|N|Kill Troggs and Scouts until you finish this quest.|
-C The Trogg Threat|QID|267|US|M|N|Continue killing the troggs until you get the items for this quest.|
+C The Trogg Threat|QID|267|US|N|Continue killing the troggs until you get the items for this quest.|
 T In Defense of the King's Lands|QID|224|M|22.07,73.13|N|To Mountaineer Cobbleflint, outside|
 T The Trogg Threat|QID|267|M|23.24,73.67|N|To Captain Ruglefuss.|
 
