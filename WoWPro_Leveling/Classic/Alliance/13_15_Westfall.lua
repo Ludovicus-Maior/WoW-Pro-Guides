@@ -10,7 +10,7 @@ WoWPro:GuideSteps(guide, function () return [[
 
 ; --- This guide begins in northern Westfall and catches up with the Elwynn and Loch Modan guides
 
-N This may be a tough solo|AVAILABLE|36|N|If you're having difficulties, you may want to go to Loch Modan first (or instead).|
+N This may be a tough solo|AVAILABLE|36|N|If you're having difficulties, you may want to go to Loch Modan first (or instead).|LVL|13|
 ; --- For anyone that is not coming from the Elwynn or Loch Modan guides
 A The Forgotten Heirloom|QID|64|M|56.04,31.24|N|From Farmer Furlbrow.|
 A Westfall Stew |QID|36|M|59.92,19.41|N|From Verna Furlbrow.|

@@ -72,8 +72,10 @@ T Rethban Ore|QID|347|M|49.6,40.3|Z|Elwynn Forest|N|To Brother Paxton in Northsh
 A Return to Kristoff|QID|346|M|49.6,40.3|Z|Elwynn Forest|N|From Brother Paxton in Northshire.|PRE|347|LVL|20|
 = Train|ACTIVE|346|N|If needed, Don't forget to train while you are in town. (check step off manually)|
 T Return to Kristoff|QID|346|M|45.8,38.6|Z|Stormwind City|N|To Brother Kristoff in Cathedral Square.|LVL|20|
-F Darkshire|ACTIVE|145|M|62.25,62.26;66.28,62.13|CS|Z|Stormwind City|N|Fly to Darkshire, Duskwood. If you followed Maw's guide, you should have this flight path. If not, fly back to Lakeshire, close this step and follow the arrows to run there.|
-R Duskwood|ACTIVE|145|M|6.39,91.51|N|Run to Duskwood.|
-R Darkshire|ACTIVE|145|M|74.76,46.11|Z|Duskwood|N|Follow the road to Darkshire.|
+F Darkshire|ACTIVE|145|M|62.25,62.26;66.28,62.13|CS|Z|Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|
+R Duskwood|ACTIVE|145|M|6.39,91.51|N|Run to Duskwood.|TAXI|-Darkshire|
+R Darkshire|ACTIVE|145|M|74.76,46.11|Z|Duskwood|N|Follow the road to Darkshire.|TAXI|-Darkshire|
+f Darkshire|QID|116|M|77.50,44.30|Z|Duskwood|N|Get the flight path from Felicia Maline.|
+
 ]]
 end)

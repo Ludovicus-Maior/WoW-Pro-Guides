@@ -8,34 +8,6 @@ WoWPro:GuideLevels(guide, 15, 17, 16)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
 WoWPro:GuideSteps(guide, function () return [[
 
-; --- This guide begins in Stormwind City if you're not Human
-
-; --- NightElves coming from Darkshore.
-
-h Stormwind City|QID|272|C|Druid|N|Head to the Innkeeper in the trade district and set your hearthstone|
-
-; --- NightElves coming from Darkshore or if you don't have the 'The Defias Brotherhood' quest yet.
-R Elwynn Forest|AVAILABLE|65|M|32.03,49.18|Z|Elwynn Forest|N|Make your way to the front gate.|TAXI|-Sentinel Hill|
-R Westfall|AVAILABLE|65|M|20.24,80.38|Z|Elwynn Forest|N|Make your way south to Westfall.|TAXI|-Sentinel Hill|
-F Sentinel Hill|AVAILABLE|65|M|66.29,62.13|Z|Stormwind City|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
-
-A The Defias Brotherhood|QID|65|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle. This is a bit out of the way but required if you want the deadmines quests. Plus you will fly here a lot.|
-f Sentinel Hill|QID|118|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
-
-; --- Completion of Druid swim form quest chain.
-R Longshore|ACTIVE|272|C|Druid|M|26.90,40.00|Z|Westfall|N|At this point, you're now going to finish up your swim form quest chain.|
-l Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|M|17.91,33.10|Z|Westfall|L|15882|N|Once you have reached the location, dive under the water and open the chest. There is an air fissure beside it. You will not drown.|
-P Moonglade|ACTIVE|272|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|
-L Half Pendant of Aquatic Agility|ACTIVE|272|M|48.85,11.28|Z|Darkshore|C|Druid|L|15883|N|You will need the first half of the pendant. Fly to Darkshore and loot the item.|
-C Trial of the Sea Lion|QID|272|C|Druid|M|35.90,41.25|Z|Moonglade|QO|1|N|Head to the Shrine of Remulos and combine the 2 halves of the pendant to form the Pendant of the Sea Lion.|U|15883|NC|
-T Trial of the Sea Lion|QID|272|C|Druid|M|56.21,30.62|Z|Moonglade|N|Use your Moonglade portal spell and head upstairs to Dendrite Starblaze|
-A Aquatic Form|QID|5061|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|272|
-F Rut'theran Village|ACTIVE|5061|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
-R Darnassus|ACTIVE|5061|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|
-T Aquatic Form|QID|5061|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
-H Stormwind City|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Hearth to Stormwind City and rejoin the guide.|C|Druid|TZ|Stormwind City|
-; ---
-
 F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City.|TAXI|-Lakeshire|R|Night Elf|C|-Druid|TZ|Stormwind City|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|Elwynn Forest|N|Follow the road east to Redridge Mountains.|
@@ -45,7 +17,6 @@ T Encroaching Gnolls|QID|244|M|30.74,59.99|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|M|30.74,59.99|N|From Deputy Feldon.|PRE|244|
 f Lakeshire|AVAILABLE|125|M|30.60,59.40|N|Get the flight path from Ariena Stormfeather.|
 
-; --- All previous guides (Westfall, Loch Modan and Darkshore) should be synced now.
 A The Lost Tools|QID|125|M|32.14,48.64|N|From Foreman Oslow.|
 A The Price of Shoes|QID|118|M|30.98,47.28|N|From Verner Osgood.|
 
