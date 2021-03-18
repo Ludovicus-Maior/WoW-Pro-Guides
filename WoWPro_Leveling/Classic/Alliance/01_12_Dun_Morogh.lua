@@ -275,7 +275,7 @@ A A Pilot's Revenge|QID|417|PRE|419|M|79.7,36.2|N|From Dwarven Corpse|
 C A Pilot's Revenge|QID|417|M|78.5,37.6|N|Kill and loot Mangeclaw|
 T A Pilot's Revenge|QID|417|M|83.89,39.19|N|To Pilot Hammerfoot|
 
-R South Gate Outpost|QID|413|M|78.2,49.6;84.2,51.3|CS|N|Head back through the tunnel to the fork and this time take the southeastern route until you come to South Gate Outpost (84.2, 51.3).|
+R South Gate Outpost|QID|413|M|78.2,49.6;84.2,51.3|CS|N|Head back through the tunnel to the fork and this time take the southeastern route until you come to South Gate Outpost.|
 T Shimmer Stout|QID|413|M|86.28,48.82|N|To Mountaineer Barleybrew|
 A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|N|From Mountaineer Barleybrew|
 

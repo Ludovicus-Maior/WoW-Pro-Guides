@@ -345,6 +345,7 @@ T The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|To Pilot Stonegear.|
 T Return to Marleth|QID|311|M|30.18,45.53|N|To Marleth Barleybrew, in Brewnall Village.|
 T Evershine|QID|318|M|30.20,45.73|N|To Rejold Barleybrew|
 T The Perfect Stout|QID|315|M|30.20,45.73|N|To Rejold Barleybrew|
+A Shimmer Stout|QID|413|PRE|315|M|30.20,45.73|N|From Rejold Barleybrew|
 
 L Level 12 Training|AVAILABLE|314|S|N|Visit your class trainer on the way past Kharanos. If you have to go to Ironforge, come back down the hill to the Kharanos intersection.|LVL|12|
 R Amberstill Ranch|AVAILABLE|314|M|62.17,53.10|Z|Dun Morogh|N|Follow the road east to Amberstill Ranch.|
@@ -367,18 +368,31 @@ A A Pilot's Revenge|QID|417|PRE|419|M|79.69,36.14|Z|Dun Morogh|N|From Dwarven Co
 C A Pilot's Revenge|QID|417|M|78.48,37.42|Z|Dun Morogh|T|Mangeclaw|N|Kill Mangeclaw and loot a Mangy Claw.|
 T A Pilot's Revenge|QID|417|M|83.89,39.19|Z|Dun Morogh|N|To Pilot Hammerfall.|
 
-R Loch Modan|ACTIVE|353|M|85.5,29.6|Z|Dun Morogh|N|Follow the road north then east to Loch Modan.|
-R Algaz Station|ACTIVE|353|M|24.50,18.00|Z|Loch Modan|N|Continue along the road north to Algaz Station.|
-T Stormpike's Delivery|QID|353|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike, on the top floor of the tower.|
-A Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
-A Stormpike's Order|QID|1338|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
-R Thelsamar|ACTIVE|1338|M|32.96,49.44|Z|Loch Modan|N|Follow the road south to Thelsamar.|
+R South Gate Outpost|QID|413|M|78.2,49.6;84.2,51.3|CS|N|Head back through the tunnel to the fork and this time take the southeastern route until you come to South Gate Outpost.|
+T Shimmer Stout|QID|413|M|86.28,48.82|N|To Mountaineer Barleybrew|
+A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|N|From Mountaineer Barleybrew|
+R South Gate Pass|QID|414|ACTIVE|414|M|86.3,51.3|N|Head to the South Gate Pass tunnel|
+R Valley of Kings|QID|414|ACTIVE|414|M|21.55,66.25|Z|Loch Modan|N|Continue through the tunnel onto Loch Modan|
+A The Trogg Threat|QID|267|M|23.24,73.67|N|From Captain Ruglefuss, inside the Bunker.|
+A In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside, along the path.|
+C The Trogg Threat|QID|267|S|M|N|Loot the troggs until you get the items for this quest.|
+C In Defense of the King's Lands|QID|224|M|27.00,54.00|N|Kill Troggs and Scouts until you finish this quest.|
+C The Trogg Threat|QID|267|US|M|N|Continue killing the troggs until you get the items for this quest.|
+T In Defense of the King's Lands|QID|224|M|22.07,73.13|N|To Mountaineer Cobbleflint, outside|
+T The Trogg Threat|QID|267|M|23.24,73.67|N|To Captain Ruglefuss.|
+
+R Thelsamar|ACTIVE|1338|M|32.96,49.44|Z|Loch Modan|N|Follow the road north to Thelsamar.|
 A Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|Mountaineer Kadrell patrols all throughout Thelsamar.|
+A Mountaineer Stormpike's Task|QID|1339|M|34.8,47.1|N|From Mountaineer Kadrell patrols all throughout Thelsamar.|
 A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|From Vidra Hearthstove inside the inn.|
 r Sell junk and repair|QID|418|M|34.0,46.60|Z|Loch Modan|N|At Morhan Coppertongue. Close this step when you're done.|
 f Thelsamar|ACTIVE|418|M|33.9,50.95|Z|Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson.|
 C Thelsamar Blood Sausages|QID|418|S|M|35.00,35.00|Z|Loch Modan|QO|1;2;3|N|Kill Boars, Bears and Spiders.|
 C Rat Catching|QID|416|M|37.7,25.7|Z|Loch Modan|L|3110 12|N|Kill any Tunnel Rats you see.|S|
+R Algaz Station|ACTIVE|353|M|24.50,18.00|Z|Loch Modan|N|Continue along the road north to Algaz Station.|
+T Stormpike's Delivery|QID|353|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike, on the top floor of the tower.|
+A Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
+A Stormpike's Order|QID|1338|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
 R Silver Stream Mine|ACTIVE|307|M|36.70,41.79;39.43,29.10|Z|Loch Modan|CC|N|Exit Thelsamar at the east end and head north.|
 R Mine entrance|ACTIVE|307|M|35.53,18.71|Z|Loch Modan|CC|
 C Filthy Paws|QID|307|L|2640 4|N|Enter the mine and collect the crates of Miners' Gear.|
