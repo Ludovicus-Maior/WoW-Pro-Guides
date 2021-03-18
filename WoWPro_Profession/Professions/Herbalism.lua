@@ -1,31 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/profession_herbalism
--- Date: 2017-03-06 03:11
--- Who: Ludovicus_Maior
--- Log: WoWPro:GuideLevels(guide)
-
--- URL: http://wow-pro.com/node/3462/revisions/28195/view
--- Date: 2017-01-02 22:38
--- Who: Ludovicus_Maior
--- Log: New style registration
-
--- URL: http://wow-pro.com/node/3462/revisions/25660/view
--- Date: 2013-05-16 01:05
--- Who: Twists
-
--- URL: http://wow-pro.com/node/3462/revisions/25659/view
--- Date: 2013-05-16 01:04
--- Who: Twists
--- Log: Update to the new parser
-
--- URL: http://wow-pro.com/node/3462/revisions/24907/view
--- Date: 2012-01-19 00:29
--- Who: Ludovicus_Maior
--- Log: Sync to GIT
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("TwiHerbalism","Profession","Herbalism", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",182)
@@ -46,5 +22,6 @@ N That completes Herbalism.|QID|901820000|
 ]]
 
 end)
+
 
 

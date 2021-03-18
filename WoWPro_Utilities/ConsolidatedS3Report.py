@@ -48,7 +48,7 @@ def process_s3_logs(bucketName="WoW-Pro"):
                     continue
                 items = line.split(' ')
                 # creator, bucket, logdate, logtime, cip, requestor, requestid, operation, requestkey, uri, status, errorcode, bytessent, objectsize, totaltime, turnaroundtime, referer, useragent, versionid
-                # ['3280665fe1e0c37f0d2aacaeb5b5c35bb0e24a8492c63987002bdbcfe9f66394', 'WoW-Pro', '[21/Oct/2014:22:09:53', '+0000]', '68.68.70.208', '-', 'C9496496E764A1D5', 'REST.GET.OBJECT', 'Ludo_TomTom_for_WoD_2014_1019.zip', '"GET', '/WoW-Pro/Ludo_TomTom_for_WoD_2014_1019.zip', 'HTTP/1.1"', '200', '-', '444030', '444030', '35', '29', '"http://wow-pro.com/node/3609"', '"Mozilla/5.0', '(Windows', 'NT', '6.3;', 'WOW64)', 'AppleWebKit/537.36', '(KHTML,', 'like', 'Gecko)', 'Chrome/38.0.2125.104', 'Safari/537.36"', '-']
+-- URL:
                 operation = items[7]
                 requestkey = items[8]
                 status = items[12]
@@ -77,3 +77,4 @@ process_s3_logs()
             
 
             
+

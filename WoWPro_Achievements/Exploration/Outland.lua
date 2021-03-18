@@ -1,27 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/exploration_achievements_outland
--- Date: 2015-04-13 18:06
--- Who: Ludovicus_Maior
--- Log: Code header
-
--- URL: http://wow-pro.com/node/3577/revisions/27197/view
--- Date: 2015-04-13 18:04
--- Who: Ludovicus_Maior
--- Log: Convert to continent guide with proximity sort.
-
--- URL: http://wow-pro.com/node/3577/revisions/26380/view
--- Date: 2014-05-28 21:35
--- Who: Ludovicus_Maior
--- Log: Converted
-
--- URL: http://wow-pro.com/node/3577/revisions/26379/view
--- Date: 2014-05-28 21:25
--- Who: Ludovicus_Maior
--- Log: Initial Cut!
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("KabExpOutland","Achievements","Hellfire Peninsula","Kaboca", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
@@ -176,5 +156,6 @@ F Eco-Dome Midrealm|QID|908430022|M|45.6,56.2|ACH|843;22|Z|Netherstorm|
 N Congratulations on exploring Outland!
 ]]
 end)
+
 
 

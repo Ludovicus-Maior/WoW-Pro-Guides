@@ -1,57 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/horde_pet_battle_dailies
--- Date: 2017-03-10 23:21
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3545/revisions/26941/view
--- Date: 2014-11-08 13:09
--- Who: Ludovicus_Maior
--- Log: Got rid of extra M tag
-
--- URL: http://wow-pro.com/node/3545/revisions/26885/view
--- Date: 2014-11-08 00:28
--- Who: Emmaleah
--- Log: change QO|text to QO|# on the beasts of fable quests. and pondered why I can see the changes Fluclo made today when I look at show diff, but not in the text --- odd.
-
--- URL: http://wow-pro.com/node/3545/revisions/26842/view
--- Date: 2014-11-07 20:24
--- Who: Fluclo
--- Log: Fixed duplicate N and Z tags
-
--- URL: http://wow-pro.com/node/3545/revisions/26553/view
--- Date: 2014-07-06 15:35
--- Who: Ludovicus_Maior
--- Log: Added name/cat
-
--- URL: http://wow-pro.com/node/3545/revisions/26516/view
--- Date: 2014-06-10 23:26
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3545/revisions/25765/view
--- Date: 2013-09-21 02:04
--- Who: Emmaleah
--- Log: updated for Aki's new location in 5.4
-
--- URL: http://wow-pro.com/node/3545/revisions/25686/view
--- Date: 2013-05-27 04:58
--- Who: Emmaleah
--- Log: correct typo
-
--- URL: http://wow-pro.com/node/3545/revisions/25685/view
--- Date: 2013-05-27 00:25
--- Who: Emmaleah
--- Log: added in beasts of fable, moved order for Northrend, added subzone names, added |U| tags for opening bags.  Not to worry. Alliance coming later today, have to go to a birthday party now.
-
--- URL: http://wow-pro.com/node/3545/revisions/25560/view
--- Date: 2013-03-23 16:40
--- Who: Ludovicus_Maior
--- Log: Clone from http://wow-pro.com/node/3541
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("EmmPetBattles",'Dailies', "Vale of Eternal Blossoms", "Emmaleah", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
@@ -270,5 +220,6 @@ T Beasts of Fable Book III|QID|32869|M|60.79,23.68|Z|Vale of Eternal Blossoms|N|
 N End of Guide|QID|965820001|U|94207|N|You've reached the end of the guide! Don't forget to open all your treasure bags. This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]
 end)
+
 
 

@@ -1,120 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
--- Date: 2020-06-23 07:16
--- Who: Emmaleah
--- Log: error in fly to retribution point
-
--- URL: http://wow-pro.com/node/3407/revisions/30381/view
--- Date: 2019-08-25 16:57
--- Who: Ludovicus_Maior
--- Log: Ghostlands fix.
-
--- URL: http://wow-pro.com/node/3407/revisions/30039/view
--- Date: 2018-10-17 02:32
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3407/revisions/29440/view
--- Date: 2018-07-19 15:32
--- Who: Ludovicus_Maior
--- Log: Duratar -> Durotar
-
--- URL: http://wow-pro.com/node/3407/revisions/28794/view
--- Date: 2017-09-13 00:15
--- Who: Ludovicus_Maior
--- Log: Removed redundant QID tags where ACTIVE was good enough!
-
--- URL: http://wow-pro.com/node/3407/revisions/28776/view
--- Date: 2017-09-04 16:48
--- Who: Ludovicus_Maior
--- Log: Swapped around QID and ACTIVE tags to conform to new standard.
-
--- URL: http://wow-pro.com/node/3407/revisions/28722/view
--- Date: 2017-07-07 18:33
--- Who: Emmaleah
--- Log: oops. that's embarrassing, ending put back.
-
--- URL: http://wow-pro.com/node/3407/revisions/28712/view
--- Date: 2017-07-05 05:55
--- Who: Emmaleah
--- Log: add Draenor and Legion fires, and many changes to make things stay checked off when you go thru a loading screen as well as a few other improvements.
---	Yes, I know its the last day of the event, but I had another task IRL with a 6/30 deadline and didn't get to start this until then...
-
--- URL: http://wow-pro.com/node/3407/revisions/28516/view
--- Date: 2017-03-17 14:13
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL: http://wow-pro.com/node/3407/revisions/28283/view
--- Date: 2017-03-05 18:53
--- Who: Ludovicus_Maior
--- Log: Float the level
-
--- URL: http://wow-pro.com/node/3407/revisions/27717/view
--- Date: 2016-09-07 14:34
--- Who: Ludovicus_Maior
--- Log: Use  The Slave Pens@TheSlavePens
-
--- URL: http://wow-pro.com/node/3407/revisions/27710/view
--- Date: 2016-09-07 03:57
--- Who: Emmaleah
--- Log: added guide name registration, changed the registered zone to Orgrimmar and deleted all instances of '|Z|Orgrimmar'.
-
--- URL: http://wow-pro.com/node/3407/revisions/26847/view
--- Date: 2014-11-07 20:33
--- Who: Emmaleah
--- Log: deleted duplicate tags per Ludo's list o' errors
-
--- URL: http://wow-pro.com/node/3407/revisions/26574/view
--- Date: 2014-07-06 16:03
--- Who: Ludovicus_Maior
--- Log: Lots of coord updates
-
--- URL: http://wow-pro.com/node/3407/revisions/26501/view
--- Date: 2014-06-10 21:59
--- Who: Ludovicus_Maior
--- Log: Changed guide format.
-
--- URL: http://wow-pro.com/node/3407/revisions/25736/view
--- Date: 2013-07-07 00:08
--- Who: Emmaleah
--- Log: correct QID on Zul'drak Honor the flame
-
--- URL: http://wow-pro.com/node/3407/revisions/25733/view
--- Date: 2013-06-28 06:32
--- Who: Emmaleah
--- Log: Emmaleah 6/27/13 Many coordinate updates, added in all levels of !Striking Back, added in Pandaria Fires. Set Pandaria at Rank 1, and the alliance cities at rank 3.
-
--- URL: http://wow-pro.com/node/3407/revisions/25678/view
--- Date: 2013-05-17 20:51
--- Who: Ludovicus_Maior
--- Log: QID 11761 had an extra ')'
-
--- URL: http://wow-pro.com/node/3407/revisions/25019/view
--- Date: 2012-06-30 23:20
--- Who: Ludovicus_Maior
--- Log: Got rid of extra spaces.
-
--- URL: http://wow-pro.com/node/3407/revisions/25017/view
--- Date: 2012-06-30 21:08
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3407/revisions/24780/view
--- Date: 2011-10-29 18:09
--- Who: Crackerhead22
--- Log: Moved locations from quest name to notes part for each quest step for auto-accept/complete, added QIDs to some lines.
-
--- URL: http://wow-pro.com/node/3407/revisions/24640/view
--- Date: 2011-06-30 06:05
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3407/revisions/24632/view
--- Date: 2011-06-30 05:43
--- Who: Crackerhead22
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('EmmMidAch','WorldEvents','Orgrimmar', 'Emmaleah', 'Horde')
 WoWPro:GuideName(guide, 'Midsummer Fire Festival')
@@ -476,5 +363,6 @@ N Congratulations|N|If you followed all the steps in the guide you have the meta
 
 ]]
 end)
+
 
 

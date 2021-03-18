@@ -1,35 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/alchemy_recipies
--- Date: 2016-11-30 20:25
--- Who: Ludovicus_Maior
--- Log: Fix single section error.
-
--- URL: http://wow-pro.com/node/3565/revisions/27782/view
--- Date: 2016-09-14 18:28
--- Who: Ludovicus_Maior
--- Log: Dalaran City@Dalaran
-
--- URL: http://wow-pro.com/node/3565/revisions/27427/view
--- Date: 2016-01-09 01:23
--- Who: Ludovicus_Maior
--- Log: Orgrimmar@Orgrimmar
-
--- URL: http://wow-pro.com/node/3565/revisions/25910/view
--- Date: 2014-03-06 23:49
--- Who: Ludovicus_Maior
--- Log: Correct coords for [Transmute: Fire to Earth]
-
--- URL: http://wow-pro.com/node/3565/revisions/25900/view
--- Date: 2014-02-14 00:16
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3565/revisions/25883/view
--- Date: 2014-02-13 23:58
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoShopAlchemy","Profession", "Alchemy", "Ludovicus", "Neutral")
 WoWPro:GuideName(guide, "Alchemy Recipies")
@@ -105,5 +77,6 @@ B Elixir of Major Frost Power|QID|990028549|RECIPE|28549|M|32.40,51.90|Z|Zangarm
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
 
 

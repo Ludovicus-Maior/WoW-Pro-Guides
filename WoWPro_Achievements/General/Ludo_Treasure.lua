@@ -1,22 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/treasure_treasure_everywhere
--- Date: 2014-05-28 21:06
--- Who: Ludovicus_Maior
--- Log: Converted
-
--- URL: http://wow-pro.com/node/3562/revisions/25878/view
--- Date: 2014-02-13 16:53
--- Who: Ludovicus_Maior
--- Log: Tweaks!
-
--- URL: http://wow-pro.com/node/3562/revisions/25868/view
--- Date: 2014-01-13 22:31
--- Who: Ludovicus_Maior
--- Log: Initial Version
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('LudoTreasure',"Achievements",'Timeless Isle', 'Treasure, Treasure Everywhere','Neutral')
 WoWPro:GuideIcon(guide,"ACH",8729)
@@ -75,5 +60,6 @@ A One-Time Chest - Blazing Chest|QID|33210|M|47,26|N|From Moss-Covered Chest.|
 ]]
 
 end)
+
 
 

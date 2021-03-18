@@ -1,37 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/battle_pet_world_quests_broken_shore
--- Date: 2018-02-19 22:55
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3732/revisions/28729/view
--- Date: 2017-08-03 21:56
--- Who: Ludovicus_Maior
--- Log: Use world QIDs
-
--- URL: http://wow-pro.com/node/3732/revisions/28721/view
--- Date: 2017-07-05 21:16
--- Who: Ludovicus_Maior
--- Log: Update text.
-
--- URL: http://wow-pro.com/node/3732/revisions/28714/view
--- Date: 2017-07-05 21:08
--- Who: Ludovicus_Maior
--- Log: Add AS
-
--- URL: http://wow-pro.com/node/3732/revisions/28694/view
--- Date: 2017-06-13 20:05
--- Who: rpotor
--- Log: Fix edit and comment links
-
--- URL: http://wow-pro.com/node/3732/revisions/28693/view
--- Date: 2017-06-13 20:03
--- Who: rpotor
--- Log: Initial version
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LarePetWQBroken","Dailies","Legion","Larenon","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
@@ -80,5 +50,6 @@ C Zeppelin .vs. Fel|STRATEGY|Aranesh@WH|N|1) [ability=334/decoy] on cooldown\n2)
 
 ]]
 end)
+
 
 

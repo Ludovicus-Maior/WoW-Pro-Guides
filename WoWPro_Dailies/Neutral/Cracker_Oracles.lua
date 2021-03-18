@@ -1,41 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/neutral_oracles_reputation_dalies_sholazar_basin
--- Date: 2018-10-17 02:21
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3418/revisions/29608/view
--- Date: 2018-08-24 16:28
--- Who: Ludovicus_Maior
--- Log: Upgraded the QO's.
-
--- URL: http://wow-pro.com/node/3418/revisions/26560/view
--- Date: 2014-07-06 15:44
--- Who: Ludovicus_Maior
--- Log: Added levels and faction
-
--- URL: http://wow-pro.com/node/3418/revisions/26527/view
--- Date: 2014-06-11 19:12
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3418/revisions/25250/view
--- Date: 2012-12-16 02:49
--- Who: Emmaleah
--- Log: changed WTLK to Lich so that all the guides sort together
-
--- URL: http://wow-pro.com/node/3418/revisions/24986/view
--- Date: 2012-05-27 18:35
--- Who: Ludovicus_Maior
--- Log: Fixed some coordinates.
-
--- URL: http://wow-pro.com/node/3418/revisions/24650/view
--- Date: 2011-06-30 19:10
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("CraShoOra",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral")
 WoWPro:GuideLevels(guide,76,77,76.5)
@@ -83,5 +49,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
+
 
 

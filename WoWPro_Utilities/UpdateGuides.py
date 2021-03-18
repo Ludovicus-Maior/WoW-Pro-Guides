@@ -56,7 +56,7 @@ else:
 
 def ParseArgs():
     parser = optparse.OptionParser()
-    parser.add_option('-U','--url',dest="url",help="Root URL for WoWPro Source",default='http://wow-pro.com/node/3196')
+-- URL:
     parser.add_option('-R','--root',dest="root",help='Root directory for WoWPro_Leveling',default=DEFAULT_ROOT)
     parser.add_option('-N',"--no",dest="noupdate",action='store_true',default=False,help='Check, but do not update')
     parser.add_option('-T',"--test",dest="test",action='store_true',default=False,help='Test updating one guide')
@@ -464,7 +464,7 @@ def UpdateGuideFile(guide):
     print("", file=file)
     print("-- WoWPro Guides by \"The WoW-Pro Community\" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.", file=file)
     print("-- Based on a work at github.com.", file=file)
-    print("-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.", file=file)
+    print("-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.", file=file)
     print("", file=file)
 
 
@@ -498,9 +498,9 @@ if __name__ == "__main__":
     if pa.test == True:
         logging.info("Running short test")
         ScrapeWoWProLua("/Users/lfo/WoW/WoW-Pro-Guides_Master/WoWPro_Achievements/Garrison_Alliance/Ludo_BuildA.lua")
-        fs=FindSource("http://wow-pro.com/node/3631")
+-- URL:
         src=fs.ReadGuide()
-        fs=FindRevisions("http://wow-pro.com/node/3631",True)
+-- URL:
         src=fs.ReadGuide()
         UpdateGuideFile("LudoBuildingsAlliance")
         exit(0)
@@ -513,3 +513,4 @@ if __name__ == "__main__":
         UpdateFiles()
 
     
+

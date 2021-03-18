@@ -1,37 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/battle_pet_world_quests_highmountain
--- Date: 2020-04-08 19:26
--- Who: Ludovicus_Maior
--- Log: [Snail Fight!]
-
--- URL: http://wow-pro.com/node/3734/revisions/28733/view
--- Date: 2017-08-03 22:02
--- Who: Ludovicus_Maior
--- Log: Work of just World QIDs
-
--- URL: http://wow-pro.com/node/3734/revisions/28732/view
--- Date: 2017-08-03 21:59
--- Who: Ludovicus_Maior
--- Log: .
-
--- URL: http://wow-pro.com/node/3734/revisions/28731/view
--- Date: 2017-08-03 21:58
--- Who: Ludovicus_Maior
--- Log: Work off of World QIDs
-
--- URL: http://wow-pro.com/node/3734/revisions/28717/view
--- Date: 2017-07-05 21:09
--- Who: Ludovicus_Maior
--- Log: Add AS
-
--- URL: http://wow-pro.com/node/3734/revisions/28696/view
--- Date: 2017-06-13 20:10
--- Who: rpotor
--- Log: Initial version
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LarePetWQHigh","Dailies","Legion","Larenon","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
@@ -95,5 +65,6 @@ C Strat by Hazelnuttygames@Youtube|QID|41766|STRATEGY|Hazel@YT|N|1) Extra Platin
 
 ]]
 end)
+
 
 

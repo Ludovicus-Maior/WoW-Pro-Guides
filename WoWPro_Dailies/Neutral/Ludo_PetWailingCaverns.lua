@@ -1,27 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/pet_battles_wailing_caverns
--- Date: 2020-07-10 00:26
--- Who: Ludovicus_Maior
--- Log: Teroclaw Hatchling was nerfed.  Starting to compensate.
-
--- URL: http://wow-pro.com/node/3756/revisions/30088/view
--- Date: 2018-10-23 23:32
--- Who: Ludovicus_Maior
--- Log: And/Or Mark II
-
--- URL: http://wow-pro.com/node/3756/revisions/30074/view
--- Date: 2018-10-23 22:00
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3756/revisions/28997/view
--- Date: 2018-02-19 23:00
--- Who: Ludovicus_Maior
--- Log: Initial Upload
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoPetWailingCaverns","Dailies","Wailing Caverns!Dungeon825","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
@@ -101,5 +81,6 @@ A Pet Battle Challenge: Wailing Caverns|QID|45539|PRE|45423|M|38.96,68.11|Z|Nort
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]
 end)
+
 
 

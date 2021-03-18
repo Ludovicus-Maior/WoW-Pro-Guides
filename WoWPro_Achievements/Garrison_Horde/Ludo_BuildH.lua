@@ -1,36 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/garrison_buildings_horde
--- Date: 2017-03-23 17:36
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3632/revisions/28312/view
--- Date: 2017-03-10 22:50
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3632/revisions/27716/view
--- Date: 2016-09-07 14:27
--- Who: Ludovicus_Maior
--- Log: Use Bladespire Citadel@FrostfireRidge
-
--- URL: http://wow-pro.com/node/3632/revisions/27500/view
--- Date: 2016-07-30 21:03
--- Who: Ludovicus_Maior
--- Log: Added @FrostfireRidge
-
--- URL: http://wow-pro.com/node/3632/revisions/27435/view
--- Date: 2016-03-22 20:44
--- Who: Ludovicus_Maior
--- Log: Trimmed useless |N| from [Big Frostfire Gun]
-
--- URL: http://wow-pro.com/node/3632/revisions/27297/view
--- Date: 2015-06-23 12:19
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('LudoBuildingsHorde', 'Achievements', 'Frostfire Ridge', 'Ludovicus', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
@@ -237,5 +208,6 @@ T Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|
 ]]
 
 end)
+
 
 

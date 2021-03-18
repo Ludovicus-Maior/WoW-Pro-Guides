@@ -1,17 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/achievements_bigger_fish_fry_artifact_fishing_pole
--- Date: 2018-02-19 22:44
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3751/revisions/28831/view
--- Date: 2018-01-15 18:47
--- Who: Ludovicus
--- Log: Initial Version
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoFishFry",'Achievements', "The Broken Isles", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
@@ -65,5 +55,6 @@ T Fish Frenzy|QID|41010|M|52.81,65.59|Z|Dalaran@Dalaran70|N|Take the boat back t
 ]]
 
 end)
+
 
 

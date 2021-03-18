@@ -1,57 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/skyguard_dalies
--- Date: 2018-10-17 02:22
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3457/revisions/29607/view
--- Date: 2018-08-24 16:21
--- Who: Ludovicus_Maior
--- Log: Updated QO's on [Secrets of the Talonpriests]
-
--- URL: http://wow-pro.com/node/3457/revisions/28999/view
--- Date: 2018-02-19 23:03
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3457/revisions/28337/view
--- Date: 2017-03-11 18:29
--- Who: Ludovicus_Maior
--- Log: Added PREs; syntax changes.
-
--- URL: http://wow-pro.com/node/3457/revisions/26563/view
--- Date: 2014-07-06 15:48
--- Who: Ludovicus_Maior
--- Log: Aded levels and faction
-
--- URL: http://wow-pro.com/node/3457/revisions/26530/view
--- Date: 2014-06-11 19:17
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3457/revisions/25629/view
--- Date: 2013-05-14 15:49
--- Who: Ludovicus_Maior
--- Log: Corrected coord for K Talonpriest Zellek
-
--- URL: http://wow-pro.com/node/3457/revisions/25372/view
--- Date: 2013-01-12 19:21
--- Who: Ludovicus_Maior
--- Log: Added some CN tags
-
--- URL: http://wow-pro.com/node/3457/revisions/24899/view
--- Date: 2012-01-19 00:04
--- Who: Ludovicus_Maior
--- Log: Correct node numbers.
-
--- URL: http://wow-pro.com/node/3457/revisions/24898/view
--- Date: 2012-01-19 00:04
--- Who: Ludovicus_Maior
--- Log: Sync to GIT
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoSkyguard",'Dailies', "Terokkar Forest", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,70,70,70)
@@ -119,5 +69,6 @@ T Adversarial Blood|QID|11885|PRE|11029|M|64.2,66.8|N|To Hazzik|
 
 ]]
 end)
+
 
 

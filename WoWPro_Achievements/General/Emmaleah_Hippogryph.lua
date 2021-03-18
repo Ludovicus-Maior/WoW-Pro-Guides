@@ -1,27 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/time_forgotten_hippogryph_mount
--- Date: 2017-06-12 23:30
--- Who: Ludovicus_Maior
--- Log: Change Icon to a MOUNT instead of spell.
-
--- URL: http://wow-pro.com/node/3728/revisions/28671/view
--- Date: 2017-05-26 18:27
--- Who: Emmaleah
--- Log: added missing CS tags, deleted extraneous |N| tag
-
--- URL: http://wow-pro.com/node/3728/revisions/28670/view
--- Date: 2017-05-15 07:16
--- Who: Emmaleah
--- Log: correct header for node #
-
--- URL: http://wow-pro.com/node/3728/revisions/28669/view
--- Date: 2017-05-15 07:15
--- Who: Emmaleah
--- Log: First public draft
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('Emm_Hippogryph', 'Achievements', 'Azsuna', 'Emmaleah', 'Neutral')
 WoWPro:GuideIcon(guide,"MOUNT",215159)
@@ -162,5 +142,6 @@ N Reset|QID|99999|N|Hope you found your mount, if not reset and try another day.
 ]]
 
 end)
+
 
 

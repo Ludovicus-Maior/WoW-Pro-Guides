@@ -1,31 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/profession_jewelcrafting
--- Date: 2017-03-06 03:12
--- Who: Ludovicus_Maior
--- Log: WoWPro:GuideLevels(guide)
-
--- URL: http://wow-pro.com/node/3427/revisions/28197/view
--- Date: 2017-01-02 22:39
--- Who: Ludovicus_Maior
--- Log: New style registration
-
--- URL: http://wow-pro.com/node/3427/revisions/25664/view
--- Date: 2013-05-16 01:19
--- Who: Twists
-
--- URL: http://wow-pro.com/node/3427/revisions/25662/view
--- Date: 2013-05-16 01:11
--- Who: Twists
--- Log: Update to the new parser.
-
--- URL: http://wow-pro.com/node/3427/revisions/24686/view
--- Date: 2011-07-13 22:51
--- Who: Ludovicus_Maior
--- Log: Sync from GitHub
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("TwiJewelcrafting","Profession","Jewelcrafting", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",755)
@@ -46,5 +22,6 @@ N That completes Jewelcrafting.
 ]]
 
 end)
+
 
 

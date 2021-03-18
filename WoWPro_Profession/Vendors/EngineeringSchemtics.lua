@@ -1,25 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/engineering_schematics
--- Date: 2017-01-02 22:45
--- Who: Ludovicus_Maior
--- Log: New registration style
-
--- URL: http://wow-pro.com/node/3569/revisions/28081/view
--- Date: 2016-11-30 20:24
--- Who: Ludovicus_Maior
--- Log: Fix single section error.
-
--- URL: http://wow-pro.com/node/3569/revisions/25896/view
--- Date: 2014-02-14 00:14
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3569/revisions/25887/view
--- Date: 2014-02-14 00:05
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoShopEngineering","Profession", "Engineering", "Ludovicus", "Neutral")
 WoWPro:GuideName(guide, "Engineering Schematics")
@@ -106,5 +88,6 @@ B Small Blue Rocket|QID|990026416|RECIPE|26416|M|54.00,35.40|Z|Moonglade|P|Engin
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
 
 

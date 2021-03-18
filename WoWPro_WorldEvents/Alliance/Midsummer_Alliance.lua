@@ -1,113 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
--- Date: 2018-10-17 02:31
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3406/revisions/28506/view
--- Date: 2017-03-17 13:54
--- Who: Ludovicus_Maior
--- Log: Just 2 PREs
-
--- URL: http://wow-pro.com/node/3406/revisions/28282/view
--- Date: 2017-03-05 18:52
--- Who: Ludovicus_Maior
--- Log: Float the level
-
--- URL: http://wow-pro.com/node/3406/revisions/27775/view
--- Date: 2016-09-14 17:41
--- Who: Ludovicus_Maior
--- Log: Dalaran City@Dalaran
-
--- URL: http://wow-pro.com/node/3406/revisions/27159/view
--- Date: 2015-03-09 17:19
--- Who: Ludovicus_Maior
--- Log: Added missing Z tag
-
--- URL: http://wow-pro.com/node/3406/revisions/26608/view
--- Date: 2014-07-25 21:53
--- Who: Ludovicus_Maior
--- Log: adj levels
-
--- URL: http://wow-pro.com/node/3406/revisions/26502/view
--- Date: 2014-06-10 22:00
--- Who: Ludovicus_Maior
--- Log: Changed guide format.
-
--- URL: http://wow-pro.com/node/3406/revisions/25734/view
--- Date: 2013-06-29 23:42
--- Who: Twists
--- Log: Add Pandarian Fires
-
--- URL: http://wow-pro.com/node/3406/revisions/25730/view
--- Date: 2013-06-23 21:47
--- Who: Kaboca
--- Log: The missing Un'Goro Crater entries added to the guide.
-
--- URL: http://wow-pro.com/node/3406/revisions/25025/view
--- Date: 2012-07-01 20:58
--- Who: Ludovicus_Maior
--- Log: Optimize ordering for Northrend.
-
--- URL: http://wow-pro.com/node/3406/revisions/25024/view
--- Date: 2012-07-01 20:26
--- Who: Ludovicus_Maior
--- Log: Corrected coords for flight to Shattrath in Netherstorm
-
--- URL: http://wow-pro.com/node/3406/revisions/25023/view
--- Date: 2012-07-01 20:08
--- Who: Ludovicus_Maior
--- Log: Change R step from Vashjir to Darkbreak Cove
-
--- URL: http://wow-pro.com/node/3406/revisions/25022/view
--- Date: 2012-07-01 17:00
--- Who: Ludovicus_Maior
--- Log: Remove silly comment about setting hearth to stormwind for trip to Deepholm.
-
--- URL: http://wow-pro.com/node/3406/revisions/25021/view
--- Date: 2012-07-01 16:58
--- Who: Ludovicus_Maior
--- Log: Trim incorrect comment about Cata zones not counting.
-
--- URL: http://wow-pro.com/node/3406/revisions/25009/view
--- Date: 2012-06-26 18:36
--- Who: Ludovicus_Maior
--- Log: Three way merge of my, Twists and Laotseu's updates.
-
--- URL: http://wow-pro.com/node/3406/revisions/25008/view
--- Date: 2012-06-26 11:59
--- Who: Laotseu
-
--- URL: http://wow-pro.com/node/3406/revisions/25007/view
--- Date: 2012-06-26 11:55
--- Who: Laotseu
-
--- URL: http://wow-pro.com/node/3406/revisions/24781/view
--- Date: 2011-10-29 18:10
--- Who: Crackerhead22
--- Log: Moved zone names from quest name to notes for quest steps for auto-accept/complete to work.
-
--- URL: http://wow-pro.com/node/3406/revisions/24680/view
--- Date: 2011-07-12 23:21
--- Who: Ludovicus_Maior
--- Log: The )end must be on a line by itself.
-
--- URL: http://wow-pro.com/node/3406/revisions/24653/view
--- Date: 2011-06-30 22:39
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3406/revisions/24631/view
--- Date: 2011-06-30 05:42
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3406/revisions/24630/view
--- Date: 2011-06-30 05:34
--- Who: Crackerhead22
--- Log: Added source code to page.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("CraMidSumA",'WorldEvents',"Midsummer Fire Festival", "Crackerhead22", "Alliance")
 WoWPro:GuideLevels(guide)
@@ -323,5 +217,6 @@ N The End |N|That's all for this year.|
 
 ]]
 end)
+
 
 

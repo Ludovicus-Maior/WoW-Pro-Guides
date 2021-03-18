@@ -1,76 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
--- Date: 2017-03-15 20:30
--- Who: Ludovicus_Maior
--- Log: Added PRE
-
--- URL: http://wow-pro.com/node/3544/revisions/27773/view
--- Date: 2016-09-14 17:32
--- Who: Ludovicus_Maior
--- Log: Updated to Dalaran City@Dalaran
-
--- URL: http://wow-pro.com/node/3544/revisions/27119/view
--- Date: 2015-01-04 23:36
--- Who: Ludovicus_Maior
--- Log: Corrected faction line.
-
--- URL: http://wow-pro.com/node/3544/revisions/26952/view
--- Date: 2014-11-09 03:17
--- Who: Emmaleah
--- Log: missed updating one QO|4
-
--- URL: http://wow-pro.com/node/3544/revisions/26946/view
--- Date: 2014-11-08 14:54
--- Who: Ludovicus_Maior
--- Log: Removed lone '['
-
--- URL: http://wow-pro.com/node/3544/revisions/26942/view
--- Date: 2014-11-08 13:10
--- Who: Ludovicus_Maior
--- Log: Extra N and M gads brought to you by the letter X
-
--- URL: http://wow-pro.com/node/3544/revisions/26866/view
--- Date: 2014-11-07 22:20
--- Who: Emmaleah
--- Log: corrected errors per list 'o errors. Changed QO|text:0/1 to QO|#
-
--- URL: http://wow-pro.com/node/3544/revisions/26836/view
--- Date: 2014-11-06 18:22
--- Who: Fluclo
--- Log: Added missing pipe, and capitalised RANK.
-
--- URL: http://wow-pro.com/node/3544/revisions/26515/view
--- Date: 2014-06-10 23:23
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3544/revisions/25764/view
--- Date: 2013-09-21 02:02
--- Who: Emmaleah
--- Log: update Aki's location for 5.4
-
--- URL: http://wow-pro.com/node/3544/revisions/25687/view
--- Date: 2013-05-27 05:03
--- Who: Emmaleah
--- Log: updated for 5.3 (beasts of fable split in 3 quests), rearranged order of Northrend, added Beasts of Fable, added U tags to open bags.  NOTE: you must manually click off the C steps for Beasts of Fable as the guide doesn't recognize the QO tags on these quests.
-
--- URL: http://wow-pro.com/node/3544/revisions/25606/view
--- Date: 2013-03-26 03:09
--- Who: Emmaleah
--- Log: change stormwind to stormwind city (one more spot)
-
--- URL: http://wow-pro.com/node/3544/revisions/25603/view
--- Date: 2013-03-24 00:47
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3544/revisions/25559/view
--- Date: 2013-03-23 16:38
--- Who: Ludovicus_Maior
--- Log: Initial clone from http://wow-pro.com/node/3542
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("RajiPetBattles",'Dailies', "Vale of Eternal Blossoms", "Rajitazi", "Alliance")
 WoWPro:GuideLevels(guide,1,90,45.000000)
@@ -290,5 +221,6 @@ T Beasts of Fable Book III|QID|32869|M|86.4,60|Z|Vale of Eternal Blossoms|N|To S
 N End of Guide|QID|965820001|U|94207|N|You've reached the end of the guide! Don't forget to open any treasure bags you have. This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|RANK|1|
 ]]
 end)
+
 
 

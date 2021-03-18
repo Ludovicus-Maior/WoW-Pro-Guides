@@ -1,92 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/timeless_isle
--- Date: 2019-10-16 00:01
--- Who: Ludovicus_Maior
--- Log: Avoid bad markup
-
--- URL: http://wow-pro.com/node/3561/revisions/29911/view
--- Date: 2018-10-17 02:22
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3561/revisions/29605/view
--- Date: 2018-08-24 16:13
--- Who: Ludovicus_Maior
--- Log: Converted old style QOs.
-
--- URL: http://wow-pro.com/node/3561/revisions/29544/view
--- Date: 2018-08-18 20:54
--- Who: Ludovicus_Maior
--- Log: Change bogus L steps to K steps for "Great Chef Woo"'s quests.
-
--- URL: http://wow-pro.com/node/3561/revisions/29000/view
--- Date: 2018-02-19 23:06
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3561/revisions/28338/view
--- Date: 2017-03-11 18:31
--- Who: Ludovicus_Maior
--- Log: Added PREs; syntax changes.
-
--- URL: http://wow-pro.com/node/3561/revisions/26881/view
--- Date: 2014-11-08 00:21
--- Who: Ludovicus_Maior
--- Log: Removed rogue N tag
-
--- URL: http://wow-pro.com/node/3561/revisions/26637/view
--- Date: 2014-07-26 22:26
--- Who: Ludovicus_Maior
--- Log: Play through as horde!
-
--- URL: http://wow-pro.com/node/3561/revisions/26566/view
--- Date: 2014-07-06 15:51
--- Who: Ludovicus_Maior
--- Log: Added levels
-
--- URL: http://wow-pro.com/node/3561/revisions/26533/view
--- Date: 2014-06-11 19:21
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3561/revisions/25942/view
--- Date: 2014-04-21 18:34
--- Who: Ludovicus_Maior
--- Log: Re-arrange quests a bit.
-
--- URL: http://wow-pro.com/node/3561/revisions/25922/view
--- Date: 2014-03-17 20:14
--- Who: Ludovicus_Maior
--- Log: Change zone to Temple of the Jade Serpent@EastTemple
-
--- URL: http://wow-pro.com/node/3561/revisions/25901/view
--- Date: 2014-02-14 02:55
--- Who: Ludovicus_Maior
--- Log: Oops!
-
--- URL: http://wow-pro.com/node/3561/revisions/25877/view
--- Date: 2014-02-13 16:51
--- Who: Ludovicus_Maior
--- Log: Cleanup coords, flow.  Spend too much time here.
-
--- URL: http://wow-pro.com/node/3561/revisions/25869/view
--- Date: 2014-01-13 22:42
--- Who: Ludovicus_Maior
--- Log: Ahem, bad coords.
-
--- URL: http://wow-pro.com/node/3561/revisions/25866/view
--- Date: 2014-01-12 20:57
--- Who: Ludovicus_Maior
--- Log: Break out the chests into another guide and make it useful!
-
--- URL: http://wow-pro.com/node/3561/revisions/25864/view
--- Date: 2014-01-02 04:14
--- Who: Ludovicus_Maior
--- Log: Initial Draft.  Missing many C steps.  Order is awful till I play through it.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoTimeless",'Dailies', "Timeless Isle", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,90,90,90)
@@ -308,5 +223,6 @@ T Noodle Time: Bonus|QID|33358|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sun
 ]]
 
 end)
+
 
 

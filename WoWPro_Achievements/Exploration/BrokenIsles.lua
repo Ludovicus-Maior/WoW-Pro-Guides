@@ -1,16 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/exploration_achievements_legion
--- Date: 2017-03-17 15:31
--- Who: Ludovicus_Maior
--- Log: Change title to Exploration Achievements - Legion
-
--- URL: http://wow-pro.com/node/3718/revisions/28521/view
--- Date: 2017-03-17 15:29
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoExpBrokenIsles","Achievements","Broken Isles","Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
@@ -96,5 +87,6 @@ F Tel'anor|QID|1006690011|M|42.2,35.5|Z|Suramar|ACH|10669;11|
 N Congratulations on exploring the Broken Isles!
 ]]
 end)
+
 
 

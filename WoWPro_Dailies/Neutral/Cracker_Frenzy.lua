@@ -1,46 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/neutral_frenzyheart_tribe_reputation_dalies_sholazar_basin
--- Date: 2018-10-17 02:21
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3417/revisions/29611/view
--- Date: 2018-08-24 16:46
--- Who: Ludovicus_Maior
--- Log: Corrected a few QO's
-
--- URL: http://wow-pro.com/node/3417/revisions/26839/view
--- Date: 2014-11-06 18:25
--- Who: Fluclo
--- Log: Added missing |M| tag
-
--- URL: http://wow-pro.com/node/3417/revisions/26579/view
--- Date: 2014-07-19 17:02
--- Who: Ludovicus_Maior
--- Log: Adjust mean level
-
--- URL: http://wow-pro.com/node/3417/revisions/26557/view
--- Date: 2014-07-06 15:40
--- Who: Ludovicus_Maior
--- Log: Added levels and faction
-
--- URL: http://wow-pro.com/node/3417/revisions/26524/view
--- Date: 2014-06-11 19:08
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3417/revisions/25251/view
--- Date: 2012-12-16 02:50
--- Who: Emmaleah
--- Log: changed WTLK to Lich so that all the guides sort together
-
--- URL: http://wow-pro.com/node/3417/revisions/24649/view
--- Date: 2011-06-30 19:07
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("CraShoFre",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral")
 WoWPro:GuideLevels(guide,74,77,76.5)
@@ -89,5 +50,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
+
 
 

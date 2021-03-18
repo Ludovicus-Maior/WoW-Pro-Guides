@@ -1,27 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/battle_pet_world_quests_stormheim
--- Date: 2017-08-04 21:29
--- Who: Ludovicus_Maior
--- Log: Added alternate strategy for [All Howl, No Bite]
-
--- URL: http://wow-pro.com/node/3735/revisions/28734/view
--- Date: 2017-08-03 22:02
--- Who: Ludovicus_Maior
--- Log: Just work off of world QIDs
-
--- URL: http://wow-pro.com/node/3735/revisions/28718/view
--- Date: 2017-07-05 21:10
--- Who: Ludovicus_Maior
--- Log: Add AS
-
--- URL: http://wow-pro.com/node/3735/revisions/28697/view
--- Date: 2017-06-13 20:12
--- Who: rpotor
--- Log: Initial version
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LarePetWQStorm","Dailies","Legion","Larenon","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
@@ -105,5 +85,6 @@ C Strat by Hazelnuttygames@Youtube|QID|41958|STRATEGY|Hazel@YT|N|1) Dodge on coo
 
 ]]
 end)
+
 
 

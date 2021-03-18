@@ -1,26 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/grizzly_hills_honor_points_dailies
--- Date: 2014-07-06 15:34
--- Who: Ludovicus_Maior
--- Log: Added levels and faction
-
--- URL: http://wow-pro.com/node/3528/revisions/26514/view
--- Date: 2014-06-10 23:22
--- Who: Ludovicus_Maior
--- Log: Changed guide level.
-
--- URL: http://wow-pro.com/node/3528/revisions/25493/view
--- Date: 2013-01-14 00:32
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3528/revisions/25486/view
--- Date: 2013-01-13 23:37
--- Who: Ludovicus_Maior
--- Log: Init version with CS correction.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoHonorPoints",'Dailies', "Grizzly Hills", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,73,73,73)
@@ -56,5 +37,6 @@ T Riding the Red Rocket|QID|12437|N|To Commander Howser.|M|14.8,86.6|
 
 ]]
 end)
+
 
 

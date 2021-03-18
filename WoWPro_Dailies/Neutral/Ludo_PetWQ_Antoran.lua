@@ -1,22 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/node/3743
--- Date: 2018-02-19 22:59
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3743/revisions/28791/view
--- Date: 2017-09-12 21:29
--- Who: Ludovicus_Maior
--- Log: Revised Earseeker
-
--- URL: http://wow-pro.com/node/3743/revisions/28780/view
--- Date: 2017-09-05 22:57
--- Who: Ludovicus_Maior
--- Log: Initial Cut
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoPetWQAntoran","Dailies","ArgusCore","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
@@ -93,5 +78,6 @@ C Mechanical|QID|49053|STRATEGY|XuFu_Watcher|N|1) Do whatever for the last bit|S
 
 ]]
 end)
+
 
 

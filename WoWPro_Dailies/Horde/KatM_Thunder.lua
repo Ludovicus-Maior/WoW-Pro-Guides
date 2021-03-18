@@ -1,56 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/isle_thunder_horde
--- Date: 2018-09-04 21:23
--- Who: Ludovicus
--- Log: Corrected QO on [De-Constructed]
-
--- URL: http://wow-pro.com/node/3540/revisions/29596/view
--- Date: 2018-08-24 09:38
--- Who: Emmaleah
--- Log: correct old style QOs
-
--- URL: http://wow-pro.com/node/3540/revisions/28986/view
--- Date: 2018-02-19 22:49
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3540/revisions/28324/view
--- Date: 2017-03-10 23:21
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3540/revisions/26943/view
--- Date: 2014-11-08 13:16
--- Who: Ludovicus_Maior
--- Log: Acdd filler M and NPC's for later.
-
--- URL: http://wow-pro.com/node/3540/revisions/26584/view
--- Date: 2014-07-20 19:23
--- Who: Ludovicus_Maior
--- Log: Right faction
-
--- URL: http://wow-pro.com/node/3540/revisions/26512/view
--- Date: 2014-06-10 23:17
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3540/revisions/25607/view
--- Date: 2013-04-08 18:43
--- Who: Emmaleah
--- Log: corrected some lines that had  where they shouldn't, added some spaces, deleted a duplicate line. Still needs some work as it did not flow well, when I ran thru for the first time, but perhaps it is because I waited till almost all the phases are open before I ran thru it the first time?!?
-
--- URL: http://wow-pro.com/node/3540/revisions/25550/view
--- Date: 2013-03-16 18:23
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3540/revisions/25549/view
--- Date: 2013-03-16 18:22
--- Who: Ludovicus_Maior
--- Log: Initial version with some edits by Ludo from KatM
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("KatMThunderKing",'Dailies', "Isle of Thunder", "KatM", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
@@ -216,5 +167,6 @@ N Done for the Day|N|Be sure to get your 522 neck Cost: 1250 Valor Rep: neutral.
 
 ]]
 end)
+
 
 

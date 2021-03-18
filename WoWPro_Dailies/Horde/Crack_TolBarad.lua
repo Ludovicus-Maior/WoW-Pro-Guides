@@ -1,85 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
--- Date: 2018-10-17 22:26
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3416/revisions/28554/view
--- Date: 2017-03-23 17:41
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3416/revisions/28322/view
--- Date: 2017-03-10 23:19
--- Who: Ludovicus_Maior
--- Log: Syntax changes.
-
--- URL: http://wow-pro.com/node/3416/revisions/26838/view
--- Date: 2014-11-06 18:24
--- Who: Fluclo
--- Log: Added missing |N| tag
-
--- URL: http://wow-pro.com/node/3416/revisions/26633/view
--- Date: 2014-07-26 00:35
--- Who: Ludovicus_Maior
--- Log: OOps, wrong faction
-
--- URL: http://wow-pro.com/node/3416/revisions/26589/view
--- Date: 2014-07-25 19:04
--- Who: Ludovicus_Maior
--- Log: Whoops!   Copied over the alliance version by accident.
-
--- URL: http://wow-pro.com/node/3416/revisions/26511/view
--- Date: 2014-06-10 23:15
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3416/revisions/25717/view
--- Date: 2013-06-18 00:57
--- Who: Ludovicus_Maior
--- Log: quest 28665's name [Cursed Shackels] does not match Grail's database [Cursed Shackles].
-
--- URL: http://wow-pro.com/node/3416/revisions/25675/view
--- Date: 2013-05-17 20:46
--- Who: Ludovicus_Maior
--- Log: Watch Out For Splinters!
-
--- URL: http://wow-pro.com/node/3416/revisions/25484/view
--- Date: 2013-01-13 19:56
--- Who: Ludovicus_Maior
--- Log: Spell Orgrimmar right again.
-
--- URL: http://wow-pro.com/node/3416/revisions/25452/view
--- Date: 2013-01-13 17:49
--- Who: Ludovicus_Maior
--- Log: Spell Orgrimmar right and use ,'s to separate coords instead of ;'s!
-
--- URL: http://wow-pro.com/node/3416/revisions/25451/view
--- Date: 2013-01-13 17:48
--- Who: Ludovicus_Maior
--- Log: Malformed coords!
-
--- URL: http://wow-pro.com/node/3416/revisions/25293/view
--- Date: 2013-01-09 01:43
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3416/revisions/24879/view
--- Date: 2011-12-29 02:26
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3416/revisions/24878/view
--- Date: 2011-12-29 02:25
--- Who: Crackerhead22
--- Log: Split Tol Barad Peninsula and Tol Barad guides.
-
--- URL: http://wow-pro.com/node/3416/revisions/24648/view
--- Date: 2011-06-30 19:05
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("CraToBarH",'Dailies', "Tol Barad", "Crackerhead22", "Horde")
 WoWPro:GuideLevels(guide,1,85,90)
@@ -145,5 +67,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 
 ]]
 end)
+
 
 

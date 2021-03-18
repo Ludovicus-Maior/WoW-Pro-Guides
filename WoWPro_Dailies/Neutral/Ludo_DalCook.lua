@@ -1,72 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/dalaran_cooking_and_fishing_dalies
--- Date: 2018-10-17 22:30
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3477/revisions/29546/view
--- Date: 2018-08-18 20:59
--- Who: Ludovicus_Maior
--- Log: Change L to l for fishing quests
-
--- URL: http://wow-pro.com/node/3477/revisions/29545/view
--- Date: 2018-08-18 20:57
--- Who: Ludovicus_Maior
--- Log: Change L steps to l steps for cooking dailies.
-
--- URL: http://wow-pro.com/node/3477/revisions/26857/view
--- Date: 2014-11-07 20:45
--- Who: Fluclo
--- Log: Fixed coord tag for Bloated Slippery Eel
-
--- URL: http://wow-pro.com/node/3477/revisions/26856/view
--- Date: 2014-11-07 20:44
--- Who: Fluclo
--- Log: Added missing |M| tag
-
--- URL: http://wow-pro.com/node/3477/revisions/26555/view
--- Date: 2014-07-06 15:38
--- Who: Ludovicus_Maior
--- Log: Added name/faction.
-
--- URL: http://wow-pro.com/node/3477/revisions/26522/view
--- Date: 2014-06-11 19:02
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3477/revisions/25641/view
--- Date: 2013-05-14 19:03
--- Who: Ludovicus_Maior
--- Log: Bad coord
-
--- URL: http://wow-pro.com/node/3477/revisions/25640/view
--- Date: 2013-05-14 19:01
--- Who: Ludovicus_Maior
--- Log: More @DalaranCity
-
--- URL: http://wow-pro.com/node/3477/revisions/25622/view
--- Date: 2013-05-14 15:23
--- Who: Ludovicus_Maior
--- Log: Updated to The Underbelly@DalaranCity
-
--- URL: http://wow-pro.com/node/3477/revisions/25424/view
--- Date: 2013-01-13 15:03
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3477/revisions/25362/view
--- Date: 2013-01-12 18:45
--- Who: Ludovicus_Maior
--- Log: Lots of CN tags
-
--- URL: http://wow-pro.com/node/3477/revisions/24995/view
--- Date: 2012-05-27 19:57
--- Who: Ludovicus_Maior
--- Log: Initial Version
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoDalCook",'Dailies', "Dalaran", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,10,10)
@@ -110,3 +45,4 @@ l Vegetable Stew|QID|13102^13114|U|43147|L|43149|Z|125|N|Make a fire and use the
 T Sewer Stew|QID|13102^13114|M|35.6,56.8|Z|The Underbelly@DalaranCity|N|To Ajay Green at inn in the Sewers.|
 ]]
 end)
+
