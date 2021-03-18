@@ -67,27 +67,27 @@ R Stormwind City|ACTIVE|120|M|70.82,88.48|Z|Stormwind City|N|Return to Stormwind
 T Messenger to Stormwind|QID|120|M|64.01,75.38|Z|Stormwind City|N|To General Marcus Jonathan in Old Town. You'll find him on the 2nd floor inside SI:7.|
 A Messenger to Stormwind|QID|121|M|64.01,75.38|Z|Stormwind City|N|From General Marcus Jonathan.|PRE|120|
 B Cask of Merlot|ACTIVE|116|M|52.15,67.87|Z|Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
-T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|Stormwind City|N|To Master Mathias Shaw.|
-A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
 F Lakeshire|ACTIVE|119|M|66.29,62.13|Z|Stormwind City|N|Fly back to Redridge.|
 T Return to Verner|QID|119|M|30.98,47.28|Z|Redridge Mountains|N|To Verner Osgood.|
 A Underbelly Scales|QID|122|M|30.98,47.28|N|From Verner Osgood.|PRE|119|
 
-C Redridge Goulash|ACTIVE|92|QO|1;2;3|N|Kill tarantulas, goretusks and condors for the items required.|S|LVL|17|
+C Redridge Goulash|ACTIVE|92|QO|1;2;3|N|Kill tarantulas, goretusks for the items required.|S|LVL|17|
+C Redridge Goulash|ACTIVE|92|QO|1;3|N|Kill tarantulas and goretusks for the items required.|S|LVL|-17|IZ|Redridge Mountains|
 C Underbelly Scales|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S|LVL|17|
+T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|
 T A Free Lunch|QID|129|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road up ahead.|
-A Visit the Herbalist|QID|130|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road.|PRE|129|
+A Visit the Herbalist|QID|130|M|15.28,71.46|N|From Guard Parker. He roams the fork in the road.|PRE|129|
 
 R Lakeridge Highway|ACTIVE|246|M|24.39,76.09|N|Follow the road east.|
 C Assessing the Threat|QID|246|QO|1;2|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|M|28.00,71.00|CS|N|Kill tarantulas, goretusks and condors for any remaining items required.|US|LVL|17|
+C Redridge Goulash|ACTIVE|92|QO|1;3|M|28.00,71.00|CS|N|Kill tarantulas and goretusks for any remaining items required.|US|LVL|-17|
 C Underbelly Scales|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|US|LVL|17|
 T Assessing the Threat|QID|246|M|30.74,59.99|N|To Deputy Feldon.|
 C The Lost Tools|QID|125|M|41.60,54.70|L|1309|N|Loot the tools from the chest at the bottom of the lake.|
 T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|
-T Underbelly Scales|QID|122|M|31.00,47.30|N|To Verner Osgood.|
-T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|
-T Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|US|
+t Underbelly Scales|QID|122|M|31.00,47.30|N|To Verner Osgood.|
+t Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|US|
 T Visit the Herbalist|QID|130|M|21.85,46.32|N|To Martie Jainrose.|
 A Delivering Daffodils|QID|131|M|21.85,46.32|N|From Martie Jainrose.|PRE|130|
 T Delivering Daffodils|QID|131|M|26.9,44.53|N|To Darcy. She wanders around a bit.|

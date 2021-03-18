@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('ClassicLochModan1618', 'Leveling', 'Loch Modan', 'emmaleah', 'Alliance', 1)
-WoWPro:GuideLevels(guide,15, 18)
+WoWPro:GuideName(guide, 'Loch Modan 16-18')
+WoWPro:GuideLevels(guide,16, 18)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
 WoWPro:GuideSteps(guide, function()
 return [[
