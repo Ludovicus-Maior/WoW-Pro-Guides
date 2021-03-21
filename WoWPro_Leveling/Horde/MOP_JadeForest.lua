@@ -258,7 +258,7 @@ f The Arboretum|QID|29882|M|57.01,44.02|N|At Injar'i Lakebloom.|
 C Quill of Stingers|QID|29882|M|53.65,43.99|N|Kill Orchard Wasps for their Stingers.|S|
 C The Perfect Color|QID|29881|M|53.48,44.38|N|Look for red flowers on the ground beneath the trees... and the wasps.|NC|
 C Quill of Stingers|QID|29882|M|53.65,43.99|N|Kill Orchard Wasps for their Stingers.|US|
-T The Perfect Color|QID|29881|M|554.89,45.31|N|To Inkmaster Glenzu.|
+T The Perfect Color|QID|29881|M|54.89,45.31|N|To Inkmaster Glenzu.|
 T Quill of Stingers|QID|29882|M|55.40,45.29|N|To Inkmaster Jo Po (He's a roamer).|
 R Shrine of the Dawn|QID|29995|M|52.57,38.12|FLY|OLD|
 T Shrine of the Dawn|QID|29995|M|52.57,38.12|N|To Syra Goldendraft.|
