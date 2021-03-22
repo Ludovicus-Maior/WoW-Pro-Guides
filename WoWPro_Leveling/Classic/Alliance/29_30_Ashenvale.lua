@@ -130,6 +130,6 @@ F Trade District|QID|1044|M|77.50,44.30|N|Fly to Stormwind City.|C|Paladin,Warlo
 N Train Here|QID|1044|M|55.6,60.42|Z|Stormwind City|N|Darnassus doesn't have Paladin, Warlock or Mage trainers, so train while here.|C|Paladin,Warlock,Mage|
 H Darnassus|QID|1044|N|Hearth or fly/boat or otherwise make your way back to Darnassus.|
 T Answered Questions|QID|1044|M|61.77,39.18|Z|Darnassus|N|To Thyn'tel Bladeweaver.|
-R Auction House|QID|1135|M|56.38,51.82|CS|Z|Darnassus|N|Run to the Auction house, get ready for next guide with instructions..|
+N Gnomeregan|QID|2929|N|If you wish to run Gnomeregan now is a good time to do so. Be sure to collect all the quests as they give a lot of experience|
 ]]
 end)
