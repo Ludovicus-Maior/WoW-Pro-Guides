@@ -9,6 +9,7 @@ WoWPro:GuideSteps(guide, function() return [[
 
 ;This is a new rewrite of the original Boston guide but polished, reorganized,  more efficent quest grouping, additional quests.
 F Ironforge|QID|1653|M|77.50,44.30|N|Fly to Ironforge.|C|Paladin|
+A The Brassbolts Brothers|QID|1179|M|68.20,46.20|Z|Ironforge|N|From Pilot Longbeard at the back of the Military Ward.|C|Paladin|
 t The Test of Righteousness|QID|1653|M|52.6,36.8|Z|Dun Morogh|N|To Jordan Stilwell right outside of the gates of Ironforge.|C|Paladin|
 A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|Dun Morogh|N|From Jordan Stilwell. We won't follow the rest of this quest as it takes you all over the world to complete, but you now have the quest in your logs to complete as you see fit.|C|Paladin|PRE|1653|
 F Menethil Harbor|QID|270|M|55.3,47.6|N|Fly to Menethil Harbor.|Z|Ironforge|C|Paladin|
