@@ -15,22 +15,32 @@ A Report to Mountaineer Rockgar|QID|468|LEAD|455|M|37.33,45.30|N|From Mountainee
 A Ironband's Excavation|QID|436|M|37.24,47.39|N|From Jern Hornhelm, inside the house, down the stairs.|
 A WANTED: Chok'sul|QID|256|M|37.29,46.50|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wanted Poster, you will probably want a group to kill this.|RANK|2|
 A Mercenaries|QID|255|M|34.69,43.18|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Magistrate Bluntnose, inside, down the stairs.|RANK|2|
-R Valley of Kings|AVAILABLE|224|M|25.33,67.67|N|Take the road south out of Thelsamar.|LVL|-17|
-A The Trogg Threat|QID|267|M|23.24,73.67|N|From Captain Ruglefuss, inside the Bunker.|LVL|-17|
-A In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside, along the path.|LVL|-17|
+R Valley of Kings|AVAILABLE|224|M|25.33,67.67|N|Take the road south out of Thelsamar.|LVL|-18|
+A The Trogg Threat|QID|267|M|23.24,73.67|N|From Captain Ruglefuss, inside the Bunker.|LVL|-18|
+A In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside, along the path.|LVL|-18|
+C The Trogg Threat|QID|267|S|N|Loot the troggs you kill for the items for this quest|
 C In Defense of the King's Lands|QID|224|M|33.00,73.00|N|Kill Troggs and Scouts until you finish this quest.|
+t The Trogg Threat|QID|267|S|N|To Captain Ruglefuss inside the bunker at Valley of Kings.|
 T In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside|
 A In Defense of the King's Lands|QID|237|M|23.53,76.40|N|From Mountaineer Gravelgaw, just outside the entrance to the bunker.|PRE|224|
 C In Defense of the King's Lands|QID|237|M|35.50,79.60|N|Kill Skullthumpers and Seers until you finish the quest.|
 T In Defense of the King's Lands|QID|237|M|23.53,76.40|N|To Mountaineer Gravelgaw.|
 A In Defense of the King's Lands|QID|263|M|23.47,74.49|N|From Mountaineer Wallbang.|PRE|237|
-C The Trogg Threat|QID|267|M|33.00,73.00|N|Continue with the troggs until you get the items for this quest.|
-T The Trogg Threat|QID|267|M|23.24,73.67|N|To Captain Ruglefuss.|
-C In Defense of the King's Lands|QID|263|M|35.50,79.60|N|Kill Bonesnappers and Shaman until you finish the quest.|
+
+T Find Bingles|QID|2039|M|63.56,47.92|N|To Bingles Blastenheimer.|
+A Bingles' Missing Supplies|QID|2038|M|63.56,47.92|N|From Bingles Blastenheimer.|PRE|2039|
+R Northern Island|ACTIVE|2038|M|56,28|CC|N|Run/Swim to the northernmost island in the middle of The Loch.|
+C Bingles' Missing Supplies|QID|2038|M|54.22,26.61|L|7376|N|Clear camp of troggs and Bingles' Blastencapper is here.\n[color=FF0000]NOTE: [/color]Be careful with your pulls. You can easily, and quite quickly, overwhelmed with 2 or 3 of them. Multiple casters is even worse.|
+C Bingles' Missing Supplies|QID|2038|M|48.72,30.09|L|7343|N|Clear camp of troggs and his Wrench is here.|
+C Bingles' Missing Supplies|QID|2038|M|51.78,24.09|L|7346|N|Clear camp of troggs and his Hammer is here.\n[color=FF0000]NOTE: [/color]Stick close to the wagon and you won't aggro the group north of it.|
+C Bingles' Missing Supplies|QID|2038|M|48.38,20.50|L|7345|N|Clear camp of troggs and his Screwdriver is here.|
+C In Defense of the King's Lands|QID|263|S|N|Kill Bonesnappers and Shaman until you finish the quest.|
+
 T In Defense of the King's Lands|QID|263|M|23.47,74.49|N|To Mountaineer Wallbang.|
 A In Defense of the King's Lands|QID|217|M|23.24,73.67|N|From Captain Ruglefuss.|PRE|263|
 C In Defense of the King's Lands|QID|217|M|35,83;34,90|CS|N|Take the path to the right inside the cave, They are all located together in the middle room.|
 T In Defense of the King's Lands|QID|217|M|23.24,73.67|N|To Captain Ruglefuss.|
+C The Trogg Threat|QID|267|M|33.00,73.00|US|N|Continue with the troggs until you get the items for this quest.|
 
 R Ironband's Excavation Site|QID|436|M|60.37,65.11|N|Run to Ironband's Excavation Site.|
 T Ironband's Excavation|QID|436|M|64.89,66.66|N|To Magmar Fellhew.|
@@ -50,9 +60,10 @@ A A Hunter's Challenge|QID|258|M|83.48,65.42|N|[color=CC00FF]QUEST FAILED [/colo
 C A Hunter's Challenge|QID|258|M|60.80,38.47|QO|1|N|Kill 5 Elder Mountain Boars within 12 minutes. You'll find them in the open fields just past the hills northwest of Farstrider Lodge. Be careful as they mixed amongst the bears.|
 T A Hunter's Challenge|QID|258|M|83.51,65.53|N|To Daryl the Youngling.|
 A Vyrin's Revenge|QID|271|M|81.72,64.16|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Vyrin Swiftwind.\nOl' Sooty is an Elite lv 20 Bear.\n[color=FF0000]NOTE: [/color]Do not accept this quest if you plan on leaving at level 18.|PRE|258|O|
-T Find Bingles|QID|2039|M|63.56,47.92|N|To Bingles Blastenheimer.|
-A Bingles' Missing Supplies|QID|2038|M|63.56,47.92|N|From Bingles Blastenheimer.|PRE|2039|
+
 C Crocolisk Hunting|QID|385|QO|1;2|N|Kill and loot crocolisks for their skin and meat. You'll find them in the Loch, on the islands and along the shoreline.|
+
+T Bingles' Missing Supplies|QID|2038|M|63.54,47.90|N|To Bingles Blastenheimer.|
 
 R Mo'grosh Stronghold|M|74,35|ACTIVE|255|N|I recommend a group for this even at level 20, you still will really benefit from at least 2 of you.|GROUP|2|
 C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|S|N|Mo'grosh Ogres and Enforcers are found outside the cave.|
@@ -60,12 +71,6 @@ C Mercenaries|QID|255|M|76.75,14.38|QO|2|S|N|Mo'grosh Brutes are found inside th
 K Chok'sul|ACTIVE|256|M|79.49,15.55|QO|1|T|Chok'sul|N|Chok'sul is found all the way to the back of the cave. Kill and take his head as proof.|
 C Mercenaries|QID|255|M|76.75,14.38|QO|2|US|N|Mo'grosh Brutea are found inside the cave.|
 C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|US|N|Mo'grosh Ogres and Enforcers are found outside the cave.|
-
-R Northern Island|ACTIVE|2038|M|56,28|CC|N|Run/Swim to the northernmost island in the middle of The Loch.|
-C Bingles' Missing Supplies|QID|2038|M|54.22,26.61|L|7376|N|Clear camp of troggs and Bingles' Blastencapper is here.\n[color=FF0000]NOTE: [/color]Be careful with your pulls. You can easily, and quite quickly, overwhelmed with 2 or 3 of them. Multiple casters is even worse.|
-C Bingles' Missing Supplies|QID|2038|M|48.72,30.09|L|7343|N|Clear camp of troggs and his Wrench is here.|
-C Bingles' Missing Supplies|QID|2038|M|51.78,24.09|L|7346|N|Clear camp of troggs and his Hammer is here.\n[color=FF0000]NOTE: [/color]Stick close to the wagon and you won't aggro the group north of it.|
-C Bingles' Missing Supplies|QID|2038|M|48.38,20.50|L|7345|N|Clear camp of troggs and his Screwdriver is here.|
 
 R Stonewrought Dam|AVAILABLE|250|M|55.47,15.14|N|Run over to the ramp up on to the top of the dam.|
 A A Dark Threat Looms|QID|250|M|46.04,13.61|N|From Chief Engineer Hinderweir VII.|
@@ -98,7 +103,7 @@ T After the Ambush|QID|454|M|52.22,69.44|N|To Miran.|
 A Protecting the Shipment|QID|309|M|52.22,69.44|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Miran.|PRE|454|
 C Protecting the Shipment|QID|309|M|63.02,66.08;65.19,65.94|CC|N|Escort Miran to Ironband's Excavation Site. You will get ambushed by 2 Dark Iron mobs just before you get there. Dispatch them and continue to the camp.|
 T Protecting the Shipment|QID|309|M|65.96,65.62|N|To Prospector Ironband.|
-T Bingles' Missing Supplies|QID|2038|M|63.54,47.90|N|To Bingles Blastenheimer.|
+
 T Vyrin's Revenge|QID|271|M|83.51,65.44|N|To Daryl the Youngling.|
 A Vyrin's Revenge|QID|531|PRE|271|M|83.51,65.44|N|From Daryl the Youngling.|
 T Vyrin's Revenge|QID|531|M|81.72,64.14|N|To Vyrin Swiftwind.|
