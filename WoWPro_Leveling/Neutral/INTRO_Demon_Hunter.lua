@@ -109,7 +109,7 @@ C Fel Infusion|QID|38689|QO|1|M|68.84,27.15|Z|Illidari Ward@VaultOfTheWardensDH|
 C Rise of the Illidari|QID|38690|QO|1|M|72.08,31.82|Z|Illidari Ward@VaultOfTheWardensDH|N|Free Imprisoned Illidari.|
 K Wrath-Lord Lekos|QID|38690|M|69.14,27.35|Z|Illidari Ward@VaultOfTheWardensDH|L|128958|N|Lekos' Leash is an upgrade for|
 C Fel Infusion|QID|38689|QO|1|M|68.84,27.15|Z|Illidari Ward@VaultOfTheWardensDH|N|Kill Demons to regain Fel Energy.|US|
-T Vault of the Wardens|QID|39742|M|71.23,35.63|Z|Illidari Ward@VaultOfTheWardensDH|N|To Savage Felstalker.|
+T Vault of the Wardens|QID|39742|QO|1|M|71.23,35.63|Z|Illidari Ward@VaultOfTheWardensDH|N|To Savage Felstalker.|
 T Fel Infusion|QID|38689|M|49.67,49.29|Z|Illidari Ward@VaultOfTheWardensDH|N|To Altruis the Sufferer.|
 T Rise of the Illidari|QID|38690|M|49.19,49.46|Z|Illidari Ward@VaultOfTheWardensDH|N|To Kayn Sunfury.|
 A Stop Gul'dan!|QID|38723^40253|M|49.47,49.78|Z|Illidari Ward@VaultOfTheWardensDH|N|From Maiev Shadowsong.|
