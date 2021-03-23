@@ -4,7 +4,6 @@ WoWPro:GuideLevels(guide,16, 18)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Level Range|AVAILABLE|2039|S|N|This guide is meant to be done at any point you want to do something besides grind between level 15 and 20. It starts with picking up a quest in Ironforge, then takes place in Loch Modan.|
 F Ironforge|AVAILABLE|2039|M|66.29,62.13|Z|Stormwind City|N|Fly to Ironforge to start this guide.|IZ|-Ironforge|
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|Ironforge|N|From Gnoarn.|
 F Thelsamar|ACTIVE|2039|M|55.49,47.75|Z|Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
@@ -27,6 +26,17 @@ C In Defense of the King's Lands|QID|237|M|35.50,79.60|N|Kill Skullthumpers and 
 T In Defense of the King's Lands|QID|237|M|23.53,76.40|N|To Mountaineer Gravelgaw.|
 A In Defense of the King's Lands|QID|263|M|23.47,74.49|N|From Mountaineer Wallbang.|PRE|237|
 
+R Ironband's Excavation Site|QID|436|M|60.37,65.11|N|Run to Ironband's Excavation Site.|
+T Ironband's Excavation|QID|436|M|64.89,66.66|N|To Magmar Fellhew.|
+
+R The Farstrider Lodge|AVAILABLE|385|M|80.78,59.47|N|Run to the Farstrider Lodge. There is a hunter trainer here as well as vendors and repairs.|
+A Crocolisk Hunting|QID|385|M|81.76,61.67|N|From Marek Ironheart.|
+A A Hunter's Boast|QID|257|M|83.48,65.44|N|[color=FF0000]NOTE: [/color]This is a TIMED Quest. The timer doesn't stop until the quest is turned in.\nFrom Daryl the Youngling.|
+A A Hunter's Boast|QID|257|M|83.48,65.44|N|[color=CC00FF]QUEST FAILED [/color]\nGo back and reaccept the quest from Daryl the Youngling.|FAIL|
+C A Hunter's Boast|QID|257|QO|1|N|Within 15 minutes, find and kill 6 Mountain Buzzards around Farstrider Lodge.|
+T A Hunter's Boast|QID|257|M|83.48,65.42|N|To Daryl the Youngling.|
+C Crocolisk Hunting|QID|385|QO|1;2|S|N|Kill and loot crocolisks for their skin and meat. You'll find them in the Loch, on the islands and along the shoreline.|
+
 T Find Bingles|QID|2039|M|63.56,47.92|N|To Bingles Blastenheimer.|
 A Bingles' Missing Supplies|QID|2038|M|63.56,47.92|N|From Bingles Blastenheimer.|PRE|2039|
 R Northern Island|ACTIVE|2038|M|56,28|CC|N|Run/Swim to the northernmost island in the middle of The Loch.|
@@ -35,35 +45,23 @@ C Bingles' Missing Supplies|QID|2038|M|48.72,30.09|L|7343|N|Clear camp of troggs
 C Bingles' Missing Supplies|QID|2038|M|51.78,24.09|L|7346|N|Clear camp of troggs and his Hammer is here.\n[color=FF0000]NOTE: [/color]Stick close to the wagon and you won't aggro the group north of it.|
 C Bingles' Missing Supplies|QID|2038|M|48.38,20.50|L|7345|N|Clear camp of troggs and his Screwdriver is here.|
 C In Defense of the King's Lands|QID|263|S|N|Kill Bonesnappers and Shaman until you finish the quest.|
-
-T In Defense of the King's Lands|QID|263|M|23.47,74.49|N|To Mountaineer Wallbang.|
-A In Defense of the King's Lands|QID|217|M|23.24,73.67|N|From Captain Ruglefuss.|PRE|263|
-C In Defense of the King's Lands|QID|217|M|35,83;34,90|CS|N|Take the path to the right inside the cave, They are all located together in the middle room.|
-T In Defense of the King's Lands|QID|217|M|23.24,73.67|N|To Captain Ruglefuss.|
 C The Trogg Threat|QID|267|M|33.00,73.00|US|N|Continue with the troggs until you get the items for this quest.|
 
+T Bingles' Missing Supplies|QID|2038|M|63.54,47.90|N|To Bingles Blastenheimer.|
+C Crocolisk Hunting|QID|385|QO|1;2|US|N|Kill and loot crocolisks for their skin and meat. You'll find them in the Loch, on the islands and along the shoreline.|
+
 R Ironband's Excavation Site|QID|436|M|60.37,65.11|N|Run to Ironband's Excavation Site.|
-T Ironband's Excavation|QID|436|M|64.89,66.66|N|To Magmar Fellhew.|
 A Gathering Idols|QID|297|M|64.89,66.66|N|From Magmar Fellhew.|
 A Excavation Progress Report|QID|298|M|65.94,65.62|N|From Prospector Ironband.|
 C Gathering Idols|QID|297|L|2636 8|N|Kill and loot troggs to collect the idols.|
 T Gathering Idols|QID|297|M|64.90,66.66|N|To Magmar Fellhew.|
 
-R The Farstrider Lodge|AVAILABLE|385|M|80.78,59.47|N|Run to the Farstrider Lodge. There is a hunter trainer here as well as vendors and repairs.|
-A Crocolisk Hunting|QID|385|M|81.76,61.67|N|From Marek Ironheart.|
-A A Hunter's Boast|QID|257|M|83.48,65.44|N|[color=FF0000]NOTE: [/color]This is a TIMED Quest. The timer doesn't stop until the quest is turned in.\nFrom Daryl the Youngling.|
-A A Hunter's Boast|QID|257|M|83.48,65.44|N|[color=CC00FF]QUEST FAILED [/color]\nGo back and reaccept the quest from Daryl the Youngling.|FAIL|
-C A Hunter's Boast|QID|257|QO|1|N|Within 15 minutes, find and kill 6 Mountain Buzzards around Farstrider Lodge.|
-T A Hunter's Boast|QID|257|M|83.48,65.42|N|To Daryl the Youngling.|
+R The Farstrider Lodge|AVAILABLE|385|M|80.78,59.47|N|Run to the Farstrider Lodge.|
 A A Hunter's Challenge|QID|258|M|83.48,65.42|N|[color=FF0000]NOTE: [/color]This is a TIMED Quest. The timer doesn't stop until the quest is turned in.\nFrom Daryl the Youngling.|PRE|257|
 A A Hunter's Challenge|QID|258|M|83.48,65.42|N|[color=CC00FF]QUEST FAILED [/color]\nGo back and reaccept the quest from Daryl the Youngling.|PRE|257|FAIL|
 C A Hunter's Challenge|QID|258|M|60.80,38.47|QO|1|N|Kill 5 Elder Mountain Boars within 12 minutes. You'll find them in the open fields just past the hills northwest of Farstrider Lodge. Be careful as they mixed amongst the bears.|
 T A Hunter's Challenge|QID|258|M|83.51,65.53|N|To Daryl the Youngling.|
-A Vyrin's Revenge|QID|271|M|81.72,64.16|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Vyrin Swiftwind.\nOl' Sooty is an Elite lv 20 Bear.\n[color=FF0000]NOTE: [/color]Do not accept this quest if you plan on leaving at level 18.|PRE|258|O|
-
-C Crocolisk Hunting|QID|385|QO|1;2|N|Kill and loot crocolisks for their skin and meat. You'll find them in the Loch, on the islands and along the shoreline.|
-
-T Bingles' Missing Supplies|QID|2038|M|63.54,47.90|N|To Bingles Blastenheimer.|
+A Vyrin's Revenge|QID|271|M|81.72,64.16|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Vyrin Swiftwind.\nOl' Sooty is an Elite lv 20 Bear.\n[color=FF0000]NOTE: [/color]Do not accept this quest if you plan on leaving at level 18.|PRE|258|
 
 R Mo'grosh Stronghold|M|74,35|ACTIVE|255|N|I recommend a group for this even at level 20, you still will really benefit from at least 2 of you.|GROUP|2|
 C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|S|N|Mo'grosh Ogres and Enforcers are found outside the cave.|
@@ -85,6 +83,11 @@ T Excavation Progress Report|QID|298|M|37.24,47.38|N|To Jern Hornhelm.|
 A Report to Ironforge|QID|301|PRE|298|M|37.24,47.38|N|From Jern Hornhelm.|
 T Mercenaries|QID|255|M|34.69,43.19|N|To Magistrate Bluntnose.|
 T WANTED: Chok'sul|QID|256|M|34.69,43.18|N|To Magistrate Bluntnose.|
+T In Defense of the King's Lands|QID|263|M|23.47,74.49|N|To Mountaineer Wallbang.|
+A In Defense of the King's Lands|QID|217|M|23.24,73.67|N|From Captain Ruglefuss.|PRE|263|
+C In Defense of the King's Lands|QID|217|M|35,83;34,90|CS|N|Take the path to the right inside the cave, They are all located together in the middle room.|
+T In Defense of the King's Lands|QID|217|M|23.24,73.67|N|To Captain Ruglefuss.|
+
 F Ironforge|ACTIVE|301|M|33.94,50.95|N|Fly to Ironforge at Thorgrum Borrelson.|
 = Train|ACTIVE|301^302|N|Stop by the Trainer, AH, whatever other town stuff you need to do.|
 N Collection Items|AVAILABLE|103^117|ACTIVE|38|N|Make sure you grab the hops, flasks of oil and Westfall Stew items from your bank if you dropped them off.|
