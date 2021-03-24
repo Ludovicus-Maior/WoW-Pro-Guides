@@ -1,26 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/neutral_ramkahen_reputation_dalies_uldum
--- Date: 2017-03-11 18:35
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3420/revisions/26561/view
--- Date: 2014-07-06 15:47
--- Who: Ludovicus_Maior
--- Log: Added levels and faction
-
--- URL: http://wow-pro.com/node/3420/revisions/26528/view
--- Date: 2014-06-11 19:15
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3420/revisions/24652/view
--- Date: 2011-06-30 19:14
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("TwiUldRam",'Dailies', "Uldum", "Twists", "Neutral")
 WoWPro:GuideLevels(guide,81,83,82)
@@ -44,5 +25,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
+
 
 

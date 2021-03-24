@@ -1,47 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/horde_dominance_offensive_source_code
--- Date: 2018-10-17 02:21
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3603/revisions/29568/view
--- Date: 2018-08-22 18:51
--- Who: Emmaleah
--- Log: Correct Old Style QO
-
--- URL: http://wow-pro.com/node/3603/revisions/28987/view
--- Date: 2018-02-19 22:50
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3603/revisions/28555/view
--- Date: 2017-03-23 17:42
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3603/revisions/28325/view
--- Date: 2017-03-10 23:23
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3603/revisions/27170/view
--- Date: 2015-03-09 18:09
--- Who: Ludovicus_Maior
--- Log: Z corrections
-
--- URL: http://wow-pro.com/node/3603/revisions/26848/view
--- Date: 2014-11-07 20:34
--- Who: Fluclo
--- Log: Added missing |N| tags, removed duplicate PRE cag, fixed missing comma in coords for The Bell
-
--- URL: http://wow-pro.com/node/3603/revisions/26690/view
--- Date: 2014-09-27 22:13
--- Who: Ludovicus_Maior
--- Log: INital Version
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoDomOffence",'Dailies', "Krasarang Wilds", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,90,90,90)
@@ -342,5 +302,6 @@ N Buenas Noches|N|Wait until tomorrows adventures!|
 ]]
 
 end)
+
 
 

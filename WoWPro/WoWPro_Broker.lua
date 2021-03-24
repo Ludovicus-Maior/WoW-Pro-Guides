@@ -127,6 +127,18 @@ function WoWPro.stack(level)
     end
 end
 
+-- See if any of the list of QIDs are true using the predicate, respecting logical separators
+function WoWPro:QIDsUsingPredicate(QIDs, predicate, abs_quid, debug, why)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro:QIDsUsingPredicate(%s,%s)",tostring(QIDs),tostring(predicate))
+    end
+    local value = QidMapReduce(QIDs,false,"^","&",predicate , why or "QIDsUsingPredicate", debug or quids_debug, abs_quid)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro:QIDsUsingPredicate(%s) return %s",tostring(QIDs),tostring(value))
+    end
+    return value
+end
+
 -- See if any of the list of QIDs are in the indicated table, respecting logical separators
 function WoWPro:QIDsInTableLogical(QIDs,tabla, abs_quid, debug, why)
     if debug or quids_debug then
@@ -210,13 +222,13 @@ function WoWPro:SetQIDsInTable(QIDs,tabla, debug, why)
     return value
 end
 
-function WoWPro:QuestAvailible(QIDs, debug, why)
+function WoWPro.QuestAvailible(QIDs, debug, why)
     if debug or quids_debug then
-        WoWPro:dbp("WoWPro:QuestAvailible(%s)",tostring(QIDs))
+        WoWPro:dbp("WoWPro.QuestAvailible(%s)",tostring(QIDs))
     end
     local value = QidMapReduce(QIDs,false,"^","&",function (qid) return (not WoWPro:IsQuestFlaggedCompleted(qid, true)) and (not WoWPro.QuestLog[qid]); end, why or "QuestAvailible", debug or quids_debug)
     if debug or quids_debug then
-        WoWPro:dbp("WoWPro:QuestAvailible(%s) return %s",tostring(QIDs),tostring(value))
+        WoWPro:dbp("WoWPro.QuestAvailible(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
 end
@@ -1667,13 +1679,12 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- Availible quests: not complete  --
             if WoWPro.available[guideIndex] then
-                local available = WoWPro.available[guideIndex]
-                if not WoWPro:QuestAvailible(available) then
+                if not WoWPro:QIDsUsingPredicate(WoWPro.available[guideIndex], WoWPro.QuestAvailible) then
                     skip = true
-                    WoWPro.CompleteStep(guideIndex,"NextStep(): Available quest is currently complete or active")
+                    WoWPro.CompleteStep(guideIndex,"NextStep(): Skipping step, available quest is currently complete or active")
                     break
                 end
-                WoWPro:dbp("Step %s [%s] AVAILABLE %s, skip=%s", stepAction, step, available, tostring(skip))
+                WoWPro:dbp("Step %s [%s] AVAILABLE %s, skip=%s",stepAction,step,WoWPro.available[guideIndex],tostring(skip))
             end
 
             -- Check for must be active quests

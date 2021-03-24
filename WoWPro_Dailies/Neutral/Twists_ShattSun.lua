@@ -1,63 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/neutral_shattered_sun_dailies
--- Date: 2018-08-24 16:18
--- Who: Ludovicus_Maior
--- Log: Updated QOs for [Know Your Ley Lines]
-
--- URL: http://wow-pro.com/node/3470/revisions/29001/view
--- Date: 2018-02-19 23:07
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3470/revisions/28341/view
--- Date: 2017-03-11 18:36
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3470/revisions/26880/view
--- Date: 2014-11-08 00:20
--- Who: Ludovicus_Maior
--- Log: Corrections according to Ludo
-
--- URL: http://wow-pro.com/node/3470/revisions/26562/view
--- Date: 2014-07-06 15:47
--- Who: Ludovicus_Maior
--- Log: Added levels
-
--- URL: http://wow-pro.com/node/3470/revisions/26529/view
--- Date: 2014-06-11 19:16
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3470/revisions/25742/view
--- Date: 2013-08-15 23:14
--- Who: Ludovicus_Maior
--- Log: Added missing QIDs, made safe for non-miners,non-skinners,non-herbalists.
-
--- URL: http://wow-pro.com/node/3470/revisions/25715/view
--- Date: 2013-06-18 00:53
--- Who: Ludovicus_Maior
--- Log: quest 11556's name [Exalted Among All Combatants] does not match Grail's database [Revered in the Field of Battle].
---	Bad X coordinate 42.23,36.07,44.53,40.67, 1/8 in guide TwiShattSun, line [C Crush the Dawnblade].
---	quest 11521's name [Rediscovering your Roots] does not match Grail's database [Rediscovering Your Roots].
-
--- URL: http://wow-pro.com/node/3470/revisions/25375/view
--- Date: 2013-01-12 19:30
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3470/revisions/24976/view
--- Date: 2012-05-18 20:15
--- Who: Ludovicus_Maior
--- Log: Fixed inner links for edit and comments.
-
--- URL: http://wow-pro.com/node/3470/revisions/24956/view
--- Date: 2012-02-14 00:58
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("TwiShattSun",'Dailies', "Isle of Quel'Danas", "Twists", "Neutral")
 WoWPro:GuideLevels(guide,70,70,70)
@@ -223,5 +167,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
+
 
 

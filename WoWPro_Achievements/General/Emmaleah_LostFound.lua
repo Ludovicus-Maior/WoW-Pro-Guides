@@ -1,89 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
--- Date: 2017-03-10 22:57
--- Who: Ludovicus_Maior
--- Log: Syntax changes.
-
--- URL: http://wow-pro.com/node/3514/revisions/27106/view
--- Date: 2014-12-25 20:09
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3514/revisions/27103/view
--- Date: 2014-12-25 18:59
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3514/revisions/26841/view
--- Date: 2014-11-07 20:18
--- Who: Emmaleah
-
--- URL: http://wow-pro.com/node/3514/revisions/26799/view
--- Date: 2014-11-06 12:32
--- Who: Fluclo
--- Log: Removing empty L tag in Stash of Gems
-
--- URL: http://wow-pro.com/node/3514/revisions/26312/view
--- Date: 2014-05-26 18:04
--- Who: Ludovicus_Maior
--- Log: Added guide type. Typographical corrections.
-
--- URL: http://wow-pro.com/node/3514/revisions/26200/view
--- Date: 2014-05-22 23:08
--- Who: Ludovicus_Maior
--- Log: Registration guide; typographical corrections
-
--- URL: http://wow-pro.com/node/3514/revisions/25824/view
--- Date: 2013-11-27 21:01
--- Who: Ludovicus_Maior
--- Log: Added a CS tag to A [Hozen Warrior Spear:31413]
-
--- URL: http://wow-pro.com/node/3514/revisions/25758/view
--- Date: 2013-09-10 23:53
--- Who: Ludovicus_Maior
--- Log: Coord tweaks and spelling fixes.
-
--- URL: http://wow-pro.com/node/3514/revisions/25506/view
--- Date: 2013-01-24 20:07
--- Who: Emmaleah
--- Log: more precise coords for lucky panderan coin
-
--- URL: http://wow-pro.com/node/3514/revisions/25436/view
--- Date: 2013-01-13 15:28
--- Who: Ludovicus_Maior
--- Log: Added C* tags
-
--- URL: http://wow-pro.com/node/3514/revisions/25289/view
--- Date: 2013-01-09 01:37
--- Who: Ludovicus_Maior
--- Log: Added CN and CS tags.
-
--- URL: http://wow-pro.com/node/3514/revisions/25277/view
--- Date: 2013-01-06 01:51
--- Who: Emmaleah
--- Log: changed guide title. Someone else will need to update wiki page title.
-
--- URL: http://wow-pro.com/node/3514/revisions/25276/view
--- Date: 2013-01-06 01:49
--- Who: Emmaleah
--- Log: changed words of 2 of 6 to Setting of Ranks (somehow I missed changing that one last month) Changed the final N step to list all 8 achievements.
-
--- URL: http://wow-pro.com/node/3514/revisions/25225/view
--- Date: 2012-12-02 01:25
--- Who: Emmaleah
--- Log: 5.1 changes - new achievements Treasures of Pandaria(1); Fortune of Pandaria(5);Bounty of Pandaria(10); Riches of Pandaria(18)  Removed note about Phasing for ancient pandaran teapot (Bliz fixxed it) Renamed  "wall of text" to more descriptive titles.
-
--- URL: http://wow-pro.com/node/3514/revisions/25206/view
--- Date: 2012-11-13 02:20
--- Who: Ludovicus_Maior
--- Log: Updated to latest from Emmaleah
-
--- URL: http://wow-pro.com/node/3514/revisions/25205/view
--- Date: 2012-11-13 02:16
--- Who: Ludovicus_Maior
--- Log: Close of Blog Page
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('EmmAchLost', "Achievements", 'Pandaria', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
@@ -164,5 +82,6 @@ N Keep resetting|QID|972810001|N|until you find them all (or give up). In the en
 
 ]]
 end)
+
 
 

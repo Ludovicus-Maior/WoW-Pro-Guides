@@ -1,40 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/blacksmithing_plans
--- Date: 2018-01-15 19:09
--- Who: Ludovicus
--- Log: Correct source of [Adamantite Rapier] for Alliance from Thunder Bluff to The Exodar!
-
--- URL: http://wow-pro.com/node/3566/revisions/28201/view
--- Date: 2017-01-02 22:44
--- Who: Ludovicus_Maior
--- Log: New registration style
-
--- URL: http://wow-pro.com/node/3566/revisions/28083/view
--- Date: 2016-11-30 20:25
--- Who: Ludovicus_Maior
--- Log: Fix single section error.
-
--- URL: http://wow-pro.com/node/3566/revisions/26948/view
--- Date: 2014-11-08 20:21
--- Who: Ludovicus_Maior
--- Log: Update the Shrines
-
--- URL: http://wow-pro.com/node/3566/revisions/25911/view
--- Date: 2014-03-06 23:50
--- Who: Ludovicus_Maior
--- Log: Correct Molten Front zone tags.
-
--- URL: http://wow-pro.com/node/3566/revisions/25899/view
--- Date: 2014-02-14 00:15
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3566/revisions/25884/view
--- Date: 2014-02-13 23:59
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoShopBlacksmithing","Profession", "Blacksmithing", "Ludovicus", "Neutral")
 WoWPro:GuideName(guide, "Blacksmithing Plans")
@@ -561,5 +528,6 @@ B Adamantite Dagger|QID|990029569|RECIPE|29569|M|63.10,71.10|Z|Shattrath City|P|
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
 
 

@@ -1,31 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/node/3552
--- Date: 2015-01-04 23:34
--- Who: Ludovicus_Maior
--- Log: Added target button!
-
--- URL: http://wow-pro.com/node/3552/revisions/26316/view
--- Date: 2014-12-25 22:47
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3552/revisions/26198/view
--- Date: 2014-05-22 22:50
--- Who: Ludovicus_Maior
--- Log: Registration guide
-
--- URL: http://wow-pro.com/node/3552/revisions/25793/view
--- Date: 2013-11-10 17:27
--- Who: Ludovicus_Maior
--- Log: Converted to BBcode format.
-
--- URL: http://wow-pro.com/node/3552/revisions/25737/view
--- Date: 2013-08-24 18:56
--- Who: Estelyen
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('EstAchUnVa',"Achievements",'Northrend', 'Estelyen' ,'Neutral')
 WoWPro:GuideLevels(guide,10,50)
@@ -66,5 +42,6 @@ R Crystalsong Forest 3|Z|Crystalsong Forest|M|68.20,49.20|CC|T|Unborn|
 N Finished|N|That was all of the spawn points. If you didn't find a pet, try again. Good luck!|
 ]]
 end)
+
 
 

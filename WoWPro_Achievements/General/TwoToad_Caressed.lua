@@ -1,80 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
--- Date: 2017-03-15 20:59
--- Who: Ludovicus_Maior
--- Log: Syntax
-
--- URL: http://wow-pro.com/node/3520/revisions/27107/view
--- Date: 2014-12-25 20:11
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3520/revisions/27102/view
--- Date: 2014-12-25 18:56
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3520/revisions/27101/view
--- Date: 2014-12-25 18:55
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3520/revisions/26318/view
--- Date: 2014-05-26 19:54
--- Who: Ludovicus_Maior
--- Log: Added guid etype to TwoCared
-
--- URL: http://wow-pro.com/node/3520/revisions/26314/view
--- Date: 2014-05-26 18:06
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3520/revisions/26197/view
--- Date: 2014-05-22 22:43
--- Who: Ludovicus_Maior
--- Log: Registration guide
-
--- URL: http://wow-pro.com/node/3520/revisions/26196/view
--- Date: 2014-05-22 22:40
--- Who: Ludovicus_Maior
--- Log: Registration guide
-
--- URL: http://wow-pro.com/node/3520/revisions/25939/view
--- Date: 2014-04-19 20:11
--- Who: Hendo72
--- Log: - Commented out the note displaying the Guide title... not required.
---	- Removed the notes for each step telling us to love the animal in the step... not required.
---	- Added love to target option. Allows spamming of a target/action button while searching for your target.
-
--- URL: http://wow-pro.com/node/3520/revisions/25556/view
--- Date: 2013-03-23 15:40
--- Who: Ludovicus_Maior
--- Log: Added Twists [To All the Squirrels Who Cared for Me]
-
--- URL: http://wow-pro.com/node/3520/revisions/25356/view
--- Date: 2013-01-12 18:26
--- Who: Ludovicus_Maior
--- Log: Capitalization error on "Valley of the Four Winds"
-
--- URL: http://wow-pro.com/node/3520/revisions/25322/view
--- Date: 2013-01-10 04:05
--- Who: Emmaleah
--- Log: added additional options for getting the golden water skimmer
-
--- URL: http://wow-pro.com/node/3520/revisions/25260/view
--- Date: 2012-12-21 20:46
--- Who: TwoToad
--- Log: Added QID's.
-
--- URL: http://wow-pro.com/node/3520/revisions/25259/view
--- Date: 2012-12-20 17:25
--- Who: TwoToad
-
--- URL: http://wow-pro.com/node/3520/revisions/25258/view
--- Date: 2012-12-19 22:00
--- Who: Ludovicus_Maior
--- Log: Initial
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('TwoToadSqu',"Achievements",'Pandaria', 'TwoToad', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
@@ -109,5 +36,6 @@ F Yakrat|QID|963500017|M|76,82|Z|Townlong Steppes|ACH|6350;17|T|Yakrat,love|
 N Congratulations!|N|If you skipped the Dancing Water Skimmer, now is the time to queue up for the Temple of Kotmogu.|
 ]]
 end)
+
 
 

@@ -1,5 +1,5 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('Classic-31-40-Hendo-HordeChapter2', 'Leveling', 'Thousand Needles', 'Hendo72', 'Horde',1)
 WoWPro:GuideName(guide, 'Horde Chapter 2')
@@ -488,7 +488,7 @@ T Goblin Sponsorship|QID|1183|M|80.18,75.89|N|To Pozzik.|
 A The Eighteenth Pilot|QID|1186|M|80.18,75.89|N|From Pozzik.|PRE|1183|
 T The Eighteenth Pilot|QID|1186|M|80.31,76.06|N|To Razzeric.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
 ; --- The Barrens
-H Orgrimmar|ACTIVE|569|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
+H Orgrimmar|ACTIVE|569|M|PLAYER|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
 F Thunder Bluff|ACTIVE|569|M|45.50,63.84|Z|Orgrimmar|C|Druid|
 F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|Thunder Bluff|C|Druid|
 ; --- STV
@@ -500,11 +500,11 @@ l Some Assembly Required|ACTIVE|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot t
 R Grom'gol Base Camp|QID|569|M|34.23,28.38|Z|Stranglethorn Vale|N|Return to Grom'gol.|
 T The Defense of Grom'gol|QID|569|M|32.20,28.86|Z|Stranglethorn Vale|N|To Commander Aggro'gosh.|
 ;L Level 37|LVL|37|N|You should be around level 37 by this point.|
-l Singing Blue Shards|ACTIVE|605|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|S|IZ|Stranglethorn Vale|
+C Singing Blue Shards|ACTIVE|605|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|S|IZ|Stranglethorn Vale|
 R Zuuldaia Ruins|QID|582|M|26.97,19.00;23.14,16.56|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
-N Bloodscalp Headhunters|ACTIVE|582|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.|
-l Headhunting|ACTIVE|582|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
-l Bloody Bone Necklaces|ACTIVE|596|L|3915 25|N|Kill any Bloodscalp to loot them.|US|
+N Bloodscalp Headhunters|ACTIVE|582|M|PLAYER|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.|
+C Headhunting|ACTIVE|582|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
+C Bloody Bone Necklaces|ACTIVE|596|L|3915 25|N|Kill any Bloodscalp to loot them.|US|
 R The Vile Reef|QID|629|M|23.10,16.49;26.99,18.82;26.54,21.21|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
 N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant Clams. They may contain a 'Blue Pearl'. It's a quest item that can be sold in the AH, if you don't use them for the 'Pearl Diving' quest.|S!US|IZ|The Vile Reef|
 C Encrusted Tail Fins|QID|1107|M|25.15,24.10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|S|IZ|The Vile Reef|
@@ -613,7 +613,7 @@ A Suspicious Hoofprints|QID|1268|M|29.70,47.65|Z|Dustwallow Marsh|
 A The Black Shield |QID|1251|M|29.63,48.59|Z|Dustwallow Marsh|
 A Lieutenant Paval Reethe|QID|1269|M|29.82,48.21|Z|Dustwallow Marsh|
 A Hungry!|QID|1177|M|35.16,38.26|Z|Dustwallow Marsh|N|Head From Mudcrush Durtfeet.|
-R Brackenwall Village|ACTIVE|1268^1251^1269|M|34.59,30.63|Z|Dustwallow Marsh|N|Make your way to the Brackenwall Village.|
+R Brackenwall Village|ACTIVE|1268^1251^1269|M|34.59,30.63|Z|Dustwallow Marsh|N|Make your way to Brackenwall Village.|
 A Theramore Spies|QID|1201|M|35.21,30.67|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|
 f Brackenwall Village|QID|1201|M|35.56,31.88|Z|Dustwallow Marsh|N|At Shardi.|TAXI|-Brackenwall Village|
 T Suspicious Hoofprints|QID|1268|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
@@ -630,32 +630,82 @@ T The Black Shield|QID|1323|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
 T Theramore Spies|QID|1201|M|35.21,30.66|Z|Dustwallow Marsh|N|To Nazeer Bloodpike.|
 A The Theramore Docks|QID|1202|M|35.21,30.66|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|PRE|1323&1201|
 R Main Road|ACTIVE|1202|M|39.14,37.96|Z|Dustwallow Marsh|CC|N|Exit Brackenwall from the south and follow the road until it ends at the main road.|
-A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ogron, just to the north of your current position.\n[color=FF0000]NOTE: [/color]This quest is not easy and can be bugged requiring you to finish it twice.|PRE|1323&1201|RANK|3|
-A Questioning Reethe|QID|1273|PRE|1323&1201|M|40.96,36.70|Z|Dustwallow Marsh|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Ogron and re-accept the quest from him.\n[color=FF0000]NOTE: [/color]You'll probably have to wait for him to respawn.|FAIL|
-N Questioning Reethe|ACTIVE|1273|N|If Reethe's not alone, the quest has bugged and you need to clear the mobs before you can do it.\n[color=FF0000]NOTE: [/color]Let Ogron die so the quest will fail and you can restart it.|
-C Questioning Reethe|QID|1273|M|42.64,38.08|Z|Dustwallow Marsh|N|Follow Ogron to Reethe's camp.\n[color=FF0000]NOTE: [/color]If you fail the quest, you need to clear the soldiers before you can do it again. Otherwise, the quest will bug and you can't finish it.|
-R North Point Tower|AVAILABLE|1218|M|46.43,22.88|Z|Dustwallow Marsh|N|Head back to the main road and make your way north to the North Point Tower.|
+R North Point Tower|AVAILABLE|1218|M|46.43,22.88|Z|Dustwallow Marsh|N|Follow the main road north/east to the North Point Tower.\n[color=FF0000]NOTE: [/color]Sticking to the road is your best bet. You'll find several mobs to kill along the way.|
 R Witch Hill|AVAILABLE|1218|M|50.88,25.01|Z|Dustwallow Marsh|N|Continue along the road to the Witch Hill.|
 R Swamplight Manor|AVAILABLE|1218|M|55.17,26.96|Z|Dustwallow Marsh|N|Continue east to the Swamplight Manor. There is a road leading north from the main road to the house.|
 A Soothing Spices|QID|1218|M|55.43,26.26|Z|Dustwallow Marsh|N|From "Swamp Eye" Jarl.|
 A The Lost Report|QID|1238|M|55.44,25.92|Z|Dustwallow Marsh|N|From the dirt pile beside the house.|
+C Hungry!|QID|1177|M|57.27,22.46|Z|Dustwallow Marsh|N|Kill Mirefin Murlocs to collect the Mirefin Heads.|S|
+R Dreadmurk Shore|ACTIVE|1202|M|57.85,19.01|Z|Dustwallow Marsh|N|Make your way to the Dreadmurk Shore.|
+C Hungry!|QID|1177|M|58.29,17.07|Z|Dustwallow Marsh|N|Kill Mirefin Murlocs to collect the Mirefin Heads.|US|
+R Theramore Isle|ACTIVE|1202|M|66.13,43.56|Z|Dustwallow Marsh|N|Make your way to the Theramore Isle. Follow the shore line the whole way there.\n[color=FF0000]NOTE: [/color]Do not go near the front entrance. This an Alliance city and the guards will kill you.|
+l The Theramore Docks|ACTIVE|1202|M|71.54,51.19|Z|Dustwallow Marsh|L|5882|N|Work your way around the island to the dock at the back. Avoid the guards by the back gate. Locate the Captain's Documents on the ocean floor beneath the dock.\n[color=FF0000]NOTE: [/color]Do not linger in this area, as there are elite sharks in the water.|
+H Orgrimmar|ACTIVE|1202|M|PLAYER|N|Hearth back to Orgrimmar.|
+B Soothing Spice|ACTIVE|1218|M|47.90,80.33|Z|Orgrimmar|L|3713 3|N|Buy 3 Soothing Spice from Shimra for "Swamp Eye" Jarl.|
+F Brackenwall Village|ACTIVE|1202|M|45.19,63.88|Z|Orgrimmar|N|Head to the flightmaster and take a flight to Brackenwall Village.|
+T The Theramore Docks|QID|1202|M|35.21,30.66|Z|Dustwallow Marsh|N|To Nazeer Bloodpike.|
+T The Lost Report|QID|1238|M|35.21,30.66|Z|Dustwallow Marsh|N|To Nazeer Bloodpike.|
+T Hungry!|QID|1177|M|35.15,38.26|Z|Dustwallow Marsh|N|To Mudcrush Durtfeet.|
+R Main road|ACTIVE|1218|M|36.10,41.55|Z|Dustwallow Marsh|CC|N|Make your way south to the main road.|
+R Swamplight Manor|ACTIVE|1218|M|55.17,26.96|Z|Dustwallow Marsh|N|Follow the road north/east to Swamplight Manor. There is a road leading north from the main road to the house.|
+T Soothing Spices|QID|1218|M|55.44,26.26|Z|Dustwallow Marsh|N|To "Swamp Eye" Jarl.|
+A Jarl Needs Eyes|QID|1206|M|55.44,26.26|Z|Dustwallow Marsh|N|From "Swamp Eye" Jarl.|PRE|1218|
+A The Severed Head|QID|1239|M|55.44,25.94|Z|Dustwallow Marsh|N|From the dirt pile beside the house.|PRE|1218|
+R Darkmist Cavern|ACTIVE|1206|M|36.97,23.99|Z|Dustwallow Marsh|N|Make your way to the Darkmist Cavern.|
+C Jarl Needs Eyes|QID|1206|M|34.99,21.49|Z|Dustwallow Marsh|N|Kill Darkmist Spiders to collect the Unpopped Darkmist Eyes.|
+R Swamplight Manor|ACTIVE|1206|M|55.20,26.88|Z|Dustwallow Marsh|N|Make your way back to Swamplight Manor.|
+T Jarl Needs Eyes|QID|1206|M|55.44,26.26|Z|Dustwallow Marsh|N|To "Swamp Eye" Jarl.|
+N Jarl Needs a Blade|AVAILABLE|1203|M|PLAYER|N|Do not bother getting this quest. It's not worth the effort.|PRE|1206|IZ|Swamplight Manor|
+R North Point Tower|AVAILABLE|1270|M|46.88,22.86|Z|Dustwallow Marsh|N|Head back to the main road and make your way to the intersection at North Tower.|
+A Stinky's Escape|QID|1270|M|46.88,17.51|Z|Dustwallow Marsh|N|From "Stinky" Ignatz.\n[color=FF0000]NOTE: [/color]The more mobs you clear on your way in, the less you will have to kill later.|
+C Escort Stinky|QID|1270|M|48.86,24.67|Z|Dustwallow Marsh|N|Follow Stinky around defending him as he looks for the Bogbean Leaves.\n[color=FF0000]NOTE: [/color]With the exception of random mobs, there are no surprise attacks.|
+R Brackenwall Village|ACTIVE|1240|M|37.63,31.69|Z|Dustwallow Marsh|N|Make your way back to Brackenwall Village.|
+F Ratchet|ACTIVE|1240|M|35.59,31.80|Z|Dustwallow Marsh|N|Fly to Ratchet.|
+b Booty Bay|ACTIVE|1240|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+F Grom'gol Base Camp|ACTIVE|1240|M|26.03,73.23|Z|Stranglethorn Vale|N|Head to the flightmaster and take a flight to Grom'gol Base Camp.|
+T The Troll Witchdoctor|QID|1240|M|32.27,27.70|Z|Stranglethorn Vale|N|To Kin'weelay.|
+A Marg Speaks|QID|1261|M|32.23,27.64|Z|Stranglethorn Vale|N|Click on the cauldron to get the quest.|PRE|1240|
+H Orgrimmar|ACTIVE|1261|M|PLAYER|N|Hearth back to Orgrimmar.\n[color=FF0000]NOTE: [/color]If your Hearthstone is on cooldown, take the boat and run into Orgrimmar.|
+F Brackenwall Village|ACTIVE|1261|M|45.58,63.99|Z|Orgrimmar|N|Head to the flightmaster and take a flight to Brackenwall Village.|
+R Main Road|ACTIVE|1261|M|39.14,37.96|Z|Dustwallow Marsh|CC|N|Exit Brackenwall from the south and follow the road until it ends at the main road.|
+A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ogron, just to the north of your current position.\n[color=FF0000]NOTE: [/color]This quest is not easy and can be bugged requiring you to finish it twice.|PRE|1323&1201|RANK|3|
+A Questioning Reethe|QID|1273|PRE|1323&1201|M|40.96,36.70|Z|Dustwallow Marsh|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Ogron and re-accept the quest from him.\n[color=FF0000]NOTE: [/color]You'll probably have to wait for him to respawn.|FAIL|
+N Questioning Reethe|ACTIVE|1273|N|If Reethe's not alone, the quest has bugged and you need to clear the mobs before you can do it.\n[color=FF0000]NOTE: [/color]Let Ogron die so the quest will fail and you can restart it.|
+C Questioning Reethe|QID|1273|M|42.64,38.08|Z|Dustwallow Marsh|N|Follow Ogron to Reethe's camp.\n[color=FF0000]NOTE: [/color]If you fail the quest, you need to clear the soldiers before you can do it again. Otherwise, the quest will bug and you can't finish it.|
+R Dustwallow Bay|ACTIVE|1261|M|43.78,36.05;44.94,35.37|Z|Dustwallow Marsh|CC|N|Make your way to Dustwallow Bay. There is a 'path' through the hills.|
+C Marg Speaks|QID|1261|M|55.02,44.61|Z|Dustwallow Marsh|N|MAke your way down to the shore and over to the islands in the middle of the bay. Grind out on the Muckshells until one drops the pendant.|
+R Brackenwall Village|ACTIVE|1261^1276|M|37.63,31.69|Z|Dustwallow Marsh|N|Make your way back to Brackenwall Village.|
+T Questioning Reethe|QID|1273|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
+F Thunder Bluff|ACTIVE|1276|M|35.56,31.88|Z|Dustwallow Marsh|N|Head to the flightmaster and take a flight to Thunder Bluff.|
+R Hunter Rise|ACTIVE|1276|M|51.78,74.30|Z|Thunder Bluff|N|Make your way to Hunter Rise.|
+T The Black Shield|QID|1276|M|54.01,80.74|Z|Thunder Bluff|N|To Mosarn.|
+F Orgrimmar|ACTIVE|584|M|47.01,49.85|Z|Thunder Bluff|N|Head to the flightmaster and take a flight to Orgrimmar.|
+R Grommash Hold|ACTIVE|1262|M|40.22,37.02|Z|Orgrimmar|N|Make your way to Grommash Hold.|
+T Report to Zor|QID|1262|M|38.92,38.39|Z|Orgrimmar|N|To Zor Lonetree (just inside Grommash Hold).|
+F Ratchet|ACTIVE|1270|M|45.09,63.88|Z|Orgrimmar|N|Head to the flightmaster and take a flight to Ratchet.|
+T Stinky's Escape|QID|1270|M|62.37,37.62|Z|The Barrens|N|To Mebok Mizzyrix.|
 
 ; Stranglethorn Vale
-;b Grom'gol Base Camp|QID|1107|M|61.85,59.07|Z|Tirisfal Glades|N|[color=FF0000]NOTE: [/color]Before you leave Undercity, make sure to grab the items you stashed in your bank.|
-;R Southern Savage Coast|ACTIVE|605^572^196|M|32.62,35.53|Z|Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
-;C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
-;K Raptor Mastery|ACTIVE|196|M|33.63,37.87|Z|Stranglethorn Vale|QO|1|N|Kill Jungle Stalkers.|
-;C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
-;l Singing Blue Shards|ACTIVE|605|M|33.63,37.87|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|US|
-;R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|Stranglethorn Vale|
+N Bank|ACTIVE|572^605^196|M|62.67,37.44|Z|The Barrens|N|As you are now headed back to STV, make sure you grab all of your quest items from your bank before leaving.|IZ|Ratchet|
+b Booty Bay|ACTIVE|572^605^196|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+F Grom'gol Base Camp|ACTIVE|572^605^196|M|26.87,77.10|Z|Stranglethorn Vale|N|Head to the flightmaster and take a flight to Grom'gol Base Camp.|
+R Southern Savage Coast|ACTIVE|605^572^196|M|32.62,35.53|Z|Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
+C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
+K Raptor Mastery|ACTIVE|196|M|33.63,37.87|Z|Stranglethorn Vale|QO|1|N|Kill Jungle Stalkers.|
+C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
+l Singing Blue Shards|ACTIVE|605|M|33.63,37.87|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|US|
+R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|Stranglethorn Vale|
+T Mok'thardin's Enchantment|QID|572|M|32.12,29.25|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
+A Mok'thardin's Enchantment|QID|571|M|32.12,29.25|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|572|
+A Split Bone Necklace|QID|598|M|32.27,27.71|Z|Stranglethorn Vale|N|From Kin'weelay.|PRE|572|
+R The Vile Reef|ACTIVE|1107|M|28.45,23.19|Z|Stranglethorn Vale|N|Make your way to The Vile Reef.|
+C Encrusted Tail Fins|QID|1107|M|26.62,25.56|Z|Stranglethorn Vale|L|5796 10|N|Kill Saltscale Murlocs to loot the Encrusted Tail Fins.\nThe best way to do this is to kite them to the surface so you don't drown by accident.\n This quest is not easy and can be time consuming.\n[color=FF0000]NOTE: [/color]Melee classes, focus on Warriors and Foragers. The others are range attack and will require you to fight underwater.|
+R Zuuldaia Ruins|ACTIVE|584|M|23.22,18.21;22.23,16.23|Z|Stranglethorn Vale|CC|N|Follow the Savage Coast north to the Zuuldaia Ruins.|
+R Ruins of Zul'Kunda|ACTIVE|584|M|21.42,10.17;22.28,8.66|Z|Stranglethorn Vale|CC|N|Enter Zul'Kunda through the rear entrance.|
 
 
+N Under Construction|QID|9999|N|From this point on, the guide is incomplete.|
 
-N Under Construction|QID|4742|N|From this point on, the guide is incomplete.|
-
-;C Encrusted Tail Fins|QID|1107|M|26.62,25.56|Z|Stranglethorn Vale|L|5796 10|N|Kill Saltscale Murlocs to loot the Encrusted Tail Fins.\nThe best way to do this is to kite them to the surface so you don't drown by accident.\n This quest is not easy and can be time consuming.\n[color=FF0000]NOTE: [/color]Melee classes, focus on Warriors and Foragers. The others are range attack and will require you to fight underwater.|
-
-;R Ruins of Zul'Kunda|QID|584|M|26.97,19.00;23.14,16.56|Z|Stranglethorn Vale|CC|N|Head back to the rear entrance to Zul'Kunda.|
 ;A Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Drizzlik.|PRE|577|
 ;A Scaring Shaky|QID|606|M|27.78,77.07|Z|Stranglethorn Vale|N|From "Sea Wolf" MacKinley.|
 ;A The Bloodsail Buccaneers|QID|595|M|28.09,76.22|Z|Stranglethorn Vale|N|From First Mate Crazz.|

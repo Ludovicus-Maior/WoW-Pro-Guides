@@ -1,120 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/august_celestials_reputation
--- Date: 2020-04-08 18:25
--- Who: Ludovicus_Maior
--- Log: The spaces around the & get eaten up by the scraper. May need an escape sequence for [Round 2: Clever Ashyo & Ken-Ken]
-
--- URL: http://wow-pro.com/node/3503/revisions/29901/view
--- Date: 2018-10-17 02:21
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3503/revisions/26851/view
--- Date: 2014-11-07 20:37
--- Who: Fluclo
--- Log: Removed 4x duplicate NC tags
-
--- URL: http://wow-pro.com/node/3503/revisions/26694/view
--- Date: 2014-09-27 23:35
--- Who: Ludovicus_Maior
--- Log: Hordie coordinate corrections
-
--- URL: http://wow-pro.com/node/3503/revisions/26614/view
--- Date: 2014-07-25 22:00
--- Who: Ludovicus_Maior
--- Log: Adj mean
-
--- URL: http://wow-pro.com/node/3503/revisions/26568/view
--- Date: 2014-07-06 15:53
--- Who: Ludovicus_Maior
--- Log: Added levels
-
--- URL: http://wow-pro.com/node/3503/revisions/26536/view
--- Date: 2014-06-11 19:25
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3503/revisions/25773/view
--- Date: 2013-10-14 19:15
--- Who: Ludovicus_Maior
--- Log: Breakup the questlines warning at the top, add the ;nobonus tag to the REP argument to stop prompting me to buy the silly thing when I have it.
-
--- URL: http://wow-pro.com/node/3503/revisions/25772/view
--- Date: 2013-10-14 17:02
--- Who: Ludovicus_Maior
--- Log: Added some missing M tags and trimmed one warning.
---	Need to add magic REP tags.
-
--- URL: http://wow-pro.com/node/3503/revisions/25713/view
--- Date: 2013-06-18 00:48
--- Who: Ludovicus_Maior
--- Log: quest 32010's name [A Celestial Task!] does not match Grail's database [A Celestial Task].
-
--- URL: http://wow-pro.com/node/3503/revisions/25695/view
--- Date: 2013-06-04 23:31
--- Who: Ludovicus_Maior
--- Log: Spelling errors, corrds, and misc fixes as I play through.
-
--- URL: http://wow-pro.com/node/3503/revisions/25673/view
--- Date: 2013-05-17 19:26
--- Who: Ludovicus_Maior
--- Log: Various errors!
-
--- URL: http://wow-pro.com/node/3503/revisions/25651/view
--- Date: 2013-05-14 19:32
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3503/revisions/25534/view
--- Date: 2013-02-18 06:25
--- Who: Emmaleah
--- Log: Fixed type "Naster" x3
-
--- URL: http://wow-pro.com/node/3503/revisions/25507/view
--- Date: 2013-01-24 20:13
--- Who: Emmaleah
--- Log: correct misspelling of steppes x5 (was steepes?!?)
-
--- URL: http://wow-pro.com/node/3503/revisions/25495/view
--- Date: 2013-01-19 20:05
--- Who: Emmaleah
--- Log: no change. just a comment on the previous comment.. that word was precise.  (precess?!?_
-
--- URL: http://wow-pro.com/node/3503/revisions/25494/view
--- Date: 2013-01-19 20:02
--- Who: Emmaleah
--- Log: moved accept 1st random challeng (white tiger temple) added more precess coordinates for all of niuzeo's temple.
-
--- URL: http://wow-pro.com/node/3503/revisions/25410/view
--- Date: 2013-01-13 07:10
--- Who: Emmaleah
--- Log: Change incorrect QID in A/C steps too...
-
--- URL: http://wow-pro.com/node/3503/revisions/25408/view
--- Date: 2013-01-13 04:43
--- Who: Emmaleah
--- Log: jade serpant temple updates--updating coords, fix 2 bad QID's, add S/US steps
-
--- URL: http://wow-pro.com/node/3503/revisions/25349/view
--- Date: 2013-01-12 04:28
--- Who: Emmaleah
--- Log: Draft #2, Temple of the White Tiger works great. I havent had a 2nd trip to any other temple to make sure my changes worked. That being said, test away :)
-
--- URL: http://wow-pro.com/node/3503/revisions/25281/view
--- Date: 2013-01-06 11:27
--- Who: Emmaleah
--- Log: Initial release.  Let me know what needs more work.  Comments in headers are what I know needs more work.
-
--- URL: http://wow-pro.com/node/3503/revisions/25159/view
--- Date: 2012-10-24 11:28
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3503/revisions/25114/view
--- Date: 2012-10-07 22:32
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("EmmAugCel",'Dailies', "Vale of Eternal Blossoms", "Emmaleah", "Neutral")
 WoWPro:GuideLevels(guide,85,90, 89.8843)
@@ -290,5 +177,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
+
 
 

@@ -1,35 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/inscription_techniques
--- Date: 2017-01-02 22:46
--- Who: Ludovicus_Maior
--- Log: New registration style
-
--- URL: http://wow-pro.com/node/3570/revisions/28080/view
--- Date: 2016-11-30 20:24
--- Who: Ludovicus_Maior
--- Log: Fix single section error.
-
--- URL: http://wow-pro.com/node/3570/revisions/27788/view
--- Date: 2016-09-14 19:29
--- Who: Ludovicus_Maior
--- Log: Missed one Dalaran City@Dalaran
-
--- URL: http://wow-pro.com/node/3570/revisions/27779/view
--- Date: 2016-09-14 18:14
--- Who: Ludovicus_Maior
--- Log: Dalaran City@Dalaran
-
--- URL: http://wow-pro.com/node/3570/revisions/25895/view
--- Date: 2014-02-14 00:14
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3570/revisions/25888/view
--- Date: 2014-02-14 00:07
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoShopInscription","Profession", "Inscription", "Ludovicus", "Neutral")
 WoWPro:GuideName(guide, "Inscription Techniques")
@@ -49,5 +21,6 @@ B Glyph of Colossus Smash|QID|990089815|RECIPE|89815|M|76.60,49.40|Z|Twilight Hi
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
 
 

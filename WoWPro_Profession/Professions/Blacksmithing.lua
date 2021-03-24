@@ -1,53 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/profession_blacksmithing
--- Date: 2017-03-06 03:10
--- Who: Ludovicus_Maior
--- Log: WoWPro:GuideLevels(guide)
-
--- URL: http://wow-pro.com/node/3409/revisions/28191/view
--- Date: 2017-01-02 22:36
--- Who: Ludovicus_Maior
--- Log: New style registration
-
--- URL: http://wow-pro.com/node/3409/revisions/27721/view
--- Date: 2016-09-07 14:39
--- Who: Ludovicus_Maior
--- Log: Use Hall of the Crescent Moon@Shrine of Two Moons
-
--- URL: http://wow-pro.com/node/3409/revisions/27163/view
--- Date: 2015-03-09 17:34
--- Who: Ludovicus_Maior
--- Log: The Imperial Exchange@Shrine of Seven Stars
-
--- URL: http://wow-pro.com/node/3409/revisions/26877/view
--- Date: 2014-11-08 00:14
--- Who: Ludovicus_Maior
--- Log: FACRION
-
--- URL: http://wow-pro.com/node/3409/revisions/25821/view
--- Date: 2013-11-27 20:54
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3409/revisions/25654/view
--- Date: 2013-05-16 00:52
--- Who: Twists
--- Log: Update to the new parser.
-
--- URL: http://wow-pro.com/node/3409/revisions/24682/view
--- Date: 2011-07-13 22:43
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3409/revisions/24642/view
--- Date: 2011-06-30 06:05
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3409/revisions/24634/view
--- Date: 2011-06-30 05:50
--- Who: Crackerhead22
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("TwiBlacksmithing","Profession","Blacksmithing", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",164)
@@ -126,5 +80,6 @@ N Contender's Revenant Breastplate|QID|901640063|P|Blacksmithing;164;575;600;|N|
 N That completes Blacksmithing.
 ]]
 end)
+
 
 

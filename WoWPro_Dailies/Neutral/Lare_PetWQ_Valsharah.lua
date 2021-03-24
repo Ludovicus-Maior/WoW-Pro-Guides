@@ -1,27 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/battle_pet_world_quests_val039sharah
--- Date: 2017-10-07 20:00
--- Who: Ludovicus_Maior
--- Log: [Meet The Maw] update
-
--- URL: http://wow-pro.com/node/3737/revisions/28736/view
--- Date: 2017-08-03 22:04
--- Who: Ludovicus_Maior
--- Log: Work off of just World QIDs
-
--- URL: http://wow-pro.com/node/3737/revisions/28720/view
--- Date: 2017-07-05 21:11
--- Who: Ludovicus_Maior
--- Log: Add AS
-
--- URL: http://wow-pro.com/node/3737/revisions/28699/view
--- Date: 2017-06-13 20:16
--- Who: rpotor
--- Log: Initial version
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LarePetWQVal","Dailies","Legion","Larenon","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
@@ -93,5 +73,6 @@ C Mechanical .vs. Rat|STRATEGY|HazelNutty@WH|QID|42154|N|1) [ability=392/extra-p
 
 ]]
 end)
+
 
 

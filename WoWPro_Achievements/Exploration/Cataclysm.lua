@@ -1,22 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/exploration_achievements_cataclysm
--- Date: 2015-04-13 18:38
--- Who: Ludovicus_Maior
--- Log: Converted to Continent guide with proximity sort.
-
--- URL: http://wow-pro.com/node/3578/revisions/26486/view
--- Date: 2014-06-03 22:20
--- Who: Ludovicus_Maior
--- Log: Modernize the remaining explorations for CATA zones.
-
--- URL: http://wow-pro.com/node/3578/revisions/26382/view
--- Date: 2014-05-28 21:57
--- Who: Ludovicus_Maior
--- Log: Initial Cut
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("KabExpCata","Achievements","Cataclysm","Kaboca+Twists", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
@@ -126,5 +111,6 @@ N Congratulations on exploring Cataclysm!
 
 ]]
 end)
+
 
 

@@ -1,27 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/profession_skinning
--- Date: 2017-03-06 03:12
--- Who: Ludovicus_Maior
--- Log: WoWPro:GuideLevels(guide)
-
--- URL: http://wow-pro.com/node/3463/revisions/28280/view
--- Date: 2017-03-05 18:43
--- Who: Ludovicus_Maior
--- Log: Initial Skinning guide
-
--- URL: http://wow-pro.com/node/3463/revisions/28200/view
--- Date: 2017-01-02 22:42
--- Who: Ludovicus_Maior
--- Log: New style registration
-
--- URL: http://wow-pro.com/node/3463/revisions/24908/view
--- Date: 2012-01-19 00:31
--- Who: Ludovicus_Maior
--- Log: Sync to GIT
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("TwiSkinning","Profession","Skinning", "Ludovicus", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",393)
@@ -75,5 +55,6 @@ N That completes Skinning.|QID|903930000|
 ]]
 
 end)
+
 
 

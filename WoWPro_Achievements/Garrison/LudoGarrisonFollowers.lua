@@ -1,32 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/dozen_garrison_followers
--- Date: 2019-02-14 18:27
--- Who: Ludovicus_Maior
--- Log: Add secret QIDs for [Services of Dagg]
-
--- URL: http://wow-pro.com/node/3720/revisions/29885/view
--- Date: 2018-10-17 02:19
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3720/revisions/28972/view
--- Date: 2018-02-19 22:27
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3720/revisions/28603/view
--- Date: 2017-03-23 19:58
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3720/revisions/28526/view
--- Date: 2017-03-17 16:50
--- Who: Ludovicus_Maior
--- Log: Initial commit
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoGarrisonFollowers","Achievements","Draenor","Ludovicus","Neutral")
 WoWPro:GuideIcon(guide,"ACH",9109)
@@ -167,5 +142,6 @@ A Solidarity in Death|QID|36522|PRE|33973|M|68.68,90.59|Z|Frostwall|N|Ahm is wai
 T Solidarity in Death|QID|36522|M|68.68,90.59|Z|Frostwall|N|To Ahm.|FACTION|Horde|
 ]]
 end)
+
 
 

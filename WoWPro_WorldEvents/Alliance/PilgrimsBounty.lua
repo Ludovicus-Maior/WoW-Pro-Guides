@@ -1,73 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
--- Date: 2018-10-17 02:31
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3443/revisions/28822/view
--- Date: 2017-11-24 19:04
--- Who: Ludovicus
--- Log: Update guide to use ACH and ACTIVE tags for better navigation.
-
--- URL: http://wow-pro.com/node/3443/revisions/28507/view
--- Date: 2017-03-17 13:55
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL: http://wow-pro.com/node/3443/revisions/28286/view
--- Date: 2017-03-05 18:53
--- Who: Ludovicus_Maior
--- Log: Float the level
-
--- URL: http://wow-pro.com/node/3443/revisions/27365/view
--- Date: 2015-07-25 18:18
--- Who: Ludovicus_Maior
--- Log: Add Icon
-
--- URL: http://wow-pro.com/node/3443/revisions/26862/view
--- Date: 2014-11-07 21:34
--- Who: Emmaleah
--- Log: added 3 N tags per list o' errors
-
--- URL: http://wow-pro.com/node/3443/revisions/26600/view
--- Date: 2014-07-25 21:37
--- Who: Ludovicus_Maior
--- Log: Adj Mean level
-
--- URL: http://wow-pro.com/node/3443/revisions/26498/view
--- Date: 2014-06-10 21:42
--- Who: Ludovicus_Maior
--- Log: Changed guide format.
-
--- URL: http://wow-pro.com/node/3443/revisions/25633/view
--- Date: 2013-05-14 17:01
--- Who: Ludovicus_Maior
--- Log: Roasted => roasted
-
--- URL: http://wow-pro.com/node/3443/revisions/24817/view
--- Date: 2011-11-20 23:35
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3443/revisions/24814/view
--- Date: 2011-11-20 19:37
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3443/revisions/24804/view
--- Date: 2011-11-16 02:02
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3443/revisions/24787/view
--- Date: 2011-10-30 19:09
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3443/revisions/24786/view
--- Date: 2011-10-30 19:09
--- Who: Crackerhead22
--- Log: Added source code page.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoPilBountyA",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide)
@@ -141,5 +75,6 @@ N Pilgrim's Peril: Silvermoon City|ACH|3580;2|M|55.4,53.2|Z|Eversong Woods|N|Sit
 N Fini|N|Time to take a nap!|
 ]]
 end)
+
 
 

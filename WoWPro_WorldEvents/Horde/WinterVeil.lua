@@ -1,82 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
--- Date: 2020-07-17 20:59
--- Who: Ludovicus_Maior
--- Log: 29385 [A Winter Veil Gift] is obsolete
-
--- URL: http://wow-pro.com/node/3458/revisions/30045/view
--- Date: 2018-10-17 22:33
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3458/revisions/29549/view
--- Date: 2018-08-18 21:03
--- Who: Ludovicus_Maior
--- Log: Fix L steps that should be l steps.
-
--- URL: http://wow-pro.com/node/3458/revisions/28288/view
--- Date: 2017-03-05 18:54
--- Who: Ludovicus_Maior
--- Log: Float the level
-
--- URL: http://wow-pro.com/node/3458/revisions/27363/view
--- Date: 2015-07-25 18:17
--- Who: Ludovicus_Maior
--- Log: Add Icon
-
--- URL: http://wow-pro.com/node/3458/revisions/27362/view
--- Date: 2015-07-25 18:17
--- Who: Ludovicus_Maior
--- Log: Add Icon
-
--- URL: http://wow-pro.com/node/3458/revisions/26861/view
--- Date: 2014-11-07 21:31
--- Who: Emmaleah
--- Log: corrections per List 'o errors and added other QID's to Horde side A Greatfather Winter is here
-
--- URL: http://wow-pro.com/node/3458/revisions/26602/view
--- Date: 2014-07-25 21:40
--- Who: Ludovicus_Maior
--- Log: Adj levels
-
--- URL: http://wow-pro.com/node/3458/revisions/26494/view
--- Date: 2014-06-10 21:29
--- Who: Ludovicus_Maior
--- Log: Changed Guide format.
-
--- URL: http://wow-pro.com/node/3458/revisions/25679/view
--- Date: 2013-05-17 20:52
--- Who: Ludovicus_Maior
--- Log: [Smokywood Pastures' Thank You!] => [A Smokywood Pastures' Thank You!]
-
--- URL: http://wow-pro.com/node/3458/revisions/25642/view
--- Date: 2013-05-14 19:07
--- Who: Ludovicus_Maior
--- Log: Coord and quest corrections
-
--- URL: http://wow-pro.com/node/3458/revisions/25301/view
--- Date: 2013-01-09 17:24
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3458/revisions/25266/view
--- Date: 2012-12-25 20:05
--- Who: Ludovicus_Maior
--- Log: Update winter veil to use the latest WE updates and eliminate many manual click offs!
-
--- URL: http://wow-pro.com/node/3458/revisions/24901/view
--- Date: 2012-01-19 00:08
--- Who: Ludovicus_Maior
--- Log: Correct node number
-
--- URL: http://wow-pro.com/node/3458/revisions/24900/view
--- Date: 2012-01-19 00:07
--- Who: Ludovicus_Maior
--- Log: Sync to GIT
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoWinterVeilH",'WorldEvents',"Winter Veil", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
@@ -131,5 +56,6 @@ A A Ticking Present|QID|8769|LVL|40|M|49.19,77.76|Z|Orgrimmar|N|Your sixth gift!
 N All done for the day|
 ]]
 end)
+
 
 

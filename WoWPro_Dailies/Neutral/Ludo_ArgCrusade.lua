@@ -1,67 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
--- Date: 2018-10-23 21:58
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3479/revisions/29604/view
--- Date: 2018-08-24 16:04
--- Who: Ludovicus_Maior
--- Log: Cleaned up QOs on [Troll Patrol: High Standards]
-
--- URL: http://wow-pro.com/node/3479/revisions/28334/view
--- Date: 2017-03-11 18:20
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3479/revisions/26601/view
--- Date: 2014-07-25 21:38
--- Who: Ludovicus_Maior
--- Log: adj mean
-
--- URL: http://wow-pro.com/node/3479/revisions/26586/view
--- Date: 2014-07-20 19:27
--- Who: Ludovicus_Maior
--- Log: Added faction for Argent Dawn
-
--- URL: http://wow-pro.com/node/3479/revisions/26554/view
--- Date: 2014-07-06 15:36
--- Who: Ludovicus_Maior
--- Log: Added level and faction
-
--- URL: http://wow-pro.com/node/3479/revisions/26521/view
--- Date: 2014-06-11 19:00
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3479/revisions/25741/view
--- Date: 2013-08-15 23:12
--- Who: Ludovicus_Maior
--- Log: Improved ordering.
-
--- URL: http://wow-pro.com/node/3479/revisions/25645/view
--- Date: 2013-05-14 19:16
--- Who: Ludovicus_Maior
--- Log: Extra M tag
-
--- URL: http://wow-pro.com/node/3479/revisions/25396/view
--- Date: 2013-01-12 22:43
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3479/revisions/25085/view
--- Date: 2012-09-25 00:23
--- Who: Ludovicus_Maior
--- Log: Wrong separators in [Captain Grondel's Task]
-
--- URL: http://wow-pro.com/node/3479/revisions/24998/view
--- Date: 2012-05-27 22:30
--- Who: Ludovicus_Maior
--- Log: INitial Versions
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoArgCrusade",'Dailies', "Icecrown", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,74,77,74.2)
@@ -130,5 +70,6 @@ T Congratulations!|QID|12604|M|40.3,66.6|Z|Zul'Drak|N|To Commander Kunz.|
 
 ]]
 end)
+
 
 

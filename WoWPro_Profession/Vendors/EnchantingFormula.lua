@@ -1,40 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/enchanting_formulas
--- Date: 2017-01-02 22:45
--- Who: Ludovicus_Maior
--- Log: New registration style
-
--- URL: http://wow-pro.com/node/3568/revisions/28082/view
--- Date: 2016-11-30 20:25
--- Who: Ludovicus_Maior
--- Log: Fix single section error.
-
--- URL: http://wow-pro.com/node/3568/revisions/27780/view
--- Date: 2016-09-14 18:18
--- Who: Ludovicus_Maior
--- Log: Dalaran City@Dalaran
-
--- URL: http://wow-pro.com/node/3568/revisions/27720/view
--- Date: 2016-09-07 14:37
--- Who: Ludovicus_Maior
--- Log: USe Old Hillsbrad@CoTHillsbradFoothills
-
--- URL: http://wow-pro.com/node/3568/revisions/27164/view
--- Date: 2015-03-09 17:36
--- Who: Ludovicus_Maior
--- Log: CoTHillsbradFoothills
-
--- URL: http://wow-pro.com/node/3568/revisions/25897/view
--- Date: 2014-02-14 00:15
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3568/revisions/25886/view
--- Date: 2014-02-14 00:04
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoShopEnchanting","Profession", "Enchanting", "Ludovicus", "Neutral")
 WoWPro:GuideName(guide, "Enchanting Formulas")
@@ -306,5 +273,6 @@ B Enchant Cloak - Greater Speed|QID|990047898|RECIPE|47898|M|38.70,40.80|Z|Dalar
 N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
 
 

@@ -1,109 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
--- Date: 2017-03-10 22:56
--- Who: Ludovicus_Maior
--- Log: Syntax changes.
-
--- URL: http://wow-pro.com/node/3506/revisions/26947/view
--- Date: 2014-11-08 18:12
--- Who: Emmaleah
--- Log: Deleted extraneous step for collecting from mailbox
-
--- URL: http://wow-pro.com/node/3506/revisions/26876/view
--- Date: 2014-11-08 00:01
--- Who: Emmaleah
--- Log: separated the l pick up things from mailbox into individual steps.  I knew it didn't work... I just forgot to ever come back and fix it :(
-
--- URL: http://wow-pro.com/node/3506/revisions/26571/view
--- Date: 2014-07-06 15:57
--- Who: Ludovicus_Maior
--- Log: Added artificial levels line
-
--- URL: http://wow-pro.com/node/3506/revisions/26539/view
--- Date: 2014-06-11 22:07
--- Who: Ludovicus_Maior
--- Log: Converted
-
--- URL: http://wow-pro.com/node/3506/revisions/25759/view
--- Date: 2013-09-10 23:57
--- Who: Ludovicus_Maior
--- Log: Interleave the last turnins to avoid client crash if you turn in more than one quest before "Storytime" starts.   You could pile up X copies of Lorewalker Cho telling stories at the same time and then BOOOM!
-
--- URL: http://wow-pro.com/node/3506/revisions/25512/view
--- Date: 2013-01-26 03:06
--- Who: Kaboca
--- Log: The Last Stand - making it easier to find :-)
-
--- URL: http://wow-pro.com/node/3506/revisions/25246/view
--- Date: 2012-12-13 06:52
--- Who: Emmaleah
--- Log: made a path for The Defiant, added |CS| to The Defiant, Valley of the Emperors, and Amber. Added notes to Into(Brewfathers), First Quest, (for some reason I could not get it with my hunter) and about the trapped floor in Tomb of Conquest.
-
--- URL: http://wow-pro.com/node/3506/revisions/25174/view
--- Date: 2012-10-28 05:17
--- Who: Emmaleah
-
--- URL: http://wow-pro.com/node/3506/revisions/25170/view
--- Date: 2012-10-27 04:13
--- Who: Emmaleah
--- Log: The change I just made, somehow I didn't.  Now I am. (in other words, the log for the non-change immediately before this belongs to this.)
-
--- URL: http://wow-pro.com/node/3506/revisions/25169/view
--- Date: 2012-10-27 04:09
--- Who: Emmaleah
--- Log: -- Date: 10-26-12
---	-- Who: Emmaleah
---	-- Log: Points of Interest (F steps) reordered.
---	--      |NC| Tags for The Lorewalker/Cleaning off the Bookshelf.
---	--      added opening N step.
---	--      moved the opening Lorewalkers quests to the beginning, so that people will be sure to turn them in first (cant turn in after honored)
---	--      Gave Lorewalker Cho coordinates on all the T steps
---	--      Does anyone read this and/care
---	--      Discovered a wierd glith with Between a Saurok and a hard place (the item ID on mouseover, and wowhead, is not the one that lets it autocomplete.  a search on the item name, found a differant item with same name, differant ID
---	--      Probably other stuff I have forgotten... yes, I'm getting jaded now.
-
--- URL: http://wow-pro.com/node/3506/revisions/25168/view
--- Date: 2012-10-26 05:04
--- Who: Emmaleah
--- Log: Inserted missed |N|tag on A Hozen in the mist
-
--- URL: http://wow-pro.com/node/3506/revisions/25167/view
--- Date: 2012-10-26 04:51
--- Who: Emmaleah
--- Log: take the rest of the U tags out, that I could swear I just took out...
-
--- URL: http://wow-pro.com/node/3506/revisions/25166/view
--- Date: 2012-10-26 04:33
--- Who: Emmaleah
--- Log: Date: 10-24-12 (2nd edit)
---	Who: Emmaleah
---	Log: Fixed the guide registration so it would show up in game, put |O| on the quest steps after you get the items out of your mailbox. removed |U|tags from the turn in steps of same quests. Fixed zone name for Shrine of Two Moons.
-
--- URL: http://wow-pro.com/node/3506/revisions/25165/view
--- Date: 2012-10-25 21:57
--- Who: Emmaleah
-
--- URL: http://wow-pro.com/node/3506/revisions/25164/view
--- Date: 2012-10-25 21:57
--- Who: Emmaleah
--- Log: typos (rec'e to received and ThundeF to Thunder)
-
--- URL: http://wow-pro.com/node/3506/revisions/25138/view
--- Date: 2012-10-10 11:38
--- Who: Ludovicus_Maior
--- Log: Added credits
-
--- URL: http://wow-pro.com/node/3506/revisions/25137/view
--- Date: 2012-10-10 11:36
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3506/revisions/25117/view
--- Date: 2012-10-07 22:35
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('Lorewalkers',"Achievements",'Pandaria', 'Lockslap','Neutral')
 WoWPro:GuideIcon(guide,"ACH",6548)
@@ -213,5 +111,6 @@ B Toys!|M|82.2,29.4|Z|Vale of Eternal Blossoms|N|You should now be exalted, visi
 ]]
 
 end)
+
 
 

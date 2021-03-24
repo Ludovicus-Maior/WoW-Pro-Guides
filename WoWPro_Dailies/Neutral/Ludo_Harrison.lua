@@ -1,22 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/harrison_jones_treasure_contracts
--- Date: 2018-10-17 02:21
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3647/revisions/27419/view
--- Date: 2016-01-08 23:51
--- Who: Ludovicus_Maior
--- Log: 3647
-
--- URL: http://wow-pro.com/node/3647/revisions/27418/view
--- Date: 2016-01-08 23:50
--- Who: Ludovicus_Maior
--- Log: Initial
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoHarrison",'Dailies',"Draenor","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,100,100,101)
@@ -162,5 +147,6 @@ T The Silent Skull: Taking from the Taker|QID|37996|N|To Rokhan, at your Garriso
 
 ]]
 end)
+
 
 

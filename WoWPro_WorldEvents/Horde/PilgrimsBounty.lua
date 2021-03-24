@@ -1,71 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_horde
--- Date: 2018-08-24 09:07
--- Who: Emmaleah
--- Log: Fix Old Style QOs
-
--- URL: http://wow-pro.com/node/3444/revisions/28823/view
--- Date: 2017-11-24 19:05
--- Who: Ludovicus
--- Log: Update guide to use ACTIVE tags for better navigation.
-
--- URL: http://wow-pro.com/node/3444/revisions/28517/view
--- Date: 2017-03-17 14:14
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL: http://wow-pro.com/node/3444/revisions/28287/view
--- Date: 2017-03-05 18:54
--- Who: Ludovicus_Maior
--- Log: Float the level
-
--- URL: http://wow-pro.com/node/3444/revisions/27364/view
--- Date: 2015-07-25 18:18
--- Who: Ludovicus_Maior
--- Log: Add Icon
-
--- URL: http://wow-pro.com/node/3444/revisions/26843/view
--- Date: 2014-11-07 20:25
--- Who: Emmaleah
--- Log: add 3 N tags per Ludo's list 'o errors 11/5/14
-
--- URL: http://wow-pro.com/node/3444/revisions/26497/view
--- Date: 2014-06-10 21:40
--- Who: Ludovicus_Maior
--- Log: Changed guide format.
-
--- URL: http://wow-pro.com/node/3444/revisions/25828/view
--- Date: 2013-12-01 00:17
--- Who: Ludovicus_Maior
--- Log: Added ACH tags to steps.
-
--- URL: http://wow-pro.com/node/3444/revisions/24818/view
--- Date: 2011-11-20 23:37
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3444/revisions/24815/view
--- Date: 2011-11-20 19:39
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3444/revisions/24809/view
--- Date: 2011-11-17 00:38
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3444/revisions/24805/view
--- Date: 2011-11-16 02:37
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3444/revisions/24789/view
--- Date: 2011-10-30 19:10
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3444/revisions/24788/view
--- Date: 2011-10-30 19:10
--- Who: Crackerhead22
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoPilBountyH",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide)
@@ -157,5 +93,6 @@ N Pilgrim's Peril: Exodar|QID|935810002|ACH|3581;2|M|76.54,52.03|Z|The Exodar|N|
 N Fini|N|Time to take a nap!|
 ]]
 end)
+
 
 

@@ -1,44 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/profession_alchemy
--- Date: 2017-03-06 03:10
--- Who: Ludovicus_Maior
--- Log: WoWPro:GuideLevels(guide)
-
--- URL: http://wow-pro.com/node/3408/revisions/28190/view
--- Date: 2017-01-02 22:35
--- Who: Ludovicus_Maior
--- Log: New style registration
-
--- URL: http://wow-pro.com/node/3408/revisions/26878/view
--- Date: 2014-11-08 00:15
--- Who: Ludovicus_Maior
--- Log: FACTION
-
--- URL: http://wow-pro.com/node/3408/revisions/25822/view
--- Date: 2013-11-27 20:57
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3408/revisions/25653/view
--- Date: 2013-05-16 00:44
--- Who: Twists
--- Log: Upgrade to the new parser.
-
--- URL: http://wow-pro.com/node/3408/revisions/24697/view
--- Date: 2011-07-27 12:12
--- Who: Ludovicus_Maior
--- Log: Merge Twists Pull
-
--- URL: http://wow-pro.com/node/3408/revisions/24641/view
--- Date: 2011-06-30 06:05
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3408/revisions/24633/view
--- Date: 2011-06-30 05:49
--- Who: Crackerhead22
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("TwiAlchemy","Profession","Alchemy", "Twists", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",171)
@@ -107,5 +70,6 @@ N Master Mana Potion|QID|901710055|P|Alchemy;171;575;600;|N|1;Green Tea Leaf;25;
 N That completes Alchemy.
 ]]
 end)
+
 
 

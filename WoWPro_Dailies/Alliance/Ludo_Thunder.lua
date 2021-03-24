@@ -1,61 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/isle_thunder_alliance
--- Date: 2018-10-17 02:20
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3537/revisions/28984/view
--- Date: 2018-02-19 22:47
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3537/revisions/28961/view
--- Date: 2018-01-23 01:25
--- Who: Ludovicus
--- Log: QO Touchups.
-
--- URL: http://wow-pro.com/node/3537/revisions/28318/view
--- Date: 2017-03-10 23:11
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3537/revisions/26886/view
--- Date: 2014-11-08 00:31
--- Who: Ludovicus_Maior
--- Log: BAtch fix
-
--- URL: http://wow-pro.com/node/3537/revisions/26548/view
--- Date: 2014-07-06 15:25
--- Who: Ludovicus_Maior
--- Log: Guide level and faction
-
--- URL: http://wow-pro.com/node/3537/revisions/26508/view
--- Date: 2014-06-10 23:05
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3537/revisions/25938/view
--- Date: 2014-04-14 21:17
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3537/revisions/25929/view
--- Date: 2014-04-14 19:31
--- Who: Ludovicus_Maior
--- Log: Add solo scenarios; try to start using the guide!
-
--- URL: http://wow-pro.com/node/3537/revisions/25547/view
--- Date: 2013-03-07 23:31
--- Who: Ludovicus_Maior
--- Log: First cut for first phase!
-
--- URL: http://wow-pro.com/node/3537/revisions/25545/view
--- Date: 2013-03-06 22:26
--- Who: Ludovicus_Maior
--- Log: Initial Notes for guide
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoThunderKing",'Dailies', "Isle of Thunder", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,90,90,90)
@@ -240,5 +186,6 @@ N Done for the Day|N|Come back tomorrow!| ; This note will "Catch" questlines th
 
 ]]
 end)
+
 
 

@@ -1,22 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/tiny_terrors_tanaan_dailies
--- Date: 2017-03-10 23:34
--- Who: Ludovicus_Maior
--- Log: Syntax changes.
-
--- URL: http://wow-pro.com/node/3644/revisions/27411/view
--- Date: 2016-01-08 23:22
--- Who: Ludovicus_Maior
--- Log: Use 3644
-
--- URL: http://wow-pro.com/node/3644/revisions/27410/view
--- Date: 2016-01-08 23:22
--- Who: Ludovicus_Maior
--- Log: Initial Cut
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LarePetTinyTerrors","Dailies","Draenor","Larenon","Neutral")
 WoWPro:GuideLevels(guide,100, 100, 100)
@@ -109,5 +94,6 @@ N DE Strategy|QID|39173|N|Geyser >> Whirlpool >> Switch to Chrominius >> Howl >>
 U Open our bag|U|127751|N|Let's see what we've got in our bag!|
 ]]
 end)
+
 
 

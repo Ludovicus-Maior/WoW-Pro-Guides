@@ -1,81 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/node/3628
--- Date: 2018-10-17 02:21
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3628/revisions/28992/view
--- Date: 2018-02-19 22:55
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3628/revisions/28966/view
--- Date: 2018-02-02 20:56
--- Who: Ludovicus
--- Log: Tag Tweaks
-
--- URL: http://wow-pro.com/node/3628/revisions/28964/view
--- Date: 2018-01-27 18:09
--- Who: Ludovicus
--- Log: Extra Z tags detected by PyroBurn
-
--- URL: http://wow-pro.com/node/3628/revisions/28801/view
--- Date: 2017-10-07 19:54
--- Who: Ludovicus_Maior
--- Log: Updated [Garrison Campaign: Onslaught at Auchindoun] for horde
-
--- URL: http://wow-pro.com/node/3628/revisions/28557/view
--- Date: 2017-03-23 17:46
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3628/revisions/28329/view
--- Date: 2017-03-10 23:32
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3628/revisions/27481/view
--- Date: 2016-07-30 16:05
--- Who: Ludovicus_Maior
--- Log: Spell AVAILABLE right
-
--- URL: http://wow-pro.com/node/3628/revisions/27426/view
--- Date: 2016-01-09 01:19
--- Who: Ludovicus_Maior
--- Log: Add Weeklies
-
--- URL: http://wow-pro.com/node/3628/revisions/27395/view
--- Date: 2015-10-05 14:56
--- Who: Ludovicus_Maior
--- Log: More unlocks!
-
--- URL: http://wow-pro.com/node/3628/revisions/27379/view
--- Date: 2015-08-09 23:46
--- Who: Ludovicus_Maior
--- Log: Playthrough  edits.
-
--- URL: http://wow-pro.com/node/3628/revisions/27338/view
--- Date: 2015-07-19 20:59
--- Who: Ludovicus_Maior
--- Log: I need to spell Dailies right.
-
--- URL: http://wow-pro.com/node/3628/revisions/27337/view
--- Date: 2015-07-19 20:44
--- Who: Ludovicus_Maior
--- Log: MAke it an WoWPro:GuideAutoSwitch guide
-
--- URL: http://wow-pro.com/node/3628/revisions/27336/view
--- Date: 2015-07-19 20:42
--- Who: Ludovicus_Maior
--- Log: Change name and guide type.
-
--- URL: http://wow-pro.com/node/3628/revisions/27277/view
--- Date: 2015-07-12 20:39
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('FlucloTanaanJungle', "Dailies", 'Tanaan Jungle', 'Fluclo', 'Neutral')
 WoWPro:GuideLevels(guide,100,100,100)
@@ -398,5 +324,6 @@ T Naval Domination |QID|39246|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfire R
 ]]
 
 end)
+
 
 

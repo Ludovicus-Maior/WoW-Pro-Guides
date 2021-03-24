@@ -1,96 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/icecrown_dalies
--- Date: 2018-08-23 03:55
--- Who: jovieve
--- Log: Removed unnecessary old style QO tag.
-
--- URL: http://wow-pro.com/node/3405/revisions/28373/view
--- Date: 2017-03-15 20:33
--- Who: Ludovicus_Maior
--- Log: LudoEbonBlade PRE tags
-
--- URL: http://wow-pro.com/node/3405/revisions/28320/view
--- Date: 2017-03-10 23:13
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3405/revisions/27992/view
--- Date: 2016-11-06 22:19
--- Who: Ludovicus_Maior
--- Log: Dont set bogus 666 faction on Icecrown Dailies.
-
--- URL: http://wow-pro.com/node/3405/revisions/26605/view
--- Date: 2014-07-25 21:44
--- Who: Ludovicus_Maior
--- Log: Adj mean
-
--- URL: http://wow-pro.com/node/3405/revisions/26594/view
--- Date: 2014-07-25 21:01
--- Who: Ludovicus_Maior
--- Log: Adj. mean levels.
-
--- URL: http://wow-pro.com/node/3405/revisions/26585/view
--- Date: 2014-07-20 19:26
--- Who: Ludovicus_Maior
--- Log: Added faction to Ebon Blade
-
--- URL: http://wow-pro.com/node/3405/revisions/26547/view
--- Date: 2014-07-06 15:24
--- Who: Ludovicus_Maior
--- Log: Guide Levels and faction
-
--- URL: http://wow-pro.com/node/3405/revisions/26507/view
--- Date: 2014-06-10 23:03
--- Who: Ludovicus_Maior
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3405/revisions/25390/view
--- Date: 2013-01-12 21:25
--- Who: Emmaleah
--- Log: fixes for multi coordinates
-
--- URL: http://wow-pro.com/node/3405/revisions/25295/view
--- Date: 2013-01-09 01:48
--- Who: Ludovicus_Maior
--- Log: Added CN tag.
-
--- URL: http://wow-pro.com/node/3405/revisions/25292/view
--- Date: 2013-01-09 01:42
--- Who: Ludovicus_Maior
--- Log: Added CN tag
-
--- URL: http://wow-pro.com/node/3405/revisions/24985/view
--- Date: 2012-05-27 18:29
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3405/revisions/24984/view
--- Date: 2012-05-27 18:28
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3405/revisions/24972/view
--- Date: 2012-03-14 21:17
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3405/revisions/24971/view
--- Date: 2012-03-14 21:16
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3405/revisions/24970/view
--- Date: 2012-03-03 16:22
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3405/revisions/24969/view
--- Date: 2012-03-03 16:21
--- Who: Ludovicus_Maior
--- Log: Split up guides.
-
--- URL: http://wow-pro.com/node/3405/revisions/24628/view
--- Date: 2011-06-29 21:12
--- Who: Ludovicus_Maior
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoIceDaily",'Dailies', "Icecrown", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,77,77,77)
@@ -137,5 +48,6 @@ T That's Abominable!|QID|13289|N|To Thassarian, he's standing on the left "wing"
 
 ]]
 end)
+
 
 

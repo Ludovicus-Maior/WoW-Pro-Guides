@@ -862,7 +862,7 @@ local function createBlizzOptions()
                 order = 93,
                 type = "description",
                 fontSize = "medium",
-                name = "WoW-Pro.com is a guide website by gamers, for gamers. The site hosts hundreds of free guides covering every facet of World of Warcraft."
+                name = "WoW-Pro is a addon collection by gamers, for gamers. The collection includes hundreds of free guides covering every facet of World of Warcraft."
             },
             blank12 = {
                 order = 94,
@@ -887,7 +887,7 @@ local function createBlizzOptions()
                 fontSize = "medium",
                 name =
                     "The WoW-Pro addon has brought many of the guides we've built as a community into the game, "..
-                    "and built on them since WoLK to BFA and now Classic. Drop by WoW-Pro.com or Discord and say hello!"
+                    "and built on them since WoLK to BFA and now Classic. Drop Discord and say hello!"
             },
             blank19 = {
                 order = 102,

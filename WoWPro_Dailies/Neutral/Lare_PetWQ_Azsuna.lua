@@ -1,27 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/battle_pet_world_quests_azsuna
--- Date: 2017-08-03 21:55
--- Who: Ludovicus_Maior
--- Log: Work off of World QIDs.
-
--- URL: http://wow-pro.com/node/3731/revisions/28713/view
--- Date: 2017-07-05 21:08
--- Who: Ludovicus_Maior
--- Log: Add AS
-
--- URL: http://wow-pro.com/node/3731/revisions/28692/view
--- Date: 2017-06-13 19:58
--- Who: rpotor
--- Log: Fix edit and comment links
-
--- URL: http://wow-pro.com/node/3731/revisions/28691/view
--- Date: 2017-06-13 19:56
--- Who: rpotor
--- Log: Initial version
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LarePetWQAzs","Dailies","Legion","Larenon","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
@@ -88,5 +68,6 @@ C Strat by Hazelnuttygames@Youtube|QID|42159|STRATEGY|Hazel@YT|N|1) Arcane Storm
 
 ]]
 end)
+
 
 
