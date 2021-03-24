@@ -27,7 +27,7 @@ C Like Bombing Fish In A Barrel|QID|30678|M|70.7,41.5;64.3,41.4;61.1,44.5;61.4,4
 C What Lurks Below|QID|30585|M|35.16,27.22|L|80262|N|Fish in the mysterious whirlpool.  When Narjon appears, re-equip your weapon and kill him.  Loot the ring.|
 C Piranha!|QID|30763|M|32.33,46.38|N|Head out to the river and fish! Stay away from Dawnchaser Retreat or the Temple of the Red Crane.|
 C Scavenger Hunt|QID|30698|M|70.79,41.41;68.40,47.52;60.89,51.79|CC|N|Get on the raft next to Fiznix. If the raft despawns adjust your camera angle so it's closer to the water surface and jump. Look for pools of debris and fish in them.|
-C Shocking!|QID|30584|M|64.51,22.02|N|Fish in the river at the waypoint.w If you havn't levelled Pandaria drop rtates will be low and fishing this can take a long time at first. It gets much faster as you level upw. Stay away from Thunder Cleft.|
+C Shocking!|QID|30584|M|64.51,22.02|N|Fish in the river at the waypoint. If you havn't levelled Pandaria drop rtates will be low and fishing this can take a long time at first. It gets much faster as you level upw. Stay away from Thunder Cleft.|
 C Snapclaw|QID|30700|M|74.67,34.78;77.35,34.59|CS|L|80831|N|Go to the underwater entrance to Snapclaw's cave and enter. Find and kill Snapclaw to loot his claw.|
 C Viseclaw Soup|QID|30701|M|51.20,48.80;53.20,52.60;56.60,52.80;59.00,48.80;61.80,48.00;70.20,35.00;84.60,26.00;87.60,21.40;72.00,29.50;57.73,43.57;66.08,41.62;63.85,38.50;56.70,47.30;47.30,55.15;48.10,52.15;74.35,33.25;76.60,36.28;52.89,47.30;53.40,44.25;55.75,44.30;71.80,33.00;61.25,39.25;55.83,49.68;59.70,41.97|CN|T|Viseclaw Fisher|N|Kill and loot eyeballs!|
 
