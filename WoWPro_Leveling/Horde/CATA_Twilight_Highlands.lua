@@ -69,8 +69,8 @@ C Cementing Our Victory|QID|26788|M|66.20,44.15|
 C Muddied Waters|QID|26784|M|65.01,41.58|
 T Cementing Our Victory|QID|26788|M|74.23,53.25|N|To Ornak.|
 T Muddied Waters|QID|26784|M|73.82,53.89|N|To Artesh.|
-A The Warchief Will be Pleased|QID|26798|PRE|26784&26788|M|73.82,53.89|N|From Artesh.|
-T The Warchief Will be Pleased|QID|26798|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg. Go through the portal.|
+A Saurfang Will be Pleased|QID|26798|PRE|26784&26788|M|73.82,53.89|N|From Artesh.|
+T Saurfang Will be Pleased|QID|26798|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg. Go through the portal.|
 A Traitor's Bait|QID|26830|PRE|26798|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|
 C Traitor's Bait|QID|26830|M|43.73,63.68|Z|Orgrimmar|N|Bottom of the tower.|
 T Traitor's Bait|QID|26830|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg.|
