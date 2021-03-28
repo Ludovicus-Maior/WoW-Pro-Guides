@@ -419,7 +419,7 @@ A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingw
 A Tiger Mastery|QID|185|M|35.61,10.63|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|583|
 A Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|583|
 A The Green Hills of Stranglethorn|QID|338|N|From Barnil Stonepot.|PRE|583|
-N Chapter Quests|ACTIVE|338|AVAILABLE|191|N|From this point forward, every time you return to the Camp, check in with Barnil Stonepot to see if you have enough pages to finish a Chapter quest. You'll want to get rid of the pages as soon as you can to save bag space.\n[color=FF0000]NOTE: [/color]To save log space, do not accept the Chapter quests until you can complete them.|S!US|IZ|Nesingwary's Expedition|
+N Chapter Quests|ACTIVE|338|AVAILABLE|339^340^341^342|N|From this point forward, every time you return to the Camp, check in with Barnil Stonepot to see if you have enough pages to finish a Chapter quest. You'll want to get rid of the pages as soon as you can to save bag space.\n[color=FF0000]NOTE: [/color]To save log space, do not accept the Chapter quests until you can complete them.|S!US|IZ|Nesingwary's Expedition|
 K Tiger Mastery|QID|185|M|32.61,9.55;33.68,11.64;36.40,13.05|Z|Stranglethorn Vale|CC|QO|1|N|Heading in a westerly direction from the camp, kill Young Stranglethorn Tigers. In a looping arc, make your way east to the bridge.|
 K Panther Mastery|QID|190|M|37.69,14.85;39.75,13.70;41.23,12.99;41.27,8.56|Z|Stranglethorn Vale|CC|QO|1|N|As you make your way east under the bridge, kill Young Stranglethorn Panthers. Cross the river to the north side and work your way west in a sweeping arc towards the road.|
 T Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
@@ -652,10 +652,11 @@ T Soothing Spices|QID|1218|M|55.44,26.26|Z|Dustwallow Marsh|N|To "Swamp Eye" Jar
 A Jarl Needs Eyes|QID|1206|M|55.44,26.26|Z|Dustwallow Marsh|N|From "Swamp Eye" Jarl.|PRE|1218|
 A The Severed Head|QID|1239|M|55.44,25.94|Z|Dustwallow Marsh|N|From the dirt pile beside the house.|PRE|1218|
 R Darkmist Cavern|ACTIVE|1206|M|36.97,23.99|Z|Dustwallow Marsh|N|Make your way to the Darkmist Cavern.|
-C Jarl Needs Eyes|QID|1206|M|34.99,21.49|Z|Dustwallow Marsh|N|Kill Darkmist Spiders to collect the Unpopped Darkmist Eyes.|
+C Jarl Needs Eyes|QID|1206|M|34.99,21.49|Z|Dustwallow Marsh|L|5884 40|N|Kill Darkmist Spiders to collect the Unpopped Darkmist Eyes.|
 R Swamplight Manor|ACTIVE|1206|M|55.20,26.88|Z|Dustwallow Marsh|N|Make your way back to Swamplight Manor.|
 T Jarl Needs Eyes|QID|1206|M|55.44,26.26|Z|Dustwallow Marsh|N|To "Swamp Eye" Jarl.|
 N Jarl Needs a Blade|AVAILABLE|1203|M|PLAYER|N|Do not bother getting this quest. It's not worth the effort.|PRE|1206|IZ|Swamplight Manor|
+* Unpopped Darkmist Eyes|QID|1203|M|PLAYER|N|Delete any excess quest items.|U|5884|
 R North Point Tower|AVAILABLE|1270|M|46.88,22.86|Z|Dustwallow Marsh|N|Head back to the main road and make your way to the intersection at North Tower.|
 A Stinky's Escape|QID|1270|M|46.88,17.51|Z|Dustwallow Marsh|N|From "Stinky" Ignatz.\n[color=FF0000]NOTE: [/color]The more mobs you clear on your way in, the less you will have to kill later.|
 C Escort Stinky|QID|1270|M|48.86,24.67|Z|Dustwallow Marsh|N|Follow Stinky around defending him as he looks for the Bogbean Leaves.\n[color=FF0000]NOTE: [/color]With the exception of random mobs, there are no surprise attacks.|
@@ -679,7 +680,7 @@ T Questioning Reethe|QID|1273|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
 F Thunder Bluff|ACTIVE|1276|M|35.56,31.88|Z|Dustwallow Marsh|N|Head to the flightmaster and take a flight to Thunder Bluff.|
 R Hunter Rise|ACTIVE|1276|M|51.78,74.30|Z|Thunder Bluff|N|Make your way to Hunter Rise.|
 T The Black Shield|QID|1276|M|54.01,80.74|Z|Thunder Bluff|N|To Mosarn.|
-F Orgrimmar|ACTIVE|584|M|47.01,49.85|Z|Thunder Bluff|N|Head to the flightmaster and take a flight to Orgrimmar.|
+F Orgrimmar|ACTIVE|1262|M|47.01,49.85|Z|Thunder Bluff|N|Head to the flightmaster and take a flight to Orgrimmar.|
 R Grommash Hold|ACTIVE|1262|M|40.22,37.02|Z|Orgrimmar|N|Make your way to Grommash Hold.|
 T Report to Zor|QID|1262|M|38.92,38.39|Z|Orgrimmar|N|To Zor Lonetree (just inside Grommash Hold).|
 F Ratchet|ACTIVE|1270|M|45.09,63.88|Z|Orgrimmar|N|Head to the flightmaster and take a flight to Ratchet.|
@@ -687,22 +688,29 @@ T Stinky's Escape|QID|1270|M|62.37,37.62|Z|The Barrens|N|To Mebok Mizzyrix.|
 
 ; Stranglethorn Vale
 N Bank|ACTIVE|572^605^196|M|62.67,37.44|Z|The Barrens|N|As you are now headed back to STV, make sure you grab all of your quest items from your bank before leaving.|IZ|Ratchet|
-b Booty Bay|ACTIVE|572^605^196|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+b Booty Bay|ACTIVE|572^605^196|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|IZ|-Stranglethorn Vale|
 F Grom'gol Base Camp|ACTIVE|572^605^196|M|26.87,77.10|Z|Stranglethorn Vale|N|Head to the flightmaster and take a flight to Grom'gol Base Camp.|
 R Southern Savage Coast|ACTIVE|605^572^196|M|32.62,35.53|Z|Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
 K Raptor Mastery|ACTIVE|196|M|33.63,37.87|Z|Stranglethorn Vale|QO|1|N|Kill Jungle Stalkers.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
-l Singing Blue Shards|ACTIVE|605|M|33.63,37.87|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|US|
+C Singing Blue Shards|ACTIVE|605|M|33.63,37.87|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|US|
 R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|Stranglethorn Vale|
 T Mok'thardin's Enchantment|QID|572|M|32.12,29.25|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|571|M|32.12,29.25|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|572|
 A Split Bone Necklace|QID|598|M|32.27,27.71|Z|Stranglethorn Vale|N|From Kin'weelay.|PRE|572|
 R The Vile Reef|ACTIVE|1107|M|28.45,23.19|Z|Stranglethorn Vale|N|Make your way to The Vile Reef.|
 C Encrusted Tail Fins|QID|1107|M|26.62,25.56|Z|Stranglethorn Vale|L|5796 10|N|Kill Saltscale Murlocs to loot the Encrusted Tail Fins.\nThe best way to do this is to kite them to the surface so you don't drown by accident.\n This quest is not easy and can be time consuming.\n[color=FF0000]NOTE: [/color]Melee classes, focus on Warriors and Foragers. The others are range attack and will require you to fight underwater.|
-R Zuuldaia Ruins|ACTIVE|584|M|23.22,18.21;22.23,16.23|Z|Stranglethorn Vale|CC|N|Follow the Savage Coast north to the Zuuldaia Ruins.|
-R Ruins of Zul'Kunda|ACTIVE|584|M|21.42,10.17;22.28,8.66|Z|Stranglethorn Vale|CC|N|Enter Zul'Kunda through the rear entrance.|
-
+R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|Z|Stranglethorn Vale|CC|N|Make your way to the Bal'lal Ruins.|
+R Ruins of Zul'Kunda|ACTIVE|584|M|30.03,13.07;27.93,11.33|Z|Stranglethorn Vale|CC|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by climbing the hill on the left side and coming down between the wall and the building.|
+K Nezzliok|ACTIVE|584|M|23.26,9.77|Z|Stranglethorn Vale|QO|2|N|Work your way through the center of the Ruins to the ramp on the other side.\nSticking to the tall wall, clear the mobs as you walk up the ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.|
+K Gan'zulah|ACTIVE|584|M|23.26,8.72|Z|Stranglethorn Vale|QO|1|N|Using the same process as you did with Nezzliok, pull the mobs closest to the wall until Gan'zulah is alone or joins the fight.|
+R Nesingwary's Expedition|ACTIVE|584|M|34.91,11.00|Z|Stranglethorn Vale|N|Work your way out of the Ruins the same way you came in. You can avoid some of the fight by dropping down to the lower ledge of the wall and walking around to where the bottom of the ramp is.\n Once you are out of the Ruins, make your way to the Nesingwary's Expedition.|
+T Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
+A Raptor Mastery|QID|197|PRE|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+;N Chapter Quests|ACTIVE|338|AVAILABLE|191|N|From this point forward, every time you return to the Camp, check in with Barnil Stonepot to see if you have enough pages to finish a Chapter quest. You'll want to get rid of the pages as soon as you can to save bag space.\n[color=FF0000]NOTE: [/color]To save log space, do not accept the Chapter quests until you can complete them.|S!US|IZ|Nesingwary's Expedition|
+R Venture Co. Base Camp|ACTIVE|584|M|44.82,25.69|Z|Stranglethorn Vale|N|Head to the main road and follow it south across the bridge over the river.|
+K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|Z|Stranglethorn Vale|CN|N|You'll find Bhag'thera in 1 of 3 locations. When you find him, kill him to loot his fang.\n[color=FF0000]NOTE: [/color]As you are moving between the spots, be sure to give the elite Ogres around the entrance to Mosh'Ogg a VERY wide berth.|
 
 N Under Construction|QID|9999|N|From this point on, the guide is incomplete.|
 
