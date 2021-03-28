@@ -235,21 +235,21 @@ A Hidden Enemies|QID|5726|M|31.75,37.82|Z|Orgrimmar|N|From Thrall.|
 A Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|L|-4904|N|From Khorgan in the Cleft of Shadow.\n\n[color=FF0000]NOTE: [/color]As long as you pick up this quest, the 'Need for a Cure' timer is irrelevant.|
 
 ; --- locations of profession trainers in Orgrimmar
-N Cooking|ACTIVE|5726|M|57.39,53.95|Z|Orgrimmar|N|Zamja, Cooking Trainer, The Drag - 2nd level.|P|Cooking;185;0;0|IZ|Orgrimmar|
-N Enchanting|ACTIVE|5726|M|53.46,38.56|Z|Orgrimmar|N|Jhag, Journeyman Enchanter, The Drag.|P|Enchanting;333;0;0|IZ|Orgrimmar|
-N Leatherworking|ACTIVE|5726|M|63.30,44.75|Z|Orgrimmar|N|Kamari, Journeyman Leatherworker, The Drag.|P|Leatherworking;165;0;0|IZ|Orgrimmar|
-N Skinning|ACTIVE|5726|M|63.35,45.42|Z|Orgrimmar|N|Thuwd, Skinning Trainer, The Drag.|P|Skinning;393;0;0|IZ|Orgrimmar|
-N Tailoring|ACTIVE|5726|M|62.93,49.26|Z|Orgrimmar|N|Snang, Journeyman Tailor, The Drag.|P|Tailoring;197;0;0|IZ|Orgrimmar|
-N Alchemy|ACTIVE|5726|M|55.80,32.91|Z|Orgrimmar|N|Whuut, Journeyman Alchemist, The Drag.|P|Alchemy;171;0;0|IZ|Orgrimmar|
-N Herbalism|ACTIVE|5726|M|55.61,39.46|Z|Orgrimmar|N|Jandi, Herbalism Trainer, The Drag - 2nd level.|P|Herbalism;182;0;0|IZ|Orgrimmar|
-N Mining|ACTIVE|5726|M|73.12,26.08|Z|Orgrimmar|N|Makaru, Mining Trainer, Valley of Honor.|P|Mining;186;0;0|IZ|Orgrimmar|
-N Engineering|ACTIVE|5726|M|75.95,24.18|Z|Orgrimmar|N|Thund, Journey Engineer, Valley of Honor.|P|Engineering;202;0;0|IZ|Orgrimmar|
-N Blacksmithing|ACTIVE|5726|M|80.76,23.70|Z|Orgrimmar|N|Ug'thok, Journey Blacksmith, Valley of Honor.|P|Blacksmithing;164;0;0|IZ|Orgrimmar|
-N Fishing|ACTIVE|5726|M|69.81,29.20|Z|Orgrimmar|N|Lumak, Fishing Trainer, Valley of Honor.|P|Fishing;356;0;0|IZ|Orgrimmar|
-N Weapon Masters|ACTIVE|5726|M|81.70,19.53|Z|Orgrimmar|N|Sayoc and Hanashi in Valley of Honor.\nSayoc teaches bows, daggers, fist weapons, one & two-handed axes, and thrown weapons.\nHanashi teaches bows, one & two-handed axes, staves, and thrown weapons.|IZ|Orgrimmar|
-N Weapon Masters|ACTIVE|5726|M|57,32|Z|Undercity|N|If you wish to learn swords, you'll have to take the Zepplin to Undercity. Archibald is in the War Quarter. He teaches crossbows, daggers, one & two handed swords and polearms.|IZ|Orgrimmar|
-N Weapon Masters|ACTIVE|5726|M|40.94,62.74|Z|Thunder Bluff|N|If you wish to learn maces, you'll have to take the Zepplin to Thunder Bluff. Ansekwa is on the lower plateau. He teaches one & two handed maces, staves and guns.|IZ|Orgrimmar|
-N First Aid|ACTIVE|5726|M|34.17,84.55|Z|Orgrimmar|N|Arnok, First Aid Trainer, The Valley of Spirits.|P|First Aid;129;0;0|IZ|Orgrimmar|
+N Cooking|ACTIVE|840|M|57.39,53.95|Z|Orgrimmar|N|Zamja, Cooking Trainer, The Drag - 2nd level.|P|Cooking;185;0;0|IZ|Orgrimmar|
+N Enchanting|ACTIVE|840|M|53.46,38.56|Z|Orgrimmar|N|Jhag, Journeyman Enchanter, The Drag.|P|Enchanting;333;0;0|IZ|Orgrimmar|
+N Leatherworking|ACTIVE|840|M|63.30,44.75|Z|Orgrimmar|N|Kamari, Journeyman Leatherworker, The Drag.|P|Leatherworking;165;0;0|IZ|Orgrimmar|
+N Skinning|ACTIVE|840|M|63.35,45.42|Z|Orgrimmar|N|Thuwd, Skinning Trainer, The Drag.|P|Skinning;393;0;0|IZ|Orgrimmar|
+N Tailoring|ACTIVE|840|M|62.93,49.26|Z|Orgrimmar|N|Snang, Journeyman Tailor, The Drag.|P|Tailoring;197;0;0|IZ|Orgrimmar|
+N Alchemy|ACTIVE|840|M|55.80,32.91|Z|Orgrimmar|N|Whuut, Journeyman Alchemist, The Drag.|P|Alchemy;171;0;0|IZ|Orgrimmar|
+N Herbalism|ACTIVE|840|M|55.61,39.46|Z|Orgrimmar|N|Jandi, Herbalism Trainer, The Drag - 2nd level.|P|Herbalism;182;0;0|IZ|Orgrimmar|
+N Mining|ACTIVE|840|M|73.12,26.08|Z|Orgrimmar|N|Makaru, Mining Trainer, Valley of Honor.|P|Mining;186;0;0|IZ|Orgrimmar|
+N Engineering|ACTIVE|840|M|75.95,24.18|Z|Orgrimmar|N|Thund, Journey Engineer, Valley of Honor.|P|Engineering;202;0;0|IZ|Orgrimmar|
+N Blacksmithing|ACTIVE|840|M|80.76,23.70|Z|Orgrimmar|N|Ug'thok, Journey Blacksmith, Valley of Honor.|P|Blacksmithing;164;0;0|IZ|Orgrimmar|
+N Fishing|ACTIVE|840|M|69.81,29.20|Z|Orgrimmar|N|Lumak, Fishing Trainer, Valley of Honor.|P|Fishing;356;0;0|IZ|Orgrimmar|
+N Weapon Masters|ACTIVE|840|M|81.70,19.53|Z|Orgrimmar|N|Sayoc and Hanashi in Valley of Honor.\nSayoc teaches bows, daggers, fist weapons, one & two-handed axes, and thrown weapons.\nHanashi teaches bows, one & two-handed axes, staves, and thrown weapons.|IZ|Orgrimmar|
+N Weapon Masters|ACTIVE|840|M|57,32|Z|Undercity|N|If you wish to learn swords, you'll have to take the Zepplin to Undercity. Archibald is in the War Quarter. He teaches crossbows, daggers, one & two handed swords and polearms.|IZ|Orgrimmar|
+N Weapon Masters|ACTIVE|840|M|40.94,62.74|Z|Thunder Bluff|N|If you wish to learn maces, you'll have to take the Zepplin to Thunder Bluff. Ansekwa is on the lower plateau. He teaches one & two handed maces, staves and guns.|IZ|Orgrimmar|
+N First Aid|ACTIVE|840|M|34.17,84.55|Z|Orgrimmar|N|Arnok, First Aid Trainer, The Valley of Spirits.|P|First Aid;129;0;0|IZ|Orgrimmar|
 
 ; --- Class quests in Orgrimmar
 ; --- Mage
@@ -265,18 +265,18 @@ A Creature of the Void|QID|1501|M|48.20,45.70|Z|Orgrimmar|N|From Gan'rul Bloodey
 ; ---
 R Leave Orgrimmar|ACTIVE|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|Orgrimmar|
 
-N Sword Training|ACTIVE|816|M|PLAYER|N|If you wish to start using swords, now is the best time to go learn the skill from Archibald in Undercity. The cost is 10 silver.\n[color=FF0000]NOTE: [/color]If you are not interested, then just skip the next few steps.|C|Rogue|
-b Tirisfal Glades|ACTIVE|816|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|C|Rogue|
-R Undercity|ACTIVE|816|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity and take the elevator down.|C|Rogue|
-N Archibald|ACTIVE|816|M|57.32,32.74|Z|Undercity|N|Make your way to Undercity's War Quarter inner ring.\n[color=FF0000]NOTE: [/color]Check this step off when you are done.|C|Rogue|IZ|Undercity|
-R Leave Undercity|ACTIVE|816|M|53.40,43.56;63.61,47.52;72.77,40.03;66.15,37.11;66.29,1.94|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|C|Rogue|IZ|Undercity|
-b Durotar|ACTIVE|816|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|C|Rogue|IZ|Tirisfal Glades|
+N Sword Training|ACTIVE|840|M|PLAYER|N|If you wish to start using swords, now is the best time to go learn the skill from Archibald in Undercity. The cost is 10 silver.\n[color=FF0000]NOTE: [/color]If you are not interested, then just skip the next few steps.|C|Rogue|
+b Tirisfal Glades|ACTIVE|840|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|C|Rogue|
+R Undercity|ACTIVE|840|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity and take the elevator down.|C|Rogue|
+N Archibald|ACTIVE|840|M|57.32,32.74|Z|Undercity|N|Make your way to Undercity's War Quarter inner ring.\n[color=FF0000]NOTE: [/color]Check this step off when you are done.|C|Rogue|IZ|Undercity|
+R Leave Undercity|ACTIVE|840|M|53.40,43.56;63.61,47.52;72.77,40.03;66.15,37.11;66.29,1.94|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|C|Rogue|IZ|Undercity|
+b Durotar|ACTIVE|840|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|C|Rogue|IZ|Tirisfal Glades|
 
 C Finding the Antidote|QID|813|ACTIVE|812|M|41.49,19.39|QO|1|N|Head back to the area around Rhinag and kill Venomtail Scorpids for their Venomtail Scorpid Sacs.|
 R Orgrimmar|ACTIVE|813|M|45.52,12.07|N|Head back to Orgrimmar.|
 R Cleft of Shadow|ACTIVE|813|M|47.24,53.58;51.75,57.85;56.03,41.16;59.91,49.37;51.26,46.39|Z|Orgrimmar|CC|
 T Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|N|Go back to Khorgan and turn in the quest for the Venomtail Antidote. If you lose the antidote, this quest is repeatable.|
-R Leave Orgrimmar|QID|812|M|56.73,41.96;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|Orgrimmar|
+R Leave Orgrimmar|ACTIVE|812|M|56.73,41.96;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|Orgrimmar|
 A Need for a Cure|QID|812|M|41.54,18.60|N|From Rhinag.|FAIL|
 T Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
 
@@ -289,17 +289,17 @@ T Veteran Uzzek|QID|1505|M|61.38,21.11|Z|The Barrens|N|To Veteran Uzzek.|R|Orc,T
 A Path of Defense|QID|1498|M|61.38,21.11|Z|The Barrens|N|From Veteran Uzzek.|PRE|1505|R|Orc,Troll|C|Warrior|
 T Call of Fire|QID|2983|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss. He wanders around a bit.|R|Orc,Troll|C|Shaman|
 A Call of Fire|QID|1524|M|55.86,19.94|Z|The Barrens|N|From Kranal Fiss.|PRE|2983|R|Orc,Troll|C|Shaman|
-R Shrine of the Dormant Flame|QID|1524|M|36.69,57.43|CC|N|Follow the hidden path here upwards.|R|Orc,Troll|C|Shaman|
+R Shrine of the Dormant Flame|ACTIVE|1524|M|36.69,57.43|N|Follow the hidden path here upwards.|R|Orc,Troll|C|Shaman|
 T Call of Fire|QID|1524|M|38.52,58.92|N|To Telf Joolam.|R|Orc,Troll|C|Shaman|
 A Call of Fire|QID|1525|M|38.52,58.92|N|From Telf Joolam.|PRE|1524|R|Orc,Troll|C|Shaman|
 
-R Thunder Ridge|QID|806|M|39.18,32.29|N|Run to the entrance of Thunder Ridge.|
+R Thunder Ridge|ACTIVE|806^1498|M|39.18,32.29|N|Run to the entrance of Thunder Ridge.|
 C Path of Defense|QID|1498|N|While you are in Thunder Ridge get the scales from the Thunder Lizards.|R|Orc,Troll|C|Warrior|S|
-R Dark Storms|QID|806|M|41.67,25.54|CC|N|The path to Fizzle Darkstorm's camp is here.|
-C Hidden Enemies|QID|5726|QO|1|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenant's Insignia.|S|
-C Dark Storms|QID|806|QO|1|N|Kill Fizzle Darkstorm and loot his Claw. He pathes between the campfire and the alcove to the east.\nStarting with the guard circling the perimeter, clear the camp in a counter-clockwise direction. It's probably best to wait until Fizzle moves to the alcove before starting each fight.|
+R Dark Storms|ACTIVE|806|M|41.67,25.54|CC|N|The path to Fizzle Darkstorm's camp is here.|
+C Hidden Enemies|QID|5726|M|41.73,25.99|QO|1|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenant's Insignia.|S|
+C Dark Storms|QID|806|M|42.12,26.62|QO|1|N|Kill Fizzle Darkstorm and loot his Claw. He pathes between the campfire and the alcove to the east.\nStarting with the guard circling the perimeter, clear the camp. It's probably best to wait until Fizzle moves to the alcove before starting each fight.|
 C Path of Defense|QID|1498|N|Finish collecting the scales from the Thunder Lizards.|R|Orc,Troll|C|Warrior|US|
-R Exit Thunder Ridge|QID|806|M|39.18,32.29|CC|N|Run back to the entrance of Thunder Ridge.|
+R Exit Thunder Ridge|ACTIVE|806^1498|M|39.18,32.29|CC|N|Run back to the entrance of Thunder Ridge.|
 T Lost But Not Forgotten|QID|816|M|43.11,30.22|N|To Misha Tor'kren.|
 T Dark Storms|QID|806|M|52.25,43.16|N|To Orgnil Soulscar.|
 A Margoz|QID|828|M|52.25,43.16|N|From Orgnil Soulscar.|PRE|806|
