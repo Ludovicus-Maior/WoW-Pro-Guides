@@ -160,8 +160,8 @@ T Maker's Mark|QID|34040|Z|Frostfire Ridge|N|To Goblin Engineer|FACTION|Horde|
 T Four Finger Discount|QID|34041|Z|Frostfire Ridge|N|To Goblin Engineer|FACTION|Horde|
 A A Fellow Gearhead|QID|34042|PRE|34040|Z|Frostfire Ridge|N|From Goblin Engineer|FACTION|Horde|
 T A Fellow Gearhead|QID|34042|Z|Frostfire Ridge|N|To Goblin Engineer|FACTION|Horde|
-A Wanted: Overlord Blackhammer|QID|34039|PRE|34042|Z|Frostfire Ridge|N|From Goblin Engineer|FACTION|Horde|
-T Wanted: Overlord Blackhammer|QID|34039|Z|Frostfire Ridge|N|To Goblin Engineer|FACTION|Horde|
+A WANTED: Overlord Blackhammer|QID|34039|PRE|34042|Z|Frostfire Ridge|N|From Goblin Engineer|FACTION|Horde|
+T WANTED: Overlord Blackhammer|QID|34039|Z|Frostfire Ridge|N|To Goblin Engineer|FACTION|Horde|
 A Payment Due for Services Rendered|QID|34078|PRE|34039|Z|Frostfire Ridge|N|From Goblin Engineer|FACTION|Horde|
 T Payment Due for Services Rendered|QID|34078|M|48.8,65.0|Z|Frostfire Ridge|N|From Goblin Engineer|FACTION|Horde|
 
