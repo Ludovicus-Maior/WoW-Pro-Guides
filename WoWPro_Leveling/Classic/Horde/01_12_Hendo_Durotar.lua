@@ -281,7 +281,7 @@ A Need for a Cure|QID|812|M|41.54,18.60|N|From Rhinag.|FAIL|
 T Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
 
 C Lost But Not Forgotten|QID|816|M|37.22,20.26|QO|1|N|Head to the Southfury River and kill the Dreadmaw Crocolisks until you loot Kron's Amulet.\n[color=FF0000]NOTE: [/color]Depending on your luck, this quest may become a bit of a grind to complete.|
-T Conscript of the Horde|QID|840|M|62.27,19.37|Z|The Barrens|N|To Kargal Battlescar at Far Watch Outpost, Barrens. It's just on the other side of the Southfury Bridge.|
+T Conscript of the Horde|QID|840|M|62.27,19.37|Z|The Barrens|N|To Kargal Battlescar at Far Watch Post, Barrens. It's just on the other side of the Southfury Bridge.|
 A Crossroads Conscription|QID|842|M|62.27,19.37|Z|The Barrens|N|From Kargal Battlescar.|PRE|840|
 
 ; --- Shaman/Warrior Class quests cont.
@@ -314,7 +314,7 @@ T Ju-Ju Heaps|QID|1884|M|56.31,75.11|N|To Un'Thuwa.|R|Troll|C|Mage|
 H Razor Hill|QID|835|N|Hearth back to Razor Hill. If your hearth is on CD, run back.|R|Troll|C|Mage|
 ; ---
 R Drygulch Ravine|QID|835|M|54.26,39.79;53.51,28.68;53.76,27.72|CC|N|Head to Drygulch Ravine. You can go the long way around through Razorwind Canyon, or take the shortcut this way.|
-C Securing the Lines|QID|835|M|53.99,27.78|CC|QO|1;2|N|Drop off the ledge and work your way through the Ravine killing Dustwind Storm Witches and Savages.|
+K Securing the Lines|ACTIVE|835|M|53.99,27.78|QO|1;2|N|Drop off the ledge and work your way through the Ravine killing Dustwind Storm Witches and Savages.|
 T Securing the Lines|QID|835|M|53.71,27.77;50.61,26.49;46.41,22.96|CC|N|To Rezlak.|
 T Margoz|QID|828|M|51.25,16.49;56.36,20.04|CC|N|To Margoz.|
 A Skull Rock|QID|827|M|56.36,20.04|N|From Margoz.|PRE|828|
@@ -324,27 +324,31 @@ T Skull Rock|QID|827|M|56.41,20.00|N|To Margoz.|
 A Neeru Fireblade|QID|829|M|56.41,20.00|N|From Margoz.|PRE|827|
 A Burning Shadows|QID|832|N|If you are lucky enough to get this item to drop for you, accept the quest from the Eye of Burning Shadow.|U|4903|O|
 
-R Orgrimmar|QID|5726|M|45.52,12.07|CC|N|Head back to Orgrimmar.|
-T Hidden Enemies|QID|5726|M|52.33,84.15;49.66,60.39;52.65,57.20;59.28,47.18;55.59,37.06;31.92,37.80|Z|Orgrimmar|CC|N|To Thrall.|
-A Hidden Enemies|QID|5727|M|31.92,37.80|Z|Orgrimmar|N|From Thrall.|PRE|5726|
-T Neeru Fireblade|QID|829|M|55.74,41.06;49.57,50.43|Z|Orgrimmar|CC|N|To Neeru Fireblade.|
-t Burning Shadows|QID|832|ACTIVE|-829|M|49.57,50.43|Z|Orgrimmar|N|To Neeru Fireblade.|IZ|Orgrimmar|
-A Ak'Zeloth|QID|809|M|49.57,50.43|Z|Orgrimmar|N|From Neeru Fireblade.|PRE|829|
-C Hidden Enemies|QID|5727|M|49.57,50.43|Z|Orgrimmar|QO|1|N|Chat with Neeru Fireblade.|CHAT|
-T Hidden Enemies|QID|5727|M|55.74,41.06;56.51,36.82;32.06,37.78|Z|Orgrimmar|CC|N|To Thrall.|
-A Hidden Enemies|QID|5728|M|31.75,37.82|Z|Orgrimmar|ELITE|N|[color=E6CC80]Dungeon: Ragefire Chasm[/color]\nFrom Thrall.\nAccept this quest if you are planning on running the RFC dungeon. Otherwise, skip it.|PRE|5727|RANK|3|
-N Lieutenant's Insignia|QID|809|N|You can destroy the Lieutenant's Insignia now. Right-click this step off.|
-N Training/Shopping|QID|809|N|Make sure you do all of your training, shopping, etc. before leaving.|
-R Leave Orgrimmar|QID|809|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
+R Orgrimmar|ACTIVE|5726|M|45.52,12.07|Z|Orgrimmar|N|Head back to Orgrimmar.|
+R Grommash Hold|ACTIVE|5726|M|40.38,37.00|Z|Orgrimmar|N|Make your way to Grommash Hold.|
+T Hidden Enemies|QID|5726|M|31.76,37.81|Z|Orgrimmar|N|To Thrall.|
+A Hidden Enemies|QID|5727|M|31.76,37.81|Z|Orgrimmar|N|From Thrall.|PRE|5726|
+R Cleft of Shadow|ACTIVE|829^832|M|40.00,53.30;42.19,57.30|Z|Orgrimmar|CC|N|Make your way to Cleft of Shadow.|
+T Neeru Fireblade|QID|829|M|49.48,50.58|Z|Orgrimmar|N|To Neeru Fireblade. He's in the hut beside the Ragefire Chasm portal.|
+t Burning Shadows|QID|832|ACTIVE|-829|M|49.48,50.58|Z|Orgrimmar|N|To Neeru Fireblade.|IZ|Orgrimmar|
+A Ak'Zeloth|QID|809|M|49.48,50.58|Z|Orgrimmar|N|From Neeru Fireblade.|PRE|829|
+C Hidden Enemies|QID|5727|M|49.48,50.58|Z|Orgrimmar|QO|1|N|Chat with Neeru Fireblade.|CHAT|
+R Grommash Hold|ACTIVE|5727|M|40.38,37.00|Z|Orgrimmar|N|Exit Cleft of Shadow and make your way back to Grommash Hold.|
+T Hidden Enemies|QID|5727|M|31.76,37.81|Z|Orgrimmar|N|To Thrall.|
+; Space breaks auto
+A Hidden Enemies |QID|5728|M|31.75,37.82|Z|Orgrimmar|ELITE|N|[color=E6CC80]Dungeon: Ragefire Chasm[/color]\nFrom Thrall.\nAccept this quest if you are planning on running the RFC dungeon. Otherwise, skip it.|PRE|5727|RANK|3|
+* Lieutenant's Insignia|AVAILABLE|-5727|N|You can safely destroy the Lieutenant's Insignia now.|U|14544|
+N Training/Shopping|ACTIVE|809|N|Make sure you do all of your training, shopping, etc. before leaving.|IZ|Orgrimmar|
+R Leave Orgrimmar|ACTIVE|809|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
 
-R Far Watch Outpost|QID|809|M|37.58,16.21;36.04,23.69|CC|N|Make your way west to Southfury River and follow it south.\nIt's best if you don't cross the river right away. The mobs on the other side are level 15+.|
-R Far Watch Outpost|QID|809|M|62.87,8.66;61.89,19.05|Z|The Barrens|CC|N|Cross the river to the road on the other side. Follow this road south to Far Watch Outpost.|
+R Far Watch Post|ACTIVE|809|M|37.58,16.21;36.04,23.69|CC|N|Make your way west to Southfury River and follow it south.\nIt's best if you don't cross the river right away. The mobs on the other side are level 15+.|
+R Far Watch Post|ACTIVE|809|M|62.87,8.66;61.89,19.05|Z|The Barrens|CC|N|Cross the river to the road on the other side. Follow this road south to Far Watch Post.|
 T Ak'Zeloth|QID|809|M|62.36,20.06|Z|The Barrens|N|To Ak'Zeloth.|
 A The Demon Seed|QID|924|M|62.36,20.06|Z|The Barrens|N|From Ak'Zeloth.|PRE|809|
 A Flawed Power Stone|QID|926|ACTIVE|924|M|62.36,20.04|Z|The Barrens|L|4986 1|N|Pick up one of the stones from the table beside you. You have 30 minutes to complete the quest before the stone expires.\n\nThis quest becomes repeatable in case you lose the stone.|
 R The Altar of Fire|QID|924|M|51.12,22.70;47.72,19.51;47.91,19.83|Z|The Barrens|CC|N|Go up here to get to the Altar of Fire.|
 C The Demon Seed|QID|924|M|47.96,19.09|Z|The Barrens|QO|1|N|Work your way inside Dreadmist Den and click on the altar to destroy the stone.\n[color=FF0000]NOTE: [/color]Be aware that there is a chance Rathorian (level 15 rare) will spawn beside the altar.|NC|
-R Return to Far Watch Outpost|QID|924|M|49.15,20.31;51.13,22.65|Z|The Barrens|CC|N|Run back to Far Watch Outpost.|
+R Return to Far Watch Post|QID|924|M|49.15,20.31;51.13,22.65|Z|The Barrens|CC|N|Run back to Far Watch Post.|
 T The Demon Seed|QID|924|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth.|
 R The Crossroads|QID|842|ACTIVE|842|M|52.34,29.34|Z|The Barrens|CC|N|Go to the Crossroads. Sticking to the road is a safe bet. There are mobs that are a few levels above you along your route.|
 A Meats to Orgrimmar|QID|6365|M|52.58,29.85|Z|The Barrens|N|From Zargh.|
