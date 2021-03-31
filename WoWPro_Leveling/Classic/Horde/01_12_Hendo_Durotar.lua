@@ -368,7 +368,7 @@ T Return to the Crossroads.|QID|6386|M|52.61,29.85|Z|The Barrens|N|To Zargh.|
 F Orgrimmar|AVAILABLE|445|M|51.50,30.33|Z|The Barrens|
 b Tirisfal Glades|AVAILABLE|445|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|
 R Undercity|AVAILABLE|445|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
-f Undercity|AVAILABLE|445|M|63.86,48.04|Z|Undercity|N|Grab the FP from Michael Garrett.|
+f Undercity|AVAILABLE|445|M|63.26,48.54|Z|Undercity|N|Grab the FP from Michael Garrett.|
 R Leave Undercity|AVAILABLE|445|M|65.99,36.85;66.22,0.90|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|
 
 ]]
