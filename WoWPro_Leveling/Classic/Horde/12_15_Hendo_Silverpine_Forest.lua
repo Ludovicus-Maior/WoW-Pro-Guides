@@ -6,35 +6,33 @@ WoWPro:GuideLevels(guide, 10, 15)
 WoWPro:GuideNextGuide(guide, 'Classic-15-21-Hendo-TheBarrens')
 WoWPro:GuideSteps(guide, function() return [[
 
-N Hey|QID|445|N|This is a new written guide by TheRealHendo.  If you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
-R Brill|AVAILABLE|445|N|Follow the signs along the road to Brill.|
-A Delivery to Silverpine Forest|QID|445|M|59.47,52.34|Z|Tirisfal Glades|N|From Apothecary Johaan.|
-R Silverpine Forest|QID|445|M|54.46,74.62|Z|Tirisfal Glades|CC|N|Head over to the road and follow it south into Silverpine Forest.|
-R The Sepulcher|QID|445|M|46.21,41.59|CC|N|Head south until you reach the Sepulcher.|
+R Brill|AVAILABLE|445|M|61.72,54.30|Z|Tirisfal Glades|N|Follow the signs along the road to Brill.|
+A Delivery to Silverpine Forest|QID|445|M|59.45,52.39|Z|Tirisfal Glades|N|From Apothecary Johaan.|
+R Silverpine Forest|QID|445|M|67.86,4.92|N|Head over to the road and follow it south into Silverpine Forest.|
+R The Sepulcher|QID|445|M|46.21,41.59|N|Head south until you reach the Sepulcher.|
 f The Sepulcher|QID|445|M|45.62,42.60|N|Karos Razok|TAXI|-The Sepulcher|
 h The Sepulcher|QID|445|M|43.16,41.27|N|Innkeeper Bates|
 
 A The Dead Fields|QID|437|M|43.43,40.86|N|You'll find High Executor Hadrec down the stairs inside the crypt.|
-A Lost Deathstalkers|QID|428|M|43.43,40.86|N|From High Executor Hadrec.|
+A Lost Deathstalkers|QID|428|M|43.43,40.86|N|From High Executor Hadrec.|LEAD|429|
 T Delivery to Silverpine Forest|QID|445|M|42.87,40.86|N|Head back upstairs and walk around to the side of the entrance. To Apothecary Renferrel.|
 A A Recipe For Death|QID|447|M|42.87,40.86|N|From Apothecary Renferrel.|
 A Border Crossings|QID|477|M|43.97,40.93|N|From Shadow Priest Allister.|
 A Prove Your Worth|QID|421|M|44.20,39.78|N|From Dalar Dawnweaver.|
 
-C A Recipe For Death|QID|447|L|3253 6|N|Kill any bears you come across to loot the Grizzled Bear Hearts.\nDo not go out of your way to get them. You will come to a good spot later.|S|
-C A Recipe For Death|QID|447|L|3254 6|N|Kill any spiders you come across to loot the Skittering Bloods.\nDo not go out of your way to get them. You will come to a good spot later.|S|
-C Prove Your Worth|QID|421|M|47.97,40.43|QO|1|N|Kill five Moonrage Whitescalps.\n[color=FF0000]NOTE: [/color]Make sure to avoid the woodland area directly west of the road, there's a level 21 elite that paths around that area.|S|
+C A Recipe For Death|QID|447|QO|1;2|N|Kill bears to loot the Grizzled Bear Hearts and spiders to loot the Skittering Bloods.\nDo not go out of your way to get them. You will come to a good spot later.|S|
+K Prove Your Worth|ACTIVE|421|M|47.97,40.43|QO|1|N|Kill five Moonrage Whitescalps.\n[color=FF0000]NOTE: [/color]Make sure to avoid the woodland area directly west of the road, there's a level 21 elite that paths around that area.|S|
 T Lost Deathstalkers|QID|428|M|53.47,13.43|N|To Rane Yorick at the Ivar Patch.|
-A Wild Hearts|QID|429|M|53.46,13.43|N|From Rane Yorick.|PRE|428|
-C Wild Hearts|QID|429|M|55.67,12.56|L|3564 6|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|S|
-A Escorting Erland|QID|435|M|56.18,9.18|N|[color=FF0000]NOTE: [/color]Escort Quest\nFrom Deathstalker Erland inside the house at Malden's Orchard.\nIf he's not there, someone is already on the quest and you have to wait for them to finish.|
+A Wild Hearts|QID|429|M|53.46,13.43|N|From Rane Yorick.|
+C Wild Hearts|QID|429|M|55.67,12.56|QO|1|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|S|
+A Escorting Erland|QID|435|M|56.18,9.18|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Deathstalker Erland inside the house at Malden's Orchard.\nIf he's not there, someone is already on the quest and you have to wait for them to finish.|
+A Escorting Erland|QID|435|M|56.18,9.18|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Deathstalker Erland and restart the quest.\nHis respawn rate seems a little long.|FAIL|
 C Escorting Erland|QID|435|M|54.07,13.56|N|He complains about Worgs coming out of the woodwork to attack him. This isn't an exaggeration. Erland is also about as physically fit as an 82 year old cancer patient, so make sure he doesn't wind up tanking more than one, or he goes squish and you wind up with a small army of angry dogs on you.|
-A Escorting Erland|ACTIVE|435|AVAILABLE|-435|M|56.18,9.18|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Deathstalker Erland and restart the quest.\nHis respawn rate seems a little long.|FAIL|
-T Escorting Erland|QID|435|M|53.46,13.43|N|To Rane Yorick.|
+T Escorting Erland|QID|435|M|53.46,13.43|N|To Rane Yorick (after they finish the convo).|
 ; lv 13
 A The Deathstalkers' Report|QID|449|M|53.46,13.43|N|From Rane Yorick.|PRE|435|
 C Wild Hearts|QID|429|M|55.67,12.56|QO|1|N|Finish collecting the Discolored Worg Hearts.|US|
-C Prove Your Worth|QID|421|M|55.75,18.26|QO|1|N|Finish killing the Moonrage Whitescalps.|US|
+K Prove Your Worth|ACTIVE|421|M|55.75,18.26|QO|1|N|Finish killing the Moonrage Whitescalps.|US|
 R The Sepulcher|QID|421|M|46.21,41.59|N|Run back to the Sepulcher.|
 
 T Prove Your Worth|QID|421|M|44.20,39.78|N|To Dalar Dawnweaver.|
@@ -64,22 +62,22 @@ A The Decrepit Ferry|QID|438|M|43.43,40.86|N|From High Executor Hadrec.|PRE|437|
 A Supplying the Sepulcher|QID|6321|M|43.43,41.69|N|From Deathguard Podrig at the Crypt entrance.|R|Undead|
 T Supplying the Sepulcher|QID|6321|M|45.62,42.60|N|To Karos Razok.|R|Undead|
 A Ride to the Undercity|QID|6323|M|45.62,42.60|N|From Karos Razok.|PRE|6321|R|Undead|
-F Undercity|ACTIVE|447|M|45.62,42.60|N|Fly to Undercity.|
-
-T A Recipe For Death|QID|447|M|51.32,44.66;47.00,59.79;44.78,66.03;48.81,69.29|Z|Undercity|CC|N|To Master Apothecary Faranell in The Apothecarium area.|
+F Undercity|ACTIVE|447|M|45.62,42.60|
+R The Apothecarium|ACTIVE|447^1359|M|52.27,49.93|N|Make your to The Apothecarium in the southwest corner of Undercity.
+T A Recipe For Death|QID|447|M|43.12,68.51;48.81,69.26|Z|Undercity|CC|N|Cross the bridge over the canal to the outer ring and make your way to the passage way leading to Master Apothecary Faranell.\n[color=FF0000]NOTE: [/color]Do not take the follow-up quest.|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|Undercity|N|To Apothecary Zinge.|
 A Sample for Helbrim|QID|1358|M|50.15,67.93|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
 
 T Ride to the Undercity|QID|6323|M|61.51,41.81|Z|Undercity|N|To Gordon Wendham.|R|Undead|
 A Michael Garrett|QID|6322|M|61.51,41.81|Z|Undercity|N|From Gordon Wendham.|PRE|6324|R|Undead|
-T Michael Garrett|QID|6322|M|63.27,48.55|Z|Undercity|N|To Michael Garrett.|R|Undead|
-A Return to Podrig|QID|6324|M|63.27,48.55|Z|Undercity|N|From Michael Garrett.|PRE|6322|R|Undead|
-F The Sepulcher|ACTIVE|438|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|
+T Michael Garrett|QID|6322|M|63.26,48.54|Z|Undercity|N|To Michael Garrett.|R|Undead|
+A Return to Podrig|QID|6324|M|63.26,48.54|Z|Undercity|N|From Michael Garrett.|PRE|6322|R|Undead|
+F The Sepulcher|ACTIVE|438|M|63.26,48.54|Z|Undercity|N|Fly back to The Sepulcher.|
 
 T Return to Podrig|QID|6324|M|43.43,41.69|N|To Deathguard Podrig at the Crypt entrance.|R|Undead|
-R The Decrepit Ferry|ACTIVE|438|M|51.21,36.73;52.05,38.40;58.34,34.95|CC|N|Go to the Decrepit Ferry.\nBy sticking to the hillside around the edge, you can avoid some unnecessary fighting. The mobs in this area (Hand of Ravenclaw) can hit hard and they roam considerably.|
-T The Decrepit Ferry|QID|438|M|58.34,34.95|N|Click the Decrepit Ferry.|
-A Rot Hide Clues|QID|439|M|58.34,34.95|N|From the Decrepit Ferry.|PRE|438|
+R The Decrepit Ferry|ACTIVE|438|M|51.21,36.73;52.05,38.40;58.41,34.83|CC|N|Go to the Decrepit Ferry.\nBy sticking to the hillside around the edge, you can avoid some unnecessary fighting. The mobs in this area (Hand of Ravenclaw) can hit hard and they roam considerably.|
+T The Decrepit Ferry|QID|438|M|58.41,34.83|N|Click the Decrepit Ferry.|
+A Rot Hide Clues|QID|439|M|58.41,34.83|N|From the Decrepit Ferry.|PRE|438|
 
 T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.\nFollow the hillside just like you did to get here.|
 A The Engraved Ring|QID|440|M|43.43,40.86|N|From High Executor Hadrec.|PRE|439|
@@ -123,7 +121,7 @@ C Investigate the Alchemist Shop|QID|1960|M|51.47,74.48|Z|Undercity|U|7308|N|Use
 C Investigate the Alchemist Shop|QID|1960|M|51.47,74.48|Z|Undercity|U|7247|QO|1|N|Subdue the creatures with your spells and use a coffer to capture them.|R|Undead,Troll|C|Mage|
 T Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|Undercity|N|To Anastasia Hartwell.|R|Undead,Troll|C|Mage|
 A Gathering Materials|QID|1961|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwell.|PRE|1960|R|Undead,Troll|C|Mage|
-F The Sepulcher|QID|1961|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|R|Undead,Troll|C|Mage|
+F The Sepulcher|QID|1961|M|63.26,48.54|Z|Undercity|N|Fly back to The Sepulcher.|R|Undead,Troll|C|Mage|
 ; ---
 
 C Gathering Materials|QID|1961|QO|1;2|N|Collect the Linen and Dalaran Gems you need.|R|Undead,Troll|C|Mage|S|
