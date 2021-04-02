@@ -62,9 +62,9 @@ A The Decrepit Ferry|QID|438|M|43.43,40.86|N|From High Executor Hadrec.|PRE|437|
 A Supplying the Sepulcher|QID|6321|M|43.43,41.69|N|From Deathguard Podrig at the Crypt entrance.|R|Undead|
 T Supplying the Sepulcher|QID|6321|M|45.62,42.60|N|To Karos Razok.|R|Undead|
 A Ride to the Undercity|QID|6323|M|45.62,42.60|N|From Karos Razok.|PRE|6321|R|Undead|
-F Undercity|ACTIVE|447|M|45.62,42.60|N|Fly to Undercity.|
-
-T A Recipe For Death|QID|447|M|51.32,44.66;47.00,59.79;44.78,66.03;48.81,69.29|Z|Undercity|CC|N|To Master Apothecary Faranell in The Apothecarium area.|
+F Undercity|ACTIVE|447|M|45.62,42.60|
+R The Apothecarium|ACTIVE|447^1359|M|52.27,49.93|N|Make your to The Apothecarium in the southwest corner of Undercity.
+T A Recipe For Death|QID|447|M|43.12,68.51;48.81,69.26|Z|Undercity|CC|N|Cross the bridge over the canal to the outer ring and make your way to the passage way leading to Master Apothecary Faranell.\n[color=FF0000]NOTE: [/color]Do not take the follow-up quest.|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|Undercity|N|To Apothecary Zinge.|
 A Sample for Helbrim|QID|1358|M|50.15,67.93|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
 
@@ -75,9 +75,9 @@ A Return to Podrig|QID|6324|M|63.26,48.54|Z|Undercity|N|From Michael Garrett.|PR
 F The Sepulcher|ACTIVE|438|M|63.26,48.54|Z|Undercity|N|Fly back to The Sepulcher.|
 
 T Return to Podrig|QID|6324|M|43.43,41.69|N|To Deathguard Podrig at the Crypt entrance.|R|Undead|
-R The Decrepit Ferry|ACTIVE|438|M|51.21,36.73;52.05,38.40;58.34,34.95|CC|N|Go to the Decrepit Ferry.\nBy sticking to the hillside around the edge, you can avoid some unnecessary fighting. The mobs in this area (Hand of Ravenclaw) can hit hard and they roam considerably.|
-T The Decrepit Ferry|QID|438|M|58.34,34.95|N|Click the Decrepit Ferry.|
-A Rot Hide Clues|QID|439|M|58.34,34.95|N|From the Decrepit Ferry.|PRE|438|
+R The Decrepit Ferry|ACTIVE|438|M|51.21,36.73;52.05,38.40;58.41,34.83|CC|N|Go to the Decrepit Ferry.\nBy sticking to the hillside around the edge, you can avoid some unnecessary fighting. The mobs in this area (Hand of Ravenclaw) can hit hard and they roam considerably.|
+T The Decrepit Ferry|QID|438|M|58.41,34.83|N|Click the Decrepit Ferry.|
+A Rot Hide Clues|QID|439|M|58.41,34.83|N|From the Decrepit Ferry.|PRE|438|
 
 T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.\nFollow the hillside just like you did to get here.|
 A The Engraved Ring|QID|440|M|43.43,40.86|N|From High Executor Hadrec.|PRE|439|
