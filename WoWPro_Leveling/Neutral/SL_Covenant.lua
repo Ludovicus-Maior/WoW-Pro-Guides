@@ -41,7 +41,7 @@ C Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver's Oubliette!Instance|QO|1
 T Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver's Oubliette!Instance|N|To Runecarver.|
 A Reawakening|QID|60269|PRE|60268|M|50.36,54.08|Z|The Runecarver's Oubliette!Instance|N|From Runecarver.|
 P Ve'nari's Refuge|ACTIVE|60269|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
-C Reawakening|QID|60269|M|38.52,28.80|Z|The Maw|N|Kill Odalrik and loot the Runecarver's Memory.|
+C Reawakening|QID|60269|QO|1|M|38.52,28.80|Z|The Maw|N|Kill Odalrik and loot the Runecarver's Memory.|
 P Torghast, Tower of the Damned|ACTIVE|60269|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
 P The Runecarver's Oubliette|ACTIVE|60269|M|15.93,61.04|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|IZ|1911|
 T Reawakening|QID|60269|M|50.29,54.16|Z|The Runecarver's Oubliette!Instance|N|To Runecarver.|
