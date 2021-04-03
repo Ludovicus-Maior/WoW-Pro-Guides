@@ -51,7 +51,7 @@ C Ivar the Foul|QID|425|M|51.52,13.89|QO|1|N|Head into the barn at the end of th
 T Ivar the Foul|QID|425|M|53.46,13.43|N|To Rane Yorick.|
 C The Dead Fields|QID|437|M|45,21|QO|1;2|N|Head SW to the Dead Fields. Nightlash might already be spawned, but if she isn't, kill all the Rot Hide Gnolls you see until she does.\n\n[color=FF0000]NOTE: [/color]Much like Ivar, you will want to clear the mobs as you go.|
 C A Recipe For Death|QID|447|M|36,15|QO|1;2|N|Head SW from here and finish killing the spiders and bears for their Skittering Bloods and Grizzled Bear Hearts.|US|
-H The Sepulcher|QID|422|N|Hearth back to The Sepulcher|
+H The Sepulcher|ACTIVE|422|M|46.21,41.59|N|Hearth back to The Sepulcher|
 N Cure Poison Class Quest|AVAILABLE|6126|N|We're not going to make a special trip back to Eastern Kingdoms. Instead, we're going to wait until we are finished with this area.|R|Tauren|C|Druid|
 T Arugal's Folly|QID|422|M|44.20,39.78|N|To Dalar Dawnweaver.|
 A Arugal's Folly|QID|423|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|422|
@@ -75,18 +75,17 @@ A Return to Podrig|QID|6324|M|63.26,48.54|Z|Undercity|N|From Michael Garrett.|PR
 F The Sepulcher|ACTIVE|438|M|63.26,48.54|Z|Undercity|N|Fly back to The Sepulcher.|
 
 T Return to Podrig|QID|6324|M|43.43,41.69|N|To Deathguard Podrig at the Crypt entrance.|R|Undead|
-R The Decrepit Ferry|ACTIVE|438|M|51.21,36.73;52.05,38.40;58.41,34.83|CC|N|Go to the Decrepit Ferry.\nBy sticking to the hillside around the edge, you can avoid some unnecessary fighting. The mobs in this area (Hand of Ravenclaw) can hit hard and they roam considerably.|
-T The Decrepit Ferry|QID|438|M|58.41,34.83|N|Click the Decrepit Ferry.|
+R North Tide's Hollow|ACTIVE|423|M|44.78,34.34|N|Exit the Sepulcher through the gap in the hills on the north side. Follow the hill down to the bottom.\n[color=FF0000]NOTE: [/color]This is a one way trip. You cannot climb back up this way.|
+C Arugal's Folly|QID|423|M|44.12,31.76|QO|1;2|N|Kill Moonrage Gluttons to loot the Glutton Shackles.\nKill Moonrage Darksouls to loot the Darksoul Shackles.\n[color=FF0000]NOTE: [/color]Keep an eye out for Son of Arugal, a lv 25 Elite that roams the area.|
+R The Decrepit Ferry|ACTIVE|438|M|49.73,28.53;52.11,30.01;54.63,31.24|CC|N|Make your way to the bridge on the main road. Cross the bridge and follow the south shore east.\n[color=FF0000]NOTE: [/color]The mobs in this area (Hand of Ravenclaw) hit hard and they roam considerably.|
+T The Decrepit Ferry|QID|438|M|58.41,34.83|N|Drop into the water and follow the shoreline around to where the dock is. Click on the Decrepit Ferry to turn in the quest.|
 A Rot Hide Clues|QID|439|M|58.41,34.83|N|From the Decrepit Ferry.|PRE|438|
-
-T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.\nFollow the hillside just like you did to get here.|
+T Border Crossings|QID|477|M|51.70,56.16;49.92,60.28|CC|N|Head towards the hills to the south and follow them back to the main road. Continue south to an alcove on the west side of the road. Click on the Dalaran Crate at the camp to turn in the quest.\n[color=FF0000]NOTE: [/color]It's best to work your way around to the back of the camp and try pulling\picking them off from there. There are at least 3 Frost mages that you WILL need to take out; 2 on either side of the crate and the 1 on the hill south of it (each can be done solo).\nBe warned, they will run and you will be frost slowed. That's why it's a good idea to start with the furthest and work your way in.\nOr, just Leeroy it and hope for the best.|
+T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.|
 A The Engraved Ring|QID|440|M|43.43,40.86|N|From High Executor Hadrec.|PRE|439|
-R Deep Elem Mine|QID|423|M|51.24,36.81;56.60,44.66;56.44,46.06|CC|N|Head to Deep Elem Mine. We are taking a shortcut to get to the mine entrance. It's not necessary to go all the way around.|
-C Arugal's Folly|QID|423|QO|1;2|N|Kill Moonrage Gluttons to loot the Glutton Shackles.\nKill Moonrage Darksouls to loot the Darksoul Shackles.\nYou'll find them inside the mine. Stay close to the entrance as they have a quick respawn rate.\n[color=FF0000]NOTE: [/color]This is not an easy quest. Just be aware of your surroundings and watch for adds.\nIf offered, accept the party invite. It will make things a lot easier.|
-T Border Crossings|QID|477|M|49.92,60.28|CC|N|To the Dalaran Crate.\nIt's best to work your way around to the back of the camp and try pulling\picking them off from there. There are at least 4 Frost mages that you WILL need to take out. Be warned, they will run and you will be frost slowed. That's why it's a good idea to start with the furthest and work your way in. Or, just go for it and hope for the best.|NC|
 A Maps and Runes|QID|478|M|40.92,60.28|N|From the Dalaran Crate.|PRE|477|
-H The Sepulcher|QID|478|N|Hearth back to The Sepulcher.\n[color=FF0000]NOTE: [/color]If you want to save your hearth for Deep Elem Mine, run back to Sepulcher. (I strongly recommend it)|
-
+L Level 15|QID|478|N|Make sure you are within 3 bubbles of level 15 before heading back to the Sepulcher. You'll be starting your class quest shortly.|LVL|15;-1920|R|Undead,Troll|C|Mage|
+H The Sepulcher|ACTIVE|478|M|46.21,41.59|N|Hearth back to The Sepulcher.\n[color=FF0000]NOTE: [/color]If you want to save your hearth for Deep Elem Mine, run back to The Sepulcher instead.\n(I strongly recommend it)|
 T Maps and Runes|QID|478|M|43.97,40.93|N|To Shadow Priest Allister.|
 A Dalar's Analysis|QID|481|M|43.97,40.93|N|From Shadow Priest Allister.|PRE|478|
 T Arugal's Folly|QID|423|M|44.20,39.78|N|To Dalar Dawnweaver.|
@@ -95,14 +94,9 @@ T Dalar's Analysis|QID|481|M|44.20,39.78|N|To Dalar Dawnweaver.|
 A Dalaran's Intentions|QID|482|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|481|
 T Dalaran's Intentions|QID|482|M|43.97,40.93|N|To Shadow Priest Allister.|
 A Ambermill Investigations|QID|479|M|43.97,40.93|N|From Shadow Priest Allister.|PRE|482|
-C Arugal's Folly|QID|424|M|51.24,36.81;56.60,44.66;56.44,46.06;58.6,44.8|CC|QO|1|N|Run to Deep Elem Mine and fight your way to the back of the mine. Kill Grimson the Pale and loot his head.\n[color=FF0000]NOTE: [/color]The faster you do this, the less likely you are to get as many repops should you have to fight your way out.|
-; lv 15
-L Level 15|QID|478|N|Make sure you are within 1.5 bubbles of level 15 before heading back to the Sepulcher. You'll be picking up your class quest when you head to Undercity shortly.|LVL|15;-1050|R|Undead,Troll|C|Mage|
-H The Sepulcher|QID|424|N|Hearth back to The Sepulcher.\n[color=FF0000]NOTE: [/color]If your hearth is on cooldown, be prepared to fight your way back out again.|
-T Arugal's Folly|QID|424|M|44.20,39.78|N|To Dalar Dawnweaver.|
 
 ;-- Mage 'Spellfire Robe' Lv 15 class quest chain
-N Spellfire Robe|AVAILABLE|1959|N|Unlike the Druid quest, the Mage class quest is done in this area. It's your best interest to make the trip to start this class quest chain.|R|Undead,Troll|C|Mage|
+N Spellfire Robe|AVAILABLE|1959|N|Unlike the Druid quest, the Mage class quest is done in this area. It's in your best interest to make the trip now to start this class quest chain.|R|Undead,Troll|C|Mage|
 F Undercity|AVAILABLE|1959|M|45.62,42.60|N|Fly to Undercity.|R|Undead,Troll|C|Mage|
 R Leave Undercity|AVAILABLE|1959|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|R|Undead,Troll|C|Mage|
 b Durotar|AVAILABLE|1959|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|R|Undead,Troll|C|Mage|
@@ -124,23 +118,29 @@ A Gathering Materials|QID|1961|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwe
 F The Sepulcher|QID|1961|M|63.26,48.54|Z|Undercity|N|Fly back to The Sepulcher.|R|Undead,Troll|C|Mage|
 ; ---
 
+; lv 15
+R Deep Elem Mine|QID|423|M|51.24,36.81;56.60,44.66;56.44,46.06|CC|N|Head to Deep Elem Mine. We are taking a shortcut to get to the mine entrance. It's not necessary to go all the way around.|
+C Arugal's Folly|QID|424|M|51.24,36.81;56.60,44.66;56.44,46.06;58.6,44.8|CC|QO|1|N|Enter Deep Elem Mine and fight your way to the back of the mine. Kill Grimson the Pale and loot his head.\n[color=FF0000]NOTE: [/color]The faster you do this, the less likely you are to get as many repops should you have to fight your way out.|
+H The Sepulcher|ACTIVE|424|M|46.21,41.59|N|Hearth back to The Sepulcher.\n[color=FF0000]NOTE: [/color]If your hearth is on cooldown, be prepared to fight your way out (if you didn't respawn outside).|
+T Arugal's Folly|QID|424|M|44.20,39.78|N|To Dalar Dawnweaver.|
+
 C Gathering Materials|QID|1961|QO|1;2|N|Collect the Linen and Dalaran Gems you need.|R|Undead,Troll|C|Mage|S|
 R Ambermill|ACTIVE|479|M|55.71,64.46|N|Make your way to Ambermill.|
-C Ambermill Investigations|QID|479|L|3354 8|N|Kill the residents to collect your Dalaran pendants.\n\n[color=FF0000]NOTE: [/color]The Dalaran Apprentice don't drop the pendants.\nStick to the hillside and it's a little easier to pull them.|
+C Ambermill Investigations|QID|479|L|3354 8|N|Kill the residents to collect your Dalaran pendants.\n\n[color=FF0000]NOTE: [/color]The Dalaran Apprentice don't drop the pendants.\nStick to the hillside and it's a little easier to pull them.\nWatch out for the Mages; they pack a wallop.|
 C Gathering Materials|QID|1961|QO|1;2|N|Finish collecting the Linen and Dalaran Gems you need.|R|Undead,Troll|C|Mage|US|
 R The Sepulcher|QID|479|M|44.51,41.47|N|Return to The Sepulcher.|
 T Ambermill Investigations|QID|479|M|43.97,40.93|N|To Shadow Priest Allister.|
-F Undercity|QID|440|M|45.62,42.60|N|Fly to Undercity.|
+F Undercity|QID|440|M|45.62,42.60|
 T Gathering Materials|QID|1961|M|70.6,30.6|Z|Undercity|N|To Josef Gregorian, Artisan Tailor.|R|Undead,Troll|C|Mage|
 R Leave Undercity|QID|440|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|
 T The Engraved Ring|QID|440|M|61.26,50.84|Z|Tirisfal Glades|N|To Magistrate Sevren in Brill.|
-A Raleigh and the Undercity|QID|441|M|61.2,50.8|Z|Tirisfal Glades|N|From Magistrate Sevren.|PRE|440|
-R Undercity|QID|441|M|61.86,65.04|Z|Tirisfal Glades|N|Return to Undercity.|
-T Raleigh and the Undercity|QID|441|M|62,43|Z|Undercity|N|To Raleigh Andrean in the Trade Quarter of Undercity.|
+A Raleigh and the Undercity|QID|441|M|61.26,50.84|Z|Tirisfal Glades|N|From Magistrate Sevren.|PRE|440|
+R Undercity|ACTIVE|441|M|61.86,65.04|Z|Tirisfal Glades|N|Return to Undercity.|
+T Raleigh and the Undercity|QID|441|M|62.00,42.76|Z|Undercity|N|To Raleigh Andrean in the Trade Quarter of Undercity.|
 
 ; --- Making sure they have the Barrens breadcrumb.
-A Sample for Helbrim|QID|1358|M|50,68.4|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
-R Leave Undercity|ACTIVE|1358|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|
+A Sample for Helbrim|QID|1358|M|50.13,67.95|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
+R Leave Undercity|ACTIVE|1358|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|IZ|Undercity|
 
 ; --- Travel to Durotar (Orgrimmar)
 b Durotar|ACTIVE|1358|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|
@@ -152,7 +152,7 @@ f Origrimmar|ACTIVE|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|-Orgrimmar|
 ; --- Druid 'Cure Poison' lv 14 class quest
 F Thunder Bluff|AVAILABLE|6126|M|51.54,30.35|Z|The Barrens|N|Fly to Thunder Bluff.|R|Tauren|C|Druid|
 N Quest Items|AVAILABLE|6126|L|-2449 5|N|You will need to bring 5 Earthroot with you for one of the quests in this series.|R|Tauren|C|Druid|
-A Lessons Anew|QID|6126|M|76.6,27.6|Z|Thunder Bluff|N|From Turak Runetotem on Elder Rise.|R|Tauren|C|Druid|
+A Lessons Anew|QID|6126|M|76.48,27.25|Z|Thunder Bluff|N|From Turak Runetotem on Elder Rise.|R|Tauren|C|Druid|
 P Moonglade|ACTIVE|6126|N|Use your Teleport: Moonglade.|R|Tauren|C|Druid|
 T Lessons Anew|QID|6126|M|56.19,30.65|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
 A The Principal Source|QID|6127|M|56.2,27.6|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6126|R|Tauren|C|Druid|
@@ -160,7 +160,7 @@ F Thunder Bluff|ACTIVE|6127|M|44.28,45.87|Z|Moonglade|N|Fly to Thunder Bluff.\nT
 ; ---
 
 ; --- Travel to The Barrens (The Crossroads)
-F Crossroads|ACTIVE|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|Crossroads|
+F Crossroads|ACTIVE|1358|M|45.13,63.90|Z|Orgrimmar|N|Doras|TAXI|Crossroads|
 R Leave Orgrimmar|ACTIVE|1358|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|TAXI|-Crossroads|
 R Far Watch Outpost|ACTIVE|1358|M|45.54,12.08;36.17,23.14;34.16,42.30|Z|Durotar|CC|N|As you exit the gate, turn right and follow the wall west to the river. Follow the shoreline south to the bridge and cross over to the Barrens.|TAXI|-Crossroads|
 R Crossroads|ACTIVE|1358|M|52.34,29.34|Z|The Barrens|N|Take the road west and follow the signs. Sticking to the road is a safe bet. There may be mobs that are a few levels above you along your route.|TAXI|-Crossroads|
