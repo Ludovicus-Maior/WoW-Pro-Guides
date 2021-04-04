@@ -11,75 +11,80 @@ h The Crossroads|QID|1358|M|51.99,29.89|N|At Innkeeper Boorand Plainswood.|
 
 ; --- Druid 'Cure Poison' lv 14 class quest cont.
 R Dreadmist Peak|QID|6127|M|52.34,29.33;51.05,22.63;48.30,18.96|Z|The Barrens|CC|N|Leave the Crossroads by the north road, head for the mountain on your left and climb it. Once you're at the top, locate the small pond on Dreadmist Peak.|R|Tauren|C|Druid|
-C The Principal Source|QID|6127|U|15842|QO|1|N|Fill the Dreadmist Peak Sampler.\n\n[color=FF0000]NOTE: [/color]Be prepared for a fight because 2-3 mobs will spawn and attack you. You can either stand and fight or use an HoT and Bear form to escape.|R|Tauren|C|Druid|NC|
+C The Principal Source|QID|6127|QO|1|N|Fill the Dreadmist Peak Sampler.\n\n[color=FF0000]NOTE: [/color]Be prepared for a fight because 2-3 mobs will spawn and attack you. You can either stand and fight, or use an HoT and Bear form to escape.|U|15842|R|Tauren|C|Druid|NC|
 T The Principal Source|QID|6127|M|52.26,31.93|Z|The Barrens|N|To Tonga Runetotem in the Crossroads.|R|Tauren|C|Druid|
 A Gathering the Cure|QID|6128|M|52.26,31.93|Z|The Barrens|N|From Tonga Runetotem.|PRE|6127|R|Tauren|C|Druid|
-K Lost Plain Kodos|QID|6128|M|50.06,40.85|Z|The Barrens|L|15852 5|N|Leave the Crossroads from the south gate and head towards the 2 mountain peaks. You'll find the Kodos on either side of the road. Kill them and loot their horns.|R|Tauren|C|Druid|
-R The Crossroads|QID|6128|M|52.06,32.24|Z|The Barrens|N|Run back to the Crossroads.|R|Tauren|C|Druid|
+C Lost Plain Kodos|QID|6128|M|50.06,40.85|Z|The Barrens|L|15852 5|N|Leave the Crossroads from the south gate and head towards the 2 mountain peaks. You'll find the Kodos on either side of the road. Kill them and loot their horns.|R|Tauren|C|Druid|
+R The Crossroads|ACTIVE|6128|M|52.06,32.24|Z|The Barrens|N|Run back to the Crossroads.|R|Tauren|C|Druid|
 T Gathering the Cure|QID|6128|M|52.26,31.93|Z|The Barrens|N|To Tonga Runetotem.|R|Tauren|C|Druid|
 A Curing the Sick|QID|6129|M|52.26,31.93|Z|The Barrens|N|From Tonga Runetotem.|PRE|6128|R|Tauren|C|Druid|
 N Carry on|ACTIVE|6129|N|As the Sickly Gazelle are spread all over, you might as well resume the guide.|R|Tauren|C|Druid|
-C Curing the Sick|QID|6129|U|15826|T|Sickly Gazelle|QO|1|N|Use the salve on 10 Sickly Gazelle. You'll find them spread out across the northern end of The Barrens.|R|Tauren|C|Druid|S|
+C Curing the Sick|QID|6129|QO|1|N|Use the salve on 10 Sickly Gazelle. You'll find them spread out across the northern end of The Barrens.|T|Sickly Gazelle|U|15826|R|Tauren|C|Druid|NC|S|
 ; ---
 
 A Raptor Thieves|QID|869|M|51.93,30.32|N|From Gazrog.|
 A Plainstrider Menace|QID|844|M|52.23,31.01|N|From Sergra Darkthorn.|
 A Disrupt the Attacks|QID|871|M|51.50,30.87|N|From Thork.|
-A Supplies for the Crossroads|QID|5041|M|51.50,30.87|N|From Thork.|
 A Harpy Raiders|QID|867|M|51.62,30.90|N|From Darsok Swiftdagger at the top of the tower.|
 f Crossroads|QID|1358|M|51.50,30.34|N|Devrak|TAXI|-Crossroads|
 T Sample for Helbrim|QID|1358|M|51.46,30.16|N|To Apothecary Helbrim.|
 
-N Thunder Bluff FP|AVAILABLE|886|N|Unless you are Tauren, or you are and didn't pick it up before leaving, there is a quest in Thunder Bluff that is a lead-in to a chain we will be working on.\nBeing that we will want the flight paths to Thunder Bluff and Camp Taurajo at some point in time, now seems like the opportune time to do so.\nLace up those running shoes and away we go...|LEAD|870|
-R Camp Taurajo|AVAILABLE|886|M|47.31,57.64;46.29,58.00|CC|N|Leave The Crossroads through the south gate and follow the road south-ish to Camp Taurajo.\nStick to the road unless you enjoy corpse running. There is only one graveyard in The Barrens and it's at The Crossroads.|TAXI|-Camp Taurajo|LEAD|870|
-f Camp Taurajo|AVAILABLE|886|M|44.44,59.15|N|Get the flight path at Omusa Thunderhorn.|TAXI|-Camp Taurajo|LEAD|870|
-F Camp Taurajo|AVAILABLE|886|M|51.54,30.35|N|Fly to Camp Taurajo.|TAXI|Camp Taurajo,-Thunder Bluff|LEAD|870|
-F Thunder Bluff|AVAILABLE|886|M|44.44,59.15|N|Fly to Thunder Bluff.|TAXI|Thunder Bluff|LEAD|870|
-R Thunder Bluff|AVAILABLE|886|M|68.35,60.68;51.25,58.96;46.76,51.95;37.16,31.89|CC|Z|Mulgore|N|Run to Thunder Bluff.|TAXI|-Thunder Bluff|LEAD|870|
+C Plainstrider Menace|QID|844|L|5087 7|N|Kill Plainstriders for their beaks.\n[color=FF0000]NOTE: [/color]Only the ones in The Barrens drop the quest item.|S|
+C Raptor Thieves|QID|869|L|5062 12|N|The Raptors can be found across the Barrens and their levels increase as you move south.\n[color=FF0000]NOTE: [/color]Kill them as you see them or end up roaming for them later.|S|
+N Thunder Bluff & Camp Taurajo FPs|AVAILABLE|886|N|There is a quest in Thunder Bluff that is a lead-in to a chain we will be working on.\nBeing that we will want the flight paths to Thunder Bluff and Camp Taurajo at some point in time, now seems like the opportune time to do so.\nLace up those running shoes and away we go... check off this step to begin.|LEAD|870|TAXI|-Camp Taurajo^-Thunder Bluff|
+N Thunder Bluff & Camp Taurajo FPs|ACTIVE|870|N|Being that we will want the flight paths to Thunder Bluff and Camp Taurajo at some point in time, now seems like the opportune time to do so.\nLace up those running shoes and away we go... check off this step to begin.|TAXI|-Camp Taurajo,-Thunder Bluff|
+
+R Camp Taurajo|AVAILABLE|886|M|47.31,57.64;46.29,58.00|CC|N|Leave The Crossroads through the south gate and follow the road south-ish to Camp Taurajo.\nStick to the road unless you enjoy corpse running. There is only one graveyard in The Barrens and it's at The Crossroads.|TAXI|-Camp Taurajo|
+f Camp Taurajo|AVAILABLE|886|M|44.44,59.15|N|Get the flight path from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
+F Camp Taurajo|AVAILABLE|886|M|51.54,30.35|N|Fly to Camp Taurajo.|TAXI|Camp Taurajo,-Thunder Bluff|
+F Thunder Bluff|AVAILABLE|886|M|44.44,59.15|N|Fly to Thunder Bluff.|LEAD|870|TAXI|Thunder Bluff|
+R Thunder Bluff|AVAILABLE|886|M|68.35,60.68;51.25,58.96;46.76,51.95;37.16,31.89|CC|Z|Mulgore|N|Run to Thunder Bluff.|TAXI|-Thunder Bluff|
 A The Barrens Oases|QID|886|M|78.57,28.57|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem on Elder Rise.|LEAD|870|
-f Thunder Bluff|QID|886|M|46.89,49.77|Z|Thunder Bluff|N|Get the flight point from Tal.|TAXI|-Thunder Bluff|LEAD|870|
-F Crossroads|QID|886|M|46.89,49.77|Z|Thunder Bluff|N|Fly to The Crossroads.|LEAD|870|
+f Thunder Bluff|QID|886|M|47.02,49.83|Z|Thunder Bluff|N|Get the flight point from Tal.|TAXI|-Thunder Bluff|
+F Crossroads|ACTIVE|886|M|47.02,49.83|Z|Thunder Bluff|N|Fly to The Crossroads.|
 
-C Plainstrider Menace|QID|844|L|5087 7|N|Kill Plainstriders on the way for their beaks.|S|
-C Raptor Thieves|QID|869|L|5062 12|N|Kill any Raptors you encounter for their heads. They have a 100% drop rate.\nYou'll find them all over the Barrens.\n[color=FF0000]NOTE: [/color]Kill them as you see them. You don't want to end up having to roam around looking for them later.|S|
 R Thorn Hill|ACTIVE|871|M|53.57,24.46|N|Follow the road north out of Crossroads to the the small camp on the right.|
-C Disrupt The Attack|QID|871|QO|1;2;3|N|You'll find several camps in the area to the southeast containing the Razormane Quillboars.|
-C Plainstrider Menace|QID|844|L|5087 7|N|Kill Plainstriders on the way for their beaks.|US|
-
-T Plainstrider Menace|QID|844|M|52.23,31.01|N|Get back into town, talk to Sergra Darkthorn.|
+K Disrupt The Attack|ACTIVE|871|QO|1;2;3|N|You'll find several camps in the area to the southeast containing the Razormane Quillboars.|
+C Plainstrider Menace|QID|844|M|54.04,23.55|L|5087 7|N|Finish KillIng Plainstriders for their beaks.|US|
+T Plainstrider Menace|QID|844|M|52.23,31.01|N|To Sergra Darkthorn in The Crossroads.|
 A The Zhevra|QID|845|M|52.23,31.01|N|From Sergra Darkthorn.|PRE|844|
 C The Zhevra|QID|845|L|5086 4|N|Kill Zhevra to loot their hooves|S|
 T The Barrens Oases|QID|886|M|52.26,31.93|N|To Tonga Runetotem.|
-A The Forgotten Pools|QID|870|M|52.26,31.93|N|From Tonga Runetotem.|PRE|886|
-A Fungal Spores|QID|848|M|51.45,30.15|N|From Apothecary Helbrim.|
+A The Forgotten Pools|QID|870|M|52.26,31.93|N|From Tonga Runetotem.|
+T Disrupt the Attacks|QID|871|M|51.50,30.87|N|To Thork.|
+A The Disruption Ends|QID|872|M|51.50,30.87|N|From Thork.|PRE|871|
+A Supplies for the Crossroads|QID|5041|M|51.50,30.87|N|From Thork.|PRE|871|
+A Fungal Spores|QID|848|M|51.46,30.16|N|From Apothecary Helbrim.|
 
 R Unnamed Watch Post|QID|850|M|45.49,28.41|CC|N|Follow the road west out of the Crossroads.|
 A Centaur Bracers|QID|855|M|45.34,28.42|N|From Regthar Deathgate.|
-C Centaur Bracers|QID|855|L|5030 15|N|Kill centaurs and loot their bracers|S|
 A Kolkar Leaders|QID|850|M|45.34,28.42|N|From Regthar Deathgate.|
-
+C Centaur Bracers|QID|855|L|5030 15|N|Kill centaurs and loot their bracers|S|
 R The Forgotten Pools|QID|848|M|44.8,22.9|N|Head north to the pool in the center of The Forgotten Pools.|
-C Fungal Spores|QID|848|L|5012 4|N|Loot the blue mushrooms around the edge of the pool.\nTry to avoid the big packs of centaurs.|
+C Fungal Spores|QID|848|M|45.28,22.09|L|5012 4|N|Loot the blue mushrooms around the edge of the pool.\n[color=FF0000]NOTE: [/color]Try to avoid the big packs of centaurs.|S|
 C The Forgotten Pools|QID|870|M|45.08,22.53|QO|1|N|Get into the lake, and look for a crack in the floor with some bubbles flowing out of it. Swim over the bubbles.|NC|
-C Kolkar Leaders|QID|850|M|42.8,23.6|QO|1|N|Head west towards a small gazebo-like building up on a hill. Just outside that building will be Barak Kodobane, with one patroller nearby. CAREFULLY pull the patroller, and kill him one on one, then Kill Barak Kodobane. It's a tough fight, try coming back after you gain a level if you can't get him at first.|
-U Kolkar's Booty|M|43.00,23.50;44.33,37.66;52.73,41.83|CN|U|5020|N|Lucky you. You got a Kolkar Booty Key to drop. Use it on the Kolkar Booty Chest before you leave the area.\n[color=FF0000]NOTE: [/color]Make sure you empty the chest. If you don't and reopen the same chest, it will contain your leftovers.|
+C Fungal Spores|QID|848|M|45.28,22.09|L|5012 4|N|Loot the blue mushrooms around the edge of the pool.\n[color=FF0000]NOTE: [/color]Try to avoid the big packs of centaurs.|US|
+C Kolkar Leaders|QID|850|M|42.74,23.56|QO|1|N|Head west towards a small gazebo-like building up on a hill. Just outside that building will be Barak Kodobane, with one patroller nearby. CAREFULLY pull the patroller, and kill him one on one, then Kill Barak Kodobane. It's a tough fight, try coming back after you gain a level if you can't get him at first.|
+U Kolkar's Booty|M|43.00,23.50;44.33,37.66;52.73,41.83|CN|N|Lucky you. You got a Kolkar Booty Key to drop. Use it on the Kolkar Booty Chest before you leave the area.\n[color=FF0000]NOTE: [/color]Make sure you empty the chest. If you don't and reopen the same chest, it will contain your leftovers.|U|5020|
 
-R The Dry Hills|ACTIVE|867|M|41.65,20.24|N|Head northwest from The Forgotten Pools.|
-K Harpy Raiders|QID|867|L|5064 8|N|Kill the Harpies until you collect 8 Witchwing Talons.\nBe aware that they will run before you kill them.|
+R The Dry Hills|ACTIVE|867|M|41.65,20.24|QO|1|N|Head northwest from The Forgotten Pools.|
+C Harpy Raiders|QID|867|M|40.93,19.07|L|5064 8|N|Kill the Harpies until you collect 8 Witchwing Talons.\n[color=FF0000]NOTE: [/color]Be aware that they will run before you kill them.|
 ; lv 16
-T Kolkar Leaders|QID|850|M|45.34,28.42|N|To Regthar Deathgate.|
+T Kolkar Leaders|QID|850|M|45.34,28.42|N|To Regthar Deathgate back at the Unnamed Watch Post.|
 A Verog the Dervish|QID|851|M|45.34,28.42|N|From Regthar Deathgate|PRE|850|
-
-C The Zhevra|QID|845|L|5086 4|N|Finish collecting your Zhevra hooves.|US|
+C The Zhevra|QID|845|M|46.28,27.27|L|5086 4|N|Finish collecting your Zhevra hooves.|US|
+R The Crossroads|ACTIVE|848^845^870^867|M|50.81,29.08|N|Return to The Crossroads.|
+T Fungal Spores|QID|848|M|51.44,30.15|N|To Apothecary Helbrim.\n[color=FF0000]NOTE: [/color]Don't take the follow up... yet. It's a timed quest you'll do later.|
+A Wharfmaster Dizzywig|QID|1492|M|51.46,30.16|N|From Apothecary Helbrim.|LEAD|896|
+T Harpy Raiders|QID|867|M|51.62,30.90|N|To Darsok Swiftdagger at the top of the tower.|
+A Harpy Lieutenants|QID|875|M|51.62,30.90|N|From Darsok Swiftdagger.|PRE|867|
 T The Zhevra|QID|845|M|52.23,31.01|N|To Sergra Darkthorn.|
 A Prowlers of the Barrens|QID|903|M|52.23,31.01|N|From Sergra Darkthorn.|PRE|845|
 T The Forgotten Pools|QID|870|M|52.26,31.93|N|To Tonga Runetotem.|
 A The Stagnant Oasis|QID|877|M|52.26,31.93|N|From Tonga Runetotem.|PRE|870|
-T Fungal Spores|QID|848|M|51.44,30.15|N|To Apothecary Helbrim.\nDon't take the follow up... yet. It's a timed quest you'll do later.|
-A Wharfmaster Dizzywig|QID|1492|M|51.45,30.15|N|From Apothecary Helbrim.|LEAD|896|
 
 ; --- Finish up Druid Cure Poison quest
-C Curing the Sick|QID|6129|U|15826|T|Sickly Gazelle|QO|1|N|Use the salve on 10 Sickly Gazelle. You'll find them all around the northern end of The Barrens.|R|Tauren|C|Druid|US|
+C Curing the Sick|QID|6129|U|15826|T|Sickly Gazelle|QO|1|N|Use the salve on 10 Sickly Gazelle. You'll find them all around the northern end of The Barrens.|R|Tauren|C|Druid|NC|US|
 P Moonglade|ACTIVE|6129|N|Use your Teleport: Moonglade.|R|Tauren|C|Druid|
 T Curing the Sick|QID|6129|M|56.19,30.65|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
 A Power over Poison|QID|6130|M|56.19,30.65|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6129|R|Tauren|C|Druid|
@@ -109,7 +114,8 @@ R The Great Sea|ACTIVE|30|N|Follow the path north out of The Sepulcher and your 
 l Strange Lockbox|QID|30|M|29.57,29.36|L|15882|N|Swim out to the coordinates. Then, swim to the bottom and loot the Half Pendant of Aquatic Endurance from the Lockbox.|NC|R|Tauren|C|Druid|
 H The Crossroads|QID|30|N|Hearth back to The Crossroads.|R|Tauren|C|Druid|
 ; ---
-R Ratchet|QID|1492|M|59.80,38.89|N|Take the east road out of The Crossroads to Ratchet.|
+
+R Ratchet|QID|1492|M|59.80,38.89|N|Head east out of The Crossroads to Ratchet.|
 A Southsea Freebooters|QID|887|M|62.68,36.23|N|From Gazlowe.|
 f Ratchet|QID|1492|M|63.09,37.17|N|From Bragok.|TAXI|-Ratchet|
 A Samophlange|QID|894|M|62.98,37.22|N|From Sputtervalve|
@@ -117,8 +123,10 @@ A WANTED: Baron Longshore|QID|895|M|62.59,37.47|N|From WANTED poster on Bank wal
 T Wharfmaster Dizzywig|QID|1492|M|63.35,38.45|N|To Wharfmaster Dizzywig.|
 
 R The Merchant Coast|QID|887|M|62.73,40.17|N|Head south out of Ratchet using the path along the water.
-C Southsea Freebooters|QID|887|QO|1;2|N|Continue along the path until you clear the hills.\nYou'll find the pirates all along The Merchant Coast. Be prepared to chase them when they run.\nThe Southsea Cannoneers are little more spaced out than the Brigands. You may have to travel a bit to find enough of them to kill.\n[color=FF0000]NOTE: [/color]If you come across Baron Longshore, you can try your luck; but, I'd suggest waiting until our next trip through here. He hits hard and has 2 adds that can be a little overwhelming at this point in time.|
-C The Shattered Hand|QID|1963|L|7209|N|Tazan patrols in The Merchant Coast. Kill him and loot his satchel.|R|Orc,Troll|C|Rogue|
+C The Shattered Hand|QID|1963|M|63.91,44.28|L|7209|N|Tazan patrols in The Merchant Coast. Kill him and loot his satchel.|R|Orc,Troll|C|Rogue|S|
+K Southsea Freebooters|ACTIVE|887|M|63.88,44.55|QO|1;2|N|You'll find them all along The Merchant Coast. The Cannoneers are scarcer than the Brigands.\n[color=FF0000]NOTE: [/color]If you run into Baron Longshore, I'd suggest waiting until your next visit. He hits hard and has 2 adds.|
+C The Shattered Hand|QID|1963|M|63.91,44.28|L|7209|N|Tazan patrols in The Merchant Coast. Kill him and loot his satchel.|R|Orc,Troll|C|Rogue|US|
+R Ratchet|ACTIVE|887|M|62.73,40.17|N|Return to Ratchet.|
 T Southsea Freebooters|QID|887|M|62.68,36.23|N|Head back to Gazlowe.|
 A The Missing Shipment|QID|890|M|62.68,36.23|N|From Gazlowe.|PRE|887|
 T The Missing Shipment|QID|890|M|63.35,38.45|N|To Wharfmaster Dizzywig.|
@@ -126,24 +134,20 @@ A The Missing Shipment|QID|892|M|63.35,38.45|N|From Wharfmaster Dizzywig.|PRE|89
 T The Missing Shipment|QID|892|M|62.68,36.23|N|To Gazlowe.|
 A Stolen Booty|QID|888|M|62.68,36.23|N|From Gazlowe.|PRE|892|
 
-R Exit Ratchet|QID|903|M|58.59,38.42|CC|N|Follow the road west out of Ratchet.|
-C Prowlers of the Barrens|QID|903|L|5096 7|N|At the top of the hill, look for the Savannah Prowlers in the bushes to the north and south of the road.|
-C Raptor Thieves|QID|869|L|5062 12|N|Finish collecting the raptor heads as you make your way back to the Crossroads.|US|
+R Exit Ratchet|QID|903|M|58.59,38.42|N|Follow the road west out of Ratchet.|IZ|Ratchet|
+C Prowlers of the Barrens|QID|903|M|58.90,37.72|L|5096 7|N|At the top of the hill, look for the Savannah Prowlers in the bushes to the north and south of the road.|
+C Raptor Thieves|QID|869|L|5062 12|N|Finish collecting the Raptor Heads as you make your way back to the Crossroads.|US|
 ; lv 17
 L Level 16|QID|903|N|At this point, you'll want to be within 4 bubbles of reaching level 16 to start your next set of Class quests.|LVL|15;2870|C|Rogue|
-A Lost in Battle|QID|4921|M|51.95,31.58|N|Look for Mankrik in The Crossroads. He's near the South gate.|TAXI|Camp Taurajo|
-A Consumed by Hatred|QID|899|M|51.95,31.58|N|From Mankrik.|TAXI|Camp Taurajo|
+A Lost in Battle|QID|4921|M|51.95,31.58|N|Look for Mankrik in The Crossroads. He's near the South gate.|
+A Consumed by Hatred|QID|899|M|51.95,31.58|N|From Mankrik.|
 T Prowlers of the Barrens|QID|903|M|52.23,31.01|N|To Sergra Darkthorn.|
 A Echeyakee|QID|881|M|52.22,31.02|N|From Sergra Darkthorn.|PRE|903|
 T Raptor Thieves|QID|869|M|51.93,30.32|N|To Gazrog.|
 A Stolen Silver|QID|3281|M|51.93,30.32|N|From Gazrog.|PRE|869|
-T Disrupt the Attacks|QID|871|M|51.50,30.87|N|To Thork.|
-A The Disruption Ends|QID|872|M|51.50,30.87|N|From Thork.|PRE|871|
-T Harpy Raiders|QID|867|M|51.62,30.90|N|To Darsok Swiftdagger at the top of the tower.|
-A Harpy Lieutenants|QID|875|M|51.62,30.90|N|From Darsok Swiftdagger.|PRE|867|
 
 ; --- Rogue class quest
-F Orgrimmar|QID|1963|M|51.50,30.34|N|Fly to Orgrimmar.|R|Orc,Troll,Undead|C|Rogue|
+F Orgrimmar|AVAILABLE|2379|M|51.50,30.34|N|Fly to Orgrimmar.|R|Orc,Troll|C|Rogue|
 T The Shattered Hand|QID|1963|M|42.74,53.55|Z|Orgrimmar|N|To Therzok inside Cleft of Shadow.|R|Orc,Troll|C|Rogue|
 A The Shattered Hand|QID|1858|M|42.74,53.55|Z|Orgrimmar|N|From Therzok.|PRE|1963|R|Orc,Troll|C|Rogue|
 l Tazan's Key|QID|1858|M|38.44,53.98;54.04,68.07|Z|Orgrimmar|CC|L|-7295|U|7208|N|Go to the inn in Orgrimmar and pickpocket Tazan's Key from Gamon.|R|Orc,Troll|C|Rogue|
@@ -168,7 +172,7 @@ F Thunder Bluff|QID|853|M|44.44,59.15|N|Fly to Thunder Bluff.|
 T Apothecary Zamah|QID|853|M|30.04,29.83;22.90,21.03|CC|Z|Thunder Bluff|N|To Apothecary Zamah.\nHead to the Pools of Vision, beneath Spirit Rise.|
 A Serpentbloom|QID|962|M|22.90,21.03|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Apothecary Zamah, Spirit Rise.|O|
 N Weapon Master|QID|4921|M|40.92,62.70|Z|Thunder Bluff|N|While you are here, go see Ansekhwa if you wish to train in Guns, One-Handed Maces, Staves or Two-handed Maces.|
-F Crossroads|QID|4921|M|46.89,49.77|Z|Thunder Bluff|N|Fly to The Crossroads.|
+F Crossroads|QID|4921|M|47.02,49.83|Z|Thunder Bluff|N|Fly to The Crossroads.|
 
 T Lost in Battle|QID|4921|M|51.96,31.57|N|To Mankrik.|
 R Control Console|QID|894|M|52.40,11.65|CC|N|Follow the road north out of The Crossroads. Look for the big piece of machinery.|
@@ -235,7 +239,7 @@ F Orgrimmar|QID|852|M|51.54,30.35|N|Fly to Orgrimmar to do training and whatever
 F Camp Taurajo|QID|852|M|45.50,63.84|Z|Orgrimmar|N|Fly to Camp Taurajo.|C|Warlock,Rogue|
 ; --- And Thunder Bluff for everyone else
 F Thunder Bluff|QID|852|M|51.54,30.35|N|Fly to Thunder Bluff to do training and whatever else you need to do.|C|-Warlock,-Rogue|
-F Camp Taurajo|QID|852|M|46.89,49.77|Z|Thunder Bluff|N|Fly back to Camp Taurajo.|C|-Warlock,-Rogue|
+F Camp Taurajo|QID|852|M|47.02,49.83|Z|Thunder Bluff|N|Fly back to Camp Taurajo.|C|-Warlock,-Rogue|
 ; ---
 
 h Camp Taurajo|QID|852|M|45.6,59.0|N|Set your Hearthstone to Camp Taurajo.|
@@ -362,7 +366,7 @@ R Orgrimmar|QID|3923|M|45.52,12.07|Z|Durotar|R|Undead|C|Priest|
 ; --- Troll
 F Thunder Bluff|AVAILABLE|5644|M|12.19,33.82|Z|Ashenvale|N|Fly to Thunder Bluff.|R|Troll|C|Priest|
 A Shadowguard|QID|5642|M|25.6,15.6|Z|Thunder Bluff|N|From Miles Welsh in the cave under The Spirit Rise. He pathes a bit but not far.\n[color=FF0000]NOTE: [/color]An alternate version of this quest can also be gotten from Aelthalyste in Undercity.|LEAD|5680|R|Troll|C|Priest|
-F Orgrimmar|ACTIVE|5642^5643|M|46.89,49.77|Z|Thunder Bluff|N|Fly to Orgrimmar.|R|Troll|C|Priest|
+F Orgrimmar|ACTIVE|5642^5643|M|47.02,49.83|Z|Thunder Bluff|N|Fly to Orgrimmar.|R|Troll|C|Priest|
 T Shadowguard|QID|5642^5643|M|35.6,87.6|Z|Orgrimmar|N|To Ur'kyo in the Valley of Spirits.|R|Troll|C|Priest|
 A Shadowguard|QID|5680|M|35.6,87.6|Z|Orgrimmar|N|To Ur'kyo in the Valley of Spirits.|R|Troll|C|Priest|
 T Shadowguard|QID|5680|M|35.6,87.6|Z|Orgrimmar|N|To Ur'kyo in the Valley of Spirits.|R|Troll|C|Priest|
@@ -400,7 +404,7 @@ F Ratchet|ACTIVE|1528^1529|M|63.11,37.10|R|Orcs,Tauren,Trolls|C|Shaman|
 R Islen Waterseer|ACTIVE|1528^1529|M|65.8,43.8|R|Orcs,Tauren,Trolls|C|Shaman|
 T Call of Water|QID|1528^1529|M|65.8,43.8|N|To Islen Waterseer.|R|Orcs,Tauren,Trolls|C|Shaman|
 A Call of Water|QID|1530|M|65.8,43.8|N|From Islen Waterseer.|PRE|1529|R|Orcs,Tauren,Trolls|C|Shaman|
-F Camp Taurajo|QID|1530|M|46.89,49.77|Z|Thunder Bluff|R|Orcs,Tauren,Trolls|C|Shaman|
+F Camp Taurajo|QID|1530|M|47.02,49.83|Z|Thunder Bluff|R|Orcs,Tauren,Trolls|C|Shaman|
 R Brine|QID|1530|M|43.4,77.4|N|Leave Camp Taurajo and follow the road south.|R|Orcs,Tauren,Trolls|C|Shaman|
 T Call of Water|QID|1530|M|43.4,77.4|N|To Brine.|R|Orcs,Tauren,Trolls|C|Shaman|
 A Call of Water|QID|1535|M|43.4,77.4|N|From Brine.|PRE|1530|R|Orcs,Tauren,Trolls|C|Shaman|
@@ -544,12 +548,12 @@ T Free From the Hold|QID|898|M|62.29,39.03|N|To Captain Thalo'thas Brightsun.|
 T Deepmoss Spider Eggs|QID|1069|M|62.4,37.6|N|To Mebox Mizzyrix.|
 * Deepmoss Spider Eggs|AVAILABLE|-1069|U|5570|N|You can safely delete any leftovers.|
 T The Escape|QID|863|M|63,37.2|N|To Sputtervalve.|
-A Ziz Fizziks |QID|1483|M|63,37.2|N|From Sputtervalve.|
+A Ziz Fizziks |QID|1483|M|63,37.2|N|[coords]From Sputtervalve.|LEAD|1093|
 T Miner's Fortune|QID|896|M|63.2,38.4|N|To Wharfmaster Dizzywig.|
 
 l Fresh Zhevra Carcass|QID|882|L|10338|M|60.97,35.77|N|Head north out of Ratchet. Kill the first Zhevra you see.|
 R The dead tree|QID|882|M|60.01,30.36|CS|N|Head for the dead tree.|
-C Ishamuhale|QID|882|U|10338|QO|1|N|When you get to the tree, place the carcass on the ground. This should summon Ishamuhale. Kill it.|
+C Ishamuhale|QID|882|QO|1|N|When you get to the tree, place the carcass on the ground. This should summon Ishamuhale. Kill it.|U|10338|
 R The Crossroads|QID|899|M|52.63,30.98|N|Run back to the Crossroads. If you maneuver well enough, you can just go over the mountain instead of around it.|
 
 T Consumed by Hatred|QID|899|M|52,31.6|N|To Mankrik.|
