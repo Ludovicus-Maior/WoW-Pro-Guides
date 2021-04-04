@@ -36,7 +36,7 @@ N Thunder Bluff & Camp Taurajo FPs|ACTIVE|870|N|Being that we will want the flig
 
 R Camp Taurajo|AVAILABLE|886|M|47.31,57.64;46.29,58.00|CC|N|Leave The Crossroads through the south gate and follow the road south-ish to Camp Taurajo.\nStick to the road unless you enjoy corpse running. There is only one graveyard in The Barrens and it's at The Crossroads.|TAXI|-Camp Taurajo|
 f Camp Taurajo|AVAILABLE|886|M|44.44,59.15|N|Get the flight path from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
-F Camp Taurajo|AVAILABLE|886|M|51.54,30.35|N|Fly to Camp Taurajo.|TAXI|Camp Taurajo,-Thunder Bluff|
+F Camp Taurajo|AVAILABLE|886|M|51.50,30.33|N|Fly to Camp Taurajo.|TAXI|Camp Taurajo,-Thunder Bluff|
 F Thunder Bluff|AVAILABLE|886|M|44.44,59.15|N|Fly to Thunder Bluff.|LEAD|870|TAXI|Thunder Bluff|
 R Thunder Bluff|AVAILABLE|886|M|68.35,60.68;51.25,58.96;46.76,51.95;37.16,31.89|CC|Z|Mulgore|N|Run to Thunder Bluff.|TAXI|-Thunder Bluff|
 A The Barrens Oases|QID|886|M|78.57,28.57|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem on Elder Rise.|LEAD|870|
@@ -74,7 +74,7 @@ T Kolkar Leaders|QID|850|M|45.34,28.42|N|To Regthar Deathgate back at the Unname
 A Verog the Dervish|QID|851|M|45.34,28.42|N|From Regthar Deathgate|PRE|850|
 C The Zhevra|QID|845|M|46.28,27.27|L|5086 4|N|Finish collecting your Zhevra hooves.|US|
 R The Crossroads|ACTIVE|848^845^870^867|M|50.81,29.08|N|Return to The Crossroads.|
-T Fungal Spores|QID|848|M|51.44,30.15|N|To Apothecary Helbrim.\n[color=FF0000]NOTE: [/color]Don't take the follow up... yet. It's a timed quest you'll do later.|
+T Fungal Spores|QID|848|M|51.46,30.16|N|To Apothecary Helbrim.\n[color=FF0000]NOTE: [/color]Don't take the follow up... yet. It's a timed quest you'll do later.|
 A Wharfmaster Dizzywig|QID|1492|M|51.46,30.16|N|From Apothecary Helbrim.|LEAD|896|
 T Harpy Raiders|QID|867|M|51.62,30.90|N|To Darsok Swiftdagger at the top of the tower.|
 A Harpy Lieutenants|QID|875|M|51.62,30.90|N|From Darsok Swiftdagger.|PRE|867|
@@ -150,41 +150,41 @@ A Stolen Silver|QID|3281|M|51.93,30.32|N|From Gazrog.|PRE|869|
 F Orgrimmar|AVAILABLE|2379|M|51.50,30.34|N|Fly to Orgrimmar.|R|Orc,Troll,Undead|C|Rogue|
 T The Shattered Hand|QID|1963|M|42.74,53.55|Z|Orgrimmar|N|To Therzok inside Cleft of Shadow.|R|Orc,Troll|C|Rogue|
 A The Shattered Hand|QID|1858|M|42.74,53.55|Z|Orgrimmar|N|From Therzok.|PRE|1963|R|Orc,Troll|C|Rogue|
-C Tazan's Key|QID|1858|M|38.44,53.98;54.04,68.07|CC|Z|Orgrimmar|L|7208|N|Go to the inn in Orgrimmar and pickpocket Tazan's Key from Gamon.|T|Gamon|R|Orc,Troll|C|Rogue|
+C Tazan's Key|QID|1858|M|54.04,68.07|Z|Orgrimmar|L|7208|N|Go to the inn in Orgrimmar and pickpocket Tazan's Key from Gamon.|T|Gamon|R|Orc,Troll|C|Rogue|
 C Tazan's Logbook|QID|1858|M|54.04,68.07|Z|Orgrimmar|L|7295|N|Use the key to unlock Tazan's Satchel and loot his Logbook from it.\n[color=FF0000]NOTE: [/color]You have to manually click on the Satchel in your bag to unlock it. Keep trying if you fail.|U|7208|R|Orc,Troll|C|Rogue|
 T The Shattered Hand|QID|1858|M|42.74,53.55|Z|Orgrimmar|N|To Therzok.|R|Orc,Troll|C|Rogue|
 A Zando'zan|QID|2379|M|43.03,53.73|Z|Orgrimmar|N|From Shenthul.|R|Orc,Troll,Undead|C|Rogue|
 T Zando'zan|QID|2379|M|42.73,52.95|Z|Orgrimmar|N|To Zando'zan.|R|Orc,Troll,Undead|C|Rogue|
 A Wrenix of Ratchet|QID|2382|M|42.73,52.95|Z|Orgrimmar|N|From Zando'zan.|PRE|2379|R|Orc,Troll,Undead|C|Rogue|
-F Crossroads|AVAILABLE|853|M|38.44,53.98;45.15,63.90|CC|Z|Orgrimmar|N|Fly back to the Crossroads.|R|Orc,Troll,Undead|C|Rogue|
+F Crossroads|AVAILABLE|853|ACTIVE|2382|M|45.15,63.90|Z|Orgrimmar|N|Fly back to the Crossroads.|R|Orc,Troll,Undead|C|Rogue|IZ|Orgrimmar|
 ; ---
 
-A Apothecary Zamah|QID|853|M|51.44,30.15|N|From Apothecary Helbrim.\n[color=FF0000]NOTE: [/color]This is a timed quest (45 minutes).|PRE|848|
-F Camp Taurajo|QID|853|M|51.54,30.35|N|Fly to Camp Taurajo.|
+A Apothecary Zamah|QID|853|M|51.46,30.16|N|From Apothecary Helbrim.\n[color=FF0000]NOTE: [/color]This is a timed quest (45 minutes).|PRE|848|
+F Camp Taurajo|QID|853|M|51.50,30.33|N|Fly to Camp Taurajo.|
 ; --- If quest failed
-A Apothecary Zamah|QID|853|M|51.44,30.15|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Apothecary Helbrim in The Crossroads to restart it.|PRE|848|FAIL|
-F Camp Taurajo|QID|853|M|51.54,30.35|N|Fly to Camp Taurajo.|
+A Apothecary Zamah|QID|853|M|51.46,30.16|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Apothecary Helbrim in The Crossroads to restart it.|PRE|848|FAIL|
+F Camp Taurajo|QID|853|M|51.50,30.33|N|Fly to Camp Taurajo.|
 
 C Lost in Battle|QID|4921|M|49.33,50.34|QO|1|N|Mankrik's wife is the "Beaten Corpse" found near a few small tauren buildings.\nClick on the body to inspect it.|NC|
 
-R Camp Taurajo|QID|853|M|47.40,57.53;46.29,58.00|CC|N|Run to Camp Taurajo. Stick to the road unless you want to do some grinding.|
+R Camp Taurajo|QID|853|M|46.60,57.79|N|Run to Camp Taurajo. Stick to the road unless you want to do some grinding.|
 F Thunder Bluff|QID|853|M|44.44,59.15|N|Fly to Thunder Bluff.|
-T Apothecary Zamah|QID|853|M|30.04,29.83;22.90,21.03|CC|Z|Thunder Bluff|N|To Apothecary Zamah.\nHead to the Pools of Vision, beneath Spirit Rise.|
-A Serpentbloom|QID|962|M|22.90,21.03|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Apothecary Zamah, Spirit Rise.|O|
-N Weapon Master|QID|4921|M|40.92,62.70|Z|Thunder Bluff|N|While you are here, go see Ansekhwa if you wish to train in Guns, One-Handed Maces, Staves or Two-handed Maces.|
+T Apothecary Zamah|QID|853|M|30.04,29.83;22.79,20.90|CC|Z|Thunder Bluff|N|To Apothecary Zamah.\nHead to the Pools of Vision, beneath Spirit Rise.|
+A Serpentbloom|QID|962|M|22.79,20.90|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Apothecary Zamah, Spirit Rise.\n[color=FF0000]NOTE: [/color]Skip if you wish.|IZ|Thunder Bluff|
+N Weapon Master|QID|4921|M|40.92,62.70|Z|Thunder Bluff|N|While you are here, go see Ansekhwa if you wish to train in Guns, One-Handed Maces, Staves or Two-handed Maces.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|
 F Crossroads|QID|4921|M|47.02,49.83|Z|Thunder Bluff|N|Fly to The Crossroads.|
 
 T Lost in Battle|QID|4921|M|51.96,31.57|N|To Mankrik.|
-R Control Console|QID|894|M|52.40,11.65|CC|N|Follow the road north out of The Crossroads. Look for the big piece of machinery.|
-T Samophlange|QID|894|M|52.40,11.65|N|Access the Control Console to turn in the quest. It's beside the machinery.\n[color=FF0000]NOTE: [/color]To avoid problems, clear any peons around you. Be aware that they will run.|
-A Samophlange|QID|900|M|52.40,11.65|N|You can destroy the Control Console Operating Manual.|PRE|894|
-C Samophlange|QID|900|QO|1;2;3|N|Circle around the machinery, turning the valves off. There are three in total, one at the left side, one at the right side, and one at the back.\nClear out any peons around the valve and then use it.\nThere is a chance a couple Peons will spawn when you turn one of the valves.|NC|
+R Control Console|QID|894|M|52.48,12.54|CC|N|Follow the road north out of The Crossroads. Look for the big piece of machinery.|
+T Samophlange|QID|894|M|52.40,11.65|N|Access the Control Console to turn in the quest. It's beside the machinery.\n[color=FF0000]NOTE: [/color]To avoid problems, clear any peons around you by pulling them away from the area. Otherwise, they will run for help.|
+A Samophlange|QID|900|M|52.40,11.65|N|From the Control Panel after you access it.\n[color=FF0000]NOTE: [/color]You need to channel uninterrupted to access it.|PRE|894|
+C Samophlange|QID|900|QO|1;2;3|N|Circle around the machinery, turning the valves off. There are three in total, one at the left side, one at the right side, and one at the back.\nClear out any peons around the valve and then use it.From the Control Panel after you access it.\n[color=FF0000]NOTE: [/color]There is a chance a couple Peons will spawn when you turn one of the valves. If it's the last one, you'll have to kill them; they don't despawn.|NC|
 T Samophlange|QID|900|M|52.40,11.65|N|Access the Control Console once more to turn in the quest.|
-A Samophlange|QID|901|M|52.40,11.65|PRE|900|
-K Tinkerer Sniggles|QID|901|M|52.91,10.54|L|5089|N|Kill Tinkerer Sniggles inside the hut and loot the Console Key from him.|
+A Samophlange|QID|901|M|52.40,11.65|N|From the Control Panel after you access it.\n[color=FF0000]NOTE: [/color]You need to channel uninterrupted to access it. Auto-accept WILL NOT work for this.|PRE|900|
+K Tinkerer Sniggles|QID|901|M|52.91,10.54|L|5089|N|Kill Tinkerer Sniggles inside the hut and loot the Console Key from him.\n[color=FF0000]NOTE: [/color]Clear the area in the same fashion as you did the Control Panel.|
 T Samophlange|QID|901|M|52.40,11.65|N|Go back and access the control panel once again.|
 A Samophlange|QID|902|M|52.40,11.65|PRE|901|
-* Control Console Operating Manual|AVAILABLE|-902|N|At this point, you can destroy the Control Console Operating Manual in your inventory.|U|5088|
+* Control Console Operating Manual|AVAILABLE|-894|N|At this point, you can safely destroy the Control Console Operating Manual.|U|5088|
 C Echeyakee|QID|881|M|55.9,17.1|QO|1|N|Go to the kodo bones to the south. Clear the area and use the horn to summon Echeyakee|U|10327|
 K Razormane Geomancers & Defenders|QID|872|M|58.00,24.00|QO|1;2|N|Kill Razormane Geomancers and Defenders|S|
 C Supplies for the Crossroads|QID|5041|M|59.5,24;58.53,25.89|CN|L|12078|N|Check for the crates. If they aren't there, they are probably across the way near Kreenig Snarlsnout.|NC|S|
@@ -235,10 +235,10 @@ T Supplies for the Crossroads|QID|5041|M|51.52,30.87|N|To Thork.|
 T The Disruption Ends|QID|872|M|51.52,30.87|N|To Thork.|
 
 ; --- Orgrimmar visit for Warlocks and Rogues
-F Orgrimmar|QID|852|M|51.54,30.35|N|Fly to Orgrimmar to do training and whatever else you need to do.|C|Warlock,Rogue|
+F Orgrimmar|QID|852|M|51.50,30.33|N|Fly to Orgrimmar to do training and whatever else you need to do.|C|Warlock,Rogue|
 F Camp Taurajo|QID|852|M|45.50,63.84|Z|Orgrimmar|N|Fly to Camp Taurajo.|C|Warlock,Rogue|
 ; --- And Thunder Bluff for everyone else
-F Thunder Bluff|QID|852|M|51.54,30.35|N|Fly to Thunder Bluff to do training and whatever else you need to do.|C|-Warlock,-Rogue|
+F Thunder Bluff|QID|852|M|51.50,30.33|N|Fly to Thunder Bluff to do training and whatever else you need to do.|C|-Warlock,-Rogue|
 F Camp Taurajo|QID|852|M|47.02,49.83|Z|Thunder Bluff|N|Fly back to Camp Taurajo.|C|-Warlock,-Rogue|
 ; ---
 
