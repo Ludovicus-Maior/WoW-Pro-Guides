@@ -65,7 +65,7 @@ C Fungal Spores|QID|848|M|45.28,22.09|L|5012 4|N|Loot the blue mushrooms around 
 C The Forgotten Pools|QID|870|M|45.08,22.53|QO|1|N|Get into the lake, and look for a crack in the floor with some bubbles flowing out of it. Swim over the bubbles.|NC|
 C Fungal Spores|QID|848|M|45.28,22.09|L|5012 4|N|Loot the blue mushrooms around the edge of the pool.\n[color=FF0000]NOTE: [/color]Try to avoid the big packs of centaurs.|US|
 C Kolkar Leaders|QID|850|M|42.74,23.56|QO|1|N|Head west towards a small gazebo-like building up on a hill. Just outside that building will be Barak Kodobane, with one patroller nearby. CAREFULLY pull the patroller, and kill him one on one, then Kill Barak Kodobane. It's a tough fight, try coming back after you gain a level if you can't get him at first.|
-U Kolkar's Booty|M|43.00,23.50;44.33,37.66;52.73,41.83|CN|N|Lucky you. You got a Kolkar Booty Key to drop. Use it on the Kolkar Booty Chest before you leave the area.\n[color=FF0000]NOTE: [/color]Make sure you empty the chest. If you don't and reopen the same chest, it will contain your leftovers.|U|5020|
+U Kolkar's Booty|M|43.00,23.50;44.33,37.66;52.73,41.83|CN|N|Lucky you. Use the Kolkar Booty Key to open one of the Kolkar Booty Chests. There is one chest in each Kolkar area.\n[color=FF0000]NOTE: [/color]Use it ASAP because you can loot the key multiple times but can only carry one at a time.\nAlso, make sure you empty the chest. If you don't and reopen the same chest, it will contain your leftovers.|U|5020|S!US|
 
 R The Dry Hills|ACTIVE|867|M|41.65,20.24|QO|1|N|Head northwest from The Forgotten Pools.|
 C Harpy Raiders|QID|867|M|40.93,19.07|L|5064 8|N|Kill the Harpies until you collect 8 Witchwing Talons.\n[color=FF0000]NOTE: [/color]Be aware that they will run before you kill them.|
@@ -127,7 +127,8 @@ C The Shattered Hand|QID|1963|M|63.91,44.28|L|7209|N|Tazan patrols in The Mercha
 K Southsea Freebooters|ACTIVE|887|M|63.88,44.55|QO|1;2|N|You'll find them all along The Merchant Coast. The Cannoneers are scarcer than the Brigands.\n[color=FF0000]NOTE: [/color]If you run into Baron Longshore, I'd suggest waiting until your next visit. He hits hard and has 2 adds.|
 C The Shattered Hand|QID|1963|M|63.91,44.28|L|7209|N|Tazan patrols in The Merchant Coast. Kill him and loot his satchel.|R|Orc,Troll|C|Rogue|US|
 R Ratchet|ACTIVE|887|M|62.73,40.17|N|Return to Ratchet.|
-T Southsea Freebooters|QID|887|M|62.68,36.23|N|Head back to Gazlowe.|
+t WANTED: Baron Longshore|QID|895|M|62.68,36.23|N|To Gazlowe in Ratchet.|IZ|Ratchet|
+T Southsea Freebooters|QID|887|M|62.68,36.23|N|To Gazlowe in Ratchet.|
 A The Missing Shipment|QID|890|M|62.68,36.23|N|From Gazlowe.|PRE|887|
 T The Missing Shipment|QID|890|M|63.35,38.45|N|To Wharfmaster Dizzywig.|
 A The Missing Shipment|QID|892|M|63.35,38.45|N|From Wharfmaster Dizzywig.|PRE|890|
@@ -142,7 +143,7 @@ L Level 16|QID|903|N|At this point, you'll want to be within 4 bubbles of reachi
 A Lost in Battle|QID|4921|M|51.95,31.58|N|Look for Mankrik in The Crossroads. He's near the South gate.|
 A Consumed by Hatred|QID|899|M|51.95,31.58|N|From Mankrik.|
 T Prowlers of the Barrens|QID|903|M|52.23,31.01|N|To Sergra Darkthorn.|
-A Echeyakee|QID|881|M|52.22,31.02|N|From Sergra Darkthorn.|PRE|903|
+A Echeyakee|QID|881|M|52.23,31.01|N|From Sergra Darkthorn.|PRE|903|
 T Raptor Thieves|QID|869|M|51.93,30.32|N|To Gazrog.|
 A Stolen Silver|QID|3281|M|51.93,30.32|N|From Gazrog.|PRE|869|
 
@@ -181,17 +182,17 @@ A Samophlange|QID|900|M|52.40,11.65|N|From the Control Panel after you access it
 C Samophlange|QID|900|QO|1;2;3|N|Circle around the machinery, turning the valves off. There are three in total, one at the left side, one at the right side, and one at the back.\nClear out any peons around the valve and then use it.From the Control Panel after you access it.\n[color=FF0000]NOTE: [/color]There is a chance a couple Peons will spawn when you turn one of the valves. If it's the last one, you'll have to kill them; they don't despawn.|NC|
 T Samophlange|QID|900|M|52.40,11.65|N|Access the Control Console once more to turn in the quest.|
 A Samophlange|QID|901|M|52.40,11.65|N|From the Control Panel after you access it.\n[color=FF0000]NOTE: [/color]You need to channel uninterrupted to access it. Auto-accept WILL NOT work for this.|PRE|900|
-K Tinkerer Sniggles|QID|901|M|52.91,10.54|L|5089|N|Kill Tinkerer Sniggles inside the hut and loot the Console Key from him.\n[color=FF0000]NOTE: [/color]Clear the area in the same fashion as you did the Control Panel.|
+C Tinkerer Sniggles|QID|901|M|52.91,10.54|L|5089|N|Kill Tinkerer Sniggles inside the hut and loot the Console Key from him.\n[color=FF0000]NOTE: [/color]Clear the area in the same fashion as you did the Control Panel.|
 T Samophlange|QID|901|M|52.40,11.65|N|Go back and access the control panel once again.|
 A Samophlange|QID|902|M|52.40,11.65|PRE|901|
 * Control Console Operating Manual|AVAILABLE|-894|N|At this point, you can safely destroy the Control Console Operating Manual.|U|5088|
 C Echeyakee|QID|881|M|55.9,17.1|QO|1|N|Go to the kodo bones to the south. Clear the area and use the horn to summon Echeyakee|U|10327|
 K Razormane Geomancers & Defenders|QID|872|M|58.00,24.00|QO|1;2|N|Kill Razormane Geomancers and Defenders|S|
 C Supplies for the Crossroads|QID|5041|M|59.5,24;58.53,25.89|CN|L|12078|N|Check for the crates. If they aren't there, they are probably across the way near Kreenig Snarlsnout.|NC|S|
-K Kreenig Snarlsnout|ACTIVE|872|M|58.67,26.99|QO|3|N|Kreenig Snarlsnout patrols around. Kill him and loot his tusk.|T|Kreenig Snarlsnout|
+C Kreenig Snarlsnout|ACTIVE|872|M|58.67,26.99|QO|3|N|Kreenig Snarlsnout patrols around. Kill him and loot his tusk.|T|Kreenig Snarlsnout|
 C Supplies for the Crossroads|QID|5041|M|59.5,24;58.53,25.89|CN|L|12078|N|Check both locations for the crates.|NC|US|
 K Razormane Geomancers & Defenders|QID|872|QO|1;2|N|Finish up killing Razormane Geomancers and Defenders|US|
-T Samophlange|QID|902|M|61.79,31.11;62.84,30.65;62.98,37.22|CC|N|Head south again, towards Ratchet. There are fewer mobs if you drop down below the cliff.|
+T Samophlange|QID|902|M|61.79,31.11;62.84,30.65;62.98,37.22|CC|N|Head south towards Sputtervalve in Ratchet.\n[color=FF0000]NOTE: [/color]There are fewer mobs if you drop down below the cliff.|
 A Wenikee Boltbucket|QID|3921|M|62.98,37.22|N|From Sputtervalve.|PRE|902|
 
 ; --- Rogue Thistle Tea quest cont.
@@ -200,82 +201,82 @@ A Plundering the Plunderers|QID|2381|M|63.07,36.32|N|From Wrenix the Wretched.|P
 C Thieves' Tools|QID|2381|M|63.12,36.32|L|5060|N|From Wrenix's Gizmotronic Apparatus.|R|Orc,Troll,Undead|C|Rogue|
 C E.C.A.C.|QID|2381|M|63.12,36.32|L|7970|N|From Wrenix's Gizmotronic Apparatus.|R|Orc,Troll,Undead|C|Rogue|
 ; ---
-K WANTED: Baron Longshore|QID|895|M|63.40,49.20|QO|1|N|Find Baron Longshore, kill him and loot his head.|T|Baron Longshore|S|
+R The Merchant Coast|ACTIVE|888^895|M|62.73,40.17|N|Head south out of Ratchet using the path along the water.|R|Orc,Troll,Undead|C|Rogue|
+C WANTED: Baron Longshore|QID|895|M|64.20,47.11|QO|1|N|Find Baron Longshore, kill him and loot his head.|T|Baron Longshore|S|
 
 ; --- Rogue Thistle Tea quest cont.
-R Plundering the Plunderers|QID|2381|M|64.20,45.49;64.85,45.37|CS|N|Walk up the nose of the ship to get on it.|R|Orc,Troll,Undead|C|Rogue|
-N Lockpicking|QID|2381|M|65.00,45.41|N|You require a minimum of 75 skill in lockpicking to complete the quest. Walk down to the 2nd level and increase your skill by opening these chests.|P|Lockpicking;633;0+75;1|R|Orc,Troll,Undead|C|Rogue|
-R Jewel of the Southsea|QID|2381|M|64.46,45.45;64.95,45.44|CS|N|Head all the way to the bottom of the boat and locate the locked crate containing the Jewel of the Southsea. When you pick the lock and open it, Polly will appear.|R|Orc,Troll,Undead|C|Rogue|
-K Polly|ACTIVE|2381|M|64.20,45.49;64.85,45.37|CC|QO|1|N|Target Polly and use the E.C.A.C. When Polly becomes attackable, kill it and loot the Jewel of the Southsea.\n[color=FF0000]NOTE: [/color]The E.C.A.C. is a one-time use item. If you die, you'll have to get a new one from Wrenix's Gizmotronic Apparatus.|T|Polly|U|7970|R|Orc,Troll,Undead|C|Rogue|
+R Plundering the Plunderers|ACTIVE|2381|M|64.20,45.49;64.85,45.37|CS|QO|1|N|Walk up the nose of the ship to get on it.|R|Orc,Troll,Undead|C|Rogue|
+N Lockpicking|QID|2381|M|65.03,45.43|N|You require a minimum of 75 skill in lockpicking to complete the quest. Walk down to the 2nd level and increase your skill by opening these chests.\n[color=FF0000]NOTE: [/color]Pick 2 chests and alternate between them. The first one will respawn as you finish the second one.|P|Lockpicking;633;0+75;1|R|Orc,Troll,Undead|C|Rogue|
+C Locked Crate|QID|2381|M|64.46,45.45;64.95,45.44|CC|N|Head all the way to the bottom of the ship and locate the locked crate containing the Jewel of the Southsea.|R|Orc,Troll,Undead|C|Rogue|NC|
+C Polly|ACTIVE|2381|M|64.20,45.49;64.85,45.37|CC|QO|1|N|When you pick the lock and open it, Polly will appear. Target Polly and use the E.C.A.C. to make Polly attackable. Kill Polly and loot the Jewel of the Southsea.\n[color=FF0000]NOTE: [/color]The E.C.A.C. is a one-time use item. If you die, you'll have to get a new one from Wrenix's Gizmotronic Apparatus.|T|Polly|U|7970|R|Orc,Troll,Undead|C|Rogue|
 ; ---
-C Stolen Booty|QID|888|M|62.63,49.64|L|5076|N|The Shipment of Boots is in a box close to the hills.\nKill Baron Longshore, if you see him.|
-C Stolen Booty|QID|888|M|63.58,49.25|L|5077|N|The Telescopic Lens is in a box close to the water.\nKill Baron Longshore, if you see him.|
-K WANTED: Baron Longshore|QID|895|M|63.40,49.20|CC|QO|1|N|If you haven't found Baron Longshore yet, keep checking the pirate camps. Kill him and loot his head.|T|Baron Longshore|US|
-
-T WANTED: Baron Longshore|QID|895|M|62.68,36.23|N|To Gazlowe back in Ratchet.|
+C Stolen Booty|QID|888|M|62.63,49.64|L|5076|N|The Shipment of Boots is in a box close to the hills.|
+C Stolen Booty|QID|888|M|63.58,49.25|L|5077|N|The Telescopic Lens is in a box close to the water.|
+C WANTED: Baron Longshore|QID|895|M|62.69,49.82;63.53,49.15;64.20,47.11|CN|QO|1|N|If you haven't found Baron Longshore yet, keep checking the pirate camps. Kill him and loot his head.|T|Baron Longshore|US|
+R Ratchet|ACTIVE|895^888^2381|M|62.73,40.17|N|Return to Ratchet.|
 T Stolen Booty|QID|888|M|62.68,36.23|N|To Gazlowe.|
 A Raptor Horns|QID|865|M|62.37,37.62|N|From Mebok Mizzyrix.|
-A Miner's Fortune|QID|896|M|63.35,38.42|N|From Wharfmaster Dizzywig.|
+A Miner's Fortune|QID|896|M|63.35,38.45|N|From Wharfmaster Dizzywig.|
 T Plundering the Plunderers|QID|2381|M|63.07,36.32|N|To Wrenix the Wretched.|R|Orc,Troll,Undead|C|Rogue|
 
-C The Stagnant Oasis|QID|877|M|55.60,42.72|QO|1|N|Now head southwest towards the Stagnant Oasis. When you get to the water, start looking for another Bubbling Fissure. Click on it to plant the seeds.|NC|
+C The Stagnant Oasis|QID|877|M|55.60,42.72|QO|1|N|Head southwest to the Stagnant Oasis. Enter the water and swim to the Bubbling Fissure. Click on it to plant the seeds.|NC|
 K Verog the Dervish|QID|851|M|53.1,41.7|QO|1|N|Find the gazebo on the side of the hill. Kill centaurs in the area until one says "I am slain! Summon Verog!" When you see this shout, head back to the gazebo. Verog should be standing there. Kill him and loot his head.|
 ; lv 18
-C Centaur Bracers|QID|855|L|5030 15|N|Get any last centaur bracers you need.\n[color=FF0000]NOTE: [/color]As you need to be in the area to turn in the quest, you may want to finish this up at Lushwater Oasis. The walk isn't as noticeable if you are doing something.|US|
+C Centaur Bracers|QID|855|M|48.47,38.00|L|5030 15|N|Finish up collecting your centaur bracers.\n[color=FF0000]NOTE: [/color]As you need to be in the area to turn in the quest, you may want to finish this up at the Lushwater Oasis.\nAvoid Hezrul for now; you don't have the quest yet.|US|
 
-T Centaur Bracers|QID|855|M|45.4,28.39|N|Make your way west to Regthar Deathgate's Bunker.|
+T Centaur Bracers|QID|855|M|45.4,28.39|N|To Regthar Deathgate in his Bunker.|
 T Verog the Dervish|QID|851|M|45.34,28.42|N|To Regthar Deathgate.|
 A Hezrul Bloodmark|QID|852|M|45.34,28.42|N|From Regthar Deathgate.|PRE|851|
-H The Crossroads|QID|5041|N|We've done enough walking. Hearth back to the Crossroads. Unless, it's on CD. Then you're doing some more walking.|
-T Echeyakee|QID|881|M|52.22,31.02|N|To Sergra Darkthorn.|
-A The Angry Scytheclaws|QID|905|M|52.22,31.02|N|From Sergra Darkthorn.|PRE|881|
-T The Stagnant Oasis|QID|877|M|52.24,31.92|N|To Tonga Runetotem.|
-A Altered Beings|QID|880|M|52.24,31.92|N|From Tonga Runetotem.|PRE|877|
-T Supplies for the Crossroads|QID|5041|M|51.52,30.87|N|To Thork.|
-T The Disruption Ends|QID|872|M|51.52,30.87|N|To Thork.|
+H The Crossroads|QID|5041|M|50.81,29.08|N|We've done enough walking. Hearth back to the Crossroads. Unless, it's on CD. Then you're doing some more walking.|
+T Echeyakee|QID|881|M|52.23,31.01|N|To Sergra Darkthorn.|
+A The Angry Scytheclaws|QID|905|M|52.23,31.01|N|From Sergra Darkthorn.|PRE|881|
+T The Stagnant Oasis|QID|877|M|52.26,31.93|N|To Tonga Runetotem.|
+A Altered Beings|QID|880|M|52.26,31.93|N|From Tonga Runetotem.|PRE|877|
+T Supplies for the Crossroads|QID|5041|M|51.50,30.87|N|To Thork.|
+T The Disruption Ends|QID|872|M|51.50,30.87|N|To Thork.|
 
 ; --- Orgrimmar visit for Warlocks and Rogues
 F Orgrimmar|QID|852|M|51.50,30.33|N|Fly to Orgrimmar to do training and whatever else you need to do.|C|Warlock,Rogue|
-F Camp Taurajo|QID|852|M|45.50,63.84|Z|Orgrimmar|N|Fly to Camp Taurajo.|C|Warlock,Rogue|
+F Camp Taurajo|QID|852|M|45.13,63.90|Z|Orgrimmar|N|Fly to Camp Taurajo.|C|Warlock,Rogue|
 ; --- And Thunder Bluff for everyone else
 F Thunder Bluff|QID|852|M|51.50,30.33|N|Fly to Thunder Bluff to do training and whatever else you need to do.|C|-Warlock,-Rogue|
 F Camp Taurajo|QID|852|M|47.02,49.83|Z|Thunder Bluff|N|Fly back to Camp Taurajo.|C|-Warlock,-Rogue|
 ; ---
 
-h Camp Taurajo|QID|852|M|45.6,59.0|N|Set your Hearthstone to Camp Taurajo.|
-R Raptor Grounds|ACTIVE|3281|M|50.80,50.42;57,52|CC|N|Head to the Raptor Grounds. You'll want to avoid the Bristleback Quilboar camps for now.\nYour best route is to take the road north to about the bridge and then follow the dry river bed east.|
+h Camp Taurajo|QID|852|M|45.58,59.04|N|Set your Hearthstone to Camp Taurajo.|
 C Raptor Horns|QID|865|L|5055 5|N|Loot these from killing Scytheclaws.|S|
-C Stolen Silver|QID|3281|M|58.05,53.85|QO|1|N|Clear your way through the grounds, picking off raptors one by one. The stolen silver is in a chest at the back of the grounds, guarded by three raptors. One of these can be pulled solo.|NC|
-C Raptor Horns|QID|865|L|5055 5|N|Stay at the Raptor Grounds until you finish this quest|US|
-C Sunscale Feathers|QID|905|L|5165 3|N|Continue killing Raptors until you also have 3 Sunscale Feathers for the next quest, The Angry Scytheclaws.|
-C The Angry Scytheclaws|QID|905|M|52.45,46.57;52.03,46.48;52.60,46.10|CC|QO|1;2;3|N|Go to the raptor nests. Clear the area, then right-click each of the nests. They do not have to be done in any particular order.|NC|
-* Sunscale Feathers|QID|905|N|Once you have visited all 3 nests, discard any leftover Sunscale Feathers you may have as they're now useless.|U|5165|
+R Raptor Grounds|ACTIVE|3281|M|50.80,50.42;57.41,52.01|CC|N|Head to the Raptor Grounds. You'll want to avoid the Bristleback Quilboar camps for now.\nYour best route is to take the road north to about the bridge and then follow the dry river bed east.|
+C Stolen Silver|QID|3281|M|58.04,53.87|QO|1|N|Clear your way through the grounds, picking off raptors one by one. The stolen silver is in a chest at the back of the grounds, guarded by three raptors. The one closest to you can be pulled solo. Pick the smaller of the other two to attack first.|NC|
+C Raptor Horns|QID|865|M|57.41,52.01|L|5055 5|N|Stay at the Raptor Grounds until you finish this quest|US|
+C Sunscale Feathers|QID|905|M|57.41,52.01|L|5165 3|N|Continue killing Raptors until you also have 3 Sunscale Feathers for the next quest, The Angry Scytheclaws.|
+C The Angry Scytheclaws|QID|905|M|58.04,53.87;52.45,46.57;52.03,46.48;52.60,46.10|CC|QO|1;2;3|N|Go to the raptor nests. Clear the area, then right-click each of the nests. They do not have to be done in any particular order.|NC|
+* Sunscale Feathers|QID|905|N|You can safely destroy your leftover Sunscale Feathers.|U|5165|
 R Lushwater Oasis|QID|880|M|48.24,40.48|N|Go to the Lushwater Oasis.|
-C Altered Beings|QID|880|L|5098 8|N|Kill Oasis Snapjaws and loot their shells.|
-C Hezrul Bloodmark|QID|852|M|46.15,36.84|QO|1|N|Hezrul Bloodmark and his guards spawn outside the Wailing Caverns and patrol clockwise around the Oasis.\nOnce you've located him, take a look at his guards and decide which of the two guards is the WEAKEST. If you are able, polymorph, sap, root, or use any other crowd control you have on Hezrul. Kill the weakest guard and then run away until they stop chasing you. Go back to where you first fought them. Replenish and then rinse and repeat with the second guard. This will leave Hezrul all alone. Replenish and attack him directly.\n[color=FF0000]NOTE: [/color]Raid target Hezrul to make it easier to find him again after you escape.|
+C Altered Beings|QID|880|M|47.98,40.27|L|5098 8|N|Kill Oasis Snapjaws and loot their shells.|
+C Hezrul Bloodmark|QID|852|M|46.15,36.84|QO|1|N|Hezrul Bloodmark and his guards spawn outside the Wailing Caverns and patrol clockwise around the Oasis.\nOnce you've located him, take a look at his guards and decide which of the two guards is the WEAKEST. If you are able, polymorph, sap, root, or use any other crowd control you have on Hezrul. Kill the weakest guard and then run away until they stop chasing you. Go back to where you first fought them. Replenish and then rinse and repeat with the second guard. This will leave Hezrul all alone. Replenish and attack him directly.\n[color=FF0000]NOTE: [/color]Raid target Hezrul to make it easier to find him again after you escape.|T|Hezrul|
 T Hezrul Bloodmark|QID|852|M|45.34,28.42|N|To Regthar at his Bunker.|
 R The Dry Hills|QID|875|M|40.48,15.84|N|Make your way into The Dry Hills.|
-C Harpy Lieutenants|QID|875|L|5065 6|N|Kill Witchwing Slayers to collect the rings. You'll find them deeper in the area.|
+C Harpy Lieutenants|QID|875|L|5065 6|N|Kill Witchwing Slayers to collect the rings. You'll find them deeper in the area.\n[color=FF0000]NOTE: [/color]Watch out for Sister Rathtalon, a lv 19 rare elite, who paths in the area.|
 H Camp Taurajo|QID|865|N|Hearth back to Camp Taurajo to make this quicker.|
-F Ratchet|QID|865|M|44.46,59.14|N|Fly to Ratchet.|
+F Ratchet|QID|865|M|44.44,59.15|N|Fly to Ratchet.|
 
 T Raptor Horns|QID|865|M|62.37,37.62|N|To Mebox Mizzyrix.|
 A Smart Drinks|QID|1491|M|62.37,37.62|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Mebox Mizzyrix.|PRE|865|O|
 A Deepmoss Spider Eggs|QID|1069|M|62.37,37.62|N|From Mebox Mizzyrix.|
 A Trouble at the Docks|QID|959|M|63.09,37.60|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Crane Operator Bigglefuzz.|O|
 A The Guns of Northwatch|QID|891|M|62.29,39.03|N|From Captain Thalo'thas Brightsun.|
-F Crossroads|QID|880|M|63.11,37.10|N|Fly back to The Crossroads.|
+F Crossroads|QID|880|M|63.09,37.16|N|Fly back to The Crossroads.|
 
-T Altered Beings|QID|880|M|52.24,31.92|N|To Tonga Runetotem.|
+T Altered Beings|QID|880|M|52.26,31.93|N|To Tonga Runetotem.|
 ; lv 19
-A Hamuul Runetotem|QID|1489|M|52.24,31.92|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Tonga Runetotem. This is a simple, 'go-talk' dungeon prequel quest. Take the quest even if you have no plans to run WC.|PRE|880|
-T The Angry Scytheclaws|QID|905|M|52.22,31.02|N|To Sergra Darkthorn.\n[color=FF0000]NOTE: [/color]Dispose of any leftover Sunscale Feathers.|
-A Jorn Skyseer|QID|3261|M|52.21,31.02|N|From Sergra Darkthorn.|PRE|905|
-T Stolen Silver|QID|3281|M|51.95,30.36|N|To Gazrog.|
-A Report to Kadrak|QID|6541|M|51.52,30.87|N|From Thork.|LEAD|6543|
+A Hamuul Runetotem|QID|1489|M|52.26,31.93|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Tonga Runetotem. This is a simple, 'go-talk' dungeon prequel quest. Take the quest even if you have no plans to run WC.|PRE|880|
+T The Angry Scytheclaws|QID|905|M|52.23,31.01|N|To Sergra Darkthorn.|
+A Jorn Skyseer|QID|3261|M|52.23,31.01|N|From Sergra Darkthorn.|PRE|905|
+T Stolen Silver|QID|3281|M|51.93,30.32|N|To Gazrog.|
+A Report to Kadrak|QID|6541|M|51.50,30.87|N|From Thork.|LEAD|6543|
 T Harpy Lieutenants|QID|875|M|51.62,30.90|N|To Darsok Swiftdagger.|
 A Serena Bloodfeather|QID|876|M|51.62,30.90|N|From Darsok Swiftdagger.|PRE|875|
-R The Dry Hills|QID|876|M|42.67,12.56|N|Make your way back to The Dry Hills. This is a shortcut into the back of Dry Hill.|
+R The Dry Hills|QID|876|M|42.67,12.56|N|Make your way back to The Dry Hills.\n[color=FF0000]NOTE: [/color]This is a shortcut into the back of Dry Hill.|
 K Serena Bloodfeather|QID|876|M|42.28,11.88;40.63,10.29;39.40,11.44|CC|QO|1|N|Continue up the hillside. You may have to do some wiggling to clear the crest at the top. Once at the top, simply walk across the plateau and down the other side of the hill.\nAfter clearing out the mobs around her, kill Serena and loot her head.|
 R Mor'shan Base Camp|QID|3921|M|39.82,12.38;45.91,9.30|CC|N|Go back over the hill the way you came in. This will take a little 'fancy footwork' as there are a couple spots that you have to wiggle to get past. Once you have reached the plateau, follow the flat ridge east until you reach Mor'shan.|
 T Wenikee Boltbucket|QID|3921|M|49.05,11.18|N|Climb down the hill and cross the road to find Wenikee Boltbucket.|
@@ -384,7 +385,7 @@ N Lockpicking|QID|2478|N|You will require a Lockpicking skill of at least 85 to 
 F Ratchet|QID|2458|M|45.50,63.84|Z|Orgrimmar|N|Fly to Ratchet|P|Lockpicking;633;0+100;1|R|Orc,Troll,Undead|C|Rogue|
 R Merchant Coast|QID|2458|M|64.20,45.49;64.85,45.37|CS|N|Walk up the nose of the ship to get on it.|R|Orc,Troll,Undead|C|Rogue|
 N Lockpicking|QID|2458|M|65.00,45.41|N|Walk down to the 2nd level and increase your skill by opening these chests. You can get up to 100 with them.|P|Lockpicking;633;0+100;1|R|Orc,Troll,Undead|C|Rogue|
-F Orgrimmar|QID|2458|M|63.11,37.10|N|Run back to Ratchet and fly to Orgrimmar.|R|Orc,Troll,Undead|C|Rogue|
+F Orgrimmar|QID|2458|M|63.09,37.16|N|Run back to Ratchet and fly to Orgrimmar.|R|Orc,Troll,Undead|C|Rogue|
 R Southfury River|ACTIVE|2458|N|Leave Orgrimmar through the west gate.|M|11.45,67.06|Z|Orgrimmar|R|Orc,Troll,Undead|C|Rogue|
 R Venture Co. Tower|ACTIVE|2458|M|62.29,7.77;56.59,6.42|CC|N|Make your way around the edge of the mountain to the tower.|R|Orc,Troll,Undead|C|Rogue|
 N Taskmaster Fizzule|QID|2458|M|56.00,6.10|N|Target Taskmaster Fizzule and use the Flare gun. When he becomes non-aggressive, emote '/salute', or you will not be able to interact with him.\nRight-click this step when done.|T|Taskmaster Fizzule|U|8051|R|Orc,Troll,Undead|C|Rogue|
@@ -400,7 +401,7 @@ R Crossroads|QID|876|M|52.36,28.31|N|Run to The Crossroads.\nThis is faster than
 N Shaman level 20 Class quest|AVAILABLE|1528^1529|N|You can either fly to Orgrimmar or Thunder Bluff to get started. Orgrimmar is the shorter flight and probably the most convenient.\nThis guide will be going to Orgrimmar.|R|Orcs,Tauren,Trolls|C|Shaman|
 F Orgrimmar|AVAILABLE|1528|ACTIVE|-1529|M|12.19,33.82|Z|Ashenvale|N|Fly to Orgrimmar.|R|Orcs,Tauren,Trolls|C|Shaman|
 A Call of Water|QID|1528|ACTIVE|-1529|M|37.8,37.4|Z|Orgrimmar|N|From Searn Firewarder in the Valley of Wisdom.|R|Orcs,Tauren,Trolls|C|Shaman|
-F Ratchet|ACTIVE|1528^1529|M|63.11,37.10|R|Orcs,Tauren,Trolls|C|Shaman|
+F Ratchet|ACTIVE|1528^1529|M|63.09,37.16|R|Orcs,Tauren,Trolls|C|Shaman|
 R Islen Waterseer|ACTIVE|1528^1529|M|65.8,43.8|R|Orcs,Tauren,Trolls|C|Shaman|
 T Call of Water|QID|1528^1529|M|65.8,43.8|N|To Islen Waterseer.|R|Orcs,Tauren,Trolls|C|Shaman|
 A Call of Water|QID|1530|M|65.8,43.8|N|From Islen Waterseer.|PRE|1529|R|Orcs,Tauren,Trolls|C|Shaman|
@@ -549,7 +550,7 @@ T Deepmoss Spider Eggs|QID|1069|M|62.4,37.6|N|[coords]To Mebox Mizzyrix.|
 * Deepmoss Spider Eggs|AVAILABLE|-1069|N|You can safely delete any leftovers.|U|5570|
 T The Escape|QID|863|M|63,37.2|N|[coords]To Sputtervalve.|
 A Ziz Fizziks |QID|1483|M|63,37.2|N|[coords]From Sputtervalve.|LEAD|1093|
-T Miner's Fortune|QID|896|M|63.2,38.4|N|[coords]To Wharfmaster Dizzywig.|
+T Miner's Fortune|QID|896|M|63.35,38.45|N|To Wharfmaster Dizzywig.|
 
 C Fresh Zhevra Carcass|ACTIVE|882|L|10338|M|60.97,35.77|N|Head north out of Ratchet. Kill the first Zhevra you see.|
 R The dead tree|ACTIVE|882|M|60.01,30.36|CC|N|Head for the dead tree.|
