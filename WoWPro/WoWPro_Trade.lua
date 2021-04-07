@@ -162,6 +162,7 @@ WoWPro.ProfessionSkillLines = {
     [129] = { name = 'First Aid'},
 
     --  Not included in GetTradeSkillLineInfoByID()
+    [633] = { name = 'Lockpicking' },
     [794] = { name = 'Archaeology' },
     [960] = { name = 'Runeforging' },
     [2720] = { exp = 7, name = 'Junkyard Tinkering'},
