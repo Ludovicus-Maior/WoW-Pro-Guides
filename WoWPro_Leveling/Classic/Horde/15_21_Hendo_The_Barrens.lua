@@ -279,45 +279,45 @@ A Serena Bloodfeather|QID|876|M|51.62,30.90|N|From Darsok Swiftdagger.|PRE|875|
 R The Dry Hills|QID|876|M|42.67,12.56|N|Make your way back to The Dry Hills.\n[color=FF0000]NOTE: [/color]This is a shortcut into the back of Dry Hill.|
 K Serena Bloodfeather|QID|876|M|42.28,11.88;40.63,10.29;39.40,11.44|CC|QO|1|N|Continue up the hillside. You may have to do some wiggling to clear the crest at the top. Once at the top, simply walk across the plateau and down the other side of the hill.\nAfter clearing out the mobs around her, kill Serena and loot her head.|
 R Mor'shan Base Camp|QID|3921|M|39.82,12.38;45.91,9.30|CC|N|Go back over the hill the way you came in. This will take a little 'fancy footwork' as there are a couple spots that you have to wiggle to get past. Once you have reached the plateau, follow the flat ridge east until you reach Mor'shan.|
-T Wenikee Boltbucket|QID|3921|M|49.05,11.18|N|Climb down the hill and cross the road to find Wenikee Boltbucket.|
-A Nugget Slugs|QID|3922|M|49.05,11.18|N|From Wenikee Boltbucket.|PRE|3921|
+T Wenikee Boltbucket|QID|3921|M|49.05,11.16|N|Climb down the hill and cross the road to find Wenikee Boltbucket.|
+A Nugget Slugs|QID|3922|M|49.05,11.16|N|From Wenikee Boltbucket.|PRE|3921|
 
 R The Sludge Fen|ACTIVE|3922|M|49.22,12.41;50.65,9.92;53.13,6.45;55.55,7.44|CC|N|You can either hug the mountain and follow it east, or go over the mountain and save some time. I vote we go over.|
-C Nugget Slugs|QID|3922|L|11143 15|N|Loot Nugget Slugs from tool buckets.|S|
+C Nugget Slugs|QID|3922|M|56.20,7.67|L|11143 15|N|Loot Nugget Slugs from tool buckets.|S|
 A Ignition|QID|858|M|56.51,7.45|N|From Wizzlecrank's Shredder.\n[color=FF0000]NOTE: [/color]If it's not available, someone is already on it and you have to wait.|
-K Supervisor Lugwizzle|QID|858|M|56.3,8.2|L|5050|N|You'll find Supervisor Lugwizzle up in the tower. Kill him and loot the Ignition Key.|
+C Supervisor Lugwizzle|QID|858|M|56.3,8.2|L|5050|N|You'll find Supervisor Lugwizzle up in the tower. Kill him and loot the Ignition Key.|
 ; --- Druid Aquatic class quest
 C Strange Lockbox|QID|30|M|56.69,8.30|L|15883|N|Before you leave, you can do the next step in your Aquatic class quest.\nSwim to the bottom and loot the Half Pendant of Aquatic Agility from the Lockbox.|R|Tauren|C|Druid|NC|
 ; ---
 T Ignition|QID|858|M|56.51,7.45|N|To Wizzlecrank's Shredder. As when you accepted this quest, if he's not here, you'll have to wait.|
 A The Escape|QID|863|M|56.51,7.45|N|From Wizzlecrank's Shredder.|PRE|858|
 C The Escape|QID|863|M|55.34,7.89|QO|1|N|When we first start, make long pulls and killing the Drudgers and Mercenaries to the west of you. Continue to make long pulls while he heads west. Stay close to him, so that he will help you fight your attackers. Try not to let things run away. After a short while, the shredder will turn north up a ramp, and stop. Two Venture Co. mobs will spawn and attack you.|
-C Nugget Slugs|QID|3922|L|11143 15|N|Now, patrol the area looting any more Nugget Slugs you need.|US|
-T Nugget Slugs|QID|3922|M|54.66,6.85;53.13,6.45;50.65,9.92;49.05,11.18|CC|N|To Wenikee Boltbucket. Once again, you can either, run around the mountain, or go over. We'll be going over.\nWhen you get to the first point, you may have to 'zigzag' in order to continue up.|
+C Nugget Slugs|QID|3922|M|56.20,7.67|L|11143 15|N|Now, patrol the area looting any more Nugget Slugs you need.|US|
+T Nugget Slugs|QID|3922|M|54.66,6.85;53.13,6.45;50.65,9.92;49.05,11.16|CC|N|To Wenikee Boltbucket. Once again, you can either, run around the mountain, or go over. We'll be going over.\nWhen you get to the first point, you may have to 'zigzag' in order to continue up.|
 * Nugget Slugs|AVAILABLE|-3922|N|Discard any leftover Nugget Slugs you may have.|U|11143|
-A Rilli Greasygob|QID|3923|M|49.05,11.18|N|From Wenikee Boltbucket.|PRE|3922|
+A Rilli Greasygob|QID|3923|M|49.05,11.16|N|From Wenikee Boltbucket.|PRE|3922|
 
-N Ashenvale FPs|ACTIVE|6541|N|A little side trip to grab the Flight paths in Ashenvale while we are here.|
+N Ashenvale FPs|ACTIVE|6541|N|A little side trip to grab the Flight paths in Ashenvale while we are here.\nCheck off to continue.|
 R The Mor'shan Rampart|ACTIVE|6541|M|48.02,5.58|CC|N|Follow the road north to the Mor'shan Rampart.|
 T Report to Kadrak|QID|6541|M|48.12,5.42|N|To Kadrak on the first floor of the guard tower on your right.|
 A The Warsong Reports|QID|6543|M|48.12,5.42|N|From Kadrak.|
 R Ashenvale|QID|6548|M|68.63,86.82|Z|Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|
 R Splintertree Post|QID|6548|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|CC|Z|Ashenvale|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.\n[color=FF0000]NOTE: [/color]Be VERY aware of the much higher level mobs if you choose to venture off the road.|
-U Warsong Reports|L|16746|N|Open your Bundle of Reports.|U|16783|
+U Warsong Reports|ACTIVE|6543|L|16746|N|Open your Bundle of Reports.|U|16783|
 ; Quest is [The Warsong Reports], presuming this is to avoid automatic turn-in.
 C Warsong Scout Update|QID|6543|M|71.04,68.22|Z|Ashenvale|QO|1|N|Give one of the Reports to the Warsong Scout with a Blue question mark over her head. She sometimes spawns at the base of the tower.\n[color=FF0000]NOTE: [/color]Be careful not to give more than one, or you won't have enough to finish the quest.|CHAT|
-f Splintertree Post|QID|6548|M|73.25,61.67|Z|Ashenvale|N|Head into Splintertree Post and get the flight path.|TAXI|-Splinter Tree|
+f Splintertree Post|QID|6548|M|73.18,61.59|Z|Ashenvale|N|Head into Splintertree Post and get the flight path.|TAXI|-Splinter Tree|
 C Warsong Outrider Update|QID|6543|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,55.48;94,47|CC|Z|Ashenvale|QO|3|N|Locate the Warsong Outrider and get the Warsong Outrider Update. S/he patrols on a wolf mount along the road northeast of Splintertree.|CHAT|
 R Zoram'gar Outpost|QID|6548|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.20,47.28;26.43,42.33;16.51,30.27;12.73,33.29|CC|Z|Ashenvale|N|Follow the road all the way west to Zoram'gar Outpost.  Watch out for the higher level mobs along the way.\nWhen you get to Astranaar, you can either follow the shoreline to the south, or swim. Swimming means less fighting.\n[color=FF0000]NOTE: [/color]Keep your distance from Astranaar or you will more than likely die.|
 C Warsong Runner Update|QID|6543|M|12.22,34.21|Z|Ashenvale|QO|2|N|Hand out the last report to the Warsong Runner.|CHAT|
-f Zoram'gar Outpost|QID|6548|M|12.19,33.82|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
-N Vorsha the Lasher|AVAILABLE|6641|ACTIVE|-6641|N|If you are level 20, you can do the Vorsha the Lasher quest for a Stamina/Spirit Ring reward and 2300 xp.\n[color=FF0000]NOTE: [/color]I highly recommend doing this quest at the same time as you're doing 'Naga at the Zoram Strand' to make use of the assistance from Muglash.\n\nIf you are not level 20, come back as soon as you are.|
+f Zoram'gar Outpost|QID|6548|M|12.24,33.80|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
+N Vorsha the Lasher|AVAILABLE|6641|ACTIVE|-6641|N|If you are level 20, you can do the Vorsha the Lasher quest for a Stamina/Spirit Ring reward and 2300 xp.\n[color=FF0000]NOTE: [/color]I highly recommend doing this quest at the same time as you're doing 'Naga at the Zoram Strand' to make use of the assistance from Muglash.\n\nIf you're not level 20, come back as soon as you are.|
 A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash. If he's not there, just wait because someone is either already doing the quest, or he has died and awaiting respawn.|LVL|20|
 A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]Go back to Muglash to restart the quest.\nIf he's not there, just wait because someone is either already doing the quest, or he has died and awaiting respawn.|LVL|20|FAIL|
 A Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|From Marukai.|
-C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nI recommend using Muglash to kill as many Nagas as you can along the escort path. Avoid the Priestesses; they fully heal from almost dead.|S|
-C Naga at the Zoram Strand|QID|6442|ACTIVE|-6641|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nAvoid the Priestesses; they fully heal from almost dead.|
-L Level 20|QID|6641|N|Continue killing Nagas until you reach level 20.\nYou'll want to be level 20 when you return to the Barrens shortly. There is a level 20 escort quest in the area as well.|LVL|20|
+C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|M|13.31,26.74|Z|Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nI recommend using Muglash to kill as many Nagas as you can along the escort path. Avoid the Priestesses; they fully heal from almost dead.|S|
+C Naga at the Zoram Strand|QID|6442|ACTIVE|-6641|M|13.31,26.74|Z|Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nAvoid the Priestesses; they fully heal from almost dead.|
+L Level 20|QID|6641|N|Continue killing Nagas until you reach level 20.\nYou'll want to be level 20 when you return to the Barrens shortly. There is a level 20 escort quest in the area as well.|LVL|20;-1450|
 
 C Vorsha the Lasher|QID|6641|M|9.63,27.66|Z|Ashenvale|QO|1|N|Accompany Muglash to the brazier. Right-click the brazier to extinguish the flame. Protect Muglash as you fight against 2 waves of 3 Nagas and then Vorsha in the final wave.\nMake sure you kill the Priestesses first, as they will heal everyone fully.[color=FF0000]NOTE: [/color]This quest is a bit glitched. All you have to do is escort Muglash to the Brazier, extinguish the flame and then die. Do NOT release your body until Muglash dies. Once Muglash dies, release and recover your body. Run back to Muglash in Zoram'gar Outpost to restart the quest. When you reach the base of the first hill, Muglash will stop and thank you for helping. At this point, the quest will be completed.|
 C Naga at the Zoram Strand|QID|6442|L|5490 20|N|Finish collecting Wrathtail Heads.|US|
@@ -326,13 +326,13 @@ T Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|To Marukai.|
 
 ; --- Hunters and Mages
 N No class quest|QID|876|N|Hunters and Mages do not have a level 20 quest.|C|Hunter,Mage|
-F Orgrimmar|QID|876|M|12.19,33.82|Z|Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Hunter,Mage|
+F Orgrimmar|QID|876|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Hunter,Mage|
 F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|When you are finished with your training, fly to The Crossroads.|R|Tauren|C|Druid|
 ; ---
 
 ; --- Warriors level 20 class quest
 N Brutal Armor|QID|876|N|It is recommended to wait until lv 28-30 to start this quest chain. This quest chain is quite extensive and requires a lot of traveling to complete.|C|Warrior|
-F Orgrimmar|QID|876|M|12.19,33.82|Z|Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Warrior|
+F Orgrimmar|QID|876|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Warrior|
 F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|When you are finished with your trining, fly to The Crossroads.|C|Warrior|
 ; ---
 
@@ -353,7 +353,7 @@ F Crossroads|QID|876|M|47.02,49.83|Z|Thunder Bluff|N|Fly to The Crossroads.|R|Ta
 ; --- Priest level 20 racial class quests
 ; --- 2 different quest chains depending on Race.
 ; --- Undead
-F Orgrimmar|AVAILABLE|5646|M|12.19,33.82|Z|Ashenvale|N|Fly to Orgrimmar.|R|Undead|C|Priest|
+F Orgrimmar|AVAILABLE|5646|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar.|R|Undead|C|Priest|
 R Valley of Spirits|AVAILABLE|5646|ACTIVE|-5644|R|Undead|C|Priest|
 A Devouring Plague|QID|5646|ACTIVE|-5644|M|35.6,87.6|N|From Ur'kyo.\n[color=FF0000]NOTE: [/color]An alternate version of this quest can also be gotten from Miles Welsh in Thunder Bluff.|LEAD|5679|R|Undead|C|Priest|
 b Tirisfal Glades|ACTIVE|5644^5646|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Undead|C|Priest|
@@ -365,7 +365,7 @@ R Leave Undercity|QID|3923|M|65.99,36.85;66.22,0.90;66.22,1.27|CC|Z|Undercity|N|
 b Durotar|QID|3923|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|R|Undead|C|Priest|
 R Orgrimmar|QID|3923|M|45.52,12.07|Z|Durotar|R|Undead|C|Priest|
 ; --- Troll
-F Thunder Bluff|AVAILABLE|5644|M|12.19,33.82|Z|Ashenvale|N|Fly to Thunder Bluff.|R|Troll|C|Priest|
+F Thunder Bluff|AVAILABLE|5644|M|12.24,33.80|Z|Ashenvale|N|Fly to Thunder Bluff.|R|Troll|C|Priest|
 A Shadowguard|QID|5642|M|25.6,15.6|Z|Thunder Bluff|N|From Miles Welsh in the cave under The Spirit Rise. He pathes a bit but not far.\n[color=FF0000]NOTE: [/color]An alternate version of this quest can also be gotten from Aelthalyste in Undercity.|LEAD|5680|R|Troll|C|Priest|
 F Orgrimmar|ACTIVE|5642^5643|M|47.02,49.83|Z|Thunder Bluff|N|Fly to Orgrimmar.|R|Troll|C|Priest|
 T Shadowguard|QID|5642^5643|M|35.6,87.6|Z|Orgrimmar|N|To Ur'kyo in the Valley of Spirits.|R|Troll|C|Priest|
@@ -376,7 +376,7 @@ F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|Fly to The Crossroads.|R|Troll,
 ; ---
 
 ; --- Rogue Thistle Tea level 20 class quest
-F Orgrimmar|AVAILABLE|2460|M|12.19,33.82|Z|Ashenvale|N|Fly to Orgrimmar.|R|Orc,Troll,Undead|C|Rogue|
+F Orgrimmar|AVAILABLE|2460|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar.|R|Orc,Troll,Undead|C|Rogue|
 A The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul in Cleft of Shadows.|R|Orc,Troll,Undead|C|Rogue|
 C The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|T|Shenthul|QO|1|N|Target Shenthul and use the emote '/salute' to complete the quest.|R|Orc,Troll,Undead|C|Rogue|NC|
 T The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|N|To Shenthul.|R|Orc,Troll,Undead|C|Rogue|
@@ -399,7 +399,7 @@ R Crossroads|QID|876|M|52.36,28.31|N|Run to The Crossroads.\nThis is faster than
 
 ; --- Shaman Water Totem class quest
 N Shaman level 20 Class quest|AVAILABLE|1528^1529|N|You can either fly to Orgrimmar or Thunder Bluff to get started. Orgrimmar is the shorter flight and probably the most convenient.\nThis guide will be going to Orgrimmar.|R|Orcs,Tauren,Trolls|C|Shaman|
-F Orgrimmar|AVAILABLE|1528|ACTIVE|-1529|M|12.19,33.82|Z|Ashenvale|N|Fly to Orgrimmar.|R|Orcs,Tauren,Trolls|C|Shaman|
+F Orgrimmar|AVAILABLE|1528|ACTIVE|-1529|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar.|R|Orcs,Tauren,Trolls|C|Shaman|
 A Call of Water|QID|1528|ACTIVE|-1529|M|37.8,37.4|Z|Orgrimmar|N|From Searn Firewarder in the Valley of Wisdom.|R|Orcs,Tauren,Trolls|C|Shaman|
 F Ratchet|ACTIVE|1528^1529|M|63.09,37.16|R|Orcs,Tauren,Trolls|C|Shaman|
 R Islen Waterseer|ACTIVE|1528^1529|M|65.8,43.8|R|Orcs,Tauren,Trolls|C|Shaman|
@@ -418,7 +418,7 @@ F Crossroads|ACTIVE|876|M|44.46,59.14|N|Fly to Crossroads.|R|Orcs,Tauren,Trolls|
 ; ---
 
 ; --- Warlock Succubus class quest
-F Orgrimmar|AVAILABLE|1507|M|12.19,33.82|Z|Ashenvale|N|Fly to Orgrimmar.|R|Orc,Undead|C|Warlock|
+F Orgrimmar|AVAILABLE|1507|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar.|R|Orc,Undead|C|Warlock|
 A Devourer of Souls|QID|1507|M|48.24,45.28|Z|Orgrimmar|N|From Gan'rul Bloodeye in Cleft of Shadows.|R|Orc,Undead|C|Warlock|
 T Devourer of Souls|QID|1507|M|47.04,46.46|Z|Orgrimmar|N|To Cazul in Cleft of Shadows.|R|Orc,Undead|C|Warlock|
 A Blind Cazul|QID|1508|M|47.04,46.46|Z|Orgrimmar|N|From Cazul.|PRE|1507|R|Orc,Undead|C|Warlock|
@@ -595,6 +595,6 @@ N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quest
 ;C Sharptalon's Claw|QID|2|Z|Ashenvale|N|Kill the blue bird, Sharptalon, for its claw.|PRE|6383|
 ;C Ursangous's Paw|QID|23|Z|Ashenvale|N|Kill the grey bear, Ursangous, for its paw.|PRE|6383|
 
-F Sun Rock Retreat|QID|6421|M|73.25,61.67|Z|Ashenvale|N|Fly to Sun Rock Retreat.|
+F Sun Rock Retreat|QID|6421|M|73.18,61.59|Z|Ashenvale|N|Fly to Sun Rock Retreat.|
 ]]
 end)
