@@ -276,7 +276,7 @@ T Stolen Silver|QID|3281|M|51.93,30.32|N|To Gazrog.|
 A Report to Kadrak|QID|6541|M|51.50,30.87|N|From Thork.|LEAD|6543|
 T Harpy Lieutenants|QID|875|M|51.62,30.90|N|To Darsok Swiftdagger.|
 A Serena Bloodfeather|QID|876|M|51.62,30.90|N|From Darsok Swiftdagger.|PRE|875|
-R The Dry Hills|QID|876|M|42.67,12.56|N|Make your way back to The Dry Hills.\n[color=FF0000]NOTE: [/color]This is a shortcut into the back of Dry Hill.|
+R The Dry Hills|ACTIVE|876|M|42.67,12.56|QO|1|N|Make your way back to The Dry Hills.\n[color=FF0000]NOTE: [/color]This is a shortcut into the back of The Dry Hills.|
 K Serena Bloodfeather|QID|876|M|42.28,11.88;40.63,10.29;39.40,11.44|CC|QO|1|N|Continue up the hillside. You may have to do some wiggling to clear the crest at the top. Once at the top, simply walk across the plateau and down the other side of the hill.\nAfter clearing out the mobs around her, kill Serena and loot her head.|
 R Mor'shan Base Camp|QID|3921|M|39.82,12.38;45.91,9.30|CC|N|Go back over the hill the way you came in. This will take a little 'fancy footwork' as there are a couple spots that you have to wiggle to get past. Once you have reached the plateau, follow the flat ridge east until you reach Mor'shan.|
 T Wenikee Boltbucket|QID|3921|M|49.05,11.16|N|Climb down the hill and cross the road to find Wenikee Boltbucket.|
@@ -301,26 +301,27 @@ N Ashenvale FPs|ACTIVE|6541|N|A little side trip to grab the Flight paths in Ash
 R The Mor'shan Rampart|ACTIVE|6541|M|48.02,5.58|CC|N|Follow the road north to the Mor'shan Rampart.|
 T Report to Kadrak|QID|6541|M|48.12,5.42|N|To Kadrak on the first floor of the guard tower on your right.|
 A The Warsong Reports|QID|6543|M|48.12,5.42|N|From Kadrak.|
-R Ashenvale|QID|6548|M|68.63,86.82|Z|Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|
-R Splintertree Post|QID|6548|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|CC|Z|Ashenvale|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.\n[color=FF0000]NOTE: [/color]Be VERY aware of the much higher level mobs if you choose to venture off the road.|
+R Ashenvale|AVAILABLE|6442|M|68.63,86.82|Z|Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|IZ|-Ashenvale|
+R Splintertree Post|AVAILABLE|6442|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|CC|Z|Ashenvale|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.\n[color=FF0000]NOTE: [/color]Be VERY aware of the much higher level mobs if you choose to venture off the road.|
 U Warsong Reports|ACTIVE|6543|L|16746|N|Open your Bundle of Reports.|U|16783|
 ; Quest is [The Warsong Reports], presuming this is to avoid automatic turn-in.
 C Warsong Scout Update|QID|6543|M|71.04,68.22|Z|Ashenvale|QO|1|N|Give one of the Reports to the Warsong Scout with a Blue question mark over her head. She sometimes spawns at the base of the tower.\n[color=FF0000]NOTE: [/color]Be careful not to give more than one, or you won't have enough to finish the quest.|CHAT|
-f Splintertree Post|QID|6548|M|73.18,61.59|Z|Ashenvale|N|Head into Splintertree Post and get the flight path.|TAXI|-Splinter Tree|
+f Splintertree Post|QID|6442|M|73.18,61.59|Z|Ashenvale|N|Head into Splintertree Post and get the flight path.|TAXI|-Splintertree Post|
 C Warsong Outrider Update|QID|6543|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,55.48;94,47|CC|Z|Ashenvale|QO|3|N|Locate the Warsong Outrider and get the Warsong Outrider Update. S/he patrols on a wolf mount along the road northeast of Splintertree.|CHAT|
-R Zoram'gar Outpost|QID|6548|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.20,47.28;26.43,42.33;16.51,30.27;12.73,33.29|CC|Z|Ashenvale|N|Follow the road all the way west to Zoram'gar Outpost.  Watch out for the higher level mobs along the way.\nWhen you get to Astranaar, you can either follow the shoreline to the south, or swim. Swimming means less fighting.\n[color=FF0000]NOTE: [/color]Keep your distance from Astranaar or you will more than likely die.|
+R Zoram'gar Outpost|AVAILABLE|6442|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.20,47.28;26.43,42.33;16.51,30.27;12.73,33.29|CC|Z|Ashenvale|N|Follow the road all the way west to Zoram'gar Outpost.  Watch out for the higher level mobs along the way.\nWhen you get to Astranaar, you can either follow the shoreline to the south, or swim. Swimming means less fighting.\n[color=FF0000]NOTE: [/color]Keep your distance from Astranaar or you will more than likely die.|
 C Warsong Runner Update|QID|6543|M|12.22,34.21|Z|Ashenvale|QO|2|N|Hand out the last report to the Warsong Runner.|CHAT|
 f Zoram'gar Outpost|QID|6548|M|12.24,33.80|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
-N Vorsha the Lasher|AVAILABLE|6641|ACTIVE|-6641|N|If you are level 20, you can do the Vorsha the Lasher quest for a Stamina/Spirit Ring reward and 2300 xp.\n[color=FF0000]NOTE: [/color]I highly recommend doing this quest at the same time as you're doing 'Naga at the Zoram Strand' to make use of the assistance from Muglash.\n\nIf you're not level 20, come back as soon as you are.|
+N Vorsha the Lasher|AVAILABLE|6641|N|[color=FF0000]NOTE: [/color]I highly recommend doing this quest at the same time as you're doing 'Naga at the Zoram Strand' to make use of the assistance from Muglash.\nCheck this step off to continue.|LVL|20|
+N Vorsha the Lasher|AVAILABLE|6641|N|When you are level 20, you can do the Vorsha the Lasher quest for a Stamina/Spirit Ring reward and 2300 xp.\nCheck this step off to continue.|LVL|-20|
 A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash. If he's not there, just wait because someone is either already doing the quest, or he has died and awaiting respawn.|LVL|20|
 A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]Go back to Muglash to restart the quest.\nIf he's not there, just wait because someone is either already doing the quest, or he has died and awaiting respawn.|LVL|20|FAIL|
 A Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|From Marukai.|
+N Lockpicking|ACTIVE|6442|M|12.68,29.51|Z|Ashenvale|N|There are Waterlogged Footlockers scattered all over the area that you can open to increase your Lockpicking skill and receive a few copper for your efforts.\nCheck this step off to continue.|P|Lockpicking;633;0+1|C|Rogue|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|M|13.31,26.74|Z|Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nI recommend using Muglash to kill as many Nagas as you can along the escort path. Avoid the Priestesses; they fully heal from almost dead.|S|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|-6641|M|13.31,26.74|Z|Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nAvoid the Priestesses; they fully heal from almost dead.|
-L Level 20|QID|6641|N|Continue killing Nagas until you reach level 20.\nYou'll want to be level 20 when you return to the Barrens shortly. There is a level 20 escort quest in the area as well.|LVL|20;-1450|
-
+L Level 20|AVAILABLE|6641|N|Continue killing Nagas until you reach level 20. Even if you don't want to do the 'Vorsha the Lasher' escort quest, you'll want to be level 20 before you leave to return to the Barrens after this.|LVL|20;-1450|
 C Vorsha the Lasher|QID|6641|M|9.63,27.66|Z|Ashenvale|QO|1|N|Accompany Muglash to the brazier. Right-click the brazier to extinguish the flame. Protect Muglash as you fight against 2 waves of 3 Nagas and then Vorsha in the final wave.\nMake sure you kill the Priestesses first, as they will heal everyone fully.[color=FF0000]NOTE: [/color]This quest is a bit glitched. All you have to do is escort Muglash to the Brazier, extinguish the flame and then die. Do NOT release your body until Muglash dies. Once Muglash dies, release and recover your body. Run back to Muglash in Zoram'gar Outpost to restart the quest. When you reach the base of the first hill, Muglash will stop and thank you for helping. At this point, the quest will be completed.|
-C Naga at the Zoram Strand|QID|6442|L|5490 20|N|Finish collecting Wrathtail Heads.|US|
+C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|L|5490 20|N|Finish collecting Wrathtail Heads.|US|
 T Vorsha the Lasher|QID|6641|M|12.22,34.21|Z|Ashenvale|N|To Warsong Runner.|
 T Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|To Marukai.|
 
