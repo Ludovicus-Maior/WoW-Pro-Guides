@@ -311,32 +311,31 @@ C Warsong Outrider Update|QID|6543|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,5
 R Zoram'gar Outpost|AVAILABLE|6442|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.20,47.28;26.43,42.33;16.51,30.27;12.73,33.29|CC|Z|Ashenvale|N|Follow the road all the way west to Zoram'gar Outpost.  Watch out for the higher level mobs along the way.\nWhen you get to Astranaar, you can either follow the shoreline to the south, or swim. Swimming means less fighting.\n[color=FF0000]NOTE: [/color]Keep your distance from Astranaar or you will more than likely die.|
 C Warsong Runner Update|QID|6543|M|12.22,34.21|Z|Ashenvale|QO|2|N|Hand out the last report to the Warsong Runner.|CHAT|
 f Zoram'gar Outpost|QID|6548|M|12.24,33.80|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
-N Vorsha the Lasher|AVAILABLE|6641|N|[color=FF0000]NOTE: [/color]I highly recommend doing this quest at the same time as you're doing 'Naga at the Zoram Strand' to make use of the assistance from Muglash.\nCheck this step off to continue.|LVL|20|
+N Vorsha the Lasher|AVAILABLE|6641&6442|N|[color=FF0000]NOTE: [/color]I highly recommend doing this quest at the same time as you're doing 'Naga at the Zoram Strand' to make use of the assistance from Muglash.\nCheck this step off to continue.|LVL|20|
 N Vorsha the Lasher|AVAILABLE|6641|N|When you are level 20, you can do the Vorsha the Lasher quest for a Stamina/Spirit Ring reward and 2300 xp.\nCheck this step off to continue.|LVL|-20|
-A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash. If he's not there, just wait because someone is either already doing the quest, or he has died and awaiting respawn.|LVL|20|
-A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]Go back to Muglash to restart the quest.\nIf he's not there, just wait because someone is either already doing the quest, or he has died and awaiting respawn.|LVL|20|FAIL|
+A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash.\nIf he's not there, just wait because someone is either already doing the quest, or he has died and awaiting respawn.|LVL|20|
+A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED[/color]\nGo back to Muglash to restart the quest.\nIf he's not there, just wait because someone is either already doing the quest, or he hasn't respawned yet.|LVL|20|FAIL|
 A Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|From Marukai.|
-N Lockpicking|ACTIVE|6442|M|12.68,29.51|Z|Ashenvale|N|There are Waterlogged Footlockers scattered all over the area that you can open to increase your Lockpicking skill and receive a few copper for your efforts.\nCheck this step off to continue.|P|Lockpicking;633;0+1|C|Rogue|
+N Lockpicking|ACTIVE|6442|M|12.68,29.51|Z|Ashenvale|N|There are Waterlogged Footlockers scattered all over the area that you can open to increase your Lockpicking skill and receive a few copper for your efforts.\n[color=FF0000]NOTE: [/color]You need level 85 (minimum) to complete your level 20 class quest.\nCheck this step off to continue.|P|Lockpicking;633;0+85;1|C|Rogue|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|M|13.31,26.74|Z|Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nI recommend using Muglash to kill as many Nagas as you can along the escort path. Avoid the Priestesses; they fully heal from almost dead.|S|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|-6641|M|13.31,26.74|Z|Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nAvoid the Priestesses; they fully heal from almost dead.|
-L Level 20|AVAILABLE|6641|N|Continue killing Nagas until you reach level 20. Even if you don't want to do the 'Vorsha the Lasher' escort quest, you'll want to be level 20 before you leave to return to the Barrens after this.|LVL|20;-1450|
-C Vorsha the Lasher|QID|6641|M|9.63,27.66|Z|Ashenvale|QO|1|N|Accompany Muglash to the brazier. Right-click the brazier to extinguish the flame. Protect Muglash as you fight against 2 waves of 3 Nagas and then Vorsha in the final wave.\nMake sure you kill the Priestesses first, as they will heal everyone fully.[color=FF0000]NOTE: [/color]This quest is a bit glitched. All you have to do is escort Muglash to the Brazier, extinguish the flame and then die. Do NOT release your body until Muglash dies. Once Muglash dies, release and recover your body. Run back to Muglash in Zoram'gar Outpost to restart the quest. When you reach the base of the first hill, Muglash will stop and thank you for helping. At this point, the quest will be completed.|
+L Level 20|AVAILABLE|6641|N|Continue killing Nagas until you reach level 20. Even if you don't want to do the 'Vorsha the Lasher' escort quest, you'll want to be level 20 before you leave to return to the Barrens after this.|LVL|19;-1450|
+C Vorsha the Lasher|QID|6641|M|9.63,27.61|Z|Ashenvale|QO|1|N|Accompany Muglash to the brazier and right-click it to extinguish the flame. Protect Muglash as you fight against 2 waves of 3 Nagas and then Vorsha in the final wave.\n[color=FF0000]NOTE: [/color]Make sure you kill the Priestesses first, as they will heal everyone fully.|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|L|5490 20|N|Finish collecting Wrathtail Heads.|US|
 T Vorsha the Lasher|QID|6641|M|12.22,34.21|Z|Ashenvale|N|To Warsong Runner.|
 T Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|To Marukai.|
+N Lockpicking|AVAILABLE|2478|M|12.68,29.51|Z|Ashenvale|N|You need level 85 minimum to complete your level 20 class quest.[color=FF0000]NOTE: [/color]This step will auto-complete when you reach 85. If you wish, you can keep going to 150.|P|Lockpicking;633;0+85;1|C|Rogue|
 
 ; --- Hunters and Mages
 N No class quest|QID|876|N|Hunters and Mages do not have a level 20 quest.|C|Hunter,Mage|
 F Orgrimmar|QID|876|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Hunter,Mage|
 F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|When you are finished with your training, fly to The Crossroads.|R|Tauren|C|Druid|
 ; ---
-
 ; --- Warriors level 20 class quest
 N Brutal Armor|QID|876|N|It is recommended to wait until lv 28-30 to start this quest chain. This quest chain is quite extensive and requires a lot of traveling to complete.|C|Warrior|
 F Orgrimmar|QID|876|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Warrior|
 F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|When you are finished with your trining, fly to The Crossroads.|C|Warrior|
 ; ---
-
 ; --- Druid Aquatic class quest completion
 P Moonglade|ACTIVE|30|N|Use your Teleport: Moonglade.|R|Tauren|C|Druid|
 R Shrine of Remulos|ACTIVE|30|M|36.26,41.02|Z|Moonglade|N|Run to Shrine of Remulos.|R|Tauren|C|Druid|
@@ -350,7 +349,6 @@ T Aquatic Form|QID|31|M|76.48,27.25|Z|Thunder Bluff|N|To Turak Runetotem on The 
 N Cat Form|QID|3923|N|Druids do not have a level 20 class quest. Instead, you get Cat Form from your trainer. Make sure you get it before you leave.|R|Tauren|C|Druid|
 F Crossroads|QID|876|M|47.02,49.83|Z|Thunder Bluff|N|Fly to The Crossroads.|R|Tauren|C|Druid|
 ; ---
-
 ; --- Priest level 20 racial class quests
 ; --- 2 different quest chains depending on Race.
 ; --- Undead
@@ -372,32 +370,32 @@ F Orgrimmar|ACTIVE|5642^5643|M|47.02,49.83|Z|Thunder Bluff|N|Fly to Orgrimmar.|R
 T Shadowguard|QID|5642^5643|M|35.6,87.6|Z|Orgrimmar|N|To Ur'kyo in the Valley of Spirits.|R|Troll|C|Priest|
 A Shadowguard|QID|5680|M|35.6,87.6|Z|Orgrimmar|N|To Ur'kyo in the Valley of Spirits.|R|Troll|C|Priest|
 T Shadowguard|QID|5680|M|35.6,87.6|Z|Orgrimmar|N|To Ur'kyo in the Valley of Spirits.|R|Troll|C|Priest|
-
 F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|Fly to The Crossroads.|R|Troll,Undead|C|Priest|
 ; ---
-
-; --- Rogue Thistle Tea level 20 class quest
+; --- Rogue Thistle Tea Recipe (level 20 class quest)
 F Orgrimmar|AVAILABLE|2460|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar.|R|Orc,Troll,Undead|C|Rogue|
 A The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul in Cleft of Shadows.|R|Orc,Troll,Undead|C|Rogue|
-C The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|T|Shenthul|QO|1|N|Target Shenthul and use the emote '/salute' to complete the quest.|R|Orc,Troll,Undead|C|Rogue|NC|
+C The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|QO|1|N|Target Shenthul and use the emote '/salute' to complete the quest.|T|Shenthul|R|Orc,Troll,Undead|C|Rogue|NC|
 T The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|N|To Shenthul.|R|Orc,Troll,Undead|C|Rogue|
 A Deep Cover|QID|2458|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul.|PRE|2460|R|Orc,Troll,Undead|C|Rogue|
-N Lockpicking|QID|2478|N|You will require a Lockpicking skill of at least 85 to do this quest.|P|Lockpicking;633;0+101;1|
-F Ratchet|QID|2458|M|45.50,63.84|Z|Orgrimmar|N|Fly to Ratchet|P|Lockpicking;633;0+100;1|R|Orc,Troll,Undead|C|Rogue|
-R Merchant Coast|QID|2458|M|64.20,45.49;64.85,45.37|CS|N|Walk up the nose of the ship to get on it.|R|Orc,Troll,Undead|C|Rogue|
-N Lockpicking|QID|2458|M|65.00,45.41|N|Walk down to the 2nd level and increase your skill by opening these chests. You can get up to 100 with them.|P|Lockpicking;633;0+100;1|R|Orc,Troll,Undead|C|Rogue|
-F Orgrimmar|QID|2458|M|63.09,37.16|N|Run back to Ratchet and fly to Orgrimmar.|R|Orc,Troll,Undead|C|Rogue|
-R Southfury River|ACTIVE|2458|N|Leave Orgrimmar through the west gate.|M|11.45,67.06|Z|Orgrimmar|R|Orc,Troll,Undead|C|Rogue|
+; Not necessary if they level before leaving Ashenvale.
+;N Lockpicking|QID|2478|N|You will require a Lockpicking skill of at least 85 to do this quest.|P|;Lockpicking;633;0+101;1|
+;F Ratchet|QID|2458|M|45.50,63.84|Z|Orgrimmar|N|Fly to Ratchet|P|Lockpicking;633;0+100;1|R|Orc,Troll,Undead|C|Rogue|
+;R Merchant Coast|QID|2458|M|64.20,45.49;64.85,45.37|CS|N|Walk up the nose of the ship to get on it.|R|Orc,Troll,Undead|C|Rogue|
+;N Lockpicking|QID|2458|M|65.00,45.41|N|Walk down to the 2nd level and increase your skill by opening these chests. You can get up to 100 with them.|P|Lockpicking;633;0+100;1|R|Orc,Troll,Undead|C|Rogue|
+;F Orgrimmar|QID|2458|M|63.09,37.16|N|Run back to Ratchet and fly to Orgrimmar.|R|Orc,Troll,Undead|C|Rogue|
+N Dagger|ACTIVE|2458|N|Make sure you have an equipable dagger before you leave Orgrimmar. You'll need it for completing part of your class quest.\nCheck off this step to continue.|IZ|Orgrimmar|
+R Southfury River|ACTIVE|2458|M|11.45,67.06|Z|Orgrimmar|N|Leave Orgrimmar through the west gate.|R|Orc,Troll,Undead|C|Rogue|
 R Venture Co. Tower|ACTIVE|2458|M|62.29,7.77;56.59,6.42|CC|N|Make your way around the edge of the mountain to the tower.|R|Orc,Troll,Undead|C|Rogue|
-N Taskmaster Fizzule|QID|2458|M|56.00,6.10|N|Target Taskmaster Fizzule and use the Flare gun. When he becomes non-aggressive, emote '/salute', or you will not be able to interact with him.\nRight-click this step when done.|T|Taskmaster Fizzule|U|8051|R|Orc,Troll,Undead|C|Rogue|
-T Deep Cover|QID|2458|M|55.44,5.59|N|To Taskmaster Fizzule. He paths around a bit.|R|Orc,Troll,Undead|C|Rogue|
+N Taskmaster Fizzule|QID|2458|M|56.00,6.10|N|Target Taskmaster Fizzule and use the Flare gun to make him non-aggressive, or you will not be able to interact with him.\n[color=FF0000]NOTE: [/color]Check this step off when this is done.|T|Taskmaster Fizzule|U|8051|R|Orc,Troll,Undead|C|Rogue|
+T Deep Cover|QID|2458|M|55.44,5.59|N|To Taskmaster Fizzule. He paths around a bit.\n[color=FF0000]NOTE: [/color]You must target him and use '/salute' before he'll interact with you.|T|Taskmaster Fizzule|R|Orc,Troll,Undead|C|Rogue|
 A Mission: Possible But Not Probable|QID|2478|M|55.44,5.59|N|From Taskmaster Fizzule.\n[color=FF0000]NOTE: [/color]Accept this quest quickly, as he will die and despawn. If he does, use Fizzule's Whistle so he'll talk to you. Be sure to move back because, when he respawns, he will be aggressive and attack you.|U|8066|PRE|2458|R|Orc,Troll,Undead|C|Rogue|
-C Steal Silixiz's Tower Key|QID|2478|M|54.80,5.97|QO|1|N|While avoiding the 2 guards protecting Silixiz, pickpocket the key from Silixiz.\n[color=FF0000]NOTE: [/color]If he doesn't have the key, you will have to kill him and try again when he respawns.|R|Orc,Troll,Undead|C|Rogue|NC|
-C Mutated Venture Co. Drones|QID|2478|M|54.80,5.97|QO|2|N|While avoiding the 2 guards patroling outside, enter the tower through the backdoor.|R|Orc,Troll,Undead|C|Rogue|
+N NOT EASY!!!|ACTIVE|2478|N|This quest is not going to be easy. Some have suggested coming back once you've reached level 22. At that point, you'll have Distract and Vanish to help reduce the number of 'Run away!' moments.\n[color=FF0000]NOTE: [/color]Using raid icons to keep track of where the 2 Venture Co. Drones are outside is probably a good idea.|R|Orc,Troll,Undead|C|Rogue|
+C Steal Silixiz's Tower Key|QID|2478|M|54.80,5.97|L|8072|N|While avoiding the 2 Venture Co. Drones pathing outside the tower, pickpocket the key from Silixiz.\n[color=FF0000]NOTE: [/color]If he doesn't have the key, you will have to kill him and try again when he respawns.|R|Orc,Troll,Undead|C|Rogue|
+C Mutated Venture Co. Drones|QID|2478|M|54.80,5.97|QO|1|N|Continue avoiding the 2 Venture Co. Drones patroling outside and enter the tower through the backdoor.\nThis step requires that you use 'Ambush' on the mobs on the first floor. Do this by waiting until they are facing away, ambush the one and run away (probably popping Evasion and maybe healing potions to get away. Return to rinse and repeat for the second one.\n[color=FF0000]NOTE: [/color]This may take several attempts to get it right. Persistance and patience is key here.|R|Orc,Troll,Undead|C|Rogue|
 N Incomplete|QID|2478|N|This portion is a WIP.|R|Orc,Troll,Undead|C|Rogue|
 R Crossroads|QID|876|M|52.36,28.31|N|Run to The Crossroads.\nThis is faster than running to Orgrimmar and flying from there.|R|Orc,Troll,Undead|C|Rogue|
 ; ---
-
 ; --- Shaman Water Totem class quest
 N Shaman level 20 Class quest|AVAILABLE|1528^1529|N|You can either fly to Orgrimmar or Thunder Bluff to get started. Orgrimmar is the shorter flight and probably the most convenient.\nThis guide will be going to Orgrimmar.|R|Orcs,Tauren,Trolls|C|Shaman|
 F Orgrimmar|AVAILABLE|1528|ACTIVE|-1529|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar.|R|Orcs,Tauren,Trolls|C|Shaman|
