@@ -378,7 +378,7 @@ A The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul in Cle
 C The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|QO|1|N|Target Shenthul and use the emote '/salute' to complete the quest.|T|Shenthul|R|Orc,Troll,Undead|C|Rogue|NC|
 T The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|N|To Shenthul.|R|Orc,Troll,Undead|C|Rogue|
 A Deep Cover|QID|2458|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul.|PRE|2460|R|Orc,Troll,Undead|C|Rogue|
-N Dagger|ACTIVE|2458|N|Make sure you have an equipable dagger before you leave Orgrimmar. You'll need it for completing part of your class quest.\nCheck this step off to continue.|IZ|Orgrimmar|
+N Dagger|ACTIVE|2458|N|Make sure you have an equipable dagger before you leave Orgrimmar. You'll need it for completing part of your class quest.\nCheck this step off to continue.|R|Orc,Troll,Undead|C|Rogue|IZ|Orgrimmar|
 N NOT EASY!!!|ACTIVE|2458|N|Your Poison class quest is not going to be easy. Some have suggested waiting until you've reached level 22. At that point, you'll have Distract and Vanish to help reduce the number of 'Run away!' moments.\nYou may also want to consider temporarily respeccing into subtlety (if not already) to improve your chances of not being seen while stealthed. At the cost of 6g, it may well be worth it.|R|Orc,Troll,Undead|C|Rogue|
 R Southfury River|ACTIVE|2458|M|11.45,67.06|Z|Orgrimmar|N|Leave Orgrimmar through the west gate.|R|Orc,Troll,Undead|C|Rogue|
 R Venture Co. Tower|ACTIVE|2458|M|62.29,7.77;56.59,6.42|CC|N|Make your way around the edge of the mountain to the tower.|R|Orc,Troll,Undead|C|Rogue|
@@ -388,11 +388,23 @@ A Mission: Possible But Not Probable|QID|2478|M|55.44,5.59|N|From Taskmaster Fiz
 N Venture Co. Drones|ACTIVE|2478|N|[color=FF0000]NOTE: [/color]Using raid icons to keep track of where the 2 Venture Co. Drones are outside is probably a good idea.\nCheck this step off to continue.|R|Orc,Troll,Undead|C|Rogue|
 C Steal Silixiz's Tower Key|QID|2478|M|54.80,5.97|L|8072|N|While avoiding the 2 Venture Co. Drones pathing outside the tower, pickpocket the key from Silixiz.\n[color=FF0000]NOTE: [/color]If he doesn't have the key, you will have to kill him and try again when he respawns.|R|Orc,Troll,Undead|C|Rogue|
 K Mutated Venture Co. Drones|ACTIVE|2478|M|54.80,5.97|QO|1|N|Continue avoiding the 2 Venture Co. Drones patroling outside by walking clockwise around the tower and using the north entrance.\n[color=FF0000]NOTE: [/color]Each group of mobs has a specific weakness that makes them easier to kill, if not instantly. The Mutated drones are susceptible to 'Ambush'.\nDo this by waiting until they are facing away, ambush the one and run away once it's dead. Return to rinse and repeat for the second one.\nThis may take several attempts to get it right. Persistance and patience is key here.|R|Orc,Troll,Undead|C|Rogue|
-K Venture Co. Patrollers|ACTIVE|2748|M|54.80,5.97|QO|3|N|Head up to the second floor and deal with the Patrolers.\n[color=FF0000]NOTE: [/color]Their weakness is 'Rupture'.
-K Venture Co. Lookouts|ACTIVE|2748|M|54.80,5.97|QO|2|N|They are on the outside of the 3rd floor.\n[color=FF0000]NOTE: [/color]Their weakness is 'Eviscerate'.
-C Grand Foreman Gallywix|QID|2478|M|54.80,5.97|L|8074|N|Head up to the top floor and kill him.\n[color=FF0000]NOTE: [/color]His weakness is 'Ambush'.|
-C Gallywix's Lockbox|QID|2478|M|54.80,5.97|L|8073|N|Lockpick the chest to open it and loot the Cache of Zanzil's Altered Mixture.\n[color=FF0000]NOTE: [/color]When you open the chest, you'll become infected with Touch of Zanzil. This is unavoidable; as it's part of the quest chain.|
-R The Crossroads|QID|876|M|52.36,28.31|N|This is faster than running to Orgrimmar and flying from there.\n[color=FF0000]NOTE: [/color]Using the stairs to get down may not be the best option. Dropping from the top might be a little more survivable.|R|Orc,Troll,Undead|C|Rogue|
+K Venture Co. Patrollers|ACTIVE|2748|M|54.80,5.97|QO|3|N|Head up to the second floor and deal with the Patrolers.\n[color=FF0000]NOTE: [/color]Their weakness is 'Rupture'.|R|Orc,Troll,Undead|C|Rogue|
+K Venture Co. Lookouts|ACTIVE|2748|M|54.80,5.97|QO|2|N|They are on the outside of the 3rd floor.\n[color=FF0000]NOTE: [/color]Their weakness is 'Eviscerate'.|R|Orc,Troll,Undead|C|Rogue|
+C Grand Foreman Gallywix|QID|2478|M|54.80,5.97|L|8074|N|Head up to the top floor and kill him.\n[color=FF0000]NOTE: [/color]His weakness is 'Ambush'.|R|Orc,Troll,Undead|C|Rogue|
+C Gallywix's Lockbox|QID|2478|M|54.80,5.97|L|8073|N|Lockpick the chest to open it and loot the Cache of Zanzil's Altered Mixture.\n[color=FF0000]NOTE: [/color]When you open the chest, you'll become infected with Touch of Zanzil. This is unavoidable; as it's part of the quest chain.|R|Orc,Troll,Undead|C|Rogue|
+R Orgrimmar|ACTIVE|2478|M|11.54,66.87|Z|Orgrimmar|N|Follow the path back to the Orgrimmar west entrance.|R|Orc,Troll,Undead|C|Rogue|
+T Mission: Possible But Not Probable|2478|M|43.04,53.74|Z|Orgrimmar|N|To Shenthul in Cleft of Shadows.|R|Orc,Troll,Undead|C|Rogue|
+A Hinott's Assistance|QID|2479|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul.|PRE|2478|R|Orc,Troll,Undead|C|Rogue|
+b Tirisfal Glades|ACTIVE|2479|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Orc,Troll,Undead|C|Rogue|
+R Undercity|ACTIVE|2479|M|61.86,65.04|Z|Tirisfal Glades|R|Orc,Troll,Undead|C|Rogue|
+F The Sepulcher|ACTIVE|2479|M|62.89,48.16|Z|Undercity|R|Orc,Troll,Undead|C|Rogue|
+R Tarren Mill|ACTIVE|2479|M|57.65,36.61;55.86,19.60|CC|Z|Hillsbrad Foothills|N|Follow the road to Tarren Mill.|R|Orc,Troll,Undead|C|Rogue|
+f Tarren Mill|ACTIVE|2479|M|60.09,18.67|Z|Hillsbrad Foothills|N|At Zarise.|R|Orc,Troll,Undead|C|Rogue|TAXI|-Tarren Mill|
+T Hinott's Assistance|QID|2479|M|61.6,19.2|Z|Hillsbrad Foothills|N|To Serge Hinott.|R|Orc,Troll,Undead|C|Rogue|
+A Hinott's Assistance|QID|2480|M|61.6,19.2|Z|Hillsbrad Foothills|N|From Serge Hinott.|PRE|2479|R|Orc,Troll,Undead|C|Rogue|
+T Hinott's Assistance|QID|2480|M|61.6,19.2|Z|Hillsbrad Foothills|N|Once Serge Hinott completes the cure, turn the quest in.|R|Orc,Troll,Undead|C|Rogue|
+H Camp Taurajo|ACTIVE|876|R|Orc,Troll,Undead|C|Rogue|
+
 ; ---
 ; --- Shaman Water Totem class quest
 N Shaman level 20 Class quest|AVAILABLE|1528^1529|N|You can either fly to Orgrimmar, or Thunder Bluff to get started. Orgrimmar is the shorter flight and probably the most convenient.\nThis guide will be going to Orgrimmar.|R|Orcs,Tauren,Trolls|C|Shaman|
@@ -568,6 +580,7 @@ t Lakota'mani|QID|883|M|44.86,59.09|N|To Jorn Skyseer.|
 t Owatanka|QID|884|M|44.86,59.09|N|To Jorn Skyseer.|
 A Cry of the Thunderhawk|QID|913|M|44.86,59.09|N|From Jorn Skyseer.|PRE|907|
 C Cry of the Thunderhawk|QID|913|L|5164|N|Kill a Thunderhawk and loot its wings. You will find them all around the outside edge of Camp Taurajo.|
+L Level 22|ACTIVE|2458^2478|N|You'll want to be within a bubble of level 22 before you return to Camp Taurajo.|LVL|21;-1950|R|Orc,Troll,Undead|C|Rogue|
 T Cry of the Thunderhawk |QID|913|M|44.86,59.09|N|To Jorn Skyseer back to Camp Taurajo.|
 A Mahren Skyseer|QID|874|M|44.86,59.09|N|From Jorn Skyseer.|PRE|913|
 A The Ashenvale Hunt|QID|6382^235^742|M|44.86,59.09|N|From Jorn Skyseer.|
@@ -580,6 +593,37 @@ A Steelsnap|QID|1131|M|61.49,80.83|Z|Thunder Bluff|N|From Melor Stonehoof.|PRE|1
 F Orgrimmar|QID|3924|M|47.02,49.83|Z|Thunder Bluff|
 R Valley of Honor|QID|3924|M|65.54,40.00|Z|Orgrimmar|N|Make your way to the Valley of Honor.|
 T Samophlange Manual|QID|3924|M|76.4,24.4|Z|Orgrimmar|N|To Rilli Greasygob inside Nogg's Machine Shop.|
+
+; --- Rogue Thistle Tea Recipe (Poison) Class Quest (If skipped earlier)
+; --- This has not been fully tested as of yet.
+N Class Quest|ACTIVE|2458^2478|N|Now that you are level 22, grab your new skills and go do your class quest.|LVL|22|R|Orc,Troll,Undead|C|Rogue|
+N Dagger|ACTIVE|2458^2478|N|Make sure you have an equipable dagger before you leave Orgrimmar. You'll need it for completing part of your class quest.\nCheck this step off to continue.|IZ|Orgrimmar|
+N NOT EASY!!!|ACTIVE|2458^2478|N|Your Poison class quest is not going to be easy. Some have suggested waiting until you've reached level 22. At that point, you'll have Distract and Vanish to help reduce the number of 'Run away!' moments.\nYou may also want to consider temporarily respeccing into subtlety (if not already) to improve your chances of not being seen while stealthed. At the cost of 6g, it may well be worth it.|R|Orc,Troll,Undead|C|Rogue|
+R Southfury River|ACTIVE|2458^2478|M|11.45,67.06|Z|Orgrimmar|N|Leave Orgrimmar through the west gate.|R|Orc,Troll,Undead|C|Rogue|
+R Venture Co. Tower|ACTIVE|2458^2478|M|62.29,7.77;56.59,6.42|CC|N|Make your way around the edge of the mountain to the tower.|R|Orc,Troll,Undead|C|Rogue|
+N Taskmaster Fizzule|QID|2458^2478|M|56.00,6.10|N|Target Taskmaster Fizzule and use the Flare gun to make him non-aggressive, or you will not be able to interact with him.\n[color=FF0000]NOTE: [/color]Check this step off when this is done.|T|Taskmaster Fizzule|U|8051|R|Orc,Troll,Undead|C|Rogue|
+T Deep Cover|QID|2458|M|55.44,5.59|N|To Taskmaster Fizzule. He paths around a bit.\n[color=FF0000]NOTE: [/color]You must target him and use '/salute' before he'll interact with you.|T|Taskmaster Fizzule|R|Orc,Troll,Undead|C|Rogue|
+A Mission: Possible But Not Probable|QID|2478|M|55.44,5.59|N|From Taskmaster Fizzule.\n[color=FF0000]NOTE: [/color]Accept this quest quickly, as he will die and despawn. Be sure to move back because, when he respawns, he will be aggressive and attack you. Use Fizzule's Whistle to make him friendly again.|U|8066|PRE|2458|R|Orc,Troll,Undead|C|Rogue|
+N Venture Co. Drones|ACTIVE|2478|N|[color=FF0000]NOTE: [/color]Using raid icons to keep track of where the 2 Venture Co. Drones are outside is probably a good idea.\nCheck this step off to continue.|R|Orc,Troll,Undead|C|Rogue|
+C Steal Silixiz's Tower Key|QID|2478|M|54.80,5.97|L|8072|N|While avoiding the 2 Venture Co. Drones pathing outside the tower, pickpocket the key from Silixiz.\n[color=FF0000]NOTE: [/color]If he doesn't have the key, you will have to kill him and try again when he respawns.|R|Orc,Troll,Undead|C|Rogue|
+K Mutated Venture Co. Drones|ACTIVE|2478|M|54.80,5.97|QO|1|N|Continue avoiding the 2 Venture Co. Drones patroling outside by walking clockwise around the tower and using the north entrance.\n[color=FF0000]NOTE: [/color]Each group of mobs has a specific weakness that makes them easier to kill, if not instantly. The Mutated drones are susceptible to 'Ambush'.\nDo this by waiting until they are facing away, ambush the one and run away once it's dead. Return to rinse and repeat for the second one.\nThis may take several attempts to get it right. Persistance and patience is key here.|R|Orc,Troll,Undead|C|Rogue|
+K Venture Co. Patrollers|ACTIVE|2478|M|54.80,5.97|QO|3|N|Head up to the second floor and deal with the Patrolers.\n[color=FF0000]NOTE: [/color]Their weakness is 'Rupture'.
+K Venture Co. Lookouts|ACTIVE|2478|M|54.80,5.97|QO|2|N|They are on the outside of the 3rd floor.\n[color=FF0000]NOTE: [/color]Their weakness is 'Eviscerate'.
+C Grand Foreman Gallywix|QID|2478|M|54.80,5.97|L|8074|N|Head up to the top floor and kill him.\n[color=FF0000]NOTE: [/color]His weakness is 'Ambush'.|
+C Gallywix's Lockbox|QID|2478|M|54.80,5.97|L|8073|N|Lockpick the chest to open it and loot the Cache of Zanzil's Altered Mixture.\n[color=FF0000]NOTE: [/color]When you open the chest, you'll become infected with Touch of Zanzil. This is unavoidable; as it's part of the quest chain.|
+R Orgrimmar|ACTIVE|2478|M|11.54,66.87|Z|Orgrimmar|N|Follow the path back to the Orgrimmar west entrance.|R|Orc,Troll,Undead|C|Rogue|
+T Mission: Possible But Not Probable|2478|M|43.04,53.74|Z|Orgrimmar|N|To Shenthul in Cleft of Shadows.|R|Orc,Troll,Undead|C|Rogue|
+A Hinott's Assistance|QID|2479|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul.|PRE|2478|R|Orc,Troll,Undead|C|Rogue|
+b Tirisfal Glades|ACTIVE|2479|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Orc,Troll,Undead|C|Rogue|
+R Undercity|ACTIVE|2479|M|61.86,65.04|Z|Tirisfal Glades|R|Orc,Troll,Undead|C|Rogue|
+F The Sepulcher|ACTIVE|2479|M|62.89,48.16|Z|Undercity|R|Orc,Troll,Undead|C|Rogue|
+R Tarren Mill|ACTIVE|2479|M|57.65,36.61;55.86,19.60|CC|Z|Hillsbrad Foothills|N|Follow the road to Tarren Mill.|R|Orc,Troll,Undead|C|Rogue|
+f Tarren Mill|ACTIVE|2479|M|60.09,18.67|Z|Hillsbrad Foothills|N|At Zarise.|R|Orc,Troll,Undead|C|Rogue|TAXI|-Tarren Mill|
+T Hinott's Assistance|QID|2479|M|61.6,19.2|Z|Hillsbrad Foothills|N|To Serge Hinott.|R|Orc,Troll,Undead|C|Rogue|
+A Hinott's Assistance|QID|2480|M|61.6,19.2|Z|Hillsbrad Foothills|N|From Serge Hinott.|PRE|2479|R|Orc,Troll,Undead|C|Rogue|
+T Hinott's Assistance|QID|2480|M|61.6,19.2|Z|Hillsbrad Foothills|N|Once Serge Hinott completes the cure, turn the quest in.|R|Orc,Troll,Undead|C|Rogue|
+H Camp Taurajo|AVAILABLE|-2480|ACTIVE|-2480|R|Orc,Troll,Undead|C|Rogue|
+; ---
 
 ; --- Ashenvale
 F Splintertree Post|ACTIVE|6382^235^742|M|45.50,63.84|Z|Orgrimmar|
