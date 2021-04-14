@@ -612,7 +612,7 @@ K Venture Co. Lookouts|ACTIVE|2478|M|54.80,5.97|QO|2|N|They are on the outside o
 C Grand Foreman Gallywix|QID|2478|M|54.80,5.97|L|8074|N|Head up to the top floor and kill him.\n[color=FF0000]NOTE: [/color]His weakness is 'Ambush'.|
 C Gallywix's Lockbox|QID|2478|M|54.80,5.97|L|8073|N|Lockpick the chest to open it and loot the Cache of Zanzil's Altered Mixture.\n[color=FF0000]NOTE: [/color]When you open the chest, you'll become infected with Touch of Zanzil. This is unavoidable; as it's part of the quest chain.|
 R Orgrimmar|ACTIVE|2478|M|11.54,66.87|Z|Orgrimmar|N|Follow the path back to the Orgrimmar west entrance.|R|Orc,Troll,Undead|C|Rogue|
-T Mission: Possible But Not Probable|2478|M|43.04,53.74|Z|Orgrimmar|N|To Shenthul in Cleft of Shadows.|R|Orc,Troll,Undead|C|Rogue|
+T Mission: Possible But Not Probable|QID|2478|M|43.04,53.74|Z|Orgrimmar|N|To Shenthul in Cleft of Shadows.|R|Orc,Troll,Undead|C|Rogue|
 A Hinott's Assistance|QID|2479|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul.|PRE|2478|R|Orc,Troll,Undead|C|Rogue|
 b Tirisfal Glades|ACTIVE|2479|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Orc,Troll,Undead|C|Rogue|
 R Undercity|ACTIVE|2479|M|61.86,65.04|Z|Tirisfal Glades|R|Orc,Troll,Undead|C|Rogue|
