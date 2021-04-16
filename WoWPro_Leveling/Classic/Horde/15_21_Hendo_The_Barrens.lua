@@ -487,7 +487,7 @@ A Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|From Xen'zilla i
 K Blood Feeders|ACTIVE|6461|M|58.18,76.03|Z|Stonetalon Mountains|QO|1;2|N|Kill Deepmoss Creepers and Venomspitters.|S|
 R Webwinder Path|ACTIVE|6461|M|59.34,75.96|Z|Stonetalon Mountains|N|Leave Malaka'jin and follow the road north.|
 A Arachnophobia|QID|6284|M|59.07,75.71|Z|Stonetalon Mountains|ELITE|N|From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]This quest is not recommended at your current level. Accept the quest on the off-chance that you find a group to do it.|
-R Sishir Canyon|ACTIVE|6461^1069^6284|M|58.18,76.03|Z|Stonetalon Mountains|N|Follow the path west up the hill.|
+R Sishir Canyon|ACTIVE|6461^1069^6284|M|58.18,76.03|Z|Stonetalon Mountains|N|Follow the path west up the hill.|IZ|Stonetalon Mountains|
 C Deepmoss Spider Eggs|QID|1069|M|53.48,74.52|Z|Stonetalon Mountains|L|5570 15|N|Pick up the spider eggs from around the area.\n[color=FF0000]NOTE: [/color]1-2 Deepmoss Hatchlings will spawn after opening the egg. On occassion, a Deepmoss Matriarch may also spawn after killing the Hatchlings|S|
 K Bessaleth|ACTIVE|6284|M|53.48,74.52|Z|Stonetalon Mountains|L|16192|N| Bessaleth is a lv 21 Elite mob with multiple spawn points. You'll find her in one of the alcoves along the edge.\n[color=FF0000]NOTE: [/color]It's strongly recommended to only attempt this if you're over level, or you have help to do it.\nSkip this step if you wish to move on.|T|Bessaleth|
 C Deepmoss Spider Eggs|QID|1069|M|53.48,74.52|Z|Stonetalon Mountains|L|5570 15|N|Pick up the spider eggs from around the area.|US|
@@ -511,12 +511,12 @@ R Enter Orgrimmar|ACTIVE|3923|M|45.52,12.07|CC|Z|Durotar|N|Enter Orgrimmar by th
 R Valley of Honor|QID|3923|M|65.54,40.00|Z|Orgrimmar|
 T Rilli Greasygob|QID|3923|M|76.51,24.43|Z|Orgrimmar|N|Look for Rilli Greasygob inside Nogg's Machine Shop.|
 A Samophlange Manual|QID|3924|M|76.51,24.43|Z|Orgrimmar|N|From Rilli Greasygob.|PRE|3923|
-R Southfury River|ACTIVE|3924|N|Leave Orgrimmar through the west gate.|M|11.45,67.06|Z|Orgrimmar|
-C Samophlange Manual Pages|ACTIVE|3924|L|11148 5|N|Make your way to Boulder Lode Mine. Kill Venture Co. Enforcers and Overseers to collect the pages.|S|
+R Southfury River|ACTIVE|3924|N|Leave Orgrimmar through the west gate.|M|11.45,67.06|Z|Orgrimmar|IZ|Orgrimmar|
+C Samophlange Manual Pages|ACTIVE|3924|L|11148 5|QO|1|N|Make your way to Boulder Lode Mine. Kill Venture Co. Enforcers and Overseers to collect the pages.|S|
 C Miner's Fortune|QID|896|L|5097|N|The Cat's Eye Emerald drops from one of the Venture Co. Enforcers or Overseers.|S|
-R Boulder Lode Mine|ACTIVE|3924|M|63.66,4.43;62.74,4.75|CC|N|Make your way along the river until the path widens. At this point, there is a short cut up the side of the hill into Boulder Lode Mine.|
-K Boss Copperplug|ACTIVE|3924|M|59.99,4.13|L|11147|N|At the back of the cave, you'll find Boss Copperplug. Kill him for the Manual Cover.|
-C Samophlange Manual Pages|QID|3924|L|11148 5|N|Keep killing Enforcers and Overseers until you have 5 pages.|US|
+R Boulder Lode Mine|ACTIVE|3924|M|63.66,4.43;62.74,4.75|CC|QO|1|N|Make your way along the river until the path widens. At this point, there is a short cut up the side of the hill into Boulder Lode Mine.|
+K Boss Copperplug|ACTIVE|3924|M|59.99,4.13|L|11147|QO|1|N|At the back of the cave, you'll find Boss Copperplug. Kill him for the Manual Cover.|
+C Samophlange Manual Pages|QID|3924|L|11148 5|QO|1|N|Keep killing Enforcers and Overseers until you have 5 pages.|US|
 C Samophlange Manual|QID|3924|L|11149|N|Combine the cover and the pages together to make the manual.|U|11148|NC|
 C Miner's Fortune|QID|896|L|5097|N|Continue killing the Venture Co. Enforcers or Overseers until the Cat's Eye Emerald drops.|US|
 R The Mor'shan Rampart|ACTIVE|6543|M|62.22,7.44;48.73,7.57|CC|N|Go around or go over. Either way, make your way to Mor'shan Rampart.|
