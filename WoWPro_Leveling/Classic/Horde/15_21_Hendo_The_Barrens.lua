@@ -519,7 +519,7 @@ K Boss Copperplug|ACTIVE|3924|M|59.99,4.13|L|11147|N|At the back of the cave, yo
 C Samophlange Manual Pages|QID|3924|L|11148 5|N|Keep killing Enforcers and Overseers until you have 5 pages.|US|
 C Samophlange Manual|QID|3924|L|11149|N|Combine the cover and the pages together to make the manual.|U|11148|NC|
 C Miner's Fortune|QID|896|L|5097|N|Continue killing the Venture Co. Enforcers or Overseers until the Cat's Eye Emerald drops.|US|
-R Mor'shan Rampart|ACTIVE|6543|M|62.22,7.44;48.73,7.57|CC|N|Go around or go over. Either way, make your way to Mor'shan Rampart.|
+R The Mor'shan Rampart|ACTIVE|6543|M|62.22,7.44;48.73,7.57|CC|N|Go around or go over. Either way, make your way to Mor'shan Rampart.|
 T The Warsong Reports|QID|6543|M|48.12,5.42|N|To Kadrak.|
 H Camp Taurajo|QID|3261|N|If your hearth isn't up, run back to the Crossroads and fly there.|
 T Jorn Skyseer|QID|3261|M|44.86,59.14|N|To Jorn Skyseer.|
