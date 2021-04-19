@@ -155,6 +155,7 @@ T Rescued from Torment|QID|63756|M|PLAYER|Z|Korthia|N|To Caretaker Kah-Than.|
 T The Last Place You Look|QID|63758|M|PLAYER|Z|Korthia|N|To Caretaker Kah-Than.|
 T Looting the Looters|QID|63757|M|PLAYER|Z|Korthia|N|To Caretaker Kah-Than.|
 A Redirect the Search|QID|63759|PRE|63756&63758&63757|M|PLAYER|Z|Korthia|N|From Caretaker Kah-Than.|
+T Redirect the Search|QID|63759|M|56.87,22.32|Z|Korthia|N|To Caretaker Kah-Than.|
 A Echoes of Fate|QID|63760|PRE|63759|M|56.87,22.32|Z|Korthia|N|From Caretaker Kah-Than.|
 A Revenge Delayed|QID|63761|PRE|63759|M|55.54,22.21|Z|Korthia|N|From Protector Rih-Mat.|
 C Revenge Delayed|QID|63761|M|53.65,20.94|Z|Korthia|N|Kill Devourers around the area.|S|
