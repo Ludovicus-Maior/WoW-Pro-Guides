@@ -1,8 +1,12 @@
-local guide = WoWPro:RegisterGuide('ElidionAlli_I', 'Leveling', 'Thousand Needles', 'Elidion', 'Alliance', 1)
+--[[
+WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+--]]
+
+local guide = WoWPro:RegisterGuide('ClassicAlliance3041', 'Leveling', 'Thousand Needles', 'Elidion', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Alliance Leveling 30-41')
 WoWPro:GuideLevels(guide,30, 40)
-WoWPro:GuideNextGuide(guide, 'ElidionDun_Uld')
-WoWPro:GuideName(guide, 'Elidion\'s Leveling - Ch. 1')
-WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
+WoWPro:GuideNextGuide(guide, 'Dungeon_Uld')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;This is based on the Jame guide but polished, reorganized, most grind steps removed, more efficent quest grouping, additional quests.

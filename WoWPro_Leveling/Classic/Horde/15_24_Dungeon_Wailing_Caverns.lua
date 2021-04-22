@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Ludovicus_HWC', 'Leveling', 'The Barrens', 'Elidion', 'Neutral', 1)
+local guide = WoWPro:RegisterGuide('Ludovicus_HWC', 'Leveling', 'The Barrens', 'Elidion', 'Horde', 1)
 WoWPro:GuideLevels(guide,15, 24)
 WoWPro:GuideName(guide, 'Dungeon: Wailing Caverns')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})

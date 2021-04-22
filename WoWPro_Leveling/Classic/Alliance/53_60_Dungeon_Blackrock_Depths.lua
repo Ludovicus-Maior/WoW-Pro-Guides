@@ -1,8 +1,12 @@
-local guide = WoWPro:RegisterGuide('ElidionDun_BRD', 'Leveling', 'Burning Steppes', 'Elidion', 'Alliance', 1)
-WoWPro:GuideLevels(guide,53, 60)
-WoWPro:GuideNextGuide(guide, 'ElidionAlli_IV')
+--[[
+WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+--]]
+
+local guide = WoWPro:RegisterGuide('Dungeon_BRD', 'Leveling', 'Burning Steppes', 'Elidion', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Dungeon: Blackrock Depths')
-WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
+WoWPro:GuideLevels(guide,53, 60)
+WoWPro:GuideNextGuide(guide, 'ClassicAlliance55-60')
 WoWPro:GuideSteps(guide, function()
 return [[
 N About the guide|QID|3802|N|Blackrock Depths is a huge dungeon and has many different ways you can go, it is not on rails like other dungeons, so for writing a guide that needs to have things done in a certain order is challenging if not impossible. So the main goal here is to get you setup with all the available quests before you go in. I will still put guide steps in the dungeon, but if your group has other plans and doesn't want to follow this route then you may have to skip around and/or reset the guide a lot.\n\nIdeally you will have a group that wants to come in and get quests done, or friends/guildies willing to help you out, and not a group that strictly wants to do a quick Emperor run.\n\nIf you can't get it all done in the first go then it's alright, we mainly want to get you to about halfway into 55 before you start Chapter IV. If you've met that goal by the end of the dungeon run then it was a success.\n\nIf you are coming from Chapter 3, then you should already have 11 quests, this dungeon has 10 if you grab them all, fortunately you will turn 1 of them in but that means all 20 quest slots will be in use for a period of time. If you have some lingering quests that aren't part of the guides I would suggest finishing them up or dropping them.|

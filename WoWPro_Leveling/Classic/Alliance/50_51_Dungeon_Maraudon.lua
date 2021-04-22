@@ -1,8 +1,12 @@
-local guide = WoWPro:RegisterGuide('ElidionDun_Mara', 'Leveling', 'Desolace', 'Elidion', 'Alliance', 1)
-WoWPro:GuideLevels(guide,48, 54)
-WoWPro:GuideNextGuide(guide, 'ElidionAlli_III')
+--[[
+WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+--]]
+
+local guide = WoWPro:RegisterGuide('Dungeon_Mara', 'Leveling', 'Desolace', 'Elidion', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Dungeon: Maraudon')
-WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
+WoWPro:GuideLevels(guide,48, 54)
+WoWPro:GuideNextGuide(guide, 'ClassicAlliance5055')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Before Dungeon
