@@ -159,7 +159,7 @@ A The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.
 C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
 T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 
-; Redridge 20-21 
+; Redridge 20-21
 R Elwynn Forest|QID|344|N|Go to Elwynn Forest.|Z|Stormwind City|M|74.76,93.41|
 T Brother Paxton|QID|344|M|49.6,40.3|Z|Elwynn Forest|N|To Brother Paxton, in the Library of Northshire Abbey.|LVL|20|
 A Ink Supplies|QID|345|M|49.6,40.3|Z|Elwynn Forest|N|From Brother Paxton.|PRE|344|LVL|20|

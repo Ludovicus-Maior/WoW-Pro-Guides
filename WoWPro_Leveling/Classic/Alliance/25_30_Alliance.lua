@@ -7,7 +7,7 @@ local guide = WoWPro:RegisterGuide('ClassicAlliance2530', "Leveling", 'Westfall'
 WoWPro:GuideName(guide, 'Alliance Leveling 25-30')
 WoWPro:GuideLevels(guide, 25,30)
 WoWPro:GuideNextGuide(guide, 'ClassicAlliance3041')
-WoWPro:GuideSteps(guide, function() 
+WoWPro:GuideSteps(guide, function()
 return [[
 ;This is a rewrite and homogenization of existing 25-30 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
 ; Wetlands 25-26
