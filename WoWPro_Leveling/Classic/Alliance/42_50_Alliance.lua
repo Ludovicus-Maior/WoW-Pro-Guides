@@ -1,8 +1,12 @@
-local guide = WoWPro:RegisterGuide('ElidionAlli_II', 'Leveling', 'Stranglethorn Vale', 'Elidion', 'Alliance', 1)
+--[[
+WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+--]]
+
+local guide = WoWPro:RegisterGuide('ClassicAlliance4250', 'Leveling', 'Stranglethorn Vale', 'Elidion', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Alliance Leveling 42-50')
 WoWPro:GuideLevels(guide,42, 50)
-WoWPro:GuideNextGuide(guide, 'ElidionDun_ZF')
-WoWPro:GuideName(guide, 'Elidion\'s Leveling - Ch. 2')
-WoWPro:GuideIcon(guide, "ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0.50,0.75})
+WoWPro:GuideNextGuide(guide, 'Dungeon_ZF')
 WoWPro:GuideSteps(guide, function()
 return [[
 

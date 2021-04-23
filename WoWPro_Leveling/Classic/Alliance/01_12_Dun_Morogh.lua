@@ -3,9 +3,10 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('ClassicDunMorogh0112', "Leveling", 'Dun Morogh', 'Boston', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicDunMorogh0112', "Leveling", 'Dun Morogh', 'Bidaum', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Dun Morogh 1-12')
 WoWPro:GuideLevels(guide,1,12, 2)
-WoWPro:GuideNextGuide(guide, 'ClassicLochModan1214')
+WoWPro:GuideNextGuide(guide, 'ClassicEasternKingdom1220')
 WoWPro:GuideSteps(guide, function() return [[
 
 A Dwarven Outfitters|QID|179|M|29.92,71.21|N|From Sten Stoutarm|
@@ -43,7 +44,6 @@ L Level 3|AVAILABLE|3361|LVL|3|N|You need to be level 3 to continue with this gu
 
 A A Refugee's Quandary|QID|3361|M|28.49,67.74|N|From Felix Whindlebolt|
 r Sell and Repair|ACTIVE|233|M|28.71,67.85|N|Repair and sell your junk to Rybrad Coldbank or Grundel Harkin.|
-
 T Coldridge Valley Mail Delivery|QID|233|M|28.66,70.45;22.60,71.43|CS|N|To Talin Keeneye. Exit Anvilmar and follow the road west.|
 A Coldridge Valley Mail Delivery|QID|234|PRE|233|M|22.60,71.43|N|From Talin Keeneye.|
 A The Boar Hunter|QID|183|M|22.60,71.43|N|From Talin Keeneye.|
@@ -55,42 +55,25 @@ C Felix's Box|QID|3361|M|20.88,76.07|QO|1|NC|N|Loot Felix's Box from the ground 
 C Felix's Chest|QID|3361|M|22.78,80.00|QO|2|NC|N|Loot Felix's Chest from the ground in front of the tent.|
 C Felix's Bucket of Bolts|QID|3361|M|26.33,79.28|QO|3|NC|N|Loot Felix's Bucket of Bolts from the ground outside the cave.|
 C The Troll Cave|QID|182|US|M|26.3,78.8|N|Kill Frostmane Troll Whelp|T|Frostmane Troll Whelp|
-
 T The Troll Cave|QID|182|M|25.08,75.71|N|To Grelin Whitebeard.|
 A The Stolen Journal|QID|218|PRE|182|M|25.08,75.71|N|From Grelin Whitebeard.|
-
 L Level 4|QID|3364|LVL|4|N|You need to be level 4 to continue with this guide.|
-
 A Scalding Mornbrew Delivery|QID|3364|PRE|179|M|24.98,75.94|N|From Nori Pridedrift. On accepting the quest, a 5 minute timer will start.|
 T Scalding Mornbrew Delivery|QID|3364|M|28.78,66.66|N|To Durnan Furcutter, at the back of Anvilmar|
 A Bring Back the Mug|QID|3365|PRE|3364|M|28.78,66.66|N|From Durnan Furcutter|
 r Sell and Repair|ACTIVE|3361|M|28.78,66.66|N|Repair and sell your junk to Durnan furcutter.|
 T A Refugee's Quandary|QID|3361|M|28.52,67.68|N|To Felix Whindlebolt|
-
-N Level 4 class training|ACTIVE|183|C|Rogue|R|Dwarf|M|28.37,67.51|N|Go see Solm Hargrin to get your level 4 spell/skill.|
-N Level 4 class training|ACTIVE|183|C|Hunter|R|Dwarf|M|29.17,67.45|N|Go see Thorgas Grimson to get your level 4 spell/skill.|
-N Level 4 class training|ACTIVE|183|C|Priest|R|Dwarf|M|28.60,66.38|N|Go see Branstock Khalder to get your level 4 spell/skill.|
-N Level 4 class training|ACTIVE|183|C|Warrior|R|Dwarf|M|28.83,67.24|N|Go see Thran Khorman to get your level 4 spell/skill.|
-N Level 4 class training|ACTIVE|183|C|Paladin|R|Dwarf|M|28.83,68.33|N|Go see Bromos Grummner to get your level 4 spell/skill.|
-N Level 4 class training|ACTIVE|183|C|Warlock|R|Gnome|M|28.65,66.14|N|Go see Alamar Grimm to get your level 4 spell/skill.|
-N Level 4 class training|ACTIVE|183|C|Mage|R|Gnome|M|28.71,66.37|N|Go see Marryk Nurribit to get your level 4 spell/skill.|
-N Level 4 class training|ACTIVE|183|C|Rogue|R|Dwarf|M|28.37,67.51|N|Go see Solm Hargrin to get your level 4 spell/skill.|
-N Level 4 class training|ACTIVE|183|C|Warrior|R|Dwarf|M|28.83,67.24|N|Go see Thran Khorman to get your level 4 spell/skill.|
+N Level 4 class training|ACTIVE|183|N|Get your level 6 spells/skills.|
 
 R Troll Cave|QID|218|ACTIVE|218|M|27.0,80.35|CC|N|Run back to the troll cave.|
 K Grik'nir The Cold|QID|218|QO|1|T|Grik'nir The Cold|M|30.5,80.2|N|Kill and loot Grik'nir The Cold for the journal. He can be found by turning left (taking the northern fork) in the cave and going all the way to the back.|
-
 T Bring Back the Mug|QID|3365|M|24.98,75.94|N|To Nori Pridedrift|
 T The Stolen Journal|QID|218|M|25.08,75.71|N|To Grelin Whitebeard.|
 A Senir's Observations|QID|282|PRE|218|M|25.08,75.71|N|From Grelin Whitebeard.|
-
 C The Boar Hunter|QID|183|US|M|22.0,72.0|N|Kill Small Crag Boar.|T|Small Crag Boar|
 T The Boar Hunter|QID|183|M|22.60,71.43|N|To Talin Keeneye.|
-
 r Sell and Repair|ACTIVE|282|M|28.71,67.85|N|Repair and sell your junk to Rybrad Coldbank or Grundel Harkin.|
-
 L Level 5|QID|3364|LVL|5|N|You need to be level 5 to continue with this guide.|C|Priest|R|Dwarf|
-
 A In Favor of the Light|QID|5626|C|Priest|R|Dwarf|M|47.3,52.2|N|Speak with Maxan Anvol.|S|
 
 T Senir's Observations|QID|282|M|28.86,70.49;33.48,71.84|CS|N|To Mountaineer Thalos|
@@ -100,16 +83,13 @@ A In Favor of the Light|QID|5626|C|Priest|
 
 R Kharanos|QID|420|ACTIVE|420|M|46.42,54.71|N|Go through the tunnel and follow the road to reach Kharanos.|
 T Senir's Observations|QID|420|M|46.73,53.82|N|To Senir Whitebeard|
-
 L Level 5|QID|3364|LVL|5|N|You need to be level 5 to continue with this guide.|
-
 A Beer Basted Boar Ribs|QID|384|M|46.82,52.36|N|From Ragnar Thunderbrew|
 N Learn Apprentice First Aid |QID|2160|ACTIVE|2160|M|47.18,52.59|S|N|If you want to learn First Aid, now is your chance with Thamner Pol, in the corner of the inn.|
 N Learn Apprentice Cooking |QID|2160|ACTIVE|2160|M|47.67,52.30|S|N|If you want to learn Cooking, now is your chance with Gremlock Pilsnor, at the back of the Inn.|
 N Level 6 class skills |QID|2160|ACTIVE|2160|S|LVL|6|N|Remember to visit your class trainer to learn your Level 6 skill!|
 T Supplies to Tannok|QID|2160|M|47.22,52.19|N|To Tannok Frosthammer, inside the inn.|
 h Thunderbrew Distillery|QID|400|M|47.38,52.53|N|Make Kharanos your home with Innkeeper Belm.|
-
 T In Favor of the Light|QID|5626|C|Priest|R|Dwarf|N|To Maxan Anvol|
 A Garments of the Light|QID|5625|PRE|5626|C|Priest|R|Dwarf|N|From Maxan Anvol|
 A Tools for Steelgrill|QID|400|M|46.02,51.67|N|From Tharek Blackstone|
@@ -117,7 +97,6 @@ C Garments of the Light|QID|5625|C|Priest|R|Dwarf|M|45.8,54.6|N|South of town (4
 T Garments of the Light|QID|5625|C|Priest|R|Dwarf|
 
 C Beer Basted Boar Ribs|QID|384|S|QO|1|M|48.0,50.1|N|Kill and loot the Crag Boars for their ribs.|
-
 T Tools for Steelgrill|QID|400|M|50.44,49.10|N|To Beldrin Steelgrill|
 A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|N|From Loslor Rudge|
 A The Grizzled Den|QID|313|M|49.62,48.61|N|From Pilot Stonegear|
@@ -133,15 +112,8 @@ C Stocking Jetsteam|QID|317|US|M|39.5,59.5|N|Kill and loot Boars for boar Meat a
 C Beer Basted Boar Ribs|QID|384|US|QO|1|M|48.0,50.1|N|Kill and loot the Crag Boars for their ribs.|
 
 B Rhapsody Malt|QID|384|M|47.2,52.5|L|2894|N|Buy Rhapsody Malt from Innkeeper Belm inside the Inn at Kharanos.|
-N Level 6 class training|ACTIVE|384|LVL|6|C|Rogue|M|47.56,52.61|N|Go see Hogral Bakkan to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
-N Level 6 class training|ACTIVE|384|LVL|6|C|Hunter|M|45.81,53.04|N|Go see Grif Wildheart to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
-N Level 6 class training|ACTIVE|384|LVL|6|C|Priest|M|47.34,52.18|N|Go see Maxen Anvol to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
-N Level 6 class training|ACTIVE|384|LVL|6|C|Warrior|M|47.36,52.65|N|Go see Gramis Swiftaxe to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
-N Level 6 class training|ACTIVE|384|LVL|6|C|Paladin|M|47.60,52.07|N|Go see Azar Stronghammer to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
-N Level 6 class training|ACTIVE|384|LVL|6|C|Warlock|M|47.33,53.70|N|Go see Alamar Grimm to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
-N Level 6 class training|ACTIVE|384|LVL|6|C|Mage|M|47.50,52.07|N|Go see Magis Sparkmantle to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
+N Level 6 class training|ACTIVE|384|LVL|6|N|Get your level 6 spells/skills.|
 
-r Sell Junk|QID|384|S|M|47.2,52.4|ACTIVE|384|N|Take this opportunity to sell your junk with Kreg Bilmn.|
 T Beer Basted Boar Ribs|QID|384|M|46.82,52.36|N|To Ragnar Thunderbrew|
 T Stocking Jetsteam|QID|317|M|49.43,48.41|N|To Pilot Bellowfiz|
 A Evershine|QID|318|PRE|317|M|49.43,48.41|N|From Pilot Bellowfiz|
@@ -169,7 +141,7 @@ C Operation Recombobulation|QID|412|M|25.71,41.81|N|Kill and loot the Leper Gnom
 C A Favor for Evershine|QID|319|US|N|Finish killing Ice Claw Bears, Elder Crag Boars and Snow Leopards.|
 H Thunderbrew Distillery|QID|412|M|47.37,52.51|U|6948|N|Use your hearthstone to return to Kharanos.|
 
-r Sell Junk|S|M|47.2,52.4|ACTIVE|310|N|Take this opportunity to sell your junk with Kreg Bilmn.|
+r Sell and Repair|S|M|47.2,52.4|ACTIVE|310|N|Take this opportunity to sell your junk with Kreg Bilmn.|
 B Thunder Ale|ACTIVE|310|L|2686|M|47.38,52.52|N|Buy this from the innkeeper.|
 
 T Distracting Jarven |QID|308|M|47.63,52.65|N|To Jarven Thunderbrew|
@@ -179,22 +151,17 @@ T Frostmane Hold|QID|287|M|46.72,53.83|N|To Senir Whitebeard|
 A The Reports|QID|291|PRE|287|M|46.72,53.83|N|From Senir Whitebeard|
 
 T Operation Recombobulation|QID|412|M|45.85,49.36|N|To Razzle Sprysprocket|
-R Ironforge|QID|291|ACTIVE|291|M|47.0,42.1;53.31,35.09|CS|N|Head north to Ironforge|
 
-N City Facilities|QID|291|ACTIVE|291|S|N|Use this time to visit Auction House, Bank and to sell and restock. Now is a good time to increase bagspace!|
-T The Reports|QID|291|M|44.57,49.50;39.59,57.48|CS|Z|Ironforge|N|To Senator Barin Redstone, in The High Seat|
-f Ironforge|QID|311|M|55.7,48.0|N|Discover Ironforge Flightpoint with Gryth Thurden|R|-Gnome,-Dwarf|
 L Nearly Level 10|QID|413|LVL|9;-1940|M|30.18,45.53|N|You need to be no more than 6 bubbles from level 10. So be sure and kill everything on your way back to Brewnall Village.|
 
 T Return to Marleth|QID|311|M|30.18,45.53|N|To Marleth Barleybrew, in Brewnall Village.|
-T A Favor for Evershine|QID|319|M|30.20,45.73|N|To Rejold Barleybrew|
+T A Favor for Evershine|QID|4|M|30.20,45.73|N|To Rejold Barleybrew|
 A Return to Bellowfiz|QID|320|PRE|319|M|30.20,45.73|N|From Rejold Barleybrew|
 T The Perfect Stout|QID|315|M|30.20,45.73|N|To Rejold Barleybrew|
-
 A Shimmer Stout|QID|413|PRE|315|M|30.20,45.73|N|From Rejold Barleybrew|
 A The Hunter's Path|QID|6075|M|30.6,45.4|LVL|10|C|Hunter|R|Dwarf|N|From Tristane Shadowstone. This quest line is very important for your hunter.|
-T Return to Bellowfiz|QID|320|M|49.43,48.41|N|To Pilot Bellowfiz|
 T The Hunter's Path|QID|6075|M|45.8,53.0|LVL|10|C|Hunter|R|Dwarf|N|To Grif Wildheart|
+T Return to Bellowfiz|QID|320|M|49.43,48.41|N|To Pilot Bellowfiz|
 
 
 ; ---------- LEVEL 10 CLASS TRAINING ------------
@@ -225,13 +192,77 @@ T Onin's Report|QID|2239|C|Rogue|R|Dwarf,Gnome|M|51.90,14.89|Z|Ironforge|
 
 R Ironforge|QID|1715|C|Warlock|M|53.31,35.09|N|Class quest for your Voidwalker starts here.|
 A The Slaughtered Lamb|QID|1715|C|Warlock|M|47.63,9.29|Z|Ironforge|N|This starts in Ironforge.|
-T The Slaughtered Lamb|QID|1715|C|Warlock|M|39.23,85.27|Z|Stormwind City|N|To continue with this quest, you'll need to take the Deeprum Tram at the East end of Ironforge to Stormwind, then go to the Mage Quarter and down the stairs inside the bar.|
+
+R Deeprun Tram|QID|6661|N|Go to the Deeprun Tram|Z|Ironforge|M|76.50,51.10|
+A Deeprun Rat Roundup|QID|6661|N|Get this quest from Monty in the Tram.|
+C Deeprun Rat Roundup|QID|6661|U|17117|T|Deeprun Rat|N|Use the flute to catch five Deeprun Rats.|
+T Deeprun Rat Roundup|QID|6661|N|To Monty.|
+A Me Brother, Nipsy|N|Get the next quest from Monty.|QID|6662|PRE|6661|
+T Me Brother, Nipsy|N|Get on the tram and turn this quest in at the other end.|QID|6662|
+R Stormwind City|ACTIVE|1338|N|Exit the Tram to Stormwind City|
+
+T The Slaughtered Lamb|QID|1715|C|Warlock|M|39.23,85.27|Z|Stormwind City|N|Run to the Mage Quarter and down the stairs inside the bar.|
 A Surena Caledon|QID|1688|C|Warlock|M|39.23,85.27|Z|Stormwind City|
 C Surena Caledon|QID|1688|C|Warlock|M|71.0,80.6|Z|Elwynn Forest|N|Surena can be found in a house in Elwynn Forest.|
 T Surena Caledon|QID|1688|C|Warlock|M|39.23,85.27|Z|Stormwind City|
 A The Binding|QID|1689|PRE|1688|C|Warlock|M|39.23,85.27|Z|Stormwind City|
 C The Binding|QID|1689|C|Warlock|N|The Summoning Circle is farther underneath the trainers.|
 T The Binding|QID|1689|C|Warlock|M|39.23,85.27|Z|Stormwind City|N|Congrats! You now can use a Voidwalker.|
+
+R Elwynn Forest|AVAILABLE|239|M|32.03,49.18|Z|Elwynn Forest|N|Make your way to the front gate.|
+R Goldshire|AVAILABLE|239|M|44.25,62.50|N|Follow the road down to Goldshire.|
+
+A A Fishy Peril|QID|40|M|42.1,67.3|N|From Remy "Two Times".|LVL|7|
+r Sell and Repair|QID|40|S|M|41.7,65.8|ACTIVE|40|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
+T A Fishy Peril|QID|40|M|42.1,65.9|N|To Marshall Dughan.|
+A Further Concerns|QID|35|M|42.1,65.9|PRE|40|N|From Marshall Dughan.|
+T Further Concerns|QID|35|M|74.0,72.2|N|Head east along the road to Guard Thomas.|
+A Find the Lost Guards|QID|37|M|74.0,72.2|PRE|35|N|From Guard Thomas.|
+A Protect the Frontier|QID|52|M|74.0,72.2|N|From Guard Thomas.|
+C Protect the Frontier|QID|52|S|M|84.1,61.6|N|Kill any Prowlers and Young Forest Bears.|
+A A Bundle of Trouble|QID|5545|M|81.4,66.1|N|From Supervisor Raelen.|
+C A Bundle of Trouble|QID|5545|M|84.1,61.6|N|Loot the Bundles of Wood, found at the base of the trees.|NC|
+r Sell and Repair|QID|5545|S|M|83.3,66.1|ACTIVE|5545|N|Sell and Repair at Rallic Finn.|
+T A Bundle of Trouble|QID|5545|M|81.4,66.1|N|To Supervisor Raelen.|
+A Red Linen Goods|QID|83|M|79.46,68.79|N|From Sara Timberlain.|
+C Red Linen Goods|QID|83|S|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|
+C Red Linen Goods|QID|83|US|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|
+T Red Linen Goods|QID|83|US|M|79.46,68.79|N|To Sara Timberlain.|
+N Prowlers|QID|52|US|ACTIVE|37|M|87,70|QO|1|N|The wolves in this area are Gray Forest Wolves, and not the ones required for the quest Protect the Frontier.|
+T Find the Lost Guards|QID|37|M|72.70,60.2|N|To "A half-eaten body".|
+A Discover Rolf's Fate|QID|45|PRE|37|M|72.7,60.3|N|From A half-eaten body.|
+T Discover Rolf's Fate|QID|45|M|79.8,55.5|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|
+A Report to Thomas|QID|71|PRE|45|M|79.8,55.5|N|From Rolf's corpse.|
+C Protect the Frontier|QID|52|US|M|87,70|N|Finish killing the Prowlers and Young Forest Bears.|
+T Report to Thomas|QID|71|M|74.0,72.2|N|To Guard Thomas.|
+A Deliver Thomas' Report|QID|39|PRE|71|M|74.0,72.2|N|From Guard Thomas.|
+T Protect the Frontier|QID|52|M|74.0,72.2|N|To Guard Thomas.|
+A Report to Gryan Stoutmantle|QID|109|M|73.9,72.2|N|From Guard Thomas.|
+
+R Goldshire|ACTIVE|39|M|44.25,62.50|N|Follow the road down to Goldshire.|
+T Deliver Thomas' Report|QID|39|M|42.1,65.9|N|To Marshall Dughan.|
+A Westbrook Garrison Needs Help!|QID|239|M|42.1,65.9|N|From Marshall Dughan.|
+A Cloth and Leather Armor|QID|59|M|42.1,65.9|PRE|39|N|From Marshall Dughan.|
+A Elmore's Task|QID|1097|M|41.70,65.5|N|From Smith Argus.|
+
+T Westbrook Garrison Needs Help!|QID|239|M|24.3,74.8|N|To Deputy Rainer.|
+A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.3,74.8|N|From Deputy Rainer.|
+A Wanted:  "Hogger"|QID|176|M|24.52,74.65|N|This Elite level quest is available from the Wanted Poster in Forests Edge, one on the road to the tower, and one at the northern tower.|
+K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|N|This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|T|Hogger|
+C Riverpaw Gnoll Bounty|QID|11|M|26.1,87.5|N|Kill and loot the Gnolls for the Painted Gnoll Armbands.|
+L Level Check|ACTIVE|11|M|26.1,87.5|LVL|9;-840|N|Grind at the gnolls if you aren't yet 10.|
+l Gold Pickup Schedule|QID|123|L|1307|M|26.0,93.0|N|You want to hunt down the Gold Pickup Schedule. This is most likely to drop from the rare mob Gruff Swiftbite who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|T|Gruff|
+A The Collector|QID|123|U|1307|N|Quest obtained from the Gold Pickup Schedule.|
+T Riverpaw Gnoll Bounty|QID|11|M|24.3,74.8|N|To Deputy Rainer.|
+
+T The Collector|QID|123|M|42.1,65.9|N|To Marshall Dughan.|
+A Manhunt|QID|147|PRE|123|M|42.1,65.9|N|From Marshall Dughan.|
+T Wanted:  "Hogger"|QID|176|M|42.1,65.9|N|To Marshall Dughan.|
+
+N City Facilities|QID|291|ACTIVE|291|S|N|Use this time to visit Auction House, Bank and to sell and restock. Now is a good time to increase bagspace!|
+T The Reports|QID|291|M|44.57,49.50;39.59,57.48|CS|Z|Ironforge|N|To Senator Barin Redstone, in The High Seat|
+f Ironforge|QID|311|M|55.7,48.0|N|Discover Ironforge Flightpoint with Gryth Thurden|R|-Gnome,-Dwarf|
+
 H Thunderbrew Distillery|C|Warlock|U|6948|
 
 A Muren Stormpike|QID|1679|C|Warrior|R|Dwarf,Gnome|M|47.36,52.65|Z|Dun Morogh|N|From Granis Swiftaxe.|
@@ -279,11 +310,6 @@ R South Gate Outpost|QID|413|M|78.2,49.6;84.2,51.3|CS|N|Head back through the tu
 T Shimmer Stout|QID|413|M|86.28,48.82|N|To Mountaineer Barleybrew|
 A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|N|From Mountaineer Barleybrew|
 
-R South Gate Pass|QID|414|ACTIVE|414|M|86.3,51.3|N|Head to the South Gate Pass tunnel|
-R Valley of Kings|QID|414|ACTIVE|414|M|21.55,66.25|Z|Loch Modan|N|Continue through the tunnel onto Loch Modan|
-R Thelsamar|QID|414|ACTIVE|414|M|33.90,51.00|Z|Loch Modan|N|Follow the road north to Thelsamar.|
-f Thelsamar|QID|414|ACTIVE|414|M|33.90,51.00|Z|Loch Modan|N|Discover Thelsamar Flightpoint with Thorgrum Borrelson|
-T Stout to Kadrell|QID|414|M|32.5,50.0;37,43|CS|Z|Loch Modan|N|To Mountaineer Kadrell, who patrols the length of Thelsamar.|
 ; -- This guide ends in Thelsamar, Loch Modan
 
 ]]

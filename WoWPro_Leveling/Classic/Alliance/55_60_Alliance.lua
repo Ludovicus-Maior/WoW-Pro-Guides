@@ -1,8 +1,12 @@
-local guide = WoWPro:RegisterGuide('ElidionAlli_IV', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 1)
+--[[
+WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+--]]
+
+local guide = WoWPro:RegisterGuide('ClassicAlliance5560', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Alliance Leveling 50-60')
 WoWPro:GuideLevels(guide,55, 59)
 WoWPro:GuideNextGuide(guide, 'ElidionDun_BRD')
-WoWPro:GuideName(guide, 'Elidion\'s Leveling - Ch. 4')
-WoWPro:GuideIcon(guide, "ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0.50,0.75})
 WoWPro:GuideSteps(guide, function()
 return [[
 F Chillwind Camp|QID|5544|M|55.54,47.75|Z|Ironforge|N|Fly to Western Plaguelands.|
