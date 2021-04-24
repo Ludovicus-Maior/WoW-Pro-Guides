@@ -1,8 +1,12 @@
-local guide = WoWPro:RegisterGuide('ElidionAlli_III', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 1)
+--[[
+WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+--]]
+
+local guide = WoWPro:RegisterGuide('ClassicAlliance5055', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Alliance Leveling 50-55')
 WoWPro:GuideLevels(guide,50, 55)
-WoWPro:GuideNextGuide(guide, 'ElidionDun_BRD')
-WoWPro:GuideName(guide, 'Elidion\'s Leveling - Ch. 3')
-WoWPro:GuideIcon(guide, "ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0.50,0.75})
+WoWPro:GuideNextGuide(guide, 'Dungeon_BRD')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Level Check: 50|M|PLAYER|N|You really do have to be level 50 to start this guide, the opening quests require you to be level 50 to even see them. If you're not quite there, you need to either grind it out or do the dungeon recommendations.|LVL|-50|

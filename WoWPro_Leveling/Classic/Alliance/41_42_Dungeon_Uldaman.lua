@@ -1,8 +1,12 @@
-local guide = WoWPro:RegisterGuide('ElidionDun_Uld', 'Leveling', 'Badlands', 'Elidion', 'Alliance', 1)
+--[[
+WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+--]]
+
+local guide = WoWPro:RegisterGuide('Dungeon_Uld', 'Leveling', 'Badlands', 'Elidion', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Dungeon: Uldaman')
 WoWPro:GuideLevels(guide,38, 45)
 WoWPro:GuideNextGuide(guide, 'ElidionAlli_II')
-WoWPro:GuideName(guide, 'Dungeon: Uldaman')
-WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
 WoWPro:GuideSteps(guide, function()
 return [[
 N Uldaman|QID|2278|N|Welcome to the Uldaman guide. The bulk of this guide takes place before you go into the instance, this can typically be done with a buddy, or, if you're awesome you might be able to solo it.\n\nIt is highly recommended that you do this at the minimum, though a full dungeon run would be best as it opens up quest-chains that will help you later in chapter 2 and it will be assumed that you did this.\n\nUnfortunately there is not enough quests in the game to get you from 41 to 50. If you're already into level 42 or you prefere just grinding out NPCs as well you could skip this if you really want to and begin chapter 2 but grinding will be your responsibility. Manually skip this to begin.|

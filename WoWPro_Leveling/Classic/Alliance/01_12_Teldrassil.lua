@@ -4,14 +4,14 @@ Permissions beyond the scope of this license may be available at http://github.c
 --]]
 
 local guide = WoWPro:RegisterGuide('ClassicTeldrassil0112', "Leveling", 'Teldrassil', 'Shururu', 'Alliance', 1)
-WoWPro:GuideName(guide, 'Teldrassil')
+WoWPro:GuideName(guide, 'Teldrassil 1-12')
 WoWPro:GuideLevels(guide, 1, 12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicDarkshore1220')
 WoWPro:GuideSteps(guide, function() return [[
 
 A The Balance of Nature|QID|456|M|58.69,44.27|N|From Conservator Ilthalaine in front of you.|
 C The Balance of Nature|QID|456|N|Kill Young Nightsabers and Young Thistle Boars.|
-r Sell and Repair|QID|456|S|M|59.31,41.09|ACTIVE|456|N|Sell and Repair with Keina in Aldrassil.|
+r Sell and Repair|AVAILABLE|4495|N|Sell and Repair with Keina in Aldrassil.|
 T The Balance of Nature|QID|456|M|58.68,44.27|N|To Conservator Ilthalaine.|
 
 A Simple Sigil|QID|3116|PRE|456|C|Warrior|M|58.69,44.27|N|From Conservator Ilthalaine.|
@@ -39,31 +39,33 @@ A The Woodland Protector|QID|459|PRE|458|M|57.75,45.02|N|From Tarindrella.|
 C The Woodland Protector|QID|459|M|55.91,45.79|N|Kill and loot the Grell for the Moss.|
 T The Woodland Protector|QID|459|M|57.75,45.02|N|To Tarindrella.|
 A Webwood Venom|QID|916|LVL|3|M|57.81,41.65|N|From Gilshalan Windwalker.|
-C Webwood Venom|QID|916|M|56.55,30.85;57.03,26.01;56.16,28.43;57.30,33.19|CN|S!US|QO|1|N|Kill and loot Webwood Spiders.|
+C Webwood Venom|QID|916|S|QO|1|N|Kill and loot Webwood Spiders.|
 C The Balance of Nature|QID|457|S|N|Kill Mangy Nightsabers and Thistle Boars along the way.|
 T A Good Friend|QID|4495|M|54.60,32.99|N|To Iverron.|
 A A Friend in Need|QID|3519|PRE|4495|M|54.60,32.99|N|From Iverron.|
-r Sell and Repair|QID|3519|S|M|59.31,41.09|ACTIVE|3519|N|Sell and Repair with Keina in Aldrassil.|
+r Sell and Repair|AVAILABLE|3521|S|N|Sell and Repair with Keina in Aldrassil.|
 T A Friend in Need|QID|3519|M|60.90,41.97|N|To Dirania Silvershine.|
 
 A Iverron's Antidote|QID|3521|PRE|3519|M|60.90,41.96|N|From Dirania Silvershine.|
-C Hyacinth Mushrooms|QID|3521|M|62.20,38.60;59.40,35.55;57.90,33.40;56.48,34.88;55.02,44.17;55.33,38.86;61.80,35.15|CN|S!US|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
+C Hyacinth Mushrooms|QID|3521|M|CN|S|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
 C The Balance of Nature|QID|457|US|M|62.38,38.36|N|Kill Mangy Nightsabers and Thistle Boars.|
-C Webwood Ichor|QID|3521|M|56.55,30.85;57.03,26.01;56.16,28.43;57.30,33.19|CN|QO|3|N|Kill Spiders until you get the Webwood Ichor.|
+C Webwood Ichor|QID|3521|M|56.80,31.60|CN|QO|3|N|Kill Spiders until you get the Webwood Ichor.|
+C Webwood Venom|QID|916|S|QO|1|N|Kill and loot Webwood Spiders.|
 C Moonpetal Lilies|QID|3521|M|57.69,37.59|QO|2|N|You should find plenty of Moonpetal Lilies at the lake.|
+C Hyacinth Mushrooms|QID|3521|M|CN|US|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
 
 T Webwood Venom|QID|916|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Webwood Egg|QID|917|PRE|916|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T The Balance of Nature|QID|457|M|58.69,44.27|N|To Conservator Ilthalaine.|
 
-r Sell and Repair|QID|3521|M|59.31,41.09|ACTIVE|3521|N|Sell and Repair with Keina in Aldrassil.|
+r Sell and Repair|AVAILABLE|3522|S|N|Sell Junk and Repair.|
 T Iverron's Antidote|QID|3521|M|60.90,41.96|N|To Dirania Silvershine.|
 A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|N|From Dirania Silvershine. Accepting this quest will start a 5 minute timer.|
 T Iverron's Antidote|QID|3522|M|54.60,32.99|N|To Iverron.|
 R Shadowthread Cavern|QID|917|ACTIVE|917|M|56.77,31.72;56.66,29.33;56.87,27.24;55.72,25.12;56.43,25.14|CS|QO|1|N|Take the middle path and then left.|
 C Webwood Egg|QID|917|M|56.750,26.46|N|Loot an egg from the ground.|
 H Shadowglen|QID|917|ACTIVE|917|N|Hearthstone out of the cave.|
-r Sell and Repair|QID|917|M|59.31,41.09|ACTIVE|917|N|Sell and Repair with Keina in Aldrassil.|
+r Sell and Repair|QID|917|S|ACTIVE|917|N|Sell Junk and Repair.|
 T Webwood Egg|QID|917|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Tenaron's Summons|QID|920|PRE|917|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T Tenaron's Summons|QID|920|M|59.06,39.44|N|To Tenaron Stormgrip, run up the ramp outside the tree.|
@@ -88,10 +90,10 @@ N Learn Apprentice First Aid |QID|2159|ACTIVE|2159|M|55.29,56.82|P|First Aid;129
 A The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|From Tallonkai Swiftroot, at the very top of the building|
 A Twisted Hatred|QID|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
 
-r Sell and Repair|ACTIVE|2159|S|M|59.31,41.09|N|Sell and Repair with the many vendors of Dolanaar.|
+r Sell and Repair|AVAILABLE|929|S|N|Sell and Repair at vendors of Dolanaar.|
 
 T Dolanaar Delivery|QID|2159|M|55.70,59.80|N|To the innkeeper.|
-h Dolanaar|QID|928|N|Set your Hearthstone to Dolanaar.|
+h Dolanaar|QID|928|M|55.70,59.80|N|Set your Hearthstone to Dolanaar.|
 
 T In Favor of Elune|QID|5622|C|Priest|M|55.56,56.75|N|To Laurna Morninglight.|
 A Garments of the Moon|QID|5621|C|Priest|M|55.56,56.75|N|From Laurna Morninglight.|
@@ -120,7 +122,7 @@ A Crown of the Earth|QID|933|PRE|929|M|56.15,61.71|N|From Corithras Moonrage.|
 
 K Ferocitas the Dream Eater|QID|2459|QO|2|M|69.35,53.30|L|8049|N|Kill and loot Ferocitas the Dream Eater for the Gnarlpine Necklace|T|Ferocitas the Dream Eater|
 C Ferocitas the Dream Eater|QID|2459|NC|QO|2|U|8049|M|69.35,53.30|N|Use the Gnarlpine Necklace to reveal Tallonkai's Jewel|
-C Ferocitas the Dream Eater|QID|2459|QO|1|M|69.35,53.30|N|Kill the remaining Gnarlpine Mystics|
+C Ferocitas the Dream Eater|QID|2459|QO|1|M|69.35,53.30|N|Kill the remaining Gnarlpine Mystics. They share a spawn point with the Gnarlpine Warriors. If you cannot find any Mystics in these camps kill Warriors until more respawn.|
 
 C Zenn's Bidding|QID|488|US|M|62.43,59.89|N|Kill Webwood Lurkers, Nightsabers and Strigid Owls.|
 T Zenn's Bidding|QID|488|M|60.43,56.25|N|To Zenn Foulhoof. If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest).|
@@ -128,9 +130,10 @@ C Recipe of the Kaldorei|QID|4161|M|63,63|US|N|Kill spiders until you have 7 Sma
 
 A Seek Redemption!|QID|489|PRE|488|M|56.10,57.73|N|From Syral Bladeleaf|
 A Denalan's Earth|QID|997|M|56.09,57.72|N|From Syral Bladeleaf.|
+T Ferocitas the Dream Eater|QID|2459|M|55.58,56.95|N|To Tallonkai Swiftroot|
 C Seek Redemption!|QID|489|NC|S|L|3418 3|N|Look out for Fel Cones below trees. Green smoke comes out of them.|
 
-r Sell and Repair|ACTIVE|489|S|M|59.31,41.09|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
+r Sell and Repair|ACTIVE|4161|M|56.25,59.25|N|Sell Junk and Repair.|
 T Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|To Zarrin.|
 N Cooking|QID|997|RECIPE|6412|S|ACTIVE|997|M|57.18,61.26|U|5482|N|Level your cooking to 10 with the small eggs. You can buy mild spices from Nyoma. Then learn the Kaldorei Spider Kabob recipe. Right click off if you don't want to learn cooking.|
 
@@ -148,7 +151,7 @@ T Timberling Sprouts|QID|919|M|60.90,68.50|N|To Denalan.|
 C Seek Redemption!|QID|489|NC|US|M|59,56;59,61.25;60.2,62.25|CN|N|Look out for Fel Cones at the base of the bigger trees. Green smoke comes out of them.|
 T Seek Redemption!|QID|489|M|60.43,56.25|N|To Zenn Foulhoof. If he is a frog, wait up to one minute (another player has just done this quest).|
 
-r Sell and Repair|ACTIVE|932|M|56.25,59.25|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
+r Sell and Repair|ACTIVE|932|M|56.25,59.25|N|Sell Junk and Repair.|
 
 ; Guide displays error: WoWPro: Warning: malformed profession tag [Alchemy;171]
 ;A Elixirs for the Bladeleafs|QID|1581|P|Alchemy;171|M|56.09,57.72|N|Only available for Alchemists with a skill of at least 20. You will not be told when to turn this in. Do it at your own speed and turn it in whenever you can.|
@@ -158,13 +161,11 @@ R Twisted Hatred|ACTIVE|932|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.01|CC
 C Twisted Hatred|QID|932|M|55,53|N|Kill and loot Lord Melenas. He spawns in two places, either on the ledge, or in the cavern south-west. He is level 8 and hits very hard for his level. If you're a caster, pull him from max range and use Severed Voodoo Claw on him. It will reduce his damage a little. He usually has two adds and will transform into a cat during the fight. As long as you manage to loot him, it doesn't matter if the adds will kill you.|T|Lord Melenas|
 
 N Hearth or Grind|ACTIVE|2459|N|By this time, most of the things you've killed to get in here have respawned. You can either use your hearthstone or you can grind your way back to Dolanaar.\nDepending upon bag space, I recommend grinding for the much needed exp.|
-T Ferocitas the Dream Eater|QID|2459|M|55.58,56.95|N|To Tallonkai Swiftroot|
 T Twisted Hatred|QID|932|M|55.58,56.95|N|To Tallonkai Swiftroot.|
 
+r Sell and Repair|ACTIVE|922|M|56.25,59.25|N|Sell Junk and Repair.|
+
 A The Road to Darnassus|QID|487|S|M|55.54,58.42|N|As you run along the road, From Moon Priestess Amara, who will be somewhere along the road patrolling.|
-
-r Sell and Repair|ACTIVE|922|M|56.25,59.25|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
-
 R Darnassus|QID|922|M|54.85,58.47;51.47,56.54;47.25,49.62;44.33,50.71|CC|N|Run to Darnassus along the road.|
 N Skinning and Leatherworking|QID|922|S|M|42.09,49.97|N|Stop by the Leatherworking and Skinning Trainers if you are interested in those professions. Right click this off.|
 R Darnassus|QID|922|M|39.02,53.24;36.28,54.37|CC|N|Run to Darnassus along the road.|
@@ -200,7 +201,7 @@ L Level 10|QID|933|LVL|10|N|Grind if you are not yet level 10. The three quests 
 H Dolanaar|QID|933|N|Hearthstone back to Dolanaar.|
 
 ; --- level 10 class quests start from here ---
-r Sell and Repair|ACTIVE|933|S|M|56.25,59.25|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
+r Sell and Repair|AVAILABLE|486|S|N|Sell Junk and Repair.|
 T Crown of the Earth|QID|933|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|7383|PRE|933|M|56.15,61.71|N|From Corithras Moonrage.|
 A Heeding the Call|QID|5925|C|Druid|M|55.95,61.65|N|From Kal.|
@@ -311,7 +312,7 @@ C Vorlus Vilehoof|QID|1683|C|Warrior|M|47.22,63.52|N|Follow the path up and kill
 
 R Dolanaar|QID|7383|ACTIVE|7383|M|47.25,49.6;54.8,58.5|CS|N|Head back to Dolanaar|
 
-r Sell and Repair|QID|7383|S|M|59.31,41.09|ACTIVE|7383|N|Sell and Repair with the many vendors of Dolanaar.|
+r Sell and Repair|ACTIVE|7383|M|56.25,59.25|N|Sell Junk and Repair.|
 B Laminated Recurve Bow|QID|7383|C|Hunter|LVL|11|M|55.89,59.20|L|2507|N|If you can afford it (and since you are level 11 now) buy a Laminated Recurve Bow from Jeena Featherbow. It costs 17s51c and the 5.8dps is better than the Crown of Earth reward which only has 3.8 dps.|
 T Crown of the Earth|QID|7383|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|935|PRE|7383|M|56.15,61.71|N|From Corithras Moonrage.|
@@ -331,7 +332,7 @@ K Ursal the Mauler|QID|486|QO|1|M|39.04,80.08|T|Ursal the Mauler|N|He's level 12
 T Oakenscowl|QID|2499|M|60.90,68.50|N|To Denalan.|
 T The Glowing Fruit|QID|930|M|60.90,68.50|N|To Denalan. Wait for a bit, as Denalan will plant the fruit and three Boglings spawn. Kill them, they have a Bogling Root which increases damage by 1 for 10 minutes. Put your pet on passive if you are a hunter.|
 
-r Sell and Repair|QID|486|S|M|59.31,41.09|ACTIVE|486|N|Sell and Repair with the many vendors of Dolanaar.|
+r Sell and Repair|QID|486|M|59.31,41.09|N|Sell Junk and Repair.|
 T Ursal the Mauler|QID|486|M|55.96,57.28|N|To Athridas Bearmantle.|
 
 R Darnassus|QID|935|ACTIVE|935|M|36.52,54.42|CC|N|Run to Darnassus, say goodbye to Teldrassil.|

@@ -3,9 +3,10 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('ClassicElwynn0112', "Leveling", 'Elwynn Forest', 'Maw', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicElwynn0112', "Leveling", 'Elwynn Forest', 'Bidaum', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Elwynn Forest 1-12')
 WoWPro:GuideLevels(guide,1,12, 2)
-WoWPro:GuideNextGuide(guide, 'ClassicWestfall1315')
+WoWPro:GuideNextGuide(guide, 'ClassicEasternKingdom1220')
 WoWPro:GuideSteps(guide, function() return [[
 
 A A Threat Within|QID|783|M|48.15,42.95|N|From Deputy Willem.|
@@ -85,13 +86,7 @@ r Sell and Repair|ACTIVE|54|M|47.7,41.4|N|Sell and Repair at Godric Rothgar.|
 
 A Rest and Relaxation|QID|2158|M|45.55,47.74|N|From Falkhaan Isenstrider, at the entrance to Northshire Valley.|
 
-L Level 6|ACTIVE|54|M|43.75,54.25|LVL|6|N|You'll want to be level 6 when you get to Goldshire. Grind until you have at least 2500 xp (90%).|
-R Goldshire|ACTIVE|54|M|44.25,62.50|N|Follow the road down to Goldshire.|TZ|Goldshire|
-
-N Learn Apprentice Leatherworking|ACTIVE|54|M|46.4,62.2|S|N|If you want to learn Leatherworking, talk to Adele Fielder in the house to the left (East) of the North road into Goldshire.|
-N Learn Apprentice Skinning|ACTIVE|54|M|46.2,62.2|S|N|If you want to learn Skinning, talk to Helene Peltskinner in the house to the left (East) of the North road into Goldshire.|
-N Learn Apprentice Fishing|ACTIVE|54|M|47.6,62.3|S|N|If you want to learn Fishing, talk to Lee Brown on the edge of Crystal Lake behind the house to the left (East) of the North road into Goldshire.|
-N Learn Apprentice Blacksmithing|ACTIVE|54|M|41.7,65.55|S|N|If you want to learn Blacksmithing, talk to Smith Argus inside the metalworks building.|
+R Goldshire|ACTIVE|54|M|44.25,62.50|N|Follow the road down to Goldshire.|
 
 T Report to Goldshire|QID|54|M|42.1,65.9|N|To Marshall Dughan.|
 A The Fargodeep Mine|QID|62|M|42.1,65.9|N|From Marshall Dughan|
@@ -99,19 +94,18 @@ A The Fargodeep Mine|QID|62|M|42.1,65.9|N|From Marshall Dughan|
 r Sell and Repair|QID|2158|M|41.7,65.8|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
 
 A Kobold Candles|QID|60|M|43.3,65.7|N|From William Pestle, inside the Inn.|
-T In Favor of the Light|QID|5623|M|43.2,65.6|N|To Priestess Josetta.|
-A Garments of the Light|QID|5624|M|43.2,65.6|N|From Priestess Josetta.|PRE|5623|
-N Learn Apprentice Cooking|ACTIVE|2158|M|44.37,66.00|S|N|If you want to learn Cooking, now is your chance with Tomas, at the back of the Inn.|
-N Learn Apprentice First Aid|ACTIVE|2158|M|43.40,65.57|S|N|If you want to learn First Aid, now is your chance with Michelle Belle, upstairs in the Inn.|
+T In Favor of the Light|QID|5623|M|43.2,65.6|C|Priest|N|To Priestess Josetta.|
+A Garments of the Light|QID|5624|M|43.2,65.6|N|From Priestess Josetta.|PRE|5623|C|Priest|
 
 T Rest and Relaxation|QID|2158|M|43.8,65.8|N|To Innkeeper Farley.|
 h Goldshire|QID|85|M|43.8,65.8|N|Make this inn your home.|
 
 A Gold Dust Exchange|QID|47|M|42.1,67.3|N|From Remy "Two Times", outside.|
-A Lost Necklace|QID|85|M|34.5,84.2|N|From "Auntie" Bernice Stonefield.|
+
 C Garments of the Light|QID|5624|M|48.4,67.8|T|Guard Roberts|N|Target and then use Lesser heal(Rank 2), then cast Power Word: Fortitude on Guard Roberts.|
 T Garments of the Light|QID|5624|M|43.2,65.6|N|To Priestess Josetta.|
-K Stonetusk Boars|QID|86|M|41.5,86.8|S|L|769 4|N|You will need Chunks of Boar Meat for the next quest, so kill and loot these as you head across the vineyards.|
+K Stonetusk Boars|QID|86|M|41.5,86.8|S|L|769 4|N|You will need Chunks of Boar Meat for the next quest so kill any boars along your way.|
+A Lost Necklace|QID|85|M|34.5,84.2|N|From "Auntie" Bernice Stonefield.|
 
 T Lost Necklace|QID|85|M|43.1,85.7|N|To Billy Maclure.|
 A Pie for Billy|QID|86|M|43.1,85.7|PRE|85|N|From Billy Maclure|
@@ -144,8 +138,8 @@ T Kobold Candles|QID|60|US|M|43.3,65.7|N|To William Pestle.|
 A Shipment to Stormwind|QID|61|PRE|60|M|43.3,65.7|N|From William Pestle.|
 T Note to William|QID|107|M|43.3,65.7|N|To William Pestle.|
 A Collecting Kelp|QID|112|M|43.3,65.7|PRE|107|N|From William Pestle.|
-T Gold Dust Exchange|QID|47|US|M|42.1,67.3|N|To Remy "Two Times", outside|
-A A Fishy Peril|QID|40|PRE|47|M|42.1,67.3|N|From Remy "Two Times".|
+T Gold Dust Exchange|QID|47|M|42.1,67.3|N|To Remy "Two Times", outside|
+A A Fishy Peril|QID|40|M|42.1,67.3|N|From Remy "Two Times".|LVL|7|
 r Sell and Repair|QID|40|S|M|41.7,65.8|ACTIVE|40|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
 
 T The Fargodeep Mine|QID|62|M|42.1,65.9|N|To Marshall Dughan.|
@@ -174,7 +168,7 @@ T Further Concerns|QID|35|M|74.0,72.2|N|To Guard Thomas.|
 A Find the Lost Guards|QID|37|M|74.0,72.2|PRE|35|N|From Guard Thomas.|
 A Protect the Frontier|QID|52|M|74.0,72.2|N|From Guard Thomas.|
 
-C Protect the Frontier|QID|52|S|M|84.1,61.6|N|Kill the Prowlers and Young Forest Bears.|
+C Protect the Frontier|QID|52|S|M|84.1,61.6|N|Kill any Prowlers and Young Forest Bears.|
 
 A A Bundle of Trouble|QID|5545|M|81.4,66.1|N|From Supervisor Raelen.|
 C A Bundle of Trouble|QID|5545|M|84.1,61.6|N|Loot the Bundles of Wood, found at the base of the trees.|NC|
@@ -208,7 +202,7 @@ A The Escape|QID|114|PRE|112|M|43.3,65.7|N|From William Pestle. It takes 10 seco
 r Sell and Repair|QID|76|S|M|41.7,65.8|ACTIVE|76|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
 
 T The Jasperlode Mine|QID|76|M|42.1,65.9|N|To Marshall Dughan.|
-A Westbrook Garrison Needs Help!|QID|239|PRE|76|M|42.1,65.9|N|From Marshall Dughan.|
+A Westbrook Garrison Needs Help!|QID|239|M|42.1,65.9|N|From Marshall Dughan.|
 T Deliver Thomas' Report|QID|39|M|42.1,65.9|N|To Marshall Dughan.|
 A Cloth and Leather Armor|QID|59|M|42.1,65.9|PRE|39|N|From Marshall Dughan.|
 A Elmore's Task|QID|1097|M|41.70,65.5|N|From Smith Argus.|
@@ -236,10 +230,10 @@ A Mirror Lake|QID|1861|C|Mage|M|38.6,79.4|Z|Stormwind City|N|From Jennea Cannon.
 C Mirror Lake|QID|1861|C|Mage|M|28.6,61.4|U|7207|N|Go to Mirror Lake, just outside Stormwind, stand under the waterfall and use Jennea's Flask.|
 T Mirror Lake|QID|1861|C|Mage|M|38.6,79.4|Z|Stormwind City|N|To Jennea Cannon.|
 
-A Desperate Prayer|QID|5635|M|43.2,65.6|C|Priest|R|Human|N|From Priestess Josetta.|
-A Seek out SI: 7|QID|2205|C|Rogue|R|Human|M|43.8,65.8|N|From Keryn Sylvius, upstairs in the Goldshire inn.|
+A Desperate Prayer|QID|5635|M|43.2,65.6|C|Priest|N|From Priestess Josetta.|
+A Seek out SI: 7|QID|2205|C|Rogue|M|43.8,65.8|N|From Keryn Sylvius, upstairs in the Goldshire inn.|
 
-A Gakin's Summons|QID|1685|C|Warlock|M|44.4,66.2|R|Human, Gnome|N|From Remen Marcot, in the basement of the Goldshire inn.|
+A Gakin's Summons|QID|1685|C|Warlock|M|44.4,66.2|N|From Remen Marcot, in the basement of the Goldshire inn.|
 T Gakin's Summons|QID|1685|C|Warlock|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|
 A Surena Caledon|QID|1688|C|Warlock|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbinder.|
 C Surena Caledon|QID|1688|C|Warlock|M|71,80|T|Surena Caladon|N|Find, kill and loot Surena Caladon.|
@@ -279,30 +273,29 @@ T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|Z|Westfall|N|To Gryan Stoutm
 A A Swift Message|QID|6181|M|57.00,47.17|Z|Westfall|N|From Quartermaster Lewis.|R|Human|
 h Sentinel Hill|ACTIVE|6181|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|
 f Sentinel Hill |QID|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
-T A Swift Message|QID|6181|M|56.55,52.65|Z|Westfall|N|To Thor.|
-A Continue to Stormwind|QID|6281|PRE|6181|M|56.55,52.65|Z|Westfall|N|From Thor.|
+T A Swift Message|QID|6181|M|56.55,52.65|Z|Westfall|N|To Thor.|R|Human|
+A Continue to Stormwind|QID|6281|PRE|6181|M|56.55,52.65|Z|Westfall|N|From Thor.|R|Human|
 F Stormwind|QID|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|TZ|Stormwind City|
 
-T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
-A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|
-T Desperate Prayer|QID|5635|M|38.8,26.4|Z|Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.|
-T Seek out SI: 7|QID|2205|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
-A Snatch and Grab|QID|2206|M|76.0,59.8|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|2205|
-C Snatch and Grab|QID|2206|M|47,87|N|Head south east of Goldshire. As you approach the docks, stealth, then pickpocket the dockmaster. If the weapon isn't an upgrade, you may want to skip or leave this quest 'til next time you are conveniently in Goldshire.|ITEM|7298|
-T Snatch and Grab|QID|2206|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
+T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|R|Human|
+A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|R|Human|
+
+T Desperate Prayer|QID|5635|C|Priest|M|38.8,26.4|Z|Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.|
+T Seek out SI: 7|QID|2205|C|Rogue|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
+A Snatch and Grab|QID|2206|C|Rogue|M|76.0,59.8|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|2205|
+C Snatch and Grab|QID|2206|C|Rogue|M|47,87|N|Head south east of Goldshire. As you approach the docks, stealth, then pickpocket the dockmaster. If the weapon isn't an upgrade, you may want to skip or leave this quest 'til next time you are conveniently in Goldshire.|ITEM|7298|
+T Snatch and Grab|QID|2206|C|Rogue|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
 T Elmore's Task|QID|1097|M|51.75,12.10|Z|Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
+A Stormpike's Delivery|QID|353|PRE|1097|M|51.75,12.10|Z|Stormwind City|N|From Grimand Elmore.|
 
-A Stormpike's Delivery|QID|353|PRE|1097|M|51.75,12.10|Z|Stormwind City|N|From Grimand Elmore. This quest will take you to the Loch Modan/Wetlands border.|
 R Deeprun Tram|QID|6661|M|64,8|Z|Stormwind City|N|Run to the Deeprun Tram.|
-
 A Deeprun Rat Roundup|QID|6661|N|Board the Tram to take you Ironforge, then quest From Monty, at the Ironforge Tram Stop.|
 C Deeprun Rat Roundup|QID|6661|NC|U|17117|N|Use Rat Catcher's Flute on Deeprun Rats, and catch five of them.|T|Deeprun Rat|
 T Deeprun Rat Roundup|QID|6661|N|To Monty.|
+A Me Brother, Nipsy |QID|6662|PRE|6661|N|From Monty.|
+T Me Brother, Nipsy |QID|6662|N|To Nipsy at the Stormwind Tram Stop. If you are quick you can jump off and turn in before the tram leaves.|
+R Tinker Town|ACTIVE|353|N|Board the Tram back to Ironforge and take the tunnel to your North.|
 
-A Me Brother, Nipsy |QID|6662|PRE|6661|N|From Monty. Accept only if you are want to go to Stormwind City and back. (Hop on the tram at the opposite end from Monty for a chance to turn in and make it back on the same tram.)|
-T Me Brother, Nipsy |QID|6662|N|To Nipsy at the Stormwind Tram Stop. After turning in, jump back onto tram to Ironforge. |
-
-R Tinker Town|ACTIVE|353|N|Take the tunnel to your North to go inside Ironforge.|
 f Ironforge|ACTIVE|353|M|62.85,28.38;55.50,47.76|CS|Z|Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|
 R Gates of Ironforge|ACTIVE|353|M|43.7,59.1;29.9,81.75;15.0,86.10|CS|Z|Ironforge|N|Head to the exit of Ironforge.|
 R Kharanos|QID|384|M|47.16,45.39|Z|Dun Morogh|N|Take the road down to the bottom of the hill and go south into Kharanos.|
@@ -314,6 +307,7 @@ C Stocking Jetsteam|QID|317|M|20.2,75.8|Z|Dun Morogh|L|769 4|N|Chunk of Boar Mea
 C Stocking Jetsteam|QID|317|M|67,59.6|Z|Dun Morogh|L|6952 2|N|Kill young black bears to loot Thick Bear Fur.|S|
 A The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|From Pilot Stonegear.|
 A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|Z|Dun Morogh|N|From Loslor Rudge.|
+
 R The Grizzled Den Entrance|ACTIVE|313|M|42.59,54.78|Z|Dun Morogh|CC|N|Make your way to the cave entrance.|
 C The Grizzled Den|QID|313|L|2671 8|N|Kill the Wendigo to loot Wendigo Mane.|
 C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|Z|Dun Morogh|L|13850|N|Exit the cave and run across the field to the camp just inside the tree line.|
@@ -357,81 +351,7 @@ A A Pilot's Revenge|QID|417|PRE|419|M|79.69,36.14|Z|Dun Morogh|N|From Dwarven Co
 C A Pilot's Revenge|QID|417|M|78.48,37.42|Z|Dun Morogh|T|Mangeclaw|N|Kill Mangeclaw and loot a Mangy Claw.|
 T A Pilot's Revenge|QID|417|M|83.89,39.19|Z|Dun Morogh|N|To Pilot Hammerfall.|
 
-R Loch Modan|ACTIVE|353|M|85.5,29.6|Z|Dun Morogh|N|Follow the road north then east to Loch Modan.|
-R Algaz Station|ACTIVE|353|M|24.50,18.00|Z|Loch Modan|N|Continue along the road north to Algaz Station.|
-T Stormpike's Delivery|QID|353|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike, on the top floor of the tower.|
-A Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
-A Stormpike's Order|QID|1338|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
-R Thelsamar|ACTIVE|1338|M|32.96,49.44|Z|Loch Modan|N|Follow the road south to Thelsamar.|
-A Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|Mountaineer Kadrell patrols all throughout Thelsamar.|
-A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|From Vidra Hearthstove inside the inn.|
-r Sell junk and repair|QID|418|M|34.0,46.60|Z|Loch Modan|N|At Morhan Coppertongue. Close this step when you're done.|
-f Thelsamar|ACTIVE|418|M|33.9,50.95|Z|Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson.|
-C Thelsamar Blood Sausages|QID|418|S|M|35.00,35.00|Z|Loch Modan|QO|1;2;3|N|Kill Boars, Bears and Spiders.|
-C Rat Catching|QID|416|M|37.7,25.7|Z|Loch Modan|L|3110 12|N|Kill any Tunnel Rats you see.|S|
-R Silver Stream Mine|ACTIVE|307|M|36.70,41.79;39.43,29.10|Z|Loch Modan|CC|N|Exit Thelsamar at the east end and head north.|
-R Mine entrance|ACTIVE|307|M|35.53,18.71|Z|Loch Modan|CC|
-C Filthy Paws|QID|307|L|2640 4|N|Enter the mine and collect the crates of Miners' Gear.|
-C Rat Catching|QID|416|L|3110 12|N|Finish this quest now by killing Tunnel Rats around the mine entrance.|US|
-T Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike.|
-C Thelsamar Blood Sausages|QID|418|M|32.28,31.08;25.68,35.92;37.71,38.18|Z|Loch Modan|CN|QO|1;2;3|N|Finish this quest now. Follow the arrows, going from one area to the next, killing Mountain Boars, Forest Lurkers, and Elder Black Bears on the way.|US|
-T Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|To Mountaineer Kadrell.|
-T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|To Vidra Hearthstove inside Stoutlager Inn.|
-F Ironforge|AVAILABLE|3681|M|33.94,50.95|Z|Loch Modan|C|Paladin|
-A Tome of Divinity|QID|3681|M|23.11,6.15|Z|Ironforge|N|From Brandur Ironhammer in the Mystic Ward.|LEAD|3682|C|Paladin|
-F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|Ironforge|TZ|Stormwind City|N|Fly to Stormwind.|C|Paladin|
-F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|C|-Paladin|
-
-T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|Stormwind City|N|To Dungar Longdrink.|
-A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|Stormwind City|N|From Dungar Longdrink.|
-A Humble Beginnings|QID|399|Z|Stormwind City|M|49.21, 30.27|N|From Baros Alexston, in Cathedral Square.|
-
-T Tome of Divinity|QID|3681|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|
-A The Tome of Divinity|QID|1642|M|39.80,29.78|Z|Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|PRE|1641^3681|
-T The Tome of Divinity|QID|1642|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Tome of Divinity|QID|1643|M|39.80,29.78|Z|Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|
-T The Tome of Divinity|QID|1643|M|57.08,61.73|Z|Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|
-A The Tome of Divinity|QID|1644|M|57.08,61.73|Z|Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|
-C The Tome of Divinity|QID|1644|L|2589 10|N|Acquire 10 linen cloth if you don't have it.|C|Paladin|
-T The Tome of Divinity|QID|1644|M|57.08,61.73|Z|Stormwind City|N|To Stephanie Turner.|C|Paladin|
-A The Tome of Divinity|QID|1780|M|57.08,61.73|Z|Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|
-T The Tome of Divinity|QID|1780|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Tome of Divinity|QID|1781|M|39.80,29.78|Z|Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|
-T The Tome of Divinity|QID|1781|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|
-A The Tome of Divinity|QID|1786|M|38.58,26.56|Z|Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|
-
-T Stormpike's Order|QID|1338|M|58.10,16.57|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
-A Bounty on Murlocs|QID|46|M|73.97,72.18|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|
-
-R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|N|Run north to the island in the middle of Stone Cairn Lake.|
-R Heroes' Vigil|ACTIVE|1786|M|74.45,56.74|N|Head to hills on the west side of the island in the middle of Stone Cairn Lake.|C|Paladin|
-C The Tome of Divinity|QID|1786|M|72.59,51.41|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|C|Paladin|
-T The Tome of Divinity|QID|1786|M|72.59,51.41|N|To Henze Faulk.|C|Paladin|
-A The Tome of Divinity|QID|1787|M|72.59,51.41|N|From Henze Faulk.|PRE|1786|C|Paladin|
-C The Tome of Divinity|QID|1787|M|74.03,51.84|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|C|Paladin|
-R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|N|Return to the southern shoreline of Stone Cairn Lake.|C|Paladin|
-
-C Bounty on Murlocs|QID|46|L|780 8|N|Kill murlocs until you collect the torn fins needed.|
-T Cloth and Leather Armor|QID|59|M|79.46,68.79|N|To Sara Timberlain in Eastvale Logging Camp.|
-T Bounty on Murlocs|QID|46|M|73.97,72.18|N|To Guard Thomas.|
-
-K Morgan the Collector|ACTIVE|147|M|70.97,80.49|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which aggro at the same time.|
-
-R Redridge Mountains|QID|244|M|8.98,71.72|Z|Redridge Mountains|N|Go to Redridge Mountains.|
-A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|Redridge Mountains|N|From Guard Parker.|
-T Encroaching Gnolls|QID|244|M|30.74,60.00|Z|Redridge Mountains|N|To Deputy Feldon.|
-A Assessing the Threat|QID|246|PRE|244|M|30.74,60.00|Z|Redridge Mountains|N|From Deputy Feldon.|
-f Lakeshire|QID|65|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
-F Stormwind|ACTIVE|147^1787|M|30.60,59.40|Z|Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
-
-T The Tome of Divinity|QID|1787|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
-A The Tome of Divinity|QID|1788|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm.|PRE|1787|
-T The Tome of Divinity|QID|1788|C|Paladin|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
-R Elwynn Forest|ACTIVE|147|M|32.03,49.18|N|Make your way to the front gate.|
-T Manhunt|QID|147|M|42.1,65.9|N|To Marshall Dughan in Goldshire.|
-
-H Sentinel Hill|ACTIVE|6285|N|If your hearthstone isn't available or set there, you can always fly.|
-; --- Guide ends in Sentinel Hill, Westfall
+; -- This guide ends in Thelsamar, Loch Modan
 
 ]]
 end)

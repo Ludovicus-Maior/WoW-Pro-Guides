@@ -1,10 +1,15 @@
-local guide = WoWPro:RegisterGuide('ElidionAlli_IV', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 1)
+--[[
+WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+--]]
+
+local guide = WoWPro:RegisterGuide('ClassicAlliance5560', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Alliance Leveling 50-60')
 WoWPro:GuideLevels(guide,55, 59)
 WoWPro:GuideNextGuide(guide, 'ElidionDun_BRD')
-WoWPro:GuideName(guide, 'Elidion\'s Leveling - Ch. 4')
-WoWPro:GuideIcon(guide, "ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0.50,0.75})
 WoWPro:GuideSteps(guide, function()
 return [[
+A Taking Back Silithus|QID|8275|M|58.52,47.33|Z|Ironforge|N|From Cenarion Emissary Jademoon.|
 F Chillwind Camp|QID|5544|M|55.54,47.75|Z|Ironforge|N|Fly to Western Plaguelands.|
 A Scholomance|QID|5533|M|42.70,84.03|Z|Western Plaguelands|N|From Commander Ashlam Valorfist.|LVL|55|PRE|5097|
 A A Plague Upon Thee|QID|5903|M|43.43,84.83|Z|Western Plaguelands|N|From Nathaniel Durnah.|
@@ -261,7 +266,18 @@ T Wasteland|QID|1124|M|81.87,18.92|Z|Silithus|N|To Layo Starstrike.|
 A The Spirits of Southwind|QID|1125|M|81.87,18.92|Z|Silithus|N|From Layo Starstrike.|LVL|54|PRE|1124|
 K Desert Stormers|QID|6805|M|16.2,27.8|Z|Silithus|QO|1|S|N|Kill Dust Stormer.|
 K Desert Rumblers|QID|6805|M|17.4,17.8|Z|Silithus|QO|2|S|N|Kill Desert Rumbler.|
+T Taking Back Silithus|QID|8275|M|51.15,38.27|Z|Silithus|N|To Windcaller Proudhorn.|
+A Securing the Supply Lines|QID|8280|M|51.15,38.27|Z|Silithus|N|From Windcaller Proudhorn.|
+A Wanted - Deathclasp, Terror of the Sands|QID|8283|M|51.35,38.28|Z|Silithus|ELITE|N|[color=ff8000]Elite: [/color]From the Wanted Poster: Deathclasp.|
+A Desert Recipe|QID|8307|M|51.89,39.15|Z|Silithus|P|Cooking;185;0+285;0|N|From Calandrath.|
+A Deadly Desert Venom|QID|8277|M|51.70,38.58|Z|Silithus|N|From Beetix Ficklespragg upstairs.|
+A The Twilight Mystery|QID|8284|M|49.66,37.44|Z|Silithus|N|From Geologist Larksbane.|
+A Secret Communication|QID|8318|M|48.57,37.75|Z|Silithus|N|From Bor Wildmane.|LVL|57|
+A Report to Marshal Bluewall|QID|9415|M|50.69,34.70|Z|Silithus|N|From Rifleman Torrig.|
 f Cenarion Hold|M|50.59,34.45|Z|Silithus|N|Get the Flightpath in Silithus from Cloud Skydancer.|
+T Desert Recipe|QID|8307|M|37.94,45.31|Z|Silithus|
+A Sharing the Knowledge|QID|8313|PRE|8307|M|37.94,45.31|Z|Silithus|
+
 C The Spirits of Southwind|QID|1125|M|61.58,50.91|Z|Silithus|N|Free the spirits of Tortured Druids and Tortured Sentinels.|
 T The Spirits of Southwind|QID|1125|M|81.87,18.92|Z|Silithus|N|To Layo Starstrike.|
 A Hive in the Tower|QID|1126|M|81.87,18.92|Z|Silithus|N|From Layo Starstrike.|LVL|54|PRE|1125|

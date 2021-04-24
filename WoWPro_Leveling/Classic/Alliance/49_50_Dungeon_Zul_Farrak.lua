@@ -1,8 +1,12 @@
-local guide = WoWPro:RegisterGuide('ElidionDun_ZF', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 1)
-WoWPro:GuideLevels(guide,46, 52)
-WoWPro:GuideNextGuide(guide, 'ElidionAlli_III')
+--[[
+WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+--]]
+
+local guide = WoWPro:RegisterGuide('Dungeon_ZF', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Dungeon: Zul\'Farrak')
-WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
+WoWPro:GuideLevels(guide,49, 50)
+WoWPro:GuideNextGuide(guide, 'ClassicAlliance5055')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Mallet of Zul'Farrak|QID|2770|M|48.6,68|Z|The Hinterlands|N|If you want to have the complete experience, and be certain to have a shot at Gahz'rilla you should try and get the mallet. It an be tough, especially solo but it can be done, easier for some classes. It will also help you find a group if you are trying to pug it. It takes place in the hinterlands so if you want to go for it then continue on. If you don't care or if you know someone that already has it then feel free to skip to the next part.|
@@ -24,7 +28,7 @@ T The Altar of Zul|QID|2989|M|9.75,44.47|Z|The Hinterlands|N|To Gryphon Master T
 A Thadius Grimshade|QID|2990|M|9.75,44.47|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|2989|
 
 F Blasted Lands|ACTIVE|2990|M|11.07,46.16|Z|The Hinterlands|N|Fly to Arathi Highlands.|
-T Thadius Grimshade|QID|2990|M|66.90,19.47|Z|Blasted Lands|N|To Thadius Grimshade. Up on top of the tower. Skip follow-up unless you intend on doing Zul'Farrak.|
+T Thadius Grimshade|QID|2990|M|66.90,19.47|Z|Blasted Lands|N|To Thadius Grimshade. Up on top of the tower.|
 A Nekrum's Medallion|QID|2991|M|66.90,19.46|Z|Blasted Lands|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Thadius Grimshade. Up at the top of the tower. Now make your way back to Kalimdor|PRE|2990|
 
 A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tabetha. Fly to Theramore if you want to grab this quest.|

@@ -1,10 +1,12 @@
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+--[[
+WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+--]]
 
 local guide = WoWPro:RegisterGuide('ClassicDarkshore1220', 'Leveling', 'Darkshore', 'Hairbo', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Darkshore 12-20')
 WoWPro:GuideLevels(guide, 11, 20, 13)
-WoWPro:GuideNextGuide(guide, 'ClassicRedridge1517')
+WoWPro:GuideNextGuide(guide, 'ClassicAlliance1925')
 WoWPro:GuideSteps(guide, function() return [[
 
 ; --- This guide begins in Darnassus
@@ -130,9 +132,6 @@ T Gathering the Cure|QID|6123|C|Druid|M|37.67,40.70|N|To Alanndarian Nightsong.|
 A Curing the Sick|QID|6124|C|Druid|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6123|
 C Curing the Sick|QID|6124|C|Druid|S|N|They are all over the place.|U|15826|NC|
 C Tharnariun's Hope|QID|2139|M|52.37,35.88;52.71,36.65;51.6, 37.6|CS|N|Pull one of the Thistle Cubs and they will all run at you, burn one of the cubs down quickly and run away. Rinse and repeat until all 4 cubs are dead. Pull the Den Mother and kill her.|
-U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12342|M|50.65,34.99|N|Interact with the Blackwood Grain Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
-U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12343|M|51.79,33.46|N|Interact with the Blackwood Nut Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
-U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12341|M|52.88,33.39|N|Interact with the Blackwood Fruit Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
 C Cave Mushrooms|QID|947|M|55,35|N|Head inside the cave and go to the right to find a Death Cap. The Scaber Stalks can be found all over the cave.  |NC|
 C The Tower of Althalaxx|QID|966|M|55.41,26.86|N|Do not enter the tower. Kill fanatics around the outside.|
 T The Tower of Althalaxx|QID|966|M|54.9,24.9|N|To Balthule Shadowstrike.|
@@ -230,6 +229,9 @@ R Darnassus|ACTIVE|741|M|55.88,89.55|Z|Teldrassil|
 T The Absent Minded Prospector|QID|741|M|31.23,84.41|Z|Darnassus|N|To Chief Archaeologist Greywhisker.|
 A The Absent Minded Prospector|QID|942|PRE|741|M|31.23,84.41|Z|Darnassus|N|From Chief Archaeologist Greywhisker.|
 F Auberdine|AVAILABLE|2098|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
+U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12342|M|50.65,34.99|N|Interact with the Blackwood Grain Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
+U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12343|M|51.79,33.46|N|Interact with the Blackwood Nut Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
+U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12341|M|52.88,33.39|N|Interact with the Blackwood Fruit Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
 C The Blackwood Corrupted|QID|4763|M|52.5, 33.5|U|12347|N|Clear the furbolgs at the center of the camp and use your Filled Cleansing Bowel on the bonfire, all the furbolgs near by will run to the bonfire but don't panic. \nA hostile Satyr named Xabraxxis will spawn who you need to kill and then loot his bag. \nDo note, if you die you have a short amount of time to run back before he despawns. Otherwise you will have to abandon and start the quest again in Auberdine or wait for someone else to spawn him. \nYou do not have be the one to kill him to get the bag. As long as you are there when he dies and get to it before it despawns.|
 C Fruit of the Sea|QID|1138|M|50.00,22.00|US|N|Kill Reef Crawlers and Encrusted Tide Crawlers until you have 6 Fine Crab Chunks.|
 ; Druid class quest line for swim form
