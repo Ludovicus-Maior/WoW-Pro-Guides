@@ -27,11 +27,11 @@ C Air Reinforcements|ACTIVE|63578|M|48.68,37.58|Z|2005|SO|5|V|N|Mount the Traine
 C A Wing and a Slime|ACTIVE|63578|M|48.68,39.89|Z|2005|SO|6|N|Kill the Mawsworn by shooting the flayedwings slime at them.|
 C To the Top of the Falls|ACTIVE|63578|M|47.96,40.25|Z|2005|SO|7|N|Kill Soulburner Fraxin.|
 C Rebirth, in Peril|ACTIVE|63578|M|47.57,43.80|Z|2005|SO|8|NC|N|Click on Wildseeds to rescue them.|
-C The Forest Answers|ACTIVE|63578|M|47.86,46.25|Z|2005|SO|9<1|NC|N|Click the Large banner to rally your allies.|
-C The Forest Answers|ACTIVE|63578|M|48.93,41.22|Z|2005|SO|9<2|NC|N|Click the Large banner to rally your allies.|
+C The Forest Answers|ACTIVE|63578|M|47.86,46.25|Z|2005|SO|9;1<1|NC|N|Click the Large banner to rally your allies.|
+C The Forest Answers|ACTIVE|63578|M|48.93,41.22|Z|2005|SO|9;1<2|NC|N|Click the Large banner to rally your allies.|
 C Breakthrough|ACTIVE|63578|M|49.66,42.71|SO|10|N|Kill the waves of enemies pouring out of the portal, ending with the elite.|
 C The Battle of Ardenweald|QID|63578|M|49.66,42.75|QO|2|NC|N|Fight in the Battle of Ardenweald.|
-T The Battle of Ardenweald|QID|63578|M|49.58,42.97|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|
+T The Battle of Ardenweald|QID|63578|M|48.72,43.34|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|
 A Can't Turn Our Backs|QID|63638|PRE|63578|M|49.66,42.97|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|
 C Can't Turn Our Backs|QID|63638|M|47.07,48.59|Z|Ardenweald!The Shadowlands|CHAT|N|Speak with the Winter Queen.|
 T Can't Turn Our Backs|QID|63638|M|47.07,48.59|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|
@@ -52,10 +52,10 @@ C Link to the Maw|QID|63661|M|46.90,41.70|Z|The Maw|CHAT|N|Speak with Ve'nari.|
 T Link to the Maw|QID|63661|M|46.90,41.70|Z|The Maw|N|To Ve'nari.|
 A Mysteries of the Maw|QID|63662|PRE|63661|M|46.90,41.70|Z|The Maw|N|From Ve'nari.|
 C Mysteries of the Maw|QID|63662|M|47.19,43.34|Z|The Maw|QO|1|NC|N|Click on the Animaflow teleporter.|
-C Mysteries of the Maw|QID|63662|M|58.37,14.34|Z|Korthia|QO|2|CHAT|N|Speak with Ve'nari then her followe her.|
+C Mysteries of the Maw|QID|63662|M|58.35,14.36|Z|Korthia|QO|2|NC|N|Stay close to Ve'nari and followe her to Korthia.|
 T Mysteries of the Maw|QID|63662|M|58.36,14.35|Z|Korthia|N|To Ve'nari.|
 A Korthia, the City of Secrets|QID|63663|PRE|63662|M|58.36,14.35|Z|Korthia|N|From Ve'nari.|
-C Korthia, the City of Secrets|QID|63663|M|58.36,14.35|Z|Korthia|CHAT|N|Speak with Ve'nari.|
+C Korthia, the City of Secrets|QID|63663|M|58.36,14.35|Z|Korthia|QO|1|CHAT|N|Speak with Ve'nari.|
 C Korthia, the City of Secrets|QID|63663|M|58.62,20.78|Z|Korthia|QO|2|NC|N|Group of attendants investigated.|
 T Korthia, the City of Secrets|QID|63663|M|63.89,23.80|Z|Korthia|N|To Tal-Galan.|
 A Who is the Maw Walker?|QID|63994|PRE|63663|M|63.89,23.80|Z|Korthia|N|From Tal-Galan.|
@@ -67,16 +67,16 @@ P Opening to Oribos|QID|63665|ACTIVE|63665|M|64.47,24.04|Z|Korthia|QO|2|NC|N|Cli
 T Opening to Oribos|QID|63665|M|39.75,36.88|Z|Ring of Transference@Oribos|N|To Highlord Bolvar Fordragon.|
 A Charge of the Covenants|QID|64007|PRE|63665|M|39.75,36.88|Z|Ring of Transference@Oribos|N|From Highlord Bolvar Fordragon.|
 C Charge of the Covenants|QID|64007|M|39.75,36.88|Z|Ring of Transference@Oribos|QO|1|NC|N|Use the "[color=40C7EB]Rallying[/color]" button to get the army into the maw.|EAB|
-C Charge of the Covenants|QID|64007|ACTIVE|64007|M|30.79,23.31|Z|Ring of Transference@Oribos|QO|2|NC|N|Run through the newly opened portal to Korthia in the maw.|
-T Charge of the Covenants|QID|64007|M|62.62,24.90|Z|Korthia|N|To Highlord Bolvar Fordragon.|
-A A Unified Effort|QID|64106|PRE|64007|M|62.61,24.89|Z|Korthia|N|From Highlord Bolvar Fordragon.| ; might not be part of campaign
-A A Show of Gratitude|QID|63848|PRE|64007|M|62.66,24.74|Z|Korthia|N|From Tal-Galan.|
+P Korthia|QID|64007|ACTIVE|64007|M|30.79,23.31|Z|Ring of Transference@Oribos|NC|N|Run through the newly opened portal to Korthia in the maw.|
+T Charge of the Covenants|QID|64007|M|63.04,25.74|Z|Korthia|N|To Highlord Bolvar Fordragon.|
+A A Show of Gratitude|QID|63848|PRE|64007|M|62.93,24.82|Z|Korthia|N|From Tal-Galan.|
 T A Show of Gratitude|QID|63848|M|65.99,22.96|Z|Korthia|N|To Ve'nari.|
 A Ease of Passage|QID|63855|PRE|63848|M|65.99,22.96|Z|Korthia|N|From Ve'nari.|
-C Ease of Passage|QID|63855|M|65.05,23.81|Z|Korthia|QO|1|NC|N|Suitable location found.|
-C Ease of Passage|QID|63855|M|64.97,23.67|Z|Korthia|QO|2|NC|N|Click Animaflow teleporter to imprint your signature.|
-C Ease of Passage|QID|63855|M|66.00,23.14|Z|Korthia|QO|3|NC|N|Click on Ve'nari's bag on the ground.|
-F Ve'nari's Refuge|QID|63855|ACTIVE|63855|M|66.00,23.14|Z|Korthia|QO|4|NC|N|Click on the Animaflow teleporter and fly back to Ve'nari's Refuge.|
+C Ease of Passage|QID|63855|M|65.05,23.81|Z|Korthia|QO|1|CHAT|N|Speak with Ve'nari.|
+C Ease of Passage|QID|63855|M|64.97,23.67|Z|Korthia|QO|2|NC|N|Walk behind the waygate.|
+C Ease of Passage|QID|63855|M|64.97,23.67|Z|Korthia|QO|3|NC|N|Click Animaflow teleporter to imprint your signature.|
+C Ease of Passage|QID|63855|M|66.00,23.14|Z|Korthia|QO|4|NC|N|Click on Ve'nari's bag on the ground.|
+F Ve'nari's Refuge|QID|63855|ACTIVE|63855|M|64.97,23.67|Z|Korthia|QO|5|N|Click on the Animaflow teleporter and fly back to Ve'nari's Refuge.|
 T Ease of Passage|QID|63855|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|
 A Grab Bag|QID|63895|PRE|63855|M|46.91,41.70|Z|The Maw|N|From Ve'nari.|
 C Grab Bag|QID|63895|M|46.89,41.54|Z|The Maw|QO|1|NC|N|Click on the Transferral Augmentor on the ground next to you.|
@@ -86,7 +86,7 @@ A Hearing Aid|QID|63849|PRE|63895|M|61.66,59.08|Z|The Maw|N|From Projection of V
 C Hearing Aid|QID|63849|M|61.66,59.08|Z|The Maw|QO|2|NC|N|Click the "[color=40C7EB]Ethereal Cloak[/color]" to make yourself invisible.|EAB|
 C Hearing Aid|QID|63849|M|64.76,57.69|Z|The Maw|QO|1|NC|N|Click the outline to place the Aural Sequencer Prime.|
 C Hearing Aid|QID|63849|M|67.69,58.46|Z|The Maw|QO|3|NC|N|Click the outline to place the Aural Sequencer Relay. It is located under the platform.|EAB|
-C Hearing Aid|QID|63849|M|64.30,50.62|Z|The Maw|QO|4|NC|N|Click the outline to place the Aural Sequencer Ground.|
+C Hearing Aid|QID|63849|M|64.30,50.62|Z|The Maw|QO|4|NC|N|Click the outline to place the Aural Sequencer Ground.|EAB|
 T Hearing Aid|QID|63849|M|64.36,50.58|Z|The Maw|N|To Projection of Ve'nari.|
 A Birds of a Feather|QID|63810|PRE|63849|M|64.36,50.58|Z|The Maw|N|From Projection of Ve'nari.|
 C Birds of a Feather|QID|63810|M|67.28,55.78|Z|The Maw|NC|N|Follow the trail of feathers.|EAB|
@@ -97,7 +97,7 @@ C The Caged Bird|QID|63754|M|67.30,55.76|Z|The Maw|QO|2|NC|N|Mawsworn cage unloc
 T The Caged Bird|QID|63754|M|67.02,56.01|Z|The Maw|N|To Danica the Reclaimer.|
 A Claim the Sky|QID|63764|PRE|63754|M|67.02,56.01|Z|The Maw|N|From Danica the Reclaimer.|
 C Claim the Sky|QID|63764|M|67.02,56.01|Z|The Maw|QO|1|CHAT|N|Speak with Danica.|
-C Claim the Sky|QID|63764|M|57.60,58.91|Z|Skyhold!Instance|QO|2|NC|N|Escape the Maw.|
+C Claim the Sky|QID|63764|M|57.60,58.91|Z|Skyhold!Instance|QO|2|NC|N|There is nothing to do, wait for her to bring you to skyhold.|
 T Claim the Sky|QID|63764|M|57.60,58.91|Z|Skyhold!Instance|N|To Danica the Reclaimer.|
 A A Hate, Hate Relationship|QID|63811|PRE|63764|M|57.60,58.91|Z|Skyhold!Instance|N|From Danica the Reclaimer.|
 C A Hate, Hate Relationship|QID|63811|M|58.43,78.57|Z|Skyhold!Instance|QO|1|NC|N|Walk with Danica to Odyn.|
@@ -107,7 +107,7 @@ T A Hate, Hate Relationship|QID|63811|M|58.33,85.23|Z|Skyhold!Instance|N|To Odyn
 A Fury Given Voice|QID|63831|PRE|63811|M|58.33,85.23|Z|Skyhold!Instance|N|From Odyn.|
 A The Chosen Few|QID|63844|PRE|63811|M|58.33,85.23|Z|Skyhold!Instance|N|From Odyn.|
 C The Chosen Few|QID|63844|M|73.02,35.07|Z|Skyhold!Instance|QO|1|NC|N|Horn of Challenge used.|
-C The Chosen Few|QID|63844|M|77.21,36.85|Z|Skyhold!Instance|QO|2|NC|N|Defeat 3 Val'kyr's in the Arena of Glory.|
+C The Chosen Few|QID|63844|M|77.21,36.85|Z|Skyhold!Instance|QO|2|NC|N|Defeat Val'kyr's in the circle of Glory until the 3 are chosen.|
 T The Chosen Few|QID|63844|M|72.92,37.89|Z|Skyhold!Instance|N|To Weaponmaster Asvard.|
 C Fury Given Voice|QID|63831|M|39.93,36.60|Z|Skyhold!Instance|QO|1|CHAT|N|Talk to Smith Helgar.|
 C Fury Given Voice|QID|63831|M|40.28,34.08|Z|Skyhold!Instance|QO|2|NC|N|Click on the ingredients Helgar asks for to assist in forging the Horn.|
@@ -205,5 +205,9 @@ C Finding One's True Purpose|QID|63737|M|35.91,32.18|Z|Korthia|QO|2|NC|N|Wait fo
 T Finding One's True Purpose|QID|63737|M|36.07,32.33|Z|Korthia|N|To Scholar Roh-Suir.|
 A Establishing the Archive|QID|63738|PRE|63737|M|36.07,32.33|Z|Korthia|N|From Scholar Roh-Suir.|
 T Establishing the Archive|QID|63738|M|61.57,21.79|Z|Korthia|N|To Scholar Roh-Suir.|
+
+
+; Yet another storyline
+
 ]]
 end)
