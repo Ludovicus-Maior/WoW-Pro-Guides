@@ -541,7 +541,7 @@ F Camp Taurajo|QID|882|M|51.50,30.33|N|Fly back to Camp Taurajo.|
 T Ishamuhale|QID|882|M|44.86,59.14|N|To Jorn Skyseer.|
 A Enraged Thunder Lizards|QID|907|M|44.86,59.14|N|From Jorn Skyseer.|PRE|882|
 C Enraged Thunder Lizards|QID|907|L|5143 3|N|You'll find the Thunder Lizards spread out all around the area of Camp Taurajo. So, pick a direction and go kill Thunder Lizards to collect their blood.|
-N Rare Spawn Kill Quests|AVAILABLE|883^884^885^897|N|Jorn Skyseer has 4 optional rare spawn quests that you can complete and turn in to him in Camp Taurajo.\n1) Lakota'mani, a gray Kodo. He has a long-ish patrol route and a long respawn time, so you might not find him.\n2) Owatanka, a blue thunder lizard. He spawns in the hills east and west of Camp Taurajo.\n3) Washte Pawne \n4) The Harvester\n\nYou will only come across the first 2 in this guide. Don't go out of your way to find them.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|RARE|
+N Rare Spawn Kill Quests|ACTIVE|907|AVAILABLE|883^884^885^897|N|Jorn Skyseer has 4 optional rare spawn quests that you can complete and turn in to him in Camp Taurajo.\n1) Lakota'mani, a gray Kodo. He has a long-ish patrol route and a long respawn time, so you might not find him.\n2) Owatanka, a blue thunder lizard. He spawns in the hills east and west of Camp Taurajo.\n3) Washte Pawne \n4) The Harvester\n\nYou will only come across the first 2 in this guide. Don't go out of your way to find them.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|RARE|
 A Lakota'mani|QID|883|N|From Hoof of Lakota'mani.|U|5099|O|
 A Owatanka|QID|884|N|From Owatanka's Tailspike.|U|5102|O|
 T Enraged Thunder Lizards|QID|907|M|44.86,59.14|N|To Jorn Skyseer back at Camp Taurajo.|
@@ -601,15 +601,13 @@ H Camp Taurajo|AVAILABLE|-2480|ACTIVE|-2480|R|Orc,Troll,Undead|C|Rogue|IZ|Hillsb
 ; --- Ashenvale
 F Splintertree Post|ACTIVE|6382^235^742|M|45.13,63.90|Z|Orgrimmar|IZ|Orgrimmar|
 F Splintertree Post|ACTIVE|6382^235^742|M|44.44,59.15|IZ|Camp Taurajo|
-
 T The Ashenvale Hunt|QID|6382^235^742|M|73.77,61.46|Z|Ashenvale|N|To Senani Thunderheart.|
 A The Ashenvale Hunt|QID|6383|M|73.77,61.46|Z|Ashenvale|N|From Senani Thunderheart.|
-N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quests.\nAs the lowest level of the 3 quests does not grey until level 32 AND the mobs are WAY above our current level, we will not being doing it at this time.|
+N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quests.\nAs the lowest level of the 3 quests does not grey until level 32 AND the mobs are WAY above our current level, we will not being doing it at this time.\n[color=FF0000]NOTE: [/color]This quest doesn't show in your log. It just unlocks the 3 quests (which don't show either).|
 ; -- The quests are listed below for future reference
 ;C Shadumbra's Head|QID|24|Z|Ashenvale|N|Kill the cat, Shadumbra, for its head.|PRE|6383|
 ;C Sharptalon's Claw|QID|2|Z|Ashenvale|N|Kill the blue bird, Sharptalon, for its claw.|PRE|6383|
 ;C Ursangous's Paw|QID|23|Z|Ashenvale|N|Kill the grey bear, Ursangous, for its paw.|PRE|6383|
-
 F Sun Rock Retreat|QID|6421|M|73.18,61.59|Z|Ashenvale|
 ]]
 end)
