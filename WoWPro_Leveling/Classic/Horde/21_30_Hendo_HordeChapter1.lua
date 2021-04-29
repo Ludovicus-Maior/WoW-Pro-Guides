@@ -46,34 +46,36 @@ T Arachnophobia|QID|6284|M|47.20,61.16|N|To Maggran Earthbinder.|
 T Boulderslide Ravine|QID|6421|M|47.22,64.05|N|To Mor'rogal at his camp in the hills overlooking Sun Rock.|
 A Earthen Arise|QID|6481|M|47.22,64.05|ELITE|N|From Mor'rogal.|PRE|6421|
 F Thunder Bluff|ACTIVE|1063|M|45.13,59.84|N|Fly to Thunder Bluff.|
-T The Elder Crone|QID|1063|M|70.02,30.90|Z|Thunder Bluff|N|To Magatha Grimtotem.|
-A Forsaken Aid|QID|1064|M|70.02,30.90|Z|Thunder Bluff|N|From Magatha Grimtotem.|PRE|1063|
+T The Elder Crone|QID|1063|M|69.86,30.93|Z|Thunder Bluff|N|To Magatha Grimtotem.|
+A Forsaken Aid|QID|1064|M|69.86,30.93|Z|Thunder Bluff|N|From Magatha Grimtotem.|PRE|1063|
 R The Pools of Vision|ACTIVE|1064|M|30.50,30.48|CC|Z|Thunder Bluff|
 T Forsaken Aid|QID|1064|M|22.84,20.93|Z|Thunder Bluff|N|To Apothecary Zamah.|
 A Journey to Tarren Mill|QID|1065|M|22.84,20.93|Z|Thunder Bluff|N|From Apothecary Zamah.|PRE|1064|
 
 ; --- Ashenvale
 F Splintertree Post|AVAILABLE|6571|M|47.02,49.83|Z|Thunder Bluff|
-A Warsong Supplies|QID|6571|M|71.44,67.67|Z|Ashenvale|N|From Locke Okarr; by the south watchtower.|
+A Warsong Supplies|QID|6571|M|71.40,67.64|Z|Ashenvale|N|From Locke Okarr; by the south watchtower.|
 
 ; --- Silverpine Forest
-F Orgrimmar|QID|443|M|73.18,61.59|Z|Ashenvale|N|Fly to Orgrimmar.|
-h Orgrimmar|QID|443|M|54.61,67.78|Z|Orgrimmar|N|At Barkeeper Morag.\nThis will be a better option the next time you need to use your hearth.|
-R Leave Orgrimmar|QID|443|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
-b Tirisfal Glades|QID|443|M|50.88,13.83|Z|Durotar|N|Take the Zeppelin to Tirisfal Glades.|
-R Undercity|QID|443|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
-f Undercity|QID|443|M|63.86,48.04|Z|Undercity|N|Grab the FP from Michael Garrett.|TAXI|-Undercity|
-F The Sepulcher|QID|443|M|63.27,48.55|Z|Undercity|N|Fly to The Sepulcher.|TAXI|The Sepulcher|
-; --- If you do not have the FP in The Sepulcher
-R Leave Undercity|QID|443|M|65.99,36.85;66.22,0.90|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|TAXI|-The Sepulcher|
-R Silverpine Forest|QID|443|M|54.46,74.62|Z|Tirisfal Glades|CC|N|Head over to the road and follow it south into Silverpine Forest.|TAXI|-The Sepulcher|
-R The Sepulcher|QID|443|M|46.21,41.59|CC|N|Head south until you reach the Sepulcher.|TAXI|-The Sepulcher|
-f The Sepulcher|QID|443|M|45.62,42.60|N|Karos Razok|TAXI|-The Sepulcher|
+F Orgrimmar|AVAILABLE|437|M|73.18,61.59|Z|Ashenvale|N|Fly to Orgrimmar.|
+h Orgrimmar|AVAILABLE|437|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|
+b Tirisfal Glades|AVAILABLE|437|M|50.88,13.83|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
+; --- If you don't have the FP in Undercity
+R Undercity|AVAILABLE|437|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|TAXI|-Undercity|
+f Undercity|AVAILABLE|437|M|63.86,48.04|Z|Undercity|N|Grab the flight path from Michael Garrett.|TAXI|-Undercity|
+; If you have the FP in Sepulcher
+F The Sepulcher|AVAILABLE|437|M|63.86,48.04|Z|Undercity|TAXI|The Sepulcher|IZ|Undercity|
+; If you don't have the FP in Sepulcher
+R Leave Undercity|AVAILABLE|437|M|65.99,36.85;66.22,0.90|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|TAXI|-The Sepulcher|IZ|Undercity|
+; --- If you don't have the FP in Sepulcher but do have the FP in Undercity (No point going in if you can't go anywhere)
+R Silverpine Forest|AVAILABLE|437|M|54.46,74.62|Z|Tirisfal Glades|N|Head over to the road and follow it south into Silverpine Forest.|TAXI|-The Sepulcher|
+R The Sepulcher|AVAILABLE|437|M|46.21,41.59|N|Head south until you reach the Sepulcher.|TAXI|-The Sepulcher|
+f The Sepulcher|AVAILABLE|437|M|45.62,42.60|N|Karos Razok|TAXI|-The Sepulcher|
 ; ---
 ; --- Get and complete prequels if not done yet
 A The Dead Fields|QID|437|M|43.43,40.86|N|You'll find High Executor Hadrec down the stairs inside the crypt.|
 C The Dead Fields|QID|437|M|45,21|QO|1;2|N|Head SW to the Dead Fields. Nightlash may already be spawned in the middle of the field. But, if she isn't, kill all the Rot Hide Gnolls you see until she does.\n[color=FF0000]NOTE: [/color]You will want to clear the mobs as you go. They can overwhelm you quite easily.|
-R The Sepulcher|QID|437|M|46.30,41.55|Z|Silverpine Forest|N|Make your way back to The Sepulcher. Dealer's choice on how you wish to get there.|
+R The Sepulcher|AVAILABLE|438|M|46.30,41.55|Z|Silverpine Forest|N|Make your way back to The Sepulcher. Dealer's choice on how you wish to get there.|
 T The Dead Fields|QID|437|M|43.14,41.37;43.43,40.86|CS|N|To High Executor Hadrec inside the Crypt.|
 A The Decrepit Ferry|QID|438|M|43.43,40.86|N|From High Executor Hadrec.|PRE|437|
 R The Decrepit Ferry|ACTIVE|438|M|51.21,36.73;52.05,38.40;58.34,34.95|CC|N|Go to the Decrepit Ferry.\nBy sticking to the hillside around the edge, you can avoid some unnecessary fighting. The mobs in this area (Hand of Ravenclaw) can hit hard and they roam considerably.|
@@ -82,7 +84,7 @@ A Rot Hide Clues|QID|439|M|58.34,34.95|N|From the Decrepit Ferry.|PRE|438|
 T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.\nFollow the hillside just like you did to get here.|
 ; ---
 A Rot Hide Ichor|QID|443|M|43.43,40.86|Z|Silverpine Forest|CC|N|From High Executor Hadrec inside the crypt.|PRE|439|
-R Fenris Isle|QID|443|M|52.34,37.21;58.75,35.43;64.79,34.60;65.63,32.89|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
+R Fenris Isle|ACTIVE|443|M|52.34,37.21;58.75,35.43;64.79,34.60;65.63,32.89|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
 N A Talking Head|AVAILABLE|460|N|This item is drop that starts a quest chain. I highly recommend doing this chain as it rewards a half decent item and 3000 xp.|
 C Rot Hide Ichor|QID|443|L|3236 8|N|Kill Rot Hide Gnolls for the Ichor.|S|
 A Resting in Pieces|QID|460|U|3317|N|Click on the 'Talking Head' to start the quest.\n[color=FF0000]NOTE: [/color]Do this as soon as you get it.|O|
@@ -93,17 +95,17 @@ T The Hidden Niche|QID|461|M|65.34,24.81|Z|Silverpine Forest|N|Click on the Dust
 A Wand to Bethor|QID|491|M|65.34,24.81|Z|Silverpine Forest|N|From the Dusty Shelf.|PRE|461|
 R Fight or jump|ACTIVE|491|M|65.39,23.23|Z|Silverpine Forest|CC|N|You can either fight your way back out, or walk to the north edge of the roof and jump to the wall. Drop to the ground from here.|
 C Rot Hide Ichor|QID|443|QO|1|N|Finishing killing the Rot Hide Gnolls for the Ichor.|US|
-R The Sepulcher|QID|443|M|46.30,41.55|Z|Silverpine Forest|N|Make your way back to The Sepulcher. Dealer's choice on how you wish to get there.|
+R The Sepulcher|ACTIVE|443|M|46.30,41.55|Z|Silverpine Forest|N|Make your way back to The Sepulcher. Dealer's choice on how you wish to get there.|
 
 T Rot Hide Ichor|QID|443|M|42.89,40.86|Z|Silverpine Forest|N|To Apothecary Renferrel.|
 A Rot Hide Origins|QID|444|M|42.89,40.86|Z|Silverpine Forest|N|From Apothecary Renferrel.|PRE|443|
-F Undercity|QID|444|M|45.60,42.54|Z|Silverpine Forest|
+F Undercity|ACTIVE|491^444|M|45.60,42.54|Z|Silverpine Forest|
 
 T Wand to Bethor|QID|491|M|84.24,16.84|Z|Undercity|N|To Bethor Iceshard.|
 T Rot Hide Origins|QID|444|M|84.24,16.84|Z|Undercity|N|To Bethor Iceshard.|
 A Thule Ravenclaw|QID|446|M|84.24,16.84|Z|Undercity|N|From Bethor Iceshard.|PRE|444|
 A A Husband's Revenge|QID|530|M|62.02,42.75|Z|Undercity|N|From Raleigh Andrean in the Trade Quarter.|PRE|441|
-F The Sepulcher|QID|446|M|62.89,48.16|Z|Undercity|
+F The Sepulcher|ACTIVE|446|M|62.89,48.16|Z|Undercity|
 
 T Thule Ravenclaw|QID|446|M|42.88,40.84|Z|Silverpine Forest|N|To Apothecary Renferrel.\n[color=FF0000]NOTE: [/color]Make sure you hold onto the Bethor's Potion. You are going to need it later.|
 A Report to Hadrec|QID|448|M|42.88,40.84|Z|Silverpine Forest|N|From Apothecary Renferrel.|PRE|446|
@@ -113,7 +115,7 @@ A Beren's Peril|QID|516|M|44.04,40.87|Z|Silverpine Forest|N|From Shadow Priest A
 A The Weaver|QID|480|M|44.04,40.87|Z|Silverpine Forest|N|From Shadow Priest Allister.|PRE|479|
 
 R Ambermill|ACTIVE|480|M|51.34,36.98;55.71,64.46|Z|Silverpine Forest|CC|N|Make your way to Ambermill.|
-C The Weaver|QID|480|M|63.4,64.2|Z|Silverpine Forest|L|3515|N|Kill Ataeric and loot his staff.\n[color=FF0000]NOTE: [/color]You have to get past the 2 mages and their voidwalkers to get to Ataeric. You can aggro the mages one at a time. But, it's not easy.|
+C The Weaver|QID|480|M|63.4,64.2|Z|Silverpine Forest|L|3515|N|[coords]Kill Ataeric and loot his staff.\n[color=FF0000]NOTE: [/color]You have to get past the 2 mages and their voidwalkers to get to Ataeric. You can aggro the mages one at a time. But, it's not easy.|
 R Beren's Peril|ACTIVE|516|M|61.53,64.61;62.88,72.15;60.44,74.46;60.54,73.35|Z|Silverpine Forest|CC|N|Exit the building and follow the road south out of Ambermill. Stick to the mountains on the east side (right) and follow them around the bend.|
 R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way to the cave entrance.|
 C Beren's Peril|QID|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|
@@ -177,7 +179,7 @@ H Orgrimmar|ACTIVE|1067|N|This is why we changed our hearthstone.\n[color=FF0000
 F Thunder Bluff|ACTIVE|1067|M|45.50,63.84|Z|Orgrimmar|N|Fly to Thunder Bluff.|
 R The Pools of Vision|ACTIVE|1067|M|30.50,30.48|Z|Thunder Bluff|
 T Return to Thunder Bluff|QID|1067|M|22.90,21.03|Z|Thunder Bluff|N|To Apothecary Zamah.|
-A The Flying Machine Airport|QID|1086|M|22.84,20.93|Z|Thunder Bluff|N|From Apothecary Zamah.|
+A The Flying Machine Airport|QID|1086|M|22.84,20.93|Z|Thunder Bluff|N|From Apothecary Zamah.|PRE|1067|
 
 ; --- The Barrens
 F Ratchet|ACTIVE|1094|M|47.02,49.83|Z|Thunder Bluff|
@@ -199,13 +201,13 @@ b Ratchet|ACTIVE|6571|M|25.80,73.10|Z|Stranglethorn Vale|L|16745|N|Take the boat
 F Sun Rock Retreat|ACTIVE|1095|M|63.11,37.10|Z|The Barrens|
 R Windshear Crag|QID|1068|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
 T Further Instructions|QID|1095|M|58.99,62.60|N|Make your way to Ziz Fizziks' hut and turn in the quest.|
-A Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.60|N|From Ziz Fizziks.|
+A Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.60|N|From Ziz Fizziks.|PRE|1095|
 K XT:4|ACTIVE|1068|QO|1|N|Kill XT:4. It patrols the north side of the river.|T|XT:4|S|
 K XT:9|ACTIVE|1068|QO|2|N|Kill XT:9. It patrols the south side of the river.|T|XT:9|S|
 U The Flying Machine Airport|QID|1086|M|66.48,45.40|U|5638|N|Place the Toxic Fogger here.|
 C Gerenzo Wrenchwhistle|QID|1096|M|70.40,40.93;67.99,37.79;64.61,37.96;62.84,40.49|CS|L|5736|N|Make your way to the path leading up to the structure. Once you are there, work your way over to where Gerenzo is and kill him to loot his arm.|
 ;L Level 25
-N Shortcut down|QID|1096|N|Jump into the water and swim to shore.|
+N Shortcut down|ACTIVE|1096|N|Jump into the water and swim to shore.|IZ|
 K XT:4|ACTIVE|1068|QO|1|N|Kill XT:4. It patrols the north side of the river.|T|XT:4|US|
 K XT:9|ACTIVE|1068|QO|2|N|Kill XT:9. It patrols the south side of the river.|T|XT:9|US|
 T Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.57|N|To Ziz Fizziks.|
@@ -234,7 +236,7 @@ C New Life|QID|6381|QO|1|N|Gaea seed planted.|NC|US|
 R Sun Rock Retreat|ACTIVE|6393^6282|M|37.93,67.93;44.54,63.43|CC|N|Run back to Sun Rock Retreat.|
 T Elemental War|QID|6393|M|47.29,64.25|N|To Tsunaman.|
 T Harpies Threaten|QID|6282|M|47.18,61.10|N|To Maggran Earthbinder.|
-A Bloodfury Bloodline|QID|6283|M|47.18,61.10|N|From Maggran Earthbinder.|
+A Bloodfury Bloodline|QID|6283|M|47.18,61.10|N|From Maggran Earthbinder.|PRE|6282|
 A Calling in the Reserves|QID|5881|M|47.18,61.10|N|From Maggran Earthbinder.|
 A Cenarius' Legacy|QID|1087|M|46.04,60.49|N|From Braelyn Firehand.|
 T New Life|QID|6381|M|47.42,58.50|N|To Tammra Windfield.|
@@ -257,7 +259,7 @@ R Malaka'jin|ACTIVE|1058|M|71.57,90.59|N|Continue following the road south to Ma
 T Jin'Zil's Forest Magic|QID|1058|M|74.54,97.94|N|To Witch Doctor Jin'Zil.|
 R Sun Rock Retreat|ACTIVE|1087|M|49.58,60.99|N|Now that you've made some space in your bags, back to Sun Rock Retreat.|
 T Cenarius' Legacy|QID|1087|M|46.01,60.37|N|To Braelyn Firehand.|
-A Ordanus|QID|1088|M|46.01,60.37|N|From Braelyn Firehand.|
+A Ordanus|QID|1088|M|46.01,60.37|N|From Braelyn Firehand.|PRE|1087|
 
 ; --- Thunder Bluff
 F Thunder Bluff|ACTIVE|1086|M|45.13,59.84|
@@ -380,7 +382,7 @@ A Ashenvale Outrunners|QID|6503|M|71.15,68.17|Z|Ashenvale|N|From Kuray'bin.|
 A The Lost Pages|QID|6504|M|69.98,71.09|Z|Ashenvale|N|From Gurda Ragescar.|
 R The Dor'Danil Barrow Den|QID|2|M|72.85,70.56|Z|Ashenvale|
 N Sharptalon|AVAILABLE|2|N|While you are in the area, keep an eye out for Sharptalon, a lv 31 blue hippogryph that paths through the area. He is part of the 'Ashenvale Hunt' quest. He has a respawn rate of @ 15-20 minutes.\nIf you draw him towards the Forsaken by the tent, they will help you kill it.\n\nManually close this step.|PRE|6383|
-A Sharptalon's Claw|QID|2|U|16305|N|Right-click the item to activate the quest.|PRE|6383^235^742^6382|O|
+A Sharptalon's Claw|QID|2|U|16305|N|Right-click the item to activate the quest.|PRE|6383|O|
 C Ashenvale Outrunners|QID|6503|QO|1|N|Kill Ashenvale Outrunners. They are stealthed and spread out around amongst the trees. You will hear a sound when you're close to one and they are somewhat visible.|
 A Torek's Assault|QID|6544|M|68.33,75.33|Z|Ashenvale|ELITE|N|[color=FF00FF]Escort Quest:[/color]\nFrom Torek.\nThis is an 'escort' quest... sort of.\nBasically, you follow him and his troops as they kill things.\n[color=FF0000]NOTE: [/color]If he's not there, someone is on the quest and you'll have to wait for him to respawn.|
 A Torek's Assault|QID|6544|M|68.33,75.33|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Torek to restart the quest. If he's not there, someone is on the quest or he hasn't respawned yet. Just wait for him to respawn.|FAIL|
@@ -395,11 +397,11 @@ A The Befouled Element|QID|1918|U|16408|N|Click the item to activate the quest.|
 C Stonetalon Standstill|QID|25|QO|1|US|N|Finish killing Befouled Water Elementals|
 R The Talondeep Path|QID|23|AVAILABLE|-6383^235^742^6382|M|42.65,70.10|Z|Ashenvale|
 N Ursangous|QID|23|AVAILABLE|-6383^-235^-742^-6382|L|16303|N|Have a look around this area for a light-colored bear named Ursangous. He is part of the 'Ashenvale Hunt' quest. He circles the big tree in the center.|
-A Ursangous's Paw|QID|23|U|16303|N|Right-click the item to activate the quest.|PRE|6383^235^742^6382|O|
+A Ursangous's Paw|QID|23|U|16303|N|Right-click the item to activate the quest.|PRE|6383|O|
 R Raynewood Retreat|QID|1088|M|45.41,65.03;50.65,64.60;51.27,58.14;52.89,54.49;57.24,56.00|Z|Ashenvale|CC|N|There are at least 3 paths to get where you are going. This one is the most straight forward with the least resistance.\nYou will also be using a back way in to avoid the Alliance tower leading into the area. There is a guard that you cannot avoid aggroing.|
 C The Sacred Flame|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops the Etched Phial.|S|
 N Shadumbra|QID|24|AVAILABLE|-6383^235^742^6382|L|16304|N|While you are in the area of Raynewood Retreat, keep an eye out for Shadumbra, a nightsaber cat that paths in that area. She is part of the 'Ashenvale Hunt' quest.|
-A Shadumbra's Head|QID|24|U|16304|N|Right-click the item to activate the quest.|PRE|6383^235^742^6382|O|
+A Shadumbra's Head|QID|24|U|16304|N|Right-click the item to activate the quest.|PRE|6383|O|
 C Ordanus|QID|1088|M|62,51.2|Z|Ashenvale|QO|1|N|Climb to the top of the 'tower' and kill Ordanus and loot his head. You will encounter four lv 25-26 Druids (bear form) on your way up. Each one can be handled/pulled individually.\n[color=FF0000]NOTE: [/color]When you get to the top floor, Ordanus is inside flanked by two lv 26 Vindicators. There is no pulling them separately. Rush Ordanus and kill him as quickly as possibly. If you do not have any CC options, I recommend drawing them outside. That way, if you die after killing Ordanus, you can return and loot his head without worrying about the other two.|
 C Etched Phial|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops it.|US|
 C Moonwell|QID|1195|M|61.53,68.33;59.77,69.73;60.10,72.85|Z|Ashenvale|CC|L|5868|U|5867|N|Make your way to the Moonwell. You can follow the path all the way there, or just take the short cut.|NC|
@@ -446,7 +448,7 @@ C Chapter 3|QID|6504|QO|3|U|16653|L|16644|N|Combine Pages 9-12|NC|
 
 ; --- Ashenvale
 F Splintertree Post|ACTIVE|6571^6504^6482|M|45.50,63.84|Z|Orgrimmar|N|Back to Ashenvale.|
-T Warsong Supplies|QID|6571|M|71.44,67.67|Z|Ashenvale|N|To Locke Okarr; by the south watchtower.|
+T Warsong Supplies|QID|6571|M|71.40,67.64|Z|Ashenvale|N|To Locke Okarr; by the south watchtower.|
 T The Lost Pages|QID|6504|M|70.01,71.14|Z|Ashenvale|N|To Gurda Ragescar.|
 T Freedom to Ruul|QID|6482|M|74.12,60.91|Z|Ashenvale|N|To Yama Snowhoof.|
 ;L Level 30|QID|1088|LVL|30|N|You should be around level 30 by this point.|
