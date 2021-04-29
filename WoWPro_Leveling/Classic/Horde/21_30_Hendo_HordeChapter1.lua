@@ -8,42 +8,43 @@ WoWPro:GuideNextGuide(guide, 'Classic-31-40-Hendo-HordeChapter2')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Boulderslide Ravine|QID|6421|M|44.84,63.26;47.15,64.06|CC|N|From Mor'rogal. You'll find him just off the Charred Vale path.|
+A Boulderslide Ravine|QID|6421|M|47.22,64.05|N|From Mor'rogal. You'll find him just off the Charred Vale path\n[color=FF0000]NOTE: [/color]The path is in east corner. Look for the sign.|
 h Sun Rock Retreat|QID|1483|M|47.46,62.13|N|Head back down the path to the 'Inn' and set your hearthstone to Sun Rock Retreat.|
-R Windshear Crag|QID|1483|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
-T Ziz Fizziks|QID|1483|M|61.36,63.19;58.99,62.61|CC|N|Follow the road into Windshear Crag. Ziz Fizziks is inside a hut in a SW alcove.|
+R Windshear Crag|ACTIVE|1483|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
+T Ziz Fizziks|QID|1483|M|58.99,62.61|N|Follow the road into Windshear Crag. Ziz Fizziks is inside a hut in a SW alcove.|
 A Super Reaper 6000|QID|1093|M|58.99,62.61|N|From Ziz Fizziks.|
-C Goblin Invaders|QID|1062|QO|1|N|Kill Venture Co. Loggers.\n[color=FF0000]NOTE: [/color]Deforesters and Operators do not count.|S|
 C Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|S|
+K Goblin Invaders|QID|1062|QO|1|N|Kill Venture Co. Loggers.\n[color=FF0000]NOTE: [/color]Deforesters and Operators do not count.|S|
+N Lockpicking|ACTIVE|1062&1093|N|You'll find Battered Footlockers scattered around the area that you can open for some goodies and a skill point.\nCheck this step off to continue.|C|Rogue|
 R Head into Windshear Crag|QID|1062|M|63.35,57.72|CC|N|Head to the deforested area of Windshear Crag.|
-C Goblin Invaders|QID|1062|QO|1|N|Finish killing Venture Co. Loggers.|US|
 C Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|US|
+K Goblin Invaders|QID|1062|QO|1|N|Finish killing Venture Co. Loggers.\n[color=FF0000]NOTE: [/color]Deforesters and Operators do not count.|US|
 T Super Reaper 6000|QID|1093|M|58.99,62.61|N|To Ziz Fizziks.|
 A Further Instructions|QID|1094|M|58.99,62.61|N|From Ziz Fizziks.|PRE|1093|
-R Webwinder Path|QID|1062|M|59.79,71.19|N|Make your way back to the signpost at the Windshear Crag entrance.|
+R Webwinder Path|ACTIVE|6421|M|59.79,71.19|N|Make your way back to the signpost at the Windshear Crag entrance.|
 A Arachnophobia|QID|6284|M|59.08,75.72|ELITE|N|Follow the road south and get the quest from the Wanted Poster located beside the road.\n[color=FF0000]NOTE: [/color]Strongly recommended only to accept this quest if you are over level or can find a PUG to do this. Bessaleth is a lv 21 Elite mob.|
 R Sishir Canyon|ACTIVE|6284|M|58.25,75.98|N|Head over the hill into Sishir Canyon.|
 K Bessaleth|ACTIVE|6284|L|16192|N|Bessaleth is somewhere in here. She has multiple spawn points. Generally, you'll find her in one of the alcoves along the edge.|
-R Webwinder Path|QID|6421|ACTIVE|6284|M|58.25,75.98|N|Exit Sishir Canyon and head back to the road.|
+R Webwinder Path|ACTIVE|6421&6284|M|58.25,75.98|N|Exit Sishir Canyon and head back to the road.|
 R Boulderslide Ravine|ACTIVE|6421|M|67.69,86.82;66.24,89.37|CC|N|Follow the road south.|
 C Boulderslide Ravine|QID|6421|L|16581 10|N|Collect Resonite Crystals.|S|
 R Boulderslide Cavern|ACTIVE|6421|M|61.98,93.16|N|Make your way to the cave entrance.|
-R Investigate Cave|QID|6421|M|58.95,90.12|CC|N|Make your way to the water at the back of the cave to complete this step.|
+R Investigate Cave|ACTIVE|6421|M|58.95,90.12|QO|2|N|Make your way to the water at the back of the cave to complete this step.|
 ; Level 23
 C Boulderslide Ravine|QID|6421|L|16581 10|N|Finish collecting the Resonite Crystals.|US|
 R Webwinder Path|ACTIVE|6421|M|61.72,93.13;67.76,86.64|CC|N|Exit the cave and make your way back to the road.|
 R Malaka'jin|AVAILABLE|1058|M|71.82,91.70|CC|N|Follow the road south to Malaka'jin.|
-A Jin'Zil's Forest Magic|QID|1058|M|74.52,97.84|N|From Witch Doctor Jin'Zil.|
+A Jin'Zil's Forest Magic|QID|1058|M|74.54,97.94|N|From Witch Doctor Jin'Zil.|
 
 ; --- The Barrens
-R The Barrens|ACTIVE|1062|M|71.82,91.70;83.46,97.10|CC|N|Exit Malaka'jin and follow the road south to The Barrens border.|
-T Goblin Invaders|QID|1062|M|35.27,27.88|Z|The Barrens|N|To Seereth Stonebreak.|
-A The Elder Crone|QID|1063|M|35.27,27.88|Z|The Barrens|N|From Seereth Stonebreak.|PRE|1062|
-A Shredding Machines|QID|1068|M|35.27,27.88|Z|The Barrens|N|From Seereth Stonebreak.|PRE|1062|
-H Sun Rock Retreat|ACTIVE|6421|N|Hearth back to Sun Rock Retreat.|
+R The Barrens|ACTIVE|1062|M|72.95,93.74;83.53,97.88|CC|N|Exit Malaka'jin by taking the 'shortcut' along the canyon wall south to The Barrens border.|
+T Goblin Invaders|QID|1062|M|35.26,27.88|Z|The Barrens|N|To Seereth Stonebreak.|
+A The Elder Crone|QID|1063|M|35.26,27.88|Z|The Barrens|N|From Seereth Stonebreak.|PRE|1062|
+A Shredding Machines|QID|1068|M|35.26,27.88|Z|The Barrens|N|From Seereth Stonebreak.|PRE|1062|
+H Sun Rock Retreat|ACTIVE|6421^6284|M|49.51,61.02|N|Hearth back to Sun Rock Retreat.|
 T Arachnophobia|QID|6284|M|47.20,61.16|N|To Maggran Earthbinder.|
-T Boulderslide Ravine|QID|6421|M|44.84,63.26;47.15,64.06|CS|N|To Mor'rogal.|
-A Earthen Arise|QID|6481|M|47.15,64.06|ELITE|N|From Mor'rogal.|PRE|6421|
+T Boulderslide Ravine|QID|6421|M|47.22,64.05|N|To Mor'rogal at his camp in the hills overlooking Sun Rock.|
+A Earthen Arise|QID|6481|M|47.22,64.05|ELITE|N|From Mor'rogal.|PRE|6421|
 F Thunder Bluff|ACTIVE|1063|M|45.13,59.84|N|Fly to Thunder Bluff.|
 T The Elder Crone|QID|1063|M|70.02,30.90|Z|Thunder Bluff|N|To Magatha Grimtotem.|
 A Forsaken Aid|QID|1064|M|70.02,30.90|Z|Thunder Bluff|N|From Magatha Grimtotem.|PRE|1063|
@@ -162,18 +163,18 @@ T Elixir of Suffering|QID|499|M|61.49,19.16|Z|Hillsbrad Foothills|N|To Umpi behi
 T Elixir of Pain|QID|501|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up. You can get it when you return later.|
 
 ; --- Silverpine Forest
-F The Sepulcher||QID|516|M|60.19,18.69|Z|Hillsbrad Foothills|
+F The Sepulcher|ACTIVE|516^480|M|60.19,18.69|Z|Hillsbrad Foothills|
 T Beren's Peril|QID|516|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
 T The Weaver|QID|480|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
 
 ; --- Undercity
-F Undercity|QID|530|M|45.62,42.60|Z|Silverpine Forest|N|Fly to Undercity.|
+F Undercity|ACTIVE|530|M|45.62,42.60|Z|Silverpine Forest|N|Fly to Undercity.|
 T A Husband's Revenge|QID|530|M|62.00,42.73|Z|Undercity|N|To Raleigh Andrean.|
 
 ; --- Thunder Bluff
 N Quick visit back to the Barrens|ACTIVE|1067|N|This is probably the best time to make a quick trip back to Thunder Bluff to turn in a quest and to do any training (especially Druids). The goal is to be lv 25 when you return to Silverpine Forest.|
 H Orgrimmar|ACTIVE|1067|N|This is why we changed our hearthstone.\n[color=FF0000]NOTE: [/color]If your hearthstone is on CD, you're going to have to do it the long way by taking the zeppelin from Tirisfal Glade and flying from Orgrimmar to Thunder Bluff.|
-F Thunder Bluff|QID|1067|M|45.50,63.84|Z|Orgrimmar|N|Fly to Thunder Bluff.|
+F Thunder Bluff|ACTIVE|1067|M|45.50,63.84|Z|Orgrimmar|N|Fly to Thunder Bluff.|
 R The Pools of Vision|ACTIVE|1067|M|30.50,30.48|Z|Thunder Bluff|
 T Return to Thunder Bluff|QID|1067|M|22.90,21.03|Z|Thunder Bluff|N|To Apothecary Zamah.|
 A The Flying Machine Airport|QID|1086|M|22.84,20.93|Z|Thunder Bluff|N|From Apothecary Zamah.|
@@ -210,67 +211,67 @@ K XT:9|ACTIVE|1068|QO|2|N|Kill XT:9. It patrols the south side of the river.|T|X
 T Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.57|N|To Ziz Fizziks.|
 R Boulderslide Ravine|ACTIVE|6481|M|67.69,86.82;66.24,89.37|CC|N|Head back to the signpost at the Windshear Crag entrance and follow the road south.|
 R Boulderslide Cavern|ACTIVE|6481|M|61.98,93.16|N|Make your way to the cave entrance.|
-C Earthen Arise|QID|6481|M|57.67,89.48|QO|1|N|Open the Resonite cask with the Enchanted Resonite Crystal, and then slay Goggeroc.\n[color=FF0000]NOTE: [/color]Make sure you clear the mobs in the area first.|
+C Earthen Arise|QID|6481|M|57.67,89.48|N|Open the Resonite cask with the Enchanted Resonite Crystal, and then slay Goggeroc.\n[color=FF0000]NOTE: [/color]Make sure you clear the mobs in the area first.|
 R Webwinder Path|ACTIVE|1068|M|61.72,93.13;67.76,86.64|CC|N|Exit the cave and make your way back to the road.|
 R The Barrens|ACTIVE|1068|M|67.74,86.66;83.51,97.14|CC|N|Follow the road to the south to the Barrens border.|
 T Shredding Machines|QID|1068|M|35.27,27.86|Z|The Barrens|N|To Seereth Stonebreak.|
-R Sun Rock Retreat|QID|6481|M|49.58,60.99|N|Make your way back to Sun Rock Retreat.|
+R Sun Rock Retreat|AVAILABLE|6301|M|49.58,60.99|N|Make your way back to Sun Rock Retreat.|
 A Cycle of Rebirth|QID|6301|M|47.43,58.46|N|From Tammra Windfield.|
-R Mirkfallon Lake|QID|6301|M|50.79,59.98;49.20,43.39|CC|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
+R Mirkfallon Lake|ACTIVE|6301|M|50.79,59.98;49.20,43.39|CC|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
 C Cycle of Rebirth|QID|6301|L|16205 10|N|Loot any gaea seeds you find on the ground around the lake.|
-R Sun Rock Retreat|QID|6301|M|49.58,60.99|N|Return to Sun Rock Retreat.|
+R Sun Rock Retreat|ACTIVE|6301|M|49.58,60.99|N|Return to Sun Rock Retreat.|
 T Cycle of Rebirth|QID|6301|M|47.48,58.39|N|To Tammra Windfield.|
 A New Life|QID|6381|M|47.48,58.39|N|From Tammra Windfield.|PRE|6301|
 A Harpies Threaten|QID|6282|M|47.15,61.10|N|From Maggran Earthbinder.|
-T Earthen Arise|QID|6481|M|44.96,61.13;45.54,63.96;47.22,64.04|CS|N|To Mor'rogal, on top of the hill.\nOnce you have turned in this quest, you can safely destroy the Encanted Resonite Crystal.|
+T Earthen Arise|QID|6481|M|47.22,64.05|CS|N|To Mor'rogal, on top of the hill.\nOnce you have turned in this quest, you can safely destroy the Encanted Resonite Crystal.|
 A Elemental War|QID|6393|M|47.30,64.26|N|From Tsunaman.|
-R The Charred Vale|QID|6381|M|44.55,63.01;37.99,68.08|CC|N|Head back to the main trail. Follow the torch-marked path south over the mountain to the bottom.\n[color=FF0000]NOTE: [/color]There is a longer route that brings you in through the north entrance. That route requires you to go back north up through Mirkfallon Lake and then west with a curve south into the Charred Vale. That route has less fighting and the mobs are level 23-25 at the top end. Whichever route you choose, you will be covering all 4 corners of the Charred Vale to complete this round of quests. The suggested route gets you there faster.|
+R The Charred Vale|ACTIVE|6381^6393^6282^|M|44.55,63.01;37.99,68.08|CC|N|Head back to the main trail. Follow the torch-marked path south over the mountain to the bottom.\n[color=FF0000]NOTE: [/color]There is a longer route that brings you in through the north entrance. That route requires you to go back north up through Mirkfallon Lake and then west with a curve south into the Charred Vale. That route has less fighting and the mobs are level 23-25 at the top end. Whichever route you choose, you will be covering all 4 corners of the Charred Vale to complete this round of quests. The suggested route gets you there faster.|
 C New Life|QID|6381|QO|1|N|Gaea seed planted.|NC|S|
 C Elemental War|QID|6393|L|16312 10|N|Kill Fire Elementals to collect Incendrites.\n[color=FF0000]NOTE: [/color]They are immune to fire damage.|S|
 C Harpies Threaten|QID|6282|QO|1;2;3;4|N|Kill Bloodfury Harpies, Ambushers, Slayers and Roguefeathers.\n[color=FF0000]NOTE: [/color]Don't waste your time with the Bloodfury Storm Witches; unless you have no choice. Try to draw them away from the others. It won't take much to get overwhelmed.|
 C Elemental War|QID|6393|L|16312 10|N|Kill Fire Elementals to collect Incendrites.|US|
 C New Life|QID|6381|QO|1|N|Gaea seed planted.|NC|US|
-R Sun Rock Retreat|QID|6282|M|37.93,67.93;44.54,63.43|CC|N|Run back to Sun Rock Retreat.|
+R Sun Rock Retreat|ACTIVE|6393^6282|M|37.93,67.93;44.54,63.43|CC|N|Run back to Sun Rock Retreat.|
 T Elemental War|QID|6393|M|47.29,64.25|N|To Tsunaman.|
 T Harpies Threaten|QID|6282|M|47.18,61.10|N|To Maggran Earthbinder.|
 A Bloodfury Bloodline|QID|6283|M|47.18,61.10|N|From Maggran Earthbinder.|
 A Calling in the Reserves|QID|5881|M|47.18,61.10|N|From Maggran Earthbinder.|
 A Cenarius' Legacy|QID|1087|M|46.04,60.49|N|From Braelyn Firehand.|
 T New Life|QID|6381|M|47.42,58.50|N|To Tammra Windfield.|
-R Mirkfallon Lake|QID|1087|M|50.79,59.98;49.20,43.39|CC|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
+R Mirkfallon Lake|ACTIVE|1058^1087|M|50.79,59.98;49.20,43.39|CC|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
 C Courser|QID|1058|L|5585 30|N|Kill Coursers for their eyes.\nYou'll find them everywhere north of Mirkfallon Lake.|S|
-R Stonetalon Peak|QID|1087|M|44.31,17.78|N|Continue north out of Mirkfallon Lake until you reach Stonetalon Peak.|
+R Stonetalon Peak|ACTIVE|1058^1087|M|44.31,17.78|N|Continue north out of Mirkfallon Lake until you reach Stonetalon Peak.|
 N Fey Dragon|ACTIVE|1058^1087|N|Be very aware of these guys sneaking up on you as adds. They cast 'Nullify Mana'; which will drain a portion of your mana.|C|Mage,Priest|
 C Cenarius' Legacy|QID|1087|QO|1;2;3|N|Kill Sons of Cenarius, Daughters of Cenarius and Cenarion Botanists.\nYou'll find them in the woods on either side of the road.|
-;L Level 26|QID|1087|LVL|26|N|You should be around level 26 by this point.|
+; Level 26
 C Fey Dragon|QID|1058|L|5583|N|Kill a Fey Dragon to collect a Fey Dragon Scale.|S|
 C Sap Beast|QID|1058|L|5582 5|N|Kill 'Sap Beasts' to collect Stonetalon Sap.|S|
 C Twilight Runner|QID|1058|L|5584 5|N|Kill Twilight Runners to collect Twilight Whiskers.\nThey are in the northern half of Stonetalon Peak.\n[color=FF0000]NOTE: [/color]Be aware that as you are moving around in this area, there is an Alliance outpost northeast of you.|
 C Sap Beast|QID|1058|L|5582 5|N|Kill Sap Beasts to collect Stonetalon Sap.\nThey are in southern half of Stonetalon Peak. They are also found in the northeast area.\n[color=FF0000]NOTE: [/color]Only 'Sap Beasts' will drop them; ignore the Corrosive Sap Beasts.|US|
 C Fey Dragon|QID|1058|L|5583|N|Kill a Fey Dragon to collect a Fey Dragon Scale.\nThey are spread out over Stonetalon Peak.|US|
 C Courser|QID|1058|L|5585 30|N|Kill Coursers for their eyes.\nYou'll find them everywhere north of Mirkfallon Lake.|US|
-R Webwinder Path|QID|1058^1087|M|51.54,49.59|N|Follow the road south through Mirkfallon Lake.|
+R Webwinder Path|ACTIVE|1058^1087|M|51.54,49.59|N|Follow the road south through Mirkfallon Lake.|
 
 ; --- I realize this is a long run. But, we don't want to be carrying all of these items until we return to the area much later in the guide.
 R Malaka'jin|ACTIVE|1058|M|71.57,90.59|N|Continue following the road south to Malaka'jin.\nYes... it's a long run. You are going to be leaving the area for a while and you don't want to be carrying these items with you.|
-T Jin'Zil's Forest Magic|QID|1058|M|74.52,97.84|N|To Witch Doctor Jin'Zil.|
-R Sun Rock Retreat|QID|1087|M|49.58,60.99|N|Now that you've made some space in your bags, back to Sun Rock Retreat.|
+T Jin'Zil's Forest Magic|QID|1058|M|74.54,97.94|N|To Witch Doctor Jin'Zil.|
+R Sun Rock Retreat|ACTIVE|1087|M|49.58,60.99|N|Now that you've made some space in your bags, back to Sun Rock Retreat.|
 T Cenarius' Legacy|QID|1087|M|46.01,60.37|N|To Braelyn Firehand.|
 A Ordanus|QID|1088|M|46.01,60.37|N|From Braelyn Firehand.|
 
 ; --- Thunder Bluff
-F Thunder Bluff|QID|1086|M|45.13,59.84|
+F Thunder Bluff|ACTIVE|1086|M|45.13,59.84|
 R The Pools of Vision|ACTIVE|1086|M|30.50,30.48|Z|Thunder Bluff|
 T The Flying Machine Airport|QID|1086|M|23.06,21.07|Z|Thunder Bluff|N|To Apothecary Zamah.|
 A The Sacred Flame|QID|1195|M|54.74,51.41|Z|Thunder Bluff|N|From Zangen Stonehoof.|
-N Train|QID|496|N|Do whatever training you need to do now. From here, we will be headed back to Tarren Mill and you won't be able to train until you return to Kalimdor.|C|Druid|
+N Train|AVAILABLE|502|N|Do whatever training you need to do now. From here, we will be headed back to Tarren Mill and you won't be able to train until you return to Kalimdor.|C|Druid|
 
 ; --- Hillsbrad Foothills
-F Orgrimmar|QID|496|M|47.02,49.83|Z|Thunder Bluff|
-R Leave Orgrimmar|QID|496|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
-b Tirisfal Glades|QID|496|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|
-R Undercity|QID|496|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
-F Tarren Mill|QID|496|M|62.89,48.16|Z|Undercity|
+F Orgrimmar|AVAILABLE|502|M|47.02,49.83|Z|Thunder Bluff|
+R Leave Orgrimmar|AVAILABLE|502|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
+b Tirisfal Glades|AVAILABLE|502|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|
+R Undercity|AVAILABLE|502|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
+F Tarren Mill|AVAILABLE|502|M|62.89,48.16|Z|Undercity|
 A Elixir of Pain|QID|502|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|501|
 A Elixir of Agony|QID|509|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|502|
 A Dangerous!|QID|567|M|62.55,19.69|Z|Hillsbrad Foothills|N|From the wanted poster hanging beside the Inn's front door.\njust in case you run into one of them while you are doing other things, accept this quest now. It would suck to have to kill them more than once because you didn't have the quest.|
