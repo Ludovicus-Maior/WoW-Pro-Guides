@@ -57,20 +57,21 @@ F Splintertree Post|AVAILABLE|6571|M|47.02,49.83|Z|Thunder Bluff|
 A Warsong Supplies|QID|6571|M|71.40,67.64|Z|Ashenvale|N|From Locke Okarr; by the south watchtower.|
 
 ; --- Silverpine Forest
-F Orgrimmar|AVAILABLE|437|M|73.18,61.59|Z|Ashenvale|N|Fly to Orgrimmar.|
-h Orgrimmar|AVAILABLE|437|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|
-b Tirisfal Glades|AVAILABLE|437|M|50.88,13.83|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
+F Orgrimmar|AVAILABLE|443|M|73.18,61.59|Z|Ashenvale|N|Fly to Orgrimmar.|IZ|Ashenvale|
+h Orgrimmar|AVAILABLE|443|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|IZ|Orgrimmar|
+b Tirisfal Glades|AVAILABLE|443|M|50.88,13.83|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
 ; --- If you don't have the FP in Undercity
-R Undercity|AVAILABLE|437|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|TAXI|-Undercity|
-f Undercity|AVAILABLE|437|M|63.86,48.04|Z|Undercity|N|Grab the flight path from Michael Garrett.|TAXI|-Undercity|
+R Undercity|AVAILABLE|443|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|TAXI|-Undercity|
+f Undercity|AVAILABLE|443|M|63.26,48.54|Z|Undercity|N|Grab the flight path from Michael Garrett.|TAXI|-Undercity|
 ; If you have the FP in Sepulcher
-F The Sepulcher|AVAILABLE|437|M|63.86,48.04|Z|Undercity|TAXI|The Sepulcher|IZ|Undercity|
+R Undercity|AVAILABLE|443|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|TAXI|Undercity|
+F The Sepulcher|AVAILABLE|443|M|63.26,48.54|Z|Undercity|TAXI|The Sepulcher|IZ|Undercity|
 ; If you don't have the FP in Sepulcher
-R Leave Undercity|AVAILABLE|437|M|65.99,36.85;66.22,0.90|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|TAXI|-The Sepulcher|IZ|Undercity|
+R Leave Undercity|AVAILABLE|443|M|65.99,36.85;66.22,0.90|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|TAXI|-The Sepulcher|IZ|Undercity|
 ; --- If you don't have the FP in Sepulcher but do have the FP in Undercity (No point going in if you can't go anywhere)
-R Silverpine Forest|AVAILABLE|437|M|54.46,74.62|Z|Tirisfal Glades|N|Head over to the road and follow it south into Silverpine Forest.|TAXI|-The Sepulcher|
-R The Sepulcher|AVAILABLE|437|M|46.21,41.59|N|Head south until you reach the Sepulcher.|TAXI|-The Sepulcher|
-f The Sepulcher|AVAILABLE|437|M|45.62,42.60|N|Karos Razok|TAXI|-The Sepulcher|
+R Silverpine Forest|AVAILABLE|443|M|54.46,74.62|Z|Tirisfal Glades|N|Head over to the road and follow it south into Silverpine Forest.|TAXI|-The Sepulcher|
+R The Sepulcher|AVAILABLE|443|M|46.21,41.59|N|Head south until you reach the Sepulcher.|TAXI|-The Sepulcher|
+f The Sepulcher|AVAILABLE|443|M|45.62,42.60|N|Karos Razok|TAXI|-The Sepulcher|
 ; ---
 ; --- Get and complete prequels if not done yet
 A The Dead Fields|QID|437|M|43.43,40.86|N|You'll find High Executor Hadrec down the stairs inside the crypt.|
