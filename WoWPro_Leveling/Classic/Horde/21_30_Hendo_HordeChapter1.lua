@@ -84,39 +84,39 @@ T The Decrepit Ferry|QID|438|M|58.34,34.95|N|Click the Decrepit Ferry.|
 A Rot Hide Clues|QID|439|M|58.34,34.95|N|From the Decrepit Ferry.|PRE|438|
 T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.\nFollow the hillside just like you did to get here.|
 ; ---
-A Rot Hide Ichor|QID|443|M|43.43,40.86|Z|Silverpine Forest|CC|N|From High Executor Hadrec inside the crypt.|PRE|439|
+A Rot Hide Ichor|QID|443|M|43.43,40.86|Z|Silverpine Forest|N|From High Executor Hadrec inside the crypt.|PRE|439|
 R Fenris Isle|ACTIVE|443|M|52.34,37.21;58.75,35.43;64.79,34.60;65.63,32.89|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
-N A Talking Head|AVAILABLE|460|N|This item is drop that starts a quest chain. I highly recommend doing this chain as it rewards a half decent item and 3000 xp.|
+N A Talking Head|AVAILABLE|460|N|This item starts a side quest chain and is found by killing the Gnolls.\nIt has a 3% drop rate.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|RANK|3|
+A Resting in Pieces|QID|460|N|Click on the 'Talking Head' to start the quest.\n[color=FF0000]NOTE: [/color]Do this as soon as you get it.|U|3317|O|
 C Rot Hide Ichor|QID|443|L|3236 8|N|Kill Rot Hide Gnolls for the Ichor.|S|
-A Resting in Pieces|QID|460|U|3317|N|Click on the 'Talking Head' to start the quest.\n[color=FF0000]NOTE: [/color]Do this as soon as you get it.|O|
 T Resting in Pieces|QID|460|M|67.87,24.86|Z|Silverpine Forest|N|Click on the Shallow Grave to turn in the quest.|
 A The Hidden Niche|QID|461|M|67.87,24.86|Z|Silverpine Forest|N|From the Shallow Grave.|PRE|460|
 R The Dusty Shelf|ACTIVE|461|M|65.73,24.40;65.60,23.41;65.67,23.89;65.28,23.45;65.09,23.31;65.34,24.81|Z|Silverpine Forest|CC|N|Head inside Fenris Keep and upstairs to the Dusty Shelf.\n[color=FF0000]NOTE: [/color]You can find yourself overwhelmed very easily by the number and close proximity of the mobs to each other. Take your time and advance slowly to avoid unwanted attention. These mobs don't run, but there are roamers that can sneak up on you.\nIf you happen to die, go all the way to the roof and respawn up there.|
 T The Hidden Niche|QID|461|M|65.34,24.81|Z|Silverpine Forest|N|Click on the Dusty Shelf.|
 A Wand to Bethor|QID|491|M|65.34,24.81|Z|Silverpine Forest|N|From the Dusty Shelf.|PRE|461|
-R Fight or jump|ACTIVE|491|M|65.39,23.23|Z|Silverpine Forest|CC|N|You can either fight your way back out, or walk to the north edge of the roof and jump to the wall. Drop to the ground from here.|
-C Rot Hide Ichor|QID|443|QO|1|N|Finishing killing the Rot Hide Gnolls for the Ichor.|US|
+R Fight or Flight|ACTIVE|491|M|65.39,23.23|Z|Silverpine Forest|CC|N|You can either fight your way back out, or walk to the north edge of the roof and jump to the wall. Drop to the ground from here.|
+C Rot Hide Ichor|QID|443|QO|1|N|Finish killing the Rot Hide Gnolls for the Ichor.|US|
 R The Sepulcher|ACTIVE|443|M|46.30,41.55|Z|Silverpine Forest|N|Make your way back to The Sepulcher. Dealer's choice on how you wish to get there.|
 
 T Rot Hide Ichor|QID|443|M|42.89,40.86|Z|Silverpine Forest|N|To Apothecary Renferrel.|
 A Rot Hide Origins|QID|444|M|42.89,40.86|Z|Silverpine Forest|N|From Apothecary Renferrel.|PRE|443|
-F Undercity|ACTIVE|491^444|M|45.60,42.54|Z|Silverpine Forest|
+F Undercity|ACTIVE|491^444|M|45.62,42.60|Z|Silverpine Forest|
 
-T Wand to Bethor|QID|491|M|84.24,16.84|Z|Undercity|N|To Bethor Iceshard.|
-T Rot Hide Origins|QID|444|M|84.24,16.84|Z|Undercity|N|To Bethor Iceshard.|
-A Thule Ravenclaw|QID|446|M|84.24,16.84|Z|Undercity|N|From Bethor Iceshard.|PRE|444|
+T Wand to Bethor|QID|491|M|84.06,17.44|Z|Undercity|N|To Bethor Iceshard; in the Magic Quarter.|
+T Rot Hide Origins|QID|444|M|84.06,17.44|Z|Undercity|N|To Bethor Iceshard.|
+A Thule Ravenclaw|QID|446|M|84.06,17.44|Z|Undercity|N|From Bethor Iceshard.|PRE|444|
 A A Husband's Revenge|QID|530|M|62.02,42.75|Z|Undercity|N|From Raleigh Andrean in the Trade Quarter.|PRE|441|
-F The Sepulcher|ACTIVE|446|M|62.89,48.16|Z|Undercity|
+F The Sepulcher|ACTIVE|446|M|63.26,48.54|Z|Undercity|
 
 T Thule Ravenclaw|QID|446|M|42.88,40.84|Z|Silverpine Forest|N|To Apothecary Renferrel.\n[color=FF0000]NOTE: [/color]Make sure you hold onto the Bethor's Potion. You are going to need it later.|
 A Report to Hadrec|QID|448|M|42.88,40.84|Z|Silverpine Forest|N|From Apothecary Renferrel.|PRE|446|
 A Journey to Hillsbrad Foothills|QID|493|M|42.89,40.86|Z|Silverpine Forest|N|From Apothecary Renferrel.|
-T Report to Hadrec|QID|448|M|43.36,40.87|Z|Silverpine Forest|N|To High Executor Hadrec.|
-A Beren's Peril|QID|516|M|44.04,40.87|Z|Silverpine Forest|N|From Shadow Priest Allister.|
-A The Weaver|QID|480|M|44.04,40.87|Z|Silverpine Forest|N|From Shadow Priest Allister.|PRE|479|
+T Report to Hadrec|QID|448|M|43.43,40.86|Z|Silverpine Forest|N|To High Executor Hadrec.|
+A Beren's Peril|QID|516|M|43.98,40.93|Z|Silverpine Forest|N|From Shadow Priest Allister.|
+A The Weaver|QID|480|M|43.98,40.93|Z|Silverpine Forest|N|From Shadow Priest Allister.|PRE|479|
 
 R Ambermill|ACTIVE|480|M|51.34,36.98;55.71,64.46|Z|Silverpine Forest|CC|N|Make your way to Ambermill.|
-C The Weaver|QID|480|M|63.4,64.2|Z|Silverpine Forest|L|3515|N|[coords]Kill Ataeric and loot his staff.\n[color=FF0000]NOTE: [/color]You have to get past the 2 mages and their voidwalkers to get to Ataeric. You can aggro the mages one at a time. But, it's not easy.|
+C The Weaver|QID|480|M|63.4,64.2|Z|Silverpine Forest|L|3515|N|(coords)Kill Ataeric and loot his staff.\n[color=FF0000]NOTE: [/color]You have to get past the 2 mages and their voidwalkers to get to Ataeric. You can aggro the mages one at a time. But, it's not easy.\nMake sure you take out the Mage and Voidwalker that path in and out of the building. You'll be using the foyer to fight the mobs inside the room and you don't want them sneaking up on you.|
 R Beren's Peril|ACTIVE|516|M|61.53,64.61;62.88,72.15;60.44,74.46;60.54,73.35|Z|Silverpine Forest|CC|N|Exit the building and follow the road south out of Ambermill. Stick to the mountains on the east side (right) and follow them around the bend.|
 R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way to the cave entrance.|
 C Beren's Peril|QID|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|
@@ -274,7 +274,7 @@ F Orgrimmar|AVAILABLE|502|M|47.02,49.83|Z|Thunder Bluff|
 R Leave Orgrimmar|AVAILABLE|502|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
 b Tirisfal Glades|AVAILABLE|502|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|
 R Undercity|AVAILABLE|502|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
-F Tarren Mill|AVAILABLE|502|M|62.89,48.16|Z|Undercity|
+F Tarren Mill|AVAILABLE|502|M|63.26,48.54|Z|Undercity|
 A Elixir of Pain|QID|502|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|501|
 A Elixir of Agony|QID|509|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|502|
 A Dangerous!|QID|567|M|62.55,19.69|Z|Hillsbrad Foothills|N|From the wanted poster hanging beside the Inn's front door.\njust in case you run into one of them while you are doing other things, accept this quest now. It would suck to have to kill them more than once because you didn't have the quest.|
@@ -472,12 +472,12 @@ b Tirisfal Glades|QID|442|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal
 R Undercity|QID|442|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
 A Elixir of Agony|QID|515|M|48.68,69.25|Z|Undercity|N|From Master Apothecary Faranell.|PRE|513|
 F The Sepulcher|QID|442|M|63.27,48.55|Z|Undercity|N|Fly to The Sepulcher.|
-A Assault on Fenris Isle|QID|442|M|43.35,40.88|Z|Silverpine Forest|ELITE|N|[color=ff8000]Elite: [/color]From High Executor Hadrec.|LVL|10|PRE|448|
+A Assault on Fenris Isle|QID|442|M|43.43,40.86|Z|Silverpine Forest|ELITE|N|[color=ff8000]Elite: [/color]From High Executor Hadrec.|LVL|10|PRE|448|
 R Fenris Isle|ACTIVE|442|M|52.34,37.21;58.75,35.43;64.79,34.60|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
 R Fenris Keep|ACTIVE|442|M|65.40,23.21|Z|Silverpine Forest|N|Make your way inside the Keep. I suggest going around to the back to save fighting. 99% of these are grey and not worth grinding.|
 C Assault on Fenris Isle|QID|442|M|65.76,24.70|Z|Silverpine Forest|QO|1|U|3251|N|Make your way inside to the main room. Kill Thule and loot his head. Just like the last time you were here, work your way in slowly. Clear the room as best you can before you pull Thule with his 3 adds.\nBe prepared to use your Bethor's Potion if Thule casts Hex of Ravenclaw on you.\n[color=FF0000]NOTE: [/color]Killing Thule and looting his head is your priority. As long as you've looted his head, you can rez outside the building if you died.|T|Thule|
 R The Sepulcher|QID|442|M|46.30,41.55|Z|Silverpine Forest|N|Run back to The Sepulcher. Choose your own path.|
-T Assault on Fenris Isle|QID|442|M|43.35,40.88|Z|Silverpine Forest|N|To High Executor Hadrec, down in the crypt.|
+T Assault on Fenris Isle|QID|442|M|43.43,40.86|Z|Silverpine Forest|N|To High Executor Hadrec, down in the crypt.|
 
 ; --- Hillsbrad Foothills
 F Tarren Mill|QID|515|M|45.62,42.59|Z|Silverpine Forest|
