@@ -237,6 +237,198 @@ P Keeper's Respite|ACTIVE|63622|M|61.56,40.74|Z|The Maw|N|Take the portal to Kee
 C Victory in Our Name|QID|63622|M|60.28,27.34|Z|Korthia|CHAT|N|Speak with Draka.|
 T Victory in Our Name|QID|63622|M|62.99,25.38|Z|Korthia|N|To The Primus.|
 
+; The Unseen Guests
+A Dreadlords!|QID|63659|M|65.02,22.91|Z|Korthia|N|From Baroness Vashj.|
+T Dreadlords!|QID|63659|M|62.97,25.41|Z|Korthia|N|To The Primus.|
+A Dread Tidings|QID|63644|PRE|63659|M|62.97,25.41|Z|Korthia|N|From The Primus.|
+P Ring of Transference|ACTIVE|63644|M|64.47,24.05|Z|Korthia|N|Take the portal to Ring of Transference.|
+F Sanctuary of the Mad|ACTIVE|63644|M|60.90,68.77|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Sanctuary of the Mad.|
+C Dread Tidings|QID|63644|M|29.48,41.72|Z|Revendreth|QO|1|CHAT|N|Speak withBaroness Vashj.|
+P Dawnkeep|ACTIVE|63644|M|26.05,43.86|Z|Revendreth|N|Take the portal to Dawnkeep.|
+T Dread Tidings|QID|63644|M|22.92,43.74|Z|Revendreth|N|To Prince Renathal.|
+A Convoy of the Covenants|QID|63646|PRE|63644|M|22.92,43.74|Z|Revendreth|N|From Prince Renathal.|
+P Sinfall|ACTIVE|63646|M|23.13,43.33|Z|Revendreth|N|Take the portal to Sinfall.|
+C Convoy of the Covenants|QID|63646|M|27.76,41.00|Z|Revendreth|QO|1|CHAT|N|Speak with the Princeguard.|
+C Convoy of the Covenants|QID|63646|M|33.33,41.28|Z|Revendreth|QO|2|V|N|Ride Prince Renathal's Carriage.|
+T Convoy of the Covenants|QID|63646|M|34.28,21.94|Z|Revendreth|N|To The Stonewright.|
+A The Unseen Guests|QID|63647|PRE|63646|M|34.28,21.94|Z|Revendreth|N|From The Stonewright.|
+C The Unseen Guests|QID|63647|M|34.48,22.15|Z|Revendreth|NC|N|Investigate the Envoy.|
+T The Unseen Guests|QID|63647|M|35.86,22.78|Z|Revendreth|N|To Kael'thas Sunstrider.|
+A Nal'ragas|QID|63648|PRE|63647|M|PLAYER|Z|Revendreth|N|From Kael'thas Sunstrider.|
+A Spy vs Spy|QID|63649|PRE|63647|M|PLAYER|Z|Revendreth|N|From Baroness Vashj.|
+C Spy vs Spy|QID|63649|M|33.80,20.20|Z|Revendreth|QO|1|U|185734|N|Use the Orb to detect and then kill Dreadlords.|; Not sticky, you want this complete before you proceed.
+T Spy vs Spy|QID|63649|M|PLAYER|Z|Revendreth|N|To Baroness Vashj.|
+C Nal'ragas|QID|63648|M|23.82,28.98|Z|Revendreth|QO|1|N|After chasing various illusions, you will eventually find Nal'ragas to kill him.|
+T Nal'ragas|QID|63648|M|25.00,27.97|Z|Revendreth|N|To Prince Renathal.|
+A De-Infiltration|QID|63650|PRE|63649&63648|M|25.00,27.97|Z|Revendreth|N|From Prince Renathal.|
+C De-Infiltration|QID|63650|M|25.12,27.85|Z|Revendreth|V|N|Hop onto Navrataal for a ride back to Sinfall.|
+T De-Infiltration|QID|63650|M|51.69,37.62|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|
+A The "Unwelcome" Guests|QID|63652|PRE|63650|M|51.69,37.62|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|
+A Cryptograms|QID|63651|PRE|63650|M|55.13,39.86|Z|Sinfall Reaches@Sinfall!Dungeon|N|From The Stonewright.|
+C Cryptograms|QID|63651|M|69.71,55.85|Z|Sinfall Depths@Sinfall!Dungeon|NC|N|Click on the blue runes on the wall around both floors of sinfall.|S|
+C The "Unwelcome" Guests|QID|63652|M|54.35,46.59|Z|Sinfall Depths@Sinfall!Dungeon|U|185734|N|Use the orb to expose the Nathrazim and kill them.|
+C Cryptograms|QID|63651|M|69.71,55.85|Z|Sinfall Depths@Sinfall!Dungeon|NC|N|Click on the blue runes on the wall around both floors of sinfall.|US|
+T Cryptograms|QID|63651|M|55.00,39.91|Z|Sinfall Reaches@Sinfall!Dungeon|N|To The Stonewright.|
+T The "Unwelcome" Guests|QID|63652|M|51.71,37.62|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|
+A The Power of a Crown|QID|63653|PRE|63651&63652|M|51.77,37.60|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|
+C The Power of a Crown|QID|63653|M|25.62,45.01|Z|Revendreth|QO|1|NC|U|185734|N|Take the mirror down following the unleashed hatred. Use the orb at the door and continue following the hatred.|
+C The Power of a Crown|QID|63653|M|25.20,45.16|Z|Revendreth|QO|2|NC|N|Approach the Stornewright (In PTR I had to run away and come back to trigger it).|
+T The Power of a Crown|QID|63653|M|25.16,45.13|Z|Revendreth|N|To The Stonewright.|
+A The Nathrezim|QID|63654|PRE|63653|M|25.16,45.13|Z|Revendreth|N|From The Stonewright.|
+C The Nathrezim|QID|63654|M|22.54,45.89|Z|Revendreth|QO|1|NC|N|Approach the Dawnkeep portal.|
+C The Nathrezim|QID|63654|M|22.64,45.95|Z|Revendreth|N|Kill Gorgannon and Diathorus and then Mal'Ganis.|
+T The Nathrezim|QID|63654|M|23.07,45.86|Z|Revendreth|N|To Prince Renathal.|
+
+; The Power of Night
+A A Cry From the Heart|QID|63672|PRE|63654|M|64.40,24.27|Z|Korthia|N|From Urgent Message from Ardenweald.|
+P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|Korthia|IZ|Korthia|N|Take the portal to Ring of Transference.|
+F Heart of the Forest|ACTIVE|63672|M|60.96,68.81|Z|Ring of Transference@Oribos|IZ|-Heart of the Forest|N|Head to the flightmaster and take a flight to Heart of the Forest.|
+T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
+A Hunting Amid Houses|QID|63728|PRE|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|
+C Hunting Amid Houses|QID|63728|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|
+F Spider's Watch|ACTIVE|63728|M|49.35,51.84|Z|Ardenweald!The Shadowlands|IZ|-Maldraxxus|N|Head to the flightmaster and take a flight to Spider's Watch.|
+C Hunting Amid Houses|QID|63728|M|42.79,25.12|Z|Maldraxxus|QO|2|NC|N|Huln Found in Maldraxxus.|
+T Hunting Amid Houses|QID|63728|M|42.79,25.12|Z|Maldraxxus|N|To Huln Highmountain.|
+A The Blade in the Night|QID|63990|PRE|63728|M|42.79,25.12|Z|Maldraxxus|N|From Huln Highmountain.|
+C The Blade in the Night|QID|63990|M|41.91,23.34|Z|Maldraxxus|QO|1|NC|N|Click on books on the First Floor. For me it was always the book with the skull.|
+C The Blade in the Night|QID|63990|M|41.96,23.21|Z|Maldraxxus|QO|2|NC|N|Click on books on the Second Floor. For me it was always the book with the skull.|
+C The Blade in the Night|QID|63990|M|42.15,23.22|Z|Maldraxxus|QO|3|NC|N|Click on books on the Third Floor. For me it was always the book with the skull.|
+C The Blade in the Night|QID|63990|M|41.98,23.36|Z|Maldraxxus|QO|4|NC|N|Click on book at the altar.|
+C The Blade in the Night|QID|63990|M|42.10,23.32|Z|Maldraxxus|QO|5|CHAT|N|Speak with Khaliiq.|
+T The Blade in the Night|QID|63990|M|42.10,23.32|Z|Maldraxxus|N|To Khaliiq.|
+A By Your Leave|QID|63674|PRE|63990|M|42.10,23.32|Z|Maldraxxus|N|From Khaliiq.|
+C By Your Leave|QID|63674|M|52.90,68.76|Z|Maldraxxus|CHAT|N|Speak with Baroness Vashj.|
+T By Your Leave|QID|63674|M|52.91,68.65|Z|Maldraxxus|N|To Khaliiq.|
+A You Cannot Run|QID|63675|PRE|63674|M|52.91,68.65|Z|Maldraxxus|N|From Khaliiq.|
+A You Cannot Hide|QID|63676|PRE|63674|M|52.91,68.65|Z|Maldraxxus|N|From Khaliiq.|
+A You Can Only Die|QID|63677|PRE|63674|M|52.91,68.65|Z|Maldraxxus|N|From Khaliiq.|
+C You Cannot Hide|QID|63676|M|70.61,31.76|Z|Maldraxxus|QO|2|N|Kill acolytes and guardians in the area and collect their Tokens of Favor.|S|
+C You Cannot Run|QID|63675|M|71.67,32.62|Z|Maldraxxus|QO|1|NC|N|Find the clues that look like opened scrolls on the ground.|
+C You Cannot Run|QID|63675|M|72.31,44.89|Z|Maldraxxus|QO|2|N|Kill Zelmany.|
+C You Cannot Hide|QID|63676|M|70.61,31.76|Z|Maldraxxus|QO|2|N|Kill acolytes and guardians in the area and collect their Tokens of Favor.|US|
+C You Cannot Hide|QID|63676|M|72.53,30.45|Z|Maldraxxus|QO|1|N|Drava'ora slain.|
+T You Cannot Run|QID|63675|M|PLAYER|Z|Maldraxxus|N|To Khaliiq.|
+T You Cannot Hide|QID|63676|M|PLAYER|Z|Maldraxxus|N|To Khaliiq.|
+P Exormas|ACTIVE|63677|M|74.38,33.96|Z|Maldraxxus|N|Take the portal to Exormas.|
+C You Can Only Die|QID|63677|M|74.63,32.83|Z|Maldraxxus|QO|1|N|Fal'zinge slain.|
+T You Can Only Die|QID|63677|M|PLAYER|Z|Maldraxxus|N|To Khaliiq.|
+A Akarek Avenged|QID|63678|PRE|63677&63675&63676|M|PLAYER|Z|Maldraxxus|N|From Khaliiq.|
+T Akarek Avenged|QID|63678|M|74.83,33.65|Z|Maldraxxus|N|To Margrave Sin'dane.|
+A Magical Mystery Tour!|QID|63679|PRE|63678|M|PLAYER|Z|Maldraxxus|N|From Urgent Message from Ardenweald.|
+T Magical Mystery Tour!|QID|63679|M|25.36,29.05|Z|Revendreth|N|To Lady Moonberry.|
+A Hunting Huln|QID|64092|PRE|63679|M|25.36,29.05|Z|Revendreth|N|From Lady Moonberry.|
+C Hunting Huln|QID|64092|M|25.35,29.04|Z|Revendreth|QO|1|CHAT|N|Speak with Moonberry to hear the plan.|
+C Hunting Huln|QID|64092|M|25.35,29.04|Z|Revendreth|QO|2|CHAT|N|Speak with Moonberry once more to get he disguise.|
+C Hunting Huln|QID|64092|M|31.11,29.23|Z|Revendreth|QO|3|CHAT|N|Speak with Busy Stoneborn.|
+C Hunting Huln|QID|64092|M|37.93,23.74|Z|Revendreth|QO|4|NC|N|Head to the other end of the keep while avoiding detection.|
+T Hunting Huln|QID|64092|M|37.93,23.74|Z|Revendreth|N|To Stoneborn Detainment Chief.|
+A Mal'appropriated|QID|64091|PRE|64092|M|37.96,23.29|Z|Revendreth|N|From Mal'Ganis.|
+C Mal'appropriated|QID|64091|M|31.97,25.09|Z|Revendreth|QO|1|NC|N|Collecct Sigils of Binding around the area while avoiding detection.|
+C Mal'appropriated|QID|64091|M|38.00,24.02|Z|Revendreth|QO|2|CHAT|N|Speak with Garralous Stoneborn.|
+T Mal'appropriated|QID|64091|M|38.02,24.14|Z|Revendreth|N|To Cudgelface.|
+A The Big Squeeze|QID|64090|PRE|64091|M|38.02,24.14|Z|Revendreth|N|From Cudgelface.|
+C The Big Squeeze|QID|64090|M|35.55,22.27|Z|Revendreth|QO|1|NC|N|Head up and into Dominance Keep.|
+C The Big Squeeze|QID|64090|M|35.45,22.29|Z|Revendreth|QO|2|NC|N|As you run into the key, a Agitated Stoneborn will yell at you.|
+C The Big Squeeze|QID|64090|M|35.71,22.68|Z|Revendreth|QO|3|CHAT|N|Speak with Cudgelface.|
+C The Big Squeeze|QID|64090|M|35.71,22.68|Z|Revendreth|QO|4|NC|N|Click the "[color=40C7EB]Or Else![/color]" button.|EAB|
+C The Big Squeeze|QID|64090|M|35.71,22.68|Z|Revendreth|QO|5|N|Defeated Moonberry's Illusions.|
+C The Big Squeeze|QID|64090|M|35.68,22.72|Z|Revendreth|QO|6|N|Speak with Moonberry and then kill the Wraths that spawn.|
+C The Big Squeeze|QID|64090|M|35.67,22.56|Z|Revendreth|QO|7|CHAT|N|Speak with the Agitated Stoneborn again.|
+T The Big Squeeze|QID|64090|M|35.67,22.72|Z|Revendreth|N|To Lady Moonberry.|
+A Out On the Edge|QID|63680|PRE|64090|M|35.67,22.72|Z|Revendreth|N|From Lady Moonberry.|
+C Out On the Edge|QID|63680|M|34.22,15.86|Z|Revendreth|QO|1|CHAT|N|Speak with Terrified Stoneborn.|
+C Out On the Edge|QID|63680|M|33.89,9.08|Z|Revendreth|QO|2|NC|N|Run to the edge of the keep avoiding detection.|
+C Out On the Edge|QID|63680|M|33.89,9.08|Z|Revendreth|QO|3|NC|N|Fight the Stonewright to rescute Huln.|
+C Out On the Edge|QID|63680|M|33.89,9.08|Z|Revendreth|QO|4|CHAT|N|Speak with the Stonewright.|
+T Out On the Edge|QID|63680|M|34.03,9.70|Z|Revendreth|N|To Lady Moonberry.|
+A Back to The Heart|QID|63681|PRE|63680|M|34.03,9.70|Z|Revendreth|N|From Lady Moonberry.|
+T Back to The Heart|QID|63681|M|48.02,53.94|Z|Ardenweald!The Shadowlands|N|To Ysera back in Ardenweald.|
+A Rituals of Night|QID|64042|PRE|63681|M|48.02,53.94|Z|Ardenweald!The Shadowlands|N|From Ysera.|
+C Rituals of Night|QID|64042|M|45.39,64.98|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Click on the supply wagon near where you accepted the quest and then bring it to the Grove of Awakening.|
+C Rituals of Night|QID|64042|M|45.20,64.62|Z|Ardenweald!The Shadowlands|QO|4|NC|N|Click on the jar of Ritual Oil and bring it to the former Night Warriors.|
+C Rituals of Night|QID|64042|M|45.25,65.71|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Go back to the supplies and click on the flowers to spread around Tyrande.|EAB|
+C Rituals of Night|QID|64042|M|45.30,66.10|Z|Ardenweald!The Shadowlands|QO|5|NC|N|Go back to the supplies and click on the incense and place it near Tyrande.|
+C Rituals of Night|QID|64042|M|45.24,65.35|Z|Ardenweald!The Shadowlands|QO|2<1|NC|N|Click on the first floating Orb.|
+C Rituals of Night|QID|64042|M|45.46,65.68|Z|Ardenweald!The Shadowlands|QO|2<2|NC|N|Click on the second floating Orb.|
+C Rituals of Night|QID|64042|M|45.10,65.70|Z|Ardenweald!The Shadowlands|QO|2<3|NC|N|Click on the third floating Orb.|
+T Rituals of Night|QID|64042|M|45.31,64.80|Z|Ardenweald!The Shadowlands|N|To Ysera.|
+A The Power of Elune|QID|63682|PRE|64042|M|45.31,64.80|Z|Ardenweald!The Shadowlands|N|From Ysera.|
+C The Power of Elune|QID|63682|M|45.31,64.80|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Ysera to Begin.|
+C The Power of Elune|QID|63682|M|45.15,65.37|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Stand in the circle and click Click the "[color=40C7EB]Assisting[/color]" to start the Ritual.|EAB|
+C The Power of Elune|QID|63682|M|45.24,65.67|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Defeat Tyrande.|
+T The Power of Elune|QID|63682|M|45.26,65.05|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|
+A Winter's Sigil|QID|63683|PRE|63682|M|45.26,65.05|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|
+C Winter's Sigil|QID|63683|M|45.30,65.09|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Click on the Tear of Elune to take it.|
+C Winter's Sigil|QID|63683|M|45.03,65.62|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak with Ysera.|
+T Winter's Sigil|QID|63683|M|45.03,65.62|Z|Ardenweald!The Shadowlands|N|To Ysera.|
+
+; A New Path
+A A Paladin's Soul|QID|63579|M|62.57,25.66|Z|Korthia|N|From Thenios.|
+F Ve'nari's Refuge|ACTIVE|63579|M|64.97,23.66|Z|Korthia|N|Head to the flightmaster and take a flight to Ve'nari's Refuge.|
+P Torghast, Tower of the Damned|ACTIVE|63579|M|48.18,39.44|Z|The Maw|N|Take the portal to Torghast, Tower of the Damned.|
+C A Paladin's Soul|QID|63579|M|37.87,46.99|Z|Torghast - Entrance!Instance|QO|1|CHAT|N|Interact with the Wayfinder in Torghast.|
+C A Paladin's Soul|QID|63579|M|34.20,30.95|Z|TG108_Floor!Dungeon|QO|2|N|On the 3rd floor, kill the Guardian of Souls.|
+C A Paladin's Soul|QID|63579|M|33.21,28.76|Z|TG108_Floor!Dungeon|QO|3|NC|N|Click the Portal of Souls that appears after you kill the guardian.|
+C A Paladin's Soul|QID|63579|M|40.20,30.25|Z|TG108_Floor!Dungeon|QO|4|NC|N|Click on the Remnant of Justice, a floating crystal shard.|
+T A Paladin's Soul|QID|63579|M|40.14,19.91|Z|Bastion!The Shadowlands|N|Make youre way to the Temple of Wisdom in Bastion and turn in to Thenios.|
+A Wounded Memories|QID|63580|PRE|64216&63579|M|39.95,20.09|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
+C Wounded Memories|QID|63580|M|40.23,20.44|Z|Bastion!The Shadowlands|NC|N|Click on the crystal outline to place the Remnant of Justice.|
+T Wounded Memories|QID|63580|M|40.15,19.92|Z|Bastion!The Shadowlands|N|To Thenios.|
+A Step Into the Light|QID|63581|PRE|63580|M|40.15,19.92|Z|Bastion!The Shadowlands|N|From Thenios.|
+C Step Into the Light|QID|63581|M|40.22,20.44|Z|Bastion!The Shadowlands|QO|1|NC|N|Click on the soul mirror to enter Uther's memory.|
+C Step Into the Light|QID|63581|M|67.49,73.28|Z|Stratholme!Dungeon827|QO|2|NC|N|"[color=40C7EB]Kneel[/color]" before Alonsus.|EAB|
+C Step Into the Light|QID|63581|M|67.49,73.28|Z|Stratholme!Dungeon827|QO|3|NC|N|Wait for the dialot to complete.|
+C Step Into the Light|QID|63581|M|68.70,73.01|Z|Stratholme!Dungeon827|QO|4|NC|N|Click on the Grain.|
+C Step Into the Light|QID|63581|M|66.13,74.65|Z|Stratholme!Dungeon827|QO|5|NC|N|Click the door and step out into the square.|
+C Defeat Enemies|QID|63581|M|65.09,68.27|Z|Stratholme!Dungeon827|QO|6|N|Kill Arthas's followers in the area using Uther's abilities.|S|
+C Step Into the Light|QID|63581|M|62.42,78.92|Z|Stratholme!Dungeon827|QO|7|NC|N|Click "[color=40C7EB]Holy Smite[/color]" to destroy the Plauged Grain.|EAB|
+C Defeat Enemies|QID|63581|M|65.09,68.27|Z|Stratholme!Dungeon827|QO|6|N|Kill Arthas's followers in the area using Uther's abilities.|US|
+T Step Into the Light|QID|63581|M|39.96,20.10|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
+A He Was My Student|QID|63582|PRE|63581|M|39.96,20.10|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
+C He Was My Student|QID|63582|M|40.23,20.44|Z|Bastion!The Shadowlands|QO|1|NC|N|Click on the Soul Mirror to enter Uther's second memory.|
+C He Was My Student|QID|63582|M|52.79,45.00|QO|2|NC|N|Wait for the dialog to complete.|
+C He Was My Student|QID|63582|M|52.40,45.46|QO|3|N|Spar with Arthas Menethil using Uther's Abilities.|
+T He Was My Student|QID|63582|M|40.22,20.19|Z|Bastion!The Shadowlands|N|To Kleia.|
+A I Intend to Live Forever|QID|63583|PRE|63582|M|40.19,20.35|Z|Bastion!The Shadowlands|N|From Uther.|
+C I Intend to Live Forever|QID|63583|M|40.19,20.35|Z|Bastion!The Shadowlands|QO|1|NC|N|Click on the Soul Mirror to enter Uther's final memory.|
+C Defeat Enemies|QID|63583|M|44.24,66.70|Z|Western Plaguelands|QO|2|N|Kill Scourge in the area.|S|
+C I Intend to Live Forever|QID|63583|M|45.17,71.26|Z|Western Plaguelands|QO|3|NC|N|Click on Scared Citizen hiding around the town.|
+C Defeat Enemies|QID|63583|M|44.24,66.70|Z|Western Plaguelands|QO|2|N|Kill Scourge in the area.|US|
+C I Intend to Live Forever|QID|63583|M|45.29,69.68|Z|Western Plaguelands|QO|4|N|Fight Arthas.|
+T I Intend to Live Forever|QID|63583|M|39.96,20.10|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
+A Blind Loyalty|QID|63585|PRE|63583|M|39.96,20.10|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
+C Blind Loyalty|QID|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Speak with  Adrestes at Elysian Hold. (Not sure how non Kyrians get there.)|
+T Blind Loyalty|QID|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|
+A Compassion in Devotion|QID|63586|PRE|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|
+T Compassion in Devotion|QID|63586|M|24.34,30.13|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
+A Directing Dedication|QID|63589|PRE|63586|M|24.34,30.13|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
+A Rebuilding Faith|QID|63588|PRE|63586|M|24.43,30.00|Z|Bastion!The Shadowlands|N|From Fallen Disciple Nikolon.|
+A Reclaimable Anima|QID|63587|PRE|63586|M|24.18,29.98|Z|Bastion!The Shadowlands|N|From Kleia.|
+C Reclaimable Anima|QID|63587|M|24.59,24.31|Z|Bastion!The Shadowlands|N|Kill Mechanical enemies to collect Tainted Centurion Cores.|S|
+C Rebuilding Faith|QID|63588|M|27.76,20.86|Z|Bastion!The Shadowlands|N|Attack Forsworn until you convince them to switch sides.|S|
+C Directing Dedication|QID|63589|M|22.68,24.94|Z|Bastion!The Shadowlands|QO|1|NC|N|South Anima Channeler activated.|
+C Directing Dedication|QID|63589|M|24.23,22.80|Z|Bastion!The Shadowlands|QO|2|NC|N|North Anima Channeler activated.|
+C Rebuilding Faith|QID|63588|M|27.76,20.86|Z|Bastion!The Shadowlands|N|Attack Forsworn until you convince them to switch sides.|US|
+T Rebuilding Faith|QID|63588|M|PLAYER|Z|Bastion!The Shadowlands|N|To Fallen Disciple Nikolon.|
+C Reclaimable Anima|QID|63587|M|24.59,24.31|Z|Bastion!The Shadowlands|N|Kill Mechanical enemies to collect Tainted Centurion Cores.|US|
+C Directing Dedication|QID|63589|M|22.64,23.37|Z|Bastion!The Shadowlands|QO|3|NC|N|South Anima Collector activated.|
+C Directing Dedication|QID|63589|M|22.62,22.32|Z|Bastion!The Shadowlands|QO|4|NC|N|North Anima Collector activated.|
+C Directing Dedication|QID|63589|M|20.65,21.59|Z|Bastion!The Shadowlands|QO|6|NC|N|North Gate Vesper rang.|
+C Directing Dedication|QID|63589|M|20.68,24.18|Z|Bastion!The Shadowlands|QO|5|NC|N|South Gate Vesper rang.|
+T Reclaimable Anima|QID|63587|M|20.93,23.04|Z|Bastion!The Shadowlands|N|To Kleia.|
+T Directing Dedication|QID|63589|M|20.63,22.87|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
+A The Vesper Rings|QID|63590|PRE|63587&63589&63588|M|20.62,22.88|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
+C The Vesper Rings|QID|63590|M|21.01,22.87|Z|Bastion!The Shadowlands|N|Speak with Adrestes to begin the ritual and then defend him from the attacking mawsworn.|
+T The Vesper Rings|QID|63590|M|20.63,22.88|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
+A A Triumphant Return|QID|63584|PRE|63590|M|20.63,22.88|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
+T A Triumphant Return|QID|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Kalisthene.|
+A The New Path|QID|63592|PRE|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Kalisthene.|
+C The New Path|QID|63592|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|CHAT|N|Speak to Kalisthene.|
+C The New Path|QID|63592|QO|2|CHAT|N|Speak with Kleia to begin the Ceremony.|
+T The New Path|QID|63592|N|To Polemarch Adrestes.| ; Z is nil, this may change in future iterations.
+
+; What Lies Ahead
+
 ; Next Section
 A A Matter of Urgency|QID|63755|PRE|63902|M|64.26,22.88|Z|Korthia|N|From Pathscribe Roh-Vess. He patrols the area.|
 T A Matter of Urgency|QID|63755|M|56.25,38.74|Z|Korthia|N|To Caretaker Kah-Than. In a small cave.|
