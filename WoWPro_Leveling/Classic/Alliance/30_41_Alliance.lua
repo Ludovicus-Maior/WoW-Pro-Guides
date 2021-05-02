@@ -703,13 +703,13 @@ A Sunken Treasure|QID|665|M|33.87,80.55|Z|Arathi Highlands|N|Don't pick this up 
 C Sunken Treasure|QID|665|M|35.14,80.47|Z|Arathi Highlands|N|Escort the gnome to the cave, stay at the entrance to the cave (to avoid multiple spawns) where two level 40 elemental will attack you.|
 T Sunken Treasure|QID|665|M|33.86,80.45|Z|Arathi Highlands|N|To Dr. Draxlegauge, it may take a few seconds after the fighting ends.|
 A Sunken Treasure|QID|666|M|33.86,80.45|Z|Arathi Highlands|N|From Dr. Draxlegauge.|PRE|665|
-C Sunken Treasure|QID|666|Z|Arathi Highlands|S|N|Look for large rocks that are covered in gray lines to loot Calcified Elven Gems from. You can also equip the provided goggles to show nearby rocks on your minimap|U|4491|
+C Sunken Treasure|QID|666|Z|Arathi Highlands|S|N|Look for large rocks that are covered in gray lines to loot Elven Gems from. You can also equip the provided goggles to show nearby rocks on your minimap|U|4491|
 C Drowned Sorrows|QID|664|Z|Arathi Highlands|S|N|Kill Naga as you go.|
 C Maiden's Folly Charts|QID|662|QO|2|M|23.40,85.09|Z|Arathi Highlands|N|Swim west in the water and head towards the sunken ships. Dive down and swim through one of the windows to the front below deck of the closest ship. There will be a pile of trashed objects. You will find the charts inside the cauldron.|
 C Maiden's Folly Log|QID|662|QO|1|M|23.03,84.51|Z|Arathi Highlands|N|Face north-west and swim through the two doorways. You will find the logbook on the flat surface besides the mast.|
 C Spirit of Silverpine Charts|QID|662|QO|3|M|20.46,85.61|Z|Arathi Highlands|N|Swim out and head towards the second ship. Swim through one of the windows at the front side of the ship. You will find the charts on a crate next to a cannon.|
 C Spirit of Silverpine Log|QID|662|QO|4|M|20.65,85.11|Z|Arathi Highlands|N|Face north and swim out through the window of the ship. Swim down from the window to find the find the large hole at the bottom of the ship. The log is lying on the sand directly infront of you.|
-C Sunken Treasure|QID|666|M|20.6,85.1|Z|Arathi Highlands|US|N|Look for large rocks that are covered in gray lines to loot Calcified Elven Gems from. You can also equip the provided goggles to show nearby rocks on your minimap|U|4491|
+C Sunken Treasure|QID|666|M|20.6,85.1|Z|Arathi Highlands|US|N|Look for large rocks that are covered in gray lines to loot Elven Gems from. You can also equip the provided goggles to show nearby rocks on your minimap|U|4491|
 C Drowned Sorrows|QID|664|M|23,84.4|Z|Arathi Highlands|US|N|Finish off any Naga needed for this quest.|
 T Deep Sea Salvage|QID|662|M|32.75,81.43|Z|Arathi Highlands|N|To First Mate Nilzlix.|
 T Drowned Sorrows|QID|664|M|34.00,80.79|Z|Arathi Highlands|N|To Captain Steelgut.|
