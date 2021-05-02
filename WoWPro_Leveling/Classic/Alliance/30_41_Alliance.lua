@@ -9,7 +9,7 @@ WoWPro:GuideLevels(guide,30, 40)
 WoWPro:GuideNextGuide(guide, 'Dungeon_Uld')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Gnomeregan|QID|2929|N|If you wish to run Gnomeregan now is a good time to do so. Be sure to collect all the quests as they give a lot of experience|LVL|-32|
+N Gnomeregan|QID|2929|N|If you wish to run Gnomeregan now is a good time to do so. Be sure to collect all the quests as they give a lot of experience|LVL|-31|
 
 F Ironforge|AVAILABLE|1179|N|Make your way to Ironforge|
 A The Brassbolts Brothers|QID|1179|M|68.20,46.20|Z|Ironforge|N|From Pilot Longbeard at the back of the Military Ward.|
