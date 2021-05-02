@@ -9,8 +9,7 @@ WoWPro:GuideLevels(guide,30, 40)
 WoWPro:GuideNextGuide(guide, 'Dungeon_Uld')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Gnomeregan|QID|2929|N|If you wish to run Gnomeregan now is a good time to do so. Be sure to collect all the quests as they give a lot of experience|LVL|-31|
-
+N Gnomeregan|QID|2929|N|Now would be a good time to run Gnomeregan. This will avoid some grinding you may need to do shortly. Be sure to collect all the quests as they give a lot of experience.|LVL|-31|
 F Ironforge|AVAILABLE|1179|N|Make your way to Ironforge|
 A The Brassbolts Brothers|QID|1179|M|68.20,46.20|Z|Ironforge|N|From Pilot Longbeard at the back of the Military Ward.|
 N Things to Buy|QID|1282|N|There are some items that you need to buy off of the Auction House or otherwise acquire.  The guide will remind you each time you are in town until you aquire them, check off manually if you aren't going to at that time and it will pop up again, next time you're in town. first one for a quest in stranglethorn and the other three are needed for Badlands quest - approx level 38-40. These quests are not essential for dungeons, just a fair chunk of XP, so if you can't find the items at a reasonable price, you can skip the quests and grind to make it up.|
