@@ -694,7 +694,7 @@ T Dark Council|QID|537|M|48.14,59.11|Z|Hillsbrad Foothills|N|To Magistrate Henry
 T Baron's Demise|QID|523|M|48.14,59.11|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb.|
 
 F Refuge Pointe|QID|663|M|49.34,52.28|Z|Hillsbrad Foothills|N|Fly to Refuge Pointe.|
-R Faldir's Cove|QID|663|M|31.32,64.59;23.61,70.02;21.57,75.52|CC|Z|Arathi Highlands|N|At first waypoint, find a path going beside/behind Stromgarde Keep, follow that path west to the 2nd waypoint. To your left is a cave, go through it to find Faldir's Cove.|
+R Faldir's Cove|QID|663|M|29.50,67.65;21.35,72.75;22.40,80.45|CC|Z|Arathi Highlands|N|Run south-west from Refuge Point. Follow the path which is to the southern side of Stromgarde Keep through the cliffs. Once you reach the coast turn left and head through the cave.|
 A Land Ho!|QID|663|M|31.8,82.73|Z|Arathi Highlands|N|From Lolo the Lookout.|
 T Land Ho!|QID|663|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen.|
 A Deep Sea Salvage|QID|662|M|32.75,81.43|Z|Arathi Highlands|N|From First Mate Nilzlix.|PRE|663|
@@ -703,13 +703,13 @@ A Sunken Treasure|QID|665|M|33.87,80.55|Z|Arathi Highlands|N|Don't pick this up 
 C Sunken Treasure|QID|665|M|35.14,80.47|Z|Arathi Highlands|N|Escort the gnome to the cave, stay at the entrance to the cave (to avoid multiple spawns) where two level 40 elemental will attack you.|
 T Sunken Treasure|QID|665|M|33.86,80.45|Z|Arathi Highlands|N|To Dr. Draxlegauge, it may take a few seconds after the fighting ends.|
 A Sunken Treasure|QID|666|M|33.86,80.45|Z|Arathi Highlands|N|From Dr. Draxlegauge.|PRE|665|
-C Sunken Tresures|QID|666|Z|Arathi Highlands|S|N|Use the goggles so you can detect and pick up Calcified Elven Gems. (big white rocks).|U|4491|
+C Sunken Treasure|QID|666|Z|Arathi Highlands|S|N|Use the goggles so you can detect and pick up Calcified Elven Gems. (big white rocks).|U|4491|
 C Drowned Sorrows|QID|664|Z|Arathi Highlands|S|N|Kill Naga as you go.|
-C Maiden's Folly Charts|QID|662|QO|2|M|23.40,85.09|Z|Arathi Highlands|N|Swim west, Use potion and dive down at first waypoint. Go down stairs from the deck to find log. Its a brown book, inside a cauldren.|
-C Maiden's Folly Log|QID|662|QO|1|M|23.03,84.51|Z|Arathi Highlands|N|On the same level of the ship, more to the mid part of the shop, charts are against the center wall (mast).|
-C Spirit of Silverpine Charts|QID|662|QO|3|M|20.46,85.61|Z|Arathi Highlands|N|Down below decks, in the big open hold area, with the cannons. Charts are on a crate next to a cannon.|
-C Spirit of Silverpine Log|QID|662|QO|4|M|20.65,85.11|Z|Arathi Highlands|N|Down to the lowest level of the ship, Log lying in sand.|
-C Sunken Treasures|QID|666|M|20.6,85.1|Z|Arathi Highlands|US|N|Use the goggles so you can detect and pick up Calcified Elven Gems. (big white rocks).|U|4491|
+C Maiden's Folly Charts|QID|662|QO|2|M|23.40,85.09|Z|Arathi Highlands|N|Swim west in the water and head towards the sunken ships. Dive down and swim through one of the windows to the front below deck of the closest ship. There will be a pile of trashed objects. You will find the charts inside the cauldron.|
+C Maiden's Folly Log|QID|662|QO|1|M|23.03,84.51|Z|Arathi Highlands|N|Face north-west and swim through the two doorways. You will find the logbook on the flat surface besides the mast.|
+C Spirit of Silverpine Charts|QID|662|QO|3|M|20.46,85.61|Z|Arathi Highlands|N|Swim out and head towards the second ship. Swim through one of the windows at the front side of the ship. You will find the charts on a crate next to a cannon.|
+C Spirit of Silverpine Log|QID|662|QO|4|M|20.65,85.11|Z|Arathi Highlands|N|Face north and swim out through the window of the ship. Swim down from the window to find the find the large hole at the bottom of the ship. The log is lying on the sand directly infront of you.|
+C Sunken Treasure|QID|666|M|20.6,85.1|Z|Arathi Highlands|US|N|Use the goggles so you can detect and pick up Calcified Elven Gems. (big white rocks).|U|4491|
 C Drowned Sorrows|QID|664|M|23,84.4|Z|Arathi Highlands|US|N|Finish off any Naga needed for this quest.|
 T Deep Sea Salvage|QID|662|M|32.75,81.43|Z|Arathi Highlands|N|To First Mate Nilzlix.|
 T Drowned Sorrows|QID|664|M|34.00,80.79|Z|Arathi Highlands|N|To Captain Steelgut.|
