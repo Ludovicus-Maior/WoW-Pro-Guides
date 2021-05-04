@@ -73,7 +73,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 									local MatsItem, MatsQty = (" "):split(m[j])							-- grab Mats info
 									local MatsItemLink = ('[item='..tostring(MatsItem)..'/'.._G.GetItemInfo(MatsItem)..']')  -- recreate item num/name info
 									if tonumber(CraftQty) == nil or tonumber(MatsItem) == nil or tonumber(MatsQty) == nil then
-										WoWPro.Profession:Error("%s step %s tag M for [%s] malformed at [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mat[k],m[j])
+										WoWPro.Profession:Error("%s step %s tag M for [%s] malformed at [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mats[k],m[j])
 									end
 									WoWPro.Profession:dbp("Qty %s, k=%d",tostring(CraftQty),k)			-- may need changing to new info.
 									local MatsAmt = MatsQty * (proflvl-skillRank)						-- take MatsQty to expand with Prof lvl difference.
@@ -111,13 +111,14 @@ function WoWPro.Profession:PreRowUpdate(row)
 								WoWPro.note[k] = WoWPro.note[k]..'\nMaterial '..(j)..': '
 									local MatsItem, MatsQty = (" "):split(m[j])							-- grab Mats info
 									local MatsItemLink = ('[item='..tostring(MatsItem)..'/'.._G.GetItemInfo(MatsItem)..']')  -- recreate item num/name info
---									if (proflvl-skillRank) < 0 then
---										local MatsAmt = MatsQty * CraftQty									-- Force MatsQty to the CraftQty if Skill level too high.
---									else
-										local MatsAmt = MatsQty * (proflvl-skillRank)						-- take MatsQty to expand with Prof lvl difference.
---									end
+									local MatsAmt = 0
+									if (proflvl-skillRank) < 0 then
+										MatsAmt = MatsQty * CraftQty									-- Force MatsQty to the CraftQty if Skill level too high.
+									else
+										MatsAmt = MatsQty * (proflvl-skillRank)							-- take MatsQty to expand with Prof lvl difference.
+									end
 									if tonumber(CraftQty) == nil or tonumber(MatsItem) == nil or tonumber(MatsQty) == nil then
-										WoWPro.Profession:Error("%s step %s tag M for [%s] malformed at [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mat[k],m[j])
+										WoWPro.Profession:Error("%s step %s tag M for [%s] malformed at [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mats[k],m[j])
 									end
 									WoWPro.Profession:dbp("Qty %s, k=%d",tostring(CraftQty),k)			-- may need changing to new info.
 --									local skillpoints = (profmaxlvl - proflvl)/(CraftQty)				-- left over from Old guide handling / I think needed to make target work.

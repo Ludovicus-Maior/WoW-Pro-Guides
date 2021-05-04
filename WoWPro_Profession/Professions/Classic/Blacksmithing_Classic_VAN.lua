@@ -54,7 +54,7 @@ l [item=7909/Aquamarine]|QID|164007909|L|7909 5|ITEM|7909|N|You'll need about 5 
 B [item=2605/Green Dye]|QID|164002605|L|2605 35|ITEM|2605|N|You'll need about 35 Green Dye, Sold by Tailoring or Leatherworking Supply Vendors.|
 B [spell=9964/Mithril Spurs]|QID|164007989|N|Purchase [item=7989/Plans: Mithril Spurs] from Auction House, Random drop from level 45-50 mobs
 N Smelting|QID|186002841|P|Mining;186;0|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
-M [item=2841/Bronze Bar]|QID|164002689|P|Mining;186;0+50|L|2841 140|CRAFT|2689 140|MATS|2840 1;3576 1|
+M [item=2841/Bronze Bar]|QID|164002689|P|Mining;186;0+50|L|2841 140|CRAFT|2689 70|MATS|2840 1;3576 1|N|You need a total of 140, due to it makes 2 per smelt this was set to 'make' 70.|
 M [item=3859/Steel Bar]|QID|164003569|P|Mining;186;0+125|L|3859 190|CRAFT|3569 190|MATS|3575 1;3857 1|
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 ; end of shopping list, and pre craft.
