@@ -330,8 +330,8 @@ C The Legacy Passed On|ACTIVE|39956|M|76.53,8.39|Z|Ironforge|P|Inscription;773;6
 C The Legacy Passed On|ACTIVE|39956|M|76.53,8.39|Z|Ironforge|P|Inscription;773;6;1|N|Select whatever you want, (you'll do this three times.)|
 T The Legacy Passed On|QID|39956|M|76.68,8.70|Z|Ironforge|P|Inscription;773;6;1|N|From Bill Spearshaker.|
 
-; Jewelcrafting;755 
- 
+; Jewelcrafting;755
+
 ; Jewelcrafting Level 39 Quest Chain
 A Facet-nating Friends|QID|40523|M|40.28,34.70|Z|Dalaran@Dalaran70|P|Jewelcrafting;755;6;1|LVL|39|N|From Tiffany Cartier|
 C Timothy Jones|ACTIVE|40523|M|40.28,34.70|Z|Dalaran@Dalaran70|QO|1|CHAT|P|Jewelcrafting;755;6;1|N|Chat with Timothy|
@@ -370,7 +370,7 @@ A Finishing Touches|QID|40526|PRE|42214|M|46.67,41.37|Z|Azsuna|P|Jewelcrafting;7
 C Cut Skystone|ACTIVE|40526|QO|1|M|46.68,41.31|Z|Azsuna|P|Jewelcrafting;755;6;1|N|Use the gemcutter next to Timothy.  Click away all the jagged bits and use the arrows to rotate the gem to get the back.  Viola!|
 T Finishing Touches|QID|40526|M|46.67,41.37|Z|Azsuna|P|Jewelcrafting;755;6;1|N|To Timothy Jones|
 
-; Jewelcrafting Level 41 Quest Chain 
+; Jewelcrafting Level 41 Quest Chain
 A Raising the Drogbar|QID|40535|PRE|40526|M|40.28,34.70|Z|Dalaran@Dalaran70|P|Jewelcrafting;755;6;1|LVL|41|N|From Tiffany Cartier|
 F Lorlathil|ACTIVE|40535|M|69.85,51.15|Z|Dalaran@Dalaran70|P|Jewelcrafting;755;6;1|N|Fly out to Lorlathil and take the north-west road.|
 C Lasune Starblade|ACTIVE|40535|QO|1|M|45.65,67.21|Z|Val'sharah|CHAT|P|Jewelcrafting;755;6;1|N|Talk to Lasune at her house in Val'sharah|
