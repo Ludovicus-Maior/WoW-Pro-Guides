@@ -111,7 +111,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 								WoWPro.note[k] = WoWPro.note[k]..'\nMaterial '..(j)..': '
 									local MatsItem, MatsQty = (" "):split(m[j])							-- grab Mats info
 									local MatsItemLink = ('[item='..tostring(MatsItem)..'/'.._G.GetItemInfo(MatsItem)..']')  -- recreate item num/name info
-									local MatsAmt = 0
+									local MatsAmt
 									if (proflvl-skillRank) < 0 then
 										MatsAmt = MatsQty * CraftQty									-- Force MatsQty to the CraftQty if Skill level too high.
 									else
