@@ -30,7 +30,6 @@
 	<Script file="Enchanting_BfA.lua"/>
 	<Script file="Enchanting_SL.lua"/>
 	<Script file="Engineering_SL.lua"/>
-	<Script file="Enchanting.lua"/>
 	<Script file="Inscription_SL.lua"/>
 	<Script file="Jewelcrafting_SL.lua"/>
 	<Script file="Leatherworking_BfA.lua"/>

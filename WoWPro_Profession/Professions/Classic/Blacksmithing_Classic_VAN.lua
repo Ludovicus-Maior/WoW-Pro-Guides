@@ -22,7 +22,7 @@ return [[
 
 ;  N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers Vanilla 1-300 content in Classic.\nAlso ASSUMES you have the appropriate Skill||
+N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers Vanilla 1-300 content in Classic.\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
@@ -54,8 +54,8 @@ l [item=7909/Aquamarine]|QID|164007909|L|7909 5|ITEM|7909|N|You'll need about 5 
 B [item=2605/Green Dye]|QID|164002605|L|2605 35|ITEM|2605|N|You'll need about 35 Green Dye, Sold by Tailoring or Leatherworking Supply Vendors.|
 B [spell=9964/Mithril Spurs]|QID|164007989|N|Purchase [item=7989/Plans: Mithril Spurs] from Auction House, Random drop from level 45-50 mobs
 N Smelting|QID|186002841|P|Mining;186;0|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
-M [item=2841/Bronze Bar]|QID|164002689|P|Mining;186;0+50;0|L|2841 140|CRAFT|2689 140|MATS|2840 1;3576 1|
-M [item=3859/Steel Bar]|QID|164003569|P|Mining;186;0+125;0|L|3859 190|CRAFT|3569 190|MATS|3575 1;3857 1|
+M [item=2841/Bronze Bar]|QID|164002689|P|Mining;186;0+50|L|2841 140|CRAFT|2689 140|MATS|2840 1;3576 1|
+M [item=3859/Steel Bar]|QID|164003569|P|Mining;186;0+125|L|3859 190|CRAFT|3569 190|MATS|3575 1;3857 1|
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 ; end of shopping list, and pre craft.
 
