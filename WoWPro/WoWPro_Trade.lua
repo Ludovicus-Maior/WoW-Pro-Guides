@@ -23,7 +23,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 		[356] = { name = 'Fishing' },
 		[633] = { name = 'Lockpicking' },
 	}
-	
+
 	else
 
 	WoWPro.ProfessionSkillLines = {
@@ -189,7 +189,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 		[2787] = { exp = 8, name = 'Abominable Stitching'}
 	}
 	end
-	
+
 WoWPro.ProfessionExpansion2Skill = {}
 for skill, data in pairs(WoWPro.ProfessionSkillLines) do
     if data.parent and data.exp then
