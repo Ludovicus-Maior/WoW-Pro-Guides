@@ -721,11 +721,11 @@ A Sunken Treasure|QID|669|M|32.29,81.36|Z|Arathi Highlands|N|From Shakes O'Breen
 
 H Ironforge|QID|554|N|Hearth back to Ironforge. If your hearthstone is on cooldown swim south-west towards Wetlands, run to Menthil Harbor and fly from there.|
 r Repair, Restock, check the AH|QID|707|M|32.19,64.72|Z|Ironforge|N|Do your town stuff. We are going to be gone for a while.|
-B Frost Oil|QID|713|L|3829|N|Buy a Frost Oil from the Auction House or a player with Alchemy.|ITEM|3829|
-B Gyrochronatom|QID|714|L|4389||N|Buy a Gyrochronatom from the Auction House or a player with Engineering.|ITEM|4389|
-B Patterned Bronze Bracers|QID|716|L|2868|N|Buy a Patterned Bronze Bracers from the Auction House or a player with Blacksmithing.|ITEM|2868|
-B Healing Potion|QID|715|L|929|N|Buy a Healing Potion from the Auction House or a player with Alchemy|ITEM|929|
-B Lesser Invisibility Potion|QID|715|L|3823|N|Buy a Lesser Invisibility from the Auction House or a player with Alchemy|ITEM|3823|
+B Frost Oil|QID|713|L|3829|N|Buy a Frost Oil from the Auction House or a player with Alchemy. Make sure you have these with you now.|ITEM|3829|
+B Gyrochronatom|QID|714|L|4389||N|Buy a Gyrochronatom from the Auction House or a player with Engineering. Make sure you have these with you now.|ITEM|4389|
+B Patterned Bronze Bracers|QID|716|L|2868|N|Buy a Patterned Bronze Bracers from the Auction House or a player with Blacksmithing. Make sure you have these with you now.|ITEM|2868|
+B Healing Potion|QID|715|L|929|N|Buy a Healing Potion from the Auction House or a player with Alchemy. Make sure you have 1 of these with you now.|ITEM|929|
+B Lesser Invisibility Potion|QID|715|L|3823|N|Buy a Lesser Invisibility from the Auction House or a player with Alchemy. Make sure you have 1 of these with you now.|ITEM|3823|
 
 T Stormpike's Deciphering|QID|554|M|74.6,11.76|Z|Ironforge|N|To Prospoctor Stormpike.|
 A Ironband Wants You!|QID|707|M|74.6,11.76|Z|Ironforge|N|From Prospoctor Stormpike.|
