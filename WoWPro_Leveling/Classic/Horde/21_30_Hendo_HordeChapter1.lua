@@ -86,7 +86,7 @@ T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.\nFollow the hi
 ; ---
 A Rot Hide Ichor|QID|443|M|43.43,40.86|Z|Silverpine Forest|N|From High Executor Hadrec inside the crypt.|PRE|439|
 R Fenris Isle|ACTIVE|443|M|52.34,37.21;58.75,35.43;64.79,34.60;65.63,32.89|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
-N A Talking Head|AVAILABLE|460|N|This item starts a side quest chain and is found by killing the Gnolls.\nIt has a 3% drop rate.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|RANK|3|
+N A Talking Head|AVAILABLE|460|N|This item starts a side quest chain and is found by killing the Gnolls.\nIt has a 3% drop rate.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|RANK|3|IZ|Fenris Isle|S!US|
 A Resting in Pieces|QID|460|N|Click on the 'Talking Head' to start the quest.\n[color=FF0000]NOTE: [/color]Do this as soon as you get it.|U|3317|O|
 C Rot Hide Ichor|QID|443|L|3236 8|N|Kill Rot Hide Gnolls for the Ichor.|S|
 T Resting in Pieces|QID|460|M|67.87,24.86|Z|Silverpine Forest|N|Click on the Shallow Grave to turn in the quest.|
@@ -115,36 +115,36 @@ T Report to Hadrec|QID|448|M|43.43,40.86|Z|Silverpine Forest|N|To High Executor 
 A Beren's Peril|QID|516|M|43.98,40.93|Z|Silverpine Forest|N|From Shadow Priest Allister.|
 A The Weaver|QID|480|M|43.98,40.93|Z|Silverpine Forest|N|From Shadow Priest Allister.|PRE|479|
 
-R Ambermill|ACTIVE|480|M|51.34,36.98;55.71,64.46|Z|Silverpine Forest|CC|N|Make your way to Ambermill.|
-C The Weaver|QID|480|M|63.4,64.2|Z|Silverpine Forest|L|3515|N|(coords)Kill Ataeric and loot his staff.\n[color=FF0000]NOTE: [/color]You have to get past the 2 mages and their voidwalkers to get to Ataeric. You can aggro the mages one at a time. But, it's not easy.\nMake sure you take out the Mage and Voidwalker that path in and out of the building. You'll be using the foyer to fight the mobs inside the room and you don't want them sneaking up on you.|
-R Beren's Peril|ACTIVE|516|M|61.53,64.61;62.88,72.15;60.44,74.46;60.54,73.35|Z|Silverpine Forest|CC|N|Exit the building and follow the road south out of Ambermill. Stick to the mountains on the east side (right) and follow them around the bend.|
-R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way to the cave entrance.|
-C Beren's Peril|QID|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|
-R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way back to the cave entrance.|
-R Greymane Wall|QID|530|M|59.70,77.90;53.67,72.47;51.10,72.45;46.89,83.45|Z|Silverpine Forest|CC|LVL|10|N|Exit the cave and head back to the road. Follow the road west to the first intersection and continue west to the next intersection. From here, go south to The Greymane Wall.|
-C A Husband's Revenge|QID|530|L|3613|N|Kill Valdred Moray and loot his hands. He paths back and forth in front of the gate.|
-R Hillsbrad Foothills|QID|1065|M|51.10,72.45;53.67,72.47;67.00,80.28|Z|Silverpine Forest|CC|N|Head back to the main road. Continue east on the main road to the Silverpine Forest/Hillsbrad Foothills border.|
+R Ambermill|ACTIVE|480|M|51.34,36.98;55.71,64.46|Z|Silverpine Forest|CC|N|Make your way to Ambermill.|IZ|Silverpine Forest|
+C The Weaver|QID|480|M|63.40,64.28|Z|Silverpine Forest|L|3515|N|Kill Ataeric and loot his staff.\n[color=FF0000]NOTE: [/color]You have to get past 2 Conjurers (plus their voidwalkers) and 2 Warders to get to Ataeric. You can aggro the mages one at a time. But, it's not easy. You may find a Dalaran Spellscribe (a non-elite rare spawn) in the room as well.\nMake sure you take out the Conjurer and Voidwalker that path in and out of the building. You'll be using the foyer to fight the mobs inside the room and you don't want them sneaking up on you.\n\nAtaeric won't stand still. He is a Frost mage who likes to keep his distance. If you don't clear the room, you'll end up fighting the entire room at the same time.|
+R Beren's Peril|ACTIVE|516|M|61.53,64.61;62.88,72.15;60.44,74.46;60.54,73.35|Z|Silverpine Forest|CC|N|Exit the building and follow the road south out of Ambermill. Stick to the mountains on the east side (right) and follow them around the bend.|IZ|Silverpine Forest|
+R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way to the cave entrance.|IZ|Silverpine Forest|
+K Beren's Peril|ACTIVE|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|
+R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way back to the cave entrance.|IZ|Silverpine Forest|
+R The Greymane Wall|QID|530|M|59.70,77.90;53.67,72.47;51.10,72.45;46.89,83.45|Z|Silverpine Forest|CC|N|Exit the cave and head back to the road. Follow the road west to the first intersection and continue west to the next intersection. From here, go south to The Greymane Wall.|IZ|Silverpine Forest|
+C A Husband's Revenge|QID|530|M|46.06,85.64|Z|Silverpine Forest|L|3613|N|Kill Valdred Moray and loot his hands. He paths back and forth in front of the gate.|
+R Hillsbrad Foothills|ACTIVE|1065|M|51.10,72.45;53.67,72.47;67.00,80.28|Z|Silverpine Forest|CC|N|Head back to the main road. Continue east on the main road to the Silverpine Forest/Hillsbrad Foothills border.|
 
 ; --- Hillsbrad Foothills
-A Time To Strike|QID|494|M|20.76,47.40|Z|Hillsbrad Foothills|N|From Deathstalker Lesh at Southpoint Tower.|
+A Time To Strike|QID|494|M|20.79,47.36|Z|Hillsbrad Foothills|N|From Deathstalker Lesh at Southpoint Tower.|
 R Tarren Mill|QID|494|M|57.65,36.61;55.86,19.60|Z|Hillsbrad Foothills|CC|N|Follow the road to Tarren Mill.|
 f Tarren Mill|QID|494|M|60.09,18.67|Z|Hillsbrad Foothills|N|At Zarise.|
-T Journey to Tarren Mill|QID|1065|M|61.47,19.13|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
-A Blood of Innocents|QID|1066|M|61.47,19.13|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|1065|
-T Journey to Hillsbrad Foothills|QID|493|M|61.47,19.13|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
-A Elixir of Suffering|QID|496|M|61.47,19.13|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
-A Elixir of Pain|QID|501|M|61.47,19.13|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+T Journey to Tarren Mill|QID|1065|M|61.44,19.06|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
+A Blood of Innocents|QID|1066|M|61.44,19.06|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|1065|
+T Journey to Hillsbrad Foothills|QID|493|M|61.44,19.06|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
+A Elixir of Pain|QID|501|M|61.44,19.06|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Elixir of Suffering|QID|496|M|61.44,19.06|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
 T Time To Strike|QID|494|M|62.28,20.25|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 A Battle of Hillsbrad|QID|527|M|62.28,20.25|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 A WANTED: Syndicate Personnel|QID|549|M|62.62,20.73|Z|Hillsbrad Foothills|N|From the Wanted post beside the Chapel entrance.|
 A The Rescue|QID|498|M|63.20,20.66|Z|Hillsbrad Foothills|N|From Krusk.|
-C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears for their Tongue.|S|
-C Kill Moss Creepers|QID|496|L|3477 1|N|Kill Moss Creepers for the Creeper Ichor.\nThis shouldn't take long.|S|
-C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions for vials of their blood.|S|
+C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears for their Tongue.|S|IZ|-Durnholde Keep|
+C Kill Moss Creepers|QID|496|L|3477 1|N|Kill Moss Creepers for the Creeper Ichor.\nThis shouldn't take long.|S|IZ|-Durnholde Keep|
+C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions for vials of their blood.|S|IZ|-Durnholde Keep|
 R Durnholde Keep|ACTIVE|498|M|76.08,47.11|Z|Hillsbrad Foothills|N|Make your way to the Durnholde Keep entrance.|
 C WANTED: Syndicate Personnel|QID|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|S|
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|S|
-K Jailer Eston|ACTIVE|498|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
+K Jailer Eston|ACTIVE|498|M|79.6 40.6|Z|Hillsbrad Foothills|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
 K Jailor Marlgen|ACTIVE|498|L|3499|N|Kill Jailor Marlgen to loot the Burnished Gold Key to free Tog'thar.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
 C The Rescue|QID|498|M|79.74,39.64|Z|Hillsbrad Foothills|QO|2|U|3499|N|Rescue Tog'thar.|NC|
 C The Rescue|QID|498|M|77.40,42.81;75.50,38.76;75.18,41.64|Z|Hillsbrad Foothills|CC|QO|1|U|3467|N|Rescue Drull.\n[color=FF0000]NOTE: [/color]Run along the stone wall west of the bridge, drop down to the ground behind the buildings, and follow the wall around to the backdoor.\nHe has a rogue, a mage and a Watchmen guarding him. If you approach by the rear door, you'll only have to pull the Watchmen. As long as the Watchmen doesn't run back inside and you stick to the west wall, you shouldn't aggro the other two.\n\nSometimes Jailor Eston will spawn inside. He can be pulled singly as well.|NC|
@@ -467,8 +467,7 @@ T Bloodfury Bloodline|QID|6283|M|47.18,61.10|N|To Maggran Earthbinder.|
 F Orgrimmar|QID|442|M|45.13,59.84|
 B Strong Troll's Blood Potion|AVAILABLE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
 B Strong Troll's Blood Potion|ACTIVE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
-R Leave Orgrimmar|QID|442|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
-b Tirisfal Glades|QID|442|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|
+b Tirisfal Glades|QID|442|M|50.88,13.83|Z|Durotar|N|Exit Orgrimmar through the south gate take the Zepplin to Tirisfal Glade.|
 R Undercity|QID|442|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
 A Elixir of Agony|QID|515|M|48.68,69.25|Z|Undercity|N|From Master Apothecary Faranell.|PRE|513|
 F The Sepulcher|QID|442|M|63.27,48.55|Z|Undercity|N|Fly to The Sepulcher.|
