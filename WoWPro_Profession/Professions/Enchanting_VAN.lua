@@ -60,7 +60,7 @@ M [item=6218/Runed Copper Rod]|QID|333007421|P|Enchanting;333;0+2;1|ITEM|6218|CR
 M [item=38679/Enchant Bracers - Minor Health]|QID|333007418|P|Enchanting;333;0+90;1|ITEM|38679|CRAFT|7418 105|MATS|10940 1;38682 1|
 = Learn Recipe|QID|333000501|P|Enchanting;333;0+50|RECIPE|7457|N|Learn [spell=7457/Enchant Bracers - Minor Stamina] Recipe from Trainer.|
 = Learn Recipe|QID|333000701|P|Enchanting;333;0+70|RECIPE|14807|N|Learn [spell=14807/Greater Magic Wand] Recipe from Trainer.|
-M [item=38771/Enchant Bracers - Minor Health]|QID|333007457|P|Enchanting;333;0+100;1|ITEM|38771|CRAFT|7457 10|MATS|10940 3;38682 1|
+M [item=38771/Enchant Bracers - Minor Stamina]|QID|333007457|P|Enchanting;333;0+100;1|ITEM|38771|CRAFT|7457 10|MATS|10940 3;38682 1|
 M [item=11288/Greater Magic Wand]|QID|333014807|P|Enchanting;333;0+110;1|ITEM|11288|CRAFT|14807 10|MATS|4470 1;10939 1|
 U Learn Recipe|QID|333001101|P|Enchanting;333;0+110|RECIPE|13419|U|11039|N|Learn [spell=13419/Enchant Cloak - Minor Agility] Recipe from Item.|
 M [item=38789/Enchant Cloak - Minor Agility]|QID|333013419|P|Enchanting;333;0+135;1|ITEM|38789|CRAFT|13419 25|MATS|16202 1|
