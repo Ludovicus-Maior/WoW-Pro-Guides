@@ -71,7 +71,7 @@ function ScrollListMixin:RefreshLayout()
     local guides = self.guides
     local buttons = _G.HybridScrollFrame_GetButtons(self)
     local offset = _G.HybridScrollFrame_GetOffset(self)
-	
+
 	if guides == nil then
 		return
 	end

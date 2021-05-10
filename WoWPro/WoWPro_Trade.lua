@@ -24,7 +24,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 		[633] = { name = 'Lockpicking' },
 	}
 
-	elseif WoWPro.BC then 
+	elseif WoWPro.BC then
 	WoWPro.ProfessionSkillLines = {
 		[164] = { name = 'Blacksmithing' },
 		[165] = { name = 'Leatherworking' },
@@ -42,7 +42,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 		[356] = { name = 'Fishing' },
 		[633] = { name = 'Lockpicking' },
 	}
-	
+
 	else
 	WoWPro.ProfessionSkillLines = {
 		[164] = { name = 'Blacksmithing' },
