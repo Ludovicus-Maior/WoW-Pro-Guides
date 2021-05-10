@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('ClassicAlliance1925', "Leveling", 'Westfall', 'Bidaum', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicAlliance1925', "Leveling", 'Westfall', 'Bidaum+Boston+Elidion', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Alliance Leveling 19-25')
 WoWPro:GuideLevels(guide, 19,25)
 WoWPro:GuideNextGuide(guide, 'ClassicAlliance2530')
@@ -56,7 +56,7 @@ A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Stormwind City|
 T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|Stormwind City|N|To Master Mathias Shaw.|
 A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
-F Sentinel Hill|QID|13|U|6948|N|Fly or Hearth to Westfall|Z|Stormwind City|M|71.00,72.50|
+F Sentinel Hill|ACTIVE|141|U|6948|N|Fly or Hearth to Westfall|Z|Stormwind City|M|71.00,72.50|
 
 ; Westfall 18-20
 T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|
