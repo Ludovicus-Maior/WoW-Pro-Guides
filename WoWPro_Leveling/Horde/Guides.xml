@@ -1,6 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 	<Script file="BC_Blades_Edge.lua"/>
-	<Script file="BC_Dungeon_Blackfathom_Deeps.lua"/>
 	<Script file="BC_Hellfire_Peninsula.lua"/>
 	<Script file="BC_Nagrand.lua"/>
 	<Script file="BC_Shadowmoon.lua"/>

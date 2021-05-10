@@ -71,7 +71,10 @@ function ScrollListMixin:RefreshLayout()
     local guides = self.guides
     local buttons = _G.HybridScrollFrame_GetButtons(self)
     local offset = _G.HybridScrollFrame_GetOffset(self)
-
+	
+	if guides == nil then
+		return
+	end
     for buttonIndex = 1, #buttons do
         local button = buttons[buttonIndex]
         local guideIndex = buttonIndex + offset
@@ -142,7 +145,7 @@ local SortableScrollListMixin = _G.Mixin({}, ScrollListMixin)
 function SortableScrollListMixin:OnLoad()
     ScrollListMixin.OnLoad(self)
 
-    if not WoWPro.CLASSIC then
+    if WoWPro.RETAIL or WoWPro.BC then
         _G.Mixin(self.titleRow, _G.BackdropTemplateMixin)
         self.titleRow:OnBackdropLoaded()
     end
@@ -236,8 +239,9 @@ do -- SetSort
         if sortHandler == true then
             sortHandler = SimpleSort
         end
-
-        sort(self.guides, Compare)
+		if self.guides ~= nil then
+			sort(self.guides, Compare)
+		end
         header.isInverted = sortInverted
         self:UpdateHeaders(sortIndex)
         self:RefreshLayout()

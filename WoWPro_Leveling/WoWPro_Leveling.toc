@@ -18,6 +18,9 @@ Horde\Guides.xml
 Classic\Alliance\Guides.xml
 Classic\Neutral\Guides.xml
 Classic\Horde\Guides.xml
+Classic_BC\Alliance\Guides.xml
+Classic_BC\Neutral\Guides.xml
+Classic_BC\Horde\Guides.xml
 
 WoWPro_Leveling_Parser.lua
 WoWPro_Leveling_Config.lua

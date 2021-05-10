@@ -50,7 +50,7 @@ function WoWPro.Profession:PreRowUpdate(row)
         profmaxlvl = tonumber(profmaxlvl) or 0
 		if (k == WoWPro.rows[WoWPro.ActiveStickyCount+1].index) then
             local profs = {}
-			if not WoWPro.CLASSIC then
+			if WoWPro.RETAIL then
 				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = _G.GetProfessions()
 				for p=1,6 do
 					if profs[p] then
@@ -92,7 +92,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 						end
 					end
 				end
-			elseif WoWPro.CLASSIC then											-- If classic can handle new processing, this is next to be changed over.
+			elseif WoWPro.CLASSIC or WoWPro.BC then											-- If classic can handle new processing, this is next to be changed over.
 				for p = 1, _G.GetNumSkillLines() do
 						local skillName, _, _, skillRank, _, rankModifier = _G.GetSkillLineInfo(p)
 						local skillnum = WoWPro.ProfessionNameToSkillLine[skillName]

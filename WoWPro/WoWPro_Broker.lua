@@ -1017,14 +1017,14 @@ function WoWPro:RowUpdate(offset)
             tinsert(dropdown,
                 {text = step.." Options", isTitle = true}
             )
-            if not WoWPro.CLASSIC then
+            if WoWPro.RETAIL then
                 -- TODO: Is this needed at all?
                 _G.QuestMapUpdateAllQuests()
                 _G.QuestPOIUpdateIcons()
             end
             local _, x
             -- TODO: Is this needed at all?
-            if QID and not WoWPro.CLASSIC then
+            if QID and WoWPro.RETAIL then
                 _, x = _G.QuestPOIGetIconInfo(QID)
             end
             if coord or x then
@@ -1219,7 +1219,7 @@ function WoWPro:RowUpdate(offset)
 			currentRow.jumpbutton:Show()
 			currentRow.jumpbutton:SetScript("OnClick", function()
 				WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",WoWProDB.char.currentguide, newguide)
-				if ctID and not WoWPro.CLASSIC then
+				if ctID and WoWPro.RETAIL then
 					_G.C_ChromieTime.SelectChromieTimeOption(ctID)
 				end
 				WoWPro:LoadGuide(newguide)
@@ -2494,7 +2494,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 				end
 			end
 
-			if WoWPro.covenant and WoWPro.covenant[guideIndex] and not WoWPro.CLASSIC then
+			if WoWPro.covenant and WoWPro.covenant[guideIndex] and WoWPro.RETAIL then
 				local covenant = WoWPro.covenant[guideIndex]:gsub(" ", "")
                 if covenant == "Kyrian" then
                     covenant = 1
@@ -2517,7 +2517,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 				end
 			end
 
-            if WoWPro.renown and WoWPro.renown[guideIndex] and not WoWPro.CLASSIC then
+            if WoWPro.renown and WoWPro.renown[guideIndex] and WoWPro.RETAIL then
 				local renownID = WoWPro.renown[guideIndex]
 				local renownFlip = false
                 local renownMatch
@@ -2624,7 +2624,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
-			if WoWPro.chromie and WoWPro.chromie[guideIndex] and not WoWPro.CLASSIC then
+			if WoWPro.chromie and WoWPro.chromie[guideIndex] and WoWPro.RETAIL then
 				if _G.C_PlayerInfo.CanPlayerEnterChromieTime() then
 					WoWPro:dbp("Player can enter Chromie Time")
                 else
@@ -2635,7 +2635,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
-            if WoWPro.fly and WoWPro.fly[guideIndex] and not WoWPro.CLASSIC then
+            if WoWPro.fly and WoWPro.fly[guideIndex] and WoWPro.RETAIL then
                 if WoWProCharDB.EnableFlight or stepAction == "R" or stepAction == "N" then
                     local expansion = WoWPro.fly[guideIndex]
                     local spellName
@@ -2707,7 +2707,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
-			if WoWPro.animapower and WoWPro.animapower[guideIndex] and not WoWPro.CLASSIC then
+			if WoWPro.animapower and WoWPro.animapower[guideIndex] and WoWPro.RETAIL then
 				local numBuffs = WoWPro:CheckAnimaPowers()
 				if not numBuffs then
 					WoWPro.AnimaPowers = 0
@@ -2743,7 +2743,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- Test for buildings, default is to skip if we dont have any of the named ones if all other conditions satisfied.
-            if WoWPro.building and WoWPro.building[guideIndex] and not skip and not WoWPro.CLASSIC then
+            if WoWPro.building and WoWPro.building[guideIndex] and not skip and WoWPro.RETAIL then
                 local Name,ids  = (";"):split(WoWPro.building[guideIndex],2)
                 local numList = 0
                 if ids then
@@ -2866,7 +2866,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- If the STRATEGY is already set, then this step is skipped
             -- Example:
             --     C Iron Starlette/Darkmoon Zepplin|QID|85561.1|PET1|Iron Starlette;77221;1+1+1|PET2|Darkmoon Zepplin;85561;1+1+2|PET3|Leveling;;;L>20|STRATEGY|IS/DZ|
-            if (WoWPro.pet1[guideIndex] or WoWPro.pet2[guideIndex] or WoWPro.pet3[guideIndex]) and WoWPro.strategy[guideIndex]  and not WoWPro.CLASSIC then
+            if (WoWPro.pet1[guideIndex] or WoWPro.pet2[guideIndex] or WoWPro.pet3[guideIndex]) and WoWPro.strategy[guideIndex]  and WoWPro.RETAIL then
                 if not WoWProCharDB.EnablePetBattles then
                     WoWPro.why[guideIndex] = "NextStep(): Pet battles disabled."
                     skip = true
@@ -2899,7 +2899,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- Pet Strategy steps guide the user in the use of the pets.
             -- Skip over inactive strategy steps
-            if WoWPro.strategy[guideIndex] and WoWPro.current_strategy and not WoWPro.CLASSIC then
+            if WoWPro.strategy[guideIndex] and WoWPro.current_strategy and WoWPro.RETAIL then
                 if WoWPro.strategy[guideIndex] ~= WoWPro.current_strategy then
                     -- Step is for strategy not active
                     WoWPro.why[guideIndex] = "NextStep(): not active strategy " ..  WoWPro.current_strategy
@@ -2908,13 +2908,13 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
             -- If we have an active strategy, skip over any N steps for now.
-            if WoWPro.current_strategy and stepAction == "N" and not WoWPro.CLASSIC then
+            if WoWPro.current_strategy and stepAction == "N" and WoWPro.RETAIL then
                 WoWPro.why[guideIndex] = "NextStep(): active strategy " ..  WoWPro.current_strategy .. ". Skip note."
                 skip = true
                 break
             end
             -- So we are in an active strategy step
-            if WoWPro.PetBattleActive and WoWPro.strategy[guideIndex] and WoWPro.current_strategy and WoWPro.strategy[guideIndex] == WoWPro.current_strategy  and not WoWPro.CLASSIC then
+            if WoWPro.PetBattleActive and WoWPro.strategy[guideIndex] and WoWPro.current_strategy and WoWPro.strategy[guideIndex] == WoWPro.current_strategy  and WoWPro.RETAIL then
                 if WoWPro.select[guideIndex] then
                     -- make sure this pet is active
                     WoWPro.PetSelect(WoWPro.select[guideIndex])

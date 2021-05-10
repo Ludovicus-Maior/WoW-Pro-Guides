@@ -1,0 +1,26 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="CLASSIC_BC_Blades_Edge.lua"/>
+	<Script file="CLASSIC_BC_Blood_Elf.lua"/>
+	<Script file="CLASSIC_BC_Burning_Steppes.lua"/>
+	<Script file="CLASSIC_BC_Dungeon_Blackfathom.lua"/>
+	<Script file="CLASSIC_BC_Dungeon_Shadowfang_Keep.lua"/>
+	<Script file="CLASSIC_BC_Dungeon_Wailing_Caverns.lua"/>
+	<Script file="CLASSIC_BC_Eastern_Plaguelands.lua"/>
+	<Script file="CLASSIC_BC_Felwood.lua"/>
+	<Script file="CLASSIC_BC_Forsaken.lua"/>
+	<Script file="CLASSIC_BC_Hellfire_Peninsula.lua"/>
+	<Script file="CLASSIC_BC_HordeChapter1.lua"/>
+	<Script file="CLASSIC_BC_HordeChapter2.lua"/>
+	<Script file="CLASSIC_BC_HordeChapter3.lua"/>
+	<Script file="CLASSIC_BC_Nagrand.lua"/>
+	<Script file="CLASSIC_BC_Orc_Troll.lua"/>
+	<Script file="CLASSIC_BC_Shadowmoon.lua"/>
+	<Script file="CLASSIC_BC_Silverpine_Forest.lua"/>
+	<Script file="CLASSIC_BC_Tauren.lua"/>
+	<Script file="CLASSIC_BC_Terokkar_Forest.lua"/>
+	<Script file="CLASSIC_BC_The_Barrens.lua"/>
+	<Script file="CLASSIC_BC_UnGoro_Crater.lua"/>
+	<Script file="CLASSIC_BC_Western_Plaguelands.lua"/>
+	<Script file="CLASSIC_BC_Winterspring.lua"/>
+	<Script file="CLASSIC_BC_Zangarmarsh.lua"/>
+</Ui>
