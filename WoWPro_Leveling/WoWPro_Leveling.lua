@@ -45,6 +45,18 @@ WoWPro.Leveling.ClassicStartGuides = {
     Tauren = 'Classic-01-12-Shururu-Mulgore',
     Troll = 'Classic-01-12-Zerinj-Durotar'
 }
+WoWPro.Leveling.ClassicBCStartGuides = {
+	BloodElf = "BC-BloodElf",
+    Draenei = "BC-Draenei",
+    Dwarf = 'BC-DwarfGnome',
+    Gnome = 'BC-DwarfGnome',
+    Human = 'BC-Human',
+    NightElf = "BC-NightElf",
+    Orc = 'BC-OrcTroll',
+    Scourge = 'BC-Scourge',
+    Tauren = 'BC-Tauren',
+    Troll = 'BC-OrcTroll'
+}
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Leveling:OnInitialize()
@@ -75,6 +87,8 @@ function WoWPro.Leveling:OnEnable()
             WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
             if WoWPro.CLASSIC then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
+            elseif WoWPro.BC then
+                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicBCStartGuides[engRace]
             else
 				local mapID = _G.C_Map.GetBestMapForUnit("player");
 				if mapID == 1727 or mapID == 1409 then

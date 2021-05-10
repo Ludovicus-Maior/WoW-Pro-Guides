@@ -109,7 +109,7 @@ local function GetGuides()
                 level = guide.level,
 				sortlevel = guide.sortlevel
             }
-            if WoWPro.CLASSIC then
+            if WoWPro.CLASSIC or WoWPro.BC then
                 guideInfo.Content = rangeFormat:format(guide.startlevel, guide.endlevel)
             else
                 local _, mapID = WoWPro:ValidZone(guide.zone)
@@ -154,7 +154,7 @@ local function levelSort(a, b)
 end
 
 local function contentSort(a, b)
-    if WoWPro.CLASSIC then
+    if WoWPro.CLASSIC or WoWPro.BC then
         return levelSort(a, b)
     else
         if a.xpac == b.xpac then

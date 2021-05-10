@@ -24,8 +24,26 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 		[633] = { name = 'Lockpicking' },
 	}
 
-	else
+	elseif WoWPro.BC then
+	WoWPro.ProfessionSkillLines = {
+		[164] = { name = 'Blacksmithing' },
+		[165] = { name = 'Leatherworking' },
+		[171] = { name = 'Alchemy' },
+		[182] = { name = 'Herbalism' },
+		[186] = { name = 'Mining' },
+		[197] = { name = 'Tailoring' },
+		[202] = { name = 'Engineering' },
+		[333] = { name = 'Enchanting' },
+		[393] = { name = 'Skinning' },
+		[129] = { name = 'First Aid'},
+		[755] = { name = 'Jewelcrafting' },
+	  --  Not included in GetTradeSkillLineInfoByID()
+		[185] = { name = 'Cooking' },
+		[356] = { name = 'Fishing' },
+		[633] = { name = 'Lockpicking' },
+	}
 
+	else
 	WoWPro.ProfessionSkillLines = {
 		[164] = { name = 'Blacksmithing' },
 			[2751] = { exp = 8, parent = 164, name = 'Shadowlands Blacksmithing' },
@@ -210,7 +228,7 @@ for skill, data in pairs(WoWPro.ProfessionSkillLines) do
 end
 
 -- special handling for Classic because of the reduced addon API
-if WoWPro.CLASSIC then
+if WoWPro.CLASSIC or WoWPro.BC then
 
     -- list of all available professions and SpellIDs with their names
     WoWPro.ProfessionSpellIDs = {
@@ -350,7 +368,7 @@ end
 
 
 -- special handling for Classic because of the reduced addon API
-if WoWPro.CLASSIC then
+if WoWPro.CLASSIC or WoWPro.BC then
     -- scan Tradeskill information and recipes on Classic
     function WoWPro.ScanTrade()
         WoWPro:dbp("ScanTrade() for Classic")

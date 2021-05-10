@@ -102,7 +102,7 @@ function WoWPro.TakeTaxiRetail(destination)
 end
 
 function WoWPro.TakeTaxi(destination)
-    if WoWPro.CLASSIC then
+    if WoWPro.CLASSIC or WoWPro.BC then
         WoWPro.TakeTaxiClassic(destination)
     else
         WoWPro.TakeTaxiRetail(destination)
@@ -258,7 +258,7 @@ local LUNARFALL_MAPID
 local FROSTWALL_MAPID
 
 function WoWPro.InGarrison()
-    if WoWPro.CLASSIC then return false; end
+    if WoWPro.CLASSIC or WoWPro.BC then return false; end
     if not LUNARFALL_MAPID then
         local zone, zm = WoWPro:ValidZone("Lunarfall!Instance")
         WoWPro:dbp("InGarrison: zone [%s] mapped to %d", zone, zm)
@@ -481,7 +481,7 @@ function WoWPro.RegisterEventHandler(event, handler)
 end
 
 function WoWPro.RegisterModernEventHandler(event, handler)
-    if WoWPro.CLASSIC then return end
+    if WoWPro.CLASSIC or WoWPro.BC then return end
     WoWPro.EventTable[event] = true
     WoWPro[event] = handler
 end
@@ -723,7 +723,7 @@ WoWPro.RegisterEventHandler("AREA_POIS_UPDATED", function(event, ...)
 	end
 end)
 
-if not WoWPro.CLASSIC then
+if WoWPro.RETAIL then
 	WoWPro.RegisterEventHandler("PLAYER_CHOICE_CLOSE", function(event, ...)
 		if successfulRequest then
 			if _G.IsInJailersTower() and not _G.C_PlayerChoice.IsWaitingForPlayerChoiceResponse() then
@@ -888,7 +888,7 @@ WoWPro.RegisterEventHandler("GOSSIP_CLOSED" ,function(event, ...)
 	WoWPro.GuidelistReset = true
     end)
 
-if not WoWPro.CLASSIC then
+if WoWPro.RETAIL then
 	WoWPro.RegisterEventHandler("CHROMIE_TIME_CLOSE" ,function(event, ...)
 		WoWPro.GuidelistReset = true
     end)
@@ -1115,7 +1115,7 @@ WoWPro.RegisterEventHandler("CHAT_MSG_SYSTEM", function(event, ...)
     WoWPro:AutoCompleteSetHearth(...)
 end)
 
-if not WoWPro.CLASSIC then
+if WoWPro.RETAIL then
     WoWPro.RegisterEventHandler("QUEST_LOG_CRITERIA_UPDATE", function(event) end)
 end
 
@@ -1155,7 +1155,7 @@ WoWPro.RegisterEventHandler("PLAYER_UNGHOST", function(event, ...)
     WoWPro:AutoCompleteDeath()
 end)
 
-if not WoWPro.CLASSIC then
+if WoWPro.RETAIL then
     WoWPro.RegisterEventHandler("SCENARIO_COMPLETED", function(event, ...)
         if WoWPro.Scenario then
             WoWPro:dbp("%s: Scenario %s done.", event, WoWPro.Scenario.name)
