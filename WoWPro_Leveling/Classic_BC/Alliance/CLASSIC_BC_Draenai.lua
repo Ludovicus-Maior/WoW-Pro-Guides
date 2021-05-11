@@ -6,68 +6,78 @@ WoWPro:GuideName(guide,"Draenai: Intro")
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Darkshore')
 WoWPro:GuideSteps(guide, function()
 return [[
-R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
-f The Exodar|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
-A You Survived!|QID|9279|LEAD|9280|M|61.16,29.49|N|From Megelon right in front of you.|R|Draenei|
-T You Survived!|QID|9279|N|To Proenitus.|M|52.73,35.90|R|Draenei|
-A Replenishing the Healing Crystals|QID|9280|M|52.73,35.90|N|From Proenitus.|R|Draenei|
-A Replenishing the Healing Crystals|QID|9369|M|52.73,35.90|N|From Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
-C Replenishing the Healing Crystals|QID|9280|M|51.2,31.3|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Draenei|
-C Replenishing the Healing Crystals|QID|9369|M|51.2,31.3|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
-T Replenishing the Healing Crystals|QID|9280|M|52.73,35.90|N|To Proenitus.|R|Draenei|
-T Replenishing the Healing Crystals|QID|9369|M|52.73,35.90|N|To Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
-A Urgent Delivery!|QID|9409|PRE|9280^9369|M|52.73,35.90|N|From Proenitus.|
-T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building (he wanders around inside the place a bit).|M|51.8,42.0|
+R Note:|R|Human, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
+f The Exodar|R|Human, Gnome, Dwarf, Night El|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
+A You Survived!|QID|9279|LEAD|9280|M|83.01,43.85|N|From Megelon right in front of you.|R|Draenei|
+T You Survived!|QID|9279|N|To Proenitus.|M|80.42,45.89|R|Draenei|
+A Replenishing the Healing Crystals|QID|9280|M|80.42,45.89|N|From Proenitus.|R|Draenei|
+A Replenishing the Healing Crystals|QID|9369|M|80.42,45.89|N|From Proenitus.|R|Human, Gnome, Dwarf, Night El|
+C Replenishing the Healing Crystals|QID|9280|M|77.43,42.72|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Draenei|
+C Replenishing the Healing Crystals|QID|9369|M|77.43,42.72|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Human, Gnome, Dwarf, Night El|
+T Replenishing the Healing Crystals|QID|9280|M|80.42,45.89|N|To Proenitus.|R|Draenei|
+T Replenishing the Healing Crystals|QID|9369|M|80.42,45.89|N|To Proenitus.|R|Human, Gnome, Dwarf, Night El|
+A Urgent Delivery!|QID|9409|PRE|9280^9369|M|80.42,45.89|N|From Proenitus.|
+T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building (he wanders around inside the place a bit).|M|80.17,48.52|
 A Rescue the Survivors!|QID|9283|PRE|9409|M|52.21,43.32|N|From Zaldunn.|R|Draenei|
-A Botanist Taerix|QID|9371|PRE|9409|LEAD|10302|M|52.73,35.90|N|From Proenitus.|
-T Botanist Taerix|QID|9371|M|49.87,37.35|N|To Botanist Taerix around the corner near the Training dummies.|
-A Volatile Mutations|QID|10302|PRE|9280^9369|M|49.87,37.35|N|From Botanist Taerix, back outside.|
-C Rescue the Survivors!|QID|9283|S|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|39.1,43.7|NC|R|Draenei|T|Draenei Survivor|
-C Volatile Mutations|QID|10302|M|43.51,33.10|N|Kill Volatile Mutations.|
-C Rescue the Survivors!|QID|9283|US|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|39.1,43.7|NC|R|Draenei|T|Draenei Survivor|
-T Volatile Mutations|QID|10302|M|49.87,37.35|N|To Botanist Taerix.|
-A What Must Be Done...|QID|9293|PRE|10302|M|49.87,37.35|N|From Botanist Taerix.|
-A Botanical Legwork|QID|9799|PRE|10302|M|49.72,37.54|N|From Apprentic Vishael.|
-C Botanical Legwork|QID|9799|M|39.1,43.7|S|N|Collect Corrupted Flowers.|NC|
-C What Must Be Done...|QID|9293|N|Kill Mutated Root Lashers.|M|39.1,43.7|
-C Botanical Legwork|QID|9799|M|39.1,43.7|US|N|Collect Corrupted Flowers.|NC|
-T Botanical Legwork|QID|9799|M|49.72,37.54|N|To Apprentic Vishael.|
-T What Must Be Done...|QID|9293|M|49.87,37.35|N|To Botanist Taerix.|
-A Healing the Lake|QID|9294|PRE|9293|M|49.87,37.35|N|From Botanist Taerix.|
-T Rescue the Survivors!|QID|9283|M|51.8,42.0|N|To wandering Zaldunn.|R|Draenei|
-C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing Agent.|M|45.5,64.6|NC|U|22955|
-T Healing the Lake|QID|9294|M|49.87,37.35|N|To Botanist Taerix.|
-A Vindicator Aldar|QID|10304|PRE|9294|LEAD|37444|M|49.87,37.35|N|From Botanist Taerix.|
-T Vindicator Aldar|QID|10304|M|50.65,48.73|N|Speak to Vindicator Aldar.|
-A Spare Parts|QID|37445|PRE|10302|M|50.51,47.87|N|From Technician Zhanaa.|
-A Inoculation|QID|37444|PRE|10302|M|50.65,48.73|N|From Vindicator Aldar.|R|-Draenei|
-A Inoculation|QID|9303|PRE|10302|M|50.65,48.73|N|From Vindicator Aldar.|R|Draenei|
-r Sell junk and repair|QID|37445|N|At Mura, close this step when done.|M|49.99,47.15|
+A Botanist Taerix|QID|9371|PRE|9409|LEAD|10302|M|80.42,45.89|N|From Proenitus.|
+T Botanist Taerix|QID|9371|M|79.13,46.54|N|To Botanist Taerix around the corner near the Training dummies.|
+A Volatile Mutations|QID|10302|PRE|9280^9369|M|79.13,46.54|N|From Botanist Taerix, back outside.|
+C Rescue the Survivors!|QID|9283|S|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|77.45,44.80|NC|R|Draenei|T|Draenei Survivor|
+C Volatile Mutations|QID|10302|M|77.45,44.80|N|Kill Volatile Mutations.|
+C Rescue the Survivors!|QID|9283|US|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|77.45,44.80|NC|R|Draenei|T|Draenei Survivor|
+T Volatile Mutations|QID|10302|M|79.13,46.54|N|To Botanist Taerix.|
+A What Must Be Done...|QID|9293|PRE|10302|M|79.13,46.54|N|From Botanist Taerix.|
+A Botanical Legwork|QID|9799|PRE|10302|M|79.06,46.60|N|From Apprentic Vishael.|
+C Botanical Legwork|QID|9799|M|73.43,49.14|S|N|Collect Corrupted Flowers.|NC|
+C What Must Be Done...|QID|9293|N|Kill Mutated Root Lashers.|M|73.43,49.14|
+C Botanical Legwork|QID|9799|M|73.43,49.14|US|N|Collect Corrupted Flowers.|NC|
+T Botanical Legwork|QID|9799|M|79.06,46.60|N|To Apprentic Vishael.|
+T What Must Be Done...|QID|9293|M|79.13,46.54|N|To Botanist Taerix.|
+A Healing the Lake|QID|9294|PRE|9293|M|79.13,46.54|N|From Botanist Taerix.|
+T Rescue the Survivors!|QID|9283|M|52.21,43.32|N|To wandering Zaldunn.|R|Draenei|
+A Shaman Training|QID|9421|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
+T Shaman Training|QID|9421|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
+A Call of Earth|QID|9449|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
+T Call of Earth|QID|9449|M|71.81,40.26|N|To Spirit of the Vale.|R|Draenei|C|Shaman|
+A Call of Earth|QID|9450|M|71.81,40.26|N|To Spirit of the Vale.|R|Draenei|C|Shaman|
+C Call of Earth|QID|9450|M|70.56,37.07|N|Kill Restless Spirit of Earth.|R|Draenei|C|Shaman|
+T Call of Earth|QID|9450|M|71.81,40.26|N|To Spirit of the Vale.|R|Draenei|C|Shaman|
+A Call of Earth|QID|9451|M|71.81,40.26|N|To Spirit of the Vale.|R|Draenei|C|Shaman|
+T Call of Earth|QID|9451|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
+C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing Agent.|M|76.74,58.85|NC|U|22955|
+T Healing the Lake|QID|9294|M|79.13,46.54|N|To Botanist Taerix.|
+
+
+A Vindicator Aldar|QID|10304|PRE|9294|LEAD|37444|M|79.13,46.54|N|From Botanist Taerix.|
+T Vindicator Aldar|QID|10304|M|79.48,51.61|N|Speak to Vindicator Aldar.|
+A Spare Parts|QID|9305|PRE|10302|M|79.41,51.24|N|From Technician Zhanaa.|
+A Inoculation|QID|37444|PRE|10302|M|79.48,51.61|N|From Vindicator Aldar.|R|-Draenei|
+A Inoculation|QID|9303|PRE|10302|M|79.48,51.61|N|From Vindicator Aldar.|R|Draenei|
+r Sell junk and repair|QID|37445|N|At Mura, close this step when done.|M|79.19,50.94|
 C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|-Draenei|
 C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|Draenei|
-C Spare Parts|QID|37445|N|Into the hills, through the cave. The parts are spread all over the camp.|M|58,72|
+C Spare Parts|QID|9305|N|Into the hills, through the cave. The parts are spread all over the camp.|M|58,72|
 C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|-Draenei|
 C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|Draenei|
 H Ammen Vale|QID|37445|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
-T Inoculation|QID|37444|M|50.65,48.73|N|To Vindicator Aldar.|R|-Draenei|
-T Inoculation|QID|9303|M|50.65,48.73|N|To Vindicator Aldar.|R|Draenei|
-A The Missing Scout|QID|9309|PRE|9303|M|50.65,48.73|N|From Vindicator Aldar.|
-T Spare Parts|QID|37445|M|50.51,47.87|N|To Technician Zhanaa.|
-T The Missing Scout|QID|9309|M|33.88,69.42|N|To Tolaan.|
-A The Blood Elves|QID|10303|PRE|9309|N|From Tolaan.|M|33.88,69.42|
-C The Blood Elves|QID|10303|N|Kill Blood Elf Scouts.|M|29,73|
-T The Blood Elves|QID|10303|M|33.88,69.42|N|To Tolaan.|
-A Blood Elf Spy|QID|9311|PRE|10303|M|33.88,69.42|N|From Tolaan.|
-C Blood Elf Spy|QID|9311|N|Find Surveyor Candress in front of a tent at the top of the ridge.|M|27.79,80.43|
-C Blood Elf Plans|QID|9311|N|Loot Surveyor Candress's body to get the attack plans.|L|24414|M|27.79,80.43|
+T Inoculation|QID|37444|M|79.48,51.61|N|To Vindicator Aldar.|R|-Draenei|
+T Inoculation|QID|9303|M|79.48,51.61|N|To Vindicator Aldar.|R|Draenei|
+A The Missing Scout|QID|9309|PRE|9303|M|79.48,51.61|N|From Vindicator Aldar.|
+T Spare Parts|QID|9305|M|79.41,51.24|N|To Technician Zhanaa.|
+T The Missing Scout|QID|9309|M|72.02,60.80|N|To Tolaan.|
+A The Blood Elves|QID|10303|PRE|9309|N|From Tolaan.|M|72.02,60.80|
+C The Blood Elves|QID|10303|N|Kill Blood Elf Scouts.|M|70.56,61.90|
+T The Blood Elves|QID|10303|M|72.02,60.80|N|To Tolaan.|
+A Blood Elf Spy|QID|9311|PRE|10303|M|72.02,60.80|N|From Tolaan.|
+C Blood Elf Spy|QID|9311|N|Find Surveyor Candress in front of a tent at the top of the ridge.|M|69.80,65.32|
+C Blood Elf Plans|QID|9311|N|Loot Surveyor Candress's body to get the attack plans.|L|24414|M|69.80,65.32|
 A Blood Elf Plans|QID|9798|PRE|9309|N|Starts from a drop from Surveyor Candress.|U|24414|
-T Blood Elf Spy|QID|9311|N|To Vindicator Aldar.|M|50.65,48.73|
-T Blood Elf Plans|QID|9798|M|50.65,48.73|N|To Vindicator Aldar.|
-A The Emitter|QID|9312|M|50.65,48.73|N|From Vindicator Aldar.|
-T The Emitter|QID|9312|M|50.51,47.87|N|To Technician Zhanaa.|
-A Travel to Azure Watch|QID|9313|PRE|9312|M|50.51,47.87|N|From Technician Zhanaa.|
-r Sell junk and repair|QID|9452|N|At Mura (close when done).|M|49.99,47.15|
-R Azuremyst Isle|QID|9314|M|28,55;19.25,54.32|CS|N|Run for a fairly long way almost directly west, and up the trail heading out of Ammen Vale.|
+T Blood Elf Spy|QID|9311|N|To Vindicator Aldar.|M|79.48,51.61|
+T Blood Elf Plans|QID|9798|M|79.48,51.61|N|To Vindicator Aldar.|
+A The Emitter|QID|9312|M|79.48,51.61|N|From Vindicator Aldar.|
+T The Emitter|QID|9312|M|79.41,51.24|N|To Technician Zhanaa.|
+A Travel to Azure Watch|QID|9313|PRE|9312|M|79.41,51.24|N|From Technician Zhanaa.|
+r Sell junk and repair|QID|9452|N|At Mura (close when done).|M|79.19,50.94|
 A Word from Azure Watch |QID|9314|M|64.49,54.04|Z|Azuremyst Isle|N|From Aeun.|
 A Red Snapper - Very Tasty!|QID|9452|Z|Azuremyst Isle|M|61.1,54.2|N|From Diktynna.|
 N Fishing Training|O|QID|9452|N|You could take this opportunity to learn fishing if you so desire... click to close.|Z|Azuremyst Isle|M|61.1,54.2|
@@ -79,8 +89,7 @@ T Find Acteon!|QID|9453|Z|Azuremyst Isle|M|49.8,51.9|N|To Acteon at Azure Watch.
 A The Great Moongraze Hunt|QID|9454|Z|Azuremyst Isle|M|49.8,51.9|N|From Acteon.|
 T Travel to Azure Watch|QID|9313|Z|Azuremyst Isle|M|48.7,50.3|N|To Technician Dyvuun.|
 T Word from Azure Watch|QID|9314|Z|Azuremyst Isle|M|48.3,49.2|N|To Caregiver Chellan.|
-A Beds, Bandages, and Beyond|QID|9603|N|From Caregive Chellan.|R|Draenei|
-h Azure Watch|ACTIVE|9454|N|Set your hearth to Azure Watch with Caregive Chellan.|
+h Azure Watch|QID|9454|N|Set your hearth to Azure Watch with Caregive Chellan.|
 A Medicinal Purpose|QID|9463|Z|Azuremyst Isle|M|48.4,51.8|N|From Anchorite Fateema.|R|Draenei|
 N Professions|O|ACTIVE|9463|Z|Azuremyst Isle|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
 N Note!|O|ACTIVE|9463|N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
@@ -95,17 +104,8 @@ A The Great Moongraze Hunt|QID|10324|PRE|9454|Z|Azuremyst Isle|M|49.8,51.9|N|Fro
 C An Alternative Alternative|QID|9473|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|QO|1|Z|Azuremyst Isle|M|48.5,55.1|
 T An Alternative Alternative|QID|9473|Z|Azuremyst Isle|M|48.4,51.8|N|To Daedal.|R|Draenei|
 A The Prophecy of Velen|QID|9505|LEAD|9506|PRE|9473|Z|Azuremyst Isle|M|48.4,51.8|N|Wait for a few moments for the short scene to complete, then get this from Daedal.|R|Draenei|
-T Beds, Bandages, and Beyond|QID|9603|N|Go to Zaldaan (the Flight Master).|R|Draenei|Z|Azuremyst Isle|M|49.67,49.17|
-A On the Wings of a Hippogryph|QID|9604|PRE|9603|N|From Zaldaan.|R|Draenei|Z|Azuremyst Isle|M|49.67,49.17|
-F The Exodar|QID|9604|N|Fly to the Exodar.|R|Draenei|
-T On the Wings of a Hippogryph|QID|9604|M|57.03,50.14|Z|The Exodar|N|Go to Nurguni.|R|Draenei|
-A Hippogryph Master Stephanos|QID|9605|PRE|9604|N|From Nurguni.|R|Draenei|
-N Exodar|QID|9605|N|While you're here, you can visit your bank/AH or get supplies. Click to close and continue.|
-T Hippogryph Master Stephanos|QID|9605|Z|The Exodar|N|Go to Hippogryph Master Stephanos.|R|Draenei|
-A Return to Caregiver Chellan|QID|9606|PRE|9605|Z|The Exodar|N|From Stephanos.|R|Draenei|
-F Azure Watch|QID|9606|M|54.33,36.73|Z|The Exodar|N|Fly back to Azure Watch.|R|Draenei|
-T Return to Caregiver Chellan|QID|9606|Z|Azuremyst Isle|M|48.39,49.25|N|To Caregiver Chellan.|R|Draenei|
-R Odesyus' Landing|QID|9505|ACTIVE|9505|N|Take the road to the south and follow it to Odesyus' Landing|CC|Z|Azuremyst Isle|M|47,69|
+
+
 T The Prophecy of Velen|QID|9505|Z|Azuremyst Isle|M|47.04,70.22|N|To Admiral Odesyus.|R|Draenei|
 A A Small Start|QID|9506|Z|Azuremyst Isle|M|47.04,70.22|N|From Admiral Odesyus.|
 A Cookie's Jumbo Gumbo|QID|9512|Z|Azuremyst Isle|M|46.7,70.5|N|From "Cookie" McWeaksauce.|
@@ -214,5 +214,24 @@ T Coming of Age|QID|9623|M|81.64,51.70|Z|The Exodar|N|Head up and outside. Then 
 A Elekks Are Serious Business|QID|9625|LEAD|9634|PRE|9623|M|81.64,51.70|Z|The Exodar|N|From Torallius the Pack Handler.|
 R Kessel's Crossing|QID|9625|Z|Bloodmyst Isle|N|Go north to Kessel's Crossing on Bloodmyst Isle (it's a long run - just follow the path).|M|63.50,88.14|
 T Elekks Are Serious Business|QID|9625|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
+
+
+
+
+
+
+A Beds, Bandages, and Beyond|QID|9603|N|From Caregive Chellan.|R|Draenei|
+T Beds, Bandages, and Beyond|QID|9603|N|Go to Zaldaan (the Flight Master).|R|Draenei|Z|Azuremyst Isle|M|49.67,49.17|
+A On the Wings of a Hippogryph|QID|9604|PRE|9603|N|From Zaldaan.|R|Draenei|Z|Azuremyst Isle|M|49.67,49.17|
+F The Exodar|QID|9604|N|Fly to the Exodar.|R|Draenei|
+T On the Wings of a Hippogryph|QID|9604|M|57.03,50.14|Z|The Exodar|N|Go to Nurguni.|R|Draenei|
+A Hippogryph Master Stephanos|QID|9605|PRE|9604|N|From Nurguni.|R|Draenei|
+N Exodar|QID|9605|N|While you're here, you can visit your bank/AH or get supplies. Click to close and continue.|
+T Hippogryph Master Stephanos|QID|9605|Z|The Exodar|N|Go to Hippogryph Master Stephanos.|R|Draenei|
+A Return to Caregiver Chellan|QID|9606|PRE|9605|Z|The Exodar|N|From Stephanos.|R|Draenei|
+F Azure Watch|QID|9606|M|54.33,36.73|Z|The Exodar|N|Fly back to Azure Watch.|R|Draenei|
+T Return to Caregiver Chellan|QID|9606|Z|Azuremyst Isle|M|48.39,49.25|N|To Caregiver Chellan.|R|Draenei|
+R Odesyus' Landing|QID|9505|ACTIVE|9505|N|Take the road to the south and follow it to Odesyus' Landing|CC|Z|Azuremyst Isle|M|47,69|
+
 ]]
 end)
