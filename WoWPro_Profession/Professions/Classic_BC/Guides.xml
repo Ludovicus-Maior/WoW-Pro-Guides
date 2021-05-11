@@ -1,6 +1,7 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 	<Script file="BC_Alchemy.lua"/>
 	<Script file="BC_Blacksmithing.lua"/>
+	<Script file="BC_Enchanting.lua"/>
 	<Script file="BC_First_Aid.lua"/>
 	<Script file="BC_Tailoring.lua"/>
 </Ui>

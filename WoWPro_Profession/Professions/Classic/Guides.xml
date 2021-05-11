@@ -1,6 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 	<Script file="Alchemy_Classic_VAN.lua"/>
 	<Script file="Blacksmithing_Classic_VAN.lua"/>
+	<Script file="Enchanting_Classic_VAN.lua"/>
 	<Script file="Tailoring_Classic_VAN.lua"/>
-	
 </Ui>
