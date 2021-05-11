@@ -6,7 +6,6 @@ local guide = WoWPro:RegisterGuide("BC_Tailoring","Profession","Tailoring_Classi
 WoWPro:GuideIcon(guide,"PRO",197)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Tailoring")
-WoWPro:GuideNickname(guide, "TLR_Classic")
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -18,20 +17,17 @@ return [[
 ;  For the = Steps - QID|Prof,Step Increment| |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 40 |197000401| and |197000402|  // |RECIPE|3276|N|Learn [spell=3276/Heavy Linen Bandage] Recipe, from Trainer|
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
-
 ; N Guide Hub|QID|197000000|JUMP|Tailoring: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
-
-N Things To Note|QID|197000001|N|\nThis guide only covers CLASSIC VANILLA content, currently rewritten to our new format.|
+N Things To Note|QID|197000001|N|\nThis guide only covers CLASSIC BURNING CRUSADE content, currently rewritten to our new format.|
 N PLEASE Report any issues|QID|197000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|197000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 300.\n This is for those that want to farm all mats prior to starting.\n If you don't want to farm the mats just click off the steps.|
-
 l [item=2589/Linen Cloth]|QID|197002589|L|2589 205|ITEM|2589|N|You'll need approx 205 Linen Cloth.|
 l [item=2592/Wool Cloth]|QID|197002592|L|2592 135|ITEM|2592|N|You'll need approx 135 Wool Cloth.|
 l [item=4306/Silk Cloth]|QID|197004306|L|4306 780|ITEM|4306|N|You'll need approx 780 Silk Cloth.|
 l [item=4338/Mageweave Cloth]|QID|197004338|L|4338 470|ITEM|4338|N|You'll need approx 470 Mageweave Cloth.|
-l [item=14047/Runecloth]|QID|197014047|L|14047 1195|ITEM|14047|N|You'll need approx 1,195 Runecloth.|
-l [item=8170/Rugged Leather]|QID|197008170|L|8170 110|ITEM|8170|N|You'll need approx 110 Rugged Leather.|
+l [item=14047/Runecloth]|QID|197014047|L|14047 940|ITEM|14047|N|You'll need approx 940 Runecloth.|
+l [item=8170/Rugged Leather]|QID|197008170|L|8170 100|ITEM|8170|N|You'll need approx 100 Rugged Leather.|
 l [item=2320/Coarse Thread]|QID|197002320|L|2320 55|ITEM|2320|N|You'll need approx 55 Coarse Thread.|
 l [item=2321/Fine Thread]|QID|197002321|L|2321 83|ITEM|2321|N|You'll need approx 83 Fine Thread.|
 l [item=6260/Blue Dye]|QID|197006260|L|6260 30|ITEM|6260|N|You'll need approx 30 Blue Dye.|
@@ -40,12 +36,13 @@ l [item=2604/Red Dye]|QID|197002604|L|2604 60|ITEM|2604|N|You'll need approx 60 
 l [item=4291/Silken Thread]|QID|197004291|L|4291 20|ITEM|4291|N|You'll need approx 20 Silken Thread.|
 l [item=8343/Heavy Silken Thread]|QID|197008343|L|8343 71|ITEM|8343|N|You'll need approx 71 Heavy Silken Thread.|
 l [item=6261/Orange Dye]|QID|197006261|L|6261 5|ITEM|6261|N|You'll need approx 5 Orange Dye.|
-l [item=14341/Rune Thread]|QID|197014341|L|14341 61|ITEM|14341|N|You'll need approx 61 Rune Thread.|
-
+l [item=14341/Rune Thread]|QID|197014341|L|14341 95|ITEM|14341|N|You'll need approx 95 Rune Thread.|
+l [item=21877/Netherweave Cloth]|QID|197021877|L|21877 2800|ITEM|21877|N|You'll need approx 2,800 Netherweave Cloth.|
+l [item=22445/Arcane Dust]|QID|197022445|L|22445 180|ITEM|22445|N|You'll need approx 180 Arcane Dust.|
+l [item=21887/Knothide Leather]|QID|197021887|L|21887 10|ITEM|21887|N|You'll need approx 10 Knothide Leather.|
+l [item=21881/Netherweb Spider Silk]|QID|197021881|L|21881 30|ITEM|21881|N|You'll need approx 30 Netherweb Spider Silk.|
 N Shopping List|QID|197000005|N|This completes the Shopping List|
-
 N Tailoring and Bandage Trainers|QID|197000008|N|It's possible these NPC's name may change, as you level and/or complete quests, but the phased trainers should be near the same areas.|
-
 = Learn [spell=3908/Tailoring]|QID|197003908|M|53.10,81.40|Z|Stormwind City|SPELL|Tailoring;3908|LVL|5|N|Learn from Georgio Bolero, Mage Quarter, Stormwind.|FACTION|Alliance|
 = Learn [spell=3908/Tailoring]|QID|197003908|M|38.30,87.14|Z|Orgrimmar|SPELL|Tailoring;3908|LVL|5|N|Learn from Leyweaver Aurielle, Orgrimmar Embassy, Orgrimmar.|FACTION|Horde|
 M [item=2996/Bolt of Linen Cloth]|QID|197002963|P|Tailoring;197;0+45;1|ITEM|2996|CRAFT|2963 102|MATS|2589 2|
@@ -85,19 +82,12 @@ M [item=10003/Black Mageweave Gloves]|QID|197012053|P|Tailoring;197;0+230;1|ITEM
 = Learn Recipe|QID|1970002301|P|Tailoring;197;0+230|RECIPE|12072|N|Learn [spell=12072/Black Mageweave Headband] Recipe, from Trainer.|
 M [item=10024/Black Mageweave Headband]|QID|197012072|P|Tailoring;197;0+250;1|ITEM|10024|CRAFT|12072 23|MATS|4339 3;8343 2|
 = Learn Recipe|QID|1970002501|P|Tailoring;197;0+250|RECIPE|18401|N|Learn [spell=18401/Bolt of Runecloth] Recipe, from Trainer.|
-M [item=14048/Bolt of Runecloth]|QID|197018401|P|Tailoring;197;0+260;1|ITEM|14048|CRAFT|18401 239|MATS|14047 5|N|Craft all 239, you'll need these later.|
+M [item=14048/Bolt of Runecloth]|QID|197018401|P|Tailoring;197;0+260;1|ITEM|14048|CRAFT|18401 188|MATS|14047 5|N|Craft all 188, you'll need these later.|
 = Learn Recipe|QID|1970002551|P|Tailoring;197;0+255|RECIPE|18402|N|Learn [spell=18402/Runecloth Belt] Recipe, from Trainer.|
-M [item=13856/Runecloth Belt]|QID|197018402|P|Tailoring;197;0+280;1|ITEM|13856|CRAFT|18402 25|MATS|14048 3;14341 1|N|Alternately you can start on [item=14046/Runecloth Bag] BUT you'll need to farm more mats, not covered in guide.\nRight click to skip.|
-B [spell=18405/Runecloth Bag]|QID|197018405|M|61.2,37.2|Z|Winterspring|RECIPE|18405|T|Qia|N|Purchase [item=14468/Pattern: Runecloth Bag] from Qia, in Winterspring. Limited Suppliy Item!|
-B [spell=18417/Runecloth Gloves]|QID|197018417|M|61.2,37.2|Z|Winterspring|RECIPE|18417|T|Qia|N|Purchase [item=14481/Pattern: Runecloth Gloves] from Qia, in Winterspring. Limited Suppliy Item!|
-U Learn Recipe|QID|1970002601|P|Tailoring;197;0+260|RECIPE|18405|N|Learn [spell=18405/Runecloth Bag] Recipe, using [item=14468/Pattern: Runecloth Bag].|
-M [item=14046/Runecloth Bag]|QID|197018405|P|Tailoring;197;0+280;1|ITEM|14046|CRAFT|18405 25|MATS|14048 5;8170 2;14341 1|
-M [item=14046/Runecloth Bag]|QID|197018405|P|Tailoring;197;0+290;1|ITEM|14046|CRAFT|18405 18|MATS|14048 5;8170 2;14341 1|
-U Learn Recipe|QID|1970002751|P|Tailoring;197;0+275|RECIPE|18417|N|Learn [spell=18417/Runecloth Gloves] Recipe, using [item=14481/Pattern: Runecloth Gloves].|
-M [item=13863/Runecloth Gloves]|QID|197018417|P|Tailoring;197;0+300;1|ITEM|13863|CRAFT|18417 18|MATS|14048 4;8170 4;14341 1|
-
+M [item=13856/Runecloth Belt]|QID|197018402|P|Tailoring;197;0+280;1|ITEM|13856|CRAFT|18402 25|MATS|14048 3;14341 1|
+U Learn Recipe|QID|1970002751|P|Tailoring;197;0+275|RECIPE|18417|N|Learn [spell=18417/Runecloth Gloves] Recipe, using [item=14481/Pattern: Runecloth Gloves]. Also learnable from Master Tailoring Trainer in Hellfire Peninsula.|
+M [item=13863/Runecloth Gloves]|QID|197018417|P|Tailoring;197;0+300;1|ITEM|13863|CRAFT|18417 25|MATS|14048 4;8170 4;14341 1|
+N Not Finished|N|This guide still needs to be done for TBC 300-375.|
 N Congratulations!|QID|197000010|N|That completes Classic Tailoring.|
 ]]
 end)
-
-
