@@ -119,8 +119,6 @@ M [item=38825/Enchant Cloak - Greater Defense]|QID|333013746|P|Enchanting;333;0+
 
 N Incomplete!|QID|333333333|N|Guide is not finished yet, need to add level 225-300, Need to add stuff for Annora in Uldaman.|
 
-
 N Congratulations|QID|333000010|N|You've reached at least 300 in Vanilla Enchanting.|
 ]]
 end)
-

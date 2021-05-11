@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BC_Tailoring","Profession","Tailoring_Classic", "Blanckaert", "Neutral", 2)
+local guide = WoWPro:RegisterGuide("BC_Tailoring", "Profession", "Tailoring", "Blanckaert", "Neutral", 2)
 WoWPro:GuideIcon(guide,"PRO",197)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Tailoring")
@@ -17,11 +17,12 @@ return [[
 ;  For the = Steps - QID|Prof,Step Increment| |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 40 |197000401| and |197000402|  // |RECIPE|3276|N|Learn [spell=3276/Heavy Linen Bandage] Recipe, from Trainer|
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
-; N Guide Hub|QID|197000000|JUMP|Tailoring: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+
 N Things To Note|QID|197000001|N|\nThis guide only covers CLASSIC BURNING CRUSADE content, currently rewritten to our new format.|
 N PLEASE Report any issues|QID|197000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|197000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 300.\n This is for those that want to farm all mats prior to starting.\n If you don't want to farm the mats just click off the steps.|
+
 l [item=2589/Linen Cloth]|QID|197002589|L|2589 205|ITEM|2589|N|You'll need approx 205 Linen Cloth.|
 l [item=2592/Wool Cloth]|QID|197002592|L|2592 135|ITEM|2592|N|You'll need approx 135 Wool Cloth.|
 l [item=4306/Silk Cloth]|QID|197004306|L|4306 780|ITEM|4306|N|You'll need approx 780 Silk Cloth.|
@@ -42,7 +43,9 @@ l [item=22445/Arcane Dust]|QID|197022445|L|22445 180|ITEM|22445|N|You'll need ap
 l [item=21887/Knothide Leather]|QID|197021887|L|21887 10|ITEM|21887|N|You'll need approx 10 Knothide Leather.|
 l [item=21881/Netherweb Spider Silk]|QID|197021881|L|21881 30|ITEM|21881|N|You'll need approx 30 Netherweb Spider Silk.|
 N Shopping List|QID|197000005|N|This completes the Shopping List|
+
 N Tailoring and Bandage Trainers|QID|197000008|N|It's possible these NPC's name may change, as you level and/or complete quests, but the phased trainers should be near the same areas.|
+
 = Learn [spell=3908/Tailoring]|QID|197003908|M|53.10,81.40|Z|Stormwind City|SPELL|Tailoring;3908|LVL|5|N|Learn from Georgio Bolero, Mage Quarter, Stormwind.|FACTION|Alliance|
 = Learn [spell=3908/Tailoring]|QID|197003908|M|38.30,87.14|Z|Orgrimmar|SPELL|Tailoring;3908|LVL|5|N|Learn from Leyweaver Aurielle, Orgrimmar Embassy, Orgrimmar.|FACTION|Horde|
 M [item=2996/Bolt of Linen Cloth]|QID|197002963|P|Tailoring;197;0+45;1|ITEM|2996|CRAFT|2963 102|MATS|2589 2|
@@ -87,7 +90,9 @@ M [item=14048/Bolt of Runecloth]|QID|197018401|P|Tailoring;197;0+260;1|ITEM|1404
 M [item=13856/Runecloth Belt]|QID|197018402|P|Tailoring;197;0+280;1|ITEM|13856|CRAFT|18402 25|MATS|14048 3;14341 1|
 U Learn Recipe|QID|1970002751|P|Tailoring;197;0+275|RECIPE|18417|N|Learn [spell=18417/Runecloth Gloves] Recipe, using [item=14481/Pattern: Runecloth Gloves]. Also learnable from Master Tailoring Trainer in Hellfire Peninsula.|
 M [item=13863/Runecloth Gloves]|QID|197018417|P|Tailoring;197;0+300;1|ITEM|13863|CRAFT|18417 25|MATS|14048 4;8170 4;14341 1|
+
 N Not Finished|N|This guide still needs to be done for TBC 300-375.|
+
 N Congratulations!|QID|197000010|N|That completes Classic Tailoring.|
 ]]
 end)
