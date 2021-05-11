@@ -466,7 +466,7 @@ function WoWPro:MapPoint(row)
 
     -- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
     if (WoWPro.action[stepIndex]=="T" or WoWPro.action[stepIndex]=="C") and WoWPro.QID and WoWPro.QID[stepIndex] and not coords then
-        if not WoWPro.CLASSIC then
+        if WoWPro.RETAIL then
             -- TODO: Is this needed at all?
             _G.QuestMapUpdateAllQuests()
             _G.QuestPOIUpdateIcons()
@@ -522,7 +522,7 @@ function WoWPro:MapPoint(row)
     end
 
 	 -- SetSuperTrack Active Step
-	if zm and zm > 1 and coords and WoWPro.action[stepIndex ] ~= "C" and WoWPro.action[stepIndex ] ~= "T" and not WoWPro.CLASSIC then
+	if zm and zm > 1 and coords and WoWPro.action[stepIndex ] ~= "C" and WoWPro.action[stepIndex ] ~= "T" and WoWPro.RETAIL then
 		local jcoord = select(1, (";"):split(coords))
 		local x = tonumber(jcoord:match("([^|]*),"))/100
 		local y = tonumber(jcoord:match(",([^|]*)"))/100

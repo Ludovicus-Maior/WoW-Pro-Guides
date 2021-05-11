@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('ClassicTeldrassil0112', "Leveling", 'Teldrassil', 'Shururu', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicTeldrassil0112', "Leveling", 'Teldrassil', 'Bidaum+Shururu', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Teldrassil 1-12')
 WoWPro:GuideLevels(guide, 1, 12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicDarkshore1220')
@@ -236,6 +236,7 @@ A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|Darnassus|N|From Mydrannul.|
 T Elanaria|QID|1684|C|Warrior|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|
 A Vorlus Vilehoof|QID|1683|PRE|1684|C|Warrior|M|57.34,34.66|Z|Darnassus|N|From Elanaria.|
 
+h Darnassus|QID|923|C|Druid|M|67.42,15.69|N|Set your Hearthstone to Darnassus with Innkeeper Saelienne.|
 T Tumors|QID|923|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
 A Return to Denalan|QID|2498|PRE|923|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
 
@@ -243,8 +244,8 @@ R Enter the Rogue's Den|QID|2241|C|Rogue|M|33.64,15.89|Z|Darnassus|
 T The Apple Falls|QID|2241|C|Rogue|M|36.99,21.92|Z|Darnassus|N|To Syurna.|
 A Destiny Calls|QID|2242|PRE|2241|C|Rogue|M|36.99,21.92|Z|Darnassus|N|From Syurna.|
 
-R Heeding the Call|QID|5923|C|Druid|M|35.56,10.74|Z|Darnassus|CC|N|Go one floor up inside this building.|
-T Heeding the Call|QID|5923|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
+R Heeding the Call|QID|5925|C|Druid|M|35.56,10.74|Z|Darnassus|CC|N|Go one floor up inside this building.|
+T Heeding the Call|QID|5925|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
 A Moonglade|QID|5921|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|
 
 T Training the Beast|QID|6103|C|Hunter|M|40.36,08.59|Z|Darnassus|N|To Jocaste.|
@@ -257,13 +258,13 @@ A The Bounty of Teldrassil|QID|6341|PRE|6344|M|56.25,92.44|N|From Nessa Shadowso
 T The Bounty of Teldrassil|QID|6341|M|58.40,94.01|N|To Vesprystus.|
 A Flight to Auberdine|QID|6342|PRE|6341|M|58.40,94.01|N|From Vesprystus.|
 
+
 T Moonglade|QID|5921|C|Druid|M|56.21,30.62|Z|Moonglade|N|Use the teleport spell you learned from Mathrengyl Bearwalker. To Dendrite Starblaze.|
 A Great Bear Spirit|QID|5929|PRE|5921|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
-R Great Bear Spirit|QID|5929|C|Druid|M|53.39,31.16;45.03,26.67|Z|Moonglade|CS|
 C Great Bear Spirit|QID|5929|C|Druid|M|39.31,27.44|Z|Moonglade|N|Talk to the bear spirit until quest is complete.|CHAT|
 T Great Bear Spirit|QID|5929|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze. Use Teleport: Moonglade again instead of running back.|
 A Back to Darnassus|QID|5931|PRE|5929|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
-F Darnassus|QID|5931|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
+H Darnassus|QID|5931|C|Druid|M|44.15,45.22|Z|Moonglade|N|If your Hearth is up use it, other wise fly back using the Darnassus Flight Master.|
 R Darnassus|QID|5931|C|Druid|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
 T Back to Darnassus|QID|5931|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
 A Body and Heart|QID|6001|PRE|5931|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|
@@ -323,7 +324,6 @@ T The Shimmering Frond|QID|931|M|60.90,68.50|N|To Denalan.|
 
 T The Moss-twined Heart|QID|927|M|60.90,68.50|N|To Denalan.|
 A Planting the Heart|QID|941|PRE|927|N|Plant the Tainted Heart in Denalan's Planter. This will complete the quest.|
-; something is wrong with the next quest
 A The Sprouted Fronds|QID|2399|PRE|931|M|60.79,68.58|N|Click on the trough and then right click one of the sprouted plants to show this quest.|
 C Oakenscowl|QID|2499|M|53.05,74.49|N|Inside the cave. He is Level 9 elite, but shouldn't be any problem to kill at your level. If you would accidentally pull an add or two, just curse him with your Severed Voodoo Claw (if you have charges left) to reduce his damage. Kill him and loot Gargantuan Tumor.|
 R Strange Fruited Plant|QID|930|ACTIVE|2499|M|51.27,75.74|CC|N|Go up this path.|
@@ -332,10 +332,11 @@ K Ursal the Mauler|QID|486|QO|1|M|39.04,80.08|T|Ursal the Mauler|N|He's level 12
 T Oakenscowl|QID|2499|M|60.90,68.50|N|To Denalan.|
 T The Glowing Fruit|QID|930|M|60.90,68.50|N|To Denalan. Wait for a bit, as Denalan will plant the fruit and three Boglings spawn. Kill them, they have a Bogling Root which increases damage by 1 for 10 minutes. Put your pet on passive if you are a hunter.|
 
-r Sell and Repair|QID|486|M|59.31,41.09|N|Sell Junk and Repair.|
+r Sell and Repair|QID|486|M|55.89,59.21w|N|Sell Junk and Repair.|
 T Ursal the Mauler|QID|486|M|55.96,57.28|N|To Athridas Bearmantle.|
 
-R Darnassus|QID|935|ACTIVE|935|M|36.52,54.42|CC|N|Run to Darnassus, say goodbye to Teldrassil.|
+H Darnassus|QID|935|ACTIVE|935|C|Druid|M|36.52,54.42|CC|N|If your Hearth is up use it, other wise run back to Darnassus.|
+R Darnassus|QID|935|ACTIVE|935|C|-Druid|M|36.52,54.42|CC|N|Run to Darnassus, say goodbye to Teldrassil.|
 T Vorlus Vilehoof|QID|1683|C|Warrior|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|
 A The Shade of Elura|QID|1686|PRE|1683|C|Warrior|O|M|57.34,34.66|Z|Darnassus|N|From Elanaria. This quest gives a 7.6 dps one hand weapon later.|
 T Destiny Calls|QID|2242|C|Rogue|M|36.99,21.92|Z|Darnassus|N|To Syurna.|

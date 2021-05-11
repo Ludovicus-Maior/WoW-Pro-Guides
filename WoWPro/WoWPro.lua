@@ -497,7 +497,7 @@ function WoWPro:OnEnable()
     WoWPro:dbp("Registering Events: Core Addon")
     WoWPro:RegisterEvents(nil)
     WoWPro:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
-    if not WoWPro.CLASSIC then
+    if WoWPro.RETAIL then
         WoWPro:RegisterBucketEvent({"QUEST_LOG_CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
     end
     WoWPro:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
@@ -756,7 +756,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         return guide
     end
 
-    if (release == 1 and (not WoWPro.CLASSIC)) or (WoWPro.CLASSIC and ( release ~= 1)) then
+    if (release == 1 and WoWPro.RETAIL) or (WoWPro.CLASSIC and ( release ~= 1)) or (WoWPro.BC and ( release ~= 2)) then
         -- Classic (i.e. release 1) guide selection
         return guide
     end
@@ -1188,7 +1188,7 @@ function WoWPro:ResolveIcon(guide)
     if guide['icon'] then
         return
     end
-    if guide['ach'] and not WoWPro.CLASSIC then
+    if guide['ach'] and WoWPro.RETAIL then
         local _, _, _, _, _, _, _, _, _, icon = _G.GetAchievementInfo(guide.ach)
         guide.icon = icon
         return
@@ -1198,7 +1198,7 @@ function WoWPro:ResolveIcon(guide)
         guide.icon = icon
         return
     end
-    if guide['mount'] and not WoWPro.CLASSIC then
+    if guide['mount'] and WoWPro.RETAIL then
         local mountIDs = _G.C_MountJournal.GetMountIDs()
         for i, mountID in ipairs(mountIDs) do
             local _, spellID, icon = _G.C_MountJournal.GetMountInfoByID(mountID)
@@ -1209,7 +1209,7 @@ function WoWPro:ResolveIcon(guide)
         end
         return
     end
-    if guide['pro'] and not WoWPro.CLASSIC then
+    if guide['pro'] and WoWPro.RETAIL then
         -- prof1, prof2, archaeology, fishing, cooking, firstAid
         local profs = {_G.GetProfessions()}
         for index = 1,#profs do
@@ -1366,6 +1366,7 @@ end
 
 
 --- Release Function Compatability Section
+WoWPro.BC = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_BURNING_CRUSADE_CLASSIC
 WoWPro.CLASSIC = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC
 WoWPro.RETAIL = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_MAINLINE
 

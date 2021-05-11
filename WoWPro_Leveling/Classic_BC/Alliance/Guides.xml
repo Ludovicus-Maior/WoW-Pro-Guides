@@ -1,0 +1,25 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="CLASSIC_BC_19_25_Alliance.lua"/>
+	<Script file="CLASSIC_BC_25_30_Alliance.lua"/>
+	<Script file="CLASSIC_BC_30_41_Alliance.lua"/>
+	<Script file="CLASSIC_BC_42_50_Alliance.lua"/>
+	<Script file="CLASSIC_BC_50_55_Alliance.lua"/>
+	<Script file="CLASSIC_BC_55_60_Alliance.lua"/>
+	<Script file="CLASSIC_BC_Blades_Edge_Mountains.lua"/>
+	<Script file="CLASSIC_BC_Darkshore.lua"/>
+	<Script file="CLASSIC_BC_Draenai.lua"/>
+	<Script file="CLASSIC_BC_Dungeon_Blackrock_Depths.lua"/>
+	<Script file="CLASSIC_BC_Dungeon_Deadmines.lua"/>
+	<Script file="CLASSIC_BC_Dungeon_Maraudon.lua"/>
+	<Script file="CLASSIC_BC_Dungeon_Uldaman.lua"/>
+	<Script file="CLASSIC_BC_Dungeon_Zul_Farrak.lua"/>
+	<Script file="CLASSIC_BC_DwarfGnome.lua"/>
+	<Script file="CLASSIC_BC_Eastern_Kingdom.lua"/>
+	<Script file="CLASSIC_BC_Hellfire.lua"/>
+	<Script file="CLASSIC_BC_Human.lua"/>
+	<Script file="CLASSIC_BC_Nagrand.lua"/>
+	<Script file="CLASSIC_BC_NightElf.lua"/>
+	<Script file="CLASSIC_BC_Shadowmoon.lua"/>
+	<Script file="CLASSIC_BC_Terokkar.lua"/>
+	<Script file="CLASSIC_BC_Zangarmarsh.lua"/>
+</Ui>

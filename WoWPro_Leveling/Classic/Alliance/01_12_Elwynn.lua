@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('ClassicElwynn0112', "Leveling", 'Elwynn Forest', 'Bidaum', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicElwynn0112', "Leveling", 'Elwynn Forest', 'Bidaum+Maw', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Elwynn Forest 1-12')
 WoWPro:GuideLevels(guide,1,12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicEasternKingdom1220')

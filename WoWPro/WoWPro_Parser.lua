@@ -903,7 +903,7 @@ function WoWPro.ParseSteps(steps)
                     WoWPro.RecordStuff(i)
                     i = i + 1
                 end
-            elseif not WoWPro.CLASSIC and (class == nil or WoWPro.SemiMatch(class, myclass)) and
+            elseif WoWPro.RETAIL and (class == nil or WoWPro.SemiMatch(class, myclass)) and
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
 			   (_G.C_Covenants and (covenant == nil or covenant == _G.C_Covenants.GetActiveCovenantID())) and
                (gender == nil or gender == _G.UnitSex("player")) and
@@ -912,7 +912,7 @@ function WoWPro.ParseSteps(steps)
                     WoWPro.RecordStuff(i)
                     i = i + 1
                 end
-			elseif WoWPro.CLASSIC and (class == nil or WoWPro.SemiMatch(class, myclass)) and
+			elseif (WoWPro.CLASSIC or WoWPro.BC) and (class == nil or WoWPro.SemiMatch(class, myclass)) and
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
                (gender == nil or gender == _G.UnitSex("player")) and
                (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
