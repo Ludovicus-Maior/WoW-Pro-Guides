@@ -15,6 +15,7 @@ WoWPro_Profession.lua
 Professions\Guides.xml
 Vendors\Guides.xml
 Professions\Classic\Guides.xml
+Professions\Classic_BC\Guides.xml
 
 WoWPro_Profession_Parser.lua
 WoWPro_Profession_Config.lua
