@@ -55,7 +55,7 @@ N Rods|QID|333000015|N|The following is a list of materials you need for making 
 B [item=6338/Silver Rod]|QID|333006338|ITEM|6338|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=2842/Silver Bar] x1, [item=3470/Rough Grinding Stone] x2|
 B [item=11128/Golden Rod]|QID|333011128|ITEM|11128|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=3577/Gold Bar] x1, [item=3478/Coarse Grinding Stone] x2|
 B [item=11144/Truesilver Rod]|QID|333011144|ITEM|11144|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=6037/Truesilver Bar] x1, [item=3486/Heavy Grinding Stone] x1|
-B [item=16206/Arcanite Rod]|QID|333016206|ITEM|16206|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=12360/Arcanite Bar] x3, [item=12644/Dense Grinding Stone] x1| 
+B [item=16206/Arcanite Rod]|QID|333016206|ITEM|16206|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=12360/Arcanite Bar] x3, [item=12644/Dense Grinding Stone] x1|
 l [item=1210/Shadowgem]|QID|333001210|ITEM|1210|N|You'll need 1 Shadowgem, either from looting/fishing or purchase from the AH.|
 l [item=5500/Iridescent Pearl]|QID|333005500|ITEM|1210|N|You'll need 1 Iridescent Pearl, either from looting clams/fishing or purchase from the AH.|
 l [item=7971/Black Pearl]|QID|333007971|ITEM|7971|N|You'll need 1 Black Pearl, either from looting clams/fishing or purchase from the AH.|
