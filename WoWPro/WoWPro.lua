@@ -756,7 +756,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         return guide
     end
 
-    if (release == 1 and WoWPro.RETAIL) or (WoWPro.CLASSIC and ( release ~= 1)) or (WoWPro.BC and ( release ~= 2)) then
+    if (release and WoWPro.RETAIL) or (WoWPro.CLASSIC and ( release ~= 1)) or (WoWPro.BC and ( release ~= 2)) then
         -- Classic (i.e. release 1) guide selection
         return guide
     end
