@@ -7,32 +7,30 @@ WoWPro:GuideLevels(guide, 58, 62)
 WoWPro:GuideQuestTriggers(guide,10119,28708)
 WoWPro:GuideSteps(guide, function()
 return [[
-A To Outland!|QID|60120|M|56.26,17.31|Z|Stormwind City|N|From Chromie after activating Burning Crusade timeline.|
-R Blasted Lands|QID|60120|N|At the Honor Hold Mage in the Wizard's Sanctum.|Z|Stormwind City|M|49.12,87.34|
-B Nethergarde Bitter|AVAILABLE|9563|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. Yeah, I know, it is annoying to get now.\n\nIf you don't care skipping the 2 quests that this affects or don't mind coming back here later, go ahead and skip this now.|M|59.40,14.89|Z|Blasted Lands|
-R Hellfire Peninsula|AVAILABLE|10288|N|Go through the portal to Hellfire Peninsula.|M|55.01,54.35|Z|Blasted Lands|
-T To Outland!|QID|60120|M|PLAYER|N|Quest turn-in on quest tracker once you enter Hellfire Peninsula.|
+
+F Nethergarde Keep|AVAILABLE|10288|N|Fly to Nethergarde Keep in the Blasted Lands.|
+B Nethergarde Bitter|AVAILABLE|9563|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep.|M|63.51,17.01|Z|Blasted Lands|
+R Hellfire Peninsula|AVAILABLE|10288|N|Go through the portal to Hellfire Peninsula.|M|58.74,60.78|Z|Blasted Lands|
 A Arrival in Outland|QID|10288|M|87.3,50.7|N|From Commander Duron.|
 T Arrival in Outland|QID|10288|M|87.4,52.4|N|To Amish Wildhammer.|
 A Journey to Honor Hold|QID|10140|PRE|10288|M|87.4,52.4|N|From Amish Wildhammer.|
 F Honor Hold|QID|10140|N|Fly to Honor Hold.|M|87.4,52.4|
-T Journey to Honor Hold|QID|10140|M|54.5,62.8|N|To Marshal Isildor.|
-A Force Commander Danath|QID|10254|LEAD|10160|PRE|10140|M|54.5,62.8|N|From Marshal Isildor.|
+T Journey to Honor Hold|QID|10140|M|54.70,62.79|N|To Marshal Isildor.|
+A Force Commander Danath|QID|10254|LEAD|10160|PRE|10140|M|54.70,62.79|N|From Marshal Isildor.|
 h Honor Hold |ACTIVE|10254|N|Set your hearthstone to Honor Hold. |M|54.20,63.60|
 T Force Commander Danath|QID|10254|M|56.64,66.69|N|To Force Commander Danath Trollbane.|
 A The Legion Reborn|QID|10141|M|56.64,66.69|N|From Force Commander Danath Trollbane.|
 A Know your Enemy|QID|10160|LEAD|10482|M|56.64,66.69|N|From Force Commander Danath Trollbane.|
-A Waste Not, Want Not|QID|10055|M|51.2,60.0|N|From Dumphry.|
-T Know your Enemy|QID|10160|M|50.87,60.35|N|To Lieutenant Amadi.|
-A Fel Orc Scavengers|QID|10482|M|50.87,60.35|N|From Lieutenant Amadi.|
-N Flying|ACTIVE|10482|N|If you are level 60, Expert Riding may be purchased for 250 gold, you will also need 50 gold for a mount. Trainer is Hargen Bronzewing.|M|54.3,62.6|
+A Waste Not, Want Not|QID|10055|M|51.26,59.98|N|From Dumphry.|
+T Know your Enemy|QID|10160|M|50.91,60.19|N|To Lieutenant Amadi.|
+A Fel Orc Scavengers|QID|10482|M|50.91,60.19|N|From Lieutenant Amadi.|
 C Waste Not, Want Not|S|N|Loot Metal Cogs and Wooden Planks off the ground until you finish this quest.|QID|10055|M|60.4,52.1|
 C Fel Orc Scavengers|N|Kill Orcs until you finish this quest.|QID|10482|M|62.00,54.00|
 C Waste Not, Want Not|N|Loot Metal Cogs/Poles and Wooden Planks off the ground until you finish this quest.|QID|10055|M|60.4,52.1|US|
-T Waste Not, Want Not|QID|10055|M|51.2,60.0|N|To Dumphry.|
-A Laying Waste to the Unwanted|QID|10078|PRE|10055|M|51.2,60.0|N|From Dumphry.|
-T Fel Orc Scavengers|QID|10482|M|50.87,60.35|N|To Lieutenant Amadi.|
-A Ill Omens|QID|10483|PRE|10482|M|50.87,60.35|N|From Lieutenant Amadi.|
+T Waste Not, Want Not|QID|10055|M|51.26,59.98|N|To Dumphry.|
+A Laying Waste to the Unwanted|QID|10078|PRE|10055|M|51.26,59.98|N|From Dumphry.|
+T Fel Orc Scavengers|QID|10482|M|50.91,60.19|N|To Lieutenant Amadi.|
+A Ill Omens|QID|10483|PRE|10482|M|50.91,60.19|N|From Lieutenant Amadi.|
 T The Legion Reborn|QID|10141|M|61.7,60.8|N|To Sergeant Altumus.|
 A The Path of Anguish|QID|10142|PRE|10141|M|61.7,60.8|N|From Sergeant Altumus.|
 ; The quest "Invading the Citadel" on the following line has wrong caps on 'The' so it does not auto-accept since it is optional.|
@@ -56,7 +54,7 @@ A Makuru's Vengeance|QID|9424|PRE|9423|M|23.14,40.17|N|From Makuru.|
 F Honor Hold|QID|10142|N|Fly to Honor Hold.|M|25.20,37.20|
 T The Path of Anguish|QID|10142|M|61.7,60.8|N|To Sergeant Altumus.|
 A Expedition Point|QID|10143|PRE|10142|M|61.7,60.8|N|From Sergeant Altumus.|
-T Laying Waste to the Unwanted|QID|10078|M|51.2,60.0|N|To Dumphry.|
+T Laying Waste to the Unwanted|QID|10078|M|51.26,59.98|N|To Dumphry.|
 A Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|From Legassi.|
 A In Case of Emergency...|QID|10161|M|49.15,74.87|N|From "Screaming" Screed Luckheed.|
 C Zeppelin Debris|QID|10161|QO|1|N|Loot Zeppelin Debris from the ground.|S|NC|

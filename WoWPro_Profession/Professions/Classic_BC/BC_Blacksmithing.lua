@@ -2,11 +2,10 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancBSM_Classic","Profession","Blacksmithing_Classic", "Blanckaert", "Neutral",1)
+local guide = WoWPro:RegisterGuide("BC_Blacksmithing", "Profession", "Blacksmithing", "Blanckaert", "Neutral", 2)
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Blacksmithing_Classic")
-WoWPro:GuideNickname(guide, "BSM_Classic")
+WoWPro:GuideName(guide, "Blacksmithing")
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -18,19 +17,15 @@ return [[
 ; 	 IE learn 2 at lvl 15 |164000151| and |164000152|  // |RECIPE|307671|N|Learn [spell=307671/Ceremonious Shield] Recipe from Trainer.|
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 ;
-;  Typed update to Cata/MOP splits on 27-Oct-2020 by Blanckaert (This is NOT tested)
+;  Typed update to TBC splits on 11-May-2021 by Blanckaert (This is NOT tested)
 
-;  N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
-
-N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers Vanilla 1-300 content in Classic.\nAlso ASSUMES you have the appropriate Skill|
+N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers CLASSIC BURNING CRUSADE content levels 1-375.\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
 N Miner|QID|164000005|P|Mining;186;0;0|N|If you are a miner, running around for these mats will level your mining up. Unfortuantely some might get you killed in your toon is not of level. Currently no guide in the works for mining.|
 
 N Shopping List|QID|164000006|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
-
-; Begin Shopping list, as of Dec-2020
 
 l [item=2835/Rough Stone]|QID|164002835|L|2835 150|ITEM|2835|N|You'll need about 145 Rough Stones.|
 l [item=2836/Coarse Stone]|QID|164002836|L|2836 95|ITEM|2836|N|You'll need about  80 Coarse Stones.|
@@ -48,9 +43,7 @@ l [item=7912/Solid Stone]|QID|164007912|L|7912 520|ITEM|7912|N|You'll need about
 l [item=4338/Mageweave Cloth]|QID|164004338|L|4338 60|ITEM|4338|N|You'll need about 60 Mageweave Cloth.|
 l [item=3860/Mithril Bar]|QID|164003860|L|3860 250|ITEM|3860|N|You'll need about 250 Mithril Bar.|
 l [item=12365/Dense Stone]|QID|164012365|L|12365 20|ITEM|12365|N|You'll need about  20 Dense Stone.|
-l [item=12359/Thorium Bar]|QID|164012359|L|12359 730|ITEM|12359|N|You'll need about 730 Thorium Bar.|
-l [item=7910/Star Ruby]|QID|164007910|L|7910 30|ITEM|7910|N|You'll need about 30 Star Rubies.|
-l [item=7909/Aquamarine]|QID|164007909|L|7909 5|ITEM|7909|N|You'll need about 5 Aquamarine.|
+l [item=12359/Thorium Bar]|QID|164012359|L|12359 440|ITEM|12359|N|You'll need about 440 Thorium Bar.|
 B [item=2605/Green Dye]|QID|164002605|L|2605 35|ITEM|2605|N|You'll need about 35 Green Dye, Sold by Tailoring or Leatherworking Supply Vendors.|
 B [spell=9964/Mithril Spurs]|QID|164007989|N|Purchase [item=7989/Plans: Mithril Spurs] from Auction House, Random drop from level 45-50 mobs
 N Smelting|QID|186002841|P|Mining;186;0|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
@@ -113,13 +106,12 @@ M [item=12408/Thorium Bracers]|QID|164016644|P|Blacksmithing;164;0+270;1|ITEM|12
 M [item=12406/Thorium Belt]|QID|164016643|P|Blacksmithing;164;0+270;1|ITEM|12406|CRAFT|16643 10|MATS|12359 12;11186 4|N|If you have no Red Power Crystals, right for an alternate.|
 M [item=12416/Radiant Belt]|QID|164016645|P|Blacksmithing;164;0+270;1|ITEM|12416|CRAFT|16645 10|MATS|12359 10;7077 2|
 U Learn Recipe|QID|164002701|P|Blacksmithing;164;0+270|RECIPE|16649|N|Learn [spell=16649/Imperial Plate Bracers], using Quest reward from Quest Imperial Plate Bracer, reward [item=12690/Plans Imperial Plate Bracers], Costs [item=12359/Thorium Bar] x20|
-M [item=12425/Imperial Plate Bracers]|QID|164016649|P|Blacksmithing;164;0+295;1|ITEM|12425|CRAFT|16649 25|MATS|12359 20;7910 1|
+M [item=12425/Imperial Plate Bracers]|QID|164016649|P|Blacksmithing;164;0+295;1|ITEM|12425|CRAFT|16649 25|MATS|12359 12|
 U Learn Recipe|QID|164002901|P|Blacksmithing;164;0+290|RECIPE|16657|N|Learn [spell=16657/Imperial Plate Boots], using Quest reward from Quest Imperial Plate Boots, reward [item=12700/Plans Imperial Plate Boots], Costs [item=12359/Thorium Bar] x40|
-M [item=12426/Imperial Plate Boots]|QID|164016657|P|Blacksmithing;164;0+300;1|ITEM|12426|CRAFT|16657 5|MATS|12359 34;7910 1;7909 1|
+M [item=12426/Imperial Plate Boots]|QID|164016657|P|Blacksmithing;164;0+300;1|ITEM|12426|CRAFT|16657 5|MATS|12359 18|
 
-N Congratulations!|N|That completes Blacksmithing Plans 1-300.
+N Not Finished!|N|This guide still needs to be done for TBC 300-375, PLUS add mats to shopping list.|
+
+N Congratulations!|N|That completes Blacksmithing Plans 1-375.|
 ]]
-
 end)
-
-

@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide("TwiFirstAid","Profession","First Aid", "Twists", "Neutral", 1)
+local guide = WoWPro:RegisterGuide("BC_FirstAid","Profession","First Aid", "Elidion", "Neutral", 2)
 WoWPro:GuideIcon(guide,"PRO",129)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "First Aid")
 WoWPro:GuideSteps(guide, function()
 return [[
-N Test|QID|99999|N|This is a test.|
 N Learn Apprentice First Aid|QID|99999|P|First Aid;129;0+*;0;75|N|Learn from a Trainer in any major city.|
 N Linen Bandage|QID|99999|P|First Aid;129;0+40;1|N|1;Linen Cloth;50;50|
 N Heavy Linen Bandage|QID|99999|P|First Aid;129;0+80;1|N|2;Linen Cloth;120;60|
