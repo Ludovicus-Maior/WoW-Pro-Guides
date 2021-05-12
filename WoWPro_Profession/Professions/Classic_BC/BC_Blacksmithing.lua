@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BC_Blacksmithing","Profession","Blacksmithing_Classic", "Blanckaert", "Neutral", 2)
+local guide = WoWPro:RegisterGuide("BC_Blacksmithing", "Profession", "Blacksmithing", "Blanckaert", "Neutral", 2)
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Blacksmithing")
@@ -18,14 +18,15 @@ return [[
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 ;
 ;  Typed update to TBC splits on 11-May-2021 by Blanckaert (This is NOT tested)
-;  N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+
 N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers CLASSIC BURNING CRUSADE content levels 1-375.\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
 N Miner|QID|164000005|P|Mining;186;0;0|N|If you are a miner, running around for these mats will level your mining up. Unfortuantely some might get you killed in your toon is not of level. Currently no guide in the works for mining.|
+
 N Shopping List|QID|164000006|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
-; Begin Shopping list, as of May-2021
+
 l [item=2835/Rough Stone]|QID|164002835|L|2835 150|ITEM|2835|N|You'll need about 145 Rough Stones.|
 l [item=2836/Coarse Stone]|QID|164002836|L|2836 95|ITEM|2836|N|You'll need about  80 Coarse Stones.|
 l [item=2840/Copper Bar]|QID|164002840|L|2840 150|ITEM|2840|N|You'll need about 150 Copper Bars.|
@@ -50,9 +51,11 @@ M [item=2841/Bronze Bar]|QID|164002689|P|Mining;186;0+50|L|2841 140|CRAFT|2689 7
 M [item=3859/Steel Bar]|QID|164003569|P|Mining;186;0+125|L|3859 190|CRAFT|3569 190|MATS|3575 1;3857 1|
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 ; end of shopping list, and pre craft.
+
 = Learn [spell=2018/Blacksmithing]|QID|164002018|SPELL|Blacksmithing;2018|LVL|5|N|Learn from a Trainer in any major city.|
 B Hammer|QID|164005956|P|Blacksmithing;164;0+1;0|N|Buy from an NPC Supply|L|5956|
-M [item=2862/Rough Sharpening Stone]|QID|164002660|P|Blacksmithing;164;0+30;1|ITEM|2862|CRAFT|2660 33|MATS|2835 33|N|Might have to make more then 33, This will be yellow for the last 5 points.|
+
+M [item=2862/Rough Sharpening Stone]|QID|164002660|P|Blacksmithing;164;0+30;1|ITEM|2862|CRAFT|2660 33|MATS|2835 1|N|Might have to make more then 33, This will be yellow for the last 5 points.|
 = Learn Recipe|QID|164000251|P|Blacksmithing;164;0+25|RECIPE|3320|N|Learn [spell=3320/Rough Grinding Stone] Recipe from Trainer.|
 M [item=3470/Rough Grinding Stone]|QID|164003320|P|Blacksmithing;164;0+65;1|ITEM|3470|CRAFT|3320 50|MATS|2835 2|N|Save 10 Rough Grinding Stones.|
 = Learn [spell=3100/Journeyman Blacksmithing]|QID|164003100|P|Blacksmithing;164;0+50|SPELL|Journeyman Blacksmithing;3100|LVL|10|N|Visit your Expert Blacksmithing Trainer in any major city.|
@@ -106,7 +109,9 @@ U Learn Recipe|QID|164002701|P|Blacksmithing;164;0+270|RECIPE|16649|N|Learn [spe
 M [item=12425/Imperial Plate Bracers]|QID|164016649|P|Blacksmithing;164;0+295;1|ITEM|12425|CRAFT|16649 25|MATS|12359 12|
 U Learn Recipe|QID|164002901|P|Blacksmithing;164;0+290|RECIPE|16657|N|Learn [spell=16657/Imperial Plate Boots], using Quest reward from Quest Imperial Plate Boots, reward [item=12700/Plans Imperial Plate Boots], Costs [item=12359/Thorium Bar] x40|
 M [item=12426/Imperial Plate Boots]|QID|164016657|P|Blacksmithing;164;0+300;1|ITEM|12426|CRAFT|16657 5|MATS|12359 18|
+
 N Not Finished!|N|This guide still needs to be done for TBC 300-375, PLUS add mats to shopping list.|
+
 N Congratulations!|N|That completes Blacksmithing Plans 1-375.|
 ]]
 end)
