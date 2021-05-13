@@ -124,6 +124,8 @@ T Additional Accoutrements|QID|42682|M|59.30,57.60|Z|Upper Command Center!Mardum
 A In Pursuit of Power|QID|44379^44383|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.\nTo get the second artifact weapon.|
 T In Pursuit of Power|QID|44379^44383|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
 A Artifact specific quest|QID|41120^40819^40247^41803|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer or Kayn Sunfury.|
+A The Blood of Demons|QID|37447|PRE|42682|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn|
+C The Blood of Demons|QID|37447|M|42.84,43.56|Z|Azsuna|S!US|QO|1|N|Collect 100 Fel Bloods, from killing any demons. The coords are for a farming spot in Azsuna near a turret at Illidari Stand, but anywhere works.|
 ;light's heart intro questline
 A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar in The Violet Citadel.|PRE|44379^44383|
 C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
@@ -134,9 +136,9 @@ P Dalaran|ACTIVE|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Heart
 P Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|Dalaran!Dalaran!Dungeon|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|44009|
 T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
 A Bringer of the Light|QID|44004|M|26.84,35.05|Z|Aegwynn's Gallery@Dalaran70|N|From Archmage Khadgar.|PRE|44009|
-P The Exodar|QID|44004|M|28.69,33.55|Z|Aegwynn's Gallery@Dalaran70|N|Take Khadgar's portal to enter a scenario.|ACTIVE|44004|
-C The Prophet and the Butcher|QID|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.38|CS|Z|TheExodar|NC|N|Head to the Vault of Lights. Click on Velen when you find him.|
-C In Defense of The Exodar|QID|44004|SO|2|S|M|33.97,66.38|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
+P The Exodar|ACTIVE|44004|M|28.69,33.55|Z|Aegwynn's Gallery@Dalaran70|N|Take Khadgar's portal to enter a scenario.|
+C The Prophet and the Butcher|ACTIVE|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.38|CS|Z|TheExodar|NC|N|Head to the Vault of Lights. Click on Velen when you find him.|
+C In Defense of The Exodar|ACTIVE|44004|SO|2|S|M|33.97,66.38|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
 A Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Automatically accepted by entering the area.|RANK|2|ACTIVE|44004|
 C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|S|N|Kill demons to achieve the objective.|RANK|2|
 A Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|From Farseer Nobundo|RANK|2|ACTIVE|44004|
@@ -147,17 +149,15 @@ K Kill Huk'roth the Huntmaster|QID|43480|QO|1|M|59.7,83.1|Z|TheExodar|ITEM|14053
 C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|US|N|Finish the objective or click it off manually.|RANK|2|
 t Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Auto turned in upon completion.|RANK|2|
 C In Defense of the Exodar|QID|44004|SO|2|US|M|44.87,9.35|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
-C Return to the Prophet|QID|44004|SO|3|M|33.95,66.25|Z|TheExodar|NC|N|Head back to Prophet Velen.|
-C The Light's Heart|QID|44004|SO|4|M|33.95,66.25|Z|TheExodar|CHAT|N|Offer to show him the object.|
-C A Long Way Down|QID|44004|SO|5|M|33.95,66.25|Z|TheExodar|CHAT|N|Tell him you are ready then escort him to the Seat of the Naaru. Stay with him, do not run ahead.|
-C Revelations|QID|44004|SO|6|M|53.39,38.91|Z|TheExodar|N|Start the fight.  When Velen says to STOP, ignore him and continue killing the fel annihilator *even though Prophet Velen is also fighting you now*.|
-U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use Khadgar's Beacon and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|ACTIVE|44004|
+C Return to the Prophet|ACTIVE|44004|SO|3|M|33.95,66.25|Z|TheExodar|NC|N|Head back to Prophet Velen.|
+C The Light's Heart|ACTIVE|44004|SO|4|M|33.95,66.25|Z|TheExodar|CHAT|N|Offer to show him the object.|
+C A Long Way Down|ACTIVE|44004|SO|5|M|33.95,66.25|Z|TheExodar|CHAT|N|Tell him you are ready then escort him to the Seat of the Naaru. Stay with him, do not run ahead.|
+C Revelations|ACTIVE|44004|SO|6|M|53.39,38.91|Z|TheExodar|N|Start the fight.  When Velen says to STOP, ignore him and continue killing the fel annihilator *even though Prophet Velen is also fighting you now*.|
+U Return to Khadgar|ACTIVE|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use Khadgar's Beacon and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|
 T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Kadgar.|
 A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Kadgar.|PRE|44004|
 T Light's Charge|QID|44153|M|58.68,43.30|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Return to your order hall and return to Light's Heart (table in alcove adjacent Soul Forge on the upper level).|
-A The Blood of Demons|QID|37447|PRE|42682|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn|
-C The Blood of Demons|QID|37447|M|42.84,43.56|Z|Azsuna|QO|1|N|Collect 100 Fel Bloods, from killing any demons. The coords are for a farming spot in Azsuna near a turret at Illidari Stand.|
-T The Blood of Demons|QID|37447|M|58.41,51.62|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
+t The Blood of Demons|QID|37447|M|58.41,51.62|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
 A Immortal Soul|QID|42510|PRE|37447|M|58.41,51.62|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Alturis the Sufferer or Kayn Sunfury.|
 C Immortal Soul|QID|42510|M|58.41,51.62|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Click on the Blood Offering, to make the offering.|U|137690|
 T Immortal Soul|QID|42510|M|58.41,51.62|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
@@ -212,21 +212,21 @@ t Working With the Wardens|QID|42731|M|57.59,52.31|Z|Upper Command Center!Mardum
 A Green Adepts|QID|42808|PRE|42802|M|57.59,52.31|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
 C Green Adepts|QID|42808|M|58.65,38.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|CHAT|N|Talk to Ariana Fireheart.|
 T Green Adepts|QID|42808|M|57.59,52.31|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Belath Dawnblade.|
-; LVL 110 Quests, or part thereof...
-A Goddess Watch Over You|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|
+; LVL 45 Quests, or part thereof...
+A Goddess Watch Over You|LVL|45|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|
 C Goddess Watch Over You|QID|44338^44338|N|You need to do the main Val'sharah quest line to complete this quest.|
 t Goddess Watch Over You|QID|44337^44338|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar inside The Violet Citadel in Dalaran.|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|40890|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|40890|LVL|45|
 R Illidari Gateway|ACTIVE|44448|M|97.18,68.28|Z|Dalaran!Dalaran!Dungeon|N|Return to your order hall.|
 C In the House of Light and Shadow|QID|44448|M|54.22,74.67|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
-A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|
+A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|LVL|45|
 C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Right-click on the Obliterum Forge and drag Archmage Karlain's Imbued Silkweave Robe from your bags to the window that opens. Click on 'Obliterate' to collect the ashes.|NC||
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
-R Illidari Gateway|AVAILABLE|44213|M|97.18,68.28|Z|Dalaran!Dalaran!Dungeon|TZ|The Fel Hammer|N|Return to your order hall.|
+R Illidari Gateway|LVL|45|AVAILABLE|44213|M|97.18,68.28|Z|Dalaran!Dalaran!Dungeon|TZ|The Fel Hammer|N|Return to your order hall.|
 C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Use Scouting Map to complete WWtW Missions listed.\n[color=FF0000]NOTE: [/color]You must finish this before going any further.|US|
-A You Will Be Prepared!|QID|44213|LVL|110|M|57.80,43.56|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Falara Nightsong.|
+A You Will Be Prepared!|LVL|45|QID|44213|M|57.80,43.56|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Falara Nightsong.|
 T You Will Be Prepared!|QID|44213|M|57.80,43.56|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Falara Nightsong.|
-A Deal With It Personally|QID|42787|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
+A Deal With It Personally|LVL|45|QID|42787|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
 P Illidari Gateway|ACTIVE|42787|M|59.23,91.53|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|TZ|Krasus' Landing|N|Take the Portal back to Dalaran.|
 F Skyhorn|ACTIVE|42787|N|Fly to Skyhorn|TAXI|Skyhorn|
 F Thunder Totem|ACTIVE|42787|N|Fly to Thunder Totem.|TAXI|-Skyhorn|
