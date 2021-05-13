@@ -42,8 +42,8 @@ C Ward 1 destroyed|ACTIVE|41119^39247|M|28.13,64.52|Z|Suramar|SO|3;1<1|N|Destroy
 C Ward 2 destroyed|ACTIVE|41119^39247|M|29.28,60.40|Z|Suramar|SO|3;1<2|N|Destroy the second ward.|
 C Ward 3 destroyed|ACTIVE|41119^39247|M|31.50,66.77|Z|Suramar|SO|3;1<3|N|Destroy the third ward after killing The Fist of the Deceiver.|
 C Absorb demon souls|ACTIVE|41119^39247|M|28.13,64.52|Z|Suramar|SO|3;2|US|N|Finish Absorb demon souls|
-C Varedis Felsoul slain|M|33.04,66.57|Z|Suramar|SO|4;1|N|Varedis Felsoul slain|
-C The Twinblades of the Deceiver|M|32.99,66.97|Z|Suramar|SO|5;1|N|Pick up the twinblades.|
+C Varedis Felsoul slain|ACTIVE|41119^39247|M|33.04,66.57|Z|Suramar|SO|4;1|N|Varedis Felsoul slain|
+C The Twinblades of the Deceiver|ACTIVE|41119^39247|M|32.99,66.97|Z|Suramar|SO|5;1|N|Pick up the twinblades.|
 T The Hunt|QID|41119^39247|M|73.84,46.03|Z|Dalaran!Dalaran!Dungeon|N|Hop on the Fel Bat back to Dalaran to turn in to Kor'vas Bloodthorn.|
 ; Vengeance
 ; A Asking a Favor|QID|40247;41803|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
@@ -58,15 +58,15 @@ C Activate the Legion Communicator|QID|41807|M|74.35,51.84|Z|Dalaran!Dalaran!Dun
 C Receive the Souleater's report|QID|41807|QO|2|N|Listen to the blather!|NC|
 T Establishing a Connection|QID|41807|M|74.44,51.29|Z|Dalaran!Dalaran!Dungeon|N|From Jace Darkweaver.|
 A Vengeance Will Be Ours|QID|40249^41863|PRE|41807|M|75.00,49.03|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
-C Fel Bat Flight|QID|40249^41863|M|75.26,47.63|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Jump on the Illidari Fel Bat and fly to the Broken Shore.|
-C Picking Up the Pieces|QID|40249^41863|M|15.09,51.78|Z|BrokenShorePaladin|SO|1;1|N|Free Allari from her chains.|
-C Their Blood Will Flow|QID|40249^41863|M|17.56,57.32|Z|BrokenShorePaladin|SO|2;1|N|Destroy the Legion Portal.|
-C A River of Souls|QID|40249^41863|M|20.18,61.38|Z|BrokenShorePaladin|SO|3;1|N|Two of Caria's lieutenants are performing a dark ritual. They must be stopped.|
-K Gorgonnash.|QID|40249^41863|M|20.42,62.22|Z|BrokenShorePaladin|SO|4;1|N|Destroy Gorgonnash.|
-C Nowhere to Hide|QID|40249^41863|M|21.90,61.05|Z|BrokenShorePaladin|SO|5;1|N|Use your demonic senses to pickup Caria's trail. The click on the wall.|
-C Destroy Caria Felsoul.|QID|40249^41863|M|26.44,60.64|Z|BrokenShorePaladin|SO|6;1|N|Destroy Caria Felsoul.|
-C Vengeance Will Be Ours|QID|40249^41863|M|26.75,61.49|Z|BrokenShorePaladin|QO|2|N|Claim the Aldrachi Warblades as your own.|
-C Vengeance Will Be Ours|QID|40249^41863|M|26.13,61.18|Z|BrokenShorePaladin|QO|3|N|Hop on the bat to return to Dalaran|
+C Fel Bat Flight|QID|40249^41863|M|75.26,47.63|Z|Dalaran!Dalaran!Dungeon|QO|1|V|N|Jump on the Illidari Fel Bat and fly to the Broken Shore.|
+C Picking Up the Pieces|ACTIVE|40249^41863|M|15.09,51.78|Z|BrokenShorePaladin|SO|1;1|N|Free Allari from her chains.|
+C Their Blood Will Flow|ACTIVE|40249^41863|M|17.56,57.32|Z|BrokenShorePaladin|SO|2;1|N|Destroy the Legion Portal.|
+C A River of Souls|ACTIVE|40249^41863|M|20.18,61.38|Z|BrokenShorePaladin|SO|3;1|N|Two of Caria's lieutenants are performing a dark ritual. They must be stopped.|
+K Gorgonnash.|ACTIVE|40249^41863|M|20.42,62.22|Z|BrokenShorePaladin|SO|4;1|N|Destroy Gorgonnash.|
+C Nowhere to Hide|ACTIVE|40249^41863|M|21.90,61.05|Z|BrokenShorePaladin|SO|5;1|N|Use Spectral Sight to pickup Caria's trail. The click on the wall.|
+C Vengeance of the Illidari|ACTIVE|40249^41863|M|26.44,60.64|Z|BrokenShorePaladin|SO|6;1|N|Destroy Caria Felsoul.|
+C Vengeance Will Be Ours|QID|40249^41863|M|26.75,61.49|Z|BrokenShorePaladin|QO|2|NC|N|Claim the Aldrachi Warblades as your own.|
+C Vengeance Will Be Ours|QID|40249^41863|M|26.13,61.18|Z|BrokenShorePaladin|QO|3|V|N|Hop on the bat to return to Dalaran|
 T Vengeance Will Be Ours|QID|40249^41863|M|59.35,57.64|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn back on the Fel Hammer.|
 ; Common Section
 A Eternal Vigil|QID|42869|M|73.84,46.03|Z|Dalaran!Dalaran!Dungeon|N|From Kor'vas Bloodthorn.|PRE|41119^39247^40249^41863|
