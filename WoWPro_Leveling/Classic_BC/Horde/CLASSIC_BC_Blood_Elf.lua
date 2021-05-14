@@ -7,17 +7,33 @@ WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Silverpine_Forest')
 WoWPro:GuideSteps(guide, function()
 return [[
 ; Sunstrider Isle starting zone is for BloodElf's only.
-A Reclaiming Sunstrider Isle|QID|8325|R|BloodElf|N|From Magistrix Erona.|M|38.0,21.0|
-C Mana Wyrm |QID|8325|R|BloodElf|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|M|37.60,22.00|
-T Reclaiming Sunstrider Isle |QID|8325|R|BloodElf|N|To Magistrix Erona.|M|38.0,21.0|
-; L Level 2|LVL|2|N|Kill mana wyrms until you ding.|QID|8326|
-A Unfortunate Measures|QID|8326|R|BloodElf|M|60.98,45.11|N|From Magistrix Erona.|
-A The Shrine of Dath'Remar|QID|8345|R|BloodElf|M|63.97,42.83|N|From Well Watcher Solanian, inside the building and up the ramp.|
-A Solanian's Belongings|QID|8330|R|BloodElf|M|63.97,42.83|N|From Well Watcher Solanian.|
-A A Fistful of Slivers |QID|8336|R|BloodElf|N|From Arcanist Ithanas, go outside via the balcony, then jump down to your left.|M|38.3,19.1|
-A Thirst Unending|QID|8346|R|BloodElf|N|From Arcanist Helion. Go through the gazeebo in front of you.|M|37.2,18.9|
+A Reclaiming Sunstrider Isle|QID|8325|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|
+K Mana Wyrm |ACTIVE|8325|M|34.84,19.97|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|R|BloodElf|
+L Level 2|QID|8326|N|You'll want to be within 5 bubbles of level 2 before you return.\nContinue killing Mana Wyrms until you are.|LVL|2;-100|
+T Reclaiming Sunstrider Isle|QID|8325|M|38.21,20.83|N|To Magistrix Erona.|R|BloodElf|
+A Unfortunate Measures|QID|8326|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|
+; -- Class quests
+A Warrior Training |QID|8329|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|C|Warrior|
+A Hunter Training |QID|9393|M|38.21,20.83|N|From Fagistrix Erona.|R|BloodElf|C|Hunter|
+A Mage Training |QID|8328|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|C|Mage|
+A Paladin Training |QID|9676|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|C|Paladin|
+A Priest Training |QID|8564|M|38.21,20.83|N|From Magistrix Eron.a|R|BloodElf|C|Priest|
+A Rogue Training |QID|9392|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|C|Rogue|
+A Warlock Training |QID|8563|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|C|Warlock|
+T Warrior Training |QID|8329|M|39.29,20.10|N|To Delios Silverblade, inside the building.|R|BloodElf|C|Warrior|
+T Hunter Training |QID|9393|M|39.0,20.0|N|To Ranger Sallina, inside the building.|R|BloodElf|C|Hunter|
+T Mage Training |QID|8328|M|39.2,21.5|N|To Julia Sunstriker, inside the building.|R|BloodElf|C|Mage|
+T Paladin Training |QID|9676|M|39.5,20.6|N|To Jesthenis Sunstriker, inside the building.|R|BloodElf|C|Paladin|
+T Priest Training |QID|8564|M|39.4,20.4|N|To Matron Arena, inside the building.|R|BloodElf|C|Priest|
+T Rogue Training |QID|9392|M|38.9,20.0|N|To Pathstalker Kariel, inside the building.|R|BloodElf|C|Rogue|
+T Warlock Training |QID|8563|M|38.9,21.4|N|Summoner Teli'Larien, inside the building.|R|BloodElf|C|Warlock|
 
-R Empty your bags|QID|8346|R|BloodElf|N|You may want to empty your bags before venturing further. \nSell unwanted items to Jainthess Thelryn beside you.|
+A The Shrine of Dath'Remar|QID|8345|M|38.76,19.36|N|From Well Watcher Solanian, on the balcony at the top of the ramp.|R|BloodElf|
+A Solanian's Belongings|QID|8330|M|38.76,19.36|N|From Well Watcher Solanian.|R|BloodElf|
+A A Fistful of Slivers |QID|8336|M|38.3,19.1|N|From Arcanist Ithanas, on the patio below you. You can jump down from the balcony.|R|BloodElf|
+A Thirst Unending|QID|8346|R|BloodElf|N|From Arcanist Helion. Go through the gazebo in front of you.|M|37.2,18.9|
+
+R Empty your bags|QID|8346|N|You may want to empty your bags before venturing further. \nSell unwanted items to Jainthess Thelryn beside you.|R|BloodElf|
 
 C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill and loot Springpaw Lynxs and Cubs for the Lynx collars.|M|54.82,54.34|S|
 C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent, Arcane Torrent, when you are within 8 yards of a Mana Wyrm. |M|59.44,54.04|S|
@@ -26,26 +42,12 @@ C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent, Arcane Torrent,
 C Unfortunate Measures |QID|8326|R|BloodElf|N|Finish killing and looting Springpaw Lynxs and Cubs for the Lynx collars. |M|54.82,54.34|US|
 T Thirst Unending |QID|8346|R|BloodElf|N|To Arcanist Helion.|M|37.20,18.95|
 R Empty your bags|QID|8326|R|BloodElf|N|You may want to empty your bags before venturing further. \nSell unwanted items to Jainthess Thelryn beside you.|
-T Unfortunate Measures |QID|8326|R|BloodElf|M|60.98,45.11|N|To Magistrix Erona.|
+T Unfortunate Measures |QID|8326|R|BloodElf|M|38.21,20.83|N|To Magistrix Erona.|
 
 L Level 3|LVL|3|N|You need to be Level 3 to continue this guide.|QID|8327|R|BloodElf|
 
 A Report to Lanthan Perilon |QID|8327|R|BloodElf|M|61.59,44.49|N|From Magistrix Erona.|
-A Warrior Training |QID|8329|R|BloodElf|C|Warrior|N|From Magistrix Erona.|M|38.0,21.0|
-A Hunter Training |QID|9393|R|BloodElf|C|Hunter|N|From Fagistrix Erona.|M|38.0,21.0|
-A Mage Training |QID|8328|R|BloodElf|C|Mage|N|From Magistrix Erona.|M|38.0,21.0|
-A Paladin Training |QID|9676|R|BloodElf|C|Paladin|N|From Magistrix Erona.|M|38.0,21.0|
-A Priest Training |QID|8564|R|BloodElf|C|Priest|N|From Magistrix Eron.a|M|38.0,21.0|
-A Rogue Training |QID|9392|R|BloodElf|C|Rogue|N|From Magistrix Erona.|M|38.0,21.0|
-A Warlock Training |QID|8563|R|BloodElf|C|Warlock|N|From Magistrix Erona.|M|38.0,21.0|
 A Monk Training |QID|31170|R|BloodElf|C|Monk|N|From Magistrix Erona.|M|38,21|
-T Warrior Training |QID|8329|R|BloodElf|C|Warrior|N|To Delios Silverblade.|M|39.29,20.10|
-T Hunter Training |QID|9393|R|BloodElf|C|Hunter|N|To Ranger Sallina.|M|39.0,20.0|
-T Mage Training |QID|8328|R|BloodElf|C|Mage|N|To Julia Sunstriker.|M|39.2,21.5|
-T Paladin Training |QID|9676|R|BloodElf|C|Paladin|N|To Jesthenis Sunstriker.|M|39.5,20.6|
-T Priest Training |QID|8564|R|BloodElf|C|Priest|N|To Matron Arena.|M|39.4,20.4|
-T Rogue Training |QID|9392|R|BloodElf|C|Rogue|N|To Pathstalker Kariel.|M|38.9,20.0|
-T Warlock Training |QID|8563|R|BloodElf|C|Warlock|N|Summoner Teli'Larien.|M|38.9,21.4|
 T Monk Training |QID|31170|R|BloodElf|C|Monk|N|To Pao.|M|38.79,20.20|
 
 A Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|From Pao.|M|38.79,20.20|
