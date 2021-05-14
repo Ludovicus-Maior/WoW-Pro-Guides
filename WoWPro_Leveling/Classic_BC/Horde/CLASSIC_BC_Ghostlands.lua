@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("CLASSIC_BC_Ghostlands", "Leveling", "Ghostlands", "Snowflake,Spoony", "Horde")
+local guide = WoWPro:RegisterGuide("CLASSIC_BC_Ghostlands", "Leveling", "Ghostlands", "Snowflake,Spoony", "Horde", 2)
 WoWPro:GuideSort(guide, 26)
 WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Silverpine_Forest")
 WoWPro:GuideSteps(guide, function()
