@@ -4,7 +4,7 @@
 local guide = WoWPro:RegisterGuide('BC-Scourge', "Leveling", 'Tirisfal Glades', 'Hendo72', 'Horde', 2)
 WoWPro:GuideName(guide, 'Tirisfal Glades')
 WoWPro:GuideLevels(guide, 1, 10, 2)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Silverpine_Forest')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Ghostlands')
 WoWPro:GuideSteps(guide, function() return [[
 
 N Hey|QID|363|N|This is a new written guide by TheRealHendo.  If you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|

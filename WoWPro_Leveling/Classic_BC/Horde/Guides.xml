@@ -8,6 +8,7 @@
 	<Script file="CLASSIC_BC_Eastern_Plaguelands.lua"/>
 	<Script file="CLASSIC_BC_Felwood.lua"/>
 	<Script file="CLASSIC_BC_Forsaken.lua"/>
+	<Script file="CLASSIC_BC_Ghostlands.lua"/>
 	<Script file="CLASSIC_BC_Hellfire_Peninsula.lua"/>
 	<Script file="CLASSIC_BC_HordeChapter1.lua"/>
 	<Script file="CLASSIC_BC_HordeChapter2.lua"/>
