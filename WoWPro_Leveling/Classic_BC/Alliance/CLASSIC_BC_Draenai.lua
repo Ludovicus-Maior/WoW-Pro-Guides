@@ -124,6 +124,7 @@ C Reclaiming the Ruins|QID|9513|N|To the west of the landing, kill any Naga you 
 C Precious and Fragile Things Need Special Handling|QID|9523|N|Go to the Wrathscale Point and collect Ancient Relics.|Z|Azuremyst Isle|M|35,75|S|
 A Rune Covered Tablet|QID|9514|N|The tablet should have dropped off the naga while you're killing them.|U|23759|Z|Azuremyst Isle|M|36.1,77.0|
 C Reclaiming the Ruins|QID|9513|N|Kill any Naga you still need for this quest.|US|
+C Precious and Fragile Things Need Special Handling|QID|9523|N|Go to the Wrathscale Point and collect Ancient Relics.|Z|Azuremyst Isle|M|35,75|US|
 C I've Got a Plant|QID|9530|US|N|Move towards Odesyus' Landing. There you will find hollow trees. Loot the remaining Piles of Leaves.|Z|Azuremyst Isle|M|45.43,66.20|
 T I've Got a Plant|QID|9530|Z|Azuremyst Isle|M|47.04,70.22|N|To Admiral Odesyus.|
 A Tree's Company|QID|9531|PRE|9530|Z|Azuremyst Isle|M|47.04,70.22|N|From Admiral Odesyus.|
@@ -134,7 +135,7 @@ A Warlord Sriss'tiz|QID|9515|PRE|9514|N|Wait a moment until the dialog is finish
 R Azure Watch|QID|9538|Z|Azuremyst Isle|M|48,53|N|Run to Azure Watch.|
 A The Missing Fisherman|QID|10428|LEAD|9527|Z|Azuremyst Isle|M|49.0,51.1|N|From Dulvi.|
 C The Great Moongraze Hunt|QID|10324|S|N|Kill and loot the needed Moongraze Stags for the Hides.|Z|Azuremyst Isle|M|48.52,55.63|
-A Strange Findings|QID|9455|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal, then accept the quest from it.|Z|Azuremyst Isle|M|48.26,41.43|
+A Strange Findings|QID|9455|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal, then accept the quest from it.|Z|Azuremyst Isle|M|48.26,41.43|U|23678|
 C The Great Moongraze Hunt|QID|10324|US|N|Kill and loot the needed Moongraze Stags for the Hides.|Z|Azuremyst Isle|M|48.52,55.63|
 T The Great Moongraze Hunt|QID|10324|Z|Azuremyst Isle|M|49.8,51.9|N|To Acteon.|
 T Strange Findings|QID|9455|Z|Azuremyst Isle|M|47.1,50.6|N|To Exarch Menelaous.|
@@ -169,6 +170,7 @@ H Azure Watch|QID|9544|U|6948|N|Hearth back to Azure Watch.|
 T The Prophecy of Akida|QID|9544|Z|Azuremyst Isle|M|49.4,51.0|N|To Arugoo of the Stillpine.|
 A Stillpine Hold|QID|9559|PRE|9544|Z|Azuremyst Isle|M|49.4,51.0|N|From Arugoo of the Stillpine.|
 T Nightstalker Clean Up, Isle 2...|QID|9456|Z|Azuremyst Isle|M|47.1,50.6|N|To Exarch Menelaous.|
+A Call of Fire|QID|9464|Z|Azuremyst Isle|M|48.06,50.44|N|From Tuluun.|C|Shaman|R|Draenei|
 R Odesyus' Landing|QID|9515|N|Head to Odesyus' Landing... again...|Z|Azuremyst Isle|M|46.11,72.16|
 T Warlord Sriss'tiz|QID|9515|Z|Azuremyst Isle|M|47.13,70.27|N|To Priestess Kyleen Il'dinare.|
 T Tree's Company|QID|9531|Z|Azuremyst Isle|M|47.04,70.22|N|To Admiral Odesyus.|
@@ -185,6 +187,8 @@ R Stillpine Hold|QID|9559|N|To the north of Azure Watch.|Z|Azuremyst Isle|M|46,2
 A Beasts of the Apocalypse!|QID|9560|PRE|9544|Z|Azuremyst Isle|M|44.77,23.90|N|From Moordo.|
 A Murlocs... Why Here? Why Now?|QID|9562|PRE|9544|Z|Azuremyst Isle|M|44.63,23.48|N|From Gurf.|
 T Stillpine Hold|QID|9559|Z|Azuremyst Isle|M|46.7,20.6|N|To High Chief Stillpine.|
+T Call of Fire|QID|9464|Z|Azuremyst Isle|N|To Temper.|M|59.52,17.95|C|Shaman|R|Draenei|
+A Call of Fire|QID|9465|Z|Azuremyst Isle|N|From Temper.|M|59.52,17.95|C|Shaman|R|Draenei|
 C Beasts of the Apocalypse!|QID|9560|N|Kill and loot Ravagers at the Menagerie Wreckage.|Z|Azuremyst Isle|M|54.24,19.36|
 T Beasts of the Apocalypse!|QID|9560|Z|Azuremyst Isle|M|44.77,23.90|N|To Moordo.|
 C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|Z|Azuremyst Isle|M|35,13|S|
@@ -195,7 +199,9 @@ T Murlocs... Why Here? Why Now?|QID|9562|N|To Gurf.|Z|Azuremyst Isle|M|44.63,23.
 T Gurf's Dignity|QID|9564|Z|Azuremyst Isle|M|44.63,23.48|N|To Gurf.|
 A Search Stillpine Hold|QID|9565|PRE|9560&9562|Z|Azuremyst Isle|M|46.68,20.63|N|From High Chief Stillpine.|
 A Chieftain Oomooroo|QID|9573|PRE|9560&9562|Z|Azuremyst Isle|M|46.90,21.16|N|From Stillpine the Younger.|
+C Call of Fire|QID|9465|Z|Azuremyst Isle|M|46.94,15.10|N|While you are killing wildkin keep an eye out for the torch.|C|Shaman|R|Draenei|S|
 C Chieftain Oomooroo|QID|9573|N|Go into Stillpine Hold and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo|Z|Azuremyst Isle|M|45.39,18.06;47.43,14.18|CS|
+C Call of Fire|QID|9465|Z|Azuremyst Isle|M|46.94,15.10|N|While you are killing wildkin keep an eye out for the torch.|C|Shaman|R|Draenei|US|
 T Chieftain Oomooroo|QID|9573|Z|Azuremyst Isle|M|46.9,21.2|N|To Stillpine the Younger.|
 A The Kurken is Lurkin'|QID|9570|Z|Azuremyst Isle|M|46.97,22.26|N|From Kurz the Revelator.|
 C The Kurken is Lurkin'|QID|9570|N|Go back into Stillpine Hold, this time to the left. Kill the Kurken and loot its hide.|Z|Azuremyst Isle|M|49.78,12.95|
@@ -206,32 +212,16 @@ T The Kurken is Lurkin'|QID|9570|Z|Azuremyst Isle|M|46.97,22.26|N|To Kurz the Re
 A The Kurken's Hide|QID|9571|PRE|9570|Z|Azuremyst Isle|M|46.97,22.26|N|From Kurz the Revelator.|
 A Warn Your People|QID|9622|PRE|9566&9570&9573|N|From High Chief Stillpine.|Z|Azuremyst Isle|M|46.68,20.63|
 T The Kurken's Hide|QID|9571|Z|Azuremyst Isle|M|44.77,23.90|N|To Moordo.|
+T Call of Fire|QID|9465|Z|Azuremyst Isle|N|To Temper.|M|59.52,17.95|C|Shaman|R|Draenei|
+A Call of Fire|QID|9467|Z|Azuremyst Isle|N|From Temper.|M|59.52,17.95|C|Shaman|R|Draenei|
+C Call of Fire|QID|9467|Z|Azuremyst Isle|N|Click the Strawnman and then kill the fire elemental that spawns.|M|11.25,82.56|C|Shaman|R|Draenei|
+T Call of Fire|QID|9467|Z|Azuremyst Isle|N|Use the Orb of Returning and turn in to Temper.|M|59.52,17.95|C|Shaman|R|Draenei|U|24335|
 T Warn Your People|QID|9622|Z|Azuremyst Isle|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|U|6948|
 T Bandits!|QID|9616|Z|Azuremyst Isle|M|47.13,50.61|N|To Exarch Menelaous.|O|
 r Sell junk and repair|QID|9623|N|At Kioni.|Z|Azuremyst Isle|M|49.69,52.75|
-F The Exodar|QID|9623|N|Fly to The Exodar. I would suggest visiting the AH and bank while you are there.|Z|Azuremyst Isle|M|49.7,49.12|
 T Coming of Age|QID|9623|M|81.64,51.70|Z|The Exodar|N|Head up and outside. Then turn this quest into Torallius the Pack Handler.|
 A Elekks Are Serious Business|QID|9625|LEAD|9634|PRE|9623|M|81.64,51.70|Z|The Exodar|N|From Torallius the Pack Handler.|
 R Kessel's Crossing|QID|9625|Z|Bloodmyst Isle|N|Go north to Kessel's Crossing on Bloodmyst Isle (it's a long run - just follow the path).|M|63.50,88.14|
-T Elekks Are Serious Business|QID|9625|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
-
-
-
-
-
-
-A Beds, Bandages, and Beyond|QID|9603|N|From Caregive Chellan.|R|Draenei|
-T Beds, Bandages, and Beyond|QID|9603|N|Go to Zaldaan (the Flight Master).|R|Draenei|Z|Azuremyst Isle|M|49.67,49.17|
-A On the Wings of a Hippogryph|QID|9604|PRE|9603|N|From Zaldaan.|R|Draenei|Z|Azuremyst Isle|M|49.67,49.17|
-F The Exodar|QID|9604|N|Fly to the Exodar.|R|Draenei|
-T On the Wings of a Hippogryph|QID|9604|M|57.03,50.14|Z|The Exodar|N|Go to Nurguni.|R|Draenei|
-A Hippogryph Master Stephanos|QID|9605|PRE|9604|N|From Nurguni.|R|Draenei|
-N Exodar|QID|9605|N|While you're here, you can visit your bank/AH or get supplies. Click to close and continue.|
-T Hippogryph Master Stephanos|QID|9605|Z|The Exodar|N|Go to Hippogryph Master Stephanos.|R|Draenei|
-A Return to Caregiver Chellan|QID|9606|PRE|9605|Z|The Exodar|N|From Stephanos.|R|Draenei|
-F Azure Watch|QID|9606|M|54.33,36.73|Z|The Exodar|N|Fly back to Azure Watch.|R|Draenei|
-T Return to Caregiver Chellan|QID|9606|Z|Azuremyst Isle|M|48.39,49.25|N|To Caregiver Chellan.|R|Draenei|
-R Odesyus' Landing|QID|9505|ACTIVE|9505|N|Take the road to the south and follow it to Odesyus' Landing|CC|Z|Azuremyst Isle|M|47,69|
-
+T Elekks Are Serious Business|QID|9625|Z|Bloodmyst Isle|M|63.04,87.90|N|To Vorkhan the Elekk Herder.|
 ]]
 end)
