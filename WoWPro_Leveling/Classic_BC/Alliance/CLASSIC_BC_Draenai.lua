@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("BC-Draenei", "Leveling", "Azuremyst Isle", "Snowflake", "Alliance", 2)
+local guide = WoWPro:RegisterGuide("BC-Draenei", "Leveling", "Azuremyst Isle", "Wow-Pro Team", "Alliance", 2)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Draenai: Intro")
@@ -18,7 +18,11 @@ T Replenishing the Healing Crystals|QID|9280|M|80.42,45.89|N|To Proenitus.|R|Dra
 T Replenishing the Healing Crystals|QID|9369|M|80.42,45.89|N|To Proenitus.|R|Human, Gnome, Dwarf, Night El|
 A Urgent Delivery!|QID|9409|PRE|9280^9369|M|80.42,45.89|N|From Proenitus.|
 T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building (he wanders around inside the place a bit).|M|80.17,48.52|
-A Rescue the Survivors!|QID|9283|PRE|9409|M|52.21,43.32|N|From Zaldunn.|R|Draenei|
+A Rescue the Survivors!|QID|9283|PRE|9409|M|80.17,48.52|N|From Zaldunn.|R|Draenei|
+A Warrior Training|QID|9289|M|79.59,49.43|N|From Kore.|R|Draenei|C|Warrior|
+T Warrior Training|QID|9289|M|79.59,49.43|N|To Kore.|R|Draenei|C|Warrior|
+A Paladin Training|QID|9287|M|79.70,48.23|N|From Aurelon.|R|Draenei|C|Paladin|
+T Paladin Training|QID|9287|M|79.70,48.23|N|To Aurelon.|R|Draenei|C|Paladin|
 A Botanist Taerix|QID|9371|PRE|9409|LEAD|10302|M|80.42,45.89|N|From Proenitus.|
 T Botanist Taerix|QID|9371|M|79.13,46.54|N|To Botanist Taerix around the corner near the Training dummies.|
 A Volatile Mutations|QID|10302|PRE|9280^9369|M|79.13,46.54|N|From Botanist Taerix, back outside.|
@@ -34,7 +38,7 @@ C Botanical Legwork|QID|9799|M|73.43,49.14|US|N|Collect Corrupted Flowers.|NC|
 T Botanical Legwork|QID|9799|M|79.06,46.60|N|To Apprentic Vishael.|
 T What Must Be Done...|QID|9293|M|79.13,46.54|N|To Botanist Taerix.|
 A Healing the Lake|QID|9294|PRE|9293|M|79.13,46.54|N|From Botanist Taerix.|
-T Rescue the Survivors!|QID|9283|M|52.21,43.32|N|To wandering Zaldunn.|R|Draenei|
+T Rescue the Survivors!|QID|9283|M|80.17,48.52|N|To wandering Zaldunn.|R|Draenei|
 A Shaman Training|QID|9421|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
 T Shaman Training|QID|9421|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
 A Call of Earth|QID|9449|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
@@ -44,22 +48,20 @@ C Call of Earth|QID|9450|M|70.56,37.07|N|Kill Restless Spirit of Earth.|R|Draene
 T Call of Earth|QID|9450|M|71.81,40.26|N|To Spirit of the Vale.|R|Draenei|C|Shaman|
 A Call of Earth|QID|9451|M|71.81,40.26|N|To Spirit of the Vale.|R|Draenei|C|Shaman|
 T Call of Earth|QID|9451|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
-C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing Agent.|M|76.74,58.85|NC|U|22955|
+C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing Agent.|M|77.19,57.87|NC|U|22955|
 T Healing the Lake|QID|9294|M|79.13,46.54|N|To Botanist Taerix.|
-
-
 A Vindicator Aldar|QID|10304|PRE|9294|LEAD|37444|M|79.13,46.54|N|From Botanist Taerix.|
 T Vindicator Aldar|QID|10304|M|79.48,51.61|N|Speak to Vindicator Aldar.|
 A Spare Parts|QID|9305|PRE|10302|M|79.41,51.24|N|From Technician Zhanaa.|
 A Inoculation|QID|37444|PRE|10302|M|79.48,51.61|N|From Vindicator Aldar.|R|-Draenei|
 A Inoculation|QID|9303|PRE|10302|M|79.48,51.61|N|From Vindicator Aldar.|R|Draenei|
-r Sell junk and repair|QID|37445|N|At Mura, close this step when done.|M|79.19,50.94|
-C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|-Draenei|
-C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|Draenei|
-C Spare Parts|QID|9305|N|Into the hills, through the cave. The parts are spread all over the camp.|M|58,72|
-C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|-Draenei|
-C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|Draenei|
-H Ammen Vale|QID|37445|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
+r Sell junk and repair|ACTIVE|37444|N|At Mura, close this step when done.|M|79.19,50.94|
+C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|77.09,61.38|S|NC|R|-Draenei|
+C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|77.09,61.38|S|NC|R|Draenei|
+C Spare Parts|QID|9305|N|Into the hills, through the cave. The parts are spread all over the camp.|M|77.09,61.38|
+C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|77.09,61.38|US|NC|R|-Draenei|
+C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|77.09,61.38|US|NC|R|Draenei|
+H Ammen Vale|ACTIVE|37444|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
 T Inoculation|QID|37444|M|79.48,51.61|N|To Vindicator Aldar.|R|-Draenei|
 T Inoculation|QID|9303|M|79.48,51.61|N|To Vindicator Aldar.|R|Draenei|
 A The Missing Scout|QID|9309|PRE|9303|M|79.48,51.61|N|From Vindicator Aldar.|
@@ -93,19 +95,19 @@ h Azure Watch|QID|9454|N|Set your hearth to Azure Watch with Caregive Chellan.|
 A Medicinal Purpose|QID|9463|Z|Azuremyst Isle|M|48.4,51.8|N|From Anchorite Fateema.|R|Draenei|
 N Professions|O|ACTIVE|9463|Z|Azuremyst Isle|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
 N Note!|O|ACTIVE|9463|N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
+A Bandits!|QID|9616|N|Kill Blood Elf Bandits till you get a Blood Elf Communication and then use it.|Z|Azuremyst Isle|M|48.26,41.43|U|23910|
 C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|QO|1|Z|Azuremyst Isle|M|54,61|T|Moongraze Stag|
 C Medicinal Purpose|QID|9463|N|Kill and loot Root Trappers for the Vines.|S|R|Draenei|QO|1|Z|Azuremyst Isle|M|54,61|T|Root Trapper|
 C Medicinal Purpose|QID|9463|N|Kill and loot Root Trappers for the Vines.|US|R|Draenei|QO|1|Z|Azuremyst Isle|M|54,61|T|Root Trapper|
 C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|QO|1|Z|Azuremyst Isle|M|54,61|T|Moongraze Stag|
 T Medicinal Purpose|QID|9463|Z|Azuremyst Isle|M|48.4,51.8|N|To Anchorite Fateema.|R|Draenei|
+T Bandits!|QID|9616|N|To Exarch Menelaous.|IZ|Azure Watch|M|47.10,50.59|
 A An Alternative Alternative|QID|9473|PRE|9463|Z|Azuremyst Isle|M|48.4,51.8|N|From Daedal.|R|Draenei|
 T The Great Moongraze Hunt|QID|9454|Z|Azuremyst Isle|M|49.8,51.9|N|To Acteon.|
 A The Great Moongraze Hunt|QID|10324|PRE|9454|Z|Azuremyst Isle|M|49.8,51.9|N|From Acteon.|
-C An Alternative Alternative|QID|9473|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|QO|1|Z|Azuremyst Isle|M|48.5,55.1|
+C An Alternative Alternative|QID|9473|NC|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|QO|1|Z|Azuremyst Isle|M|48.5,55.1|
 T An Alternative Alternative|QID|9473|Z|Azuremyst Isle|M|48.4,51.8|N|To Daedal.|R|Draenei|
 A The Prophecy of Velen|QID|9505|LEAD|9506|PRE|9473|Z|Azuremyst Isle|M|48.4,51.8|N|Wait for a few moments for the short scene to complete, then get this from Daedal.|R|Draenei|
-
-
 T The Prophecy of Velen|QID|9505|Z|Azuremyst Isle|M|47.04,70.22|N|To Admiral Odesyus.|R|Draenei|
 A A Small Start|QID|9506|Z|Azuremyst Isle|M|47.04,70.22|N|From Admiral Odesyus.|
 A Cookie's Jumbo Gumbo|QID|9512|Z|Azuremyst Isle|M|46.7,70.5|N|From "Cookie" McWeaksauce.|
@@ -120,10 +122,10 @@ A Precious and Fragile Things Need Special Handling|QID|9523|PRE|9506^9512|Z|Azu
 T Cookie's Jumbo Gumbo|QID|9512|Z|Azuremyst Isle|M|46.7,70.5|N|To "Cookie" McWeaksauce.|
 r Sell junk and repair (click to close)|QID|9530|N|At Blacksmith Calypso|Z|Azuremyst Isle|M|46.4,71.1|
 C I've Got a Plant|QID|9530|S|N|North of Odesyus' Landing, look for glowing piles of leaves and tree trunks.|
-C Reclaiming the Ruins|QID|9513|N|To the west of the landing, kill any Naga you need for this quest. When the rune covered tablet drops, accept the quest.|S|
+C Reclaiming the Ruins|QID|9513|M|39.18,78.15|N|To the west of the landing, kill any Naga you need for this quest. When the rune covered tablet drops, accept the quest.|S|
 C Precious and Fragile Things Need Special Handling|QID|9523|N|Go to the Wrathscale Point and collect Ancient Relics.|Z|Azuremyst Isle|M|35,75|S|
 A Rune Covered Tablet|QID|9514|N|The tablet should have dropped off the naga while you're killing them.|U|23759|Z|Azuremyst Isle|M|36.1,77.0|
-C Reclaiming the Ruins|QID|9513|N|Kill any Naga you still need for this quest.|US|
+C Reclaiming the Ruins|QID|9513|M|39.18,78.15|N|Kill any Naga you still need for this quest.|US|
 C Precious and Fragile Things Need Special Handling|QID|9523|N|Go to the Wrathscale Point and collect Ancient Relics.|Z|Azuremyst Isle|M|35,75|US|
 C I've Got a Plant|QID|9530|US|N|Move towards Odesyus' Landing. There you will find hollow trees. Loot the remaining Piles of Leaves.|Z|Azuremyst Isle|M|45.43,66.20|
 T I've Got a Plant|QID|9530|Z|Azuremyst Isle|M|47.04,70.22|N|To Admiral Odesyus.|
@@ -134,9 +136,9 @@ T Rune Covered Tablet|QID|9514|Z|Azuremyst Isle|M|47.13,70.27|N|To Priestess Kyl
 A Warlord Sriss'tiz|QID|9515|PRE|9514|N|Wait a moment until the dialog is finished. Then accept this quest from Priestess Kyleen Il'dinare.|Z|Azuremyst Isle|M|47.13,70.27|
 R Azure Watch|QID|9538|Z|Azuremyst Isle|M|48,53|N|Run to Azure Watch.|
 A The Missing Fisherman|QID|10428|LEAD|9527|Z|Azuremyst Isle|M|49.0,51.1|N|From Dulvi.|
-C The Great Moongraze Hunt|QID|10324|S|N|Kill and loot the needed Moongraze Stags for the Hides.|Z|Azuremyst Isle|M|48.52,55.63|
+C The Great Moongraze Hunt|QID|10324|S|N|Kill and loot the needed Moongraze Bucks for the Hides.|Z|Azuremyst Isle|M|50.17,45.30|
 A Strange Findings|QID|9455|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal, then accept the quest from it.|Z|Azuremyst Isle|M|48.26,41.43|U|23678|
-C The Great Moongraze Hunt|QID|10324|US|N|Kill and loot the needed Moongraze Stags for the Hides.|Z|Azuremyst Isle|M|48.52,55.63|
+C The Great Moongraze Hunt|QID|10324|US|N|Kill and loot the needed Moongraze Bucks for the Hides.|Z|Azuremyst Isle|M|50.17,45.30|
 T The Great Moongraze Hunt|QID|10324|Z|Azuremyst Isle|M|49.8,51.9|N|To Acteon.|
 T Strange Findings|QID|9455|Z|Azuremyst Isle|M|47.1,50.6|N|To Exarch Menelaous.|
 A Nightstalker Clean Up, Isle 2...|QID|9456|PRE|9455|Z|Azuremyst Isle|M|47.1,50.6|N|From Exarch Menelaous.|
@@ -166,9 +168,10 @@ T The Missing Fisherman|QID|10428|Z|Azuremyst Isle|M|16.6,94.5|N|To Cowlen.|
 A All That Remains|QID|9527|Z|Azuremyst Isle|M|16.6,94.5|N|From Cowlen.|
 C All That Remains|QID|9527|N|Kill owlkins on this island until you pick up the Remains of Cowlen's Family.|Z|Azuremyst Isle|M|13.41,85.29|
 T All That Remains|QID|9527|Z|Azuremyst Isle|M|16.6,94.5|N|To Cowlen.|
-H Azure Watch|QID|9544|U|6948|N|Hearth back to Azure Watch.|
+H Azure Watch|QID|9544|U|6948|M|48,53|N|Hearth back to Azure Watch.|
 T The Prophecy of Akida|QID|9544|Z|Azuremyst Isle|M|49.4,51.0|N|To Arugoo of the Stillpine.|
 A Stillpine Hold|QID|9559|PRE|9544|Z|Azuremyst Isle|M|49.4,51.0|N|From Arugoo of the Stillpine.|
+;A Strength of One|QID|9582|Z|Azuremyst Isle|M|50.02,50.52|N|From Ruada.|C|Warrior|R|Draenei|
 T Nightstalker Clean Up, Isle 2...|QID|9456|Z|Azuremyst Isle|M|47.1,50.6|N|To Exarch Menelaous.|
 A Call of Fire|QID|9464|Z|Azuremyst Isle|M|48.06,50.44|N|From Tuluun.|C|Shaman|R|Draenei|
 R Odesyus' Landing|QID|9515|N|Head to Odesyus' Landing... again...|Z|Azuremyst Isle|M|46.11,72.16|
@@ -189,7 +192,9 @@ A Murlocs... Why Here? Why Now?|QID|9562|PRE|9544|Z|Azuremyst Isle|M|44.63,23.48
 T Stillpine Hold|QID|9559|Z|Azuremyst Isle|M|46.7,20.6|N|To High Chief Stillpine.|
 T Call of Fire|QID|9464|Z|Azuremyst Isle|N|To Temper.|M|59.52,17.95|C|Shaman|R|Draenei|
 A Call of Fire|QID|9465|Z|Azuremyst Isle|N|From Temper.|M|59.52,17.95|C|Shaman|R|Draenei|
-C Beasts of the Apocalypse!|QID|9560|N|Kill and loot Ravagers at the Menagerie Wreckage.|Z|Azuremyst Isle|M|54.24,19.36|
+C Beasts of the Apocalypse!|QID|9560|N|Kill and loot Ravagers at the Menagerie Wreckage.|Z|Azuremyst Isle|M|54.24,19.36|S|
+;C Strength of One|QID|9582|Z|Azuremyst Isle|M|54.06,9.84|N|Click on cage and kill Death Ravager.|C|Warrior|R|Draenei|
+C Beasts of the Apocalypse!|QID|9560|N|Kill and loot Ravagers at the Menagerie Wreckage.|Z|Azuremyst Isle|M|54.24,19.36|US|
 T Beasts of the Apocalypse!|QID|9560|Z|Azuremyst Isle|M|44.77,23.90|N|To Moordo.|
 C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|Z|Azuremyst Isle|M|35,13|S|
 K Murgurgula|AVAILABLE|9564|L|23850|Z|Azuremyst Isle|M|35,13;33.45,27.04|CN|N|Look for the boss murloc named Murgurgula between the two waypoints. Kill him, loot Gurf's Dignity from him, and accept its quest.|T|Murgurgula|
@@ -218,7 +223,10 @@ C Call of Fire|QID|9467|Z|Azuremyst Isle|N|Click the Strawnman and then kill the
 T Call of Fire|QID|9467|Z|Azuremyst Isle|N|Use the Orb of Returning and turn in to Temper.|M|59.52,17.95|C|Shaman|R|Draenei|U|24335|
 T Warn Your People|QID|9622|Z|Azuremyst Isle|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|U|6948|
 T Bandits!|QID|9616|Z|Azuremyst Isle|M|47.13,50.61|N|To Exarch Menelaous.|O|
+;T Strength of One|QID|9582|Z|Azuremyst Isle|M|54.06,9.84|N|Click on cage and kill Death Ravager.|C|Warrior|R|Draenei|
+;A Behomat|QID|10350|Z|Azuremyst Isle|M|50.01,50.52|N|From Ruada.|C|Warrior|R|Draenei|
 r Sell junk and repair|QID|9623|N|At Kioni.|Z|Azuremyst Isle|M|49.69,52.75|
+;T Behomat|QID|10350|Z|The Exodar|M|55.58,82.36|N|To Behomat.|C|Warrior|R|Draenei|
 T Coming of Age|QID|9623|M|81.64,51.70|Z|The Exodar|N|Head up and outside. Then turn this quest into Torallius the Pack Handler.|
 A Elekks Are Serious Business|QID|9625|LEAD|9634|PRE|9623|M|81.64,51.70|Z|The Exodar|N|From Torallius the Pack Handler.|
 R Kessel's Crossing|QID|9625|Z|Bloodmyst Isle|N|Go north to Kessel's Crossing on Bloodmyst Isle (it's a long run - just follow the path).|M|63.50,88.14|
