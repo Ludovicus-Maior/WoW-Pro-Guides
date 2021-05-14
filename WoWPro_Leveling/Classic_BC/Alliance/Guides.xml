@@ -6,6 +6,7 @@
 	<Script file="CLASSIC_BC_50_55_Alliance.lua"/>
 	<Script file="CLASSIC_BC_55_60_Alliance.lua"/>
 	<Script file="CLASSIC_BC_Blades_Edge_Mountains.lua"/>
+	<Script file="CLASSIC_BC_Bloodmyst.lua"/>
 	<Script file="CLASSIC_BC_Darkshore.lua"/>
 	<Script file="CLASSIC_BC_Draenai.lua"/>
 	<Script file="CLASSIC_BC_Dungeon_Blackrock_Depths.lua"/>

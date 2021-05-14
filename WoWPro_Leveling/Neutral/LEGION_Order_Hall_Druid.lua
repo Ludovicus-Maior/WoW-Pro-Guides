@@ -39,7 +39,7 @@ A Weapons of Legend|QID|40646|M|44.55,51.02|N|From Rensar Greathoof.|PRE|40645|
 C Weapons of Legend|QID|40646|NC|QO|1|M|44.55,51.02|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 102).|
 T Weapons of Legend|QID|40646|M|44.55,51.02|N|To Rensar Greathoof.|
 A Artifact Specific Quest|QID|40783^42428^41468^40649|M|44.55,51.02|N|From one of the Druids in the area.|PRE|40646|
-;Class hall development lvl 101 to 109
+;Class hall development lvl 10 to 49
 T Growing Power|QID|42516|M|44.66,51.95|N|To Rensar Greathoof.|
 A Rise Champions|QID|42583|M|44.66,51.95|N|From Rensar Greathoof.|PRE|42516|
 A Champion: Zen'tabra|QID|40650|M|47.31,7.61|N|From/To Zen'tabra who can be found in the Tel'Andu Barrow Den.|ACTIVE|42583|
@@ -53,17 +53,17 @@ A What Could Go Wrong|QID|41413|M|59.35,53.19|N|From/To Zen'kiki. Alas, no furth
 C Recruiting the Troops|QID|42585|M|36.37,25.35|N|Sister Lilith can be found near the Moonwell. Find her and train your first troop.  When that was finishes (near instant), Pick it up from the Banner beside her and then you can train 2 more.|
 T Recruiting the Troops|QID|42585|M|52.52,51.50|N|To Skylord Omnuron.|
 A Glade Defense|QID|42586|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42585|
-C Glade Defense|QID|42586|M|52.66,51.20|NC|N|Use your scouting map to send your followers on the 'The Glade Defense' mission. As this is a four hour mission, it's time to leave your orderhall for a bit. Check off manually to move on thru the guide.|
+C Glade Defense|QID|42586|M|52.66,51.20|MID|924|NC|N|Use your scouting map to send your followers on the 'A Glade Defense' mission. As this is a four hour mission, it's time to leave your orderhall for a bit.|
 t Glade Defense|QID|42586|M|52.52,51.50|N|To Skylord Omnuron.|
 A Branching Out|QID|42588|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42586|
 C Branching Out|QID|42588|M|32.83,29.19|NC|N|Pick your first order advancement at Leafbeard the Storied.|
 T Branching Out|QID|42588|M|52.52,51.50|N|To Skylord Omnuron.|
 A Sampling the Nightmare|QID|42032|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42588|
-C Sampling the Nightmare|QID|42032|M|52.66,51.20|NC|N|Use your scouting map to send your followers on the 'Sampling the Nightmare' mission. As this is a one hour mission, it's time to leave your orderhall for a bit. Check off manually to move on thru the guide.|
+C Sampling the Nightmare|QID|42032|M|52.66,51.20|MID|812|NC|N|Use your scouting map to send your followers on the 'Sampling the Nightmare' mission. As this is a one hour mission, it's time to leave your orderhall for a bit. Check off manually to move on thru the guide.|
 t Sampling the Nightmare|QID|42032|M|52.52,51.50|N|To Skylord Omnuron.|
 A Dire Growth|QID|42031|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42032|
-C Dire Growth|QID|42031|QO|1|M|67.53,75.51|N|Naralex can be found in the south part of the Dreamgrove near the exit to Val'sharah.|
-C Dire Growth|QID|42031|QO|2|M|71.56,76.20|N|Click on the dirt mound to plant the seed.|
+C Dire Growth|QID|42031|QO|1|M|67.53,75.51|CHAT|N|Naralex can be found in the south part of the Dreamgrove near the exit to Val'sharah.|
+C Dire Growth|QID|42031|QO|2|M|71.56,76.20|NC|N|Click on the dirt mound to plant the seed.|
 C Dire Growth|QID|42031|QO|3|M|71.90,76.42|N|Destroy the seedling.|
 T Dire Growth|QID|42031|M|44.61,51.99|N|To Rensar Greathoof.|
 A Malorne's Refuge|QID|42033|M|44.61,51.99|N|From Rensar Greathoof.|PRE|42031|
@@ -80,7 +80,7 @@ T Tracking the Enemy|QID|42035|M|59.86,75.20|Z|Val'sharah|N|To Sylendra Gladeson
 A Idol of the Wilds|QID|42036|M|59.86,75.20|Z|Val'sharah|N|From Sylendra Gladesong.|PRE|42035|
 C Idol of the Wilds|QID|42036|QO|1|M|60.50,74.00|Z|Val'sharah|N|Go into Moonclaw Vale and beat up some Satyrs.|
 C Idol of the Wilds|QID|42036|QO|2|M|66.62,76.68;67.71,75.14|CS|Z|Val'sharah|N|Run over to Grizzleweald and down into a cave under the furbolg encampment and kill Kalazzius the Guileful.|T|Kalazzius the Guileful|
-P Emerald Dreamway|QID|42036|M|67.71,75.14|Z|Val'sharah|N|Use your Dreamwalk to return to your order hall.|ACTIVE|42036|
+P Emerald Dreamway|ACTIVE|42036|M|67.71,75.14|Z|Val'sharah|N|Use your Dreamwalk to return to your order hall.|
 T Idol of the Wilds|QID|42036|M|44.57,50.12|N|To Keeper Remulos.|
 A The Protectors|QID|43991|M|44.57,50.12|N|From Keeper Remulos.|PRE|42036|
 A Druids of the Claw|QID|40654|M|44.67,51.97|N|From Rensar Greathoof.|PRE|42036|
@@ -89,18 +89,18 @@ A Champion: Sylendra Gladesong|QID|42039|M|49.00,46.72|N|From/To Sylendra Glades
 T Druids of the Claw|QID|40654|M|38.40,34.28|N|To Yaris Darkclaw. He is the recruiter for your second type of troops, so you should recruit some troops while you are here.|
 A Gathering the Dreamweavers|QID|42037|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42036|
 C Gathering the Dreamweavers|QID|42037|M|52.66,51.20|S|NC|N|Use your scouting map to send your followers on the 5 sequential 'Gathering the Dreamweavers' missions.|
-P Emerald Dreamway|QID|43991|M|55.27,22.93|N|Run thru the Emerald Dreamway portal.|
+P Emerald Dreamway|ACTIVE|43991|M|55.27,22.93|N|Run thru the Emerald Dreamway portal.|
 C The Protectors|QID|43991|QO|1|M|30.61,37.17|Z|EmeraldDreamway|NC|N|Use prowl by the Feral stone.(between Grizzly Hills and Feralas portals)|
-A Halls of Valor: Essence of Ferocity|QID|44075|M|31.06,36.76|Z|EmeraldDreamway|NA|N|From Echo of Ashamane. This is an instance quest, finish it sometime before 110 so you can progress your hall then.|PRE|42036|
+A Halls of Valor: Essence of Ferocity|QID|44075|M|31.06,36.76|Z|EmeraldDreamway|NA|N|From Echo of Ashamane. This is an instance quest, finish it sometime before 50 so you can progress your hall then.|PRE|42036|
 C The Protectors|QID|43991|QO|3|M|30.08,51.30|Z|EmeraldDreamway|NC|N|Cast Moonfire on small Ritual Candle near the Balance stone (in any form you can cast it). (Southeast of Feralas portal)|T|Ritual Candle|
-A Eye of Azshara: Essence of Balance|QID|44077|M|30.71,50.81|Z|EmeraldDreamway|NA|N|From Avatar of Aviana. This is an instance quest, finish it sometime before 110 so you can progress your hall then.|PRE|42036|
+A Eye of Azshara: Essence of Balance|QID|44077|M|30.71,50.81|Z|EmeraldDreamway|NA|N|From Avatar of Aviana. This is an instance quest, finish it sometime before 50 so you can progress your hall then.|PRE|42036|
 C The Protectors|QID|43991|QO|2|M|34.98,62.84|Z|EmeraldDreamway|NC|N|Shift into Bear form near the Guardian stone.(between Duskwood and Moonglade portals)|
-A Neltharion's Lair: Essence of Tenacity|QID|44074|M|34.69,62.19|Z|EmeraldDreamway|NA|N|From Son of Ursoc. This is an instance quest, finish it sometime before 110 so you can progress your hall then.|PRE|42036|
+A Neltharion's Lair: Essence of Tenacity|QID|44074|M|34.69,62.19|Z|EmeraldDreamway|NA|N|From Son of Ursoc. This is an instance quest, finish it sometime before 50 so you can progress your hall then.|PRE|42036|
 C The Protectors|QID|43991|QO|4|M|41.54,58.93|Z|EmeraldDreamway|NC|N|Heal the Sapling near the Restoration Stone.(between Hinterlands and Duskwood portals)|T|Sapling|
-A Darkheart Thicket: Essence of Regrowth|QID|44076|M|40.95,59.04|Z|EmeraldDreamway|NA|N|From Glimmer of Aessina. This is an instance quest, finish it sometime before 110 so you can progress your hall then.|PRE|42036|
+A Darkheart Thicket: Essence of Regrowth|QID|44076|M|40.95,59.04|Z|EmeraldDreamway|NA|N|From Glimmer of Aessina. This is an instance quest, finish it sometime before 50 so you can progress your hall then.|PRE|42036|
 P The Dreamgrove|QID|43991|M|45.56,23.60|Z|EmeraldDreamway|N|Return to the Dreamgrove to turn in.|ACTIVE|43991|
 T The Protectors|QID|43991|M|44.57,50.12|N|To Keeper Remulos.|
-C Gathering the Dreamweavers|QID|42037|M|52.66,51.20|US|NC|N|As you approach 110, you want to be sure you have finished the 5 sequential 'Gathering the Dreamweavers' missions. Check this off manually until then. The instances do not have to be done to progress, but they do need to be done before you can complete the campaign.|
+C Gathering the Dreamweavers|QID|42037|M|52.66,51.20|US|NC|N|As you approach 50, you want to be sure you have finished the 5 sequential 'Gathering the Dreamweavers' missions. Check this off manually until then. The instances do not have to be done to progress, but they do need to be done before you can complete the campaign.|
 t Gathering the Dreamweavers|QID|42037|M|44.57,50.12|N|To Keeper Remulos.|
 t Neltharion's Lair: Essence of Tenacity|QID|44074|M|44.57,50.12|N|To Keeper Remulos.|
 t Halls of Valor: Essence of Ferocity|QID|44075|M|44.57,50.12|N|To Keeper Remulos.|
@@ -138,23 +138,23 @@ U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use it and th
 T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran@Dalaran70|N|To Archmage Kadgar.|
 A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kadgar.|PRE|44004|
 T Light's Charge|QID|44153|M|60.23,51.94|NC|N|Return to your order hall and return to Light's Heart (in your house with Zen'kiki).|
-;fresh lvl 110 quests
-A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|
-A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|ACTIVE|-43341|
-C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|NC|N|Since this is the first character to 110 on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests. Check this off manually until it's complete.|
+;fresh lvl 45 quests
+A Khadgar's Discovery|LVL|45|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 45.|PRE|44464|
+A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|ACTIVE|-43341|LVL|45|
+C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|NC|N|Since this is the first character to 45 on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests. Check this off manually until it's complete.|
 t Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-P Emerald Dreamway|QID|44232|M|28.43,48.38|Z|Dalaran@Dalaran70|N|Use your Dreamwalk Portal|
-A Goddess Watch Over You|QID|44337|M|51.98,32.52|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110 and will follow you around until you accept this quest.|
-A An Urgent Warning|QID|46026|M|46.40,48.65|N|From an Injured Druid of the Claw.|
-A The Way to Nordrassil|QID|42040|M|44.59,49.95|N|From Keeper Remulos.|
+P Emerald Dreamway|ACTIVE|44232|M|28.43,48.38|Z|Dalaran@Dalaran70|N|Use your Dreamwalk Portal|LVL|45|
+A Goddess Watch Over You|QID|44337|LVL|45|M|51.98,32.52|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 45 and will follow you around until you accept this quest.|
+A An Urgent Warning|QID|46026|LVL|45|M|46.40,48.65|N|From an Injured Druid of the Claw.|
+A The Way to Nordrassil|QID|42040|LVL|45|M|44.59,49.95|N|From Keeper Remulos.|
 T An Urgent Warning|QID|46026|M|46.40,48.65|N|To Skylord Omnuron.|
-A Investigate the Broken Shore|QID|46027|M|46.40,48.65|N|From Skylord Omnuron.|
+A Investigate the Broken Shore|QID|46027|LVL|45|M|46.40,48.65|N|From Skylord Omnuron.|
 C Investigate the Broken Shore|QID|46027|M|46.40,48.65|NA|NC|N|Use scouting map to do the requested mission. This mission requires ilvl 830 champions, so it may be awhile before you can complete it. Check this off manually until then.|
 ;back to order hall quests
-A The Grove Provides|QID|44232|M|40.30,24.48|N|From Amurra Thistledew. Your class hall has a gift for you.|
+A The Grove Provides|QID|44232|M|40.30,24.48|LVL|45|N|From Amurra Thistledew. Your class hall has a gift for you.|
 T The Grove Provides|QID|44232|M|38.70,23.93|N|To Amurra Thistledew.|
 C Goddess Watch over You|QID|44338|NC|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
-P Emerald Dreamway|QID|42040|M|55.27,22.93|N|Go out into the Emerald Dreamway to meet up with Archdruid Runetotem.|ACTIVE|42040|
+P Emerald Dreamway|ACTIVE|42040|M|55.27,22.93|N|Go out into the Emerald Dreamway to meet up with Archdruid Runetotem.|
 T The Way to Nordrassil|QID|42040|M|43.35,30.73|Z|EmeraldDreamway|N|To Archdruid Hamuul Runetotem.|
 A Enduring the Nightmare|QID|42041|M|43.35,30.73|Z|EmeraldDreamway|N|From Archdruid Hamuul Runetotem.|PRE|42040|
 A Cleaning Up|QID|42043|M|43.00,30.25|Z|EmeraldDreamway|N|From Bashana Runetotem.|PRE|42040|
@@ -176,7 +176,7 @@ C Communing With Malorne|QID|42045|QO|2|M|60.51,23.60|Z|Mount Hyjal|CHAT|N|Tell 
 C Communing With Malorne|QID|42045|QO|3|M|60.32,23.69|Z|Mount Hyjal|NC|N|Click on the 'Idol of the Wilds' to begin the ritual.|
 T Communing With Malorne|QID|42045|M|60.51,23.60|Z|Mount Hyjal|N|To Keeper Remulos.|
 A A New Beginning|QID|42046|M|60.51,23.60|Z|Mount Hyjal|N|From Keeper Remulos.|PRE|42045|
-P Emerald Dreamway|QID|42046|M|59.04,26.21|Z|Mount Hyjal|N|Back to the Emerald Dreamway.|
+P Emerald Dreamway|ACTIVE|42046|M|59.04,26.21|Z|Mount Hyjal|N|Back to the Emerald Dreamway.|
 A The Cycle Continues|QID|43365|M|29.53,42.40|Z|EmeraldDreamway|N|From Brightwing. who will be fluttering about near the Dreamgrove portal (or if you take too long... most anywhere in the Dreamway). These next three quests and recruiting Brightwing are optional, manually check them off if you want to skip them.|PRE|42045|
 A Eye of Azshara: Cleansing the Dreamway|QID|42719|M|29.53,42.40|Z|EmeraldDreamway|N|From Brightwing.|PRE|42045|
 A The Pendant of Starlight|QID|42129|M|29.53,42.40|Z|EmeraldDreamway|N|From Brightwing.|PRE|42045|
@@ -196,7 +196,7 @@ C Powering the Portal|QID|42049|M|46.40,48.65|NA|NC|N|Use scouting map to do the
 R Val'Sharah|QID|42129|M|41.93,39.20;31.7,51.25;27.06,45.91|CS|N|Run down this "path" and them swim along the coast to find Abyssal Queen Sha'rathra.|ACTIVE|42129|
 C The Pendant of Starlight|QID|42129|M|32,24|Z|Val'sharah|T|Abyssal Queen Sha'rathra|N|Kill Abyssal Queen Sha'rathra to find the pendant.|
 C The Cycle Continues|QID|43365|US|N|Finish planting the seeds if you want to recruit Brighwing as a follower. (not essential to finishing class campaign)|U|139380|
-P Emerald Dreamway|QID|42129|M|32,24|Z|Val'sharah|N|Use Dreamwalk to return to Brightwing.|
+P Emerald Dreamway|ACTIVE|42129|M|32,24|Z|Val'sharah|N|Use Dreamwalk to return to Brightwing.|
 t The Cycle Continues|QID|43365|M|29.53,42.40|Z|EmeraldDreamway|N|To Brightwing.|
 t Eye of Azshara: Cleansing the Dreamway|QID|42719|M|29.53,42.40|Z|EmeraldDreamway|N|To Brightwing.|
 t The Pendant of Starlight|QID|42129|M|29.53,42.40|Z|EmeraldDreamway|N|To Brightwing.|
@@ -204,7 +204,7 @@ A Champion: Brightwing|QID|43368|M|29.53,42.40|Z|EmeraldDreamway|N|From/To Brigh
 t Powering the Portal|QID|42049|M|44.57,50.12|N|To Keeper Remulos.|
 t Focusing the Energies|QID|42365|M|44.57,50.12|N|To Keeper Remulos.|
 A Enter Nightmare|QID|42051|M|44.67,51.97|N|From Rensar Greathoof.|PRE|42049&42365|
-P Emerald Dreamway|QID|42051|M|55.27,22.93|N|Run out to the Emerald Dreamway.|ACTIVE|42051|
+P Emerald Dreamway|ACTIVE|42051|M|55.27,22.93|N|Run out to the Emerald Dreamway.|
 C Enter Nightmare|QID|42051|M|44.56,45.38;81.32,40.02|CS|Z|EmeraldDreamway|N|Go through the Nightmare Portal.|
 T Enter Nightmare|QID|42051|M|61.44,65.67|Z|MalornesNightmare|N|To Keeper Remulos.|
 A Defenders of the Dream|QID|42050|M|61.18,65.22|Z|MalornesNightmare|N|From Archdruid Hamuul Runetotem.|PRE|42051|
@@ -218,21 +218,21 @@ A Archimonde, The Defiler|QID|42054|N|From the druid ally you chose.|PRE|42053|
 C Archimonde, The Defiler|QID|42054|M|25.78,30.66|Z|MalornesNightmare|N|Defeat Archimonde. Pools of Grace (the glowing green columns of light *not* the green fel looking splotches) are the 'good' you need to stand in.|T|Archimonde|
 T Archimonde, The Defiler|QID|42054|M|66.21,66.80|Z|MalornesNightmare|N|To Malorne.|
 A The Demi-God's Return|QID|42055|M|66.21,66.80|Z|MalornesNightmare|N|From Malorne.|PRE|42054|
-P Emerald Dreamway|QID|42055|M|63.16,70.21|Z|MalornesNightmare|N|Run through the portal back into the Emerald Dreamway (or use Dreamwalk.) and then into The Dreamgrove.|
+P Emerald Dreamway|ACTIVE|42055|M|63.16,70.21|Z|MalornesNightmare|N|Run through the portal back into the Emerald Dreamway (or use Dreamwalk.) and then into The Dreamgrove.|
 C The Demi-God's Return|QID|42055|M|65.70,33.18|NC|N|Run up to Malorne's statue and receive his blessing.|
 T The Demi-God's Return|QID|42055|M|44.57,50.12|N|To Keeper Remulos.|
-A Champion: Remulos|QID|42056|M|44.57,50.12|N|From/To Keeper Remulos.|
+A Champion: Remulos|QID|42056|M|44.57,50.12|N|From/To Keeper Remulos.|PRE|42055|
 A A Hero's Weapon|QID|43409|M|44.67,51.97|N|From Rensar Greathoof.|PRE|42055|
 C A Hero's Weapon|QID|43409|QO|1|M|32.53,54.01|CHAT|N|Tell Rensar you are ready.|
 C A Hero's Weapon|QID|43409|QO|2|M|31.64,53.49|N|Approach the indicated location before the Seed of Ages, if you are in Feral spec, you need to be in cat form, if in Guardian spec, you need to be in bear form, if Balance, DO NOT be in moonkin form, Use the provided extra action button to and raise your weapon.|
 T A Hero's Weapon|QID|43409|M|32.53,54.01|N|To Rensar Greathoof, Congratulations, the Druid Campaign is done.|
-A The Emerald Nightmare|QID|42432|M|32.53,54.01|N|From Rensar Greathoof. This is a raid quest and can be completed on any difficulty.|
-P Dalaran|QID|44337|M|56.50,43.14|N|Back to Dalaran for more new 110 quests.|
+A The Emerald Nightmare|QID|42432|M|32.53,54.01|N|From Rensar Greathoof. This is a raid quest and can be completed on any difficulty.|PRE|43409|
+P Dalaran|ACTIVE|44337|M|56.50,43.14|N|Back to Dalaran for more new 45 quests.|
 t Goddess Watch over You|QID|44337^44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|44337^44338|
 C In the House of Light and Shadow|QID|44448|M|60.23,51.94|N|Head back to your order hall, before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
 ;obliterum quest, post 7.2
-A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|PRE|45|
 C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
@@ -241,7 +241,7 @@ C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|NC|N|Click on the ar
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Trail of Echos|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
 N On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|ACTIVE|39987|
-;lights heart - post 110
+;lights heart - post 45
 A Awakenings|QID|44464|M|28.43,48.38|N|From Light's Heart|PRE|44448|
 P Dalaran|QID|44464|QO|1|M|56.51,43.13|N|Take the portal to Dalaran.|ACTIVE|44464|
 R Krasus' Landing|QID|44464|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44464|
@@ -305,7 +305,7 @@ A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari t
 t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
 ;BALANCE
 ;A The Scythe of Elune|QID|40783|M|44.51,51.46|N|From Naralex.|PRE|40646|
-R The Dreamgrove|QID|40783|QO|1|M|53.77,26.87|N|Run to the Emerald Dreamway Portal (optional, you can travel to Duskwood however you prefer.)|ACTIVE|40783|
+R The Dreamgrove|ACTIVE|40783|QO|1|M|53.77,26.87|N|Run to the Emerald Dreamway Portal (optional, you can travel to Duskwood however you prefer.)|
 C The Scythe of Elune|QID|40783|NC|QO|1|M|39.71,68.87|Z|EmeraldDreamway|N|(Optional): Travel through the Dreamway to Duskwood.|
 C The Scythe of Elune|QID|40783|NC|QO|2|M|48.92,34.29|Z|Duskwood|N|Run to Valorn, listen to him.|
 T The Scythe of Elune|QID|40783|M|48.92,34.29|Z|Duskwood|N|To Valorn Stillbough.|
@@ -313,7 +313,7 @@ A Its Rightful Place|QID|40784|M|48.92,34.29|Z|Duskwood|N|From Valorn Stillbough
 C Its Rightful Place|QID|40784|NC|QO|1|M|48.92,34.29|Z|Duskwood|N|Witness the Scythe of Elune taken.|
 T Its Rightful Place|QID|40784|M|48.83,34.18|Z|Duskwood|N|To Belysra Starbreeze.|
 A A Foe of the Dark|QID|40785|M|48.83,34.18|Z|Duskwood|N|From Belysra Starbreeze.|PRE|40784|
-C A Foe of the Dark|QID|40785|NC|QO|1|M|77.36,36.20|Z|Duskwood|N|Investigate Manor Mistmantle in Duskwood.|
+C A Foe of the Dark|QID|40785|NC|QO|1|M|77.36,36.20|Z|Duskwood|V|N|Investigate Manor Mistmantle in Duskwood.|
 T A Foe of the Dark|QID|40785|M|77.42,36.31|Z|Duskwood|N|To Revil Kost.|
 A Following the Curse|QID|40834|M|77.42,36.31|Z|Duskwood|N|From Revil Kost.|PRE|40785|
 C Following the Curse|QID|40834|QO|1|M|50.97,41.18|Z|Deadwind Pass|N|Follow Revil to Ariden's Camp.|
@@ -325,21 +325,21 @@ A The Deadwind Hunt|QID|40837|M|52.41,34.38|Z|Deadwind Pass|N|From Revil Kost.|P
 C The Deadwind Hunt|QID|40837|NC|M|51.40,42.89;47.00,52.00;48.84,57.14;46.65,62.56|CS|Z|Deadwind Pass|N|Follow the worgen tracks.|
 T The Deadwind Hunt|QID|40837|M|46.94,69.44|Z|Deadwind Pass|N|To Revil Kost.|
 A The Dark Riders|QID|40838|M|46.94,69.44|Z|Deadwind Pass|N|From Revil Kost.|PRE|40837|
-C Karazhan Catacombs infiltrated|SO|1;1|M|72.14,74.86|Z|Deadwind Pass|N|Karazhan Catacombs infiltrated|QID|40838|
-C Spirit Barrier crossed|SO|2;1|M|60.87,69.33|Z|KarazhanScenario|N|Use Solar Beam to disrupt Ariden's concentration.|QID|40838|
-C Conservator Defeated|SO|3;1|M|58.27,69.59|Z|KarazhanScenario|N|Defeat the Conservator.|QID|40838|
-C Scythe of Elune found|NC|SO|4;1|M|49.00,67.92|Z|KarazhanScenario|N|Scythe of Elune found.|QID|40838|
-C Ariden followed|SO|5;1|M|68.49,38.20|Z|KarazhanScenario|N|Follow Ariden into the depths of the Karazhan catacombs.|QID|40838|
-C Ariden defeated|SO|6;1|M|68.53,21.54|Z|KarazhanScenario|N|Ariden defeated.|QID|40838|
-C Scythe of Elune|SO|7;1|M|68.25,24.18|Z|KarazhanScenario|NC|N|Pick up the Scythe of Elune.|QID|40838|
+C Karazhan Catacombs infiltrated|SO|1;1|M|72.14,74.86|Z|Deadwind Pass|N|Go into the Karazhan Catacombs|ACTIVE|40838|
+C Spirit Barrier crossed|SO|2;1|M|60.87,69.33|Z|KarazhanScenario|N|Use Solar Beam to disrupt Ariden's concentration.|ACTIVE|40838|
+C Conservator Defeated|SO|3;1|M|58.27,69.59|Z|KarazhanScenario|N|Defeat the Conservator.|ACTIVE|40838|
+C Scythe of Elune found|NC|SO|4;1|M|49.00,67.92|Z|KarazhanScenario|N|Scythe of Elune found.|ACTIVE|40838|
+C Ariden followed|SO|5;1|M|68.49,38.20|Z|KarazhanScenario|N|Follow Ariden into the depths of the Karazhan catacombs.|ACTIVE|40838|
+C Ariden defeated|SO|6;1|M|68.53,21.54|Z|KarazhanScenario|N|Ariden defeated.|ACTIVE|40838|
+C Scythe of Elune|SO|7;1|M|68.25,24.18|Z|KarazhanScenario|NC|N|Pick up the Scythe of Elune.|ACTIVE|40838|
 T The Dark Riders|QID|40838|M|68.25,27.20|Z|KarazhanScenario|N|To Revil Kost.|
 A The Burden Borne|QID|40900|M|68.25,27.20|Z|KarazhanScenario|N|From Revil Kost.|PRE|40838|
-C The Burden Borne|QID|40900|NC|M|45.32,24.77|Z|KarazhanScenario|N|Use Dreamwalk (Teleport spell) then run thru the portal in front of you.|
+C The Burden Borne|ACTIVE|40900|NC|M|45.32,24.77|Z|KarazhanScenario|N|NOTE: BUG... you cant use Dreamwalk inside karazan currently, hearth or run out, then use Dreamwalk (Teleport spell) then run thru the portal in front of you.|
 T The Burden Borne|QID|40900|M|44.46,51.20|N|To Rensar Greathoof.|
 ;FERAL
 ;A The Shrine of Ashamane|QID|42428|M|44.42,51.13|N|From Rensar Greathoof.|PRE|40646|
-f TheDreamgrove|QID|42428|M|61.70,33.74|N|at Danise Stargazer.|ACTIVE|42428|
-F The Shrine of Ashamane|QID|42428|QO|1|M|61.70,33.74|N|This is a chat (free) option.|ACTIVE|42428|
+f The Dreamgrove|ACTIVE|42428|M|61.70,33.74|N|at Danise Stargazer.|
+F The Shrine of Ashamane|ACTIVE|42428|QO|1|M|61.70,33.74|N|This is a chat (free) option.|
 T The Shrine of Ashamane|QID|42428|M|70.38,46.68|Z|Val'sharah|N|To Delandros Shimmermoon.|
 A Aid for the Ashen|QID|42439|M|70.38,46.68|Z|Val'sharah|N|From Delandros Shimmermoon.|PRE|42428|
 A Seeds of Renewal|QID|42438|M|70.38,46.68|Z|Val'sharah|N|From Delandros Shimmermoon.|PRE|42428|
@@ -356,26 +356,26 @@ A The Fangs of Ashamane|QID|42430|M|73.84,38.44|Z|Val'sharah|N|From Delandros Sh
 C The Fangs of Ashamane|QID|42430|NC|QO|1|M|73.75,38.39|Z|Val'sharah|N|What, a druid using a mount.../sigh.|
 C On the Prowl|QID|42430|SO|1|M|20.33,40.45|Z|Suramar|N|You've come to the ruins of Falanaar in search of Verstok and the Fangs of Ashamane. Search for clues as to where Verstok has disappeared to.|S|
 C Doorway Opened|QID|42430|SO|2;1|M|21.85,37.24;22.83,36.11|CN|Z|Suramar|N|Click the switches at these locations. (Be aware of the mobs that see stealth), then follow the scent to the doorway which will now be open.|
-C Follow Verstok's trail into the temple depths|QID|42430|SO|3;1|M|22.38,30.93|Z|Suramar|N|Follow Verstok's trail into the temple depths. Jump (vehicle style arrow) on the platform near the blocked gate to jump over the gate.|
-C Defeat Verstok|QID|42430|SO|4;1|M|22.18,30.04|Z|Suramar|N|Defeat Verstok or at least try for awhile.|
-C Chase after Verstok|QID|42430|SO|5;1|M|42.17,33.8;33.64,72.57|CS|Z|Suramar/1|N|Work your way deeper into the Shattered Locus.|
-C In a Tangled Web|QID|42430|SO|6;1|M|53.35,17.48|Z|Suramar/2|N|Slay the Webmistress.|T|Webmistress Shanaris|
-C Retrieve the Fangs of Ashamane|QID|42430|SO|7;1|M|54.72,20.47|Z|Suramar/2|N|Retrieve the Fangs of Ashamane.|
-C To the Grove|QID|42430|SO|8;1|M|54.76,19.47|Z|Suramar/2|N|Hop on Ebonfang to return to the Dreamgrove.|
+C Follow Verstok's trail into the temple depths|QID|42430|SO|3;1|M|22.38,30.93|Z|Falanaar Tunnels@Shattered Locus|V|N|Follow Verstok's trail into the temple depths. Jump (vehicle style arrow) on the platform near the blocked gate to jump over the gate.|;may not be correct Z
+C Defeat Verstok|QID|42430|SO|4;1|M|22.18,30.04|Z|Falanaar Tunnels@Shattered Locus|N|Defeat Verstok or at least try for awhile.|
+C Chase after Verstok|QID|42430|SO|5;1|M|42.17,33.8;33.64,72.57|CS|Z|Falanaar Tunnels@Shattered Locus|N|Work your way deeper into the Shattered Locus.|;need correct Z
+C In a Tangled Web|QID|42430|SO|6;1|M|53.35,17.48|Z|Falanaar Tunnels@Shattered Locus|N|Slay the Webmistress.|T|Webmistress Shanaris|;need correct Z
+C Retrieve the Fangs of Ashamane|QID|42430|SO|7;1|M|54.72,20.47|Z|Falanaar Tunnels@Shattered Locus|N|Retrieve the Fangs of Ashamane.|;need correct Z
+C To the Grove|QID|42430|SO|8;1|M|54.76,19.47|Z|Falanaar Tunnels@Shattered Locus|N|Hop on Ebonfang to return to the Dreamgrove.|;need correct Z
 T The Fangs of Ashamane|QID|42430|M|44.49,51.10|N|To Rensar Greathoof.|
 ;GUARDIAN
 ;A Mistress of the Claw|QID|41468|M|44.53,51.10|N|From Rensar Greathoof.|PRE|40646|
 T Mistress of the Claw|QID|41468|CS|M|46.88,29.22;39.66,0.01|N|Enter the Barrow Den and follow it's twisty course to find Lea Stonepaw.|
 A To The Hills|QID|41782|M|39.50,0.07|N|From Lea Stonepaw.|PRE|41468|
 C To The Hills|QID|41782|NC|QO|1|M|35.71,25.60|N|Click on the flasks at the edge of this moonwell outside the barrow.|
-P Emerald Dreamway|QID|41782|CC|M|55.27,22.93|N|Run to Emerald Dreamway Portal|ACTIVE|41782|
-P Vordrasil|QID|41782|CC|M|32.14,27.66|Z|EmeraldDreamway|N|Run to the Vordrassil portal.|ACTIVE|41782|
+P Emerald Dreamway|ACTIVE|41782|CC|M|55.27,22.93|N|Run to Emerald Dreamway Portal|
+P Vordrasil|ACTIVE|41782|CC|M|32.14,27.66|Z|EmeraldDreamway|N|Run to the Vordrassil portal.|
 C To The Hills|QID|41782|NC|CS|QO|3|M|50.31,40.26;51.05,37.03|Z|Grizzly Hills|N|Go down inside Grizzlemaw and take the tunnel to find Lea.|
 T To The Hills|QID|41782|M|51.29,36.81|Z|Grizzly Hills|N|To Lea Stonepaw.|
-A Fallen Offerings|QID|41783|M|51.29,36.81|Z|Grizzly Hills|N|From Lea Stonepaw.|PRE|41782|
-U Fallen Offerings|QID|41783|QO|1|M|50.99,48.32|Z|Grizzly Hills|U|136359|N|Click on the 'Fallen Shamans' lying around to pick up pouches. Open the pouches until you get 3 offerings.|
-T Fallen Offerings|QID|41783|M|51.29,36.82|Z|Grizzly Hills|N|To Lea Stonepaw.|
-A The First Trial of Ursol|QID|41790|M|50.52,37.60|Z|Grizzly Hills|N|From Ursol.|PRE|41783|
+;A Fallen Offerings|QID|41783|M|51.29,36.81|Z|Grizzly Hills|N|From Lea Stonepaw.|PRE|41782| -- seems to be deprecated?
+;U Fallen Offerings|QID|41783|QO|1|M|50.99,48.32|Z|Grizzly Hills|U|136359|N|Click on the 'Fallen Shamans' lying around to pick up pouches. Open the pouches until you get 3 offerings.|
+;T Fallen Offerings|QID|41783|M|51.29,36.82|Z|Grizzly Hills|N|To Lea Stonepaw.|
+A The First Trial of Ursol|QID|41790|M|50.52,37.60|Z|Grizzly Hills|N|From Ursol.|PRE|41782|
 C The First Trial of Ursol|QID|41790|M|50.63,37.43|Z|Grizzly Hills|N|Overcome Ursol's first trial.|
 T The First Trial of Ursol|QID|41790|M|50.50,37.58|Z|Grizzly Hills|N|To Ursol.|
 A The Second Trial of Ursol|QID|41791|M|50.50,37.58|Z|Grizzly Hills|N|From Ursol.|PRE|41790|
@@ -409,26 +409,26 @@ T Necessary Preparations|QID|41422|M|52.19,52.91|N|To Mylune.|
 A Join the Dreamer|QID|41449|M|52.19,52.91|N|From Mylune.|PRE|41422|
 T Join the Dreamer|QID|41449|M|48.11,41.25;46.40,28.31;41.87,0.00|CS|N|To Naralex. Tel'Andu Barrow entrance beside the creek.|
 A In Deep Slumber|QID|41436|M|41.87,0.00|N|From Naralex.|PRE|41449|
-C In Deep Slumber|QID|41436|NC|U|135506|QO|1|M|40.87,0.00|N|Stand on Naralex's bed and drink the cup of moonwater to enter the Emerald Dream|
-C In Deep Slumber|QID|41436|NC|QO|2|M|44.94,51.08|N|Use stealth to quickly travel to the outside, avoid the red ground "fog". Use 'Nature's Cure' (spell) to clear the roots from around Bashana Runetotem, then she will clear the roots blocking your way. Healing yourself will temporarily reverse the red bar. You need to make it to the tree before the bar fills up. Pick up the glowing staff.|
+C In Deep Slumber|QID|41436|NC|U|135506|QO|1|M|40.87,0.00|N|Stand on Naralex's bed and drink the cup of moonwater to enter the Emerald Dream|EAB|
+C In Deep Slumber|QID|41436|NC|QO|2|M|44.94,51.08|N|Use stealth to quickly travel to the outside, avoid the red ground "fog". Healing yourself will temporarily reverse the red bar. You need to make it to the tree before the bar fills up. Use 'Nature's Cure' (spell) (or just click on Bashana) to clear the roots from around Bashana Runetotem, then she will clear the roots blocking your way. Continue up to the tree, avoiding mobs if possible, Pick up the glowing staff.|EAB|
 T In Deep Slumber|QID|41436|M|41.87,0.00|N|To Naralex.|
 A Reconvene|QID|41690|M|41.87,0.00|N|From Naralex.|PRE|41436|
 T Reconvene|QID|41690|M|45.18,51.72|N|To Lyessa Bloomwatcher, who is back outside where you found G'Hanir.|
 A Cleansing the Mother Tree|QID|41689|M|45.26,51.85|N|From Lyessa Bloomwatcher.|PRE|41690|
 C Cleansing the Mother Tree|QID|41689|NC|QO|1|M|55.46,22.43|N|Use the portal to enter the Dreamway.|
 C Cleansing the Mother Tree|QID|41689|NC|QO|2|M|53,53|Z|EmeraldDreamway|N|Use the Mount Hyjal portal to travel to Nordrassil.|
-C The Legion's Devastation|QID|41689|SO|1;1|M|55.74,29.9|Z|Mount Hyjal|CHAT|N|Speak to Skylord Omnuron.|
-C Cleanse Zen'tabra|QID|41689|SO|2;3|M|60.69,24.51|Z|Mount Hyjal|NC|N|Use Nature's Cure to Cleanse Zen'tabra.|
-C Heal Hamuul to full health|QID|41689|SO|2;1|M|61.57,26.09|Z|Mount Hyjal|NC|N|Heal Hamuul to full health.|
-C Heal Celestine to full health|QID|41689|SO|2;2|M|60.66,26.96|Z|Mount Hyjal|NC|N|Heal Celestine to full health.|
-C Speak to Lyessa|QID|41689|SO|3;1|M|60.82,25.72|Z|Mount Hyjal|CHAT|N|Speak to Lyessa.|
-C Protect Lyessa and her allies|QID|41689|SO|4;1|M|61.21,26.36|Z|Mount Hyjal|N|You are their healer, Protect Lyessa and her allies.|
-C Lyessa Must Survive|QID|41689|SO|4;2|M|61.21,26.36|Z|Mount Hyjal|N|Lyessa is in no danger.|
-C Give Corrupted G'Hanir to Lyessa|QID|41689|SO|5;1|M|60.55,25.48|Z|Mount Hyjal|NC|N|Click on Lyessa to give Corrupted G'Hanir to Lyessa.|
-C Witness G'Hanir's rebirth|QID|41689|SO|5;2|M|61.19,26.08|Z|Mount Hyjal|N|Use the button provided in your questlog to witness G'Hanir's rebirth.|
-C G'Hanir Reborn|QID|41689|SO|6;1|Z|Mount Hyjal|N|Pick up the staff.|
-P Mt. Hygal Portal|QID|41689|M|55.74,29.9|Z|Mount Hyjal|N|Run back to the Emerald Dreamway|CC|ACTIVE|41689|
-P The Dreamway Portal|QID|41689|M|45.31,24.43|Z|EmeraldDreamway|N|Run through the portal.|CC|ACTIVE|41689|
+C The Legion's Devastation|ACTIVE|41689|SO|1;1|M|55.74,29.9|Z|Mount Hyjal|CHAT|N|Speak to Skylord Omnuron.|
+C Cleanse Zen'tabra|ACTIVE|41689|SO|2;3|M|60.69,24.51|Z|Mount Hyjal|NC|N|Use Nature's Cure to Cleanse Zen'tabra.|EAB|
+C Heal Hamuul to full health|ACTIVE|41689|SO|2;1|M|61.57,26.09|Z|Mount Hyjal|NC|N|Heal Hamuul to full health.|
+C Heal Celestine to full health|ACTIVE|41689|SO|2;2|M|60.66,26.96|Z|Mount Hyjal|NC|N|Heal Celestine to full health.|
+C Speak to Lyessa|ACTIVE|41689|SO|3;1|M|60.82,25.72|Z|Mount Hyjal|CHAT|N|Tell Lyessa you are ready.|
+C Protect Lyessa and her allies|ACTIVE|41689|SO|4;1|M|61.21,26.36|Z|Mount Hyjal|N|You are their healer, Protect Lyessa and her allies.|
+C Lyessa Must Survive|ACTIVE|41689|SO|4;2|M|61.21,26.36|Z|Mount Hyjal|N|Lyessa is in no danger.|
+C Give Corrupted G'Hanir to Lyessa|ACTIVE|41689|SO|5;1|M|60.55,25.48|Z|Mount Hyjal|NC|N|Click on Lyessa to give Corrupted G'Hanir to Lyessa.|
+C Witness G'Hanir's rebirth|ACTIVE|41689|SO|5;2|M|61.19,26.08|Z|Mount Hyjal|N|Use the button provided in your questlog to witness G'Hanir's rebirth.|EAB|
+C G'Hanir Reborn|ACTIVE|41689|SO|6;1|Z|Mount Hyjal|N|Pick up the staff.|
+P Mt. Hyjal Portal|ACTIVE|41689|M|55.74,29.9|Z|Mount Hyjal|N|Run back to the Emerald Dreamway|IZ|Nordrassil|
+P The Dreamway Portal|ACTIVE|41689|M|45.31,24.43|Z|EmeraldDreamway|N|Run through the portal.|IZ|Emerald Dreamway|
 T Cleansing the Mother Tree|QID|41689|M|45.18,51.85|N|To Lyessa Bloomwatcher.|
 ;Druid Class Hall
 A Sowing The Seed|QID|41255|QO|1|M|44.50,51.10|N|From Rensar Greathoof.|PRE|40900^42430^41918^41689|
