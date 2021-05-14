@@ -3,7 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Draenai: Intro")
 WoWPro:GuideName(guide,"Draenai: Intro")
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Darkshore')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Bloodmyst')
 WoWPro:GuideSteps(guide, function()
 return [[
 R Note:|R|Human, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
