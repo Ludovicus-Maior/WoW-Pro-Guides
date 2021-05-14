@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('BC-BloodElf', 'Leveling', 'Sunstrider Isle (Blood Elf)', 'Kraevac', 'Horde', 2)
+local guide = WoWPro:RegisterGuide('BC-BloodElf', 'Leveling', 'Eversong Woods', 'Kraevac', 'Horde', 2)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Blood Elf: Intro")
@@ -6,51 +6,109 @@ WoWPro:GuideName(guide,"Blood Elf: Intro")
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Silverpine_Forest')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Reclaiming Sunstrider Isle|QID|8325|M|60.95,45.22|N|From Magistrix Erona.|R|BloodElf|
-K Reclaiming Sunstrider Isle|ACTIVE|8325|M|51.01,41.96|QO|1|N|Slay Mana Wyrms.|R|BloodElf|
-T Reclaiming Sunstrider Isle|QID|8325|M|61.04,45.13|N|To Magistrix Erona.|R|BloodElf|
-A Unfortunate Measures|QID|8326|M|61.04,45.13|N|From Magistrix Erona.|PRE|8325|R|BloodElf|
-l Unfortunate Measures|ACTIVE|8326|M|67.18,32.63|QO|1|N|Slay and loot Lynx for collars.|R|BloodElf|
-T Unfortunate Measures|QID|8326|M|61.12,45.11|N|To Magistrix Erona.|R|BloodElf|
-A Report to Lanthan Perilon|QID|8327|M|61.12,45.11|N|From Magistrix Erona.|PRE|8326|R|BloodElf|
-A Solanian's Belongings|QID|37443|M|63.96,42.84|N|From Well Watcher Solanian, inside the building and up the ramp.|R|BloodElf|
-A The Shrine of Dath'Remar|QID|37442|M|63.96,42.84|N|From Well Watcher Solanian.|R|BloodElf|
-A A Fistful of Slivers|QID|37440|M|61.84,39.35|N|From Arcanist Ithanas.|R|BloodElf|
-r Repair and restock|AVAILABLE|37439|M|58.33,39.03|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|S|R|BloodElf|
-A Thirst Unending|QID|37439|M|58.45,38.79|N|From Arcanist Helion.|R|BloodElf|
-r Repair and restock|AVAILABLE|37439|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|US|R|BloodElf|
-C A Fistful of Slivers|QID|37440|M|48.18,39.43|QO|1|N|Slay Mana Wyrms and loot them for the Arcane Slivers.|S|R|BloodElf|
-C Thirst Unending|QID|37439|M|54.14,39.28|QO|1|N|Use Arcane Torrent on a Mana Wyrm and then slay it. Must be within 8 yds for Arcane Torrent to be used.|R|BloodElf|
-C A Fistful of Slivers|QID|37440|M|48.18,39.43|QO|1|N|Slay Mana Wyrms and loot them for the Arcane Slivers.|US|R|BloodElf|
-C The Shrine of Dath'Remar|QID|37442|M|35.31,40.27|QO|1|NC|N|Click on the glowing part of the shrine.|R|BloodElf|
-C Solanian's Belongings|QID|37443|NC|M|40.42,50.27|QO|2|R|BloodElf|
-T Report to Lanthan Perilon|QID|8327|M|52.75,49.81|N|To Lanthan Perilon.|R|BloodElf|
-A Aggression|QID|8334|PRE|8326|M|52.75,49.81|N|From Lanthan Perilon.|R|BloodElf|
-C Aggression|QID|8334|M|51.07,70.48|S|R|BloodElf|
-C Solanian's Belongings|QID|37443|M|52.15,69.59|NC|QO|1|R|BloodElf|
-C Aggression|QID|8334|M|51.07,70.48|US|R|BloodElf|
-C Solanian's Belongings|QID|37443|M|59.88,57.05|NC|QO|3|R|BloodElf|
-T The Shrine of Dath'Remar|QID|37442|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
-T Solanian's Belongings|QID|37443|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
-T A Fistful of Slivers|QID|37440|M|61.65,39.43|N|To Arcanist Ithanas.|R|BloodElf|
-r Repair and restock|ACTIVE|37439|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|S|R|BloodElf|
-T Thirst Unending|QID|37439|M|58.54,38.90|N|To Arcanist Helion.|R|BloodElf|
-r Repair and restock|ACTIVE|37439|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|US|R|BloodElf|
-T Aggression|QID|8334|PRE|8326|M|52.89,49.70|N|To Lanthan Perilon.|R|BloodElf|
-A Felendren the Banished|QID|8335|PRE|8334|M|52.95,49.59|N|From Lanthan Perilon.|R|BloodElf|
-A Tainted Arcane Sliver|QID|8338|M|41.81,71.03|N|From Tainted Arcane Wraith.Go up the ramp and kill the Tainted Arcane Wraith to receive this quest. Kill Arcane Wraiths as you progress.|R|BloodElf|
-C Felendren the Banished|QID|8335|M|38.27,73.41|N|Slay Arcane and Tainted Arcane Wraiths as you head up the ramps to slay Felendren.|S|R|BloodElf|
-K Felendren|ACTIVE|8335|QO|3|M|38.87,64.08|T|Felendren the Banished|R|BloodElf|
-C Felendren the Banished|QID|8335|M|38.27,73.41|N|Finish killing Arcane and Tainted Arcane Wraiths.|US|R|BloodElf|
-T Felendren the Banished|QID|8335|M|52.77,49.63|N|To Lanthan Perilon.|R|BloodElf|
-A Aiding the Outrunners|QID|8347|PRE|8335|LEAD|9704|M|52.77,49.63|N|From Lanthan Perilon.|R|BloodElf|
-T Tainted Arcane Sliver|QID|8338|M|58.56,38.75|N|To Arcanist Helion.|R|BloodElf|
-T Aiding the Outrunners|QID|8347|M|40.43,32.16|Z|Eversong Woods|N|To Outrunner Alarion.|R|BloodElf|
+; Sunstrider Isle starting zone is for BloodElf's only.
+A Reclaiming Sunstrider Isle|QID|8325|R|BloodElf|N|From Magistrix Erona.|M|38.0,21.0|
+C Mana Wyrm |QID|8325|R|BloodElf|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|M|37.60,22.00|
+T Reclaiming Sunstrider Isle |QID|8325|R|BloodElf|N|To Magistrix Erona.|M|38.0,21.0|
+; L Level 2|LVL|2|N|Kill mana wyrms until you ding.|QID|8326|
+A Unfortunate Measures|QID|8326|R|BloodElf|M|60.98,45.11|N|From Magistrix Erona.|
+A The Shrine of Dath'Remar|QID|8345|R|BloodElf|M|63.97,42.83|N|From Well Watcher Solanian, inside the building and up the ramp.|
+A Solanian's Belongings|QID|8330|R|BloodElf|M|63.97,42.83|N|From Well Watcher Solanian.|
+A A Fistful of Slivers |QID|8336|R|BloodElf|N|From Arcanist Ithanas, go outside via the balcony, then jump down to your left.|M|38.3,19.1|
+A Thirst Unending|QID|8346|R|BloodElf|N|From Arcanist Helion. Go through the gazeebo in front of you.|M|37.2,18.9|
+
+R Empty your bags|QID|8346|R|BloodElf|N|You may want to empty your bags before venturing further. \nSell unwanted items to Jainthess Thelryn beside you.|
+
+C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill and loot Springpaw Lynxs and Cubs for the Lynx collars.|M|54.82,54.34|S|
+C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent, Arcane Torrent, when you are within 8 yards of a Mana Wyrm. |M|59.44,54.04|S|
+C Solonaian's Journal |QID|8330|R|BloodElf|N|Get Solonaian's Journal, near the big green crystal. |M|60.06,57.11|NC|QO|Solanian's Journal: 1/1|
+C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent, Arcane Torrent, on a Mana Wyrm. |M|59.44,54.04|US|
+C Unfortunate Measures |QID|8326|R|BloodElf|N|Finish killing and looting Springpaw Lynxs and Cubs for the Lynx collars. |M|54.82,54.34|US|
+T Thirst Unending |QID|8346|R|BloodElf|N|To Arcanist Helion.|M|37.20,18.95|
+R Empty your bags|QID|8326|R|BloodElf|N|You may want to empty your bags before venturing further. \nSell unwanted items to Jainthess Thelryn beside you.|
+T Unfortunate Measures |QID|8326|R|BloodElf|M|60.98,45.11|N|To Magistrix Erona.|
+
+L Level 3|LVL|3|N|You need to be Level 3 to continue this guide.|QID|8327|R|BloodElf|
+
+A Report to Lanthan Perilon |QID|8327|R|BloodElf|M|61.59,44.49|N|From Magistrix Erona.|
+A Warrior Training |QID|8329|R|BloodElf|C|Warrior|N|From Magistrix Erona.|M|38.0,21.0|
+A Hunter Training |QID|9393|R|BloodElf|C|Hunter|N|From Fagistrix Erona.|M|38.0,21.0|
+A Mage Training |QID|8328|R|BloodElf|C|Mage|N|From Magistrix Erona.|M|38.0,21.0|
+A Paladin Training |QID|9676|R|BloodElf|C|Paladin|N|From Magistrix Erona.|M|38.0,21.0|
+A Priest Training |QID|8564|R|BloodElf|C|Priest|N|From Magistrix Eron.a|M|38.0,21.0|
+A Rogue Training |QID|9392|R|BloodElf|C|Rogue|N|From Magistrix Erona.|M|38.0,21.0|
+A Warlock Training |QID|8563|R|BloodElf|C|Warlock|N|From Magistrix Erona.|M|38.0,21.0|
+A Monk Training |QID|31170|R|BloodElf|C|Monk|N|From Magistrix Erona.|M|38,21|
+T Warrior Training |QID|8329|R|BloodElf|C|Warrior|N|To Delios Silverblade.|M|39.29,20.10|
+T Hunter Training |QID|9393|R|BloodElf|C|Hunter|N|To Ranger Sallina.|M|39.0,20.0|
+T Mage Training |QID|8328|R|BloodElf|C|Mage|N|To Julia Sunstriker.|M|39.2,21.5|
+T Paladin Training |QID|9676|R|BloodElf|C|Paladin|N|To Jesthenis Sunstriker.|M|39.5,20.6|
+T Priest Training |QID|8564|R|BloodElf|C|Priest|N|To Matron Arena.|M|39.4,20.4|
+T Rogue Training |QID|9392|R|BloodElf|C|Rogue|N|To Pathstalker Kariel.|M|38.9,20.0|
+T Warlock Training |QID|8563|R|BloodElf|C|Warlock|N|Summoner Teli'Larien.|M|38.9,21.4|
+T Monk Training |QID|31170|R|BloodElf|C|Monk|N|To Pao.|M|38.79,20.20|
+
+A Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|From Pao.|M|38.79,20.20|
+C Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|Learn Tiger Palm from Pao. Locate a Training Dummy outside the Sunspire and practice using Tiger Palm.|M|38.33,20.64|
+T Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|To Pao.|M|38.79,20.20|
+A Charge!|QID|27091|M|64.98,42.34|R|BloodElf|C|Warrior|N|From Delios Silverblade.|
+C Charge!|QID|27091|M|62.00,44.00||R|BloodElf|C|Warrior|N|Learn charge from your trainer and Charge the target dummy.|
+T Charge!|QID|27091|M|64.98,42.34|R|BloodElf|C|Warrior|N|To Delios Silverblade.|
+A Steady Shot|QID|10070|R|BloodElf|M|64.06,42.03|C|Hunter|N|From Ranger Sallina.|
+C Steady Shot|QID|10070|R|BloodElf|M|62.00,44.00|C|Hunter|N|Learn Steady Shot from Ranger Sallina. Locate a Training Dummy outside the Sunspire and practice using Steady Shot 5 times.|
+T Steady Shot|QID|10070|R|BloodElf|M|64.06,42.03|C|Hunter|N|To Ranger Sallina.|
+A Arcane Missiles|QID|10068|R|BloodElf|M|64.67,46.65|C|Mage|N|From Julia Sunstriker.|
+C Arcane Missiles|QID|10068|R|BloodElf|M|62.00,44.00|C|Mage|N|Learn Arcane Missiles from Julia Sunstriker. Locate a Training Dummy outside the Sunspire and practice using Arcane Missiles 2 times.|
+T Arcane Missiles|QID|10068|R|BloodElf|M|64.67,46.65|C|Mage|N|To Julia Sunstriker.|
+A Ways of the Light|QID|10069|R|BloodElf|M|65.60,43.88|C|Paladin|N|From Jesthenis Sunstriker.|
+C Ways of the Light|QID|10069|R|BloodElf|M|62.00,44.00|C|Paladin|N|Learn Judgement and Seal of Righteousness from Jesthenis Sunstriker. Cast Seal of Righteousness on yourself, then locate a Training Dummy outside the Sunspire and use Judgement.|
+T Ways of the Light|QID|10069|R|BloodElf|M|65.60,43.88|C|Paladin|N|To Jesthenis Sunstriker.|
+A Evisceration|QID|10071|R|BloodElf|M|63.75,42.03|C|Rogue|N|From Pathstalker Kariel.|
+C Evisceration|QID|10071|R|BloodElf|M|62.00,44.00|C|Rogue|N|Learn Eviscerate from Pathstalker Kariel. Locate a Training Dummy outside the Sunspire and practice using Eviscerate 3 times. |
+T Evisceration|QID|10071|R|BloodElf|M|63.75,42.03|C|Rogue|N|To Pathstalker Kariel.|
+A Learning the Word|QID|10072|R|BloodElf|M|65.29,43.26|C|Priest|N|From Matron Arena.|
+C Learning the Word|QID|10072|R|BloodElf|M|134.64,115.87|Z|Sunstrider Isle|C|Priest|N|Locate a Training Dummy outside the Sunspire and practice using Shadow Word: Pain 5 times.|
+T Learning the Word|QID|10072|R|BloodElf|M|65.29,43.26|C|Priest|N|To Matron Arena|
+A Immolation|QID|10073|R|BloodElf|M|63.75,46.34|C|Warlock|N|From Summoner Teli'Larien|
+C Immolation|QID|10073|R|BloodElf|M|62.00,44.00|C|Warlock|N|Learn Immolate from Summoner Teli'Larien. Locate a Training Dummy outside the Sunspire and practice casting Immolate 5 times. |
+T Immolation|QID|10073|R|BloodElf|M|63.75,46.34|C|Warlock|N|To Summoner Teli'Larien|
+T Report to Lanthan Perilon |QID|8327|R|BloodElf|N|To Lanthan Perilon.|M|35.4,22.5|
+
+A Aggression |QID|8334|R|BloodElf|N|From Lanthan Perilon.|M|35.4,22.5|
+C A Fistful of Slivers |QID|8336|R|BloodElf|N|As you kill the Feral Tenders, loot the Arcane Slivers from them.|M|59.44,54.04|S|
+C Aggression |QID|8334|R|BloodElf|S|N|Kill any Tender and Feral Tender you see.|
+C Solanian's Scrying Orb |QID|8330|R|BloodElf|N|Get Solonaian's Scrying Orb from the lake's platform, to the south of Sunstrider Isle. |M|52.15,69.46|QO|Solanian's Scrying Orb: 1/1|NC|
+C Solanian's Belongings|QID|8330|R|BloodElf|N|Get the Scroll of Scourge Magic, which is northwest.|M|40.48,50.50|NC|QO|Scroll of Scourge Magic: 1/1|
+C The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|Go to the far north-west of the island until you reach the Shrine of Dath'Remar. Click on it to read the plaque.|M|35.43,40.49|NC|
+C Aggression |QID|8334|R|BloodElf|US|N|Finish killing the Feral Tenders and Tenders you need.|
+C A Fistful of Slivers |QID|8336|R|BloodElf|N|As you head back to the Sunspire, finish collecting the Slivers from the Mana Wyrms and Feral Tenders|M|59.44,54.04|US|
+T The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|To Well Watcher Solanian, inside The Sunspire, up the ramp.|M|38.96,20.27|
+T Solanian's Belongings |QID|8330|R|BloodElf|N|To Well Watcher Solanian.|M|38.96,20.27|
+T A Fistful of Slivers |QID|8336|R|BloodElf|N|To Arcanist Ithanas.|M|38.3,19.1|
+T Aggression |QID|8334|R|BloodElf|M|52.98,49.73|N|To Lanthan Perilon.|
+
+A Felendren the Banished |QID|8335|R|BloodElf|N|From Lanthan Perilon.|M|35.4,22.5|
+C Felendren the Banished |QID|8335|R|BloodElf|N|Kill Arcane Wraiths|M|39.03,63.98|S|QO|Arcane Wraith slain: 8/8|
+l Tainted Arcane Sliver|S|QID|8338|L|20483|R|BloodElf|N|Kill and loot a Tainted Arcane Wraith, it will drop a Tainted Arcane Sliver.|
+K Felendren the Banished |QID|8335|R|BloodElf|N|Go up the ramp and to the top of Falthrien Academy. At the first waypoint there will be two paths to choose, both will merge further on, so either can be taken. At the top, kill Felendren and loot his head.|M|41.56,61.85;38.05,66.35|L|20799|CC|
+l Tainted Arcane Sliver|US|QID|8338|L|20483|R|BloodElf|N|Kill and loot the Tainted Arcane Wraiths until they drop the Tainted Arcane Sliver.|
+A Tainted Arcane Sliver |QID|8338|R|BloodElf|U|20483|N|The Tainted Arcane Sliver starts a quest - click it and accept the quest.|
+C Felendren the Banished |QID|8335|R|BloodElf|N|Kill another Tainted Arcane Wraith|M|39.03,63.98|QO|Tainted Arcane Wraith slain: 2/2|
+C Felendren the Banished |QID|8335|R|BloodElf|N|Finish killing the Arcane Wraiths|M|39.03,63.98|US|QO|Arcane Wraith slain: 8/8|
+H Sunstrider Isle|QID|8338|U|6948|R|BloodElf|N|Hearthstone back to the starting point, or run back.|M|37.75,21.10|
+T Tainted Arcane Sliver |QID|8338|R|BloodElf|N|To Arcanist Helion.|M|37.2,18.9|
+r Repair/Sell|QID|8335|R|BloodElf|M|58.46,38.95|N|Good opportunity to sell unwanted loot with Jainthess Thelryn.\nClose this step to continue.|RANK|3|
+T Felendren the Banished |QID|8335|R|BloodElf|N|To Lanthan Perilon.|M|35.4,22.5|
+
+L Level 4|QID|8347|LVL|4|N|You need to be Level 4 to continue this guide.|R|BloodElf|
+
+A Aiding the Outrunners |QID|8347|R|BloodElf|N|From Lanthan Perilon.|M|35.4,22.5|
+T Aiding the Outrunners |QID|8347|R|BloodElf|N|To Outrunner Alarion.|M|40.4,32.2|
+A Slain by the Wretched |QID|9704|N|From Outrunner Alarion.|M|68.37,79.58|R|BloodElf|
 ;The guide continues at this point for all races
 R Eversong Woods|QID|9704|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|M|56.95,49.60|Z|Eversong Woods|
-A Slain by the Wretched|QID|9704|Z|Eversong Woods|M|40.4,32.2|N|First quest after Sunstrider Isle starting zone is from Outrunner Alarion. Run north-west along the road (Dawning Lane). \n\nIf you want the achievement Explore Eversong Woods as well, run past Outrunner Alarion, cross the bridge into Sunstrider Isle, then head back to Outrunner Alarion once you've "discovered" Sunstrider Isle.|
 F Falconwing Square|QID|9704|Z|Eversong Woods|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
-T Slain by the Wretched|QID|9704|N|To Slain Outrunner.|Z|Eversong Woods|M|42.0,35.7|
+T Slain by the Wretched|QID|9704|N|To Slain Outrunner.|Z|Eversong Woods|M|42.0,35.7|R|BloodElf|
 A Package Recovery |QID|9705|PRE|9704|N|From Slain Outrunner.|Z|Eversong Woods|M|42.0,35.7|
 T Package Recovery |QID|9705|N|To Outrunner Alarion.|Z|Eversong Woods|M|40.4,32.2|
 A Completing the Delivery|QID|8350|PRE|9705|N|From Outrunner Alarion.|Z|Eversong Woods|M|40.4,32.2|
