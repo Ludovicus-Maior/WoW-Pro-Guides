@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide("CLASSIC_BC_Ghostlands", "Leveling", "Ghostlands", "Snowflake,Spoony", "Horde", 2)
 WoWPro:GuideSort(guide, 26)
 WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Silverpine_Forest")
+WoWPro:GuideLevels(guide, 10, 20)
 WoWPro:GuideSteps(guide, function()
 return [[
 R Fairbreeze Village |QID|9144|M|44.06,70.73|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\n\nThere will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|Z|Eversong Woods|
