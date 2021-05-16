@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("CLASSIC_BC_Bloodmyst", "Leveling", "Bloodmyst Isle", "Sven", "Alliance", 2)
+local guide = WoWPro:RegisterGuide("CLASSIC_BC_Bloodmyst", "Leveling", "Bloodmyst Isle", "WowPro Team", "Alliance", 2)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Darkshore')
 WoWPro:GuideLevels(guide, 10, 20)
@@ -9,10 +9,12 @@ T Elekks Are Serious Business |QID|9625|M|63.1,88.0|O|N|To Vorkhan the Elekk Her
 T Hero's Call: Bloodmyst Isle! |QID|28559|M|63.1,88.0|O|N|To Vorkhan the Elekk Herder.|
 A Alien Predators |QID|9634|M|63.1,88.0|N|From Vorkhan the Elekk Herder.|
 A A Favorite Treat |QID|9624|M|63.4,88.8|N|From Aonar.|
+C Redemption|QID|9600|M|65.30,77.56|C|Paladin|R|Draenei|U|6866|
 A The Kessel Run |QID|9663|M|63.0,87.5|N|From Kessel.  Please note this quest is timed (15 minutes).  You will receive a mount, note that you can't resummon it if you get dismounted, so stay out of caves, water and buildings. Although you can do it without the elekk, it will take substantially longer.|
 C The Kessel Run|QID|9663|QO|1|N|Warn High Chief Stillpine outside Stillpine Hold. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|Z|Azuremyst Isle|M|46.7,20.8|
 C The Kessel Run|QID|9663|QO|2|N|Warn Exarch Menelaous in Azure Watch. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|Z|Azuremyst Isle|M|47.2,50.6|
 C The Kessel Run|QID|9663|QO|3|N|Warn Admiral Odyseus at Odesyus' Landing. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|Z|Azuremyst Isle|M|47.0,70.2|
+T Redemption|QID|9600|Z|The Exodar|M|38.39,82.52|N|From Jol.|C|Paladin|R|Draenei|
 T The Kessel Run |QID|9663|M|62.99,87.52|N|Return to Kessel at Kessel's Crossing.|
 A Declaration of Power |QID|9666|PRE|9663|N|From Kessel.|M|63.0,87.5|
 A Catch and Release |QID|9629|M|53.2,57.7|N|Follow the road north to Blood Watch, then head to Morae.|
