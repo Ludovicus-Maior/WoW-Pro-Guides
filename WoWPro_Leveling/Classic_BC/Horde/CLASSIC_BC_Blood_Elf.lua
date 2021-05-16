@@ -36,11 +36,13 @@ A A Fistful of Slivers|QID|8336|M|38.28,19.13|N|From Arcanist Ithanas, on the pa
 A Thirst Unending|QID|8346|M|37.18,18.95|N|From Arcanist Helion. You can see him on the patio directly opposite from your current position.|R|BloodElf|
 R Empty your bags|ACTIVE|8346|M|37.14,19.03|N|Empty your bags and repair before venturing further.\n[color=FF0000]NOTE: [/color]Jainthess Thelryn, standing beside you, can help you with that.|R|BloodElf|
 
-C Unfortunate Measures|QID|8326|M|54.82,54.34|L|20797 8|N|Kill Springpaw Lynxes and Cubs to collect the Lynx Collars.\n[color=FF0000]NOTE: [/color]Lynxes drop multiples and Cubs only drop one at a time.|R|BloodElf|S|
+C Unfortunate Measures|QID|8326|M|36.22,22.64|L|20797 8|N|Kill Springpaw Lynxes and Cubs to collect the Lynx Collars.|R|BloodElf|S|
 C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Kill Mana Wyrms to collect the Arcane Slivers.\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|S|
-C Thirst Unending|QID|8346|M|35.39,20.24|N|Use Arcane Torrent when you are within 8 yards of a Mana Wyrm.\n[color=FF0000]NOTE: [/color]Arcane Torrent has a 2 minute cooldown.\nThis works on ANY creature that uses mana.|R|BloodElf|
-l Solanian's Belongings|QID|8330|M|60.06,57.11|L|20472|N|Pick up Solanian's Journal, near the big green crystal.|R|BloodElf|
-C Unfortunate Measures|QID|8326|M|54.82,54.34|N|Finish collecting the Lynx collars.|R|BloodElf|US|
+C Thirst Unending|QID|8346|M|35.39,20.24|N|Use Arcane Torrent when you are within 8 yards of a Mana Wyrm.\n[color=FF0000]NOTE: [/color]Arcane Torrent has a 2 minute cooldown.\nThis works on ANY creature that uses mana.|R|BloodElf|S|
+C Solanian's Belongings|QID|8330|M|37.70,24.90|L|20472|N|Pick up Solanian's Journal, near the big green crystal.|R|BloodElf|
+C Unfortunate Measures|QID|8326|M|36.22,22.64|N|Finish collecting the Lynx collars.\n[color=FF0000]NOTE: [/color]If this area is busy, you can find more behind the buildings northeast of you.|R|BloodElf|US|
+C Thirst Unending|QID|8346|M|35.39,20.24|N|Use Arcane Torrent when you are within 8 yards of a Mana Wyrm.\n[color=FF0000]NOTE: [/color]Arcane Torrent has a 2 minute cooldown.\nThis works on ANY creature that uses mana.|R|BloodElf|US|
+C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Kill Mana Wyrms to collect the Arcane Slivers.\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|US|
 
 L Level 3|AVAILABLE|8327|N|You need to be Level 3 to continue this guide.|LVL|3|R|BloodElf|
 T Thirst Unending|QID|8346|M|37.20,18.95|N|To Arcanist Helion.|R|BloodElf|
