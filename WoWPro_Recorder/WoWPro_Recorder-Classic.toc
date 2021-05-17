@@ -1,9 +1,9 @@
-## Interface: 90005
+## Interface: 11307
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Recorder
 ## Notes: Record and edit guides for use with the WoW-Pro Addon
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 9.0.5-A0
+## Version: 1.13.7-E0
 ## SavedVariables: WoWPro_RecorderDB
 ## DefaultState: disabled
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
