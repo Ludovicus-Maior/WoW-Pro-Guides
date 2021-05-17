@@ -1,9 +1,9 @@
-## Interface: 90005
+## Interface: 11307
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Achievements
 ## Notes: World Achievements guides created by the WoW-Pro Community
 ## Author: Twists
 ## Dependencies: WoWPro
-## Version: 9.0.5-A0
+## Version: 1.13.7-E0
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
 WoWPro_Achievements.lua
