@@ -8,6 +8,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 ; Sunstrider Isle starting zone is for BloodElf's only.
 A Reclaiming Sunstrider Isle|QID|8325|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|
+A Windows to the Source|QID|8344|M|38.93,21.44|N|From Summoner Teli'Larien, inside the building.\n[color=FF0000]NOTE: [/color]This is your Summon Imp quest. You can do it on your own now, or wait a bit and do it when the guide takes you to there shortly.|R|BloodElf|C|Warlock|
 K Mana Wyrm|ACTIVE|8325|M|34.84,19.97|QO|1|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|R|BloodElf|
 L Level 2|AVAILABLE|8326|N|You'll want to be within 5 bubbles of level 2 before you return.\nContinue killing Mana Wyrms until you are.|LVL|1;-100|R|BloodElf|
 T Reclaiming Sunstrider Isle|QID|8325|M|38.21,20.83|N|To Magistrix Erona.|R|BloodElf|
@@ -22,14 +23,14 @@ A Hunter Training|QID|9393|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|Bloo
 A Paladin Training|QID|9676|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Paladin|
 T Mage Training|QID|8328|M|39.23,21.45|N|To Julia Sunstriker, inside the building.|R|BloodElf|C|Mage|
 T Warrior Training|QID|8329|M|39.29,20.10|N|To Delios Silverblade, inside the building.|R|BloodElf|C|Warrior|
-T Warlock Training|QID|8563|M|38.93,21.44|N|Summoner Teli'Larien, inside the building.|R|BloodElf|C|Warlock|
+T Warlock Training|QID|8563|M|38.93,21.44|N|To Summoner Teli'Larien, inside the building.|R|BloodElf|C|Warlock|
 T Priest Training|QID|8564|M|39.42,20.38|N|To Matron Arena, inside the building.|R|BloodElf|C|Priest|
 T Rogue Training|QID|9392|M|38.93,20.02|N|To Pathstalker Kariel, inside the building.|R|BloodElf|C|Rogue|
 T Hunter Training|QID|9393|M|39.05,20.01|N|To Ranger Sallina, inside the building.|R|BloodElf|C|Hunter|
 T Paladin Training|QID|9676|M|39.48,20.56|N|To Jesthenis Sunstriker, inside the building.|R|BloodElf|C|Paladin|
 ; --
-A Well Watcher Solanian|QID|10068^10069^10070^10071^10072|N|From your Class Trainer.|LEAD|8330|PRE|8328^8329^8563^8564^9392^9393^9676|R|BloodElf|
-T Well Watcher Solanian|QID|10068^10069^10070^10071^10072|M|38.76,19.36|N|To Well Watcher Solanian, outside on the balcony at the top of the ramp.|R|BloodElf|
+A Well Watcher Solanian|QID|10068^10069^10070^10071^10072^10073|N|From your Class Trainer.|LEAD|8330|PRE|8328^8329^8563^8564^9392^9393^9676|R|BloodElf|
+T Well Watcher Solanian|QID|10068^10069^10070^10071^10072^10073|M|38.76,19.36|N|To Well Watcher Solanian, outside on the balcony at the top of the ramp.|R|BloodElf|
 A Solanian's Belongings|QID|8330|M|38.76,19.36|N|From Well Watcher Solanian.|R|BloodElf|
 A The Shrine of Dath'Remar|QID|8345|M|38.76,19.36|N|From Well Watcher Solanian.|R|BloodElf|
 A A Fistful of Slivers|QID|8336|M|38.28,19.13|N|From Arcanist Ithanas, on the patio below you. You can jump down from the balcony.|R|BloodElf|
@@ -38,10 +39,10 @@ r Empty your bags|ACTIVE|8346|M|37.14,19.03|N|Empty your bags and repair before 
 
 C Unfortunate Measures|QID|8326|M|36.22,22.64|L|20797 8|N|Kill Springpaw Lynxes and Cubs to collect the Lynx Collars.|R|BloodElf|S|
 C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Kill Mana Wyrms to collect the Arcane Slivers.\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|S|
-C Thirst Unending|QID|8346|M|35.39,20.24|N|Use Arcane Torrent when you are within 8 yards of a Mana Wyrm.\n[color=FF0000]NOTE: [/color]Arcane Torrent has a 2 minute cooldown.\nThis works on ANY creature that uses mana.|R|BloodElf|S|
+C Thirst Unending|QID|8346|M|35.39,20.24|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|S|
 C Solanian's Belongings|QID|8330|M|37.70,24.90|L|20472|N|Pick up Solanian's Journal, near the big green crystal.|R|BloodElf|
 C Unfortunate Measures|QID|8326|M|36.22,22.64|N|Finish collecting the Lynx collars.\n[color=FF0000]NOTE: [/color]If this area is busy, you can find more behind the buildings northeast of you.|R|BloodElf|US|
-C Thirst Unending|QID|8346|M|35.39,20.24|N|Use Arcane Torrent when you are within 8 yards of a Mana Wyrm.\n[color=FF0000]NOTE: [/color]Arcane Torrent has a 2 minute cooldown.\nThis works on ANY creature that uses mana.|R|BloodElf|US|
+C Thirst Unending|QID|8346|M|35.39,20.24|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|US|
 C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Kill Mana Wyrms to collect the Arcane Slivers.\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|US|
 
 T Thirst Unending|QID|8346|M|37.20,18.95|N|To Arcanist Helion.|R|BloodElf|
@@ -56,12 +57,13 @@ C Solanian's Belongings|QID|8330|M|35.14,28.90|L|20470|N|Pick up Solanian's Scry
 C Solanian's Belongings|QID|8330|M|31.33,22.75|L|20471|N|Pick up the Scroll of Scourge Magic, which is northwest.|R|BloodElf|
 C The Shrine of Dath'Remar|QID|8345|M|29.65,19.40|N|The Shrine of Dath'Remar is in the furthest north-west corner of the island. Click on the plaque it to read.|R|BloodElf|NC|
 K Aggression|QID|8334|M|34.93,26.52|QO|1;2|N|Finish killing the Feral Tenders and Tenders you need.|R|BloodElf|US|
-C A Fistful of Slivers|QID|8336|M|59.44,54.04|N|As you head back to the Sunspire, finish collecting the Slivers from the Mana Wyrms and Feral Tenders|R|BloodElf|US|
-T The Shrine of Dath'Remar|QID|8345|M|38.96,20.27|N|To Well Watcher Solanian, inside The Sunspire, up the ramp.|R|BloodElf|
-T Solanian's Belongings|QID|8330|M|38.96,20.27|N|To Well Watcher Solanian.|R|BloodElf|
+C A Fistful of Slivers|QID|8336|M|59.44,54.04|N|As you head back, finish collecting the Slivers from the Mana Wyrms and Feral Tenders|R|BloodElf|US|
+T The Shrine of Dath'Remar|QID|8345|M|38.76,19.36|N|To Well Watcher Solanian.|R|BloodElf|
+T Solanian's Belongings|QID|8330|M|38.76,19.36|N|To Well Watcher Solanian.|R|BloodElf|
 T A Fistful of Slivers|QID|8336|M|38.3,19.1|N|To Arcanist Ithanas.|R|BloodElf|
-T Aggression|QID|8334|M|52.98,49.73|N|To Lanthan Perilon.|R|BloodElf|
+r Empty your bags|ACTIVE|8334|M|37.86,19.31|N|Don't forget to repair and empty your bags.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|R|BloodElf|
 
+T Aggression|QID|8334|M|52.98,49.73|N|To Lanthan Perilon.|R|BloodElf|
 A Felendren the Banished|QID|8335|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
 K Felendren the Banished|ACTIVE|8335|M|39.03,63.98|QO|1|N|Kill Arcane Wraiths|R|BloodElf|S|
 C Tainted Arcane Sliver|QID|8338|L|20483|N|Kill and loot a Tainted Arcane Wraith, it will drop a Tainted Arcane Sliver.|R|BloodElf|S|
