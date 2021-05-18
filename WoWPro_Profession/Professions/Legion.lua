@@ -221,7 +221,7 @@ A Starlight Rosedusta Sample|QID|40034|ACTIVE|40034|LVL|39|P|Herbalism;182;6;1|N
 t Starlight Rose Sample|QID|40034|M|42.99,33.37|Z|Dalaran@Dalaran70|P|Herbalism;182;6;1|N|To Kuhuine Tenderstride.|
 A The Gentlest Touch|QID|40035|PRE|40034|M|42.99,33.37|Z|Dalaran@Dalaran70|LVL|39|P|Herbalism;182;6;1|N|From Kuhuine Tenderstride.|
 t The Gentlest Touch|QID|40035|M|42.99,33.37|Z|Dalaran@Dalaran70|P|Herbalism;182;6;1|N|To Kuhuine Tenderstride.|
-A Aethril Sample|QID|40013|ACTIVE|40013|LVL|39|P|Herbalism;182;6;1|P|Herbalism;182;6;1|N|Auto Accept from UI Alert.|
+A Aethril Sample|QID|40013|ACTIVE|40013|LVL|39|P|Herbalism;182;6;1|N|Auto Accept from UI Alert.|
 t Aethril Sample|QID|40013|M|42.99,33.37|Z|Dalaran@Dalaran70|P|Herbalism;182;6;1|N|To Kuhuine Tenderstride.|
 A Spayed by the Spade|QID|40014|PRE|40013|M|42.99,33.37|Z|Dalaran@Dalaran70|LVL|39|P|Herbalism;182;6;1|N|From Kuhuine Tenderstride.|
 t Spayed by the Spade|QID|40014|M|42.99,33.37|Z|Dalaran@Dalaran70|P|Herbalism;182;6;1|N|To Kuhuine Tenderstride.|
@@ -808,10 +808,10 @@ t Pristine Moosebone Fish-Hook|QID|40355|M|40.62,25.98|Z|Dalaran@Dalaran70|P|Arc
 A Pristine Hand-Smoothed Pyrestone|QID|40356|ACTIVE|40356|P|Archaeology;794;6;1|N|From UI Alert.|
 C Pristine Hand-Smoothed Pyrestone|ACTIVE|40356|M|40.47,23.89|Z|Dalaran@Dalaran70|QO|1|P|Archaeology;794;6;1|N|Put Artifact on Display.|
 t Pristine Hand-Smoothed Pyrestone|QID|40356|M|40.47,23.89|Z|Dalaran@Dalaran70|P|Archaeology;794;6;1|N|To UI Alert.|
-A Pristine Drogbar Gem-Roller|QID|40357|ACTIVE|40357|P|Archaeology;794;6;1|P|Archaeology;794;6;1|N|From UI Alert.|
+A Pristine Drogbar Gem-Roller|QID|40357|ACTIVE|40357|P|Archaeology;794;6;1|N|From UI Alert.|
 C Pristine Drogbar Gem-Roller|ACTIVE|40357|M|40.62,25.98|Z|Dalaran@Dalaran70|QO|1|P|Archaeology;794;6;1|N|Put Artifact on Display.|
 t Pristine Drogbar Gem-Roller|QID|40357|M|40.62,25.98|Z|Dalaran@Dalaran70|P|Archaeology;794;6;1|N|To UI Alert.|
-A Pristine Stonewood Bow|QID|40358|ACTIVE|40358|P|Archaeology;794;6;1|P|Archaeology;794;6;1|N|From UI Alert.|
+A Pristine Stonewood Bow|QID|40358|ACTIVE|40358|P|Archaeology;794;6;1|N|From UI Alert.|
 C Pristine Stonewood Bow|ACTIVE|40358|M|40.62,25.98|Z|Dalaran@Dalaran70|QO|1|P|Archaeology;794;6;1|N|Put Artifact on Display.|
 t Pristine Stonewood Bow|QID|40358|M|40.62,25.98|Z|Dalaran@Dalaran70|P|Archaeology;794;6;1|N|To UI Alert.|
 
