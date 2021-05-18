@@ -6,16 +6,13 @@ WoWPro:GuideName(guide,"Draenai: Intro")
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Bloodmyst')
 WoWPro:GuideSteps(guide, function()
 return [[
-R Note:|R|Human, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
+;R Note:|R|Human, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
 f The Exodar|R|Human, Gnome, Dwarf, Night El|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
 A You Survived!|QID|9279|LEAD|9280|M|83.01,43.85|N|From Megelon right in front of you.|R|Draenei|
 T You Survived!|QID|9279|M|80.42,45.89|N|To Proenitus.|R|Draenei|
 A Replenishing the Healing Crystals|QID|9280|M|80.42,45.89|N|From Proenitus.|R|Draenei|
-A Replenishing the Healing Crystals|QID|9369|M|80.42,45.89|N|From Proenitus.|R|Human, Gnome, Dwarf, Night El|
 C Replenishing the Healing Crystals|QID|9280|M|77.43,42.72|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Draenei|
-C Replenishing the Healing Crystals|QID|9369|M|77.43,42.72|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Human, Gnome, Dwarf, Night El|
 T Replenishing the Healing Crystals|QID|9280|M|80.42,45.89|N|To Proenitus.|R|Draenei|
-T Replenishing the Healing Crystals|QID|9369|M|80.42,45.89|N|To Proenitus.|R|Human, Gnome, Dwarf, Night El|
 A Urgent Delivery!|QID|9409|PRE|9280^9369|M|80.42,45.89|N|From Proenitus.|
 T Urgent Delivery!|QID|9409||M|80.17,48.52|N|To Zaldunn inside the building (he wanders around inside the place a bit).
 A Rescue the Survivors!|QID|9283|PRE|9409|M|80.17,48.52|N|From Zaldunn.|R|Draenei|
@@ -25,6 +22,12 @@ A Paladin Training|QID|9287|M|79.70,48.23|N|From Aurelon.|R|Draenei|C|Paladin|
 T Paladin Training|QID|9287|M|79.70,48.23|N|To Aurelon.|R|Draenei|C|Paladin|
 A Hunter Training|QID|9288|M|79.88,49.70|N|From Kellnel.|R|Draenei|C|Hunter|
 T Hunter Training|QID|9288|M|79.88,49.70|N|To Kellnel.|R|Draenei|C|Hunter|
+A Mage Training|QID|9290|M|79.58,48.77|N|From Valaatu.|R|Draenei|C|Mage|
+T Mage Training|QID|9290|M|79.58,48.77|N|To Valaatu.|R|Draenei|C|Mage|
+A Priest Training|QID|9291|M|80.17,48.52|N|From Zaldunn.|R|Draenei|C|Priest|
+T Priest Training|QID|9291|M|80.17,48.52|N|To Zaldunn.|R|Draenei|C|Priest|
+A Shaman Training|QID|9421|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
+T Shaman Training|QID|9421|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
 A Botanist Taerix|QID|9371|PRE|9409|LEAD|10302|M|80.42,45.89|N|From Proenitus.|
 T Botanist Taerix|QID|9371|M|79.13,46.54|N|To Botanist Taerix around the corner near the Training dummies.|
 A Volatile Mutations|QID|10302|PRE|9280^9369|M|79.13,46.54|N|From Botanist Taerix, back outside.|
@@ -41,8 +44,6 @@ T Botanical Legwork|QID|9799|M|79.06,46.60|N|To Apprentic Vishael.|
 T What Must Be Done...|QID|9293|M|79.13,46.54|N|To Botanist Taerix.|
 A Healing the Lake|QID|9294|PRE|9293|M|79.13,46.54|N|From Botanist Taerix.|
 T Rescue the Survivors!|QID|9283|M|80.17,48.52|N|To wandering Zaldunn.|R|Draenei|
-A Shaman Training|QID|9421|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
-T Shaman Training|QID|9421|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
 A Call of Earth|QID|9449|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|LVL|4|
 T Call of Earth|QID|9449|M|71.81,40.26|N|To Spirit of the Vale.|R|Draenei|C|Shaman|
 A Call of Earth|QID|9450|PRE|9449|M|71.81,40.26|N|To Spirit of the Vale.|R|Draenei|C|Shaman|LVL|4|
@@ -55,16 +56,12 @@ T Healing the Lake|QID|9294|M|79.13,46.54|N|To Botanist Taerix.|
 A Vindicator Aldar|QID|10304|PRE|9294|LEAD|37444|M|79.13,46.54|N|From Botanist Taerix.|
 T Vindicator Aldar|QID|10304|M|79.48,51.61|N|Speak to Vindicator Aldar.|
 A Spare Parts|QID|9305|PRE|10302|M|79.41,51.24|N|From Technician Zhanaa.|
-A Inoculation|QID|37444|PRE|10302|M|79.48,51.61|N|From Vindicator Aldar.|R|-Draenei|
 A Inoculation|QID|9303|PRE|10302|M|79.48,51.61|N|From Vindicator Aldar.|R|Draenei|
-r Sell junk and repair|ACTIVE|37444|M|79.19,50.94|N|At Mura, close this step when done.|
-C Inoculation|QID|37444|U|22962|M|77.09,61.38|S|NC|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|R|-Draenei|
+r Sell junk and repair|ACTIVE|9303|M|79.19,50.94|N|At Mura, close this step when done.|R|Draenei|
 C Inoculation|QID|9303|U|22962|M|77.09,61.38|S|NC|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|R|Draenei|
 C Spare Parts|QID|9305|M|77.09,61.38|N|Into the hills, through the cave. The parts are spread all over the camp.|
-C Inoculation|QID|37444|U|22962|M|77.09,61.38|US|NC|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|R|-Draenei|
 C Inoculation|QID|9303|U|22962|M|77.09,61.38|US|NC|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|R|Draenei|
-H Ammen Vale|ACTIVE|37444|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
-T Inoculation|QID|37444|M|79.48,51.61|N|To Vindicator Aldar.|R|-Draenei|
+H Ammen Vale|ACTIVE|9303|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|R|Draenei|
 T Inoculation|QID|9303|M|79.48,51.61|N|To Vindicator Aldar.|R|Draenei|
 A The Missing Scout|QID|9309|PRE|9303|M|79.48,51.61|N|From Vindicator Aldar.|
 T Spare Parts|QID|9305|M|79.41,51.24|N|To Technician Zhanaa.|
@@ -94,10 +91,12 @@ A The Great Moongraze Hunt|QID|9454|Z|Azuremyst Isle|M|49.8,51.9|N|From Acteon.|
 T Travel to Azure Watch|QID|9313|Z|Azuremyst Isle|M|48.7,50.3|N|To Technician Dyvuun.|
 T Word from Azure Watch|QID|9314|Z|Azuremyst Isle|M|48.3,49.2|N|To Caregiver Chellan.|
 h Azure Watch|QID|9454|N|Set your hearth to Azure Watch with Caregive Chellan.|
+A Help Tavara|QID|9586|Z|Azuremyst Isle|M|48.59,49.29|N|From Guvan.|R|Draenei|C|Priest|
 A Medicinal Purpose|QID|9463|Z|Azuremyst Isle|M|48.4,51.8|N|From Anchorite Fateema.|R|Draenei|
 N Professions|O|ACTIVE|9463|Z|Azuremyst Isle|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
 N Note!|O|ACTIVE|9463|N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
 A Bandits!|QID|9616|Z|Azuremyst Isle|M|48.26,41.43|N|Kill Blood Elf Bandits till you get a Blood Elf Communication and then use it.|U|23910|
+C Help Tavara|QID|9586|Z|Azuremyst Isle|M|56.23,48.90|N|Find Tavara and heal her wounds.|R|Draenei|C|Priest|S|
 C The Great Moongraze Hunt|QID|9454|S|QO|1|Z|Azuremyst Isle|M|54,61|N|Kill and loot Moongraze Stags for the Tenderloin.|T|Moongraze Stag|
 C Medicinal Purpose|QID|9463|S|QO|1|Z|Azuremyst Isle|M|54,61|N|Kill and loot Root Trappers for the Vines.|T|Root Trapper|R|Draenei|
 C Medicinal Purpose|QID|9463|US|QO|1|Z|Azuremyst Isle|M|54,61|N|Kill and loot Root Trappers for the Vines.|T|Root Trapper|R|Draenei|
@@ -142,7 +141,10 @@ C The Great Moongraze Hunt|QID|10324|S|Z|Azuremyst Isle|M|50.17,45.30|N|Kill and
 l Faintly Glowing Crystal|QID|9455|M|48.26,41.43|L|23678|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal, then accept the quest from it.|
 A Strange Findings|QID|9455|Z|Azuremyst Isle|M|48.26,41.43|U|23678|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal, then accept the quest from it.|
 C The Great Moongraze Hunt|QID|10324|US|Z|Azuremyst Isle|M|50.17,45.30|N|Kill and loot the needed Moongraze Bucks for the Hides.|
+C Help Tavara|QID|9586|Z|Azuremyst Isle|M|56.23,48.90|N|Find Tavara and heal her wounds.|R|Draenei|C|Priest|US|
 T The Great Moongraze Hunt|QID|10324|Z|Azuremyst Isle|M|49.8,51.9|N|To Acteon.|
+T Help Tavara|QID|9586|Z|Azuremyst Isle|M|48.59,49.29|N|To Guvan.|R|Draenei|C|Priest|
+T Strange Findings|QID|9455|Z|Azuremyst Isle|M|47.1,50.6|N|To Exarch Menelaous.|
 A Nightstalker Clean Up, Isle 2...|QID|9456|PRE|9455|Z|Azuremyst Isle|M|47.1,50.6|N|From Exarch Menelaous.|
 A Learning the Language|QID|9538|Z|Azuremyst Isle|M|49.4,51.0|N|From Cryptographer Aurren.|
 C Learning the Language|QID|9538|U|23818|N|Read the book.|
@@ -171,12 +173,25 @@ A All That Remains|QID|9527|Z|Azuremyst Isle|M|16.6,94.5|N|From Cowlen.|
 C All That Remains|QID|9527|Z|Azuremyst Isle|M|13.41,85.29|N|Kill owlkins on this island until you pick up the Remains of Cowlen's Family.|
 T All That Remains|QID|9527|Z|Azuremyst Isle|M|16.6,94.5|N|To Cowlen.|
 H Azure Watch|QID|9544|U|6948|M|48,53|N|Hearth back to Azure Watch.|
-T Strange Findings|QID|9455|Z|Azuremyst Isle|M|47.1,50.6|N|To Exarch Menelaous.|
 T The Prophecy of Akida|QID|9544|Z|Azuremyst Isle|M|49.4,51.0|N|To Arugoo of the Stillpine.|
 A Stillpine Hold|QID|9559|PRE|9544|Z|Azuremyst Isle|M|49.4,51.0|N|From Arugoo of the Stillpine.|
-;A Strength of One|QID|9582|Z|Azuremyst Isle|M|50.02,50.52|N|From Ruada.|C|Warrior|R|Draenei|
+;A Strength of One|QID|9582|Z|Azuremyst Isle|M|50.02,50.52|N|From Ruada.|C|Warrior|R|Draenei|LVL|10|
 T Nightstalker Clean Up, Isle 2...|QID|9456|Z|Azuremyst Isle|M|47.1,50.6|N|To Exarch Menelaous.|
 A Call of Fire|QID|9464|Z|Azuremyst Isle|M|48.06,50.44|N|From Tuluun.|C|Shaman|R|Draenei|LVL|10|
+A Seek Huntress Kella Nightbow|QID|9757|Z|Azuremyst Isle|M|49.78,51.93|N|From Acteon.|C|Hunter|R|Draenei|LVL|10|
+T Seek Huntress Kella Nightbow|QID|9757|Z|Azuremyst Isle|M|24.19,54.34|N|To Huntress Kella Nightbow.|C|Hunter|R|Draenei|
+A Taming the Beast|QID|9591|Z|Azuremyst Isle|PRE|9757|M|24.19,54.34|N|From Huntress Kella Nightbow.|C|Hunter|R|Draenei|
+C Taming the Beast|QID|9591|Z|Azuremyst Isle|M|20.76,65.37|N|Use the Taming Totem to befriend a Barbed Crawler and return to Huntress Kella Nightbow when you have succeeded.|C|Hunter|R|Draenei|U|23896|T|Barbed Crawler|
+T Taming the Beast|QID|9591|Z|Azuremyst Isle|M|24.19,54.34|N|To Huntress Kella Nightbow.|C|Hunter|R|Draenei|
+A Taming the Beast|QID|9592|Z|Azuremyst Isle|PRE|9591|M|24.19,54.34|N|From Huntress Kella Nightbow.|C|Hunter|R|Draenei|
+C Taming the Beast|QID|9592|Z|Azuremyst Isle|M|40.35,31.57|N|Use the Taming Totem to befriend a Greater Timberstrider and return to Huntress Kella Nightbow when you have succeeded.|C|Hunter|R|Draenei|U|23897|T|Greater Timberstrider|
+T Taming the Beast|QID|9592|Z|Azuremyst Isle|M|24.19,54.34|N|To Huntress Kella Nightbow.|C|Hunter|R|Draenei|
+A Taming the Beast|QID|9593|Z|Azuremyst Isle|PRE|9592|M|24.19,54.34|N|From Huntress Kella Nightbow.|C|Hunter|R|Draenei|
+C Taming the Beast|QID|9593|Z|Azuremyst Isle|M|36.07,41.44|N|Use the Taming Totem to befriend a Nightstalker and return to Huntress Kella Nightbow.|C|Hunter|R|Draenei|U|23898|T|Nightstalker|
+T Taming the Beast|QID|9593|Z|Azuremyst Isle|M|24.19,54.34|N|To Huntress Kella Nightbow.|C|Hunter|R|Draenei|
+A Beast Training|QID|9675|Z|Azuremyst Isle|PRE|9593|M|24.19,54.34|N|From Huntress Kella Nightbow.|C|Hunter|R|Draenei|
+T Beast Training|QID|9675|Z|The Exodar|M|44.25,86.62|N|To Ganaar.|C|Hunter|R|Draenei|
+r Sell junk and repair|QID|9559|Z|Azuremyst Isle|M|49.69,52.75|N|At Kioni.|
 R Odesyus' Landing|QID|9515|Z|Azuremyst Isle|M|46.11,72.16|N|Head to Odesyus' Landing... again...|
 T Warlord Sriss'tiz|QID|9515|Z|Azuremyst Isle|M|47.13,70.27|N|To Priestess Kyleen Il'dinare.|
 T Tree's Company|QID|9531|Z|Azuremyst Isle|M|47.04,70.22|N|To Admiral Odesyus.|
@@ -233,7 +248,7 @@ T Behomat|QID|10350|Z|The Exodar|M|55.58,82.36|N|To Behomat.|C|Warrior|R|Draenei
 N If you are not lvl 12 yet you need to grind it out to get the class quest for Paladins to rez|C|Paladin|R|Draenei|LVL|-12|
 T Coming of Age|QID|9623|M|81.64,51.70|Z|The Exodar|N|Head up and outside. Then turn this quest into Torallius the Pack Handler.|
 A Elekks Are Serious Business|QID|9625|LEAD|9634|PRE|9623|M|81.64,51.70|Z|The Exodar|N|From Torallius the Pack Handler.|
-A Jol|QID|10366|Z|Azuremyst Isle|M|48.36,49.55|N|From Tullas.|C|Paladin|R|Draenei|
+A Jol|QID|10366|Z|Azuremyst Isle|M|48.36,49.55|N|From Tullas.|C|Paladin|R|Draenei|LVL|12|
 T Jol|QID|10366|Z|The Exodar|M|38.39,82.52|N|To Jol|C|Paladin|R|Draenei|
 A Redemption|QID|9598|Z|The Exodar|M|38.39,82.52|N|From Jol.|C|Paladin|R|Draenei|
 T Redemption|QID|9598|Z|The Exodar|M|38.39,82.52|C|Paladin|R|Draenei|
