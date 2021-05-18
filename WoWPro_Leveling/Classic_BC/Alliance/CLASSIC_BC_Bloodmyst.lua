@@ -27,15 +27,24 @@ f Blood Watch |QID|9634|M|57.69,53.92|N|Get the flight path for Blood Watch.|
 A Mac'Aree Mushroom Menagerie|QID|9648|M|56.4,56.8|N|From Jessera of Mac'Aree.|
 A WANTED: Deathclaw|QID|9646|M|55.2,59.1|N|From the Wanted Board outside the Inn.|
 h Blood Watch |QID|9624|M|55.84,59.80|N|Set hearthstone to Blood Watch with Caregiver Topher Loaal.|
+A Beds, Bandages, and Beyond|QID|9603|M|55.84,59.80|N|From Caregive Topher Loaal.|R|Draenei|
+T Beds, Bandages, and Beyond|QID|9603|N|Go to Laando (the Flight Master).|R|Draenei|M|57.57,53.91|
+A On the Wings of a Hippogryph|QID|9604|PRE|9603|N|From Laando.|R|Draenei|M|57.57,53.91|
+F The Exodar|QID|9604|N|Fly to the Exodar.|R|Draenei|
+T On the Wings of a Hippogryph|QID|9604|M|57.03,50.14|Z|The Exodar|N|Go to Nurguni.|R|Draenei|
+A Hippogryph Master Stephanos|QID|9605|PRE|9604|N|From Nurguni.|M|57.03,50.14|Z|The Exodar|R|Draenei|
+N Exodar|QID|9605|N|While you're here, you can visit your bank/AH or get supplies. Click to close and continue.|
+T Hippogryph Master Stephanos|QID|9605|Z|The Exodar|M|68.50,63.49|N|Go to Hippogryph Master Stephanos.|R|Draenei|
+A Return to Topher Loaal|QID|9606|PRE|9605|Z|The Exodar|M|68.50,63.49|N|From Stephanos.|R|Draenei|
+F Blood Watch|QID|9606|M|54.33,36.73|Z|The Exodar|N|Fly back to Blood Watch.|R|Draenei|
+T Return to Topher Loaal|QID|9606|M|55.84,59.80|N|To Caregive Topher Loaal.|R|Draenei|
 C Mac'Aree Mushroom Menagerie|QID|9648|QO|2|N|Obtain a Blood Mushroom, they are small and glow red.|M|59,60|CN|
 C Mac'Aree Mushroom Menagerie|QID|9648|QO|1|N|Obtain an Aquatic Sinkhorn from Stinkhorn Striker in the Blood River.|M|63.75,62.90|CN|
 C Mac'Aree Mushroom Menagerie|QID|9648|QO|3|N|Obtain a Ruinous Polyspore, they are black/grey and tan.|M|67,66|CN|
-; [aldavor] also check this, not auto closing
 C Declaration of Power|QID|9666|QO|1|M|68.8,67.3|N|Kill Lord Xiz.|CN|
 C Declaration of Power|QID|9666|QO|2|U|24084|M|68.8,67.3|N|Plant the banner at the corpse of Lord Xiz.|CN|
-C A Favorite Treat|QID|9624|N|Pick up Sand Pears.|S|
+C A Favorite Treat|QID|9624|N|Pick up Sand Pears.|S|M|68.2,81.2|
 A Saving Princess Stillpine|QID|9667|M|68.2,81.2|PRE|9559|N|From Princess Stillpine.|
-; [aldavor] this DOES NOT CHECK OFF!!! very frustrating...
 C Saving Princess Stillpine|QID|9667|L|24099 1|M|64.25,76.50|N|Head north-west to the small camp, killing furbolgs there until High Chief Bristlelimb spawns and yells 'Face the wrath of Bristlelimb!' - kill him, and loot the key.|CC|
 C Saving Princess Stillpine |QID|9667|M|68.2,81.2|N|Open Princess Stillpine's cage.|
 C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings.|M|58.3,86.28|S|
@@ -47,7 +56,8 @@ T Alien Predators |QID|9634|M|63.05,87.92|N|To Vorkhan the Elekk Herder.|
 T Declaration of Power |QID|9666|M|62.99,87.54|N|To Kessel.|
 A Report to Exarch Admetius|QID|9668|LEAD|9693|PRE|9666|M|62.99,87.54|N|From Kessel.|
 C Catch and Release|QID|9629|U|23995|M|43.8,93.3|N|Use the Murloc Tagger on 6 Blacksilt Scouts.|S|
-A Cruelfin's Necklace|QID|9576|L|23870|N|Find and kill cruelfin, then loot the Red Crystal Pendant and accept the quest it gives. He patrols along the south coast, spawning on the east side.|M|49.5,94.8;34.6,93.1|T|Cruelfin|CN|
+l Red Crystal Pendant|QID|9576|L|23870|N|Find and kill cruelfin, then loot the Red Crystal Pendant. He patrols along the south coast, spawning on the east side.|M|49.5,94.8;34.6,93.1|T|Cruelfin|CN|
+A Cruelfin's Necklace|QID|9576|U|23870|N|Accept the quest.
 C Catch and Release|QID|9629|U|23995|M|43.8,93.3|N|Continue to use the Murloc Tagger on 6 Blacksilt Scouts.|US|
 C Mac'Aree Mushroom Menagerie|QO|4|QID|9648|M|44,78;35,79|N|Obtain a Fel Cone Fungus. They're kind of grey brown in comparison to the rest of the mushrooms they're with.|CN|
 H Blood Watch |QID|9576|N|Hearth back to Blood Watch.|M|55.84,59.80|
@@ -70,7 +80,8 @@ A The Second Sample|QID|9584|PRE|9628|N|From Harbringer Mikolaas.|M|52.6,53.23|
 T Blood Watch|QID|9694|N|To Vindicator Boros.|M|55.42,55.25|
 A Intercepting the Message|QID|9779|PRE|9694|N|From Vindicator Boros.|M|55.42,55.25|
 A Know Thine Enemy|QID|9567|M|55.1,58.0|N|From Vindicator Aalesia.|
-A Signs of the Legion|QID|9594|L|23900|QO|1|N|Kill Tzerak, loot Tzerak's Armor Plate and accept the quest from it.\nHe looks like a Felguard. If you don't see him, grind on Satyrs until he yells as he spawns.|M|38.41,82.02|
+r Repair/Restock |QID|9668|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
+A Signs of the Legion|QID|9594|U|23900|QO|1|N|Kill Tzerak, loot Tzerak's Armor Plate and accept the quest from it.\nHe looks like a Felguard. If you don't see him, grind on Satyrs until he yells as he spawns.|M|38.41,82.02|
 C Signs of the Legion|QID|9594|N|Kill Satyrs and Felsworns|S|
 C Know Thine Enemy|QID|9567|N|Loot the Nazzivus Monument Glyph|L|23859|M|36.49,71.36|
 C Signs of the Legion|QID|9594|N|Finish killing Satyrs and Felsworns.|US|M|35.54,77.43|
@@ -96,7 +107,7 @@ F The Exodar |QID|9698|N|Fly to The Exodar.|M|57.7,53.9|
 T Audience with the Prophet|QID|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen.|
 A Truth or Fiction|QID|9699|PRE|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen.|
 N Training and banking|QID|9699|N|Train your professions, visit bank etc. while you're here. Close to continue.|R|Draenei|
-H Blood Watch |QID|9699|M|54.43,36.39|N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back to Bloodmyst Isle.|U|6948|Z|The Exodar|
+F Blood Watch |QID|9699|M|68.51,63.61|N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back to Bloodmyst Isle.|U|6948|Z|The Exodar|
 T Truth or Fiction|QID|9699|N|To Vindicator Boros.|M|55.42,55.25|
 A I Shoot Magic Into the Darkness|QID|9700|PRE|9699|N|From Vindicator Boros.|M|55.42,55.25|
 r Repair/Restock |QID|10063|M|53.32,56.67|N|Repair/Sell Junk at Beega.|

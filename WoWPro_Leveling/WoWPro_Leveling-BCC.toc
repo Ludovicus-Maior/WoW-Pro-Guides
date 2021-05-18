@@ -1,9 +1,9 @@
-## Interface: 90005
+## Interface: 20501
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Leveling
 ## Notes: Leveling guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 9.0.5-A1
+## Version: 2.5.1-A0
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_Leveling.lua

@@ -1,11 +1,11 @@
-## Interface: 90005
+## Interface: 11307
 ## Title: |cffFF9900WoW-|r|cff46921APro|r
 ## Notes: Guides created by the WoW-Pro Community.  |cffFF0000You will need either TomTom or Carbonite installed for full functionality.|r
 ## Author: Jiyambi,Ludovicus
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB
 ## OptionalDeps: Carbonite, TomTom
-## Version: 9.0.5-A1
+## Version: 1.13.7-E1
 ## X-Category: Compilations
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 Libraries\LibStub\LibStub.lua
