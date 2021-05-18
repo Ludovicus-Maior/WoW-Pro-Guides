@@ -1,4 +1,4 @@
-# Release 9.0.5-A1 / 1.13.7-E1 / 2.5.1-A0
+# Release 9.0.5-A1 / 1.13.7-A0 / 2.5.1-A0
 ## Bug Fixes
 * AVAILABLE tag that wasn't obeying the and/or syntax
 * WoWPro-Professions module and WoWPro_Trade fixes to fix compatibility between retail and classic
