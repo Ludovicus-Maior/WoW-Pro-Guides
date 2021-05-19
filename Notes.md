@@ -1,3 +1,26 @@
+# Release 9.0.5-A1 / 1.13.7-A0 / 2.5.1-A0
+## Bug Fixes
+* AVAILABLE tag that wasn't obeying the and/or syntax
+* WoWPro-Professions module and WoWPro_Trade fixes to fix compatibility between retail and classic
+* Updated Classic Interface to 11307
+* Removed all references to wow-pro.com in the game/guides/documentation
+
+## Guide Updates
+### Retail
+* Achievements: Garrison Campaign
+* Dailies: Anglers
+* Leveling Alliance: N/A
+* Leveling Horde: Exiles Reach, Jade Forest, Twilight Highlands
+* Leveling Neutral: BlackEmpire Outro, Demon Hunter Order Hall, Druid Order Hall, Demon Hunter Intro
+* Leveling Shadowlands: Covenant 
+* Professions: Nearly every guide received some sort of update/tweak/bugfix.
+### Classic
+* Classic guides more streamlined/merged and trimmed some of junk guides that were left behind.
+* Leveling: Nearly every guide received some sort of update/tweak/bugfix.
+* Professions: Enchanted added, all other guides received an update/tweak/bugfix
+### Burning Crusade Classic
+* Added Burning Crusade Classic Support with Preliminary guides. (Some still Work in Progress)
+
 # Release 9.0.5-A0
 ## Bug Fixes
 * Don't complain about missing guide icons, except in debug mode

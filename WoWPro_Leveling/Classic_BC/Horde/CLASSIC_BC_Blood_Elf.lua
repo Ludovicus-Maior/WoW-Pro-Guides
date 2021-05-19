@@ -63,32 +63,42 @@ T Solanian's Belongings|QID|8330|M|38.76,19.36|N|To Well Watcher Solanian.|R|Blo
 T A Fistful of Slivers|QID|8336|M|38.3,19.1|N|To Arcanist Ithanas.|R|BloodElf|
 r Empty your bags|ACTIVE|8334|M|37.86,19.31|N|Don't forget to repair and empty your bags.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|R|BloodElf|
 
-T Aggression|QID|8334|M|52.98,49.73|N|To Lanthan Perilon.|R|BloodElf|
+T Aggression|QID|8334|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
 A Felendren the Banished|QID|8335|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
-K Felendren the Banished|ACTIVE|8335|M|39.03,63.98|QO|1|N|Kill Arcane Wraiths|R|BloodElf|S|
+R Falthrien Academy|ACTIVE|8335^8344|M|32.58,25.55|
+K Felendren the Banished|QID|8335|M|39.03,63.98|QO|1|N|Kill Arcane Wraiths|R|BloodElf|S|
 C Tainted Arcane Sliver|QID|8338|L|20483|N|Kill and loot a Tainted Arcane Wraith, it will drop a Tainted Arcane Sliver.|R|BloodElf|S|
-K Felendren the Banished|QID|8335|M|41.56,61.85;38.05,66.35|CC|L|20799|N|Go up the ramp and to the top of Falthrien Academy. At the first waypoint, there will be two paths to choose, both will merge further on, so either can be taken. At the top, kill Felendren and loot his head.|R|BloodElf|
+A Tainted Arcane Sliver|QID|8338|N|Click on the Tainted Arcane Sliver to start the quest.|U|20483|R|BloodElf|O|
+C Windows to the Source|QID|8344|M|31.68,26.46|QO|1;2|N|Kill Arcane Wraiths to collect the Wraith Essence and Tainted Wraiths to collect the Tainted Essence.|R|BloodElf|C|Warlock|S|
+K Felendren the Banished|QID|8335|M|31.68,26.46;30.76,26.34;30.83,27.15|CC|QO|1|N|Go up the ramps to the top of Falthrien Academy. All paths lead to the top, your choice doesn't matter. At the top, clear any wraiths that might be there, kill Felendren, and loot his head.|R|BloodElf|
 C Tainted Arcane Sliver|QID|8338|L|20483|N|Kill and loot the Tainted Arcane Wraiths until they drop the Tainted Arcane Sliver.|R|BloodElf|US|
-A Tainted Arcane Sliver|QID|8338|N|Click on the Tainted Arcane Sliver to start the quest.|U|20483|R|BloodElf|
 C Felendren the Banished|QID|8335|M|39.03,63.98|N|Kill another Tainted Arcane Wraith|R|BloodElf|
 C Felendren the Banished|QID|8335|M|39.03,63.98|N|Finish killing the Arcane Wraiths|R|BloodElf|US|
+C Windows to the Source|QID|8344|M|31.68,26.46|QO|1;2|N|Kill Arcane Wraiths to collect the Wraith Essence and Tainted Wraiths to collect the Tainted Essence.|R|BloodElf|C|Warlock|US|
+
 L Level 4|QID|8347|LVL|4|N|You need to be Level 4 to continue this guide.|R|BloodElf|
 H Sunstrider Isle|ACTIVE|8338|M|37.75,21.10|N|Run back if your Hearth is on cooldown.|R|BloodElf|
-T Tainted Arcane Sliver|QID|8338|M|37.2,18.9|N|To Arcanist Helion.|R|BloodElf|
-r Repair/Sell|ACTIVE|8335|M|58.46,38.95|N|Repair and sell unwanted loot to Jainthess Thelryn.\nClose this step to continue.|RANK|3|R|BloodElf|
-T Felendren the Banished|QID|8335|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
+T Windows to the Source|QID|8344|M|38.93,21.44|N|To Summoner Teli'Larien.|R|BloodElf|C|Warlock|
+T Tainted Arcane Sliver|QID|8338|M|37.20,18.95|N|To Arcanist Helion.|R|BloodElf|
+r Repair/Sell|ACTIVE|8335|M|58.46,38.95|N|Repair and sell unwanted loot to Jainthess Thelryn.\nClose this step to continue.|R|BloodElf|
 
-A Aiding the Outrunners|QID|8347|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
-T Aiding the Outrunners|QID|8347|M|40.4,32.2|N|To Outrunner Alarion.|R|BloodElf|
+T Felendren the Banished|QID|8335|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
+A Aiding the Outrunners|QID|8347|M|35.37,22.52|N|From Lanthan Perilon.|LEAD|9704|PRE|8335|R|BloodElf|
+R Dawning Lane|ACTIVE|8347|AVAILABLE|9704|M|39.85,31.35|N|Follow the road to the bridge south of you.\n[color=FF0000]NOTE: [/color]You are now leaving the Blood Elf starting area and Sunstrider Isle.|
+T Aiding the Outrunners|QID|8347|M|40.42,32.21|N|To Outrunner Alarion.|R|BloodElf|
 A Slain by the Wretched|QID|9704|M|68.37,79.58|N|From Outrunner Alarion.|R|BloodElf|
 ;The guide continues at this point for all races
+; This R step may need tweaking
 R Eversong Woods|QID|9704|M|56.95,49.60|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|
-F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
-T Slain by the Wretched|QID|9704|M|42.0,35.7|N|To Slain Outrunner.|
-A Package Recovery|QID|9705|M|42.0,35.7|N|From Slain Outrunner.|PRE|9704|
-T Package Recovery|QID|9705|M|40.4,32.2|N|To Outrunner Alarion.|
-A Completing the Delivery|QID|8350|M|40.4,32.2|N|From Outrunner Alarion.|PRE|9705|
-f Falconwing Square|QID|8350|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles.|
+; FP doesn't exist yet
+;F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
+T Slain by the Wretched|QID|9704|M|42.02,35.66|N|To Slain Outrunner.|
+A Package Recovery|QID|9705|M|42.02,35.66|N|From Slain Outrunner.|PRE|9704|
+T Package Recovery|QID|9705|M|40.42,32.21|N|To Outrunner Alarion.|
+A Completing the Delivery|QID|8350|M|40.42,32.21|N|From Outrunner Alarion.|PRE|9705|
+R Falconwing Square|ACTIVE|8350|M|46.42,45.93|N|Follow the road west.|
+; FP doesn't exist yet
+;f Falconwing Square|ACTIVE|8350|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles.|TAXI|-Falconwing Square|
 T Completing the Delivery|QID|8350|M|48.1,47.7|N|To Innkeeper Delaniel.|
 h Falconwing Inn|QID|8472|M|48.1,47.7|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|
 N Professions|QID|8472|N|If you plan on learning any professions, now's the time. Saren will teach all Primary and Secondary professions, he can be found upstairs. You can also learn Cooking from Quarelestra nearby.  \n\nClick this step to continue.|M|48.93,46.86|

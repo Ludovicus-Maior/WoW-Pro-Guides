@@ -1,32 +1,58 @@
-#!/bin/sh
+#!/bin/sh -xv
 
-# Only one argument --classic
+CLASSIC=(WoWPro WoWPro_Leveling)
+BCC=(WoWPro WoWPro_Leveling WoWPro_Dailies)
+RETAIL=(WoWPro WoWPro_Leveling WoWPro_Dailies WoWPro_Profession WoWPro_WorldEvents WoWPro_Achievements)
+TRIAL=(WoWPro WoWPro_Leveling)
+
+# Allow debugging this horrid thing
+if [ "$1" == "--dry" ] ; then
+    DEBUG=echo
+    shift
+fi
+
+# Only one argument --classic | --tbc | --retail
 if [ "$1" == "--classic" ] ; then
-    CLASSIC=1
-    shift 1
+    ADDON_DIRS=${CLASSIC[@]}
+    TOC_SUFFIX="-Classic"
+    shift
+elif [ "$1" == "--tbc" ] ; then
+    ADDON_DIRS=${BCC[@]}
+    TOC_SUFFIX="-BCC"
+    shift
+elif [ "$1" == "--retail" ] ; then
+    ADDON_DIRS=${RETAIL[@]}
+    TOC_SUFFIX=""
+    shift
 else
-    CLASSIC=
+    echo "One of [--classic | --tbc | --retail] must be provided"
+    exit 2
 fi
 
-if [ ! -d WoWPro -o ! -d WoWPro_Leveling -o ! -d WoWPro_Dailies -o ! -d WoWPro_Profession -o ! -d WoWPro_WorldEvents -o ! -d WoWPro_Achievements ] ; then
-    echo "# This program must be run from a directory containing WoWPro, WoWPro_Leveling, WoWPro_Dailies, WoWPro_Profession, WoWPro_WorldEvents and WoWPro_Achievements"
-    exit 1
+VERSION_PREFIX="v"
+if [ "$1" == "--trial" ] ; then
+    ADDON_DIRS=${TRIAL[@]}
+    VERSION_PREFIX="L"
 fi
 
-# If we are building classic, remove the retail tags, which are defaults.
-if [ "$CLASSIC" = "1" ] ; then
-    for toc in WoWPro/WoWPro.toc WoWPro_Leveling/WoWPro_Leveling.toc WoWPro_Dailies/WoWPro_Dailies.toc WoWPro_Profession/WoWPro_Profession.toc WoWPro_WorldEvents/WoWPro_WorldEvents.toc WoWPro_Achievements/WoWPro_Achievements.toc WoWPro_Recorder/WoWPro_Recorder.toc ; do
-         echo '#' Moving $toc to ${toc}~
-         mv ${toc} ${toc}~
-         echo "#" Classicizing  ${toc}
-         sed "/^## Version: / { s/##/#retail ##/; }" < ${toc}~ | \
-         sed "/^## Interface: / { s/##/#retail ##/; }" | \
-         sed "/^#classic/ { s/#classic  *##/##/; }" > ${toc}
-    done
-fi
+
+# Tack on the recorder
+ADDON_DIRS+=(WoWPro_Recorder)
+
+ADDON_TOCS=()
+for addon in ${ADDON_DIRS[@]} ; do
+    if [ ! -d ${addon} ] ; then
+        echo "# Directory ${addon} is missing."
+        echo "# This program must be run from a directory containing ${ADDON_DIRS[@]}"
+        exit 1
+    fi
+    ADDON_TOCS+=("${addon}/${addon}${TOC_SUFFIX}.toc")
+done
+echo "# ${ADDON_TOCS[@]}"
 
 # Find the current version.  Use the one in WoWPro as the master
-crelease=`awk -F: '$1 == "## Version" {print $2}' < WoWPro/WoWPro.toc | tr -d ' ' `
+WOWPRO_TOC=${ADDON_TOCS[0]}
+crelease=`awk -F: '$1 == "## Version" {print $2}' < ${WOWPRO_TOC} | tr -d ' ' `
 echo '#' The current release is "[${crelease}]"
 echo -n '#' Please enter the new release number:
 read nrelease
@@ -34,7 +60,7 @@ echo '#' The new release number will be "[${nrelease}]".
 echo -n "# Please ^C or abort this command or hit enter to proceed:"
 read confirm
 
-for toc in WoWPro/WoWPro.toc WoWPro_Leveling/WoWPro_Leveling.toc WoWPro_Dailies/WoWPro_Dailies.toc WoWPro_Profession/WoWPro_Profession.toc WoWPro_WorldEvents/WoWPro_WorldEvents.toc WoWPro_Achievements/WoWPro_Achievements.toc WoWPro_Recorder/WoWPro_Recorder.toc ; do
+for toc in  ${ADDON_TOCS[@]} ; do
   echo '#' Moving $toc to ${toc}~
   mv ${toc} ${toc}~
   echo "#" Editing  ${toc}
@@ -44,21 +70,24 @@ done
 echo "# OK, the current version numbers are:"
 fgrep -H Version: */*.toc
 
-zip -r --include '*.lua' '*.toc' '*.tga' '*.blp' '*.xml' '*.html' @ "WoWPro v${nrelease}.zip" WoWPro WoWPro_Leveling WoWPro_Leveling WoWPro_Dailies WoWPro_Profession WoWPro_WorldEvents WoWPro_Achievements
+# Remove the recorder from the list
+ADDON_DIRS=(${ADDON_DIRS[@]::${#ADDON_DIRS[@]}-1})
+ZIP_FILE="WoWPro ${VERSION_PREFIX}${nrelease}.zip"
+${DEBUG} zip -r --include '*.lua' '*.toc' '*.tga' '*.blp' '*.xml' '*.html' @ "${ZIP_FILE}" ${ADDON_DIRS[@]}
 
-if [ "$CLASSIC" != "1" ] ; then
-    git commit -m V${nrelease} -a
-    git tag ${nrelease}
-    git push origin
-    git push --tags
+if [ "$1" != "--trial" ] ; then
+    ${DEBUG} git commit -m V${nrelease} -a
+    ${DEBUG} git tag ${nrelease}
+    ${DEBUG} git push origin
+    ${DEBUG} git push --tags
 else
-    git tag ${nrelease}
-    git push --tags
-    ln -s "WoWPro v${nrelease}.zip" "WoWPro v${nrelease}-classic.zip"
+    ${DEBUG} git tag ${nrelease}
+    ${DEBUG} git push --tags
+    ${DEBUG} ln -s "${ZIP_FILE}" "WoWPro v${nrelease}-classic.zip"
 fi
 
 if [ -r .s3cfg ] ; then
-    s3cmd put --config=.s3cfg -P -M "WoWPro v${nrelease}.zip" s3://WoW-Pro/
+    ${DEBUG} s3cmd put --config=.s3cfg -P -M "${ZIP_FILE}" s3://WoW-Pro/
 else
-    s3cmd put -P -M "WoWPro v${nrelease}.zip" s3://WoW-Pro/
+    ${DEBUG} s3cmd put -P -M "${ZIP_FILE}" s3://WoW-Pro/
 fi

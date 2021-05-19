@@ -1,93 +1,66 @@
 ------------------------------------------------------------------------
-r1240 | nevcairiel | 2020-10-13 07:59:32 +0000 (Tue, 13 Oct 2020) | 1 line
+r1251 | nevcairiel | 2021-05-17 09:28:32 +0000 (Mon, 17 May 2021) | 1 line
 Changed paths:
-   M /trunk/Ace3.toc
    M /trunk/changelog.txt
 
-Update changelog and TOC
+Update changelog
 ------------------------------------------------------------------------
-r1239 | nevcairiel | 2020-09-20 10:22:02 +0000 (Sun, 20 Sep 2020) | 1 line
+r1250 | nevcairiel | 2021-04-13 16:35:48 +0000 (Tue, 13 Apr 2021) | 1 line
 Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-BlizOptionsGroup.lua
 
-AceGUI-3.0: DropDown: Anchor all items to the dropdown frame instead of chaining anchors, fixes anchoring on WoW 9.0 with many items
+AceGUI-3.0: BlizOptionsGroup: Make sure the container frame is parented to InterfaceOptionsFramePanelContainer
 ------------------------------------------------------------------------
-r1238 | nevcairiel | 2020-08-28 16:18:42 +0000 (Fri, 28 Aug 2020) | 3 lines
+r1249 | funkehdude | 2021-03-09 20:18:52 +0000 (Tue, 09 Mar 2021) | 1 line
 Changed paths:
-   M /trunk/AceAddon-3.0/AceAddon-3.0.lua
+   M /trunk/Ace3.toc
 
-AceAddon-3.0: Blacklist more Blizzard addons from triggering Ace3 load events
-
-These addons can be loaded very early by UIParent, which causes issues with loading certain addons
+bump toc
 ------------------------------------------------------------------------
-r1237 | nevcairiel | 2020-07-17 22:50:38 +0000 (Fri, 17 Jul 2020) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-DropDownGroup.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-InlineGroup.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Keybinding.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
-
-Use BackdropTemplate in WoW 9.0
-------------------------------------------------------------------------
-r1236 | nevcairiel | 2020-04-16 07:36:45 +0000 (Thu, 16 Apr 2020) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
-
-AceGUI-3.0: DropDown: Initialize the widget with an empty item list (instead of nil), this allows AddItem to be used right away (Fixes #542)
-------------------------------------------------------------------------
-r1235 | nevcairiel | 2020-04-15 10:27:55 +0000 (Wed, 15 Apr 2020) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
-
-Cleanup debug
-------------------------------------------------------------------------
-r1234 | nevcairiel | 2020-04-15 10:14:35 +0000 (Wed, 15 Apr 2020) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
-
-AceGUI-3.0: TreeGroup: Remove pre-8.0 compat
-------------------------------------------------------------------------
-r1233 | nevcairiel | 2020-04-15 10:09:47 +0000 (Wed, 15 Apr 2020) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
-
-AceGUI-3.0: Label: Refresh anchoring after changing the font (Fixes #540)
-------------------------------------------------------------------------
-r1232 | nevcairiel | 2020-04-14 22:21:22 +0000 (Tue, 14 Apr 2020) | 1 line
+r1248 | funkehdude | 2021-02-05 14:27:49 +0000 (Fri, 05 Feb 2021) | 1 line
 Changed paths:
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceConfigDialog-3.0: Prevent a dialog refresh when a multiselect control is closed during release (Fixes #539)
+AceConfigDialog: Make the popup opaque and no longer click-through
 ------------------------------------------------------------------------
-r1231 | nevcairiel | 2020-04-14 22:20:36 +0000 (Tue, 14 Apr 2020) | 1 line
+r1247 | funkehdude | 2021-01-23 23:16:39 +0000 (Sat, 23 Jan 2021) | 1 line
 Changed paths:
+   M /trunk/AceComm-3.0/ChatThrottleLib.lua
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
    M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua
 
-AceGUI-3.0: Add a getter to allow callers to check if a widget is currently being released, which can be used as part of some callbacks to alter behavior
+Use table.wipe instead of wipe where appropriate.
 ------------------------------------------------------------------------
-r1230 | funkydude | 2020-01-14 17:01:25 +0000 (Tue, 14 Jan 2020) | 1 line
+r1246 | funkehdude | 2021-01-03 02:43:27 +0000 (Sun, 03 Jan 2021) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
+
+Allow more room for other addons to draw under our widgets by setting the base frame level to 100.
+------------------------------------------------------------------------
+r1245 | nevcairiel | 2020-12-10 16:58:19 +0000 (Thu, 10 Dec 2020) | 1 line
+Changed paths:
+   M /trunk/changelog.txt
+
+Add recent changes to the changelog
+------------------------------------------------------------------------
+r1244 | funkehdude | 2020-11-18 03:10:25 +0000 (Wed, 18 Nov 2020) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 bump toc
 ------------------------------------------------------------------------
-r1229 | funkydude | 2019-10-11 20:48:50 +0000 (Fri, 11 Oct 2019) | 1 line
+r1243 | nevcairiel | 2020-10-18 00:00:19 +0000 (Sun, 18 Oct 2020) | 1 line
+Changed paths:
+   M /trunk/AceHook-3.0/AceHook-3.0.lua
+
+AceHook-3.0: Allow UnhookAll to be used without embedding (Fixes #558)
+------------------------------------------------------------------------
+r1242 | nevcairiel | 2020-10-17 07:10:47 +0000 (Sat, 17 Oct 2020) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
-bump toc
-------------------------------------------------------------------------
-r1228 | nevcairiel | 2019-09-06 08:51:17 +0000 (Fri, 06 Sep 2019) | 3 lines
-Changed paths:
-   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
-
-AceGUI-3.0: Avoid re-entrance into the Release function
-
-This can happen if a frame is released in a callback fired in the release process, and may in some cases throw errors.
+Include the project version in the main TOC to identify packages more easily
 ------------------------------------------------------------------------
 
