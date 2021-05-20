@@ -4,7 +4,7 @@ Permissions beyond the scope of this license may be available at http://github.c
 --]]
 
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_55_60_Alliance', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 2)
-WoWPro:GuideName(guide, 'Alliance Leveling 50-60')
+WoWPro:GuideName(guide, 'Alliance Leveling 55-60')
 WoWPro:GuideLevels(guide,55, 59)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Hellfire')
 WoWPro:GuideSteps(guide, function()
