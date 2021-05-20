@@ -57,10 +57,10 @@ C Solanian's Belongings|QID|8330|M|31.33,22.75|L|20471|N|Pick up the Scroll of S
 C The Shrine of Dath'Remar|QID|8345|M|29.65,19.40|N|The Shrine of Dath'Remar is in the furthest north-west corner of the island. Click on the plaque it to read.|R|BloodElf|NC|
 K Aggression|QID|8334|M|34.93,26.52|QO|1;2|N|Finish killing the Feral Tenders and Tenders you need.|R|BloodElf|US|
 C A Fistful of Slivers|QID|8336|M|59.44,54.04|N|As you head back, finish collecting the Slivers from the Mana Wyrms and Feral Tenders|R|BloodElf|US|
-T The Shrine of Dath'Remar|QID|8345|M|38.76,19.36|N|To Well Watcher Solanian.|R|BloodElf|
+T The Shrine of Dath'Remar|QID|8345|M|38.76,19.36|N|To Well Watcher Solanian, on the balcony.|R|BloodElf|
 T Solanian's Belongings|QID|8330|M|38.76,19.36|N|To Well Watcher Solanian.|R|BloodElf|
-T A Fistful of Slivers|QID|8336|M|38.3,19.1|N|To Arcanist Ithanas.|R|BloodElf|
-r Empty your bags|ACTIVE|8334|M|37.86,19.31|N|Don't forget to repair and empty your bags.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|R|BloodElf|
+T A Fistful of Slivers|QID|8336|M|38.28,19.13|N|To Arcanist Ithanas.|R|BloodElf|
+r Empty your bags|ACTIVE|8334|M|37.86,19.31|N|Don't forget to repair and empty your bags. Raelis Dawnstar is just inside the building.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|R|BloodElf|
 
 T Aggression|QID|8334|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
 A Felendren the Banished|QID|8335|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
@@ -79,7 +79,7 @@ L Level 4|QID|8347|LVL|4|N|You need to be Level 4 to continue this guide.|R|Bloo
 H Sunstrider Isle|ACTIVE|8338|M|37.75,21.10|N|Run back if your Hearth is on cooldown.|R|BloodElf|
 T Windows to the Source|QID|8344|M|38.93,21.44|N|To Summoner Teli'Larien.|R|BloodElf|C|Warlock|
 T Tainted Arcane Sliver|QID|8338|M|37.20,18.95|N|To Arcanist Helion.|R|BloodElf|
-r Repair/Sell|ACTIVE|8335|M|58.46,38.95|N|Repair and sell unwanted loot to Jainthess Thelryn.\nClose this step to continue.|R|BloodElf|
+r Repair/Sell|ACTIVE|8335|M|37.14,19.03|N|Repair and sell unwanted loot to Jainthess Thelryn.\nClose this step to continue.|R|BloodElf|
 
 T Felendren the Banished|QID|8335|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
 A Aiding the Outrunners|QID|8347|M|35.37,22.52|N|From Lanthan Perilon.|LEAD|9704|PRE|8335|R|BloodElf|
