@@ -56,7 +56,7 @@ A Hardened Shells|QID|1105|M|78.14,77.13|N|From Wizzle Brassbolts.|
 A Load Lightening|QID|1176|M|80.18,75.88|N|From Pozzik.|
 A A Bump in the Road|QID|1175|M|81.63,77.95|N|From Trackmaster Zherin.|
 C Rocket Car Parts|QID|1110|NC|S|N|Collect Rocket Car Parts which are scattered everywhere.|
-K Turtles|QID|555|M||S|N|Kill turtles for 10 meat. This is for a later quest so don't sell it.|L|3712 10|
+K Turtles|QID|555|S|N|Kill turtles for 10 meat. This is for a later quest so don't sell it.|L|3712 10|
 C Hardened Shells|QID|1105|S|N|Kill turtles for their Hardened Tortoise Shells.|
 C Salt Flat Venom|QID|1104|S|N|Kill Scorpids for their venom.|
 C Load Lightening|QID|1176|S|N|Kill vultures and collect their bones.|
