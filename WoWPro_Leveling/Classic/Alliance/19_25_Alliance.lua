@@ -116,7 +116,7 @@ A Red Silk Bandanas|QID|214|M|56.67,47.34|N|From Scout Riell on top of the tower
 
 F Stormwind|ACTIVE|399|M|56.55,52.65|N|Fly to Stormwind.|TZ|Stormwind City|Z|Westfall|
 T Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|To Baros Alexston.|Z|Westfall|
-A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|Z|Westfall|
+A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
 A Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
 A Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
 N The Deadmines|S|ACTIVE|214|N|You may do the Deadmines at this point. Be sure to loot the Mysterious Letter off Vancleef.|
