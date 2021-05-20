@@ -56,7 +56,7 @@ A Hardened Shells|QID|1105|M|78.14,77.13|N|From Wizzle Brassbolts.|
 A Load Lightening|QID|1176|M|80.18,75.88|N|From Pozzik.|
 A A Bump in the Road|QID|1175|M|81.63,77.95|N|From Trackmaster Zherin.|
 C Rocket Car Parts|QID|1110|NC|S|N|Collect Rocket Car Parts which are scattered everywhere.|
-K Turtles|QID|555|M||S|N|Kill turtles for 10 meat. This is for a later quest so don't sell it.|L|3712 10|
+K Turtles|QID|555|S|N|Kill turtles for 10 meat. This is for a later quest so don't sell it.|L|3712 10|
 C Hardened Shells|QID|1105|S|N|Kill turtles for their Hardened Tortoise Shells.|
 C Salt Flat Venom|QID|1104|S|N|Kill Scorpids for their venom.|
 C Load Lightening|QID|1176|S|N|Kill vultures and collect their bones.|
@@ -181,7 +181,7 @@ C Tiger Mastery|QID|186|Z|Stranglethorn Vale|S|N|Kill "Tigers", not the young on
 C Panther Mastery|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|N|Kill "Panthers", not the young ones.|
 C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|US|N|Finish killing Tigers before you move on.|
 C Raptor Mastery|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|US|N|Go southwest and kill 10 Stranglethorn Raptors.|
-
+C The Stone of the Tides|QID|578|M|21.00,22.00|Z|Stranglethorn Vale|N|Head onto the shore and sdwim to the island until you get the quest complete message for The Stone of the Tides.|
 T Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack. Don't get follow-up.|
 T Panther Mastery|QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin. Don't get follow-up.|
 T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary. Don't get follow-up.|
@@ -197,7 +197,6 @@ T Investigate the Camp|QID|201|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek up
 T Krazek's Cookery|QID|210|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek up on the top floor of the Inn.|
 A Favor for Krazek|QID|627|M|26.94,77.21|Z|Stranglethorn Vale|N|From Krazek.|PRE|210|
 t Favor for Krazek|QID|627|M|26.94,77.21|Z|Stranglethorn Vale|N|Turn in Favor for Krazek if you have 4 Lesser Bloodstone Ores.|
-T Bloodscalp Ears|QID|189|M|27.0,77.13|Z|Stranglethorn Vale|N|To Kebok. Don't get follow-up.|
 T The Stone of the Tides|QID|578|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 * Trash Library Scrip|QID|575|U|3898|N|Trash the Library Scrip. It's only use is for lore purposes.|
 T Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|To Drizzlik.|
@@ -400,7 +399,7 @@ A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingw
 C Bloodscalp Ears|QID|189|Z|Stranglethorn Vale|S|N|Get 15 bloodscalp ears from the Trolls here.|
 C The Emperor's Tomb|QID|207|QO|4|M|24.70,8.90|NC|Z|Stranglethorn Vale|N|Inside the ruins up to the top and go right.|
 C Fall of Gurubashi|QID|207|QO|3|M|22.96,12.02|NC|Z|Stranglethorn Vale|N|Back out to the main road, stay left, don't go down.|
-C The Stone of the Tides|QID|578|M|21.00,22.00|Z|Stranglethorn Vale|N|Swim to the island until you get the quest complete message for The Stone of the Tides.|
+
 C "Gri"lek the Wanderer|QID|207|QO|2|M|24.75,22.86|NC|Z|Stranglethorn Vale|N|Loot the scroll from the tablet underwater at this location.|
 C Moon Over the Vale|QID|207|QO|1|M|29.49,19.15|NC|Z|Stranglethorn Vale|N|Loot the scroll from the Tablet at this location.|
 C Singing Blue Shards|QID|605|Z|Stranglethorn Vale|S|N|Feel free to kill Basilisks to the West of the Troll Ruins if you are waiting for respawns.|
