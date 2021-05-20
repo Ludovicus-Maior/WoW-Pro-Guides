@@ -10,7 +10,6 @@ return [[
 A Reclaiming Sunstrider Isle|QID|8325|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|
 A Windows to the Source|QID|8344|M|38.93,21.44|N|From Summoner Teli'Larien, inside the building.\n[color=FF0000]NOTE: [/color]This is your Summon Imp quest. You can do it on your own now, or wait a bit and do it when the guide takes you to there shortly.|R|BloodElf|C|Warlock|
 K Mana Wyrm|ACTIVE|8325|M|34.84,19.97|QO|1|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|R|BloodElf|
-L Level 2|AVAILABLE|8326|N|You'll want to be within 5 bubbles of level 2 before you return.\nContinue killing Mana Wyrms until you are.|LVL|1;-100|R|BloodElf|
 T Reclaiming Sunstrider Isle|QID|8325|M|38.21,20.83|N|To Magistrix Erona.|R|BloodElf|
 A Unfortunate Measures|QID|8326|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|
 ; -- Class quests
@@ -21,13 +20,13 @@ A Priest Training|QID|8564|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|Bloo
 A Rogue Training|QID|9392|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Rogue|
 A Hunter Training|QID|9393|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Hunter|
 A Paladin Training|QID|9676|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Paladin|
-T Mage Training|QID|8328|M|39.23,21.45|N|To Julia Sunstriker, inside the building.|R|BloodElf|C|Mage|
-T Warrior Training|QID|8329|M|39.29,20.10|N|To Delios Silverblade, inside the building.|R|BloodElf|C|Warrior|
-T Warlock Training|QID|8563|M|38.93,21.44|N|To Summoner Teli'Larien, inside the building.|R|BloodElf|C|Warlock|
-T Priest Training|QID|8564|M|39.42,20.38|N|To Matron Arena, inside the building.|R|BloodElf|C|Priest|
-T Rogue Training|QID|9392|M|38.93,20.02|N|To Pathstalker Kariel, inside the building.|R|BloodElf|C|Rogue|
-T Hunter Training|QID|9393|M|39.05,20.01|N|To Ranger Sallina, inside the building.|R|BloodElf|C|Hunter|
-T Paladin Training|QID|9676|M|39.48,20.56|N|To Jesthenis Sunstriker, inside the building.|R|BloodElf|C|Paladin|
+T Mage Training|QID|8328|M|39.23,21.45|N|To Julia Sunstriker, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Mage|
+T Warrior Training|QID|8329|M|39.29,20.10|N|To Delios Silverblade, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Warrior|
+T Warlock Training|QID|8563|M|38.93,21.44|N|To Summoner Teli'Larien, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Warlock|
+T Priest Training|QID|8564|M|39.42,20.38|N|To Matron Arena, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Priest|
+T Rogue Training|QID|9392|M|38.93,20.02|N|To Pathstalker Kariel, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Rogue|
+T Hunter Training|QID|9393|M|39.05,20.01|N|To Ranger Sallina, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Hunter|
+T Paladin Training|QID|9676|M|39.48,20.56|N|To Jesthenis Sunstriker, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Paladin|
 ; --
 A Well Watcher Solanian|QID|10068^10069^10070^10071^10072^10073|N|From your Class Trainer.|LEAD|8330|PRE|8328^8329^8563^8564^9392^9393^9676|R|BloodElf|
 T Well Watcher Solanian|QID|10068^10069^10070^10071^10072^10073|M|38.76,19.36|N|To Well Watcher Solanian, outside on the balcony at the top of the ramp.|R|BloodElf|
@@ -45,7 +44,7 @@ C Unfortunate Measures|QID|8326|M|36.22,22.64|N|Finish collecting the Lynx colla
 C Thirst Unending|QID|8346|M|35.39,20.24|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|US|
 C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Kill Mana Wyrms to collect the Arcane Slivers.\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|US|
 
-T Thirst Unending|QID|8346|M|37.20,18.95|N|To Arcanist Helion.|R|BloodElf|
+T Thirst Unending|QID|8346|M|37.18,18.95|N|To Arcanist Helion.|R|BloodElf|
 r Empty your bags|ACTIVE|8326|M|37.14,19.03|N|Don't forget to repair and empty your bags.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|R|BloodElf|
 T Unfortunate Measures|QID|8326|M|38.21,20.83|N|To Magistrix Erona.|R|BloodElf|
 A Report to Lanthan Perilon|QID|8327|M|61.59,44.49|N|From Magistrix Erona.|R|BloodElf|
@@ -101,7 +100,8 @@ R Falconwing Square|ACTIVE|8350|M|46.42,45.93|N|Follow the road west.|
 ;f Falconwing Square|ACTIVE|8350|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles.|TAXI|-Falconwing Square|
 T Completing the Delivery|QID|8350|M|48.1,47.7|N|To Innkeeper Delaniel.|
 h Falconwing Inn|QID|8472|M|48.1,47.7|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|
-N Professions|QID|8472|N|If you plan on learning any professions, now's the time. Saren will teach all Primary and Secondary professions, he can be found upstairs. You can also learn Cooking from Quarelestra nearby.  \n\nClick this step to continue.|M|48.93,46.86|
+; Saren wasn't added until Cataclysm
+;N Professions|QID|8472|N|If you plan on learning any professions, now's the time. Saren will teach all Primary and Secondary professions, he can be found upstairs. You can also learn Cooking from Quarelestra nearby.  \n\nClick this step to continue.|M|48.93,46.86|
 A Unstable Mana Crystals|QID|8463|M|48.2,46.0|N|From Aeldon Sunbrand, back outside of the inn.|
 A WANTED: Thaelis the Hungerer|QID|8468|M|48.2,46.3|N|From 'Wanted: Thaelis the Hungerer' signpost.|
 A Major Malfunction|QID|8472|M|47.3,46.3|N|From Magister Jaronis.|
