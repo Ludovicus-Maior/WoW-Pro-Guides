@@ -54,7 +54,7 @@ C A Favorite Treat|QID|9624|M|59.4,88.39|N|Finish picking up the Sand Pears at t
 T A Favorite Treat |QID|9624|M|63.43,88.78|N|To Aonar.|
 T Alien Predators |QID|9634|M|63.05,87.92|N|To Vorkhan the Elekk Herder.|
 T Declaration of Power |QID|9666|M|62.99,87.54|N|To Kessel.|
-A Report to Exarch Admetius|QID|9668|LEAD|9693|PRE|9666|M|62.99,87.54|N|From Kessel.|
+A Report to Exarch Admetius|QID|9668|PRE|9666|M|62.99,87.54|N|From Kessel.|
 C Catch and Release|QID|9629|U|23995|M|43.8,93.3|N|Use the Murloc Tagger on 6 Blacksilt Scouts.|S|
 l Red Crystal Pendant|QID|9576|L|23870|N|Find and kill cruelfin, then loot the Red Crystal Pendant. He patrols along the south coast, spawning on the east side.|M|49.5,94.8;34.6,93.1|T|Cruelfin|CN|
 A Cruelfin's Necklace|QID|9576|U|23870|N|Accept the quest.
