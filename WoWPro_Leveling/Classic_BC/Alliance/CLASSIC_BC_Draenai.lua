@@ -246,7 +246,7 @@ A Behomat|QID|10350|Z|Azuremyst Isle|M|50.01,50.52|N|From Ruada.|C|Warrior|R|Dra
 r Sell junk and repair|QID|9623|Z|Azuremyst Isle|M|49.69,52.75|N|At Kioni.|
 T Behomat|QID|10350|Z|The Exodar|M|55.58,82.36|N|To Behomat.|C|Warrior|R|Draenei|
 N If you are not lvl 12 yet you need to grind it out to get the class quest for Paladins to rez|C|Paladin|R|Draenei|LVL|-12|
-T Coming of Age|QID|9623|M|81.64,51.70|Z|The Exodar|N|Head up and outside. Then turn this quest into Torallius the Pack Handler.|
+T Coming of Age|QID|9623|M|81.64,51.70|Z|The Exodar|N|Turn this quest into Torallius the Pack Handler.|
 A Elekks Are Serious Business|QID|9625|LEAD|9634|PRE|9623|M|81.64,51.70|Z|The Exodar|N|From Torallius the Pack Handler.|
 A Jol|QID|10366|Z|Azuremyst Isle|M|48.36,49.55|N|From Tullas.|C|Paladin|R|Draenei|LVL|12|
 T Jol|QID|10366|Z|The Exodar|M|38.39,82.52|N|To Jol|C|Paladin|R|Draenei|

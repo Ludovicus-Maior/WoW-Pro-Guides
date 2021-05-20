@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("CLASSIC_BC_Hellfire", "Leveling", "Hellfire Peninsula", "Jame", "Alliance", 2)
+local guide = WoWPro:RegisterGuide("CLASSIC_BC_Hellfire", "Leveling", "Hellfire Peninsula", "Wow-Pro Team", "Alliance", 2)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNickname(guide, "Hellfire Peninsula")
 WoWPro:GuideName(guide,"Hellfire Peninsula")
@@ -11,6 +11,8 @@ return [[
 F Nethergarde Keep|AVAILABLE|10288|N|Fly to Nethergarde Keep in the Blasted Lands.|
 B Nethergarde Bitter|AVAILABLE|9563|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep.|M|63.51,17.01|Z|Blasted Lands|
 R Hellfire Peninsula|AVAILABLE|10288|N|Go through the portal to Hellfire Peninsula.|M|58.74,60.78|Z|Blasted Lands|
+A Through the Dark Portal|QID|10119|M|58.32,55.91|Z|Blasted Lands|N|From Watch Commander Relthorn Netherwane.|
+T Through the Dark Portal|QID|10119|M|87.34,50.74|N|To Commander Duron.|
 A Arrival in Outland|QID|10288|M|87.3,50.7|N|From Commander Duron.|
 T Arrival in Outland|QID|10288|M|87.4,52.4|N|To Amish Wildhammer.|
 A Journey to Honor Hold|QID|10140|PRE|10288|M|87.4,52.4|N|From Amish Wildhammer.|
@@ -33,8 +35,6 @@ T Fel Orc Scavengers|QID|10482|M|50.91,60.19|N|To Lieutenant Amadi.|
 A Ill Omens|QID|10483|PRE|10482|M|50.91,60.19|N|From Lieutenant Amadi.|
 T The Legion Reborn|QID|10141|M|61.7,60.8|N|To Sergeant Altumus.|
 A The Path of Anguish|QID|10142|PRE|10141|M|61.7,60.8|N|From Sergeant Altumus.|
-; The quest "Invading the Citadel" on the following line has wrong caps on 'The' so it does not auto-accept since it is optional.|
-A Invading the Citadel|QID|29543|M|61.7,60.8|N|From Sergeant Altumus. This quest leads into Hellfire Ramparts, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for Hellfire Ramparts if you wish.|
 C The Path of Anguish|N|Kill the mobs needed for this quest.|QID|10142|M|65.00,58.00|
 C Burn Catapult 1|QID|10078|N|Burn the first thrower here with the Flaming Torch. |QO|1|U|26002|M|58.50,46.80|
 C Burn Catapult 2|QID|10078|N|Burn the second thrower here with the Flaming Torch. |QO|2|U|26002|M|55.85,46.75|
