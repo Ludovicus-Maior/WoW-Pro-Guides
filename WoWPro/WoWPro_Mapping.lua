@@ -389,6 +389,9 @@ end
 
 function WoWPro:ValidateMapCoords(guide,action,step,coords)
     if coords then
+        if coords == "PLAYER" then
+            return true
+        end
         local numcoords = select("#", (";"):split(coords))
         for j=1,numcoords do
             local jcoord = select(numcoords-j+1, (";"):split(coords))
