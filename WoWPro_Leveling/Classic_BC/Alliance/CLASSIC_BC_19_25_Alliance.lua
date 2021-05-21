@@ -164,7 +164,7 @@ R Elwynn Forest|QID|344|N|Go to Elwynn Forest.|Z|Stormwind City|M|74.76,93.41|
 T Brother Paxton|QID|344|M|49.6,40.3|Z|Elwynn Forest|N|To Brother Paxton, in the Library of Northshire Abbey.|LVL|20|
 A Ink Supplies|QID|345|M|49.6,40.3|Z|Elwynn Forest|N|From Brother Paxton.|PRE|344|LVL|20|
 A A Watchful Eye|QID|94|Z|Elwynn Forest|M|65.2,69.8|LVL|20|N|From Theocritus, at the top of the Tower of Azora.|
-R Redridge Mountains|AVAILABLE|89|N|Go to Redridge Mountains.|M|95.17,72.34|
+R Redridge Mountains|AVAILABLE|89|N|Go to Redridge Mountains.|M|95.17,72.34|Z|Elwynn Forest|
 
 A The Everstill Bridge|QID|89|M|32.14,48.64|N|From Foreman Oslow.|PRE|125|Z|Redridge Mountains|
 T Ink Supplies|QID|345|M|32.2,48.6|N|To Foreman Oslow.|LVL|20|Z|Redridge Mountains|
