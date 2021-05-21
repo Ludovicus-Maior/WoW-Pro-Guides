@@ -236,7 +236,7 @@ T Ysera's Tears|QID|9649|N|To Jessera of Mac'Aree.|M|56.4,56.8|
 r Repair/Restock |QID|9740|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 N Non-Draenei races|QID|9740|N|Non-Draenei have only one more available quest on bloodmyst. Decide if you are interested, if not, just follow the next guide.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
 F The Exodar|QID|9740|N|Fly to The Exodar to train your riding skill. Skip this step if you already have it.|R|Draenei|M|57.68,53.89|
-N Get your Mount|QID|9740|N|Up the ramp and to the left is the riding trainer. You'll need 4 gold for training and 1 gold for the mount. Skip if you already have it. Click to close and continue.|R|Draenei|
+;N Get your Mount|QID|9740|N|Up the ramp and to the left is the riding trainer. You'll need 4 gold for training and 1 gold for the mount. Skip if you already have it. Click to close and continue.|R|Draenei|
 F Blood Watch|QID|9740|N|Fly back to Blood Watch. Skip if you're already there.|Z|The Exodar|M|54.46,36.4|R|Draenei|
 A Clearing the Way|QID|9761|PRE|9760|N|From Vindicator Corin.|M|30.6,46.6|
 A Ending Their World|QID|9759|PRE|9753|M|30.8,46.7|N|From Demolitionist Legoso.|
@@ -251,7 +251,7 @@ T Ending Their World|QID|9759|N|This is one of the best quest turn-ins in WoW. G
 A The Unwritten Prophecy|QID|9762|PRE|9759|N|From Prophet Velen. If Prophet Velen despawns before you accept the quest, go to The Exodar to get the quest.|M|54,55.4|R|Draenei|
 A Newfound Allies|QID|9632|M|54.69,54.01|N|From Anchorite Paetheus.|
 F The Exodar|QID|9632|N|Fly to The Exodar.|M|57.68,53.89|
-A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|N|From the Hero's Call Board. Will not show up if your level is too high.|Z|The Exodar|
+;A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|N|From the Hero's Call Board. Will not show up if your level is too high.|Z|The Exodar|
 T Newfound Allies|QID|9632|M|24.18,54.33|Z|Azuremyst Isle|N|Go up the ramp to the exit; once outside, follow the path to the right and down to Huntress Kella Nightbow.|
 N Thus ends Bloodmyst Isles.|N|Next stop Ashenvale. Take the boat or fly to Rutheran Village, then onto Ashenvale. Close this step.|
 ]]
