@@ -1,3 +1,17 @@
+# Release 9.0.5-A2 / 1.13.7-A1 / 2.5.1-A1
+## Bug Fixes
+* Added M tag syntax checks
+
+## Guide Updates
+### Retail
+* Nothing
+### Classic
+* Alliance: 12-20 Eastern_Kingdom; 19-25, 25-30, 30-41, 55-60 Leveling
+* Horde: 21-30 Hendo Chapter 1
+### Burning Crusade Classic
+* Alliance: 19-25, 25-30, 30-41, 55-60 Leveling, Bloodmyst, Draenai, Eastern_Kingdom, Hellfire
+* Horde: Blood Elf, Ghostlands, HordeChapter1
+
 # Release 9.0.5-A1 / 1.13.7-A0 / 2.5.1-A0
 ## Bug Fixes
 * AVAILABLE tag that wasn't obeying the and/or syntax
