@@ -10,6 +10,7 @@ return [[
 A Reclaiming Sunstrider Isle|QID|8325|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|
 A Windows to the Source|QID|8344|M|38.93,21.44|N|From Summoner Teli'Larien, inside the building.\n[color=FF0000]NOTE: [/color]This is your Summon Imp quest. You can do it on your own now, or wait a bit and do it when the guide takes you to there shortly.|R|BloodElf|C|Warlock|
 K Mana Wyrm|ACTIVE|8325|M|34.84,19.97|QO|1|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|R|BloodElf|
+L Level 2|AVAILABLE|8326|N|You'll want to be within 5 bubbles of level 2 before you return.\nContinue killing Mana Wyrms until you are.|LVL|1;-100|R|BloodElf|
 T Reclaiming Sunstrider Isle|QID|8325|M|38.21,20.83|N|To Magistrix Erona.|R|BloodElf|
 A Unfortunate Measures|QID|8326|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|
 ; -- Class quests
@@ -35,7 +36,6 @@ A The Shrine of Dath'Remar|QID|8345|M|38.76,19.36|N|From Well Watcher Solanian.|
 A A Fistful of Slivers|QID|8336|M|38.28,19.13|N|From Arcanist Ithanas, on the patio below you. You can jump down from the balcony.|R|BloodElf|
 A Thirst Unending|QID|8346|M|37.18,18.95|N|From Arcanist Helion. You can see him on the patio directly opposite from your current position.|R|BloodElf|
 r Empty your bags|ACTIVE|8346|M|37.14,19.03|N|Empty your bags and repair before venturing further.\n[color=FF0000]NOTE: [/color]Jainthess Thelryn, standing beside you, can help you with that.|R|BloodElf|
-
 C Unfortunate Measures|QID|8326|M|36.22,22.64|L|20797 8|N|Kill Springpaw Lynxes and Cubs to collect the Lynx Collars.|R|BloodElf|S|
 C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Kill Mana Wyrms to collect the Arcane Slivers.\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|S|
 C Thirst Unending|QID|8346|M|35.39,20.24|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|S|
@@ -43,12 +43,10 @@ C Solanian's Belongings|QID|8330|M|37.70,24.90|L|20472|N|Pick up Solanian's Jour
 C Unfortunate Measures|QID|8326|M|36.22,22.64|N|Finish collecting the Lynx collars.\n[color=FF0000]NOTE: [/color]If this area is busy, you can find more behind the buildings northeast of you.|R|BloodElf|US|
 C Thirst Unending|QID|8346|M|35.39,20.24|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|US|
 C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Kill Mana Wyrms to collect the Arcane Slivers.\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|US|
-
-T Thirst Unending|QID|8346|M|37.18,18.95|N|To Arcanist Helion.|R|BloodElf|
+T Thirst Unending|QID|8346|M|37.20,18.95|N|To Arcanist Helion.|R|BloodElf|
 r Empty your bags|ACTIVE|8326|M|37.14,19.03|N|Don't forget to repair and empty your bags.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|R|BloodElf|
 T Unfortunate Measures|QID|8326|M|38.21,20.83|N|To Magistrix Erona.|R|BloodElf|
 A Report to Lanthan Perilon|QID|8327|M|61.59,44.49|N|From Magistrix Erona.|R|BloodElf|
-
 T Report to Lanthan Perilon|QID|8327|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
 A Aggression|QID|8334|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
 K Aggression|QID|8334|M|34.93,26.52|QO|1;2|N|Kill any Tender and Feral Tender you see.|R|BloodElf|S|
@@ -57,11 +55,10 @@ C Solanian's Belongings|QID|8330|M|31.33,22.75|L|20471|N|Pick up the Scroll of S
 C The Shrine of Dath'Remar|QID|8345|M|29.65,19.40|N|The Shrine of Dath'Remar is in the furthest north-west corner of the island. Click on the plaque it to read.|R|BloodElf|NC|
 K Aggression|QID|8334|M|34.93,26.52|QO|1;2|N|Finish killing the Feral Tenders and Tenders you need.|R|BloodElf|US|
 C A Fistful of Slivers|QID|8336|M|59.44,54.04|N|As you head back, finish collecting the Slivers from the Mana Wyrms and Feral Tenders|R|BloodElf|US|
-T The Shrine of Dath'Remar|QID|8345|M|38.76,19.36|N|To Well Watcher Solanian.|R|BloodElf|
+T The Shrine of Dath'Remar|QID|8345|M|38.76,19.36|N|To Well Watcher Solanian, on the balcony.|R|BloodElf|
 T Solanian's Belongings|QID|8330|M|38.76,19.36|N|To Well Watcher Solanian.|R|BloodElf|
-T A Fistful of Slivers|QID|8336|M|38.3,19.1|N|To Arcanist Ithanas.|R|BloodElf|
-r Empty your bags|ACTIVE|8334|M|37.86,19.31|N|Don't forget to repair and empty your bags.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|R|BloodElf|
-
+T A Fistful of Slivers|QID|8336|M|38.28,19.13|N|To Arcanist Ithanas.|R|BloodElf|
+r Empty your bags|ACTIVE|8334|M|37.86,19.31|N|Don't forget to repair and empty your bags. Raelis Dawnstar is just inside the building.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|R|BloodElf|
 T Aggression|QID|8334|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
 A Felendren the Banished|QID|8335|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
 R Falthrien Academy|ACTIVE|8335^8344|M|32.58,25.55|
@@ -74,36 +71,26 @@ C Tainted Arcane Sliver|QID|8338|L|20483|N|Kill and loot the Tainted Arcane Wrai
 C Felendren the Banished|QID|8335|M|39.03,63.98|N|Kill another Tainted Arcane Wraith|R|BloodElf|
 C Felendren the Banished|QID|8335|M|39.03,63.98|N|Finish killing the Arcane Wraiths|R|BloodElf|US|
 C Windows to the Source|QID|8344|M|31.68,26.46|QO|1;2|N|Kill Arcane Wraiths to collect the Wraith Essence and Tainted Wraiths to collect the Tainted Essence.|R|BloodElf|C|Warlock|US|
-
 L Level 4|QID|8347|LVL|4|N|You need to be Level 4 to continue this guide.|R|BloodElf|
 H Sunstrider Isle|ACTIVE|8338|M|37.75,21.10|N|Run back if your Hearth is on cooldown.|R|BloodElf|
 T Windows to the Source|QID|8344|M|38.93,21.44|N|To Summoner Teli'Larien.|R|BloodElf|C|Warlock|
 T Tainted Arcane Sliver|QID|8338|M|37.20,18.95|N|To Arcanist Helion.|R|BloodElf|
 r Repair/Sell|ACTIVE|8335|M|58.46,38.95|N|Repair and sell unwanted loot to Jainthess Thelryn.\nClose this step to continue.|R|BloodElf|
-
 T Felendren the Banished|QID|8335|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
 A Aiding the Outrunners|QID|8347|M|35.37,22.52|N|From Lanthan Perilon.|LEAD|9704|PRE|8335|R|BloodElf|
 R Dawning Lane|ACTIVE|8347|AVAILABLE|9704|M|39.85,31.35|N|Follow the road to the bridge south of you.\n[color=FF0000]NOTE: [/color]You are now leaving the Blood Elf starting area and Sunstrider Isle.|
 T Aiding the Outrunners|QID|8347|M|40.42,32.21|N|To Outrunner Alarion.|R|BloodElf|
 A Slain by the Wretched|QID|9704|M|68.37,79.58|N|From Outrunner Alarion.|R|BloodElf|
-;The guide continues at this point for all races
-; This R step may need tweaking
 R Eversong Woods|QID|9704|M|56.95,49.60|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|
-; FP doesn't exist yet
-;F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
 T Slain by the Wretched|QID|9704|M|42.02,35.66|N|To Slain Outrunner.|
 A Package Recovery|QID|9705|M|42.02,35.66|N|From Slain Outrunner.|PRE|9704|
 T Package Recovery|QID|9705|M|40.42,32.21|N|To Outrunner Alarion.|
 A Completing the Delivery|QID|8350|M|40.42,32.21|N|From Outrunner Alarion.|PRE|9705|
 R Falconwing Square|ACTIVE|8350|M|46.42,45.93|N|Follow the road west.|
-; FP doesn't exist yet
-;f Falconwing Square|ACTIVE|8350|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles.|TAXI|-Falconwing Square|
 T Completing the Delivery|QID|8350|M|48.1,47.7|N|To Innkeeper Delaniel.|
-h Falconwing Inn|QID|8472|M|48.1,47.7|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|
-; Saren wasn't added until Cataclysm
-;N Professions|QID|8472|N|If you plan on learning any professions, now's the time. Saren will teach all Primary and Secondary professions, he can be found upstairs. You can also learn Cooking from Quarelestra nearby.  \n\nClick this step to continue.|M|48.93,46.86|
+h Falconwing Square|QID|8472|M|48.1,47.7|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|
 A Unstable Mana Crystals|QID|8463|M|48.2,46.0|N|From Aeldon Sunbrand, back outside of the inn.|
-A WANTED: Thaelis the Hungerer|QID|8468|M|48.2,46.3|N|From 'Wanted: Thaelis the Hungerer' signpost.|
+A Wanted: Thaelis the Hungerer|QID|8468|M|48.2,46.3|N|From 'Wanted: Thaelis the Hungerer' signpost.|
 A Major Malfunction|QID|8472|M|47.3,46.3|N|From Magister Jaronis.|
 C Major Malfunction|QID|8472|M|45.,40.5|N|Kill and loot Arcane Patrollers for the Arcane Cores.|S|
 C Unstable Mana Crystals|QID|8463|M|45.386,42|N|Look for light beams that come out of the boxes.|S|NC|
@@ -112,7 +99,7 @@ C Unstable Mana Crystals|QID|8463|M|45.38,40.85|N|Look for light beams that come
 C Major Malfunction|QID|8472|M|45,40.5|N|Finish killing and looting Arcane Patrollers for the Arcane Cores.|US|
 T Major Malfunction|QID|8472|M|47.3,46.3|N|To Magister Jaronis.|
 A Delivery to the North Sanctum|QID|8895|M|47.3,46.3|N|From Magister Jaronis.|PRE|8472|
-T WANTED: Thaelis the Hungerer|QID|8468|M|47.8,46.6|N|To Sergeant Kan'ren.|
+T Wanted: Thaelis the Hungerer|QID|8468|M|47.8,46.6|N|To Sergeant Kan'ren.|
 T Unstable Mana Crystals|QID|8463|M|48.2,46.0|N|To Aeldon Sunbrand.|
 A Darnassian Intrusions|QID|9352|M|48.2,46.0|N|From Aeldon Sunbrand.|PRE|8463|
 T Delivery to the North Sanctum|QID|8895|M|44.6,53.1|N|To Ley-Keeper Caidanis.|
@@ -126,9 +113,10 @@ C Arcane Instability|QID|8486|M|36,58|N|Finish killing the Manawraith and Mana S
 T Darnassian Intrusions|QID|9352|M|36.7,57.4|N|To Ley-Keeper Velania.|
 T Arcane Instability|QID|8486|M|36.7,57.4|N|To Ley-Keeper Velania.|
 A Fish Heads, Fish Heads...|QID|8884|M|31.49,53.78;30.20,58.37|CC|N|From Hathvelion Sungaze. Go around the northside of the mountain.|
-C Fish Heads, Fish Heads...|QID|8884|M|27,59.5|N|Kill murlocs for the 8 fish heads.|
+C Fish Heads, Fish Heads...|QID|8884|M|27,59.5|N|Kill murlocs for the 8 fish heads.|S|
 l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|27,59.5|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters.|
 A Captain Kelisendra's Lost Rutters|QID|8887|N|From Captain Kelisendra's Lost Rutters.|U|21776|O|
+C Fish Heads, Fish Heads...|QID|8884|M|27,59.5|N|Kill murlocs for the 8 fish heads.|US|
 T Fish Heads, Fish Heads...|QID|8884|M|29.89,58.52|N|To Hathvelion Sungaze.|
 A The Ring of Mmmrrrggglll|QID|8885|M|29.89,58.52|N|From Hathvelion Sungaze.|PRE|8884|
 H Falconwing Square|QID|8482|N|Hearth to Falconwing Square.|
@@ -152,10 +140,8 @@ C Swift Discipline - Apprentice Meledor|QID|9066|M|44.9,61.0|QO|1|N|Target Appre
 C The Dead Scar|QID|8475|M|51.2,56.3|N|Go through the Dead Scar and kill 8 Plaguebone Pillagers.\n\nBe careful of the pack of Rotlimb Cannibals and also avoid the center of the Dead Scar as both can be difficult for an in-level player to survive.|
 T The Dead Scar|QID|8475|M|50.3,50.8|N|To Ranger Jaela.|
 T Swift Discipline|QID|9066|M|55.7,54.5|N|To Instructor Antheol.|
-F Falconwing Square|QID|8483|M|54.37,50.73|N|Fly to Falconwing Square.|
 T The Dwarven Spy|QID|8483|M|48.2,46.0|N|To Aeldon Sunbrand.|
-A Fairbreeze Village|QID|9256|N|From Aeldon Sunbrand.|LEAD|8892|PRE|8483|
-f Fairbreeze Village|QID|9256|M|43.94,69.98|N|Run to Fairbreeze Village and get the flight point from Skymaster Brightdawn.|
+A Fairbreeze Village|QID|9256|M|48.2,46.0|N|From Aeldon Sunbrand.|LEAD|8892|PRE|8483|
 A Pelt Collection|QID|8491|M|44.7,69.6|N|From Velan Brightoak.|
 A Saltheril's Haven|QID|9395|M|44.0,70.8|N|From Magistrix Landra Dawnstrider.|LEAD|9067|
 A The Wayward Apprentice|QID|9254|M|44.0,70.8|N|From Magistrix Landra Dawnstrider.|LEAD|8487|
@@ -163,23 +149,11 @@ T Fairbreeze Village|QID|9256|M|43.4,70.8|N|To Ranger Degolien. Up the ramp.|
 A Situation at Sunsail Anchorage|QID|8892|M|43.3,70.8|N|From Ranger Degolien|
 A Ranger Sareyn|QID|9358|M|43.7,71.2|N|From Marniel Amberlight.|LEAD|9252|
 h Fairbreeze Village|QID|9395|N|With Marniel Amberlight.|
-A Goods from Silvermoon City|QID|9130|M|43.7,71.54|N|From Sathiel.|
 r Repair/Sell Junk|QID|9395|M|43.7,71.54|N|At Sathiel.\n\nRight click this step to continue.|
 C Pelt Collection|QID|8491|M|46.00,67.00|N|Kill springpaws.|S|
 T Saltheril's Haven|QID|9395|M|38.1,73.6|N|To Lord Saltheril.|
 A The Party Never Ends|QID|9067|M|38.1,73.6|N|From Lord Saltheril.|
 B Bundle of Fireworks|QID|9067|M|44.10,70.40|QO|3|N|Buy a Bundle of fireworks from Halis Dawnstrider at Fairbreeze Village.|
-T Goods from Silvermoon City|QID|9130|M|44,70|N|To Skymaster Brightdawn.|
-A Fly to Silvermoon City|QID|9133|M|44,70|N|From Skymaster Brightdawn.|PRE|9130|
-F Silvermoon City|QID|9133|M|44,70|N|Ask Skymaster Brightdawn to fly you to Silvermoon City.|
-R Silvermoon City|QID|9133|M|72.37,90.93|Z|Silvermoon City|N|Run east to Silvermoon City.|
-T Fly to Silvermoon City|QID|9133|M|69.26,77.04;68.28,74.08;66.50,73.43;54,71|CS|Z|Silvermoon City|N|To Sathren Azuredawn.|
-A Skymistress Gloaming|QID|9134|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn.|PRE|9133|
-B Suntouched Special Reserve|QID|9067|M|79.70,58.40|Z|Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched. Also, visit your trainer if you need to.|
-T Skymistress Gloaming|QID|9134|M|54.38,50.79|N|To Skymistress Gloaming.|
-A Return to Sathiel|QID|9135|M|54.38,50.79|N|From Skymistress Gloaming.|PRE|9134|
-F Fairbreeze Village|QID|9135|M|54.38,50.79|N|Fly to Fairbreeze Village, or just hearth.|
-T Return to Sathiel|QID|9135|M|43.69,71.51|N|To Sathiel.|
 T Captain Kelisendra's Lost Rutters|QID|8887|M|36.4,66.7|N|To Captain Kelisendra. Follow the road west until you reach Sunsail Anchorage.|
 A Grimscale Pirates!|QID|8886|M|36.4,66.7|N|From Captain Kelisendra.|
 A Lost Armaments|QID|8480|M|36.4,66.7|N|From Velendris Whitemorn.|
@@ -233,7 +207,8 @@ A Abandoned Investigations|QID|8891|M|69.2,52.1|N|From Magister Duskwither's Jou
 C Deactivating the Spire|QID|8889|M|69.20,52.10|QO|3|N|Head up the stairs again, then deactivate the Third Power Source.|NC|
 T Deactivating the Spire|QID|8889|M|67.8,56.5|N|Click the Orb of Translocation to head back to ground level, then head to Apprentice Loralthalis.|
 A Word from the Spire|QID|8890|M|67.8,56.5|N|From Apprentice Loralthalis.|PRE|8889|
-;N Visit your trainer if you want|QID|8890|N|since we are by Silvermoon City. Right-click the box to continue.|
+N Visit your trainer if you want|QID|8890|N|since we are by Silvermoon City. Right-click the box to continue.|
+B Suntouched Special Reserve|QID|9067|M|79.70,58.40|Z|Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched. Also, visit your trainer if you need to.|
 T Word from the Spire|QID|8890|M|60.3,61.4|N|To Magister Duskwither. Back at farstrider retreat, up the right ramp.|
 T Abandoned Investigations|QID|8891|M|60.3,61.4|N|To Magister Duskwither.|
 C Amani Encroachment|QID|8476|N|Kill trolls that you need for Amani Encroachment while doing the next quests.|S|
