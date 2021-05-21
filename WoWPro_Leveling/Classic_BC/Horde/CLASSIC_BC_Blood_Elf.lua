@@ -64,20 +64,19 @@ r Empty your bags|ACTIVE|8334|M|37.86,19.31|N|Don't forget to repair and empty y
 
 T Aggression|QID|8334|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
 A Felendren the Banished|QID|8335|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
-R Falthrien Academy|ACTIVE|8335^8344|M|32.58,25.55|
+R Falthrien Academy|AVAILABLE|8338|M|32.58,25.55|
 K Felendren the Banished|QID|8335|M|39.03,63.98|QO|1|N|Kill Arcane Wraiths|R|BloodElf|S|
-C Tainted Arcane Sliver|QID|8338|L|20483|N|Kill and loot a Tainted Arcane Wraith, it will drop a Tainted Arcane Sliver.|R|BloodElf|S|
+C Tainted Arcane Sliver|QID|8338|L|20483|N|Kill a Tainted Arcane Wraith and loot a Tainted Arcane Sliver from it.|R|BloodElf|S|
 A Tainted Arcane Sliver|QID|8338|N|Click on the Tainted Arcane Sliver to start the quest.|U|20483|R|BloodElf|O|
 C Windows to the Source|QID|8344|M|31.68,26.46|QO|1;2|N|Kill Arcane Wraiths to collect the Wraith Essence and Tainted Wraiths to collect the Tainted Essence.|R|BloodElf|C|Warlock|S|
-K Felendren the Banished|QID|8335|M|31.68,26.46;30.76,26.34;30.83,27.15|CC|QO|1|N|Go up the ramps to the top of Falthrien Academy. All paths lead to the top, your choice doesn't matter. At the top, clear any wraiths that might be there, kill Felendren, and loot his head.|R|BloodElf|
-C Tainted Arcane Sliver|QID|8338|L|20483|N|Kill and loot the Tainted Arcane Wraiths until they drop the Tainted Arcane Sliver.|R|BloodElf|US|
-C Felendren the Banished|QID|8335|M|39.03,63.98|N|Kill another Tainted Arcane Wraith|R|BloodElf|
-C Felendren the Banished|QID|8335|M|39.03,63.98|N|Finish killing the Arcane Wraiths|R|BloodElf|US|
+C Felendren the Banished|QID|8335|M|31.68,26.46;30.76,26.34;30.83,27.15|CC|QO|3|N|Go up the ramps to the top of Falthrien Academy. All paths lead to the top, your choice doesn't matter. At the top, clear any wraiths that might be there, kill Felendren, and loot his head.|R|BloodElf|
 C Windows to the Source|QID|8344|M|31.68,26.46|QO|1;2|N|Kill Arcane Wraiths to collect the Wraith Essence and Tainted Wraiths to collect the Tainted Essence.|R|BloodElf|C|Warlock|US|
+K Felendren the Banished|QID|8335|M|39.03,63.98|QO|1;2|N|Finish killing the Arcane Wraiths and Tainted Arcane Wraiths.|R|BloodElf|US|
+C Tainted Arcane Sliver|QID|8338|L|20483|N|Kill Tainted Arcane Wraiths until one drops a Tainted Arcane Sliver.|R|BloodElf|US|
 
-L Level 4|QID|8347|LVL|4|N|You need to be Level 4 to continue this guide.|R|BloodElf|
-H Sunstrider Isle|ACTIVE|8338|M|37.75,21.10|N|Run back if your Hearth is on cooldown.|R|BloodElf|
+H Sunstrider Isle|ACTIVE|8338|M|38.24,20.56|N|Run back if your Hearth is on cooldown.|R|BloodElf|
 T Windows to the Source|QID|8344|M|38.93,21.44|N|To Summoner Teli'Larien.|R|BloodElf|C|Warlock|
+= Train|ACTIVE|8338|M|38.64,20.98|N|Go learn your level 4 spells/skills.\n[color=FF0000]NOTE: [/color]From here on out, every 2 levels, go visit your class trainer.\n\nCheck this step off to continue.|R|BloodElf|
 T Tainted Arcane Sliver|QID|8338|M|37.20,18.95|N|To Arcanist Helion.|R|BloodElf|
 r Repair/Sell|ACTIVE|8335|M|37.14,19.03|N|Repair and sell unwanted loot to Jainthess Thelryn.\nClose this step to continue.|R|BloodElf|
 
@@ -85,7 +84,7 @@ T Felendren the Banished|QID|8335|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf
 A Aiding the Outrunners|QID|8347|M|35.37,22.52|N|From Lanthan Perilon.|LEAD|9704|PRE|8335|R|BloodElf|
 R Dawning Lane|ACTIVE|8347|AVAILABLE|9704|M|39.85,31.35|N|Follow the road to the bridge south of you.\n[color=FF0000]NOTE: [/color]You are now leaving the Blood Elf starting area and Sunstrider Isle.|
 T Aiding the Outrunners|QID|8347|M|40.42,32.21|N|To Outrunner Alarion.|R|BloodElf|
-A Slain by the Wretched|QID|9704|M|68.37,79.58|N|From Outrunner Alarion.|R|BloodElf|
+A Slain by the Wretched|QID|9704|M|40.42,32.21|N|From Outrunner Alarion.|R|BloodElf|
 ;The guide continues at this point for all races
 ; This R step may need tweaking
 R Eversong Woods|QID|9704|M|56.95,49.60|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|
@@ -93,28 +92,29 @@ R Eversong Woods|QID|9704|M|56.95,49.60|N|Head to to the Ruins of Silvermoon in 
 ;F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
 T Slain by the Wretched|QID|9704|M|42.02,35.66|N|To Slain Outrunner.|
 A Package Recovery|QID|9705|M|42.02,35.66|N|From Slain Outrunner.|PRE|9704|
-T Package Recovery|QID|9705|M|40.42,32.21|N|To Outrunner Alarion.|
+T Package Recovery|QID|9705|M|40.42,32.21|N|Return to Outrunner Alarion.|
 A Completing the Delivery|QID|8350|M|40.42,32.21|N|From Outrunner Alarion.|PRE|9705|
 R Falconwing Square|ACTIVE|8350|M|46.42,45.93|N|Follow the road west.|
 ; FP doesn't exist yet
 ;f Falconwing Square|ACTIVE|8350|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles.|TAXI|-Falconwing Square|
-T Completing the Delivery|QID|8350|M|48.1,47.7|N|To Innkeeper Delaniel.|
-h Falconwing Inn|QID|8472|M|48.1,47.7|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|
+T Completing the Delivery|QID|8350|M|48.16,47.65|N|To Innkeeper Delaniel.|
+h Falconwing Square|AVAILABLE|8472|M|48.16,47.65|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|
 ; Saren wasn't added until Cataclysm
 ;N Professions|QID|8472|N|If you plan on learning any professions, now's the time. Saren will teach all Primary and Secondary professions, he can be found upstairs. You can also learn Cooking from Quarelestra nearby.  \n\nClick this step to continue.|M|48.93,46.86|
-A Unstable Mana Crystals|QID|8463|M|48.2,46.0|N|From Aeldon Sunbrand, back outside of the inn.|
-A WANTED: Thaelis the Hungerer|QID|8468|M|48.2,46.3|N|From 'Wanted: Thaelis the Hungerer' signpost.|
-A Major Malfunction|QID|8472|M|47.3,46.3|N|From Magister Jaronis.|
-C Major Malfunction|QID|8472|M|45.,40.5|N|Kill and loot Arcane Patrollers for the Arcane Cores.|S|
-C Unstable Mana Crystals|QID|8463|M|45.386,42|N|Look for light beams that come out of the boxes.|S|NC|
-C Thaelis the Hungerer|QID|8468|M|45.00,38.40|N|Kill and loot Thaelis the Hungerer.\n\nBe careful to pull all the Wretched Urchins around him first before attacking.|T|Thaelis the Hungerer|
-C Unstable Mana Crystals|QID|8463|M|45.38,40.85|N|Look for light beams that come out of the boxes.|US|NC|
-C Major Malfunction|QID|8472|M|45,40.5|N|Finish killing and looting Arcane Patrollers for the Arcane Cores.|US|
-T Major Malfunction|QID|8472|M|47.3,46.3|N|To Magister Jaronis.|
-A Delivery to the North Sanctum|QID|8895|M|47.3,46.3|N|From Magister Jaronis.|PRE|8472|
-T WANTED: Thaelis the Hungerer|QID|8468|M|47.8,46.6|N|To Sergeant Kan'ren.|
-T Unstable Mana Crystals|QID|8463|M|48.2,46.0|N|To Aeldon Sunbrand.|
-A Darnassian Intrusions|QID|9352|M|48.2,46.0|N|From Aeldon Sunbrand.|PRE|8463|
+A Unstable Mana Crystals|QID|8463|M|48.16,46.00|N|From Aeldon Sunbrand, back outside of the inn.|
+A Wanted: Thaelis the Hungerer |QID|8468|M|48.17,46.30|N|From 'Wanted: Thaelis the Hungerer' signpost.| ; Extra space required for auto-accept
+A Major Malfunction|QID|8472|M|47.25,46.31|N|From Magister Jaronis.|
+R Ruins of Silvermoon|ACTIVE|8463^8468^8472|M|46.26,42.27|N|Leave Falconwing Square and head into the center of the Ruins of Silvermoon.|
+C Major Malfunction|QID|8472|M|46.26,42.27|N|Kill and loot Arcane Patrollers for the Arcane Cores.|S|
+C Unstable Mana Crystals|QID|8463|M|45.38,40.85|N|Loot them from Unstable Mana Crystal Crates. They can be found all around the Ruins of Silvermoon.\n[color=FF0000]NOTE: [/color]Look for light beams that come out of the crates.|S|NC|
+C Thaelis the Hungerer|QID|8468|M|45.00,38.40|N|Kill and loot Thaelis the Hungerer.\n[color=FF0000]NOTE: [/color]Be careful to pull all the Wretched Urchins around him first before attacking.|T|Thaelis the Hungerer|
+C Unstable Mana Crystals|QID|8463|M|45.38,40.85|N|Loot them from Unstable Mana Crystal Crates. They can be found all around the Ruins of Silvermoon.\n[color=FF0000]NOTE: [/color]Look for light beams that come out of the crates.|US|NC|
+C Major Malfunction|QID|8472|M|45,40.5|N|Finish killing Arcane Patrollers for the Arcane Cores.|US|
+T Major Malfunction|QID|8472|M|47.25,46.31|N|To Magister Jaronis.|
+A Delivery to the North Sanctum|QID|8895|M|47.25,46.31|N|From Magister Jaronis.|PRE|8472|
+T WANTED: Thaelis the Hungerer |QID|8468|M|47.77,46.58|N|To Sergeant Kan'ren.| ; this step won't auto-select or turn-in (with or without the extra space)
+T Unstable Mana Crystals|QID|8463|M|48.16,46.00|N|To Aeldon Sunbrand.|
+A Darnassian Intrusions|QID|9352|M|48.16,46.00|N|From Aeldon Sunbrand.|PRE|8463|
 T Delivery to the North Sanctum|QID|8895|M|44.6,53.1|N|To Ley-Keeper Caidanis.|
 A Malfunction at the West Sanctum|QID|9119|M|44.6,53.1|N|From Ley-Keeper Caidanis.|PRE|8895|
 T Malfunction at the West Sanctum|QID|9119|M|36.7,57.4|N|To Ley-Keeper Velania.|
@@ -132,8 +132,8 @@ A Captain Kelisendra's Lost Rutters|QID|8887|N|From Captain Kelisendra's Lost Ru
 T Fish Heads, Fish Heads...|QID|8884|M|29.89,58.52|N|To Hathvelion Sungaze.|
 A The Ring of Mmmrrrggglll|QID|8885|M|29.89,58.52|N|From Hathvelion Sungaze.|PRE|8884|
 H Falconwing Square|QID|8482|N|Hearth to Falconwing Square.|
-T Incriminating Documents|QID|8482|M|48.2,46.0|N|To Aeldon Sunbrand.|
-A The Dwarven Spy|QID|8483|M|48.2,46.0|N|From Aeldon Sunbrand.|PRE|8482|
+T Incriminating Documents|QID|8482|M|48.16,46.00|N|To Aeldon Sunbrand.|
+A The Dwarven Spy|QID|8483|M|48.16,46.00|N|From Aeldon Sunbrand.|PRE|8482|
 C The Dwarven Spy|QID|8483|M|44.60,53.30|L|20764|N|Speak to Prospector Anvilward. He will walk into the North Sanctum, when he is at the top, he will attack you. Be sure to be full health and buffed before you talk to him. Once you kill him, loot his head.|CHAT|
 A Roadside Ambush|QID|9035|M|45.2,56.4|N|From Apprentice Ralen.|LEAD|9062|
 T Roadside Ambush|QID|9035|M|44.9,61.0|N|To Apprentice Meledor.|
@@ -153,7 +153,7 @@ C The Dead Scar|QID|8475|M|51.2,56.3|N|Go through the Dead Scar and kill 8 Plagu
 T The Dead Scar|QID|8475|M|50.3,50.8|N|To Ranger Jaela.|
 T Swift Discipline|QID|9066|M|55.7,54.5|N|To Instructor Antheol.|
 F Falconwing Square|QID|8483|M|54.37,50.73|N|Fly to Falconwing Square.|
-T The Dwarven Spy|QID|8483|M|48.2,46.0|N|To Aeldon Sunbrand.|
+T The Dwarven Spy|QID|8483|M|48.16,46.00|N|To Aeldon Sunbrand.|
 A Fairbreeze Village|QID|9256|N|From Aeldon Sunbrand.|LEAD|8892|PRE|8483|
 f Fairbreeze Village|QID|9256|M|43.94,69.98|N|Run to Fairbreeze Village and get the flight point from Skymaster Brightdawn.|
 A Pelt Collection|QID|8491|M|44.7,69.6|N|From Velan Brightoak.|
