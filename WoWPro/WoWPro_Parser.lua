@@ -257,7 +257,10 @@ DefineTag("ERROR","error","string",nil,nil)
 
 
 -- Mapping Tags
-DefineTag("M","map","string",nil,nil)
+DefineTag("M","map","string",nil, function(text, i)
+    return WoWPro:ValidateMapCoords(nil,nil,nil,text)
+end)
+
 DefineTag("Z","zone","string",nil,nil)
 DefineTag("TZ","targetzone","string",nil,nil)
 DefineTag("IZ","inzone","string",nil,nil)

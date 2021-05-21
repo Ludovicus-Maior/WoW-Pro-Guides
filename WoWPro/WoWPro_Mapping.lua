@@ -393,24 +393,31 @@ function WoWPro:ValidateMapCoords(guide,action,step,coords)
         for j=1,numcoords do
             local jcoord = select(numcoords-j+1, (";"):split(coords))
             if not jcoord or jcoord == "" then
-                WoWPro:Error("Missing coordinate, %d/%d in guide %s, line [%s %s].",numcoords-j+1,numcoords,guide,action,step)
-                return
+                if guide then
+                    WoWPro:Error("Missing coordinate, %d/%d in guide %s, line [%s %s].",numcoords-j+1,numcoords,guide,action,step)
+                end
+                return false
             end
             local x = tonumber(jcoord:match("([^|]*),"))
             if not x or x > 100  then
-                WoWPro:Error("Bad X coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
-                return
+                if guide then
+                    WoWPro:Error("Bad X coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
+                end
+                return false
             end
             local y = tonumber(jcoord:match(",([^|]*)"))
             if not y or y > 100 then
-                WoWPro:Error("Bad Y coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
-                return
+                if guide then
+                    WoWPro:Error("Bad Y coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
+                end
+                return false
             end
         end
     else
-        WoWPro:Error("Map table is nil, %d/%d in guide %s, line [%s %s].",1,1,guide,action,step)
-        return
+        WoWPro:Error("Map tag is nil, %d/%d in guide %s, line [%s %s].",1,1,guide,action,step)
+        return false
     end
+    return true
 end
 
 
