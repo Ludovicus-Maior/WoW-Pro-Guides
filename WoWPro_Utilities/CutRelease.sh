@@ -1,4 +1,4 @@
-#!/bin/sh -xv
+#!/bin/sh
 
 CLASSIC=(WoWPro WoWPro_Leveling)
 BCC=(WoWPro WoWPro_Leveling WoWPro_Dailies)
@@ -80,10 +80,6 @@ if [ "$1" != "--trial" ] ; then
     ${DEBUG} git tag ${nrelease}
     ${DEBUG} git push origin
     ${DEBUG} git push --tags
-else
-    ${DEBUG} git tag ${nrelease}
-    ${DEBUG} git push --tags
-    ${DEBUG} ln -s "${ZIP_FILE}" "WoWPro v${nrelease}-classic.zip"
 fi
 
 if [ -r .s3cfg ] ; then
