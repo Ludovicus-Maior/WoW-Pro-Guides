@@ -66,10 +66,10 @@ A The People's Militia |QID|13|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|12|Z|
 C Flask of Oil|AVAILABLE|103|L|814 5|S|N|Kill any Harvests to collect Flasks of Oil.|Z|Westfall|
 C Hops|ACTIVE|116|L|1274 5|S|N|Kill any Harvesters to collect Hops.|Z|Westfall|
 C The Defias Brotherhood|ACTIVE|142|L|1381|S|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |Z|Westfall|
-C Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|L|2998|N|Loot the Compass from the chest at this location.|Z|Westfall|
+C Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|L|2998|N|Loot the Compass from the chest at this location.|
 K Hops|ACTIVE|116|L|1274 5|US|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|Z|Westfall|
 K Flasks of Oil|AVAILABLE|103|M|46.40,66.61|L|814 5|US|N|Finish collecting the Flasks of Oil from the Harvesters at any of the farms in Westfall|Z|Westfall|
-C The People's Militia|QID|13|Z|Westfall|M|38.20,57.00;34.61,43.38|CN|QO|1;2|N|Kill Defias Looters and Pillagers until you finish this quest. If this area is overcamped, move to the Quarry or Moonbrook.|Z|Westfall|
+C The People's Militia|QID|13|Z|Westfall|M|38.20,57.00;34.61,43.38|CN|QO|1;2|N|Kill Defias Looters and Pillagers until you finish this quest. If this area is overcamped, move to the Quarry or Moonbrook.|
 T The People's Militia|QID|13|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|Westfall|
 A The People's Militia|QID|14|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|13|Z|Westfall|
 R Moonbrook|ACTIVE|14|M|45.63,64.86|N|Run to Moonbrook.|CC|Z|Westfall|
@@ -85,7 +85,7 @@ A The Coast Isn't Clear|QID|152|M|30.01,86.02|N|From Captain Grayson.|Z|Westfall
 A The Coastal Menace|QID|104|M|30.01,86.02|N|From Captain Grayson.|Z|Westfall|
 T Keeper of the Flame|QID|103|M|30.01,86.02|N|To Captain Grayson.|Z|Westfall|
 C The Coast Isn't Clear|QID|152|S|N|As you run along the beach kill the required murlocs|Z|Westfall|
-C The Coastal Menace|QID|104|M|35.23,85.47;26.34,66.12|Z|Westfall|CN|QO|1|N|Old Murk-Eye pathes between the two points.|T|Old Murk-Eye|Z|Westfall|
+C The Coastal Menace|QID|104|M|35.23,85.47;26.34,66.12|CN|QO|1|N|Old Murk-Eye pathes between the two points.|T|Old Murk-Eye|Z|Westfall|
 C The Coast Isn't Clear|QID|152|M|34.60,84.9;27.1,52.6|QO|3;4|CN|US|N|The Tidehunters and Oracles are at the south end of Longshore. Keep an eye out for Old Murk-Eye to prevent him sneaking up on you.|Z|Westfall|
 C The Coast Isn't Clear|QID|152|M|25.70,49.80;35.80,20.00|CN|QO|2|N|The Warriors are found along the coast between The Quarry and north to Jangolode Mine.|Z|Westfall|
 C The Coast Isn't Clear|QID|152|M|42.00,12.00;57.00,8.30|CN|QO|1|N|Coastrunners are found at the north end of Longshore.|Z|Westfall|
@@ -99,7 +99,7 @@ A Captain Sander's Hidden Treasure|M|40.51,47.80|QID|139|N|From A Broken Barrel.
 T Captain Sander's Hidden Treasure|M|40.63,17.03|QID|139|N|To Captain Sander's Jug, at the base of Windmill overlooking the coast.|Z|Westfall|
 A Captain Sander's Hidden Treasure|M|40.63,17.03|QID|140|N|From Captain Sander's Jug.|PRE|139|Z|Westfall|
 T Captain Sander's Hidden Treasure|M|25.97,16.92|QID|140|N|To Captain Sander's Locked Chest, which requires swimming to an offshore island.|Z|Westfall|
-C The Coast Isn't Clear|QID|152|M|35.00,86.00|Z|Westfall|N|Go further south and kill the rest of the murlocs for this quest.|Z|Westfall|
+C The Coast Isn't Clear|QID|152|M|35.00,86.00|Z|Westfall|N|Go further south and kill the rest of the murlocs for this quest.|
 T The Coast Isn't Clear|QID|152|M|30.01,86.02|N|To Captain Grayson.|Z|Westfall|
 T The Coastal Menace|QID|104|M|30.01,86.02|N|To Captain Grayson.|Z|Westfall|
 C The Defias Brotherhood|ACTIVE|142|L|1381|M|44.48,69.70|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|Z|Westfall|
@@ -115,7 +115,7 @@ A The Defias Brotherhood|QID|166|M|56.3,47.5|N|From Gryan Stoutmantle.|PRE|155|Z
 A Red Silk Bandanas|QID|214|M|56.67,47.34|N|From Scout Riell on top of the tower.|PRE|155|Z|Westfall|
 
 F Stormwind|ACTIVE|399|M|56.55,52.65|N|Fly to Stormwind.|TZ|Stormwind City|Z|Westfall|
-T Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|To Baros Alexston.|Z|Westfall|
+T Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|To Baros Alexston.|
 A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
 A Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
 A Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
@@ -169,8 +169,8 @@ R Redridge Mountains|AVAILABLE|89|N|Go to Redridge Mountains.|M|95.17,72.34|
 A The Everstill Bridge|QID|89|M|32.14,48.64|N|From Foreman Oslow.|PRE|125|Z|Redridge Mountains|
 T Ink Supplies|QID|345|M|32.2,48.6|N|To Foreman Oslow.|LVL|20|Z|Redridge Mountains|
 A Rethban Ore|QID|347|M|32.14,48.64|N|From Foreman Oslow.|PRE|345|LVL|20|Z|Redridge Mountains|
-t Messenger to Westfall|QID|144|M|29.99,44.44|Z|Redridge Mountains|N|To Magistrate Solomon.|Z|Redridge Mountains|
-A Messenger to Darkshire|QID|145|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|144|Z|Redridge Mountains|
+t Messenger to Westfall|QID|144|M|29.99,44.44|Z|Redridge Mountains|N|To Magistrate Solomon.|
+A Messenger to Darkshire|QID|145|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|144|
 A Selling Fish|QID|127|M|27.8,47.3|N|From Dockmaster Baren.|Z|Redridge Mountains|
 A Murloc Poachers|QID|150|M|27.8,47.3|N|From Dockmaster Baren.|Z|Redridge Mountains|
 A Redridge Goulash|QID|92|M|22.68,43.83|N|From Chef Breanna.|Z|Redridge Mountains|
@@ -459,8 +459,5 @@ A The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Pur
 A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|Z|Ashenvale|
 T The Ruins of Stardust|QID|1034|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
 N BFD Dungeon|QID|1198|N|Last Chance to do BFD before we leave. Time to head to wetlands and gain a couple levels.|
-
-
-
 ]]
 end)
