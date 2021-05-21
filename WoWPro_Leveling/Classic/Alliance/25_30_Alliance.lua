@@ -8,7 +8,8 @@ WoWPro:GuideName(guide, 'Alliance Leveling 25-30')
 WoWPro:GuideLevels(guide, 25,30)
 WoWPro:GuideNextGuide(guide, 'ClassicAlliance3041')
 WoWPro:GuideSteps(guide, function()
-return [[;This is a rewrite and homogenization of existing 25-30 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
+return [[
+;This is a rewrite and homogenization of existing 25-30 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
 ; Wetlands 25-26
 b Wetlands|QID|299|M|32.42,43.74|Z|Darkshore|N|Take the boat to Menethil from Auberdine.|
 A Reclaiming Goods|QID|281|M|8.3,58.6|N|From Karl Boran.|PRE|279|Z|Wetlands|
@@ -354,11 +355,11 @@ R Moonwell|ACTIVE|1026|M|54.42,35.39;61.00,44.20;57.30,55.80;51.40,52.50;50.60,4
 T Raene's Cleansing|QID|1026|M|53.50,46.30|CS|N|To Shael'dryn.|Z|Ashenvale|
 A Raene's Cleansing|QID|1027|M|53.50,46.30|N|From Shael'dryn.|PRE|1026|Z|Ashenvale|
 R Night Run|AVAILABLE|1031|M|50.60,46.90;51.40,52.50;57.30,55.80;65.50,43.80|CS|N|Go back around the hill and around Raynewood Retreat. Cross over the road to head up the hill towards Night Run.|Z|Ashenvale|
-C The Tower of Althalaxx|QID|1140|M|66.63,57|Z|Ashenvale|CC|QO|1|N|Make your way through the Satyr in Night Run to click on the Red Crystal in the camp.|Z|Ashenvale|
+C The Tower of Althalaxx|QID|1140|M|66.63,57|CC|QO|1|N|Make your way through the Satyr in Night Run to click on the Red Crystal in the camp.|Z|Ashenvale|
 T Vile Satyr! Dryads in Danger!|QID|1021|M|78.32,44.85|N|Head north-east out of Night Run and cross the lake at Xavian.\nAnilia is the wounded Dryad in the middle of a Satyr camp.|Z|Ashenvale|
 A The Branch of Cenarius|QID|1031|M|78.2,44.8|N|From Anilia.|PRE|1021|Z|Ashenvale|
 C The Branch of Cenarius|QID|1031|M|78,42.48|N|Kill Geltharis in the clearing to the North.|Z|Ashenvale|
-C The Tower of Althalaxx|QID|1140|M|81.59,48.58|Z|Ashenvale|QO|2|N|Make your way through the Satyr in Sayrnaar to click on the Red Crystal behind the red statue.|Z|Ashenvale|
+C The Tower of Althalaxx|QID|1140|M|81.59,48.58|QO|2|N|Make your way through the Satyr in Sayrnaar to click on the Red Crystal behind the red statue.|Z|Ashenvale|
 T Kayneth Stillwind|QID|4581|M|85.28,44.72|N|From Shindrell Swiftfire.|Z|Ashenvale|
 A Forsaken Diseases|QID|1011|M|85.28,44.72|N|From Kayneth Stillwind.|Z|Ashenvale|
 C Forsaken Diseases|QID|1011|M|75.3,72.22|N|Head south along the road past Splintertree Post. Loot a Bottle of Disease from the Forsaken camp.|Z|Ashenvale|
@@ -372,7 +373,7 @@ K Insane Druids|QID|1012|ACTIVE|1012|M|74.60,76.40;77.2,73.98|CS|QO|1|N|Head sou
 K Insane Druids|QID|1012|ACTIVE|1012|M|77.97,72.73|QO|2|N|Drop down from bridge and go down the tunner on our left. Fall down into another tunnel and Uthil Mooncall will be to your right.|Z|Ashenvale|
 K Insane Druids|QID|1012|ACTIVE|1012|M|74.78,74.33|QO|3|N|Go straight out, follow the tunnel ahead. At the end of the tunnel head up the ramp to your left onto the platform in the center of the room. Take the right-side bridge and follow the tunnel that wraps around the room to find Mavoris Cloudsbreak.|Z|Ashenvale|
 T Insane Druids|QID|1012|M|85.28,44.72|N|Take the tunnel to the south, follow it up and to the right to return to the entrance. Return north along the road to Kayneth Stillwind.|Z|Ashenvale|
-f Talrendis Point|QID|1027|M|11.90,77.59|Z|Azshara|N|Grab the Azshara flightpoint while you're here. From Jarrodenus.|Z|Ashenvale|
+f Talrendis Point|QID|1027|M|11.90,77.59|Z|Azshara|N|Grab the Azshara flightpoint while you're here. From Jarrodenus.|
 
 F Astranaar|QID|1027|M|11.90,77.59|Z|Azshara|N|Fly back to Astranaar.|
 T Fallen Sky Lake|QID|1035|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
@@ -471,7 +472,5 @@ N Train Here|QID|1044|M|55.6,60.42|Z|Stormwind City|N|Darnassus doesn't have Pal
 H Darnassus|QID|1044|N|Hearth or fly/boat or otherwise make your way back to Darnassus.|
 T Answered Questions|QID|1044|M|61.77,39.18|Z|Darnassus|N|To Thyn'tel Bladeweaver.|
 N Gnomeregan|QID|2929|N|If you wish to run Gnomeregan now is a good time to do so. Be sure to collect all the quests as they give a lot of experience|
-
-
 ]]
 end)
