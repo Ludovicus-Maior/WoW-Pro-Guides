@@ -3,7 +3,7 @@
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 9.0.5-A1
+## Version: 9.0.5-A2
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_Dailies.lua
