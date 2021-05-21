@@ -72,7 +72,7 @@ if [ "$1" != "--trial" ] ; then
     sed "s/## Version: ${crelease}/## Version: ${nrelease}/" < ${toc}~ > ${toc}
     done
 else
-    nrelease=crelease
+    nrelease=${crelease}
 fi
 
 echo "# OK, the current version numbers are:"
