@@ -6,10 +6,10 @@
 ### Retail
 * Nothing
 ### Classic
-* Alliance: 12-20 Eastern_Kingdom; 19-25, 25-30, 30-41, 55-60 Leveling
+* Alliance: 12-20 Eastern Kingdom; 19-25, 25-30, 30-41, 55-60 Leveling
 * Horde: 21-30 Hendo Chapter 1
 ### Burning Crusade Classic
-* Alliance: 19-25, 25-30, 30-41, 55-60 Leveling, Bloodmyst, Draenai, Eastern_Kingdom, Hellfire
+* Alliance: 19-25, 25-30, 30-41, 55-60 Leveling, Bloodmyst, Draenei, Eastern Kingdom, Hellfire
 * Horde: Blood Elf, Ghostlands, HordeChapter1
 
 # Release 9.0.5-A1 / 1.13.7-A0 / 2.5.1-A0
