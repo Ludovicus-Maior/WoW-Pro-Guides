@@ -4,6 +4,7 @@ CLASSIC=(WoWPro WoWPro_Leveling)
 BCC=(WoWPro WoWPro_Leveling WoWPro_Dailies)
 RETAIL=(WoWPro WoWPro_Leveling WoWPro_Dailies WoWPro_Profession WoWPro_WorldEvents WoWPro_Achievements)
 TRIAL=(WoWPro WoWPro_Leveling)
+ZIP_EXTRA=""
 
 # Allow debugging this horrid thing
 if [ "$1" == "--dry" ] ; then
@@ -15,10 +16,12 @@ fi
 if [ "$1" == "--classic" ] ; then
     ADDON_DIRS=${CLASSIC[@]}
     TOC_SUFFIX="-Classic"
+    ZIP_EXTRA="-classic"
     shift
 elif [ "$1" == "--tbc" ] ; then
     ADDON_DIRS=${BCC[@]}
     TOC_SUFFIX="-BCC"
+    ZIP_EXTRA="-bc"
     shift
 elif [ "$1" == "--retail" ] ; then
     ADDON_DIRS=${RETAIL[@]}
@@ -33,6 +36,7 @@ VERSION_PREFIX="v"
 if [ "$1" == "--trial" ] ; then
     ADDON_DIRS=${TRIAL[@]}
     VERSION_PREFIX="L"
+    ZIP_EXTRA=""
 fi
 
 
@@ -54,18 +58,22 @@ echo "# ${ADDON_TOCS[@]}"
 WOWPRO_TOC=${ADDON_TOCS[0]}
 crelease=`awk -F: '$1 == "## Version" {print $2}' < ${WOWPRO_TOC} | tr -d ' ' `
 echo '#' The current release is "[${crelease}]"
-echo -n '#' Please enter the new release number:
-read nrelease
-echo '#' The new release number will be "[${nrelease}]".
-echo -n "# Please ^C or abort this command or hit enter to proceed:"
-read confirm
+if [ "$1" != "--trial" ] ; then
+    echo -n '#' Please enter the new release number:
+    read nrelease
+    echo '#' The new release number will be "[${nrelease}]".
+    echo -n "# Please ^C or abort this command or hit enter to proceed:"
+    read confirm
 
-for toc in  ${ADDON_TOCS[@]} ; do
-  echo '#' Moving $toc to ${toc}~
-  mv ${toc} ${toc}~
-  echo "#" Editing  ${toc}
-  sed "s/## Version: ${crelease}/## Version: ${nrelease}/" < ${toc}~ > ${toc}
-done
+    for toc in  ${ADDON_TOCS[@]} ; do
+    echo '#' Moving $toc to ${toc}~
+    mv ${toc} ${toc}~
+    echo "#" Editing  ${toc}
+    sed "s/## Version: ${crelease}/## Version: ${nrelease}/" < ${toc}~ > ${toc}
+    done
+else
+    nrelease=crelease
+fi
 
 echo "# OK, the current version numbers are:"
 fgrep -H Version: */*.toc
@@ -80,6 +88,9 @@ if [ "$1" != "--trial" ] ; then
     ${DEBUG} git tag ${nrelease}
     ${DEBUG} git push origin
     ${DEBUG} git push --tags
+    if [ "x${ZIP_EXTRA}" != "x" ] ; then
+        ln -s "${ZIP_FILE}" ""WoWPro ${VERSION_PREFIX}${nrelease}-${ZIP_EXTRA}.zip""
+    fi
 fi
 
 if [ -r .s3cfg ] ; then
