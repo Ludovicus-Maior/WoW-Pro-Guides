@@ -101,44 +101,46 @@ A Delivery to the North Sanctum|QID|8895|M|47.25,46.31|N|From Magister Jaronis.|
 T Wanted: Thaelis the Hungerer |QID|8468|M|47.77,46.58|N|To Sergeant Kan'ren.|
 T Unstable Mana Crystals|QID|8463|M|48.16,46.00|N|To Aeldon Sunbrand.|
 A Darnassian Intrusions|QID|9352|M|48.16,46.00|N|From Aeldon Sunbrand.|PRE|8463|
-T Delivery to the North Sanctum|QID|8895|M|44.6,53.1|N|To Ley-Keeper Caidanis.|
-A Malfunction at the West Sanctum|QID|9119|M|44.6,53.1|N|From Ley-Keeper Caidanis.|PRE|8895|
-T Malfunction at the West Sanctum|QID|9119|M|36.7,57.4|N|To Ley-Keeper Velania.|
-A Arcane Instability|QID|8486|M|36.7,57.4|N|From Ley-Keeper Velania|PRE|9119|
-C Arcane Instability|QID|8486|M|36,58|N|Kill the Manawraith and Mana Stalker located around the West Sanctum.|S|
-K Darnassian Scout|QID|9352|M|34.50,60.00|L|20765|N|Kill a Darnassian Scout and loot Incriminating Documents.|
-A Incriminating Documents|QID|8482|M|33.9,58.4|N|Quest starts from the Incriminating Documents. Click the envelope.|U|20765|
-C Arcane Instability|QID|8486|M|36,58|N|Finish killing the Manawraith and Mana Stalker located around the West Sanctum.|US|
-T Darnassian Intrusions|QID|9352|M|36.7,57.4|N|To Ley-Keeper Velania.|
-T Arcane Instability|QID|8486|M|36.7,57.4|N|To Ley-Keeper Velania.|
-A Fish Heads, Fish Heads...|QID|8884|M|31.49,53.78;30.20,58.37|CC|N|From Hathvelion Sungaze. Go around the northside of the mountain.|
-C Fish Heads, Fish Heads...|QID|8884|M|27,59.5|N|Kill murlocs for the 8 fish heads.|S|
-l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|27,59.5|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters.|
-A Captain Kelisendra's Lost Rutters|QID|8887|N|From Captain Kelisendra's Lost Rutters.|U|21776|O|
-C Fish Heads, Fish Heads...|QID|8884|M|27,59.5|N|Kill murlocs for the 8 fish heads.|US|
-T Fish Heads, Fish Heads...|QID|8884|M|29.89,58.52|N|To Hathvelion Sungaze.|
-A The Ring of Mmmrrrggglll|QID|8885|M|29.89,58.52|N|From Hathvelion Sungaze.|PRE|8884|
-H Falconwing Square|QID|8482|N|Hearth to Falconwing Square.|
+T Delivery to the North Sanctum|QID|8895|M|44.63,53.13|N|To Ley-Keeper Caidanis.|
+A Malfunction at the West Sanctum|QID|9119|M|44.63,53.13|N|From Ley-Keeper Caidanis.|PRE|8895|
+T Malfunction at the West Sanctum|QID|9119|M|36.70,57.44|N|To Ley-Keeper Velania.|
+A Arcane Instability|QID|8486|M|36.70,57.44|N|From Ley-Keeper Velania|PRE|9119|
+K Arcane Instability|QID|8486|M|36.27,57.70|QO|1;2|N|Kill the Manawraith and Mana Stalker located around the West Sanctum.|S|
+K Darnassian Intrusions|ACTIVE|9352|M|34.02,58.60|L|20765|N|Kill a Darnassian Scout. You can find them on the ledge surrounding West Sanctum.\n[color=FF0000]NOTE: [/color]The Scout should drop an item, Incriminating Documents, that start another quest.|
+A Incriminating Documents|QID|8482|M|PLAYER|N|Quest starts from the Incriminating Documents. Click the envelope.|U|20765|O|
+K Arcane Instability|QID|8486|M|36.27,57.70|QO|1;2|N|Kill the Manawraith and Mana Stalker located around the West Sanctum.|US|
+T Darnassian Intrusions|QID|9352|M|36.70,57.44|N|To Ley-Keeper Velania.|
+T Arcane Instability|QID|8486|M|36.70,57.44|N|To Ley-Keeper Velania.|
+A Fish Heads, Fish Heads...|QID|8884|M|30.23,58.31|N|From Hathvelion Sungaze (He wanders around a bit).\n[color=FF0000]NOTE: [/color]Follow the road west out of West Sanctum.|
+C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|N|Kill murlocs for the 8 fish heads.|S|
+l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|26.86,59.81|L|21776|N|Kill Grimscale Murlocs until one of them drops Captain Kelisendra's Lost Rutters.|
+A Captain Kelisendra's Lost Rutters|QID|8887|M|PLAYER|N|From Captain Kelisendra's Lost Rutters.|U|21776|O|
+C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|N|Kill murlocs for the 8 fish heads.|US|
+T Fish Heads, Fish Heads...|QID|8884|M|30.23,58.31|N|To Hathvelion Sungaze.|
+A The Ring of Mmmrrrggglll|QID|8885|M|30.23,58.31|N|From Hathvelion Sungaze.|PRE|8884|
+H Falconwing Square|QID|8482|M|46.55,48.92|N|Hearth to Falconwing Square.|
 T Incriminating Documents|QID|8482|M|48.16,46.00|N|To Aeldon Sunbrand.|
 A The Dwarven Spy|QID|8483|M|48.16,46.00|N|From Aeldon Sunbrand.|PRE|8482|
-C The Dwarven Spy|QID|8483|M|44.60,53.30|L|20764|N|Speak to Prospector Anvilward. He will walk into the North Sanctum, when he is at the top, he will attack you. Be sure to be full health and buffed before you talk to him. Once you kill him, loot his head.|CHAT|
-A Roadside Ambush|QID|9035|M|45.2,56.4|N|From Apprentice Ralen.|LEAD|9062|
-T Roadside Ambush|QID|9035|M|44.9,61.0|N|To Apprentice Meledor.|
-A Soaked Pages|QID|9062|M|44.9,61.0|N|From Apprentice Meledor.|
-C Soaked Pages|QID|9062|M|44.40,61.90|L|22414|N|Dive under the bridge just in front of you, the Soaked Pages are in the river.|NC|
-T Soaked Pages|QID|9062|M|44.9,61.0|N|To Apprentice Meledor.|
-A Taking the Fall|QID|9064|M|44.9,61.0|N|From Apprentice Meledor.|PRE|9062|
-T Taking the Fall|QID|9064|M|55.7,54.5|N|To Instructor Antheol.|
-A Swift Discipline|QID|9066|M|55.7,54.5|N|From Instructor Antheol.|PRE|9064|
-A Fetch!|QID|9402|M|55.7,54.5|N|From Instructor Antheol.|R|BloodElf|C|Mage|
+r Repair/Empty|ACTIVE|8483|M|47.07,47.49|N|Visit Sleyin before you leave.|IZ|Falconwing Square|
+C The Dwarven Spy|QID|8483|M|44.57,53.30|QO|1|N|Speak to Prospector Anvilward. He will walk into the North Sanctum, when he is at the top, he will attack you. Be sure to be full health and buffed before you talk to him. Once you kill him, loot his head.|CHAT|
+A Roadside Ambush|QID|9035|M|45.19,56.43|N|From Apprentice Ralen.|LEAD|9062|
+T Roadside Ambush|QID|9035|M|44.88,61.03|N|To Apprentice Meledor.|
+A Soaked Pages|QID|9062|M|44.88,61.03|N|From Apprentice Meledor.|
+C Soaked Pages|QID|9062|M|44.35,61.99|L|22414|N|The 'Soaked Tome' is in the river under the bridge just in front of you.|
+T Soaked Pages|QID|9062|M|44.88,61.03|N|To Apprentice Meledor.|
+A Taking the Fall|QID|9064|M|44.88,61.03|N|From Apprentice Meledor.|PRE|9062|
+R Stillwhisper Pond|ACTIVE|9064|M|54.62,54.10|N|Follow the road north/east across The Dead Scar to the other side.\n[color=FF0000]NOTE: [/color]Do not linger longer the necessary in the Dead Scar.\nWatch out for the group of Rotlimb Cannibals that travel this area.|
+T Taking the Fall|QID|9064|M|55.70,54.51|N|To Instructor Antheol.|
+A Swift Discipline|QID|9066|M|55.70,54.51|N|From Instructor Antheol.|PRE|9064|
+A Fetch!|QID|9402|M|55.70,54.51|N|From Instructor Antheol.|R|BloodElf|C|Mage|
 C Fetch!|QID|9402|M|54.87,56.38|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|
-T Fetch!|QID|9402|M|55.7,54.5|N|To Instructor Antheol.|R|BloodElf|C|Mage|
-A The Dead Scar|QID|8475|M|50.3,50.8|N|From Ranger Jaela.|
-C Swift Discipline - Apprentice Ralen|QID|9066|M|45.20,56.40|QO|2|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|T|Apprentice Ralen|U|22473|NC|
-C Swift Discipline - Apprentice Meledor|QID|9066|M|44.9,61.0|QO|1|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|T|Apprentice Meledor|U|22473|NC|
-C The Dead Scar|QID|8475|M|51.2,56.3|N|Go through the Dead Scar and kill 8 Plaguebone Pillagers.\n\nBe careful of the pack of Rotlimb Cannibals and also avoid the center of the Dead Scar as both can be difficult for an in-level player to survive.|
-T The Dead Scar|QID|8475|M|50.3,50.8|N|To Ranger Jaela.|
-T Swift Discipline|QID|9066|M|55.7,54.5|N|To Instructor Antheol.|
+T Fetch!|QID|9402|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+A The Dead Scar|QID|8475|M|50.34,50.77|N|From Ranger Jaela.|
+C Apprentice Ralen|QID|9066|M|45.20,56.40|QO|2|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|T|Apprentice Ralen|U|22473|NC|
+C Apprentice Meledor|QID|9066|M|44.88,61.03|QO|1|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|T|Apprentice Meledor|U|22473|NC|
+C The Dead Scar|QID|8475|M|51.2,56.3|N|Go through the Dead Scar and kill 8 Plaguebone Pillagers.\n\nBe careful of the pack of Rotlimb Cannibals and also avoid the center of the Dead Scar as both can be difficult for an at-level player to survive.|
+T The Dead Scar|QID|8475|M|50.34,50.77|N|To Ranger Jaela.|
+T Swift Discipline|QID|9066|M|55.70,54.51|N|To Instructor Antheol.|
 T The Dwarven Spy|QID|8483|M|48.16,46.00|N|To Aeldon Sunbrand.|
 A Fairbreeze Village|QID|9256|M|48.2,46.0|N|From Aeldon Sunbrand.|LEAD|8892|PRE|8483|
 A Pelt Collection|QID|8491|M|44.7,69.6|N|From Velan Brightoak.|
@@ -189,7 +191,7 @@ A Amani Encroachment|QID|8476|M|60.3,62.8|N|From Lieutenant Dawnrunner.|
 B Buy Springpaw Appetizers|QID|9067|M|60.40,62.46|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight at Farstrider Retreat.|
 A The Spearcrafter's Hammer|QID|8477|M|59.5,62.6|N|From Arathel Sunforge.|
 A The Magister's Apprentice|QID|8888|M|60.3,61.4|N|From Magister Duskwither. Up the right ramp.|LEAD|8889|
-A The Purest Water|QID|9403|M|55.7,54.5|N|From Instructor Antheol.|PRE|9402|R|BloodElf|C|Mage|
+A The Purest Water|QID|9403|M|55.70,54.51|N|From Instructor Antheol.|PRE|9402|R|BloodElf|C|Mage|
 R Thuron's Livery|QID|8888|M|62.00,53.00|N|If you want the explorer achievement, head to Thuron's Livery.\n\nIf you don't, just click this step.|RANK|3|
 T The Magister's Apprentice|QID|8888|M|67.8,56.5|N|To Apprentice Loralthalis. Head out of the city and follow the road east.|
 A Deactivating the Spire|QID|8889|M|67.8,56.5|N|From Apprentice Loralthalis.|
@@ -223,7 +225,7 @@ T Amani Invasion|QID|9360|M|60.3,62.8|N|To Lieutenant Dawnrunner.|
 A Warning Fairbreeze Village|QID|9363|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9360|
 T The Spearcrafter's Hammer|QID|8477|N|To Arathel Sunforge.|M|59.5,62.6|
 C The Purest Water|QID|9403|M|64.21,72.66|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|U|23566|R|BloodElf|C|Mage|
-T The Purest Water|QID|9403|M|55.7,54.5|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 H Fairbreeze Village|QID|9255|N|Hearth to Fairbreeze Village.|
 T Research Notes|QID|9255|M|44.03,70.76|N|To Magistrix Landra Dawnstrider.|
 T Warning Fairbreeze Village|QID|9363|M|43.3,70.8|N|To Ranger Degolien.|
