@@ -25,7 +25,7 @@ f Theramore|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from
 B Soothing Spices|QID|1218|M|66.44,51.46|Z|Dustwallow Marsh|N|Buy from Helenia Olden.|L|3713 3|
 h Theramore Isle|QID|1282|M|66.60,45.20|Z|Dustwallow Marsh|N|Make Theramore your home location.|
 r Sell junk, repair, restock.|QID|1282|N|Sell junk, repair, restock.|
-A Highperch Venom|QID|1135|M|66.46,45.15|Z|Dustwallow Marsh|N|From Fiora Longears.|
+
 A They Call Him Smiling Jim|QID|1282|M|66.15,46.07|Z|Dustwallow Marsh|N|From Guard Byron.|
 T They Call Him Smiling Jim|QID|1282|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
 A Soothing Spices|QID|1218|M|55.44,26.27|Z|Dustwallow Marsh|N|Follow the road untill you see the house across the river Do NOT go cross country. From "Swamp Eye" Jarl.|
@@ -45,10 +45,9 @@ R Thalanaar|ACTIVE|1100|Z|Feralas|M|89.50,45.85|N|Run Generally west to the bord
 f Thalanaar|ACTIVE|1100|M|89.50,45.85|Z|Feralas|N|Pick up the flightpath.|
 T Lonebrow's Journal|QID|1100|M|89.64,46.57|Z|Feralas|N|To Falfindel Waywarder.|
 T Reclaiming the Charred Vale|QID|1059|M|89.64,46.57|Z|Feralas|N|To Falfindel Waywarder. Don't get follow-up.|
-R Highperch|ACTIVE|1135|M|14.76,32.51|CC|N|Go southeast to Thousand Needles. Beware of the named Earth Elemental Elite.|
-C Highperch Venom|QID|1135|M|11.00,34.49|N|Kill the Wyverns in the area and loot their Venom Sacs.|
 
-R The Shimmering Flats|QID|1175|M|69.23,62.65|N|Run out of Highperch and continue southeast to the Mirage Raceway.|
+
+R The Shimmering Flats|QID|1175|M|69.23,62.65|N|Run out of Thalanaar and continue southeast to the Mirage Raceway.|
 A Rocket Car Parts|QID|1110|M|77.79,77.28|N|From Kravel Koalbeard.|
 A Salt Flat Venom|QID|1104|M|78.07,77.13|N|From Fizzle Brassbolts.|
 T The Brassbolts Brothers|QID|1179|M|78.14,77.13|N|To Wizzle Brassbolts.|
