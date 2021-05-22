@@ -102,7 +102,7 @@ T Looking Further|QID|248|M|63.2,49.8|N|To An Empty Jar, At the top of the tower
 C Tharil'Zun|QID|19|M|68.31,59.41|N|Kill Tharil'Zun and loot his head. Elite surrounded by elites, will most likely need a group. He is not immune to crown control and it is recommended to clear all the elite packs around him first.|Z|Redridge Mountains|
 C Wanted: Gath'Ilzogg|QID|169|M|67,55|N|Kill and loot Gath'Ilzogg. He is upstairs within Stonewatch Keep.\nThis is a tough quest. Be careful not to overpull packs whilst inside the keep.\nGath'Ilzogg is not immune to crowd control. Keep him CC'd whilst you kill the other elites with him.|Z|Redridge Mountains|
 C Shadow Magic|QID|115|M|66.77,53.82|US|N|Kill the Blackrock Shadowcasters in the area and loot their orbs.|Z|Redridge Mountains|
-A Morganth|QID|249|M|84.3,46.9|N|From the Lion Statue.|Z|Redridge Mountains|
+A Morganth|QID|249|M|84.3,46.9|N|From the Lion Statue.|Z|Redridge Mountains|PRE|248|
 C Morganth|QID|249|M|80.00,78.75|N|On the top floor of the tower next to the statue. Morganth is a level 27 elite. Morganth can be CC'd whilst you clear the non-elites with him. If he casts Minion of Morganth a level 30 non-elite undead mob will appear. It has high HP but does not hit hard|PRE|248|Z|Redridge Mountains|
 T Tharil'zun|QID|19|M|33.49,48.99|N|To Marshal Marris.|Z|Redridge Mountains|
 T Shadow Magic|QID|115|M|33.49,48.99|N|To Marshal Marris.|Z|Redridge Mountains|
@@ -413,7 +413,7 @@ A The Tower of Althalaxx|QID|1167|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Pur
 F Auberdine|QID|1167|ACTIVE|1167|M|34.41,47.99|N|Fly to Auberdine, repair and sell.|Z|Ashenvale|
 T The Tower of Althalaxx|QID|1167|M|54.97,24.89|Z|Darkshore|N|To Balthule Shadowstrike|
 A The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|N|From Balthule Shadowstrike|PRE|1167|
-K The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|QO|1|N|Kill Athrikus Narassin from the very top floor and loot his head.|
+C The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|QO|1|N|Kill Athrikus Narassin from the very top floor and loot his head.|
 T The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|N|To Balthule Shadowstrike|
 A The Tower of Althalaxx|QID|981|M|54.97,24.89|Z|Darkshore|N|From Balthule Shadowstrike|PRE|1143|
 
