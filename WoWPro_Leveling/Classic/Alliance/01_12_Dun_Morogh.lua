@@ -210,58 +210,58 @@ C The Binding|QID|1689|C|Warlock|N|The Summoning Circle is farther underneath th
 T The Binding|QID|1689|C|Warlock|M|39.23,85.27|Z|Stormwind City|N|Congrats! You now can use a Voidwalker.|
 
 R Elwynn Forest|AVAILABLE|239|M|32.03,49.18|Z|Elwynn Forest|N|Make your way to the front gate.|
-R Goldshire|AVAILABLE|239|M|44.25,62.50|N|Follow the road down to Goldshire.|
+R Goldshire|AVAILABLE|239|M|44.25,62.50|N|Follow the road down to Goldshire.|Z|Elwynn Forest|
 
-A A Fishy Peril|QID|40|M|42.1,67.3|N|From Remy "Two Times".|LVL|7|
-r Sell and Repair|QID|40|S|M|41.7,65.8|ACTIVE|40|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
-T A Fishy Peril|QID|40|M|42.1,65.9|N|To Marshall Dughan.|
-A Further Concerns|QID|35|M|42.1,65.9|PRE|40|N|From Marshall Dughan.|
-T Further Concerns|QID|35|M|74.0,72.2|N|Head east along the road to Guard Thomas.|
-A Find the Lost Guards|QID|37|M|74.0,72.2|PRE|35|N|From Guard Thomas.|
-A Protect the Frontier|QID|52|M|74.0,72.2|N|From Guard Thomas.|
-C Protect the Frontier|QID|52|S|M|84.1,61.6|N|Kill any Prowlers and Young Forest Bears.|
-A A Bundle of Trouble|QID|5545|M|81.4,66.1|N|From Supervisor Raelen.|
-C A Bundle of Trouble|QID|5545|M|84.1,61.6|N|Loot the Bundles of Wood, found at the base of the trees.|NC|
-r Sell and Repair|QID|5545|S|M|83.3,66.1|ACTIVE|5545|N|Sell and Repair at Rallic Finn.|
-T A Bundle of Trouble|QID|5545|M|81.4,66.1|N|To Supervisor Raelen.|
-A Red Linen Goods|QID|83|M|79.46,68.79|N|From Sara Timberlain.|
-C Red Linen Goods|QID|83|S|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|
-C Red Linen Goods|QID|83|US|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|
-T Red Linen Goods|QID|83|US|M|79.46,68.79|N|To Sara Timberlain.|
-N Prowlers|QID|52|US|ACTIVE|37|M|87,70|QO|1|N|The wolves in this area are Gray Forest Wolves, and not the ones required for the quest Protect the Frontier.|
-T Find the Lost Guards|QID|37|M|72.70,60.2|N|To "A half-eaten body".|
-A Discover Rolf's Fate|QID|45|PRE|37|M|72.7,60.3|N|From A half-eaten body.|
-T Discover Rolf's Fate|QID|45|M|79.8,55.5|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|
-A Report to Thomas|QID|71|PRE|45|M|79.8,55.5|N|From Rolf's corpse.|
-C Protect the Frontier|QID|52|US|M|87,70|N|Finish killing the Prowlers and Young Forest Bears.|
-T Report to Thomas|QID|71|M|74.0,72.2|N|To Guard Thomas.|
-A Deliver Thomas' Report|QID|39|PRE|71|M|74.0,72.2|N|From Guard Thomas.|
-T Protect the Frontier|QID|52|M|74.0,72.2|N|To Guard Thomas.|
-A Report to Gryan Stoutmantle|QID|109|M|73.9,72.2|N|From Guard Thomas.|
+A A Fishy Peril|QID|40|M|42.1,67.3|N|From Remy "Two Times".|LVL|7|Z|Elwynn Forest|
+r Sell and Repair|QID|40|S|M|41.7,65.8|ACTIVE|40|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|Z|Elwynn Forest|
+T A Fishy Peril|QID|40|M|42.1,65.9|N|To Marshall Dughan.|Z|Elwynn Forest|
+A Further Concerns|QID|35|M|42.1,65.9|PRE|40|N|From Marshall Dughan.|Z|Elwynn Forest|
+T Further Concerns|QID|35|M|74.0,72.2|N|Head east along the road to Guard Thomas.|Z|Elwynn Forest|
+A Find the Lost Guards|QID|37|M|74.0,72.2|PRE|35|N|From Guard Thomas.|Z|Elwynn Forest|
+A Protect the Frontier|QID|52|M|74.0,72.2|N|From Guard Thomas.|Z|Elwynn Forest|
+C Protect the Frontier|QID|52|S|M|84.1,61.6|N|Kill any Prowlers and Young Forest Bears.|Z|Elwynn Forest|
+A A Bundle of Trouble|QID|5545|M|81.4,66.1|N|From Supervisor Raelen.|Z|Elwynn Forest|
+C A Bundle of Trouble|QID|5545|M|84.1,61.6|N|Loot the Bundles of Wood, found at the base of the trees.|NC|Z|Elwynn Forest|
+r Sell and Repair|QID|5545|S|M|83.3,66.1|ACTIVE|5545|N|Sell and Repair at Rallic Finn.|Z|Elwynn Forest|
+T A Bundle of Trouble|QID|5545|M|81.4,66.1|N|To Supervisor Raelen.|Z|Elwynn Forest|
+A Red Linen Goods|QID|83|M|79.46,68.79|N|From Sara Timberlain.|Z|Elwynn Forest|
+C Red Linen Goods|QID|83|S|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|Z|Elwynn Forest|
+C Red Linen Goods|QID|83|US|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|Z|Elwynn Forest|
+T Red Linen Goods|QID|83|US|M|79.46,68.79|N|To Sara Timberlain.|Z|Elwynn Forest|
+N Prowlers|QID|52|US|ACTIVE|37|M|87,70|QO|1|N|The wolves in this area are Gray Forest Wolves, and not the ones required for the quest Protect the Frontier.|Z|Elwynn Forest|
+T Find the Lost Guards|QID|37|M|72.70,60.2|N|To "A half-eaten body".|Z|Elwynn Forest|
+A Discover Rolf's Fate|QID|45|PRE|37|M|72.7,60.3|N|From A half-eaten body.|Z|Elwynn Forest|
+T Discover Rolf's Fate|QID|45|M|79.8,55.5|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|Z|Elwynn Forest|
+A Report to Thomas|QID|71|PRE|45|M|79.8,55.5|N|From Rolf's corpse.|Z|Elwynn Forest|
+C Protect the Frontier|QID|52|US|M|87,70|N|Finish killing the Prowlers and Young Forest Bears.|Z|Elwynn Forest|
+T Report to Thomas|QID|71|M|74.0,72.2|N|To Guard Thomas.|Z|Elwynn Forest|
+A Deliver Thomas' Report|QID|39|PRE|71|M|74.0,72.2|N|From Guard Thomas.|Z|Elwynn Forest|
+T Protect the Frontier|QID|52|M|74.0,72.2|N|To Guard Thomas.|Z|Elwynn Forest|
+A Report to Gryan Stoutmantle|QID|109|M|73.9,72.2|N|From Guard Thomas.|Z|Elwynn Forest|
 
-R Goldshire|ACTIVE|39|M|44.25,62.50|N|Follow the road down to Goldshire.|
-T Deliver Thomas' Report|QID|39|M|42.1,65.9|N|To Marshall Dughan.|
-A Westbrook Garrison Needs Help!|QID|239|M|42.1,65.9|N|From Marshall Dughan.|
-A Cloth and Leather Armor|QID|59|M|42.1,65.9|PRE|39|N|From Marshall Dughan.|
-A Elmore's Task|QID|1097|M|41.70,65.5|N|From Smith Argus.|
+R Goldshire|ACTIVE|39|M|44.25,62.50|N|Follow the road down to Goldshire.|Z|Elwynn Forest|
+T Deliver Thomas' Report|QID|39|M|42.1,65.9|N|To Marshall Dughan.|Z|Elwynn Forest|
+A Westbrook Garrison Needs Help!|QID|239|M|42.1,65.9|N|From Marshall Dughan.|Z|Elwynn Forest|
+A Cloth and Leather Armor|QID|59|M|42.1,65.9|PRE|39|N|From Marshall Dughan.|Z|Elwynn Forest|
+A Elmore's Task|QID|1097|M|41.70,65.5|N|From Smith Argus.|Z|Elwynn Forest|
 
-T Westbrook Garrison Needs Help!|QID|239|M|24.3,74.8|N|To Deputy Rainer.|
-A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.3,74.8|N|From Deputy Rainer.|
-A Wanted:  "Hogger"|QID|176|M|24.52,74.65|N|This Elite level quest is available from the Wanted Poster in Forests Edge, one on the road to the tower, and one at the northern tower.|
-K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|N|This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|T|Hogger|
-C Riverpaw Gnoll Bounty|QID|11|M|26.1,87.5|N|Kill and loot the Gnolls for the Painted Gnoll Armbands.|
-L Level Check|ACTIVE|11|M|26.1,87.5|LVL|9;-840|N|Grind at the gnolls if you aren't yet 10.|
-l Gold Pickup Schedule|QID|123|L|1307|M|26.0,93.0|N|You want to hunt down the Gold Pickup Schedule. This is most likely to drop from the rare mob Gruff Swiftbite who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|T|Gruff|
+T Westbrook Garrison Needs Help!|QID|239|M|24.3,74.8|N|To Deputy Rainer.|Z|Elwynn Forest|
+A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.3,74.8|N|From Deputy Rainer.|Z|Elwynn Forest|
+A Wanted:  "Hogger"|QID|176|M|24.52,74.65|N|This Elite level quest is available from the Wanted Poster in Forests Edge, one on the road to the tower, and one at the northern tower.|Z|Elwynn Forest|
+K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|N|This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|T|Hogger|Z|Elwynn Forest|
+C Riverpaw Gnoll Bounty|QID|11|M|26.1,87.5|N|Kill and loot the Gnolls for the Painted Gnoll Armbands.|Z|Elwynn Forest|
+L Level Check|ACTIVE|11|M|26.1,87.5|LVL|9;-840|N|Grind at the gnolls if you aren't yet 10.|Z|Elwynn Forest|
+l Gold Pickup Schedule|QID|123|L|1307|M|26.0,93.0|N|You want to hunt down the Gold Pickup Schedule. This is most likely to drop from the rare mob Gruff Swiftbite who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|T|Gruff|Z|Elwynn Forest|
 A The Collector|QID|123|U|1307|N|Quest obtained from the Gold Pickup Schedule.|
-T Riverpaw Gnoll Bounty|QID|11|M|24.3,74.8|N|To Deputy Rainer.|
+T Riverpaw Gnoll Bounty|QID|11|M|24.3,74.8|N|To Deputy Rainer.|Z|Elwynn Forest|
 
-T The Collector|QID|123|M|42.1,65.9|N|To Marshall Dughan.|
-A Manhunt|QID|147|PRE|123|M|42.1,65.9|N|From Marshall Dughan.|
-T Wanted:  "Hogger"|QID|176|M|42.1,65.9|N|To Marshall Dughan.|
+T The Collector|QID|123|M|42.1,65.9|N|To Marshall Dughan.|Z|Elwynn Forest|
+A Manhunt|QID|147|PRE|123|M|42.1,65.9|N|From Marshall Dughan.|Z|Elwynn Forest|
+T Wanted:  "Hogger"|QID|176|M|42.1,65.9|N|To Marshall Dughan.|Z|Elwynn Forest|
 
 N City Facilities|QID|291|ACTIVE|291|S|N|Use this time to visit Auction House, Bank and to sell and restock. Now is a good time to increase bagspace!|
 T The Reports|QID|291|M|44.57,49.50;39.59,57.48|CS|Z|Ironforge|N|To Senator Barin Redstone, in The High Seat|
-f Ironforge|QID|311|M|55.7,48.0|N|Discover Ironforge Flightpoint with Gryth Thurden|R|-Gnome,-Dwarf|
+f Ironforge|QID|311|M|55.7,48.0|N|Discover Ironforge Flightpoint with Gryth Thurden|R|-Gnome,-Dwarf|Z|Ironforge|
 
 H Thunderbrew Distillery|C|Warlock|U|6948|
 
