@@ -413,7 +413,7 @@ A The Tower of Althalaxx|QID|1167|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Pur
 F Auberdine|QID|1167|ACTIVE|1167|M|34.41,47.99|N|Fly to Auberdine, repair and sell.|Z|Ashenvale|
 T The Tower of Althalaxx|QID|1167|M|54.97,24.89|Z|Darkshore|N|To Balthule Shadowstrike|
 A The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|N|From Balthule Shadowstrike|PRE|1167|
-C The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|QO|1|N|Kill Athrikus Narassin from the very top floor and loot his head.|
+K The Tower of Althalaxx|ACTIVE|1143|M|54.97,24.89|Z|Darkshore|QO|1|N|Kill Athrikus Narassin from the very top floor and loot his head.|
 T The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|N|To Balthule Shadowstrike|
 A The Tower of Althalaxx|QID|981|M|54.97,24.89|Z|Darkshore|N|From Balthule Shadowstrike|PRE|1143|
 
