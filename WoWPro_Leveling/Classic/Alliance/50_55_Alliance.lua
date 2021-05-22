@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('ClassicAlliance5055', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicAlliance5055', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Alliance Leveling 50-55')
 WoWPro:GuideLevels(guide,50, 55)
 WoWPro:GuideNextGuide(guide, 'Dungeon_BRD')

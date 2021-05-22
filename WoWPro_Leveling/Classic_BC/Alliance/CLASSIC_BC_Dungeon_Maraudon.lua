@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_Dungeon_Mara', 'Leveling', 'Desolace', 'Elidion', 'Alliance', 2)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_Dungeon_Mara', 'Leveling', 'Desolace', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Dungeon: Maraudon')
 WoWPro:GuideLevels(guide,48, 54)
 WoWPro:GuideNextGuide(guide, 'ClassicAlliance5055')

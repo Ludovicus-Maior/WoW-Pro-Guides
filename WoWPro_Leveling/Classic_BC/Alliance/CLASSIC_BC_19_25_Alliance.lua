@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_19_25_Alliance', "Leveling", 'Westfall', 'Bidaum+Boston+Elidion', 'Alliance', 2)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_19_25_Alliance', "Leveling", 'Westfall', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Alliance Leveling 19-25')
 WoWPro:GuideLevels(guide, 19,25)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_25_30_Alliance')

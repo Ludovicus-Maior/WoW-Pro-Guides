@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("CLASSIC_BC_Terokkar", "Leveling", "Terokkar Forest", "Jame", "Alliance", 2)
+local guide = WoWPro:RegisterGuide("CLASSIC_BC_Terokkar", "Leveling", "Terokkar Forest", "WoWPro Team", "Alliance", 2)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Terokkar Forest")
 WoWPro:GuideName(guide,"Terokkar Forest")

@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_42_50_Alliance', 'Leveling', 'Stranglethorn Vale', 'Elidion', 'Alliance', 2)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_42_50_Alliance', 'Leveling', 'Stranglethorn Vale', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Alliance Leveling 42-50')
 WoWPro:GuideLevels(guide,42, 50)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Dungeon_ZF')
