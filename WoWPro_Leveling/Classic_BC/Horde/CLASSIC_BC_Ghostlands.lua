@@ -1,6 +1,6 @@
-local guide = WoWPro:RegisterGuide("CLASSIC_BC_Ghostlands", "Leveling", "Ghostlands", "Snowflake,Spoony", "Horde", 2)
+local guide = WoWPro:RegisterGuide("CLASSIC_BC_Ghostlands", "Leveling", "Ghostlands", "WoWPro Team", "Horde", 2)
 WoWPro:GuideSort(guide, 26)
-WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Silverpine_Forest")
+WoWPro:GuideNextGuide(guide, "CLASSIC_BC_HordeChapter1")
 WoWPro:GuideLevels(guide, 10, 20)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -22,18 +22,43 @@ A The Forsaken |QID|9327|R|BloodElf|N|From Vandril.|M|46.35,28.39|
 A The Forsaken |QID|9329|M|46.35,28.39|R|-BloodElf|N|From Vandril.|
 T The Forsaken |QID|9327|M|44.84,32.43|R|BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
 T The Forsaken |QID|9329|M|44.84,32.43|R|-BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
+A Goods from Silvermoon City|QID|9130|M|47.33,29.22|N|From Quartermaster Lymel.|PRE|9329|
+T Goods from Silvermoon City|QID|9130|M|45.43,30.53|N|To Skymaster Sunwing.|
+f Ghostlands|QID|9138|M|45.47,30.54|N|Get the flight path for Ghostlands.|
+A Fly to Silvermoon City|QID|9133|M|45.43,30.53|N|From Skymaster Sunwing.|PRE|9130|
+F Silvermoon City|QID|9133|M|45.43,30.53|N|Ask Skymaster Sunwing to fly you to Silvermoon City.|
+A Summons from Knight-Lord Bloodvalor|QID|9677|Z|Eversong Woods|M|48.40,46.45|N|From Noellene.|R|BloodElf|C|Paladin|
+R Silvermoon City|QID|9133|M|72.37,90.93|Z|Silvermoon City|N|Run east to Silvermoon City.|
+T Fly to Silvermoon City|QID|9133|M|69.26,77.04;68.28,74.08;66.50,73.43;54,71|CS|Z|Silvermoon City|N|To Sathren Azuredawn.|
+A Skymistress Gloaming|QID|9134|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn.|PRE|9133|
+T Summons from Knight-Lord Bloodvalor|QID|9677|Z|Silvermoon City|M|89.29,35.25|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+A The First Trial|QID|9678|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+T Skymistress Gloaming|QID|9134|Z|Silvermoon City|M|54.38,50.79|N|To Skymistress Gloaming.|
+A Return to Quartermaster Lymel|QID|9135|M|54.38,50.79|N|From Skymistress Gloaming.|PRE|9134|
+F Fairbreeze Village|QID|9135|M|54.38,50.79|N|Fly to Fairbreeze Village, or just hearth.|
+T Return to Quartermaster Lymel|QID|9135|M|47.33,29.22|N|To Quartermaster Lymel.|
 A Return to Arcanist Vandril|QID|9758|PRE|9327^9329|M|44.84,32.43|N|From High Executor Mavren.|
 T Return to Arcanist Vandril|QID|9758|M|46.33,28.45|N|To Arcanist Vandril.|
 A Suncrown Village|QID|9138|PRE|9758|M|46.33,28.45|N|From Arcanist Vandril.|
 A Wanted: Knucklerot and Luzran|QID|9156|M|48.30,31.64|N|From the Wanted Poster. This is a group quest, the 2 mobs are 21 elites. If you see anyone looking for help, or offering help, take them up on it.|
 h Tranquillien|QID|9157|M|48.87,32.38|N|At Innkeeper Kalarin.|
 r Training/Repair/Sell Junk|QID|9157|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n\nClick this step to continue.|
-f Ghostlands|QID|9138|M|45.47,30.54|N|Get the flight path for Ghostlands.|
 A Anok'suten|QID|9315|PRE|9327^9329|M|57.53,14.94|N|From Dying Blood Elf near Suncrown Village.|
 C Suncrown Village|QID|9138|S|M|57.51,11.39|N|Kill 10 Nerubis Guards.|
 C Anok'suten|QID|9315|M|61.59,12|N|Anok'suten is a Level 11 elite with 624 HP. He wanders counter-clockwise around the circle path.|T|Anok'suten|
 C Suncrown Village|QID|9138|US|M|57.51,11.39|N|Kill 10 Nerubis Guards.|
+C The First Trial|QID|9678|M|68.6,9.8|N|Click the torch, kill the Blood Elf that spawns behind you.|R|BloodElf|C|Paladin|
 H Tranquillien|QID|9138|N|Hearth back to Tranquillien.|
+F Silvermoon City|QID|9133|M|45.43,30.53|N|Ask Skymaster Sunwing to fly you to Silvermoon City.|
+T The First Trial|QID|9678|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+A A Study in Power|QID|9681|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+T A Study in Power|QID|9681|M|92.29,36.49|Z|Silvermoon City|N|To Magister Astalor Bloodsworn.|R|BloodElf|C|Paladin|
+A Claiming the Light|QID|9684|M|92.29,36.49|Z|Silvermoon City|N|From Magister Astalor Bloodsworn.|R|BloodElf|C|Paladin|
+C Claiming the Light|QID|9684|M|92.33,37.52|Z|Silvermoon City|U|185956|N|Use the Shimmering Vessel on M'uru to fill it and return to Knight-Lord Bloodvalor in Silvermoon City..|R|BloodElf|C|Paladin|
+T Claiming the Light|QID|9684|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+A Redeeming the Dead|QID|9685|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+C Redeeming the Dead|QID|9685|M|92.33,37.52|Z|Silvermoon City|U|24184|T|Sangrias Stillblade|N|Take the Filled Shimmering Vessel to Silvermoon City's inn and use its magic to resurrect Sangrias Stillblade.|R|BloodElf|C|Paladin|
+T Redeeming the Dead|QID|9685|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
 T Suncrown Village|QID|9138|M|46.24,28.35|N|To Arcanist Vandril.|
 T Anok'suten|QID|9315|M|46.24,28.35|N|To Arcanist Vandril.|
 A Help Ranger Valanna!|QID|9145|LEAD|9143|M|45.48,32.45|N|From Ranger Lethvalin.|
@@ -65,9 +90,6 @@ A Salvaging the Past|QID|9150|M|46.01,31.95|N|From Magister Darenis.|
 A Investigate An'daroth|QID|9160|M|44.88,32.51|N|From Dame Auriferous.|
 A Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|From Deathstalker Maltendis.|
 A Down the Dead Scar|QID|9155|M|46.02,33.56|N|From Deathstalker Rathiel.|
-
-
-
 C Down the Dead Scar|QID|9155|M|39.76,32.47|N|Head down into the Dead Scar and kill Risen Hungerers and Gangled Cannibals. If you come across any Ghostclaw Lynxs, kill them as well.|
 C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders untill you have 5 Crunchy Spider Legs.|S|
 C Salvaging the Past|QID|9150|M|33.41,32.40|N|Kill Mana Shifters and Arcane Devourers until you get 8 Mana Essences.|
@@ -133,8 +155,6 @@ C Escape from the Catacombs|QID|9212|NC|M|72.36,30.09|N|She is slow inside the c
 C Investigate the Amani Catacombs|QID|9193|NC|U|22755|M|62.92,32.46|N|Finish burning any Troll remains you need.|US|
 C Troll Juju|QID|9199|M|66,28|N|Kill any Troll you come across to get 8 Troll Juju.|US|
 T Escape from the Catacombs|QID|9212|M|72.37,29.72|N|To Captain Helios.|
-T Troll Juju|QID|9199|M|71.6,31.6|N|To Apothecary Venustus.|
-T Investigate the Amani Catacombs|QID|9193|M|71.89,32.63|N|To Ranger Vynna.|
 r Repair/Restock|QID|9212|M|72.13,31.97|N|At Narina.|
 T The Traitor's Shadow|QID|9161|M|79.63,17.72|N|Fight your way in, and click on the book that is at the end of the ramp. Kill Vamperic Mistbats as you go.|
 A Hints of the Past|QID|9162|PRE|9161|M|79.63,17.72|N|From the book.|
@@ -157,9 +177,11 @@ K Bring Me Kel'gash's Head!|QID|9215|QO|1|M|65.33,79.51|N|If you feel that you c
 C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexxers.|US|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|US|N|Kill Catlords and Hexxers till you get 3 Hexxer Staves and 3 Catlord Claws.|
 H Tranquillien|QID|9193|U|6948|N|Hearth back to Tranquillien or fly there if you want to save your hearth.|
+T Troll Juju|QID|9199|M|44.76,32.28|N|To Deathstalker Malthendis.|
+T Investigate the Amani Catacombs|QID|9193|M|44.86,32.80|N|To Advisor Valwyn.|
 A The Sanctum of the Sun|QID|9151|LEAD|9220|M|46.01,31.95|N|From Magister Darenis.|
 r Repair/Restock|M|49.07,30.33|N|At Blacksmith Frances.|
-F Hatchet Hills|QID|9169|M|45.5,30.55|N|Fly to Hatchet Hills (Zul'Aman).|
+;R Hatchet Hills|QID|9169|M|45.5,30.55|N|Fly to Hatchet Hills (Zul'Aman).|
 l Crystal Controlling Orb|QID|9169|L|23191 |M|58.20,64.72|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|
 C Deactivate An'owyn|QID|9169|M|58.20,64.72|N|Click on the Night Elf Moon Crystal to deactivate it.|
 C Clearing the Way|QID|9281|M|47.33,63.85;53.96,61.66|CN|N|Go between the two waypoints until you have killed 10 Greater Spindlewebs and 10 Ghostclaw Ravager.|
@@ -184,7 +206,7 @@ T Assault on Zeb'Nowa|QID|9277|M|72.34,31.38|N|To Farstrider Solanna.|
 T Bring Me Kel'gash's Head!|QID|9215|M|72.34,29.80|N|To Captain Helios.|
 T Shadowpine Weaponry|QID|9214|M|72.34,29.80|N|To Captain Helios.|
 T A Little Dash of Seasoning|QID|9275|M|72.68,31.54|N|To Apothecary Venustus.|
-H Tranquillien|QID|9218|N|Hearth back to Tranquillien.|
+H Tranquillien|QID|9218|U|6948|N|Hearth back to Tranquillien.|
 T Spinal Dust|QID|9218|M|48.97,31.44|N|To Magistrix Aminel.|
 r Repair/Restock|QID|9877|M|49.05,30.32|N|At Blacksmith Frances.|
 T A Restorative Draught|QID|9877|M|47.66,34.86|N|To Apothecary Renzithen.|
@@ -206,37 +228,38 @@ T Dar'Khan's Lieutenants|QID|9170|M|54.91,48.38|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.91,48.38|N|To Arcanist Janeda.|
 K Luzran |QID|9156|M|39.5,32;37.3,67.5|CN|N|If you have help or can solo Luzran look for him where the waypoints are. If not, go ahead and skip.|
 K Knucklerot |QID|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|CN|N|If you have help or can solo Knucklerot, look for him where the waypoints are. If not, go ahead and skip.|
-T WANTED: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|
+T Wanted: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|
 R Tranquillien|QID|9328|M|46,33|N|Run to Tranquillien.|
-F Eversong Woods|QID|9328|M|46,30|N|Fly to Silvermoon City flight hub.|
-N Getting a mount|QID|9328|R|BloodElf|M|61.3,54|Z|Eversong Woods|N|You should be at least level 20 by now. Go and get a mount. It costs 4 gold for the training, and 1 gold for the mount. Find Perascamin, and get your Apprentice Riding. Then buy a mount from Winaestra. Close to continue.|
+F Silvermoon City|QID|9328|M|46,30|N|Fly to Silvermoon City flight hub.|
 N Training|QID|9328|N|Visit your trainers, AH, etc. Close this step to continue.|
+A The Second Trial|QID|9690|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+h Silvermoon City|QID|9690|M|79.58,58.20|N|At Innkeeper Velandra.|R|BloodElf|C|Paladin|
+T The Second Trial|QID|9690|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
+A The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
+H Silvermoon City|QID|9686|U|6948|N|Hearth back to Silvermoon City.|R|BloodElf|C|Paladin|
+C The Second Trial|QID|9686|M|43.34,28.69|Z|Eversong Woods|N|Click the crystral, kill the guy.|R|BloodElf|C|Paladin|
+T The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
+A Return to Silvermoon|QID|9691|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
+H Silvermoon City|QID|9691|U|6948|M|89.29,35.25|Z|Silvermoon City|N|Hearth back to Silvermoon City, or run if its currently down.|R|BloodElf|C|Paladin|
+T Return to Silvermoon|QID|9691|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
 T Hero of the Sin'dorei|QID|9328|M|53.98,20.42|R|BloodElf|Z|Silvermoon City|N|To Lor'themar Theron .|
 T Friend of the Sin'dorei|QID|9811|M|53.98,20.42|R|Orc,Troll,Tauren,Undead,Goblin|Z|Silvermoon City|N|To Lor'themar Theron .|
 A Envoy to the Horde|QID|9621|PRE|9328|M|53.98,20.42|R|BloodElf|Z|Silvermoon City|N|From Lor'themar Theron .|
 A Envoy to the Horde|QID|9812|PRE|9811|M|53.98,20.42|R|Orc,Troll,Tauren,Undead,Goblin|Z|Silvermoon City|N|From Lor'themar Theron .|
 R Undercity|QID|9180|M|49.49,14.76|Z|Silvermoon City|N|Go to the room behind Lor'themar, and click on the Orb of Translocation.|
-A Warchief's Command: Hillsbrad Foothills!|QID|28571|LEAD|28096|M|66.03,49.64|Z|Undercity|N|From the Warchief's Command Board.|
+f Undercity|QID|9621^9812|M|63.09,47.88|Z|Undercity|N|Get the flight path for Undercity.|
 T Envoy to the Horde|QID|9621|M|57.59,91.64|R|BloodElf|Z|Undercity|N|To Lady Sylvanas Windrunner.|
-T Envoy to the Horde|QID|9812|M|57.59,91.64|R|Orc,Troll,Tauren,Undead,Goblin|Z|Undercity|N|To Lady Sylvanas Windrunner.|
+T Envoy to the Horde|QID|9812|M|57.59,91.64|R|-BloodElf|Z|Undercity|N|To Lady Sylvanas Windrunner.|
 T Journey to Undercity|QID|9180|M|57.59,91.64|R|BloodElf|Z|Undercity|N|To Lady Sylvanas Windrunner.|
-T Journey to Undercity|QID|9177|M|57.59,91.64|R|Orc,Troll,Undead,Tauren,Goblin|N|From High Executor Mavren.|
-N Next guide|QID|28571|Z|Undercity|N|The end of this guide is taking you to Hillsbrad Foothillsas well as get flightpoints. If you don't want to do that zone, go ahead and choose which zone you want. Right-click this step to continue.|
-
-
-
-;A Goods from Silvermoon City|QID|9130|M|43.7,71.54|N|From Sathiel.|
-;T Goods from Silvermoon City|QID|9130|M|44,70|N|To Skymaster Brightdawn.|
-;A Fly to Silvermoon City|QID|9133|M|44,70|N|From Skymaster Brightdawn.|PRE|9130|
-;F Silvermoon City|QID|9133|M|44,70|N|Ask Skymaster Brightdawn to fly you to Silvermoon City.|
-;R Silvermoon City|QID|9133|M|72.37,90.93|Z|Silvermoon City|N|Run east to Silvermoon City.|
-;T Fly to Silvermoon City|QID|9133|M|69.26,77.04;68.28,74.08;66.50,73.43;54,71|CS|Z|Silvermoon City|N|To Sathren Azuredawn.|
-;A Skymistress Gloaming|QID|9134|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn.|PRE|9133|
-;B Suntouched Special Reserve|QID|9067|M|79.70,58.40|Z|Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched. Also, visit your trainer if you need to.|
-;T Skymistress Gloaming|QID|9134|M|54.38,50.79|N|To Skymistress Gloaming.|
-;A Return to Sathiel|QID|9135|M|54.38,50.79|N|From Skymistress Gloaming.|PRE|9134|
-;F Fairbreeze Village|QID|9135|M|54.38,50.79|N|Fly to Fairbreeze Village, or just hearth.|
-;T Return to Sathiel|QID|9135|M|43.69,71.51|N|To Sathiel.|
-
+T Journey to Undercity|QID|9177|M|57.59,91.64|R|-BloodElf|N|From High Executor Mavren.|
+A Meeting the Warchief|QID|9626|M|57.93,91.79|Z|Undercity|N|From Lady Sylvanas Windrunner.|
+R Orgrimmar Zepplin|QID|9626|M|60.71,58.78|Z|Tirisfal Glades|N|Go up the tower and take the Zepplin.|
+b Durotar|QID|9626|
+T Meeting the Warchief|QID|9626|M|31.76,37.83|Z|Orgrimmar|N|To Thrall.|
+A Allegiance to the Horde|QID|9627|M|31.76,37.83|Z|Orgrimmar|N|To Thrall.|R|BloodElf|
+R Underctiy Zepplin|QID|9627|M|50.82,13.59|Z|Durotar|N|Go up the tower and take the Zepplin.|
+b Tirisfal Glades|QID|9627|
+R Silvermoon City|QID|9627|M|55.02,11.28|Z|Undercity|N|Click on the Orb of Translocation.|
+T Allegiance to the Horde|QID|9627|M|53.85,20.31|Z|Silvermoon City|N|To Lor'themar Theron.|
 ]]
 end)
