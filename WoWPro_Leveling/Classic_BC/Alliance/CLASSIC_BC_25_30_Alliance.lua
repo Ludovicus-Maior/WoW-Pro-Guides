@@ -345,8 +345,8 @@ F Astranaar|AVAILABLE|4581|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar.|
 A Kayneth Stillwind|QID|4581|M|34.67,48.84|N|From Shindrell Swiftfire.|Z|Ashenvale|
 h Astranaar|AVAILABLE|1021|N|Make Astranaar your home location.|M|36.97,49.26|Z|Ashenvale|
 A Fallen Sky Lake|QID|1035|M|37.35,51.80|N|From Pelturas Whitemoon|Z|Ashenvale|PRE|1034|
-A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|Z|Ashenvale|
-A Vile Satyr! Dryads in Danger!|QID|1021|M|21.74,53.35|N|From Illiyana.|Z|Ashenvale|
+; (needs rerouting npc has moved) A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|Z|Ashenvale|
+; (needs rerouting npc has moved) A Vile Satyr! Dryads in Danger!|QID|1021|M|21.74,53.35|N|From Illiyana.|Z|Ashenvale|
 R Raynewood Retreat|ACTIVE|1026|M|62.00,51.00|CS|N|Follow the path east out of Astrannar and take the North path at the fork in the road towards Raynewood Retreat.|Z|Ashenvale|
 K Raene's Cleansing|QID|1026|M|54.42,35.39||N|Kill Withered and Crazed Ancients in the area until you get the Wooden Key.|L|5475|Z|Ashenvale|
 C Raene's Cleansing|QID|1026|M|54.42,35.39|N|Click on the Worn Chest once you have the key.|Z|Ashenvale|
