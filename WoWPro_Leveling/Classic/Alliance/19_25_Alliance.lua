@@ -8,7 +8,6 @@ WoWPro:GuideName(guide, 'Alliance Leveling 19-25')
 WoWPro:GuideLevels(guide, 19,25)
 WoWPro:GuideNextGuide(guide, 'ClassicAlliance2530')
 WoWPro:GuideSteps(guide, function() return [[
-
 ; This is a rewrite and homogenization of existing 19-25 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
 
 ; Darkshore Guide Synchronization Steps
@@ -321,7 +320,7 @@ A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|Z|Wetlands|
 C Ormer's Revenge|QID|294|M|28.8,43.4|S|N|Kill raptors outside the excavation site until you complete this quest.|Z|Wetlands|
 C The Absent Minded Prospector|QID|943|M|28.8,43.4|QO|1|N|Kill Raptors for the Stone.|Z|Wetlands|
 C Ormer's Revenge|QID|294|M|24.3,52.5|US|N|Kill raptors until you complete this quest.|Z|Wetlands|
-T Ormer's Revenge|QID|294|M|38.07,51.18|N|Back up the ramp in the excavation site to Ormer Ironbraid |
+T Ormer's Revenge|QID|294|M|38.07,51.18|N|Back up the ramp in the excavation site to Ormer Ironbraid.|Z|Wetlands|
 A Ormer's Revenge|QID|295|M|38.1,51.2|N|From Ormer Ironbraid.|PRE|294|Z|Wetlands|
 H Deepwater Tavern|ACTIVE|279|M|10.60,60.55|N|Hearth or Run back to town.|Z|Wetlands|
 T The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|Wetlands|N|From Archaeologist Flagongut.|

@@ -163,7 +163,7 @@ A Cleansing Felwood|QID|4101|M|54.19,86.80|Z|Felwood|N|From Arathandris Silversk
 A Timbermaw Ally|QID|8460|M|50.93,85.00|Z|Felwood|N|From Grazle.|
 C Timbermaw Ally|QID|8460|M|48.12,92.92|Z|Felwood|N|Kill the Furbolgs needed for the quest.|
 T Timbermaw Ally|QID|8460|M|50.93,85.00|Z|Felwood|N|To Grazle.|
-A Speak to Nafien|QID|8462|M|50.93,85.02|N|From Grazle.|PRE|8460|
+A Speak to Nafien|QID|8462|M|50.93,85.02|N|From Grazle.|PRE|8460|Z|Felwood|
 A Forces of Jaedenar|QID|5155|M|51.21,82.13|Z|Felwood|N|From Greta Mooshoof.|
 A The Corruption of the Jadefire|QID|4421|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|
 A Verifying the Corruption|QID|5156|M|50.89,81.63|Z|Felwood|N|From Taronn Redfeather.|
