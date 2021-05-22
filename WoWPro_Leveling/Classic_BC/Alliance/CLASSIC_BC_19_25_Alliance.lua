@@ -425,7 +425,7 @@ C Culling the Threat|QID|1054|M|35.3,32.4|N|Kill Dal Bloodclaw and loot his skul
 C Elune's Tear|QID|1033|M|46.71,46.58|N|Loot an Elune's Tear from the island.|Z|Ashenvale|
 R Astranaar|QID|1020|M|34.68,48.84|N|Run back to Astranaar.|Z|Ashenvale|
 T Elune's Tear|QID|1033|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
-A The Ruins of Stardust|QID|1034|M|37.4,51.8|N|From Pelturas Whitemoon. Will become available shortly after turning in Elune's Tear|PRE|1034|Z|Ashenvale|
+A The Ruins of Stardust|QID|1034|M|37.4,51.8|N|From Pelturas Whitemoon. Will become available shortly after turning in Elune's Tear|PRE|1033|Z|Ashenvale|
 T Culling the Threat|QID|1054|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
 N Sell junk and repair|AVAILABLE|1016|M|35.78,52.04|N|Close this step when you're done.|Z|Ashenvale|
 N Dungeon Group|QID|1198|N|Keep an eye out for groups to Blackfathom Depths|LVL|20|Z|Ashenvale|
