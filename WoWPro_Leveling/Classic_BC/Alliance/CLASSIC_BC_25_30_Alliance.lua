@@ -285,7 +285,7 @@ A The Missing Diplomat|QID|1245|M|74.4,40.8|N|To Watcher Backus. He patrols the 
 T Look To The Stars |QID|181|M|79.79,48.06|N|To Viktori Prism'Antras.|Z|Duskwood|
 
 F Ironforge|QID|1653|M|77.50,44.30|N|Fly to Ironforge.|C|Paladin|Z|Duskwood|
-A The Brassbolts Brothers|QID|1179|M|68.20,46.20|Z|Ironforge|N|From Pilot Longbeard at the back of the Military Ward.|C|Paladin|
+A The Brassbolts Brothers|QID|1179|M|72.60,93.80|Z|Ironforge|N|From Pilot Longbeard at the back of the Military Ward.|C|Paladin|
 t The Test of Righteousness|QID|1653|M|52.6,36.8|Z|Dun Morogh|N|To Jordan Stilwell right outside of the gates of Ironforge.|C|Paladin|
 A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|Dun Morogh|N|From Jordan Stilwell. We won't follow the rest of this quest as it takes you all over the world to complete, but you now have the quest in your logs to complete as you see fit.|C|Paladin|PRE|1653|
 F Menethil Harbor|QID|270|M|55.3,47.6|N|Fly to Menethil Harbor.|Z|Ironforge|C|Paladin|
