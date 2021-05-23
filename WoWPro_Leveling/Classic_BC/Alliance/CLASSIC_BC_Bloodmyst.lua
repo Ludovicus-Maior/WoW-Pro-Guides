@@ -81,7 +81,9 @@ T Blood Watch|QID|9694|N|To Vindicator Boros.|M|55.42,55.25|
 A Intercepting the Message|QID|9779|PRE|9694|N|From Vindicator Boros.|M|55.42,55.25|
 A Know Thine Enemy|QID|9567|M|55.1,58.0|N|From Vindicator Aalesia.|
 r Repair/Restock |QID|9668|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
-A Signs of the Legion|QID|9594|U|23900|QO|1|N|Kill Tzerak, loot Tzerak's Armor Plate and accept the quest from it.\nHe looks like a Felguard. If you don't see him, grind on Satyrs until he yells as he spawns.|M|38.41,82.02|
+;This quest is currently bugged on BCC due to sharding issues
+;K Tzerak|QID|9594|L|23900|QO|1|N|Kill Tzerak, loot Tzerak's Armor Plate and accept the quest from it.\nHe looks like a Felguard. If you don't see him, grind on Satyrs until he yells as he spawns.|M|38.41,82.02|
+;A Signs of the Legion|QID|9594|U|23900|QO|1|N|Kill Tzerak, loot Tzerak's Armor Plate and accept the quest from it.\nHe looks like a Felguard. If you don't see him, grind on Satyrs until he yells as he spawns.|M|38.41,82.02|
 C Signs of the Legion|QID|9594|N|Kill Satyrs and Felsworns|S|
 C Know Thine Enemy|QID|9567|N|Loot the Nazzivus Monument Glyph|L|23859|M|36.49,71.36|
 C Signs of the Legion|QID|9594|N|Finish killing Satyrs and Felsworns.|US|M|35.54,77.43|
