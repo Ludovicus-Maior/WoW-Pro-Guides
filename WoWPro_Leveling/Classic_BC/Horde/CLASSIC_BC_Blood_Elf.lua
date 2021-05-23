@@ -163,10 +163,10 @@ A Grimscale Pirates!|QID|8886|M|36.36,66.63|N|From Captain Kelisendra.|
 A Lost Armaments|QID|8480|M|36.36,66.77|N|From Velendris Whitemorn.|
 C Grimscale Pirates!|QID|8886|M|24.93,69.43|L|21771 6|N|Either pick these up from the ground, or loot them from the Murlocs.|S|IZ|Golden Strand|
 K Wretched Thugs and Hooligans|QID|8892|QO|1;2|N|Kill the Wretched Thugs and Hooligans around Sunsail Anchorage.|S|IZ|Sunsail Anchorage|
-C Lost Armaments|QID|8480|M|31.0,69.0|L|22413 8|N|You'll find the Weapon Containers in Sunsail Anchorage on the ground, in the water and inside the building.\n[color=FF0000]NOTE: [/color]Each one is on a ~5 minute respawn timer.|S|IZ|Sunsail Anchorage|
+C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|N|You'll find the Weapon Containers in Sunsail Anchorage on the ground, in the water and inside the building.\n[color=FF0000]NOTE: [/color]Each one is on a ~5 minute respawn timer.|S|IZ|Sunsail Anchorage|
 K Mmmrrrggglll|ACTIVE|8885|M|25.67,65.74;24.02,73.70|CC|QO|1|N|Follow the water to Golden Strand. He roams the beach along Golden Strand between the two waypoints.|T|Mmmrrrggglll|
 C Grimscale Pirates!|QID|8886|M|24.93,69.43|L|21771 6|N|Either pick these up from the ground, or loot them from the Murlocs.|US|IZ|Golden Strand|
-C Lost Armaments|QID|8480|M|31.0,69.0|L|22413 8|N|You'll find the Weapon Containers in Sunsail Anchorage on the ground, in the water and inside the building.\n[color=FF0000]NOTE: [/color]Each one is on a ~5 minute respawn timer.|US|
+C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|N|You'll find the Weapon Containers in Sunsail Anchorage on the ground, in the water and inside the building.\n[color=FF0000]NOTE: [/color]Each one is on a ~5 minute respawn timer.|US|
 T Grimscale Pirates!|QID|8886|M|36.36,66.63|N|To Captain Kelisendra.|
 T Lost Armaments|QID|8480|M|36.36,66.77|N|To Velendris Whitemorn.|
 A Wretched Ringleader|QID|9076|M|36.36,66.77|N|From Velendris Whitemorn.|PRE|8480|
@@ -174,24 +174,25 @@ K Aldaron|QID|9076|M|32.70,68.4|QO|1|N|Head inside the white building and fight 
 K Wretched Thugs and Hooligans|QID|8892|QO|1;2|N|Finish killing the Wretched Thugs and Hooligans around Sunsail Anchorage.|US|IZ|Sunsail Anchorage|
 T Wretched Ringleader|QID|9076|M|36.36,66.77|N|To Velendris Whitemorn.|
 T The Ring of Mmmrrrggglll|QID|8885|M|30.23,58.31|N|To Hathvelion Sungaze.|
-C Pelt Collection|QID|8491|M|46.00,67.00|N|Finish collecting the Pelts.|US|
-H Fairbreeze Village|ACTIVE|8491&-8885|
-T Pelt Collection|QID|8491|M|44.7,69.6|N|To Velan Brightoak.|
+C Pelt Collection|QID|8491|M|38.42,64.67|N|Finish collecting the Pelts.|US|
+H Fairbreeze Village|ACTIVE|8491|AVAILABLE|-8885|M|43.67,71.31|N|Use your hearth or run back if you are close enough.|
+T Pelt Collection|QID|8491|M|44.72,69.63|N|To Velan Brightoak.|
 T Situation at Sunsail Anchorage|QID|8892|M|43.34,70.82|N|To Ranger Degolien.|
 A Farstrider Retreat|QID|9359|M|43.34,70.82|N|From Ranger Degolien.|LEAD|8476|PRE|8892|
 B Bundle of Fireworks|QID|9067|M|44.04,70.36|QO|3|N|Buy a Bundle of fireworks from Halis Dawnstrider.\n[color=FF0000]NOTE: [/color]Don't forget to repair and sell your junk.|
-T Ranger Sareyn|QID|9358|M|46.9,71.8|N|To Ranger Sareyn.|
-A Defending Fairbreeze Village|QID|9252|M|46.9,71.8|N|From Ranger Sareyn.|
-C Defending Fairbreeze Village|QID|9252|M|50.00,75.00|N|4 of each: Rotlimb marauder, Darkwraith. Follow the road southeast until you hit the Dead Scar. Then head south.|
-T The Wayward Apprentice|QID|9254|M|54.3,71.0|N|To Apprentice Mirveda. Go north along the Dead Scar until you reach Mivenda.|
-A Corrupted Soil|QID|8487|M|54.3,71.0|N|From Apprentice Mirveda.|
-C Corrupted Soil|QID|8487|M|52.60,68.40|N|Loot 8 Tainted Soil Samples, they are green looking.|
-T Corrupted Soil|QID|8487|M|54.3,71.0|N|To Apprentice Mirveda.|
-A Unexpected Results|QID|8488|M|54.28,70.98|N|From Apprentice Mirveda. Get to full HP/Mana and take the follow up. Protect Mivenda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.|PRE|8487|
-C Unexpected Results|QID|8488|M|54.28,70.98|N|Protect Mirveda.|
+T Ranger Sareyn|QID|9358|M|46.93,71.79|N|To Ranger Sareyn.|
+A Defending Fairbreeze Village|QID|9252|M|46.93,71.79|N|From Ranger Sareyn.|
+K Defending Fairbreeze Village|QID|9252|M|51.12,77.09|QO|1;2|N|Kill Rotlimb Marauders and Darkwraiths as you head through the Dead Scar.\n[color=FF0000]NOTE: [/color]Watch out for adds as much as possible.|S|
+R East Sanctum|ACTIVE|9252|M|48.08,72.42;51.16,70.72|CC|N|Head east down the hill into The Dead Scar and cut across to the other side.\n[color=FF0000]NOTE: [/color]Avoid the Angershades; they do nothing for you.|
+T The Wayward Apprentice|QID|9254|M|54.28,70.98|N|Make your way to Apprentice Mirveda on the steps of East Sanctum.|
+A Corrupted Soil|QID|8487|M|54.28,70.98|N|From Apprentice Mirveda.|
+C Corrupted Soil|QID|8487|M|51.71,69.21|L|20771 8|N|Loot the green Tainted Soil Samples from the area around East Sanctum and in The Dead Scar.|
+T Corrupted Soil|QID|8487|M|54.28,70.98|N|To Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Be prepared for a fight as you'll be immediately attacked by three mobs upon accepting this.|
+A Unexpected Results.|QID|8488|M|54.28,70.98|N|From Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Check your buffs and get to full HP/Mana before accepting. You will be attacked immediately by three mobs upon accepting it.|PRE|8487| ; added '.' to block auto-accepting
+C Unexpected Results|QID|8488|M|54.28,70.98|N|Protect Mirveda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.|
 T Unexpected Results|QID|8488|M|54.28,70.98|N|To Apprentice Mirveda. You should now be level 10!|
 A Research Notes|QID|9255|M|54.28,70.98|N|From Apprentice Mirveda.|PRE|8488|
-C Defending Fairbreeze Village|QID|9252|M|50.00,75.00|US|N|Finish up killing Rotlimb marauders and Darkwraiths.|
+K Defending Fairbreeze Village|QID|9252|M|51.12,77.09|QO|1;2|N|Kill Rotlimb Marauders and Darkwraiths in the Dead Scar.\n[color=FF0000]NOTE: [/color]You'll find the Darkwraiths south of East Sanctum.|US|
 T Farstrider Retreat|QID|9359|M|60.32,62.77|N|To Lieutenant Dawnrunner.|
 A Amani Encroachment|QID|8476|M|60.32,62.77|N|From Lieutenant Dawnrunner.|
 B Buy Springpaw Appetizers|QID|9067|M|60.40,62.46|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight at Farstrider Retreat.|
