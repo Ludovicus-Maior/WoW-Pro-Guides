@@ -480,10 +480,10 @@ H Hero's Rest|ACTIVE|60056^62723^60729|U|6948|M|PLAYER|N|Hearth back to Hero's R
 
 ; Side Quest stuff - Pride or Unit & Elite Quests
 R West Anima Gateway|ACTIVE|60315|M|50.56,46.80|Z|Bastion!The Shadowlands|TZ|Firstborne's Bounty|N|Leave Hero's Rest via the Anima Gateway to the west.|RANK|2|
-$ Abandoned Stockpile|QID|61006|M|44.6,46.5|Z|Bastion!The Shadowlands|N|Entrance is hidden behind bushes.|ACH|14311;7|
+$ Abandoned Stockpile|QID|61006|M|44.6,46.5|Z|Bastion!The Shadowlands|LVL|60|N|Entrance is hidden behind bushes.|ACH|14311;7|;treasure does not require lvl 60, but getting past the mobs guarding it does.
 C WANTED: Gorgebeak|QID|60315|M|49.16,46.56|Z|Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Run down in the valley to find and kill Gorgebeak.|
 T WANTED: Gorgebeak|QID|60315|M|51.00,41.66|Z|Bastion!The Shadowlands|ELITE|N|To Gerdus.|
-K Baedos|QID|62192|QO|1|M|51.22,40.62|Z|Bastion!The Shadowlands|ITEM|172232|RARE|N|Bring 4 casks of fermenting carrion fruit (found in the area) and come close to Baedos, This will awaken him, Fight him down to ~25%, then he will give you a treasure.|ACH|14307;6| ;formerly could fight down nearby vulpin, larion or cloudfeathers to get a beast you could fight him with, option not currently available
+K Baedos|QID|62192|LVL|60|QO|1|M|51.22,40.62|Z|Bastion!The Shadowlands|ITEM|172232|RARE|N|Bring 4 casks of fermenting carrion fruit (found in the area) and come close to Baedos, This will awaken him, Fight him down to ~25%, then he will give you a treasure.|ACH|14307;6| ;formerly could fight down nearby vulpin, larion or cloudfeathers to get a beast you could fight him with, option not currently available
 R Forgefire Outpost|ACTIVE|59674|PRE|60315|CS|M|53.45,41.28;55.47,39.12|Z|Bastion!The Shadowlands|N|Up the hill and out the other side of the Valley of Firstborne's Bounty.|
 R Forgefire Outpost|ACTIVE|59674|M|55.47,39.12|Z|Bastion!The Shadowlands|N|Leave Hero's Rest via the northern Anima Gateway and then run up the hill to Forgefire Outpost.|
 T A Friendly Rivalry|QID|59674|M|54.81,41.19|Z|Bastion!The Shadowlands|N|To Pelodis.|
@@ -601,7 +601,7 @@ C Glimmerflight|QID|59865||M|42.83,42.73|Z|Bastion!The Shadowlands|NC|N|Observe 
 T Glimmerflight|QID|59865|M|42.83,42.73|Z|Bastion!The Shadowlands|N|To Kowalskos.|
 
 ;The Spear of Kalliope
-K Demi the Relic Hoarder|M|37.50,41.75|Z|Bastion!The Shadowlands|T|Demi|N|WH - Annoyingly tricky mob, Casts an Anima Shield when attacked.  Use control abilities, loves to run into other mobs to join the party. Drop Relic Hoard chest..don't lose it!|ITEM|183608|RARE|ACH|14307;25|
+K Demi the Relic Hoarder|LVL|60|M|37.50,41.75|Z|Bastion!The Shadowlands|T|Demi|N|WH - Annoyingly tricky mob, Casts an Anima Shield when attacked.  Use control abilities, loves to run into other mobs to join the party. Drop Relic Hoard chest..don't lose it!|ITEM|183608|RARE|ACH|14307;25|
 R Haetio's Solace|QID|57860|LVL|60|M|36.69,37.55|Z|Bastion!The Shadowlands|N|Continue northwest to Haetio's solace for the Spear of Kalliope storyarc.|RANK|2|
 A How to Become Forsworn|QID|57860|LVL|60|M|36.68,37.57|Z|Bastion!The Shadowlands|N|From Haetio.|RANK|2|
 A Unshackled Knowledge|QID|59207|LVL|60|M|36.68,37.57|Z|Bastion!The Shadowlands|N|From Haetio.|RANK|2|
