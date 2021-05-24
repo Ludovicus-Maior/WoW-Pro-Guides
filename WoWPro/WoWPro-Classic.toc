@@ -26,6 +26,7 @@ Libraries\HereBeDragons\HereBeDragons-2.0.lua
 Libraries\HereBeDragons\HereBeDragons-Pins-2.0.lua
 Libraries\HereBeDragons\HereBeDragons-Migrate.lua
 Libraries\LibPetJournal-2.0\LibPetJournal-2.0.lua
+Libraries\LibBabble-SubZone-3.0\lib.xml
 WoWPro.lua
 WoWPro_CompatUtil.lua
 WoWPro_Templates.xml

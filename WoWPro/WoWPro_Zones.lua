@@ -59,6 +59,24 @@ function WoWPro.DefineZone9(mapId, zone, mapType, parent_map, group_id, ... )
     WoWPro.Zone2MapID[zone] = mapId
 end
 
+local ZRL = LibStub("LibBabble-SubZone-3.0"):GetReverseLookupTable(); -- zone reverse lookup  (localized -> english)
+
+function WoWPro.GetLookupZoneName(zonename)
+	local result = zonename;
+    if result then
+		result = result:trim()
+        if ZRL and GetLocale() ~= "enUS" then
+            result = ZRL[result] or result
+        end
+    end
+	return result;
+end
+
+-- return current player's zone and subzone with their english names, regardless of client localization (LibBabble-SubZone-3.0 required)
+function WoWPro.GetLocalZoneTexts()
+    return WoWPro.GetLookupZoneName(_G.GetZoneText()), WoWPro.GetLookupZoneName(_G.GetSubZoneText())
+end
+
 function WoWPro.GetZoneText()
     local _, _, mapId = WoWPro:GetPlayerZonePosition()
     if WoWPro.MapInfo[mapId] then

@@ -1975,7 +1975,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- Complete Travel steps if we are in the right zone already
             if stepAction == "F" or stepAction == "H" or stepAction == "b" or stepAction == "P" or stepAction == "R" then
-                local zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
+                local zonetext, subzonetext = WoWPro.GetLocalZoneTexts() -- _G.GetZoneText(), _G.GetSubZoneText():trim()
+                if (step == zonetext or step == subzonetext) and ( rowIndex == 1) and not guide.completion[guideIndex] then
+                    WoWPro.CompleteStep(guideIndex,"AutoCompleteZoneBroker")
+                    skip = true
+                    break
+                end
+				-- try again with current local
+                zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
                 if (step == zonetext or step == subzonetext) and ( rowIndex == 1) and not guide.completion[guideIndex] then
                     WoWPro.CompleteStep(guideIndex,"AutoCompleteZoneBroker")
                     skip = true
@@ -1986,6 +1993,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Skip InZone steps if we are not in the right zone
             if WoWPro.inzone[guideIndex] then
                 local zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
+				local zonetextUS, subzonetextUS = WoWPro.GetLocalZoneTexts()
                 local inzone = WoWPro.inzone[guideIndex]
 				local inzoneFlip = false
 				if (inzone:sub(1, 1) == "-") then
@@ -1997,7 +2005,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 					zonetext = mapID
 					inzone = tonumber(inzone)
 				end
-                if (((inzone == zonetext) or (inzone == subzonetext)) and not inzoneFlip) or (((inzone ~= zonetext) and (inzone ~= subzonetext)) and inzoneFlip) then
+                if (((inzone == zonetext) or (inzone == subzonetext) or (inzone == zonetextUS) or (inzone == subzonetextUS)) and not inzoneFlip) or (((inzone ~= zonetext) and (inzone ~= subzonetext) and (inzone ~= zonetextUS) and (inzone ~= subzonetextUS)) and inzoneFlip) then
                     WoWPro:dbp("Step %s [%s/%s] not skipped as InZone %s/%s",stepAction,step,tostring(QID), zonetext, subzonetext)
                 else
                     WoWPro:dbp("Step %s [%s/%s] skipped as not InZone %s/%s",stepAction,step,tostring(QID), zonetext, subzonetext)
