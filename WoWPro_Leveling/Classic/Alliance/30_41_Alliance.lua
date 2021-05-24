@@ -55,11 +55,11 @@ T The Brassbolts Brothers|QID|1179|M|78.14,77.13|N|To Wizzle Brassbolts.|
 A Hardened Shells|QID|1105|M|78.14,77.13|N|From Wizzle Brassbolts.|
 A Load Lightening|QID|1176|M|80.18,75.88|N|From Pozzik.|
 A A Bump in the Road|QID|1175|M|81.63,77.95|N|From Trackmaster Zherin.|
-C Rocket Car Parts|QID|1110|NC|S|N|Collect Rocket Car Parts which are scattered everywhere.|
-K Turtles|QID|555|S|N|Kill turtles for 10 meat. This is for a later quest so don't sell it.|L|3712 10|
-C Hardened Shells|QID|1105|S|N|Kill turtles for their Hardened Tortoise Shells.|
-C Salt Flat Venom|QID|1104|S|N|Kill Scorpids for their venom.|
-C Load Lightening|QID|1176|S|N|Kill vultures and collect their bones.|
+C Rocket Car Parts|QID|1110|M|75.4,55.0|NC|S|N|Collect Rocket Car Parts which are scattered everywhere.|
+K Turtles|QID|555|M|82.70,54.70|S|N|Kill turtles for 10 meat. This is for a later quest so don't sell it.|L|3712 10|
+C Hardened Shells|QID|1105|M|83.2,55.4|S|N|Kill turtles for their Hardened Tortoise Shells.|
+C Salt Flat Venom|QID|1104|M|72.00,73.00|S|N|Kill Scorpids for their venom.|
+C Load Lightening|QID|1176|M|87.00,66.00|S|N|Kill vultures and collect their bones.|
 K Saltstone Basilisks|QID|1175|M|75.40,55.90|QO|1|N|Kill all the Saltstone Basilisks that spawn up north.|
 C A Bump in the Road|QID|1175|M|80.00,87.00|N|Kill the Gazers and Crystalhide that spawn down south.|
 C Load Lightening|QID|1176|M|87.00,66.00|US|N|Kill vultures and collect their bones.|
@@ -159,9 +159,9 @@ T Hemet Nesingwary|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesing
 A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|583|
 A Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|583|
 A Panther Mastery|QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|583|
-C Supply and Demand|QID|575|Z|Stranglethorn Vale|S|N|Kill River Crocolisks and loot their skins.|
-C Panther Mastery|QID|190|Z|Stranglethorn Vale|S|N|Kill 10 Young Panthers for the Panther Mastery quest.|
-C Tiger Mastery|QID|185|Z|Stranglethorn Vale|S|N|Kill 10 young tigers For the Tiger Mastery quest.|
+C Supply and Demand|QID|575|M|40.6,13.3|Z|Stranglethorn Vale|S|N|Kill River Crocolisks and loot their skins.|
+C Panther Mastery|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|S|N|Kill 10 Young Panthers for the Panther Mastery quest.|
+C Tiger Mastery|QID|185|M|32.30,9.40|Z|Stranglethorn Vale|S|N|Kill 10 young tigers For the Tiger Mastery quest.|
 C The Second Rebellion|QID|203|M|44.0,11.2|S!US|Z|Stranglethorn Vale|N|Kill and loot the Kurzen fighters.|
 C Bad Medicine|QID|204|M|44.07,9.61|Z|Stranglethorn Vale|QO|2|NC|N|Loot a Fern Extract from one of the crates by the Kurzen campfire.|
 C Bad Medicine|QID|204|M|44.00,11.00|Z|Stranglethorn Vale|QO|1|N|Loot the Jungle Remedies from Kurzen Medicine Men or Headshrinkers.|
@@ -177,8 +177,8 @@ A Panther Mastery|QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Er
 r Repair and Sell|QID|186|M|35.76,10.66|Z|Stranglethorn Vale|N|Bags will get full quickly here. |
 
 C Raptor Mastery|QID|194|Z|Stranglethorn Vale|S|N|Go southwest and kill 10 Stranglethorn Raptors.|
-C Tiger Mastery|QID|186|Z|Stranglethorn Vale|S|N|Kill "Tigers", not the young ones.|
-C Panther Mastery|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|N|Kill "Panthers", not the young ones.|
+C Raptor Mastery|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|S|N|Go southwest and kill 10 Stranglethorn Raptors.|
+C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|S|N|Kill "Tigers", not the young ones.|
 C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|US|N|Finish killing Tigers before you move on.|
 C Raptor Mastery|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|US|N|Go southwest and kill 10 Stranglethorn Raptors.|
 C The Stone of the Tides|QID|578|M|21.00,22.00|Z|Stranglethorn Vale|N|Head onto the shore and sdwim to the island until you get the quest complete message for The Stone of the Tides.|
@@ -259,9 +259,9 @@ T Northfold Manor|QID|681|M|45.83,47.55|Z|Arathi Highlands|N|To Captain Nials.|
 A Worth Its Weight in Gold|QID|691|M|46.20,47.76|Z|Arathi Highlands|N|From Apprentice Kryten.|PRE|690|
 T Hints of a New Plague?|QID|659|M|60.18,53.85|Z|Arathi Highlands|N|To Quae.|
 A Hints of a New Plague?|QID|658|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|PRE|659|
-K Forsaken Courier|AVAILABLE|647|L|647|S|N|Look out for a group of Forsaken leaving Go'Shek Farm. The Forsaken Courier in the center drops a Sealed Folder. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter|T|Forsaken Courier|
+K Forsaken Courier|ACTIVE|658|M|61.00,60.00|L|647|S|N|Look out for a group of Forsaken leaving Go'Shek Farm. The Forsaken Courier in the center drops a Sealed Folder. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter|T|Forsaken Courier|IZ|Arathi Highlands|
 L Level 35|N|If you are not yet level 35 grind on the Orcs here|LVL|-35|
-R Thandol Span|AVAILABLE|647|M|60.80,60.65|Z|Arathi Highlands|CC|N|Head to the road leading out of Go'Shek Farm. Follow the road west and towards Wetlands when the road turns south|
+R Thandol Span|AVAILABLE|647|M|60.80,60.65;45.80,59.20;43.25,91.20|CC|Z|Arathi Highlands|CC|N|Head to the road leading out of Go'Shek Farm. Follow the road west and towards Wetlands when the road turns south|
 A MacKreel's Moonshine|QID|647|M|43.25,91.20;43.24,92.64|CC|Z|Arathi Highlands|N|Head to the broken side of the bridge. Stand on the right side of the chain and use Slowfall/Levitate on yourself. Aim yourself towards the Torch on the opposite side. Run and jump off the bridge to float over. Accept the quest from Foggy MacKreel in the room on the right. Be aware this is a timed quest. If you fail the jump swim east until you come to a hill you can run back up.|C|Mage,Priest|
 A MacKreel's Moonshine|QID|647|M|42.90,91.25;43.24,92.64|CC|Z|Arathi Highlands|N|Head to the broken side of the bridge. Stand on the ledge to the far right and use your Swiftness Potion or Movement Ability. Run and jump onto the ledge on the opposite side. Accept the quest from Foggy MacKreel in the room on the right. Be aware this is a timed quest. If you fail the jump swim east until you come to a hill you can run back up.|
 l Waterlogged Envelope|QID|637|M|44.29,92.89|Z|Arathi Highlands|N|Jump down into the river and swim down. Next to a broken catapult there will be a Dwarf Skeleton trapped under a rock. Click the Waterlogged Letter in his hand.|L|4433|
@@ -276,8 +276,8 @@ A Hints of a New Plague?|QID|660|M|60.23,53.92|Z|Arathi Highlands|N|From Kinelor
 C Hints of a New Plague?|QID|660|M|60.23,53.92|Z|Arathi Highlands|N|Kinelory is better off in front of you. Try to fight one at a time, but let Kinelory be the one to attract mobs.|
 T Hints of a New Plague?|QID|660|M|60.18,53.85|Z|Arathi Highlands|N|To Quae.|
 A Hints of a New Plague?|QID|661|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|PRE|660|
-C Witherbark Tusk|QID|691|Z|Arathi Highlands|QO|1|S|N|Kill Trolls and loot them for their tusks.|
-C Witherbark Medicine Pouch|QID|691|Z|Arathi Highlands|QO|2|S|N|Kill Witch Doctors to get the Medicine Pouches needed for the quest.|L|4522 4|
+C Witherbark Tusk|QID|691|M|63.00,65.00|Z|Arathi Highlands|QO|1|S|N|Kill Trolls and loot them for their tusks.|
+C Witherbark Medicine Pouch|QID|691|M|63.00,65.00|Z|Arathi Highlands|QO|2|S|N|Kill Witch Doctors to get the Medicine Pouches needed for the quest.|L|4522 4|
 C Worth Its Weight in Gold|QID|691|M|68.00,75.00|Z|Arathi Highlands|QO|3|N|Kill Witherbark Shadow Hunters in the cave until you get the Shadow Hunter Knife|
 C Witherbark Medicine Pouch|QID|691|M|63.00,65.00|Z|Arathi Highlands|QO|2|US|N|Kill Witch Doctors to get the Medicine Pouches.|L|4522 4|
 C Witherbark Tusk|QID|691|M|63.00,65.00|Z|Arathi Highlands|QO|1|US|N|Kill Trolls and loot them for their tusks.|
@@ -299,17 +299,17 @@ T Hints of a New Plague?|QID|661|M|50.35,59.05|Z|Hillsbrad Foothills|N|To Phin O
 A Bartolo's Yeti Fur Cloak|QID|565|M|49.43,55.54|Z|Hillsbrad Foothills|N|From Bartolo Ginsetti. If you could not get all the previous items required left click to skip this quest.|
 A Crushridge Bounty|QID|500|M|49.47,58.73|Z|Hillsbrad Foothills|N|From Marshal Redpath.|
 A Syndicate Assassins|QID|505|M|48.13,59.10|Z|Hillsbrad Foothills|N|From Magistrate Henry Maleb.|
-C A King's Tribute|QID|689|Z|Hillsbrad Foothills|S|N|Click the Alterac Granite inside the cave. They look like white shark teeth sticking out of the ground along the walls.|NC|
+C A King's Tribute|QID|689|M|46.00,32.00|Z|Hillsbrad Foothills|S|N|Click the Alterac Granite inside the cave. They look like white shark teeth sticking out of the ground along the walls.|NC|
 C Bartolo's Yeti Fur Cloak|QID|565|M|46,32|Z|Hillsbrad Foothills|N|Run to the cave and kill the yetis.|
-C A King's Tribute|QID|689|M|46,32|Z|Hillsbrad Foothills|US|N|Click the Alterac Granite inside the cave. They look like white shark teeth sticking out of the ground along the walls.|NC|
+C A King's Tribute|QID|689|M|46.00,32.00|Z|Hillsbrad Foothills|US|N|Click the Alterac Granite inside the cave. They look like white shark teeth sticking out of the ground along the walls.|NC|
 
 R Alterac Mountains|QID|564|M|54.60,8.00|Z|Hillsbrad Foothills|N|Out of the cave and make your way to Alterac Mountains.|
-C Costly Menace|QID|564|Z|Alterac Mountains|S|N|Kill Lions on your way.|
+C Costly Menace|QID|564|M|38.00,85.00|Z|Alterac Mountains|S|N|Kill Lions on your way.|
 R Sofera's Naze|QID|564|M|58.00,67.00|Z|Alterac Mountains|N|Towards the Syndicate Camp.|
-C Syndicate Assassins|QID|505|Z|Alterac Mountains|S|N|Kill Syndicates around the area.|
+C Syndicate Assassins|QID|505|M|47.00,76.00|Z|Alterac Mountains|S|N|Kill Syndicates around the area.|
 A Encrypted Letter|QID|511|M|58.32,67.95|Z|Alterac Mountains|N|From 'Syndicate Documents' on a table in the middle of the camp.|
 A Foreboding Plans|QID|510|M|58.32,67.95|Z|Alterac Mountains|N|From the other 'Syndicate Documents' on the same table.|
-C Crushridge Bounty|QID|500|Z|Alterac Mountains|S|N|Kill Crushridge Ogres and loot their Dirty Knucklebones.|
+C Crushridge Bounty|QID|500|M|49.00,61.60|Z|Alterac Mountains|S|N|Kill Crushridge Ogres and loot their Dirty Knucklebones.|
 R Ruins of Alterac|QID|540|M|44.78,46.61|Z|Alterac Mountains|N|Stay on the road and run to the ruins, this should be soloable, but if you find a group go for it. Just need a quick in and out to grab a book and then you can leave the elite area.|
 C Preserving Knowledge|QID|540|QO|2|Z|Alterac Mountains|M|38.46,46.38|N|The book you are looking for is on a bookcase inside the house, a level 40 elite will spawn. You don't have to kill it, you can run away, vanish, etc.|
 C Preserving Knowledge|QID|540|QO|1|Z|Alterac Mountains|M|49.00,61.60|N|Continue killing ogres until you have the 5 tomes needed. These drop off the non-elites|
@@ -396,17 +396,17 @@ A Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 A Panther Mastery|QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|191|
 A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|194|
 
-C Bloodscalp Ears|QID|189|Z|Stranglethorn Vale|S|N|Get 15 bloodscalp ears from the Trolls here.|
+C Bloodscalp Ears|QID|189|M|29.00,20.00|Z|Stranglethorn Vale|S|N|Get 15 bloodscalp ears from the Trolls here.|
 C The Emperor's Tomb|QID|207|QO|4|M|24.70,8.90|NC|Z|Stranglethorn Vale|N|Inside the ruins up to the top and go right.|
 C Fall of Gurubashi|QID|207|QO|3|M|22.96,12.02|NC|Z|Stranglethorn Vale|N|Back out to the main road, stay left, don't go down.|
 
 C "Gri"lek the Wanderer|QID|207|QO|2|M|24.75,22.86|NC|Z|Stranglethorn Vale|N|Loot the scroll from the tablet underwater at this location.|
 C Moon Over the Vale|QID|207|QO|1|M|29.49,19.15|NC|Z|Stranglethorn Vale|N|Loot the scroll from the Tablet at this location.|
-C Singing Blue Shards|QID|605|Z|Stranglethorn Vale|S|N|Feel free to kill Basilisks to the West of the Troll Ruins if you are waiting for respawns.|
+C Singing Blue Shards|QID|605|M|26.80,18.70|Z|Stranglethorn Vale|S|N|Feel free to kill Basilisks to the West of the Troll Ruins if you are waiting for respawns.|
 C Bloodscalp Ears|QID|189|M|29.00,20.00|Z|Stranglethorn Vale|US|N|Get 15 bloodscalp ears from the Trolls here.|
 C Water Elementals|QID|601|M|21,21|Z|Stranglethorn Vale|N|Kill and loot water elementals until you have the required bracers.|
 C Singing Blue Shards|QID|605|M|26.80,18.70|Z|Stranglethorn Vale|US|N|Back across the water. Kill Basilisks until you get ten Singing Crystal Shards.|
-C Tiger Mastery|QID|187|Z|Stranglethorn Vale|S|N|Kill Elder Stranglethorn Tigers.|
+C Tiger Mastery|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|S|N|Kill Elder Stranglethorn Tigers.|
 C Raptor Mastery|QID|195|M|31.70,22.80|Z|Stranglethorn Vale|N|Kill the lashtail raptors in this area.|
 C Tiger Mastery|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|US|N|Kill Elder Stranglethorn Tigers.|
 T Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary. Don't get follow-up.|
@@ -414,8 +414,8 @@ T Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|187|
 r Repair and Sell|QID|192|M|35.76,10.66|Z|Stranglethorn Vale|N|Bags will get full quickly here.|
 C Tiger Mastery|QID|188|M|32.18,17.30|Z|Stranglethorn Vale|N|Kill Sin'dall on top of the hill and loot his paw.|
-C Some Assembly Required|QID|577|Z|Stranglethorn Vale|S|N|Kill Snapjaw Crocolisks for their skins. (Not the River Crocolisks)|
-C Hostile Takeover|QID|213|Z|Stranglethorn Vale|S|N|Kill geologists.|
+C Some Assembly Required|QID|577|M|36.94,32.63Z|Stranglethorn Vale|S|N|Kill Snapjaw Crocolisks for their skins. (Not the River Crocolisks)|
+C Hostile Takeover|QID|213|M|44.96,21.03|Z|Stranglethorn Vale|S|N|Kill geologists.|
 K Foreman Cozzle|QID|1182|M|42.65,18.34|Z|Stranglethorn Vale|N|Kill Foreman Cozzle at the top of the control tower and loot his key.|L|5851|
 C Goblin Sponsorship|QID|1182|M|43.33,20.32|Z|Stranglethorn Vale|N|Loot the bluebrints from a chest in the small house.|NC|
 C Hostile Takeover|QID|213|M|44.96,21.03|Z|Stranglethorn Vale|US|N|Kill geologists. \n\nI suggest turning your graphics settings down to 1 for this.|
@@ -510,29 +510,29 @@ T The Karnitol Shipwreck|QID|1455|M|66.2,9.63|Z|Desolace|N|To Kreldig Ungor.|
 A The Karnitol Shipwreck|QID|1456|M|66.2,9.63|Z|Desolace|N|From Kreldig Ungor.|PRE|1455|
 T Return to Vahlarriel|QID|1440|M|66.44,11.82|Z|Desolace|N|To Vahlarriel Demonslayer.|
 A Bone Collector|QID|5501|M|62.40,39.04|Z|Desolace|N|Go south and accept this quest.|
-C Aged Kodos|QID|1459|Z|Desolace|QO|2|S|N|Kill Aged Kodos you might find in about the zone while traveling, collect 3 of their hide.|
+C Aged Kodos|QID|1459|M|PLAYER|Z|Desolace|QO|2|S|N|Kill Aged Kodos you might find in about the zone while traveling, collect 3 of their hide.|
 T Sceptre of Light|QID|5741|M|38.89,27.16|Z|Desolace|N|To Azore Aldamort.|
 A Book of the Ancients|QID|6027|M|38.9,27.2|Z|Desolace|N|From Azore Aldamort.|PRE|5741|
 T Claim Rackmore's Treasure!|QID|6161|M|30.00,8.71|Z|Desolace|N|Loot the chest at this location to complete the quest.|
-C The Karnitol Shipwreck|QID|1456|Z|Desolace|S|N|Kill Slitherblade Sea Witches and Tidehunters until you get Karnitol's Satchel.|
+C The Karnitol Shipwreck|QID|1456|M|30.00,7.00|Z|Desolace|S|N|Kill Slitherblade Sea Witches and Tidehunters until you get Karnitol's Satchel.|
 C Book of the Ancients|QID|6027|M|28.24,6.62|Z|Desolace|N|Clear the area around the statue at this location. Make sure your health is full, and click the statue until Lord Kragaru spawns. Loot the book for the quest.|
 C The Karnitol Shipwreck|QID|1456|M|30.00,7.00|Z|Desolace|US|N|Kill Slitherblade Sea Witches and Tidehunters until you get Karnitol's Satchel.\n\nThis can be annoying because a lot of other types spawn here as well. you need to keep clearing the others and hope the nagas you need will spawn.|
 T Book of the Ancients|QID|6027|M|38.89,27.16|Z|Desolace|N|To Azore Aldamort.|
-C Bone Collector|QID|5501|Z|Desolace|S|NC|N|Get 10 Kodo Bones from the graveyard. A Kodo Apparition may spawn each time you click a bone.|
+C Bone Collector|QID|5501|M|49.00,58.00|Z|Desolace|S|NC|N|Get 10 Kodo Bones from the graveyard. A Kodo Apparition may spawn each time you click a bone.|
 R Scrabblescrew's Camp|QID|5561|M|60.90,61.90|Z|Desolace|N|Head generally east to the road, then follow the arrow to Scrabblescrew's cammp.|
 A Kodo Roundup|QID|5561|M|60.86,61.87|Z|Desolace|N|From Smeed Scrabblescrew.|
 A Ghost-o-plasm Round Up|QID|6134|M|47.83,61.83|Z|Desolace|N|From Hornizz Brimbuzzle.|
-C Kodo Roundup|QID|5561|Z|Desolace|S|N|Use the Rod on any Aged, Ancient, or Dying Kodo, then run back to Smeed Scrabblescrew with it.  Do this five times to complete the quest.|U|13892|
+C Kodo Roundup|QID|5561|M|60.85,61.85|Z|Desolace|S|N|Use the Rod on any Aged, Ancient, or Dying Kodo, then run back to Smeed Scrabblescrew with it.  Do this five times to complete the quest.|U|13892|
 C Bone Collector|QID|5501|M|49.00,58.00|Z|Desolace|US|NC|N|Get Kodo Bones from the graveyard. A Kodo Apparition may spawn each time you click a bone.|
 C Aged Kodos|QID|1459|M|66.2,9.6|Z|Desolace|QO|2|US|N|Kill Aged Kodos in the area, collect 3 of their hide.|
 C Kodo Roundup|QID|5561|M|60.85,61.85|CN|Z|Desolace|US|N|Use the Rod on any Aged, Ancient, or Dying Kodo, then run back to the Smeed Scrabblescrew with it.  Do this five times to complete the quest.|U|13892|
 T Kodo Roundup|QID|5561|M|60.9,61.9|Z|Desolace|N|To Smeed Scrabblescrew.|
-C Centaur Bounty|QID|1387|Z|Desolace|S|N|Kill Magrim Centaurs and loot their Ears.|
-C Down the Scarlet Path|QID|261|Z|Desolace|S|N|Kill Undead Ravagers near this location.|
+C Centaur Bounty|QID|1387|M|70.00,70.00|Z|Desolace|S|N|Kill Magrim Centaurs and loot their Ears.|
+C Down the Scarlet Path|QID|261|M|63.40,91.40|Z|Desolace|S|N|Kill Undead Ravagers near this location.|
 C Ghost-o-plasm Round Up|QID|6134|M|64.22,91.46|Z|Desolace|N|Clear the area around you, click the crate and run back to a safe spot where you can pull the spectres from range.\n\nThey will clump up eventually and pulling just 1 can get difficult at times, if there is too many you can wait for them to despawn.|U|15848|
 C Down the Scarlet Path|QID|261|M|63.40,91.40|Z|Desolace|US|N|Kill 30 Undead Ravagers near this location.|
 C Strange Alliance|QID|1382|M|70.00,70.00|Z|Desolace|REP|Gelkis Clan Centaur;91;hated-neutral|N|Kill Magrim Centaurs until you are friendly with the Gelkis faction. It will take 50 centaurs, 46 if you are human.|
-C Centaur Bounty|QID|1387|Z|Desolace|US|N|Get the rest of the Centaur Ears if you haven't already.|
+C Centaur Bounty|QID|1387|M|70.00,70.00|Z|Desolace|US|N|Get the rest of the Centaur Ears if you haven't already.|
 C Reagents for Reclaimers Inc.|QID|1459|M|66.2,9.6|Z|Desolace|N|Time to finish this up if you haven't already.|
 L Level Check|N|You should be over level 37 by now.|LVL|37|
 T Ghost-o-plasm Round Up|QID|6134|M|47.83,61.83|Z|Desolace|N|To Hornizz Brimbuzzle.|
@@ -551,7 +551,7 @@ A The Karnitol Shipwreck|QID|1457|M|66.2,9.6|Z|Desolace|N|From Kreldig Ungor.|PR
 T Centaur Bounty|QID|1387|M|66.74,10.87|Z|Desolace|N|To Corporal Melkins.|
 T Bone Collector|QID|5501|M|62.40,39.04|Z|Desolace|N|From Bibbly F'utzbuckle.|
 C Raid on the Kolkar|QID|1384|M|72,45|Z|Desolace|N|Kill the Kolkar in this area and loot the charms.|
-C The Infernal Orb|QID|1954|Z|Desolace|S|N|Kill Burning Blade Summoners until you get the Orb.|C|Mage|
+C The Infernal Orb|QID|1954|M|52.65,82.00|Z|Desolace|S|N|Kill Burning Blade Summoners until you get the Orb.|C|Mage|
 C Reagents for Reclaimers Inc.|QID|1466|M|52.65,82.00|Z|Desolace|N|Kill Doomwarder Captains for Blood.\nLey/Mage Hunters for Brains.\nSorceress/Sister for Wings.|
 C The Infernal Orb|QID|1954|M|52.65,82.00|Z|Desolace|US|N|Kill Burning Blad Summoners until you get the Orb.|C|Mage|
 T Raid on the Kolkar|QID|1384|M|36.23,79.24|Z|Desolace|N|To Uthek the Wise.|PRE|1382|
@@ -586,7 +586,7 @@ T The Deserters|QID|1286|M|36.09,54.30|Z|Dustwallow Marsh|N|To Balos Jacken. As 
 A The Deserters|QID|1287|M|36.09,54.30|Z|Dustwallow Marsh|N|From Balos Jacken.|PRE|1286|
 C Razzeric's Tweaking|QID|1187|M|54.1,56.4|Z|Dustwallow Marsh|N|Click on the Gizmorium Shipping Crate at the crashed Zeppelin.|
 T Jarl Needs Eyes|QID|1206|M|55.44,26.27|Z|Dustwallow Marsh|N|Swim east through the water to "Swamp Eye" Jarl and turn in.|
-C Mudrock Soup and Bugs|QID|1204|Z|Dustwallow Marsh|S|N|Kill all "Mudrock" Tortoises you come across for their tongues.|
+C Mudrock Soup and Bugs|QID|1204|M|56.80,16.40|Z|Dustwallow Marsh|S|N|Kill all "Mudrock" Tortoises you come across for their tongues.|
 C Hungry!|QID|1177|M|56.80,16.40|Z|Dustwallow Marsh|N|Head North-East to the Coast and kill all "Mirefin" Murlocs for their heads.|
 C Mudrock Soup and Bugs|QID|1204|M|56.80,16.40|Z|Dustwallow Marsh|US|N|Finishing killing "Mudrock" Tortoises for their tongues.|
 T Hungry!|QID|1177|M|35.00,38.20|N|Run back south-west along the road to turn in to Mudcrush Durtfeet|
@@ -632,8 +632,8 @@ r Empty your bags|QID|1421|M|26.45,31.48|Z|Swamp of Sorrows|N|If your bags are g
 T The Lost Caravan|QID|1421|M|26.73,59.81|Z|Swamp of Sorrows|N|To Watcher Biggs.|
 A Driftwood|QID|1398|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1421|
 C In Search of The Temple|QID|1448|M|65.00,48.00|Z|Swamp of Sorrows|NC|N|Swim east towards the temple if you need to complete this quest. Continue east after the quest update.|
-l Artisan Cooking|QID|1258|ACTIVE|1398|Z|Swamp of Sorrows|S|N|If you want to go beyond 225 cooking, collect the Zesty Clam Meat from clams that drop off crawlers.|P|Cooking;185;0+10;0|L|7974 10|
-C Driftwood|QID|1398|Z|Swamp of Sorrows|S|NC|N|Run south along the coast picking up driftwood.|
+l Artisan Cooking|QID|1258|M|94.7,44.8;84.3,83.8|ACTIVE|1398|Z|Swamp of Sorrows|S|N|If you want to go beyond 225 cooking, collect the Zesty Clam Meat from clams that drop off crawlers.|P|Cooking;185;0+10;0|L|7974 10|
+C Driftwood|QID|1398|M|94.7,44.8;81.94,10.6|Z|Swamp of Sorrows|S|NC|N|Run south along the coast picking up driftwood.|
 C ... and Bugs|QID|1258|M|94.7,44.8;81.94,10.6|CN|Z|Swamp of Sorrows|N|Kill Silt Crawlers. Monstorous Crawlers will work but they are too tough right now. Silts spawn on the northern half of the coast.|
 l Artisan Cooking|QID|1258|ACTIVE|1398|M|94.7,44.8;81.94,10.6|CN|Z|Swamp of Sorrows|US|N|Keep collecting if you want, there will be other opportunities later. Skip if you wan't to move on.|P|Cooking;185;0+10;0|L|7974 10|
 C Driftwood|QID|1398|M|94.7,44.8;81.94,10.6|CN|Z|Swamp of Sorrows|US|NC|N|Run north along the coast picking up driftwood.|
@@ -674,9 +674,9 @@ T Magical Analysis|QID|602|M|18.83,78.49|Z|Alterac Mountains|N|To Archmage Ansir
 A Ansirem's Key|QID|603|M|18.83,78.49|Z|Alterac Mountains|N|From Archmage Ansirem Runeweaver.|PRE|602|
 
 R Misty Shore|QID|537|M|23.86,50.60|Z|Alterac Mountains|N|Run up north toward the Misty Shore.|
-K Dark Council|QID|537|Z|Alterac Mountains|QO|1|S|N|Kill the Shadow Mages.|
+K Dark Council|ACTIVE|537|M|47.62,12.29;52.30,20.95;54.70,26.00;58,31.73|Z|Alterac Mountains|QO|1|S|N|Kill the Shadow Mages.|
 C Noble Deaths|QID|512|Z|Alterac Mountains|S|N|Kill Syndicate in the area and loot their Signet Rings.|
-K Dark Council|QID|537|M|39.20,14.35|Z|Alterac Mountains|QO|2|N|Kill Nagaz and loot his head.|
+K Nagaz|ACTIVE|537|M|39.20,14.35|Z|Alterac Mountains|QO|2|N|Kill Nagaz and loot his head.|
 l The Ensorcelled Parchment|QID|551|M|39.18,14.66|Z|Alterac Mountains|NC|N|Click on the Worn Wooden Chest near Nagaz|L|3706|
 A The Ensorcelled Parchment|QID|551|M|PLAYER|Z|Alterac Mountains|N|Click the Ensorcelled Parchment.|U|3706|
 C Baron's Demise|ACTIVE|523|Z|Alterac Mountains|S|N|Kill Baron Vardus and loot his head, he roams from camp to camp so keep an eye out.|T|Baron Vardus|
@@ -703,8 +703,8 @@ A Sunken Treasure|QID|665|M|33.87,80.55|Z|Arathi Highlands|N|Don't pick this up 
 C Sunken Treasure|QID|665|M|35.14,80.47|Z|Arathi Highlands|N|Escort the gnome to the cave, stay at the entrance to the cave (to avoid multiple spawns) where two level 40 elemental will attack you.|
 T Sunken Treasure|QID|665|M|33.86,80.45|Z|Arathi Highlands|N|To Dr. Draxlegauge, it may take a few seconds after the fighting ends.|
 A Sunken Treasure|QID|666|M|33.86,80.45|Z|Arathi Highlands|N|From Dr. Draxlegauge.|PRE|665|
-C Sunken Treasure|QID|666|Z|Arathi Highlands|S|N|Look for large rocks that are covered in gray lines to loot Elven Gems from. You can also equip the provided goggles to show nearby rocks on your minimap|U|4491|
-C Drowned Sorrows|QID|664|Z|Arathi Highlands|S|N|Kill Naga as you go.|
+C Sunken Treasure|QID|666|M|20.6,85.1|Z|Arathi Highlands|S|N|Look for large rocks that are covered in gray lines to loot Elven Gems from. You can also equip the provided goggles to show nearby rocks on your minimap|U|4491|
+C Drowned Sorrows|QID|664|M|23,84.4|Z|Arathi Highlands|S|N|Kill Naga as you go.|
 C Maiden's Folly Charts|QID|662|QO|2|M|23.40,85.09|Z|Arathi Highlands|N|Swim west in the water and head towards the sunken ships. Dive down and swim through one of the windows to the front below deck of the closest ship. There will be a pile of trashed objects. You will find the charts inside the cauldron.|
 C Maiden's Folly Log|QID|662|QO|1|M|23.03,84.51|Z|Arathi Highlands|N|Face north-west and swim through the two doorways. You will find the logbook on the flat surface besides the mast.|
 C Spirit of Silverpine Charts|QID|662|QO|3|M|20.46,85.61|Z|Arathi Highlands|N|Swim out and head towards the second ship. Swim through one of the windows at the front side of the ship. You will find the charts on a crate next to a cannon.|
@@ -736,7 +736,7 @@ T Ironband Wants You!|QID|707|M|65.93,65.62|Z|Loch Modan|N|To Prospecter Ironban
 A Find Agmond|QID|738|M|65.93,65.62|Z|Loch Modan|N|To Prospecter Ironband.|PRE|707|
 
 R Badlands|QID|1106|M|55.6,68.23;47.2,77.6;47.00,85.00|Z|Loch Modan|CC|N|Run to The Badlands|
-C Badlands Reagent Run|QID|2500|Z|Badlands|S|N|From now on, kill any Buzzard or Coyote you see.|
+C Badlands Reagent Run|QID|2500|M|PLAYER|Z|Badlands|S|N|From now on, kill any Buzzard or Coyote you see.|
 A A Dwarf and His Tools|QID|719|M|53.42,43.39|Z|Badlands|N|From Prospector Ryedol.|
 A Mirages|QID|718|M|53.79,43.31|Z|Badlands|N|From Sigrun Ironhew.|
 T Martek the Exiled|QID|1106|M|42.22,52.69|Z|Badlands|N|To Martek the Exiled.|
@@ -750,7 +750,7 @@ A Gyro... What?|QID|714|M|25.95,44.87|Z|Badlands|N|From Lotwil Veriatus.|PRE|713
 T Gyro... What?|QID|714|M|25.95,44.87|Z|Badlands|N|To Lotwil Veriatus.|
 A Liquid Stone|QID|715|M|25.82,44.23|Z|Badlands|N|From Lucien Tosselwrench.|PRE|714|
 T Liquid Stone|QID|715|M|25.82,44.23|Z|Badlands|N|To Lucien Tosselwrench.|
-C Barbecued Buzzard Wings|QID|703|Z|Badlands|S|N|Kill Buzzards until you get 4 Buzzard Wings|
+C Barbecued Buzzard Wings|QID|703|M|PLAYER|Z|Badlands|S|N|Kill Buzzards until you get 4 Buzzard Wings|
 C Study of the Elements: Rock|QID|710|M|23.00,43.00|Z|Badlands|N|Go west of Lotwil and kill Lesser Elementals  until you get 10 Small Stone Shards.|
 T Study of the Elements: Rock|QID|710|M|25.95,44.87|Z|Badlands|N|To Lotwil Veriatus.|
 A Study of the Elements: Rock|QID|711|M|25.95,44.87|Z|Badlands|N|From Lotwil Veriatus.|PRE|710|
@@ -764,7 +764,7 @@ T Mirages|QID|718|M|53.79,43.31|Z|Badlands|N|To Sigrun Ironhew.|
 A Scrounging|QID|733|M|53.79,43.31|Z|Badlands|N|From Sigrun Ironhew.|PRE|718|
 T Find Agmond|QID|738|M|50.89,62.43|Z|Badlands|N|To Battered Dwarven Skeleton.|
 A Murdaloc|QID|739|M|50.9,62.4|Z|Badlands|N|From Battered Dwarven Skeleton.|PRE|738|
-C Indurium|QID|1108|Z|Badlands|S|N|Kill Stonevault mobs for Indurium Flakes.|
+C Indurium|QID|1108|M|51.8,65.6|Z|Badlands|S|N|Kill Stonevault mobs for Indurium Flakes.|
 C Murdaloc|QID|739|M|50.53,67.92|Z|Badlands|N|Kill Stonevault Bonesnappers and Murdaloc.|
 C Indurium|QID|1108|M|51.8,65.6|Z|Badlands|US|N|Continue to kill Stonevault mobs until you complete this quest.|
 A Solution to Doom|QID|709|M|51.39,76.87|Z|Badlands|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Theldurin the Lost.|
@@ -773,10 +773,10 @@ C Study of the Elements: Rock|QID|711|M|42.84,83.87|Z|Badlands|N|Kill Rock Eleme
 T Study of the Elements: Rock|QID|711|M|25.95,44.87|Z|Badlands|N|To Lotwil Veriatus.|
 A Study of the Elements: Rock|QID|712|M|25.95,44.87|Z|Badlands|N|From Lotwil Veriatus.|PRE|711|
 C Badlands Reagent Run|QID|2500|M|53.42,43.39|Z|Badlands|QO|3|N|Finish collecting the Rock Elemental Shards if you haven't already.|
-C Study of the Elements: Rock|QID|712|Z|Badlands|S|N|Kill Greater Rock Elementals here until you get the Bracers of Rock Binding.  There are more Elementals west of this location.|
+C Study of the Elements: Rock|QID|712|M|17.00,83.00|Z|Badlands|S|N|Kill Greater Rock Elementals here until you get the Bracers of Rock Binding.  There are more Elementals west of this location.|
 C Scrounging|QID|733|M|10.00,72.00|Z|Badlands|N|Kill ogres here until you get 7 Scrap Metals. (low drop rate)|
 C Study of the Elements: Rock|QID|712|M|17.00,83.00|Z|Badlands|US|N|Kill Greater Rock Elementals here until you get the Bracers of Rock Binding.  There are more Elementals west of this location.|
-C Barbecued Buzzard Wings|QID|703|Z|Badlands|US|N|Kill Buzzards until you get 4 Buzzard Wings|
+C Barbecued Buzzard Wings|QID|703|M|PLAYER|Z|Badlands|US|N|Kill Buzzards until you get 4 Buzzard Wings|
 C Badlands Reagent Run|QID|2500|M|16.00,60.00|Z|Badlands|US|N|Finish gathering the materials needed for this quest by killing Buzzards, Coyotes, and Rock Elementals.|
 T Study of the Elements: Rock|QID|712|M|25.95,44.87|Z|Badlands|N|To Lotwil Veriatus.|
 A This Is Going to Be Hard|QID|734|M|25.95,44.87|Z|Badlands|N|From Lotwil Veriatus.|
