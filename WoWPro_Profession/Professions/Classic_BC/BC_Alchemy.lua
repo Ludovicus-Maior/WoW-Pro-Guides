@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BC_Alchemy","Profession","Alchemy_Classic", "Blanckaert", "Neutral", 2)
+local guide = WoWPro:RegisterGuide("BC_Alchemy","Profession","Alchemy_Classic", "WoWPro Team", "Neutral", 2)
 WoWPro:GuideIcon(guide,"PRO",171)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Alchemy")
@@ -22,8 +22,8 @@ return [[
 
 ; N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide|QID|171000001|N|Covers VANILLA content in CLASSIC only. Guide rewritten to new format.|
-N PLEASE Report any issues|QID|171000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
+N This Guide|QID|171000001|N|Covers VANILLA content in CLASSIC only. Guide rewritten to new format.  *** NOT YET UPDATED to TBC! ***|
+N PLEASE Report any issues|QID|171000002|N|In our Discord #TBC-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 
 N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|

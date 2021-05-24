@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancENCH_LEG","Profession","Enchanting_LEG", "Blanckaert", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancENCH_LEG","Profession","Enchanting_LEG", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",333)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Enchanting_Legion")

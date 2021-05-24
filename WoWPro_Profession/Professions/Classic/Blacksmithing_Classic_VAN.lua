@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancBSM_Classic","Profession","Blacksmithing_Classic", "Blanckaert", "Neutral",1)
+local guide = WoWPro:RegisterGuide("BlancBSM_Classic","Profession","Blacksmithing_Classic", "WoWPro Team", "Neutral",1)
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Blacksmithing_Classic")
@@ -26,7 +26,7 @@ N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Developme
 N PLEASE Report any issues|QID|164000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
-N Miner|QID|164000005|P|Mining;186;0;0|N|If you are a miner, running around for these mats will level your mining up. Unfortuantely some might get you killed in your toon is not of level. Currently no guide in the works for mining.|
+N Miner|QID|164000005|P|Mining;186;0;0|N|If you are a miner, running around for these mats will level your mining up. Unfortuantely some might get you killed if your toon is not of level. Currently no guide in the works for mining.|
 
 N Shopping List|QID|164000006|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
 

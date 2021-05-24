@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancJC_SL","Profession","Jewelcrafting_SL", "Blanckaert", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancJC_SL","Profession","Jewelcrafting_SL", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",755)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Jewelcrafting_ShadowLands")

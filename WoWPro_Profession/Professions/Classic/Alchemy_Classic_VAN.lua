@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancAlchemy_Classic","Profession","Alchemy_Classic", "Blanckaert", "Neutral",1)
+local guide = WoWPro:RegisterGuide("BlancAlchemy_Classic","Profession","Alchemy_Classic", "WoWPro Team", "Neutral",1)
 WoWPro:GuideIcon(guide,"PRO",171)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Alchemy_Classic")
