@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_19_25_Alliance', "Leveling", 'Westfall', 'Bidaum+Boston+Elidion', 'Alliance', 2)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_19_25_Alliance', "Leveling", 'Westfall', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Alliance Leveling 19-25')
 WoWPro:GuideLevels(guide, 19,25)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_25_30_Alliance')
@@ -320,7 +320,7 @@ A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|Z|Wetlands|
 C Ormer's Revenge|QID|294|M|28.8,43.4|S|N|Kill raptors outside the excavation site until you complete this quest.|Z|Wetlands|
 C The Absent Minded Prospector|QID|943|M|28.8,43.4|QO|1|N|Kill Raptors for the Stone.|Z|Wetlands|
 C Ormer's Revenge|QID|294|M|24.3,52.5|US|N|Kill raptors until you complete this quest.|Z|Wetlands|
-T Ormer's Revenge|QID|294|M|38.07,51.18|N|Back up the ramp in the excavation site to Ormer Ironbraid |
+T Ormer's Revenge|QID|294|M|38.07,51.18|N|Back up the ramp in the excavation site to Ormer Ironbraid.|Z|Wetlands|
 A Ormer's Revenge|QID|295|M|38.1,51.2|N|From Ormer Ironbraid.|PRE|294|Z|Wetlands|
 H Deepwater Tavern|ACTIVE|279|M|10.60,60.55|N|Hearth or Run back to town.|Z|Wetlands|
 T The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|Wetlands|N|From Archaeologist Flagongut.|
@@ -425,7 +425,7 @@ C Culling the Threat|QID|1054|M|35.3,32.4|N|Kill Dal Bloodclaw and loot his skul
 C Elune's Tear|QID|1033|M|46.71,46.58|N|Loot an Elune's Tear from the island.|Z|Ashenvale|
 R Astranaar|QID|1020|M|34.68,48.84|N|Run back to Astranaar.|Z|Ashenvale|
 T Elune's Tear|QID|1033|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
-A The Ruins of Stardust|QID|1034|M|37.4,51.8|N|From Pelturas Whitemoon. Will become available shortly after turning in Elune's Tear|PRE|1034|Z|Ashenvale|
+A The Ruins of Stardust|QID|1034|M|37.4,51.8|N|From Pelturas Whitemoon. Will become available shortly after turning in Elune's Tear|PRE|1033|Z|Ashenvale|
 T Culling the Threat|QID|1054|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
 N Sell junk and repair|AVAILABLE|1016|M|35.78,52.04|N|Close this step when you're done.|Z|Ashenvale|
 N Dungeon Group|QID|1198|N|Keep an eye out for groups to Blackfathom Depths|LVL|20|Z|Ashenvale|

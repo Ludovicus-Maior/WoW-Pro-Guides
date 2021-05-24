@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('ClassicAlliance3041', 'Leveling', 'Thousand Needles', 'Bidaum+Elidion', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicAlliance3041', 'Leveling', 'Thousand Needles', 'WoWPro Team', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Alliance Leveling 30-41')
 WoWPro:GuideLevels(guide,30, 40)
 WoWPro:GuideNextGuide(guide, 'Dungeon_Uld')
@@ -11,7 +11,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N Gnomeregan|QID|2929|N|Now would be a good time to run Gnomeregan. This will avoid some grinding you may need to do shortly. Be sure to collect all the quests as they give a lot of experience.|LVL|-31|
 F Ironforge|AVAILABLE|1179|N|Make your way to Ironforge|
-A The Brassbolts Brothers|QID|1179|M|68.20,46.20|Z|Ironforge|N|From Pilot Longbeard at the back of the Military Ward.|
+A The Brassbolts Brothers|QID|1179|M|72.60,93.80|Z|Ironforge|N|From Pilot Longbeard at the back of the Military Ward.|
 N Things to Buy|QID|1282|N|There are some items that you need to buy off of the Auction House or otherwise acquire.  The guide will remind you each time you are in town until you aquire them, check off manually if you aren't going to at that time and it will pop up again, next time you're in town. first one for a quest in stranglethorn and the other three are needed for Badlands quest - approx level 38-40. These quests are not essential for dungeons, just a fair chunk of XP, so if you can't find the items at a reasonable price, you can skip the quests and grind to make it up.|
 B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|ITEM|4278|
 B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
@@ -261,7 +261,7 @@ T Hints of a New Plague?|QID|659|M|60.18,53.85|Z|Arathi Highlands|N|To Quae.|
 A Hints of a New Plague?|QID|658|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|PRE|659|
 K Forsaken Courier|AVAILABLE|647|L|647|S|N|Look out for a group of Forsaken leaving Go'Shek Farm. The Forsaken Courier in the center drops a Sealed Folder. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter|T|Forsaken Courier|
 L Level 35|N|If you are not yet level 35 grind on the Orcs here|LVL|-35|
-R Thandol Span|AVAILABLE|647|M|60.80,60.65;|Z|Arathi Highlands|CC|N|Head to the road leading out of Go'Shek Farm. Follow the road west and towards Wetlands when the road turns south|
+R Thandol Span|AVAILABLE|647|M|60.80,60.65|Z|Arathi Highlands|CC|N|Head to the road leading out of Go'Shek Farm. Follow the road west and towards Wetlands when the road turns south|
 A MacKreel's Moonshine|QID|647|M|43.25,91.20;43.24,92.64|CC|Z|Arathi Highlands|N|Head to the broken side of the bridge. Stand on the right side of the chain and use Slowfall/Levitate on yourself. Aim yourself towards the Torch on the opposite side. Run and jump off the bridge to float over. Accept the quest from Foggy MacKreel in the room on the right. Be aware this is a timed quest. If you fail the jump swim east until you come to a hill you can run back up.|C|Mage,Priest|
 A MacKreel's Moonshine|QID|647|M|42.90,91.25;43.24,92.64|CC|Z|Arathi Highlands|N|Head to the broken side of the bridge. Stand on the ledge to the far right and use your Swiftness Potion or Movement Ability. Run and jump onto the ledge on the opposite side. Accept the quest from Foggy MacKreel in the room on the right. Be aware this is a timed quest. If you fail the jump swim east until you come to a hill you can run back up.|
 l Waterlogged Envelope|QID|637|M|44.29,92.89|Z|Arathi Highlands|N|Jump down into the river and swim down. Next to a broken catapult there will be a Dwarf Skeleton trapped under a rock. Click the Waterlogged Letter in his hand.|L|4433|

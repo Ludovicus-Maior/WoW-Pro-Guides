@@ -3,7 +3,10 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('BC-NightElf', "Leveling", 'Teldrassil', 'Wow-Pro Team', 'Alliance', 2)
+
+
+
+local guide = WoWPro:RegisterGuide('BC-NightElf', "Leveling", 'Teldrassil', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Teldrassil 1-12')
 WoWPro:GuideLevels(guide, 1, 12, 2)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Darkshore')

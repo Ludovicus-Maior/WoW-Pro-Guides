@@ -3,7 +3,9 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_30_41_Alliance', 'Leveling', 'Thousand Needles', 'Wow-Pro Team', 'Alliance', 2)
+
+
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_30_41_Alliance', 'Leveling', 'Thousand Needles', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Alliance Leveling 30-41')
 WoWPro:GuideLevels(guide,30, 40)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Dungeon_Uld')
@@ -11,7 +13,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N Gnomeregan|QID|2929|N|Now would be a good time to run Gnomeregan. This will avoid some grinding you may need to do shortly. Be sure to collect all the quests as they give a lot of experience.|LVL|-31|
 F Ironforge|AVAILABLE|1179|N|Make your way to Ironforge|
-A The Brassbolts Brothers|QID|1179|M|68.20,46.20|Z|Ironforge|N|From Pilot Longbeard at the back of the Military Ward.|
+A The Brassbolts Brothers|QID|1179|M|72.60,93.80|Z|Ironforge|N|From Pilot Longbeard at the back of the Military Ward.|
 N Things to Buy|QID|1282|N|There are some items that you need to buy off of the Auction House or otherwise acquire.  The guide will remind you each time you are in town until you aquire them, check off manually if you aren't going to at that time and it will pop up again, next time you're in town. first one for a quest in stranglethorn and the other three are needed for Badlands quest - approx level 38-40. These quests are not essential for dungeons, just a fair chunk of XP, so if you can't find the items at a reasonable price, you can skip the quests and grind to make it up.|
 B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|ITEM|4278|
 B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|

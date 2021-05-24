@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_Dungeon_ZF', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 2)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_Dungeon_ZF', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Dungeon: Zul\'Farrak')
 WoWPro:GuideLevels(guide,49, 50)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_50_55_Alliance')
