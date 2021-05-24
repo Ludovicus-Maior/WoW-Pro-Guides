@@ -7,12 +7,6 @@
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_Leveling.lua
-Alliance\Guides.xml
-Neutral\Guides.xml
-Horde\Guides.xml
-Classic\Alliance\Guides.xml
-Classic\Neutral\Guides.xml
-Classic\Horde\Guides.xml
 Classic_BC\Alliance\Guides.xml
 Classic_BC\Neutral\Guides.xml
 Classic_BC\Horde\Guides.xml
