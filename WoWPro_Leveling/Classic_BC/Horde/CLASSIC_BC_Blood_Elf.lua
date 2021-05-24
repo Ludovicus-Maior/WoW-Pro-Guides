@@ -183,7 +183,7 @@ B Bundle of Fireworks|QID|9067|M|44.04,70.36|QO|3|N|Buy a Bundle of fireworks fr
 T Ranger Sareyn|QID|9358|M|46.93,71.79|N|To Ranger Sareyn.|
 A Defending Fairbreeze Village|QID|9252|M|46.93,71.79|N|From Ranger Sareyn.|
 K Defending Fairbreeze Village|QID|9252|M|51.12,77.09|QO|1;2|N|Kill Rotlimb Marauders and Darkwraiths as you head through the Dead Scar.\n[color=FF0000]NOTE: [/color]Watch out for adds as much as possible.|S|
-R East Sanctum|ACTIVE|9254|M|48.08,72.42;51.16,70.72|CC|N|Head east down the hill into The Dead Scar and cut across to the other side.\n[color=FF0000]NOTE: [/color]Avoid the Angershades; they do nothing for you.|
+R East Sanctum|AVAILABLE|8487|M|48.08,72.42;51.16,70.72|CC|N|Head east down the hill into The Dead Scar and cut across to the other side.\n[color=FF0000]NOTE: [/color]Avoid the Angershades; they do nothing for you.|
 T The Wayward Apprentice|QID|9254|M|54.28,70.98|N|Make your way to Apprentice Mirveda on the steps of East Sanctum.|
 A Corrupted Soil|QID|8487|M|54.28,70.98|N|From Apprentice Mirveda.|
 C Corrupted Soil|QID|8487|M|51.71,69.21|L|20771 8|N|Loot the green Tainted Soil Samples from the area around East Sanctum and in The Dead Scar.|
