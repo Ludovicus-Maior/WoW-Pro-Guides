@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancBSM_HUB","Profession","Blacksmithing_HUB", "Blanckaert", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancBSM_HUB","Profession","Blacksmithing_HUB", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideNickname(guide, "Blacksmithing: Guide Hub")

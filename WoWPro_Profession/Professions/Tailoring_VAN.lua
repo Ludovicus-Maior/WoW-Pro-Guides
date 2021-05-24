@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancTLR_VAN","Profession","Tailoring_VAN", "Blanckaert", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancTLR_VAN","Profession","Tailoring_VAN", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",197)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Tailoring_Vanilla")

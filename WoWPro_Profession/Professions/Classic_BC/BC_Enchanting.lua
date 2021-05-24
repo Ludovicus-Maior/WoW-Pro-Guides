@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BC_Enchanting","Profession","Enchanting_Classic", "Blanckaert", "Neutral",2)
+local guide = WoWPro:RegisterGuide("BC_Enchanting", "Profession", "Enchanting_Classic", "WoWPro Team", "Neutral",2)
 WoWPro:GuideIcon(guide,"PRO",333)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Enchanting")
@@ -26,7 +26,7 @@ N This Guide is a Work In Progress Guide.|QID|333000001|N|Currently in Developme
 N PLEASE Report any issues|QID|333000002|N|In our Discord #tbc-bug-reports|
 N Known Issue|QID|333100002|N|Errors may happen when you go to make item, as I dont have an enchanter and I have not TESTED the Create lines.|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
+N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 375, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list
 
@@ -53,6 +53,7 @@ l [item=22449/Large Prismatic Shard]|QID|333000004|L|22449 37|ITEM|22449|N|You'l
 l [item=22792/Nightmare Vine]|QID|333000004|L|22792 15|ITEM|22792|N|You'll need at least 15 Nightmare Vines.|
 B [item=4470/Simple Wood]|QID|333000004|L|4470 10|ITEM|4470|N|You'll need to purchase at least 10 Simple Wood.|
 B [item=8925/Crystal Vial]|QID|333000004|L|8925 20|ITEM|8925|N|You'll need to purchase at least 20 Crystal Vials.|
+B [item=18256/Imbued Vial]|QID|333000004|L|18256 20|ITEM|18256|N|You'll need to purchase at least 20 Imbued Vials.|
 
 N Rods|QID|333000015|N|The following is a list of materials you need for making you Rods, these will be repeated at the appropriate steps. \n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 B [item=6338/Silver Rod]|QID|333000015|ITEM|6338|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=2842/Silver Bar] x1, [item=3470/Rough Grinding Stone] x2|
@@ -65,7 +66,7 @@ l [item=1210/Shadowgem]|QID|333000015|ITEM|1210|N|You'll need 1 Shadowgem, eithe
 l [item=5500/Iridescent Pearl]|QID|333000015|ITEM|1210|N|You'll need 1 Iridescent Pearl, either from looting clams/fishing or purchase from the AH.|
 l [item=7971/Black Pearl]|QID|333000015|ITEM|7971|N|You'll need 1 Black Pearl, either from looting clams/fishing or purchase from the AH.|
 l [item=13926/Golden Pearl]|QID|333000015|ITEM|13926|N|You'll need 1 Golden Pearl, either from looting clams/fishing or purchase from the AH.|
-l [item=23571/Primal Might]|QID|333000015|ITEM|23571|N|You'll need 1 Primal Might, from either the AH, or find a Alchemist to craft for you. MATS: [item=22452/Primal Earth] x1,[item=21885/Primal Water] x1,[item=22451/Primal Air] x1,[item=21884/Primal Fire] x1,[item=22457/Primal Mana] x1|
+B [item=23571/Primal Might]|QID|333000015|ITEM|23571|N|You'll need 1 Primal Might, from either the AH, or find a Alchemist to craft for you. MATS: [item=22452/Primal Earth] x1,[item=21885/Primal Water] x1,[item=22451/Primal Air] x1,[item=21884/Primal Fire] x1,[item=22457/Primal Mana] x1|
 
 N Couple Recipes to Buy|QID|333000006|N|There are a couple recipes to go buy, that you'll need for later, can skip for now, will repeat when you need them. \n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 B [spell=13419/Enchant Cloak - Minor Agility]|QID|333000006|M|35.12,52.12|Z|Ashenvale|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Dalria in Astranaar, Ashenvale (Limited Quantity)|FACTION|Alliance|
@@ -77,9 +78,17 @@ B [spell=20017/Enchant Shield - Greater Stamina]|QID|333000006|M|64.08,37.39|Z|U
 B [spell=20017/Enchant Shield - Greater Stamina]|QID|333000006|M|58.09,34.16|Z|Darnassus|P|Enchanting;333;0+1|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Mythrin'dir in Old Darnassus, with your Enchanter!|FACTION|Alliance|
 B [spell=20051/Runed Arcanite Rod]|QID|333000006|M|48.2,40.0|Z|Moonglade|RECIPE|20051|N|Purchase [item=16243/Formula - Runed Arcanite Rod] from Lorelae Wintersong, in Moonglade. (Limited Quantity)|
 B [spell=20015/Enchant Cloak - Superior Defense]|QID|333000006|M|48.2,40.0|Z|Moonglade|RECIPE|20015|N|Purchase [item=16224/Formula - Enchant Cloak - Superior Defense] from Lorelae Wintersong, in Moonglade. (Limited Quantity)|
+B [spell=34009/Enchant Shield - Major Stamina]|QID|333000006|M|63.2,70.6|Z|Shattrath City|RECIPE|34009|L|28282 1|N|Purchase [item=28282/Formula - Enchant Shield - Major Stamina] from Madame Ruby, in Shattrath City. (Limited Quantity)|
+B [spell=28019/Superior Wizard Oil]|QID|333000006|M|63.2,70.6|Z|Shattrath City|RECIPE|28019|L|22563 1|N|Purchase [item=22563/Formula - Superior Wizard Oil] from Madame Ruby, in Shattrath City. (Limited Quantity). Also available in Exodar OR Silvermoon City.|
+B [spell=28022/Large Prismatic Shard]|QID|333000006|M|63.2,70.6|Z|Shattrath City|RECIPE|28022|L|22565 1|N|Purchase [item=22565/Formula - Large Prismatic Shard] from Madame Ruby, in Shattrath City. (Limited Quantity). Also available in Exodar OR Silvermoon City.|
+B [spell=32665/Runed Adamantite Rod]|QID|333000006|M|48.8,46.0|Z|Terokkar Forest|RECIPE|32665|L|25848 1|N|Purchase [item=25848/Formula - Runed Adamantite Rod] from Rungor, Stonebreaker Hold, Terokkar Forest.|FACTION|Horde|
+B [spell=32665/Runed Adamantite Rod]|QID|333000006|M|24.4,38.8|Z|Hellfire Peninsula|RECIPE|32665|L|25848 1|N|Purchase [item=25848/Formula - Runed Adamantite Rod] from Vodesiin, Temple of Telhamat, Hellfire Peninsula.|FACTION|Alliance|
+B [spell=28019/Superior Wizard Oil]|QID|333000006|M|70.0,24.6|Z|Silvermoon City|RECIPE|28019|L|22563 1|N|Purchase [item=22563/Formula - Superior Wizard Oil] from Lyna, in Silvermoon City. (Limited Quantity). Also available from Madame Ruby, in Shattrath City.|FACTION|Horde|
+B [spell=28022/Large Prismatic Shard]|QID|333000006|M|70.0,24.6|Z|Silvermoon City|RECIPE|28022|L|22565 1|N|Purchase [item=22565/Formula - Large Prismatic Shard] from Lyna, in Silvermoon City. (Limited Quantity). Also available from Madame Ruby, in Shattrath City.|FACTION|Horde|
+B [spell=28019/Superior Wizard Oil]|QID|333000006|M|40.4,39.4|Z|The Exodar|RECIPE|28019|L|22563 1|N|Purchase [item=22563/Formula - Superior Wizard Oil] from Egomis, in The Exodar. (Limited Quantity). Also available from Madame Ruby, in Shattrath City.|FACTION|Alliance|
+B [spell=28022/Large Prismatic Shard]|QID|333000006|M|40.4,39.4|Z|The Exodar|RECIPE|28022|L|22565 1|N|Purchase [item=22565/Formula - Large Prismatic Shard] from Egomis, in The Exodar. (Limited Quantity). Also available from Madame Ruby, in Shattrath City.|FACTION|Alliance|
 
 N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
-
 ; end of shopping list, and pre craft.
 
 = Learn [spell=7411/Enchanting]|QID|333007411|M|53.47,38.70|Z|Orgrimmar|IZ|Orgrimmar|SPELL|Enchanting;7411|LVL|5|N|Learn from Godan, in Orgrimmar.|FACTION|Horde|
@@ -168,7 +177,7 @@ U Learn Recipe|QID|333013945|P|Enchanting;333;0+245|RECIPE|13945|U|11225|N|Learn
 M Enchant Bracer - Greater Stamina|QID|333013945|P|Enchanting;333;0+265;1|CRAFT|13945 20|MATS|11176 5|N|These mats were NOT included in the above list.  This is an alternate way to level, if you dont have the Recipe, left click to skip.|
 B [spell=25127/Lesser Mana Oil]|QID|333025127|M|52.0,39.6|Z|Silithus|RECIPE|25127|L|20754 1|N|Purchase [item=20754/Formula: Lesser Mana Oil] from Kania, in Silithus.|
 U Learn Recipe|QID|333025127|P|Enchanting;333;0+250|RECIPE|25127|U|20754|N|Learn [spell=25127/Lesser Mana Oil] Recipe from [item=20754/Formula: Lesser Mana Oil].|
-M Lesser Mana Oil|QID|333025127|P|Enchanting;333;0+265;1|CRAFT|25127 20|MATS|11176 3;8831 2;8925 1|
+M [item=20747/Lesser Mana Oil]|QID|333025127|P|Enchanting;333;0+265;1|CRAFT|25127 20|MATS|11176 3;8831 2;8925 1|
 B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|64.08,37.39|Z|Undercity|P|Enchanting;333;0+1|RECIPE|20017|L|16217 1|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Daniel Bartlett in Undercity, with your Enchanter!|FACTION|Horde|
 B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|58.09,34.16|Z|Darnassus|P|Enchanting;333;0+1|RECIPE|20017|L|16217 1|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Mythrin'dir in Old Darnassus, with your Enchanter!|FACTION|Alliance|
 U Learn Recipe|QID|333020017|P|Enchanting;333;0+265|RECIPE|20017|U|16217|N|Learn [spell=20017/Enchant Shield - Greater Stamina] Recipe from [item=16217/Formula: Enchant Shield - Greater Stamina].|
@@ -181,26 +190,53 @@ B [item=16206/Arcanite Rod]|QID|333020051|ITEM|16206|N|You'll need to either buy
 l [item=13926/Golden Pearl]|QID|333020051|ITEM|13926|N|You'll need 1 Golden Pearl, either from looting clams/fishing or purchase from the AH.|
 M [item=16207/Runed Arcanite Rod]|QID|333020051|P|Enchanting;333;0+295;1|ITEM|16207|CRAFT|20051 1|MATS|16206 1;13926 1;16204 10;16203 4;11145 1;14344 2|
 M Enchant Cloak - Superior Defense|QID|333020015|P|Enchanting;333;0+300;1|CRAFT|20051 5|MATS|16204 8|
+= Learn [spell=28029/Enchanting]|QID|333028029|M|52.2,36.2|Z|Hellfire Peninsula|IZ|Hellfire Peninsula|SPELL|Master Enchanting;28029|LVL|50|N|Learn from Felannia, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
+= Learn [spell=28029/Enchanting]|QID|333028029|M|53.6,66.0|Z|Hellfire Peninsula|IZ|Hellfire Peninsula|SPELL|Master Enchanting;28029|LVL|50|N|Learn from Johan Barnes, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
+= Learn Recipe|QID|333003001|P|Enchanting;333;0+300|RECIPE|32664|N|Learn [spell=32664/Runed Fel Iron Rod] Recipe from Trainer.|
+= Learn Recipe|QID|333003002|P|Enchanting;333;0+300|RECIPE|34002|N|Learn [spell=34002/Enchant Bracer - Assault] Recipe from Trainer.|
+B [item=25843/Fel Iron Rod]|QID|333032664|ITEM|25843|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=23445/Fel Iron Bar] x6|
+M [item=22461/Runed Fel Iron Rod]|QID|333032664|P|Enchanting;333;0+301;1|ITEM|22461|CRAFT|32664 1|MATS|25843 1;16203 4;14344 6;16207 1|
+M Enchant Cloak - Superior Defense|QID|333020015|P|Enchanting;333;0+316;1|CRAFT|20051 24|MATS|16204 8|N|Make until you used up your extra [item=16204/Illusion Dust], OR it's cheaper then [item=22445/Arcane Dust]|
+M Enchant Bracer - Assault|QID|333034002|P|Enchanting;333;0+310;1|CRAFT|34002 9|MATS|22445 6|
+= Learn Recipe|QID|333003051|P|Enchanting;333;0+305|RECIPE|27899|N|Learn [spell=27899/Enchant Bracer - Brawn] Recipe from Trainer.|
+M Enchant Bracer - Brawn|QID|333027899|P|Enchanting;333;0+316;1|CRAFT|27899 6|MATS|22445 6|
+= Learn Recipe|QID|333003101|P|Enchanting;333;0+310|RECIPE|33996|N|Learn [spell=33996/Enchant Gloves - Assault] Recipe from Trainer.|
+M Enchant Gloves - Assault|QID|333033996|P|Enchanting;333;0+320;1|CRAFT|33996 6|MATS|22445 8|
+= Learn Recipe|QID|333003201|P|Enchanting;333;0+320|RECIPE|33996|N|Learn [spell=33990/Enchant Chest - Major Spirit] Recipe from Trainer.|
+M Enchant Gloves - Assault|QID|333033996|P|Enchanting;333;0+330;1|CRAFT|33996 10|MATS|22445 8|N|Alternate: Make [spell=33990/Enchant Chest - Major Spirit] x10 - IF [item=22445/Arcane Dust] x100 is MORE expensive [item=22446/Greater Planar Essence] x20. (Click to skip, and enchant Chest).|
+M Enchant Chest - Major Spirit|QID|333033990|P|Enchanting;333;0+330;1|CRAFT|33990 10|MATS|22446 2|
+B [spell=34009/Enchant Shield - Major Stamina]|QID|333034009|M|63.2,70.6|Z|Shattrath City|RECIPE|34009|N|Purchase [item=28282/Formula - Enchant Shield - Major Stamina] from Madame Ruby, in Shattrath City. (Limited Quantity)|
+B [spell=28019/Superior Wizard Oil]|QID|333028019|M|63.2,70.6|Z|Shattrath City|RECIPE|28019|N|Purchase [item=22563/Formula - Superior Wizard Oil] from Madame Ruby, in Shattrath City. (Limited Quantity). Also available in Exodar OR Silvermoon City.|
+B [spell=28022/Large Prismatic Shard]|QID|333028022|M|63.2,70.6|Z|Shattrath City|RECIPE|28022|N|Purchase [item=22565/Formula - Large Prismatic Shard] from Madame Ruby, in Shattrath City. (Limited Quantity). Also available in Exodar OR Silvermoon City.|
+U Learn Recipe|QID|333034009|P|Enchanting;333;0+325|RECIPE|34009|U|28282|N|Learn [spell=34009/Enchant Shield - Major Stamina] Recipe from [item=28282/Formula - Enchant Shield - Major Stamina].|
+M Enchant Shield - Major Stamina|QID|333034009|P|Enchanting;333;0+335;1|CRAFT|34009 5|MATS|22445 15|N|Alternate: Make [spell=33990/Enchant Chest - Major Spirit] x6 - IF [item=22445/Arcane Dust] x75 is MORE expensive [item=22446/Greater Planar Essence] x12. (Click to skip, and enchant Chest).|
+M Enchant Chest - Major Spirit|QID|333033990|P|Enchanting;333;0+335;1|CRAFT|33990 6|MATS|22446 2|
+= Learn Recipe|QID|33303301|P|Enchanting;333;0+330|RECIPE|44383|N|Learn [spell=44383/Enchant Shield - Resilience] Recipe from Trainer.|
+U Learn Recipe|QID|333028022|P|Enchanting;333;0+335|RECIPE|28022|U|22565|N|Learn [spell=28022/Large Prismatic Shard] Recipe from [item=22565/Formula - Large Prismatic Shard].|
+= Learn Recipe|QID|333003351|P|Enchanting;333;0+335|RECIPE|42615|N|Learn [spell=42615/Small Prismatic Shard] Recipe from Trainer.|
+N Blood Elfs|QID|333042615|P|Enchanting;333;0+345;1|N|Due to the racial [spell=28877/Arcane Affinity] you can gain 10 *free* levels by converting a [item=22449/Large Prismatic Shard] into 3 [item=22448/Small Prismatic Shard] and back again. Only the conversion from Large to Small counts, and this WILL take a long time to do.  Click to skip when you run out of patience.|R|Blood Elf|
+M Enchant Shield - Resilience|QID|333044383|P|Enchanting;333;0+340;1|CRAFT|44383 5|MATS|22449 1;22447 4|N|Alternate: Continue making [spell=34009/Enchant Shield - Major Stamina] if [item=22449/Large Prismatic Shard] is expensive. (Click to skip, and enchant Shield).
+M Enchant Shield - Major Stamina|QID|333034009|P|Enchanting;333;0+340;1|CRAFT|34009 7|MATS|22445 15|
+U Learn Recipe|QID|333028019|P|Enchanting;333;0+340|RECIPE|28019|U|22563|N|Learn [spell=28019/Superior Wizard Oil] Recipe from [item=22563/Formula - Superior Wizard Oil].|
+= Learn Recipe|QID|333003401|P|Enchanting;333;0+340|RECIPE|33995|N|Learn [spell=33995/Enchant Gloves - Major Strength] Recipe from Trainer.|
+M [item=22522/Superior Wizard Oil]|QID|333028019|P|Enchanting;333;0+350;1|CRAFT|28019 15|MATS|22445 3;22792 1;18256 1|N|If you don't have any [item=22792/Nightmare Vine], then click this step off to skip and enchant more of [spell=44383/Enchant Shield - Resilience], or skip to [spell=33995/Enchant Gloves - Major Strength].|
+M Enchant Shield - Resilience|QID|333044383|P|Enchanting;333;0+345;1|CRAFT|44383 7|MATS|22449 1;22447 4|N|If you didn't have any [item=22792/Nightmare Vine], make some more of this one, then move onto the next step.|
+M Enchant Gloves - Major Strength|QID|333033995|P|Enchanting;333;0+365;1|CRAFT|33995 25|MATS|22445 12;22446 1|
+B [spell=32665/Runed Adamantite Rod]|QID|333032665|M|48.8,46.0|Z|Terokkar Forest|RECIPE|32665|L|25848 1|N|Purchase [item=25848/Formula - Runed Adamantite Rod] from Rungor, Stonebreaker Hold, Terokkar Forest.|FACTION|Horde|
+B [spell=32665/Runed Adamantite Rod]|QID|333032665|M|24.4,38.8|Z|Hellfire Peninsula|RECIPE|32665|L|25848 1|N|Purchase [item=25848/Formula - Runed Adamantite Rod] from Vodesiin, Temple of Telhamat, Hellfire Peninsula.|FACTION|Alliance|
+U Learn Recipe|QID|333032665|P|Enchanting;333;0+350|RECIPE|32665|U|25848|N|Learn [spell=32665/Runed Adamantite Rod] Recipe from [item=25848/Formula - Runed Adamantite Rod].|
+B [item=25844/Adamantite Rod]|QID|333032665|ITEM|25844|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=23446/Adamantite Bar] x10|
+B [item=23571/Primal Might]|QID|333032665|ITEM|23571|N|You'll need 1 Primal Might, from either the AH, or find a Alchemist to craft for you. MATS: [item=22452/Primal Earth] x1,[item=21885/Primal Water] x1,[item=22451/Primal Air] x1,[item=21884/Primal Fire] x1,[item=22457/Primal Mana] x1|
+M [item=22462/Runed Adamantite Rod]|QID|333032665|P|Enchanting;333;0+366;1|ITEM|22462|CRAFT|32665 1|MATS|25844 1;22446 8;22449 8;23571 1;22461 1|
+N Last Few Levels|QID|333000020|P|Enchanting;333;0+366|N|For your last few levels, you can either make just whatever is still Yellow for you, or chase two different Enchant, that require Honored with Keepers of Time or Revered with the Consortium (Inside Karazhan).[color=FF0000]NOTE: [/color]BOP! Both will be listed next, IF you have the required Reputation.|
+B [spell=27924/Enchant Ring - Spellpower]|QID|333027924|M|63.6,57.6|Z|Tanaris|P|Enchanting;333;0|RECIPE|27924|L|22536 1|N|Purchase [item=22536/Formula - Enchant Ring - Spellpower] from Alurmi, Caverns of Time.|REP|Keepers of Time;989;Honored-Exalted|
+U Learn Recipe|QID|333027924|P|Enchanting;333;0+366|RECIPE|27924|U|22536|N| Learn [spell=27924/Enchant Ring - Spellpower] Recipe from [item=22536/Formula - Enchant Ring - Spellpower].|
+M Enchant Ring - Spellpower|QID|333027924|P|Enchanting;333;0+375;1|CRAFT|27924 12|MATS|22449 2;22446 2|
+B [spell=27920/Enchant Ring - Striking]|QID|333027920|Z|Karazhan|IZ|Karazhan|P|Enchanting;333;0|RECIPE|27920|L|22535 1|N|Purchase [item=22535/Formula - Enchant Ring - Striking] from Ythyar, Karazhan Dungeon, just before the Chess Event.|REP|The Consortium;933;Honored-Exalted|
+U Learn Recipe|QID|333027920|P|Enchanting;333;0+366|RECIPE|27924|U|22536|N| Learn [spell=27920/Enchant Ring - Striking] Recipe from [item=22535/Formula - Enchant Ring - Striking].|
+M Enchant Ring - Striking|QID|333027920|P|Enchanting;333;0+375;1|CRAFT|27920 12|MATS|22449 2;22445 6|
 
-
-
-
-
-= Learn Recipe|QID|333002201|P|Enchanting;333;0+220|RECIPE|13858|N|Learn [spell=13858/Enchant Chest - Superior Health] Recipe from Trainer.|
-
-
-
-
-
-
-= Learn [spell=28029/Enchanting|QID|333028029|M|52.2,36.2|Z|Hellfire Peninsula|IZ|Hellfire Peninsula|SPELL|Master Enchanting;28029|LVL|50|N|Learn from Felannia, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
-= Learn [spell=28029/Enchanting|QID|333028029|M|53.6,66.0|Z|Hellfire Peninsula|IZ|Hellfire Peninsula|SPELL|Master Enchanting;28029|LVL|50|N|Learn from Johan Barnes, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
-
-
-
-
-
-N Congratulations|QID|333000010|N|You've reached at least 300 in TBC Vanilla Enchanting.|
+N Congratulations|QID|333000010|N|You've reached at least 366 in Classic TBC Enchanting.|
 ]]
 end)
 

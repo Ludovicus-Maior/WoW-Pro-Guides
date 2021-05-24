@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BC_Tailoring", "Profession", "Tailoring", "Blanckaert", "Neutral", 2)
+local guide = WoWPro:RegisterGuide("BC_Tailoring", "Profession", "Tailoring", "WoWPro Team", "Neutral", 2)
 WoWPro:GuideIcon(guide,"PRO",197)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Tailoring")
@@ -18,8 +18,8 @@ return [[
 ; 	 IE learn 2 at lvl 40 |197000401| and |197000402|  // |RECIPE|3276|N|Learn [spell=3276/Heavy Linen Bandage] Recipe, from Trainer|
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-N Things To Note|QID|197000001|N|\nThis guide only covers CLASSIC BURNING CRUSADE content, currently rewritten to our new format.|
-N PLEASE Report any issues|QID|197000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
+N Things To Note|QID|197000001|N|\nThis guide only covers CLASSIC BURNING CRUSADE content, currently rewritten to our new format. *** NOT YET UPDATED to TBC! ***|
+N PLEASE Report any issues|QID|197000002|N|In our Discord #TBC-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|197000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 300.\n This is for those that want to farm all mats prior to starting.\n If you don't want to farm the mats just click off the steps.|
 
