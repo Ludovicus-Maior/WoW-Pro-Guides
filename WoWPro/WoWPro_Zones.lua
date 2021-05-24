@@ -59,13 +59,13 @@ function WoWPro.DefineZone9(mapId, zone, mapType, parent_map, group_id, ... )
     WoWPro.Zone2MapID[zone] = mapId
 end
 
-local ZRL = LibStub("LibBabble-SubZone-3.0"):GetReverseLookupTable(); -- zone reverse lookup  (localized -> english)
+local ZRL = _G.LibStub("LibBabble-SubZone-3.0"):GetReverseLookupTable(); -- zone reverse lookup  (localized -> english)
 
 function WoWPro.GetLookupZoneName(zonename)
 	local result = zonename;
     if result then
 		result = result:trim()
-        if ZRL and GetLocale() ~= "enUS" then
+        if ZRL and _G.GetLocale() ~= "enUS" then
             result = ZRL[result] or result
         end
     end
