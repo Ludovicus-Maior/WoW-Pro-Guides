@@ -391,7 +391,7 @@ function WoWPro:AutoCompleteSetHearth(...)
         WoWProCharDB.Guide.hearth = loc
         for i = 1,15 do
             local index = WoWPro.rows[i].index
-            if WoWPro.action[index] == "h" and WoWPro.step[index] == loc
+            if WoWPro.action[index] == "h" and (WoWPro.step[index] == loc or WoWPro.step[index] == WoWPro.GetLookupZoneName(loc))
             and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
                 WoWPro.CompleteStep(index, "AutoCompleteSetHearth")
             end
