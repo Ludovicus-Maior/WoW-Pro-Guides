@@ -91,23 +91,23 @@ A Gathering the Dreamweavers|QID|42037|M|52.52,51.50|N|From Skylord Omnuron.|PRE
 C Gathering the Dreamweavers|QID|42037|M|52.66,51.20|S|NC|N|Use your scouting map to send your followers on the 5 sequential 'Gathering the Dreamweavers' missions.|
 P Emerald Dreamway|ACTIVE|43991|M|55.27,22.93|N|Run thru the Emerald Dreamway portal.|
 C The Protectors|QID|43991|QO|1|M|30.61,37.17|Z|EmeraldDreamway|NC|N|Use prowl by the Feral stone.(between Grizzly Hills and Feralas portals)|
-A Halls of Valor: Essence of Ferocity|QID|44075|M|31.06,36.76|Z|EmeraldDreamway|NA|N|From Echo of Ashamane. This is an instance quest, finish it sometime before 50 so you can progress your hall then.|PRE|42036|
+A Halls of Valor: Essence of Ferocity|QID|44075|M|31.06,36.76|Z|EmeraldDreamway|NA|N|From Echo of Ashamane. This is an instance quest, finish it sometime before 45 so you can progress your hall then.|PRE|42036|
 C The Protectors|QID|43991|QO|3|M|30.08,51.30|Z|EmeraldDreamway|NC|N|Cast Moonfire on small Ritual Candle near the Balance stone (in any form you can cast it). (Southeast of Feralas portal)|T|Ritual Candle|
-A Eye of Azshara: Essence of Balance|QID|44077|M|30.71,50.81|Z|EmeraldDreamway|NA|N|From Avatar of Aviana. This is an instance quest, finish it sometime before 50 so you can progress your hall then.|PRE|42036|
+A Eye of Azshara: Essence of Balance|QID|44077|M|30.71,50.81|Z|EmeraldDreamway|NA|N|From Avatar of Aviana. This is an instance quest, finish it sometime before 45 so you can progress your hall then.|PRE|42036|
 C The Protectors|QID|43991|QO|2|M|34.98,62.84|Z|EmeraldDreamway|NC|N|Shift into Bear form near the Guardian stone.(between Duskwood and Moonglade portals)|
-A Neltharion's Lair: Essence of Tenacity|QID|44074|M|34.69,62.19|Z|EmeraldDreamway|NA|N|From Son of Ursoc. This is an instance quest, finish it sometime before 50 so you can progress your hall then.|PRE|42036|
+A Neltharion's Lair: Essence of Tenacity|QID|44074|M|34.69,62.19|Z|EmeraldDreamway|NA|N|From Son of Ursoc. This is an instance quest, finish it sometime before 45 so you can progress your hall then.|PRE|42036|
 C The Protectors|QID|43991|QO|4|M|41.54,58.93|Z|EmeraldDreamway|NC|N|Heal the Sapling near the Restoration Stone.(between Hinterlands and Duskwood portals)|T|Sapling|
-A Darkheart Thicket: Essence of Regrowth|QID|44076|M|40.95,59.04|Z|EmeraldDreamway|NA|N|From Glimmer of Aessina. This is an instance quest, finish it sometime before 50 so you can progress your hall then.|PRE|42036|
+A Darkheart Thicket: Essence of Regrowth|QID|44076|M|40.95,59.04|Z|EmeraldDreamway|NA|N|From Glimmer of Aessina. This is an instance quest, finish it sometime before 45 so you can progress your hall then.|PRE|42036|
 P The Dreamgrove|QID|43991|M|45.56,23.60|Z|EmeraldDreamway|N|Return to the Dreamgrove to turn in.|ACTIVE|43991|
 T The Protectors|QID|43991|M|44.57,50.12|N|To Keeper Remulos.|
-C Gathering the Dreamweavers|QID|42037|M|52.66,51.20|US|NC|N|As you approach 50, you want to be sure you have finished the 5 sequential 'Gathering the Dreamweavers' missions. Check this off manually until then. The instances do not have to be done to progress, but they do need to be done before you can complete the campaign.|
+C Gathering the Dreamweavers|QID|42037|M|52.66,51.20|US|NC|N|As you approach 45, you want to be sure you have finished the 5 sequential 'Gathering the Dreamweavers' missions. Check this off manually until then. The instances do not have to be done to progress, but they do need to be done before you can complete the campaign.|
 t Gathering the Dreamweavers|QID|42037|M|44.57,50.12|N|To Keeper Remulos.|
 t Neltharion's Lair: Essence of Tenacity|QID|44074|M|44.57,50.12|N|To Keeper Remulos.|
 t Halls of Valor: Essence of Ferocity|QID|44075|M|44.57,50.12|N|To Keeper Remulos.|
 t Darkheart Thicket: Essence of Regrowth|QID|44076|M|44.57,50.12|N|To Keeper Remulos.|
 t Eye of Azshara: Essence of Balance|QID|44077|M|44.57,50.12|N|To Keeper Remulos.|
 ;lights heart intro questline
-P Dalaran|QID|44009|QO|1|M|56.51,43.13|N|Back to the outside world to continue leveling.|PRE|42585|
+P Dalaran|QID|44009|QO|1|M|56.51,43.13|N|Back to the outside world to continue leveling.|PRE|42585|IZ|The Dreamgrove|
 A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|PRE|42516|
 C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
 C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
@@ -356,12 +356,12 @@ A The Fangs of Ashamane|QID|42430|M|73.84,38.44|Z|Val'sharah|N|From Delandros Sh
 C The Fangs of Ashamane|QID|42430|NC|QO|1|M|73.75,38.39|Z|Val'sharah|N|What, a druid using a mount.../sigh.|
 C On the Prowl|QID|42430|SO|1|M|20.33,40.45|Z|Suramar|N|You've come to the ruins of Falanaar in search of Verstok and the Fangs of Ashamane. Search for clues as to where Verstok has disappeared to.|S|
 C Doorway Opened|QID|42430|SO|2;1|M|21.85,37.24;22.83,36.11|CN|Z|Suramar|N|Click the switches at these locations. (Be aware of the mobs that see stealth), then follow the scent to the doorway which will now be open.|
-C Follow Verstok's trail into the temple depths|QID|42430|SO|3;1|M|22.38,30.93|Z|Falanaar Tunnels@Shattered Locus|V|N|Follow Verstok's trail into the temple depths. Jump (vehicle style arrow) on the platform near the blocked gate to jump over the gate.|;may not be correct Z
-C Defeat Verstok|QID|42430|SO|4;1|M|22.18,30.04|Z|Falanaar Tunnels@Shattered Locus|N|Defeat Verstok or at least try for awhile.|
-C Chase after Verstok|QID|42430|SO|5;1|M|42.17,33.8;33.64,72.57|CS|Z|Falanaar Tunnels@Shattered Locus|N|Work your way deeper into the Shattered Locus.|;need correct Z
-C In a Tangled Web|QID|42430|SO|6;1|M|53.35,17.48|Z|Falanaar Tunnels@Shattered Locus|N|Slay the Webmistress.|T|Webmistress Shanaris|;need correct Z
-C Retrieve the Fangs of Ashamane|QID|42430|SO|7;1|M|54.72,20.47|Z|Falanaar Tunnels@Shattered Locus|N|Retrieve the Fangs of Ashamane.|;need correct Z
-C To the Grove|QID|42430|SO|8;1|M|54.76,19.47|Z|Falanaar Tunnels@Shattered Locus|N|Hop on Ebonfang to return to the Dreamgrove.|;need correct Z
+C Follow Verstok's trail into the temple depths|QID|42430|SO|3;1|M|54.47,40.89|Z|Falanaar Tunnels0|V|N|Follow Verstok's trail into the temple depths. Must be in Cat Form. Jump (vehicle style arrow) on the platform near the blocked gate to jump over the gate.|
+C Defeat Verstok|QID|42430|SO|4;1|M|43.23,21.80|Z|Falanaar Tunnels0|N|Defeat Verstok or at least try for awhile.|
+C Chase after Verstok|QID|42430|SO|5;1|M|47.72,15.09|Z|Falanaar Tunnels0|N|Work your way deeper into the Shattered Locus.|
+C In a Tangled Web|QID|42430|SO|6;1|M|53.08,18.18|Z|693|N|Slay the Webmistress.|T|Webmistress Shinaris|;need correct (nonnumeric) z)
+C Retrieve the Fangs of Ashamane|QID|42430|SO|7;1|M|54.82,20.59|Z|693|N|Retrieve the Fangs of Ashamane.|;need correct (nonnumeric)Z
+C To the Grove|QID|42430|SO|8;1|M|54.76,19.57|Z|693|N|Hop on Ebonfang to return to the Dreamgrove.|;need correct (nonnumeric)Z
 T The Fangs of Ashamane|QID|42430|M|44.49,51.10|N|To Rensar Greathoof.|
 ;GUARDIAN
 ;A Mistress of the Claw|QID|41468|M|44.53,51.10|N|From Rensar Greathoof.|PRE|40646|

@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_Darkshore', 'Leveling', 'Darkshore', 'Hairbo', 'Alliance', 2)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_Darkshore', 'Leveling', 'Darkshore', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Darkshore 12-20')
 WoWPro:GuideLevels(guide, 11, 20, 13)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_19_25_Alliance')
