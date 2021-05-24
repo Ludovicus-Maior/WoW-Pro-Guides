@@ -9,6 +9,7 @@ return [[
 ; Sunstrider Isle starting zone is for BloodElf's only.
 A Reclaiming Sunstrider Isle|QID|8325|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|
 A Windows to the Source|QID|8344|M|38.93,21.44|N|From Summoner Teli'Larien, inside the building.\n[color=FF0000]NOTE: [/color]This is your Summon Imp quest. You can do it on your own now, or wait a bit and do it when the guide takes you to there shortly.|R|BloodElf|C|Warlock|
+= Arcane Intellect|QID|99999|M|39.23,21.45|N|As soon as you have 10c (or junk to sell), head back to your trainer, Julia Sunstriker, and buy this Intellect buff spell.|SPELL|Arcane Intellect;1459|R|BloodElf|C|Mage|S!US|
 K Mana Wyrm|ACTIVE|8325|M|34.84,19.97|QO|1|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|R|BloodElf|
 T Reclaiming Sunstrider Isle|QID|8325|M|38.21,20.83|N|To Magistrix Erona.|R|BloodElf|
 A Unfortunate Measures|QID|8326|M|38.21,20.83|N|From Magistrix Erona.|R|BloodElf|
@@ -20,7 +21,7 @@ A Priest Training|QID|8564|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|Bloo
 A Rogue Training|QID|9392|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Rogue|
 A Hunter Training|QID|9393|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Hunter|
 A Paladin Training|QID|9676|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Paladin|
-T Mage Training|QID|8328|M|39.23,21.45|N|To Julia Sunstriker, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Mage|
+T Mage Training|QID|8328|M|39.23,21.45|N|To Julia Sunstriker, inside the building.|R|BloodElf|C|Mage|
 T Warrior Training|QID|8329|M|39.29,20.10|N|To Delios Silverblade, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Warrior|
 T Warlock Training|QID|8563|M|38.93,21.44|N|To Summoner Teli'Larien, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Warlock|
 T Priest Training|QID|8564|M|39.42,20.38|N|To Matron Arena, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Priest|
@@ -71,7 +72,6 @@ K Felendren the Banished|QID|8335|M|39.03,63.98|QO|1;2|N|Finish killing the Arca
 C Tainted Arcane Sliver|QID|8338|L|20483|N|Kill Tainted Arcane Wraiths until one drops a Tainted Arcane Sliver.|R|BloodElf|US|
 H Sunstrider Isle|ACTIVE|8338|M|38.24,20.56|N|Run back if your Hearth is on cooldown.|R|BloodElf|
 T Windows to the Source|QID|8344|M|38.93,21.44|N|To Summoner Teli'Larien.|R|BloodElf|C|Warlock|
-= Train|ACTIVE|8338|M|38.64,20.98|N|Go learn your level 4 spells/skills.\n[color=FF0000]NOTE: [/color]From here on out, every 2 levels, go visit your class trainer.\n\nCheck this step off to continue.|R|BloodElf|
 T Tainted Arcane Sliver|QID|8338|M|37.20,18.95|N|To Arcanist Helion.|R|BloodElf|
 r Repair/Sell|ACTIVE|8335|M|37.14,19.03|N|Repair and sell unwanted loot to Jainthess Thelryn.\nClose this step to continue.|R|BloodElf|
 
@@ -134,7 +134,7 @@ A Taking the Fall|QID|9064|M|44.88,61.03|N|From Apprentice Meledor.|PRE|9062|
 R Stillwhisper Pond|ACTIVE|9064|M|54.62,54.10|N|Follow the road north/east across The Dead Scar to the other side.\n[color=FF0000]NOTE: [/color]Do not linger longer the necessary in the Dead Scar.\nWatch out for the group of Rotlimb Cannibals that travel this area.|
 T Taking the Fall|QID|9064|M|55.70,54.51|N|To Instructor Antheol.|
 A Swift Discipline|QID|9066|M|55.70,54.51|N|From Instructor Antheol.|PRE|9064|
-A Fetch!|QID|9402|M|55.70,54.51|N|From Instructor Antheol.|R|BloodElf|C|Mage|
+A Fetch!|QID|9402|M|55.70,54.51|N|From Instructor Antheol.|LVL|10|R|BloodElf|C|Mage|
 C Fetch!|QID|9402|M|54.87,56.38|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|
 T Fetch!|QID|9402|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 A The Dead Scar|QID|8475|M|50.34,50.77|N|From Ranger Jaela.|
@@ -193,19 +193,21 @@ C Unexpected Results|QID|8488|M|54.28,70.98|N|Protect Mirveda from the Scourge A
 T Unexpected Results|QID|8488|M|54.28,70.98|N|To Apprentice Mirveda. You should now be level 10!|
 A Research Notes|QID|9255|M|54.28,70.98|N|From Apprentice Mirveda.|PRE|8488|
 K Defending Fairbreeze Village|QID|9252|M|51.12,77.09|QO|1;2|N|Kill Rotlimb Marauders and Darkwraiths in the Dead Scar.\n[color=FF0000]NOTE: [/color]You'll find the Darkwraiths south of East Sanctum.|US|
+R Farstrider Retreat|ACTIVE|9359|M|54.36,67.70;59.14,63.34|CC|N|There is a mob-free path just to the northeast of East Sanctum that leads up the top of the waterfall. When you get to the top, go the entrance on the south side of the building.\n[color=FF0000]NOTE: [/color]The path east of the East Sanctum stairs is not mob-free.|
 T Farstrider Retreat|QID|9359|M|60.32,62.77|N|To Lieutenant Dawnrunner.|
 A Amani Encroachment|QID|8476|M|60.32,62.77|N|From Lieutenant Dawnrunner.|
-B Buy Springpaw Appetizers|QID|9067|M|60.40,62.46|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight at Farstrider Retreat.|
+B Springpaw Appetizers|QID|9067|M|60.40,62.46|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight on the other side of the fire.|
 A The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|From Arathel Sunforge.|
-A The Magister's Apprentice|QID|8888|M|60.31,61.38|N|From Magister Duskwither. Up the right ramp.|LEAD|8889|A The Purest Water|QID|9403|M|55.70,54.51|N|From Instructor Antheol.|PRE|9402|R|BloodElf|C|Mage|
-R Thuron's Livery|QID|8888|M|62.00,53.00|N|If you want the explorer achievement, head to Thuron's Livery.\n\nIf you don't, just click this step.|RANK|3|
+A The Magister's Apprentice|QID|8888|M|60.31,61.38|N|From Magister Duskwither. Up the right ramp.|LEAD|8889|
+A The Purest Water|QID|9403|M|55.70,54.51|N|From Instructor Antheol.|PRE|9402|R|BloodElf|C|Mage|
+R Thuron's Livery|QID|8888|M|62.00,53.00|N|If you want the explorer achievement, follow the road out of Farstrider Retreat and down the hill. Head back up the hill when done.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 T The Magister's Apprentice|QID|8888|M|67.81,56.52|N|To Apprentice Loralthalis. Head out of the city and follow the road east.|
 A Deactivating the Spire|QID|8889|M|67.81,56.51|N|From Apprentice Loralthalis.|
 A Where's Wyllithen?|QID|9394|M|67.81,56.52|N|From Apprentice Loralthalis.|LEAD|8894|
 T Where's Wyllithen?|QID|9394|M|68.71,46.95|N|To Groundskeeper Wyllithen.|
 A Cleaning up the Grounds|QID|8894|M|68.71,46.95|N|From Groundskeeper Wyllithen.|
 C Cleaning up the Grounds|QID|8894|M|68.71,46.95|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|S|
-R Azurebreeze Coast|QID|8894|M|72.00,43.00|N|If you want the explorer achievement, head to Azurebreeze Coast.\n\nIf you don't, just click this step.|RANK|3|
+R Azurebreeze Coast|QID|8894|M|72.00,43.00|N|If you want the explorer achievement, head to Azurebreeze Coast.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 C Cleaning up the Grounds|QID|8894|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|US|
 T Cleaning up the Grounds|QID|8894|M|68.71,46.96|N|To Groundskeeper Wyllithen.|
 C First Power Source|QID|8889|M|68.92,51.96|QO|1|N|Up the stairs to find and use the Orb of Translocation, then up more stairs, click to  deactivate the First Power Source.|NC|
@@ -215,7 +217,7 @@ C Third Power Source|QID|8889|M|69.65,53.33|QO|3|N|Head up the stairs again, the
 T Deactivating the Spire|QID|8889|M|67.80,56.46|N|Click the Orb of Translocation to head back to ground level, then head to Apprentice Loralthalis.|
 A Word from the Spire|QID|8890|M|67.8,56.5|N|From Apprentice Loralthalis.|PRE|8889|
 R Silvermoon City|ACTIVE|9067|M|56.70,49.48|N|Follow the road northwest into Silvermoon City.|TZ|The Shepherd's Gate.|
-= Visit your trainer if you want|QID|8890|N|If you are unsure where to find your trainer, you can ask a guard. Close this step manually (rt click).|
+= Visit your trainer|QID|8890|N|If you're unsure of where to find your trainer, you can ask a guard for directions.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
 T Word from the Spire|QID|8890|M|59.41,62.51;60.3,61.4|CS|N|To Magister Duskwither. Back at Farstrider Retreat, up the right ramp.|
 T Abandoned Investigations|QID|8891|M|60.3,61.4|N|To Magister Duskwither.|
@@ -226,7 +228,8 @@ K Chieftain Zul'Marosh|QID|8479|M|61.60,79.60|L|23249|N|Head west across the wat
 A Amani Invasion|QID|9360|M|PLAYER|N|From the Amani Invasion Plans.|U|23249|
 T Zul'Marosh|QID|8479|M|70.5,72.3|N|To Ven'jashi.|
 C Amani Encroachment|QID|8476|M|69.00,72.00|N|Finish killing Trolls needed.|US|
-R Elrendar Falls|QID|9360|M|64.00,73.00|N|If you want the explorer achievement, head to Elrendar Falls.\n\nIf you don't, just click this step.|RANK|3|
+R Elrendar Falls|QID|9360|M|64.00,73.00|N|If you want the explorer achievement, head to Elrendar Falls.
+[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 T Amani Encroachment|QID|8476|M|60.32,62.77|N|To Lieutenant Dawnrunner at the Farstrider Retreat.|
 T Amani Invasion|QID|9360|M|60.32,62.77|N|To Lieutenant Dawnrunner.|
 A Warning Fairbreeze Village|QID|9363|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9360|
