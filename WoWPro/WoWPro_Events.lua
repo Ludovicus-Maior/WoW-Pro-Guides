@@ -53,7 +53,7 @@ function WoWPro.TakeTaxiClassic(destination)
         local nomen = _G.TaxiNodeName(i)
         local location,zone = (","):split(nomen)
         WoWPro:dbp("TakeTaxiClassic(%d): Location=%s, zone=%s", i, location, zone)
-        if location:find(destination, 1, true) or (nomen == destination) then
+        if location:find(destination, 1, true) or (nomen == destination) or (WoWPro.GetLookupZoneName(nomen) == destination) or (WoWPro.GetLookupZoneName(location):find(destination,1,true)) then
             WoWPro:Print("Taking flight to: [%s]",location)
             if _G.IsMounted() then
                 _G.Dismount()
@@ -84,7 +84,7 @@ function WoWPro.TakeTaxiRetail(destination)
         -- nodeID=1613, slotIndex=1, type=3, x=0.34, y=0.53, name="Azurewing Repose, Azuna"
         local location,zone = (","):split(taxiNodeData.name)
         WoWPro:dbp("TakeTaxiRetail(%d): Location=%s, zone=%s", taxiNodeData.slotIndex, tostring(location), tostring(zone))
-        if location:find(destination, 1, true) or (taxiNodeData.name == destination) then
+        if location:find(destination, 1, true) or (taxiNodeData.name == destination) or (WoWPro.GetLookupZoneName(taxiNodeData.name) == destination) or (WoWPro.GetLookupZoneName(location):find(destination,1,true)) then
             if taxiNodeData.state ~= _G.Enum.FlightPathState.Reachable then
                 WoWPro:Warning("Flight point [%s] is not reachable (%d)", location, taxiNodeData.state)
                 return
