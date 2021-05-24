@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("BC-Draenei", "Leveling", "Azuremyst Isle", "Wow-Pro Team", "Alliance", 2)
+local guide = WoWPro:RegisterGuide("BC-Draenei", "Leveling", "Azuremyst Isle", "WoWPro Team", "Alliance", 2)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Draenai: Intro")

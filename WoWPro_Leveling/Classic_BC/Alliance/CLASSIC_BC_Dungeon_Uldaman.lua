@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_Dungeon_Uld', 'Leveling', 'Badlands', 'Elidion', 'Alliance', 2)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_Dungeon_Uld', 'Leveling', 'Badlands', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Dungeon: Uldaman')
 WoWPro:GuideLevels(guide,38, 45)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_42_50_Alliance')

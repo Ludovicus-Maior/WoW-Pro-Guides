@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_Shadowmoon', "Leveling", 'Shadowmoon Valley', 'Crackerhead22', 'Alliance', 2)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_Shadowmoon', "Leveling", 'Shadowmoon Valley', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Shadowmoon Valley BC")
 WoWPro:GuideName(guide,"Shadowmoon Valley")

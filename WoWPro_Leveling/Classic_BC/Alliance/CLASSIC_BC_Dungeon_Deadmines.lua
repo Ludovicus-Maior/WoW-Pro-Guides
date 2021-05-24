@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_Deadmines', 'Leveling', 'Westfall', 'Ludovicus', 'Alliance', 2)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_Deadmines', 'Leveling', 'Westfall', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideLevels(guide,15, 24, 22)
 WoWPro:GuideName(guide, 'Dungeon: Deadmines')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})

@@ -3,7 +3,7 @@ WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons A
 Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_Eastern_Kingdom', 'Leveling', 'Loch Modan', 'Bidaum+Boston+Emmaleah', 'Alliance', 2)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_Eastern_Kingdom', 'Leveling', 'Loch Modan', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Eastern Kingdom 12-20')
 WoWPro:GuideLevels(guide, 12, 20)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_19_25_Alliance')
