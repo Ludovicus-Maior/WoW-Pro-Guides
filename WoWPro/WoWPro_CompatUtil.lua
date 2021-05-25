@@ -167,7 +167,13 @@ function WoWPro.QuestLog_IsQuestFlaggedCompleted(questID)
         return _G.IsQuestFlaggedCompleted(questID)
     end
 end
-
+function WoWPro.QuestLog_GetQuestInfo(questID)
+    if WoWPro.RETAIL then
+        return _G.C_QuestLog.GetTitleForQuestID(questID)
+    else
+        return _G.C_QuestLog.GetQuestInfo(questID)
+    end
+end
 
 --[[ C_SuperTrack ]]--
 function WoWPro.SuperTrack_SetSuperTrackedQuestID(questID)

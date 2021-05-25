@@ -75,3 +75,52 @@ if L then
 else
     WoWPro_Locale = setmetatable(english, {__index = function(t,i) return i end})
 end
+
+
+
+
+function WoWPro.LocalizeQuest(idx)
+    local QID = select(1, ("^&"):split(WoWPro.QID[idx])) -- we simply take the first if there are more than one with and/or
+    if QID then
+        if QID == "*" then return end
+        if _G.GetLocale():sub(1, 2) == "en" then return end
+        local qid = tonumber(QID)
+        if qid then
+            local questname = WoWPro.QuestLog_GetQuestInfo(qid) -- C_QuestLog.GetQuestInfo(qid)
+            if questname == nil then
+                C_Timer.After(0.5, function()
+									    WoWPro.step[idx] = WoWPro.QuestLog_GetQuestInfo(qid) or WoWPro.step[idx] -- C_QuestLog.GetQuestInfo(qid) 
+                                   end)
+            end
+            if questname then
+                WoWPro.step[idx] = questname
+            end
+        end
+    else
+        WoWPro:Warning("In guide %s, quest [%s]  does not have a QID", guide, tostring(old_name))
+    end
+end
+
+local ZL = _G.LibStub("LibBabble-SubZone-3.0"):GetUnstrictLookupTable();
+local ZRL = _G.LibStub("LibBabble-SubZone-3.0"):GetReverseLookupTable(); -- zone reverse lookup  (localized -> english)
+
+function WoWPro.LocalizeZone(idx)
+    local action = WoWPro.action[idx]
+    if ZL and _G.GetLocale():sub(1, 2) ~= "en" and (action == "h" or action == "H" or action == "R" or action == "b" or action == "F" or action == "P") then
+        WoWPro.step[idx] = ZL[WoWPro.step[idx]] or WoWPro.step[idx]
+        if WoWPro.targetzone[idx] then
+            WoWPro.targetzone[idx] = ZL[WoWPro.targetzone[idx]] or WoWPro.targetzone[idx]
+        end
+    end
+end
+
+function WoWPro.GetLookupZoneName(zonename)
+	local result = zonename;
+    if result then
+		result = result:trim()
+        if ZRL and _G.GetLocale() ~= "enUS" then
+            result = ZRL[result] or result
+        end
+    end
+	return result;
+end

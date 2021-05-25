@@ -566,12 +566,20 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         WoWPro.conditional[i] = true
     end
     if (WoWPro.action[i] == "A" or WoWPro.action[i] == "T") then
-        WoWPro.step[i] = WoWPro:GrailLocalizeQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
+        if Grail then -- you may want to delete this part, at least the first call is highly obsolete with the LocalizeQuest() functionality
+            WoWPro.step[i] = WoWPro:GrailLocalizeQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
+        else
+            WoWPro.LocalizeQuest(i)
+        end
         WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i], WoWPro.action[i])
         WoWPro:GrailIsQuestObsolete(GID,WoWPro.QID[i],WoWPro.step[i])
     end
     if WoWPro.action[i] == "h" then
-        WoWPro.step[i] = L[WoWPro.step[i]]
+        WoWPro.LocalizeZone(i)
+        --WoWPro.step[i] = L[WoWPro.step[i]]
+    end
+    if WoWPro.action[i] == "H" or WoWPro.action[i] == "b" or WoWPro.action[i] == "F" or WoWPro.action[i] == "P" or WoWPro.action[i] == "R" then
+        WoWPro.LocalizeZone(i)
     end
     WoWPro.zone[i] = WoWPro.zone[i] or (WoWPro.map[i] and zone)
     if WoWPro.zone[i] and WoWPro.map[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
