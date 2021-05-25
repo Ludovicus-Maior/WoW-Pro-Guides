@@ -655,8 +655,8 @@ A Mythology of the Titans|QID|1050|M|74.8,12.4|Z|Ironforge|N|From Librarian Mae 
 A Further Mysteries|QID|525|M|74.7,11.7|Z|Ironforge|N|From Prospector Stormpike.|PRE|514|
 N Train up!|QID|525|N|You can finally train up. Do professions, auctions, repairs, get ready for our next leg.|
 B Elixir of Water Breathing|QID|525|N|If you don't already have a means of breathing underwater, buy or make 1 (or 2 in case you die) because it will make part of the next section MUCH easier.|L|5996|ITEM|5996|C|-Druid,-Warlock|
-h Ironforge|QID|1052|M|18.14,51.45|Z|Ironforge|N|Set your home location in Ironforge.|
-F Southshore|QID|1052|M|55.5,48.2|Z|Ironforge|N|At Gryth Thurden, flightmaster.|
+h Ironforge|QID|525|M|18.14,51.45|Z|Ironforge|N|Set your home location in Ironforge.|
+F Southshore|QID|525|M|55.5,48.2|Z|Ironforge|N|At Gryth Thurden, flightmaster.|
 T Down the Scarlet Path|QID|1052|M|51.46,58.35|Z|Hillsbrad Foothills|N|To Raleigh the Devout. Upstairs in the Inn. Don't get follow-up if you don't want the dungeon quest.|
 A In the Name of the Light|QID|1053|M|51.46,58.35|Z|Hillsbrad Foothills|N|From Raleigh the Devout.\n\nDungeon Quest.|PRE|1052|
 N Scarlet Monestary|ACTIVE|1050|S!US|N|Find/make a group for the dungeon run. Manually check this off if you don't want this reminder any longer.|
