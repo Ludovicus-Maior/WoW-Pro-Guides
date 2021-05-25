@@ -55,6 +55,8 @@ C Solanian's Belongings|QID|8330|M|31.33,22.75|L|20471|N|Pick up the Scroll of S
 C The Shrine of Dath'Remar|QID|8345|M|29.65,19.40|N|The Shrine of Dath'Remar is in the furthest north-west corner of the island. Click on the plaque it to read.|R|BloodElf|NC|
 K Aggression|QID|8334|M|34.93,26.52|QO|1;2|N|Finish killing the Feral Tenders and Tenders you need.|R|BloodElf|US|
 C A Fistful of Slivers|QID|8336|M|59.44,54.04|N|As you head back, finish collecting the Slivers from the Mana Wyrms and Feral Tenders|R|BloodElf|US|
+L Level 4|ACTIVE|8345^8330|N|Wait until you are level 4 before returning.|LVL|4|R|BloodElf|
+= Level 4 training|ACTIVE|8345^8330|M|38.62,20.98|N|Stop and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|R|BloodElf|
 T The Shrine of Dath'Remar|QID|8345|M|38.76,19.36|N|To Well Watcher Solanian, on the balcony.|R|BloodElf|
 T Solanian's Belongings|QID|8330|M|38.76,19.36|N|To Well Watcher Solanian.|R|BloodElf|
 T A Fistful of Slivers|QID|8336|M|38.28,19.13|N|To Arcanist Ithanas.|R|BloodElf|
@@ -72,11 +74,11 @@ K Felendren the Banished|QID|8335|M|39.03,63.98|QO|1;2|N|Finish killing the Arca
 C Tainted Arcane Sliver|QID|8338|L|20483|N|Kill Tainted Arcane Wraiths until one drops a Tainted Arcane Sliver.|R|BloodElf|US|
 H Sunstrider Isle|ACTIVE|8338|M|38.24,20.56|N|Run back if your Hearth is on cooldown.|R|BloodElf|
 T Windows to the Source|QID|8344|M|38.93,21.44|N|To Summoner Teli'Larien.|R|BloodElf|C|Warlock|
-T Tainted Arcane Sliver|QID|8338|M|37.20,18.95|N|To Arcanist Helion.|R|BloodElf|
-r Repair/Sell|ACTIVE|8335|M|37.14,19.03|N|Repair and sell unwanted loot to Jainthess Thelryn.\nClose this step to continue.|R|BloodElf|
-
+T Tainted Arcane Sliver|QID|8338|M|37.18,18.95|N|To Arcanist Helion.|R|BloodElf|
+r Repair/Sell|ACTIVE|8335|M|37.14,19.03|N|Repair and sell unwanted loot to Jainthess Thelryn.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|BloodElf|
 T Felendren the Banished|QID|8335|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
 A Aiding the Outrunners|QID|8347|M|35.37,22.52|N|From Lanthan Perilon.|LEAD|9704|PRE|8335|R|BloodElf|
+
 R Dawning Lane|ACTIVE|8347|AVAILABLE|9704|M|39.85,31.35|N|Follow the road to the bridge south of you.\n[color=FF0000]NOTE: [/color]You are now leaving the Blood Elf starting area and Sunstrider Isle.|
 T Aiding the Outrunners|QID|8347|M|40.42,32.21|N|To Outrunner Alarion.|R|BloodElf|
 A Slain by the Wretched|QID|9704|M|40.42,32.21|N|From Outrunner Alarion.|R|BloodElf|
@@ -90,20 +92,27 @@ T Completing the Delivery|QID|8350|M|48.16,47.65|N|To Innkeeper Delaniel.|
 h Falconwing Square|QID|8463|M|48.16,47.65|N|Ask Innkeeper Delaniel to set this inn as your home.\n[color=FF0000]NOTE: [/color]There are class trainers in Falconwing Square, so you won't have to run back to Sunstrider Isle or into Silvermoon, just yet.\nYou'll find a First Aid, Cooking and Jewelcrafting trainer as well.|
 A Unstable Mana Crystals|QID|8463|M|48.16,46.00|N|From Aeldon Sunbrand, back outside of the inn.|
 A Wanted: Thaelis the Hungerer |QID|8468|M|48.17,46.30|N|From 'Wanted: Thaelis the Hungerer' signpost.| ; Extra space required for auto-accept
-= Weapon Master|ACTIVE|8463^8468^8472|M|48.34,45.94|N|Visit Duelist Larenis if you wish to learn other weapons.\n[color=FF0000]NOTE: [/color]He teaches Bows, Daggers, 1H/2H Swords, Polearms, and Thrown. You'll only see the weapons that you can learn.|
+= Weapon Master|ACTIVE|8463^8468^8472|M|48.34,45.94|N|Visit Duelist Larenis if you wish to learn other weapons.\n[color=FF0000]NOTE: [/color]He teaches Bows, Daggers, 1H/2H Swords, Polearms, and Thrown. You'll only see the weapons that you can learn.\n\nManually check this step off to continue.|
 A Major Malfunction|QID|8472|M|47.25,46.31|N|From Magister Jaronis.|
 R Ruins of Silvermoon|ACTIVE|8463^8468^8472|M|46.26,42.27|N|Leave Falconwing Square and head into the center of the Ruins of Silvermoon.|
-C Major Malfunction|QID|8472|M|46.26,42.27|N|Kill and loot Arcane Patrollers for the Arcane Cores.|S|
-C Unstable Mana Crystals|QID|8463|M|45.38,40.85|N|Loot them from Unstable Mana Crystal Crates. They can be found all around the Ruins of Silvermoon.\n[color=FF0000]NOTE: [/color]Look for light beams that come out of the crates.|S|NC|
+C Major Malfunction|QID|8472|M|46.26,42.27|N|Kill and loot Arcane Patrollers for the Arcane Cores.\n[color=FF0000]NOTE: [/color]For the most part, you'll find them patrolling the roads.|S|
+C Unstable Mana Crystals|QID|8463|M|45.38,40.85|L|20743 6|N|Loot them from Unstable Mana Crystal Crates. They can be found all around the Ruins of Silvermoon.\n[color=FF0000]NOTE: [/color]Look for light beams that come out of the crates.|S|
 C Thaelis the Hungerer|QID|8468|M|45.00,38.40|N|Kill and loot Thaelis the Hungerer.\n[color=FF0000]NOTE: [/color]Be careful to pull all the Wretched Urchins around him first before attacking.|T|Thaelis the Hungerer|
-C Unstable Mana Crystals|QID|8463|M|45.38,40.85|N|Loot them from Unstable Mana Crystal Crates. They can be found all around the Ruins of Silvermoon.\n[color=FF0000]NOTE: [/color]Look for light beams that come out of the crates.|US|NC|
-C Major Malfunction|QID|8472|M|45,40.5|N|Finish killing Arcane Patrollers for the Arcane Cores.|US|
+C Unstable Mana Crystals|QID|8463|M|45.38,40.85|L|20743 6|N|Loot them from Unstable Mana Crystal Crates. They can be found all around the Ruins of Silvermoon.\n[color=FF0000]NOTE: [/color]Look for light beams that come out of the crates.|US|
+C Major Malfunction|QID|8472|M|46.26,42.27|N|Finish killing Arcane Patrollers for the Arcane Cores.\n[color=FF0000]NOTE: [/color]For the most part, you'll find them patrolling the roads.|US|
+L Level 6|ACTIVE|8463^8468^8472|M|PLAYER|N|Make sure you're at least halfway to lv 6 before returning.|LVL|5;-1440|
 T Major Malfunction|QID|8472|M|47.25,46.31|N|To Magister Jaronis.|
 A Delivery to the North Sanctum|QID|8895|M|47.25,46.31|N|From Magister Jaronis.|PRE|8472|
-T Wanted: Thaelis the Hungerer |QID|8468|M|47.77,46.58|N|To Sergeant Kan'ren.|
+T Wanted: Thaelis the Hungerer|QID|8468|M|47.77,46.58|N|To Sergeant Kan'ren.|
 T Unstable Mana Crystals|QID|8463|M|48.16,46.00|N|To Aeldon Sunbrand.|
 A Darnassian Intrusions|QID|9352|M|48.16,46.00|N|From Aeldon Sunbrand.|PRE|8463|
-T Delivery to the North Sanctum|QID|8895|M|44.63,53.13|N|To Ley-Keeper Caidanis.|
+= Level 6 Training|ACTIVE|8895|M|48.27,46.07|N|Visit your class trainer, Hannovia.\n[color=FF0000]NOTE: [/color]From here on out, come back every 2 levels to do your training.\n\nManually check this step off to continue.|C|Hunter|
+= Level 6 Training|ACTIVE|8895|M|48.40,46.47|N|Visit your class trainer, Noellene.\n[color=FF0000]NOTE: [/color]From here on out, come back every 2 levels to do your training.\n\nManually check this step off to continue.|C|Paladin|
+= Level 6 Training|ACTIVE|8895|M|48.50,45.91|N|Visit your class trainer, Tannaria.\n[color=FF0000]NOTE: [/color]From here on out, come back every 2 levels to do your training.\n\nManually check this step off to continue.|C|Rogue|
+= Level 6 Training|ACTIVE|8895|M|47.85,47.97|N|Visit your class trainer, Ponaris, on the second floor.\n[color=FF0000]NOTE: [/color]From here on out, come back every 2 levels to do your training.\n\nManually check this step off to continue.|C|Priest|
+= Level 6 Training|ACTIVE|8895|M|48.04,48.10|N|Visit your class trainer, Garridel, on the second floor.\n[color=FF0000]NOTE: [/color]From here on out, come back every 2 levels to do your training.\n\nManually check this step off to continue.|C|Mage|
+= Level 6 Training|ACTIVE|8895|M|48.23,47.94|N|Visit your class trainer, Celoenus, on the second floor.\n[color=FF0000]NOTE: [/color]From here on out, come back every 2 levels to do your training.\n\nManually check this step off to continue.|C|Warlock|
+T Delivery to the North Sanctum|QID|8895|M|44.63,53.13|N|To Ley-Keeper Caidanis, standing on the steps of the North Sanctum.|
 A Malfunction at the West Sanctum|QID|9119|M|44.63,53.13|N|From Ley-Keeper Caidanis.|PRE|8895|
 T Malfunction at the West Sanctum|QID|9119|M|36.70,57.44|N|To Ley-Keeper Velania.|
 A Arcane Instability|QID|8486|M|36.70,57.44|N|From Ley-Keeper Velania|PRE|9119|
@@ -112,8 +121,9 @@ K Darnassian Intrusions|ACTIVE|9352|M|34.02,58.60|L|20765|N|Kill a Darnassian Sc
 A Incriminating Documents|QID|8482|M|PLAYER|N|Quest starts from the Incriminating Documents. Click the envelope.|U|20765|O|
 K Arcane Instability|QID|8486|M|36.27,57.70|QO|1;2|N|Finish killing the Manawraiths and Mana Stalkers located around the West Sanctum.|US|
 T Darnassian Intrusions|QID|9352|M|36.70,57.44|N|To Ley-Keeper Velania.|
+; lv 7
 T Arcane Instability|QID|8486|M|36.70,57.44|N|To Ley-Keeper Velania.|
-A Fish Heads, Fish Heads...|QID|8884|M|30.23,58.31|N|From Hathvelion Sungaze (He wanders around a bit).\n[color=FF0000]NOTE: [/color]Follow the road west out of West Sanctum.|
+A Fish Heads, Fish Heads...|QID|8884|M|30.23,58.31|N|From Hathvelion Sungaze (He wanders around a bit).\n[color=FF0000]NOTE: [/color]Follow the road west out of West Sanctum, or go north around the mountain.|
 C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|N|Kill Murlocs to collect the Fish Heads.|S|
 l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|26.86,59.81|L|21776|N|Kill Grimscale Murlocs until one of them drops Captain Kelisendra's Lost Rutters.|
 A Captain Kelisendra's Lost Rutters|QID|8887|M|PLAYER|N|From Captain Kelisendra's Lost Rutters.|U|21776|O|
@@ -134,19 +144,17 @@ A Taking the Fall|QID|9064|M|44.88,61.03|N|From Apprentice Meledor.|PRE|9062|
 R Stillwhisper Pond|ACTIVE|9064|M|54.62,54.10|N|Follow the road north/east across The Dead Scar to the other side.\n[color=FF0000]NOTE: [/color]Do not linger longer the necessary in the Dead Scar.\nWatch out for the group of Rotlimb Cannibals that travel this area.|
 T Taking the Fall|QID|9064|M|55.70,54.51|N|To Instructor Antheol.|
 A Swift Discipline|QID|9066|M|55.70,54.51|N|From Instructor Antheol.|PRE|9064|
-A Fetch!|QID|9402|M|55.70,54.51|N|From Instructor Antheol.|LVL|10|R|BloodElf|C|Mage|
-C Fetch!|QID|9402|M|54.87,56.38|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|
-T Fetch!|QID|9402|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 A The Dead Scar|QID|8475|M|50.34,50.77|N|From Ranger Jaela.|
-K Plaguebone Pillagers|QID|8475|M|50.28,57.12|QO|1|N|Kill the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|
+K Plaguebone Pillagers|QID|8475|M|50.28,57.12|QO|1|N|Kill the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|S|
 C Apprentice Ralen|QID|9066|M|45.19,56.43|QO|2|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|T|Apprentice Ralen|U|22473|NC|
 C Apprentice Meledor|QID|9066|M|44.88,61.03|QO|1|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|T|Apprentice Meledor|U|22473|NC|
-K Plaguebone Pillagers|QID|8475|M|50.28,57.12|QO|1|N|Run back up through the Dead Scar and finish killing the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|
+K Plaguebone Pillagers|QID|8475|M|50.28,57.12|QO|1|N|Run back to The Dead Scar and finish killing the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|US|
 T Swift Discipline|QID|9066|M|55.70,54.51|N|To Instructor Antheol.|
 T The Dead Scar|QID|8475|M|50.34,50.77|N|To Ranger Jaela.|
-T The Dwarven Spy|QID|8483|M|48.16,46.00|N|To Aeldon Sunbrand.|
+L Level 8|ACTIVE|9064|N|Grind out until you're within 3 bubbles of lv 8 so you can train.|LVL|7;790|
+T The Dwarven Spy|QID|8483|M|48.16,46.00|N|To Aeldon Sunbrand at Falconwing Square.|
 A Fairbreeze Village|QID|9256|M|48.16,46.00|N|From Aeldon Sunbrand.|LEAD|8892|PRE|8483|
-R Fairbreeze Village|AVAILABLE|8892|M|43.91,67.50|N|Exit Falconwing Square and follow the  road south across the bridge.|
+R Fairbreeze Village|AVAILABLE|8892|M|43.91,67.50|N|After taking care of any training/housekeeping, exit Falconwing Square and follow the road south across the bridge.|
 A Pelt Collection|QID|8491|M|44.72,69.63|N|From Velan Brightoak.|
 A Saltheril's Haven|QID|9395|M|44.03,70.76|N|From Magistrix Landra Dawnstrider.|LEAD|9067|
 A The Wayward Apprentice|QID|9254|M|44.03,70.76|N|From Magistrix Landra Dawnstrider.|LEAD|8487|
@@ -175,7 +183,7 @@ K Wretched Thugs and Hooligans|QID|8892|QO|1;2|N|Finish killing the Wretched Thu
 T Wretched Ringleader|QID|9076|M|36.36,66.77|N|To Velendris Whitemorn.|
 T The Ring of Mmmrrrggglll|QID|8885|M|30.23,58.31|N|To Hathvelion Sungaze.|
 C Pelt Collection|QID|8491|M|38.42,64.67|N|Finish collecting the Pelts.|US|
-H Fairbreeze Village|ACTIVE|8491|AVAILABLE|-8885|M|43.67,71.31|N|Use your hearth or run back if you are close enough.|
+H Fairbreeze Village|ACTIVE|8491|AVAILABLE|-8885|M|43.67,71.31|N|Use your hearth or run back if you're close enough.|
 T Pelt Collection|QID|8491|M|44.72,69.63|N|To Velan Brightoak.|
 T Situation at Sunsail Anchorage|QID|8892|M|43.34,70.82|N|To Ranger Degolien.|
 A Farstrider Retreat|QID|9359|M|43.34,70.82|N|From Ranger Degolien.|LEAD|8476|PRE|8892|
@@ -190,7 +198,7 @@ C Corrupted Soil|QID|8487|M|51.71,69.21|L|20771 8|N|Loot the green Tainted Soil 
 T Corrupted Soil|QID|8487|M|54.28,70.98|N|To Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Be prepared for a fight as you'll be immediately attacked by three mobs upon accepting this.|
 A Unexpected Results.|QID|8488|M|54.28,70.98|N|From Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Check your buffs and get to full HP/Mana before accepting. You will be attacked immediately by three mobs upon accepting it.|PRE|8487| ; added '.' to block auto-accepting
 C Unexpected Results|QID|8488|M|54.28,70.98|N|Protect Mirveda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.|
-T Unexpected Results|QID|8488|M|54.28,70.98|N|To Apprentice Mirveda. You should now be level 10!|
+T Unexpected Results|QID|8488|M|54.28,70.98|N|To Apprentice Mirveda.|
 A Research Notes|QID|9255|M|54.28,70.98|N|From Apprentice Mirveda.|PRE|8488|
 K Defending Fairbreeze Village|QID|9252|M|51.12,77.09|QO|1;2|N|Kill Rotlimb Marauders and Darkwraiths in the Dead Scar.\n[color=FF0000]NOTE: [/color]You'll find the Darkwraiths south of East Sanctum.|US|
 R Farstrider Retreat|ACTIVE|9359|M|54.36,67.70;59.14,63.34|CC|N|There is a mob-free path just to the northeast of East Sanctum that leads up the top of the waterfall. When you get to the top, go the entrance on the south side of the building.\n[color=FF0000]NOTE: [/color]The path east of the East Sanctum stairs is not mob-free.|
@@ -199,8 +207,33 @@ A Amani Encroachment|QID|8476|M|60.32,62.77|N|From Lieutenant Dawnrunner.|
 B Springpaw Appetizers|QID|9067|M|60.40,62.46|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight on the other side of the fire.|
 A The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|From Arathel Sunforge.|
 A The Magister's Apprentice|QID|8888|M|60.31,61.38|N|From Magister Duskwither. Up the right ramp.|LEAD|8889|
+L Level 10|QID|8888|N|Class quest time... Grind to level 10 so you can start it.|LVL|10|
+R The Shepherd's Gate|ACTIVE|8888|M|56.66,49.54|N|This is the entrance to Silvermoon City.|
+= Train|ACTIVE|8888|M|71.54,55.76|Z|Silvermoon City|N|Harene Plainwalker in Walk of Elders.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
+= Train|ACTIVE|8888|M|83.40,27.55|Z|Silvermoon City|N|Zandine, Oninath, or Tana in Farstriders' Square (Entrance on north wall).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
+= Train|ACTIVE|8888|M|57.56,20.56|Z|Silvermoon City|N|Quinthas, Zaedana, or Inethven in the Sunfury Spire (north/right alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
+= Train|ACTIVE|8888|M|92.26,36.15|Z|Silvermoon City|N|Lady Liadrin in Farstriders' Square (NE corner).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Paladin|
+= Train|ACTIVE|8888|M|54.96,25.62|Z|Silvermoon City|N|Belestra, Lotheolan, or Aldrae in the Sunfury Spire (south/left alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
+= Train|ACTIVE|8888|M|78.59,51.01|Z|Silvermoon City|N|Zelanis, Nerisen or Elara in Murder Row (2nd Doorway).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
+= Train|ACTIVE|8888|M|74.67,45.01|Z|Silvermoon City|N|Alamma, Zanien, or Talionia in Murder Row (3rd doorway, downstairs).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+
+; -- Level 10 class quests
+R Stillwhisper Pond|AVAILABLE|9402|M|54.62,54.10|N|Make your way to Stillwhisper Pond.|R|BloodElf|C|Mage|
+A Fetch!|QID|9402|M|55.70,54.51|N|From Instructor Antheol.|LVL|10|R|BloodElf|C|Mage|
+C Fetch!|QID|9402|M|54.87,56.38|L|23551|N|Dive into the middle of the lake and retrieve the phial from the bottom.|R|BloodElf|C|Mage|
+T Fetch!|QID|9402|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 A The Purest Water|QID|9403|M|55.70,54.51|N|From Instructor Antheol.|PRE|9402|R|BloodElf|C|Mage|
-R Thuron's Livery|QID|8888|M|62.00,53.00|N|If you want the explorer achievement, follow the road out of Farstrider Retreat and down the hill. Head back up the hill when done.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
+
+;R Elrendar Falls|ACTIVE|9403|M|63.91,72.38|N|Head to the base of Elrendar Falls.|R|BloodElf|C|Mage|
+;C The Purest Water|QID|9403|M|64.36,72.87|N|Stand under the waterfall and click on the vial to fill it.|U|23566|R|BloodElf|C|Mage|NC|
+;T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+;A Recent Living|QID|9404|M|55.70,54.51|N|From Instructor Antheol.|PRE|9403|R|BloodElf|C|Mage|
+;R The Living Wood|ACTIVE|9404|M|57.42,67.55|N|Make your way to the south side of the river and follow it south. Cross it when you reach the bend.|R|BloodElf|C|Mage|
+;C Recent Living|QID|9404|M|57.30,70.35|L|23553|N|Kill Eversong Green Keepers until one drops a Living Branch.|R|BloodElf|C|Mage| ; This can be done later
+;T Recent Living|QID|9404|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+
+
+R Thuron's Livery|QID|8888|M|62.00,53.00|N|If you want the explorer achievement, follow the road out of Farstrider Retreat and down the hill.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 T The Magister's Apprentice|QID|8888|M|67.81,56.52|N|To Apprentice Loralthalis. Head out of the city and follow the road east.|
 A Deactivating the Spire|QID|8889|M|67.81,56.51|N|From Apprentice Loralthalis.|
 A Where's Wyllithen?|QID|9394|M|67.81,56.52|N|From Apprentice Loralthalis.|LEAD|8894|
@@ -215,7 +248,7 @@ C Second Power Source|QID|8889|M|68.95,51.93|QO|2|N|Continue up more stairs, the
 A Abandoned Investigations|QID|8891|M|69.24,52.10|N|From Magister Duskwither's Journal on the table near the door.|
 C Third Power Source|QID|8889|M|69.65,53.33|QO|3|N|Head up the stairs again, then deactivate the Third Power Source.|NC|
 T Deactivating the Spire|QID|8889|M|67.80,56.46|N|Click the Orb of Translocation to head back to ground level, then head to Apprentice Loralthalis.|
-A Word from the Spire|QID|8890|M|67.8,56.5|N|From Apprentice Loralthalis.|PRE|8889|
+A Word from the Spire|QID|8890|M|67.8,56.5|N|[coords]From Apprentice Loralthalis.|PRE|8889|
 R Silvermoon City|ACTIVE|9067|M|56.70,49.48|N|Follow the road northwest into Silvermoon City.|TZ|The Shepherd's Gate.|
 = Visit your trainer|QID|8890|N|If you're unsure of where to find your trainer, you can ask a guard for directions.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
@@ -228,8 +261,7 @@ K Chieftain Zul'Marosh|QID|8479|M|61.60,79.60|L|23249|N|Head west across the wat
 A Amani Invasion|QID|9360|M|PLAYER|N|From the Amani Invasion Plans.|U|23249|
 T Zul'Marosh|QID|8479|M|70.5,72.3|N|To Ven'jashi.|
 C Amani Encroachment|QID|8476|M|69.00,72.00|N|Finish killing Trolls needed.|US|
-R Elrendar Falls|QID|9360|M|64.00,73.00|N|If you want the explorer achievement, head to Elrendar Falls.
-[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
+R Elrendar Falls|QID|9360|M|64.00,73.00|N|If you want the explorer achievement, head to Elrendar Falls.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 T Amani Encroachment|QID|8476|M|60.32,62.77|N|To Lieutenant Dawnrunner at the Farstrider Retreat.|
 T Amani Invasion|QID|9360|M|60.32,62.77|N|To Lieutenant Dawnrunner.|
 A Warning Fairbreeze Village|QID|9363|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9360|
