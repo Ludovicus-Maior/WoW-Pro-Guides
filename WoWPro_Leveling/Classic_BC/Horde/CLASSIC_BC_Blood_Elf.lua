@@ -56,7 +56,7 @@ C The Shrine of Dath'Remar|QID|8345|M|29.65,19.40|N|The Shrine of Dath'Remar is 
 K Aggression|QID|8334|M|34.93,26.52|QO|1;2|N|Finish killing the Feral Tenders and Tenders you need.|R|BloodElf|US|
 C A Fistful of Slivers|QID|8336|M|59.44,54.04|N|As you head back, finish collecting the Slivers from the Mana Wyrms and Feral Tenders|R|BloodElf|US|
 L Level 4|ACTIVE|8345^8330|N|Wait until you are level 4 before returning.|LVL|4|R|BloodElf|
-= Level 4 training|ACTIVE|8345^8330|N|Stop and visit your class trainer.|LVL|4|R|BloodElf|
+= Level 4 training|ACTIVE|8345^8330|M|38.62,20.98|N|Stop and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|R|BloodElf|
 T The Shrine of Dath'Remar|QID|8345|M|38.76,19.36|N|To Well Watcher Solanian, on the balcony.|R|BloodElf|
 T Solanian's Belongings|QID|8330|M|38.76,19.36|N|To Well Watcher Solanian.|R|BloodElf|
 T A Fistful of Slivers|QID|8336|M|38.28,19.13|N|To Arcanist Ithanas.|R|BloodElf|
@@ -123,7 +123,7 @@ K Arcane Instability|QID|8486|M|36.27,57.70|QO|1;2|N|Finish killing the Manawrai
 T Darnassian Intrusions|QID|9352|M|36.70,57.44|N|To Ley-Keeper Velania.|
 ; lv 7
 T Arcane Instability|QID|8486|M|36.70,57.44|N|To Ley-Keeper Velania.|
-A Fish Heads, Fish Heads...|QID|8884|M|30.23,58.31|N|From Hathvelion Sungaze (He wanders around a bit).\n[color=FF0000]NOTE: [/color]Follow the road west out of West Sanctum.|
+A Fish Heads, Fish Heads...|QID|8884|M|30.23,58.31|N|From Hathvelion Sungaze (He wanders around a bit).\n[color=FF0000]NOTE: [/color]Follow the road west out of West Sanctum, or go north around the mountain.|
 C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|N|Kill Murlocs to collect the Fish Heads.|S|
 l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|26.86,59.81|L|21776|N|Kill Grimscale Murlocs until one of them drops Captain Kelisendra's Lost Rutters.|
 A Captain Kelisendra's Lost Rutters|QID|8887|M|PLAYER|N|From Captain Kelisendra's Lost Rutters.|U|21776|O|
