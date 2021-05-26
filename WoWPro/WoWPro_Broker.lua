@@ -1995,11 +1995,11 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 				if tonumber(inzone) then
 					local _, mapID = WoWPro.GetZoneText()
 					inzone = tonumber(inzone)
-					if (subzonetext == C_Map.GetAreaInfo(inzone)) then
+					if (subzonetext == _G.C_Map.GetAreaInfo(inzone)) then
 						zonetext = inzone
-					else			
+					else
 						zonetext = mapID
-					end	
+					end
 				end
                 if (((inzone == zonetext) or (inzone == subzonetext)) and not inzoneFlip) or (((inzone ~= zonetext) and (inzone ~= subzonetext)) and inzoneFlip) then
                     WoWPro:dbp("Step %s [%s/%s] not skipped as InZone %s/%s",stepAction,step,tostring(QID), zonetext, subzonetext)
