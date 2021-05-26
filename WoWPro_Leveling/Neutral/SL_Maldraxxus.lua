@@ -39,13 +39,13 @@ T A Fresh Blade|QID|62738^63035|M|52.85,68.33|N|To Secutor Mevix.|TOF|
 A Rallying Maldraxxus|QID|62748|PRE|62738^63035|M|49.70,44.13|Z|Seat of the Primus!Dungeon|N|From Secutor Menvix.|TOF|COV|Necrolord|
 A Rallying Maldraxxus|QID|62748|PRE|62738^63035|N|From Secutor Menvix.|TOF|
 l Rallying Maldraxxus|QID|62748|QO|1|S!US|N|Literally everything you do in Maldraxxus counts towards this quest. You may [color=40C7EB]return[/color] to [color=40C7EB]Bleak Redoubt[/color] to turn in and be done with the zone anytime after this step closes.|TOF|
-t Rallying Maldraxxus|QID|62748|IZ|Seat of the Primus!Dungeon|M|49.70,44.13|Z|Seat of the Primus!Dungeon|N|To Secutor Mevix.|TOF|COV|Necrolord|
-t Rallying Maldraxxus|QID|62748|IZ|Bleak Redoubt|M|52.85,68.28|Z|Maldraxxus|N|To Secutor Mevix.|
+t Rallying Maldraxxus|QID|62748|IZ|1698|M|49.70,44.13|Z|Seat of the Primus!Dungeon|N|To Secutor Mevix.|TOF|COV|Necrolord|
+t Rallying Maldraxxus|QID|62748|IZ|11466|M|52.85,68.28|Z|Maldraxxus|N|To Secutor Mevix.|
 A Return to Oribos|QID|62761|M|52.85,68.28|Z|Maldraxxus|N|From Secutor Mevix.|PRE|62748|TOF|
 F Oribos|ACTIVE|62761|M|52.46,67.64|Z|Maldraxxus|N|At Wing Guard Buurkin|TOF|
-t Return to Oribos|QID|62761|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|IZ|Oribos|TOF|
+t Return to Oribos|QID|62761|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|IZ|10565|TOF|
 A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62761|CCOUNT|1;62729;62761;62776;62779|N|From Tal-Inara.|TOF|
-C Tal-Inara|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone and then turn that quest back into her.|IZ|Oribos|TOF|
+C Tal-Inara|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone and then turn that quest back into her.|IZ|10565|TOF|
 T The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62761&63208|CCOUNT|2;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 2nd zone
 C Tal-Inara|QID|63209|M|61.03,36.71|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
@@ -315,8 +315,8 @@ C A Deadly Distraction|QID|57987|M|31.04,25.95|Z|Maldraxxus|N|Kill Warstitched f
 R The Stitchyard|QID|57245|M|25.75,40.61|Z|Maldraxxus|N|We are leaving the area briefly for 3 quests, if you aren't finished, don't worry, we will be back.|RANK|2|LVL|60|;moving this to lvl 60, because run thru 11/21 showed these mobs not scaling. quest available at 54. but VERY difficult. leaving in, because that may change again.
 A Ani-Matter Animator|QID|57245|M|26.29,42.67|Z|Maldraxxus|N|From Snyder Sixfold.|RANK|2|LVL|60|
 C Ani-Matter Animator|QID|57245|M|25.87,45.94|Z|Maldraxxus|U|175827|S!US|N|Use the provided orb to animate the piles of bone remains scattered around the Ossein Foundry. You will find 4 types:\nLoyal-will fight with along beside you for about a minute.\nRecruitable - Chat with them to recruit them.\nStubborn - may offer one or more daily repeatable quests. They also may be recruitable.\nEnraged - hostile, will fight you for about 15 seconds then despawn.|
-;A Blade of Blades|QID|57284|M|PLAYER|Z|Maldraxxus|IZ|Ossein Foundry|N|From Stubborn Animate.|ACTIVE|57245|;commenting out, it appears its not always the same quests.
-;A Bring Me Their Heads|QID|57278|M|PLAYER|Z|Maldraxxus|IZ|Ossein Foundry|N|From Stubborn Animate. Don't worry if you didn't have time to accept all quests, you will get another chance on the next Stubborn Animate you find.|ACTIVE|57245|
+;A Blade of Blades|QID|57284|M|PLAYER|Z|Maldraxxus|IZ|12777|N|From Stubborn Animate.|ACTIVE|57245|;commenting out, it appears its not always the same quests.
+;A Bring Me Their Heads|QID|57278|M|PLAYER|Z|Maldraxxus|IZ|12777|N|From Stubborn Animate. Don't worry if you didn't have time to accept all quests, you will get another chance on the next Stubborn Animate you find.|ACTIVE|57245|
 C Blade of Blades|QID|57284|M|PLAYER|Z|Maldraxxus|S|NC|N|Pick up forgotten blades lying around.|ACTIVE|57245|
 C Bring Me Their Heads|QID|57278|M|31.27,45.27|Z|Maldraxxus|N|The Violent Animates have the best drop rate and can be found in the northwest part of the quest area.|ACTIVE|57245|
 K Zargox the Reborn|PRE|57245|M|28.95,51.33|Z|Maldraxxus|T|Zargox the Reborn|N|Ask Synder for Ani-Matter Orb, go to the bone at these coord.\nUse orb on pile of bones in center of platform.|RARE|ACH|14308;3|U|175827|LVL|60|

@@ -18,7 +18,7 @@ B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
 B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 
-F Menethil Harbor|ACTIVE|1179|M|55.60,47.40|N|Fly to Menethil Harbor.|IZ|Ironforge|
+F Menethil Harbor|ACTIVE|1179|M|55.60,47.40|N|Fly to Menethil Harbor.|IZ|1455|
 b Theramore Isle|QID|1282|M|5,63.51|Z|Wetlands|N|Take the boat to Theramore.\nNote: If still in Darnassus take the boat from Darkshore to Menethil Harbor first|
 
 f Theramore|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|
@@ -259,7 +259,7 @@ T Northfold Manor|QID|681|M|45.83,47.55|Z|Arathi Highlands|N|To Captain Nials.|
 A Worth Its Weight in Gold|QID|691|M|46.20,47.76|Z|Arathi Highlands|N|From Apprentice Kryten.|PRE|690|
 T Hints of a New Plague?|QID|659|M|60.18,53.85|Z|Arathi Highlands|N|To Quae.|
 A Hints of a New Plague?|QID|658|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|PRE|659|
-K Forsaken Courier|ACTIVE|658|M|61.00,60.00|L|647|S|N|Look out for a group of Forsaken leaving Go'Shek Farm. The Forsaken Courier in the center drops a Sealed Folder. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter|T|Forsaken Courier|IZ|Arathi Highlands|
+K Forsaken Courier|ACTIVE|658|M|61.00,60.00|L|647|S|N|Look out for a group of Forsaken leaving Go'Shek Farm. The Forsaken Courier in the center drops a Sealed Folder. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter|T|Forsaken Courier|IZ|1417|
 L Level 35|N|If you are not yet level 35 grind on the Orcs here|LVL|-35|
 R Thandol Span|AVAILABLE|647|M|60.80,60.65;45.80,59.20;43.25,91.20|CC|Z|Arathi Highlands|CC|N|Head to the road leading out of Go'Shek Farm. Follow the road west and towards Wetlands when the road turns south|
 A MacKreel's Moonshine|QID|647|M|43.25,91.20;43.24,92.64|CC|Z|Arathi Highlands|N|Head to the broken side of the bridge. Stand on the right side of the chain and use Slowfall/Levitate on yourself. Aim yourself towards the Torch on the opposite side. Run and jump off the bridge to float over. Accept the quest from Foggy MacKreel in the room on the right. Be aware this is a timed quest. If you fail the jump swim east until you come to a hill you can run back up.|C|Mage,Priest|

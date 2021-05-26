@@ -7,7 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
-R Valley of the Four Winds|N|Make your way to Valley of the Four Winds.|IZ|-Valley of the Four Winds|
+R Valley of the Four Winds|N|Make your way to Valley of the Four Winds.|IZ|-376|
 ; -- Breadcrumb quest turn-in
 T Hero's Call: Valley of the Four Winds!|QID|49557|M|85.94,22.10|N|To Chen Stormstout.|
 T Warchief's Command: Valley of the Four Winds!|QID|49539|M|85.94,22.10|N|To Chen Stormstout.|
@@ -154,7 +154,7 @@ R Mudmug's Place|ACTIVE|29950|M|68.87,46.3|FLY|OLD|
 T Li Li's Day Off|QID|29950|M|68.77,43.43|N|To Li Li.|
 T Muddy Water|QID|29951|M|68.71,43.12|N|To Mudmug.|
 A Broken Dreams|QID|29952|M|68.85,43.41|N|From Chen Stormstout.|PRE|29950|
-C Broken Dreams|QID|29952|M|68.85,43.41|N|Chat with Chen to get transported to an instance where you relive Chen's experience as he goes to the brewery. Look for the old uncle and follow after him, (because Chen is trying to talk to him).|IZ|Mudmug's Place|CHAT|
+C Broken Dreams|QID|29952|M|68.85,43.41|N|Chat with Chen to get transported to an instance where you relive Chen's experience as he goes to the brewery. Look for the old uncle and follow after him, (because Chen is trying to talk to him).|IZ|5957|CHAT|
 T Broken Dreams|QID|29952|M|68.85,43.41|N|To Chen Stormstout.|
 A Chen's Resolution|QID|30046|M|68.81,43.50|N|From Chen Stormstout.|PRE|29951&29952|
 R Halfhill|ACTIVE|30046|M|58.90,44.97|N|Head to Halfhill to meet up with Chen.|FLY|OLD|
@@ -164,7 +164,7 @@ A Li Li and the Grain|QID|30048|M|55.89,49.44|N|From Chen Stormstout.|PRE|30046|
 A Doesn't Hold Water|QID|30049|M|55.89,49.44|N|From Chen Stormstout.|PRE|30046|
 A Children of the Water|QID|32045|M|55.13,47.38|N|From Stonecarver Mac, up on Halfhill|
 f Halfhill|ACTIVE|30049|M|56.50,50.36|N|From Wing Nga.|TAXI|-Halfhill|
-N Fishing quest and cooking training|AVAILABLE|31281|N|If you want to, this is a good time to do the fishing quest and cooking training. Perhaps not the most efficient. But, if you are going to do it, might as well do it while you get XP.|IZ|Halfhill|RANK|3|
+N Fishing quest and cooking training|AVAILABLE|31281|N|If you want to, this is a good time to do the fishing quest and cooking training. Perhaps not the most efficient. But, if you are going to do it, might as well do it while you get XP.|IZ|5980|RANK|3|
 ; -- Fishing quest
 A You Want Fish?|QID|32684|M|53.58,51.22|N|From Sungshin Ironpaw.\n[color=FF0000]NOTE: [/color]As stated earlier, this is optional. Skip it if you so wish.|
 T You Want Fish?|QID|32684|M|58.92,46.92|N|To Ben of the Booming Voice down by the shore of the Gilding Stream.|
@@ -189,7 +189,7 @@ T Ready for Greatness|QID|31302|M|53.58,51.22|N|To Sungshin Ironpaw.|
 N Advanced Pandaren Cooking|AVAILABLE|31479^31311^31478^31472^31475^31470|M|PLAYER|N|Upon turning in 'Ready for Greatness', you'll unlock 6 quests to unlock further cooking skills and dailies.\nThis guide will go no further into it.|RANK|3|JUMP|Pandaren Cooking|
 ; --
 ; -- The Tillers Quest chain
-N The Tillers Rep Guide Intro|AVAILABLE|30252|N|[color=FF0000]NOTE: [/color]This chain for The Tillers and is optional. It's quick and easy XP; even if you don't plan on doing the farming portion.|IZ|Valley of the Four Winds|RANK|3|
+N The Tillers Rep Guide Intro|AVAILABLE|30252|N|[color=FF0000]NOTE: [/color]This chain for The Tillers and is optional. It's quick and easy XP; even if you don't plan on doing the farming portion.|IZ|376|RANK|3|
 A A Helping Hand|QID|30252|M|52.01,47.99|N|From Farmer Yoon in Sunsong Ranch.\n[color=FF0000]NOTE: [/color]Skip this step if you don't wish to do the quest chain.|RANK|3| ; Started at 22,992 xp
 C Remove the rocks|QID|30252|M|52.8,49.81|N|Click on the Unbudging Rock to dig it up. You'll find them spread out around Sunsong Ranch.\n[color=FF0000]NOTE: [/color]You are phased and no one (outside of your party) can take yours.|NC|
 T A Helping Hand|QID|30252|M|52.75,47.94|N|To Farmer Yoon.|

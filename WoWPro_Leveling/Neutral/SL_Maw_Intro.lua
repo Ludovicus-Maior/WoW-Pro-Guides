@@ -6,7 +6,7 @@ WoWPro:GuideName(guide,"Shadowlands Intro - The Maw")
 WoWPro:GuideNextGuide(guide, 'Bastion')
 WoWPro:GuideSteps(guide, function()
 return [[
-R Orgrimmar|AVAILABLE|61874|IZ|-Orgrimmar|N|If you aren't in Orgrimmar, go there to get the starting quest.|FACTION|Horde|
+R Orgrimmar|AVAILABLE|61874|IZ|-85|N|If you aren't in Orgrimmar, go there to get the starting quest.|FACTION|Horde|
 A A Chilling Summons|QID|61874|Z|Orgrimmar|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Horde|LVL|48|
 C A Chilling Summons|QID|61874|M|50.38,76.58|Z|Orgrimmar|QO|1|CHAT|N|Speak with Nazgrim outside Grommash Hold and he will open a gate.|FACTION|Horde|
 C A Chilling Summons|QID|61874|M|49.16,78.13|Z|Orgrimmar|QO|2|NC|N|Enter the Death gate to Acherus.|FACTION|Horde|

@@ -127,7 +127,7 @@ C The Shattered Hand|QID|1963|M|63.91,44.28|L|7209|N|Tazan patrols in The Mercha
 K Southsea Freebooters|ACTIVE|887|M|63.88,44.55|QO|1;2|N|You'll find them all along The Merchant Coast. The Cannoneers are scarcer than the Brigands.\n[color=FF0000]NOTE: [/color]If you run into Baron Longshore, I'd suggest waiting until your next visit. He hits hard and has 2 adds.|
 C The Shattered Hand|QID|1963|M|63.91,44.28|L|7209|N|Tazan patrols in The Merchant Coast. Kill him and loot his satchel.|R|Orc,Troll|C|Rogue|US|
 R Ratchet|ACTIVE|887|M|62.73,40.17|N|Return to Ratchet.|
-t WANTED: Baron Longshore|QID|895|M|62.68,36.23|N|To Gazlowe in Ratchet.|IZ|Ratchet|
+t WANTED: Baron Longshore|QID|895|M|62.68,36.23|N|To Gazlowe in Ratchet.|IZ|392|
 T Southsea Freebooters|QID|887|M|62.68,36.23|N|To Gazlowe in Ratchet.|
 A The Missing Shipment|QID|890|M|62.68,36.23|N|From Gazlowe.|PRE|887|
 T The Missing Shipment|QID|890|M|63.35,38.45|N|To Wharfmaster Dizzywig.|
@@ -135,7 +135,7 @@ A The Missing Shipment|QID|892|M|63.35,38.45|N|From Wharfmaster Dizzywig.|PRE|89
 T The Missing Shipment|QID|892|M|62.68,36.23|N|To Gazlowe.|
 A Stolen Booty|QID|888|M|62.68,36.23|N|From Gazlowe.|PRE|892|
 
-R Exit Ratchet|QID|903|M|58.59,38.42|N|Follow the road west out of Ratchet.|IZ|Ratchet|
+R Exit Ratchet|QID|903|M|58.59,38.42|N|Follow the road west out of Ratchet.|IZ|392|
 C Prowlers of the Barrens|QID|903|M|58.90,37.72|L|5096 7|N|At the top of the hill, look for the Savannah Prowlers in the bushes to the north and south of the road.|
 C Raptor Thieves|QID|869|L|5062 12|N|Finish collecting the Raptor Heads as you make your way back to the Crossroads.|US|
 ; lv 17
@@ -157,7 +157,7 @@ T The Shattered Hand|QID|1858|M|42.74,53.55|Z|Orgrimmar|N|To Therzok.|R|Orc,Trol
 A Zando'zan|QID|2379|M|43.03,53.73|Z|Orgrimmar|N|From Shenthul.|R|Orc,Troll,Undead|C|Rogue|
 T Zando'zan|QID|2379|M|42.73,52.95|Z|Orgrimmar|N|To Zando'zan.|R|Orc,Troll,Undead|C|Rogue|
 A Wrenix of Ratchet|QID|2382|M|42.73,52.95|Z|Orgrimmar|N|From Zando'zan.|PRE|2379|R|Orc,Troll,Undead|C|Rogue|
-F Crossroads|AVAILABLE|853|ACTIVE|2382|M|45.15,63.90|Z|Orgrimmar|N|Fly back to the Crossroads.|R|Orc,Troll,Undead|C|Rogue|IZ|Orgrimmar|
+F Crossroads|AVAILABLE|853|ACTIVE|2382|M|45.15,63.90|Z|Orgrimmar|N|Fly back to the Crossroads.|R|Orc,Troll,Undead|C|Rogue|IZ|1454|
 ; ---
 
 A Apothecary Zamah|QID|853|M|51.46,30.16|N|From Apothecary Helbrim.\n[color=FF0000]NOTE: [/color]This is a timed quest (45 minutes).|PRE|848|
@@ -171,7 +171,7 @@ C Lost in Battle|QID|4921|M|49.33,50.34|QO|1|N|Mankrik's wife is the "Beaten Cor
 R Camp Taurajo|QID|853|M|46.60,57.79|N|[color=FF0000]NOTE: [/color]Stick to the road unless you want to do some grinding.|
 F Thunder Bluff|QID|853|M|44.44,59.15|
 T Apothecary Zamah|QID|853|M|30.04,29.83;22.79,20.90|CC|Z|Thunder Bluff|N|To Apothecary Zamah.\nHead to the Pools of Vision, beneath Spirit Rise.|
-A Serpentbloom |QID|962|M|22.79,20.90|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Apothecary Zamah, Spirit Rise.\n[color=FF0000]NOTE: [/color]Skip if you wish.|IZ|Thunder Bluff|
+A Serpentbloom |QID|962|M|22.79,20.90|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Apothecary Zamah, Spirit Rise.\n[color=FF0000]NOTE: [/color]Skip if you wish.|IZ|1456|
 N Weapon Master|QID|4921|M|40.92,62.70|Z|Thunder Bluff|N|While you are here, go see Ansekhwa if you wish to train in Guns, One-Handed Maces, Staves or Two-handed Maces.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|
 F Crossroads|QID|4921|M|47.02,49.83|Z|Thunder Bluff|
 
@@ -300,7 +300,7 @@ N Ashenvale FPs|ACTIVE|6541|N|A little side trip to grab the Flight paths in Ash
 R The Mor'shan Rampart|ACTIVE|6541|M|48.02,5.58|CC|N|Follow the road north to the Mor'shan Rampart.|
 T Report to Kadrak|QID|6541|M|48.12,5.42|N|To Kadrak on the first floor of the guard tower on your right.|
 A The Warsong Reports|QID|6543|M|48.12,5.42|N|From Kadrak.|
-R Ashenvale|AVAILABLE|6442|M|68.63,86.82|Z|Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|IZ|-Ashenvale|
+R Ashenvale|AVAILABLE|6442|M|68.63,86.82|Z|Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|IZ|-1440|
 R Splintertree Post|AVAILABLE|6442|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|CC|Z|Ashenvale|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.\n[color=FF0000]NOTE: [/color]Be VERY aware of the much higher level mobs if you choose to venture off the road.|
 U Warsong Reports|ACTIVE|6543|L|16746|N|Open your Bundle of Reports.|U|16783|
 ; Quest is [The Warsong Reports], presuming this is to avoid automatic turn-in.
@@ -456,13 +456,13 @@ A Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|From Xen'zilla i
 K Blood Feeders|ACTIVE|6461|M|58.18,76.03|Z|Stonetalon Mountains|QO|1;2|N|Kill Deepmoss Creepers and Venomspitters.|S|
 R Webwinder Path|ACTIVE|6461|M|59.34,75.96|Z|Stonetalon Mountains|N|Leave Malaka'jin and follow the road north.|
 A Arachnophobia|QID|6284|M|59.07,75.71|Z|Stonetalon Mountains|ELITE|N|From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]This quest is not recommended at your current level. Accept the quest on the off-chance that you find a group to do it.|
-R Sishir Canyon|ACTIVE|6461^1069^6284|M|58.18,76.03|Z|Stonetalon Mountains|N|Follow the path west up the hill.|IZ|Stonetalon Mountains|
+R Sishir Canyon|ACTIVE|6461^1069^6284|M|58.18,76.03|Z|Stonetalon Mountains|N|Follow the path west up the hill.|IZ|1442|
 C Deepmoss Spider Eggs|QID|1069|M|53.48,74.52|Z|Stonetalon Mountains|L|5570 15|N|Pick up the spider eggs from around the area.\n[color=FF0000]NOTE: [/color]1-2 Deepmoss Hatchlings will spawn after opening the egg. On occassion, a Deepmoss Matriarch may also spawn after killing the Hatchlings|S|
 K Bessaleth|ACTIVE|6284|M|53.48,74.52|Z|Stonetalon Mountains|L|16192|N| Bessaleth is a lv 21 Elite mob with multiple spawn points. You'll find her in one of the alcoves along the edge.\n[color=FF0000]NOTE: [/color]It's strongly recommended to only attempt this if you're over level, or you have help to do it.\nSkip this step if you wish to move on.|T|Bessaleth|
 C Deepmoss Spider Eggs|QID|1069|M|53.48,74.52|Z|Stonetalon Mountains|L|5570 15|N|Pick up the spider eggs from around the area.|US|
 K Blood Feeders|ACTIVE|6461|M|53.48,74.52|Z|Stonetalon Mountains|QO|1;2|N|Finish up the spiders needed.|US|
 R Sun Rock Retreat|ACTIVE|6401|M|59.34,75.87;59.67,71.22;53.04,61.58;49.58,60.99|CC|Z|Stonetalon Mountains|N|Head back to Webwinder Path and follow it north; taking the left forks (or just follow the signs).|
-t Arachnophobia|QID|6284|M|47.20,61.16|Z|Stonetalon Mountains|N|To Maggran Earthbinder.|IZ|Sun Rock Retreat|
+t Arachnophobia|QID|6284|M|47.20,61.16|Z|Stonetalon Mountains|N|To Maggran Earthbinder.|IZ|460|
 T Kaya's Alive|QID|6401|M|47.46,58.38|Z|Stonetalon Mountains|N|To Tammra Windfield.|
 f Sun Rock Retreat|QID|6461|M|45.13,59.84|Z|Stonetalon Mountains|N|At Tharm.|TAXI|-Sun Rock Retreat|
 R Malaka'jin|ACTIVE|6461|M|53.18,61.66;71.55,90.59|CC|Z|Stonetalon Mountains|N|Return to Malaka'jin.|
@@ -476,11 +476,11 @@ A Leaders of the Fang |QID|914|M|75.65,31.63|Z|Thunder Bluff|ELITE|N|[color=E6CC
 N Wailing Caverns|ACTIVE|914|N|Having all of the quests for Wailing Cavern, now is a good time to look for a group for this instance.\nAs this guide is dungeon-free, we won't be completing those quests in this guide. Feel free to rejoin this guide when you are done.|
 
 F Orgrimmar|ACTIVE|3923|N|[color=FF0000]NOTE: [/color]No matter what class/race you are, you'll want to be in Orgrimmar at this point.|
-R Enter Orgrimmar|ACTIVE|3923|M|45.52,12.07|CC|Z|Durotar|N|Enter Orgrimmar by the south entrance.|IZ|-Orgrimmar|
+R Enter Orgrimmar|ACTIVE|3923|M|45.52,12.07|CC|Z|Durotar|N|Enter Orgrimmar by the south entrance.|IZ|-1454|
 R Valley of Honor|QID|3923|M|65.54,40.00|Z|Orgrimmar|
 T Rilli Greasygob|QID|3923|M|76.51,24.43|Z|Orgrimmar|N|Look for Rilli Greasygob inside Nogg's Machine Shop.|
 A Samophlange Manual|QID|3924|M|76.51,24.43|Z|Orgrimmar|N|From Rilli Greasygob.|PRE|3923|
-R Southfury River|ACTIVE|3924|N|Leave Orgrimmar through the west gate.|M|11.45,67.06|Z|Orgrimmar|IZ|Orgrimmar|
+R Southfury River|ACTIVE|3924|N|Leave Orgrimmar through the west gate.|M|11.45,67.06|Z|Orgrimmar|IZ|1454|
 C Samophlange Manual Pages|ACTIVE|3924|L|11148 5|QO|1|N|Make your way to Boulder Lode Mine. Kill Venture Co. Enforcers and Overseers to collect the pages.|S|
 C Miner's Fortune|QID|896|L|5097|N|The Cat's Eye Emerald drops from one of the Venture Co. Enforcers or Overseers.|S|
 R Boulder Lode Mine|ACTIVE|3924|M|63.66,4.43;62.74,4.75|CC|QO|1|N|Make your way along the river until the path widens. At this point, there is a short cut up the side of the hill into Boulder Lode Mine.|
@@ -545,8 +545,8 @@ N Rare Spawn Kill Quests|ACTIVE|907|AVAILABLE|883^884^885^897|N|Jorn Skyseer has
 A Lakota'mani|QID|883|N|From Hoof of Lakota'mani.|U|5099|O|
 A Owatanka|QID|884|N|From Owatanka's Tailspike.|U|5102|O|
 T Enraged Thunder Lizards|QID|907|M|44.86,59.14|N|To Jorn Skyseer back at Camp Taurajo.|
-t Lakota'mani|QID|883|M|44.86,59.14|N|To Jorn Skyseer.|IZ|Camp Taurajo|
-t Owatanka|QID|884|M|44.86,59.14|N|To Jorn Skyseer.|IZ|Camp Taurajo|
+t Lakota'mani|QID|883|M|44.86,59.14|N|To Jorn Skyseer.|IZ|378|
+t Owatanka|QID|884|M|44.86,59.14|N|To Jorn Skyseer.|IZ|378|
 A Cry of the Thunderhawk|QID|913|M|44.86,59.14|N|From Jorn Skyseer.|PRE|907|
 C Cry of the Thunderhawk|QID|913|L|5164|N|Kill a Thunderhawk and loot its wings. You will find them all around the outside edge of Camp Taurajo.|
 L Level 22|ACTIVE|2458^2478|N|You'll want to be within a bubble of level 22 before you return to Camp Taurajo.|LVL|21;-1950|R|Orc,Troll,Undead|C|Rogue|
@@ -567,9 +567,9 @@ A The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul in Cle
 C The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|QO|1|N|Target Shenthul and use the emote '/salute' to complete the quest.|T|Shenthul|R|Orc,Troll,Undead|C|Rogue|NC|
 T The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|N|To Shenthul.|R|Orc,Troll,Undead|C|Rogue|
 A Deep Cover|QID|2458|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul.|PRE|2460|R|Orc,Troll,Undead|C|Rogue|
-N Dagger|ACTIVE|2458^2478|N|Make sure you have an equipable dagger before you leave Orgrimmar. You'll need it for completing part of your class quest.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|R|Orc,Troll,Undead|C|Rogue|IZ|Orgrimmar|
-N Flash Powder|ACTIVE|2458^2478|M|42.2,49.6|Z|Orgrimmar|L|5140|N|Make sure you pick some up from Rekkul before you leave.|R|Orc,Troll,Undead|C|Rogue|IZ|Orgrimmar|
-R Southfury River|ACTIVE|2458^2478|M|11.45,67.06|Z|Orgrimmar|N|Leave Orgrimmar through the west gate.|R|Orc,Troll,Undead|C|Rogue|IZ|Orgrimmar|
+N Dagger|ACTIVE|2458^2478|N|Make sure you have an equipable dagger before you leave Orgrimmar. You'll need it for completing part of your class quest.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|R|Orc,Troll,Undead|C|Rogue|IZ|1454|
+N Flash Powder|ACTIVE|2458^2478|M|42.2,49.6|Z|Orgrimmar|L|5140|N|Make sure you pick some up from Rekkul before you leave.|R|Orc,Troll,Undead|C|Rogue|IZ|1454|
+R Southfury River|ACTIVE|2458^2478|M|11.45,67.06|Z|Orgrimmar|N|Leave Orgrimmar through the west gate.|R|Orc,Troll,Undead|C|Rogue|IZ|1454|
 R Venture Co. Tower|ACTIVE|2458^2478|M|62.29,7.77;56.59,6.42|CC|N|Make your way around the edge of the mountain to the tower.|R|Orc,Troll,Undead|C|Rogue|
 N Taskmaster Fizzule|ACTIVE|2458|AVAILABLE|2478|M|56.00,6.10|N|Target Taskmaster Fizzule and use the Flare gun to make him non-aggressive, or you won't be able to interact with him.\n[color=FF0000]NOTE: [/color]Check this step off when this is done.|T|Taskmaster Fizzule|U|8051|R|Orc,Troll,Undead|C|Rogue|
 T Deep Cover|QID|2458|M|55.44,5.59|N|To Taskmaster Fizzule. He paths around a bit.\n[color=FF0000]NOTE: [/color]You must target him and use '/salute' before he'll interact with you.|T|Taskmaster Fizzule|R|Orc,Troll,Undead|C|Rogue|
@@ -597,15 +597,15 @@ A Hinott's Assistance|QID|2480|M|61.63,19.19|Z|Hillsbrad Foothills|N|From Serge 
 T Hinott's Assistance|QID|2480|M|61.63,19.19|Z|Hillsbrad Foothills|N|Once Serge Hinott completes the cure, turn the quest in.|R|Orc,Troll,Undead|C|Rogue|
 U Hinott's Oil|AVAILABLE|-2480|ACTIVE|-2480|N|Use the Hinott's Oil to cure your Touch of Zanzil.|U|8095|R|Orc,Troll,Undead|C|Rogue|BUFF|-9991|
 * Hinott's Oil|AVAILABLE|-2480|ACTIVE|-2480|N|For whatever reason, you still have your Hinott's Oil. You can safely destroy this as it's no longer required.|U|8095|R|Orc,Troll,Undead|C|Rogue|BUFF|9991|
-H Camp Taurajo|AVAILABLE|-2480|ACTIVE|-2480|R|Orc,Troll,Undead|C|Rogue|IZ|Hillsbrad Foothills|
+H Camp Taurajo|AVAILABLE|-2480|ACTIVE|-2480|R|Orc,Troll,Undead|C|Rogue|IZ|1424|
 ; ---
 
 ; --- Ashenvale
-F Splintertree Post|ACTIVE|6382^235^742|M|45.13,63.90|Z|Orgrimmar|IZ|Orgrimmar|
-F Splintertree Post|ACTIVE|6382^235^742|M|44.44,59.15|IZ|Camp Taurajo|
+F Splintertree Post|ACTIVE|6382^235^742|M|45.13,63.90|Z|Orgrimmar|IZ|1454|
+F Splintertree Post|ACTIVE|6382^235^742|M|44.44,59.15|IZ|378|
 T The Ashenvale Hunt|QID|6382^235^742|M|73.77,61.46|Z|Ashenvale|N|To Senani Thunderheart.|
 A The Ashenvale Hunt|QID|6383|M|73.77,61.46|Z|Ashenvale|N|From Senani Thunderheart.|
-N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quests.\nAs the lowest level of the 3 quests does not grey until level 32 AND the mobs are WAY above our current level, we will not being doing it at this time.\n[color=FF0000]NOTE: [/color]This quest doesn't show in your log. It just unlocks the 3 quests (which don't show either).\nCheck this step off to continue.|IZ|Ashenvale|
+N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quests.\nAs the lowest level of the 3 quests does not grey until level 32 AND the mobs are WAY above our current level, we will not being doing it at this time.\n[color=FF0000]NOTE: [/color]This quest doesn't show in your log. It just unlocks the 3 quests (which don't show either).\nCheck this step off to continue.|IZ|1440|
 ; -- The quests are listed below for future reference
 ;C Shadumbra's Head|QID|24|Z|Ashenvale|N|Kill the cat, Shadumbra, for its head.|PRE|6383|
 ;C Sharptalon's Claw|QID|2|Z|Ashenvale|N|Kill the blue bird, Sharptalon, for its claw.|PRE|6383|

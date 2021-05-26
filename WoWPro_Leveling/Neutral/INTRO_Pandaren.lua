@@ -175,7 +175,7 @@ T Do No Evil|QID|29780|M|PLAYER|N|To Ji Firepaw, beside you.|
 C Monkey Advisory Warning|QID|29781|M|20.93,34.36|N|Collect the Stolen Firework Bundle from where Ruk-Ruk was, or elsewhere in the village.|US|
 T Monkey Advisory Warning|QID|29781|M|24.44,30.62|N|To Ji Firepaw.|
 K The Direct Solution|QID|29779|M|24.44,30.62|QO|1|N|Finish killing Fe-Fang Hozen. Ji Firepaw has a great AoE kick, so feel free to pull a few.|US|
-T The Direct Solution|QID|29779|N|[color=FF0000]NOTE: [/color]Do NOT turn this quest in yet. Ji Firepaw will stop helping you if you do.|IZ|Fe-Feng Village|
+T The Direct Solution|QID|29779|N|[color=FF0000]NOTE: [/color]Do NOT turn this quest in yet. Ji Firepaw will stop helping you if you do.|IZ|5831|
 T Stronger Than Bone|QID|29782|M|29.92,39.77|N|To Jojo Ironbrow.|
 T The Direct Solution|QID|29779|M|30.97,36.74|N|To Ji Firepaw at the dock. Once you leave Fe-Feng Village, he will despawn and be at this location.\n[color=FF0000]NOTE: [/color]Ji Firepaw will stop helping you once you've turned it in.|
 A Balanced Perspective|QID|29784|M|30.97,36.74|N|From Ji Firepaw.|PRE|29779&29780&29781&29782|

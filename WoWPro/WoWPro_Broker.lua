@@ -1995,7 +1995,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 				if tonumber(inzone) then
 					local _, mapID = WoWPro.GetZoneText()
 					inzone = tonumber(inzone)
-					if (subzonetext == _G.C_Map.GetAreaInfo(inzone)) then
+					if (subzonetext == _G.C_Map.GetAreaInfo(inzone) or zonetext == _G.C_Map.GetAreaInfo(inzone)) then
 						zonetext = inzone
 					else
 						zonetext = mapID

@@ -35,7 +35,7 @@ C Management Material|QID|13640|M|71.51,82.40|N|Talk to a Demoralized Peon and f
 T Management Material|QID|13640|M|72.93,80.44|N|To Gorka.|
 A Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|From Gorka.|PRE|13640|RANK|1|
 C Needs a Little Lubrication|QID|13651|M|74.25,73.56|N|Kill Rotting Slime until you have 5 Natural Oil.|
-K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Keep an eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|T|Sharptalon|S|IZ|The Dor'Danil Barrow Den|RANK|3|
+K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Keep an eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|T|Sharptalon|S|IZ|432|RANK|3|
 A Sharptalon's Claw|QID|2|M|PLAYER|N|From Sharptalon's Claw.|U|16305|O|
 T Needs a Little Lubrication|QID|13651|M|72.93,80.44|N|To Gorka.|
 A Crisis at Splintertree|QID|13653|M|72.93,80.44|N|From Gorka.|PRE|13651|RANK|1|
@@ -43,7 +43,7 @@ C Crisis at Splintertree|QID|13653|M|72.93,80.44|N|Speak to Gorka when you are r
 T Crisis at Splintertree|QID|13653|M|42.69,14.97|Z|Northern Barrens|N|To Kadrak.|
 A To the Rescue!|QID|13712|M|42.69,14.97|Z|Northern Barrens|N|From Kadrak.|PRE|13653|RANK|1|
 r Repair|ACTIVE|13712|M|42.38,14.97|Z|Northern Barrens|N|Speak with Ornag to repair/restock/unload, if necessary. Then check off this step.|
-F Splintertree Post|ACTIVE|13712|M|42.69,14.97|Z|Northern Barrens|N|Speak to Kadrak for a free ride to Splintertree Post.|IZ|The Mor'shan Ramparts|CHAT|
+F Splintertree Post|ACTIVE|13712|M|42.69,14.97|Z|Northern Barrens|N|Speak to Kadrak for a free ride to Splintertree Post.|IZ|1703|CHAT|
 f Splintertree Post|ACTIVE|13712|M|73.18,61.60|N|Get the flight point from Vhulgra.|TAXI|-Splintertree Post|
 T To the Rescue!|QID|13712|M|73.61,62.14|N|To Kadrak in Splintertree Post.|
 A Blood of the Weak|QID|13803|M|73.61,62.14|N|From Kadrak.|PRE|13712|RANK|1|
@@ -52,7 +52,7 @@ A Ashenvale Outrunners|QID|6503|M|73.56,60.86|N|From Kuray'bin.|RANK|1|
 A Destroy the Legion|QID|26448|M|73.17,60.11|N|From Valusha.|RANK|1|
 T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.20,57.65|CC|N|To Durak inside the Splintertree Mine.|
 A Pierce Their Heart!|QID|13805|M|72.20,57.65|N|From Durak.|PRE|13803|RANK|1|
-R Exit the mine|ACTIVE|13805|M|73.31,59.81|N|Head back outside the mine.|IZ|Splintertree Mine|
+R Exit the mine|ACTIVE|13805|M|73.31,59.81|N|Head back outside the mine.|IZ|4693|
 A Playing With Felfire|QID|13730|M|73.33,62.13|N|From Splintertree Demolisher.|PRE|13803|RANK|1|
 A Dead Elves Walking|QID|13801|M|73.86,62.47|N|From Pixel.|PRE|13803|RANK|1|
 K Ashenvale Outrunners|ACTIVE|6503|M|75.52,70.28|QO|1|N|Kill Ashenvale Outrunners while questing.|S|
@@ -85,10 +85,10 @@ A Dirty Deeds|QID|13797|M|72.20,57.65|N|From Durak.|PRE|13751|RANK|1|
 l Dirty Deeds|ACTIVE|13797|M|73.21,55.91|QO|1|N|Throughout the mine, search the piles of Fresh Rubble to find the Chunks of Ore.|
 T Dirty Deeds|QID|13797|M|72.20,57.65|N|To Durak.|
 A Rain of Destruction|QID|13798|M|72.20,57.65|N|From Durak.\n[color=FF0000]NOTE: [/color]You will receive an Imp disguise buff when you accept this quest.|PRE|13797|RANK|1|
-R Exit the mine|ACTIVE|13798|M|73.31,59.81|QO|1|N|Head back outside the mine.|IZ|Splintertree Mine|
+R Exit the mine|ACTIVE|13798|M|73.31,59.81|QO|1|N|Head back outside the mine.|IZ|4693|
 C Rain of Destruction|QID|13798|M|74.19,62.95|QO|1;2|N|Climb one of the two guard towers and use the Accursed Ore to target Elves and Ancients until complete.|U|45598|
 T Rain of Destruction|QID|13798|M|72.20,57.65|N|To Durak.|
-R Exit the mine|AVAILABLE|13841|M|73.31,59.81|N|Head back outside the mine.|IZ|Splintertree Mine|
+R Exit the mine|AVAILABLE|13841|M|73.31,59.81|N|Head back outside the mine.|IZ|4693|
 A All Apologies|QID|13841|M|73.33,62.13|N|From Splintertree Demolisher.|PRE|13798|RANK|1|
 R Demon Fall Canyon|ACTIVE|26449|M|84.21,72.25|N|Follow the road east out of Splintertree through Felfire Hill. Go south at the fork before the 2nd bridge.|
 K Gorgannon|ACTIVE|26449|M|87.41,78.98;89.57,76.78|CS|QO|1|N|Follow the waypoints to Gorgannon to kill him and loot the Sword.|
@@ -125,7 +125,7 @@ T Sheelah's Last Wish|QID|13873|M|89.59,48.67|N|To Guardian Gurtar at the Warson
 A Gurtar's Request|QID|13875|M|89.59,48.67|N|From Guardian Gurtar.|RANK|3|
 l Thorned Bloodcup|ACTIVE|13875|M|86.52,54.98|L|46315 8|N|These are tricky to see, but, you'll find the red flowers can be found on the ground all over the area of the camp.\n[color=FF0000]NOTE: [/color]'Find Herbs' does not work on them.|
 C Gurtar's Request|QID|13875|M|PLAYER|N|Use the Orc-Hair Braid to make the Bloodcup Braid.|U|46316|
-H Splintertree Post|ACTIVE|13875^13806^6441|M|73.51,63.51|N|If Hearthstone isn't ready, just run back to Splintertree Post.|IZ|-Splintertree Post|
+H Splintertree Post|ACTIVE|13875^13806^6441|M|73.51,63.51|N|If Hearthstone isn't ready, just run back to Splintertree Post.|IZ|-431|
 T Gurtar's Request|QID|13875|M|73.33,62.13|N|To Splintertree Demolisher.|
 T Demon Duty|QID|13806|M|73.77,61.62|N|To Locke Okarr.|
 T Satyr Horns|QID|6441|M|73.86,62.47|N|To Pixel.|
@@ -138,9 +138,9 @@ C Dread Head Redemption|QID|13842|M|72.20,57.65|N|Head back into the mine and an
 F Orgrimmar|ACTIVE|13842|M|73.18,61.60|N|Fly back to Orgrimmar.|
 R Grommash Hold|ACTIVE|13842|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
 T Dread Head Redemption|QID|13842|M|49.22,72.27|Z|Orgrimmar|N|To Eitrigg.| ; Completes Splintertree's Demonic Defense
-F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|IZ|Orgrimmar|
+F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|IZ|85|
 F Zoram'gar Outpost|ACTIVE|13848|M|73.18,61.60|N|Talk to Vhulgra for a free flight to Zoram'gar Outpost.|CHAT|
-f Zoram'gar Outpost|ACTIVE|13848|M|11.16,34.42|N|Get the flight point from Andruk.|TAXI|-Zoram'gar Outpost|IZ|Zoram'gar Outpost|
+f Zoram'gar Outpost|ACTIVE|13848|M|11.16,34.42|N|Get the flight point from Andruk.|TAXI|-Zoram'gar Outpost|IZ|2897|
 h Zoram'gar Outpost|AVAILABLE|13848|M|12.99,34.15|N|Set your hearth with Innkeeper Duras.|
 T Bad News Bear-er|QID|13848|M|12.10,33.85|N|Turn in to Commander Grimfang.|
 A Keep the Fires Burning|QID|13890|M|12.10,33.85|N|From Commander Grimfang.|RANK|1|
@@ -210,7 +210,7 @@ T Troll Charm|QID|6462|M|38.89,42.38|N|To Mitsuwa.|
 T Between a Rock and a Thistlefur|QID|216|M|37.76,43.49|N|To Karang Amakkar.|
 R Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Run to Silverwind Refuge.|TAXI|-Silverwind Refuge|FLY|OLD|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.88,65.78|N|From Blood Guard Aldo Rockrain.\n[color=FF0000]NOTE: [/color]Skip this if you don't plan on going to Stonetalon Mountains.\nDon't get on the caravan until you're ready to leave Ashenvale.|RANK|3|
-t Sharptalon's Claw|QID|2|M|49.75,65.08|N|To Senani Thunderheart.|IZ|Silverwind Refuge|
+t Sharptalon's Claw|QID|2|M|49.75,65.08|N|To Senani Thunderheart.|IZ|420|
 f Silverwind Refuge|ACTIVE|13974|M|49.29,65.25|N|Get flightpath from Wind Tamer Shosok.|TAXI|-Silverwind Refuge|
 F Splintertree Post|ACTIVE|6482|M|49.29,65.25|N|Fly to Splintertree Post.|
 T Freedom to Ruul|QID|6482|M|74.11,60.91|N|To Yama Snowhoof.|

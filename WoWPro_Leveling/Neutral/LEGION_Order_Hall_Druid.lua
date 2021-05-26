@@ -107,7 +107,7 @@ t Halls of Valor: Essence of Ferocity|QID|44075|M|44.57,50.12|N|To Keeper Remulo
 t Darkheart Thicket: Essence of Regrowth|QID|44076|M|44.57,50.12|N|To Keeper Remulos.|
 t Eye of Azshara: Essence of Balance|QID|44077|M|44.57,50.12|N|To Keeper Remulos.|
 ;lights heart intro questline
-P Dalaran|QID|44009|QO|1|M|56.51,43.13|N|Back to the outside world to continue leveling.|PRE|42585|IZ|The Dreamgrove|
+P Dalaran|QID|44009|QO|1|M|56.51,43.13|N|Back to the outside world to continue leveling.|PRE|42585|IZ|7846|
 A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|PRE|42516|
 C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
 C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
@@ -427,8 +427,8 @@ C Lyessa Must Survive|ACTIVE|41689|SO|4;2|M|61.21,26.36|Z|Mount Hyjal|N|Lyessa i
 C Give Corrupted G'Hanir to Lyessa|ACTIVE|41689|SO|5;1|M|60.55,25.48|Z|Mount Hyjal|NC|N|Click on Lyessa to give Corrupted G'Hanir to Lyessa.|
 C Witness G'Hanir's rebirth|ACTIVE|41689|SO|5;2|M|61.19,26.08|Z|Mount Hyjal|N|Use the button provided in your questlog to witness G'Hanir's rebirth.|EAB|
 C G'Hanir Reborn|ACTIVE|41689|SO|6;1|Z|Mount Hyjal|N|Pick up the staff.|
-P Mt. Hyjal Portal|ACTIVE|41689|M|55.74,29.9|Z|Mount Hyjal|N|Run back to the Emerald Dreamway|IZ|Nordrassil|
-P The Dreamway Portal|ACTIVE|41689|M|45.31,24.43|Z|EmeraldDreamway|N|Run through the portal.|IZ|Emerald Dreamway|
+P Mt. Hyjal Portal|ACTIVE|41689|M|55.74,29.9|Z|Mount Hyjal|N|Run back to the Emerald Dreamway|IZ|8091|
+P The Dreamway Portal|ACTIVE|41689|M|45.31,24.43|Z|EmeraldDreamway|N|Run through the portal.|IZ|7979|
 T Cleansing the Mother Tree|QID|41689|M|45.18,51.85|N|To Lyessa Bloomwatcher.|
 ;Druid Class Hall
 A Sowing The Seed|QID|41255|QO|1|M|44.50,51.10|N|From Rensar Greathoof.|PRE|40900^42430^41918^41689|
