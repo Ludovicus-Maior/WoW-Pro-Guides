@@ -260,5 +260,23 @@ F The Exodar|QID|9632|M|57.68,53.89|N|Fly to The Exodar.|
 ;A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|Z|The Exodar|N|From the Hero's Call Board. Will not show up if your level is too high.|
 A The Way to Auberdine|QID|9633|M|24.18,54.33|Z|Azuremyst Isle|N|From Huntress Kella Nightbow.|
 T The Way to Auberdine|QID|9633|M|37.40,40.15|Z|Darkshore|N|To Thundris Windweaver.|
+b Wetlands|AVAILABLE|65|M|32.42,43.74|N|Get on the boat to Menethil Harbor (read the sign post).|
+f Menethil Harbor|AVAILABLE|65|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|
+N Heading to Stormwind|AVAILABLE|65|N|From here we need to get to Ironforge and on to Stormwind City to grab the FPs for the other major cities and turn in a quest (if you found the book). You can follow the next steps to get there relatively quickly.|TAXI|-Ironforge|
+R Dun Morogh|AVAILABLE|65|M|32.0,6.4;17.7,16.4|CS|Z|Dun Morogh|N|Wait for the boat to set off, when it comes alongside land jump off and swim to shore.\nRun west along the coast until you arrive at the small bay visible on the Dun Morogh map.\nHead towards the shore in the bay until you see your zone change to Dun Morogh.|TAXI|-Ironforge|
+R Kharanos|AVAILABLE|65|M|17.9,17|Z|Dun Morogh|CN|N|Head into the water and whilst ensuring you are still in the Dun Morogh zone drown yourself|TAXI|-Ironforge|
+R Ironforge|AVAILABLE|65|M|47.40,41.80;54.2,34.40|CS|Z|Dun Morogh||N|Head out of Kharanos and up the hill towards Ironforge (you do not need to resurrect at the Spirit Healer)|TAXI|-Ironforge|
+R Deeprun Tram|AVAILABLE|65|M|78.20,52.00|Z|Ironforge|N|Take a right once inside Ironforge and zone into the Deeprun Tram to resurrect yourself|TAXI|-Ironforge|
+f Ironforge|AVAILABLE|65|M|55.49,47.72|Z|Ironforge|N|run back into Ironforge and grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|
+= Visit your class trainer before you leave.|AVAILABLE|125|M|69.89,82.96|Z|Ironforge|C|Hunter|
+= Visit your class trainer before you leave.|AVAILABLE|125|M|26.51,11.02|Z|Ironforge|C|Mage|
+= Visit your class trainer before you leave.|AVAILABLE|125|M|26.51,11.02|Z|Ironforge|C|Paladin|
+= Visit your class trainer before you leave.|AVAILABLE|125|M|26.51,11.02|Z|Ironforge|C|Priest|
+= Visit your class trainer before you leave.|AVAILABLE|125|M|67.96,85.97|Z|Ironforge|C|Warrior|
+= Visit your class trainer before you leave.|AVAILABLE|125|M|54.83,29.12|Z|Ironforge|C|Shaman|
+R Deeprun Tram|AVAILABLE|65|M|76.83,51.28|Z|Ironforge|N|Go to Tinker Town and zone into the Deeprun Tram.|
+R Stormwind City|AVAILABLE|65|N|Take the tram ride and then run into Stormwind.|
+f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
+h Stormwind City|QID|272|C|Druid|N|Head to the Innkeeper in the trade district and set your hearthstone|
 ]]
 end)
