@@ -107,9 +107,9 @@ local ZRL = _G.LibStub("LibBabble-SubZone-3.0"):GetReverseLookupTable(); -- zone
 function WoWPro.LocalizeZone(idx)
     local action = WoWPro.action[idx]
     if ZL and _G.GetLocale():sub(1, 2) ~= "en" and (action == "h" or action == "H" or action == "R" or action == "b" or action == "F" or action == "P") then
-        WoWPro.step[idx] = ZL[WoWPro.step[idx]] or WoWPro.step[idx]
+        WoWPro.step[idx] = ZL[(WoWPro.step[idx]):trim()] or WoWPro.step[idx]
         if WoWPro.targetzone[idx] then
-            WoWPro.targetzone[idx] = ZL[WoWPro.targetzone[idx]] or WoWPro.targetzone[idx]
+            WoWPro.targetzone[idx] = ZL[(WoWPro.targetzone[idx]):trim()] or WoWPro.targetzone[idx]
         end
     end
 end
