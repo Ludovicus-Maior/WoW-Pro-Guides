@@ -11,25 +11,7 @@ WoWPro:GuideSteps(guide, function() return [[
 ; This is a rewrite and homogenization of existing 19-25 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
 
 ; Darkshore Guide Synchronization Steps
-
-b Wetlands|AVAILABLE|125|M|32.42,43.74|N|Get on the boat to Menethil Harbor (read the sign post).|R|Draenei|
-f Menethil Harbor|AVAILABLE|125|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|R|Draenei|
-N Heading to Stormwind|AVAILABLE|125|N|From here we need to get to Ironforge and on to Stormwind City to grab the FPs for the other major cities and turn in a quest (if you found the book). You can follow the next steps to get there relatively quickly.|TAXI|-Ironforge|R|Draenei|
-R Dun Morogh|AVAILABLE|125|M|32.0,6.4;17.7,16.4|CS|Z|Dun Morogh|N|Wait for the boat to set off, when it comes alongside land jump off and swim to shore.\nRun west along the coast until you arrive at the small bay visible on the Dun Morogh map.\nHead towards the shore in the bay until you see your zone change to Dun Morogh.|TAXI|-Ironforge|R|Draenei|
-R Kharanos|AVAILABLE|125|M|17.9,17|Z|Dun Morogh|CN|N|Head into the water and whilst ensuring you are still in the Dun Morogh zone drown yourself|TAXI|-Ironforge|R|Draenei|
-R Ironforge|AVAILABLE|125|M|47.40,41.80;54.2,34.40|CS|Z|Dun Morogh||N|Head out of Kharanos and up the hill towards Ironforge (you do not need to resurrect at the Spirit Healer)|TAXI|-Ironforge|R|Draenei|
-R Deeprun Tram|AVAILABLE|125|M|78.20,52.00|Z|Ironforge|N|Take a right once inside Ironforge and zone into the Deeprun Tram to resurrect yourself|TAXI|-Ironforge|R|Draenei|
-f Ironforge|AVAILABLE|125|M|55.49,47.72|Z|Ironforge|N|run back into Ironforge and grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|R|Draenei|
-N Visit your class trainer before you leave.|AVAILABLE|125|M|69.89,82.96|Z|Ironforge|R|Draenei|C|Hunter|
-N Visit your class trainer before you leave.|AVAILABLE|125|M|26.51,11.02|Z|Ironforge|R|Draenei|C|Mage|
-N Visit your class trainer before you leave.|AVAILABLE|125|M|26.51,11.02|Z|Ironforge|R|Draenei|C|Paladin|
-N Visit your class trainer before you leave.|AVAILABLE|125|M|26.51,11.02|Z|Ironforge|R|Draenei|C|Priest|
-N Visit your class trainer before you leave.|AVAILABLE|125|M|67.96,85.97|Z|Ironforge|R|Draenei|C|Warrior|
-N Visit your class trainer before you leave.|AVAILABLE|125|M|54.83,29.12|Z|Ironforge|R|Draenei|C|Shaman|
-R Deeprun Tram|AVAILABLE|125|M|76.83,51.28|Z|Ironforge|N|Go to Tinker Town and zone into the Deeprun Tram.|R|Draenei|
-R Stormwind City|AVAILABLE|125|N|Take the tram ride and then run into Stormwind.|R|Draenei|
-
-f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|R|Draenei|
+f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
 h Stormwind City|QID|272|C|Druid|N|Head to the Innkeeper in the trade district and set your hearthstone|
 R Elwynn Forest|AVAILABLE|65|M|32.03,49.18|Z|Elwynn Forest|N|Make your way to the front gate.|TAXI|-Sentinel Hill|
 R Westfall|AVAILABLE|65|M|20.24,80.38|Z|Elwynn Forest|N|Make your way south to Westfall.|TAXI|-Sentinel Hill|
@@ -78,11 +60,11 @@ F Sentinel Hill|ACTIVE|141|U|6948|N|Fly or Hearth to Westfall|Z|Stormwind City|M
 T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|Westfall|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|Z|Westfall|
 A The People's Militia |QID|13|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|12|Z|Westfall|
-
+h Sentinel Hill|ACTIVE|65|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|C|Druid|
 
 C The Defias Brotherhood|ACTIVE|142|L|1381|S|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |Z|Westfall|T|Defias Messenger|M|45.59,64.99|
 C Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|L|2998|N|Loot the Compass from the chest at this location.|
-l Hops|QID|116|M|44.40,38.87|L|1274 5|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|Z|Westfall|
+l Hops|ACTIVE|116|M|44.40,38.87|L|1274 5|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|Z|Westfall|
 l Flasks of Oil|QID|103|M|44.40,38.87|L|814 5|N|Finish collecting the Flasks of Oil from the Harvesters at any of the farms in Westfall|Z|Westfall|
 C The People's Militia|QID|13|Z|Westfall|M|38.20,57.00;34.61,43.38|CN|QO|1;2|N|Kill Defias Looters and Pillagers until you finish this quest. If this area is overcamped, move to the Quarry or Moonbrook.|
 T The People's Militia|QID|13|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|Westfall|
