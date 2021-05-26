@@ -459,7 +459,7 @@ C Pages of History|QID|30002|M|55.70,59.95|N|Click on an Infested Book to releas
 T Moth-Ridden|QID|30001|M|56.27,60.43|N|To Lorewalker Stonestep.|
 A Everything In Its Place|QID|30004|M|56.27,60.43|N|From Lorewalker Stonestep.|PRE|30001&30002|
 T Pages of History|QID|30002|M|55.70,59.95|N|To Lorewalker Stonestep.|
-R Exit the Scrollkeeper's Sanctum|ACTIVE|29999|M|56.41,58.90|IZ|The Scrollkeeper's Sanctum|N|Go up the stairs and wind your way around the room until you reach the stairs going back down to the exit.|
+R Exit the Scrollkeeper's Sanctum|ACTIVE|29999|M|56.41,58.90|IZ|6118|N|Go up the stairs and wind your way around the room until you reach the stairs going back down to the exit.|
 C Emerald Serpent|QID|29999|M|56.51,58.44|QO|3|N|Click on the serpent to pick it up.\nIt moves around a bit, but always in the general vicinity.|NC|
 C The Scryer's Dilemma|QID|29997|M|56.79,55.84|N|Kill the water elementals until the staff drops.|
 T The Scryer's Dilemma|QID|29997|M|57.57,56.03|N|To Wise Mari.|

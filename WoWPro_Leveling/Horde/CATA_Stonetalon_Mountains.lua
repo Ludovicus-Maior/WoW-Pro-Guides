@@ -7,9 +7,9 @@ N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time
 N This guide starts in Orgrimmar|QID|25945^28532|M|PLAYER|N|This guide starts in Orgrimmar and heads to Ashenvale.|
 H Silverwind Refuge|ACTIVE|25945|M|49.67,59.24|Z|Orgrimmar|N|Hearth back to Silverwind Refuge. Fly/run if your Hearth is on CD.|
 R Silverwind Refuge|ACTIVE|-28352|AVAILABLE|25945|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|TAXI|-Silverwind Refuge|
-F Silverwind Refuge|ACTIVE|-28352|AVAILABLE|25945|M|49.67,59.24|Z|Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|Orgrimmar|
+F Silverwind Refuge|ACTIVE|-28352|AVAILABLE|25945|M|49.67,59.24|Z|Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|85|
 R Silverwind Refuge|ACTIVE|28352|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|TAXI|-Silverwind Refuge|FLY|OLD|
-F Silverwind Refuge|ACTIVE|28532|M|49.67,59.24|Z|Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|Orgrimmar|
+F Silverwind Refuge|ACTIVE|28532|M|49.67,59.24|Z|Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|85|
 T Warchief's Command: Stonetalon Mountains!|QID|28532|M|49.90,65.74|Z|Ashenvale|N|To Blood Guard Aldo Rockrain in Ashenvale.|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.90,65.74|Z|Ashenvale|N|From Blood Guard Aldo Rockrain.|RANK|1|
 R The Fold|QID|25945|M|48.55,66.44|Z|Ashenvale|N|Hop on the Krom'gar Wagon and enjoy the free ride.|V|
@@ -31,7 +31,7 @@ R Krom'gar Fortress|QID|26004|M|66.54,62.80|N|Run to Krom'gar Fortress.|FLY|OLD|
 f Krom'gar Fortress|QID|26004|M|66.53,62.75|N|Get the flight point.|
 h Krom'gar Fortress|QID|26004|M|66.48,64.24|N|If you like, set your hearth at Felonius Stark.|
 T Krom'gar Fortress|QID|26004|M|66.12,63.70|N|To Overlord Krom'gar.|
-A Seek and Destroy|QID|26009|M|66.12,63.70|N|From Overlord Krom'gar.\n[color=FF0000]NOTE: [/color]A daily Rep quest that is available until you complete 'To Be Horde...'\nSkip this step if don't wish to repeat it.|PRE|26004|REP|Orgrimmar;76|RANK|3|IZ|Krom'gar Fortress| ; There is some discrepancy as to when the Rep limits kick in, if there's any all.
+A Seek and Destroy|QID|26009|M|66.12,63.70|N|From Overlord Krom'gar.\n[color=FF0000]NOTE: [/color]A daily Rep quest that is available until you complete 'To Be Horde...'\nSkip this step if don't wish to repeat it.|PRE|26004|REP|Orgrimmar;76|RANK|3|IZ|4933| ; There is some discrepancy as to when the Rep limits kick in, if there's any all.
 A Ashes to Ashes|QID|26010|M|66.12,63.70|N|From Overlord Krom'gar.|PRE|26004|RANK|1|
 A Dream of a Better Tomorrow|QID|26026|M|66.13,64.23|N|From Clarissa.|PRE|26004|RANK|2|
 A Might of the Krom'gar|QID|28084|M|65.85,64.13|N|From the Krom'gar Quartermaster. The quartermaster will sell you items depending on your rank in the army. Your current rank is listed up in your buffs.|PRE|26004|RANK|2|
@@ -50,7 +50,7 @@ l BD-816 War Apparatus|ACTIVE|26026|M|63.05,45.65|QO|1|N|It's located on the pla
 K Cragjaw|ACTIVE|26043|M|65.52,47.31|QO|1|N|If you'd like to try to take on Cragjaw, drop into the water and swim over to him. He swims in a circle in the northeast corner of the lake.\n[color=FF0000]NOTE: [/color]Feel free to skip this quest if it's too hard and you can't find someone to help you.|
 H Krom'gar Fortress|QID|26011|M|64.49,62.26|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T Enemy of the Horde: Marshal Paltrow|QID|26011|M|65.77,63.31|N|To Spy-Mistress Anara, back at Krom'gar Fortress.|
-t BEWARE OF CRAGJAW!|QID|26043|M|65.77,63.31|N|To Spy-Mistress Anara.|IZ|Krom'gar Fortress|
+t BEWARE OF CRAGJAW!|QID|26043|M|65.77,63.31|N|To Spy-Mistress Anara.|IZ|4933|
 T Seek and Destroy|QID|26009|M|66.12,63.70|N|To Overlord Krom'gar.|
 T Ashes to Ashes|QID|26010|M|66.12,63.70|N|To Overlord Krom'gar.| ; Completes Storyline A Short-Lived Victory
 A Report to Bombgutz|QID|26020|M|66.12,63.70|N|From Overlord Krom'gar.|PRE|26010|RANK|1|
@@ -76,7 +76,7 @@ T Between a Rock and a Hard Place|QID|26046|M|67.10,64.56|N|Back to Scout Utvoch
 T And That's Why They Call Them Peons...|QID|26047|M|67.18,64.47|N|To Blastgineer Igore.|
 T I Got Your Parts Right Here...|QID|26045|M|67.14,64.52|N|To Sergeant Dontrag.|
 A Spare Parts Up In Here!|QID|26048|M|67.14,64.52|N|From Sergeant Dontrag.|PRE|26045&26046&26047|RANK|1|
-R Exit Deep Reaches|ACTIVE|26048|M|66.49,60.47|N|Make your way out of Deep Reaches.|IZ|The Deep Reaches|
+R Exit Deep Reaches|ACTIVE|26048|M|66.49,60.47|N|Make your way out of Deep Reaches.|IZ|4932|
 T Spare Parts Up In Here!|QID|26048|M|66.25,62.94|N|To Chief Blastgineer Bombgutz, back on top of the hill at Krom'gar Fortress.|
 A In Defense of Krom'gar Fortress|QID|26058|M|66.25,62.94|N|From Chief Blastgineer Bombgutz.|PRE|26048|RANK|1|
 C In Defense of Krom'gar Fortress|QID|26058|M|66.09,63.01|N|Right-click one of the guns to get in. Shoot down the flying machines and make sure to shoot the pilots after you destroy the machine. When you are done, you need to exit the gun manually.|
@@ -87,7 +87,7 @@ r Quartermaster|ACTIVE|26059|M|65.85,64.12|N|You've gone up a rank in the Krom'g
 F Malaka'jin|QID|26059|M|66.52,62.77|N|Fly to Malaka'jin.|TAXI|Malaka'jin|
 R Webwinder Path|ACTIVE|26059|M|60.96,71.09|N|Take the west ramp down and follow the 'road' south through Windshear Valley and out of Windshear Crag to Webwinder Path.|TAXI|-Malaka'jin|FLY|OLD|
 R Malaka'jin|ACTIVE|26059|M|70.51,87.49|N|Follow Webwinder Path south to Malaka'jin.\n[color=FF0000]NOTE: [/color]Just go around the barricade.|TAXI|-Malaka'jin|FLY|OLD|
-R Malaka'jin|QID|26059|M|70.51,87.49|N|Fly to Malaka'jin.|TAXI|-Malaka'jin|IZ|-Malaka'jin|
+R Malaka'jin|QID|26059|M|70.51,87.49|N|Fly to Malaka'jin.|TAXI|-Malaka'jin|IZ|-2539|
 f Malaka'jin|ACTIVE|26059|M|70.61,89.46|N|Get the Malaka'jin FP from Zillane./n(Access to him is from a path in the western corner of the village)|TAXI|-Malaka'jin|
 T Eyes and Ears: Malaka'jin|QID|26059|M|71.12,91.23|N|To Witch Doctor Jin'Zil.|
 A Da Voodoo: Stormer Heart|QID|26060|M|71.12,91.23|N|From Witch Doctor Jin'Zil.|PRE|26059|RANK|1|

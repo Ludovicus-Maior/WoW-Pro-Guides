@@ -173,8 +173,8 @@ P Oribos|ACTIVE|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Orib
 C Hopeful News|QID|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Night Fae|
 T Hopeful News|QID|62837|M|39.94,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Night Fae|
 A Flutterback|QID|62894|M|40.31,68.69|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|62837|COV|Night Fae|
-P Ring of Transference|ACTIVE|62894|M|49.55,60.83|Z|Ring of Transference@Oribos|IZ|-Heart of the Forest|N|Take the Teleporation Pad up to the Ring of Transference.|COV|Night Fae|
-F Heart of the Forest|ACTIVE|62894|M|60.59,68.98|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi.|IZ|Ring of Transference|COV|Night Fae|
+P Ring of Transference|ACTIVE|62894|M|49.55,60.83|Z|Ring of Transference@Oribos|IZ|-12858|N|Take the Teleporation Pad up to the Ring of Transference.|COV|Night Fae|
+F Heart of the Forest|ACTIVE|62894|M|60.59,68.98|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi.|IZ|1671|COV|Night Fae|
 T Flutterback|QID|62894|M|34.14,43.99|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
 A Recovered Souls|QID|62897|M|33.92,43.52|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|PRE|62894|COV|Night Fae|
 T Recovered Souls|QID|62897|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder.|COV|Night Fae|
@@ -506,9 +506,9 @@ C Rezan, Loa of Kings|QID|59856|M|45.80,85.03|Z|The Maw|QO|1|CHAT|N|Talk with Vo
 C Rezan, Loa of Kings|QID|59856|M|47.02,86.35|Z|The Maw|QO|2|N|Step into the barrier and kill Exhaurbius, once he dies there is a lot of dialog, you will continue to take damage so step out of the barrier while you wait and watch.|COV|Night Fae|
 T Rezan, Loa of Kings|QID|59856|M|45.80,85.03|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Parting Ways|QID|59866|PRE|59856|M|45.80,85.03|Z|The Maw|N|From Spirit of Vol'jin.|COV|Night Fae|REN|20|
-P Oribos|ACTIVE|59866|M|42.37,42.15|Z|The Maw|IZ|The Maw|NC|N|Hearth or Take the Waygate back to Oribos.|
-P Ring of Transference|ACTIVE|59866|M|52.07,57.86|Z|Ring of Fates@Oribos|IZ|Oribos|N|Take the portal to Ring of Transference.|COV|Night Fae|
-F Heart of the Forest|ACTIVE|59866|M|60.23,68.72|Z|Ring of Transference@Oribos|IZ|Oribos|N|Head to the flightmaster and take a flight to Heart of the Forest.|COV|Night Fae|
+P Oribos|ACTIVE|59866|M|42.37,42.15|Z|The Maw|IZ|1960|NC|N|Hearth or Take the Waygate back to Oribos.|
+P Ring of Transference|ACTIVE|59866|M|52.07,57.86|Z|Ring of Fates@Oribos|IZ|10565|N|Take the portal to Ring of Transference.|COV|Night Fae|
+F Heart of the Forest|ACTIVE|59866|M|60.23,68.72|Z|Ring of Transference@Oribos|IZ|10565|N|Head to the flightmaster and take a flight to Heart of the Forest.|COV|Night Fae|
 P The Canopy|ACTIVE|59866|M|53.96,38.73|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|IZ|-1703|N|Talk to Sparkledew to go see the Queen.|COV|Night Fae|
 C Parting Ways|QID|59866|M|51.04,30.60|Z|The Canopy@Heart of the Forest!Dungeon|CHAT|N|Speak with the Winter Queen and deliver the Loa to her.|COV|Night Fae|
 P The Trunk|ACTIVE|59866|M|36.21,63.74|Z|The Canopy@Heart of the Forest!Dungeon|IZ|1703|N|Talk to Shimmerwing to return to teh main foyer.|COV|Night Fae|
@@ -955,8 +955,8 @@ C I Dreamed A Dream|QID|58995|M|45.22,65.31|Z|Ardenweald!The Shadowlands|QO|1|CH
 C I Dreamed A Dream|QID|58995|M|45.28,65.62|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Click on the Vessel of Ardenweald.|COV|Kyrian|
 T I Dreamed A Dream|QID|58995|M|45.20,65.38|Z|Ardenweald!The Shadowlands|N|To Pelagos.|COV|Kyrian|
 A A Bittersweet Prize|QID|58997|PRE|58995|M|45.20,65.38|Z|Ardenweald!The Shadowlands|N|From Pelagos.|COV|Kyrian|
-R Heart of the Forest|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Make your way to the Refugee Camp or Hearth back to Elysian Hold if you are bound there.|IZ|-Elysian Hold|COV|Kyrian|
-F Elysian Hold|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Elysian Hold.|IZ|-Elysian Hold|COV|Kyrian|
+R Heart of the Forest|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Make your way to the Refugee Camp or Hearth back to Elysian Hold if you are bound there.|IZ|-1707|COV|Kyrian|
+F Elysian Hold|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Elysian Hold.|IZ|-1707|COV|Kyrian|
 T A Bittersweet Prize|QID|58997|M|55.36,42.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Heart of the Crest|QID|61135|PRE|58997|M|55.36,42.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 T Heart of the Crest|QID|61135|M|43.54,64.61|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Vessel at the Crest.|COV|Kyrian|
@@ -1018,8 +1018,8 @@ T Her Will, Inflicted|QID|57124|M|25.66,65.29|Z|The Maw|N|To Uther, just outside
 A Time to Reflect|QID|57125|PRE|57124|M|25.66,65.29|Z|The Maw|N|From Uther.|COV|Kyrian|
 C Time to Reflect|QID|57125|M|25.66,65.29|Z|The Maw|QO|1|CHAT|N|Speak to Kleia, to Fly to the Waystone.|COV|Kyrian|
 C Oribos|QID|57125|M|42.39,42.19|Z|The Maw|QO|2|NC|N|Use the Waystone to Oribos.|COV|Kyrian|
-P Ring of Transference|ACTIVE|57125|M|51.98,58.39|Z|Ring of Fates@Oribos|IZ|-Elysian Hold|N|Take the portal to Ring of Transference.|COV|Kyrian|
-F Elysian Hold|ACTIVE|57125|M|60.26,68.26|Z|Ring of Transference@Oribos|IZ|-Elysian Hold|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
+P Ring of Transference|ACTIVE|57125|M|51.98,58.39|Z|Ring of Fates@Oribos|IZ|-1707|N|Take the portal to Ring of Transference.|COV|Kyrian|
+F Elysian Hold|ACTIVE|57125|M|60.26,68.26|Z|Ring of Transference@Oribos|IZ|-1707|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Time to Reflect|QID|57125|M|55.48,42.49|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A A Touch of Humility|QID|62555|PRE|57125|M|55.48,42.49|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 C A Touch of Humility|QID|62555|M|45.16,56.85|Z|Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Tell Polemarch Adrestes, you are Ready to witness the empowering of the Crest of Ascension.|COV|Kyrian|
@@ -1032,8 +1032,8 @@ C Convene the Paragons|QID|58854|M|56.02,41.27|Z|Archon's Rise@Elysian Hold!Dung
 C Convene the Paragons|QID|58854|M|58.15,40.37|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2;3|NC|N|Enter Archon's Rise, as the Paragons arrive, to plan an Assualt.|COV|Kyrian|
 T Convene the Paragons|QID|58854|M|55.51,42.47|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Before the Dawn|QID|58844|PRE|58854|M|55.51,42.47|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
-F Aspirant's Rest|ACTIVE|58844|M|51.31,48.72|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|IZ|-The Temple of Purity|N|Head to the flightmaster and take a flight to Aspirant's Rest.\n\n Or you can use your gateway to go directly to the Temple of Purity if you have it unlocked.|COV|Kyrian|
-R Temple of Purity|ACTIVE|58844|M|60.04,73.49|Z|Bastion!The Shadowlands|QO|1|IZ|-The Temple of Purity|N|Run to the Temple of Purity.|COV|Kyrian|
+F Aspirant's Rest|ACTIVE|58844|M|51.31,48.72|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|IZ|-11014|N|Head to the flightmaster and take a flight to Aspirant's Rest.\n\n Or you can use your gateway to go directly to the Temple of Purity if you have it unlocked.|COV|Kyrian|
+R Temple of Purity|ACTIVE|58844|M|60.04,73.49|Z|Bastion!The Shadowlands|QO|1|IZ|-11014|N|Run to the Temple of Purity.|COV|Kyrian|
 C Before the Dawn|QID|58844|M|60.04,73.49|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Click on the bells, to restore the vespers then talk to Eridia, the Watchers' are needed for Battle.|COV|Kyrian|
 P Xandria's Vigil|ACTIVE|58844|M|59.43,77.12|Z|Bastion!The Shadowlands|QO|2|N|Take the Gateway to Xandria's Vigil if you have it unlocked, otherwise skip this step, mount up and proceed.|COV|Kyrian|
 C Before the Dawn|QID|58844|M|41.25,56.25|Z|Bastion!The Shadowlands|QO|2|NC|N|Talk to Apolon, the Bearers are needed for Battle.|COV|Kyrian|
@@ -1401,8 +1401,8 @@ C Face Your Fears|QID|60996|M|20.48,22.88|Z|Bastion!The Shadowlands|QO|3|N|Kill 
 T Face Your Fears|QID|60996|M|21.11,22.86|Z|Bastion!The Shadowlands|N|To General Draven.|COV|Venthyr|
 A The Prince's New Crown|QID|59233|PRE|60996|M|21.11,22.86|Z|Bastion!The Shadowlands|N|From General Draven.|COV|Venthyr|REN|13|
 H Sinfall|ACTIVE|59233|M|PLAYER|Z|Bastion!The Shadowlands|N|Hearth back to Sinfall or get back there by any other means you have.|COV|Venthyr|
-C The Prince's New Crown|QID|59233|M|21.12,22.87|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak to General Draven for a ride back down.|IZ|Bastion|COV|Venthyr|
-F Sinfall|ACTIVE|59233|M|44.07,32.45|Z|Bastion!The Shadowlands|N|Head to the flightmaster and take a flight to Sinfall.|IZ|Bastion|COV|Venthyr|
+C The Prince's New Crown|QID|59233|M|21.12,22.87|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak to General Draven for a ride back down.|IZ|1533|COV|Venthyr|
+F Sinfall|ACTIVE|59233|M|44.07,32.45|Z|Bastion!The Shadowlands|N|Head to the flightmaster and take a flight to Sinfall.|IZ|1533|COV|Venthyr|
 T The Prince's New Crown|QID|59233|M|51.82,37.71|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 
 ; Chapter 7
@@ -1506,7 +1506,7 @@ A To the Estate|QID|57729|PRE|60183|M|61.60,69.65|Z|Revendreth|N|From Prince Ren
 T To the Estate|QID|57729|M|71.93,68.86|Z|Revendreth|N|To Prince Renathal.|COV|Venthyr|
 A The Tithelord|QID|57646|PRE|57729|M|71.93,68.86|Z|Revendreth|N|From Prince Renathal.|COV|Venthyr|REN|20|
 C The Tithelord|QID|57646|M|77.79,70.18|Z|Revendreth|QO|1|N|Fight the Tithelord, this is a 3 phase battle.\n\nRoughly every 1/3 of his health he will shield and run the toward his manor.\n\nOnce he's been killed, look the Medallion of Envy.|COV|Venthyr|
-N The Tithelord|ACTIVE|57646|M|77.38,70.32|Z|Revendreth|IZ|-Sinfall|QO|2|V|N|Hop on Clemency Enforcer Traal for a free ride back to Sinfall. This is quick and will basically teleport you back to your Sanctum.|COV|Venthyr|
+N The Tithelord|ACTIVE|57646|M|77.38,70.32|Z|Revendreth|IZ|-1699|QO|2|V|N|Hop on Clemency Enforcer Traal for a free ride back to Sinfall. This is quick and will basically teleport you back to your Sanctum.|COV|Venthyr|
 T The Tithelord|QID|57646|M|51.87,37.70|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 
 ; Sidequest Storyline - Mirror Maker of the Master - From Revendreth guide (this is a PRE for chapter 8 and is available to everyone regardless of covenant.)
@@ -1550,20 +1550,20 @@ N Renown Level 22|AVAILABLE|58406|N|You must reach Renown level 22 to continue t
 A Mirror to Maldraxxus|QID|58406|M|51.73,37.59|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|57536|COV|Venthyr|REN|22|
 T Mirror to Maldraxxus|QID|58406|M|27.27,40.39|Z|Revendreth|N|Take the ramp and portal outside to the surface and make your way to Laurent.|COV|Venthyr|
 A The Medallion of Dominion|QID|58407|PRE|58406|M|27.42,40.34|Z|Revendreth|N|From General Draven.|COV|Venthyr|REN|22|
-P Maldraxxus|ACTIVE|58407|M|27.24,40.28|Z|Revendreth|IZ|Revendreth|N|Take the Portal to Maldraxxus.|COV|Venthyr|REN|22|
+P Maldraxxus|ACTIVE|58407|M|27.24,40.28|Z|Revendreth|IZ|1525|N|Take the Portal to Maldraxxus.|COV|Venthyr|REN|22|
 C Taking the Necropolis|ACTIVE|58407|M|74.10,34.84|Z|Maldraxxus!Instance1689|SO|1|N|Kill Necromancers until one discloses the location of Kel'Thuzad.|COV|Venthyr|
 C To the Skies!|ACTIVE|58407|M|73.62,33.80|Z|Maldraxxus!Instance1689|SO|2|N|Hop onto General Draven to assist him in clearing the skies of enemies.|COV|Venthyr|
 C Reanimating Your Allies|ACTIVE|58407|Z|Maldraxxus!Instance1689|SO|4|NC|N|Click on the giant crystals to reanimate your allies.|COV|Venthyr|
 C United in Battle|ACTIVE|58407|Z|Maldraxxus!Instance1689|SO|5|N|Use Action Ability "[color=40C7EB]Call General Draven[/color]" to help kill Maw Infernous.|EAB|COV|Venthyr|
-N Maldraxxus|ACTIVE|58407|M|68.52,30.02|Z|Maldraxxus!Instance1689|IZ|House of Rituals|SO|6;1|V|N|Jump onto the Stoneborn Legionnaire for a ride to the Necropolis.|COV|Venthyr|REN|22|
+N Maldraxxus|ACTIVE|58407|M|68.52,30.02|Z|Maldraxxus!Instance1689|IZ|13316|SO|6;1|V|N|Jump onto the Stoneborn Legionnaire for a ride to the Necropolis.|COV|Venthyr|REN|22|
 C The Medallion of Dominion|ACTIVE|58407|M|74.56,33.64|Z|Maldraxxus!Instance1689|SO|6;1|N|Fight Kel'Thuzad and recover the Medallion of Dominion.|COV|Venthyr|
 T The Medallion of Dominion|QID|58407|M|51.69,37.47|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 
 ;N Necrolord Campaign|QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Necrolord|
 ; Chapter 1
 A Taking The Seat|QID|58609|M|42.97,74.24|Z|Ring of Fates@Oribos|N|From Secutor Mevix.|COV|Necrolord|
-P Ring of Transference|ACTIVE|58609|M|52.08,57.83|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|IZ|Oribos|COV|Necrolord|
-F Bleak Redoubt|ACTIVE|58609|M|60.91,68.62|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Bleak Redoubt.|IZ|Oribos|COV|Necrolord|
+P Ring of Transference|ACTIVE|58609|M|52.08,57.83|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|IZ|10565|COV|Necrolord|
+F Bleak Redoubt|ACTIVE|58609|M|60.91,68.62|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Bleak Redoubt.|IZ|10565|COV|Necrolord|
 C Taking The Seat|QID|58609|M|60.91,68.62|Z|Ring of Transference@Oribos|QO|1|NC|N|Fly to the Bleak Redoubt in Maldraxxus.|COV|Necrolord|
 C Taking The Seat|QID|58609|M|51.28,20.15|Z|Seat of the Primus!Dungeon|QO|2|NC|N|Report to Baroness Draka in the Seat of the Primus.|COV|Necrolord|
 T Taking The Seat|QID|58609|M|49.52,21.86|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
@@ -1809,7 +1809,7 @@ T The Golden Dawn|QID|59894|M|50.39,70.56|Z|Maldraxxus|N|To Baroness Draka.|COV|
 
 ; Chapter 6
 A Machinations of War|QID|61586|PRE|59894|M|50.39,70.56|Z|Maldraxxus|N|From Baroness Draka.|COV|Necrolord|
-P Seat of the Primus|ACTIVE|61586|M|50.39,73.99|Z|Maldraxxus|IZ|Bleak Redoubt|N|Take the gate to Seat of the Primus.|COV|Necrolord|REN|-13|
+P Seat of the Primus|ACTIVE|61586|M|50.39,73.99|Z|Maldraxxus|IZ|11466|N|Take the gate to Seat of the Primus.|COV|Necrolord|REN|-13|
 C Renown Level 13|QID|61586|NC|N|You must reach Renown level 13 to continue to the next chapter.|COV|Necrolord|
 T Machinations of War|QID|61586|M|49.73,50.70|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Take The Fight To Them|QID|61145|PRE|61586|M|49.73,50.70|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|13|

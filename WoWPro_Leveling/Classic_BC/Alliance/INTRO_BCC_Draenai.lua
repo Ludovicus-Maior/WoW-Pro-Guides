@@ -102,7 +102,7 @@ C Medicinal Purpose|QID|9463|S|QO|1|Z|Azuremyst Isle|M|54,61|N|Kill and loot Roo
 C Medicinal Purpose|QID|9463|US|QO|1|Z|Azuremyst Isle|M|54,61|N|Kill and loot Root Trappers for the Vines.|T|Root Trapper|R|Draenei|
 C The Great Moongraze Hunt|QID|9454|S|QO|1|Z|Azuremyst Isle|M|54,61|N|Kill and loot Moongraze Stags for the Tenderloin.|T|Moongraze Stag|
 T Medicinal Purpose|QID|9463|Z|Azuremyst Isle|M|48.4,51.8|N|To Anchorite Fateema.|R|Draenei|
-T Bandits!|QID|9616|IZ|Azure Watch|M|47.10,50.59|N|To Exarch Menelaous.|
+T Bandits!|QID|9616|IZ|3576|M|47.10,50.59|N|To Exarch Menelaous.|
 A An Alternative Alternative|QID|9473|PRE|9463|Z|Azuremyst Isle|M|48.4,51.8|N|From Daedal.|R|Draenei|
 T The Great Moongraze Hunt|QID|9454|Z|Azuremyst Isle|M|49.8,51.9|N|To Acteon.|
 A The Great Moongraze Hunt|QID|10324|PRE|9454|Z|Azuremyst Isle|M|49.8,51.9|N|From Acteon.|

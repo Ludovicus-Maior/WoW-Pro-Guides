@@ -84,7 +84,7 @@ F Zoram'gar Outpost|QID|6442|M|73.23,61.58|Z|Ashenvale|N|Fly to Zoram'gar Outpos
 R Zoram'gar Outpost|QID|6442|N|Follow the road all the way to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.17,71.25;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CS|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
 f Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|
 A Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|From Marukai.|
-N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find from now on.|S!US|IZ|Ashenvale|
+N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find from now on.|S!US|IZ|1440|
 C Naga at the Zoram Strand|QID|6442|M|13.49,25.82|Z|Ashenvale|N|Kill Nagas for their Wrathtail Heads.|
 T Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|To Marukai.|
 

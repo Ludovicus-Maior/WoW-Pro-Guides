@@ -47,8 +47,8 @@ T The Elysian Fields|QID|62707|M|51.12,46.80|Z|Bastion!The Shadowlands|N|To Kali
 T The Elysian Fields|QID|63034|M|37.01,61.22|Z|1707|N|To Kalisthene.|TOF|
 A Bolstering Bastion|QID|62723|PRE|62707^63034|M|PLAYER|N|From Kalisthene.|TOF|
 l Bolstering Bastion|QID|62723|QO|1|M|51.12,46.80|Z|Bastion!The Shadowlands|S!US|N|Literally everything you do in Bastion counts towards this quest. You may [color=40C7EB]return[/color] to [color=40C7EB]Hero's Rest[/color], or [color=40C7EB]Elysian Hold[/color] if you're a member of the Kyrian, when this step closes|TOF|
-t Bolstering Bastion|QID|62723|M|37.01,61.22|Z|1707|N|To Kalisthene.|IZ|Elysian Hold|COV|Kyrian|TOF|;need proper coords. i appear to have lost some changes.
-t Bolstering Bastion|QID|62723|M|51.12,46.80|Z|Bastion!The Shadowlands|N|To Kalisthene.|IZ|Hero's Rest|TOF|
+t Bolstering Bastion|QID|62723|M|37.01,61.22|Z|1707|N|To Kalisthene.|IZ|1707|COV|Kyrian|TOF|;need proper coords. i appear to have lost some changes.
+t Bolstering Bastion|QID|62723|M|51.12,46.80|Z|Bastion!The Shadowlands|N|To Kalisthene.|IZ|11381|TOF|
 A Return to Oribos|QID|62729|PRE|62723|M|PLAYER|Z|Bastion!The Shadowlands|N|From Kalisthene.|TOF|
 F Oribos|ACTIVE|62729|M|50.96,49.08|Z|1707|N|At Cassius.|COV|Kyrian|TOF|
 F Oribos|ACTIVE|62729|M|51.36,46.80|Z|Bastion!The Shadowlands|N|At Navarros.|TOF|
@@ -402,8 +402,8 @@ A Steward at Work|QID|59197|M|52.83,47.88|Z|Bastion!The Shadowlands|N|From Kalis
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion!The Shadowlands|QO|1|NC|N|Use the new summon steward spell you just received.|MS|
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion!The Shadowlands|QO|2|CHAT|N|Talk to the Steward you summoned and ask him to fix the beacon.|MS|
 h Hero's Rest|ACTIVE|59197^62723^62729|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To shorten the run later, set your Hearth at Inkiep.|
-T You'll Never Walk Alone|QID|62170|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep|IZ|Hero's Rest|
-T Functioning Anima Core|QID|62200|M|51.12,46.79|Z|Bastion!The Shadowlands|N|To Kalisthene|IZ|Hero's Rest|
+T You'll Never Walk Alone|QID|62170|M|53.15,46.88|Z|Bastion!The Shadowlands|N|To Inkiep|IZ|11381|
+T Functioning Anima Core|QID|62200|M|51.12,46.79|Z|Bastion!The Shadowlands|N|To Kalisthene|IZ|11381|
 C Steward at Work|QID|59197|M|53.24,46.82|Z|Bastion!The Shadowlands|QO|3|NC|N|Click to activate the Beacon of Invocation.|MS|
 
 A WANTED: Gorgebeak|QID|60315|M|53.27,46.43|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
@@ -558,7 +558,7 @@ C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion!The Shadowlands|QO|2|CHAT|N|Ta
 C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion!The Shadowlands|QO|3|CHAT|N|Talk to Nemea.|
 C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion!The Shadowlands|QO|4|CHAT|N|Choose Phalynx or Larion.|
 T Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion!The Shadowlands|N|To Nemea.|
-H Hero's Rest|ACTIVE|60056^62723^62729|M|52.99,37.84|Z|Bastion!The Shadowlands|N|Hearth or otherwise make your way back to Hero's Rest.|IZ|Forgefire Outpost|
+H Hero's Rest|ACTIVE|60056^62723^62729|M|52.99,37.84|Z|Bastion!The Shadowlands|N|Hearth or otherwise make your way back to Hero's Rest.|IZ|12793|
 T WANTED: Darkwing|QID|60366|M|52.43,48.00|Z|Bastion!The Shadowlands|ELITE|N|To Eumelia.|
 T Functioning Anima Core|QID|62200|M|51.12,46.79|Z|Bastion!The Shadowlands|N|To Kalisthene.|
 
