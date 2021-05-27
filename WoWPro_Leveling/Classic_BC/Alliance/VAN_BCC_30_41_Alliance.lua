@@ -630,7 +630,7 @@ T The Lost Caravan|QID|1421|M|26.73,59.81|Z|Swamp of Sorrows|N|To Watcher Biggs.
 A Driftwood|QID|1398|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1421|
 C In Search of The Temple|QID|1448|M|65.00,48.00|Z|Swamp of Sorrows|NC|N|Swim east towards the temple if you need to complete this quest. Continue east after the quest update.|
 l Artisan Cooking|QID|1258|M|94.7,44.8;84.3,83.8|ACTIVE|1398|Z|Swamp of Sorrows|S|N|If you want to go beyond 225 cooking, collect the Zesty Clam Meat from clams that drop off crawlers.|P|Cooking;185;0+10;0|L|7974 10|
-C Driftwood|QID|1398|M|94.7,44.8;81.94,10.6|Z|Swamp of Sorrows|S|NC|N|Run south along the coast picking up driftwood.|
+C Driftwood|QID|1398|M|94.7,44.8;81.94,10.6|CN|Z|Swamp of Sorrows|S|NC|N|Run south along the coast picking up driftwood.|
 C ... and Bugs|QID|1258|M|94.7,44.8;81.94,10.6|CN|Z|Swamp of Sorrows|N|Kill Silt Crawlers. Monstorous Crawlers will work but they are too tough right now. Silts spawn on the northern half of the coast.|
 l Artisan Cooking|QID|1258|ACTIVE|1398|M|94.7,44.8;81.94,10.6|CN|Z|Swamp of Sorrows|US|N|Keep collecting if you want, there will be other opportunities later. Skip if you wan't to move on.|P|Cooking;185;0+10;0|L|7974 10|
 C Driftwood|QID|1398|M|94.7,44.8;81.94,10.6|CN|Z|Swamp of Sorrows|US|NC|N|Run north along the coast picking up driftwood.|
@@ -671,7 +671,7 @@ T Magical Analysis|QID|602|M|18.83,78.49|Z|Alterac Mountains|N|To Archmage Ansir
 A Ansirem's Key|QID|603|M|18.83,78.49|Z|Alterac Mountains|N|From Archmage Ansirem Runeweaver.|PRE|602|
 
 R Misty Shore|QID|537|M|23.86,50.60|Z|Alterac Mountains|N|Run up north toward the Misty Shore.|
-K Dark Council|ACTIVE|537|M|47.62,12.29;52.30,20.95;54.70,26.00;58,31.73|Z|Alterac Mountains|QO|1|S|N|Kill the Shadow Mages.|
+K Dark Council|ACTIVE|537|M|47.62,12.29;52.30,20.95;54.70,26.00;58,31.73|CN|Z|Alterac Mountains|QO|1|S|N|Kill the Shadow Mages.|
 C Noble Deaths|QID|512|Z|Alterac Mountains|S|N|Kill Syndicate in the area and loot their Signet Rings.|
 K Nagaz|ACTIVE|537|M|39.20,14.35|Z|Alterac Mountains|QO|2|N|Kill Nagaz and loot his head.|
 l The Ensorcelled Parchment|QID|551|M|39.18,14.66|Z|Alterac Mountains|NC|N|Click on the Worn Wooden Chest near Nagaz|L|3706|
