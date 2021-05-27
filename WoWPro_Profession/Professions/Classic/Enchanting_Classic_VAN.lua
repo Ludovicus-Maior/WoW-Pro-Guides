@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancENCH_Classic","Profession","Enchanting_Classic", "Blanckaert", "Neutral",1)
+local guide = WoWPro:RegisterGuide("BlancENCH_Classic", "Profession", "Enchanting_Classic", "WoWPro Team", "Neutral",1)
 WoWPro:GuideIcon(guide,"PRO",333)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Enchanting_Classic")
@@ -65,8 +65,12 @@ B [spell=13419/Enchant Cloak - Minor Agility]|QID|333000006|M|35.12,52.12|Z|Ashe
 B [spell=13419/Enchant Cloak - Minor Agility]|QID|333000006|M|48.69,61.52|Z|Stonetalon Mountains|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Kulwia in Sun Rock Retreat, Stonetalon Mountains (Limited Quantity)|FACTION|Horde|
 B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333000006|M|35.12,52.12|Z|Ashenvale|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Dalria in Astranaar, Ashenvale (Limited Quantity)|FACTION|Alliance|
 B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333000006|M|48.69,61.52|Z|Stonetalon Mountains|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Kulwia in Sun Rock Retreat, Stonetalon Mountains (Limited Quantity)|FACTION|Horde|
+B [spell=13945/Enchant Bracer - Greater Stamina]|QID|333000006|RECIPE|13945|L|11225 1|N|Search the Auction House for [item=11225/Formula: Enchant Bracer - Greater Stamina] - this is a WORLD DROP, but best to level Enchanting from 245 to 265 to even 285.|
+B [spell=25127/Lesser Mana Oil]|QID|333000006|M|52.0,39.6|Z|Silithus|RECIPE|25127|L|20754 1|N|Purchase [item=20754/Formula: Lesser Mana Oil] from Kania, in Cenarion Hold, Silithus. (But feel free to buy all you can)|
 B [spell=20017/Enchant Shield - Greater Stamina]|QID|333000006|M|64.08,37.39|Z|Undercity|P|Enchanting;333;0+1|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Daniel Bartlett in Undercity, with your Enchanter!|FACTION|Horde|
 B [spell=20017/Enchant Shield - Greater Stamina]|QID|333000006|M|58.09,34.16|Z|Darnassus|P|Enchanting;333;0+1|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Mythrin'dir in Darnassus, with your Enchanter!|FACTION|Alliance|
+B [spell=20051/Runed Arcanite Rod]|QID|333000006|M|48.2,40.0|Z|Moonglade|RECIPE|20051|N|Purchase [item=16243/Formula - Runed Arcanite Rod] from Lorelae Wintersong, in Moonglade. (Limited Quantity)|
+B [spell=20015/Enchant Cloak - Superior Defense]|QID|333000006|M|48.2,40.0|Z|Moonglade|RECIPE|20015|N|Purchase [item=16224/Formula - Enchant Cloak - Superior Defense] from Lorelae Wintersong, in Moonglade. (Limited Quantity)|
 
 N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more. To get the lists back, right click guide and click 'Reset Current Guide'.|
 
@@ -77,8 +81,6 @@ N Shopping List|QID|333000005|N|This completes the Shopping List, you may either
 
 M [item=6218/Runed Copper Rod]|QID|333007421|P|Enchanting;333;0+2;1|ITEM|6218|CRAFT|7421 1|MATS|6217 1;10940 1;10938 1|
 M Enchant Bracers - Minor Health|QID|333007420|P|Enchanting;333;0+50;1|CRAFT|7420 48|MATS|10940 1|N|Or Disenchant any Green Quality items you have, then use this to finish off to level 50.|
-	; classic says 7420, retail 7418, need to verify in classic if works, Item create 38679 might be different too
-
 = Learn [spell=7412/Enchanting]|QID|333007412|P|Enchanting;333;0+50|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from any Expert Enchanting Trainer, in Orgrimmar, Undercity, or Thunder Bluff.|FACTION|Horde|
 = Learn [spell=7412/Enchanting]|QID|333007412|P|Enchanting;333;0+50|SPELL|Enchanting;7412|LVL|10|N|Learn from any Expert Enchanting Trainer, in Stormwind City, Ironforge, Darnassus, or in Feralas.|FACTION|Alliance|
 = Learn Recipe|QID|333000501|P|Enchanting;333;0+50|RECIPE|7457|N|Learn [spell=7457/Enchant Bracers - Minor Stamina] Recipe from Trainer.|
@@ -117,6 +119,8 @@ M Enchant Bracer - Strength|QID|333013661|P|Enchanting;333;0+220;1|CRAFT|13661 2
 M Enchant Cloak - Greater Defense|QID|333013746|P|Enchanting;333;0+225;1|CRAFT|13746 5|MATS|11137 3|
 = Learn Recipe|QID|333002101|P|Enchanting;333;0+210|RECIPE|13815|N|Learn [spell=13815/Enchant Gloves - Agility] Recipe from Trainer.|
 = Learn Recipe|QID|333002151|P|Enchanting;333;0+215|RECIPE|13836|N|Learn [spell=13836/Enchant Boots - Stamina] Recipe from Trainer.|
+= Learn Recipe|QID|333002201|P|Enchanting;333;0+220|RECIPE|13858|N|Learn [spell=13858/Enchant Chest - Superior Health] Recipe from Trainer.|
+B [spell=13945/Enchant Bracer - Greater Stamina]|QID|333013945|RECIPE|13945|L|11225 1|N|Search the Auction House for [item=11225/Formula: Enchant Bracer - Greater Stamina] - this is a WORLD DROP, but best to level Enchanting from 245 to 265 to even 285.|
 l [item=11137/Vision Dust]|QID|333011137|SPELL|Enchanting;13920|L|11137 200|ITEM|11137|N|You'll need at least 200 Vision Dust.|
 l [item=11174/Lesser Nether Essence]|QID|333011174|SPELL|Enchanting;13920|L|11174 5|ITEM|11174|N|You'll need at least 5 Lesser Nether Essence, or 2 Greater Nether Essence.|
 N GOLD|QID|333013920|SPELL|Enchanting;13920|N|Make sure you have at least 12 gold to purchase ALL the recipes that Annora sells.|
@@ -129,18 +133,33 @@ M Enchant Gloves - Agility|QID|333013815|P|Enchanting;333;0+230;1|CRAFT|13815 5|
 = Learn Recipe|QID|333002302|P|Enchanting;333;0+230|RECIPE|13917|N|Learn [spell=13917/Enchant Chest - Superior Mana] Recipe from Trainer.|
 M Enchant Boots - Stamina|QID|333013836|P|Enchanting;333;0+235;1|CRAFT|13836 5|MATS|11137 5|
 = Learn Recipe|QID|333002351|P|Enchanting;333;0+235|RECIPE|13935|N|Learn [spell=13935/Enchant Boots - Agility] Recipe from Trainer.|
-= Learn Recipe|QID|333002401|P|Enchanting;333;0+240|RECIPE|13937|N|Learn [spell=13937/Enchant 2H Weapon - Greater Impact] Recipe from Trainer.|
-= Learn Recipe|QID|333002402|P|Enchanting;333;0+240|RECIPE|13939|N|Learn [spell=13939/Enchant Bracer - Greater Strength] Recipe from Trainer.|
-= Learn Recipe|QID|333002451|P|Enchanting;333;0+245|RECIPE|13941|N|Learn [spell=13941/Enchant Chest - Stats] Recipe from Trainer.|
-= Learn Recipe|QID|333002452|P|Enchanting;333;0+245|RECIPE|13943|N|Learn [spell=13943/Enchant Weapon - Greater Striking] Recipe from Trainer.|
-= Learn Recipe|QID|333002501|P|Enchanting;333;0+250|RECIPE|13948|N|Learn [spell=13948/Enchant Gloves - Minor Haste] Recipe from Trainer.|
-= Learn Recipe|QID|333002502|P|Enchanting;333;0+250|RECIPE|17180|N|Learn [spell=17180/Enchanted Thorium] Recipe from Trainer.|
-= Learn Recipe|QID|333002503|P|Enchanting;333;0+250|RECIPE|17181|N|Learn [spell=17181/Enchanted Leather] Recipe from Trainer.|
+M Enchant Chest - Superior Health|QID|333013858|P|Enchanting;333;0+250;1|CRAFT|13858 25|MATS|11137 6|
+= Learn Recipe|QID|333002401|P|Enchanting;333;0+240|IZ|Uldaman|RECIPE|13937|N|Learn [spell=13937/Enchant 2H Weapon - Greater Impact] Recipe from Annora, Master Enchanter in Uldaman Instance, in Badlands.|
+= Learn Recipe|QID|333002402|P|Enchanting;333;0+240|IZ|Uldaman|RECIPE|13939|N|Learn [spell=13939/Enchant Bracer - Greater Strength] Recipe from Annora, Master Enchanter in Uldaman Instance, in Badlands.|
+= Learn Recipe|QID|333002451|P|Enchanting;333;0+245|IZ|Uldaman|RECIPE|13941|N|Learn [spell=13941/Enchant Chest - Stats] Recipe from Annora, Master Enchanter in Uldaman Instance, in Badlands.|
+= Learn Recipe|QID|333002452|P|Enchanting;333;0+245|IZ|Uldaman|RECIPE|13943|N|Learn [spell=13943/Enchant Weapon - Greater Striking] Recipe from Annora, Master Enchanter in Uldaman Instance, in Badlands.|
+= Learn Recipe|QID|333002501|P|Enchanting;333;0+250|IZ|Uldaman|RECIPE|13948|N|Learn [spell=13948/Enchant Gloves - Minor Haste] Recipe from Annora, Master Enchanter in Uldaman Instance, in Badlands.|
+= Learn Recipe|QID|333002502|P|Enchanting;333;0+250|IZ|Uldaman|RECIPE|17180|N|Learn [spell=17180/Enchanted Thorium] Recipe from Annora, Master Enchanter in Uldaman Instance, in Badlands.|
+= Learn Recipe|QID|333002503|P|Enchanting;333;0+250|IZ|Uldaman|RECIPE|17181|N|Learn [spell=17181/Enchanted Leather] Recipe from Annora, Master Enchanter in Uldaman Instance, in Badlands.|
+N Annora|QID|333002504|IZ|Uldaman|N|Make sure you have LEARNED everything from Annora, before you leave!!|
+U Learn Recipe|QID|333013945|P|Enchanting;333;0+245|RECIPE|13945|U|11225|N|Learn [spell=13945/Enchant Bracer - Greater Stamina] Recipe from [item=11225/Formula: Enchant Bracer - Greater Stamina]|
+M Enchant Bracer - Greater Stamina|QID|333013945|P|Enchanting;333;0+265;1|CRAFT|13945 25|MATS|11176 5|N|Create this IF you got the Recipe, also the mats for this were NOT included in the shopping list. If you do not have this, Click to skip.|
+B [spell=25127/Lesser Mana Oil]|QID|333025127|M|52.0,39.6|Z|Silithus|RECIPE|25127|L|20754 1|N|Purchase [item=20754/Formula: Lesser Mana Oil] from Kania, in Cenarion Hold, Silithus. (But feel free to buy all you can)|
+U Learn Recipe|QID|333025157|P|Enchanting;333;0+250|RECIPE|25157|U|20754|N|Learn [spell=25127/Lesser Mana Oil] Recipe from [item=20754/Formula: Lesser Mana Oil]|
+M [item=20747/Lesser Mana Oil]|QID|333025127|P|Enchanting;333;0+265;1|CRAFT|25127 20|MATS|11176 3;8831 2;8925 1|N|You can make, to level 270 if you can find cheap Purple Lotus, and you'll also need more Vials.|
+B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|64.08,37.39|Z|Undercity|P|Enchanting;333;0+1|RECIPE|20017|L|16217 1|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Daniel Bartlett in Undercity, with your Enchanter!|FACTION|Horde|
+B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|58.09,34.16|Z|Darnassus|P|Enchanting;333;0+1|RECIPE|20017|L|16217 1|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Mythrin'dir in Old Darnassus, with your Enchanter!|FACTION|Alliance|
+U Learn Recipe|QID|333020017|P|Enchanting;333;0+265|RECIPE|20017|U|16217|N|Learn [spell=20017/Enchant Shield - Greater Stamina] Recipe from [item=16217/Formula: Enchant Shield - Greater Stamina].|
+M Enchant Shield - Greater Stamina|QID|333020017|P|Enchanting;333;0+294;1|CRAFT|20017 30|MATS|11176 10|
+B [spell=20015/Enchant Cloak - Superior Defense]|QID|333020015|M|48.2,40.0|Z|Moonglade|P|Enchanting;333;0+285|RECIPE|20015|L|16224 1|N|Purchase [item=16224/Formula - Enchant Cloak - Superior Defense] from Lorelae Wintersong, in Moonglade. (Limited Quantity)|
+B [spell=20051/Runed Arcanite Rod]|QID|333020051|M|48.2,40.0|Z|Moonglade|P|Enchanting;333;0+290|RECIPE|20051|L|16243 1|N|Purchase [item=16243/Formula - Runed Arcanite Rod] from Lorelae Wintersong, in Moonglade. (Limited Quantity)|
+U Learn Recipe|QID|333020015|P|Enchanting;333;0+285|RECIPE|20015|U|16224|N|Learn [spell=20015/Enchant Cloak - Superior Defense] Recipe from [item=16224/Formula - Enchant Cloak - Superior Defense].|
+U Learn Recipe|QID|333020051|P|Enchanting;333;0+290|RECIPE|20051|U|16242|N|Learn [spell=20051/Runed Arcanite Rod] Recipe from [item=16243/Formula - Runed Arcanite Rod].|
+B [item=16206/Arcanite Rod]|QID|333020051|ITEM|16206|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=12360/Arcanite Bar] x3, [item=12644/Dense Grinding Stone] x1|
+l [item=13926/Golden Pearl]|QID|333020051|ITEM|13926|N|You'll need 1 Golden Pearl, either from looting clams/fishing or purchase from the AH.|
+M [item=16207/Runed Arcanite Rod]|QID|333020051|P|Enchanting;333;0+295;1|ITEM|16207|CRAFT|20051 1|MATS|16206 1;13926 1;16204 10;16203 4;14343 4;14344 2|
+M Enchant Cloak - Superior Defense|QID|333020015|P|Enchanting;333;0+300;1|CRAFT|20051 5|MATS|16204 8|
 
-
-
-
-
-N Congratulations|QID|333000010|N|You've reached at least 300 in Vanilla Enchanting.|
+N Congratulations|QID|333000010|N|You've reached at least 300 in Classic Vanilla Enchanting.|
 ]]
 end)

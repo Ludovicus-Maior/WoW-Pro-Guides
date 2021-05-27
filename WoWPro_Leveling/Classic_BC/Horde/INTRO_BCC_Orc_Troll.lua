@@ -91,7 +91,7 @@ r Sell junk/reload|ACTIVE|794|M|42.59,67.34|N|At Duokna.\nRight-click this step 
 R Burning Blade Coven|ACTIVE|6394|M|45.31,56.57|N|Head back to the cave entrance you were just at.|
 C Burning Blade Medallion|QID|794|M|42.70,52.91|N|Take the right passage and continue over the stream to the first fork. At the fork, go to the right and head for the opening at the end of the tunnel. Kill Yarrog Baneshadow and loot the Burning Blade Medallion from him.|
 l Thazz'ril's Pick|QID|6394|M|43.73,53.79|QO|1|N|Drop off the ledge and make your way to the other side, atop the waterfall. Follow the stream to the pool at the top. On the far side of the pool, you'll find the Pick leaning against a spire.|
-R Exit cave|ACTIVE|6394|M|45.25,56.62|N|Make your way to the exit.|IZ|Burning Blade Coven|
+R Exit cave|ACTIVE|6394|M|45.25,56.62|N|Make your way to the exit.|IZ|365|
 T Thazz'ril's Pick|QID|6394|M|44.62,68.65|N|Return to Foreman Thazz'ril.|
 T Burning Blade Medallion|QID|794|M|42.85,69.15|N|To Zureetha Fargaze.|
 A Report to Sen'jin Village|QID|805|M|42.85,69.15|N|From Zureetha Fargaze.|PRE|794|
@@ -99,7 +99,7 @@ r Repair/Restock|QID|805|M|42.59,67.34|N|At Duokna.\nRight-click this step when 
 
 N Mage Trainer|QID|805|N|[color=FF0000]NOTE: [/color]Mai'ah (Valley of Trials) and Un'Thuwa (Sen'jin Village) are the only Mage trainers in Durotar. After level 6, Mai'ah will no longer train you. You either go to Orgrimmar, or you return to Sen'jin Village.|C|Mage|
 L Level 6|QID|805|N|You'll want to be level 6 before you leave Sen'jin. You won't be back here for a while and you'll want to do your level 6 training before leaving.\nGrind on your way to Sen'jin Village.|LVL|5;-225|C|Mage|S|
-R Exit Valley of Trials|ACTIVE|805|M|50.55,68.40|N|Follow the road east out of Valley of Trials.|IZ|Valley of Trials|
+R Exit Valley of Trials|ACTIVE|805|M|50.55,68.40|N|Follow the road east out of Valley of Trials.|IZ|363|
 R Sen'jin Village|ACTIVE|805|M|54.30,72.84|N|Continue east, taking the south road when you get to the road marker.|
 L Level 6|QID|805|N|You'll want to be level 6 before you leave Sen'jin. You won't be back here for a while and you'll want to do your level 6 training before leaving.\nGrind on your way to Sen'jin Village.|LVL|5;-225|C|Mage|US|
 T Report to Sen'jin Village|QID|805|M|55.95,74.72|N|To Master Gadrin.|
@@ -197,7 +197,7 @@ A Securing the Lines|QID|835|M|46.37,22.94|N|From Rezlak.|PRE|834|
 L Level 10|QID|837|N|You'll want to be level 10 when you turn in your next quest in Razor Hill. Grind on harpies until you are 2 bubbles from leveling.|LVL|9;-630|
 T Encroachment|QID|837|M|51.95,43.50|N|To Gar'Thok in Razor Hill.|
 
-= Train|QID|840|N|Go learn your level 10 skills/spells. Right-click this step off once you are done.|LVL|10|C|-Mage|IZ|Razor Hill|
+= Train|QID|840|N|Go learn your level 10 skills/spells. Right-click this step off once you are done.|LVL|10|C|-Mage|IZ|362|
 R Sen'jin Village|QID|840|M|54.33,72.91|N|Head to Sen'jin Village.|LVL|10|C|Mage|
 = Train|QID|840|N|Learn your level 10 spells. Right-click this step off once you are done.|LVL|10|C|Mage|
 R Razor Hill|QID|840|M|52.48,44.42|N|Return to Razor Hill.|LVL|10|C|Mage|
@@ -235,21 +235,21 @@ A Hidden Enemies|QID|5726|M|31.75,37.82|Z|Orgrimmar|N|From Thrall.|
 A Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|L|-4904|N|From Khorgan in the Cleft of Shadow.\n\n[color=FF0000]NOTE: [/color]As long as you pick up this quest, the 'Need for a Cure' timer is irrelevant.|
 
 ; --- locations of profession trainers in Orgrimmar
-N Cooking|ACTIVE|840|M|57.39,53.95|Z|Orgrimmar|N|Zamja, Cooking Trainer, The Drag - 2nd level.|P|Cooking;185;0;0|IZ|Orgrimmar|
-N Enchanting|ACTIVE|840|M|53.46,38.56|Z|Orgrimmar|N|Jhag, Journeyman Enchanter, The Drag.|P|Enchanting;333;0;0|IZ|Orgrimmar|
-N Leatherworking|ACTIVE|840|M|63.30,44.75|Z|Orgrimmar|N|Kamari, Journeyman Leatherworker, The Drag.|P|Leatherworking;165;0;0|IZ|Orgrimmar|
-N Skinning|ACTIVE|840|M|63.35,45.42|Z|Orgrimmar|N|Thuwd, Skinning Trainer, The Drag.|P|Skinning;393;0;0|IZ|Orgrimmar|
-N Tailoring|ACTIVE|840|M|62.93,49.26|Z|Orgrimmar|N|Snang, Journeyman Tailor, The Drag.|P|Tailoring;197;0;0|IZ|Orgrimmar|
-N Alchemy|ACTIVE|840|M|55.80,32.91|Z|Orgrimmar|N|Whuut, Journeyman Alchemist, The Drag.|P|Alchemy;171;0;0|IZ|Orgrimmar|
-N Herbalism|ACTIVE|840|M|55.61,39.46|Z|Orgrimmar|N|Jandi, Herbalism Trainer, The Drag - 2nd level.|P|Herbalism;182;0;0|IZ|Orgrimmar|
-N Mining|ACTIVE|840|M|73.12,26.08|Z|Orgrimmar|N|Makaru, Mining Trainer, Valley of Honor.|P|Mining;186;0;0|IZ|Orgrimmar|
-N Engineering|ACTIVE|840|M|75.95,24.18|Z|Orgrimmar|N|Thund, Journey Engineer, Valley of Honor.|P|Engineering;202;0;0|IZ|Orgrimmar|
-N Blacksmithing|ACTIVE|840|M|80.76,23.70|Z|Orgrimmar|N|Ug'thok, Journey Blacksmith, Valley of Honor.|P|Blacksmithing;164;0;0|IZ|Orgrimmar|
-N Fishing|ACTIVE|840|M|69.81,29.20|Z|Orgrimmar|N|Lumak, Fishing Trainer, Valley of Honor.|P|Fishing;356;0;0|IZ|Orgrimmar|
-N Weapon Masters|ACTIVE|840|M|81.70,19.53|Z|Orgrimmar|N|Sayoc and Hanashi in Valley of Honor.\nSayoc teaches bows, daggers, fist weapons, one & two-handed axes, and thrown weapons.\nHanashi teaches bows, one & two-handed axes, staves, and thrown weapons.|IZ|Orgrimmar|
-N Weapon Masters|ACTIVE|840|M|57,32|Z|Undercity|N|If you wish to learn swords, you'll have to take the Zepplin to Undercity. Archibald is in the War Quarter. He teaches crossbows, daggers, one & two handed swords and polearms.|IZ|Orgrimmar|
-N Weapon Masters|ACTIVE|840|M|40.94,62.74|Z|Thunder Bluff|N|If you wish to learn maces, you'll have to take the Zepplin to Thunder Bluff. Ansekwa is on the lower plateau. He teaches one & two handed maces, staves and guns.|IZ|Orgrimmar|
-N First Aid|ACTIVE|840|M|34.17,84.55|Z|Orgrimmar|N|Arnok, First Aid Trainer, The Valley of Spirits.|P|First Aid;129;0;0|IZ|Orgrimmar|
+N Cooking|ACTIVE|840|M|57.39,53.95|Z|Orgrimmar|N|Zamja, Cooking Trainer, The Drag - 2nd level.|P|Cooking;185;0;0|IZ|1454|
+N Enchanting|ACTIVE|840|M|53.46,38.56|Z|Orgrimmar|N|Jhag, Journeyman Enchanter, The Drag.|P|Enchanting;333;0;0|IZ|1454|
+N Leatherworking|ACTIVE|840|M|63.30,44.75|Z|Orgrimmar|N|Kamari, Journeyman Leatherworker, The Drag.|P|Leatherworking;165;0;0|IZ|1454|
+N Skinning|ACTIVE|840|M|63.35,45.42|Z|Orgrimmar|N|Thuwd, Skinning Trainer, The Drag.|P|Skinning;393;0;0|IZ|1454|
+N Tailoring|ACTIVE|840|M|62.93,49.26|Z|Orgrimmar|N|Snang, Journeyman Tailor, The Drag.|P|Tailoring;197;0;0|IZ|1454|
+N Alchemy|ACTIVE|840|M|55.80,32.91|Z|Orgrimmar|N|Whuut, Journeyman Alchemist, The Drag.|P|Alchemy;171;0;0|IZ|1454|
+N Herbalism|ACTIVE|840|M|55.61,39.46|Z|Orgrimmar|N|Jandi, Herbalism Trainer, The Drag - 2nd level.|P|Herbalism;182;0;0|IZ|1454|
+N Mining|ACTIVE|840|M|73.12,26.08|Z|Orgrimmar|N|Makaru, Mining Trainer, Valley of Honor.|P|Mining;186;0;0|IZ|1454|
+N Engineering|ACTIVE|840|M|75.95,24.18|Z|Orgrimmar|N|Thund, Journey Engineer, Valley of Honor.|P|Engineering;202;0;0|IZ|1454|
+N Blacksmithing|ACTIVE|840|M|80.76,23.70|Z|Orgrimmar|N|Ug'thok, Journey Blacksmith, Valley of Honor.|P|Blacksmithing;164;0;0|IZ|1454|
+N Fishing|ACTIVE|840|M|69.81,29.20|Z|Orgrimmar|N|Lumak, Fishing Trainer, Valley of Honor.|P|Fishing;356;0;0|IZ|1454|
+N Weapon Masters|ACTIVE|840|M|81.70,19.53|Z|Orgrimmar|N|Sayoc and Hanashi in Valley of Honor.\nSayoc teaches bows, daggers, fist weapons, one & two-handed axes, and thrown weapons.\nHanashi teaches bows, one & two-handed axes, staves, and thrown weapons.|IZ|1454|
+N Weapon Masters|ACTIVE|840|M|57,32|Z|Undercity|N|If you wish to learn swords, you'll have to take the Zepplin to Undercity. Archibald is in the War Quarter. He teaches crossbows, daggers, one & two handed swords and polearms.|IZ|1454|
+N Weapon Masters|ACTIVE|840|M|40.94,62.74|Z|Thunder Bluff|N|If you wish to learn maces, you'll have to take the Zepplin to Thunder Bluff. Ansekwa is on the lower plateau. He teaches one & two handed maces, staves and guns.|IZ|1454|
+N First Aid|ACTIVE|840|M|34.17,84.55|Z|Orgrimmar|N|Arnok, First Aid Trainer, The Valley of Spirits.|P|First Aid;129;0;0|IZ|1454|
 
 ; --- Class quests in Orgrimmar
 ; --- Mage
@@ -263,20 +263,20 @@ A The Shattered Hand|QID|1963|M|42.73,53.44|Z|Orgrimmar|N|From Therzok.|R|Orc,Tr
 T Gan'rul's Summons|QID|1506|M|48.25,45.29|Z|Orgrimmar|N|To Gan'rul Bloodeye.|R|Orc|C|Warlock|
 A Creature of the Void|QID|1501|M|48.20,45.70|Z|Orgrimmar|N|From Gan'rul Bloodeye.|PRE|1506|R|Orc|C|Warlock|
 ; ---
-R Leave Orgrimmar|ACTIVE|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|Orgrimmar|
+R Leave Orgrimmar|ACTIVE|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|1454|
 
 N Sword Training|ACTIVE|840|M|PLAYER|N|If you wish to start using swords, now is the best time to go learn the skill from Archibald in Undercity. The cost is 10 silver.\n[color=FF0000]NOTE: [/color]If you are not interested, then just skip the next few steps.|C|Rogue|
 b Tirisfal Glades|ACTIVE|840|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|C|Rogue|
 R Undercity|ACTIVE|840|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity and take the elevator down.|C|Rogue|
-N Archibald|ACTIVE|840|M|57.32,32.74|Z|Undercity|N|Make your way to Undercity's War Quarter inner ring.\n[color=FF0000]NOTE: [/color]Check this step off when you are done.|C|Rogue|IZ|Undercity|
-R Leave Undercity|ACTIVE|840|M|53.40,43.56;63.61,47.52;72.77,40.03;66.15,37.11;66.29,1.94|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|C|Rogue|IZ|Undercity|
-b Durotar|ACTIVE|840|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|C|Rogue|IZ|Tirisfal Glades|
+N Archibald|ACTIVE|840|M|57.32,32.74|Z|Undercity|N|Make your way to Undercity's War Quarter inner ring.\n[color=FF0000]NOTE: [/color]Check this step off when you are done.|C|Rogue|IZ|1458|
+R Leave Undercity|ACTIVE|840|M|53.40,43.56;63.61,47.52;72.77,40.03;66.15,37.11;66.29,1.94|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|C|Rogue|IZ|1458|
+b Durotar|ACTIVE|840|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|C|Rogue|IZ|1420|
 
 C Finding the Antidote|QID|813|ACTIVE|812|M|41.49,19.39|QO|1|N|Head back to the area around Rhinag and kill Venomtail Scorpids for their Venomtail Scorpid Sacs.|
 R Orgrimmar|ACTIVE|813|M|45.52,12.07|N|Head back to Orgrimmar.|
 R Cleft of Shadow|ACTIVE|813|M|47.24,53.58;51.75,57.85;56.03,41.16;59.91,49.37;51.26,46.39|Z|Orgrimmar|CC|
 T Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|N|Go back to Khorgan and turn in the quest for the Venomtail Antidote. If you lose the antidote, this quest is repeatable.|
-R Leave Orgrimmar|ACTIVE|812|M|56.73,41.96;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|Orgrimmar|
+R Leave Orgrimmar|ACTIVE|812|M|56.73,41.96;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|1454|
 A Need for a Cure|QID|812|M|41.54,18.60|N|From Rhinag.|FAIL|
 T Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
 
@@ -330,7 +330,7 @@ T Hidden Enemies|QID|5726|M|31.76,37.81|Z|Orgrimmar|N|To Thrall.|
 A Hidden Enemies|QID|5727|M|31.76,37.81|Z|Orgrimmar|N|From Thrall.|PRE|5726|
 R Cleft of Shadow|ACTIVE|829^832|M|40.00,53.30;42.19,57.30|Z|Orgrimmar|CC|N|Make your way to Cleft of Shadow.|
 T Neeru Fireblade|QID|829|M|49.48,50.58|Z|Orgrimmar|N|To Neeru Fireblade. He's in the hut beside the Ragefire Chasm portal.|
-t Burning Shadows|QID|832|ACTIVE|-829|M|49.48,50.58|Z|Orgrimmar|N|To Neeru Fireblade.|IZ|Orgrimmar|
+t Burning Shadows|QID|832|ACTIVE|-829|M|49.48,50.58|Z|Orgrimmar|N|To Neeru Fireblade.|IZ|1454|
 A Ak'Zeloth|QID|809|M|49.48,50.58|Z|Orgrimmar|N|From Neeru Fireblade.|PRE|829|
 C Hidden Enemies|QID|5727|M|49.48,50.58|Z|Orgrimmar|QO|1|N|Chat with Neeru Fireblade.|CHAT|
 R Grommash Hold|ACTIVE|5727|M|40.38,37.00|Z|Orgrimmar|N|Exit Cleft of Shadow and make your way back to Grommash Hold.|
@@ -338,7 +338,7 @@ T Hidden Enemies|QID|5727|M|31.76,37.81|Z|Orgrimmar|N|To Thrall.|
 ; Space breaks auto
 A Hidden Enemies |QID|5728|M|31.75,37.82|Z|Orgrimmar|ELITE|N|[color=E6CC80]Dungeon: Ragefire Chasm[/color]\nFrom Thrall.\nAccept this quest if you are planning on running the RFC dungeon. Otherwise, skip it.|PRE|5727|RANK|3|
 * Lieutenant's Insignia|AVAILABLE|-5727|N|You can safely destroy the Lieutenant's Insignia now.|U|14544|
-N Training/Shopping|ACTIVE|809|N|Make sure you do all of your training, shopping, etc. before leaving.|IZ|Orgrimmar|
+N Training/Shopping|ACTIVE|809|N|Make sure you do all of your training, shopping, etc. before leaving.|IZ|1454|
 R Leave Orgrimmar|ACTIVE|809|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
 
 R Far Watch Post|ACTIVE|809|M|37.58,16.21;36.04,23.69|CC|N|Make your way west to Southfury River and follow it south.\nIt's best if you don't cross the river right away. The mobs on the other side are level 15+.|

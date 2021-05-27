@@ -57,17 +57,17 @@ F Splintertree Post|AVAILABLE|6571|M|47.02,49.83|Z|Thunder Bluff|
 A Warsong Supplies|QID|6571|M|71.40,67.64|Z|Ashenvale|N|From Locke Okarr; by the south watchtower.|
 
 ; --- Silverpine Forest
-F Orgrimmar|AVAILABLE|437^443|M|73.18,61.59|Z|Ashenvale|N|Fly to Orgrimmar.|IZ|Ashenvale|
-h Orgrimmar|AVAILABLE|437^443|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|IZ|Orgrimmar|
+F Orgrimmar|AVAILABLE|437^443|M|73.18,61.59|Z|Ashenvale|N|Fly to Orgrimmar.|IZ|1440|
+h Orgrimmar|AVAILABLE|437^443|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|IZ|1454|
 b Tirisfal Glades|AVAILABLE|437^443|M|50.88,13.83|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
 ; --- If you don't have the FP in Undercity
 R Undercity|AVAILABLE|437^443|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|TAXI|-Undercity|
 f Undercity|AVAILABLE|437^443|M|63.26,48.54|Z|Undercity|N|Grab the flight path from Michael Garrett.|TAXI|-Undercity|
 ; If you have the FP in Sepulcher
 R Undercity|AVAILABLE|437^443|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|TAXI|Undercity|
-F The Sepulcher|AVAILABLE|437^443|M|63.26,48.54|Z|Undercity|TAXI|The Sepulcher|IZ|Undercity|
+F The Sepulcher|AVAILABLE|437^443|M|63.26,48.54|Z|Undercity|TAXI|The Sepulcher|IZ|1458|
 ; If you don't have the FP in Sepulcher
-R Leave Undercity|AVAILABLE|437^443|M|65.99,36.85;66.22,0.90|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|TAXI|-The Sepulcher|IZ|Undercity|
+R Leave Undercity|AVAILABLE|437^443|M|65.99,36.85;66.22,0.90|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|TAXI|-The Sepulcher|IZ|1458|
 ; --- If you don't have the FP in Sepulcher but do have the FP in Undercity (No point going in if you can't go anywhere)
 R Silverpine Forest|AVAILABLE|437^443|M|54.46,74.62|Z|Tirisfal Glades|N|Head over to the road and follow it south into Silverpine Forest.|TAXI|-The Sepulcher|
 R The Sepulcher|AVAILABLE|437^443|M|46.21,41.59|N|Head south until you reach the Sepulcher.|TAXI|-The Sepulcher|
@@ -86,7 +86,7 @@ T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.\nFollow the hi
 ; ---
 A Rot Hide Ichor|QID|443|M|43.43,40.86|Z|Silverpine Forest|N|From High Executor Hadrec inside the crypt.|PRE|439|
 R Fenris Isle|ACTIVE|443|M|52.34,37.21;58.75,35.43;64.79,34.60;65.63,32.89|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
-N A Talking Head|AVAILABLE|460|N|This item starts a side quest chain and is found by killing the Gnolls.\nIt has a 3% drop rate.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|RANK|3|IZ|Fenris Isle|S!US|
+N A Talking Head|AVAILABLE|460|N|This item starts a side quest chain and is found by killing the Gnolls.\nIt has a 3% drop rate.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|RANK|3|IZ|172|S!US|
 A Resting in Pieces|QID|460|N|Click on the 'Talking Head' to start the quest.\n[color=FF0000]NOTE: [/color]Do this as soon as you get it.|U|3317|O|
 C Rot Hide Ichor|QID|443|L|3236 8|N|Kill Rot Hide Gnolls for the Ichor.|S|
 T Resting in Pieces|QID|460|M|67.87,24.86|Z|Silverpine Forest|N|Click on the Shallow Grave to turn in the quest.|
@@ -115,13 +115,13 @@ T Report to Hadrec|QID|448|M|43.43,40.86|Z|Silverpine Forest|N|To High Executor 
 A Beren's Peril|QID|516|M|43.98,40.93|Z|Silverpine Forest|N|From Shadow Priest Allister.|
 A The Weaver|QID|480|M|43.98,40.93|Z|Silverpine Forest|N|From Shadow Priest Allister.|PRE|479|
 
-R Ambermill|ACTIVE|480|M|51.34,36.98;55.71,64.46|Z|Silverpine Forest|CC|N|Make your way to Ambermill.|IZ|Silverpine Forest|
+R Ambermill|ACTIVE|480|M|51.34,36.98;55.71,64.46|Z|Silverpine Forest|CC|N|Make your way to Ambermill.|IZ|1421|
 C The Weaver|QID|480|M|63.40,64.28|Z|Silverpine Forest|L|3515|N|Kill Ataeric and loot his staff.\n[color=FF0000]NOTE: [/color]You have to get past 2 Conjurers (plus their voidwalkers) and 2 Warders to get to Ataeric. You can aggro the mages one at a time. But, it's not easy. You may find a Dalaran Spellscribe (a non-elite rare spawn) in the room as well.\nMake sure you take out the Conjurer and Voidwalker that path in and out of the building. You'll be using the foyer to fight the mobs inside the room and you don't want them sneaking up on you.\n\nAtaeric won't stand still. He is a Frost mage who likes to keep his distance. If you don't clear the room, you'll end up fighting the entire room at the same time.|
-R Beren's Peril|ACTIVE|516|M|61.53,64.61;62.88,72.15;60.44,74.46;60.54,73.35|Z|Silverpine Forest|CC|N|Exit the building and follow the road south out of Ambermill. Stick to the mountains on the east side (right) and follow them around the bend.|IZ|Silverpine Forest|
-R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way to the cave entrance.|IZ|Silverpine Forest|
+R Beren's Peril|ACTIVE|516|M|61.53,64.61;62.88,72.15;60.44,74.46;60.54,73.35|Z|Silverpine Forest|CC|N|Exit the building and follow the road south out of Ambermill. Stick to the mountains on the east side (right) and follow them around the bend.|IZ|1421|
+R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way to the cave entrance.|IZ|1421|
 K Beren's Peril|ACTIVE|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|
-R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way back to the cave entrance.|IZ|Silverpine Forest|
-R The Greymane Wall|QID|530|M|59.70,77.90;53.67,72.47;51.10,72.45;46.89,83.45|Z|Silverpine Forest|CC|N|Exit the cave and head back to the road. Follow the road west to the first intersection and continue west to the next intersection. From here, go south to The Greymane Wall.|IZ|Silverpine Forest|
+R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way back to the cave entrance.|IZ|1421|
+R The Greymane Wall|QID|530|M|59.70,77.90;53.67,72.47;51.10,72.45;46.89,83.45|Z|Silverpine Forest|CC|N|Exit the cave and head back to the road. Follow the road west to the first intersection and continue west to the next intersection. From here, go south to The Greymane Wall.|IZ|1421|
 C A Husband's Revenge|QID|530|M|46.06,85.64|Z|Silverpine Forest|L|3613|N|Kill Valdred Moray and loot his hands. He paths back and forth in front of the gate.|
 R Hillsbrad Foothills|ACTIVE|1065|M|51.10,72.45;53.67,72.47;67.00,80.28|Z|Silverpine Forest|CC|N|Head back to the main road. Continue east on the main road to the Silverpine Forest/Hillsbrad Foothills border.|
 
@@ -138,9 +138,9 @@ T Time To Strike|QID|494|M|62.28,20.25|Z|Hillsbrad Foothills|N|To High Executor 
 A Battle of Hillsbrad|QID|527|M|62.28,20.25|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 A WANTED: Syndicate Personnel|QID|549|M|62.62,20.73|Z|Hillsbrad Foothills|N|From the Wanted post beside the Chapel entrance.|
 A The Rescue|QID|498|M|63.20,20.66|Z|Hillsbrad Foothills|N|From Krusk.|
-C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears for their Tongue.|S|IZ|-Durnholde Keep|
-C Kill Moss Creepers|QID|496|L|3477 1|N|Kill Moss Creepers for the Creeper Ichor.\nThis shouldn't take long.|S|IZ|-Durnholde Keep|
-C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions for vials of their blood.|S|IZ|-Durnholde Keep|
+C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears for their Tongue.|S|IZ|-275|
+C Kill Moss Creepers|QID|496|L|3477 1|N|Kill Moss Creepers for the Creeper Ichor.\nThis shouldn't take long.|S|IZ|-275|
+C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions for vials of their blood.|S|IZ|-275|
 R Durnholde Keep|ACTIVE|498|M|76.08,47.11|Z|Hillsbrad Foothills|N|Make your way to the Durnholde Keep entrance.|
 C WANTED: Syndicate Personnel|QID|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|S|
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|S|
@@ -208,7 +208,7 @@ K XT:9|ACTIVE|1068|QO|2|N|Kill XT:9. It patrols the south side of the river.|T|X
 U The Flying Machine Airport|QID|1086|M|66.48,45.40|U|5638|N|Place the Toxic Fogger here.|
 C Gerenzo Wrenchwhistle|QID|1096|M|70.40,40.93;67.99,37.79;64.61,37.96;62.84,40.49|CS|L|5736|N|Make your way to the path leading up to the structure. Once you are there, work your way over to where Gerenzo is and kill him to loot his arm.|
 ;L Level 25
-N Shortcut down|ACTIVE|1096|N|Jump into the water and swim to shore.|IZ|
+N Shortcut down|ACTIVE|1096|N|Jump into the water and swim to shore.|
 K XT:4|ACTIVE|1068|QO|1|N|Kill XT:4. It patrols the north side of the river.|T|XT:4|US|
 K XT:9|ACTIVE|1068|QO|2|N|Kill XT:9. It patrols the south side of the river.|T|XT:9|US|
 T Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.57|N|To Ziz Fizziks.|

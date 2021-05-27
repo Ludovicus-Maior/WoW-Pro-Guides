@@ -33,7 +33,7 @@ A Supply and Demand|QID|26343|M|43.62,23.42|N|From Drizzlik.|
 T Krazek's Cookery|QID|26740|M|43.60,23.14|N|To Krazek at Nesingwary's Expedition.|
 A Venture Company Mining|QID|26763|M|43.60,23.14|N|From Krazek.|PRE|26740|
 C The Green Hills of Stranglethorn|QID|26269|M|42.30,21.81|N|This can looted from any of the beast in the area.|S!US|
-t The Green Hills of Stranglethorn|QID|26269|M|44.24,22.13|N|To Barnil Stonepot.|IZ|Nesingwary's Expedition|
+t The Green Hills of Stranglethorn|QID|26269|M|44.24,22.13|N|To Barnil Stonepot.|IZ|100|
 C Tiger Hunting|QID|185|M|41.45,23.37|N|Kill Young Stranglethorn Tigers until complete.|S|
 C Supply and Demand|QID|26343|M|39.01,19.45|N|Follow the river west, kill and loot the River Crocolisk.|
 C Tiger Hunting|QID|185|M|41.45,23.37|N|Kill Young Stranglethorn Tigers until complete.|US|

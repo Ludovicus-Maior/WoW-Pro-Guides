@@ -145,7 +145,7 @@ A The Fate of Morbent Fel|QID|26723|M|18.35,58.06|N|From Sven Yorgen.|PRE|26760|
 A The Cries of the Dead|QID|26778|M|20.03,57.81|N|From Sister Eisington.|PRE|26760|
 C The Cries of the Dead|QID|26778|N|Kill any type of Ghoul you see.\n[color=FF0000]NOTE: [/color]Don't stick around if you kill a plague Spreader or Rotting Horror. They cast Corpse Rot; an AoE that lasts 10 seconds.|S|
 C The Fate of Morbent Fel|QID|26723|M|16.97,33.36|N|Head upstairs into the main room and click on the Bloodsoaked Hat that is on the floor inside.|NC|
-N Mor'Ladim|ACTIVE|26723|IZ|Forlorn Rowe|N|[color=FF0000]NOTE: [/color]Keep an eye out for Mor'Ladim. He is an Elite that patrols the road in front of the house and hits extremely hard. Exit the house cautiously and be prepared to defend yourself. You cannot see him if he's out front.|
+N Mor'Ladim|ACTIVE|26723|IZ|243|N|[color=FF0000]NOTE: [/color]Keep an eye out for Mor'Ladim. He is an Elite that patrols the road in front of the house and hits extremely hard. Exit the house cautiously and be prepared to defend yourself. You cannot see him if he's out front.|
 A The Weathered Grave|QID|26793|M|17.72,29.10|N|From "A Weathered Grave".|
 C Bear In Mind|QID|26787|M|13.48,53.07|N|As you head back towards Raven Hill, go through area to the west (river) of the cemetary and finish killing and looting Coalpelt (Black) Bears for their brains.\nDon't worry about the ghouls, you'll get more opportunity later.|US|
 T The Fate of Morbent Fel|QID|26723|M|18.34,58.05|N|To Sven Yorgen.|

@@ -12,8 +12,25 @@ WoWPro:GuideSteps(guide, function() return [[
 
 ; Darkshore Guide Synchronization Steps
 
-h Stormwind City|QID|272|C|Druid|N|Head to the Innkeeper in the trade district and set your hearthstone|
+b Wetlands|AVAILABLE|125|M|32.42,43.74|N|Get on the boat to Menethil Harbor (read the sign post).|R|Draenei|
+f Menethil Harbor|AVAILABLE|125|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|R|Draenei|
+N Heading to Stormwind|AVAILABLE|125|N|From here we need to get to Ironforge and on to Stormwind City to grab the FPs for the other major cities and turn in a quest (if you found the book). You can follow the next steps to get there relatively quickly.|TAXI|-Ironforge|R|Draenei|
+R Dun Morogh|AVAILABLE|125|M|32.0,6.4;17.7,16.4|CS|Z|Dun Morogh|N|Wait for the boat to set off, when it comes alongside land jump off and swim to shore.\nRun west along the coast until you arrive at the small bay visible on the Dun Morogh map.\nHead towards the shore in the bay until you see your zone change to Dun Morogh.|TAXI|-Ironforge|R|Draenei|
+R Kharanos|AVAILABLE|125|M|17.9,17|Z|Dun Morogh|CN|N|Head into the water and whilst ensuring you are still in the Dun Morogh zone drown yourself|TAXI|-Ironforge|R|Draenei|
+R Ironforge|AVAILABLE|125|M|47.40,41.80;54.2,34.40|CS|Z|Dun Morogh||N|Head out of Kharanos and up the hill towards Ironforge (you do not need to resurrect at the Spirit Healer)|TAXI|-Ironforge|R|Draenei|
+R Deeprun Tram|AVAILABLE|125|M|78.20,52.00|Z|Ironforge|N|Take a right once inside Ironforge and zone into the Deeprun Tram to resurrect yourself|TAXI|-Ironforge|R|Draenei|
+f Ironforge|AVAILABLE|125|M|55.49,47.72|Z|Ironforge|N|run back into Ironforge and grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|R|Draenei|
+N Visit your class trainer before you leave.|AVAILABLE|125|M|69.89,82.96|Z|Ironforge|R|Draenei|C|Hunter|
+N Visit your class trainer before you leave.|AVAILABLE|125|M|26.51,11.02|Z|Ironforge|R|Draenei|C|Mage|
+N Visit your class trainer before you leave.|AVAILABLE|125|M|26.51,11.02|Z|Ironforge|R|Draenei|C|Paladin|
+N Visit your class trainer before you leave.|AVAILABLE|125|M|26.51,11.02|Z|Ironforge|R|Draenei|C|Priest|
+N Visit your class trainer before you leave.|AVAILABLE|125|M|67.96,85.97|Z|Ironforge|R|Draenei|C|Warrior|
+N Visit your class trainer before you leave.|AVAILABLE|125|M|54.83,29.12|Z|Ironforge|R|Draenei|C|Shaman|
+R Deeprun Tram|AVAILABLE|125|M|76.83,51.28|Z|Ironforge|N|Go to Tinker Town and zone into the Deeprun Tram.|R|Draenei|
+R Stormwind City|AVAILABLE|125|N|Take the tram ride and then run into Stormwind.|R|Draenei|
 
+f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|R|Draenei|
+h Stormwind City|QID|272|C|Druid|N|Head to the Innkeeper in the trade district and set your hearthstone|
 R Elwynn Forest|AVAILABLE|65|M|32.03,49.18|Z|Elwynn Forest|N|Make your way to the front gate.|TAXI|-Sentinel Hill|
 R Westfall|AVAILABLE|65|M|20.24,80.38|Z|Elwynn Forest|N|Make your way south to Westfall.|TAXI|-Sentinel Hill|
 F Sentinel Hill|AVAILABLE|65|M|66.29,62.13|Z|Stormwind City|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
@@ -48,7 +65,7 @@ C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|CN|L|10958|N|Loot the nec
 C The Lost Tools|QID|125|M|41.60,54.70|L|1309|N|Loot the tools from the chest at the bottom of the lake.|Z|Redridge Mountains|
 T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|Z|Redridge Mountains|
 T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|Z|Redridge Mountains|
-F Sentinel Hill|AVAILABLE|65|M|30.59,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|Z|Redridge Mountains|
+F Sentinel Hill|ACTIVE|132|M|30.59,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|Z|Redridge Mountains|
 
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|PRE|132|
@@ -62,20 +79,19 @@ T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|Westfall|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|Z|Westfall|
 A The People's Militia |QID|13|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|12|Z|Westfall|
 
-C Flask of Oil|AVAILABLE|103|L|814 5|S|N|Kill any Harvests to collect Flasks of Oil.|Z|Westfall|
-C Hops|ACTIVE|116|L|1274 5|S|N|Kill any Harvesters to collect Hops.|Z|Westfall|
-C The Defias Brotherhood|ACTIVE|142|L|1381|S|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |Z|Westfall|
+
+C The Defias Brotherhood|ACTIVE|142|L|1381|S|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |Z|Westfall|T|Defias Messenger|M|45.59,64.99|
 C Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|L|2998|N|Loot the Compass from the chest at this location.|
-K Hops|ACTIVE|116|L|1274 5|US|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|Z|Westfall|
-K Flasks of Oil|AVAILABLE|103|M|46.40,66.61|L|814 5|US|N|Finish collecting the Flasks of Oil from the Harvesters at any of the farms in Westfall|Z|Westfall|
+l Hops|QID|116|M|44.40,38.87|L|1274 5|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|Z|Westfall|
+l Flasks of Oil|QID|103|M|44.40,38.87|L|814 5|N|Finish collecting the Flasks of Oil from the Harvesters at any of the farms in Westfall|Z|Westfall|
 C The People's Militia|QID|13|Z|Westfall|M|38.20,57.00;34.61,43.38|CN|QO|1;2|N|Kill Defias Looters and Pillagers until you finish this quest. If this area is overcamped, move to the Quarry or Moonbrook.|
 T The People's Militia|QID|13|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|Westfall|
 A The People's Militia|QID|14|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|13|Z|Westfall|
 R Moonbrook|ACTIVE|14|M|45.63,64.86|N|Run to Moonbrook.|CC|Z|Westfall|
 C The People's Militia|QID|14|QO|1;2;3|S|N|Kill Defias Highwaymen, Pathstalkers and Knuckledusters.|Z|Westfall|
 R The Dagger Hill|ACTIVE|116|M|44.61,74.46;44.43,75.75|CS|N|Take the path up into The Dagger Hills. The path starts behind the buildings on the south side of the road.|Z|Westfall|
-A Thunderbrew|QID|103|ACTIVE|116|M|44.63,80.26|N|From Grimbooze Thunderbrew.|Z|Westfall|
-T Thunderbrew|QID|103|M|44.63,80.26|N|To Grimbooze Thunderbrew. Save this for the Barkeep in Westfall.|Z|Westfall|
+A Thunderbrew|QID|117|ACTIVE|116|M|44.63,80.26|N|From Grimbooze Thunderbrew.|Z|Westfall|
+T Thunderbrew|QID|117|M|44.63,80.26|N|To Grimbooze Thunderbrew. Save this for the Barkeep in Westfall.|Z|Westfall|
 R Demont's Place|ACTIVE|14|M|36.62,77.04|N|Make your way down the hill to the open field below.|Z|Westfall|
 C The People's Militia|QID|14|QO|1;2;3|US|N|Finish killing Defias Highwaymen, Pathstalkers and Knuckledusters. \n[color=FF0000]NOTE: [/color]Once you've cleared the groups in this area, head back up the hill to clear the ones on the other side of Dagger Hill. Path back and forth between the two areas until you are done.|Z|Westfall|
 C Red Leather Bandanas|QID|153|M|37,81.87|N|Continue killing defias mobs until you finish your bandana collection.|Z|Westfall|
@@ -101,9 +117,9 @@ T Captain Sander's Hidden Treasure|M|25.97,16.92|QID|140|N|To Captain Sander's L
 C The Coast Isn't Clear|QID|152|M|35.00,86.00|Z|Westfall|N|Go further south and kill the rest of the murlocs for this quest.|
 T The Coast Isn't Clear|QID|152|M|30.01,86.02|N|To Captain Grayson.|Z|Westfall|
 T The Coastal Menace|QID|104|M|30.01,86.02|N|To Captain Grayson.|Z|Westfall|
-C The Defias Brotherhood|ACTIVE|142|L|1381|M|44.48,69.70|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|Z|Westfall|
+C The Defias Brotherhood|ACTIVE|142|L|1381|US|M|44.48,69.70|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|Z|Westfall|T|Defias Messenger|
 
-h Sentinel Hill|ACTIVE|153|M|52.90,53.63|N|Run back to Sentinel Hill. Set your hearth at the Innkeeper|Z|Westfall|
+H Sentinel Hill|ACTIVE|142|M|52.90,53.63|N|Hearth or run back to Sentinel Hill|Z|Westfall|
 T Red Leather Bandanas|QID|153|M|53.99,52.98|N|To Scout Gillian.|Z|Westfall|
 T The People's Militia|QID|14|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|Westfall|
 T The Defias Brotherhood|QID|142|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|Westfall|
@@ -133,7 +149,7 @@ T Messenger to Westfall|QID|143|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|Westfall|
 A Messenger to Westfall|QID|144|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|143|Z|Westfall|
 t Red Silk Bandanas|QID|214|M|56.67,47.34|N|Scout Riell on top of the tower.|Z|Westfall|
 
-F Stormwind|AVAILABLE|343|N|Guide begins with picking up a quest in Stormwind.|
+F Stormwind|AVAILABLE|343|M|56.55,52.65|N|Guide begins with picking up a quest in Stormwind.|
 A Speaking of Fortitude|QID|343|M|45.7,38.4|Z|Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
 T Speaking of Fortitude|QID|343|M|74.2,7.6|Z|Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|LVL|20|
 A Brother Paxton|QID|344|M|74.2,7.5|Z|Stormwind City|PRE|343|N|From Brother Paxton.|LVL|20|
@@ -162,6 +178,7 @@ T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C
 R Elwynn Forest|QID|344|N|Go to Elwynn Forest.|Z|Stormwind City|M|74.76,93.41|
 T Brother Paxton|QID|344|M|49.6,40.3|Z|Elwynn Forest|N|To Brother Paxton, in the Library of Northshire Abbey.|LVL|20|
 A Ink Supplies|QID|345|M|49.6,40.3|Z|Elwynn Forest|N|From Brother Paxton.|PRE|344|LVL|20|
+r Repair/Restock|QID|345|M|41.40,65.59|Z|Elwynn Forest|N|Repair/Sell Junk at Kurran Steele.|
 A A Watchful Eye|QID|94|Z|Elwynn Forest|M|65.2,69.8|LVL|20|N|From Theocritus, at the top of the Tower of Azora.|
 R Redridge Mountains|AVAILABLE|89|N|Go to Redridge Mountains.|M|95.17,72.34|Z|Elwynn Forest|
 
@@ -180,10 +197,10 @@ C Redridge Goulash|ACTIVE|92|M|11.94,77.5|QO|1;2;3|S|N|Kill the tarantulas, gore
 C Selling Fish|QID|127|M|38.23,51.25|S|N|Kill Murlocs until you get the items for this quest.|Z|Redridge Mountains|
 C Murloc Poachers|QID|150|M|40.00,45.00|N|Kill Murlocs until you get the items for this quest.|Z|Redridge Mountains|
 C Selling Fish|QID|127|M|38.23,51.25|US|N|Kill Murlocs until you get the items for this quest.|Z|Redridge Mountains|
-C The Everstill Bridge|QID|89|M|37.41,50.35|S|N|Kill Gnolls until you get the items for this quest.|Z|Redridge Mountains|
-K Redridge Brute|QID|124|QO|1|M|26.60,38.20|N|Kill Brutes until you finish this quest.|Z|Redridge Mountains|
-K Redridge Mystic|QID|124|QO|2|M|35.00,39.40|N|Kill Gnolls until you finish this quest.|Z|Redridge Mountains|
-C The Everstill Bridge|QID|89|M|37.41,50.35|US|N|Kill Gnolls until you get the items for this quest.|Z|Redridge Mountains|
+C The Everstill Bridge|QID|89|M|40.73,37.79|S|N|Kill Gnolls until you get the items for this quest.|Z|Redridge Mountains|
+K Redridge Brute|ACTIVE|124|QO|1|M|26.60,38.20|N|Kill Brutes until you finish this quest.|Z|Redridge Mountains|
+K Redridge Mystic|ACTIVE|124|QO|2|M|35.00,39.40|N|Kill Gnolls until you finish this quest.|Z|Redridge Mountains|
+C The Everstill Bridge|QID|89|M|40.73,37.79|US|N|Kill Gnolls until you get the items for this quest.|Z|Redridge Mountains|
 C Rethban Ore|QID|347|M|19.90,34.65;20.40,27.80|CS|N|Head to the west side most gnoll camp above Lakeshire and follow the path towards the cave.\nKill Redridge Drudgers in the cave to collect the ore. (Miners can  obtain Rethban ore from nodes in the cave)|Z|Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|US|N|Collect any remaining items required from the tarantulas, goretusks and condors|
 C Underbelly Scales|QID|122|M|43.00,31.60|CN|US|N|Collect any remaining underbelly scales from Black Dragon Whelps.|Z|Redridge Mountains|

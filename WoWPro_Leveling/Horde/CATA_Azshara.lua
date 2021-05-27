@@ -51,9 +51,9 @@ K Basilisk Bashin'|ACTIVE|14161|M|25.50,68.50|QO|1|N|Kill Greystone Basilisks.|S
 C Stone Cold|QID|14165|M|25.66,68.79|N|Seek out a Stonified Miner.\n[color=FF0000]NOTE: [/color]You may have to click on it twice to pick it up.|BUFF|67032^91695^69619|
 R Orgrimmar Rocketway Exchange|QID|14165|M|27.77,67.70|N|With the Goblin on your back, head back to Horzak Zignibble.\n[color=FF0000]NOTE: [/color]You will lose the goblin if you mount.\nDon't worry about losing it during a fight; unless you die.|
 T Stone Cold|QID|14165|M|29.15,66.24|N|To Horzak Zignibble.|
-t Basilisk Bashin'|QID|14161|M|29.15,66.24|N|To Horzak Zignibble.|IZ|Orgrimmar Rocketway Exchange|
+t Basilisk Bashin'|QID|14161|M|29.15,66.24|N|To Horzak Zignibble.|IZ|4830|
 A The Perfect Prism|QID|14190|M|29.15,66.24|N|From Horzak Zignibble.|PRE|14165| ; Storyline
-t A Quota to Meet|QID|14197|M|29.15,66.27|N|To Foreman Fisk, who wanders.|IZ|Orgrimmar Rocketway Exchange|
+t A Quota to Meet|QID|14197|M|29.15,66.27|N|To Foreman Fisk, who wanders.|IZ|4830|
 C The Perfect Prism|QID|14190|M|21.61,69.50|N|Kill Talrendis Saboteurs until you loot a Crystal Pendant.|
 l A Quota to Meet|QID|14197|M|23.20,67.44|QO|1|N|Gather 20 ingots of Mountainfoot Iron.|US|
 T The Perfect Prism|QID|14190|M|20.26,70.40|N|To the Headquarters Radio (inside the building).|
@@ -170,7 +170,7 @@ C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk 
 C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk to Assistant Greely when you're ready to shrink. Hop on a rat and run to Gormungan. Chat with him to complete the quest.|V|
 T Azsharite Experiment Number Two|QID|14388|M|50.41,74.29|N|To Assistant Greely.| ; Completes Storyline 'The Rarest Substance on Azeroth'
 A A Hello to Arms|QID|24458|M|50.53,74.77|N|From Hobart Grapplehammer.\nHe paces around a bit.|PRE|14383&14388|
-F Bilgewater Harbor|QID|24458|M|51.48,74.28|N|Speak with Friz Groundspin for a free airlift.|IZ|Southern Rocketway|
+F Bilgewater Harbor|QID|24458|M|51.48,74.28|N|Speak with Friz Groundspin for a free airlift.|IZ|4828|
 f Bilgewater Harbor|QID|24458|M|52.92,49.85|N|Head down to the docks to get the flight point.|TAXI|-Bilgewater Harbor|
 A Operation Fishgut|QID|14478|M|52.31,50.30|N|From the Wrenchmen Recruitment Poster on the column.|PRE|24452| ; Storyline - Heart of Arkkoroc
 h Bilgewater Harbor|QID|24458|M|57.02,50.29|N|At Grimy Greasefingers.|
@@ -214,7 +214,7 @@ T Ticker Required|QID|14485|M|34.46,44.73|N|To Sergeant Zelks.|
 T Extermination|QID|14480|M|34.46,44.73|N|From Sergeant Zelks.|
 T Handling the Goods|QID|14486|M|34.52,44.68|N|To Tora Halotrix.|
 A Shore Leave|QID|24449|M|34.31,44.90|N|From Captain Tork.|PRE|14480&14484&14485&14486&14487| ; Storyline - Heart of Arkkoroc
-F Bilgewater Harbor|ACTIVE|24449|M|34.51,44.52|N|Hop into the Military Gyrocopter when ready to leave.|IZ|Ruins of Eldarath|V|
+F Bilgewater Harbor|ACTIVE|24449|M|34.51,44.52|N|Hop into the Military Gyrocopter when ready to leave.|IZ|1221|V|
 T Shore Leave|QID|24449|M|60.61,50.53|N|To Uncle Bedlam.| ; Completes Storyline - Heart of Arkkoroc
 A Azshara Blues|QID|14407|M|59.33,50.74|N|From Teemo.| ; Storyline
 T Azshara Blues|QID|14407|M|55.49,52.14|N|To Kalec. He's in the tunnel under the road.|
@@ -253,7 +253,7 @@ l A Pale Brew|QID|14432|M|30.72,36.80|QO|1|N|Gather up 10 samples of Briaroot Br
 T A Pale Brew|QID|14432|M|42.43,23.61|N|To Haggrum Bloodfist.|
 T Diplomacy by Another Means|QID|14433|M|42.43,23.61|N|To Haggrum Bloodfist.|
 A The Blackmaw Doublecross|QID|14435|M|42.43,23.61|N|From Haggrum Bloodfist.|PRE|14432&14433|
-P Blackmaw Hold|ACTIVE|14435|M|42.61,23.70|N|When you're ready, stand beside Haggrum's Smokepit and use the Ambassador Disguise. Immediately after using the Disguise, talk to Andorel to have him teleport you.\n[color=FF0000]NOTE: [/color]The Disguise only lasts 5 minutes and you have to be near the Smokepit to re-apply it.|U|49368|CHAT|IZ|Northern Rocketway Exchange|
+P Blackmaw Hold|ACTIVE|14435|M|42.61,23.70|N|When you're ready, stand beside Haggrum's Smokepit and use the Ambassador Disguise. Immediately after using the Disguise, talk to Andorel to have him teleport you.\n[color=FF0000]NOTE: [/color]The Disguise only lasts 5 minutes and you have to be near the Smokepit to re-apply it.|U|49368|CHAT|IZ|4825|
 C The Blackmaw Doublecross|QID|14435|M|30.97,29.99|QO|1|N|Speak with Ungarl to wreck the negotiations. Be prepared for a 3 NPC fight when you finish the conversation.\n[color=FF0000]NOTE: [/color]If your Disguise fades before you complete this step, you have basically failed and will have to go back and start again at the Smokepit.\nSpeak with him as quickly as you can.|CHAT|
 K The Blackmaw Doublecross|QID|14435|M|32.41,31.64|QO|2;3|N|Kill 4 Blackmaw Warriors and 4 Blackmaw Shaman on your way out.\n[color=FF0000]NOTE: [/color]To exit, go up the stairs to the right of where Ungarl was standing, cross over the bridge and go to the left of the fork.|
 T The Blackmaw Doublecross|QID|14435|M|42.43,23.61|N|To Haggrum Bloodfist.|
@@ -293,24 +293,24 @@ T Watch Your Step|QID|14296|M|55.95,12.17|N|To the Image of Archmage Xylem.|
 A The Trial of Fire|QID|14300|M|55.95,12.17|N|From the Image of Archmage Xylem.|PRE|14296| ; Storyline
 A The Trial of Frost|QID|24478|M|55.95,12.17|N|From the Image of Archmage Xylem.|PRE|14296| ; Storyline
 A The Trial of Shadow|QID|24479|M|55.95,12.17|N|From the Image of Archmage Xylem.|PRE|14296| ; Storyline
-P Grim Intention|ACTIVE|24479|M|56.11,11.95|N|Click on the Shadow Portal Stone to activate the portal. Then, click on the portal to enter it.|IZ|Arcane Pinnacle|
+P Grim Intention|ACTIVE|24479|M|56.11,11.95|N|Click on the Shadow Portal Stone to activate the portal. Then, click on the portal to enter it.|IZ|4801|
 C The Trial of Shadow|QID|24479|M|30.76,27.26|N|Click on the Altar (floating stone) to begin. Lure 20 Weeping Souls into the shadow runes by standing on the other side of it. Every time one hits you, you lose one.|
 T The Trial of Shadow|QID|24479|M|31.06,26.76|N|To the Image of Archmage Xylem.|
-P Waning Sanity|ACTIVE|14300|M|31.17,26.65|N|Click on the Waning Sanity Portal to return to Arcane Pinnacle.|IZ|Trial of Shadow|
-P Burning Determination|ACTIVE|14300|M|56.08,11.96|N|Click on the Fire Portal Stone to activate the portal. Then, click on the portal to enter it.|IZ|Arcane Pinnacle|
+P Waning Sanity|ACTIVE|14300|M|31.17,26.65|N|Click on the Waning Sanity Portal to return to Arcane Pinnacle.|IZ|4800|
+P Burning Determination|ACTIVE|14300|M|56.08,11.96|N|Click on the Fire Portal Stone to activate the portal. Then, click on the portal to enter it.|IZ|4801|
 C The Trial of Fire|QID|14300|M|32.98,23.59|N|Stand in the fire runes without getting hit by Flame Strike for 10 consecutive bursts.\n[color=FF0000]NOTE: [/color]Just follow Darwin. When and where he moves, you move.|
 T The Trial of Fire|QID|14300|M|32.97,23.56|N|To the Image of Archmage Xylem.|
-P Waning Sanity|ACTIVE|24478|M|32.85,23.39|N|Click on the Waning Sanity Portal to return to Arcane Pinnacle.|IZ|Trial of Fire|
-P Icy Mortality|ACTIVE|24478|M|56.05,11.92|N|Click on the Frost Portal Stone to activate the portal. Then, click on the portal to enter it.|IZ|Arcane Pinnacle|
+P Waning Sanity|ACTIVE|24478|M|32.85,23.39|N|Click on the Waning Sanity Portal to return to Arcane Pinnacle.|IZ|4799|
+P Icy Mortality|ACTIVE|24478|M|56.05,11.92|N|Click on the Frost Portal Stone to activate the portal. Then, click on the portal to enter it.|IZ|4801|
 C The Trial of Frost|QID|24478|M|62.17,20.84|N|Mount up (if you have one) and circle around the outside edge in a counter-clockwise direction; keeping a safe distance from the Frostburns. To collect an ice orb, stand near it for a couple seconds. Getting hit by a Frostburn will take away an orb.\nAvoid the Frostburns by standing on the edge of the hill top. Avoid the runes because they'll toss you up in the air and you will take falling damage when you land.\n[color=FF0000]NOTE: [/color]If you fall off the hill, you'll have to do the jumps to climb back up to Arcane Pinnacle and take the portal again (Unless you can fly).|
 T The Trial of Frost|QID|24478|M|62.20,21.08|N|To the Image of Archmage Xylem.|
-P Waning Sanity|QID|14299|M|62.11,21.25|N|Click on the Waning Sanity Portal to return to Arcane Pinnacle.|IZ|Trial of Frost|
+P Waning Sanity|QID|14299|M|62.11,21.25|N|Click on the Waning Sanity Portal to return to Arcane Pinnacle.|IZ|5333|
 A Xylem's Asylum|QID|14299|M|55.95,12.17|N|From the Image of Archmage Xylem.|PRE|14300&24478&24479| ; Storyline
-P Bear's Head|ACTIVE|14299|M|56.19,12.07|N|Click on the portal to be transported to Bear's Head.|IZ|Arcane Pinnacle|
+P Bear's Head|ACTIVE|14299|M|56.19,12.07|N|Click on the portal to be transported to Bear's Head.|IZ|4801|
 R Xylem's Tower|ACTIVE|14299|M|24.98,38.74|N|Walk up the winding 'path' to the top up.|FLY|OLD|
 T Xylem's Asylum|QID|14299|M|25.58,37.96|N|To Joanna inside Xylem's Tower.|
 A Wasn't It Obvious?|QID|14389|M|25.58,37.96|N|From Joanna.|PRE|14299| ; Storyline
-P Ambitious Reach|ACTIVE|14389|M|25.73,37.97|N|Click on the portal behind Joanna.\n[color=FF0000]NOTE: [/color]Relax... you're suppose to 'die'.|IZ|Xylem's Tower|
+P Ambitious Reach|ACTIVE|14389|M|25.73,37.97|N|Click on the portal behind Joanna.\n[color=FF0000]NOTE: [/color]Relax... you're suppose to 'die'.|IZ|8495|
 C Wasn't It Obvious?|QID|14389|M|27.73,40.70|N|Walk towards Anara.|
 T Wasn't It Obvious?|QID|14389|M|PLAYER|N|(UI Alert)|
 A Easy is Boring|QID|14390|M|PLAYER|N|(UI Alert)|PRE|14389| ; Storyline
@@ -320,7 +320,7 @@ A Turning the Tables|QID|14391|M|PLAYER|N|UI Alert|PRE|14390| ; Storyline
 s Rez|ACTIVE|14430|M|27.60,39.58|N|Speak with Anara to resurrect yourself.|BUFF|-69812|
 R Northern Rocketway Exchange|ACTIVE|14430|N|Run to the road behind you and follow it east.|FLY|OLD|
 T Hacking the Construct|QID|14430|M|42.61,23.72|N|To Andorel Sunsworn.|
-R Northern Rocketway Terminus|ACTIVE|14391|M|42.53,24.57|N|Speak with Bilgewater Rocket-jockey to get a ride there.\n[color=FF0000]NOTE: [/color]Make sure click the exit button when you get to the end or you will overshoot and have to run back.|CHAT|FLY|OLD|IZ|-Bitter Reaches|
+R Northern Rocketway Terminus|ACTIVE|14391|M|42.53,24.57|N|Speak with Bilgewater Rocket-jockey to get a ride there.\n[color=FF0000]NOTE: [/color]Make sure click the exit button when you get to the end or you will overshoot and have to run back.|CHAT|FLY|OLD|IZ|-2497|
 f Northern Rocketway Terminus|QID|14391|M|66.50,21.00|N|At Blitz Blastospazz.|TAXI|-Northern Rocketway Terminus|
 T Turning the Tables|QID|14391|M|66.55,20.36|N|To Kalec.|
 A Fade to Black|QID|24467|M|66.55,20.36|N|From Kalec.|PRE|14391| ; Storyline - The Best Apprentice
@@ -339,14 +339,14 @@ A Farewell, Minnow|QID|14392|M|67.05,20.41|N|From Azuregos.|PRE|14261&14297&2446
 H Bilgewater Harbor|QID|14392|M|PLAYER|N|Hearth to Bilgewater Harbor.|FLY|OLD|
 T Farewell, Minnow|QID|14392|M|53.25,49.96|N|Speak to Sorata Firespinner down by the dock.| ; Completes Storyline - The Best Apprentice
 A Airborne Again|QID|24497|M|52.98,49.78|N|Secure a ride to Valermok with the Airborne Priests in the eastern portion of Bilgewater Harbor.|PRE|14392| ; Storyline
-F Valormok|QID|24497|M|60.47,52.25|N|Hop into a Wings of Steel and fly to Valormok.|V|IZ|Bilgewater Harbor|
+F Valormok|QID|24497|M|60.47,52.25|N|Hop into a Wings of Steel and fly to Valormok.|V|IZ|4821|
 T Airborne Again|QID|24497|M|14.01,64.85|N|To Chawg.\n[color=FF0000]NOTE: [/color]Much like the rockets, be prepared to jump out early. If you ride to the end, you will land in the South Fury River and have to foot it back quite a distance.\nI suggest jumping as soon as you enter Valormok.|PRE|14392|
 A Where's My Head?|QID|14462|M|14.01,64.85|N|From Chawg.| ; Storyline
 A Let Them Feast on Fear|QID|24433|M|14.01,64.85|N|From Chawg.| ; Storyline - Heart of Arkkoroc
 A Commando Drop|QID|24434|M|13.87,64.50|N|From Andorel Sunsworn.| ; Storyline
 A Grounded!|QID|14475|M|14.35,65.03|N|From Kroum.| ; Storyline
 F Orgrimmar|QID|14462|M|14.35,65.03|N|Train, repair, sell, etc. if you wish.\n[color=FF0000]NOTE: [/color]Skip this step if you don't want/need to go.|
-F Valormok|QID|14462|M|49.67,59.24|Z|Orgrimmar|N|Fly back to Valormok.|IZ|Orgrimmar|
+F Valormok|QID|14462|M|49.67,59.24|Z|Orgrimmar|N|Fly back to Valormok.|IZ|85|
 K Let Them Feast on Fear|QID|24433|M|12.74,74.19|QO|1;2|N|Slay 12 Talrendis Defenders and 6 Talrendis Sentinels.|S|
 K Commando Drop|QID|24434|M|10.06,71.18|QO|1|N|Slay 5 Talrendis Lorekeepers.|
 T Commando Drop|QID|24434|M|10.56,69.85|N|To the Lorekeeper's Summoning Stone.|

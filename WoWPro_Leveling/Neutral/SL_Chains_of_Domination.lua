@@ -281,12 +281,12 @@ T The Nathrezim|QID|63654|M|23.07,45.86|Z|Revendreth|N|To Prince Renathal.|
 
 ; The Power of Night
 A A Cry From the Heart|QID|63672|PRE|63654|M|64.40,24.27|Z|Korthia|N|From Urgent Message from Ardenweald.|
-P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|Korthia|IZ|Korthia|N|Take the portal to Ring of Transference.|
-F Heart of the Forest|ACTIVE|63672|M|60.96,68.81|Z|Ring of Transference@Oribos|IZ|-Heart of the Forest|N|Head to the flightmaster and take a flight to Heart of the Forest.|
+P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|Korthia|IZ|1961|N|Take the portal to Ring of Transference.|
+F Heart of the Forest|ACTIVE|63672|M|60.96,68.81|Z|Ring of Transference@Oribos|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|
 T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
 A Hunting Amid Houses|QID|63728|PRE|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|
 C Hunting Amid Houses|QID|63728|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|
-F Spider's Watch|ACTIVE|63728|M|49.35,51.84|Z|Ardenweald!The Shadowlands|IZ|-Maldraxxus|N|Head to the flightmaster and take a flight to Spider's Watch.|
+F Spider's Watch|ACTIVE|63728|M|49.35,51.84|Z|Ardenweald!The Shadowlands|IZ|-1536|N|Head to the flightmaster and take a flight to Spider's Watch.|
 C Hunting Amid Houses|QID|63728|M|42.79,25.12|Z|Maldraxxus|QO|2|NC|N|Huln Found in Maldraxxus.|
 T Hunting Amid Houses|QID|63728|M|42.79,25.12|Z|Maldraxxus|N|To Huln Highmountain.|
 A The Blade in the Night|QID|63990|PRE|63728|M|42.79,25.12|Z|Maldraxxus|N|From Huln Highmountain.|

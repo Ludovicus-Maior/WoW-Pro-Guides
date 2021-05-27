@@ -46,8 +46,8 @@ T Restoring Balance|QID|62739|M|49.33,52.36|Z|Ardenweald!The Shadowlands|N|To La
 A Support the Court|QID|62763|PRE|63036|M|49.13,38.92|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|TOF|
 A Support the Court|QID|62763|PRE|62739|M|49.33,52.36|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|TOF|
 l Support the Court|QID|62763|QO|1|S!US|N|Literally everything you do in Ardenweald counts towards this quest. You may [color=40C7EB]return[/color] to [color=40C7EB]Heart of the Forest[/color] to turn in and be done with the zone anytime after this step closes.|TOF|
-t Support the Court|QID|62763|IZ|Heart of the Forest|M|49.13,38.92|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|TOF|COV|NightFae
-t Support the Court|QID|62763|IZ|Heart of the Forest|M|49.35,52.36|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|TOF|
+t Support the Court|QID|62763|IZ|12858|M|49.13,38.92|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|TOF|COV|NightFae
+t Support the Court|QID|62763|IZ|12858|M|49.35,52.36|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|TOF|
 A Return to Oribos|QID|62776|PRE|62763|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|TOF|
 T Forest Refugees|QID|62807|M|48.40,50.51|Z|Ardenweald!The Shadowlands|N|To Flwngyrr.|TOF|PRE|62763|
 F Oribos|ACTIVE|62776|M|51.27,7.56|Z|The Trunk@Heart of the Forest!Dungeon|N|At Ceridwyn.|TOF|TAXI|Heart of the Forest|
@@ -555,7 +555,7 @@ C Battle for Hibernal Hollow|QID|58869|M|60.03,53.09|Z|Ardenweald!The Shadowland
 T Battle for Hibernal Hollow|QID|58869|M|59.92,53.09|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 T Blooming Villains|QID|58265|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
 T Beneath the Mask|QID|58267|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
-F Heart of the Forest|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|COV|NightFae|IZ|Hibernal Hollow|
+F Heart of the Forest|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|COV|NightFae|IZ|11531|
 F Refugee Camp|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|TOF|TAXI|-Heart of the Forest|
 A Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|58869|MS|
 C Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Moonberry.|MS|
@@ -569,11 +569,11 @@ A The Court of Winter|QID|58723|M|45.27,63.14|Z|Ardenweald!The Shadowlands|N|Fro
 C The Court of Winter|QID|58723|M|45.27,63.14|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Deliver Primus's Message.|MS|
 
 R Garden of Night|QID|61126^61074|M|38.85,60.10|Z|Ardenweald!The Shadowlands|N|The next few treasure steps are done in a level 60 area, check them off manually if you aren't comfortable there, results in cool mount.|ACH|14313;9|ITEM|180731|TZ|Garden of Night|; $ I was able to pick up all the pieces, combine and talk to twinklestar pre 60 --all but obtain the mount, i assume because I already had the mount learned
-$ Gardener's Wand|QID|61126^61074|M|38.85,60.10|Z|Ardenweald!The Shadowlands|L|180757|N|Pick up Gardener's Wand under the cart, between the wheels.|ACH|14313;9|IZ|Garden of Night|
-$ Gardener's Flute|QID|61126^61074|M|38.49,58.08|Z|Ardenweald!The Shadowlands|L|180756|N|Pick up Gardener's Flute where some spriggans are dancing.|ACH|14313;9|IZ|Garden of Night|
-$ Gardener's Hammer|QID|61126^61074|M|39.75,54.40|Z|Ardenweald!The Shadowlands|L|180754|N|Pick up Gardener's Hammer inside the cart.|ACH|14313;9|IZ|Garden of Night|
-$ Gardener's Basket|QID|61126^61074|M|40.31,52.62|Z|Ardenweald!The Shadowlands|L|180758|N|Pick up Gardener's Basket on the ground beside the fountain.|ACH|14313;9|IZ|Garden of Night|
-$ Diary of the Night|QID|61126^61074|CS|M|40.11,53.70;38.99,56.96|Z|Ardenweald!The Shadowlands|L|180759|N|Pick up diary on a table on the second platform|ACH|14313;9|IZ|Garden of Night|
+$ Gardener's Wand|QID|61126^61074|M|38.85,60.10|Z|Ardenweald!The Shadowlands|L|180757|N|Pick up Gardener's Wand under the cart, between the wheels.|ACH|14313;9|IZ|12884|
+$ Gardener's Flute|QID|61126^61074|M|38.49,58.08|Z|Ardenweald!The Shadowlands|L|180756|N|Pick up Gardener's Flute where some spriggans are dancing.|ACH|14313;9|IZ|12884|
+$ Gardener's Hammer|QID|61126^61074|M|39.75,54.40|Z|Ardenweald!The Shadowlands|L|180754|N|Pick up Gardener's Hammer inside the cart.|ACH|14313;9|IZ|12884|
+$ Gardener's Basket|QID|61126^61074|M|40.31,52.62|Z|Ardenweald!The Shadowlands|L|180758|N|Pick up Gardener's Basket on the ground beside the fountain.|ACH|14313;9|IZ|12884|
+$ Diary of the Night|QID|61126^61074|CS|M|40.11,53.70;38.99,56.96|Z|Ardenweald!The Shadowlands|L|180759|N|Pick up diary on a table on the second platform|ACH|14313;9|IZ|12884|
 
 T Forest Refugees|QID|62807|M|48.40,50.51|Z|Ardenweald!The Shadowlands|N|To Flwngyrr.|
 f Refugee Camp|ACTIVE|62807^58723|M|49.31,51.84|Z|Ardenweald!The Shadowlands|N|At Derwynnthlmn.|MS|

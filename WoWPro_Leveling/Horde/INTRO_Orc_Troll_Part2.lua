@@ -86,7 +86,7 @@ A Raggaran's Fury|QID|25192|PRE|25190|M|42.73,49.85|N|From Raggaran.|RANK|2|
 C Raggaran's Fury|QID|25192|M|39.89,52.55|N|Kill the Razormane Dustrunners and Razormane Battleguards. Beware the Captain.|
 T Raggaran's Fury|QID|25192|M|42.65,49.89|N|To Raggaran.|
 A Unbidden Visitors|QID|25194|ACTIVE|25188|M|35.87,41.37|N|From Zen'Taji.|RANK|2|
-K Death Flayer|ACTIVE|25188|M|35.09,44.47|IZ|Southfury Watershed|N|Death Flayer is a silver rare scorpid that paths around the shore of the island. It has a fairly quick respawn rate (~30 minutes). Skip this if you don't want to wait. Close this step if you kill it.\n[color=FF0000]NOTE: [/color]This rare is tameable by hunters.|T|Death Flayer|RARE|S!US|
+K Death Flayer|ACTIVE|25188|M|35.09,44.47|IZ|4981|N|Death Flayer is a silver rare scorpid that paths around the shore of the island. It has a fairly quick respawn rate (~30 minutes). Skip this if you don't want to wait. Close this step if you kill it.\n[color=FF0000]NOTE: [/color]This rare is tameable by hunters.|T|Death Flayer|RARE|S!US|
 C Unbidden Visitors|QID|25194|M|34.84,43.35|N|Attack 3 Wayward Plainstriders until they flee toward the Barrens.|
 T Unbidden Visitors|QID|25194|M|35.79,41.49|N|To Zen'Taji.|
 A That's the End of That Raptor|QID|25195|PRE|25194|M|35.79,41.49|N|From Zen'Taji.|RANK|2|

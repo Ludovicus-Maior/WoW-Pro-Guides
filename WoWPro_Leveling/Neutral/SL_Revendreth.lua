@@ -45,8 +45,8 @@ T Dark Aspirations|QID|62740|CS|M|61.12,59.05;61.4,60.4|Z|Revendreth|N|To Prince
 A Reinforcing Revendreth|QID|62778|PRE|62740^63037|M|PLAYER|Z|Revendreth|N|From Prince Renathal.|TOF|
 l Reinforcing Revendreth|QID|62778|QO|1|S!US|N|Literally everything you do in Revendreth counts towards this quest. You may [color=40C7EB]return[/color] to [color=40C7EB]Darkhaven[/color], or [color=40C7EB]Sinfall[/color] if you are a member of the Venthyr, to turn in and be done with the zone anytime after this step closes.|TOF|
 F Darkhaven|QID|60176|ACTIVE|62778|M|67.31,21.48|Z|Sinfall Reaches@Sinfall!Dungeon|N|Courier Snaggle (Flight Master) can be found in the room behind Prince Renathal.|TOF|COV|Venthyr|
-t Reinforcing Revendreth|QID|62778|CS|M|51.65,37.56|Z|Sinfall Reaches@Sinfall!Dungeon|IZ|Sinfall|N|To Prince Renathal.|TOF|COV|Venthyr|
-t Reinforcing Revendreth|QID|62778|CS|M|61.11,58.97;61.4,60.4|Z|Revendreth|IZ|Darkhaven|N|To Prince Renathal.|TOF|
+t Reinforcing Revendreth|QID|62778|CS|M|51.65,37.56|Z|Sinfall Reaches@Sinfall!Dungeon|IZ|10986|N|To Prince Renathal.|TOF|COV|Venthyr|
+t Reinforcing Revendreth|QID|62778|CS|M|61.11,58.97;61.4,60.4|Z|Revendreth|IZ|10979|N|To Prince Renathal.|TOF|
 A Return to Oribos|QID|62779|PRE|62778|M|PLAYER|Z|Revendreth|N|From Prince Renathal.|TOF|
 F Oribos|ACTIVE|62779|M|67.37,21.44|Z|Revendreth|N|At Courier Snaggle.|TOF|COV|Venthyr|
 F Oribos|ACTIVE|62779|M|60.50,60.64|Z|Revendreth|N|At Courier Rokalai|TOF|
@@ -162,7 +162,7 @@ T The Stoneborn|QID|57174|M|61.34,63.8|Z|Revendreth|N|To Mistress Mihaela.|MS|
 T The Toll of the Road|QID|60517|M|61.34,63.8|Z|Revendreth|N|To Mistress Mihaela.|
 A A Plea to the Harvesters|QID|58654|M|61.34,63.8|Z|Revendreth|N|From Mistress Mihaela.|LVL|57|PRE|57174|MS|
 A Bring Out Your Tithe|QID|60176|M|61.34,63.8|Z|Revendreth|N|From Mistress Mihaela.|RANK|2|
-A WANTED: The Pale Doom|QID|60279|M|62.20,63.45|Z|Revendreth|LVL|60|IZ|The Sinposium|N|From WANTED Poster.|ELITE|RANK|2|
+A WANTED: The Pale Doom|QID|60279|M|62.20,63.45|Z|Revendreth|LVL|60|IZ|13414|N|From WANTED Poster.|ELITE|RANK|2|
 C Bring Out Your Tithe|QID|60176|M|61.04,60.57|Z|Revendreth|NC|N|Collect the tithes of anima by interacting with villagers, and clicking on droplets on the ground.|S|
 A Reason for the Treason|QID|60177|M|62.26,61.33|Z|Revendreth|N|From Lajos.|RANK|2|
 f Darkhaven|ACTIVE|60177^58654|M|60.55,60.65|Z|Revendreth|N|Get flightpath from Courier Rokalai.|
@@ -560,7 +560,7 @@ C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|1|NC|N|Fol
 C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|2|CHAT|N|Speak to Laurent to let him begin.|
 C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|3|N|Kill waves of enemies, defending Laurent and Simone.|
 T Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|N|To Laurent.|
-P Sanctuary of the Mad|ACTIVE|60275^60276|M|24.80,50.27|Z|Revendreth|N|Walk thru the mirror for a quick trip to Sanctuary of the Mad.|IZ|The Shrouded Asylum|
+P Sanctuary of the Mad|ACTIVE|60275^60276|M|24.80,50.27|Z|Revendreth|N|Walk thru the mirror for a quick trip to Sanctuary of the Mad.|IZ|10987|
 T WANTED: Enforcer Kristof|QID|60275|M|30.71,49.12|Z|Revendreth|N|To Dispatcher Raluca. Up the stairs, outside.|
 T WANTED: Summoner Marcelis|QID|60276|M|30.81,49.12|Z|Revendreth|N|To Dispatcher Raluca. Up the stairs, outside.|
 $ Makeshift Muckpool|QID|62198|CS|M|28.2,38.0;29.7,37.2|Z|Revendreth|LVL|60|N|Up path to get to upper floor of Ruins at Ember Ward, need 30 Infused Ruby to loot.|ACH|14314;6|

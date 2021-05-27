@@ -89,7 +89,7 @@ if [ "$1" != "--trial" ] ; then
     ${DEBUG} git push origin
     ${DEBUG} git push --tags
     if [ "x${ZIP_EXTRA}" != "x" ] ; then
-        ln -s "${ZIP_FILE}" ""WoWPro ${VERSION_PREFIX}${nrelease}-${ZIP_EXTRA}.zip""
+        ${DEBUG} ln -s "${ZIP_FILE}" "WoWPro ${VERSION_PREFIX}${nrelease}${ZIP_EXTRA}.zip"
     fi
 fi
 

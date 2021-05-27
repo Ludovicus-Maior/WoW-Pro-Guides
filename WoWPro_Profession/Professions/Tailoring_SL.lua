@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("SpoonyTLR_SL","Profession","Tailoring_SL", "Spoony", "Neutral")
+local guide = WoWPro:RegisterGuide("SpoonyTLR_SL","Profession","Tailoring_SL", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",197)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Tailoring_ShadowLands")
@@ -18,6 +18,8 @@ return [[
 ;  For the = Steps - QID|Prof,Step Increment| |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 40 |197000401| and |197000402|  // |RECIPE|310871|N|Learn [spell=310871/Shrouded Cloth Cape] Recipe, from Trainer|
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+
+; Guide stared by Spoony, editted and finished by Blanckaert
 
 ; N Guide Hub|QID|197000000|JUMP|Tailoring: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 

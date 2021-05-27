@@ -1,3 +1,18 @@
+# Release 9.0.5-A3 / 1.13.7-A2 / 2.5.1-A2
+## Bug Fixes
+* Add support for numerical IZ tags to support non EN clients
+
+## Guide Updates
+### Retail
+* Alliance: Duskwood, Northern Stranglethorn
+* Horde: Ashenvale, Azshara, Stonetalon_Mountains, Orc/Troll Intro Part2, Jade Forest, Krasarang_Wilds
+* Neutral: Pandaren Intro
+### Classic
+* Alliance: Dun Morogh, Elwynn, Teldrassil, Darkshore, Eastern_Kingdom (12-20), Deadmines, Alliance(19-60), Uldaman, Zul Farrak, Blackrock Depths
+* Horde: Hendo (Durotar, Silverpine Forest, The Barrens, HordeChapter1, HordeChapter2), Jame (21-30) 
+### Burning Crusade Classic
+* 59 guides were updated.  Too many to list out!
+
 # Release 9.0.5-A2 / 1.13.7-A1 / 2.5.1-A1
 ## Bug Fixes
 * Added M tag syntax checks
