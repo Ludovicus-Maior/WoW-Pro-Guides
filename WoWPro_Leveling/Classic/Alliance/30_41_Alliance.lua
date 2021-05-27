@@ -414,7 +414,7 @@ T Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|187|
 r Repair and Sell|QID|192|M|35.76,10.66|Z|Stranglethorn Vale|N|Bags will get full quickly here.|
 C Tiger Mastery|QID|188|M|32.18,17.30|Z|Stranglethorn Vale|N|Kill Sin'dall on top of the hill and loot his paw.|
-C Some Assembly Required|QID|577|M|36.94,32.63Z|Stranglethorn Vale|S|N|Kill Snapjaw Crocolisks for their skins. (Not the River Crocolisks)|
+C Some Assembly Required|QID|577|M|36.94,32.63|Z|Stranglethorn Vale|S|N|Kill Snapjaw Crocolisks for their skins. (Not the River Crocolisks)|
 C Hostile Takeover|QID|213|M|44.96,21.03|Z|Stranglethorn Vale|S|N|Kill geologists.|
 K Foreman Cozzle|QID|1182|M|42.65,18.34|Z|Stranglethorn Vale|N|Kill Foreman Cozzle at the top of the control tower and loot his key.|L|5851|
 C Goblin Sponsorship|QID|1182|M|43.33,20.32|Z|Stranglethorn Vale|N|Loot the bluebrints from a chest in the small house.|NC|
