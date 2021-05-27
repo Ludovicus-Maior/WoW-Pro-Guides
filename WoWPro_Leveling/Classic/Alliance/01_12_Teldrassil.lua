@@ -47,12 +47,12 @@ r Sell and Repair|AVAILABLE|3521|S|N|Sell and Repair with Keina in Aldrassil.|
 T A Friend in Need|QID|3519|M|60.90,41.97|N|To Dirania Silvershine.|
 
 A Iverron's Antidote|QID|3521|PRE|3519|M|60.90,41.96|N|From Dirania Silvershine.|
-C Hyacinth Mushrooms|QID|3521|M|CN|S|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
+C Hyacinth Mushrooms|QID|3521|M|55.00,43.20|CN|S|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
 C The Balance of Nature|QID|457|US|M|62.38,38.36|N|Kill Mangy Nightsabers and Thistle Boars.|
 C Webwood Ichor|QID|3521|M|56.80,31.60|CN|QO|3|N|Kill Spiders until you get the Webwood Ichor.|
 C Webwood Venom|QID|916|S|QO|1|N|Kill and loot Webwood Spiders.|
 C Moonpetal Lilies|QID|3521|M|57.69,37.59|QO|2|N|You should find plenty of Moonpetal Lilies at the lake.|
-C Hyacinth Mushrooms|QID|3521|M|CN|US|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
+C Hyacinth Mushrooms|QID|3521|M|55.00,43.20|CN|US|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
 
 T Webwood Venom|QID|916|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Webwood Egg|QID|917|PRE|916|M|57.81,41.65|N|From Gilshalan Windwalker.|
@@ -332,7 +332,7 @@ K Ursal the Mauler|QID|486|QO|1|M|39.04,80.08|T|Ursal the Mauler|N|He's level 12
 T Oakenscowl|QID|2499|M|60.90,68.50|N|To Denalan.|
 T The Glowing Fruit|QID|930|M|60.90,68.50|N|To Denalan. Wait for a bit, as Denalan will plant the fruit and three Boglings spawn. Kill them, they have a Bogling Root which increases damage by 1 for 10 minutes. Put your pet on passive if you are a hunter.|
 
-r Sell and Repair|QID|486|M|55.89,59.21w|N|Sell Junk and Repair.|
+r Sell and Repair|QID|486|M|55.89,59.21|N|Sell Junk and Repair.|
 T Ursal the Mauler|QID|486|M|55.96,57.28|N|To Athridas Bearmantle.|
 
 H Darnassus|QID|935|ACTIVE|935|C|Druid|M|36.52,54.42|CC|N|If your Hearth is up use it, other wise run back to Darnassus.|

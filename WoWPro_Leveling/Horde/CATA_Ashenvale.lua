@@ -181,7 +181,7 @@ T To Hellscream's Watch|QID|13923|M|38.27,43.11|N|To Captain Goggath.\n[color=FF
 A Tweedle's Dumb|QID|13936|M|38.27,43.11|N|From Captain Goggath.|RANK|1|
 A Between a Rock and a Thistlefur|QID|216|M|37.76,43.49|N|From Karang Amakkar.|RANK|2|
 T Tweedle's Dumb|QID|13936|M|37.98,43.86|N|To Tweedle.|
-A Set Us Up the Bomb|QID|13942|M|37.98,43.86`|N|From Tweedle.|PRE|13936|RANK|1|
+A Set Us Up the Bomb|QID|13942|M|37.98,43.86|N|From Tweedle.|PRE|13936|RANK|1|
 A Breathing Room|QID|13943|M|38.27,43.11|N|From Captain Goggath.|PRE|13936|RANK|1|
 l Set Us Up the Bomb|QID|13942|M|39.51,47.54|QO|1|N|Collect Moon-Kissed Clay from the ground in the area between the camp and the main road into Astranaar.|S|
 K Breathing Room|ACTIVE|13943|M|34.96,45.77|QO|1;2|N|Kill Astranaar Skirmishers and Officers.|

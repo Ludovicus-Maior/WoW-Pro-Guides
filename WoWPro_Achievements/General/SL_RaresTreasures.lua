@@ -187,7 +187,7 @@ $ Lost Quill|QID|61990|CS|M|38.64,68.17;37.94,69.07|Z|Revendreth|ACH|14314;1|N|R
 $ Smuggled Cache|QID|59889|M|31.05,55.10|Z|Revendreth|N|Under broken bridge, across from the entrance to Theotar's hideout.|ITEM|182738|ACH|14314;9|
 $ Makeshift Muckpool|QID|62198|CS|M|28.2,38.0;29.7,37.2|Z|Revendreth|LVL|60|N|Up path to get to upper floor of Ruins at Ember Ward, need 30 Infused Ruby to loot.|ACH|14314;6|
 K Soulstalker Doina|M|78.11,49.70|Z|Revendreth|T|Soulstalker Doina|N|Tower above the Atonement Entrance, Her two hounds assist her. At 75% and 40% she runs through portal to new area, Chase her. Watch out for traps in 2nd area. She may be up in 2nd area if person trying to kill her didn't know to follow.|RARE|ACH|14310;1|
-K Innervus|M|21.78.36.03|Z|Revendreth|T|Innervus|N|WH - Bottom level of crypt. Need Scorched Crypt Key from Feral Ritualist in area.|ITEM|183735|RARE|ACH|14310;3|
+K Innervus|M|21.78,36.03|Z|Revendreth|T|Innervus|N|WH - Bottom level of crypt. Need Scorched Crypt Key from Feral Ritualist in area.|ITEM|183735|RARE|ACH|14310;3|
 K Stonefist|M|30.64,22.45|Z|Revendreth|T|Stonefist|N|WH - Fattest mob in Revendreth, 943k HP, Hits hard, long cast AOEs.|ITEM|180488|RARE|ACH|14310;5|
 K Lord Mortegore|M|75.53,60.82|Z|Revendreth|T|Lord Mortegore|N|WH - Collect Mortegore Scrolls (4) from random mobs in area, to activate the 4 sigils in the area to activate Rare.|RARE|ACH|14310;9|
 K Tollkeeper Varaboss|QID|59595^60583|QO|1|M|66.74,70.44|Z|Revendreth|T|Tollkeeper Varaboss|N|Inside the house under bridge outside Pridefall Hamlet.|ITEM|179363|ACH|14310;13|ACTIVE|-62778|RANK|2|;RARE
