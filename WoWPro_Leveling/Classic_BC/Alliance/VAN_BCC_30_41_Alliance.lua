@@ -629,7 +629,7 @@ r Empty your bags|QID|1421|M|26.45,31.48|Z|Swamp of Sorrows|N|If your bags are g
 T The Lost Caravan|QID|1421|M|26.73,59.81|Z|Swamp of Sorrows|N|To Watcher Biggs.|
 A Driftwood|QID|1398|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1421|
 C In Search of The Temple|QID|1448|M|65.00,48.00|Z|Swamp of Sorrows|NC|N|Swim east towards the temple if you need to complete this quest. Continue east after the quest update.|
-l Artisan Cooking|QID|1258|M|94.7,44.8;84.3,83.8|ACTIVE|1398|Z|Swamp of Sorrows|S|N|If you want to go beyond 225 cooking, collect the Zesty Clam Meat from clams that drop off crawlers.|P|Cooking;185;0+10;0|L|7974 10|
+l Artisan Cooking|QID|1258|M|94.7,44.8;84.3,83.8|CN|ACTIVE|1398|Z|Swamp of Sorrows|S|N|If you want to go beyond 225 cooking, collect the Zesty Clam Meat from clams that drop off crawlers.|P|Cooking;185;0+10;0|L|7974 10|
 C Driftwood|QID|1398|M|94.7,44.8;81.94,10.6|CN|Z|Swamp of Sorrows|S|NC|N|Run south along the coast picking up driftwood.|
 C ... and Bugs|QID|1258|M|94.7,44.8;81.94,10.6|CN|Z|Swamp of Sorrows|N|Kill Silt Crawlers. Monstorous Crawlers will work but they are too tough right now. Silts spawn on the northern half of the coast.|
 l Artisan Cooking|QID|1258|ACTIVE|1398|M|94.7,44.8;81.94,10.6|CN|Z|Swamp of Sorrows|US|N|Keep collecting if you want, there will be other opportunities later. Skip if you wan't to move on.|P|Cooking;185;0+10;0|L|7974 10|
