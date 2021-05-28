@@ -11,9 +11,8 @@ WoWPro:GuideSteps(guide, function() return [[
 ; This is a rewrite and homogenization of existing 19-25 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
 
 ; Darkshore Guide Synchronization Steps
-
+f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
 h Stormwind City|QID|272|C|Druid|N|Head to the Innkeeper in the trade district and set your hearthstone|
-
 R Elwynn Forest|AVAILABLE|65|M|32.03,49.18|Z|Elwynn Forest|N|Make your way to the front gate.|TAXI|-Sentinel Hill|
 R Westfall|AVAILABLE|65|M|20.24,80.38|Z|Elwynn Forest|N|Make your way south to Westfall.|TAXI|-Sentinel Hill|
 F Sentinel Hill|AVAILABLE|65|M|66.29,62.13|Z|Stormwind City|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
@@ -48,7 +47,7 @@ C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|CN|L|10958|N|Loot the nec
 C The Lost Tools|QID|125|M|41.60,54.70|L|1309|N|Loot the tools from the chest at the bottom of the lake.|Z|Redridge Mountains|
 T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|Z|Redridge Mountains|
 T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|Z|Redridge Mountains|
-F Sentinel Hill|AVAILABLE|65|M|30.59,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|Z|Redridge Mountains|
+F Sentinel Hill|ACTIVE|132|M|30.59,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|Z|Redridge Mountains|
 
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|PRE|132|
@@ -61,21 +60,20 @@ F Sentinel Hill|ACTIVE|141|U|6948|N|Fly or Hearth to Westfall|Z|Stormwind City|M
 T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|Westfall|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|Z|Westfall|
 A The People's Militia |QID|13|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|12|Z|Westfall|
+h Sentinel Hill|ACTIVE|65|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|C|Druid|
 
-C Flask of Oil|AVAILABLE|103|L|814 5|S|N|Kill any Harvests to collect Flasks of Oil.|Z|Westfall|
-C Hops|ACTIVE|116|L|1274 5|S|N|Kill any Harvesters to collect Hops.|Z|Westfall|
-C The Defias Brotherhood|ACTIVE|142|L|1381|S|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |Z|Westfall|
+C The Defias Brotherhood|ACTIVE|142|L|1381|S|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |Z|Westfall|T|Defias Messenger|M|45.59,64.99|
 C Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|L|2998|N|Loot the Compass from the chest at this location.|
-K Hops|ACTIVE|116|L|1274 5|US|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|Z|Westfall|
-K Flasks of Oil|AVAILABLE|103|M|46.40,66.61|L|814 5|US|N|Finish collecting the Flasks of Oil from the Harvesters at any of the farms in Westfall|Z|Westfall|
+l Hops|ACTIVE|116|M|44.40,38.87|L|1274 5|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|Z|Westfall|
+l Flasks of Oil|QID|103|M|44.40,38.87|L|814 5|N|Finish collecting the Flasks of Oil from the Harvesters at any of the farms in Westfall|Z|Westfall|
 C The People's Militia|QID|13|Z|Westfall|M|38.20,57.00;34.61,43.38|CN|QO|1;2|N|Kill Defias Looters and Pillagers until you finish this quest. If this area is overcamped, move to the Quarry or Moonbrook.|
 T The People's Militia|QID|13|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|Westfall|
 A The People's Militia|QID|14|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|13|Z|Westfall|
 R Moonbrook|ACTIVE|14|M|45.63,64.86|N|Run to Moonbrook.|CC|Z|Westfall|
 C The People's Militia|QID|14|QO|1;2;3|S|N|Kill Defias Highwaymen, Pathstalkers and Knuckledusters.|Z|Westfall|
 R The Dagger Hill|ACTIVE|116|M|44.61,74.46;44.43,75.75|CS|N|Take the path up into The Dagger Hills. The path starts behind the buildings on the south side of the road.|Z|Westfall|
-A Thunderbrew|QID|103|ACTIVE|116|M|44.63,80.26|N|From Grimbooze Thunderbrew.|Z|Westfall|
-T Thunderbrew|QID|103|M|44.63,80.26|N|To Grimbooze Thunderbrew. Save this for the Barkeep in Westfall.|Z|Westfall|
+A Thunderbrew|QID|117|ACTIVE|116|M|44.63,80.26|N|From Grimbooze Thunderbrew.|Z|Westfall|
+T Thunderbrew|QID|117|M|44.63,80.26|N|To Grimbooze Thunderbrew. Save this for the Barkeep in Westfall.|Z|Westfall|
 R Demont's Place|ACTIVE|14|M|36.62,77.04|N|Make your way down the hill to the open field below.|Z|Westfall|
 C The People's Militia|QID|14|QO|1;2;3|US|N|Finish killing Defias Highwaymen, Pathstalkers and Knuckledusters. \n[color=FF0000]NOTE: [/color]Once you've cleared the groups in this area, head back up the hill to clear the ones on the other side of Dagger Hill. Path back and forth between the two areas until you are done.|Z|Westfall|
 C Red Leather Bandanas|QID|153|M|37,81.87|N|Continue killing defias mobs until you finish your bandana collection.|Z|Westfall|
@@ -101,9 +99,9 @@ T Captain Sander's Hidden Treasure|M|25.97,16.92|QID|140|N|To Captain Sander's L
 C The Coast Isn't Clear|QID|152|M|35.00,86.00|Z|Westfall|N|Go further south and kill the rest of the murlocs for this quest.|
 T The Coast Isn't Clear|QID|152|M|30.01,86.02|N|To Captain Grayson.|Z|Westfall|
 T The Coastal Menace|QID|104|M|30.01,86.02|N|To Captain Grayson.|Z|Westfall|
-C The Defias Brotherhood|ACTIVE|142|L|1381|M|44.48,69.70|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|Z|Westfall|
+C The Defias Brotherhood|ACTIVE|142|L|1381|US|M|44.48,69.70|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|Z|Westfall|T|Defias Messenger|
 
-h Sentinel Hill|ACTIVE|153|M|52.90,53.63|N|Run back to Sentinel Hill. Set your hearth at the Innkeeper|Z|Westfall|
+H Sentinel Hill|ACTIVE|142|M|52.90,53.63|N|Hearth or run back to Sentinel Hill|Z|Westfall|
 T Red Leather Bandanas|QID|153|M|53.99,52.98|N|To Scout Gillian.|Z|Westfall|
 T The People's Militia|QID|14|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|Westfall|
 T The Defias Brotherhood|QID|142|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|Westfall|
@@ -133,7 +131,7 @@ T Messenger to Westfall|QID|143|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|Westfall|
 A Messenger to Westfall|QID|144|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|143|Z|Westfall|
 t Red Silk Bandanas|QID|214|M|56.67,47.34|N|Scout Riell on top of the tower.|Z|Westfall|
 
-F Stormwind|AVAILABLE|343|N|Guide begins with picking up a quest in Stormwind.|
+F Stormwind|AVAILABLE|343|M|56.55,52.65|N|Guide begins with picking up a quest in Stormwind.|
 A Speaking of Fortitude|QID|343|M|45.7,38.4|Z|Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
 T Speaking of Fortitude|QID|343|M|74.2,7.6|Z|Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|LVL|20|
 A Brother Paxton|QID|344|M|74.2,7.5|Z|Stormwind City|PRE|343|N|From Brother Paxton.|LVL|20|
@@ -162,6 +160,7 @@ T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C
 R Elwynn Forest|QID|344|N|Go to Elwynn Forest.|Z|Stormwind City|M|74.76,93.41|
 T Brother Paxton|QID|344|M|49.6,40.3|Z|Elwynn Forest|N|To Brother Paxton, in the Library of Northshire Abbey.|LVL|20|
 A Ink Supplies|QID|345|M|49.6,40.3|Z|Elwynn Forest|N|From Brother Paxton.|PRE|344|LVL|20|
+r Repair/Restock|QID|345|M|41.40,65.59|Z|Elwynn Forest|N|Repair/Sell Junk at Kurran Steele.|
 A A Watchful Eye|QID|94|Z|Elwynn Forest|M|65.2,69.8|LVL|20|N|From Theocritus, at the top of the Tower of Azora.|
 R Redridge Mountains|AVAILABLE|89|N|Go to Redridge Mountains.|M|95.17,72.34|Z|Elwynn Forest|
 
@@ -176,16 +175,18 @@ A Redridge Goulash|QID|92|M|22.68,43.83|N|From Chef Breanna.|Z|Redridge Mountain
 A Underbelly Scales|QID|122|PRE|119|M|30.96,47.27|N|From Verner Osgood.|Z|Redridge Mountains|
 A A Baying of Gnolls|QID|124|PRE|119|M|30.96,47.27|N|From Verner Osgood.|Z|Redridge Mountains|
 C Underbelly Scales|QID|122|M|30.96,47.27|S|N|Kill Black Dragon Whelps.|Z|Redridge Mountains|
-C Redridge Goulash|ACTIVE|92|M|11.94,77.5|QO|1;2;3|S|N|Kill the tarantulas, goretusks and condors for the items required|Z|Redridge Mountains|
+C Redridge Goulash|ACTIVE|92|QO|1;3|M|23.51,72.73|S|N|Kill the tarantulas, and goretusks for the items required|Z|Redridge Mountains|
+C Redridge Goulash|ACTIVE|92|QO|2|M|56.03,76.39|S|N|Kill the condors for the items required|Z|Redridge Mountains|
 C Selling Fish|QID|127|M|38.23,51.25|S|N|Kill Murlocs until you get the items for this quest.|Z|Redridge Mountains|
 C Murloc Poachers|QID|150|M|40.00,45.00|N|Kill Murlocs until you get the items for this quest.|Z|Redridge Mountains|
 C Selling Fish|QID|127|M|38.23,51.25|US|N|Kill Murlocs until you get the items for this quest.|Z|Redridge Mountains|
-C The Everstill Bridge|QID|89|M|37.41,50.35|S|N|Kill Gnolls until you get the items for this quest.|Z|Redridge Mountains|
-K Redridge Brute|QID|124|QO|1|M|26.60,38.20|N|Kill Brutes until you finish this quest.|Z|Redridge Mountains|
-K Redridge Mystic|QID|124|QO|2|M|35.00,39.40|N|Kill Gnolls until you finish this quest.|Z|Redridge Mountains|
-C The Everstill Bridge|QID|89|M|37.41,50.35|US|N|Kill Gnolls until you get the items for this quest.|Z|Redridge Mountains|
+C The Everstill Bridge|QID|89|M|40.73,37.79|S|N|Kill Gnolls until you get the items for this quest.|Z|Redridge Mountains|
+K Redridge Brute|ACTIVE|124|QO|1|M|26.60,38.20|N|Kill Brutes until you finish this quest.|Z|Redridge Mountains|
+K Redridge Mystic|ACTIVE|124|QO|2|M|35.00,39.40|N|Kill Gnolls until you finish this quest.|Z|Redridge Mountains|
+C The Everstill Bridge|QID|89|M|40.73,37.79|US|N|Kill Gnolls until you get the items for this quest.|Z|Redridge Mountains|
 C Rethban Ore|QID|347|M|19.90,34.65;20.40,27.80|CS|N|Head to the west side most gnoll camp above Lakeshire and follow the path towards the cave.\nKill Redridge Drudgers in the cave to collect the ore. (Miners can  obtain Rethban ore from nodes in the cave)|Z|Redridge Mountains|
-C Redridge Goulash|ACTIVE|92|QO|1;2;3|US|N|Collect any remaining items required from the tarantulas, goretusks and condors|
+C Redridge Goulash|ACTIVE|92|QO|1;3|US|M|23.51,72.73|N|Collect any remaining items required from the tarantulas, and goretusks.|Z|Redridge Mountains|
+C Redridge Goulash|ACTIVE|92|QO|2|M|56.03,76.39|US|N|Kill the condors for the items required|Z|Redridge Mountains|
 C Underbelly Scales|QID|122|M|43.00,31.60|CN|US|N|Collect any remaining underbelly scales from Black Dragon Whelps.|Z|Redridge Mountains|
 T The Everstill Bridge|QID|89|M|32.14,48.64|N|To Foreman Oslow.|Z|Redridge Mountains|
 T Underbelly Scales|QID|122|M|30.96,47.27|N|To Verner Osgood.|Z|Redridge Mountains|
@@ -197,9 +198,18 @@ T Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|Z|Redridge Mountains|
 H Stormwind City|ACTIVE|347|N|Hearth, or otherwise return to Stormwind.|
 T Rethban Ore|QID|347|M|49.6,40.3|Z|Elwynn Forest|N|To Brother Paxton in Northshire.|LVL|20|
 A Return to Kristoff|QID|346|M|49.6,40.3|Z|Elwynn Forest|N|From Brother Paxton in Northshire.|PRE|347|LVL|20|
-= Train|ACTIVE|346|N|If needed, Don't forget to train while you are in town. (check step off manually)|
+= Train|ACTIVE|346|M|22.46,52.12|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Druid|
+= Train|ACTIVE|346|M|61.21,16.35|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Hunter|
+= Train|ACTIVE|346|M|38.86,81.39|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Mage|
+= Train|ACTIVE|346|M|44.82,37.96|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Paladin|
+= Train|ACTIVE|346|M|44.82,37.96|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Priest|
+= Train|ACTIVE|346|M|76.26,55.84|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Rogue|
+= Train|ACTIVE|346|M|61.78,83.73|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Shaman|
+= Train|ACTIVE|346|M|29.35,73.41|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warlock|
+= Train|ACTIVE|346|M|76.26,55.84|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warrior|
 T Return to Kristoff|QID|346|M|45.8,38.6|Z|Stormwind City|N|To Brother Kristoff in Cathedral Square.|LVL|20|
 F Darkshire|ACTIVE|145|M|62.25,62.26;66.28,62.13|CS|Z|Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|
+F Lakeshire|AVAILABLE|163|M|62.25,62.26;66.28,62.13|CS|Z|Stormwind City|N|Fly to Lakeshire.|TAXI|-Darkshire|
 R Duskwood|ACTIVE|145|M|6.39,91.51|N|Run to Duskwood.|TAXI|-Darkshire|
 R Darkshire|ACTIVE|145|M|74.76,46.11|Z|Duskwood|N|Follow the road to Darkshire.|TAXI|-Darkshire|
 f Darkshire|QID|116|M|77.50,44.30|Z|Duskwood|N|Get the flight path from Felicia Maline.|
