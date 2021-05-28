@@ -259,6 +259,7 @@ A Newfound Allies|QID|9632|M|54.69,54.01|N|From Anchorite Paetheus.|
 F The Exodar|QID|9632|M|57.68,53.89|N|Fly to The Exodar.|
 ;A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|Z|The Exodar|N|From the Hero's Call Board. Will not show up if your level is too high.|
 A The Way to Auberdine|QID|9633|M|24.18,54.33|Z|Azuremyst Isle|N|From Huntress Kella Nightbow.|
+b Darkshore|AVAILABLE|65|M|20.10,54.15|Z|Azuremyst Isle|N|Take the boat at the end of the docks to Auberdine|
 T The Way to Auberdine|QID|9633|M|37.40,40.15|Z|Darkshore|N|To Thundris Windweaver.|
 b Wetlands|AVAILABLE|65|M|32.42,43.74|N|Get on the boat to Menethil Harbor (read the sign post).|
 f Menethil Harbor|AVAILABLE|65|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|

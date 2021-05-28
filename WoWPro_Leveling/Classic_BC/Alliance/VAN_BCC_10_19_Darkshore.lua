@@ -187,12 +187,11 @@ A Beached Sea Creature|QID|4733|PRE|4681|M|31.29,87.35|N|Surrounded by level 20 
 C A Lost Master|QID|986|M|43.5, 76.3|US|N|Finish up with your Pelts.|
 C Buzzbox 525|QID|1003|M|41,80|US|N|Finish up with your scalps.|
 T Buzzbox 525|QID|1003|M|41.40,80.56|US|N|Finish up with your scalps.|
+A Mathystra Relics|QID|951|PRE|950|M|43.5,76.5|N|From Onu.|
 H Auberdine|ACTIVE|4740|N|Time to head back and turn stuff in.|
 T WANTED: Murkdeep!|QID|4740|M|37.6,43.41|N|To Sentinel Glynda Nal'Shea.|
-A Mathystra Relics|QID|951|PRE|950|M|43.5,76.5|N|From Onu.|
 T A Lost Master|QID|986|M|39.37,43.48|N|To Terenthis.|
 A A Lost Master|QID|993|M|39.37,43.48|N|From Terenthis.|PRE|986|
-T Fruit of the Sea|QID|1138|M|36.1,44.9|N|To Gubber Blump.|
 T Beached Sea Creature|QID|4728|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Creature|QID|4730|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4731|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
@@ -250,6 +249,7 @@ C Mathystra Relics|QID|951|M|59.55,15.66|QO|1|US|N|Look for the relics on the gr
 H Auberdine|ACTIVE|4763|N|Hearth or run back to Auberdine.|
 T The Blackwood Corrupted|QID|4763|M|37.40,40.13|N|To Thundris Windweaver|
 A Researching the Corruption|QID|1275|PRE|3765|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|
+T Fruit of the Sea|QID|1138|M|36.1,44.9|N|To Gubber Blump.|
 F Rut'theran Village|ACTIVE|951|M|36.34,45.58|N|Time to head back to Darnassus to do your professions, bank, repair, sell. If you're level 20, be sure to visit your trainer.|
 R Darnassus|ACTIVE|951|M|55.88,89.55|Z|Teldrassil|
 F Auberdine|ACTIVE|951|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
@@ -274,6 +274,7 @@ R Deeprun Tram|AVAILABLE|343|M|76.83,51.28|Z|Ironforge|N|Go to Tinker Town and z
 R Stormwind City|AVAILABLE|343|N|Take the tram ride and then run into Stormwind.|
 f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
 ; --- This guide ends in Stormwind City
+
 
 ]]
 end)

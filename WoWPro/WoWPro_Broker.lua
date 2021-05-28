@@ -1988,20 +1988,28 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 local zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
                 local inzone = WoWPro.inzone[guideIndex]
 				local inzoneFlip = false
+				local inzoneMatch = false
 				if (inzone:sub(1, 1) == "-") then
                     inzone = inzone:sub(2)
                     inzoneFlip = true
                 end
-				if tonumber(inzone) then
-					local _, mapID = WoWPro.GetZoneText()
-					inzone = tonumber(inzone)
-					if (subzonetext == _G.C_Map.GetAreaInfo(inzone) or zonetext == _G.C_Map.GetAreaInfo(inzone)) then
-						zonetext = inzone
-					else
-						zonetext = mapID
+
+				local numZones = select("#", ("^"):split(inzone))
+				for j=1,numZones do
+					local inzoneString = select(numZones-j+1, ("^"):split(inzone))
+					local inzoneID = select(1, (";"):split(inzoneString))
+					if (inzoneID == zonetext) or (inzoneID == subzonetext) then
+						inzoneMatch = true
+					elseif tonumber(inzoneID) then
+						local _, mapID = WoWPro.GetZoneText()
+						inzoneID = tonumber(inzoneID)
+						if (subzonetext == _G.C_Map.GetAreaInfo(inzoneID) or zonetext == _G.C_Map.GetAreaInfo(inzoneID) or mapID == inzoneID) then
+							inzoneMatch = true
+						end
 					end
 				end
-                if (((inzone == zonetext) or (inzone == subzonetext)) and not inzoneFlip) or (((inzone ~= zonetext) and (inzone ~= subzonetext)) and inzoneFlip) then
+
+                if (inzoneMatch and not inzoneFlip) or (inzoneFlip and not inzoneMatch) then
                     WoWPro:dbp("Step %s [%s/%s] not skipped as InZone %s/%s",stepAction,step,tostring(QID), zonetext, subzonetext)
                 else
                     WoWPro:dbp("Step %s [%s/%s] skipped as not InZone %s/%s",stepAction,step,tostring(QID), zonetext, subzonetext)
