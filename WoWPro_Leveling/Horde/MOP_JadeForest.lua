@@ -358,7 +358,7 @@ A Husshun, the Wizened|QID|29634|M|43.24,24.76|N|From Master Stone Fist.|PRE|296
 C Zhi-Zhi, the Dextrous|QID|29633|M|43.03,25.96|N|On top of the hill. Chat with him to challenge him to a match.|T|Zhi-Zhi|CHAT|
 T Groundskeeper Wu|QID|29626|M|41.61,23.70|N|To Groundskeeper Wu who is now in front of the Inn.|
 A A Proper Weapon|QID|29627|M|41.61,23.70|N|From Groundskeeper Wu.|PRE|29626|
-C A Proper Weapon|QID|29627|M|V|QO|1|N|You'll find them scattered around the area amongst the trees and bushes.|NC|S|
+C A Proper Weapon|QID|29627|M|41.55,24.54|QO|1|N|You'll find them scattered around the area amongst the trees and bushes.|NC|S|
 B Black Walnut Extract|QID|29627|M|41.40,24.15|QO|2|N|From June Whiteblossom.|
 B Triple-Blistered Ale|QID|29627|M|41.77,24.60|QO|3|N|From Brewmaster Lei Kanglei.|
 C A Proper Weapon|QID|29627|M|41.55,24.54|QO|1|N|You'll find them scattered around the area amongst the trees and bushes.|NC|US|

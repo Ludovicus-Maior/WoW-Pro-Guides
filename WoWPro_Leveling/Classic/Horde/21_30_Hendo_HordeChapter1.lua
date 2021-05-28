@@ -144,7 +144,7 @@ C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions for vials of their
 R Durnholde Keep|ACTIVE|498|M|76.08,47.11|Z|Hillsbrad Foothills|N|Make your way to the Durnholde Keep entrance.|
 C WANTED: Syndicate Personnel|QID|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|S|
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|S|
-K Jailer Eston|ACTIVE|498|M|79.6 40.6|Z|Hillsbrad Foothills|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
+K Jailer Eston|ACTIVE|498|M|79.6,40.6|Z|Hillsbrad Foothills|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
 K Jailor Marlgen|ACTIVE|498|L|3499|N|Kill Jailor Marlgen to loot the Burnished Gold Key to free Tog'thar.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
 C The Rescue|QID|498|M|79.74,39.64|Z|Hillsbrad Foothills|QO|2|U|3499|N|Rescue Tog'thar.|NC|
 C The Rescue|QID|498|M|77.40,42.81;75.50,38.76;75.18,41.64|Z|Hillsbrad Foothills|CC|QO|1|U|3467|N|Rescue Drull.\n[color=FF0000]NOTE: [/color]Run along the stone wall west of the bridge, drop down to the ground behind the buildings, and follow the wall around to the backdoor.\nHe has a rogue, a mage and a Watchmen guarding him. If you approach by the rear door, you'll only have to pull the Watchmen. As long as the Watchmen doesn't run back inside and you stick to the west wall, you shouldn't aggro the other two.\n\nSometimes Jailor Eston will spawn inside. He can be pulled singly as well.|NC|
