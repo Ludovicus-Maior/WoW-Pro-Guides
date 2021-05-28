@@ -125,7 +125,7 @@ T Darnassian Intrusions|QID|9352|M|36.70,57.44|N|To Ley-Keeper Velania.|
 T Arcane Instability|QID|8486|M|36.70,57.44|N|To Ley-Keeper Velania.|
 A Fish Heads, Fish Heads...|QID|8884|M|30.23,58.31|N|From Hathvelion Sungaze (He wanders around a bit).\n[color=FF0000]NOTE: [/color]Follow the road west out of West Sanctum, or go north around the mountain.|
 C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|N|Kill Murlocs to collect the Fish Heads.|S|
-l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|26.86,59.81|L|21776|N|Kill Grimscale Murlocs until one of them drops Captain Kelisendra's Lost Rutters.|RANK|3|S|IZ|3460^3911|
+l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|26.86,59.81|L|21776|N|Kill Grimscale Murlocs until one of them drops Captain Kelisendra's Lost Rutters.|RANK|3|S|IZ|3460; Golden Strand^3911; Tranquil Shore|
 A Captain Kelisendra's Lost Rutters|QID|8887|M|PLAYER|N|From Captain Kelisendra's Lost Rutters.|U|21776|O|
 C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|N|Finish collecting the Fish Heads from the Murlocs.|US|
 T Fish Heads, Fish Heads...|QID|8884|M|30.23,58.31|N|To Hathvelion Sungaze.|
@@ -134,7 +134,7 @@ H Falconwing Square|QID|8482|M|46.55,48.92|
 T Incriminating Documents|QID|8482|M|48.16,46.00|N|To Aeldon Sunbrand.|
 ; lv 8
 A The Dwarven Spy|QID|8483|M|48.16,46.00|N|From Aeldon Sunbrand.|PRE|8482|
-r Repair/Empty|ACTIVE|8483|M|47.07,47.49|N|Visit Sleyin before you leave.|IZ|3665|
+r Repair/Empty|ACTIVE|8483|M|47.07,47.49|N|Visit Sleyin before you leave.|IZ|3665; Falconwing Square|
 C The Dwarven Spy|QID|8483|M|44.58,53.30;44.05,53.31|CC|QO|1|N|Speak to Prospector Anvilward. Follow him inside and up the ramp to the top. Once there, he will attack you.\n[color=FF0000]NOTE: [/color]Be sure to be full health and buffed before you talk to him outside.|CHAT|
 A Roadside Ambush|QID|9035|M|45.19,56.43|N|From Apprentice Ralen.|LEAD|9062|
 T Roadside Ambush|QID|9035|M|44.88,61.03|N|To Apprentice Meledor.|
@@ -164,24 +164,24 @@ A Situation at Sunsail Anchorage|QID|8892|M|43.34,70.82|N|From Ranger Degolien.|
 A Ranger Sareyn|QID|9358|M|43.67,71.31|N|From Marniel Amberlight, the Innkeeper.|LEAD|9252|
 h Fairbreeze Village|QID|9395|M|43.67,71.31|N|With Marniel Amberlight.|
 r Repair/Sell Junk|QID|9395|M|43.70,71.56|N|At Sathiel.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|
-C Pelt Collection|QID|8491|M|46.00,67.00|N|Kill Springpaws to collect the Pelts.|S|IZ|-3461|
+C Pelt Collection|QID|8491|M|46.00,67.00|N|Kill Springpaws to collect the Pelts.|S|IZ|-3461; Sunsail Anchorage|
 T Saltheril's Haven|QID|9395|M|38.15,73.56|N|To Lord Saltheril.|
 A The Party Never Ends|QID|9067|M|38.15,73.56|N|From Lord Saltheril.|
-T Captain Kelisendra's Lost Rutters|QID|8887|M|36.36,66.63|N|To Captain Kelisendra.\n[color=FF0000]NOTE: [/color]Follow the road west until you reach his camp; just before Sunsail Anchorage.|
+t Captain Kelisendra's Lost Rutters|QID|8887|M|36.36,66.63|N|To Captain Kelisendra.\n[color=FF0000]NOTE: [/color]Follow the road west until you reach his camp; just before Sunsail Anchorage.|IZ|-3460; Golden Strand^3461; Sunsail Anchorage^3911; Tranquil Shore|
 A Grimscale Pirates!|QID|8886|M|36.36,66.63|N|From Captain Kelisendra.|
 A Lost Armaments|QID|8480|M|36.36,66.77|N|From Velendris Whitemorn.|
-C Grimscale Pirates!|QID|8886|M|24.93,69.43|L|21771 6|N|Either pick these up from the ground, or loot them from the Murlocs.|S|IZ|3460|
-K Wretched Thugs and Hooligans|QID|8892|QO|1;2|N|Kill the Wretched Thugs and Hooligans around Sunsail Anchorage.|S|IZ|3461|
-C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|N|You'll find the Weapon Containers in Sunsail Anchorage on the ground, in the water and inside the building.\n[color=FF0000]NOTE: [/color]Each one is on a ~5 minute respawn timer.|S|IZ|3461|
+C Grimscale Pirates!|QID|8886|M|24.93,69.43|L|21771 6|N|Either pick these up from the ground, or loot them from the Murlocs.|S|IZ|3460; Golden Strand|
+K Wretched Thugs and Hooligans|QID|8892|QO|1;2|N|Kill the Wretched Thugs and Hooligans around Sunsail Anchorage\n[color=FF0000]NOTE: [/color]No rush; you'll have plenty of chances to do this.|S|IZ|3461; Sunsail Anchorage|
+C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|N|You'll find the Weapon Containers in Sunsail Anchorage on the ground, in the water and inside the building.\n[color=FF0000]NOTE: [/color]Each one is on a ~5 minute respawn timer.|S|IZ|3461; Sunsail Anchorage|
 K Mmmrrrggglll|ACTIVE|8885|M|25.67,65.74;24.02,73.70|CC|QO|1|N|Follow the water to Golden Strand. He roams the beach along Golden Strand between the two waypoints.|T|Mmmrrrggglll|
-C Grimscale Pirates!|QID|8886|M|24.93,69.43|L|21771 6|N|Either pick these up from the ground, or loot them from the Murlocs.|US|IZ|3460|
-l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|26.86,59.81|L|21776|N|Kill Grimscale Murlocs until one of them drops Captain Kelisendra's Lost Rutters.\n[color=FF0000]NOTE: [/color]Considering the drop rate, if luck is not in your favor, skip this and move on.|RANK|3|US|IZ|3460^3911|
+C Grimscale Pirates!|QID|8886|M|24.93,69.43|L|21771 6|N|Either pick these up from the ground, or loot them from the Murlocs.|US|IZ|3460; Golden Strand|
+l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|26.86,59.81|L|21776|N|Kill Grimscale Murlocs until one of them drops Captain Kelisendra's Lost Rutters.\n[color=FF0000]NOTE: [/color]Considering the drop rate, if luck is not in your favor, skip this and move on.|RANK|3|US|IZ|3460; Golden Strand^3911; Tranquil Shore|
 C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|N|You'll find the Weapon Containers in Sunsail Anchorage on the ground, in the water and inside the building.\n[color=FF0000]NOTE: [/color]Each one is on a ~5 minute respawn timer.|US|
 T Grimscale Pirates!|QID|8886|M|36.36,66.63|N|To Captain Kelisendra.|
 T Lost Armaments|QID|8480|M|36.36,66.77|N|To Velendris Whitemorn.|
 A Wretched Ringleader|QID|9076|M|36.36,66.77|N|From Velendris Whitemorn.|PRE|8480|
 K Aldaron|QID|9076|M|32.70,68.4|QO|1|N|Head inside the white building and fight your way up to the top. You'll find Aldaron the Reckless with two guards here.\n[color=FF0000]NOTE: [/color]If you're careful, you can probably pull the guards solo before you kill Aldaron.|
-K Wretched Thugs and Hooligans|QID|8892|QO|1;2|N|Finish killing the Wretched Thugs and Hooligans around Sunsail Anchorage.|US|IZ|3461|
+K Wretched Thugs and Hooligans|QID|8892|QO|1;2|N|Finish killing the Wretched Thugs and Hooligans around Sunsail Anchorage.|US|IZ|3461; Sunsail Anchorage|
 T Wretched Ringleader|QID|9076|M|36.36,66.77|N|To Velendris Whitemorn.|
 T The Ring of Mmmrrrggglll|QID|8885|M|30.23,58.31|N|To Hathvelion Sungaze.|
 C Pelt Collection|QID|8491|M|38.42,64.67|N|Finish collecting the Pelts.|US|
