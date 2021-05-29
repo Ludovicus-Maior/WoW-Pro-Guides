@@ -91,8 +91,8 @@ T Trouble In Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
 T As Water Cascades|QID|4812|M|47.3,48.7|N|At the Mysterious Red Crystal|
 A The Fragments Within|QID|4813|M|47.3,48.7|N|At the Mysterious Red Crystal|PRE|4812|
 T Bashal'Aran|QID|957|M|44.2,36.3|N|To Asterion.|
-C Deep Ocean, Vast Sea|QID|982|M|39,29|QO|1|N|Swim to the bottom of the ship and loot the Silver Dawning's Lockbox. There may be a murloc standing in front of the chest that you'll have to kill first.\nKeep an eye on your breath bar.|NC|
-C Deep Ocean, Vast Sea|QID|982|M|39.6,27.4|QO|2|N|Swim to the far end of the ship and loot the Mist Veils's Lockbox.|NC|
+C Deep Ocean, Vast Sea|QID|982|M|38.26,28.83|QO|1|N|Swim to the bottom of the ship and loot the Silver Dawning's Lockbox. There may be a murloc standing in front of the chest that you'll have to kill first.\nKeep an eye on your breath bar.|NC|
+C Deep Ocean, Vast Sea|QID|982|M|39.65,27.49|QO|2|N|Swim to the far end of the ship and loot the Mist Veils's Lockbox.|NC|
 T Buzzbox 411|QID|1001|M|42,28.7|N|To Buzzbox 411.|
 A Buzzbox 323|QID|1002|PRE|1001|M|42,28.7|N|From Buzzbox 411.|
 A Beached Sea Creature|QID|4723|PRE|4681|M|42.1, 31.9|N|Stand near the base of the neck to able to click and get the quest. If you stand too far up, you won't be able to click on it.|
@@ -165,7 +165,7 @@ A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
 C Buzzbox 525|QID|1003|M|41,80|S|N|Now that we're heading south you will find Grizzled Thistle Bears to kill.|
 C A Lost Master|QID|986|M|42,92|S|N|Slay all Moonstalker Sires and Moonstalker Matriarchs on sight.|
 A Beached Sea Creature|QID|4728|PRE|4681|M|36.08,70.92|N|Surrounded by level 15 Murlocs, stand at the base of the neck again to be able to interact|
-C WANTED: Murkdeep!|QID|4740|M|36.3,76.5|N|Before you start clearing here is whats going to happen. After you clear the camp out you will stand near the bonfire. The first wave of murlocs will be three level 12 coastrunners, no big deal. The second wave will be two level 15 warriors, no big deal. The third and hardest wave is level 19 Murkdeep and a level 16 hunter. Once you drink up, stand near the bonfire and complete the event. Group up if you can.|
+C WANTED: Murkdeep!|QID|4740|M|36.3,76.5|N|Before you start clearing here is whats going to happen. After you clear the camp out you will stand near the bonfire. The first wave of murlocs will be three level 12 coastrunners, no big deal. The second wave will be two level 15 warriors, no big deal. The third and hardest wave is level 19 Murkdeep and a level 16 hunter. Once you drink up, stand near the bonfire and complete the event. Group up if you can.|T|Murkdeep|
 T Grove of the Ancients|QID|952|M|43.5, 76.3|N|To Onu.|
 T Onu|QID|948|M|43.5,76.3|N|To Onu.|
 A The Master's Glaive|QID|944|N|From Onu.|PRE|948|
