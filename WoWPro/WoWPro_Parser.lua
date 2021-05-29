@@ -573,6 +573,9 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     if WoWPro.action[i] == "h" then
         WoWPro.step[i] = L[WoWPro.step[i]]
     end
+	if WoWPro.zone[i] then
+		WoWPro.zone[i] = select(1, (";"):split(WoWPro.zone[i]))
+	end
     WoWPro.zone[i] = WoWPro.zone[i] or (WoWPro.map[i] and zone)
     if WoWPro.zone[i] and WoWPro.map[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
         WoWPro:Error("Step %s [%s] has a bad ¦Z¦%s¦ tag.",WoWPro.action[i],WoWPro.step[i],WoWPro.zone[i])

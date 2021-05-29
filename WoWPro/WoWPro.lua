@@ -740,7 +740,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
 
     local guide = {
         guidetype = gtype,
-        zone = zonename,
+        zone = select(1, (";"):split(zonename)),
         author = authorname,
         faction = faction,
         name = name,
