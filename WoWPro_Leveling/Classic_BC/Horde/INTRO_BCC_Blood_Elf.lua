@@ -90,6 +90,10 @@ A Completing the Delivery|QID|8350|M|40.42,32.21|N|From Outrunner Alarion.|PRE|9
 R Falconwing Square|ACTIVE|8350|M|46.42,45.93|N|Follow the road west.|
 T Completing the Delivery|QID|8350|M|48.16,47.65|N|To Innkeeper Delaniel.|
 h Falconwing Square|QID|8463|M|48.16,47.65|N|Ask Innkeeper Delaniel to set this inn as your home.\n[color=FF0000]NOTE: [/color]There are class trainers in Falconwing Square, so you won't have to run back to Sunstrider Isle or into Silvermoon, just yet.\nYou'll find a First Aid, Cooking and Jewelcrafting trainer as well.|
+A Cleansing the Scar|QID|9489|M|47.8,47.8|N|From Ponaris inside the Inn.|
+R The Dead Scar|AVAILABLE|9489|M|50,50.8|N|Leave Falconwing Square and follow the wall east to The Dead Scar.|
+C Cleansing the Scar|QID|9489|M|50,50.8|N|Cast Power Word: Fortitude on an Eversong Ranger in The Dead Scar.|T|Eversong Ranger|
+T Cleansing the Scar|QID|9489|M|47.8,47.8|N|To Ponaris inside the Inn.|
 A Unstable Mana Crystals|QID|8463|M|48.16,46.00|N|From Aeldon Sunbrand, back outside of the inn.|
 A Wanted: Thaelis the Hungerer |QID|8468|M|48.17,46.30|N|From 'Wanted: Thaelis the Hungerer' signpost.| ; Extra space required for auto-accept
 = Weapon Master|ACTIVE|8463^8468^8472|M|48.34,45.94|N|Visit Duelist Larenis if you wish to learn other weapons.\n[color=FF0000]NOTE: [/color]He teaches Bows, Daggers, 1H/2H Swords, Polearms, and Thrown. You'll only see the weapons that you can learn.\n\nManually check this step off to continue.|
@@ -208,7 +212,7 @@ T Farstrider Retreat|QID|9359|M|60.32,62.77|N|To Lieutenant Dawnrunner.|
 A Amani Encroachment|QID|8476|M|60.32,62.77|N|From Lieutenant Dawnrunner.|
 B Springpaw Appetizers|QID|9067|M|60.40,62.46|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight on the other side of the fire.|
 A The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|From Arathel Sunforge.|
-A The Magister's Apprentice|QID|8888|M|60.31,61.38|N|From Magister Duskwither. Up the right ramp.|LEAD|8889|
+A The Magister's Apprentice|QID|8888|M|60.31,61.38|N|From Magister Duskwither; up the ramp on the right.|LEAD|8889|
 L Level 10|QID|8888|N|Class quest time... Grind to level 10 so you can start it.|LVL|10|
 R The Shepherd's Gate|ACTIVE|8888|M|56.66,49.54|N|This is the entrance to Silvermoon City.|
 = Train|ACTIVE|8888|M|71.54,55.76|Z|Silvermoon City|N|Harene Plainwalker in Walk of Elders.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
@@ -220,12 +224,35 @@ R The Shepherd's Gate|ACTIVE|8888|M|56.66,49.54|N|This is the entrance to Silver
 = Train|ACTIVE|8888|M|74.67,45.01|Z|Silvermoon City|N|Alamma, Zanien, or Talionia in Murder Row (3rd doorway, downstairs).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
 
 ; -- Level 10 class quests
+A Mage Training|QID|8328|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Mage|
+A Warrior Training|QID|8329|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Warrior|
+A Warlock Training|QID|8563|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Warlock|
+A Priest Training|QID|8564|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Priest|
+A Rogue Training|QID|9392|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Rogue|
+A Hunter Training|QID|9393|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Hunter|
+A Paladin Training|QID|9676|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Paladin|
+; -- Hunter
+A Seek the Farstriders|QID|9617|M|84.2,26.2|Z|SC|N|From Oninath.|LVL|10|R|BloodElf|C|Hunter|
+R Farstrider Retreat|ACTIVE|9617|R|BloodElf|C|Hunter|
+T Seek the Farstriders|QID|9617|M|60.2,62.8|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
+A Taming the Beast|QID|9484|M|60.2,62.8|N|From Lieutenant Dawnrunner.|PRE|9617|R|BloodElf|C|Hunter|
+C Taming the Beast|QID|9484|N|Tame a Crazed Dragonhawk|T|Crazed Dragonhawk|U|23697|R|BloodElf|C|Hunter|NC|
+T Taming the Beast|QID|9484|M|60.2,62.8|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
+A Taming the Beast|QID|9486|M|60.2,62.8|N|From Lieutenant Dawnrunner.|PRE|9484|R|BloodElf|C|Hunter|
+C Taming the Beast|QID|9486|N|Tame an Elder Springpaw.|T|Elder Springpaw|U|23702|R|BloodElf|C|Hunter|NC|
+T Taming the Beast|QID|9486|M|60.2,62.8|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
+A Taming the Beast|QID|9485|M|60.2,62.8|N|From Lieutenant Dawnrunner.|PRE|9486|R|BloodElf|C|Hunter|
+C Taming the Beast|QID|9485|N|Tame a Mistbat.|T|Mistbat|U|23703|R|BloodElf|C|Hunter|NC|
+T Taming the Beast|QID|9485|M|60.2,62.8|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
+A Beast Training|QID|9673|M|60.2,62.8|N|From Lieutenant Dawnrunner.|PRE|9485|R|BloodElf|C|Hunter|
+R The Shepherd's Gate|ACTIVE|9673|M|56.66,49.54|N|Return to Silvermoon City.|R|BloodElf|C|Hunter|
+T Beast Training|QID|9673|M|82.4,28.0|Z|SC|N|To Halthenis, the Pet trainer in Silvermoon City.|R|BloodElf|C|Hunter|
+; -- Mage
 R Stillwhisper Pond|AVAILABLE|9402|M|54.62,54.10|N|Make your way to Stillwhisper Pond.|R|BloodElf|C|Mage|
 A Fetch!|QID|9402|M|55.70,54.51|N|From Instructor Antheol.|LVL|10|R|BloodElf|C|Mage|
 C Fetch!|QID|9402|M|54.87,56.38|L|23551|N|Dive into the middle of the lake and retrieve the phial from the bottom.|R|BloodElf|C|Mage|
 T Fetch!|QID|9402|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 A The Purest Water|QID|9403|M|55.70,54.51|N|From Instructor Antheol.|PRE|9402|R|BloodElf|C|Mage|
-
 ;R Elrendar Falls|ACTIVE|9403|M|63.91,72.38|N|Head to the base of Elrendar Falls.|R|BloodElf|C|Mage|
 ;C The Purest Water|QID|9403|M|64.36,72.87|N|Stand under the waterfall and click on the vial to fill it.|U|23566|R|BloodElf|C|Mage|NC|
 ;T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
@@ -233,7 +260,18 @@ A The Purest Water|QID|9403|M|55.70,54.51|N|From Instructor Antheol.|PRE|9402|R|
 ;R The Living Wood|ACTIVE|9404|M|57.42,67.55|N|Make your way to the south side of the river and follow it south. Cross it when you reach the bend.|R|BloodElf|C|Mage|
 ;C Recent Living|QID|9404|M|57.30,70.35|L|23553|N|Kill Eversong Green Keepers until one drops a Living Branch.|R|BloodElf|C|Mage| ; This can be done later
 ;T Recent Living|QID|9404|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
-
+; -- Paladin (No Class quest until level 12)
+; -- Priest (Need to run a Priest to do this -Hendo72)
+; -- Rogue
+A Find Keltus Darkleaf|QID|9532|M|79.6,51.8|Z|SC|N|From Zelanis.| ; Done until Ghostlands
+: -- Warlock
+A Return to Talionia|QID|10788|N|Don't know where this starts.|R|BloodElf|C|Warlock|
+T Return to Talionia|QID|10788|M|74.4,46.8|Z|SC|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
+A The Stone|QID|9529|M|74.4,46.8|Z|SC|N|From Talionia.|PRE|10788|R|BloodElf|C|Warlock| ; This continues in Ghostlands
+; Ghostlands
+;C The Stone|QID|9529|M|42,15|N|To find the blue Voidstone, head down The Dead Scar until you're south of the Elrendar River.|R|BloodElf|C|Warlock|
+;T The Stone|QID|9529|M|74.4,46.8|Z|SC|N|To Talionia.|R|BloodElf|C|Warlock|
+;A The Rune of Summoning|QID|9619|N|From Talionia.|PRE|9529|R|BloodElf|C|Warlock|
 
 R Thuron's Livery|QID|8888|M|62.00,53.00|N|If you want the explorer achievement, follow the road out of Farstrider Retreat and down the hill.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 T The Magister's Apprentice|QID|8888|M|67.81,56.52|N|To Apprentice Loralthalis. Head out of the city and follow the road east.|
@@ -292,6 +330,6 @@ T Runewarden Deryan|QID|9253|PRE|9252|M|44.20,85.46|N|To Runewarden Deryan.|Z|Ev
 A Powering our Defenses |QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|Z|Eversong Woods|
 C Powering our Defenses |QID|8490|U|22693|N|Head to the Runestone Shan'dor, then use the Infused Crystal. You will then need to defend the crystal against two sets of 3 Enraged Wraiths.|Z|Eversong Woods|M|55,84|
 T Powering our Defenses |QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|Z|Eversong Woods|
-N End of Eversong Woods Guide|QID|9144|M|55,84|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the waypoints.  \n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|
+N End of Eversong Woods Guide|QID|9144|M|55,84|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the waypoints.\n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|
 ]]
 end)
