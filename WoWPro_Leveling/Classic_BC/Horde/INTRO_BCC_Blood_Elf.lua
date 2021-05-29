@@ -232,7 +232,7 @@ A Rogue Training|QID|9392|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|Blood
 A Hunter Training|QID|9393|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Hunter|
 A Paladin Training|QID|9676|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Paladin|
 ; -- Hunter
-A Seek the Farstriders|QID|9617|M|84.2,26.2|Z|SC|N|From Oninath.|LVL|10|R|BloodElf|C|Hunter|
+A Seek the Farstriders|QID|9617|M|84.2,26.2|Z|Silvermoon City|N|From Oninath.|LVL|10|R|BloodElf|C|Hunter|
 R Farstrider Retreat|ACTIVE|9617|R|BloodElf|C|Hunter|
 T Seek the Farstriders|QID|9617|M|60.2,62.8|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
 A Taming the Beast|QID|9484|M|60.2,62.8|N|From Lieutenant Dawnrunner.|PRE|9617|R|BloodElf|C|Hunter|
@@ -246,7 +246,7 @@ C Taming the Beast|QID|9485|N|Tame a Mistbat.|T|Mistbat|U|23703|R|BloodElf|C|Hun
 T Taming the Beast|QID|9485|M|60.2,62.8|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
 A Beast Training|QID|9673|M|60.2,62.8|N|From Lieutenant Dawnrunner.|PRE|9485|R|BloodElf|C|Hunter|
 R The Shepherd's Gate|ACTIVE|9673|M|56.66,49.54|N|Return to Silvermoon City.|R|BloodElf|C|Hunter|
-T Beast Training|QID|9673|M|82.4,28.0|Z|SC|N|To Halthenis, the Pet trainer in Silvermoon City.|R|BloodElf|C|Hunter|
+T Beast Training|QID|9673|M|82.4,28.0|Z|Silvermoon City|N|To Halthenis, the Pet trainer in Silvermoon City.|R|BloodElf|C|Hunter|
 ; -- Mage
 R Stillwhisper Pond|AVAILABLE|9402|M|54.62,54.10|N|Make your way to Stillwhisper Pond.|R|BloodElf|C|Mage|
 A Fetch!|QID|9402|M|55.70,54.51|N|From Instructor Antheol.|LVL|10|R|BloodElf|C|Mage|
@@ -263,14 +263,14 @@ A The Purest Water|QID|9403|M|55.70,54.51|N|From Instructor Antheol.|PRE|9402|R|
 ; -- Paladin (No Class quest until level 12)
 ; -- Priest (Need to run a Priest to do this -Hendo72)
 ; -- Rogue
-A Find Keltus Darkleaf|QID|9532|M|79.6,51.8|Z|SC|N|From Zelanis.| ; Done until Ghostlands
+A Find Keltus Darkleaf|QID|9532|M|79.6,51.8|Z|Silvermoon City|N|From Zelanis.| ; Done until Ghostlands
 : -- Warlock
 A Return to Talionia|QID|10788|N|Don't know where this starts.|R|BloodElf|C|Warlock|
-T Return to Talionia|QID|10788|M|74.4,46.8|Z|SC|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
-A The Stone|QID|9529|M|74.4,46.8|Z|SC|N|From Talionia.|PRE|10788|R|BloodElf|C|Warlock| ; This continues in Ghostlands
+T Return to Talionia|QID|10788|M|74.4,46.8|Z|Silvermoon City|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
+A The Stone|QID|9529|M|74.4,46.8|Z|Silvermoon City|N|From Talionia.|PRE|10788|R|BloodElf|C|Warlock| ; This continues in Ghostlands
 ; Ghostlands
 ;C The Stone|QID|9529|M|42,15|N|To find the blue Voidstone, head down The Dead Scar until you're south of the Elrendar River.|R|BloodElf|C|Warlock|
-;T The Stone|QID|9529|M|74.4,46.8|Z|SC|N|To Talionia.|R|BloodElf|C|Warlock|
+;T The Stone|QID|9529|M|74.4,46.8|Z|Silvermoon City|N|To Talionia.|R|BloodElf|C|Warlock|
 ;A The Rune of Summoning|QID|9619|N|From Talionia.|PRE|9529|R|BloodElf|C|Warlock|
 
 R Thuron's Livery|QID|8888|M|62.00,53.00|N|If you want the explorer achievement, follow the road out of Farstrider Retreat and down the hill.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
@@ -289,7 +289,7 @@ A Abandoned Investigations|QID|8891|M|69.24,52.10|N|From Magister Duskwither's J
 C Third Power Source|QID|8889|M|69.65,53.33|QO|3|N|Head up the stairs again, then deactivate the Third Power Source.|NC|
 T Deactivating the Spire|QID|8889|M|67.80,56.46|N|Click the Orb of Translocation to head back to ground level, then head to Apprentice Loralthalis.|
 A Word from the Spire|QID|8890|M|67.8,56.5|N|[coords]From Apprentice Loralthalis.|PRE|8889|
-R Silvermoon City|ACTIVE|9067|M|56.70,49.48|N|Follow the road northwest into Silvermoon City.|TZ|The Shepherd's Gate.|
+R Silvermoon City|ACTIVE|9067|M|56.70,49.48|N|Follow the road northwest into Silvermoon City.|TZ|3704; The Shepherd's Gate|
 = Visit your trainer|QID|8890|N|If you're unsure of where to find your trainer, you can ask a guard for directions.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
 T Word from the Spire|QID|8890|M|59.41,62.51;60.3,61.4|CS|N|To Magister Duskwither. Back at Farstrider Retreat, up the right ramp.|
@@ -326,10 +326,10 @@ A Whitebark's Memory|QID|10166|M|34,80|N|From Larianna Riverwind.|PRE|8474|
 T Whitebark's Memory|QID|10166|M|37.58,86.14|N|To Whitebark's Spirit. Use the pendant, Whitebark will attack you. Get him down in health, then turn the quest in.|U|28209|
 C A Somber Task|QID|8473|M|35.7,85.2|N|Finish up killing Withered Green Keepers.|US|
 T A Somber Task|QID|8473|M|34.06,80.02|N|To Larianna Riverwind.|
-T Runewarden Deryan|QID|9253|PRE|9252|M|44.20,85.46|N|To Runewarden Deryan.|Z|Eversong Woods|
-A Powering our Defenses |QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|Z|Eversong Woods|
-C Powering our Defenses |QID|8490|U|22693|N|Head to the Runestone Shan'dor, then use the Infused Crystal. You will then need to defend the crystal against two sets of 3 Enraged Wraiths.|Z|Eversong Woods|M|55,84|
-T Powering our Defenses |QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|Z|Eversong Woods|
-N End of Eversong Woods Guide|QID|9144|M|55,84|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the waypoints.\n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|
+T Runewarden Deryan|QID|9253|M|44.20,85.46|N|To Runewarden Deryan.|PRE|9252|
+A Powering our Defenses|QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|
+C Powering our Defenses|QID|8490|M|55,84|N|Head to the Runestone Shan'dor, then use the Infused Crystal. You will then need to defend the crystal against two sets of 3 Enraged Wraiths.|U|22693|
+T Powering our Defenses|QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|
+N End of Eversong Woods Guide|QID|9144|M|55,84|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide. If you're not doing Ghostlands guide, then run to the waypoints.\n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|
 ]]
 end)
