@@ -216,21 +216,14 @@ A The Magister's Apprentice|QID|8888|M|60.31,61.38|N|From Magister Duskwither; u
 L Level 10|QID|8888|N|Class quest time... Grind to level 10 so you can start it.|LVL|10|
 R The Shepherd's Gate|ACTIVE|8888|M|56.66,49.54|N|This is the entrance to Silvermoon City.|
 = Train|ACTIVE|8888|M|71.54,55.76|Z|Silvermoon City|N|Harene Plainwalker in Walk of Elders.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
-= Train|ACTIVE|8888|M|83.40,27.55|Z|Silvermoon City|N|Zandine, Oninath, or Tana in Farstriders' Square (Entrance on north wall).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
-= Train|ACTIVE|8888|M|57.56,20.56|Z|Silvermoon City|N|Quinthas, Zaedana, or Inethven in the Sunfury Spire (north/right alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
+= Train|AVAILABLE|9617|M|83.40,27.55|Z|Silvermoon City|N|Zandine, Oninath, or Tana in Farstriders' Square (Entrance on north wall).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
+= Train|AVAILABLE|9402|M|57.56,20.56|Z|Silvermoon City|N|Quinthas, Zaedana, or Inethven in the Sunfury Spire (north/right alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
 = Train|ACTIVE|8888|M|92.26,36.15|Z|Silvermoon City|N|Lady Liadrin in Farstriders' Square (NE corner).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Paladin|
 = Train|ACTIVE|8888|M|54.96,25.62|Z|Silvermoon City|N|Belestra, Lotheolan, or Aldrae in the Sunfury Spire (south/left alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
-= Train|ACTIVE|8888|M|78.59,51.01|Z|Silvermoon City|N|Zelanis, Nerisen or Elara in Murder Row (2nd Doorway).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
-= Train|ACTIVE|8888|M|74.67,45.01|Z|Silvermoon City|N|Alamma, Zanien, or Talionia in Murder Row (3rd doorway, downstairs).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+= Train|AVAILABLE|9532|M|78.59,51.01|Z|Silvermoon City|N|Zelanis, Nerisen or Elara in Murder Row (2nd Doorway).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
+= Train|AVAILABLE|10788|M|74.67,45.01|Z|Silvermoon City|N|Alamma, Zanien, or Talionia in Murder Row (3rd doorway, downstairs).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
 
 ; -- Level 10 class quests
-A Mage Training|QID|8328|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Mage|
-A Warrior Training|QID|8329|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Warrior|
-A Warlock Training|QID|8563|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Warlock|
-A Priest Training|QID|8564|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Priest|
-A Rogue Training|QID|9392|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Rogue|
-A Hunter Training|QID|9393|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Hunter|
-A Paladin Training|QID|9676|M|38.21,20.83|N|From Magistrix Erona.|PRE|8325|R|BloodElf|C|Paladin|
 ; -- Hunter
 A Seek the Farstriders|QID|9617|M|84.2,26.2|Z|Silvermoon City|N|From Oninath.|LVL|10|R|BloodElf|C|Hunter|
 R Farstrider Retreat|ACTIVE|9617|R|BloodElf|C|Hunter|
@@ -264,7 +257,7 @@ A The Purest Water|QID|9403|M|55.70,54.51|N|From Instructor Antheol.|PRE|9402|R|
 ; -- Priest (Need to run a Priest to do this -Hendo72)
 ; -- Rogue
 A Find Keltus Darkleaf|QID|9532|M|79.6,51.8|Z|Silvermoon City|N|From Zelanis.| ; Done until Ghostlands
-: -- Warlock
+; -- Warlock
 A Return to Talionia|QID|10788|N|Don't know where this starts.|R|BloodElf|C|Warlock|
 T Return to Talionia|QID|10788|M|74.4,46.8|Z|Silvermoon City|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
 A The Stone|QID|9529|M|74.4,46.8|Z|Silvermoon City|N|From Talionia.|PRE|10788|R|BloodElf|C|Warlock| ; This continues in Ghostlands
