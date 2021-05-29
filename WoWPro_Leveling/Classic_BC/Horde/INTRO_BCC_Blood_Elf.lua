@@ -215,31 +215,33 @@ A The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|From Arathel Sunforge.|
 A The Magister's Apprentice|QID|8888|M|60.31,61.38|N|From Magister Duskwither; up the ramp on the right.|LEAD|8889|
 L Level 10|QID|8888|N|Class quest time... Grind to level 10 so you can start it.|LVL|10|
 R The Shepherd's Gate|ACTIVE|8888|M|56.66,49.54|N|This is the entrance to Silvermoon City.|
-= Train|ACTIVE|8888|M|71.54,55.76|Z|Silvermoon City|N|Harene Plainwalker in Walk of Elders.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
-= Train|AVAILABLE|9617|M|83.40,27.55|Z|Silvermoon City|N|Zandine, Oninath, or Tana in Farstriders' Square (Entrance on north wall).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
-= Train|AVAILABLE|9402|M|57.56,20.56|Z|Silvermoon City|N|Quinthas, Zaedana, or Inethven in the Sunfury Spire (north/right alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
-= Train|ACTIVE|8888|M|92.26,36.15|Z|Silvermoon City|N|Lady Liadrin in Farstriders' Square (NE corner).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Paladin|
-= Train|ACTIVE|8888|M|54.96,25.62|Z|Silvermoon City|N|Belestra, Lotheolan, or Aldrae in the Sunfury Spire (south/left alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
-= Train|AVAILABLE|9532|M|78.59,51.01|Z|Silvermoon City|N|Zelanis, Nerisen or Elara in Murder Row (2nd Doorway).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
-= Train|AVAILABLE|10788|M|74.67,45.01|Z|Silvermoon City|N|Alamma, Zanien, or Talionia in Murder Row (3rd doorway, downstairs).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+= Train|ACTIVE|8888|M|71.54,55.76|Z|1954; Silvermoon City|N|Harene Plainwalker in Walk of Elders.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
+= Train|AVAILABLE|9617|M|83.40,27.55|Z|1954; Silvermoon City|N|Zandine, Oninath, or Tana in Farstriders' Square (Entrance on north wall).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
+= Train|AVAILABLE|9402|M|57.56,20.56|Z|1954; Silvermoon City|N|Quinthas, Zaedana, or Inethven in the Sunfury Spire (north/right alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
+= Train|ACTIVE|8888|M|92.26,36.15|Z|1954; Silvermoon City|N|Lady Liadrin in Farstriders' Square (NE corner).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Paladin|
+= Train|ACTIVE|8888|M|54.96,25.62|Z|1954; Silvermoon City|N|Belestra, Lotheolan, or Aldrae in the Sunfury Spire (south/left alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
+= Train|AVAILABLE|9532|M|78.59,51.01|Z|1954; Silvermoon City|N|Zelanis, Nerisen or Elara in Murder Row (2nd Doorway).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
+= Train|AVAILABLE|10788|M|74.67,45.01|Z|1954; Silvermoon City|N|Alamma, Zanien, or Talionia in Murder Row (3rd doorway, downstairs).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
 
 ; -- Level 10 class quests
 ; -- Hunter
-A Seek the Farstriders|QID|9617|M|84.2,26.2|Z|Silvermoon City|N|From Oninath.|LVL|10|R|BloodElf|C|Hunter|
-R Farstrider Retreat|ACTIVE|9617|R|BloodElf|C|Hunter|
-T Seek the Farstriders|QID|9617|M|60.2,62.8|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
-A Taming the Beast|QID|9484|M|60.2,62.8|N|From Lieutenant Dawnrunner.|PRE|9617|R|BloodElf|C|Hunter|
-C Taming the Beast|QID|9484|N|Tame a Crazed Dragonhawk|T|Crazed Dragonhawk|U|23697|R|BloodElf|C|Hunter|NC|
-T Taming the Beast|QID|9484|M|60.2,62.8|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
-A Taming the Beast|QID|9486|M|60.2,62.8|N|From Lieutenant Dawnrunner.|PRE|9484|R|BloodElf|C|Hunter|
-C Taming the Beast|QID|9486|N|Tame an Elder Springpaw.|T|Elder Springpaw|U|23702|R|BloodElf|C|Hunter|NC|
-T Taming the Beast|QID|9486|M|60.2,62.8|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
-A Taming the Beast|QID|9485|M|60.2,62.8|N|From Lieutenant Dawnrunner.|PRE|9486|R|BloodElf|C|Hunter|
-C Taming the Beast|QID|9485|N|Tame a Mistbat.|T|Mistbat|U|23703|R|BloodElf|C|Hunter|NC|
-T Taming the Beast|QID|9485|M|60.2,62.8|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
-A Beast Training|QID|9673|M|60.2,62.8|N|From Lieutenant Dawnrunner.|PRE|9485|R|BloodElf|C|Hunter|
+A Seek the Farstriders|QID|9617|M|84.38,26.02|Z|1954; Silvermoon City|N|From Oninath.|LVL|10|R|BloodElf|C|Hunter|
+R Farstrider Retreat|ACTIVE|9617|M|60.31,61.38|R|BloodElf|C|Hunter|
+T Seek the Farstriders|QID|9617|M|60.32,62.76|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
+A Taming the Beast|QID|9484|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9617|R|BloodElf|C|Hunter|
+C Taming the Beast|QID|9484|M|61.62,65.11|N|Tame a Crazed Dragonhawk|T|Crazed Dragonhawk|U|23697|R|BloodElf|C|Hunter|NC|
+T Taming the Beast|QID|9484|M|60.32,62.76|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
+A Taming the Beast|QID|9486|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9484|R|BloodElf|C|Hunter|
+C Taming the Beast|QID|9486|M|60.34,65.22|N|Tame an Elder Springpaw.\n[color=FF0000]NOTE: [/color]Make sure you dismiss your pet first. Be prepared to be attacked by it when you do.|T|Elder Springpaw|U|23702|R|BloodElf|C|Hunter|NC|
+T Taming the Beast|QID|9486|M|60.32,62.76|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
+A Taming the Beast|QID|9485|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9486|R|BloodElf|C|Hunter|
+R Ghostlands|ACTIVE|9485|M|48.43,10.74|Z|Ghostlands|N|Make your way to East Sanctum and follow the ledge of The Dead Scar south until you meet the road that crosses it. Continue down the road to the southern border.|R|BloodElf|C|Hunter|
+C Taming the Beast|QID|9485|M|48.82,14.02|Z|Ghostlands|N|Tame a Mistbat.|T|Mistbat|U|23703|R|BloodElf|C|Hunter|NC|
+T Taming the Beast|QID|9485|M|60.32,62.76|N|Head back to Lieutenant Dawnrunner in Farstriders Retreat.|R|BloodElf|C|Hunter|
+A Beast Training|QID|9673|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9485|R|BloodElf|C|Hunter|
 R The Shepherd's Gate|ACTIVE|9673|M|56.66,49.54|N|Return to Silvermoon City.|R|BloodElf|C|Hunter|
-T Beast Training|QID|9673|M|82.4,28.0|Z|Silvermoon City|N|To Halthenis, the Pet trainer in Silvermoon City.|R|BloodElf|C|Hunter|
+T Beast Training|QID|9673|M|82.19,28.14|Z|1954; Silvermoon City|N|To Halthenis, the Pet trainer in Silvermoon City.|R|BloodElf|C|Hunter|
+= Beast Training|AVAILABLE|-9673|M|82.19,28.14|Z|1954; Silvermoon City|N|Going forward, make sure you visit your Pet Trainer whenever you visit your regular trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|BloodElf|C|Hunter|IZ|1954; Silvermoon City|
 ; -- Mage
 R Stillwhisper Pond|AVAILABLE|9402|M|54.62,54.10|N|Make your way to Stillwhisper Pond.|R|BloodElf|C|Mage|
 A Fetch!|QID|9402|M|55.70,54.51|N|From Instructor Antheol.|LVL|10|R|BloodElf|C|Mage|
@@ -256,20 +258,20 @@ A The Purest Water|QID|9403|M|55.70,54.51|N|From Instructor Antheol.|PRE|9402|R|
 ; -- Paladin (No Class quest until level 12)
 ; -- Priest (Need to run a Priest to do this -Hendo72)
 ; -- Rogue
-A Find Keltus Darkleaf|QID|9532|M|79.6,51.8|Z|Silvermoon City|N|From Zelanis.| ; Done until Ghostlands
+A Find Keltus Darkleaf|QID|9532|M|79.6,51.8|Z|1954; Silvermoon City|N|From Zelanis.|R|BloodElf|C|Mage| ; Done until Ghostlands
 ; -- Warlock
 A Return to Talionia|QID|10788|N|Don't know where this starts.|R|BloodElf|C|Warlock|
-T Return to Talionia|QID|10788|M|74.4,46.8|Z|Silvermoon City|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
-A The Stone|QID|9529|M|74.4,46.8|Z|Silvermoon City|N|From Talionia.|PRE|10788|R|BloodElf|C|Warlock| ; This continues in Ghostlands
+T Return to Talionia|QID|10788|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
+A The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|From Talionia.|PRE|10788|R|BloodElf|C|Warlock| ; This continues in Ghostlands
 ; Ghostlands
 ;C The Stone|QID|9529|M|42,15|N|To find the blue Voidstone, head down The Dead Scar until you're south of the Elrendar River.|R|BloodElf|C|Warlock|
-;T The Stone|QID|9529|M|74.4,46.8|Z|Silvermoon City|N|To Talionia.|R|BloodElf|C|Warlock|
+;T The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia.|R|BloodElf|C|Warlock|
 ;A The Rune of Summoning|QID|9619|N|From Talionia.|PRE|9529|R|BloodElf|C|Warlock|
 
-R Thuron's Livery|QID|8888|M|62.00,53.00|N|If you want the explorer achievement, follow the road out of Farstrider Retreat and down the hill.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
-T The Magister's Apprentice|QID|8888|M|67.81,56.52|N|To Apprentice Loralthalis. Head out of the city and follow the road east.|
+R Thuron's Livery|QID|8888|M|60.58,54.27|N|If you want the explorer achievement, follow the road east out of Silvermoon City towards Farstrider Retreat. Thuron's Livery is just east of the firstr fork.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue without going.|RANK|3|
+T The Magister's Apprentice|QID|8888|M|67.81,56.47|N|To Apprentice Loralthalis.\n[color=FF0000]NOTE: [/color]Follow the road east up the hill and pass Farstrider Retreat.|
 A Deactivating the Spire|QID|8889|M|67.81,56.51|N|From Apprentice Loralthalis.|
-A Where's Wyllithen?|QID|9394|M|67.81,56.52|N|From Apprentice Loralthalis.|LEAD|8894|
+A Where's Wyllithen?|QID|9394|M|67.81,56.47|N|From Apprentice Loralthalis.|LEAD|8894|
 T Where's Wyllithen?|QID|9394|M|68.71,46.95|N|To Groundskeeper Wyllithen.|
 A Cleaning up the Grounds|QID|8894|M|68.71,46.95|N|From Groundskeeper Wyllithen.|
 C Cleaning up the Grounds|QID|8894|M|68.71,46.95|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|S|
@@ -284,7 +286,7 @@ T Deactivating the Spire|QID|8889|M|67.80,56.46|N|Click the Orb of Translocation
 A Word from the Spire|QID|8890|M|67.8,56.5|N|[coords]From Apprentice Loralthalis.|PRE|8889|
 R Silvermoon City|ACTIVE|9067|M|56.70,49.48|N|Follow the road northwest into Silvermoon City.|TZ|3704; The Shepherd's Gate|
 = Visit your trainer|QID|8890|N|If you're unsure of where to find your trainer, you can ask a guard for directions.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
+B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|1954; Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
 T Word from the Spire|QID|8890|M|59.41,62.51;60.3,61.4|CS|N|To Magister Duskwither. Back at Farstrider Retreat, up the right ramp.|
 T Abandoned Investigations|QID|8891|M|60.3,61.4|N|To Magister Duskwither.|
 C Amani Encroachment|QID|8476|N|Kill trolls that you need for Amani Encroachment while doing the next quests.|S|
