@@ -1,5 +1,5 @@
 -- luacheck: globals _NPCScan
--- luacheck: globals pairs ipairs tinsert tremove sort
+-- luacheck: globals select pairs ipairs tinsert tremove sort
 -- luacheck: globals tostring tonumber
 -- luacheck: globals date type max min coroutine
 -- luacheck: globals debugstack debuglocals geterrorhandler seterrorhandler
