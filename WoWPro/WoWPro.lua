@@ -1,5 +1,5 @@
 -- luacheck: globals _NPCScan
--- luacheck: globals pairs ipairs tinsert tremove sort
+-- luacheck: globals select pairs ipairs tinsert tremove sort
 -- luacheck: globals tostring tonumber
 -- luacheck: globals date type max min coroutine
 -- luacheck: globals debugstack debuglocals geterrorhandler seterrorhandler
@@ -740,7 +740,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
 
     local guide = {
         guidetype = gtype,
-        zone = zonename,
+        zone = select(1, (";"):split(zonename)),
         author = authorname,
         faction = faction,
         name = name,
