@@ -90,10 +90,10 @@ A Completing the Delivery|QID|8350|M|40.42,32.21|N|From Outrunner Alarion.|PRE|9
 R Falconwing Square|ACTIVE|8350|M|46.42,45.93|N|Follow the road west.|
 T Completing the Delivery|QID|8350|M|48.16,47.65|N|To Innkeeper Delaniel.|
 h Falconwing Square|QID|8463|M|48.16,47.65|N|Ask Innkeeper Delaniel to set this inn as your home.\n[color=FF0000]NOTE: [/color]There are class trainers in Falconwing Square, so you won't have to run back to Sunstrider Isle or into Silvermoon, just yet.\nYou'll find a First Aid, Cooking and Jewelcrafting trainer as well.|
-A Cleansing the Scar|QID|9489|M|47.8,47.8|N|From Ponaris inside the Inn.|
-R The Dead Scar|AVAILABLE|9489|M|50,50.8|N|Leave Falconwing Square and follow the wall east to The Dead Scar.|
-C Cleansing the Scar|QID|9489|M|50,50.8|N|Cast Power Word: Fortitude on an Eversong Ranger in The Dead Scar.|T|Eversong Ranger|
-T Cleansing the Scar|QID|9489|M|47.8,47.8|N|To Ponaris inside the Inn.|
+A Cleansing the Scar|QID|9489|M|47.8,47.8|N|From Ponaris inside the Inn.|R|BloodElf|C|Priest|
+R The Dead Scar|AVAILABLE|9489|M|50,50.8|N|Leave Falconwing Square and follow the wall east to The Dead Scar.|R|BloodElf|C|Priest|
+C Cleansing the Scar|QID|9489|M|50,50.8|N|Cast Power Word: Fortitude on an Eversong Ranger in The Dead Scar.|T|Eversong Ranger|R|BloodElf|C|Priest|
+T Cleansing the Scar|QID|9489|M|47.8,47.8|N|To Ponaris inside the Inn.|R|BloodElf|C|Priest|
 A Unstable Mana Crystals|QID|8463|M|48.16,46.00|N|From Aeldon Sunbrand, back outside of the inn.|
 A Wanted: Thaelis the Hungerer |QID|8468|M|48.17,46.30|N|From 'Wanted: Thaelis the Hungerer' signpost.| ; Extra space required for auto-accept
 = Weapon Master|ACTIVE|8463^8468^8472|M|48.34,45.94|N|Visit Duelist Larenis if you wish to learn other weapons.\n[color=FF0000]NOTE: [/color]He teaches Bows, Daggers, 1H/2H Swords, Polearms, and Thrown. You'll only see the weapons that you can learn.\n\nManually check this step off to continue.|
