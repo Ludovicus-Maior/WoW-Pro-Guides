@@ -622,9 +622,10 @@ T The Black Shield |QID|1251|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
 A The Black Shield|QID|1321|PRE|1268&1251|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|
 T The Black Shield|QID|1321|M|36.53,30.79|Z|Dustwallow Marsh|N|To Do'gol.|
 A The Black Shield|QID|1322|PRE|1321|M|36.53,30.79|Z|Dustwallow Marsh|N|From Do'gol.|
-C The Black Shield|QID|1322|M|35.54,40.01|Z|Dustwallow Marsh|N|Kill Darkfang spiders to collect the Acidic Venom Sacs.|S|
+C The Black Shield|QID|1322|M|33.00,22.00|Z|Dustwallow Marsh|N|Kill Darkfang spiders to collect the Acidic Venom Sacs.|S|
 K Theramore Spies|ACTIVE|1201|M|38.00,26.95|Z|Dustwallow Marsh|QO|1|N|You'll find them outside of the village to the north and south.|
-C The Black Shield|QID|1322|M|35.54,40.01|Z|Dustwallow Marsh|N|Kill Darkfang spiders to collect the Acidic Venom Sacs.|US|
+C The Black Shield|QID|1322|M|33.00,22.00|Z|Dustwallow Marsh|N|Kill Darkfang spiders to collect the Acidic Venom Sacs.|US|
+T The Black Shield|QID|1322|M|36.53,30.79|Z|Dustwallow Marsh|N|To Do'gol.|
 A The Black Shield|QID|1323|M|36.53,30.79|Z|Dustwallow Marsh|N|From Do'gol.|PRE|1322|
 T The Black Shield|QID|1323|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
 T Theramore Spies|QID|1201|M|35.21,30.66|Z|Dustwallow Marsh|N|To Nazeer Bloodpike.|

@@ -22,13 +22,10 @@ F Menethil Harbor|ACTIVE|1179|M|55.60,47.40|N|Fly to Menethil Harbor.|IZ|1455|
 b Theramore Isle|QID|1282|M|5,63.51|Z|Wetlands|N|Take the boat to Theramore.\nNote: If still in Darnassus take the boat from Darkshore to Menethil Harbor first|
 
 f Theramore|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|
-B Soothing Spices|QID|1218|M|66.44,51.46|Z|Dustwallow Marsh|N|Buy from Helenia Olden.|L|3713 3|
 h Theramore Isle|QID|1282|M|66.60,45.20|Z|Dustwallow Marsh|N|Make Theramore your home location.|
 r Sell junk, repair, restock.|QID|1282|N|Sell junk, repair, restock.|
 A They Call Him Smiling Jim|QID|1282|M|66.15,46.07|Z|Dustwallow Marsh|N|From Guard Byron.|
 T They Call Him Smiling Jim|QID|1282|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
-A Soothing Spices|QID|1218|M|55.44,26.27|Z|Dustwallow Marsh|N|Follow the road untill you see the house across the river Do NOT go cross country. From "Swamp Eye" Jarl.|
-T Soothing Spices|QID|1218|M|55.44,26.27|Z|Dustwallow Marsh|N|To "Swamp Eye" Jarl. Do not accept the followup.|
 A The Orc Report|QID|1219|M|55.45,25.93|Z|Dustwallow Marsh|N|Click the Loose Dirt on the grave behind the house.|
 
 R Shady Rest Inn|AVAILABLE|1100|M|45.3,23.2;29.71,47.64|CS|Z|Dustwallow Marsh|N|Follow the road Northwest and then south towards the Barrens. Be on alert for mobs that path close to road. Stick to the road.|
