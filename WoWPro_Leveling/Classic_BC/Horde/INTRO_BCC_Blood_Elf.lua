@@ -214,7 +214,7 @@ B Springpaw Appetizers|QID|9067|M|60.40,62.46|QO|2|N|Buy Springpaw Appetizers fr
 A The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|From Arathel Sunforge.|
 A The Magister's Apprentice|QID|8888|M|60.31,61.38|N|From Magister Duskwither; up the ramp on the right.|LEAD|8889|
 L Level 10|QID|8888|N|Class quest time... Grind to level 10 so you can start it.|LVL|10|
-R Silvermoon City|ACTIVE|9067|M|56.70,49.48|N|Follow the road northwest into Silvermoon City. Shepherd's Gate is the entrance to Silvermoon City|TZ|The Shepherd's Gate|
+R Silvermoon City|ACTIVE|8888|M|56.70,49.48|N|Follow the road northwest into Silvermoon City. Shepherd's Gate is the entrance to Silvermoon City|TZ|The Shepherd's Gate|
 B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|1954; Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
 = Train|ACTIVE|8888|M|71.54,55.76|Z|1954; Silvermoon City|N|Harene Plainwalker in Walk of Elders.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
 = Train|AVAILABLE|9617|M|83.40,27.55|Z|1954; Silvermoon City|N|Zandine, Oninath, or Tana in Farstriders' Square (Entrance on north wall).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
@@ -252,10 +252,10 @@ A The Purest Water|QID|9403|M|55.70,54.51|N|From Instructor Antheol.|PRE|9402|R|
 R Elrendar Falls|ACTIVE|9403|M|64.00,73.00|N|Head to the base of Elrendar Falls.|R|BloodElf|C|Mage|
 C The Purest Water|QID|9403|M|64.21,72.66|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|U|23566|R|BloodElf|C|Mage|
 T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
-A Recent Living|QID|9404|M|55.70,54.51|N|From Instructor Antheol.|PRE|9403|R|BloodElf|C|Mage|
+A Recently Living|QID|9404|M|55.70,54.51|N|From Instructor Antheol.|PRE|9403|R|BloodElf|C|Mage|
 R The Living Wood|ACTIVE|9404|M|57.42,67.55|N|Make your way to the south side of the river and follow it south. Cross it when you reach the bend.|R|BloodElf|C|Mage|
-C Recent Living|QID|9404|M|57.30,70.35|L|23553|N|Kill Eversong Green Keepers until one drops a Living Branch.|R|BloodElf|C|Mage| ; This can be done later
-T Recent Living|QID|9404|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+C Recently Living|QID|9404|M|57.30,70.35|L|23553|N|Kill Eversong Green Keepers until one drops a Living Branch.|R|BloodElf|C|Mage| ; This can be done later
+T Recently Living|QID|9404|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 ; -- Paladin (No Class quest until level 12)
 ; -- Priest (Need to run a Priest to do this -Hendo72)
 ; -- Rogue
@@ -287,17 +287,18 @@ R Farstrider Retreat|ACTIVE|8890|M|60.31,61.38|N|Exit Silvermoon City and follow
 T Word from the Spire|QID|8890|M|69.24,52.10|N|To Magister Duskwither; up the ramp on the right.|
 T Abandoned Investigations|QID|8891|M|69.24,52.10|N|To Magister Duskwither.|
 K Amani Encroachment|ACTIVE|8476|M|69.00,72.00|QO|1;2|N|Kill Amani Berserkers and Axe Throwers.|S|
-K Spearcrafter Otembe|ACTIVE|8477|M|70.07,72.37|QO|1|N|Locate Spearcrafter Otembe standing on the .|
+R Tor'Watha|ACTIVE|8475^8477|M|66.51,69.35|N|Head east out Farstrider Retreat and up the hill towards the monument. The road leads in to Tor'Watha.|
+K Spearcrafter Otembe|ACTIVE|8477|M|70.07,72.37|QO|1|N|Locate Spearcrafter Otembe standing on the 'grassy gnoll' in the middle of the camp.|
 A Zul'Marosh|QID|8479|M|70.53,72.33|N|From Ven'jashi.|
-K Chieftain Zul'Marosh|QID|8479|M|61.60,79.60|L|23249|N|Head west across the water to the next troll camp. Zul'Marosh is in the big building on the top floor. Pull guards first.|T|Chieftain Zul'Marosh|
-A Amani Invasion|QID|9360|M|PLAYER|N|From the Amani Invasion Plans.|U|23249|
-T Zul'Marosh|QID|8479|M|70.53,72.33|N|To Ven'jashi.|
+R Zeb'Watha|ACTIVE|8479|M|64.52,78.04|N|Head west across the water to the next troll camp.\n[color=FF0000]NOTE: [/color]You can either swim or take the path.|
+K Chieftain Zul'Marosh|ACTIVE|8479|M|61.60,79.60|QO|1|N|Zul'Marosh is in the big building on the top floor. \n[color=FF0000]NOTE: [/color]Clear the guards first or they will join the fight.|T|Chieftain Zul'Marosh|
+A Amani Invasion|QID|9360|M|PLAYER|N|From the Amani Invasion Plans that .|U|23249|O|
+T Zul'Marosh|QID|8479|M|70.53,72.33|N|To Ven'jashi in Tor'Watha.|
 K Amani Encroachment|ACTIVE|8476|M|69.00,72.00|QO|1;2|N|Kill Amani Berserkers and Axe Throwers.|US|
 T Amani Encroachment|QID|8476|M|60.32,62.77|N|To Lieutenant Dawnrunner at the Farstrider Retreat.|
 T Amani Invasion|QID|9360|M|60.32,62.77|N|To Lieutenant Dawnrunner.|
 A Warning Fairbreeze Village|QID|9363|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9360|
 T The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|To Arathel Sunforge.|
-T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 H Fairbreeze Village|ACTIVE|9255|M|PLAYER|N|Hearth to Fairbreeze Village.|
 A The Scorched Grove|QID|9258|M|43.58,71.20|N|From Ardeyn Riverwind.|LEAD|8473|
 T Research Notes|QID|9255|M|44.03,70.76|N|To Magistrix Landra Dawnstrider.|
