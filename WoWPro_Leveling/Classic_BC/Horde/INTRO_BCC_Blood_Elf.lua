@@ -214,10 +214,11 @@ B Springpaw Appetizers|QID|9067|M|60.40,62.46|QO|2|N|Buy Springpaw Appetizers fr
 A The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|From Arathel Sunforge.|
 A The Magister's Apprentice|QID|8888|M|60.31,61.38|N|From Magister Duskwither; up the ramp on the right.|LEAD|8889|
 L Level 10|QID|8888|N|Class quest time... Grind to level 10 so you can start it.|LVL|10|
-R The Shepherd's Gate|ACTIVE|8888|M|56.66,49.54|N|This is the entrance to Silvermoon City.|
+R Silvermoon City|ACTIVE|9067|M|56.70,49.48|N|Follow the road northwest into Silvermoon City. Shepherd's Gate is the entrance to Silvermoon City|TZ|The Shepherd's Gate|
+B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|1954; Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
 = Train|ACTIVE|8888|M|71.54,55.76|Z|1954; Silvermoon City|N|Harene Plainwalker in Walk of Elders.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
 = Train|AVAILABLE|9617|M|83.40,27.55|Z|1954; Silvermoon City|N|Zandine, Oninath, or Tana in Farstriders' Square (Entrance on north wall).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
-= Train|AVAILABLE|9402|M|57.56,20.56|Z|1954; Silvermoon City|N|Quinthas, Zaedana, or Inethven in the Sunfury Spire (north/right alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
+= Train|ACTIVE|8888|M|57.56,20.56|Z|1954; Silvermoon City|N|Quinthas, Zaedana, or Inethven in the Sunfury Spire (north/right alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
 = Train|ACTIVE|8888|M|92.26,36.15|Z|1954; Silvermoon City|N|Lady Liadrin in Farstriders' Square (NE corner).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Paladin|
 = Train|ACTIVE|8888|M|54.96,25.62|Z|1954; Silvermoon City|N|Belestra, Lotheolan, or Aldrae in the Sunfury Spire (south/left alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
 = Train|AVAILABLE|9532|M|78.59,51.01|Z|1954; Silvermoon City|N|Zelanis, Nerisen or Elara in Murder Row (2nd Doorway).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
@@ -248,11 +249,13 @@ A Fetch!|QID|9402|M|55.70,54.51|N|From Instructor Antheol.|LVL|10|R|BloodElf|C|M
 C Fetch!|QID|9402|M|54.87,56.38|L|23551|N|Dive into the middle of the lake and retrieve the phial from the bottom.|R|BloodElf|C|Mage|
 T Fetch!|QID|9402|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 A The Purest Water|QID|9403|M|55.70,54.51|N|From Instructor Antheol.|PRE|9402|R|BloodElf|C|Mage|
-;T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
-;A Recent Living|QID|9404|M|55.70,54.51|N|From Instructor Antheol.|PRE|9403|R|BloodElf|C|Mage|
-;R The Living Wood|ACTIVE|9404|M|57.42,67.55|N|Make your way to the south side of the river and follow it south. Cross it when you reach the bend.|R|BloodElf|C|Mage|
-;C Recent Living|QID|9404|M|57.30,70.35|L|23553|N|Kill Eversong Green Keepers until one drops a Living Branch.|R|BloodElf|C|Mage| ; This can be done later
-;T Recent Living|QID|9404|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+R Elrendar Falls|ACTIVE|9403|M|64.00,73.00|N|Head to the base of Elrendar Falls.|R|BloodElf|C|Mage|
+C The Purest Water|QID|9403|M|64.21,72.66|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|U|23566|R|BloodElf|C|Mage|
+T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+A Recent Living|QID|9404|M|55.70,54.51|N|From Instructor Antheol.|PRE|9403|R|BloodElf|C|Mage|
+R The Living Wood|ACTIVE|9404|M|57.42,67.55|N|Make your way to the south side of the river and follow it south. Cross it when you reach the bend.|R|BloodElf|C|Mage|
+C Recent Living|QID|9404|M|57.30,70.35|L|23553|N|Kill Eversong Green Keepers until one drops a Living Branch.|R|BloodElf|C|Mage| ; This can be done later
+T Recent Living|QID|9404|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 ; -- Paladin (No Class quest until level 12)
 ; -- Priest (Need to run a Priest to do this -Hendo72)
 ; -- Rogue
@@ -267,10 +270,10 @@ A The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|From Talionia.|PRE|10
 ;A The Rune of Summoning|QID|9619|N|From Talionia.|PRE|9529|R|BloodElf|C|Warlock|
 
 R Thuron's Livery|QID|8888|M|60.58,54.27|N|If you want the explorer achievement, follow the road east out of Silvermoon City towards Farstrider Retreat. Thuron's Livery is just east of the firstr fork.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue without going.|RANK|3|
-T The Magister's Apprentice|QID|8888|M|67.81,56.47|N|To Apprentice Loralthalis.\n[color=FF0000]NOTE: [/color]Follow the road east up the hill and pass Farstrider Retreat.|
-A Deactivating the Spire|QID|8889|M|67.81,56.51|N|From Apprentice Loralthalis.|
-A Where's Wyllithen?|QID|9394|M|67.81,56.47|N|From Apprentice Loralthalis.|LEAD|8894|
-T Where's Wyllithen?|QID|9394|M|68.71,46.95|N|To Groundskeeper Wyllithen.|
+T The Magister's Apprentice|QID|8888|M|67.81,56.55|N|To Apprentice Loralthalis (She moves around a bit).\n[color=FF0000]NOTE: [/color]Follow the road east up the hill and pass Farstrider Retreat.|
+A Deactivating the Spire|QID|8889|M|67.81,56.55|N|From Apprentice Loralthalis.|
+A Where's Wyllithen?|QID|9394|M|67.81,56.55|N|From Apprentice Loralthalis.|LEAD|8894|
+T Where's Wyllithen?|QID|9394|M|68.71,46.95|N|To Groundskeeper Wyllithen, at the end of the road.\n[color=FF0000]NOTE: [/color]If you stick to the top edge of the east cliff on your way down, you'll encounter fewer mobs.|
 A Cleaning up the Grounds|QID|8894|M|68.71,46.95|N|From Groundskeeper Wyllithen.|
 K Cleaning up the Grounds|ACTIVE|8894|M|68.10,45.54|QO|1;2|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|S|
 C First Power Source|QID|8889|M|68.93,52.01|QO|1|N|Up the stairs to find and use the Orb of Translocation, then up more stairs, click to  deactivate the First Power Source.|NC|
@@ -282,25 +285,21 @@ T Cleaning up the Grounds|QID|8894|M|68.71,46.96|N|To Groundskeeper Wyllithen.|
 R Azurebreeze Coast|QID|8894|M|72.00,43.00|N|If you want the explorer achievement, head to Azurebreeze Coast.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 T Deactivating the Spire|QID|8889|M|67.80,56.46|N|To Apprentice Loralthalis.|
 A Word from the Spire|QID|8890|M|67.81,56.47|N|From Apprentice Loralthalis.|PRE|8889|
-R Silvermoon City|ACTIVE|9067|M|56.70,49.48|N|Follow the road northwest into Silvermoon City.|TZ|The Shepherd's Gate|
-= Visit your trainer|ACTIVE|8890|N|If you're unsure of where to find your trainer, you can ask a guard for directions.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|1954; Silvermoon City|
-B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|1954; Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
 R Farstrider Retreat|ACTIVE|8890|M|60.31,61.38|N|Exit Silvermoon City and follow the road east to Farstrider Retreat.|
 T Word from the Spire|QID|8890|M|69.24,52.10|N|To Magister Duskwither; up the ramp on the right.|
 T Abandoned Investigations|QID|8891|M|69.24,52.10|N|To Magister Duskwither.|
+R Elrendar Falls|ACTIVE|8476|M|64.00,73.00|N|If you want the explorer achievement, head to Elrendar Falls.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 K Amani Encroachment|ACTIVE|8476|M|69.00,72.00|QO|1;2|N|Kill Amani Berserkers and Axe Throwers.|S|
 K Spearcrafter Otembe|ACTIVE|8477|M|70.07,72.37|QO|1|N|Locate Spearcrafter Otembe standing on the .|
 A Zul'Marosh|QID|8479|M|70.53,72.33|N|From Ven'jashi.|
 K Chieftain Zul'Marosh|QID|8479|M|61.60,79.60|L|23249|N|Head west across the water to the next troll camp. Zul'Marosh is in the big building on the top floor. Pull guards first.|T|Chieftain Zul'Marosh|
 A Amani Invasion|QID|9360|M|PLAYER|N|From the Amani Invasion Plans.|U|23249|
-T Zul'Marosh|QID|8479|M|70.5,72.3|N|To Ven'jashi.|
+T Zul'Marosh|QID|8479|M|70.53,72.33|N|To Ven'jashi.|
 K Amani Encroachment|ACTIVE|8476|M|69.00,72.00|QO|1;2|N|Kill Amani Berserkers and Axe Throwers.|US|
-R Elrendar Falls|QID|9360|M|64.00,73.00|N|If you want the explorer achievement, head to Elrendar Falls.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 T Amani Encroachment|QID|8476|M|60.32,62.77|N|To Lieutenant Dawnrunner at the Farstrider Retreat.|
 T Amani Invasion|QID|9360|M|60.32,62.77|N|To Lieutenant Dawnrunner.|
 A Warning Fairbreeze Village|QID|9363|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9360|
 T The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|To Arathel Sunforge.|
-C The Purest Water|QID|9403|M|64.21,72.66|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|U|23566|R|BloodElf|C|Mage|
 T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 H Fairbreeze Village|ACTIVE|9255|M|PLAYER|N|Hearth to Fairbreeze Village.|
 A The Scorched Grove|QID|9258|M|43.58,71.20|N|From Ardeyn Riverwind.|LEAD|8473|
