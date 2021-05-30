@@ -269,7 +269,6 @@ A The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|From Talionia.|PRE|10
 ;T The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia.|R|BloodElf|C|Warlock|
 ;A The Rune of Summoning|QID|9619|N|From Talionia.|PRE|9529|R|BloodElf|C|Warlock|
 
-R Thuron's Livery|QID|8888|M|60.58,54.27|N|If you want the explorer achievement, follow the road east out of Silvermoon City towards Farstrider Retreat. Thuron's Livery is just east of the firstr fork.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue without going.|RANK|3|
 T The Magister's Apprentice|QID|8888|M|67.81,56.55|N|To Apprentice Loralthalis (She moves around a bit).\n[color=FF0000]NOTE: [/color]Follow the road east up the hill and pass Farstrider Retreat.|
 A Deactivating the Spire|QID|8889|M|67.81,56.55|N|From Apprentice Loralthalis.|
 A Where's Wyllithen?|QID|9394|M|67.81,56.55|N|From Apprentice Loralthalis.|LEAD|8894|
@@ -282,13 +281,11 @@ A Abandoned Investigations|QID|8891|M|69.24,52.10|N|From Magister Duskwither's J
 C Third Power Source|QID|8889|M|69.65,53.33|QO|3|N|Head up the stairs again, then deactivate the Third Power Source.|NC|
 K Cleaning up the Grounds|ACTIVE|8894|M|68.10,45.54|QO|1;2|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|US|
 T Cleaning up the Grounds|QID|8894|M|68.71,46.96|N|To Groundskeeper Wyllithen.|
-R Azurebreeze Coast|QID|8894|M|72.00,43.00|N|If you want the explorer achievement, head to Azurebreeze Coast.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 T Deactivating the Spire|QID|8889|M|67.80,56.46|N|To Apprentice Loralthalis.|
 A Word from the Spire|QID|8890|M|67.81,56.47|N|From Apprentice Loralthalis.|PRE|8889|
 R Farstrider Retreat|ACTIVE|8890|M|60.31,61.38|N|Exit Silvermoon City and follow the road east to Farstrider Retreat.|
 T Word from the Spire|QID|8890|M|69.24,52.10|N|To Magister Duskwither; up the ramp on the right.|
 T Abandoned Investigations|QID|8891|M|69.24,52.10|N|To Magister Duskwither.|
-R Elrendar Falls|ACTIVE|8476|M|64.00,73.00|N|If you want the explorer achievement, head to Elrendar Falls.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 K Amani Encroachment|ACTIVE|8476|M|69.00,72.00|QO|1;2|N|Kill Amani Berserkers and Axe Throwers.|S|
 K Spearcrafter Otembe|ACTIVE|8477|M|70.07,72.37|QO|1|N|Locate Spearcrafter Otembe standing on the .|
 A Zul'Marosh|QID|8479|M|70.53,72.33|N|From Ven'jashi.|
