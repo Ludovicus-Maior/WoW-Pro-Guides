@@ -12,13 +12,13 @@ A Boulderslide Ravine|QID|6421|M|47.22,64.05|N|From Mor'rogal. You'll find him j
 h Sun Rock Retreat|QID|1483|M|47.46,62.13|N|Head back down the path to the 'Inn' and set your hearthstone to Sun Rock Retreat.|
 R Windshear Crag|ACTIVE|1483|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
 T Ziz Fizziks|QID|1483|M|58.99,62.61|N|Follow the road into Windshear Crag. Ziz Fizziks is inside a hut in a SW alcove.|
-A Super Reaper 6000|QID|1093|M|58.99,62.61|N|From Ziz Fizziks.|
+A Super Reaper 6000|QID|1093|M|58.99,62.61|N|From Ziz Fizziks.|PRE|1483|
 C Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|S|
-K Goblin Invaders|QID|1062|QO|1|N|Kill Venture Co. Loggers.\n[color=FF0000]NOTE: [/color]Deforesters and Operators do not count.|S|
+K Goblin Invaders|ACTIVE|1062|QO|1|N|Kill Venture Co. Loggers.\n[color=FF0000]NOTE: [/color]Deforesters and Operators do not count.|S|
 N Lockpicking|ACTIVE|1062&1093|N|You'll find Battered Footlockers scattered around the area that you can open for some goodies and a skill point.\nCheck this step off to continue.|C|Rogue|
 R Head into Windshear Crag|QID|1062|M|63.35,57.72|CC|N|Head to the deforested area of Windshear Crag.|
 C Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|US|
-K Goblin Invaders|QID|1062|QO|1|N|Finish killing Venture Co. Loggers.\n[color=FF0000]NOTE: [/color]Deforesters and Operators do not count.|US|
+K Goblin Invaders|ACTIVE|1062|QO|1|N|Finish killing Venture Co. Loggers.\n[color=FF0000]NOTE: [/color]Deforesters and Operators do not count.|US|
 T Super Reaper 6000|QID|1093|M|58.99,62.61|N|To Ziz Fizziks.|
 A Further Instructions|QID|1094|M|58.99,62.61|N|From Ziz Fizziks.|PRE|1093|
 R Webwinder Path|ACTIVE|6421|M|59.79,71.19|N|Make your way back to the signpost at the Windshear Crag entrance.|
@@ -188,7 +188,7 @@ T Further Instructions|QID|1094|M|62.98,37.18|Z|The Barrens|N|To Sputtervalve.|
 A Further Instructions|QID|1095|M|62.98,37.18|Z|The Barrens|N|From Sputtervalve.|PRE|1094|
 T Mahren Skyseer|QID|874|M|65.84,43.86|Z|The Barrens|N|To Mahren Skyseer at The Tidus Stair.\nYou can either swim there, or follow the road. Running along the shoreline will take longer because the shore isn't a straight line and you'll end up swimming at several points along the way.|
 A Isha Awak|QID|873|M|65.84,43.86|Z|The Barrens|N|From Mahren Skyseer.|PRE|874|
-K Isha Awak|QID|873|M|65.39,46.91;63.56,53.93|Z|The Barrens|CC|QO|1|N|Jump into the water and start swimming east. Locate Isha Awak, kill it and loot its heart.\nIt can be found in the water between the next point and Northwatch Hold.\n[color=FF0000]NOTE: [/color]If you don't want to swim, the targeting button works from the shore. ;)|T|Isha Awak|
+K Isha Awak|ACTIVE|873|M|65.39,46.91;63.56,53.93|Z|The Barrens|CC|QO|1|N|Jump into the water and start swimming east. Locate Isha Awak, kill it and loot its heart.\nIt can be found in the water between the next point and Northwatch Hold.\n[color=FF0000]NOTE: [/color]If you don't want to swim, the targeting button works from the shore. ;)|T|Isha Awak|
 T Isha Awak|QID|873|M|65.84,43.86|Z|The Barrens|N|Choosing your own path of travel, make your way back to Mahren Skyseer.|
 N Booty Bay|ACTIVE|6571|N|Before returning to Stonetalon Mountains, we're taking a side trip to Booty Bay to pick up a quest item. This is the last time we will be in Ratchet to make this trip.|
 
