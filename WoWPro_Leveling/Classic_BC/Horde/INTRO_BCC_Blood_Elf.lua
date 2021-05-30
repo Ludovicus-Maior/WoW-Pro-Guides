@@ -274,28 +274,29 @@ A Deactivating the Spire|QID|8889|M|67.81,56.51|N|From Apprentice Loralthalis.|
 A Where's Wyllithen?|QID|9394|M|67.81,56.47|N|From Apprentice Loralthalis.|LEAD|8894|
 T Where's Wyllithen?|QID|9394|M|68.71,46.95|N|To Groundskeeper Wyllithen.|
 A Cleaning up the Grounds|QID|8894|M|68.71,46.95|N|From Groundskeeper Wyllithen.|
-C Cleaning up the Grounds|QID|8894|M|68.71,46.95|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|S|
+K Cleaning up the Grounds|ACTIVE|8894|M|68.10,45.54|QO|1;2|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|S|
 R Azurebreeze Coast|QID|8894|M|72.00,43.00|N|If you want the explorer achievement, head to Azurebreeze Coast.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
-C Cleaning up the Grounds|QID|8894|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|US|
-T Cleaning up the Grounds|QID|8894|M|68.71,46.96|N|To Groundskeeper Wyllithen.|
-C First Power Source|QID|8889|M|68.92,51.96|QO|1|N|Up the stairs to find and use the Orb of Translocation, then up more stairs, click to  deactivate the First Power Source.|NC|
+C First Power Source|QID|8889|M|68.93,52.01|QO|1|N|Up the stairs to find and use the Orb of Translocation, then up more stairs, click to  deactivate the First Power Source.|NC|
 C Second Power Source|QID|8889|M|68.95,51.93|QO|2|N|Continue up more stairs, then deactivate the Second Power Source.|NC|
 A Abandoned Investigations|QID|8891|M|69.24,52.10|N|From Magister Duskwither's Journal on the table near the door.|
 C Third Power Source|QID|8889|M|69.65,53.33|QO|3|N|Head up the stairs again, then deactivate the Third Power Source.|NC|
+K Cleaning up the Grounds|ACTIVE|8894|M|68.10,45.54|QO|1;2|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|US|
+T Cleaning up the Grounds|QID|8894|M|68.71,46.96|N|To Groundskeeper Wyllithen.|
 T Deactivating the Spire|QID|8889|M|67.80,56.46|N|Click the Orb of Translocation to head back to ground level, then head to Apprentice Loralthalis.|
-A Word from the Spire|QID|8890|M|67.8,56.5|N|[coords]From Apprentice Loralthalis.|PRE|8889|
-R Silvermoon City|ACTIVE|9067|M|56.70,49.48|N|Follow the road northwest into Silvermoon City.|TZ|3704; The Shepherd's Gate|
-= Visit your trainer|QID|8890|N|If you're unsure of where to find your trainer, you can ask a guard for directions.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A Word from the Spire|QID|8890|M|67.81,56.47|N|From Apprentice Loralthalis.|PRE|8889|
+R Silvermoon City|ACTIVE|9067|M|56.70,49.48|N|Follow the road northwest into Silvermoon City.|TZ|The Shepherd's Gate|
+= Visit your trainer|ACTIVE|8890|N|If you're unsure of where to find your trainer, you can ask a guard for directions.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|1954; Silvermoon City|
 B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|1954; Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
-T Word from the Spire|QID|8890|M|59.41,62.51;60.3,61.4|CS|N|To Magister Duskwither. Back at Farstrider Retreat, up the right ramp.|
-T Abandoned Investigations|QID|8891|M|60.3,61.4|N|To Magister Duskwither.|
-C Amani Encroachment|QID|8476|N|Kill trolls that you need for Amani Encroachment while doing the next quests.|S|
-K Spearcrafter Otembe|QID|8477|M|70,72|QO|1|N|Head to southeast to the trolls, toward Spearcrafter Otembe. Kill trolls that you need for Amani Encroachment while you go.|
-A Zul'Marosh|QID|8479|M|70.5,72.3|N|From Ven'jashi.|
+R Farstrider Retreat|ACTIVE|8890|M|60.31,61.38|N|Exit Silvermoon City and follow the road east to Farstrider Retreat.|
+T Word from the Spire|QID|8890|M|69.24,52.10|N|To Magister Duskwither; up the ramp on the right.|
+T Abandoned Investigations|QID|8891|M|69.24,52.10|N|To Magister Duskwither.|
+K Amani Encroachment|ACTIVE|8476|QO|1;2|N|Kill trolls that you need for Amani Encroachment while doing the next quests.|S|
+K Spearcrafter Otembe|ACTIVE|8477|M|70.07,72.37|QO|1|N|Locate Spearcrafter Otembe standing on the .|
+A Zul'Marosh|QID|8479|M|70.53,72.33|N|From Ven'jashi.|
 K Chieftain Zul'Marosh|QID|8479|M|61.60,79.60|L|23249|N|Head west across the water to the next troll camp. Zul'Marosh is in the big building on the top floor. Pull guards first.|T|Chieftain Zul'Marosh|
 A Amani Invasion|QID|9360|M|PLAYER|N|From the Amani Invasion Plans.|U|23249|
 T Zul'Marosh|QID|8479|M|70.5,72.3|N|To Ven'jashi.|
-C Amani Encroachment|QID|8476|M|69.00,72.00|N|Finish killing Trolls needed.|US|
+K Amani Encroachment|ACTIVE|8476|M|69.00,72.00|QO|1;2|N|Finish killing Trolls needed.|US|
 R Elrendar Falls|QID|9360|M|64.00,73.00|N|If you want the explorer achievement, head to Elrendar Falls.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 T Amani Encroachment|QID|8476|M|60.32,62.77|N|To Lieutenant Dawnrunner at the Farstrider Retreat.|
 T Amani Invasion|QID|9360|M|60.32,62.77|N|To Lieutenant Dawnrunner.|
