@@ -253,7 +253,7 @@ F Stormwind|AVAILABLE|3765|N|Fly to Stormwind|M|77.50, 44.30|Z|Duskwood|
 T Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
 T Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
 T Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
-A The Corruption Abroad|QID|3765|M|21.40,55.79|Z|Stormwind City|N|From Argos Nightwhisper.|TAXI|Thelsamar|
+A The Corruption Abroad|QID|3765|M|21.40,55.79|Z|Stormwind City|N|From Argos Nightwhisper.|LEAD|1275|
 
 A Mathias and the Defias|QID|2360|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest. Details of this quest is on the 20-21 Redridge guide.|C|Rogue|
 
@@ -342,9 +342,9 @@ T Young Crocolisk Skins|QID|484|M|8.49,55.7|N|To James Halloran.|Z|Wetlands|
 T Claws from the Deep|QID|279|M|8.33,58.52|N|To Karl Boran.|Z|Wetlands|
 
 ; Ashenvale 23-25
-b Darkshore|ACTIVE|3765|M|4.61,57.07|N|Take Boat to Auberdine.|Z|Wetlands|
+b Darkshore|AVAILABLE|1008|M|4.61,57.07|N|Take Boat to Auberdine.|Z|Wetlands|
 T The Corruption Abroad|QID|3765|M|38.33,43.04|N|To Gershala Nightwhisper.|Z|Darkshore|
-A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|PRE|3765|Z|Darkshore|
+A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|Z|Darkshore|
 f Auberdine|QID|965|M|36.34,45.58|N|Get the flightpath.|Z|Darkshore|
 b Rut'theran Village|QID|965|M|33.19,40.1|Z|Darkshore|N|Take the boat to Rut'theran Village. Main thing is getting the flightpath over with, there are some BFD dungeon quests here as well.|R|-NightElf|
 F Rut'theran Village|QID|1198|M|55.92,89.5|Z|Teldrassil|N|Train you skills sell and repair and get more BFD quests so you can start looking for groups.|LVL|20|
