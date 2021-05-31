@@ -202,7 +202,7 @@ T The Wayward Apprentice|QID|9254|M|54.28,70.98|N|Make your way to Apprentice Mi
 A Corrupted Soil|QID|8487|M|54.28,70.98|N|From Apprentice Mirveda.|
 C Corrupted Soil|QID|8487|M|51.71,69.21|L|20771 8|N|Loot the green Tainted Soil Samples from the area around East Sanctum and in The Dead Scar.|
 T Corrupted Soil|QID|8487|M|54.28,70.98|N|To Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Be prepared for a fight as you'll be immediately attacked by three mobs upon accepting this.|
-A Unexpected Results.|QID|8488|M|54.28,70.98|N|From Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Check your buffs and get to full HP/Mana before accepting. You will be attacked immediately by three mobs upon accepting it.|PRE|8487| ; added '.' to block auto-accepting
+A Unexpected Results.|QID|8488|M|54.28,70.98|N|From Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Check your buffs and get to full HP/Mana before accepting. You'll be attacked immediately by three mobs upon accepting it.|PRE|8487| ; added '.' to block auto-accepting
 C Unexpected Results|QID|8488|M|54.28,70.98|N|Protect Mirveda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.|
 T Unexpected Results|QID|8488|M|54.28,70.98|N|To Apprentice Mirveda.|
 A Research Notes|QID|9255|M|54.28,70.98|N|From Apprentice Mirveda.|PRE|8488|
@@ -302,25 +302,26 @@ T The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|To Arathel Sunforge.|
 H Fairbreeze Village|ACTIVE|9255|M|PLAYER|N|Hearth to Fairbreeze Village.|
 A The Scorched Grove|QID|9258|M|43.58,71.20|N|From Ardeyn Riverwind.|LEAD|8473|
 T Research Notes|QID|9255|M|44.03,70.76|N|To Magistrix Landra Dawnstrider.|
-A Missing in the Ghostlands|QID|9144|M|44.03,70.76|N|From Magistrix Landra Dawnstrider. You will complete this quest in the Ghostlands guide.|PRE|9255|
+A Missing in the Ghostlands|QID|9144|M|44.03,70.76|N|From Magistrix Landra Dawnstrider. You'll complete this quest in the Ghostlands guide.|
 T Warning Fairbreeze Village|QID|9363|M|43.35,70.83|N|To Ranger Degolien.|
 T Defending Fairbreeze Village|QID|9252|M|46.93,71.79|N|To Ranger Sareyn.|
-A Runewarden Deryan|QID|9253|M|46.93,71.79|N|From Ranger Sareyn. You will complete this quest in the Ghostlands guide.|PRE|9252|LEAD|8490|
+A Runewarden Deryan|QID|9253|M|46.93,71.79|N|From Ranger Sareyn.\n[color=FF0000]NOTE: [/color]You'll complete this quest in the Ghostlands guide.|PRE|9252|LEAD|8490|
 T The Party Never Ends|QID|9067|M|38.15,73.56|N|To Lord Saltheril.|
-T The Scorched Grove|QID|9258|M|34.06,80.02|N|To Larianna Riverwind. Find Larianna Riverwind near the Scorched Grove in the southwest of Eversong Woods.|
+R Goldenbough Pass|ACTIVE|9258|M|32.98,74.48|N|Head west out of Saltheril's Haven towards the road running north/south out of Sunsail Anchorage and continue south along this road.|
+T The Scorched Grove|QID|9258|M|34.06,80.02|N|To Larianna Riverwind inside the building.|
 A A Somber Task|QID|8473|M|34.06,80.02|N|From Larianna Riverwind.|
-C A Somber Task|QID|8473|M|35.7,85.2|N|Kill Withered Green Keepers.|S|
-K Old Whitebark|AVAILABLE|8474|M|35.7,85.2|L|23228|N|Look for Old Whitebark, kill him to loot his amulet.|T|Old Whitebark|
-A Old Whitebark's Pendant|QID|8474|N|From Old Whitebark's Pendant. Use the pendant, and accept the quest.|U|23228|O|
-T Old Whitebark's Pendant|QID|8474|M|34,80|N|To Larianna Riverwind.|
-A Whitebark's Memory|QID|10166|M|34,80|N|From Larianna Riverwind.|PRE|8474|
-T Whitebark's Memory|QID|10166|M|37.58,86.14|N|To Whitebark's Spirit. Use the pendant, Whitebark will attack you. Get him down in health, then turn the quest in.|U|28209|
-C A Somber Task|QID|8473|M|35.7,85.2|N|Finish up killing Withered Green Keepers.|US|
+C A Somber Task|QID|8473|M|35.7,85.2|N|coords Kill Withered Green Keepers.|S|
+K Old Whitebark|AVAILABLE|8474|M|35.7,85.2|L|23228|N|coords Locate Old Whitebark and kill him to loot his amulet.|T|Old Whitebark|
+A Old Whitebark's Pendant|QID|8474|M|PLAYER|N|From Old Whitebark's Pendant.|U|23228|O|
+T Old Whitebark's Pendant|QID|8474|M|34.06,80.02|N|To Larianna Riverwind.|
+A Whitebark's Memory|QID|10166|M|34.06,80.02|N|From Larianna Riverwind.|PRE|8474|
+T Whitebark's Memory|QID|10166|M|37.58,86.14|N|Use the pendant on Whitebark's Spirit and he'll attack you. \n[color=FF0000]NOTE: [/color]Once he reaches % health, he'll become friendly and you can turn the quest in.|U|28209|
+C A Somber Task|QID|8473|M|35.7,85.2|N|coords Finish up killing Withered Green Keepers.|US|
 T A Somber Task|QID|8473|M|34.06,80.02|N|To Larianna Riverwind.|
 T Runewarden Deryan|QID|9253|M|44.20,85.46|N|To Runewarden Deryan.|PRE|9252|
 A Powering our Defenses|QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|
-C Powering our Defenses|QID|8490|M|55,84|N|Head to the Runestone Shan'dor, then use the Infused Crystal. You will then need to defend the crystal against two sets of 3 Enraged Wraiths.|U|22693|
+C Powering our Defenses|QID|8490|M|55,84|N|coords Head to the Runestone Shan'dor and use the Infused Crystal. Defend the crystal against two waves of 3 Enraged Wraiths.|U|22693|
 T Powering our Defenses|QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|
-N End of Eversong Woods Guide|QID|9144|M|55,84|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide. If you're not doing Ghostlands guide, then run to the waypoints.\n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|
+N End of Eversong Woods Guide|QID|9144|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide. If you're not doing Ghostlands guide, then run to the waypoints.\n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|
 ]]
 end)
