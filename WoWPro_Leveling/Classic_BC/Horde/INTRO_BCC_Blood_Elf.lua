@@ -271,10 +271,10 @@ A Combining Forces|QID|9460|M|33,11.2|Z|1942; Ghostlands|N|From Keltus Darkleaf.
 C Combining Forces|QID|9460|M|37.2,13.4|Z|1942; Ghostlands|L|23686|N|Sap a Sentinel Leader and use Pickpocket to loot a Lacy Handkerchief from them.\n[color=FF0000]NOTE: [/color]Make sure you clear any Sentinel Spies in the area before attempting; they can see you in Stealth.|R|BloodElf|C|Rogue|
 T Combining Forces|QID|9460|M|33,11.2|Z|1942; Ghostlands|N|To Keltus Darkleaf.|R|BloodElf|C|Rogue|
 A Return the Reports|QID|9618|M|33,11.2|Z|1942; Ghostlands|N|From Keltus Darkleaf.|PRE|9460|R|BloodElf|C|Rogue|
-R Tranquillien|ACTIVE|9618|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south out of Goldenmist Village and continuing east at the intersection across The Dead Scar and into Tranquillien.|R|BloodElf|C|Warlock|
-f Tranquillien|ACTIVE|9618|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Warlock|
-F Silvermoon City|ACTIVE|9618|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Warlock|
-R The Shepherd's Gate|ACTIVE|9618|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Hunter|
+R Tranquillien|ACTIVE|9618|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south out of Goldenmist Village and continuing east at the intersection across The Dead Scar and into Tranquillien.|R|BloodElf|C|Rogue|
+f Tranquillien|ACTIVE|9618|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Rogue|
+F Silvermoon City|ACTIVE|9618|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Rogue|
+R The Shepherd's Gate|ACTIVE|9618|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Rogue|
 T Return the Reports|QID|9618|M|79.6,51.8|Z|1954; Silvermoon City|N|To Zelanis.|R|BloodElf|C|Rogue|
 ; -- Warlock
 ; Ignoring this quest for now. 90 exp LEAD quest that has no start location.
@@ -290,7 +290,7 @@ C The Rune of Summoning|QID|9619|M|26.99,15.24|N|Starting on the south side of t
 R Tranquillien|ACTIVE|9619|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south out of Goldenmist Village and continuing east at the intersection across The Dead Scar and into Tranquillien.|R|BloodElf|C|Warlock|
 f Tranquillien|ACTIVE|9619|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Warlock|
 F Silvermoon City|ACTIVE|9619|M|45.42,30.52|Z|1942; Ghostlands|R|BloodElf|C|Warlock|
-R The Shepherd's Gate|ACTIVE|9619|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Hunter|
+R The Shepherd's Gate|ACTIVE|9619|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Warlock|
 T The Rune of Summoning|QID|9619|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia.|R|BloodElf|C|Warlock|
 
 T The Magister's Apprentice|QID|8888|M|67.81,56.55|N|To Apprentice Loralthalis (She moves around a bit).\n[color=FF0000]NOTE: [/color]Follow the road east up the hill and pass Farstrider Retreat.|
