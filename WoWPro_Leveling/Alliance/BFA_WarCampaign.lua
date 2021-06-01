@@ -57,7 +57,7 @@ C Escape!|QID|51904|M|75.71,70.62|Z|Islands!Instance|SO|7|N|Escape from Uncharte
 T Island Expedition|QID|51904|M|66.83,33.28|Z|Boralus|N|To Flynn Fairwind.|
 
 ;Level 40 Foothold
-A The Final Foothold|QID|52443|M|69.27,27.02|Z|Boralus|N|From Halford Wyrmbane.|PRE|51961|LVL|40|
+A The Final Foothold|QID|52443|M|69.27,27.02|Z|Boralus|N|From Halford Wyrmbane.|PRE|51961|LVL|40|CCOUNT|2;51968;51968;51967|
 C Pick last Foothold|QID|52443|M|69.27,27.02|NC|Z|Boralus|N|Choose the last available zone to build a foothold at the Zandalar Campaign Table.|
 T The Final Foothold|QID|52443|M|69.27,27.02|Z|Boralus|N|To Halford Wyrmbane.|;118 Turn in
 
@@ -665,7 +665,7 @@ P Wind's Redemption|QID|55045|M|70.2,41.39|Z|Dustwallow Marsh|NC|CHAT|N|Ask Shaw
 T My Brother's Keeper|QID|55045|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
 
 A Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane.|PRE|55045|
-N War of Shadows|QID|55171|M|70.55,27.19|Z|Boralus|NC|N|Send Falstad on "Spy on Warfang Hold" mission, and come back in 1 hour.|MID|2123|
+C Spy Versus Spy|QID|55171|M|70.55,27.19|Z|Boralus|NC|N|Send Falstad on "Spy on Warfang Hold" mission, and come back in 1 hour.|MID|2123|
 T Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
 A The Gathering Storm|QID|55087|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane.|PRE|55171|
 T The Gathering Storm|QID|55087|M|45.22,62.61|Z|Boralus|N|To Lady Jaina Proudmoore.|
@@ -967,7 +967,7 @@ K Sandscout Vesarik|ACTIVE|51165|M|42.44,46.19|Z|Vol'dun|QO|1|T|Sandscout Vesari
 t WANTED: Sandscout Vesarik|QID|51165|M|26.79,52.87|Z|Vol'dun|N|To Zareen.|
 ;Zuldazar Quests
 A WANTED: Dark Chronicler|QID|51085|M|40.79,71.13|Z|Zuldazar|PRE|51359|N|To help grind out 7th Legion Rep, head to Zuldazar and grab the quests.|RANK|2|LVL|50|   ; Grail says 51359 (Ending Quest in Zuldazar) before you get 51968 (which is one of 3 return from zones)
-A The Thrill of Exploration|QID|49276|M|41.33,71.43|Z|Zuldazar|PRE|51359|N|From Acadia Chistlestone.|RANK|3|
+A The Thrill of Exploration|QID|49276|M|41.33,71.43|Z|Zuldazar|PRE|51918^52450|N|From Acadia Chistlestone.|RANK|3|
 C The Thrill of Exploration|QID|49276|M|41.28,71.70|Z|Zuldazar|NC|N|Click on a fossile in the pit, after the first you can click the Excavation Elemental to finish it quick.|
 T The Thrill of Exploration|QID|49276|M|41.35,71.45|Z|Zuldazar|N|To Excavator Morgrum Emberflint.|
 A Morgrum's Survey|QID|49274|M|41.35,71.45|Z|Zuldazar|PRE|49276|N|From Excavator Morgrum Emberflint.|

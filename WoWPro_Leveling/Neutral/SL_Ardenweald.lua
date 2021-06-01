@@ -256,7 +256,7 @@ T Finish What He Started|QID|58022|M|62.61,36.10|Z|Ardenweald!The Shadowlands|N|
 T Burrows Away|QID|58024|M|62.61,36.10|Z|Ardenweald!The Shadowlands|N|To Guardian Kota.|
 
 ; Sidequest Storyline - An Ominous Stone
-A The Grove of Creation|QID|57660|M|62.88,36.22|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|58026|RANK|2|
+A The Grove of Creation|QID|57660|M|62.88,36.22|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|58026|RANK|2|LEAD|57651|
 R Crumbled Ridge|ACTIVE|58161|CS|M|64.87,33.77;69.35,37.96|Z|Ardenweald!The Shadowlands|N|You may want to bypass Spirit Glen on your trip.|FLY|SL|
 T Forest Disappearances|QID|58161|M|70.36,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|
 A Cult of Personality|QID|58164|M|70.36,32.59|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|58161|RANK|2|
