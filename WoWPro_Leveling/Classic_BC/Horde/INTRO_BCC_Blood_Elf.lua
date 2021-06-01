@@ -241,8 +241,8 @@ A Taming the Beast|QID|9485|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9486
 R Ghostlands|ACTIVE|9485|M|48.43,10.74|Z|1942; Ghostlands|N|Make your way to East Sanctum and follow the ledge of The Dead Scar south until you meet the road that crosses it. Continue down the road to the southern border.|R|BloodElf|C|Hunter|
 C Taming the Beast|QID|9485|M|48.82,14.02|Z|1942; Ghostlands|N|Tame a Mistbat.|T|Mistbat|U|23703|R|BloodElf|C|Hunter|NC|
 R Tranquillien|ACTIVE|9485|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south into Tranquillien.|R|BloodElf|C|Hunter|
-f Tranquillien|ACTIVE|9485|M|45.4,30.6|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Hunter|
-F Silvermoon City|ACTIVE|9485|M|45.4,30.6|Z|1942; Ghostlands|R|BloodElf|C|Hunter|
+f Tranquillien|ACTIVE|9485|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Hunter|
+F Silvermoon City|ACTIVE|9485|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Hunter|
 T Taming the Beast|QID|9485|M|60.32,62.76|N|Head back to Lieutenant Dawnrunner in Farstriders Retreat.|R|BloodElf|C|Hunter|
 A Beast Training|QID|9673|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9485|R|BloodElf|C|Hunter|
 R The Shepherd's Gate|ACTIVE|9673|M|56.66,49.54|N|Return to Silvermoon City.|R|BloodElf|C|Hunter|
@@ -272,8 +272,8 @@ C Combining Forces|QID|9460|M|37.2,13.4|Z|1942; Ghostlands|L|23686|N|Sap a Senti
 T Combining Forces|QID|9460|M|33,11.2|Z|1942; Ghostlands|N|To Keltus Darkleaf.|R|BloodElf|C|Rogue|
 A Return the Reports|QID|9618|M|33,11.2|Z|1942; Ghostlands|N|From Keltus Darkleaf.|PRE|9460|R|BloodElf|C|Rogue|
 R Tranquillien|ACTIVE|9618|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south out of Goldenmist Village and continuing east at the intersection across The Dead Scar and into Tranquillien.|R|BloodElf|C|Warlock|
-f Tranquillien|ACTIVE|9618|M|45.4,30.6|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Warlock|
-F Silvermoon City|ACTIVE|9618|M|45.4,30.6|Z|1942; Ghostlands|R|BloodElf|C|Warlock|
+f Tranquillien|ACTIVE|9618|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Warlock|
+F Silvermoon City|ACTIVE|9618|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Warlock|
 R The Shepherd's Gate|ACTIVE|9618|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Hunter|
 T Return the Reports|QID|9618|M|79.6,51.8|Z|1954; Silvermoon City|N|To Zelanis.|R|BloodElf|C|Rogue|
 ; -- Warlock
@@ -288,8 +288,8 @@ A The Rune of Summoning|QID|9619|N|From the Voidstone.|PRE|9529|R|BloodElf|C|War
 R Goldenmist Village|ACTIVE|9619|M|33.20,15.03;30.37,16.65|Z|1942; Ghostlands|CC|N|Follow Elrendar River west until you reach the waterfall, sticking as close the water edge as you can.\nAt this point, you can either jump off the falls and swim across to the west shore.|R|BloodElf|C|Warlock|
 C The Rune of Summoning|QID|9619|M|26.99,15.24|N|Starting on the south side of the center building, clear your way up the ramps to the Rune of Summoning inside the room at the top of it.\n Once there, use the Voidstone to summon a Voidwalker and defeat it.\n[color=FF0000]NOTE: [/color]Make sure you clear all of the mobs on the top level. If you die, try to rez at the top.|U|23732|R|BloodElf|C|Warlock|
 R Tranquillien|ACTIVE|9619|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south out of Goldenmist Village and continuing east at the intersection across The Dead Scar and into Tranquillien.|R|BloodElf|C|Warlock|
-f Tranquillien|ACTIVE|9619|M|45.4,30.6|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Warlock|
-F Silvermoon City|ACTIVE|9619|45.30,30.49|Ghostlands|R|BloodElf|C|Warlock|
+f Tranquillien|ACTIVE|9619|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Warlock|
+F Silvermoon City|ACTIVE|9619|M|45.42,30.52|Z|1942; Ghostlands|R|BloodElf|C|Warlock|
 R The Shepherd's Gate|ACTIVE|9619|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Hunter|
 T The Rune of Summoning|QID|9619|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia.|R|BloodElf|C|Warlock|
 
