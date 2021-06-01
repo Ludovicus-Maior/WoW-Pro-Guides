@@ -279,8 +279,8 @@ T Return the Reports|QID|9618|M|79.6,51.8|Z|1954; Silvermoon City|N|To Zelanis.|
 ; -- Warlock
 ; Ignoring this quest for now. 90 exp LEAD quest that has no start location.
 ;A Return to Talionia|QID|10788|N|Don't know where this starts.|R|BloodElf|C|Warlock|LEAD|
-;T Return to Talionia|QID|10788|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
-A The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|From Talionia.|R|BloodElf|C|Warlock|
+;T Return to Talionia|QID|10788|M|74.40,47.15|Z|1954; Silvermoon City|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
+A The Stone|QID|9529|M|74.40,47.15|Z|1954; Silvermoon City|N|From Talionia.|R|BloodElf|C|Warlock|
 R Ghostlands|ACTIVE|9529|M|48.43,10.74|Z|1942; Ghostlands|N|Exit Silvermoon City and head west to The Dead Scar. Follow the ledge of The Dead Scar south until you reach the Elrendar River.|R|BloodElf|C|Warlock|
 C The Stone|QID|9529|M|43.30,15.37|Z|1942; Ghostlands|L|181698|N|Cross to the south side of the river and you'll find a Voidstone along the river bank just south of the waterfall.|R|BloodElf|C|Warlock|
 T The Stone|QID|9529|N|To the Voidstone.|R|BloodElf|C|Warlock|
@@ -291,8 +291,9 @@ R Tranquillien|ACTIVE|9619|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road so
 f Tranquillien|ACTIVE|9619|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Warlock|
 F Silvermoon City|ACTIVE|9619|M|45.42,30.52|Z|1942; Ghostlands|R|BloodElf|C|Warlock|
 R The Shepherd's Gate|ACTIVE|9619|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Warlock|
-T The Rune of Summoning|QID|9619|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia.|R|BloodElf|C|Warlock|
+T The Rune of Summoning|QID|9619|M|74.40,47.15|Z|1954; Silvermoon City|N|To Talionia in The Sanctum.|R|BloodElf|C|Warlock|
 
+R The Shepherd's Gate|ACTIVE|8888|M|56.66,49.54|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|
 T The Magister's Apprentice|QID|8888|M|67.81,56.55|N|To Apprentice Loralthalis (She moves around a bit).\n[color=FF0000]NOTE: [/color]Follow the road east up the hill and pass Farstrider Retreat.|
 A Deactivating the Spire|QID|8889|M|67.81,56.55|N|From Apprentice Loralthalis.|
 A Where's Wyllithen?|QID|9394|M|67.81,56.55|N|From Apprentice Loralthalis.|LEAD|8894|
@@ -303,13 +304,13 @@ C First Power Source|QID|8889|M|68.93,52.01|QO|1|N|Up the stairs to find and use
 C Second Power Source|QID|8889|M|68.95,51.93|QO|2|N|Continue up more stairs, then deactivate the Second Power Source.|NC|
 A Abandoned Investigations|QID|8891|M|69.24,52.10|N|From Magister Duskwither's Journal on the table near the door.|
 C Third Power Source|QID|8889|M|69.65,53.33|QO|3|N|Head up the stairs again, then deactivate the Third Power Source.|NC|
-K Cleaning up the Grounds|ACTIVE|8894|M|68.10,45.54|QO|1;2|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|US|
-T Cleaning up the Grounds|QID|8894|M|68.71,46.96|N|To Groundskeeper Wyllithen.|
+K Cleaning up the Grounds|ACTIVE|8894|M|68.10,45.54|QO|1;2|N|Finish killing the Mana Serpent and Ether Fiends.\n[color=FF0000]NOTE: [/color]You can do this up here or use the Orb of Translocation to bring you to the ground.|US|
+T Cleaning up the Grounds|QID|8894|M|68.71,46.96|N|To Groundskeeper Wyllithen.\n[color=FF0000]NOTE: [/color]If you haven't done it yet, use the Orb of Translocation to get back down to the ground.|
 T Deactivating the Spire|QID|8889|M|67.80,56.46|N|To Apprentice Loralthalis.|
 A Word from the Spire|QID|8890|M|67.81,56.47|N|From Apprentice Loralthalis.|PRE|8889|
-R Farstrider Retreat|ACTIVE|8890|M|60.31,61.38|N|Exit Silvermoon City and follow the road east to Farstrider Retreat.|
-T Word from the Spire|QID|8890|M|69.24,52.10|N|To Magister Duskwither; up the ramp on the right.|
-T Abandoned Investigations|QID|8891|M|69.24,52.10|N|To Magister Duskwither.|
+R Farstrider Retreat|ACTIVE|8890|M|60.31,61.38|
+T Word from the Spire|QID|8890|M|60.31,61.38|N|To Magister Duskwither; up the ramp on the right.|
+T Abandoned Investigations|QID|8891|M|60.31,61.38|N|To Magister Duskwither.|
 K Amani Encroachment|ACTIVE|8476|M|69.00,72.00|QO|1;2|N|Kill Amani Berserkers and Axe Throwers.|S|
 R Tor'Watha|ACTIVE|8475^8477|M|66.51,69.35|N|Head east out Farstrider Retreat and up the hill towards the monument. The road leads in to Tor'Watha.|
 K Spearcrafter Otembe|ACTIVE|8477|M|70.07,72.37|QO|1|N|Locate Spearcrafter Otembe standing on the 'grassy gnoll' in the middle of the camp.|
