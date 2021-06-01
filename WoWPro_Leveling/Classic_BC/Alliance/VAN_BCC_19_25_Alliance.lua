@@ -253,7 +253,7 @@ F Stormwind|AVAILABLE|3765|N|Fly to Stormwind|M|77.50, 44.30|Z|Duskwood|
 T Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
 T Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
 T Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
-A The Corruption Abroad|QID|3765|M|21.40,55.79|Z|Stormwind City|N|From Argos Nightwhisper.|TAXI|Thelsamar|
+A The Corruption Abroad|QID|3765|M|21.40,55.79|Z|Stormwind City|N|From Argos Nightwhisper.|LEAD|1275|
 
 A Mathias and the Defias|QID|2360|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest. Details of this quest is on the 20-21 Redridge guide.|C|Rogue|
 
@@ -342,9 +342,9 @@ T Young Crocolisk Skins|QID|484|M|8.49,55.7|N|To James Halloran.|Z|Wetlands|
 T Claws from the Deep|QID|279|M|8.33,58.52|N|To Karl Boran.|Z|Wetlands|
 
 ; Ashenvale 23-25
-b Darkshore|ACTIVE|3765|M|4.61,57.07|N|Take Boat to Auberdine.|Z|Wetlands|
+b Darkshore|AVAILABLE|1008|M|4.61,57.07|N|Take Boat to Auberdine.|Z|Wetlands|
 T The Corruption Abroad|QID|3765|M|38.33,43.04|N|To Gershala Nightwhisper.|Z|Darkshore|
-A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|PRE|3765|Z|Darkshore|
+A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|Z|Darkshore|
 f Auberdine|QID|965|M|36.34,45.58|N|Get the flightpath.|Z|Darkshore|
 b Rut'theran Village|QID|965|M|33.19,40.1|Z|Darkshore|N|Take the boat to Rut'theran Village. Main thing is getting the flightpath over with, there are some BFD dungeon quests here as well.|R|-NightElf|
 F Rut'theran Village|QID|1198|M|55.92,89.5|Z|Teldrassil|N|Train you skills sell and repair and get more BFD quests so you can start looking for groups.|LVL|20|
@@ -365,16 +365,16 @@ C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Escort Ker
 T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|If you took it, otherwise close this step.|
 T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier. Do not get follow-up.|
 F Astranaar|AVAILABLE|1008|N|Fly to Astranar|M|36.37,45.55|Z|Darkshore|TAXI|Astranaar|
-f Astranaar|N|Get the flight path.|M|34.39,48.03|TAXI|-Astranaar|
+f Astranaar|N|Get the flight path.|M|34.39,48.03|Z|Ashenvale|TAXI|-Astranaar|
 A The Zoram Strand|QID|1008|M|34.68,48.84|Z|Ashenvale|N|From Shindrell Swiftfire. This is a pre-req for the stonetalon quests.|
-A Raene's Cleansing |QID|991|M|36.6,49.6|N|From Raene Wolfrunner|
+A Raene's Cleansing |QID|991|M|36.6,49.6|N|From Raene Wolfrunner|Z|Ashenvale|
 h Astranaar|QID|991|N|Make Astranaar your home location.|M|36.97,49.26|Z|Ashenvale|
 A The Tower of Althalaxx|QID|970|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|967|
-A Bathran's Hair|QID|1010|M|26.4,38.6|N|From Orendil Broadleaf.|
+A Bathran's Hair|QID|1010|M|26.4,38.6|N|From Orendil Broadleaf.|Z|Ashenvale|
 C The Tower of Althalaxx|QID|970|M|32.6,29.2|Z|Ashenvale|N|Kill the Dark Strand until you get the Glowing Soul Gem.|
-C Bathran's Hair|QID|1010|M|31.4,23.3|N|Loot five Bathran's Hair from Plant Bundles off the ground in this area. Some bags may be submerged in the ground so look carefully|
-T Bathran's Hair|QID|1010|M|26.4,38.6|N|To Orendil Broadleaf.|
-A Orendil's Cure|QID|1020|M|26.4,38.6|N|From Orendil Broadleaf.|PRE|1010|
+C Bathran's Hair|QID|1010|M|31.4,23.3|Z|Ashenvale|N|Loot five Bathran's Hair from Plant Bundles off the ground in this area. Some bags may be submerged in the ground so look carefully|
+T Bathran's Hair|QID|1010|M|26.4,38.6|Z|Ashenvale|N|To Orendil Broadleaf.|
+A Orendil's Cure|QID|1020|M|26.4,38.6|Z|Ashenvale|N|From Orendil Broadleaf.|PRE|1010|
 T The Tower of Althalaxx|QID|970|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
 A The Tower of Althalaxx|QID|973|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|970|
 T Raene's Cleansing|QID|991|M|20.3,42.3|N|To Teronis' Corpse beware of the murlocs around.|Z|Ashenvale|
