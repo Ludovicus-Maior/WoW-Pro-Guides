@@ -159,7 +159,8 @@ T The Dead Scar|QID|8475|M|50.34,50.77|N|To Ranger Jaela.|
 L Level 8|ACTIVE|9064|N|Grind out until you're within 3 bubbles of lv 8 so you can train.|LVL|7;790|
 T The Dwarven Spy|QID|8483|M|48.16,46.00|N|To Aeldon Sunbrand at Falconwing Square.|
 A Fairbreeze Village|QID|9256|M|48.16,46.00|N|From Aeldon Sunbrand.|LEAD|8892|PRE|8483|
-R Fairbreeze Village|AVAILABLE|8892|M|43.91,67.50|N|After taking care of any training/housekeeping, exit Falconwing Square and follow the road south across the bridge.|
+= Train|ACTIVE|9256|N|Go visit your trainer to learn your lv 8 spells/skills before moving on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Fairbreeze Village|AVAILABLE|8892|M|43.91,67.50|N|Exit Falconwing Square and follow the road south across the bridge.|
 A Pelt Collection|QID|8491|M|44.72,69.63|N|From Velan Brightoak.|
 A Saltheril's Haven|QID|9395|M|44.03,70.76|N|From Magistrix Landra Dawnstrider.|LEAD|9067|
 A The Wayward Apprentice|QID|9254|M|44.03,70.76|N|From Magistrix Landra Dawnstrider.|LEAD|8487|
@@ -213,7 +214,8 @@ A Amani Encroachment|QID|8476|M|60.32,62.77|N|From Lieutenant Dawnrunner.|
 B Springpaw Appetizers|QID|9067|M|60.40,62.46|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight on the other side of the fire.|
 A The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|From Arathel Sunforge.|
 A The Magister's Apprentice|QID|8888|M|60.31,61.38|N|From Magister Duskwither; up the ramp on the right.|LEAD|8889|
-L Level 10|QID|8888|N|Class quest time... Grind to level 10 so you can start it.|LVL|10|
+L Level 10|QID|8888|N|Class quest time... Grind to level 10 so you can start it.|LVL|10|C|-Paladin|
+L Level 10|QID|8888|N|Grind to level 10 so you can train.\n[color=FF0000]NOTE: [/color]Your class quest starts at level 12.|LVL|10|C|Paladin|
 R Silvermoon City|ACTIVE|8888|M|56.70,49.48|N|Follow the road northwest into Silvermoon City. Shepherd's Gate is the entrance to Silvermoon City|TZ|The Shepherd's Gate|
 B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|1954; Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
 = Train|ACTIVE|8888|M|71.54,55.76|Z|1954; Silvermoon City|N|Harene Plainwalker in Walk of Elders.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
@@ -236,8 +238,8 @@ A Taming the Beast|QID|9486|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9484
 C Taming the Beast|QID|9486|M|60.34,65.22|N|Tame an Elder Springpaw.\n[color=FF0000]NOTE: [/color]Make sure you dismiss your pet first. Be prepared to be attacked by it when you do.|T|Elder Springpaw|U|23702|R|BloodElf|C|Hunter|NC|
 T Taming the Beast|QID|9486|M|60.32,62.76|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
 A Taming the Beast|QID|9485|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9486|R|BloodElf|C|Hunter|
-R Ghostlands|ACTIVE|9485|M|48.43,10.74|Z|Ghostlands|N|Make your way to East Sanctum and follow the ledge of The Dead Scar south until you meet the road that crosses it. Continue down the road to the southern border.|R|BloodElf|C|Hunter|
-C Taming the Beast|QID|9485|M|48.82,14.02|Z|Ghostlands|N|Tame a Mistbat.|T|Mistbat|U|23703|R|BloodElf|C|Hunter|NC|
+R Ghostlands|ACTIVE|9485|M|48.43,10.74|Z|1942; Ghostlands|N|Make your way to East Sanctum and follow the ledge of The Dead Scar south until you meet the road that crosses it. Continue down the road to the southern border.|R|BloodElf|C|Hunter|
+C Taming the Beast|QID|9485|M|48.82,14.02|Z|1942; Ghostlands|N|Tame a Mistbat.|T|Mistbat|U|23703|R|BloodElf|C|Hunter|NC|
 T Taming the Beast|QID|9485|M|60.32,62.76|N|Head back to Lieutenant Dawnrunner in Farstriders Retreat.|R|BloodElf|C|Hunter|
 A Beast Training|QID|9673|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9485|R|BloodElf|C|Hunter|
 R The Shepherd's Gate|ACTIVE|9673|M|56.66,49.54|N|Return to Silvermoon City.|R|BloodElf|C|Hunter|
@@ -261,13 +263,21 @@ T Recently Living|QID|9404|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|M
 ; -- Rogue
 A Find Keltus Darkleaf|QID|9532|M|79.6,51.8|Z|1954; Silvermoon City|N|From Zelanis.|R|BloodElf|C|Rogue| ; Done until Ghostlands
 ; -- Warlock
-A Return to Talionia|QID|10788|N|Don't know where this starts.|R|BloodElf|C|Warlock|
-T Return to Talionia|QID|10788|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
-A The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|From Talionia.|PRE|10788|R|BloodElf|C|Warlock| ; This continues in Ghostlands
-; Ghostlands
-;C The Stone|QID|9529|M|42,15|N|To find the blue Voidstone, head down The Dead Scar until you're south of the Elrendar River.|R|BloodElf|C|Warlock|
-;T The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia.|R|BloodElf|C|Warlock|
-;A The Rune of Summoning|QID|9619|N|From Talionia.|PRE|9529|R|BloodElf|C|Warlock|
+; Ignoring this quest for now. 90 exp LEAD quest that has no start location.
+;A Return to Talionia|QID|10788|N|Don't know where this starts.|R|BloodElf|C|Warlock|LEAD|
+;T Return to Talionia|QID|10788|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
+A The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|From Talionia.|R|BloodElf|C|Warlock|
+R Ghostlands|ACTIVE|9529|M|48.43,10.74|Z|1942; Ghostlands|N|Exit Silvermoon City and head west to The Dead Scar. Follow the ledge of The Dead Scar south until you reach the Elrendar River.|R|BloodElf|C|Warlock|
+C The Stone|QID|9529|M|43.30,15.37|Z|1942; Ghostlands|L|181698|N|Cross to the south side of the river and you'll find a Voidstone along the river bank just south of the waterfall.|R|BloodElf|C|Warlock|
+T The Stone|QID|9529|N|To the Voidstone.|R|BloodElf|C|Warlock|
+A The Rune of Summoning|QID|9619|N|From the Voidstone.|PRE|9529|R|BloodElf|C|Warlock|
+R Goldenmist Village|ACTIVE|9619|M|33.20,15.03;30.37,16.65|Z|1942; Ghostlands|CC|N|Follow Elrendar River west until you reach the waterfall, sticking as close the water edge as you can.\nAt this point, you can either jump off the falls and swim across to the west shore.|R|BloodElf|C|Warlock|
+C The Rune of Summoning|QID|9619|M|26.99,15.24|N|Starting on the south side of the center building, clear your way up the ramps to the Rune of Summoning inside the room at the top of it.\n Once there, use the Voidstone to summon a Voidwalker and defeat it.\n[color=FF0000]NOTE: [/color]Make sure you clear all of the mobs on the top level. If you die, try to rez at the top.|R|BloodElf|C|Warlock|
+R Tranquillien|ACTIVE|9619|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south out of Goldenmist Village and continuing east at the intersection across The Dead Scar and into Tranquillien.|R|BloodElf|C|Warlock|
+f Tranquillien|ACTIVE|9619|M|45.30,30.49|Z|1942; Ghostlands|N|Get the FP from .|R|BloodElf|C|Warlock|
+F Silvermoon City|ACTIVE|9619|45.30,30.49|Ghostlands|R|BloodElf|C|Warlock|
+R The Shepherd's Gate|ACTIVE|9619|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Hunter|
+T The Rune of Summoning|QID|9619|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia.|R|BloodElf|C|Warlock|
 
 T The Magister's Apprentice|QID|8888|M|67.81,56.55|N|To Apprentice Loralthalis (She moves around a bit).\n[color=FF0000]NOTE: [/color]Follow the road east up the hill and pass Farstrider Retreat.|
 A Deactivating the Spire|QID|8889|M|67.81,56.55|N|From Apprentice Loralthalis.|
