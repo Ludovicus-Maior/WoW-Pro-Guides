@@ -21,28 +21,28 @@ return [[
 N Things To Note|QID|197000001|N|\nThis guide only covers CLASSIC BURNING CRUSADE content, currently rewritten to our new format. *** NOT YET UPDATED to TBC! ***|
 N PLEASE Report any issues|QID|197000002|N|In our Discord #TBC-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|197000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 300.\n This is for those that want to farm all mats prior to starting.\n If you don't want to farm the mats just click off the steps.|
+N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
-l [item=2589/Linen Cloth]|QID|197002589|L|2589 205|ITEM|2589|N|You'll need approx 205 Linen Cloth.|
-l [item=2592/Wool Cloth]|QID|197002592|L|2592 135|ITEM|2592|N|You'll need approx 135 Wool Cloth.|
-l [item=4306/Silk Cloth]|QID|197004306|L|4306 780|ITEM|4306|N|You'll need approx 780 Silk Cloth.|
-l [item=4338/Mageweave Cloth]|QID|197004338|L|4338 470|ITEM|4338|N|You'll need approx 470 Mageweave Cloth.|
-l [item=14047/Runecloth]|QID|197014047|L|14047 940|ITEM|14047|N|You'll need approx 940 Runecloth.|
-l [item=8170/Rugged Leather]|QID|197008170|L|8170 100|ITEM|8170|N|You'll need approx 100 Rugged Leather.|
-l [item=2320/Coarse Thread]|QID|197002320|L|2320 55|ITEM|2320|N|You'll need approx 55 Coarse Thread.|
-l [item=2321/Fine Thread]|QID|197002321|L|2321 83|ITEM|2321|N|You'll need approx 83 Fine Thread.|
-l [item=6260/Blue Dye]|QID|197006260|L|6260 30|ITEM|6260|N|You'll need approx 30 Blue Dye.|
-l [item=2324/Bleach]|QID|197002324|L|2324 10|ITEM|2324|N|You'll need approx 10 Bleach.|
-l [item=2604/Red Dye]|QID|197002604|L|2604 60|ITEM|2604|N|You'll need approx 60 Red Dye.|
-l [item=4291/Silken Thread]|QID|197004291|L|4291 20|ITEM|4291|N|You'll need approx 20 Silken Thread.|
-l [item=8343/Heavy Silken Thread]|QID|197008343|L|8343 71|ITEM|8343|N|You'll need approx 71 Heavy Silken Thread.|
-l [item=6261/Orange Dye]|QID|197006261|L|6261 5|ITEM|6261|N|You'll need approx 5 Orange Dye.|
-l [item=14341/Rune Thread]|QID|197014341|L|14341 95|ITEM|14341|N|You'll need approx 95 Rune Thread.|
-l [item=21877/Netherweave Cloth]|QID|197021877|L|21877 2800|ITEM|21877|N|You'll need approx 2,800 Netherweave Cloth.|
-l [item=22445/Arcane Dust]|QID|197022445|L|22445 180|ITEM|22445|N|You'll need approx 180 Arcane Dust.|
-l [item=21887/Knothide Leather]|QID|197021887|L|21887 10|ITEM|21887|N|You'll need approx 10 Knothide Leather.|
-l [item=21881/Netherweb Spider Silk]|QID|197021881|L|21881 30|ITEM|21881|N|You'll need approx 30 Netherweb Spider Silk.|
-N Shopping List|QID|197000005|N|This completes the Shopping List|
+l [item=2589/Linen Cloth]|QID|197000004|L|2589 205|ITEM|2589|N|You'll need approx 205 Linen Cloth.|
+l [item=2592/Wool Cloth]|QID|197000004|L|2592 135|ITEM|2592|N|You'll need approx 135 Wool Cloth.|
+l [item=4306/Silk Cloth]|QID|197000004|L|4306 780|ITEM|4306|N|You'll need approx 780 Silk Cloth.|
+l [item=4338/Mageweave Cloth]|QID|197000004|L|4338 470|ITEM|4338|N|You'll need approx 470 Mageweave Cloth.|
+l [item=14047/Runecloth]|QID|197000004|L|14047 940|ITEM|14047|N|You'll need approx 940 Runecloth.|
+l [item=8170/Rugged Leather]|QID|197000004|L|8170 100|ITEM|8170|N|You'll need approx 100 Rugged Leather.|
+l [item=2320/Coarse Thread]|QID|197000004|L|2320 55|ITEM|2320|N|You'll need approx 55 Coarse Thread.|
+l [item=2321/Fine Thread]|QID|197000004|L|2321 83|ITEM|2321|N|You'll need approx 83 Fine Thread.|
+l [item=6260/Blue Dye]|QID|197000004|L|6260 30|ITEM|6260|N|You'll need approx 30 Blue Dye.|
+l [item=2324/Bleach]|QID|197000004|L|2324 10|ITEM|2324|N|You'll need approx 10 Bleach.|
+l [item=2604/Red Dye]|QID|197000004|L|2604 60|ITEM|2604|N|You'll need approx 60 Red Dye.|
+l [item=4291/Silken Thread]|QID|197000004|L|4291 20|ITEM|4291|N|You'll need approx 20 Silken Thread.|
+l [item=8343/Heavy Silken Thread]|QID|197000004|L|8343 71|ITEM|8343|N|You'll need approx 71 Heavy Silken Thread.|
+l [item=6261/Orange Dye]|QID|197000004|L|6261 5|ITEM|6261|N|You'll need approx 5 Orange Dye.|
+l [item=14341/Rune Thread]|QID|197000004|L|14341 95|ITEM|14341|N|You'll need approx 95 Rune Thread.|
+l [item=21877/Netherweave Cloth]|QID|197000004|L|21877 2800|ITEM|21877|N|You'll need approx 2,800 Netherweave Cloth.|
+l [item=22445/Arcane Dust]|QID|197000004|L|22445 180|ITEM|22445|N|You'll need approx 180 Arcane Dust.|
+l [item=21887/Knothide Leather]|QID|197000004|L|21887 10|ITEM|21887|N|You'll need approx 10 Knothide Leather.|
+l [item=21881/Netherweb Spider Silk]|QID|197000004|L|21881 30|ITEM|21881|N|You'll need approx 30 Netherweb Spider Silk.|
+N Shopping List|QID|197000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 N Tailoring and Bandage Trainers|QID|197000008|N|It's possible these NPC's name may change, as you level and/or complete quests, but the phased trainers should be near the same areas.|
 
