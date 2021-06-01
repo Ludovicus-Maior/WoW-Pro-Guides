@@ -202,7 +202,7 @@ T The Wayward Apprentice|QID|9254|M|54.28,70.98|N|Make your way to Apprentice Mi
 A Corrupted Soil|QID|8487|M|54.28,70.98|N|From Apprentice Mirveda.|
 C Corrupted Soil|QID|8487|M|51.71,69.21|L|20771 8|N|Loot the green Tainted Soil Samples from the area around East Sanctum and in The Dead Scar.|
 T Corrupted Soil|QID|8487|M|54.28,70.98|N|To Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Be prepared for a fight as you'll be immediately attacked by three mobs upon accepting this.|
-A Unexpected Results.|QID|8488|M|54.28,70.98|N|From Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Check your buffs and get to full HP/Mana before accepting. You will be attacked immediately by three mobs upon accepting it.|PRE|8487| ; added '.' to block auto-accepting
+A Unexpected Results.|QID|8488|M|54.28,70.98|N|From Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Check your buffs and get to full HP/Mana before accepting. You'll be attacked immediately by three mobs upon accepting it.|PRE|8487| ; added '.' to block auto-accepting
 C Unexpected Results|QID|8488|M|54.28,70.98|N|Protect Mirveda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.|
 T Unexpected Results|QID|8488|M|54.28,70.98|N|To Apprentice Mirveda.|
 A Research Notes|QID|9255|M|54.28,70.98|N|From Apprentice Mirveda.|PRE|8488|
@@ -214,10 +214,11 @@ B Springpaw Appetizers|QID|9067|M|60.40,62.46|QO|2|N|Buy Springpaw Appetizers fr
 A The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|From Arathel Sunforge.|
 A The Magister's Apprentice|QID|8888|M|60.31,61.38|N|From Magister Duskwither; up the ramp on the right.|LEAD|8889|
 L Level 10|QID|8888|N|Class quest time... Grind to level 10 so you can start it.|LVL|10|
-R The Shepherd's Gate|ACTIVE|8888|M|56.66,49.54|N|This is the entrance to Silvermoon City.|
+R Silvermoon City|ACTIVE|8888|M|56.70,49.48|N|Follow the road northwest into Silvermoon City. Shepherd's Gate is the entrance to Silvermoon City|TZ|The Shepherd's Gate|
+B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|1954; Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
 = Train|ACTIVE|8888|M|71.54,55.76|Z|1954; Silvermoon City|N|Harene Plainwalker in Walk of Elders.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
 = Train|AVAILABLE|9617|M|83.40,27.55|Z|1954; Silvermoon City|N|Zandine, Oninath, or Tana in Farstriders' Square (Entrance on north wall).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
-= Train|AVAILABLE|9402|M|57.56,20.56|Z|1954; Silvermoon City|N|Quinthas, Zaedana, or Inethven in the Sunfury Spire (north/right alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
+= Train|ACTIVE|8888|M|57.56,20.56|Z|1954; Silvermoon City|N|Quinthas, Zaedana, or Inethven in the Sunfury Spire (north/right alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
 = Train|ACTIVE|8888|M|92.26,36.15|Z|1954; Silvermoon City|N|Lady Liadrin in Farstriders' Square (NE corner).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Paladin|
 = Train|ACTIVE|8888|M|54.96,25.62|Z|1954; Silvermoon City|N|Belestra, Lotheolan, or Aldrae in the Sunfury Spire (south/left alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
 = Train|AVAILABLE|9532|M|78.59,51.01|Z|1954; Silvermoon City|N|Zelanis, Nerisen or Elara in Murder Row (2nd Doorway).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
@@ -248,11 +249,13 @@ A Fetch!|QID|9402|M|55.70,54.51|N|From Instructor Antheol.|LVL|10|R|BloodElf|C|M
 C Fetch!|QID|9402|M|54.87,56.38|L|23551|N|Dive into the middle of the lake and retrieve the phial from the bottom.|R|BloodElf|C|Mage|
 T Fetch!|QID|9402|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 A The Purest Water|QID|9403|M|55.70,54.51|N|From Instructor Antheol.|PRE|9402|R|BloodElf|C|Mage|
-;T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
-;A Recent Living|QID|9404|M|55.70,54.51|N|From Instructor Antheol.|PRE|9403|R|BloodElf|C|Mage|
-;R The Living Wood|ACTIVE|9404|M|57.42,67.55|N|Make your way to the south side of the river and follow it south. Cross it when you reach the bend.|R|BloodElf|C|Mage|
-;C Recent Living|QID|9404|M|57.30,70.35|L|23553|N|Kill Eversong Green Keepers until one drops a Living Branch.|R|BloodElf|C|Mage| ; This can be done later
-;T Recent Living|QID|9404|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+R Elrendar Falls|ACTIVE|9403|M|64.00,73.00|N|Head to the base of Elrendar Falls.|R|BloodElf|C|Mage|
+C The Purest Water|QID|9403|M|64.21,72.66|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|U|23566|R|BloodElf|C|Mage|
+T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+A Recently Living|QID|9404|M|55.70,54.51|N|From Instructor Antheol.|PRE|9403|R|BloodElf|C|Mage|
+R The Living Wood|ACTIVE|9404|M|57.42,67.55|N|Make your way to the south side of the river and follow it south. Cross it when you reach the bend.|R|BloodElf|C|Mage|
+C Recently Living|QID|9404|M|57.30,70.35|L|23553|N|Kill Eversong Green Keepers until one drops a Living Branch.|R|BloodElf|C|Mage| ; This can be done later
+T Recently Living|QID|9404|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 ; -- Paladin (No Class quest until level 12)
 ; -- Priest (Need to run a Priest to do this -Hendo72)
 ; -- Rogue
@@ -266,11 +269,10 @@ A The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|From Talionia.|PRE|10
 ;T The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia.|R|BloodElf|C|Warlock|
 ;A The Rune of Summoning|QID|9619|N|From Talionia.|PRE|9529|R|BloodElf|C|Warlock|
 
-R Thuron's Livery|QID|8888|M|60.58,54.27|N|If you want the explorer achievement, follow the road east out of Silvermoon City towards Farstrider Retreat. Thuron's Livery is just east of the firstr fork.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue without going.|RANK|3|
-T The Magister's Apprentice|QID|8888|M|67.81,56.47|N|To Apprentice Loralthalis.\n[color=FF0000]NOTE: [/color]Follow the road east up the hill and pass Farstrider Retreat.|
-A Deactivating the Spire|QID|8889|M|67.81,56.51|N|From Apprentice Loralthalis.|
-A Where's Wyllithen?|QID|9394|M|67.81,56.47|N|From Apprentice Loralthalis.|LEAD|8894|
-T Where's Wyllithen?|QID|9394|M|68.71,46.95|N|To Groundskeeper Wyllithen.|
+T The Magister's Apprentice|QID|8888|M|67.81,56.55|N|To Apprentice Loralthalis (She moves around a bit).\n[color=FF0000]NOTE: [/color]Follow the road east up the hill and pass Farstrider Retreat.|
+A Deactivating the Spire|QID|8889|M|67.81,56.55|N|From Apprentice Loralthalis.|
+A Where's Wyllithen?|QID|9394|M|67.81,56.55|N|From Apprentice Loralthalis.|LEAD|8894|
+T Where's Wyllithen?|QID|9394|M|68.71,46.95|N|To Groundskeeper Wyllithen, at the end of the road.\n[color=FF0000]NOTE: [/color]If you stick to the top edge of the east cliff on your way down, you'll encounter fewer mobs.|
 A Cleaning up the Grounds|QID|8894|M|68.71,46.95|N|From Groundskeeper Wyllithen.|
 K Cleaning up the Grounds|ACTIVE|8894|M|68.10,45.54|QO|1;2|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|S|
 C First Power Source|QID|8889|M|68.93,52.01|QO|1|N|Up the stairs to find and use the Orb of Translocation, then up more stairs, click to  deactivate the First Power Source.|NC|
@@ -279,51 +281,47 @@ A Abandoned Investigations|QID|8891|M|69.24,52.10|N|From Magister Duskwither's J
 C Third Power Source|QID|8889|M|69.65,53.33|QO|3|N|Head up the stairs again, then deactivate the Third Power Source.|NC|
 K Cleaning up the Grounds|ACTIVE|8894|M|68.10,45.54|QO|1;2|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|US|
 T Cleaning up the Grounds|QID|8894|M|68.71,46.96|N|To Groundskeeper Wyllithen.|
-R Azurebreeze Coast|QID|8894|M|72.00,43.00|N|If you want the explorer achievement, head to Azurebreeze Coast.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 T Deactivating the Spire|QID|8889|M|67.80,56.46|N|To Apprentice Loralthalis.|
 A Word from the Spire|QID|8890|M|67.81,56.47|N|From Apprentice Loralthalis.|PRE|8889|
-R Silvermoon City|ACTIVE|9067|M|56.70,49.48|N|Follow the road northwest into Silvermoon City.|TZ|The Shepherd's Gate|
-= Visit your trainer|ACTIVE|8890|N|If you're unsure of where to find your trainer, you can ask a guard for directions.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|1954; Silvermoon City|
-B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|1954; Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
 R Farstrider Retreat|ACTIVE|8890|M|60.31,61.38|N|Exit Silvermoon City and follow the road east to Farstrider Retreat.|
 T Word from the Spire|QID|8890|M|69.24,52.10|N|To Magister Duskwither; up the ramp on the right.|
 T Abandoned Investigations|QID|8891|M|69.24,52.10|N|To Magister Duskwither.|
 K Amani Encroachment|ACTIVE|8476|M|69.00,72.00|QO|1;2|N|Kill Amani Berserkers and Axe Throwers.|S|
-K Spearcrafter Otembe|ACTIVE|8477|M|70.07,72.37|QO|1|N|Locate Spearcrafter Otembe standing on the .|
+R Tor'Watha|ACTIVE|8475^8477|M|66.51,69.35|N|Head east out Farstrider Retreat and up the hill towards the monument. The road leads in to Tor'Watha.|
+K Spearcrafter Otembe|ACTIVE|8477|M|70.07,72.37|QO|1|N|Locate Spearcrafter Otembe standing on the 'grassy gnoll' in the middle of the camp.|
 A Zul'Marosh|QID|8479|M|70.53,72.33|N|From Ven'jashi.|
-K Chieftain Zul'Marosh|QID|8479|M|61.60,79.60|L|23249|N|Head west across the water to the next troll camp. Zul'Marosh is in the big building on the top floor. Pull guards first.|T|Chieftain Zul'Marosh|
-A Amani Invasion|QID|9360|M|PLAYER|N|From the Amani Invasion Plans.|U|23249|
-T Zul'Marosh|QID|8479|M|70.5,72.3|N|To Ven'jashi.|
+R Zeb'Watha|ACTIVE|8479|M|64.52,78.04|N|Head west across the water to the next troll camp.\n[color=FF0000]NOTE: [/color]You can either swim or take the path.|
+K Chieftain Zul'Marosh|ACTIVE|8479|M|61.60,79.60|QO|1|N|Zul'Marosh is in the big building on the top floor. \n[color=FF0000]NOTE: [/color]Clear the guards first or they will join the fight.|T|Chieftain Zul'Marosh|
+A Amani Invasion|QID|9360|M|PLAYER|N|From the Amani Invasion Plans that .|U|23249|O|
+T Zul'Marosh|QID|8479|M|70.53,72.33|N|To Ven'jashi in Tor'Watha.|
 K Amani Encroachment|ACTIVE|8476|M|69.00,72.00|QO|1;2|N|Kill Amani Berserkers and Axe Throwers.|US|
-R Elrendar Falls|QID|9360|M|64.00,73.00|N|If you want the explorer achievement, head to Elrendar Falls.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 T Amani Encroachment|QID|8476|M|60.32,62.77|N|To Lieutenant Dawnrunner at the Farstrider Retreat.|
 T Amani Invasion|QID|9360|M|60.32,62.77|N|To Lieutenant Dawnrunner.|
 A Warning Fairbreeze Village|QID|9363|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9360|
 T The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|To Arathel Sunforge.|
-C The Purest Water|QID|9403|M|64.21,72.66|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|U|23566|R|BloodElf|C|Mage|
-T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 H Fairbreeze Village|ACTIVE|9255|M|PLAYER|N|Hearth to Fairbreeze Village.|
 A The Scorched Grove|QID|9258|M|43.58,71.20|N|From Ardeyn Riverwind.|LEAD|8473|
 T Research Notes|QID|9255|M|44.03,70.76|N|To Magistrix Landra Dawnstrider.|
-A Missing in the Ghostlands|QID|9144|M|44.03,70.76|N|From Magistrix Landra Dawnstrider. You will complete this quest in the Ghostlands guide.|PRE|9255|
+A Missing in the Ghostlands|QID|9144|M|44.03,70.76|N|From Magistrix Landra Dawnstrider. You'll complete this quest in the Ghostlands guide.|
 T Warning Fairbreeze Village|QID|9363|M|43.35,70.83|N|To Ranger Degolien.|
 T Defending Fairbreeze Village|QID|9252|M|46.93,71.79|N|To Ranger Sareyn.|
-A Runewarden Deryan|QID|9253|M|46.93,71.79|N|From Ranger Sareyn. You will complete this quest in the Ghostlands guide.|PRE|9252|LEAD|8490|
+A Runewarden Deryan|QID|9253|M|46.93,71.79|N|From Ranger Sareyn.\n[color=FF0000]NOTE: [/color]You'll complete this quest in the Ghostlands guide.|PRE|9252|LEAD|8490|
 T The Party Never Ends|QID|9067|M|38.15,73.56|N|To Lord Saltheril.|
-T The Scorched Grove|QID|9258|M|34.06,80.02|N|To Larianna Riverwind. Find Larianna Riverwind near the Scorched Grove in the southwest of Eversong Woods.|
+R Goldenbough Pass|ACTIVE|9258|M|32.98,74.48|N|Head west out of Saltheril's Haven towards the road running north/south out of Sunsail Anchorage and continue south along this road.|
+T The Scorched Grove|QID|9258|M|34.06,80.02|N|To Larianna Riverwind inside the building.|
 A A Somber Task|QID|8473|M|34.06,80.02|N|From Larianna Riverwind.|
-C A Somber Task|QID|8473|M|35.7,85.2|N|Kill Withered Green Keepers.|S|
-K Old Whitebark|AVAILABLE|8474|M|35.7,85.2|L|23228|N|Look for Old Whitebark, kill him to loot his amulet.|T|Old Whitebark|
-A Old Whitebark's Pendant|QID|8474|N|From Old Whitebark's Pendant. Use the pendant, and accept the quest.|U|23228|O|
-T Old Whitebark's Pendant|QID|8474|M|34,80|N|To Larianna Riverwind.|
-A Whitebark's Memory|QID|10166|M|34,80|N|From Larianna Riverwind.|PRE|8474|
-T Whitebark's Memory|QID|10166|M|37.58,86.14|N|To Whitebark's Spirit. Use the pendant, Whitebark will attack you. Get him down in health, then turn the quest in.|U|28209|
-C A Somber Task|QID|8473|M|35.7,85.2|N|Finish up killing Withered Green Keepers.|US|
+C A Somber Task|QID|8473|M|35.7,85.2|N|coords Kill Withered Green Keepers.|S|
+K Old Whitebark|AVAILABLE|8474|M|35.7,85.2|L|23228|N|coords Locate Old Whitebark and kill him to loot his amulet.|T|Old Whitebark|
+A Old Whitebark's Pendant|QID|8474|M|PLAYER|N|From Old Whitebark's Pendant.|U|23228|O|
+T Old Whitebark's Pendant|QID|8474|M|34.06,80.02|N|To Larianna Riverwind.|
+A Whitebark's Memory|QID|10166|M|34.06,80.02|N|From Larianna Riverwind.|PRE|8474|
+T Whitebark's Memory|QID|10166|M|37.58,86.14|N|Use the pendant on Whitebark's Spirit and he'll attack you. \n[color=FF0000]NOTE: [/color]Once he reaches % health, he'll become friendly and you can turn the quest in.|U|28209|
+C A Somber Task|QID|8473|M|35.7,85.2|N|coords Finish up killing Withered Green Keepers.|US|
 T A Somber Task|QID|8473|M|34.06,80.02|N|To Larianna Riverwind.|
 T Runewarden Deryan|QID|9253|M|44.20,85.46|N|To Runewarden Deryan.|PRE|9252|
 A Powering our Defenses|QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|
-C Powering our Defenses|QID|8490|M|55,84|N|Head to the Runestone Shan'dor, then use the Infused Crystal. You will then need to defend the crystal against two sets of 3 Enraged Wraiths.|U|22693|
+C Powering our Defenses|QID|8490|M|55,84|N|coords Head to the Runestone Shan'dor and use the Infused Crystal. Defend the crystal against two waves of 3 Enraged Wraiths.|U|22693|
 T Powering our Defenses|QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|
-N End of Eversong Woods Guide|QID|9144|M|55,84|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide. If you're not doing Ghostlands guide, then run to the waypoints.\n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|
+N End of Eversong Woods Guide|QID|9144|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide. If you're not doing Ghostlands guide, then run to the waypoints.\n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|
 ]]
 end)
