@@ -240,6 +240,9 @@ T Taming the Beast|QID|9486|M|60.32,62.76|N|To Lieutenant Dawnrunner.|R|BloodElf
 A Taming the Beast|QID|9485|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9486|R|BloodElf|C|Hunter|
 R Ghostlands|ACTIVE|9485|M|48.43,10.74|Z|1942; Ghostlands|N|Make your way to East Sanctum and follow the ledge of The Dead Scar south until you meet the road that crosses it. Continue down the road to the southern border.|R|BloodElf|C|Hunter|
 C Taming the Beast|QID|9485|M|48.82,14.02|Z|1942; Ghostlands|N|Tame a Mistbat.|T|Mistbat|U|23703|R|BloodElf|C|Hunter|NC|
+R Tranquillien|ACTIVE|9485|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south into Tranquillien.|R|BloodElf|C|Hunter|
+f Tranquillien|ACTIVE|9485|M|45.4,30.6|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Hunter|
+F Silvermoon City|ACTIVE|9485|M|45.4,30.6|Z|1942; Ghostlands|R|BloodElf|C|Hunter|
 T Taming the Beast|QID|9485|M|60.32,62.76|N|Head back to Lieutenant Dawnrunner in Farstriders Retreat.|R|BloodElf|C|Hunter|
 A Beast Training|QID|9673|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9485|R|BloodElf|C|Hunter|
 R The Shepherd's Gate|ACTIVE|9673|M|56.66,49.54|N|Return to Silvermoon City.|R|BloodElf|C|Hunter|
@@ -256,12 +259,23 @@ C The Purest Water|QID|9403|M|64.21,72.66|N|Go to the base of the waterfall, in 
 T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 A Recently Living|QID|9404|M|55.70,54.51|N|From Instructor Antheol.|PRE|9403|R|BloodElf|C|Mage|
 R The Living Wood|ACTIVE|9404|M|57.42,67.55|N|Make your way to the south side of the river and follow it south. Cross it when you reach the bend.|R|BloodElf|C|Mage|
-C Recently Living|QID|9404|M|57.30,70.35|L|23553|N|Kill Eversong Green Keepers until one drops a Living Branch.|R|BloodElf|C|Mage| ; This can be done later
+C Recently Living|QID|9404|M|57.30,70.35|L|23553|N|Kill Eversong Green Keepers until one drops a Living Branch.|R|BloodElf|C|Mage|
 T Recently Living|QID|9404|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 ; -- Paladin (No Class quest until level 12)
 ; -- Priest (Need to run a Priest to do this -Hendo72)
 ; -- Rogue
-A Find Keltus Darkleaf|QID|9532|M|79.6,51.8|Z|1954; Silvermoon City|N|From Zelanis.|R|BloodElf|C|Rogue| ; Done until Ghostlands
+A Find Keltus Darkleaf|QID|9532|M|79.6,51.8|Z|1954; Silvermoon City|N|From Zelanis.|R|BloodElf|C|Rogue|
+R Ghostlands|ACTIVE|9532|M|48.43,10.74|Z|1942; Ghostlands|N|Exit Silvermoon City and head west to The Dead Scar. Follow the ledge of The Dead Scar south until you reach the Elrendar River.|R|BloodElf|C|Rogue|
+T Find Keltus Darkleaf|QID|9532|M|33,11.2|Z|1942; Ghostlands|N|To Keltus Darkleaf.|R|BloodElf|C|Rogue|
+A Combining Forces|QID|9460|M|33,11.2|Z|1942; Ghostlands|N|From Keltus Darkleaf.|PRE|9532|R|BloodElf|C|Rogue|
+C Combining Forces|QID|9460|M|37.2,13.4|Z|1942; Ghostlands|L|23686|N|Sap a Sentinel Leader and use Pickpocket to loot a Lacy Handkerchief from them.\n[color=FF0000]NOTE: [/color]Make sure you clear any Sentinel Spies in the area before attempting; they can see you in Stealth.|R|BloodElf|C|Rogue|
+T Combining Forces|QID|9460|M|33,11.2|Z|1942; Ghostlands|N|To Keltus Darkleaf.|R|BloodElf|C|Rogue|
+A Return the Reports|QID|9618|M|33,11.2|Z|1942; Ghostlands|N|From Keltus Darkleaf.|PRE|9460|R|BloodElf|C|Rogue|
+R Tranquillien|ACTIVE|9618|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south out of Goldenmist Village and continuing east at the intersection across The Dead Scar and into Tranquillien.|R|BloodElf|C|Warlock|
+f Tranquillien|ACTIVE|9618|M|45.4,30.6|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Warlock|
+F Silvermoon City|ACTIVE|9618|M|45.4,30.6|Z|1942; Ghostlands|R|BloodElf|C|Warlock|
+R The Shepherd's Gate|ACTIVE|9618|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Hunter|
+T Return the Reports|QID|9618|M|79.6,51.8|Z|1954; Silvermoon City|N|To Zelanis.|R|BloodElf|C|Rogue|
 ; -- Warlock
 ; Ignoring this quest for now. 90 exp LEAD quest that has no start location.
 ;A Return to Talionia|QID|10788|N|Don't know where this starts.|R|BloodElf|C|Warlock|LEAD|
@@ -272,9 +286,9 @@ C The Stone|QID|9529|M|43.30,15.37|Z|1942; Ghostlands|L|181698|N|Cross to the so
 T The Stone|QID|9529|N|To the Voidstone.|R|BloodElf|C|Warlock|
 A The Rune of Summoning|QID|9619|N|From the Voidstone.|PRE|9529|R|BloodElf|C|Warlock|
 R Goldenmist Village|ACTIVE|9619|M|33.20,15.03;30.37,16.65|Z|1942; Ghostlands|CC|N|Follow Elrendar River west until you reach the waterfall, sticking as close the water edge as you can.\nAt this point, you can either jump off the falls and swim across to the west shore.|R|BloodElf|C|Warlock|
-C The Rune of Summoning|QID|9619|M|26.99,15.24|N|Starting on the south side of the center building, clear your way up the ramps to the Rune of Summoning inside the room at the top of it.\n Once there, use the Voidstone to summon a Voidwalker and defeat it.\n[color=FF0000]NOTE: [/color]Make sure you clear all of the mobs on the top level. If you die, try to rez at the top.|R|BloodElf|C|Warlock|
+C The Rune of Summoning|QID|9619|M|26.99,15.24|N|Starting on the south side of the center building, clear your way up the ramps to the Rune of Summoning inside the room at the top of it.\n Once there, use the Voidstone to summon a Voidwalker and defeat it.\n[color=FF0000]NOTE: [/color]Make sure you clear all of the mobs on the top level. If you die, try to rez at the top.|U|23732|R|BloodElf|C|Warlock|
 R Tranquillien|ACTIVE|9619|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south out of Goldenmist Village and continuing east at the intersection across The Dead Scar and into Tranquillien.|R|BloodElf|C|Warlock|
-f Tranquillien|ACTIVE|9619|M|45.30,30.49|Z|1942; Ghostlands|N|Get the FP from .|R|BloodElf|C|Warlock|
+f Tranquillien|ACTIVE|9619|M|45.4,30.6|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Warlock|
 F Silvermoon City|ACTIVE|9619|45.30,30.49|Ghostlands|R|BloodElf|C|Warlock|
 R The Shepherd's Gate|ACTIVE|9619|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Hunter|
 T The Rune of Summoning|QID|9619|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia.|R|BloodElf|C|Warlock|
