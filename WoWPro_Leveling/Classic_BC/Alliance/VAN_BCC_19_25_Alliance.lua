@@ -465,7 +465,6 @@ C The Ruins of Stardust|QID|1034|M|33.9,66.6|N|Loot from big white bushes that h
 C The Tower of Althalaxx|QID|973|M|25.2,60.6|N|From Delgren the Purifier.|Z|Ashenvale|
 T The Tower of Althalaxx|QID|973|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
 A The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|973|
-A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|Z|Ashenvale|
 T The Ruins of Stardust|QID|1034|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
 N BFD Dungeon|QID|1198|N|Last Chance to do BFD before we leave. Time to head to wetlands and gain a couple levels.|
 ]]
