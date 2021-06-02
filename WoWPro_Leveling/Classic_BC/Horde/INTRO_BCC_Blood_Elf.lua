@@ -3,7 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Blood Elf: Intro")
 WoWPro:GuideName(guide,"Blood Elf: Intro")
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Silverpine_Forest')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Ghostlands')
 WoWPro:GuideSteps(guide, function()
 return [[
 ; Sunstrider Isle starting zone is for BloodElf's only.
@@ -347,6 +347,5 @@ T Runewarden Deryan|QID|9253|M|44.20,85.46|N|To Runewarden Deryan beside the Run
 A Powering our Defenses|QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|
 C Powering our Defenses|QID|8490|M|55.28,84.34|N|Head to Runestone Shan'dor and use the Infused Crystal. Defend the crystal against two waves of 3 Enraged Wraiths.|U|22693|
 T Powering our Defenses|QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|
-N End of Eversong Woods Guide|QID|9144|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide. If you're not doing Ghostlands guide, then run to the waypoints.\n\nYou may also want to update your skills from Silvermoon City.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ]]
 end)
