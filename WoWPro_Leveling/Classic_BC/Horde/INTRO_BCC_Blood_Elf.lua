@@ -159,7 +159,8 @@ T The Dead Scar|QID|8475|M|50.34,50.77|N|To Ranger Jaela.|
 L Level 8|ACTIVE|9064|N|Grind out until you're within 3 bubbles of lv 8 so you can train.|LVL|7;790|
 T The Dwarven Spy|QID|8483|M|48.16,46.00|N|To Aeldon Sunbrand at Falconwing Square.|
 A Fairbreeze Village|QID|9256|M|48.16,46.00|N|From Aeldon Sunbrand.|LEAD|8892|PRE|8483|
-R Fairbreeze Village|AVAILABLE|8892|M|43.91,67.50|N|After taking care of any training/housekeeping, exit Falconwing Square and follow the road south across the bridge.|
+= Train|ACTIVE|9256|N|Go visit your trainer to learn your lv 8 spells/skills before moving on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Fairbreeze Village|AVAILABLE|8892|M|43.91,67.50|N|Exit Falconwing Square and follow the road south across the bridge.|
 A Pelt Collection|QID|8491|M|44.72,69.63|N|From Velan Brightoak.|
 A Saltheril's Haven|QID|9395|M|44.03,70.76|N|From Magistrix Landra Dawnstrider.|LEAD|9067|
 A The Wayward Apprentice|QID|9254|M|44.03,70.76|N|From Magistrix Landra Dawnstrider.|LEAD|8487|
@@ -213,7 +214,8 @@ A Amani Encroachment|QID|8476|M|60.32,62.77|N|From Lieutenant Dawnrunner.|
 B Springpaw Appetizers|QID|9067|M|60.40,62.46|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight on the other side of the fire.|
 A The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|N|From Arathel Sunforge.|
 A The Magister's Apprentice|QID|8888|M|60.31,61.38|N|From Magister Duskwither; up the ramp on the right.|LEAD|8889|
-L Level 10|QID|8888|N|Class quest time... Grind to level 10 so you can start it.|LVL|10|
+L Level 10|QID|8888|N|Class quest time... Grind to level 10 so you can start it.|LVL|10|C|-Paladin|
+L Level 10|QID|8888|N|Grind to level 10 so you can train.\n[color=FF0000]NOTE: [/color]Your class quest starts at level 12.|LVL|10|C|Paladin|
 R Silvermoon City|ACTIVE|8888|M|56.70,49.48|N|Follow the road northwest into Silvermoon City. Shepherd's Gate is the entrance to Silvermoon City|TZ|The Shepherd's Gate|
 B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|1954; Silvermoon City|QO|1|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.|
 = Train|ACTIVE|8888|M|71.54,55.76|Z|1954; Silvermoon City|N|Harene Plainwalker in Walk of Elders.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
@@ -236,8 +238,11 @@ A Taming the Beast|QID|9486|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9484
 C Taming the Beast|QID|9486|M|60.34,65.22|N|Tame an Elder Springpaw.\n[color=FF0000]NOTE: [/color]Make sure you dismiss your pet first. Be prepared to be attacked by it when you do.|T|Elder Springpaw|U|23702|R|BloodElf|C|Hunter|NC|
 T Taming the Beast|QID|9486|M|60.32,62.76|N|To Lieutenant Dawnrunner.|R|BloodElf|C|Hunter|
 A Taming the Beast|QID|9485|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9486|R|BloodElf|C|Hunter|
-R Ghostlands|ACTIVE|9485|M|48.43,10.74|Z|Ghostlands|N|Make your way to East Sanctum and follow the ledge of The Dead Scar south until you meet the road that crosses it. Continue down the road to the southern border.|R|BloodElf|C|Hunter|
-C Taming the Beast|QID|9485|M|48.82,14.02|Z|Ghostlands|N|Tame a Mistbat.|T|Mistbat|U|23703|R|BloodElf|C|Hunter|NC|
+R Ghostlands|ACTIVE|9485|M|48.43,10.74|Z|1942; Ghostlands|N|Make your way to East Sanctum and follow the ledge of The Dead Scar south until you meet the road that crosses it. Continue down the road to the southern border.|R|BloodElf|C|Hunter|
+C Taming the Beast|QID|9485|M|48.82,14.02|Z|1942; Ghostlands|N|Tame a Mistbat.|T|Mistbat|U|23703|R|BloodElf|C|Hunter|NC|
+R Tranquillien|ACTIVE|9485|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south into Tranquillien.|R|BloodElf|C|Hunter|
+f Tranquillien|ACTIVE|9485|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Hunter|
+F Silvermoon City|ACTIVE|9485|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Hunter|
 T Taming the Beast|QID|9485|M|60.32,62.76|N|Head back to Lieutenant Dawnrunner in Farstriders Retreat.|R|BloodElf|C|Hunter|
 A Beast Training|QID|9673|M|60.32,62.76|N|From Lieutenant Dawnrunner.|PRE|9485|R|BloodElf|C|Hunter|
 R The Shepherd's Gate|ACTIVE|9673|M|56.66,49.54|N|Return to Silvermoon City.|R|BloodElf|C|Hunter|
@@ -254,21 +259,41 @@ C The Purest Water|QID|9403|M|64.21,72.66|N|Go to the base of the waterfall, in 
 T The Purest Water|QID|9403|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 A Recently Living|QID|9404|M|55.70,54.51|N|From Instructor Antheol.|PRE|9403|R|BloodElf|C|Mage|
 R The Living Wood|ACTIVE|9404|M|57.42,67.55|N|Make your way to the south side of the river and follow it south. Cross it when you reach the bend.|R|BloodElf|C|Mage|
-C Recently Living|QID|9404|M|57.30,70.35|L|23553|N|Kill Eversong Green Keepers until one drops a Living Branch.|R|BloodElf|C|Mage| ; This can be done later
+C Recently Living|QID|9404|M|57.30,70.35|L|23553|N|Kill Eversong Green Keepers until one drops a Living Branch.|R|BloodElf|C|Mage|
 T Recently Living|QID|9404|M|55.70,54.51|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 ; -- Paladin (No Class quest until level 12)
 ; -- Priest (Need to run a Priest to do this -Hendo72)
 ; -- Rogue
-A Find Keltus Darkleaf|QID|9532|M|79.6,51.8|Z|1954; Silvermoon City|N|From Zelanis.|R|BloodElf|C|Rogue| ; Done until Ghostlands
+A Find Keltus Darkleaf|QID|9532|M|79.6,51.8|Z|1954; Silvermoon City|N|From Zelanis.|R|BloodElf|C|Rogue|
+R Ghostlands|ACTIVE|9532|M|48.43,10.74|Z|1942; Ghostlands|N|Exit Silvermoon City and head west to The Dead Scar. Follow the ledge of The Dead Scar south until you reach the Elrendar River.|R|BloodElf|C|Rogue|
+T Find Keltus Darkleaf|QID|9532|M|33,11.2|Z|1942; Ghostlands|N|To Keltus Darkleaf.|R|BloodElf|C|Rogue|
+A Combining Forces|QID|9460|M|33,11.2|Z|1942; Ghostlands|N|From Keltus Darkleaf.|PRE|9532|R|BloodElf|C|Rogue|
+C Combining Forces|QID|9460|M|37.2,13.4|Z|1942; Ghostlands|L|23686|N|Sap a Sentinel Leader and use Pickpocket to loot a Lacy Handkerchief from them.\n[color=FF0000]NOTE: [/color]Make sure you clear any Sentinel Spies in the area before attempting; they can see you in Stealth.|R|BloodElf|C|Rogue|
+T Combining Forces|QID|9460|M|33,11.2|Z|1942; Ghostlands|N|To Keltus Darkleaf.|R|BloodElf|C|Rogue|
+A Return the Reports|QID|9618|M|33,11.2|Z|1942; Ghostlands|N|From Keltus Darkleaf.|PRE|9460|R|BloodElf|C|Rogue|
+R Tranquillien|ACTIVE|9618|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south out of Goldenmist Village and continuing east at the intersection across The Dead Scar and into Tranquillien.|R|BloodElf|C|Rogue|
+f Tranquillien|ACTIVE|9618|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Rogue|
+F Silvermoon City|ACTIVE|9618|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Rogue|
+R The Shepherd's Gate|ACTIVE|9618|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Rogue|
+T Return the Reports|QID|9618|M|79.6,51.8|Z|1954; Silvermoon City|N|To Zelanis.|R|BloodElf|C|Rogue|
 ; -- Warlock
-A Return to Talionia|QID|10788|N|Don't know where this starts.|R|BloodElf|C|Warlock|
-T Return to Talionia|QID|10788|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
-A The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|From Talionia.|PRE|10788|R|BloodElf|C|Warlock| ; This continues in Ghostlands
-; Ghostlands
-;C The Stone|QID|9529|M|42,15|N|To find the blue Voidstone, head down The Dead Scar until you're south of the Elrendar River.|R|BloodElf|C|Warlock|
-;T The Stone|QID|9529|M|74.4,46.8|Z|1954; Silvermoon City|N|To Talionia.|R|BloodElf|C|Warlock|
-;A The Rune of Summoning|QID|9619|N|From Talionia.|PRE|9529|R|BloodElf|C|Warlock|
+; Ignoring this quest for now. 90 exp LEAD quest that has no start location.
+;A Return to Talionia|QID|10788|N|Don't know where this starts.|R|BloodElf|C|Warlock|LEAD|
+;T Return to Talionia|QID|10788|M|74.40,47.15|Z|1954; Silvermoon City|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
+A The Stone|QID|9529|M|74.40,47.15|Z|1954; Silvermoon City|N|From Talionia.|R|BloodElf|C|Warlock|
+R Ghostlands|ACTIVE|9529|M|48.43,10.74|Z|1942; Ghostlands|N|Exit Silvermoon City and head west to The Dead Scar. Follow the ledge of The Dead Scar south until you reach the Elrendar River.|R|BloodElf|C|Warlock|
+C The Stone|QID|9529|M|43.30,15.37|Z|1942; Ghostlands|L|181698|N|Cross to the south side of the river and you'll find a Voidstone along the river bank just south of the waterfall.|R|BloodElf|C|Warlock|
+T The Stone|QID|9529|N|To the Voidstone.|R|BloodElf|C|Warlock|
+A The Rune of Summoning|QID|9619|N|From the Voidstone.|PRE|9529|R|BloodElf|C|Warlock|
+R Goldenmist Village|ACTIVE|9619|M|33.20,15.03;30.37,16.65|Z|1942; Ghostlands|CC|N|Follow Elrendar River west until you reach the waterfall, sticking as close the water edge as you can.\nAt this point, you can either jump off the falls and swim across to the west shore.|R|BloodElf|C|Warlock|
+C The Rune of Summoning|QID|9619|M|26.99,15.24|N|Starting on the south side of the center building, clear your way up the ramps to the Rune of Summoning inside the room at the top of it.\n Once there, use the Voidstone to summon a Voidwalker and defeat it.\n[color=FF0000]NOTE: [/color]Make sure you clear all of the mobs on the top level. If you die, try to rez at the top.|U|23732|R|BloodElf|C|Warlock|
+R Tranquillien|ACTIVE|9619|M|45.12,28.25|Z|1942; Ghostlands|N|Follow the road south out of Goldenmist Village and continuing east at the intersection across The Dead Scar and into Tranquillien.|R|BloodElf|C|Warlock|
+f Tranquillien|ACTIVE|9619|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from Skymaster Sunwing.|R|BloodElf|C|Warlock|
+F Silvermoon City|ACTIVE|9619|M|45.42,30.52|Z|1942; Ghostlands|R|BloodElf|C|Warlock|
+R The Shepherd's Gate|ACTIVE|9619|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Warlock|
+T The Rune of Summoning|QID|9619|M|74.40,47.15|Z|1954; Silvermoon City|N|To Talionia in The Sanctum.|R|BloodElf|C|Warlock|
 
+R The Shepherd's Gate|ACTIVE|8888|M|56.66,49.54|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|
 T The Magister's Apprentice|QID|8888|M|67.81,56.55|N|To Apprentice Loralthalis (She moves around a bit).\n[color=FF0000]NOTE: [/color]Follow the road east up the hill and pass Farstrider Retreat.|
 A Deactivating the Spire|QID|8889|M|67.81,56.55|N|From Apprentice Loralthalis.|
 A Where's Wyllithen?|QID|9394|M|67.81,56.55|N|From Apprentice Loralthalis.|LEAD|8894|
@@ -279,13 +304,13 @@ C First Power Source|QID|8889|M|68.93,52.01|QO|1|N|Up the stairs to find and use
 C Second Power Source|QID|8889|M|68.95,51.93|QO|2|N|Continue up more stairs, then deactivate the Second Power Source.|NC|
 A Abandoned Investigations|QID|8891|M|69.24,52.10|N|From Magister Duskwither's Journal on the table near the door.|
 C Third Power Source|QID|8889|M|69.65,53.33|QO|3|N|Head up the stairs again, then deactivate the Third Power Source.|NC|
-K Cleaning up the Grounds|ACTIVE|8894|M|68.10,45.54|QO|1;2|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|US|
-T Cleaning up the Grounds|QID|8894|M|68.71,46.96|N|To Groundskeeper Wyllithen.|
+K Cleaning up the Grounds|ACTIVE|8894|M|68.10,45.54|QO|1;2|N|Finish killing the Mana Serpent and Ether Fiends.\n[color=FF0000]NOTE: [/color]You can do this up here or use the Orb of Translocation to bring you to the ground.|US|
+T Cleaning up the Grounds|QID|8894|M|68.71,46.96|N|To Groundskeeper Wyllithen.\n[color=FF0000]NOTE: [/color]If you haven't done it yet, use the Orb of Translocation to get back down to the ground.|
 T Deactivating the Spire|QID|8889|M|67.80,56.46|N|To Apprentice Loralthalis.|
 A Word from the Spire|QID|8890|M|67.81,56.47|N|From Apprentice Loralthalis.|PRE|8889|
-R Farstrider Retreat|ACTIVE|8890|M|60.31,61.38|N|Exit Silvermoon City and follow the road east to Farstrider Retreat.|
-T Word from the Spire|QID|8890|M|69.24,52.10|N|To Magister Duskwither; up the ramp on the right.|
-T Abandoned Investigations|QID|8891|M|69.24,52.10|N|To Magister Duskwither.|
+R Farstrider Retreat|ACTIVE|8890|M|60.31,61.38|
+T Word from the Spire|QID|8890|M|60.31,61.38|N|To Magister Duskwither; up the ramp on the right.|
+T Abandoned Investigations|QID|8891|M|60.31,61.38|N|To Magister Duskwither.|
 K Amani Encroachment|ACTIVE|8476|M|69.00,72.00|QO|1;2|N|Kill Amani Berserkers and Axe Throwers.|S|
 R Tor'Watha|ACTIVE|8475^8477|M|66.51,69.35|N|Head east out Farstrider Retreat and up the hill towards the monument. The road leads in to Tor'Watha.|
 K Spearcrafter Otembe|ACTIVE|8477|M|70.07,72.37|QO|1|N|Locate Spearcrafter Otembe standing on the 'grassy gnoll' in the middle of the camp.|
@@ -310,18 +335,18 @@ T The Party Never Ends|QID|9067|M|38.15,73.56|N|To Lord Saltheril.|
 R Goldenbough Pass|ACTIVE|9258|M|32.98,74.48|N|Head west out of Saltheril's Haven towards the road running north/south out of Sunsail Anchorage and continue south along this road.|
 T The Scorched Grove|QID|9258|M|34.06,80.02|N|To Larianna Riverwind inside the building.|
 A A Somber Task|QID|8473|M|34.06,80.02|N|From Larianna Riverwind.|
-C A Somber Task|QID|8473|M|35.7,85.2|N|coords Kill Withered Green Keepers.|S|
-K Old Whitebark|AVAILABLE|8474|M|35.7,85.2|L|23228|N|coords Locate Old Whitebark and kill him to loot his amulet.|T|Old Whitebark|
+K A Somber Task|ACTIVE|8473|M|34.64,83.32|N|Kill Withered Green Keepers.|S|
+K Old Whitebark|AVAILABLE|8474|M|34.97,84.10|L|23228|N|Locate Old Whitebark and kill him to loot his amulet.|T|Old Whitebark|
 A Old Whitebark's Pendant|QID|8474|M|PLAYER|N|From Old Whitebark's Pendant.|U|23228|O|
 T Old Whitebark's Pendant|QID|8474|M|34.06,80.02|N|To Larianna Riverwind.|
 A Whitebark's Memory|QID|10166|M|34.06,80.02|N|From Larianna Riverwind.|PRE|8474|
-T Whitebark's Memory|QID|10166|M|37.58,86.14|N|Use the pendant on Whitebark's Spirit and he'll attack you. \n[color=FF0000]NOTE: [/color]Once he reaches % health, he'll become friendly and you can turn the quest in.|U|28209|
-C A Somber Task|QID|8473|M|35.7,85.2|N|coords Finish up killing Withered Green Keepers.|US|
+T Whitebark's Memory|QID|10166|M|37.58,86.14|N|Use the pendant near the Runestone to summon Whitebark's Spirit and he'll attack you. \n[color=FF0000]NOTE: [/color]Once he reaches ~30% health, he'll become friendly and you can turn the quest in.|U|28209|
+K A Somber Task|ACTIVE|8473|M|34.64,83.32|QO|1|N|Finish up killing Withered Green Keepers.|US|
 T A Somber Task|QID|8473|M|34.06,80.02|N|To Larianna Riverwind.|
-T Runewarden Deryan|QID|9253|M|44.20,85.46|N|To Runewarden Deryan.|PRE|9252|
+T Runewarden Deryan|QID|9253|M|44.20,85.46|N|To Runewarden Deryan beside the Runestone in Runestone Falithas.|PRE|9252|
 A Powering our Defenses|QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|
-C Powering our Defenses|QID|8490|M|55,84|N|coords Head to the Runestone Shan'dor and use the Infused Crystal. Defend the crystal against two waves of 3 Enraged Wraiths.|U|22693|
+C Powering our Defenses|QID|8490|M|55.28,84.34|N|Head to Runestone Shan'dor and use the Infused Crystal. Defend the crystal against two waves of 3 Enraged Wraiths.|U|22693|
 T Powering our Defenses|QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|
-N End of Eversong Woods Guide|QID|9144|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide. If you're not doing Ghostlands guide, then run to the waypoints.\n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|
+N End of Eversong Woods Guide|QID|9144|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide. If you're not doing Ghostlands guide, then run to the waypoints.\n\nYou may also want to update your skills from Silvermoon City.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ]]
 end)
