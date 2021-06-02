@@ -5,23 +5,23 @@ WoWPro:GuideLevels(guide, 10, 20)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Fairbreeze Village |QID|9144|M|44.06,70.73|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\n\nThere will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|Z|Eversong Woods|
-A Missing in the Ghostlands |QID|9144|LEAD|9329|M|44.06,70.73|N|From Magistrix Landra Dawnstrider.|Z|Eversong Woods|
+R Fairbreeze Village|AVAILABLE|9144|M|44.06,70.73|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\n\nThere will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|Z|Eversong Woods|
+A Missing in the Ghostlands|QID|9144|LEAD|9329|M|44.06,70.73|N|From Magistrix Landra Dawnstrider.|Z|Eversong Woods|
 A Runewarden Deryan|QID|9253|LEAD|8490|PRE|9252|M|46.92,71.81|N|From Ranger Sareyn. \n\nYou have to have done the quest Defending Fairbreeze to get this, but you'll be able to get the follow up to this regardless of whether you do it.|Z|Eversong Woods|
-T Runewarden Deryan|QID|9253|PRE|9252|M|44.20,85.46|N|To Runewarden Deryan.|Z|Eversong Woods|
-A Powering our Defenses |QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|Z|Eversong Woods|
-C Powering our Defenses |QID|8490|U|22693|N|Head to the Runestone Shan'dor, then use the Infused Crystal. You will then need to defend the crystal against two sets of 3 Enraged Wraiths.|Z|Eversong Woods|M|55,84|
-T Powering our Defenses |QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|Z|Eversong Woods|
-T Missing in the Ghostlands |QID|9144|N|To Courier Dawnstrider.|Z|Eversong Woods|M|48.97,88.99|
+T Runewarden Deryan|QID|9253|M|44.20,85.46|N|To Runewarden Deryan.|Z|Eversong Woods|
+A Powering our Defenses|QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|Z|Eversong Woods|
+C Powering our Defenses|QID|8490|U|22693|N|Head to the Runestone Shan'dor, then use the Infused Crystal. You will then need to defend the crystal against two sets of 3 Enraged Wraiths.|Z|Eversong Woods|M|55,84|
+T Powering our Defenses|QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|Z|Eversong Woods|
+T Missing in the Ghostlands|QID|9144|N|To Courier Dawnstrider.|Z|Eversong Woods|M|48.97,88.99|
 A The Fallen Courier|QID|9147|M|49.01,89.04|N|From Apothecary Thedra|Z|Eversong Woods|
 C The Fallen Courier|QID|9147|N|Head over the bridge, then kill and loot the Starving Ghostclaws, and Mistbats.|M|49.85,13.05|
 T The Fallen Courier|QID|9147|M|49.01,89.04|N|To Apothecary Thedra|Z|Eversong Woods|
-A Delivery to Tranquillien |QID|9148|PRE|9147|N|From Courier Dawnstrider.|Z|Eversong Woods|M|48.97,88.99|
-T Delivery to Tranquillien |QID|9148|N|Follow the road south to Tranquillien. To Vandril.|M|46.35,28.39|
-A The Forsaken |QID|9327|R|BloodElf|N|From Vandril.|M|46.35,28.39|
-A The Forsaken |QID|9329|M|46.35,28.39|R|-BloodElf|N|From Vandril.|
-T The Forsaken |QID|9327|M|44.84,32.43|R|BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
-T The Forsaken |QID|9329|M|44.84,32.43|R|-BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
+A Delivery to Tranquillien|QID|9148|PRE|9147|N|From Courier Dawnstrider.|Z|Eversong Woods|M|48.97,88.99|
+T Delivery to Tranquillien|QID|9148|N|Follow the road south to Tranquillien. To Vandril.|M|46.35,28.39|
+A The Forsaken|QID|9327|R|BloodElf|N|From Vandril.|M|46.35,28.39|
+A The Forsaken|QID|9329|M|46.35,28.39|R|-BloodElf|N|From Vandril.|
+T The Forsaken|QID|9327|M|44.84,32.43|R|BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
+T The Forsaken|QID|9329|M|44.84,32.43|R|-BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
 A Goods from Silvermoon City|QID|9130|M|47.33,29.22|N|From Quartermaster Lymel.|PRE|9329|
 T Goods from Silvermoon City|QID|9130|M|45.43,30.53|N|To Skymaster Sunwing.|
 f Ghostlands|QID|9138|M|45.47,30.54|N|Get the flight path for Ghostlands.|
@@ -182,7 +182,7 @@ T Investigate the Amani Catacombs|QID|9193|M|44.86,32.80|N|To Advisor Valwyn.|
 A The Sanctum of the Sun|QID|9151|LEAD|9220|M|46.01,31.95|N|From Magister Darenis.|
 r Repair/Restock|M|49.07,30.33|N|At Blacksmith Frances.|
 ;R Hatchet Hills|QID|9169|M|45.5,30.55|N|Fly to Hatchet Hills (Zul'Aman).|
-l Crystal Controlling Orb|QID|9169|L|23191 |M|58.20,64.72|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|
+l Crystal Controlling Orb|QID|9169|L|23191|M|58.20,64.72|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|
 C Deactivate An'owyn|QID|9169|M|58.20,64.72|N|Click on the Night Elf Moon Crystal to deactivate it.|
 C Clearing the Way|QID|9281|M|47.33,63.85;53.96,61.66|CN|N|Go between the two waypoints until you have killed 10 Greater Spindlewebs and 10 Ghostclaw Ravager.|
 T Clearing the Way|QID|9281|M|46.44,56.52|N|To Apprentice Vor'el.|
@@ -226,8 +226,8 @@ A Hero of the Sin'dorei|QID|9328|PRE|9167|M|54.99,48.99|R|BloodElf|N|From Magist
 A Friend of the Sin'dorei|QID|9811|PRE|9167|M|54.99,48.99|R|Orc,Troll,Tauren,Undead,Goblin|N|From Magister Kaendris.|
 T Dar'Khan's Lieutenants|QID|9170|M|54.91,48.38|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.91,48.38|N|To Arcanist Janeda.|
-K Luzran |QID|9156|M|39.5,32;37.3,67.5|CN|N|If you have help or can solo Luzran look for him where the waypoints are. If not, go ahead and skip.|
-K Knucklerot |QID|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|CN|N|If you have help or can solo Knucklerot, look for him where the waypoints are. If not, go ahead and skip.|
+K Luzran|QID|9156|M|39.5,32;37.3,67.5|CN|N|If you have help or can solo Luzran look for him where the waypoints are. If not, go ahead and skip.|
+K Knucklerot|QID|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|CN|N|If you have help or can solo Knucklerot, look for him where the waypoints are. If not, go ahead and skip.|
 T Wanted: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|
 R Tranquillien|QID|9328|M|46,33|N|Run to Tranquillien.|
 F Silvermoon City|QID|9328|M|46,30|N|Fly to Silvermoon City flight hub.|
