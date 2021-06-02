@@ -335,18 +335,18 @@ T The Party Never Ends|QID|9067|M|38.15,73.56|N|To Lord Saltheril.|
 R Goldenbough Pass|ACTIVE|9258|M|32.98,74.48|N|Head west out of Saltheril's Haven towards the road running north/south out of Sunsail Anchorage and continue south along this road.|
 T The Scorched Grove|QID|9258|M|34.06,80.02|N|To Larianna Riverwind inside the building.|
 A A Somber Task|QID|8473|M|34.06,80.02|N|From Larianna Riverwind.|
-C A Somber Task|QID|8473|M|35.7,85.2|N|coords Kill Withered Green Keepers.|S|
-K Old Whitebark|AVAILABLE|8474|M|35.7,85.2|L|23228|N|coords Locate Old Whitebark and kill him to loot his amulet.|T|Old Whitebark|
+K A Somber Task|ACTIVE|8473|M|34.64,83.32|N|Kill Withered Green Keepers.|S|
+K Old Whitebark|AVAILABLE|8474|M|34.97,84.10|L|23228|N|Locate Old Whitebark and kill him to loot his amulet.|T|Old Whitebark|
 A Old Whitebark's Pendant|QID|8474|M|PLAYER|N|From Old Whitebark's Pendant.|U|23228|O|
 T Old Whitebark's Pendant|QID|8474|M|34.06,80.02|N|To Larianna Riverwind.|
 A Whitebark's Memory|QID|10166|M|34.06,80.02|N|From Larianna Riverwind.|PRE|8474|
-T Whitebark's Memory|QID|10166|M|37.58,86.14|N|Use the pendant on Whitebark's Spirit and he'll attack you. \n[color=FF0000]NOTE: [/color]Once he reaches % health, he'll become friendly and you can turn the quest in.|U|28209|
-C A Somber Task|QID|8473|M|35.7,85.2|N|coords Finish up killing Withered Green Keepers.|US|
+T Whitebark's Memory|QID|10166|M|37.58,86.14|N|Use the pendant near the Runestone to summon Whitebark's Spirit and he'll attack you. \n[color=FF0000]NOTE: [/color]Once he reaches ~30% health, he'll become friendly and you can turn the quest in.|U|28209|
+K A Somber Task|ACTIVE|8473|M|34.64,83.32|QO|1|N|Finish up killing Withered Green Keepers.|US|
 T A Somber Task|QID|8473|M|34.06,80.02|N|To Larianna Riverwind.|
-T Runewarden Deryan|QID|9253|M|44.20,85.46|N|To Runewarden Deryan.|PRE|9252|
+T Runewarden Deryan|QID|9253|M|44.20,85.46|N|To Runewarden Deryan beside the Runestone in Runestone Falithas.|PRE|9252|
 A Powering our Defenses|QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|
-C Powering our Defenses|QID|8490|M|55,84|N|coords Head to the Runestone Shan'dor and use the Infused Crystal. Defend the crystal against two waves of 3 Enraged Wraiths.|U|22693|
+C Powering our Defenses|QID|8490|M|55.28,84.34|N|Head to Runestone Shan'dor and use the Infused Crystal. Defend the crystal against two waves of 3 Enraged Wraiths.|U|22693|
 T Powering our Defenses|QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|
-N End of Eversong Woods Guide|QID|9144|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide. If you're not doing Ghostlands guide, then run to the waypoints.\n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|
+N End of Eversong Woods Guide|QID|9144|N|That's it from Eversong Woods. Don't worry about not yet uncovering all of Eversong Woods Map if you're missing just the one area as you'll discover that place in the Ghostlands guide. If you're not doing Ghostlands guide, then run to the waypoints.\n\nYou may also want to update your skills from Silvermoon City.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ]]
 end)
