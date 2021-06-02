@@ -11,6 +11,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 ;This is a rewrite and homogenization of existing 25-30 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
 ; Wetlands 25-26
+F Auberdine|QID|299|M|34.42,48.02|N|Fly back to Auberdine.|Z|Ashenvale|
 b Wetlands|QID|299|M|32.42,43.74|Z|Darkshore|N|Take the boat to Menethil from Auberdine.|
 A Reclaiming Goods|QID|281|M|8.3,58.6|N|From Karl Boran.|PRE|279|Z|Wetlands|
 A Apprentice's Duties|QID|471|M|8.49,55.7|N|From James Halloran.|PRE|484|Z|Wetlands|
@@ -56,21 +57,21 @@ N Stockades Dungeon|QID|469|N|Now is Likely a good time to do stockades, Get [Wh
 N Level 26|QID|1078|N|You should be level 26 or close by now. If you are not, I suggest a grinding session, because we're about to hit Stormwind and train new skills. Close this step.|LVL|-26|
 
 ; Redridge 26-27
-F Stormwind City|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|Z|Wetlands|
+F Stormwind|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|Z|Wetlands|
 B Bronze Tube|QID|174|M|53.19,60.7|Z|Stormwind City|N|Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
 B Stormwind Seasoning Herbs |QID|90|M|60.07,51.55;64.15,60.60|CS|Z|Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
 N Level Cooking SKill to 50|QID|90|M|75.85,36.96|Z|Stormwind City|N|Level your cooking skill to 50 and get Journeyman Cooking for a quest later in the guide. Skip this step if you do not wish to level cooking.|
 t Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
 t A Scroll from Mauren|QID|1075|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
 
-F Redridge Mountains|QID|128|M|70.90,72.60|Z|Stormwind City|N|Fly to Lakeshire in Redridge Mountains.|
+F Lakeshire|QID|128|M|66.37,62.30|Z|Stormwind City|N|Fly to Lakeshire in Redridge Mountains.|
 A Blackrock Bounty|QID|128|M|31.54,57.86|N|From Guard Howe.|Z|Redridge Mountains|
 A Blackrock Menace|QID|20|M|33.49,48.99|N|From Marshal Marris.|Z|Redridge Mountains|
 A Howling in the Hills|QID|126|M|30.96,47.27|N|From Verner Osgood.|PRE|124|Z|Redridge Mountains|
 T Messenger to Darkshire|QID|146|M|29.99,44.44|N|To Magistrate Solomon.|Z|Redridge Mountains|
-h Lakeshire|QID|126|M|27.97,44.96|N|Set your hearthstone at Innkeeper Brianna|Z|Redridge Mountains|
+h Lakeshire|ACTIVE|126|M|27.01,44.88|N|Set your hearthstone at Innkeeper Brianna|Z|Redridge Mountains|
 A An Unwelcome Guest|QID|34|M|21.9,46.3|N|From Martie Jainrose.|Z|Redridge Mountains|
-C An Unwelcome Guest|QID|34|M|16.27,49|N|Kill Bellgrub.|Z|Redridge Mountains|
+C An Unwelcome Guest|QID|34|M|16.27,49|N|Kill Bellgrub.|Z|Redridge Mountains|T|Bellgrub|
 T An Unwelcome Guest|QID|34|M|21.9,46.3|N|To Martie Jainrose.|Z|Redridge Mountains|
 R Gnoll Camps|ACTIVE|126|M|40.00,33.10|CC|N|Head north-east out of Lakeshire.|Z|Redridge Mountains|
 C Howling in the Hills|QID|126|M|40.00,33.10;27.00,21.00|CS|N|Kill Yowler and loot his paw. He patrols between the camps in this area|Z|Redridge Mountains|
@@ -103,7 +104,8 @@ C Tharil'Zun|QID|19|M|68.31,59.41|N|Kill Tharil'Zun and loot his head. Elite sur
 C Wanted: Gath'Ilzogg|QID|169|M|67,55|N|Kill and loot Gath'Ilzogg. He is upstairs within Stonewatch Keep.\nThis is a tough quest. Be careful not to overpull packs whilst inside the keep.\nGath'Ilzogg is not immune to crowd control. Keep him CC'd whilst you kill the other elites with him.|Z|Redridge Mountains|
 C Shadow Magic|QID|115|M|66.77,53.82|US|N|Kill the Blackrock Shadowcasters in the area and loot their orbs.|Z|Redridge Mountains|
 A Morganth|QID|249|M|84.3,46.9|N|From the Lion Statue.|Z|Redridge Mountains|PRE|248|
-C Morganth|QID|249|M|80.00,78.75|N|On the top floor of the tower next to the statue. Morganth is a level 27 elite. Morganth can be CC'd whilst you clear the non-elites with him. If he casts Minion of Morganth a level 30 non-elite undead mob will appear. It has high HP but does not hit hard|PRE|248|Z|Redridge Mountains|
+C Morganth|QID|249|M|80.11,49.48|N|On the top floor of the tower next to the statue.|PRE|248|Z|Redridge Mountains|
+H Lakeshire|ACTIVE|19|M|27.01,44.88|N|Run or hearth back to Lakeshire|Z|Redridge Mountains|
 T Tharil'zun|QID|19|M|33.49,48.99|N|To Marshal Marris.|Z|Redridge Mountains|
 T Shadow Magic|QID|115|M|33.49,48.99|N|To Marshal Marris.|Z|Redridge Mountains|
 T Solomon's Law|QID|91|M|29.72,44.26|N|To Bailiff Conacher.|Z|Redridge Mountains|
@@ -113,9 +115,9 @@ T Theocritus' Retrieval|QID|178|M|65.2,69.8|Z|Elwynn Forest|N|To Theocritus at t
 T Morganth|QID|249|M|65.2,69.8|Z|Elwynn Forest|N|To Theocritus|
 
 ; Duskwood 27-28
-R Darkshire|QID|174|M|75,48|Z|Duskwood|N|Run to Darkshire.|
+R Darkshire|QID|174|M|77.52,44.32|Z|Duskwood|N|Run to Darkshire.|
 B Bronze Tube|QID|174|M|53.19,60.7|Z|Stormwind City|N|Oops, you didn't buy it earlier. Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
-r Sell junk and repair|AVAILABLE|67|S|
+r Sell junk and repair|QID|174|M|73.62,48.89|N|Sell and Repair with Gavin Gnarltree|Z|Duskwood|
 A An Old History Book|QID|337|M|7.79,33.99|U|2794|N|Click the book to accept the quest.|Z|Duskwood|
 A Look To The Stars|QID|174|M|79.79,48.06|N|From Viktori Prism'Antras.|Z|Duskwood|
 T Look To The Stars|QID|174|M|79.79,48.06|N|To Viktori Prism'Antras.|Z|Duskwood|
@@ -164,8 +166,8 @@ C The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|Protect her from 3 waves o
 T The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|To Daphne Stilwell.|C|Paladin|
 A The Tome of Valor|QID|1652|M|41.6,88.6|Z|Westfall|N|From Daphne Stilwell.|PRE|1651|C|Paladin|
 
-H Scarlet Raven Tavern|QID|90|N|Hearth/Run or Fly (From Sentinel Hill) back to Darkshire.|
-r Sell junk and repair|AVAILABLE|453|S|
+H Scarlet Raven Tavern|ACTIVE|158|N|Hearth/Run or Fly (From Sentinel Hill) back to Darkshire.|
+r Sell junk and repair|ACTIVE|158|M|73.62,48.89|N|Sell and Repair with Gavin Gnarltree|Z|Duskwood|
 T Zombie Juice|QID|158|M|73.79,44.49|N|To Tavernkeep Smitts.|Z|Duskwood|
 A Gather Rot Blossoms|QID|156|M|73.79,44.49|N|From Tavernkeep Smitts.|PRE|158|Z|Duskwood|
 T Seasoned Wolf Kabobs|QID|90|M|73.77,43.51|N|To Chef Graul|Z|Duskwood|
@@ -221,7 +223,7 @@ A The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.
 C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
 T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 
-r Sell junk, repair, train etc|AVAILABLE|1243|S|
+r Sell junk, repair, train etc|AVAILABLE|1243|
 T The Legend of Stalvan|QID|70|M|29.53,61.93|Z|Stormwind City|N|To Caretaker Folsom.|
 A The Legend of Stalvan|QID|72|M|29.53,61.93|Z|Stormwind City|N|From Caretaker Folsom.|PRE|70|
 T The Legend of Stalvan|QID|72|M|29.44,61.52|Z|Stormwind City|N|Right-click the Sealed Crate just next to Caretaker Folsom.|
@@ -292,7 +294,7 @@ F Menethil Harbor|QID|270|M|55.3,47.6|N|Fly to Menethil Harbor.|Z|Ironforge|C|Pa
 
 ; Wetlands 28-29
 F Menethil Harbor|QID|270|M|77.50,44.30|N|Fly to Menethil Harbor.|C|-Paladin|Z|Duskwood|
-r Sell junk, repair, train etc|AVAILABLE|321|S|
+r Sell junk, repair, train etc|AVAILABLE|321|
 h Deepwater Tavern|QID|270|N|Go to the inn and make it your home location.|M|10.70,60.95|Z|Wetlands|
 t The Doomed Fleet|QID|270|M|10.6,60.6|N|To Glorin Steelbrow.|Z|Wetlands|
 A Lightforge Iron|QID|321|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|270|Z|Wetlands|
@@ -361,6 +363,7 @@ A The Branch of Cenarius|QID|1031|M|78.2,44.8|N|From Anilia.|PRE|1021|Z|Ashenval
 C The Branch of Cenarius|QID|1031|M|78,42.48|N|Kill Geltharis in the clearing to the North.|Z|Ashenvale|
 C The Tower of Althalaxx|QID|1140|M|81.59,48.58|QO|2|N|Make your way through the Satyr in Sayrnaar to click on the Red Crystal behind the red statue.|Z|Ashenvale|
 T Kayneth Stillwind|QID|4581|M|85.28,44.72|N|From Shindrell Swiftfire.|Z|Ashenvale|
+A The Howling Vale|QID|1022|M|85.28,44.72|N|From Sentinel Melyria Frostshadow.|Z|Ashenvale|
 A Forsaken Diseases|QID|1011|M|85.28,44.72|N|From Kayneth Stillwind.|Z|Ashenvale|
 C Forsaken Diseases|QID|1011|M|75.3,72.22|N|Head south along the road past Splintertree Post. Loot a Bottle of Disease from the Forsaken camp.|Z|Ashenvale|
 C Raene's Cleansing|QID|1027|S||N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|Z|Ashenvale|
