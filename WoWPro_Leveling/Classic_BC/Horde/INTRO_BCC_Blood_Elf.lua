@@ -335,7 +335,7 @@ T The Party Never Ends|QID|9067|M|38.15,73.56|N|To Lord Saltheril.|
 R Goldenbough Pass|ACTIVE|9258|M|32.98,74.48|N|Head west out of Saltheril's Haven towards the road running north/south out of Sunsail Anchorage and continue south along this road.|
 T The Scorched Grove|QID|9258|M|34.06,80.02|N|To Larianna Riverwind inside the building.|
 A A Somber Task|QID|8473|M|34.06,80.02|N|From Larianna Riverwind.|
-K A Somber Task|ACTIVE|8473|M|34.64,83.32|N|Kill Withered Green Keepers.|S|
+K A Somber Task|ACTIVE|8473|M|34.64,83.32|QO|1|N|Kill Withered Green Keepers.|S|
 K Old Whitebark|AVAILABLE|8474|M|34.97,84.10|L|23228|N|Locate Old Whitebark and kill him to loot his amulet.|T|Old Whitebark|
 A Old Whitebark's Pendant|QID|8474|M|PLAYER|N|From Old Whitebark's Pendant.|U|23228|O|
 T Old Whitebark's Pendant|QID|8474|M|34.06,80.02|N|To Larianna Riverwind.|
