@@ -343,7 +343,7 @@ A Whitebark's Memory|QID|10166|M|34.06,80.02|N|From Larianna Riverwind.|PRE|8474
 T Whitebark's Memory|QID|10166|M|37.58,86.14|N|Use the pendant near the Runestone to summon Whitebark's Spirit and he'll attack you. \n[color=FF0000]NOTE: [/color]Once he reaches ~30% health, he'll become friendly and you can turn the quest in.|U|28209|
 K A Somber Task|ACTIVE|8473|M|34.64,83.32|QO|1|N|Finish up killing Withered Green Keepers.|US|
 T A Somber Task|QID|8473|M|34.06,80.02|N|To Larianna Riverwind.|
-T Runewarden Deryan|QID|9253|M|44.20,85.46|N|To Runewarden Deryan beside the Runestone in Runestone Falithas.|PRE|9252|
+T Runewarden Deryan|QID|9253|M|44.20,85.46|N|To Runewarden Deryan beside the Runestone in Runestone Falithas.|
 A Powering our Defenses|QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|
 C Powering our Defenses|QID|8490|M|55.28,84.34|N|Head to Runestone Shan'dor and use the Infused Crystal. Defend the crystal against two waves of 3 Enraged Wraiths.|U|22693|
 T Powering our Defenses|QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|
