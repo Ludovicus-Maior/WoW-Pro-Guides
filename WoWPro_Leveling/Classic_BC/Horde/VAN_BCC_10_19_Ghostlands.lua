@@ -5,23 +5,28 @@ WoWPro:GuideLevels(guide, 10, 20)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Fairbreeze Village|AVAILABLE|9144|M|44.06,70.73|Z|Eversong Woods|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\n\nThere will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|
+R Fairbreeze Village|AVAILABLE|9144|M|44.06,70.73|Z|Eversong Woods|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\nAfter grabbing the flight path outside of Silvermoon City, follow the road to the west and then continue south at the bend.\n[color=FF0000]NOTE: [/color]There will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|
+; Repeating quests from BloodElf Intro for those that didn't come from that guide.
 A Missing in the Ghostlands|QID|9144|M|44.06,70.73|Z|Eversong Woods|N|From Magistrix Landra Dawnstrider.|LEAD|9329|
-A Runewarden Deryan|QID|9253|M|46.92,71.81|Z|Eversong Woods|N|From Ranger Sareyn. \n\nYou have to have done the quest Defending Fairbreeze to get this, but you'll be able to get the follow up to this regardless of whether you do it.|LEAD|8490|PRE|9252|
+A Ranger Sareyn|QID|9358|M|43.67,71.31|N|From Marniel Amberlight, the Innkeeper.|LEAD|9252|
+T Ranger Sareyn|QID|9358|M|46.93,71.79|N|To Ranger Sareyn.|
+A Defending Fairbreeze Village|QID|9252|M|46.93,71.79|N|From Ranger Sareyn.|
+K Defending Fairbreeze Village|ACTIVE|9252|M|51.12,77.09|QO|1;2|N|Kill Rotlimb Marauders and Darkwraiths in the Dead Scar.\n[color=FF0000]NOTE: [/color]Watch out for adds as much as possible.|
+T Defending Fairbreeze Village|QID|9252|M|46.93,71.79|N|To Ranger Sareyn.|
+A Runewarden Deryan|QID|9253|M|46.92,71.81|Z|Eversong Woods|N|From Ranger Sareyn.|LEAD|8490|PRE|9252|
 T Runewarden Deryan|QID|9253|M|44.20,85.46|Z|Eversong Woods|N|To Runewarden Deryan beside the Runestone in Runestone Falithas.|
 A Powering our Defenses|QID|8490|M|44.20,85.46|Z|Eversong Woods|N|From Runewarden Deryan.|
 C Powering our Defenses|QID|8490|M|55.28,84.34|Z|Eversong Woods|N|Head to Runestone Shan'dor and use the Infused Crystal. Defend the crystal against two waves of 3 Enraged Wraiths.|U|22693|
 T Powering our Defenses|QID|8490|M|44.20,85.46|Z|Eversong Woods|N|Back to Runewarden Deryan.|
-T Missing in the Ghostlands|QID|9144|M|48.97,88.99|Z|Eversong Woods|N|To Courier Dawnstrider.|
+T Missing in the Ghostlands|QID|9144|M|48.97,88.99|Z|Eversong Woods|N|To Courier Dawnstrider.\n[color=FF0000]NOTE: [/color]Follow the road all the way to the southern border.|
 A The Fallen Courier|QID|9147|M|49.01,89.04|Z|Eversong Woods|N|From Apothecary Thedra|
-C The Fallen Courier|QID|9147|M|49.85,13.05|N|Cross the bridge into Ghostlands to kill and loot the Starving Ghostclaws and Mistbats.|
+C The Fallen Courier|QID|9147|M|49.85,13.05|L|22570 4|N|Cross the bridge into Ghostlands to kill and loot the Starving Ghostclaws and Mistbats.|
 T The Fallen Courier|QID|9147|M|49.01,89.04|Z|Eversong Woods|N|To Apothecary Thedra.|
 A Delivery to Tranquillien|QID|9148|M|48.97,88.99|Z|Eversong Woods|N|From Courier Dawnstrider.|PRE|9147|
-T Delivery to Tranquillien|QID|9148|N|To Vandril in Tranquillien.\n[color=FF0000]NOTE: [/color]Follow the road south to Tranquillien.|M|46.35,28.39|
-A The Forsaken|QID|9327|M|46.35,28.39|N|From Vandril.|R|BloodElf|
-A The Forsaken|QID|9329|M|46.35,28.39|N|From Vandril.|R|-BloodElf|
-T The Forsaken|QID|9327|M|44.84,32.43|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|R|BloodElf|
-T The Forsaken|QID|9329|M|44.84,32.43|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|R|-BloodElf|
+T Delivery to Tranquillien|QID|9148|M|46.30,28.39|N|To Vandril in Tranquillien. He pathes back and forth across the road.\n[color=FF0000]NOTE: [/color]Follow the road south to Tranquillien.|
+A The Forsaken|QID|9327^9329|M|46.35,28.39|N|From Vandril.|
+T The Forsaken|QID|9327^9329|M|44.77,32.45|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|R|BloodElf|
+A Return to Arcanist Vandril|QID|9758|M|44.84,32.43|N|From High Executor Mavren.|PRE|9327^9329|
 A Goods from Silvermoon City|QID|9130|M|47.33,29.22|N|From Quartermaster Lymel.|PRE|9329|
 T Goods from Silvermoon City|QID|9130|M|45.43,30.53|N|To Skymaster Sunwing.|
 f Ghostlands|QID|9138|M|45.47,30.54|N|Get the flight path for Ghostlands.|
@@ -37,7 +42,6 @@ T Skymistress Gloaming|QID|9134|M|54.38,50.79|Z|Silvermoon City|N|To Skymistress
 A Return to Quartermaster Lymel|QID|9135|M|54.38,50.79|N|From Skymistress Gloaming.|PRE|9134|
 F Fairbreeze Village|QID|9135|M|54.38,50.79|N|Fly to Fairbreeze Village, or just hearth.|
 T Return to Quartermaster Lymel|QID|9135|M|47.33,29.22|N|To Quartermaster Lymel.|
-A Return to Arcanist Vandril|QID|9758|M|44.84,32.43|N|From High Executor Mavren.|PRE|9327^9329|
 T Return to Arcanist Vandril|QID|9758|M|46.33,28.45|N|To Arcanist Vandril.|
 A Suncrown Village|QID|9138|M|46.33,28.45|N|From Arcanist Vandril.|PRE|9758|
 A Wanted: Knucklerot and Luzran|QID|9156|M|48.30,31.64|N|From the Wanted Poster. This is a group quest, the 2 mobs are 21 elites. If you see anyone looking for help, or offering help, take them up on it.|
@@ -47,7 +51,7 @@ A Anok'suten|QID|9315|M|57.53,14.94|N|From Dying Blood Elf near Suncrown Village
 C Suncrown Village|QID|9138|M|57.51,11.39|N|Kill 10 Nerubis Guards.|S|
 C Anok'suten|QID|9315|M|61.59,12|N|Anok'suten is a Level 11 elite with 624 HP. He wanders counter-clockwise around the circle path.|T|Anok'suten|
 C Suncrown Village|QID|9138|M|57.51,11.39|N|Kill 10 Nerubis Guards.|US|
-C The First Trial|QID|9678|M|68.6,9.8|N|Click the torch, kill the Blood Elf that spawns behind you.|R|BloodElf|C|Paladin|
+C The First Trial|QID|9678|M|68.6,9.8|N|coords Click the torch, kill the Blood Elf that spawns behind you.|R|BloodElf|C|Paladin|
 H Tranquillien|QID|9138|N|Hearth back to Tranquillien.|
 F Silvermoon City|QID|9133|M|45.43,30.53|N|Ask Skymaster Sunwing to fly you to Silvermoon City.|
 T The First Trial|QID|9678|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
@@ -113,7 +117,7 @@ T The Plagued Coast|QID|9149|M|47.66,34.86|N|To Apothecary Renzithen.|
 C Rotting Hearts|QID|9216|M|38.94,36.68;38.06,56.25|CN|L|22641 10|N|Kill any Risen Hungerers or Risen Stalkers farther south. Be careful of Luzran.\nRisen Stalkers are higher level but seem to have higher drop rate.|
 A Underlight Ore Samples|QID|9207|M|31.42,48.31|N|From Apprentice Shatharia.|
 C Trouble at the Underlight Mines|QID|9192|M|29.25,47.93|N|Head down the slope and kill any gnoll you need.|
-C Underlight Ore Samples|QID|9207|M|29.25,47.93|N|You should have all the ore you need by the time you get done the previous step. If not, keep killing gnolls till you do.|
+C Underlight Ore Samples|QID|9207|M|29.25,47.93|N|You should have all the ore you need by the time you get done the previous step. If not, keep killing gnolls until you do.|
 K Retaking Windrunner Spire|ACTIVE|9173|M|11.04,56.98|QO|1;2|N|Kill 8 Acolytes, and 10 Fallen Rangers.|
 l The Lady's Necklace|QID|9175|M|11.04,56.98|L|22597|N|Kill Acolytes and Fallen Rangers until this drops.|
 A The Lady's Necklace|QID|9175|M|PLAYER|N|Accept the quest from the necklace.|U|22597|O|
@@ -161,7 +165,7 @@ A Hints of the Past|QID|9162|M|79.63,17.72|N|From the book.|PRE|9161|
 T Hints of the Past|QID|9162|M|71.89,32.63|N|To Ranger Vynna.|
 A Report to Magister Kaendris|QID|9172|M|71.89,32.63|N|From Ranger Vynna.|PRE|9162|
 K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill 10 Vamperic Mistbats.|
-C Shadowpine Weaponry|QID|9214|M|80,38;75,45|CN|L|23167 3|N|Kill Shadowcasters until you get 3 Shadowcaster Maces.|S|
+C Shadowpine Weaponry|QID|9214|M|80,38;75,45|CN|L|23167 3|N|coords Kill Shadowcasters until you get 3 Shadowcaster Maces.|S|
 C Headhunter Axes|QID|9214|M|80,38;75,45|CN|L|23165 3|N|Kill Headhunters until you get 3 Headhunter Axes.|S|
 K Attack on Zeb'Tela|ACTIVE|9276|M|80,38;75,45|CN|N|Kill 8 Shadowcasters and 8 Headhunters between the two points.|
 C Shadowpine Weaponry|QID|9214|M|80,38;75,45|CN|L|23167 3|N|Kill Shadowcasters until you get 3 Shadowcaster Maces.|US|
@@ -169,19 +173,19 @@ C Headhunter Axes|QID|9214|M|80,38;75,45|CN|L|23165 3|N|Kill Headhunters until y
 T Attack on Zeb'Tela|QID|9276|M|72.34,31.33|N|To Farstrider Solanna.|
 A Assault on Zeb'Nowa|QID|9277|M|72.34,31.33|N|From Farstrider Solanna.|PRE|9276|
 C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexxers.|S|
-C Shadowpine Weaponry|QID|9214|M|63.86,66.49|QO|1;2|N|Kill Catlords and Hexxers till you get 3 Hexxer Staves and 3 Catlord Claws.|S|
+C Shadowpine Weaponry|QID|9214|M|63.86,66.49|QO|1;2|N|Kill Catlords and Hexxers until you get 3 Hexxer Staves and 3 Catlord Claws.|S|
 U Poison the Fresh Fish Rack|ACTIVE|9275|M|68.22,57.85|QO|3|N|Poison the Fresh Fish Rack inside the hut.|U|22796|
 U Poison the Smoked Meat Rack|ACTIVE|9275|M|65.06,66.73|QO|1|N|Poison the Raw Meat Rack.|U|22796|
 C A Little Dash of Seasoning|QID|9275|M|62.82,75.13|QO|2|N|Poison the Smoked Meat Rack.|NC|
 K Bring Me Kel'gash's Head!|ACTIVE|9215|M|65.33,79.51|QO|1|N|If you feel that you can kill Kel'gash, or if you have help, go ahead and try.\n[color=FF0000]NOTE: [/color]He is stunnable and silenceable.|
 C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexxers.|US|
-C Shadowpine Weaponry|QID|9214|M|63.86,66.49|QO|1;2|Kill Catlords and Hexxers till you get 3 Hexxer Staves and 3 Catlord Claws.|US|
+C Shadowpine Weaponry|QID|9214|M|63.86,66.49|QO|1;2|N|Kill Catlords and Hexxers until you get 3 Hexxer Staves and 3 Catlord Claws.|US|
 H Tranquillien|QID|9193|N|If you want to save your hearth, fly there.|
 T Troll Juju|QID|9199|M|44.76,32.28|N|To Deathstalker Malthendis.|
 T Investigate the Amani Catacombs|QID|9193|M|44.86,32.80|N|To Advisor Valwyn.|
 A The Sanctum of the Sun|QID|9151|M|46.01,31.95|N|From Magister Darenis.|LEAD|9220|
 r Repair/Restock|M|49.07,30.33|N|At Blacksmith Frances.|
-;R Hatchet Hills|QID|9169|M|45.5,30.55|N|Fly to Hatchet Hills (Zul'Aman).|
+;R Hatchet Hills|QID|9169|M|45.5,30.55|N|coords Fly to Hatchet Hills (Zul'Aman).|
 l Crystal Controlling Orb|QID|9169|M|58.20,64.72|L|23191|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|
 C Deactivate An'owyn|QID|9169|M|58.20,64.72|N|Click on the Night Elf Moon Crystal to deactivate it.|
 K Clearing the Way|ACTIVE|9281|M|47.33,63.85;53.96,61.66|CN|QO|1;2|N|Go between the two waypoints until you have killed 10 Greater Spindlewebs and 10 Ghostclaw Ravager.|
@@ -213,20 +217,20 @@ T A Restorative Draught|QID|9877|M|47.66,34.86|N|To Apothecary Renzithen.|
 A Captives at Deatholme|QID|9164|M|47.66,34.86|N|From Apothecary Renzithen.|
 C Apothecary Enith|QID|9164|M|32.1,73.9|QO|1|N|coords Go down into the crypt and Talk to Apothecary Enith.|; Apothecary Enith Rescued: 1/1
 K Jurion the Deceiver|ACTIVE|9170|M|32.1,74|QO|3|N|coords Kill Jurion the Deciever in the crypt.|; Jurion the Deceiver slain: 1/1
-K Mirdoran the Fallen|ACTIVE|9170|M|37.1,79.1|QO|1|N|Kill Mirdoran the Fallen.|; Mirdoran the Fallen slain: 1/1
+K Mirdoran the Fallen|ACTIVE|9170|M|37.1,79.1|QO|1|N|coords Kill Mirdoran the Fallen.|; Mirdoran the Fallen slain: 1/1
 C Apprentice Varnis|QID|9164|M|37.88,84.40;40.97,83.10|CS|QO|2|N|Go into the butchery and talk to Aprentive Varnis.|; Apprentice Varnis Rescued: 1/1
-K Borgoth the Bloodletter.|ACTIVE|9170|M|41,83.1;32.7,89.9|CN|QO|2|N|Borgoth can be in either butchery.|S|; Borgoth the Bloodletter slain: 1/1
-C Captives at Deatholme|QID|9164|M|32.8,89.3|N|Talk to Ranger Vedoran to rescue him.|
-C Dar'Khan's Lieutenants|QID|9170|M|29.5,89.2;35.9,89.3|CN|N|Masophet can be in either ziggurat..|
-K Borgoth the Bloodletter|ACTIVE|9170|M|41,83.1;32.7,89.9|CN|QO|2|N|Borgoth can be in either butchery.|US|; Borgoth the Bloodletter slain: 1/1
+K Borgoth the Bloodletter.|ACTIVE|9170|M|41,83.1;32.7,89.9|CN|QO|2|N|coords Borgoth can be in either butchery.|S|; Borgoth the Bloodletter slain: 1/1
+C Captives at Deatholme|QID|9164|M|32.8,89.3|N|coords Talk to Ranger Vedoran to rescue him.|
+C Dar'Khan's Lieutenants|QID|9170|M|29.5,89.2;35.9,89.3|CN|N|coords Masophet can be in either ziggurat..|
+K Borgoth the Bloodletter|ACTIVE|9170|M|41,83.1;32.7,89.9|CN|QO|2|N|coords Borgoth can be in either butchery.|US|; Borgoth the Bloodletter slain: 1/1
 C The Traitor's Destruction|QID|9167|M|32.81,82.45|N|Dar'Khan is a 21 elite, he has 2-4 adds in the same room as him. He likes fear now and then. If you have help, or if you think you can solo him, go ahead. If not, go ahead and skip, though the rewards are nice.|
 T The Traitor's Destruction|QID|9167|M|54.99,48.99|N|To Magister Kaendris.|
 A Hero of the Sin'dorei|QID|9328|M|54.99,48.99|R|BloodElf|N|From Magister Kaendris.|PRE|9167|
 A Friend of the Sin'dorei|QID|9811|M|54.99,48.99|N|From Magister Kaendris.|R|Orc,Troll,Tauren,Undead,Goblin|PRE|9167|
 T Dar'Khan's Lieutenants|QID|9170|M|54.91,48.38|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.91,48.38|N|To Arcanist Janeda.|
-K Luzran|ACTIVE|9156|M|39.5,32;37.3,67.5|CN|N|If you have help or can solo Luzran look for him where the waypoints are. If not, go ahead and skip.|
-K Knucklerot|ACTIVE|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|CN|N|If you have help or can solo Knucklerot, look for him where the waypoints are. If not, go ahead and skip.|
+K Luzran|ACTIVE|9156|M|39.5,32;37.3,67.5|CN|N|coords If you have help or can solo Luzran look for him where the waypoints are. If not, go ahead and skip.|
+K Knucklerot|ACTIVE|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|CN|N|coords If you have help or can solo Knucklerot, look for him where the waypoints are. If not, go ahead and skip.|
 T Wanted: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|
 R Tranquillien|ACTIVE|9328|M|46,33|N|coord Run to Tranquillien.|
 F Silvermoon City|ACTIVE|9328|M|46,30|N|coord Fly to Silvermoon City flight hub.|
