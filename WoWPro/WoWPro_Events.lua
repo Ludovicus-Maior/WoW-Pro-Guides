@@ -52,7 +52,7 @@ function WoWPro.TakeTaxiClassic(destination)
     for i = 1, _G.NumTaxiNodes() do
         local nomen = _G.TaxiNodeName(i)
         local location,zone = (","):split(nomen)
-        WoWPro:dbp("TakeTaxiClassic(%d): Location=%s, zone=%s", i, location, zone)
+        WoWPro:dbp("TakeTaxiClassic(%d): Location=%s, zone=%s", i, location, zone or "?")
         if location:find(destination, 1, true) or (nomen == destination) then
             WoWPro:Print("Taking flight to: [%s]",location)
             if _G.IsMounted() then
