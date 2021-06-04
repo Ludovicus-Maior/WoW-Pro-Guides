@@ -19,7 +19,7 @@ A Powering our Defenses|QID|8490|M|44.20,85.46|Z|Eversong Woods|N|From Runewarde
 C Powering our Defenses|QID|8490|M|55.28,84.34|Z|Eversong Woods|N|Head to Runestone Shan'dor and use the Infused Crystal. Defend the crystal against two waves of 3 Enraged Wraiths.|U|22693|
 T Powering our Defenses|QID|8490|M|44.20,85.46|Z|Eversong Woods|N|Back to Runewarden Deryan.|
 T Missing in the Ghostlands|QID|9144|M|48.97,88.99|Z|Eversong Woods|N|To Courier Dawnstrider.\n[color=FF0000]NOTE: [/color]Follow the road all the way to the southern border.|
-A The Fallen Courier|QID|9147|M|49.01,89.04|Z|Eversong Woods|N|From Apothecary Thedra|
+A The Fallen Courier|QID|9147|M|49.01,89.04|Z|Eversong Woods|N|From Apothecary Thedra.|PRE|9144|
 C The Fallen Courier|QID|9147|M|49.85,13.05|L|22570 4|N|Cross the bridge into Ghostlands to kill and loot the Starving Ghostclaws and Mistbats.|
 T The Fallen Courier|QID|9147|M|49.01,89.04|Z|Eversong Woods|N|To Apothecary Thedra.|
 A Delivery to Tranquillien|QID|9148|M|48.97,88.99|Z|Eversong Woods|N|From Courier Dawnstrider.|PRE|9147|
