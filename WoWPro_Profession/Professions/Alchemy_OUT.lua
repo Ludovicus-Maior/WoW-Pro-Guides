@@ -25,23 +25,23 @@ N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|
 N This Guide covers The Burning Crusade content in Retail only.|QID|171000001|N|Guide rewritten to new format.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 75, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
-l [item=22785/Felweed]|QID|171022785|L|22785 44|ITEM|22785|N|You'll need about 44 Felweed.|
-l [item=13464/Golden Sansam]|QID|171013464|L|13464 10|ITEM|13464|N|You'll need about 10 Golden Sansams.|
-l [item=22789/Terocone]|QID|171022789|L|22789 10|ITEM|22789|N|You'll need about 10 Terocones.|
-l [item=22786/Dreaming Glory]|QID|171022786|L|22786 80|ITEM|22786|N|You'll need about 80 Dreaming Glorys.|
-l [item=22791/Netherbloom]|QID|171022791|L|22791 10|ITEM|22791|N|You'll need about 10 Netherblooms.|
-l [item=22792/Nightmare Vine]|QID|171022792|L|22792 40|ITEM|22792|N|You'll need about 40 Nightmare Vines.|
-N Choice of Herbs|QID|171000005|N|You need 14 of ANY of the following Herbs: Dreamfoil, Golden Sansam, or Mountain Silversage. (Right click to continue)|
-l [item=13463/Dreamfoil]|QID|171013463|L|13463 14|ITEM|13463|N|You'll need about 14 Dreamfoils.|
-l [item=13464/Golden Sansam]|QID|171013464|L|13464 24|ITEM|13464|N|You'll need about 24 Golden Sansams. (10 from above, and 14 more if you choice this herb).|
-l [item=13465/Mountain Silversage]|QID|171013465|L|13465 14|ITEM|13465|N|You'll need about 14 Mountain Silversages.|
+l [item=22785/Felweed]|QID|171000004|L|22785 44|ITEM|22785|N|You'll need about 44 Felweed.|
+l [item=13464/Golden Sansam]|QID|171000004|L|13464 10|ITEM|13464|N|You'll need about 10 Golden Sansams.|
+l [item=22789/Terocone]|QID|171000004|L|22789 10|ITEM|22789|N|You'll need about 10 Terocones.|
+l [item=22786/Dreaming Glory]|QID|171000004|L|22786 80|ITEM|22786|N|You'll need about 80 Dreaming Glorys.|
+l [item=22791/Netherbloom]|QID|171000004|L|22791 10|ITEM|22791|N|You'll need about 10 Netherblooms.|
+l [item=22792/Nightmare Vine]|QID|171000004|L|22792 40|ITEM|22792|N|You'll need about 40 Nightmare Vines.|
+N Choice of Herbs|QID|171000004|N|You need 14 of ANY of the following Herbs: Dreamfoil, Golden Sansam, or Mountain Silversage. (Right click to continue)|
+l [item=13463/Dreamfoil]|QID|171000004|L|13463 14|ITEM|13463|N|You'll need about 14 Dreamfoils.|
+l [item=13464/Golden Sansam]|QID|171000004|L|13464 24|ITEM|13464|N|You'll need about 24 Golden Sansams. (10 from above, and 14 more if you choice this herb).|
+l [item=13465/Mountain Silversage]|QID|171000004|L|13465 14|ITEM|13465|N|You'll need about 14 Mountain Silversages.|
+B [item=3371/Crystal Vial]|QID|171000004|L|3371 95|ITEM|3371|N|You'll need about 95 Crystal Vials.|
 B [spell=28562/Major Dreamless Sleep Potion]|QID|171028562|M|57.6,53.4|Z|Terokkar Forest|RECIPE|28562|N|Purchase [item=22911/Recipe: Major Dreamless Sleep Potion] from Leeli Longhaggle, Allerian Stronghold, Terokkar Forest.|FACTION|Alliance|
 B [spell=28555/Super Mana Potion]|QID|171028555|M|67.8,48.0|Z|Zangarmarsh|RECIPE|28562|N|Purchase [item=22907/Recipe: Super Mana Potion] from Haalrun, Telredor, Zangarmarsh.|FACTION|Alliance|
 B [spell=28562/Major Dreamless Sleep Potion]|QID|171028562|M|51.0,57.8|Z|Blade's Edge Mountains|RECIPE|28562|N|Purchase [item=22911/Recipe: Major Dreamless Sleep Potion] from Daga Ramba, Thunderlord Stronghold, Blade's Edge Mountains.|FACTION|Horde|
 B [spell=28555/Super Mana Potion]|QID|171028555|M|51.0,57.8|Z|Blade's Edge Mountains|RECIPE|28562|N|Purchase [item=22907/Recipe: Super Mana Potion] from Daga Ramba, Thunderlord Stronghold, Blade's Edge Mountains.|FACTION|Horde|
-B [item=3371/Crystal Vial]|QID|171003371|L|3371 95|ITEM|3371|N|You'll need about 95 Crystal Vials.|
 
 N Shopping List|QID|171000006|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

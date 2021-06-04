@@ -26,17 +26,17 @@ N This Guide is a Work In Progress Guide.|QID|171000001|N|Currently in Developme
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports|
 N Herbalist|P|Herbalism;182;8;0|N|If you are a herbalist, running around for these mats will level you up, currently no guide in the works for herbalism|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 170, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 170.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, Updated as of 25-Dec-2020
 
-l [item=169701/Death Blossom]|QID|171169701|L|169701 345|ITEM|169701|N|You'll need about 345 Death Blossoms. Common herb found in all 4 zones.|
-l [item=168586/Rising Glory]|QID|171168586|L|168586 115|ITEM|168586|N|You'll need about 115 Rising Glory. Grows in Bastion Only.|
-l [item=168589/Marrowroot]|QID|171168589|L|168589 130|ITEM|168589|N|You'll need about 130 Marrowroot. Grows in Maldaxxus Only.|
-l [item=170554/Vigil's Torch]|QID|171170554|L|170554 135|ITEM|170554|N|You'll need about 135 Vigil's Torch. Grows in Ardenweald Only.|
-l [item=168583/Widowbloom]|QID|171168583|L|168583 100|ITEM|168583|N|You'll need about 100 Widowbloom. Grows in Revendreth Only.|
-B [item=180732/Rune Etched Vial]|QID|171180732|M|39.6,38.2|Z|Ring of Fates@Oribos|L|180732 145|ITEM|180732|N|You'll need at least 145 Rune Etched Vials. - Sold by Distributor Au'naci.|
-B [item=183950/Distilled Death Extract]|QID|171183950|M|39.6,38.2|Z|Ring of Fates@Oribos|L|183950 114|ITEM|183950|N|You'll need at least 114 Distilled Death Extracts. - Sold by Distributor Au'naci.|
+l [item=169701/Death Blossom]|QID|171000004|L|169701 345|ITEM|169701|N|You'll need about 345 Death Blossoms. Common herb found in all 4 zones.|
+l [item=168586/Rising Glory]|QID|171000004|L|168586 115|ITEM|168586|N|You'll need about 115 Rising Glory. Grows in Bastion Only.|
+l [item=168589/Marrowroot]|QID|171000004|L|168589 130|ITEM|168589|N|You'll need about 130 Marrowroot. Grows in Maldaxxus Only.|
+l [item=170554/Vigil's Torch]|QID|171000004|L|170554 135|ITEM|170554|N|You'll need about 135 Vigil's Torch. Grows in Ardenweald Only.|
+l [item=168583/Widowbloom]|QID|171000004|L|168583 100|ITEM|168583|N|You'll need about 100 Widowbloom. Grows in Revendreth Only.|
+B [item=180732/Rune Etched Vial]|QID|171000004|M|39.6,38.2|Z|Ring of Fates@Oribos|L|180732 145|ITEM|180732|N|You'll need at least 145 Rune Etched Vials. - Sold by Distributor Au'naci.|
+B [item=183950/Distilled Death Extract]|QID|171000004|M|39.6,38.2|Z|Ring of Fates@Oribos|L|183950 114|ITEM|183950|N|You'll need at least 114 Distilled Death Extracts. - Sold by Distributor Au'naci.|
 
 N Shopping List|QID|171000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

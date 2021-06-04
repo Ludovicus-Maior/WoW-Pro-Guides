@@ -26,16 +26,16 @@ N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hu
 N This Guide|QID|333000001|N|Covers what Blizzard now terms Kul Tiran / Zandalari Plans, content of Battle for Azeroth 1-175\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 175, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 175.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list
 
-l [item=152875/Gloom Dust]|QID|333152875|L|152875 3150|ITEM|152875|N|You'll need at least 3,150 Gloom Dusts.|
-l [item=152876/Umbra Shard]|QID|333152876|L|152876 505|ITEM|152876|N|You'll need at least 505 Umbra Shards.|
-l [item=152877/Veiled Crystal]|QID|333152877|L|152877 80|ITEM|152877|N|You'll need at least 80 Veiled Crystals.|
-l [item=152668/Expulsom]|QID|333152668|L|152668 45|ITEM|152668|N|You'll need at least 45 Expulsoms.|
-B [item=38682/Enchanting Vellum]|QID|333038682|L|38682 285|ITEM|38682|N|You'll need at least 285 Enchanting Vellums.|
-B [item=11291/Star Wood]|QID|333011291|L|11291 30|ITEM|11291|N|You'll need at least 30 Star Woods.|
+l [item=152875/Gloom Dust]|QID|333000004|L|152875 3150|ITEM|152875|N|You'll need at least 3,150 Gloom Dusts.|
+l [item=152876/Umbra Shard]|QID|333000004|L|152876 505|ITEM|152876|N|You'll need at least 505 Umbra Shards.|
+l [item=152877/Veiled Crystal]|QID|333000004|L|152877 80|ITEM|152877|N|You'll need at least 80 Veiled Crystals.|
+l [item=152668/Expulsom]|QID|333000004|L|152668 45|ITEM|152668|N|You'll need at least 45 Expulsoms.|
+B [item=38682/Enchanting Vellum]|QID|333000004|L|38682 285|ITEM|38682|N|You'll need at least 285 Enchanting Vellums.|
+B [item=11291/Star Wood]|QID|333000004|L|11291 30|ITEM|11291|N|You'll need at least 30 Star Woods.|
 N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.

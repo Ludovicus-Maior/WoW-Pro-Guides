@@ -25,9 +25,9 @@ N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|
 N This Guide|QID|171000001|N|Covers what Blizzard now terms Legion Plans, content of Legion 1-100\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Legion 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Legion 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
-l [item=128304/Yseralline Seed]|QID|171128304|L|128304 9|ITEM|128304|N|You'll need about 9 Yseralline Seeds, for a quest.|
+l [item=128304/Yseralline Seed]|QID|171000004|L|128304 9|ITEM|128304|N|You'll need about 9 Yseralline Seeds, for a quest.|
 
 N Legion Profession Quests|QID|171000005|N|Before doing this guide it is recommened you do all the Legion Alchemy Quests.  They are all in the 'Legion Profession' Guide. Right Click this step to active the Jump step for that guide.  Once you are done with that guide, please manually switch back to this one.|
 N Legion Profession Quests|QID|171000006|JUMP|LEG_PROF|N|Before doing this guide it is recommened you do all the Legion Alchemy Quests.  They are all in the 'Legion Profession' Guide.|

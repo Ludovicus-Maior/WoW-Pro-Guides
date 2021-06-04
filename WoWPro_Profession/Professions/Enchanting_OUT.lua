@@ -26,17 +26,17 @@ N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hu
 N This Guide|QID|333000001|N|Covers Outland content in Retail.|
 N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 75, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list
 
-l [item=22445/Arcane Dust]|QID|333022445|L|22445 630|ITEM|22445|N|You'll need at least 630 Arcane Dusts.|
-l [item=22446/Greater Planar Essence]|QID|333022446|L|22446 25|ITEM|22446|N|You'll need at least 25 Greater Planar Essence.|
-l [item=22447/Lesser Planar Essence]|QID|333022447|L|22447 20|ITEM|22447|N|You'll need at least 20 Lesser Planar Essence.|
-l [item=22449/Large Prismatic Shard]|QID|333022449|L|22449 5|ITEM|22449|N|You'll need at least 5 Large Prismatic Shards.|
-l [item=22450/Void Crystal]|QID|333022450|L|22450 12|ITEM|22450|N|You'll need at least 12 Void Crystals.|
-l [item=22792/Nightmare Vine]|QID|333022792|L|22792 15|ITEM|22792|N|You'll need at least 15 Nightmare Vines.|
-B [item=38682/Enchanting Vellum]|QID|333038682|L|38682 81|ITEM|38682|N|You'll need at least 81 Enchanting Vellums.|
+l [item=22445/Arcane Dust]|QID|333000004|L|22445 630|ITEM|22445|N|You'll need at least 630 Arcane Dusts.|
+l [item=22446/Greater Planar Essence]|QID|333000004|L|22446 25|ITEM|22446|N|You'll need at least 25 Greater Planar Essence.|
+l [item=22447/Lesser Planar Essence]|QID|333000004|L|22447 20|ITEM|22447|N|You'll need at least 20 Lesser Planar Essence.|
+l [item=22449/Large Prismatic Shard]|QID|333000004|L|22449 5|ITEM|22449|N|You'll need at least 5 Large Prismatic Shards.|
+l [item=22450/Void Crystal]|QID|333000004|L|22450 12|ITEM|22450|N|You'll need at least 12 Void Crystals.|
+l [item=22792/Nightmare Vine]|QID|333000004|L|22792 15|ITEM|22792|N|You'll need at least 15 Nightmare Vines.|
+B [item=38682/Enchanting Vellum]|QID|333000004|L|38682 81|ITEM|38682|N|You'll need at least 81 Enchanting Vellums.|
 N Couple Recipes to Buy|QID|333000006|N|There are a couple recipes to go buy, that you'll need for later.|
 B [spell=28019/Superior Wizard Oil]|QID|333028019|M|63.6,70.0|Z|Shattrath City|RECIPE|13419|N|Purchase [item=22563/Formula: Superior Wizard Oil] from Madame Ruby, Shattrath City.|
 B [spell=34009/Formula: Enchant Shield - Major Stamina]|QID|333034009|M|63.6,70.0|Z|Shattrath City|RECIPE|34009|N|Purchase [item=28282/Formula: Enchant Shield - Major Stamina] from Madame Ruby, Shattrath City.|

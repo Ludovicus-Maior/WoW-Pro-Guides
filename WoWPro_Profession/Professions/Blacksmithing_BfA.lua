@@ -26,17 +26,17 @@ N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Developme
 N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports|
 N Miner|P|Mining;186;8;0|N|If you are a miner, running around for these mats will level you up, currently no guide in the works for mining.|
 N Learn Recipe|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 175, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 175.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, as of Jan-2021
 
-l [item=152512/Monelite Ore]|QID|164152512|L|152512 1758|ITEM|152512|N|You'll need about 1,758 Monelite Ore.|
-l [item=152579/Storm Silver Ore]|QID|164152579|L|152579 1235|ITEM|152579|N|You'll need about 1,235 Storm Silver Ore, (only 795 if you have 18 Mark of Honor).|
-l [item=152513/Platinum Ore]|QID|164152513|L|152513 240|ITEM|152513|N|You'll need at least 240 Platinum Ore, (only 120 if you have 18 Mark of Honor).|
-l [item=168185/Osmenite Ore]|QID|164168185|L|168185 220|ITEM|168185|N|You'll need at least 220 Osmienite Ore.|
-l [item=152668/Expulsom]|QID|164152668|L|152668 75|ITEM|152668|N|You'll need at least 75 Expulsom.|
-B [item=18567/Elemental Flux]|QID|164018567|L|18567 420|ITEM|18567|N|You'll need about 420 Elemental Flux, (only 320 if you have 18 Mark of Honor). You can buy as you need if you want.|
-B [item=160298/Durable Flux]|QID|164160298|L|160298 152|ITEM|160298|N|You'll need about 152 Durable Flux. You can buy as you need if you want.|
+l [item=152512/Monelite Ore]|QID|164000004|L|152512 1758|ITEM|152512|N|You'll need about 1,758 Monelite Ore.|
+l [item=152579/Storm Silver Ore]|QID|164000004|L|152579 1235|ITEM|152579|N|You'll need about 1,235 Storm Silver Ore, (only 795 if you have 18 Mark of Honor).|
+l [item=152513/Platinum Ore]|QID|164000004|L|152513 240|ITEM|152513|N|You'll need at least 240 Platinum Ore, (only 120 if you have 18 Mark of Honor).|
+l [item=168185/Osmenite Ore]|QID|164000004|L|168185 220|ITEM|168185|N|You'll need at least 220 Osmienite Ore.|
+l [item=152668/Expulsom]|QID|164000004|L|152668 75|ITEM|152668|N|You'll need at least 75 Expulsom.|
+B [item=18567/Elemental Flux]|QID|164000004|L|18567 420|ITEM|18567|N|You'll need about 420 Elemental Flux, (only 320 if you have 18 Mark of Honor). You can buy as you need if you want.|
+B [item=160298/Durable Flux]|QID|164000004|L|160298 152|ITEM|160298|N|You'll need about 152 Durable Flux. You can buy as you need if you want.|
 N Shopping List|QID|164000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.

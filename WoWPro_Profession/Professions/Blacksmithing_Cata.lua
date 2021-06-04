@@ -25,15 +25,15 @@ N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide
 N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers what Blizzard now terms Cataclysm Plans, content covering Cataclysm 1-75\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Cataclysm 1 to 75, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Cataclysm 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, as of Jan-2021
 
-l [item=54849/Obsidium Bar]|QID|164054849|L|54849 390|ITEM|54849|N|You'll need about 390 Obsidium Bars.|
-l [item=52186/Elementium Bar]|QID|164052186|L|52186 340|ITEM|52189|N|You'll need about 340 Elementium Bars.|
-l [item=52327/Volatile Earth]|QID|164052327|L|52327 10|ITEM|52327|N|You'll need about 10 Volatile Earth.|
-l [item=52325/Volatile Fire]|QID|164052325|L|52325 150|ITEM|52325|N|You'll need about 150 Volatile Fires.|
-l [item=53039/Hardened Elementium Bar]|QID|16453039|L|53039 2|ITEM|53039|N|You'll need 2 Hardened Elementium Bar.|
+l [item=54849/Obsidium Bar]|QID|164000004|L|54849 390|ITEM|54849|N|You'll need about 390 Obsidium Bars.|
+l [item=52186/Elementium Bar]|QID|164000004|L|52186 340|ITEM|52189|N|You'll need about 340 Elementium Bars.|
+l [item=52327/Volatile Earth]|QID|164000004|L|52327 10|ITEM|52327|N|You'll need about 10 Volatile Earth.|
+l [item=52325/Volatile Fire]|QID|164000004|L|52325 150|ITEM|52325|N|You'll need about 150 Volatile Fires.|
+l [item=53039/Hardened Elementium Bar]|QID|164000004|L|53039 2|ITEM|53039|N|You'll need 2 Hardened Elementium Bar.|
 
 N Shopping List|QID|164000005|N|This completes the Shopping List. You may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

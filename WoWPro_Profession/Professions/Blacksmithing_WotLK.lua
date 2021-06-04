@@ -25,14 +25,14 @@ N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide
 N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers what Blizzard now terms Northrend Plans content Wraith of the Lich King 1-75\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Northrend 1 to 75, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Northrend 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, as of Oct-2020
 
-l [item=36916/Cobalt Bar]|QID|164036916|L|36916 180|ITEM|36916|N|You'll need about 180 Cobalt Bars.|
-l [item=36913/Saronite Bar]|QID|164036913|L|36913 721|ITEM|36913|N|You'll need about 721 Saronite Bars.|
-l [item=37701/Crystallized Air]|QID|164037701|L|37701 30|ITEM|37701|N|You'll need about 30 Crystallized Air. (or 3 [item=35623/Eternal Air]|
-l [item=35624/Eternal Earth]|QID|164035624|L|35624 39|ITEM|35624|N|You'll need about 39 Eternal Earth or Eternal Water/Fire/Shadow.|
+l [item=36916/Cobalt Bar]|QID|164000004|L|36916 180|ITEM|36916|N|You'll need about 180 Cobalt Bars.|
+l [item=36913/Saronite Bar]|QID|164000004|L|36913 721|ITEM|36913|N|You'll need about 721 Saronite Bars.|
+l [item=37701/Crystallized Air]|QID|164000004|L|37701 30|ITEM|37701|N|You'll need about 30 Crystallized Air. (or 3 [item=35623/Eternal Air]|
+l [item=35624/Eternal Earth]|QID|164000004|L|35624 39|ITEM|35624|N|You'll need about 39 Eternal Earth or Eternal Water/Fire/Shadow.|
 
 N Shopping List|QID|164000005|N|This completes the Shopping List. You may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

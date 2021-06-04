@@ -26,17 +26,17 @@ N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Developme
 N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports|
 N Miner|P|Mining;186;8;0|N|If you are a miner, running around for these mats will level you up, currently no guide in the works for mining.|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, as of Nov-2020
 
-l [item=171828/Laestrite Ore]|QID|164171828|L|171828 360|ITEM|171828|N|You'll need about 359 Laestrite Ore. Found everywhere.|
-l [item=171833/Elethium Ore]|QID|164171833|L|171833 30|ITEM|171833|N|You'll need about  29 Elethium Ore. Found in The Maw, but also in other zones low chance.|
-l [item=171829/Solenium Ore]|QID|164171829|L|171829 95|ITEM|171829|N|You'll need at least 95 Solenium Ore. Found in Bastion.|
-l [item=171830/Oxxein Ore]|QID|164171830|L|171830 95|ITEM|171830|N|You'll need at least 95 Oxxein Ore. Found in Maldaxxus.|
-l [item=171831/Phaedrum Ore]|QID|164171831|L|171831 140|ITEM|171831|N|You'll need at least 95 Phaedrum Ore. Found in Ardenweald.|
-l [item=171832/Sinvyr Ore]|QID|164171832|L|171832 95|ITEM|171832|N|You'll need at least 95 Sinvyr Ore. Found in Revendreth.|
-B [item=180733/Luminous Flux]|QID|164180733|M|38.55,33.50|Z|Ring of Fates@Oribos|L|180733 572|ITEM|180733|N|You'll need about 572 Luminous Flux. You can buy as you need if you want. Sold by Distributor Au'til|
+l [item=171828/Laestrite Ore]|QID|164000004|L|171828 360|ITEM|171828|N|You'll need about 359 Laestrite Ore. Found everywhere.|
+l [item=171833/Elethium Ore]|QID|164000004|L|171833 30|ITEM|171833|N|You'll need about  29 Elethium Ore. Found in The Maw, but also in other zones low chance.|
+l [item=171829/Solenium Ore]|QID|164000004|L|171829 95|ITEM|171829|N|You'll need at least 95 Solenium Ore. Found in Bastion.|
+l [item=171830/Oxxein Ore]|QID|164000004|L|171830 95|ITEM|171830|N|You'll need at least 95 Oxxein Ore. Found in Maldaxxus.|
+l [item=171831/Phaedrum Ore]|QID|164000004|L|171831 140|ITEM|171831|N|You'll need at least 95 Phaedrum Ore. Found in Ardenweald.|
+l [item=171832/Sinvyr Ore]|QID|164000004|L|171832 95|ITEM|171832|N|You'll need at least 95 Sinvyr Ore. Found in Revendreth.|
+B [item=180733/Luminous Flux]|QID|164000004|M|38.55,33.50|Z|Ring of Fates@Oribos|L|180733 572|ITEM|180733|N|You'll need about 572 Luminous Flux. You can buy as you need if you want. Sold by Distributor Au'til|
 N [item=171428/Shadowghast Ingot]|QID|164307611|P|Blacksmithing;164;8+0|ITEM|171428|N|You'll need upto 190 Shadowghast Ingots, these you will make as you go.|
 N Shopping List|QID|164000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

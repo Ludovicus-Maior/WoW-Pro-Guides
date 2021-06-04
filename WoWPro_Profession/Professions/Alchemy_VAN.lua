@@ -26,27 +26,27 @@ N This Guide|QID|171000001|N|Covers VANILLA content in Retail only. Guide rewrit
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 
-N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
-l [item=2447/Peacebloom]|QID|171002447|L|2447 59|ITEM|2447|N|You'll need about 59 Peaceblooms.|
-l [item=765/Silverleaf]|QID|171000765|L|765 59|ITEM|765|N|You'll need about 59 Silverleafs.|
-l [item=2450/Briarthorn]|QID|171002450|L|2450 90|ITEM|2450|N|You'll need about 90 Briarthorns.|
-l [item=785/Mageroyal]|QID|171000785|L|785 20|ITEM|785|N|You'll need about 20 Mageroyals.|
-l [item=2453/Bruiseweed]|QID|171002453|L|2453 30|ITEM|2453|N|You'll need about 30 Bruiseweeds.|
-l [item=3820/Stranglekelp]|QID|171003820|L|3820 45|ITEM|3820|N|You'll need about 45 Stranglekelps.|
-l [item=3357/Liferoot]|QID|171003357|L|3357 20|ITEM|3357|N|You'll need about 20 Liferoots.|
-l [item=3356/Kingsblood]|QID|171003356|L|3356 30|ITEM|3356|N|You'll need about 30 Kingsbloods.|
-l [item=3821/Goldthorn]|QID|171003821|L|3821 30|ITEM|3821|N|You'll need about 30 Goldthorns.|
-l [item=3355/Wild Steelbloom]|QID|171003355|L|3355 10|ITEM|3355|N|You'll need about 10 Wild Steelblooms.|
-l [item=8838/Sungrass]|QID|171008838|L|8838 25|ITEM|8838|N|You'll need about 25 Sungrasses.|
-l [item=3358/Khadgar's Whisker]|QID|171003358|L|3358 35|ITEM|3358|N|You'll need about 35 Khadgar's Whiskers.|
-l [item=8839/Blindweed]|QID|171008839|L|8839 10|ITEM|8839|N|You'll need about 10 Blindweeds.|
-l [item=8846/Gromsblood]|QID|171008846|L|8846 40|ITEM|8846|N|You'll need about 40 Gromsbloods.|
-l [item=13466/Sorrowmoss]|QID|171013466|L|13466 40|ITEM|13466|N|You'll need about 40 Sorrowmosses.|
-l [item=13463/Dreamfoil]|QID|171013463|L|13463 15|ITEM|13463|N|You'll need about 15 Dreamfoils.|
-l [item=13464/Golden Sansam]|QID|171013464|L|13464 28|ITEM|13464|N|You'll need about 28 Golden Sansams.|
-l [item=13465/Mountain Silversage]|QID|171013465|L|13465 14|ITEM|13465|N|You'll need about 14 Mountain Silversages.|
-l [item=13467/Icecap]|QID|171013467|L|13467 10|ITEM|13467|N|You'll need about 10 Icecaps.|
-l [item=3371/Crystal Vial]|QID|171003371|L|3371 310|ITEM|3371|N|You'll need about 310 Crystal Vials.|
+N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
+l [item=2447/Peacebloom]|QID|171000004|L|2447 59|ITEM|2447|N|You'll need about 59 Peaceblooms.|
+l [item=765/Silverleaf]|QID|171000004|L|765 59|ITEM|765|N|You'll need about 59 Silverleafs.|
+l [item=2450/Briarthorn]|QID|171000004|L|2450 90|ITEM|2450|N|You'll need about 90 Briarthorns.|
+l [item=785/Mageroyal]|QID|171000004|L|785 20|ITEM|785|N|You'll need about 20 Mageroyals.|
+l [item=2453/Bruiseweed]|QID|171000004|L|2453 30|ITEM|2453|N|You'll need about 30 Bruiseweeds.|
+l [item=3820/Stranglekelp]|QID|171000004|L|3820 45|ITEM|3820|N|You'll need about 45 Stranglekelps.|
+l [item=3357/Liferoot]|QID|171000004|L|3357 20|ITEM|3357|N|You'll need about 20 Liferoots.|
+l [item=3356/Kingsblood]|QID|171000004|L|3356 30|ITEM|3356|N|You'll need about 30 Kingsbloods.|
+l [item=3821/Goldthorn]|QID|171000004|L|3821 30|ITEM|3821|N|You'll need about 30 Goldthorns.|
+l [item=3355/Wild Steelbloom]|QID|171000004|L|3355 10|ITEM|3355|N|You'll need about 10 Wild Steelblooms.|
+l [item=8838/Sungrass]|QID|171000004|L|8838 25|ITEM|8838|N|You'll need about 25 Sungrasses.|
+l [item=3358/Khadgar's Whisker]|QID|171000004|L|3358 35|ITEM|3358|N|You'll need about 35 Khadgar's Whiskers.|
+l [item=8839/Blindweed]|QID|171000004|L|8839 10|ITEM|8839|N|You'll need about 10 Blindweeds.|
+l [item=8846/Gromsblood]|QID|171000004|L|8846 40|ITEM|8846|N|You'll need about 40 Gromsbloods.|
+l [item=13466/Sorrowmoss]|QID|171000004|L|13466 40|ITEM|13466|N|You'll need about 40 Sorrowmosses.|
+l [item=13463/Dreamfoil]|QID|171000004|L|13463 15|ITEM|13463|N|You'll need about 15 Dreamfoils.|
+l [item=13464/Golden Sansam]|QID|171000004|L|13464 28|ITEM|13464|N|You'll need about 28 Golden Sansams.|
+l [item=13465/Mountain Silversage]|QID|171000004|L|13465 14|ITEM|13465|N|You'll need about 14 Mountain Silversages.|
+l [item=13467/Icecap]|QID|171000004|L|13467 10|ITEM|13467|N|You'll need about 10 Icecaps.|
+l [item=3371/Crystal Vial]|QID|171000004|L|3371 310|ITEM|3371|N|You'll need about 310 Crystal Vials.|
 N Shopping List|QID|171000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 = Learn [spell=2259/Alchemy]|QID|171002259|SPELL|Alchemy;2259|LVL|5|N|Learn from a Trainer in any major city.|

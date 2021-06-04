@@ -22,15 +22,15 @@ return [[
 N This Guide is a Work In Progress Guide.|QID|165000001|N|Currently in Development, This Guide covers SHADOWLANDS content in Retail.|
 N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|165000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|165000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete LW-SL 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|165000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete LW-SL 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Beginning Shopping List, as of Dec-2020
 
-l [item=172089/Desolate Leather]|QID|165172089|L|172089 655|ITEM|172089|N|You'll need about 655 Desolate Leather.|
-l [item=172092/Pallid Bone]|QID|165172092|L|172092 28|ITEM|172092|N|You'll need about 28 Pallid Bone.|
-l [item=172094/Callous Hide]|QID|165172094|L|172094 45|ITEM|172094|N|You'll need about 45 Callous Hide.|
-B [item=183955/Curing Salt]|QID|165183955|M|44.46,26.57|Z|Ring of Fates@Oribos|L|183955 45|ITEM|183955|N|You'll need about 45 Curing Salt, Purchase from Distributor Au'tem.|
-B [item=177062/Penumbra Thread]|QID|165177062|M|44.46,26.57|Z|Ring of Fates@Oribos|L|177062 72|ITEM|177062|N|You'll need about 72 Penumbra Thread, Purchase from Distributor Au'tem.|
+l [item=172089/Desolate Leather]|QID|165000004|L|172089 655|ITEM|172089|N|You'll need about 655 Desolate Leather.|
+l [item=172092/Pallid Bone]|QID|165000004|L|172092 28|ITEM|172092|N|You'll need about 28 Pallid Bone.|
+l [item=172094/Callous Hide]|QID|165000004|L|172094 45|ITEM|172094|N|You'll need about 45 Callous Hide.|
+B [item=183955/Curing Salt]|QID|165000004|M|44.46,26.57|Z|Ring of Fates@Oribos|L|183955 45|ITEM|183955|N|You'll need about 45 Curing Salt, Purchase from Distributor Au'tem.|
+B [item=177062/Penumbra Thread]|QID|165000004|M|44.46,26.57|Z|Ring of Fates@Oribos|L|177062 72|ITEM|177062|N|You'll need about 72 Penumbra Thread, Purchase from Distributor Au'tem.|
 N Shopping List|QID|165000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 ; End Shopping List

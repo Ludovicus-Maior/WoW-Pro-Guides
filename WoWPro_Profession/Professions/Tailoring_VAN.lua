@@ -24,13 +24,13 @@ return [[
 N Things To Note|QID|197000001|N|\nThis guide only covers Retail VANILLA content, currently rewritten to our new format.|
 N PLEASE Report any issues|QID|197000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|197000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 300.\n This is for those that want to farm all mats prior to starting.\n If you don't want to farm the mats just click off the steps.|
+N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
-l [item=2589/Linen Cloth]|QID|197002589|L|2589 115|ITEM|2589|N|You'll need approx 115 Linen Cloth.|
-l [item=2592/Wool Cloth]|QID|197002592|L|2592 95|ITEM|2592|N|You'll need approx 95 Wool Cloth.|
-l [item=4306/Silk Cloth]|QID|197004306|L|4306 85|ITEM|4306|N|You'll need approx 85 Silk Cloth.|
-l [item=4338/Mageweave Cloth]|QID|197004338|L|4338 70|ITEM|4338|N|You'll need approx 70 Mageweave Cloth.|
-l [item=14047/Runecloth]|QID|197014047|L|14047 50|ITEM|14047|N|You'll need approx 50 Runecloth.|
+l [item=2589/Linen Cloth]|QID|197000004|L|2589 115|ITEM|2589|N|You'll need approx 115 Linen Cloth.|
+l [item=2592/Wool Cloth]|QID|197000004|L|2592 95|ITEM|2592|N|You'll need approx 95 Wool Cloth.|
+l [item=4306/Silk Cloth]|QID|197000004|L|4306 85|ITEM|4306|N|You'll need approx 85 Silk Cloth.|
+l [item=4338/Mageweave Cloth]|QID|197000004|L|4338 70|ITEM|4338|N|You'll need approx 70 Mageweave Cloth.|
+l [item=14047/Runecloth]|QID|197000004|L|14047 50|ITEM|14047|N|You'll need approx 50 Runecloth.|
 N Shopping List|QID|197000005|N|This completes the Shopping List|
 
 N Tailoring and Bandage Trainers|QID|197000008|N|It's possible these NPC's name may change, as you level and/or complete quests, but the phased trainers should be near the same areas.|
