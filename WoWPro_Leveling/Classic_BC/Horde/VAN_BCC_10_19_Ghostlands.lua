@@ -43,19 +43,19 @@ R The Shepherd's Gate|ACTIVE|9134|M|56.66,49.54|Z|Eversong Woods|N|Make your way
 T Skymistress Gloaming|QID|9134|M|54.37,50.73|Z|Eversong Woods|N|To Skymistress Gloaming.|
 A Return to Quartermaster Lymel|QID|9135|M|54.37,50.73|Z|Eversong Woods|N|From Skymistress Gloaming.|PRE|9134|
 F Tranquillien|ACTIVE|9135|M|54.37,50.73|Z|Eversong Woods|
+A Wanted: Knucklerot and Luzran|QID|9156|M|48.33,31.66|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom the Wanted poster.\n[color=FF0000]NOTE: [/color]This is a lv 21 quest that is available at lv 9. Exp diminishes at lv 26 (lot's of time to do it).|
+h Tranquillien|AVAILABLE|9315|M|48.91,32.41|N|At Innkeeper Kalarin.|
+r Housekeeping|AVAILABLE|9315|M|49.14,30.27|N|Take this opportunity to repair and sell junk to Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Return to Quartermaster Lymel|QID|9135|M|47.33,29.22|N|To Quartermaster Lymel.|
 T Return to Arcanist Vandril|QID|9758|M|46.30,28.39|N|To Arcanist Vandril.|
 A Suncrown Village|QID|9138|M|46.30,28.39|N|From Arcanist Vandril.|PRE|9758|
-A Wanted: Knucklerot and Luzran|QID|9156|M|48.33,31.66|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom the Wanted poster.\n[color=FF0000]NOTE: [/color]This is a lv 21 quest that is available at lv 9. Exp diminishes at lv 26 (lot's of time to do it).|
-h Tranquillien|AVAILABLE|9315|M|48.91,32.41|N|At Innkeeper Kalarin.|
-r Training/Repair/Sell Junk|AVAILABLE|9315|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A Anok'suten|QID|9315|M|57.53,14.94|N|From Dying Blood Elf near Suncrown Village.|PRE|9327^9329|
-C Suncrown Village|QID|9138|M|57.51,11.39|N|Kill 10 Nerubis Guards.|S|
-C Anok'suten|QID|9315|M|61.59,12|N|Anok'suten is a Level 11 elite with 624 HP. He wanders counter-clockwise around the circle path.|T|Anok'suten|
-C Suncrown Village|QID|9138|M|57.51,11.39|N|Kill 10 Nerubis Guards.|US|
+K Suncrown Village|ACTIVE|9138|M|60.11,12.99|QO|1|N|Kill Nerubis Guards.|S|
+A Anok'suten|QID|9315|M|57.53,14.94|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the Dying Blood Elf on the road into Suncrown Village.|PRE|9327^9329|
+K Anok'suten|ACTIVE|9315|M|59.87,10.19|QO|1|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nAnok'suten is a Level 11 elite with 624 HP.\n[color=FF0000]NOTE: [/color]He spawns here and wanders counter-clockwise around the circle path.|T|Anok'suten|
+K Suncrown Village|ACTIVE|9138|M|60.11,12.99|QO|1|N|Kill Nerubis Guards.|US|
 C The First Trial|QID|9678|M|68.6,9.8|N|coords Click the torch, kill the Blood Elf that spawns behind you.|R|BloodElf|C|Paladin|
-H Tranquillien|QID|9138|N|Hearth back to Tranquillien.|
-F Silvermoon City|QID|9133|M|45.43,30.53|N|Ask Skymaster Sunwing to fly you to Silvermoon City.|
+H Tranquillien|ACTIVE|9138|M|46.32,27.53|N|Run back to Tranquillien if you wish to save your Hearth.|
+F Silvermoon City|ACTIVE|9678|M|45.43,30.53|N|Ask Skymaster Sunwing to fly you to Silvermoon City.|R|BloodElf|C|Paladin|
 T The First Trial|QID|9678|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
 A A Study in Power|QID|9681|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
 T A Study in Power|QID|9681|M|92.29,36.49|Z|Silvermoon City|N|To Magister Astalor Bloodsworn.|R|BloodElf|C|Paladin|
@@ -65,36 +65,40 @@ T Claiming the Light|QID|9684|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord
 A Redeeming the Dead|QID|9685|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
 C Redeeming the Dead|QID|9685|M|92.33,37.52|Z|Silvermoon City|U|24184|T|Sangrias Stillblade|N|Take the Filled Shimmering Vessel to Silvermoon City's inn and use its magic to resurrect Sangrias Stillblade.|R|BloodElf|C|Paladin|
 T Redeeming the Dead|QID|9685|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+R The Shepherd's Gate|ACTIVE|9134|M|56.66,49.54|Z|Eversong Woods|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|R|BloodElf|C|Paladin|
+F Tranquillien|ACTIVE|9135|M|54.37,50.73|Z|Eversong Woods|R|BloodElf|C|Paladin|
 T Suncrown Village|QID|9138|M|46.24,28.35|N|To Arcanist Vandril.|
 T Anok'suten|QID|9315|M|46.24,28.35|N|To Arcanist Vandril.|
 A Help Ranger Valanna!|QID|9145|M|45.48,32.45|N|From Ranger Lethvalin.|LEAD|9143|
-T Help Ranger Valanna!|QID|9145|M|69.30,15.20|N|From Ranger Valanna.|
-A Dealing with Zeb'Sora|QID|9143|M|69.30,15.20|N|From Ranger Valanna.|
-A Forgotten Rituals|QID|9157|M|72.19,18.96|N|From Geranis Whitemorn.|
-C Forgotten Rituals|QID|9157|M|70.04,20.69|L|22674 8|N|Dive into the lake, locate and loot the Glistening Mud.|NC|
-T Forgotten Rituals|QID|9157|M|72.22,19.10|N|To Geranis Whitemorn.|
-A Vanquishing Aquantion|QID|9174|M|72.22,19.10|N|From Geranis Whitemorn.|PRE|9157|
-C Vanquishing Aquantion|QID|9174|M|71.32,14.93|N|Jump back into the lake, head towards the sparkling statue and click on it. Kill him once he spawns.|
-T Vanquishing Aquantion|QID|9174|M|72.23,18.99|N|To Geranis Whitemorn.|
-C Dealing with Zeb'Sora|QID|9143|M|77.69,12.65|N|Kill any troll you see to get their ears.|
+T Help Ranger Valanna!|QID|9145|M|69.39,15.19|N|To Ranger Valanna.\n[color=FF0000]NOTE: [/color]Head back towards Suncrown Village. If you stick to the edge of the mountain and follow it east towards the lake, you can circumvent the Village.|
+A Dealing with Zeb'Sora|QID|9143|M|69.39,15.19|N|From Ranger Valanna.|
+A Forgotten Rituals|QID|9157|M|72.30,19.10|N|From Geranis Whitemorn on the small island in the lake.|
+C Forgotten Rituals|QID|9157|M|70.04,20.69|L|22674 8|N|Dive into the lake, locate and loot the Glistening Mud. They are all around the island.|
+T Forgotten Rituals|QID|9157|M|72.30,19.10|N|To Geranis Whitemorn.|
+A Vanquishing Aquantion|QID|9174|M|72.30,19.10|N|From Geranis Whitemorn.|PRE|9157|
+C Vanquishing Aquantion|QID|9174|M|71.34,14.87|N|Swim towards the Altar of Tidal Mastery and click on it to summon Aquantion. Kill him once he spawns.|
+T Vanquishing Aquantion|QID|9174|M|72.30,19.10|N|To Geranis Whitemorn.|
+C Dealing with Zeb'Sora|QID|9143|M|76.02,12.85|L|22639 6|N|Kill any troll you see in Zeb'Sora to get their ears.|
+R Farstrider Enclave|AVAILABLE|9158^9215^9274|M|73.83,32.11|N|Follow the shoreline south to the big building.|
 A Bearers of the Plague|QID|9158|M|72.49,32.14|N|From Farstrider Sedina at the Farstrider Enclave.|
-A Bring Me Kel'gash's Head!|QID|9215|M|72.22,31.18|N|From the Wanted Poster.|
+r Housekeeping|ACTIVE|9143|M|73.83,32.11|N|You can repair and empty your bags at Narina.|IZ|3496; Farstrider Enclave|
+A Bring Me Kel'gash's Head!|QID|9215|M|72.22,31.18|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the Wanted Poster.|
 A Spirits of the Drowned|QID|9274|M|72.21,29.76|N|From Ranger Krenn'an.|
 C Spirits of the Drowned|QID|9274|M|71.04,24.00|N|Kill any ghost you see floating around in the lake.|S|
-T Dealing with Zeb'Sora|QID|9143|M|69.34,15.10|N|To Ranger Valanna.|
+T Dealing with Zeb'Sora|QID|9143|M|69.34,15.10|N|Return to Ranger Valanna.|
 A Report to Captain Helios|QID|9146|M|69.34,15.10|N|From Ranger Valanna.|PRE|9143|
 C Spirits of the Drowned|QID|9274|M|71.04,24.00|N|Kill any ghost you see floating around in the lake.|US|
 T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an.|
 T Report to Captain Helios|QID|9146|M|72.37,29.63|N|To Captain Helios.|
-H Tranquillien|QID|9152|
+H Tranquillien|AVAILABLE|9171|
 A The Plagued Coast|QID|9149|M|47.66,34.86|N|From Apothecary Renzithen.|PRE|9327^9329|
 A Tomber's Supplies|QID|9152|M|47.01,28.38|N|From Rathis Tomber.|PRE|9327^9329|
-A Goldenmist Village|QID|9139|M|46.24,28.35|N|From Arcanist Vandril.|PRE|9138|
+A Goldenmist Village|QID|9139|M|46.24,28.35|N|From Arcanist Vandril.|PRE|9138|REP|Tranquillien;922;friendly-exalted|
 A Culinary Crunch|QID|9171|M|48.43,30.93|N|From Master Chef Mouldier.|
 r Repair/Restock|QID|9171|M|49.08,30.31|N|At Blacksmith Frances.|
-A Salvaging the Past|QID|9150|M|46.01,31.95|N|From Magister Darenis.|
-A Investigate An'daroth|QID|9160|M|44.88,32.51|N|From Dame Auriferous.|
-A Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|From Deathstalker Maltendis.|
+A Salvaging the Past|QID|9150|M|46.01,31.95|N|From Magister Darenis.|REP|Tranquillien;922;friendly-exalted|
+A Investigate An'daroth|QID|9160|M|44.88,32.51|N|From Dame Auriferous.|REP|Tranquillien;922;friendly-exalted|
+A Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|From Deathstalker Maltendis.|REP|Tranquillien;922;friendly-exalted|
 A Down the Dead Scar|QID|9155|M|46.02,33.56|N|From Deathstalker Rathiel.|
 C Down the Dead Scar|QID|9155|M|39.76,32.47|N|Head down into the Dead Scar and kill Risen Hungerers and Gangled Cannibals. If you come across any Ghostclaw Lynxs, kill them as well.|
 C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders until you have 5 Crunchy Spider Legs.|S|
