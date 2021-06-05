@@ -25,17 +25,17 @@ N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|
 N This Guide|QID|171000001|N|Covers Cataclysm content in Retail only. Guide written in the new format.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 75, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
-l [item=52983/Cinderbloom]|QID|171052983|L|52983 85|ITEM|52983|N|You'll need about 85 Cinderbloom.|
-l [item=52985/Azsharas Veil]|QID|171052985|L|52985 15|ITEM|52985|N|You'll need about 15 Azshara's Veil.|
-l [item=52986/Heartblossom]|QID|171052986|L|52986 25|ITEM|52986|N|You'll need about 25 Heartblossom.|
-l [item=52987/Twilight Jasmine]|QID|171052987|L|52987 42|ITEM|52987|N|You'll need about 42 Twilight Jasmine.|
-l [item=52329/Volatile Life]|QID|171052329|L|52329 45|ITEM|52329|N|You'll need about 45 Volatile Life.|
-l [item=52988/Whiptail]|QID|171052988|L|52988 60|ITEM|52988|N|You'll need about 60 Whiptail.|
-l [item=52179/Alicite]|QID|171052179|L|52179 15|ITEM|52179|N|You'll need about 15 Alicite.|
-l [item=52180/Nightstone]|QID|171052180|L|52180 15|ITEM|52180|N|You'll need about 15 Nightstone.|
-B [item=3371/Crystal Vial]|QID|171003371|L|3371 80|ITEM|3371|N|You'll need about 80 Crystal Vials.|
+l [item=52983/Cinderbloom]|QID|171000004|L|52983 85|ITEM|52983|N|You'll need about 85 Cinderbloom.|
+l [item=52985/Azsharas Veil]|QID|171000004|L|52985 15|ITEM|52985|N|You'll need about 15 Azshara's Veil.|
+l [item=52986/Heartblossom]|QID|171000004|L|52986 25|ITEM|52986|N|You'll need about 25 Heartblossom.|
+l [item=52987/Twilight Jasmine]|QID|171000004|L|52987 42|ITEM|52987|N|You'll need about 42 Twilight Jasmine.|
+l [item=52329/Volatile Life]|QID|171000004|L|52329 45|ITEM|52329|N|You'll need about 45 Volatile Life.|
+l [item=52988/Whiptail]|QID|171000004|L|52988 60|ITEM|52988|N|You'll need about 60 Whiptail.|
+l [item=52179/Alicite]|QID|171000004|L|52179 15|ITEM|52179|N|You'll need about 15 Alicite.|
+l [item=52180/Nightstone]|QID|171000004|L|52180 15|ITEM|52180|N|You'll need about 15 Nightstone.|
+B [item=3371/Crystal Vial]|QID|171000004|L|3371 80|ITEM|3371|N|You'll need about 80 Crystal Vials.|
 
 N Shopping List|QID|171000006|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

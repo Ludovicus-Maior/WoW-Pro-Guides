@@ -28,28 +28,28 @@ N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for th
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
 N Miner|QID|164000005|P|Mining;186;0;0|N|If you are a miner, running around for these mats will level your mining up. Unfortuantely some might get you killed in your toon is not of level. Currently no guide in the works for mining.|
 
-N Shopping List|QID|164000006|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|164000006|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, as of Dec-2020
 
-l [item=2835/Rough Stone]|QID|164002835|L|2835 145|ITEM|2835|N|You'll need about 145 Rough Stones.|
-l [item=2836/Coarse Stone]|QID|164002836|L|2836 80|ITEM|2836|N|You'll need about  80 Coarse Stones.|
-l [item=2840/Copper Bar]|QID|164002840|L|2840 175|ITEM|2840|N|You'll need about 175 Copper Bars.|
-l [item=2840/Copper Bar]|QID|164002840|P|Mining;186;0+30;0|L|2840 250|ITEM|2840|N|You'll need about 250 Copper Bars. (75 bars needed to smelt bronze)|
-l [item=3576/Tin Bar]|QID|164003576|P|Mining;186;0+50;0|L|3576 75|ITEM|3576|N|You'll need about  75 Tin Bars, to smelt with 75 Copper Bars to make bronze bars.|
-l [item=2841/Bronze Bar]|QID|164002841|L|2841 150|ITEM|2841|N|You'll need about 150 Bronze Bars (Smelted from Copper and Tin, Click step off if you are a miner, Otherwise buy from AH.)|
-l [item=2838/Heavy Stone]|QID|164002838|L|2838 105|ITEM|2838|N|You'll need about 105 Heavy Stone.|
-l [item=3575/Iron Bar]|QID|164003575|L|3575 230|ITEM|3575|N|You'll need about 230 Iron Bars.|
-l [item=3575/Iron Bar]|QID|164003575|P|Mining;186;0+125;0|L|3575 280|ITEM|3575|N|You'll need about 280 Iron Bars, 50 Bars to smelt with Coal to make Steel Bars.|
-B [item=3857/Coal]|QID|164003857|P|Mining;186;0+125;0|L|3857 50|ITEM|3857|N|Purchase about  50 Coal from Blacksmithing Supply vendor.\nYou'll need these, with the Iron from above to smelt to make Steel Bars.|
-l [item=3859/Steel Bar]|QID|164003859|L|3859 50|ITEM|3859|N|You'll need about 50 Steel Bars (Smelted from Iron Bars and Coal, Click step off if you are a miner, Otherwise buy from AH.)|
-l [item=7912/Solid Stone]|QID|164007912|L|7912 20|ITEM|7912|N|You'll need about 20 Solid Stone.|
-l [item=4338/Mageweave Cloth]|QID|164004338|L|4338 150|ITEM|4338|N|You'll need about 150 Mageweave Cloth.|
-l [item=3860/Mithril Bar]|QID|164003860|L|3860 320|ITEM|3860|N|You'll need about 320 Mithril Bar.|
-l [item=12365/Dense Stone]|QID|164012365|L|12365 20|ITEM|12365|N|You'll need about  20 Dense Stone.|
-l [item=12359/Thorium Bar]|QID|164012359|L|12359 428|ITEM|12359|N|You'll need about 428 Thorium Bar.|
-l [item=7910/Star Ruby]|QID|164007910|L|7910 10|ITEM|7910|N|You'll need about 10 Star Rubies.|
-B [item=2605/Green Dye]|QID|164002605|L|2605 35|ITEM|2605|N|You'll need about 35 Green Dye, Sold by Tailoring or Leatherworking Supply Vendors.|
+l [item=2835/Rough Stone]|QID|164000004|L|2835 145|ITEM|2835|N|You'll need about 145 Rough Stones.|
+l [item=2836/Coarse Stone]|QID|164000004|L|2836 80|ITEM|2836|N|You'll need about  80 Coarse Stones.|
+l [item=2840/Copper Bar]|QID|164000004|L|2840 175|ITEM|2840|N|You'll need about 175 Copper Bars.|
+l [item=2840/Copper Bar]|QID|164000004|P|Mining;186;0+30;0|L|2840 250|ITEM|2840|N|You'll need about 250 Copper Bars. (75 bars needed to smelt bronze)|
+l [item=3576/Tin Bar]|QID|164000004|P|Mining;186;0+50;0|L|3576 75|ITEM|3576|N|You'll need about  75 Tin Bars, to smelt with 75 Copper Bars to make bronze bars.|
+l [item=2841/Bronze Bar]|QID|164000004|L|2841 150|ITEM|2841|N|You'll need about 150 Bronze Bars (Smelted from Copper and Tin, Click step off if you are a miner, Otherwise buy from AH.)|
+l [item=2838/Heavy Stone]|QID|164000004|L|2838 105|ITEM|2838|N|You'll need about 105 Heavy Stone.|
+l [item=3575/Iron Bar]|QID|164000004|L|3575 230|ITEM|3575|N|You'll need about 230 Iron Bars.|
+l [item=3575/Iron Bar]|QID|164000004|P|Mining;186;0+125;0|L|3575 280|ITEM|3575|N|You'll need about 280 Iron Bars, 50 Bars to smelt with Coal to make Steel Bars.|
+B [item=3857/Coal]|QID|164000004|P|Mining;186;0+125;0|L|3857 50|ITEM|3857|N|Purchase about  50 Coal from Blacksmithing Supply vendor.\nYou'll need these, with the Iron from above to smelt to make Steel Bars.|
+l [item=3859/Steel Bar]|QID|164000004|L|3859 50|ITEM|3859|N|You'll need about 50 Steel Bars (Smelted from Iron Bars and Coal, Click step off if you are a miner, Otherwise buy from AH.)|
+l [item=7912/Solid Stone]|QID|164000004|L|7912 20|ITEM|7912|N|You'll need about 20 Solid Stone.|
+l [item=4338/Mageweave Cloth]|QID|164000004|L|4338 150|ITEM|4338|N|You'll need about 150 Mageweave Cloth.|
+l [item=3860/Mithril Bar]|QID|164000004|L|3860 320|ITEM|3860|N|You'll need about 320 Mithril Bar.|
+l [item=12365/Dense Stone]|QID|164000004|L|12365 20|ITEM|12365|N|You'll need about  20 Dense Stone.|
+l [item=12359/Thorium Bar]|QID|164000004|L|12359 428|ITEM|12359|N|You'll need about 428 Thorium Bar.|
+l [item=7910/Star Ruby]|QID|164000004|L|7910 10|ITEM|7910|N|You'll need about 10 Star Rubies.|
+B [item=2605/Green Dye]|QID|164000004|L|2605 35|ITEM|2605|N|You'll need about 35 Green Dye, Sold by Tailoring or Leatherworking Supply Vendors.|
 N [item=7995/Plans: Mithril Scale Bracers]|RECIPE|9937|N|Next step you will need to travel to go buy this Blacksmithing Plan for about 60s, or you can buy from your local AH, but an alternate item to craft is in the guide.|
 B [spell=9937/Plans: Mithril Scale Bracers]|QID|164007995|M|47.23,52.11|Z|Swamp of Sorrows|RECIPE|9937|N|Purchase [item=7995/Plans: Mithril Scale Bracers] from Gharash, Stonard, Swamp of Sorrows\n[color=cc0000]Random spawn timer for plans[/color]\nIf you dont want to get, Right Click this step.|FACTION|Horde|
 B [spell=9937/Plans: Mithril Scale Bracers]|QID|164007995|M|13.6,44.8|Z|The Hinterlands|RECIPE|9937|N|Purchase [item=7995/Plans: Mithril Scale Bracers] from Harggan, The Hinterlands\n[color=cc0000]Random spawn timer for plans[/color]\nIf you dont want to get, Right Click this step.|FACTION|Alliance|

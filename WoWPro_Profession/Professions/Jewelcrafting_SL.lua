@@ -26,17 +26,17 @@ N This Guide is a Work In Progress Guide.|QID|755000001|N|Currently in Developme
 N PLEASE Report any issues|QID|755000002|N|In our Discord #retail-bug-reports|
 N Miner|P|Mining;186;8;0|N|If you are a miner, it is recommended you go gather your ore as you level, or wait till 60, currently no guide in the works for mining.|
 N Learn Recipes|QID|755000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|755000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete JC 1 to 90, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|755000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete JC 1 to 90.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, as of Dec-2020
 
-l [item=171828/Laestrite Ore]|QID|755171828|L|171828 410|ITEM|171828|N|You'll need about 410 Laestrite Ore. Found Everywhere.|
-l [item=171829/Solenium Ore]|QID|755171829|L|171829 50|ITEM|171829|N|You'll need at least 50 Solenium Ore. Found in Bastion.|
-l [item=171830/Oxxein Ore]|QID|755171830|L|171830 50|ITEM|171830|N|You'll need at least 50 Oxxein Ore. Found in Maldaxxus.|
-l [item=171831/Phaedrum Ore]|QID|755171831|L|171831 50|ITEM|171831|N|You'll need at least 50 Phaedrum Ore. Found in Ardenweald.|
-l [item=171832/Sinvyr Ore]|QID|755171832|L|171832 50|ITEM|171832|N|You'll need at least 50 Sinvyr Ore. Found in Revendreth.|
-B [item=173168/Laestrite Setting]|QID|755173168|M|34.51,44.61|Z|Ring of Fates@Oribos|L|173168 45|ITEM|173168|N|You'll need at least 44 Laestrite Settings.|
-B [item=183954/Malleable Wire]|QID|755183954|M|34.51,44.61|Z|Ring of Fates@Oribos|L|183954 24|ITEM|183954|N|You'll need at least 24 Malleable Wires. You will not need these till after 75 points.|
+l [item=171828/Laestrite Ore]|QID|755000004|L|171828 410|ITEM|171828|N|You'll need about 410 Laestrite Ore. Found Everywhere.|
+l [item=171829/Solenium Ore]|QID|755000004|L|171829 50|ITEM|171829|N|You'll need at least 50 Solenium Ore. Found in Bastion.|
+l [item=171830/Oxxein Ore]|QID|755000004|L|171830 50|ITEM|171830|N|You'll need at least 50 Oxxein Ore. Found in Maldaxxus.|
+l [item=171831/Phaedrum Ore]|QID|755000004|L|171831 50|ITEM|171831|N|You'll need at least 50 Phaedrum Ore. Found in Ardenweald.|
+l [item=171832/Sinvyr Ore]|QID|755000004|L|171832 50|ITEM|171832|N|You'll need at least 50 Sinvyr Ore. Found in Revendreth.|
+B [item=173168/Laestrite Setting]|QID|755000004|M|34.51,44.61|Z|Ring of Fates@Oribos|L|173168 45|ITEM|173168|N|You'll need at least 44 Laestrite Settings.|
+B [item=183954/Malleable Wire]|QID|755000004|M|34.51,44.61|Z|Ring of Fates@Oribos|L|183954 24|ITEM|183954|N|You'll need at least 24 Malleable Wires. You will not need these till after 75 points.|
 
 N Shopping List|QID|755000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 N Profession Levelling Points|QID|755000006|N|You might be ahead of this guide at times with Profession Points, don't worry, the guide will skip ahead, or you can manually click off steps to jump ahead.|

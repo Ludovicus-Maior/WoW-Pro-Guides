@@ -25,14 +25,14 @@ N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide
 N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers what Blizzard now terms Outland Plans content Outland 1-75\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Outland 1 to 60, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Outland 1 to 60.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 N Reputation Required for this Guide|QID|164000005|N|Reputation needed\nCenarion Expedition - Honored AND Either\nThe Scryers - Revered OR\nThe Aldor - Honored OR\n Run Botanica for Plans- Earthpeace Breastplate and\nAuchenai crypts for Plans- Felsteel Gloves|
 N Blacksmithing Choices|QID|164000006|N|Once you reach 60, there are 3 different routes to go from 60 to 75, those Materials ARE NOT in this list.|
 ; Begin Shopping list, as of Oct-2020
 
-l [item=23445/Fel Iron Bar]|QID|164023445|L|23445 102|ITEM|23445|N|You'll need about 102 Fel Iron Bars.|
-l [item=21877/Netherweave Cloth]|QID|164021877|L|21877 60|ITEM|21877|N|You'll need about 60 Netherweave Cloths.|
-l [item=23446/Adamantite Bar]|QID|164023446|L|23446 120|ITEM|23446|N|You'll need about 120 Adamantite Bars.|
+l [item=23445/Fel Iron Bar]|QID|164000004|L|23445 102|ITEM|23445|N|You'll need about 102 Fel Iron Bars.|
+l [item=21877/Netherweave Cloth]|QID|164000004|L|21877 60|ITEM|21877|N|You'll need about 60 Netherweave Cloths.|
+l [item=23446/Adamantite Bar]|QID|164000004|L|23446 120|ITEM|23446|N|You'll need about 120 Adamantite Bars.|
 
 N Shopping List|QID|164000007|N|This completes the Shopping List to Level 60 only.  Due to various ways you can go from 60 to 75, we have not included a shopping list for that section. You may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

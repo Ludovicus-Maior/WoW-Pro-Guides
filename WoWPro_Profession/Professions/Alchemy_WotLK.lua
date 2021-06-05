@@ -25,21 +25,21 @@ N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|
 N This Guide|QID|171000001|N|Covers Wraith of the Lich King content in Retail only. Guide written in the new format.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 75, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
-l [item=36907/Talandra's Rose]|QID|171036907|L|36907 20|ITEM|36907|N|You'll need about 20 Talandra's Rose.|
-l [item=36904/Tiger Lily]|QID|171036904|L|36904 20|ITEM|36904|N|You'll need about 20 Tiger Lily.|
-l [item=36901/Goldclover]|QID|171036901|L|36901 60|ITEM|36901|N|You'll need about 60 Goldclover.|
-l [item=36903/Adders Tongue]|QID|171036903|L|36903 24|ITEM|36903|N|You'll need about 24 Adder's Tongue.|
-l [item=36906/Icethorn]|QID|171036906|L|36906 10|ITEM|36906|N|You'll need about 20 Icethorn.|
-l [item=36905/Lichbloom]|QID|171036905|L|36905 60|ITEM|36905|N|You'll need about 60 Lichbloom.|
-l [item=36908/Frost Lotus]|QID|171036908|L|36908 15|ITEM|36908|N|You'll need about 15 Frost Lotus.|
-l [item=36932/Dark Jade]|QID|171036932|L|36932 5|ITEM|36932|N|You'll need about 5 Dark Jade.|
-l [item=36929/Huge Citrine]|QID|171036929|L|36929 5|ITEM|36929|N|You'll need about 5 Huge Citrine.|
-l [item=36860/Eternal Fire]|QID|171036860|L|36860 5|ITEM|36860|N|You'll need about 5 Eternal Fire.|
-l [item=36905/Lichbloom]|QID|171036905|L|36905 105|ITEM|36905|N|You'll need about 105 Lichbloom.|
-l [item=37704/Crystallized Life]|QID|171037704|L|37704 45|ITEM|37704|N|You'll need about 45 Crystallized Life.|
-B [item=3371/Crystal Vial]|QID|171003371|L|3371 95|ITEM|3371|N|You'll need about 95 Crystal Vials.|
+l [item=36907/Talandra's Rose]|QID|171000004|L|36907 20|ITEM|36907|N|You'll need about 20 Talandra's Rose.|
+l [item=36904/Tiger Lily]|QID|171000004|L|36904 20|ITEM|36904|N|You'll need about 20 Tiger Lily.|
+l [item=36901/Goldclover]|QID|171000004|L|36901 60|ITEM|36901|N|You'll need about 60 Goldclover.|
+l [item=36903/Adders Tongue]|QID|171000004|L|36903 24|ITEM|36903|N|You'll need about 24 Adder's Tongue.|
+l [item=36906/Icethorn]|QID|171000004|L|36906 10|ITEM|36906|N|You'll need about 20 Icethorn.|
+l [item=36905/Lichbloom]|QID|171000004|L|36905 60|ITEM|36905|N|You'll need about 60 Lichbloom.|
+l [item=36908/Frost Lotus]|QID|171000004|L|36908 15|ITEM|36908|N|You'll need about 15 Frost Lotus.|
+l [item=36932/Dark Jade]|QID|171000004|L|36932 5|ITEM|36932|N|You'll need about 5 Dark Jade.|
+l [item=36929/Huge Citrine]|QID|171000004|L|36929 5|ITEM|36929|N|You'll need about 5 Huge Citrine.|
+l [item=36860/Eternal Fire]|QID|171000004|L|36860 5|ITEM|36860|N|You'll need about 5 Eternal Fire.|
+l [item=36905/Lichbloom]|QID|171000004|L|36905 105|ITEM|36905|N|You'll need about 105 Lichbloom.|
+l [item=37704/Crystallized Life]|QID|171000004|L|37704 45|ITEM|37704|N|You'll need about 45 Crystallized Life.|
+B [item=3371/Crystal Vial]|QID|171000004|L|3371 95|ITEM|3371|N|You'll need about 95 Crystal Vials.|
 
 N Shopping List|QID|171000006|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

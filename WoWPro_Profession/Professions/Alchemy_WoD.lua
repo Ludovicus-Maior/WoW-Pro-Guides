@@ -25,12 +25,12 @@ N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|
 N This Guide|QID|171000001|N|Covers what Blizzard now terms Draenor Plans, content of Warlord of Draenor 1-100\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|171000004|N|The next few lines are going to be an approximate amount of mats you need to complete Alchemy 1 to 75, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|171000004|N|The next few lines are going to be an approximate amount of mats you need to complete Alchemy 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
-l [item=109125/Fireweed]|QID|171109125|L|109125 5|ITEM|109125|N|You'll need about 5 Frostweed.|
-l [item=109126/Gorgrond Flytrap]|QID|171109126|L|109126 342|ITEM|109126|N|You'll need about 342 Gorgrond Flytrap.|
-l [item=109128/Nagrand Arrowbloom]|QID|171109128|L|109128 180|ITEM|109128|N|You'll need about 180 Nagrand Arrowbloom.|
-B [item=3371/Crystal Vial]|QID|171003371|L|3371 100|ITEM|3371|N|You'll need about 100 Crystal Vials.|
+l [item=109125/Fireweed]|QID|171000004|L|109125 5|ITEM|109125|N|You'll need about 5 Frostweed.|
+l [item=109126/Gorgrond Flytrap]|QID|171000004|L|109126 342|ITEM|109126|N|You'll need about 342 Gorgrond Flytrap.|
+l [item=109128/Nagrand Arrowbloom]|QID|171000004|L|109128 180|ITEM|109128|N|You'll need about 180 Nagrand Arrowbloom.|
+B [item=3371/Crystal Vial]|QID|171000004|L|3371 100|ITEM|3371|N|You'll need about 100 Crystal Vials.|
 
 U [item=109558/A Treatise on the Alchemy of Draenor]|QID|171264247|SPELL|Draenor Alchemy;264247|U|109558|N|You need to buy from a Vendor in Ashran, complete a Quest Chain, or Build the Alchemy Lab in your Garrison to Learn Draenor Alchemy.|
 

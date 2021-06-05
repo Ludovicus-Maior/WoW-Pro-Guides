@@ -25,9 +25,9 @@ N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide
 N This Guide|QID|164000001|N|Covers what Blizzard now terms Legion Plans, content of Legion 1-100\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Legion 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Legion 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
 
-l [item=123918/Leystone Ore]|QID|164123918|L|123918 10|ITEM|123918|N|You'll need about 10 Leystone Ores.|
+l [item=123918/Leystone Ore]|QID|164000004|L|123918 10|ITEM|123918|N|You'll need about 10 Leystone Ores.|
 
 N Legion Profession Quests|QID|164000005|N|Before doing this guide it is recommened you do all the Legion Blacksmithing Quests.  They are all in the 'Legion Profession' Guide. Right Click this step to active the Jump step for that guide.  Once you are done with that guide, please manually switch back to this one.|
 N Legion Profession Quests|QID|164000006|JUMP|LEG_PROF|N|Before doing this guide it is recommened you do all the Legion Blacksmithing Quests.  They are all in the 'Legion Profession' Guide.|

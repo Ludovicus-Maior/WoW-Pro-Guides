@@ -21,17 +21,17 @@ return [[
 
 N This Guide is a Work In Progress Guide.|QID|165000001|N|Currently in Development, starting with BFA content.\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, using the Report Issue option menu. (Right click on the step, to bring up Menu).|
-N Shopping List|QID|165000003|N|The next few lines are going to be the TOTAL amount of mats you need to complete LW-BFA 1 to 175, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|165000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete LW-BFA 1 to 175.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Beginning Shopping List
 
-l [item=153050/Shimmerscale]|QID|165153050|L|153050 182|ITEM|153050|N|You'll need about 182 Shimmerscales.|
-l [item=152541/Coarse Leather]|QID|165152541|L|152541 2282|ITEM|152541|N|You'll need about 2,282 Coarse Leathers,|
-l [item=154164/Blood-Stained Bone]|QID|165154164|L|154164 664|ITEM|154164|N|You'll need about 664 Blood-Stained Bones.|
-l [item=154722/Tempest Hide]|QID|165154722|L|154722 50|ITEM|154722|N|You'll need about 50 Tempest Hides.|
-l [item=168649/Dredged Leather]|QID|165168649|L|168649 400|ITEM|168649|N|You'll need about 400 Dredged Leathers.|
-B [item=160059/Amber Tanning Oil]|QID|165160059|L|160059 50|ITEM|160059|N|You'll need about 50 of these for this step, Purchase from Trainer OR Trade Supplies Vendor.\nAlso available from Scrapping.|
-B [item=159959/Nylon Thread]|QID|165159959|L|159959 200|ITEM|159959|N|You'll need about 200 of these for this step, Purchase from Trainer OR Trade Supplies Vendor.\nAlso available from Scrapping.|
+l [item=153050/Shimmerscale]|QID|165000004|L|153050 182|ITEM|153050|N|You'll need about 182 Shimmerscales.|
+l [item=152541/Coarse Leather]|QID|165000004|L|152541 2282|ITEM|152541|N|You'll need about 2,282 Coarse Leathers,|
+l [item=154164/Blood-Stained Bone]|QID|165000004|L|154164 664|ITEM|154164|N|You'll need about 664 Blood-Stained Bones.|
+l [item=154722/Tempest Hide]|QID|165000004|L|154722 50|ITEM|154722|N|You'll need about 50 Tempest Hides.|
+l [item=168649/Dredged Leather]|QID|165000004|L|168649 400|ITEM|168649|N|You'll need about 400 Dredged Leathers.|
+B [item=160059/Amber Tanning Oil]|QID|165000004|L|160059 50|ITEM|160059|N|You'll need about 50 of these for this step, Purchase from Trainer OR Trade Supplies Vendor.\nAlso available from Scrapping.|
+B [item=159959/Nylon Thread]|QID|165000004|L|159959 200|ITEM|159959|N|You'll need about 200 of these for this step, Purchase from Trainer OR Trade Supplies Vendor.\nAlso available from Scrapping.|
 N Shopping List|QID|165000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 ; End Shopping List

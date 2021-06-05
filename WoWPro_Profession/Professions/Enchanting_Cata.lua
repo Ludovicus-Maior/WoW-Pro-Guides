@@ -26,14 +26,14 @@ N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hu
 N This Guide|QID|333000001|N|Covers Cataclysm content in Retail only. Guide written in the new format.|
 N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 75, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list
 
-l [item=52555/Hypnotic Dust]|QID|333052555|L|52555 591|ITEM|52555|N|You'll need at least 591 Hypnotic Dusts.|
-l [item=52718/Lesser Celestial Essence]|QID|333034055|L|52718 5|ITEM|52718|N|You'll need at least 5 Lesser Celestial Essence.|
-l [item=52719/Greater Celestial Essence]|QID|333034055|L|52719 106|ITEM|52719|N|You'll need at least 106 Greater Celestial Essence.|
-B [item=38682/Enchanting Vellum]|QID|333038682|L|38682 82|ITEM|38682|N|You'll need at least 82 Enchanting Vellums.|
+l [item=52555/Hypnotic Dust]|QID|333000004|L|52555 591|ITEM|52555|N|You'll need at least 591 Hypnotic Dusts.|
+l [item=52718/Lesser Celestial Essence]|QID|333000004|L|52718 5|ITEM|52718|N|You'll need at least 5 Lesser Celestial Essence.|
+l [item=52719/Greater Celestial Essence]|QID|333000004|L|52719 106|ITEM|52719|N|You'll need at least 106 Greater Celestial Essence.|
+B [item=38682/Enchanting Vellum]|QID|333000004|L|38682 82|ITEM|38682|N|You'll need at least 82 Enchanting Vellums.|
 
 N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

@@ -25,11 +25,11 @@ N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide
 N This Guide|QID|164000001|N|Covers what Blizzard now terms Draenor Plans, content of Worlds of Draenor 1-100\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Draenor 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Draenor 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, as of Jan-2021
 
-l [item=109119/True Iron Ore]|QID|164109119|L|109119 2945|ITEM|109119|N|You'll need about 2,945 True Iron Ores.|
+l [item=109119/True Iron Ore]|QID|164000004|L|109119 2945|ITEM|109119|N|You'll need about 2,945 True Iron Ores.|
 
 N Shopping List|QID|164000005|N|This completes the Shopping List. You may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

@@ -25,13 +25,13 @@ return [[
 
 N Things To Note|QID|197000001|N|This Guide is a Work In Progress. \n\nThis guide only covers Retail SHADOWLANDS content \n\nPlease report any issues by right clicking in the guide and selecting 'Report issue' then pasting the log in the community discord channel|
 N Learn Recipes|QID|197000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 100.\n\n This is for those that want to farm all mats prior to starting.\n\n If you don't want to farm the mats just click off the steps.|
+N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, as of Dec-2020
 
-l [item=173202/Shrouded Cloth]|QID|197173202|L|173202 511|ITEM|173202|N|You'll need approx 511 Shrouded Cloth.|
-l [item=173204/Lightless Silk]|QID|197173204|L|173204 76|ITEM|173204|N|You'll need approx 76 Lightless Silk.|
-B [item=177062/Penumbra Thread]|QID|197177062|M|44.52,26.44|Z|Ring of Fates@Oribos|L|177062 167|ITEM|177062|N|You'll need about 167 Penumbra Thread, Purchase from Distributor Au'tem.|
+l [item=173202/Shrouded Cloth]|QID|197000004|L|173202 511|ITEM|173202|N|You'll need approx 511 Shrouded Cloth.|
+l [item=173204/Lightless Silk]|QID|197000004|L|173204 76|ITEM|173204|N|You'll need approx 76 Lightless Silk.|
+B [item=177062/Penumbra Thread]|QID|197000004|M|44.52,26.44|Z|Ring of Fates@Oribos|L|177062 167|ITEM|177062|N|You'll need about 167 Penumbra Thread, Purchase from Distributor Au'tem.|
 N Shopping List|QID|197000005|N|This completes the Shopping List|
 
 ; end of shopping list.

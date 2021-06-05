@@ -24,33 +24,33 @@ return [[
 
 N Things To Note|QID|202000001|N|1 - Please Note that this Guide is a Work In Progress. \n\n 2 - This guide only covers Retail SHADOWLANDS content \n\n 3 - Please report any issues by right clicking in the guide and selecting 'Report issue' then pasting the log in the community discord channel|
 N Learn Recipe|QID|202000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|202000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Engineering 1 to 100.\n\n This is for those that want to farm all mats prior to starting.\n\n If you don't want to farm the mats just click off the steps.|
+N Shopping List|QID|202000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Engineering 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, as of Dec-2020
 
-l [item=171828/Laestrite Ore]|QID|202171828|L|171828 281|ITEM|171828|N|You'll need about 281 Laestrite Ore. Found everywhere.|
-l [item=171840/Porous Stone]|QID|202171840|L|171840 124|ITEM|171840|N|You'll need about 124 Porous Stone.|
-l [item=177061/Twilight Bark]|QID|202177061|L|177061 24|ITEM|177061|N|You'll need about 24 Twilight Bark. Mined from [item=171831/Phaedrum Ore] in Ardenweald, Can also purchase in limited quantities from Distrbutor Au'burk.|
-N Decision Time|QID|202000002|N|You have a choice of two Scopes to make.\n[item=172921/Infra-green Reflex Sight] needs 30 [item=173108/Oriblase] (High AH Cost), or [item=172920/Optical Target Embiggener] need 15 [item=173108/Oriblase] AND 15 [item=173109/Angerseye] (Cheap on AH).|
-l [item=173108/Oriblase]|QID|202173108|L|173108 30|ITEM|173108|N|You'll need 30 Oriblase. If you are making the [item=172921/Infra-green Relfex Sight], Click off to skip.|
-l [item=173108/Oriblase]|QID|202173108|L|173108 15|ITEM|173108|N|You'll need 15 Oriblase. If you are making the [item=172920/Optical Target Embiggener], Click off to skip.|
-l [item=173109/Angerseye]|QID|202173109|L|173109 15|ITEM|173109|N|You'll need 15 Angerseye. If you are making the [item=172920/Optical Target Embiggener], Click off to skip.|
-B [item=183952/Machinists Oil]|QID|202183952|M|37.68,42.95|Z|Ring of Fates@Oribos|L|183952 35|ITEM|183952|N|You'll need about 35 Machinist's Oil - Sold by Distributor Au'burk.|
-B [item=180733/Luminous Flux]|QID|202180733|M|37.68,42.95|Z|Ring of Fates@Oribos|L|180733 30|ITEM|180733|N|You'll need about 30 Luminous Flux - Sold by Distributor Au'burk.|
-N Class Specific Mats|N|If you are NOT on your Engineer, there are some Class Specific Mats you need.  PLEASE switch back to Engineer to get the list.|
-l [item=173110/Umbryl]|QID|202173110|P|Engineering;202;8+0|L|173110 2|ITEM|173110|N|You will need 2 Umbryl Gems for your Head Gear.|C|Mage,Priest,Warlock|
-l [item=173202/Shrouded Cloth]|QID|202173202|P|Engineering;202;8+0|L|173202 10|ITEM|173202|N|You will need 10 Shrouded Cloth for your Head Gear.|C|Mage,Priest,Warlock|
-l [item=173110/Umbryl]|QID|202173110|P|Engineering;202;8+0|L|173110 1|ITEM|173110|N|You will need 1 Umbryl Gem for your Head Gear.|C|Demon Hunter,Druid,Monk,Rogue,Hunter,Shaman|
-l [item=173108/Oriblase]|QID|202173108|P|Engineering;202;8+0|L|173108 31|ITEM|173108|N|You will need 1 Oriblase Gem for your Head Gear. (Including the 30 for the Sight.)|C|Demon Hunter,Druid,Monk,Rogue|
-l [item=173108/Oriblase]|QID|202173108|P|Engineering;202;8+0|L|173108 16|ITEM|173108|N|You will need 1 Oriblase Gem for your Head Gear. (Including the 15 for the Optical.)|C|Demon Hunter,Druid,Monk,Rogue|
-l [item=172089/Desolate Leather]|QID|202172089|P|Engineering;202;8+0|L|172089 10|ITEM|172089|N|You will need 10 Desolate Leather for your Head Gear.|C|Demon Hunter,Druid,Monk,Rogue|
-l [item=173109/Angerseye]|QID|202173109|P|Engineering;202;8+0|L|173109 1|ITEM|173109|N|You will need 1 Angerseye Gem for your Head Gear. (Since you're making the Sight you still need one.)|C|Hunter,Shaman|
-l [item=173109/Angerseye]|QID|202173109|P|Engineering;202;8+0|L|173109 16|ITEM|173109|N|You will need 16 Angerseye Gem for your Head Gear. (Including the 15 for the Optical.)|C|Hunter,Shaman|
-l [item=172089/Desolate Leather]|QID|202172089|P|Engineering;202;8+0|L|172089 5|ITEM|172089|N|You will need 5 Desolate Leather for your Head Gear.|C|Hunter,Shaman|
-l [item=172092/Pallid Bone]|QID|202172092|P|Engineering;202;8+0|L|172092 5|ITEM|172092|N|You will need 5 Pallid Bones for your Head Gear.|C|Hunter,Shaman|
-l [item=173109/Angerseye]|QID|202173109|P|Engineering;202;8+0|L|173109 2|ITEM|173109|N|You will need 2 Angerseye Gems for your Head Gear. (Since you're making the Sight you still need two.)|C|Death Knight,Paladin,Warrior|
-l [item=173109/Angerseye]|QID|202173109|P|Engineering;202;8+0|L|173109 17|ITEM|173109|N|You will need 17 Angerseye Gems for your Head Gear. (Including the 15 for the Optical.)|C|Death Knight,Paladin,Warrior|
-l [item=171832/Sinvyr Ore]|QID|202171832|L|171832 10|ITEM|171832|N|You'll need at least 10 Sinvyr Ore for your Head Gear. Found in Revendreth.|C|Death Knight,Paladin,Warrior|
+l [item=171828/Laestrite Ore]|QID|202000004|L|171828 281|ITEM|171828|N|You'll need about 281 Laestrite Ore. Found everywhere.|
+l [item=171840/Porous Stone]|QID|202000004|L|171840 124|ITEM|171840|N|You'll need about 124 Porous Stone.|
+l [item=177061/Twilight Bark]|QID|202000004|L|177061 24|ITEM|177061|N|You'll need about 24 Twilight Bark. Mined from [item=171831/Phaedrum Ore] in Ardenweald, Can also purchase in limited quantities from Distrbutor Au'burk.|
+N Decision Time|QID|202000004|N|You have a choice of two Scopes to make.\n[item=172921/Infra-green Reflex Sight] needs 30 [item=173108/Oriblase] (High AH Cost), or [item=172920/Optical Target Embiggener] need 15 [item=173108/Oriblase] AND 15 [item=173109/Angerseye] (Cheap on AH).|
+l [item=173108/Oriblase]|QID|202000004|L|173108 30|ITEM|173108|N|You'll need 30 Oriblase. If you are making the [item=172921/Infra-green Relfex Sight], Click off to skip.|
+l [item=173108/Oriblase]|QID|202000004|L|173108 15|ITEM|173108|N|You'll need 15 Oriblase. If you are making the [item=172920/Optical Target Embiggener], Click off to skip.|
+l [item=173109/Angerseye]|QID|202000004|L|173109 15|ITEM|173109|N|You'll need 15 Angerseye. If you are making the [item=172920/Optical Target Embiggener], Click off to skip.|
+B [item=183952/Machinists Oil]|QID|202000004|M|37.68,42.95|Z|Ring of Fates@Oribos|L|183952 35|ITEM|183952|N|You'll need about 35 Machinist's Oil - Sold by Distributor Au'burk.|
+B [item=180733/Luminous Flux]|QID|202000004|M|37.68,42.95|Z|Ring of Fates@Oribos|L|180733 30|ITEM|180733|N|You'll need about 30 Luminous Flux - Sold by Distributor Au'burk.|
+N Class Specific Mats|QID|202000004|N|If you are NOT on your Engineer, there are some Class Specific Mats you need.  PLEASE switch back to yoiur Engineer to get the correct list.|
+l [item=173110/Umbryl]|QID|202000004|P|Engineering;202;8+0|L|173110 2|ITEM|173110|N|You will need 2 Umbryl Gems for your Head Gear.|C|Mage,Priest,Warlock|
+l [item=173202/Shrouded Cloth]|QID|202000004|P|Engineering;202;8+0|L|173202 10|ITEM|173202|N|You will need 10 Shrouded Cloth for your Head Gear.|C|Mage,Priest,Warlock|
+l [item=173110/Umbryl]|QID|202000004|P|Engineering;202;8+0|L|173110 1|ITEM|173110|N|You will need 1 Umbryl Gem for your Head Gear.|C|Demon Hunter,Druid,Monk,Rogue,Hunter,Shaman|
+l [item=173108/Oriblase]|QID|202000004|P|Engineering;202;8+0|L|173108 31|ITEM|173108|N|You will need 1 Oriblase Gem for your Head Gear. (Including the 30 for the Sight.)|C|Demon Hunter,Druid,Monk,Rogue|
+l [item=173108/Oriblase]|QID|202000004|P|Engineering;202;8+0|L|173108 16|ITEM|173108|N|You will need 1 Oriblase Gem for your Head Gear. (Including the 15 for the Optical.)|C|Demon Hunter,Druid,Monk,Rogue|
+l [item=172089/Desolate Leather]|QID|202000004|P|Engineering;202;8+0|L|172089 10|ITEM|172089|N|You will need 10 Desolate Leather for your Head Gear.|C|Demon Hunter,Druid,Monk,Rogue|
+l [item=173109/Angerseye]|QID|202000004|P|Engineering;202;8+0|L|173109 1|ITEM|173109|N|You will need 1 Angerseye Gem for your Head Gear. (Since you're making the Sight you still need one.)|C|Hunter,Shaman|
+l [item=173109/Angerseye]|QID|202000004|P|Engineering;202;8+0|L|173109 16|ITEM|173109|N|You will need 16 Angerseye Gem for your Head Gear. (Including the 15 for the Optical.)|C|Hunter,Shaman|
+l [item=172089/Desolate Leather]|QID|202000004|P|Engineering;202;8+0|L|172089 5|ITEM|172089|N|You will need 5 Desolate Leather for your Head Gear.|C|Hunter,Shaman|
+l [item=172092/Pallid Bone]|QID|202000004|P|Engineering;202;8+0|L|172092 5|ITEM|172092|N|You will need 5 Pallid Bones for your Head Gear.|C|Hunter,Shaman|
+l [item=173109/Angerseye]|QID|202000004|P|Engineering;202;8+0|L|173109 2|ITEM|173109|N|You will need 2 Angerseye Gems for your Head Gear. (Since you're making the Sight you still need two.)|C|Death Knight,Paladin,Warrior|
+l [item=173109/Angerseye]|QID|202000004|P|Engineering;202;8+0|L|173109 17|ITEM|173109|N|You will need 17 Angerseye Gems for your Head Gear. (Including the 15 for the Optical.)|C|Death Knight,Paladin,Warrior|
+l [item=171832/Sinvyr Ore]|QID|202000004|L|171832 10|ITEM|171832|N|You'll need at least 10 Sinvyr Ore for your Head Gear. Found in Revendreth.|C|Death Knight,Paladin,Warrior|
 N Shopping List|QID|202000005|N|This completes the Shopping List|
 
 = Learn [spell=4036/Engineering]|QID|202004036|M|38.06,44.72|Z|Ring of Fates@Oribos|SPELL|Engineering;4036|LVL|5|N|Learn from Machinist Au'gur in Oribos.|

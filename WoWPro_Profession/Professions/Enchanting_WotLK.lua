@@ -26,16 +26,16 @@ N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hu
 N This Guide|QID|333000001|N|Covers Wraith of the Lich King content in Retail only. Guide written in the new format.|
 N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 75, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list
 
-l [item=34054/Infinite Dust]|QID|333034054|L|34054 310|ITEM|34054|N|You'll need at least 310 Infinite Dusts.|
-l [item=34055/Greater Cosmic Essence]|QID|333034055|L|34055 45|ITEM|34055|N|You'll need at least 45 Greater Cosmic Essence.|
-l [item=34057/Abyss Crystal]|QID|333034057|L|34057 30|ITEM|34057|N|You'll need at least 30 Abyss Crystals.|
-l [item=34054/Infinite Dust]|QID|333034054|L|34054 370|ITEM|34054|N|You'll need at least 370 Infinite Dusts, you have a choice between making two recipes.  You need an extra 60 Infinite Dust OR 30 Cosmic Essence.|
-l [item=34055/Greater Cosmic Essence]|QID|333034055|L|34055 75|ITEM|34055|N|You'll need at least 75 Greater Cosmic Essence, you have a choice between making two recipes.  You need an extra 30 Cosmic Essence OR 60 Infinite Dusts.|
-l [item=34052/Dream Shard]|QID|333034052|L|34052 12|ITEM|34052|N|You'll need at least 12 Dream Shards, to purchase some Recipes.|
+l [item=34054/Infinite Dust]|QID|333000004|L|34054 310|ITEM|34054|N|You'll need at least 310 Infinite Dusts.|
+l [item=34055/Greater Cosmic Essence]|QID|333000004|L|34055 45|ITEM|34055|N|You'll need at least 45 Greater Cosmic Essence.|
+l [item=34057/Abyss Crystal]|QID|333000004|L|34057 30|ITEM|34057|N|You'll need at least 30 Abyss Crystals.|
+l [item=34054/Infinite Dust]|QID|333000004|L|34054 370|ITEM|34054|N|You'll need at least 370 Infinite Dusts, you have a choice between making two recipes.  You need an extra 60 Infinite Dust OR 30 Cosmic Essence.|
+l [item=34055/Greater Cosmic Essence]|QID|333000004|L|34055 75|ITEM|34055|N|You'll need at least 75 Greater Cosmic Essence, you have a choice between making two recipes.  You need an extra 30 Cosmic Essence OR 60 Infinite Dusts.|
+l [item=34052/Dream Shard]|QID|333000004|L|34052 12|ITEM|34052|N|You'll need at least 12 Dream Shards, to purchase some Recipes.|
 N Couple Recipes to Buy|QID|333000006|N|There are a couple recipes to go buy, that you'll need for later.|
 B [spell=44631/Enchant Cloak - Shadow Armor]|M|39.6,41.2|Z|The Underbelly@Dalaran!Crystalsong Forest|RECIPE|44631|N|Purchase [item=37349/Forumla: Enchant Cloak - Shadow Armor] from Vanessa Sellers, The Underbelly, Dalaran - Northrend.|
 B [spell=47672/Enchant Cloak - Mighty Stamina]|M|39.6,41.2|Z|The Underbelly@Dalaran!Crystalsong Forest|RECIPE|47672|N|Purchase [item=44471/Forumla: Enchant Cloak - Mighty Stamina] from Vanessa Sellers, The Underbelly, Dalaran - Northrend.|

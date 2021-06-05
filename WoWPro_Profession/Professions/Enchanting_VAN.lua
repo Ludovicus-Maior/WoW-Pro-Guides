@@ -26,20 +26,20 @@ N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hu
 N This Guide|QID|333000001|N|Covers Vanilla content in Retail.|
 N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list
 
-B [item=6217/Copper Rod]|QID|333006217|L|6217 1|ITEM|6217|N|Purchase 1 copper rod, to create your [item=6218/Runed Copper Rod].|
-l [item=10938/Lesser Magic Essence]|QID|333010938|L|10938 1|ITEM|10938|N|You'll need 1 Lesser Magic Essence.|
-l [item=10940/Strange Dust]|QID|333010940|L|10940 134|ITEM|10940|N|You'll need at least 134 Strange Dusts.|
-l [item=10939/Greater Magic Essence]|QID|333010939|L|10939 10|ITEM|10939|N|You'll need at least 10 Greater Magic Essence.|
-l [item=16202/Lesser Eternal Essence]|QID|333016202|L|16202 25|ITEM|16202|N|You'll need at least 25 Lesser Eternal Essence.|
-l [item=16204/Light Illusion Dust]|QID|333016204|L|16204 170|ITEM|16204|N|You'll need at least 170 Light Illusion Dusts (OR 57 [item=156930/Rich Illusion Dust]).|
-l [item=156930/Rich Illusion Dust]|QID|333156930|L|156930 277|ITEM|156930|N|You'll need at least 277 Rich Illusion Dusts (Includes the 57 from Previous line [item=16204/Light Illusion Dust]).|
-l [item=16203/Greater Eternal Essence]|QID|333016203|L|16203 45|ITEM|16203|N|You'll need at least 25 Greater Eternal Essence.|
-B [item=4470/Simple Wood]|QID|33300470|L|4470 10|ITEM|4470|N|You'll need to purchase at least 10 Simple Wood.|
-B [item=38682/Enchanting Vellum]|QID|333038682|L|38682 315|ITEM|38682|N|You'll need at least 315 Enchanting Vellums.|
+B [item=6217/Copper Rod]|QID|333000004|L|6217 1|ITEM|6217|N|Purchase 1 copper rod, to create your [item=6218/Runed Copper Rod].|
+l [item=10938/Lesser Magic Essence]|QID|333000004|L|10938 1|ITEM|10938|N|You'll need 1 Lesser Magic Essence.|
+l [item=10940/Strange Dust]|QID|333000004|L|10940 134|ITEM|10940|N|You'll need at least 134 Strange Dusts.|
+l [item=10939/Greater Magic Essence]|QID|333000004|L|10939 10|ITEM|10939|N|You'll need at least 10 Greater Magic Essence.|
+l [item=16202/Lesser Eternal Essence]|QID|333000004|L|16202 25|ITEM|16202|N|You'll need at least 25 Lesser Eternal Essence.|
+l [item=16204/Light Illusion Dust]|QID|333000004|L|16204 170|ITEM|16204|N|You'll need at least 170 Light Illusion Dusts (OR 57 [item=156930/Rich Illusion Dust]).|
+l [item=156930/Rich Illusion Dust]|QID|333000004|L|156930 277|ITEM|156930|N|You'll need at least 277 Rich Illusion Dusts (Includes the 57 from Previous line [item=16204/Light Illusion Dust]).|
+l [item=16203/Greater Eternal Essence]|QID|333000004|L|16203 45|ITEM|16203|N|You'll need at least 25 Greater Eternal Essence.|
+B [item=4470/Simple Wood]|QID|333000004|L|4470 10|ITEM|4470|N|You'll need to purchase at least 10 Simple Wood.|
+B [item=38682/Enchanting Vellum]|QID|333000004|L|38682 315|ITEM|38682|N|You'll need at least 315 Enchanting Vellums.|
 N Couple Recipes to Buy|QID|333000006|N|There are a couple recipes to go buy, that you'll need for later.|
 B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|35.12,52.12|Z|Ashenvale|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Dalria in Astranaar, Ashenvale (Limited Quantity)|FACTION|Alliance|
 B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|48.69,61.52|Z|Stonetalon Mountains|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Kulwia in Sun Rock Retreat, Stonetalon Mountains (Limited Quantity)|FACTION|Horde|

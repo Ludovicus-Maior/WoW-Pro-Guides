@@ -26,20 +26,20 @@ N This Guide is a Work In Progress Guide.|QID|773000001|N|Currently in Developme
 N PLEASE Report any issues|QID|773000002|N|In our Discord #retail-bug-reports|
 N Herbalist|P|Herbalism;182;8;0|N|If you are a herbalist, running around for these mats will level you up, currently no guide in the works for herbalism
 N Learn Recipes|QID|773000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|773000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Inscription 1 to 96, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|773000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Inscription 1 to 96.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, as of Dec-2020
 
-N Herbs|QID|773000005|N|You will need upwards of 900+ herbs to mill to make your inks.  Each Herb listed is at '900', Just click off which every herb you don't want to farm.|
-l [item=169701/Death Blossom]|QID|773169701|L|169701 900|ITEM|169701|N|You'll need about 900 Death Blossoms (or combination of herbs).  Common herb found in all 4 zones.|
-l [item=168586/Rising Glory]|QID|773168586|L|168586 900|ITEM|168586|N|You'll need about 900 Rising Glory (or combination of herbs). Grows in Bastion Only.|
-l [item=168589/Marrowroot]|QID|773168589|L|168589 900|ITEM|168589|N|You'll need about 900 Marrowroot (or combination of herbs). Grows in Maldaxxus Only.|
-l [item=170554/Vigils Torch]|QID|773170554|L|170554 900|ITEM|170554|N|You'll need about 900 Vigil's Torch (or combination of herbs). Grows in Ardenweald Only.|
-l [item=168583/Widowbloom]|QID|773168583|L|168583 900|ITEM|168583|N|You'll need about 900 Widowbloom (or combination of herbs). Grows in Revendreth Only.|
-l [item=171315/Nightshade]|QID|773171315|L|171315 150|ITEM|171315|N|You'll need about 150 Nightshade. Grows in The Maw Only.|
-B [item=175886/Dark Parchment]|QID|773175886|M|35.97,38.53|Z|Ring of Fates@Oribos|L|175886 100|ITEM|175886|N|You'll need at least 100 Dark Parchments.|
-B [item=180732/Rune Etched Vial]|QID|773180732|M|35.97,38.53|Z|Ring of Fates@Oribos|L|180732 100|ITEM|180732|N|You'll need at least 100 Rune Etched Vials.|
-B [item=173060/Aerated Water]|QID|773173060|M|35.97,38.53|Z|Ring of Fates@Oribos|L|173060 100|ITEM|173060|N|You'll need at least 100 Aerated Waters.|
+N Herbs|QID|773000004|N|You will need upwards of 900+ herbs to mill to make your inks.  Each Herb listed is at '900', Just click off which every herb you don't want to farm.|
+l [item=169701/Death Blossom]|QID|773000004|L|169701 900|ITEM|169701|N|You'll need about 900 Death Blossoms (or combination of herbs).  Common herb found in all 4 zones.|
+l [item=168586/Rising Glory]|QID|773000004|L|168586 900|ITEM|168586|N|You'll need about 900 Rising Glory (or combination of herbs). Grows in Bastion Only.|
+l [item=168589/Marrowroot]|QID|773000004|L|168589 900|ITEM|168589|N|You'll need about 900 Marrowroot (or combination of herbs). Grows in Maldaxxus Only.|
+l [item=170554/Vigils Torch]|QID|773000004|L|170554 900|ITEM|170554|N|You'll need about 900 Vigil's Torch (or combination of herbs). Grows in Ardenweald Only.|
+l [item=168583/Widowbloom]|QID|773000004|L|168583 900|ITEM|168583|N|You'll need about 900 Widowbloom (or combination of herbs). Grows in Revendreth Only.|
+l [item=171315/Nightshade]|QID|773000004|L|171315 150|ITEM|171315|N|You'll need about 150 Nightshade. Grows in The Maw Only.|
+B [item=175886/Dark Parchment]|QID|773000004|M|35.97,38.53|Z|Ring of Fates@Oribos|L|175886 100|ITEM|175886|N|You'll need at least 100 Dark Parchments.|
+B [item=180732/Rune Etched Vial]|QID|773000004|M|35.97,38.53|Z|Ring of Fates@Oribos|L|180732 100|ITEM|180732|N|You'll need at least 100 Rune Etched Vials.|
+B [item=173060/Aerated Water]|QID|773000004|M|35.97,38.53|Z|Ring of Fates@Oribos|L|173060 100|ITEM|173060|N|You'll need at least 100 Aerated Waters.|
 
 N Shopping List|QID|773000006|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

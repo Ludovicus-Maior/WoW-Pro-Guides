@@ -26,14 +26,14 @@ N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hu
 N This Guide is a Work In Progress Guide.|QID|333000001|N|Currently in Development, This Guide covers SHADOWLANDS content in Retail.|
 N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, as of 25-Dec-2020
 
-l [item=172230/Soul Dust]|QID|333172230|L|172230 238|ITEM|172230|N|You'll need about 238 Soul Dust.|
-l [item=172231/Sacred Shard]|QID|333172231|L|172231 142|ITEM|172231|N|You'll need at least 142 Sacred Shard.|
-l [item=172232/Eternal Crystal]|QID|333172232|L|172232 32|ITEM|172232|N|You'll need at least 32 Eternal Crystal.|
-B [item=38682/Enchanting Vellum]|QID|333038682|L|38682 110|ITEM|38682|N|You'll need at least 110 Enchanting Vellum.|
+l [item=172230/Soul Dust]|QID|333000004|L|172230 238|ITEM|172230|N|You'll need about 238 Soul Dust.|
+l [item=172231/Sacred Shard]|QID|333000004|L|172231 142|ITEM|172231|N|You'll need at least 142 Sacred Shard.|
+l [item=172232/Eternal Crystal]|QID|333000004|L|172232 32|ITEM|172232|N|You'll need at least 32 Eternal Crystal.|
+B [item=38682/Enchanting Vellum]|QID|333000004|L|38682 110|ITEM|38682|N|You'll need at least 110 Enchanting Vellum.|
 N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.

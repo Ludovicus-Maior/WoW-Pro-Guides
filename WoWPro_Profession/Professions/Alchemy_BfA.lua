@@ -25,18 +25,18 @@ N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|
 N This Guide|QID|171000001|N|Covers Battle for Azeroth content in Retail.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 175, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 175.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, Updated as of 9-Feb-2021
 
-l [item=152509/Sirens Pollen]|QID|171152509|L|152509 70|ITEM|152509|N|You'll need about 70 Siren's Pollens.|
-l [item=152505/Riverbud]|QID|171152505|L|152505 70|ITEM|152505|N|You'll need about 70 Riverbuds.|
-l [item=152511/Sea Stalk]|QID|171152511|L|152511 580|ITEM|152511|N|You'll need about 580 Sea Stalks.|
-l [item=152510/Anchor Weed]|QID|171152510|L|152510 140|ITEM|152510|N|You'll need about 140 Anchor Weeds.|
-l [item=152508/Winters Kiss]|QID|171152508|L|152508 280|ITEM|152508|N|You'll need about 280 Winter's Kiss.|
-l [item=152506/Star Moss]|QID|171152506|L|152506 820|ITEM|152506|N|You'll need about 820 Star Moss.|
-l [item=168487/Zinanthid]|QID|171168487|L|168487 110|ITEM|168487|N|You'll need about 110 Zin'anthid.|
-B [item=3371/Crystal Vial]|QID|171003371|L|3371 146|ITEM|3371|N|You'll need about 146 Crystal Vials.|
+l [item=152509/Sirens Pollen]|QID|171000004|L|152509 70|ITEM|152509|N|You'll need about 70 Siren's Pollens.|
+l [item=152505/Riverbud]|QID|171000004|L|152505 70|ITEM|152505|N|You'll need about 70 Riverbuds.|
+l [item=152511/Sea Stalk]|QID|171000004|L|152511 580|ITEM|152511|N|You'll need about 580 Sea Stalks.|
+l [item=152510/Anchor Weed]|QID|171000004|L|152510 140|ITEM|152510|N|You'll need about 140 Anchor Weeds.|
+l [item=152508/Winters Kiss]|QID|171000004|L|152508 280|ITEM|152508|N|You'll need about 280 Winter's Kiss.|
+l [item=152506/Star Moss]|QID|171000004|L|152506 820|ITEM|152506|N|You'll need about 820 Star Moss.|
+l [item=168487/Zinanthid]|QID|171000004|L|168487 110|ITEM|168487|N|You'll need about 110 Zin'anthid.|
+B [item=3371/Crystal Vial]|QID|171000004|L|3371 146|ITEM|3371|N|You'll need about 146 Crystal Vials.|
 
 N Shopping List|QID|171000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
