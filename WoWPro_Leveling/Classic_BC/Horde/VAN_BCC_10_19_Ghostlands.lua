@@ -24,29 +24,31 @@ C The Fallen Courier|QID|9147|M|49.85,13.05|L|22570 4|N|Cross the bridge into Gh
 T The Fallen Courier|QID|9147|M|49.01,89.04|Z|Eversong Woods|N|To Apothecary Thedra.|
 A Delivery to Tranquillien|QID|9148|M|48.97,88.99|Z|Eversong Woods|N|From Courier Dawnstrider.|PRE|9147|
 T Delivery to Tranquillien|QID|9148|M|46.30,28.39|N|To Vandril in Tranquillien. He pathes back and forth across the road.\n[color=FF0000]NOTE: [/color]Follow the road south to Tranquillien.|
-A The Forsaken|QID|9327^9329|M|46.35,28.39|N|From Vandril.|
+A The Forsaken|QID|9327^9329|M|46.30,28.39|N|From Vandril.|
+f Ghostlands|ACTIVE|9327^9329|M|45.47,30.54|N|Get the flight path for Ghostlands.|
 T The Forsaken|QID|9327^9329|M|44.77,32.45|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|R|BloodElf|
 A Return to Arcanist Vandril|QID|9758|M|44.84,32.43|N|From High Executor Mavren.|PRE|9327^9329|
-A Goods from Silvermoon City|QID|9130|M|47.33,29.22|N|From Quartermaster Lymel.|PRE|9329|
-T Goods from Silvermoon City|QID|9130|M|45.43,30.53|N|To Skymaster Sunwing.|
-f Ghostlands|QID|9138|M|45.47,30.54|N|Get the flight path for Ghostlands.|
-A Fly to Silvermoon City|QID|9133|M|45.43,30.53|N|From Skymaster Sunwing.|PRE|9130|
+A Goods from Silvermoon City|QID|9130|M|47.33,29.22|N|From Quartermaster Lymel.|PRE|9329|R|BloodElf|
+T Goods from Silvermoon City|QID|9130|M|45.43,30.53|N|To Skymaster Sunwing.|R|BloodElf|
+A Fly to Silvermoon City|QID|9133|M|45.43,30.53|N|From Skymaster Sunwing.|PRE|9130|R|BloodElf|
 F Silvermoon City|ACTIVE|9133|M|45.43,30.53|N|Ask Skymaster Sunwing to fly you to Silvermoon City.|
-A Summons from Knight-Lord Bloodvalor|QID|9677|M|48.40,46.45|Z|Eversong Woods|N|From Noellene.|R|BloodElf|C|Paladin|
-R Silvermoon City|ACTIVE|9133|M|72.37,90.93|Z|Silvermoon City|N|Run east to Silvermoon City.|
-T Fly to Silvermoon City|QID|9133|M|69.26,77.04;68.28,74.08;66.50,73.43;54,71|CS|Z|Silvermoon City|N|To Sathren Azuredawn.|
-A Skymistress Gloaming|QID|9134|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn.|PRE|9133|
+R Falconwing Square|AVAILABLE|9677|M|46.56,48.89|Z|Eversong Woods|N|Follow the wall west to the Falconwing Square entrance.|R|BloodElf|C|Paladin|
+A Summons from Knight-Lord Bloodvalor|QID|9677|M|48.40,46.45|Z|Eversong Woods|N|From Noellene in Falconwing Square.|R|BloodElf|C|Paladin|
+R The Shepherd's Gate|ACTIVE|9133|M|56.66,49.54|Z|Eversong Woods|N|Enter Silvermoon City.|IZ|-1954; Silvermoon City|
+T Fly to Silvermoon City|QID|9133|M|69.26,77.04;68.28,74.08;66.50,73.43;53.93,71.02|CS|Z|Silvermoon City|N|To Sathren Azuredawn.|
+A Skymistress Gloaming|QID|9134|M|53.93,71.02|Z|Silvermoon City|N|From Sathren Azuredawn.|PRE|9133|
 T Summons from Knight-Lord Bloodvalor|QID|9677|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
 A The First Trial|QID|9678|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
-T Skymistress Gloaming|QID|9134|M|54.38,50.79|Z|Silvermoon City|N|To Skymistress Gloaming.|
-A Return to Quartermaster Lymel|QID|9135|M|54.38,50.79|N|From Skymistress Gloaming.|PRE|9134|
-F Fairbreeze Village|QID|9135|M|54.38,50.79|N|Fly to Fairbreeze Village, or just hearth.|
+R The Shepherd's Gate|ACTIVE|9134|M|56.66,49.54|Z|Eversong Woods|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|
+T Skymistress Gloaming|QID|9134|M|54.37,50.73|Z|Eversong Woods|N|To Skymistress Gloaming.|
+A Return to Quartermaster Lymel|QID|9135|M|54.37,50.73|Z|Eversong Woods|N|From Skymistress Gloaming.|PRE|9134|
+F Tranquillien|ACTIVE|9135|M|54.37,50.73|Z|Eversong Woods|
 T Return to Quartermaster Lymel|QID|9135|M|47.33,29.22|N|To Quartermaster Lymel.|
-T Return to Arcanist Vandril|QID|9758|M|46.33,28.45|N|To Arcanist Vandril.|
-A Suncrown Village|QID|9138|M|46.33,28.45|N|From Arcanist Vandril.|PRE|9758|
-A Wanted: Knucklerot and Luzran|QID|9156|M|48.30,31.64|N|From the Wanted Poster. This is a group quest, the 2 mobs are 21 elites. If you see anyone looking for help, or offering help, take them up on it.|
-h Tranquillien|QID|9157|M|48.87,32.38|N|At Innkeeper Kalarin.|
-r Training/Repair/Sell Junk|QID|9157|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n\nClick this step to continue.|
+T Return to Arcanist Vandril|QID|9758|M|46.30,28.39|N|To Arcanist Vandril.|
+A Suncrown Village|QID|9138|M|46.30,28.39|N|From Arcanist Vandril.|PRE|9758|
+A Wanted: Knucklerot and Luzran|QID|9156|M|48.33,31.66|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom the Wanted poster.\n[color=FF0000]NOTE: [/color]This is a lv 21 quest that is available at lv 9. Exp diminishes at lv 26 (lot's of time to do it).|
+h Tranquillien|AVAILABLE|9315|M|48.91,32.41|N|At Innkeeper Kalarin.|
+r Training/Repair/Sell Junk|AVAILABLE|9315|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Anok'suten|QID|9315|M|57.53,14.94|N|From Dying Blood Elf near Suncrown Village.|PRE|9327^9329|
 C Suncrown Village|QID|9138|M|57.51,11.39|N|Kill 10 Nerubis Guards.|S|
 C Anok'suten|QID|9315|M|61.59,12|N|Anok'suten is a Level 11 elite with 624 HP. He wanders counter-clockwise around the circle path.|T|Anok'suten|
