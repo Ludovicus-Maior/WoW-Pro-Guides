@@ -64,14 +64,14 @@ r Empty your bags|ACTIVE|8334|M|37.86,19.31|N|Don't forget to repair and empty y
 T Aggression|QID|8334|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
 A Felendren the Banished|QID|8335|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
 R Falthrien Academy|AVAILABLE|8338|M|32.58,25.55|
-K Felendren the Banished|QID|8335|M|39.03,63.98|QO|1|N|Kill Arcane Wraiths|R|BloodElf|S|
-C Tainted Arcane Sliver|QID|8338|L|20483|N|Kill a Tainted Arcane Wraith and loot a Tainted Arcane Sliver from it.|R|BloodElf|S|
+K Felendren the Banished|QID|8335|M|39.03,63.98|QO|1;2|N|Kill Arcane Wraiths.\n[color=FF0000]NOTE: [/color]Wait until you are at the top to kill the Tainted Arcane Wraiths.|R|BloodElf|S|
 A Tainted Arcane Sliver|QID|8338|N|Click on the Tainted Arcane Sliver to start the quest.|U|20483|R|BloodElf|O|
 C Windows to the Source|QID|8344|M|31.68,26.46|QO|1;2|N|Kill Arcane Wraiths to collect the Wraith Essence and Tainted Wraiths to collect the Tainted Essence.|R|BloodElf|C|Warlock|S|
 C Felendren the Banished|QID|8335|M|31.68,26.46;30.76,26.34;30.83,27.15|CC|QO|3|N|Go up the ramps to the top of Falthrien Academy. All paths lead to the top, your choice doesn't matter. At the top, clear any wraiths that might be there, kill Felendren, and loot his head.|R|BloodElf|
 C Windows to the Source|QID|8344|M|31.68,26.46|QO|1;2|N|Kill Arcane Wraiths to collect the Wraith Essence and Tainted Wraiths to collect the Tainted Essence.|R|BloodElf|C|Warlock|US|
 K Felendren the Banished|QID|8335|M|39.03,63.98|QO|1;2|N|Finish killing the Arcane Wraiths and Tainted Arcane Wraiths.|R|BloodElf|US|
-C Tainted Arcane Sliver|QID|8338|L|20483|N|Kill Tainted Arcane Wraiths until one drops a Tainted Arcane Sliver.|R|BloodElf|US|
+L Tainted Arcane Sliver|QID|8338|L|20483|N|Kill Tainted Arcane Wraiths until one drops a Tainted Arcane Sliver.|R|BloodElf|
+A Tainted Arcane Sliver|QID|8338|N|Click on the Tainted Arcane Sliver to start the quest.|U|20483|R|BloodElf|O|
 H Sunstrider Isle|ACTIVE|8338|M|38.24,20.56|N|Run back if your Hearth is on cooldown.|R|BloodElf|
 T Windows to the Source|QID|8344|M|38.93,21.44|N|To Summoner Teli'Larien.|R|BloodElf|C|Warlock|
 T Tainted Arcane Sliver|QID|8338|M|37.18,18.95|N|To Arcanist Helion.|R|BloodElf|
