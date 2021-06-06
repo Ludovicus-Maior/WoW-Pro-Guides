@@ -98,9 +98,9 @@ A Unstable Mana Crystals|QID|8463|M|48.16,46.00|N|From Aeldon Sunbrand, back out
 A Wanted: Thaelis the Hungerer |QID|8468|M|48.17,46.30|N|From 'Wanted: Thaelis the Hungerer' signpost.| ; Extra space required for auto-accept
 = Weapon Master|ACTIVE|8463^8468^8472|M|48.34,45.94|N|Visit Duelist Larenis if you wish to learn other weapons.\n[color=FF0000]NOTE: [/color]He teaches Bows, Daggers, 1H/2H Swords, Polearms, and Thrown. You'll only see the weapons that you can learn.\n\nManually check this step off to continue.|
 A Major Malfunction|QID|8472|M|47.25,46.31|N|From Magister Jaronis.|
-R Ruins of Silvermoon|ACTIVE|8463^8468^8472|M|46.26,42.27|N|Leave Falconwing Square and head into the center of the Ruins of Silvermoon.|
 C Major Malfunction|QID|8472|M|46.26,42.27|N|Kill and loot Arcane Patrollers for the Arcane Cores.\n[color=FF0000]NOTE: [/color]For the most part, you'll find them patrolling the roads.|S|
 C Unstable Mana Crystals|QID|8463|M|45.38,40.85|L|20743 6|N|Loot them from Unstable Mana Crystal Crates. They can be found all around the Ruins of Silvermoon.\n[color=FF0000]NOTE: [/color]Look for light beams that come out of the crates.|S|
+R Ruins of Silvermoon|ACTIVE|8463^8468^8472|M|46.26,42.27|N|Leave Falconwing Square and head into the center of the Ruins of Silvermoon.|
 C Thaelis the Hungerer|QID|8468|M|45.00,38.40|N|Kill and loot Thaelis the Hungerer.\n[color=FF0000]NOTE: [/color]Be careful to pull all the Wretched Urchins around him first before attacking.|T|Thaelis the Hungerer|
 C Unstable Mana Crystals|QID|8463|M|45.38,40.85|L|20743 6|N|Loot them from Unstable Mana Crystal Crates. They can be found all around the Ruins of Silvermoon.\n[color=FF0000]NOTE: [/color]Look for light beams that come out of the crates.|US|
 C Major Malfunction|QID|8472|M|46.26,42.27|N|Finish killing Arcane Patrollers for the Arcane Cores.\n[color=FF0000]NOTE: [/color]For the most part, you'll find them patrolling the roads.|US|
@@ -128,10 +128,10 @@ T Darnassian Intrusions|QID|9352|M|36.70,57.44|N|To Ley-Keeper Velania.|
 ; lv 7
 T Arcane Instability|QID|8486|M|36.70,57.44|N|To Ley-Keeper Velania.|
 A Fish Heads, Fish Heads...|QID|8884|M|30.23,58.31|N|From Hathvelion Sungaze (He wanders around a bit).\n[color=FF0000]NOTE: [/color]Follow the road west out of West Sanctum, or go north around the mountain.|
-C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|N|Kill Murlocs to collect the Fish Heads.|S|
+C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|L|21757 8|N|Kill Murlocs to collect the Fish Heads.|S|
 l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|26.86,59.81|L|21776|N|Kill Grimscale Murlocs until one of them drops Captain Kelisendra's Lost Rutters.|RANK|3|S|IZ|3460; Golden Strand^3911; Tranquil Shore|
 A Captain Kelisendra's Lost Rutters|QID|8887|M|PLAYER|N|From Captain Kelisendra's Lost Rutters.|U|21776|O|
-C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|N|Finish collecting the Fish Heads from the Murlocs.|US|
+C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|L|21757 8|N|Finish collecting the Fish Heads from the Murlocs.|US|
 T Fish Heads, Fish Heads...|QID|8884|M|30.23,58.31|N|To Hathvelion Sungaze.|
 A The Ring of Mmmrrrggglll|QID|8885|M|30.23,58.31|N|From Hathvelion Sungaze.|PRE|8884|
 H Falconwing Square|QID|8482|M|46.55,48.92|
@@ -169,7 +169,7 @@ A Situation at Sunsail Anchorage|QID|8892|M|43.34,70.82|N|From Ranger Degolien.|
 A Ranger Sareyn|QID|9358|M|43.67,71.31|N|From Marniel Amberlight, the Innkeeper.|LEAD|9252|
 h Fairbreeze Village|QID|9395|M|43.67,71.31|N|With Marniel Amberlight.|
 r Repair/Sell Junk|QID|9395|M|43.70,71.56|N|At Sathiel.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|
-C Pelt Collection|QID|8491|M|46.00,67.00|N|Kill Springpaws to collect the Pelts.|S|IZ|-3461; Sunsail Anchorage|
+C Pelt Collection|QID|8491|M|46.00,67.00|L|20772 6|N|Kill Springpaws to collect the Pelts.|S|IZ|-3461; Sunsail Anchorage|
 T Saltheril's Haven|QID|9395|M|38.15,73.56|N|To Lord Saltheril.|
 A The Party Never Ends|QID|9067|M|38.15,73.56|N|From Lord Saltheril.|
 t Captain Kelisendra's Lost Rutters|QID|8887|M|36.36,66.63|N|To Captain Kelisendra.\n[color=FF0000]NOTE: [/color]Follow the road west until you reach his camp; just before Sunsail Anchorage.|IZ|-3460; Golden Strand^3461; Sunsail Anchorage^3911; Tranquil Shore|
@@ -179,7 +179,7 @@ C Grimscale Pirates!|QID|8886|M|24.93,69.43|L|21771 6|N|Either pick these up fro
 K Wretched Thugs and Hooligans|QID|8892|QO|1;2|N|Kill the Wretched Thugs and Hooligans around Sunsail Anchorage\n[color=FF0000]NOTE: [/color]No rush; you'll have plenty of chances to do this.|S|IZ|3461; Sunsail Anchorage|
 C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|N|You'll find the Weapon Containers in Sunsail Anchorage on the ground, in the water and inside the building.\n[color=FF0000]NOTE: [/color]Each one is on a ~5 minute respawn timer.|S|IZ|3461; Sunsail Anchorage|
 K Mmmrrrggglll|ACTIVE|8885|M|25.67,65.74;24.02,73.70|CC|QO|1|N|Follow the water to Golden Strand. He roams the beach along Golden Strand between the two waypoints.|T|Mmmrrrggglll|
-C Grimscale Pirates!|QID|8886|M|24.93,69.43|L|21771 6|N|Either pick these up from the ground, or loot them from the Murlocs.|US|IZ|3460; Golden Strand|
+C Grimscale Pirates!|QID|8886|M|24.93,69.43|L|21771 6|N|Either pick these up from the ground, or loot them from the Murlocs.|US|
 l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|26.86,59.81|L|21776|N|Kill Grimscale Murlocs until one of them drops Captain Kelisendra's Lost Rutters.\n[color=FF0000]NOTE: [/color]Considering the drop rate, if luck is not in your favor, skip this and move on.|RANK|3|US|IZ|3460; Golden Strand^3911; Tranquil Shore|
 C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|N|You'll find the Weapon Containers in Sunsail Anchorage on the ground, in the water and inside the building.\n[color=FF0000]NOTE: [/color]Each one is on a ~5 minute respawn timer.|US|
 T Grimscale Pirates!|QID|8886|M|36.36,66.63|N|To Captain Kelisendra.|
@@ -189,7 +189,7 @@ K Aldaron|QID|9076|M|32.70,68.4|QO|1|N|Head inside the white building and fight 
 K Wretched Thugs and Hooligans|QID|8892|QO|1;2|N|Finish killing the Wretched Thugs and Hooligans around Sunsail Anchorage.|US|IZ|3461; Sunsail Anchorage|
 T Wretched Ringleader|QID|9076|M|36.36,66.77|N|To Velendris Whitemorn.|
 T The Ring of Mmmrrrggglll|QID|8885|M|30.23,58.31|N|To Hathvelion Sungaze.|
-C Pelt Collection|QID|8491|M|38.42,64.67|N|Finish collecting the Pelts.|US|
+C Pelt Collection|QID|8491|M|38.42,64.67|L|20772 6|N|Finish collecting the Pelts.|US|
 H Fairbreeze Village|ACTIVE|8491|AVAILABLE|-8885|M|43.67,71.31|N|Use your hearth or run back if you're close enough.|
 T Pelt Collection|QID|8491|M|44.72,69.63|N|To Velan Brightoak.|
 T Situation at Sunsail Anchorage|QID|8892|M|43.34,70.82|N|To Ranger Degolien.|
@@ -204,7 +204,7 @@ A Corrupted Soil|QID|8487|M|54.28,70.98|N|From Apprentice Mirveda.|
 C Corrupted Soil|QID|8487|M|51.71,69.21|L|20771 8|N|Loot the green Tainted Soil Samples from the area around East Sanctum and in The Dead Scar.|
 T Corrupted Soil|QID|8487|M|54.28,70.98|N|To Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Be prepared for a fight as you'll be immediately attacked by three mobs upon accepting this.|
 A Unexpected Results.|QID|8488|M|54.28,70.98|N|From Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Check your buffs and get to full HP/Mana before accepting. You'll be attacked immediately by three mobs upon accepting it.|PRE|8487| ; added '.' to block auto-accepting
-C Unexpected Results|QID|8488|M|54.28,70.98|N|Protect Mirveda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.|
+C Unexpected Results|QID|8488|M|54.28,70.98|N|Protect Mirveda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.\n[color=FF0000]NOTE: [/color]If you die, do not release until she dies. If she lives, you complete the quest.|
 T Unexpected Results|QID|8488|M|54.28,70.98|N|To Apprentice Mirveda.|
 A Research Notes|QID|9255|M|54.28,70.98|N|From Apprentice Mirveda.|PRE|8488|
 K Defending Fairbreeze Village|QID|9252|M|51.12,77.09|QO|1;2|N|Kill Rotlimb Marauders and Darkwraiths in the Dead Scar.\n[color=FF0000]NOTE: [/color]You'll find the Darkwraiths south of East Sanctum.|US|
@@ -294,7 +294,7 @@ R The Shepherd's Gate|ACTIVE|9619|M|56.66,49.54|N|Enter Silvermoon City.|R|Blood
 T The Rune of Summoning|QID|9619|M|74.40,47.15|Z|1954; Silvermoon City|N|To Talionia in The Sanctum.|R|BloodElf|C|Warlock|
 
 R The Shepherd's Gate|ACTIVE|8888|M|56.66,49.54|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|
-T The Magister's Apprentice|QID|8888|M|67.81,56.55|N|To Apprentice Loralthalis (She moves around a bit).\n[color=FF0000]NOTE: [/color]Follow the road east up the hill and pass Farstrider Retreat.|
+T The Magister's Apprentice|QID|8888|M|67.81,56.55|N|To Apprentice Loralthalis (She moves around a bit).\n[color=FF0000]NOTE: [/color]Follow the road east up the hill and past Farstrider Retreat.|
 A Deactivating the Spire|QID|8889|M|67.81,56.55|N|From Apprentice Loralthalis.|
 A Where's Wyllithen?|QID|9394|M|67.81,56.55|N|From Apprentice Loralthalis.|LEAD|8894|
 T Where's Wyllithen?|QID|9394|M|68.71,46.95|N|To Groundskeeper Wyllithen, at the end of the road.\n[color=FF0000]NOTE: [/color]If you stick to the top edge of the east cliff on your way down, you'll encounter fewer mobs.|
@@ -316,7 +316,7 @@ R Tor'Watha|ACTIVE|8475^8477|M|66.51,69.35|N|Head east out Farstrider Retreat an
 K Spearcrafter Otembe|ACTIVE|8477|M|70.07,72.37|QO|1|N|Locate Spearcrafter Otembe standing on the 'grassy gnoll' in the middle of the camp.|
 A Zul'Marosh|QID|8479|M|70.53,72.33|N|From Ven'jashi.|
 R Zeb'Watha|ACTIVE|8479|M|64.52,78.04|N|Head west across the water to the next troll camp.\n[color=FF0000]NOTE: [/color]You can either swim or take the path.|
-K Chieftain Zul'Marosh|ACTIVE|8479|M|61.60,79.60|QO|1|N|Zul'Marosh is in the big building on the top floor. \n[color=FF0000]NOTE: [/color]Clear the guards first or they will join the fight.|T|Chieftain Zul'Marosh|
+K Chieftain Zul'Marosh|ACTIVE|8479|M|62.41,79.54|QO|1|N|Zul'Marosh is in the big building on the top floor. \n[color=FF0000]NOTE: [/color]Clear the guards first or they will join the fight.|T|Chieftain Zul'Marosh|
 A Amani Invasion|QID|9360|M|PLAYER|N|From the Amani Invasion Plans that .|U|23249|O|
 T Zul'Marosh|QID|8479|M|70.53,72.33|N|To Ven'jashi in Tor'Watha.|
 K Amani Encroachment|ACTIVE|8476|M|69.00,72.00|QO|1;2|N|Kill Amani Berserkers and Axe Throwers.|US|
