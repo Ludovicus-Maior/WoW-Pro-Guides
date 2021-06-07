@@ -100,6 +100,8 @@ C Spirits of the Drowned|QID|9274|M|71.04,24.00|N|Kill any ghost you see floatin
 T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an.|
 T Report to Captain Helios|QID|9146|M|72.37,29.63|N|To Captain Helios.|
 H Tranquillien|AVAILABLE|9171|
+; maybe consider taking these earlier or changing pick up roue - Hendo72
+; lv 14... Silvermoon visit empty bags
 A The Plagued Coast|QID|9149|M|47.66,34.86|N|From Apothecary Renzithen.|PRE|9327^9329|
 A Tomber's Supplies|QID|9152|M|47.01,28.38|N|From Rathis Tomber.|PRE|9327^9329|
 A Goldenmist Village|QID|9139|M|46.24,28.35|N|From Arcanist Vandril.|PRE|9138|REP|Tranquillien;922;friendly-exalted|
@@ -113,6 +115,7 @@ C Down the Dead Scar|QID|9155|M|39.76,32.47|N|Head down into the Dead Scar and k
 C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders until you have 5 Crunchy Spider Legs.|S|
 C Salvaging the Past|QID|9150|M|33.41,32.40|N|Kill Mana Shifters and Arcane Devourers until you get 8 Mana Essences.|
 C Tomber's Supplies|QID|9152|M|33.56,26.81|N|It is in the wagon.\n[color=FF0000]NOTE: [/color]You will most likely have to clear an area around it.|NC|
+; 2 steps with |S|
 C Investigate An'daroth|QID|9160|M|37.22,23.98;38.06,18.77;37.04,15.90|CS|N|Kill the Sentinel Spies around An'daroth.\nHead into the center of the area to the monument to get the investigation part.|
 C Goldenmist Village|QID|9139|M|26.81,15.27|N|Run/drop down to Goldenmist and kill the ghosts that are needed.|
 C The Plagued Coast|QID|9149|M|19.02,24.06|N|Kill any murlocs you see for their spines. You will need 6 spines.|
