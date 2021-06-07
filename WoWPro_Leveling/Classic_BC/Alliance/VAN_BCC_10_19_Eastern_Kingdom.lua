@@ -106,8 +106,8 @@ A Goretusk Liver Pie|QID|22|M|56.41,30.52|Z|Westfall|N|From Salma Saldean.|
 C Goretusk Liver Pie|QID|22|L|723 8|Z|Westfall|N|From now on, kill Goretusks.|S|
 C Westfall Stew|QID|38|N|Kill Vultures, Harvest Watchers/Golems, Murlocs and Goretusks.|S!US|
 C The Killing Fields|QID|9|M|55.00,33.20|QO|1|N|Kill Harvest Watchers until you finish this quest.|S|
-C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill Harvest Watchers or Rusty Harvest Golems to collect 3 Flasks of Oil. Save the oil for later.|S!US|
-C Hops|AVAILABLE|117|L|1274 5|N|Kill Harvest Watchers to collect Hops. Save the hops for later.|S!US|
+C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill Harvest Watchers or Rusty Harvest Golems to collect 5 Flasks of Oil. Save the oil for later.|S!US|
+C Hops|AVAILABLE|117|L|1274 5|N|Kill Harvest Watchers to collect 5 Hops. Save the hops for later.|S!US|
 
 ;--------------------new content---------------------------
 N Bag space|ACTIVE|22^38|Z|Westfall|N|There are a number of collection quests in this zone. You will need a minimum of 9 empty spaces to carry everything.|
