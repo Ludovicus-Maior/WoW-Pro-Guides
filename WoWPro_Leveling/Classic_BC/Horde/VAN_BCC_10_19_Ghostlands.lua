@@ -111,6 +111,7 @@ A Salvaging the Past|QID|9150|M|46.01,31.95|N|From Magister Darenis.|REP|Tranqui
 A Investigate An'daroth|QID|9160|M|44.88,32.51|N|From Dame Auriferous.|REP|Tranquillien;922;friendly-exalted|
 A Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|From Deathstalker Maltendis.|REP|Tranquillien;922;friendly-exalted|
 A Down the Dead Scar|QID|9155|M|46.02,33.56|N|From Deathstalker Rathiel.|
+l Rotting Hearts|AVAILABLE|9216|M|38.94,36.68|L|22641 10|N|Going forward, any time you enter The Dead Scar, kill any Risen Hungerers or Risen Stalkers you come across. They drop an item you need for a quest later and starting now will save some time.|S!US|
 C Down the Dead Scar|QID|9155|M|39.76,32.47|N|Head down into the Dead Scar and kill Risen Hungerers and Gangled Cannibals. If you come across any Ghostclaw Lynxs, kill them as well.|
 C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders until you have 5 Crunchy Spider Legs.|S|
 C Salvaging the Past|QID|9150|M|33.41,32.40|N|Kill Mana Shifters and Arcane Devourers until you get 8 Mana Essences.|
@@ -132,7 +133,6 @@ T Investigate An'daroth|QID|9160|M|44.88,32.51|N|To Dame Auriferous.|
 A Into Occupied Territory|QID|9163|M|44.88,32.51|N|From Dame Auriferous.|PRE|9160|
 A Retaking Windrunner Spire|QID|9173|M|44.83,32.39|N|From High Executor Mavren.|LVL|15| ; Level warning?
 T The Plagued Coast|QID|9149|M|47.66,34.86|N|To Apothecary Renzithen.|
-C Rotting Hearts|QID|9216|M|38.94,36.68;38.06,56.25|CN|L|22641 10|N|Kill any Risen Hungerers or Risen Stalkers farther south. Be careful of Luzran.\nRisen Stalkers are higher level but seem to have higher drop rate.|
 ; travel note and Knucklerot warning - Hendo72
 A Underlight Ore Samples|QID|9207|M|31.42,48.31|N|From Apprentice Shatharia.|
 C Trouble at the Underlight Mines|QID|9192|M|29.25,47.93|N|Head down the slope and kill any gnoll you need.|
@@ -146,8 +146,8 @@ A The Lady's Necklace|QID|9175|M|PLAYER|N|Accept the quest from the necklace.|U|
 ; split next step into 2 as each are in distinct groups. focus on Phantasmal first. - Hendo72
 C Windrunner Village|QID|9140|M|17.95,42.65|N|Jump into the water and swim into the village. Kill Phantasms and Gargoyles until you get 6 Phantasmal Substances, and 4 Gargoyle Fragments.|
 C Into Occupied Territory|QID|9163|M|10.56,22.49|N|Night Elf Plans: An'daroth and An'owyn, can be in several spots on the isle. Night Elf Plans: Scrying on Sin'dorei, is on the boat.| ; 10.44,22.58 Scrying / daroth 12.53,26.51 12.80,25.08 13.70,26.84 14.77,26.61 / owyn 12.54,24.80 or 12.86,23.92
-H Tranquillien|QID|9140|
-r Training/Repair/Sell Junk|QID|9140|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+H Tranquillien|ACTIVE|9140|
+r Housekeeping|QID|9140|M|49.11,30.32|N|Repair and sell junk from Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Spinal Dust|QID|9218|M|48.95,31.35|N|From Magistrix Aminel.|
 A Rotting Hearts|QID|9216|M|48.95,31.35|N|From Magistrix Aminel.|
 T Rotting Hearts|QID|9216|M|48.95,31.35|N|To Magistrix Aminel.|
