@@ -3,5 +3,6 @@
 	<Script file="BC_Blacksmithing.lua"/>
 	<Script file="BC_Enchanting.lua"/>
 	<Script file="BC_First_Aid.lua"/>
+	<Script file="BC_Jewelcrafting.lua"/>
 	<Script file="BC_Tailoring.lua"/>
 </Ui>
