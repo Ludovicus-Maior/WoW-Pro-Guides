@@ -59,7 +59,7 @@ M [item=2997/Bolt of Woolen Cloth]|QID|197002964|P|Tailoring;197;0+100;1|ITEM|29
 M [item=10047/Simple Kilt]|QID|197012046|P|Tailoring;197;0+110;1|ITEM|10047|CRAFT|12046 13|MATS|2996 4;2321 1|
 = Learn Recipe|QID|1970001101|P|Tailoring;197;0+110|RECIPE|3848|N|Learn [spell=3848/Double-stitched Woolen Shoulders] Recipe from Trainer.|
 M [item=4314/Double-stitched Woolen Shoulders]|QID|197003848|P|Tailoring;197;0+125;1|ITEM|4314|CRAFT|3848 15|MATS|2997 3;2321 2|
-= Learn [spell=3913/Expert Tailor]|QID|197003913|P|Tailoring;197;0+125|SPELL|Expert Tailoring;3913|LVL|20|Learn from Trainers in any major City.|
+= Learn [spell=3913/Expert Tailor]|QID|197003913|P|Tailoring;197;0+125|SPELL|Expert Tailoring;3913|LVL|20|N|Learn from Trainers in any major City.|
 = Learn Recipe|QID|1970001251|P|Tailoring;197;0+125|RECIPE|3839|N|Learn [spell=3839/Bolt of Silk Cloth] Recipe from Trainer.|
 M [item=4305/Bolt of Silk Cloth]|QID|197003839|P|Tailoring;197;0+145;1|ITEM|4305|CRAFT|3839 195|MATS|4306 4|N|Craft all 195, you'll need these later.|
 = Learn Recipe|QID|1970001451|P|Tailoring;197;0+145|RECIPE|8760|N|Learn [spell=8760/Azure Silk Hood] Recipe from Trainer.|
@@ -76,7 +76,7 @@ M [item=7058/Crimson Silk Vest]|QID|197008791|P|Tailoring;197;0+205;1|ITEM|7058|
 M [item=7062/Crimson Silk Pantaloons]|QID|197008799|P|Tailoring;197;0+215;1|ITEM|7062|CRAFT|8799 10|MATS|4305 4;2604 2;4291 2|
 = Learn Recipe|QID|1970002151|P|Tailoring;197;0+215|RECIPE|12061|N|Learn [spell=12061/Orange Mageweave Shirt] Recipe from Trainer.|
 M [item=10056/Orange Mageweave Shirt]|QID|197012061|P|Tailoring;197;0+220;1|ITEM|10056|CRAFT|12061 5|MATS|4339 1;6261 1;8343 1|
-= Learn [spell=12180/Artisan Tailor]|QID|197012180|P|Tailor;197;0+200|SPELL|Artisan Tailoring;12180|LVL|35|Learn from any Trainer in any major City.|
+= Learn [spell=12180/Artisan Tailor]|QID|197012180|P|Tailor;197;0+200|SPELL|Artisan Tailoring;12180|LVL|35|N|Learn from any Trainer in any major City.|
 = Learn Recipe|QID|1970002151|P|Tailoring;197;0+215|RECIPE|12053|N|Learn [spell=12053/Black Mageweave Gloves] Recipe from Trainer.|
 M [item=10003/Black Mageweave Gloves]|QID|197012053|P|Tailoring;197;0+230;1|ITEM|10003|CRAFT|12053 10|MATS|4339 2;8343 2|
 = Learn Recipe|QID|1970002301|P|Tailoring;197;0+230|RECIPE|12072|N|Learn [spell=12072/Black Mageweave Headband] Recipe from Trainer.|
@@ -87,8 +87,8 @@ M [item=14048/Bolt of Runecloth]|QID|197018401|P|Tailoring;197;0+260;1|ITEM|1404
 M [item=13856/Runecloth Belt]|QID|197018402|P|Tailoring;197;0+280;1|ITEM|13856|CRAFT|18402 25|MATS|14048 3;14341 1|
 U Learn Recipe|QID|1970002751|P|Tailoring;197;0+275|RECIPE|18417|N|Learn [spell=18417/Runecloth Gloves] Recipe using [item=14481/Pattern: Runecloth Gloves]. Also learnable from Master Tailoring Trainer in Hellfire Peninsula.|
 M [item=13863/Runecloth Gloves]|QID|197018417|P|Tailoring;197;0+300;1|ITEM|13863|CRAFT|18417 25|MATS|14048 4;8170 4;14341 1|
-= Learn [spell=26790/Master Tailoring]|QID|197026790|M|56.6,37.2|Z|Hellfire Peninsula|P|Tailor;197;0+275|SPELL|Master Tailoring;12180|LVL|50|Learn from Dalinna, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
-= Learn [spell=26790/Master Tailoring]|QID|197026790|M|54.6,63.6|Z|Hellfire Peninsula|P|Tailor;197;0+275|SPELL|Master Tailoring;12180|LVL|50|Learn from Hama, in Honor Hold, Hellfire Peninsula.|FACTION|Horde|
+= Learn [spell=26790/Master Tailoring]|QID|197026790|M|56.6,37.2|Z|Hellfire Peninsula|P|Tailor;197;0+275|SPELL|Master Tailoring;12180|LVL|50|N|Learn from Dalinna, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
+= Learn [spell=26790/Master Tailoring]|QID|197026790|M|54.6,63.6|Z|Hellfire Peninsula|P|Tailor;197;0+275|SPELL|Master Tailoring;12180|LVL|50|N|Learn from Hama, in Honor Hold, Hellfire Peninsula.|FACTION|Horde|
 = Learn Recipe|QID|1970003001|P|Tailoring;197;0+300|RECIPE|26745|N|Learn [spell=26745/Bolt of Netherweave] Recipe from Trainer.|
 M [item=21840/Bolt of Netherweave]|QID|197026745|P|Tailoring;197;0+325;1|ITEM|21840|CRAFT|26745 460|MATS|21877 6|N|Just make all 460, you need them all later.|
 B [spell=26747/Bolt of Imbued Netherweave]|QID|197026747|M|66.2,68.8|Z|Shattrath City|RECIPE|26747|T|Eiin|N|Purchase [item=21892/Pattern - Bolt of Imbued Netherweave] from Eiin, in Lower City, Shattrath City. Alternately, you can purchase in The Exodar OR Silvermoon City.|
@@ -102,7 +102,7 @@ M [item=21854/Netherweave Boots]|QID|197026773|P|Tailoring;197;0+360;1|ITEM|2185
 B [spell=26778/Imbued Netherweave Tunic]|QID|197026778|M|55.8,58.2|Z|Shadowmoon Valley|RECIPE|26778|T|Arrond|N|Purchase [item=21901/Pattern - Imbued Netherweave Tunic] from Arrond, Sanctum of the Stars, Shadowmoon Valley. REQUIRES being at least Neutral with The Scryers.|REP|The Scryers;934;Neutral-Exalted|
 B [spell=26778/Imbued Netherweave Tunic]|QID|197026778|M|55.8,58.2|Z|Shadowmoon Valley|RECIPE|26778|N|Purchase [item=21901/Pattern - Imbued Netherweave Tunic] from Arrond, Sanctum of the Stars, Shadowmoon Valley. REQUIRES being at least Neutral with The Scryers.\n[color=FF0000]NOTE: [/color]You do not have the Rep to buy this, Check the AH OR use another toon, or ask someone to get it for you.|REP|The Scryers;934;Hated-Unfriendly|
 U Learn Recipe|QID|197026778|P|Tailoring;197;0+360|RECIPE|26777|U|21901|N|Learn [spell=26778/Imbued Netherweave Tunic] Recipe, using [item=21901/Pattern - Imbued Netherweave Tunic].|
-M [item=21862/Imbued Netherweave Tunic]|QID|197026778|P|Tailoring;197;0+375;1|ITEM|21862|CRAFT|26778 15|MATS|21842 6;21881 2;14341 1|Alternately you can make [item=21861/Imbued Netherweave Robe], it costs the same. (If you also bought it from Arrond).|
+M [item=21862/Imbued Netherweave Tunic]|QID|197026778|P|Tailoring;197;0+375;1|ITEM|21862|CRAFT|26778 15|MATS|21842 6;21881 2;14341 1|N|Alternately you can make [item=21861/Imbued Netherweave Robe], it costs the same. (If you also bought it from Arrond).|
 
 
 N Congratulations!|QID|197000010|N|That completes Classic - The Burning Crusade Tailoring.|
