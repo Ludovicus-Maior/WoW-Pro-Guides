@@ -631,7 +631,7 @@ T It's All Coming Together|QID|62793|M|42.54,53.66|Z|Archon's Rise@Elysian Hold!
 A Enhancing the Hold|QID|62794|PRE|62793|M|42.54,53.66|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
 C Enhancing the Hold|QID|62794|M|42.54,53.66|Z|Archon's Rise@Elysian Hold!Dungeon|NC|N|View your Sanctum, Select an upgrade.|COV|Kyrian|
 T Enhancing the Hold|QID|62794|M|42.54,53.66|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Haephus.|COV|Kyrian|
-A Dangerous to Go Alone|QID|57897|PRE|62794|M|42.54,53.66|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
+A Dangerous to Go Alone|QID|57897^63002|PRE|62794|M|42.54,53.66|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
 T Dangerous to Go Alone|QID|57897|M|59.32,34.59|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|To Soulguide Daelia.|COV|Kyrian|
 A Soul Meets Body|QID|57898|PRE|57897|M|59.32,34.59|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|From Soulguide Daelia.|COV|Kyrian|
 C Soul Meets Body|QID|57898|M|59.34,35.54|Z|Sanctum of Binding@Elysian Hold!Dungeon|NC|N|Click on Pelagos to Soulbind.|COV|Kyrian|
@@ -643,7 +643,9 @@ A A Conduit for Good|QID|62795|PRE|60504|M|59.71,34.97|Z|Sanctum of Binding@Elys
 C A Conduit for Good|QID|62795|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!Dungeon|QO|1|NC|N|Conduit used to add to Forge of Bonds.|COV|Kyrian|
 C A Conduit for Good|QID|62795|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!Dungeon|QO|2|NC|N|Conduit applied to Pelagos.|COV|Kyrian|
 T A Conduit for Good|QID|62795|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|To Soulguide Daelia.|COV|Kyrian|
-A Our Eternal Charge|QID|57904|PRE|62795|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|From Soulguide Daelia.|COV|Kyrian|
+C Dangerous to Go Alone|QID|63002|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!Dungeon|NC|N|Conduit applied to Pelagos.|COV|Kyrian|;if you choose skip option
+T Dangerous to Go Alone|QID|63002|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|To Soulguide Daelia.|COV|Kyrian|;if you choose skip option
+A Our Eternal Charge|QID|57904|PRE|62795^63002|M|59.71,34.97|Z|Sanctum of Binding@Elysian Hold!Dungeon|N|From Soulguide Daelia.|COV|Kyrian|
 T Our Eternal Charge|QID|57904|M|55.39,42.38|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes, up one level.|COV|Kyrian|
 A More Work?|QID|57899|PRE|57904|M|42.74,53.60|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus. Once the Command Table is active.|COV|Kyrian|
 A Replenish the Reservoir|QID|61982|PRE|57900|M|42.71,53.56|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Haephus.|COV|Kyrian|
