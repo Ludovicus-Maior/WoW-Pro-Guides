@@ -199,7 +199,7 @@ T Assessing the Threat|QID|246|M|30.74,59.99|Z|Redridge Mountains|N|To Deputy Fe
 C The Lost Tools|QID|125|M|41.60,54.70|L|1309|Z|Redridge Mountains|N|Loot the tools from the chest at the bottom of the lake.|
 T The Lost Tools|QID|125|M|32.1,48.6|Z|Redridge Mountains|N|To Foreman Oslow.|
 t Underbelly Scales|QID|122|M|31.00,47.30|Z|Redridge Mountains|N|To Verner Osgood.|
-t Redridge Goulash|QID|92|M|22.68,43.83|Redridge Mountains|N|To Chef Breanna.|US|Z|
+t Redridge Goulash|QID|92|M|22.68,43.83|Z|Redridge Mountains|N|To Chef Breanna.|US|
 T Visit the Herbalist|QID|130|M|21.85,46.32|N|To Martie Jainrose.|Z|Redridge Mountains|
 A Delivering Daffodils|QID|131|M|21.85,46.32|N|From Martie Jainrose.|PRE|130|Z|Redridge Mountains|
 T Delivering Daffodils|QID|131|M|26.9,44.53|N|To Darcy. She wanders around a bit.|Z|Redridge Mountains|
