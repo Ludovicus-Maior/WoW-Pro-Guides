@@ -111,6 +111,7 @@ A Salvaging the Past|QID|9150|M|46.01,31.95|N|From Magister Darenis.|REP|Tranqui
 A Investigate An'daroth|QID|9160|M|44.88,32.51|N|From Dame Auriferous.|REP|Tranquillien;922;friendly-exalted|
 A Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|From Deathstalker Maltendis.|REP|Tranquillien;922;friendly-exalted|
 A Down the Dead Scar|QID|9155|M|46.02,33.56|N|From Deathstalker Rathiel.|
+l Rotting Hearts|AVAILABLE|9216|M|38.94,36.68|L|22641 10|N|Going forward, any time you enter The Dead Scar, kill any Risen Hungerers or Risen Stalkers you come across. The Rotting Hearts are needed for an upcoming quest and starting now will save some time.\n[color=FF0000]NOTE: [/color]Keep an eye out for Luzran, who pathes up and down The Dead Scar.|S|IZ|3514; The Dead Scar|
 C Down the Dead Scar|QID|9155|M|39.76,32.47|N|Head down into the Dead Scar and kill Risen Hungerers and Gangled Cannibals. If you come across any Ghostclaw Lynxs, kill them as well.|
 C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders until you have 5 Crunchy Spider Legs.|S|
 C Salvaging the Past|QID|9150|M|33.41,32.40|N|Kill Mana Shifters and Arcane Devourers until you get 8 Mana Essences.|
@@ -132,7 +133,6 @@ T Investigate An'daroth|QID|9160|M|44.88,32.51|N|To Dame Auriferous.|
 A Into Occupied Territory|QID|9163|M|44.88,32.51|N|From Dame Auriferous.|PRE|9160|
 A Retaking Windrunner Spire|QID|9173|M|44.83,32.39|N|From High Executor Mavren.|LVL|15| ; Level warning?
 T The Plagued Coast|QID|9149|M|47.66,34.86|N|To Apothecary Renzithen.|
-C Rotting Hearts|QID|9216|M|38.94,36.68;38.06,56.25|CN|L|22641 10|N|Kill any Risen Hungerers or Risen Stalkers farther south. Be careful of Luzran.\nRisen Stalkers are higher level but seem to have higher drop rate.|
 ; travel note and Knucklerot warning - Hendo72
 A Underlight Ore Samples|QID|9207|M|31.42,48.31|N|From Apprentice Shatharia.|
 C Trouble at the Underlight Mines|QID|9192|M|29.25,47.93|N|Head down the slope and kill any gnoll you need.|
@@ -145,22 +145,27 @@ A The Lady's Necklace|QID|9175|M|PLAYER|N|Accept the quest from the necklace.|U|
 ; jump into water - Hendo72
 ; split next step into 2 as each are in distinct groups. focus on Phantasmal first. - Hendo72
 C Windrunner Village|QID|9140|M|17.95,42.65|N|Jump into the water and swim into the village. Kill Phantasms and Gargoyles until you get 6 Phantasmal Substances, and 4 Gargoyle Fragments.|
-C Into Occupied Territory|QID|9163|M|10.56,22.49|N|Night Elf Plans: An'daroth and An'owyn, can be in several spots on the isle. Night Elf Plans: Scrying on Sin'dorei, is on the boat.| ; 10.44,22.58 Scrying / daroth 12.53,26.51 12.80,25.08 13.70,26.84 14.77,26.61 / owyn 12.54,24.80 or 12.86,23.92
-H Tranquillien|QID|9140|
-r Training/Repair/Sell Junk|QID|9140|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A Spinal Dust|QID|9218|M|48.95,31.35|N|From Magistrix Aminel.|
-A Rotting Hearts|QID|9216|M|48.95,31.35|N|From Magistrix Aminel.|
-T Rotting Hearts|QID|9216|M|48.95,31.35|N|To Magistrix Aminel.|
+C Into Occupied Territory|QID|9163|M|10.56,22.49|N|Night Elf Plans: An'daroth and An'owyn, can be in several spots on the isle. Night Elf Plans: Scrying on Sin'dorei, is on the boat.| ; 10.44,22.58 Scrying / An'daroth 12.53,26.51 12.80,25.08 13.70,26.84 14.77,26.61 / An'owyn 12.54,24.80 or 12.86,23.92
+L Level 16|ACTIVE|9140|N|Grind until you're level 16.|LVL|16|
+H Tranquillien|ACTIVE|9140|
+F Silvermoon City|ACTIVE|9140|M|45.43,30.53|
+= Level 16 Training|ACTIVE|9140|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Tranquillien|ACTIVE|9140|M|54.37,50.73|Z|Eversong Woods|
+r Housekeeping|ACTIVE|9140|M|49.11,30.32|N|Repair and sell junk to Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A Spinal Dust|QID|9218|M|48.92,31.31|N|From Magistrix Aminel.|
+A Rotting Hearts|QID|9216|M|48.92,31.31|N|From Magistrix Aminel.|
+C Spinal Dust|QID|9218|M|37.52,49.76|N|Kill Dread Sentinels and Deathcage Sorcerers to collect the Spinal Dust.|S|IZ|3514; The Dead Scar|
+l Rotting Hearts|ACTIVE|9216|M|37.52,49.76|L|22641 10|N|Enter The Dead Scar and kill any Risen Hungerers or Risen Stalkers you come across to collect the Rotting Hearts.\n[color=FF0000]NOTE: [/color]Keep an eye out for Luzran, who pathes up and down The Dead Scar.|
+T Rotting Hearts|QID|9216|M|48.92,31.31|N|To Magistrix Aminel.|
 T Windrunner Village|QID|9140|M|46.39,28.44|N|To Arcanist Vandril.|
 T Into Occupied Territory|QID|9163|M|44.88,32.51|N|To Dame Auriferous.|
 A Deliver the Plans to An'telas|QID|9166|M|44.88,32.51|N|From Dame Auriferous.|PRE|9163|
 T Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|To Deathstalker Maltendis.|
 A Troll Juju|QID|9199|M|44.81,32.33|N|From Deathstalker Maltendis.|
-T Retaking Windrunner Spire|QID|9173|M|44.82,32.37|N|To High Executor Mavren.|
-T The Lady's Necklace|QID|9175|M|44.82,32.37|N|To High Executor Mavren.|
-A Journey to Undercity|QID|9180|M|44.82,32.37|N|From High Executor Mavren.|PRE|9175|R|BloodElf|
-A Journey to Undercity|QID|9177|M|44.82,32.37|N|From High Executor Mavren.|PRE|9175|R|Orc,Troll,Undead,Tauren,Goblin|
-A Investigate the Amani Catacombs|QID|9193|M|44.88,32.70|N|From Advisor Valwyn.|
+T Retaking Windrunner Spire|QID|9173|M|44.77,32.45|N|To High Executor Mavren.|
+T The Lady's Necklace|QID|9175|M|44.77,32.45|N|To High Executor Mavren.|
+A Journey to Undercity|QID|9177^9180|M|44.77,32.45|N|From High Executor Mavren.|PRE|9175|
+A Investigate the Amani Catacombs|QID|9193|M|44.84,32.81|N|From Advisor Valwyn.|
 A Clearing the Way|QID|9281|M|46.44,56.43|N|From Apprentice Vor'el. Kill any Ghostclaw Lynx's you see.|
 A The Farstrider Enclave|QID|9282|M|55.07,48.89|N|From Magister Kaendris.|LEAD|9161|
 T Underlight Ore Samples|QID|9207|M|55.00,48.61|N|To Magister Quallestis.|
@@ -220,7 +225,6 @@ A War on Deatholme|QID|9220|M|54.92,48.43|N|From Magister Idonis.|
 C Stone of Flame|QID|9176|M|40.35,49.85|L|22599|N|Go inside the Howling Ziggurat and loot the Stone of Flame.|
 C The Twin Ziggurats|QID|9176|M|34.30,47.60|N|Go inside the Bleeding Ziggurat and loot the Stone of Light.|
 C Curbing the Plague|QID|9159|M|25.25,44.36|QO|2|N|Kill the 8 Spindleweb Lurkers you need.|
-C Spinal Dust|QID|9218|M|38,51;37,69|CN|N|Kill Dread Sentinels and Deathcage Sorcerers between the waypoints until you get 10 Spinal Dust.|
 K War on Deatholme|ACTIVE|9220|M|32.12,76.13|QO|1;2|N|Slay 5 Eyes of Dar'khan, 6 Nerubis Centurions and 6 Wailers in Deatholme.|
 T The Twin Ziggurats|QID|9176|M|55.00,48.95|N|To Magister Kaendris.|
 A The Traitor's Destruction|QID|9167|M|55.00,48.95|N|From Magister Kaendris.|PRE|9176|
@@ -233,15 +237,16 @@ T Assault on Zeb'Nowa|QID|9277|M|72.34,31.38|N|To Farstrider Solanna.|
 T Bring Me Kel'gash's Head!|QID|9215|M|72.34,29.80|N|To Captain Helios.|
 T Shadowpine Weaponry|QID|9214|M|72.34,29.80|N|To Captain Helios.|
 T A Little Dash of Seasoning|QID|9275|M|72.68,31.54|N|To Apothecary Venustus.|
+C Spinal Dust|QID|9218|M|37.52,49.76|N|Kill Dread Sentinels and Deathcage Sorcerers to collect the Spinal Dust.|US|IZ|3514; The Dead Scar|
 H Tranquillien|QID|9218|N|Hearth back to Tranquillien.|
 T Spinal Dust|QID|9218|M|48.97,31.44|N|To Magistrix Aminel.|
 r Repair/Restock|QID|9877|M|49.05,30.32|N|At Blacksmith Frances.|
 T A Restorative Draught|QID|9877|M|47.66,34.86|N|To Apothecary Renzithen.|
 A Captives at Deatholme|QID|9164|M|47.66,34.86|N|From Apothecary Renzithen.|
 C Apothecary Enith|QID|9164|M|32.1,73.9|QO|1|N|coords Go down into the crypt and Talk to Apothecary Enith.|; Apothecary Enith Rescued: 1/1
-K Jurion the Deceiver|ACTIVE|9170|M|32.1,74|QO|3|N|coords Kill Jurion the Deciever in the crypt.|; Jurion the Deceiver slain: 1/1
+K Jurion the Deceiver|ACTIVE|9170|M|32.1,74|QO|3|N|coords Kill Jurion the Deceiver in the crypt.|; Jurion the Deceiver slain: 1/1
 K Mirdoran the Fallen|ACTIVE|9170|M|37.1,79.1|QO|1|N|coords Kill Mirdoran the Fallen.|; Mirdoran the Fallen slain: 1/1
-C Apprentice Varnis|QID|9164|M|37.88,84.40;40.97,83.10|CS|QO|2|N|Go into the butchery and talk to Aprentive Varnis.|; Apprentice Varnis Rescued: 1/1
+C Apprentice Varnis|QID|9164|M|37.88,84.40;40.97,83.10|CS|QO|2|N|Go into the butchery and talk to Apprentice Varnis.|; Apprentice Varnis Rescued: 1/1
 K Borgoth the Bloodletter.|ACTIVE|9170|M|41,83.1;32.7,89.9|CN|QO|2|N|coords Borgoth can be in either butchery.|S|; Borgoth the Bloodletter slain: 1/1
 C Captives at Deatholme|QID|9164|M|32.8,89.3|N|coords Talk to Ranger Vedoran to rescue him.|
 C Dar'Khan's Lieutenants|QID|9170|M|29.5,89.2;35.9,89.3|CN|N|coords Masophet can be in either ziggurat..|
@@ -276,8 +281,7 @@ P Undercity|QID|9180|M|49.49,14.76|Z|Silvermoon City|N|Go to the room behind Lor
 f Undercity|QID|9621^9812|M|63.09,47.88|Z|Undercity|N|Get the flight path for Undercity.|
 T Envoy to the Horde|QID|9621|M|57.59,91.64|Z|Undercity|N|To Lady Sylvanas Windrunner.|R|BloodElf|
 T Envoy to the Horde|QID|9812|M|57.59,91.64|Z|Undercity|N|To Lady Sylvanas Windrunner.|R|-BloodElf|
-T Journey to Undercity|QID|9180|M|57.59,91.64|Z|Undercity|N|To Lady Sylvanas Windrunner.|R|BloodElf|
-T Journey to Undercity|QID|9177|M|57.59,91.64|N|From High Executor Mavren.|R|-BloodElf|
+T Journey to Undercity|QID|9177^9180|M|57.59,91.64|Z|Undercity|N|To Lady Sylvanas Windrunner.|
 A Meeting the Warchief|QID|9626|M|57.93,91.79|Z|Undercity|N|From Lady Sylvanas Windrunner.|
 R Orgrimmar Zepplin|ACTIVE|9626|M|60.71,58.78|Z|Tirisfal Glades|N|Go up the tower and take the Zepplin.|
 b Durotar|ACTIVE|9626|
