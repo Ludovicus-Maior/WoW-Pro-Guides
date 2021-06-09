@@ -166,12 +166,17 @@ T Retaking Windrunner Spire|QID|9173|M|44.77,32.45|N|To High Executor Mavren.|
 T The Lady's Necklace|QID|9175|M|44.77,32.45|N|To High Executor Mavren.|
 A Journey to Undercity|QID|9177^9180|M|44.77,32.45|N|From High Executor Mavren.|PRE|9175|
 A Investigate the Amani Catacombs|QID|9193|M|44.84,32.81|N|From Advisor Valwyn.|
-A Clearing the Way|QID|9281|M|46.44,56.43|N|From Apprentice Vor'el. Kill any Ghostclaw Lynx's you see.|
-A The Farstrider Enclave|QID|9282|M|55.07,48.89|N|From Magister Kaendris.|LEAD|9161|
-T Underlight Ore Samples|QID|9207|M|55.00,48.61|N|To Magister Quallestis.|
-T Deliver the Plans to An'telas|QID|9166|M|56.53,45.39;60.28,35.74|CC|N|To Magister Sylastor.|
+K Bearers of the Plague|ACTIVE|9158|M|63.69,43.46|QO|1|N|Kill Ghostclaw Lynxes.|S|
+R Andilien Estate|AVAILABLE|9281|M|45.34,56.83|N|Follow the road south out of Tranquillien.\n[color=FF0000]NOTE: [/color]Cut through the woods so you can do your kill quest as you go.
+A Clearing the Way|QID|9281|M|46.44,56.43|N|From Apprentice Vor'el.|
+K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Killed Greater Spindlewebs and Ghostclaw Ravagers.|S|
+R Sanctum of the Sun|AVAILABLE|9282|M|53.94,51.76|
+A The Farstrider Enclave|QID|9282|M|55.06,48.83|N|From Magister Kaendris.|LEAD|9161|
+T Underlight Ore Samples|QID|9207|M|54.95,48.48|N|To Magister Quallestis.|
+R An'telas|ACTIVE|9166|M|56.53,45.39;60.76,40.79|CC|N|Cut through the pass behind Sun of the Sanctum.|
+T Deliver the Plans to An'telas|QID|9166|M|60.28,35.74|N|To Magister Sylastor.|
 A Deactivate An'owyn|QID|9169|M|60.27,35.74|N|From Magister Sylastor.|PRE|9166|
-C Bearers of the Plague|QID|9158|M|63.69,43.46|N|Kill any Ghostclaw Lynx you need.|
+K Bearers of the Plague|ACTIVE|9158|M|63.69,43.46|QO|1|N|Finish killing Ghostclaw Lynxes.|US|
 T Bearers of the Plague|QID|9158|M|72.48,32.19|N|To Farstrider Sedina.|
 A Curbing the Plague|QID|9159|M|72.48,32.19|N|From Farstrider Sedina.|PRE|9158|
 A Attack on Zeb'Tela|QID|9276|M|72.23,31.28|N|From Farstrider Solanna.|
@@ -216,7 +221,7 @@ r Repair/Restock|M|49.07,30.33|N|At Blacksmith Frances.|
 ;R Hatchet Hills|QID|9169|M|45.5,30.55|N|coords Fly to Hatchet Hills (Zul'Aman).|
 l Crystal Controlling Orb|QID|9169|M|58.20,64.72|L|23191|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|
 C Deactivate An'owyn|QID|9169|M|58.20,64.72|N|Click on the Night Elf Moon Crystal to deactivate it.|
-K Clearing the Way|ACTIVE|9281|M|47.33,63.85;53.96,61.66|CN|QO|1;2|N|Go between the two waypoints until you have killed 10 Greater Spindlewebs and 10 Ghostclaw Ravager.|
+K Clearing the Way|ACTIVE|9281|M|47.33,63.85;53.96,61.66|CN|QO|1;2|N|Go between the two waypoints until you have killed 10 Greater Spindlewebs and 10 Ghostclaw Ravager.|US|
 T Clearing the Way|QID|9281|M|46.44,56.52|N|To Apprentice Vor'el.|
 T Report to Magister Kaendris|QID|9172|M|55.01,48.93|N|To Magister Kaendris.|
 A The Twin Ziggurats|QID|9176|M|55.02,48.93|N|From Magister Kaendris.|PRE|9172|
