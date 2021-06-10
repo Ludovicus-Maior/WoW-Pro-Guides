@@ -5,8 +5,8 @@ Permissions beyond the scope of this license may be available at http://github.c
 
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_30_41_Alliance', 'Leveling', 'Thousand Needles', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Alliance Leveling 30-41')
-WoWPro:GuideLevels(guide,30, 40)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Dungeon_Uld')
+WoWPro:GuideLevels(guide,30, 41)
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_42_50_Alliance')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Gnomeregan|QID|2929|N|Now would be a good time to run Gnomeregan. This will avoid some grinding you may need to do shortly. Be sure to collect all the quests as they give a lot of experience.|LVL|-31|
@@ -26,15 +26,16 @@ h Theramore Isle|QID|1282|M|66.60,45.20|Z|Dustwallow Marsh|N|Make Theramore your
 r Sell junk, repair, restock.|QID|1282|N|Sell junk, repair, restock.|
 A They Call Him Smiling Jim|QID|1282|M|66.15,46.07|Z|Dustwallow Marsh|N|From Guard Byron.|
 T They Call Him Smiling Jim|QID|1282|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
+A Inspecting the Ruins|QID|11123|M|68.21,48.62|Z|Dustwallow Marsh|N|From Captain Garran Vimes, 3rd floor of the Citidel.|
 A The Orc Report|QID|1219|M|55.45,25.93|Z|Dustwallow Marsh|N|Click the Loose Dirt on the grave behind the house.|
-
 R Shady Rest Inn|AVAILABLE|1100|M|45.3,23.2;29.71,47.64|CS|Z|Dustwallow Marsh|N|Follow the road Northwest and then south towards the Barrens. Be on alert for mobs that path close to road. Stick to the road.|
+T Inspecting the Ruins|QID|11123|M|29.71,47.64|Z|Dustwallow Marsh|N|To Inspector Tarem.|
 A Suspicious Hoofprints|QID|1284|M|29.71,47.64|Z|Dustwallow Marsh|N|Just in front of the Inn. It has about a 5 minute respwn timer if someone else needs it too.|
 A Lieutenant Paval Reethe|QID|1252|M|29.83,48.24|Z|Dustwallow Marsh|N|A very tiny Guard Badge on the ground on top of the pieces of timber.|
 A The Black Shield|QID|1253|M|29.63,48.59|Z|Dustwallow Marsh|N|Above the fireplace. It has about a 5 minute respwn timer if someone else needs it too.|
 
 R Southern Barrens|AVAILABLE|1100|M|29.05,48.72|Z|Dustwallow Marsh|N|And into the Barrens.|
-R Thousand Needles|AVAILABLE|1100|M|43,91|Z|The Barrens|N|Head southwest toward Thousand Needles. Run past the guard at the great lift and take the lift down.|
+R Thousand Needles|AVAILABLE|1100|M|32.26,21.01|Z|The Barrens|N|Head southwest toward Thousand Needles. Run past the guard at the great lift and take the lift down.|
 l Henrig Lonebrow's Journal|QID|1100|M|30.72,24.34|N|Pick up the Journal held by the dead dwarf at the base of the Great Lift. It's got about a 3 minute respawn timer, if someone else needs it too.|L|5791|
 A Lonebrow's Journal|QID|1100|M|PLAYER|U|5791|N|Use the journal to start the quest.|
 R Thalanaar|ACTIVE|1100|Z|Feralas|M|89.50,45.85|N|Run Generally west to the border with Feralas and find Thalanaar. If you follow the road you will get there safely and avoid centaur camps.|
@@ -68,7 +69,7 @@ T Hardened Shells|QID|1105|M|78.14,77.13|N|To Wizzle Brassbolts.|
 T Salt Flat Venom|QID|1104|M|78.07,77.13|N|To Fizzle Brassbolts. Don't get follow-up|
 T Rocket Car Parts|QID|1110|M|77.79,77.28|N|To Kravel Koalbeard.|
 A Wharfmaster Dizzywig|QID|1111|M|77.79,77.28|N|From Kravel Koalbeard.|
-A Hemet Nesingwary|QID|5762|M|77.79,77.28|N|From Kravel Koalbeard.|
+A Hemet Nesingwary Jr.|QID|5762|M|77.79,77.28|N|From Kravel Koalbeard.|
 L Level 32|ACTIVE|1111|N|Grind if needed to reach level 32.|LVL|-32|
 
 R Tanaris|ACTIVE|1111|M|75.5,97.75|N|Run south to Tanaris.|
@@ -145,12 +146,13 @@ A The Second Rebellion|QID|203|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant
 A Bad Medicine|QID|204|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
 A Krazek's Cookery|QID|210|M|37.74,3.30|Z|Stranglethorn Vale|N|From Corporal Kaleb.|
 N From now on...|QID|338|N|From now on, keep any Green Hills of Stranglethorn pages you find. (bank is fine)|
+f Rebel Camp|QID|210|M|38.22,4.05|Z|Stranglethorn Vale|N|Get the flight path from Nizzle.|
 
 R Nesingwary's Expedition|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|Head west along the road and then south. Once in stranglthorn cross the bridge and head west to the camp|
 A Welcome to the Jungle|QID|583|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
-T Welcome to the Jungle|QID|583|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
-T Hemet Nesingwary|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
-A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|583|
+T Welcome to the Jungle|QID|583|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
+T Hemet Nesingwary Jr.|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
+A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|583|
 A Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|583|
 A Panther Mastery|QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|583|
 C Supply and Demand|QID|575|M|40.6,13.3|Z|Stranglethorn Vale|S|N|Kill River Crocolisks and loot their skins.|
@@ -169,17 +171,16 @@ A Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 T Panther Mastery|QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
 A Panther Mastery|QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|190|
 r Repair and Sell|QID|186|M|35.76,10.66|Z|Stranglethorn Vale|N|Bags will get full quickly here. |
-
-C Raptor Mastery|QID|194|Z|Stranglethorn Vale|S|N|Go southwest and kill 10 Stranglethorn Raptors.|
-C Raptor Mastery|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|S|N|Go southwest and kill 10 Stranglethorn Raptors.|
+C Panther Mastery|QID|191|M|27.80,14.80|Z|Stranglethorn Vale|N|Kill "Panthers", not the young ones.|S|
 C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|S|N|Kill "Tigers", not the young ones.|
-C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|US|N|Finish killing Tigers before you move on.|
-C Raptor Mastery|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|US|N|Go southwest and kill 10 Stranglethorn Raptors.|
+C Raptor Mastery|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|N|Go southwest and kill 10 Stranglethorn Raptors.|S|
 C The Stone of the Tides|QID|578|M|21.00,22.00|Z|Stranglethorn Vale|N|Head onto the shore and sdwim to the island until you get the quest complete message for The Stone of the Tides.|
+C Raptor Mastery|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|N|Finish killing Stranglethorn Raptors before you move on.|US|
+C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|US|N|Finish killing Tigers before you move on.|
+C Panther Mastery|QID|191|M|31.42,15.82|Z|Stranglethorn Vale|N|Finish killing Panthers before you move on.|US|
 T Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack. Don't get follow-up.|
 T Panther Mastery|QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin. Don't get follow-up.|
-T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary. Don't get follow-up.|
-
+T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr. Don't get follow-up.|
 C Supply and Demand|QID|575|M|40.6,13.3|Z|Stranglethorn Vale|US|N|Kill River Crocolisks and loot their skins.|
 A The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot. You must have this quest for the chapter quests to show up.|PRE|583|
 N Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|In an effort to not clutter your quest log, only accept any Green Hills of Stranglethorn quests that you can turn in while you are here. You won't be directed to accept any of these quests.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27|
@@ -215,7 +216,7 @@ A An Old History Book|QID|337|U|2794|N|From Item dropped randomly in Duskwood.|
 t An Old History Book|QID|337|M|74,7.6|Z|Stormwind City|N|To Milton Sheaf.|
 A Southshore|QID|538|PRE|337|M|74,7.6|Z|Stormwind City|N|From Milton Sheaf.|
 
-F Refuge Pointe|QID|555||M|49.34,52.28|Z|Hillsbrad Foothills|TAXI|Refuge Pointe|N|Fly to Refuge Pointe in Arathi Highlands. 7.5 Minute flight|
+F Refuge Pointe|QID|555|M|66.34,62.26|Z|Stormwind City|TAXI|Refuge Pointe|N|Fly to Refuge Pointe in Arathi Highlands. 7.5 Minute flight|
 R Refuge Pointe|QID|555|M|45.76,46.10|Z|Arathi Highlands|TAXI|-Refuge Pointe|N|If you dont have the flight points, its Ironforge to wetlands, east thru Wetlands, then North to Arathi Highlands, grab the Refuge Pointe flightpath.|
 T Malin's Request|QID|690|M|46.65,47.01|Z|Arathi Highlands|N|To Skuerto. Don't get follow-up.|
 A Northfold Manor|QID|681|M|45.83,47.55|Z|Arathi Highlands|N|From Captain Nials.|
@@ -253,7 +254,7 @@ T Northfold Manor|QID|681|M|45.83,47.55|Z|Arathi Highlands|N|To Captain Nials.|
 A Worth Its Weight in Gold|QID|691|M|46.20,47.76|Z|Arathi Highlands|N|From Apprentice Kryten.|PRE|690|
 T Hints of a New Plague?|QID|659|M|60.18,53.85|Z|Arathi Highlands|N|To Quae.|
 A Hints of a New Plague?|QID|658|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|PRE|659|
-K Forsaken Courier|ACTIVE|658|M|61.00,60.00|L|647|S|N|Look out for a group of Forsaken leaving Go'Shek Farm. The Forsaken Courier in the center drops a Sealed Folder. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter|T|Forsaken Courier|IZ|1417|
+C Hints of a New Plague?|QID|658|M|52.55,61.27|CC|S|Z|Arathi Highlands|N|Head along the road towards Tarren Mill. Be aware of the Tarren Mill Guards. Follow the road all the way through to Go'Shek Farm in Arathi Highlands.\nYou are looking for a group of Forsaken. The Forsaken Courier in the center drops the Sealed Folder for this quest. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter.\nIf you do not find them along the way wait at the entrance to Go'Shek Farm for the group to respawn. Respawn timer is approx 5 minutes.|T|Forsaken Courier|
 L Level 35|N|If you are not yet level 35 grind on the Orcs here|LVL|-35|
 R Thandol Span|AVAILABLE|647|M|60.80,60.65;45.80,59.20;43.25,91.20|CC|Z|Arathi Highlands|N|Head to the road leading out of Go'Shek Farm. Follow the road west and towards Wetlands when the road turns south|
 A MacKreel's Moonshine|QID|647|M|43.25,91.20;43.24,92.64|CC|Z|Arathi Highlands|N|Head to the broken side of the bridge. Stand on the right side of the chain and use Slowfall/Levitate on yourself. Aim yourself towards the Torch on the opposite side. Run and jump off the bridge to float over. Accept the quest from Foggy MacKreel in the room on the right. Be aware this is a timed quest. If you fail the jump swim east until you come to a hill you can run back up.|C|Mage,Priest|
@@ -262,7 +263,8 @@ l Waterlogged Envelope|QID|637|M|44.29,92.89|Z|Arathi Highlands|N|Jump down into
 A Sully Balloo's Letter|QID|637|N|From the Waterlogged Letter.|U|4433|
 H Southshore|QID|661|N|Hearth to Southshore. If your hearthstone is on cooldown, Swim North-West following the shore until you return to Southshore.|
 T MacKreel's Moonshine|QID|647|M|52.11,58.77|Z|Hillsbrad Foothills|N|To Brewmeister Bilger downstairs in the cellar.|
-C Hints of a New Plague?|QID|658|M|55.60,19.70|CC|N|Head along the road towards Tarren Mill. Be aware of the Tarren Mill Guards. Follow the road all the way through to Go'Shek Farm in Arathi Highlands.\nYou are looking for a group of Forsaken. The Forsaken Courier in the center drops the Sealed Folder for this quest. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter.\nIf you do not find them along the way wait at the entrance to Go'Shek Farm for the group to respawn. Respawn timer is approx 5 minutes.|T|Forsaken Courier|
+F Refuge Pointe|QID|658|M|49.34,52.28|Z|Hillsbrad Foothills|N|Fly to Refuge Pointe.|
+C Hints of a New Plague?|QID|658|M|52.55,61.27|CC|Z|Arathi Highlands|US|N|Head along the road towards Tarren Mill. Be aware of the Tarren Mill Guards. Follow the road all the way through to Go'Shek Farm in Arathi Highlands.\nYou are looking for a group of Forsaken. The Forsaken Courier in the center drops the Sealed Folder for this quest. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter.\nIf you do not find them along the way wait at the entrance to Go'Shek Farm for the group to respawn. Respawn timer is approx 5 minutes.|T|Forsaken Courier|
 T Hints of a New Plague?|QID|658|M|60.18,53.85|Z|Arathi Highlands|N|To Quae north of Go'Shek Farm. If you are still close to Southshore use a Gryphon to fly back to Refuge Point|
 A Hints of a New Plague?|QID|657|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|PRE|658|
 T Hints of a New Plague?|QID|657|M|60.23,53.92|Z|Arathi Highlands|N|To Kinelory. This is an escort quest coming up, be polite and group with others waiting for her if she isn't up already. This is a lot easier grouped but if not just let her tank and heal.|
@@ -330,9 +332,9 @@ T The Missing Diplomat|QID|1249|M|10.61,60.77|Z|Wetlands|N|To Mikhail.|
 A The Missing Diplomat|QID|1250|M|10.61,60.77|Z|Wetlands|N|From Tapoke "Slim" Jahn.|PRE|1249|
 T The Missing Diplomat|QID|1250|M|10.61,60.77|Z|Wetlands|N|To Mikhail.|
 A The Missing Diplomat|QID|1264|M|10.61,60.77|Z|Wetlands|N|From Mikhail.|PRE|1250|
-A James Hyal|QID|1302|M|10.82,60.41|Z|Wetlands|N|From Vincent Hyal.|
+A James Hyal|QID|1302|M|8.38,61.73|Z|Wetlands|N|From Vincent Hyal.|
 
-F Ironforge|QID|563|M|49.34,52.28|Z|Hillsbrad Foothills|N|Fly to Ironforge to take care of a few things.|
+F Ironforge|QID|563|M|9.53,59.77|Z|Hillsbrad Foothills|N|Fly to Ironforge to take care of a few things.|
 T A King's Tribute|QID|689|M|38.74,87.05|Z|Ironforge|N|To Grand Mason Marblesten.|
 A A King's Tribute|QID|700|M|38.74,87.05|Z|Ironforge|N|From Grand Mason Marblesten. \n\nNeed to wait about a minute while he goes downstairs and builds the thing, feel free to follow him and watch.|PRE|689|
 T A King's Tribute|QID|700|M|39.11,56.21|Z|Ironforge|N|To King Magni Bronzebeard.|
@@ -383,12 +385,12 @@ T The Daughter Who Lived|QID|229|M|74.19,46.90|Z|Duskwood|N|To Watcher Ladimore.
 A A Daughter's Love|QID|231|M|74.19,46.90|Z|Duskwood|N|From Watcher Ladimore. She patrols the town.|PRE|229|RANK|3|
 T A Daughter's Love|QID|231|M|74.19,46.90|Z|Duskwood|N|To A Weathered Grave.|
 
-R Rebel Camp|QID|622|M|38.20,4.10|Z|Stranglethorn Vale|N|Run south-west to the Rebel Camp in stranglethron vale, Follow the road west then south, then once you cross the bridge head head west.|
+F Rebel Camp|QID|622|M|77.54,44.45|Z|Duskwood|N|Run south-west to the Rebel Camp in stranglethron vale, Follow the road west then south, then once you cross the bridge head head west.|
 A Special Forces|QID|574|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|PRE|203&204|
 T Return to Corporal Kaleb|QID|622|M|37.8,3.2|Z|Stranglethorn Vale|N|To Corporal Kaleb.|
 A Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|186|
 A Panther Mastery|QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|191|
-A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|194|
+A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|194|
 
 C Bloodscalp Ears|QID|189|M|29.00,20.00|Z|Stranglethorn Vale|S|N|Get 15 bloodscalp ears from the Trolls here.|
 C The Emperor's Tomb|QID|207|QO|4|M|24.70,8.90|NC|Z|Stranglethorn Vale|N|Inside the ruins up to the top and go right.|
@@ -403,16 +405,16 @@ C Singing Blue Shards|QID|605|M|26.80,18.70|Z|Stranglethorn Vale|US|N|Back acros
 C Tiger Mastery|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|S|N|Kill Elder Stranglethorn Tigers.|
 C Raptor Mastery|QID|195|M|31.70,22.80|Z|Stranglethorn Vale|N|Kill the lashtail raptors in this area.|
 C Tiger Mastery|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|US|N|Kill Elder Stranglethorn Tigers.|
-T Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary. Don't get follow-up.|
+T Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr. Don't get follow-up.|
 T Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|187|
 r Repair and Sell|QID|192|M|35.76,10.66|Z|Stranglethorn Vale|N|Bags will get full quickly here.|
 C Tiger Mastery|QID|188|M|32.18,17.30|Z|Stranglethorn Vale|N|Kill Sin'dall on top of the hill and loot his paw.|
 C Some Assembly Required|QID|577|M|36.94,32.63|Z|Stranglethorn Vale|S|N|Kill Snapjaw Crocolisks for their skins. (Not the River Crocolisks)|
 C Hostile Takeover|QID|213|M|44.96,21.03|Z|Stranglethorn Vale|S|N|Kill geologists.|
-K Foreman Cozzle|QID|1182|M|42.65,18.34|Z|Stranglethorn Vale|N|Kill Foreman Cozzle at the top of the control tower and loot his key.|L|5851|
+K Foreman Cozzle|QID|1182|M|42.65,18.34|Z|Stranglethorn Vale|N|Kill Foreman Cozzle at the top of the control tower and loot his key.|L|5851|T|Foreman Cozzle|
 C Goblin Sponsorship|QID|1182|M|43.33,20.32|Z|Stranglethorn Vale|N|Loot the bluebrints from a chest in the small house.|NC|
-C Hostile Takeover|QID|213|M|44.96,21.03|Z|Stranglethorn Vale|US|N|Kill geologists. \n\nI suggest turning your graphics settings down to 1 for this.|
+C Hostile Takeover|QID|213|M|44.96,21.03|Z|Stranglethorn Vale|US|N|Kill geologists. \n\nI suggest turning your graphics settings down to 1 for this.|T|Venture Co. Geologist|
 C Panther Mastery|QID|192|M|38.83,36.65|Z|Stranglethorn Vale|N|Kill Shadowmaw Panthers, they are stealthed and can sneak up on you.\n\nThey also roam on the other side of the road.|
 C Some Assembly Required|QID|577|M|36.94,32.63|Z|Stranglethorn Vale|US|N|Finish Killing Snapjaw Crocolisks until you get the skins needed.\n\nHead to waypoint and follow the river back up.|
 C Special Forces|QID|574|M|46.16,7.92|Z|Stranglethorn Vale|N|Kill Kurzen in and near this cave until you complete the quest.|
@@ -483,14 +485,14 @@ N Sell junk, repair, restock.|QID|1454|N|Sell junk, repair, restock.|
 C Scorpids|QID|1459|M|66.2,9.6|Z|Desolace|QO|1|S!US|N|Kill scorpids you see while traveling and loot the venom. They spawn all over the zone.|
 ; add directions
 A Sceptre of Light|QID|5741|M|38.88,27.17|Z|Desolace|N|Azore Aldamort.|
-T The Karnitol Shipwreck|QID|1454|M|36.11,30.45|Z|Desolace|N|Turn in your quest to the Ravnitol Chest.|
-A The Karnitol Shipwreck|QID|1455|M|36.11,30.45|Z|Desolace|N|To Kreldig Ungor.|PRE|1454|
+T The Karnitol Shipwreck|QID|1454|M|36.11,30.45|Z|Desolace|N|Turn in your quest to the Karnitol Chest.|
+A The Karnitol Shipwreck|QID|1455|M|36.11,30.45|Z|Desolace|N|From Karnitol Chest.|PRE|1454|
 A Claim Rackmore's Treasure!|QID|6161|M|36.07,30.40|Z|Desolace|N|Click the 'Rackmore's Log' (book) next to the chest to get this quest.|
 ; sticky/combine
 K Rackmore's Silver Key|QID|6161|M|34.50,32.00|Z|Desolace|QO|1|N|Kill Drysnaps around the ship until you get a silver key.|
 K Rackmore's Golden Key|QID|6161|M|35.51,27.59|Z|Desolace|QO|2|N|Go north and kill Nagas until you get a golden key.|
 ; directions
-C Sceptre of Light|QID|5741|M|55.18,30.13|Z|Desolace|N|Kill the Seer at the top of the guard tower to the left of the entrance of Thunder Axe Fortress.|
+C Sceptre of Light|QID|5741|M|55.18,30.13|Z|Desolace|N|Kill the Seer at the top of the guard tower to the left of the entrance of Thunder Axe Fortress.|T|Burning Blade Seer|
 T Vahlarriel's Search|QID|1438|M|54.85,26.12|Z|Desolace|N|To Dalinda in the large building. You may need to wait for her to respawn if she is not there.|
 A Search for Tyranis|QID|1439|M|54.85,26.12|Z|Desolace|N|From Dalinda Malem.|PRE|1438|
 C Search for Tyranis|QID|1439|M|53.01,29.08|Z|Desolace|N|Kill Tyranis in the other building and get the pendant.|
@@ -575,7 +577,7 @@ T The Missing Diplomat|QID|1324|M|45.19,24.30|Z|Dustwallow Marsh|N|To Archmage T
 A The Missing Diplomat|QID|1267|M|45.22,24.25|Z|Dustwallow Marsh|N|From Lady Jaina Proudmoore. If she despawns before you grab the quest, you can find her in her tower.|PRE|1324|
 T The Missing Diplomat|QID|1267|M|45.22,24.25|Z|Dustwallow Marsh|N|To Lady Jaina Proudmoore. If she despawns before you can turn in, you can find her in her tower.|
 C Jarl Needs Eyes|QID|1206|M|35,21|Z|Dustwallow Marsh|N|Kill Darkmist Spiders in the area.|
-A Hungry!|QID|1177|M|35.00,38.20|N|Run south from the spiders to accept the quest from Mudcrush Durtfeet|
+A Hungry!|QID|1177|M|35.00,38.20|Z|Dustwallow Marsh|N|Run south from the spiders to accept the quest from Mudcrush Durtfeet|
 T The Deserters|QID|1286|M|36.09,54.30|Z|Dustwallow Marsh|N|To Balos Jacken. As you approach the tower, he will agro from the door. Attack him to 20% health to stop him.|
 A The Deserters|QID|1287|M|36.09,54.30|Z|Dustwallow Marsh|N|From Balos Jacken.|PRE|1286|
 C Razzeric's Tweaking|QID|1187|M|54.1,56.4|Z|Dustwallow Marsh|N|Click on the Gizmorium Shipping Crate at the crashed Zeppelin.|
@@ -583,7 +585,7 @@ T Jarl Needs Eyes|QID|1206|M|55.44,26.27|Z|Dustwallow Marsh|N|Swim east through 
 C Mudrock Soup and Bugs|QID|1204|M|56.80,16.40|Z|Dustwallow Marsh|S|N|Kill all "Mudrock" Tortoises you come across for their tongues.|
 C Hungry!|QID|1177|M|56.80,16.40|Z|Dustwallow Marsh|N|Head North-East to the Coast and kill all "Mirefin" Murlocs for their heads.|
 C Mudrock Soup and Bugs|QID|1204|M|56.80,16.40|Z|Dustwallow Marsh|US|N|Finishing killing "Mudrock" Tortoises for their tongues.|
-T Hungry!|QID|1177|M|35.00,38.20|N|Run back south-west along the road to turn in to Mudcrush Durtfeet|
+T Hungry!|QID|1177|M|35.00,38.20|Z|Dustwallow Marsh|N|Run back south-west along the road to turn in to Mudcrush Durtfeet|
 H Theramore Isle|ACTIVE|1222|M|51.01,29.34|Z|Tanaris|N|Hearth (or fly) to Theramore.|
 T Stinky's Escape|QID|1222|M|66.34,45.47|Z|Dustwallow Marsh|N|To Morgan Stern.|
 T Mudrock Soup and Bugs|QID|1204|M|66.34,45.47|Z|Dustwallow Marsh|N|To Morgan Stern.|
@@ -607,9 +609,10 @@ F Darkshire|QID|1396|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
 R Deadwind Pass|QID|1396|M|91.35,41.54|Z|Duskwood|N|Run east through Duskwood to Deadwind Pass.|
 R Swamp of Sorrows|QID|1396|M|59.99,40.99|Z|Deadwind Pass|N|Run east to Swamp of Sorrows.|
 A Encroaching Wildlife|QID|1396|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|
-C Encroaching Wildlife|QID|1396|M|26,60|Z|Swamp of Sorrows|S!US|N|Kill the animals in the area to complete the quest.|
+C Encroaching Wildlife|QID|1396|M|26,60|Z|Swamp of Sorrows|S|N|Kill the animals in the area to complete the quest.|
 C Dream Dust in the Swamp|QID|1116|M|14.30,65.21|CS|Z|Swamp of Sorrows|N|Kill Whelps around and loot the dust.|
 C Mazen's Behest|QID|1364|M|13.00,35.00|Z|Swamp of Sorrows|N|Kill Swamp Elementals at this location until you get the Essays.|
+C Encroaching Wildlife|QID|1396|M|26,60|Z|Swamp of Sorrows|US|N|Kill the animals in the area to complete the quest.|
 T Encroaching Wildlife|QID|1396|M|26.73,59.83|Z|Swamp of Sorrows|N|To Watcher Biggs.|
 A The Lost Caravan|QID|1421|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1396|
 A Draenethyst Crystals|QID|1389|M|26,31.4|Z|Swamp of Sorrows|N|From Magtoor.|
