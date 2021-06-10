@@ -169,31 +169,34 @@ A Investigate the Amani Catacombs|QID|9193|M|44.84,32.81|N|From Advisor Valwyn.|
 K Bearers of the Plague|ACTIVE|9158|M|63.69,43.46|QO|1|N|Kill Ghostclaw Lynxes.|S|
 R Andilien Estate|AVAILABLE|9281|M|45.34,56.83|N|Follow the road south out of Tranquillien.\n[color=FF0000]NOTE: [/color]Cut through the woods so you can do your kill quest as you go.
 A Clearing the Way|QID|9281|M|46.44,56.43|N|From Apprentice Vor'el.|
-K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Killed Greater Spindlewebs and Ghostclaw Ravagers.|S|
 R Sanctum of the Sun|AVAILABLE|9282|M|53.94,51.76|
 A The Farstrider Enclave|QID|9282|M|55.06,48.83|N|From Magister Kaendris.|LEAD|9161|
 T Underlight Ore Samples|QID|9207|M|54.95,48.48|N|To Magister Quallestis.|
 R An'telas|ACTIVE|9166|M|56.53,45.39;60.76,40.79|CC|N|Cut through the pass behind Sun of the Sanctum.|
-T Deliver the Plans to An'telas|QID|9166|M|60.28,35.74|N|To Magister Sylastor.|
-A Deactivate An'owyn|QID|9169|M|60.27,35.74|N|From Magister Sylastor.|PRE|9166|
-K Bearers of the Plague|ACTIVE|9158|M|63.69,43.46|QO|1|N|Finish killing Ghostclaw Lynxes.|US|
-T Bearers of the Plague|QID|9158|M|72.48,32.19|N|To Farstrider Sedina.|
-A Curbing the Plague|QID|9159|M|72.48,32.19|N|From Farstrider Sedina.|PRE|9158|
+T Deliver the Plans to An'telas|QID|9166|M|60.28,35.61|N|To Magister Sylastor.|
+A Deactivate An'owyn|QID|9169|M|60.28,35.61|N|From Magister Sylastor.|PRE|9166|
+K Bearers of the Plague|ACTIVE|9158|M|69.46,39.52|QO|1|N|Finish killing Ghostclaw Lynxes.|US|
+R Farstrider Enclave|ACTIVE|9158|M|73.83,32.11|
+T Bearers of the Plague|QID|9158|M|72.50,32.13|N|To Farstrider Sedina.|
+A Curbing the Plague|QID|9159|M|72.50,32.13|N|From Farstrider Sedina.|PRE|9158|
 A Attack on Zeb'Tela|QID|9276|M|72.23,31.28|N|From Farstrider Solanna.|
 A Shadowpine Weaponry|QID|9214|M|72.36,29.74|N|From Captain Helios.|
 A A Little Dash of Seasoning|QID|9275|M|72.68,31.55|N|From Apothecary Venustus. Up the right ramp.|
-T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna.|
+T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna. Go back down and up the opposite ramp.|
 A The Traitor's Shadow|QID|9161|M|71.93,32.64|N|From Ranger Vynna.|
-R Amani Catacombs|ACTIVE|9193|M|53.46,19.15;55.21,21.09;58.18,27.30|CS|N|Off the road to Suncrown Villiage.|
-C Troll Juju|QID|9199|M|66,28|N|coords Kill any Troll you come across to get 8 Troll Juju.|S|
-C Investigate the Amani Catacombs|QID|9193|M|62.92,32.46|N|Burn the Troll remains as you go.|U|22755|S|NC|
-A Escape from the Catacombs|QID|9212|M|62.92,32.63|N|From Ranger Lilatha.|
-C Escape from the Catacombs|QID|9212|M|72.36,30.09|N|She is slow inside the cave. At one point outside the cave, you will be ambushed. Kill them, and follow her to the Farstrider Enclave (she runs after the ambush).|NC|
-C Investigate the Amani Catacombs|QID|9193|M|62.92,32.46|N|Finish burning any Troll remains you need.|U|22755|US|NC|
-C Troll Juju|QID|9199|M|66,28|N|coords Kill any Troll you come across to get 8 Troll Juju.|US|
-T Escape from the Catacombs|QID|9212|M|72.37,29.72|N|To Captain Helios.|
+R Amani Catacombs|AVAILABLE|9212|M|67.08,28.57|
+C Troll Juju|QID|9199|M|67.08,28.57|N|Kill any Trolls you come across to collect the Troll Juju.\n[color=FF0000]NOTE: [/color]The Mummified Headhunters briefly deploy a 'Cloud of Disease' when they die and it causes damage if you stand in it.|S|
+C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|1|N|Burn the Troll remains as you go.|U|22755|S|
+C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|2|N|Make your way inside the Catacombs and to the round room just off the first big room you come to.|U|22755|
+C Investigate the Amani Catacombs|QID|9193|M|62.78,31.87|QO|1|N|Finish burning any Troll remains you need.|U|22755|US|NC|
+C Troll Juju|QID|9199|M|67.08,28.57|N|Finish collecting your Troll Juju.|US|
+A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ranger Lilatha.|
+C Escape from the Catacombs|QID|9212|M|72.24,30.10|N|She is slow inside the cave. At one point outside the cave, you will be ambushed. Kill them, and follow her to the Farstrider Enclave (she runs after the ambush).|
 r Repair/Restock|QID|9212|M|72.13,31.97|N|At Narina.|
-T The Traitor's Shadow|QID|9161|M|79.63,17.72|N|Fight your way in, and click on the book that is at the end of the ramp. Kill Vamperic Mistbats as you go.|
+T Escape from the Catacombs|QID|9212|M|72.37,29.72|N|To Captain Helios.|
+K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill Vamperic Mistbats.|S|
+R Dawnstar Spire|ACTIVE|9161|M|78.48,19.86|
+T The Traitor's Shadow|QID|9161|M|79.63,17.72|N|Kill the 2 guards at the door and the one that paths in and out of the building. From here, clear the room by pulling them one by one outside. Once you have cleared the room, continue inside and click on the book that is at the end of the ramp.|
 A Hints of the Past|QID|9162|M|79.63,17.72|N|From the book.|PRE|9161|
 T Hints of the Past|QID|9162|M|71.89,32.63|N|To Ranger Vynna.|
 A Report to Magister Kaendris|QID|9172|M|71.89,32.63|N|From Ranger Vynna.|PRE|9162|
@@ -203,8 +206,8 @@ C Headhunter Axes|QID|9214|M|80,38;75,45|CN|L|23165 3|N|Kill Headhunters until y
 K Attack on Zeb'Tela|ACTIVE|9276|M|80,38;75,45|CN|N|Kill 8 Shadowcasters and 8 Headhunters between the two points.|
 C Shadowpine Weaponry|QID|9214|M|80,38;75,45|CN|L|23167 3|N|Kill Shadowcasters until you get 3 Shadowcaster Maces.|US|
 C Headhunter Axes|QID|9214|M|80,38;75,45|CN|L|23165 3|N|Kill Headhunters until you get 3 Headhunter Axes.|US|
-T Attack on Zeb'Tela|QID|9276|M|72.34,31.33|N|To Farstrider Solanna.|
-A Assault on Zeb'Nowa|QID|9277|M|72.34,31.33|N|From Farstrider Solanna.|PRE|9276|
+T Attack on Zeb'Tela|QID|9276|M|72.32,31.24|N|To Farstrider Solanna.|
+A Assault on Zeb'Nowa|QID|9277|M|72.32,31.24|N|From Farstrider Solanna.|PRE|9276|
 C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexxers.|S|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|QO|1;2|N|Kill Catlords and Hexxers until you get 3 Hexxer Staves and 3 Catlord Claws.|S|
 U Poison the Fresh Fish Rack|ACTIVE|9275|M|68.22,57.85|QO|3|N|Poison the Fresh Fish Rack inside the hut.|U|22796|
@@ -219,6 +222,7 @@ T Investigate the Amani Catacombs|QID|9193|M|44.86,32.80|N|To Advisor Valwyn.|
 A The Sanctum of the Sun|QID|9151|M|46.01,31.95|N|From Magister Darenis.|LEAD|9220|
 r Repair/Restock|M|49.07,30.33|N|At Blacksmith Frances.|
 ;R Hatchet Hills|QID|9169|M|45.5,30.55|N|coords Fly to Hatchet Hills (Zul'Aman).|
+K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Killed Greater Spindlewebs and Ghostclaw Ravagers.|S|
 l Crystal Controlling Orb|QID|9169|M|58.20,64.72|L|23191|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|
 C Deactivate An'owyn|QID|9169|M|58.20,64.72|N|Click on the Night Elf Moon Crystal to deactivate it.|
 K Clearing the Way|ACTIVE|9281|M|47.33,63.85;53.96,61.66|CN|QO|1;2|N|Go between the two waypoints until you have killed 10 Greater Spindlewebs and 10 Ghostclaw Ravager.|US|
@@ -236,12 +240,12 @@ A The Traitor's Destruction|QID|9167|M|55.00,48.95|N|From Magister Kaendris.|PRE
 T War on Deatholme|QID|9220|M|54.92,48.45|N|To Magister Idonis.|
 A Dar'Khan's Lieutenants|QID|9170|M|54.88,48.39|N|From Magister Idonis.|PRE|9220|
 A A Restorative Draught|QID|9877|M|54.88,48.47|N|From Arcanist Janeda.|PRE|9220|
-T Deactivate An'owyn|QID|9169|M|60.30,35.76|N|To Magister Sylastor.|
+T Deactivate An'owyn|QID|9169|M|60.28,35.61|N|To Magister Sylastor.|
 T Curbing the Plague|QID|9159|M|72.46,32.23|N|To Farstrider Sedina.|
-T Assault on Zeb'Nowa|QID|9277|M|72.34,31.38|N|To Farstrider Solanna.|
+T Assault on Zeb'Nowa|QID|9277|M|72.32,31.24|N|To Farstrider Solanna.|
 T Bring Me Kel'gash's Head!|QID|9215|M|72.34,29.80|N|To Captain Helios.|
 T Shadowpine Weaponry|QID|9214|M|72.34,29.80|N|To Captain Helios.|
-T A Little Dash of Seasoning|QID|9275|M|72.68,31.54|N|To Apothecary Venustus.|
+T A Little Dash of Seasoning|QID|9275|M|72.62,31.56|N|To Apothecary Venustus.|
 C Spinal Dust|QID|9218|M|37.52,49.76|N|Kill Dread Sentinels and Deathcage Sorcerers to collect the Spinal Dust.|US|IZ|3514; The Dead Scar|
 H Tranquillien|QID|9218|N|Hearth back to Tranquillien.|
 T Spinal Dust|QID|9218|M|48.97,31.44|N|To Magistrix Aminel.|
