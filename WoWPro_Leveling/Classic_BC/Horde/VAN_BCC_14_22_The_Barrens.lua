@@ -3,7 +3,7 @@
 
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_The_Barrens', 'Leveling', 'The Barrens', 'Hendo72', 'Horde', 2)
 WoWPro:GuideName(guide, 'The Barrens')
-WoWPro:GuideLevels(guide, 10, 17, 13)
+WoWPro:GuideLevels(guide, 14, 22, 17)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_HordeChapter1')
 WoWPro:GuideSteps(guide, function() return [[
 
