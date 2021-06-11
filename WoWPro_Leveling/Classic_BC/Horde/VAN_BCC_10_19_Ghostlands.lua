@@ -238,7 +238,8 @@ T Report to Magister Kaendris|QID|9172|M|55.07,48.83|N|To Magister Kaendris, in 
 A The Twin Ziggurats|QID|9176|M|55.02,48.93|N|From Magister Kaendris.|PRE|9172|
 T The Sanctum of the Sun|QID|9151|M|54.87,48.55|N|To Magister Idonis, at the top of the ramp.|
 A War on Deatholme|QID|9220|M|54.87,48.55|N|From Magister Idonis.|
-C Stone of Flame|QID|9176|M|40.35,49.85|L|22599|N|Go inside the Howling Ziggurat and loot the Stone of Flame.|
+R Howling Ziggurat|ACTIVE|9176|M|41.68,47.02|
+C The Twin Ziggurats|QID|9176|M|40.35,49.85|L|22599|N|Clear the area outside the entrance and begin pulling the 4 Mages outside.\nMake sure you pull the one at the top of the platform before pulling the bottom one.Once the building is clear, enter the building and loot the Stone of Flame.\n[color=FF0000]NOTE: [/color]Be aware that a rare lv 18, Dr. Whitherlimb, can spawn inside the building. Confirm this before entering.|
 C The Twin Ziggurats|QID|9176|M|34.30,47.60|N|Go inside the Bleeding Ziggurat and loot the Stone of Light.|
 C Curbing the Plague|QID|9159|M|25.25,44.36|QO|2|N|Kill the 8 Spindleweb Lurkers you need.|
 K War on Deatholme|ACTIVE|9220|M|32.12,76.13|QO|1;2|N|Slay 5 Eyes of Dar'khan, 6 Nerubis Centurions and 6 Wailers in Deatholme.|
