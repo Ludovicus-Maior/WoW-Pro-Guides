@@ -1,3 +1,23 @@
+# Release 9.0.5-A5 / 1.13.7-A4 / 2.5.1-A4
+## Bug Fixes
+* zone defaults were not obeying ';' for comment
+* IZ tag updated to accept multiple zones delimited by ^
+* Fixed TakeTaxiClassic() to not bomb if FP is missing zone (like Silvermoon)
+
+## Guide Updates
+### Retail
+* Alliance: WarCampaign,
+* Horde: None
+* Neutral: Ardenweald, Covenant
+### Classic
+* Alliance: Darkshore 12-20, Alliance 19-25
+* Horde: Hendo Chapter 1
+### Burning Crusade Classic
+* Alliance: Nelf Intro, Bloodmyst, Darkshore, EK 10-19, Alliance 19-41
+* Horde: Hellfire, Belf Intro, Ghostlands, Chapter 1+2
+### Professions
+* 40 guides updated.  Too many to list out!
+
 # Release 9.0.5-A4 / 1.13.7-A3 / 2.5.1-A3
 ## Bug Fixes
 * Add support for numerical IZ tags to support non EN clients
