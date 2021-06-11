@@ -10,12 +10,9 @@
 4) Update Release notes in Notes.md and check in.
 
 5) Generate zip files (you will be prompted for the tag to use):
-   WoWPro_Utilities/CutRelease.sh --retail
-   WoWPro_Utilities/CutRelease.sh --retail --trial
-   WoWPro_Utilities/CutRelease.sh --classic
-   WoWPro_Utilities/CutRelease.sh --classic --trial
-   WoWPro_Utilities/CutRelease.sh --tbc
-   WoWPro_Utilities/CutRelease.sh --tbc --trial
+   WoWPro_Utilities/CutRelease.sh --retail ; WoWPro_Utilities/CutRelease.sh --retail --trial
+   WoWPro_Utilities/CutRelease.sh --classic ; WoWPro_Utilities/CutRelease.sh --classic --trial
+   WoWPro_Utilities/CutRelease.sh --tbc ; WoWPro_Utilities/CutRelease.sh --tbc --trial
 
 6) Upload the Trial versions to CurseForge.com
 
