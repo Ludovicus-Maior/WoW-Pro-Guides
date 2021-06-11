@@ -10,8 +10,8 @@
 	<Script file="INTRO_BCC_Orc_Troll.lua"/>
 	<Script file="INTRO_BCC_Tauren.lua"/>
 	<Script file="VAN_BCC_10_15_Silverpine_Forest.lua"/>
-	<Script file="VAN_BCC_10_17_The_Barrens.lua"/>
 	<Script file="VAN_BCC_10_19_Ghostlands.lua"/>
+	<Script file="VAN_BCC_14_22_The_Barrens.lua"/>
 	<Script file="VAN_BCC_21_30_HordeChapter1.lua"/>
 	<Script file="VAN_BCC_30_40_HordeChapter2.lua"/>
 	<Script file="VAN_BCC_41_51_HordeChapter3.lua"/>
