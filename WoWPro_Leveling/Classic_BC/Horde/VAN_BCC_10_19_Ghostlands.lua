@@ -121,7 +121,7 @@ C Investigate An'daroth|QID|9160|M|37.22,23.98;38.06,18.77;37.04,15.90|CS|N|Kill
 C Goldenmist Village|QID|9139|M|26.81,15.27|N|Run/drop down to Goldenmist and kill the ghosts that are needed.|
 C The Plagued Coast|QID|9149|M|19.02,24.06|N|Kill any murlocs you see for their spines. You will need 6 spines.|
 C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders until you have 5 Crunchy Spider Legs.|US|
-H Tranquillien|QID|9171|
+H Tranquillien|ACTIVE|9171|
 T Culinary Crunch|QID|9171|M|48.43,30.93|N|To Master Chef Mouldier.|
 r Repair/Restock|QID|9155|M|49.07,30.33|N|At Blacksmith Frances. Do not sell any Rotting Hearts you may have.|
 T Tomber's Supplies|QID|9152|M|47.01,28.38|N|To Rathis Tomber.|
@@ -191,46 +191,53 @@ C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|2|N|Make your way in
 C Investigate the Amani Catacombs|QID|9193|M|62.78,31.87|QO|1|N|Finish burning any Troll remains you need.|U|22755|US|NC|
 C Troll Juju|QID|9199|M|67.08,28.57|N|Finish collecting your Troll Juju.|US|
 A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ranger Lilatha.|
-C Escape from the Catacombs|QID|9212|M|72.24,30.10|N|She is slow inside the cave. At one point outside the cave, you will be ambushed. Kill them, and follow her to the Farstrider Enclave (she runs after the ambush).|
+C Escape from the Catacombs|QID|9212|M|72.24,30.10|N|She is slow inside the cave. At one point outside the cave, you will be ambushed. Kill them and follow her to the Farstrider Enclave (she runs after the ambush).|
 r Repair/Restock|QID|9212|M|72.13,31.97|N|At Narina.|
 T Escape from the Catacombs|QID|9212|M|72.37,29.72|N|To Captain Helios.|
 K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill Vamperic Mistbats.|S|
 R Dawnstar Spire|ACTIVE|9161|M|78.48,19.86|
-T The Traitor's Shadow|QID|9161|M|79.63,17.72|N|Kill the 2 guards at the door and the one that paths in and out of the building. From here, clear the room by pulling them one by one outside. Once you have cleared the room, continue inside and click on the book that is at the end of the ramp.|
-A Hints of the Past|QID|9162|M|79.63,17.72|N|From the book.|PRE|9161|
-T Hints of the Past|QID|9162|M|71.89,32.63|N|To Ranger Vynna.|
+T The Traitor's Shadow|QID|9161|M|79.63,17.57|N|Kill the 2 guards at the door and the one that paths in and out of the building. From here, clear the room by pulling them one by one outside. Once you have cleared the room, continue inside and click on the book that is at the end of the ramp.|
+A Hints of the Past|QID|9162|M|79.63,17.57|N|From the book.|PRE|9161|
+T Hints of the Past|QID|9162|M|71.89,32.63|N|To Ranger Vynna, back at Farstrider Enclave.|
 A Report to Magister Kaendris|QID|9172|M|71.89,32.63|N|From Ranger Vynna.|PRE|9162|
-K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill 10 Vamperic Mistbats.|
-C Shadowpine Weaponry|QID|9214|M|80,38;75,45|CN|L|23167 3|N|coords Kill Shadowcasters until you get 3 Shadowcaster Maces.|S|
-C Headhunter Axes|QID|9214|M|80,38;75,45|CN|L|23165 3|N|Kill Headhunters until you get 3 Headhunter Axes.|S|
-K Attack on Zeb'Tela|ACTIVE|9276|M|80,38;75,45|CN|N|Kill 8 Shadowcasters and 8 Headhunters between the two points.|
-C Shadowpine Weaponry|QID|9214|M|80,38;75,45|CN|L|23167 3|N|Kill Shadowcasters until you get 3 Shadowcaster Maces.|US|
-C Headhunter Axes|QID|9214|M|80,38;75,45|CN|L|23165 3|N|Kill Headhunters until you get 3 Headhunter Axes.|US|
+C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23167 3|N|Finish collecting the Shadowcaster Maces.|S|
+C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23165 3|N|Finish collecting the  Headhunter Axes.|S|
+K Attack on Zeb'Tela|ACTIVE|9276|M|78.75,37.73|QO|1;2|N|Kill Shadowcasters and Headhunters.\n[color=FF0000]NOTE: [/color]There is a 2nd camp just to the south.|
+C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23167 3|N|Finish collecting the Shadowcaster Maces.|US|
+C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23165 3|N|Finish collecting the  Headhunter Axes.|US|
 T Attack on Zeb'Tela|QID|9276|M|72.32,31.24|N|To Farstrider Solanna.|
 A Assault on Zeb'Nowa|QID|9277|M|72.32,31.24|N|From Farstrider Solanna.|PRE|9276|
-C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexxers.|S|
-C Shadowpine Weaponry|QID|9214|M|63.86,66.49|QO|1;2|N|Kill Catlords and Hexxers until you get 3 Hexxer Staves and 3 Catlord Claws.|S|
-U Poison the Fresh Fish Rack|ACTIVE|9275|M|68.22,57.85|QO|3|N|Poison the Fresh Fish Rack inside the hut.|U|22796|
-U Poison the Smoked Meat Rack|ACTIVE|9275|M|65.06,66.73|QO|1|N|Poison the Raw Meat Rack.|U|22796|
-C A Little Dash of Seasoning|QID|9275|M|62.82,75.13|QO|2|N|Poison the Smoked Meat Rack.|NC|
+K Assault on Zeb'Nowa|ACTIVE|9277|M|62.90,66.38|QO|1;2|N|Kill Shadowpine Catlords and Hexxers.|S|
+C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|22677 3|N|Loot the Catlord Claws from Catlords.|S|
+C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|23166 3|N|Loot the Hexxer Staves from Hexxers.|S|
+K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill 10 Vamperic Mistbats.|US|
+R Zeb'Nowa|ACTIVE|9214^9277|M|68.33,48.73|
+C A Little Dash of Seasoning|QID|9275|M|68.33,48.73|QO|3|N|Go inside the hut and click on the Fresh Fish Rack to poison it.|NC|
+C A Little Dash of Seasoning|QID|9275|M|65.06,66.73|QO|1|N|Click on the Raw Meat Rack to poison it.|NC|
+C A Little Dash of Seasoning|QID|9275|M|63.03,74.98|QO|2|N|Click on the Smoked Meat Rack to poison it.|NC|
 K Bring Me Kel'gash's Head!|ACTIVE|9215|M|65.33,79.51|QO|1|N|If you feel that you can kill Kel'gash, or if you have help, go ahead and try.\n[color=FF0000]NOTE: [/color]He is stunnable and silenceable.|
-C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexxers.|US|
-C Shadowpine Weaponry|QID|9214|M|63.86,66.49|QO|1;2|N|Kill Catlords and Hexxers until you get 3 Hexxer Staves and 3 Catlord Claws.|US|
-H Tranquillien|QID|9193|N|If you want to save your hearth, fly there.|
+K Assault on Zeb'Nowa|ACTIVE|9277|M|62.90,66.38|QO|1;2|N|Kill Shadowpine Catlords and Hexxers.|US|
+C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|22677 3|N|Loot the Catlord Claws from Catlords.|US|
+C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|23166 3|N|Loot the Hexxer Staves from Hexxers.|US|
+L Level 18|ACTIVE|9199|N|Grind until you're level 18.|LVL|18|
+H Tranquillien|ACTIVE|9199|
+F Silvermoon City|ACTIVE|9199|M|45.43,30.53|
+= Level 18 Training|ACTIVE|9199|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Tranquillien|ACTIVE|9199|M|54.37,50.73|Z|Eversong Woods|
 T Troll Juju|QID|9199|M|44.76,32.28|N|To Deathstalker Malthendis.|
 T Investigate the Amani Catacombs|QID|9193|M|44.86,32.80|N|To Advisor Valwyn.|
+r Housekeeping|AVAILABLE|9151|M|49.11,30.32|N|Repair and sell junk to Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A The Sanctum of the Sun|QID|9151|M|46.01,31.95|N|From Magister Darenis.|LEAD|9220|
-r Repair/Restock|M|49.07,30.33|N|At Blacksmith Frances.|
-;R Hatchet Hills|QID|9169|M|45.5,30.55|N|coords Fly to Hatchet Hills (Zul'Aman).|
 K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Killed Greater Spindlewebs and Ghostclaw Ravagers.|S|
+R An'owyn|AVAILABLE|9169|M|57.99,62.19|N|Follow the road south out of Tranquillien to Andilien Estate (Sticking to the grass areas on the west side).\nAt the intersection, head east along the road pass the Sanctum of the Sun to the 2nd intersection (sticking to the grassy area south of the road). At the 'T' intersection, head south into An'owyn.|
 l Crystal Controlling Orb|QID|9169|M|58.20,64.72|L|23191|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|
-C Deactivate An'owyn|QID|9169|M|58.20,64.72|N|Click on the Night Elf Moon Crystal to deactivate it.|
-K Clearing the Way|ACTIVE|9281|M|47.33,63.85;53.96,61.66|CN|QO|1;2|N|Go between the two waypoints until you have killed 10 Greater Spindlewebs and 10 Ghostclaw Ravager.|US|
-T Clearing the Way|QID|9281|M|46.44,56.52|N|To Apprentice Vor'el.|
-T Report to Magister Kaendris|QID|9172|M|55.01,48.93|N|To Magister Kaendris.|
+C Deactivate An'owyn|QID|9169|M|58.22,64.93|N|Click on the Night Elf Moon Crystal to deactivate it.|
+K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Finish killing Greater Spindlewebs and Ghostclaw Ravager.\n[color=FF0000]NOTE: [/color]Between here and the road to the west, you should find plenty of them.\nMake sure you stay south of the road.|US|
+T Clearing the Way|QID|9281|M|46.40,56.41|N|To Apprentice Vor'el, at Andilien Estate.|
+T Report to Magister Kaendris|QID|9172|M|55.07,48.83|N|To Magister Kaendris, in Sanctum of the Sun.|
 A The Twin Ziggurats|QID|9176|M|55.02,48.93|N|From Magister Kaendris.|PRE|9172|
-T The Sanctum of the Sun|QID|9151|M|54.92,48.43|N|To Magister Idonis.|
-A War on Deatholme|QID|9220|M|54.92,48.43|N|From Magister Idonis.|
+T The Sanctum of the Sun|QID|9151|M|54.87,48.55|N|To Magister Idonis, at the top of the ramp.|
+A War on Deatholme|QID|9220|M|54.87,48.55|N|From Magister Idonis.|
 C Stone of Flame|QID|9176|M|40.35,49.85|L|22599|N|Go inside the Howling Ziggurat and loot the Stone of Flame.|
 C The Twin Ziggurats|QID|9176|M|34.30,47.60|N|Go inside the Bleeding Ziggurat and loot the Stone of Light.|
 C Curbing the Plague|QID|9159|M|25.25,44.36|QO|2|N|Kill the 8 Spindleweb Lurkers you need.|
