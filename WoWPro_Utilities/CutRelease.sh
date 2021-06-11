@@ -81,7 +81,7 @@ fgrep -H Version: */*.toc
 # Remove the recorder from the list
 ADDON_DIRS=(${ADDON_DIRS[@]::${#ADDON_DIRS[@]}-1})
 ZIP_FILE="WoWPro ${VERSION_PREFIX}${nrelease}.zip"
-${DEBUG} zip -r --include '*.lua' '*.toc' '*.tga' '*.blp' '*.xml' '*.html' @ "${ZIP_FILE}" ${ADDON_DIRS[@]}
+${DEBUG} zip -r --quiet --include '*.lua' '*.toc' '*.tga' '*.blp' '*.xml' '*.html' @ "${ZIP_FILE}" ${ADDON_DIRS[@]}
 
 if [ "$1" != "--trial" ] ; then
     ${DEBUG} git commit -m V${nrelease} -a
