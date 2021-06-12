@@ -305,7 +305,7 @@ C Claws from the Deep|QID|279|M|20,40.6|S|QO|1|N|Kill Bluegill Murlocs.|Z|Wetlan
 C Gobbler's Head|QID|279|M|18.10,40.10|QO|2|N|Kill Gobbler and loot his head. He walks back and forth between the first 2 Murloc dwellings along the road.|T|Gobbler|Z|Wetlands|
 C Claws from the Deep|QID|279|M|20,40.6|US|QO|1|N|Kill Bluegill Murlocs.|Z|Wetlands|
 C Digging Through the Ooze|QID|470|M|44.00,24.00|S|N|Kill black oozes until you get Sida's Bag|Z|Wetlands|
-A Ormer's Revenge|QID|294|M|34.10,40.80;37.00,42.75;38.07,51.18|CC|N|Head towards the Excavation Site and take the path to the left up the hill. Accept the quest from Ormer Ironbraid|Z|Wetlands|
+A Ormer's Revenge|QID|294|M|34.10,40.80;37.00,42.75;38.07,51.18|CS|N|Head towards the Excavation Site and take the path to the left up the hill. Accept the quest from Ormer Ironbraid|Z|Wetlands|
 T In Search of The Excavation Team |QID|305|M|38.91,52.34|N|To Merrin Rockweaver.|Z|Wetlands|
 A In Search of The Excavation Team |QID|306|M|38.91,52.34|N|From Merrin Rockweaver.|PRE|305|Z|Wetlands|
 C The Absent Minded Prospector|QID|943|M|38.86,52.2|QO|2|N|Loot the Fossil on the ground in front of the dwarves.|Z|Wetlands|
@@ -422,7 +422,7 @@ C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|Stonetalon Mountains|S|N|Kill H
 C Retrieval for Mauren|QID|1078|M|34,65|Z|Stonetalon Mountains|N|Kill Blackened Basilisks and loot their scales.|
 C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|Stonetalon Mountains|US|N|Kill Harpys in the area.|
 R Desolace|QID|1057|M|28.00,84.00|Z|Stonetalon Mountains|N|Run through the Charred Vale to get to Desolace. This will come in handy in the next guide.|
-R Nijel's Point FP|QID|1057|M|56.57,13.37;67.00,16.00|CC|Z|Desolace|N|Go to Nijel's Point by going up the path. Beware of the higher level creatures around.|
+R Nijel's Point FP|QID|1057|M|56.57,13.37;67.00,16.00|CS|Z|Desolace|N|Go to Nijel's Point by going up the path. Beware of the higher level creatures around.|
 f Nijel's Point|QID|1437|M|64.66,10.54|Z|Desolace|N|Get the flight path.|
 F Stonetalon Peak|QID|1057|M|64.66,10.54|Z|Desolace|N|Fly back to Stonetalon Peak.|
 T Reclaiming the Charred Vale|QID|1057|M|37.11,8.10|Z|Stonetalon Mountains|N|To Keeper Albagorm. Don't get follow up for now.|
