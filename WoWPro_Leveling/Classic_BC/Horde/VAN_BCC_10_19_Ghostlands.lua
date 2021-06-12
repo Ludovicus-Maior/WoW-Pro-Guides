@@ -154,7 +154,7 @@ F Tranquillien|ACTIVE|9140|M|54.37,50.73|Z|Eversong Woods|
 r Housekeeping|ACTIVE|9140|M|49.11,30.32|N|Repair and sell junk to Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Spinal Dust|QID|9218|M|48.92,31.31|N|From Magistrix Aminel.|
 A Rotting Hearts|QID|9216|M|48.92,31.31|N|From Magistrix Aminel.|
-C Spinal Dust|QID|9218|M|37.52,49.76|N|Kill Dread Sentinels and Deathcage Sorcerers to collect the Spinal Dust.|S|IZ|3514; The Dead Scar|
+C Spinal Dust|QID|9218|M|37.52,49.76|L|22642 10|QO|1|N|Kill Dread Sentinels and Deathcage Sorcerers to collect the Spinal Dust.\n[color=FF0000]NOTE: [/color]Watch out for Luzran.|S|IZ|3514; The Dead Scar|
 l Rotting Hearts|ACTIVE|9216|M|37.52,49.76|L|22641 10|N|Enter The Dead Scar and kill any Risen Hungerers or Risen Stalkers you come across to collect the Rotting Hearts.\n[color=FF0000]NOTE: [/color]Keep an eye out for Luzran, who pathes up and down The Dead Scar.|
 T Rotting Hearts|QID|9216|M|48.92,31.31|N|To Magistrix Aminel.|
 T Windrunner Village|QID|9140|M|46.39,28.44|N|To Arcanist Vandril.|
@@ -226,11 +226,11 @@ F Silvermoon City|ACTIVE|9199|M|45.43,30.53|
 F Tranquillien|ACTIVE|9199|M|54.37,50.73|Z|Eversong Woods|
 T Troll Juju|QID|9199|M|44.76,32.28|N|To Deathstalker Malthendis.|
 T Investigate the Amani Catacombs|QID|9193|M|44.86,32.80|N|To Advisor Valwyn.|
-r Housekeeping|AVAILABLE|9151|M|49.11,30.32|N|Repair and sell junk to Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+r Housekeeping|AVAILABLE|9151|M|49.11,30.32|N|Repair and sell junk to Blacksmith Frances.\n[color=FF0000]NOTE: [/color]You'll want to make as much space available as you can; you're going to need it.\nManually check this step off to continue.|
 A The Sanctum of the Sun|QID|9151|M|46.01,31.95|N|From Magister Darenis.|LEAD|9220|
-K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Killed Greater Spindlewebs and Ghostclaw Ravagers.|S|
+K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Kill Greater Spindlewebs and Ghostclaw Ravagers.|S|
 R An'owyn|AVAILABLE|9169|M|57.99,62.19|N|Follow the road south out of Tranquillien to Andilien Estate (Sticking to the grass areas on the west side).\nAt the intersection, head east along the road pass the Sanctum of the Sun to the 2nd intersection (sticking to the grassy area south of the road). At the 'T' intersection, head south into An'owyn.|
-l Crystal Controlling Orb|QID|9169|M|58.20,64.72|L|23191|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|
+l Crystal Controlling Orb|QID|9169|M|58.20,64.72|L|23191|QO|1|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|
 C Deactivate An'owyn|QID|9169|M|58.22,64.93|N|Click on the Night Elf Moon Crystal to deactivate it.|
 K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Finish killing Greater Spindlewebs and Ghostclaw Ravager.\n[color=FF0000]NOTE: [/color]Between here and the road to the west, you should find plenty of them.\nMake sure you stay south of the road.|US|
 T Clearing the Way|QID|9281|M|46.40,56.41|N|To Apprentice Vor'el, at Andilien Estate.|
@@ -239,25 +239,32 @@ A The Twin Ziggurats|QID|9176|M|55.02,48.93|N|From Magister Kaendris.|PRE|9172|
 T The Sanctum of the Sun|QID|9151|M|54.87,48.55|N|To Magister Idonis, at the top of the ramp.|
 A War on Deatholme|QID|9220|M|54.87,48.55|N|From Magister Idonis.|
 R Howling Ziggurat|ACTIVE|9176|M|41.68,47.02|
-C The Twin Ziggurats|QID|9176|M|40.35,49.85|L|22599|N|Clear the area outside the entrance and begin pulling the 4 Mages outside.\nMake sure you pull the one at the top of the platform before pulling the bottom one.Once the building is clear, enter the building and loot the Stone of Flame.\n[color=FF0000]NOTE: [/color]Be aware that a rare lv 18, Dr. Whitherlimb, can spawn inside the building. Confirm this before entering.|
-C The Twin Ziggurats|QID|9176|M|34.30,47.60|N|Go inside the Bleeding Ziggurat and loot the Stone of Light.|
-C Curbing the Plague|QID|9159|M|25.25,44.36|QO|2|N|Kill the 8 Spindleweb Lurkers you need.|
-K War on Deatholme|ACTIVE|9220|M|32.12,76.13|QO|1;2|N|Slay 5 Eyes of Dar'khan, 6 Nerubis Centurions and 6 Wailers in Deatholme.|
+C The Twin Ziggurats|QID|9176|M|40.36,49.75|L|22599|QO|1|N|Clear the area outside the entrance and begin pulling the 4 Mages outside.\nMake sure you pull the one at the top of the platform before pulling the bottom one.Once the building is clear, enter the building and loot the Stone of Flame.\n[color=FF0000]NOTE: [/color]Be aware that a rare lv 18, Dr. Whitherlimb, can spawn inside the building. Confirm this before entering.|
+R Bleeding Ziggurat|ACTIVE|9176|M|34.31,49.98|
+C The Twin Ziggurats|QID|9176|M|34.31,47.67|L|22598|QO|2|N|Using the same tactics as you did at Howling Ziggurat, clear your way in and loot the Stone of Light from the Dented Chest.|
+K Curbing the Plague|ACTIVE|9159|M|31.45,40.60|QO|2|N|Kill Spindleweb Lurkers.|
+R Deatholme|ACTIVE|9220|M|36.40,69.79|N|Make your way to The Dead Scar and follow it south.|
+K War on Deatholme|ACTIVE|9220|M|32.12,76.13|QO|1;2;3|N|Kill Eyes of Dar'khan, Nerubis Centurions, and Wailers in Deatholme.|
+R Sanctum of the Sun|ACTIVE|9176|M|53.94,51.76|
 T The Twin Ziggurats|QID|9176|M|55.00,48.95|N|To Magister Kaendris.|
-A The Traitor's Destruction|QID|9167|M|55.00,48.95|N|From Magister Kaendris.|PRE|9176|
-T War on Deatholme|QID|9220|M|54.92,48.45|N|To Magister Idonis.|
-A Dar'Khan's Lieutenants|QID|9170|M|54.88,48.39|N|From Magister Idonis.|PRE|9220|
-A A Restorative Draught|QID|9877|M|54.88,48.47|N|From Arcanist Janeda.|PRE|9220|
+A The Traitor's Destruction|QID|9167|M|55.00,48.95|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Magister Kaendris.|PRE|9176|
+T War on Deatholme|QID|9220|M|54.87,48.55|N|To Magister Idonis.|
+A Dar'Khan's Lieutenants|QID|9170|M|54.87,48.55|N|From Magister Idonis.|PRE|9220|
+A A Restorative Draught|QID|9877|M|54.82,48.35|N|From Arcanist Janeda.|PRE|9220|
+R An'telas|ACTIVE|9169|M|56.53,45.39;60.76,40.79|CC|N|Cut through the pass behind Sun of the Sanctum.|
 T Deactivate An'owyn|QID|9169|M|60.28,35.61|N|To Magister Sylastor.|
-T Curbing the Plague|QID|9159|M|72.46,32.23|N|To Farstrider Sedina.|
+R Farstrider Enclave|ACTIVE|9159|M|73.83,32.11|
+T Curbing the Plague|QID|9159|M|72.50,32.13|N|To Farstrider Sedina.|
 T Assault on Zeb'Nowa|QID|9277|M|72.32,31.24|N|To Farstrider Solanna.|
 T Bring Me Kel'gash's Head!|QID|9215|M|72.34,29.80|N|To Captain Helios.|
 T Shadowpine Weaponry|QID|9214|M|72.34,29.80|N|To Captain Helios.|
 T A Little Dash of Seasoning|QID|9275|M|72.62,31.56|N|To Apothecary Venustus.|
-C Spinal Dust|QID|9218|M|37.52,49.76|N|Kill Dread Sentinels and Deathcage Sorcerers to collect the Spinal Dust.|US|IZ|3514; The Dead Scar|
-H Tranquillien|QID|9218|N|Hearth back to Tranquillien.|
-T Spinal Dust|QID|9218|M|48.97,31.44|N|To Magistrix Aminel.|
-r Repair/Restock|QID|9877|M|49.05,30.32|N|At Blacksmith Frances.|
+H Tranquillien|ACTIVE|9218|N|Hearth back to Tranquillien.|
+T Spinal Dust|QID|9218|M|48.92,31.31|N|To Magistrix Aminel.|
+r Repair/Restock|ACTIVE|9877|M|49.05,30.32|N|At Blacksmith Frances.|
+F Silvermoon City|ACTIVE|9877|M|45.43,30.53|
+= Level 20 Training|ACTIVE|9877|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Tranquillien|ACTIVE|9877|M|54.37,50.73|Z|Eversong Woods|
 T A Restorative Draught|QID|9877|M|47.66,34.86|N|To Apothecary Renzithen.|
 A Captives at Deatholme|QID|9164|M|47.66,34.86|N|From Apothecary Renzithen.|
 C Apothecary Enith|QID|9164|M|32.1,73.9|QO|1|N|coords Go down into the crypt and Talk to Apothecary Enith.|; Apothecary Enith Rescued: 1/1
