@@ -256,9 +256,9 @@ T Hints of a New Plague?|QID|659|M|60.18,53.85|Z|Arathi Highlands|N|To Quae.|
 A Hints of a New Plague?|QID|658|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|PRE|659|
 C Hints of a New Plague?|QID|658|M|52.55,61.27|CC|S|Z|Arathi Highlands|N|Head along the road towards Tarren Mill. Be aware of the Tarren Mill Guards. Follow the road all the way through to Go'Shek Farm in Arathi Highlands.\nYou are looking for a group of Forsaken. The Forsaken Courier in the center drops the Sealed Folder for this quest. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter.\nIf you do not find them along the way wait at the entrance to Go'Shek Farm for the group to respawn. Respawn timer is approx 5 minutes.|T|Forsaken Courier|
 L Level 35|N|If you are not yet level 35 grind on the Orcs here|LVL|-35|
-R Thandol Span|AVAILABLE|647|M|60.80,60.65;45.80,59.20;43.25,91.20|CC|Z|Arathi Highlands|N|Head to the road leading out of Go'Shek Farm. Follow the road west and towards Wetlands when the road turns south|
-A MacKreel's Moonshine|QID|647|M|43.25,91.20;43.24,92.64|CC|Z|Arathi Highlands|N|Head to the broken side of the bridge. Stand on the right side of the chain and use Slowfall/Levitate on yourself. Aim yourself towards the Torch on the opposite side. Run and jump off the bridge to float over. Accept the quest from Foggy MacKreel in the room on the right. Be aware this is a timed quest. If you fail the jump swim east until you come to a hill you can run back up.|C|Mage,Priest|
-A MacKreel's Moonshine|QID|647|M|42.90,91.25;43.24,92.64|CC|Z|Arathi Highlands|N|Head to the broken side of the bridge. Stand on the ledge to the far right and use your Swiftness Potion or Movement Ability. Run and jump onto the ledge on the opposite side. Accept the quest from Foggy MacKreel in the room on the right. Be aware this is a timed quest. If you fail the jump swim east until you come to a hill you can run back up.|
+R Thandol Span|AVAILABLE|647|M|60.80,60.65;45.80,59.20;43.25,91.20|CS|Z|Arathi Highlands|N|Head to the road leading out of Go'Shek Farm. Follow the road west and towards Wetlands when the road turns south|
+A MacKreel's Moonshine|QID|647|M|43.25,91.20;43.24,92.64|CS|Z|Arathi Highlands|N|Head to the broken side of the bridge. Stand on the right side of the chain and use Slowfall/Levitate on yourself. Aim yourself towards the Torch on the opposite side. Run and jump off the bridge to float over. Accept the quest from Foggy MacKreel in the room on the right. Be aware this is a timed quest. If you fail the jump swim east until you come to a hill you can run back up.|C|Mage,Priest|
+A MacKreel's Moonshine|QID|647|M|42.90,91.25;43.24,92.64|CS|Z|Arathi Highlands|N|Head to the broken side of the bridge. Stand on the ledge to the far right and use your Swiftness Potion or Movement Ability. Run and jump onto the ledge on the opposite side. Accept the quest from Foggy MacKreel in the room on the right. Be aware this is a timed quest. If you fail the jump swim east until you come to a hill you can run back up.|
 l Waterlogged Envelope|QID|637|M|44.29,92.89|Z|Arathi Highlands|N|Jump down into the river and swim down. Next to a broken catapult there will be a Dwarf Skeleton trapped under a rock. Click the Waterlogged Letter in his hand.|L|4433|
 A Sully Balloo's Letter|QID|637|N|From the Waterlogged Letter.|U|4433|
 H Southshore|QID|661|N|Hearth to Southshore. If your hearthstone is on cooldown, Swim North-West following the shore until you return to Southshore.|
@@ -809,7 +809,7 @@ T Ansirem's Key|QID|603|M|27.28,77.53|Z|Stranglethorn Vale|N|To Catelyn on 2nd f
 A "Pretty Boy" Duncan|QID|610|M|27.28,77.53|Z|Stranglethorn Vale|N|From Catelyn on 2nd floor of the Inn.|PRE|603|
 
 b Ratchet|QID|1137|M|25.80,73.10|N|Take the boat to Ratchet.|
-F Theramore Isle|ACTIVE|1258|M|63.10,37.15|Z|The Barrens|N|Fly to Theramore.|
+F Theramore|ACTIVE|1258|M|63.10,37.15|Z|The Barrens|N|Fly to Theramore.|
 T ... and Bugs|QID|1258|M|66.34,45.47|Z|Dustwallow Marsh|N|To Morgan Stern.|
 T The Infernal Orb|QID|1954|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|C|Mage|
 A The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=ff8000]Elite: [/color]From Tabetha. Get ready for an Elite fight.|C|Mage|PRE|1954|
