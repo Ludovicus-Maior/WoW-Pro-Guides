@@ -385,9 +385,9 @@ T Fallen Sky Lake|QID|1035|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
 R Moonwell|AVAILABLE|1024|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CS|N|Head to Moonwell to turn in Raene's Cleansing|Z|Ashenvale|
 T Raene's Cleansing|QID|1027|M|53.5,46.3|CC|N|To Shael'dryn.|Z|Ashenvale|
 A Raene's Cleansing|QID|1028|M|53.5,46.3|N|From Shael'dryn. Wait a moment while she fixes the rod.|PRE|1027|Z|Ashenvale|
-T Raene's Cleansing|QID|1028|M|50.60,46.90;51.40,52.50;53.70,54.00;56.38,49.23|CC|N|Run back around the mountains counter clockwise until you hit the path leading up to the Hidden Shrine.|Z|Ashenvale|
+T Raene's Cleansing|QID|1028|M|50.60,46.90;51.40,52.50;53.70,54.00;56.38,49.23|CS|N|Run back around the mountains counter clockwise until you hit the path leading up to the Hidden Shrine.|Z|Ashenvale|
 A Raene's Cleansing|QID|1055|M|56.4,49.3|N|From Hidden Shrine.|PRE|1028|Z|Ashenvale|
-T Raene's Cleansing|QID|1055|M|56.10,51.35;51.40,52.50;53.5,46.3|CC|N|Return along the route to Shael'dryn.|Z|Ashenvale|
+T Raene's Cleansing|QID|1055|M|56.10,51.35;51.40,52.50;53.5,46.3|CS|N|Return along the route to Shael'dryn.|Z|Ashenvale|
 A Raene's Cleansing|QID|1029|M|53.5,46.3|N|From Shael'dryn.|PRE|1055|Z|Ashenvale|
 T Raene's Cleansing|QID|1029|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
 * Rod of Transformation|AVAILABLE|1030|U|5462|M|36.6,49.6|N|Once the Raene's Cleansing questline is complete the Rod of Transformation will be removed from your inventory. If you wish to retain the ability to transform into a Furbolg after completing the quest discard the rod now before picking up the next quest. After completing the questline go to battle.net/support/en/restoration and select your character to restore the item|
@@ -430,7 +430,7 @@ b Rut'theran Village|QID|1038|M|33.19,40.1|Z|Darkshore|N|Take the boat to Rut'th
 R Darnassus|QID|1038|M|55.88,89.55|Z|Teldrassil|N|Take the teleporter to Darnassus.|
 T Velinde Starsong|QID|1037|M|61.77,39.18|Z|Darnassus|N|To Thyn'tel Bladeweaver.|
 A Velinde's Effects|QID|1038|M|61.77,39.18|Z|Darnassus|N|From Thyn'tel Bladeweaver.|PRE|1037|
-C Velinde's Effects|QID|1038|M|56.2,79.01;56.19,76.53;62.28,83.29|CC|Z|Darnassus|N|Loot the chest at this location. You will have to enter through an adjacent house and then take the balcony-walkway to the chest.|
+C Velinde's Effects|QID|1038|M|56.2,79.01;56.19,76.53;62.28,83.29|CS|Z|Darnassus|N|Loot the chest at this location. You will have to enter through an adjacent house and then take the balcony-walkway to the chest.|
 T Velinde's Effects|QID|1038|M|61.77,39.18|Z|Darnassus|N|To Thyn'tel Bladeweaver.|
 A The Barrens Port|QID|1039|M|61.77,39.18|Z|Darnassus|N|From Thyn'tel Bladeweaver.|PRE|1038|
 h Craftsmen's Terrace|QID|1039|M|67.40,15.66|Z|Darnassus|N|Set Hearthstone to Darnassus, this will save a lot of travel time once we are ready to come back.|

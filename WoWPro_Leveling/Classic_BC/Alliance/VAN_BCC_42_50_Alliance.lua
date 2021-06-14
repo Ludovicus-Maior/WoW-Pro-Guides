@@ -60,8 +60,7 @@ T The Bloodsail Buccaneers|QID|604|M|27.17,77.01|N|To Fleet Master Seahorn.  Ski
 F Stormwind|AVAILABLE|212|M|27.53,77.78|N|Fly to stormwind. Get ready for a timed quest.|
 h Stormwind City|AVAILABLE|212|M|52.62,65.67|Z|Stormwind City|N|Set your hearthstone here if it's not already, seriously do it, we're about to take a timed quest.|
 A A Meal Served Cold|QID|212|M|41.50,89.39|Z|Stormwind City|N|From Angus Stern. Once you start this, you will have 30 minutes to complete it. \n\nGet anything done in town that you need to do before you start.|
-F Darkshire|ACTIVE|212|M|66.2,62.4|Z|Stormwind City|N|Fly to Darkshire at Dungar Longdrink. You should have about 28 minutes left if you are running by foot when you get here.|
-R Rebel Camp|QID|205|M|37.8,3.4|N|Run to the Rebel camp. You should arrive to Brother Nimetz with 22 minutes to spare.|PRE|207|
+F Rebel Camp|ACTIVE|212|M|66.2,62.4|Z|Stormwind City|N|Fly to Rebel Camp at Dungar Longdrink. You should have about 28 minutes left if you are running by foot when you get here.|
 A Troll Witchery|QID|205|M|37.83,3.56|N|From Brother Nimetz.|PRE|207|
 R Nesingwary's Expedition|QID|196||M|35.66,10.81|N|Head to Nesingwary's Camp. You should arive with 20.5 minutes to spare|
 A Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|195|
@@ -106,12 +105,12 @@ T Akiris by the Bundle |QID|617|M|26.8,76.4|N|To Privateer Bloads.|
 A Akiris by the Bundle |QID|623|M|26.8,76.4|N|From Privateer Bloads.|PRE|617|
 
 F Sentinel Hill|QID|48|M|27.53,77.78|N|At Gyll.|
-R Sweet Amber|QID|48|M|52.56,72.21;44.6,80.2|CC|Z|Westfall|N|Toward the mountain behind Deadmines.|
+R The Dagger Hills|QID|48|M|52.56,72.21;44.6,80.2|CN|Z|Westfall|N|Toward the mountain behind Deadmines.|
 A Sweet Amber|QID|48|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew.|
 T Sweet Amber|QID|48|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
 A Sweet Amber|QID|49|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew|PRE|48|
 
-F Stormwind City|QID|1449|M|56.56,52.65|Z|Westfall|N|At Thor.|
+F Stormwind|QID|1449|M|56.56,52.65|Z|Westfall|N|At Thor.|
 h Stormwind City|QID|1449|M|52.62,65.67|Z|Stormwind City|N|Set your hearthstone here. And keep it here until otherwise stated in the guide.|
 B Truesilver Bar|QID|49|N|Make sure you buy or make yourself a Truesilver Bar soon.|L|6037|ITEM|6037|
 A To The Hinterlands|QID|1449|M|64.33,20.62|Z|Stormwind City|N|From Brohann Caskbelly.|PRE|1448|
@@ -119,7 +118,7 @@ N Dungeon Interlude|QID|1449|N|If you want to do Uldaman now is a good time. Che
 R Deeprun Tram|QID|1449|M|63.85,8.19|Z|Stormwind City|N|Run to the Deeprun tram.|
 R Tinker Town|QID|1449|N|Take the tram ride and then run into Ironforge.|
 F Southshore|QID|1449|M|55.50,47.76|Z|Ironforge|N|Flight to Hillsbrad Foothills.|
-R The Hinterlands|QID|1449|M|86.10,30.06;90.01,25.00|CC|Z|Hillsbrad Foothills|N|Run behind Durnholde and follow the valley ahead.|
+R The Hinterlands|QID|1449|M|86.10,30.06;90.01,25.00|CS|Z|Hillsbrad Foothills|N|Run behind Durnholde and follow the valley ahead.|
 
 A Troll Necklace Bounty|QID|2880|M|14.83,44.56|Z|The Hinterlands|N|From Fraggar Thundermantle.|
 T To The Hinterlands|QID|1449|M|11.81,46.77|Z|The Hinterlands|N|To Falstad Wildhammer.|
@@ -128,7 +127,7 @@ f Aerie Peak|QID|1450|M|11.07,46.15|Z|The Hinterlands|N|Get the flight path at G
 T Gryphon Master Talonaxe|QID|1450|M|9.75,44.47|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
 A Rhapsody Shindigger|QID|1451|M|9.75,44.47|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|1450|
 A Witherbark Cages|QID|2988|M|9.75,44.47|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|
-R Shindigger's Camp|ACTIVE|1451|M|20.2,48.3;25.11,46.87|CC|Z|The Hinterlands|N|East from Aerie Peak to find a small path up the mountain.|
+R Shindigger's Camp|ACTIVE|1451|M|20.2,48.3;25.11,46.87|CS|Z|The Hinterlands|N|East from Aerie Peak to find a small path up the mountain.|
 T Rhapsody Shindigger|QID|1451|M|26.94,48.59|Z|The Hinterlands|N|To Rhapsody Shindigger.|
 A Rhapsody's Kalimdor Kocktail|QID|1452|M|26.94,48.59|Z|The Hinterlands|N|From Rhapsody Shindigger.|PRE|1451|
 K Troll Necklace Bounty|ACTIVE|2880|M|24.8,55.4|Z|The Hinterlands|S|QO|1|N|Kill the trolls to collect the Necklaces.|
@@ -142,7 +141,7 @@ T Troll Necklace Bounty|QID|2880|M|14.83,44.57|Z|The Hinterlands|N|To Fraggar Th
 T Witherbark Cages|QID|2988|M|9.74,44.47|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
 
 F Refuge Pointe|ACTIVE|670|M|11.07,46.16|Z|The Hinterlands|N|Fly to Arathi Highlands.|
-R Faldir's Cove|ACTIVE|670|M|31.32,64.59;23.61,70.02;21.57,75.52|CC|Z|Arathi Highlands|N|At first waypoint, find a path going beside/behind Stromgarde Keep, follow that path west to the 2nd waypoint. To your left is a cave, go through it to find Faldir's Cove.|
+R Faldir's Cove|ACTIVE|670|M|31.32,64.59;23.61,70.02;21.57,75.52|CS|Z|Arathi Highlands|N|At first waypoint, find a path going beside/behind Stromgarde Keep, follow that path west to the 2nd waypoint. To your left is a cave, go through it to find Faldir's Cove.|
 T Sunken Treasure|QID|670|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen. Be sure to read the next steps note before accepting the next quest.|
 A Death From Below|QID|667|M|32.29,81.36|Z|Arathi Highlands|N|From Shakes O'Breen.\n\nWhen you start this, you will need to run up the ramp onto the boat and interact with the cannon to make it fire. When naga spawn and run into your sights, click to fire. Easiest quest in the game.|PRE|670|
 C Death From Below|QID|667|M|32.09,80.70|Z|Arathi Highlands|N|Run up the ramp and click the cannon to take out the naga as they spawn.|
@@ -163,7 +162,7 @@ F Booty Bay|QID|623|M|65.54,24.34|Z|Blasted Lands|N|Fly to Booty Bay.|
 A Zanzil's Mixture and a Fool's Stout|QID|1119|M|27.1,77.2|N|From Crank Fizzlebub.|PRE|621&1118|
 b Ratchet|QID|623|M|25.80,73.10|N|Take the boat to Ratchet.|
 
-F Theramore Isle|QID|623|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
+F Theramore|QID|623|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
 T Akiris by the Bundle|QID|623|M|67.71,51.71|Z|Dustwallow Marsh|N|To Privateer Groy. He walks around but stays stationary the longest at the waypoint.|
 t Alliance Trauma|QID|6625|M|67.8,49.0|Z|Dustwallow Marsh|N|Breadcrumb quest is optional. Turns in to Doctor Gustaf VanHowzen.|
 A Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|From Doctor Gustaf VanHowzen.|P|First Aid;129;0+225|
