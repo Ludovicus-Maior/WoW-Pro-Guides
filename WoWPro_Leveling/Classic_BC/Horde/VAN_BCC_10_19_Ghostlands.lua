@@ -102,7 +102,7 @@ T Report to Captain Helios|QID|9146|M|72.37,29.63|N|To Captain Helios.|
 H Tranquillien|AVAILABLE|9171|
 ; maybe consider taking these earlier or changing pick up roue - Hendo72
 ; lv 14... Silvermoon visit empty bags
-A The Plagued Coast|QID|9149|M|47.66,34.86|N|From Apothecary Renzithen.|PRE|9327^9329|
+A The Plagued Coast|QID|9149|M|47.59,34.79|N|From Apothecary Renzithen.|PRE|9327^9329|
 A Tomber's Supplies|QID|9152|M|47.01,28.38|N|From Rathis Tomber.|PRE|9327^9329|
 A Goldenmist Village|QID|9139|M|46.24,28.35|N|From Arcanist Vandril.|PRE|9138|REP|Tranquillien;922;friendly-exalted|
 A Culinary Crunch|QID|9171|M|48.43,30.93|N|From Master Chef Mouldier.|
@@ -132,7 +132,7 @@ T Down the Dead Scar|QID|9155|M|46.02,33.56|N|To Deathstalker Rathiel.|
 T Investigate An'daroth|QID|9160|M|44.88,32.51|N|To Dame Auriferous.|
 A Into Occupied Territory|QID|9163|M|44.88,32.51|N|From Dame Auriferous.|PRE|9160|
 A Retaking Windrunner Spire|QID|9173|M|44.83,32.39|N|From High Executor Mavren.|LVL|15| ; Level warning?
-T The Plagued Coast|QID|9149|M|47.66,34.86|N|To Apothecary Renzithen.|
+T The Plagued Coast|QID|9149|M|47.59,34.79|N|To Apothecary Renzithen.|
 ; travel note and Knucklerot warning - Hendo72
 A Underlight Ore Samples|QID|9207|M|31.42,48.31|N|From Apprentice Shatharia.|
 C Trouble at the Underlight Mines|QID|9192|M|29.25,47.93|N|Head down the slope and kill any gnoll you need.|
@@ -247,7 +247,7 @@ R Deatholme|ACTIVE|9220|M|36.40,69.79|N|Make your way to The Dead Scar and follo
 K War on Deatholme|ACTIVE|9220|M|32.12,76.13|QO|1;2;3|N|Kill Eyes of Dar'khan, Nerubis Centurions, and Wailers in Deatholme.|
 R Sanctum of the Sun|ACTIVE|9176|M|53.94,51.76|
 T The Twin Ziggurats|QID|9176|M|55.00,48.95|N|To Magister Kaendris.|
-A The Traitor's Destruction|QID|9167|M|55.00,48.95|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Magister Kaendris.|PRE|9176|
+A The Traitor's Destruction|QID|9167|M|55.00,48.95|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nFrom Magister Kaendris.|PRE|9176|
 T War on Deatholme|QID|9220|M|54.87,48.55|N|To Magister Idonis.|
 A Dar'Khan's Lieutenants|QID|9170|M|54.87,48.55|N|From Magister Idonis.|PRE|9220|
 A A Restorative Draught|QID|9877|M|54.82,48.35|N|From Arcanist Janeda.|PRE|9220|
@@ -265,22 +265,26 @@ r Repair/Restock|ACTIVE|9877|M|49.05,30.32|N|At Blacksmith Frances.|
 F Silvermoon City|ACTIVE|9877|M|45.43,30.53|
 = Level 20 Training|ACTIVE|9877|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 F Tranquillien|ACTIVE|9877|M|54.37,50.73|Z|Eversong Woods|
-T A Restorative Draught|QID|9877|M|47.66,34.86|N|To Apothecary Renzithen.|
-A Captives at Deatholme|QID|9164|M|47.66,34.86|N|From Apothecary Renzithen.|
-C Apothecary Enith|QID|9164|M|32.1,73.9|QO|1|N|coords Go down into the crypt and Talk to Apothecary Enith.|; Apothecary Enith Rescued: 1/1
-K Jurion the Deceiver|ACTIVE|9170|M|32.1,74|QO|3|N|coords Kill Jurion the Deceiver in the crypt.|; Jurion the Deceiver slain: 1/1
-K Mirdoran the Fallen|ACTIVE|9170|M|37.1,79.1|QO|1|N|coords Kill Mirdoran the Fallen.|; Mirdoran the Fallen slain: 1/1
-C Apprentice Varnis|QID|9164|M|37.88,84.40;40.97,83.10|CS|QO|2|N|Go into the butchery and talk to Apprentice Varnis.|; Apprentice Varnis Rescued: 1/1
-K Borgoth the Bloodletter.|ACTIVE|9170|M|41,83.1;32.7,89.9|CN|QO|2|N|coords Borgoth can be in either butchery.|S|; Borgoth the Bloodletter slain: 1/1
-C Captives at Deatholme|QID|9164|M|32.8,89.3|N|coords Talk to Ranger Vedoran to rescue him.|
-C Dar'Khan's Lieutenants|QID|9170|M|29.5,89.2;35.9,89.3|CN|N|coords Masophet can be in either ziggurat..|
-K Borgoth the Bloodletter|ACTIVE|9170|M|41,83.1;32.7,89.9|CN|QO|2|N|coords Borgoth can be in either butchery.|US|; Borgoth the Bloodletter slain: 1/1
-C The Traitor's Destruction|QID|9167|M|32.81,82.45|N|Dar'Khan is a 21 elite, he has 2-4 adds in the same room as him. He likes fear now and then. If you have help, or if you think you can solo him, go ahead. If not, go ahead and skip, though the rewards are nice.|
+T A Restorative Draught|QID|9877|M|47.59,34.79|N|To Apothecary Renzithen.|
+R Deatholme|ACTIVE|9164^9170|M|44.72,70.41;36.40,69.79|CC|N|Follow the road south out of Tranquillien to the bottom and cut across to the Deatholme entrance.|
+A Captives at Deatholme|QID|9164|M|47.59,34.79|N|From Apothecary Renzithen.|
+K Jurion the Deceiver|ACTIVE|9170|M|32.10,74.50|QO|3|N|After killing the 2 guards at the entrance, go down the stairs into the crypt and kill Jurion the Deceiver.\n[color=FF0000]NOTE: [/color]He will attack you when you enter the room.|
+C Apothecary Enith|QID|9164|M|32.15,73.95|QO|1|N|Talk to Apothecary Enith.|CHAT|
+K Mirdoran the Fallen|ACTIVE|9170|M|37.26,79.36|QO|1|N|Kill Mirdoran the Fallen.\n[color=FF0000]NOTE: [/color]Avoid going too far into the building as he has 3 Wailers guarding him.|
+K Borgoth the Bloodletter|ACTIVE|9170|M|41,83.1|QO|2|N|Borgoth can be in found inside the butchery.\n[color=FF0000]NOTE: [/color]He may be in the other butchery.|T|Borgoth the Bloodletter|S|
+C Apprentice Varnis|QID|9164|M|37.88,84.40;40.98,83.17|CS|QO|2|N|Go into the butchery and talk to Apprentice Varnis.\n[color=FF0000]NOTE: [/color]Kill Borgoth first if he's here.|CHAT|
+K Masophet the Black|ACTIVE|9170|M|29.5,89.2|QO|4|N|Check the first ziggurat for Masophet. If he's here, clear the Necromancers on the sides and then pull Masophet.|T|Masophet the Black|S|
+K Borgoth the Bloodletter|ACTIVE|9170|M|32.70,89.96|QO|2|N|Borgoth can be in found inside the butchery.\n[color=FF0000]NOTE: [/color]If he's not here, you'll have to check the second ziggurat.|T|Masophet the Black|S|
+C Ranger Vedoran|QID|9164|M|32.79,89.93|QO|3|N|Talk to Ranger Vedoran to rescue him.\n[color=FF0000]NOTE: [/color]Kill Borgoth first if he's here.|CHAT|
+K Masophet the Black|ACTIVE|9170|M|35.9,89.3|QO|4|N|Check the second ziggurat for Masophet. If he's here, clear the Necromancers on the sides and then pull Masophet.\n[color=FF0000]NOTE: [/color]If he's not here, you'll have to go back and check the first ziggurat.|T|Masophet the Black|US|
+R Tower of the Damned|ACTIVE|9157|M|31.65,81.70|N|Make your way to the tower in the center of Deatholme. It has an east and a west entrance. Both of them lead to the same spot and have 2 guards standing at the top of the stairs.|
+K Dar'Khan|ACTIVE|9167|M|32.81,82.45|QO|1|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nAt the first intersection after you enter the tower, wait for the patrolling NPC to pass and kill it.\nOnce you are on the next level, the path splits (direction is irrelevant) with a Necromancer and his pet standing around the corner.\nAt the next level, the pathes merge and lead down into the main room.\n[color=FF0000]NOTE: [/color]Dar'Khan is a 21 elite and has 2 Necromancers with pets on either side of the room. If done right, you can solo pull each group of adds from the top of the ramp without pulling Dar'Khan.\nMake sure you keep the upper level clear as to avoid any surprise adds when he casts Fear on you.\n\nIf you have help, or if you think you can solo him, go ahead. If not, go ahead and skip, though the rewards are nice.|
+R Sanctum of the Sun|ACTIVE|9167^9170|M|53.94,51.76|
 T The Traitor's Destruction|QID|9167|M|54.99,48.99|N|To Magister Kaendris.|
 A Hero of the Sin'dorei|QID|9328|M|54.99,48.99|R|BloodElf|N|From Magister Kaendris.|PRE|9167|
 A Friend of the Sin'dorei|QID|9811|M|54.99,48.99|N|From Magister Kaendris.|R|Orc,Troll,Tauren,Undead,Goblin|PRE|9167|
-T Dar'Khan's Lieutenants|QID|9170|M|54.91,48.38|N|To Magister Idonis.|
-T Captives at Deatholme|QID|9164|M|54.91,48.38|N|To Arcanist Janeda.|
+T Dar'Khan's Lieutenants|QID|9170|M|54.87,48.55|N|To Magister Idonis.|
+T Captives at Deatholme|QID|9164|M|54.82,48.35|N|To Arcanist Janeda.|
 K Luzran|ACTIVE|9156|M|39.5,32;37.3,67.5|CN|N|coords If you have help or can solo Luzran look for him where the waypoints are. If not, go ahead and skip.|
 K Knucklerot|ACTIVE|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|CN|N|coords If you have help or can solo Knucklerot, look for him where the waypoints are. If not, go ahead and skip.|
 T Wanted: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|
