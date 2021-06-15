@@ -104,8 +104,7 @@ B [item=23811/Schematic - White Smoke Flare]|QID|202003351|P|Engineering;202;0+3
 M [item=23768/White Smoke Flare]|QID|202030341|P|Engineering;202;0+355;1|ITEM|23768|CRAFT|30341 40|MATS|23768 23781 1;21877 1|N|This is an approximate number, you may need to make more or less.|
 M [item=23786/Khorium Power Core]|QID|202030308|P|Engineering;202;0+360;1|L|23786 5|ITEM|23786|CRAFT|30308 5|MATS|23449 3;21884 1|N|You only need 5, dont worry about not reaching 360. This step will clear once you have five.|
 B [spell=30313/Adamantite Rifle]|QID|202003501|M|64.8,69.6|Z|1955; Shattrath City|P|Engineering;202;0+350|N|Pruchase [item=23799/Schematic - Adamantite Rifle] from Viggz Shinesparked in Lwoer City, Shattrath City.|
-M [item=23746/Adamantite Rifle]|QID|202030313|P|Engineering;202;0+370;1|ITEM|23746|CRAFT|30313 
-15|MATS|23782 3;23784 2;23783 4|
+M [item=23746/Adamantite Rifle]|QID|202030313|P|Engineering;202;0+370;1|ITEM|23746|CRAFT|30313 15|MATS|23782 3;23784 2;23783 4|
 K Gan'arg Analyzer|QID|202003601|M|28.6,45.6;32.8,52.0;31.6,63.0;27.8,68.2|CN|Z|1949; Blade's Edge Mountain|ITEM|34114|RECIPE|44391|N|Kill the Analyzers (Simon Unit) in these areas until [item=34114/Schematic - Field Repair Bot 110G] Drops. This step SHOULD clear, once it drops.|
 M [item=34113/Field Repair Bot 110G]|QID|202044391|P|Engineering;202;0+375;1|ITEM|34113|CRAFT|44391 5|MATS|23446 8;23783 8;23786 1|N|This recipe is dropped by Gan'arg Analyzers in Blade's Edge Mountain.|
 
