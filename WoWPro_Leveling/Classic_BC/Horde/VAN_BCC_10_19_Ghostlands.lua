@@ -114,7 +114,7 @@ A Down the Dead Scar|QID|9155|M|46.02,33.56|N|From Deathstalker Rathiel.|
 A The Plagued Coast|QID|9149|M|47.66,34.87|N|From Apothecary Renzithen.|PRE|9327^9329|
 l Rotting Hearts|AVAILABLE|9216|M|38.94,36.68|L|22641 10|N|Going forward, any time you enter The Dead Scar, kill any Risen Hungerers or Risen Stalkers you come across. The Rotting Hearts are needed for an upcoming quest and starting now will save some time.\n[color=FF0000]NOTE: [/color]Keep an eye out for Luzran, who pathes up and down The Dead Scar.|S|IZ|3514; The Dead Scar|
 K Down the Dead Scar|ACTIVE|9155|M|39.76,32.47|QO|1;2|N|Head down into the Dead Scar and kill Risen Hungerers and Gangled Cannibals.|
-C Culinary Crunch|QID|9171|M|28.24,27.57|L|22644 5|N|Kill spiders until you have 5 Crunchy Spider Legs.|S|
+C Culinary Crunch|QID|9171|M|27.69,30.27|L|22644 5|N|Kill spiders until you have 5 Crunchy Spider Legs.|S|
 C Salvaging the Past|QID|9150|M|33.41,32.40|L|22580 8|N|Kill Mana Shifters and Arcane Devourers until you get 8 Mana Essences.|
 C Tomber's Supplies|QID|9152|M|33.56,26.81|N|It is in the wagon.\n[color=FF0000]NOTE: [/color]You will most likely have to clear an area around it.|NC|
 K Investigate An'daroth|ACTIVE|9160|M|37.04,15.90|QO|1|N|Kill the Sentinel Spies around An'daroth.|S|
@@ -122,11 +122,12 @@ C Investigate An'daroth|QID|9160|M|37.2,24.08;38.0,18.7;37.0,15.9|CS|QO|2|N|Head
 K Investigate An'daroth|ACTIVE|9160|M|37.04,15.90|QO|1|N|Kill the Sentinel Spies around An'daroth.|US|
 R Goldenmist Village|ACTIVE|9139|M|33.2,15.0;30.3,16.6|CC|N|Follow Elrendar River west until you reach the waterfall, sticking as close the water edge as you can.\nAt this point, you can either jump off the falls and swim across to the west shore, or work your way across and down the cliffs.|
 C Goldenmist Village|QID|9139|M|26.81,15.27|N|Run/drop down to Goldenmist and kill the ghosts that are needed.|
-C The Plagued Coast|QID|9149|M|19.02,24.06|N|Kill any murlocs you see for their spines. You will need 6 spines.|
-C Culinary Crunch|QID|9171|M|28.24,27.57|L|22644 5|N|Kill spiders until you have 5 Crunchy Spider Legs.|US|
-H Tranquillien|ACTIVE|9171|
+C The Plagued Coast|QID|9149|M|19.02,24.06|L|22579 6|N|Kill Murlocs to loot their spines.|
+C Culinary Crunch|QID|9171|M|27.69,30.27|L|22644 5|N|Kill spiders until you have 5 Crunchy Spider Legs.|US|
+L Level 15|AVAILABLE|9173|M|PLAYER|N|You'll want to be at least halfway to level 15 before returning.|LVL 14;-6490|
+H Tranquillien|ACTIVE|9171|M|45.12,28.25|
 T Culinary Crunch|QID|9171|M|48.43,30.93|N|To Master Chef Mouldier.|
-r Repair/Restock|QID|9155|M|49.07,30.33|N|At Blacksmith Frances. Do not sell any Rotting Hearts you may have.|
+r Repair/Restock|QID|9155|M|49.07,30.33|N|At Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Do not sell any Rotting Hearts you may have.|
 T Tomber's Supplies|QID|9152|M|47.01,28.38|N|To Rathis Tomber.|
 T Goldenmist Village|QID|9139|M|46.30,28.37|N|To Arcanist Vandril.|
 A Windrunner Village|QID|9140|M|46.30,28.37|N|From Arcanist Vandril.|PRE|9139|
@@ -134,7 +135,7 @@ T Salvaging the Past|QID|9150|M|46.01,31.95|N|To Magister Darenis.|
 T Down the Dead Scar|QID|9155|M|46.02,33.56|N|To Deathstalker Rathiel.|
 T Investigate An'daroth|QID|9160|M|44.88,32.51|N|To Dame Auriferous.|
 A Into Occupied Territory|QID|9163|M|44.88,32.51|N|From Dame Auriferous.|PRE|9160|
-A Retaking Windrunner Spire|QID|9173|M|44.83,32.39|N|From High Executor Mavren.|LVL|15| ; Level warning?
+A Retaking Windrunner Spire|QID|9173|M|44.77,32.45|N|From High Executor Mavren.|LVL|15|
 T The Plagued Coast|QID|9149|M|47.59,34.79|N|To Apothecary Renzithen.|
 ; travel note and Knucklerot warning - Hendo72
 A Underlight Ore Samples|QID|9207|M|31.42,48.31|N|From Apprentice Shatharia.|
