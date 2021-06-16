@@ -64,21 +64,21 @@ K Anok'suten|ACTIVE|9315|M|59.87,10.19|QO|1|ELITE|N|[color=00FFFF]Group of 2 sug
 C The First Trial|QID|9678|M|68.43,7.51|N|Head to Isle of Tribulations, the large island east of Suncrown Village, and click on the Gilded Brazier inside the cave. Sangrias Stillblade will run into the cave and attack. Kill him to complete the quest.|R|BloodElf|C|Paladin|
 K Suncrown Village|ACTIVE|9138|M|60.11,12.99|QO|1|N|Kill Nerubis Guards.|US|
 H Tranquillien|ACTIVE|9138|M|46.32,27.53|N|Run back to Tranquillien if you wish to save your Hearth.|
-F Silvermoon City|ACTIVE|9678|M|45.43,30.53|N|Ask Skymaster Sunwing to fly you to Silvermoon City.|R|BloodElf|C|Paladin|
-T The First Trial|QID|9678|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
-A A Study in Power|QID|9681|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|PRE|9678|R|BloodElf|C|Paladin|
-T A Study in Power|QID|9681|M|92.29,36.49|Z|Silvermoon City|N|To Magister Astalor Bloodsworn.|R|BloodElf|C|Paladin|
-A Claiming the Light|QID|9684|M|92.29,36.49|Z|Silvermoon City|N|From Magister Astalor Bloodsworn.|PRE|9681|R|BloodElf|C|Paladin|
-C Claiming the Light|QID|9684|M|92.33,37.52|Z|Silvermoon City|U|185956|N|Use the Shimmering Vessel on M'uru to fill it and return to Knight-Lord Bloodvalor in Silvermoon City..|R|BloodElf|C|Paladin|
-T Claiming the Light|QID|9684|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
-A Redeeming the Dead|QID|9685|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
-C Redeeming the Dead|QID|9685|M|92.33,37.52|Z|Silvermoon City|U|24184|T|Sangrias Stillblade|N|Take the Filled Shimmering Vessel to Silvermoon City's inn and use its magic to resurrect Sangrias Stillblade.|R|BloodElf|C|Paladin|
-T Redeeming the Dead|QID|9685|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
-R The Shepherd's Gate|ACTIVE|9134|M|56.66,49.54|Z|Eversong Woods|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|R|BloodElf|C|Paladin|
-F Tranquillien|ACTIVE|9135|M|54.37,50.73|Z|Eversong Woods|R|BloodElf|C|Paladin|
 T Suncrown Village|QID|9138|M|46.24,28.35|N|To Arcanist Vandril.|
 T Anok'suten|QID|9315|M|46.24,28.35|N|To Arcanist Vandril.|
 A Help Ranger Valanna!|QID|9145|M|45.48,32.45|N|From Ranger Lethvalin.|LEAD|9143|
+F Silvermoon City|ACTIVE|9678|M|45.43,30.53|N|Ask Skymaster Sunwing to fly you to Silvermoon City.|R|BloodElf|C|Paladin|
+T The First Trial|QID|9678|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+A A Study in Power |QID|64319|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|PRE|9678|R|BloodElf|C|Paladin|
+T A Study in Power|QID|64319|M|92.29,36.49|Z|Silvermoon City|N|To Magister Astalor Bloodsworn.|R|BloodElf|C|Paladin|
+A Claiming the Light|QID|63866|M|92.29,36.49|Z|Silvermoon City|N|From Magister Astalor Bloodsworn.|PRE|64319|R|BloodElf|C|Paladin|
+C Claiming the Light|QID|63866|M|92.61,37.52|Z|Silvermoon City|N|Walk up the stairs and jump down the round opening in the floor above M'uru. Use the Shimmering Vessel on M'uru to fill it.|U|185956|R|BloodElf|C|Paladin|NC|
+T Claiming the Light|QID|63866|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.\n[color=FF0000]NOTE: [/color]Go back up upstairs, exit the building and re-enter through the main entrance.|R|BloodElf|C|Paladin|
+A Redeeming the Dead|QID|9685|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|PRE|63866|R|BloodElf|C|Paladin|
+C Redeeming the Dead|QID|9685|M|80.19,60.23|Z|Silvermoon City|N|Take the Filled Shimmering Vessel to Silvermoon City's Inn and use it to resurrect Sangrias Stillblade.\n[color=FF0000]NOTE: [/color]You'll find him on the 2nd floor of the Inn.|U|24184|R|BloodElf|C|Paladin|NC|
+T Redeeming the Dead|QID|9685|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+R The Shepherd's Gate|ACTIVE|9145|M|56.66,49.54|Z|Eversong Woods|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|R|BloodElf|C|Paladin|
+F Tranquillien|ACTIVE|9145|M|54.37,50.73|Z|Eversong Woods|R|BloodElf|C|Paladin|
 T Help Ranger Valanna!|QID|9145|M|69.39,15.19|N|To Ranger Valanna.\n[color=FF0000]NOTE: [/color]Head back towards Suncrown Village. If you stick to the edge of the mountain and follow it east towards the lake, you can circumvent the Village.|
 A Dealing with Zeb'Sora|QID|9143|M|69.39,15.19|N|From Ranger Valanna.|
 A Forgotten Rituals|QID|9157|M|72.30,19.10|N|From Geranis Whitemorn on the small island in the lake.|
@@ -90,37 +90,40 @@ T Vanquishing Aquantion|QID|9174|M|72.30,19.10|N|To Geranis Whitemorn.|
 C Dealing with Zeb'Sora|QID|9143|M|76.02,12.85|L|22639 6|N|Kill any troll you see in Zeb'Sora to get their ears.|
 R Farstrider Enclave|AVAILABLE|9158^9215^9274|M|73.83,32.11|N|Follow the shoreline south to the big building.|
 A Bearers of the Plague|QID|9158|M|72.49,32.14|N|From Farstrider Sedina at the Farstrider Enclave.|
-r Housekeeping|ACTIVE|9143|M|73.83,32.11|N|You can repair and empty your bags at Narina.|IZ|3496; Farstrider Enclave|
+r Housekeeping|AVAILABLE|9158^9215^9274|M|73.83,32.11|N|You can repair and empty your bags at Narina.|IZ|3496; Farstrider Enclave|
 A Bring Me Kel'gash's Head!|QID|9215|M|72.22,31.18|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the Wanted Poster.|
 A Spirits of the Drowned|QID|9274|M|72.21,29.76|N|From Ranger Krenn'an.|
-C Spirits of the Drowned|QID|9274|M|71.04,24.00|N|Kill any ghost you see floating around in the lake.|S|
-T Dealing with Zeb'Sora|QID|9143|M|69.34,15.10|N|Return to Ranger Valanna.|
-A Report to Captain Helios|QID|9146|M|69.34,15.10|N|From Ranger Valanna.|PRE|9143|
-C Spirits of the Drowned|QID|9274|M|71.04,24.00|N|Kill any ghost you see floating around in the lake.|US|
+K Spirits of the Drowned|ACTIVE|9274|M|71.04,24.00|QO|1;2|N|Kill any ghost you see floating around in the lake.|S|
+T Dealing with Zeb'Sora|QID|9143|M|69.39,15.19|N|Return to Ranger Valanna.|
+A Report to Captain Helios|QID|9146|M|69.39,15.19|N|From Ranger Valanna.|PRE|9143|
+K Spirits of the Drowned|ACTIVE|9274|M|71.04,24.00|QO|1;2|N|Kill any ghost you see floating around in the lake.|US|
 T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an.|
 T Report to Captain Helios|QID|9146|M|72.37,29.63|N|To Captain Helios.|
 H Tranquillien|AVAILABLE|9171|
-; maybe consider taking these earlier or changing pick up roue - Hendo72
-; lv 14... Silvermoon visit empty bags
-A The Plagued Coast|QID|9149|M|47.59,34.79|N|From Apothecary Renzithen.|PRE|9327^9329|
+A Culinary Crunch|QID|9171|M|48.43,30.93|N|From Master Chef Mouldier.|
+r Repair/Restock|AVAILABLE|9152|M|49.08,30.31|N|At Blacksmith Frances.|
 A Tomber's Supplies|QID|9152|M|47.01,28.38|N|From Rathis Tomber.|PRE|9327^9329|
 A Goldenmist Village|QID|9139|M|46.24,28.35|N|From Arcanist Vandril.|PRE|9138|REP|Tranquillien;922;friendly-exalted|
-A Culinary Crunch|QID|9171|M|48.43,30.93|N|From Master Chef Mouldier.|
-r Repair/Restock|QID|9171|M|49.08,30.31|N|At Blacksmith Frances.|
+F Silvermoon City|AVAILABLE|9150|M|45.43,30.53|LVL|14|
+= Level 14 Training|AVAILABLE|9150|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|14|
+F Tranquillien|AVAILABLE|9150|M|54.37,50.73|Z|Eversong Woods|LVL|14|
 A Salvaging the Past|QID|9150|M|46.01,31.95|N|From Magister Darenis.|REP|Tranquillien;922;friendly-exalted|
 A Investigate An'daroth|QID|9160|M|44.88,32.51|N|From Dame Auriferous.|REP|Tranquillien;922;friendly-exalted|
 A Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|From Deathstalker Maltendis.|REP|Tranquillien;922;friendly-exalted|
 A Down the Dead Scar|QID|9155|M|46.02,33.56|N|From Deathstalker Rathiel.|
+A The Plagued Coast|QID|9149|M|47.66,34.87|N|From Apothecary Renzithen.|PRE|9327^9329|
 l Rotting Hearts|AVAILABLE|9216|M|38.94,36.68|L|22641 10|N|Going forward, any time you enter The Dead Scar, kill any Risen Hungerers or Risen Stalkers you come across. The Rotting Hearts are needed for an upcoming quest and starting now will save some time.\n[color=FF0000]NOTE: [/color]Keep an eye out for Luzran, who pathes up and down The Dead Scar.|S|IZ|3514; The Dead Scar|
-C Down the Dead Scar|QID|9155|M|39.76,32.47|N|Head down into the Dead Scar and kill Risen Hungerers and Gangled Cannibals. If you come across any Ghostclaw Lynxs, kill them as well.|
-C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders until you have 5 Crunchy Spider Legs.|S|
-C Salvaging the Past|QID|9150|M|33.41,32.40|N|Kill Mana Shifters and Arcane Devourers until you get 8 Mana Essences.|
+K Down the Dead Scar|ACTIVE|9155|M|39.76,32.47|QO|1;2|N|Head down into the Dead Scar and kill Risen Hungerers and Gangled Cannibals.|
+C Culinary Crunch|QID|9171|M|28.24,27.57|L|22644 5|N|Kill spiders until you have 5 Crunchy Spider Legs.|S|
+C Salvaging the Past|QID|9150|M|33.41,32.40|L|22580 8|N|Kill Mana Shifters and Arcane Devourers until you get 8 Mana Essences.|
 C Tomber's Supplies|QID|9152|M|33.56,26.81|N|It is in the wagon.\n[color=FF0000]NOTE: [/color]You will most likely have to clear an area around it.|NC|
-; 2 steps with |S| - Hendo72
-C Investigate An'daroth|QID|9160|M|37.22,23.98;38.06,18.77;37.04,15.90|CS|N|Kill the Sentinel Spies around An'daroth.\nHead into the center of the area to the monument to get the investigation part.|
+K Investigate An'daroth|ACTIVE|9160|M|37.04,15.90|QO|1|N|Kill the Sentinel Spies around An'daroth.|S|
+C Investigate An'daroth|QID|9160|M|37.2,24.08;38.0,18.7;37.0,15.9|CS|QO|2|N|Head into the center of the area to the monument to get the investigation part.|
+K Investigate An'daroth|ACTIVE|9160|M|37.04,15.90|QO|1|N|Kill the Sentinel Spies around An'daroth.|US|
+R Goldenmist Village|ACTIVE|9139|M|33.2,15.0;30.3,16.6|CC|N|Follow Elrendar River west until you reach the waterfall, sticking as close the water edge as you can.\nAt this point, you can either jump off the falls and swim across to the west shore, or work your way across and down the cliffs.|
 C Goldenmist Village|QID|9139|M|26.81,15.27|N|Run/drop down to Goldenmist and kill the ghosts that are needed.|
 C The Plagued Coast|QID|9149|M|19.02,24.06|N|Kill any murlocs you see for their spines. You will need 6 spines.|
-C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders until you have 5 Crunchy Spider Legs.|US|
+C Culinary Crunch|QID|9171|M|28.24,27.57|L|22644 5|N|Kill spiders until you have 5 Crunchy Spider Legs.|US|
 H Tranquillien|ACTIVE|9171|
 T Culinary Crunch|QID|9171|M|48.43,30.93|N|To Master Chef Mouldier.|
 r Repair/Restock|QID|9155|M|49.07,30.33|N|At Blacksmith Frances. Do not sell any Rotting Hearts you may have.|
@@ -172,7 +175,7 @@ A Clearing the Way|QID|9281|M|46.44,56.43|N|From Apprentice Vor'el.|
 R Sanctum of the Sun|AVAILABLE|9282|M|53.94,51.76|
 A The Farstrider Enclave|QID|9282|M|55.06,48.83|N|From Magister Kaendris.|LEAD|9161|
 T Underlight Ore Samples|QID|9207|M|54.95,48.48|N|To Magister Quallestis.|
-R An'telas|ACTIVE|9166|M|56.53,45.39;60.76,40.79|CC|N|Cut through the pass behind Sun of the Sanctum.|
+R An'telas|ACTIVE|9166|M|56.5,45.4;60.7,40.8|CC|N|Cut through the pass behind Sun of the Sanctum.|
 T Deliver the Plans to An'telas|QID|9166|M|60.28,35.61|N|To Magister Sylastor.|
 A Deactivate An'owyn|QID|9169|M|60.28,35.61|N|From Magister Sylastor.|PRE|9166|
 K Bearers of the Plague|ACTIVE|9158|M|69.46,39.52|QO|1|N|Finish killing Ghostclaw Lynxes.|US|
@@ -264,6 +267,16 @@ T Spinal Dust|QID|9218|M|48.92,31.31|N|To Magistrix Aminel.|
 r Repair/Restock|ACTIVE|9877|M|49.05,30.32|N|At Blacksmith Frances.|
 F Silvermoon City|ACTIVE|9877|M|45.43,30.53|
 = Level 20 Training|ACTIVE|9877|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A The Second Trial|QID|9690|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+R Falconwing Square|AVAILABLE|9677|M|46.56,48.89|Z|Eversong Woods|N|Follow the wall west to the Falconwing Square entrance.|R|BloodElf|C|Paladin|
+T The Second Trial|QID|9690|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
+A The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
+H Silvermoon City|QID|9686|R|BloodElf|C|Paladin|
+C The Second Trial|QID|9686|M|43.34,28.69|Z|Eversong Woods|N|Click the crystal, kill the guy.|R|BloodElf|C|Paladin|
+T The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
+A Return to Silvermoon|QID|9691|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
+H Silvermoon City|QID|9691|M|89.29,35.25|Z|Silvermoon City|N|Hearth back to Silvermoon City, or run if its currently down.|R|BloodElf|C|Paladin|
+T Return to Silvermoon|QID|9691|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
 F Tranquillien|ACTIVE|9877|M|54.37,50.73|Z|Eversong Woods|
 T A Restorative Draught|QID|9877|M|47.59,34.79|N|To Apothecary Renzithen.|
 R Deatholme|ACTIVE|9164^9170|M|44.72,70.41;36.40,69.79|CC|N|Follow the road south out of Tranquillien to the bottom and cut across to the Deatholme entrance.|
@@ -287,20 +300,11 @@ T Dar'Khan's Lieutenants|QID|9170|M|54.87,48.55|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.82,48.35|N|To Arcanist Janeda.|
 K Luzran|ACTIVE|9156|M|34.3,50.3;37.3,67.5;39.5,32.0|CN|QO|2|N|Luzran spawns at Bleeding Ziggurat and begins his path south through the The Dead Scar to the Deatholme entrance, then to the northern waypoint before turning back south to the Deatholme entrance and ultimately returning to Bleeding Ziggurat to start the trip anew.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip. Skipping this will skip all related steps as well.|
 K Knucklerot|ACTIVE|9156|M|41.7,45.2;33.1,53.1;25.6,55.4;22.6,49.1;22.2,40.4;27.5,38.1;30.4,35.9;27.7,29.9;29.4,21;25.4,16.3|CN|QO|1|N|Knucklerot spawns at Howling Ziggurat and begins his path by following the road across The Dead Scar past and through to Windrunner Village. From here he works his way along the shore until he crosses over the river just above the waterfall and heads for the road leading into Goldenmist Village. He follows this road to the fountain between the buildings. At this point, he turns around and begins to path back to the beginning. His return path is the exact same with one exception. After crossing the river, he goes to Sanctum of the Moon before heading to Windrunner Village.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip.|
-R Tranquillien|ACTIVE|9328|M|46,33|N|coord Run to Tranquillien.|
+R Tranquillien|ACTIVE|9328|M|46.52,31.90|N|coord Run to Tranquillien.|
 T Wanted: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|
-F Silvermoon City|ACTIVE|9328|M|46,30|N|coord Fly to Silvermoon City flight hub.|
-N Training|ACTIVE|9328|N|Visit your trainers, AH, etc. Close this step to continue.|
-A The Second Trial|QID|9690|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
-h Silvermoon City|QID|9690|M|79.58,58.20|N|At Innkeeper Velandra.|R|BloodElf|C|Paladin|
-T The Second Trial|QID|9690|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
-A The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
-H Silvermoon City|QID|9686|R|BloodElf|C|Paladin|
-C The Second Trial|QID|9686|M|43.34,28.69|Z|Eversong Woods|N|Click the crystal, kill the guy.|R|BloodElf|C|Paladin|
-T The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
-A Return to Silvermoon|QID|9691|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
-H Silvermoon City|QID|9691|M|89.29,35.25|Z|Silvermoon City|N|Hearth back to Silvermoon City, or run if its currently down.|R|BloodElf|C|Paladin|
-T Return to Silvermoon|QID|9691|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+; Killed Dar'Khan
+F Silvermoon City|ACTIVE|9328^9811|M|46,30|N|coord Fly to Silvermoon City flight hub.|
+R Housekeeping|ACTIVE|9328|N|Visit your trainers, AH, etc.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Hero of the Sin'dorei|QID|9328|M|53.98,20.42|Z|Silvermoon City|N|To Lor'themar Theron .|R|BloodElf|
 T Friend of the Sin'dorei|QID|9811|M|53.98,20.42|Z|Silvermoon City|N|To Lor'themar Theron .|R|Orc,Troll,Tauren,Undead,Goblin|
 A Envoy to the Horde|QID|9621|M|53.98,20.42|Z|Silvermoon City|N|From Lor'themar Theron .|PRE|9328|R|BloodElf|
@@ -315,9 +319,11 @@ R Orgrimmar Zepplin|ACTIVE|9626|M|60.71,58.78|Z|Tirisfal Glades|N|Go up the towe
 b Durotar|ACTIVE|9626|
 T Meeting the Warchief|QID|9626|M|31.76,37.83|Z|Orgrimmar|N|To Thrall.|
 A Allegiance to the Horde|QID|9627|M|31.76,37.83|Z|Orgrimmar|N|To Thrall.|R|BloodElf|
+h Orgrimmar|ACTIVE|9627|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will make sense shortly.|IZ|1454|
 R Undercity Zepplin|ACTIVE|9627|M|50.82,13.59|Z|Durotar|N|Go up the tower and take the Zepplin.|
 b Tirisfal Glades|ACTIVE|9627|
 P Silvermoon City|ACTIVE|9627|M|55.02,11.28|Z|Undercity|N|Click on the Orb of Translocation.|
 T Allegiance to the Horde|QID|9627|M|53.85,20.31|Z|Silvermoon City|N|To Lor'themar Theron.|
+H Orgrimmar|
 ]]
 end)
