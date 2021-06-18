@@ -227,7 +227,7 @@ H Stormwind City|QID|49|M|PLAYER|Z|Tanaris|N|Hearth back to Stormwind. You didn'
 r Repair, Restock, Train|QID|49|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get that truesilver bar, we need it as soon as we leave.|
 B Truesilver Bar|QID|49|N|You will also need a Truesilver Bar.|L|6037|ITEM|6037|
 F Sentinel Hill|QID|49|M|66.2,62.4|Z|Stormwind City|N|Fly to Sentinel Hill in Westfall.|
-R Sweet Amber|QID|49|M|52.56,72.21;44.6,80.2|CC|Z|Westfall|N|Toward the mountain behind Deadmines.|
+R Sweet Amber|QID|49|M|52.56,72.21;44.6,80.2|CS|Z|Westfall|N|Toward the mountain behind Deadmines.|
 T Sweet Amber|QID|49|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
 A Sweet Amber|QID|50|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew|PRE|49|
 T Sweet Amber|QID|50|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
@@ -237,7 +237,7 @@ T Report Back to Fizzlebub|QID|1122|M|27.12,77.21|N|To Crank Fizzlebub.|
 T Deliver to MacKinley|QID|2874|M|27.78,77.07|N|To "Sea Wolf" MacKinley.|
 b Ratchet|QID|4124|M|25.80,73.10|N|Take the boat to Ratchet.|
 
-F Feathermoon Stronghold|QID|4124|M|63.08,37.16|Z|The Barrens|N|Fly to Feathermoon Stronghold in Feralas.|
+F Feathermoon|QID|4124|M|63.08,37.16|Z|The Barrens|N|Fly to Feathermoon Stronghold in Feralas.|
 A The Mark of Quality|QID|2821|M|30.63,42.71|Z|Feralas|N|From Pratt McGrubben.|
 h Feathermoon Stronghold|QID|4124|M|30.97,43.48|Z|Feralas|N|Set your hearthstone to Feathermoon Stronghold.|
 r Sell junk, repair, restock|QID|4124|M|30.92,43.31|Z|Feralas|N|Sell junk, repair, restock|
@@ -323,7 +323,7 @@ T Rise of the Silithid|QID|4267|M|41.8,85.6|Z|Darnassus|N|To Gracina Spiritmight
 T Doling Justice|QID|2972|M|39.11,81.59|Z|Darnassus|N|To Tyrande Whisperwind.|
 r Sell junk, repair, restock, train skills|QID|4281|N|Sell junk, repair, restock, train skills|
 
-F Feathermoon Stronghold|ACTIVE|4281|N|Fly back to Feathermoon Stronghold. (Or Hearth if you are returning from a break)|
+F Feathermoon|ACTIVE|4281|N|Fly back to Feathermoon Stronghold. (Or Hearth if you are returning from a break)|
 K Lord Shalzaru|ACTIVE|2870|QO|1|M|25.5,64.4;28.6,70.7|CS|Z|Feralas|T|Lord Shalzaru|N|Swim to the island south of there and kill Lord Shalzaru inside the cave then loot the relic. This will be tough, bring lots of food and water.\n\nThe naga here are packed tight, melee might have some trouble with the casters. Just leave room for you to run away a bit after range pulling so they chase after you if a proper LOS spot isn't available.|
 T Against Lord Shalzaru|QID|2870|M|30.38,46.17|Z|Feralas|N|To Latronicus Moonspear.|
 A Delivering the Relic|QID|2871|M|30.38,46.17|Z|Feralas|N|From Latronicus Moonspear.|PRE|2870|
@@ -348,7 +348,7 @@ F Ratchet|QID|51|M|51.01,29.35|Z|Tanaris|N|Fly to Ratchet.|
 b Booty Bay|QID|51|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
 A The Bloodsail Buccaneers|QID|608|M|27.17,77.01|N|From Fleet Master Seahorn.|PRE|604|
 A Stranglethorn Fever|QID|348|M|27.61,76.73|N|From Fin Fizracket. Get those Gorilla Fangs out the bank. This will most likely require a group.|
-C Stranglethorn Fever|QID|348|M|35.27,60.40|N|You need to turn in the 10 Gorilla Fangs you gathered earlier to Witch Doctor Unbagwa.\n\n3 waves of Gorillas will spawn. You just need to get to the last phase to focus down Mokk, even if you die in the process, his corpse is still lootable. This is obviously easier with a group but it can be done solo with certain classes.\n\nThere should be a small break between each phase to eat food and drink water, take advantage of that.\n\nIf you need a partner just let general chat or guild know you need help with the quest, that you can share it and you are ready to spawn Mokk because you did all the grinding already.|
+C Stranglethorn Fever|QID|348|M|35.27,60.40|N|You need to turn in the 10 Gorilla Fangs you gathered earlier to Witch Doctor Unbagwa.\n\n2 waves of Gorillas will spawn. You just need to get to the last phase to focus down Mokk, even if you die in the process, his corpse is still lootable.n\nThere should be a small break between each phase to eat food and drink water, take advantage of that.\n\nIf you need a partner just let general chat or guild know you need help with the quest, that you can share it and you are ready to spawn Mokk because you did all the grinding already.|
 L Level Check|QID|608|N|If you haven't hit level 45 yet you may want to Grind the rest of the way there. If this is the case then you either haven't been following the guides or you have been extremely lucky on drops!|LVL|45|
 N Things to do|ACTIVE|608|M|32.9,88.2|N|Coming next, you will be killing pirates on 3 ships. While there, keep a sharp eye out for a rolled up scroll that can be about anywhere below deck. It starts Cortello's Riddle quest. Avoid fighting on the stairs or you may have multi floor agro.|
 l Cortello's Riddle|QID|624|M|32.9,88.2|S|N|Find a rolled up scroll called Cortello's Riddle that spawns on the floor randomly. Tip: If you die you can scout the boats as a ghost to find this.|L|4056|
@@ -356,13 +356,13 @@ K Captain Stillwater|ACTIVE|608|QO|1|M|32.9,88.2|T|Captain Stillwater|N|Head int
 K Fleet Master Firallon|ACTIVE|608|QO|3|M|30.6,90.6|T|Fleet Master Firallon|N|Fleet Master Firallon can be found in the next ship at . Don't forget to watch for Cortello's Riddle.|
 K Captain Keelhaul|ACTIVE|608|QO|2|M|29.3,88.4|T|Captain Keelhaul|N|Captain Keelhaul is in the last ship at . Don't forget to watch for Cortello's Riddle.|
 l Cortello's Riddle|QID|624|M|32.9,88.2|US|N|Find a rolled up scroll called Cortello's Riddle that spawns on the floor randomly.|L|4056|
-A Whiskey Slim's Lost Grog|QID|580|M|27.14,77.45|N|From Whiskey Slim.|
 T Stranglethorn Fever|QID|348|M|27.61,76.73|N|To Fin Fizracket.|
+A Whiskey Slim's Lost Grog|QID|580|M|27.14,77.45|N|From Whiskey Slim.|
 T The Bloodsail Buccaneers|QID|608|M|27.2,77.0|N|To Fleet Master Seahorn, back in Booty Bay.|
 A Cortello's Riddle|QID|624|M|PLAYER|U|4056|N|From item in your inventory.|
 
 F Sentinel Hill|QID|51|M|27.53,77.78|N|At Gyll. Unfortunately we got some running around to do, tying up loose ends and getting us back in sync.|
-R Sweet Amber|QID|51|M|52.56,72.21;44.6,80.2|CC|Z|Westfall|N|Toward the mountain behind Deadmines.|
+R Sweet Amber|QID|51|M|52.5,72.2;44.6,80.2|CS|Z|Westfall|N|Toward the mountain behind Deadmines.|
 T Sweet Amber|QID|51|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
 A Sweet Amber|QID|53|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew|PRE|51|
 
@@ -373,7 +373,7 @@ T Cortello's Riddle|QID|624|M|22.87,48.19|Z|Swamp of Sorrows|N|Under an ornate b
 A Cortello's Riddle|QID|625|M|22.87,48.19|Z|Swamp of Sorrows|N|From A Soggy Scroll.|PRE|624|
 R Deadwind Pass|ACTIVE|625|M|60.00,41.20|Z|Deadwind Pass|N|Run to Duskwood through Deadwind Pass.|
 
-F Stormwind City|QID|1452|M|77.48,44.29|Z|Duskwood|N|Fly to Stormwind.|
+F Stormwind|QID|1452|M|77.48,44.29|Z|Duskwood|N|Fly to Stormwind.|
 r Repair, Restock, Train|QID|1452|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get those elixers, we will need them on this next leg.|
 B Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude. You need these on you now.|L|3825 2|
 R Deeprun Tram|QID|1452|M|63.85,8.19|Z|Stormwind City|N|Run to the Deeprun tram.|
@@ -391,6 +391,7 @@ A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6c
 T Cortello's Riddle|QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
 A Cortello's Riddle|QID|626|M|31.10,66.13|Z|Dustwallow Marsh|PRE|625|
 
+f Mudsprocket|QID|3841|M|42.83,72.42|Z|Dustwallow Marsh|N|Get the flight path at Dyslix Silvergrub.|
 F Gadgetzan|ACTIVE|3841|Z|Dustwallow Marsh|N|Fly back to Tanaris|
 A The Thirsty Goblin|QID|2605|M|51.80,28.65|Z|Tanaris|N|From Marin Noggenfogger.|
 A Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|From Tran'Rek|
@@ -443,9 +444,9 @@ T Cortello's Riddle|QID|626|M|80.81,46.79|Z|The Hinterlands|N|Dive down under th
 K Gammerita|ACTIVE|2944|M|82,49;75,67|Z|The Hinterlands|CN|U|9328|L|9330|T|Gammerita|N|Search the coast for an aggressive-flagged turtle named Gammerita. Take her picture with the Super Snapper FX. The camera will cause her to charge, but you can run, vanish, etc, don't have to kill her.(Picture of her dead works, if she is dead when you arrive.)|
 C Whiskey Slim's Lost Grog|QID|580|M|82,49;75,67|Z|The Hinterlands|CN|NC|US|N|Collect the Pupellyverbos Port that is scattered along the shore, they are tiny blue bottles, hard to see, may need to crank graphics down to see clearly.|
 C Food for Baby|QID|4297|M|63.00,50.00|Z|The Hinterlands|US|N|Kill Silvermane Stalkers for their flanks. Start making your way back toward Aerie Peak.|
-C Wildkin Feathers|QID|3661|S|NC|N|Pick up from the ground, might need to crank down graphics. Start making your way back toward Aerie Peak.|
 
-R Wildhammer Keep|QID|2989|N|Run back to Wildhammer Keep. Save your hearthstone, we will need it shortly.|
+
+R Wildhammer Keep|QID|2989|M|14.35,46.47|N|Run back to Wildhammer Keep. Save your hearthstone, we will need it shortly.|
 T Skulk Rock Clean-up|QID|2877|M|14.84,44.57|Z|The Hinterlands|N|To Fraggar Thundermantle.|
 T Food for Baby|QID|4297|M|14.15,43.62|Z|The Hinterlands|N|To Agnar Beastamer. Downstairs in the basement|
 A Becoming a Parent|QID|4298|M|14.15,43.62|Z|The Hinterlands|N|From Agnar Beastamer.|PRE|4297|
@@ -535,17 +536,17 @@ T Rhapsody's Tale|QID|1469|M|64.33,20.65|Z|Stormwind City|N|To Brohann Caskbelly
 r City Stuff in stormwind|QID|580|N|Sell junk, repair, restock, train, auction, professions.|
 
 F Sentinel Hill|QID|53|M|66.28,62.16|Z|Stormwind City|N|At Dungar Longdrink.|
-R Sweet Amber|QID|53|M|52.56,72.21;44.6,80.2|CC|Z|Westfall|N|Toward the mountain behind Deadmines.|
+R Sweet Amber|QID|53|M|52.5,72.2;44.6,80.2|CS|Z|Westfall|N|Toward the mountain behind Deadmines.|
 T Sweet Amber|QID|53|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
 
-F Blasted Lands|ACTIVE|2990|M|56.56,52.65|Z|Westfall|N|At Thor.|
+F Nethergarde Keep|ACTIVE|2990|M|56.56,52.65|Z|Westfall|N|At Thor.|
 T Thadius Grimshade|QID|2990|M|66.90,19.47|Z|Blasted Lands|N|To Thadius Grimshade. Up on top of the tower. Skip follow-up unless you intend on doing Zul'Farrak.|
 
 F Booty Bay|QID|580|M|65.53,24.33|Z|Blasted Lands|N|Fly to Booty Bay.|
 T Whiskey Slim's Lost Grog|QID|580|M|27.14,77.45|N|To Whiskey Slim.|
 b Ratchet|QID|2943|M|25.80,73.10|N|Take the boat to Ratchet.|
 
-F Feathermoon Stronghold|QID|2943|M|63.10,37.15|Z|The Barrens|N|Fly to Feathermoon.|
+F Feathermoon|QID|2943|M|63.10,37.15|Z|The Barrens|N|Fly to Feathermoon.|
 T Return to Troyas|QID|2943|Z|Feralas|M|31.78,45.50|N|To Troyas Moonbreeze.|
 A The Stave of Equinex|QID|2879|Z|Feralas|M|31.78,45.50|N|From Troyas Moonbreeze.|PRE|2943|
 A The Sunken Temple|QID|3445|M|31.83,45.61|Z|Feralas|N|From Angelas Moonbreeze.|
@@ -560,8 +561,9 @@ C Fuel for the Zapping|QID|7721|M|42,37;49,54|CS|Z|Feralas|US|N|Finish collectin
 T Zapped Giants|QID|7003|M|44.81,43.42|Z|Feralas|N|To Zorbin Fandazzle.|
 T Fuel for the Zapping|QID|7721|M|44.81,43.42|Z|Feralas|N|To Zorbin Fandazzle.|
 
+C Improved Quality|QID|7733|M|52.2,31.6|Z|Feralas|N|Kill Yetis until you get the hides for this quest.|S|
 K Rage Scar Yetis|ACTIVE|7733|M|52,32|Z|Feralas|L|18969|N|Kill Yetis at this location until you get a Pristine Yeti Hide (follow the road there).|
-C Improved Quality|QID|7733|M|52.2,31.6|Z|Feralas|N|Kill Yetis until you get the hides for this quest.|
+C Improved Quality|QID|7733|M|52.2,31.6|Z|Feralas|N|Kill Yetis until you get the hides for this quest.|US|
 A Pristine Yeti Hide|QID|7735|U|18969|N|Right-click the hide to start the quest.|
 
 A The Giant Guardian|QID|2844|M|42.4,22.0|Z|Feralas|N|From Rockbiter.|
@@ -583,12 +585,12 @@ T Find OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|To Homing Robot OOX-22/FE.|
 A Rescue OOX-22/FE!|QID|2767|M|53.30,55.60|Z|Feralas|N|From Homing Robot OOX-22/FE. Rather difficult (perhaps impossible) to solo, so shout out to see if anyone else wants to help.|PRE|2766|
 C Rescue OOX-22/FE!|QID|2767|M|53.30,55.60|Z|Feralas|N|Follow the chicken, 3 preset ambushes occur along the way.|
 
-R Feathermoon Stronghold|QID|7733|Z|Feralas|N|Head back to turn in our quests.|
+R Feathermoon Stronghold|QID|7733|Z|Feralas|M|48.0,24.8;48.1,38.3;43.40,42.75|CS|N|Head back to turn in our quests.|
 T Pristine Yeti Hide|QID|7735|M|30.63,42.71|Z|Feralas|N|To Pratt McGrubben.|
 T Improved Quality|QID|7733|M|30.63,42.71|Z|Feralas|N|To Pratt McGrubben.|
 T The Morrow Stone|QID|2942|M|31.78,45.50|Z|Feralas|N|To Troyas Moonbreeze.|
 
-F Gadgetzan|QID|3445|M|30.24,43.25|Z|Feralas|N|Fly to Gadgetzan.|
+F Gadgetzan|ACTIVE|2641|M|30.24,43.25|Z|Feralas|N|Fly to Gadgetzan.|
 T I Know A Guy...|QID|6612|M|52.63,28.11|Z|Tanaris|N|From Andi Lynn. Cooking quest, If you have the 12 Giant Eggs, 10 Zesty Clam Meat and 20 Alterac Swiss already then feel free to finish this quest chain. Otherwise you can finish it toward the end of the guide.\n\nThis is because while you should already have dozens of Zesty Clam Meat from everything you've done already, you are probably lacking the Eggs, which you will get in abundance once we goto Blasted Lands on our next leg.|
 A Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|N|From Dirge Quikcleave.|P|Cooking;185;0+225;0|
 T The Undermarket|QID|3402|M|51,27.4|Z|Tanaris|N|To Vizzklick.|P|Tailoring;197;0+230;0|
@@ -629,9 +631,9 @@ R The Gaping Chasm|ACTIVE|10|M|56,71|Z|Tanaris|N|Continue South to the Gaping Ch
 R The Scrimshank Redemption|ACTIVE|10|M|55.77,68.97;56.22,68.38;57.17,70.10;57.58,70.79|Z|Tanaris|CS|N|Go down the spiral and take the second tunnel (it goes north). Go right at the first fork, then through the circle room, then right at the fork. Loot the Surveying Gear from the room up ahead (the arrow will point to it).|
 C The Scrimshank Redemption|QID|10|M|55.96,71.16|Z|Tanaris|N|Click on Scrimshank's Surveying Gear to collect it.|
 A Find OOX-17/TN!|QID|351|U|8623|N|If you have the OOX-17/TN distress beacon, right click it to start this quest.|
-t Find OOX-17/TN!|QID|351|M|60,65|N|If you have the OOX-17/TN quest, turn it in.|
+t Find OOX-17/TN!|QID|351|M|60.19,64.70|Z|Tanaris|N|If you have the OOX-17/TN quest, turn it in.|
 A Rescue OOX-17/TN!|QID|648|N|This is an Escort Quest. This will be near impossible to solo.|PRE|351|
-C Rescue OOX-17/TN!|QID|648|N|Let the chicken lead, so he will get hit first.  There are 3 preset ambushes in route.|
+C Rescue OOX-17/TN!|QID|648|Z|Tanaris|N|Let the chicken lead, so he will get hit first.  There are 3 preset ambushes in route.|
 T Gahz'ridian|QID|3161|M|52.71,45.92|Z|Tanaris|N|To Marvon Rivetseeker.|
 
 T The Scrimshank Redemption|QID|10|M|50.21,27.48|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
