@@ -142,12 +142,13 @@ A Underlight Ore Samples|QID|9207|M|31.42,48.31|N|From Apprentice Shatharia.|
 C Underlight Ore Samples|QID|9207|M|29.25,47.93|L|22634 6|N|Kill gnolls to loot them.|S|
 K Trouble at the Underlight Mines|ACTIVE|9192|M|29.25,47.93|QO|1;2;3|N|Head down the slope and kill any gnoll you need.|
 C Underlight Ore Samples|QID|9207|M|29.25,47.93|L|22634 6|N|You should have all the ore you need by the time you get done the previous step. If not, keep killing gnolls until you do.|US|
-K Retaking Windrunner Spire|ACTIVE|9173|M|25.5,55.5;11.0,56.0|CC|QO|1;2|N|Kill 8 Acolytes, and 10 Fallen Rangers.|
-l The Lady's Necklace|QID|9175|M|11.04,56.98|L|22597|N|Kill Acolytes and Fallen Rangers until this drops.|
+K Retaking Windrunner Spire|ACTIVE|9173|M|25.5,55.5;11.0,56.0|CC|QO|1;2|N|Kill Acolytes and Fallen Rangers.\n[color=FF0000]NOTE: [/color]If you're have issues killing them, you can avoid the risk of pulling adds inside the tower by staying on the path, or you can go down the right side, or dropping down the left side at the entrance to the tower platform below you.|
+l The Lady's Necklace|AVAILABLE|9175|M|11.04,56.98|L|22597|N|Kill Acolytes and Fallen Rangers until this drops.|
 A The Lady's Necklace|QID|9175|M|PLAYER|N|Accept the quest from the necklace.|U|22597|O|
-; jump into water - Hendo72
-; split next step into 2 as each are in distinct groups. focus on Phantasmal first. - Hendo72
-C Windrunner Village|QID|9140|M|17.95,42.65|N|Jump into the water and swim into the village. Kill Phantasms and Gargoyles until you get 6 Phantasmal Substances, and 4 Gargoyle Fragments.|
+R Windrunner Village|ACTIVE|9140|M|18.39,49.85|N|Head back down to the bottom of the path and head north.\n[color=FF0000]NOTE: [/color]If you are on one of the tiers of the tower, you can jump into the water and swim to the village.|
+C Windrunner Village|QID|9140|M|17.95,42.65|N|Kill Gargoyles to loot Gargoyle Fragments. You'll find them spread out around the area.|S|
+C Windrunner Village|QID|9140|M|17.95,42.65|N|Kill Phantasms to loot Phantasmal Substances. You'll find them inside the buildings|
+C Windrunner Village|QID|9140|M|17.95,42.65|N|Kill Gargoyles to loot Gargoyle Fragments. You'll find them spread out around the area.|US|
 C Into Occupied Territory|QID|9163|M|10.56,22.49|N|Night Elf Plans: An'daroth and An'owyn, can be in several spots on the isle. Night Elf Plans: Scrying on Sin'dorei, is on the boat.| ; 10.44,22.58 Scrying / An'daroth 12.53,26.51 12.80,25.08 13.70,26.84 14.77,26.61 / An'owyn 12.54,24.80 or 12.86,23.92
 L Level 16|ACTIVE|9140|N|Grind until you're level 16.|LVL|16|
 H Tranquillien|ACTIVE|9140|
