@@ -146,10 +146,13 @@ K Retaking Windrunner Spire|ACTIVE|9173|M|25.5,55.5;11.0,56.0|CC|QO|1;2|N|Kill A
 l The Lady's Necklace|AVAILABLE|9175|M|11.04,56.98|L|22597|N|Kill Acolytes and Fallen Rangers until this drops.|
 A The Lady's Necklace|QID|9175|M|PLAYER|N|Accept the quest from the necklace.|U|22597|O|
 R Windrunner Village|ACTIVE|9140|M|18.39,49.85|N|Head back down to the bottom of the path and head north.\n[color=FF0000]NOTE: [/color]If you are on one of the tiers of the tower, you can jump into the water and swim to the village.|
-C Windrunner Village|QID|9140|M|17.95,42.65|N|Kill Gargoyles to loot Gargoyle Fragments. You'll find them spread out around the area.|S|
-C Windrunner Village|QID|9140|M|17.95,42.65|N|Kill Phantasms to loot Phantasmal Substances. You'll find them inside the buildings|
-C Windrunner Village|QID|9140|M|17.95,42.65|N|Kill Gargoyles to loot Gargoyle Fragments. You'll find them spread out around the area.|US|
-C Into Occupied Territory|QID|9163|M|10.56,22.49|N|Night Elf Plans: An'daroth and An'owyn, can be in several spots on the isle. Night Elf Plans: Scrying on Sin'dorei, is on the boat.| ; 10.44,22.58 Scrying / An'daroth 12.53,26.51 12.80,25.08 13.70,26.84 14.77,26.61 / An'owyn 12.54,24.80 or 12.86,23.92
+C Windrunner Village|QID|9140|M|17.95,42.65|QO|2|N|Kill Stonewing Slayers to loot Gargoyle Fragments. You'll find them spread out around the area.|S|
+C Windrunner Village|QID|9140|M|17.62,44.21|QO|1|N|Kill Phantasmal Seekers to loot Phantasmal Substances. You'll find them inside the buildings|
+C Windrunner Village|QID|9140|M|17.95,42.65|QO|2|N|Kill Stonewing Slayers to loot Gargoyle Fragments. You'll find them spread out amongst the buildings in the area.|US|
+R Shalandis Isle|ACTIVE|9163|M|15.02,28.63|
+C Into Occupied Territory|ACTIVE|9163|M|14.77,26.61;13.70,26.84;12.53,26.51;12.80,25.08|CN|L|22590|QO|1|N|Night Elf Plans: An'daroth can found be in several spots on the isle.|
+C Into Occupied Territory|ACTIVE|9163|M|12.80,25.08;12.54,24.80;12.86,23.92|CN|L|22591|QO|2|N|Night Elf Plans: An'owyn can found be in several spots on the isle.|
+C Into Occupied Territory|ACTIVE|9163|M|10.44,22.58|L|22592|QO|3|N|Night Elf Plans: Scrying on the Sin'dorei, is on the boat.|
 L Level 16|ACTIVE|9140|N|Grind until you're level 16.|LVL|16|
 H Tranquillien|ACTIVE|9140|
 F Silvermoon City|ACTIVE|9140|M|45.43,30.53|
