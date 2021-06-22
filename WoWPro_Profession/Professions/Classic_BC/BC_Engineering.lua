@@ -24,7 +24,7 @@ N This Guide|QID|202000001|N|Covers THE BURNING CRUSADE content in CLASSIC only.
 N PLEASE Report any issues|QID|202000002|N|In our Discord #tbc-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|202000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can. ** Details do need to fleshed out still **|
 
-N Shopping List|QID|202000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Engineering 1 to 375, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|202000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Engineering 1 to 375.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 l [item=2835/Rough Stone]|QID|202000004|L|2835 60|ITEM|2835|N|You'll need about 60 Rough Stones.|
 l [item=2840/Copper Bar]|QID|202000004|L|2840 66|ITEM|2840|N|You'll need about 66 Copper Bars.|
@@ -60,7 +60,7 @@ N Shopping List|QID|202000005|N|This completes the Shopping List, you may either
 
 
 = Learn [spell=4036/Engineering]|QID|202002259|SPELL|Engineering;4036|LVL|5|N|Learn from a Trainer in any major city.|
-B [item=5956/Blacksmith Hammer]|QID|202005956|P|Blacksmithing;164;0+1;0|ITEM|5956|L|5956 1|N|Buy from a NPC Supply|
+B [item=5956/Blacksmith Hammer]|QID|202005956|ITEM|5956|L|5956 1|N|Buy from a NPC Supply|
 M [item=4357/Rough Blasting Powder]|QID|202003918|P|Engineering;202;0+30;1|ITEM|4357|CRAFT|3918 60|MATS|2835 1|N|Make all 60, you will need for later steps.|
 M [item=4359/Handful of Copper Bolts]|QID|202003922|P|Engineering;202;0+50;1|ITEM|4359|CRAFT|3922 30|MATS|2840 1|N|Make all 30, you will need for later steps.|
 M [item=6219/Arclight Spanner]|QID|202007430|P|Engineering;202;0+51;1|ITEM|4359|CRAFT|7430 1|MATS|2840 6|N|KEEP! You will need this to craft your Engineering Recipes.|
@@ -101,9 +101,9 @@ M [item=23782/Fel Iron Casing]|QID|202030304|P|Engineering;202;0+320;1|L|23782 5
 M [item=23736/Fel Iron Bomb]|QID|202030310|P|Engineering;202;0+325;1|L|23736 5|ITEM|23736|CRAFT|30310 5|MATS|23782 1;23783 2;23781 1|
 M [item=23784/Adamantite Frame]|QID|202030306|P|Engineering;202;0+335;1|ITEM|23784|CRAFT|30306 30|MATS|23446 4;22452 1|N|You will need all 30, in a later step.|
 B [item=23811/Schematic - White Smoke Flare]|QID|202003351|P|Engineering;202;0+335|N|Purchase from Wind Trader Lathrai in Shattrath City. Also from Engineering Supplies in The Exodar OR Silvermoon City.|
-M [item=23768/White Smoke Flare]|QID|202030341|P|Engineering;202;0+355;1|ITEM|23768|CRAFT|30341 40|MATS|23768 23781 1;21877 1|N|This is an approximate number, you may need to make more or less.|
+M [item=23768/White Smoke Flare]|QID|202030341|P|Engineering;202;0+355;1|ITEM|23768|CRAFT|30341 40|MATS|23781 1;21877 1|N|This is an approximate number, you may need to make more or less.|
 M [item=23786/Khorium Power Core]|QID|202030308|P|Engineering;202;0+360;1|L|23786 5|ITEM|23786|CRAFT|30308 5|MATS|23449 3;21884 1|N|You only need 5, dont worry about not reaching 360. This step will clear once you have five.|
-B [spell=30313/Adamantite Rifle]|QID|202003501|M|64.8,69.6|Z|1955; Shattrath City|P|Engineering;202;0+350|N|Pruchase [item=23799/Schematic - Adamantite Rifle] from Viggz Shinesparked in Lwoer City, Shattrath City.|
+B [spell=30313/Adamantite Rifle]|QID|202003501|M|64.8,69.6|Z|1955; Shattrath City|P|Engineering;202;0+350|N|Purchase [item=23799/Schematic - Adamantite Rifle] from Viggz Shinesparked in Lower City, Shattrath City.|
 M [item=23746/Adamantite Rifle]|QID|202030313|P|Engineering;202;0+370;1|ITEM|23746|CRAFT|30313 15|MATS|23782 3;23784 2;23783 4|
 K Gan'arg Analyzer|QID|202003601|M|28.6,45.6;32.8,52.0;31.6,63.0;27.8,68.2|CN|Z|1949; Blade's Edge Mountain|ITEM|34114|RECIPE|44391|N|Kill the Analyzers (Simon Unit) in these areas until [item=34114/Schematic - Field Repair Bot 110G] Drops. This step SHOULD clear, once it drops.|
 M [item=34113/Field Repair Bot 110G]|QID|202044391|P|Engineering;202;0+375;1|ITEM|34113|CRAFT|44391 5|MATS|23446 8;23783 8;23786 1|N|This recipe is dropped by Gan'arg Analyzers in Blade's Edge Mountain.|

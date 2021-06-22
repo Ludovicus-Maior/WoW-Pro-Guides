@@ -21,7 +21,7 @@ return [[
 ; N Guide Hub|QID|755000000|JUMP|Jewelcrafting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|755000001|N|Currently in Development, This Guide covers Outland content in Retail. \n[color=FF0000]NOTE: [/color]This guide, is just the Make (Create) steps for now, will be fleshed out at a later time.|
-N PLEASE Report any issues|QID|755000002|N|In our Discord #retail-bug-reports|
+N PLEASE Report any issues|QID|755000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|755000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|755000004|N|There is no Shopping list for this one, to complete JC 1 to 75.|
 
