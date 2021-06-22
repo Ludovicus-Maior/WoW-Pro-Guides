@@ -152,7 +152,7 @@ C Windrunner Village|QID|9140|M|17.95,42.65|QO|2|N|Kill Stonewing Slayers to loo
 R Shalandis Isle|ACTIVE|9163|M|15.02,28.63|
 C Into Occupied Territory|ACTIVE|9163|M|14.77,26.61;13.70,26.84;12.53,26.51;12.80,25.08|CN|L|22590|QO|1|N|Night Elf Plans: An'daroth can found be in several spots on the isle.|
 C Into Occupied Territory|ACTIVE|9163|M|12.80,25.08;12.54,24.80;12.86,23.92|CN|L|22591|QO|2|N|Night Elf Plans: An'owyn can found be in several spots on the isle.|
-C Into Occupied Territory|ACTIVE|9163|M|10.44,22.58|L|22592|QO|3|N|Night Elf Plans: Scrying on the Sin'dorei, is on the boat.|
+C Into Occupied Territory|ACTIVE|9163|M|10.44,22.58|L|22592|QO|3|N|Night Elf Plans: Scrying on the Sin'dorei, is on the boat.\n[color=FF0000]NOTE: [/color]It is possible to pull one mob at a time. It's in your best interest to clear the ship.|
 L Level 16|ACTIVE|9140|N|Grind until you're level 16.|LVL|16|
 H Tranquillien|ACTIVE|9140|
 F Silvermoon City|ACTIVE|9140|M|45.43,30.53|
@@ -321,12 +321,12 @@ A Meeting the Warchief|QID|9626|M|57.93,91.79|Z|Undercity|N|From Lady Sylvanas W
 R Orgrimmar Zepplin|ACTIVE|9626|M|60.71,58.78|Z|Tirisfal Glades|N|Go up the tower and take the Zepplin.|
 b Durotar|ACTIVE|9626|
 T Meeting the Warchief|QID|9626|M|31.76,37.83|Z|Orgrimmar|N|To Thrall.|
-A Allegiance to the Horde|QID|9627|M|31.76,37.83|Z|Orgrimmar|N|To Thrall.|R|BloodElf|
+A Allegiance to the Horde|QID|9627|M|31.76,37.83|Z|Orgrimmar|N|From Thrall.|R|BloodElf|
 h Orgrimmar|ACTIVE|9627|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will make sense shortly.|IZ|1454|
 R Undercity Zepplin|ACTIVE|9627|M|50.82,13.59|Z|Durotar|N|Go up the tower and take the Zepplin.|
 b Tirisfal Glades|ACTIVE|9627|
 P Silvermoon City|ACTIVE|9627|M|55.02,11.28|Z|Undercity|N|Click on the Orb of Translocation.|
 T Allegiance to the Horde|QID|9627|M|53.85,20.31|Z|Silvermoon City|N|To Lor'themar Theron.|
-H Orgrimmar|
+H Orgrimmar|AVAILABLE|6421|N|I told you it would make sense... ;)|
 ]]
 end)
