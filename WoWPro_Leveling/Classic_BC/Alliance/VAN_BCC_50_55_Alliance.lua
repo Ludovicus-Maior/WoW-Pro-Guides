@@ -6,7 +6,7 @@ Permissions beyond the scope of this license may be available at http://github.c
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_50_55_Alliance', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Alliance Leveling 50-55')
 WoWPro:GuideLevels(guide,50, 55)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Dungeon_BRD')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_55_60_Alliance')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Level Check: 50|M|PLAYER|N|You really do have to be level 50 to start this guide, the opening quests require you to be level 50 to even see them. If you're not quite there, you need to either grind it out or do the dungeon recommendations.|LVL|-50|
@@ -42,17 +42,17 @@ T Arcane Runes|QID|3449|M|77.80,91.32|Z|Azshara|N|To Pilot Xiggs Fuselighter.|U|
 A Return to Tymor|QID|3461|M|77.81,91.41|Z|Azshara|N|From Pilot Xiggs Fuselighter.|PRE|3449|
 
 H Gadgetzan|QID|4493|M|PLAYER|Z|Azshara|N|Hearth to Gadgetzan, or if you bound somewhere else. Make your way to Tanaris.|
-h Gadgetzan|QID|4493|N|Set your Hearthstone to Gadgetzan in Tanaris.|
 A Super Sticky|QID|4504|M|51.57,26.76|Z|Tanaris|N|From Tran'rek.|
 T March of the Silithid|QID|4493|M|50.88,26.96|Z|Tanaris|N|To Alchemist Pestlezugg.|
 A Bungle in the Jungle|QID|4496|M|50.88,26.96|Z|Tanaris|N|From Alchemist Pestlezugg.|PRE|4493|
 
 R Un'Goro Crater|QID|3844|M|27.00,57.00;27.08,51.27|CC|Z|Tanaris|N|Go down the slope to Un'Goro Crater.|
-C Un'Goro Soil|QID|3764|M|PLAYER|Z|Un'Goro Crater|S!US|N|Mounds of soil from the ground and most creatures.|
+l Un'Goro Soil|QID|3764|M|PLAYER|Z|Un'Goro Crater|S|N|Mounds of soil from the ground and most creatures.|L|11018 25|
 l Blue Power Crystal|QID|4284|M|PLAYER|Z|Un'Goro Crater|S|N|Blue Crystals from the ground.|L|11184 7|
 l Green Power Crystal|QID|4284|M|PLAYER|Z|Un'Goro Crater|S|N|Green Crystals from the ground.|L|11185 7|
 l Red Power Crystal|QID|4284|M|PLAYER|Z|Un'Goro Crater|S|N|Red Crystals from the ground.|L|11186 7|
 l Yellow Power Crystal|QID|4284|M|PLAYER|Z|Un'Goro Crater|S|N|Yellow Crystals from the ground.|L|11188 7|
+C Un'Goro Soil|QID|3764|M|PLAYER|Z|Un'Goro Crater|S!US|N|Mounds of soil from the ground and most creatures.|
 A The Apes of Un'Goro|QID|4289|M|71.64,75.96|Z|Un'Goro Crater|N|From Torwa Pathfinder.|
 A The Fare of Lar'korwi|QID|4290|M|71.64,75.96|Z|Un'Goro Crater|N|From Torwa Pathfinder.|
 A It's a Secret to Everybody|QID|3844|M|63.00,68.50|Z|Un'Goro Crater|N|From a Wrecked Raft.|
@@ -112,9 +112,10 @@ C Shizzle's Flyer|QID|4503|M|67.3,32.6|Z|Un'Goro Crater|US|N|Kill Diemetradons a
 C Roll the Bones|QID|3882|M|34.75,72.40|Z|Un'Goro Crater|US|N|You can pick the bones off the ground for this quest. But you will most likely get all you need from the diametradons.|
 C Muigin and Larion|QID|4141|M|65.00,27.00|Z|Un'Goro Crater|US|N|Kill and loot Bloodpetals.|
 C Bungle in the Jungle|QID|4496|M|50.88,26.96|Z|Tanaris|QO|2|N|Make sure you have at least 5 soil before you head back.|
+C Beware of Pterrordax|QID|4501|M|50.50,88.10|Z|Un'Goro Crater|QO|1|N|Kill the Pterrodax around.|
 L Level Check|QID|4141|N|You should be about a bubble from level 51 before turning in these quests. No need to grind but you should try killing a little extra in your travels.|LVL|50;-7000|
 
-T Shizzle's Flyer|QID|4503|M|44.23,11.59|Z|Un'Goro Crater|N|ToShizzle.|
+T Shizzle's Flyer|QID|4503|M|44.23,11.59|Z|Un'Goro Crater|N|To Shizzle.|
 T Muigin and Larion|QID|4141|M|42.94,9.64|Z|Un'Goro Crater|N|To Mulgin.|
 A A Visit to Gregan|QID|4142|M|42.94,9.64|Z|Un'Goro Crater|N|From Mulgin.|PRE|4141|
 T Beware of Pterrordax|QID|4501|M|43.62,8.50|Z|Un'Goro Crater|N|To Spraggle Frock.|
@@ -131,7 +132,7 @@ T Making Sense of It|QID|4321|M|41.9,2.7|Z|Un'Goro Crater|N|To J.D. Collie.|
 r Sell junk, repair, restock|QID|4504|M|44.11,7.19|Z|Un'Goro Crater|N|Sell junk, repair, restock.|
 C Super Sticky|QID|4504|M|46.91,17.17|Z|Un'Goro Crater|N|Kill the Tar Lurkers and Lords around the Tar Pits.|
 A Finding the Source|QID|974|M|30.92,50.44|Z|Un'Goro Crater|N|From Krakle.|
-C Finding the Source|QID|974|M|45.40,48.54;48.04,53.40;53.88,55.13;54.04,47.49;49.67,45.74|CN|Z|Un'Goro Crater|N|Take readings from the hotspots.|U|12472|
+C Finding the Source|QID|974|M|45.4,48.5;48.0,53.4;53.8,55.1;54.0,47.4;49.6,45.7|CS|Z|Un'Goro Crater|N|Take readings from the hotspots.|U|12472|
 T Finding the Source|QID|974|M|30.92,50.44|Z|Un'Goro Crater|N|To Krakle.|
 A The New Springs|QID|980|M|30.92,50.44|Z|Un'Goro Crater|N|From Krakle.|PRE|974|
 
@@ -158,7 +159,7 @@ l Evergreen Herb Casing|QID|3785|M|PLAYER|Z|Darnassus|N|Using the Evergreen Pouc
 
 R Rut'theran Village|QID|8460|M|30.04,41.32|Z|Darnassus|N|Run back in the portal to Rut'theran Village.|
 F Astranaar|QID|8460|M|58.39,94.01|Z|Teldrassil|N|Head to Ashenvale.|
-R Felwood|QID|8460|M|38.61,57.68;49.55,56.49;57.85,55.74;61.07,48.60;60.91,43.96;57.40,32.30;55.80,28.79|CC|Z|Ashenvale|N|Make your way up to Felwood.|
+R Felwood|QID|8460|M|38.6,57.6;49.5,56.4;57.8,55.7;61.0,48.6;60.9,43.9;57.4,32.3;55.8,28.7|CS|Z|Ashenvale|N|Make your way up to Felwood.|
 A Cleansing Felwood|QID|4101|M|54.19,86.80|Z|Felwood|N|From Arathandris Silversky.|
 A Timbermaw Ally|QID|8460|M|50.93,85.00|Z|Felwood|N|From Grazle.|
 C Timbermaw Ally|QID|8460|M|48.12,92.92|Z|Felwood|N|Kill the Furbolgs needed for the quest.|
@@ -208,9 +209,9 @@ f Everlook|QID|4101|M|62.33,36.61|Z|Winterspring|N|Get the flightpath from Maeth
 F Talonbranch Glade|QID|4101|M|62.33,36.61|Z|Winterspring|N|Fly back to Felwood.|
 C Cleansing Felwood|QID|4101|M|55.50,16.75|Z|Felwood|N|Goto the cave and surrounding area. Kill Warpwoods until you get the items for this quest.|
 R Jadefire Run|QID|4906|M|43,21|Z|Felwood|N|Head toward Jadefire Run.|
+C Further Corruption|QID|4906|M|39.3,21.4|Z|Felwood|S|N|Kill Jadefire mobs until this quest is completed.|
 K Xavaric|AVAILABLE|939|M|39.00,22.00|Z|Felwood|N|Kill Xavaric and take his flute. Avoid killing the other Jadefire for the other quest as much as you can because you will have to do it again after this.|L|11668|
 A Flute of Xavaric|QID|939|M|39.1,22.3|Z|Felwood|N|Right-click the flute and accept the quest.|U|11668|
-C Further Corruption|QID|4906|M|39.3,21.4|Z|Felwood|S|N|Kill Jadefire mobs until this quest is completed.|
 C Flute of Xavaric|QID|939|M|39.3,21.4|Z|Felwood|N|Kill Jadefire mobs until you get the felbinds.|
 C Further Corruption|QID|4906|M|39.3,21.4|Z|Felwood|US|N|Kill Jadefire mobs until this quest is completed.|
 
@@ -223,8 +224,8 @@ A Felbound Ancients|QID|4441|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|PRE
 T Cleansing Felwood|QID|4101|M|54.19,86.80|Z|Felwood|N|To Arathandris Silversky.|
 
 R Ashenvale|QID|4512|M|54.89,93.04|Z|Felwood|N|Make your way back to Astranaar.|
-R Astranaar|QID|4512|M|57.84,40.55;60.96,48.49;60.32,52.41;57.31,55.86;52.53,55.01;49.47,56.48;34.41,47.99|Z|Ashenvale|CC|N|Head back to Astranaar.|
-F Feathermoon Stronghold|QID|4512|M|34.41,47.99|Z|Ashenvale|N|Fly to Feralas.|
+R Astranaar|QID|4512|M|57.8,40.5;60.9,48.4;60.3,52.4;57.3,55.8;52.5,55.0;49.4,56.4;34.4,47.9|Z|Ashenvale|CS|N|Head back to Astranaar.|
+F Feathermoon|QID|4512|M|34.41,47.99|Z|Ashenvale|N|Fly to Feralas.|
 A Jonespyre's Request|QID|3788|M|30.97,43.49|Z|Feralas|N|From Inkeeper Shyria.|PRE|3781|
 T Jonespyre's Request|QID|3788|M|32.45,43.79|Z|Feralas|N|To Quintis Jonespyre. At the top of the tower.|
 A The Mystery of Morrowgrain|QID|3791|M|32.45,43.79|Z|Feralas|N|From Quintis Jonespyre. At the top of the tower.|PRE|3788|
@@ -303,7 +304,7 @@ f Morgan's Vigil|QID|3823|M|84.33,68.32|Z|Burning Steppes|N|Get the Flightpath f
 
 A Extinguish the Firegut|QID|3823|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|
 A FIFTY! YEP!|QID|4283|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|
-A Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|ELITE|N|[color=ff8000]Elite:[/color]From Helendis Riverhorn.\n\nThis is the start of Onyxia Lair Attunement. It's important get this started. Shouldn't be hard to get guild help or other people working on attunement in the area.|
+A Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|N|From Helendis Riverhorn.\n\nThis is the start of Onyxia Lair Attunement. It's important get this started. Shouldn't be hard to get guild help or other people working on attunement in the area.|
 
 C Extinguish the Firegut|QID|3823|M|81,41|Z|Burning Steppes|S|N|Kill the Ogres around here.|
 A Broodling Essence|QID|4726|M|65.26,23.99|Z|Burning Steppes|N|From Tinkee Steamboil.|
@@ -336,13 +337,13 @@ T The Flawless Flame|QID|3442|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windbla
 A Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3442|
 C Forging the Shaft|QID|3443|M|47.13,41.49|Z|Searing Gorge|N|Collect the daggers off Slavers and Taskmasters.|
 T Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A The Flame's Casing|QID|3452|M|39.05,38.99|Z|Searing Gorge|ELITE|N|[color=ff8000]Elite:[/color]From Kalaran Windblade. Even though it's elite, at this level it should be soloable.|PRE|3443|
-C The Flame's Casing|QID|3452|M|29.1,25.9|Z|Searing Gorge|S|ELITE|N|[color=ff8000]Elite:[/color]Kill the twilight mobs around here until you get the Symbol of Ragnaros.|
+A The Flame's Casing|QID|3452|M|39.05,38.99|Z|Searing Gorge|N|From Kalaran Windblade. Even though it's elite, at this level it should be soloable.|PRE|3443|
+C The Flame's Casing|QID|3452|M|29.1,25.9|Z|Searing Gorge|S|N|Kill the twilight mobs around here until you get the Symbol of Ragnaros.|
 A Prayer to Elune|QID|3377|M|29.51,26.35|Z|Searing Gorge|N|From Zamael Lunthistle. Go to a pool of lava here and clear your way to this npc.  The path is to the west of the location.  When pulling the mobs, pull the idolators last, since they will not attack you unless you walk close to them.  Accept the quest.|
 C Prayer to Elune|QID|3377|M|29.51,26.35|Z|Searing Gorge|CHAT|N|Talk to Zamael and go through the dialogue.|
 T Prayer to Elune|QID|3377|M|29.51,26.35|Z|Searing Gorge|N|To Zamael Lunthistle.|
-A Prayer to Elune|QID|3378|M|29.51,26.35|Z|Searing Gorge|ELITE|N|[color=ff8000]Elite:[/color]From Zamael Lunthistle.|PRE|3377|
-C Prayer to Elune|QID|3378|M|29.51,26.35|Z|Searing Gorge|ELITE|N|[color=ff8000]Elite:[/color]Kill the twilight mobs around here until you get the Prayer to Elune.|
+A Prayer to Elune|QID|3378|M|29.51,26.35|Z|Searing Gorge|N|From Zamael Lunthistle.|PRE|3377|
+C Prayer to Elune|QID|3378|M|29.51,26.35|Z|Searing Gorge|N|Kill the twilight mobs around here until you get the Prayer to Elune.|
 C The Flame's Casing|QID|3452|M|29.1,25.9|Z|Searing Gorge|US|N|Kill the twilight mobs around here until you get the Symbol of Ragnaros.|
 T The Flame's Casing|QID|3452|M|39.05,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
 A The Torch of Retribution|QID|3453|M|39.05,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3452|
@@ -363,12 +364,12 @@ T Trinkets...|QID|3481|M|38.85,39.00|Z|Searing Gorge|N|To Hoard of the Black Dra
 l Black Dragonflight Molt|QID|4022|M|38.85,39.00|Z|Searing Gorge|N|Loot the Hoard of the Black Dragonflight to get the molt.|L|10575|U|10569|
 
 F Morgan's Vigil|QID|3825|M|37.94,30.85|Z|Searing Gorge|N|Fly back to Burning Steppes.|
-C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|S|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
+C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|S|N|The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
 C Ogre Head On A Stick = Party|QID|3825|M|81.00,46.78|Z|Burning Steppes|N|Click on the Dirt Mound to place head.|
 A A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|N|From Cyrus Therepentous.|PRE|3481|
 C A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|CHAT|N|Talk with Cyrus Therepentous.|
 T A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|N|To Cyrus Therepentous. Skip follow-up|
-C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|US|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
+C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|US|N|The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
 T Ogre Head On A Stick = Party|QID|3825|M|84.55,68.68|Z|Burning Steppes|N|To Oralius.|
 T Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|N|To Helendis Riverhorn.|
 A The True Masters|QID|4183|M|85.80,68.94|Z|Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
