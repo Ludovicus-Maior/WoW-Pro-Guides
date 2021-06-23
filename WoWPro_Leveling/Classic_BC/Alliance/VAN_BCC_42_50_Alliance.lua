@@ -6,7 +6,7 @@ Permissions beyond the scope of this license may be available at http://github.c
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_42_50_Alliance', 'Leveling', 'Stranglethorn Vale', 'WoWPro Team', 'Alliance', 2)
 WoWPro:GuideName(guide, 'Alliance Leveling 42-50')
 WoWPro:GuideLevels(guide,42, 50)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Dungeon_ZF')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_50_55_Alliance')
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -696,6 +696,7 @@ b Ratchet|QID|3444|M|25.80,73.10|N|Take the boat to Ratchet.|
 C The Stone Circle|QID|3444|M|62.50,38.55|Z|The Barrens|N|Mavon's Chest on the ground in front of his hut.|
 
 F Gadgetzan|QID|3444|M|63.08,37.16|Z|The Barrens|N|Fly back to Tanaris|
+h Gadgetzan|QID|3477|M|52.63,28.11|Z|Tanaris|N|Set your hearth here. You will need it soon.
 C Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|S|N|Time to finish this up. If you have stuff banked, remember there is a bank in Gadgetzan.|
 T The Stone Circle|QID|3444|M|52.71,45.92|Z|Tanaris|N|From Mavon Rivetseeker.|PRE|3445|
 A The Prophecy of Mosh'aru|QID|3527|M|67.0,22.4|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Yeh'kinya.|PRE|3520|
@@ -704,6 +705,6 @@ T Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|N|To Dirge Quikcleave. Con
 A Scarab Shells|QID|2865|M|51.57,26.76|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tran'rek.|
 A Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Trenton Lighthammer.|
 A Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Chief Engineer Bilgewhizzle.|
-N Chapter Complete|QID|2770|M|PLAYER|Z|Tanaris|N|You now have everything you need to run Zul'Farrak. This is part of the guide scope, as dungeons are required. This will unlock new quests and will be assumed you did this in Chapter 3.|
+N Chapter Complete|QID|2770|M|PLAYER|Z|Tanaris|N|You now have everything you need to run Zul'Farrak.|
 ]]
 end)
