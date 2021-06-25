@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide("CLASSIC_BC_Ghostlands", "Leveling", "Ghostlands", "WoWPro Team", "Horde", 2)
 WoWPro:GuideSort(guide, 26)
 WoWPro:GuideNextGuide(guide, "CLASSIC_BC_HordeChapter1")
-WoWPro:GuideLevels(guide, 10, 20)
+WoWPro:GuideLevels(guide, 10, 21)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -98,7 +98,7 @@ T Dealing with Zeb'Sora|QID|9143|M|69.39,15.19|N|Return to Ranger Valanna.|
 A Report to Captain Helios|QID|9146|M|69.39,15.19|N|From Ranger Valanna.|PRE|9143|
 K Spirits of the Drowned|ACTIVE|9274|M|71.04,24.00|QO|1;2|N|Kill any ghost you see floating around in the lake.|US|
 T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an.|
-T Report to Captain Helios|QID|9146|M|72.37,29.63|N|To Captain Helios.|
+T Report to Captain Helios|QID|9146|M|72.37,29.65|N|To Captain Helios.|
 H Tranquillien|AVAILABLE|9171|
 A Culinary Crunch|QID|9171|M|48.43,30.93|N|From Master Chef Mouldier.|
 r Repair/Restock|AVAILABLE|9152|M|49.08,30.31|N|At Blacksmith Frances.|
@@ -175,7 +175,7 @@ A Journey to Undercity|QID|9177^9180|M|44.77,32.45|N|From High Executor Mavren.|
 A Investigate the Amani Catacombs|QID|9193|M|44.84,32.81|N|From Advisor Valwyn.|
 K Bearers of the Plague|ACTIVE|9158|M|63.69,43.46|QO|1|N|Kill Ghostclaw Lynxes.|S|
 R Andilien Estate|AVAILABLE|9281|M|45.34,56.83|N|Follow the road south out of Tranquillien.\n[color=FF0000]NOTE: [/color]Cut through the woods so you can do your kill quest as you go.
-A Clearing the Way|QID|9281|M|46.44,56.43|N|From Apprentice Vor'el.|
+A Clearing the Way|QID|9281|M|46.40,56.42|N|From Apprentice Vor'el.|
 R Sanctum of the Sun|AVAILABLE|9282|M|53.94,51.76|
 A The Farstrider Enclave|QID|9282|M|55.06,48.83|N|From Magister Kaendris.|LEAD|9161|
 T Underlight Ore Samples|QID|9207|M|54.95,48.48|N|To Magister Quallestis.|
@@ -186,21 +186,21 @@ K Bearers of the Plague|ACTIVE|9158|M|69.46,39.52|QO|1|N|Finish killing Ghostcla
 R Farstrider Enclave|ACTIVE|9158|M|73.83,32.11|
 T Bearers of the Plague|QID|9158|M|72.50,32.13|N|To Farstrider Sedina.|
 A Curbing the Plague|QID|9159|M|72.50,32.13|N|From Farstrider Sedina.|PRE|9158|
-A Attack on Zeb'Tela|QID|9276|M|72.23,31.28|N|From Farstrider Solanna.|
-A Shadowpine Weaponry|QID|9214|M|72.36,29.74|N|From Captain Helios.|
-A A Little Dash of Seasoning|QID|9275|M|72.68,31.55|N|From Apothecary Venustus. Up the right ramp.|
+A Attack on Zeb'Tela|QID|9276|M|72.32,31.24|N|From Farstrider Solanna.|
+A Shadowpine Weaponry|QID|9214|M|72.37,29.65|N|From Captain Helios.|
+A A Little Dash of Seasoning|QID|9275|M|72.37,29.65|N|From Apothecary Venustus. Up the right ramp.|
 T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna. Go back down and up the opposite ramp.|
 A The Traitor's Shadow|QID|9161|M|71.93,32.64|N|From Ranger Vynna.|
 R Amani Catacombs|AVAILABLE|9212|M|67.08,28.57|
-C Troll Juju|QID|9199|M|67.08,28.57|N|Kill any Trolls you come across to collect the Troll Juju.\n[color=FF0000]NOTE: [/color]The Mummified Headhunters briefly deploy a 'Cloud of Disease' when they die and it causes damage if you stand in it.|S|
-C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|1|N|Burn the Troll remains as you go.|U|22755|S|
-C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|2|N|Make your way inside the Catacombs and to the round room just off the first big room you come to.|U|22755|
-C Investigate the Amani Catacombs|QID|9193|M|62.78,31.87|QO|1|N|Finish burning any Troll remains you need.|U|22755|US|NC|
+C Troll Juju|QID|9199|M|67.08,28.57|L|22633 8|N|Kill any Trolls you come across to collect the Troll Juju.\n[color=FF0000]NOTE: [/color]The Mummified Headhunters briefly deploy a 'Cloud of Disease' when they die and it causes damage if you stand in it.|S|
+C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|1|N|Click on the Troll remains to burn them.|S|NC|
+R Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|2|N|Make your way inside the Catacombs and to the round room just off the first big room you come to.|
+C Investigate the Amani Catacombs|QID|9193|M|62.78,31.87|QO|1|N|Finish burning any Troll remains you need.|US|NC|
 C Troll Juju|QID|9199|M|67.08,28.57|N|Finish collecting your Troll Juju.|US|
 A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ranger Lilatha.|
 C Escape from the Catacombs|QID|9212|M|72.24,30.10|N|She is slow inside the cave. At one point outside the cave, you will be ambushed. Kill them and follow her to the Farstrider Enclave (she runs after the ambush).|
 r Repair/Restock|QID|9212|M|72.13,31.97|N|At Narina.|
-T Escape from the Catacombs|QID|9212|M|72.37,29.72|N|To Captain Helios.|
+T Escape from the Catacombs|QID|9212|M|72.37,29.65|N|To Captain Helios.|
 K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill Vamperic Mistbats.|S|
 R Dawnstar Spire|ACTIVE|9161|M|78.48,19.86|
 T The Traitor's Shadow|QID|9161|M|79.63,17.57|N|Kill the 2 guards at the door and the one that paths in and out of the building. From here, clear the room by pulling them one by one outside. Once you have cleared the room, continue inside and click on the book that is at the end of the ramp.|
@@ -263,14 +263,15 @@ T Deactivate An'owyn|QID|9169|M|60.28,35.61|N|To Magister Sylastor.|
 R Farstrider Enclave|ACTIVE|9159|M|73.83,32.11|
 T Curbing the Plague|QID|9159|M|72.50,32.13|N|To Farstrider Sedina.|
 T Assault on Zeb'Nowa|QID|9277|M|72.32,31.24|N|To Farstrider Solanna.|
-T Bring Me Kel'gash's Head!|QID|9215|M|72.34,29.80|N|To Captain Helios.|
-T Shadowpine Weaponry|QID|9214|M|72.34,29.80|N|To Captain Helios.|
+T Bring Me Kel'gash's Head!|QID|9215|M|72.37,29.65|N|To Captain Helios.|
+T Shadowpine Weaponry|QID|9214|M|72.37,29.65|N|To Captain Helios.|
 T A Little Dash of Seasoning|QID|9275|M|72.62,31.56|N|To Apothecary Venustus.|
 H Tranquillien|ACTIVE|9218|N|Hearth back to Tranquillien.|
 T Spinal Dust|QID|9218|M|48.92,31.31|N|To Magistrix Aminel.|
 r Repair/Restock|ACTIVE|9877|M|49.05,30.32|N|At Blacksmith Frances.|
 F Silvermoon City|ACTIVE|9877|M|45.43,30.53|
 = Level 20 Training|ACTIVE|9877|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+; --- Paladin level 20 class quest
 A The Second Trial|QID|9690|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
 R Falconwing Square|AVAILABLE|9677|M|46.56,48.89|Z|Eversong Woods|N|Follow the wall west to the Falconwing Square entrance.|R|BloodElf|C|Paladin|
 T The Second Trial|QID|9690|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
@@ -278,8 +279,67 @@ A The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun
 C The Second Trial|QID|9686|M|43.34,28.69|Z|Eversong Woods|N|Click the crystal, kill the guy.|R|BloodElf|C|Paladin|
 T The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
 A Return to Silvermoon|QID|9691|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
-H Silvermoon City|QID|9691|M|89.29,35.25|Z|Silvermoon City|N|Hearth back to Silvermoon City, or run if its currently down.|R|BloodElf|C|Paladin|
+R The Shepherd's Gate|ACTIVE|9691|M|56.66,49.54|Z|Eversong Woods|N|Exit Falconwing Square and follow the wall east to the  Silvermoon City entrance.|IZ|-1954; Silvermoon City|
 T Return to Silvermoon|QID|9691|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+; ---
+; --- Priest level 20 Undead class quest
+P Undercity|AVAILABLE|5646|M|49.5,14.8|Z|Silvermoon City|N|[Coords]Use the Orb of Translocation located at the very back of Sunfury Spire.|
+b Durotar|AVAILABLE|5646|M|60.75,58.77|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|R|Undead|C|Priest|
+R Orgrimmar|AVAILABLE|5646|M|45.52,12.07|Z|Durotar|R|Undead|C|Priest|
+f Orgrimmar|AVAILABLE|5646|M|45.50,63.84|Z|Orgrimmar|N|Get the flight path from Doras.|C|Warlock|
+R Valley of Spirits|AVAILABLE|5646|ACTIVE|-5644|R|Undead|C|Priest|
+A Devouring Plague|QID|5646|ACTIVE|-5644|M|35.6,87.6|N|[Coords]From Ur'kyo.\n[color=FF0000]NOTE: [/color]An alternate version of this quest is available from Miles Welsh in Thunder Bluff. But, I don't see the point in getting it.|LEAD|5679|R|Undead|C|Priest|
+b Tirisfal Glades|ACTIVE|5644^5646|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Undead|C|Priest|
+R Undercity|ACTIVE|5644^5646|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|R|Undead|C|Priest|
+T Devouring Plague|QID|5644^5646|M|49.2,18.2|Z|Undercity|N|To Aelthalyste in the War Quarter.|R|Undead|C|Priest|
+A Devouring Plague|QID|5679|M|49.2,18.2|Z|Undercity|N|From Aelthalyste.|R|Undead|C|Priest|
+T Devouring Plague|QID|5679|M|49.2,18.2|Z|Undercity|N|To Aelthalyste.|R|Undead|C|Priest|
+P Silvermoon City|ACTIVE|9877|M|65.9,36.8;66.2,0.9;54.9,11.2|CC|Z|Undercity|N|Take the elevator up and use the Orb of Translocation.|R|Undead|C|Priest|
+; ---
+; --- Rogue Thistle Tea Recipe (Poison) Level 20 Class Quest
+N NOT EASY!!!|AVAILABLE|2458|ACTIVE|876|N|Your Poison quest is not going to be easy. Some have suggested waiting until you've reached level 22. At that point, you'll have Distract and Vanish to help reduce the number of 'Run away!' moments.\nI agree and this guide will wait until you're level 22. You can do it now if you so choose.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.
+|R|Undead|C|Rogue|
+; ---
+; --- Warlock Soul Bag/Succubus Level 20 class quest
+A Carendin Summons|QID|10605|M|73.2,46.8|N|[coords]From Alamma.|LEAD|1507|R|BloodElf|C|Warlock|
+P Undercity|AVAILABLE|1507|M|49.5,14.8|Z|Silvermoon City|N|[Coords]Use the Orb of Translocation located at the very back of Sunfury Spire.|C|Warlock|
+b Durotar|AVAILABLE|1507|M|60.75,58.77|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|C|Warlock|
+R Orgrimmar|AVAILABLE|1507|M|45.52,12.07|Z|Durotar|N|Enter Orgrimmar.|C|Warlock|
+f Orgrimmar|AVAILABLE|1507|M|45.50,63.84|Z|Orgrimmar|N|Get the flight path from Doras.|C|Warlock|
+A Devourer of Souls|QID|1507|M|48.24,45.28|Z|Orgrimmar|N|From Gan'rul Bloodeye in Cleft of Shadow.|C|Warlock|
+T Devourer of Souls|QID|1507|M|47.04,46.46|Z|Orgrimmar|N|To Cazul in Cleft of Shadow.|C|Warlock|
+A Blind Cazul|QID|1508|M|47.04,46.46|Z|Orgrimmar|N|From Cazul.|PRE|1507|C|Warlock|
+T Blind Cazul|QID|1508|M|37.02,59.46|Z|Orgrimmar|N|To Zankaja in the building just south of the Cleft of the Shadows SW entrance.|C|Warlock|
+A News of Dogran|QID|1509|M|37.02,59.46|Z|Orgrimmar|N|From Zankaja.|PRE|1508|C|Warlock|
+F Crossroads|ACTIVE|1509|M|45.50,63.84|Z|Orgrimmar|C|Warlock|TAXI|Crossroads|
+R Far Watch Outpost|ACTIVE|1509|M|34.16,42.30|Z|Durotar|N|Exit Orgrimmar from the south and follow the road south to Razor Hill. Exit Razor Hill from the west and follow the road the road to the river.|TAXI|-Crossroads|
+R Crossroads|ACTIVE|1509|M|52.34,29.34|Z|The Barrens|N|Take the road west to the intersection and go south into The Crossroads.|TAXI|-Crossroads|
+f Crossroads|ACTIVE|1509|M|51.50,30.34|Z|The Barrens|N|From Devrak.|TAXI|-Crossroads|
+T News of Dogran|QID|1509|M|51.93,30.32|Z|The Barrens|N|To Gazrog in The Crossroads.|C|Warlock|
+A News of Dogran|QID|1510|M|51.93,30.32|Z|The Barrens|N|From Gazrog.|PRE|1509|C|Warlock|
+F Sun Rock Retreat|ACTIVE|1510|M|51.50,30.34|Z|The Barrens|C|Warlock|TAXI|Sun Rock Retreat|
+R Stonetalon Mountains border|ACTIVE|1510|M|35.66,27.48|CC|N|Leave the Crossroads through the west gate and follow the road until you come to the Stonetalon Mountains border.|C|Warlock|TAXI|-Sun Rock Retreat|
+R Malaka'jin|ACTIVE|1510|M|71.81,91.52|Z|Stonetalon Mountains|N|Leave Sun Rock Retreat and follow the path south to Malaka'jin.|C|Warlock|
+T News of Dogran|QID|1510|M|73.2,95|Z|Stonetalon Mountains|N|To Ken'zigla in Malaka'jin.|C|Warlock|
+A Ken'zigla's Draught|QID|1511|M|73.2,95|Z|Stonetalon Mountains|N|From Ken'zigla.|PRE|1510|C|Warlock|
+R The Crossroads|ACTIVE|1511|M|50.81,29.08|Z|The Barrens|N|Return to The Crossroads.|C|Warlock|
+F Camp Taurajo|QID|1511|M|51.50,30.34|Z|The Barrens|C|Warlock|TAXI|Camp Taurajo|
+R Camp Taurajo|ACTIVE|1511|M|47.31,57.64|N|Run back to Camp Taurajo.|C|Warlock|TAXI|-Camp Taurajo|
+f Camp Taurajo|QID|1511|M|51.50,30.34|Z|The Barrens|C|Warlock|TAXI|-Camp Taurajo|
+T Ken'zigla's Draught|QID|1511|M|44.62,59.27|N|To Grunt Logmar in Camp Taurajo.|C|Warlock|
+A Dogran's Captivity|QID|1515|M|44.62,59.27|N|From Grunt Logmar.|PRE|1511|C|Warlock|
+T Dogran's Captivity|QID|1515|M|43.31,47.89|N|To Grunt Dogran. Exit through the west gate and head north. You'll find him in the 3rd Bristleback village on the west side.|C|Warlock|
+A Love's Gift|QID|1512|M|43.31,47.89|N|From Grunt Dogran.|PRE|1515|C|Warlock|
+R Camp Taurajo|ACTIVE|1512|M|47.31,57.64|N|Run back to Camp Taurajo. It's closer than running to the Crossroads.|C|Warlock|
+F Orgrimmar|ACTIVE|1512|M|44.44,59.15|C|Warlock|
+T Love's Gift|QID|1512|M|48.24,45.28|Z|Orgrimmar|N|To Gan'rul Bloodeye in Cleft of Shadow.|C|Warlock|
+A The Binding|QID|1513|M|48.24,45.28|Z|Orgrimmar|N|From Gan'rul Bloodeye.|PRE|1512|C|Warlock|
+C The Binding|QID|1513|M|49.47,50.02|Z|Orgrimmar|QO|1|N|Go to the Summoning Circle in Neeru's tent. While standing in the Summoning Circle, use Dogran's Pendant to summon a Succubus and then kill it.|U|6626|C|Warlock|
+T The Binding|QID|1513|M|48.24,45.28|Z|Orgrimmar|N|To Gan'rul Bloodeye.|C|Warlock|
+b Tirisfal Glades|ACTIVE|9877|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|C|Warlock|
+R Undercity|ACTIVE|9877|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|C|Warlock|
+P Silvermoon City|ACTIVE|9877|M|54.9,11.2|CC|Z|Undercity|N|[coords]Use the Orb of Translocation.|C|Warlock|
+; ---
 F Tranquillien|ACTIVE|9877|M|54.37,50.73|Z|Eversong Woods|
 T A Restorative Draught|QID|9877|M|47.59,34.79|N|To Apothecary Renzithen.|
 R Deatholme|ACTIVE|9164^9170|M|44.72,70.41;36.40,69.79|CC|N|Follow the road south out of Tranquillien to the bottom and cut across to the Deatholme entrance.|
@@ -303,15 +363,15 @@ T Dar'Khan's Lieutenants|QID|9170|M|54.87,48.55|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.82,48.35|N|To Arcanist Janeda.|
 K Luzran|ACTIVE|9156|M|34.3,50.3;37.3,67.5;39.5,32.0|CN|QO|2|N|Luzran spawns at Bleeding Ziggurat and begins his path south through the The Dead Scar to the Deatholme entrance, then to the northern waypoint before turning back south to the Deatholme entrance and ultimately returning to Bleeding Ziggurat to start the trip anew.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip. Skipping this will skip all related steps as well.|
 K Knucklerot|ACTIVE|9156|M|41.7,45.2;33.1,53.1;25.6,55.4;22.6,49.1;22.2,40.4;27.5,38.1;30.4,35.9;27.7,29.9;29.4,21;25.4,16.3|CN|QO|1|N|Knucklerot spawns at Howling Ziggurat and begins his path by following the road across The Dead Scar past and through to Windrunner Village. From here he works his way along the shore until he crosses over the river just above the waterfall and heads for the road leading into Goldenmist Village. He follows this road to the fountain between the buildings. At this point, he turns around and begins to path back to the beginning. His return path is the exact same with one exception. After crossing the river, he goes to Sanctum of the Moon before heading to Windrunner Village.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip.|
-R Tranquillien|ACTIVE|9328|M|46.52,31.90|N|coord Run to Tranquillien.|
+R Tranquillien|ACTIVE|9328|M|46.52,31.90|N|Run to Tranquillien.|
 T Wanted: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|
 ; Killed Dar'Khan
-F Silvermoon City|ACTIVE|9328^9811|M|46,30|N|coord Fly to Silvermoon City flight hub.|
+F Silvermoon City|ACTIVE|9328^9811|M|45.43,30.53|
 R Housekeeping|ACTIVE|9328|N|Visit your trainers, AH, etc.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-T Hero of the Sin'dorei|QID|9328|M|53.98,20.42|Z|Silvermoon City|N|To Lor'themar Theron .|R|BloodElf|
-T Friend of the Sin'dorei|QID|9811|M|53.98,20.42|Z|Silvermoon City|N|To Lor'themar Theron .|R|Orc,Troll,Tauren,Undead,Goblin|
-A Envoy to the Horde|QID|9621|M|53.98,20.42|Z|Silvermoon City|N|From Lor'themar Theron .|PRE|9328|R|BloodElf|
-A Envoy to the Horde|QID|9812|M|53.98,20.42|Z|Silvermoon City|N|From Lor'themar Theron .|PRE|9811|R|Orc,Troll,Tauren,Undead,Goblin|
+T Hero of the Sin'dorei|QID|9328|M|53.98,20.42|Z|Silvermoon City|N|To Lor'themar Theron.|R|BloodElf|
+T Friend of the Sin'dorei|QID|9811|M|53.98,20.42|Z|Silvermoon City|N|To Lor'themar Theron.|R|-BloodElf||
+A Envoy to the Horde|QID|9621|M|53.98,20.42|Z|Silvermoon City|N|From Lor'themar Theron.|PRE|9328|R|BloodElf|
+A Envoy to the Horde|QID|9812|M|53.98,20.42|Z|Silvermoon City|N|From Lor'themar Theron.|PRE|9811|R|-BloodElf|
 P Undercity|QID|9180|M|49.49,14.76|Z|Silvermoon City|N|Go to the room behind Lor'themar, and click on the Orb of Translocation.|
 f Undercity|QID|9621^9812|M|63.09,47.88|Z|Undercity|N|Get the flight path for Undercity.|
 T Envoy to the Horde|QID|9621|M|57.59,91.64|Z|Undercity|N|To Lady Sylvanas Windrunner.|R|BloodElf|
@@ -322,11 +382,209 @@ R Orgrimmar Zepplin|ACTIVE|9626|M|60.71,58.78|Z|Tirisfal Glades|N|Go up the towe
 b Durotar|ACTIVE|9626|
 T Meeting the Warchief|QID|9626|M|31.76,37.83|Z|Orgrimmar|N|To Thrall.|
 A Allegiance to the Horde|QID|9627|M|31.76,37.83|Z|Orgrimmar|N|From Thrall.|R|BloodElf|
+A The Spirits of Stonetalon|QID|1061|M|38.93,38.37|Z|Orgrimmar|N|From Zor Lonetree (just inside Grommash Hold).\n[color=FF0000]NOTE: [/color]This quest leads to a quest we will be doing in the next guide.|LEAD|1062|
 h Orgrimmar|ACTIVE|9627|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will make sense shortly.|IZ|1454|
 R Undercity Zepplin|ACTIVE|9627|M|50.82,13.59|Z|Durotar|N|Go up the tower and take the Zepplin.|
 b Tirisfal Glades|ACTIVE|9627|
 P Silvermoon City|ACTIVE|9627|M|55.02,11.28|Z|Undercity|N|Click on the Orb of Translocation.|
 T Allegiance to the Horde|QID|9627|M|53.85,20.31|Z|Silvermoon City|N|To Lor'themar Theron.|
-H Orgrimmar|AVAILABLE|6421|N|I told you it would make sense... ;)|
+H Orgrimmar|AVAILABLE|-9627|ACTIVE|-9627|N|I told you it would make sense... ;)|
+; -- Using The Barrens guide to tie into Chapter 1
+R Valley of Wisdom|AVAILABLE|1061|M|42.37,36.75|Z|Orgrimmar|N|Go to The Valley of Wisdom.|
+A The Spirits of Stonetalon|QID|1061|M|38.93,38.37|Z|Orgrimmar|N|From Zor Lonetree (just inside Grommash Hold).\n[color=FF0000]NOTE: [/color]Probably the best time you'll get to grab this quest. It leads to a quest we will be doing in the next guide.|LEAD|1062|
+f Origrimmar|ACTIVE|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|-Orgrimmar|
+
+N The Barrens FPs|AVAILABLE|6548|N|A little running around to get the flight paths in The Barrens. We won't be getting the FP in Thunder Bluff until later.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|
+R Far Watch Outpost|AVAILABLE|6548|M|34.16,42.30|Z|Durotar|N|Exit Orgrimmar from the south and follow the road south to Razor Hill. Exit Razor Hill from the west and follow the road the road to the river.|TAXI|-Crossroads|
+R Crossroads|AVAILABLE|6548|M|52.34,29.34|Z|The Barrens|N|Take the road west to the intersection and go south into The Crossroads.|TAXI|-Crossroads|
+f Crossroads|AVAILABLE|6548|M|51.50,30.34|Z|The Barrens|N|From Devrak.|TAXI|-Crossroads|
+R Camp Taurajo|AVAILABLE|6548|M|47.31,57.64;46.29,58.00|CC|N|Leave The Crossroads through the south gate and follow the road south-ish to Camp Taurajo.\nStick to the road unless you enjoy corpse running. There is only one graveyard in The Barrens and it's at The Crossroads.|TAXI|-Camp Taurajo|
+f Camp Taurajo|AVAILABLE|6548|M|44.44,59.15|N|Get the flight path from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
+F Crossroads|AVAILABLE|6548|M|44.44,59.15|
+R Stonetalon Mountains border|AVAILABLE|6548|M|35.66,27.48|CC|N|Leave the Crossroads through the west gate and follow the road until you come to the Stonetalon Mountains border.|
+A Avenge My Village|QID|6548|M|35.19,27.79|N|From Makaba Flathoof.|
+T The Spirits of Stonetalon|QID|1061|M|35.26,27.88|N|To Seereth Stonebreak.|
+A Goblin Invaders|QID|1062|M|35.26,27.88|N|From Seereth Stonebreak.|
+
+R Stonetalon Mountains|ACTIVE|6548|M|34.12,27.60|N|Follow the road further west into Stonetalon Mountains.|
+R Camp Aparaje|ACTIVE|6548|M|80.05,90.00|Z|Stonetalon Mountains|N|Continue to follow the road into Camp Aparaje.|
+K Avenge My Village|ACTIVE|6548|M|82.02,88.85|Z|Stonetalon Mountains|QO|1;2|N|You'll find the Grimtotem Ruffians and Mercenaries amongst the camps spread throughout the area.|
+T Avenge My Village|QID|6548|M|35.19,27.79|N|Head back To Makaba Flathoof at the Stonetalon entrance.|
+A Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|N|From Makaba Flathoof.|PRE|6548|
+
+R Stonetalon Mountains|QID|6548|M|34.12,27.60|N|Follow the road further west into Stonetalon Mountains.|
+C Grimtotem Brutes|QID|6629|QO|2|N|Kill them as you go.|S|
+; lv 20
+R Grimtotem Post|QID|6629|M|71.44,89.45;71.95,86.47|CC|Z|Stonetalon Mountains|N|Follow the road into Grimtotem Post.|
+K Kill Grundig Darkcloud|QID|6629|M|73.70,86.33|Z|Stonetalon Mountains|QO|1|N|You'll find Grundig Darkcloud standing in the doorway of the tent.\nIf he's not there, clear the area while waiting for him to respawn.|T|Grundig Darkcloud|
+A Protect Kaya|QID|6523|M|73.48,85.58|Z|Stonetalon Mountains|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Kaya Flathoof inside the tent.|
+C Protect Kaya|QID|6523|QO|1|N|Kaya will walk west out of the Grimtotem settlement and then start following the road southeast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 Grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
+A Protect Kaya|QID|6523|M|73.48,85.58|Z|Stonetalon Mountains|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Kaya Flathoof inside the tent to restart the quest.\nYou may have to wait for her to respawn|FAIL|
+C Grimtotem Brutes|QID|6629|QO|2|N|Finish killing them before you leave the area.|US|
+T Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|N|To Makaba Flathoof at the border.|
+T Protect Kaya|QID|6523|M|35.19,27.79|N|To Makaba Flathoof.|
+A Kaya's Alive|QID|6401|M|35.19,27.79|N|From Makaba Flathoof.|PRE|6523|
+R Malaka'jin|ACTIVE|1060|M|71.81,91.52|Z|Stonetalon Mountains|N|Follow the road towards Grimtotem Post. You'll find find the path to Malaka'jin just south of Grimtotem Post.|
+T Letter to Jin'Zil|QID|1060|M|74.54,97.94|Z|Stonetalon Mountains|N|To Witch Doctor Jin'Zil inside the cave.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up quest at this time.|
+A Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|From Xen'zilla in Malaka'jin.|
+K Blood Feeders|ACTIVE|6461|M|58.18,76.03|Z|Stonetalon Mountains|QO|1;2|N|Kill Deepmoss Creepers and Venomspitters.|S|
+R Webwinder Path|ACTIVE|6461|M|59.34,75.96|Z|Stonetalon Mountains|N|Leave Malaka'jin and follow the road north.|
+A Arachnophobia|QID|6284|M|59.07,75.71|Z|Stonetalon Mountains|ELITE|N|From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]This quest is not recommended at your current level. Accept the quest on the off-chance that you find a group to do it.|
+R Sishir Canyon|ACTIVE|6461^1069^6284|M|58.18,76.03|Z|Stonetalon Mountains|N|Follow the path west up the hill.|IZ|1442|
+C Deepmoss Spider Eggs|QID|1069|M|53.48,74.52|Z|Stonetalon Mountains|L|5570 15|N|Pick up the spider eggs from around the area.\n[color=FF0000]NOTE: [/color]1-2 Deepmoss Hatchlings will spawn after opening the egg. On occassion, a Deepmoss Matriarch may also spawn after killing the Hatchlings|S|
+K Bessaleth|ACTIVE|6284|M|53.48,74.52|Z|Stonetalon Mountains|L|16192|N| Bessaleth is a lv 21 Elite mob with multiple spawn points. You'll find her in one of the alcoves along the edge.\n[color=FF0000]NOTE: [/color]It's strongly recommended to only attempt this if you're over level, or you have help to do it.\nSkip this step if you wish to move on.|T|Bessaleth|
+C Deepmoss Spider Eggs|QID|1069|M|53.48,74.52|Z|Stonetalon Mountains|L|5570 15|N|Pick up the spider eggs from around the area.|US|
+K Blood Feeders|ACTIVE|6461|M|53.48,74.52|Z|Stonetalon Mountains|QO|1;2|N|Finish up the spiders needed.|US|
+R Sun Rock Retreat|ACTIVE|6401|M|59.34,75.87;59.67,71.22;53.04,61.58;49.58,60.99|CC|Z|Stonetalon Mountains|N|Head back to Webwinder Path and follow it north; taking the left forks (or just follow the signs).|
+t Arachnophobia|QID|6284|M|47.20,61.16|Z|Stonetalon Mountains|N|To Maggran Earthbinder.|IZ|460|
+T Kaya's Alive|QID|6401|M|47.46,58.38|Z|Stonetalon Mountains|N|To Tammra Windfield.|
+f Sun Rock Retreat|QID|6461|M|45.13,59.84|Z|Stonetalon Mountains|N|At Tharm.|TAXI|-Sun Rock Retreat|
+R Malaka'jin|ACTIVE|6461|M|53.18,61.66;71.55,90.59|CC|Z|Stonetalon Mountains|N|Return to Malaka'jin.|
+T Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|To Xen'zilla.|
+H Camp Taurajo|ACTIVE|1489^3923|N|This brings an end to this side trip. Hearth back to Camp Taurajo.|
+F Thunder Bluff|ACTIVE|1489|M|44.44,59.15|
+T Hamuul Runetotem|QID|1489|M|78.57,28.57|Z|Thunder Bluff|N|To Arch Druid Hamuul Runetotem on Elder Rise.|
+A Nara Wildmane|QID|1490|M|78.57,28.57|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem.|PRE|1489|
+T Nara Wildmane|QID|1490|M|75.65,31.63|Z|Thunder Bluff|N|To Nara Wildmane.|
+A Leaders of the Fang |QID|914|M|75.65,31.63|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Nara Wildmane.\n[color=FF0000]NOTE: [/color]Skip if you wish.|PRE|1490| ; --- breaks auto-accept
+N Wailing Caverns|ACTIVE|914|N|Having all of the quests for Wailing Cavern, now is a good time to look for a group for this instance.\nAs this guide is dungeon-free, we won't be completing those quests in this guide. Feel free to rejoin this guide when you are done.|
+
+F Orgrimmar|ACTIVE|3923|N|[color=FF0000]NOTE: [/color]No matter what class/race you are, you'll want to be in Orgrimmar at this point.|
+R Enter Orgrimmar|ACTIVE|3923|M|45.52,12.07|CC|Z|Durotar|N|Enter Orgrimmar by the south entrance.|IZ|-1454|
+R Valley of Honor|QID|3923|M|65.54,40.00|Z|Orgrimmar|
+T Rilli Greasygob|QID|3923|M|76.51,24.43|Z|Orgrimmar|N|Look for Rilli Greasygob inside Nogg's Machine Shop.|
+A Samophlange Manual|QID|3924|M|76.51,24.43|Z|Orgrimmar|N|From Rilli Greasygob.|PRE|3923|
+R Southfury River|ACTIVE|3924|N|Leave Orgrimmar through the west gate.|M|11.45,67.06|Z|Orgrimmar|IZ|1454|
+C Samophlange Manual Pages|ACTIVE|3924|L|11148 5|QO|1|N|Make your way to Boulder Lode Mine. Kill Venture Co. Enforcers and Overseers to collect the pages.|S|
+C Miner's Fortune|QID|896|L|5097|N|The Cat's Eye Emerald drops from one of the Venture Co. Enforcers or Overseers.|S|
+R Boulder Lode Mine|ACTIVE|3924|M|63.66,4.43;62.74,4.75|CC|QO|1|N|Make your way along the river until the path widens. At this point, there is a short cut up the side of the hill into Boulder Lode Mine.|
+K Boss Copperplug|ACTIVE|3924|M|59.99,4.13|L|11147|QO|1|N|At the back of the cave, you'll find Boss Copperplug. Kill him for the Manual Cover.|
+C Samophlange Manual Pages|QID|3924|L|11148 5|QO|1|N|Keep killing Enforcers and Overseers until you have 5 pages.|US|
+C Samophlange Manual|QID|3924|L|11149|N|Combine the cover and the pages together to make the manual.|U|11148|NC|
+C Miner's Fortune|QID|896|L|5097|N|Continue killing the Venture Co. Enforcers or Overseers until the Cat's Eye Emerald drops.|US|
+R The Mor'shan Rampart|ACTIVE|6543|M|62.22,7.44;48.73,7.57|CC|N|Go around or go over. Either way, make your way to Mor'shan Rampart.|
+T The Warsong Reports|QID|6543|M|48.12,5.42|N|To Kadrak.|
+H Camp Taurajo|QID|3261|N|If your hearth isn't up, run back to the Crossroads and fly there.|
+T Jorn Skyseer|QID|3261|M|44.86,59.14|N|To Jorn Skyseer.|
+A Ishamuhale|QID|882|M|44.86,59.14|N|From Jorn Skyseer.|PRE|3261|
+A Tribes at War|QID|878|M|44.56,59.24|N|From Mangletooth.|
+
+C Consumed by Hatred|QID|899|L|5085 60|N|Kill Bristlebacks to collect Bristleback Quilboar tusks.|S|
+C Blood Shards|AVAILABLE|5052|L|5075 11|N|Collect 11 Blood Shards for an upcoming quest.|S|
+R 1st Camp/Group|ACTIVE|878|M|43.23,55.90|CC|N|Head northeast out of Camp Taurajo.|
+K Tribes at War|QID|878|QO|1|N|Kill the Water Seekers.|
+R 2nd Camp/Group|ACTIVE|878|M|43.86,52.61|CC|N|Follow the hillside north to the next camp.|
+K Tribes at War|QID|878|QO|2|N|Kill the Thornweavers. They are a little spread out between the 2 camps on either side and mixed amongst the Hunters.|
+R 3rd Camp/Group|ACTIVE|878|M|43.21,49.33|CC|N|Continue north to the next camp.|
+K Tribes at War|ACTIVE|878|QO|3|N|Kill the Geomancers. If need be, there is another camp with Geomancers, a little further north.|
+C Consumed by Hatred|QID|899|L|5085 60|N|Continue killing Bristlebacks until you have enough tusks.|US|
+C Blood Shards|AVAILABLE|5052|L|5075 11|N|Continue killing the Bristlebacks until you have at least 11 Blood Shards.|US|
+
+T Tribes at War|QID|878|M|44.56,59.24|N|To Mangletooth, back at Camp Taurajo.|
+A Blood Shards of Agamaggan|QID|5052|M|44.56,59.24|N|From Mangletooth.|PRE|878|
+T Blood Shards of Agamaggan|QID|5052|M|44.56,59.24|N|To Mangletooth.|
+A Spirit of the Wind|QID|889|ACTIVE|891|M|44.56,59.24|N|From Mangletooth for a speed buff that will help with the next step.|PRE|5052|
+R Northwatch Hold|QID|891|M|50.80,50.42;56.95,50.77|CC|N|Take the road east out of the camp. Go north at the intersection and follow the road to the bridge. Turn east and follow the dry river bed to Northwatch Hold.\n[color=FF0000]NOTE: [/color]Stay on the road for as long as you can. Be careful to avoid the Bristlebacks on your way, the Thornweavers will root you, making it impossible to run from them.|
+C The Guns of Northwatch|QID|891|L|5078 10|N|Kill Theramore Marines to loot Theramore Medals.|S|
+R Northwatch Hold Entrance|QID|891|M|62.24,53.34|CS|N|Continue down the hill to the entrance to Northwatch Hold.\n[color=FF0000]NOTE: [/color]Kill the 2 guards outside before going in. There are 3 more just inside the entrance.|
+K Cannoneer Smythe|QID|891|QO|3|M|63.19,56.64|N|Follow the path up the hill from the entrance; staying close to the hillside to reduce the number of fights along the way.\nSkip the first tower for now and head for the 2nd tower. Clear the mobs around the tower to avoid adds for the next fight.\nInside are 3 mobs, one of which is a cloth-wearing healer. This is a tricky fight, but possible. If you have to, use the same tactic we used for Hezrul Bloodmark. Once all 3 of them are dead, climb the tower and kill Cannoneer Smythe and his guard.|C|-Rogue|
+K Cannoneer Smythe|QID|891|QO|3|M|63.19,56.64|N|Follow the path up the hill from the entrance; staying close to the hillside to reduce the number of fights along the way.\nSkip the first tower for now and head for the 2nd tower. Clear the mobs around the tower to avoid adds if this next step fails.\nInside are 3 mobs, one of which is a cloth-wearing healer. Using stealth, sneak past them using the the ledge to the ramp. Climb the tower and kill Cannoneer Smythe and his guard.|C|Rogue|
+K Cannoneer Whessan|QID|891|QO|2|M|60.42,54.76|N|Head back down and follow the path to the 3rd tower. Use the same process of clearing the entrance and main floor of the tower as you did earlier. Once they are dead, climb the tower and kill Cannoneer Whessan and his guard.|C|-Rogue|
+K Cannoneer Whessan|QID|891|QO|2|M|60.42,54.76|N|As you did to get in, stealth your way past the main floor and out of the tower. Once outside, follow the path to the 3rd tower.\nRinse and repeat the previous process for this tower; killing Cannoneer Whessan and his guard at the top.|C|Rogue|
+C The Guns of Northwatch|QID|891|L|5078 10|N|Exit the tower and finish looting the Theramore Medals.|US|
+K Captain Fairmount|QID|891|M|61.85,54.64|QO|1|N|Now head back down the hill to the tower we skipped.\nAs with the others, clear the mobs around the outside first. There are 4 mobs in this room, but they will pull 2 at a time. Once the guards are dead, continue fighting your way to the top of the tower, moving slowly and carefully. At the top of the tower, you will find 3-4 Theramore Marines, a Theramore Perserver and Captain Fairmount. The Marines should pull singly. Once the Marines are gone, kill Fairmount and the perserver.\n[color=FF0000]NOTE: [/color]Do not take the Blood Elf's quest until you are done with the tower.|
+A Free From the Hold|QID|898|M|61.96,54.96|N|[color=FF0000]NOTE: [/color]Escort Quest\nFrom Gilthares Firebough on the ground floor of the tower.\n[color=FF0000]NOTE: [/color]By this time, the mobs that you killed on the way up have started to respawn; including the 4 on the main floor. You can pull them just as you did coming in. You'll want to kite them away from each other and the entrance. Runners will get you killed.\nI would suggest clearing the mobs along the path before accepting the quest.|
+A Free From the Hold|QID|898|M|61.96,54.96|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Gilthares Firebough on the ground floor of the tower to restart the quest.\nYou will have to wait for him to respawn. Long enough to give everyone you've killed plenty of time to respawn.\nDon't forget to clear the respawns along the path.|FAIL|
+C Free From the Hold|QID|898|M|62.29,39.03|QO|1|N|Escort Gilthares to Ratchet.\nDon't let him tank things for very long. He will walk to the main gate of Northwatch and then head north through the pirate camps to Ratchet.\n[color=FF0000]NOTE: [/color]He will aggro [color=8080FF]E V E R Y O N E[/color] along the way and will chase runners. You cannot heal him.\nYou can run ahead of Gilthares and kill the mobs before he gets there.|
+T The Guns of Northwatch|QID|891|M|62.29,39.03|N|To Captain Thalo'thas Brightsun.|
+T Free From the Hold|QID|898|M|62.29,39.03|N|To Captain Thalo'thas Brightsun.|
+T Deepmoss Spider Eggs|QID|1069|M|62.37,37.62|N|To Mebox Mizzyrix.|
+* Deepmoss Spider Eggs|AVAILABLE|-1069|N|You can safely delete any leftovers.|U|5570|
+T The Escape|QID|863|M|62.98,37.22|N|To Sputtervalve.|
+A Ziz Fizziks |QID|1483|M|62.98,37.22|N|From Sputtervalve.|LEAD|1093|
+T Miner's Fortune|QID|896|M|63.35,38.45|N|To Wharfmaster Dizzywig.|
+
+C Fresh Zhevra Carcass|ACTIVE|882|L|10338|M|60.97,35.77|N|Head north out of Ratchet. Kill the first Zhevra you see.|
+R The dead tree|ACTIVE|882|M|60.01,30.36|CC|N|Head for the dead tree.|
+K Ishamuhale|ACTIVE|882|QO|1|N|When you get to the tree, place the carcass on the ground to summon Ishamuhale and Kill it when it appears.\n[color=FF0000]NOTE: [/color]You have to manually click on the carcass in your bag to use it.|
+R The Crossroads|ACTIVE|899|M|52.63,30.98|N|Run back to the Crossroads.\n[color=FF0000]NOTE: [/color]If you maneuver well enough, you can just go over the mountain instead of around it.|
+
+T Consumed by Hatred|QID|899|M|51.96,31.57|N|To Mankrik.|
+; lv 22
+F Camp Taurajo|QID|882|M|51.50,30.33|N|Fly back to Camp Taurajo.|
+T Ishamuhale|QID|882|M|44.86,59.14|N|To Jorn Skyseer.|
+A Enraged Thunder Lizards|QID|907|M|44.86,59.14|N|From Jorn Skyseer.|PRE|882|
+C Enraged Thunder Lizards|QID|907|L|5143 3|N|You'll find the Thunder Lizards spread out all around the area of Camp Taurajo. So, pick a direction and go kill Thunder Lizards to collect their blood.|
+N Rare Spawn Kill Quests|ACTIVE|907|AVAILABLE|883^884^885^897|N|Jorn Skyseer has 4 optional rare spawn quests that you can complete and turn in to him in Camp Taurajo.\n1) Lakota'mani, a gray Kodo. He has a long-ish patrol route and a long respawn time, so you might not find him.\n2) Owatanka, a blue thunder lizard. He spawns in the hills east and west of Camp Taurajo.\n3) Washte Pawne \n4) The Harvester\n\nYou will only come across the first 2 in this guide. Don't go out of your way to find them.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|RARE|
+A Lakota'mani|QID|883|N|From Hoof of Lakota'mani.|U|5099|O|
+A Owatanka|QID|884|N|From Owatanka's Tailspike.|U|5102|O|
+T Enraged Thunder Lizards|QID|907|M|44.86,59.14|N|To Jorn Skyseer back at Camp Taurajo.|
+t Lakota'mani|QID|883|M|44.86,59.14|N|To Jorn Skyseer.|IZ|378|
+t Owatanka|QID|884|M|44.86,59.14|N|To Jorn Skyseer.|IZ|378|
+A Cry of the Thunderhawk|QID|913|M|44.86,59.14|N|From Jorn Skyseer.|PRE|907|
+C Cry of the Thunderhawk|QID|913|L|5164|N|Kill a Thunderhawk and loot its wings. You will find them all around the outside edge of Camp Taurajo.|
+L Level 22|ACTIVE|2458^2478|N|You'll want to be within a bubble of level 22 before you return to Camp Taurajo.|LVL|21;-1950|R|Orc,Troll,Undead|C|Rogue|
+T Cry of the Thunderhawk |QID|913|M|44.86,59.14|N|To Jorn Skyseer back to Camp Taurajo.|
+A Mahren Skyseer|QID|874|M|44.86,59.14|N|From Jorn Skyseer.|PRE|913|
+A The Ashenvale Hunt|QID|6382^235^742|M|44.86,59.14|N|From Jorn Skyseer.|LEAD|6383|
+A Melor Sends Word|QID|1130|M|44.86,59.14|N|From Jorn Skyseer.|LEAD|1131|
+F Thunder Bluff|ACTIVE|1130|M|44.44,59.15|
+T Melor Sends Word|QID|1130|M|61.49,80.83|Z|Thunder Bluff|N|To Melor Stonehoof on Hunter Rise.|
+A Steelsnap|QID|1131|M|61.49,80.83|Z|Thunder Bluff|N|From Melor Stonehoof.|
+F Orgrimmar|QID|3924|M|47.02,49.83|Z|Thunder Bluff|
+R Valley of Honor|QID|3924|M|65.54,40.00|Z|Orgrimmar|N|Make your way to the Valley of Honor.|
+T Samophlange Manual|QID|3924|M|76.51,24.43|Z|Orgrimmar|N|To Rilli Greasygob inside Nogg's Machine Shop (in Valley of Honor).|
+
+; --- Rogue Thistle Tea Recipe (Poison) Class Quest (skipped earlier)
+N Class Quest|AVAILABLE|2458^2478|N|Now that you are level 22, grab your new skills and go do your class quest.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|LVL|22|R|Orc,Troll,Undead|C|Rogue|
+A The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul in Cleft of Shadows.|R|Orc,Troll,Undead|C|Rogue|LVL|20|
+C The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|QO|1|N|Target Shenthul and use the emote '/salute' to complete the quest.|T|Shenthul|R|Orc,Troll,Undead|C|Rogue|NC|
+T The Shattered Salute|QID|2460|M|43.04,53.74|Z|Orgrimmar|N|To Shenthul.|R|Orc,Troll,Undead|C|Rogue|
+A Deep Cover|QID|2458|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul.|PRE|2460|R|Orc,Troll,Undead|C|Rogue|
+N Dagger|ACTIVE|2458^2478|N|Make sure you have an equipable dagger before you leave Orgrimmar. You'll need it for completing part of your class quest.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|R|Orc,Troll,Undead|C|Rogue|IZ|1454|
+N Flash Powder|ACTIVE|2458^2478|M|42.2,49.6|Z|Orgrimmar|L|5140|N|Make sure you pick some up from Rekkul before you leave.|R|Orc,Troll,Undead|C|Rogue|IZ|1454|
+R Southfury River|ACTIVE|2458^2478|M|11.45,67.06|Z|Orgrimmar|N|Leave Orgrimmar through the west gate.|R|Orc,Troll,Undead|C|Rogue|IZ|1454|
+R Venture Co. Tower|ACTIVE|2458^2478|M|62.29,7.77;56.59,6.42|CC|N|Make your way around the edge of the mountain to the tower.|R|Orc,Troll,Undead|C|Rogue|
+N Taskmaster Fizzule|ACTIVE|2458|AVAILABLE|2478|M|56.00,6.10|N|Target Taskmaster Fizzule and use the Flare gun to make him non-aggressive, or you won't be able to interact with him.\n[color=FF0000]NOTE: [/color]Check this step off when this is done.|T|Taskmaster Fizzule|U|8051|R|Orc,Troll,Undead|C|Rogue|
+T Deep Cover|QID|2458|M|55.44,5.59|N|To Taskmaster Fizzule. He paths around a bit.\n[color=FF0000]NOTE: [/color]You must target him and use '/salute' before he'll interact with you.|T|Taskmaster Fizzule|R|Orc,Troll,Undead|C|Rogue|
+A Mission: Possible But Not Probable|QID|2478|M|55.44,5.59|N|From Taskmaster Fizzule.\n[color=FF0000]NOTE: [/color]Accept this quest quickly, as he will die and despawn. If this happens, be sure to move back because, when he respawns, he will be aggressive and attack you. Use Fizzule's Whistle to make him friendly again.|U|8066|PRE|2458|R|Orc,Troll,Undead|C|Rogue|
+N Venture Co. Drones|ACTIVE|2478|N|[color=FF0000]NOTE: [/color]Using raid icons to keep track of where the 2 Venture Co. Drones are outside is probably a good idea.\nCheck this step off to continue.|R|Orc,Troll,Undead|C|Rogue|
+C Steal Silixiz's Tower Key|QID|2478|M|54.80,5.97|L|8072|N|While avoiding the 2 Venture Co. Drones pathing outside the tower, pickpocket the key from Silixiz.\n[color=FF0000]NOTE: [/color]If he doesn't have the key, you will have to kill him and try again when he respawns.|R|Orc,Troll,Undead|C|Rogue|
+K Mutated Venture Co. Drones|ACTIVE|2478|M|54.80,5.97|QO|1|N|Continue avoiding the 2 Venture Co. Drones patroling outside by walking clockwise around the tower and using the north entrance.\n[color=FF0000]NOTE: [/color]Each group of mobs has a specific weakness that makes them easier to kill, if not instantly. The Mutated drones are susceptible to 'Ambush'.\nDo this by waiting until they are facing away, ambush the one and run away once it's dead. Return to rinse and repeat for the second one.\nThis may take several attempts to get it right. Persistance and patience is key here.|R|Orc,Troll,Undead|C|Rogue|
+K Venture Co. Patrollers|ACTIVE|2478|M|54.80,5.97|QO|3|N|Head up to the second floor and deal with the Patrolers.\n[color=FF0000]NOTE: [/color]Their weakness is 'Rupture'.|R|Orc,Troll,Undead|C|Rogue|
+K Venture Co. Lookouts|ACTIVE|2478|M|54.80,5.97|QO|2|N|They are on the outside of the 3rd floor.\n[color=FF0000]NOTE: [/color]Their weakness is 'Eviscerate'.|R|Orc,Troll,Undead|C|Rogue|
+C Grand Foreman Gallywix|QID|2478|M|54.80,5.97|L|8074|N|Head up to the top floor and kill him.\n[color=FF0000]NOTE: [/color]His weakness is 'Ambush'.|R|Orc,Troll,Undead|C|Rogue|
+C Gallywix's Lockbox|QID|2478|M|54.80,5.97|L|8073|N|Lockpick the chest to open it and loot the Cache of Zanzil's Altered Mixture.\n[color=FF0000]NOTE: [/color]When you open the chest, you'll become infected with Touch of Zanzil. This is unavoidable; as it's part of the quest chain.|R|Orc,Troll,Undead|C|Rogue|
+R Orgrimmar|ACTIVE|2478|M|11.54,66.87|Z|Orgrimmar|N|Follow the path back to the Orgrimmar west entrance.|R|Orc,Troll,Undead|C|Rogue|
+T Mission: Possible But Not Probable|QID|2478|M|43.04,53.74|Z|Orgrimmar|N|To Shenthul in Cleft of Shadow.|R|Orc,Troll,Undead|C|Rogue|
+* Flare Gun|AVAILABLE|-2478|ACTIVE|-2478|N|To save bag space, you can safely destroy the Flare Gun now.|U|8051|R|Orc,Troll,Undead|C|Rogue|
+* Fizzule's Whistle|AVAILABLE|-2478|ACTIVE|-2478|N|To save bag space, you can safely destroy Fizzule's Whistle now.|U|8066|R|Orc,Troll,Undead|C|Rogue|
+A Hinott's Assistance|QID|2479|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul.|PRE|2478|R|Orc,Troll,Undead|C|Rogue|
+b Tirisfal Glades|ACTIVE|2479|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Orc,Troll,Undead|C|Rogue|
+R Undercity|ACTIVE|2479|M|61.86,65.04|Z|Tirisfal Glades|R|Orc,Troll,Undead|C|Rogue|
+F The Sepulcher|ACTIVE|2479|M|63.25,48.54|Z|Undercity|R|Orc,Troll,Undead|C|Rogue|
+R Hillsbrad Foothills|ACTIVE|2479|M|13.55,46.15|Z|Hillsbrad Foothills|N|Exit The Sepulcher and follow the road south.|R|Orc,Troll,Undead|C|Rogue|
+R Tarren Mill|ACTIVE|2479|M|57.65,36.61;55.86,19.60|CC|Z|Hillsbrad Foothills|N|Follow the road/signs to Tarren Mill.|R|Orc,Troll,Undead|C|Rogue|
+f Tarren Mill|ACTIVE|2479|M|60.14,18.63|Z|Hillsbrad Foothills|N|At Zarise.|R|Orc,Troll,Undead|C|Rogue|TAXI|-Tarren Mill|
+T Hinott's Assistance|QID|2479|M|61.63,19.19|Z|Hillsbrad Foothills|N|To Serge Hinott.|R|Orc,Troll,Undead|C|Rogue|
+A Hinott's Assistance|QID|2480|M|61.63,19.19|Z|Hillsbrad Foothills|N|From Serge Hinott.|PRE|2479|R|Orc,Troll,Undead|C|Rogue|
+T Hinott's Assistance|QID|2480|M|61.63,19.19|Z|Hillsbrad Foothills|N|Once Serge Hinott completes the cure, turn the quest in.|R|Orc,Troll,Undead|C|Rogue|
+U Hinott's Oil|AVAILABLE|-2480|ACTIVE|-2480|N|Use the Hinott's Oil to cure your Touch of Zanzil.|U|8095|R|Orc,Troll,Undead|C|Rogue|BUFF|-9991|
+* Hinott's Oil|AVAILABLE|-2480|ACTIVE|-2480|N|For whatever reason, you still have your Hinott's Oil. You can safely destroy this as it's no longer required.|U|8095|R|Orc,Troll,Undead|C|Rogue|BUFF|9991|
+H Camp Taurajo|AVAILABLE|-2480|ACTIVE|-2480|R|Orc,Troll,Undead|C|Rogue|IZ|1424|
+; ---
+
+; --- Ashenvale
+F Splintertree Post|ACTIVE|6382^235^742|M|45.13,63.90|Z|Orgrimmar|IZ|1454|
+F Splintertree Post|ACTIVE|6382^235^742|M|44.44,59.15|IZ|378|
+T The Ashenvale Hunt|QID|6382^235^742|M|73.77,61.46|Z|Ashenvale|N|To Senani Thunderheart.|
+A The Ashenvale Hunt|QID|6383|M|73.77,61.46|Z|Ashenvale|N|From Senani Thunderheart.|
+N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quests.\nAs the lowest level of the 3 quests does not grey until level 32 AND the mobs are WAY above our current level, we will not being doing it at this time.\n[color=FF0000]NOTE: [/color]This quest doesn't show in your log. It just unlocks the 3 quests (which don't show either).\nCheck this step off to continue.|IZ|1440|
+; -- The quests are listed below for future reference
+;C Shadumbra's Head|QID|24|Z|Ashenvale|N|Kill the cat, Shadumbra, for its head.|PRE|6383|
+;C Sharptalon's Claw|QID|2|Z|Ashenvale|N|Kill the blue bird, Sharptalon, for its claw.|PRE|6383|
+;C Ursangous's Paw|QID|23|Z|Ashenvale|N|Kill the grey bear, Ursangous, for its paw.|PRE|6383|
+F Sun Rock Retreat|QID|6421|M|73.18,61.59|Z|Ashenvale|
+
 ]]
 end)
