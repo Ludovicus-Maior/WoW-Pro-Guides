@@ -98,7 +98,7 @@ T Dealing with Zeb'Sora|QID|9143|M|69.39,15.19|N|Return to Ranger Valanna.|
 A Report to Captain Helios|QID|9146|M|69.39,15.19|N|From Ranger Valanna.|PRE|9143|
 K Spirits of the Drowned|ACTIVE|9274|M|71.04,24.00|QO|1;2|N|Kill any ghost you see floating around in the lake.|US|
 T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an.|
-T Report to Captain Helios|QID|9146|M|72.37,29.63|N|To Captain Helios.|
+T Report to Captain Helios|QID|9146|M|72.37,29.65|N|To Captain Helios.|
 H Tranquillien|AVAILABLE|9171|
 A Culinary Crunch|QID|9171|M|48.43,30.93|N|From Master Chef Mouldier.|
 r Repair/Restock|AVAILABLE|9152|M|49.08,30.31|N|At Blacksmith Frances.|
@@ -186,21 +186,21 @@ K Bearers of the Plague|ACTIVE|9158|M|69.46,39.52|QO|1|N|Finish killing Ghostcla
 R Farstrider Enclave|ACTIVE|9158|M|73.83,32.11|
 T Bearers of the Plague|QID|9158|M|72.50,32.13|N|To Farstrider Sedina.|
 A Curbing the Plague|QID|9159|M|72.50,32.13|N|From Farstrider Sedina.|PRE|9158|
-A Attack on Zeb'Tela|QID|9276|M|72.23,31.28|N|From Farstrider Solanna.|
-A Shadowpine Weaponry|QID|9214|M|72.36,29.74|N|From Captain Helios.|
-A A Little Dash of Seasoning|QID|9275|M|72.68,31.55|N|From Apothecary Venustus. Up the right ramp.|
+A Attack on Zeb'Tela|QID|9276|M|72.32,31.24|N|From Farstrider Solanna.|
+A Shadowpine Weaponry|QID|9214|M|72.37,29.65|N|From Captain Helios.|
+A A Little Dash of Seasoning|QID|9275|M|72.37,29.65|N|From Apothecary Venustus. Up the right ramp.|
 T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna. Go back down and up the opposite ramp.|
 A The Traitor's Shadow|QID|9161|M|71.93,32.64|N|From Ranger Vynna.|
 R Amani Catacombs|AVAILABLE|9212|M|67.08,28.57|
-C Troll Juju|QID|9199|M|67.08,28.57|N|Kill any Trolls you come across to collect the Troll Juju.\n[color=FF0000]NOTE: [/color]The Mummified Headhunters briefly deploy a 'Cloud of Disease' when they die and it causes damage if you stand in it.|S|
-C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|1|N|Burn the Troll remains as you go.|U|22755|S|
-C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|2|N|Make your way inside the Catacombs and to the round room just off the first big room you come to.|U|22755|
-C Investigate the Amani Catacombs|QID|9193|M|62.78,31.87|QO|1|N|Finish burning any Troll remains you need.|U|22755|US|NC|
+C Troll Juju|QID|9199|M|67.08,28.57|L|22633 8|N|Kill any Trolls you come across to collect the Troll Juju.\n[color=FF0000]NOTE: [/color]The Mummified Headhunters briefly deploy a 'Cloud of Disease' when they die and it causes damage if you stand in it.|S|
+C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|1|N|Click on the Troll remains to burn them.|S|NC|
+R Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|2|N|Make your way inside the Catacombs and to the round room just off the first big room you come to.|
+C Investigate the Amani Catacombs|QID|9193|M|62.78,31.87|QO|1|N|Finish burning any Troll remains you need.|US|NC|
 C Troll Juju|QID|9199|M|67.08,28.57|N|Finish collecting your Troll Juju.|US|
 A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ranger Lilatha.|
 C Escape from the Catacombs|QID|9212|M|72.24,30.10|N|She is slow inside the cave. At one point outside the cave, you will be ambushed. Kill them and follow her to the Farstrider Enclave (she runs after the ambush).|
 r Repair/Restock|QID|9212|M|72.13,31.97|N|At Narina.|
-T Escape from the Catacombs|QID|9212|M|72.37,29.72|N|To Captain Helios.|
+T Escape from the Catacombs|QID|9212|M|72.37,29.65|N|To Captain Helios.|
 K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill Vamperic Mistbats.|S|
 R Dawnstar Spire|ACTIVE|9161|M|78.48,19.86|
 T The Traitor's Shadow|QID|9161|M|79.63,17.57|N|Kill the 2 guards at the door and the one that paths in and out of the building. From here, clear the room by pulling them one by one outside. Once you have cleared the room, continue inside and click on the book that is at the end of the ramp.|
@@ -263,8 +263,8 @@ T Deactivate An'owyn|QID|9169|M|60.28,35.61|N|To Magister Sylastor.|
 R Farstrider Enclave|ACTIVE|9159|M|73.83,32.11|
 T Curbing the Plague|QID|9159|M|72.50,32.13|N|To Farstrider Sedina.|
 T Assault on Zeb'Nowa|QID|9277|M|72.32,31.24|N|To Farstrider Solanna.|
-T Bring Me Kel'gash's Head!|QID|9215|M|72.34,29.80|N|To Captain Helios.|
-T Shadowpine Weaponry|QID|9214|M|72.34,29.80|N|To Captain Helios.|
+T Bring Me Kel'gash's Head!|QID|9215|M|72.37,29.65|N|To Captain Helios.|
+T Shadowpine Weaponry|QID|9214|M|72.37,29.65|N|To Captain Helios.|
 T A Little Dash of Seasoning|QID|9275|M|72.62,31.56|N|To Apothecary Venustus.|
 H Tranquillien|ACTIVE|9218|N|Hearth back to Tranquillien.|
 T Spinal Dust|QID|9218|M|48.92,31.31|N|To Magistrix Aminel.|
