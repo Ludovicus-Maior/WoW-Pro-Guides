@@ -193,12 +193,13 @@ T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna. Go back down 
 A The Traitor's Shadow|QID|9161|M|71.93,32.64|N|From Ranger Vynna.|
 R Amani Catacombs|AVAILABLE|9212|M|67.08,28.57|
 C Troll Juju|QID|9199|M|67.08,28.57|L|22633 8|N|Kill any Trolls you come across to collect the Troll Juju.\n[color=FF0000]NOTE: [/color]The Mummified Headhunters briefly deploy a 'Cloud of Disease' when they die and it causes damage if you stand in it.|S|
-C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|1|N|Click on the Troll remains to burn them.|S|NC|
+C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|1|N|Click on the Troll remains to burn them.|U|22755|S|NC|
 R Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|2|N|Make your way inside the Catacombs and to the round room just off the first big room you come to.|
-C Investigate the Amani Catacombs|QID|9193|M|62.78,31.87|QO|1|N|Finish burning any Troll remains you need.|US|NC|
-C Troll Juju|QID|9199|M|67.08,28.57|N|Finish collecting your Troll Juju.|US|
-A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ranger Lilatha.|
+C Investigate the Amani Catacombs|QID|9193|M|62.78,31.87|QO|1|N|Finish burning any Troll remains you need.|U|22755|US|NC|
+C Troll Juju|QID|9199|M|62.90,30.15|N|Finish collecting your Troll Juju.\n[color=FF0000]NOTE: [/color]Finish this BEFORE accepting the escort quest.|US|
+A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ranger Lilatha (in the cage).|
 C Escape from the Catacombs|QID|9212|M|72.24,30.10|N|She is slow inside the cave. At one point outside the cave, you will be ambushed. Kill them and follow her to the Farstrider Enclave (she runs after the ambush).|
+A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=CC00FF]QUEST FAILED [/color]\nGo back to Ranger Lilatha (in the cage) to accept the quest again.|FAIL|
 r Repair/Restock|QID|9212|M|72.13,31.97|N|At Narina.|
 T Escape from the Catacombs|QID|9212|M|72.37,29.65|N|To Captain Helios.|
 K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill Vamperic Mistbats.|S|
@@ -207,8 +208,8 @@ T The Traitor's Shadow|QID|9161|M|79.63,17.57|N|Kill the 2 guards at the door an
 A Hints of the Past|QID|9162|M|79.63,17.57|N|From the book.|PRE|9161|
 T Hints of the Past|QID|9162|M|71.89,32.63|N|To Ranger Vynna, back at Farstrider Enclave.|
 A Report to Magister Kaendris|QID|9172|M|71.89,32.63|N|From Ranger Vynna.|PRE|9162|
-C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23167 3|N|Finish collecting the Shadowcaster Maces.|S|
-C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23165 3|N|Finish collecting the  Headhunter Axes.|S|
+C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23167 3|N|Kill Shadowcasters to collect the Shadowcaster Maces.|S|
+C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23165 3|N|Kill Headhunters to collect the  Headhunter Axes.|S|
 K Attack on Zeb'Tela|ACTIVE|9276|M|78.75,37.73|QO|1;2|N|Kill Shadowcasters and Headhunters.\n[color=FF0000]NOTE: [/color]There is a 2nd camp just to the south.|
 C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23167 3|N|Finish collecting the Shadowcaster Maces.|US|
 C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23165 3|N|Finish collecting the  Headhunter Axes.|US|
@@ -219,7 +220,7 @@ C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|22677 3|N|Loot the Catlord Claws 
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|23166 3|N|Loot the Hexxer Staves from Hexxers.|S|
 K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill 10 Vamperic Mistbats.|US|
 R Zeb'Nowa|ACTIVE|9214^9277|M|68.33,48.73|
-C A Little Dash of Seasoning|QID|9275|M|68.33,48.73|QO|3|N|Go inside the hut and click on the Fresh Fish Rack to poison it.|NC|
+C A Little Dash of Seasoning|QID|9275|M|68.23,57.78|QO|3|N|Go inside the hut and click on the Fresh Fish Rack to poison it.|NC|
 C A Little Dash of Seasoning|QID|9275|M|65.06,66.73|QO|1|N|Click on the Raw Meat Rack to poison it.|NC|
 C A Little Dash of Seasoning|QID|9275|M|63.03,74.98|QO|2|N|Click on the Smoked Meat Rack to poison it.|NC|
 K Bring Me Kel'gash's Head!|ACTIVE|9215|M|65.33,79.51|QO|1|N|If you feel that you can kill Kel'gash, or if you have help, go ahead and try.\n[color=FF0000]NOTE: [/color]He is stunnable and silenceable.|
@@ -227,7 +228,7 @@ K Assault on Zeb'Nowa|ACTIVE|9277|M|62.90,66.38|QO|1;2|N|Kill Shadowpine Catlord
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|22677 3|N|Loot the Catlord Claws from Catlords.|US|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|23166 3|N|Loot the Hexxer Staves from Hexxers.|US|
 L Level 18|ACTIVE|9199|N|Grind until you're level 18.|LVL|18|
-H Tranquillien|ACTIVE|9199|
+H Tranquillien|ACTIVE|9199|M|46.47,37.71|
 F Silvermoon City|ACTIVE|9199|M|45.43,30.53|
 = Level 18 Training|ACTIVE|9199|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 F Tranquillien|ACTIVE|9199|M|54.37,50.73|Z|Eversong Woods|
