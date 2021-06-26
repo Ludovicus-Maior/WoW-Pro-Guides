@@ -1,7 +1,7 @@
 #!/bin/sh
 
-CLASSIC=(WoWPro WoWPro_Leveling)
-BCC=(WoWPro WoWPro_Leveling WoWPro_Dailies)
+CLASSIC=(WoWPro WoWPro_Leveling WoWPro_Profession)
+BCC=(WoWPro WoWPro_Leveling WoWPro_Profession WoWPro_Dailies)
 RETAIL=(WoWPro WoWPro_Leveling WoWPro_Dailies WoWPro_Profession WoWPro_WorldEvents WoWPro_Achievements)
 TRIAL=(WoWPro WoWPro_Leveling)
 ZIP_EXTRA=""
