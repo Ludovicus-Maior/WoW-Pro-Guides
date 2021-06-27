@@ -243,7 +243,7 @@ C Deactivate An'owyn|QID|9169|M|58.22,64.93|N|Click on the Night Elf Moon Crysta
 K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Finish killing Greater Spindlewebs and Ghostclaw Ravager.\n[color=FF0000]NOTE: [/color]Between here and the road to the west, you should find plenty of them.\nMake sure you stay south of the road.|US|
 T Clearing the Way|QID|9281|M|46.40,56.41|N|To Apprentice Vor'el, at Andilien Estate.|
 T Report to Magister Kaendris|QID|9172|M|55.07,48.83|N|To Magister Kaendris, in Sanctum of the Sun.|
-A The Twin Ziggurats|QID|9176|M|55.02,48.93|N|From Magister Kaendris.|PRE|9172|
+A The Twin Ziggurats|QID|9176|M|55.07,48.83|N|From Magister Kaendris.|PRE|9172|
 T The Sanctum of the Sun|QID|9151|M|54.87,48.55|N|To Magister Idonis, at the top of the ramp.|
 A War on Deatholme|QID|9220|M|54.87,48.55|N|From Magister Idonis.|
 R Howling Ziggurat|ACTIVE|9176|M|41.68,47.02|
@@ -253,10 +253,13 @@ C The Twin Ziggurats|QID|9176|M|34.31,47.67|L|22598|QO|2|N|Using the same tactic
 K Curbing the Plague|ACTIVE|9159|M|31.45,40.60|QO|2|N|Kill Spindleweb Lurkers.|
 R Deatholme|ACTIVE|9220|M|36.40,69.79|N|Make your way to The Dead Scar and follow it south.|
 K War on Deatholme|ACTIVE|9220|M|32.12,76.13|QO|1;2;3|N|Kill Eyes of Dar'khan, Nerubis Centurions, and Wailers in Deatholme.|
+R The Dead Scar|ACTIVE|9218|M|36.33,71.71|N|Exit Deatholme.|IZ|3500; Deatholme|
+R The Dead Scar|ACTIVE|9218|M|36.33,71.71|N|Exit Deatholme.|IZ|-3514; The Dead Scar|
+C Spinal Dust|QID|9218|M|37.52,49.76|L|22642 10|QO|1|N|Kill Dread Sentinels and Deathcage Sorcerers to finish collecting the Spinal Dust.\n[color=FF0000]NOTE: [/color]Watch out for Luzran.|US|
 R Sanctum of the Sun|ACTIVE|9176|M|53.94,51.76|
-T The Twin Ziggurats|QID|9176|M|55.00,48.95|N|To Magister Kaendris.|
-A The Traitor's Destruction|QID|9167|M|55.00,48.95|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nFrom Magister Kaendris.|PRE|9176|
-T War on Deatholme|QID|9220|M|54.87,48.55|N|To Magister Idonis.|
+T The Twin Ziggurats|QID|9176|M|55.07,48.83|N|To Magister Kaendris.|
+A The Traitor's Destruction|QID|9167|M|55.07,48.83|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nFrom Magister Kaendris.|PRE|9176|
+T War on Deatholme|QID|9220|M|54.87,48.55|N|To Magister Idonis (up the ramp).|
 A Dar'Khan's Lieutenants|QID|9170|M|54.87,48.55|N|From Magister Idonis.|PRE|9220|
 A A Restorative Draught|QID|9877|M|54.82,48.35|N|From Arcanist Janeda.|PRE|9220|
 R An'telas|ACTIVE|9169|M|56.53,45.39;60.76,40.79|CC|N|Cut through the pass behind Sun of the Sanctum.|
