@@ -254,8 +254,9 @@ K Curbing the Plague|ACTIVE|9159|M|31.45,40.60|QO|2|N|Kill Spindleweb Lurkers.|
 R Deatholme|ACTIVE|9220|M|36.40,69.79|N|Make your way to The Dead Scar and follow it south.|
 K War on Deatholme|ACTIVE|9220|M|32.12,76.13|QO|1;2;3|N|Kill Eyes of Dar'khan, Nerubis Centurions, and Wailers in Deatholme.|
 R The Dead Scar|ACTIVE|9218|M|36.33,71.71|N|Exit Deatholme.|IZ|3500; Deatholme|
-R The Dead Scar|ACTIVE|9218|M|36.33,71.71|N|Exit Deatholme.|IZ|-3514; The Dead Scar|
+R The Dead Scar|ACTIVE|9218|M|36.33,71.71|IZ|-3514; The Dead Scar|
 C Spinal Dust|QID|9218|M|37.52,49.76|L|22642 10|QO|1|N|Kill Dread Sentinels and Deathcage Sorcerers to finish collecting the Spinal Dust.\n[color=FF0000]NOTE: [/color]Watch out for Luzran.|US|
+L Level 20|ACTIVE|9877|N|Make sure you're at least 5.5 bars into level 19 before moving on.|LVL|19;-13900|
 R Sanctum of the Sun|ACTIVE|9176|M|53.94,51.76|
 T The Twin Ziggurats|QID|9176|M|55.07,48.83|N|To Magister Kaendris.|
 A The Traitor's Destruction|QID|9167|M|55.07,48.83|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nFrom Magister Kaendris.|PRE|9176|
@@ -270,17 +271,19 @@ T Assault on Zeb'Nowa|QID|9277|M|72.32,31.24|N|To Farstrider Solanna.|
 T Bring Me Kel'gash's Head!|QID|9215|M|72.37,29.65|N|To Captain Helios.|
 T Shadowpine Weaponry|QID|9214|M|72.37,29.65|N|To Captain Helios.|
 T A Little Dash of Seasoning|QID|9275|M|72.62,31.56|N|To Apothecary Venustus.|
-H Tranquillien|ACTIVE|9218|N|Hearth back to Tranquillien.|
+H Tranquillien|ACTIVE|9218|M|46.43,37.58|
 T Spinal Dust|QID|9218|M|48.92,31.31|N|To Magistrix Aminel.|
 r Repair/Restock|ACTIVE|9877|M|49.05,30.32|N|At Blacksmith Frances.|
 F Silvermoon City|ACTIVE|9877|M|45.43,30.53|
 = Level 20 Training|ACTIVE|9877|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ; --- Paladin level 20 class quest
 A The Second Trial|QID|9690|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
-R Falconwing Square|AVAILABLE|9677|M|46.56,48.89|Z|Eversong Woods|N|Follow the wall west to the Falconwing Square entrance.|R|BloodElf|C|Paladin|
-T The Second Trial|QID|9690|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
+R The Shepherd's Gate|ACTIVE|9690|M|56.66,49.54|Z|Eversong Woods|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|R|BloodElf|C|Paladin|
+R Falconwing Square|ACTIVE|9690|M|46.56,48.89|Z|Eversong Woods|N|Follow the wall west to the Falconwing Square entrance.|R|BloodElf|C|Paladin|
+T The Second Trial|QID|9690|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn. He's outside the Ruins of Silvermoon at the Pavilion, east of the main road. There is a path leading to it.|R|BloodElf|C|Paladin|
 A The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
-C The Second Trial|QID|9686|M|43.34,28.69|Z|Eversong Woods|N|Click the crystal, kill the guy.|R|BloodElf|C|Paladin|
+C The Second Trial|QID|9686|M|43.34,28.69|Z|Eversong Woods|N|Go inside the pavilion and click the crystal. 4 mobs will spawn and attack you one at a time. Defeat them successfully to complete the quest.\n[color=FF0000]NOTE: [/color]If you don't click on the crystal within 1 minute of accepting the quest, the quest will fail and Master Kelerun Bloodmourn will temporarily despawn.|R|BloodElf|C|Paladin|
+A The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|[color=CC00FF]QUEST FAILED [/color]\nWait for Master Kelerun Bloodmourn to respawn outside and retake the quest.|R|BloodElf|C|Paladin|FAIL|
 T The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
 A Return to Silvermoon|QID|9691|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
 R The Shepherd's Gate|ACTIVE|9691|M|56.66,49.54|Z|Eversong Woods|N|Exit Falconwing Square and follow the wall east to the  Silvermoon City entrance.|IZ|-1954; Silvermoon City|
