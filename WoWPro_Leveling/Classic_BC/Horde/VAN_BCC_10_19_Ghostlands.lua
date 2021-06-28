@@ -282,15 +282,17 @@ R The Shepherd's Gate|ACTIVE|9690|M|56.66,49.54|Z|Eversong Woods|N|Make your way
 R Falconwing Square|ACTIVE|9690|M|46.56,48.89|Z|Eversong Woods|N|Follow the wall west to the Falconwing Square entrance.|R|BloodElf|C|Paladin|
 T The Second Trial|QID|9690|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn. He's outside the Ruins of Silvermoon at the Pavilion, east of the main road. There is a path leading to it.|R|BloodElf|C|Paladin|
 A The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
-C The Second Trial|QID|9686|M|43.34,28.69|Z|Eversong Woods|N|Go inside the pavilion and click the crystal. 4 mobs will spawn and attack you one at a time. Defeat them successfully to complete the quest.\n[color=FF0000]NOTE: [/color]If you don't click on the crystal within 1 minute of accepting the quest, the quest will fail and Master Kelerun Bloodmourn will temporarily despawn.|R|BloodElf|C|Paladin|
 A The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|[color=CC00FF]QUEST FAILED [/color]\nWait for Master Kelerun Bloodmourn to respawn outside and retake the quest.|R|BloodElf|C|Paladin|FAIL|
+C The Second Trial|QID|9686|M|43.34,28.69|Z|Eversong Woods|N|Go inside the pavilion and click the crystal. 4 mobs will spawn and attack you one at a time. Defeat them successfully to complete the quest.\n[color=FF0000]NOTE: [/color]If you don't click on the crystal within 1 minute of accepting the quest, the quest will fail and Master Kelerun Bloodmourn will temporarily despawn.|R|BloodElf|C|Paladin|
 T The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
 A Return to Silvermoon|QID|9691|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
-R The Shepherd's Gate|ACTIVE|9691|M|56.66,49.54|Z|Eversong Woods|N|Exit Falconwing Square and follow the wall east to the  Silvermoon City entrance.|IZ|-1954; Silvermoon City|
+R The Shepherd's Gate|ACTIVE|9691|M|56.66,49.54|Z|Eversong Woods|N|Make your way back through the Ruins of Silvermoon to Falconwing Square. Exit and follow the wall east to the Silvermoon City entrance.|IZ|-1954; Silvermoon City|
 T Return to Silvermoon|QID|9691|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+A The Path of the Adept|QID|9692|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor. This starts the Paladin class quest for the Blood-Tempered Ranseur, a special Polearm.\n[color=FF0000]NOTE: [/color]You're not expected to do this quest chain now. But, it's better to accept the quest now, in case you run the required dungeons.\nThis quest is easier to solo if you wait until at least lv 26.|PRE|9691|R|BloodElf|C|Paladin|
+
 ; ---
 ; --- Priest level 20 Undead class quest
-P Undercity|AVAILABLE|5646|M|49.5,14.8|Z|Silvermoon City|N|[Coords]Use the Orb of Translocation located at the very back of Sunfury Spire.|
+P Undercity|AVAILABLE|5646|M|49.5,14.8|Z|Silvermoon City|N|[Coords]Use the Orb of Translocation located at the very back of Sunfury Spire.|R|Undead|C|Priest|
 b Durotar|AVAILABLE|5646|M|60.75,58.77|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|R|Undead|C|Priest|
 R Orgrimmar|AVAILABLE|5646|M|45.52,12.07|Z|Durotar|R|Undead|C|Priest|
 f Orgrimmar|AVAILABLE|5646|M|45.50,63.84|Z|Orgrimmar|N|Get the flight path from Doras.|C|Warlock|
@@ -349,17 +351,17 @@ P Silvermoon City|ACTIVE|9877|M|54.9,11.2|CC|Z|Undercity|N|[coords]Use the Orb o
 ; ---
 F Tranquillien|ACTIVE|9877|M|54.37,50.73|Z|Eversong Woods|
 T A Restorative Draught|QID|9877|M|47.59,34.79|N|To Apothecary Renzithen.|
-R Deatholme|ACTIVE|9164^9170|M|44.72,70.41;36.40,69.79|CC|N|Follow the road south out of Tranquillien to the bottom and cut across to the Deatholme entrance.|
 A Captives at Deatholme|QID|9164|M|47.59,34.79|N|From Apothecary Renzithen.|
+R Deatholme|ACTIVE|9164^9170|M|44.72,70.41;36.40,69.79|CC|N|Follow the road south out of Tranquillien to the bottom and cut across to the Deatholme entrance.|
 K Jurion the Deceiver|ACTIVE|9170|M|32.10,74.50|QO|3|N|After killing the 2 guards at the entrance, go down the stairs into the crypt and kill Jurion the Deceiver.\n[color=FF0000]NOTE: [/color]He will attack you when you enter the room.|
 C Apothecary Enith|QID|9164|M|32.15,73.95|QO|1|N|Talk to Apothecary Enith.|CHAT|
 K Mirdoran the Fallen|ACTIVE|9170|M|37.26,79.36|QO|1|N|Kill Mirdoran the Fallen.\n[color=FF0000]NOTE: [/color]Avoid going too far into the building as he has 3 Wailers guarding him.|
 K Borgoth the Bloodletter|ACTIVE|9170|M|41,83.1|QO|2|N|Borgoth can be in found inside the butchery.\n[color=FF0000]NOTE: [/color]He may be in the other butchery.|T|Borgoth the Bloodletter|S|
 C Apprentice Varnis|QID|9164|M|37.88,84.40;40.98,83.17|CS|QO|2|N|Go into the butchery and talk to Apprentice Varnis.\n[color=FF0000]NOTE: [/color]Kill Borgoth first if he's here.|CHAT|
 K Masophet the Black|ACTIVE|9170|M|29.5,89.2|QO|4|N|Check the first ziggurat for Masophet. If he's here, clear the Necromancers on the sides and then pull Masophet.|T|Masophet the Black|S|
-K Borgoth the Bloodletter|ACTIVE|9170|M|32.70,89.96|QO|2|N|Borgoth can be in found inside the butchery.\n[color=FF0000]NOTE: [/color]If he's not here, you'll have to check the second ziggurat.|T|Masophet the Black|S|
 C Ranger Vedoran|QID|9164|M|32.79,89.93|QO|3|N|Talk to Ranger Vedoran to rescue him.\n[color=FF0000]NOTE: [/color]Kill Borgoth first if he's here.|CHAT|
 K Masophet the Black|ACTIVE|9170|M|35.9,89.3|QO|4|N|Check the second ziggurat for Masophet. If he's here, clear the Necromancers on the sides and then pull Masophet.\n[color=FF0000]NOTE: [/color]If he's not here, you'll have to go back and check the first ziggurat.|T|Masophet the Black|US|
+K Borgoth the Bloodletter|ACTIVE|9170|M|32.79,89.93|QO|2|N|Borgoth can be in found inside the butchery.\n[color=FF0000]NOTE: [/color]If he's not here, you'll have to check the first butchery.|T|Borgoth the Bloodletter|US|
 R Tower of the Damned|ACTIVE|9157|M|31.65,81.70|N|Make your way to the tower in the center of Deatholme. It has an east and a west entrance. Both of them lead to the same spot and have 2 guards standing at the top of the stairs.|
 K Dar'Khan|ACTIVE|9167|M|32.81,82.45|QO|1|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nAt the first intersection after you enter the tower, wait for the patrolling NPC to pass and kill it.\nOnce you are on the next level, the path splits (direction is irrelevant) with a Necromancer and his pet standing around the corner.\nAt the next level, the pathes merge and lead down into the main room.\n[color=FF0000]NOTE: [/color]Dar'Khan is a 21 elite and has 2 Necromancers with pets on either side of the room. If done right, you can solo pull each group of adds from the top of the ramp without pulling Dar'Khan.\nMake sure you keep the upper level clear as to avoid any surprise adds when he casts Fear on you.\n\nIf you have help, or if you think you can solo him, go ahead. If not, go ahead and skip, though the rewards are nice.|
 R Sanctum of the Sun|ACTIVE|9167^9170|M|53.94,51.76|
