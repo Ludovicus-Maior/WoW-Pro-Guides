@@ -2,11 +2,11 @@ local guide = WoWPro:RegisterGuide("CLASSIC_BC_Zangarmarsh", "Leveling", "Zangar
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Zangarmarsh")
 WoWPro:GuideName(guide,"Zangarmarsh")
-WoWPro:GuideLevels(guide, 62, 64)
+WoWPro:GuideLevels(guide, 61, 64)
 WoWPro:GuideNextGuide(guide, "Terokkar Forest")
 WoWPro:GuideSteps(guide, function()
 return [[
-R Zangarmarsh|AVAILABLE|9777|N|Go to Zangarmarsh.|M|82.9,65.08|
+R Zangarmarsh|AVAILABLE|9777|M|82.9,65.08|N|Go to Zangarmarsh.|
 N README 1|AVAILABLE|9777|N|Fertile Spores/nSporebats, Greater Sporebats, Marsh Walkers and Fen Striders drop Fertile Spores, these will open up daily Sporreggar reputation quests so don't sell them.|
 N README 2|AVAILABLE|9777|N|Bog Lord Tendrils/nBog Lords and Withered Giants will drop Bog Lord Tendrils that'll open up more Sporreggar reputation dailies, so don't sell these either.|
 N README 3|AVAILABLE|9777|N|Unidentified plant parts/nMost mobs in the area will drop these, these are Cenarion Expedition reputation items whcih will open up new quest lines. Get as many as you can to reach honored fast.|
@@ -14,24 +14,24 @@ N README 3|AVAILABLE|9777|N|Unidentified plant parts/nMost mobs in the area will
 A The Umbrafen Tribe|QID|9747|M|80.40,64.20|N|From Ikeyen.|
 A Plants of Zangarmarsh|QID|9802|M|80.30,64.20|N|From Lauranna Thar'well.|
 A The Dying Balance|QID|9895|M|78.60,63.10|N|From Lethyn Moonfire.|
-h Cenarion Refuge|QID|9777|N|Set your hearthstone to Cenarion Refuge.|M|78.50,63.00|
+h Cenarion Refuge|QID|9777|M|78.50,63.00|N|Set your hearthstone to Cenarion Refuge.|
 T The Cenarion Expedition|QID|9912|M|78.40,62.10|N|To Ysiel Windsinger.|
-r Sell junk, repair, restock|M|79.27,63.78|N|Repair at Fedryen Swiftwhisper.|QID|9901|
+r Sell junk, repair, restock|QID|9901|M|79.27,63.78|N|Repair at Fedryen Swiftwhisper.|
 ; Telredor, Section B
-R Telredor|AVAILABLE|9901|N|Use the platform here to get up to Telredor.|M|70.00, 49.00|CC|
+R Telredor|AVAILABLE|9901|M|70.00, 49.00|CC|N|Use the platform here to get up to Telredor.|
 A Fulgor Spores|QID|9777|M|68.6,48.7|N|From Ruam.|
 A Unfinished Business|QID|9901|M|68.6,49.4|N|From Prospector Conall.|
 A The Dead Mire|QID|9782|M|68.3,50.1|N|From Vindicator Idaar.|
-f Telredor|ACTIVE|9901|N|Get the flight-path.|M|67.80,51.5|
+f Telredor|ACTIVE|9901|M|67.80,51.5|N|Get the flight-path.|
 A Menacing Marshfangs|QID|9791|M|67.7,48.0|N|From Noraani.|
-C Menacing Marshfangs|N|Kill Marshfang Rippers needed for this quest.|M|85.00,47.0|QID|9791|S|
-C Fulgor Spores|N|Loot the green mushroom looking things off the ground around Telredor, until you finish this quest.|M|67.00,50.0|QID|9777|QO|1|NC|
-C Unfinished Business|N|Go here, find, then kill Sporewing. It wanders between the waypoints.|M|77.00,45.0;79.52,47.75|CN|QID|9901|T|Sporewing|
+C Menacing Marshfangs|QID|9791|M|85.00,47.0|N|Kill Marshfang Rippers needed for this quest.|S|
+C Fulgor Spores|QID|9777|M|67.00,50.0|QO|1|NC|N|Loot the green mushroom looking things off the ground around Telredor, until you finish this quest.|
+C Unfinished Business|QID|9901|M|77.00,45.0;79.52,47.75|CN|N|Go here, find, then kill Sporewing. It wanders between the waypoints.|T|Sporewing|
 l Withered Basidium|QID|9901|N|Kill and loot Withered Giants until you get the Withered Basidium.|L|24483|S|
-C The Dead Mire|N|Go to either waypoint and loot the soil that should be near it.|M|83.80,43.3;70.71,43.44|CN|QID|9782|
+C The Dead Mire|QID|9782|M|83.80,43.3;70.71,43.44|CN|N|Go to either waypoint and loot the soil that should be near it.|
 l Withered Basidium|QID|9901|N|Kill Withered Giants until you get the Withered Basidium, it has quite a low drop chance so it might take a while.|L|24483|US|
-A Withered Basidium|N|(UI Alert).|QID|9827|U|24483|M|78.3,45.2|
-C Menacing Marshfangs|N|Kill the rest of the Marshfang Rippers for this quest.|M|85.00,47.0|QID|9791|US|
+A Withered Basidium|QID|9827|M|78.3,45.2|N|(UI Alert).|U|24483|
+C Menacing Marshfangs|QID|9791|M|85.00,47.0|N|Kill the rest of the Marshfang Rippers for this quest.|US|
 ; Back to Telredor
 T Fulgor Spores|QID|9777|M|68.6,48.7|N|To Ruam.|
 T Withered Basidium|QID|9827|M|68.6,48.7|N|To Ruam.|
@@ -40,21 +40,21 @@ T Unfinished Business|QID|9901|M|68.6,49.4|N|To Prospector Conall.|
 T The Dead Mire|QID|9782|M|68.3,50.1|N|To Vindicator Idaar.|
 A An Unnatural Drought|QID|9783|PRE|9782|M|68.3,50.1|N|From Vindicator Idaar.|
 T Menacing Marshfangs|QID|9791|M|67.7,48.0|N|To Noraani.|
-C An Unnatural Drought|N|Kill Withered Giants until you are finished this quest.|M|82.00,39.0|QID|9783|S|
-C Withered Flesh|N|Kill and loot Hydras and Bog Lords for their various samples.|M|80.00,40.0|QID|10355|
-C Plants of Zangarmarsh|N|Keep killing and looting mobs until you get the plant parts for this quest.|QID|9802|M|80.1,73.3|
-C An Unnatural Drought|N|Kill mobs until you finish this quest.|M|82.00,39.0|QID|9783|US|
-l Unidentified Plant Parts|ACTIVE|9802|N|Kill mobs until you have at least 30 Unidentified Plant Parts.\n[Blessings of the Ancients] appears when you are Friendly with the Cenarion Expedition.|L|24401 30|M|82.00,39.0|
+C An Unnatural Drought|QID|9783|M|82.00,39.0|N|Kill Withered Giants until you are finished this quest.|S|
+C Withered Flesh|QID|10355|M|80.00,40.0|N|Kill and loot Hydras and Bog Lords for their various samples.|
+C Plants of Zangarmarsh|QID|9802|M|80.1,73.3|N|Keep killing and looting mobs until you get the plant parts for this quest.|
+C An Unnatural Drought|QID|9783|M|82.00,39.0|N|Kill mobs until you finish this quest.|US|
+l Unidentified Plant Parts|ACTIVE|9802|M|82.00,39.0|L|24401 30|N|Kill mobs until you have at least 30 Unidentified Plant Parts.\n[Blessings of the Ancients] appears when you are Friendly with the Cenarion Expedition.|
 ; Back to Telredor
 T Withered Flesh|QID|10355|M|68.6,48.7|N|To Ruam.|
 T An Unnatural Drought|QID|9783|M|68.3,50.1|N|To Vindicator Idaar.|
 A Too Many Mouths to Feed|QID|9781|M|67.7,48.0|N|From Haalrun.|
 A Umbrafen Eel Filets|QID|9780|PRE|9791|M|67.7,48.0|N|From Noraani.|
 ; Umbrafen Lake
-C Too Many Mouths to Feed|N|Kill the Hydras.|QID|9781|S|T|Mire Hydra|
-C Umbrafen Eel Filets|N|Kill Eels until you have 8 Eel Filets. You may need to use the potion of underwater breathing.|QID|9780|M|75.50,71.18|U|25539|
-C Too Many Mouths to Feed|N|Kill the rest of the Hydras needed for this quest in the lake.|QID|9781|US|T|Mire Hydra|
-C The Dying Balance|N|Kill Boglash, he wanders so it may take a minute to find him.|M|82.04,71.73|QID|9895|T|Boglash|
+C Too Many Mouths to Feed|QID|9781|M|75.50,71.18|N|Kill the Hydras.|S|T|Mire Hydra|
+C Umbrafen Eel Filets|QID|9780|M|75.50,71.18|N|Kill Eels until you have 8 Eel Filets. You may need to use the potion of underwater breathing.|U|25539|
+C Too Many Mouths to Feed|QID|9781|N|Kill the rest of the Hydras needed for this quest in the lake.|US|T|Mire Hydra|
+C The Dying Balance|QID|9895|M|82.04,71.73|N|Kill Boglash, he wanders so it may take a minute to find him.|T|Boglash|
 C Umbrafen Oracle|QID|9747|QO|2|M|83.40,82.80;82.70,85.35;85.40,82.00;83.45,80.15;84.45,89.17|CN|S|
 C Umbrafen Seer|QID|9747|QO|3|M|81.40,79.00;83.20,80.50;80.90,82.10;84.39,89.07;84.72,82.55;83.59,85.91|CN|S|
 C Umbrafen Witchdoctor|QID|9747|QO|4|M|82.80,80.20;85.00,90.40;82.70,85.40|CN|N|Get the Witchdoctor's first. They spawn in only a few places.|S|T|Umbrafen Witchdoctor|
