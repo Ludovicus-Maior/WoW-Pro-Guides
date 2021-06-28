@@ -193,12 +193,13 @@ T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna. Go back down 
 A The Traitor's Shadow|QID|9161|M|71.93,32.64|N|From Ranger Vynna.|
 R Amani Catacombs|AVAILABLE|9212|M|67.08,28.57|
 C Troll Juju|QID|9199|M|67.08,28.57|L|22633 8|N|Kill any Trolls you come across to collect the Troll Juju.\n[color=FF0000]NOTE: [/color]The Mummified Headhunters briefly deploy a 'Cloud of Disease' when they die and it causes damage if you stand in it.|S|
-C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|1|N|Click on the Troll remains to burn them.|S|NC|
+C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|1|N|Click on the Troll remains to burn them.|U|22755|S|NC|
 R Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|2|N|Make your way inside the Catacombs and to the round room just off the first big room you come to.|
-C Investigate the Amani Catacombs|QID|9193|M|62.78,31.87|QO|1|N|Finish burning any Troll remains you need.|US|NC|
-C Troll Juju|QID|9199|M|67.08,28.57|N|Finish collecting your Troll Juju.|US|
-A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ranger Lilatha.|
+C Investigate the Amani Catacombs|QID|9193|M|62.78,31.87|QO|1|N|Finish burning any Troll remains you need.|U|22755|US|NC|
+C Troll Juju|QID|9199|M|62.90,30.15|N|Finish collecting your Troll Juju.\n[color=FF0000]NOTE: [/color]Finish this BEFORE accepting the escort quest.|US|
+A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ranger Lilatha (in the cage).|
 C Escape from the Catacombs|QID|9212|M|72.24,30.10|N|She is slow inside the cave. At one point outside the cave, you will be ambushed. Kill them and follow her to the Farstrider Enclave (she runs after the ambush).|
+A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=CC00FF]QUEST FAILED [/color]\nGo back to Ranger Lilatha (in the cage) to accept the quest again.|FAIL|
 r Repair/Restock|QID|9212|M|72.13,31.97|N|At Narina.|
 T Escape from the Catacombs|QID|9212|M|72.37,29.65|N|To Captain Helios.|
 K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill Vamperic Mistbats.|S|
@@ -207,8 +208,8 @@ T The Traitor's Shadow|QID|9161|M|79.63,17.57|N|Kill the 2 guards at the door an
 A Hints of the Past|QID|9162|M|79.63,17.57|N|From the book.|PRE|9161|
 T Hints of the Past|QID|9162|M|71.89,32.63|N|To Ranger Vynna, back at Farstrider Enclave.|
 A Report to Magister Kaendris|QID|9172|M|71.89,32.63|N|From Ranger Vynna.|PRE|9162|
-C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23167 3|N|Finish collecting the Shadowcaster Maces.|S|
-C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23165 3|N|Finish collecting the  Headhunter Axes.|S|
+C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23167 3|N|Kill Shadowcasters to collect the Shadowcaster Maces.|S|
+C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23165 3|N|Kill Headhunters to collect the  Headhunter Axes.|S|
 K Attack on Zeb'Tela|ACTIVE|9276|M|78.75,37.73|QO|1;2|N|Kill Shadowcasters and Headhunters.\n[color=FF0000]NOTE: [/color]There is a 2nd camp just to the south.|
 C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23167 3|N|Finish collecting the Shadowcaster Maces.|US|
 C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23165 3|N|Finish collecting the  Headhunter Axes.|US|
@@ -219,7 +220,7 @@ C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|22677 3|N|Loot the Catlord Claws 
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|23166 3|N|Loot the Hexxer Staves from Hexxers.|S|
 K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill 10 Vamperic Mistbats.|US|
 R Zeb'Nowa|ACTIVE|9214^9277|M|68.33,48.73|
-C A Little Dash of Seasoning|QID|9275|M|68.33,48.73|QO|3|N|Go inside the hut and click on the Fresh Fish Rack to poison it.|NC|
+C A Little Dash of Seasoning|QID|9275|M|68.23,57.78|QO|3|N|Go inside the hut and click on the Fresh Fish Rack to poison it.|NC|
 C A Little Dash of Seasoning|QID|9275|M|65.06,66.73|QO|1|N|Click on the Raw Meat Rack to poison it.|NC|
 C A Little Dash of Seasoning|QID|9275|M|63.03,74.98|QO|2|N|Click on the Smoked Meat Rack to poison it.|NC|
 K Bring Me Kel'gash's Head!|ACTIVE|9215|M|65.33,79.51|QO|1|N|If you feel that you can kill Kel'gash, or if you have help, go ahead and try.\n[color=FF0000]NOTE: [/color]He is stunnable and silenceable.|
@@ -227,7 +228,7 @@ K Assault on Zeb'Nowa|ACTIVE|9277|M|62.90,66.38|QO|1;2|N|Kill Shadowpine Catlord
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|22677 3|N|Loot the Catlord Claws from Catlords.|US|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|23166 3|N|Loot the Hexxer Staves from Hexxers.|US|
 L Level 18|ACTIVE|9199|N|Grind until you're level 18.|LVL|18|
-H Tranquillien|ACTIVE|9199|
+H Tranquillien|ACTIVE|9199|M|46.47,37.71|
 F Silvermoon City|ACTIVE|9199|M|45.43,30.53|
 = Level 18 Training|ACTIVE|9199|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 F Tranquillien|ACTIVE|9199|M|54.37,50.73|Z|Eversong Woods|
@@ -242,7 +243,7 @@ C Deactivate An'owyn|QID|9169|M|58.22,64.93|N|Click on the Night Elf Moon Crysta
 K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Finish killing Greater Spindlewebs and Ghostclaw Ravager.\n[color=FF0000]NOTE: [/color]Between here and the road to the west, you should find plenty of them.\nMake sure you stay south of the road.|US|
 T Clearing the Way|QID|9281|M|46.40,56.41|N|To Apprentice Vor'el, at Andilien Estate.|
 T Report to Magister Kaendris|QID|9172|M|55.07,48.83|N|To Magister Kaendris, in Sanctum of the Sun.|
-A The Twin Ziggurats|QID|9176|M|55.02,48.93|N|From Magister Kaendris.|PRE|9172|
+A The Twin Ziggurats|QID|9176|M|55.07,48.83|N|From Magister Kaendris.|PRE|9172|
 T The Sanctum of the Sun|QID|9151|M|54.87,48.55|N|To Magister Idonis, at the top of the ramp.|
 A War on Deatholme|QID|9220|M|54.87,48.55|N|From Magister Idonis.|
 R Howling Ziggurat|ACTIVE|9176|M|41.68,47.02|
@@ -252,10 +253,14 @@ C The Twin Ziggurats|QID|9176|M|34.31,47.67|L|22598|QO|2|N|Using the same tactic
 K Curbing the Plague|ACTIVE|9159|M|31.45,40.60|QO|2|N|Kill Spindleweb Lurkers.|
 R Deatholme|ACTIVE|9220|M|36.40,69.79|N|Make your way to The Dead Scar and follow it south.|
 K War on Deatholme|ACTIVE|9220|M|32.12,76.13|QO|1;2;3|N|Kill Eyes of Dar'khan, Nerubis Centurions, and Wailers in Deatholme.|
+R The Dead Scar|ACTIVE|9218|M|36.33,71.71|N|Exit Deatholme.|IZ|3500; Deatholme|
+R The Dead Scar|ACTIVE|9218|M|36.33,71.71|IZ|-3514; The Dead Scar|
+C Spinal Dust|QID|9218|M|37.52,49.76|L|22642 10|QO|1|N|Kill Dread Sentinels and Deathcage Sorcerers to finish collecting the Spinal Dust.\n[color=FF0000]NOTE: [/color]Watch out for Luzran.|US|
+L Level 20|ACTIVE|9877|N|Make sure you're at least 5.5 bars into level 19 before moving on.|LVL|19;-13900|
 R Sanctum of the Sun|ACTIVE|9176|M|53.94,51.76|
-T The Twin Ziggurats|QID|9176|M|55.00,48.95|N|To Magister Kaendris.|
-A The Traitor's Destruction|QID|9167|M|55.00,48.95|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nFrom Magister Kaendris.|PRE|9176|
-T War on Deatholme|QID|9220|M|54.87,48.55|N|To Magister Idonis.|
+T The Twin Ziggurats|QID|9176|M|55.07,48.83|N|To Magister Kaendris.|
+A The Traitor's Destruction|QID|9167|M|55.07,48.83|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nFrom Magister Kaendris.|PRE|9176|
+T War on Deatholme|QID|9220|M|54.87,48.55|N|To Magister Idonis (up the ramp).|
 A Dar'Khan's Lieutenants|QID|9170|M|54.87,48.55|N|From Magister Idonis.|PRE|9220|
 A A Restorative Draught|QID|9877|M|54.82,48.35|N|From Arcanist Janeda.|PRE|9220|
 R An'telas|ACTIVE|9169|M|56.53,45.39;60.76,40.79|CC|N|Cut through the pass behind Sun of the Sanctum.|
@@ -266,24 +271,28 @@ T Assault on Zeb'Nowa|QID|9277|M|72.32,31.24|N|To Farstrider Solanna.|
 T Bring Me Kel'gash's Head!|QID|9215|M|72.37,29.65|N|To Captain Helios.|
 T Shadowpine Weaponry|QID|9214|M|72.37,29.65|N|To Captain Helios.|
 T A Little Dash of Seasoning|QID|9275|M|72.62,31.56|N|To Apothecary Venustus.|
-H Tranquillien|ACTIVE|9218|N|Hearth back to Tranquillien.|
+H Tranquillien|ACTIVE|9218|M|46.43,37.58|
 T Spinal Dust|QID|9218|M|48.92,31.31|N|To Magistrix Aminel.|
 r Repair/Restock|ACTIVE|9877|M|49.05,30.32|N|At Blacksmith Frances.|
 F Silvermoon City|ACTIVE|9877|M|45.43,30.53|
 = Level 20 Training|ACTIVE|9877|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ; --- Paladin level 20 class quest
 A The Second Trial|QID|9690|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
-R Falconwing Square|AVAILABLE|9677|M|46.56,48.89|Z|Eversong Woods|N|Follow the wall west to the Falconwing Square entrance.|R|BloodElf|C|Paladin|
-T The Second Trial|QID|9690|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
+R The Shepherd's Gate|ACTIVE|9690|M|56.66,49.54|Z|Eversong Woods|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|R|BloodElf|C|Paladin|
+R Falconwing Square|ACTIVE|9690|M|46.56,48.89|Z|Eversong Woods|N|Follow the wall west to the Falconwing Square entrance.|R|BloodElf|C|Paladin|
+T The Second Trial|QID|9690|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn. He's outside the Ruins of Silvermoon at the Pavilion, east of the main road. There is a path leading to it.|R|BloodElf|C|Paladin|
 A The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
-C The Second Trial|QID|9686|M|43.34,28.69|Z|Eversong Woods|N|Click the crystal, kill the guy.|R|BloodElf|C|Paladin|
+A The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|[color=CC00FF]QUEST FAILED [/color]\nWait for Master Kelerun Bloodmourn to respawn outside and retake the quest.|R|BloodElf|C|Paladin|FAIL|
+C The Second Trial|QID|9686|M|43.34,28.69|Z|Eversong Woods|N|Go inside the pavilion and click the crystal. 4 mobs will spawn and attack you one at a time. Defeat them successfully to complete the quest.\n[color=FF0000]NOTE: [/color]If you don't click on the crystal within 1 minute of accepting the quest, the quest will fail and Master Kelerun Bloodmourn will temporarily despawn.|R|BloodElf|C|Paladin|
 T The Second Trial|QID|9686|M|42.87,28.70|Z|Eversong Woods|N|To Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
 A Return to Silvermoon|QID|9691|M|42.87,28.70|Z|Eversong Woods|N|From Master Kelerun Bloodmourn.|R|BloodElf|C|Paladin|
-R The Shepherd's Gate|ACTIVE|9691|M|56.66,49.54|Z|Eversong Woods|N|Exit Falconwing Square and follow the wall east to the  Silvermoon City entrance.|IZ|-1954; Silvermoon City|
+R The Shepherd's Gate|ACTIVE|9691|M|56.66,49.54|Z|Eversong Woods|N|Make your way back through the Ruins of Silvermoon to Falconwing Square. Exit and follow the wall east to the Silvermoon City entrance.|IZ|-1954; Silvermoon City|
 T Return to Silvermoon|QID|9691|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
+A The Path of the Adept|QID|9692|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor. This starts the Paladin class quest for the Blood-Tempered Ranseur, a special Polearm.\n[color=FF0000]NOTE: [/color]You're not expected to do this quest chain now. But, it's better to accept the quest now, in case you run the required dungeons.\nThis quest is easier to solo if you wait until at least lv 26.|PRE|9691|R|BloodElf|C|Paladin|
+
 ; ---
 ; --- Priest level 20 Undead class quest
-P Undercity|AVAILABLE|5646|M|49.5,14.8|Z|Silvermoon City|N|[Coords]Use the Orb of Translocation located at the very back of Sunfury Spire.|
+P Undercity|AVAILABLE|5646|M|49.5,14.8|Z|Silvermoon City|N|[Coords]Use the Orb of Translocation located at the very back of Sunfury Spire.|R|Undead|C|Priest|
 b Durotar|AVAILABLE|5646|M|60.75,58.77|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|R|Undead|C|Priest|
 R Orgrimmar|AVAILABLE|5646|M|45.52,12.07|Z|Durotar|R|Undead|C|Priest|
 f Orgrimmar|AVAILABLE|5646|M|45.50,63.84|Z|Orgrimmar|N|Get the flight path from Doras.|C|Warlock|
@@ -342,17 +351,17 @@ P Silvermoon City|ACTIVE|9877|M|54.9,11.2|CC|Z|Undercity|N|[coords]Use the Orb o
 ; ---
 F Tranquillien|ACTIVE|9877|M|54.37,50.73|Z|Eversong Woods|
 T A Restorative Draught|QID|9877|M|47.59,34.79|N|To Apothecary Renzithen.|
-R Deatholme|ACTIVE|9164^9170|M|44.72,70.41;36.40,69.79|CC|N|Follow the road south out of Tranquillien to the bottom and cut across to the Deatholme entrance.|
 A Captives at Deatholme|QID|9164|M|47.59,34.79|N|From Apothecary Renzithen.|
+R Deatholme|ACTIVE|9164^9170|M|44.72,70.41;36.40,69.79|CC|N|Follow the road south out of Tranquillien to the bottom and cut across to the Deatholme entrance.|
 K Jurion the Deceiver|ACTIVE|9170|M|32.10,74.50|QO|3|N|After killing the 2 guards at the entrance, go down the stairs into the crypt and kill Jurion the Deceiver.\n[color=FF0000]NOTE: [/color]He will attack you when you enter the room.|
 C Apothecary Enith|QID|9164|M|32.15,73.95|QO|1|N|Talk to Apothecary Enith.|CHAT|
 K Mirdoran the Fallen|ACTIVE|9170|M|37.26,79.36|QO|1|N|Kill Mirdoran the Fallen.\n[color=FF0000]NOTE: [/color]Avoid going too far into the building as he has 3 Wailers guarding him.|
 K Borgoth the Bloodletter|ACTIVE|9170|M|41,83.1|QO|2|N|Borgoth can be in found inside the butchery.\n[color=FF0000]NOTE: [/color]He may be in the other butchery.|T|Borgoth the Bloodletter|S|
 C Apprentice Varnis|QID|9164|M|37.88,84.40;40.98,83.17|CS|QO|2|N|Go into the butchery and talk to Apprentice Varnis.\n[color=FF0000]NOTE: [/color]Kill Borgoth first if he's here.|CHAT|
 K Masophet the Black|ACTIVE|9170|M|29.5,89.2|QO|4|N|Check the first ziggurat for Masophet. If he's here, clear the Necromancers on the sides and then pull Masophet.|T|Masophet the Black|S|
-K Borgoth the Bloodletter|ACTIVE|9170|M|32.70,89.96|QO|2|N|Borgoth can be in found inside the butchery.\n[color=FF0000]NOTE: [/color]If he's not here, you'll have to check the second ziggurat.|T|Masophet the Black|S|
 C Ranger Vedoran|QID|9164|M|32.79,89.93|QO|3|N|Talk to Ranger Vedoran to rescue him.\n[color=FF0000]NOTE: [/color]Kill Borgoth first if he's here.|CHAT|
 K Masophet the Black|ACTIVE|9170|M|35.9,89.3|QO|4|N|Check the second ziggurat for Masophet. If he's here, clear the Necromancers on the sides and then pull Masophet.\n[color=FF0000]NOTE: [/color]If he's not here, you'll have to go back and check the first ziggurat.|T|Masophet the Black|US|
+K Borgoth the Bloodletter|ACTIVE|9170|M|32.79,89.93|QO|2|N|Borgoth can be in found inside the butchery.\n[color=FF0000]NOTE: [/color]If he's not here, you'll have to check the first butchery.|T|Borgoth the Bloodletter|US|
 R Tower of the Damned|ACTIVE|9157|M|31.65,81.70|N|Make your way to the tower in the center of Deatholme. It has an east and a west entrance. Both of them lead to the same spot and have 2 guards standing at the top of the stairs.|
 K Dar'Khan|ACTIVE|9167|M|32.81,82.45|QO|1|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nAt the first intersection after you enter the tower, wait for the patrolling NPC to pass and kill it.\nOnce you are on the next level, the path splits (direction is irrelevant) with a Necromancer and his pet standing around the corner.\nAt the next level, the pathes merge and lead down into the main room.\n[color=FF0000]NOTE: [/color]Dar'Khan is a 21 elite and has 2 Necromancers with pets on either side of the room. If done right, you can solo pull each group of adds from the top of the ramp without pulling Dar'Khan.\nMake sure you keep the upper level clear as to avoid any surprise adds when he casts Fear on you.\n\nIf you have help, or if you think you can solo him, go ahead. If not, go ahead and skip, though the rewards are nice.|
 R Sanctum of the Sun|ACTIVE|9167^9170|M|53.94,51.76|
