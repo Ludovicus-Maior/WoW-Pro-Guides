@@ -78,7 +78,7 @@ C Surveying Secrets|QID|64555|M|60.04,31.38|Z|Korthia|QO|4|CHAT|N|Speak with Vyn
 C Surveying Secrets|QID|64555|M|60.34,32.77|Z|Korthia|QO|5|N|Kill Mawsworn in the area until you get the Movement Report.|
 T Surveying Secrets|QID|64555|M|62.77,25.00|Z|Korthia|N|To Highlord Bolvar Fordragon.|
 A In Need of Assistance|QID|64556|PRE|64555|M|62.77,25.00|Z|Korthia|N|From Highlord Bolvar Fordragon.|
-C In Need of Assistance|QID|64556|PRE|64555|Z|Korthia|N|Complete the required dalies to proceed.| 
+C In Need of Assistance|QID|64556|PRE|64555|Z|Korthia|N|Complete the required dalies to proceed.|
 T In Need of Assistance|QID|64556|M|62.76,24.99|Z|Korthia|N|To Highlord Bolvar Fordragon.|
 
 ;Focusing the Eye
