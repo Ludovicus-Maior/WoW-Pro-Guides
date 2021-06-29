@@ -46,7 +46,9 @@ N Shopping List|QID|333000005|N|This completes the Shopping List, you may either
 
 ; end of shopping list, and pre craft.
 
-= Learn [spell=264460/Outland Enchanting]|QID|333007411|SPELL|Outland Enchanting;264460|LVL|5|N|Learn from any Trainer, in Outland STARTING area or Shattrath City.|
+= Learn [spell=264460/Outland Enchanting]|QID|333264460|M|52.34,35.98|Z|100;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Outland Enchanting;264460|LVL|5|T|Felannia|N|Learn from Felannia, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
+= Learn [spell=264460/Outland Enchanting]|QID|333264460|M|53.6,66.0|Z|100;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Outland Enchanting;264460|LVL|5|T|Johan Barnes|N|Learn from Johan Barnes, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
+= Learn [spell=264460/Outland Enchanting]|QID|333264460|SPELL|Outland Enchanting;264460|LVL|5|N|Learn from any Trainer, in Outland STARTING area or Shattrath City.|
 
 M [item=38938/Enchant Bracers - Lesser Assault]|QID|333038938|P|Enchanting;333;1+10;1|ITEM|38938|CRAFT|34002 9|MATS|22445 6;38682 1|
 = Learn Recipe|QID|333000051|P|Enchanting;333;1+5|RECIPE|27899|N|Learn [spell=27899/Enchant Bracers - Brawn] Recipe from Trainer.|
@@ -61,12 +63,12 @@ M [item=22522/Superior Wizard Oil]|QID|333028019|P|Enchanting;333;1+50;1|ITEM|22
 = Learn Recipe|QID|333000501|P|Enchanting;333;1+50|RECIPE|28028|N|Learn [spell=28028/Formula: Void Sphere] Recipe from Trainer.|
 M [item=38933/Enchant Gloves - Major Strength]|QID|333033995|P|Enchanting;333;1+69;1|ITEM|38933|CRAFT|33995 25|MATS|22445 12;22446 1;38682 1|
 M [item=22459/Void Sphere]|QID|333028028|P|Enchanting;333;1+70;1|ITEM|22459|CRAFT|28028 1|MATS|22450 2|
-N Leveling from 70 - 75|QID|333000007|N|You can either keep making Void Spheres for 10-14 days (once every 2 days), Make More [item=38933/Enchant Gloves - Major Strength], OR find one of the following:\n[item=22556/Formula: Enchant 2H Weapon - Major Agility] - Dropped by Erdar Deathbringer at Tha Arcatraz dungeon.\n[item=28271/Formula: Enchant Gloves - Precise Strikes] - Cenarion Expedition - Revered.\n[item=22553/Formula: Enchant Weapon - Potency] - World Drop in Outland, or buy on the AH.\n[item=22533/Formula: Enchant Bracer - Fortitude] - Dropped by Coilfang Oracle at The Steamvault dungeon.\n[item=22555/Formula: Enchant Weapon - Major Spellpower] - Bash'ir mobs in Blade's Edge Mountains.|
+N Leveling from 70 - 75|QID|333000007|P|Enchanting;333;1+75;1|N|You can either keep making Void Spheres for 10-14 days (once every 2 days), Make More [item=38933/Enchant Gloves - Major Strength], OR find one of the following:\n[item=22556/Formula: Enchant 2H Weapon - Major Agility] - Dropped by Erdar Deathbringer at Tha Arcatraz dungeon.\n[item=28271/Formula: Enchant Gloves - Precise Strikes] - Cenarion Expedition - Revered.\n[item=22553/Formula: Enchant Weapon - Potency] - World Drop in Outland, or buy on the AH.\n[item=22533/Formula: Enchant Bracer - Fortitude] - Dropped by Coilfang Oracle at The Steamvault dungeon.\n[item=22555/Formula: Enchant Weapon - Major Spellpower] - Bash'ir mobs in Blade's Edge Mountains.|
 M [item=22459/Void Sphere]|QID|333028028|P|Enchanting;333;1+75;1|ITEM|22459|CRAFT|28028 1|MATS|22450 2|N|You can do this one for 10-14 days. (Right-Click for doing [item=38933/Enchant Gloves - Major Strength])|
 M [item=38933/Enchant Gloves - Major Strength]|QID|333033995|P|Enchanting;333;1+75;1|ITEM|38933|CRAFT|33995 25|MATS|22445 12;22446 1;38682 1|N|This is a guess 20 - 25 to do the last 5 points.|
-N Third option for 70 - 75|QID|333000008|N|If you found one of the 5 Formulas listed, just make 5 of any one of them.  Also Darkmoon Faire is an option if it is active.|
+N Third option for 70 - 75|QID|333000008|P|Enchanting;333;1+75;1|N|If you found one of the 5 Formulas listed, just make 5 of any one of them.  Also Darkmoon Faire is an option if it is active.|
 
-N Congratulations|QID|333000010|N|You've reached at 75 in Outland Enchanting.|
+N Congratulations|QID|333000010|P|Enchanting;333;1+75|N|You've reached at 75 in Outland Enchanting.|
 ]]
 end)
 

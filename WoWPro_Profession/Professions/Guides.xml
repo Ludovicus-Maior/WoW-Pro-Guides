@@ -36,6 +36,9 @@
 	<Script file="Jewelcrafting_VAN.lua"/>
 	<Script file="Jewelcrafting_OUT.lua"/>
 	<Script file="Jewelcrafting_SL.lua"/>
+	<Script file="Leatherworking_HUB.lua"/>
+	<Script file="Leatherworking_VAN.lua"/>
+	<Script file="Leatherworking_OUT.lua"/>
 	<Script file="Leatherworking_BfA.lua"/>
 	<Script file="Leatherworking_SL.lua"/>
 	<Script file="Tailoring_VAN.lua"/>

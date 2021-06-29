@@ -194,8 +194,8 @@ B [item=16206/Arcanite Rod]|QID|333020051|ITEM|16206|N|You'll need to either buy
 l [item=13926/Golden Pearl]|QID|333020051|ITEM|13926|N|You'll need 1 Golden Pearl, either from looting clams/fishing or purchase from the AH.|
 M [item=16207/Runed Arcanite Rod]|QID|333020051|P|Enchanting;333;0+295;1|ITEM|16207|CRAFT|20051 1|MATS|16206 1;13926 1;16204 10;16203 4;11145 1;14344 2|
 M Enchant Cloak - Superior Defense|QID|333020015|P|Enchanting;333;0+300;1|CRAFT|20051 5|MATS|16204 8|
-= Learn [spell=28029/Enchanting]|QID|333028029|M|52.2,36.2|Z|Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Master Enchanting;28029|LVL|50|N|Learn from Felannia, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
-= Learn [spell=28029/Enchanting]|QID|333028029|M|53.6,66.0|Z|Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Master Enchanting;28029|LVL|50|N|Learn from Johan Barnes, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
+= Learn [spell=28029/Enchanting]|QID|333028029|M|52.2,36.2|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Master Enchanting;28029|LVL|50|T|Felannia|N|Learn from Felannia, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
+= Learn [spell=28029/Enchanting]|QID|333028029|M|53.6,66.0|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Master Enchanting;28029|LVL|50|T|Johan Barnes|N|Learn from Johan Barnes, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
 = Learn [spell=28029/Enchanting]|QID|333028029|SPELL|Master Enchanting;28029|LVL|50|N|Learn from Trainer in Hellfire Peninsula, (and maybe in Shattrath City).|
 = Learn Recipe|QID|333003001|P|Enchanting;333;0+300|RECIPE|32664|N|Learn [spell=32664/Runed Fel Iron Rod] Recipe from Trainer.|
 = Learn Recipe|QID|333003002|P|Enchanting;333;0+300|RECIPE|34002|N|Learn [spell=34002/Enchant Bracer - Assault] Recipe from Trainer.|
