@@ -306,8 +306,7 @@ T Devouring Plague|QID|5679|M|49.2,18.2|Z|Undercity|N|To Aelthalyste.|R|Undead|C
 P Silvermoon City|ACTIVE|9877|M|65.9,36.8;66.2,0.9;54.9,11.2|CC|Z|Undercity|N|Take the elevator up and use the Orb of Translocation.|R|Undead|C|Priest|
 ; ---
 ; --- Rogue Thistle Tea Recipe (Poison) Level 20 Class Quest
-N NOT EASY!!!|AVAILABLE|2458|ACTIVE|876|N|Your Poison quest is not going to be easy. Some have suggested waiting until you've reached level 22. At that point, you'll have Distract and Vanish to help reduce the number of 'Run away!' moments.\nI agree and this guide will wait until you're level 22. You can do it now if you so choose.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.
-|R|Undead|C|Rogue|
+N NOT EASY!!!|AVAILABLE|2458|ACTIVE|876|N|Your Poison quest is not going to be easy. Some have suggested waiting until you've reached level 22. At that point, you'll have Distract and Vanish to help reduce the number of 'Run away!' moments.\nI agree and this guide will wait until you're level 22. You can do it now if you so choose.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Undead|C|Rogue|
 ; ---
 ; --- Warlock Soul Bag/Succubus Level 20 class quest
 A Carendin Summons|QID|10605|M|73.2,46.8|N|[coords]From Alamma.|LEAD|1507|R|BloodElf|C|Warlock|
