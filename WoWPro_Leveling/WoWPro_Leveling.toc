@@ -1,4 +1,4 @@
-## Interface: 90005
+## Interface: 90100
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Leveling
 ## Notes: Leveling guides created by the WoW-Pro Community
 ## Author: Jiyambi
