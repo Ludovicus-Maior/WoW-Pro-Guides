@@ -585,7 +585,7 @@ function WoWPro.NewGenerateMapCache(release)
 
     -- Try to discover disconnected maps
     WoWPro:print("Starting iterative mapping.")
-    for i = 1, 2000 do
+    for i = 1, 2500 do
         if not wip_map_info[i] then
             WoWPro.ProcessMapAndKids(i, false)
         end
