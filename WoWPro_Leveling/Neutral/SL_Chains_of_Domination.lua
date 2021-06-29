@@ -19,17 +19,17 @@ P The Enclave|ACTIVE|63857|M|48.64,53.75|Z|The Crucible@Oribos!Dungeon|N|Speak w
 T Voices of the Eternal|QID|63857|M|40.71,66.50|Z|Ring of Fates@Oribos|N|To Lady Moonberry.|
 A The Battle of Ardenweald|QID|63578|PRE|63857|M|40.71,66.50|Z|Ring of Fates@Oribos|N|From Lady Moonberry.|
 C The Battle of Ardenweald|QID|63578|M|52.18,89.82|Z|Ring of Fates@Oribos|QO|1|V|N|Mount an Anima Wyrm.|
-C Bumpy Arrival|ACTIVE|63578|M|51.16,33.10|Z|2005|SO|1|NC|N|Can't do anything during this opening sequence, just wait to land.|
-C Deploy the Decoys|ACTIVE|63578|M|51.16,33.10|Z|2005|SO|2|NC|N|Click on the Animacone to create the decoy.|
-C Maw Invasion|ACTIVE|63578|M|51.92,35.34|Z|2005|SO|3|N|Kill Mawsword, click on Maw Gateways and revive Wild Hunt Guardians to push back the maws forces.|
-C The Banshee Queen|ACTIVE|63578|M|48.48,37.19|Z|2005|SO|4|NC|N|Approach the Winter-Queen decoy and then confront Sylvanas Windrunner.|
-C Air Reinforcements|ACTIVE|63578|M|48.68,37.58|Z|2005|SO|5|V|N|Mount the Trained Flayedwing.|
-C A Wing and a Slime|ACTIVE|63578|M|48.68,39.89|Z|2005|SO|6|N|Kill the Mawsworn by shooting the flayedwings slime at them.|
-C To the Top of the Falls|ACTIVE|63578|M|47.96,40.25|Z|2005|SO|7|N|Kill Soulburner Fraxin.|
-C Rebirth, in Peril|ACTIVE|63578|M|47.57,43.80|Z|2005|SO|8|NC|N|Click on Wildseeds to rescue them.|
-C The Forest Answers|ACTIVE|63578|M|47.86,46.25|Z|2005|SO|9;1<1|NC|N|Click the Large banner to rally your allies.|
-C The Forest Answers|ACTIVE|63578|M|48.93,41.22|Z|2005|SO|9;1<2|NC|N|Click the Large banner to rally your allies.|
-C Breakthrough|ACTIVE|63578|M|49.66,42.71|SO|10|N|Kill the waves of enemies pouring out of the portal, ending with the elite.|
+C Bumpy Arrival|ACTIVE|63578|M|51.16,33.10|Z|2005;Battle of Ardenweald|SO|1|NC|N|Can't do anything during this opening sequence, just wait to land.|
+C Deploy the Decoys|ACTIVE|63578|M|51.16,33.10|Z|2005;Battle of Ardenweald|SO|2|NC|N|Click on the Animacone to create the decoy.|
+C Maw Invasion|ACTIVE|63578|M|51.92,35.34|Z|2005;Battle of Ardenweald|SO|3|N|Kill Mawsword, click on Maw Gateways and revive Wild Hunt Guardians to push back the maws forces.|
+C The Banshee Queen|ACTIVE|63578|M|48.48,37.19|Z|2005;Battle of Ardenweald|SO|4|NC|N|Approach the Winter-Queen decoy and then confront Sylvanas Windrunner.|
+C Air Reinforcements|ACTIVE|63578|M|48.68,37.58|Z|2005;Battle of Ardenweald|SO|5|V|N|Mount the Trained Flayedwing.|
+C A Wing and a Slime|ACTIVE|63578|M|48.68,39.89|Z|2005;Battle of Ardenweald|SO|6|N|Kill the Mawsworn by shooting the flayedwings slime at them.|
+C To the Top of the Falls|ACTIVE|63578|M|47.96,40.25|Z|2005;Battle of Ardenweald|SO|7|N|Kill Soulburner Fraxin.|
+C Rebirth, in Peril|ACTIVE|63578|M|47.57,43.80|Z|2005;Battle of Ardenweald|SO|8|NC|N|Click on Wildseeds to rescue them.|
+C The Forest Answers|ACTIVE|63578|M|47.86,46.25|Z|2005;Battle of Ardenweald|SO|9;1<1|NC|N|Click the Large banner to rally your allies.|
+C The Forest Answers|ACTIVE|63578|M|49.09,43.55|Z|2005;Battle of Ardenweald|SO|9;1<2|NC|N|Click the Large banner to rally your allies.|
+C Breakthrough|ACTIVE|63578|M|49.66,42.71|Z|2005;Battle of Ardenweald|SO|10|N|Kill the waves of enemies pouring out of the portal, ending with the elite.|
 C The Battle of Ardenweald|QID|63578|M|49.66,42.75|QO|2|NC|N|Fight in the Battle of Ardenweald.|
 T The Battle of Ardenweald|QID|63578|M|48.72,43.34|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|
 A Can't Turn Our Backs|QID|63638|PRE|63578|M|49.66,42.97|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|
@@ -57,6 +57,7 @@ T Mysteries of the Maw|QID|63662|M|58.36,14.35|Z|Korthia|N|To Ve'nari.|
 A Korthia, the City of Secrets|QID|63663|PRE|63662|M|58.36,14.35|Z|Korthia|N|From Ve'nari.|
 C Korthia, the City of Secrets|QID|63663|M|58.36,14.35|Z|Korthia|QO|1|CHAT|N|Speak with Ve'nari.|
 C Korthia, the City of Secrets|QID|63663|M|58.62,20.78|Z|Korthia|QO|2|NC|N|Group of attendants investigated.|
+C Korthia, the City of Secrets|QID|63663|M|58.66,20.63|Z|Korthia|QO|3|CHAT|N|Speak to Tal-Galan.|
 T Korthia, the City of Secrets|QID|63663|M|63.89,23.80|Z|Korthia|N|To Tal-Galan.|
 A Who is the Maw Walker?|QID|63994|PRE|63663|M|63.89,23.80|Z|Korthia|N|From Tal-Galan.|
 C Who is the Maw Walker?|QID|63994|M|63.89,23.77|Z|Korthia|CHAT|N|Speak with Tal-Galan.|
@@ -68,11 +69,23 @@ T Opening to Oribos|QID|63665|M|39.75,36.88|Z|Ring of Transference@Oribos|N|To H
 A Charge of the Covenants|QID|64007|PRE|63665|M|39.75,36.88|Z|Ring of Transference@Oribos|N|From Highlord Bolvar Fordragon.|
 C Charge of the Covenants|QID|64007|M|39.75,36.88|Z|Ring of Transference@Oribos|QO|1|NC|N|Use the "[color=40C7EB]Rallying[/color]" button to get the army into the maw.|EAB|
 P Korthia|QID|64007|ACTIVE|64007|M|30.79,23.31|Z|Ring of Transference@Oribos|NC|N|Run through the newly opened portal to Korthia in the maw.|
-T Charge of the Covenants|QID|64007|M|63.04,25.74|Z|Korthia|N|To Highlord Bolvar Fordragon.|
-A A Show of Gratitude|QID|63848|PRE|64007|M|62.93,24.82|Z|Korthia|N|From Tal-Galan.|
+T Charge of the Covenants|QID|64007|M|62.75,25.00|Z|Korthia|N|To Highlord Bolvar Fordragon.|
+A Surveying Secrets|QID|64555|M|62.76,25.00|Z|Korthia|N|From Highlord Bolvar Fordragon.|PRE|64007|
+C Surveying Secrets|QID|64555|M|61.91,25.43|Z|Korthia|QO|1|CHAT|N|Speak with Nadjia.|
+C Surveying Secrets|QID|64555|M|54.63,30.55|Z|Korthia|QO|2|CHAT|N|Speak with Featherlight.|
+C Surveying Secrets|QID|64555|M|52.26,39.24|Z|Korthia|QO|3|N|Speak with Surveyer Mnemis and defend it.|
+C Surveying Secrets|QID|64555|M|60.04,31.38|Z|Korthia|QO|4|CHAT|N|Speak with Vyn.|
+C Surveying Secrets|QID|64555|M|60.34,32.77|Z|Korthia|QO|5|N|Kill Mawsworn in the area until you get the Movement Report.|
+T Surveying Secrets|QID|64555|M|62.77,25.00|Z|Korthia|N|To Highlord Bolvar Fordragon.|
+A In Need of Assistance|QID|64556|PRE|64555|M|62.77,25.00|Z|Korthia|N|From Highlord Bolvar Fordragon.|
+C In Need of Assistance|QID|64556|PRE|64555|Z|Korthia|N|Complete the required dalies to proceed.|
+T In Need of Assistance|QID|64556|M|62.76,24.99|Z|Korthia|N|To Highlord Bolvar Fordragon.|
+
+;Focusing the Eye
+A A Show of Gratitude|QID|63848|PRE|64007|M|62.71,24.79|Z|Korthia|N|From Tal-Galan.|
 T A Show of Gratitude|QID|63848|M|65.99,22.96|Z|Korthia|N|To Ve'nari.|
 A Ease of Passage|QID|63855|PRE|63848|M|65.99,22.96|Z|Korthia|N|From Ve'nari.|
-C Ease of Passage|QID|63855|M|65.05,23.81|Z|Korthia|QO|1|CHAT|N|Speak with Ve'nari.|
+C Ease of Passage|QID|63855|M|65.90,22.93|Z|Korthia|QO|1|CHAT|N|Speak with Ve'nari.|
 C Ease of Passage|QID|63855|M|64.97,23.67|Z|Korthia|QO|2|NC|N|Walk behind the waygate.|
 C Ease of Passage|QID|63855|M|64.97,23.67|Z|Korthia|QO|3|NC|N|Click Animaflow teleporter to imprint your signature.|
 C Ease of Passage|QID|63855|M|66.00,23.14|Z|Korthia|QO|4|NC|N|Click on Ve'nari's bag on the ground.|
@@ -118,9 +131,9 @@ C Wrath of Odyn|QID|63845|M|58.34,85.30|Z|Skyhold!Instance|QO|1|CHAT|N|Speak wit
 C Wrath of Odyn|QID|63845|M|58.34,85.30|Z|Skyhold!Instance|QO|2|NC|N|Wait for the dialog to complete.|
 T Wrath of Odyn|QID|63845|M|58.34,85.30|Z|Skyhold!Instance|N|To Odyn.|
 A Mawsplaining|QID|64014|PRE|63845|M|58.34,85.30|Z|Skyhold!Instance|N|From Odyn.|
-C Mawsplaining|QID|64014|M|59.12,22.45|Z|Skyhold!Instance|QO|2|NC|N|Jump down the Skyhold portal back to Oribos.|
-P Ve'nari's Refuge|ACTIVE|64014|M|49.55,51.62|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|
-C Mawsplaining|QID|64014|M|46.91,41.69|Z|The Maw|QO|1|CHAT|N|Ve'nari consulted.|
+C Mawsplaining|QID|64014|M|59.12,22.45|Z|Skyhold!Instance|QO|1|NC|N|Jump down the Skyhold portal back to Oribos.|
+P Ve'nari's Refuge|ACTIVE|64014|M|49.55,51.62|Z|Ring of Transference@Oribos|QO|2|N|Hop into the center to teleport to the maw.|
+C Mawsplaining|QID|64014|M|46.91,41.69|Z|The Maw|QO|3|CHAT|N|Ve'nari consulted.|
 T Mawsplaining|QID|64014|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|
 A Tears of the Damned|QID|63896|PRE|64014|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|
 A Anger Management|QID|63867|PRE|64014|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|
@@ -131,15 +144,16 @@ T Tears of the Damned|QID|63896|M|37.42,26.93|Z|The Maw|N|To Projection of Ve'na
 T Anger Management|QID|63867|M|37.42,26.93|Z|The Maw|N|To Projection of Ve'nari.|
 A Focusing the Eye|QID|63901|PRE|63896&63867|M|37.42,26.93|Z|The Maw|N|From Projection of Ve'nari.|
 C Focusing the Eye|QID|63901|M|42.31,21.03|Z|The Maw|QO|1|NC|N|Click the "[color=40C7EB]Ilskahorn[/color]" to summon Odyns champions.|EAB|
-C Focusing the Eye|QID|63901|M|41.08,21.97|Z|The Maw|QO|2|N|When a champion throws a harpoon, run up to grab it an then use "[color=40C7EB]Valorous Harpoon[/color]" to pull down a 'Chosenseeker Eye'. Once all of the Chosenseekers are dead you can defeat the Eye of the Jailer.|EAB|
-T Focusing the Eye|QID|63901|M|40.93,21.81|Z|The Maw|N|To Danica.|
-A Good News, Everyone!|QID|63902|PRE|63901|M|40.92,21.80|Z|The Maw|N|From Danica.|
-C Good News, Everyone!|QID|63902|M|40.92,21.80|Z|The Maw|QO|1|CHAT|N|Speak with Danica.|
-C Good News, Everyone!|QID|63902|M|63.03,25.74|Z|Korthia|QO|2|CHAT|N|Speak with Bolvar.|
-T Good News, Everyone!|QID|63902|M|63.03,25.74|Z|Korthia|N|To Highlord Bolvar Fordragon.|
+C Focusing the Eye|QID|63901|M|42.36,21.15|Z|The Maw|QO|2|N|When a champion throws a harpoon, run up to grab it an then use "[color=40C7EB]Valorous Harpoon[/color]" to pull down a 'Chosenseeker Eye'. Once all of the Chosenseekers are dead you can defeat the Eye of the Jailer.|EAB|
+T Focusing the Eye|QID|63901|M|37.05,19.31|Z|The Maw|N|To Danica.|
+A Good News, Everyone!|QID|63902|PRE|63901|M|37.05,19.31|Z|The Maw|N|From Danica.|
+C Good News, Everyone!|QID|63902|M|37.05,19.31|Z|The Maw|QO|1|CHAT|N|Speak with Danica.|
+C Good News, Everyone!|QID|63902|M|62.77,25.00|Z|Korthia|QO|2|CHAT|N|Speak with Bolvar.|
+T Good News, Everyone!|QID|63902|M|62.77,25.00|Z|Korthia|N|To Highlord Bolvar Fordragon.|
 
 ; The Last Sigil
-A Vault of Secrets|QID|63703|M|62.93,24.84|Z|Korthia|N|From Tal-Galan.|
+N Renown Level 44|AVAILABLE|63703|N|You must reach Renown level 44 to continue to the next chapter.|REN|-44|
+A Vault of Secrets|QID|63703|M|62.93,24.84|Z|Korthia|N|From Tal-Galan.|REN|44|
 C Vault of Secrets|QID|63703|M|58.09,29.78|Z|Korthia|QO|1|NC|N|Tal-Galan met near Scholar's Den.|
 T Vault of Secrets|QID|63703|M|57.44,30.02|Z|Korthia|N|To Tal-Galan.|
 A Vengeance for Korthia|QID|63704|PRE|63703|M|57.44,30.02|Z|Korthia|N|From Tal-Galan.|
@@ -189,7 +203,7 @@ C Untangling the Sigil|QID|63726|M|63.03,25.74|Z|Korthia|QO|1|CHAT|N|Bolvar Ford
 F Ve'nari's Refuge|ACTIVE|63726|M|64.97,23.67|Z|Korthia|N|Head to the Animaflow Teleporter and take a flight to Ve'nari's Refuge.|
 P Torghast, Tower of the Damned|ACTIVE|63726|M|48.16,39.49|Z|The Maw|N|Take the portal to Torghast, Tower of the Damned.|
 P The Runecarver's Oubliette|ACTIVE|63726|M|15.97,60.72|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|
-C Untangling the Sigil|QID|63726|M|50.78,54.62|Z|The Runecarver's Oubliette!Instance|QO|2|Chat|N|Speak with the Runecarver.|
+C Untangling the Sigil|QID|63726|M|50.78,54.62|Z|The Runecarver's Oubliette!Instance|QO|2|CHAT|N|Speak with the Runecarver.|
 C Untangling the Sigil|QID|63726|M|50.78,54.62|Z|The Runecarver's Oubliette!Instance|QO|3|NC|N|Defeat the waves of mawsworn trying to capture you.|
 T Untangling the Sigil|QID|63726|M|50.97,54.85|Z|The Runecarver's Oubliette!Instance|N|To The Primus.|
 A The Primus Returns|QID|63727|PRE|63726|M|50.97,54.85|Z|The Runecarver's Oubliette!Instance|N|From The Primus.|
@@ -200,7 +214,8 @@ C The Primus Returns|QID|63727|M|62.99,25.34|Z|Korthia|NC|N|Return to Keeper's R
 T The Primus Returns|QID|63727|M|62.99,25.34|Z|Korthia|N|To The Primus.|
 
 ; An Army of Bone and Steel
-A The Chains of Command|QID|63612|PRE|63727|M|62.99,25.40|Z|Korthia|N|From The Primus.|
+N Renown Level 47|AVAILABLE|63612|N|You must reach Renown level 47 to continue to the next chapter.|REN|-47|PRE|63727|
+A The Chains of Command|QID|63612|PRE|63727|M|62.99,25.40|Z|Korthia|N|From The Primus.|REN|47|
 T The Chains of Command|QID|63612|M|62.88,65.99|Z|The Maw|N|To Baroness Draka.|
 A What We Wish to Be|QID|63613|PRE|63612|M|62.88,65.99|Z|The Maw|N|From Baroness Draka.|
 A Clip Their Wings|QID|63615|PRE|63612|M|PLAYER|Z|The Maw|N|From Baroness Draka.|
@@ -238,7 +253,8 @@ C Victory in Our Name|QID|63622|M|60.28,27.34|Z|Korthia|CHAT|N|Speak with Draka.
 T Victory in Our Name|QID|63622|M|62.99,25.38|Z|Korthia|N|To The Primus.|
 
 ; The Unseen Guests
-A Dreadlords!|QID|63659|M|65.02,22.91|Z|Korthia|N|From Baroness Vashj.|
+N Renown Level 50|AVAILABLE|63659|N|You must reach Renown level 50 to continue to the next chapter.|REN|-50|PRE|63622|
+A Dreadlords!|QID|63659|M|65.02,22.91|Z|Korthia|N|From Baroness Vashj.|REN|50|
 T Dreadlords!|QID|63659|M|62.97,25.41|Z|Korthia|N|To The Primus.|
 A Dread Tidings|QID|63644|PRE|63659|M|62.97,25.41|Z|Korthia|N|From The Primus.|
 P Ring of Transference|ACTIVE|63644|M|64.47,24.05|Z|Korthia|N|Take the portal to Ring of Transference.|
@@ -280,7 +296,8 @@ C The Nathrezim|QID|63654|M|22.64,45.95|Z|Revendreth|N|Kill Gorgannon and Diatho
 T The Nathrezim|QID|63654|M|23.07,45.86|Z|Revendreth|N|To Prince Renathal.|
 
 ; The Power of Night
-A A Cry From the Heart|QID|63672|PRE|63654|M|64.40,24.27|Z|Korthia|N|From Urgent Message from Ardenweald.|
+N Renown Level 52|AVAILABLE|63672|N|You must reach Renown level 52 to continue to the next chapter.|REN|-52|PRE|63654|
+A A Cry From the Heart|QID|63672|PRE|63654|M|64.40,24.27|Z|Korthia|N|From Urgent Message from Ardenweald.|REN|52|
 P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|Korthia|IZ|1961|N|Take the portal to Ring of Transference.|
 F Heart of the Forest|ACTIVE|63672|M|60.96,68.81|Z|Ring of Transference@Oribos|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|
 T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
@@ -363,13 +380,14 @@ C Winter's Sigil|QID|63683|M|45.03,65.62|Z|Ardenweald!The Shadowlands|QO|2|CHAT|
 T Winter's Sigil|QID|63683|M|45.03,65.62|Z|Ardenweald!The Shadowlands|N|To Ysera.|
 
 ; A New Path
-A A Paladin's Soul|QID|63579|M|62.57,25.66|Z|Korthia|N|From Thenios.|
+N Renown Level 56|AVAILABLE|63579|N|You must reach Renown level 56 to continue to the next chapter.|REN|-56|PRE|63683|
+A A Paladin's Soul|QID|63579|M|62.57,25.66|Z|Korthia|N|From Thenios.|REN|56|
 F Ve'nari's Refuge|ACTIVE|63579|M|64.97,23.66|Z|Korthia|N|Head to the flightmaster and take a flight to Ve'nari's Refuge.|
 P Torghast, Tower of the Damned|ACTIVE|63579|M|48.18,39.44|Z|The Maw|N|Take the portal to Torghast, Tower of the Damned.|
 C A Paladin's Soul|QID|63579|M|37.87,46.99|Z|Torghast - Entrance!Instance|QO|1|CHAT|N|Interact with the Wayfinder in Torghast.|
-C A Paladin's Soul|QID|63579|M|34.20,30.95|Z|TG108_Floor!Dungeon|QO|2|N|On the 3rd floor, kill the Guardian of Souls.|
-C A Paladin's Soul|QID|63579|M|33.21,28.76|Z|TG108_Floor!Dungeon|QO|3|NC|N|Click the Portal of Souls that appears after you kill the guardian.|
-C A Paladin's Soul|QID|63579|M|40.20,30.25|Z|TG108_Floor!Dungeon|QO|4|NC|N|Click on the Remnant of Justice, a floating crystal shard.|
+C A Paladin's Soul|QID|63579|M|34.20,30.95|Z|1969;Torghast!Instance1969|QO|2|N|On the 3rd floor, kill the Guardian of Souls.|
+C A Paladin's Soul|QID|63579|M|33.21,28.76|Z|1969;Torghast!Instance1969|QO|3|NC|N|Click the Portal of Souls that appears after you kill the guardian.|
+C A Paladin's Soul|QID|63579|M|40.20,30.25|Z|1969;Torghast!Instance1969|QO|4|NC|N|Click on the Remnant of Justice, a floating crystal shard.|
 T A Paladin's Soul|QID|63579|M|40.14,19.91|Z|Bastion!The Shadowlands|N|Make youre way to the Temple of Wisdom in Bastion and turn in to Thenios.|
 A Wounded Memories|QID|63580|PRE|64216&63579|M|39.95,20.09|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
 C Wounded Memories|QID|63580|M|40.23,20.44|Z|Bastion!The Shadowlands|NC|N|Click on the crystal outline to place the Remnant of Justice.|
@@ -430,7 +448,7 @@ T The New Path|QID|63592|N|To Polemarch Adrestes.| ; Z is nil, this may change i
 ; What Lies Ahead
 
 ; Next Section
-A A Matter of Urgency|QID|63755|PRE|63902|M|64.26,22.88|Z|Korthia|N|From Pathscribe Roh-Vess. He patrols the area.|
+A A Matter of Urgency|QID|63755|PRE|63902|M|64.26,22.88|Z|Korthia|N|From Pathscribe Roh-Vess. He patrols the area. (May not be available yet.)|
 T A Matter of Urgency|QID|63755|M|56.25,38.74|Z|Korthia|N|To Caretaker Kah-Than. In a small cave.|
 A The Last Place You Look|QID|63758|PRE|63755|M|56.25,38.74|Z|Korthia|N|From Caretaker Kah-Than.|
 A Rescued from Torment|QID|63756|PRE|63755|M|56.25,38.74|Z|Korthia|N|From Caretaker Kah-Than.|
@@ -465,7 +483,7 @@ A They Could Be Anyone|QID|63763|PRE|63761&63760|M|PLAYER|Z|Korthia|U|185740|N|A
 T They Could Be Anyone|QID|63763|M|62.62,24.90|Z|Korthia|N|To Highlord Bolvar Fordragon.|
 
 ; Another storyline
-A Interrupt the Interrogations|QID|63732|M|59.07,58.15|Z|Korthia|N|From Scholar Roh-Suir.|
+A Interrupt the Interrogations|QID|63732|M|59.07,58.15|Z|Korthia|N|From Scholar Roh-Suir. (May not be available yet.)|
 C Interrupt the Interrogations|QID|63732|M|60.79,52.79|Z|Korthia|QO|1|N|Kill Interrogator Tzench and loot his Key.|
 C Interrupt the Interrogations|QID|63732|M|60.90,52.57|Z|Korthia|QO|2|NC|N|Click the cage to free the Archivist.|
 T Interrupt the Interrogations|QID|63732|M|59.06,58.14|Z|Korthia|N|To Scholar Roh-Suir.|
