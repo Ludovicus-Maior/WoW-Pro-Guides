@@ -53,7 +53,6 @@ B [spell=35538/Drums of Panic]|QID|165035538|M|63.6,57.6|Z|1446;Tanaris|REP|Keep
 
 N Shopping List|QID|165000051|N|This completes the Shopping List to get you to 374, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
-
 ; End Shopping List
 
 = Learn [spell=2108/Leatherworking]|QID|165002108|SPELL|Leatherworking;2108|LVL|5|N|Learn from any Leatherworking Trainer, in any Major City.|
@@ -89,15 +88,15 @@ N Congratulations|QID|165000010|N|That completes Classic Leatherworking upto 300
 M [item=21887/Knothide Leather]|QID|165032454|P|Leatherworking;165;0+310;1|ITEM|21887|CRAFT|32454 30|MATS|25649 5|N|Turn all of your [item=25649/Knothide Leather Scraps] into [item=21887/Knothide Leather], step might clear before you are done, just keep going till you are out of Scraps.|
 M [item=15088/Wicked Leather Belt]|QID|165019092|P|Leatherworking;165;0+325;1|ITEM|15088|CRAFT|19092 30|MATS|8170 14;2325 2;14341 2|N|This is an ALTERNATE recipe, if [item=8170/Rugged Leather] is cheap, you'll need  [item=8170/Rugged Leather] x 420, [item=2325/Black Dye] x 60 [item=14341/Rune Thread] x 60. Skip if you don't have the items, or want to spend the gold. Though this might be cheaper than the [item=21887/Knothide Leather] unless you farmed all your leather.|
 M [item=25650/Knothide Armor Kit]|QID|165032456|P|Leatherworking;165;0+325;1|ITEM|25650|CRAFT|32456 30|MATS|21887 4|N|This Recipe will go yellow around 310, you might have to make a few more.|
-B [spell=32455/Heavy Knothide Leather]|QID|165032455|M|67.2,67.6|Z|1955; Shattrath City|N|Purchase [item=25720/Pattern - Heavy Knothide Leather] from Cro Threadstrong in Lower City, Shattrath City. This is a limited supply item, average re-stock time is about 2 - 6 minutes.|
-B [spell=32455/Heavy Knothide Leather]|QID|165032455|M|84.6,78.8|Z|1954; Silvermoon City|N|Purchase [item=25720/Pattern - Heavy Knothide Leather] from Zaralda in Silvermoon City. This is a limited supply item, average re-stock time is about 2 - 6 minutes.|FACTION|Horde|
-B [spell=32455/Heavy Knothide Leather]|QID|165032455|M|66.6,74.0|Z|1947; The Exodar|N|Purchase [item=25720/Pattern - Heavy Knothide Leather] from Haferet in The Exodar. This is a limited supply item, average re-stock time is about 2 - 6 minutes.|FACTION|Alliance|
+B [spell=32455/Heavy Knothide Leather]|QID|165032455|M|67.2,67.6|Z|1955;Shattrath City|N|Purchase [item=25720/Pattern - Heavy Knothide Leather] from Cro Threadstrong in Lower City, Shattrath City. This is a limited supply item, average re-stock time is about 2 - 6 minutes.|
+B [spell=32455/Heavy Knothide Leather]|QID|165032455|M|84.6,78.8|Z|1954;Silvermoon City|N|Purchase [item=25720/Pattern - Heavy Knothide Leather] from Zaralda in Silvermoon City. This is a limited supply item, average re-stock time is about 2 - 6 minutes.|FACTION|Horde|
+B [spell=32455/Heavy Knothide Leather]|QID|165032455|M|66.6,74.0|Z|1947;The Exodar|N|Purchase [item=25720/Pattern - Heavy Knothide Leather] from Haferet in The Exodar. This is a limited supply item, average re-stock time is about 2 - 6 minutes.|FACTION|Alliance|
 M [item=23793/Heavy Knothide Leather]|QID|165032455|P|Leatherworking;165;0+335;1|ITEM|23793|CRAFT|32455 167|MATS|21887 5|
 M [item=25671/Thick Draenic Vest]|QID|165032473|P|Leatherworking;165;0+350;1|ITEM|25671|CRAFT|32473 20|MATS|21887 14;14341 3|
 M [item=34330/Heavy Knothide Armor Kit]|QID|165044970|P|Leatherworking;165;0+365;1|ITEM|34330|CRAFT|44970 35|MATS|23793 3|
-B [spell=35543/Drums of Battle]|QID|165035543|M|51.2,42.6|Z|1955; Shattrath City|P|Leatherworking;165;0+365|RECIPE|35543|T|Almaador|N|Purchase [item=29717/Pattern - Drums of Battle] from Almaador, Sha'tari Quartermaster. This recipe is Bind on Pick up, also requires Honored with The Sha'tar.|REP|The Sha'tar;935;Honored-Exalted|
+B [spell=35543/Drums of Battle]|QID|165035543|M|51.2,42.6|Z|1955;Shattrath City|P|Leatherworking;165;0+365|RECIPE|35543|T|Almaador|N|Purchase [item=29717/Pattern - Drums of Battle] from Almaador, Sha'tari Quartermaster. This recipe is Bind on Pick up, also requires Honored with The Sha'tar.|REP|The Sha'tar;935;Honored-Exalted|
 M [item=29529/Drums of Battle]|QID|165035543|P|Leatherworking;165;0+370;1|ITEM|29529|CRAFT|35543 6|MATS|23793 6;25708 4|N|You might have to make a few more is skill gains are unlucky.|
-B [spell=35538/Drums of Panic]|QID|165035538|M|63.6,57.6|Z|1446; Tanaris|P|Leatherworking;165;0+370|REP|Keepers of Time;989;Honored-Exalted|RECIPE|35538|T|Alurmi|N|Purchase [item=29713/Pattern - Drums of Panic] from Alurmi, Keepers of Time Quartermaster (inside Caverns of Time). This recipe is Bind on Pick up, also requires Honored with Keepers of Time.|
+B [spell=35538/Drums of Panic]|QID|165035538|M|63.6,57.6|Z|1446;Tanaris|P|Leatherworking;165;0+370|REP|Keepers of Time;989;Honored-Exalted|RECIPE|35538|T|Alurmi|N|Purchase [item=29713/Pattern - Drums of Panic] from Alurmi, Keepers of Time Quartermaster (inside Caverns of Time). This recipe is Bind on Pick up, also requires Honored with Keepers of Time.|
 M [item=29532/Drums of Panic]|QID|165035538|P|Leatherworking;165;0+375;1|ITEM|29532|CRAFT|35538 6|MATS|23793 6;25707 4|N|This recipe is sold by Alurmi, requires Honored with Keepers of Time. Click step to skip, Alternately you can continue to make [item=29529/Drums of Battle].|
 M [item=29529/Drums of Battle]|QID|165035543|P|Leatherworking;165;0+375;1|ITEM|29529|CRAFT|35543 20|MATS|23793 6;25708 4|N|You can make upto 375, you will just have to make alot more to reach 375.|
 N Congratulations|QID|165000010|N|That completes The Burning Crusade Leatherworking upto 375.|
