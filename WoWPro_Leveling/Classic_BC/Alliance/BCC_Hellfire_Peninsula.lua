@@ -114,7 +114,7 @@ A Fel Spirits|QID|10909|PRE|10903|M|54.32,63.65|N|From Assistant Klatu.|
 A Digging for Prayer Beads|QID|10916|PRE|10903|M|54.32,63.65|N|From Assistant Klatu.|
 B Silken Thread|AVAILABLE|10916|M|54.63,63.71|N|Head into the next room and buy a Silken Thread from Hama.|L|4291|
 B Fei Fei Doggy Treat|AVAILABLE|10916|M|56.39,62.92|N|Buy a treat from Warrant Officer Tracy Proudwell.|L|31799|
-T Fei Fei's Treat|AVAILABLE|10916|M|56.40,62.94|N|Give the doggy treat to Fei Fei to continue the quest chain.|LEAD|10916|
+T Fei Fei's Treat|QID|10919|M|56.40,62.94|N|Give the doggy treat to Fei Fei to continue the quest chain.|LEAD|10916|
 C Draenei Prayer Beads|QID|10916|M|54.16,63.32|QO|1|N|Give the treat to Fei Fei, then follow the dog. Loot Fei Fei's Cache (glittering dirt pile) once she stops at the waypoint.|
 r Sell junk, repair, restock|QID|10916|M|54.65,63.53|N|Sell junk, repair, restock.|
 T The Dark Missive|QID|10395|M|56.69,66.52|N|Head to Warp-Scryer Kryv.|
@@ -126,7 +126,7 @@ A A Job for an Intelligent Man|QID|9355|PRE|10143^10483|M|52.0,62.6|N|From Forem
 A When This Mine's a-Rockin'|QID|10079|PRE|10143^10483|M|52.0,62.6|N|From Foreman Biggums.|
 C A Job for an Intelligent Man|QID|9355|M|46.00,64.00|N|Kill the sandworms needed for this quest.|S|
 l Eroded Leather Case|QID|9373|N|Kill worms until you get an Eroded Leather Case.|L|23338|
-A Missing Missive|AVAILABLE|9373|N|Right-click the case to accept the quest.|U|23338|LVL|24| ; ** Auto-accepted by UI **
+A Missing Missive|QID|9373|N|Right-click the case to accept the quest.|U|23338|LVL|24| ; ** Auto-accepted by UI **
 C A Job for an Intelligent Man|QID|9355|M|46.00,64.00|N|Kill the sandworms needed for this quest.|US|
 C Smooth as Butter|QID|9356|M|56.00,73.00|QO|1|N|Kill Buzzards until you get the wings for this quest.|
 C Zeppelin Debris|QID|10161|QO|1|N|Gather the rest of the Zeppelin debris you need.|US|NC|
