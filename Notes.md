@@ -1,3 +1,20 @@
+# Release 9.1.0-A0 / 1.13.7-B0 / 2.5.1-B0
+## Bug Fixes
+* Expand map scanning from 2000 to 2500 as Blizzard grows the world.
+
+## Guide Updates
+### Retail Leveling
+* Neutral: Chains of Domination
+### Classic Leveling
+* None
+### Burning Crusade Classic Leveling
+* Alliance: Hellfire Peninsula, Zangarmarsh, Bloodmyst, Alliance 19-60
+* Horde: Terokkar Forest, Ghostlands, Barrens 14-22
+### Professions
+* Classic: Eng, LW
+* BCC: Ench, Eng, LW
+* Retail: Ench, Eng, Jewl, LW
+
 # Release 9.0.5-A5 / 1.13.7-A4 / 2.5.1-A4
 ## Bug Fixes
 * zone defaults were not obeying ';' for comment
