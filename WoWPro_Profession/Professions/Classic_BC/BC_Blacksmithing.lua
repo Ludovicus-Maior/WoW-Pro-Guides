@@ -71,8 +71,8 @@ M [item=6338/Silver Rod]|QID|164007818|P|Blacksmithing;164;0+105;1|ITEM|6338|CRA
 M [item=2857/Runed Copper Belt]|QID|164002666|P|Blacksmithing;164;0+110;1|ITEM|2857|CRAFT|2666 10|MATS|2840 10|
 M [item=2865/Rough Bronze Leggings]|QID|164002668|P|Blacksmithing;164;0+125;1|ITEM|2865|CRAFT|2668 15|MATS|2841 6|
 = Learn Recipe|QID|164001101|P|Blacksmithing;164;0+110|RECIPE|3328|N|Learn [spell=3328/Rough Bronze Shoulders] Recipe from Trainer.|
-= Learn [spell=3538/Expert Blacksmithing]|QID|164003538|M|52.6,40.8|Z|Ironforge|P|Blacksmithing;164;0+125|SPELL|Expert Blacksmithing;3538|LVL|20|T|Bengus Deepforge|N|Visit Bengus Deepforge, Artisan Blacksmithing Trainer in Ironforge.|FACTION|Alliance|
-= Learn [spell=3538/Expert Blacksmithing]|QID|164003538|M|82.2,23.0|Z|Orgrimmar|P|Blacksmithing;164;0+125|SPELL|Expert Blacksmithing;3538|LVL|20|T|Saru Steelfury|N|Visit Saru Steelfury, Artisan Blacksmithing Trainer in Orgrimmar.|FACTION|Horde|
+= Learn [spell=3538/Expert Blacksmithing]|QID|164003538|M|52.6,40.8|Z|1455;Ironforge|P|Blacksmithing;164;0+125|SPELL|Expert Blacksmithing;3538|LVL|20|T|Bengus Deepforge|N|Visit Bengus Deepforge, Artisan Blacksmithing Trainer in Ironforge.|FACTION|Alliance|
+= Learn [spell=3538/Expert Blacksmithing]|QID|164003538|M|82.2,23.0|Z|1454;Orgrimmar|P|Blacksmithing;164;0+125|SPELL|Expert Blacksmithing;3538|LVL|20|T|Saru Steelfury|N|Visit Saru Steelfury, Artisan Blacksmithing Trainer in Orgrimmar.|FACTION|Horde|
 = Learn Recipe|QID|164001201|P|Blacksmithing;164;0+120|RECIPE|2672|N|Learn [spell=2672/Patterned Bronze Bracers] Recipe from Trainer.|
 = Learn Recipe|QID|164001251|P|Blacksmithing;164;0+125|RECIPE|3337|N|Learn [spell=3337/Heavy Grinding Stone] Recipe from Trainer.|
 M [item=3486/Heavy Grinding Stone]|QID|164003337|P|Blacksmithing;164;0+140;1|ITEM|3486|CRAFT|3337 35|MATS|2838 3|N|Make all you have and keep, don't worry if you hit 145 or 150 with this, guide will skip steps if needed.|
@@ -85,7 +85,7 @@ M [item=3842/Green Iron Leggings]|QID|164003506|P|Blacksmithing;164;0+165;1|ITEM
 M [item=3835/Green Iron Bracers]|QID|164003501|P|Blacksmithing;164;0+190;1|ITEM|3835|CRAFT|3501 25|MATS|3575 6; 2605 1|
 = Learn Recipe|QID|164001851|P|Blacksmithing;164;0+185|RECIPE|7223|N|Learn [spell=7223/Golden Scale Bracers] Recipe from Trainer.|
 M [item=6040/Golden Scale Bracers]|QID|164007223|P|Blacksmithing;164;0+200;1|ITEM|6040|CRAFT|7223 10|MATS|3859 5; 3486 2|N|Keep 6, if you choose Armorsmithing at 200.|
-= Learn [spell=9785/Artisan Blacksmithing]|QID|164009785|M|29.0,75.4|Z|Stranglethorn Vale|P|Blacksmithing;164;0+200|SPELL|Artisan Blacksmithing;9785|LVL|35|T|Brikk Keencraft|N|Visit Brikk Keencraft, Master Blacksmithing Trainer in Booty Bay, Stranglethorn Vale.|
+= Learn [spell=9785/Artisan Blacksmithing]|QID|164009785|M|29.0,75.4|Z|1434;Stranglethorn Vale|P|Blacksmithing;164;0+200|SPELL|Artisan Blacksmithing;9785|LVL|35|T|Brikk Keencraft|N|Visit Brikk Keencraft, Master Blacksmithing Trainer in Booty Bay, Stranglethorn Vale.|
 = Learn Recipe|QID|164002001|P|Blacksmithing;164;0+200|RECIPE|9920|N|Learn [spell=9920/Solid Grinding Stone] Recipe from Trainer.|
 M [item=7966/Solid Grinding Stone]|QID|164009920|P|Blacksmithing;164;0+210;1|ITEM|7966|CRAFT|9920 30|MATS|7912 4|N|Keep these, you'll need for later, and might need to make more later as well.|
 = Learn Recipe|QID|164002051|P|Blacksmithing;164;0+205|RECIPE|9928|N|Learn [spell=9928/Heavy Mithril Gauntlet] Recipe from Trainer.|
