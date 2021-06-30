@@ -53,9 +53,9 @@ B [item=3372/Leaded Vial]|QID|171000004|L|3372 85|ITEM|3372|N|You'll need about 
 B [item=8925/Crystal Vial]|QID|171000004|L|8925 120|ITEM|8925|N|You'll need about 120 Crystal Vials.|
 B [item=18256/Imbued Vial]|QID|171000004|L|18256 120|ITEM|18256|N|You'll need about 105 Imbued Vials.|
 N Couple Recipes to Buy|QID|171000006|N|There are a couple recipes to go buy, that you'll need for later, can skip for now, will repeat when you need them. \n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-B [spell=17553/Superior Mana Potion]|QID|171000006|M|55.8,24.6|Z|Darnassus|RECIPE|17553|T|Ulthir|N|Purchase [item=13477/Recipe: Superior Mana Potion] from Ulthir, in Darnassus.|FACTION|Alliance|
-B [spell=17553/Superior Mana Potion]|QID|171000006|M|51.8,74.6|Z|Undercity|RECIPE|17553|T|Algernon|N|Purchase [item=13477/Recipe: Superior Mana Potion] from Algernon in Undercity.|FACTION|Horde|
-B [spell=17556/Major Healing Potion]|QID|171000006|M|60.8,37.8|Z|Winterspring|RECIPE|17556|T|Evie Whirlbrew|N|Purchase [item=13480/Recipe: Major Healing Potion] from Evie Whirlbrew, in Winterspring.|
+B [spell=17553/Superior Mana Potion]|QID|171000006|M|55.8,24.6|Z|1457;Darnassus|RECIPE|17553|T|Ulthir|N|Purchase [item=13477/Recipe: Superior Mana Potion] from Ulthir, in Darnassus.|FACTION|Alliance|
+B [spell=17553/Superior Mana Potion]|QID|171000006|M|51.8,74.6|Z|1458;Undercity|RECIPE|17553|T|Algernon|N|Purchase [item=13477/Recipe: Superior Mana Potion] from Algernon in Undercity.|FACTION|Horde|
+B [spell=17556/Major Healing Potion]|QID|171000006|M|60.8,37.8|Z|1452;Winterspring|RECIPE|17556|T|Evie Whirlbrew|N|Purchase [item=13480/Recipe: Major Healing Potion] from Evie Whirlbrew, in Winterspring.|
 N Shopping List|QID|171000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 = Learn [spell=2259/Alchemy]|QID|171002259|SPELL|Alchemy;2259|LVL|5|N|Learn from a Trainer in any major city.|
@@ -79,16 +79,16 @@ M [item=8951/Elixir of Greater Defense]|QID|171011450|P|Alchemy;171;0+215;1|ITEM
 M [item=3928/Superior Healing Potion]|QID|171011457|P|Alchemy;171;0+230;1|ITEM|3928|CRAFT|11457 15|MATS|8838 1;3358 1;8925 1|
 = Learn Recipe|QID|171002301|P|Alchemy;171;0+230|RECIPE|11460|N|Learn [spell=11460/Elixir of Detect Undead] Recipe from Trainer.|
 M [item=9154/Elixir of Detect Undead]|QID|171011460|P|Alchemy;171;0+265;1|ITEM|9154|CRAFT|11460 45|MATS|8836 1;8925 1|
-B [spell=17553/Superior Mana Potion]|QID|171017553|M|55.8,24.6|Z|Darnassus|RECIPE|17553|T|Ulthir|N|Purchase [item=13477/Recipe: Superior Mana Potion] from Ulthir, in Darnassus.|FACTION|Alliance|
-B [spell=17553/Superior Mana Potion]|QID|171017553|M|51.8,74.6|Z|Undercity|RECIPE|17553|T|Algernon|N|Purchase [item=13477/Recipe: Superior Mana Potion] from Algernon in Undercity.|FACTION|Horde|
+B [spell=17553/Superior Mana Potion]|QID|171017553|M|55.8,24.6|Z|1457;Darnassus|RECIPE|17553|T|Ulthir|N|Purchase [item=13477/Recipe: Superior Mana Potion] from Ulthir, in Darnassus.|FACTION|Alliance|
+B [spell=17553/Superior Mana Potion]|QID|171017553|M|51.8,74.6|Z|1458;Undercity|RECIPE|17553|T|Algernon|N|Purchase [item=13477/Recipe: Superior Mana Potion] from Algernon in Undercity.|FACTION|Horde|
 U Learn Recipe|QID|171002601|P|Alchemy;171;0+260|RECIPE|17553|U|13477|N|Learn [spell=17553/Superior Mana Potion], using [item=13477/Recipe: Superior Mana Potion].|
 M [item=13443/Superior Mana Potion]|QID|171017553|P|Alchemy;171;0+285;1|ITEM|13443|CRAFT|17553 30|MATS|8838 2;8839 2;8925 1|
-B [spell=17556/Major Healing Potion]|QID|171017556|M|60.8,37.8|Z|Winterspring|RECIPE|17556|T|Evie Whirlbrew|N|Purchase [item=13480/Recipe: Major Healing Potion] from Evie Whirlbrew, in Winterspring.|
+B [spell=17556/Major Healing Potion]|QID|171017556|M|60.8,37.8|Z|1452;Winterspring|RECIPE|17556|T|Evie Whirlbrew|N|Purchase [item=13480/Recipe: Major Healing Potion] from Evie Whirlbrew, in Winterspring.|
 U Learn Recipe|QID|171002751|P|Alchemy;171;0+275|RECIPE|17556|N|Learn [spell=17556/Major Healing Potion], using [item=13480/Recipe: Major Healing Potion].|
 M [item=13446/Major Healing Potion]|QID|171017556|P|Alchemy;171;0+300;1|ITEM|13446|CRAFT|17556 20|MATS|13464 2;13465 1;8925 1|
-= Learn [spell=28596/Master Alchemy]|QID|171028596|M|52.2,36.4|Z|Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Apothecary Antonivich, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
-= Learn [spell=28596/Master Alchemy]|QID|171028596|M|53.8,65.8|Z|Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Alchemist Gribble, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
-= Learn [spell=28596/Master Alchemy]|QID|171028596|M|45.8,20.4|Z|Shattrath City|IZ|3703;Shattrath City|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Lorokeem, Lower City, in Shattrath City.|
+= Learn [spell=28596/Master Alchemy]|QID|171028596|M|52.2,36.4|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Apothecary Antonivich, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
+= Learn [spell=28596/Master Alchemy]|QID|171028596|M|53.8,65.8|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Alchemist Gribble, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
+= Learn [spell=28596/Master Alchemy]|QID|171028596|M|45.8,20.4|Z|1955;Shattrath City|IZ|3703;Shattrath City|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Lorokeem, Lower City, in Shattrath City.|
 = Learn Recipe|QID|171003001|P|Alchemy;171;0+300|RECIPE|33732|N|Learn [spell=33732/Volatile Healing Potion] Recipe from Trainer.|
 = Learn Recipe|QID|171003002|P|Alchemy;171;0+300|RECIPE|33738|N|Learn [spell=33738/Onslaught Elixir] Recipe from Trainer.|
 = Learn Recipe|QID|171003003|P|Alchemy;171;0+300|RECIPE|33740|N|Learn [spell=33740/Adept's Elixir] Recipe from Trainer.|
