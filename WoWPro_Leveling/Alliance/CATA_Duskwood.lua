@@ -13,9 +13,9 @@ N This guide starts in Darkshire|AVAILABLE|26618|ACTIVE|-28564|M|74.75,46.71|N|M
 T Hero's Call: Duskwood!|QID|28564|M|73.53,46.93|N|To Commander Althea Ebonlocke. Just follow the road all the way to Darkshire.|
 A Wolves at Our Heels|QID|26618|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
 h Darkshire|ACTIVE|26618|M|73.87,44.40|N|At Innkeeper Trelayne inside Scarlet Raven Tavern.|
-A Dusky Crab Cakes|QID|26623|M|73.75,43.48|N|From Chef Grual.|S|RANK|2|
-A Seasoned Wolf Kabobs|QID|26620|M|73.75,43.48|N|From Chef Grual.|RANK|2|
-A Dusky Crab Cakes|QID|26623|M|73.75,43.48|N|From Chef Grual.|US|RANK|2|
+A Dusky Crab Cakes|QID|26623|M|73.75,43.48|N|From Chef Grual.|S|
+A Seasoned Wolf Kabobs|QID|26620|M|73.75,43.48|N|From Chef Grual.|
+A Dusky Crab Cakes|QID|26623|M|73.75,43.48|N|From Chef Grual.|US|
 f Darkshire|QID|26618|M|77.49,44.29|N|At Felicia Maline.|TAXI|-Darkshire|
 C Dusky Crab Cakes|QID|26623|N|Kill and loot spiders.|S|
 C Wolves at Our Heels|QID|26618|N|Kill Dire Wolves.|S|
@@ -169,7 +169,7 @@ F Darkshire|ACTIVE|26793|M|21.08,56.45|N|Fly back to, or hearthstone to Darkshir
 T The Weathered Grave|QID|26793|M|72.60,47.76|N|To Sirra Von'lndi.|
 A Morgan Ladimore|QID|26794|M|72.60,47.76|N|From Sirra Von'lndi.|PRE|26793|
 T Morgan Ladimore|QID|26794|M|73.53,46.93|N|To Commander Althea Ebonlocke.|
-A Mor'Ladim|QID|26795|M|73.53,46.93|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Commander Althea Ebonlocke.\n[color=FF0000]NOTE: [/color]This quest involves flying back to Raven Hill, and taking out an elite in Raven Hill Cemetery.\n\nLeft click the check box and confirm skipping the following two quests if you want to skip this quest.|PRE|26794|RANK|2|
+A Mor'Ladim|QID|26795|M|73.53,46.93|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Commander Althea Ebonlocke.\n[color=FF0000]NOTE: [/color]This quest involves flying back to Raven Hill, and taking out an elite in Raven Hill Cemetery.\n\nLeft click the check box and confirm skipping the following two quests if you want to skip this quest.|PRE|26794|
 F Raven Hill|ACTIVE|26795|M|77.5,44.3|N|Fly to Raven Hill.|FLY|WOD|
 C Mor'Ladim|QID|26795|M|16.65,38.82;17.74,29.00|CC|N|Find, kill and loot Mor'Ladim. He wanders back and forth along the road between the Dawning Wood Catacombs (south entrance) and the Weathered Grave (just north of the house). Use the targeting to find him easier. Attacking him at the Weathered Grave is a better option; less likely to get adds.|T|Mor'Ladim|
 F Darkshire|ACTIVE|26795|M|21.06,56.46|N|Fly to Darkshire.|FLY|WOD|
