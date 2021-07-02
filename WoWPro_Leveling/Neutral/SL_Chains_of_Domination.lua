@@ -516,7 +516,7 @@ T Looting the Looters|QID|63757|M|PLAYER|Z|1961;Korthia|N|To Caretaker Kah-Than.
 A Redirect the Search|QID|63759|PRE|63756&63758&63757|M|PLAYER|Z|1961;Korthia|N|From Caretaker Kah-Than.|
 T Redirect the Search|QID|63759|M|56.87,22.32|Z|1961;Korthia|N|To Caretaker Kah-Than.|
 A Echoes of Fate|QID|63760|PRE|63759|M|56.87,22.32|Z|1961;Korthia|N|From Caretaker Kah-Than.|
-A Revenge Delayed|QID|63761|PRE|63759|M|55.54,22.21|Z|1961;Korthia|N|From Protector Rih-Mat.| 
+A Revenge Delayed|QID|63761|PRE|63759|M|55.54,22.21|Z|1961;Korthia|N|From Protector Rih-Mat.|
 C Revenge Delayed|QID|63761|M|53.65,20.94|Z|1961;Korthia|N|Kill Devourers around the area.|S|
 C Echoes of Fate|QID|63760|M|56.53,20.30|Z|1961;Korthia|QO|1|NC|U|185828|N|Click on the offering near the Anima shrine.|
 C Echoes of Fate|QID|63760|M|53.78,21.39|Z|1961;Korthia|QO|2|NC|U|185828|N|Click on the offering near the Meditation shrine.|
