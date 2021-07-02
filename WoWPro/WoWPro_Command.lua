@@ -39,6 +39,16 @@ local function handler(msg, editbox)
             local text = ("Player at %.2f,%.2f/%s@%q aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
             _G.ChatFrame1:AddMessage(text)
         end
+		local pos = C_Map.GetPlayerMapPosition(mapId, "player")
+		local areaIDs = C_MapExplorationInfo.GetExploredAreaIDsAtPosition(mapId, pos)
+		if areaIDs then
+			for i, areaID in ipairs(areaIDs) do
+				local name = C_Map.GetAreaInfo(areaID)
+				if name then
+					print(name .. ": " .. areaID)
+				end
+			end
+		end
     elseif ltoken == 'etrace-start' then
         WoWPro:print(ltoken)
         WoWPro.RegisterAllEvents()
