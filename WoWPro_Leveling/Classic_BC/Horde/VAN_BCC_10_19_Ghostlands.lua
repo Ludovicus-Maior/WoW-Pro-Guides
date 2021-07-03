@@ -90,14 +90,14 @@ T Vanquishing Aquantion|QID|9174|M|72.30,19.10|N|To Geranis Whitemorn.|
 C Dealing with Zeb'Sora|QID|9143|M|76.02,12.85|L|22639 6|N|Kill any troll you see in Zeb'Sora to get their ears.|
 R Farstrider Enclave|AVAILABLE|9158^9215^9274|M|73.83,32.11|N|Follow the shoreline south to the big building.|
 A Bearers of the Plague|QID|9158|M|72.49,32.14|N|From Farstrider Sedina at the Farstrider Enclave.|
-r Housekeeping|AVAILABLE|9158^9215^9274|M|73.83,32.11|N|You can repair and empty your bags at Narina.|IZ|3496; Farstrider Enclave|
+r Housekeeping|AVAILABLE|9158^9215^9274|M|72.12,32.04|N|You can repair and empty your bags at Narina.|IZ|3496; Farstrider Enclave|
 A Bring Me Kel'gash's Head!|QID|9215|M|72.22,31.18|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the Wanted Poster.|
 A Spirits of the Drowned|QID|9274|M|72.21,29.76|N|From Ranger Krenn'an.|
 K Spirits of the Drowned|ACTIVE|9274|M|71.04,24.00|QO|1;2|N|Kill any ghost you see floating around in the lake.|S|
 T Dealing with Zeb'Sora|QID|9143|M|69.39,15.19|N|Return to Ranger Valanna.|
 A Report to Captain Helios|QID|9146|M|69.39,15.19|N|From Ranger Valanna.|PRE|9143|
 K Spirits of the Drowned|ACTIVE|9274|M|71.04,24.00|QO|1;2|N|Kill any ghost you see floating around in the lake.|US|
-T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an.|
+T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an in Farstrider Enclave.|
 T Report to Captain Helios|QID|9146|M|72.37,29.65|N|To Captain Helios.|
 H Tranquillien|AVAILABLE|9171|
 A Culinary Crunch|QID|9171|M|48.43,30.93|N|From Master Chef Mouldier.|
@@ -295,7 +295,7 @@ A The Path of the Adept|QID|9692|M|89.29,35.25|Z|Silvermoon City|N|From Knight-L
 P Undercity|AVAILABLE|5646|M|49.5,14.8|Z|Silvermoon City|N|[Coords]Use the Orb of Translocation located at the very back of Sunfury Spire.|R|Undead|C|Priest|
 b Durotar|AVAILABLE|5646|M|60.75,58.77|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|R|Undead|C|Priest|
 R Orgrimmar|AVAILABLE|5646|M|45.52,12.07|Z|Durotar|R|Undead|C|Priest|
-f Orgrimmar|AVAILABLE|5646|M|45.50,63.84|Z|Orgrimmar|N|Get the flight path from Doras.|C|Warlock|
+f Orgrimmar|AVAILABLE|5646|M|45.50,63.84|Z|Orgrimmar|N|Get the flight path from Doras.|R|Undead|C|Priest|
 R Valley of Spirits|AVAILABLE|5646|ACTIVE|-5644|R|Undead|C|Priest|
 A Devouring Plague|QID|5646|ACTIVE|-5644|M|35.6,87.6|N|[Coords]From Ur'kyo.\n[color=FF0000]NOTE: [/color]An alternate version of this quest is available from Miles Welsh in Thunder Bluff. But, I don't see the point in getting it.|LEAD|5679|R|Undead|C|Priest|
 b Tirisfal Glades|ACTIVE|5644^5646|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Undead|C|Priest|
@@ -309,8 +309,8 @@ P Silvermoon City|ACTIVE|9877|M|65.9,36.8;66.2,0.9;54.9,11.2|CC|Z|Undercity|N|Ta
 N NOT EASY!!!|AVAILABLE|2458|ACTIVE|876|N|Your Poison quest is not going to be easy. Some have suggested waiting until you've reached level 22. At that point, you'll have Distract and Vanish to help reduce the number of 'Run away!' moments.\nI agree and this guide will wait until you're level 22. You can do it now if you so choose.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Undead|C|Rogue|
 ; ---
 ; --- Warlock Soul Bag/Succubus Level 20 class quest
-A Carendin Summons|QID|10605|M|73.2,46.8|N|[coords]From Alamma.|LEAD|1507|R|BloodElf|C|Warlock|
-P Undercity|AVAILABLE|1507|M|49.5,14.8|Z|Silvermoon City|N|[Coords]Use the Orb of Translocation located at the very back of Sunfury Spire.|C|Warlock|
+A Carendin Summons|QID|10605|M|73.2,46.8|Z|Silvermoon City|N|[coords]From Alamma.|LEAD|1507|R|BloodElf|C|Warlock|
+P Undercity|AVAILABLE|1507|M|49.49,14.80|Z|Silvermoon City|N|Use the Orb of Translocation located at the very back of Sunfury Spire.|C|Warlock|
 b Durotar|AVAILABLE|1507|M|60.75,58.77|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|C|Warlock|
 R Orgrimmar|AVAILABLE|1507|M|45.52,12.07|Z|Durotar|N|Enter Orgrimmar.|C|Warlock|
 f Orgrimmar|AVAILABLE|1507|M|45.50,63.84|Z|Orgrimmar|N|Get the flight path from Doras.|C|Warlock|
@@ -320,7 +320,7 @@ A Blind Cazul|QID|1508|M|47.04,46.46|Z|Orgrimmar|N|From Cazul.|PRE|1507|C|Warloc
 T Blind Cazul|QID|1508|M|37.02,59.46|Z|Orgrimmar|N|To Zankaja in the building just south of the Cleft of the Shadows SW entrance.|C|Warlock|
 A News of Dogran|QID|1509|M|37.02,59.46|Z|Orgrimmar|N|From Zankaja.|PRE|1508|C|Warlock|
 F Crossroads|ACTIVE|1509|M|45.50,63.84|Z|Orgrimmar|C|Warlock|TAXI|Crossroads|
-R Far Watch Outpost|ACTIVE|1509|M|34.16,42.30|Z|Durotar|N|Exit Orgrimmar from the south and follow the road south to Razor Hill. Exit Razor Hill from the west and follow the road the road to the river.|TAXI|-Crossroads|
+R Far Watch Post|ACTIVE|1509|M|34.16,42.30|Z|Durotar|N|Exit Orgrimmar from the south and follow the road south to Razor Hill. Exit Razor Hill from the west and follow the road the road to the river.|TAXI|-Crossroads|
 R Crossroads|ACTIVE|1509|M|52.34,29.34|Z|The Barrens|N|Take the road west to the intersection and go south into The Crossroads.|TAXI|-Crossroads|
 f Crossroads|ACTIVE|1509|M|51.50,30.34|Z|The Barrens|N|From Devrak.|TAXI|-Crossroads|
 T News of Dogran|QID|1509|M|51.93,30.32|Z|The Barrens|N|To Gazrog in The Crossroads.|C|Warlock|
@@ -364,47 +364,54 @@ K Borgoth the Bloodletter|ACTIVE|9170|M|32.79,89.93|QO|2|N|Borgoth can be in fou
 R Tower of the Damned|ACTIVE|9157|M|31.65,81.70|N|Make your way to the tower in the center of Deatholme. It has an east and a west entrance. Both of them lead to the same spot and have 2 guards standing at the top of the stairs.|
 K Dar'Khan|ACTIVE|9167|M|32.81,82.45|QO|1|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nAt the first intersection after you enter the tower, wait for the patrolling NPC to pass and kill it.\nOnce you are on the next level, the path splits (direction is irrelevant) with a Necromancer and his pet standing around the corner.\nAt the next level, the pathes merge and lead down into the main room.\n[color=FF0000]NOTE: [/color]Dar'Khan is a 21 elite and has 2 Necromancers with pets on either side of the room. If done right, you can solo pull each group of adds from the top of the ramp without pulling Dar'Khan.\nMake sure you keep the upper level clear as to avoid any surprise adds when he casts Fear on you.\n\nIf you have help, or if you think you can solo him, go ahead. If not, go ahead and skip, though the rewards are nice.|
 R Sanctum of the Sun|ACTIVE|9167^9170|M|53.94,51.76|
-T The Traitor's Destruction|QID|9167|M|54.99,48.99|N|To Magister Kaendris.|
-A Hero of the Sin'dorei|QID|9328|M|54.99,48.99|R|BloodElf|N|From Magister Kaendris.|PRE|9167|
-A Friend of the Sin'dorei|QID|9811|M|54.99,48.99|N|From Magister Kaendris.|R|Orc,Troll,Tauren,Undead,Goblin|PRE|9167|
+T The Traitor's Destruction|QID|9167|M|55.07,48.83|N|To Magister Kaendris.|
+A Hero of the Sin'dorei|QID|9328|M|55.07,48.83|R|BloodElf|N|From Magister Kaendris.|PRE|9167|
+A Friend of the Sin'dorei|QID|9811|M|55.07,48.83|N|From Magister Kaendris.|R|Orc,Troll,Tauren,Undead,Goblin|PRE|9167|
 T Dar'Khan's Lieutenants|QID|9170|M|54.87,48.55|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.82,48.35|N|To Arcanist Janeda.|
-K Luzran|ACTIVE|9156|M|34.3,50.3;37.3,67.5;39.5,32.0|CN|QO|2|N|Luzran spawns at Bleeding Ziggurat and begins his path south through the The Dead Scar to the Deatholme entrance, then to the northern waypoint before turning back south to the Deatholme entrance and ultimately returning to Bleeding Ziggurat to start the trip anew.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip. Skipping this will skip all related steps as well.|
-K Knucklerot|ACTIVE|9156|M|41.7,45.2;33.1,53.1;25.6,55.4;22.6,49.1;22.2,40.4;27.5,38.1;30.4,35.9;27.7,29.9;29.4,21;25.4,16.3|CN|QO|1|N|Knucklerot spawns at Howling Ziggurat and begins his path by following the road across The Dead Scar past and through to Windrunner Village. From here he works his way along the shore until he crosses over the river just above the waterfall and heads for the road leading into Goldenmist Village. He follows this road to the fountain between the buildings. At this point, he turns around and begins to path back to the beginning. His return path is the exact same with one exception. After crossing the river, he goes to Sanctum of the Moon before heading to Windrunner Village.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip.|
+K Luzran|ACTIVE|9156|M|34.3,50.3;37.3,67.5;39.5,32.0|CN|QO|2|N|Luzran spawns at Bleeding Ziggurat and begins his path south through the The Dead Scar to the Deatholme entrance, then to the northern waypoint before turning back south to the Deatholme entrance and ultimately returning to Bleeding Ziggurat to start the trip anew.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip. Skipping this will skip all related steps as well.|T|Luzran|
+K Knucklerot|ACTIVE|9156|M|41.7,45.2;33.1,53.1;25.6,55.4;22.6,49.1;22.2,40.4;27.5,38.1;30.4,35.9;27.7,29.9;29.4,21;25.4,16.3|CN|QO|1|N|Knucklerot spawns at Howling Ziggurat and begins his path by following the road across The Dead Scar past and through to Windrunner Village. From here he works his way along the shore until he crosses over the river just above the waterfall and heads for the road leading into Goldenmist Village. He follows this road to the fountain between the buildings. At this point, he turns around and begins to path back to the beginning. His return path is the exact same with one exception. After crossing the river, he goes to Sanctum of the Moon before heading to Windrunner Village.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip.|T|Knucklerot|
 R Tranquillien|ACTIVE|9328|M|46.52,31.90|N|Run to Tranquillien.|
 T Wanted: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|
 ; Killed Dar'Khan
 F Silvermoon City|ACTIVE|9328^9811|M|45.43,30.53|
 R Housekeeping|ACTIVE|9328|N|Visit your trainers, AH, etc.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-T Hero of the Sin'dorei|QID|9328|M|53.98,20.42|Z|Silvermoon City|N|To Lor'themar Theron.|R|BloodElf|
-T Friend of the Sin'dorei|QID|9811|M|53.98,20.42|Z|Silvermoon City|N|To Lor'themar Theron.|R|-BloodElf||
-A Envoy to the Horde|QID|9621|M|53.98,20.42|Z|Silvermoon City|N|From Lor'themar Theron.|PRE|9328|R|BloodElf|
-A Envoy to the Horde|QID|9812|M|53.98,20.42|Z|Silvermoon City|N|From Lor'themar Theron.|PRE|9811|R|-BloodElf|
-P Undercity|QID|9180|M|49.49,14.76|Z|Silvermoon City|N|Go to the room behind Lor'themar, and click on the Orb of Translocation.|
-f Undercity|QID|9621^9812|M|63.09,47.88|Z|Undercity|N|Get the flight path for Undercity.|
-T Envoy to the Horde|QID|9621|M|57.59,91.64|Z|Undercity|N|To Lady Sylvanas Windrunner.|R|BloodElf|
-T Envoy to the Horde|QID|9812|M|57.59,91.64|Z|Undercity|N|To Lady Sylvanas Windrunner.|R|-BloodElf|
-T Journey to Undercity|QID|9177^9180|M|57.59,91.64|Z|Undercity|N|To Lady Sylvanas Windrunner.|
+T Hero of the Sin'dorei|QID|9328|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron.|R|BloodElf|
+T Friend of the Sin'dorei|QID|9811|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron.|R|-BloodElf||
+A Envoy to the Horde|QID|9621|M|53.79,20.22|Z|Silvermoon City|N|From Lor'themar Theron.|PRE|9328|R|BloodElf|
+A Envoy to the Horde|QID|9812|M|53.79,20.22|Z|Silvermoon City|N|From Lor'themar Theron.|PRE|9811|R|-BloodElf|
+P Undercity|QID|9180|M|49.49,14.80|Z|Silvermoon City|N|Go into the room behind Lor'themar and click on the Orb of Translocation at the top of the ramp.|
+f Undercity|ACTIVE|9621^9812|M|63.26,48.55|Z|Undercity|N|Get the flight path from Michael Garrett inside Undercity.|
+R Royal Quarter|ACTIVE|9621^9812|M|51.30,65.60|Z|Undercity|N|The entrance to Royal Quarter is by the outer ring of The Apothecarium in the southwest corner of Undercity.|
+T Envoy to the Horde|QID|9621|M|58.05,91.79|Z|Undercity|N|To Lady Sylvanas Windrunner.|R|BloodElf|
+T Envoy to the Horde|QID|9812|M|58.05,91.79|Z|Undercity|N|To Lady Sylvanas Windrunner.|R|-BloodElf|
+T Journey to Undercity|QID|9177^9180|M|58.05,91.79|Z|Undercity|N|To Lady Sylvanas Windrunner.|
 A Meeting the Warchief|QID|9626|M|57.93,91.79|Z|Undercity|N|From Lady Sylvanas Windrunner.|
-R Orgrimmar Zepplin|ACTIVE|9626|M|60.71,58.78|Z|Tirisfal Glades|N|Go up the tower and take the Zepplin.|
-b Durotar|ACTIVE|9626|
-T Meeting the Warchief|QID|9626|M|31.76,37.83|Z|Orgrimmar|N|To Thrall.|
-A Allegiance to the Horde|QID|9627|M|31.76,37.83|Z|Orgrimmar|N|From Thrall.|R|BloodElf|
+R Leave Undercity|QID|440|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|IZ|1497; Undercity|
+b Durotar|ACTIVE|9626|M|60.71,58.78|Z|Tirisfal Glades|N|Go up the tower and take the Zepplin to Durotar/Orgrimmar.|
+R Orgrimmar|ACTIVE|9626|M|49.15,95.09|Z|Orgrimmar|N|Enter Orgrimmar by the front gate.|
+R Valley of Wisdom|ACTIVE|9626|M|42.37,36.75|Z|Orgrimmar|N|Go to The Valley of Wisdom.|
+T Meeting the Warchief|QID|9626|M|31.65,37.83|Z|Orgrimmar|N|To Thrall inside Grommash Hold.|
+A Allegiance to the Horde|QID|9627|M|31.65,37.83|Z|Orgrimmar|N|From Thrall.|R|BloodElf|
 A The Spirits of Stonetalon|QID|1061|M|38.93,38.37|Z|Orgrimmar|N|From Zor Lonetree (just inside Grommash Hold).\n[color=FF0000]NOTE: [/color]This quest leads to a quest we will be doing in the next guide.|LEAD|1062|
+f Orgrimmar|ACTIVE|9627|M|45.12,63.90|Z|Orgrimmar|N|From Doras.|TAXI|-Orgrimmar|
 h Orgrimmar|ACTIVE|9627|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will make sense shortly.|IZ|1454|
-R Undercity Zepplin|ACTIVE|9627|M|50.82,13.59|Z|Durotar|N|Go up the tower and take the Zepplin.|
-b Tirisfal Glades|ACTIVE|9627|
-P Silvermoon City|ACTIVE|9627|M|55.02,11.28|Z|Undercity|N|Click on the Orb of Translocation.|
-T Allegiance to the Horde|QID|9627|M|53.85,20.31|Z|Silvermoon City|N|To Lor'themar Theron.|
-H Orgrimmar|AVAILABLE|-9627|ACTIVE|-9627|N|I told you it would make sense... ;)|
+R Leave Orgrimmar|ACTIVE|9627|M|45.55,12.06|Z|Durotar|N|Exit Orgrimmar through the south gate.|IZ|1637; Orgrimmar|
+b Tirisfal Glades|ACTIVE|9627|M|50.88,13.88|Z|Durotar|N|Go up the tower and take the Zepplin.|
+R Undercity|ACTIVE|9627|M|66.23,0.35|Z|Undercity|N|Head to Undercity.|
+P Silvermoon City|ACTIVE|9627|M|54.86,11.29|Z|Undercity|N|Enter the room at the top of the stairs on the west side of the Ruins and click on the Orb of Translocation.|
+T Allegiance to the Horde|QID|9627|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron.|
+H Orgrimmar|ACTIVE|-9627|N|I told you it would make sense... ;)|
 ; -- Using The Barrens guide to tie into Chapter 1
 R Valley of Wisdom|AVAILABLE|1061|M|42.37,36.75|Z|Orgrimmar|N|Go to The Valley of Wisdom.|
 A The Spirits of Stonetalon|QID|1061|M|38.93,38.37|Z|Orgrimmar|N|From Zor Lonetree (just inside Grommash Hold).\n[color=FF0000]NOTE: [/color]Probably the best time you'll get to grab this quest. It leads to a quest we will be doing in the next guide.|LEAD|1062|
-f Origrimmar|ACTIVE|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|-Orgrimmar|
+f Orgrimmar|ACTIVE|1061|M|45.12,63.90|Z|Orgrimmar|N|From Doras.|IZ|1637, Orgrimmar|
 
 N The Barrens FPs|AVAILABLE|6548|N|A little running around to get the flight paths in The Barrens. We won't be getting the FP in Thunder Bluff until later.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|
-R Far Watch Outpost|AVAILABLE|6548|M|34.16,42.30|Z|Durotar|N|Exit Orgrimmar from the south and follow the road south to Razor Hill. Exit Razor Hill from the west and follow the road the road to the river.|TAXI|-Crossroads|
-R Crossroads|AVAILABLE|6548|M|52.34,29.34|Z|The Barrens|N|Take the road west to the intersection and go south into The Crossroads.|TAXI|-Crossroads|
+R Leave Orgrimmar|AVAILABLE|6548|M|45.55,12.06|Z|Durotar|N|Exit Orgrimmar through the south gate.|IZ|1637; Orgrimmar|
+R Razor Hill|AVAILABLE|6548|M|52.31,39.99|Z|Durotar|N|Follow the road south to Razor Hill.|TAXI|-Crossroads|
+R Far Watch Post|AVAILABLE|6548|M|62.37,19.41|Z|The Barrens|N|Exit Razor Hill from the west and follow the road the road to the river. Far Watch Post is on the other side of the bridge.|TAXI|-Crossroads|
+R The Crossroads|AVAILABLE|6548|M|52.38,28.37|Z|The Barrens|N|Continue west to Gold Road and follow it south into The Crossroads.|TAXI|-Crossroads|
 f Crossroads|AVAILABLE|6548|M|51.50,30.34|Z|The Barrens|N|From Devrak.|TAXI|-Crossroads|
 R Camp Taurajo|AVAILABLE|6548|M|47.31,57.64;46.29,58.00|CC|N|Leave The Crossroads through the south gate and follow the road south-ish to Camp Taurajo.\nStick to the road unless you enjoy corpse running. There is only one graveyard in The Barrens and it's at The Crossroads.|TAXI|-Camp Taurajo|
 f Camp Taurajo|AVAILABLE|6548|M|44.44,59.15|N|Get the flight path from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
