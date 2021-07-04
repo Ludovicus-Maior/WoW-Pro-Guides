@@ -293,33 +293,55 @@ A The Path of the Adept|QID|9692|M|89.29,35.25|Z|Silvermoon City|N|From Knight-L
 ; ---
 ; --- Priest level 20 Undead class quest
 P Undercity|AVAILABLE|5646|M|49.5,14.8|Z|Silvermoon City|N|[Coords]Use the Orb of Translocation located at the very back of Sunfury Spire.|R|Undead|C|Priest|
-b Durotar|AVAILABLE|5646|M|60.75,58.77|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|R|Undead|C|Priest|
+b Durotar|AVAILABLE|5646|M|60.71,58.78|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|R|Undead|C|Priest|
 R Orgrimmar|AVAILABLE|5646|M|45.52,12.07|Z|Durotar|R|Undead|C|Priest|
-f Orgrimmar|AVAILABLE|5646|M|45.50,63.84|Z|Orgrimmar|N|Get the flight path from Doras.|R|Undead|C|Priest|
+f Orgrimmar|AVAILABLE|5646|M|45.13,63.90Z|Orgrimmar|N|Get the flight path from Doras.|R|Undead|C|Priest|
 R Valley of Spirits|AVAILABLE|5646|ACTIVE|-5644|R|Undead|C|Priest|
 A Devouring Plague|QID|5646|ACTIVE|-5644|M|35.6,87.6|N|[Coords]From Ur'kyo.\n[color=FF0000]NOTE: [/color]An alternate version of this quest is available from Miles Welsh in Thunder Bluff. But, I don't see the point in getting it.|LEAD|5679|R|Undead|C|Priest|
 b Tirisfal Glades|ACTIVE|5644^5646|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Undead|C|Priest|
 R Undercity|ACTIVE|5644^5646|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|R|Undead|C|Priest|
-T Devouring Plague|QID|5644^5646|M|49.2,18.2|Z|Undercity|N|To Aelthalyste in the War Quarter.|R|Undead|C|Priest|
-A Devouring Plague|QID|5679|M|49.2,18.2|Z|Undercity|N|From Aelthalyste.|R|Undead|C|Priest|
-T Devouring Plague|QID|5679|M|49.2,18.2|Z|Undercity|N|To Aelthalyste.|R|Undead|C|Priest|
-P Silvermoon City|ACTIVE|9877|M|65.9,36.8;66.2,0.9;54.9,11.2|CC|Z|Undercity|N|Take the elevator up and use the Orb of Translocation.|R|Undead|C|Priest|
+T Devouring Plague|QID|5644^5646|M|49.2,18.2|Z|1458;Undercity|N|To Aelthalyste in the War Quarter.|R|Undead|C|Priest|
+A Devouring Plague|QID|5679|M|49.2,18.2|Z|1458;Undercity|N|From Aelthalyste.|R|Undead|C|Priest|
+T Devouring Plague|QID|5679|M|49.2,18.2|Z|1458;Undercity|N|To Aelthalyste.|R|Undead|C|Priest|
+P Silvermoon City|ACTIVE|9877|M|65.9,36.8;66.2,0.9;54.9,11.2|CC|Z|1458;Undercity|N|Take the elevator up and use the Orb of Translocation.|R|Undead|C|Priest|
 ; ---
 ; --- Rogue Thistle Tea Recipe (Poison) Level 20 Class Quest
 N NOT EASY!!!|AVAILABLE|2458|ACTIVE|876|N|Your Poison quest is not going to be easy. Some have suggested waiting until you've reached level 22. At that point, you'll have Distract and Vanish to help reduce the number of 'Run away!' moments.\nI agree and this guide will wait until you're level 22. You can do it now if you so choose.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Undead|C|Rogue|
 ; ---
 ; --- Warlock Soul Bag/Succubus Level 20 class quest
-A Carendin Summons|QID|10605|M|73.2,46.8|Z|Silvermoon City|N|[coords]From Alamma.|LEAD|1507|R|BloodElf|C|Warlock|
-P Undercity|AVAILABLE|1507|M|49.49,14.80|Z|Silvermoon City|N|Use the Orb of Translocation located at the very back of Sunfury Spire.|C|Warlock|
-b Durotar|AVAILABLE|1507|M|60.75,58.77|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|C|Warlock|
+A Carendin Summons|QID|10605|M|73.09,46.95|Z|Silvermoon City|N|From Alamma, located in the Sanctum.|LEAD|1507|R|BloodElf|C|Warlock|
+P Undercity|ACTIVE|10605|M|49.49,14.80|Z|Silvermoon City|N|Use the Orb of Translocation located at the very back of Sunfury Spire atop the ramp.|C|Warlock|
+f Undercity|ACTIVE|10605|M|63.26,48.55|Z|1458;Undercity|N|Make your way down into Undercity and get the flight path from Michael Garrett.|
+R Magic Quarter|ACTIVE|10605|M|74.55,29.34|Z|1458;Undercity|N|The Magic Quarter is in the northeast corner of Undercity.|
+T Carendin Summons|QID|10605|M|85.05,25.97|Z|1458;Undercity|N|To Carendin Halgar, located beside the Summoning Circle on the outer ring of the Magic Quarter.|R|BloodElf|C|Warlock|
+A Devourer of Souls|QID|1472|M|84.81,14.83|Z|1458;Undercity|N|To Godrick Farsan. He's inside the building with the Warlock trainers.|PRE|10605|C|Warlock|
+T Devourer of Souls|QID|1472|M|77.73,21.87|Z|1458;Undercity|N|To Godrick Farsan. He's inside the building with the Warlock trainers.|
+A Hearts of the Pure|QID|1476|M|77.73,21.87|Z|1458;Undercity|N|From Godrick Farsan.|PRE|1472|C|Warlock|
+R Sewers|ACTIVE|1476|M|45.91,43.89|Z|1458;Undercity|N|Make your way to the Sewers.|
+R Tirisfal Glades|ACTIVE|1476|M|51.07,71.59|Z|Tirisfal Glades|N|Make your way through the Sewers to the exit to Tirisfal Glades.|
+R Silverpine Forest|ACTIVE|1476|M|67.82,4.92|Z|Silverpine Forest|N|Make your way to the road and head south to Silverpine Forest.|
+R Silverpine Forest|ACTIVE|1476|M||Z|Silverpine Forest|N|Make your way to the Silverpine Forest.|
+R The Sepulcher|ACTIVE|1476|M|50.83,36.99;46.29,41.50|Z|Silverpine Forest|CC|N|Make your way to the The Sepulcher.|
+f The Sepulcher|QID|1476|M|45.62,42.60|Z|1421;Silverpine Forest|N|At Karos Razok.|
+R Silverpine Forest|ACTIVE|1476|M||Z|Silverpine Forest|N|Make your way to the Silverpine Forest.|
+R Silverpine Forest|ACTIVE|1476|M||Z|Silverpine Forest|N|Make your way to the Silverpine Forest.|
+R The Greymane Wall|ACTIVE|1476|M|51.35,37.03;53.23,72.38;48.49,80.08|Z|Silverpine Forest|CC|N|Exit The Sepulcher and follow the road south until you reach the big bend. From here, head west briefly and continue on the road south until you reach the wall.|
+C Hearts of the Pure|QID|1476|M|45.19,82.91|Z|1421;Silverpine Forest|QO|1|N|Locate Dalin Forgewright on his horse and kill him to loot his heart.|
+R Silverpine Forest|ACTIVE|1476|M|51.14,72.11|Z|Silverpine Forest|N|Make your way to the Silverpine Forest.|
+R Tarren Mill|ACTIVE|1476|M|13.73,46.17;57.50,36.06;56.39,19.67|Z|Hillsbrad Foothills|N|Follow the road to Tarren Mill.|
+f Tarren Mill|ACTIVE|1476|M|60.14,18.63|Z|1424;Hillsbrad Foothills|N|At Zarise.|
+R Thoradin's Wall|ACTIVE|1476|M|62.88,41.63;81.42,56.40|Z|Hillsbrad Foothills|N|Follow the river south to the bridge and continue on the road east to Thoradin's Wall.|
+R Thandol Span|ACTIVE|1476|M|43.69,88.14|Z|Arathi Highlands|N|Make your way along the road to the bridge at Thandol Span.\n[color=FF0000]NOTE: [/color]Be aware of the 'skull' mobs on either side of the road.|
+C Hearts of the Pure|QID|1476|M|50.85,12.26;50.41,13.34|Z|1437;Wetlands|QO|2|N|Cross over the bridge to the Wetlands' side and locate Comar Willard. Kill him to loot his heart.|
+b Durotar|AVAILABLE|1507|M|60.71,58.78|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|C|Warlock|
 R Orgrimmar|AVAILABLE|1507|M|45.52,12.07|Z|Durotar|N|Enter Orgrimmar.|C|Warlock|
-f Orgrimmar|AVAILABLE|1507|M|45.50,63.84|Z|Orgrimmar|N|Get the flight path from Doras.|C|Warlock|
+f Orgrimmar|AVAILABLE|1507|M|45.13,63.90|Z|Orgrimmar|N|Get the flight path from Doras.|C|Warlock|
 A Devourer of Souls|QID|1507|M|48.24,45.28|Z|Orgrimmar|N|From Gan'rul Bloodeye in Cleft of Shadow.|C|Warlock|
 T Devourer of Souls|QID|1507|M|47.04,46.46|Z|Orgrimmar|N|To Cazul in Cleft of Shadow.|C|Warlock|
 A Blind Cazul|QID|1508|M|47.04,46.46|Z|Orgrimmar|N|From Cazul.|PRE|1507|C|Warlock|
 T Blind Cazul|QID|1508|M|37.02,59.46|Z|Orgrimmar|N|To Zankaja in the building just south of the Cleft of the Shadows SW entrance.|C|Warlock|
 A News of Dogran|QID|1509|M|37.02,59.46|Z|Orgrimmar|N|From Zankaja.|PRE|1508|C|Warlock|
-F Crossroads|ACTIVE|1509|M|45.50,63.84|Z|Orgrimmar|C|Warlock|TAXI|Crossroads|
+F Crossroads|ACTIVE|1509|M|45.13,63.90|Z|Orgrimmar|C|Warlock|TAXI|Crossroads|
 R Far Watch Post|ACTIVE|1509|M|34.16,42.30|Z|Durotar|N|Exit Orgrimmar from the south and follow the road south to Razor Hill. Exit Razor Hill from the west and follow the road the road to the river.|TAXI|-Crossroads|
 R Crossroads|ACTIVE|1509|M|52.34,29.34|Z|The Barrens|N|Take the road west to the intersection and go south into The Crossroads.|TAXI|-Crossroads|
 f Crossroads|ACTIVE|1509|M|51.50,30.34|Z|The Barrens|N|From Devrak.|TAXI|-Crossroads|
@@ -346,7 +368,7 @@ C The Binding|QID|1513|M|49.47,50.02|Z|Orgrimmar|QO|1|N|Go to the Summoning Circ
 T The Binding|QID|1513|M|48.24,45.28|Z|Orgrimmar|N|To Gan'rul Bloodeye.|C|Warlock|
 b Tirisfal Glades|ACTIVE|9877|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|C|Warlock|
 R Undercity|ACTIVE|9877|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|C|Warlock|
-P Silvermoon City|ACTIVE|9877|M|54.9,11.2|CC|Z|Undercity|N|[coords]Use the Orb of Translocation.|C|Warlock|
+P Silvermoon City|ACTIVE|9877|M|54.85,11.23|Z|1458;Undercity|N|Use the Orb of Translocation.|C|Warlock|
 ; ---
 F Tranquillien|ACTIVE|9877|M|54.37,50.73|Z|Eversong Woods|
 T A Restorative Draught|QID|9877|M|47.59,34.79|N|To Apothecary Renzithen.|
@@ -381,13 +403,13 @@ T Friend of the Sin'dorei|QID|9811|M|53.79,20.22|Z|Silvermoon City|N|To Lor'them
 A Envoy to the Horde|QID|9621|M|53.79,20.22|Z|Silvermoon City|N|From Lor'themar Theron.|PRE|9328|R|BloodElf|
 A Envoy to the Horde|QID|9812|M|53.79,20.22|Z|Silvermoon City|N|From Lor'themar Theron.|PRE|9811|R|-BloodElf|
 P Undercity|QID|9180|M|49.49,14.80|Z|Silvermoon City|N|Go into the room behind Lor'themar and click on the Orb of Translocation at the top of the ramp.|
-f Undercity|ACTIVE|9621^9812|M|63.26,48.55|Z|Undercity|N|Get the flight path from Michael Garrett inside Undercity.|
-R Royal Quarter|ACTIVE|9621^9812|M|51.30,65.60|Z|Undercity|N|The entrance to Royal Quarter is by the outer ring of The Apothecarium in the southwest corner of Undercity.|
-T Envoy to the Horde|QID|9621|M|58.05,91.79|Z|Undercity|N|To Lady Sylvanas Windrunner.|R|BloodElf|
-T Envoy to the Horde|QID|9812|M|58.05,91.79|Z|Undercity|N|To Lady Sylvanas Windrunner.|R|-BloodElf|
-T Journey to Undercity|QID|9177^9180|M|58.05,91.79|Z|Undercity|N|To Lady Sylvanas Windrunner.|
-A Meeting the Warchief|QID|9626|M|57.93,91.79|Z|Undercity|N|From Lady Sylvanas Windrunner.|
-R Leave Undercity|QID|440|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|IZ|1497; Undercity|
+f Undercity|ACTIVE|9621^9812|M|63.26,48.55|Z|1458;Undercity|N|Get the flight path from Michael Garrett inside Undercity.|
+R Royal Quarter|ACTIVE|9621^9812|M|51.30,65.60|Z|1458;Undercity|N|The entrance to Royal Quarter is by the outer ring of The Apothecarium in the southwest corner of Undercity.|
+T Envoy to the Horde|QID|9621|M|58.05,91.79|Z|1458;Undercity|N|To Lady Sylvanas Windrunner.|R|BloodElf|
+T Envoy to the Horde|QID|9812|M|58.05,91.79|Z|1458;Undercity|N|To Lady Sylvanas Windrunner.|R|-BloodElf|
+T Journey to Undercity|QID|9177^9180|M|58.05,91.79|Z|1458;Undercity|N|To Lady Sylvanas Windrunner.|
+A Meeting the Warchief|QID|9626|M|57.93,91.79|Z|1458;Undercity|N|From Lady Sylvanas Windrunner.|
+R Leave Undercity|QID|440|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|1458;Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|IZ|1497; Undercity|
 b Durotar|ACTIVE|9626|M|60.71,58.78|Z|Tirisfal Glades|N|Go up the tower and take the Zepplin to Durotar/Orgrimmar.|
 R Orgrimmar|ACTIVE|9626|M|49.15,95.09|Z|Orgrimmar|N|Enter Orgrimmar by the front gate.|
 R Valley of Wisdom|ACTIVE|9626|M|42.37,36.75|Z|Orgrimmar|N|Go to The Valley of Wisdom.|
@@ -398,8 +420,8 @@ f Orgrimmar|ACTIVE|9627|M|45.12,63.90|Z|Orgrimmar|N|From Doras.|TAXI|-Orgrimmar|
 h Orgrimmar|ACTIVE|9627|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will make sense shortly.|IZ|1454|
 R Leave Orgrimmar|ACTIVE|9627|M|45.55,12.06|Z|Durotar|N|Exit Orgrimmar through the south gate.|IZ|1637; Orgrimmar|
 b Tirisfal Glades|ACTIVE|9627|M|50.88,13.88|Z|Durotar|N|Go up the tower and take the Zepplin.|
-R Undercity|ACTIVE|9627|M|66.23,0.35|Z|Undercity|N|Head to Undercity.|
-P Silvermoon City|ACTIVE|9627|M|54.86,11.29|Z|Undercity|N|Enter the room at the top of the stairs on the west side of the Ruins and click on the Orb of Translocation.|
+R Undercity|ACTIVE|9627|M|66.23,0.35|Z|1458;Undercity|N|Head to Undercity.|
+P Silvermoon City|ACTIVE|9627|M|54.86,11.29|Z|1458;Undercity|N|Enter the room at the top of the stairs on the west side of the Ruins and click on the Orb of Translocation.|
 T Allegiance to the Horde|QID|9627|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron.|
 H Orgrimmar|ACTIVE|-9627|N|I told you it would make sense... ;)|
 ; -- Using The Barrens guide to tie into Chapter 1
@@ -577,7 +599,7 @@ T Mission: Possible But Not Probable|QID|2478|M|43.04,53.74|Z|Orgrimmar|N|To She
 A Hinott's Assistance|QID|2479|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul.|PRE|2478|R|Orc,Troll,Undead|C|Rogue|
 b Tirisfal Glades|ACTIVE|2479|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Orc,Troll,Undead|C|Rogue|
 R Undercity|ACTIVE|2479|M|61.86,65.04|Z|Tirisfal Glades|R|Orc,Troll,Undead|C|Rogue|
-F The Sepulcher|ACTIVE|2479|M|63.25,48.54|Z|Undercity|R|Orc,Troll,Undead|C|Rogue|
+F The Sepulcher|ACTIVE|2479|M|63.25,48.54|Z|1458;Undercity|R|Orc,Troll,Undead|C|Rogue|
 R Hillsbrad Foothills|ACTIVE|2479|M|13.55,46.15|Z|Hillsbrad Foothills|N|Exit The Sepulcher and follow the road south.|R|Orc,Troll,Undead|C|Rogue|
 R Tarren Mill|ACTIVE|2479|M|57.65,36.61;55.86,19.60|CC|Z|Hillsbrad Foothills|N|Follow the road/signs to Tarren Mill.|R|Orc,Troll,Undead|C|Rogue|
 f Tarren Mill|ACTIVE|2479|M|60.14,18.63|Z|Hillsbrad Foothills|N|At Zarise.|R|Orc,Troll,Undead|C|Rogue|TAXI|-Tarren Mill|
