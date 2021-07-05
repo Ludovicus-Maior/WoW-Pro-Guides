@@ -51,9 +51,9 @@ N Tailoring and Bandage Trainers|QID|197000008|N|It's possible these NPC's name 
 M [item=2996/Bolt of Linen Cloth]|QID|197002963|P|Tailoring;197;0+45;1|ITEM|2996|CRAFT|2963 102|MATS|2589 2|
 = Learn Recipe|QID|1970000151|P|Tailoring;197;0+15|RECIPE|8776|N|Learn [spell=8776/Linen Belt] Recipe, from Trainer.|
 M [item=7026/Linen Belt]|QID|197008776|P|Tailoring;197;0+70;1|ITEM|7026|CRAFT|8776 40|MATS|2996 1;2320 1|
-= Learn Recipe|QID|1970000601|P|Tailoring;197;0+60|RECIPE|2580|N|Learn [spell=2580/Reinforced Linen Cape] Recipe, from Trainer.|
+= Learn Recipe|QID|1970000601|P|Tailoring;197;0+60|RECIPE|2397|N|Learn [spell=2397/Reinforced Linen Cape] Recipe, from Trainer.|
 = Learn [spell=3912/Journeyman Tailor]|QID|197003912|P|Tailoring;197;0+50|SPELL|Journeyman Tailor;3912|LVL|10|N|Visit your Expert Tailor Trainer in any major city.|
-M [item=2580/Reinforced Linen Cape]|QID|197002397|P|Tailoring;197;0+75;1|ITEM|7026|CRAFT|2580 5|MATS|2996 2;2320 3|
+M [item=2580/Reinforced Linen Cape]|QID|197002397|P|Tailoring;197;0+75;1|ITEM|2580|CRAFT|2397 5|MATS|2996 2;2320 3|
 = Learn Recipe|QID|1970000751|P|Tailoring;197;0+75|RECIPE|2964|N|Learn [spell=2964/Bolt of Woolen Cloth] Recipe, from Trainer.|
 = Learn Recipe|QID|1970000752|P|Tailoring;197;0+75|RECIPE|12046|N|Learn [spell=12046/Simple Kilt] Recipe, from Trainer.|
 M [item=2997/Bolt of Woolen Cloth]|QID|197002964|P|Tailoring;197;0+100;1|ITEM|2997|CRAFT|2964 40|MATS|2592 3|N|Craft all 40, you'll need these later.|
