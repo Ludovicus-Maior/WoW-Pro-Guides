@@ -145,8 +145,8 @@ T Return to the Marsh|QID|9732|M|78.4,62.0|N|To Ysiel Windsinger.|
 N This next part requires lvl 62. If you are not 62 yet do a little griding.|LVL|-62|
 A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.5,63.1|N|From Lethyn Moonfire.|REP|Cenarion Expedition;942;friendly-exalted|LVL|62|
 A The Orebor Harborage|QID|9776|M|68.2,49.4|N|From Anchorite Ahuurn.|LVL|62|
-R Orebor Harborage|QID|9776|N|Make your way to Orebor Harborage|
-f Orebor Harborage|QID|9776|N|Get the flight-path from Halu.|M|41.25, 29.0|
+R Orebor Harborage|QID|9776|M|41.25,29.0|N|Make your way to Orebor Harborage|
+f Orebor Harborage|QID|9776|N|Get the flight-path from Halu.|M|41.25,29.0|
 A Secrets of the Daggerfen|QID|9848|M|41.2,28.7|N|From Timothy Daniels.|
 T The Orebor Harborage|QID|9776|M|41.9,27.2|N|To Ikuti.|
 A Ango'rosh Encroachment|QID|9835|M|41.9,27.2|N|From Ikuti.|
