@@ -76,7 +76,7 @@ M [item=7058/Crimson Silk Vest]|QID|197008791|P|Tailoring;197;0+205;1|ITEM|7058|
 M [item=7062/Crimson Silk Pantaloons]|QID|197008799|P|Tailoring;197;0+215;1|ITEM|7062|CRAFT|8799 10|MATS|4305 4;2604 2;4291 2|
 = Learn Recipe|QID|1970002151|P|Tailoring;197;0+215|RECIPE|12061|N|Learn [spell=12061/Orange Mageweave Shirt] Recipe from Trainer.|
 M [item=10056/Orange Mageweave Shirt]|QID|197012061|P|Tailoring;197;0+220;1|ITEM|10056|CRAFT|12061 5|MATS|4339 1;6261 1;8343 1|
-= Learn [spell=12180/Artisan Tailor]|QID|197012180|P|Tailor;197;0+200|SPELL|Artisan Tailoring;12180|LVL|35|N|Learn from any Trainer in any major City.|
+= Learn [spell=12180/Artisan Tailor]|QID|197012180|P|Tailoring;197;0+200|SPELL|Artisan Tailoring;12180|LVL|35|N|Learn from any Trainer in any major City.|
 = Learn Recipe|QID|1970002151|P|Tailoring;197;0+215|RECIPE|12053|N|Learn [spell=12053/Black Mageweave Gloves] Recipe from Trainer.|
 M [item=10003/Black Mageweave Gloves]|QID|197012053|P|Tailoring;197;0+230;1|ITEM|10003|CRAFT|12053 10|MATS|4339 2;8343 2|
 = Learn Recipe|QID|1970002301|P|Tailoring;197;0+230|RECIPE|12072|N|Learn [spell=12072/Black Mageweave Headband] Recipe from Trainer.|
@@ -87,8 +87,8 @@ M [item=14048/Bolt of Runecloth]|QID|197018401|P|Tailoring;197;0+260;1|ITEM|1404
 M [item=13856/Runecloth Belt]|QID|197018402|P|Tailoring;197;0+280;1|ITEM|13856|CRAFT|18402 25|MATS|14048 3;14341 1|
 U Learn Recipe|QID|1970002751|P|Tailoring;197;0+275|RECIPE|18417|N|Learn [spell=18417/Runecloth Gloves] Recipe using [item=14481/Pattern: Runecloth Gloves]. Also learnable from Master Tailoring Trainer in Hellfire Peninsula.|
 M [item=13863/Runecloth Gloves]|QID|197018417|P|Tailoring;197;0+300;1|ITEM|13863|CRAFT|18417 25|MATS|14048 4;8170 4;14341 1|
-= Learn [spell=26790/Master Tailoring]|QID|197026790|M|56.6,37.2|Z|1944;Hellfire Peninsula|P|Tailor;197;0+275|SPELL|Master Tailoring;12180|LVL|50|N|Learn from Dalinna, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
-= Learn [spell=26790/Master Tailoring]|QID|197026790|M|54.6,63.6|Z|1944;Hellfire Peninsula|P|Tailor;197;0+275|SPELL|Master Tailoring;12180|LVL|50|N|Learn from Hama, in Honor Hold, Hellfire Peninsula.|FACTION|Horde|
+= Learn [spell=26790/Master Tailoring]|QID|197026790|M|56.6,37.2|Z|1944;Hellfire Peninsula|P|Tailoring;197;0+275|SPELL|Master Tailoring;12180|LVL|50|N|Learn from Dalinna, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
+= Learn [spell=26790/Master Tailoring]|QID|197026790|M|54.6,63.6|Z|1944;Hellfire Peninsula|P|Tailoring;197;0+275|SPELL|Master Tailoring;12180|LVL|50|N|Learn from Hama, in Honor Hold, Hellfire Peninsula.|FACTION|Horde|
 = Learn Recipe|QID|1970003001|P|Tailoring;197;0+300|RECIPE|26745|N|Learn [spell=26745/Bolt of Netherweave] Recipe from Trainer.|
 M [item=21840/Bolt of Netherweave]|QID|197026745|P|Tailoring;197;0+325;1|ITEM|21840|CRAFT|26745 460|MATS|21877 6|N|Just make all 460, you need them all later.|
 B [spell=26747/Bolt of Imbued Netherweave]|QID|197026747|M|66.2,68.8|Z|1955;Shattrath City|RECIPE|26747|T|Eiin|N|Purchase [item=21892/Pattern - Bolt of Imbued Netherweave] from Eiin, in Lower City, Shattrath City. Alternately, you can purchase in The Exodar OR Silvermoon City.|
