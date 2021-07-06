@@ -360,7 +360,7 @@ R Malaka'jin|ACTIVE|1510|M|71.81,91.52|Z|Stonetalon Mountains|N|Leave Sun Rock R
 T News of Dogran|QID|1510|M|73.2,95|Z|Stonetalon Mountains|N|To Ken'zigla in Malaka'jin.|C|Warlock|
 A Ken'zigla's Draught|QID|1511|M|73.2,95|Z|Stonetalon Mountains|N|From Ken'zigla.|PRE|1510|C|Warlock|
 R The Crossroads|ACTIVE|1511|M|50.81,29.08|Z|The Barrens|N|Return to The Crossroads.|C|Warlock|
-F Camp Taurajo|QID|1511|M|51.50,30.34|Z|The Barrens|C|Warlock|TAXI|Camp Taurajo|
+F Camp Taurajo|ACTIVE|1511|M|51.50,30.34|Z|The Barrens|C|Warlock|TAXI|Camp Taurajo|
 R Camp Taurajo|ACTIVE|1511|M|47.31,57.64|N|Run back to Camp Taurajo.|C|Warlock|TAXI|-Camp Taurajo|
 f Camp Taurajo|ACTIVE|1511|M|51.50,30.34|Z|The Barrens|C|Warlock|TAXI|-Camp Taurajo|
 T Ken'zigla's Draught|QID|1511|M|44.62,59.27|N|To Grunt Logmar in Camp Taurajo.|C|Warlock|
@@ -420,9 +420,10 @@ A Meeting the Warchief|QID|9813|M|57.93,91.79|Z|1458;Undercity|N|From Lady Sylva
 R Leave Undercity|AVAILABLE|1061|M|66.1,38.4;66.2,0.9;66.2,1.2|Z|1458;Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|IZ|1497; Undercity|
 b Durotar|AVAILABLE|1061|M|60.71,58.78|Z|Tirisfal Glades|N|Go up the tower and take the Zepplin to Durotar/Orgrimmar.|
 R Orgrimmar|AVAILABLE|1061|M|49.15,95.09|Z|Orgrimmar|N|Enter Orgrimmar by the front gate.|
-h Orgrimmar|ACTIVE|9626|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will make sense shortly.|IZ|1454|
+h Orgrimmar|AVAILABLE|1061|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will make sense shortly.|IZ|1454|
 f Orgrimmar|AVAILABLE|1061|M|45.12,63.90|Z|Orgrimmar|N|From Doras.|TAXI|-Orgrimmar|
 R Valley of Wisdom|AVAILABLE|1061|M|42.37,36.75|Z|Orgrimmar|N|Go to The Valley of Wisdom.|
+R Grommash Hold|AVAILABLE|1061|M|40.46,36.96|Z|Orgrimmar|
 T Meeting the Warchief|QID|9626^9813|M|31.65,37.83|Z|Orgrimmar|N|To Thrall inside Grommash Hold.|
 A Allegiance to the Horde|QID|9627|M|31.65,37.83|Z|Orgrimmar|N|From Thrall.|PRE|9626|R|BloodElf|
 A The Spirits of Stonetalon|QID|1061|M|38.93,38.37|Z|Orgrimmar|N|From Zor Lonetree (just inside Grommash Hold).\n[color=FF0000]NOTE: [/color]This quest leads to a quest we will be doing in the next guide.|LEAD|1062|
@@ -434,80 +435,56 @@ T Allegiance to the Horde|QID|9627|M|53.79,20.22|Z|Silvermoon City|N|To Lor'them
 H Orgrimmar|ACTIVE|1061&-9627|N|I told you it would make sense... ;)|R|BloodElf|
 
 N The Barrens FPs|AVAILABLE|6548|N|A little running around to get the flight paths in The Barrens. We won't be getting the FP in Thunder Bluff until later.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|
+F Crossroads|AVAILABLE|6548|M|45.12,63.90|Z|Orgrimmar|N|From Doras.|TAXI|Crossroads|IZ|1637;Orgrimmar|
 R Leave Orgrimmar|AVAILABLE|6548|M|45.55,12.06|Z|Durotar|N|Exit Orgrimmar through the south gate.|IZ|1637; Orgrimmar|
 R Razor Hill|AVAILABLE|6548|M|52.31,39.99|Z|Durotar|N|Follow the road south to Razor Hill.|TAXI|-Crossroads|
-R Far Watch Post|AVAILABLE|6548|M|62.37,19.41|Z|The Barrens|N|Exit Razor Hill from the west and follow the road the road to the river. Far Watch Post is on the other side of the bridge.|TAXI|-Crossroads|
-R The Crossroads|AVAILABLE|6548|M|52.38,28.37|Z|The Barrens|N|Continue west to Gold Road and follow it south into The Crossroads.|TAXI|-Crossroads|
+R Far Watch Post|AVAILABLE|6548|M|62.37,19.41|Z|The Barrens|N|Exit Razor Hill from the west and follow the road the road to Southfury River; Far Watch Post is on the other side of the bridge.|TAXI|-Crossroads|
+R The Crossroads|AVAILABLE|6548|M|52.38,28.37|Z|The Barrens|N|Continue west to Gold Road and follow it south into The Crossroads.\n[color=FF0000]NOTE: [/color]If you want to, going cross country to get there shouldn't be a problem as the mobs are grey now.|TAXI|-Crossroads|
 f Crossroads|AVAILABLE|6548|M|51.50,30.34|Z|The Barrens|N|From Devrak.|TAXI|-Crossroads|
-R Camp Taurajo|AVAILABLE|6548|M|47.31,57.64;46.29,58.00|CC|N|Leave The Crossroads through the south gate and follow the road south-ish to Camp Taurajo.\nStick to the road unless you enjoy corpse running. There is only one graveyard in The Barrens and it's at The Crossroads.|TAXI|-Camp Taurajo|
-f Camp Taurajo|AVAILABLE|6548|M|44.44,59.15|N|Get the flight path from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
-F Crossroads|AVAILABLE|6548|M|44.44,59.15|
-R Stonetalon Mountains border|AVAILABLE|6548|M|35.66,27.48|CC|N|Leave the Crossroads through the west gate and follow the road until you come to the Stonetalon Mountains border.|
-A Avenge My Village|QID|6548|M|35.19,27.79|N|From Makaba Flathoof.|
-T The Spirits of Stonetalon|QID|1061|M|35.26,27.88|N|To Seereth Stonebreak.|
-A Goblin Invaders|QID|1062|M|35.26,27.88|N|From Seereth Stonebreak.|
+R Camp Taurajo|AVAILABLE|6548|M|46.29,58.00|Z|The Barrens|CC|N|Leave The Crossroads through the south gate and follow Gold Road south to Camp Taurajo.\n[color=FF0000]NOTE: [/color]The mob levels increase the closer you get to Camp Taurajo|TAXI|-Camp Taurajo|
+f Camp Taurajo|AVAILABLE|6548|M|44.44,59.15|Z|The Barrens|N|Get the flight path from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
+F Crossroads|AVAILABLE|6548|M|44.44,59.15|Z|The Barrens|
+R Honor's Stand|AVAILABLE|6548|M|39.45,29.69|Z|The Barrens|N|Head west from the Crossroads along the road or go cross country.|
+R Stonetalon Mountains border|AVAILABLE|6548|M|35.66,27.48|Z|The Barrens|CC|N|Continue west along the road.|
+A Avenge My Village|QID|6548|M|35.19,27.79|Z|The Barrens|N|From Makaba Flathoof.|
+T The Spirits of Stonetalon|QID|1061|M|35.26,27.88|Z|The Barrens|N|To Seereth Stonebreak.|
+A Goblin Invaders|QID|1062|M|35.26,27.88|Z|The Barrens|N|From Seereth Stonebreak.|
 
-R Stonetalon Mountains|ACTIVE|6548|M|34.12,27.60|N|Follow the road further west into Stonetalon Mountains.|
+R Stonetalon Mountains|ACTIVE|6548|M|82.89,96.99|Z|Stonetalon Mountains|N|Follow the road west into Stonetalon Mountains.|
 R Camp Aparaje|ACTIVE|6548|M|80.05,90.00|Z|Stonetalon Mountains|N|Continue to follow the road into Camp Aparaje.|
 K Avenge My Village|ACTIVE|6548|M|82.02,88.85|Z|Stonetalon Mountains|QO|1;2|N|You'll find the Grimtotem Ruffians and Mercenaries amongst the camps spread throughout the area.|
-T Avenge My Village|QID|6548|M|35.19,27.79|N|Head back To Makaba Flathoof at the Stonetalon entrance.|
-A Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|N|From Makaba Flathoof.|PRE|6548|
+T Avenge My Village|QID|6548|M|35.19,27.79|Z|The Barrens|N|Head back To Makaba Flathoof at the Stonetalon border.|
+A Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|Z|The Barrens|N|From Makaba Flathoof.|PRE|6548|
 
 R Stonetalon Mountains|QID|6548|M|34.12,27.60|N|Follow the road further west into Stonetalon Mountains.|
-C Grimtotem Brutes|QID|6629|QO|2|N|Kill them as you go.|S|
+C Grimtotem Brutes|QID|6629|M|71.95,86.47|Z|Stonetalon Mountains|QO|2|N|Kill them as you go.|S|
 ; lv 20
-R Grimtotem Post|QID|6629|M|71.44,89.45;71.95,86.47|CC|Z|Stonetalon Mountains|N|Follow the road into Grimtotem Post.|
-K Kill Grundig Darkcloud|QID|6629|M|73.70,86.33|Z|Stonetalon Mountains|QO|1|N|You'll find Grundig Darkcloud standing in the doorway of the tent.\nIf he's not there, clear the area while waiting for him to respawn.|T|Grundig Darkcloud|
+R Grimtotem Post|QID|6629|M|71.44,89.45;71.95,86.47|Z|Stonetalon Mountains|CC|N|Follow the road into Grimtotem Post.|
+K Kill Grundig Darkcloud|QID|6629|M|73.70,86.33|Z|Stonetalon Mountains|QO|1|N|You'll find Grundig Darkcloud standing in the doorway of the tent.\n[color=FF0000]NOTE: [/color]If he's not there, clear the area while waiting for him to respawn.|T|Grundig Darkcloud|
 A Protect Kaya|QID|6523|M|73.48,85.58|Z|Stonetalon Mountains|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Kaya Flathoof inside the tent.|
 C Protect Kaya|QID|6523|QO|1|N|Kaya will walk west out of the Grimtotem settlement and then start following the road southeast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 Grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
 A Protect Kaya|QID|6523|M|73.48,85.58|Z|Stonetalon Mountains|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Kaya Flathoof inside the tent to restart the quest.\nYou may have to wait for her to respawn|FAIL|
-C Grimtotem Brutes|QID|6629|QO|2|N|Finish killing them before you leave the area.|US|
-T Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|N|To Makaba Flathoof at the border.|
-T Protect Kaya|QID|6523|M|35.19,27.79|N|To Makaba Flathoof.|
-A Kaya's Alive|QID|6401|M|35.19,27.79|N|From Makaba Flathoof.|PRE|6523|
-R Malaka'jin|ACTIVE|1060|M|71.81,91.52|Z|Stonetalon Mountains|N|Follow the road towards Grimtotem Post. You'll find find the path to Malaka'jin just south of Grimtotem Post.|
-T Letter to Jin'Zil|QID|1060|M|74.54,97.94|Z|Stonetalon Mountains|N|To Witch Doctor Jin'Zil inside the cave.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up quest at this time.|
+C Grimtotem Brutes|QID|6629|M|79.81,87.74|Z|Stonetalon Mountains|QO|2|N|Finish killing them before you leave the area.|US|
+T Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|Z|The Barrens|N|To Makaba Flathoof at the border.|
+T Protect Kaya|QID|6523|M|35.19,27.79|Z|The Barrens|N|To Makaba Flathoof.|
+A Kaya's Alive|QID|6401|M|35.19,27.79|Z|The Barrens|N|From Makaba Flathoof.|PRE|6523|
+R Malaka'jin|AVAILABLE|6461|M|71.81,91.52|Z|Stonetalon Mountains|N|Follow the road towards Grimtotem Post. You'll find find the path to Malaka'jin just south of Grimtotem Post.|
 A Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|From Xen'zilla in Malaka'jin.|
 K Blood Feeders|ACTIVE|6461|M|58.18,76.03|Z|Stonetalon Mountains|QO|1;2|N|Kill Deepmoss Creepers and Venomspitters.|S|
 R Webwinder Path|ACTIVE|6461|M|59.34,75.96|Z|Stonetalon Mountains|N|Leave Malaka'jin and follow the road north.|
-A Arachnophobia|QID|6284|M|59.07,75.71|Z|Stonetalon Mountains|ELITE|N|From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]This quest is not recommended at your current level. Accept the quest on the off-chance that you find a group to do it.|
-R Sishir Canyon|ACTIVE|6461^1069^6284|M|58.18,76.03|Z|Stonetalon Mountains|N|Follow the path west up the hill.|IZ|1442|
-C Deepmoss Spider Eggs|QID|1069|M|53.48,74.52|Z|Stonetalon Mountains|L|5570 15|N|Pick up the spider eggs from around the area.\n[color=FF0000]NOTE: [/color]1-2 Deepmoss Hatchlings will spawn after opening the egg. On occassion, a Deepmoss Matriarch may also spawn after killing the Hatchlings|S|
-K Bessaleth|ACTIVE|6284|M|53.48,74.52|Z|Stonetalon Mountains|L|16192|N| Bessaleth is a lv 21 Elite mob with multiple spawn points. You'll find her in one of the alcoves along the edge.\n[color=FF0000]NOTE: [/color]It's strongly recommended to only attempt this if you're over level, or you have help to do it.\nSkip this step if you wish to move on.|T|Bessaleth|
-C Deepmoss Spider Eggs|QID|1069|M|53.48,74.52|Z|Stonetalon Mountains|L|5570 15|N|Pick up the spider eggs from around the area.|US|
+A Arachnophobia|QID|6284|M|59.07,75.71|Z|Stonetalon Mountains|N|From the Wanted Poster, located beside the road.|
+R Sishir Canyon|ACTIVE|6461^6284|M|58.18,76.03|Z|Stonetalon Mountains|N|Follow the path west up the hill.|IZ|1442|
+K Bessaleth|ACTIVE|6284|M|53.48,74.52|Z|Stonetalon Mountains|L|16192|N|Bessaleth is a lv 21 mob with multiple spawn points. You'll find her in one of the alcoves along the edge.|T|Bessaleth|
 K Blood Feeders|ACTIVE|6461|M|53.48,74.52|Z|Stonetalon Mountains|QO|1;2|N|Finish up the spiders needed.|US|
-R Sun Rock Retreat|ACTIVE|6401|M|59.34,75.87;59.67,71.22;53.04,61.58;49.58,60.99|CC|Z|Stonetalon Mountains|N|Head back to Webwinder Path and follow it north; taking the left forks (or just follow the signs).|
-t Arachnophobia|QID|6284|M|47.20,61.16|Z|Stonetalon Mountains|N|To Maggran Earthbinder.|IZ|460|
+R Sun Rock Retreat|ACTIVE|6401|M|59.3,75.8;59.6,71.2;53.0,61.5;49.5,60.9|Z|Stonetalon Mountains|CC|N|Head back to Webwinder Path and follow it north; taking the left forks (or just follow the signs).|
+T Arachnophobia|QID|6284|M|47.20,61.16|Z|Stonetalon Mountains|N|To Maggran Earthbinder.|
 T Kaya's Alive|QID|6401|M|47.46,58.38|Z|Stonetalon Mountains|N|To Tammra Windfield.|
 f Sun Rock Retreat|QID|6461|M|45.13,59.84|Z|Stonetalon Mountains|N|At Tharm.|TAXI|-Sun Rock Retreat|
-R Malaka'jin|ACTIVE|6461|M|53.18,61.66;71.55,90.59|CC|Z|Stonetalon Mountains|N|Return to Malaka'jin.|
+R Malaka'jin|ACTIVE|6461|M|53.1,61.6;71.5,90.5|Z|Stonetalon Mountains|CC|N|Return to Malaka'jin.|
 T Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|To Xen'zilla.|
 H Camp Taurajo|ACTIVE|1489^3923|N|This brings an end to this side trip. Hearth back to Camp Taurajo.|
 F Thunder Bluff|ACTIVE|1489|M|44.44,59.15|
-T Hamuul Runetotem|QID|1489|M|78.57,28.57|Z|Thunder Bluff|N|To Arch Druid Hamuul Runetotem on Elder Rise.|
-A Nara Wildmane|QID|1490|M|78.57,28.57|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem.|PRE|1489|
-T Nara Wildmane|QID|1490|M|75.65,31.63|Z|Thunder Bluff|N|To Nara Wildmane.|
-A Leaders of the Fang |QID|914|M|75.65,31.63|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Nara Wildmane.\n[color=FF0000]NOTE: [/color]Skip if you wish.|PRE|1490| ; --- breaks auto-accept
-N Wailing Caverns|ACTIVE|914|N|Having all of the quests for Wailing Cavern, now is a good time to look for a group for this instance.\nAs this guide is dungeon-free, we won't be completing those quests in this guide. Feel free to rejoin this guide when you are done.|
 
-F Orgrimmar|ACTIVE|3923|N|[color=FF0000]NOTE: [/color]No matter what class/race you are, you'll want to be in Orgrimmar at this point.|
-R Enter Orgrimmar|ACTIVE|3923|M|45.52,12.07|CC|Z|Durotar|N|Enter Orgrimmar by the south entrance.|IZ|-1454|
-R Valley of Honor|QID|3923|M|65.54,40.00|Z|Orgrimmar|
-T Rilli Greasygob|QID|3923|M|76.51,24.43|Z|Orgrimmar|N|Look for Rilli Greasygob inside Nogg's Machine Shop.|
-A Samophlange Manual|QID|3924|M|76.51,24.43|Z|Orgrimmar|N|From Rilli Greasygob.|PRE|3923|
-R Southfury River|ACTIVE|3924|N|Leave Orgrimmar through the west gate.|M|11.45,67.06|Z|Orgrimmar|IZ|1454|
-C Samophlange Manual Pages|ACTIVE|3924|L|11148 5|QO|1|N|Make your way to Boulder Lode Mine. Kill Venture Co. Enforcers and Overseers to collect the pages.|S|
-C Miner's Fortune|QID|896|L|5097|N|The Cat's Eye Emerald drops from one of the Venture Co. Enforcers or Overseers.|S|
-R Boulder Lode Mine|ACTIVE|3924|M|63.66,4.43;62.74,4.75|CC|QO|1|N|Make your way along the river until the path widens. At this point, there is a short cut up the side of the hill into Boulder Lode Mine.|
-K Boss Copperplug|ACTIVE|3924|M|59.99,4.13|L|11147|QO|1|N|At the back of the cave, you'll find Boss Copperplug. Kill him for the Manual Cover.|
-C Samophlange Manual Pages|QID|3924|L|11148 5|QO|1|N|Keep killing Enforcers and Overseers until you have 5 pages.|US|
-C Samophlange Manual|QID|3924|L|11149|N|Combine the cover and the pages together to make the manual.|U|11148|NC|
-C Miner's Fortune|QID|896|L|5097|N|Continue killing the Venture Co. Enforcers or Overseers until the Cat's Eye Emerald drops.|US|
-R The Mor'shan Rampart|ACTIVE|6543|M|62.22,7.44;48.73,7.57|CC|N|Go around or go over. Either way, make your way to Mor'shan Rampart.|
-T The Warsong Reports|QID|6543|M|48.12,5.42|N|To Kadrak.|
-H Camp Taurajo|QID|3261|N|If your hearth isn't up, run back to the Crossroads and fly there.|
-T Jorn Skyseer|QID|3261|M|44.86,59.14|N|To Jorn Skyseer.|
-A Ishamuhale|QID|882|M|44.86,59.14|N|From Jorn Skyseer.|PRE|3261|
 A Tribes at War|QID|878|M|44.56,59.24|N|From Mangletooth.|
 
 C Consumed by Hatred|QID|899|L|5085 60|N|Kill Bristlebacks to collect Bristleback Quilboar tusks.|S|
