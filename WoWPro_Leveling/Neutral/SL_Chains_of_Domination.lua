@@ -154,14 +154,14 @@ C Good News, Everyone!|QID|63902|M|62.77,25.00|Z|1961;Korthia|QO|2|CHAT|N|Speak 
 T Good News, Everyone!|QID|63902|M|62.77,25.00|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
 
 ; The Last Sigil
-A Vault of Secrets|QID|63703|M|62.93,24.84|Z|1961;Korthia|N|From Tal-Galan.|REN|44|
+A Vault of Secrets|QID|63703|M|62.73,24.78|Z|1961;Korthia|N|From Tal-Galan.|REN|44|
 C Vault of Secrets|QID|63703|M|58.09,29.78|Z|1961;Korthia|QO|1|NC|N|Tal-Galan met near Scholar's Den.|
 T Vault of Secrets|QID|63703|M|57.44,30.02|Z|1961;Korthia|N|To Tal-Galan.|
 A Vengeance for Korthia|QID|63704|PRE|63703|M|57.44,30.02|Z|1961;Korthia|N|From Tal-Galan.|
 A The Knowledge Keepers|QID|63705|PRE|63703|M|57.44,30.02|Z|1961;Korthia|N|From Tal-Galan.|
 A Let the Anima Flow|QID|63706|PRE|63703|M|57.23,29.95|Z|1961;Korthia|N|From Bonesmith Heirmir.|
 C Vengeance for Korthia|QID|63704|M|60.25,37.55|Z|1961;Korthia|N|Kill any Mawsworn you find in the area.|S|
-C The Knowledge Keepers|QID|63705|M|48.41,67.50|Z|2006|NC|N|Click on the cages to resuce Record Keepers.|S|
+C The Knowledge Keepers|QID|63705|M|48.41,67.50|Z|1961;Korthia|NC|N|Click on the cages to resuce Record Keepers.|S|
 C Let the Anima Flow|QID|63706|M|61.37,34.88|Z|2006|N|Click the Anima conduit and defeat 3 waves of enemies until it's repaired.|
 C The Knowledge Keepers|QID|63705|M|48.41,67.50|Z|2006|NC|N|Click on the cages to resuce Record Keepers.|US|
 C Vengeance for Korthia|QID|63704|M|60.25,37.55|Z|1961;Korthia|N|Kill any Mawsworn you find in the area.|US|
@@ -172,6 +172,9 @@ A Secrets of the Vault|QID|63709|PRE|63704&63705&63706|M|57.45,30.02|Z|1961;Kort
 C Secrets of the Vault|QID|63709|M|57.45,30.02|Z|1961;Korthia|CHAT|N|Speak with Tal-Galan.|
 T Secrets of the Vault|QID|63709|M|57.45,30.02|Z|1961;Korthia|N|To Tal-Galan.|
 A The Anima Trail|QID|63710|PRE|63709|M|57.45,30.02|Z|1961;Korthia|N|From Tal-Galan.|
+T The Anima Trail|QID|63710|M|34.91,35.13|Z|1961;Korthia|N|To Tal-Galan.|
+A Lost Records|QID|63712|M|34.91,35.13|Z|1961;Korthia|N|From Tal-Galan.|
+A Bone Tools|QID|63711|M|34.89,35.47|Z|1961;Korthia|N|From Bonesmith Heirmir.|
 C Lost Records|QID|63712|M|PLAYER|Z|1961;Korthia|QO|1|NC|N|Matrix beacon activated.|U|185921|
 C Bone Tools|QID|63711|M|39.54,40.78|Z|1961;Korthia|N|Kill creatures along the way and loot their bones.|S|
 C Lost Records|QID|63712|M|38.49,40.80|Z|1961;Korthia|QO|2|NC|N|Follow the signal, it will lead you to the Cracked records, revealing them and allowing yout to click and collect them.|
@@ -183,24 +186,24 @@ C Hooking Over|QID|63713|M|19.09,39.49|Z|1961;Korthia|N|Grapple over to the anim
 T Hooking Over|QID|63713|M|34.87,35.49|Z|1961;Korthia|N|To Bonesmith Heirmir.|
 A To the Vault|QID|63714|PRE|63713|M|34.91,35.12|Z|1961;Korthia|N|From Tal-Galan.|
 C To the Vault|QID|63714|M|47.28,39.90|Z|1961;Korthia|QO|1|V|N|Hop onto the Flayedwing and ride to the Korthian Vault.|
-T To the Vault|QID|63714|M|49.49,64.94|Z|1961;Korthia|N|To Protector Kah-Rev.|
-A Defending the Vault|QID|63717|PRE|63714|M|49.49,64.94|Z|1961;Korthia|N|From Protector Kah-Rev.|
-A Keepers of Korthia|QID|63722|PRE|63714|M|49.49,64.94|Z|1961;Korthia|N|From Protector Kah-Rev.|
+T To the Vault|QID|63714|M|49.03,64.50|Z|1961;Korthia|N|To Protector Kah-Rev.|
+A Defending the Vault|QID|63717|PRE|63714|M|49.03,64.50|Z|1961;Korthia|N|From Protector Kah-Rev.|
+A Keepers of Korthia|QID|63722|PRE|63714|M|49.03,64.50|Z|1961;Korthia|N|From Protector Kah-Rev.|
 C Defending the Vault|QID|63717|M|45.22,76.62|Z|1961;Korthia|N|Kill Mawsworn in the area and click in Injured Defenders.|S|
 C Keepers of Korthia|QID|63722|M|56.73,71.77|Z|1961;Korthia|QO|3|NC|N|Click on Tal-Xuhl.|
-C Keepers of Korthia|QID|63722|M|43.04,67.76|Z|1961;Korthia|QO|1|NC|N|Click on Tal-Yor.|
-C Keepers of Korthia|QID|63722|M|45.79,81.28|Z|1961;Korthia|QO|2|NC|N|Click on Tal-Rahl.|
+C Keepers of Korthia|QID|63722|M|43.90,67.58|Z|1961;Korthia|QO|1|NC|N|Click on Tal-Yor.|
+C Keepers of Korthia|QID|63722|M|44.44,76.66|Z|1961;Korthia|QO|2|NC|N|Click on Tal-Rahl.|
 C Defending the Vault|QID|63717|M|45.22,76.62|Z|1961;Korthia|N|Kill Mawsworn in the area and click in Injured Defenders.|US|
 T Defending the Vault|QID|63717|M|50.27,74.13|Z|1961;Korthia|N|To Secutor Mevix.|
 T Keepers of Korthia|QID|63722|M|50.27,74.13|Z|1961;Korthia|N|To Secutor Mevix.|
 A Into the Vault|QID|63725|PRE|63717&63722|M|50.29,75.95|Z|1961;Korthia|N|From Tal-Galan.|
 C Into the Vault|QID|63725|M|50.29,75.95|Z|1961;Korthia|QO|1|CHAT|N|Speak with Tal-Galan to open the entrance.|
 C Into the Vault|QID|63725|M|50.38,77.58|Z|1961;Korthia|QO|2|NC|N|Step into the Vault.|
-C Into the Vault|QID|63725|M|53.31,26.97|Z|1961;Korthia|QO|3|N|Be prepared to fight, after you defeat the enemies, click on the Primus's sigil to claim it.|
-P Keeper's Respite|ACTIVE|63725|M|53.83,27.66|Z|1961;Korthia|N|Click on the teleport pad in the center of the vault to return to Keeper's Respite.|
-T Into the Vault|QID|63725|M|63.04,25.72|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
-A Untangling the Sigil|QID|63726|PRE|63725|M|63.03,25.74|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|
-C Untangling the Sigil|QID|63726|M|63.03,25.74|Z|1961;Korthia|QO|1|CHAT|N|Bolvar Fordragon spoken to.|
+C Into the Vault|QID|63725|M|38.23,31.05|Z|2008;Korthia|QO|3|N|Be prepared to fight, after you defeat the enemies, click on the Primus's sigil to claim it.|
+P Keeper's Respite|ACTIVE|63725|M|47.28,43.10|Z|2008;Korthia|N|Click on the teleport pad in the center of the vault to return to Keeper's Respite.|
+T Into the Vault|QID|63725|M|62.76,25.00|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
+A Untangling the Sigil|QID|63726|PRE|63725|M|62.76,25.00|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|
+C Untangling the Sigil|QID|63726|M|62.76,25.00|Z|1961;Korthia|QO|1|CHAT|N|Bolvar Fordragon spoken to.|
 F Ve'nari's Refuge|ACTIVE|63726|M|64.97,23.67|Z|1961;Korthia|N|Head to the Animaflow Teleporter and take a flight to Ve'nari's Refuge.|
 P Torghast, Tower of the Damned|ACTIVE|63726|M|48.16,39.49|Z|The Maw|N|Take the portal to Torghast, Tower of the Damned.|
 P The Runecarver's Oubliette|ACTIVE|63726|M|15.97,60.72|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|
@@ -212,7 +215,7 @@ P Torghast, Tower of the Damned|ACTIVE|63727|M|50.24,80.11|Z|The Runecarver's Ou
 P Ve'nari's Refuge|ACTIVE|63727|M|10.43,47.09|Z|Torghast - Entrance!Instance|N|Take the portal to Ve'nari's Refuge.|
 F Keeper's Respite|ACTIVE|63727|M|47.29,43.67|Z|The Maw|N|Head to the flightmaster and take a flight to Keeper's Respite.|
 C The Primus Returns|QID|63727|M|62.99,25.34|Z|1961;Korthia|NC|N|Return to Keeper's Respite.|
-T The Primus Returns|QID|63727|M|62.99,25.34|Z|1961;Korthia|N|To The Primus.|
+T The Primus Returns|QID|63727|M|62.81,26.46|Z|1961;Korthia|N|To The Primus. Enjoy flying in Shadowlands.|
 
 ; An Army of Bone and Steel
 A The Chains of Command|QID|63612|PRE|63727|M|62.99,25.40|Z|1961;Korthia|N|From The Primus.|REN|47|
