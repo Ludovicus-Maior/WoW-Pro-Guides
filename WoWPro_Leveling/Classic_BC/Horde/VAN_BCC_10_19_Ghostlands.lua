@@ -291,18 +291,18 @@ T Return to Silvermoon|QID|9691|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord
 A The Path of the Adept|QID|9692|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor. This starts the Paladin class quest for the Blood-Tempered Ranseur, a special Polearm.\n[color=FF0000]NOTE: [/color]You're not expected to do this quest chain now. But, it's better to accept the quest now, in case you run the required dungeons.\nThis quest is easier to solo if you wait until at least lv 26.|PRE|9691|R|BloodElf|C|Paladin|
 ; ---
 ; --- Priest level 20 Undead class quest
-P Undercity|AVAILABLE|5646|M|49.5,14.8|Z|Silvermoon City|N|[Coords]Use the Orb of Translocation located at the very back of Sunfury Spire.|R|Undead|C|Priest|
+P Undercity|AVAILABLE|5646|49.49,14.80|Z|Silvermoon City|N|Use the Orb of Translocation located at the very back of Sunfury Spire.|R|Undead|C|Priest|
 b Durotar|AVAILABLE|5646|M|60.71,58.78|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|R|Undead|C|Priest|
 R Orgrimmar|AVAILABLE|5646|M|45.52,12.07|Z|Durotar|R|Undead|C|Priest|
-f Orgrimmar|AVAILABLE|5646|M|45.13,63.90Z|Orgrimmar|N|Get the flight path from Doras.|R|Undead|C|Priest|
-R Valley of Spirits|AVAILABLE|5646|ACTIVE|-5644|R|Undead|C|Priest|
-A Devouring Plague|QID|5646|ACTIVE|-5644|M|35.6,87.6|N|[Coords]From Ur'kyo.\n[color=FF0000]NOTE: [/color]An alternate version of this quest is available from Miles Welsh in Thunder Bluff. But, I don't see the point in getting it.|LEAD|5679|R|Undead|C|Priest|
+f Orgrimmar|AVAILABLE|5646|M|45.13,63.90|Z|Orgrimmar|N|Get the flight path from Doras.|R|Undead|C|Priest|
+R Valley of Spirits|AVAILABLE|5646|ACTIVE|-5644|M|38.26,73.61|Z|Orgrimmar|R|Undead|C|Priest|
+A Devouring Plague|QID|5646|ACTIVE|-5644|M|35.60,87.80|Z|Orgrimmar|N|From Ur'kyo.\n[color=FF0000]NOTE: [/color]An alternate version of this quest is available from Miles Welsh in Thunder Bluff. But, I don't see the point in getting it.|LEAD|5679|R|Undead|C|Priest|
 b Tirisfal Glades|ACTIVE|5644^5646|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Undead|C|Priest|
 R Undercity|ACTIVE|5644^5646|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|R|Undead|C|Priest|
 T Devouring Plague|QID|5644^5646|M|49.2,18.2|Z|1458;Undercity|N|To Aelthalyste in the War Quarter.|R|Undead|C|Priest|
 A Devouring Plague|QID|5679|M|49.2,18.2|Z|1458;Undercity|N|From Aelthalyste.|R|Undead|C|Priest|
 T Devouring Plague|QID|5679|M|49.2,18.2|Z|1458;Undercity|N|To Aelthalyste.|R|Undead|C|Priest|
-P Silvermoon City|ACTIVE|9877|M|65.9,36.8;66.2,0.9;54.9,11.2|CC|Z|1458;Undercity|N|Take the elevator up and use the Orb of Translocation.|R|Undead|C|Priest|
+P Silvermoon City|ACTIVE|9877|M|65.9,36.8;66.2,0.9;54.85,11.23|Z|1458;Undercity|CC|N|Take the elevator up and use the Orb of Translocation.|R|Undead|C|Priest|
 ; ---
 ; --- Rogue Thistle Tea Recipe (Poison) Level 20 Class Quest
 N NOT EASY!!!|AVAILABLE|2458|ACTIVE|876|N|Your Poison quest is not going to be easy. Some have suggested waiting until you've reached level 22. At that point, you'll have Distract and Vanish to help reduce the number of 'Run away!' moments.\nI agree and this guide will wait until you're level 22. You can do it now if you so choose.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Undead|C|Rogue|
@@ -355,20 +355,20 @@ f Crossroads|ACTIVE|1509|M|51.50,30.34|Z|The Barrens|N|From Devrak.|TAXI|-Crossr
 T News of Dogran|QID|1509|M|51.93,30.32|Z|The Barrens|N|To Gazrog in The Crossroads.|C|Warlock|
 A News of Dogran|QID|1510|M|51.93,30.32|Z|The Barrens|N|From Gazrog.|PRE|1509|C|Warlock|
 F Sun Rock Retreat|ACTIVE|1510|M|51.50,30.34|Z|The Barrens|C|Warlock|TAXI|Sun Rock Retreat|
-R Stonetalon Mountains border|ACTIVE|1510|M|35.66,27.48|CC|N|Leave the Crossroads through the west gate and follow the road until you come to the Stonetalon Mountains border.|C|Warlock|TAXI|-Sun Rock Retreat|
+R Stonetalon Mountains border|ACTIVE|1510|M|35.66,27.48|Z|The Barrens|CC|N|Leave the Crossroads through the west gate and follow the road until you come to the Stonetalon Mountains border.|C|Warlock|TAXI|-Sun Rock Retreat|
 R Malaka'jin|ACTIVE|1510|M|71.81,91.52|Z|Stonetalon Mountains|N|Leave Sun Rock Retreat and follow the path south to Malaka'jin.|C|Warlock|
 T News of Dogran|QID|1510|M|73.2,95|Z|Stonetalon Mountains|N|To Ken'zigla in Malaka'jin.|C|Warlock|
 A Ken'zigla's Draught|QID|1511|M|73.2,95|Z|Stonetalon Mountains|N|From Ken'zigla.|PRE|1510|C|Warlock|
 R The Crossroads|ACTIVE|1511|M|50.81,29.08|Z|The Barrens|N|Return to The Crossroads.|C|Warlock|
 F Camp Taurajo|ACTIVE|1511|M|51.50,30.34|Z|The Barrens|C|Warlock|TAXI|Camp Taurajo|
-R Camp Taurajo|ACTIVE|1511|M|47.31,57.64|N|Run back to Camp Taurajo.|C|Warlock|TAXI|-Camp Taurajo|
+R Camp Taurajo|ACTIVE|1511|M|47.31,57.64|Z|The Barrens|N|Run back to Camp Taurajo.|C|Warlock|TAXI|-Camp Taurajo|
 f Camp Taurajo|ACTIVE|1511|M|51.50,30.34|Z|The Barrens|C|Warlock|TAXI|-Camp Taurajo|
-T Ken'zigla's Draught|QID|1511|M|44.62,59.27|N|To Grunt Logmar in Camp Taurajo.|C|Warlock|
-A Dogran's Captivity|QID|1515|M|44.62,59.27|N|From Grunt Logmar.|PRE|1511|C|Warlock|
-T Dogran's Captivity|QID|1515|M|43.31,47.89|N|To Grunt Dogran. Exit through the west gate and head north. You'll find him in the 3rd Bristleback village on the west side.|C|Warlock|
-A Love's Gift|QID|1512|M|43.31,47.89|N|From Grunt Dogran.|PRE|1515|C|Warlock|
-R Camp Taurajo|ACTIVE|1512|M|47.31,57.64|N|Run back to Camp Taurajo. It's closer than running to the Crossroads.|C|Warlock|
-F Orgrimmar|ACTIVE|1512|M|44.44,59.15|C|Warlock|
+T Ken'zigla's Draught|QID|1511|M|44.62,59.27|Z|The Barrens|N|To Grunt Logmar in Camp Taurajo.|C|Warlock|
+A Dogran's Captivity|QID|1515|M|44.62,59.27|Z|The Barrens|N|From Grunt Logmar.|PRE|1511|C|Warlock|
+T Dogran's Captivity|QID|1515|M|43.31,47.89|Z|The Barrens|N|To Grunt Dogran. Exit through the west gate and head north. You'll find him in the 3rd Bristleback village on the west side.|C|Warlock|
+A Love's Gift|QID|1512|M|43.31,47.89|Z|The Barrens|N|From Grunt Dogran.|PRE|1515|C|Warlock|
+R Camp Taurajo|ACTIVE|1512|M|47.31,57.64|Z|The Barrens|N|Run back to Camp Taurajo. It's closer than running to the Crossroads.|C|Warlock|
+F Orgrimmar|ACTIVE|1512|M|44.44,59.15|Z|The Barrens|C|Warlock|
 T Love's Gift|QID|1512|M|48.24,45.28|Z|Orgrimmar|N|To Gan'rul Bloodeye in Cleft of Shadow.|C|Warlock|
 A The Binding|QID|1513|M|48.24,45.28|Z|Orgrimmar|N|From Gan'rul Bloodeye.|PRE|1512|C|Warlock|
 C The Binding|QID|1513|M|49.47,50.02|Z|Orgrimmar|QO|1|N|Go to the Summoning Circle in Neeru's tent. While standing in the Summoning Circle, use Dogran's Pendant to summon a Succubus and then kill it.|U|6626|C|Warlock|
@@ -380,7 +380,7 @@ P Silvermoon City|ACTIVE|9877|M|54.85,11.23|Z|1458;Undercity|N|Use the Orb of Tr
 F Tranquillien|ACTIVE|9877|M|54.37,50.73|Z|Eversong Woods|
 T A Restorative Draught|QID|9877|M|47.59,34.79|N|To Apothecary Renzithen.|
 A Captives at Deatholme|QID|9164|M|47.59,34.79|N|From Apothecary Renzithen.|
-R Deatholme|ACTIVE|9164^9170|M|44.72,70.41;36.40,69.79|CC|N|Follow the road south out of Tranquillien to the bottom and cut across to the Deatholme entrance.|
+R Deatholme|ACTIVE|9164^9170|M|44.7,70.4;36.40,69.79|CC|N|Follow the road south out of Tranquillien to the bottom and cut across to the Deatholme entrance.|
 K Jurion the Deceiver|ACTIVE|9170|M|32.10,74.50|QO|3|N|After killing the 2 guards at the entrance, go down the stairs into the crypt and kill Jurion the Deceiver.\n[color=FF0000]NOTE: [/color]He will attack you when you enter the room.|
 C Apothecary Enith|QID|9164|M|32.15,73.95|QO|1|N|Talk to Apothecary Enith.|CHAT|
 K Mirdoran the Fallen|ACTIVE|9170|M|37.26,79.36|QO|1|N|Kill Mirdoran the Fallen.\n[color=FF0000]NOTE: [/color]Avoid going too far into the building as he has 3 Wailers guarding him.|
@@ -454,7 +454,7 @@ R Camp Aparaje|ACTIVE|6548|M|80.05,90.00|Z|Stonetalon Mountains|N|Continue to fo
 K Avenge My Village|ACTIVE|6548|M|82.02,88.85|Z|Stonetalon Mountains|QO|1;2|N|You'll find the Grimtotem Ruffians and Mercenaries amongst the camps spread throughout the area.|
 T Avenge My Village|QID|6548|M|35.19,27.79|Z|The Barrens|N|Head back To Makaba Flathoof at the Stonetalon border.|
 A Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|Z|The Barrens|N|From Makaba Flathoof.|PRE|6548|
-R Stonetalon Mountains|QID|6548|M|34.12,27.60|N|Follow the road further west into Stonetalon Mountains.|
+R Stonetalon Mountains|QID|6548|M|34.12,27.60|Z|The Barrens|N|Follow the road further west into Stonetalon Mountains.|
 C Grimtotem Brutes|QID|6629|M|71.95,86.47|Z|Stonetalon Mountains|QO|2|N|Kill them as you go.|S|
 R Grimtotem Post|QID|6629|M|71.44,89.45;71.95,86.47|Z|Stonetalon Mountains|CC|N|Follow the road into Grimtotem Post.|
 K Kill Grundig Darkcloud|QID|6629|M|73.70,86.33|Z|Stonetalon Mountains|QO|1|N|You'll find Grundig Darkcloud standing in the doorway of the tent.\n[color=FF0000]NOTE: [/color]If he's not there, clear the area while waiting for him to respawn.|T|Grundig Darkcloud|
@@ -480,7 +480,7 @@ f Sun Rock Retreat|QID|6461|M|45.13,59.84|Z|Stonetalon Mountains|N|At Tharm.|TAX
 R Malaka'jin|ACTIVE|6461|M|53.1,61.6;71.5,90.5|Z|Stonetalon Mountains|CC|N|Return to Malaka'jin.|
 T Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|To Xen'zilla.|
 H Orgrimmar|AVAILABLE|899|
-= Level 22|AVAILABLE|899|Visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|22|
+= Level 22|AVAILABLE|899|N|Visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|22|
 F Crossroads|AVAILABLE|899|M|45.13,63.90|Z|Orgrimmar|
 A Consumed by Hatred|QID|899|M|51.95,31.58|Z|The Barrens|N|From Mankrik (near the south gate).|
 F Camp Taurajo|AVAILABLE|878|M|51.50,30.33|Z|The Barrens|
@@ -571,7 +571,7 @@ H Camp Taurajo|AVAILABLE|-2480|ACTIVE|-2480|R|Orc,Troll,Undead|C|Rogue|IZ|1424|
 
 ; --- Ashenvale
 F Splintertree Post|ACTIVE|6382^235^742|M|45.13,63.90|Z|Orgrimmar|IZ|1454|
-F Splintertree Post|ACTIVE|6382^235^742|M|44.44,59.15|IZ|378;Camp Taurajo|
+F Splintertree Post|ACTIVE|6382^235^742|M|44.44,59.15|Z|The Barrens|IZ|378;Camp Taurajo|
 T The Ashenvale Hunt|QID|6382^235^742|M|73.77,61.46|Z|Ashenvale|N|To Senani Thunderheart.|
 A The Ashenvale Hunt|QID|6383|M|73.77,61.46|Z|Ashenvale|N|From Senani Thunderheart.|
 N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quests.\nAs the lowest level of the 3 quests does not grey until level 32 AND the mobs are WAY above our current level, we will not being doing it at this time.\n[color=FF0000]NOTE: [/color]This quest doesn't show in your log. It just unlocks the 3 quests (which don't show either).\nCheck this step off to continue.|IZ|1440|
