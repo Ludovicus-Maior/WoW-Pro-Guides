@@ -1640,6 +1640,11 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         -- Time to turn this on!
                         skip = false
                         WoWPro.why[guideIndex] = "NextStep(): noskip, FAIL and quest failed!"
+                        for i=1, WoWPro.stepcount do
+                            if WoWProCharDB.Guide[GID].completion[i] and (WoWPro.QID[i] == QID) then
+                                WoWPro.UnSkipStep(i)
+                            end
+                        end
                     else
                         skip = true
                         WoWPro.why[guideIndex] = "NextStep(): skip, FAIL and quest not failed."
