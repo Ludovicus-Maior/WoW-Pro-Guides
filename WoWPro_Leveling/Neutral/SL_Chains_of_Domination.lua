@@ -6,6 +6,8 @@ WoWPro:GuideSort(guide, 8)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideSteps(guide, function()
 return [[
+;Looted Quests
+A Researching Korthian Relics|QID|63731|M|63.45,24.68|Z|1961;Korthia|U|187177|N|Auto Accepted upon looting "Researching Korthian Relics".|
 ; Battle of Ardenweald
 A The First Move|QID|63576|M|PLAYER|Z|Ring of Fates@Oribos|N|AutoAccepted.|
 C The First Move|QID|63576|M|41.30,68.02|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with Polemarch Adrestes in Oribos.|
@@ -52,44 +54,44 @@ C Link to the Maw|QID|63661|M|46.90,41.70|Z|The Maw|CHAT|N|Speak with Ve'nari.|
 T Link to the Maw|QID|63661|M|46.90,41.70|Z|The Maw|N|To Ve'nari.|
 A Mysteries of the Maw|QID|63662|PRE|63661|M|46.90,41.70|Z|The Maw|N|From Ve'nari.|
 C Mysteries of the Maw|QID|63662|M|47.19,43.34|Z|The Maw|QO|1|NC|N|Click on the Animaflow teleporter.|
-C Mysteries of the Maw|QID|63662|M|58.35,14.36|Z|Korthia|QO|2|NC|N|Stay close to Ve'nari and followe her to Korthia.|
-T Mysteries of the Maw|QID|63662|M|58.36,14.35|Z|Korthia|N|To Ve'nari.|
-A Korthia, the City of Secrets|QID|63663|PRE|63662|M|58.36,14.35|Z|Korthia|N|From Ve'nari.|
-C Korthia, the City of Secrets|QID|63663|M|58.36,14.35|Z|Korthia|QO|1|CHAT|N|Speak with Ve'nari.|
-C Korthia, the City of Secrets|QID|63663|M|58.62,20.78|Z|Korthia|QO|2|NC|N|Group of attendants investigated.|
-C Korthia, the City of Secrets|QID|63663|M|58.66,20.63|Z|Korthia|QO|3|CHAT|N|Speak to Tal-Galan.|
-T Korthia, the City of Secrets|QID|63663|M|63.89,23.80|Z|Korthia|N|To Tal-Galan.|
-A Who is the Maw Walker?|QID|63994|PRE|63663|M|63.89,23.80|Z|Korthia|N|From Tal-Galan.|
-C Who is the Maw Walker?|QID|63994|M|63.89,23.77|Z|Korthia|CHAT|N|Speak with Tal-Galan.|
-T Who is the Maw Walker?|QID|63994|M|63.89,23.77|Z|Korthia|N|To Tal-Galan.|
-A Opening to Oribos|QID|63665|PRE|63994|M|63.89,23.77|Z|Korthia|N|From Tal-Galan.|
-C Opening to Oribos|QID|63665|M|64.47,24.04|Z|Korthia|QO|1|NC|N|Click on the Waystone to activate it.|
-P Opening to Oribos|QID|63665|ACTIVE|63665|M|64.47,24.04|Z|Korthia|QO|2|NC|N|Click on the Waystone once more to travel to Oribos.|
+C Mysteries of the Maw|QID|63662|M|58.35,14.36|Z|1961;Korthia|QO|2|NC|N|Stay close to Ve'nari and followe her to Korthia.|
+T Mysteries of the Maw|QID|63662|M|58.36,14.35|Z|1961;Korthia|N|To Ve'nari.|
+A Korthia, the City of Secrets|QID|63663|PRE|63662|M|58.36,14.35|Z|1961;Korthia|N|From Ve'nari.|
+C Korthia, the City of Secrets|QID|63663|M|58.36,14.35|Z|1961;Korthia|QO|1|CHAT|N|Speak with Ve'nari.|
+C Korthia, the City of Secrets|QID|63663|M|58.62,20.78|Z|1961;Korthia|QO|2|NC|N|Group of attendants investigated.|
+C Korthia, the City of Secrets|QID|63663|M|58.66,20.63|Z|1961;Korthia|QO|3|CHAT|N|Speak to Tal-Galan.|
+T Korthia, the City of Secrets|QID|63663|M|63.89,23.80|Z|1961;Korthia|N|To Tal-Galan.|
+A Who is the Maw Walker?|QID|63994|PRE|63663|M|63.89,23.80|Z|1961;Korthia|N|From Tal-Galan.|
+C Who is the Maw Walker?|QID|63994|M|63.89,23.77|Z|1961;Korthia|CHAT|N|Speak with Tal-Galan.|
+T Who is the Maw Walker?|QID|63994|M|63.89,23.77|Z|1961;Korthia|N|To Tal-Galan.|
+A Opening to Oribos|QID|63665|PRE|63994|M|63.89,23.77|Z|1961;Korthia|N|From Tal-Galan.|
+C Opening to Oribos|QID|63665|M|64.47,24.04|Z|1961;Korthia|QO|1|NC|N|Click on the Waystone to activate it.|
+P Opening to Oribos|QID|63665|ACTIVE|63665|M|64.47,24.04|Z|1961;Korthia|QO|2|NC|N|Click on the Waystone once more to travel to Oribos.|
 T Opening to Oribos|QID|63665|M|39.75,36.88|Z|Ring of Transference@Oribos|N|To Highlord Bolvar Fordragon.|
 A Charge of the Covenants|QID|64007|PRE|63665|M|39.75,36.88|Z|Ring of Transference@Oribos|N|From Highlord Bolvar Fordragon.|
 C Charge of the Covenants|QID|64007|M|39.75,36.88|Z|Ring of Transference@Oribos|QO|1|NC|N|Use the "[color=40C7EB]Rallying[/color]" button to get the army into the maw.|EAB|
 P Korthia|QID|64007|ACTIVE|64007|M|30.79,23.31|Z|Ring of Transference@Oribos|NC|N|Run through the newly opened portal to Korthia in the maw.|
-T Charge of the Covenants|QID|64007|M|62.75,25.00|Z|Korthia|N|To Highlord Bolvar Fordragon.|
-A Surveying Secrets|QID|64555|M|62.76,25.00|Z|Korthia|N|From Highlord Bolvar Fordragon.|PRE|64007|
-C Surveying Secrets|QID|64555|M|61.91,25.43|Z|Korthia|QO|1|CHAT|N|Speak with Nadjia.|
-C Surveying Secrets|QID|64555|M|54.63,30.55|Z|Korthia|QO|2|CHAT|N|Speak with Featherlight.|
-C Surveying Secrets|QID|64555|M|52.26,39.24|Z|Korthia|QO|3|N|Speak with Surveyer Mnemis and defend it.|
-C Surveying Secrets|QID|64555|M|60.04,31.38|Z|Korthia|QO|4|CHAT|N|Speak with Vyn.|
-C Surveying Secrets|QID|64555|M|60.34,32.77|Z|Korthia|QO|5|N|Kill Mawsworn in the area until you get the Movement Report.|
-T Surveying Secrets|QID|64555|M|62.77,25.00|Z|Korthia|N|To Highlord Bolvar Fordragon.|
-A In Need of Assistance|QID|64556|PRE|64555|M|62.77,25.00|Z|Korthia|N|From Highlord Bolvar Fordragon.|
-C In Need of Assistance|QID|64556|PRE|64555|Z|Korthia|N|Complete the required dalies to proceed.|
-T In Need of Assistance|QID|64556|M|62.76,24.99|Z|Korthia|N|To Highlord Bolvar Fordragon.|
+T Charge of the Covenants|QID|64007|M|62.75,25.00|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
+A Surveying Secrets|QID|64555|M|62.76,25.00|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|PRE|64007|
+C Surveying Secrets|QID|64555|M|61.91,25.43|Z|1961;Korthia|QO|1|CHAT|N|Speak with Nadjia.|
+C Surveying Secrets|QID|64555|M|54.63,30.55|Z|1961;Korthia|QO|2|CHAT|N|Speak with Featherlight.|
+C Surveying Secrets|QID|64555|M|52.26,39.24|Z|1961;Korthia|QO|3|N|Speak with Surveyer Mnemis and defend it.|
+C Surveying Secrets|QID|64555|M|60.04,31.38|Z|1961;Korthia|QO|4|CHAT|N|Speak with Vyn.|
+C Surveying Secrets|QID|64555|M|60.34,32.77|Z|1961;Korthia|QO|5|N|Kill Mawsworn in the area until you get the Movement Report.|
+T Surveying Secrets|QID|64555|M|62.77,25.00|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
+A In Need of Assistance|QID|64556|PRE|64555|M|62.77,25.00|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|
+C In Need of Assistance|QID|64556|PRE|64555|Z|1961;Korthia|N|Complete the required dalies to proceed.|
+T In Need of Assistance|QID|64556|M|62.76,24.99|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
 
 ;Focusing the Eye
-A A Show of Gratitude|QID|63848|PRE|64007|M|62.71,24.79|Z|Korthia|N|From Tal-Galan.|
-T A Show of Gratitude|QID|63848|M|65.99,22.96|Z|Korthia|N|To Ve'nari.|
-A Ease of Passage|QID|63855|PRE|63848|M|65.99,22.96|Z|Korthia|N|From Ve'nari.|
-C Ease of Passage|QID|63855|M|65.90,22.93|Z|Korthia|QO|1|CHAT|N|Speak with Ve'nari.|
-C Ease of Passage|QID|63855|M|64.97,23.67|Z|Korthia|QO|2|NC|N|Walk behind the waygate.|
-C Ease of Passage|QID|63855|M|64.97,23.67|Z|Korthia|QO|3|NC|N|Click Animaflow teleporter to imprint your signature.|
-C Ease of Passage|QID|63855|M|66.00,23.14|Z|Korthia|QO|4|NC|N|Click on Ve'nari's bag on the ground.|
-F Ve'nari's Refuge|QID|63855|ACTIVE|63855|M|64.97,23.67|Z|Korthia|QO|5|N|Click on the Animaflow teleporter and fly back to Ve'nari's Refuge.|
+A A Show of Gratitude|QID|63848|PRE|64007|M|62.71,24.79|Z|1961;Korthia|N|From Tal-Galan.|
+T A Show of Gratitude|QID|63848|M|65.99,22.96|Z|1961;Korthia|N|To Ve'nari.|
+A Ease of Passage|QID|63855|PRE|63848|M|65.99,22.96|Z|1961;Korthia|N|From Ve'nari.|
+C Ease of Passage|QID|63855|M|65.90,22.93|Z|1961;Korthia|QO|1|CHAT|N|Speak with Ve'nari.|
+C Ease of Passage|QID|63855|M|64.97,23.67|Z|1961;Korthia|QO|2|NC|N|Walk behind the waygate.|
+C Ease of Passage|QID|63855|M|64.97,23.67|Z|1961;Korthia|QO|3|NC|N|Click Animaflow teleporter to imprint your signature.|
+C Ease of Passage|QID|63855|M|66.00,23.14|Z|1961;Korthia|QO|4|NC|N|Click on Ve'nari's bag on the ground.|
+F Ve'nari's Refuge|QID|63855|ACTIVE|63855|M|64.97,23.67|Z|1961;Korthia|QO|5|N|Click on the Animaflow teleporter and fly back to Ve'nari's Refuge.|
 T Ease of Passage|QID|63855|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|
 A Grab Bag|QID|63895|PRE|63855|M|46.91,41.70|Z|The Maw|N|From Ve'nari.|
 C Grab Bag|QID|63895|M|46.89,41.54|Z|The Maw|QO|1|NC|N|Click on the Transferral Augmentor on the ground next to you.|
@@ -148,59 +150,61 @@ C Focusing the Eye|QID|63901|M|42.36,21.15|Z|The Maw|QO|2|N|When a champion thro
 T Focusing the Eye|QID|63901|M|37.05,19.31|Z|The Maw|N|To Danica.|
 A Good News, Everyone!|QID|63902|PRE|63901|M|37.05,19.31|Z|The Maw|N|From Danica.|
 C Good News, Everyone!|QID|63902|M|37.05,19.31|Z|The Maw|QO|1|CHAT|N|Speak with Danica.|
-C Good News, Everyone!|QID|63902|M|62.77,25.00|Z|Korthia|QO|2|CHAT|N|Speak with Bolvar.|
-T Good News, Everyone!|QID|63902|M|62.77,25.00|Z|Korthia|N|To Highlord Bolvar Fordragon.|
+C Good News, Everyone!|QID|63902|M|62.77,25.00|Z|1961;Korthia|QO|2|CHAT|N|Speak with Bolvar.|
+T Good News, Everyone!|QID|63902|M|62.77,25.00|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
 
 ; The Last Sigil
-N Renown Level 44|AVAILABLE|63703|N|You must reach Renown level 44 to continue to the next chapter.|REN|-44|
-A Vault of Secrets|QID|63703|M|62.93,24.84|Z|Korthia|N|From Tal-Galan.|REN|44|
-C Vault of Secrets|QID|63703|M|58.09,29.78|Z|Korthia|QO|1|NC|N|Tal-Galan met near Scholar's Den.|
-T Vault of Secrets|QID|63703|M|57.44,30.02|Z|Korthia|N|To Tal-Galan.|
-A Vengeance for Korthia|QID|63704|PRE|63703|M|57.44,30.02|Z|Korthia|N|From Tal-Galan.|
-A The Knowledge Keepers|QID|63705|PRE|63703|M|57.44,30.02|Z|Korthia|N|From Tal-Galan.|
-A Let the Anima Flow|QID|63706|PRE|63703|M|57.23,29.95|Z|Korthia|N|From Bonesmith Heirmir.|
-C Vengeance for Korthia|QID|63704|M|60.25,37.55|Z|Korthia|N|Kill any Mawsworn you find in the area.|S|
-C The Knowledge Keepers|QID|63705|M|48.41,67.50|Z|2006|NC|N|Click on the cages to resuce Record Keepers.|S|
+A Vault of Secrets|QID|63703|M|62.73,24.78|Z|1961;Korthia|N|From Tal-Galan.|REN|44|
+C Vault of Secrets|QID|63703|M|58.09,29.78|Z|1961;Korthia|QO|1|NC|N|Tal-Galan met near Scholar's Den.|
+T Vault of Secrets|QID|63703|M|57.44,30.02|Z|1961;Korthia|N|To Tal-Galan.|
+A Vengeance for Korthia|QID|63704|PRE|63703|M|57.44,30.02|Z|1961;Korthia|N|From Tal-Galan.|
+A The Knowledge Keepers|QID|63705|PRE|63703|M|57.44,30.02|Z|1961;Korthia|N|From Tal-Galan.|
+A Let the Anima Flow|QID|63706|PRE|63703|M|57.23,29.95|Z|1961;Korthia|N|From Bonesmith Heirmir.|
+C Vengeance for Korthia|QID|63704|M|60.25,37.55|Z|1961;Korthia|N|Kill any Mawsworn you find in the area.|S|
+C The Knowledge Keepers|QID|63705|M|48.41,67.50|Z|1961;Korthia|NC|N|Click on the cages to resuce Record Keepers.|S|
 C Let the Anima Flow|QID|63706|M|61.37,34.88|Z|2006|N|Click the Anima conduit and defeat 3 waves of enemies until it's repaired.|
 C The Knowledge Keepers|QID|63705|M|48.41,67.50|Z|2006|NC|N|Click on the cages to resuce Record Keepers.|US|
-C Vengeance for Korthia|QID|63704|M|60.25,37.55|Z|Korthia|N|Kill any Mawsworn you find in the area.|US|
-T Let the Anima Flow|QID|63706|M|57.23,29.94|Z|Korthia|N|To Bonesmith Heirmir.|
-T Vengeance for Korthia|QID|63704|M|57.45,30.02|Z|Korthia|N|To Tal-Galan.|
-T The Knowledge Keepers|QID|63705|M|57.45,30.02|Z|Korthia|N|To Tal-Galan.|
-A Secrets of the Vault|QID|63709|PRE|63704&63705&63706|M|57.45,30.02|Z|Korthia|N|From Tal-Galan.|
-C Secrets of the Vault|QID|63709|M|57.45,30.02|Z|Korthia|CHAT|N|Speak with Tal-Galan.|
-T Secrets of the Vault|QID|63709|M|57.45,30.02|Z|Korthia|N|To Tal-Galan.|
-A The Anima Trail|QID|63710|PRE|63709|M|57.45,30.02|Z|Korthia|N|From Tal-Galan.|
-C Lost Records|QID|63712|M|PLAYER|Z|Korthia|QO|1|NC|N|Matrix beacon activated.|U|185921|
-C Bone Tools|QID|63711|M|39.54,40.78|Z|Korthia|N|Kill creatures along the way and loot their bones.|S|
-C Lost Records|QID|63712|M|38.49,40.80|Z|Korthia|QO|2|NC|N|Follow the signal, it will lead you to the Cracked records, revealing them and allowing yout to click and collect them.|
-C Bone Tools|QID|63711|M|39.54,40.78|Z|Korthia|N|Kill creatures along the way and loot their bones.|US|
-T Lost Records|QID|63712|M|34.91,35.14|Z|Korthia|N|To Tal-Galan.|
-T Bone Tools|QID|63711|M|34.88,35.48|Z|Korthia|N|To Bonesmith Heirmir.|
-A Hooking Over|QID|63713|PRE|63711&63712|M|34.90,35.50|Z|Korthia|N|From Bonesmith Heirmir.|
-C Hooking Over|QID|63713|M|19.09,39.49|Z|Korthia|N|Grapple over to the anima conducter with Heirmir, speak with him and then defend him while he repairs it.|
-T Hooking Over|QID|63713|M|34.87,35.49|Z|Korthia|N|To Bonesmith Heirmir.|
-A To the Vault|QID|63714|PRE|63713|M|34.91,35.12|Z|Korthia|N|From Tal-Galan.|
-C To the Vault|QID|63714|M|47.28,39.90|Z|Korthia|QO|1|V|N|Hop onto the Flayedwing and ride to the Korthian Vault.|
-T To the Vault|QID|63714|M|49.49,64.94|Z|Korthia|N|To Protector Kah-Rev.|
-A Defending the Vault|QID|63717|PRE|63714|M|49.49,64.94|Z|Korthia|N|From Protector Kah-Rev.|
-A Keepers of Korthia|QID|63722|PRE|63714|M|49.49,64.94|Z|Korthia|N|From Protector Kah-Rev.|
-C Defending the Vault|QID|63717|M|45.22,76.62|Z|Korthia|N|Kill Mawsworn in the area and click in Injured Defenders.|S|
-C Keepers of Korthia|QID|63722|M|56.73,71.77|Z|Korthia|QO|3|NC|N|Click on Tal-Xuhl.|
-C Keepers of Korthia|QID|63722|M|43.04,67.76|Z|Korthia|QO|1|NC|N|Click on Tal-Yor.|
-C Keepers of Korthia|QID|63722|M|45.79,81.28|Z|Korthia|QO|2|NC|N|Click on Tal-Rahl.|
-C Defending the Vault|QID|63717|M|45.22,76.62|Z|Korthia|N|Kill Mawsworn in the area and click in Injured Defenders.|US|
-T Defending the Vault|QID|63717|M|50.27,74.13|Z|Korthia|N|To Secutor Mevix.|
-T Keepers of Korthia|QID|63722|M|50.27,74.13|Z|Korthia|N|To Secutor Mevix.|
-A Into the Vault|QID|63725|PRE|63717&63722|M|50.29,75.95|Z|Korthia|N|From Tal-Galan.|
-C Into the Vault|QID|63725|M|50.29,75.95|Z|Korthia|QO|1|CHAT|N|Speak with Tal-Galan to open the entrance.|
-C Into the Vault|QID|63725|M|50.38,77.58|Z|Korthia|QO|2|NC|N|Step into the Vault.|
-C Into the Vault|QID|63725|M|53.31,26.97|Z|Korthia|QO|3|N|Be prepared to fight, after you defeat the enemies, click on the Primus's sigil to claim it.|
-P Keeper's Respite|QID|63725|M|53.83,27.66|Z|Korthia|N|Click on the teleport pad in the center of the vault to return to Keeper's Respite.|
-T Into the Vault|QID|63725|M|63.04,25.72|Z|Korthia|N|To Highlord Bolvar Fordragon.|
-A Untangling the Sigil|QID|63726|PRE|63725|M|63.03,25.74|Z|Korthia|N|From Highlord Bolvar Fordragon.|
-C Untangling the Sigil|QID|63726|M|63.03,25.74|Z|Korthia|QO|1|CHAT|N|Bolvar Fordragon spoken to.|
-F Ve'nari's Refuge|ACTIVE|63726|M|64.97,23.67|Z|Korthia|N|Head to the Animaflow Teleporter and take a flight to Ve'nari's Refuge.|
+C Vengeance for Korthia|QID|63704|M|60.25,37.55|Z|1961;Korthia|N|Kill any Mawsworn you find in the area.|US|
+T Let the Anima Flow|QID|63706|M|57.23,29.94|Z|1961;Korthia|N|To Bonesmith Heirmir.|
+T Vengeance for Korthia|QID|63704|M|57.45,30.02|Z|1961;Korthia|N|To Tal-Galan.|
+T The Knowledge Keepers|QID|63705|M|57.45,30.02|Z|1961;Korthia|N|To Tal-Galan.|
+A Secrets of the Vault|QID|63709|PRE|63704&63705&63706|M|57.45,30.02|Z|1961;Korthia|N|From Tal-Galan.|
+C Secrets of the Vault|QID|63709|M|57.45,30.02|Z|1961;Korthia|CHAT|N|Speak with Tal-Galan.|
+T Secrets of the Vault|QID|63709|M|57.45,30.02|Z|1961;Korthia|N|To Tal-Galan.|
+A The Anima Trail|QID|63710|PRE|63709|M|57.45,30.02|Z|1961;Korthia|N|From Tal-Galan.|
+T The Anima Trail|QID|63710|M|34.91,35.13|Z|1961;Korthia|N|To Tal-Galan.|
+A Lost Records|QID|63712|M|34.91,35.13|Z|1961;Korthia|N|From Tal-Galan.|
+A Bone Tools|QID|63711|M|34.89,35.47|Z|1961;Korthia|N|From Bonesmith Heirmir.|
+C Lost Records|QID|63712|M|PLAYER|Z|1961;Korthia|QO|1|NC|N|Matrix beacon activated.|U|185921|
+C Bone Tools|QID|63711|M|39.54,40.78|Z|1961;Korthia|N|Kill creatures along the way and loot their bones.|S|
+C Lost Records|QID|63712|M|38.49,40.80|Z|1961;Korthia|QO|2|NC|N|Follow the signal, it will lead you to the Cracked records, revealing them and allowing yout to click and collect them.|
+C Bone Tools|QID|63711|M|39.54,40.78|Z|1961;Korthia|N|Kill creatures along the way and loot their bones.|US|
+T Lost Records|QID|63712|M|34.91,35.14|Z|1961;Korthia|N|To Tal-Galan.|
+T Bone Tools|QID|63711|M|34.88,35.48|Z|1961;Korthia|N|To Bonesmith Heirmir.|
+A Hooking Over|QID|63713|PRE|63711&63712|M|34.90,35.50|Z|1961;Korthia|N|From Bonesmith Heirmir.|
+C Hooking Over|QID|63713|M|19.09,39.49|Z|1961;Korthia|N|Grapple over to the anima conducter with Heirmir, speak with him and then defend him while he repairs it.|
+T Hooking Over|QID|63713|M|34.87,35.49|Z|1961;Korthia|N|To Bonesmith Heirmir.|
+A To the Vault|QID|63714|PRE|63713|M|34.91,35.12|Z|1961;Korthia|N|From Tal-Galan.|
+C To the Vault|QID|63714|M|47.28,39.90|Z|1961;Korthia|QO|1|V|N|Hop onto the Flayedwing and ride to the Korthian Vault.|
+T To the Vault|QID|63714|M|49.03,64.50|Z|1961;Korthia|N|To Protector Kah-Rev.|
+A Defending the Vault|QID|63717|PRE|63714|M|49.03,64.50|Z|1961;Korthia|N|From Protector Kah-Rev.|
+A Keepers of Korthia|QID|63722|PRE|63714|M|49.03,64.50|Z|1961;Korthia|N|From Protector Kah-Rev.|
+C Defending the Vault|QID|63717|M|45.22,76.62|Z|1961;Korthia|N|Kill Mawsworn in the area and click in Injured Defenders.|S|
+C Keepers of Korthia|QID|63722|M|56.73,71.77|Z|1961;Korthia|QO|3|NC|N|Click on Tal-Xuhl.|
+C Keepers of Korthia|QID|63722|M|43.90,67.58|Z|1961;Korthia|QO|1|NC|N|Click on Tal-Yor.|
+C Keepers of Korthia|QID|63722|M|44.44,76.66|Z|1961;Korthia|QO|2|NC|N|Click on Tal-Rahl.|
+C Defending the Vault|QID|63717|M|45.22,76.62|Z|1961;Korthia|N|Kill Mawsworn in the area and click in Injured Defenders.|US|
+T Defending the Vault|QID|63717|M|50.27,74.13|Z|1961;Korthia|N|To Secutor Mevix.|
+T Keepers of Korthia|QID|63722|M|50.27,74.13|Z|1961;Korthia|N|To Secutor Mevix.|
+A Into the Vault|QID|63725|PRE|63717&63722|M|50.29,75.95|Z|1961;Korthia|N|From Tal-Galan.|
+C Into the Vault|QID|63725|M|50.29,75.95|Z|1961;Korthia|QO|1|CHAT|N|Speak with Tal-Galan to open the entrance.|
+C Into the Vault|QID|63725|M|50.38,77.58|Z|1961;Korthia|QO|2|NC|N|Step into the Vault.|
+C Into the Vault|QID|63725|M|38.23,31.05|Z|2008;Korthia|QO|3|N|Be prepared to fight, after you defeat the enemies, click on the Primus's sigil to claim it.|
+P Keeper's Respite|ACTIVE|63725|M|47.28,43.10|Z|2008;Korthia|N|Click on the teleport pad in the center of the vault to return to Keeper's Respite.|
+T Into the Vault|QID|63725|M|62.76,25.00|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
+A Untangling the Sigil|QID|63726|PRE|63725|M|62.76,25.00|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|
+C Untangling the Sigil|QID|63726|M|62.76,25.00|Z|1961;Korthia|QO|1|CHAT|N|Bolvar Fordragon spoken to.|
+F Ve'nari's Refuge|ACTIVE|63726|M|64.97,23.67|Z|1961;Korthia|N|Head to the Animaflow Teleporter and take a flight to Ve'nari's Refuge.|
 P Torghast, Tower of the Damned|ACTIVE|63726|M|48.16,39.49|Z|The Maw|N|Take the portal to Torghast, Tower of the Damned.|
 P The Runecarver's Oubliette|ACTIVE|63726|M|15.97,60.72|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|
 C Untangling the Sigil|QID|63726|M|50.78,54.62|Z|The Runecarver's Oubliette!Instance|QO|2|CHAT|N|Speak with the Runecarver.|
@@ -210,12 +214,11 @@ A The Primus Returns|QID|63727|PRE|63726|M|50.97,54.85|Z|The Runecarver's Oublie
 P Torghast, Tower of the Damned|ACTIVE|63727|M|50.24,80.11|Z|The Runecarver's Oubliette!Instance|N|Take the portal to Torghast, Tower of the Damned.|
 P Ve'nari's Refuge|ACTIVE|63727|M|10.43,47.09|Z|Torghast - Entrance!Instance|N|Take the portal to Ve'nari's Refuge.|
 F Keeper's Respite|ACTIVE|63727|M|47.29,43.67|Z|The Maw|N|Head to the flightmaster and take a flight to Keeper's Respite.|
-C The Primus Returns|QID|63727|M|62.99,25.34|Z|Korthia|NC|N|Return to Keeper's Respite.|
-T The Primus Returns|QID|63727|M|62.99,25.34|Z|Korthia|N|To The Primus.|
+C The Primus Returns|QID|63727|M|62.99,25.34|Z|1961;Korthia|NC|N|Return to Keeper's Respite.|
+T The Primus Returns|QID|63727|M|62.81,26.46|Z|1961;Korthia|N|To The Primus. Enjoy flying in Shadowlands.|
 
 ; An Army of Bone and Steel
-N Renown Level 47|AVAILABLE|63612|N|You must reach Renown level 47 to continue to the next chapter.|REN|-47|PRE|63727|
-A The Chains of Command|QID|63612|PRE|63727|M|62.99,25.40|Z|Korthia|N|From The Primus.|REN|47|
+A The Chains of Command|QID|63612|PRE|63727|M|62.99,25.40|Z|1961;Korthia|N|From The Primus.|REN|47|
 T The Chains of Command|QID|63612|M|62.88,65.99|Z|The Maw|N|To Baroness Draka.|
 A What We Wish to Be|QID|63613|PRE|63612|M|62.88,65.99|Z|The Maw|N|From Baroness Draka.|
 A Clip Their Wings|QID|63615|PRE|63612|M|PLAYER|Z|The Maw|N|From Baroness Draka.|
@@ -249,15 +252,14 @@ C A Traitor's Due|QID|63620|M|61.33,41.23|Z|The Maw|N|Kill Baron Vyraz.|
 T A Traitor's Due|QID|63620|M|61.97,41.54|Z|The Maw|N|To Baroness Draka.|
 A Victory in Our Name|QID|63622|PRE|63620|M|61.97,41.54|Z|The Maw|N|From Baroness Draka.|
 P Keeper's Respite|ACTIVE|63622|M|61.56,40.74|Z|The Maw|N|Take the portal to Keeper's Respite.|
-C Victory in Our Name|QID|63622|M|60.28,27.34|Z|Korthia|CHAT|N|Speak with Draka.|
-T Victory in Our Name|QID|63622|M|62.99,25.38|Z|Korthia|N|To The Primus.|
+C Victory in Our Name|QID|63622|M|60.28,27.34|Z|1961;Korthia|CHAT|N|Speak with Draka.|
+T Victory in Our Name|QID|63622|M|62.99,25.38|Z|1961;Korthia|N|To The Primus.|
 
 ; The Unseen Guests
-N Renown Level 50|AVAILABLE|63659|N|You must reach Renown level 50 to continue to the next chapter.|REN|-50|PRE|63622|
-A Dreadlords!|QID|63659|M|65.02,22.91|Z|Korthia|N|From Baroness Vashj.|REN|50|
-T Dreadlords!|QID|63659|M|62.97,25.41|Z|Korthia|N|To The Primus.|
-A Dread Tidings|QID|63644|PRE|63659|M|62.97,25.41|Z|Korthia|N|From The Primus.|
-P Ring of Transference|ACTIVE|63644|M|64.47,24.05|Z|Korthia|N|Take the portal to Ring of Transference.|
+A Dreadlords!|QID|63659|M|65.02,22.91|Z|1961;Korthia|N|From Baroness Vashj.|REN|50|
+T Dreadlords!|QID|63659|M|62.97,25.41|Z|1961;Korthia|N|To The Primus.|
+A Dread Tidings|QID|63644|PRE|63659|M|62.97,25.41|Z|1961;Korthia|N|From The Primus.|
+P Ring of Transference|ACTIVE|63644|M|64.47,24.05|Z|1961;Korthia|N|Take the portal to Ring of Transference.|
 F Sanctuary of the Mad|ACTIVE|63644|M|60.90,68.77|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Sanctuary of the Mad.|
 C Dread Tidings|QID|63644|M|29.48,41.72|Z|Revendreth|QO|1|CHAT|N|Speak withBaroness Vashj.|
 P Dawnkeep|ACTIVE|63644|M|26.05,43.86|Z|Revendreth|N|Take the portal to Dawnkeep.|
@@ -296,9 +298,8 @@ C The Nathrezim|QID|63654|M|22.64,45.95|Z|Revendreth|N|Kill Gorgannon and Diatho
 T The Nathrezim|QID|63654|M|23.07,45.86|Z|Revendreth|N|To Prince Renathal.|
 
 ; The Power of Night
-N Renown Level 52|AVAILABLE|63672|N|You must reach Renown level 52 to continue to the next chapter.|REN|-52|PRE|63654|
-A A Cry From the Heart|QID|63672|PRE|63654|M|64.40,24.27|Z|Korthia|N|From Urgent Message from Ardenweald.|REN|52|
-P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|Korthia|IZ|1961|N|Take the portal to Ring of Transference.|
+A A Cry From the Heart|QID|63672|PRE|63654|M|64.40,24.27|Z|1961;Korthia|N|From Urgent Message from Ardenweald.|REN|52|
+P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|1961;Korthia|IZ|1961|N|Take the portal to Ring of Transference.|
 F Heart of the Forest|ACTIVE|63672|M|60.96,68.81|Z|Ring of Transference@Oribos|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|
 T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
 A Hunting Amid Houses|QID|63728|PRE|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|
@@ -380,9 +381,8 @@ C Winter's Sigil|QID|63683|M|45.03,65.62|Z|Ardenweald!The Shadowlands|QO|2|CHAT|
 T Winter's Sigil|QID|63683|M|45.03,65.62|Z|Ardenweald!The Shadowlands|N|To Ysera.|
 
 ; A New Path
-N Renown Level 56|AVAILABLE|63579|N|You must reach Renown level 56 to continue to the next chapter.|REN|-56|PRE|63683|
-A A Paladin's Soul|QID|63579|M|62.57,25.66|Z|Korthia|N|From Thenios.|REN|56|
-F Ve'nari's Refuge|ACTIVE|63579|M|64.97,23.66|Z|Korthia|N|Head to the flightmaster and take a flight to Ve'nari's Refuge.|
+A A Paladin's Soul|QID|63579|M|62.57,25.66|Z|1961;Korthia|N|From Thenios.|REN|56|
+F Ve'nari's Refuge|ACTIVE|63579|M|64.97,23.66|Z|1961;Korthia|N|Head to the flightmaster and take a flight to Ve'nari's Refuge.|
 P Torghast, Tower of the Damned|ACTIVE|63579|M|48.18,39.44|Z|The Maw|N|Take the portal to Torghast, Tower of the Damned.|
 C A Paladin's Soul|QID|63579|M|37.87,46.99|Z|Torghast - Entrance!Instance|QO|1|CHAT|N|Interact with the Wayfinder in Torghast.|
 C A Paladin's Soul|QID|63579|M|34.20,30.95|Z|1969;Torghast!Instance1969|QO|2|N|On the 3rd floor, kill the Guardian of Souls.|
@@ -447,73 +447,108 @@ T The New Path|QID|63592|N|To Polemarch Adrestes.| ; Z is nil, this may change i
 
 ; What Lies Ahead
 
-; Next Section
-A A Matter of Urgency|QID|63755|PRE|63902|M|64.26,22.88|Z|Korthia|N|From Pathscribe Roh-Vess. He patrols the area. (May not be available yet.)|
-T A Matter of Urgency|QID|63755|M|56.25,38.74|Z|Korthia|N|To Caretaker Kah-Than. In a small cave.|
-A The Last Place You Look|QID|63758|PRE|63755|M|56.25,38.74|Z|Korthia|N|From Caretaker Kah-Than.|
-A Rescued from Torment|QID|63756|PRE|63755|M|56.25,38.74|Z|Korthia|N|From Caretaker Kah-Than.|
-L Korthian Artifact|QID|63757|PRE|63755|M|38.64,87.33|L|185915|N|Kill mawsworn in the area until you get the artifact.|
-A Looting the Looters|QID|63757|PRE|63755|M|55.12,52.67|Z|Korthia|U|185915|N|Auto Accepted uponce collecting the Artifact.|
-C Rescued from Torment|QID|63756|M|50.69,52.13|Z|Korthia|NC|N|Click on the Attendants to rescue them.|S|
-C Looting the Looters|QID|63757|M|47.65,51.03|Z|Korthia|N|Kill Interrogators and Wardens and loot their bodys for artifacts.|S|
-C The Last Place You Look|QID|63758|M|41.17,59.79|Z|Korthia|QO|1|NC|N|Down the tunnel, click on the journal and the incense.|
-C The Last Place You Look|QID|63758|M|42.89,58.63|Z|Korthia|QO|2|N|Kill Kizesh at the tunnel entrance.|
-C Looting the Looters|QID|63757|M|47.65,51.03|Z|Korthia|N|Kill Interrogators and Wardens and loot their bodys for artifacts.|US|
-C Rescued from Torment|QID|63756|M|50.69,52.13|Z|Korthia|NC|N|Click on the Attendants to rescue them.|US|
-T Rescued from Torment|QID|63756|M|PLAYER|Z|Korthia|N|To Caretaker Kah-Than.|
-T The Last Place You Look|QID|63758|M|PLAYER|Z|Korthia|N|To Caretaker Kah-Than.|
-T Looting the Looters|QID|63757|M|PLAYER|Z|Korthia|N|To Caretaker Kah-Than.|
-A Redirect the Search|QID|63759|PRE|63756&63758&63757|M|PLAYER|Z|Korthia|N|From Caretaker Kah-Than.|
-T Redirect the Search|QID|63759|M|56.87,22.32|Z|Korthia|N|To Caretaker Kah-Than.|
-A Echoes of Fate|QID|63760|PRE|63759|M|56.87,22.32|Z|Korthia|N|From Caretaker Kah-Than.|
-A Revenge Delayed|QID|63761|PRE|63759|M|55.54,22.21|Z|Korthia|N|From Protector Rih-Mat.|
-C Revenge Delayed|QID|63761|M|53.65,20.94|Z|Korthia|N|Kill Devourers around the area.|S|
-C Echoes of Fate|QID|63760|M|56.53,20.30|Z|Korthia|QO|1|NC|U|185828|N|Click on the offering near the Anima shrine.|
-C Echoes of Fate|QID|63760|M|53.78,21.39|Z|Korthia|QO|2|NC|U|185828|N|Click on the offering near the Meditation shrine.|
-C Echoes of Fate|QID|63760|M|53.41,14.77|Z|Korthia|QO|3|NC|U|185828|N|Click on the offering near the Offering shrine.|
-C Revenge Delayed|QID|63761|M|53.65,20.94|Z|Korthia|N|Kill Devourers around the area.|US|
-T Revenge Delayed|QID|63761|M|PLAYER|Z|Korthia|N|Return at QuestUI.|
-T Echoes of Fate|QID|63760|M|56.62,17.50|Z|Korthia|N|To Caretaker Kah-Than.|
-A Under the Illusion|QID|63762|PRE|63761&63760|M|56.62,17.50|Z|Korthia|N|From Caretaker Kah-Than.|
-C Under the Illusion|QID|63762|M|56.62,17.50|Z|Korthia|QO|1|NC|U|185847|N|Click the Fatescribe's Implement to dispel the Illusion.|
-C Under the Illusion|QID|63762|M|56.57,17.53|Z|Korthia|QO|2|N|Kill Azodius.|
-T Under the Illusion|QID|63762|M|PLAYER|Z|Korthia|N|Return at QuestUI.|
+; Side Story - The Archivists' Codex
+T Researching Korthian Relics|QID|63731|M|59.05,58.14|Z|1961;Korthia|N|To Scholar Roh-Suir.|
+A Interrupt the Interrogations|QID|63732|M|59.07,58.15|Z|1961;Korthia|N|From Scholar Roh-Suir.|PRE|63731|
+C Interrupt the Interrogations|QID|63732|M|60.79,52.79|Z|1961;Korthia|QO|1|N|Kill Interrogator Tzench and loot his Key.|
+C Interrupt the Interrogations|QID|63732|M|60.90,52.57|Z|1961;Korthia|QO|2|NC|N|Click the cage to free the Archivist.|
+T Interrupt the Interrogations|QID|63732|M|59.06,58.14|Z|1961;Korthia|N|To Scholar Roh-Suir.|
+A Carving Out a Path|QID|63733|PRE|63732|M|59.11,58.11|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
+A The Sundered Staff|QID|63734|PRE|63732|M|59.11,58.11|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
+C Carving Out a Path|QID|63733|M|45.30,50.29|Z|1961;Korthia|N|Kill Mawsworn in the area.|S|
+C The Sundered Staff|QID|63734|M|49.68,56.30|Z|1961;Korthia|QO|2|N|Kill Painbringer Volklana and loot the Lodestaff Shaft.|
+C The Sundered Staff|QID|63734|M|45.30,50.29|Z|1961;Korthia|QO|3|N|Kill Kavelox the Corruptor and loot the Lodestaff Handle.|
+C The Sundered Staff|QID|63734|M|45.03,58.37|Z|1961;Korthia|QO|1|N|Kill Tezzerak and loot the Lodestaff Head.|
+C Carving Out a Path|QID|63733|M|45.30,50.29|Z|1961;Korthia|N|Kill Mawsworn in the area.|US|
+T Carving Out a Path|QID|63733|M|39.42,51.31|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
+T The Sundered Staff|QID|63734|M|39.42,51.31|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
+A An Infusion of Anima|QID|63736|PRE|63733&63734|M|39.42,51.31|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
+A Consulting the Experts|QID|63740|PRE|63733&63734|M|39.42,51.31|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
+C An Infusion of Anima|QID|63736|M|32.62,46.14|Z|1961;Korthia|QO|1|NC|U|186157|N|Charge the Lodestaff clicking anima fissures of killing anima filled creatures and clicking the staff on their corpse.|S|
+C Consulting the Experts|QID|63740|M|35.93,51.25|Z|1961;Korthia|QO|1|NC|N|Archivist Roh-Gema visited.|
+C Consulting the Experts|QID|63740|M|31.76,57.35|Z|1961;Korthia|QO|4|NC|N|Archivist Roh-Mah visited.|
+C Consulting the Experts|QID|63740|M|27.80,48.33|Z|1961;Korthia|QO|3|NC|N|Archivist Roh-Kiel visited.|
+C Consulting the Experts|QID|63740|M|33.12,43.12|Z|1961;Korthia|QO|2|NC|N|Archivist Roh-Luda visited.|
+C An Infusion of Anima|QID|63736|M|32.62,46.14|Z|1961;Korthia|QO|1|NC|U|186157|N|Charge the Lodestaff clicking anima fissures of killing anima filled creatures and clicking the staff on their corpse.|US|
+T An Infusion of Anima|QID|63736|M|39.43,51.29|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
+T Consulting the Experts|QID|63740|M|39.43,51.29|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
+A Hope Ascending|QID|63739|PRE|63736&63740|M|39.43,51.29|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
+T Hope Ascending|QID|63739|M|35.81,32.18|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
+A Finding One's True Purpose|QID|63737|PRE|63739|M|35.81,32.18|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
+C Finding One's True Purpose|QID|63737|M|35.91,32.18|Z|1961;Korthia|QO|1|NC|N|Stand in the swirling mist and click "[color=40C7EB]Attune the Lodestaff[/color]" to begin the Ritual.|EAB|
+C Finding One's True Purpose|QID|63737|M|35.91,32.18|Z|1961;Korthia|QO|2|NC|N|Wait for the ritual to complete.|
+T Finding One's True Purpose|QID|63737|M|36.07,32.33|Z|1961;Korthia|N|To Scholar Roh-Suir.|
+A Establishing the Archive|QID|63738|PRE|63737|M|36.07,32.33|Z|1961;Korthia|N|From Scholar Roh-Suir.|
+T Establishing the Archive|QID|63738|M|61.57,21.79|Z|1961;Korthia|N|To Scholar Roh-Suir.|
+A Beginning the Collection|QID|63861|M|62.78,22.61|Z|1961;Korthia|N|From Archivist Roh-Suir.|PRE|63738|
+A Picking Up the Pieces|QID|64289|M|62.78,22.61|Z|1961;Korthia|N|From Archivist Roh-Suir.|PRE|63738|
+C Picking Up the Pieces|QID|64289|Z|1961;Korthia|N|Collect from treasure and killing rares in Korthia.|S|
+R Caverns of Contemplation|ACTIVE|63861|M|60.13,31.91|Z|Korthia|N|Make your way to the Caverns of Contemplation.|
+C Beginning the Collection|QID|63861|M|31.76,39.97|Z|2006|QO|1|NC|N|Back part of the Cavern, loot Codex of Memories on the ground.|
+T Beginning the Collection|QID|63861|M|62.78,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
+A What Must Be Found|QID|64506|PRE|63861|M|62.78,22.60|Z|1961;Korthia|N|From Archivist Roh-Suir.|
+C What Must Be Found|QID|64506|M|62.44,22.68|Z|1961;Korthia|NC|N|Click on the Missing relic outlines around the room.|
+T What Must Be Found|QID|64506|M|62.77,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
+C Picking Up the Pieces|QID|64289|Z|1961;Korthia|N|Collect from treasure and killing rares in Korthia.|US|
+T Picking Up the Pieces|QID|64289|M|62.77,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
+A Collecting Research|QID|64290|PRE|64289|M|62.77,22.60|Z|1961;Korthia|N|From Archivist Roh-Suir.|
+T Collecting Research|QID|64290|M|62.77,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
+A Empowering Equipment|QID|64438|PRE|64290|M|62.77,22.60|Z|1961;Korthia|N|From Archivist Roh-Suir.|
+C Empowering Equipment|QID|64438|M|62.62,21.90|Z|1961;Korthia|N|You can upgrade the armor you just recieved or you can hold onto this quest and skip this step until you get something you want to upgrade.\n\nThere is no follow-up to this quest, just worth 100 rep.|
+t Empowering Equipment|QID|64438|M|62.77,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
+
+; Side Story - They could be Anyone
+A A Unified Effort|QID|64106|M|62.76,24.99|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|
+C A Unified Effort|QID|64106|Z|1961;Korthia|QO|1|N|Complete any Assult. This is a requirement for the next storyline.|
+T A Unified Effort|QID|64106|M|62.76,25.00|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
+A A Matter of Urgency|QID|63755|M|64.26,22.88|Z|1961;Korthia|N|From Pathscribe Roh-Vess. He patrols the area.|PRE|64106|
+T A Matter of Urgency|QID|63755|M|56.25,38.74|Z|1961;Korthia|N|To Caretaker Kah-Than. In a small cave.|
+A The Last Place You Look|QID|63758|PRE|63755|M|56.25,38.74|Z|1961;Korthia|N|From Caretaker Kah-Than.|
+A Rescued from Torment|QID|63756|PRE|63755|M|56.25,38.74|Z|1961;Korthia|N|From Caretaker Kah-Than.|
+;L Korthian Artifact|QID|63757|PRE|63755|M|50.69,51.97|Z|1961;Korthia|L|185915|N|Kill mawsworn in the area until you get the artifact.|
+A Looting the Looters|QID|63757|PRE|63755|M|50.69,51.97|Z|1961;Korthia|N|Kill mawsworn in the area until you get the Korthian Artifact, then this quest will be Auto Accepted and item will disappear.|;L won't work since item disappears
+C Rescued from Torment|QID|63756|M|50.69,52.13|Z|1961;Korthia|NC|N|Click on the Attendants to rescue them.|S|
+C Looting the Looters|QID|63757|M|47.65,51.03|Z|1961;Korthia|N|Kill Interrogators and Wardens and loot their bodys for artifacts.|S|
+C The Last Place You Look|QID|63758|M|41.17,59.79|Z|1961;Korthia|QO|1|NC|N|Down the tunnel, click on the journal and the incense.|
+C The Last Place You Look|QID|63758|M|42.89,58.63|Z|1961;Korthia|QO|2|N|Kill Kizesh at the tunnel entrance.|
+C Looting the Looters|QID|63757|M|47.65,51.03|Z|1961;Korthia|N|Kill Interrogators and Wardens and loot their bodys for artifacts.|US|
+C Rescued from Torment|QID|63756|M|50.69,52.13|Z|1961;Korthia|NC|N|Click on the Attendants to rescue them.|US|
+T Rescued from Torment|QID|63756|M|PLAYER|Z|1961;Korthia|N|To Caretaker Kah-Than.|
+T The Last Place You Look|QID|63758|M|PLAYER|Z|1961;Korthia|N|To Caretaker Kah-Than.|
+T Looting the Looters|QID|63757|M|PLAYER|Z|1961;Korthia|N|To Caretaker Kah-Than.|
+A Redirect the Search|QID|63759|PRE|63756&63758&63757|M|PLAYER|Z|1961;Korthia|N|From Caretaker Kah-Than.|
+T Redirect the Search|QID|63759|M|56.87,22.32|Z|1961;Korthia|N|To Caretaker Kah-Than.|
+A Echoes of Fate|QID|63760|PRE|63759|M|56.87,22.32|Z|1961;Korthia|N|From Caretaker Kah-Than.|
+A Revenge Delayed|QID|63761|PRE|63759|M|55.54,22.21|Z|1961;Korthia|N|From Protector Rih-Mat.|
+C Revenge Delayed|QID|63761|M|53.65,20.94|Z|1961;Korthia|N|Kill Devourers around the area.|S|
+C Echoes of Fate|QID|63760|M|56.53,20.30|Z|1961;Korthia|QO|1|NC|U|185828|N|Click on the offering near the Anima shrine.|
+C Echoes of Fate|QID|63760|M|53.78,21.39|Z|1961;Korthia|QO|2|NC|U|185828|N|Click on the offering near the Meditation shrine.|
+C Echoes of Fate|QID|63760|M|53.41,14.77|Z|1961;Korthia|QO|3|NC|U|185828|N|Click on the offering near the Offering shrine.|
+C Revenge Delayed|QID|63761|M|53.65,20.94|Z|1961;Korthia|N|Kill Devourers around the area.|US|
+T Revenge Delayed|QID|63761|M|PLAYER|Z|1961;Korthia|N|Return at QuestUI.|
+T Echoes of Fate|QID|63760|M|56.62,17.50|Z|1961;Korthia|N|To Caretaker Kah-Than.|
+A Under the Illusion|QID|63762|PRE|63761&63760|M|56.62,17.50|Z|1961;Korthia|N|From Caretaker Kah-Than.|
+C Under the Illusion|QID|63762|M|56.62,17.50|Z|1961;Korthia|QO|1|NC|U|185847|N|Click the Fatescribe's Implement to dispel the Illusion.|
+C Under the Illusion|QID|63762|M|56.57,17.53|Z|1961;Korthia|QO|2|N|Kill Azodius.|
+T Under the Illusion|QID|63762|M|PLAYER|Z|1961;Korthia|N|Return at QuestUI.|
 L Head of Azodius|QID|63763|PRE|63761&63760|M|PLAYER|L|185740|N|Loot the head off of Azodius body.|
-A They Could Be Anyone|QID|63763|PRE|63761&63760|M|PLAYER|Z|Korthia|U|185740|N|AutoAccepted upon looting head.|
-T They Could Be Anyone|QID|63763|M|62.62,24.90|Z|Korthia|N|To Highlord Bolvar Fordragon.|
+A They Could Be Anyone|QID|63763|PRE|63761&63760|M|PLAYER|Z|1961;Korthia|U|185740|N|AutoAccepted upon looting head.|
+T They Could Be Anyone|QID|63763|M|62.62,24.90|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
 
-; Another storyline
-A Interrupt the Interrogations|QID|63732|M|59.07,58.15|Z|Korthia|N|From Scholar Roh-Suir. (May not be available yet.)|
-C Interrupt the Interrogations|QID|63732|M|60.79,52.79|Z|Korthia|QO|1|N|Kill Interrogator Tzench and loot his Key.|
-C Interrupt the Interrogations|QID|63732|M|60.90,52.57|Z|Korthia|QO|2|NC|N|Click the cage to free the Archivist.|
-T Interrupt the Interrogations|QID|63732|M|59.06,58.14|Z|Korthia|N|To Scholar Roh-Suir.|
-A Carving Out a Path|QID|63733|PRE|63732|M|59.11,58.11|Z|Korthia|N|From Archivist Roh-Dahl.|
-A The Sundered Staff|QID|63734|PRE|63732|M|59.11,58.11|Z|Korthia|N|From Archivist Roh-Dahl.|
-C Carving Out a Path|QID|63733|M|45.30,50.29|Z|Korthia|N|Kill Mawsworn in the area.|S|
-C The Sundered Staff|QID|63734|M|49.68,56.30|Z|Korthia|QO|2|N|Kill Painbringer Volklana and loot the Lodestaff Shaft.|
-C The Sundered Staff|QID|63734|M|45.30,50.29|Z|Korthia|QO|3|N|Kill Kavelox the Corruptor and loot the Lodestaff Handle.|
-C The Sundered Staff|QID|63734|M|45.03,58.37|Z|Korthia|QO|1|N|Kill Tezzerak and loot the Lodestaff Head.|
-C Carving Out a Path|QID|63733|M|45.30,50.29|Z|Korthia|N|Kill Mawsworn in the area.|US|
-T Carving Out a Path|QID|63733|M|39.42,51.31|Z|Korthia|N|To Archivist Roh-Dahl.|
-T The Sundered Staff|QID|63734|M|39.42,51.31|Z|Korthia|N|To Archivist Roh-Dahl.|
-A An Infusion of Anima|QID|63736|PRE|63733&63734|M|39.42,51.31|Z|Korthia|N|From Archivist Roh-Dahl.|
-A Consulting the Experts|QID|63740|PRE|63733&63734|M|39.42,51.31|Z|Korthia|N|From Archivist Roh-Dahl.|
-C An Infusion of Anima|QID|63736|M|32.62,46.14|Z|Korthia|QO|1|NC|U|186157|N|Charge the Lodestaff clicking anima fissures of killing anima filled creatures and clicking the staff on their corpse.|S|
-C Consulting the Experts|QID|63740|M|35.93,51.25|Z|Korthia|QO|1|NC|N|Archivist Roh-Gema visited.|
-C Consulting the Experts|QID|63740|M|31.76,57.35|Z|Korthia|QO|4|NC|N|Archivist Roh-Mah visited.|
-C Consulting the Experts|QID|63740|M|27.80,48.33|Z|Korthia|QO|3|NC|N|Archivist Roh-Kiel visited.|
-C Consulting the Experts|QID|63740|M|33.12,43.12|Z|Korthia|QO|2|NC|N|Archivist Roh-Luda visited.|
-C An Infusion of Anima|QID|63736|M|32.62,46.14|Z|Korthia|QO|1|NC|U|186157|N|Charge the Lodestaff clicking anima fissures of killing anima filled creatures and clicking the staff on their corpse.|US|
-T An Infusion of Anima|QID|63736|M|39.43,51.29|Z|Korthia|N|To Archivist Roh-Dahl.|
-T Consulting the Experts|QID|63740|M|39.43,51.29|Z|Korthia|N|To Archivist Roh-Dahl.|
-A Hope Ascending|QID|63739|PRE|63736&63740|M|39.43,51.29|Z|Korthia|N|From Archivist Roh-Dahl.|
-T Hope Ascending|QID|63739|M|35.81,32.18|Z|Korthia|N|To Archivist Roh-Dahl.|
-A Finding One's True Purpose|QID|63737|PRE|63739|M|35.81,32.18|Z|Korthia|N|From Archivist Roh-Dahl.|
-C Finding One's True Purpose|QID|63737|M|35.91,32.18|Z|Korthia|QO|1|NC|N|Stand in the swirling mist and click "[color=40C7EB]Attune the Lodestaff[/color]" to begin the Ritual.|EAB|
-C Finding One's True Purpose|QID|63737|M|35.91,32.18|Z|Korthia|QO|2|NC|N|Wait for the ritual to complete.|
-T Finding One's True Purpose|QID|63737|M|36.07,32.33|Z|Korthia|N|To Scholar Roh-Suir.|
-A Establishing the Archive|QID|63738|PRE|63737|M|36.07,32.33|Z|Korthia|N|From Scholar Roh-Suir.|
-T Establishing the Archive|QID|63738|M|61.57,21.79|Z|Korthia|N|To Scholar Roh-Suir.|
+; Torghast Box of Many Things
+A In Darkness, Found|QID|64557|M|64.64,25.54|Z|1961|N|From Xy'lonu.|
+C In Darkness, Found|QID|64557|N|Enter Torghast, if you are geared it is easy to run floor 1 and speed run to him, he will appear as a yellow question mark on your mini map.|
+T In Darkness, Found|QID|64557|N|To Ve'nish. Enter Torghast, if you are geared it is easy to run floor 1 and speed run to him, he will appear as a yellow question mark on your mini map.|
+A The Box of Many Things|QID|64210|PRE|64557|N|From Ve'nish.|
+T The Box of Many Things|QID|64210|M|50.86,54.00|Z|1912;Torghast, Tower of the Damned|N|To Runecarver. You can either exit your Torghast run and continue the questline, or complete your Torghast run and finish this afterward. It doesn't matter.|
+A Tower Knowledge|QID|64216|PRE|64210|M|50.86,54.00|Z|1912;Torghast, Tower of the Damned|N|From Runecarver.|
+T Tower Knowledge|QID|64216|M|47.47,75.37|Z|1912;Torghast, Tower of the Damned|N|To Box of Many Things outline.|
 
+; Renown Notes
+N Renown Level 44|AVAILABLE|63703|N|You must reach Renown level 44 to continue to the next chapter.|REN|-44|
+N Renown Level 47|AVAILABLE|63612|N|You must reach Renown level 47 to continue to the next chapter.|REN|-47|PRE|63727|
+N Renown Level 50|AVAILABLE|63659|N|You must reach Renown level 50 to continue to the next chapter.|REN|-50|PRE|63622|
+N Renown Level 52|AVAILABLE|63672|N|You must reach Renown level 52 to continue to the next chapter.|REN|-52|PRE|63654|
+N Renown Level 56|AVAILABLE|63579|N|You must reach Renown level 56 to continue to the next chapter.|REN|-56|PRE|63683|
 ]]
 end)

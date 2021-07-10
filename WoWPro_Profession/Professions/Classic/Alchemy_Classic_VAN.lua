@@ -56,16 +56,16 @@ M [item=118/Minor Healing Potion]|QID|171002330|P|Alchemy;171;0+65;1|ITEM|118|CR
 M [item=858/Lesser Healing Potion]|QID|171002337|P|Alchemy;171;0+110;1|ITEM|858|CRAFT|2337 65|MATS|118 1;2450 1|
 = Learn Recipe|QID|171001101|P|Alchemy;171;0+110|RECIPE|3447|N|Learn [spell=3447/Healing Potion] Recipe from Trainer.|
 M [item=929/Healing Potion]|QID|171003447|P|Alchemy;171;0+140;1|ITEM|929|CRAFT|3447 35|MATS|2453 1;2450 1;3372 1|
-= Learn [spell=3464/Expert Alchemy]|QID|171003464|M|55.0,23.8|Z|Darnassus|P|Alchemy;171;0+125|SPELL|Expert Alchemy;3464|LVL|20|T|Ainethil|N|Visit Ainethil, Artisan Alchemist Trainer in Darnassus.|FACTION|Alliance|
-= Learn [spell=3464/Expert Alchemy]|QID|171003464|M|47.6,73.0|Z|Undercity|P|Alchemy;171;0+125|SPELL|Expert Alchemy;3464|LVL|20|T|Doctor Herbert Halsey|N|Visit Doctor Herbert Halsey, Artisan Alchemist Trainer in Undercity.|FACTION|Horde|
+= Learn [spell=3464/Expert Alchemy]|QID|171003464|M|55.0,23.8|Z|1457;Darnassus|P|Alchemy;171;0+125|SPELL|Expert Alchemy;3464|LVL|20|T|Ainethil|N|Visit Ainethil, Artisan Alchemist Trainer in Darnassus.|FACTION|Alliance|
+= Learn [spell=3464/Expert Alchemy]|QID|171003464|M|47.6,73.0|Z|1458;Undercity|P|Alchemy;171;0+125|SPELL|Expert Alchemy;3464|LVL|20|T|Doctor Herbert Halsey|N|Visit Doctor Herbert Halsey, Artisan Alchemist Trainer in Undercity.|FACTION|Horde|
 = Learn Recipe|QID|171001551|P|Alchemy;171;0+125|RECIPE|3173|N|Learn [spell=3173/Lesser Mana Potion] Recipe from Artisan Trainer.|
 M [item=3385/Lesser Mana Potion]|QID|171003176|P|Alchemy;171;0+155;1|ITEM|3385|CRAFT|3173 20|MATS|785 1;3820 1;3371 1|N|Will be yellow for last 10 points, so you might need to make more.|
 = Learn Recipe|QID|171007181|P|Alchemy;171;0+155|RECIPE|7181|N|Learn [spell=7181/Greater Healing Potion] Recipe from Artisan Trainer.|
 M [item=1710/Greater Healing Potion]|QID|171007181|P|Alchemy;171;0+185;1|ITEM|1710|CRAFT|7181 35|MATS|3357 1;3356 1;3372 1|
 = Learn Recipe|QID|171001851|P|Alchemy;171;0+185|RECIPE|11449|N|Learn [spell=11449/Elixir of Agility] Recipe from Artisan Trainer.|
 M [item=8949/Elixir of Agility]|QID|171011449|P|Alchemy;171;0+210;1|ITEM|8949|CRAFT|11449 20|MATS|3820 1;3821 1;3372 1|
-= Learn [spell=11611/Artisan Alchemy]|QID|171011611|M|32.6,43.8|Z|Feralas|P|Alchemy;171;0+200|SPELL|Artisan Alchemy;11611|LVL|35|T|Kylanna Windwhisper|N|Visit Kylanna Windwhisper, Master Alchemist Trainer in Feralas.|FACTION|Alliance|
-= Learn [spell=11611/Artisan Alchemy]|QID|171011611|M|48.4,55.6|Z|Swamp of Sorrows|P|Alchemy;171;0+200|SPELL|Artisan Alchemy;11611|LVL|35|T|Kylanna Windwhisper|N|Visit Rogvar, Master Alchemist Trainer in Swamp of Sorrows.|FACTION|Horde|
+= Learn [spell=11611/Artisan Alchemy]|QID|171011611|M|32.6,43.8|Z|1314;Feralas|P|Alchemy;171;0+200|SPELL|Artisan Alchemy;11611|LVL|35|T|Kylanna Windwhisper|N|Visit Kylanna Windwhisper, Master Alchemist Trainer in Feralas.|FACTION|Alliance|
+= Learn [spell=11611/Artisan Alchemy]|QID|171011611|M|48.4,55.6|Z|1261;Swamp of Sorrows|P|Alchemy;171;0+200|SPELL|Artisan Alchemy;11611|LVL|35|T|Kylanna Windwhisper|N|Visit Rogvar, Master Alchemist Trainer in Swamp of Sorrows.|FACTION|Horde|
 = Learn Recipe|QID|171001951|P|Alchemy;171;0+195|RECIPE|11450|N|Learn [spell=11450/Elixir of Greater Defense] Recipe from Master Trainer.|
 M [item=8951/Elixir of Greater Defense]|QID|171011450|P|Alchemy;171;0+215;1|ITEM|8951|CRAFT|11450 10|MATS|3355 1;3821 1;3372 1|
 = Learn Recipe|QID|171002151|P|Alchemy;171;0+215|RECIPE|11457|N|Learn [spell=11457/Superior Healing Potion] Recipe from Master Trainer.|
@@ -74,11 +74,11 @@ M [item=3928/Superior Healing Potion]|QID|171011457|P|Alchemy;171;0+230;1|ITEM|3
 M [item=9154/Elixir of Detect Undead]|QID|171011460|P|Alchemy;171;0+250;1|ITEM|9154|CRAFT|11460 25|MATS|8836 1;8925 1|
 = Learn Recipe|QID|171002701|P|Alchemy;171;0+240|RECIPE|11467|N|Learn [spell=11467/Elixir of Greater Agility] Recipde from Master Trainer.|
 M [item=9187/Elixir of Greater Agility]|QID|171011467|P|Alchemy;171;0+265;1|ITEM|9187|CRAFT|11467 25|MATS|8838 1;3821 1;8925 1|
-B [spell=17553/Superior Mana Potion]|QID|333017553|M|55.8,24.6|Z|Darnassus|RECIPE|17553|T|Ulthir|N|Purchase [item=13477/Recipe: Superior Mana Potion] from Ulthir, in Darnassus.|FACTION|Alliance|
-B [spell=17553/Superior Mana Potion]|QID|333017553|M|51.8,74.6|Z|Undercity|RECIPE|17553|T|Algernon|N|Purchase [item=13477/Recipe: Superior Mana Potion] from Algernon in Undercity.|FACTION|Horde|
+B [spell=17553/Superior Mana Potion]|QID|333017553|M|55.8,24.6|Z|1457;Darnassus|RECIPE|17553|T|Ulthir|N|Purchase [item=13477/Recipe: Superior Mana Potion] from Ulthir, in Darnassus.|FACTION|Alliance|
+B [spell=17553/Superior Mana Potion]|QID|333017553|M|51.8,74.6|Z|1458;Undercity|RECIPE|17553|T|Algernon|N|Purchase [item=13477/Recipe: Superior Mana Potion] from Algernon in Undercity.|FACTION|Horde|
 U Learn Recipe|QID|171002601|P|Alchemy;171;0+260|RECIPE|17553|U|13477|N|Learn [spell=17553/Superior Mana Potion], using [item=13477/Recipe: Superior Mana Potion].|
 M [item=13443/Superior Mana Potion]|QID|171017553|P|Alchemy;171;0+285;1|ITEM|13443|CRAFT|17553 30|MATS|8838 2;8839 2;8925 1|
-B [spell=17556/Major Healing Potion]|QID|333017556|M|60.8,37.8|Z|Winterspring|RECIPE|17556|T|Evie Whirlbrew|N|Purchase [item=13480/Recipe: Major Healing Potion] from Evie Whirlbrew, in Winterspring.|
+B [spell=17556/Major Healing Potion]|QID|333017556|M|60.8,37.8|Z|1452;Winterspring|RECIPE|17556|T|Evie Whirlbrew|N|Purchase [item=13480/Recipe: Major Healing Potion] from Evie Whirlbrew, in Winterspring.|
 U Learn Recipe|QID|171002751|P|Alchemy;171;0+275|RECIPE|17556|N|Learn [spell=17556/Major Healing Potion], using [item=13480/Recipe: Major Healing Potion].|
 M [item=13446/Major Healing Potion]|QID|171017556|P|Alchemy;171;0+300;1|ITEM|13446|CRAFT|17556 20|MATS|13464 2;13465 1;8925 1|
 

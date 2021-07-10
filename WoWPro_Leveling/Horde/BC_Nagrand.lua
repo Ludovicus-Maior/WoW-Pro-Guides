@@ -72,7 +72,6 @@ N From now on...|QID|9872|N|If you see any Murkblood Invaders kill them until yo
 A Murkblood Invaders|QID|9872|N|(UI alert).|O|
 T The Master's Grand Design?|QID|10251|M|51.8,56.85|N|To Nitrin the Learned.|
 A Vision of the Dead|QID|10252|M|51.8,56.85|N|From Nitrin the Learned.|PRE|10251|
-N Vision of the Dead|ACTIVE|10252|N|From now on, kill any Aged Clefthoof and Greater Windrocs for the drops.|
 C Eating Damnation|QID|9821|M|57,53;52,19;46.00,52.55|CN|N|Kill Enraged Crushers until you get the items for this quest. The mobs for this quest also spawn in Telaari and Halaani Basin.|S|
 C Windroc Mastery|QID|9855|M|49.00,62.00|N|Kill the Windrocs needed for this quest.|
 C A Rare Bean|NC|QID|9800|M|50.00,30.00|N|Collect Digested Caracoli off the ground from the dung piles, until you finish this quest.|S|

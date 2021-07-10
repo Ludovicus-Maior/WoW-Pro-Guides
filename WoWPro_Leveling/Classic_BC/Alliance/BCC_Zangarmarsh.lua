@@ -119,7 +119,6 @@ N Friends with the Cenarion Expedition|REP|Cenarion Expedition;942;neutral|US|N|
 A Blessings of the Ancients|QID|9785|M|80.4,64.7|N|From Windcaller Blackhoof.|REP|Cenarion Expedition;942;friendly-exalted|
 C Blessings of the Ancients|N|Talk to Keleth and Ashyen, giants walking around, and get the marks from them.|QID|9785|M|78.1,63.8|
 T Blessings of the Ancients|QID|9785|M|80.4,64.7|N|To Windcaller Blackhoof.|
-A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.5,63.1|N|From Lethyn Moonfire.|REP|Cenarion Expedition;942;friendly-exalted|
 A Watcher Leesa'oh|QID|9697|LEAD|9701|M|78.5,63.1|N|From Lethyn Moonfire.|REP|Cenarion Expedition;942;friendly-exalted|
 T Disturbance at Umbrafen Lake|QID|9716|M|78.4,62.0|N|To Ysiel Windsinger.|
 A As the Crow Flies|QID|9718|PRE|9716|M|78.4,62.0|N|From Ysiel Windsinger.|
@@ -143,35 +142,35 @@ T Warning the Cenarion Circle|QID|9724|M|15.7,52.0|Z|Hellfire Peninsula|N|To Amy
 A Return to the Marsh|QID|9732|PRE|9724|M|15.7,52.0|N|From Amythiel Mistwalker.|
 H Cenarion Refuge|ACTIVE|9732|N|Hearth to Cenarion Refuge.|U|6948|M|78.50,63.00|
 T Return to the Marsh|QID|9732|M|78.4,62.0|N|To Ysiel Windsinger.|
-; The quest "Checking up" on the following line has wrong caps on 'Up' so it does not auto-accept since it is optional.|
-A Checking Up|QID|29566|M|78.40,62.10|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|RANK|3|
-A The Orebor Harborage|QID|9776|M|68.2,49.4|N|From Anchorite Ahuurn.|
-R Orebor Harborage|QID|9776|N|Make your way to Orebor Harborage|
-f Orebor Harborage|QID|9776|N|Get the flight-path from Halu.|M|41.25, 29.0|
+N This next part requires lvl 62. If you are not 62 yet do a little griding.|LVL|-62|
+A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.5,63.1|N|From Lethyn Moonfire.|REP|Cenarion Expedition;942;friendly-exalted|LVL|62|
+A The Orebor Harborage|QID|9776|M|68.2,49.4|N|From Anchorite Ahuurn.|LVL|62|
+R Orebor Harborage|QID|9776|M|41.25,29.0|N|Make your way to Orebor Harborage|
+f Orebor Harborage|QID|9776|N|Get the flight-path from Halu.|M|41.25,29.0|
 A Secrets of the Daggerfen|QID|9848|M|41.2,28.7|N|From Timothy Daniels.|
 T The Orebor Harborage|QID|9776|M|41.9,27.2|N|To Ikuti.|
 A Ango'rosh Encroachment|QID|9835|M|41.9,27.2|N|From Ikuti.|
 A Daggerfen Deviance|QID|10115|M|41.9,27.2|N|From Ikuti.|
-A WANTED: Chieftain Mummaki|QID|10116|M|41.7,27.3|N|From Wanted Poster.|
+A Wanted: Chieftain Mummaki|QID|10116|M|41.7,27.3|N|From Wanted Poster.|
 N From now on..|QID|9808|N|From now on, loot Glowcaps (red glowing mushrooms) off the ground. You will need 10 of them.|
 C Ango'rosh Encroachment|N|Kill the Ogres needed for this quest.|M|36.00,28.0|QID|9835|S|
 C Daggerfen Deviance|N|Kill the Daggerfen needed for this quest.|QID|10115|M|24,27|S|
 l Secrets of the Daggerfen|N|Go in this area and loot the Daggerfen Poison Vial.|M|23.75,22.79|L|24500|QID|9848|QO|2|
 C Secrets of the Daggerfen|N|Go up the tower, and loot the manual from the ground.|M|24.40,27.0|QID|9848|QO|1|
-C WANTED: Chieftain Mummaki|N|Kill Mummaki and loot the item from him.|QID|10116|M|23.8,26.8|
+C Wanted: Chieftain Mummaki|N|Kill Mummaki and loot the item from him.|QID|10116|M|23.8,26.8|
 C Daggerfen Deviance|N|Kill the Daggerfen needed for this quest.|QID|10115|US|M|24,27|
 C Ango'rosh Encroachment|N|Kill the Ogres needed for this quest.|M|36.00,28.0|QID|9835|US|
 T Secrets of the Daggerfen|QID|9848|M|41.2,28.7|N|To Timothy Daniels.|
 T Ango'rosh Encroachment|QID|9835|M|41.9,27.2|N|To Ikuti.|
 A Overlord Gorefist|QID|9839|PRE|9835|M|41.9,27.2|N|From Ikuti.|
 T Daggerfen Deviance|QID|10115|M|41.9,27.2|N|To Ikuti.|
-T WANTED: Chieftain Mummaki|QID|10116|M|41.9,27.2|N|To Ikuti.|
+T Wanted: Chieftain Mummaki|QID|10116|M|41.9,27.2|N|To Ikuti.|
 A Natural Armor|QID|9834|M|41.6,27.3|N|From Maktu.|
 A Stinger Venom|QID|9830|M|40.8,28.7|N|From Puluu.|
 A Lines of Communication|QID|9833|M|40.8,28.7|N|From Puluu.|
 A The Terror of Marshlight Lake|QID|9902|M|40.8,28.7|N|From Puluu.|
 C Diaphanous Wings|N|Kill bugs until you get the wings for this quest.|M|20.00,30.0|QID|9790|S|
-;N From now on...|QID|9830|N|From now on, kill Umbraglow Stingers, Marshlight Bleeders, Bogflare Needlers, Marshfang Slicers, and Spore Bats|
+N From now on, kill Umbraglow Stingers, Marshlight Bleeders, Bogflare Needlers, Marshfang Slicers, and Spore Bats|
 T Watcher Leesa'oh|M|23.30,66.2|QID|9697|N|To Watcher Leesa'oh.|
 A Observing the Sporelings|QID|9701|M|23.3,66.2|N|From Watcher Leesa'oh.|
 A The Sporelings' Plight|QID|9739|M|19.1,63.9|N|From Fahssn.|

@@ -114,7 +114,11 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
     if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
 
     local x, y = WoWPro:GetPlayerZonePosition()
-    local zonetag = WoWPro.GetZoneText()
+    local zonetag = _G.C_Map.GetBestMapForUnit("player")
+	local zonetext = _G.GetZoneText()
+	if zonetext and zonetag then
+		zonetag = zonetag .. ";" .. zonetext
+	end
     if zonetag == WoWPro.Guides[GID].zone then
         zonetag = nil
     end
