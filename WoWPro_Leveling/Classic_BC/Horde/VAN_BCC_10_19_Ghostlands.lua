@@ -483,34 +483,41 @@ H Orgrimmar|AVAILABLE|899|
 = Level 22|AVAILABLE|899|N|Visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|22|
 F The Crossroads|AVAILABLE|899|M|45.13,63.90|Z|Orgrimmar|
 A Consumed by Hatred|QID|899|M|51.95,31.58|Z|The Barrens|N|From Mankrik (near the south gate).|
-F Camp Taurajo|AVAILABLE|878|M|51.50,30.33|Z|The Barrens|
+A Lost in Battle|QID|4921|M|51.95,31.58|Z|The Barrens|N|From Mankrik.|
+R Ratchet|AVAILABLE|891|M|59.80,38.89|Z|The Barrens|N|Head east out of The Crossroads to Ratchet.|TAXI|-Ratchet|
+F Ratchet|AVAILABLE|891|M|59.80,38.89|Z|The Barrens|TAXI|Ratchet|
+A The Guns of Northwatch|QID|891|M|62.29,39.03|Z|The Barrens|N|From Captain Thalo'thas Brightsun.|
+f Ratchet|ACTIVE|891|M|63.09,37.17|Z|The Barrens|N|From Bragok.|TAXI|-Ratchet|
+F Camp Taurajo|AVAILABLE|878|M|63.09,37.17|Z|The Barrens|
 A Tribes at War|QID|878|M|44.56,59.24|Z|The Barrens|N|From Mangletooth (in the cage).|
 
 C Consumed by Hatred|QID|899|L|5085 60|N|Kill Bristlebacks to collect Bristleback Quilboar tusks.|S|
 C Blood Shards|AVAILABLE|5052|L|5075 11|N|Collect 11 Blood Shards for an upcoming quest.|S|
-R 1st Camp/Group|ACTIVE|878|M|43.23,55.90|Z|The Barrens|CC|N|Head northeast out of Camp Taurajo.|
+R 1st Camp/Group|ACTIVE|878|M|43.2,55.9|Z|The Barrens|CC|N|Head northeast out of Camp Taurajo.|
 K Tribes at War|QID|878|QO|1|N|Kill the Water Seekers.|
-R 2nd Camp/Group|ACTIVE|878|M|43.86,52.61|Z|The Barrens|CC|N|Follow the hillside north to the next camp.|
+R 2nd Camp/Group|ACTIVE|878|M|43.8,52.6|Z|The Barrens|CC|N|Follow the hillside north to the next camp.|
 K Tribes at War|QID|878|QO|2|N|Kill the Thornweavers. They are a little spread out between the 2 camps on either side and mixed amongst the Hunters.|
-R 3rd Camp/Group|ACTIVE|878|M|43.21,49.33|Z|The Barrens|CC|N|Continue north to the next camp.|
+R 3rd Camp/Group|ACTIVE|878|M|43.2,49.3|Z|The Barrens|CC|N|Continue north to the next camp.|
 K Tribes at War|ACTIVE|878|QO|3|N|Kill the Geomancers. If need be, there is another camp with Geomancers, a little further north.|
 C Consumed by Hatred|QID|899|L|5085 60|N|Continue killing Bristlebacks until you have enough tusks.|US|
 C Blood Shards|AVAILABLE|5052|L|5075 11|N|Continue killing the Bristlebacks until you have at least 11 Blood Shards.|US|
+C Lost in Battle|QID|4921|M|49.33,50.34|Z|The Barrens|QO|1|N|Mankrik's wife is the "Beaten Corpse" found near a few small tauren buildings.\nClick on the body to inspect it.|NC|
+R Camp Taurajo|ACTIVE|878|M|46.6,57.7|Z|The Barrens|
 
 T Tribes at War|QID|878|M|44.56,59.24|Z|The Barrens|N|To Mangletooth, back at Camp Taurajo.|
 A Blood Shards of Agamaggan|QID|5052|M|44.56,59.24|Z|The Barrens|N|From Mangletooth.|PRE|878|
 T Blood Shards of Agamaggan|QID|5052|M|44.56,59.24|Z|The Barrens|N|To Mangletooth.|
 A Spirit of the Wind|QID|889|ACTIVE|891|M|44.56,59.24|Z|The Barrens|N|From Mangletooth for a speed buff that will help with the next step.|PRE|5052|
-R Northwatch Hold|QID|891|M|50.80,50.42;56.95,50.77|Z|The Barrens|CC|N|Take the road east out of the camp. Go north at the intersection and follow the road to the bridge. Turn east and follow the dry river bed to Northwatch Hold.\n[color=FF0000]NOTE: [/color]Stay on the road for as long as you can. Be careful to avoid the Bristlebacks on your way, the Thornweavers will root you, making it impossible to run from them.|
+R Northwatch Hold|ACTIVE|891|M|50.8,50.4;56.95,50.77|Z|The Barrens|CC|N|Take the road east out of the camp. Go north at the intersection and follow the road to the bridge. Turn east and follow the dry river bed to Northwatch Hold.\n[color=FF0000]NOTE: [/color]Stay on the road for as long as you can.|
 C The Guns of Northwatch|QID|891|L|5078 10|N|Kill Theramore Marines to loot Theramore Medals.|S|
-R Northwatch Hold Entrance|QID|891|M|62.24,53.34|Z|The Barrens|CS|N|Continue down the hill to the entrance to Northwatch Hold.\n[color=FF0000]NOTE: [/color]Kill the 2 guards outside before going in. There are 3 more just inside the entrance.|
-K Cannoneer Smythe|QID|891|QO|3|M|63.19,56.64|Z|The Barrens|N|Follow the path up the hill from the entrance; staying close to the hillside to reduce the number of fights along the way.\nSkip the first tower for now and head for the 2nd tower. Clear the mobs around the tower to avoid adds for the next fight.\nInside are 3 mobs, one of which is a cloth-wearing healer. This is a tricky fight, but possible. If you have to, use the same tactic we used for Hezrul Bloodmark. Once all 3 of them are dead, climb the tower and kill Cannoneer Smythe and his guard.|C|-Rogue|
-K Cannoneer Smythe|QID|891|QO|3|M|63.19,56.64|Z|The Barrens|N|Follow the path up the hill from the entrance; staying close to the hillside to reduce the number of fights along the way.\nSkip the first tower for now and head for the 2nd tower. Clear the mobs around the tower to avoid adds if this next step fails.\nInside are 3 mobs, one of which is a cloth-wearing healer. Using stealth, sneak past them using the the ledge to the ramp. Climb the tower and kill Cannoneer Smythe and his guard.|C|Rogue|
-K Cannoneer Whessan|QID|891|QO|2|M|60.42,54.76|Z|The Barrens|N|Head back down and follow the path to the 3rd tower. Use the same process of clearing the entrance and main floor of the tower as you did earlier. Once they are dead, climb the tower and kill Cannoneer Whessan and his guard.|C|-Rogue|
-K Cannoneer Whessan|QID|891|QO|2|M|60.42,54.76|Z|The Barrens|N|As you did to get in, stealth your way past the main floor and out of the tower. Once outside, follow the path to the 3rd tower.\nRinse and repeat the previous process for this tower; killing Cannoneer Whessan and his guard at the top.|C|Rogue|
+R Northwatch Hold Entrance|ACTIVE|891|M|62.24,53.34|Z|The Barrens|CC|N|Continue down the hill to the entrance to Northwatch Hold.\n[color=FF0000]NOTE: [/color]Kill the 2 guards outside before going in. There are 3 more just inside the entrance.|
+K Cannoneer Smythe|ACTIVE|891|QO|3|M|63.19,56.64|Z|The Barrens|N|Follow the path up the hill from the entrance. At this level, most of the mobs will leave you alone if you give them space.\nSkip the first tower for now and head for the 2nd tower. Clear the mobs around the tower to avoid adds for the next fight.\nInside are 3 mobs, one of which is a cloth-wearing healer. Once all 3 of them are dead, climb the tower and kill Cannoneer Smythe and his guard.|C|-Rogue|
+K Cannoneer Smythe|ACTIVE|891|QO|3|M|63.19,56.64|Z|The Barrens|N|Follow the path up the hill from the entrance; staying close to the hillside to reduce the number of fights along the way.\nSkip the first tower for now and head for the 2nd tower. Clear the mobs around the tower to avoid adds if this next step fails.\nInside are 3 mobs, one of which is a cloth-wearing healer. Using stealth, sneak past them using the the ledge to the ramp. Climb the tower and kill Cannoneer Smythe and his guard.|C|Rogue|
+K Cannoneer Whessan|ACTIVE|891|QO|2|M|60.42,54.76|Z|The Barrens|N|Head back down and follow the path to the 3rd tower. Use the same process of clearing the entrance and main floor of the tower as you did earlier. Once they are dead, climb the tower and kill Cannoneer Whessan and his guard.|C|-Rogue|
+K Cannoneer Whessan|ACTIVE|891|QO|2|M|60.42,54.76|Z|The Barrens|N|As you did to get in, stealth your way past the main floor and out of the tower. Once outside, follow the path to the 3rd tower.\nRinse and repeat the previous process for this tower; killing Cannoneer Whessan and his guard at the top.|C|Rogue|
 C The Guns of Northwatch|QID|891|L|5078 10|N|Exit the tower and finish looting the Theramore Medals.|US|
-K Captain Fairmount|QID|891|M|61.85,54.64|Z|The Barrens|QO|1|N|Now head back down the hill to the tower we skipped.\nAs with the others, clear the mobs around the outside first. There are 4 mobs in this room, but they will pull 2 at a time. Once the guards are dead, continue fighting your way to the top of the tower, moving slowly and carefully. At the top of the tower, you will find 3-4 Theramore Marines, a Theramore Perserver and Captain Fairmount. The Marines should pull singly. Once the Marines are gone, kill Fairmount and the perserver.\n[color=FF0000]NOTE: [/color]Do not take the Blood Elf's quest until you are done with the tower.|
-A Free From the Hold|QID|898|M|61.96,54.96|Z|The Barrens|N|[color=FF0000]NOTE: [/color]Escort Quest\nFrom Gilthares Firebough on the ground floor of the tower.\n[color=FF0000]NOTE: [/color]By this time, the mobs that you killed on the way up have started to respawn; including the 4 on the main floor. You can pull them just as you did coming in. You'll want to kite them away from each other and the entrance. Runners will get you killed.\nI would suggest clearing the mobs along the path before accepting the quest.|
+K Captain Fairmount|ACTIVE|891|M|61.85,54.64|Z|The Barrens|QO|1|N|Now head back down the hill to the tower we skipped.\nAs with the others, clear the mobs around the outside first. There are 4 mobs in this room, but they will pull 2 at a time. Once the guards are dead, continue fighting your way to the top of the tower, moving slowly and carefully. At the top of the tower, you will find 3-4 Theramore Marines, a Theramore Perserver and Captain Fairmount. The Marines should pull singly. Once the Marines are gone, kill Fairmount and the perserver.\n[color=FF0000]NOTE: [/color]Do not take the Blood Elf's quest until you are done with the tower.|
+A Free From the Hold|QID|898|M|61.96,54.96|Z|The Barrens|N|[color=80FF00]NOTE: [/color]Escort Quest\nFrom Gilthares Firebough on the ground floor of the tower.\n[color=FF0000]NOTE: [/color]By this time, the mobs that you killed on the way up have started to respawn; including the 4 on the main floor. You can pull them just as you did coming in. You'll want to kite them away from each other and the entrance. Runners will get you killed.\nI would suggest clearing the mobs along the path before accepting the quest.|
 A Free From the Hold|QID|898|M|61.96,54.96|Z|The Barrens|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Gilthares Firebough on the ground floor of the tower to restart the quest.\nYou will have to wait for him to respawn. Long enough to give everyone you've killed plenty of time to respawn.\nDon't forget to clear the respawns along the path.|FAIL|
 C Free From the Hold|QID|898|M|62.29,39.03|Z|The Barrens|QO|1|N|Escort Gilthares to Ratchet.\nDon't let him tank things for very long. He will walk to the main gate of Northwatch and then head north through the pirate camps to Ratchet.\n[color=FF0000]NOTE: [/color]He will aggro [color=8080FF]E V E R Y O N E[/color] along the way and will chase runners. You cannot heal him.\nYou can run ahead of Gilthares and kill the mobs before he gets there.|
 T The Guns of Northwatch|QID|891|M|62.29,39.03|Z|The Barrens|N|To Captain Thalo'thas Brightsun.|
@@ -518,6 +525,8 @@ T Free From the Hold|QID|898|M|62.29,39.03|Z|The Barrens|N|To Captain Thalo'thas
 f Ratchet|ACTIVE|899|M|63.09,37.17|Z|The Barrens|N|From Bragok.|TAXI|-Ratchet|
 F The Crossroads|ACTIVE|899|M|63.09,37.17|Z|The Barrens|
 T Consumed by Hatred|QID|899|M|51.96,31.57|Z|The Barrens|N|To Mankrik.|
+T Lost in Battle|QID|4921|M|51.96,31.57|Z|The Barrens|N|To Mankrik.|
+
 ; lv 22
 F Camp Taurajo|QID|882|M|51.50,30.33|Z|The Barrens|N|Fly back to Camp Taurajo.|
 A The Ashenvale Hunt|QID|6382^235^742|M|44.86,59.14|Z|The Barrens|N|From Jorn Skyseer.|LEAD|6383|
