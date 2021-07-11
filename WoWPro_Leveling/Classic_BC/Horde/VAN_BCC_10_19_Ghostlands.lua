@@ -348,7 +348,7 @@ T Devourer of Souls|QID|1507|M|47.04,46.46|Z|Orgrimmar|N|To Cazul in Cleft of Sh
 A Blind Cazul|QID|1508|M|47.04,46.46|Z|Orgrimmar|N|From Cazul.|PRE|1507|C|Warlock|
 T Blind Cazul|QID|1508|M|37.02,59.46|Z|Orgrimmar|N|To Zankaja in the building just south of the Cleft of the Shadows SW entrance.|C|Warlock|
 A News of Dogran|QID|1509|M|37.02,59.46|Z|Orgrimmar|N|From Zankaja.|PRE|1508|C|Warlock|
-F The Crossroads|ACTIVE|1509|M|45.13,63.90|Z|Orgrimmar|C|Warlock|TAXI|Crossroads|
+F Crossroads|ACTIVE|1509|M|45.13,63.90|Z|Orgrimmar|C|Warlock|TAXI|Crossroads|
 R Far Watch Post|ACTIVE|1509|M|34.16,42.30|Z|Durotar|N|Exit Orgrimmar from the south and follow the road south to Razor Hill. Exit Razor Hill from the west and follow the road the road to the river.|TAXI|-Crossroads|
 R Crossroads|ACTIVE|1509|M|52.34,29.34|Z|The Barrens|N|Take the road west to the intersection and go south into The Crossroads.|TAXI|-Crossroads|
 f The Crossroads|ACTIVE|1509|M|51.50,30.34|Z|The Barrens|N|From Devrak.|TAXI|-Crossroads|
@@ -435,7 +435,7 @@ T Allegiance to the Horde|QID|9627|M|53.79,20.22|Z|Silvermoon City|N|To Lor'them
 H Orgrimmar|ACTIVE|1061&-9627|N|I told you it would make sense... ;)|R|BloodElf|
 
 N The Barrens FPs|AVAILABLE|6548|N|A little running around to get the flight paths in The Barrens. We won't be getting the FP in Thunder Bluff until later.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|
-F The Crossroads|AVAILABLE|6548|M|45.12,63.90|Z|Orgrimmar|N|From Doras.|TAXI|Crossroads|IZ|1637;Orgrimmar|
+F Crossroads|AVAILABLE|6548|M|45.12,63.90|Z|Orgrimmar|N|From Doras.|TAXI|Crossroads|IZ|1637;Orgrimmar|
 R Leave Orgrimmar|AVAILABLE|6548|M|45.55,12.06|Z|Durotar|N|Exit Orgrimmar through the south gate.|IZ|1637; Orgrimmar|
 R Razor Hill|AVAILABLE|6548|M|52.31,39.99|Z|Durotar|N|Follow the road south to Razor Hill.|TAXI|-Crossroads|
 R Far Watch Post|AVAILABLE|6548|M|62.37,19.41|Z|The Barrens|N|Exit Razor Hill from the west and follow the road the road to Southfury River; Far Watch Post is on the other side of the bridge.|TAXI|-Crossroads|
@@ -443,7 +443,7 @@ R The Crossroads|AVAILABLE|6548|M|52.38,28.37|Z|The Barrens|N|Continue west to G
 f The Crossroads|AVAILABLE|6548|M|51.50,30.34|Z|The Barrens|N|From Devrak.|TAXI|-Crossroads|
 R Camp Taurajo|AVAILABLE|6548|M|46.29,58.00|Z|The Barrens|CC|N|Leave The Crossroads through the south gate and follow Gold Road south to Camp Taurajo.\n[color=FF0000]NOTE: [/color]The mob levels increase the closer you get to Camp Taurajo|TAXI|-Camp Taurajo|
 f Camp Taurajo|AVAILABLE|6548|M|44.44,59.15|Z|The Barrens|N|Get the flight path from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
-F The Crossroads|AVAILABLE|6548|M|47.02,49.83|Z|Thunder Bluff|
+F Crossroads|AVAILABLE|6548|M|47.02,49.83|Z|Thunder Bluff|
 R Honor's Stand|AVAILABLE|6548|M|39.45,29.69|Z|The Barrens|N|Head west from the Crossroads along the road or go cross country.|
 R Stonetalon Mountains border|AVAILABLE|6548|M|35.66,27.48|Z|The Barrens|CC|N|Continue west along the road.|
 A Avenge My Village|QID|6548|M|35.19,27.79|Z|The Barrens|N|From Makaba Flathoof.|
@@ -481,7 +481,7 @@ R Malaka'jin|ACTIVE|6461|M|53.1,61.6;71.5,90.5|Z|Stonetalon Mountains|CC|N|Retur
 T Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|To Xen'zilla.|
 H Orgrimmar|AVAILABLE|899|
 = Level 22|AVAILABLE|899|N|Visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|22|
-F The Crossroads|AVAILABLE|899|M|45.13,63.90|Z|Orgrimmar|
+F Crossroads|AVAILABLE|899|M|45.13,63.90|Z|Orgrimmar|
 A Consumed by Hatred|QID|899|M|51.95,31.58|Z|The Barrens|N|From Mankrik (near the south gate).|
 A Lost in Battle|QID|4921|M|51.95,31.58|Z|The Barrens|N|From Mankrik.|
 R Ratchet|AVAILABLE|891|M|59.80,38.89|Z|The Barrens|N|Head east out of The Crossroads to Ratchet.|TAXI|-Ratchet|
@@ -523,7 +523,7 @@ C Free From the Hold|QID|898|M|62.29,39.03|Z|The Barrens|QO|1|N|Escort Gilthares
 T The Guns of Northwatch|QID|891|M|62.29,39.03|Z|The Barrens|N|To Captain Thalo'thas Brightsun.|
 T Free From the Hold|QID|898|M|62.29,39.03|Z|The Barrens|N|To Captain Thalo'thas Brightsun.|
 f Ratchet|ACTIVE|899|M|63.09,37.17|Z|The Barrens|N|From Bragok.|TAXI|-Ratchet|
-F The Crossroads|ACTIVE|899|M|63.09,37.17|Z|The Barrens|
+F Crossroads|ACTIVE|899|M|63.09,37.17|Z|The Barrens|
 T Consumed by Hatred|QID|899|M|51.96,31.57|Z|The Barrens|N|To Mankrik.|
 T Lost in Battle|QID|4921|M|51.96,31.57|Z|The Barrens|N|To Mankrik.|
 
