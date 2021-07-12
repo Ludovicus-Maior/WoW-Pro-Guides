@@ -259,7 +259,7 @@ C Spinal Dust|QID|9218|M|37.52,49.76|L|22642 10|QO|1|N|Kill Dread Sentinels and 
 L Level 20|ACTIVE|9877|N|Make sure you're at least 5.5 bars into level 19 before moving on.|LVL|19;-13900|
 R Sanctum of the Sun|ACTIVE|9176|M|53.94,51.76|
 T The Twin Ziggurats|QID|9176|M|55.07,48.83|N|To Magister Kaendris.|
-A The Traitor's Destruction|QID|9167|M|55.07,48.83|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nFrom Magister Kaendris.\n[color=FF0000]NOTE: [/color]Skip this step if you've abandoned the quest.|PRE|9176|
+A The Traitor's Destruction|QID|9167|M|55.07,48.83|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nFrom Magister Kaendris.\n[color=FF0000]NOTE: [/color]Skip this step if you've abandoned the quest.|PRE|9176|IZ|3433;Ghostlands|
 T War on Deatholme|QID|9220|M|54.87,48.55|N|To Magister Idonis (up the ramp).|
 A Dar'Khan's Lieutenants|QID|9170|M|54.87,48.55|N|From Magister Idonis.|PRE|9220|
 A A Restorative Draught|QID|9877|M|54.82,48.35|N|From Arcanist Janeda.|PRE|9220|
@@ -530,14 +530,14 @@ T Lost in Battle|QID|4921|M|51.96,31.57|Z|The Barrens|N|To Mankrik.|
 ; lv 22
 F Camp Taurajo|AVAILABLE|1130|M|51.50,30.33|Z|The Barrens|N|Fly back to Camp Taurajo.|
 A Melor Sends Word|QID|1130|M|44.86,59.14|Z|The Barrens|N|From Jorn Skyseer.|LEAD|1131|
-A The Ashenvale Hunt|QID|6382|AVAILABLE|6383|M|44.86,59.14|Z|The Barrens|N|From Jorn Skyseer.NOTE (Red): \n[color=FF0000]NOTE: [/color]If Jorn does not have this quest, skip this step and you can pick it up in Thunder Bluff.|LEAD|6383|
+A The Ashenvale Hunt|QID|6382|ACTIVE|-742^-235|AVAILABLE|6383|M|44.86,59.14|Z|The Barrens|N|From Jorn Skyseer.NOTE (Red): \n[color=FF0000]NOTE: [/color]If Jorn does not have this quest, skip this step and you can pick it up in Thunder Bluff.|LEAD|6383|
 F Thunder Bluff|ACTIVE|1130|M|44.44,59.15|Z|The Barrens|TAXI|Thunder Bluff|
 R Thunder Bluff|ACTIVE|1130|M|68.3,60.6;51.2,58.9;46.7,51.9;37.1,31.8|Z|Mulgore|CC|TAXI|-Thunder Bluff|
-A The Ashenvale Hunt|QID|742|ACTIVE|-9382^-235|AVAILABLE|6383|M|38.5,51.2;44.1,67.4;56.7,57.2;57.5,48.5|Z|Thunder Bluff|CN|N|From Bluff Runner Windstrider.\n[color=FF0000]NOTE: [/color]Unfortunately, you may have to look for him. \nHe circles the road around pond and then follows the road along the south side up to the next level where he circles that road before returning the same way.|LEAD|6383|
+A The Ashenvale Hunt|QID|742|ACTIVE|-6382^-235|AVAILABLE|6383|M|38.5,51.2;44.1,67.4;56.7,57.2;57.5,48.5|Z|Thunder Bluff|CN|N|From Bluff Runner Windstrider.\n[color=FF0000]NOTE: [/color]Unfortunately, you may have to look for him. \nHe circles the road around pond and then follows the road along the south side up to the next level where he circles that road before returning the same way.|LEAD|6383|
 T Melor Sends Word|QID|1130|M|61.49,80.83|Z|Thunder Bluff|N|To Melor Stonehoof on Hunter Rise.|
 A Steelsnap|QID|1131|M|61.49,80.83|Z|Thunder Bluff|N|From Melor Stonehoof.|
 f Thunder Bluff|ACTIVE|1131|M|47.02,49.83|Z|Thunder Bluff|N|Get the flight point from Tal.|TAXI|-Thunder Bluff|
-F Orgrimmar|ACTIVE|1131|M|47.02,49.83|Z|Thunder Bluff|
+F Orgrimmar|ACTIVE|6382^235^742|M|47.02,49.83|Z|Thunder Bluff|
 = Level 22|AVAILABLE|899|N|If you haven't done so, do your Level 22 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|22|
 
 ; --- Rogue Thistle Tea Recipe (Poison) Class Quest (skipped earlier)
@@ -582,7 +582,7 @@ H Orgrimmar|AVAILABLE|-2480|ACTIVE|-2480|R|Orc,Troll,Undead|C|Rogue|IZ|1424|
 ; --- Ashenvale
 F Splintertree Post|ACTIVE|6382^235^742|AVAILABLE|-6541|M|45.13,63.90|Z|Orgrimmar|TAXI|Splintertree Post|
 F Crossroads|ACTIVE|6382^235^742|AVAILABLE|6541|M|45.13,63.90|Z|Orgrimmar|TAXI|Splintertree Post|
-F Crossroads|AVAILABLE|6541|M|45.13,63.90|Z|Orgrimmar|TAXI|-Splintertree Post|
+F Crossroads|ACTIVE|6382^235^742|M|45.13,63.90|Z|Orgrimmar|TAXI|-Splintertree Post|
 A Report to Kadrak|QID|6541|M|51.50,30.87|Z|The Barrens|N|From Thork.|LEAD|6543|
 N Ashenvale FPs|ACTIVE|6541|N|A little side trip to grab the Flight paths in Ashenvale while we are here.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|TAXI|-Splintertree Post|
 F Splintertree Post|ACTIVE|6541|M|51.50,30.33|Z|The Barrens|TAXI|Splintertree Post|
@@ -590,21 +590,24 @@ R The Mor'shan Rampart|ACTIVE|6541|M|48.02,5.58|Z|The Barrens|CC|N|Follow the ro
 R The Mor'shan Rampart|ACTIVE|6541|M|48.02,5.58|Z|The Barrens|CC|N|Follow the road north to the Mor'shan Rampart.|
 T Report to Kadrak|QID|6541|M|48.12,5.42|Z|The Barrens|N|To Kadrak on the first floor of the guard tower on your right.|
 A The Warsong Reports|QID|6543|M|48.12,5.42|Z|The Barrens|N|From Kadrak.|
-R Ashenvale|AVAILABLE|6442|M|68.63,86.82|Z|Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|IZ|-Ashenvale|
-R Splintertree Post|AVAILABLE|6442|M|68.6,84.2;67.2,71.5;70.1,70.0;71.1,67.5|Z|Ashenvale|CC|N|[color=FF0000]NOTE: [/color]Be VERY aware of the much higher level mobs if you choose to venture off the road.|
+R Ashenvale|ACTIVE|6543|M|68.63,86.82|Z|Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|IZ|-Ashenvale|
+R Splintertree Post|ACTIVE|6382^235^742|M|68.6,84.2;67.2,71.5;70.1,70.0;71.1,67.5|Z|Ashenvale|CC|N|[color=FF0000]NOTE: [/color]Be VERY aware of the much higher level mobs if you choose to venture off the road.|
 U Warsong Reports|ACTIVE|6543|L|16746|N|Open your Bundle of Reports.|U|16783|
 ; Quest is [The Warsong Reports], to avoid automatic turn-in.
 C Warsong Scout Update|QID|6543|M|71.04,68.22|Z|Ashenvale|QO|1|N|Give one of the Reports to the Warsong Scout with a Blue question mark over her head. She sometimes spawns at the base of the tower.\n[color=FF0000]NOTE: [/color]Be careful not to give more than one, or you won't have enough to finish the quest.|CHAT|
-f Splintertree Post|QID|6442|M|73.18,61.59|Z|Ashenvale|N|Head into Splintertree Post and get the flight path.|TAXI|-Splintertree Post|
+f Splintertree Post|ACTIVE|6543|M|73.18,61.59|Z|Ashenvale|N|Head into Splintertree Post and get the flight path.|TAXI|-Splintertree Post|
+T The Ashenvale Hunt|QID|6382^235^742|M|73.77,61.46|Z|Ashenvale|N|To Senani Thunderheart.|
+A The Ashenvale Hunt|QID|6383|M|73.77,61.46|Z|Ashenvale|N|From Senani Thunderheart.|
+N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quests.\nAs the lowest level of the 3 quests does not grey until level 32 AND the mobs are WAY above our current level, we will not being doing it at this time.\n[color=FF0000]NOTE: [/color]This quest doesn't show in your log. It just unlocks the 3 quests (which don't show either).\nManually check this step off to continue.|IZ|1440|
 C Warsong Outrider Update|QID|6543|M|73.5,63.7;75.4,64.2;76.6,58.4;78.8,55.4;94.0,47.0|Z|Ashenvale|CC|QO|3|N|Locate the Warsong Outrider and get the Warsong Outrider Update. S/he patrols on a wolf mount along the road northeast of Splintertree.|CHAT|
 F Zoram'gar Outpost|ACTIVE|6543|M|73.18,61.59|Z|Ashenvale|N|Return to Splintertree Post and fly to Zoram'gar Outpost|TAXI|Zoram'gar Outpost|
 R Zoram'gar Outpost|ACTIVE|6543|M|75.0,65.1;67.1,71.3;44.9,56.2;36.9,55.0;32.5,49.7;30.2,47.2;26.4,42.3;16.5,30.2;12.7,33.2|Z|Ashenvale|CC|N|Follow the road all the way west to Zoram'gar Outpost.  Watch out for the higher level mobs along the way.\nWhen you get to Astranaar, you can either follow the shoreline to the south, or swim. Swimming means less fighting.\n[color=FF0000]NOTE: [/color]Keep your distance from Astranaar or you will more than likely die.|TAXI|-Zoram'gar Outpost|
+f Zoram'gar Outpost|ACTIVE|6543|M|12.24,33.80|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
 C Warsong Runner Update|QID|6543|M|12.22,34.21|Z|Ashenvale|QO|2|N|Hand out the last report to the Warsong Runner.|CHAT|
-f Zoram'gar Outpost|QID|6548|M|12.24,33.80|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
-N Vorsha the Lasher|AVAILABLE|6641&6442|N|[color=FF0000]NOTE: [/color]I highly recommend doing this quest at the same time as you're doing 'Naga at the Zoram Strand' to make use of the assistance from Muglash.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|From Marukai.|
+N Vorsha the Lasher|AVAILABLE|6641|ACTIVE|6442|N|[color=FF0000]NOTE: [/color]I highly recommend doing this quest at the same time as you're doing 'Naga at the Zoram Strand' to make use of the assistance from Muglash.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash.\nIf he's not there, just wait because someone is either already doing the quest, or he has died and awaiting respawn.|LVL|20|
 A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED[/color]\nGo back to Muglash to restart the quest.\nIf he's not there, just wait because someone is either already doing the quest, or he hasn't respawned yet.|LVL|20|FAIL|
-A Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|From Marukai.|
 N Lockpicking|ACTIVE|6442|M|12.68,29.51|Z|Ashenvale|N|There are Waterlogged Footlockers scattered all over the area that you can open to increase your Lockpicking skill and receive a few copper for your efforts.\n[color=FF0000]NOTE: [/color]You need level 85 (minimum) to complete your level 20 class quest.\nCheck this step off to continue.|P|Lockpicking;633;0+85;1|C|Rogue|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|M|13.31,26.74|Z|Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nI recommend using Muglash to kill as many Nagas as you can along the escort path. Avoid the Priestesses; they fully heal from almost dead.|S|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|-6641|M|13.31,26.74|Z|Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nAvoid the Priestesses; they fully heal from almost dead.|
@@ -612,11 +615,7 @@ C Vorsha the Lasher|QID|6641|M|9.63,27.61|Z|Ashenvale|QO|1|N|Accompany Muglash t
 C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|L|5490 20|N|Finish collecting Wrathtail Heads.|US|
 T Vorsha the Lasher|QID|6641|M|12.22,34.21|Z|Ashenvale|N|To Warsong Runner.|
 T Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|To Marukai.|
-F Splintertree Post|ACTIVE|6382^235^742|M|12.24,33.80|Z|Ashenvale|
-T The Ashenvale Hunt|QID|6382^235^742|M|73.77,61.46|Z|Ashenvale|N|To Senani Thunderheart.|
-A The Ashenvale Hunt|QID|6383|M|73.77,61.46|Z|Ashenvale|N|From Senani Thunderheart.|
-N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quests.\nAs the lowest level of the 3 quests does not grey until level 32 AND the mobs are WAY above our current level, we will not being doing it at this time.\n[color=FF0000]NOTE: [/color]This quest doesn't show in your log. It just unlocks the 3 quests (which don't show either).\nCheck this step off to continue.|IZ|1440|
-F Sun Rock Retreat|QID|6421|M|73.18,61.59|Z|Ashenvale|
+F Sun Rock Retreat|AVAILABLE|6421|M|12.24,33.80|Z|Ashenvale|
 
 ]]
 end)
