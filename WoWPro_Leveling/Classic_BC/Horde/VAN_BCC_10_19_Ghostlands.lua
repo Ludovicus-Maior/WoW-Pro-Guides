@@ -530,10 +530,10 @@ T Lost in Battle|QID|4921|M|51.96,31.57|Z|The Barrens|N|To Mankrik.|
 ; lv 22
 F Camp Taurajo|AVAILABLE|1130|M|51.50,30.33|Z|The Barrens|N|Fly back to Camp Taurajo.|
 A Melor Sends Word|QID|1130|M|44.86,59.14|Z|The Barrens|N|From Jorn Skyseer.|LEAD|1131|
-A The Ashenvale Hunt|QID|6382|M|44.86,59.14|Z|The Barrens|N|From Jorn Skyseer.NOTE (Red): \n[color=FF0000]NOTE: [/color]If Jorn does not have this quest, skip this step and you can pick it up in Thunder Bluff.|LEAD|6383|
+A The Ashenvale Hunt|QID|6382|AVAILABLE|6383|M|44.86,59.14|Z|The Barrens|N|From Jorn Skyseer.NOTE (Red): \n[color=FF0000]NOTE: [/color]If Jorn does not have this quest, skip this step and you can pick it up in Thunder Bluff.|LEAD|6383|
 F Thunder Bluff|ACTIVE|1130|M|44.44,59.15|Z|The Barrens|TAXI|Thunder Bluff|
 R Thunder Bluff|ACTIVE|1130|M|68.3,60.6;51.2,58.9;46.7,51.9;37.1,31.8|Z|Mulgore|CC|TAXI|-Thunder Bluff|
-A The Ashenvale Hunt|QID|742|ACTIVE|-9382^-235|M|38.5,51.2;44.1,67.4;56.7,57.2;57.5,48.5|Z|Thunder Bluff|CN|N|From Bluff Runner Windstrider.\n[color=FF0000]NOTE: [/color]Unfortunately, you may have to look for him. \nHe circles the road around pond and then follows the road along the south side up to the next level where he circles that road before returning the same way.|LEAD|6383|
+A The Ashenvale Hunt|QID|742|ACTIVE|-9382^-235|AVAILABLE|6383|M|38.5,51.2;44.1,67.4;56.7,57.2;57.5,48.5|Z|Thunder Bluff|CN|N|From Bluff Runner Windstrider.\n[color=FF0000]NOTE: [/color]Unfortunately, you may have to look for him. \nHe circles the road around pond and then follows the road along the south side up to the next level where he circles that road before returning the same way.|LEAD|6383|
 T Melor Sends Word|QID|1130|M|61.49,80.83|Z|Thunder Bluff|N|To Melor Stonehoof on Hunter Rise.|
 A Steelsnap|QID|1131|M|61.49,80.83|Z|Thunder Bluff|N|From Melor Stonehoof.|
 f Thunder Bluff|ACTIVE|1131|M|47.02,49.83|Z|Thunder Bluff|N|Get the flight point from Tal.|TAXI|-Thunder Bluff|
