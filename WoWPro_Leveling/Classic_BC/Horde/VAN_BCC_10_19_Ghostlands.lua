@@ -522,6 +522,7 @@ A Free From the Hold|QID|898|M|61.96,54.96|Z|The Barrens|N|[color=CC00FF]QUEST F
 C Free From the Hold|QID|898|M|62.29,39.03|Z|The Barrens|QO|1|N|Escort Gilthares to Ratchet.\nDon't let him tank things for very long. He will walk to the main gate of Northwatch and then head north through the pirate camps to Ratchet.\n[color=FF0000]NOTE: [/color]He will aggro [color=8080FF]E V E R Y O N E[/color] along the way and will chase runners. You cannot heal him.\nYou can run ahead of Gilthares and kill the mobs before he gets there.|
 T The Guns of Northwatch|QID|891|M|62.29,39.03|Z|The Barrens|N|To Captain Thalo'thas Brightsun.|
 T Free From the Hold|QID|898|M|62.29,39.03|Z|The Barrens|N|To Captain Thalo'thas Brightsun.|
+A Ziz Fizziks |QID|1483|M|62.98,37.22|Z|The Barrens|N|From Sputtervalve.|LEAD|1093|
 f Ratchet|ACTIVE|899|M|63.09,37.17|Z|The Barrens|N|From Bragok.|TAXI|-Ratchet|
 F Crossroads|ACTIVE|899|M|63.09,37.17|Z|The Barrens|
 T Consumed by Hatred|QID|899|M|51.96,31.57|Z|The Barrens|N|To Mankrik.|
@@ -530,7 +531,7 @@ T Lost in Battle|QID|4921|M|51.96,31.57|Z|The Barrens|N|To Mankrik.|
 ; lv 22
 F Camp Taurajo|AVAILABLE|1130|M|51.50,30.33|Z|The Barrens|N|Fly back to Camp Taurajo.|
 A Melor Sends Word|QID|1130|M|44.86,59.14|Z|The Barrens|N|From Jorn Skyseer.|LEAD|1131|
-A The Ashenvale Hunt|QID|6382|ACTIVE|-742^-235|AVAILABLE|6383|M|44.86,59.14|Z|The Barrens|N|From Jorn Skyseer.NOTE (Red): \n[color=FF0000]NOTE: [/color]If Jorn does not have this quest, skip this step and you can pick it up in Thunder Bluff.|LEAD|6383|
+A The Ashenvale Hunt|QID|6382|ACTIVE|-742&-235|AVAILABLE|6383|M|44.86,59.14|Z|The Barrens|N|From Jorn Skyseer.NOTE (Red): \n[color=FF0000]NOTE: [/color]If Jorn does not have this quest, skip this step and you can pick it up in Thunder Bluff.|LEAD|6383|
 F Thunder Bluff|ACTIVE|1130|M|44.44,59.15|Z|The Barrens|TAXI|Thunder Bluff|
 R Thunder Bluff|ACTIVE|1130|M|68.3,60.6;51.2,58.9;46.7,51.9;37.1,31.8|Z|Mulgore|CC|TAXI|-Thunder Bluff|
 A The Ashenvale Hunt|QID|742|ACTIVE|-6382^-235|AVAILABLE|6383|M|38.5,51.2;44.1,67.4;56.7,57.2;57.5,48.5|Z|Thunder Bluff|CN|N|From Bluff Runner Windstrider.\n[color=FF0000]NOTE: [/color]Unfortunately, you may have to look for him. \nHe circles the road around pond and then follows the road along the south side up to the next level where he circles that road before returning the same way.|LEAD|6383|
