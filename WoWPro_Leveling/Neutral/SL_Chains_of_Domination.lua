@@ -218,20 +218,20 @@ C The Primus Returns|QID|63727|M|62.99,25.34|Z|1961;Korthia|NC|N|Return to Keepe
 T The Primus Returns|QID|63727|M|62.81,26.46|Z|1961;Korthia|N|To The Primus. Enjoy flying in Shadowlands.|
 
 ; An Army of Bone and Steel
-A The Chains of Command|QID|63612|PRE|63727|M|62.99,25.40|Z|1961;Korthia|N|From The Primus.|REN|47|
+A The Chains of Command|QID|63612|PRE|63727|M|62.82,26.39|Z|1961;Korthia|N|From The Primus.|REN|47|
 T The Chains of Command|QID|63612|M|62.88,65.99|Z|The Maw|N|To Baroness Draka.|
-A What We Wish to Be|QID|63613|PRE|63612|M|62.88,65.99|Z|The Maw|N|From Baroness Draka.|
+A Gates of the Damned|QID|63613|PRE|63612|M|62.88,65.99|Z|The Maw|N|From Baroness Draka.|
 A Clip Their Wings|QID|63615|PRE|63612|M|PLAYER|Z|The Maw|N|From Baroness Draka.|
 A Weapon in Hand|QID|63614|PRE|63612|M|PLAYER|Z|The Maw|N|From Thrall.|
-C Clip Their Wings|QID|63615|M|64.56,63.91|Z|The Maw|N|Target the Helsworn Soulbreakers and use the chains collected by killing Helsworn in the area.|S|
-C What We Wish to Be|QID|63613|M|67.45,65.51|Z|The Maw|QO|1<1|NC|N|Click the outline of the Death Gate to summon it.|
+C Clip Their Wdngs|QID|63615|M|64.56,63.91|Z|The Maw|N|Target the Helsworn Soulbreakers and use the chains collected by killing Helsworn in the area.|S|U|185742|
+C Gates of the Damned|QID|63613|M|67.45,65.51|Z|The Maw|QO|1<1|NC|N|Click the outline of the Death Gate to summon it.|
 C Weapon in Hand|QID|63614|M|61.85,56.46|Z|The Maw|NC|N|Kill the weaponsmith and loot Dra'gora.|
-C What We Wish to Be|QID|63613|M|67.39,55.61|Z|The Maw|QO|1<2|NC|N|Click the outline of the Death Gate to summon it.|
-C What We Wish to Be|QID|63613|M|62.46,51.61|Z|The Maw|QO|1<3|NC|N|Click the outline of the Death Gate to summon it.|
-C What We Wish to Be|QID|63613|M|67.01,48.93|Z|The Maw|QO|1<4|NC|N|Click the outline of the Death Gate to summon it.|
-C Clip Their Wings|QID|63615|M|64.56,63.91|Z|The Maw|N|Target the Helsworn Soulbreakers and use the chains collected by killing Helsworn in the area.|US|
+C Gates of the Damned|QID|63613|M|67.39,55.61|Z|The Maw|QO|1<2|NC|N|Click the outline of the Death Gate to summon it.|
+C Gates of the Damned|QID|63613|M|62.46,51.61|Z|The Maw|QO|1<3|NC|N|Click the outline of the Death Gate to summon it.|
+C Gates of the Damnede|QID|63613|M|67.01,48.93|Z|The Maw|QO|1<4|NC|N|Click the outline of the Death Gate to summon it.|
+C Clip Their Wings|QID|63615|M|64.56,63.91|Z|The Maw|N|Target the Helsworn Soulbreakers and use the chains collected by killing Helsworn in the area.|US|U|185742|
 T Weapon in Hand|QID|63614|M|PLAYER|Z|The Maw|N|To Thrall.|
-T What We Wish to Be|QID|63613|M|PLAYER|Z|The Maw|N|To Baroness Draka.|
+T Gates of the Damned|QID|63613|M|PLAYER|Z|The Maw|N|To Baroness Draka.|
 T Clip Their Wings|QID|63615|M|PLAYER|Z|The Maw|N|To Baroness Draka.|
 A A Job Done Right|QID|63616|PRE|63614&63613&63615|M|PLAYER|Z|The Maw|N|From Baroness Draka.|
 C A Job Done Right|QID|63616|M|68.68,52.90|Z|The Maw|QO|1|NC|N|Click on the Beacon Outline.|
@@ -245,7 +245,7 @@ A Forsworn and Forgotten|QID|63619|PRE|63617|M|65.61,46.10|Z|The Maw|N|From Fall
 C What Maldraxxus Does Best|QID|63618|M|64.82,40.28|Z|The Maw|N|Kill Helya's Mawsworn in the area.|S|
 C Forsworn and Forgotten|QID|63619|M|65.46,39.01|Z|The Maw|NC|N|Click on Forsworn Prisoners on the ground to release them.|
 C What Maldraxxus Does Best|QID|63618|M|64.82,40.28|Z|The Maw|N|Kill Helya's Mawsworn in the area.|US|
-T Forsworn and Forgotten|QID|63619|M|PLAYER|Z|The Maw|
+T Forsworn and Forgotten|QID|63619|M|PLAYER|Z|The Maw|N|To Ui Alert.|
 T What Maldraxxus Does Best|QID|63618|M|PLAYER|Z|The Maw|N|To Baroness Draka.|
 A A Traitor's Due|QID|63620|PRE|63619&63618|M|PLAYER|Z|The Maw|N|From Baroness Draka.|
 C A Traitor's Due|QID|63620|M|61.33,41.23|Z|The Maw|N|Kill Baron Vyraz.|
@@ -253,7 +253,7 @@ T A Traitor's Due|QID|63620|M|61.97,41.54|Z|The Maw|N|To Baroness Draka.|
 A Victory in Our Name|QID|63622|PRE|63620|M|61.97,41.54|Z|The Maw|N|From Baroness Draka.|
 P Keeper's Respite|ACTIVE|63622|M|61.56,40.74|Z|The Maw|N|Take the portal to Keeper's Respite.|
 C Victory in Our Name|QID|63622|M|60.28,27.34|Z|1961;Korthia|CHAT|N|Speak with Draka.|
-T Victory in Our Name|QID|63622|M|62.99,25.38|Z|1961;Korthia|N|To The Primus.|
+T Victory in Our Name|QID|63622|M|62.83,26.38|Z|1961;Korthia|N|To The Primus.|
 
 ; The Unseen Guests
 A Dreadlords!|QID|63659|M|65.02,22.91|Z|1961;Korthia|N|From Baroness Vashj.|REN|50|
