@@ -39,9 +39,9 @@ l [item=23449/Khorium Bar]|QID|202000004|L|23449 6|ITEM|23449|N|You'll need appr
 l [item=21884/Primal Fire]|QID|202000004|L|21884 6|ITEM|21884|N|You'll need approx 6 Primal Fire (upto 15).|
 N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
-= Learn [spell=264479/Outland Engineering]|QID|202264479|M|43.6,65.0|Z|1955; Shattrath City|SPELL|Engineering;264479|LVL|50|N|Learn from Engineer Sinbei, in Shattrath City. Or in main Hub area in Hellfire Peninsula.|
-= Learn [spell=264479/Outland Engineering]|QID|202264479|M|54.8,38.6|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Engineering;264479|LVL|50|N|Learn from Zebig, in Thrallmar, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Horde|
-= Learn [spell=264479/Outland Engineering]|QID|202264479|M|55.6,65.6|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Engineering;264479|LVL|50|N|Learn from Lebowski, in Honor Hold, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=264479/Outland Engineering]|QID|202264479|M|43.6,65.0|Z|111;Shattrath City|SPELL|Engineering;264479|LVL|50|N|Learn from Engineer Sinbei, in Shattrath City. Or in main Hub area in Hellfire Peninsula.|
+= Learn [spell=264479/Outland Engineering]|QID|202264479|M|54.8,38.6|Z|100;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Engineering;264479|LVL|50|N|Learn from Zebig, in Thrallmar, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264479/Outland Engineering]|QID|202264479|M|55.6,65.6|Z|100;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Engineering;264479|LVL|50|N|Learn from Lebowski, in Honor Hold, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Alliance|
 
 M [item=23783/Handful of Fel Iron Bolts]|QID|202030305|P|Engineering;202;1+20;1|L|23783 126|ITEM|23783|CRAFT|30305 126|MATS|23445 1|N|This step might clear before you hit 20, don't worry, a few other items will help you reach 20. Just make sure you have at least 126!|
 M [item=23781/Elemental Blasting Powder]|QID|202030303|P|Engineering;202;1+20;1|L|23781 10|ITEM|23781|CRAFT|30303 10|MATS|22574 1;22573 2|N|This step might clear before you hit 20, don't worry, a few other items will help you reach 20 Just make sure you have at least 10!|
@@ -52,10 +52,10 @@ B [item=23811/Schematic - White Smoke Flare]|QID|202000351|P|Engineering;202;1+3
 U [item=23811/Schematic - White Smoke Flare]|QID|202000351|U|23811|N|Use [item=23811/Schematic - White Smoke Flare] to learn [spell=30341/White Smoke Flare].|
 M [item=23768/White Smoke Flare]|QID|202030341|P|Engineering;202;1+55;1|ITEM|23768|CRAFT|30341 40|MATS|23781 1;21877 1|N|This is an approximate number, you may need to make more or less.|
 M [item=23786/Khorium Power Core]|QID|202030308|P|Engineering;202;1+60;1|L|23786 6|ITEM|23786|CRAFT|30308 6|MATS|23449 3;21884 1|N|You only need 6, dont worry about not reaching 60. This step will clear once you have six.|
-B [spell=30313/Adamantite Rifle]|QID|202000501|M|64.8,69.6|Z|1955; Shattrath City|P|Engineering;202;1+50|N|Purchase [item=23799/Schematic - Adamantite Rifle] from Viggz Shinesparked in Lower City, Shattrath City.|
+B [spell=30313/Adamantite Rifle]|QID|202000501|M|64.8,69.6|Z|111;Shattrath City|P|Engineering;202;1+50|N|Purchase [item=23799/Schematic - Adamantite Rifle] from Viggz Shinesparked in Lower City, Shattrath City.|
 U [item=23799/Schematic - Adamantite Rifle]|QID|202000501|U|23799|N|Use [item=23799/Schematic - Adamantite Rifle] to learn [spell=30313/Adamantite Rifle].|
 M [item=23746/Adamantite Rifle]|QID|202030313|P|Engineering;202;1+70;1|ITEM|23746|CRAFT|30313 17|MATS|23782 3;23784 2;23783 4|
-K Gan'arg Analyzer|QID|202003601|M|28.6,45.6;32.8,52.0;31.6,63.0;27.8,68.2|CN|Z|1949; Blade's Edge Mountain|ITEM|34114|RECIPE|44391|N|Kill the Analyzers (Simon Unit) in these areas until [item=34114/Schematic - Field Repair Bot 110G] Drops. This step SHOULD clear, once it drops.|
+K Gan'arg Analyzer|QID|202003601|M|28.6,45.6;32.8,52.0;31.6,63.0;27.8,68.2|CN|Z|105;Blade's Edge Mountain|ITEM|34114|RECIPE|44391|N|Kill the Analyzers (Simon Unit) in these areas until [item=34114/Schematic - Field Repair Bot 110G] Drops. This step SHOULD clear, once it drops.|
 U [item=34114/Schematic - Field Repair Bot 110G]|QID|202000251|U|34114|N|Use [item=34114/Schematic - Field Repair Bot 110G] to learn [spell=44391/Field Repair Bot 110G].|
 M [item=34113/Field Repair Bot 110G]|QID|202044391|P|Engineering;202;1+75;1|ITEM|34113|CRAFT|44391 5|MATS|23446 8;23783 8;23786 1|N|This recipe is dropped by Gan'arg Analyzers in Blade's Edge Mountain.|
 
