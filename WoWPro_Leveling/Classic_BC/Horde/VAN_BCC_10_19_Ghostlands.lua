@@ -291,7 +291,7 @@ T Return to Silvermoon|QID|9691|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord
 A The Path of the Adept|QID|9692|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor. This starts the Paladin class quest for the Blood-Tempered Ranseur, a special Polearm.\n[color=FF0000]NOTE: [/color]You're not expected to do this quest chain now. But, it's better to accept the quest now, in case you run the required dungeons.\nThis quest is easier to solo if you wait until at least lv 26.|PRE|9691|R|BloodElf|C|Paladin|
 ; ---
 ; --- Priest level 20 Undead class quest
-P Undercity|AVAILABLE|5646|49.49,14.80|Z|Silvermoon City|N|Use the Orb of Translocation located at the very back of Sunfury Spire.|R|Undead|C|Priest|
+P Undercity|AVAILABLE|5646|M|49.49,14.80|Z|Silvermoon City|N|Use the Orb of Translocation located at the very back of Sunfury Spire.|R|Undead|C|Priest|
 b Durotar|AVAILABLE|5646|M|60.71,58.78|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|R|Undead|C|Priest|
 R Orgrimmar|AVAILABLE|5646|M|45.52,12.07|Z|Durotar|R|Undead|C|Priest|
 f Orgrimmar|AVAILABLE|5646|M|45.13,63.90|Z|Orgrimmar|N|Get the flight path from Doras.|R|Undead|C|Priest|
