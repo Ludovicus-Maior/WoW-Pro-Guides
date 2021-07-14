@@ -1,3 +1,24 @@
+# Release 9.1.0-A1 / 1.13.7-B1 / 2.5.1-B1
+## Bug Fixes
+* On FAILed quests, uncomplete all steps for that quest
+* When printing player location, also add the area ID
+
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Duskwood
+* Horde: Nagrand, Dragonblight
+* Neutral: Chains of Domination, Maldraxxus
+### Classic Leveling
+* None
+### Burning Crusade Classic Leveling
+* Alliance: Hellfire Peninsula, Zangarmarsh
+* Horde: Ghostlands
+### Professions
+* Classic: Alch, BS, Ench, Tailor
+* BCC: Alch, BS, Ench, Tailor
+* Retail: Eng
+
 # Release 9.1.0-A0 / 1.13.7-B0 / 2.5.1-B0
 ## Bug Fixes
 * Expand map scanning from 2000 to 2500 as Blizzard grows the world.
