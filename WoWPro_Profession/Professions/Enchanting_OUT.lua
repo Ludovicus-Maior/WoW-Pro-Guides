@@ -38,9 +38,9 @@ l [item=22450/Void Crystal]|QID|333000004|L|22450 12|ITEM|22450|N|You'll need at
 l [item=22792/Nightmare Vine]|QID|333000004|L|22792 15|ITEM|22792|N|You'll need at least 15 Nightmare Vines.|
 B [item=38682/Enchanting Vellum]|QID|333000004|L|38682 81|ITEM|38682|N|You'll need at least 81 Enchanting Vellums.|
 N Couple Recipes to Buy|QID|333000006|N|There are a couple recipes to go buy, that you'll need for later.|
-B [spell=28019/Superior Wizard Oil]|QID|333028019|M|63.6,70.0|Z|Shattrath City|RECIPE|13419|N|Purchase [item=22563/Formula: Superior Wizard Oil] from Madame Ruby, Shattrath City.|
-B [spell=34009/Formula: Enchant Shield - Major Stamina]|QID|333034009|M|63.6,70.0|Z|Shattrath City|RECIPE|34009|N|Purchase [item=28282/Formula: Enchant Shield - Major Stamina] from Madame Ruby, Shattrath City.|
-B [spell=42615/Formula: Large Prismatic Shard]|QID|333000351|M|63.6,70.0|Z|Shattrath City|RECIPE|28022|N|Purchase [item=22565/Formula: Large Prismatic Shard] from Madame Ruby, Shattrath City.|
+B [spell=28019/Superior Wizard Oil]|QID|333028019|M|63.6,70.0|Z|111;Shattrath City|RECIPE|13419|N|Purchase [item=22563/Formula: Superior Wizard Oil] from Madame Ruby, Shattrath City.|
+B [spell=34009/Formula: Enchant Shield - Major Stamina]|QID|333034009|M|63.6,70.0|Z|111;Shattrath City|RECIPE|34009|N|Purchase [item=28282/Formula: Enchant Shield - Major Stamina] from Madame Ruby, Shattrath City.|
+B [spell=42615/Formula: Large Prismatic Shard]|QID|333000351|M|63.6,70.0|Z|111;Shattrath City|RECIPE|28022|N|Purchase [item=22565/Formula: Large Prismatic Shard] from Madame Ruby, Shattrath City.|
 
 N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
