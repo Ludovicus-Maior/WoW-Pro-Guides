@@ -19,7 +19,7 @@ T Blood Oath of the Horde |QID|11983|M|12.8,48.5|N|To Emissary Brighthoof.|
 A Agmar's Hammer |QID|12008|M|12.8,48.5|PRE|11983|N|From Emissary Brighthoof.|
 T Agmar's Hammer |QID|12008|M|38.1,46.3|N|To Overlord Agmar.|
 A Victory Nears... |QID|12034|M|38.1,46.3|N|From Overlord Agmar.|
-A Rifle the Bodies |QID|11999|PRE|11996|M|38.1,46.2|N|From the Image of Archmage Aethas Sunreaver.|
+A Rifle the Bodies |QID|11999|LEAD|11996|M|38.1,46.2|N|From the Image of Archmage Aethas Sunreaver.|
 A WANTED: Dreadtalon |QID|12091|N|From the Wanted! Poster.|M|37.66,46.56|
 A WANTED: Gigantaur |QID|12090|N|From the Wanted! Poster.|M|37.66,46.56|
 A WANTED: Magister Keldonus |QID|12089|N|From the Wanted! Poster.|M|37.66,46.56|
