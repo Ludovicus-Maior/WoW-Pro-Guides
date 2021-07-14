@@ -392,7 +392,7 @@ A A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|From Ta'eran.|PRE|59994|
 C A Complete Set|QID|58623|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Click on the books around in the shelves.|
 C A Complete Set|QID|58623|M|42.14,23.30|QO|2|Z|Maldraxxus|NC|N|Click on the pages flying around the room.|
 T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|ACH|14799;2|
-R Spider's Watch|QID|1|ACTIVE|60733|CS|M|40.51,32.84;37.56,29.21|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run back to Spidar's Watch.|
+R Spider's Watch|QID|1|ACTIVE|60733|CS|M|40.51,32.84;37.56,29.21|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run back to Spider's Watch.|
 F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|Z|Maldraxxus|N|Fly back to Bleak Redoubt.|MS|
 
 R High Stand|QID|59867|ACTIVE|59867|QO|1|M|52.12,24.18|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run to High Stand, be careful you are attempting to bypass some lvl 60/61 mobs.|TOF|
