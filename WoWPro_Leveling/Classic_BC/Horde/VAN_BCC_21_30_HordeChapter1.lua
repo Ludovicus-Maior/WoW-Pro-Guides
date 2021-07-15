@@ -9,8 +9,8 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A Boulderslide Ravine|QID|6421|M|47.22,64.05|N|From Mor'rogal. You'll find him just off the Charred Vale path\n[color=FF0000]NOTE: [/color]The path is in east corner. Look for the sign.|
-h Sun Rock Retreat|QID|1483|M|47.46,62.13|N|Head back down the path to the 'Inn' and set your hearthstone to Sun Rock Retreat.|
-R Windshear Crag|ACTIVE|1483|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
+h Sun Rock Retreat|ACTIVE|1483|M|47.46,62.13|N|Head back down the path to the 'Inn' and set your hearthstone to Sun Rock Retreat.|
+R Windshear Crag|ACTIVE|1483|M|49.5,61.0;53.1,61.6;59.9,71.1|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
 T Ziz Fizziks|QID|1483|M|58.99,62.61|N|Follow the road into Windshear Crag. Ziz Fizziks is inside a hut in a SW alcove.|
 A Super Reaper 6000|QID|1093|M|58.99,62.61|N|From Ziz Fizziks.|PRE|1483|
 C Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|S|
@@ -22,11 +22,11 @@ K Goblin Invaders|ACTIVE|1062|QO|1|N|Finish killing Venture Co. Loggers.\n[color
 T Super Reaper 6000|QID|1093|M|58.99,62.61|N|To Ziz Fizziks.|
 A Further Instructions|QID|1094|M|58.99,62.61|N|From Ziz Fizziks.|PRE|1093|
 R Webwinder Path|ACTIVE|6421|M|59.79,71.19|N|Make your way back to the signpost at the Windshear Crag entrance.|
-A Arachnophobia|QID|6284|M|59.08,75.72|ELITE|N|Follow the road south and get the quest from the Wanted Poster located beside the road.\n[color=FF0000]NOTE: [/color]Strongly recommended only to accept this quest if you are over level or can find a PUG to do this. Bessaleth is a lv 21 Elite mob.|
-R Sishir Canyon|ACTIVE|6284|M|58.25,75.98|N|Head over the hill into Sishir Canyon.|
-K Bessaleth|ACTIVE|6284|L|16192|N|Bessaleth is somewhere in here. She has multiple spawn points. Generally, you'll find her in one of the alcoves along the edge.|
+A Arachnophobia|QID|6284|M|59.07,75.71|N|From the Wanted Poster, located beside the road.|
+R Sishir Canyon|ACTIVE|6461^6284|M|58.18,76.03|N|Follow the path west up the hill.|IZ|1442;Silverpine Forest|
+K Bessaleth|ACTIVE|6284|M|53.48,74.52|L|16192|N|Bessaleth is a lv 21 mob with multiple spawn points. You'll find her in one of the alcoves along the edge.|T|Bessaleth|
 R Webwinder Path|ACTIVE|6421&6284|M|58.25,75.98|N|Exit Sishir Canyon and head back to the road.|
-R Boulderslide Ravine|ACTIVE|6421|M|67.69,86.82;66.24,89.37|CC|N|Follow the road south.|
+R Boulderslide Ravine|ACTIVE|6421|M|67.7,86.8;66.24,89.37|CC|N|Follow the road south.|
 C Boulderslide Ravine|QID|6421|L|16581 10|N|Collect Resonite Crystals.|S|
 R Boulderslide Cavern|ACTIVE|6421|M|61.98,93.16|N|Make your way to the cave entrance.|
 R Investigate Cave|ACTIVE|6421|M|58.95,90.12|QO|2|N|Make your way to the water at the back of the cave to complete this step.|
@@ -37,7 +37,7 @@ R Malaka'jin|AVAILABLE|1058|M|71.82,91.70|CC|N|Follow the road south to Malaka'j
 A Jin'Zil's Forest Magic|QID|1058|M|74.54,97.94|N|From Witch Doctor Jin'Zil.|
 
 ; --- The Barrens
-R The Barrens|ACTIVE|1062|M|72.95,93.74;83.53,97.88|CC|N|Exit Malaka'jin by taking the 'shortcut' along the canyon wall south to The Barrens border.|
+R The Barrens|ACTIVE|1062|M|72.9,93.7;83.53,97.88|CC|N|Exit Malaka'jin by taking the 'shortcut' along the canyon wall south to The Barrens border.|
 T Goblin Invaders|QID|1062|M|35.26,27.88|Z|The Barrens|N|To Seereth Stonebreak.|
 A The Elder Crone|QID|1063|M|35.26,27.88|Z|The Barrens|N|From Seereth Stonebreak.|PRE|1062|
 A Shredding Machines|QID|1068|M|35.26,27.88|Z|The Barrens|N|From Seereth Stonebreak.|PRE|1062|
@@ -46,89 +46,47 @@ T Arachnophobia|QID|6284|M|47.20,61.16|N|To Maggran Earthbinder.|
 T Boulderslide Ravine|QID|6421|M|47.22,64.05|N|To Mor'rogal at his camp in the hills overlooking Sun Rock.|
 A Earthen Arise|QID|6481|M|47.22,64.05|ELITE|N|From Mor'rogal.|PRE|6421|
 F Thunder Bluff|ACTIVE|1063|M|45.13,59.84|N|Fly to Thunder Bluff.|
-T The Elder Crone|QID|1063|M|69.86,30.93|Z|Thunder Bluff|N|To Magatha Grimtotem.|
+T The Elder Crone|QID|1063|M|69.86,30.93|Z|Thunder Bluff|N|To Magatha Grimtotem, on Elder Rise.|
 A Forsaken Aid|QID|1064|M|69.86,30.93|Z|Thunder Bluff|N|From Magatha Grimtotem.|PRE|1063|
 R The Pools of Vision|ACTIVE|1064|M|30.50,30.48|CC|Z|Thunder Bluff|
 T Forsaken Aid|QID|1064|M|22.84,20.93|Z|Thunder Bluff|N|To Apothecary Zamah.|
 A Journey to Tarren Mill|QID|1065|M|22.84,20.93|Z|Thunder Bluff|N|From Apothecary Zamah.|PRE|1064|
 
 ; --- Ashenvale
-F Splintertree Post|AVAILABLE|6571|M|47.02,49.83|Z|Thunder Bluff|
-A Warsong Supplies|QID|6571|M|71.40,67.64|Z|Ashenvale|N|From Locke Okarr; by the south watchtower.|
+F Splintertree Post|AVAILABLE|6571|M|47.02,49.83|Z|Thunder Bluff|N|Fly to Ashenvale to get a quest you'll need.|
+A Warsong Supplies|QID|6571|M|71.40,67.64|Z|Ashenvale|N|From Locke Okarr; by the south watchtower.\n[color=FF0000]NOTE: [/color]You'll want to have this quest on you as you collect the items along the way.|
 
 ; --- Silverpine Forest
-F Orgrimmar|AVAILABLE|437^443|M|73.18,61.59|Z|Ashenvale|N|Fly to Orgrimmar.|IZ|1440|
-h Orgrimmar|AVAILABLE|437^443|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|IZ|1454|
-b Tirisfal Glades|AVAILABLE|437^443|M|50.88,13.83|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
+F Orgrimmar|AVAILABLE|493|M|73.18,61.59|Z|Ashenvale|N|Fly to Orgrimmar.|IZ|1440;Ashenvale|
+h Orgrimmar|AVAILABLE|493|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|IZ|1454;Orgrimmar|
+b Tirisfal Glades|AVAILABLE|493|M|50.88,13.83|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
 ; --- If you don't have the FP in Undercity
-R Undercity|AVAILABLE|437^443|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|TAXI|-Undercity|
-f Undercity|AVAILABLE|437^443|M|63.26,48.54|Z|Undercity|N|Grab the flight path from Michael Garrett.|TAXI|-Undercity|
+R Undercity|AVAILABLE|493|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|TAXI|-Undercity|
+f Undercity|AVAILABLE|493|M|63.26,48.54|Z|Undercity|N|Grab the flight path from Michael Garrett.|TAXI|-Undercity|
 ; If you have the FP in Sepulcher
-R Undercity|AVAILABLE|437^443|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|TAXI|Undercity|
-F The Sepulcher|AVAILABLE|437^443|M|63.26,48.54|Z|Undercity|TAXI|The Sepulcher|IZ|1458|
+R Undercity|AVAILABLE|493|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|TAXI|Undercity|
+F The Sepulcher|AVAILABLE|493|M|63.26,48.54|Z|Undercity|TAXI|The Sepulcher|IZ|1458;Undercity|
 ; If you don't have the FP in Sepulcher
-R Leave Undercity|AVAILABLE|437^443|M|65.99,36.85;66.22,0.90|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|TAXI|-The Sepulcher|IZ|1458|
+R Leave Undercity|AVAILABLE|493|M|65.99,36.85;66.22,0.90|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|TAXI|-The Sepulcher|IZ|1458;Undercity|
 ; --- If you don't have the FP in Sepulcher but do have the FP in Undercity (No point going in if you can't go anywhere)
-R Silverpine Forest|AVAILABLE|437^443|M|54.46,74.62|Z|Tirisfal Glades|N|Head over to the road and follow it south into Silverpine Forest.|TAXI|-The Sepulcher|
-R The Sepulcher|AVAILABLE|437^443|M|46.21,41.59|N|Head south until you reach the Sepulcher.|TAXI|-The Sepulcher|
-f The Sepulcher|AVAILABLE|437^443|M|45.62,42.60|N|Karos Razok|TAXI|-The Sepulcher|
+R Silverpine Forest|AVAILABLE|493|M|54.46,74.62|Z|Tirisfal Glades|N|Head over to the road and follow it south into Silverpine Forest.|TAXI|-The Sepulcher|
+R The Sepulcher|AVAILABLE|493|M|46.21,41.59|N|Head south until you reach the Sepulcher.|TAXI|-The Sepulcher|
+f The Sepulcher|AVAILABLE|493|M|45.62,42.60|N|Karos Razok|TAXI|-The Sepulcher|
 ; ---
-; --- Get and complete prequels if not done yet
-A The Dead Fields|QID|437|M|43.43,40.86|N|You'll find High Executor Hadrec down the stairs inside the crypt.|
-C The Dead Fields|QID|437|M|45,21|QO|1;2|N|Head SW to the Dead Fields. Nightlash may already be spawned in the middle of the field. But, if she isn't, kill all the Rot Hide Gnolls you see until she does.\n[color=FF0000]NOTE: [/color]You will want to clear the mobs as you go. They can overwhelm you quite easily.|
-R The Sepulcher|AVAILABLE|438|M|46.30,41.55|Z|Silverpine Forest|N|Make your way back to The Sepulcher. Dealer's choice on how you wish to get there.|
-T The Dead Fields|QID|437|M|43.14,41.37;43.43,40.86|CS|N|To High Executor Hadrec inside the Crypt.|
-A The Decrepit Ferry|QID|438|M|43.43,40.86|N|From High Executor Hadrec.|PRE|437|
-R The Decrepit Ferry|ACTIVE|438|M|51.21,36.73;52.05,38.40;58.34,34.95|CC|N|Go to the Decrepit Ferry.\nBy sticking to the hillside around the edge, you can avoid some unnecessary fighting. The mobs in this area (Hand of Ravenclaw) can hit hard and they roam considerably.|
-T The Decrepit Ferry|QID|438|M|58.34,34.95|N|Click the Decrepit Ferry.|
-A Rot Hide Clues|QID|439|M|58.34,34.95|N|From the Decrepit Ferry.|PRE|438|
-T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.\nFollow the hillside just like you did to get here.|
-; ---
-A Rot Hide Ichor|QID|443|M|43.43,40.86|Z|Silverpine Forest|N|From High Executor Hadrec inside the crypt.|PRE|439|
-R Fenris Isle|ACTIVE|443|M|52.34,37.21;58.75,35.43;64.79,34.60;65.63,32.89|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
-N A Talking Head|AVAILABLE|460|N|This item starts a side quest chain and is found by killing the Gnolls.\nIt has a 3% drop rate.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|RANK|3|IZ|172|S!US|
-A Resting in Pieces|QID|460|N|Click on the 'Talking Head' to start the quest.\n[color=FF0000]NOTE: [/color]Do this as soon as you get it.|U|3317|O|
-C Rot Hide Ichor|QID|443|L|3236 8|N|Kill Rot Hide Gnolls for the Ichor.|S|
-T Resting in Pieces|QID|460|M|67.87,24.86|Z|Silverpine Forest|N|Click on the Shallow Grave to turn in the quest.|
-A The Hidden Niche|QID|461|M|67.87,24.86|Z|Silverpine Forest|N|From the Shallow Grave.|PRE|460|
-R The Dusty Shelf|ACTIVE|461|M|65.73,24.40;65.60,23.41;65.67,23.89;65.28,23.45;65.09,23.31;65.34,24.81|Z|Silverpine Forest|CC|N|Head inside Fenris Keep and upstairs to the Dusty Shelf.\n[color=FF0000]NOTE: [/color]You can find yourself overwhelmed very easily by the number and close proximity of the mobs to each other. Take your time and advance slowly to avoid unwanted attention. These mobs don't run, but there are roamers that can sneak up on you.\nIf you happen to die, go all the way to the roof and respawn up there.|
-T The Hidden Niche|QID|461|M|65.34,24.81|Z|Silverpine Forest|N|Click on the Dusty Shelf.|
-A Wand to Bethor|QID|491|M|65.34,24.81|Z|Silverpine Forest|N|From the Dusty Shelf.|PRE|461|
-R Fight or Flight|ACTIVE|491|M|65.39,23.23|Z|Silverpine Forest|CC|N|You can either fight your way back out, or walk to the north edge of the roof and jump to the wall. Drop to the ground from here.|
-C Rot Hide Ichor|QID|443|QO|1|N|Finish killing the Rot Hide Gnolls for the Ichor.|US|
-R The Sepulcher|ACTIVE|443|M|46.30,41.55|Z|Silverpine Forest|N|Make your way back to The Sepulcher. Dealer's choice on how you wish to get there.|
-
-T Rot Hide Ichor|QID|443|M|42.89,40.86|Z|Silverpine Forest|N|To Apothecary Renferrel.|
-A Rot Hide Origins|QID|444|M|42.89,40.86|Z|Silverpine Forest|N|From Apothecary Renferrel.|PRE|443|
-F Undercity|ACTIVE|491^444|M|45.62,42.60|Z|Silverpine Forest|
-
-T Wand to Bethor|QID|491|M|84.06,17.44|Z|Undercity|N|To Bethor Iceshard; in the Magic Quarter.|
-T Rot Hide Origins|QID|444|M|84.06,17.44|Z|Undercity|N|To Bethor Iceshard.|
-A Thule Ravenclaw|QID|446|M|84.06,17.44|Z|Undercity|N|From Bethor Iceshard.|PRE|444|
-A A Husband's Revenge|QID|530|M|62.02,42.75|Z|Undercity|N|From Raleigh Andrean in the Trade Quarter.|PRE|441|
-F The Sepulcher|ACTIVE|446|M|63.26,48.54|Z|Undercity|
-
-T Thule Ravenclaw|QID|446|M|42.88,40.84|Z|Silverpine Forest|N|To Apothecary Renferrel.\n[color=FF0000]NOTE: [/color]Make sure you hold onto the Bethor's Potion. You are going to need it later.|
-A Report to Hadrec|QID|448|M|42.88,40.84|Z|Silverpine Forest|N|From Apothecary Renferrel.|PRE|446|
 A Journey to Hillsbrad Foothills|QID|493|M|42.89,40.86|Z|Silverpine Forest|N|From Apothecary Renferrel.|
-T Report to Hadrec|QID|448|M|43.43,40.86|Z|Silverpine Forest|N|To High Executor Hadrec.|
 A Beren's Peril|QID|516|M|43.98,40.93|Z|Silverpine Forest|N|From Shadow Priest Allister.|
-A The Weaver|QID|480|M|43.98,40.93|Z|Silverpine Forest|N|From Shadow Priest Allister.|PRE|479|
-
-R Ambermill|ACTIVE|480|M|51.34,36.98;55.71,64.46|Z|Silverpine Forest|CC|N|Make your way to Ambermill.|IZ|1421|
-C The Weaver|QID|480|M|63.40,64.28|Z|Silverpine Forest|L|3515|N|Kill Ataeric and loot his staff.\n[color=FF0000]NOTE: [/color]You have to get past 2 Conjurers (plus their voidwalkers) and 2 Warders to get to Ataeric. You can aggro the mages one at a time. But, it's not easy. You may find a Dalaran Spellscribe (a non-elite rare spawn) in the room as well.\nMake sure you take out the Conjurer and Voidwalker that path in and out of the building. You'll be using the foyer to fight the mobs inside the room and you don't want them sneaking up on you.\n\nAtaeric won't stand still. He is a Frost mage who likes to keep his distance. If you don't clear the room, you'll end up fighting the entire room at the same time.|
-R Beren's Peril|ACTIVE|516|M|61.53,64.61;62.88,72.15;60.44,74.46;60.54,73.35|Z|Silverpine Forest|CC|N|Exit the building and follow the road south out of Ambermill. Stick to the mountains on the east side (right) and follow them around the bend.|IZ|1421|
-R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way to the cave entrance.|IZ|1421|
+R Olsen's Farthing|ACTIVE|516^1065|M|48.35,52.32|Z|Silverpine Forest|
+R Hillsbrad Foothills|ACTIVE|-516&1065|M|52.0,51.9;67.00,80.28|Z|Silverpine Forest|CC|N|Follow the road to the main road. Head south on the main road to the bend and continue east to the Silverpine Forest/Hillsbrad Foothills border.|
+R Beren's Peril|ACTIVE|516|M|52.7,55.2;62.8,72.1;60.4,74.4;60.54,73.35|Z|Silverpine Forest|CC|N|Make your way east to the road and follow it south to the big bend. the path is a bitnorth of the road.|IZ|1421;Silverpine Forest|
+R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way to the cave entrance.|IZ|1421;Silverpine Forest|
 K Beren's Peril|ACTIVE|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|
-R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way back to the cave entrance.|IZ|1421|
-R The Greymane Wall|QID|530|M|59.70,77.90;53.67,72.47;51.10,72.45;46.89,83.45|Z|Silverpine Forest|CC|N|Exit the cave and head back to the road. Follow the road west to the first intersection and continue west to the next intersection. From here, go south to The Greymane Wall.|IZ|1421|
-C A Husband's Revenge|QID|530|M|46.06,85.64|Z|Silverpine Forest|L|3613|N|Kill Valdred Moray and loot his hands. He paths back and forth in front of the gate.|
-R Hillsbrad Foothills|ACTIVE|1065|M|51.10,72.45;53.67,72.47;67.00,80.28|Z|Silverpine Forest|CC|N|Head back to the main road. Continue east on the main road to the Silverpine Forest/Hillsbrad Foothills border.|
+R Exit Cave|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way back to the cave entrance.|IZ|1421;Silverpine Forest|
+R Hillsbrad Foothills|ACTIVE|516&1065|M|51.1,72.4;53.6,72.4;67.00,80.28|Z|Silverpine Forest|CC|N|Head back to the main road and continue east on the main road to the Silverpine Forest/Hillsbrad Foothills border.|
 
 ; --- Hillsbrad Foothills
 A Time To Strike|QID|494|M|20.79,47.36|Z|Hillsbrad Foothills|N|From Deathstalker Lesh at Southpoint Tower.|
-R Tarren Mill|QID|494|M|57.65,36.61;55.86,19.60|Z|Hillsbrad Foothills|CC|N|Follow the road to Tarren Mill.|
-f Tarren Mill|QID|494|M|60.09,18.67|Z|Hillsbrad Foothills|N|At Zarise.|
+R Tarren Mill|ACTIVE|1065|M|57.6,36.6;55.86,19.60|Z|Hillsbrad Foothills|CC|N|Follow the road to Tarren Mill.|
+f Tarren Mill|ACTIVE|1065|M|60.09,18.67|Z|Hillsbrad Foothills|N|At Zarise.|
 T Journey to Tarren Mill|QID|1065|M|61.44,19.06|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
 A Blood of Innocents|QID|1066|M|61.44,19.06|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|1065|
 T Journey to Hillsbrad Foothills|QID|493|M|61.44,19.06|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
@@ -138,7 +96,7 @@ T Time To Strike|QID|494|M|62.28,20.25|Z|Hillsbrad Foothills|N|To High Executor 
 A Battle of Hillsbrad|QID|527|M|62.28,20.25|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 A WANTED: Syndicate Personnel|QID|549|M|62.62,20.73|Z|Hillsbrad Foothills|N|From the Wanted post beside the Chapel entrance.|
 A The Rescue|QID|498|M|63.20,20.66|Z|Hillsbrad Foothills|N|From Krusk.|
-C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears for their Tongue.|S|IZ|-Durnholde Keep|
+C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears for their Tongue.|S|IZ|-Durnholde Keep| ; Durnholde Keep doesn't have an AreaID
 C Kill Moss Creepers|QID|496|L|3477 1|N|Kill Moss Creepers for the Creeper Ichor.\nThis shouldn't take long.|S|IZ|-Durnholde Keep|
 C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions for vials of their blood.|S|IZ|-Durnholde Keep|
 R Durnholde Keep|ACTIVE|498|M|76.08,47.11|Z|Hillsbrad Foothills|N|Make your way to the Durnholde Keep entrance.|
@@ -147,7 +105,7 @@ C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials 
 K Jailer Eston|ACTIVE|498|M|79.6,40.6|Z|Hillsbrad Foothills|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
 K Jailor Marlgen|ACTIVE|498|L|3499|N|Kill Jailor Marlgen to loot the Burnished Gold Key to free Tog'thar.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
 C The Rescue|QID|498|M|79.74,39.64|Z|Hillsbrad Foothills|QO|2|U|3499|N|Rescue Tog'thar.|NC|
-C The Rescue|QID|498|M|77.40,42.81;75.50,38.76;75.18,41.64|Z|Hillsbrad Foothills|CC|QO|1|U|3467|N|Rescue Drull.\n[color=FF0000]NOTE: [/color]Run along the stone wall west of the bridge, drop down to the ground behind the buildings, and follow the wall around to the backdoor.\nHe has a rogue, a mage and a Watchmen guarding him. If you approach by the rear door, you'll only have to pull the Watchmen. As long as the Watchmen doesn't run back inside and you stick to the west wall, you shouldn't aggro the other two.\n\nSometimes Jailor Eston will spawn inside. He can be pulled singly as well.|NC|
+C The Rescue|QID|498|M|77.40,42.81;75.50,38.76;75.18,41.64|Z|Hillsbrad Foothills|CC|QO|1|N|Rescue Drull.\n[color=FF0000]NOTE: [/color]Run along the stone wall west of the bridge, drop down to the ground behind the buildings, and follow the wall around to the backdoor.\nHe has a rogue, a mage and a Watchmen guarding him. If you approach by the rear door, you'll only have to pull the Watchmen. As long as the Watchmen doesn't run back inside and you stick to the west wall, you shouldn't aggro the other two.\n\nSometimes Jailor Eston will spawn inside. He can be pulled singly as well.|U|3467|NC|
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|US|
 C WANTED: Syndicate Personnel|QID|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|US|
 R Tarren Mill|ACTIVE|549|M|62.38,28.44|Z|Hillsbrad Foothills|
@@ -168,11 +126,6 @@ T Elixir of Pain|QID|501|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lyd
 ; --- Silverpine Forest
 F The Sepulcher|ACTIVE|516^480|M|60.19,18.69|Z|Hillsbrad Foothills|
 T Beren's Peril|QID|516|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
-T The Weaver|QID|480|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
-
-; --- Undercity
-F Undercity|ACTIVE|530|M|45.62,42.60|Z|Silverpine Forest|N|Fly to Undercity.|
-T A Husband's Revenge|QID|530|M|62.00,42.73|Z|Undercity|N|To Raleigh Andrean.|
 
 ; --- Thunder Bluff
 N Quick visit back to the Barrens|ACTIVE|1067|N|This is probably the best time to make a quick trip back to Thunder Bluff to turn in a quest and to do any training (especially Druids). The goal is to be lv 25 when you return to Silverpine Forest.|
@@ -208,11 +161,11 @@ K XT:9|ACTIVE|1068|QO|2|N|Kill XT:9. It patrols the south side of the river.|T|X
 U The Flying Machine Airport|QID|1086|M|66.48,45.40|U|5638|N|Place the Toxic Fogger here.|
 C Gerenzo Wrenchwhistle|QID|1096|M|70.40,40.93;67.99,37.79;64.61,37.96;62.84,40.49|CS|L|5736|N|Make your way to the path leading up to the structure. Once you are there, work your way over to where Gerenzo is and kill him to loot his arm.|
 ;L Level 25
-N Shortcut down|ACTIVE|1096|N|Jump into the water and swim to shore.|IZ|
+N Shortcut down|ACTIVE|1096|N|Jump into the water and swim to shore.|IZ|Cragpool Lake|
 K XT:4|ACTIVE|1068|QO|1|N|Kill XT:4. It patrols the north side of the river.|T|XT:4|US|
 K XT:9|ACTIVE|1068|QO|2|N|Kill XT:9. It patrols the south side of the river.|T|XT:9|US|
 T Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.57|N|To Ziz Fizziks.|
-R Boulderslide Ravine|ACTIVE|6481|M|67.69,86.82;66.24,89.37|CC|N|Head back to the signpost at the Windshear Crag entrance and follow the road south.|
+R Boulderslide Ravine|ACTIVE|6481|M|67.7,86.8;66.24,89.37|CC|N|Head back to the signpost at the Windshear Crag entrance and follow the road south.|
 R Boulderslide Cavern|ACTIVE|6481|M|61.98,93.16|N|Make your way to the cave entrance.|
 C Earthen Arise|QID|6481|M|57.67,89.48|N|Open the Resonite cask with the Enchanted Resonite Crystal, and then slay Goggeroc.\n[color=FF0000]NOTE: [/color]Make sure you clear the mobs in the area first.|
 R Webwinder Path|ACTIVE|1068|M|61.72,93.13;67.76,86.64|CC|N|Exit the cave and make your way back to the road.|
@@ -267,7 +220,7 @@ F Thunder Bluff|ACTIVE|1086|M|45.13,59.84|
 R The Pools of Vision|ACTIVE|1086|M|30.50,30.48|Z|Thunder Bluff|
 T The Flying Machine Airport|QID|1086|M|23.06,21.07|Z|Thunder Bluff|N|To Apothecary Zamah.|
 A The Sacred Flame|QID|1195|M|54.74,51.41|Z|Thunder Bluff|N|From Zangen Stonehoof.|
-N Train|AVAILABLE|502|N|Do whatever training you need to do now. From here, we will be headed back to Tarren Mill and you won't be able to train until you return to Kalimdor.|C|Druid|
+= Train|AVAILABLE|502|N|Do whatever training you need to do now. From here, we will be headed back to Tarren Mill and you won't be able to train until you return to Kalimdor.|C|Druid|
 
 ; --- Hillsbrad Foothills
 F Orgrimmar|AVAILABLE|502|M|47.02,49.83|Z|Thunder Bluff|
