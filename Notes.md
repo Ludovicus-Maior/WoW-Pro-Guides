@@ -2,7 +2,7 @@
 ## Bug Fixes
 * On FAILed quests, uncomplete all steps for that quest
 * When printing player location, also add the area ID
-
+* Quest ID tests using the & operator may have returned bad results. _ALL_ builds have this troubling issue.
 
 ## Guide Updates
 ### Retail Leveling
