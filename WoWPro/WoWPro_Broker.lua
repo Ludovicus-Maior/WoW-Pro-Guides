@@ -72,11 +72,12 @@ local function QidMapReduce(list, default, or_string, and_string, func, why, deb
             QID = abs(QID)
         end
         local val = func(abs(QID))
+        if QID < 0 then
+            WoWPro:dbp("QidMapReduce(%s): flipping %d to %s", why, QID, tostring(not val))
+            val = not val
+        end
         if debug then
             WoWPro:dbp("QidMapReduce(%s): calling func on %d and got %s", why, QID, tostring(val))
-        end
-        if QID < 0 then
-            val = not val
         end
         if numList == 1 then
             if debug then
@@ -97,8 +98,16 @@ local function QidMapReduce(list, default, or_string, and_string, func, why, deb
             return false
         end
     end
+    if numList > 0 and do_and then
+        WoWPro:dbp("QidMapReduce(%s): do_and %d term return TRUE", why, numList)
+        return true
+    end
+    if numList > 0 and do_or then
+        WoWPro:dbp("QidMapReduce(%s): do_or %d term return FALSE", why, numList)
+        return false
+    end
     if debug then
-        WoWPro:dbp("QidMapReduce9%s): default return %s", why, tostring(default))
+        WoWPro:dbp("QidMapReduce(%s): default return %s", why, tostring(default))
     end
     return default
 end
