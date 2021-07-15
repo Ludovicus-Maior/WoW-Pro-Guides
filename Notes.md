@@ -13,10 +13,10 @@
 * None
 ### Burning Crusade Classic Leveling
 * Alliance: Hellfire Peninsula, Zangarmarsh
-* Horde: Ghostlands
+* Horde: Ghostlands, Chaper 1
 ### Professions
 * Classic: Alch, BS, Ench, Tailor
-* BCC: Alch, BS, Ench, Tailor
+* BCC: Alch, BS, Ench, Eng, Tailor
 * Retail: Eng
 
 # Release 9.1.0-A0 / 1.13.7-B0 / 2.5.1-B0
