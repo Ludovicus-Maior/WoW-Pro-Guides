@@ -40,16 +40,22 @@ local function QidMapReduce(list, default, or_string, and_string, func, why, deb
         do_or = list:find(or_string, 1, true)
         if do_or then
             split_string = or_string
+            do_or = true
+            do_and = false
         else
             split_string = and_string
+            do_and = true
+            do_or = false
         end
     else
         if or_string then
             split_string = or_string
             do_or = true
-        else
+        elseif and_string then
             split_string = and_string
             do_and = true
+        else
+            WoWPro:Error("QidMapReduce(%s): neither or_string nor and_string was specified.", why)
         end
     end
     if debug then
