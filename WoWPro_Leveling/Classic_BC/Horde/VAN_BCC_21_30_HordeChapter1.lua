@@ -85,7 +85,7 @@ R Beren's Peril|ACTIVE|516&-480|M|52.7,55.2;62.8,72.1;60.4,74.4;60.54,73.35|Z|Si
 R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way to the cave entrance.|IZ|1421;Silverpine Forest|
 K Beren's Peril|ACTIVE|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|
 R Exit Cave|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way back to the cave entrance.|IZ|1421;Silverpine Forest|
-R Hillsbrad Foothills|ACTIVE|516&1065|M|51.1,72.4;53.6,72.4;67.00,80.28|Z|Silverpine Forest|CC|N|Head back to the main road and continue east on the main road to the Silverpine Forest/Hillsbrad Foothills border.|
+R Hillsbrad Foothills|ACTIVE|516&1065|M|60.8,78.1;67.00,80.28|Z|Silverpine Forest|CC|N|Head back to the main road and continue east on the main road to the Silverpine Forest/Hillsbrad Foothills border.|
 
 ; --- Hillsbrad Foothills
 A Time To Strike|QID|494|M|20.79,47.36|Z|Hillsbrad Foothills|N|From Deathstalker Lesh at Southpoint Tower.|
@@ -103,9 +103,9 @@ A The Rescue|QID|498|M|63.20,20.66|Z|Hillsbrad Foothills|N|From Krusk.|
 C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears for their Tongue.|S|IZ|-Durnholde Keep| ; Durnholde Keep doesn't have an AreaID
 C Kill Moss Creepers|QID|496|L|3477 1|N|Kill Moss Creepers for the Creeper Ichor.\nThis shouldn't take long.|S|IZ|-Durnholde Keep|
 C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions for vials of their blood.|S|IZ|-Durnholde Keep|
-R Durnholde Keep|ACTIVE|498|M|76.08,47.11|Z|Hillsbrad Foothills|N|Make your way to the Durnholde Keep entrance.|
-C WANTED: Syndicate Personnel|QID|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|S|
-C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|S|
+R Durnholde Keep|ACTIVE|498|M|76.08,47.11|Z|Hillsbrad Foothills|N|Make your way to the Durnholde Keep entrance.\n[color=FF0000]NOTE: [/color]There is a spot on the northeast corner, and on the north side just past it, where you can enter without going through the front gates and fighting your way through.\n Be warned that your pets cannot follow you through there.|
+C WANTED: Syndicate Personnel|QID|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|S|IZ|Durnholde Keep|
+C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|S|IZ|Durnholde Keep|
 K Jailer Eston|ACTIVE|498|M|79.6,40.6|Z|Hillsbrad Foothills|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
 K Jailor Marlgen|ACTIVE|498|L|3499|N|Kill Jailor Marlgen to loot the Burnished Gold Key to free Tog'thar.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
 C The Rescue|QID|498|M|79.74,39.64|Z|Hillsbrad Foothills|QO|2|U|3499|N|Rescue Tog'thar.|NC|
