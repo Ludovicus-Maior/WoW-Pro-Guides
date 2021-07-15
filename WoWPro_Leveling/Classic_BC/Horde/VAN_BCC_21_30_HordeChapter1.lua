@@ -75,9 +75,13 @@ f The Sepulcher|AVAILABLE|493|M|45.62,42.60|N|Karos Razok|TAXI|-The Sepulcher|
 ; ---
 A Journey to Hillsbrad Foothills|QID|493|M|42.89,40.86|Z|Silverpine Forest|N|From Apothecary Renferrel.|
 A Beren's Peril|QID|516|M|43.98,40.93|Z|Silverpine Forest|N|From Shadow Priest Allister.|
+A The Weaver|QID|480|M|43.98,40.93|Z|Silverpine Forest|N|From Shadow Priest Allister.|PRE|479|
+R Ambermill|ACTIVE|480|M|51.34,36.98;55.71,64.46|Z|Silverpine Forest|CC|N|Make your way to Ambermill.|IZ|1421;Silverpine Forest|
+C The Weaver|QID|480|M|63.40,64.28|Z|Silverpine Forest|L|3515|N|Kill Ataeric and loot his staff.\n[color=FF0000]NOTE: [/color]You have to get past 2 Conjurers (plus their voidwalkers) and 2 Warders to get to Ataeric. You can aggro the mages one at a time. But, it's not easy. You may find a Dalaran Spellscribe (a non-elite rare spawn) in the room as well.\nMake sure you take out the Conjurer and Voidwalker that path in and out of the building. You'll be using the foyer to fight the mobs inside the room and you don't want them sneaking up on you.\n\nAtaeric won't stand still. He is a Frost mage who likes to keep his distance. If you don't clear the room, you'll end up fighting the entire room at the same time.|
+R Beren's Peril|ACTIVE|516&480|M|61.5,64.6;62.8,72.1;60.4,74.4;60.54,73.35|Z|Silverpine Forest|CC|N|Exit the building and follow the road south out of Ambermill. Stick to the mountains on the east side (right) and follow them around the bend.|IZ|1421;Silverpine Forest|
 R Olsen's Farthing|ACTIVE|516^1065|M|48.35,52.32|Z|Silverpine Forest|
 R Hillsbrad Foothills|ACTIVE|-516&1065|M|52.0,51.9;67.00,80.28|Z|Silverpine Forest|CC|N|Follow the road to the main road. Head south on the main road to the bend and continue east to the Silverpine Forest/Hillsbrad Foothills border.|
-R Beren's Peril|ACTIVE|516|M|52.7,55.2;62.8,72.1;60.4,74.4;60.54,73.35|Z|Silverpine Forest|CC|N|Make your way east to the road and follow it south to the big bend. the path is a bitnorth of the road.|IZ|1421;Silverpine Forest|
+R Beren's Peril|ACTIVE|516&-480|M|52.7,55.2;62.8,72.1;60.4,74.4;60.54,73.35|Z|Silverpine Forest|CC|N|Make your way east to the road and follow it south to the big bend. the path is a bitnorth of the road.|IZ|1421;Silverpine Forest|
 R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way to the cave entrance.|IZ|1421;Silverpine Forest|
 K Beren's Peril|ACTIVE|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|
 R Exit Cave|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way back to the cave entrance.|IZ|1421;Silverpine Forest|
@@ -126,6 +130,7 @@ T Elixir of Pain|QID|501|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lyd
 ; --- Silverpine Forest
 F The Sepulcher|ACTIVE|516^480|M|60.19,18.69|Z|Hillsbrad Foothills|
 T Beren's Peril|QID|516|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
+T The Weaver|QID|480|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
 
 ; --- Thunder Bluff
 N Quick visit back to the Barrens|ACTIVE|1067|N|This is probably the best time to make a quick trip back to Thunder Bluff to turn in a quest and to do any training (especially Druids). The goal is to be lv 25 when you return to Silverpine Forest.|
