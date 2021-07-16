@@ -12,7 +12,7 @@ N Welcome!|QID|5881|N|This is a new guide written by TheRealHendo. It is current
 
 F Thunder Bluff|QID|1195|M|45.50,63.84|Z|Orgrimmar|
 T The Sacred Flame|QID|1195|M|54.74,51.41|Z|Thunder Bluff|N|To Zangen Stonehoof.|
-
+A The Sacred Flame|QID|1195|M|54.74,51.41|Z|Thunder Bluff|N|To Zangen Stonehoof.|
 F Camp Taurajo|QID|5881|M|47.02,49.83|Z|Thunder Bluff|
 A A New Ore Sample|QID|1153|M|45.10,57.73|Z|The Barrens|N|From Tatternack Steelforge.|
 R The Great Lift|ACTIVE|5881|M|32.23,20.46|Z|Thousand Needles|N|Leave Camp Taurajo through the east gate and follow the Southern Gold Road south to the bottom of The Barrens.|
