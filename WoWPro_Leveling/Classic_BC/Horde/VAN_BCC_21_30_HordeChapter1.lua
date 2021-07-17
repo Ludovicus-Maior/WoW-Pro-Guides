@@ -79,13 +79,13 @@ A The Weaver|QID|480|M|43.98,40.93|Z|Silverpine Forest|N|From Shadow Priest Alli
 R Ambermill|ACTIVE|480|M|51.34,36.98;55.71,64.46|Z|Silverpine Forest|CC|N|Make your way to Ambermill.|IZ|1421;Silverpine Forest|
 C The Weaver|QID|480|M|63.40,64.28|Z|Silverpine Forest|L|3515|N|Kill Ataeric and loot his staff.\n[color=FF0000]NOTE: [/color]You have to get past 2 Conjurers (plus their voidwalkers) and 2 Warders to get to Ataeric. You can aggro the mages one at a time. But, it's not easy. You may find a Dalaran Spellscribe (a non-elite rare spawn) in the room as well.\nMake sure you take out the Conjurer and Voidwalker that path in and out of the building. You'll be using the foyer to fight the mobs inside the room and you don't want them sneaking up on you.\n\nAtaeric won't stand still. He is a Frost mage who likes to keep his distance. If you don't clear the room, you'll end up fighting the entire room at the same time.|
 R Beren's Peril|ACTIVE|516&480|M|61.5,64.6;62.8,72.1;60.4,74.4;60.54,73.35|Z|Silverpine Forest|CC|N|Exit the building and follow the road south out of Ambermill. Stick to the mountains on the east side (right) and follow them around the bend.|IZ|1421;Silverpine Forest|
-R Olsen's Farthing|ACTIVE|516^1065|M|48.35,52.32|Z|Silverpine Forest|IZ|The Sepulcher|
-R Hillsbrad Foothills|ACTIVE|-516&1065|M|52.0,51.9;67.00,80.28|Z|Silverpine Forest|CC|N|Follow the road to the main road. Head south on the main road to the bend and continue east to the Silverpine Forest/Hillsbrad Foothills border.|IZ|-1424;Hillsbrad Foothills|
-R Beren's Peril|ACTIVE|516&-480|M|52.7,55.2;62.8,72.1;60.4,74.4;60.54,73.35|Z|Silverpine Forest|CC|N|Make your way east to the road and follow it south to the big bend. the path is a bitnorth of the road.|IZ|1421;Silverpine Forest|
-R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way to the cave entrance.|IZ|1421;Silverpine Forest|
+R Olsen's Farthing|ACTIVE|516^1065|AVAILABLE|494|M|48.35,52.32|Z|Silverpine Forest|IZ|The Sepulcher|
+R Hillsbrad Foothills|ACTIVE|-516&1065|AVAILABLE|494|M|52.0,51.9;67.00,80.28|Z|Silverpine Forest|CC|N|Follow the road to the main road. Head south on the main road to the bend and continue east to the Silverpine Forest/Hillsbrad Foothills border.|IZ|-1424;Hillsbrad Foothills|
+R Beren's Peril|ACTIVE|516&-480|AVAILABLE|494|M|52.7,55.2;62.8,72.1;60.4,74.4;60.54,73.35|Z|Silverpine Forest|CC|N|Make your way east to the road and follow it south to the big bend. the path is a bitnorth of the road.|IZ|1421;Silverpine Forest|
+R Cave Entrance|ACTIVE|516|AVAILABLE|494|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way to the cave entrance.|IZ|1421;Silverpine Forest|
 K Beren's Peril|ACTIVE|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|
-R Exit Cave|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way back to the cave entrance.|IZ|1421;Silverpine Forest|
-R Hillsbrad Foothills|ACTIVE|516&1065|M|60.8,78.1;67.00,80.28|Z|Silverpine Forest|CC|N|Head back to the main road and continue east on the main road to the Silverpine Forest/Hillsbrad Foothills border.|IZ|-1424;Hillsbrad Foothills|
+R Exit Cave|ACTIVE|516|AVAILABLE|494|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way back to the cave entrance.|IZ|1421;Silverpine Forest|
+R Hillsbrad Foothills|ACTIVE|516&1065|AVAILABLE|494|M|60.8,78.1;67.00,80.28|Z|Silverpine Forest|CC|N|Head back to the main road and continue east on the main road to the Silverpine Forest/Hillsbrad Foothills border.|IZ|-1424;Hillsbrad Foothills|
 
 ; --- Hillsbrad Foothills
 A Time To Strike|QID|494|M|20.79,47.36|Z|Hillsbrad Foothills|N|From Deathstalker Lesh at Southpoint Tower.|
@@ -104,23 +104,23 @@ C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears for their Tongue.|S|IZ|-Du
 C Kill Moss Creepers|QID|496|L|3477 1|N|Kill Moss Creepers for the Creeper Ichor.\nThis shouldn't take long.|S|IZ|-Durnholde Keep|
 C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions for vials of their blood.|S|IZ|-Durnholde Keep|
 R Durnholde Keep|ACTIVE|498|M|76.08,47.11|Z|Hillsbrad Foothills|N|Make your way to the Durnholde Keep entrance.\n[color=FF0000]NOTE: [/color]There is a spot on the northeast corner, and on the north side just past it, where you can enter without going through the front gates and fighting your way through.\n Be warned that your pets cannot follow you through there.|
-C WANTED: Syndicate Personnel|QID|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|S|IZ|Durnholde Keep|
+K WANTED: Syndicate Personnel|ACTIVE|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|S|IZ|Durnholde Keep|
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|S|IZ|Durnholde Keep|
 K Jailer Eston|ACTIVE|498|M|79.51,41.88|Z|Hillsbrad Foothills|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
 K Jailor Marlgen|ACTIVE|498|L|3499|N|Kill Jailor Marlgen to loot the Burnished Gold Key to free Tog'thar.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
-C The Rescue|QID|498|M|79.74,39.64|Z|Hillsbrad Foothills|QO|2|U|3499|N|Rescue Tog'thar.|NC|
-C The Rescue|QID|498|M|77.40,42.81;75.50,38.76;75.18,41.64|Z|Hillsbrad Foothills|CC|QO|1|N|Rescue Drull.\n[color=FF0000]NOTE: [/color]Run along the stone wall west of the bridge, drop down to the ground behind the buildings, and follow the wall around to the backdoor.\nHe has a rogue, a mage and a Watchmen guarding him. If you approach by the rear door, you'll only have to pull the Watchmen. As long as the Watchmen doesn't run back inside and you stick to the west wall, you shouldn't aggro the other two.\n\nSometimes Jailor Eston will spawn inside. He can be pulled singly as well.|U|3467|NC|
+C The Rescue|QID|498|M|79.79,39.66|Z|Hillsbrad Foothills|QO|2|N|Click on the 'ball and chain' to free Tog'thar.|NC|
+C The Rescue|QID|498|M|77.4,42.8;76.2,39.5;75.3,39.1;75.33,41.49|Z|Hillsbrad Foothills|CC|QO|1|N|Click on the 'ball and chain' to free Drull.\nRun along the stone wall west of the bridge to the tree root. Climb down and follow the wall around to the backdoor of the second building.\nHe has a rogue, a mage and a Watchman guarding him. If you approach by the rear door, you'll only have to pull the Watchman. As long as the Watchman doesn't run back inside and you stick to the west wall, you shouldn't aggro the other two.\n[color=FF0000]NOTE: [/color]Sometimes Jailor Eston will spawn inside. He can be pulled singly as well.|NC|
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|US|
-C WANTED: Syndicate Personnel|QID|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|US|
+K WANTED: Syndicate Personnel|ACTIVE|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|US|
 R Tarren Mill|ACTIVE|549|M|62.38,28.44|Z|Hillsbrad Foothills|
 T WANTED: Syndicate Personnel|QID|549|M|62.29,20.27|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 T The Rescue|QID|498|M|63.24,20.66|Z|Hillsbrad Foothills|N|To Krusk.|
 T Blood of Innocents|QID|1066|M|61.45,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
 A Return to Thunder Bluff|QID|1067|M|61.45,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|1066|
-N Collection Quests|ACTIVE|496^501|N|You are going to finish up your collection (Elixir) quests before you leave the area. No need to carry the quests and their items with you.|
-C Kill Moss Creepers|QID|496|L|3477 1|N|Kill Moss Creepers until you loot the Creeper Ichor.|US|
-C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions until you are done.|US|
-C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears until you are done.|US|
+N Collection Quests|ACTIVE|496^501|N|You are going to finish up your collection (Elixir) quests before you leave the area. No need to carry the quests and their items with you.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Kill Mountain Lions|QID|501|M|53.36,38.47|Z|Hillsbrad Foothills|L|3496 10|N|Kill Mountain Lions until you are done.\n[color=FF0000]NOTE: [/color]They are on both sides of the road.|US|
+C Kill Gray Bears|QID|496|M|53.36,38.47|Z|Hillsbrad Foothills|L|3476 10|N|Kill Gray Bears until you are done.\n[color=FF0000]NOTE: [/color]They are on both sides of the road.|US|
+C Kill Moss Creepers|QID|496|M|58.88,34.73|Z|Hillsbrad Foothills|L|3477 1|N|Kill Moss Creepers until you loot the Creeper Ichor.\n[color=FF0000]NOTE: [/color]You should find plenty of them in the area.|US|
 R Tarren Mill|ACTIVE|496|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
 T Elixir of Suffering|QID|496|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
 A Elixir of Suffering|QID|499|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|496|
