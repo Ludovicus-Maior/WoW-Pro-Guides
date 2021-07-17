@@ -67,10 +67,10 @@ R Whitereach Post|ACTIVE|4770|M|14.92,33.04;17.82,35.63;19.42,33.14|CC|
 T Homeward Bound|QID|4770|M|21.54,32.33|N|To Motega Firemane.|
 A Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizlo Bearingshiner.\n[color=FF0000]NOTE: [/color]This quest is not easy for some classes, especially at this level. Feel free to accept this quest and do it later if you so wish.\nThe exp and reward make this quest worth doing, even in a couple levels.|
 C Hypercapacitor Gizmo|QID|5151|M|22.17,26.17;22.81,24.45|CC|QO|1|N|Make your way to the area where the cage is. Once you are there, clear the area of any and all mobs. When you are ready, open the cage and prepare to fight.\n[color=FF0000]NOTE: [/color]If you're delaying doing this quest, left-click the check box to skip this step for now.|
-C Galak Messenger|QID|4881|M|22.04,31.52|N|If you wait (5-10 mins max) at this location facing the road east, he will come to you. Kill him and loot the Assassination note from him.\nIf you don't feel like waiting, You can either follow the road west to Camp E'thok or east to Splithoof Crag. He patrols along the road between the 2 camps.|
+K Galak Messenger|AVAILABLE|4881|M|22.04,31.52|L|12564|N|If you wait (5-10 mins max) at this location facing the road east, he will come to you. Kill him and loot the Assassination note from him.\nIf you don't feel like waiting, You can either follow the road west to Camp E'thok or east to Splithoof Crag. He patrols along the road between the 2 camps.|
 A Assassination Plot|QID|4881|N|Click on the Assassination Note to start the quest.|U|12564|O|
 T Assassination Plot|QID|4881|M|21.31,32.01|N|To Kanati Greycloud.|
-A Protect Kanati Greycloud|QID|4966|M|21.31,32.01|N|From Kanati Greycloud.|
+A Protect Kanati Greycloud|QID|4966|M|21.31,32.01|N|From Kanati Greycloud.|PRE|4881|
 C Protect Kanati Greycloud|QID|4966|N|A group of 3 Galak Assassins will spawn and attack you and Kanati. Defeat them to complete the quest.|
 T Protect Kanati Greycloud|QID|4966|M|21.30,31.95|N|To Kanati Greycloud.|
 l Incendia Agave|ACTIVE|5062|M|33.69,34.09;33.36,32.88;34.96,33.20;36.05,33.51;34.87,34.82;35.61,36.17;36.63,36.23;36.06,37.40;36.59,38.77|CN|L|12732 10|N|Loot these around and in the pond.|
