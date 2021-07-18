@@ -133,7 +133,7 @@ T Beren's Peril|QID|516|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest All
 T The Weaver|QID|480|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
 
 ; --- Thunder Bluff
-N Quick visit back to the Barrens|ACTIVE|1067|N|This is probably the best time to make a quick trip back to Thunder Bluff to turn in a quest and to do any training (especially Druids). The goal is to be lv 25 when you return to Silverpine Forest.|
+N Quick visit back to Kalimdor|ACTIVE|1067|N|This is probably the best time to make a quick trip back to Thunder Bluff to turn in a quest and to do any training (especially Druids).\nThe goal is to be lv 25 when you return to Silverpine Forest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 H Orgrimmar|ACTIVE|1067|N|This is why we changed our hearthstone.\n[color=FF0000]NOTE: [/color]If your hearthstone is on CD, you're going to have to do it the long way by taking the zeppelin from Tirisfal Glade and flying from Orgrimmar to Thunder Bluff.|
 F Thunder Bluff|ACTIVE|1067|M|45.50,63.84|Z|Orgrimmar|N|Fly to Thunder Bluff.|
 R The Pools of Vision|ACTIVE|1067|M|30.50,30.48|Z|Thunder Bluff|
@@ -148,13 +148,13 @@ T Mahren Skyseer|QID|874|M|65.84,43.86|Z|The Barrens|N|To Mahren Skyseer at The 
 A Isha Awak|QID|873|M|65.84,43.86|Z|The Barrens|N|From Mahren Skyseer.|PRE|874|
 K Isha Awak|ACTIVE|873|M|65.39,46.91;63.56,53.93|Z|The Barrens|CC|QO|1|N|Jump into the water and start swimming east. Locate Isha Awak, kill it and loot its heart.\nIt can be found in the water between the next point and Northwatch Hold.\n[color=FF0000]NOTE: [/color]If you don't want to swim, the targeting button works from the shore. ;)|T|Isha Awak|
 T Isha Awak|QID|873|M|65.84,43.86|Z|The Barrens|N|Choosing your own path of travel, make your way back to Mahren Skyseer.|
-N Booty Bay|ACTIVE|6571|N|Before returning to Stonetalon Mountains, we're taking a side trip to Booty Bay to pick up a quest item. This is the last time we will be in Ratchet to make this trip.|
+N Booty Bay|ACTIVE|6571|N|Before heading to Stonetalon Mountains, we're taking a side trip to Booty Bay to pick up a quest item. This is the last time we will be in Ratchet to make this trip.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
 ; --- Booty Bay
 b Booty Bay|ACTIVE|6571|M|63.70,38.63|Z|The Barrens|L|16745|N|Take the boat to Booty Bay.|
-C Warsong Supplies|QID|6571|M|26.46,73.38|Z|Stranglethorn Vale|L|16745|N|You'll find the crate at the back of the first stack of cargo on the dock.\nDo this quick enough and you won't have to wait for the next boat to go back.|
-f Booty Bay|ACTIVE|6571|M|26.87,77.09|Z|Stranglethorn Vale|N|Since you are here go grab the Flight Path, So head up to Gringer who's standing just outside the Inn balcony.|TAXI|-Booty Bay|
-b Ratchet|ACTIVE|6571|M|25.80,73.10|Z|Stranglethorn Vale|L|16745|N|Take the boat to Ratchet.|
+C Warsong Supplies|QID|6571|M|26.46,73.38|Z|Stranglethorn Vale|L|16745|N|You'll find the crate at the back of the first stack of cargo on the dock.|
+f Booty Bay|ACTIVE|6571|M|26.87,77.09|Z|Stranglethorn Vale|N|Since you are here, go grab the Flight Path, So head up to Gringer who's standing just outside the Inn balcony.\n[color=FF0000]NOTE: [/color]You have to work your way through the Inn to get there.|TAXI|-Booty Bay|
+b Ratchet|ACTIVE|6571|M|25.80,73.10|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
 
 ; --- Stonetalon Mountains
 F Sun Rock Retreat|ACTIVE|1095|M|63.11,37.10|Z|The Barrens|
