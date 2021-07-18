@@ -49,15 +49,15 @@ N Shopping List|QID|773000006|N|This completes the Shopping List, you may either
 = Learn Shadowlands Inscription|QID|773309805|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;*;0;75|SPELL|Shadowlands Inscription;309805|LVL|48|N|Learn from Scribe Au'tehshi in Oribos.|
 
 M Mill Herbs|QID|773173057|P|Inscription;773;8+0|L|173057 15|ITEM|173057|N|Mill until you have at least 15 Luminous Pigments. Do not Mill ALL the herbs yet, once you learn Mass Milling you can go crazy on milling.|
-M Mill Herbs|QID|773173056|P|Inscription;773;8+0|L|173055 15|ITEM|173055|N|Mill until you have at least 15 Umbral Pigments. Do not Mill ALL the herbs yet, once you learn Mass Milling you can go crazy on milling.|
+M Mill Herbs|QID|773173056|P|Inscription;773;8+0|L|173056 15|ITEM|173056|N|Mill until you have at least 15 Umbral Pigments. Do not Mill ALL the herbs yet, once you learn Mass Milling you can go crazy on milling.|
 M [item=173059/Luminous Ink]|QID|773311406|P|Inscription;773;8+13;1|ITEM|173059|CRAFT|311406 15|MATS|173057 1;173060 1;180732 1|N|Only create 15 for now.|
-M [item=173058/Umbral Ink]|QID|773311405|P|Inscription;773;8+25;1|ITEM|173058|CRAFT|311405 15|MATS|173055 1;173060 1;180732 1|N|Only create 15 for now.|
+M [item=173058/Umbral Ink]|QID|773311405|P|Inscription;773;8+25;1|ITEM|173058|CRAFT|311405 15|MATS|173056 1;173060 1;180732 1|N|Only create 15 for now.|
 = Learn Recipe|QID|773000101|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+10|RECIPE|311423|N|Learn [spell=311423/Writ of Grave Robbing] Recipe from Trainer.|
 = Learn Recipe|QID|773000151|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+15|RECIPE|311425|N|Learn [spell=311425/Tome of the Still Mind] Recipe from Trainer.|
 M [item=173065/Writ of Grave Robbing]|QID|773311423|P|Inscription;773;8+30;1|ITEM|173065|CRAFT|311423 10|MATS|173059 1;173058 1;175886 1|N|Alternate: [item=173049/Tome of the Still Mind], Takes 3 times the inks, AND 25 of [item=175886/Dark Parchment]\nClick step of to make Alternate.|
 M [item=173049/Tome of the Still Mind]|QID|733311425|P|Inscription;773;8+30;1|ITEM|173049|CRAFT|311425 5|MATS|173059 3;173058 3; 175886 25|
 = Learn Recipe|QID|773000301|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311413|N|Learn [spell=311413/Mass Milling Deathblossom] Recipe from Trainer.|
-= Learn Recipe|QID|773000302|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311414|N|Learn [spell=311414/Mass Milling Vigil's Torch] Recipe from Trainer.|
+= Learn Recipe|QID|773000302|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311414|N|Learn [spell=311414/Mass Milling Vigils Torch] Recipe from Trainer.|
 = Learn Recipe|QID|773000303|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311415|N|Learn [spell=311415/Mass Milling Widowbloom] Recipe from Trainer.|
 = Learn Recipe|QID|773000304|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311416|N|Learn [spell=311416/Mass Milling Marrowroot] Recipe from Trainer.|
 = Learn Recipe|QID|773000305|M|36.47,36.70|Z|Ring of Fates@Oribos|P|Inscription;773;8+30|RECIPE|311417|N|Learn [spell=311417/Mass Milling Rising Glory] Recipe from Trainer.|
