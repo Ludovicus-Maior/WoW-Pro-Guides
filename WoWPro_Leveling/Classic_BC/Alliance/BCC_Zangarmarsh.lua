@@ -242,16 +242,15 @@ C Fertile Spores|N|Kill mobs until you get the spores for this quest.|M|20.00,16
 T Now That We're Friends...|QID|9726|M|19.54,50.04|N|To Gzhun'tt.|
 T Fertile Spores|QID|9806|M|19.2,49.4|N|To Gshaff.|
 A Now That We're Still Friends...|QID|9727|M|19.54,50.04|N|From Gzhun'tt.|
-A Fhwoor Smash!|QID|9729|M|19.78,50.841|N|From Fhwoor.  This is an annoying escort quest, but needed to complete the "Mysteries of Zangarmarash".|
-K Ssslith|QID|9729|M|25.6,51.8|N|Accompany Fhwoor, killing Naga along the way for [Now That We're Still Friends...]. Kill Ssslith when he attacks.|QO|1|
-T Fhwoor Smash!|QID|9729|M|19.54,50.04|N|To Gzhun'tt.|
 C Now That We're Friends...|N|Kill Bloodscale Slavedrivers and Enchantresses needed for this quest.|M|26.00,36.0|QID|9727|
 T Now That We're Still Friends...|QID|9727|M|19.54,50.04|N|To Gzhun'tt.|
+A Fhwoor Smash!|QID|9729|M|19.78,50.841|N|From Fhwoor.  This is an annoying escort quest, but needed to complete the "Mysteries of Zangarmarash".|LVL|63|
+K Ssslith|ACTIVE|9729|M|25.6,51.8|N|Accompany Fhwoor, killing Naga along the way for [Now That We're Still Friends...]. Kill Ssslith when he attacks.|QO|1|
+T Fhwoor Smash!|QID|9729|M|19.54,50.04|N|To Gzhun'tt.|
 T Stealing Back the Mushrooms|M|23.30,66.2|QID|9709|N|To Watcher Leesa'oh.|
 C Messenger to the Feralfen|N|Go here and use Ahuurn's Elixir, then talk to Elder Kurutiin in the building, and go through the dialogue.|M|44.00,66.0|QID|9803|U|24428|
 H Orebor Harborage|QID|9839|N|Hearth to Orebor Harborage.|U|6948|M|41.89,26.29|
 T Overlord Gorefist|QID|9839|M|41.9,27.2|N|To Ikuti.|
-A A Message to Telaar|QID|9792|M|41.9,27.2|N|From Ikuti take this quest if you want to do Nagrand next.|
 F Telredor|QID|9803|N|Fly to Telredor.|M|41.30,29.0|
 T Messenger to the Feralfen|QID|9803|M|68.2,49.4|N|To Anchorite Ahuurn.|
 r Sell junk, repair, restock|QID|9803|N|Sell junk, repair, restock. Close this step to go to the next guide.|M|68.5,50.14|
