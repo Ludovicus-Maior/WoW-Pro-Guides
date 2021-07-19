@@ -1,16 +1,14 @@
-local guide = WoWPro:RegisterGuide("BC_FirstAid", "Profession", "First Aid", "WoWPro Team", "Neutral", 2)
+local guide = WoWPro:RegisterGuide("FirstAid_Cliassic_VAN", "Profession", "First Aid", "WoWPro Team", "Neutral", 1)
 WoWPro:GuideIcon(guide,"PRO",129)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "First Aid")
+WoWPro:GuideName(guide, "First Aid Classic")
 WoWPro:GuideSteps(guide, function()
 return [[
 
 ;  Guide structures:
 ;  For the QID is Prof (129), Spell ID(000000)
 ;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
-
-;	IE M [item=1251/Linen Bandage]|QID|129003275|P|First Aid;129;0+40;1|ITEM|1251|CRAFT|3275 50|MATS|2589 1|
-
+;   IE M [item=1251/Linen Bandage]|QID|129003275|P|First Aid;129;0+40;1|ITEM|1251|CRAFT|3275 50|MATS|2589 1|
 ;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
 ; 	 IE learn 2 at lvl 15 |129000151| and |129000152|  // |RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion]
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
@@ -27,9 +25,7 @@ l [item=2589/Linen Cloth]|QID|129000004|L|2589 170|ITEM|2589|N|You'll need appro
 l [item=2592/Wool Cloth]|QID|129000004|L|2592 180|ITEM|2592|N|You'll need approx 180 Wool Cloth.|
 l [item=4306/Silk Cloth]|QID|129000004|L|4306 150|ITEM|4306|N|You'll need approx 150 Silk Cloth.|
 l [item=4338/Mageweave Cloth]|QID|129000004|L|4338 120|ITEM|4338|N|You'll need approx 120 Mageweave Cloth.|
-l [item=14047/Runecloth]|QID|129000004|L|14047 220|ITEM|14047|N|You'll need approx 220 Runecloth.|
-l [item=21877/Netherweave Cloth]|QID|129000004|L|21877 85|ITEM|21877|N|You'll need approx 85 Netherweave Cloth.|
-
+l [item=14047/Runecloth]|QID|129000004|L|14047 80|ITEM|14047|N|You'll need approx 80 Runecloth.|
 N Shopping List|QID|129000005|N|This completes the Shopping List|
 
 N Shopping List|QID|129000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
@@ -66,18 +62,6 @@ M [item=8544/Mageweave Bandage]|QID|129010840|P|First Aid;129;0+240;1|ITEM|8544|
 M [item=8545/Heavy Mageweave Bandage]|QID|129010841|P|First Aid;129;0+260;1|ITEM|8545|CRAFT|10841 30|MATS|4338 2|N|Talk to the Doctor to obtain the recipe.|
 M [item=14529/Runecloth Bandage]|QID|129018629|P|First Aid;129;0+290;1|ITEM|14529|CRAFT|18629 50|MATS|14047 1|N|Talk to the Doctor to obtain the recipe.|
 M [item=14530/Heavy Runecloth Bandage]|QID|129018630|P|First Aid;129;0+300;1|ITEM|14530|CRAFT|18630 15|MATS|14047 2|N|Talk to the Doctor to obtain the recipe.|
-B [spell=27028/Master First Aid]|QID|129003001|P|First Aid;129;0+300|M|26.2,62.0|Z|1944;Hellfire Peninsula|RECIPE|27028|L|22012|T|Aresella|N|Purchase [item=22012/Master First Aid - Doctor in the House] from Aresella, in Falcon Watch, Hellfire Peninsula.|FACTION|Horde|
-B [spell=27032/Netherweave Bandage]|QID|129003301|P|First Aid;129;0+300|M|26.2,62.0|Z|1944;Hellfire Peninsula|RECIPE|27032|L|21992|T|Aresella|N|Purchase [item=21992/Manual - Netherweave Bandage] from Aresella, in Falcon Watch, Hellfire Peninsula.|FACTION|Horde|
-B [spell=27033/Heavy Netherweave Bandage]|QID|129003601|P|First Aid;129;0+300|M|26.2,62.0|Z|1944;Hellfire Peninsula|RECIPE|27033|L|21993|T|Aresella|N|Purchase [item=21993/Manual - Heavy Netherweave Bandage] from Aresella, in Falcon Watch, Hellfire Peninsula.|FACTION|Horde|
-B [spell=27028/Master First Aid]|QID|129003001|P|First Aid;129;0+300|M|22.4,39.2|Z|1944;Hellfire Peninsula|RECIPE|27028|L|22012|T|Burko|N|Purchase [item=22012/Master First Aid - Doctor in the House] from Burko, in Temple of Telhamat, Hellfire Peninsula.|FACTION|Alliance|
-B [spell=27032/Netherweave Bandage]|QID|129003301|P|First Aid;129;0+300|M|22.4,39.2|Z|1944;Hellfire Peninsula|RECIPE|27032|L|21992|T|Burko|N|Purchase [item=21992/Manual - Netherweave Bandage] from Burko, in Temple of Telhamat, Hellfire Peninsula.|FACTION|Alliance|
-B [spell=27033/Heavy Netherweave Bandage]|QID|129003601|P|First Aid;129;0+300|M|22.4,39.2|Z|1944;Hellfire Peninsula|RECIPE|27033|L|21993|T|Burko|N|Purchase [item=21993/Manual - Heavy Netherweave Bandage] from Burko, in Temple of Telhamat, Hellfire Peninsula.|FACTION|Alliance|
-M [item=14530/Heavy Runecloth Bandage]|QID|129018630|P|First Aid;129;0+330;1|ITEM|14530|CRAFT|18630 70|MATS|14047 2|
-U Learn Recipe|QID|129003301|P|First Aid;129;0+330|RECIPE|27032|U|21992|Learn [spell=27032/Netherweave Bandage] from the [item=21992/Manual - Netherweave Bandage].|
-M [item=21990/Netherweave Bandage]|QID|129027032|P|First Aid;129;0+360;1|ITEM|21990|CRAFT|27032 45|MATS|21877 1|
-U Learn Recipe|QID|129003601|P|First Aid;129;0+360|RECIPE|27033|U|21993|Learn [spell=27033/Heavy Netherweave Bandage] from the [item=21993/Manual - Heavy Netherweave Bandage].|
-M [item=21991/Heavy Netherweave Bandage]|QID|129027033|P|First Aid;129;0+375;1|ITEM|21991|CRAFT|27033 70|MATS|21877 2|
-
 N First Aid.|N|That completes First Aid.|
 ]]
 end)

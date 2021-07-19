@@ -50,9 +50,9 @@ l [item=12365/Dense Stone]|QID|164000004|L|12365 20|ITEM|12365|N|You'll need abo
 l [item=12359/Thorium Bar]|QID|164000004|L|12359 428|ITEM|12359|N|You'll need about 428 Thorium Bar.|
 l [item=7910/Star Ruby]|QID|164000004|L|7910 10|ITEM|7910|N|You'll need about 10 Star Rubies.|
 B [item=2605/Green Dye]|QID|164000004|L|2605 35|ITEM|2605|N|You'll need about 35 Green Dye, Sold by Tailoring or Leatherworking Supply Vendors.|
-N [item=7995/Plans: Mithril Scale Bracers]|RECIPE|9937|N|Next step you will need to travel to go buy this Blacksmithing Plan for about 60s, or you can buy from your local AH, but an alternate item to craft is in the guide.|
-B [spell=9937/Plans: Mithril Scale Bracers]|QID|164007995|M|47.23,52.11|Z|Swamp of Sorrows|RECIPE|9937|N|Purchase [item=7995/Plans: Mithril Scale Bracers] from Gharash, Stonard, Swamp of Sorrows\n[color=cc0000]Random spawn timer for plans[/color]\nIf you dont want to get, Right Click this step.|FACTION|Horde|
-B [spell=9937/Plans: Mithril Scale Bracers]|QID|164007995|M|13.6,44.8|Z|The Hinterlands|RECIPE|9937|N|Purchase [item=7995/Plans: Mithril Scale Bracers] from Harggan, The Hinterlands\n[color=cc0000]Random spawn timer for plans[/color]\nIf you dont want to get, Right Click this step.|FACTION|Alliance|
+N [item=7995/Plans: Mithril Scale Bracers]|QID|164007995|RECIPE|9937|N|Next step you will need to travel to go buy this Blacksmithing Plan for about 60s, or you can buy from your local AH, but an alternate item to craft is in the guide.|
+B [spell=9937/Plans: Mithril Scale Bracers]|QID|164007995|M|47.23,52.11|Z|51;Swamp of Sorrows|RECIPE|9937|N|Purchase [item=7995/Plans: Mithril Scale Bracers] from Gharash, Stonard, Swamp of Sorrows\n[color=cc0000]Random spawn timer for plans[/color]\nIf you dont want to get, Right Click this step.|FACTION|Horde|
+B [spell=9937/Plans: Mithril Scale Bracers]|QID|164007995|M|13.6,44.8|Z|47;The Hinterlands|RECIPE|9937|N|Purchase [item=7995/Plans: Mithril Scale Bracers] from Harggan, The Hinterlands\n[color=cc0000]Random spawn timer for plans[/color]\nIf you dont want to get, Right Click this step.|FACTION|Alliance|
 l [item=3860/Mithril Bar]|QID|164003860|RECIPE|9937|L|3860 374|N|You'll need about 374 Mithril Bar instead, since you skipped the [item=7995/Plans: Mithril Scale Bracers].|
 N Smelting|QID|186002841|P|Mining;186;0|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
 M [item=2841/Bronze Bar]|QID|164002689|P|Mining;186;0+50;0|L|2841 150|CRAFT|2689 150|MATS|2840 1;3576 1|
@@ -93,7 +93,10 @@ M [item=6040/Golden Scale Bracers]|QID|164007223|P|Blacksmithing;164;0+200;1|ITE
 M [item=7964/Solid Sharpening Stone]|QID|164009918|P|Blacksmithing;164;0+210;1|ITEM|7964|CRAFT|9918 20|MATS|7912 1|
 = Learn Recipe|QID|164002051|P|Blacksmithing;164;0+205|RECIPE|9928|N|Learn [spell=9928/Heavy Mithril Gauntlet] Recipe from Trainer.|
 M [item=7919/Heavy Mithril Gauntlet]|QID|164009928|P|Blacksmithing;164;0+225;1|ITEM|7919|CRAFT|9928 15|MATS|3860 6 4338 4|
-U Learn Recipe|QID|164002151|P|Blacksmithing;164;0+215|RECIPE|9937|U|7995|N|Learn [spell=9937/Mithril Scale Bracers] from [item=7995/Plans: Mithril Scale Bracers].|
+; Hoping I set this right, that if they LEFT click the next step, it skips the whole 'section'
+B [spell=9937/Plans: Mithril Scale Bracers]|QID|164009937|M|47.23,52.11|Z|51;Swamp of Sorrows|RECIPE|9937|N|Purchase [item=7995/Plans: Mithril Scale Bracers] from Gharash, Stonard, Swamp of Sorrows\n[color=cc0000]Random spawn timer for plans[/color]\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP this craft completely and go the alternate route.|FACTION|Horde|
+B [spell=9937/Plans: Mithril Scale Bracers]|QID|164009937|M|13.6,44.8|Z|47;The Hinterlands|RECIPE|9937|N|Purchase [item=7995/Plans: Mithril Scale Bracers] from Harggan, The Hinterlands\n[color=cc0000]Random spawn timer for plans[/color]\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP this craft completely and go the alternate route.|FACTION|Alliance|
+U Learn Recipe|QID|164009937|P|Blacksmithing;164;0+215|RECIPE|9937|U|7995|N|Learn [spell=9937/Mithril Scale Bracers] from [item=7995/Plans: Mithril Scale Bracers]. If you didn't get [spell=9937/Plans: Mithril Scale Bracers], RIGHT click this step.|
 M [item=7924/Mithril Scale Bracers]|QID|164009937|P|Blacksmithing;164;0+236;1|ITEM|7924|CRAFT|9937 11|MATS|3860 8|N|If you didn't get [spell=9937/Plans: Mithril Scale Bracers], RIGHT click this step.|
 = Learn Recipe|QID|164002101|P|Blacksmithing;164;0+210|RECIPE|9931|N|Learn [spell=9931/Mithril Scale Pants] Recipe from Trainer.|
 M [item=7920/Mithril Scale Pants]|QID|164009931|P|Blacksmithing;164;0+236;1|RECIPE|9937|ITEM|7920|CRAFT|9931 11|MATS|3860 12|N|Make this since you don't have [spell=9937/Plans: Mithril Scale Bracers].|

@@ -38,11 +38,11 @@ l [item=13463/Dreamfoil]|QID|171000004|L|13463 14|ITEM|13463|N|You'll need about
 l [item=13464/Golden Sansam]|QID|171000004|L|13464 24|ITEM|13464|N|You'll need about 24 Golden Sansams. (10 from above, and 14 more if you choice this herb).|
 l [item=13465/Mountain Silversage]|QID|171000004|L|13465 14|ITEM|13465|N|You'll need about 14 Mountain Silversages.|
 B [item=3371/Crystal Vial]|QID|171000004|L|3371 95|ITEM|3371|N|You'll need about 95 Crystal Vials.|
-B [spell=28562/Major Dreamless Sleep Potion]|QID|171028562|M|57.6,53.4|Z|Terokkar Forest|RECIPE|28562|N|Purchase [item=22911/Recipe: Major Dreamless Sleep Potion] from Leeli Longhaggle, Allerian Stronghold, Terokkar Forest.|FACTION|Alliance|
-B [spell=28555/Super Mana Potion]|QID|171028555|M|67.8,48.0|Z|Zangarmarsh|RECIPE|28562|N|Purchase [item=22907/Recipe: Super Mana Potion] from Haalrun, Telredor, Zangarmarsh.|FACTION|Alliance|
-B [spell=28562/Major Dreamless Sleep Potion]|QID|171028562|M|51.0,57.8|Z|Blade's Edge Mountains|RECIPE|28562|N|Purchase [item=22911/Recipe: Major Dreamless Sleep Potion] from Daga Ramba, Thunderlord Stronghold, Blade's Edge Mountains.|FACTION|Horde|
-B [spell=28555/Super Mana Potion]|QID|171028555|M|51.0,57.8|Z|Blade's Edge Mountains|RECIPE|28562|N|Purchase [item=22907/Recipe: Super Mana Potion] from Daga Ramba, Thunderlord Stronghold, Blade's Edge Mountains.|FACTION|Horde|
-
+B [spell=28562/Major Dreamless Sleep Potion]|QID|171028562|M|51.0,57.8|Z|105;Blade's Edge
+Mountains|RECIPE|28562|N|Purchase [item=22911/Recipe: Major Dreamless Sleep Potion] from Daga Ramba, Thunderlord Stronghold, Blade's Edge Mountains.|FACTION|Horde|
+B [spell=28555/Super Mana Potion]|QID|171028555|M|51.0,57.8|Z|105;Blade's Edge Mountains|RECIPE|28562|N|Purchase [item=22907/Recipe: Super Mana Potion] from Daga Ramba, Thunderlord Stronghold, Blade's Edge Mountains.|FACTION|Horde|
+B [spell=28562/Major Dreamless Sleep Potion]|QID|171028562|M|57.6,53.4|Z|108;Terokkar Forest|RECIPE|28562|N|Purchase [item=22911/Recipe: Major Dreamless Sleep Potion] from Leeli Longhaggle, Allerian Stronghold, Terokkar Forest.|FACTION|Alliance|
+B [spell=28555/Super Mana Potion]|QID|171028555|M|67.8,48.0|Z|102;Zangarmarsh|RECIPE|28562|N|Purchase [item=22907/Recipe: Super Mana Potion] from Haalrun, Telredor, Zangarmarsh.|FACTION|Alliance|
 N Shopping List|QID|171000006|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 = Learn [spell=264213/Outland Alchemy]|QID|171264213|SPELL|Outland Alchemy;264213|LVL|5|N|Learn from a Trainer in either Shattrath City or Hellfire Peninsula.|
@@ -56,9 +56,14 @@ M [item=22825/Elixir of Healing Power]|QID|171028545|P|Alchemy;171;1+25;1|ITEM|2
 = Learn Recipe|QID|171000252|P|Alchemy;171;1+25|RECIPE|28551|N|Learn [spell=28551/Super Healing Potion] Recipe from Trainer.|
 M [item=32067/Elixir of Draenic Wisdom]|QID|171039638|P|Alchemy;171;1+35;1|ITEM|32067|CRAFT|39638 10|MATS|22789 1;22785 1;3371 1|
 M [item=22829/Super Healing Potion]|QID|171028551|P|Alchemy;171;1+40;1|ITEM|22829|CRAFT|28551 5|MATS|22791 2;22785 1;3371 1|
-U [item=22907/Recipe: Super Mana Potion]|QID|171022907|P|Alchemy;171;1+40|RECIPE|28555|U|22907|N|Learn the [item=22907/Recipe: Super Mana Potion] you Purchased.|
+B [spell=28555/Super Mana Potion]|QID|171028555|M|51.0,57.8|Z|105;Blade's Edge Mountains|RECIPE|28562|N|Purchase [item=22907/Recipe: Super Mana Potion] from Daga Ramba, Thunderlord Stronghold, Blade's Edge Mountains.|FACTION|Horde|
+B [spell=28555/Super Mana Potion]|QID|171028555|M|67.8,48.0|Z|102;Zangarmarsh|RECIPE|28562|N|Purchase [item=22907/Recipe: Super Mana Potion] from Haalrun, Telredor, Zangarmarsh.|FACTION|Alliance|
+U [item=22907/Recipe: Super Mana Potion]|QID|171022907|P|Alchemy;171;1+40|RECIPE|28555|U|22907|N|Learn the [spell=28555/Super Mana Potion] you Purchased.|
 M [item=22832/Super Mana Potion]|QID|171028555|P|Alchemy;171;1+55;1|ITEM|22832|CRAFT|28555 15|MATS|22786 2;22785 1;3371 1|
-U [item=22911/Recipe: Major Dreamless Sleep Potion]|QID|171022911|P|Alchemy;171;1+50|RECIPE|28562|U|22911|N|Learn the [item=22911/Recipe: Major Dreamless Sleep Potion] you Purchased.|
+B [spell=28562/Major Dreamless Sleep Potion]|QID|171028562|M|51.0,57.8|Z|105;Blade's Edge
+Mountains|RECIPE|28562|N|Purchase [item=22911/Recipe: Major Dreamless Sleep Potion] from Daga Ramba, Thunderlord Stronghold, Blade's Edge Mountains.|FACTION|Horde|
+B [spell=28562/Major Dreamless Sleep Potion]|QID|171028562|M|57.6,53.4|Z|108;Terokkar Forest|RECIPE|28562|N|Purchase [item=22911/Recipe: Major Dreamless Sleep Potion] from Leeli Longhaggle, Allerian Stronghold, Terokkar Forest.|FACTION|Alliance|
+U [item=22911/Recipe: Major Dreamless Sleep Potion]|QID|171022911|P|Alchemy;171;1+50|RECIPE|28562|U|22911|N|Learn the [spell=28562/Major Dreamless Sleep Potion] you Purchased.|
 M [item=22836/Major Dreamless Sleep Potion]|QID|171028562|P|Alchemy;171;1+75;1|ITEM|22836|CRAFT|28562 40|MATS|22786 1;22792 1;3371 1|
 
 N Congratualations!|QID|171000010|N|On reaching 75 in Outland Alchemy.|
