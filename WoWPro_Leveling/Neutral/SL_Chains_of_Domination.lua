@@ -114,11 +114,11 @@ A Claim the Sky|QID|63764|PRE|63754|M|67.02,56.01|Z|The Maw|N|From Danica the Re
 C Claim the Sky|QID|63764|M|67.02,56.01|Z|The Maw|QO|1|CHAT|N|Speak with Danica.|
 C Claim the Sky|QID|63764|M|57.60,58.91|Z|Skyhold!Instance|QO|2|NC|N|There is nothing to do, wait for her to bring you to skyhold.|
 T Claim the Sky|QID|63764|M|57.60,58.91|Z|Skyhold!Instance|N|To Danica the Reclaimer.|
-A A Hate, Hate Relationship|QID|63811|PRE|63764|M|57.60,58.91|Z|Skyhold!Instance|N|From Danica the Reclaimer.|
-C A Hate, Hate Relationship|QID|63811|M|58.43,78.57|Z|Skyhold!Instance|QO|1|NC|N|Walk with Danica to Odyn.|
-C A Hate, Hate Relationship|QID|63811|M|58.43,78.57|Z|Skyhold!Instance|QO|2|NC|N|Wait for Danica to introduce you.|
-C A Hate, Hate Relationship|QID|63811|M|58.43,78.57|Z|Skyhold!Instance|QO|3|NC|N|Click "[color=40C7EB]Helya's message[/color]" in front of Odyn.|EAB|
-T A Hate, Hate Relationship|QID|63811|M|58.33,85.23|Z|Skyhold!Instance|N|To Odyn.|
+A A Hate-Hate Relationship|QID|63811|PRE|63764|M|57.60,58.91|Z|Skyhold!Instance|N|From Danica the Reclaimer.|
+C A Hate-Hate Relationship|QID|63811|M|58.43,78.57|Z|Skyhold!Instance|QO|1|NC|N|Walk with Danica to Odyn.|
+C A Hate-Hate Relationship|QID|63811|M|58.43,78.57|Z|Skyhold!Instance|QO|2|NC|N|Wait for Danica to introduce you.|
+C A Hate-Hate Relationship|QID|63811|M|58.43,78.57|Z|Skyhold!Instance|QO|3|NC|N|Click "[color=40C7EB]Helya's message[/color]" in front of Odyn.|EAB|
+T A Hate-Hate Relationship|QID|63811|M|58.33,85.23|Z|Skyhold!Instance|N|To Odyn.|
 A Fury Given Voice|QID|63831|PRE|63811|M|58.33,85.23|Z|Skyhold!Instance|N|From Odyn.|
 A The Chosen Few|QID|63844|PRE|63811|M|58.33,85.23|Z|Skyhold!Instance|N|From Odyn.|
 C The Chosen Few|QID|63844|M|73.02,35.07|Z|Skyhold!Instance|QO|1|NC|N|Horn of Challenge used.|
@@ -135,7 +135,7 @@ T Wrath of Odyn|QID|63845|M|58.34,85.30|Z|Skyhold!Instance|N|To Odyn.|
 A Mawsplaining|QID|64014|PRE|63845|M|58.34,85.30|Z|Skyhold!Instance|N|From Odyn.|
 C Mawsplaining|QID|64014|M|59.12,22.45|Z|Skyhold!Instance|QO|1|NC|N|Jump down the Skyhold portal back to Oribos.|
 P Ve'nari's Refuge|ACTIVE|64014|M|49.55,51.62|Z|Ring of Transference@Oribos|QO|2|N|Hop into the center to teleport to the maw.|
-C Mawsplaining|QID|64014|M|46.91,41.69|Z|The Maw|QO|3|CHAT|N|Ve'nari consulted.|
+C Mawsplaining|QID|64014|M|46.91,41.69|Z|The Maw|QO|2|CHAT|N|Ve'nari consulted.|
 T Mawsplaining|QID|64014|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|
 A Tears of the Damned|QID|63896|PRE|64014|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|
 A Anger Management|QID|63867|PRE|64014|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|
@@ -173,8 +173,8 @@ C Secrets of the Vault|QID|63709|M|57.45,30.02|Z|1961;Korthia|CHAT|N|Speak with 
 T Secrets of the Vault|QID|63709|M|57.45,30.02|Z|1961;Korthia|N|To Tal-Galan.|
 A The Anima Trail|QID|63710|PRE|63709|M|57.45,30.02|Z|1961;Korthia|N|From Tal-Galan.|
 T The Anima Trail|QID|63710|M|34.91,35.13|Z|1961;Korthia|N|To Tal-Galan.|
-A Lost Records|QID|63712|M|34.91,35.13|Z|1961;Korthia|N|From Tal-Galan.|
-A Bone Tools|QID|63711|M|34.89,35.47|Z|1961;Korthia|N|From Bonesmith Heirmir.|
+A Lost Records|QID|63712|PRE|63710|M|34.91,35.13|Z|1961;Korthia|N|From Tal-Galan.|
+A Bone Tools|QID|63711|PRE|63710|M|34.89,35.47|Z|1961;Korthia|N|From Bonesmith Heirmir.|
 C Lost Records|QID|63712|M|PLAYER|Z|1961;Korthia|QO|1|NC|N|Matrix beacon activated.|U|185921|
 C Bone Tools|QID|63711|M|39.54,40.78|Z|1961;Korthia|N|Kill creatures along the way and loot their bones.|S|
 C Lost Records|QID|63712|M|38.49,40.80|Z|1961;Korthia|QO|2|NC|N|Follow the signal, it will lead you to the Cracked records, revealing them and allowing yout to click and collect them.|
