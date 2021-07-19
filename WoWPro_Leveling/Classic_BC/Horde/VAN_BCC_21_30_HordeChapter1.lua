@@ -9,8 +9,8 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A Boulderslide Ravine|QID|6421|M|47.22,64.05|N|From Mor'rogal. You'll find him just off the Charred Vale path\n[color=FF0000]NOTE: [/color]The path is in east corner. Look for the sign.|
-h Sun Rock Retreat|ACTIVE|1483|M|47.46,62.13|N|Head back down the path to the 'Inn' and set your hearthstone to Sun Rock Retreat.|
-R Windshear Crag|ACTIVE|1483|M|49.5,61.0;53.1,61.6;59.9,71.1|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
+h Sun Rock Retreat|ACTIVE|6421|M|47.46,62.13|N|Head back down the path to the 'Inn' and set your hearthstone to Sun Rock Retreat.|
+R Windshear Crag|ACTIVE|1483|M|49.5,61.0;53.1,61.6;59.97,71.14|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
 T Ziz Fizziks|QID|1483|M|58.99,62.61|N|Follow the road into Windshear Crag. Ziz Fizziks is inside a hut in a SW alcove.|
 A Super Reaper 6000|QID|1093|M|58.99,62.61|N|From Ziz Fizziks.|PRE|1483|
 C Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|S|
@@ -44,7 +44,7 @@ A Shredding Machines|QID|1068|M|35.26,27.88|Z|The Barrens|N|From Seereth Stonebr
 H Sun Rock Retreat|ACTIVE|6421^6284|M|49.51,61.02|N|Hearth back to Sun Rock Retreat.|
 T Arachnophobia|QID|6284|M|47.20,61.16|N|To Maggran Earthbinder.|
 T Boulderslide Ravine|QID|6421|M|47.22,64.05|N|To Mor'rogal at his camp in the hills overlooking Sun Rock.|
-A Earthen Arise|QID|6481|M|47.22,64.05|ELITE|N|From Mor'rogal.|PRE|6421|
+A Earthen Arise|QID|6481|M|47.22,64.05|N|From Mor'rogal.\n[color=FF0000]NOTE: [/color]This quest involves a lot of walking and killing grey mobs to finish it.\nFeel free to skip it.|PRE|6421|RANK|3|
 F Thunder Bluff|ACTIVE|1063|M|45.13,59.84|N|Fly to Thunder Bluff.|
 T The Elder Crone|QID|1063|M|69.86,30.93|Z|Thunder Bluff|N|To Magatha Grimtotem, on Elder Rise.|
 A Forsaken Aid|QID|1064|M|69.86,30.93|Z|Thunder Bluff|N|From Magatha Grimtotem.|PRE|1063|
@@ -157,34 +157,32 @@ f Booty Bay|ACTIVE|6571|M|26.87,77.09|Z|Stranglethorn Vale|N|Since you are here,
 b Ratchet|ACTIVE|6571|M|25.80,73.10|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
 
 ; --- Stonetalon Mountains
-F Sun Rock Retreat|ACTIVE|1095|M|63.11,37.10|Z|The Barrens|
-R Windshear Crag|QID|1068|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
+F Sun Rock Retreat|ACTIVE|1095|M|63.09,37.16|Z|The Barrens|
+R Windshear Crag|ACTIVE|1068^1095|M|49.5,61.0;53.1,61.6;59.97,71.14|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
 T Further Instructions|QID|1095|M|58.99,62.60|N|Make your way to Ziz Fizziks' hut and turn in the quest.|
 A Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.60|N|From Ziz Fizziks.|PRE|1095|
 K XT:4|ACTIVE|1068|QO|1|N|Kill XT:4. It patrols the north side of the river.|T|XT:4|S|
 K XT:9|ACTIVE|1068|QO|2|N|Kill XT:9. It patrols the south side of the river.|T|XT:9|S|
 U The Flying Machine Airport|QID|1086|M|66.48,45.40|U|5638|N|Place the Toxic Fogger here.|
-C Gerenzo Wrenchwhistle|QID|1096|M|70.40,40.93;67.99,37.79;64.61,37.96;62.84,40.49|CS|L|5736|N|Make your way to the path leading up to the structure. Once you are there, work your way over to where Gerenzo is and kill him to loot his arm.|
+C Gerenzo Wrenchwhistle|QID|1096|M|68.6,41.2;68.8,39.5;64.6,38.0;62.84,40.49|CC|L|5736|N|Make your way to the path leading up to the structure. Once you are there, work your way over to where Gerenzo is and kill him and his guard.\n[color=FF0000]NOTE: [/color]He can spawn on the main platform or on the platform behind the water wheel.|
 ;L Level 25
-N Shortcut down|ACTIVE|1096|N|Jump into the water and swim to shore.|IZ|Cragpool Lake|
-K XT:4|ACTIVE|1068|QO|1|N|Kill XT:4. It patrols the north side of the river.|T|XT:4|US|
-K XT:9|ACTIVE|1068|QO|2|N|Kill XT:9. It patrols the south side of the river.|T|XT:9|US|
+N Shortcut down|ACTIVE|1096|N|Jump into the water and swim to shore.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Cragpool Lake|
+K XT:4|ACTIVE|1068|M|64.07,45.96|QO|1|N|Kill XT:4. It patrols a small area in the northern corner of Windshear Crag by Cragpool Lake and Blackwolf River.|T|XT:4|US|
+K XT:9|ACTIVE|1068|M|71.36,55.39;60.28,54.34|CN|QO|2|N|Kill XT:9. It patrols on the south side of the river, travelling west from the mine to the mountain edge on the west side before looping back in the opposite direction.|T|XT:9|US|
 T Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.57|N|To Ziz Fizziks.|
 R Boulderslide Ravine|ACTIVE|6481|M|67.7,86.8;66.24,89.37|CC|N|Head back to the signpost at the Windshear Crag entrance and follow the road south.|
 R Boulderslide Cavern|ACTIVE|6481|M|61.98,93.16|N|Make your way to the cave entrance.|
 C Earthen Arise|QID|6481|M|57.67,89.48|N|Open the Resonite cask with the Enchanted Resonite Crystal, and then slay Goggeroc.\n[color=FF0000]NOTE: [/color]Make sure you clear the mobs in the area first.|
-R Webwinder Path|ACTIVE|1068|M|61.72,93.13;67.76,86.64|CC|N|Exit the cave and make your way back to the road.|
-R The Barrens|ACTIVE|1068|M|67.74,86.66;83.51,97.14|CC|N|Follow the road to the south to the Barrens border.|
-T Shredding Machines|QID|1068|M|35.27,27.86|Z|The Barrens|N|To Seereth Stonebreak.|
-R Sun Rock Retreat|AVAILABLE|6301|M|49.58,60.99|N|Make your way back to Sun Rock Retreat.|
-A Cycle of Rebirth|QID|6301|M|47.43,58.46|N|From Tammra Windfield.|
+R Webwinder Path|ACTIVE|6481|M|61.7,93.1;67.7,86.6|CC|N|Exit the cave and make your way back to the road.|
+R Sun Rock Retreat|AVAILABLE|6301|M|49.58,60.99|N|Head back to the signpost at the Windshear Crag entrance and make your way back to Sun Rock Retreat.|
+A Cycle of Rebirth|QID|6301|M|47.46,58.37|N|From Tammra Windfield.|
 R Mirkfallon Lake|ACTIVE|6301|M|50.79,59.98;49.20,43.39|CC|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
 C Cycle of Rebirth|QID|6301|L|16205 10|N|Loot any gaea seeds you find on the ground around the lake.|
 R Sun Rock Retreat|ACTIVE|6301|M|49.58,60.99|N|Return to Sun Rock Retreat.|
-T Cycle of Rebirth|QID|6301|M|47.48,58.39|N|To Tammra Windfield.|
-A New Life|QID|6381|M|47.48,58.39|N|From Tammra Windfield.|PRE|6301|
+T Cycle of Rebirth|QID|6301|M|47.46,58.37|N|To Tammra Windfield.|
+A New Life|QID|6381|M|47.46,58.37|N|From Tammra Windfield.|PRE|6301|
 A Harpies Threaten|QID|6282|M|47.15,61.10|N|From Maggran Earthbinder.|
-T Earthen Arise|QID|6481|M|47.22,64.05|CS|N|To Mor'rogal, on top of the hill.\nOnce you have turned in this quest, you can safely destroy the Encanted Resonite Crystal.|
+T Earthen Arise|QID|6481|M|47.22,64.05|N|To Mor'rogal, on top of the hill.\nOnce you have turned in this quest, you can safely destroy the Encanted Resonite Crystal.|
 A Elemental War|QID|6393|M|47.30,64.26|N|From Tsunaman.|
 R The Charred Vale|ACTIVE|6381^6393^6282|M|44.55,63.01;37.99,68.08|CC|N|Head back to the main trail. Follow the torch-marked path south over the mountain to the bottom.\n[color=FF0000]NOTE: [/color]There is a longer route that brings you in through the north entrance. That route requires you to go back north up through Mirkfallon Lake and then west with a curve south into the Charred Vale. That route has less fighting and the mobs are level 23-25 at the top end. Whichever route you choose, you will be covering all 4 corners of the Charred Vale to complete this round of quests. The suggested route gets you there faster.|
 C New Life|QID|6381|QO|1|N|Gaea seed planted.|NC|S|
@@ -216,7 +214,9 @@ R Webwinder Path|ACTIVE|1058^1087|M|51.54,49.59|N|Follow the road south through 
 ; --- I realize this is a long run. But, we don't want to be carrying all of these items until we return to the area much later in the guide.
 R Malaka'jin|ACTIVE|1058|M|71.57,90.59|N|Continue following the road south to Malaka'jin.\nYes... it's a long run. You are going to be leaving the area for a while and you don't want to be carrying these items with you.|
 T Jin'Zil's Forest Magic|QID|1058|M|74.54,97.94|N|To Witch Doctor Jin'Zil.|
-R Sun Rock Retreat|ACTIVE|1087|M|49.58,60.99|N|Now that you've made some space in your bags, back to Sun Rock Retreat.|
+R The Barrens|ACTIVE|1068|M|67.7,86.6;83.51,97.14|CC|N|Exit Malaka'jin and follow the road south to the Barrens border.|
+T Shredding Machines|QID|1068|M|35.26,27.88|Z|The Barrens|N|To Seereth Stonebreak.|
+H Sun Rock Retreat|ACTIVE|1087|M|49.58,60.99|N|Now that you've made some space in your bags, back to Sun Rock Retreat.|
 T Cenarius' Legacy|QID|1087|M|46.01,60.37|N|To Braelyn Firehand.|
 A Ordanus|QID|1088|M|46.01,60.37|N|From Braelyn Firehand.|PRE|1087|
 
