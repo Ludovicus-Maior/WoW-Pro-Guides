@@ -20,8 +20,6 @@ return [[
 
 ;  Updated to Classic splits / new format on 23-Feb-2021 by Blanckaert
 
-; N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
-
 N This Guide|QID|171000001|N|Covers VANILLA content in CLASSIC only. Guide rewritten to new format.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|

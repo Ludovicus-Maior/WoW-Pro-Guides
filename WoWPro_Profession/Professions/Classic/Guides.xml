@@ -3,6 +3,7 @@
 	<Script file="Blacksmithing_Classic_VAN.lua"/>
 	<Script file="Enchanting_Classic_VAN.lua"/>
 	<Script file="Engineering_Classic_VAN.lua"/>
+	<Script file="First_Aid_Classic_VAN.lua"/>
 	<Script file="Leatherworking_Classic_VAN.lua"/>
 	<Script file="Tailoring_Classic_VAN.lua"/>
 </Ui>
