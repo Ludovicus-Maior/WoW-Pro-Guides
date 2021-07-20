@@ -176,31 +176,31 @@ C Earthen Arise|QID|6481|M|57.67,89.48|N|Open the Resonite cask with the Enchant
 R Webwinder Path|ACTIVE|6481|M|61.7,93.1;67.7,86.6|CC|N|Exit the cave and make your way back to the road.|
 R Sun Rock Retreat|AVAILABLE|6301|M|49.58,60.99|N|Head back to the signpost at the Windshear Crag entrance and make your way back to Sun Rock Retreat.|
 A Cycle of Rebirth|QID|6301|M|47.46,58.37|N|From Tammra Windfield.|
-R Mirkfallon Lake|ACTIVE|6301|M|50.79,59.98;49.20,43.39|CC|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
-C Cycle of Rebirth|QID|6301|L|16205 10|N|Loot any gaea seeds you find on the ground around the lake.|
+R Mirkfallon Lake|ACTIVE|6301|M|50.8,60.0;49.20,43.39|CC|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
+C Cycle of Rebirth|QID|6301|M|50.4,42.37|L|16205 10|N|Loot any gaea seeds you find on the ground around the lake.|
 R Sun Rock Retreat|ACTIVE|6301|M|49.58,60.99|N|Return to Sun Rock Retreat.|
 T Cycle of Rebirth|QID|6301|M|47.46,58.37|N|To Tammra Windfield.|
 A New Life|QID|6381|M|47.46,58.37|N|From Tammra Windfield.|PRE|6301|
 A Harpies Threaten|QID|6282|M|47.15,61.10|N|From Maggran Earthbinder.|
 T Earthen Arise|QID|6481|M|47.22,64.05|N|To Mor'rogal, on top of the hill.\nOnce you have turned in this quest, you can safely destroy the Encanted Resonite Crystal.|
 A Elemental War|QID|6393|M|47.30,64.26|N|From Tsunaman.|
-R The Charred Vale|ACTIVE|6381^6393^6282|M|44.55,63.01;37.99,68.08|CC|N|Head back to the main trail. Follow the torch-marked path south over the mountain to the bottom.\n[color=FF0000]NOTE: [/color]There is a longer route that brings you in through the north entrance. That route requires you to go back north up through Mirkfallon Lake and then west with a curve south into the Charred Vale. That route has less fighting and the mobs are level 23-25 at the top end. Whichever route you choose, you will be covering all 4 corners of the Charred Vale to complete this round of quests. The suggested route gets you there faster.|
+R The Charred Vale|ACTIVE|6381^6393^6282|M|44.3,63.7;37.99,68.08|CC|N|Head back to the main trail. Follow the torch-marked path south over the mountain to the bottom.\n[color=FF0000]NOTE: [/color]There is a longer route that brings you in through the north entrance. That route requires you to go back north up through Mirkfallon Lake and then west with a curve south into the Charred Vale. That route has less fighting and the mobs are level 23-25 at the top end. Whichever route you choose, you will be covering all 4 corners of the Charred Vale to complete this round of quests. The suggested route gets you there faster.|
 C New Life|QID|6381|QO|1|N|Gaea seed planted.|NC|S|
 C Elemental War|QID|6393|L|16312 10|N|Kill Fire Elementals to collect Incendrites.\n[color=FF0000]NOTE: [/color]They are immune to fire damage.|S|
-C Harpies Threaten|QID|6282|QO|1;2;3;4|N|Kill Bloodfury Harpies, Ambushers, Slayers and Roguefeathers.\n[color=FF0000]NOTE: [/color]Don't waste your time with the Bloodfury Storm Witches; unless you have no choice. Try to draw them away from the others. It won't take much to get overwhelmed.|
+K Harpies Threaten|ACTIVE|6282|QO|1;2;3;4|N|Kill Bloodfury Harpies, Ambushers, Slayers and Roguefeathers.\n[color=FF0000]NOTE: [/color]These mobs are not grey. Be prepared for yellow mobs.\nTry to kite them away from the others. as it won't take much to get overwhelmed.\nDon't waste your time with the Bloodfury Storm Witches; unless you have no choice.|
 C Elemental War|QID|6393|L|16312 10|N|Kill Fire Elementals to collect Incendrites.|US|
 C New Life|QID|6381|QO|1|N|Gaea seed planted.|NC|US|
-R Sun Rock Retreat|ACTIVE|6393^6282|M|37.93,67.93;44.54,63.43|CC|N|Run back to Sun Rock Retreat.|
+R Sun Rock Retreat|ACTIVE|6393^6282|M|37.9,67.9;44.54,63.43|CC|N|Run back to Sun Rock Retreat.|
 T Elemental War|QID|6393|M|47.29,64.25|N|To Tsunaman.|
-T Harpies Threaten|QID|6282|M|47.18,61.10|N|To Maggran Earthbinder.|
-A Bloodfury Bloodline|QID|6283|M|47.18,61.10|N|From Maggran Earthbinder.|PRE|6282|
-A Calling in the Reserves|QID|5881|M|47.18,61.10|N|From Maggran Earthbinder.|
-A Cenarius' Legacy|QID|1087|M|46.04,60.49|N|From Braelyn Firehand.|
+T Harpies Threaten|QID|6282|M|47.20,61.16|N|To Maggran Earthbinder.|
+A Bloodfury Bloodline|QID|6283|M|47.20,61.16|N|From Maggran Earthbinder.|PRE|6282|
+A Calling in the Reserves|QID|5881|M|47.20,61.16|N|From Maggran Earthbinder.|
+A Cenarius' Legacy|QID|1087|M|45.95,60.43|N|From Braelyn Firehand.|
 T New Life|QID|6381|M|47.42,58.50|N|To Tammra Windfield.|
 R Mirkfallon Lake|ACTIVE|1058^1087|M|50.79,59.98;49.20,43.39|CC|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
 C Courser|QID|1058|L|5585 30|N|Kill Coursers for their eyes.\nYou'll find them everywhere north of Mirkfallon Lake.|S|
 R Stonetalon Peak|ACTIVE|1058^1087|M|44.31,17.78|N|Continue north out of Mirkfallon Lake until you reach Stonetalon Peak.|
-N Fey Dragon|ACTIVE|1058^1087|N|Be very aware of these guys sneaking up on you as adds. They cast 'Nullify Mana'; which will drain a portion of your mana.|C|Mage,Priest|
+N Fey Dragon|ACTIVE|1058^1087|N|Be very aware of these guys sneaking up on you as adds. They cast 'Nullify Mana'; which will drain a portion of your mana.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Rogue,-Warrior|
 C Cenarius' Legacy|QID|1087|QO|1;2;3|N|Kill Sons of Cenarius, Daughters of Cenarius and Cenarion Botanists.\nYou'll find them in the woods on either side of the road.|
 ; Level 26
 C Fey Dragon|QID|1058|L|5583|N|Kill a Fey Dragon to collect a Fey Dragon Scale.|S|
@@ -217,8 +217,8 @@ T Jin'Zil's Forest Magic|QID|1058|M|74.54,97.94|N|To Witch Doctor Jin'Zil.|
 R The Barrens|ACTIVE|1068|M|67.7,86.6;83.51,97.14|CC|N|Exit Malaka'jin and follow the road south to the Barrens border.|
 T Shredding Machines|QID|1068|M|35.26,27.88|Z|The Barrens|N|To Seereth Stonebreak.|
 H Sun Rock Retreat|ACTIVE|1087|M|49.58,60.99|N|Now that you've made some space in your bags, back to Sun Rock Retreat.|
-T Cenarius' Legacy|QID|1087|M|46.01,60.37|N|To Braelyn Firehand.|
-A Ordanus|QID|1088|M|46.01,60.37|N|From Braelyn Firehand.|PRE|1087|
+T Cenarius' Legacy|QID|1087|M|45.95,60.43|N|To Braelyn Firehand.|
+A Ordanus|QID|1088|M|45.95,60.43|N|From Braelyn Firehand.|PRE|1087|
 
 ; --- Thunder Bluff
 F Thunder Bluff|ACTIVE|1086|M|45.13,59.84|
@@ -414,12 +414,12 @@ T Freedom to Ruul|QID|6482|M|74.12,60.91|Z|Ashenvale|N|To Yama Snowhoof.|
 
 ; --- Stonetalon Mountains
 F Sun Rock Retreat|ACTIVE|1088|M|73.18,61.59|Z|Ashenvale|
-T Ordanus|QID|1088|M|46.01,60.37|N|To Braelyn Firehand.|
+T Ordanus|QID|1088|M|45.95,60.43|N|To Braelyn Firehand.|
 R The Charred Vale|QID|6283|ACTIVE|6283|M|34.51,60.13|CC|N|Choose your own path to get there. I suggest going over the mountain.|
 K Bloodfury Bloodline|ACTIVE|6283|M|30.71,61.15|CC|QO|1|N|Clear any potential adds in the area. When you're ready, kill Bloodfury Ripper and loot her remains. She paths around a little. I highly recommend kiting her into the mountains away from the others.\n[color=FF0000]NOTE: [/color]She is a level 26 Elite with a 5 minute respawn timer.|
 L Level 30|QID|6283|N|You'll want to grind out and be within 1 bubble of level 30 before leaving the area. |C|Priest,Warlock|LVL|30;-2100|
 R Sun Rock Retreat|ACTIVE|6283|M|49.58,60.99|N|Head back to Sun Rock Retreat.|
-T Bloodfury Bloodline|QID|6283|M|47.18,61.10|N|To Maggran Earthbinder.|
+T Bloodfury Bloodline|QID|6283|M|47.20,61.16|N|To Maggran Earthbinder.|
 
 ; --- Silverpine Forest
 F Orgrimmar|QID|442|M|45.13,59.84|
