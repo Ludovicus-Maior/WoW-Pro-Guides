@@ -196,19 +196,19 @@ T Harpies Threaten|QID|6282|M|47.20,61.16|N|To Maggran Earthbinder.|
 A Bloodfury Bloodline|QID|6283|M|47.20,61.16|N|From Maggran Earthbinder.|PRE|6282|
 A Calling in the Reserves|QID|5881|M|47.20,61.16|N|From Maggran Earthbinder.|
 A Cenarius' Legacy|QID|1087|M|45.95,60.43|N|From Braelyn Firehand.|
-T New Life|QID|6381|M|47.42,58.50|N|To Tammra Windfield.|
-R Mirkfallon Lake|ACTIVE|1058^1087|M|50.79,59.98;49.20,43.39|CC|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
-C Courser|QID|1058|L|5585 30|N|Kill Coursers for their eyes.\nYou'll find them everywhere north of Mirkfallon Lake.|S|
+T New Life|QID|6381|M|47.46,58.37|N|To Tammra Windfield.|
+R Mirkfallon Lake|ACTIVE|1058^1087|M|50.8,60.0;49.20,43.39|CC|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
+C Courser|QID|1058|M|44.81,21.47|L|5585 30|N|Kill Coursers for their eyes.\nYou'll find them everywhere north of Mirkfallon Lake.|S|
 R Stonetalon Peak|ACTIVE|1058^1087|M|44.31,17.78|N|Continue north out of Mirkfallon Lake until you reach Stonetalon Peak.|
 N Fey Dragon|ACTIVE|1058^1087|N|Be very aware of these guys sneaking up on you as adds. They cast 'Nullify Mana'; which will drain a portion of your mana.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Rogue,-Warrior|
-C Cenarius' Legacy|QID|1087|QO|1;2;3|N|Kill Sons of Cenarius, Daughters of Cenarius and Cenarion Botanists.\nYou'll find them in the woods on either side of the road.|
+K Cenarius' Legacy|ACTIVE|1087|QO|1;2;3|N|Kill Sons of Cenarius, Daughters of Cenarius and Cenarion Botanists.\nYou'll find them in the woods on either side of the road.|
 ; Level 26
 C Fey Dragon|QID|1058|L|5583|N|Kill a Fey Dragon to collect a Fey Dragon Scale.|S|
-C Sap Beast|QID|1058|L|5582 5|N|Kill 'Sap Beasts' to collect Stonetalon Sap.|S|
-C Twilight Runner|QID|1058|L|5584 5|N|Kill Twilight Runners to collect Twilight Whiskers.\nThey are in the northern half of Stonetalon Peak.\n[color=FF0000]NOTE: [/color]Be aware that as you are moving around in this area, there is an Alliance outpost northeast of you.|
-C Sap Beast|QID|1058|L|5582 5|N|Kill Sap Beasts to collect Stonetalon Sap.\nThey are in southern half of Stonetalon Peak. They are also found in the northeast area.\n[color=FF0000]NOTE: [/color]Only 'Sap Beasts' will drop them; ignore the Corrosive Sap Beasts.|US|
+C Sap Beast|QID|1058|M|33.92,18.13|L|5582 5|N|Kill 'Sap Beasts' to collect Stonetalon Sap.|S|
+C Twilight Runner|QID|1058|M|32.75,10.84|L|5584 5|N|Kill Twilight Runners to collect Twilight Whiskers. They are in the northern half of Stonetalon Peak.\n[color=FF0000]NOTE: [/color]Watch out for the Alliance outpost northeast of you.|
+C Sap Beast|QID|1058|M|33.92,18.13|L|5582 5|N|Kill Sap Beasts to collect Stonetalon Sap.\nThey are in southern half of Stonetalon Peak. They are also found in the northeast area.\n[color=FF0000]NOTE: [/color]Only 'Sap Beasts' will drop them; ignore the Corrosive Sap Beasts.|US|
 C Fey Dragon|QID|1058|L|5583|N|Kill a Fey Dragon to collect a Fey Dragon Scale.\nThey are spread out over Stonetalon Peak.|US|
-C Courser|QID|1058|L|5585 30|N|Kill Coursers for their eyes.\nYou'll find them everywhere north of Mirkfallon Lake.|US|
+C Courser|QID|1058|M|44.81,21.47|L|5585 30|N|Kill Coursers for their eyes.\nYou'll find them everywhere north of Mirkfallon Lake.|US|
 R Webwinder Path|ACTIVE|1058^1087|M|51.54,49.59|N|Follow the road south through Mirkfallon Lake.|
 
 ; --- I realize this is a long run. But, we don't want to be carrying all of these items until we return to the area much later in the guide.
