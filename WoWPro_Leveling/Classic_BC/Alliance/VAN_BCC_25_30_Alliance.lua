@@ -392,7 +392,7 @@ A Raene's Cleansing|QID|1029|M|53.5,46.3|N|From Shael'dryn.|PRE|1055|Z|Ashenvale
 T Raene's Cleansing|QID|1029|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
 * Rod of Transformation|AVAILABLE|1030|U|5462|M|36.6,49.6|N|Once the Raene's Cleansing questline is complete the Rod of Transformation will be removed from your inventory. If you wish to retain the ability to transform into a Furbolg after completing the quest discard the rod now before picking up the next quest. After completing the questline go to battle.net/support/en/restoration and select your character to restore the item|
 A Raene's Cleansing|QID|1030|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1029|Z|Ashenvale|
-A Velinde Starsong|QID|1037|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|PRE|1022|Z|Ashenvale|
+A Velinde Starsong|QID|1037|M|86.00,44.00|N|From Sentinel Melyria Frostshadow.|PRE|1022|Z|Ashenvale|
 A Satyr Slaying!|QID|1032|M|86.52,43.92|N|From Illiyana.|PRE|1031|Z|Ashenvale|
 T Raene's Cleansing|QID|1030|M|50.8,75|N|To Krolg. Run around the south-east edge of the lake to find the hill up to him. Be sure to use your rod so you can speak with him.|U|5462|Z|Ashenvale|
 A Raene's Cleansing|QID|1045|M|50.8,75|N|From Krolg. Be sure to use your rod so you can speak with him.|U|5462|PRE|1030|Z|Ashenvale|
