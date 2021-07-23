@@ -616,6 +616,10 @@ C Vorsha the Lasher|QID|6641|M|9.63,27.61|Z|Ashenvale|QO|1|N|Accompany Muglash t
 C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|L|5490 20|N|Finish collecting Wrathtail Heads.|US|
 T Vorsha the Lasher|QID|6641|M|12.22,34.21|Z|Ashenvale|N|To Warsong Runner.|
 T Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|To Marukai.|
+F Splintertree Post|ACTIVE|6541|M|51.50,30.33|Z|The Barrens|
+R The Mor'shan Rampart|ACTIVE|6541|M|48.02,5.58|Z|The Barrens|CC|N|Follow the road south out of Splintertree Post to the Mor'shan Rampart.|
+T The Warsong Reports|QID|6543|M|48.12,5.42|N|To Kadrak.|
+R Splintertree Post|AVAILABLE|6421|M|68.6,84.2;67.2,71.5;70.1,70.0;71.1,67.5|Z|Ashenvale|CC|
 F Sun Rock Retreat|AVAILABLE|6421|M|12.24,33.80|Z|Ashenvale|
 
 ]]

@@ -238,15 +238,15 @@ F Tarren Mill|AVAILABLE|502|M|63.26,48.54|Z|Undercity|
 A Elixir of Pain|QID|502|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|501|
 A Elixir of Agony|QID|509|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|502|
 A Dangerous!|QID|567|M|62.55,19.69|Z|Hillsbrad Foothills|N|From the wanted poster hanging beside the Inn's front door.\njust in case you run into one of them while you are doing other things, accept this quest now. It would suck to have to kill them more than once because you didn't have the quest.|
-R Hillsbrad Fields|ACTIVE|502^527|M|33.43,35.03|Z|Hillsbrad Foothills|N|Run to the north end of the area.|
+R Hillsbrad Fields|ACTIVE|502^527|M|33.43,35.03|Z|Hillsbrad Foothills|N|Run to the north end of the area.\n[color=FF0000]NOTE: [/color]Give the lv 30+ Cave Yetis in Darrow Hill a wide berth.|
 C Battle of Hillsbrad|QID|527|QO|1;2|N|Kill Hillsbrad Farmers and Farmhands.|S|
-T Elixir of Pain|QID|502|M|32.96,35.15|Z|Hillsbrad Foothills|N|To Stanley. You'll find him beside his doghouse at the northern most house in Hillsbrad Fields.\n[color=FF0000]NOTE: [/color]Stanley won't appreciate you giving him the elixir. He becomes enraged and attacks you. The quest completes once you defeat him.|
+T Elixir of Pain|QID|502|M|32.69,35.33|Z|Hillsbrad Foothills|N|To Stanley. You'll find him beside his doghouse at the northern most house in Hillsbrad Fields.\n[color=FF0000]NOTE: [/color]Stanley won't appreciate you giving him the elixir. He becomes enraged and attacks you. The quest completes once you defeat him.|
 K Citizen Wilkes|QID|567|QO|2|N|Kill Citizen Wilkes. He patrols the north branch of the main road in Hillsbrad Fields from the Forge up to the last house; stopping briefly at each building as he passes.\n[color=FF0000]NOTE: [/color]You will have multiple opportunties to kill him. So, waiting/looking for him is not necessary.|S|
 K Farmer Ray|QID|527|M|32.67,35.62;33.74,33.50|Z|Hillsbrad Foothills|CN|QO|3|N|Kill Farmer Ray. He's just inside the front door. Draw him out so you don't aggro the mobs inside with him.\n[color=FF0000]NOTE: [/color]If he's not in the house, check the courtyard on the east side of the house. The courtyard location requires you clear the adds first.|
 K Farmer Getz|QID|527|M|35.45,38.00;36.52,39.45|Z|Hillsbrad Foothills|CN|QO|4|N|Kill Farmer Getz. He's inside the barn. Be prepared. You will aggro the 2 mobs that are in there with him.\n[color=FF0000]NOTE: [/color]If he's at the house (east of the barn), he'll only have 1 mob with him.|
 C Battle of Hillsbrad|QID|527|QO|1;2|N|Finish killing Hillsbrad Farmers and Farmhands.|US|
 R Tarren Mill|QID|527|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
-T Battle of Hillsbrad|QID|527|M|62.27,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia in Tarren Mill. Stay north of the road so you can continue working on your collection quests.|
+T Battle of Hillsbrad|QID|527|M|62.27,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia in Tarren Mill.|
 A Battle of Hillsbrad|QID|528|M|62.27,20.32|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 C Battle of Hillsbrad|QID|528|QO|1|N|Kill Hillsbrad Peasants.|S|
 A Souvenirs of Death|QID|546|M|62.19,19.86|Z|Hillsbrad Foothills|N|From Deathguard Samsa.|PRE|527|
