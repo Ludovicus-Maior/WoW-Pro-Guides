@@ -250,26 +250,27 @@ T Battle of Hillsbrad|QID|527|M|62.27,20.32|Z|Hillsbrad Foothills|N|To High Exec
 A Battle of Hillsbrad|QID|528|M|62.27,20.32|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 C Battle of Hillsbrad|QID|528|QO|1|N|Kill Hillsbrad Peasants.|S|
 A Souvenirs of Death|QID|546|M|62.19,19.86|Z|Hillsbrad Foothills|N|From Deathguard Samsa.|PRE|527|
-C Souvenirs of Death|QID|546|L|3692 30|N|Basically, kill Hillsbrad human mobs to collect Hillsbrad Human Skulls.|S|
+C Souvenirs of Death|QID|546|L|3692 30|N|Basically, kill Hillsbrad human mobs to collect the Hillsbrad Human Skulls.|S|
 R Hillsbrad Fields|ACTIVE|528^546^567|M|37.03,43.41|Z|Hillsbrad Foothills|N|Run to the south east part of the area.|
 K Farmer Kalaba|QID|567|M|35.71,46.76|Z|Hillsbrad Foothills|QO|4|N|Kill Farmer Kalaba in the SE orchard.|
 C Battle of Hillsbrad|QID|528|QO|1|N|Finish killing Hillsbrad Peasants.|US|
-R Nethander Stead|ACTIVE|509|M|62.29,41.41;63.77,57.82|Z|Hillsbrad Foothills|CC|N|Make your way south to Nethander Stead.\n[color=FF0000]NOTE: [/color]Don't be silly and try cutting through Southshore.|
-C Elixir of Agony|QID|509|L|3502 6|N|Collect Mudsnout Blossoms.|
+R Nethander Stead|ACTIVE|509|M|63.4,41.8;63.77,57.82|Z|Hillsbrad Foothills|CC|N|Follow the road east to the bridge and then make your way south to Nethander Stead.\n[color=FF0000]NOTE: [/color]Don't be silly and try cutting through Southshore.|
+C Elixir of Agony|QID|509|M|64.85,61.37|Z|Hillsbrad Foothills|L|3502 6|N|Clear as many Gnolls as you deem necessary to access the field in Nethander Stead safely to collect the Mudsnout Blossoms.\n[color=FF0000]NOTE: [/color]Try to kite them away from the others because they like to run and the Shamans won't stay still through the entire fight.\nThe Shamans will also heal themselves ~75%|
 R Tarren Mill|QID|509|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
 ;L Level 27|QID|567|LVL|27|N|You should be around level 27 by this point.|
 T Battle of Hillsbrad|QID|528|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 A Battle of Hillsbrad|QID|529|M|62.28,20.28|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|528|
+t Souvenirs of Death|QID|546|M|62.10,19.82|Z|Hillsbrad Foothills|N|To Deathguard Samsa.|IZ|Tarren Mill|
+T Elixir of Agony|QID|509|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
+A Elixir of Agony|QID|513|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|509|
 R Hillsbrad Fields|ACTIVE|529^546^567|M|32.21,48.31|Z|Hillsbrad Foothills|N|Make your way to the south entrance to Hillsbrad Fields. You are headed for the Forge.|
-C Battle of Hillsbrad|QID|529|M|32,46|Z|Hillsbrad Foothills|QO|2|N|Kill Hillsbrad Apprentice Blacksmiths. There are 3 inside the forge and 1 outside.|S|
-K Blacksmith Verringtan|QID|529|QO|1|N|Kill Blacksmith Verringtan inside the Forge.\nSometimes you get lucky and he will spawn outside.\n[color=FF0000]NOTE: [/color]If you approach from the south entrance, you'll aggro all 4 mobs inside. If you approach from the north entrance, you'll only aggro 3 of them. Run around to the rear of the building to avoid aggroing anyone else and to prevent the runners from doing the same. Verringtan will be one of the mobs that attack you.\nIf Verringtan spawned outside, you will only pull 2 mobs.|
-C Battle of Hillsbrad|QID|529|M|31.99,45.43|Z|Hillsbrad Foothills|L|3564|N|As soon as you clear the forge, run inside and pick up the Shipment of Iron inside the forge.|
-C Battle of Hillsbrad|QID|529|QO|2|N|Finish killing the Hillsbrad Apprentice Blacksmiths. You should be able to pull the one outside by himself.|US|
-C Souvenirs of Death|QID|546|L|3692 30|N|Continue killing Hillsbrad human mobs until you are done collecting the Hillsbrad Human Skulls./nYou are leaving this area shortly and there's no point carrying this quest and items with you.|US|
-R Tarren Mill|QID|529|M|61.35,20.04|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill.|
-t Souvenirs of Death|QID|546|M|62.10,19.82|Z|Hillsbrad Foothills|N|To Deathguard Samsa.|
-T Elixir of Agony|QID|509|M|61.47,19.22|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
-A Elixir of Agony|QID|513|M|61.47,19.22|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|509|
+C Battle of Hillsbrad|QID|529|M|31.99,45.43|Z|Hillsbrad Foothills|QO|3|N|The Shipment of Iron is located inside the forge.|S|
+K Battle of Hillsbrad|ACTIVE|529|M|32,46|Z|Hillsbrad Foothills|QO|2|N|Kill Hillsbrad Apprentice Blacksmiths. There are 2-3 inside the forge and 2-3 around the outside.|S|
+K Blacksmith Verringtan|ACTIVE|529|QO|1|N|Kill Blacksmith Verringtan inside the Forge.\nSometimes you get lucky and he will spawn outside on the east side.\n[color=FF0000]NOTE: [/color]If you approach from the north entrance, you can avoid aggroing everyone in the forge.|
+l Battle of Hillsbrad|QID|529|M|32.01,45.44|Z|Hillsbrad Foothills|QO|3|N|As soon as you clear the forge, run inside and pick up the Shipment of Iron inside the forge.|US|
+K Battle of Hillsbrad|ACTIVE|529|QO|2|N|Finish killing the Hillsbrad Apprentice Blacksmiths.|US|
+C Souvenirs of Death|QID|546|M|33.03,46.78|Z|Hillsbrad Foothills|L|3692 30|N|Finish collecting the Hillsbrad Human Skulls.\n[color=FF0000]NOTE: [/color]The Peasants, Blacksmiths, and Footmen offer the best drop rate; Farmers and Farmhands offer the worst. Your results may vary.|US|
+R Tarren Mill|QID|529|M|61.35,20.04|Z|Hillsbrad Foothills|N|Return to Tarren Mill.|
 T Battle of Hillsbrad|QID|529|M|62.29,20.31|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 
 ; --- Undercity
@@ -442,7 +443,7 @@ T Assault on Fenris Isle|QID|442|M|43.43,40.86|Z|Silverpine Forest|N|To High Exe
 F Tarren Mill|QID|515|M|45.62,42.59|Z|Silverpine Forest|
 A Battle of Hillsbrad|QID|532|M|62.29,20.31|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 R Hillsbrad Fields|ACTIVE|515^532^567|M|55.86,19.60;57.65,36.61;32.08,50.30|Z|Hillsbrad Foothills|CC|N|The Town Hall is contained within a wall that has only one entrance facing the main road. Your best bet is to approach from the south behind the Forge. You can pull the mobs out front towards you away from the road. You'll need to clear a path to the Town Hall.\n[color=FF0000]NOTE: [/color]Make sure you clear the patrolers before moving forward.|
-N Clerk Horrace Whitesteed|ACTIVE|567|N|He is not alone and you'll have to clear the room slowly to avoid getting overwhelmed with adds. You will have to pull the 2 mobs on the left side of the room from the entrance. The moment you enter the room, you will aggro everyone. I recommend using the front foyer as a pull area. Put as much distance between the main room and the runner as possible; and they will run. This will limit the chance of runners making it worse for you.\nIMO, because of the way it's set up, this one is the toughest of all 4.|
+N Clerk Horrace Whitesteed|ACTIVE|567|N|He is not alone and you'll have to clear the room slowly to avoid getting overwhelmed with adds. You will have to pull the 2 mobs on the left side of the room from the entrance. The moment you enter the room, you will aggro everyone. I recommend using the front foyer as a pull area. Put as much distance between the main room and the runner as possible; and they will run. This will limit the chance of runners making it worse for you.\nIMO, because of the way it's set up, this one is the toughest of all 4.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Battle of Hillsbrad|QID|532|QO|2|N|Kill Hillsbrad Councilmen.|S|
 K Clerk Horrace Whitesteed|QID|567|M|30.08,42.01|Z|Hillsbrad Foothills|QO|1|N|Kill Clerk Horrace Whitesteed inside the Townhall. He's just inside the main room against the near wall to the right of the doorway.|
 C Magistrate Burnside|QID|532|M|29.65,41.70|Z|Hillsbrad Foothills|QO|1;3;4|N|Kill Magistrate Burnside standing at the pulpit inside the townhall.|
@@ -463,7 +464,7 @@ C Elixir of Agony|ACTIVE|515|L|3510 5|N|Working your way east along the coast, k
 R Eastern Strand|ACTIVE|515|M|53.19,64.57|Z|Hillsbrad Foothills|N|Southshore is Alliance controlled. So, unless you enjoy running from PvP guards, I'd steer clear of it.\n[color=FF0000]NOTE: [/color]You have a couple choices at this point. You can either run north to the road and go around that way, or you can swim across. Cross at the southern most point of the shoreline to maintain your distance from Southshore.|
 C Elixir of Agony|ACTIVE|515|L|3509 5|N|Kill the Nagas to collect Daggerspine Scales.|
 R Tarren Mill|QID|515|M|62.81,41.59;63.31,29.84|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill.\nDepending on which end of Eastern Strand you are at, you can either follow the road north of you, or weave your way to the river and follow the EAST bank north. The Southshore guards will leave you alone as long as you don't go in the water.\n[color=FF0000]NOTE: [/color]IF YOU GO IN THE WATER, YOU WILL DIE!!!|
-T Elixir of Agony|QID|515|M|61.47,19.17|Z|Hillsbrad Foothills|N|To Apothecary Lydon.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
+T Elixir of Agony|QID|515|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
 T Dangerous!|QID|567|M|62.36,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 T Battle of Hillsbrad|QID|539|M|62.36,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
 
