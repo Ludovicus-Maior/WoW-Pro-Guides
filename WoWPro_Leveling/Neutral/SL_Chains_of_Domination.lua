@@ -256,9 +256,9 @@ C Victory in Our Name|QID|63622|M|60.28,27.34|Z|1961;Korthia|CHAT|N|Speak with D
 T Victory in Our Name|QID|63622|M|62.83,26.38|Z|1961;Korthia|N|To The Primus.|
 
 ; The Unseen Guests
-A Dreadlords!|QID|63659|M|65.02,22.91|Z|1961;Korthia|N|From Baroness Vashj.|REN|50|
-T Dreadlords!|QID|63659|M|62.97,25.41|Z|1961;Korthia|N|To The Primus.|
-A Dread Tidings|QID|63644|PRE|63659|M|62.97,25.41|Z|1961;Korthia|N|From The Primus.|
+A Dreadlords!|QID|63659|M|60.69,27.67|Z|1961;Korthia|N|From Baroness Vashj.|PRE|63622|REN|50|
+T Dreadlords!|QID|63659|M|62.84,26.38|Z|1961;Korthia|N|To The Primus.|
+A Dread Tidings|QID|63644|PRE|63659|M|62.84,26.38|Z|1961;Korthia|N|From The Primus.|
 P Ring of Transference|ACTIVE|63644|M|64.47,24.05|Z|1961;Korthia|N|Take the portal to Ring of Transference.|
 F Sanctuary of the Mad|ACTIVE|63644|M|60.90,68.77|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Sanctuary of the Mad.|
 C Dread Tidings|QID|63644|M|29.48,41.72|Z|Revendreth|QO|1|CHAT|N|Speak withBaroness Vashj.|
@@ -296,9 +296,11 @@ A The Nathrezim|QID|63654|PRE|63653|M|25.16,45.13|Z|Revendreth|N|From The Stonew
 C The Nathrezim|QID|63654|M|22.54,45.89|Z|Revendreth|QO|1|NC|N|Approach the Dawnkeep portal.|
 C The Nathrezim|QID|63654|M|22.64,45.95|Z|Revendreth|N|Kill Gorgannon and Diathorus and then Mal'Ganis.|
 T The Nathrezim|QID|63654|M|23.07,45.86|Z|Revendreth|N|To Prince Renathal.|
+A The Meaning of Wrath|QID|63656|M|23.09,45.96|Z|1525|N|From The Stonewright.|PRE|63654|
+T The Meaning of Wrath|QID|63656|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; The Power of Night
-A A Cry From the Heart|QID|63672|PRE|63654|M|64.40,24.27|Z|1961;Korthia|N|From Urgent Message from Ardenweald.|REN|52|
+A A Cry From the Heart|QID|63672|PRE|63656|M|64.40,24.27|Z|1961;Korthia|N|From Urgent Message from Ardenweald.|REN|52|
 P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|1961;Korthia|IZ|1961|N|Take the portal to Ring of Transference.|
 F Heart of the Forest|ACTIVE|63672|M|60.96,68.81|Z|Ring of Transference@Oribos|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|
 T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
