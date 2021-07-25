@@ -296,7 +296,9 @@ A The Nathrezim|QID|63654|PRE|63653|M|25.16,45.13|Z|Revendreth|N|From The Stonew
 C The Nathrezim|QID|63654|M|22.54,45.89|Z|Revendreth|QO|1|NC|N|Approach the Dawnkeep portal.|
 C The Nathrezim|QID|63654|M|22.64,45.95|Z|Revendreth|N|Kill Gorgannon and Diathorus and then Mal'Ganis.|
 T The Nathrezim|QID|63654|M|23.07,45.86|Z|Revendreth|N|To Prince Renathal.|
-A The Meaning of Wrath|QID|63656|M|23.09,45.96|Z|1525|N|From The Stonewright.|PRE|63654|
+A The Meaning of Wrath|QID|63656|M|23.09,45.96|Z|1525;Revendreth|N|From The Stonewright.|PRE|63654|
+A Medallion of Wrath|QID|63655|M|23.09,45.97|Z|1525;Revendreth|N|From The Stonewright.|PRE|63654|COV|Venthyr|
+T Medallion of Wrath|QID|63655|M|55.19,38.30|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Medallion of Wrath, back in your covenant hall.|COV|Venthyr|
 T The Meaning of Wrath|QID|63656|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; The Power of Night
@@ -550,7 +552,7 @@ T Tower Knowledge|QID|64216|M|47.47,75.37|Z|1912;Torghast, Tower of the Damned|N
 N Renown Level 44|AVAILABLE|63703|N|You must reach Renown level 44 to continue to the next chapter.|REN|-44|
 N Renown Level 47|AVAILABLE|63612|N|You must reach Renown level 47 to continue to the next chapter.|REN|-47|PRE|63727|
 N Renown Level 50|AVAILABLE|63659|N|You must reach Renown level 50 to continue to the next chapter.|REN|-50|PRE|63622|
-N Renown Level 52|AVAILABLE|63672|N|You must reach Renown level 52 to continue to the next chapter.|REN|-52|PRE|63654|
+N Renown Level 52|AVAILABLE|63672|N|You must reach Renown level 52 to continue to the next chapter.|REN|-52|PRE|63656|
 N Renown Level 56|AVAILABLE|63579|N|You must reach Renown level 56 to continue to the next chapter.|REN|-56|PRE|63683|
 ]]
 end)

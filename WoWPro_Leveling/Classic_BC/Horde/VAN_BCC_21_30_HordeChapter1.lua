@@ -274,112 +274,64 @@ R Tarren Mill|QID|529|M|61.35,20.04|Z|Hillsbrad Foothills|N|Return to Tarren Mil
 T Battle of Hillsbrad|QID|529|M|62.29,20.31|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 
 ; --- Undercity
-N Too tough|ACTIVE|513|N|This area has gotten a little too tough for your current level. We will temporarily move on for now. We are going to head back to The Barrens.|
 F Undercity|QID|513|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
-T Elixir of Agony|QID|513|M|48.68,69.25|Z|Undercity|N|To Master Apothecary Faranell, underneath The Apothecarium.|
+T Elixir of Agony|QID|513|M|48.80,69.28|Z|Undercity|N|To Master Apothecary Faranell, underneath The Apothecarium.|
+A Elixir of Agony|QID|515|M|48.80,69.28|Z|Undercity|N|From Master Apothecary Faranell.|PRE|513|
 
 ; --- The Barrens
-H Orgrimmar|QID|868|N|If you have nothing further to do, hearth back to Orgrimmar.|
-F Crossroads|QID|868|M|45.50,63.84|Z|Orgrimmar|
-A Egg Hunt|QID|868|M|51.09,29.60|Z|The Barrens|N|From Korran.|
-F Camp Taurajo|QID|868|M|51.50,30.33|Z|The Barrens|
-A Betrayal from Within|QID|879|M|44.55,59.23|Z|The Barrens|N|From Mangletooth.|
-A Weapons of Choice|QID|893|M|45.10,57.69|Z|The Barrens|N|From Tatternack Steelforge.|
-R Field of Giants|ACTIVE|868|M|46.13,69.67|CC|Z|The Barrens|
-; --- Jorn Skyseer's kill quests
-A Owatanka|QID|884|U|5102|N|Right-click on Owatanka's Tailspike to accept the quest.|O|
-A Lakota'mani|QID|883|U|5099|N|Right-click on Hoof of Lakota'mani to accept the quest.|O|
-A The Harvester|QID|897|U|5138|N|Right-click on Harvester's Head to accept the quest.|O|
-A Washte Pawne|QID|885|U|5103|N|Right-click on Washte Pawne's Feather to accept the quest.|O|
-; ---
-C Egg Hunt|QID|868|L|5058 12|N|Collect Silithid Eggs from the Silithid Mounds found on both sides of the road in Field of Giants.|
-N The Harvester|AVAILABLE|897|N|Have a quick look around and see if you can locate this mob. This is one of Jorn Skyseer's rare quest kills and probably the hardest to find.\nManually check this step off once you've killed it or given up waiting.|
-A Gann's Reclamation|QID|843|M|46.11,81.23|Z|The Barrens|N|From Gann Stonespire. You may find him sooner walking along on Southern Gold Road. This is the furthest south he travels.|
-C Razormane Pathfinder/Stalker|QID|893|L|5093|N|Kill Razormane Pathfinders/Stalkers until one drops a Razormane Backstabber.|S|
-C Razormane Warfrenzy|QID|893|L|5094|N|Kill Razormane Warfrenzy until one drops a Razormane War Shield.|S|
-C Razormane Seer|QID|893|L|5092|N|Kill Razormane Seers until one drops a Charred Razormane Wand.|S|
-K Kuz|ACTIVE|879|M|44.71,80.48|Z|The Barrens|CC|QO|1|N|Kill Kuz and loot his Skull. He patrols in a wide circle around the camp in the middle.|
-K Lok Orcbane|ACTIVE|879|M|40.13,80.69|Z|The Barrens|QO|3|N|Kill Lok and loot his Skull. He is at the top of the hill at the back of Blackthorn Ridge.|
-K Nak|ACTIVE|879|M|43.96,83.44|Z|The Barrens|QO|2|U|5103|N|Kill Nak and loot his Skull. Follow the cliff wall east and you'll run into him.|
-C Charred Razormane Wand|QID|893|QO|2|N|Kill Razormane Seers until one drops a Charred Razormane Wand.|US|
-C Razormane War Shield|QID|893|QO|3|N|Kill Razormane Warfrenzy until one drops a Razormane War Shield.|US|
-C Razormane Backstabber|QID|893|QO|1|N|Kill Razormane Pathfinders/Stalkers until one drops a Razormane Backstabber.|US|
-N Washte Pawne|AVAILABLE|885|N|Before leaving the area, have a look around and see if you can locate this mob. This is one of Jorn Skyseer's rare quest kills.\nManually check this step off once you've killed it or given up waiting.\n[color=FF0000]NOTE: [/color]This mob is tameable and therefore, be respectful of Hunters who may be in the area looking for it.|RARE|
-R Bael Modan|QID|843|M|46.35,85.00|Z|The Barrens|N|Simply, just run across the road.|
-C Gann's Reclamation|QID|843|QO|1;2|N|Kill Bael'dun Excavators and Foremen.|S|
-C Prospector Khazgorm|QID|843|M|47.84,85.53|Z|The Barrens|L|5006|N|Kill Prospector Khazgorm and loot his Journal. He's in the center at the bottom of the dig site.|
-C Gann's Reclamation|QID|843|QO|1;2|N|Finish killing Bael'dun Excavators and Foremen.|US|
-T Gann's Reclamation|QID|843|M|46.11,81.22;46.14,75.39|Z|The Barrens|CC|N|To Gann Stonespire on Southern Gold Road. As before, you may meet him earlier depending upon where he is on the road.|
-A Revenge of Gann|QID|846|N|From Gann Stonespire.|PRE|843|
-R Bael'dun Keep|ACTIVE|846|M|48.70,84.52|Z|The Barrens|N|Before the dig site, at the top of the hill.|
-C Revenge of Gann|QID|846|QO|1;2;3|N|Kill Bael'dun Soldiers/Riflemen/Officers to collect vials of Nitroglycerin, bundles of Wood Pulp, and samples of Sodium Nitrate.|
-T Revenge of Gann|QID|846|M|46.11,81.22;46.14,75.39|Z|The Barrens|CC|N|To Gann Stonespire on Southern Gold Road. As before, you may meet him earlier depending upon where he is on the road.|
-A Revenge of Gann|QID|849|N|From Gann Stonespire.|PRE|846|
-R Bael Modan|ACTIVE|849|M|46.35,85.00|Z|The Barrens|
-C Revenge of Gann|QID|849|M|47.00,85.58|Z|The Barrens|QO|1|N|Destroy the flying machine at Bael Modan. It's on the tower as you go down the ramp into the quarry.|
-T Revenge of Gann|QID|849|M|46.11,81.22;46.14,75.39|Z|The Barrens|CC|N|To Gann Stonespire on Southern Gold Road. As before, you may meet him earlier depending upon where he is on the road.|
-A Revenge of Gann|QID|849|N|From Gann Stonespire.|
-N 3 rare quest mobs|AVAILABLE|884^885^897|N|You are now going to head back to Camp Taurajo. As you make your way back to Camp Taurajo, keep an eye out for Jorn Skyseer's rare quest kills. Do not go out of your way to find them.|
-R Camp Taurajo|QID|885|M|44.76,58.68|Z|The Barrens|
-T Weapons of Choice|QID|893|M|45.10,57.73|Z|The Barrens|N|To Tatternack Steelforge.|
-T Washte Pawne|QID|885|M|44.87,59.09|Z|The Barrens|N|To Jorn Skyseer.|
-T Owatanka|QID|884|M|44.87,59.09|Z|The Barrens|N|To Jorn Skyseer.|
-T The Harvester|QID|897|M|44.87,59.09|Z|The Barrens|N|To Jorn Skyseer.|
-T Betrayal from Within|QID|879|M|44.55,59.23|Z|The Barrens|N|To Mangletooth.|
-A Betrayal from Within|QID|906|M|44.55,59.23|Z|The Barrens|N|From Mangletooth.|PRE|879|
-F Crossroads|ACTIVE|868|M|44.46,59.14|Z|The Barrens|
-T Egg Hunt|QID|868|M|51.10,29.63|Z|The Barrens|N|To Korran.|
-* Silithid Eggs|AVAILABLE|-868|U|5058|N|Destroy any Silithid eggs you have leftover.|
-T Betrayal from Within|QID|906|M|51.49,30.81|Z|The Barrens|N|To Thork.|
-F Orgrimmar|QID|567|M|51.50,30.33|Z|The Barrens|
-N Deadly Blunderbuss|ACTIVE|6571|L|4369|N|Beg, borrow, or steal... Before leaving, make sure you bring one of these with you. \nIf you have level 105 Engineering, you can make it yourself. Otherwise, a friend or the AH are your only options.|
+R Leave Undercity|AVAILABLE|6441|M|66.1,38.4;66.2,0.9;66.2,1.2|Z|1458;Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|IZ|1497;Undercity|
+b Durotar|AVAILABLE|6441|M|60.71,58.78|Z|Tirisfal Glades|N|Go up the tower and take the Zepplin to Durotar/Orgrimmar.|
+R Orgrimmar|AVAILABLE|6441|M|49.15,95.09|Z|Orgrimmar|N|Enter Orgrimmar by the front gate.|
+C Deadly Blunderbuss|ACTIVE|6571|L|4369|N|Beg, borrow, or steal... Before leaving, make sure you bring one of these with you.\nIf you have level 105 Engineering, you can make it yourself. Otherwise, a friend or the AH are your only options.|
 
 ; --- Ashenvale
-F Splintertree Post|QID|6571|M|45.50,63.84|Z|Orgrimmar|
-A Satyr Horns|QID|6441|M|73.11,61.49|Z|Ashenvale|N|From Pixel.|
-A Warsong Saw Blades|QID|6581|ACTIVE|6571|M|73.11,61.49|Z|Ashenvale|N|From Pixel.|
-T Warsong Saw Blades|QID|6581|M|73.11,61.49|Z|Ashenvale|N|To Pixel.|
-A Stonetalon Standstill|QID|25|M|73.62,60.02|Z|Ashenvale|N|From Mastok Wrilehiss.|
-A Ashenvale Outrunners|QID|6503|M|71.15,68.17|Z|Ashenvale|N|From Kuray'bin.|
-A The Lost Pages|QID|6504|M|69.98,71.09|Z|Ashenvale|N|From Gurda Ragescar.|
+F Splintertree Post|AVAILABLE|6441|M|45.50,63.84|Z|Orgrimmar|
+A Satyr Horns|QID|6441|M|73.07,61.48|Z|Ashenvale|N|From Pixel.|
+A Warsong Saw Blades|QID|6581|ACTIVE|6571|M|73.07,61.48|Z|Ashenvale|N|From Pixel.|
+T Warsong Saw Blades|QID|6581|M|73.07,61.48|Z|Ashenvale|N|To Pixel.|
+A Stonetalon Standstill|QID|25|M|73.67,60.01|Z|Ashenvale|N|From Mastok Wrilehiss.|
+A Ashenvale Outrunners|QID|6503|M|71.11,68.12|Z|Ashenvale|N|From Kuray'bin.|
+A The Lost Pages|QID|6504|M|70.01,71.15|Z|Ashenvale|N|From Gurda Ragescar.|
+K Ashenvale Outrunners|ACTIVE|6503|M|73.65,72.01|Z|Ashenvale|QO|1|N|Kill Ashenvale Outrunners. They are stealthed and spread out around amongst the trees. You will hear a sound when you're close to one and they are somewhat visible.|S|
 R The Dor'Danil Barrow Den|QID|2|M|72.85,70.56|Z|Ashenvale|
-N Sharptalon|AVAILABLE|2|N|While you are in the area, keep an eye out for Sharptalon, a lv 31 blue hippogryph that paths through the area. He is part of the 'Ashenvale Hunt' quest. He has a respawn rate of @ 15-20 minutes.\nIf you draw him towards the Forsaken by the tent, they will help you kill it.\n\nManually close this step.|PRE|6383|
-A Sharptalon's Claw|QID|2|U|16305|N|Right-click the item to activate the quest.|PRE|6383|O|
-C Ashenvale Outrunners|QID|6503|QO|1|N|Kill Ashenvale Outrunners. They are stealthed and spread out around amongst the trees. You will hear a sound when you're close to one and they are somewhat visible.|
-A Torek's Assault|QID|6544|M|68.33,75.33|Z|Ashenvale|ELITE|N|[color=FF00FF]Escort Quest:[/color]\nFrom Torek.\nThis is an 'escort' quest... sort of.\nBasically, you follow him and his troops as they kill things.\n[color=FF0000]NOTE: [/color]If he's not there, someone is on the quest and you'll have to wait for him to respawn.|
-A Torek's Assault|QID|6544|M|68.33,75.33|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Torek to restart the quest. If he's not there, someone is on the quest or he hasn't respawned yet. Just wait for him to respawn.|FAIL|
-C Torek's Assault|QID|6544|M|67.14,73.92;65.35,75.28|CS|QO|1|N|Follow Torek and his men into Silverwing Outpost. You don't have to do anything. However, You will get some grind xp if you give them a hand.\nStay with group or the quest could fail.\n[color=FF0000]NOTE: [/color]If Torek dies, the quest fails and his men will despawn leaving you alone to fight all of them. If this happens, jump off the balcony and run away.|
-R Greenpaw Village|QID|6571|M|64.30,70.43;58.33,61.52;56.89,62.47|Z|Ashenvale|CC|
-C Warsong Supplies|QID|6571|L|16743|N|Kill Foulweald Furbolgs to loot the Logging Rope. This could take quite a few kills to get. Work your way west through the village until you get it.|
-R Mystral Lake|QID|25|M|50.65,64.62;51.62,66.50;51.51,67.86|Z|Ashenvale|CC|N|Make your way to the lake. Give the building at Silverwind Refuge a wide berth, unless you enjoy PvP and getting your butt kicked by Alliance guards.|
-C Stonetalon Standstill|QID|25|QO|1|N|Kill Befouled Water Elementals|S|
-C Stonetalon Standstill|QID|25|M|49.03,69.65|Z|Ashenvale|QO|2|N|Go to the gazebo on the island in Mystral Lake.|
+K Sharptalon|AVAILABLE|2|M|71.48,70.03;76.85,68.01|Z|Ashenvale|CN|L|16305|N|Sharptalon is a lv 31 blue hippogryph that paths through the area. He is part of the 'Ashenvale Hunt' quest with a respawn rate of @ 15-20 minutes.\n[color=FF0000]NOTE: [/color]If you draw him towards the Forsaken by the tents, they'll help you kill him. At your current level, this may be your only choice.|PRE|6383|
+A Sharptalon's Claw|QID|2|N|Click on the item to activate the quest.|U|16305|PRE|6383|O|
+K Ashenvale Outrunners|ACTIVE|6503|M|73.65,72.01|Z|Ashenvale|QO|1|N|Kill Ashenvale Outrunners. They are stealthed and spread out around amongst the trees. You will hear a sound when you're close to one and they are somewhat visible.|US|
+A Torek's Assault|QID|6544|M|68.34,75.30|Z|Ashenvale|ELITE|N|[color=FF00FF]Escort Quest:[/color]\nFrom Torek.\nThis is an 'escort' quest... sort of.\nBasically, you follow him and his troops as they kill things.\n[color=FF0000]NOTE: [/color]If he's not there, someone is on the quest and you'll have to wait for him to respawn.|
+A Torek's Assault|QID|6544|M|68.34,75.30|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Torek to restart the quest. If he's not there, someone is on the quest or he hasn't respawned yet. Just wait for him to respawn.|FAIL|
+C Torek's Assault|QID|6544|M|65.35,75.28|Z|Ashenvale|CC|QO|1|N|Follow Torek and his men into Silverwing Outpost. You don't have to do anything. However, You will get some grind xp if you give them a hand.\nStay with group or the quest could fail.\n[color=FF0000]NOTE: [/color]If Torek dies, the quest fails and his men will despawn leaving you alone to fight all of them. If this happens, jump off the balcony and run away.|
+R Greenpaw Village|QID|6571|M|64.3,70.4;58.4,61.4;56.89,62.47|Z|Ashenvale|CC|
+C Warsong Supplies|QID|6571|M|55.29,62.75|Z|Ashenvale|L|16743|N|Kill Foulweald Furbolgs to loot the Logging Rope. This could take quite a few kills to get. Work your way west through the village until you get it.|
+R Mystral Lake|QID|25|M|50.6,64.6;51.6,66.5;51.51,67.86|Z|Ashenvale|CC|N|Make your way to the lake. Give the building at Silverwind Refuge a wide berth, unless you enjoy PvP and getting your butt kicked by Alliance guards.|
+K Stonetalon Standstill|ACTIVE|25|M|47.99,69.88|Z|Ashenvale|QO|1|N|Kill Befouled Water Elementals|S|
+R Stonetalon Standstill|ACTIVE|25|M|49.03,69.65|Z|Ashenvale|QO|2|N|Go to the gazebo on the island in Mystral Lake.|
 K Tideress|AVAILABLE|1918|L|16408|N|Kill Tideress for a drop quest item, Befouled Water Globe.\n[color=FF0000]NOTE: [/color]You can either wait for her to get the island or figure out where she is on her path in the lake.|T|Tideress|
 A The Befouled Element|QID|1918|U|16408|N|Click the item to activate the quest.|O|
-C Stonetalon Standstill|QID|25|QO|1|US|N|Finish killing Befouled Water Elementals|
+K Stonetalon Standstill|ACTIVE|25|M|47.99,69.88|Z|Ashenvale|QO|1|N|Finish killing Befouled Water Elementals|US|
 R The Talondeep Path|QID|23|AVAILABLE|-6383^235^742^6382|M|42.65,70.10|Z|Ashenvale|
-N Ursangous|QID|23|AVAILABLE|-6383^-235^-742^-6382|L|16303|N|Have a look around this area for a light-colored bear named Ursangous. He is part of the 'Ashenvale Hunt' quest. He circles the big tree in the center.|
-A Ursangous's Paw|QID|23|U|16303|N|Right-click the item to activate the quest.|PRE|6383|O|
-R Raynewood Retreat|QID|1088|M|45.41,65.03;50.65,64.60;51.27,58.14;52.89,54.49;57.24,56.00|Z|Ashenvale|CC|N|There are at least 3 paths to get where you are going. This one is the most straight forward with the least resistance.\nYou will also be using a back way in to avoid the Alliance tower leading into the area. There is a guard that you cannot avoid aggroing.|
+K Ursangous|QID|23|AVAILABLE|-6383^-235^-742^-6382|M|41.67,68.92|Z|Ashenvale|L|16303|N|Have a look around this area for a light-colored bear named Ursangous. He is part of the 'Ashenvale Hunt' quest. He circles the big tree in the center.|T|Ursangous|
+A Ursangous's Paw|QID|23|N|Right-click the item to activate the quest.|U|16303|PRE|6383|O|
+K Shadumbra|QID|24|AVAILABLE|-6383^235^742^6382|L|16304|N|While you are in the area of Raynewood Retreat, keep an eye out for Shadumbra, a nightsaber cat that paths in that area. She is part of the 'Ashenvale Hunt' quest.|S|
+R Raynewood Retreat|QID|1088|M|45.4,65.0;50.6,64.6;51.2,58.1;52.9,54.5;57.24,56.00|Z|Ashenvale|CC|N|There are multiple paths to get where you're going. This one is the most straight forward with the least resistance.\nYou'll also be using a detour to avoid the Alliance tower leading into the area. There's a guard that you cannot avoid aggroing.\n[color=FF0000]NOTE: [/color]Keep your distance from Silverwind Refuge when you're passing it.|
 C The Sacred Flame|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops the Etched Phial.|S|
-N Shadumbra|QID|24|AVAILABLE|-6383^235^742^6382|L|16304|N|While you are in the area of Raynewood Retreat, keep an eye out for Shadumbra, a nightsaber cat that paths in that area. She is part of the 'Ashenvale Hunt' quest.|
-A Shadumbra's Head|QID|24|U|16304|N|Right-click the item to activate the quest.|PRE|6383|O|
+K Shadumbra|QID|24|AVAILABLE|-6383^235^742^6382|L|16304|N|While you are in the area of Raynewood Retreat, keep an eye out for Shadumbra, a nightsaber cat that paths in that area. She is part of the 'Ashenvale Hunt' quest.|T|Shadumbra|US|
+A Shadumbra's Head|QID|24|N|Right-click the item to activate the quest.|U|16304|PRE|6383|O|
 C Ordanus|QID|1088|M|62,51.2|Z|Ashenvale|QO|1|N|Climb to the top of the 'tower' and kill Ordanus and loot his head. You will encounter four lv 25-26 Druids (bear form) on your way up. Each one can be handled/pulled individually.\n[color=FF0000]NOTE: [/color]When you get to the top floor, Ordanus is inside flanked by two lv 26 Vindicators. There is no pulling them separately. Rush Ordanus and kill him as quickly as possibly. If you do not have any CC options, I recommend drawing them outside. That way, if you die after killing Ordanus, you can return and loot his head without worrying about the other two.|
 C Etched Phial|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops it.|US|
-C Moonwell|QID|1195|M|61.53,68.33;59.77,69.73;60.10,72.85|Z|Ashenvale|CC|L|5868|U|5867|N|Make your way to the Moonwell. You can follow the path all the way there, or just take the short cut.|NC|
-R Splintertree Post|QID|6503|M|71.16,69.13|Z|Ashenvale|N|How you get here is entirely up to you. You can either take the safe route and follow the road or take the shortcut and run straight through (aka grind your way there).|
-T Ashenvale Outrunners|QID|6503|M|71.12,68.15|Z|Ashenvale|N|To Kuray'bin.|
+C Moonwell|QID|1195|M|61.5,68.3;59.8,69.7;60.10,72.85|Z|Ashenvale|CC|L|5868|N|Make your way to the Moonwell. You can follow the path all the way there, or just take the short cut.|U|5867|NC|
+R Splintertree Post|ACTIVE|6503|M|71.16,69.13|Z|Ashenvale|N|How you get here is entirely up to you. You can either take the safe route and follow the road or take the shortcut and run straight through (aka grind your way there).|
+T Ashenvale Outrunners|QID|6503|M|71.11,68.12|Z|Ashenvale|N|To Kuray'bin.|
 T Torek's Assault|QID|6544|M|73.03,62.47|Z|Ashenvale|N|To Ertog Ragetusk.|
 ;L Level 29|QID|24|LVL|29|N|You should be around level 29 by this point.|
-T Shadumbra's Head|QID|24|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
-T Sharptalon's Claw|QID|2|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
-T Ursangous's Paw|QID|23|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
-A The Hunt Completed|QID|247|M|73.76,61.51|Z|Ashenvale|N|From Senani Thunderheart.\n[color=FF0000]NOTE: [/color]This quest will activate as soon as you turn in the last quest of the special kill quests.|PRE|2&23&24|
-T The Hunt Completed|QID|247|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
-T Stonetalon Standstill|QID|25|M|73.62,60.02|Z|Ashenvale|N|To Mastok Wrilehiss.|
-T The Befouled Element|QID|1918|M|73.62,60.02|Z|Ashenvale|N|To Mastok Wrilehiss.|
-A Je'neu of the Earthen Ring|QID|824|M|73.62,60.02|Z|Ashenvale|N|From Mastok Wrilehiss.|PRE|1918|
-R Satyrnaar|ACTIVE|6441^6571|M|74.98,65.20;81.77,52.08|Z|Ashenvale|CC|
+T Shadumbra's Head|QID|24|M|73.79,61.45|Z|Ashenvale|N|To Senani Thunderheart.|
+T Sharptalon's Claw|QID|2|M|73.79,61.45|Z|Ashenvale|N|To Senani Thunderheart.|
+T Ursangous's Paw|QID|23|M|73.79,61.45|Z|Ashenvale|N|To Senani Thunderheart.|
+A The Hunt Completed|QID|247|M|73.79,61.45|Z|Ashenvale|N|From Senani Thunderheart.\n[color=FF0000]NOTE: [/color]This quest will activate as soon as you turn in the last quest of the special kill quests.|PRE|2&23&24|
+T The Hunt Completed|QID|247|M|73.79,61.45|Z|Ashenvale|N|To Senani Thunderheart.|
+T Stonetalon Standstill|QID|25|M|73.67,60.01|Z|Ashenvale|N|To Mastok Wrilehiss.|
+T The Befouled Element|QID|1918|M|73.67,60.01|Z|Ashenvale|N|To Mastok Wrilehiss.|
+A Je'neu of the Earthen Ring|QID|824|M|73.67,60.01|Z|Ashenvale|N|From Mastok Wrilehiss.|PRE|1918|
+R Satyrnaar|ACTIVE|6441^6571|M|75.0,65.2;81.77,52.08|Z|Ashenvale|CC|
 C Satyr Horns|QID|6441|L|5481 16|N|Kill Satyrs to collect Satyr Horns.\nThese guys like to run.\n[color=FF0000]NOTE: [/color]The drop rate is a little less than 50%. Nothing wrong with a little grinding.|S|
 C Warsong Supplies|QID|6571|L|16744|N|Collect the Warsong Oil from the pitcher that spawns on the ground in multiple locations near the camps in Satyrnaar.|
 C Satyr Horns|QID|6441|L|5481 16|N|Finish collecting your Satyr Horns.\nThese guys like to run.|US|
@@ -387,20 +339,7 @@ R Splintertree Post|ACTIVE|6441|M|75.00,64.32|Z|Ashenvale|N|Choose your own adve
 T Satyr Horns|QID|6441|M|73.09,61.48|Z|Ashenvale|N|To Pixel.|
 F Zoram'gar Outpost|ACTIVE|824|M|73.18,61.59|Z|Ashenvale|
 T Je'neu of the Earthen Ring|QID|824|M|11.61,34.28|Z|Ashenvale|N|To Je'neu Sancrea.|
-A Between a Rock and a Thistlefur|QID|216|M|11.87,34.50|Z|Ashenvale|N|From Karang Amakkar.|
-A Troll Charm|QID|6462|M|11.68,34.82|Z|Ashenvale|N|From Mitsuwa.|
-R Thistlefur Village|ACTIVE|216|M|30.87,45.69|Z|Ashenvale|CS|N|Make your way to Thistlefur Village. Choose your own path.|
-C Between a Rock and a Thistlefur|QID|216|QO|1;2|N|Kill Thistlefur Avengers and Shaman.\nKill them as you run into them. You'll have plenty of time to work on this.|S|
-R Thistlefur Hold|ACTIVE|6462|M|39.95,33.04;38.46,30.63|Z|Ashenvale|CC|
-C Troll Charm|QID|6462|L|16602 8|N|Head to the first intersection and take the path to the right. As you make your way along, loot the Troll Charms from the chests you'll find along the way.\n[color=FF0000]NOTE: [/color]When you have looted 5 of them, head back to the first intersection and take the other path.|
-A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ruul Snowhoof.\nThis a really, long escort course.\n[color=FF0000]NOTE: [/color]The easiest way to get to Ruul is from the path that runs up the center under the bridge or to drop down behind him. Using the center path, you can clear the path before you accept the quest.|
-A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|Ashenvale|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\n[color=80FF00]Escort Quest:[/color]\nHead back inside Thistlefur Hold to Ruul Snowhoof to restart it.\n By this time, the mobs have started respawning and you will have to fight your way back in. If you are quick, you may not have to fight as much on the way out.|FAIL|
-C Freedom to Ruul|QID|6482|M|40.00,31.98;38.48,36.53;38.57,37.21|Z|Ashenvale|CC|QO|1|N|Follow Ruul out of Thistlefur Hold and through Thistlefur Village.\nAs you make your way along, you'll be attacked by a trio of Thistlefurs on two occasions. First one is inside the Hold and the second is just outside the east gate. Fairly easy to handle, unless they run too far.\nFocus on keeping alive. Ruul can handle himself fairly well. Avoid pulling unnecessarily; Ruul will be pulling plenty on his own.\nIf you die, the quest is over. You will not make it back in time.|
-C Between a Rock and a Thistlefur|QID|216|QO|1;2|N|Finish killing Thistlefur Avengers and Shaman. No need to focus on one area as you'll find plenty on your way out.|US|
-R The Zoram Strand|ACTIVE|216^6462|M|37.74,35.17;13.48,32.21|Z|Ashenvale|CC|N|Run back to Zoram'gar Outpost. Feel free to take whatever path you desire.|
-T Between a Rock and a Thistlefur|QID|216|M|11.91,34.52|Z|Ashenvale|N|To Karang Amakkar.\n[color=FF0000]NOTE: [/color]Do NOT accept the follow-up quest. It's not worth the effort.|
-T Troll Charm|QID|6462|M|11.69,34.81|Z|Ashenvale|N|To Mitsuwa.|
-N The Lost Pages|ACTIVE|6504|N|At this point in time, take a look at which pages you have. You have 2 chooses now. You can either grind until you get them, or just buy them from the AH in Orgrimmar.\nSeeing as you probably don't want to spend too much time looking for them, we're off to Orgrimmar.\nUse this opportunity to AH any extra pages you may have.|
+N The Lost Pages|ACTIVE|6504|N|At this point in time, take a look at which pages you have. You have 2 chooses now. You can either grind until you get them, or just buy them from the AH in Orgrimmar.\nSeeing as you probably don't want to spend too much time looking for them, we're off to Orgrimmar.\nUse this opportunity to AH any extra pages you may have.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
 ; --- Orgrimmar
 F Orgrimmar|ACTIVE|6504|M|12.19,33.82|Z|Ashenvale|
@@ -411,7 +350,7 @@ C Chapter 3|QID|6504|QO|3|U|16653|L|16644|N|Combine Pages 9-12|NC|
 ; --- Ashenvale
 F Splintertree Post|ACTIVE|6571^6504^6482|M|45.50,63.84|Z|Orgrimmar|N|Back to Ashenvale.|
 T Warsong Supplies|QID|6571|M|71.40,67.64|Z|Ashenvale|N|To Locke Okarr; by the south watchtower.|
-T The Lost Pages|QID|6504|M|70.01,71.14|Z|Ashenvale|N|To Gurda Ragescar.|
+T The Lost Pages|QID|6504|M|70.01,71.15|Z|Ashenvale|N|To Gurda Ragescar.|
 T Freedom to Ruul|QID|6482|M|74.12,60.91|Z|Ashenvale|N|To Yama Snowhoof.|
 ;L Level 30|QID|1088|LVL|30|N|You should be around level 30 by this point.|
 
@@ -426,18 +365,11 @@ T Bloodfury Bloodline|QID|6283|M|47.20,61.16|N|To Maggran Earthbinder.|
 
 ; --- Silverpine Forest
 F Orgrimmar|QID|442|M|45.13,59.84|
-B Strong Troll's Blood Potion|AVAILABLE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
-B Strong Troll's Blood Potion|ACTIVE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
+C Strong Troll's Blood Potion|AVAILABLE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
+C Strong Troll's Blood Potion|ACTIVE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
 b Tirisfal Glades|QID|442|M|50.88,13.83|Z|Durotar|N|Exit Orgrimmar through the south gate take the Zepplin to Tirisfal Glades.|
 R Undercity|QID|442|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
-A Elixir of Agony|QID|515|M|48.68,69.25|Z|Undercity|N|From Master Apothecary Faranell.|PRE|513|
-F The Sepulcher|QID|442|M|63.27,48.55|Z|Undercity|N|Fly to The Sepulcher.|
-A Assault on Fenris Isle|QID|442|M|43.43,40.86|Z|Silverpine Forest|ELITE|N|[color=ff8000]Elite: [/color]From High Executor Hadrec.|LVL|10|PRE|448|
-R Fenris Isle|ACTIVE|442|M|52.34,37.21;58.75,35.43;64.79,34.60|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
-R Fenris Keep|ACTIVE|442|M|65.40,23.21|Z|Silverpine Forest|N|Make your way inside the Keep. I suggest going around to the back to save fighting. 99% of these are grey and not worth grinding.|
-C Assault on Fenris Isle|QID|442|M|65.76,24.70|Z|Silverpine Forest|QO|1|U|3251|N|Make your way inside to the main room. Kill Thule and loot his head. Just like the last time you were here, work your way in slowly. Clear the room as best you can before you pull Thule with his 3 adds.\nBe prepared to use your Bethor's Potion if Thule casts Hex of Ravenclaw on you.\n[color=FF0000]NOTE: [/color]Killing Thule and looting his head is your priority. As long as you've looted his head, you can rez outside the building if you died.|T|Thule|
-R The Sepulcher|QID|442|M|46.30,41.55|Z|Silverpine Forest|N|Run back to The Sepulcher. Choose your own path.|
-T Assault on Fenris Isle|QID|442|M|43.43,40.86|Z|Silverpine Forest|N|To High Executor Hadrec, down in the crypt.|
+A Elixir of Agony|QID|515|M|48.80,69.28|Z|Undercity|N|From Master Apothecary Faranell.|PRE|513|
 
 ; --- Hillsbrad Foothills
 F Tarren Mill|QID|515|M|45.62,42.59|Z|Silverpine Forest|
