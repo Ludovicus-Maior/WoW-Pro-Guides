@@ -6,57 +6,8 @@ WoWPro:GuideSort(guide, 8)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideSteps(guide, function()
 return [[
-
-; Side Story - The Archivists' Codex from looted item -- moved to top because you want to finish this as soon as possible so all the research tokens can be turned in and you can pick up the research quests you come across while doing the other Kortia stuff. It was being buried until you have finished everything else on the first trip to Korthia
+;Looted Quests
 A Researching Korthian Relics|QID|63731|M|63.45,24.68|Z|1961;Korthia|U|187177|N|Auto Accepted upon looting "Researching Korthian Relics".|
-T Researching Korthian Relics|QID|63731|M|59.05,58.14|Z|1961;Korthia|N|To Scholar Roh-Suir.|
-A Interrupt the Interrogations|QID|63732|M|59.07,58.15|Z|1961;Korthia|N|From Scholar Roh-Suir.|PRE|63731|
-C Interrupt the Interrogations|QID|63732|M|60.79,52.79|Z|1961;Korthia|QO|1|N|Kill Interrogator Tzench and loot his Key.|
-C Interrupt the Interrogations|QID|63732|M|60.90,52.57|Z|1961;Korthia|QO|2|NC|N|Click the cage to free the Archivist.|
-T Interrupt the Interrogations|QID|63732|M|59.06,58.14|Z|1961;Korthia|N|To Scholar Roh-Suir.|
-A Carving Out a Path|QID|63733|PRE|63732|M|59.11,58.11|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
-A The Sundered Staff|QID|63734|PRE|63732|M|59.11,58.11|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
-C Carving Out a Path|QID|63733|M|45.30,50.29|Z|1961;Korthia|N|Kill Mawsworn in the area.|S|
-C The Sundered Staff|QID|63734|M|49.68,56.30|Z|1961;Korthia|QO|2|N|Kill Painbringer Volklana and loot the Lodestaff Shaft.|
-C The Sundered Staff|QID|63734|M|45.30,50.29|Z|1961;Korthia|QO|3|N|Kill Kavelox the Corruptor and loot the Lodestaff Handle.|
-C The Sundered Staff|QID|63734|M|45.03,58.37|Z|1961;Korthia|QO|1|N|Kill Tezzerak and loot the Lodestaff Head.|
-C Carving Out a Path|QID|63733|M|45.30,50.29|Z|1961;Korthia|N|Kill Mawsworn in the area.|US|
-T Carving Out a Path|QID|63733|M|39.42,51.31|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
-T The Sundered Staff|QID|63734|M|39.42,51.31|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
-A An Infusion of Anima|QID|63736|PRE|63733&63734|M|39.42,51.31|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
-A Consulting the Experts|QID|63740|PRE|63733&63734|M|39.42,51.31|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
-C An Infusion of Anima|QID|63736|M|32.62,46.14|Z|1961;Korthia|QO|1|NC|U|186157|N|Charge the Lodestaff clicking anima fissures of killing anima filled creatures and clicking the staff on their corpse.|S|
-C Consulting the Experts|QID|63740|M|35.93,51.25|Z|1961;Korthia|QO|1|NC|N|Archivist Roh-Gema visited.|
-C Consulting the Experts|QID|63740|M|31.76,57.35|Z|1961;Korthia|QO|4|NC|N|Archivist Roh-Mah visited.|
-C Consulting the Experts|QID|63740|M|27.80,48.33|Z|1961;Korthia|QO|3|NC|N|Archivist Roh-Kiel visited.|
-C Consulting the Experts|QID|63740|M|33.12,43.12|Z|1961;Korthia|QO|2|NC|N|Archivist Roh-Luda visited.|
-C An Infusion of Anima|QID|63736|M|32.62,46.14|Z|1961;Korthia|QO|1|NC|U|186157|N|Charge the Lodestaff clicking anima fissures of killing anima filled creatures and clicking the staff on their corpse.|US|
-T An Infusion of Anima|QID|63736|M|39.43,51.29|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
-T Consulting the Experts|QID|63740|M|39.43,51.29|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
-A Hope Ascending|QID|63739|PRE|63736&63740|M|39.43,51.29|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
-T Hope Ascending|QID|63739|M|35.81,32.18|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
-A Finding One's True Purpose|QID|63737|PRE|63739|M|35.81,32.18|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
-C Finding One's True Purpose|QID|63737|M|35.91,32.18|Z|1961;Korthia|QO|1|NC|N|Stand in the swirling mist and click "[color=40C7EB]Attune the Lodestaff[/color]" to begin the Ritual.|EAB|
-C Finding One's True Purpose|QID|63737|M|35.91,32.18|Z|1961;Korthia|QO|2|NC|N|Wait for the ritual to complete.|
-T Finding One's True Purpose|QID|63737|M|36.07,32.33|Z|1961;Korthia|N|To Scholar Roh-Suir.|
-A Establishing the Archive|QID|63738|PRE|63737|M|36.07,32.33|Z|1961;Korthia|N|From Scholar Roh-Suir.|
-T Establishing the Archive|QID|63738|M|61.57,21.79|Z|1961;Korthia|N|To Scholar Roh-Suir.|
-A Beginning the Collection|QID|63861|M|62.78,22.61|Z|1961;Korthia|N|From Archivist Roh-Suir.|PRE|63738|
-A Picking Up the Pieces|QID|64289|M|62.78,22.61|Z|1961;Korthia|N|From Archivist Roh-Suir.|PRE|63738|
-C Picking Up the Pieces|QID|64289|Z|1961;Korthia|N|Collect from treasure and killing rares in Korthia.|S|
-R Caverns of Contemplation|ACTIVE|63861|M|60.13,31.91|Z|Korthia|N|Make your way to the Caverns of Contemplation.|
-C Beginning the Collection|QID|63861|M|31.76,39.97|Z|2006|QO|1|NC|N|Back part of the Cavern, loot Codex of Memories on the ground.|
-T Beginning the Collection|QID|63861|M|62.78,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
-A What Must Be Found|QID|64506|PRE|63861|M|62.78,22.60|Z|1961;Korthia|N|From Archivist Roh-Suir.|
-C What Must Be Found|QID|64506|M|62.44,22.68|Z|1961;Korthia|NC|N|Click on the Missing relic outlines around the room.|
-T What Must Be Found|QID|64506|M|62.77,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
-C Picking Up the Pieces|QID|64289|Z|1961;Korthia|N|Collect from treasure and killing rares in Korthia.|US|
-T Picking Up the Pieces|QID|64289|M|62.77,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
-A Collecting Research|QID|64290|PRE|64289|M|62.77,22.60|Z|1961;Korthia|N|From Archivist Roh-Suir.|
-T Collecting Research|QID|64290|M|62.77,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
-A Empowering Equipment|QID|64438|PRE|64290|M|62.77,22.60|Z|1961;Korthia|N|From Archivist Roh-Suir.|
-C Empowering Equipment|QID|64438|M|62.62,21.90|Z|1961;Korthia|N|You can upgrade the armor you just recieved or you can hold onto this quest and skip this step until you get something you want to upgrade.\n\nThere is no follow-up to this quest, just worth 100 rep.|
-t Empowering Equipment|QID|64438|M|62.77,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
 ; Battle of Ardenweald
 A The First Move|QID|63576|M|PLAYER|Z|Ring of Fates@Oribos|N|AutoAccepted.|
 C The First Move|QID|63576|M|41.30,68.02|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with Polemarch Adrestes in Oribos.|
@@ -305,9 +256,9 @@ C Victory in Our Name|QID|63622|M|60.28,27.34|Z|1961;Korthia|CHAT|N|Speak with D
 T Victory in Our Name|QID|63622|M|62.83,26.38|Z|1961;Korthia|N|To The Primus.|
 
 ; The Unseen Guests
-A Dreadlords!|QID|63659|M|60.72,27.16|Z|1961;Korthia|N|From Baroness Vashj.|REN|50|
-T Dreadlords!|QID|63659|M|62.97,25.41|Z|1961;Korthia|N|To The Primus.|
-A Dread Tidings|QID|63644|PRE|63659|M|62.97,25.41|Z|1961;Korthia|N|From The Primus.|
+A Dreadlords!|QID|63659|M|60.69,27.67|Z|1961;Korthia|N|From Baroness Vashj.|PRE|63622|REN|50|
+T Dreadlords!|QID|63659|M|62.84,26.38|Z|1961;Korthia|N|To The Primus.|
+A Dread Tidings|QID|63644|PRE|63659|M|62.84,26.38|Z|1961;Korthia|N|From The Primus.|
 P Ring of Transference|ACTIVE|63644|M|64.47,24.05|Z|1961;Korthia|N|Take the portal to Ring of Transference.|
 F Sanctuary of the Mad|ACTIVE|63644|M|60.90,68.77|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Sanctuary of the Mad.|
 C Dread Tidings|QID|63644|M|29.48,41.72|Z|Revendreth|QO|1|CHAT|N|Speak withBaroness Vashj.|
@@ -345,13 +296,13 @@ A The Nathrezim|QID|63654|PRE|63653|M|25.16,45.13|Z|Revendreth|N|From The Stonew
 C The Nathrezim|QID|63654|M|22.54,45.89|Z|Revendreth|QO|1|NC|N|Approach the Dawnkeep portal.|
 C The Nathrezim|QID|63654|M|22.64,45.95|Z|Revendreth|N|Kill Gorgannon and Diathorus and then Mal'Ganis.|
 T The Nathrezim|QID|63654|M|23.07,45.86|Z|Revendreth|N|To Prince Renathal.|
-A The Meaning of Wrath|QID|63656|M|23.09,45.97|Z|Revendreth|N|From The Stonewright.|PRE|63654|
-A Medallion of Wrath|QID|63655|M|23.09,45.97|Z|Revendreth|N|From The Stonewright.|PRE|63654|COV|Venthyr|
+A The Meaning of Wrath|QID|63656|M|23.09,45.96|Z|1525;Revendreth|N|From The Stonewright.|PRE|63654|
+A Medallion of Wrath|QID|63655|M|23.09,45.97|Z|1525;Revendreth|N|From The Stonewright.|PRE|63654|COV|Venthyr|
 T Medallion of Wrath|QID|63655|M|55.19,38.30|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Medallion of Wrath, back in your covenant hall.|COV|Venthyr|
-T The Meaning of Wrath|QID|63656|M|62.97,25.41|Z|1961;Korthia|N|To The Primus (in Korthia).|
+T The Meaning of Wrath|QID|63656|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; The Power of Night
-A A Cry From the Heart|QID|63672|PRE|63654|M|64.40,24.27|Z|1961;Korthia|N|From Urgent Message from Ardenweald.|REN|52|
+A A Cry From the Heart|QID|63672|PRE|63656|M|64.40,24.27|Z|1961;Korthia|N|From Urgent Message from Ardenweald.|REN|52|
 P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|1961;Korthia|IZ|1961|N|Take the portal to Ring of Transference.|
 F Heart of the Forest|ACTIVE|63672|M|60.96,68.81|Z|Ring of Transference@Oribos|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|
 T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
@@ -500,6 +451,56 @@ T The New Path|QID|63592|N|To Polemarch Adrestes.| ; Z is nil, this may change i
 
 ; What Lies Ahead
 
+; Side Story - The Archivists' Codex
+T Researching Korthian Relics|QID|63731|M|59.05,58.14|Z|1961;Korthia|N|To Scholar Roh-Suir.|
+A Interrupt the Interrogations|QID|63732|M|59.07,58.15|Z|1961;Korthia|N|From Scholar Roh-Suir.|PRE|63731|
+C Interrupt the Interrogations|QID|63732|M|60.79,52.79|Z|1961;Korthia|QO|1|N|Kill Interrogator Tzench and loot his Key.|
+C Interrupt the Interrogations|QID|63732|M|60.90,52.57|Z|1961;Korthia|QO|2|NC|N|Click the cage to free the Archivist.|
+T Interrupt the Interrogations|QID|63732|M|59.06,58.14|Z|1961;Korthia|N|To Scholar Roh-Suir.|
+A Carving Out a Path|QID|63733|PRE|63732|M|59.11,58.11|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
+A The Sundered Staff|QID|63734|PRE|63732|M|59.11,58.11|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
+C Carving Out a Path|QID|63733|M|45.30,50.29|Z|1961;Korthia|N|Kill Mawsworn in the area.|S|
+C The Sundered Staff|QID|63734|M|49.68,56.30|Z|1961;Korthia|QO|2|N|Kill Painbringer Volklana and loot the Lodestaff Shaft.|
+C The Sundered Staff|QID|63734|M|45.30,50.29|Z|1961;Korthia|QO|3|N|Kill Kavelox the Corruptor and loot the Lodestaff Handle.|
+C The Sundered Staff|QID|63734|M|45.03,58.37|Z|1961;Korthia|QO|1|N|Kill Tezzerak and loot the Lodestaff Head.|
+C Carving Out a Path|QID|63733|M|45.30,50.29|Z|1961;Korthia|N|Kill Mawsworn in the area.|US|
+T Carving Out a Path|QID|63733|M|39.42,51.31|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
+T The Sundered Staff|QID|63734|M|39.42,51.31|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
+A An Infusion of Anima|QID|63736|PRE|63733&63734|M|39.42,51.31|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
+A Consulting the Experts|QID|63740|PRE|63733&63734|M|39.42,51.31|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
+C An Infusion of Anima|QID|63736|M|32.62,46.14|Z|1961;Korthia|QO|1|NC|U|186157|N|Charge the Lodestaff clicking anima fissures of killing anima filled creatures and clicking the staff on their corpse.|S|
+C Consulting the Experts|QID|63740|M|35.93,51.25|Z|1961;Korthia|QO|1|NC|N|Archivist Roh-Gema visited.|
+C Consulting the Experts|QID|63740|M|31.76,57.35|Z|1961;Korthia|QO|4|NC|N|Archivist Roh-Mah visited.|
+C Consulting the Experts|QID|63740|M|27.80,48.33|Z|1961;Korthia|QO|3|NC|N|Archivist Roh-Kiel visited.|
+C Consulting the Experts|QID|63740|M|33.12,43.12|Z|1961;Korthia|QO|2|NC|N|Archivist Roh-Luda visited.|
+C An Infusion of Anima|QID|63736|M|32.62,46.14|Z|1961;Korthia|QO|1|NC|U|186157|N|Charge the Lodestaff clicking anima fissures of killing anima filled creatures and clicking the staff on their corpse.|US|
+T An Infusion of Anima|QID|63736|M|39.43,51.29|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
+T Consulting the Experts|QID|63740|M|39.43,51.29|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
+A Hope Ascending|QID|63739|PRE|63736&63740|M|39.43,51.29|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
+T Hope Ascending|QID|63739|M|35.81,32.18|Z|1961;Korthia|N|To Archivist Roh-Dahl.|
+A Finding One's True Purpose|QID|63737|PRE|63739|M|35.81,32.18|Z|1961;Korthia|N|From Archivist Roh-Dahl.|
+C Finding One's True Purpose|QID|63737|M|35.91,32.18|Z|1961;Korthia|QO|1|NC|N|Stand in the swirling mist and click "[color=40C7EB]Attune the Lodestaff[/color]" to begin the Ritual.|EAB|
+C Finding One's True Purpose|QID|63737|M|35.91,32.18|Z|1961;Korthia|QO|2|NC|N|Wait for the ritual to complete.|
+T Finding One's True Purpose|QID|63737|M|36.07,32.33|Z|1961;Korthia|N|To Scholar Roh-Suir.|
+A Establishing the Archive|QID|63738|PRE|63737|M|36.07,32.33|Z|1961;Korthia|N|From Scholar Roh-Suir.|
+T Establishing the Archive|QID|63738|M|61.57,21.79|Z|1961;Korthia|N|To Scholar Roh-Suir.|
+A Beginning the Collection|QID|63861|M|62.78,22.61|Z|1961;Korthia|N|From Archivist Roh-Suir.|PRE|63738|
+A Picking Up the Pieces|QID|64289|M|62.78,22.61|Z|1961;Korthia|N|From Archivist Roh-Suir.|PRE|63738|
+C Picking Up the Pieces|QID|64289|Z|1961;Korthia|N|Collect from treasure and killing rares in Korthia.|S|
+R Caverns of Contemplation|ACTIVE|63861|M|60.13,31.91|Z|Korthia|N|Make your way to the Caverns of Contemplation.|
+C Beginning the Collection|QID|63861|M|31.76,39.97|Z|2006|QO|1|NC|N|Back part of the Cavern, loot Codex of Memories on the ground.|
+T Beginning the Collection|QID|63861|M|62.78,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
+A What Must Be Found|QID|64506|PRE|63861|M|62.78,22.60|Z|1961;Korthia|N|From Archivist Roh-Suir.|
+C What Must Be Found|QID|64506|M|62.44,22.68|Z|1961;Korthia|NC|N|Click on the Missing relic outlines around the room.|
+T What Must Be Found|QID|64506|M|62.77,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
+C Picking Up the Pieces|QID|64289|Z|1961;Korthia|N|Collect from treasure and killing rares in Korthia.|US|
+T Picking Up the Pieces|QID|64289|M|62.77,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
+A Collecting Research|QID|64290|PRE|64289|M|62.77,22.60|Z|1961;Korthia|N|From Archivist Roh-Suir.|
+T Collecting Research|QID|64290|M|62.77,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
+A Empowering Equipment|QID|64438|PRE|64290|M|62.77,22.60|Z|1961;Korthia|N|From Archivist Roh-Suir.|
+C Empowering Equipment|QID|64438|M|62.62,21.90|Z|1961;Korthia|N|You can upgrade the armor you just recieved or you can hold onto this quest and skip this step until you get something you want to upgrade.\n\nThere is no follow-up to this quest, just worth 100 rep.|
+t Empowering Equipment|QID|64438|M|62.77,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
+
 ; Side Story - They could be Anyone
 A A Unified Effort|QID|64106|M|62.76,24.99|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|
 C A Unified Effort|QID|64106|Z|1961;Korthia|QO|1|N|Complete any Assult. This is a requirement for the next storyline.|
@@ -551,7 +552,7 @@ T Tower Knowledge|QID|64216|M|47.47,75.37|Z|1912;Torghast, Tower of the Damned|N
 N Renown Level 44|AVAILABLE|63703|N|You must reach Renown level 44 to continue to the next chapter.|REN|-44|
 N Renown Level 47|AVAILABLE|63612|N|You must reach Renown level 47 to continue to the next chapter.|REN|-47|PRE|63727|
 N Renown Level 50|AVAILABLE|63659|N|You must reach Renown level 50 to continue to the next chapter.|REN|-50|PRE|63622|
-N Renown Level 52|AVAILABLE|63672|N|You must reach Renown level 52 to continue to the next chapter.|REN|-52|PRE|63654|
+N Renown Level 52|AVAILABLE|63672|N|You must reach Renown level 52 to continue to the next chapter.|REN|-52|PRE|63656|
 N Renown Level 56|AVAILABLE|63579|N|You must reach Renown level 56 to continue to the next chapter.|REN|-56|PRE|63683|
 ]]
 end)
