@@ -336,16 +336,29 @@ C Satyr Horns|QID|6441|L|5481 16|N|Kill Satyrs to collect Satyr Horns.\nThese gu
 C Warsong Supplies|QID|6571|L|16744|N|Collect the Warsong Oil from the pitcher that spawns on the ground in multiple locations near the camps in Satyrnaar.|
 C Satyr Horns|QID|6441|L|5481 16|N|Finish collecting your Satyr Horns.\nThese guys like to run.|US|
 R Splintertree Post|ACTIVE|6441|M|75.00,64.32|Z|Ashenvale|N|Choose your own adventure.|
-T Satyr Horns|QID|6441|M|73.09,61.48|Z|Ashenvale|N|To Pixel.|
+T Satyr Horns|QID|6441|M|73.07,61.48|Z|Ashenvale|N|To Pixel.|
 F Zoram'gar Outpost|ACTIVE|824|M|73.18,61.59|Z|Ashenvale|
-T Je'neu of the Earthen Ring|QID|824|M|11.61,34.28|Z|Ashenvale|N|To Je'neu Sancrea.|
+T Je'neu of the Earthen Ring|QID|824|M|11.56,34.29|Z|Ashenvale|N|To Je'neu Sancrea.|
+A Between a Rock and a Thistlefur|QID|216|M|11.90,34.53|Z|Ashenvale|N|From Karang Amakkar.|
+A Troll Charm|QID|6462|M|11.68,34.82|Z|Ashenvale|N|From Mitsuwa.|
+R Thistlefur Village|ACTIVE|216|M|30.87,45.69|Z|Ashenvale|CS|N|Make your way to Thistlefur Village. Choose your own path.|
+K Between a Rock and a Thistlefur|ACTIVE|216|QO|1;2|N|Kill Thistlefur Avengers and Shaman.\nKill them as you run into them. You'll have plenty of time to work on this.|S|
+R Thistlefur Hold|ACTIVE|6462|M|39.95,33.04;38.46,30.63|Z|Ashenvale|CC|
+C Troll Charm|QID|6462|L|16602 8|N|Head to the first intersection and take the path to the right. As you make your way along, loot the Troll Charms from the chests you'll find along the way.\n[color=FF0000]NOTE: [/color]When you have looted 5 of them, head back to the first intersection and take the other path.|
+A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ruul Snowhoof.\nThis a really, long escort course.\n[color=FF0000]NOTE: [/color]The easiest way to get to Ruul is from the path that runs up the center under the bridge or to drop down behind him. Using the center path, you can clear the path before you accept the quest.|
+A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|Ashenvale|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\n[color=80FF00]Escort Quest:[/color]\nHead back inside Thistlefur Hold to Ruul Snowhoof to restart it.\n By this time, the mobs have started respawning and you will have to fight your way back in. If you are quick, you may not have to fight as much on the way out.|FAIL|
+C Freedom to Ruul|QID|6482|M|40.00,31.98;38.48,36.53;38.57,37.21|Z|Ashenvale|CC|QO|1|N|Follow Ruul out of Thistlefur Hold and through Thistlefur Village.\nAs you make your way along, you'll be attacked by a trio of Thistlefurs on two occasions. First one is inside the Hold and the second is just outside the east gate. Fairly easy to handle, unless they run too far.\nFocus on keeping alive. Ruul can handle himself fairly well. Avoid pulling unnecessarily; Ruul will be pulling plenty on his own.\nIf you die, the quest is over. You will not make it back in time.|
+K Between a Rock and a Thistlefur|ACTIVE|216|QO|1;2|N|Finish killing Thistlefur Avengers and Shaman. No need to focus on one area as you'll find plenty on your way out.|US|
+R The Zoram Strand|ACTIVE|216^6462|M|37.74,35.17;13.48,32.21|Z|Ashenvale|CC|N|Run back to Zoram'gar Outpost. Feel free to take whatever path you desire.|
+T Between a Rock and a Thistlefur|QID|216|M|11.91,34.52|Z|Ashenvale|N|To Karang Amakkar.\n[color=FF0000]NOTE: [/color]Do NOT accept the follow-up quest. It's not worth the effort.|
+T Troll Charm|QID|6462|M|11.69,34.81|Z|Ashenvale|N|To Mitsuwa.|
 N The Lost Pages|ACTIVE|6504|N|At this point in time, take a look at which pages you have. You have 2 chooses now. You can either grind until you get them, or just buy them from the AH in Orgrimmar.\nSeeing as you probably don't want to spend too much time looking for them, we're off to Orgrimmar.\nUse this opportunity to AH any extra pages you may have.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
 ; --- Orgrimmar
-F Orgrimmar|ACTIVE|6504|M|12.19,33.82|Z|Ashenvale|
-C Chapter 1|QID|6504|QO|1|U|16645|L|16642|N|Combine Pages 1-4|NC|
-C Chapter 2|QID|6504|QO|2|U|16649|L|16643|N|Combine Pages 5-8|NC|
-C Chapter 3|QID|6504|QO|3|U|16653|L|16644|N|Combine Pages 9-12|NC|
+F Orgrimmar|ACTIVE|6504|M|12.24,33.80|Z|Ashenvale|
+C Chapter 1|QID|6504|QO|1|L|16642|N|Combine Pages 1-4|U|16645|NC|
+C Chapter 2|QID|6504|QO|2|L|16643|N|Combine Pages 5-8|U|16649|NC|
+C Chapter 3|QID|6504|QO|3|L|16644|N|Combine Pages 9-12|U|16653|NC|
 
 ; --- Ashenvale
 F Splintertree Post|ACTIVE|6571^6504^6482|M|45.50,63.84|Z|Orgrimmar|N|Back to Ashenvale.|
