@@ -306,11 +306,14 @@ A A Cry From the Heart|QID|63672|PRE|63656|M|64.40,24.27|Z|1961;Korthia|N|From U
 P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|1961;Korthia|IZ|1961|N|Take the portal to Ring of Transference.|
 F Heart of the Forest|ACTIVE|63672|M|60.96,68.81|Z|Ring of Transference@Oribos|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|
 T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
-A Hunting Amid Houses|QID|63728|PRE|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|
-C Hunting Amid Houses|QID|63728|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|
-F Spider's Watch|ACTIVE|63728|M|49.35,51.84|Z|Ardenweald!The Shadowlands|IZ|-1536|N|Head to the flightmaster and take a flight to Spider's Watch.|
-C Hunting Amid Houses|QID|63728|M|42.79,25.12|Z|Maldraxxus|QO|2|NC|N|Huln Found in Maldraxxus.|
-T Hunting Amid Houses|QID|63728|M|42.79,25.12|Z|Maldraxxus|N|To Huln Highmountain.|
+A Hunting Amid Houses|QID|63673|PRE|63672|M|44.78,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|NightFae|
+C Hunting Amid Houses|QID|63673|M|44.78,38.93|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|COV|NightFae|
+F Spider's Watch|ACTIVE|63673|M|51.37,7.82|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|NightFae|
+A Hunting Amid Houses|QID|63728|PRE|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|-NightFae|
+C Hunting Amid Houses|QID|63728|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|COV|-NightFae|
+F Spider's Watch|ACTIVE|63728|M|49.35,51.84|Z|Ardenweald!The Shadowlands|IZ|-1536|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|-NightFae|
+C Hunting Amid Houses|QID|63728^63673|M|42.79,25.12|Z|Maldraxxus|QO|2|NC|N|Huln Found in Maldraxxus.|
+T Hunting Amid Houses|QID|63728^63673|M|42.79,25.12|Z|Maldraxxus|N|To Huln Highmountain.|
 A The Blade in the Night|QID|63990|PRE|63728|M|42.79,25.12|Z|Maldraxxus|N|From Huln Highmountain.|
 C The Blade in the Night|QID|63990|M|41.91,23.34|Z|Maldraxxus|QO|1|NC|N|Click on books on the First Floor. For me it was always the book with the skull.|
 C The Blade in the Night|QID|63990|M|41.96,23.21|Z|Maldraxxus|QO|2|NC|N|Click on books on the Second Floor. For me it was always the book with the skull.|
@@ -331,7 +334,7 @@ C You Cannot Hide|QID|63676|M|70.61,31.76|Z|Maldraxxus|QO|2|N|Kill acolytes and 
 C You Cannot Hide|QID|63676|M|72.53,30.45|Z|Maldraxxus|QO|1|N|Drava'ora slain.|
 T You Cannot Run|QID|63675|M|PLAYER|Z|Maldraxxus|N|To Khaliiq.|
 T You Cannot Hide|QID|63676|M|PLAYER|Z|Maldraxxus|N|To Khaliiq.|
-P Exormas|ACTIVE|63677|M|74.38,33.96|Z|Maldraxxus|N|Take the portal to Exormas.|
+P Exoramas|ACTIVE|63677|M|74.38,33.96|Z|Maldraxxus|N|Take the portal to Exoramas.|
 C You Can Only Die|QID|63677|M|74.63,32.83|Z|Maldraxxus|QO|1|N|Fal'zinge slain.|
 T You Can Only Die|QID|63677|M|PLAYER|Z|Maldraxxus|N|To Khaliiq.|
 A Akarek Avenged|QID|63678|PRE|63677&63675&63676|M|PLAYER|Z|Maldraxxus|N|From Khaliiq.|
@@ -381,8 +384,13 @@ C The Power of Elune|QID|63682|M|45.24,65.67|Z|Ardenweald!The Shadowlands|QO|3|N
 T The Power of Elune|QID|63682|M|45.26,65.05|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|
 A Winter's Sigil|QID|63683|PRE|63682|M|45.26,65.05|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|
 C Winter's Sigil|QID|63683|M|45.30,65.09|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Click on the Tear of Elune to take it.|
-C Winter's Sigil|QID|63683|M|45.03,65.62|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak with Ysera.|
-T Winter's Sigil|QID|63683|M|45.03,65.62|Z|Ardenweald!The Shadowlands|N|To Ysera.|
+C Winter's Sigil|QID|63683|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|NightFae|
+C Winter's Sigil|QID|63683|M|45.03,65.62|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak with Ysera.|COV|-NightFae|
+T Winter's Sigil|QID|63683|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|NightFae|
+T Winter's Sigil|QID|63683|M|45.03,65.62|Z|Ardenweald!The Shadowlands|N|To Ysera.|COV|-NightFae|
+A Inform the Primus|QID|64437|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|NightFae|
+A Inform the Primus|QID|64437|M|45.03,65.62|Z|Ardenweald!The Shadowlands|N|To Ysera.|COV|-NightFae|
+T Inform the Primus|QID|64437|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; A New Path
 A A Paladin's Soul|QID|63579|M|62.57,25.66|Z|1961;Korthia|N|From Thenios.|REN|56|
