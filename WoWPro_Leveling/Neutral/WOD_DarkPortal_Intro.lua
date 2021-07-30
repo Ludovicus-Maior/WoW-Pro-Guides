@@ -9,16 +9,16 @@ return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
 ;Quest numbers differ on source pick-up. From Stormwind or Orgrimmar Auto-Accept, it is 34398. From Archmage Khadgar at The Dark Portal it is 36881.
-A The Dark Portal|QID|34398|M|56.26,17.31|Z|Stormwind City|N|From Chromie after activating Warlords of Draenor timeline.|FACTION|Alliance|
-A The Dark Portal|QID|34398|Z|Orgrimmar|N|From Chromie after activating Warlords of Draenor timeline.|FACTION|Horde|LVL|-50|
-A The Dark Portal|QID|34398|M|49.68,76.45|Z|Orgrimmar|N|From the Warchief's Command Board, [color=FF0000][Enter the Dark Portal][/color] under Tanaan Jungle. Skip this step if quest not available.|FACTION|Horde|LVL|50|
-A The Dark Portal|QID|36881|M|54.94,50.42|Z|Blasted Lands|N|From Archmage Khadgar, in Blasted Lands.|FACTION|Horde|LVL|50|LEAD|34398|
-C The Dark Portal|QID|34398|M|48.86,87.37|Z|Stormwind City|QO|1|CHAT|N|Speak with the Vanguard Battlemage in the Wizard Sanctum for a port to Blasted Lands.|FACTION|Alliance|
-C The Dark Portal|QID|34398|M|57.68,88.37|Z|Orgrimmar|QO|1|CHAT|N|At the Vanguard Battlemage in the Pathfinder's Den.|FACTION|Horde|
-C The Dark Portal|QID|34398|Z|Blasted Lands|M|54.94,50.29|QO|2|CHAT|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. FOR AZEROTH!|
-C The Dark Portal|QID|36881|Z|Blasted Lands|M|54.94,50.29|QO|1|CHAT|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. FOR AZEROTH!|
-C The Dark Portal|QID|34398^36881|Z|Blasted Lands|M|54.94,50.29|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. A portal to the Blasted Lands can be found in the in the Cleft of Shadows.|CHAT|FACTION|Horde|
-T The Dark Portal|QID|34398^36881|N|To Archmage Khadgar|M|54.79,48.27|Z|TanaanJungleIntro|
+A Warlords of Draenor: The Dark Portal|QID|34398|M|56.26,17.31|Z|Stormwind City|N|From Chromie after activating Warlords of Draenor timeline.|FACTION|Alliance|
+A Warlords of Draenor: The Dark Portal|QID|34398|Z|Orgrimmar|N|From Chromie after activating Warlords of Draenor timeline.|FACTION|Horde|LVL|-50|
+A Warlords of Draenor: The Dark Portal|QID|34398|M|49.68,76.45|Z|Orgrimmar|N|From the Warchief's Command Board, [color=FF0000][Enter the Dark Portal][/color] under Tanaan Jungle. Skip this step if quest not available.|FACTION|Horde|LVL|50|
+A Warlords of Draenor: The Dark Portal|QID|36881|M|54.94,50.42|Z|Blasted Lands|N|From Archmage Khadgar, in Blasted Lands.|FACTION|Horde|LVL|50|LEAD|34398|
+C Warlords of Draenor: The Dark Portal|QID|34398|M|48.86,87.37|Z|Stormwind City|QO|1|CHAT|N|Speak with the Vanguard Battlemage in the Wizard Sanctum for a port to Blasted Lands.|FACTION|Alliance|
+C Warlords of Draenor: The Dark Portal|QID|34398|M|57.68,88.37|Z|Orgrimmar|QO|1|CHAT|N|At the Vanguard Battlemage in the Pathfinder's Den.|FACTION|Horde|
+C Warlords of Draenor: The Dark Portal|QID|34398|Z|Blasted Lands|M|54.94,50.29|QO|2|CHAT|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. FOR AZEROTH!|
+C Warlords of Draenor: The Dark Portal|QID|36881|Z|Blasted Lands|M|54.94,50.29|QO|1|CHAT|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. FOR AZEROTH!|
+C Warlords of Draenor: The Dark Portal|QID|34398^36881|Z|Blasted Lands|M|54.94,50.29|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. A portal to the Blasted Lands can be found in the in the Cleft of Shadows.|CHAT|FACTION|Horde|
+T Warlords of Draenor: The Dark Portal|QID|34398^36881|N|To Archmage Khadgar|M|54.79,48.27|Z|TanaanJungleIntro|
 A Azeroth's Last Stand|QID|35933|N|From Archmage Khadgar|M|54.79,48.27|PRE|34398^36881|Z|TanaanJungleIntro|
 C Azeroth's Last Stand|QID|35933|N|Kill an Iron Horde, and loot the Iron Horde Missive|M|53.0,48.3|Z|TanaanJungleIntro|
 T Azeroth's Last Stand|QID|35933|N|Auto-Complete|Z|TanaanJungleIntro|
