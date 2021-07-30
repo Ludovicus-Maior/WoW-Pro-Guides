@@ -12,8 +12,8 @@ N From now on...|QID|9861|N|From now on, kill Air Elementals until you get the H
 A Do My Eyes Deceive Me |QID|9917|M|55.0,70.5|N|From Huntress Bintook.|
 A The Nesingwary Safari |QID|10113|LEAD|9857|M|54.98,70.47|N|From "Shotgun" Jones.|
 A Fierce Enemies |QID|10476|M|54.8,71.0|N|From Warden Moi'bff Jill.|
-A Wanted: Giselda the Crone|QID|9936|M|54.65,70.80|N|From the Telaar Bulletin Board.|
-A Wanted: Zorbo the Advisor|QID|9940|M|54.65,70.80|N|From the Telaar Bulletin Board.|
+A WANTED: Giselda the Crone|QID|9936|M|54.65,70.80|N|From the Telaar Bulletin Board.|
+A WANTED: Zorbo the Advisor|QID|9940|M|54.65,70.80|N|From the Telaar Bulletin Board.|
 T A Message to Telaar |QID|9792|M|54.8,71.0|N|To Nahuud.|
 A The Throne of the Elements |QID|9869|M|55.5,68.8|N|From Elementalist Ioki.|
 A Solving the Problem |QID|9878|M|54.5,72.2|N|From Poli'lukluk the Wiser.|
@@ -173,7 +173,7 @@ A Ruthless Cunning |QID|9927|M|73.8,62.6|N|From Lantressor of the Blade.|
 C Ruthless Cunning |N|Plant the banners on the mob corpses for this quest.|QID|9927|M|71.4,79.4|S|
 C Armaments for Deception |N|Loot the boxes for this quest.|QID|9928|M|71.4,79.4|S|
 K Giselda the Crone |N|Kill Giselda the Crone in center the large building.|QID|9936|M|71.14,92.31|QO|1|; Giselda the Crone slain: 1/1
-C Wanted: Giselda the Crone|QID|9936|N|Kill the rest of the Kil'sorrow agents needed.|M|70.52,79.2|
+C WANTED: Giselda the Crone|QID|9936|N|Kill the rest of the Kil'sorrow agents needed.|M|70.52,79.2|
 C Ruthless Cunning |N|Plant the rest of the banners on the mob corpses for this quest.|QID|9927|M|71.4,79.4|US|
 C Armaments for Deception |N|Loot the rest of the boxes for this quest.|QID|9928|M|71.4,79.4|US|
 T Armaments for Deception |QID|9928|M|73.8,62.6|N|To Lantressor of the Blade.|
@@ -186,10 +186,10 @@ T The Spirit Polluted |QID|9810|M|60.5,22.4|N|To Ementalist Lo'ap.|
 T Muck Diving |QID|9815|M|60.5,22.4|N|To Ementalist Lo'ap.|
 T Murkblood Corrupters |QID|9862|M|60.5,22.4|N|To Ementalist Morgh.|
 C Returning the Favor|N|Plant Kil'sorrow Banners on ogre corpses as you did earlier with the other quest.|QID|9931|M|50.00,22.00|U|25555|S|
-C Wanted: Zorbo the Advisor|N|Kill Warmaul Shamans and Reavers in the area.|QID|9940|M|46.11,19.00|S|
+C WANTED: Zorbo the Advisor|N|Kill Warmaul Shamans and Reavers in the area.|QID|9940|M|46.11,19.00|S|
 C Body of Evidence |N|Use the Damp Woolen Blanket here and defend the NPCs.|QID|9932|M|46.45,24.35|
 K Zorbo the Advisor|N|Kill Zorbo inside the cave.|QID|9940|M|46.22,18.83|QO|1|; Zorbo the Advisor slain: 1/1
-C Wanted: Zorbo the Advisor|N|Kill Warmaul Shamans and Reavers in the area.|QID|9940|M|46.00,23.00|US|
+C WANTED: Zorbo the Advisor|N|Kill Warmaul Shamans and Reavers in the area.|QID|9940|M|46.00,23.00|US|
 C Returning the Favor|N|Plant Kil'sorrow Banners on ogre corpses as you did earlier with the other quest. |QID|9931|M|50.00,22.00|U|25555|US|
 N Ring of Blood|N|Look for a group for Ring of Blood quests if you wish. Some people can solo most if not all of this depending on level/class/spec/gear. Most will probably will still need help.|
 K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|CN|N|Kill Gutripper and loot his eye.|T|Gutripper|L|24513|S|
@@ -213,9 +213,9 @@ T Stealing from Thieves |QID|9882|M|31.4,57.8|N|To Gezhe.|REP|The Consortium;933
 T Vision of the Dead |QID|10252|N|To Nitrin the Learned.|M|51.74,56.9|
 A Levixus the Soul Caller |QID|10253|PRE|10252|M|51.74,56.9|N|From Nitrin the Learned. This takes you into a dungeon, so this is optional.|
 T The Ravaged Caravan |QID|9956|M|54.2,70.0|N|To Huntress Kima, find her wandering around Telaar.|
-T Wanted: Giselda the Crone |QID|9936|M|54.8,71.0|N|To Waden Moi'bff Jill.|
-T Wanted: Zorbo the Advisor|QID|9940|M|54.8,71.0|N|To Waden Moi'bff Jill.|
-A Wanted: Durn the Hungerer |QID|9938|PRE|9936&9940|N|From Waden Moi'bff Jill.|M|54.8,71.0|
+T WANTED: Giselda the Crone|QID|9936|M|54.8,71.0|N|To Waden Moi'bff Jill.|
+T WANTED: Zorbo the Advisor|QID|9940|M|54.8,71.0|N|To Waden Moi'bff Jill.|
+A WANTED: Durn the Hungerer |QID|9938|PRE|9936&9940|N|From Waden Moi'bff Jill.|M|54.8,71.0|
 T Cho'war the Pillager |QID|9955|N|To Arechron.|M|55.44,68.78|
 T Ortor My Old Friend... |QID|9873|N|To Arechron.|M|55.44,68.78|
 A Visions of Destruction|QID|11044|M|55.36,68.74|N|From Seer Jovar. This quest takes you into Shadowmoon Valley if you wish to do that zone.|
@@ -228,8 +228,8 @@ T Talbuk Mastery |QID|9859|N|To Harold Lane.|M|71.4,40.63|
 A The Ultimate Bloodsport |QID|9852|PRE|9856&9859&9851|N|From Hemet Nesingwary.|M|71.52,40.79|
 T Gurok the Usurper |QID|9853|N|To Gordawg.|M|61.8,24.4|
 C The Ultimate Bloodsport |N|Kill and loot Tusker.|QID|9852|M|44.28,65.6|
-C Wanted: Durn the Hungerer|N|Kill Durn the Hungerer, he wanders around Oshu'gun.|QID|9938|M|30,63;30.1,75;39.6,79.2;44,70;37.5,59|CN|T|Durn the Hungerer|
-T Wanted: Durn the Hungerer|QID|9938|N|To Waden Moi'bff Jill.|M|54.8,71.0|
+C WANTED: Durn the Hungerer|N|Kill Durn the Hungerer, he wanders around Oshu'gun.|QID|9938|M|30,63;30.1,75;39.6,79.2;44,70;37.5,59|CN|T|Durn the Hungerer|
+T WANTED: Durn the Hungerer|QID|9938|N|To Waden Moi'bff Jill.|M|54.8,71.0|
 T Message to Telaar |QID|9933|M|55.5,68.8|N|To Arechron.|
 T The Ultimate Bloodsport|QID|9852|N|To Hemet Nesingwary.|M|71.52,40.79|
 N The following quests are the rest of the ones from Altruis.|
