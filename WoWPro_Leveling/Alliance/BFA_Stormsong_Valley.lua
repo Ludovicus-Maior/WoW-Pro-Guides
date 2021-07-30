@@ -169,7 +169,7 @@ $ Hidden Scholar's Chest|QID|50937|M|59.03,41.50;59.91,39.06|CS|N|Run up the sta
 C Oathbound|QID|50780|M|59.14,38.71|NC|N|Jump down into the couryard and loot the Rod of Tides from the fountain. Kill the mobs that spawn, then loot again.|
 K Enthralled Tidefury|ACTIVE|50778|QO|2|T|Enthralled Tidefury|M|61.77,38.09|N|Kill the priests who have him entralled and then kill the Tidefury.|
 C A Clean Slate|QID|50779|M|61.32,41.46|US|N|Finish up bonus objective.|
-T Clean Slate|QID|50779|M|61.32,41.46|N|Bonus Objective - Autocompleted.|
+T A Clean Slate|QID|50779|M|61.32,41.46|N|Bonus Objective - Autocompleted.|
 C The Storm Awakens|QID|50777|M|60.02,37.86|US|N|Finish up.|
 T The Storm Awakens|QID|50777|M|60.02,37.86|N|To Taelia.|
 T Twisted Intentions|QID|50778|M|60.02,37.86|N|To Taelia.|
