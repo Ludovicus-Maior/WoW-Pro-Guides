@@ -245,36 +245,36 @@ K Citizen Wilkes|QID|567|QO|2|N|Kill Citizen Wilkes. He patrols the north branch
 K Farmer Ray|QID|527|M|32.67,35.62;33.74,33.50|Z|Hillsbrad Foothills|CN|QO|3|N|Kill Farmer Ray. He's just inside the front door. Draw him out so you don't aggro the mobs inside with him.\n[color=FF0000]NOTE: [/color]If he's not in the house, check the courtyard on the east side of the house. The courtyard location requires you clear the adds first.|
 K Farmer Getz|QID|527|M|35.45,38.00;36.52,39.45|Z|Hillsbrad Foothills|CN|QO|4|N|Kill Farmer Getz. He's inside the barn. Be prepared. You will aggro the 2 mobs that are in there with him.\n[color=FF0000]NOTE: [/color]If he's at the house (east of the barn), he'll only have 1 mob with him.|
 C Battle of Hillsbrad|QID|527|QO|1;2|N|Finish killing Hillsbrad Farmers and Farmhands.|US|
-R Tarren Mill|QID|527|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
+R Tarren Mill|ACTIVE|527|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
 T Battle of Hillsbrad|QID|527|M|62.27,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia in Tarren Mill.|
 A Battle of Hillsbrad|QID|528|M|62.27,20.32|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 C Battle of Hillsbrad|QID|528|QO|1|N|Kill Hillsbrad Peasants.|S|
 A Souvenirs of Death|QID|546|M|62.19,19.86|Z|Hillsbrad Foothills|N|From Deathguard Samsa.|PRE|527|
 C Souvenirs of Death|QID|546|L|3692 30|N|Basically, kill Hillsbrad human mobs to collect the Hillsbrad Human Skulls.|S|
-R Hillsbrad Fields|ACTIVE|528^546^567|M|37.03,43.41|Z|Hillsbrad Foothills|N|Run to the south east part of the area.|
-K Farmer Kalaba|QID|567|M|35.71,46.76|Z|Hillsbrad Foothills|QO|4|N|Kill Farmer Kalaba in the SE orchard.|
+R Hillsbrad Fields|ACTIVE|528^546^567|M|37.03,43.41|Z|Hillsbrad Foothills|N|Run to the south east part of the area.|IZ|1424;Hillsbrad Foothills|
+K Farmer Kalaba|ACTIVE|567|M|35.71,46.76|Z|Hillsbrad Foothills|QO|4|N|Kill Farmer Kalaba in the SE orchard.|
 C Battle of Hillsbrad|QID|528|QO|1|N|Finish killing Hillsbrad Peasants.|US|
 R Nethander Stead|ACTIVE|509|M|63.4,41.8;63.77,57.82|Z|Hillsbrad Foothills|CC|N|Follow the road east to the bridge and then make your way south to Nethander Stead.\n[color=FF0000]NOTE: [/color]Don't be silly and try cutting through Southshore.|
 C Elixir of Agony|QID|509|M|64.85,61.37|Z|Hillsbrad Foothills|L|3502 6|N|Clear as many Gnolls as you deem necessary to access the field in Nethander Stead safely to collect the Mudsnout Blossoms.\n[color=FF0000]NOTE: [/color]Try to kite them away from the others because they like to run and the Shamans won't stay still through the entire fight.\nThe Shamans will also heal themselves ~75%|
-R Tarren Mill|QID|509|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
+R Tarren Mill|ACTIVE|509|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
 ;L Level 27|QID|567|LVL|27|N|You should be around level 27 by this point.|
 T Battle of Hillsbrad|QID|528|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 A Battle of Hillsbrad|QID|529|M|62.28,20.28|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|528|
 t Souvenirs of Death|QID|546|M|62.10,19.82|Z|Hillsbrad Foothills|N|To Deathguard Samsa.|IZ|Tarren Mill|
 T Elixir of Agony|QID|509|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
 A Elixir of Agony|QID|513|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|509|
-R Hillsbrad Fields|ACTIVE|529^546^567|M|32.21,48.31|Z|Hillsbrad Foothills|N|Make your way to the south entrance to Hillsbrad Fields. You are headed for the Forge.|
+R Hillsbrad Fields|ACTIVE|529^546^567|M|32.21,48.31|Z|Hillsbrad Foothills|N|Make your way to the south entrance to Hillsbrad Fields. You are headed for the Forge.|IZ|1424;Hillsbrad Foothills|
 C Battle of Hillsbrad|QID|529|M|31.99,45.43|Z|Hillsbrad Foothills|QO|3|N|The Shipment of Iron is located inside the forge.|S|
 K Battle of Hillsbrad|ACTIVE|529|M|32,46|Z|Hillsbrad Foothills|QO|2|N|Kill Hillsbrad Apprentice Blacksmiths. There are 2-3 inside the forge and 2-3 around the outside.|S|
 K Blacksmith Verringtan|ACTIVE|529|QO|1|N|Kill Blacksmith Verringtan inside the Forge.\nSometimes you get lucky and he will spawn outside on the east side.\n[color=FF0000]NOTE: [/color]If you approach from the north entrance, you can avoid aggroing everyone in the forge.|
-l Battle of Hillsbrad|QID|529|M|32.01,45.44|Z|Hillsbrad Foothills|QO|3|N|As soon as you clear the forge, run inside and pick up the Shipment of Iron inside the forge.|US|
+l Battle of Hillsbrad|ACTIVE|529|M|32.01,45.44|Z|Hillsbrad Foothills|QO|3|N|As soon as you clear the forge, run inside and pick up the Shipment of Iron inside the forge.|US|
 K Battle of Hillsbrad|ACTIVE|529|QO|2|N|Finish killing the Hillsbrad Apprentice Blacksmiths.|US|
 C Souvenirs of Death|QID|546|M|33.03,46.78|Z|Hillsbrad Foothills|L|3692 30|N|Finish collecting the Hillsbrad Human Skulls.\n[color=FF0000]NOTE: [/color]The Peasants, Blacksmiths, and Footmen offer the best drop rate; Farmers and Farmhands offer the worst. Your results may vary.|US|
-R Tarren Mill|QID|529|M|61.35,20.04|Z|Hillsbrad Foothills|N|Return to Tarren Mill.|
+R Tarren Mill|ACTIVE|529|M|61.35,20.04|Z|Hillsbrad Foothills|N|Return to Tarren Mill.|
 T Battle of Hillsbrad|QID|529|M|62.29,20.31|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 
 ; --- Undercity
-F Undercity|QID|513|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
+F Undercity|ACTIVE|513|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
 T Elixir of Agony|QID|513|M|48.80,69.28|Z|Undercity|N|To Master Apothecary Faranell, underneath The Apothecarium.|
 A Elixir of Agony|QID|515|M|48.80,69.28|Z|Undercity|N|From Master Apothecary Faranell.|PRE|513|
 
@@ -335,7 +335,8 @@ R Satyrnaar|ACTIVE|6441^6571|M|75.0,65.2;81.77,52.08|Z|Ashenvale|CC|
 C Satyr Horns|QID|6441|L|5481 16|N|Kill Satyrs to collect Satyr Horns.\nThese guys like to run.\n[color=FF0000]NOTE: [/color]The drop rate is a little less than 50%. Nothing wrong with a little grinding.|S|
 C Warsong Supplies|QID|6571|L|16744|N|Collect the Warsong Oil from the pitcher that spawns on the ground in multiple locations near the camps in Satyrnaar.|
 C Satyr Horns|QID|6441|L|5481 16|N|Finish collecting your Satyr Horns.\nThese guys like to run.|US|
-R Splintertree Post|ACTIVE|6441|M|75.00,64.32|Z|Ashenvale|N|Choose your own adventure.|
+R Splintertree Post|ACTIVE|6441^6571|M|75.00,64.32|Z|Ashenvale|N|Choose your own adventure.|
+T Warsong Supplies|QID|6571|M|71.40,67.64|Z|Ashenvale|N|To Locke Okarr; by the south watchtower.|
 T Satyr Horns|QID|6441|M|73.07,61.48|Z|Ashenvale|N|To Pixel.|
 F Zoram'gar Outpost|ACTIVE|824|M|73.18,61.59|Z|Ashenvale|
 T Je'neu of the Earthen Ring|QID|824|M|11.56,34.29|Z|Ashenvale|N|To Je'neu Sancrea.|
@@ -343,15 +344,21 @@ A Between a Rock and a Thistlefur|QID|216|M|11.90,34.53|Z|Ashenvale|N|From Karan
 A Troll Charm|QID|6462|M|11.68,34.82|Z|Ashenvale|N|From Mitsuwa.|
 R Thistlefur Village|ACTIVE|216|M|30.87,45.69|Z|Ashenvale|CS|N|Make your way to Thistlefur Village. Choose your own path.|
 K Between a Rock and a Thistlefur|ACTIVE|216|QO|1;2|N|Kill Thistlefur Avengers and Shaman.\nKill them as you run into them. You'll have plenty of time to work on this.|S|
-R Thistlefur Hold|ACTIVE|6462|M|39.95,33.04;38.46,30.63|Z|Ashenvale|CC|
+R Thistlefur Hold|ACTIVE|6462|M|39.9,33.0;38.59,30.61|Z|Ashenvale|CC|
 C Troll Charm|QID|6462|L|16602 8|N|Head to the first intersection and take the path to the right. As you make your way along, loot the Troll Charms from the chests you'll find along the way.\n[color=FF0000]NOTE: [/color]When you have looted 5 of them, head back to the first intersection and take the other path.|
 A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ruul Snowhoof.\nThis a really, long escort course.\n[color=FF0000]NOTE: [/color]The easiest way to get to Ruul is from the path that runs up the center under the bridge or to drop down behind him. Using the center path, you can clear the path before you accept the quest.|
 A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|Ashenvale|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\n[color=80FF00]Escort Quest:[/color]\nHead back inside Thistlefur Hold to Ruul Snowhoof to restart it.\n By this time, the mobs have started respawning and you will have to fight your way back in. If you are quick, you may not have to fight as much on the way out.|FAIL|
 C Freedom to Ruul|QID|6482|M|40.00,31.98;38.48,36.53;38.57,37.21|Z|Ashenvale|CC|QO|1|N|Follow Ruul out of Thistlefur Hold and through Thistlefur Village.\nAs you make your way along, you'll be attacked by a trio of Thistlefurs on two occasions. First one is inside the Hold and the second is just outside the east gate. Fairly easy to handle, unless they run too far.\nFocus on keeping alive. Ruul can handle himself fairly well. Avoid pulling unnecessarily; Ruul will be pulling plenty on his own.\nIf you die, the quest is over. You will not make it back in time.|
-K Between a Rock and a Thistlefur|ACTIVE|216|QO|1;2|N|Finish killing Thistlefur Avengers and Shaman. No need to focus on one area as you'll find plenty on your way out.|US|
-R The Zoram Strand|ACTIVE|216^6462|M|37.74,35.17;13.48,32.21|Z|Ashenvale|CC|N|Run back to Zoram'gar Outpost. Feel free to take whatever path you desire.|
-T Between a Rock and a Thistlefur|QID|216|M|11.91,34.52|Z|Ashenvale|N|To Karang Amakkar.\n[color=FF0000]NOTE: [/color]Do NOT accept the follow-up quest. It's not worth the effort.|
+K Between a Rock and a Thistlefur|ACTIVE|216|M|33.26,39.43|Z|Ashenvale|QO|1;2|N|Finish killing Thistlefur Avengers and Shaman. No need to focus on one area as you'll find plenty on your way out.|US|
+R The Zoram Strand|ACTIVE|216^6462|M|13.48,32.21|Z|Ashenvale|N|Run back to Zoram'gar Outpost. Feel free to take whatever path you desire.\n[color=FF0000]NOTE: [/color]Take this opportunity to do some grinding for exp and 'Lost Pages'|
+T Between a Rock and a Thistlefur|QID|216|M|11.91,34.52|Z|Ashenvale|N|To Karang Amakkar.|
+A King of the Foulweald|QID|6621|M|11.91,34.52|Z|Ashenvale|N|From Karang Amakkar.\n[color=FF0000]NOTE: [/color]This quest is considered an 'unmarked group quest' at lower levels. Only accept this quest if you need the exp.|PRE|216|RANK|3|
 T Troll Charm|QID|6462|M|11.69,34.81|Z|Ashenvale|N|To Mitsuwa.|
+F Splintertree Post|ACTIVE|6621|M|12.24,33.80|Z|Ashenvale|N|The next quest is quicker if you start from there.|
+T Freedom to Ruul|QID|6482|M|74.12,60.91|Z|Ashenvale|N|To Yama Snowhoof.|
+R Greenpaw Village|ACTIVE|6621|M|64.3,70.4;58.4,61.4;56.89,62.47|Z|Ashenvale|CC|
+C King of the Foulweald|QID|6621|M|56.37,63.51|Z|Ashenvale|N|Use Karang's Banner on the Foulweald Totem Mound located at the east end of the village.|U|16972|
+
 N The Lost Pages|ACTIVE|6504|N|At this point in time, take a look at which pages you have. You have 2 chooses now. You can either grind until you get them, or just buy them from the AH in Orgrimmar.\nSeeing as you probably don't want to spend too much time looking for them, we're off to Orgrimmar.\nUse this opportunity to AH any extra pages you may have.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
 ; --- Orgrimmar
@@ -362,9 +369,7 @@ C Chapter 3|QID|6504|QO|3|L|16644|N|Combine Pages 9-12|U|16653|NC|
 
 ; --- Ashenvale
 F Splintertree Post|ACTIVE|6571^6504^6482|M|45.50,63.84|Z|Orgrimmar|N|Back to Ashenvale.|
-T Warsong Supplies|QID|6571|M|71.40,67.64|Z|Ashenvale|N|To Locke Okarr; by the south watchtower.|
-T The Lost Pages|QID|6504|M|70.01,71.15|Z|Ashenvale|N|To Gurda Ragescar.|
-T Freedom to Ruul|QID|6482|M|74.12,60.91|Z|Ashenvale|N|To Yama Snowhoof.|
+t The Lost Pages|QID|6504|M|70.01,71.15|Z|Ashenvale|N|To Gurda Ragescar.|IZ|Splintertree Post|
 ;L Level 30|QID|1088|LVL|30|N|You should be around level 30 by this point.|
 
 ; --- Stonetalon Mountains
