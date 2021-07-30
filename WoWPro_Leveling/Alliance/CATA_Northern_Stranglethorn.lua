@@ -7,7 +7,7 @@ N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie
 R Rebel Camp|QID|26732|M|48.95,13.55|N|Northern Stranglethorn is to the south of Duskwood. You can obtain one of two breadcrumbs into this zone, Rebels Without a Clue is offered by Sentinel Velene Starstrike at the Stardust Spire in Ashenvale, and from Sister Elsington in Raven Hill, Duskwood.  Alternatively, in-level players can obtain the Hero's Call from Stormwind City.\n\nOnce you have one of these two, head to the Rebel Camp.|
 f Rebel Camp|QID|26740|M|47.87,11.86|N|At James Stillair.|TAXI|-Rebel Camp|
 T Rebels Without a Clue|QID|26838|M|47.57,10.25|N|To Lieutenant Doren.|
-T Hero's Call: Northern Stranglethorn Vale!|QID|28699|M|47.57,10.25|N|To Lieutenant Doren.|
+T Hero's Call: Northern Stranglethorn!|QID|28699|M|47.57,10.25|N|To Lieutenant Doren.|
 A The Fate of Kurzen|QID|26735|M|47.57,10.25|N|From Lieutenant Doren.|
 A Bad Medicine|QID|26732|M|47.24,11.10|N|From Brother Nimetz.|
 C Bad Medicine|QID|26732|M|57.85,20.58|N|Kill and loot Kurzen mobs for the Jungle Remedies.|S|

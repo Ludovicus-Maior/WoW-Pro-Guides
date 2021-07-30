@@ -221,8 +221,8 @@ T Whispers in the Dark|QID|58615|M|50.10,59.23|Z|Chamber of Heart!Dungeon1473|N|
 A Into Dreams|QID|58631|M|50.10,59.23|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|58615|
 C MOTHER|QID|58631|QO|1|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|CHAT|N|Ask MOTHER to to track Ra-Den.|
 T Into Dreams|QID|58631|M|50.10,59.23|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
-A Ny'alotha, the Waking City:\nThe Corruptor's End|QID|58632|PRE|58631|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.\nDefeat N'zoth in the Ny'alotha raid instance.|
-t Ny'alotha, the Waking City:\nThe Corruptor's End|QID|58632|PRE|58631|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard. Assming back at the Heart.|
+A Ny'alotha, the Waking City: The Corruptor's End|QID|58632|PRE|58631|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.\nDefeat N'zoth in the Ny'alotha raid instance.|
+t Ny'alotha, the Waking City: The Corruptor's End|QID|58632|PRE|58631|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard. Assming back at the Heart.|
 A Accessing the Archives|QID|57524|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|PRE|58615|  ; Need to complete OBJ, Turned in not required. Ignore Grail
 C Titanic Research Archive|QID|57524|QO|1|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|N|Ask MOTHER to bring the database online.|
 C Titanic Research Archive|QID|57524|QO|2|M|46.38,70.44|Z|Chamber of Heart!Dungeon1473|N|Then click on the Archive to activate it.|

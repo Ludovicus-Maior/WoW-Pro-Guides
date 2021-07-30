@@ -24,8 +24,7 @@ C Pillar of Fire|M|49.45,48.25|Z|AssaultonBrokenShoreScenario|SO|7|N|Plant Arcan
 C Mephistroth slain|M|50.05,45.86|Z|AssaultonBrokenShoreScenario|SO|8|N|Start fighting Mephistroth. Then when he has the sense to leave, Hang out a moment more, until Khadgar rescues you off of the exploding ship.  Watch the cut scene and end up at Deliverance Point.|T|Mephistroth|
 T Assault on Broken Shore|QID|46734|M|44.74,63.29|S|N|To Archmage Khadgar.|
 N World Quests, etc|QID|46940|N|This guide is still a rough draft.  It includes all the WQs I have seen, + a very few others. I have attempted to group them by area of the map.|
-; Obsolete?
-; A Seeking Lost Knowledge|QID|47067|PRE|46734|M|44.74,63.29|N|From Archmage Khadgar. If you havent gotten your Artifact Knowledge to 25, this will not be available.|
+
 A Legionfall Supplies|QID|46286|PRE|46734|M|44.56,63.15|N|From Commander Chambers.|
 A Aalgen Point|QID|46832|PRE|46734|M|44.56,63.15|N|From Commander Chambers.|
 A Greater Power for Greater Threats|QID|46744|M|44.74,63.28|N|From Archmage Khadgar. You will receive this quest if you have not unlocked all the traits on your artifact.|ACH|11144|
@@ -134,10 +133,7 @@ f Aalgen Point|QID|46111|M|70.79,47.60|N|At Heidirk the Scalekeeper.|
 T Aalgen Point|QID|46832|M|70.79,47.60|N|To Heidirk the Scalekeeper.|
 A Vengeance Point|QID|46845|PRE|46832|M|70.79,47.60|N|From Heidirk the Scalekeeper.|
 ;WQs beetween Aalgen Point and Vengeance Point.
-C Seeking Lost Knowledge|QID|47067|M|82.54,45.08|QO|1|NC|U|147449|N|Run around the waters edge from Aalgen point to the Beach at Felfire Pass. Stand near the purplish sparkly thing and click it to recover knowledge from Felfire Pass.|
 C War Materiel|QID|45791|M|79.04,40.88|N|The felslag drops from the mobs and is also lying on the ground.|
-C Seeking Lost Knowledge|QID|47067|M|79.83,44.42;75.60,36.34|CS|QO|3|U|147449|NC|N|Through Felfire Pass, up on top of the rocks, not inside is another "Remnant of Lost knowledge" to recover.|
-C Seeking Lost Knowledge|QID|47067|M|71.91,40.77|QO|2|U|147449|NC|N|This one is also on top of the rocks (not inside the Lost Temple). Be careful crossing the rocks as there is a cravasse into the Lost Temple.|
 C Brute Wrangling|QID|46068|M|71,33|QO|1|N|Hop on a Subdued Punisher (Vehicle UI).|
 C Brute Wrangling|QID|46068|M|71,33|QO|2|N|Use the provided abilities to kill Deepsurge Naga all over Felrage Strand.|
 C The Cost of Power|QID|46942|M|81.71,26.80|Z|Broken Shore|S|QO|1|N|Kill Harrowing Corruptor.|
@@ -166,15 +162,12 @@ C Gems of Destruction|QID|46198|M|46.18,20.11|N|Kill Felborne Punishers and loot
 C Exterminating with Impunity|QID|45878|M|32.89,33.13|N|Slaughter many imps.|
 C Ancient Bones|QID|45988|QO|1|M|53.92,18.12|NC|N|Pick up ancient bones off of the ground in this general area.|
 C Ancient Bones|QID|45988|QO|2|M|51.6,17.2;50.92,17.07|CS|NC|N|Click on the shrine inside the cave to place the bones here.|
-F Deliverance Point|QID|47067|M|49.67,21.06|N|At Izal Whitemoon.|ACTIVE|47067|
 T The Shadow of the Sentinax|QID|46935|M|44.43,62.33|N|To Warmage Kath'leen. Once you turn this in, you can farm Nethershards under the Sentinax endlessly if desired. Several items will drop to extend the farming. The sentinax location varies and can be seen on your zone map.|
 T Legionfall Supplies|QID|46286|M|44.57,63.23|N|To Commander Chambers.|
 A Begin Construction|QID|46245|M|44.57,63.23|N|From Commander Chambers.|PRE|46286|
 C Begin Construction|QID|46245|M|44.56,63.07|N|Click on the construction table to donate Legionfall Supplies to your choice of buildings.|
 T Begin Construction|QID|46245|M|44.56,63.07|N|To Commander Chambers.|
-T Seeking Lost Knowledge|QID|47067|M|44.73,63.29|N|To Archmage Khadgar.|
-; QID 47067 may be obsolete, [Delivering Lost Knowledge]x12 probably is too.
-A Delivering Lost Knowledge|QID|46809^47069^47070^47071^47072^47073^47074^47075^47076^47077^47078^47079|M|44.73,63.29|N|From Archmage Khadgar.|PRE|47067|
+A Delivering Lost Knowledge|QID|46809^47069^47070^47071^47072^47073^47074^47075^47076^47077^47078^47079|M|44.73,63.29|N|From Archmage Khadgar.|
 A Cathedral of Eternal Night: Altar of the Aegis|QID|46244|M|44.75,63.29|N|From Archmage Khadgar.|PRE|46286|
 t Cathedral of Eternal Night: Altar of the Aegis|QID|46244|M|44.75,63.29|N|To Archmage Khadgar.|
 t Defending Broken Isles|QID|46247|M|44.54,63.55|N|To Maiev Shadowsong.|
@@ -212,10 +205,10 @@ T Delivering Lost Knowledge|QID|47069|M|46.71,46.69|Z|MonkOrderHallTheWanderingI
 A Using Lost Knowledge|QID|46940|M|46.71,46.69|Z|MonkOrderHallTheWanderingIsle|C|Monk|N|From Lorewalker Cho.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|46.71,46.69|Z|MonkOrderHallTheWanderingIsle|C|Monk|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|46.71,46.69|Z|MonkOrderHallTheWanderingIsle|C|Monk|N|To Lorewalker Cho.|
-T Delivering Lost Knowledge|QID|47071|M|37.94,57.37|Z|Eastern Plaguelands/20|C|Paladin|N|To Sister Elda back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands/20|C|Paladin|N|From Sister Elda.|PRE|47075|
-C Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands/20|C|Paladin|NC|N|Start a Research Work Order|
-T Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands/20|C|Paladin|N|To Sister Elda.|
+T Delivering Lost Knowledge|QID|47071|M|37.94,57.37|Z|Eastern Plaguelands|C|Paladin|N|To Sister Elda back in your order hall.|
+A Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands|C|Paladin|N|From Sister Elda.|PRE|47075|
+C Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands|C|Paladin|NC|N|Start a Research Work Order|
+T Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands|C|Paladin|N|To Sister Elda.|
 T Delivering Lost Knowledge|QID|47077|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|N|To Juvess the Duskwhisperer back in your order hall.|
 A Using Lost Knowledge|QID|46940|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|N|From Juvess the Duskwhisperer.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|NC|N|Start a Research Work Order|

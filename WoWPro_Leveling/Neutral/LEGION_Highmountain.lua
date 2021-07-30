@@ -517,11 +517,11 @@ A The Underking|QID|39780|M|53.16,68.77|N|From Lasan Skyhorn.|PRE|40594|
 C The Underking|QID|39780|M|53.20,70.02|QO|1|NC|N|Meet with Mayla Highmountain.|
 C The Underking|QID|39780|M|53.06,70.56|QO|2|N|Kill Wrath of Dargrul.|
 T The Underking|QID|39780|M|53.19,70.04|N|To Mayla Highmountain.|
-A Neltharion's Lair|QID|39781|M|53.19,70.04|N|From Mayla Highmountain. This is a dungeon quest that you will need a group to complete.|PRE|39780|
+A Neltharion's Lair: Death to the Underking|QID|39781|M|53.19,70.04|N|From Mayla Highmountain. This is a dungeon quest that you will need a group to complete.|PRE|39780|
 $ Treasure Chest|QID|42453|M|52.54,66.37|N|Loot for some treasure and resources.|RANK|2|
-C Neltharion's Lair|QID|39781|N|Queue or gather some friends if you wanna do this. The quest bit is dropped (on the ground) after killing the final boss in the instance.|
-T Neltharion's Lair|QID|39781|M|18.67,55.75|Z|NeltharionsLair|N|To Hammer of Khaz'goroth.|
-A Eye of Azshara: The Hammer of Khez'goroth|QID|42454|M|18.67,55.75|Z|NeltharionsLair|N|From Hammer of Khaz'goroth.|PRE|39781|
+C Neltharion's Lair: Death to the Underking|QID|39781|N|Queue or gather some friends if you wanna do this. The quest bit is dropped (on the ground) after killing the final boss in the instance.|
+T Neltharion's Lair: Death to the Underking|QID|39781|M|18.67,55.75|Z|NeltharionsLair|N|To Hammer of Khaz'goroth.|
+A The Hammer of Khaz'goroth|QID|42454|M|18.67,55.75|Z|NeltharionsLair|N|From Hammer of Khaz'goroth.|PRE|39781|
 R Howling Hills|QID|39386|M|56.06,57.75|N|Just a couple of optional quests left.|RANK|2|FLY|LEGION|
 T Procuring a Prototype|QID|39386|M|57.64,56.61|N|To Razik Gazbolt.|RANK|2|
 A Critter Scatter Shot|QID|39670|M|57.64,56.61|N|From Razik Gazbolt.|RANK|2|
@@ -539,8 +539,8 @@ $ Optional-Toy|QID|39824|M|55.7,53.2;53.61,51.04|CS|ITEM|131811|U|131927|N|If yo
 C Wolf Pack Attack|QID|39656|M|56.14,55.43|US|U|128651|T|Icefang Packleader|N|Shoot the hand cannon towards a pack of wolves to distract them, then kill the Packleader.|RANK|2|
 T Wolf Pack Attack|QID|39656|M|57.64,56.61|N|To Razik Gazbolt.|RANK|2|
 N End of Highmountain|QID|42454|U|140192|N|Return to your Dalaran and then Class Order Hall to pick your next zone and tend to your missions.|
-C Eye of Azshara: The Hammer of Khaz'goroth|QID|42454|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used|
-T Eye of Azshara: The Hammer of Khaz'goroth|QID|42454|M|41.17,52.45|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Hammer of Khaz'goroth" on the wall.|
+C The Hammer of Khaz'goroth|QID|42454|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used|
+T The Hammer of Khaz'goroth|QID|42454|M|41.17,52.45|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Hammer of Khaz'goroth" on the wall.|
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 

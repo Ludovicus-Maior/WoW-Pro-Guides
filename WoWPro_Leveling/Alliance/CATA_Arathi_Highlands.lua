@@ -88,7 +88,7 @@ T Breaking the Keystone|QID|26042|M|30.11,59.74|N|To the Keystone. When you turn
 A Myzrael's Tale|QID|26346|PRE|26042|RANK|1|M|30.01,59.18|N|From the Stone of Inner Binding.|
 H Refuge Pointe|QID|26346|N|Run (or Heathstone) to Refuge Pointe.|M|40.26,49.07|
 T Myzrael's Tale|QID|26346|M|40.26,49.07|N|To Skuerto.|
-A The Princess Unleashed: Group [2] Quest|QID|26049|PRE|26346|RANK|1|M|40.26,49.07|N|From Skuerto. This quest is suggested for [2] players.|
+A The Princess Unleashed|QID|26049|PRE|26346|RANK|1|M|40.26,49.07|N|From Skuerto. This quest is suggested for [2] players.|
 C The Princess Unleashed|QID|26049|U|4472|M|57.56,34.99|N|Head to the Shards of Myzrael, then use the Scroll of Myzrael to summon her. Defeat her and loot. She's a level 30 Elite with 5,730 HP so you may need a second player to help.|
 T The Princess Unleashed|QID|26049|M|57.26,34.61|N|To the Shard of Myzrael.|
 A Hero's Call: The Hinterlands!|QID|26542|RANK|1|M|40,48.8|N|If you intend to progress onto Hinterlands, accept this Breadcrumb Quest. From Captain Nials.|

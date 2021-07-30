@@ -121,9 +121,9 @@ T An Audience with the Highlord|QID|27002|M|42.04,14.64|N|To Highlord Tirion For
 A Taelan Fordring's Legacy|QID|27151|PRE|27002|M|42.19,14.98|N|From Daria L'Rayne.|
 C It's About Time!|QID|27156|M|43.09,16.33|N|Head outside the keep, then talk to Trainees. Challenge and beat them.|
 T It's About Time!|QID|27156|M|43.28,15.96|N|To Lieutenant Myner.|
-A Drudges...|QID|27157|PRE|27156|M|43.28,15.96|N|From Lieutenant Myner.|
-C Drudges...|QID|27157|M|45.86,12.31;45.37,9.73|CS|N|Enter the mine. Kill the *ew* huge spider.|
-T Drudges...|QID|27157|M|43.27,15.91|N|To Lieutenant Myner.|
+A Drudges... <Sigh>|QID|27157|PRE|27156|M|43.28,15.96|N|From Lieutenant Myner.|
+C Drudges... <Sigh>|QID|27157|M|45.86,12.31;45.37,9.73|CS|N|Enter the mine. Kill the *ew* huge spider.|
+T Drudges... <Sigh>|QID|27157|M|43.27,15.91|N|To Lieutenant Myner.|
 C Taelan Fordring's Legacy|QID|27151|M|54.78,24.69|N|Kill the Redpine Looters.|
 T Taelan Fordring's Legacy|QID|27151|M|54.99,24.73|N|(UI Alert)|
 A Unusual Behavior... Even For Gnolls|QID|27152|PRE|27151|M|54.99,24.73|N|(UI Alert)|
