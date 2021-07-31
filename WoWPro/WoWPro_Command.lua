@@ -39,13 +39,15 @@ local function handler(msg, editbox)
             local text = ("Player at %.2f,%.2f/%s@%q aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
             _G.ChatFrame1:AddMessage(text)
         end
-		local pos = _G.C_Map.GetPlayerMapPosition(mapId, "player")
-		local areaIDs = _G.C_MapExplorationInfo.GetExploredAreaIDsAtPosition(mapId, pos)
-		if areaIDs then
-			for i, areaID in ipairs(areaIDs) do
-				local name = _G.C_Map.GetAreaInfo(areaID)
-				if name then
-					print(name .. ": " .. areaID)
+		if mapId then
+			local pos = _G.C_Map.GetPlayerMapPosition(mapId, "player")
+			local areaIDs = _G.C_MapExplorationInfo.GetExploredAreaIDsAtPosition(mapId, pos)
+			if areaIDs then
+				for i, areaID in ipairs(areaIDs) do
+					local name = _G.C_Map.GetAreaInfo(areaID)
+					if name then
+						print(name .. ": " .. areaID)
+					end
 				end
 			end
 		end
