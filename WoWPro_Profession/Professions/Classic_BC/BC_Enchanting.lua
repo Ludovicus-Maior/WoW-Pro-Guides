@@ -235,12 +235,12 @@ B [item=23571/Primal Might]|QID|333032665|ITEM|23571|N|You'll need 1 Primal Migh
 M [item=22462/Runed Adamantite Rod]|QID|333032665|P|Enchanting;333;0+366;1|ITEM|22462|CRAFT|32665 1|MATS|25844 1;22446 8;22449 8;23571 1;22461 1|
 N Last Few Levels|QID|333000020|P|Enchanting;333;0+366|N|For your last few levels, you can either make just whatever is still Yellow for you, or chase two different Enchant, that require Honored with Keepers of Time or Revered with the Consortium (Inside Karazhan).[color=FF0000]NOTE: [/color]BOP! Both will be listed next, IF you have the required Reputation.|
 B [spell=27924/Enchant Ring - Spellpower]|QID|333027924|M|63.6,57.6|Z|1446;Tanaris|P|Enchanting;333;0|RECIPE|27924|L|22536 1|N|Purchase [item=22536/Formula - Enchant Ring - Spellpower] from Alurmi, Caverns of Time.|REP|Keepers of Time;989;Honored-Exalted|
-U Learn Recipe|QID|333027924|P|Enchanting;333;0+366|RECIPE|27924|U|22536|N| Learn [spell=27924/Enchant Ring - Spellpower] Recipe from [item=22536/Formula - Enchant Ring - Spellpower].|
+U Learn Recipe|QID|333027924|P|Enchanting;333;0+366|RECIPE|27924|U|22536|N|Learn [spell=27924/Enchant Ring - Spellpower] Recipe from [item=22536/Formula - Enchant Ring - Spellpower].|
 M Enchant Ring - Spellpower|QID|333027924|P|Enchanting;333;0+375;1|CRAFT|27924 12|MATS|22449 2;22446 2|
 B [spell=27920/Enchant Ring - Striking]|QID|333027920|Z|Karazhan|P|Enchanting;333;0|RECIPE|27920|L|22535 1|N|Purchase [item=22535/Formula - Enchant Ring - Striking] from Ythyar, Karazhan Dungeon, just before the Chess Event.|REP|The Consrtium;933;Honored-Exalted|
 ; REPEATING So (hopefully) it will SHOW up, if you are in Karazhan.
 B [spell=27920/Enchant Ring - Striking]|QID|333027920|Z|Karazhan|IZ|3457;Karazhan|P|Enchanting;333;0|RECIPE|27920|L|22535 1|N|Purchase [item=22535/Formula - Enchant Ring - Striking] from Ythyar, Karazhan Dungeon, just before the Chess Event.|REP|The Consortium;933;Honored-Exalted|
-U Learn Recipe|QID|333027920|P|Enchanting;333;0+366|RECIPE|27924|U|22536|N| Learn [spell=27920/Enchant Ring - Striking] Recipe from [item=22535/Formula - Enchant Ring - Striking].|
+U Learn Recipe|QID|333027920|P|Enchanting;333;0+366|RECIPE|27924|U|22536|N|Learn [spell=27920/Enchant Ring - Striking] Recipe from [item=22535/Formula - Enchant Ring - Striking].|
 M Enchant Ring - Striking|QID|333027920|P|Enchanting;333;0+375;1|CRAFT|27920 12|MATS|22449 2;22445 6|
 
 N Congratulations|QID|333000010|N|You've reached at least 366 in Classic TBC Enchanting.|
