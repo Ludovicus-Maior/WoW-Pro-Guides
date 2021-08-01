@@ -230,7 +230,6 @@ A The Sacred Flame|QID|1195|M|54.74,51.41|Z|Thunder Bluff|N|From Zangen Stonehoo
 
 ; --- Hillsbrad Foothills
 F Orgrimmar|AVAILABLE|502|M|47.02,49.83|Z|Thunder Bluff|
-= Train|AVAILABLE|502|N|[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 R Leave Orgrimmar|AVAILABLE|502|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
 b Tirisfal Glades|AVAILABLE|502|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|
 R Undercity|AVAILABLE|502|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
@@ -272,6 +271,7 @@ K Battle of Hillsbrad|ACTIVE|529|QO|2|N|Finish killing the Hillsbrad Apprentice 
 C Souvenirs of Death|QID|546|M|33.03,46.78|Z|Hillsbrad Foothills|L|3692 30|N|Finish collecting the Hillsbrad Human Skulls.\n[color=FF0000]NOTE: [/color]The Peasants, Blacksmiths, and Footmen offer the best drop rate; Farmers and Farmhands offer the worst. Your results may vary.|US|
 R Tarren Mill|ACTIVE|529|M|61.35,20.04|Z|Hillsbrad Foothills|N|Return to Tarren Mill.|
 T Battle of Hillsbrad|QID|529|M|62.29,20.31|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad|QID|532|M|62.29,20.31|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 
 ; --- Undercity
 F Undercity|ACTIVE|513|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
@@ -292,6 +292,11 @@ T Warsong Saw Blades|QID|6581|M|73.07,61.48|Z|Ashenvale|N|To Pixel.|
 A Stonetalon Standstill|QID|25|M|73.67,60.01|Z|Ashenvale|N|From Mastok Wrilehiss.|
 A Ashenvale Outrunners|QID|6503|M|71.11,68.12|Z|Ashenvale|N|From Kuray'bin.|
 A The Lost Pages|QID|6504|M|70.01,71.15|Z|Ashenvale|N|From Gurda Ragescar.|
+; Every time you return to Splintertree, these steps will show until you complete them
+l Chapter 1|ACTIVE|6504|L|16642|N|Combine Pages 1-4|U|16645|S|NC|IZ|Splintertree Post^Nightsong Woods|
+l Chapter 2|ACTIVE|6504|L|16643|N|Combine Pages 5-8|U|16649|S|NC|IZ|Splintertree Post^Nightsong Woods|
+l Chapter 3|ACTIVE|6504|L|16644|N|Combine Pages 9-12|U|16653|S|NC|IZ|Splintertree Post^Nightsong Woods|
+t The Lost Pages|QID|6504|M|70.01,71.15|Z|Ashenvale|N|To Gurda Ragescar.|IZ|Splintertree Post^Nightsong Woods|
 K Ashenvale Outrunners|ACTIVE|6503|M|73.65,72.01|Z|Ashenvale|QO|1|N|Kill Ashenvale Outrunners. They are stealthed and spread out around amongst the trees. You will hear a sound when you're close to one and they are somewhat visible.|S|
 R The Dor'Danil Barrow Den|QID|2|M|72.85,70.56|Z|Ashenvale|
 K Sharptalon|AVAILABLE|2|M|71.48,70.03;76.85,68.01|Z|Ashenvale|CN|L|16305|N|Sharptalon is a lv 31 blue hippogryph that paths through the area. He is part of the 'Ashenvale Hunt' quest with a respawn rate of @ 15-20 minutes.\n[color=FF0000]NOTE: [/color]If you draw him towards the Forsaken by the tents, they'll help you kill him. At your current level, this may be your only choice.|PRE|6383|
@@ -352,46 +357,67 @@ C Freedom to Ruul|QID|6482|M|40.00,31.98;38.48,36.53;38.57,37.21|Z|Ashenvale|CC|
 K Between a Rock and a Thistlefur|ACTIVE|216|M|33.26,39.43|Z|Ashenvale|QO|1;2|N|Finish killing Thistlefur Avengers and Shaman. No need to focus on one area as you'll find plenty on your way out.|US|
 R The Zoram Strand|ACTIVE|216^6462|M|13.48,32.21|Z|Ashenvale|N|Run back to Zoram'gar Outpost. Feel free to take whatever path you desire.\n[color=FF0000]NOTE: [/color]Take this opportunity to do some grinding for exp and 'Lost Pages'|
 T Between a Rock and a Thistlefur|QID|216|M|11.91,34.52|Z|Ashenvale|N|To Karang Amakkar.|
-A King of the Foulweald|QID|6621|M|11.91,34.52|Z|Ashenvale|N|From Karang Amakkar.\n[color=FF0000]NOTE: [/color]This quest is considered an 'unmarked group quest' at lower levels. Only accept this quest if you need the exp.|PRE|216|RANK|3|
+A King of the Foulweald|QID|6621|M|11.91,34.52|Z|Ashenvale|N|From Karang Amakkar.\n[color=FF0000]NOTE: [/color]This quest is considered an 'unmarked group quest' at lower levels This may be difficult for some classes to solo.\nSkip this quest if you don't need the exp.|PRE|216|RANK|3|
 T Troll Charm|QID|6462|M|11.69,34.81|Z|Ashenvale|N|To Mitsuwa.|
 F Splintertree Post|ACTIVE|6621|M|12.24,33.80|Z|Ashenvale|N|The next quest is quicker if you start from there.|
 T Freedom to Ruul|QID|6482|M|74.12,60.91|Z|Ashenvale|N|To Yama Snowhoof.|
+A Destroy the Legion|QID|9534|M|73.23,60.39|Z|Ashenvale|N|From Valusha.|
 R Greenpaw Village|ACTIVE|6621|M|64.3,70.4;58.4,61.4;56.89,62.47|Z|Ashenvale|CC|
 C King of the Foulweald|QID|6621|M|56.37,63.51|Z|Ashenvale|N|Use Karang's Banner on the Foulweald Totem Mound located at the east end of the village.|U|16972|
-
+R Felfire Hill|ACTIVE|9534|M|75.3,65.6;79.94,68.39|Z|Ashenvale|CC|N|Make your way back to the main road and follow it east.|
+K Destroy the Legion|ACTIVE|9534|M|83.33,69.91|Z|Ashenvale|QO|2;3|N|The Roaming Felguard and Searing Infernal can be found all over Felfire Hill.\n[color=FF0000]NOTE: [/color]The Searing Infernal are immune to fire damage.|S|
+l Diabolical Plans|AVAILABLE|9535|L|23797|N|This item is dropped by one of the mobs in Felfire Hill/Demon Fall Canyon.|S|
+A Diabolical Plans|QID|9535|N|Click on the item to start the quest.|U|23797|O|
+K Destroy the Legion|ACTIVE|9534|M|84.20,77.28|Z|Ashenvale|QO|1|N|The Mannoroc Lasher can be found mostly in Demon Fall Canyon; in the mountains to the south of Felfire Hill. Focus on them first.\n[color=FF0000]NOTE: [/color]These mobs are level 29-30.|
+K Destroy the Legion|ACTIVE|9534|M|83.33,69.91|Z|Ashenvale|QO|2;3|N|Finish up killing the Roaming Felguard and Searing Infernal.\n[color=FF0000]NOTE: [/color]The Searing Infernal are immune to fire damage.|US|
+l Diabolical Plans|AVAILABLE|9535|L|23797|N|This item is dropped by one of the mobs in Felfire Hill/Demon Fall Canyon.\n[color=FF0000]NOTE: [/color]Skip this step if you want to leave.|US|
+R Splintertree Post|ACTIVE|9534|M|73.53,63.62|Z|Ashenvale|
+T Destroy the Legion|QID|9534|M|73.23,60.39|Z|Ashenvale|N|To Valusha.|
+T Diabolical Plans|QID|9535|M|73.23,60.39|Z|Ashenvale|N|To Valusha.|
+A Never Again!|QID|9536|M|73.23,60.39|Z|Ashenvale|N|From Valusha.|PRE|9535|
+R Felfire Hill|ACTIVE|9536|M|75.3,65.6;79.94,68.39|Z|Ashenvale|CC|
+R Demon Fall Canyon|ACTIVE|9536|M|84.63,74.55|Z|Ashenvale|N|Unlike earlier, follow the shoreline south to the mountain ridge and head east. This will save some time and fights.|
+K Gorgannon|ACTIVE|9536|M|84.4,77.3;87.6,78.9;89.82,76.65|Z|Ashenvale|CC|QO|1|N|Clear the Mannoroc Lashers around Gorgannon before attacking him.\n[color=FF0000]NOTE: [/color]If you wait and time his pathing, you can pull the 2 beside him solo.|
+R Demon Fall Ridge|ACTIVE|9536|M|82.60,77.90|Z|Ashenvale|N|Head back down the ramp to the road and follow it south to the ramp on the west side.\n[color=FF0000]NOTE: [/color]Look for the little 'lights' that lead up the ramp.|
+K Diathorus the Seeker|ACTIVE|9536|M|78.3,81.8;78.54,84.88|Z|Ashenvale|CC|QO|2|N|Follow the ramp up until you reach the camp. Enter the building on the other side of the camp and make your way down the ramp to the bridge at the bottom where Diathorus is located.|
 N The Lost Pages|ACTIVE|6504|N|At this point in time, take a look at which pages you have. You have 2 chooses now. You can either grind until you get them, or just buy them from the AH in Orgrimmar.\nSeeing as you probably don't want to spend too much time looking for them, we're off to Orgrimmar.\nUse this opportunity to AH any extra pages you may have.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
 ; --- Orgrimmar
-F Orgrimmar|ACTIVE|6504|M|12.24,33.80|Z|Ashenvale|
-C Chapter 1|QID|6504|QO|1|L|16642|N|Combine Pages 1-4|U|16645|NC|
-C Chapter 2|QID|6504|QO|2|L|16643|N|Combine Pages 5-8|U|16649|NC|
-C Chapter 3|QID|6504|QO|3|L|16644|N|Combine Pages 9-12|U|16653|NC|
+H Orgrimmar|ACTIVE|6504^9536|N|If your hearthstone is on CD, you'll have to foot it back to Splintertree Post.|
+F Orgrimmar|ACTIVE|6504|M|12.24,33.80|Z|Ashenvale|IZ|Splintertree Post|
+l Chapter 1|ACTIVE|6504|L|16642|N|Combine Pages 1-4|U|16645|US|NC|
+l Chapter 2|ACTIVE|6504|L|16643|N|Combine Pages 5-8|U|16649|US|NC|
+l Chapter 3|ACTIVE|6504|L|16644|N|Combine Pages 9-12|U|16653|US|NC|
 
 ; --- Ashenvale
-F Splintertree Post|ACTIVE|6571^6504^6482|M|45.50,63.84|Z|Orgrimmar|N|Back to Ashenvale.|
-t The Lost Pages|QID|6504|M|70.01,71.15|Z|Ashenvale|N|To Gurda Ragescar.|IZ|Splintertree Post|
+F Splintertree Post|ACTIVE|6504^9536|M|45.50,63.84|Z|Orgrimmar|N|Back to Ashenvale.|IZ|Orgrimmar|
+F Splintertree Post|ACTIVE|6504^9536|N|Back to Ashenvale.|IZ|-Orgrimmar|
+T Never Again!|QID|9536|M|73.23,60.39|Z|Ashenvale|N|To Valusha.|
+F Zoram'gar Outpost|ACTIVE|6621|M|73.18,61.59|Z|Ashenvale|
+T King of the Foulweald|QID|6621|M|11.91,34.52|Z|Ashenvale|N|To Karang Amakkar.|
 ;L Level 30|QID|1088|LVL|30|N|You should be around level 30 by this point.|
 
 ; --- Stonetalon Mountains
-F Sun Rock Retreat|ACTIVE|1088|M|73.18,61.59|Z|Ashenvale|
-T Ordanus|QID|1088|M|45.95,60.43|N|To Braelyn Firehand.|
-R The Charred Vale|QID|6283|ACTIVE|6283|M|34.51,60.13|CC|N|Choose your own path to get there. I suggest going over the mountain.|
-K Bloodfury Bloodline|ACTIVE|6283|M|30.71,61.15|CC|QO|1|N|Clear any potential adds in the area. When you're ready, kill Bloodfury Ripper and loot her remains. She paths around a little. I highly recommend kiting her into the mountains away from the others.\n[color=FF0000]NOTE: [/color]She is a level 26 Elite with a 5 minute respawn timer.|
-L Level 30|QID|6283|N|You'll want to grind out and be within 1 bubble of level 30 before leaving the area. |C|Priest,Warlock|LVL|30;-2100|
-R Sun Rock Retreat|ACTIVE|6283|M|49.58,60.99|N|Head back to Sun Rock Retreat.|
+F Sun Rock Retreat|ACTIVE|1088|M|12.24,33.80|Z|Ashenvale|IZ|Zoram'gar Outpost|
+F Sun Rock Retreat|ACTIVE|1088|IZ|-Zoram'gar Outpost|
+T Ordanus|QID|1088|M|45.95,60.43|N|To Braelyn Firehand.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
+R The Charred Vale|ACTIVE|6283|M|34.51,60.13|N|Choose your own path to get there. I suggest going over the mountain.|
+K Bloodfury Bloodline|ACTIVE|6283|M|30.71,61.15|QO|1|N|Clear any potential adds in the area. When you're ready, kill Bloodfury Ripper and loot her remains. She paths around a little. I highly recommend kiting her into the mountains away from the others.|
+L Level 30|QID|6283|N|You'll want to grind out and be within 1 bubble of level 30 before leaving the area. |C|Priest,Warlock|LVL|29;-2100|
+R Sun Rock Retreat|ACTIVE|6283|M|38.0,68.1;49.58,60.99|CC|N|Head back to Sun Rock Retreat.|
 T Bloodfury Bloodline|QID|6283|M|47.20,61.16|N|To Maggran Earthbinder.|
 
 ; --- Silverpine Forest
-F Orgrimmar|QID|442|M|45.13,59.84|
+F Orgrimmar|ACTIVE|532|M|45.13,59.84|
 C Strong Troll's Blood Potion|AVAILABLE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
 C Strong Troll's Blood Potion|ACTIVE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
-b Tirisfal Glades|QID|442|M|50.88,13.83|Z|Durotar|N|Exit Orgrimmar through the south gate take the Zepplin to Tirisfal Glades.|
-R Undercity|QID|442|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
+= Level 30 Training|AVAILABLE|532|N|[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+b Tirisfal Glades|ACTIVE|532^515|M|50.88,13.83|Z|Durotar|N|Exit Orgrimmar through the south gate take the Zepplin to Tirisfal Glades.|
+R Undercity|ACTIVE|532^515|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
 A Elixir of Agony|QID|515|M|48.80,69.28|Z|Undercity|N|From Master Apothecary Faranell.|PRE|513|
 
 ; --- Hillsbrad Foothills
-F Tarren Mill|QID|515|M|45.62,42.59|Z|Silverpine Forest|
-A Battle of Hillsbrad|QID|532|M|62.29,20.31|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
+F Tarren Mill|ACTIVE|515|M|63.26,48.54|Z|Undercity|
 R Hillsbrad Fields|ACTIVE|515^532^567|M|55.86,19.60;57.65,36.61;32.08,50.30|Z|Hillsbrad Foothills|CC|N|The Town Hall is contained within a wall that has only one entrance facing the main road. Your best bet is to approach from the south behind the Forge. You can pull the mobs out front towards you away from the road. You'll need to clear a path to the Town Hall.\n[color=FF0000]NOTE: [/color]Make sure you clear the patrolers before moving forward.|
 N Clerk Horrace Whitesteed|ACTIVE|567|N|He is not alone and you'll have to clear the room slowly to avoid getting overwhelmed with adds. You will have to pull the 2 mobs on the left side of the room from the entrance. The moment you enter the room, you will aggro everyone. I recommend using the front foyer as a pull area. Put as much distance between the main room and the runner as possible; and they will run. This will limit the chance of runners making it worse for you.\nIMO, because of the way it's set up, this one is the toughest of all 4.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Battle of Hillsbrad|QID|532|QO|2|N|Kill Hillsbrad Councilmen.|S|
