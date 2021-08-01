@@ -96,8 +96,8 @@ A Blood of Innocents|QID|1066|M|61.44,19.06|Z|Hillsbrad Foothills|N|From Apothec
 T Journey to Hillsbrad Foothills|QID|493|M|61.44,19.06|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
 A Elixir of Pain|QID|501|M|61.44,19.06|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
 A Elixir of Suffering|QID|496|M|61.44,19.06|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
-T Time To Strike|QID|494|M|62.28,20.25|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Battle of Hillsbrad|QID|527|M|62.28,20.25|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
+T Time To Strike|QID|494|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad|QID|527|M|62.28,20.28|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 A WANTED: Syndicate Personnel|QID|549|M|62.62,20.73|Z|Hillsbrad Foothills|N|From the Wanted post beside the Chapel entrance.|
 A The Rescue|QID|498|M|63.20,20.66|Z|Hillsbrad Foothills|N|From Krusk.|
 C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears for their Tongue.|S|IZ|-Durnholde Keep| ; Durnholde Keep doesn't have an AreaID
@@ -113,7 +113,7 @@ C The Rescue|QID|498|M|77.4,42.8;76.2,39.5;75.3,39.1;75.33,41.49|Z|Hillsbrad Foo
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|US|
 K WANTED: Syndicate Personnel|ACTIVE|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|US|
 R Tarren Mill|ACTIVE|549|M|62.38,28.44|Z|Hillsbrad Foothills|
-T WANTED: Syndicate Personnel|QID|549|M|62.29,20.27|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+T WANTED: Syndicate Personnel|QID|549|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 T The Rescue|QID|498|M|63.24,20.66|Z|Hillsbrad Foothills|N|To Krusk.|
 T Blood of Innocents|QID|1066|M|61.45,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
 A Return to Thunder Bluff|QID|1067|M|61.45,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|1066|
@@ -270,8 +270,8 @@ l Battle of Hillsbrad|ACTIVE|529|M|32.01,45.44|Z|Hillsbrad Foothills|QO|3|N|As s
 K Battle of Hillsbrad|ACTIVE|529|QO|2|N|Finish killing the Hillsbrad Apprentice Blacksmiths.|US|
 C Souvenirs of Death|QID|546|M|33.03,46.78|Z|Hillsbrad Foothills|L|3692 30|N|Finish collecting the Hillsbrad Human Skulls.\n[color=FF0000]NOTE: [/color]The Peasants, Blacksmiths, and Footmen offer the best drop rate; Farmers and Farmhands offer the worst. Your results may vary.|US|
 R Tarren Mill|ACTIVE|529|M|61.35,20.04|Z|Hillsbrad Foothills|N|Return to Tarren Mill.|
-T Battle of Hillsbrad|QID|529|M|62.29,20.31|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Battle of Hillsbrad|QID|532|M|62.29,20.31|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
+T Battle of Hillsbrad|QID|529|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad|QID|532|M|62.28,20.28|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 
 ; --- Undercity
 F Undercity|ACTIVE|513|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
@@ -418,22 +418,22 @@ A Elixir of Agony|QID|515|M|48.80,69.28|Z|Undercity|N|From Master Apothecary Far
 
 ; --- Hillsbrad Foothills
 F Tarren Mill|ACTIVE|515|M|63.26,48.54|Z|Undercity|
-R Hillsbrad Fields|ACTIVE|515^532^567|M|55.86,19.60;57.65,36.61;32.08,50.30|Z|Hillsbrad Foothills|CC|N|The Town Hall is contained within a wall that has only one entrance facing the main road. Your best bet is to approach from the south behind the Forge. You can pull the mobs out front towards you away from the road. You'll need to clear a path to the Town Hall.\n[color=FF0000]NOTE: [/color]Make sure you clear the patrolers before moving forward.|
-N Clerk Horrace Whitesteed|ACTIVE|567|N|He is not alone and you'll have to clear the room slowly to avoid getting overwhelmed with adds. You will have to pull the 2 mobs on the left side of the room from the entrance. The moment you enter the room, you will aggro everyone. I recommend using the front foyer as a pull area. Put as much distance between the main room and the runner as possible; and they will run. This will limit the chance of runners making it worse for you.\nIMO, because of the way it's set up, this one is the toughest of all 4.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-C Battle of Hillsbrad|QID|532|QO|2|N|Kill Hillsbrad Councilmen.|S|
-K Clerk Horrace Whitesteed|QID|567|M|30.08,42.01|Z|Hillsbrad Foothills|QO|1|N|Kill Clerk Horrace Whitesteed inside the Townhall. He's just inside the main room against the near wall to the right of the doorway.|
-C Magistrate Burnside|QID|532|M|29.65,41.70|Z|Hillsbrad Foothills|QO|1;3;4|N|Kill Magistrate Burnside standing at the pulpit inside the townhall.|
-C Battle of Hillsbrad|QID|532|M|29.65,41.70|Z|Hillsbrad Foothills|QO|3|N|Destroy the Hillsbrad Proclamation on the railing.|NC|
-C Battle of Hillsbrad|QID|532|M|29.59,41.64|Z|Hillsbrad Foothills|QO|4|N|Destroy the Hillsbrad Town Registry on the floor by the book shelf in the corner.|NC|
-C Battle of Hillsbrad|QID|532|QO|2|N|Finish killing Hillsbrad Councilmen.|US|
-K Citizen Wilkes|QID|567|QO|2|N|Kill Citizen Wilkes. He patrols the north branch of the main road in Hillsbrad Fields from the Forge up to the last house; stopping briefly at each building as he passes.\n[color=FF0000]NOTE: [/color]Being that this the last time you will be here, go find him.|US|
-R Tarren Mill|QID|532|M|32.08,50.30;57.65,36.61;55.86,19.60|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill. If you wish to do some grinding, run through the grass area.|
-T Battle of Hillsbrad|QID|532|M|62.22,20.33|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Battle of Hillsbrad|QID|539|M|62.22,20.33|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|532|
-R Azurelode Mine|QID|567|M|27.50,59.30|Z|Hillsbrad Foothills|N|Run to the upper entrance of Azurelode Mine.|
+R Hillsbrad Fields|ACTIVE|515^532^567|M|31.94,48.33|Z|Hillsbrad Foothills|N|The Town Hall is contained within a wall that has only one entrance facing the main road. Your best bet is to approach from the south behind the Forge. You can pull the mobs out front towards you away from the road. You'll need to clear a path to the Town Hall.\n[color=FF0000]NOTE: [/color]Make sure you clear the patrolers before moving forward.|
+K Battle of Hillsbrad|ACTIVE|532|QO|2|N|Kill Hillsbrad Councilmen.|S|
+K Clerk Horrace Whitesteed|ACTIVE|567|M|30.08,42.01|Z|Hillsbrad Foothills|QO|1|N|Kill Clerk Horrace Whitesteed inside the Townhall. He's just inside the main room against the near wall to the right of the doorway.|T|Clerk Horrace Whitesteed|
+K Magistrate Burnside|ACTIVE|532|M|29.65,41.70|Z|Hillsbrad Foothills|QO|1;3;4|N|Kill Magistrate Burnside standing at the pulpit inside the townhall.|T|Magistrate Burnside|
+C Battle of Hillsbrad|QID|532|M|29.73,41.75|Z|Hillsbrad Foothills|QO|3|N|Destroy the Hillsbrad Proclamation on the railing.|NC|
+C Battle of Hillsbrad|QID|532|M|29.53,41.53|Z|Hillsbrad Foothills|QO|4|N|Destroy the Hillsbrad Town Registry on the floor by the book shelf in the corner.|NC|
+K Battle of Hillsbrad|ACTIVE|532|QO|2|N|Finish killing Hillsbrad Councilmen.|US|
+K Citizen Wilkes|ACTIVE|567|QO|2|N|Kill Citizen Wilkes. He patrols the north branch of the main road in Hillsbrad Fields from the Forge up to the last house; stopping briefly at each building as he passes.\n[color=FF0000]NOTE: [/color]Being that this the last time you will be here, go find him.|US|
+R Tarren Mill|ACTIVE|532|M|56.35,19.60|Z|Hillsbrad Foothills|
+T Battle of Hillsbrad|QID|532|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad|QID|539|M|62.28,20.28|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|532|
+R Azurelode Mine|ACTIVE|539^567|M|27.50,59.30|Z|Hillsbrad Foothills|N|Run to the upper entrance of Azurelode Mine.|
 C Battle of Hillsbrad|QID|539|QO|2|N|Kill Hillsbrad Miners. This shouldn't take long, as they're everywhere.|S|
-K Miner Hackett|QID|567|M|27.27,58.63;28.61,52.80;29.77,54.13;29.78,55.63;29.94,54.58|Z|Hillsbrad Foothills|CC|QO|3|N|Work your way inside the mine and kill Miner Hackett. Clear any potential adds before you attack him.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds is located. If you look over the ledge, you should see him below you.|
-C Battle of Hillsbrad|QID|539|M|31.22,55.76|Z|Hillsbrad Foothills|QO|1|N|Kill Foreman Bonds. Clear any potential adds before attacking him. Any added distractions will greatly reduce your chances of success.\n[color=FF0000]NOTE: [/color]When he is almost dead, two lv 29 guards will spawn. Be aware that they both will take turns interrupting any spellcasting. Focus on killing Foreman Bonds. Don't worry about dying once he is dead. You can resurrect outside the mine and go back in if you have to.|
+K Miner Hackett|QID|567|M|29.94,54.58|Z|Hillsbrad Foothills|CC|QO|3|N|[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots.|T|Miner Hackett|S|
+K Foreman Bonds|ACTIVE|539|M|31.22,55.76|Z|Hillsbrad Foothills|QO|1|N|Clear any potential adds before attacking him. Any added distractions will greatly reduce your chances of success.\n[color=FF0000]NOTE: [/color]When he is almost dead, two lv 29 guards will spawn. Be aware that they both will take turns interrupting any spellcasting. Focus on killing Foreman Bonds. Don't worry about dying once he is dead. You can resurrect outside the mine and go back in if you have to.|T|Foreman Bonds|
+K Miner Hackett|QID|567|M|29.94,54.58|Z|Hillsbrad Foothills|CC|QO|3|N|Work your way inside the mine and kill Miner Hackett. Clear any potential adds before you attack him.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds was located. If you look over the ledge, you should see him below you.|US|
 C Battle of Hillsbrad|QID|539|QO|2|N|Finish killing Hillsbrad Miners.|US|
 R Western Strand|QID|515|ACTIVE|515|M|25.00,63.79|Z|Hillsbrad Foothills|CC|N|Head east from the Azurelode Mine and then turn south towards the shoreline.|
 C Elixir of Agony|ACTIVE|515|L|3510 5|N|Working your way east along the coast, kill the Murlocs to collect Torn Fin Eyes.\nMuckdwellers are a better choice over Coastrunners (range attack).\nIf you prefer, you can do this in the water as you swim east.\n[color=FF0000]NOTE: [/color]Avoid letting the Coastrunners get to far away from you when they run, they will aggro another Murloc and range attack you.|
@@ -441,8 +441,8 @@ R Eastern Strand|ACTIVE|515|M|53.19,64.57|Z|Hillsbrad Foothills|N|Southshore is 
 C Elixir of Agony|ACTIVE|515|L|3509 5|N|Kill the Nagas to collect Daggerspine Scales.|
 R Tarren Mill|QID|515|M|62.81,41.59;63.31,29.84|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill.\nDepending on which end of Eastern Strand you are at, you can either follow the road north of you, or weave your way to the river and follow the EAST bank north. The Southshore guards will leave you alone as long as you don't go in the water.\n[color=FF0000]NOTE: [/color]IF YOU GO IN THE WATER, YOU WILL DIE!!!|
 T Elixir of Agony|QID|515|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
-T Dangerous!|QID|567|M|62.36,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-T Battle of Hillsbrad|QID|539|M|62.36,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
+T Dangerous!|QID|567|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+T Battle of Hillsbrad|QID|539|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Darthalia.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
 
 ; --- The Barrens
 H Orgrimmar|QID|5881|N|Hearth back to Orgrimmar to take care of training and anything else you wish to do before starting the next chapter.|
