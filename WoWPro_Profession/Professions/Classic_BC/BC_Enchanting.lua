@@ -91,30 +91,30 @@ B [spell=28022/Large Prismatic Shard]|QID|333000006|M|40.4,39.4|Z|1947;The Exoda
 N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 ; end of shopping list, and pre craft.
 
-= Learn [spell=7411/Enchanting]|QID|333007411|M|53.47,38.70|Z|1454;Orgrimmar|IZ|1637;Orgrimmar|SPELL|Enchanting;7411|LVL|5|N|Learn from Godan, in Orgrimmar.|FACTION|Horde|
-= Learn [spell=7411/Enchanting]|QID|333007411|M|62.6,60.6|Z|1458;Undercity|IZ|1497;Undercity|SPELL|Enchanting;7411|LVL|5|N|Learn from Malcomb Wynn, in Undercity.|FACTION|Horde|
-= Learn [spell=7411/Enchanting]|QID|333007411|M|45.0,38.4|Z|1456;Thunder Bluff|IZ|1638;Thunder Bluff|SPELL|Enchanting;7411|LVL|5|N|Learn from Mot Dawnstrider, in Thunder Bluff.|FACTION|Horde|
-= Learn [spell=7411/Enchanting]|QID|333007411|M|61.6,51.6|Z|1420;Tirisfal Glades|IZ|85;Tirisfal Glades|SPELL|Enchanting;7411|LVL|5|N|Learn from Vance Undergloom, in Brill, Tirisfal Glades.|FACTION|Horde|
-= Learn [spell=7411/Enchanting]|QID|333007411|M|70.0,24.6|Z|1954;Silvermoon City|IZ|3487;Silvermoon City|SPELL|Enchanting;7411|LVL|5|N|Learn from Sedana, in Silvermoon City.|FACTION|Horde|
-= Learn [spell=7411/Enchanting]|QID|333007411|M|43.2,63.8|Z|1453;Stormwind City|IZ|1519;Stormwind City|SPELL|Enchanting;7411|LVL|5|N|Learn from Betty Quin, in Stormwind City.|FACTION|Alliance|
-= Learn [spell=7411/Enchanting]|QID|333007411|M|60.4,45.0|Z|1455;Ironforge|IZ|1537;Ironforge|SPELL|Enchanting;7411|LVL|5|N|Learn from Thonys Pillarstone, in Ironforge.|FACTION|Alliance|
-= Learn [spell=7411/Enchanting]|QID|333007411|M|59.6,12.6|Z|1457;Darnassus|IZ|1657;Darnassus|SPELL|Enchanting;7411|LVL|5|N|Learn from Lalina Summermoon, in Darnassus.|FACTION|Alliance|
-= Learn [spell=7411/Enchanting]|QID|333007411|M|36.8,34.2|Z|1438;Teldrassil|IZ|141;Teldrassil|SPELL|Enchanting;7411|LVL|5|N|Learn from Alanna Raveneye, in Teldrassil.|FACTION|Alliance|
-= Learn [spell=7411/Enchanting]|QID|333007411|M|40.6,39.0|Z|1947;The Exodar|IZ|3557;The Exodar|SPELL|Enchanting;7411|LVL|5|N|Learn from Nahogg, in The Exodar.|FACTION|Alliance|
+= Learn [spell=7411/Enchanting]|QID|333007411|M|53.47,38.70|Z|1454;Orgrimmar|IZ|1454;Orgrimmar|SPELL|Enchanting;7411|LVL|5|N|Learn from Godan, in Orgrimmar.|FACTION|Horde|
+= Learn [spell=7411/Enchanting]|QID|333007411|M|62.6,60.6|Z|1458;Undercity|IZ|1458;Undercity|SPELL|Enchanting;7411|LVL|5|N|Learn from Malcomb Wynn, in Undercity.|FACTION|Horde|
+= Learn [spell=7411/Enchanting]|QID|333007411|M|45.0,38.4|Z|1456;Thunder Bluff|IZ|1456;Thunder Bluff|SPELL|Enchanting;7411|LVL|5|N|Learn from Mot Dawnstrider, in Thunder Bluff.|FACTION|Horde|
+= Learn [spell=7411/Enchanting]|QID|333007411|M|61.6,51.6|Z|1420;Tirisfal Glades|IZ|1420;Tirisfal Glades|SPELL|Enchanting;7411|LVL|5|N|Learn from Vance Undergloom, in Brill, Tirisfal Glades.|FACTION|Horde|
+= Learn [spell=7411/Enchanting]|QID|333007411|M|70.0,24.6|Z|1954;Silvermoon City|IZ|1954;Silvermoon City|SPELL|Enchanting;7411|LVL|5|N|Learn from Sedana, in Silvermoon City.|FACTION|Horde|
+= Learn [spell=7411/Enchanting]|QID|333007411|M|43.2,63.8|Z|1453;Stormwind City|IZ|1453;Stormwind City|SPELL|Enchanting;7411|LVL|5|N|Learn from Betty Quin, in Stormwind City.|FACTION|Alliance|
+= Learn [spell=7411/Enchanting]|QID|333007411|M|60.4,45.0|Z|1455;Ironforge|IZ|1455;Ironforge|SPELL|Enchanting;7411|LVL|5|N|Learn from Thonys Pillarstone, in Ironforge.|FACTION|Alliance|
+= Learn [spell=7411/Enchanting]|QID|333007411|M|59.6,12.6|Z|1457;Darnassus|IZ|1457;Darnassus|SPELL|Enchanting;7411|LVL|5|N|Learn from Lalina Summermoon, in Darnassus.|FACTION|Alliance|
+= Learn [spell=7411/Enchanting]|QID|333007411|M|36.8,34.2|Z|1438;Teldrassil|IZ|1438;Teldrassil|SPELL|Enchanting;7411|LVL|5|N|Learn from Alanna Raveneye, in Teldrassil.|FACTION|Alliance|
+= Learn [spell=7411/Enchanting]|QID|333007411|M|40.6,39.0|Z|1947;The Exodar|IZ|1947;The Exodar|SPELL|Enchanting;7411|LVL|5|N|Learn from Nahogg, in The Exodar.|FACTION|Alliance|
 = Learn [spell=7411/Enchanting]|QID|333007411|SPELL|Enchanting;7411|LVL|5|N|Learn from Trainers in Major City.|
 M Runed Copper Rod|QID|333007421|P|Enchanting;333;0+2;1|ITEM|6218|CRAFT|7421 1|MATS|6217 1;10940 1;10938 1||R|-Blood Elf|
 M Runed Copper Rod|QID|333007421|P|Enchanting;333;0+12;1|ITEM|6218|CRAFT|7421 1|MATS|6217 1;10940 1;10938 1|R|Blood Elf|
 M Enchant Bracers - Minor Health|QID|333007420|P|Enchanting;333;0+50;1|CRAFT|7420 48|MATS|10940 1|N|Or Disenchant any Green Quality items you have, then use this to finish off to level 50.|
-= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|53.47,38.70|Z|1454;Orgrimmar|IZ|1637;Orgrimmar|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Godan, in Orgrimmar.|FACTION|Horde|
-= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|62.6,60.6|Z|1458;Undercity|IZ|1497;Undercity|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Malcomb Wynn, in Undercity.|FACTION|Horde|
-= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|45.0,38.4|Z|1456;Thunder Bluff|IZ|1638;Thunder Bluff|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Mot Dawnstrider, in Thunder Bluff.|FACTION|Horde|
-= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|61.6,51.6|Z|1420;Tirisfal Glades|IZ|85;Tirisfal Glades|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Vance Undergloom, in Brill, Tirisfal Glades.|FACTION|Horde|
-= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|70.0,24.6|Z|1954;Silvermoon City|IZ|3487;Silvermoon City|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Sedana, in Silvermoon City.|FACTION|Horde|
-= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|43.2,63.8|Z|1453;Stormwind City|IZ|1519;Stormwind City|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Betty Quin, in Stormwind City.|FACTION|Alliance|
-= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|60.4,45.0|Z|1455;Ironforge|IZ|1537;Ironforge|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Thonys Pillarstone, in Ironforge.|FACTION|Alliance|
-= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|59.6,12.6|Z|1457;Darnassus|IZ|1657;Darnassus|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Lalina Summermoon, in Darnassus.|FACTION|Alliance|
-= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|36.8,34.2|Z|1438;Teldrassil|IZ|141;Teldrassil|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Alanna Raveneye, in Teldrassil.|FACTION|Alliance|
-= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|40.6,39.0|Z|1947;The Exodar|IZ|3557;The Exodar|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Nahogg, in The Exodar.|FACTION|Alliance|
+= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|53.47,38.70|Z|1454;Orgrimmar|IZ|1454;Orgrimmar|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Godan, in Orgrimmar.|FACTION|Horde|
+= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|62.6,60.6|Z|1458;Undercity|IZ|1458;Undercity|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Malcomb Wynn, in Undercity.|FACTION|Horde|
+= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|45.0,38.4|Z|1456;Thunder Bluff|IZ|1456;Thunder Bluff|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Mot Dawnstrider, in Thunder Bluff.|FACTION|Horde|
+= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|61.6,51.6|Z|1420;Tirisfal Glades|IZ|1420;Tirisfal Glades|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Vance Undergloom, in Brill, Tirisfal Glades.|FACTION|Horde|
+= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|70.0,24.6|Z|1954;Silvermoon City|IZ|1954;Silvermoon City|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Sedana, in Silvermoon City.|FACTION|Horde|
+= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|43.2,63.8|Z|1453;Stormwind City|IZ|1453;Stormwind City|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Betty Quin, in Stormwind City.|FACTION|Alliance|
+= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|60.4,45.0|Z|1455;Ironforge|IZ|1455;Ironforge|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Thonys Pillarstone, in Ironforge.|FACTION|Alliance|
+= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|59.6,12.6|Z|1457;Darnassus|IZ|1457;Darnassus|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Lalina Summermoon, in Darnassus.|FACTION|Alliance|
+= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|36.8,34.2|Z|1438;Teldrassil|IZ|1438;Teldrassil|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Alanna Raveneye, in Teldrassil.|FACTION|Alliance|
+= Learn [spell=7412/Journeyman Enchanting]|QID|333007412|M|40.6,39.0|Z|1947;The Exodar|IZ|1947;The Exodar|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Nahogg, in The Exodar.|FACTION|Alliance|
 = Learn [spell=7412/Journeyman Enchanting]|QID|333007412|SPELL|Journeyman Enchanting;7412|LVL|10|N|Learn from Trainers in Major City.|
 = Learn Recipe|QID|333000501|P|Enchanting;333;0+50|RECIPE|7457|N|Learn [spell=7457/Enchant Bracers - Minor Stamina] Recipe from Trainer.|
 M Enchant Bracers - Minor Health|QID|333007420|P|Enchanting;333;0+90;1|CRAFT|7420 40|MATS|10940 1|N|Yes, You are making MORE of these, but wanted to get you the next level so you don't lose out on points.|
@@ -131,16 +131,16 @@ B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|48.69,61.52|Z|1442
 B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|48.69,61.52|Z|1442;Stonetalon Mountains|RECIPE|13536|L|11101 1|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Kulwia in Sun Rock Retreat, Stonetalon Mountains (Limited Quantity)|FACTION|Horde|
 U Learn Recipe|QID|333013419|P|Enchanting;333;0+110|RECIPE|13419|U|11039|N|Learn [spell=13419/Enchant Cloak - Minor Agility] Recipe from Item.|
 M Enchant Cloak - Minor Agility|QID|333013419|P|Enchanting;333;0+135;1|CRAFT|13419 25|MATS|10998 1|
-= Learn [spell=7413/Enchanting]|QID|333007413|M|53.47,38.70|Z|1454;Orgrimmar|IZ|1637;Orgrimmar|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Godan, in Orgrimmar.|FACTION|Horde|
-= Learn [spell=7413/Enchanting]|QID|333007413|M|62.6,60.6|Z|1458;Undercity|IZ|1497;Undercity|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Malcomb Wynn, in Undercity.|FACTION|Horde|
-= Learn [spell=7413/Enchanting]|QID|333007413|M|45.0,38.4|Z|1456;Thunder Bluff|IZ|1638;Thunder Bluff|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Mot Dawnstrider, in Thunder Bluff.|FACTION|Horde|
-= Learn [spell=7413/Enchanting]|QID|333007413|M|61.6,51.6|Z|1420;Tirisfal Glades|IZ|85;Tirisfal Glades|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Vance Undergloom, in Brill, Tirisfal Glades.|FACTION|Horde|
-= Learn [spell=7413/Enchanting]|QID|333007413|M|70.0,24.6|Z|1954;Silvermoon City|IZ|3487;Silvermoon City|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Sedana, in Silvermoon City.|FACTION|Horde|
-= Learn [spell=7413/Enchanting]|QID|333007413|M|43.2,63.8|Z|1453;Stormwind City|IZ|1519;Stormwind City|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Betty Quin, in Stormwind City.|FACTION|Alliance|
-= Learn [spell=7413/Enchanting]|QID|333007413|M|60.4,45.0|Z|1455;Ironforge|IZ|1537;Ironforge|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Thonys Pillarstone, in Ironforge.|FACTION|Alliance|
-= Learn [spell=7413/Enchanting]|QID|333007413|M|59.6,12.6|Z|1457;Darnassus|IZ|1657;Darnassus|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Lalina Summermoon, in Darnassus.|FACTION|Alliance|
-= Learn [spell=7413/Enchanting]|QID|333007413|M|36.8,34.2|Z|1438;Teldrassil|IZ|141;Teldrassil|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Alanna Raveneye, in Teldrassil.|FACTION|Alliance|
-= Learn [spell=7413/Enchanting]|QID|333007413|M|40.6,39.0|Z|1947;The Exodar|IZ|3557;The Exodar|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Nahogg, in The Exodar.|FACTION|Alliance|
+= Learn [spell=7413/Enchanting]|QID|333007413|M|53.47,38.70|Z|1454;Orgrimmar|IZ|1454;Orgrimmar|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Godan, in Orgrimmar.|FACTION|Horde|
+= Learn [spell=7413/Enchanting]|QID|333007413|M|62.6,60.6|Z|1458;Undercity|IZ|1458;Undercity|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Malcomb Wynn, in Undercity.|FACTION|Horde|
+= Learn [spell=7413/Enchanting]|QID|333007413|M|45.0,38.4|Z|1456;Thunder Bluff|IZ|1456;Thunder Bluff|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Mot Dawnstrider, in Thunder Bluff.|FACTION|Horde|
+= Learn [spell=7413/Enchanting]|QID|333007413|M|61.6,51.6|Z|1420;Tirisfal Glades|IZ|1420;Tirisfal Glades|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Vance Undergloom, in Brill, Tirisfal Glades.|FACTION|Horde|
+= Learn [spell=7413/Enchanting]|QID|333007413|M|70.0,24.6|Z|1954;Silvermoon City|IZ|1954;Silvermoon City|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Sedana, in Silvermoon City.|FACTION|Horde|
+= Learn [spell=7413/Enchanting]|QID|333007413|M|43.2,63.8|Z|1453;Stormwind City|IZ|1453;Stormwind City|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Betty Quin, in Stormwind City.|FACTION|Alliance|
+= Learn [spell=7413/Enchanting]|QID|333007413|M|60.4,45.0|Z|1455;Ironforge|IZ|1455;Ironforge|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Thonys Pillarstone, in Ironforge.|FACTION|Alliance|
+= Learn [spell=7413/Enchanting]|QID|333007413|M|59.6,12.6|Z|1457;Darnassus|IZ|1457;Darnassus|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Lalina Summermoon, in Darnassus.|FACTION|Alliance|
+= Learn [spell=7413/Enchanting]|QID|333007413|M|36.8,34.2|Z|1438;Teldrassil|IZ|1438;Teldrassil|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Alanna Raveneye, in Teldrassil.|FACTION|Alliance|
+= Learn [spell=7413/Enchanting]|QID|333007413|M|40.6,39.0|Z|1947;The Exodar|IZ|1947;The Exodar|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Nahogg, in The Exodar.|FACTION|Alliance|
 = Learn [spell=7413/Enchanting]|QID|333007413|SPELL|Expert Enchanting;7413|LVL|20|N|Learn from Trainers in Major City.|
 = Learn Recipe|QID|333001301|P|Enchanting;333;0+130|RECIPE|13501|N|Learn [spell=13501/Enchant Bracer - Lesser Stamina] Recipe from Trainer.|
 M Enchant Bracer - Lesser Stamina|QID|333013501|P|Enchanting;333;0+155;1|CRAFT|13501 20|MATS|11083 2|
@@ -162,16 +162,16 @@ M [item=11145/Runed Truesilver Rod]|QID|333013702|P|Enchanting;333;0+200;1|ITEM|
 M Enchant Bracer - Strength|QID|333013661|P|Enchanting;333;0+220;1|CRAFT|13661 25|MATS|11137 1|
 = Learn Recipe|QID|333002201|P|Enchanting;333;0+220|RECIPE|13858|N|Learn [spell=13858/Enchant Chest - Superior Health] Recipe from Trainer.|
 M Enchant Cloak - Greater Defense|QID|333013746|P|Enchanting;333;0+225;1|CRAFT|13746 5|MATS|11137 3|
-= Learn [spell=13920/Enchanting]|QID|333013920|M|53.47,38.70|Z|1454;Orgrimmar|IZ|1637;Orgrimmar|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Godan, in Orgrimmar.|FACTION|Horde|
-= Learn [spell=13920/Enchanting]|QID|333013920|M|62.6,60.6|Z|1458;Undercity|IZ|1497;Undercity|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Malcomb Wynn, in Undercity.|FACTION|Horde|
-= Learn [spell=13920/Enchanting]|QID|333013920|M|45.0,38.4|Z|1456;Thunder Bluff|IZ|1638;Thunder Bluff|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Mot Dawnstrider, in Thunder Bluff.|FACTION|Horde|
-= Learn [spell=13920/Enchanting]|QID|333013920|M|61.6,51.6|Z|1420;Tirisfal Glades|IZ|85;Tirisfal Glades|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Vance Undergloom, in Brill, Tirisfal Glades.|FACTION|Horde|
-= Learn [spell=13920/Enchanting]|QID|333013920|M|70.0,24.6|Z|1954;Silvermoon City|IZ|3487;Silvermoon City|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Sedana, in Silvermoon City.|FACTION|Horde|
-= Learn [spell=13920/Enchanting]|QID|333013920|M|43.2,63.8|Z|1453;Stormwind City|IZ|1519;Stormwind City|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Betty Quin, in Stormwind City.|FACTION|Alliance|
-= Learn [spell=13920/Enchanting]|QID|333013920|M|60.4,45.0|Z|1455;Ironforge|IZ|1537;Ironforge|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Thonys Pillarstone, in Ironforge.|FACTION|Alliance|
-= Learn [spell=13920/Enchanting]|QID|333013920|M|59.6,12.6|Z|1457;Darnassus|IZ|1657;Darnassus|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Lalina Summermoon, in Darnassus.|FACTION|Alliance|
-= Learn [spell=13920/Enchanting]|QID|333013920|M|36.8,34.2|Z|1438;Teldrassil|IZ|141;Teldrassil|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Alanna Raveneye, in Teldrassil.|FACTION|Alliance|
-= Learn [spell=13920/Enchanting]|QID|333013920|M|40.6,39.0|Z|1947;The Exodar|IZ|3557;The Exodar|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Nahogg, in The Exodar.|FACTION|Alliance|
+= Learn [spell=13920/Enchanting]|QID|333013920|M|53.47,38.70|Z|1454;Orgrimmar|IZ|1454;Orgrimmar|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Godan, in Orgrimmar.|FACTION|Horde|
+= Learn [spell=13920/Enchanting]|QID|333013920|M|62.6,60.6|Z|1458;Undercity|IZ|1458;Undercity|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Malcomb Wynn, in Undercity.|FACTION|Horde|
+= Learn [spell=13920/Enchanting]|QID|333013920|M|45.0,38.4|Z|1456;Thunder Bluff|IZ|1456;Thunder Bluff|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Mot Dawnstrider, in Thunder Bluff.|FACTION|Horde|
+= Learn [spell=13920/Enchanting]|QID|333013920|M|61.6,51.6|Z|1420;Tirisfal Glades|IZ|1420;Tirisfal Glades|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Vance Undergloom, in Brill, Tirisfal Glades.|FACTION|Horde|
+= Learn [spell=13920/Enchanting]|QID|333013920|M|70.0,24.6|Z|1954;Silvermoon City|IZ|1954;Silvermoon City|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Sedana, in Silvermoon City.|FACTION|Horde|
+= Learn [spell=13920/Enchanting]|QID|333013920|M|43.2,63.8|Z|1453;Stormwind City|IZ|1453;Stormwind City|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Betty Quin, in Stormwind City.|FACTION|Alliance|
+= Learn [spell=13920/Enchanting]|QID|333013920|M|60.4,45.0|Z|1455;Ironforge|IZ|1455;Ironforge|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Thonys Pillarstone, in Ironforge.|FACTION|Alliance|
+= Learn [spell=13920/Enchanting]|QID|333013920|M|59.6,12.6|Z|1457;Darnassus|IZ|1457;Darnassus|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Lalina Summermoon, in Darnassus.|FACTION|Alliance|
+= Learn [spell=13920/Enchanting]|QID|333013920|M|36.8,34.2|Z|1438;Teldrassil|IZ|11438;Teldrassil|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Alanna Raveneye, in Teldrassil.|FACTION|Alliance|
+= Learn [spell=13920/Enchanting]|QID|333013920|M|40.6,39.0|Z|1947;The Exodar|IZ|1947;The Exodar|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Nahogg, in The Exodar.|FACTION|Alliance|
 = Learn [spell=13920/Enchanting]|QID|333013920|SPELL|Artisan Enchanting;13920|LVL|35|N|Learn from Trainers in Major City.|
 M Enchant Gloves - Agility|QID|333013815|P|Enchanting;333;0+230;1|CRAFT|13815 5|MATS|11137 1;11174 1|
 M Enchant Boots - Stamina|QID|333013836|P|Enchanting;333;0+235;1|CRAFT|13836 5|MATS|11137 5|
@@ -194,8 +194,8 @@ B [item=16206/Arcanite Rod]|QID|333020051|ITEM|16206|N|You'll need to either buy
 l [item=13926/Golden Pearl]|QID|333020051|ITEM|13926|N|You'll need 1 Golden Pearl, either from looting clams/fishing or purchase from the AH.|
 M [item=16207/Runed Arcanite Rod]|QID|333020051|P|Enchanting;333;0+295;1|ITEM|16207|CRAFT|20051 1|MATS|16206 1;13926 1;16204 10;16203 4;11145 1;14344 2|
 M Enchant Cloak - Superior Defense|QID|333020015|P|Enchanting;333;0+300;1|CRAFT|20051 5|MATS|16204 8|
-= Learn [spell=28029/Enchanting]|QID|333028029|M|52.2,36.2|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Master Enchanting;28029|LVL|50|T|Felannia|N|Learn from Felannia, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
-= Learn [spell=28029/Enchanting]|QID|333028029|M|53.6,66.0|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Master Enchanting;28029|LVL|50|T|Johan Barnes|N|Learn from Johan Barnes, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
+= Learn [spell=28029/Enchanting]|QID|333028029|M|52.2,36.2|Z|1944;Hellfire Peninsula|IZ|1944;Hellfire Peninsula|SPELL|Master Enchanting;28029|LVL|50|T|Felannia|N|Learn from Felannia, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
+= Learn [spell=28029/Enchanting]|QID|333028029|M|53.6,66.0|Z|1944;Hellfire Peninsula|IZ|1944;Hellfire Peninsula|SPELL|Master Enchanting;28029|LVL|50|T|Johan Barnes|N|Learn from Johan Barnes, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
 = Learn [spell=28029/Enchanting]|QID|333028029|SPELL|Master Enchanting;28029|LVL|50|N|Learn from Trainer in Hellfire Peninsula, (and maybe in Shattrath City).|
 = Learn Recipe|QID|333003001|P|Enchanting;333;0+300|RECIPE|32664|N|Learn [spell=32664/Runed Fel Iron Rod] Recipe from Trainer.|
 = Learn Recipe|QID|333003002|P|Enchanting;333;0+300|RECIPE|34002|N|Learn [spell=34002/Enchant Bracer - Assault] Recipe from Trainer.|

@@ -58,7 +58,6 @@ l [item=23449/Khorium Bar]|QID|202000004|L|23449 15|ITEM|23449|N|You'll need app
 l [item=21884/Primal Fire]|QID|202000004|L|21884 5|ITEM|21884|N|You'll need approx 5 Primal Fire.|
 N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
-
 = Learn [spell=4036/Engineering]|QID|202002259|SPELL|Engineering;4036|LVL|5|N|Learn from a Trainer in any major city.|
 B [item=5956/Blacksmith Hammer]|QID|202005956|ITEM|5956|L|5956 1|N|Buy from a NPC Supply|
 M [item=4357/Rough Blasting Powder]|QID|202003918|P|Engineering;202;0+30;1|ITEM|4357|CRAFT|3918 60|MATS|2835 1|N|Make all 60, you will need for later steps.|
@@ -67,7 +66,6 @@ M [item=6219/Arclight Spanner]|QID|202007430|P|Engineering;202;0+51;1|ITEM|4359|
 M [item=4360/Rough Copper Bomb]|QID|202003923|P|Engineering;202;0+75;1|ITEM|4360|CRAFT|3923 30|MATS|2840 1;4359 1;4357 2;2589 1|
 = Learn [spell=4037/Journeyman Engineering]|QID|202004037|P|Engineering;202;0+50|SPELL|Journeyman Engineering;4037|LVL|10|N|Visit your Expert Engineering Trainer in Undercity or Orgrimmar.|FACTION|Horde|
 = Learn [spell=4037/Journeyman Engineering]|QID|202004037|P|Engineering;202;0+50|SPELL|Journeyman Engineering;4037|LVL|10|N|Visit your Expert Engineering Trainer in Ironforge or Stormwind City.|FACTION|Alliance|
-
 M [item=4364/Coarse Blasting Powder]|QID|202003929|P|Engineering;202;0+90;1|ITEM|4364|CRAFT|3929 60|MATS|2836 1|N|Keep these for later steps.|
 M [item=4365/Coarse Dynamite]|QID|202003931|P|Engineering;202;0+100;1|ITEM|4365|CRAFT|3931 20|MATS|4364 3;2589 1|
 M [item=4404/Silver Contact]|QID|202003973|P|Engineering;202;0+105;1|ITEM|4404|CRAFT|3973 5|MATS|2842 1|N|Alternate: [item=4368/Flying Tiger Goggles].|
@@ -91,10 +89,9 @@ M [item=10562/Hi-Explosive Bomb]|QID|202012619|P|Engineering;202;0+250;1|ITEM|10
 M [item=15992/Dense Blasting Powder]|QID|202019788|P|Engineering;202;0+260;1|ITEM|15992|CRAFT|19788 30|MATS|12365 2|N|You will probably have to make more than 30 to hit 260.|
 M [item=15994/Thorium Widget]|QID|202019791|P|Engineering;202;0+285;1|ITEM|15994|CRAFT|19791 35|MATS|12359 3;14047 1|
 M [item=15997/Thorium Shells]|QID|202019800|P|Engineering;202;0+300;1|ITEM|15997|CRAFT|19800 15|MATS|12359 2;15992 1|
-
-= Learn [spell=30350/Master Engineering]|QID|202030350|M|54.8,38.6|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|P|Engineering;202;0+275|SPELL|Master Engineering;30350|LVL|50|N|Learn from Zebig, in Thrallmar, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Horde|
-= Learn [spell=30350/Master Engineering]|QID|202030350|M|55.6,65.6|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|P|Engineering;202;0+275|SPELL|Master Engineering;30350|LVL|50|N|Learn from Lebowski, in Honor Hold, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Alliance|
-
+= Learn [spell=30350/Master Engineering]|QID|202030350|M|54.8,38.6|Z|1944;Hellfire Peninsula|IZ|1944;Hellfire Peninsula|P|Engineering;202;0+275|SPELL|Master Engineering;30350|LVL|50|N|Learn from Zebig, in Thrallmar, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=30350/Master Engineering]|QID|202030350|M|55.6,65.6|Z|1944;Hellfire Peninsula|IZ|1944;Hellfire Peninsula|P|Engineering;202;0+275|SPELL|Master Engineering;30350|LVL|50|N|Learn from Lebowski, in Honor Hold, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=30350/Master Engineering]|QID|202030350|P|Engineering;202;0+275|SPELL|Master Engineering;30350|LVL|50|N|Learn Master Engineering in Hellfire Peninsula at your Faction areas, OR in Shattrath.|
 M [item=23783/Handful of Fel Iron Bolts]|QID|202030305|P|Engineering;202;0+320;1|L|23783 110|ITEM|23783|CRAFT|30305 110|MATS|23445 1|N|This step might clear before you hit 320, don't worry, a few other items will help you reach 320. Just make sure you have at least 110!|
 M [item=23781/Elemental Blasting Powder]|QID|202030303|P|Engineering;202;0+320;1|L|23781 12|ITEM|23781|CRAFT|30303 12|MATS|22574 1;22573 2|N|This step might clear before you hit 320, don't worry, a few other items will help you reach 320 Just make sure you have at least 12!|
 M [item=23782/Fel Iron Casing]|QID|202030304|P|Engineering;202;0+320;1|L|23782 50|ITEM|23782|CRAFT|30304 50|MATS|23445 3|N|This step might clear before you hit 320, don't worry, a few other items will help you reach 320 Just make sure you have at least 50!|
