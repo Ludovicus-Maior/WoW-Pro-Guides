@@ -48,6 +48,7 @@ A The First Trial|QID|9678|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bl
 = Train|ACTIVE|9134|M|54.96,25.62|Z|1954; Silvermoon City|N|Do your lv 12 training before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
 = Train|ACTIVE|9134|M|78.59,51.01|Z|1954; Silvermoon City|N|Do your lv 12 training before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
 = Train|ACTIVE|9134|M|74.67,45.01|Z|1954; Silvermoon City|N|Do your lv 12 training before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+* Saltheril's Haven Party Invitation|AVAILABLE|-9067|N|If you plans to go back to Saltheril's Haven and reload with goodies, toss it in your bank until you need it. Otherwise, you can safely destroy this.\n[color=FF0000]NOTE: [/color]Be aware, you cannot get another one.\nThis step will auto-complete when you no longer have the item in your bag.|U|23500|O|
 R The Shepherd's Gate|ACTIVE|9134|M|56.66,49.54|Z|Eversong Woods|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|
 T Skymistress Gloaming|QID|9134|M|54.37,50.73|Z|Eversong Woods|N|To Skymistress Gloaming.|
 A Return to Quartermaster Lymel|QID|9135|M|54.37,50.73|Z|Eversong Woods|N|From Skymistress Gloaming.|PRE|9134|
