@@ -225,7 +225,7 @@ A Ordanus|QID|1088|M|45.95,60.43|N|From Braelyn Firehand.|PRE|1087|
 F Thunder Bluff|ACTIVE|1086|M|45.13,59.84|
 R The Pools of Vision|ACTIVE|1086|M|30.50,30.48|Z|Thunder Bluff|
 T The Flying Machine Airport|QID|1086|M|23.06,21.07|Z|Thunder Bluff|N|To Apothecary Zamah.|
-A The Sacred Flame|QID|1195|M|54.74,51.41|Z|Thunder Bluff|N|From Zangen Stonehoof.|
+A The Sacred Flame|QID|1195|M|54.94,51.42|Z|Thunder Bluff|N|From Zangen Stonehoof.|
 = Train|AVAILABLE|502|N|Do whatever training you need to do now. From here, we will be headed back to Tarren Mill and you won't be able to train until you return to Kalimdor.|C|Druid|
 
 ; --- Hillsbrad Foothills
