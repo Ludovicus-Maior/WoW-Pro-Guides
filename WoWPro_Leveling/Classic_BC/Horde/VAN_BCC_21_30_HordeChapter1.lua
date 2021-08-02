@@ -282,44 +282,42 @@ A Elixir of Agony|QID|515|M|48.80,69.28|Z|Undercity|N|From Master Apothecary Far
 R Leave Undercity|AVAILABLE|6441|M|66.1,38.4;66.2,0.9;66.2,1.2|Z|1458;Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|IZ|1497;Undercity|
 b Durotar|AVAILABLE|6441|M|60.71,58.78|Z|Tirisfal Glades|N|Go up the tower and take the Zepplin to Durotar/Orgrimmar.|
 R Orgrimmar|AVAILABLE|6441|M|49.15,95.09|Z|Orgrimmar|N|Enter Orgrimmar by the front gate.|
-F Crossroads|QID|868|M|45.50,63.84|Z|Orgrimmar|
-A Egg Hunt|QID|868|M|51.09,29.60|Z|The Barrens|N|From Korran.|
-F Camp Taurajo|QID|868|M|51.50,30.33|Z|The Barrens|
-A Betrayal from Within|QID|879|M|44.55,59.23|Z|The Barrens|N|From Mangletooth.|
+F Crossroads|AVAILABLE|868|M|45.50,63.84|Z|Orgrimmar|
+A Egg Hunt|QID|868|M|51.07,29.63|Z|The Barrens|N|From Korran.|
+F Camp Taurajo|AVAILABLE|879^893|M|51.50,30.33|Z|The Barrens|
+A Betrayal from Within|QID|879|M|44.55,59.26|Z|The Barrens|N|From Mangletooth.|
 A Weapons of Choice|QID|893|M|45.10,57.69|Z|The Barrens|N|From Tatternack Steelforge.|
-R Field of Giants|ACTIVE|868|M|46.13,69.67|Z|The Barrens|
+R Field of Giants|ACTIVE|868|M|45.76,69.80|Z|The Barrens|N|It is split on either side of the road.|
 ; --- Jorn Skyseer's kill quests
 A Owatanka|QID|884|N|Click on Owatanka's Tailspike to accept the quest.|U|5102|O|
 A Lakota'mani|QID|883|N|Click on Hoof of Lakota'mani to accept the quest.|U|5099|O|
 A The Harvester|QID|897|N|Click on Harvester's Head to accept the quest.|U|5138|O|
 A Washte Pawne|QID|885|N|Click on Washte Pawne's Feather to accept the quest.|U|5103|O|
 ; ---
-C Egg Hunt|QID|868|L|5058 12|N|Collect Silithid Eggs from the Silithid Mounds found on both sides of the road in Field of Giants.|
-K The Harvester|AVAILABLE|897|N|Have a quick look around and see if you can locate this mob. This is one of Jorn Skyseer's rare quest kills and probably the hardest to find.\nSkip this step if you give up waiting/looking.|
-;A Gann's Reclamation|QID|843|M|46.11,81.23|Z|The Barrens|N|From Gann Stonespire. You may find him sooner walking along on Southern Gold Road. This is the furthest south he travels.|
-C Razormane Pathfinder/Stalker|QID|893|L|5093|N|Kill Razormane Pathfinders/Stalkers until one drops a Razormane Backstabber.|S|
-C Razormane Warfrenzy|QID|893|L|5094|N|Kill Razormane Warfrenzy until one drops a Razormane War Shield.|S|
-C Razormane Seer|QID|893|L|5092|N|Kill Razormane Seers until one drops a Charred Razormane Wand.|S|
-K Kuz|ACTIVE|879|M|44.71,80.48|Z|The Barrens|CC|QO|1|N|Kill Kuz and loot his Skull. He patrols in a wide circle around the camp in the middle.|
-K Lok Orcbane|ACTIVE|879|M|40.13,80.69|Z|The Barrens|QO|3|N|Kill Lok and loot his Skull. He is at the top of the hill at the back of Blackthorn Ridge.|
-K Nak|ACTIVE|879|M|43.96,83.44|Z|The Barrens|QO|2|U|5103|N|Kill Nak and loot his Skull. Follow the cliff wall east and you'll run into him.|
-C Charred Razormane Wand|QID|893|QO|2|N|Kill Razormane Seers until one drops a Charred Razormane Wand.|US|
-C Razormane War Shield|QID|893|QO|3|N|Kill Razormane Warfrenzy until one drops a Razormane War Shield.|US|
-C Razormane Backstabber|QID|893|QO|1|N|Kill Razormane Pathfinders/Stalkers until one drops a Razormane Backstabber.|US|
-K Washte Pawne|AVAILABLE|885|N|Before leaving the area, have a look around and see if you can locate this mob. This is one of Jorn Skyseer's rare quest kills.\n[color=FF0000]NOTE: [/color]This mob is tameable and therefore, be respectful of Hunters who may be in the area looking for it.\nSkip this step if you give up waiting/looking.|RARE|
-N 3 rare quest mobs|AVAILABLE|884^885^897|N|You are now going to head back to Camp Taurajo. As you make your way back to Camp Taurajo, keep an eye out for Jorn Skyseer's rare quest kills. Do not go out of your way to find them.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-R Camp Taurajo|QID|885|M|44.76,58.68|Z|The Barrens|
-T Weapons of Choice|QID|893|M|45.10,57.73|Z|The Barrens|N|To Tatternack Steelforge.|
-T Washte Pawne|QID|885|M|44.87,59.09|Z|The Barrens|N|To Jorn Skyseer.|
-T Owatanka|QID|884|M|44.87,59.09|Z|The Barrens|N|To Jorn Skyseer.|
-T The Harvester|QID|897|M|44.87,59.09|Z|The Barrens|N|To Jorn Skyseer.|
-T Betrayal from Within|QID|879|M|44.55,59.23|Z|The Barrens|N|To Mangletooth.|
-A Betrayal from Within|QID|906|M|44.55,59.23|Z|The Barrens|N|From Mangletooth.|PRE|879|
-F Crossroads|ACTIVE|868|M|44.46,59.14|Z|The Barrens|
-T Egg Hunt|QID|868|M|51.10,29.63|Z|The Barrens|N|To Korran.|
-* Silithid Eggs|AVAILABLE|-868|U|5058|N|Destroy any Silithid eggs you have leftover.|
-T Betrayal from Within|QID|906|M|51.49,30.81|Z|The Barrens|N|To Thork.|
-F Orgrimmar|QID|567|M|51.50,30.33|Z|The Barrens|
+K Owatanka|AVAILABLE|884|N|Keep an eye out on either side of the road for a blue Thunderhead.|T|Owatanka|S!US|IZ|Southern Barrens^South Gold Road|
+K Owatanka|AVAILABLE|884|N|Keep an eye out on either side of the road for a blue Thunderhead.|T|Owatanka|S!US|IZ|Southern Gold Road|
+K The Harvester|AVAILABLE|897|N|Have a quick look around and see if you can locate this mob. Check both sides of the road.\n[color=FF0000]NOTE: [/color]This is probably the hardest one of Jorn Skyseer's rare quest kills to find.\nSkip this step if you give up waiting/looking.|T|Silithid Harvester|S!US|IZ|Field of Giants|
+C Egg Hunt|QID|868|M|43.60,69.82|Z|The Barrens|L|5058 12|N|Collect Silithid Eggs from the Silithid Mounds found on both sides of the road in Field of Giants.|
+K Washte Pawne|AVAILABLE|885|N|Before leaving the area, have a look around and see if you can locate this mob. This is one of Jorn Skyseer's rare quest kills.\n[color=FF0000]NOTE: [/color]This mob is tameable and therefore, be respectful of Hunters who may be in the area looking for it.\nSkip this step if you give up waiting/looking.|T|Washte Pawne|S!US|IZ|Blackthorn Ridge|
+l Weapons of Choice|ACTIVE|893|M|43.31,81.04|Z|The Barrens|QO|1;2;3|N|Pathfinders/Stalkers drop the Razormane Backstabber.\nWarfrenzy drop the Razormane War Shield.\nSeers drop the Charred Razormane Wand.|S|
+K Kuz|ACTIVE|879|M|44.71,80.48|Z|The Barrens|QO|1|N|Kill Kuz and loot his Skull. He patrols in a wide circle around the camp in the middle.|
+K Lok Orcbane|ACTIVE|879|M|40.19,80.56|Z|The Barrens|QO|3|N|Kill Lok and loot his Skull. He is at the top of the hill at the back of Blackthorn Ridge.|
+K Nak|ACTIVE|879|M|43.96,83.44|Z|The Barrens|QO|2|N|Kill Nak and loot his Skull. Follow the cliff wall east and you'll run into him.|
+l Weapons of Choice|ACTIVE|893|M|43.31,81.04|Z|The Barrens|QO|1;2;3|N|Pathfinders/Stalkers drop the Razormane Backstabber.\nWarfrenzy drop the Razormane War Shield.\nSeers drop the Charred Razormane Wand.|US|
+N 3 rare quest mobs|AVAILABLE|884^885^897|N|You're now going to head back to Camp Taurajo. As you make your way back there, keep an eye out for Jorn Skyseer's rare quest kills.\nDo not go out of your way to find them.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Field of Giants|AVAILABLE|897|M|45.76,69.80|Z|The Barrens|N|It is split on either side of the road.|
+R Camp Taurajo|QID|893|M|44.76,58.68|Z|The Barrens|
+T Weapons of Choice|QID|893|M|45.10,57.69|Z|The Barrens|N|To Tatternack Steelforge.|
+T Washte Pawne|QID|885|M|44.86,59.14|Z|The Barrens|N|To Jorn Skyseer.|
+T Owatanka|QID|884|M|44.86,59.14|Z|The Barrens|N|To Jorn Skyseer.|
+T The Harvester|QID|897|M|44.86,59.14|Z|The Barrens|N|To Jorn Skyseer.|
+T Betrayal from Within|QID|879|M|44.55,59.26|Z|The Barrens|N|To Mangletooth.|
+A Betrayal from Within|QID|906|M|44.55,59.26|Z|The Barrens|N|From Mangletooth.|PRE|879|
+F Crossroads|ACTIVE|868^906|M|44.44,59.15|Z|The Barrens|
+T Egg Hunt|QID|868|M|51.07,29.63|Z|The Barrens|N|To Korran.|
+* Silithid Eggs|AVAILABLE|-868|N|Destroy any Silithid eggs you have leftover.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|U|5058|O|
+T Betrayal from Within|QID|906|M|51.50,30.87|Z|The Barrens|N|To Thork.|
+F Orgrimmar|ACTIVE|6571|M|51.50,30.33|Z|The Barrens|
 C Deadly Blunderbuss|ACTIVE|6571|L|4369|N|Beg, borrow, or steal... Before leaving, make sure you bring one of these with you.\nIf you have level 105 Engineering, you can make it yourself. Otherwise, a friend or the AH are your only options.|
 
 ; --- Ashenvale
@@ -463,7 +461,8 @@ T Dangerous!|QID|567|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Dart
 T Battle of Hillsbrad|QID|539|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Darthalia.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up; it's not really worth the time and effort.|
 
 ; --- The Barrens
-H Orgrimmar|QID|5881|N|Hearth back to Orgrimmar to take care of training and anything else you wish to do before starting the next chapter.|
+F Orgrimmar|QID|5881|N|Head to your nearest Flight Master and fly to Orgrimmar to take care of any training or anything else you wish to do before starting the next chapter.|IZ|1413; The Barrens| ; No point burning your Hearth if you don't have to.
+H Orgrimmar|QID|5881|N|Hearth back to Orgrimmar to take care of training and anything else you wish to do before starting the next chapter.| ; This step should auto-complete if you took the flight.
 
 ]]
 end)
