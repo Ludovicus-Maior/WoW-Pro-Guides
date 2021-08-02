@@ -228,6 +228,10 @@ K Assault on Zeb'Nowa|ACTIVE|9277|M|62.90,66.38|QO|1;2|N|Kill Shadowpine Catlord
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|22677 3|N|Loot the Catlord Claws from Catlords.|US|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|23166 3|N|Loot the Hexxer Staves from Hexxers.|US|
 L Level 18|ACTIVE|9199|N|Grind until you're level 18.|LVL|18|
+;R Hatchet Hills|ACTIVE|9199|M|45.5,30.55|N|coords Fly to Hatchet Hills (Zul'Aman).|
+;f Hatchet Hills|ACTIVE|9199|M|45.5,30.55|N|fix coords|
+;F Silvermoon City|ACTIVE|9199|M|45.5,30.55|N|fix coords|
+; Remove the next 2 travel steps when Hatchet Hills becomes available
 H Tranquillien|ACTIVE|9199|M|46.47,37.71|
 F Silvermoon City|ACTIVE|9199|M|45.43,30.53|
 = Level 18 Training|ACTIVE|9199|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
