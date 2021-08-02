@@ -431,7 +431,7 @@ T Battle of Hillsbrad|QID|532|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Exec
 A Battle of Hillsbrad|QID|539|M|62.28,20.28|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|532|
 R Azurelode Mine|ACTIVE|539^567|M|27.50,59.30|Z|Hillsbrad Foothills|N|Run to the upper entrance of Azurelode Mine.|
 C Battle of Hillsbrad|QID|539|QO|2|N|Kill Hillsbrad Miners. This shouldn't take long, as they're everywhere.|S|
-K Miner Hackett|QID|567|M|29.94,54.58|Z|Hillsbrad Foothills|CC|QO|3|N|[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots.|T|Miner Hackett|S|
+K Miner Hackett|QID|567|M|29.94,54.58|Z|Hillsbrad Foothills|CC|QO|3|N|[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots.|S|
 K Foreman Bonds|ACTIVE|539|M|31.22,55.76|Z|Hillsbrad Foothills|QO|1|N|Clear any potential adds before attacking him. Any added distractions will greatly reduce your chances of success.\n[color=FF0000]NOTE: [/color]When he is almost dead, two lv 29 guards will spawn. Be aware that they both will take turns interrupting any spellcasting. Focus on killing Foreman Bonds. Don't worry about dying once he is dead. You can resurrect outside the mine and go back in if you have to.|T|Foreman Bonds|
 K Miner Hackett|QID|567|M|29.94,54.58|Z|Hillsbrad Foothills|CC|QO|3|N|Work your way inside the mine and kill Miner Hackett. Clear any potential adds before you attack him.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds was located. If you look over the ledge, you should see him below you.|US|
 C Battle of Hillsbrad|QID|539|QO|2|N|Finish killing Hillsbrad Miners.|US|
