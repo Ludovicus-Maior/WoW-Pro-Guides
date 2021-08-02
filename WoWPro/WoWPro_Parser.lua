@@ -874,7 +874,7 @@ function WoWPro.ParseSteps(steps)
                     gender = 1
                 end
             end
-			
+
             if faction then
                 -- deleting leading/trailing whitespace and then canonicalize the case
                 faction = faction:trim():upper()
