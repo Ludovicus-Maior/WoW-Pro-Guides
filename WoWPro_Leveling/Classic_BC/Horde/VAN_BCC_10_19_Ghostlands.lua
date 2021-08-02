@@ -494,6 +494,11 @@ A The Guns of Northwatch|QID|891|M|62.29,39.03|Z|The Barrens|N|From Captain Thal
 f Ratchet|ACTIVE|891|M|63.09,37.17|Z|The Barrens|N|From Bragok.|TAXI|-Ratchet|
 F Camp Taurajo|AVAILABLE|878|M|63.09,37.17|Z|The Barrens|
 A Tribes at War|QID|878|M|44.56,59.24|Z|The Barrens|N|From Mangletooth (in the cage).|
+N Rare Spawn Kill Quests|AVAILABLE|883^884^885^897|N|Jorn Skyseer has 4 optional rare spawn quests that you can complete and turn in to him in Camp Taurajo.\n1) Lakota'mani, a gray Kodo. He has a long-ish patrol route and a long respawn time, so you might not find him.\n2) Owatanka, a blue thunder lizard. He spawns in the hills east and west of Camp Taurajo.\n3) Washte Pawne \n4) The Harvester\n\nYou will only come across the first 2 in this guide. Don't go out of your way to find them.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|RARE|
+A Lakota'mani|QID|883|N|From Hoof of Lakota'mani.|U|5099|O|
+A Owatanka|QID|884|N|From Owatanka's Tailspike.|U|5102|O|
+t Lakota'mani|QID|883|M|44.86,59.14|N|To Jorn Skyseer.|IZ|378; Camp Taurajo|
+t Owatanka|QID|884|M|44.86,59.14|N|To Jorn Skyseer.|IZ|378; Camp Taurajo|
 
 C Consumed by Hatred|QID|899|L|5085 60|N|Kill Bristlebacks to collect Bristleback Quilboar tusks.|S|
 C Blood Shards|AVAILABLE|5052|L|5075 11|N|Collect 11 Blood Shards for an upcoming quest.|S|
