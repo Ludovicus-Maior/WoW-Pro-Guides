@@ -373,7 +373,7 @@ A The Hunt Completed|QID|247|M|73.79,61.45|Z|Ashenvale|N|From Senani Thunderhear
 T The Hunt Completed|QID|247|M|73.79,61.45|Z|Ashenvale|N|To Senani Thunderheart.|
 T Stonetalon Standstill|QID|25|M|73.67,60.01|Z|Ashenvale|N|To Mastok Wrilehiss.|
 T The Befouled Element|QID|1918|M|73.67,60.01|Z|Ashenvale|N|To Mastok Wrilehiss.|
-;A Je'neu of the Earthen Ring|QID|824|M|73.67,60.01|Z|Ashenvale|N|From Mastok Wrilehiss.|PRE|1918|
+A Je'neu of the Earthen Ring|QID|824|M|73.67,60.01|Z|Ashenvale|N|From Mastok Wrilehiss.|PRE|1918|
 R Satyrnaar|ACTIVE|6441^6571|M|75.0,65.2;81.77,52.08|Z|Ashenvale|CC|
 C Satyr Horns|QID|6441|L|5481 16|N|Kill Satyrs to collect Satyr Horns.\nThese guys like to run.\n[color=FF0000]NOTE: [/color]The drop rate is a little less than 50%. Nothing wrong with a little grinding.|S|
 C Warsong Supplies|QID|6571|L|16744|N|Collect the Warsong Oil from the pitcher that spawns on the ground in multiple locations near the camps in Satyrnaar.|
