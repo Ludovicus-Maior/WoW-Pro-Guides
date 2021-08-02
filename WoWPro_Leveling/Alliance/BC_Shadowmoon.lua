@@ -60,10 +60,10 @@ C The Sketh'lon Wreckage|QID|10569|M|36.05,30.78|N|Kill and loot the Dark Concla
 C Enraged Spirits of Water|QID|10480|U|30094|M|49.18,23.10|N|Use the totem and kill the Enraged Water Spirits near it.|
 C The Second Course...|QID|10677|M|49.02,26.89|N|Kill and loot the Greater Felfire Diemetradons in the fel lava river.|
 ; None of these quests were available to a player with Neutral Aldor Rep, therefore added Friendly to the tag
-A The Ashtongue Tribe|QID|10619|M|61.24,29.18|N|From Vindicator Aluumen.|REP|Aldor;932;Friendly|
-A Karabor Training Grounds|QID|10587|M|61.24,29.18|N|From Exarch Onaala.|REP|Aldor;932;Friendly|
-A Tablets of Baa'ri|QID|10568|M|62.54,28.46|N|From Anchorite Ceyla.|REP|Aldor;932;Friendly|
-f Altar of Sha'tar|QID|10568|M|63.25,30.36|N|At Maddix.|REP|Aldor;932;Friendly|
+A The Ashtongue Tribe|QID|10619|M|61.24,29.18|N|From Vindicator Aluumen.|REP|Aldor;932;Friendly-Exalted|
+A Karabor Training Grounds|QID|10587|M|61.24,29.18|N|From Exarch Onaala.|REP|Aldor;932;Friendly-Exalted|
+A Tablets of Baa'ri|QID|10568|M|62.54,28.46|N|From Anchorite Ceyla.|REP|Aldor;932;Friendly-Exalted|
+f Altar of Sha'tar|QID|10568|M|63.25,30.36|N|At Maddix.|REP|Aldor;932;Friendly-Exalted|
 H Wildhammer Stronghold|QID|10572|M|37.06,58.17|N|Hearth back to Wildhammer Stronghold.|
 r Repair/Restock|QID|10572|M|37.26,57.58|N|Remember to repair and restock whilst you are in Wildhammer Stronghold.|
 T The Second Course...|QID|10677|M|36.59,55.18|N|To Gnomus.|
@@ -141,44 +141,44 @@ A Divination: Gorefiend's Truncheon|QID|10636|PRE|10644|M|58.16,70.82|N|From Anc
 A Divination: Gorefiend's Armor|QID|10634|PRE|10644|M|58.16,70.82|N|From Ancient Shadowmoon Spirit.|
 C Enraged Spirits of Air|QID|10481|U|30094|M|59.85,69.71|N|Use the totem and kill the Enraged Air Spirit. They tend to be a bit spread out.|
 C The Main Course!|QID|10678|M|56.38,45.33|N|Go to the waypoint and kill Felspine the Greater to get his hide.|
-f Sanctum of the Stars|QID|10687|M|56.32,57.81|N|At Alieshor.|REP|Scryers;934;Friendly|
-A Karabor Training Grounds|QID|10687|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers;934;Friendly|
-A Tablets of Baa'ri|QID|10683|PRE|10568|M|56.25,59.59|N|From Arcanist Thelis|REP|Scryers;934;Friendly|
-A The Ashtongue Broken|QID|10807|M|54.73,58.19|N|From Varen the Reclaimer|REP|Scryers;934;Friendly|
-l Tablets of Baa'ri|QID|10568|L|30596 12|ACTIVE|10568|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932;Friendly|
-C The Ashtongue Tribe|QID|10619|M|56.91,36.41|N|Kill the mobs needed.|REP|Aldor;932;Friendly|
-l Tablets of Baa'ri|QID|10568|L|30596 12|ACTIVE|10568|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932;Friendly|
-l Tablets of Baa'ri|QID|10683|S|M|56.30,36.55|ACTIVE|10683|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934;Friendly|
-C The Ashtongue Broken|QID|10807|M|56.91,36.41|N|Kill the mobs needed for this quest.|REP|Scryers;934;Friendly|
-l Tablets of Baa'ri|QID|10683|US|M|56.30,36.55|ACTIVE|10683|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934;Friendly|
+f Sanctum of the Stars|QID|10687|M|56.32,57.81|N|At Alieshor.|REP|Scryers;934;Friendly-Exalted|
+A Karabor Training Grounds|QID|10687|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers;934;Friendly-Exalted|
+A Tablets of Baa'ri|QID|10683|PRE|10568|M|56.25,59.59|N|From Arcanist Thelis|REP|Scryers;934;Friendly-Exalted|
+A The Ashtongue Broken|QID|10807|M|54.73,58.19|N|From Varen the Reclaimer|REP|Scryers;934;Friendly-Exalted|
+l Tablets of Baa'ri|QID|10568|L|30596 12|ACTIVE|10568|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932;Friendly-Exalted|
+C The Ashtongue Tribe|QID|10619|M|56.91,36.41|N|Kill the mobs needed.|REP|Aldor;932;Friendly-Exalted|
+l Tablets of Baa'ri|QID|10568|L|30596 12|ACTIVE|10568|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932;Friendly-Exalted|
+l Tablets of Baa'ri|QID|10683|S|M|56.30,36.55|ACTIVE|10683|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934;Friendly-Exalted|
+C The Ashtongue Broken|QID|10807|M|56.91,36.41|N|Kill the mobs needed for this quest.|REP|Scryers;934;Friendly-Exalted|
+l Tablets of Baa'ri|QID|10683|US|M|56.30,36.55|ACTIVE|10683|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934;Friendly-Exalted|
 C Divination: Gorefiend's Cloak|QID|10635|U|30721|M|64.47,39.73|N|Put on the Spectrecles and kill Clerics of Karabor until the cloak drops.|
-C Karabor Training Grounds|QID|10587|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Aldor;932;Friendly|
-T The Ashtongue Tribe|QID|10619|M|61.25,29.18|N|To Vindicator Aluumen.|REP|Aldor;932;Friendly|
-A Reclaiming Holy Grounds|QID|10816|PRE|10619|M|61.25,29.18|N|From Vindicator Aluumen.|REP|Aldor;932;Friendly|
-T Karabor Training Grounds|QID|10587|M|61.25,29.18|N|To Exarch Onaala.|REP|Aldor;932;Friendly|
-A A Necessary Distraction|QID|10637|PRE|10587|M|61.25,29.18|N|From Exarch Onaala.|REP|Aldor;932;Friendly|
-T Tablets of Baa'ri|QID|10568|M|62.52,28.49|N|To Anchorite Ceyla.|REP|Aldor;932;Friendly|
-A Oronu the Elder|QID|10571|PRE|10568^10683|M|62.52,28.49|N|From Anchorite Ceyla.|REP|Aldor;932;Friendly|
-r Repair/Restock|QID|10571|M|62.33,28.97|REP|Aldor;932;Friendly|
-C Karabor Training Grounds|QID|10687|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Scryers;934;Friendly|
-T The Ashtongue Broken|QID|10807|M|54.73,58.19|N|To Varen the Reclaimer.|REP|Scryers;934;Friendly|
-A The Great Retribution|QID|10817|PRE|10807|M|54.73,58.19|N|From Varen the Reclaimer.|REP|Scryers;934;Friendly|
-T Karabor Training Grounds|QID|10687|M|55.74,58.18|N|To Larissa Sunstrike.|REP|Scryers;934;Friendly|
-A A Necessary Distraction|QID|10688|PRE|10687|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers;934;Friendly|
-T Tablets of Baa'ri|QID|10683|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934;Friendly|
-A Oronu the Elder|QID|10684|PRE|10571|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934;Friendly|
-r Repair/Restock|QID|10571|M|62.33,28.97|REP|Scryers;934;Friendly|
-C Oronu the Elder|QID|10684|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Scryers;934;Friendly|
-T Oronu the Elder|QID|10684|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934;Friendly|
-C Oronu the Elder|QID|10571|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Aldor;932;Friendly|
-T Oronu the Elder|QID|10571|M|62.55,28.44|N|To Anchorite Ceyla.|REP|Aldor;932;Friendly|
-A The Ashtongue Corruptors|QID|10574|PRE|10571^10684|M|62.55,28.44|N|From Anchorite Ceyla.|REP|Aldor;932;Friendly|
-A The Ashtongue Corruptors|QID|10685|PRE|10574|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934;Friendly|
-C Reclaiming Holy Grounds|QID|10816|M|71.74,37.59|N|As you kill the mobs needed, be careful of the roaming elite.|REP|Aldor;932;Friendly|
-l Scroll of Demonic Unbanishing|QID|10637|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Aldor;932;Friendly|
-C A Necessary Distraction|QID|10637|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Aldor;932;Friendly|
-l Scroll of Demonic Unbanishing|QID|10688|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Scryers;934;Friendly|
-C A Necessary Distraction|QID|10688|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Scryers;934;Friendly|
+C Karabor Training Grounds|QID|10587|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Aldor;932;Friendly-Exalted|
+T The Ashtongue Tribe|QID|10619|M|61.25,29.18|N|To Vindicator Aluumen.|REP|Aldor;932;Friendly-Exalted|
+A Reclaiming Holy Grounds|QID|10816|PRE|10619|M|61.25,29.18|N|From Vindicator Aluumen.|REP|Aldor;932;Friendly-Exalted|
+T Karabor Training Grounds|QID|10587|M|61.25,29.18|N|To Exarch Onaala.|REP|Aldor;932;Friendly-Exalted|
+A A Necessary Distraction|QID|10637|PRE|10587|M|61.25,29.18|N|From Exarch Onaala.|REP|Aldor;932;Friendly-Exalted|
+T Tablets of Baa'ri|QID|10568|M|62.52,28.49|N|To Anchorite Ceyla.|REP|Aldor;932;Friendly-Exalted|
+A Oronu the Elder|QID|10571|PRE|10568^10683|M|62.52,28.49|N|From Anchorite Ceyla.|REP|Aldor;932;Friendly-Exalted|
+r Repair/Restock|QID|10571|M|62.33,28.97|REP|Aldor;932;Friendly-Exalted|
+C Karabor Training Grounds|QID|10687|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Scryers;934;Friendly-Exalted|
+T The Ashtongue Broken|QID|10807|M|54.73,58.19|N|To Varen the Reclaimer.|REP|Scryers;934;Friendly-Exalted|
+A The Great Retribution|QID|10817|PRE|10807|M|54.73,58.19|N|From Varen the Reclaimer.|REP|Scryers;934;Friendly-Exalted|
+T Karabor Training Grounds|QID|10687|M|55.74,58.18|N|To Larissa Sunstrike.|REP|Scryers;934;Friendly-Exalted|
+A A Necessary Distraction|QID|10688|PRE|10687|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers;934;Friendly-Exalted|
+T Tablets of Baa'ri|QID|10683|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934;Friendly-Exalted|
+A Oronu the Elder|QID|10684|PRE|10571|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934;Friendly-Exalted|
+r Repair/Restock|QID|10571|M|62.33,28.97|REP|Scryers;934;Friendly-Exalted|
+C Oronu the Elder|QID|10684|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Scryers;934;Friendly-Exalted|
+T Oronu the Elder|QID|10684|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934;Friendly-Exalted|
+C Oronu the Elder|QID|10571|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Aldor;932;Friendly-Exalted|
+T Oronu the Elder|QID|10571|M|62.55,28.44|N|To Anchorite Ceyla.|REP|Aldor;932;Friendly-Exalted|
+A The Ashtongue Corruptors|QID|10574|PRE|10571^10684|M|62.55,28.44|N|From Anchorite Ceyla.|REP|Aldor;932;Friendly-Exalted|
+A The Ashtongue Corruptors|QID|10685|PRE|10574|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934;Friendly-Exalted|
+C Reclaiming Holy Grounds|QID|10816|M|71.74,37.59|N|As you kill the mobs needed, be careful of the roaming elite.|REP|Aldor;932;Friendly-Exalted|
+l Scroll of Demonic Unbanishing|QID|10637|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Aldor;932;Friendly-Exalted|
+C A Necessary Distraction|QID|10637|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Aldor;932;Friendly-Exalted|
+l Scroll of Demonic Unbanishing|QID|10688|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Scryers;934;Friendly-Exalted|
+C A Necessary Distraction|QID|10688|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Scryers;934;Friendly-Exalted|
 T Divination: Gorefiend's Cloak|QID|10635|M|58.30,70.82|N|To Ancient Shadowmoon Spirit.|
 K Haalum|QID|10574^10685|ACTIVE|10574^10685|QO|2|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|
 K Eykene|QID|10574^10685|ACTIVE|10574^10685|QO|1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|
@@ -207,17 +207,17 @@ C Escape from Coilskar Cistern|QID|10451|NC|M|53.10,25.35|N|Just follow her and 
 T The Cipher of Damnation - Grom'tor's Charge|QID|10522|M|44.65,23.65|N|To Grom'tor, Son of Oronok.|
 A The Cipher of Damnation - The First Fragment Recovered|QID|10523|PRE|10522|M|44.65,23.65|N|From Grom'tor, Son of Oronok.|
 T The Cipher of Damnation - The First Fragment Recovered|QID|10523|M|53.85,23.52|N|To Oronok Torn-heart.|
-C The Great Retribution|QID|10817|M|66.56,42.17|N|Make your way up Ata'mal Terrace, and kill, kill, kill! Watch out for the Elite Draknoid.|REP|Scryers;934;Friendly|
-T A Necessary Distraction|QID|10637|M|61.25,29.23|N|To Exarch Onaala. The follow up she gives takes you back to Nagrand.|REP|Aldor;932;Friendly|
-T Reclaiming Holy Grounds|QID|10816|M|61.24,29.18|N|To Vindicator Aluumen.|REP|Aldor;932;Friendly|
-T The Ashtongue Corruptors|QID|10574|M|62.56,28.43|N|To Anchorite Ceyla.|REP|Aldor;932;Friendly|
-A The Warden's Cage|QID|10575|PRE|10574^10685|M|62.56,28.43|N|From Anchorite Ceyla.|REP|Aldor;932;Friendly|
-T The Warden's Cage|QID|10575|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Aldor;932;Friendly|
-T A Necessary Distraction|QID|10688|M|55.74,58.18|N|To Larissa Sunstrike. The follow up she gives takes you back to Nagrand.|REP|Scryers;934;Friendly|
-T The Great Retribution|QID|10817|M|54.7,58.2|N|To Varen the Reclaimer.|REP|Scryers;934;Friendly|
-T The Ashtongue Corruptors|QID|10685|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934;Friendly|
-A The Warden's Cage|QID|10686|PRE|10575|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934;Friendly|
-T The Warden's Cage|QID|10686|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Scryers;934;Friendly|
+C The Great Retribution|QID|10817|M|66.56,42.17|N|Make your way up Ata'mal Terrace, and kill, kill, kill! Watch out for the Elite Draknoid.|REP|Scryers;934;Friendly-Exalted|
+T A Necessary Distraction|QID|10637|M|61.25,29.23|N|To Exarch Onaala. The follow up she gives takes you back to Nagrand.|REP|Aldor;932;Friendly-Exalted|
+T Reclaiming Holy Grounds|QID|10816|M|61.24,29.18|N|To Vindicator Aluumen.|REP|Aldor;932;Friendly-Exalted|
+T The Ashtongue Corruptors|QID|10574|M|62.56,28.43|N|To Anchorite Ceyla.|REP|Aldor;932;Friendly-Exalted|
+A The Warden's Cage|QID|10575|PRE|10574^10685|M|62.56,28.43|N|From Anchorite Ceyla.|REP|Aldor;932;Friendly-Exalted|
+T The Warden's Cage|QID|10575|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Aldor;932;Friendly-Exalted|
+T A Necessary Distraction|QID|10688|M|55.74,58.18|N|To Larissa Sunstrike. The follow up she gives takes you back to Nagrand.|REP|Scryers;934;Friendly-Exalted|
+T The Great Retribution|QID|10817|M|54.7,58.2|N|To Varen the Reclaimer.|REP|Scryers;934;Friendly-Exalted|
+T The Ashtongue Corruptors|QID|10685|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934;Friendly-Exalted|
+A The Warden's Cage|QID|10686|PRE|10575|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934;Friendly-Exalted|
+T The Warden's Cage|QID|10686|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Scryers;934;Friendly-Exalted|
 A Proof of Allegiance|QID|10622|PRE|10575^10686|M|57.33,49.64|N|From Sanoru.|
 C Proof of Allegiance|QID|10622|M|56.33,49.48|N|Head to the top of the wall and kill Zandras.|
 T Proof of Allegiance|QID|10622|M|57.33,49.65|N|To Sanoru.|
