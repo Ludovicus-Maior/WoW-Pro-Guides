@@ -302,9 +302,9 @@ T Medallion of Wrath|QID|63655|M|55.19,38.30|Z|Sinfall Reaches@Sinfall!Dungeon|N
 T The Meaning of Wrath|QID|63656|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; The Power of Night
-A A Cry From the Heart|QID|63672|PRE|63656|M|64.40,24.27|Z|1961;Korthia|N|From Urgent Message from Ardenweald.|REN|52|
+A A Cry From the Heart|QID|63672|PRE|63656|M|64.40,24.27|Z|1961;Korthia|N|From Urgent Message from Ardenweald. This may require you to log/zone out and back in if you're already in Keeper's Respite.|REN|52|
 P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|1961;Korthia|IZ|1961|N|Take the portal to Ring of Transference.|
-F Heart of the Forest|ACTIVE|63672|M|60.96,68.81|Z|Ring of Transference@Oribos|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|
+F Refugee Camp|ACTIVE|63672|M|60.96,68.81|Z|Ring of Transference@Oribos|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|
 T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
 A Hunting Amid Houses|QID|63673|PRE|63672|M|44.78,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|NightFae|
 C Hunting Amid Houses|QID|63673|M|44.78,38.93|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|COV|NightFae|
@@ -340,7 +340,7 @@ T You Can Only Die|QID|63677|M|PLAYER|Z|Maldraxxus|N|To Khaliiq.|
 A Akarek Avenged|QID|63678|PRE|63677&63675&63676|M|PLAYER|Z|Maldraxxus|N|From Khaliiq.|
 T Akarek Avenged|QID|63678|M|74.83,33.65|Z|Maldraxxus|N|To Margrave Sin'dane.|
 A Magical Mystery Tour!|QID|63679|PRE|63678|M|PLAYER|Z|Maldraxxus|N|From Urgent Message from Ardenweald.|
-T Magical Mystery Tour!|QID|63679|M|25.36,29.05|Z|Revendreth|N|To Lady Moonberry.|
+T Magical Mystery Tour!|QID|63679|M|25.36,29.05|Z|Revendreth|N|To Lady Moonberry in Revendreth.|
 A Hunting Huln|QID|64092|PRE|63679|M|25.36,29.05|Z|Revendreth|N|From Lady Moonberry.|
 C Hunting Huln|QID|64092|M|25.35,29.04|Z|Revendreth|QO|1|CHAT|N|Speak with Moonberry to hear the plan.|
 C Hunting Huln|QID|64092|M|25.35,29.04|Z|Revendreth|QO|2|CHAT|N|Speak with Moonberry once more to get he disguise.|
@@ -350,8 +350,8 @@ T Hunting Huln|QID|64092|M|37.93,23.74|Z|Revendreth|N|To Stoneborn Detainment Ch
 A Mal'appropriated|QID|64091|PRE|64092|M|37.96,23.29|Z|Revendreth|N|From Mal'Ganis.|
 C Mal'appropriated|QID|64091|M|31.97,25.09|Z|Revendreth|QO|1|NC|N|Collecct Sigils of Binding around the area while avoiding detection.|
 C Mal'appropriated|QID|64091|M|38.00,24.02|Z|Revendreth|QO|2|CHAT|N|Speak with Garralous Stoneborn.|
-T Mal'appropriated|QID|64091|M|38.02,24.14|Z|Revendreth|N|To Cudgelface.|
-A The Big Squeeze|QID|64090|PRE|64091|M|38.02,24.14|Z|Revendreth|N|From Cudgelface.|
+T Mal'appropriated|QID|64091|M|PLAYER|Z|Revendreth|N|To Cudgelface.|
+A The Big Squeeze|QID|64090|PRE|64091|M|PLAYER|Z|Revendreth|N|From Cudgelface.|
 C The Big Squeeze|QID|64090|M|35.55,22.27|Z|Revendreth|QO|1|NC|N|Head up and into Dominance Keep.|
 C The Big Squeeze|QID|64090|M|35.45,22.29|Z|Revendreth|QO|2|NC|N|As you run into the key, a Agitated Stoneborn will yell at you.|
 C The Big Squeeze|QID|64090|M|35.71,22.68|Z|Revendreth|QO|3|CHAT|N|Speak with Cudgelface.|
@@ -379,21 +379,21 @@ C Rituals of Night|QID|64042|M|45.10,65.70|Z|Ardenweald!The Shadowlands|QO|2<3|N
 T Rituals of Night|QID|64042|M|45.31,64.80|Z|Ardenweald!The Shadowlands|N|To Ysera.|
 A The Power of Elune|QID|63682|PRE|64042|M|45.31,64.80|Z|Ardenweald!The Shadowlands|N|From Ysera.|
 C The Power of Elune|QID|63682|M|45.31,64.80|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Ysera to Begin.|
-C The Power of Elune|QID|63682|M|45.15,65.37|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Stand in the circle and click Click the "[color=40C7EB]Assisting[/color]" to start the Ritual.|EAB|
+C The Power of Elune|QID|63682|M|45.18,65.24|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Stand in the circle and click Click the "[color=40C7EB]Assisting[/color]" to start the Ritual.|EAB|
 C The Power of Elune|QID|63682|M|45.24,65.67|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Defeat Tyrande.|
 T The Power of Elune|QID|63682|M|45.26,65.05|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|
 A Winter's Sigil|QID|63683|PRE|63682|M|45.26,65.05|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|
 C Winter's Sigil|QID|63683|M|45.30,65.09|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Click on the Tear of Elune to take it.|
 C Winter's Sigil|QID|63683|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|NightFae|
-C Winter's Sigil|QID|63683|M|45.03,65.62|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak with Ysera.|COV|-NightFae|
+C Winter's Sigil|QID|63683|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|-NightFae|
 T Winter's Sigil|QID|63683|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|NightFae|
-T Winter's Sigil|QID|63683|M|45.03,65.62|Z|Ardenweald!The Shadowlands|N|To Ysera.|COV|-NightFae|
-A Inform the Primus|QID|64437|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|NightFae|
-A Inform the Primus|QID|64437|M|45.03,65.62|Z|Ardenweald!The Shadowlands|N|To Ysera.|COV|-NightFae|
+T Winter's Sigil|QID|63683|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|-NightFae|
+A Inform the Primus|QID|64437|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|NightFae|PRE|63683|
+A Inform the Primus|QID|64437|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|-NightFae|PRE|63683|
 T Inform the Primus|QID|64437|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; A New Path
-A A Paladin's Soul|QID|63579|M|62.57,25.66|Z|1961;Korthia|N|From Thenios.|REN|56|
+A A Paladin's Soul|QID|63579|M|62.57,25.66|Z|1961;Korthia|N|From Thenios.|PRE|64437|REN|56|
 F Ve'nari's Refuge|ACTIVE|63579|M|64.97,23.66|Z|1961;Korthia|N|Head to the flightmaster and take a flight to Ve'nari's Refuge.|
 P Torghast, Tower of the Damned|ACTIVE|63579|M|48.18,39.44|Z|The Maw|N|Take the portal to Torghast, Tower of the Damned.|
 C A Paladin's Soul|QID|63579|M|37.87,46.99|Z|Torghast - Entrance!Instance|QO|1|CHAT|N|Interact with the Wayfinder in Torghast.|
@@ -561,6 +561,7 @@ N Renown Level 44|AVAILABLE|63703|N|You must reach Renown level 44 to continue t
 N Renown Level 47|AVAILABLE|63612|N|You must reach Renown level 47 to continue to the next chapter.|REN|-47|PRE|63727|
 N Renown Level 50|AVAILABLE|63659|N|You must reach Renown level 50 to continue to the next chapter.|REN|-50|PRE|63622|
 N Renown Level 52|AVAILABLE|63672|N|You must reach Renown level 52 to continue to the next chapter.|REN|-52|PRE|63656|
-N Renown Level 56|AVAILABLE|63579|N|You must reach Renown level 56 to continue to the next chapter.|REN|-56|PRE|63683|
+N Renown Level 56|AVAILABLE|63579|N|You must reach Renown level 56 to continue to the next chapter.|REN|-56|PRE|64437|
+N Renown Level 58|AVAILABLE|63579|N|You must reach Renown level 58 to continue to the next chapter.|REN|-58|PRE|63592|
 ]]
 end)

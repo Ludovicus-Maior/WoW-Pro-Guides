@@ -797,13 +797,13 @@ function WoWPro.SemiMatch(big,little)
         local flip
         if jpossible:sub(1, 1) == "-" then
             flip = true
-            jpossible = jpossible:sub(2)
+            jpossible = tostring(jpossible:sub(2))
         else
             flip = false
         end
-        if (not flip) and (jpossible == little) then
-            return true
-        elseif flip and (jpossible == little) then
+        if (not flip) and (jpossible == tostring(little)) then
+			return true
+        elseif flip and (jpossible == tostring(little)) then
             return false
         elseif flip then
             lmatch = true
@@ -823,6 +823,7 @@ function WoWPro.ParseSteps(steps)
     local i = 2  -- Leave room the the L step
     local _, myclass = _G.UnitClass("player")
     local _, myrace = _G.UnitRace("player")
+	local mycovenant = _G.C_Covenants.GetCovenantData(_G.C_Covenants.GetActiveCovenantID()).name
     local myFaction = WoWPro.Faction:upper()
     local zone = (WoWPro.Guides[GID].zone or ""):match("([^%(]+)"):trim()
 
@@ -873,21 +874,7 @@ function WoWPro.ParseSteps(steps)
                     gender = 1
                 end
             end
-			if covenant then
-				covenant = covenant:gsub(" ", "")
-                if covenant == "Kyrian" then
-                    covenant = 1
-                elseif covenant == "Venthyr" then
-                    covenant = 2
-				elseif covenant == "NightFae" then
-                    covenant = 3
-				elseif covenant == "Necrolord" then
-                    covenant = 4
-                else
-                    covenant = 0
-                end
-			end
-
+			
             if faction then
                 -- deleting leading/trailing whitespace and then canonicalize the case
                 faction = faction:trim():upper()
@@ -912,7 +899,7 @@ function WoWPro.ParseSteps(steps)
                 end
             elseif WoWPro.RETAIL and (class == nil or WoWPro.SemiMatch(class, myclass)) and
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
-			   (_G.C_Covenants and (covenant == nil or covenant == _G.C_Covenants.GetActiveCovenantID())) and
+			   (_G.C_Covenants and (covenant == nil or WoWPro.SemiMatch(covenant, mycovenant)))  and
                (gender == nil or gender == _G.UnitSex("player")) and
                (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not ms and not tof then
                 if WoWPro.ParseQuestLine(faction, zone, i, text) then
