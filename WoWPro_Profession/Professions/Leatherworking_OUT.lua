@@ -21,12 +21,8 @@ return [[
 
 N This Guide is a Work In Progress Guide.|QID|165000001|N|Currently in Development, starting with Retail - Outland Content.\nAlso ASSUMES you have the appropriate Skills.|
 N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, using the Report Issue option menu. (Right click on the step, to bring up Menu).|
-N Shopping List|QID|165000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Outland Leatherworking 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
 ; Beginning Shopping List
-
 N Shopping List|QID|165000041|N|The next few lines are going to be the TOTAL amount of mats you need to complete Outland Leatherworking 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
 l [item=21887/Knothide Leather]|QID|165000041|L|21887 1340|ITEM|21887|N|You'll need about 1,340 Knothide Leathers. \n[color=FF0000]NOTE: [/color] 1,230 of these will be turned in [item=23793/Heavy Knothide Leather], if one Heavy is less then 5 regular on the AH then you only need about 340 Knothide Leathers, and buy Heavy from the AH as you need them.|
 l [item=25707/Fel Hide]|QID|165000041|L|25707 32|ITEM|25707|N|You'll need about 32 Fel Hides.|
 l [item=25708/Thick Clefthoof Leather]|QID|165000041|L|25708 32|ITEM|25708|N|You'll need about 32 Thick Clefthoof Leathers.|
@@ -34,7 +30,6 @@ B [item=14341/Rune Thread]|QID|165000041|L|14341 60|ITEM|14341|N|You'll need abo
 B [spell=35543/Drums of Battle]|QID|165035543|M|50.96,41.7|Z|111;Shattrath City|RECIPE|35543|T|Almaador|N|Purchase [item=29717/Pattern - Drums of Battle] from Almaador, Sha'tari Quartermaster. This recipe is Bind on Pick up, also requires Honored with The Sha'tar.|REP|The Sha'tar;935;Honored-Exalted|
 B [spell=35538/Drums of Panic]|QID|165035538|M|63.6,57.6|Z|71;Tanaris|REP|Keepers of Time;989;Honored-Exalted|RECIPE|35538|T|Alurmi|N|Purchase [item=29713/Pattern - Drums of Panic] from Alurmi, Keepers of Time Quartermaster (inside Caverns of Time). This recipe is Bind on Pick up, also requires Honored with Keepers of Time.|
 N Shopping List|QID|165000051|N|This completes the Shopping List to get you to 75, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
-
 ; End Shopping List
 
 = Learn [spell=264579/Outland Leatherworking]|QID|165264579|M|56.2,38.6|Z|100;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Outland Leatherworking;264579|LVL|5|T|Barim Spilthoof|N|Learn Master Leatherworking from Barim Spilthoof, in Thrallmar, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Horde|
