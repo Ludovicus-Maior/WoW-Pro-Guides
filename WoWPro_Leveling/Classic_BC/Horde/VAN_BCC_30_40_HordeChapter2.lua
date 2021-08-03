@@ -11,48 +11,50 @@ return [[
 F Thunder Bluff|ACTIVE|1195|M|45.50,63.84|Z|Orgrimmar|
 T The Sacred Flame|QID|1195|M|54.94,51.42|Z|Thunder Bluff|N|To Zangen Stonehoof.|
 A The Sacred Flame|QID|1196|M|54.94,51.42|Z|Thunder Bluff|N|From Zangen Stonehoof.|PRE|1195|
+l Maggran's Reserve Letter|ACTIVE|5881|L|16189|N|You need this to turn in the quest.\n[color=FF0000]NOTE: [/color]Go grab it or you'll have to get a replacement from Maggran Earthbinder in Thunder Bluff.|
 F Camp Taurajo|AVAILABLE|1153|M|47.02,49.83|Z|Thunder Bluff|
-A A New Ore Sample|QID|1153|M|45.10,57.73|Z|The Barrens|N|From Tatternack Steelforge.|PRE|893|
-R The Great Lift|ACTIVE|5881|M|32.23,20.46|Z|Thousand Needles|N|Leave Camp Taurajo through the east gate and follow the Southern Gold Road south to the bottom of The Barrens.|
+A A New Ore Sample|QID|1153|M|45.10,57.69|Z|The Barrens|N|From Tatternack Steelforge.|PRE|893|
+R The Great Lift|ACTIVE|5881|M|32.23,20.46|Z|Thousand Needles|N|Leave Camp Taurajo and follow the Southern Gold Road south to the bottom of The Barrens.|
 T Calling in the Reserves|QID|5881|M|31.87,21.65|N|To Grish Longrunner.|
-A Message to Freewind Post|QID|4542|M|32.22,22.11|N|From Brave Moonhorn.|
+A Message to Freewind Post|QID|4542|M|32.24,22.17|N|From Brave Moonhorn.\n[color=FF0000]NOTE: [/color]If he's not here, check the bottom of The Great Lift or wait for him to respawn because he's dead.|
 C A New Ore Sample|QID|1153|L|5842|N|Kill Gravelsnout Surveyors and Diggers until one drops an Unrefined Ore Sample. They are spread out over the east and west ends of Thousand Needles.|S|
-R Freewind Post|ACTIVE|4542|M|31.26,25.99;29.32,34.17;46.84,47.18|CC|N|Take the lift down to the bottom. Follow the road to Freewind Post. Continue a little further down the road and take the lift up.|
-T Message to Freewind Post|QID|4542|M|45.69,50.72|N|To Cliffwatcher Longhorn.|
-A Pacify the Centaur|QID|4841|M|45.69,50.72|N|From Cliffwatcher Longhorn.|PRE|4542|
-A Wanted - Arnak Grimtotem|QID|5147|M|45.96,50.85|N|From the wanted poster in front of the Inn.|
+R Freewind Post|ACTIVE|4542|M|31.5,25.3;29.5,34.5;46.84,47.18|CC|N|Take the lift down to the bottom and follow the road (signs) to Freewind Post.|
+T Message to Freewind Post|QID|4542|M|45.66,50.79|N|To Cliffwatcher Longhorn.\n[color=FF0000]NOTE: [/color]The lift to go up is a little further down the road.|
+A Pacify the Centaur|QID|4841|M|45.66,50.79|N|From Cliffwatcher Longhorn.|PRE|4542|
+A Wanted - Arnak Grimtotem|QID|5147|M|46.00,50.85|N|From the wanted poster in front of the Inn.|
 h Freewind Post|QID|4841|M|46.04,51.41|N|Go inside the Inn and talk to Innkeeper Abeqwa to set your hearth to Freewind Post.|
-T The Sacred Flame|QID|1196|M|46.11,51.64|N|To Rau Cliffrunner.|
-A The Sacred Flame|QID|1197|M|46.11,51.64|N|From Rau Cliffrunner.|PRE|1196|
-f Freewind Post|QID|4841|M|45.15,49.17|N|Get the flight path from Nyse.|
-A Wind Rider|QID|4767|M|44.94,49.02|N|From Elu.|
-A Alien Egg|QID|4821|M|44.69,50.25|N|From Hagar Lightninghoof.|
+T The Sacred Flame|QID|1196|M|46.14,51.70|N|To Rau Cliffrunner.|
+A The Sacred Flame|QID|1197|M|46.14,51.70|N|From Rau Cliffrunner.|PRE|1196|
+f Freewind Post|QID|4841|M|45.14,49.10|N|Get the flight path from Nyse.|
+A Wind Rider|QID|4767|M|44.84,48.96|N|From Elu.|
+A Alien Egg|QID|4821|M|44.64,50.30|N|From Hagar Lightninghoof.|
 C Pacify the Centaur|QID|4841|QO|1;2;3|N|Kill Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance and the Windchasers heal themselves 75%. The Wranglers range attack if you leave melee range.|S|
 R Splithoof Hold|ACTIVE|1197|M|43.98,37.49|N|Leave Freewind Post and make your way northwest to Splithoof Hold.|
 R Ancient Brazier|ACTIVE|1197|M|42.00,31.55|CC|N|Head inside Splithoof Hold and make your way to the Ancient Brazier.|
-C The Sacred Flame|QID|1197|L|5869|N|Right-click on it to use the Filled Etched Phial to douse the flame and loot the Cloven Hoof.\n[color=FF0000]NOTE: [/color]Do this quick because as you're clearing your way to it, the mobs are starting to respawn back at the beginning. The longer you take, the more you will have to fight.|
-C Pacify the Centaur|QID|4841|QO|1;2;3|N|Finish killing Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance.\nThe Windchasers heal themselves 75%.\nThe Wranglers range attack if you leave melee range.|US|
+C The Sacred Flame|QID|1197|M|42.01,31.47|L|5869|N|Click on it to use the Filled Etched Phial to douse the flame and loot the Cloven Hoof.\n[color=FF0000]NOTE: [/color]Do this quick because as you're clearing your way to it, the mobs are starting to respawn back at the beginning. The longer you take, the more you will have to fight.|
+C Pacify the Centaur|QID|4841|M|43.60,37.76|QO|1;2;3|N|Finish killing Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance.\nThe Windchasers heal themselves 75%.\nThe Wranglers range attack if you leave melee range.|US|
 R Windbreak Canyon|AVAILABLE|1149|M|52.31,43.13|N|Make your way east to Windbreak Canyon.|
-R The Weathered Nook|AVAILABLE|1149|M|54.63,44.68;53.67,42.74|CC|N|Climb up the ramp to the cave entrance.|
-A Test of Faith|QID|1149|M|53.94,41.49|N|From Dorn Plainstalker.|
-R Test of Faith|ACTIVE|1149|M|26.43,32.39|CC|N|Run and jump off the planks sticking out. You'll be teleported back to the cave as you fall.|
+R The Weathered Nook|AVAILABLE|1149|M|54.7,44.8;53.67,42.74|CC|N|Walk up the ramp to the cave entrance.|
+A Test of Faith|QID|1149|M|53.94,41.49|N|From Dorn Plainstalker inside the cave.|
+R Test of Faith|ACTIVE|1149|M|26.43,32.39|CC|N|Run and jump off the planks sticking out.\n[color=FF0000]NOTE: [/color]Don't worry. You'll be teleported back to the cave before you land.|
 T Test of Faith|QID|1149|M|53.94,41.49|N|To Dorn Plainstalker.|
 A Test of Endurance|QID|1150|M|53.60,42.82|ELITE|N|[color=00FFFF]Group suggested or level up to solo[/color]\nFrom Dorn Plainstalker.|
-l Alien Egg|ACTIVE|4821|M|52.35,55.22;56.34,50.39|CN|L|12467|N|Look for the Alien Egg on the ground at one of two locations. There is a rumor of a third location. They have a fairly long respawn timer.|
+C Alien Egg|QID|4821|M|56.34,50.39;52.35,55.22|CN|L|12467|N|Look for the Alien Egg on the ground at one of two locations. There is a rumor of a third location. They have a fairly long respawn timer.|
 R Freewind Post|ACTIVE|4821|M|46.84,47.18|N|Run back to Freewind and take the lift up.|
-T Alien Egg|QID|4821|M|44.69,50.27|N|To Hagar Lightninghoof.|
-A Serpent Wild|QID|4865|M|44.69,50.27|N|From Hagar Lightninghoof.|PRE|4821|
-T Pacify the Centaur|QID|4841|M|45.69,50.68|N|To Cliffwatcher Longhorn.|
+T Alien Egg|QID|4821|M|44.64,50.30|N|To Hagar Lightninghoof.|
+A Serpent Wild|QID|4865|M|44.64,50.30|N|From Hagar Lightninghoof.|PRE|4821|
+T Pacify the Centaur|QID|4841|M|45.66,50.79|N|To Cliffwatcher Longhorn.|
 ;L Level 31|QID|4841|LVL|31|N|You should be around level 31 by this point.|
-A Grimtotem Spying|QID|5064|M|45.69,50.68|N|From Cliffwatcher Longhorn.|PRE|4841|
-T The Sacred Flame|QID|1197|M|46.11,51.64|N|To Rau Cliffrunner.|
+A Grimtotem Spying|QID|5064|M|45.66,50.79|N|From Cliffwatcher Longhorn.|PRE|4841|
+T The Sacred Flame|QID|1197|M|46.14,51.70|N|To Rau Cliffrunner.|
 R Sky path access|ACTIVE|5064|M|31.22,36.91|CC|N|Take the elevator down and run to the base of the ramp leading up to the sky path.|
-C Grimtotem Spying|QID|5064|M|33.20,35.43;31.96,31.38;33.21,28.46;34.91,31.79;33.25,36.28;31.80,32.60|CS|L|12765|N|Make your way to the chest, open it and loot the Secret Note #1.|
-C Grimtotem Spying|QID|5064|M|33.26,36.25;33.78,39.97|CS|L|12766|N|Make your way to the chest inside the tent and loot Secret Note #2.|
-C Grimtotem Spying|QID|5064|M|35.63,39.35;39.32,41.53|CS|L|12768|N|Make your way to the chest inside the tent and loot Secret Note #3.|
-K Wanted - Arnak Grimtotem|ACTIVE|5147|M|35.67,31.01;37.99,26.64;37.65,31.47|CS|QO|1|N|Slowly, pull one mob after another until you can pull Arnak. Kill him and loot Arnak's Hoof.|
-A Free at Last|QID|4904|M|37.98,26.75|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Lakota Windsong.\n[color=FF0000]NOTE: [/color]If she's not there, she's either dead or someone else is on the quest and you'll have to wait.|
+C Grimtotem Spying|QID|5064|M|33.1,35.5;32.5,27.3;34.9,31.7;34.9,31.6;31.80,32.60|CS|L|12765|N|Make your way to the chest, open it and loot the Secret Note #1.|
+C Grimtotem Spying|QID|5064|M|33.78,39.97|L|12766|N|Make your way to the chest inside the tent and loot Secret Note #2.|
+C Grimtotem Spying|QID|5064|M|39.32,41.53|L|12768|N|Make your way to the chest inside the tent and loot Secret Note #3.|
+K Wanted - Arnak Grimtotem|ACTIVE|5147|M|35.7,31.0;37.99,26.64;37.65,31.47|CS|QO|1|N|Slowly, pull one mob after another until you can pull Arnak. Kill him and loot Arnak's Hoof.|
+A Free at Last|QID|4904|M|37.98,26.59|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Lakota Windsong.\n[color=FF0000]NOTE: [/color]If she's not there, she's either dead or someone else is on the quest and you'll have to wait.|
 C Free at Last|QID|4904|M|30.99,37.05|QO|1|N|Escort Lakota Windsong across the sky path and out of Darkcloud Pinnacle to the ground below.\nAs you reach each 'plateau', a group of two will spawn and attack you. They stop spawning when you reach the last plateau and begin the downward path.\n[color=FF0000]NOTE: [/color]Leaving all of the pulling of mobs to her. If you pull at the wrong time, you could end up fighting 5 or 6 at once.|
+A Free at Last|QID|4904|M|37.98,26.59|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=CC00FF]QUEST FAILED [/color]\nGo back to Lakota Windsong to restart the quest.\n[color=FF0000]NOTE: [/color]If she's not there, she's either waiting to respawn, or someone else is now on the quest. Either way, you'll have to wait.|FAIL|
 R Whitereach Post|ACTIVE|4865|M|29.19,33.96;22.22,31.51|CC|
 T Serpent Wild|QID|4865|M|21.58,32.30|N|To Motega Firemane.|
 A Sacred Fire|QID|5062|M|21.58,32.30|N|From Motega Firemane.|PRE|4865|
@@ -73,9 +75,9 @@ C Protect Kanati Greycloud|QID|4966|N|A group of 3 Galak Assassins will spawn an
 T Protect Kanati Greycloud|QID|4966|M|21.30,31.95|N|To Kanati Greycloud.|
 l Incendia Agave|ACTIVE|5062|M|33.69,34.09;33.36,32.88;34.96,33.20;36.05,33.51;34.87,34.82;35.61,36.17;36.63,36.23;36.06,37.40;36.59,38.77|CN|L|12732 10|N|Loot these around and in the pond.|
 R Freewind Post|ACTIVE|4767^5147^5064^4904|M|46.84,47.18|N|Run back to Freewind and take the lift up.|
-T Wind Rider|QID|4767|M|44.91,49.04|N|To Elu.|
-T Wanted - Arnak Grimtotem|QID|5147|M|45.68,50.62|N|To Cliffwatcher Longhorn.|
-T Grimtotem Spying|QID|5064|M|45.69,50.78|N|To Cliffwatcher Longhorn.|
+T Wind Rider|QID|4767|M|44.84,48.96|N|To Elu.|
+T Wanted - Arnak Grimtotem|QID|5147|M|45.66,50.79|N|To Cliffwatcher Longhorn.|
+T Grimtotem Spying|QID|5064|M|45.66,50.79|N|To Cliffwatcher Longhorn.|
 T Free at Last|QID|4904|M|45.98,51.58|N|To Thalia Amberhide.|
 
 ; --- Thunder Bluff
@@ -86,7 +88,7 @@ A Arikara|QID|5088|M|69.87,30.92|Z|Thunder Bluff|ELITE|N|[color=FF8000]Elite: [/
 ; --- Thousand Needles
 F Freewind Post|ACTIVE|5088|M|47.02,49.83|Z|Thunder Bluff|
 R Sky path access|ACTIVE|5088|M|31.22,36.91|N|Run to the base of the ramp leading up to the sky path.|
-C Arikara|QID|5088|M|33.13,35.29;35.66,30.98;37.18,33.14;38.02,35.33|CC|QO|1;2|LVL|32|N|Make your way to the Sacred Fire of Life. Right-click on it to summon Arikara. Kill him and loot his skin. Be sure to clear all of the mobs before you summon Arikara.|
+C Arikara|QID|5088|M|33.13,35.29;35.66,30.98;37.18,33.14;38.02,35.33|CC|QO|1;2|LVL|32|N|Make your way to the Sacred Fire of Life. Click on it to summon Arikara. Kill him and loot his skin. Be sure to clear all of the mobs before you summon Arikara.|
 ;L Level 32|QID|5151|N|You should be around level 32 by this point.|
 R Whitereach Post|ACTIVE|5088|M|22.28,31.56|N|Make your way back down to the ground and run to Whitereach Post.|
 T Arikara|QID|5088|M|21.61,32.25|N|To Motega Firemane.|
@@ -109,8 +111,8 @@ C A New Ore Sample|QID|1153|N|Kill Gravelsnout Surveyors and Diggers until one d
 
 ; --- The Barrens
 R Freewind Post|ACTIVE|1153|M|46.84,47.18|N|Run back to Freewind and take the lift up.|
-F Camp Taurajo|ACTIVE|1153|M|45.05,49.16|
-T A New Ore Sample|QID|1153|M|45,57.6|Z|The Barrens|N|To Tatternack Steelforge.|
+F Camp Taurajo|ACTIVE|1153|M|46.14,51.70|
+T A New Ore Sample|QID|1153|M|45.10,57.69|Z|The Barrens|N|To Tatternack Steelforge.|
 
 ; --- Thunder Bluff
 F Thunder Bluff|QID|1131|M|44.46,59.14|Z|The Barrens|
@@ -166,8 +168,8 @@ C Hollow Vulture Bone|QID|1176|N|Kill Salt Flats Vultures/Scavengers to collect 
 l Rocket Car Parts|ACTIVE|1110|L|5798 30|N|You'll find these scattered on the ground in Shimmering Flats.|S|
 K A Bump in the Road|ACTIVE|1175|QO|3;2;1|N|You'll find the Basilisks (lv 30-31) in the NW quadrant, the Crystalhides (32-33) all over, and the Gazers (34-35) in the SE quadrant.|
 ;L Level 33|QID|1147|N|You should be around level 33 by this point.|LVL|33|
-A Parts of the Swarm|QID|1148|U|5877|N|Click the Cracked Silithid Carapace to activate the quest.|PRE|
-* Extra Cracked Silithid Carapace|AVAILABLE|-1148|N|Dispose of these if you pick up anymore.|U|5877|
+A Parts of the Swarm|QID|1148|N|Click the Cracked Silithid Carapace to activate the quest.|U|5877|PRE|
+* Extra Cracked Silithid Carapace|AVAILABLE|-1148|N|Dispose of these if you pick up anymore.|U|5877|O|
 C Parts of the Swarm|QID|1148|L|5855 1|N|Kill Silithids to collect a Silithid Heart.|S|
 C Parts of the Swarm|QID|1148|L|5854 5|N|Kill Silithids to collect Silithid Talons.|S|
 C Parts of the Swarm|QID|1148|L|5853 3|N|Kill Silithids to collect Intact Silithid Carapaces.|S|
@@ -186,7 +188,7 @@ T Rocket Car Parts|QID|1110|M|77.8,77.2|Z|Thousand Needles|N|To Kravel Koalbeard
 A Hemet Nesingwary Jr.|QID|5762|M|77.84,77.22|N|From Kravel Koalbeard.|
 T The Swarm Grows|QID|1147|M|67.59,63.93|N|To Moktar Krin.|
 R Freewind Post|AVAILABLE|5361|M|47.63,49.04|N|Run back to Freewind and take the lift up.|
-A Family Tree|QID|5361|M|45.68,50.69|N|From Cliffwatcher Longhorn.|
+A Family Tree|QID|5361|M|45.66,50.79|N|From Cliffwatcher Longhorn.|
 
 ; --- The Barrens/Orgrimmar
 F The Crossroads|ACTIVE|1148|M|45.14,49.09|Z|The Barrens|N|Fly to the Crossroads.|
@@ -309,7 +311,7 @@ l Clam Bait|ACTIVE|6142|L|15924 10|N|Finish collecting the Soft-shelled Clam Mea
 C Other Fish to Fry|QID|6143|M|34.17,25.21|Z|Desolace|QO|1;2;3|N|Slay Slitherblade Myrmidons, Nagas, and Sorceresses.|
 l Rackmore's Golden Key|ACTIVE|6161|L|15881|N|Kill Nagas until they drop one.|US|
 T Claim Rackmore's Treasure!|QID|6161|M|29.98,8.72|Z|Desolace|N|Clear all mobs around the chest. Open the chest to complete the quest.|
-C Lord Kargaru|QID|6027|M|28.66,7.09|Z|Desolace|L|15803|N|Right-click on the Serpent Statue to summon Lord Kargaru. Kill him and loot the Book of the Ancients.|
+C Lord Kargaru|QID|6027|M|28.66,7.09|Z|Desolace|L|15803|N|Click on the Serpent Statue to summon Lord Kargaru. Kill him and loot the Book of the Ancients.|
 C Oracle Crystal|ACTIVE|1482|N|Kill Slitherblade Oracles until one drops an Oracle Crystal.\n21% drop rate|US|
 T Book of the Ancients|QID|6027|M|40.96,29.08;38.88,27.16|Z|Desolace|CC|N|Swim back to shore and climb the ramp to Azore Aldamort at Ethel Rethor.|
 R Kormek's Hut|AVAILABLE|5821|M|60.33,38.11|Z|Desolace|N|Follow the road east to Kormek's Hut.\nYou are going to go and look for Cork Gizelton and his caravan.|
