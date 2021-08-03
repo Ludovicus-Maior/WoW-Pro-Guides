@@ -447,7 +447,7 @@ A Arconus the Insatiable|QID|10353|M|60.86,41.59|N|Head inside the cave. At the 
 C A Not-So-Modest Proposal|QID|10270|M|60.92,41.56|N|Pick up the power pack right behind Agent Ya-Six.|
 C Arconus the Insatiable|QID|10353|U|29473|M|60.07,40.46|N|Head back the way you came, at the first spilt you come to, take a left, then another left at the next split. Kill Arconus.|
 C The Flesh Lies...|QID|10345|US|U|29473|M|60.61,43.96|N|Use the Protectorate Igniter on Withered Corpses from a distance. If you get too close you will get aggro from the Fleshbeast inside the corpses.|
-T The Flesh Lies...|QID|10345|M|59.38,45.11|N|To Agent Araxes.|
+T The Flesh Lies...|QID|10345|U|29473|M|59.38,45.11|N|To Agent Araxes.|
 C Recipe for Destruction|QID|10437|S|M|60.38,42.75|N|Run around Manaforge Ultris, killing and looting Voidskriekers and Unstable Voidwraiths for the fragments.|
 C Electro-Shock Goodness!|QID|10411|U|29737|M|59.44,40.22|N|Use Navuud's Concoction, hit Seeping Sludge until they split into Globules, then kill the Globules.|
 C Recipe for Destruction|QID|10437|US|M|60.38,42.75|N|Run around Manaforge Ultris, killing and looting Voidskriekers and Unstable Voidwraiths for the fragments.|
