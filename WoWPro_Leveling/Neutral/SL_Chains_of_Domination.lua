@@ -462,7 +462,7 @@ C The Grand Reception|QID|63591|M|51.10,41.90|Z|2017;Spires of Ascenion|QO|4|CHA
 C The Grand Reception|QID|63591|M|54.28,43.49|Z|2017;Spires of Ascenion|QO|5|CHAT|N|Speak to Pelagos.|COV|Kyrian|
 T The Grand Reception|QID|63591|M|55.77,29.99|Z|2017;Spires of Ascenion|N|To Polemarch Kalisthene.|COV|Kyrian|
 A The New Path|QID|63592|PRE|63591|M|55.77,29.99|Z|2017;Spires of Ascenion|N|From Polemarch Kalisthene.|COV|Kyrian|
-A The New Path|QID|63592|M|55.77,29.99|Z|2017;Spires of Ascenion|N|From Polemarch Kalisthene.|COV|-Kyrian|
+A The New Path|QID|63592|PRE|63584|M|55.77,29.99|Z|2017;Spires of Ascenion|N|From Polemarch Kalisthene.|COV|-Kyrian|
 C The New Path|QID|63592|M|55.77,29.99|Z|2017;Spires of Ascenion|QO|1|CHAT|N|Speak to Kalisthene.|
 C The New Path|QID|63592|M|43.78,68.41|Z|2018;Spires of Ascenion|QO|2|CHAT|N|Speak with Kleia to begin the Ceremony.|
 T The New Path|QID|63592|M|46.07,57.56|Z|2018;Spires of Ascenion|N|To Polemarch Adrestes.|
