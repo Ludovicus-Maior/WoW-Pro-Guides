@@ -393,7 +393,7 @@ A Inform the Primus|QID|64437|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dung
 T Inform the Primus|QID|64437|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; A New Path
-A A Paladin's Soul|QID|63579|M|62.57,25.66|Z|1961;Korthia|N|From Thenios.|PRE|64437|REN|56|
+A A Paladin's Soul|QID|63579|M|62.57,25.50|Z|1961;Korthia|N|From Thenios.|PRE|64437|REN|56|
 F Ve'nari's Refuge|ACTIVE|63579|M|64.97,23.66|Z|1961;Korthia|N|Head to the flightmaster and take a flight to Ve'nari's Refuge.|
 P Torghast, Tower of the Damned|ACTIVE|63579|M|48.18,39.44|Z|The Maw|N|Take the portal to Torghast, Tower of the Damned.|
 C A Paladin's Soul|QID|63579|M|37.87,46.99|Z|Torghast - Entrance!Instance|QO|1|CHAT|N|Interact with the Wayfinder in Torghast.|
@@ -452,10 +452,21 @@ C The Vesper Rings|QID|63590|M|21.01,22.87|Z|Bastion!The Shadowlands|N|Speak wit
 T The Vesper Rings|QID|63590|M|20.63,22.88|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A A Triumphant Return|QID|63584|PRE|63590|M|20.63,22.88|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
 T A Triumphant Return|QID|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Kalisthene.|
-A The New Path|QID|63592|PRE|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Kalisthene.|
-C The New Path|QID|63592|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|CHAT|N|Speak to Kalisthene.|
-C The New Path|QID|63592|QO|2|CHAT|N|Speak with Kleia to begin the Ceremony.|
-T The New Path|QID|63592|N|To Polemarch Adrestes.| ; Z is nil, this may change in future iterations.
+A The Grand Reception|QID|63591|PRE|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Kalisthene.|
+C The Grand Reception|QID|63591|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|CHAT|N|Speak to Kalisthene.|
+C The Grand Reception|QID|63591|M|45.39,58.73|Z|2017;Spires of Ascenion|QO|2|CHAT|N|Speak to Uther.|
+C The Grand Reception|QID|63591|M|47.19,44.23|Z|2017;Spires of Ascenion|QO|3|CHAT|N|Speak to Mikanikos.|
+C The Grand Reception|QID|63591|M|51.10,41.90|Z|2017;Spires of Ascenion|QO|4|CHAT|N|Speak to Kleia.|
+C The Grand Reception|QID|63591|M|54.28,43.49|Z|2017;Spires of Ascenion|QO|5|CHAT|N|Speak to Pelagos.|
+T The Grand Reception|QID|63591|M|55.77,29.99|Z|2017;Spires of Ascenion|N|To Polemarch Kalisthene.|
+A The New Path|QID|63592|PRE|63591|M|55.77,29.99|Z|2017;Spires of Ascenion|N|From Polemarch Kalisthene.|
+C The New Path|QID|63592|M|55.77,29.99|Z|2017;Spires of Ascenion|QO|1|CHAT|N|Speak to Kalisthene.|
+C The New Path|QID|63592|M|43.78,68.41|Z|2018;Spires of Ascenion|QO|2|CHAT|N|Speak with Kleia to begin the Ceremony.|
+T The New Path|QID|63592|M|46.07,57.56|Z|2018;Spires of Ascenion|N|To Polemarch Adrestes.|
+A New Sigil of the Kyrian|QID|63593|PRE|63592|M|46.07,57.56|Z|2018;Spires of Ascenion|N|From Polemarch Adrestes.|
+P Oribos|QID|63593|ACTIVE|63593|M|51.28,72.60|Z|2018;Spires of Ascenion|N|Use the Anima Gateway on the floor.|
+P Korthia|QID|63593|ACTIVE|63593|M|30.79,23.31|Z|Ring of Transference@Oribos|NC|N|Run through the portal to Korthia in the maw.|
+T New Sigil of the Kyrian|QID|63593|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; What Lies Ahead
 
@@ -562,6 +573,6 @@ N Renown Level 47|AVAILABLE|63612|N|You must reach Renown level 47 to continue t
 N Renown Level 50|AVAILABLE|63659|N|You must reach Renown level 50 to continue to the next chapter.|REN|-50|PRE|63622|
 N Renown Level 52|AVAILABLE|63672|N|You must reach Renown level 52 to continue to the next chapter.|REN|-52|PRE|63656|
 N Renown Level 56|AVAILABLE|63579|N|You must reach Renown level 56 to continue to the next chapter.|REN|-56|PRE|64437|
-N Renown Level 58|AVAILABLE|63579|N|You must reach Renown level 58 to continue to the next chapter.|REN|-58|PRE|63592|
+N Renown Level 58|AVAILABLE|63944|N|You must reach Renown level 58 to continue to the next chapter.|REN|-58|PRE|63593|
 ]]
 end)
