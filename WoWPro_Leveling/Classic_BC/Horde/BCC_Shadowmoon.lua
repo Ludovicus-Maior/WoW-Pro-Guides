@@ -13,7 +13,7 @@ C Besieged!|QID|10595|M|31.03,34.36|N|Kill 10 Infernal Attackers.|
 T Besieged!|QID|10595|M|30.46,32.49|N|To Blood Guard Gulmok.|
 A To Legion Hold|QID|10596|PRE|10595|M|30.39,32.50|N|From Blood Guard Gulmok.|
 A Wanted: Uvuros, Scourge of Shadowmoon|QID|10647|M|30.45,30.91|N|From the Wanted Poster.|
-A The Sketh'lon Wreckage|QID|10760|PRE|10569|M|31.00,29.87|N|From Sergeant Kargrul.|
+A The Sketh'lon Wreckage|QID|10760|M|31.00,29.87|N|From Sergeant Kargrul.|
 f Shadowmoon Village|QID|10760|M|30.32,29.14|N|At Drek'Gol.|
 A What Strange Creatures...|QID|10660|M|30.00,28.35|N|From Researcher Tiorus.|
 A A Haunted History|QID|10624|PRE|11046|M|29.91,27.71|N|From Chief Apothecary Hildagard.|
