@@ -47,11 +47,11 @@ B [spell=10840/Mageweave Bandage]|QID|129016113|P|First Aid;129;0+125|M|36.4,30.
 B [spell=7924/Expert First Aid]|QID|129016084|P|First Aid;129;0+125|M|27.0,58.8|Z|1417;Arathi Highlands|RECIPE|7924|L|16084|T|Denab Walker|N|Purchase [item=16084/Expert First Aid] from Denab Walker, in Stromgarde Keep, Arathi Highlands, AND the other two Manuals.|FACTION|Alliance|
 B [spell=7929/Heavy Silk Bandage]|QID|129016112|P|First Aid;129;0+125|M|27.0,58.8|Z|1417;Arathi Highlands|RECIPE|7929|L|16112|T|Denab Walker|N|Purchase [item=16112/Manual - Heavy Silk Bandage] from Denab Walker, in Stromgarde Keep, Arathi Highlands, AND the other two Manuals.|FACTION|Alliance|
 B [spell=10840/Mageweave Bandage]|QID|129016113|P|First Aid;129;0+125|M|27.0,58.8|Z|1417;Arathi Highlands|RECIPE|10840|L|16113|T|Denab Walker|N|Purchase [item=16113/Manual - Mageweave Bandage] from Denab Walker, in Stromgarde Keep, Arathi Highlands, AND the other two Manuals.|FACTION|Alliance|
-U Learn Recipe|QID|129001251|P|First Aid;129;0+125|RECIPE|7924|U|16084|Learn [spell=7924/Expert First Aid] from the [item=16084/Expert First Aid Under Wraps].|
+U Learn Recipe|QID|129001251|P|First Aid;129;0+125|RECIPE|7924|U|16084|N|Learn [spell=7924/Expert First Aid] from the [item=16084/Expert First Aid Under Wraps].|
 M [item=6450/Silk Bandage]|QID|129007928|P|First Aid;129;0+180;1|ITEM|6450|CRAFT|7928 50|MATS|4306 1|
-U Learn Recipe|QID|129001251|P|First Aid;129;0+125|RECIPE|7924|U|16112|Learn [spell=7929/Heavy Silk Bandage] from the [item=16112/Manual - Heavy Silk Bandage].|
+U Learn Recipe|QID|129001251|P|First Aid;129;0+125|RECIPE|7924|U|16112|N|Learn [spell=7929/Heavy Silk Bandage] from the [item=16112/Manual - Heavy Silk Bandage].|
 M [item=6451/Heavy Silk Bandage]|QID|129007929|P|First Aid;129;0+210;1|ITEM|6451|CRAFT|7929 50|MATS|4306 2|
-U Learn Recipe|QID|129001251|P|First Aid;129;0+125|RECIPE|7924|U|16113|Learn [spell=10840/Mageweave Bandage] from the [item=16113/Manual - Mageweave Bandage].|
+U Learn Recipe|QID|129001251|P|First Aid;129;0+125|RECIPE|7924|U|16113|N|Learn [spell=10840/Mageweave Bandage] from the [item=16113/Manual - Mageweave Bandage].|
 M [item=8544/Mageweave Bandage]|QID|129010840|P|First Aid;129;0+225;1|ITEM|8544|CRAFT|10840 30|MATS|4338 1|
 A Horde Trauma|QID|6623|LEAD|6622|M|63.0,84.4|Z|1454;Orgrimmar|P|First Aid;129;0+225|LVL|35|N|Visit Arnok to get the lead quest for learning Artisan First Aid.|FACTION|Horde|
 A Alliance Trauma|QID|6625|LEAD|6624|M|54.8,58.6|Z|1455;Ironforge|P|First Aid;129;0+225|LVL|35|N|Visit Nissa Firestone to get the lead quest for learning Artisan First Aid.|FACTION|Alliance|
@@ -73,9 +73,9 @@ B [spell=27028/Master First Aid]|QID|129003001|P|First Aid;129;0+300|M|22.4,39.2
 B [spell=27032/Netherweave Bandage]|QID|129003301|P|First Aid;129;0+300|M|22.4,39.2|Z|1944;Hellfire Peninsula|RECIPE|27032|L|21992|T|Burko|N|Purchase [item=21992/Manual - Netherweave Bandage] from Burko, in Temple of Telhamat, Hellfire Peninsula.|FACTION|Alliance|
 B [spell=27033/Heavy Netherweave Bandage]|QID|129003601|P|First Aid;129;0+300|M|22.4,39.2|Z|1944;Hellfire Peninsula|RECIPE|27033|L|21993|T|Burko|N|Purchase [item=21993/Manual - Heavy Netherweave Bandage] from Burko, in Temple of Telhamat, Hellfire Peninsula.|FACTION|Alliance|
 M [item=14530/Heavy Runecloth Bandage]|QID|129018630|P|First Aid;129;0+330;1|ITEM|14530|CRAFT|18630 70|MATS|14047 2|
-U Learn Recipe|QID|129003301|P|First Aid;129;0+330|RECIPE|27032|U|21992|Learn [spell=27032/Netherweave Bandage] from the [item=21992/Manual - Netherweave Bandage].|
+U Learn Recipe|QID|129003301|P|First Aid;129;0+330|RECIPE|27032|U|21992|N|Learn [spell=27032/Netherweave Bandage] from the [item=21992/Manual - Netherweave Bandage].|
 M [item=21990/Netherweave Bandage]|QID|129027032|P|First Aid;129;0+360;1|ITEM|21990|CRAFT|27032 45|MATS|21877 1|
-U Learn Recipe|QID|129003601|P|First Aid;129;0+360|RECIPE|27033|U|21993|Learn [spell=27033/Heavy Netherweave Bandage] from the [item=21993/Manual - Heavy Netherweave Bandage].|
+U Learn Recipe|QID|129003601|P|First Aid;129;0+360|RECIPE|27033|U|21993|N|Learn [spell=27033/Heavy Netherweave Bandage] from the [item=21993/Manual - Heavy Netherweave Bandage].|
 M [item=21991/Heavy Netherweave Bandage]|QID|129027033|P|First Aid;129;0+375;1|ITEM|21991|CRAFT|27033 70|MATS|21877 2|
 
 N First Aid.|N|That completes First Aid.|
