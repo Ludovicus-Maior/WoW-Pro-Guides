@@ -1,3 +1,27 @@
+# Release 9.1.0-A2 / 1.13.7-B2 / 2.5.1-B2
+## Bug Fixes
+* Update Covenant handling for Retail
+* Print out area ids only if the map id is valid
+* Semicolon match needed a fix on negation
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Nagrand, Shadowmoon, Stormsong, Arathi Highlands, Northern Stranglethorn, Western_Plaguelands, Jade Forest, Howling_Fjord
+* Horde: None!
+* Neutral: BlackEmpire Outro, Broken Shore, Highmountain, Chains of Domination, DarkPortal Intro
+### Classic Leveling
+* None
+### Burning Crusade Classic Leveling
+* Alliance: Shadowmoon, Zangarmarsh, Alliance 25-30
+* Horde: Shadowmoon, Ghostlands 10-19, Chapter1 21-30, Chapter2 30-40
+* Neutral: Netherstorm
+### Professions
+* Classic: Alch, BS, Eng, First Aid
+* BCC: Alch, BS, Ench, Eng, First Aid
+* Retail: Alch, BS, Eng, Insc, LW
+### World Events
+BCC: Midsummer (Alliance)
+
 # Release 9.1.0-A1 / 1.13.7-B1 / 2.5.1-B1
 ## Bug Fixes
 * On FAILed quests, uncomplete all steps for that quest
