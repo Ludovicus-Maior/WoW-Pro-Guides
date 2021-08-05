@@ -427,7 +427,9 @@ C Defeat Enemies|QID|63583|M|44.24,66.70|Z|Western Plaguelands|QO|2|N|Kill Scour
 C I Intend to Live Forever|QID|63583|M|45.29,69.68|Z|Western Plaguelands|QO|4|N|Fight Arthas.|
 T I Intend to Live Forever|QID|63583|M|39.96,20.10|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A Blind Loyalty|QID|63585|PRE|63583|M|39.96,20.10|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
-C Blind Loyalty|QID|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Speak with  Adrestes at Elysian Hold. (Not sure how non Kyrians get there.)|
+C Blind Loyalty|QID|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Speak with Adrestes at Elysian Hold.|COV|Kyrian|
+C Blind Loyalty|QID|63585|M|40.36,19.66|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak with Kyrian Courier.|COV|-Kyrian|
+C Blind Loyalty|QID|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2|CHAT|N|Speak with Adrestes at Elysian Hold.|COV|-Kyrian|
 T Blind Loyalty|QID|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|
 A Compassion in Devotion|QID|63586|PRE|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|
 T Compassion in Devotion|QID|63586|M|24.34,30.13|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
@@ -452,14 +454,15 @@ C The Vesper Rings|QID|63590|M|21.01,22.87|Z|Bastion!The Shadowlands|N|Speak wit
 T The Vesper Rings|QID|63590|M|20.63,22.88|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A A Triumphant Return|QID|63584|PRE|63590|M|20.63,22.88|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
 T A Triumphant Return|QID|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Kalisthene.|
-A The Grand Reception|QID|63591|PRE|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Kalisthene.|
-C The Grand Reception|QID|63591|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|CHAT|N|Speak to Kalisthene.|
-C The Grand Reception|QID|63591|M|45.39,58.73|Z|2017;Spires of Ascenion|QO|2|CHAT|N|Speak to Uther.|
-C The Grand Reception|QID|63591|M|47.19,44.23|Z|2017;Spires of Ascenion|QO|3|CHAT|N|Speak to Mikanikos.|
-C The Grand Reception|QID|63591|M|51.10,41.90|Z|2017;Spires of Ascenion|QO|4|CHAT|N|Speak to Kleia.|
-C The Grand Reception|QID|63591|M|54.28,43.49|Z|2017;Spires of Ascenion|QO|5|CHAT|N|Speak to Pelagos.|
-T The Grand Reception|QID|63591|M|55.77,29.99|Z|2017;Spires of Ascenion|N|To Polemarch Kalisthene.|
-A The New Path|QID|63592|PRE|63591|M|55.77,29.99|Z|2017;Spires of Ascenion|N|From Polemarch Kalisthene.|
+A The Grand Reception|QID|63591|PRE|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Kalisthene.|COV|Kyrian|
+C The Grand Reception|QID|63591|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|CHAT|N|Speak to Kalisthene.|COV|Kyrian|
+C The Grand Reception|QID|63591|M|45.39,58.73|Z|2017;Spires of Ascenion|QO|2|CHAT|N|Speak to Uther.|COV|Kyrian|
+C The Grand Reception|QID|63591|M|47.19,44.23|Z|2017;Spires of Ascenion|QO|3|CHAT|N|Speak to Mikanikos.|COV|Kyrian|
+C The Grand Reception|QID|63591|M|51.10,41.90|Z|2017;Spires of Ascenion|QO|4|CHAT|N|Speak to Kleia.|COV|Kyrian|
+C The Grand Reception|QID|63591|M|54.28,43.49|Z|2017;Spires of Ascenion|QO|5|CHAT|N|Speak to Pelagos.|COV|Kyrian|
+T The Grand Reception|QID|63591|M|55.77,29.99|Z|2017;Spires of Ascenion|N|To Polemarch Kalisthene.|COV|Kyrian|
+A The New Path|QID|63592|PRE|63591|M|55.77,29.99|Z|2017;Spires of Ascenion|N|From Polemarch Kalisthene.|COV|Kyrian|
+A The New Path|QID|63592|PRE|63584|M|55.77,29.99|Z|2017;Spires of Ascenion|N|From Polemarch Kalisthene.|COV|-Kyrian|
 C The New Path|QID|63592|M|55.77,29.99|Z|2017;Spires of Ascenion|QO|1|CHAT|N|Speak to Kalisthene.|
 C The New Path|QID|63592|M|43.78,68.41|Z|2018;Spires of Ascenion|QO|2|CHAT|N|Speak with Kleia to begin the Ceremony.|
 T The New Path|QID|63592|M|46.07,57.56|Z|2018;Spires of Ascenion|N|To Polemarch Adrestes.|
