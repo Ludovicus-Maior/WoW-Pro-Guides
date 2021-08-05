@@ -38,8 +38,7 @@ l [item=13463/Dreamfoil]|QID|171000004|L|13463 14|ITEM|13463|N|You'll need about
 l [item=13464/Golden Sansam]|QID|171000004|L|13464 24|ITEM|13464|N|You'll need about 24 Golden Sansams. (10 from above, and 14 more if you choice this herb).|
 l [item=13465/Mountain Silversage]|QID|171000004|L|13465 14|ITEM|13465|N|You'll need about 14 Mountain Silversages.|
 B [item=3371/Crystal Vial]|QID|171000004|L|3371 95|ITEM|3371|N|You'll need about 95 Crystal Vials.|
-B [spell=28562/Major Dreamless Sleep Potion]|QID|171028562|M|51.0,57.8|Z|105;Blade's Edge
-Mountains|RECIPE|28562|N|Purchase [item=22911/Recipe: Major Dreamless Sleep Potion] from Daga Ramba, Thunderlord Stronghold, Blade's Edge Mountains.|FACTION|Horde|
+B [spell=28562/Major Dreamless Sleep Potion]|QID|171028562|M|51.0,57.8|Z|105;Blade's Edge Mountains|RECIPE|28562|N|Purchase [item=22911/Recipe: Major Dreamless Sleep Potion] from Daga Ramba, Thunderlord Stronghold, Blade's Edge Mountains.|FACTION|Horde|
 B [spell=28555/Super Mana Potion]|QID|171028555|M|51.0,57.8|Z|105;Blade's Edge Mountains|RECIPE|28562|N|Purchase [item=22907/Recipe: Super Mana Potion] from Daga Ramba, Thunderlord Stronghold, Blade's Edge Mountains.|FACTION|Horde|
 B [spell=28562/Major Dreamless Sleep Potion]|QID|171028562|M|57.6,53.4|Z|108;Terokkar Forest|RECIPE|28562|N|Purchase [item=22911/Recipe: Major Dreamless Sleep Potion] from Leeli Longhaggle, Allerian Stronghold, Terokkar Forest.|FACTION|Alliance|
 B [spell=28555/Super Mana Potion]|QID|171028555|M|67.8,48.0|Z|102;Zangarmarsh|RECIPE|28562|N|Purchase [item=22907/Recipe: Super Mana Potion] from Haalrun, Telredor, Zangarmarsh.|FACTION|Alliance|
