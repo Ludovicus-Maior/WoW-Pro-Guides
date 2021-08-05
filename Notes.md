@@ -6,7 +6,7 @@
 
 ## Guide Updates
 ### Retail Leveling
-* Alliance: Nagrand, Shadowmoon, Stormsong, Arathi Highlands, Northern Stranglethorn, Western_Plaguelands, Jade Forest, Howling_Fjord
+* Alliance: Nagrand, Shadowmoon, Stormsong, Arathi Highlands, Northern Stranglethorn, Western Plaguelands, Jade Forest, Howling Fjord
 * Horde: None!
 * Neutral: BlackEmpire Outro, Broken Shore, Highmountain, Chains of Domination, DarkPortal Intro
 ### Classic Leveling
