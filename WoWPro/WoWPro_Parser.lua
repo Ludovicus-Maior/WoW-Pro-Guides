@@ -823,10 +823,13 @@ function WoWPro.ParseSteps(steps)
     local i = 2  -- Leave room the the L step
     local _, myclass = _G.UnitClass("player")
     local _, myrace = _G.UnitRace("player")
-	local mycovenant = _G.C_Covenants.GetCovenantData(_G.C_Covenants.GetActiveCovenantID()).name
+    local mycovenant = ""
     local myFaction = WoWPro.Faction:upper()
     local zone = (WoWPro.Guides[GID].zone or ""):match("([^%(]+)"):trim()
 
+    if _G.C_Covenants and (_G.C_Covenants.GetActiveCovenantID() > 0) then
+        mycovenant = _G.C_Covenants.GetCovenantData(_G.C_Covenants.GetActiveCovenantID()).name
+    end
     if WoWPro.Recorder then
         i = 1 -- No extra steps for recorder guides
     end
