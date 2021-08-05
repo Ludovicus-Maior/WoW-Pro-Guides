@@ -89,7 +89,7 @@ M [item=13446/Major Healing Potion]|QID|171017556|P|Alchemy;171;0+300;1|ITEM|134
 = Learn [spell=28596/Master Alchemy]|QID|171028596|M|52.2,36.4|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|P|Alchemy;171;0+300|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Apothecary Antonivich, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
 = Learn [spell=28596/Master Alchemy]|QID|171028596|M|53.8,65.8|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|P|Alchemy;171;0+300|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Alchemist Gribble, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
 = Learn [spell=28596/Master Alchemy]|QID|171028596|M|45.8,20.4|Z|1955;Shattrath City|IZ|3703;Shattrath City|P|Alchemy;171;0+300|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Lorokeem, Lower City, in Shattrath City.|
-= Learn [spell=28596/Master Alchemy]|QID|171028596|P|Alchemy;171;0+300|SPELL|Master Alchemy;28596|LVL|50|Learn Master Alchemy in Outlands. Either in Shattrath or at Major Holds in Hellfire Peninsula.|
+= Learn [spell=28596/Master Alchemy]|QID|171028596|P|Alchemy;171;0+300|SPELL|Master Alchemy;28596|LVL|50|N|Learn Master Alchemy in Outlands. Either in Shattrath or at Major Holds in Hellfire Peninsula.|
 = Learn Recipe|QID|171003001|P|Alchemy;171;0+300|RECIPE|33732|N|Learn [spell=33732/Volatile Healing Potion] Recipe from Trainer.|
 = Learn Recipe|QID|171003002|P|Alchemy;171;0+300|RECIPE|33738|N|Learn [spell=33738/Onslaught Elixir] Recipe from Trainer.|
 = Learn Recipe|QID|171003003|P|Alchemy;171;0+300|RECIPE|33740|N|Learn [spell=33740/Adepts Elixir] Recipe from Trainer.|
