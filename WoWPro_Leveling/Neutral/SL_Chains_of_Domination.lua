@@ -432,6 +432,7 @@ C Blind Loyalty|QID|63585|M|40.36,19.66|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Sp
 C Blind Loyalty|QID|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2|CHAT|N|Speak with Adrestes at Elysian Hold.|COV|-Kyrian|
 T Blind Loyalty|QID|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|
 A Compassion in Devotion|QID|63586|PRE|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|
+R Citadel of Loyalty|ACTIVE|63586|M|24.34,30.13|Z|Bastion!The Shadowlands|N|Fly to Citadel of Loyalty to meet Polemarch Adrestes.|      
 T Compassion in Devotion|QID|63586|M|24.34,30.13|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A Directing Dedication|QID|63589|PRE|63586|M|24.34,30.13|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
 A Rebuilding Faith|QID|63588|PRE|63586|M|24.43,30.00|Z|Bastion!The Shadowlands|N|From Fallen Disciple Nikolon.|
