@@ -468,7 +468,7 @@ A The Vesper Rings|QID|63590|PRE|63587&63589&63588|M|20.62,22.88|Z|Bastion!The S
 C The Vesper Rings|QID|63590|M|21.01,22.87|Z|Bastion!The Shadowlands|N|Speak with Adrestes to begin the ritual and then defend him from the attacking mawsworn.|
 T The Vesper Rings|QID|63590|M|20.63,22.88|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A A Triumphant Return|QID|63584|PRE|63590|M|20.63,22.88|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
-C A Triumphant Return|QID|63584|CHAT|20.91,22.23|Z|Bastion!The Shadowlands|N|Talk to the Kyrian Courier for a ride to Kalisthene.|COV|-Kyrian|
+C A Triumphant Return|QID|63584|CHAT|M|20.91,22.23|Z|Bastion!The Shadowlands|N|Talk to the Kyrian Courier for a ride to Kalisthene.|COV|-Kyrian|
 T A Triumphant Return|QID|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Kalisthene.|
 A The Grand Reception|QID|63591|PRE|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Kalisthene.|COV|Kyrian|
 C The Grand Reception|QID|63591|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|CHAT|N|Speak to Kalisthene.|COV|Kyrian|
