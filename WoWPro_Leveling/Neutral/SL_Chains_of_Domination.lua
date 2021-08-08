@@ -578,6 +578,6 @@ N Renown Level 47|AVAILABLE|63612|N|You must reach Renown level 47 to continue t
 N Renown Level 50|AVAILABLE|63659|N|You must reach Renown level 50 to continue to the next chapter.|REN|-50|PRE|63622|
 N Renown Level 52|AVAILABLE|63672|N|You must reach Renown level 52 to continue to the next chapter.|REN|-52|PRE|63656|
 N Renown Level 56|AVAILABLE|63579|N|You must reach Renown level 56 to continue to the next chapter.|REN|-56|PRE|64437|
-N Renown Level 58|AVAILABLE|63944|N|You must reach Renown level 58 to continue to the next chapter.|REN|-58|PRE|63593|
+N Renown Level 58|N|You must reach Renown level 58 to continue to the next chapter.|REN|-58|PRE|63593|;AVAILABLE currently unknown
 ]]
 end)
