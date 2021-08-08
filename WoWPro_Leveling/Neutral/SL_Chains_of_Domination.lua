@@ -254,6 +254,18 @@ A Victory in Our Name|QID|63622|PRE|63620|M|61.97,41.54|Z|The Maw|N|From Barones
 P Keeper's Respite|ACTIVE|63622|M|61.56,40.74|Z|The Maw|N|Take the portal to Keeper's Respite.|
 C Victory in Our Name|QID|63622|M|60.28,27.34|Z|1961;Korthia|CHAT|N|Speak with Draka.|
 T Victory in Our Name|QID|63622|M|62.83,26.38|Z|1961;Korthia|N|To The Primus.|
+;Necrolord only quests
+A Filling an Empty Throne|QID|63623|PRE|63622|M|62.83,26.38|Z|1961;Korthia|N|From The Primus.|COV|Necrolord|
+P Ring of Transference|ACTIVE|63623|M|64.47,24.05|Z|1961;Korthia|N|Take the portal to Ring of Transference.|COV|Necrolord|
+F Bleak Redoubt|ACTIVE|63623|M|60.70,68.26|Z|Ring of Transference@Oribos|N|Take Flightpath to Bleak Redoubt|COV|Necrolord|
+T Filling an Empty Throne|QID|63623|M|49.63,50.84|Z|Seat of the Primus!Dungeon|N|To The Primus.|COV|Necrolord|
+A The Roads We Walk|QID|63624|PRE|63623|M|49.63,50.84|Z|Seat of the Primus!Dungeon|N|From The Primus.|COV|Necrolord|
+C The Roads We Walk|QID|63624|M|49.63,50.84|QO|1|NC|Z|Seat of the Primus!Dungeon|N|Watch the Ceremony.|COV|Necrolord|
+C The Roads We Walk|QID|63624|M|46.87,41.84|QO|3|CHAT|Z|Seat of the Primus!Dungeon|N|Speak with Vashj.|COV|Necrolord|
+C The Roads We Walk|QID|63624|M|50.00,36.43|QO|2|CHAT|Z|Seat of the Primus!Dungeon|N|Speak with Draka.|COV|Necrolord|
+C The Roads We Walk|QID|63624|M|51.55,41.07|QO|4|CHAT|Z|Seat of the Primus!Dungeon|N|Speak with Alexandros.|COV|Necrolord|
+T The Roads We Walk|QID|63624|M|49.63,50.84|Z|Seat of the Primus!Dungeon|N|To The Primus.|COV|Necrolord|
+;end of Necrolord only quests
 
 ; The Unseen Guests
 A Dreadlords!|QID|63659|M|60.69,27.67|Z|1961;Korthia|N|From Baroness Vashj.|PRE|63622|REN|50|
@@ -264,6 +276,8 @@ F Sanctuary of the Mad|ACTIVE|63644|M|60.90,68.77|Z|Ring of Transference@Oribos|
 C Dread Tidings|QID|63644|M|29.48,41.72|Z|Revendreth|QO|1|CHAT|N|Speak withBaroness Vashj.|
 P Dawnkeep|ACTIVE|63644|M|26.05,43.86|Z|Revendreth|N|Take the portal to Dawnkeep.|
 T Dread Tidings|QID|63644|M|22.92,43.74|Z|Revendreth|N|To Prince Renathal.|
+A The Dawnkeep Prisoner|PRE|63644|QID|63645|M|22.92,43.74|Z|Revendreth|N|From Prince Renathal.|LEAD|60501|
+T The Dawnkeep Prisoner|QID|63645|M|22.92,43.74|Z|Revendreth|N|To Prince Renathal.|
 A Convoy of the Covenants|QID|63646|PRE|63644|M|22.92,43.74|Z|Revendreth|N|From Prince Renathal.|
 P Sinfall|ACTIVE|63646|M|23.13,43.33|Z|Revendreth|N|Take the portal to Sinfall.|
 C Convoy of the Covenants|QID|63646|M|27.76,41.00|Z|Revendreth|QO|1|CHAT|N|Speak with the Princeguard.|
@@ -363,7 +377,7 @@ T The Big Squeeze|QID|64090|M|35.67,22.72|Z|Revendreth|N|To Lady Moonberry.|
 A Out On the Edge|QID|63680|PRE|64090|M|35.67,22.72|Z|Revendreth|N|From Lady Moonberry.|
 C Out On the Edge|QID|63680|M|34.22,15.86|Z|Revendreth|QO|1|CHAT|N|Speak with Terrified Stoneborn.|
 C Out On the Edge|QID|63680|M|33.89,9.08|Z|Revendreth|QO|2|NC|N|Run to the edge of the keep avoiding detection.|
-C Out On the Edge|QID|63680|M|33.89,9.08|Z|Revendreth|QO|3|NC|N|Fight the Stonewright to rescute Huln.|
+C Out On the Edge|QID|63680|M|33.89,9.08|Z|Revendreth|QO|3|NC|N|Fight the Stonewright to rescue Huln.|
 C Out On the Edge|QID|63680|M|33.89,9.08|Z|Revendreth|QO|4|CHAT|N|Speak with the Stonewright.|
 T Out On the Edge|QID|63680|M|34.03,9.70|Z|Revendreth|N|To Lady Moonberry.|
 A Back to The Heart|QID|63681|PRE|63680|M|34.03,9.70|Z|Revendreth|N|From Lady Moonberry.|
@@ -384,12 +398,12 @@ C The Power of Elune|QID|63682|M|45.24,65.67|Z|Ardenweald!The Shadowlands|QO|3|N
 T The Power of Elune|QID|63682|M|45.26,65.05|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|
 A Winter's Sigil|QID|63683|PRE|63682|M|45.26,65.05|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|
 C Winter's Sigil|QID|63683|M|45.30,65.09|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Click on the Tear of Elune to take it.|
-C Winter's Sigil|QID|63683|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|NightFae|
-C Winter's Sigil|QID|63683|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|-NightFae|
-T Winter's Sigil|QID|63683|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|NightFae|
-T Winter's Sigil|QID|63683|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|-NightFae|
-A Inform the Primus|QID|64437|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|NightFae|PRE|63683|
-A Inform the Primus|QID|64437|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|-NightFae|PRE|63683|
+C Winter's Sigil|QID|63683|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|Night Fae|
+C Winter's Sigil|QID|63683|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|-Night Fae|
+T Winter's Sigil|QID|63683|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
+T Winter's Sigil|QID|63683|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|-Night Fae|
+A Inform the Primus|QID|64437|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|PRE|63683|
+A Inform the Primus|QID|64437|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|-Night Fae|PRE|63683|
 T Inform the Primus|QID|64437|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; A New Path
@@ -444,7 +458,7 @@ C Directing Dedication|QID|63589|M|24.23,22.80|Z|Bastion!The Shadowlands|QO|2|NC
 C Rebuilding Faith|QID|63588|M|24.23,22.80|Z|Bastion!The Shadowlands|N|Attack Forsworn until you convince them to switch sides.|US|
 C Reclaimable Anima|QID|63587|M|24.59,24.31|Z|Bastion!The Shadowlands|N|Kill Mechanical enemies to collect Tainted Centurion Cores.|US|
 T Rebuilding Faith|QID|63588|M|PLAYER|Z|Bastion!The Shadowlands|N|To Fallen Disciple Nikolon.|
-C Directing Dedication|QID|63589|M|22.64,23.37|Z|Bastion!The Shadowlands|QO|3|NC|N|Take the anima gateway beside the Anima Channeller or fly up to Activate South Anima Collector.|
+C Directing Dedication|QID|63589|M|22.64,23.37|Z|Bastion!The Shadowlands|QO|3|NC|N|Take the anima gateway beside the Anima Channeler or fly up to Activate South Anima Collector.|
 C Directing Dedication|QID|63589|M|22.62,22.32|Z|Bastion!The Shadowlands|QO|4|NC|N|Activate North Anima Collector.|
 C Directing Dedication|QID|63589|M|20.65,21.59|Z|Bastion!The Shadowlands|QO|6|NC|N|Take the anima Gateway or fly up to the uppermost platform to Ring North Gate Vesper.|
 C Directing Dedication|QID|63589|M|20.68,24.18|Z|Bastion!The Shadowlands|QO|5|NC|N|Ring South Gate Vesper.|
@@ -454,7 +468,7 @@ A The Vesper Rings|QID|63590|PRE|63587&63589&63588|M|20.62,22.88|Z|Bastion!The S
 C The Vesper Rings|QID|63590|M|21.01,22.87|Z|Bastion!The Shadowlands|N|Speak with Adrestes to begin the ritual and then defend him from the attacking mawsworn.|
 T The Vesper Rings|QID|63590|M|20.63,22.88|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A A Triumphant Return|QID|63584|PRE|63590|M|20.63,22.88|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
-C A Triumphant Return|QID|63584|CHAT|20.91,22.23|Z|Bastion!The Shadowlands|N|Talk to the Kyrian Courier for a ride to Kalisthene.|COV|-Kyrian|
+C A Triumphant Return|QID|63584|CHAT|M|20.91,22.23|Z|Bastion!The Shadowlands|N|Talk to the Kyrian Courier for a ride to Kalisthene.|COV|-Kyrian|
 T A Triumphant Return|QID|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Kalisthene.|
 A The Grand Reception|QID|63591|PRE|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Kalisthene.|COV|Kyrian|
 C The Grand Reception|QID|63591|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|CHAT|N|Speak to Kalisthene.|COV|Kyrian|
