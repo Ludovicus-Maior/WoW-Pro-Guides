@@ -455,13 +455,13 @@ C Reclaimable Anima|QID|63587|M|24.59,24.31|Z|Bastion!The Shadowlands|N|Kill Mec
 C Rebuilding Faith|QID|63588|M|27.76,20.86|Z|Bastion!The Shadowlands|N|Attack Forsworn until you convince them to switch sides.|S|
 C Directing Dedication|QID|63589|M|22.68,24.94|Z|Bastion!The Shadowlands|QO|1|NC|N|Activate South Anima Channeler.|
 C Directing Dedication|QID|63589|M|24.23,22.80|Z|Bastion!The Shadowlands|QO|2|NC|N|Activate North Anima Channeler.|
-C Rebuilding Faith|QID|63588|M|27.76,20.86|Z|Bastion!The Shadowlands|N|Attack Forsworn until you convince them to switch sides.|US|
+C Rebuilding Faith|QID|63588|M|24.23,22.80|Z|Bastion!The Shadowlands|N|Attack Forsworn until you convince them to switch sides.|US|
 C Reclaimable Anima|QID|63587|M|24.59,24.31|Z|Bastion!The Shadowlands|N|Kill Mechanical enemies to collect Tainted Centurion Cores.|US|
-C Directing Dedication|QID|63589|M|22.64,23.37|Z|Bastion!The Shadowlands|QO|3|NC|N|Take the anima gateway beside the Anima Channeller or fly up to Activate South Anima Collector.|
-C Directing Dedication|QID|63589|M|22.62,22.32|Z|Bastion!The Shadowlands|QO|4|NC|N|Activate North Anima Collector.|
-C Directing Dedication|QID|63589|M|20.65,21.59|Z|Bastion!The Shadowlands|QO|6|NC|N|North Gate Vesper rang.|
-C Directing Dedication|QID|63589|M|20.68,24.18|Z|Bastion!The Shadowlands|QO|5|NC|N|South Gate Vesper rang.|
 T Rebuilding Faith|QID|63588|M|PLAYER|Z|Bastion!The Shadowlands|N|To Fallen Disciple Nikolon.|
+C Directing Dedication|QID|63589|M|22.64,23.37|Z|Bastion!The Shadowlands|QO|3|NC|N|Take the anima gateway beside the Anima Channeler or fly up to Activate South Anima Collector.|
+C Directing Dedication|QID|63589|M|22.62,22.32|Z|Bastion!The Shadowlands|QO|4|NC|N|Activate North Anima Collector.|
+C Directing Dedication|QID|63589|M|20.65,21.59|Z|Bastion!The Shadowlands|QO|6|NC|N|Take the anima Gateway or fly up to the uppermost platform to Ring North Gate Vesper.|
+C Directing Dedication|QID|63589|M|20.68,24.18|Z|Bastion!The Shadowlands|QO|5|NC|N|Ring South Gate Vesper.|
 T Reclaimable Anima|QID|63587|M|20.93,23.04|Z|Bastion!The Shadowlands|N|To Kleia.|
 T Directing Dedication|QID|63589|M|20.63,22.87|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A The Vesper Rings|QID|63590|PRE|63587&63589&63588|M|20.62,22.88|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
