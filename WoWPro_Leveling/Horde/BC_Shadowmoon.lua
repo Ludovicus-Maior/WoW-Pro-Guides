@@ -75,9 +75,9 @@ C Gaining Access|QID|10604|M|23.93,32.97|N|Kill Mo'arg Weaponsmiths until the Le
 T Gaining Access|QID|10604|M|30.38,32.46|N|To Blood Guard Gulmok.|
 T A Grunt's Work...|QID|10702|M|28.49,26.47|N|To Overlord Or'barokh.|
 A The Path of Conquest|QID|10750|M|28.47,26.48|N|From Overlord Or'barokh.|
-A The Hand of Gul'dan|QID|10681|PRE|10680|M|28.47,26.48|N|From Earthmender Splinthoof.|
+A The Hand of Gul'dan|QID|10681|M|28.47,26.48|N|From Earthmender Splinthoof.|
 T The Hand of Gul'dan|QID|10681|M|42.22,45.03|N|To Earthmender Torlok.|
-A Enraged Spirits of Fire and Earth|QID|10458|PRE|10680^10681|M|42.22,45.03|N|From Earthmender Torlok.|
+A Enraged Spirits of Fire and Earth|QID|10458|PRE|10681|M|42.22,45.03|N|From Earthmender Torlok.|
 K Enraged Earth Spirit|QID|10458|U|30094|QO|1|M|42.73,47.86;46.59,52.15|CN|N|Use the totem and kill Enraged Earth Spirits between these points.|
 C Enraged Spirits of Fire and Earth|QID|10458|QO|2|U|30094|M|49.97,50.20|N|Use the totem and kill the fire spirits.|
 T Enraged Spirits of Fire and Earth|QID|10458|M|42.18,45.05|N|To Earthmender Torlok.|
