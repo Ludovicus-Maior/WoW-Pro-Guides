@@ -866,11 +866,11 @@ function WoWPro.ParseSteps(steps)
                 -- deleting whitespaces to compare with Blizzard's race tokens
                 race = race:gsub(" ", "")
             end
-			
+
 			if covenant then
                 covenant = covenant:gsub(" ", "")
             end
-			
+
             if gender then
                 -- deleting leading/trailing whitespace and then canonicalize the case
                 gender = gender:trim():upper()
