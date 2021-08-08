@@ -829,6 +829,7 @@ function WoWPro.ParseSteps(steps)
 
     if _G.C_Covenants and (_G.C_Covenants.GetActiveCovenantID() > 0) then
         mycovenant = _G.C_Covenants.GetCovenantData(_G.C_Covenants.GetActiveCovenantID()).name
+		mycovenant = mycovenant:gsub(" ", "")
     end
     if WoWPro.Recorder then
         i = 1 -- No extra steps for recorder guides
@@ -865,6 +866,11 @@ function WoWPro.ParseSteps(steps)
                 -- deleting whitespaces to compare with Blizzard's race tokens
                 race = race:gsub(" ", "")
             end
+
+			if covenant then
+                covenant = covenant:gsub(" ", "")
+            end
+
             if gender then
                 -- deleting leading/trailing whitespace and then canonicalize the case
                 gender = gender:trim():upper()
