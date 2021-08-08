@@ -432,27 +432,29 @@ C Blind Loyalty|QID|63585|M|40.36,19.66|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Sp
 C Blind Loyalty|QID|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|QO|2|CHAT|N|Speak with Adrestes at Elysian Hold.|COV|-Kyrian|
 T Blind Loyalty|QID|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|
 A Compassion in Devotion|QID|63586|PRE|63585|M|55.62,41.97|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|
+R Citadel of Loyalty|ACTIVE|63586|M|24.34,30.13|Z|Bastion!The Shadowlands|N|Fly to Citadel of Loyalty to meet Polemarch Adrestes.|
 T Compassion in Devotion|QID|63586|M|24.34,30.13|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A Directing Dedication|QID|63589|PRE|63586|M|24.34,30.13|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
 A Rebuilding Faith|QID|63588|PRE|63586|M|24.43,30.00|Z|Bastion!The Shadowlands|N|From Fallen Disciple Nikolon.|
 A Reclaimable Anima|QID|63587|PRE|63586|M|24.18,29.98|Z|Bastion!The Shadowlands|N|From Kleia.|
 C Reclaimable Anima|QID|63587|M|24.59,24.31|Z|Bastion!The Shadowlands|N|Kill Mechanical enemies to collect Tainted Centurion Cores.|S|
 C Rebuilding Faith|QID|63588|M|27.76,20.86|Z|Bastion!The Shadowlands|N|Attack Forsworn until you convince them to switch sides.|S|
-C Directing Dedication|QID|63589|M|22.68,24.94|Z|Bastion!The Shadowlands|QO|1|NC|N|South Anima Channeler activated.|
-C Directing Dedication|QID|63589|M|24.23,22.80|Z|Bastion!The Shadowlands|QO|2|NC|N|North Anima Channeler activated.|
-C Rebuilding Faith|QID|63588|M|27.76,20.86|Z|Bastion!The Shadowlands|N|Attack Forsworn until you convince them to switch sides.|US|
-T Rebuilding Faith|QID|63588|M|PLAYER|Z|Bastion!The Shadowlands|N|To Fallen Disciple Nikolon.|
+C Directing Dedication|QID|63589|M|22.68,24.94|Z|Bastion!The Shadowlands|QO|1|NC|N|Activate South Anima Channeler.|
+C Directing Dedication|QID|63589|M|24.23,22.80|Z|Bastion!The Shadowlands|QO|2|NC|N|Activate North Anima Channeler.|
+C Rebuilding Faith|QID|63588|M|24.23,22.80|Z|Bastion!The Shadowlands|N|Attack Forsworn until you convince them to switch sides.|US|
 C Reclaimable Anima|QID|63587|M|24.59,24.31|Z|Bastion!The Shadowlands|N|Kill Mechanical enemies to collect Tainted Centurion Cores.|US|
-C Directing Dedication|QID|63589|M|22.64,23.37|Z|Bastion!The Shadowlands|QO|3|NC|N|South Anima Collector activated.|
-C Directing Dedication|QID|63589|M|22.62,22.32|Z|Bastion!The Shadowlands|QO|4|NC|N|North Anima Collector activated.|
-C Directing Dedication|QID|63589|M|20.65,21.59|Z|Bastion!The Shadowlands|QO|6|NC|N|North Gate Vesper rang.|
-C Directing Dedication|QID|63589|M|20.68,24.18|Z|Bastion!The Shadowlands|QO|5|NC|N|South Gate Vesper rang.|
+T Rebuilding Faith|QID|63588|M|PLAYER|Z|Bastion!The Shadowlands|N|To Fallen Disciple Nikolon.|
+C Directing Dedication|QID|63589|M|22.64,23.37|Z|Bastion!The Shadowlands|QO|3|NC|N|Take the anima gateway beside the Anima Channeller or fly up to Activate South Anima Collector.|
+C Directing Dedication|QID|63589|M|22.62,22.32|Z|Bastion!The Shadowlands|QO|4|NC|N|Activate North Anima Collector.|
+C Directing Dedication|QID|63589|M|20.65,21.59|Z|Bastion!The Shadowlands|QO|6|NC|N|Take the anima Gateway or fly up to the uppermost platform to Ring North Gate Vesper.|
+C Directing Dedication|QID|63589|M|20.68,24.18|Z|Bastion!The Shadowlands|QO|5|NC|N|Ring South Gate Vesper.|
 T Reclaimable Anima|QID|63587|M|20.93,23.04|Z|Bastion!The Shadowlands|N|To Kleia.|
 T Directing Dedication|QID|63589|M|20.63,22.87|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A The Vesper Rings|QID|63590|PRE|63587&63589&63588|M|20.62,22.88|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
 C The Vesper Rings|QID|63590|M|21.01,22.87|Z|Bastion!The Shadowlands|N|Speak with Adrestes to begin the ritual and then defend him from the attacking mawsworn.|
 T The Vesper Rings|QID|63590|M|20.63,22.88|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A A Triumphant Return|QID|63584|PRE|63590|M|20.63,22.88|Z|Bastion!The Shadowlands|N|From Polemarch Adrestes.|
+C A Triumphant Return|QID|63584|CHAT|20.91,22.23|Z|Bastion!The Shadowlands|N|Talk to the Kyrian Courier for a ride to Kalisthene.|COV|-Kyrian|
 T A Triumphant Return|QID|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Kalisthene.|
 A The Grand Reception|QID|63591|PRE|63584|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Kalisthene.|COV|Kyrian|
 C The Grand Reception|QID|63591|M|37.10,61.13|Z|Archon's Rise@Elysian Hold!Dungeon|QO|1|CHAT|N|Speak to Kalisthene.|COV|Kyrian|
@@ -576,6 +578,6 @@ N Renown Level 47|AVAILABLE|63612|N|You must reach Renown level 47 to continue t
 N Renown Level 50|AVAILABLE|63659|N|You must reach Renown level 50 to continue to the next chapter.|REN|-50|PRE|63622|
 N Renown Level 52|AVAILABLE|63672|N|You must reach Renown level 52 to continue to the next chapter.|REN|-52|PRE|63656|
 N Renown Level 56|AVAILABLE|63579|N|You must reach Renown level 56 to continue to the next chapter.|REN|-56|PRE|64437|
-N Renown Level 58|AVAILABLE|63944|N|You must reach Renown level 58 to continue to the next chapter.|REN|-58|PRE|63593|
+N Renown Level 58|N|You must reach Renown level 58 to continue to the next chapter.|REN|-58|PRE|63593|;AVAILABLE currently unknown
 ]]
 end)
