@@ -17,7 +17,7 @@ A A New Ore Sample|QID|1153|M|45.10,57.69|Z|The Barrens|N|From Tatternack Steelf
 R The Great Lift|ACTIVE|5881|M|32.23,20.46|Z|Thousand Needles|N|Leave Camp Taurajo and follow the Southern Gold Road south to the bottom of The Barrens.|
 T Calling in the Reserves|QID|5881|M|31.87,21.65|N|To Grish Longrunner.|
 A Message to Freewind Post|QID|4542|M|32.24,22.17|N|From Brave Moonhorn.\n[color=FF0000]NOTE: [/color]If he's not here, check the bottom of The Great Lift or wait for him to respawn because he's dead.|
-C A New Ore Sample|QID|1153|L|5842|N|Kill Gravelsnout Surveyors and Diggers until one drops an Unrefined Ore Sample. They are spread out over the east and west ends of Thousand Needles.|S|
+C A New Ore Sample|QID|1153|L|5842|N|Kill Gravelsnout Surveyors and Diggers until one drops an Unrefined Ore Sample.\n[color=FF0000]NOTE: [/color]They are spread out over the east and west ends of Thousand Needles.|S|
 R Freewind Post|ACTIVE|4542|M|31.5,25.3;29.5,34.5;46.84,47.18|CC|N|Take the lift down to the bottom and follow the road (signs) to Freewind Post.|
 T Message to Freewind Post|QID|4542|M|45.66,50.79|N|To Cliffwatcher Longhorn.\n[color=FF0000]NOTE: [/color]The lift to go up is a little further down the road.|
 A Pacify the Centaur|QID|4841|M|45.66,50.79|N|From Cliffwatcher Longhorn.|PRE|4542|
@@ -54,47 +54,53 @@ C Grimtotem Spying|QID|5064|M|39.32,41.53|L|12768|N|Make your way to the chest i
 K Wanted - Arnak Grimtotem|ACTIVE|5147|M|35.7,31.0;37.99,26.64;37.65,31.47|CS|QO|1|N|Slowly, pull one mob after another until you can pull Arnak. Kill him and loot Arnak's Hoof.|
 A Free at Last|QID|4904|M|37.98,26.59|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Lakota Windsong.\n[color=FF0000]NOTE: [/color]If she's not there, she's either dead or someone else is on the quest and you'll have to wait.|
 C Free at Last|QID|4904|M|30.99,37.05|QO|1|N|Escort Lakota Windsong across the sky path and out of Darkcloud Pinnacle to the ground below.\nAs you reach each 'plateau', a group of two will spawn and attack you. They stop spawning when you reach the last plateau and begin the downward path.\n[color=FF0000]NOTE: [/color]Leaving all of the pulling of mobs to her. If you pull at the wrong time, you could end up fighting 5 or 6 at once.|
-A Free at Last|QID|4904|M|37.98,26.59|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=CC00FF]QUEST FAILED [/color]\nGo back to Lakota Windsong to restart the quest.\n[color=FF0000]NOTE: [/color]If she's not there, she's either waiting to respawn, or someone else is now on the quest. Either way, you'll have to wait.|FAIL|
-R Whitereach Post|ACTIVE|4865|M|29.19,33.96;22.22,31.51|CC|
-T Serpent Wild|QID|4865|M|21.58,32.30|N|To Motega Firemane.|
-A Sacred Fire|QID|5062|M|21.58,32.30|N|From Motega Firemane.|PRE|4865|
-R Highperch|ACTIVE|4767|M|28.22,33.32;25.06,34.48;20.70,39.97;14.68,32.76|CC|N|Make your way to the ramp leading to High Perch.|
-l Wind Rider|QID|4767|L|12356 10|N|Collect Highperch Wyvern Eggs.|S|
+;A Free at Last|QID|4904|M|37.98,26.59|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=CC00FF]QUEST FAILED [/color]\nGo back to Lakota Windsong to restart the quest.\n[color=FF0000]NOTE: [/color]If she's not there, she's either waiting to respawn, or someone else is now on the quest. Either way, you'll have to wait.|FAIL|
+K Galak Messenger|AVAILABLE|4881|M|22.04,31.52|L|12564|N|Kill him to loot the Assassination note.|S|
+A Assassination Plot|QID|4881|N|Click on the Assassination Note to start the quest.|U|12564|O|
+R Whitereach Post|ACTIVE|4865|M|29.2,33.9;21.05,32.32|CC|
+T Serpent Wild|QID|4865|M|21.55,32.34|N|To Motega Firemane.|
+A Sacred Fire|QID|5062|M|21.55,32.34|N|From Motega Firemane.|PRE|4865|
+R Highperch|ACTIVE|4767|M|14.32,32.25|N|Make your way to the ramp leading to High Perch.|
+C Wind Rider|QID|4767|L|12356 10|N|Collect Highperch Wyvern Eggs.|S|
 A Homeward Bound|QID|4770|M|12.17,36.30;17.8,40.6|CC|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Pao'ka Swiftmountain.|
 C Homeward Bound|QID|4770|M|15.15,32.61|QO|1|N|Escort Pao'ka out of Highperch to the road below.\nAt one point, Pao'ka will stop to talk and a single Wyvern will spawn. This is the only time it happens.|
-l Wind Rider|QID|4767|L|12356 10|N|Go back to Highperch and finish collecting the Highperch Wyvern Eggs.|US|
-R Whitereach Post|ACTIVE|4770|M|14.92,33.04;17.82,35.63;19.42,33.14|CC|
-T Homeward Bound|QID|4770|M|21.54,32.33|N|To Motega Firemane.|
-A Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizlo Bearingshiner.\n[color=FF0000]NOTE: [/color]This quest is not easy for some classes, especially at this level. Feel free to accept this quest and do it later if you so wish.\nThe exp and reward make this quest worth doing, even in a couple levels.|
-C Hypercapacitor Gizmo|QID|5151|M|22.17,26.17;22.81,24.45|CC|QO|1|N|Make your way to the area where the cage is. Once you are there, clear the area of any and all mobs. When you are ready, open the cage and prepare to fight.\n[color=FF0000]NOTE: [/color]If you're delaying doing this quest, left-click the check box to skip this step for now.|
-K Galak Messenger|AVAILABLE|4881|M|22.04,31.52|L|12564|N|If you wait (5-10 mins max) at this location facing the road east, he will come to you. Kill him and loot the Assassination note from him.\nIf you don't feel like waiting, You can either follow the road west to Camp E'thok or east to Splithoof Crag. He patrols along the road between the 2 camps.|
-A Assassination Plot|QID|4881|N|Click on the Assassination Note to start the quest.|U|12564|O|
-T Assassination Plot|QID|4881|M|21.31,32.01|N|To Kanati Greycloud.|
-A Protect Kanati Greycloud|QID|4966|M|21.31,32.01|N|From Kanati Greycloud.|PRE|4881|
-C Protect Kanati Greycloud|QID|4966|N|A group of 3 Galak Assassins will spawn and attack you and Kanati. Defeat them to complete the quest.|
-T Protect Kanati Greycloud|QID|4966|M|21.30,31.95|N|To Kanati Greycloud.|
-l Incendia Agave|ACTIVE|5062|M|33.69,34.09;33.36,32.88;34.96,33.20;36.05,33.51;34.87,34.82;35.61,36.17;36.63,36.23;36.06,37.40;36.59,38.77|CN|L|12732 10|N|Loot these around and in the pond.|
+A Homeward Bound|QID|4770|M|17.8,40.6|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=CC00FF]QUEST FAILED [/color]\nGo back to Pao'ka Swiftmountain to restart the quest.|FAIL|
+C Wind Rider|QID|4767|L|12356 10|N|Go back to Highperch and finish collecting the Highperch Wyvern Eggs.|US|
+R Whitereach Post|ACTIVE|4770|M|21.05,32.32|
+T Homeward Bound|QID|4770|M|21.55,32.34|N|To Motega Firemane.|
+A Hypercapacitor Gizmo|QID|5151|M|21.43,32.55|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Wizlo Bearingshiner.|
+C Hypercapacitor Gizmo|QID|5151|M|21.8,26.8;22.81,24.45|CC|QO|1|N|Clear the area of any and all mobs and when you're ready, open the cage and prepare to fight.\n[color=FF0000]NOTE: [/color]Being that the Enraged Pather is a lv 30 elite, this quest may not be easy for some classes. Feel free to skip this quest and do it later if you so wish.\nThe exp and reward make this quest worth doing, even in a couple levels.|
+K Galak Messenger|AVAILABLE|4881|M|22.04,31.52|L|12564|N|If you wait (5-10 mins max) at this location facing the road east, he will come to you. Kill him and loot the Assassination note from him.\nIf you don't feel like waiting, You can either follow the road west to Camp E'thok or east to Splithoof Crag. He patrols along the road between the 2 camps.|US|
+T Assassination Plot|QID|4881|M|21.26,32.06|N|To Kanati Greycloud.|
+A Protect Kanati Greycloud|QID|4966|M|21.26,32.06|N|From Kanati Greycloud.|PRE|4881|
+C Protect Kanati Greycloud|QID|4966|M|21.26,32.06|N|A group of 3 Galak Assassins will spawn and attack you and Kanati. Defeat them to complete the quest.|
+T Protect Kanati Greycloud|QID|4966|M|21.26,32.06|N|To Kanati Greycloud.|
+t Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|N|To Wizlo Bearingshiner.|IZ|Whitereach Post|
+l Incendia Agave|ACTIVE|5062|M|35.56,34.63|L|12732 10|N|Loot these in and around the pond below Darkcloud Pinnacle.|
+L Level 32|ACTIVE|4767^5147^5064^4904|N|You'll want to be within 5 bars of lvl 32 before leaving the area.|LVL|31;-10950|
 R Freewind Post|ACTIVE|4767^5147^5064^4904|M|46.84,47.18|N|Run back to Freewind and take the lift up.|
-T Wind Rider|QID|4767|M|44.84,48.96|N|To Elu.|
 T Wanted - Arnak Grimtotem|QID|5147|M|45.66,50.79|N|To Cliffwatcher Longhorn.|
 T Grimtotem Spying|QID|5064|M|45.66,50.79|N|To Cliffwatcher Longhorn.|
-T Free at Last|QID|4904|M|45.98,51.58|N|To Thalia Amberhide.|
+T Free at Last|QID|4904|M|45.97,51.61|N|To Thalia Amberhide.|
+T Wind Rider|QID|4767|M|44.84,48.96|N|To Elu.|
 
 ; --- Thunder Bluff
 F Thunder Bluff|ACTIVE|5062|M|45.14,49.10|
-T Sacred Fire|QID|5062|M|69.87,30.92|Z|Thunder Bluff|N|To Magatha Grimtotem.|
+T Sacred Fire|QID|5062|M|69.87,30.92|Z|Thunder Bluff|N|To Magatha Grimtotem on Elder Rise.|
 A Arikara|QID|5088|M|69.87,30.92|Z|Thunder Bluff|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Magatha Grimtotem.|
+= Level 32 Training|ACTIVE|5088|N|Take care of any training and other housekeeping you may need to do.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Rogue,-Warlock|
+F Orgrimmar|ACTIVE|5088|M|47.02,49.83|Z|Thunder Bluff|C|Rogue,Warlock|
+= Level 32 Training|ACTIVE|5088|N|Take care of any training and other housekeeping you may need to do.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue,Warlock|
 
 ; --- Thousand Needles
-F Freewind Post|ACTIVE|5088|M|47.02,49.83|Z|Thunder Bluff|
-R Sky path access|ACTIVE|5088|M|31.22,36.91|N|Run to the base of the ramp leading up to the sky path.|
-C Arikara|QID|5088|M|33.13,35.29;35.66,30.98;37.18,33.14;38.02,35.33|CC|QO|1;2|LVL|32|N|Make your way to the Sacred Fire of Life. Click on it to summon Arikara. Kill him and loot his skin. Be sure to clear all of the mobs before you summon Arikara.|
-;L Level 32|QID|5151|N|You should be around level 32 by this point.|
-R Whitereach Post|ACTIVE|5088|M|22.28,31.56|N|Make your way back down to the ground and run to Whitereach Post.|
-T Arikara|QID|5088|M|21.61,32.25|N|To Motega Firemane.|
-C Hypercapacitor Gizmo|QID|5151|M|22.17,26.17;22.81,24.45|CC|N|Make your way to the area where the cage is. Once you are there, clear the area of any and all mobs. When you are ready, open the cage and prepare to fight.\n[color=FF0000]NOTE: [/color]If you're delaying doing this quest, left-click the check box to skip this step for now.|
+F Freewind Post|ACTIVE|5088|M|47.02,49.83|Z|Thunder Bluff|IZ|1456;Thunder Bluff|
+F Freewind Post|ACTIVE|5088|M|45.13,63.90|Z|Orgrimmar|IZ|1454;Orgrimmar|
+R Sky path access|ACTIVE|5088|M|31.22,36.91|CC|N|Run to the base of the ramp leading up to the sky path.|
+K Arikara|ACTIVE|5088|M|33.1,35.3;34.7,31.0;37.2,33.1;38.0,35.3|CC|QO|2;1|N|Make your way to the Sacred Fire of Life. After clearing the mobs in the area, click on the Sacred Fire of Life to light it and summon Arikara. Kill him to loot his skin.|
+R Whitereach Post|ACTIVE|5088|M|21.05,32.32|N|Make your way back down to the ground and run to Whitereach Post.\n[color=FF0000]NOTE: [/color]To speed this up, you can jump off the center of the first bridge into the pond below.|
+T Arikara|QID|5088|M|21.55,32.34|N|To Motega Firemane.|
+C Hypercapacitor Gizmo|QID|5151|M|21.8,26.8;22.81,24.45|CC|QO|1|N|Clear the area of any and all mobs and when you're ready, open the cage and prepare to fight.|
 R Whitereach Post|ACTIVE|5151|M|22.28,31.56|N|Run back to Whitereach Post.|
-T Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|N|To Wizlo Bearingshiner.|
 C Steelsnap|QID|1131|M|13.54,19.88|N|Find Steelsnap patrolling the area NW of the Great Lift. Kill him and loot Steelsnap's Rib.\n[color=FF0000]NOTE: [/color]He is lv 30 and travels with 2 other lv 29 hyenas. None of them are elite.\nMuch like the Galak Messenger, if you just wait here facing east (towards Camp E'thok), he will come to you. At this location, there are no other mobs to worry about.|
 R Roguefeather Den|ACTIVE|1150|M|27.47,49.57;27.44,51.07|CC|N|Make your way to The Screeching Canyon and walk up the ramp to Roguefeather Den.|
 C Test of Endurance|QID|1150|M|26,55.4|N|Work your way to the back of the cave. Break the crates ONE at a time. Every time you break a crate, a group of 3-4 various harpies will spawn. Always kill the Harpy first, the Windcaller second and then whatever is left last. Make sure you clear them before breaking the next crate. Breaking the third crate will spawn a final group with Grenka. Kill her and loot Grenka's Claw. Killing Grenka should be your priority.\n\n You can heal up between breaking crates. But, the longer it takes you, the more you risk the original group respawning. If that happens, kill them before you break the next crate.\n[color=FF0000]NOTE: [/color]You can get lucky sometimes and Grenka has already spawned. If that's the case, focus your attack on killing her first.|
