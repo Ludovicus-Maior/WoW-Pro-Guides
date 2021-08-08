@@ -209,7 +209,11 @@ b Orgrimmar|ACTIVE|1181|M|60.71,58.78|Z|Tirisfal Glades|N|Take the Zeppelin to O
 
 ; --- Booty Bay
 F Ratchet|ACTIVE|1181|M|45.50,63.84|Z|Orgrimmar|
-b Booty Bay|ACTIVE|1181|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+T Goblin Sponsorship|QID|1178|M|62.6,36.2|Z|The Barrens|N|To Gazlowe.|
+A Goblin Sponsorship|QID|1180|M|62.6,36.2|Z|The Barrens|N|From Gazlowe.|PRE|1178|
+b Booty Bay|ACTIVE|1180|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+T Goblin Sponsorship|QID|1180|M|26.4,73.6|Z|Stranglethorn Vale|N|To Wharfmaster Lozgil.|
+A Goblin Sponsorship|QID|1181|M|26.4,73.6|Z|Stranglethorn Vale|N|From Wharfmaster Lozgil.|PRE|1180|
 T Goblin Sponsorship|QID|1181|M|27.06,77.59;27.04,77.14;27.23,76.88|Z|Stranglethorn Vale|CC|N|To Baron Revilgaz. Work your way through the Salty Sailor Tavern up to the deck.|
 A Goblin Sponsorship|QID|1182|M|27.23,76.88|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
 f Booty Bay|ACTIVE|1112|M|26.87,77.09|Z|Stranglethorn Vale|N|At Gringer.|TAXI|-Booty Bay|
