@@ -828,8 +828,16 @@ function WoWPro.ParseSteps(steps)
     local zone = (WoWPro.Guides[GID].zone or ""):match("([^%(]+)"):trim()
 
     if _G.C_Covenants and (_G.C_Covenants.GetActiveCovenantID() > 0) then
-        mycovenant = _G.C_Covenants.GetCovenantData(_G.C_Covenants.GetActiveCovenantID()).name
-		mycovenant = mycovenant:gsub(" ", "")
+        mycovenant = _G.C_Covenants.GetActiveCovenantID()
+		if mycovenant == 1 then
+			mycovenant = "Kyrian"
+		elseif mycovenant == 2 then
+			mycovenant = "Venthyr"
+		elseif mycovenant == 3 then
+			mycovenant = "NightFae"
+		elseif mycovenant == 4 then
+			mycovenant = "Necrolord"
+		end
     end
     if WoWPro.Recorder then
         i = 1 -- No extra steps for recorder guides
