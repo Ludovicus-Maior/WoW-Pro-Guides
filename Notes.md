@@ -12,6 +12,7 @@
 * Horde: Hendo Chapter 2 30-40
 ### Professions
 * Retail: Alch
+* Classic: Alch, Ench, Tailor
 
 
 # Release 9.1.0-A2 / 1.13.7-B2 / 2.5.1-B2
