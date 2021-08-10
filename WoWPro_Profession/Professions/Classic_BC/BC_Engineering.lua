@@ -122,7 +122,7 @@ M [item=4406/Standard Scope]|QID|202003978|P|Engineering;202;0+135;1|ITEM|4406|C
 = Learn [spell=4038/Expert Engineering]|QID|202004038|M|52.2,27.6|Z|1446;Tanaris|IZ|1446;Tanaris|P|Engineering;202;0+125|SPELL|Expert Engineering;4038|LVL|20|T|Buzzek Bracketswing|N|Learn from Buzzek Bracketswing, in Gadgetzan, Tanaris.|
 = Learn [spell=4038/Expert Engineering]|QID|202004038|P|Engineering;202;0+125|SPELL|Expert Engineering;4038|LVL|20|N|Learn from Trainer in Major Cities, and some starting areas. (Once you get to an area that has a local trainer, an arrow will popup).|
 = Learn Recipe|QID|202001251|P|Engineering;202;0+125|RECIPE|3938|N|Learn [spell=3945/Heavy Blasting Powder] Recipe from Trainer.|
-= Learn Recipe|QID|202001425|P|Engineering;202;0+125|RECIPE|3942|N|Learn [spell=3942/Whirring Bronze Gizmo] Recipe from Trainer.|
+= Learn Recipe|QID|202001252|P|Engineering;202;0+125|RECIPE|3942|N|Learn [spell=3942/Whirring Bronze Gizmo] Recipe from Trainer.|
 M [item=4377/Heavy Blasting Powder]|QID|202003945|P|Engineering;202;0+150;1|ITEM|4377|CRAFT|3945 30|MATS|2838 1|L|4377 30|N|Make all 30 Powders, you wont quite make 150 with this, but you'll make [item=4375/Whirring Bronze Gizmo] to help bring you to 150.|
 M [item=4375/Whirring Bronze Gizmo]|QID|202003942|P|Engineering;202;0+150;1|ITEM|4375|CRAFT|3942 15|MATS|2841 2;2592 1|L|4375 15|N|Make all 15 Gizmos, these along with the [item=4377/Heavy Blasting Powder] to hit 150.|
 N Reaching level 150|QID|202001501|P|Engineering;202;0+150;1|N|Create either more [item=4377/Heavy Blasting Powder] OR [item=4375/Whirring Bronze Gizmo]. This step clears once you reach 150, or if you are at least 145, click to skip and move onto the next step.|
