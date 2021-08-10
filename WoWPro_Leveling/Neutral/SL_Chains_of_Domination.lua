@@ -603,7 +603,7 @@ A The Box of Many Things|QID|64210|PRE|64557|N|From Ve'nish.|
 T The Box of Many Things|QID|64210|M|50.86,54.00|Z|1912;Torghast, Tower of the Damned|N|To Runecarver. You can either exit your Torghast run and continue the questline, or complete your Torghast run and finish this afterward. It doesn't matter.|
 A Tower Knowledge|QID|64216|PRE|64210|M|50.86,54.00|Z|1912;Torghast, Tower of the Damned|N|From Runecarver.|
 T Tower Knowledge|QID|64216|M|47.47,75.37|Z|1912;Torghast, Tower of the Damned|N|To Box of Many Things outline.|
-A A Loose Thread|QID|64441|M|60.95,25.41|Z|1961;Korthia|N|From Misplaced Venthyr Tome.|
+A A Loose Thread|QID|64441|PRE|64216|M|60.95,25.41|Z|1961;Korthia|N|From Misplaced Venthyr Tome.|
 C A Loose Thread|QID|64441|M|60.95,25.41|Z|1961;Korthia|NC|N|Choose the Pick up the tome to return it option.|
 T A Loose Thread|QID|64441|M|60.95,25.41|Z|1961;Korthia|N|To Misplaced Venthyr Tome.|
 
