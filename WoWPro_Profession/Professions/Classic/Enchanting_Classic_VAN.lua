@@ -99,7 +99,7 @@ B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|48.69,61.52|Z|1
 U Learn Recipe|QID|333001101|P|Enchanting;333;0+110|RECIPE|13419|U|11039|N|Learn [spell=13419/Enchant Cloak - Minor Agility] Recipe from Item.|
 M Enchant Cloak - Minor Agility|QID|333013419|P|Enchanting;333;0+135;1|CRAFT|13419 25|MATS|10998 1|
 = Learn [spell=7413/Enchanting]|QID|333007413|M|49.2,57.2|Z|1442;Stonetalon Mountains|P|Enchanting;333;0+125|SPELL|Enchanting;7413|LVL|20|N|Learn from Hgarth, Artisan Enchanting Trainer in Stonetalon Mountains.|FACTION|Horde|
-= Learn [spell=7413/Enchanting]|QID|333007413|M|64.8,70.6|Z|1256;Elwynn Forest|P|Enchanting;333;0+125|SPELL|Enchanting;7413|LVL|20|N|Learn from Kitta Firewind, Artisan Enchanting Trainer in Elwynn Forest.|FACTION|Alliance|
+= Learn [spell=7413/Enchanting]|QID|333007413|M|64.8,70.6|Z|1429;Elwynn Forest|P|Enchanting;333;0+125|SPELL|Enchanting;7413|LVL|20|N|Learn from Kitta Firewind, Artisan Enchanting Trainer in Elwynn Forest.|FACTION|Alliance|
 = Learn Recipe|QID|333001301|P|Enchanting;333;0+125|RECIPE|13501|N|Learn [spell=13501/Enchant Bracer - Lesser Stamina] Recipe from Trainer.|
 M Enchant Bracer - Lesser Stamina|QID|333013501|P|Enchanting;333;0+155;1|CRAFT|13501 20|MATS|11083 2|
 B [item=11128/Gold Rod]|QID|333011128|ITEM|11128|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=3577/Gold Bar] x1, [item=3478/Coarse Grinding Stone] x2|
@@ -124,7 +124,7 @@ B [spell=13945/Enchant Bracer - Greater Stamina]|QID|333013945|RECIPE|13945|L|11
 l [item=11137/Vision Dust]|QID|333011137|SPELL|Enchanting;13920|L|11137 200|ITEM|11137|N|You'll need at least 200 Vision Dust.|
 l [item=11174/Lesser Nether Essence]|QID|333011174|SPELL|Enchanting;13920|L|11174 5|ITEM|11174|N|You'll need at least 5 Lesser Nether Essence, or 2 Greater Nether Essence.|
 N GOLD|QID|333013920|SPELL|Enchanting;13920|N|Make sure you have at least 12 gold to purchase ALL the recipes that Annora sells.|
-R Badlands|QID|333013920|M|65.2,43.1|Z|1245;Badlands|SPELL|Enchanting;13920|N|You'll need to get to Uldaman Instance for the next trainer, make sure to have the about 200 Vision Dust, 5 Lesser Nether Essence and gold before going!|
+R Badlands|QID|333013920|M|65.2,43.1|Z|1418;Badlands|SPELL|Enchanting;13920|N|You'll need to get to Uldaman Instance for the next trainer, make sure to have the about 200 Vision Dust, 5 Lesser Nether Essence and gold before going!|
 R Uldaman|QID|333013920|SPELL|Enchanting;13920|IZ|3;Badlands|N|\n[color=FF0000]NOTE: [/color]NPC is located INSIDE the Uldaman Instance, in Badlands. Walk pass the elite trogg outside, Zone in and open the door.|
 R Annora|QID|333013920|SPELL|Enchanting;13920|IZ|Uldaman|N|Enter through back entrance, walk passed the golem and dwarves. At first intersection kill roaming bat, then head east. Kill basilisk, next intersection kill the bat if it's bothering you, continue east. Kill another basilisk, then scorpid at the next intersection, turn SOUTH, kill a third basilisk. Walk down into the pit and KILL all the non-elite scorpids to get Annora to spawn.|
 = Learn [spell=13920/Enchanting]|QID|333013920|IZ|Uldaman|P|Enchanting;333;0+224|SPELL|Enchanting;13920|LVL|35|N|Learn from Annora, Master Enchanter in Uldaman Instance, in Badlands.|
