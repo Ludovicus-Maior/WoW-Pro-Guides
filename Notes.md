@@ -1,3 +1,19 @@
+# Release 9.1.0-A3 / 1.13.7-B3 / 2.5.1-B3
+## Bug Fixes
+* Retail: Covenant names sometime have a space and sometimes not. Sigh.
+
+## Guide Updates
+### Retail Leveling
+* Horde: Shadowmoon
+* Neutral: Chains of Domination
+### Classic Leveling
+* Horde: Hendo Chapter 2 30-40
+### Burning Crusade Classic Leveling
+* Horde: Hendo Chapter 2 30-40
+### Professions
+* Retail: Alch
+
+
 # Release 9.1.0-A2 / 1.13.7-B2 / 2.5.1-B2
 ## Bug Fixes
 * Update Covenant handling for Retail
