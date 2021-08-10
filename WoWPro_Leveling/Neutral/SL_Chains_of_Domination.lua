@@ -488,6 +488,22 @@ P Korthia|QID|63593|ACTIVE|63593|M|30.79,23.31|Z|Ring of Transference@Oribos|NC|
 T New Sigil of the Kyrian|QID|63593|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; What Lies Ahead
+A Doorway in the Dark|QID|64211|M|62.82,26.41|Z|1961;Korthia|N|From The Primus.|PRE|63593|REN|58|
+C Doorway in the Dark|QID|64211|M|63.02,25.65|Z|1961;Korthia|QO|1|NC|N|Listen to the dialog and wait for objective to complete.|
+C Doorway in the Dark|QID|64211|M|63.02,25.65|Z|1961;Korthia|QO|2|NC|N|Speak with Jaina. This is the end Sanctum of Domination cinematic, you can skip if you don't want to watch again.|
+T Doorway in the Dark|QID|64211|M|63.03,25.63|Z|1961;Korthia|N|To Lady Jaina Proudmoore.|
+A A Symbol of Hope|QID|64213|PRE|64211|M|63.03,25.63|Z|1961;Korthia|N|From Lady Jaina Proudmoore.|
+C A Symbol of Hope|QID|64213|M|63.19,24.51|Z|1961;Korthia|QO|1|NC|N|Walk with the group and wait for the dialog to finish, you will click on the compass afterward.|
+C A Symbol of Hope|QID|64213|M|63.19,24.51|Z|1961;Korthia|QO|2|NC|N|Click on the compass.|
+T A Symbol of Hope|QID|64213|M|63.12,24.52|Z|1961;Korthia|N|To Lady Jaina Proudmoore.|
+A Covenants Renewed|QID|64314|PRE|64213|M|63.12,24.42|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|
+C Covenants Renewed|QID|64314|M|62.79,26.39|Z|1961;Korthia|QO|1|CHAT|N|Speak to the Primus.|
+C Covenants Renewed|QID|64314|M|63.52,25.01|Z|1961;Korthia|QO|2<1|NC|N|Click on the Night Fae Sigil.|
+C Covenants Renewed|QID|64314|M|63.61,24.54|Z|1961;Korthia|QO|2<2|NC|N|Click on the Necrolord Sigil.|
+C Covenants Renewed|QID|64314|M|63.44,24.12|Z|1961;Korthia|QO|2<3|NC|N|Click on the Kyrian Sigil.|
+C Covenants Renewed|QID|64314|M|63.13,24.08|Z|1961;Korthia|QO|2<4|NC|N|Click on the Venthyr Sigil.|
+C Covenants Renewed|QID|64314|M|63.02,24.80|Z|1961;Korthia|QO|3|CHAT|N|Interact with the Primus to present the sigils to him.|
+T Covenants Renewed|QID|64314|M|63.02,24.80|Z|1961;Korthia|N|To The Primus.|
 
 ; Side Story - The Archivists' Codex
 T Researching Korthian Relics|QID|63731|M|59.05,58.14|Z|1961;Korthia|N|To Scholar Roh-Suir.|
@@ -592,6 +608,6 @@ N Renown Level 47|AVAILABLE|63612|N|You must reach Renown level 47 to continue t
 N Renown Level 50|AVAILABLE|63659|N|You must reach Renown level 50 to continue to the next chapter.|REN|-50|PRE|63622|
 N Renown Level 52|AVAILABLE|63672|N|You must reach Renown level 52 to continue to the next chapter.|REN|-52|PRE|63656|
 N Renown Level 56|AVAILABLE|63579|N|You must reach Renown level 56 to continue to the next chapter.|REN|-56|PRE|64437|
-N Renown Level 58|N|You must reach Renown level 58 to continue to the next chapter.|REN|-58|PRE|63593|;AVAILABLE currently unknown
+N Renown Level 58|AVAILABLE|64211|N|You must reach Renown level 58 to continue to the next chapter.|REN|-58|PRE|63593|
 ]]
 end)
