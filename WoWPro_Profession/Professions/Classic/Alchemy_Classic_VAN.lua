@@ -63,7 +63,7 @@ M [item=1710/Greater Healing Potion]|QID|171007181|P|Alchemy;171;0+185;1|ITEM|17
 = Learn Recipe|QID|171001851|P|Alchemy;171;0+185|RECIPE|11449|N|Learn [spell=11449/Elixir of Agility] Recipe from Artisan Trainer.|
 M [item=8949/Elixir of Agility]|QID|171011449|P|Alchemy;171;0+210;1|ITEM|8949|CRAFT|11449 20|MATS|3820 1;3821 1;3372 1|
 = Learn [spell=11611/Artisan Alchemy]|QID|171011611|M|32.6,43.8|Z|1314;Feralas|P|Alchemy;171;0+200|SPELL|Artisan Alchemy;11611|LVL|35|T|Kylanna Windwhisper|N|Visit Kylanna Windwhisper, Master Alchemist Trainer in Feralas.|FACTION|Alliance|
-= Learn [spell=11611/Artisan Alchemy]|QID|171011611|M|48.4,55.6|Z|1261;Swamp of Sorrows|P|Alchemy;171;0+200|SPELL|Artisan Alchemy;11611|LVL|35|T|Kylanna Windwhisper|N|Visit Rogvar, Master Alchemist Trainer in Swamp of Sorrows.|FACTION|Horde|
+= Learn [spell=11611/Artisan Alchemy]|QID|171011611|M|48.4,55.6|Z|1435;Swamp of Sorrows|P|Alchemy;171;0+200|SPELL|Artisan Alchemy;11611|LVL|35|T|Kylanna Windwhisper|N|Visit Rogvar, Master Alchemist Trainer in Swamp of Sorrows.|FACTION|Horde|
 = Learn Recipe|QID|171001951|P|Alchemy;171;0+195|RECIPE|11450|N|Learn [spell=11450/Elixir of Greater Defense] Recipe from Master Trainer.|
 M [item=8951/Elixir of Greater Defense]|QID|171011450|P|Alchemy;171;0+215;1|ITEM|8951|CRAFT|11450 10|MATS|3355 1;3821 1;3372 1|
 = Learn Recipe|QID|171002151|P|Alchemy;171;0+215|RECIPE|11457|N|Learn [spell=11457/Superior Healing Potion] Recipe from Master Trainer.|
