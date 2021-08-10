@@ -254,6 +254,7 @@ A Victory in Our Name|QID|63622|PRE|63620|M|61.97,41.54|Z|The Maw|N|From Barones
 P Keeper's Respite|ACTIVE|63622|M|61.56,40.74|Z|The Maw|N|Take the portal to Keeper's Respite.|
 C Victory in Our Name|QID|63622|M|60.28,27.34|Z|1961;Korthia|CHAT|N|Speak with Draka.|
 T Victory in Our Name|QID|63622|M|62.83,26.38|Z|1961;Korthia|N|To The Primus.|
+
 ;Necrolord only quests
 A Filling an Empty Throne|QID|63623|PRE|63622|M|62.83,26.38|Z|1961;Korthia|N|From The Primus.|COV|Necrolord|
 P Ring of Transference|ACTIVE|63623|M|64.47,24.05|Z|1961;Korthia|N|Take the portal to Ring of Transference.|COV|Necrolord|
@@ -563,6 +564,7 @@ A A Matter of Urgency|QID|63755|M|64.26,22.88|Z|1961;Korthia|N|From Pathscribe R
 T A Matter of Urgency|QID|63755|M|56.25,38.74|Z|1961;Korthia|N|To Caretaker Kah-Than. In a small cave.|
 A The Last Place You Look|QID|63758|PRE|63755|M|56.25,38.74|Z|1961;Korthia|N|From Caretaker Kah-Than.|
 A Rescued from Torment|QID|63756|PRE|63755|M|56.25,38.74|Z|1961;Korthia|N|From Caretaker Kah-Than.|
+
 ;L Korthian Artifact|QID|63757|PRE|63755|M|50.69,51.97|Z|1961;Korthia|L|185915|N|Kill mawsworn in the area until you get the artifact.|
 A Looting the Looters|QID|63757|PRE|63755|M|50.69,51.97|Z|1961;Korthia|N|Kill mawsworn in the area until you get the Korthian Artifact, then this quest will be Auto Accepted and item will disappear.|;L won't work since item disappears
 C Rescued from Torment|QID|63756|M|50.69,52.13|Z|1961;Korthia|NC|N|Click on the Attendants to rescue them.|S|
@@ -601,6 +603,9 @@ A The Box of Many Things|QID|64210|PRE|64557|N|From Ve'nish.|
 T The Box of Many Things|QID|64210|M|50.86,54.00|Z|1912;Torghast, Tower of the Damned|N|To Runecarver. You can either exit your Torghast run and continue the questline, or complete your Torghast run and finish this afterward. It doesn't matter.|
 A Tower Knowledge|QID|64216|PRE|64210|M|50.86,54.00|Z|1912;Torghast, Tower of the Damned|N|From Runecarver.|
 T Tower Knowledge|QID|64216|M|47.47,75.37|Z|1912;Torghast, Tower of the Damned|N|To Box of Many Things outline.|
+A A Loose Thread|QID|64441|M|60.95,25.41|Z|1961;Korthia|N|From Misplaced Venthyr Tome.|
+C A Loose Thread|QID|64441|M|60.95,25.41|Z|1961;Korthia|NC|N|Choose the Pick up the tome to return it option.|
+T A Loose Thread|QID|64441|M|60.95,25.41|Z|1961;Korthia|N|To Misplaced Venthyr Tome.|
 
 ; Renown Notes
 N Renown Level 44|AVAILABLE|63703|N|You must reach Renown level 44 to continue to the next chapter.|REN|-44|
