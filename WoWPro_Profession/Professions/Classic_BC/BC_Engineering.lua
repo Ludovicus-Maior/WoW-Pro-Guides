@@ -156,8 +156,8 @@ N Engineering Specialization|QID|202002001|P|Engineering;202;0+200|N|Once you re
 M [item=10560/Unstable Trigger]|QID|202012591|P|Engineering;202;0+216;1|ITEM|10560|CRAFT|12591 20|MATS|3860 1;4338 1;10505 1|N|Save these for later steps.|
 = Learn Recipe|QID|202002151|P|Engineering;202;0+215|RECIPE|12599|N|Learn [spell=12589/Mithril Casing] Recipe from Trainer.|
 M [item=10561/Mithril Casing]|QID|202012599|P|Engineering;202;0+238;1|ITEM|10561|CRAFT|12599 40|MATS|3860 3|N|Save these for later steps.|
-= Learn Recipe|QID|202002351|P|Engineering;202;0+235|RECIPE|14359|N|Learn [spell=14359/Hi-Explosive Bomb] Recipe from Trainer.|
-M [item=10562/Hi-Explosive Bomb]|QID|202014359|P|Engineering;202;0+250;1|ITEM|10562|CRAFT|14359 20|MATS|10561 2;10560 1;10505 2|
+= Learn Recipe|QID|202002351|P|Engineering;202;0+235|RECIPE|12619|N|Learn [spell=12619/Hi-Explosive Bomb] Recipe from Trainer.|
+M [item=10562/Hi-Explosive Bomb]|QID|202012619|P|Engineering;202;0+250;1|ITEM|10562|CRAFT|12619 20|MATS|10561 2;10560 1;10505 2|
 = Learn Recipe|QID|202002501|P|Engineering;202;0+250|RECIPE|19788|N|Learn [spell=19788/Dense Blasting Powder] Recipe from Trainer.|
 M [item=15992/Dense Blasting Powder]|QID|202019788|P|Engineering;202;0+260;1|ITEM|15992|CRAFT|19788 30|MATS|12365 2|N|You will probably have to make more than 30 to hit 260.|
 = Learn Recipe|QID|202002601|P|Engineering;202;0+260|RECIPE|19791|N|Learn [spell=19791/Thorium Widget] Recipe from Trainer.|
