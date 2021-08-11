@@ -3,7 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Human: Intro")
 WoWPro:GuideName(guide,"Human: Intro")
-WoWPro:GuideNextGuide(guide, 'Chromie Time')
+WoWPro:GuideNextGuide(guide, 'BitWes1020')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|LVL|10|S!US|
@@ -167,11 +167,9 @@ T Extinguishing Hope|QID|26391|M|33.37,54.64|N|To Milly Osworth.|
 T Blackrock Invasion|QID|26389|M|33.55,53.00|N|To Marshal McBride.|
 A Ending the Invasion!|QID|26390|M|33.55,53.00|N|From Marshal McBride.|PRE|26389|
 C Ending the Invasion!|QID|26390|M|65.06,48.19|N|Kill Kurtok the Slayer (go around the abbey to get to him).|T|Kurtok the Slayer|
-;H Northshire Valley|ACTIVE|26390|M|48.20,42.06|N|Hearth or run back to the Abbey.|
-r Repair and Sell Junk|ACTIVE|26390|N|Take this opportunity to sell your junk and repair with the sellers at the Caravan|T|Godric Rothgar|S!US|
 T Ending the Invasion!|QID|26390|M|33.55,53.00|N|To Marshal McBride.|
 A Report to Goldshire|QID|54|M|33.55,53.00|N|From Marshal McBride.|PRE|26390|
-A Report to Goldshire|QID|54|M|48.22,42.03|Z|Elwynn Forest|N|From Marshal McBride in Northshire Valley|PRE|26390|RANK|2|
+r Repair and Sell Junk|ACTIVE|26390|N|Take this opportunity to sell your junk and repair with the sellers at the Caravan|T|Godric Rothgar|
 A Rest and Relaxation|QID|37112|ACTIVE|54|M|45.42,48.99|Z|Elwynn Forest|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|
 h Lion's Pride Inn|ACTIVE|37112|M|43.77,65.80|Z|Elwynn Forest|N|At Innkeeper Farley.|
 T Rest and Relaxation|QID|37112|M|43.77,65.80|Z|Elwynn Forest|N|To Innkeeper Farley.|
@@ -209,7 +207,6 @@ C Gold Dust Exchange|QID|47|N|Kill and loot Kobolds until you have 10 Gold Dust.
 C The Fargodeep Mine|QID|62|M|38.96,82.27;39.05,81.59;39.56,80.32|Z|Elwynn Forest|CS|N|Enter the mine and follow the way until you get a quest completed message.|NC|
 C Kobold Candles|QID|60|M|38.00,83.50|Z|Elwynn Forest|N|Kill and loot Kobolds until you have 8 Kobold Candles.|US|
 C Gold Dust Exchange|QID|47|M|38.00,83.50|Z|Elwynn Forest|N|Kill and loot Kobolds until you have 10 Gold Dust.|US|
-H Lion's Pride Inn|ACTIVE|60|M|43.75,65.75|TZ|Goldshire|N|Hearthstone to, or run back to Lion's Pride Inn in Goldshire.|
 T Note to William|QID|107|M|43.32,65.70|Z|Elwynn Forest|N|To William Pestle.|
 A Collecting Kelp|QID|112|M|43.32,65.70|Z|Elwynn Forest|N|From William Pestle.|PRE|107|
 T Kobold Candles|QID|60|M|43.32,65.70|Z|Elwynn Forest|N|To William Pestle.|
@@ -220,7 +217,7 @@ T A Fishy Peril|QID|40|M|42.11,65.93|Z|Elwynn Forest|N|To Marshal Dughan.|
 T The Fargodeep Mine|QID|62|M|42.11,65.93|Z|Elwynn Forest|N|To Marshal Dughan.|
 A The Jasperlode Mine|QID|76|M|42.11,65.93|Z|Elwynn Forest|N|From Marshal Dughan.|PRE|62|
 C Collecting Kelp|QID|112|M|50.93,66.47|Z|Elwynn Forest|N|Kill Murlocs until you have 4 Crystal Kelp Fronds.|
-R Jasperlode Mine|ACTIVE|76|M|37.01,55.60|Z|Elwynn Forest|N|Go to the Jasperlode Mine.|
+R Jasperlode Mine|ACTIVE|76|M|61.77,54.00|Z|Elwynn Forest|N|Go to the Jasperlode Mine.|
 C The Jasperlode Mine|QID|76|M|61.74,53.91|Z|Elwynn Forest|N|Go into the mine until you get a quest completed message.|NC|
 H Lion's Pride Inn|ACTIVE|112|M|43.77,65.80|Z|Elwynn Forest|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|
 T Collecting Kelp|QID|112|M|43.32,65.70|Z|Elwynn Forest|N|To William Pestle.|
@@ -274,7 +271,7 @@ r Sell Junk, Restock, Train and Repair.|ACTIVE|26393|M|41.86,65.68|Z|Elwynn Fore
 T A Swift Message|QID|26393|M|41.72,64.64|Z|Elwynn Forest|N|To Bartlett the Brave.|R|Human|
 A Continue to Stormwind|QID|26394|M|41.72,64.64|Z|Elwynn Forest|N|From Bartlett the Brave.|PRE|26393|R|Human|
 F Stormwind|ACTIVE|26394|M|41.72,64.64|Z|Elwynn Forest|TZ|Stormwind City|N|Fly to Stormwind City.|
-T Continue to Stormwind|QID|26394|M|68.32,74.63;64.25,66.59;77.17,60.98|Z|Stormwind City|CC|N|To Osric Strang.|
+T Continue to Stormwind|QID|26394|M|77.17,60.98|Z|Stormwind City|N|To Osric Strang.|
 A Dungar Longdrink|QID|26395|M|77.17,60.98|Z|Stormwind City|N|From Osric Strang.|PRE|26394|R|Human|
 T Elmore's Task|QID|1097|M|71.39,55.76;70.07,46.97;59.72,33.78|Z|Stormwind City|CC|N|To Grimand Elmore, in the Dwarven District.|
 T Dungar Longdrink|QID|26395|M|70.93,72.48|Z|Stormwind City|N|To Dungar Longdrink back at the Gryphon Roost.|
