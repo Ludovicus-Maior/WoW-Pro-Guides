@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide("KurRed1520", "Leveling", "Redridge Mountains", "Kurich", "Alliance")
 WoWPro:GuideSort(guide, 32)
-WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
+WoWPro:GuideNextGuide(guide, 'TwiDus2025')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
@@ -8,12 +8,12 @@ F Eastvale Logging Camp|AVAILABLE|26503|N|Fly to Eastvale Logging Camp.|TAXI|Eas
 R Redridge Mountains|AVAILABLE|26503|M|96.68,72.33|Z|Elwynn Forest|N|Follow the road east into Redridge Mountains.|
 A WANTED: Redridge Gnolls|QID|26504|M|16.15,64.54|N|From the Wanted Poster board.|RANK|2|
 A Franks and Beans|QID|26506|M|15.67,65.28|N|From Darcy Parker.|RANK|2|
+T Hero's Call: Redridge Mountains!|ACTIVE|26365|M|15.32,64.64|Z|Redridge Mountains|N|To Watch Captain Parker.|
 A Still Assessing the Threat|QID|26503|M|15.32,64.86|N|From Watch Captain Parker on top of the tower.|
 C Franks and Beans|QID|26506|N|Kill any Tarantulas, Condors, and Gortusks you see, to get their respective body part.|S|
 C Wanted: Redridge Gnolls|QID|26504|N|Kill any Gnoll you come across.|S|
 C Gnoll Battle Plans|QID|26503|M|16.19,55.25|QO|1|N|Pick up the Gnoll Battle Plans here.|NC|
 C Gnoll Orders|QID|26503|M|28.02,74.72|QO|2|N|Pick up the Gnoll Orders at this waypoint.|NC|
-K Gnollfeaster|ACTIVE|26503^26506|M|24.40,70.87|N|You'll find this large spider in a nook south of Lakeridge Highway.\n[color=FF0000]NOTE: [/color]This a tameable rare and thusly, a quick respawn rate.|RARE|
 C Gnoll Strategy Guide|QID|26503|M|30.57,62.7|QO|3|N|Pick up the Gnoll Strategy Guide here.|NC|
 C Wanted: Redridge Gnolls|QID|26504|M|28.21,73.94|N|Kill any Gnoll you come across.|US|
 C Franks and Beans|QID|26506|M|20.46,64.70|N|Kill any Tarantulas, Condors, and Gortusks you see, to get their respective body part.|US|
@@ -22,7 +22,6 @@ T Still Assessing the Threat|QID|26503|M|15.31,64.82|N|To Watch Captain Parker o
 A Parker's Report|QID|26505|M|15.31,64.82|N|From Watch Captain Parker on top of the tower.|PRE|26503|
 T WANTED: Redridge Gnolls|QID|26504|M|15.31,64.82|N|To Watch Captain Parker on top of the tower.|
 f Lakeshire|QID|26761|M|29.48,53.77|N|At Ariena Stormfeather.|
-K Snarlflare|ACTIVE|26761|M|35.20,60.72|N|You'll find this silver rare Dragonkin flying atop the 'mountain' just east of the Lakeshore FP. This one seems to have a quick respawn timer.|RARE|
 r Repair, Sell Junk|ACTIVE|26505|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|S!US|
 T Threat to the Kingdom|QID|26761|M|28.91,41.11|N|To Magistrate Solomon inside the town hall.|
 T Parker's Report|QID|26505|M|28.91,41.11|N|To Magistrate Solomon inside the town hall.|
@@ -35,7 +34,6 @@ T An Unwelcome Guest|QID|26509|M|22.04,42.70|N|To Martie Jainrose.|
 A Nida's Necklace|QID|26508|M|28.34,48.87|N|From Shawn on the second pier.|RANK|3|
 C Nida's Necklace|QID|26508|M|20.43,47.21;35.6,49.6|CN|N|Jump in the water and look for Glinting Mud. It can be anywhere within the 2 waypoints.  Head to the west first, if not there, then head east.|NC|
 C Lake Everstill Clean Up|QID|26511|M|37.46,43.48|N|Kill any murloc you see.|S|
-K Squiddic|ACTIVE|26510^26511|N|You'll find him on the island with the Gnomecorder.|RARE|S!US|
 C We Must Prepare!|QID|26510|M|37.82,42.14|N|Pick up the Gnomecorder on the small isle.|NC|
 C Lake Everstill Clean Up|QID|26511|M|37.46,43.48|N|Kill any murloc you see.|US|
 T Nida's Necklace|QID|26508|M|28.28,48.87|N|To Nida.|
@@ -160,5 +158,7 @@ T Darkblaze, Brood of the Worldbreaker|QID|26714|M|60.66,36.67|N|To Colonel Trot
 A Triumphant Return|QID|26726|M|60.66,36.67|N|From Colonel Troteman.|PRE|26714|
 H Lakeshire|ACTIVE|26726|M|33.24,40.69|TZ|Lakeshire Inn|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|
 T Triumphant Return|QID|26726|M|28.91,41.11|N|To Magistrate Solomon in the town hall.|
+N If you plan on going to Duskwood pick up the next two quest. If you dont just skip it.|
+A Hero's Call: Duskwood!|AVAILABLE|26728|M|28.91,41.11|N|From Captain Danuvin.|
 ]]
 end)
