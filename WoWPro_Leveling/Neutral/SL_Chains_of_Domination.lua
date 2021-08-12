@@ -489,15 +489,19 @@ P Korthia|QID|63593|ACTIVE|63593|M|30.79,23.31|Z|Ring of Transference@Oribos|NC|
 T New Sigil of the Kyrian|QID|63593|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; What Lies Ahead
-A Doorway in the Dark|QID|64211|M|62.82,26.41|Z|1961;Korthia|N|From The Primus.|PRE|63593|REN|58|
-C Doorway in the Dark|QID|64211|M|63.02,25.65|Z|1961;Korthia|QO|1|NC|N|Listen to the dialog and wait for objective to complete.|
-C Doorway in the Dark|QID|64211|M|63.02,25.65|Z|1961;Korthia|QO|2|NC|N|Speak with Jaina. This is the end Sanctum of Domination cinematic, you can skip if you don't want to watch again.|
-T Doorway in the Dark|QID|64211|M|63.03,25.63|Z|1961;Korthia|N|To Lady Jaina Proudmoore.|
-A A Symbol of Hope|QID|64213|PRE|64211|M|63.03,25.63|Z|1961;Korthia|N|From Lady Jaina Proudmoore.|
-C A Symbol of Hope|QID|64213|M|63.19,24.51|Z|1961;Korthia|QO|1|NC|N|Walk with the group and wait for the dialog to finish, you will click on the compass afterward.|
-C A Symbol of Hope|QID|64213|M|63.19,24.51|Z|1961;Korthia|QO|2|NC|N|Click on the compass.|
-T A Symbol of Hope|QID|64213|M|63.12,24.52|Z|1961;Korthia|N|To Lady Jaina Proudmoore.|
-A Covenants Renewed|QID|64314|PRE|64213|M|63.12,24.42|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|
+A Doorway in the Dark|QID|64211^64212|M|62.82,26.41|Z|1961;Korthia|N|From The Primus.|PRE|63593|REN|58|
+C Doorway in the Dark|QID|64211^64212|M|63.02,25.65|Z|1961;Korthia|QO|1|NC|N|Listen to the dialog and wait for objective to complete.|
+C Doorway in the Dark|QID|64211|M|63.02,25.65|Z|1961;Korthia|QO|2|NC|N|Speak with Jaina. This is the end Sanctum of Domination cinematic, you can skip if you don't want to watch again.|FACTION|Alliance|
+C Doorway in the Dark|QID|64212|M|62.88,25.62|Z|1961;Korthia|QO|2|NC|N|Speak with Thrall. This is the end Sanctum of Domination cinematic, you can skip if you don't want to watch again.|FACTION|Horde|
+T Doorway in the Dark|QID|64211|M|63.03,25.63|Z|1961;Korthia|N|To Lady Jaina Proudmoore.|FACTION|Alliance|
+T Doorway in the Dark|QID|64212|M|62.88,25.62|Z|1961;Korthia|N|To Thrall.|FACTION|Horde|
+A A Symbol of Hope|QID|64213|PRE|64211|M|63.03,25.63|Z|1961;Korthia|N|From Lady Jaina Proudmoore.|FACTION|Alliance|
+A A Symbol of Hope|QID|64214|PRE|64212|M|62.88,25.62|Z|1961;Korthia|N|From Thrall.|FACTION|Horde|
+C A Symbol of Hope|QID|64213^64214|M|63.19,24.51|Z|1961;Korthia|QO|1|NC|N|Walk with the group and wait for the dialog to finish, you will click on the compass afterward.|
+C A Symbol of Hope|QID|64213^64214|M|63.19,24.51|Z|1961;Korthia|QO|2|NC|N|Click on the compass.|
+T A Symbol of Hope|QID|64213|M|63.12,24.52|Z|1961;Korthia|N|To Lady Jaina Proudmoore.|FACTION|Alliance|
+T A Symbol of Hope|QID|64214|M|63.03,24.54|Z|1961;Korthia|N|To Thrall.|FACTION|Horde|
+A Covenants Renewed|QID|64314|PRE|64213^64214|M|63.12,24.42|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|
 C Covenants Renewed|QID|64314|M|62.79,26.39|Z|1961;Korthia|QO|1|CHAT|N|Speak to the Primus.|
 C Covenants Renewed|QID|64314|M|63.52,25.01|Z|1961;Korthia|QO|2<1|NC|N|Click on the Night Fae Sigil.|
 C Covenants Renewed|QID|64314|M|63.61,24.54|Z|1961;Korthia|QO|2<2|NC|N|Click on the Necrolord Sigil.|
