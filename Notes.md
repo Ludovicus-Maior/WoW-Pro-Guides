@@ -1,6 +1,7 @@
 # Release 9.1.0-A3 / 1.13.7-B3 / 2.5.1-B3
 ## Bug Fixes
 * Retail: Covenant names sometime have a space and sometimes not. Sigh.
+* Retail: Accidentally used localized Covenant names!
 
 ## Guide Updates
 ### Retail Leveling
