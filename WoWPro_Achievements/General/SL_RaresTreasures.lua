@@ -17,7 +17,9 @@ $ Gift of Agthia|M|35.1,58.0|Z|Bastion!The Shadowlands|N|WH - Interact with Agth
 $ Gift of Chyrus|M|70.5,36.5|Z|Bastion!The Shadowlands|N|WH - /kneel in front of treasure to Obtain Proof of Humility.|ACH|14311;13|
 $ Gift of Devos|M|27.6,21.7|Z|Bastion!The Shadowlands|N|WH - Take Flame of Devotion at 23.9,24.8, and bring it to the brazier, Obtaining Proof of Loyalty.|ITEM|179977|ACH|14311;15|
 $ Experimental Construct Part|QID|61052|M|51.4,17.9|Z|Bastion!The Shadowlands|N|Requires Unstable Construct Anima, smallish anima canister, groundspawn various locations nearby.|ITEM|183609|ACH|14311;8|
-$ Memorial Offerings|M|56.5,17.2|Z|Bastion!The Shadowlands|N|WH - Buy Memorial Wine from Kobri, use on drink tray near treasure to get the Key.|ACH|14311;10|
+$ Memorial Offerings 1|QID|61150|M|53.49,80.33;47.97,73.82;33.99,66.51;52.16,47.09;53.57,32.24|CN|Z|Bastion!The Shadowlands|L|180788|N|Purchase Memorial Wine from Kobri located near one of the marked spots on the map.|T|Kobri|
+$ Memorial Offerings 2|QID|61150|M|56.86,18.98|Z|Bastion!The Shadowlands|N|Put the memorial wine into the drink tray.|L|180797|
+$ Memorial Offerings 3|QID|61150|M|56.49,17.15|Z|Bastion!The Shadowlands|N|With the key you just got from the offering the wine, you can unlock the treasure.|ACH|14311;10|
 $ Gift of Vesiphone 1|QID|60890|M|64.87,71.15|Z|Bastion!The Shadowlands|N|Ring bell on either side of treasure chest, kill mob that spawns|BUFF|333239|ITEM|180859|LVL|60|ACH|14311;12|
 $ Gift of Vesiphone 2|QID|60890|M|64.91,70.38|Z|Bastion!The Shadowlands|N|Next stand under waterfall for Proof of Purity buff, which unlocks treasure.|BUFF|332785|ITEM|180859|LVL|60|ACH|14311;12|
 $ Gift of Vesiphone 3|QID|60890|M|64.87,71.15|Z|Bastion!The Shadowlands|N|Go open the chest and get your cute companion and anima|ITEM|180859|LVL|60|ACH|14311;12|
