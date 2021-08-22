@@ -3,7 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Human: Intro")
 WoWPro:GuideName(guide,"Human: Intro")
-WoWPro:GuideNextGuide(guide, 'BitWes1020')
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|LVL|10|S!US|
@@ -169,7 +169,6 @@ A Ending the Invasion!|QID|26390|M|33.55,53.00|N|From Marshal McBride.|PRE|26389
 C Ending the Invasion!|QID|26390|M|65.06,48.19|N|Kill Kurtok the Slayer (go around the abbey to get to him).|T|Kurtok the Slayer|
 T Ending the Invasion!|QID|26390|M|33.55,53.00|N|To Marshal McBride.|
 A Report to Goldshire|QID|54|M|33.55,53.00|N|From Marshal McBride.|PRE|26390|
-r Repair and Sell Junk|ACTIVE|26390|N|Take this opportunity to sell your junk and repair with the sellers at the Caravan|T|Godric Rothgar|
 A Rest and Relaxation|QID|37112|ACTIVE|54|M|45.42,48.99|Z|Elwynn Forest|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|
 h Lion's Pride Inn|ACTIVE|37112|M|43.77,65.80|Z|Elwynn Forest|N|At Innkeeper Farley.|
 T Rest and Relaxation|QID|37112|M|43.77,65.80|Z|Elwynn Forest|N|To Innkeeper Farley.|
@@ -288,5 +287,7 @@ A Furlbrow's Deed|QID|184|M|24.78,95.26|Z|Elwynn Forest|N|If you're going to Wes
 C Riverpaw Gnoll Bounty|QID|11|M|25.94,89.52|Z|Elwynn Forest|N|Kill Gnolls and loot their Painted Gnoll Armbands.|US|
 T Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|Z|Elwynn Forest|N|To Deputy Rainer.|
 T WANTED:  "Hogger"|QID|176|M|42.2,65.9|Z|Elwynn Forest|N|To Marshal Dughan.|
+N If you plan on going to Westfall pick up the next quest. If you dont just skip them.|
+A Hero's Call: Westfall!|AVAILABLE|26378|M|42.2,65.8|Z|Elwynn Forest|N|From Marshal Dughan.|
 ]]
 end)
