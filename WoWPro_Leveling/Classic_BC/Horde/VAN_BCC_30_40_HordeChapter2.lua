@@ -121,38 +121,45 @@ F Camp Taurajo|ACTIVE|1153|M|46.14,51.70|
 T A New Ore Sample|QID|1153|M|45.10,57.69|Z|The Barrens|N|To Tatternack Steelforge.|
 
 ; --- Thunder Bluff
-F Thunder Bluff|QID|1131|M|44.46,59.14|Z|The Barrens|
+F Thunder Bluff|ACTIVE|1131|M|44.44,59.15|Z|The Barrens|
 T Steelsnap|QID|1131|M|61.53,80.89|Z|Thunder Bluff|N|To Melor Stonehoof.|
 A Frostmaw|QID|1136|M|61.53,80.89|Z|Thunder Bluff|N|From Melor Stonehoof.|PRE|1131|
 
 ; --- Stonetalon Mountains
 F Sun Rock Retreat|ACTIVE|1152|M|47.02,49.83|Z|Thunder Bluff|
 R Windshear Crag|ACTIVE|1152|M|49.51,61.02;53.15,61.61;59.97,71.14|Z|Stonetalon Mountains|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
-T Test of Lore|QID|1152|M|78.79,45.67|Z|Stonetalon Mountains|N|To Braug Dimspirit near the entrance to Talondeep Path in Stonetalon Mountains.|
+R The Talondeep Path|ACTIVE|1152|M|76.75,45.34|Z|Stonetalon Mountains|N|Head to the northeast corner of Windshear Crag.|
+T Test of Lore|QID|1152|M|78.79,45.67|Z|Stonetalon Mountains|N|To Braug Dimspirit.|
 A Test of Lore|QID|1154|M|78.79,45.67|Z|Stonetalon Mountains|N|From Braug Dimspirit.|PRE|1152|
 
 ; --- Ashenvale
-R The Dor'Danil Barrow Den|QID|1154|M|42.28,71.07;53.71,58.89;71.71,70.28;75.02,76.38;75.84,75.38|Z|Ashenvale|CC|N|Take the Talondeep Path to Ashenvale. Follow the path to the road and continue east until you get to the path leading to The Dor'Danil Barrow Den.|
-l Legacy of the Aspects|QID|1154|M|77.32,75.18;76.60,74.86;75.56,74.36|Z|Ashenvale|CC|L|5860|N|Find the Legacy of the Aspects.|
+R The Dor'Danil Barrow Den|ACTIVE|1154|M|42.3,71.1;42.7,57.1;71.7,70.2;72.51,71.32|Z|Ashenvale|CC|N|Enter the cave and take the Talondeep Path to Ashenvale. Head straight north to the road and continue east until you get to the path leading to The Dor'Danil Barrow Den. Follow the path into The Dor'Danil Barrow Den area.|
+C Legacy of the Aspects|QID|1154|M|75.9,75.4;76.8,74.9;75.57,74.38|Z|Ashenvale|CS|L|5860|N|Make your way to the Den entrance and work your way inside the Den. Locate the podium and loot the Legacy of the Aspects from it.\n[color=FF0000]NOTE: [/color]You will come across mobs that will attack you as you descend the path inside.|
 
 ; --- Stonetalon Mountains
-R The Talondeep Path|ACTIVE|1154|CC|N|Make your way out The Dor'Danil Barrow Den. Head to the Ashenvale entrance to The Talondeep Path and go through to Stonetalon Mountains.|
-T Test of Lore|QID|1154|M|78.75,45.62|Z|Stonetalon Mountains|N|To Braug Dimspirit.|
-A Test of Lore|QID|6627|M|78.75,45.62|Z|Stonetalon Mountains|N|From Braug Dimspirit.|PRE|1154|
-C Test of Lore|QID|6627|M|78.75,45.62|Z|Stonetalon Mountains|N|Answer Braug Dimspirit's question with #2 Neltharion.|CHAT|
-T Test of Lore|QID|6627|M|78.75,45.62|Z|Stonetalon Mountains|N|To Braug Dimspirit.|
-A Test of Lore|QID|1159|M|78.75,45.62|Z|Stonetalon Mountains|N|From Braug Dimspirit.|PRE|6627|
-R Sun Rock Retreat|AVAILABLE|1145|M|49.58,60.99|Z|Stonetalon Mountains|
+R The Talondeep Path|ACTIVE|1154|M|43.04,71.29|Z|Ashenvale|N|Make your way out The Dor'Danil Barrow Den and head back to The Talondeep Path.
+R Stonetalon Mountains|ACTIVE|1154|M|81.56,30.11|Z|Stonetalon Mountains|N|Enter the cave and follow the path through to Stonetalon Mountains.|
+T Test of Lore|QID|1154|M|78.79,45.67|Z|Stonetalon Mountains|N|To Braug Dimspirit.|
+A Test of Lore|QID|6627|M|78.79,45.67|Z|Stonetalon Mountains|N|From Braug Dimspirit.|PRE|1154|
+C Test of Lore|QID|6627|M|78.79,45.67|Z|Stonetalon Mountains|N|Answer Braug Dimspirit's question with #2 Neltharion.|CHAT|
+T Test of Lore|QID|6627|M|78.79,45.67|Z|Stonetalon Mountains|N|To Braug Dimspirit.|
+A Test of Lore|QID|1159|M|78.79,45.67|Z|Stonetalon Mountains|N|From Braug Dimspirit.|PRE|6627|
+H Freewind Post|AVAILABLE|1145|N|This is much faster than running back to Sun Rock Retreat.\n[color=FF0000]NOTE: [/color]If your hearth is on CD, skip this step.|
+R Sun Rock Retreat|AVAILABLE|1145|M|49.58,60.99|Z|Stonetalon Mountains|N|Unfortunately, you have no choice but to foot it to Sun Rock Retreat.|IZ|1442;Stonetalon Mountains|
 
 ; --- The Barrens/Orgrimmar
-F Crossroads|AVAILABLE|1145|M|45.12,59.84|Z|Stonetalon Mountains|
-A The Swarm Grows|QID|1145|M|51.09,29.61|Z|The Barrens|N|From Korran.|
+F Crossroads|AVAILABLE|1145|M|45.12,59.84|Z|Stonetalon Mountains|IZ|1442;Stonetalon Mountains|
+F Crossroads|AVAILABLE|1145|M|45.14,49.10|IZ|1441;Thousand Needles|
+A The Swarm Grows|QID|1145|M|51.07,29.63|Z|The Barrens|N|From Korran.|
 F Orgrimmar|ACTIVE|1145|M|51.50,30.34|Z|The Barrens|
-T The Swarm Grows|QID|1145|M|75.22,34.23|Z|Orgrimmar|N|To Belgrom Rockmaul.|
-A The Swarm Grows|QID|1146|M|75.22,34.23|Z|Orgrimmar|N|From Belgrom Rockmaul.|PRE|1145|
-A Regthar Deathgate|QID|1361|M|75.22,34.23|Z|Orgrimmar|N|From Belgrom Rockmaul.|
-A Alliance Relations|QID|1431|M|51.99,45.41|Z|Orgrimmar|N|From Craven Drok.|
-T Alliance Relations|QID|1431|M|22.28,53.92|Z|Orgrimmar|N|To Keldran.|
+R Valley of Honor|ACTIVE|1145|M|67.41,39.39|Z|Orgrimmar|
+T The Swarm Grows|QID|1145|M|75.23,34.23|Z|Orgrimmar|N|To Belgrom Rockmaul.|
+A The Swarm Grows|QID|1146|M|75.23,34.23|Z|Orgrimmar|N|From Belgrom Rockmaul.|PRE|1145|
+A Regthar Deathgate|QID|1361|M|75.23,34.23|Z|Orgrimmar|N|From Belgrom Rockmaul.|
+R Cleft of Shadow|AVAILABLE|1431|M|52.61,42.41|Z|Orgrimmar|
+A Alliance Relations|QID|1431|M|51.99,45.41|Z|Orgrimmar|N|From Craven Drok.\n[color=FF0000]NOTE: [/color]If he's not here, he circles around the buildings at the bottom and up the ramp on the opposite side before returning.|
+R Valley of Spirits|ACTIVE|1431|M|38.18,73.56|Z|Orgrimmar|N|Exit and make your way to the Valley of Spirits.|
+T Alliance Relations|QID|1431|M|22.28,53.92|Z|Orgrimmar|N|To Keldran, in the building just before the west entrance/exit.|
 A Alliance Relations|QID|1432|M|22.28,53.92|Z|Orgrimmar|N|From Keldran.|PRE|1431|
 
 ; --- Thousand Needles
