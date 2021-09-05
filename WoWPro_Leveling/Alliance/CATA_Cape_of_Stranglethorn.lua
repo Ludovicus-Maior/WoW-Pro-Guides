@@ -12,7 +12,7 @@ T To the Cape!|QID|26805|M|55.25,42.48|N|To Bronwyn Hewstrike.|S|
 T Hero's Call: The Cape of Stranglethorn!|QID|28702|O|M|55.25,42.48|N|To Bronwyn Hewstrike.|
 T To the Cape!|QID|26805|M|55.25,42.48|N|To Bronwyn Hewstrike.|US|
 ;The next quest has two IDs, 26825 and 26826, 26825 if the player found the ogre artifact, and 26826 if they player did not.
-A Dask "The Flask" Gobfizzle|QID|26825|M|55.12,42.44|N|From Bronwyn Hewstrike.|L|58490|
+A Dask "The Flask" Gobfizzle|QID|26825^26826|M|55.12,42.44|N|From Bronwyn Hewstrike.|L|58490|
 T Dask "The Flask" Gobfizzle|QID|26825|M|55.31,41.93|N|To Dask "The Flask" Gobfizzle.|O|
 T Dask "The Flask" Gobfizzle|QID|26826|M|55.31,41.93|N|To Dask "The Flask" Gobfizzle.|O|
 A Too Big For His Britches|QID|26823|PRE|26825^26826|M|55.31,41.93|N|From Dask "The Flask" Gobfizzle.|
@@ -73,8 +73,6 @@ A High Priest Venoxis|QID|26814|PRE|26813|M|82.11,35.37|Z|Northern Stranglethorn
 C High Priest Venoxis|QID|26814|M|83.70,35.96|Z|Northern Stranglethorn|N|Kill the High Priest Venoxis - once you achieve this, you will be rooted in place, and a ladder will appear on your screen from the right.  Grab the ladder to return to Explorer's League.\n\nDuring the battle, any Spirit of Venoxis reaching the High Priestess will cast a heal on it, too many of these should be avoided, as the restored health is vastly higher than the health to kill the Spirits.|
 T High Priest Venoxis|QID|26814|U|60374|M|55.70,42.27|N|To Maywiki.|
 T Recipe for Disaster|QID|26816|M|55.31,41.93|N|To Dask "The Flask" Gobfizzle.|
-; ** You will not have the FP in Booty Bay yet.
-;F Booty Bay |QID|26821|N|Fly to Booty Bay.|
 R Booty Bay|QID|26821|M|50.97,43.09;45.26,65.73|CC|N|Follow the path to the final cordinates and walk through the tunnel.|
 h The Salty Sailor Tavern|QID|26821|M|40.93,73.79|N|At Innkeeper Skindle.|
 T Airwyn Bantamflax|QID|26821|M|42.49,73.15|N|To Airwyn Bantamflax.|
@@ -93,11 +91,11 @@ A Scaring Shaky|QID|26593|M|40.97,74.32;42.05,73.46|CC|N|From "Sea Wolf" MacKinl
 A Stranglethorn Fever|QID|26597|M|41.88,72.81|N|From Fin Fizracket.|
 A The Bloodsail Buccaneers|QID|26609|PRE|26595^26601^26606|M|42.66,71.96|N|From First Mate Crazz.|
 A The Captain's Chest|QID|26599|M|40.33,67.87|N|From Captain Hecklebury Smotts.|
-;f Booty Bay|QID|26593|NC|M|41.64,74.47|N|Get the Booty Bay flight path.|
+f Booty Bay|QID|26593|NC|M|41.64,74.47|N|Get the Booty Bay flight path.|
 K "Good-Boy" Bruce|AVAILABLE|26617|L|59143|M|41.35,61.23|N|Kill and loot "Good-Boy" Bruce.|
+A An Old Sea Dog|QID|26617|U|59143|N|Accept this quest from the Weather-Beaten Coin.|
 T The Bloodsail Buccaneers|QID|26609|M|42.33,67.89;45.06,65.75;41.35,61.16|CC|N|To Bloodsail Correspondence on the Southern Savage Coast.|
 A Bloodsail Treachery|QID|26610|PRE|26609|M|41.35,61.16|N|From Bloodsail Correspondence.|
-A An Old Sea Dog|QID|26617|U|59143|N|Accept this quest from the Weather-Beaten Coin.|
 C The Captain's Chest|QID|26599|M|52.39,64.68;55.9,63.43|CN|N|Kill Gorlash (He wanders around the two waypoints, normally in the water), and loot Smotts' Chest.|
 C Scaring Shaky|QID|26593|S|M|51,53|N|From now on kill Elder Mistvale Gorillas for Giblets.|
 l Gorilla Fang|QID|26597|M|51,53|N|Kill and loot Gorillas until you get a Gorilla Fang.|L|2799|
@@ -119,14 +117,14 @@ A Return to MacKinley|QID|26594|PRE|26593|M|40.48,67.70|N|From "Shaky" Phillipe.
 A Keep An Eye Out|QID|26614|PRE|26611|M|43.43,71.37|N|Up the ramp and around to Dizzy One-Eye.|
 T Return to MacKinley|QID|26594|M|41.99,73.47|N|To "Sea Wolf" MacKinley.|
 A Kill-Collect|QID|26595|PRE|26594|M|41.99,73.47|N|From "Sea Wolf" MacKinley.|
-B Crate of Pupellyverbos Port|QID|26600|QO|2|M|41.01,73.98|N|Buy a Crate of Pupillyverbos Port from Whiskey Slim inside the Tavern.|L|59037|
-B Crate of Grade-E Meat|QID|26600|QO|1|M|42.77,69.02|N|Buy a Crate of Grade-E Meat from Kelsey Yance at The Old Port Authority.|L|59036|
+B Crate of Pupellyverbos Port|ACTIVE|26600|QO|2|M|41.01,73.98|N|Buy a Crate of Pupillyverbos Port from Whiskey Slim inside the Tavern.|L|59037|
+B Crate of Grade-E Meat|QID|ACTIVE|QO|1|M|42.77,69.02|N|Buy a Crate of Grade-E Meat from Kelsey Yance at The Old Port Authority.|L|59036|
 C A Giant's Feast|QID|26600|NC|M|41.01,73.98;42.78,69.11|CN|N|Buy a Crate of Pupillyverbos Port from Whiskey Slim inside the Tavern. and a Crate of Grade-E Meat from Kelsey Yance at The Old Port Authority.|
 T A Giant's Feast|QID|26600|M|40.37,67.86|N|To Captain Hecklebury Smotts.|
 A A Dish Best Served Huge|QID|26602|PRE|26600|M|40.37,67.86|N|From Captain Hecklebury Smotts.|
-K Freewheelin' Juntz Fitztittle|QID|26595|QO|2|L|59034|M|56.50,57.89;56.79,53.75|CN|N|Kill Freewheelin' while he runs between these to towers. Loot his wrench.|
-K Ephram "Midriff" Moonfall|QID|26595|QO|3|L|59035|M|56.12,49.73|N|Talk to "Midriff", he'll attack you. Kill him and loot his Mirror.|
-K Kill-Collect|QID|26595|QO|1|L|3924|M|59.55,49.16|N|Kill Maury "Clubfoot" Wilkins. Loot his Clubbed Foot.|
+K Freewheelin' Juntz Fitztittle|ACTIVE|26595|QO|2|L|59034|M|56.50,57.89;56.79,53.75|CN|N|Kill Freewheelin' while he runs between these to towers. Loot his wrench.|
+K Ephram "Midriff" Moonfall|ACTIVE|26595|QO|3|L|59035|M|56.12,49.73|N|Talk to "Midriff", he'll attack you. Kill him and loot his Mirror.|
+K Kill-Collect|ACTIVE|26595|QO|1|L|3924|M|59.55,49.16|N|Kill Maury "Clubfoot" Wilkins. Loot his Clubbed Foot.|
 C Keep An Eye Out|QID|26614|M|43.16,81.72|N|Kill and loot Bloodsail mobs until this drops.|S|
 C Up to Snuff|QID|26613|M|41.17,82.64|N|Kill and loot Bloodsail mobs until you get 15 Snuff.|S|
 C A Dish Best Served Huge|QID|26602|QO|1|M|49.68,81.16|N|Activate the Life Boat. Put in the food. Wait for Negolash to appear. Kill him!|; Negolash slain: 1/1
