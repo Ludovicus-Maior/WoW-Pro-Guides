@@ -164,29 +164,30 @@ A Alliance Relations|QID|1432|M|22.28,53.92|Z|Orgrimmar|N|From Keldran.|PRE|1431
 
 ; --- Thousand Needles
 F Freewind Post|ACTIVE|1146|M|45.50,63.84|Z|Orgrimmar|
-T The Swarm Grows|QID|1146|M|67.59,63.93|N|To Moktar Krin in Ironstone Camp, on the edge of the Shimmering Flats. Just follow the road to the east and you'll find him. \nYou'll get to a point where the road veers left. Stick to the right and follow the canyon wall from here.|
+R Ironstone Camp|ACTIVE|1146|M|67.72,63.73|N|It's located on the edge of the Shimmering Flats. Follow the road to the east and you'll find it.\n[color=FF0000]NOTE: [/color]You'll get to a point where the road veers left. Stick to the right and follow the canyon wall from here.|
+T The Swarm Grows|QID|1146|M|67.59,63.93|N|To Moktar Krin.|
 A The Swarm Grows|QID|1147|M|67.59,63.93|N|From Moktar Krin.|
-R Mirage Raceway|AVAILABLE|1104^1105^1110^1111^1175^1176|N|Make your way across the Flats to the Mirage Raceway in the middle of it.|
-A Rocket Car Parts|QID|1110|M|77.76,77.25|N|From Kravel Koalbeard.|
-A Wharfmaster Dizzywig|QID|1111|M|77.76,77.25|N|From Kravel Koalbeard.|
-A Salt Flat Venom|QID|1104|M|78.01,77.14|N|From Fizzle Brassbolts.|
-A Hardened Shells|QID|1105|M|78.08,77.12|N|From Wizzle Brassbolts.|
-A Load Lightening|QID|1176|M|80.13,75.84|N|From Pozzik.|
-A A Bump in the Road|QID|1175|M|81.59,77.85|N|From Trackmaster Zherin.|
-r Repair/Restock|QID|1175|M|80.46,76.98|N|At Synge. You've just picked up a number of collection quests. It would be in your best interest to make as much bag space as feasible.|
-N Mob Location|ACTIVE|1104^1105^1110^1111^1175^1176|N|All of the mobs involved in the quests you just picked up are scattered around the outside of Mirage Raceway.\nThere is no real dividing line between levels. You'll find lv 30s mixed with lv 35s.|
-C Salt Flat Venom|QID|1104|N|Kill Scorpids to collect them.\nYou'll find the Reavers (lv 31-32) in the north and the Terrors (33-34) in the south.|S|
-C Hardened Tortoise Shell|QID|1105|N|Kill any variety of Sparkleshell tortoises to collect them.\nYou'll find the Tortoise (lv 30-31) in the NW quadrant, the Borer (32-33) in the SE quadrant and the Snapper (34-35) in the NE quadrant.|S|
-C Hollow Vulture Bone|QID|1176|N|Kill Salt Flats Vultures/Scavengers to collect them.\nYou'll find the lower level Scavengers (lv 30-32) in the north and the Vultures (32-34) in the south.|S|
-l Rocket Car Parts|ACTIVE|1110|L|5798 30|N|You'll find these scattered on the ground in Shimmering Flats.|S|
-K A Bump in the Road|ACTIVE|1175|QO|3;2;1|N|You'll find the Basilisks (lv 30-31) in the NW quadrant, the Crystalhides (32-33) all over, and the Gazers (34-35) in the SE quadrant.|
+R Mirage Raceway|AVAILABLE|1104^1105^1110^1111^1175^1176|M|80.34,77.10|N|Make your way east across the Shimmering Flats to the Mirage Raceway in the middle of it.\n[color=FF0000]NOTE: [/color]Avoid fighting if possible. Save the kills for when they count.|
+A Rocket Car Parts|QID|1110|M|77.79,77.27|N|From Kravel Koalbeard.|
+A Wharfmaster Dizzywig|QID|1111|M|77.79,77.27|N|From Kravel Koalbeard.|
+A Salt Flat Venom|QID|1104|M|78.06,77.13|N|From Fizzle Brassbolts.|
+A Hardened Shells|QID|1105|M|78.15,77.12|N|From Wizzle Brassbolts.|
+A Load Lightening|QID|1176|M|80.18,75.89|N|From Pozzik.|
+A A Bump in the Road|QID|1175|M|81.63,77.95|N|From Trackmaster Zherin.|
+r Repair/Restock|ACTIVE|1175|M|80.40,77.01|N|At Synge.\n[color=FF0000]NOTE: [/color]You've just picked up a number of collection quests. It would be in your best interest to free up as much bag space as feasible.|
+N Mob Location|ACTIVE|1104^1105^1110^1111^1175^1176|N|All of the mobs involved in the quests you just picked up are scattered around the outside of Mirage Raceway.\nThere is no real dividing line between levels. You'll find lv 30s mixed with lv 35s.\nAs they are spread out, there are no specific coordinates for each item and no arrow.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Salt Flat Venom|QID|1104|L|5794 6|N|You'll find the Reavers (lv 31-32) in the north and the Terrors (33-34) in the south.|S|
+C Hollow Vulture Bone|QID|1176|L|5848 10|N|You'll find the Scavengers (30-32) in the north and the Vultures (32-34) in the south.|S|
+C Rocket Car Parts|QID|1110|L|5798 30|N|You'll find these scattered on the ground in Shimmering Flats.|S|
+K A Bump in the Road|ACTIVE|1175|QO|3;2;1|N|You'll find the Basilisks (lv 30-31) in the NW quadrant, the Crystalhides (32-33) all over, and the Gazers (34-35) in the SE quadrant.|S|
+C Hardened Tortoise Shell|QID|1105|M|82.37,54.62|L|5795 9|N|Kill any variety of Sparkleshell tortoises.|
 ;L Level 33|QID|1147|N|You should be around level 33 by this point.|LVL|33|
 A Parts of the Swarm|QID|1148|N|Click the Cracked Silithid Carapace to activate the quest.|U|5877|PRE|
 * Extra Cracked Silithid Carapace|AVAILABLE|-1148|N|Dispose of these if you pick up anymore.|U|5877|O|
 C Parts of the Swarm|QID|1148|L|5855 1|N|Kill Silithids to collect a Silithid Heart.|S|
 C Parts of the Swarm|QID|1148|L|5854 5|N|Kill Silithids to collect Silithid Talons.|S|
 C Parts of the Swarm|QID|1148|L|5853 3|N|Kill Silithids to collect Intact Silithid Carapaces.|S|
-K The Swarm Grows|ACTIVE|1147|M|71.33,83.15;66.52,86.15|CN|QO|1;2;3|N|At the Rustmaul Dig Site in the south, kill Silithid Searchers, Hive Drones, and Invaders.\nYou'll find the Drones spread out around the area. The Searchers can be around the outside edge of the pit. The Invaders are inside the hive. There are two entrances into the hive.\n[color=FF0000]NOTE: [/color]The drones are non-aggressive as long as you don't attack them or any mobs around them. Do not leave them roaming inside the hive; you will die from being overwhelmed.|
+K The Swarm Grows|ACTIVE|1147|M|71.33,83.15;66.52,86.15|CN|QO|1;2;3|N|At the Rustmaul Dig Site in the south, kill Silithid Searchers, Hive Drones, and Invaders.\n[color=FF0000]NOTE: [/color]You'll find the Drones spread out around the area. The Searchers can be around the outside edge of the pit. The Invaders are inside the hive. There are two entrances into the hive.\n[color=FF0000]NOTE: [/color]The drones are non-aggressive as long as you don't attack them or any mobs around them. Do not leave them roaming inside the hive; you will die from being overwhelmed.|
 C Parts of the Swarm|QID|1148|L|5855 1|N|Kill Silithids to collect a Silithid Heart.|US|
 C Parts of the Swarm|QID|1148|L|5854 5|N|Kill Silithids to collect Silithid Talons.|US|
 C Parts of the Swarm|QID|1148|L|5853 3|N|Kill Silithids to collect Intact Silithid Carapaces.|US|
@@ -271,7 +272,7 @@ A The Corrupter|QID|1480|N|Click on the Flayed Demon Skin to start the quest.\nT
 ; --- destroy excess quest starter item
 * Excess Flayed Demon Skin|AVAILABLE|-1480|N|Once you've accepted the quest, you no longer need to loot these items. If you loot any more, safely destroy them.|U|20310|
 ;L Level 34|QID|1107|N|You should be around level 34 by this point.|
-C Sceptre of Light|QID|5741|M|55.17,30.09|Z|Desolace|N|Head north into Thunder Axe Fortress and kill the Burning Blade Seer to loot the Sceptre of Light.\nYou'll find the Seer at the top of the Watchtower just inside the entrance. He has 2 Felsworn standing guard outside and an Augur inside with him. You can easily pull the outside guards one at a time.|
+C Sceptre of Light|QID|5741|M|55.17,30.09|Z|Desolace|N|Head north into Thunder Axe Fortress and kill the Burning Blade Seer to loot the Sceptre of Light.\n[color=FF0000]NOTE: [/color]You'll find the Seer at the top of the Watchtower just inside the entrance. He has 2 Felsworn standing guard outside and an Augur inside with him. You can easily pull the outside guards one at a time.|
 l The Burning of Spirits|QID|1435|L|6435 15|U|6436|N|Finish collecting the Infused Burning Gems.|US|
 T Sceptre of Light|QID|5741|M|38.89,27.19|Z|Desolace|N|Make your way west back to Azore Aldamort in Ethel Rethor.|
 A Book of the Ancients|QID|6027|M|38.89,27.19|Z|Desolace|N|From Azore Aldamort.|
@@ -582,7 +583,7 @@ R Circle of Outer Binding|ACTIVE|651|N|Head SW to the next ring of stones.\nYou'
 C Stone of Outer Binding|QID|651|M|52.00,50.74|Z|Arathi Highlands|L|4485|N|Go slow and try pulling 1 at a time. Once you have cleared the center stone, click on it to loot the Thundering Key.|
 C Guile of the Raptor|QID|701|L|4513 12|N|Loot 12 Raptor Hearts from Highland Fleshstalkers.|S|
 R Boulderfist Hall|ACTIVE|678|M|51.78,73.59|Z|Arathi Highlands|N|Head south to Boulderfist Hall.|
-C Call to Arms|QID|678|QO|1;2|N|Kill 10 Boulderfist Brutes and 4 Boulderfist Magi.\nYou'll find more inside the first cave. The second cave (the one set further back) is empty right now.|
+C Call to Arms|QID|678|QO|1;2|N|Kill 10 Boulderfist Brutes and 4 Boulderfist Magi.\n[color=FF0000]NOTE: [/color]You'll find more inside the first cave. The second cave (the one set further back) is empty right now.|
 C Guile of the Raptor|QID|701|L|4513 12|N|Finish looting 12 Raptor Hearts from Highland Fleshstalkers.\nWith a drop rate of 33%, this could take some time.|US|
 R Hammerfall|ACTIVE|701|M|71.23,42.77|Z|Arathi Highlands|N|Head back to Hammerfall.|
 T Guile of the Raptor|QID|701|M|74.72,36.28|Z|Arathi Highlands|N|To Tor'gan.|
@@ -652,7 +653,7 @@ R Main Road|ACTIVE|1202|M|39.14,37.96|Z|Dustwallow Marsh|CC|N|Exit Brackenwall f
 R North Point Tower|AVAILABLE|1218|M|46.43,22.88|Z|Dustwallow Marsh|N|Follow the main road north/east to the North Point Tower.\n[color=FF0000]NOTE: [/color]Sticking to the road is your best bet. You'll find several mobs to kill along the way.|
 R Witch Hill|AVAILABLE|1218|M|50.88,25.01|Z|Dustwallow Marsh|N|Continue along the road to the Witch Hill.|
 R Swamplight Manor|AVAILABLE|1218|M|55.17,26.96|Z|Dustwallow Marsh|N|Continue east to the Swamplight Manor. There is a road leading north from the main road to the house.|
-A Soothing Spices|QID|1218|M|55.43,26.26|Z|Dustwallow Marsh|N|From "Swamp Eye" Jarl.|
+A Marsh Frog Legs|QID|1218|M|55.43,26.26|Z|Dustwallow Marsh|N|From "Swamp Eye" Jarl.|
 A The Lost Report|QID|1238|M|55.44,25.92|Z|Dustwallow Marsh|N|From the dirt pile beside the house.|
 C Hungry!|QID|1177|M|57.27,22.46|Z|Dustwallow Marsh|N|Kill Mirefin Murlocs to collect the Mirefin Heads.|S|
 R Dreadmurk Shore|ACTIVE|1202|M|57.85,19.01|Z|Dustwallow Marsh|N|Make your way to the Dreadmurk Shore.|
