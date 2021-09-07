@@ -297,20 +297,21 @@ C Bone Collector|ACTIVE|5501|L|13703 10|N|Go back into the Kodo Graveyard and fi
 R Ethel Rethor|AVAILABLE|5741|M|42.71,35.91|Z|Desolace|N|Take the road north out of Kodo Graveyard and go west at the intersection.|
 A Sceptre of Light|QID|5741|M|38.89,27.16|Z|Desolace|N|From Azore Aldamort at Ethel Rethor.\n[color=FF0000]NOTE: [/color]Go up the hill to the bottom of the ramp, slowly drop off the side of the ramp, and follow the path around to the right.|
 R Kormek's Hut|ACTIVE|5501|M|44.1,34.4;62.02,39.38|Z|Desolace|CC|
-T Bone Collector|QID|5501|M|62.31,38.96|Z|Desolace|N|Head back to the road and follow it east to Bibbly F'utzbuckle at Kormek's Hut.|
-C The Burning of Spirits|QID|1435|N|Attack a Burning Blade mob. When they are almost dead (<300 hp), use the Burning Gem to capture them. If they die, you will collect an Infused Burning Gem.\nNOTE: Avoid using special attacks (DOT) when they are near death. This could disrupt the Burning Gem effect. The mob MUST die from the 'Capture Spirit' debuff to collect the gem. The debuff does 100 damage every 3 seconds for 9 seconds.\nA side note for Druids. You cannot use the gem while shapeshifted.|S|U|6436|
+T Bone Collector|QID|5501|M|62.31,38.96|Z|Desolace|N|To Bibbly F'utzbuckle.|
+C The Burning of Spirits|QID|1435|L|6435 15|N|Attack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem on them. If they die, you will collect an Infused Burning Gem. They MUST die from the 'Capture Spirit' debuff to collect the gem. The debuff does 100 damage every 3 seconds for 9 seconds.\n[color=FF0000]NOTE: [/color]Using special attacks (DOT) when they are near death could disrupt the Burning Gem effect.\nA side note for Druids. You cannot use the gem while shapeshifted.|U|6436|S|
 A The Corrupter|QID|1480|N|Click on the Flayed Demon Skin to start the quest.\nThis item is dropped by Burning Blade mobs.|U|20310|O|
 ; --- destroy excess quest starter item
 * Excess Flayed Demon Skin|AVAILABLE|-1480|N|Once you've accepted the quest, you no longer need to loot these items. If you loot any more, safely destroy them.|U|20310|
 ;L Level 34|QID|1107|N|You should be around level 34 by this point.|
-C Sceptre of Light|QID|5741|M|55.17,30.09|Z|Desolace|N|Head north into Thunder Axe Fortress and kill the Burning Blade Seer to loot the Sceptre of Light.\n[color=FF0000]NOTE: [/color]You'll find the Seer at the top of the Watchtower just inside the entrance. He has 2 Felsworn standing guard outside and an Augur inside with him. You can easily pull the outside guards one at a time.|
+C Sceptre of Light|QID|5741|M|55.17,30.09|Z|Desolace|L|15750|N|Kill the Burning Blade Seer to loot the Sceptre of Light.\n[color=FF0000]NOTE: [/color]You'll find the Seer at the top of the Watchtower just inside the entrance. He has 2 Felsworn standing guard outside and an Augur inside with him. You can easily pull the outside guards one at a time.|
 l The Burning of Spirits|QID|1435|L|6435 15|U|6436|N|Finish collecting the Infused Burning Gems.|US|
-T Sceptre of Light|QID|5741|M|38.89,27.19|Z|Desolace|N|Make your way west back to Azore Aldamort in Ethel Rethor.|
-A Book of the Ancients|QID|6027|M|38.89,27.19|Z|Desolace|N|From Azore Aldamort.|
+T Sceptre of Light|QID|5741|M|38.89,27.16|Z|Desolace|N|Make your way west back to Azore Aldamort in Ethel Rethor.|
+A Book of the Ancients|QID|6027|M|38.89,27.16|Z|Desolace|N|From Azore Aldamort.|
 T The Burning of Spirits|QID|1435|M|52.24,53.44|Z|Desolace|N|Make your way back to Maurin Bonesplitter at Ghost Walker Post.|
 T The Corrupter|QID|1480|M|52.24,53.44|Z|Desolace|N|To Maurin Bonesplitter.|
 A The Corrupter|QID|1481|M|52.24,53.44|Z|Desolace|N|From Maurin Bonesplitter.|PRE|1480|
-R Sargeron|ACTIVE|1434^1481|M|50.39,52.91;53.82,37.12;62.39,32.43;65.82,33.19;70.76,22.93|Z|Desolace|CC|N|Head west out Ghost Walker Post and follow the road north to the intersection. Continue east along the road to the 2nd intersection and go north from that intersection into Sargeron.|
+r Repair|ACTIVE|1481|M|55.59,56.48|Z|Desolace|N|Visit Muuran before leaving.|
+R Sargeron|ACTIVE|1434^1481|M|49.7,46.8;53.8,37.2;65.8,33.2;70.76,22.93|Z|Desolace|CC|N|Head north out of Ghost Walker Post and follow the road north to the intersection. Continue east along the road to the 2nd intersection and head north from there into Sargeron.|
 C The Corrupter|QID|1481|N|Kill a Hatefury Shadowstalker to loot its scalp.|S|
 C Befouled by Satyr|QID|1434|QO|1;2;3|N|Kill Satyrs in the area.|
 C The Corrupter|QID|1481|N|Kill Hatefury Shadowstalkers until you loot a shadowstalker scalp.|US|
