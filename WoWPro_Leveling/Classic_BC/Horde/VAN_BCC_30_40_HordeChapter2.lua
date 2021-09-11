@@ -312,44 +312,52 @@ T The Corrupter|QID|1480|M|52.24,53.44|Z|Desolace|N|To Maurin Bonesplitter.|
 A The Corrupter|QID|1481|M|52.24,53.44|Z|Desolace|N|From Maurin Bonesplitter.|PRE|1480|
 r Repair|ACTIVE|1481|M|55.59,56.48|Z|Desolace|N|Visit Muuran before leaving.|
 R Sargeron|ACTIVE|1434^1481|M|49.7,46.8;53.8,37.2;65.8,33.2;70.76,22.93|Z|Desolace|CC|N|Head north out of Ghost Walker Post and follow the road north to the intersection. Continue east along the road to the 2nd intersection and head north from there into Sargeron.|
-C The Corrupter|QID|1481|N|Kill a Hatefury Shadowstalker to loot its scalp.|S|
-C Befouled by Satyr|QID|1434|QO|1;2;3|N|Kill Satyrs in the area.|
-C The Corrupter|QID|1481|N|Kill Hatefury Shadowstalkers until you loot a shadowstalker scalp.|US|
-C Khan Dez'hepah|ACTIVE|1365|M|72.95,46.68|Z|Desolace|QO|1|N|Head south from Sargeron to Kolkar Village. Clear any Kolkar in the immediate area around the ramp leading up to Khan Dez'hepah. Once that is done, pull Khan Dez'hepah and kill him to loot his head.|
-R Ghost Walker Post|ACTIVE|1365|M|58.59,56.97|Z|Desolace|N|Take the road back to Ghost Walker Post.|
+C The Corrupter|QID|1481|M|74.75,20.36|Z|Desolace|L|6441|N|Kill a Hatefury Shadowstalker to loot its scalp.|S|
+K Befouled by Satyr|ACTIVE|1434|M|74.75,20.36|Z|Desolace|QO|1;2;3;4|N|Kill Satyrs in the area.|
+C The Corrupter|QID|1481|M|74.75,20.36|Z|Desolace|L|6441|N|Kill Hatefury Shadowstalkers until you loot a shadowstalker scalp.|US|
+K Khan Dez'hepah|ACTIVE|1365|M|72.95,46.68;74.70,48.78;73.2,41.8|Z|Desolace|CN|QO|1|N|Head south from Sargeron to Kolkar Village. Locate Khan Dez'hepah and kill him to loot his head.\n[color=FF0000]NOTE: [/color]He has 3 different spawn locations.|
+R Ghost Walker Post|ACTIVE|1365|M|56.74,56.79|Z|Desolace|N|Take the road back to Ghost Walker Post.|
 T Khan Dez'hepah|QID|1365|M|56.19,59.57|Z|Desolace|N|To Felgur Twocuts.|
 A Centaur Bounty|QID|1366|M|56.19,59.57|Z|Desolace|N|From Felgur Twocuts.|PRE|1365|
+r Repair|ACTIVE|1434|M|55.59,56.48|Z|Desolace|N|Check in with Muuran as you go by.|
 T Befouled by Satyr|QID|1434|M|52.57,54.39|Z|Desolace|N|To Takata Steelblade.|
 A Alliance Relations|QID|1436|M|52.57,54.39|Z|Desolace|N|From Takata Steelblade.|PRE|1436|
-T The Corrupter|QID|1481|N|To Maurin Bonesplitter.|
-A The Corrupter|QID|1482|N|From Maurin Bonesplitter.|PRE|1481|
+T The Corrupter|QID|1481|M|52.24,53.44|Z|Desolace|N|To Maurin Bonesplitter.|
+A The Corrupter|QID|1482|M|52.24,53.44|Z|Desolace|N|From Maurin Bonesplitter.|PRE|1481|
 R Shadowprey Village|AVAILABLE|6142^6143|M|26.50,75.15|Z|Desolace|N|Leave Ghost Walker Post from the east and follow the road south all the way to the shore line at the end.|
 f Shadowprey Village|AVAILABLE|6142^6143|M|21.60,74.12|Z|Desolace|N|Thalon can be found at the end of the dock.|
-A Clam Bait|QID|6142|M|22.72,72.09|Z|Desolace|N|From Mai'Lahii.|
-A Other Fish to Fry|QID|6143|M|23.27,72.82|Z|Desolace|N|From Drulzegar Skraghook.|
-P Moonglade|ACTIVE|1436|N|Now that we have the FP in Desolace, use your Teleport: Moonglade to do your training.|C|Druid|
-H Orgrimmar|ACTIVE|1436|N|Hearth back to Orgrimmar. It's faster than flying; unless your hearth is on CD.|C|Druid|
-H Orgrimmar|ACTIVE|1436|N|Now that we have the FP in Desolace, you can hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
-N Advanced Target Dummy|ACTIVE|1367|N|Make sure you bring an 'Advanced Target Dummy' with you. You're going to need it for the quest chain.|
-T Alliance Relations|QID|1436|M|22.27,53.74|Z|Orgrimmar|N|To Keldran.|
-F Shadowprey Village|QID|1366|M|45.50,63.84|Z|Orgrimmar|N|Once you're done whatever you need to do, fly back to Desolace.|
-l Shellfish|AVAILABLE|5421|ACTIVE|5386|L|13545 10|N|Drop into the water and look for cages on the ocean floor. Open these to collect Shellfish. Jinar'Zillen will trade 5 of these Shellfish for 1 Bloodybelly fish.\n[color=FF0000]NOTE: [/color]If you do not have a means of breathing underwater, locate one of the small, bubbling fissures and use it to restore your breath.\nAlso, be aware that a Drysnap Crawler may spawn and attack you when you open the trap.|
-T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|Desolace|N|To Jinar'Zillen on the pier.\nThis is a repeatable quest and you'll have to turn it in at least twice.|L|13546 2|NOCACHE|
-C Centaur Bounty|QID|1366|N|Kill Centaurs and loot their ears.|S|
-R Gelkis Village|ACTIVE|1368|M|36.64,77.13|Z|Desolace|N|Follow the road out of Shadowprey Village. The village is on the south side of the road.|
-K Gelkis Clan Centaurs|ACTIVE|1368|N|Kill Gelkis Clan Centaurs until have reached Friendly status (3,000 rep) with the Magram Clan.\nIt'll take about 50 kills to reach it.|REP|Magram Clan Centaur;93;neutral|
-R Magram Village|ACTIVE|1367|M|67.20,66.19|Z|Desolace|N|Follow the road out of Shadowprey Village as far east as it goes. The village is on the south side of the road.|
-K Magram Clan Centaurs|ACTIVE|1367|N|Kill Magram Clan Centaurs until have reached Friendly status (3,000 rep) with The Gelkis Clan.\nIt'll take about 50 kills to reach it.|REP|Gelkis Clan Centaur;92;friendly|
-C Centaur Bounty|QID|1366|N|Continue killing Centaurs and looting their ears until done.|US|
+A Clam Bait|QID|6142|M|22.64,71.97|Z|Desolace|N|From Mai'Lahii.|
+A Other Fish to Fry|QID|6143|M|23.32,72.88|Z|Desolace|N|From Drulzegar Skraghook.|
+l Shellfish|AVAILABLE|5421|ACTIVE|5386|M|20.10,79.10|Z|Desolace|L|13545 10|N|Drop into the water and look for cages on the ocean floor. Open these to collect Shellfish. Jinar'Zillen will trade 5 of these Shellfish for 1 Bloodybelly fish.\n[color=FF0000]NOTE: [/color]If you do not have a means of breathing underwater, locate one of the small, bubbling fissures and use it to restore your breath.\nAlso, be aware that a Drysnap Crawler may spawn and attack you when you open the trap.|
+A Fish in a Bucket|QID|5421|M|22.46,73.11|Z|Desolace|L|13546 2|N|From Jinar'Zillen on the pier.\n[color=FF0000]NOTE: [/color]This is a low level quest that you need to do.|
+T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|Desolace|L|13546 2|N|To Jinar'Zillen on the pier.|NOCACHE|
+A Fish in a Bucket|QID|5421|M|22.46,73.11|Z|Desolace|L|13546 2|N|From Jinar'Zillen on the pier.\n[color=FF0000]NOTE: [/color]You have to do this a second time.|
+T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|Desolace|L|13546 2|N|To Jinar'Zillen on the pier.|NOCACHE|
+C Centaur Bounty|QID|1366|ACTIVE|1367|M|37.21,81.78|Z|Desolace|N|Kill Centaurs and loot their ears.|S|
+C Centaur Bounty|QID|1366|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Kill Centaurs and loot their ears.|S|
+N Reputation Monitoring|ACTIVE|1367^1368|N|Open the Reputation Tab (<U>) and locate the Faction you want to track. Check the box 'Show as Experience Bar' and it will appear above the Exp bar.\n[color=FF0000]NOTE: [/color]Results may vary dependant upon your UI layout and other Addons.\nManually check this step off to continue.|
+R Gelkis Village|ACTIVE|1367|M|36.60,77.54|Z|Desolace|N|Follow the road out of Shadowprey Village. The village is on the south side of the road.|
+K Gelkis Clan Centaurs|ACTIVE|1367|M|37.21,81.78|Z|Desolace|N|Kill Gelkis Clan Centaurs until reach Friendly status (3,000 rep) with the Magram Clan.\nIt'll take 75 kills to reach it.|REP|Magram Clan Centaur;93;neutral|
+R Magram Village|ACTIVE|1368|M|67.32,66.501|Z|Desolace|N|Follow the road out of Shadowprey Village as far east as it goes. The village is on the south side of the road.|
+K Magram Clan Centaurs|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Kill Magram Clan Centaurs until have reached Friendly status (3,000 rep) with The Gelkis Clan.\nIt'll take 75 kills to reach it.|REP|Gelkis Clan Centaur;92;Neutral|
+C Centaur Bounty|QID|1366|ACTIVE|1367|M|37.21,81.78|Z|Desolace|N|Continue killing Centaurs and looting their ears until done.|US|
+C Centaur Bounty|QID|1366|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Continue killing Centaurs and looting their ears until done.|US|
+R Ghost Walker Post|ACTIVE|1366|M|56.74,56.79|Z|Desolace|
 T Centaur Bounty|QID|1366|M|56.20,59.55|Z|Desolace|N|To Felgur Twocuts.|
+T Catch of the Day|QID|5386|M|55.41,55.80|Z|Desolace|N|To Nataka Longhorn.|
 R Gelkis Village|ACTIVE|1368|M|36.64,77.13|Z|Desolace|N|Follow the road out of Ghost Walker Post and go west at the intersection. The village is on the south side of the road.|REP|Gelkis Clan Centaur;92;friendly|
 T Gelkis Alliance|QID|1368|M|36.24,79.25|Z|Desolace|N|To Uthek the Wise.|REP|Gelkis Clan Centaur;92;friendly|
 A Stealing Supplies|QID|1370|M|36.24,79.25|Z|Desolace|N|From Uthek the Wise.|PRE|1368|REP|Gelkis Clan Centaur;92;friendly|
 R Magram Village|ACTIVE|1370|M|67.20,66.19|Z|Desolace|N|Return to Magram Village.|
 l Stealing Supplies|ACTIVE|1370|L|6069 6|N|Loot the yellow bags off the ground near the tents in Magram Village.\n[color=FF0000]NOTE: [/color]There are some bags that are not lootable.|
 T Stealing Supplies|QID|1370|M|36.24,79.24|Z|Desolace|N|To Uthek the Wise.|
+P Moonglade|ACTIVE|1436|N|Now that we have the FP in Desolace, use your Teleport: Moonglade to do your training.|C|Druid|
+H Orgrimmar|ACTIVE|1436|N|Hearth back to Orgrimmar. It's faster than flying; unless your hearth is on CD.|C|Druid|
+H Orgrimmar|ACTIVE|1436|N|Now that we have the FP in Desolace, you can hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
+N Advanced Target Dummy|ACTIVE|1367|N|Make sure you bring an 'Advanced Target Dummy' with you. You're going to need it for the quest chain.|
+T Alliance Relations|QID|1436|M|22.27,53.74|Z|Orgrimmar|N|To Keldran.|
+F Shadowprey Village|QID|6142|M|45.50,63.84|Z|Orgrimmar|N|Once you're done whatever you need to do, fly back to Desolace.|
 A Ongeku|QID|1373|M|36.24,79.20|Z|Desolace|N|From Uthek the Wise.|
-R Shadowprey Village|ACTIVE|6143|M|26.50,75.15|Z|Desolace|N|Return to Shadowprey Village.|
 N Shortcut|ACTIVE|6142|N|Instead of running all the way around to get to the shoreline in the north, you are going to swim up from Shadowprey Village.|
 l Clam Bait|ACTIVE|6142|M|45.2,63.8|Z|Desolace|L|15924 10|N|Open Soft-shelled clams to collect the meat.\nYou can get them from opening the Giant Soft Clams on the ocean floor and by killing Drysnap crawlers/pincers. You can also get them from killing the Reef Crawlers.|U|15874|S|
 R Ethel Rethor|ACTIVE|6143|M|30.55,34.26;35.66,30.67|Z|Desolace|CC|N|Walk into the water and swim north.|
@@ -374,8 +382,8 @@ A The Corrupter|QID|1484|M|52.25,53.50|Z|Desolace|N|After a brief cinematic, acc
 T The Corrupter|QID|1484|M|52.57,54.34|Z|Desolace|N|To Takata Steelblade.To Takata Steelblade.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest... yet.|
 R Shadowprey Village|ACTIVE|6142^6143|M|26.50,75.15|Z|Desolace|N|Return to Shadowprey Village.|
 A Hunting in Stranglethorn|QID|5763|M|25.05,72.26|Z|Desolace|N|From Roon Wildmane.|
-T Other Fish to Fry|QID|6143|N|To Drulzegar Skraghook.|
-T Clam Bait|QID|6142|N|To Mai'Lahii.|
+T Other Fish to Fry|QID|6143|M|23.32,72.88|N|To Drulzegar Skraghook.|
+T Clam Bait|QID|6142||M|22.64,71.97|N|To Mai'Lahii.|
 
 ; --- Hillsbrad Foothills/Alterac
 F Orgrimmar|ACTIVE|1136|M|21.60,74.05|Z|Desolace|N|You're done with this area for now. You are now headed to Hillsbrad and Alterac.|
