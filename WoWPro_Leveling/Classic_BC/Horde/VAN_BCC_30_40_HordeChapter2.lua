@@ -289,7 +289,7 @@ T Alliance Relations|QID|1432|M|52.57,54.39|Z|Desolace|N|To Takata Steelblade.|
 A Alliance Relations|QID|1433|M|52.57,54.39|Z|Desolace|N|From Takata Steelblade.|PRE|1432|
 A Befouled by Satyr|QID|1434|M|52.57,54.39|Z|Desolace|N|From Takata Steelblade.|
 T Alliance Relations|QID|1433|M|52.25,53.44|Z|Desolace|N|To Maurin Bonesplitter.|
-A The Burning of Spirits|QID|1435|M|52.25,53.44|Z|Desolace|N|From Maurin Bonesplitter.|
+A The Burning of Spirits|QID|1435|M|52.25,53.44|Z|Desolace|N|From Maurin Bonesplitter.|PRE|1433|
 C Bone Collector|ACTIVE|5501|L|13703 10|N|While you are in the Kodo Graveyard, collect any Kodo Bones you come across.\n[color=FF0000]NOTE: [/color]Be aware, there is a chance of a lv 37-38 Kodo Apparation appearing and attacking you. You can stand and fight or run. If you run, the Kodo will return to its spawn point and despawn after a couple minutes.\nUnless you want the added challenge, make sure you clear any Vultures in the area before looting the bones.|S|
 C Kodo Roundup|QID|5561|N|Go into the Kodo Graveyard and target one of the Kodos. Using the kombobulator, tame the kodo and have it follow you back to Scrabblescrew's Camp. After Scrabblescrew speaks with you, talk to the Kodo to get credit for it.\n[color=FF0000]NOTE: [/color]You can only do this one at a time and you have 5 minutes to bring the Kodo to Scrabblescrew.|U|13892|
 T Kodo Roundup|QID|5561|M|60.86,61.86|Z|Desolace|N|To Smeed Scrabblescrew.|
@@ -321,7 +321,7 @@ T Khan Dez'hepah|QID|1365|M|56.19,59.57|Z|Desolace|N|To Felgur Twocuts.|
 A Centaur Bounty|QID|1366|M|56.19,59.57|Z|Desolace|N|From Felgur Twocuts.|PRE|1365|
 r Repair|ACTIVE|1434|M|55.59,56.48|Z|Desolace|N|Check in with Muuran as you go by.|
 T Befouled by Satyr|QID|1434|M|52.57,54.39|Z|Desolace|N|To Takata Steelblade.|
-A Alliance Relations|QID|1436|M|52.57,54.39|Z|Desolace|N|From Takata Steelblade.|PRE|1436|
+A Alliance Relations|QID|1436|M|52.57,54.39|Z|Desolace|N|From Takata Steelblade.|PRE|1435|
 T The Corrupter|QID|1481|M|52.24,53.44|Z|Desolace|N|To Maurin Bonesplitter.|
 A The Corrupter|QID|1482|M|52.24,53.44|Z|Desolace|N|From Maurin Bonesplitter.|PRE|1481|
 R Shadowprey Village|AVAILABLE|6142^6143|M|26.50,75.15|Z|Desolace|N|Leave Ghost Walker Post from the east and follow the road south all the way to the shore line at the end.|
@@ -329,23 +329,44 @@ f Shadowprey Village|AVAILABLE|6142^6143|M|21.60,74.12|Z|Desolace|N|Thalon can b
 A Clam Bait|QID|6142|M|22.64,71.97|Z|Desolace|N|From Mai'Lahii.|
 A Other Fish to Fry|QID|6143|M|23.32,72.88|Z|Desolace|N|From Drulzegar Skraghook.|
 l Shellfish|AVAILABLE|5421|ACTIVE|5386|M|20.10,79.10|Z|Desolace|L|13545 10|N|Drop into the water and look for cages on the ocean floor. Open these to collect Shellfish. Jinar'Zillen will trade 5 of these Shellfish for 1 Bloodybelly fish.\n[color=FF0000]NOTE: [/color]If you do not have a means of breathing underwater, locate one of the small, bubbling fissures and use it to restore your breath.\nAlso, be aware that a Drysnap Crawler may spawn and attack you when you open the trap.|
-A Fish in a Bucket|QID|5421|M|22.46,73.11|Z|Desolace|L|13546 2|N|From Jinar'Zillen on the pier.\n[color=FF0000]NOTE: [/color]This is a low level quest that you need to do.|
+A Fish in a Bucket|QID|5421|ACTIVE|5386|M|22.46,73.11|Z|Desolace|L|13546 2|N|From Jinar'Zillen on the pier.\n[color=FF0000]NOTE: [/color]This is a low level quest that you need to do.|
 T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|Desolace|L|13546 2|N|To Jinar'Zillen on the pier.|NOCACHE|
-A Fish in a Bucket|QID|5421|M|22.46,73.11|Z|Desolace|L|13546 2|N|From Jinar'Zillen on the pier.\n[color=FF0000]NOTE: [/color]You have to do this a second time.|
+A Fish in a Bucket|QID|5421|ACTIVE|5386|M|22.46,73.11|Z|Desolace|L|13546 2|N|From Jinar'Zillen on the pier.\n[color=FF0000]NOTE: [/color]You have to do this a second time.|
 T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|Desolace|L|13546 2|N|To Jinar'Zillen on the pier.|NOCACHE|
 C Centaur Bounty|QID|1366|ACTIVE|1367|M|37.21,81.78|Z|Desolace|N|Kill Centaurs and loot their ears.|S|
 C Centaur Bounty|QID|1366|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Kill Centaurs and loot their ears.|S|
 N Reputation Monitoring|ACTIVE|1367^1368|N|Open the Reputation Tab (<U>) and locate the Faction you want to track. Check the box 'Show as Experience Bar' and it will appear above the Exp bar.\n[color=FF0000]NOTE: [/color]Results may vary dependant upon your UI layout and other Addons.\nManually check this step off to continue.|
+; --- Magram Alliance chain
 R Gelkis Village|ACTIVE|1367|M|36.60,77.54|Z|Desolace|N|Follow the road out of Shadowprey Village. The village is on the south side of the road.|
 K Gelkis Clan Centaurs|ACTIVE|1367|M|37.21,81.78|Z|Desolace|N|Kill Gelkis Clan Centaurs until reach Friendly status (3,000 rep) with the Magram Clan.\nIt'll take 75 kills to reach it.|REP|Magram Clan Centaur;93;neutral|
-R Magram Village|ACTIVE|1368|M|67.32,66.501|Z|Desolace|N|Follow the road out of Shadowprey Village as far east as it goes. The village is on the south side of the road.|
-K Magram Clan Centaurs|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Kill Magram Clan Centaurs until have reached Friendly status (3,000 rep) with The Gelkis Clan.\nIt'll take 75 kills to reach it.|REP|Gelkis Clan Centaur;92;Neutral|
 C Centaur Bounty|QID|1366|ACTIVE|1367|M|37.21,81.78|Z|Desolace|N|Continue killing Centaurs and looting their ears until done.|US|
+R Ghost Walker Post|ACTIVE|1366&1367|M|56.74,56.79|Z|Desolace|
+T Centaur Bounty|QID|1366|ACTIVE|1367|M|56.20,59.55|Z|Desolace|N|To Felgur Twocuts.|
+T Catch of the Day|QID|5386|ACTIVE|1367|M|55.41,55.80|Z|Desolace|N|To Nataka Longhorn.|
+R Magram Village|ACTIVE|1367|M|67.20,66.19|Z|Desolace|N|Follow the road out of Ghost Walker Post to the first intersection and continue as far east as it goes. The village is on the south side of the road.|
+T Magram Alliance|QID|1367|M|74.8,68.0|Z|Desolace|N|To Warug.|
+A Broken Tears|QID|1369|M|74.8,68.0|Z|Desolace|N|From Warug.|PRE|1368|
+R Bolgan's Hole|ACTIVE|1369|M|40.4,89.5;38.1,85.7,38.45,90.84|Z|Desolace|N|Take the road that leads south past the Gelkis Village into Feralas. Just before you enter the mountains hang a right and take the path leading down into the pit. Work your way around and up the ramp to the cave entrance.|
+C Broken Tears|QID|1369|L|6083 3|N|Loot the Broken Tears from the Tear of Theradras found on the ground in the cave.
+R Magram Village|ACTIVE|1369|M|67.32,66.51|Z|Desolace|
+T Broken Tears|QID|1369|M|74.8,68.0|Z|Desolace|N|To Warug.|
+A Gizmo for Warug|QID|1371|M|74.8,68.0|Z|Desolace|N|From Warug.|PRE|1369|
+T Gizmo for Warug|QID|1371|M|74.8,68.0|Z|Desolace|N|To Warug.|
+A Khan Shaka|QID|1375|M|74.8,68.0|Z|Desolace|N|From Warug.|PRE|1371|
+R Bolgan's Hole|ACTIVE|1375|M|40.4,89.5;38.1,85.7,38.45,90.84|Z|Desolace|
+K Khan Shaka|ACTIVE|1375|M|40.49,95.49|Z|Desolace|QO|1|N|Once inside the cave and jump up onto the slight ledge behind the tent in front of you.\n[color=FF0000]NOTE: [/color]In addition to all of the other mobs between you and Khan, he is flanked by 2 guards.|
+R Magram Village|ACTIVE|1369|M|67.32,66.51|Z|Desolace|
+T Khan Shaka|QID|1375|M|74.8,68.0|Z|Desolace|N|To Warug.|
+
+; --- Gelkis Alliance chain
+R Magram Village|ACTIVE|1368|M|67.32,66.51|Z|Desolace|N|Follow the main road as far east as it goes. The village is on the south side of the road.|
+K Magram Clan Centaurs|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Kill Magram Clan Centaurs until have reached Friendly status (3,000 rep) with The Gelkis Clan.\nIt'll take 75 kills to reach it.|REP|Gelkis Clan Centaur;92;Neutral|
 C Centaur Bounty|QID|1366|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Continue killing Centaurs and looting their ears until done.|US|
 R Ghost Walker Post|ACTIVE|1366|M|56.74,56.79|Z|Desolace|
 T Centaur Bounty|QID|1366|M|56.20,59.55|Z|Desolace|N|To Felgur Twocuts.|
 T Catch of the Day|QID|5386|M|55.41,55.80|Z|Desolace|N|To Nataka Longhorn.|
-R Gelkis Village|ACTIVE|1368|M|36.64,77.13|Z|Desolace|N|Follow the road out of Ghost Walker Post and go west at the intersection. The village is on the south side of the road.|REP|Gelkis Clan Centaur;92;friendly|
+; --- Gelkis Alliance chain
+R Gelkis Village|ACTIVE|1368|M|37.64,78.95|Z|Desolace|REP|Gelkis Clan Centaur;92;friendly|
 T Gelkis Alliance|QID|1368|M|36.24,79.25|Z|Desolace|N|To Uthek the Wise.|REP|Gelkis Clan Centaur;92;friendly|
 A Stealing Supplies|QID|1370|M|36.24,79.25|Z|Desolace|N|From Uthek the Wise.|PRE|1368|REP|Gelkis Clan Centaur;92;friendly|
 R Magram Village|ACTIVE|1370|M|67.20,66.19|Z|Desolace|N|Return to Magram Village.|
