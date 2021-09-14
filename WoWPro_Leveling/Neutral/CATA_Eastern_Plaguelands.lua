@@ -104,9 +104,9 @@ A Amidst Death, Life|QID|27421|M|33.14,50.94;34.94,45.07;30.22,56.99|CC|N|From R
 C Marauders of Darrowshire|QID|27389|S|U|13156|QO|1|M|33.52,49.01|N|Kill and loot Fetid skulls from Scourge Champions. Use the crystal to turn the skull into a Resonating Skull. Creating one is not guaranteed every time.|
 C Postponing the Inevitable|QID|27420|S|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|RANK|2|
 C Amidst Death, Life|QID|27421|U|61036|M|34.6,45.0;33.51,44.37;36.9,43.8;37.87,42.28;36.87,46.82;37.54,48.30|CS|N|Head into each of the 3 ziggurats, stand on the platform in the middle and use Rayne's Seeds.|RANK|2|NC|
-N Amidst Death, Life|ACTIVE|27421|N|If you have any leftover Fetid skulls and bone dust, destroy them both because they are worthless and cannot be sold.\nRight-Click this step to continue.|
 C Postponing the Inevitable|QID|27420|US|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|RANK|2|
 C Marauders of Darrowshire|QID|27389|US|U|13156|QO|1|M|33.52,49.01|N|Kill and loot Fetid skulls from Scourge Champions. Use the crystal to turn the skull into a Resonating Skull. Creating one is not guaranteed every time.|
+N Amidst Death, Life|ACTIVE|27421|N|If you have any leftover Fetid skulls and bone dust, destroy them both because they are worthless and cannot be sold.\nRight-Click this step to continue.|
 T Postponing the Inevitable|QID|27420|M|30.17,56.93|N|To Rayne.|RANK|2|
 T Amidst Death, Life|QID|27421|M|30.17,56.93|N|To Rayne.|RANK|2|
 C Villains of Darrowshire - Skull of Horgus|QID|27387|M|37.19,60.23|N|Pick of the "Skull of Horgus".|QO|1|NC|
