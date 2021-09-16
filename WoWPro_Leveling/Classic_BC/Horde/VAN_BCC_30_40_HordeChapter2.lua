@@ -279,9 +279,6 @@ R Ghost Walker Post|ACTIVE|1362|M|57.49,56.38|Z|Desolace|
 T The Kolkar of Desolace|QID|1362|M|56.19,59.57|Z|Desolace|N|To Felgur Twocuts.|
 A Khan Dez'hepah|QID|1365|M|56.19,59.57|Z|Desolace|N|From Felgur Twocuts.|
 N Gelkis or Magram|AVAILABLE|1367&1368|N|At this point in time, you need to decide which clan are you going to earn rep for.\nTo earn rep for the Gelkis Clan, you need to kill Magram Clan Centaurs and vice-versa.\n[color=FF0000]NOTE: [/color]Unless you are going after a specific reward item, Gelkis Clan is much easier to do.\nIt's possible to do both chains.\nManually check this step off to continue.|
-; --- 'space' and '.' intentionally added to break auto-accept.
-;A Magram Alliance |QID|1367|ACTIVE|-1368|AVAILABLE|1368|M|56.29,59.68|Z|Desolace|N|From Gurda Wildmane.\n[color=FF0000]NOTE: [/color]If you are choosing the Gelkis Clan, skip this step and accept the Gelkis quest.|
-;A Gelkis Alliance.|QID|1368|ACTIVE|-1367|M|56.29,59.68|Z|Desolace|N|From Gurda Wildmane.|
 A Magram Alliance or Gelkis Alliance|QID|1367^1368|M|56.29,59.68|Z|Desolace|N|From Gurda Wildmane.|
 T Family Tree|QID|5361|M|55.41,55.80|Z|Desolace|N|To Nataka Longhorn.|
 A Catch of the Day|QID|5386|M|55.41,55.80|Z|Desolace|N|From Nataka Longhorn.|
@@ -304,7 +301,7 @@ A The Corrupter|QID|1480|N|Click on the Flayed Demon Skin to start the quest.\nT
 * Excess Flayed Demon Skin|AVAILABLE|-1480|N|Once you've accepted the quest, you no longer need to loot these items. If you loot any more, safely destroy them.|U|20310|
 ;L Level 34|QID|1107|N|You should be around level 34 by this point.|
 C Sceptre of Light|QID|5741|M|55.17,30.09|Z|Desolace|L|15750|N|Kill the Burning Blade Seer to loot the Sceptre of Light.\n[color=FF0000]NOTE: [/color]You'll find the Seer at the top of the Watchtower just inside the entrance. He has 2 Felsworn standing guard outside and an Augur inside with him. You can easily pull the outside guards one at a time.|
-l The Burning of Spirits|QID|1435|L|6435 15|U|6436|N|Finish collecting the Infused Burning Gems.|US|
+C The Burning of Spirits|QID|1435|L|6435 15|U|6436|N|Finish collecting the Infused Burning Gems.|US|
 T Sceptre of Light|QID|5741|M|38.89,27.16|Z|Desolace|N|Make your way west back to Azore Aldamort in Ethel Rethor.|
 A Book of the Ancients|QID|6027|M|38.89,27.16|Z|Desolace|N|From Azore Aldamort.|
 T The Burning of Spirits|QID|1435|M|52.24,53.44|Z|Desolace|N|Make your way back to Maurin Bonesplitter at Ghost Walker Post.|
@@ -333,60 +330,78 @@ A Fish in a Bucket|QID|5421|ACTIVE|5386|M|22.46,73.11|Z|Desolace|L|13546 2|N|Fro
 T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|Desolace|L|13546 2|N|To Jinar'Zillen on the pier.|NOCACHE|
 A Fish in a Bucket|QID|5421|ACTIVE|5386|M|22.46,73.11|Z|Desolace|L|13546 2|N|From Jinar'Zillen on the pier.\n[color=FF0000]NOTE: [/color]You have to do this a second time.|
 T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|Desolace|L|13546 2|N|To Jinar'Zillen on the pier.|NOCACHE|
-C Centaur Bounty|QID|1366|ACTIVE|1367|M|37.21,81.78|Z|Desolace|N|Kill Centaurs and loot their ears.|S|
-C Centaur Bounty|QID|1366|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Kill Centaurs and loot their ears.|S|
+C Centaur Bounty|QID|1366|ACTIVE|1367|M|37.21,81.78|Z|Desolace|L|6067 15|N|Kill Centaurs and loot their ears.|S|
+C Centaur Bounty|QID|1366|ACTIVE|1368|M|70.76,75.30|Z|Desolace|L|6067 15|N|Kill Centaurs and loot their ears.|S|
 N Reputation Monitoring|ACTIVE|1367^1368|N|Open the Reputation Tab (<U>) and locate the Faction you want to track. Check the box 'Show as Experience Bar' and it will appear above the Exp bar.\n[color=FF0000]NOTE: [/color]Results may vary dependant upon your UI layout and other Addons.\nManually check this step off to continue.|
 ; --- Magram Alliance chain
 R Gelkis Village|ACTIVE|1367|M|36.60,77.54|Z|Desolace|N|Follow the road out of Shadowprey Village. The village is on the south side of the road.|
-K Gelkis Clan Centaurs|ACTIVE|1367|M|37.21,81.78|Z|Desolace|N|Kill Gelkis Clan Centaurs until reach Friendly status (3,000 rep) with the Magram Clan.\nIt'll take 75 kills to reach it.|REP|Magram Clan Centaur;93;neutral|
-C Centaur Bounty|QID|1366|ACTIVE|1367|M|37.21,81.78|Z|Desolace|N|Continue killing Centaurs and looting their ears until done.|US|
+K Gelkis Clan Centaurs|ACTIVE|1367|M|37.21,81.78|Z|Desolace|N|Kill Gelkis Clan Centaurs until reach Friendly status (3,000 rep) with the Magram Clan.\nIt'll take 75 kills to reach it.|REP|Magram Clan Centaur;93;Neutral|
+C Centaur Bounty|QID|1366|ACTIVE|1367|M|37.21,81.78|Z|Desolace|L|6067 15|N|Continue killing Centaurs and looting their ears until done.|US|REP|Magram Clan Centaur;93;Neutral-Friendly|
+L Level 36|ACTIVE|1366&1367|N|Continue grinding until you are ~2.5 bars short (89%) of Level 36.|LVL|35,-6550|
 R Ghost Walker Post|ACTIVE|1366&1367|M|56.74,56.79|Z|Desolace|
 T Centaur Bounty|QID|1366|ACTIVE|1367|M|56.20,59.55|Z|Desolace|N|To Felgur Twocuts.|
 T Catch of the Day|QID|5386|ACTIVE|1367|M|55.41,55.80|Z|Desolace|N|To Nataka Longhorn.|
+P Moonglade|ACTIVE|1367|N|Use your Teleport: Moonglade to do your training.|C|Druid|
+H Orgrimmar|ACTIVE|1367|N|Hearth back to Orgrimmar. It's faster than flying; unless your hearth is on CD.|C|Druid|
+H Orgrimmar|ACTIVE|1367|N|Hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
+T Alliance Relations|QID|1436|ACTIVE|1367|M|22.27,53.74|Z|Orgrimmar|N|To Keldran.|
+N Advanced Target Dummy|ACTIVE|1367|L|4392|N|Grab an 'Advanced Target Dummy' with you. You're going to need it for the Magram Alliance quest chain.\n[color=FF0000]NOTE: [/color]This step will auto-complete once you have it.|
+F Shadowprey Village|ACTIVE|1367|M|45.50,63.84|Z|Orgrimmar|N|Once you're done whatever you need to do, fly back to Desolace.|
 R Magram Village|ACTIVE|1367|M|67.20,66.19|Z|Desolace|N|Follow the road out of Ghost Walker Post to the first intersection and continue as far east as it goes. The village is on the south side of the road.|
 T Magram Alliance|QID|1367|M|74.8,68.0|Z|Desolace|N|To Warug.|
-A Broken Tears|QID|1369|M|74.8,68.0|Z|Desolace|N|From Warug.|PRE|1368|
-R Bolgan's Hole|ACTIVE|1369|M|40.4,89.5;38.1,85.7,38.45,90.84|Z|Desolace|N|Take the road that leads south past the Gelkis Village into Feralas. Just before you enter the mountains hang a right and take the path leading down into the pit. Work your way around and up the ramp to the cave entrance.|
+A Broken Tears|QID|1369|M|74.8,68.0|Z|Desolace|N|From Warug.|PRE|1367|
+R Bolgan's Hole|ACTIVE|1369|M|40.4,89.5;38.1,85.7;38.45,90.84|Z|Desolace|CC|N|Take the road that leads south past the Gelkis Village into Feralas. Just before you enter the mountains hang a right and take the path leading down into the pit. Work your way around and up the ramp to the cave entrance.|
 C Broken Tears|QID|1369|L|6083 3|N|Loot the Broken Tears from the Tear of Theradras found on the ground in the cave.
-R Magram Village|ACTIVE|1369|M|67.32,66.51|Z|Desolace|
+R Magram Village|ACTIVE|1369|M|69.30,72.67|Z|Desolace|
 T Broken Tears|QID|1369|M|74.8,68.0|Z|Desolace|N|To Warug.|
 A Gizmo for Warug|QID|1371|M|74.8,68.0|Z|Desolace|N|From Warug.|PRE|1369|
 T Gizmo for Warug|QID|1371|M|74.8,68.0|Z|Desolace|N|To Warug.|
 A Khan Shaka|QID|1375|M|74.8,68.0|Z|Desolace|N|From Warug.|PRE|1371|
-R Bolgan's Hole|ACTIVE|1375|M|40.4,89.5;38.1,85.7,38.45,90.84|Z|Desolace|
+R Bolgan's Hole|ACTIVE|1375|M|40.4,89.5;38.1,85.7;38.45,90.84|Z|Desolace|CC|
 K Khan Shaka|ACTIVE|1375|M|40.49,95.49|Z|Desolace|QO|1|N|Once inside the cave and jump up onto the slight ledge behind the tent in front of you.\n[color=FF0000]NOTE: [/color]In addition to all of the other mobs between you and Khan, he is flanked by 2 guards.|
-R Magram Village|ACTIVE|1369|M|67.32,66.51|Z|Desolace|
+R Magram Village|ACTIVE|1369|M|69.30,72.67|Z|Desolace|
 T Khan Shaka|QID|1375|M|74.8,68.0|Z|Desolace|N|To Warug.|
+A Khan Hratha|QID|1381|M|74.8,68.0|Z|Desolace|ELITE|N|[color=00FFFF]Group of 2-3 suggested or level up to solo[/color]\nFrom Warug.|PRE|1375|
 
 ; --- Gelkis Alliance chain
-R Magram Village|ACTIVE|1368|M|67.32,66.51|Z|Desolace|N|Follow the main road as far east as it goes. The village is on the south side of the road.|
+R Magram Village|ACTIVE|1368|M|69.30,72.67|Z|Desolace|N|Follow the main road as far east as it goes. The village is on the south side of the road.|
 K Magram Clan Centaurs|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Kill Magram Clan Centaurs until have reached Friendly status (3,000 rep) with The Gelkis Clan.\nIt'll take 75 kills to reach it.|REP|Gelkis Clan Centaur;92;Neutral|
 C Centaur Bounty|QID|1366|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Continue killing Centaurs and looting their ears until done.|US|
-R Ghost Walker Post|ACTIVE|1366|M|56.74,56.79|Z|Desolace|
-T Centaur Bounty|QID|1366|M|56.20,59.55|Z|Desolace|N|To Felgur Twocuts.|
-T Catch of the Day|QID|5386|M|55.41,55.80|Z|Desolace|N|To Nataka Longhorn.|
-; --- Gelkis Alliance chain
-R Gelkis Village|ACTIVE|1368|M|37.64,78.95|Z|Desolace|REP|Gelkis Clan Centaur;92;friendly|
-T Gelkis Alliance|QID|1368|M|36.24,79.25|Z|Desolace|N|To Uthek the Wise.|REP|Gelkis Clan Centaur;92;friendly|
+L Level 36|ACTIVE|1366&1368|N|Continue grinding until you are ~2.5 bars short (89%) of Level 36.|LVL|35,-6550|
+R Ghost Walker Post|ACTIVE|1366&1368|M|56.74,56.79|Z|Desolace|
+T Centaur Bounty|QID|1366|ACTIVE|1368|M|56.20,59.55|Z|Desolace|N|To Felgur Twocuts.|
+T Catch of the Day|QID|5386|ACTIVE|1368|M|55.41,55.80|Z|Desolace|N|To Nataka Longhorn.|
+P Moonglade|ACTIVE|1368|N|Use your Teleport: Moonglade to do your training.|C|Druid|
+H Orgrimmar|ACTIVE|1368|N|Hearth back to Orgrimmar. It's faster than flying; unless your hearth is on CD.|C|Druid|
+H Orgrimmar|ACTIVE|1368|N|Hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
+T Alliance Relations|QID|1436|ACTIVE|1368|M|22.27,53.74|Z|Orgrimmar|N|To Keldran.|
+F Shadowprey Village|ACTIVE|1368|M|45.50,63.84|Z|Orgrimmar|N|Once you're done whatever you need to do, fly back to Desolace.|
+R Gelkis Village|ACTIVE|1368|M|37.64,78.95|Z|Desolace|
+T Gelkis Alliance|QID|1368|M|36.24,79.25|Z|Desolace|N|To Uthek the Wise.|
 A Stealing Supplies|QID|1370|M|36.24,79.25|Z|Desolace|N|From Uthek the Wise.|PRE|1368|REP|Gelkis Clan Centaur;92;friendly|
-R Magram Village|ACTIVE|1370|M|67.20,66.19|Z|Desolace|N|Return to Magram Village.|
-l Stealing Supplies|ACTIVE|1370|L|6069 6|N|Loot the yellow bags off the ground near the tents in Magram Village.\n[color=FF0000]NOTE: [/color]There are some bags that are not lootable.|
+R Magram Village|ACTIVE|1370|M|67.20,66.19|Z|Desolace|N|Return to Magram Village.
+C Stealing Supplies|QID|1370|M|70.96,75.30|Z|Desolace|L|6069 6|N|Loot the yellow bags off the ground near the tents in Magram Village.\n[color=FF0000]NOTE: [/color]There are some bags that are not lootable.|REP|Gelkis Clan Centaur;92;friendly|
+R Gelkis Village|ACTIVE|1370|M|37.64,78.95|Z|Desolace|
 T Stealing Supplies|QID|1370|M|36.24,79.24|Z|Desolace|N|To Uthek the Wise.|
-P Moonglade|ACTIVE|1436|N|Now that we have the FP in Desolace, use your Teleport: Moonglade to do your training.|C|Druid|
-H Orgrimmar|ACTIVE|1436|N|Hearth back to Orgrimmar. It's faster than flying; unless your hearth is on CD.|C|Druid|
-H Orgrimmar|ACTIVE|1436|N|Now that we have the FP in Desolace, you can hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
-N Advanced Target Dummy|ACTIVE|1367|N|Make sure you bring an 'Advanced Target Dummy' with you. You're going to need it for the quest chain.|
-T Alliance Relations|QID|1436|M|22.27,53.74|Z|Orgrimmar|N|To Keldran.|
-F Shadowprey Village|QID|6142|M|45.50,63.84|Z|Orgrimmar|N|Once you're done whatever you need to do, fly back to Desolace.|
-A Ongeku|QID|1373|M|36.24,79.20|Z|Desolace|N|From Uthek the Wise.|
-N Shortcut|ACTIVE|6142|N|Instead of running all the way around to get to the shoreline in the north, you are going to swim up from Shadowprey Village.|
-l Clam Bait|ACTIVE|6142|M|45.2,63.8|Z|Desolace|L|15924 10|N|Open Soft-shelled clams to collect the meat.\nYou can get them from opening the Giant Soft Clams on the ocean floor and by killing Drysnap crawlers/pincers. You can also get them from killing the Reef Crawlers.|U|15874|S|
+A Ongeku|QID|1373|M|36.24,79.25|Z|Desolace|N|From Uthek the Wise.\n[color=FF0000]NOTE: [/color]This quest requires you travel to Dustwallow Marsh.|PRE|1370|REP|Gelkis Clan Centaur;92;friendly|
+N Dustwallow Marsh|ACTIVE|1373|N|At this point in time, you have to travel to Dustwallow Marsh to continue the Gelkis Alliance quest chain.|
+R Shadowprey Village|ACTIVE|1373|M|26.50,75.15|Z|Desolace|
+F Camp Taurajo|ACTIVE|1373|M|21.60,74.05|Z|Desolace|
+R Dustwallow Marsh|ACTIVE|1373|M|28.53,47.18|N|Head east out Camp Taurajo to Southern Gold Road and follow the signs to Dustwallow Marsh.|
+
+A Khan Jehn|QID|1374|M|36.24,79.25|Z|Desolace|N|From Uthek the Wise.|PRE|1373|REP|Gelkis Clan Centaur;92;friendly|
+
+A Khan Hratha|QID|1380|M|36.24,79.25|Z|Desolace|N|From Uthek the Wise.|PRE|1374|REP|Gelkis Clan Centaur;92;friendly|
+
+H Orgrimmar|ACTIVE|1436|N|Now that we have the FP in Desolace, you can hearth back to Orgrimmar to do your training or whatever else you need to do.|
+N Shortcut|ACTIVE|6142|N|Instead of running all the way around to get to the shoreline in the north, you are going to swim up from Shadowprey Village.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Clam Bait|QID|6142|M|45.2,63.8|Z|Desolace|L|15924 10|N|Open Soft-shelled clams to collect the meat.\nYou can get them from opening the Giant Soft Clams on the ocean floor and by killing Drysnap crawlers/pincers. You can also get them from killing the Reef Crawlers.|U|15874|S|
 R Ethel Rethor|ACTIVE|6143|M|30.55,34.26;35.66,30.67|Z|Desolace|CC|N|Walk into the water and swim north.|
 A Claim Rackmore's Treasure!|QID|6161|M|36.07,30.43|Z|Desolace|N|Find Rackmore's Log on top of the barrel beside the wreckage of the boat on shore. Click on it to start the quest.|
 l Rackmore's Golden Key|ACTIVE|6161|L|15881|N|Kill Nagas until they drop one.|S|
 l Oracle Crystal|ACTIVE|1482|L|6442|N|Kill Slitherblade Oracles until one drops.\n21% drop rate|S|
 l Rackmore's Silver Key|ACTIVE|6161|M|33.20,31.66|Z|Desolace|L|15878|N|Kill Drysnap Crawlers/Pincers until they drop the key.\nStick around the bubbling fissure so you don't have to keep swimming to the surface for air. They will come to you.|
-l Clam Bait|ACTIVE|6142|L|15924 10|N|Finish collecting the Soft-shelled Clam Meat.\nYou can get them from opening the Giant Soft Clams on the ocean floor and by killing Drysnap crawlers/pincers. You can also get them from killing the Reef Crawlers.|U|15874|US|
+C Clam Bait|QID|6142|L|15924 10|N|Finish collecting the Soft-shelled Clam Meat.\nYou can get them from opening the Giant Soft Clams on the ocean floor and by killing Drysnap crawlers/pincers. You can also get them from killing the Reef Crawlers.|U|15874|US|
 C Other Fish to Fry|QID|6143|M|34.17,25.21|Z|Desolace|QO|1;2;3|N|Slay Slitherblade Myrmidons, Nagas, and Sorceresses.|
 l Rackmore's Golden Key|ACTIVE|6161|L|15881|N|Kill Nagas until they drop one.|US|
 T Claim Rackmore's Treasure!|QID|6161|M|29.98,8.72|Z|Desolace|N|Clear all mobs around the chest. Open the chest to complete the quest.|
