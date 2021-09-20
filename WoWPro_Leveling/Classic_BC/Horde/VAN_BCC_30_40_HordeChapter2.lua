@@ -464,7 +464,7 @@ f Grom'gol|ACTIVE|568|M|32.54,29.36|Z|Stranglethorn Vale|N|At Thysta.|TAXI|-Grom
 A The Vile Reef|QID|629|M|32.28,27.70|Z|Stranglethorn Vale|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Kin'weelay.|
 A Bloody Bone Necklaces|QID|596|M|32.28,27.70|Z|Stranglethorn Vale|N|From Kin'weelay.|
 A Hunt for Yenniku|QID|581|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|
-R Nesingwary's Expedition|ACTIVE|201|M|38.6,23.3;35.2,14.5;35.66,10.53|Z|Stranglethorn Vale|CC|N|Go east from Grom'gol and follow the road to the main road. Head north from here until you're almost at the river. The camp should be just off the road to the west.|
+R Nesingwary's Expedition|ACTIVE|201|M|38.6,23.3;35.2,14.5;35.65,10.66|Z|Stranglethorn Vale|CC|N|Go east from Grom'gol and follow the road to the main road. Head north from here until you're almost at the river. The camp should be just off the road to the west.|
 A Welcome to the Jungle|QID|583|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
 T Hemet Nesingwary Jr.|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
 T Hunting in Stranglethorn|QID|5763|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
@@ -496,15 +496,15 @@ C Hostile Takeover|QID|213|L|4106 8|N|Kill Venture Co. Geologists to loot Tumble
 K Foreman Cozzle|ACTIVE|1182|M|42.72,18.37|Z|Stranglethorn Vale|L|5851|N|Head up to the top floor of the Venture Co. Operations Center, kill Foreman Cozzle inside the office, and loot his key to unlock his footlocker.\n[color=FF0000]NOTE: [/color]You'll need to pull each mob as there isn't much spacing between them and they will run. Try to avoid the ones out on the first level platform. They tend to pull as a group.|
 C Cozzle's Footlocker|QID|1182|M|43.33,20.33|Z|Stranglethorn Vale|QO|1|N|Once you have the key, drop down into the water and head for the little house beside the mill. Click on the chest to open it and loot the Fuel Regulator Blueprints.\n[color=FF0000]NOTE: [/color]There is no one inside.|NC|
 C Hostile Takeover|QID|213|M|43.91,22.90|Z|Stranglethorn Vale|L|4106 8|N|Kill Venture Co. Geologists to loot Tumbled Crystals.\n[color=FF0000]NOTE: [/color]They are spellcasters.|US|
-K Panther Mastery|ACTIVE|192|QO|1|N|Kill Shadowmaw Panthers.|S|
-C Mok'thardin's Enchantment|QID|570|QO|1|N|Kill Shadowmaw Panthers to loot Shadowmaw Claws.|S|
-C Mok'thardin's Enchantment|QID|570|M|47.25,22.74|Z|Stranglethorn Vale|QO|1|N|Head up into the hills on the east side of Venture Co, Base Camp. Kill Stranglethorn Tigresses until one drops a Pristine Tigress Fang.\n[color=FF0000]NOTE: [/color]Watch out for the Elite Mosh'Ogg south of the road.|
-C Mok'thardin's Enchantment|QID|570|QO|1|N|Finish collecting Shadowmaw Claws.|US|
-K Panther Mastery|QID|192|QO|1|N|Kill Shadowmaw Panthers.|US|
-R Nesingwary's Expedition|ACTIVE|186|M|37.56,11.73|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
+K Panther Mastery|ACTIVE|192|M|48.67,22.86|Z|Stranglethorn Vale|QO|1|N|Kill Shadowmaw Panthers.|S|
+C Mok'thardin's Enchantment|QID|570|M|48.67,22.86|Z|Stranglethorn Vale|QO|1|N|Kill Shadowmaw Panthers to loot Shadowmaw Claws.|S|
+C Mok'thardin's Enchantment|QID|570|M|48.67,22.86|Z|Stranglethorn Vale|QO|2|N|Head up into the hills on the east side of Venture Co, Base Camp. Kill Stranglethorn Tigresses until one drops a Pristine Tigress Fang.\n[color=FF0000]NOTE: [/color]Watch out for the Elite Mosh'Ogg south of the road.|
+C Mok'thardin's Enchantment|QID|570|M|48.67,22.86|Z|Stranglethorn Vale|QO|1|N|Finish collecting Shadowmaw Claws.\n[color=FF0000]NOTE: [/color]As they can cloak themselves, unless you can track them, you'll have to wander around the area until you find them.|US|
+K Panther Mastery|QID|192|M|48.67,22.86|Z|Stranglethorn Vale|QO|1|N|Kill Shadowmaw Panthers.\n[color=FF0000]NOTE: [/color]As they can cloak themselves, unless you can track them, you'll have to wander around the area until you find them.|US|
+R Nesingwary's Expedition|ACTIVE|192|M|35.65,10.66|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.\n[color=FF0000]NOTE: [/color]Following the road is probably the best route.|
 T Panther Mastery|QID|192|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
 A Panther Mastery|QID|193|M|35.56,10.54|Z|Stranglethorn Vale|ELITE|N|[color=ff8000]Elite: [/color]From Sir S. J. Erlgadin.|PRE|192|
-R Tkashi Ruins|ACTIVE|187|M|35.01,16.73|Z|Stranglethorn Vale|CC|N|Head to the road and follow it south.|
+R Tkashi Ruins|ACTIVE|187|M|34.27,13.78|Z|Stranglethorn Vale|
 C Tiger Mastery|QID|187|QO|1|N|Kill Elder Stranglethorn Tigers.|
 R The Hills of the Ruins of Zul'Kunda|QID|191|M|29.26,16.14|Z|Stranglethorn Vale|N|Head to the hills below the Ruins of Zul'Kunda|
 R Ruins of Zul'Kunda|ACTIVE|191|M|28.17,11.29|Z|Stranglethorn Vale|N|Head into the Ruins of Zul'Kunda.|
@@ -512,7 +512,7 @@ C Bloody Bone Necklaces|QID|596|L|3915 25|N|Kill any Bloodscalp troll to loot th
 C Hunt for Yenniku|QID|581|L|3901 9|N|Kill any Bloodscalp troll to loot them.|S|
 C Bloodscalp Ears|QID|189|L|1519 15|N|Kill any Bloodscalp troll to loot them.|
 C Hunt for Yenniku|QID|581|L|3901 9|N|Finish collecting Bloodscalp Tusks.|US|
-R Nesingwary's Expedition|ACTIVE|581|M|37.49,11.69|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
+R Nesingwary's Expedition|ACTIVE|581|M|35.65,10.66|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
 T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
 A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|194|
 T Tiger Mastery|QID|187|M|35.64,10.65|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
@@ -566,7 +566,7 @@ N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant 
 C Encrusted Tail Fins|QID|1107|M|25.15,24.10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|S|IZ|104|
 C The Vile Reef|QID|629|M|24.8,22.8|Z|Stranglethorn Vale|QO|1|N|Loot the Tablet Shard. It's leaning against the outside wall.\n[color=FF0000]NOTE: [/color]You can get this without aggroing the 2 Elite mobs on the other side. Swim along the surface to the location and dive straight down.\nIf you do it quick, you'll resurface with 1/3 of your breath left.|NC|
 ;l Encrusted Tail Fins|QID|1107|M|25.15,24.10|L|5796 10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|US|IZ|104|
-R Nesingwary's Expedition|ACTIVE|195|M|37.49,11.69|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
+R Nesingwary's Expedition|ACTIVE|195|M|35.65,10.66|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
 T Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
 A Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|195|
 T Tiger Mastery|QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
@@ -762,7 +762,7 @@ R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|Z|Stranglethorn Vale|CC|N|Make your way
 R Ruins of Zul'Kunda|ACTIVE|584|M|30.03,13.07;27.93,11.33|Z|Stranglethorn Vale|CC|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by climbing the hill on the left side and coming down between the wall and the building.|
 K Nezzliok|ACTIVE|584|M|23.26,9.77|Z|Stranglethorn Vale|QO|2|N|Work your way through the center of the Ruins to the ramp on the other side.\nSticking to the tall wall, clear the mobs as you walk up the ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.|
 K Gan'zulah|ACTIVE|584|M|23.26,8.72|Z|Stranglethorn Vale|QO|1|N|Using the same process as you did with Nezzliok, pull the mobs closest to the wall until Gan'zulah is alone or joins the fight.|
-R Nesingwary's Expedition|ACTIVE|584|M|34.91,11.00|Z|Stranglethorn Vale|N|Work your way out of the Ruins the same way you came in. You can avoid some of the fight by dropping down to the lower ledge of the wall and walking around to where the bottom of the ramp is.\n Once you are out of the Ruins, make your way to the Nesingwary's Expedition.|
+R Nesingwary's Expedition|ACTIVE|584|M|35.65,10.66|Z|Stranglethorn Vale|N|Work your way out of the Ruins the same way you came in. You can avoid some of the fight by dropping down to the lower ledge of the wall and walking around to where the bottom of the ramp is.\n Once you are out of the Ruins, make your way to the Nesingwary's Expedition.|
 T Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
 A Raptor Mastery|QID|197|PRE|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|
 ;N Chapter Quests|ACTIVE|338|AVAILABLE|191|N|From this point forward, every time you return to the Camp, check in with Barnil Stonepot to see if you have enough pages to finish a Chapter quest. You'll want to get rid of the pages as soon as you can to save bag space.\n[color=FF0000]NOTE: [/color]To save log space, do not accept the Chapter quests until you can complete them.|S!US|IZ|100;Nesingwary's Expedition|
