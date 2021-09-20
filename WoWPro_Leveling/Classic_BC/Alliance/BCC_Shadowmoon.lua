@@ -74,7 +74,9 @@ T The Sketh'lon Wreckage|QID|10569|M|38.71,54.17|N|To Gryphonrider Kieran.|
 A Find the Deserter|QID|10759|PRE|10569^10760|M|38.71,54.17|N|From Gryphonrider Kieran.|
 T Setting Up the Bomb|QID|10572|M|39.53,53.65|N|To Wing Commander Nuainn.|
 A Blast the Infernals!|QID|10564|PRE|10572|M|39.53,53.65|N|From Wing Commander Nuainn.|
-C Blast the Infernals!|QID|10564|U|30614|M|22.66, 39.92|N|Head to Legion Hold, and use the Fel Bomb.|
+C Blast the Infernals!|QID|10564|U|30614|M|22.66,39.92|N|Head to Legion Hold, and use the Fel Bomb.|
+T Blast the Infernals!|QID|10564|M|39.53,53.65|N|To Wing Commander Nuainn.|
+A The Deathforge|QID|10573|PRE|10564|M|39.53,53.65|N|From Wing Commander Nuainn.|
 T Find the Deserter|QID|10759|M|35.22,39.32|N|To Parshah. He wonders north and south along the road.|
 A Asghar's Totem|QID|10777|PRE|10759^10761|M|35.22,39.32|N|From Parshah. He wonders north and south along the road.|
 C Asghar's Totem|QID|10777|M|40.01,29.11|N|Kill Asghar and loot his totem. He wanders around Sketh'lon Wreckage|T|Asghar|
@@ -97,9 +99,6 @@ A Bring Down the Warbringer!|QID|10586|M|40.44,41.35|N|From Stormer Ewan Wildwin
 C Warbrinber Razuun|QID|10586|QO|1|M|38.95,46.26|N|Head back into the upper cave of The Deathforge, in the area where you killed the Smiths and Tinkerers there is a gate to the left. Open the gate, and head all the way to the end and kill Warbrinber Razuun.|T|Warbrinber Razuun|
 C Razuun's Orders|QID|10586|QO|2|M|38.95,46.26|N|Loot Warbrinber Razuun for Razuun's Orders.|NC|
 H Wildhammer Stronghold|QID|10586|M|37.06,58.17|N|Hearth back to Wildhammer Stronghold.|
-; Didn't make sense to turn in Blast the Infernals on an isolated run to Wildhammer Stronghold, so moving here
-T Blast the Infernals!|QID|10564|M|39.53,53.65|N|To Wing Commander Nuainn.|
-A The Deathforge|QID|10573|PRE|10564|M|39.53,53.65|N|From Wing Commander Nuainn.|
 T Bring Down the Warbringer!|QID|10586|M|39.54,53.64|N|To Wing Commander Nuainn.|
 A Gaining Access|QID|10589|PRE|10586|M|39.54,53.64|N|From Wing Commander Nuainn.|
 C Gaining Access|QID|10589|M|24.20,35.88|N|Kill and loot Mo'arg Weaponsmiths until the Legion Teleporter Control drops.|
