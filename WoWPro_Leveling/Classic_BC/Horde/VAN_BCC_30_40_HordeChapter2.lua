@@ -470,7 +470,7 @@ T Hemet Nesingwary Jr.|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Ne
 T Hunting in Stranglethorn|QID|5763|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
 T Welcome to the Jungle|QID|583|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
 A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|583|
-A Tiger Mastery|QID|185|M|35.61,10.63|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|583|
+A Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|583|
 A Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|583|
 A The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot.|PRE|583|
 N Chapter Quests|ACTIVE|338|AVAILABLE|339^340^341^342|N|Going forward, every time you return to the Camp, check in with Barnil Stonepot to see if you have enough pages to finish a Chapter quest. You'll want to get rid of the pages as soon as you can to save bag space.\n[color=FF0000]NOTE: [/color]To save log space, do not accept the Chapter quests until you can complete them.|S!US|IZ|100;Nesingwary's Expedition|
@@ -483,14 +483,18 @@ T Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlg
 A Panther Mastery|QID|191|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|190|
 T Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|185|
-R The Hills of the Ruins of Zul'Kunda|ACTIVE|191|M|30.26,10.63|Z|Stranglethorn Vale|CC|N|Head to the hills below the Ruins of Zul'Kunda.|
+R The Hills of the Ruins of Zul'Kunda|ACTIVE|186^191^194|M|30.26,10.63|Z|Stranglethorn Vale|CC|N|Head to the hills below the Ruins of Zul'Kunda.|
 K Tiger Mastery|ACTIVE|186|M|29.34,9.85|Z|Stranglethorn Vale|QO|1|N|Kill Stranglethorn Tigers.|S|
-K Panther Mastery|ACTIVE|191|M|25.34,14.37|Z|Stranglethorn Vale|QO|1|N|Kill Panthers. They are all over this area.|
+K Panther Mastery|ACTIVE|191|M|25.34,14.37|Z|Stranglethorn Vale|QO|1|N|Kill Panthers. They are all over this area.|S|
+K Raptor Mastery|ACTIVE|194|M|27.60,16.00|Z|Stranglethorn Vale|QO|1|N|Kill Stranglethorn Raptors.|
+K Panther Mastery|ACTIVE|191|M|25.34,14.37|Z|Stranglethorn Vale|QO|1|N|Finish killing Panthers. They are all over this area.|S|
 K Tiger Mastery|ACTIVE|186|M|29.34,9.85|Z|Stranglethorn Vale|QO|1|N|Finish killing Stranglethorn Tigers before you make your way back to Nesingwary's Expedition.|US|
-T Panther Mastery|QID|191|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
-A Panther Mastery|QID|192|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|191|
+T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
+A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|194|
 T Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|186|
+T Panther Mastery|QID|191|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
+A Panther Mastery|QID|192|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|191|
 R Venture Co. Base Camp|ACTIVE|570|M|36.8,13.6;40.0,14.9;40.8,14.7;42.61,16.70|Z|Stranglethorn Vale|CC|N|Make your way east under the bridge and head for the north side of the lake.|
 C Hostile Takeover|QID|213|L|4106 8|N|Kill Venture Co. Geologists to loot Tumbled Crystals.\n[color=FF0000]NOTE: [/color]They are spellcasters.|S|
 K Foreman Cozzle|ACTIVE|1182|M|42.72,18.37|Z|Stranglethorn Vale|L|5851|N|Head up to the top floor of the Venture Co. Operations Center, kill Foreman Cozzle inside the office, and loot his key to unlock his footlocker.\n[color=FF0000]NOTE: [/color]You'll need to pull each mob as there isn't much spacing between them and they will run. Try to avoid the ones out on the first level platform. They tend to pull as a group.|
@@ -507,15 +511,13 @@ A Panther Mastery|QID|193|M|35.56,10.54|Z|Stranglethorn Vale|ELITE|N|[color=ff80
 K Tiger Mastery|ACTIVE|187|M|33.23,19.03|Z|Stranglethorn Vale|QO|1|N|Kill Elder Stranglethorn Tigers.\n[color=FF0000]NOTE: [/color]Take the road or cut through Tkashi Ruins.|
 R The Hills of the Ruins of Zul'Kunda|ACTIVE|189^581^596|M|29.26,16.14|Z|Stranglethorn Vale|CC|N|Head to the hills below the Ruins of Zul'Kunda|
 R Ruins of Zul'Kunda|ACTIVE|189^581^596|M|27.98,11.25|Z|Stranglethorn Vale|N|Head into the Ruins of Zul'Kunda.|
-C Bloody Bone Necklaces|QID|596|L|3915 25|N|Kill any Bloodscalp troll to loot them.\n[color=FF0000]NOTE: [/color]Watch out for multiple pulls and patrollers. Take Hunters out quickly because they can root you for 10 seconds.|S|
-C Hunt for Yenniku|QID|581|L|3901 9|N|Kill any Bloodscalp troll to loot them.|S|
-C Bloodscalp Ears|QID|189|L|1519 15|N|Kill any Bloodscalp troll to loot them.|
-C Hunt for Yenniku|QID|581|L|3901 9|N|Finish collecting Bloodscalp Tusks.|US|
+C Bloody Bone Necklaces|QID|596|M|25.70,11.30|Z|Stranglethorn Vale|L|3915 25|N|Kill any Bloodscalp troll to loot them.\n[color=FF0000]NOTE: [/color]Watch out for multiple pulls and patrollers. Take Hunters out quickly because they can root you for 10 seconds.|S|IZ|Ruins of Zul'Kunda^Zuuldaia Ruins^Tkashi Ruins|
+C Hunt for Yenniku|QID|581|M|25.70,11.30|Z|Stranglethorn Vale|L|3901 9|N|Kill any Bloodscalp troll to loot them.|S|
+C Bloodscalp Ears|QID|189|M|25.70,11.30|Z|Stranglethorn Vale|L|1519 15|N|Kill any Bloodscalp troll to loot them.|
+C Hunt for Yenniku|QID|581|M|25.70,11.30|Z|Stranglethorn Vale|L|3901 9|N|Finish collecting Bloodscalp Tusks.|US|
 R Nesingwary's Expedition|ACTIVE|581|M|35.65,10.66|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
-T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
-A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|194|
-T Tiger Mastery|QID|187|M|35.64,10.65|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery|QID|188|M|35.64,10.65|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+T Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+A Tiger Mastery|QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 K Sin'Dall|ACTIVE|188|QID|188|M|31.76,17.03;32.05,17.47|Z|Stranglethorn Vale|CC|L|3879|N|Kill Sin'Dall and loot her paw. You'll find her on top of a flat hill near Tkashi Ruins.\n[color=FF0000]NOTE: [/color]There is only one way up the hill.|
 R The Savage Coast|ACTIVE|195^568|M|32.8,12.9;30.7,17.2;30.50,21.45|Z|Stranglethorn Vale|CC|N|Make your way south through the Ruins to the Savage Coast.|
 K Raptor Mastery|ACTIVE|195|QO|1|N|Kill 10 Lashtail Raptors.|S|
