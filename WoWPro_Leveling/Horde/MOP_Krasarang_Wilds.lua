@@ -74,7 +74,7 @@ T Profit Mastery|QID|30353|M|70.91,21.01|N|To Daggle Bombstrider.|
 A Profit Mastery: Chasheen|QID|31260|M|70.91,21.01|N|From Daggle Bombstrider.|PRE|30353|
 T Crane Mastery|QID|30352|M|67.6, 25.77|
 A Crane Mastery: Needlebeak|QID|31262|M|67.61,25.70|N|From Daggle Bombstrider.|PRE|30352|
-K Needlebeak|QID|31262|M|63.19,20.39|L|85854|T|Needlebeak|
+K Needlebeak|ACTIVE|31262|M|63.19,20.39|QO|1|T|Needlebeak|
 T Skitterer Stew|QID|30123|M|60.07,24.98|N|To Kang Bramblestaff.|
 T Blind Them!|QID|30124|M|59.88,24.85|N|To Kor Bloodtusk.|
 A Threat from Dojan|QID|30127|M|59.88,24.85|N|From Kor Bloodtusk.|PRE|30123&30124|
