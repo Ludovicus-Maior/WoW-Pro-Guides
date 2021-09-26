@@ -439,7 +439,7 @@ b Grom'gol Base Camp|QID|5762|AVAILABLE|201|M|32.39,43.82|Z|Durotar|N|Take the Z
 A Mok'thardin's Enchantment|QID|570|AVAILABLE|201|M|32.12,29.24|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|TAXI|Booty Bay|
 A The Defense of Grom'gol|QID|568|AVAILABLE|201|M|32.20,28.83|Z|Stranglethorn Vale|N|From Commander Aggro'gosh.|TAXI|Booty Bay|
 f Grom'gol|QID|568|AVAILABLE|201|M|32.54,29.36|Z|Stranglethorn Vale|N|At Thysta.|TAXI|Booty Bay|
-F Booty Bay|QID|5762|AVAILABLE|201|M|32.50,29.33|Z|Stranglethorn Vale|TAXI|Booty Bay|
+F Booty Bay|QID|5762|AVAILABLE|201|M|32.54,29.35|Z|Stranglethorn Vale|TAXI|Booty Bay|
 A Bloodscalp Ears|QID|189|M|27.00,77.13|Z|Stranglethorn Vale|N|From Kebok, just inside the room.|TAXI|Booty Bay|
 A Hostile Takeover|QID|213|M|27.00,77.13|Z|Stranglethorn Vale|N|From Kebok.|TAXI|Booty Bay|
 A Investigate the Camp|QID|201|M|26.94,77.20|Z|Stranglethorn Vale|N|From Krazek, who is standing beside Kebok.|TAXI|Booty Bay|
@@ -464,7 +464,7 @@ f Grom'gol|ACTIVE|568|M|32.54,29.36|Z|Stranglethorn Vale|N|At Thysta.|TAXI|-Grom
 A The Vile Reef|QID|629|M|32.28,27.70|Z|Stranglethorn Vale|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Kin'weelay.|
 A Bloody Bone Necklaces|QID|596|M|32.28,27.70|Z|Stranglethorn Vale|N|From Kin'weelay.|
 A Hunt for Yenniku|QID|581|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|
-R Nesingwary's Expedition|ACTIVE|201|M|38.6,23.3;35.2,14.5;35.65,10.66|Z|Stranglethorn Vale|CC|N|Go east from Grom'gol and follow the road to the main road. Head north from here until you're almost at the river. The camp should be just off the road to the west.|
+R Nesingwary's Expedition|AVAILABLE|583|M|38.6,23.3;35.2,14.5;35.65,10.66|Z|Stranglethorn Vale|CC|N|Go east from Grom'gol and follow the road to the main road. Head north from here until you're almost at the river. The camp should be just off the road to the west.|
 A Welcome to the Jungle|QID|583|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
 T Hemet Nesingwary Jr.|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
 T Hunting in Stranglethorn|QID|5763|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
@@ -518,17 +518,16 @@ C Hunt for Yenniku|QID|581|M|25.70,11.30|Z|Stranglethorn Vale|L|3901 9|N|Finish 
 R Nesingwary's Expedition|ACTIVE|581|M|35.65,10.66|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
 T Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
-K Sin'Dall|ACTIVE|188|QID|188|M|31.76,17.03;32.05,17.47|Z|Stranglethorn Vale|CC|L|3879|N|Kill Sin'Dall and loot her paw. You'll find her on top of a flat hill near Tkashi Ruins.\n[color=FF0000]NOTE: [/color]There is only one way up the hill.|
-R The Savage Coast|ACTIVE|195^568|M|32.8,12.9;30.7,17.2;30.50,21.45|Z|Stranglethorn Vale|CC|N|Make your way south through the Ruins to the Savage Coast.|
-K Raptor Mastery|ACTIVE|195|QO|1|N|Kill 10 Lashtail Raptors.|S|
-K The Defense of Grom'gol|ACTIVE|568|QO|1|N|Kill 15 Lashtail Raptors.\n[color=FF0000]NOTE: [/color]The Young Lashtail Raptors do not count.|
+K Sin'Dall|ACTIVE|188|M|31.8,17.0;32.05,17.47|Z|Stranglethorn Vale|CC|L|3879|N|Kill Sin'Dall and loot her paw. You'll find her on top of a flat hill near Tkashi Ruins.\n[color=FF0000]NOTE: [/color]There is only one way up the hill.\nIf she is not up here, she's either dead, or respawned at the base of the hill and on her way up.|T|Sin'Dall|
+K Raptor Mastery|ACTIVE|195|M|32.53,23.50|Z|Stranglethorn Vale|QO|1|N|Kill Lashtail Raptors.|S|
+K The Defense of Grom'gol|ACTIVE|568|M|32.53,23.50|Z|Stranglethorn Vale|QO|1|N|Kill Lashtail Raptors.\n[color=FF0000]NOTE: [/color]The Young Lashtail Raptors do not count.|
 T Hunt for Yenniku|QID|581|M|32.16,27.72|Z|Stranglethorn Vale|N|To Nimboya.|
 A Headhunting|QID|582|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|PRE|581|
 T The Defense of Grom'gol|QID|568|M|32.20,28.83|Z|Stranglethorn Vale|N|To Commander Aggro'gosh.|
 A The Defense of Grom'gol|QID|569|M|32.20,28.83|Z|Stranglethorn Vale|N|From Commander Aggro'gosh.|PRE|568|
 T Mok'thardin's Enchantment|QID|570|M|32.12,29.24|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|570|
-F Booty Bay|ACTIVE|1182|M|32.50,29.33|Z|Stranglethorn Vale|
+F Booty Bay|ACTIVE|1182|M|32.54,29.35|Z|Stranglethorn Vale|
 T Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 A Goblin Sponsorship|QID|1183|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz.|PRE|1182|
 T Bloodscalp Ears|QID|189|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
@@ -536,11 +535,11 @@ T Hostile Takeover|QID|213|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
 T Investigate the Camp|QID|201|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek.|
 T Supply and Demand|QID|575|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
 A Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|575|
-A Singing Blue Shards|QID|605|M|27.12,77.22|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
+A Singing Blue Shards|QID|605|M|27.12,77.22|Z|Stranglethorn Vale|N|From Crank Fizzlebub.\n[color=FF0000]NOTE: [/color]He's standing beside the bar in the Tavern.|
 ; --- Thousand Needles
 b Ratchet|ACTIVE|1183|M|25.87,73.12|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
-F Freewind Post|ACTIVE|1183|M|45.05,49.16|
-R Mirage Raceway|ACTIVE|1183|N|Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
+F Freewind Post|ACTIVE|1183|M|63.09,37.16|Z|The Barrens|
+R Mirage Raceway|ACTIVE|1183|M|80.34,77.10|N|Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
 T Goblin Sponsorship|QID|1183|M|80.18,75.89|N|To Pozzik.|
 A The Eighteenth Pilot|QID|1186|M|80.18,75.89|N|From Pozzik.|PRE|1183|
 T The Eighteenth Pilot|QID|1186|M|80.31,76.06|N|To Razzeric.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
@@ -550,9 +549,9 @@ F Thunder Bluff|ACTIVE|569|M|45.50,63.84|Z|Orgrimmar|C|Druid|
 F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|Thunder Bluff|C|Druid|
 ; --- STV
 b Grom'gol Base Camp|ACTIVE|569|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
-R Mizjah Ruins|ACTIVE|569|M|37.05,28.25|Z|Stranglethorn Vale|N|Use the east exit and follow the road.|
+R Mizjah Ruins|ACTIVE|569|M|37.02,28.39|Z|Stranglethorn Vale|N|Use the east exit and follow the road.|
 C Some Assembly Required|QID|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|S|
-K The Defense of Grom'gol|ACTIVE|569|QO|1;2|N|Kill Mosh'Ogg Witch Doctors and Brutes in the Mizjah Ruins.\n[color=FF0000]NOTE: [/color]It's much easier to patrol around the outside of the ruins. The mobs inside tend to be pulled in groups of 3. It may take longer, but so does corpse running.|
+K The Defense of Grom'gol|ACTIVE|569|M|37.51,31.52|Z|Stranglethorn Vale|QO|1;2|N|Kill Mosh'Ogg Witch Doctors and Brutes in the Mizjah Ruins.\n[color=FF0000]NOTE: [/color]It's much easier to patrol around the outside of the ruins. The mobs inside tend to be pulled in groups of 3. It may take longer, but so does corpse running.|
 C Some Assembly Required|QID|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|US|
 R Grom'gol Base Camp|ACTIVE|569|M|34.23,28.38|Z|Stranglethorn Vale|N|Return to Grom'gol.|
 T The Defense of Grom'gol|QID|569|M|32.20,28.83|Z|Stranglethorn Vale|N|To Commander Aggro'gosh.|
@@ -578,7 +577,7 @@ T Bloody Bone Necklaces|QID|596|M|32.28,27.71|Z|Stranglethorn Vale|N|To Kin'weel
 A Bloodscalp Clan Heads|QID|584|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|PRE|582|
 A Trollbane|QID|638|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|
 N Leveling up|QID|638|N|We need to gain a few more levels to continue in STV. Off to Arathi Highlands.|
-F Booty Bay|QID|577|M|32.50,29.33|Z|Stranglethorn Vale|N|To turn in a quest to make room in your log and your bag.|
+F Booty Bay|QID|577|M|32.54,29.35|Z|Stranglethorn Vale|N|To turn in a quest to make room in your log and your bag.|
 T Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
 N Bank/AH|ACTIVE|638|N|Before leaving, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|
 ; --- Kalimdor
