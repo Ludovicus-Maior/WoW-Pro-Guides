@@ -439,7 +439,7 @@ b Grom'gol Base Camp|QID|5762|AVAILABLE|201|M|32.39,43.82|Z|Durotar|N|Take the Z
 A Mok'thardin's Enchantment|QID|570|AVAILABLE|201|M|32.12,29.24|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|TAXI|Booty Bay|
 A The Defense of Grom'gol|QID|568|AVAILABLE|201|M|32.20,28.83|Z|Stranglethorn Vale|N|From Commander Aggro'gosh.|TAXI|Booty Bay|
 f Grom'gol|QID|568|AVAILABLE|201|M|32.54,29.36|Z|Stranglethorn Vale|N|At Thysta.|TAXI|Booty Bay|
-F Booty Bay|QID|5762|AVAILABLE|201|M|32.50,29.33|Z|Stranglethorn Vale|TAXI|Booty Bay|
+F Booty Bay|QID|5762|AVAILABLE|201|M|32.54,29.35|Z|Stranglethorn Vale|TAXI|Booty Bay|
 A Bloodscalp Ears|QID|189|M|27.00,77.13|Z|Stranglethorn Vale|N|From Kebok, just inside the room.|TAXI|Booty Bay|
 A Hostile Takeover|QID|213|M|27.00,77.13|Z|Stranglethorn Vale|N|From Kebok.|TAXI|Booty Bay|
 A Investigate the Camp|QID|201|M|26.94,77.20|Z|Stranglethorn Vale|N|From Krazek, who is standing beside Kebok.|TAXI|Booty Bay|
@@ -464,13 +464,13 @@ f Grom'gol|ACTIVE|568|M|32.54,29.36|Z|Stranglethorn Vale|N|At Thysta.|TAXI|-Grom
 A The Vile Reef|QID|629|M|32.28,27.70|Z|Stranglethorn Vale|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Kin'weelay.|
 A Bloody Bone Necklaces|QID|596|M|32.28,27.70|Z|Stranglethorn Vale|N|From Kin'weelay.|
 A Hunt for Yenniku|QID|581|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|
-R Nesingwary's Expedition|ACTIVE|201|M|38.6,23.3;35.2,14.5;35.65,10.66|Z|Stranglethorn Vale|CC|N|Go east from Grom'gol and follow the road to the main road. Head north from here until you're almost at the river. The camp should be just off the road to the west.|
+R Nesingwary's Expedition|AVAILABLE|583|M|38.6,23.3;35.2,14.5;35.65,10.66|Z|Stranglethorn Vale|CC|N|Go east from Grom'gol and follow the road to the main road. Head north from here until you're almost at the river. The camp should be just off the road to the west.|
 A Welcome to the Jungle|QID|583|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
 T Hemet Nesingwary Jr.|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
 T Hunting in Stranglethorn|QID|5763|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
 T Welcome to the Jungle|QID|583|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
 A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|583|
-A Tiger Mastery|QID|185|M|35.61,10.63|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|583|
+A Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|583|
 A Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|583|
 A The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot.|PRE|583|
 N Chapter Quests|ACTIVE|338|AVAILABLE|339^340^341^342|N|Going forward, every time you return to the Camp, check in with Barnil Stonepot to see if you have enough pages to finish a Chapter quest. You'll want to get rid of the pages as soon as you can to save bag space.\n[color=FF0000]NOTE: [/color]To save log space, do not accept the Chapter quests until you can complete them.|S!US|IZ|100;Nesingwary's Expedition|
@@ -483,14 +483,18 @@ T Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlg
 A Panther Mastery|QID|191|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|190|
 T Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|185|
-R The Hills of the Ruins of Zul'Kunda|ACTIVE|191|M|30.26,10.63|Z|Stranglethorn Vale|CC|N|Head to the hills below the Ruins of Zul'Kunda.|
+R The Hills of the Ruins of Zul'Kunda|ACTIVE|186^191^194|M|30.26,10.63|Z|Stranglethorn Vale|CC|N|Head to the hills below the Ruins of Zul'Kunda.|
 K Tiger Mastery|ACTIVE|186|M|29.34,9.85|Z|Stranglethorn Vale|QO|1|N|Kill Stranglethorn Tigers.|S|
-K Panther Mastery|ACTIVE|191|M|25.34,14.37|Z|Stranglethorn Vale|QO|1|N|Kill Panthers. They are all over this area.|
+K Panther Mastery|ACTIVE|191|M|25.34,14.37|Z|Stranglethorn Vale|QO|1|N|Kill Panthers. They are all over this area.|S|
+K Raptor Mastery|ACTIVE|194|M|27.60,16.00|Z|Stranglethorn Vale|QO|1|N|Kill Stranglethorn Raptors.|
+K Panther Mastery|ACTIVE|191|M|25.34,14.37|Z|Stranglethorn Vale|QO|1|N|Finish killing Panthers. They are all over this area.|S|
 K Tiger Mastery|ACTIVE|186|M|29.34,9.85|Z|Stranglethorn Vale|QO|1|N|Finish killing Stranglethorn Tigers before you make your way back to Nesingwary's Expedition.|US|
-T Panther Mastery|QID|191|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
-A Panther Mastery|QID|192|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|191|
+T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
+A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|194|
 T Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|186|
+T Panther Mastery|QID|191|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
+A Panther Mastery|QID|192|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|191|
 R Venture Co. Base Camp|ACTIVE|570|M|36.8,13.6;40.0,14.9;40.8,14.7;42.61,16.70|Z|Stranglethorn Vale|CC|N|Make your way east under the bridge and head for the north side of the lake.|
 C Hostile Takeover|QID|213|L|4106 8|N|Kill Venture Co. Geologists to loot Tumbled Crystals.\n[color=FF0000]NOTE: [/color]They are spellcasters.|S|
 K Foreman Cozzle|ACTIVE|1182|M|42.72,18.37|Z|Stranglethorn Vale|L|5851|N|Head up to the top floor of the Venture Co. Operations Center, kill Foreman Cozzle inside the office, and loot his key to unlock his footlocker.\n[color=FF0000]NOTE: [/color]You'll need to pull each mob as there isn't much spacing between them and they will run. Try to avoid the ones out on the first level platform. They tend to pull as a group.|
@@ -504,30 +508,26 @@ K Panther Mastery|QID|192|M|48.67,22.86|Z|Stranglethorn Vale|QO|1|N|Kill Shadowm
 R Nesingwary's Expedition|ACTIVE|192|M|35.65,10.66|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.\n[color=FF0000]NOTE: [/color]Following the road is probably the best route.|
 T Panther Mastery|QID|192|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
 A Panther Mastery|QID|193|M|35.56,10.54|Z|Stranglethorn Vale|ELITE|N|[color=ff8000]Elite: [/color]From Sir S. J. Erlgadin.|PRE|192|
-R Tkashi Ruins|ACTIVE|187|M|34.27,13.78|Z|Stranglethorn Vale|
-C Tiger Mastery|QID|187|QO|1|N|Kill Elder Stranglethorn Tigers.|
-R The Hills of the Ruins of Zul'Kunda|QID|191|M|29.26,16.14|Z|Stranglethorn Vale|N|Head to the hills below the Ruins of Zul'Kunda|
-R Ruins of Zul'Kunda|ACTIVE|191|M|28.17,11.29|Z|Stranglethorn Vale|N|Head into the Ruins of Zul'Kunda.|
-C Bloody Bone Necklaces|QID|596|L|3915 25|N|Kill any Bloodscalp troll to loot them.\n[color=FF0000]NOTE: [/color]Watch out for multiple pulls and patrollers. Take Hunters out quickly because they can root you for 10 seconds.|S|
-C Hunt for Yenniku|QID|581|L|3901 9|N|Kill any Bloodscalp troll to loot them.|S|
-C Bloodscalp Ears|QID|189|L|1519 15|N|Kill any Bloodscalp troll to loot them.|
-C Hunt for Yenniku|QID|581|L|3901 9|N|Finish collecting Bloodscalp Tusks.|US|
+K Tiger Mastery|ACTIVE|187|M|33.23,19.03|Z|Stranglethorn Vale|QO|1|N|Kill Elder Stranglethorn Tigers.\n[color=FF0000]NOTE: [/color]Take the road or cut through Tkashi Ruins.|
+R The Hills of the Ruins of Zul'Kunda|ACTIVE|189^581^596|M|29.26,16.14|Z|Stranglethorn Vale|CC|N|Head to the hills below the Ruins of Zul'Kunda|
+R Ruins of Zul'Kunda|ACTIVE|189^581^596|M|27.98,11.25|Z|Stranglethorn Vale|N|Head into the Ruins of Zul'Kunda.|
+C Bloody Bone Necklaces|QID|596|M|25.70,11.30|Z|Stranglethorn Vale|L|3915 25|N|Kill any Bloodscalp troll to loot them.\n[color=FF0000]NOTE: [/color]Watch out for multiple pulls and patrollers. Take Hunters out quickly because they can root you for 10 seconds.|S|IZ|Ruins of Zul'Kunda^Zuuldaia Ruins^Tkashi Ruins|
+C Hunt for Yenniku|QID|581|M|25.70,11.30|Z|Stranglethorn Vale|L|3901 9|N|Kill any Bloodscalp troll to loot them.|S|
+C Bloodscalp Ears|QID|189|M|25.70,11.30|Z|Stranglethorn Vale|L|1519 15|N|Kill any Bloodscalp troll to loot them.|
+C Hunt for Yenniku|QID|581|M|25.70,11.30|Z|Stranglethorn Vale|L|3901 9|N|Finish collecting Bloodscalp Tusks.|US|
 R Nesingwary's Expedition|ACTIVE|581|M|35.65,10.66|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
-T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
-A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|194|
-T Tiger Mastery|QID|187|M|35.64,10.65|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery|QID|188|M|35.64,10.65|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
-l Sin'Dall|QID|188|ACTIVE|188|M|31.76,17.03;32.05,17.47|Z|Stranglethorn Vale|CC|L|3879|N|Kill Sin'Dall and loot her paw. You'll find her on top of a flat hill near Tkashi Ruins.\n[color=FF0000]NOTE: [/color]There is only one way up the hill.|
-R The Savage Coast|ACTIVE|195^568|M|32.78,12.87;30.75,17.25;30.50,21.45|Z|Stranglethorn Vale|CC|N|Make your way south through the Ruins to the Savage Coast.|
-C Raptor Mastery|QID|195|QO|1|N|Kill 10 Lashtail Raptors.|S|
-C The Defense of Grom'gol|QID|568|QO|1|N|Kill 15 Lashtail Raptors.\n[color=FF0000]NOTE: [/color]The Young Lashtail Raptors do not count.|
+T Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+A Tiger Mastery|QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+K Sin'Dall|ACTIVE|188|M|31.8,17.0;32.05,17.47|Z|Stranglethorn Vale|CC|L|3879|N|Kill Sin'Dall and loot her paw. You'll find her on top of a flat hill near Tkashi Ruins.\n[color=FF0000]NOTE: [/color]There is only one way up the hill.\nIf she is not up here, she's either dead, or respawned at the base of the hill and on her way up.|T|Sin'Dall|
+K Raptor Mastery|ACTIVE|195|M|32.53,23.50|Z|Stranglethorn Vale|QO|1|N|Kill Lashtail Raptors.|S|
+K The Defense of Grom'gol|ACTIVE|568|M|32.53,23.50|Z|Stranglethorn Vale|QO|1|N|Kill Lashtail Raptors.\n[color=FF0000]NOTE: [/color]The Young Lashtail Raptors do not count.|
 T Hunt for Yenniku|QID|581|M|32.16,27.72|Z|Stranglethorn Vale|N|To Nimboya.|
 A Headhunting|QID|582|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|PRE|581|
 T The Defense of Grom'gol|QID|568|M|32.20,28.83|Z|Stranglethorn Vale|N|To Commander Aggro'gosh.|
 A The Defense of Grom'gol|QID|569|M|32.20,28.83|Z|Stranglethorn Vale|N|From Commander Aggro'gosh.|PRE|568|
 T Mok'thardin's Enchantment|QID|570|M|32.12,29.24|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|570|
-F Booty Bay|ACTIVE|1182|M|32.50,29.33|Z|Stranglethorn Vale|
+F Booty Bay|ACTIVE|1182|M|32.54,29.35|Z|Stranglethorn Vale|
 T Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 A Goblin Sponsorship|QID|1183|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz.|PRE|1182|
 T Bloodscalp Ears|QID|189|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
@@ -535,11 +535,11 @@ T Hostile Takeover|QID|213|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
 T Investigate the Camp|QID|201|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek.|
 T Supply and Demand|QID|575|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
 A Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|575|
-A Singing Blue Shards|QID|605|M|27.12,77.22|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
+A Singing Blue Shards|QID|605|M|27.12,77.22|Z|Stranglethorn Vale|N|From Crank Fizzlebub.\n[color=FF0000]NOTE: [/color]He's standing beside the bar in the Tavern.|
 ; --- Thousand Needles
 b Ratchet|ACTIVE|1183|M|25.87,73.12|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
-F Freewind Post|ACTIVE|1183|M|45.05,49.16|
-R Mirage Raceway|ACTIVE|1183|N|Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
+F Freewind Post|ACTIVE|1183|M|63.09,37.16|Z|The Barrens|
+R Mirage Raceway|ACTIVE|1183|M|80.34,77.10|N|Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
 T Goblin Sponsorship|QID|1183|M|80.18,75.89|N|To Pozzik.|
 A The Eighteenth Pilot|QID|1186|M|80.18,75.89|N|From Pozzik.|PRE|1183|
 T The Eighteenth Pilot|QID|1186|M|80.31,76.06|N|To Razzeric.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
@@ -549,19 +549,19 @@ F Thunder Bluff|ACTIVE|569|M|45.50,63.84|Z|Orgrimmar|C|Druid|
 F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|Thunder Bluff|C|Druid|
 ; --- STV
 b Grom'gol Base Camp|ACTIVE|569|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
-R Mizjah Ruins|ACTIVE|569|M|37.05,28.25|Z|Stranglethorn Vale|N|Use the east exit and follow the road.|
+R Mizjah Ruins|ACTIVE|569|M|37.02,28.39|Z|Stranglethorn Vale|N|Use the east exit and follow the road.|
 C Some Assembly Required|QID|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|S|
-C The Defense of Grom'gol|QID|569|QO|1;2|N|Kill Mosh'Ogg Witch Doctors and Brutes in the Mizjah Ruins.\n[color=FF0000]NOTE: [/color]It's much easier to patrol around the outside of the ruins. The mobs inside tend to be pulled in groups of 3. It may take longer, but so does corpse running.|
+K The Defense of Grom'gol|ACTIVE|569|M|37.51,31.52|Z|Stranglethorn Vale|QO|1;2|N|Kill Mosh'Ogg Witch Doctors and Brutes in the Mizjah Ruins.\n[color=FF0000]NOTE: [/color]It's much easier to patrol around the outside of the ruins. The mobs inside tend to be pulled in groups of 3. It may take longer, but so does corpse running.|
 C Some Assembly Required|QID|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|US|
-R Grom'gol Base Camp|QID|569|M|34.23,28.38|Z|Stranglethorn Vale|N|Return to Grom'gol.|
+R Grom'gol Base Camp|ACTIVE|569|M|34.23,28.38|Z|Stranglethorn Vale|N|Return to Grom'gol.|
 T The Defense of Grom'gol|QID|569|M|32.20,28.83|Z|Stranglethorn Vale|N|To Commander Aggro'gosh.|
 ;L Level 37|LVL|37|N|You should be around level 37 by this point.|
-C Singing Blue Shards|ACTIVE|605|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|S|IZ|1434|
-R Zuuldaia Ruins|QID|582|M|26.97,19.00;23.14,16.56|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
-N Bloodscalp Headhunters|ACTIVE|582|M|PLAYER|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.|
+C Singing Blue Shards|QID|605|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|S|IZ|1434;Stranglethorn Vale|
+R Zuuldaia Ruins|ACTIVE|582|M|26.9,19.0;23.14,16.56|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
+N Bloodscalp Headhunters|ACTIVE|582|M|PLAYER|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Headhunting|ACTIVE|582|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
 C Bloody Bone Necklaces|ACTIVE|596|L|3915 25|N|Kill any Bloodscalp to loot them.|US|
-R The Vile Reef|QID|629|M|23.10,16.49;26.99,18.82;26.54,21.21|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
+R The Vile Reef|ACTIVE|629|M|23.1,16.5;27.0,18.8;26.54,21.21|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
 N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant Clams. They may contain a 'Blue Pearl'. It's a quest item that can be sold in the AH, if you don't use them for the 'Pearl Diving' quest.|S!US|IZ|104|
 C Encrusted Tail Fins|QID|1107|M|25.15,24.10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|S|IZ|104|
 C The Vile Reef|QID|629|M|24.8,22.8|Z|Stranglethorn Vale|QO|1|N|Loot the Tablet Shard. It's leaning against the outside wall.\n[color=FF0000]NOTE: [/color]You can get this without aggroing the 2 Elite mobs on the other side. Swim along the surface to the location and dive straight down.\nIf you do it quick, you'll resurface with 1/3 of your breath left.|NC|
@@ -577,7 +577,7 @@ T Bloody Bone Necklaces|QID|596|M|32.28,27.71|Z|Stranglethorn Vale|N|To Kin'weel
 A Bloodscalp Clan Heads|QID|584|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|PRE|582|
 A Trollbane|QID|638|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|
 N Leveling up|QID|638|N|We need to gain a few more levels to continue in STV. Off to Arathi Highlands.|
-F Booty Bay|QID|577|M|32.50,29.33|Z|Stranglethorn Vale|N|To turn in a quest to make room in your log and your bag.|
+F Booty Bay|QID|577|M|32.54,29.35|Z|Stranglethorn Vale|N|To turn in a quest to make room in your log and your bag.|
 T Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
 N Bank/AH|ACTIVE|638|N|Before leaving, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|
 ; --- Kalimdor
