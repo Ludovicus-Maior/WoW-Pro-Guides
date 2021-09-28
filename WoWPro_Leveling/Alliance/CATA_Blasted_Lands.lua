@@ -38,7 +38,7 @@ T Eliminate the Okril'lon|QID|25711|M|60.17,13.56|N|To Quartermaster Lungertz.|
 A Watcher Mahar Ba|QID|25714|PRE|25708&25709&25711|M|60.17,13.56|N|From Quartermaster Lungertz.|
 T Watcher Mahar Ba|QID|25714|M|63.11,16.77|N|Head all the way up to the top of the Mage Tower to Watcher Mahar Ba.|
 A Cultists at our Doorstep|QID|25716|PRE|25714|M|63.11,16.77|N|From Watcher Mahar Ba.|
-C Cultists at our Doorstep|QID|25716|M|62.47,22.09;64.35,26.33;61.17,31.53|CN|
+C Cultists at our Doorstep|QID|25716|M|61.17,31.53|
 T Cultists at our Doorstep|QID|25716|M|63.09,16.77|N|To Watcher Mahar Ba.|
 A Kasim Sharim|QID|26157|PRE|25716|M|63.09,16.77|N|From Watcher Mahar Ba.|
 R Serpent's Coil|QID|26157|M|62.47,22.09;64.35,26.33;60.83,29.42|CS|N|Head back to the area from the previous quest and enter the cave.|
@@ -79,7 +79,7 @@ C False Idols|QID|25705|S|M|61.20,62.76|N|Smash the idols as you go.|
 C Neptool's Revenge|QID|25706|QO|4|M|60.12,76.47|N|Kill the Bloodwash Idolaters here.|
 C Neptool's Revenge|QID|25706|M|61.20,62.76|N|Kill Bloodwash Zealots and Acolytes inside and around the cave.|
 C False Idols|QID|25705|US|M|61.20,62.76|N|Smash the idols as you go.|
-A The Future of the Rockpool|QID|25707|PRE|25703|M|60.53,62.78|N|"Talk" to the Abandoned Bloodwash Crate and chooseto start the quest.|CHAT|RANK|3|
+A The Future of the Rockpool|QID|25707|PRE|25703|M|60.53,62.78|N|"Talk" to the Abandoned Bloodwash Crate and choose to start the quest.|CHAT|RANK|3|
 C The Future of the Rockpool|QID|25707|M|68.74,82.08|N|Drag the crate to the Forbidding Sea, try to avoid aggro. If you get attacked resume by talking to the chest again.|NC|
 T The Future of the Rockpool|QID|25707|M|60.53,62.78|N|(UI Alert)|
 T False Idols|QID|25705|M|70.99,59.90|N|To Neptool.|
