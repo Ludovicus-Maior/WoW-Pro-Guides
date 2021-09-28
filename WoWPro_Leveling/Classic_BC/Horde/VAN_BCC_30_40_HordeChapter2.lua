@@ -544,22 +544,22 @@ T Goblin Sponsorship|QID|1183|M|80.18,75.89|N|To Pozzik.|
 A The Eighteenth Pilot|QID|1186|M|80.18,75.89|N|From Pozzik.|PRE|1183|
 T The Eighteenth Pilot|QID|1186|M|80.31,76.06|N|To Razzeric.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
 ; --- The Barrens
-H Orgrimmar|ACTIVE|569|M|PLAYER|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
+H Orgrimmar|ACTIVE|569|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
 F Thunder Bluff|ACTIVE|569|M|45.50,63.84|Z|Orgrimmar|C|Druid|
 F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|Thunder Bluff|C|Druid|
 ; --- STV
 b Grom'gol Base Camp|ACTIVE|569|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
 R Mizjah Ruins|ACTIVE|569|M|37.02,28.39|Z|Stranglethorn Vale|N|Use the east exit and follow the road.|
-C Some Assembly Required|QID|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|S|
+C Some Assembly Required|QID|577|M|39.78,29.61|Z|Stranglethorn Vale|L|4104 5|N|Kill Snapjaw Crocolisks along either side of the river shore to loot them.\n[color=FF0000]NOTE: [/color]Be aware of the Sharptooth Frenzys when crossing the river.|S|
 K The Defense of Grom'gol|ACTIVE|569|M|37.51,31.52|Z|Stranglethorn Vale|QO|1;2|N|Kill Mosh'Ogg Witch Doctors and Brutes in the Mizjah Ruins.\n[color=FF0000]NOTE: [/color]It's much easier to patrol around the outside of the ruins. The mobs inside tend to be pulled in groups of 3. It may take longer, but so does corpse running.|
-C Some Assembly Required|QID|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|US|
-R Grom'gol Base Camp|ACTIVE|569|M|34.23,28.38|Z|Stranglethorn Vale|N|Return to Grom'gol.|
+C Some Assembly Required|QID|577|M|39.78,29.61|Z|Stranglethorn Vale|L|4104 5|N|Kill Snapjaw Crocolisks along either side of the river shore to loot them.\n[color=FF0000]NOTE: [/color]Be aware of the Sharptooth Frenzys when crossing the river.|US|
+R Grom'gol Base Camp|ACTIVE|569|M|32.87,28.73|Z|Stranglethorn Vale|N|Return to Grom'gol.|
 T The Defense of Grom'gol|QID|569|M|32.20,28.83|Z|Stranglethorn Vale|N|To Commander Aggro'gosh.|
 ;L Level 37|LVL|37|N|You should be around level 37 by this point.|
-C Singing Blue Shards|QID|605|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|S|IZ|1434;Stranglethorn Vale|
-R Zuuldaia Ruins|ACTIVE|582|M|26.9,19.0;23.14,16.56|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
-N Bloodscalp Headhunters|ACTIVE|582|M|PLAYER|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-C Headhunting|ACTIVE|582|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
+C Singing Blue Shards|QID|605|M|24.34,17.07|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|S|IZ|1434;Stranglethorn Vale|
+R Zuuldaia Ruins|ACTIVE|582|M|27.00,18.60;22.17,16.15|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
+N Bloodscalp Headhunters|ACTIVE|582|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Headhunting|ACTIVE|582|M|19.86,11.53|Z|Stranglethorn Vale|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
 C Bloody Bone Necklaces|ACTIVE|596|L|3915 25|N|Kill any Bloodscalp to loot them.|US|
 R The Vile Reef|ACTIVE|629|M|23.1,16.5;27.0,18.8;26.54,21.21|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
 N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant Clams. They may contain a 'Blue Pearl'. It's a quest item that can be sold in the AH, if you don't use them for the 'Pearl Diving' quest.|S!US|IZ|104|
