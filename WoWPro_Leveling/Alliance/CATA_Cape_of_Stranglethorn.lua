@@ -118,7 +118,7 @@ A Keep An Eye Out|QID|26614|PRE|26611|M|43.43,71.37|N|Up the ramp and around to 
 T Return to MacKinley|QID|26594|M|41.99,73.47|N|To "Sea Wolf" MacKinley.|
 A Kill-Collect|QID|26595|PRE|26594|M|41.99,73.47|N|From "Sea Wolf" MacKinley.|
 B Crate of Pupellyverbos Port|ACTIVE|26600|QO|2|M|41.01,73.98|N|Buy a Crate of Pupillyverbos Port from Whiskey Slim inside the Tavern.|L|59037|
-B Crate of Grade-E Meat|QID|ACTIVE|QO|1|M|42.77,69.02|N|Buy a Crate of Grade-E Meat from Kelsey Yance at The Old Port Authority.|L|59036|
+B Crate of Grade-E Meat|ACTIVE|26600|QO|1|M|42.77,69.02|N|Buy a Crate of Grade-E Meat from Kelsey Yance at The Old Port Authority.|L|59037|
 C A Giant's Feast|QID|26600|NC|M|41.01,73.98;42.78,69.11|CN|N|Buy a Crate of Pupillyverbos Port from Whiskey Slim inside the Tavern. and a Crate of Grade-E Meat from Kelsey Yance at The Old Port Authority.|
 T A Giant's Feast|QID|26600|M|40.37,67.86|N|To Captain Hecklebury Smotts.|
 A A Dish Best Served Huge|QID|26602|PRE|26600|M|40.37,67.86|N|From Captain Hecklebury Smotts.|
