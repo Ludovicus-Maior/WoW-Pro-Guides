@@ -603,10 +603,10 @@ A They Could Be Anyone|QID|63763|PRE|63761&63760|M|PLAYER|Z|1961;Korthia|U|18574
 T They Could Be Anyone|QID|63763|M|62.62,24.90|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
 
 ; Torghast Box of Many Things
-A In Darkness, Found|QID|64557|M|64.64,25.54|Z|1961|N|From Xy'lonu.|
+A In Darkness, Found|QID|64557|M|64.64,25.54|Z|1961|N|From Xy'lonu.|LEAD|64210|
 C In Darkness, Found|QID|64557|N|Enter Torghast, if you are geared it is easy to run floor 1 and speed run to him, he will appear as a yellow question mark on your mini map.|
 T In Darkness, Found|QID|64557|N|To Ve'nish. Enter Torghast, if you are geared it is easy to run floor 1 and speed run to him, he will appear as a yellow question mark on your mini map.|
-A The Box of Many Things|QID|64210|PRE|64557|N|From Ve'nish.|
+A The Box of Many Things|QID|64210|N|From Ve'nish.|
 T The Box of Many Things|QID|64210|M|50.86,54.00|Z|1912;Torghast, Tower of the Damned|N|To Runecarver. You can either exit your Torghast run and continue the questline, or complete your Torghast run and finish this afterward. It doesn't matter.|
 A Tower Knowledge|QID|64216|PRE|64210|M|50.86,54.00|Z|1912;Torghast, Tower of the Damned|N|From Runecarver.|
 T Tower Knowledge|QID|64216|M|47.47,75.37|Z|1912;Torghast, Tower of the Damned|N|To Box of Many Things outline.|
