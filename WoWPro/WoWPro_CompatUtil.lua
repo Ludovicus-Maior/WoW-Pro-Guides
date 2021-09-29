@@ -161,11 +161,7 @@ function WoWPro.QuestLog_IsComplete(questID)
     end
 end
 function WoWPro.QuestLog_IsQuestFlaggedCompleted(questID)
-    if WoWPro.RETAIL or WoWPro.BC then
-        return _G.C_QuestLog.IsQuestFlaggedCompleted(questID)
-    else
-        return _G.IsQuestFlaggedCompleted(questID)
-    end
+    return _G.C_QuestLog.IsQuestFlaggedCompleted(questID)
 end
 
 

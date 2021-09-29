@@ -145,10 +145,8 @@ local SortableScrollListMixin = _G.Mixin({}, ScrollListMixin)
 function SortableScrollListMixin:OnLoad()
     ScrollListMixin.OnLoad(self)
 
-    if WoWPro.RETAIL or WoWPro.BC then
-        _G.Mixin(self.titleRow, _G.BackdropTemplateMixin)
-        self.titleRow:OnBackdropLoaded()
-    end
+    _G.Mixin(self.titleRow, _G.BackdropTemplateMixin)
+    self.titleRow:OnBackdropLoaded()
     self.titleRow:SetBackdrop(backdrop)
     self.titleRow:SetBackdropColor(backdrop.backdropColor:GetRGB())
     self.titleRow:SetBackdropBorderColor(backdrop.backdropBorderColor:GetRGB())
