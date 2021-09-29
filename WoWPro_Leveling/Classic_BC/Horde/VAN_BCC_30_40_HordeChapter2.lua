@@ -559,12 +559,13 @@ T The Defense of Grom'gol|QID|569|M|32.20,28.83|Z|Stranglethorn Vale|N|To Comman
 C Singing Blue Shards|QID|605|M|24.34,17.07|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|S|IZ|1434;Stranglethorn Vale|
 R Zuuldaia Ruins|ACTIVE|582|M|27.00,18.60;22.17,16.15|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
 N Bloodscalp Headhunters|ACTIVE|582|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-C Headhunting|ACTIVE|582|M|19.86,11.53|Z|Stranglethorn Vale|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
-C Bloody Bone Necklaces|ACTIVE|596|L|3915 25|N|Kill any Bloodscalp to loot them.|US|
-R The Vile Reef|ACTIVE|629|M|23.1,16.5;27.0,18.8;26.54,21.21|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
+C Headhunting|QID|582|M|19.86,11.53|Z|Stranglethorn Vale|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
+C Bloody Bone Necklaces|QID|596|M|20.87,12.18|Z|Stranglethorn Vale|L|3915 25|N|Kill any Bloodscalp to loot them.|US|
+C Singing Blue Shards|QID|605|M|24.76,17.12|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|US|
+R The Vile Reef|ACTIVE|629|M|27.0,18.8;26.54,21.21|Z|Stranglethorn Vale|CC|
 N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant Clams. They may contain a 'Blue Pearl'. It's a quest item that can be sold in the AH, if you don't use them for the 'Pearl Diving' quest.|S!US|IZ|104|
 C Encrusted Tail Fins|QID|1107|M|25.15,24.10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|S|IZ|104|
-C The Vile Reef|QID|629|M|24.8,22.8|Z|Stranglethorn Vale|QO|1|N|Loot the Tablet Shard. It's leaning against the outside wall.\n[color=FF0000]NOTE: [/color]You can get this without aggroing the 2 Elite mobs on the other side. Swim along the surface to the location and dive straight down.\nIf you do it quick, you'll resurface with 1/3 of your breath left.|NC|
+C Tablet Shard|QID|629|M|24.8,22.8|Z|Stranglethorn Vale|QO|1|N|Loot the Tablet Shard. It's leaning against the outside wall.\n[color=FF0000]NOTE: [/color]You can get this without aggroing the 2 Elite mobs on the other side. Swim along the surface to the location and dive straight down.\nIf you do it quick, you'll resurface with 1/3 of your breath left.|NC|
 ;l Encrusted Tail Fins|QID|1107|M|25.15,24.10|L|5796 10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|US|IZ|104|
 R Nesingwary's Expedition|ACTIVE|195|M|35.65,10.66|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
 T Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
@@ -751,7 +752,6 @@ R Southern Savage Coast|ACTIVE|605^572^196|M|32.62,35.53|Z|Stranglethorn Vale|N|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
 K Raptor Mastery|ACTIVE|196|M|33.63,37.87|Z|Stranglethorn Vale|QO|1|N|Kill Jungle Stalkers.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
-C Singing Blue Shards|ACTIVE|605|M|33.63,37.87|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|US|
 R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|Stranglethorn Vale|
 T Mok'thardin's Enchantment|QID|572|M|32.12,29.25|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|571|M|32.12,29.25|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|572|
