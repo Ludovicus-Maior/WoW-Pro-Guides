@@ -1,9 +1,9 @@
-## Interface: 20501
+## Interface: 20502
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Professions
 ## Notes: Professions guides guides created by the WoW-Pro Community
 ## Author: Twists
 ## Dependencies: WoWPro
-## Version: 2.5.1-A0
+## Version: 2.5.2-A0
 ## DefaultState: disabled
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
