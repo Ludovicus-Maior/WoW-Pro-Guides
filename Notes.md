@@ -1,3 +1,21 @@
+# Release 9.1.0-A5 / 1.14.0-A0 / 2.5.2-A0
+## Bug Fixes
+* Classic SetBackdrop and IsQuestFlaggedCompleted updates
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Blasted Lands, Cape, Duskwood, Redridge, Swamp, Western Plaguelands, Westfall, Human Intro
+* Horde: Krasarang Wilds
+* Neutral: Eastern Plaguelands, Chains of Domination
+### Classic Leveling
+* Nothing
+### Burning Crusade Classic Leveling
+* Alliance: Shadowmoon, Dwarf/Gnome Intro, 30-41
+* Horde: Hrde Chapter 2 30-40
+### Achievements
+* Shadowland Rares/Treasures
+
+
 # Release 9.1.0-A3 / 1.13.7-B3 / 2.5.1-B3
 ## Bug Fixes
 * Retail: Covenant names sometime have a space and sometimes not. Sigh.
