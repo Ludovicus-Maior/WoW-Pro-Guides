@@ -205,7 +205,7 @@ T Load Lightening|QID|1176|M|80.18,75.89|N|To Pozzik.|
 A Goblin Sponsorship|QID|1178|M|80.18,75.89|N|From Pozzik.|PRE|1176|
 T Salt Flat Venom|QID|1104|M|78.06,77.13|N|To Fizzle Brassbolts\nNOTE: Do not accept 'Martek the Exiled' (Breadcrumb to the Badlands)|
 T Hardened Shells|QID|1105|M|78.15,77.12|N|To Wizzle Brassbolts.|
-A Encrusted Tail Fins|QID|1107|M|78.15,77.12|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizzle Brassbolts.|PRE|1104&1105|
+A Encrusted Tail Fins|QID|1107|M|78.15,77.12|N|From Wizzle Brassbolts.|PRE|1104&1105|
 T Rocket Car Parts|QID|1110|M|77.79,77.27|Z|Thousand Needles|N|To Kravel Koalbeard.|
 A Hemet Nesingwary Jr.|QID|5762|M|77.79,77.27|N|From Kravel Koalbeard.|
 T The Swarm Grows|QID|1147|M|67.59,63.93|N|To Moktar Krin in Ironstone Camp.|
@@ -563,24 +563,24 @@ C Headhunting|QID|582|M|19.86,11.53|Z|Stranglethorn Vale|L|1532 20|N|Kill Bloods
 C Bloody Bone Necklaces|QID|596|M|20.87,12.18|Z|Stranglethorn Vale|L|3915 25|N|Kill any Bloodscalp to loot them.|US|
 C Singing Blue Shards|QID|605|M|24.76,17.12|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|US|
 R The Vile Reef|ACTIVE|629|M|27.0,18.8;26.54,21.21|Z|Stranglethorn Vale|CC|
-N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant Clams. They may contain a 'Blue Pearl'. It's a quest item that can be sold in the AH, if you don't use them for the 'Pearl Diving' quest.|S!US|IZ|104|
-C Encrusted Tail Fins|QID|1107|M|25.15,24.10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|S|IZ|104|
+N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant Clams. They may contain a 'Blue Pearl'. It's a quest item that can be sold in the AH, if you don't use them for the 'Pearl Diving' quest.|S!US|IZ|104;The Vile Reef|
+C Encrusted Tail Fins|QID|1107|M|24.84,24.28|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]The best way to do this is to kite them to the surface so you don't drown by accident.|S|
 C Tablet Shard|QID|629|M|24.8,22.8|Z|Stranglethorn Vale|QO|1|N|Loot the Tablet Shard. It's leaning against the outside wall.\n[color=FF0000]NOTE: [/color]You can get this without aggroing the 2 Elite mobs on the other side. Swim along the surface to the location and dive straight down.\nIf you do it quick, you'll resurface with 1/3 of your breath left.|NC|
-;l Encrusted Tail Fins|QID|1107|M|25.15,24.10|L|5796 10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|US|IZ|104|
+C Encrusted Tail Fins|QID|1107|M|24.84,24.28|Z|Stranglethorn Vale|L|5796 10|N|Kill Saltscale Murlocs to loot the Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]Kite them to the surface so you don't drown by accident.\nMelee classes, focus on Warriors and Foragers. The others are range attack and may require you to fight underwater.|US|
 R Nesingwary's Expedition|ACTIVE|195|M|35.65,10.66|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
 T Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
 A Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|195|
 T Tiger Mastery|QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-R Grom'gol Base Camp|ACTIVE|582|M|35.55,15.18;38.49,23.63;34.33,28.18|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
+R Grom'gol Base Camp|ACTIVE|582|M|35.5,15.1;38.5,23.6;32.87,28.73|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
 T Headhunting|QID|582|M|32.16,27.72|Z|Stranglethorn Vale|N|To Nimboya.|
 * Leftover Shrunken Heads|AVAILABLE|-582|N|Delete any leftover Shrunken Heads.|U|1532|
 T Bloody Bone Necklaces|QID|596|M|32.28,27.71|Z|Stranglethorn Vale|N|To Kin'weelay.|
 A Bloodscalp Clan Heads|QID|584|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|PRE|582|
 A Trollbane|QID|638|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|
-N Leveling up|QID|638|N|We need to gain a few more levels to continue in STV. Off to Arathi Highlands.|
-F Booty Bay|QID|577|M|32.54,29.35|Z|Stranglethorn Vale|N|To turn in a quest to make room in your log and your bag.|
+N Leveling up|ACTIVE|577|N|We need to gain a few more levels to continue in STV. Off to Arathi Highlands.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Booty Bay|ACTIVE|577|M|32.54,29.35|Z|Stranglethorn Vale|N|To turn in a quest to make room in your log and your bag.|
 T Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
-N Bank/AH|ACTIVE|638|N|Before leaving, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|
+N Bank/AH|ACTIVE|638|N|Before leaving, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|IZ|503;Booty Bay|
 ; --- Kalimdor
 F Grom'gol Base Camp|AVAILABLE|676|M|26.87,77.09|Z|Stranglethorn Vale|
 b Tirisfal Glades|AVAILABLE|676|M|31.57,29.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Undercity.|
@@ -757,7 +757,6 @@ T Mok'thardin's Enchantment|QID|572|M|32.12,29.25|Z|Stranglethorn Vale|N|To Far 
 A Mok'thardin's Enchantment|QID|571|M|32.12,29.25|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|572|
 A Split Bone Necklace|QID|598|M|32.27,27.71|Z|Stranglethorn Vale|N|From Kin'weelay.|PRE|572|
 R The Vile Reef|ACTIVE|1107|M|28.45,23.19|Z|Stranglethorn Vale|N|Make your way to The Vile Reef.|
-C Encrusted Tail Fins|QID|1107|M|26.62,25.56|Z|Stranglethorn Vale|L|5796 10|N|Kill Saltscale Murlocs to loot the Encrusted Tail Fins.\nThe best way to do this is to kite them to the surface so you don't drown by accident.\n This quest is not easy and can be time consuming.\n[color=FF0000]NOTE: [/color]Melee classes, focus on Warriors and Foragers. The others are range attack and will require you to fight underwater.|
 R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|Z|Stranglethorn Vale|CC|N|Make your way to the Bal'lal Ruins.|
 R Ruins of Zul'Kunda|ACTIVE|584|M|30.03,13.07;27.93,11.33|Z|Stranglethorn Vale|CC|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by climbing the hill on the left side and coming down between the wall and the building.|
 K Nezzliok|ACTIVE|584|M|23.26,9.77|Z|Stranglethorn Vale|QO|2|N|Work your way through the center of the Ruins to the ramp on the other side.\nSticking to the tall wall, clear the mobs as you walk up the ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.|
