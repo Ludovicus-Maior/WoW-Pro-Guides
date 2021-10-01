@@ -580,6 +580,7 @@ A Trollbane|QID|638|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|
 ;;N Leveling up|ACTIVE|577|N|We need to gain a few more levels to continue in STV. Off to Arathi Highlands.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 F Booty Bay|ACTIVE|577|M|32.54,29.35|Z|Stranglethorn Vale|N|To turn in a quest to make room in your log and your bag.|
 T Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
+A Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|577|
 
 ;; I am removing this section to reduce some of the experience gain
 ;;N Bank/AH|ACTIVE|638|N|Before leaving, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|IZ|503;Booty Bay|
@@ -663,10 +664,14 @@ T Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzli
 ;;T Bracers of Binding|QID|557|M|61.50,20.93|Z|Hillsbrad Foothills|N|To Keeper Bel'varil.|
 
 ; -- Dustwallow Marsh
-;;F Undercity|AVAILABLE|1251^1268^1269|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
-b Durotar|AVAILABLE|1251^1268^1269|M|31.37,30.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Orgrimmar.|
-F Camp Taurajo|AVAILABLE|1251^1268^1269|M|45.50,63.84|Z|Orgrimmar|
-R Dustwallow Marsh|AVAILABLE|1251^1268^1269|M|28.53,47.18|N|Head east out Camp Taurajo to Southern Gold Road and follow the signs to Dustwallow Marsh.|
+;;F Undercity|AVAILABLE|1268|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
+b Ratchet|AVAILABLE|1268|M|25.87,73.12|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
+F Freewind Post|ACTIVE|1107|M|63.09,37.16|Z|The Barrens|
+R Mirage Raceway|ACTIVE|1107|M|80.34,77.10|N|Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
+T Encrusted Tail Fins|QID|1107|M|78.15,77.12|N|To Wizzle Brassbolts.|
+H Orgrimmar|AVAILABLE|1268|
+F Camp Taurajo|AVAILABLE|1268|M|45.13,63.90|Z|Orgrimmar|
+R Dustwallow Marsh|AVAILABLE|1268|M|28.53,47.18|N|Head east out of Camp Taurajo to Southern Gold Road and follow the signs to Dustwallow Marsh.|
 
 A Suspicious Hoofprints|QID|1268|M|29.70,47.65|Z|Dustwallow Marsh|
 A The Black Shield |QID|1251|M|29.63,48.59|Z|Dustwallow Marsh|
@@ -758,7 +763,6 @@ R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|Stranglethorn Vale|
 T Mok'thardin's Enchantment|QID|572|M|32.12,29.25|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|571|M|32.12,29.25|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|572|
 A Split Bone Necklace|QID|598|M|32.27,27.71|Z|Stranglethorn Vale|N|From Kin'weelay.|PRE|572|
-R The Vile Reef|ACTIVE|1107|M|28.45,23.19|Z|Stranglethorn Vale|N|Make your way to The Vile Reef.|
 R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|Z|Stranglethorn Vale|CC|N|Make your way to the Bal'lal Ruins.|
 R Ruins of Zul'Kunda|ACTIVE|584|M|30.03,13.07;27.93,11.33|Z|Stranglethorn Vale|CC|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by climbing the hill on the left side and coming down between the wall and the building.|
 K Nezzliok|ACTIVE|584|M|23.26,9.77|Z|Stranglethorn Vale|QO|2|N|Work your way through the center of the Ruins to the ramp on the other side.\nSticking to the tall wall, clear the mobs as you walk up the ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.|
@@ -772,7 +776,6 @@ K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|Z|Stranglethorn Va
 
 N Under Construction|QID|9999|N|From this point on, the guide is incomplete.|
 
-;A Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Drizzlik.|PRE|577|
 ;A Scaring Shaky|QID|606|M|27.78,77.07|Z|Stranglethorn Vale|N|From "Sea Wolf" MacKinley.|
 ;A The Bloodsail Buccaneers|QID|595|M|28.09,76.22|Z|Stranglethorn Vale|N|From First Mate Crazz.|
 ;R The Cape of Stranglethorn|QID|595|M|27.95,73.74;29.38,72.85;26.86,73.58|Z|Stranglethorn Vale|CC|N|Head up the ramps to the tunnel and go though it to the other side.|
