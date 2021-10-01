@@ -190,7 +190,7 @@ A At the Yak Wash|QID|30491|PRE|30488|M|74.96,74.52|N|From Muskpaw Jr. \nYou can
 C Fresh Needle Scent|QID|30489|US|M|71.50,70.04|N|Finish killing and looting the Needle Sprite's|
 R Lao & Son's Yakwash|QID|30491|M|75.00,74.53|N|Head back to Lao & Son's Yakwash, you can jump onto Tuffi and have him ride you there if you're still at the back of the cave.|
 C At the Yak Wash|QID|30491|S|N|Locate an Escaped Yak, jump on, then ride it to Lao & Son's Yakwash. Repeat until all six are done.|
-K Burilgi Despoiler|QID|30587|N|Kill and loot a Burilgi Despoiler to obtain a quest.|
+K Burilgi Despoiler|QID|30587|L|80241|N|Kill and loot a Burilgi Despoiler to obtain a quest.|
 A Yakity Yak|QID|30587|PRE|30488|M|71.67,73.56|N|This quest is auto-accepted|
 A The Late Mrs. Muskpaw|QID|30582|U|80241|N|Click the bracelet to obtain this quest.|
 T The Late Mrs. Muskpaw|QID|30582|M|71.30,69.68|N|To Lao Muskpaw. Turn this in when you are delivering a yak, so you can get the next quest, before you finish up 'Yakity Yak'.|
