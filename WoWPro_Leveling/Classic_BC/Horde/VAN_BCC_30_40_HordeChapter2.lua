@@ -577,91 +577,93 @@ T Headhunting|QID|582|M|32.16,27.72|Z|Stranglethorn Vale|N|To Nimboya.|
 T Bloody Bone Necklaces|QID|596|M|32.28,27.71|Z|Stranglethorn Vale|N|To Kin'weelay.|
 A Bloodscalp Clan Heads|QID|584|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|PRE|582|
 A Trollbane|QID|638|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|
-N Leveling up|ACTIVE|577|N|We need to gain a few more levels to continue in STV. Off to Arathi Highlands.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+;;N Leveling up|ACTIVE|577|N|We need to gain a few more levels to continue in STV. Off to Arathi Highlands.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 F Booty Bay|ACTIVE|577|M|32.54,29.35|Z|Stranglethorn Vale|N|To turn in a quest to make room in your log and your bag.|
 T Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
-N Bank/AH|ACTIVE|638|N|Before leaving, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|IZ|503;Booty Bay|
-; --- Kalimdor
-F Grom'gol Base Camp|AVAILABLE|676|M|26.87,77.09|Z|Stranglethorn Vale|
-b Tirisfal Glades|AVAILABLE|676|M|31.57,29.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Undercity.|
-F Tarren Mill|AVAILABLE|676|M|63.26,48.54|Z|Undercity|N|Fly from Undercity to Tarren Mill.|
-A The Hammer May Fall|QID|676|M|61.87,19.57|Z|Hillsbrad Foothills|N|From Tallow.|
 
-; --- Arathi Highlands
-R Arathi Highlands|ACTIVE|676|M|63.32,41.78;81.13,56.04;82.62,57.63|Z|Hillsbrad Foothills|CC|N|Follow the road to Thoradin's Wall in the east. Arathi is on the other side of this wall.|
-R Boulder'gor|ACTIVE|676|M|30.51,49.08|Z|Arathi Highlands|N|Enter Arathi Highlands and follow the road east.|
-;L Level 38|LVL|38|N|You should be around level 38 by this point.|
-C The Hammer May Fall|QID|676|QO|1|N|You'll find the Boulderfist Ogres all around the base of the hill.\nIgnore the Witherbarks.|
-R Boulderfist Outpost|ACTIVE|676|M|34.88,44.21|Z|Arathi Highlands|CC|N|Enter the cave on the north side of the hill.|
-C The Hammer May Fall|QID|676|QO|2|N|You'll find the Boulderfist Enforcers inside the cave.|
-R Hammerfall|ACTIVE|676|M|36.17,52.56;45.26,59.08;51.18,59.63;71.23,42.77|Z|Arathi Highlands|CC|N|Head back to the road and follow it east.|
-A Foul Magics|QID|671|M|74.71,36.30|Z|Arathi Highlands|N|From Tor'gan.|
-A Hammerfall|QID|655|M|72.63,33.94|Z|Arathi Highlands|N|From Gor'mul.|
-f Hammerfall|QID|655|M|73.05,32.68|Z|Arathi Highlands|N|At Urda.|TAXI|-Hammerfall|
-T Trollbane|QID|638|M|73.80,33.96|Z|Arathi Highlands|N|To Zengu.|
-T The Hammer May Fall|QID|676|M|74.25,33.92|Z|Arathi Highlands|N|To Drum Fel.|
-A Call to Arms|QID|677|M|74.25,33.92|Z|Arathi Highlands|N|From Drum Fel.|PRE|676|
-T Hammerfall|QID|655|M|74.71,36.30|Z|Arathi Highlands|N|To Tor'gan.|
-A Raising Spirits|QID|672|M|74.71,36.30|Z|Arathi Highlands|N|From Tor'gan.|PRE|655|
-l Raising Spirits|ACTIVE|672|L|4512 10|S|N|Kill Highland Striders and Thrashers to loot 10 Highland Raptor Eyes.|
-R Shards of Myzrael|AVAILABLE|642|M|62.54,33.77|Z|Arathi Highlands|N|It's in Circle of East Binding, directly west of Hammerfall.|
-A The Princess Trapped|QID|642|M|62.54,33.75|Z|Arathi Highlands|N|Click on Shards of Myzrael to accept the quest.|
-R Witherbark Village|ACTIVE|677|M|67.42,57.10|Z|Arathi Highlands|N|Head straight south to Witherbark Village.|
-C Call to Arms|QID|677|QO|1;2;3|N|Circle around the lake until you finish. Be aware that they run when dying.\nThe Headhunters are closer to the mountains than the lake.|
-R Hammerfall|ACTIVE|677|M|71.23,42.77|Z|Arathi Highlands|N|Head back to Hammerfall.|
-T Call to Arms|QID|677|M|74.25,33.94|Z|Arathi Highlands|N|To Drum Fel.|
-A Call to Arms|QID|678|PRE|677|M|74.25,33.94|Z|Arathi Highlands|N|From Drum Fel.|
-R Drywhisker Gorge|ACTIVE|642|M|73.48,30.38;77.69,35.63;81.06,39.93|Z|Arathi Highlands|CC|N|Exit through the back door and work your way along the mountains to the east side. There is a hidden path that leads up to the cave.|
-C The Princess Trapped|QID|642|L|4435 12|N|As you work your way up the path and into the cave, kill Drywhisker Kobolds, Surveyors and Diggers to loot the Motes of Myzrael.\n[color=FF0000]NOTE: [/color]They run away quickly when they get down to ~30% health. Don't chase them. Stand back and wait for them to return - they don't always pull adds.|
-T The Princess Trapped|QID|642|M|84.32,30.92|Z|Arathi Highlands|N|Click on the Iridescent Shards to turn in the quest.|
-A Stones of Binding|QID|651|M|84.32,30.92|Z|Arathi Highlands|PRE|642|
-R Circle of East Binding|ACTIVE|651|M|71.26,31.80|Z|Arathi Highlands|N|Hang a right as you exit the cave and walk down the hill/cliff. There is less fighting as opposed to going left and down the way you came up.\nCircle behind Hammerfall and make your way to Circle of East Binding.|
-C Stone of East Binding|QID|651|M|66.74,29.68|Z|Arathi Highlands|L|4484|N|Once you have cleared the center stone, click on it to loot the Cresting Key.|
-R Circle of Outer Binding|ACTIVE|651|N|Head SW to the next ring of stones.\nYou'll want to clear this area as you approach. These guys hit hard and multiple pulls are going to be bad.|
-C Stone of Outer Binding|QID|651|M|52.00,50.74|Z|Arathi Highlands|L|4485|N|Go slow and try pulling 1 at a time. Once you have cleared the center stone, click on it to loot the Thundering Key.|
-C Guile of the Raptor|QID|701|L|4513 12|N|Loot 12 Raptor Hearts from Highland Fleshstalkers.|S|
-R Boulderfist Hall|ACTIVE|678|M|51.78,73.59|Z|Arathi Highlands|N|Head south to Boulderfist Hall.|
-C Call to Arms|QID|678|QO|1;2|N|Kill 10 Boulderfist Brutes and 4 Boulderfist Magi.\n[color=FF0000]NOTE: [/color]You'll find more inside the first cave. The second cave (the one set further back) is empty right now.|
-C Guile of the Raptor|QID|701|L|4513 12|N|Finish looting 12 Raptor Hearts from Highland Fleshstalkers.\nWith a drop rate of 33%, this could take some time.|US|
-R Hammerfall|ACTIVE|701|M|71.23,42.77|Z|Arathi Highlands|N|Head back to Hammerfall.|
-T Guile of the Raptor|QID|701|M|74.72,36.28|Z|Arathi Highlands|N|To Tor'gan.|
-A Guile of the Raptor|QID|702|PRE|701|M|74.72,36.28|Z|Arathi Highlands|N|From Tor'gan.|
-T Guile of the Raptor|QID|702|M|72.63,33.92|Z|Arathi Highlands|N|To Gor'mul.|
-A Guile of the Raptor|QID|847|PRE|702|M|72.63,33.92|Z|Arathi Highlands|N|From Gor'mul.|
-T Guile of the Raptor|QID|847|M|74.73,36.29|Z|Arathi Highlands|N|To Tor'gan.|
-T Call to Arms|QID|678|M|74.25,33.92|Z|Arathi Highlands|N|To Drum Fel.|
-R Northfold Manor|ACTIVE|671|M|73.49,30.28;59.86,35.95;49.66,37.17;36.44,30.07|Z|Arathi Highlands|CC|N|Exit Hammerfall from the back door and follow the mountains west.\nThis route is shorter than taking the road. Given your current level, most of the mobs will ignore you (for the most part).|
-C Foul Magics|QID|671|L|4495 10|N|Kill Syndicate Henchmen to loot 10 Bloodstone Amulets.\nThey have a drop rate of 30-35%.|
-C Stone of West Binding|QID|651|M|25.48,30.06|Z|Arathi Highlands|L|4483 1|N|Once you have cleared the center stone, click on it to loot the Burning Key.|
-R Circle of Inner Binding|QID|651|M|39.06,54.52;38.78,55.61|Z|Arathi Highlands|CC|N|Head back to the main road and follow it east.|
-T Stones of Binding|QID|651|M|36.22,57.42|Z|Arathi Highlands|N|Once you have cleared the center stone, click on it to turn in the quest.\n[color=FF0000]NOTE: [/color]Do not pick the follow-up quest. It's an Elite quest that's way above your current level to complete.|
-R Hammerfall|ACTIVE|671|M|51.45,59.31;71.23,42.77|Z|Arathi Highlands|CC|N|Head back to Hammerfall.|
-T Foul Magics|QID|671|M|74.71,36.31|Z|Arathi Highlands|N|To Tor'gan.\n[color=FF0000]NOTE: [/color]Do not pick the follow-up quest. It's an Elite quest that's way above your current level to complete.|
-;L Level 39|LVL|39|N|You should be around level 39 by this point.|
-N Tarren Mill|QID|557|N|We're done with this area. A brief stop in Hillsbrad to complete a few simple quests before heading back to STV.|
-F Tarren Mill|QID|557|M|73.06,32.78|Z|Arathi Highlands|
-A Gol'dir|QID|503|M|63.24,20.66|Z|Hillsbrad Foothills|N|From Krusk.|PRE|533|
-R Strahnbrad|ACTIVE|503|M|55.63,19.55;50.62,56.20;55.34,49.20|Z|Alterac Mountains|CC|N|Exit Tarren Mill to the west and take the road north into Alterac Mountains. Go left at the fork after Gallows' Corner.|
-K Jailor Borhuin|QID|503|M|62.69,40.15|Z|Alterac Mountains|QO|1|N|You'll find him inside the town hall in the far corner.\nEnter the building cautiously and pull the mobs singly as best you can. Wizards will follow the rule of LoS after their first cast. If pulled singly, make sure you get between them and the other mobs. They will back up to maintain range distance, possibly aggroing others.\n[color=FF0000]NOTE: [/color]Do not enter the main room. Pull from the doorway and draw them back to the entrance.|
-T Gol'dir|QID|503|M|60.62,43.87;60.01,43.76|Z|Alterac Mountains|CC|N|Enter the building and work your way upstairs to where Gol'dir is being held.|
-A Blackmoore's Legacy|QID|506|M|60.01,43.76|Z|Alterac Mountains|N|From Gol'dir.|PRE|503|
-R Dalaran|ACTIVE|557^545|M|48.94,71.34;41.51,81.86;29.72,78.88|Z|Alterac Mountains|CS|N|Make your way northwest to Dalaran. Cutting across the plateaus is the fastest way there.\nMake sure to avoid the Alliance outpost.|
-C Bracers of Binding|QID|557|L|3715 4|N|Kill Elemental Slaves to loot 4 Bracers of Earth Binding.|S|
-C Dalaran Patrols|QID|545|QO|1;2|N|Kill 12 Elemental Slaves and 6 Dalaran Summoners.|
-C Bracers of Binding|QID|557|L|3715 4|N|Finish collecting your Bracers of Earth Binding before leaving.|US|
-R Misty Shore|ACTIVE|507|M|23.26,50.44|Z|Alterac Mountains|N|Head north out of Dalaran to Misty Shore.|
-R Dandred's Fold|ACTIVE|507|M|36.91,22.68|Z|Alterac Mountains|N|Follow the shore line north.|
-K Lord Aliden Perenolde|ACTIVE|507|M|39.30,14.32|Z|Alterac Mountains|QO|1|N|Make your way inside the house and upstairs to kill Lord Aliden Perenolde.\nClear the mobs all around the house before entering. The mobs inside the house will run through the walls and bring them with them.\n[color=FF0000]NOTE: [/color]Do not walk directly into the house. You will need to clear it first by pulling. Same goes for the top of the stairs.\nDo not take your time as respawns happen quickly.|
-T Lord Aliden Perenolde|QID|507|M|39.30,14.32|Z|Alterac Mountains|N|To Elysa.|
-A Taretha's Gift|QID|508|M|39.30,14.32|Z|Alterac Mountains|N|From Elysa.|
-K WANTED: Baron Vardus|QID|566|M|47.15,17.95;52.76,21.16;55.26,26.98;57.81,30.84;59.77,44.00|Z|Alterac Mountains|CN|QO|1|N|Check the 4 camps in The Uplands for Baron Vardus. Once you have located him, clear the camp, kill Baron Vardus and loot his head.\nThe Syndicate Saboteurs are range attack and require a clear area for pulling. Baron Vardus is also a Frost caster. He can be LoS kited to a point. Outlast his mana and you should be ok.\n[color=FF0000]NOTE: [/color]If you cannot find him in one of the camps (he has a quick respawn timer), check the basement of the tavern in Strahnbrad.|
-R Tarren Mill|ACTIVE|508^545^557^566|M|62.27,20.27|Z|Hillsbrad Foothills|N|Return to Tarren Mill.|
-T Taretha's Gift|QID|508|M|63.23,20.65|Z|Hillsbrad Foothills|N|To Krusk.|
-T Dalaran Patrols|QID|545|M|61.60,20.85|Z|Hillsbrad Foothills|N|To Magus Wordeen Voidglare.|
-T Bracers of Binding|QID|557|M|61.50,20.93|Z|Hillsbrad Foothills|N|To Keeper Bel'varil.|
+;; I am removing this section to reduce some of the experience gain
+;;N Bank/AH|ACTIVE|638|N|Before leaving, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|IZ|503;Booty Bay|
+;;; --- Kalimdor
+;;F Grom'gol Base Camp|AVAILABLE|676|M|26.87,77.09|Z|Stranglethorn Vale|
+;;b Tirisfal Glades|AVAILABLE|676|M|31.57,29.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Undercity.|
+;;F Tarren Mill|AVAILABLE|676|M|63.26,48.54|Z|Undercity|N|Fly from Undercity to Tarren Mill.|
+;;A The Hammer May Fall|QID|676|M|61.87,19.57|Z|Hillsbrad Foothills|N|From Tallow.|
+
+;;; --- Arathi Highlands
+;;R Arathi Highlands|ACTIVE|676|M|63.32,41.78;81.13,56.04;82.62,57.63|Z|Hillsbrad Foothills|CC|N|Follow the road to Thoradin's Wall in the east. Arathi is on the other side of this wall.|
+;;R Boulder'gor|ACTIVE|676|M|30.51,49.08|Z|Arathi Highlands|N|Enter Arathi Highlands and follow the road east.|
+;;;L Level 38|LVL|38|N|You should be around level 38 by this point.|
+;;C The Hammer May Fall|QID|676|QO|1|N|You'll find the Boulderfist Ogres all around the base of the hill.\nIgnore the Witherbarks.|
+;;R Boulderfist Outpost|ACTIVE|676|M|34.88,44.21|Z|Arathi Highlands|CC|N|Enter the cave on the north side of the hill.|
+;;C The Hammer May Fall|QID|676|QO|2|N|You'll find the Boulderfist Enforcers inside the cave.|
+;;R Hammerfall|ACTIVE|676|M|36.17,52.56;45.26,59.08;51.18,59.63;71.23,42.77|Z|Arathi Highlands|CC|N|Head back to the road and follow it east.|
+;;A Foul Magics|QID|671|M|74.71,36.30|Z|Arathi Highlands|N|From Tor'gan.|
+;;A Hammerfall|QID|655|M|72.63,33.94|Z|Arathi Highlands|N|From Gor'mul.|
+;;f Hammerfall|QID|655|M|73.05,32.68|Z|Arathi Highlands|N|At Urda.|TAXI|-Hammerfall|
+;;T Trollbane|QID|638|M|73.80,33.96|Z|Arathi Highlands|N|To Zengu.|
+;;T The Hammer May Fall|QID|676|M|74.25,33.92|Z|Arathi Highlands|N|To Drum Fel.|
+;;A Call to Arms|QID|677|M|74.25,33.92|Z|Arathi Highlands|N|From Drum Fel.|PRE|676|
+;;T Hammerfall|QID|655|M|74.71,36.30|Z|Arathi Highlands|N|To Tor'gan.|
+;;A Raising Spirits|QID|672|M|74.71,36.30|Z|Arathi Highlands|N|From Tor'gan.|PRE|655|
+;;l Raising Spirits|ACTIVE|672|L|4512 10|S|N|Kill Highland Striders and Thrashers to loot 10 Highland Raptor Eyes.|
+;;R Shards of Myzrael|AVAILABLE|642|M|62.54,33.77|Z|Arathi Highlands|N|It's in Circle of East Binding, directly west of Hammerfall.|
+;;A The Princess Trapped|QID|642|M|62.54,33.75|Z|Arathi Highlands|N|Click on Shards of Myzrael to accept the quest.|
+;;R Witherbark Village|ACTIVE|677|M|67.42,57.10|Z|Arathi Highlands|N|Head straight south to Witherbark Village.|
+;;C Call to Arms|QID|677|QO|1;2;3|N|Circle around the lake until you finish. Be aware that they run when dying.\nThe Headhunters are closer to the mountains than the lake.|
+;;R Hammerfall|ACTIVE|677|M|71.23,42.77|Z|Arathi Highlands|N|Head back to Hammerfall.|
+;;T Call to Arms|QID|677|M|74.25,33.94|Z|Arathi Highlands|N|To Drum Fel.|
+;;A Call to Arms|QID|678|PRE|677|M|74.25,33.94|Z|Arathi Highlands|N|From Drum Fel.|
+;;R Drywhisker Gorge|ACTIVE|642|M|73.48,30.38;77.69,35.63;81.06,39.93|Z|Arathi Highlands|CC|N|Exit through the back door and work your way along the mountains to the east side. There is a hidden path that leads up to the cave.|
+;;C The Princess Trapped|QID|642|L|4435 12|N|As you work your way up the path and into the cave, kill Drywhisker Kobolds, Surveyors and Diggers to loot the Motes of Myzrael.\n[color=FF0000]NOTE: [/color]They run away quickly when they get down to ~30% health. Don't chase them. Stand back and wait for them to return - they don't always pull adds.|
+;;T The Princess Trapped|QID|642|M|84.32,30.92|Z|Arathi Highlands|N|Click on the Iridescent Shards to turn in the quest.|
+;;A Stones of Binding|QID|651|M|84.32,30.92|Z|Arathi Highlands|PRE|642|
+;;R Circle of East Binding|ACTIVE|651|M|71.26,31.80|Z|Arathi Highlands|N|Hang a right as you exit the cave and walk down the hill/cliff. There is less fighting as opposed to going left and down the way you came up.\nCircle behind Hammerfall and make your way to Circle of East Binding.|
+;;C Stone of East Binding|QID|651|M|66.74,29.68|Z|Arathi Highlands|L|4484|N|Once you have cleared the center stone, click on it to loot the Cresting Key.|
+;;R Circle of Outer Binding|ACTIVE|651|N|Head SW to the next ring of stones.\nYou'll want to clear this area as you approach. These guys hit hard and multiple pulls are going to be bad.|
+;;C Stone of Outer Binding|QID|651|M|52.00,50.74|Z|Arathi Highlands|L|4485|N|Go slow and try pulling 1 at a time. Once you have cleared the center stone, click on it to loot the Thundering Key.|
+;;C Guile of the Raptor|QID|701|L|4513 12|N|Loot 12 Raptor Hearts from Highland Fleshstalkers.|S|
+;;R Boulderfist Hall|ACTIVE|678|M|51.78,73.59|Z|Arathi Highlands|N|Head south to Boulderfist Hall.|
+;;C Call to Arms|QID|678|QO|1;2|N|Kill 10 Boulderfist Brutes and 4 Boulderfist Magi.\n[color=FF0000]NOTE: [/color]You'll find more inside the first cave. The second cave (the one set further back) is empty right now.|
+;;C Guile of the Raptor|QID|701|L|4513 12|N|Finish looting 12 Raptor Hearts from Highland Fleshstalkers.\nWith a drop rate of 33%, this could take some time.|US|
+;;R Hammerfall|ACTIVE|701|M|71.23,42.77|Z|Arathi Highlands|N|Head back to Hammerfall.|
+;;T Guile of the Raptor|QID|701|M|74.72,36.28|Z|Arathi Highlands|N|To Tor'gan.|
+;;A Guile of the Raptor|QID|702|PRE|701|M|74.72,36.28|Z|Arathi Highlands|N|From Tor'gan.|
+;;T Guile of the Raptor|QID|702|M|72.63,33.92|Z|Arathi Highlands|N|To Gor'mul.|
+;;A Guile of the Raptor|QID|847|PRE|702|M|72.63,33.92|Z|Arathi Highlands|N|From Gor'mul.|
+;;T Guile of the Raptor|QID|847|M|74.73,36.29|Z|Arathi Highlands|N|To Tor'gan.|
+;;T Call to Arms|QID|678|M|74.25,33.92|Z|Arathi Highlands|N|To Drum Fel.|
+;;R Northfold Manor|ACTIVE|671|M|73.49,30.28;59.86,35.95;49.66,37.17;36.44,30.07|Z|Arathi Highlands|CC|N|Exit Hammerfall from the back door and follow the mountains west.\nThis route is shorter than taking the road. Given your current level, most of the mobs will ignore you (for the most part).|
+;;C Foul Magics|QID|671|L|4495 10|N|Kill Syndicate Henchmen to loot 10 Bloodstone Amulets.\nThey have a drop rate of 30-35%.|
+;;C Stone of West Binding|QID|651|M|25.48,30.06|Z|Arathi Highlands|L|4483 1|N|Once you have cleared the center stone, click on it to loot the Burning Key.|
+;;R Circle of Inner Binding|QID|651|M|39.06,54.52;38.78,55.61|Z|Arathi Highlands|CC|N|Head back to the main road and follow it east.|
+;;T Stones of Binding|QID|651|M|36.22,57.42|Z|Arathi Highlands|N|Once you have cleared the center stone, click on it to turn in the quest.\n[color=FF0000]NOTE: [/color]Do not pick the follow-up quest. It's an Elite quest that's way above your current level to complete.|
+;;R Hammerfall|ACTIVE|671|M|51.45,59.31;71.23,42.77|Z|Arathi Highlands|CC|N|Head back to Hammerfall.|
+;;T Foul Magics|QID|671|M|74.71,36.31|Z|Arathi Highlands|N|To Tor'gan.\n[color=FF0000]NOTE: [/color]Do not pick the follow-up quest. It's an Elite quest that's way above your current level to complete.|
+;;;L Level 39|LVL|39|N|You should be around level 39 by this point.|
+;;N Tarren Mill|QID|557|N|We're done with this area. A brief stop in Hillsbrad to complete a few simple quests before heading back to STV.|
+;;F Tarren Mill|QID|557|M|73.06,32.78|Z|Arathi Highlands|
+;;A Gol'dir|QID|503|M|63.24,20.66|Z|Hillsbrad Foothills|N|From Krusk.|PRE|533|
+;;R Strahnbrad|ACTIVE|503|M|55.63,19.55;50.62,56.20;55.34,49.20|Z|Alterac Mountains|CC|N|Exit Tarren Mill to the west and take the road north into Alterac Mountains. Go left at the fork after Gallows' Corner.|
+;;K Jailor Borhuin|QID|503|M|62.69,40.15|Z|Alterac Mountains|QO|1|N|You'll find him inside the town hall in the far corner.\nEnter the building cautiously and pull the mobs singly as best you can. Wizards will follow the rule of LoS after their first cast. If pulled singly, make sure you get between them and the other mobs. They will back up to maintain range distance, possibly aggroing others.\n[color=FF0000]NOTE: [/color]Do not enter the main room. Pull from the doorway and draw them back to the entrance.|
+;;T Gol'dir|QID|503|M|60.62,43.87;60.01,43.76|Z|Alterac Mountains|CC|N|Enter the building and work your way upstairs to where Gol'dir is being held.|
+;;A Blackmoore's Legacy|QID|506|M|60.01,43.76|Z|Alterac Mountains|N|From Gol'dir.|PRE|503|
+;;R Dalaran|ACTIVE|557^545|M|48.94,71.34;41.51,81.86;29.72,78.88|Z|Alterac Mountains|CS|N|Make your way northwest to Dalaran. Cutting across the plateaus is the fastest way there.\nMake sure to avoid the Alliance outpost.|
+;;C Bracers of Binding|QID|557|L|3715 4|N|Kill Elemental Slaves to loot 4 Bracers of Earth Binding.|S|
+;;C Dalaran Patrols|QID|545|QO|1;2|N|Kill 12 Elemental Slaves and 6 Dalaran Summoners.|
+;;C Bracers of Binding|QID|557|L|3715 4|N|Finish collecting your Bracers of Earth Binding before leaving.|US|
+;;R Misty Shore|ACTIVE|507|M|23.26,50.44|Z|Alterac Mountains|N|Head north out of Dalaran to Misty Shore.|
+;;R Dandred's Fold|ACTIVE|507|M|36.91,22.68|Z|Alterac Mountains|N|Follow the shore line north.|
+;;K Lord Aliden Perenolde|ACTIVE|507|M|39.30,14.32|Z|Alterac Mountains|QO|1|N|Make your way inside the house and upstairs to kill Lord Aliden Perenolde.\nClear the mobs all around the house before entering. The mobs inside the house will run through the walls and bring them with them.\n[color=FF0000]NOTE: [/color]Do not walk directly into the house. You will need to clear it first by pulling. Same goes for the top of the stairs.\nDo not take your time as respawns happen quickly.|
+;;T Lord Aliden Perenolde|QID|507|M|39.30,14.32|Z|Alterac Mountains|N|To Elysa.|
+;;A Taretha's Gift|QID|508|M|39.30,14.32|Z|Alterac Mountains|N|From Elysa.|
+;;K WANTED: Baron Vardus|QID|566|M|47.15,17.95;52.76,21.16;55.26,26.98;57.81,30.84;59.77,44.00|Z|Alterac Mountains|CN|QO|1|N|Check the 4 camps in The Uplands for Baron Vardus. Once you have located him, clear the camp, kill Baron Vardus and loot his head.\nThe Syndicate Saboteurs are range attack and require a clear area for pulling. Baron Vardus is also a Frost caster. He can be LoS kited to a point. Outlast his mana and you should be ok.\n[color=FF0000]NOTE: [/color]If you cannot find him in one of the camps (he has a quick respawn timer), check the basement of the tavern in Strahnbrad.|
+;;R Tarren Mill|ACTIVE|508^545^557^566|M|62.27,20.27|Z|Hillsbrad Foothills|N|Return to Tarren Mill.|
+;;T Taretha's Gift|QID|508|M|63.23,20.65|Z|Hillsbrad Foothills|N|To Krusk.|
+;;T Dalaran Patrols|QID|545|M|61.60,20.85|Z|Hillsbrad Foothills|N|To Magus Wordeen Voidglare.|
+;;T Bracers of Binding|QID|557|M|61.50,20.93|Z|Hillsbrad Foothills|N|To Keeper Bel'varil.|
 
 ; -- Dustwallow Marsh
-F Undercity|AVAILABLE|1251^1268^1269|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
+;;F Undercity|AVAILABLE|1251^1268^1269|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
 b Durotar|AVAILABLE|1251^1268^1269|M|31.37,30.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Orgrimmar.|
 F Camp Taurajo|AVAILABLE|1251^1268^1269|M|45.50,63.84|Z|Orgrimmar|
 R Dustwallow Marsh|AVAILABLE|1251^1268^1269|M|28.53,47.18|N|Head east out Camp Taurajo to Southern Gold Road and follow the signs to Dustwallow Marsh.|
