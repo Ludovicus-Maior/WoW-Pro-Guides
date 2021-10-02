@@ -190,21 +190,21 @@ A At the Yak Wash|QID|30491|PRE|30488|M|74.96,74.52|N|From Muskpaw Jr. \nYou can
 C Fresh Needle Scent|QID|30489|US|M|71.50,70.04|N|Finish killing and looting the Needle Sprite's|
 R Lao & Son's Yakwash|QID|30491|M|75.00,74.53|N|Head back to Lao & Son's Yakwash, you can jump onto Tuffi and have him ride you there if you're still at the back of the cave.|
 C At the Yak Wash|QID|30491|S|N|Locate an Escaped Yak, jump on, then ride it to Lao & Son's Yakwash. Repeat until all six are done.|
-K Burilgi Despoiler|QID|30587|N|Kill and loot a Burilgi Despoiler to obtain a quest.|
-A Yakity Yak|QID|30587|PRE|30488|M|71.67,73.56|N|This quest is auto-accepted|
-A The Late Mrs. Muskpaw|QID|30582|U|80241|N|Click the bracelet to obtain this quest.|
-T The Late Mrs. Muskpaw|QID|30582|M|71.30,69.68|N|To Lao Muskpaw. Turn this in when you are delivering a yak, so you can get the next quest, before you finish up 'Yakity Yak'.|
-A The Fearmaster|QID|30804|PRE|30582|M|71.30,69.68|N|From Lao Muskpaw.|
+A Yakity Yak|QID|30587|PRE|30488|M|71.67,73.56|N|This quest is auto-accepted.|
+K Yakity Yak|ACTIVE|30587|M|69.94,72.81|QO|1|N|Kill the Burilgi Despoilers.|S|
+K Burilgi Despoiler|AVAILABLE|30582|M|70.20,69.40|L|80241|N|Kill Burilgi Despoilers until you loot Muskpaw's Keepsake.|
+A The Late Mrs. Muskpaw|QID|30582|N|Click the bracelet to obtain this quest.|U|80241|O|
+T The Late Mrs. Muskpaw|QID|30582|M|71.30,69.68|N|To Lao Muskpaw.\n[color=FF0000]NOTE: [/color]Turn this in when you are delivering a yak, so you can get the next quest, before you finish up 'Yakity Yak'.|
+A The Fearmaster|QID|30804|M|71.30,69.68|N|From Lao Muskpaw.|PRE|30582|
 T Fresh Needle Scent|QID|30489|M|71.42,69.75|N|To Lao Muskpaw.|
-C Yakity Yak|QID|30587|S|M|69.94,72.81|N|Kill the Burilgi Despoiler's|
-K The Fearmaster|T|The Fearmaster|QO|1|QID|30804|M|68.20,74.70|N|Kill The Fearmaster|
+K The Fearmaster|ACTIVE|30804|M|68.20,74.70|QO|1|N|Kill The Fearmaster|T|The Fearmaster|
 C At the Yak Wash|QID|30491|US|M|71.39,69.05|N|Finish bringing the Escaped Yak to Lao & Son's Yakwash.|
-C Yakity Yak|QID|30587|US|M|69.94,72.81|N|Finish killing the Burilgi Despoiler's|
+K Yakity Yak|ACTIVE|30587|M|69.94,72.81|N|Finish killing the Burilgi Despoilers.|US|
 T Yakity Yak|QID|30587|M|71.42,69.75|N|To Lao Muskpaw.|
-T The Fearmaster|QID|30804|M|71.37,69.64|N|To Lao Muskpaw.|
+T The Fearmaster|QID|30804|M|71.42,69.75|N|To Lao Muskpaw.|
 T At the Yak Wash|QID|30491|M|71.34,69.31|N|To Muskpaw Jr..|
 A Back in Yak|QID|30492|PRE|30491&30587|M|71.33,69.28|N|From Muskpaw Jr..|
-R The Grummle Bazaar|QID|30492|CS|M|69.47,68.93;66.49,66.62;61.6,62.03;65.51,61.26|
+R The Grummle Bazaar|QID|30492|M|69.47,68.93;66.49,66.62;61.6,62.03;65.51,61.26|CS|
 C Back in Yak|QID|30492|M|65.51,61.26|
 T Back in Yak|QID|30492|M|64.71,61.76|N|To Lucky Eightcoins.|
 A A Grummle's Luck|QID|30808|M|64.71,61.76|N|From Lucky Eightcoins.|
