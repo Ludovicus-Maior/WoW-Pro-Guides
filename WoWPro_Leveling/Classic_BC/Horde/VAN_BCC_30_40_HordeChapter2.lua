@@ -682,17 +682,19 @@ f Brackenwall Village|QID|1201|M|35.56,31.88|Z|Dustwallow Marsh|N|At Shardi.|TAX
 T Suspicious Hoofprints|QID|1268|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
 T Lieutenant Paval Reethe|QID|1269|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
 T The Black Shield |QID|1251|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
-A The Black Shield|QID|1321|PRE|1268&1251|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|
+A The Black Shield|QID|1321|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|PRE|1268&1251|
 T The Black Shield|QID|1321|M|36.53,30.79|Z|Dustwallow Marsh|N|To Do'gol.|
-A The Black Shield|QID|1322|PRE|1321|M|36.53,30.79|Z|Dustwallow Marsh|N|From Do'gol.|
-C The Black Shield|QID|1322|M|33.00,22.00|Z|Dustwallow Marsh|L|5959 5|N|Kill Darkfang spiders to collect the Acidic Venom Sacs.|S|
-K Theramore Spies|ACTIVE|1201|M|38.00,26.95|Z|Dustwallow Marsh|QO|1|N|You'll find them outside of the village to the north and south.|
-C The Black Shield|QID|1322|M|33.00,22.00|Z|Dustwallow Marsh|N|Kill Darkfang spiders to collect the Acidic Venom Sacs.|US|
+A The Black Shield|QID|1322|M|36.53,30.79|Z|Dustwallow Marsh|N|From Do'gol.|PRE|1321|
+K Theramore Spies|ACTIVE|1201|M|38.00,26.95|Z|Dustwallow Marsh|QO|1|N|You'll find them outside of the village to the north and south.\n[color=FF0000]NOTE: [/color]Unless you can track invisible, walk around spamming the targetting button and listen for the sound of them cloaking.\nDon't worry about sneak attacks; they are non-aggressive until attacked.|T|Theramore Infiltrator|
+R Darkmist Cavern|ACTIVE|1322|M|35.85,22.88|Z|Dustwallow Marsh|
+C The Black Shield|QID|1322|M|33.00,22.00|Z|Dustwallow Marsh|L|5959 5|N|Kill Darkmist spiders to collect the Acidic Venom Sacs.|
+R Brackenwall Village|ACTIVE|1322^1201|M|35.93,30.69|Z|Dustwallow Marsh|
 T The Black Shield|QID|1322|M|36.53,30.79|Z|Dustwallow Marsh|N|To Do'gol.|
 A The Black Shield|QID|1323|M|36.53,30.79|Z|Dustwallow Marsh|N|From Do'gol.|PRE|1322|
 T The Black Shield|QID|1323|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
 T Theramore Spies|QID|1201|M|35.21,30.66|Z|Dustwallow Marsh|N|To Nazeer Bloodpike.|
 A The Theramore Docks|QID|1202|M|35.21,30.66|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|PRE|1323&1201|
+A The Hermit of Witch Hill|QID|11225|M|37.16,33.09|Z|Dustwallow Marsh|N|From Draz'Zilb inside the cave/Inn.|LEAD|1218|
 R Main Road|ACTIVE|1202|M|39.14,37.96|Z|Dustwallow Marsh|CC|N|Exit Brackenwall from the south and follow the road until it ends at the main road.|
 R North Point Tower|AVAILABLE|1218|M|46.43,22.88|Z|Dustwallow Marsh|N|Follow the main road north/east to the North Point Tower.\n[color=FF0000]NOTE: [/color]Sticking to the road is your best bet. You'll find several mobs to kill along the way.|
 R Witch Hill|AVAILABLE|1218|M|50.88,25.01|Z|Dustwallow Marsh|N|Continue along the road to the Witch Hill.|
@@ -703,8 +705,8 @@ C Hungry!|QID|1177|M|57.27,22.46|Z|Dustwallow Marsh|N|Kill Mirefin Murlocs to co
 R Dreadmurk Shore|ACTIVE|1202|M|57.85,19.01|Z|Dustwallow Marsh|N|Make your way to the Dreadmurk Shore.|
 C Hungry!|QID|1177|M|58.29,17.07|Z|Dustwallow Marsh|N|Kill Mirefin Murlocs to collect the Mirefin Heads.|US|
 R Theramore Isle|ACTIVE|1202|M|66.13,43.56|Z|Dustwallow Marsh|N|Make your way to the Theramore Isle. Follow the shore line the whole way there.\n[color=FF0000]NOTE: [/color]Do not go near the front entrance. This an Alliance city and the guards will kill you.|
-l The Theramore Docks|ACTIVE|1202|M|71.54,51.19|Z|Dustwallow Marsh|L|5882|N|Work your way around the island to the dock at the back. Avoid the guards by the back gate. Locate the Captain's Documents on the ocean floor beneath the dock.\n[color=FF0000]NOTE: [/color]Do not linger in this area, as there are elite sharks in the water.|
-H Orgrimmar|ACTIVE|1202|M|PLAYER|N|Hearth back to Orgrimmar.|
+C The Theramore Docks|QID|1202|M|71.54,51.19|Z|Dustwallow Marsh|L|5882|N|Work your way around the island to the dock at the back. Avoid the guards by the back gate. Locate the Captain's Documents on the ocean floor beneath the dock.\n[color=FF0000]NOTE: [/color]Do not linger in this area, as there are elite sharks in the water.|
+H Orgrimmar|ACTIVE|1202|N|Hearth back to Orgrimmar.|
 B Soothing Spice|ACTIVE|1218|M|47.90,80.33|Z|Orgrimmar|L|3713 3|N|Buy 3 Soothing Spice from Shimra for "Swamp Eye" Jarl.|
 F Brackenwall Village|ACTIVE|1202|M|45.19,63.88|Z|Orgrimmar|N|Head to the flightmaster and take a flight to Brackenwall Village.|
 T The Theramore Docks|QID|1202|M|35.21,30.66|Z|Dustwallow Marsh|N|To Nazeer Bloodpike.|
