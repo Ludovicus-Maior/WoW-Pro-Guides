@@ -671,13 +671,12 @@ R Mirage Raceway|ACTIVE|1107|M|80.34,77.10|N|Leave Freewind Post and follow the 
 T Encrusted Tail Fins|QID|1107|M|78.15,77.12|N|To Wizzle Brassbolts.|
 H Orgrimmar|AVAILABLE|1268|
 F Camp Taurajo|AVAILABLE|1268|M|45.13,63.90|Z|Orgrimmar|
-R Dustwallow Marsh|AVAILABLE|1268|M|28.53,47.18|N|Head east out of Camp Taurajo to Southern Gold Road and follow the signs to Dustwallow Marsh.|
-
-A Suspicious Hoofprints|QID|1268|M|29.70,47.65|Z|Dustwallow Marsh|
-A The Black Shield |QID|1251|M|29.63,48.59|Z|Dustwallow Marsh|
-A Lieutenant Paval Reethe|QID|1269|M|29.82,48.21|Z|Dustwallow Marsh|
-A Hungry!|QID|1177|M|35.16,38.26|Z|Dustwallow Marsh|N|Head From Mudcrush Durtfeet.|
-R Brackenwall Village|ACTIVE|1268^1251^1269|M|34.59,30.63|Z|Dustwallow Marsh|N|Make your way to Brackenwall Village.|
+R Dustwallow Marsh|AVAILABLE|1268|M|28.53,47.18|Z|The Barrens|N|Head east out of Camp Taurajo to Southern Gold Road and follow the signs to Dustwallow Marsh.|
+A Suspicious Hoofprints|QID|1268|M|29.70,47.65|Z|Dustwallow Marsh|N|The hoof prints are on the ground at the Shady Rest Inn near where Inspector Tarem is standing.|
+A The Black Shield |QID|1251|M|29.63,48.59|Z|Dustwallow Marsh|N|Click on the shield hanging over the fire place inside the Inn.|
+A Lieutenant Paval Reethe|QID|1269|M|29.83,48.24|Z|Dustwallow Marsh|N|Click on the Theramore Guard badge found on the boards on the floor of the Inn.|
+A Hungry!|QID|1177|M|35.16,38.26|Z|Dustwallow Marsh|N|From Mudcrush Durtfeet.\n[color=FF0000]NOTE: [/color]Follow the road north from the fork.|
+R Brackenwall Village|ACTIVE|1268^1251^1269|M|34.59,30.63|Z|Dustwallow Marsh|N|Continue following the road north into Brackenwall Village.|
 A Theramore Spies|QID|1201|M|35.21,30.67|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|
 f Brackenwall Village|QID|1201|M|35.56,31.88|Z|Dustwallow Marsh|N|At Shardi.|TAXI|-Brackenwall Village|
 T Suspicious Hoofprints|QID|1268|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
@@ -686,7 +685,7 @@ T The Black Shield |QID|1251|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
 A The Black Shield|QID|1321|PRE|1268&1251|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|
 T The Black Shield|QID|1321|M|36.53,30.79|Z|Dustwallow Marsh|N|To Do'gol.|
 A The Black Shield|QID|1322|PRE|1321|M|36.53,30.79|Z|Dustwallow Marsh|N|From Do'gol.|
-C The Black Shield|QID|1322|M|33.00,22.00|Z|Dustwallow Marsh|N|Kill Darkfang spiders to collect the Acidic Venom Sacs.|S|
+C The Black Shield|QID|1322|M|33.00,22.00|Z|Dustwallow Marsh|L|5959 5|N|Kill Darkfang spiders to collect the Acidic Venom Sacs.|S|
 K Theramore Spies|ACTIVE|1201|M|38.00,26.95|Z|Dustwallow Marsh|QO|1|N|You'll find them outside of the village to the north and south.|
 C The Black Shield|QID|1322|M|33.00,22.00|Z|Dustwallow Marsh|N|Kill Darkfang spiders to collect the Acidic Venom Sacs.|US|
 T The Black Shield|QID|1322|M|36.53,30.79|Z|Dustwallow Marsh|N|To Do'gol.|
