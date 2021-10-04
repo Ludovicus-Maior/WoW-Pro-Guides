@@ -9,12 +9,12 @@ N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
 A The Road to Kun-Lai|QID|31254^31255|N|From Messenger Grummle at the foot of The Veiled Stair in Grassy Cline, Valley of the Four Winds.\n(Also available from other NPCs in Krasarang Wilds and Valley of the Four Winds)|M|70,23.57|Z|Valley of the Four Winds|RANK|2|
 C Speak with the Highroad Grummle|QID|31254^31255|CHAT|QO|1|M|70.08,23.47|Z|Valley of the Four Winds|N|Speak with the Highroad Grummle|RANK|2|
-R Path of a Hundred Steps|QID|31286|N|Head on up the stairs to the Tavern in the Mists via the Path of a Hundred Steps.|M|53.79,87.25|RANK|2|
-R Tavern in the Mists|QID|31286|N|Keep heading up the stairs and path to the Tavern in the Mists|M|56.75,75.82|RANK|2|
-f Tavern in the Mists|QID|31286|M|56.75,75.82|Z|The Veiled Stair|N|At Shin the Weightless.|RANK|2|
-l The Hammer of Folly|QID|31286|L|86473|M|68.53,79.00;74.83,76.39|CS|Z|The Veiled Stair|N|*High Value Rare Loot*\nJust east of the Black Market Action House is an ancient grass covered stairway called the Stairs that lead to nowhere. At the top, known as Mason's Folly, you may find The Hammer of Folly.\nWorth 100 gold when sold to a vendor and a lot of XP when looted.|RANK|3|
+R Path of a Hundred Steps|AVAILABLE|31286|N|Head on up the stairs to the Tavern in the Mists via the Path of a Hundred Steps.|M|53.79,87.25|RANK|2|
+R Tavern in the Mists|AVAILABLE|31286|N|Keep heading up the stairs and path to the Tavern in the Mists|M|56.75,75.82|RANK|2|
+f Tavern in the Mists|AVAILABLE|31286|M|56.75,75.82|Z|The Veiled Stair|N|At Shin the Weightless.|RANK|2|
+l The Hammer of Folly|AVAILABLE|31286|M|68.53,79.00;74.83,76.39|CS|Z|The Veiled Stair|L|86473|N|*High Value Rare Loot*\nJust east of the Black Market Action House is an ancient grass covered stairway called the Stairs that lead to nowhere. At the top, known as Mason's Folly, you may find The Hammer of Folly.\nWorth 100 gold when sold to a vendor and a lot of XP when looted.|RANK|3|
 l Forgotten Lockbox|QID|31867|M|54.71,71.41|Z|The Veiled Stair|N|*High Value Rare Loot*\nUpstairs in the inn.\nWorth around 10 gold and a lot of XP when looted.|RANK|3|
-R The Spring Road|QID|31286|M|53.52,65.78|N|Head up to The Spring Road, north of the Tavern.|
+R The Spring Road|AVAILABLE|31286|M|53.52,65.78|N|Head up to The Spring Road, north of the Tavern.|
 A Robbing Robbers of Robbers|QID|31286|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|RANK|2|
 A Educating Saurok|QID|31287|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|RANK|2|
 C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|N|Pick up any Black Maket Merchandise you see lying on the ground.|RANK|2|S|
@@ -58,7 +58,7 @@ A Free the Dissenters|QID|30967|M|75.13,87.93|N|From Waterspeaker Gorai.|
 C Free the Dissenters|QID|30967|CHAT|S|M|74.40,78.82|N|Talk to the Prisoners to free them.|
 C Repossession|QID|30469|M|73.99,77.54|S|N|Pick up the sparklies on the ground (usually against the buildings).|NC|
 C Enraged Vengeance|QID|30468|M|73.26,77.51|S|N|Kill them as your work your way through the other quests in this area.|
-K Orachi|QID|30496|T|Orachi|L|81385|M|74.39,77.69|N|He's located on the main land beyond the two islands. You have the Blessing of the Inkfill so you can run on the water throughout this area.|
+K Orachi|ACTIVE|30496|M|74.39,77.69|L|81385|N|He's located on the main land beyond the two islands. You have the Blessing of the Inkfill so you can run on the water throughout this area.|T|Orachi|
 T My Son...|QID|30467|M|74.68,76.88|N|To Wu-Peng. He is hiding behind the shell-shaped fence.|
 A Father and Child Reunion|QID|30834|PRE|30467|M|74.68,76.88|N|From Wu-Peng.|
 C Free the Dissenters|QID|30967|US|CHAT|M|74.40,78.82|N|Finish releasing the prisoners by talking to them.|
@@ -120,7 +120,7 @@ A Profiting off of the Past|QID|30595|PRE|31256|M|59.59,78.26|N|From Bao Jian.|
 C Profiting off of the Past|QID|30595|NC|S|M|58.40,74.86|N|Groundspawn as well as dropping from the mobs around here.|
 C Deanimate the Reanimated|QID|30593^30594|S|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
 l Terracotta Head|QID|31422|M|59.2,73.0;57.0,75.5;57.8,76.3;59.2,74.5;58.4,73.5|CC|N|*High Value Rare Loot*\nLocated somewhere in the ruins of Moguija.\nWorth 100 gold when sold to a vendor and lots of XP when looted.|RANK|3|
-K Mogujia Soul-Caller|QID|30619^30620|T|Mogujia Soul-Caller|QO|1|M|58.23,71.21|
+K Mogujia Soul-Caller|ACTIVE|30619^30620|M|58.23,71.21|QO|1|T|Mogujia Soul-Caller|
 C Deanimate the Reanimated|QID|30593^30594|US|M|59.20,72.21|
 C Profiting off of the Past|QID|30595|NC|US|M|58.40,74.86|
 T Profiting off of the Past|QID|30595|M|59.58,78.27|N|To Bao Jian.|
@@ -149,16 +149,16 @@ R Fire Camp Ordo|QID|30657^30652|M|50.50,78.59|
 C Pandaren Prisoners|QID|30655^30650|NC|S|M|49.67,80.36|N|Free the Pandaren Prisoners, they are located throughout Fire Camp Ordo.|
 C Eastern Oil Rig|QID|30656^30651|NC|U|80528|M|51.0,79.4|N|Locate and click on a Explosives Barrel, head to the Eastern Oil Rig and use the Explosives.|QO|1|
 C Southern Oil Rig|QID|30656^30651|S|NC|U|80528|M|49.62,80.99|N|Locate another Explosives Barrel.|QO|2|
-K Musaan the Blazecaster|QID|30657^30652|M|50.42,78.64|N|Kill Musaan the Blazecaster|QO|1|T|Musaan the Blazecaster|
-K Harala the Firespeaker|QID|30657^30652|M|49.44,78.5|N|Kill Harala the Firespeaker|QO|3|T|Harala the Firespeaker|
+K Musaan the Blazecaster|ACTIVE|30657^30652|M|50.42,78.64|N|Kill Musaan the Blazecaster|QO|1|T|Musaan the Blazecaster|
+K Harala the Firespeaker|ACTIVE|30657^30652|M|49.44,78.5|N|Kill Harala the Firespeaker|QO|3|T|Harala the Firespeaker|
 C Southern Oil Rig|QID|30656^30651|US|NC|U|80528|M|49.62,80.99|N|Locate and click another Explosives Barrel, head to the Southern Oil Rig and use the Explosives.|QO|2|
 C Western Oil Rig|QID|30656^30651|S|NC|U|80528|M|49.42,80.61|N|Locate one more Explosives Barrel.|QO|3|
-K Pao-kun the Pyromancer|QID|30657^30652|M|49.17,80.36|N|Kill Pao-kun the Pyromancer|QO|4|T|Pao-kun the Pyromancer|
-K Akonu the Embercaller|QID|30657^30652|M|47.71,79.97|N|Kill Akonu the Embercaller|QO|2|T|Akonu the Embercaller|
+K Pao-kun the Pyromancer|ACTIVE|30657^30652|M|49.17,80.36|QO|4|N|Kill Pao-kun the Pyromancer|T|Pao-kun the Pyromancer|
+K Akonu the Embercaller|ACTIVE|30657^30652|M|47.71,79.97|QO|2|N|Kill Akonu the Embercaller|T|Akonu the Embercaller|
 T In Tents Channeling|QID|30657^30652|N|To UI Alert.|
 A The Ordo Warbringer|QID|30660^30661|N|From UI Alert.|
 C Western Oil Rig|QID|30656^30651|US|NC|U|80528|M|47.87,81.42|N|Locate and click one more Explosives Barrel, head to the Western Oil Rig and use the Explosives.|QO|3|
-K Ordo Warbringer|QID|30661^30660|T|Ordo Warbringer|QO|1|M|48.35,76.69|N|Head to the back of Fire Camp Ordo, and kill Ordo Warbringer, who's at the back of the short cave.|
+K Ordo Warbringer|ACTIVE|30661^30660|M|48.35,76.69|QO|1|N|Head to the back of Fire Camp Ordo, and kill Ordo Warbringer, who's at the back of the short cave.|T|Ordo Warbringer|
 C Pandaren Prisoners|QID|30655^30650|US|FACTION|Alliance|M|49.67,80.36|N|Finish freeing the prisoners.|
 R Westwind Rest|QID|30651|FACTION|Alliance|M|54.17,83.27|N|Head back to Westwind Rest. Careful riding past the Ordo's, they can stun you off your mount.|
 T Barrels of Fun|QID|30651|FACTION|Alliance|M|54.17,83.27|N|To Sully "The Pickle" McLeary.|
@@ -372,7 +372,7 @@ T Revelations|QID|30946|M|62.33,29.06|N|To Lorewalker Cho.|
 A Prophet Khar'zul|QID|31228|PRE|30946|M|62.33,29.06|N|From Lorewalker Cho.|
 C Prophet's Island|QID|31228|M|62.29,29.34|CHAT|N|Speak to Mishi just outside the tarvern on the right hand side, and tell her you're ready to leave. She will whisk you to the Isle of Reckoning.|QO|1|
 C Zandalari Forces|QID|31228|M|76.4,9.2|S|N|Kill the trolls as you make your way through the village.|QO|3|
-K Prophet Khar'zul|QID|31228|M|76.4,9.2|N|Jump onto the table and kill Prophet Khar'zul. Stay on the table throughout the fight to avoid the bad stuff on the floor.|T|Prophet Khar'zul|QO|2|
+K Prophet Khar'zul|ACTIVE|31228|M|76.4,9.2|N|Jump onto the table and kill Prophet Khar'zul. Stay on the table throughout the fight to avoid the bad stuff on the floor.|T|Prophet Khar'zul|QO|2|
 C Zandalari Forces|QID|31228|M|76.17,11.38|US|N|Finish killing the trolls as you head to Mishi.|QO|3|
 F Zouchin Village|QID|31228|M|76.17,11.38|CHAT|N|Talk to Mishi for a ride back to the village. You must NOT be mounted.\nIf he is not there, go back up the stairs to the top and go back down.|
 T Prophet Khar'zul|QID|31228|M|62.33,29.06|N|To Lorewalker Cho.|
@@ -383,7 +383,7 @@ T The Burlap Trail: To Burlap Waystation|QID|30592|M|51.66,67.83|N|To Brother Tr
 A The Rabbitsfoot|QID|30602|PRE|30592|M|51.66,67.83|N|From Brother Trailscenter.|
 C The Rabbitsfoot|QID|30602|NC|M|49.07,70.42|N|Rescue Brother Rabbitsfoot by clicking on him. He is hanging from a tree.|
 A The Broketooth Ravage|QID|30603|PRE|30592|M|49.07,70.42|N|From Brother Rabbitsfoot.|
-K Mo Mo|QID|30603|T|Mo Mo|L|81137|M|48.2,72.8|N|Up the hill, in the cave, there is a treasure chest in the cave also, you probably want to loot it.|
+K Mo Mo|ACTIVE|30603|M|48.2,72.8|QO|1|N|Up the hill, in the cave, there is a treasure chest in the cave also, you probably want to loot it.|T|Mo Mo|
 T The Rabbitsfoot|QID|30602|M|51.97,67.21|N|To Brother Rabbitsfoot, who is now located in The Burlap Waystation.|
 T The Broketooth Ravage|QID|30603|M|51.97,67.21|N|To Brother Rabbitsfoot.|
 A A Monkey Idol|QID|30599|PRE|30602&30603|M|51.97,67.21|N|From Brother Rabbitsfoot.|
@@ -391,11 +391,11 @@ A No Pack Left Behind|QID|30600|PRE|30603|M|51.97,67.21|N|From Brother Rabbitsfo
 A Breaking Broketooth|QID|30604|PRE|30603|M|51.97,67.21|N|From Brother Rabbitsfoot.|
 C Breaking Broketooth|QID|30604|S|M|55.44,70.84|
 C No Pack Left Behind|QID|30600|S|NC|M|53.35,74.45|N|These are sparkly grummle packs lying on the ground.|
-K Hateful Ko Ko|QID|30599|N|Kill Hateful Ko Ko, loot his corpse, then click on Ko Ko's Alter to destroy it.\nUse the Luckydoo to get a big critical strike buff.|T|Hateful Ko Ko|M|52.29,71.43|QO|2|
-K Dak Dak|QID|30599|T|Dak Dak|M|52.29,71.43|N|Kill Dak Dak, loot his corpse, then click on Dak Dak's Altar to destroy it. He wanders inside the cave, there is a skull on the mini-map to show his exact location.|QO|1|
+K Hateful Ko Ko|ACTIVE|30599|M|52.29,71.43|QO|2|N|Kill Hateful Ko Ko, loot his corpse, then click on Ko Ko's Alter to destroy it.\nUse the Luckydoo to get a big critical strike buff.|T|Hateful Ko Ko|
+K Dak Dak|ACTIVE|30599|M|52.29,71.43|QO|1|N|Kill Dak Dak, loot his corpse, then click on Dak Dak's Altar to destroy it. He wanders inside the cave, there is a skull on the mini-map to show his exact location.|T|Dak Dak|
 l Hozen Warrior Spear|QID|31413|M|51.56,73.95|N|*High Value Rare Loot*\nFound in the room adjacent to Dak Dak's alter, sticking out of the big rock that is in the water.\nProvides an i434 BoA Agility Polearm that sells for over 38 gold, and also a lot of XP on looting.|RANK|3|
 R Camp Broketooth|QID|30599|M|55,70|N|Leave the cave, then head to your right and into Camp Broketooth.|
-K Tak Tak|QID|30599|T|Tak Tak|M|56.78,70.97|N|At the back of the camp, kill Tak Tak, loot his corpse, then click on Tak Tak's Altar to destroy it.\nUse the Luckydoo to get a big critical strike buff.|QO|3|
+K Tak Tak|ACTIVE|30599|M|56.78,70.97|QO|3|N|At the back of the camp, kill Tak Tak, loot his corpse, then click on Tak Tak's Altar to destroy it.\nUse the Luckydoo to get a big critical strike buff.|T|Tak Tak|
 C No Pack Left Behind|QID|30600|US|M|53.35,74.45|
 C Breaking Broketooth|QID|30604|US|M|55.44,70.84|
 T A Monkey Idol|QID|30599|M|51.97,67.21|N|To Brother Rabbitsfoot.|
@@ -409,10 +409,10 @@ A The Snackrifice|QID|30608|PRE|30605|M|50.60,64.08|N|From Brother Yakshoe.|
 A Thumping Knucklethump|QID|30606|PRE|30605|M|50.60,64.08|N|From Brother Yakshoe.|
 C Thumping Knucklethump|S|QID|30606|M|50.47,62.78|N|Kill the Silverback Hozen around the Knucklethump Hole.|
 C The Snackrifice|QID|30608|M|50.58,62.54|NC|N|Either click the cages on the ground, or attack the rope from those behind hung up to dry as you make your way to cave at the back.|
-C Thumping Knucklethump|US|QID|30606|M|50.47,62.78|N|Finish killing the Silverback Hozen as you enter and traverse the cave.|
-K Cho Cho the Wicked|QID|30607|S|T|Cho Cho the Wicked|L|80535|M|48.82,59.66|N|In the back of the cave, kill Cho Cho and loot his key.|
+C Thumping Knucklethump|QID|30606|M|50.47,62.78|N|Finish killing the Silverback Hozen as you enter and traverse the cave.|US|
+K Cho Cho the Wicked|QID|30607|L|80535|M|48.82,59.66|N|In the back of the cave, kill Cho Cho and loot his key.|T|Cho Cho the Wicked|S|
 l Hozen Treasure Cache|QID|31414|M|49.5,59.4|N|*High Value Rare Loot*\nFound at the back of the cave at Knucklethump Hole.\nGives over 99 gold and a lot of XP on looting.|RANK|3|
-K Cho Cho the Wicked|QID|30607|US|T|Cho Cho the Wicked|L|80535|M|48.82,59.66|N|In the back of the cave, kill Cho Cho and loot his key. Click on the lock to release Poot Poot. Poot Poot gives you a ride out.|
+K Cho Cho the Wicked|ACTIVE|30607|L|80535|M|48.82,59.66|N|In the back of the cave, kill Cho Cho and loot his key. Click on the lock to release Poot Poot. Poot Poot gives you a ride out.|T|Cho Cho the Wicked|US|
 C Hozen Love Their Keys|QID|30607|M|49.00,59.28|NC|N|Click on the lock to release Poot Poot. Poot Poot will give you a ride back to The Burlap Waystation.|QO|2|
 T Hozen Love Their Keys|QID|30607|M|52.02,67.18|N|To Brother Yakshoe.|
 T The Snackrifice|QID|30608|M|52.02,67.18|N|To Brother Yakshoe.|
