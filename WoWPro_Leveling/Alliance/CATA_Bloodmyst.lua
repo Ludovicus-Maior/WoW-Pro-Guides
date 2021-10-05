@@ -22,12 +22,12 @@ A What Argus Means to Me |QID|9693|M|52.67,53.21|N|From Exarch Admetius.|
 T What Argus Means to Me |QID|9693|M|55.39,55.27|N|To Vindicator Boros.|
 A Blood Watch |QID|9694|PRE|9693|M|55.39,55.27|N|From Vindicator Boros.|
 f Blood Watch |QID|9634|M|57.69,53.92|N|Get the flight path for Blood Watch.|
-A Mac'Aree Mushroom Menagerie|QID|9648|M|56.4,56.8|N|From Jessera of Mac'Aree.|
+A Maatparm Mushroom Menagerie|QID|9648|M|56.4,56.8|N|From Maatparm.|
 A WANTED: Deathclaw|QID|9646|M|55.2,59.1|N|From the Wanted Board outside the Inn.|
 h Blood Watch |QID|9624|M|55.84,59.80|N|Set hearthstone to Blood Watch with Caregiver Topher Loaal.|
-C Mac'Aree Mushroom Menagerie|QID|9648|QO|2|N|Obtain a Blood Mushroom, they are small and glow red.|M|59,60|CN|
-C Mac'Aree Mushroom Menagerie|QID|9648|QO|1|N|Obtain an Aquatic Sinkhorn from Stinkhorn Striker in the Blood River.|M|63.75,62.90|CN|
-C Mac'Aree Mushroom Menagerie|QID|9648|QO|3|N|Obtain a Ruinous Polyspore, they are black/grey and tan.|M|67,66|CN|
+C Maatparm Mushroom Menagerie|QID|9648|QO|2|N|Obtain a Blood Mushroom, they are small and glow red.|M|59,60|CN|
+C Maatparm Mushroom Menagerie|QID|9648|QO|1|N|Obtain an Aquatic Sinkhorn from Stinkhorn Striker in the Blood River.|M|63.75,62.90|CN|
+C Maatparm Mushroom Menagerie|QID|9648|QO|3|N|Obtain a Ruinous Polyspore, they are black/grey and tan.|M|67,66|CN|
 ; [aldavor] also check this, not auto closing
 C Declaration of Power|QID|9666|QO|1|M|68.8,67.3|N|Kill Lord Xiz.|CN|
 C Declaration of Power|QID|9666|QO|2|U|24084|M|68.8,67.3|N|Plant the banner at the corpse of Lord Xiz.|CN|
@@ -47,7 +47,7 @@ A Report to Exarch Admetius|QID|9668|LEAD|9693|PRE|9666|M|62.99,87.54|N|From Kes
 C Catch and Release|QID|9629|U|23995|M|43.8,93.3|N|Use the Murloc Tagger on 6 Blacksilt Scouts.|S|
 A Cruelfin's Necklace|QID|9576|L|23870|N|Find and kill cruelfin, then loot the Red Crystal Pendant and accept the quest it gives. He patrols along the south coast, spawning on the east side.|M|49.5,94.8;34.6,93.1|T|Cruelfin|CN|
 C Catch and Release|QID|9629|U|23995|M|43.8,93.3|N|Continue to use the Murloc Tagger on 6 Blacksilt Scouts.|US|
-C Mac'Aree Mushroom Menagerie|QO|4|QID|9648|M|44,78;35,79|N|Obtain a Fel Cone Fungus. They're kind of grey brown in comparison to the rest of the mushrooms they're with.|CN|
+C Maatparm Mushroom Menagerie|QO|4|QID|9648|M|44,78;35,79|N|Obtain a Fel Cone Fungus. They're kind of grey brown in comparison to the rest of the mushrooms they're with.|CN|
 H Blood Watch |QID|9576|N|Hearth back to Blood Watch.|M|55.84,59.80|
 T Cruelfin's Necklace|QID|9576|M|53.25,57.75|N|To Morae.|
 T Catch and Release |QID|9629|M|53.25,57.75|N|To Morae.|
@@ -57,7 +57,7 @@ T Learning from the Crystals|QID|9581|M|52.60,53.22|N|To Harbringer Mikolaas.|
 A The Missing Survey Team|QID|9620|PRE|9581|M|52.60,53.22|N|From Harbringer Mikolaas.|
 T Report to Exarch Admetius |QID|9668|M|52.68,53.22|N|To Exarch Admetius.|
 T Saving Princess Stillpine|QID|9667|M|55.15,55.99|N|To Stillpine Ambassador Frasaboo.|
-T Mac'Aree Mushroom Menagerie|QID|9648|M|56.42,56.83|N|To Jessera of Mac'Aree.|
+T Maatparm Mushroom Menagerie|QID|9648|M|56.42,56.83|N|To Maatparm.|
 T The Missing Survey Team|QID|9620|N|To the corpse of the Draenei Cartographer.|M|61.23,48.38|
 A Salvaging the Data|QID|9628|PRE|9620|N|From the corpse of the Draenei Cartographer.|M|61.23,48.38|
 C Salvaging the Data|QID|9628|N|Kill Nagas until the Survey Data Crystal Drops.|M|61.23,48.38|
@@ -194,7 +194,7 @@ N Go train your skills |QID|9671|N|Train skills, then restock on food/water, etc
 A Urgent Delivery|QID|9671|PRE|9506|N|From Messenger Hermesius, who walks all over Blood Watch.|
 N Check your mailbox|QID|9561|N|Urgent Delivery results in a mail sent to your mailbox. Close this when mail obtained.|L|24132|M|55.18,59.19|
 A The Bloodcurse Legacy|QID|9672|PRE|9671|U|24132|N|From A Letter from the Admiral.|
-A Ysera's Tears|QID|9649|PRE|9648|M|56.4,56.8|N|From Jessera of Mac'Aree.|
+A Ysera's Tears|QID|9649|PRE|9648|M|56.4,56.8|N|From Maatparm.|
 T Nolkai's Words|QID|9561|N|It's a pile of dirt.|M|61.2,49.7|
 A Restoring Sanctity|QID|9687|M|73.7,33.7|N|From Prince Toreth. He pats around the area.|
 T The Bloodcurse Legacy|QID|9672|N|To Captain Edward Hanes.|M|79.14,22.66|
@@ -219,7 +219,7 @@ T Razormaw|QID|9689|N|To Prince Toreth.|M|73.7,33.7|
 C Ending the Bloodcurse|QID|9683|N|Clear the top of the hill, then click the statue, and kill Atoph the Bloodcursed|M|85,54|
 T Ending the Bloodcurse|QID|9683|N|To Captain Edward Hanes.|M|79.14,22.66|
 H Blood Watch|QID|9649|N|Hearth back to Blood Watch.|U|6948|
-T Ysera's Tears|QID|9649|N|To Jessera of Mac'Aree.|M|56.4,56.8|
+T Ysera's Tears|QID|9649|N|To Maatparm.|M|56.4,56.8|
 r Repair/Restock |QID|9740|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 N Non-Draenei races|QID|9740|N|Non-Draenei have only one more available quest on bloodmyst. Decide if you are interested, if not, just follow the next guide.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
 F The Exodar|QID|9740|N|Fly to The Exodar to train your riding skill. Skip this step if you already have it.|R|Draenei|M|57.68,53.89|
