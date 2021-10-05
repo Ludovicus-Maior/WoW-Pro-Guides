@@ -146,7 +146,7 @@ T Explorers' League Document (4 of 6)|QID|13658|M|37.18,47.75|N|To Torren Square
 T Explorers' League Document (5 of 6)|QID|13660|M|37.18,47.75|N|To Torren Squarejaw.|
 T Explorers' League Document (6 of 6)|QID|13659|M|37.18,47.75|N|To Torren Squarejaw.|
 F Farstrider Lodge|QID|27031|M|33.96,50.88|N|Fly to Farstrider Lodge.|
-h Farstrider Lodge|QID|27031|M|33.96,50.88|N|At Vyrin Swiftwind.|
+h Farstrider Lodge|QID|27031|M|81.91,64.60|N|At Vyrin Swiftwind.|
 T Wing Nut|QID|27031|M|81.68,64.66|N|To Bingles Blastenheimer.|
 A Bird is the Word|QID|27032|M|81.70,64.63|N|From Bingles Blastenheimer.|PRE|27031|
 T Thistle While You Work|QID|27025|M|82.86,63.50|N|To Safety Warden Pipsy.|
