@@ -127,13 +127,13 @@ A The Legend of Stalvan|QID|75|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Haggard.
 C The Legend of Stalvan|QID|75|M|85.71,69.53|Z|Elwynn Forest|N|In the building upstairs, within Marshal Haggard's Chest on the ground.|
 T The Legend of Stalvan|QID|75|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Haggard.|
 A The Legend of Stalvan|QID|78|M|84.6,69.4|Z|Elwynn Forest|N|From Marshal Haggard.|PRE|75|
-T The Legend of Stalvan|QID|78|M|73.79,44.49|N|To Tavernkeep Smitts.|
-A The Legend of Stalvan|QID|79|M|73.79,44.49|N|From Tavernkeep Smitts.|PRE|78|
-T The Legend of Stalvan|QID|79|M|73.56,46.85|N|To Commander Althea Ebonlocke.|
-A The Legend of Stalvan|QID|80|M|73.56,46.85|N|From Commander Althea Ebonlocke.|PRE|79|
-T The Legend of Stalvan|QID|80|M|72.5,46.8|N|To Clerk Daltry.|
-A The Legend of Stalvan|QID|97|M|72.5,46.8|N|From Clerk Daltry.|PRE|80|
-T The Legend of Stalvan|QID|97|M|73.56,46.85|N|To Commander Althea Ebonlocke. Don't get follow up for now.|
+T The Legend of Stalvan|QID|78|M|73.79,44.49|Z|Duskwood|N|To Tavernkeep Smitts.|
+A The Legend of Stalvan|QID|79|M|73.79,44.49|Z|Duskwood|N|From Tavernkeep Smitts.|PRE|78|
+T The Legend of Stalvan|QID|79|M|73.56,46.85|Z|Duskwood|N|To Commander Althea Ebonlocke.|
+A The Legend of Stalvan|QID|80|M|73.56,46.85|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|79|
+T The Legend of Stalvan|QID|80|M|72.50,46.80|Z|Duskwood|N|To Clerk Daltry.|
+A The Legend of Stalvan|QID|97|M|72.50,46.80|Z|Duskwood|N|From Clerk Daltry.|PRE|80|
+T The Legend of Stalvan|QID|97|M|73.56,46.85|Z|Duskwood|N|To Commander Althea Ebonlocke. Don't get follow up for now.|
 A The Legend of Stalvan|QID|98|M|73.56,46.85|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|97|
 C The Legend of Stalvan|QID|98|M|77.3,36.2|Z|Duskwood|T|Stalvan Mistmantle|N|Kill Stalvan Mistmantle.|
 T The Legend of Stalvan|QID|98|M|75.8,45.31|Z|Duskwood|N|To Madam Eva.|
