@@ -697,10 +697,19 @@ A The Theramore Docks|QID|1202|M|35.21,30.66|Z|Dustwallow Marsh|N|From Nazeer Bl
 A The Hermit of Witch Hill|QID|11225|M|37.16,33.09|Z|Dustwallow Marsh|N|From Draz'Zilb inside the cave/Inn.|LEAD|1218|
 R Main Road|ACTIVE|1202|M|39.14,37.96|Z|Dustwallow Marsh|CC|N|Exit Brackenwall from the south and follow the road until it ends at the main road.|
 R North Point Tower|AVAILABLE|1218|M|46.43,22.88|Z|Dustwallow Marsh|N|Follow the main road north/east to the North Point Tower.\n[color=FF0000]NOTE: [/color]Sticking to the road is your best bet. You'll find several mobs to kill along the way.|
-R Witch Hill|AVAILABLE|1218|M|50.88,25.01|Z|Dustwallow Marsh|N|Continue along the road to the Witch Hill.|
+R Witch Hill|AVAILABLE|1218|M|50.88,25.01|Z|Dustwallow Marsh|N|Continue along the road to Witch Hill.|
 R Swamplight Manor|AVAILABLE|1218|M|55.17,26.96|Z|Dustwallow Marsh|N|Continue east to the Swamplight Manor. There is a road leading north from the main road to the house.|
+T The Hermit of Witch Hill|QID|11225|M|55.43,26.26|Z|Dustwallow Marsh|N|To "Swamp Eye" Jarl.|
 A Marsh Frog Legs|QID|1218|M|55.43,26.26|Z|Dustwallow Marsh|N|From "Swamp Eye" Jarl.|
-A The Lost Report|QID|1238|M|55.44,25.92|Z|Dustwallow Marsh|N|From the dirt pile beside the house.|
+A What's Haunting Witch Hill?|QID|11180|M|55.58,26.14|Z|Dustwallow Marsh|N|From Mordant Grimsby.\n[color=FF0000]NOTE: [/color]Periodically, he travels outside the cabin to talk to Jarl and returns inside.|
+A The Lost Report|QID|1238|M|55.44,25.92|Z|Dustwallow Marsh|N|From the 'Loose Dirt' beside the house.|
+C Marsh Frogs|ACTIVE|1218|M|55.93,25.31|Z|Dustwallow Marsh|L|33202 10|N|Kill Marsh Frogs to loot their legs.|S|
+K Risen Husks/Spirits|ACTIVE|11180|M|55.93,25.31|Z|Dustwallow Marsh|QO|1|N|Gather information by killing the Risen Husks or Spirits found all around the area.\n[color=FF0000]NOTE: [/color]If you are using a pet, make sure you put them on passive before the Risen dies because you have to land the killing blow.|
+T What's Haunting Witch Hill?|QID|11180|M|55.58,26.14|Z|Dustwallow Marsh|N|To Mordant Grimsby.|
+A The Witch's Bane|QID|11181|M|55.58,26.14|Z|Dustwallow Marsh|N|From Mordant Grimsby.|PRE|11180|
+C The Witch's Bane|QID|11181|L|33112 9|N|
+T The Witch's Bane|QID|11181|M|55.58,26.14|Z|Dustwallow Marsh|N|To Mordant Grimsby.|
+C Marsh Frogs|ACTIVE|1218|M|55.93,25.31|Z|Dustwallow Marsh|L|33202 10|N|Kill Marsh Frogs to loot their legs.|US|
 C Hungry!|QID|1177|M|57.27,22.46|Z|Dustwallow Marsh|N|Kill Mirefin Murlocs to collect the Mirefin Heads.|S|
 R Dreadmurk Shore|ACTIVE|1202|M|57.85,19.01|Z|Dustwallow Marsh|N|Make your way to the Dreadmurk Shore.|
 C Hungry!|QID|1177|M|58.29,17.07|Z|Dustwallow Marsh|N|Kill Mirefin Murlocs to collect the Mirefin Heads.|US|
