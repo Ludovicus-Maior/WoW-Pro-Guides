@@ -11,22 +11,22 @@ return [[
 ; $ Stylish Parasol|CS|M|42.04,47.03;38.63,44.36|Z|Revendreth|N|WH - Treasure on Castle Wall, use elevator at 1st Coords.|ITEM|182694|ACH|14314;2|
 ; $ Rapier of the Fearless|M|79.9,37.0|Z|Revendreth|N|WH - North-East of Halls of Atonement FP, after picking up Mobs Spawn.|ITEM|182689|ACH|14314;4|
 ; $ Forbidden Chamber|Z|Revendreth|ACH|14314;8|
-; $ Fleeing Soul's Bundle|QID|59886|M|46.42,58.12|Z|Revendreth|N|On wall above Stalker's Lodge, jump from nearby eleveator (43.53,59.50)|ACH|14314;14|
+; $ Fleeing Soul's Bundle|QID|59886|M|46.42,58.12|Z|Revendreth|N|On wall above Stalker's Lodge, jump from nearby elevator (43.53,59.50)|ACH|14314;14|
 
 ; List of Rares in Revendreth, ones listed here are just info, so if you find them, you can put where it flows better and expand on the info. WH=WowHead
 ; K Soulstalker Doina|M|78.11,49.70|Z|Revendreth|T|Soulstalker Doina|N|WH - Tower above the Atonement Entrance, Her two hounds assist her. At 75% and 40% she runs through the portal, Chase her. Watch out for traps in large room.|RARE|ACH|14310;1|
 ; K Innervus|M|21.78.36.03|Z|Revendreth|T|Innervus|N|WH - Bottom level of crypt. Need Scorched Crypt Key from Feral Ritualist in area.|ITEM|183735|RARE|ACH|14310;3|
-; K Stonefist|M|30.64,22.45|Z|Revendreth|T|Stonefist|N|WH - Fattest mob in Revendreth, 943k HP, Hits hard, long cast AOEs.|ITEM|180488|RARE|ACH|14310;5|
+; K Stonefist|M|30.64,22.45|Z|Revendreth|T|Stonefist|N|WH - Fattest mob in Revendreth, 943k HP, Hits hard, long cast AoEs.|ITEM|180488|RARE|ACH|14310;5|
 ; K Lord Mortegore|M|75.53,60.82|Z|Revendreth|T|Lord Mortegore|N|WH - Collect Mortegore Scrolls (4) from random mobs in area, to activate the 4 sigils in the area to activate Rare.|RARE|ACH|14310;9|
 ; K Famu the Infinite|M|62.51,47.18|Z|Revendreth|T|Famu the Infinite|N|WH - Speak to Seeker Hilda to start event, if you die, Rare attacks Hilda until she dies.|ITEM|180582|RARE|ACH|14310;15|
 ; K Hopecrusher|M|51.06,52.87|Z|Revendreth|T|Hopecrusher|N|WH - Tough one, Main danger is Enrage, hits like crazy when enraged.|RARE|ACH|14310;17|
 ; K Executioner Aatron|M|37.11,47.95|Z|Revendreth|T|Executioner Aatron|N|WH - Shatter all 3 Stone Legion Punishers along castle wall.|ITEM|183737|RARE|ACH|14310;19|
-; K Amalgamation of Sin|M|65.86,29.08|Z|Revendreth|T|Amalgamation of Sin|N|Requres !WQ "Summon You Sins." When making the potion choose the "catalyst of power" then you have a chance of recieving a blue quality item that can summon the rare.|RARE|ACH|14310;23|
-; K Tomb Burster|QID|59612|M|43.10,79.20|Z|Revendreth|T|Tomb Burster|N|Funguss, (webbed NPC) must be up. Break all spider eggs around the webbed NPC, until zone emote saying 'The sound of a massive crawler rings in teh distance' then fight through 3 waves of spiders: 2 - 3 - 4.|RARE|ACH|14310;4|
+; K Amalgamation of Sin|M|65.86,29.08|Z|Revendreth|T|Amalgamation of Sin|N|Requires !WQ "Summon You Sins." When making the potion choose the "catalyst of power" then you have a chance of receiving a blue quality item that can summon the rare.|RARE|ACH|14310;23|
+; K Tomb Burster|QID|59612|M|43.10,79.20|Z|Revendreth|T|Tomb Burster|N|Funguss, (webbed NPC) must be up. Break all spider eggs around the webbed NPC, until zone emote saying 'The sound of a massive crawler rings in the distance' then fight through 3 waves of spiders: 2 - 3 - 4.|RARE|ACH|14310;4|
 ; K Worldedge Gorger|M|38.62,72.21|Z|Revendreth|T|Worldedge Gorger|N|WH - Use Enticing Anima to lit worldedge braziers, drop form worldeater rift mobs along the river.|ITEM|180583|RARE|ACH|14310;6|
 ; K Executioner Adrastia|M|43.73,51.24|Z|Revendreth|T|Executioner Adrastia|N|WH - Flies around the central platform in the middle of Darkwall Tower. Pull carefully to not aggro mobs.|ITEM|180502|RARE|ACH|14310;8|
 ; K Amalgamation of Filth|M|52.70,73.27|Z|Revendreth|T|Amalgamation of Filth|N|WH - Giant elemental in pool, usually fighting Muckmaster Rotjaw.|RARE|ACH|14310;14|
-; K Azgar|M|35.48,68.70|Z|Revendreth|T|Azgar|N|WH - Annoying Rare, casts shield at 70% and 30%, and blinks.  Overkill sheild to collapse.|ITEM|183731|RARE|ACH|14310;16|
+; K Azgar|M|35.48,68.70|Z|Revendreth|T|Azgar|N|WH - Annoying Rare, casts shield at 70% and 30%, and blinks.  Overkill shield to collapse.|ITEM|183731|RARE|ACH|14310;16|
 ; K Bog Beast|QID|59823|M|36.19,32.92|Z|Revendreth|T|Bog Beast|N|Requires !WQ "Muck It Up" to be active. Toss Primordial Muck into water to spawn rare mob.  Muck drops off slimes killed for WQ|ITEM|180588|RARE|ACH|14310;18|
 ; K Huntmaster Petrus|M|61.89,78.50|Z|Revendreth|T|Huntmaster Petrus|N|Rare found down some stairs and under a porch within the ruined castle two dogs assist him, Kill dogs first!|ITEM|180705|RARE|ACH|14310;20|LVL|60|;not a silver if not lvl 60.
 ; K Manifestation of Wrath|M|49.84,35.02|Z|Revendreth|T|Manifestation of Wrath|N|WH - WQ! Swarming Souls, needed.  During quest you deliver souls to Avowed Ritualist, rare has a chance to spawn after a delivering.|RARE|ACH|14310;22
@@ -66,7 +66,7 @@ T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 N Choose Bastion|PRE|62275|LEAD|62723|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|TOF|
 N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|TOF|
 N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|TOF|
-N World Quests|QID|62778|N|WQs are available since you have chosen the Threads of Fate option. They are however not included in the guide and there is no way to predict which one is available on any given day. So, I recomend you do them, but you are on your own as to how and where.|TOF|
+N World Quests|QID|62778|N|WQs are available since you have chosen the Threads of Fate option. They are however not included in the guide and there is no way to predict which one is available on any given day. So, I recommend you do them, but you are on your own as to how and where.|TOF|
 N Use of Ranks|QID|62778|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives. Rank 1, basically leaves you explore on your own when you accept a quest it will jump to there and give you directions on completion and turn in.|TOF|
 N Rank 1|ACTIVE|62778|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|TOF|
 
@@ -75,7 +75,7 @@ A A Plea to Revendreth|QID|57025|M|48.82,60.04|Z|Ring of Fates@Oribos|N|From Tal
 C A Plea to Revendreth|QID|57025|M|35.19,51.66|Z|Ring of Transference@Oribos|QO|1|NC|N|Click on the Ancient Focus to activate the gateway to Revendreth.|MS|
 C A Plea to Revendreth|QID|57025|M|34.16,53.16|Z|Ring of Transference@Oribos|QO|2|CHAT|N|Speak to Roh-Avonavi to Travel to Revendreth.|MS|
 N Use of Ranks|QID|57025|S!US|N|Setting the guide to Rank 1 will direct you to all main story line quests. It will not direct you to optional quests, however, if you pick one up it will direct you where to complete and turn in. Rank 2 takes you to all the side quests, There is nothing set to Rank 3 in this guide.|MS|
-N Rares|ACH|14310|N|Shadowlands silver elites and a few of the treasures are on a longer respawn timer than in previous expansions. If after checking for them, you don't want to hang around waiting (up to half an hour) check the step off manually. If you don't want to see guide instructions on rares or treasures, uncheck the boxes on WowPro-Display settings. Rares in Shadowlands often don't have staightforward methods of activating, so the guide will help with that.|
+N Rares|ACH|14310|N|Shadowlands silver elites and a few of the treasures are on a longer respawn timer than in previous expansions. If after checking for them, you don't want to hang around waiting (up to half an hour) check the step off manually. If you don't want to see guide instructions on rares or treasures, uncheck the boxes on WowPro-Display settings. Rares in Shadowlands often don't have straightforward methods of activating, so the guide will help with that.|
 T A Plea to Revendreth|QID|57025|M|70.00,82.63|Z|Revendreth|N|To Rendle.|MS|
 A The Sinstone|QID|57026|M|70,82.6|Z|Revendreth|N|From Rendle.|LVL|57|PRE|57025|MS|
 f Pridefall Hamlet|ACTIVE|57026|M|70.31,81.01|Z|Revendreth|N|Grab the Flightpath from Courier Gevoraal.|MS|
@@ -141,11 +141,11 @@ T Running a Muck|QID|57481|M|72.53,73.20|Z|Revendreth|N|To Rendle.|MS|
 ; Welcome to Revendreth Storyline - Continued
 C Rebels on the Road|QID|56955|M|66.4,64.4|Z|Revendreth|N|Kill the Stoneborn Rebels.|S|MS|
 A Words Have Power|QID|58272|M|67.74,67.66|Z|Revendreth|N|From Join the Rebellion poster.|RANK|2|ACTIVE|-62778|
-C Words Have Power|QID|58272|M|67.74,67.66|Z|Revendreth|S|NC|N|Collect the pamplets stuck to the wall in the area.|ACTIVE|-62778|
+C Words Have Power|QID|58272|M|67.74,67.66|Z|Revendreth|S|NC|N|Collect the pamphlets stuck to the wall in the area.|ACTIVE|-62778|
 C Anima Attrition|QID|58433|M|68.76,63.73|Z|Revendreth|NC|N|Click on the Anima Canister to collect it.|MS|
 $ Wayfarer's Abandoned Spoils|QID|59884|CS|M|67.93,64.51;68.45,64.43|Z|Revendreth|N|Walk on the Bounding Shroom to be shot up in the air. Aim yourself to come down on the ledge where the treasure is.|ACH|14314;12|ACTIVE|-62778|
 C Rebels on the Road|QID|56955|M|66.4,64.4|Z|Revendreth|N|Kill the Stoneborn Rebels.|US|MS|
-C Words Have Power|QID|58272|M|67.27,66.00|Z|Revendreth|US|NC|N|Finish collecting the pamplets stuck to the wall in the area.|ACTIVE|-62778|
+C Words Have Power|QID|58272|M|67.27,66.00|Z|Revendreth|US|NC|N|Finish collecting the pamphlets stuck to the wall in the area.|ACTIVE|-62778|
 T Rebels on the Road|QID|56955|M|66.87,64.72|Z|Revendreth|N|To Lord Chamberlain.|MS|
 T Anima Attrition|QID|58433|M|66.87,64.72|Z|Revendreth|N|To Lord Chamberlain.|MS|
 T Words Have Power|QID|58272|M|66.87,64.72|Z|Revendreth|N|To Lord Chamberlain.|ACTIVE|-62778|
@@ -173,7 +173,7 @@ C Reason for the Treason|QID|60177|M|62.60,64.78|Z|Revendreth|QO|3|CHAT|N|Talk w
 T Reason for the Treason|QID|60177|M|62.26,61.33|Z|Revendreth|N|To Lajos.|
 A And Then There Were None|QID|60178|M|62.26,61.33|Z|Revendreth|N|From Lajos.|PRE|60177|RANK|2|
 C And Then There Were None|QID|60178|M|63.21,60.35|Z|Revendreth|QO|2|CHAT|N|Speak with Ilka to invite her to the Crypt.|
-C Bring Out Your Tithe|QID|60176|M|61.04,60.57|Z|Revendreth|NC|N|Collect the tithes of anima by interacting with villagers, and clicking on dropplets on the ground.|US|
+C Bring Out Your Tithe|QID|60176|M|61.04,60.57|Z|Revendreth|NC|N|Collect the tithes of anima by interacting with villagers, and clicking on droplets on the ground.|US|
 T Bring Out Your Tithe|QID|60176|M|61.34,63.8|Z|Revendreth|N|To Mistress Mihaela.|
 C And Then There Were None|QID|60178|M|61.81,64.36|Z|Revendreth|QO|1|CHAT|N|Speak with Samu to invite him to the Crypt.|
 C And Then There Were None|QID|60178|M|61.23,59.45|Z|Revendreth|QO|3|NC|N|Run to the Crypt and make your way down.|
@@ -221,7 +221,7 @@ T Comfortably Numb|QID|59716|M|60.20,69.32|Z|Revendreth|N|To Nadjia the Mistblad
 A The Field of Honor|QID|59724|M|60.20,69.32|Z|Revendreth|N|From Nadjia the Mistblade.|PRE|59716|RANK|2|
 A Offer of Freedom|QID|59868|M|60.20,69.32|Z|Revendreth|N|From Nadjia the Mistblade.|PRE|59716|RANK|2|
 C The Field of Honor|QID|59724|M|60,79.4|Z|Revendreth|N|Head up the hill to the Witherfall Ruin killing Briarbane enemies on the way up.|S|
-C Offer of Freedom|QID|59868|M|59.97,76.78|Z|Revendreth|N|When the Briarbane are below 30%, use the provided sinstone fragment to attepmt to free them of their compulsion.|U|179359|
+C Offer of Freedom|QID|59868|M|59.97,76.78|Z|Revendreth|N|When the Briarbane are below 30%, use the provided sinstone fragment to attempt to free them of their compulsion.|U|179359|
 C The Field of Honor|QID|59724|M|60,79.4|Z|Revendreth|N|Kill Briarbane enemies.|US|
 T Offer of Freedom|QID|59868|M|60.25,78.69|Z|Revendreth|N|To Nadjia the Mistblade. You can reach her by going inside the ruins, clicking the vine ladder and working your way to the upper floors.|
 T The Field of Honor|QID|59724|M|60.25,78.69|Z|Revendreth|N|To Nadjia the Mistblade.|
@@ -234,9 +234,9 @@ R Feeders' Thicket|QID|60509^58654|M|60.11,80.70|Z|Revendreth|V|N|Hop on the Hul
 R Decimated Crossroad|QID|60509|M|67.4,68.4|Z|Revendreth|N|Follow the road eastish to the Decimated Crossroad.|TOF|RANK|2|
 A Not My Job|QID|60509|M|67.55,68.47|Z|Revendreth|N|From Rendle.|TOF|RANK|2|
 A Words Have Power|QID|58272|M|67.74,67.66|Z|Revendreth|N|From Join the Rebellion poster.|TOF|RANK|2|
-C Words Have Power|QID|58272|M|67.74,67.66|Z|Revendreth|S|NC|N|Collect the pamplets stuck to the wall in the area.|TOF|
+C Words Have Power|QID|58272|M|67.74,67.66|Z|Revendreth|S|NC|N|Collect the pamphlets stuck to the wall in the area.|TOF|
 $ Wayfarer's Abandoned Spoils|QID|59884|CS|M|67.93,64.51;68.45,64.43|Z|Revendreth|N|Walk on the Bounding Shroom to be shot up in the air. Aim yourself to come down on the ledge where the treasure is.|TOF|ACH|14314;12|
-C Words Have Power|QID|58272|M|67.27,66.00|Z|Revendreth|US|NC|N|Finish collecting the pamplets stuck to the wall in the area.|TOF|
+C Words Have Power|QID|58272|M|67.27,66.00|Z|Revendreth|US|NC|N|Finish collecting the pamphlets stuck to the wall in the area.|TOF|
 R The Endmire|ACTIVE|60509|CS|M|67.23,66.63;61.95,68.72;68.02,62.64|Z|Revendreth|N|Follow the road down to the swampy area known as The Endmire.|TOF|
 A Parasites of Reality|QID|62780|M|68.02,62.64|Z|Revendreth|N|Bonus Objective - Autoaccepted.|LVL|-60|TOF|RANK|2|
 C Parasites of Reality|QID|62780|M|68.02,62.64|S|Z|Revendreth|N|Kill Hostiles, interact with non-hostiles.|TOF|
@@ -450,9 +450,9 @@ K Scrivener Lenua|QID|58213|M|38.32,69.21|Z|Revendreth|T|Scrivener Lenua|N|WH - 
 T Sign Your Own Death Warrant|QID|57380|M|38.97,66.03|Z|Revendreth|N|To Stonehead.|MS|
 N Pick up Hollow Rock|AVAILABLE|58327|M|38.87,64.31|Z|Revendreth|N|After Stonehead has unavoidably thrown you, pick up the Hollow Rock to disguise yourself.|BUFF|320559|RANK|2|TOF|
 A Snacks for Stonehead|QID|58327|M|39.33,65.25|Z|Revendreth|N|Now that you have your disguise, go over to the Chewed Light Shard and pick up this quest.|RANK|2|TOF|
-; commenting out - so doesnt pop up when you go out of the area. == A Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
-C Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|S!US|N|Kill Hostiles and give parasols to the desicated as you do the side quests in the area.|TOF|
-K Sire Ladinas|M|34.08,55.47|Z|Revendreth|T|Sire Ladinas|S!US|N|To summon rare, pick up Remnant of Light from ground, use EAB to cast Light Impalement on all mobs in the Dessication area, keep tossing till one yells 'The Light... buuurns!'. Rare will then come down. Drop item not 100%. Check off manually if he hasn't spawned and you want to |ITEM|180873|RARE|ACH|14310;7|EAB|
+; commenting out - so doesn't pop up when you go out of the area. == A Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
+C Ash You Like It|QID|62781|M|38.69,63.57|Z|Revendreth|S!US|N|Kill Hostiles and give parasols to the desiccated as you do the side quests in the area.|TOF|
+K Sire Ladinas|M|34.08,55.47|Z|Revendreth|T|Sire Ladinas|S!US|N|To summon rare, pick up Remnant of Light from ground, use EAB to cast Light Impalement on all mobs in the Desiccation area, keep tossing until one yells 'The Light... buuurns!'. Rare will then come down. Drop item not 100%. Check off manually if he hasn't spawned and you want to |ITEM|180873|RARE|ACH|14310;7|EAB|
 A Chasing Madness|QID|57405|M|37.07,63.14|Z|Revendreth|N|From Lost Sybille.|LVL|58|PRE|57380|MS|
 C Chasing Madness|QID|57405|M|37.43,60.37|Z|Revendreth|NC|N|Follow Lost Sybille.|MS|
 T Chasing Madness|QID|57405|M|38.10,60.77|Z|Revendreth|N|To Theotar.|MS|
@@ -522,7 +522,7 @@ T Setting Sabina Free|QID|60470|M|PLAYER|Z|Revendreth|N|Click Pop-Up Quest to co
 
 ; Sidequest Storyline - Mirror Maker of the Master
 A An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|From Laurent.|RANK|2|
-K Amalgamation of Light|QID|59584^62455|QO|1|M|25.58,48.66|Z|Revendreth|T|Amalgamation of Light|N|Click to turn mirros away from the center.|RARE|ACH|14310;12|ITEM|180688|
+K Amalgamation of Light|QID|59584^62455|QO|1|M|25.58,48.66|Z|Revendreth|T|Amalgamation of Light|N|Click to turn mirrors away from the center.|RARE|ACH|14310;12|ITEM|180688|
 C An Unfortunate Situation|QID|57531|M|29.81,48.63|Z|Revendreth|N|Kill the Costel and his 2 friends in the hideout, loot him to collect Laurent's Belongings.|
 T An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|To Laurent.|
 A Foraging for Fragments|QID|57532|M|26.43,48.95|Z|Revendreth|N|From Laurent.|PRE|57531|RANK|2|
@@ -636,13 +636,13 @@ C Choosing Your Purpose|QID|62000^57878|M|36.32,64.22|Z|Ring of Fates@Oribos|QO|
 C Choosing Your Purpose|QID|62000^57878|M|39.55,61.10|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Lady Moonberry.|
 C Choosing Your Purpose|QID|62000^57878|M|44.59,68.74|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the General Draven.|
 C Choosing Your Purpose|QID|62000^57878|M|43.07,73.81|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Secutor Mevix.|
-C Choosing Your Purpose|QID|62000^57878|M|39.49,69.27|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Make your choice at the Shdowlands Covenant Map.|
+C Choosing Your Purpose|QID|62000^57878|M|39.49,69.27|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Make your choice at the Shadowlands Covenant Map.|
 T Choosing Your Purpose|QID|62000^57878|M|38.88,70.02|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
 
 ; Sidequest Storyline -  The Final Atonement
 F Darkhaven|QID|58093|N|Fly back to Darkhaven if you wish to complete the final side story quests for achievement.|MS|RANK|2|
 T WANTED: The Pale Doom|QID|60279|M|61.95,63.97|Z|Revendreth|N|To Taskmaster Gavril.|;may need to be MS and have TOF turn in elsewhere in guide?
-R Halls of Atonement South|QID|58093|M|70.13,57.91|Z|Revendreth|N|Run to the South Elevator of Halls of Attonement.|RANK|2|
+R Halls of Atonement South|QID|58093|M|70.13,57.91|Z|Revendreth|N|Run to the South Elevator of Halls of Atonement.|RANK|2|
 ;A Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|Revendreth|N|Bonus Objective - Autoaccepted.|RANK|2|TOF|LVL|-60|;commented out because we leave the area, and come back.
 C Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|Revendreth|S!US|N|Kill the depraved mobs and otherwise clean up the depravity.|TOF|
 A Our Forgotten Purpose|QID|58093|M|72.99,51.99|Z|Revendreth|N|From Archivist Fane.|RANK|2|LEAD|57919|
@@ -699,7 +699,7 @@ A Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|From Archivist Fa
 C Hunting an Inquisitor|QID|57929|M|76,51.8|Z|Revendreth|N|Use the Action Ability "[color=40C7EB]Read Inquisitor Traian's Sinstone[/color]" to lower the shield and kill Inquisitor Traian.|EAB|
 T Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane. He now offers a repeatable quest that gives you sinstones, which are needed to fight other mobs.|
 A Halls of Atonement: Your Absolution|QID|58092|M|72.98,51.98|Z|Revendreth|ELITE|N|[color=e6cc80]Dungeon: [/color]\nFrom Archivist Fane. This quest is optional and out of scope for this guide.|LVL|58|PRE|57929|
-;dungeon quest wasnt offered. WH says 58, i wasnt offered on a lvl 52 and lvl 60. (maybe it's after stop the inquisition -- havent done it yet.)
+;dungeon quest wasn't offered. WH says 58, i wasn't offered on a lvl 52 and lvl 60. (maybe it's after stop the inquisition -- haven't done it yet.)
 T Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|Revendreth|N|Bonus Objective - Autocompleted. Time to finish this up.|
 R Absolution Crypt|AVAILABLE|62653|M|71.58,40.07|N|Down the elevator and return to The Accuser.|
 A Stop the Inquisition|QID|62653|M|71.79,40.41|Z|Revendreth|N|From Gresit.|RANK|2|
