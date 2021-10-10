@@ -683,6 +683,7 @@ T Suspicious Hoofprints|QID|1268|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
 T Lieutenant Paval Reethe|QID|1269|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
 T The Black Shield |QID|1251|M|36.42,31.88|Z|Dustwallow Marsh|N|To Krog.|
 A The Black Shield|QID|1321|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|PRE|1268&1251|
+A Inspecting the Ruins|QID|11124|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|
 T The Black Shield|QID|1321|M|36.53,30.79|Z|Dustwallow Marsh|N|To Do'gol.|
 A The Black Shield|QID|1322|M|36.53,30.79|Z|Dustwallow Marsh|N|From Do'gol.|PRE|1321|
 K Theramore Spies|ACTIVE|1201|M|38.00,26.95|Z|Dustwallow Marsh|QO|1|N|You'll find them outside of the village to the north and south.\n[color=FF0000]NOTE: [/color]Unless you can track invisible, walk around spamming the targetting button and listen for the sound of them cloaking.\nDon't worry about sneak attacks; they are non-aggressive until attacked.|T|Theramore Infiltrator|
@@ -714,32 +715,46 @@ T The Witch's Bane|QID|11181|M|55.58,26.14|Z|Dustwallow Marsh|N|To Mordant Grims
 A Cleansing Witch Hill|QID|11183|M|55.58,26.14|Z|Dustwallow Marsh|N|From Mordant Grimsby.|PRE|11181|
 K Zelfrax|ACTIVE|11183|M|55.27,26.57|Z|Dustwallow Marsh|QO|1|N|Use the Witchbane Torch on the dock and kill Zelfrax when it appears.|U|33113|
 T Cleansing Witch Hill|QID|11183|M|55.58,26.14|Z|Dustwallow Marsh|N|To Mordant Grimsby.|
-C Hungry!|QID|1177|M|57.27,22.46|Z|Dustwallow Marsh|L|5847 8|N|Kill Mirefin Murlocs to collect the Mirefin Heads.|S|
+C Hungry!|QID|1177|M|57.42,16.89|Z|Dustwallow Marsh|L|5847 8|N|Kill Mirefin Murlocs to collect the Mirefin Heads.|S|
 R Dreadmurk Shore|ACTIVE|1202|M|57.85,19.01|Z|Dustwallow Marsh|N|Make your way to the Dreadmurk Shore.|
-C Hungry!|QID|1177|M|58.29,17.07|Z|Dustwallow Marsh|L|5847 8|N|Kill Mirefin Murlocs to collect the Mirefin Heads.\n[color=FF0000]NOTE: [/color]They are runners and watch your back for adds.|US|
-R Theramore Isle|ACTIVE|1202|M|66.13,43.56|Z|Dustwallow Marsh|N|Make your way to the Theramore Isle. Follow the shore line the whole way there.\n[color=FF0000]NOTE: [/color]Do not go near the front entrance. This an Alliance city and the guards will kill you.|
-C The Theramore Docks|QID|1202|M|71.54,51.19|Z|Dustwallow Marsh|L|5882|N|Work your way around the island to the dock at the back. Avoid the guards by the back gate. Locate the Captain's Documents on the ocean floor beneath the dock.\n[color=FF0000]NOTE: [/color]Do not linger in this area, as there are elite sharks in the water.|
-R North Point Tower|AVAILABLE|1270|M|46.88,22.86|Z|Dustwallow Marsh|N|Head back to the main road and make your way to the intersection at North Tower.|
+C Hungry!|QID|1177|M|57.42,16.89|Z|Dustwallow Marsh|L|5847 8|N|Kill Mirefin Murlocs to collect the Mirefin Heads.\n[color=FF0000]NOTE: [/color]They are runners and watch your back for adds.|US|
+R Theramore Isle|ACTIVE|1202|M|66.13,43.56|Z|Dustwallow Marsh|N|Make your way to the Theramore Isle. Follow the shore line the whole way there.\n[color=FF0000]NOTE: [/color]Do not go near the front entrance. This is an Alliance city and the guards will kill you.|
+C Captain's Footlocker|QID|1202|M|71.54,51.19|Z|Dustwallow Marsh|L|5882|N|Work your way around the island to the dock at the back.\nLocate the Captain's Footlocker under the dock and open it to loot the Captain's Documents.\n[color=FF0000]NOTE: [/color]You can avoid the guards at the back gate by going into the water when you get there.|
+R Main Road|AVAILABLE|1270|M|63.20,43.10|Z|Dustwallow Marsh|CC|N|As you did earlier, make your way around the island, while avoiding the Alliance guards, and cross the water to the main land. Head up the bank to the main road.|
+R North Point Tower|AVAILABLE|1270|M|46.88,22.86|Z|Dustwallow Marsh|N|Follow the main road west past Witch Hill and make your way to the intersection at North Point Tower.|
 A Stinky's Escape|QID|1270|M|46.88,17.51|Z|Dustwallow Marsh|N|From "Stinky" Ignatz.\n[color=FF0000]NOTE: [/color]The more mobs you clear on your way in, the less you will have to kill later.|
-C Escort Stinky|QID|1270|M|48.86,24.67|Z|Dustwallow Marsh|N|Follow Stinky around defending him as he looks for the Bogbean Leaves.\n[color=FF0000]NOTE: [/color]With the exception of random mobs, there are no surprise attacks.|
-R Brackenwall Village|ACTIVE|1240|M|37.63,31.69|Z|Dustwallow Marsh|N|Make your way back to Brackenwall Village.|
+C Escort Stinky|QID|1270|M|48.86,24.67|Z|Dustwallow Marsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFollow Stinky around defending him as he looks for the Bogbean Leaves.\n[color=FF0000]NOTE: [/color]With the exception of random mobs, there are no surprise attacks.|
+R Brackenwall Village|ACTIVE|1202^1238^1177|M|37.63,31.69|Z|Dustwallow Marsh|N|Make your way back to Brackenwall Village.|
 T The Theramore Docks|QID|1202|M|35.21,30.66|Z|Dustwallow Marsh|N|To Nazeer Bloodpike.|
 T The Lost Report|QID|1238|M|35.21,30.66|Z|Dustwallow Marsh|N|To Nazeer Bloodpike.|
-T Hungry!|QID|1177|M|35.15,38.26|Z|Dustwallow Marsh|N|To Mudcrush Durtfeet.|
-F Ratchet|ACTIVE|1240|M|35.59,31.80|Z|Dustwallow Marsh|N|Fly to Ratchet.|
-b Booty Bay|ACTIVE|1240|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
-F Grom'gol Base Camp|ACTIVE|1240|M|26.03,73.23|Z|Stranglethorn Vale|N|Head to the flightmaster and take a flight to Grom'gol Base Camp.|
-T The Troll Witchdoctor|QID|1240|M|32.27,27.70|Z|Stranglethorn Vale|N|To Kin'weelay.|
-A Marg Speaks|QID|1261|M|32.23,27.64|Z|Stranglethorn Vale|N|Click on the cauldron to get the quest.|PRE|1240|
-H Orgrimmar|ACTIVE|1261|N|Hearth back to Orgrimmar.\n[color=FF0000]NOTE: [/color]If your Hearthstone is on cooldown, take the boat and run into Orgrimmar.|
-F Brackenwall Village|ACTIVE|1261|M|45.58,63.99|Z|Orgrimmar|N|Head to the flightmaster and take a flight to Brackenwall Village.|
-R Main Road|ACTIVE|1261|M|39.14,37.96|Z|Dustwallow Marsh|CC|N|Exit Brackenwall from the south and follow the road until it ends at the main road.|
+A Check Up on Tabetha|QID|11213|M|35.21,30.66|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|
+A Help Mudsprocket|QID|11215|M|35.21,30.66|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|
+T Hungry!|QID|1177|M|35.15,38.26|Z|Dustwallow Marsh|N|To Mudcrush Durtfeet.\n[color=FF0000]NOTE: [/color]Head south out of Brackenwall Village.|
+R Shady Rest Inn|ACTIVE|11124|M|30.24,47.12|Z|Dustwallow Marsh|CC|N|Resume following the road south to the fork in the road.|
+T Inspecting the Ruins|QID|11124|M|29.79,47.67|Z|Dustwallow Marsh|N|To Inspector Tarem at the Shady Rest Inn.|
+R The Dragonmurk|ACTIVE|11213^11215|M|33.4,46.4;33.89,60.23|Z|Dustwallow Marsh|CC|N|Go east from the fork to the first intersection and continue south from here.|
+R The Den of Flame|ACTIVE|11213^11215|M|37.46,63.48|Z|Dustwallow Marsh|N|Continue along the road.|
+R Tabetha's Farm|ACTIVE|11213^11215|M|40.0,61.8;45.95,58.02|Z|Dustwallow Marsh|CC|N|At the intersection, turn east (left) and follow the sign post. The road will lead right there.|
+T Check Up on Tabetha|QID|11213|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha inside the house.|
+R Mudsprocket|ACTIVE|11215|M|40.0,61.8;40.6,68.8;41.87,72.46|Z|Dustwallow Marsh|CC|N|Head back to the sign post at the intersection and head south to the next sign post..|
+T Help Mudsprocket|QID|11215|M|42.33,72.93|Z|Dustwallow Marsh|N|To Drazzit Dripvalve.|
+f Mudsprocket|AVAILABLE|1273|M|42.82,72.43|Z|Dustwallow Marsh|N|At Dyslix Silvergrub. He's outside the wall just east of the main entrance.|TAXI|-Mudsprocket|
+; -- Eliminated finishing Witch Hill dirt pile quest chain - Hendo72
+;;F Ratchet|ACTIVE|1240|M|42.82,72.43|Z|Dustwallow Marsh|N|Fly to Ratchet.|
+;;b Booty Bay|ACTIVE|1240|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+;;F Grom'gol Base Camp|ACTIVE|1240|M|26.03,73.23|Z|Stranglethorn Vale|N|Head to the flightmaster and take a flight to Grom'gol Base Camp.|
+;;T The Troll Witchdoctor|QID|1240|M|32.27,27.70|Z|Stranglethorn Vale|N|To Kin'weelay.|
+;;A Marg Speaks|QID|1261|M|32.23,27.64|Z|Stranglethorn Vale|N|Click on the cauldron to get the quest.|PRE|1240|
+;;H Orgrimmar|ACTIVE|1261|N|Hearth back to Orgrimmar.\n[color=FF0000]NOTE: [/color]If your Hearthstone is on cooldown, take the boat and run into Orgrimmar.|
+;;F Brackenwall Village|AVAILABLE|1273|M|45.58,63.99|Z|Orgrimmar|N|Head to the flightmaster and take a flight to Brackenwall Village.|
+F Brackenwall Village|AVAILABLE|1273|M|42.82,72.43|Z|Dustwallow Marsh|
+R Main Road|AVAILABLE|1273|M|39.14,37.96|Z|Dustwallow Marsh|CC|N|Exit Brackenwall from the south and follow the road until it ends at the main road.|
 A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ogron, just to the north of your current position.\n[color=FF0000]NOTE: [/color]This quest is not easy and can be bugged requiring you to finish it twice.|PRE|1323&1201|RANK|3|
 A Questioning Reethe|QID|1273|PRE|1323&1201|M|40.96,36.70|Z|Dustwallow Marsh|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Ogron and re-accept the quest from him.\n[color=FF0000]NOTE: [/color]You'll probably have to wait for him to respawn.|FAIL|
 N Questioning Reethe|ACTIVE|1273|N|If Reethe's not alone, the quest has bugged and you need to clear the mobs before you can do it.\n[color=FF0000]NOTE: [/color]Let Ogron die so the quest will fail and you can restart it.|
 C Questioning Reethe|QID|1273|M|42.64,38.08|Z|Dustwallow Marsh|N|Follow Ogron to Reethe's camp.\n[color=FF0000]NOTE: [/color]If you fail the quest, you need to clear the soldiers before you can do it again. Otherwise, the quest will bug and you can't finish it.|
-R Dustwallow Bay|ACTIVE|1261|M|43.78,36.05;44.94,35.37|Z|Dustwallow Marsh|CC|N|Make your way to Dustwallow Bay. There is a 'path' through the hills.|
-C Marg Speaks|QID|1261|M|55.02,44.61|Z|Dustwallow Marsh|N|Make your way down to the shore and over to the islands in the middle of the bay. Grind out on the Muckshells until one drops the pendant.|
+;;R Dustwallow Bay|ACTIVE|1261|M|43.78,36.05;44.94,35.37|Z|Dustwallow Marsh|CC|N|Make your way to Dustwallow Bay. There is a 'path' through the hills.|
+;;C Marg Speaks|QID|1261|M|55.02,44.61|Z|Dustwallow Marsh|N|Make your way down to the shore and over to the islands in the middle of the bay. Grind out on the Muckshells until one drops the pendant.|
 L Level 40|ACTIVE|1261^1276^1273|N|Grind out on mobs in the area until you are 1 bar of lv 40.|LVL|39,-4600|
 R Brackenwall Village|ACTIVE|1261^1276|M|37.63,31.69|Z|Dustwallow Marsh|N|Make your way back to Brackenwall Village.|
 T Questioning Reethe|QID|1273|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
