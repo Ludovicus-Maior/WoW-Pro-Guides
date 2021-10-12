@@ -335,7 +335,7 @@ N Reputation Monitoring|ACTIVE|1368|N|Open the Reputation Tab (<U>) and locate t
 R Magram Village|ACTIVE|1368|M|69.30,72.67|Z|Desolace|N|Follow the main road as far east as it goes. The village is on the south side of the road.|
 K Magram Clan Centaurs|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Kill Magram Clan Centaurs until have reached Friendly status (3,000 rep) with The Gelkis Clan.\nIt'll take 75 kills to reach it.|REP|Gelkis Clan Centaur;92;Neutral|
 C Centaur Bounty|QID|1366|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Continue killing Centaurs and looting their ears until done.|US|
-L Level 36|ACTIVE|1366&1368|N|Continue grinding until you are ~2.5 bars short (89%) of Level 36.|LVL|35,-6550|
+L Level 36|ACTIVE|1366&1368|N|Continue grinding until you are ~2.5 bars short (89%) of Level 36.|LVL|35;-6550|
 R Ghost Walker Post|ACTIVE|1366&1368|M|56.74,56.79|Z|Desolace|
 T Centaur Bounty|QID|1366|ACTIVE|1368|M|56.20,59.55|Z|Desolace|N|To Felgur Twocuts.|
 T Catch of the Day|QID|5386|ACTIVE|1368|M|55.41,55.80|Z|Desolace|N|To Nataka Longhorn.|
@@ -755,7 +755,7 @@ A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|N|[color=CC00FF]Q
 C Questioning Reethe|QID|1273|M|42.64,38.08|Z|Dustwallow Marsh|N|Follow Ogron to Reethe's camp.\n[color=FF0000]NOTE: [/color]If you fail the quest, you need to clear the soldiers before you can do it again. Otherwise, the quest will bug and you can't finish it.|
 ;;R Dustwallow Bay|ACTIVE|1261|M|43.78,36.05;44.94,35.37|Z|Dustwallow Marsh|CC|N|Make your way to Dustwallow Bay. There is a 'path' through the hills.|
 ;;C Marg Speaks|QID|1261|M|55.02,44.61|Z|Dustwallow Marsh|N|Make your way down to the shore and over to the islands in the middle of the bay. Grind out on the Muckshells until one drops the pendant.|
-;L Level 40|ACTIVE|1276^1273|N|Grind out on mobs in the area until you are 1 bar of lv 40.|LVL|39,-4600|
+L Level 40|ACTIVE|1276^1273|N|Grind out on mobs in the area until you are 1 bar of lv 40.|LVL|39;-4600|
 R Brackenwall Village|ACTIVE|1273^1276|M|37.63,31.69|Z|Dustwallow Marsh|N|Make your way back to Brackenwall Village.|
 T Questioning Reethe|QID|1273|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
 F Thunder Bluff|ACTIVE|1276|M|35.56,31.88|Z|Dustwallow Marsh|
@@ -781,8 +781,10 @@ R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|Stranglethorn Vale|
 T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|572|
 A Split Bone Necklace|QID|598|M|32.27,27.71|Z|Stranglethorn Vale|N|From Kin'weelay.|PRE|572|
-R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|Z|Stranglethorn Vale|CC|
-R Ruins of Zul'Kunda|ACTIVE|584|M|30.03,13.07;27.93,11.33|Z|Stranglethorn Vale|CC|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by climbing the hill on the left side and coming down between the wall and the building.|
+C Excelsior|QID|628|M|25.25,19.61|Z|Stranglethorn Vale|L|4105|N|Kill 'ELDER' Saltwater Crocolisks along the shore of The Savage Coast to loot the Elder Skin.\n[color=FF0000]NOTE: [/color]Exit Grom'Gol from the west and follow the coast line north past the Bal'lal Ruins towards the Zuuldaia Ruins.|
+R Zuuldaia Ruins|ACTIVE|584|M|22.17,16.15|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
+;R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|Z|Stranglethorn Vale|CC|
+;R Ruins of Zul'Kunda|ACTIVE|584|M|30.0,13.0;27.45,10.31|Z|Stranglethorn Vale|CC|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by climbing the hill on the left side and coming down between the wall and the building.|
 K Nezzliok|ACTIVE|584|M|23.26,9.77|Z|Stranglethorn Vale|QO|2|N|Work your way through the center of the Ruins to the ramp on the other side.\nSticking to the tall wall, clear the mobs as you walk up the ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.|
 K Gan'zulah|ACTIVE|584|M|23.26,8.72|Z|Stranglethorn Vale|QO|1|N|Using the same process as you did with Nezzliok, pull the mobs closest to the wall until Gan'zulah is alone or joins the fight.|
 R Nesingwary's Expedition|ACTIVE|584|M|35.65,10.66|Z|Stranglethorn Vale|N|Work your way out of the Ruins the same way you came in. You can avoid some of the fight by dropping down to the lower ledge of the wall and walking around to where the bottom of the ramp is.\n Once you are out of the Ruins, make your way to the Nesingwary's Expedition.|
