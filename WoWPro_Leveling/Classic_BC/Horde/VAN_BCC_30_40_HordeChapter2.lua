@@ -335,7 +335,7 @@ N Reputation Monitoring|ACTIVE|1368|N|Open the Reputation Tab (<U>) and locate t
 R Magram Village|ACTIVE|1368|M|69.30,72.67|Z|Desolace|N|Follow the main road as far east as it goes. The village is on the south side of the road.|
 K Magram Clan Centaurs|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Kill Magram Clan Centaurs until have reached Friendly status (3,000 rep) with The Gelkis Clan.\nIt'll take 75 kills to reach it.|REP|Gelkis Clan Centaur;92;Neutral|
 C Centaur Bounty|QID|1366|ACTIVE|1368|M|70.76,75.30|Z|Desolace|N|Continue killing Centaurs and looting their ears until done.|US|
-L Level 36|ACTIVE|1366&1368|N|Continue grinding until you are ~2.5 bars short (89%) of Level 36.|LVL|35,-6550|
+L Level 36|ACTIVE|1366&1368|N|Continue grinding until you are ~2.5 bars short (89%) of Level 36.|LVL|35;-6550|
 R Ghost Walker Post|ACTIVE|1366&1368|M|56.74,56.79|Z|Desolace|
 T Centaur Bounty|QID|1366|ACTIVE|1368|M|56.20,59.55|Z|Desolace|N|To Felgur Twocuts.|
 T Catch of the Day|QID|5386|ACTIVE|1368|M|55.41,55.80|Z|Desolace|N|To Nataka Longhorn.|
@@ -556,7 +556,7 @@ C Some Assembly Required|QID|577|M|39.78,29.61|Z|Stranglethorn Vale|L|4104 5|N|K
 R Grom'gol Base Camp|ACTIVE|569|M|32.87,28.73|Z|Stranglethorn Vale|N|Return to Grom'gol.|
 T The Defense of Grom'gol|QID|569|M|32.20,28.83|Z|Stranglethorn Vale|N|To Commander Aggro'gosh.|
 ;L Level 37|LVL|37|N|You should be around level 37 by this point.|
-C Singing Blue Shards|QID|605|M|24.34,17.07|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|S|IZ|1434;Stranglethorn Vale|
+C Singing Blue Shards|QID|605|M|24.34,17.07|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|S|
 R Zuuldaia Ruins|ACTIVE|582|M|27.00,18.60;22.17,16.15|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
 N Bloodscalp Headhunters|ACTIVE|582|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Headhunting|QID|582|M|19.86,11.53|Z|Stranglethorn Vale|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
@@ -578,12 +578,11 @@ T Bloody Bone Necklaces|QID|596|M|32.28,27.71|Z|Stranglethorn Vale|N|To Kin'weel
 A Bloodscalp Clan Heads|QID|584|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|PRE|582|
 A Trollbane|QID|638|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|
 ;;N Leveling up|ACTIVE|577|N|We need to gain a few more levels to continue in STV. Off to Arathi Highlands.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-F Booty Bay|ACTIVE|577|M|32.54,29.35|Z|Stranglethorn Vale|N|To turn in a quest to make room in your log and your bag.|
+F Booty Bay|ACTIVE|577|M|32.54,29.35|Z|Stranglethorn Vale|
 T Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
 A Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|577|
-
-;; I am removing this section to reduce some of the experience gain
-;;N Bank/AH|ACTIVE|638|N|Before leaving, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|IZ|503;Booty Bay|
+T Singing Blue Shards|QID|605|M|27.12,77.22|Z|Stranglethorn Vale|N|To Crank Fizzlebub.\n[color=FF0000]NOTE: [/color]He's standing beside the bar in the Tavern.|
+N Bank/AH|ACTIVE|638|N|Before leaving for Dustwallow Marsh, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|IZ|503;Booty Bay|
 ;;; --- Kalimdor
 ;;F Grom'gol Base Camp|AVAILABLE|676|M|26.87,77.09|Z|Stranglethorn Vale|
 ;;b Tirisfal Glades|AVAILABLE|676|M|31.57,29.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Undercity.|
@@ -693,6 +692,7 @@ R Brackenwall Village|ACTIVE|1322^1201|M|35.93,30.69|Z|Dustwallow Marsh|
 T The Black Shield|QID|1322|M|36.53,30.79|Z|Dustwallow Marsh|N|To Do'gol.|
 A The Black Shield|QID|1323|M|36.53,30.79|Z|Dustwallow Marsh|N|From Do'gol.|PRE|1322|
 T The Black Shield|QID|1323|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
+A The Black Shield|QID|1276|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|PRE|1323|
 T Theramore Spies|QID|1201|M|35.21,30.66|Z|Dustwallow Marsh|N|To Nazeer Bloodpike.|
 A The Theramore Docks|QID|1202|M|35.21,30.66|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|PRE|1323&1201|
 A The Hermit of Witch Hill|QID|11225|M|37.16,33.09|Z|Dustwallow Marsh|N|From Draz'Zilb inside the cave/Inn.|LEAD|1218|
@@ -749,38 +749,42 @@ f Mudsprocket|AVAILABLE|1273|M|42.82,72.43|Z|Dustwallow Marsh|N|At Dyslix Silver
 ;;F Brackenwall Village|AVAILABLE|1273|M|45.58,63.99|Z|Orgrimmar|N|Head to the flightmaster and take a flight to Brackenwall Village.|
 F Brackenwall Village|AVAILABLE|1273|M|42.82,72.43|Z|Dustwallow Marsh|
 R Main Road|AVAILABLE|1273|M|39.14,37.96|Z|Dustwallow Marsh|CC|N|Exit Brackenwall from the south and follow the road until it ends at the main road.|
+N Questioning Reethe Bugged?|AVAILABLE|1273|M|42.32,37.91|Z|Dustwallow Marsh|N|Before you start the next quest, verify that Reethe's alone. If he's not, the quest has bugged and you'll need to clear the mobs before you can start it.\n[color=FF0000]NOTE: [/color]If/When Reethe is alone, manually check this step off to continue.|
 A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ogron, just to the north of your current position.\n[color=FF0000]NOTE: [/color]This quest is not easy and can be bugged requiring you to finish it twice.|PRE|1323&1201|RANK|3|
-A Questioning Reethe|QID|1273|PRE|1323&1201|M|40.96,36.70|Z|Dustwallow Marsh|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Ogron and re-accept the quest from him.\n[color=FF0000]NOTE: [/color]You'll probably have to wait for him to respawn.|FAIL|
-N Questioning Reethe|ACTIVE|1273|N|If Reethe's not alone, the quest has bugged and you need to clear the mobs before you can do it.\n[color=FF0000]NOTE: [/color]Let Ogron die so the quest will fail and you can restart it.|
+A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|N|[color=CC00FF]QUEST FAILED [/color]\nClear any mobs that are left and go back to Ogron to re-accept the quest from him.\n[color=FF0000]NOTE: [/color]You'll probably have to wait for him to respawn.|PRE|1323&1201|FAIL|
 C Questioning Reethe|QID|1273|M|42.64,38.08|Z|Dustwallow Marsh|N|Follow Ogron to Reethe's camp.\n[color=FF0000]NOTE: [/color]If you fail the quest, you need to clear the soldiers before you can do it again. Otherwise, the quest will bug and you can't finish it.|
 ;;R Dustwallow Bay|ACTIVE|1261|M|43.78,36.05;44.94,35.37|Z|Dustwallow Marsh|CC|N|Make your way to Dustwallow Bay. There is a 'path' through the hills.|
 ;;C Marg Speaks|QID|1261|M|55.02,44.61|Z|Dustwallow Marsh|N|Make your way down to the shore and over to the islands in the middle of the bay. Grind out on the Muckshells until one drops the pendant.|
-L Level 40|ACTIVE|1261^1276^1273|N|Grind out on mobs in the area until you are 1 bar of lv 40.|LVL|39,-4600|
-R Brackenwall Village|ACTIVE|1261^1276|M|37.63,31.69|Z|Dustwallow Marsh|N|Make your way back to Brackenwall Village.|
+L Level 40|ACTIVE|1276^1273|N|Grind out on mobs in the area until you are 1 bar of lv 40.|LVL|39;-4600|
+R Brackenwall Village|ACTIVE|1273^1276|M|37.63,31.69|Z|Dustwallow Marsh|N|Make your way back to Brackenwall Village.|
 T Questioning Reethe|QID|1273|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
-F Thunder Bluff|ACTIVE|1276|M|35.56,31.88|Z|Dustwallow Marsh|N|Head to the flightmaster and take a flight to Thunder Bluff.|
-R Hunter Rise|ACTIVE|1276|M|51.78,74.30|Z|Thunder Bluff|N|Make your way to Hunter Rise.|
+F Thunder Bluff|ACTIVE|1276|M|35.56,31.88|Z|Dustwallow Marsh|
+R Hunter Rise|ACTIVE|1276|M|51.78,74.30|Z|Thunder Bluff|
 T The Black Shield|QID|1276|M|54.01,80.74|Z|Thunder Bluff|N|To Mosarn.|
-F Orgrimmar|ACTIVE|1262|M|47.01,49.85|Z|Thunder Bluff|N|Head to the flightmaster and take a flight to Orgrimmar.|
-R Grommash Hold|ACTIVE|1262|M|40.22,37.02|Z|Orgrimmar|N|Make your way to Grommash Hold.|
-T Report to Zor|QID|1262|M|38.92,38.39|Z|Orgrimmar|N|To Zor Lonetree (just inside Grommash Hold).|
-F Ratchet|ACTIVE|1270|M|45.09,63.88|Z|Orgrimmar|N|Head to the flightmaster and take a flight to Ratchet.|
+A Return to Krog|QID|11204|M|54.01,80.74|Z|Thunder Bluff|N|From Mosarn.|PRE|1276|
+= Level 40|ACTIVE|1270|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|-Warlock,-Paladin,-Rogue|
+F Orgrimmar|ACTIVE|1270|M|47.01,49.85|Z|Thunder Bluff|C|Warlock,Paladin,Rogue|
+= Level 40|ACTIVE|1270|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|Warlock,Paladin,Rogue|
+F Ratchet|ACTIVE|1270|M|45.09,63.88|Z|Orgrimmar|IZ|1454;Orgrimmar|
+F Ratchet|ACTIVE|1270|M|47.02,49.83|Z|Thunder Bluff|IZ|1456;Thunder Bluff|
 T Stinky's Escape|QID|1270|M|62.37,37.62|Z|The Barrens|N|To Mebok Mizzyrix.|
 
 ; Stranglethorn Vale
-N Bank|ACTIVE|572^605^196|M|62.67,37.44|Z|The Barrens|N|As you are now headed back to STV, make sure you grab all of your quest items from your bank before leaving.|IZ|392|
-b Booty Bay|ACTIVE|572^605^196|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|IZ|-1434|
-F Grom'gol Base Camp|ACTIVE|572^605^196|M|26.87,77.10|Z|Stranglethorn Vale|N|Head to the flightmaster and take a flight to Grom'gol Base Camp.|
-R Southern Savage Coast|ACTIVE|605^572^196|M|32.62,35.53|Z|Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
-C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
-K Raptor Mastery|ACTIVE|196|M|33.63,37.87|Z|Stranglethorn Vale|QO|1|N|Kill Jungle Stalkers.|
-C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
+N Bank|ACTIVE|572^196|M|62.67,37.44|Z|The Barrens|N|As you are now headed back to STV, make sure you grab your quest items from your bank before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|392;Ratchet|
+b Booty Bay|ACTIVE|572^196|M|63.70,38.63|Z|The Barrens|IZ|-1434;Stranglethorn Vale|
+F Grom'gol|ACTIVE|572^196|M|26.87,77.10|Z|Stranglethorn Vale|IZ|Booty Bay^The Salty Sailor Tavern||
+R Southern Savage Coast|ACTIVE|572^196|M|32.62,35.53|Z|Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
+C Mok'thardin's Enchantment|QID|572|M|30.65,42.31|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
+K Raptor Mastery|ACTIVE|196|M|30.65,42.31|Z|Stranglethorn Vale|QO|1|N|Kill Jungle Stalkers.|
+C Mok'thardin's Enchantment|QID|572|M|30.65,42.31|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
 R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|Stranglethorn Vale|
-T Mok'thardin's Enchantment|QID|572|M|32.12,29.25|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
-A Mok'thardin's Enchantment|QID|571|M|32.12,29.25|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|572|
+T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
+A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|572|
 A Split Bone Necklace|QID|598|M|32.27,27.71|Z|Stranglethorn Vale|N|From Kin'weelay.|PRE|572|
-R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|Z|Stranglethorn Vale|CC|N|Make your way to the Bal'lal Ruins.|
-R Ruins of Zul'Kunda|ACTIVE|584|M|30.03,13.07;27.93,11.33|Z|Stranglethorn Vale|CC|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by climbing the hill on the left side and coming down between the wall and the building.|
+C Excelsior|QID|628|M|25.25,19.61|Z|Stranglethorn Vale|L|4105|N|Kill 'ELDER' Saltwater Crocolisks along the shore of The Savage Coast to loot the Elder Skin.\n[color=FF0000]NOTE: [/color]Exit Grom'Gol from the west and follow the coast line north past the Bal'lal Ruins towards the Zuuldaia Ruins.|
+R Zuuldaia Ruins|ACTIVE|584|M|22.17,16.15|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
+;R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|Z|Stranglethorn Vale|CC|
+;R Ruins of Zul'Kunda|ACTIVE|584|M|30.0,13.0;27.45,10.31|Z|Stranglethorn Vale|CC|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by climbing the hill on the left side and coming down between the wall and the building.|
 K Nezzliok|ACTIVE|584|M|23.26,9.77|Z|Stranglethorn Vale|QO|2|N|Work your way through the center of the Ruins to the ramp on the other side.\nSticking to the tall wall, clear the mobs as you walk up the ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.|
 K Gan'zulah|ACTIVE|584|M|23.26,8.72|Z|Stranglethorn Vale|QO|1|N|Using the same process as you did with Nezzliok, pull the mobs closest to the wall until Gan'zulah is alone or joins the fight.|
 R Nesingwary's Expedition|ACTIVE|584|M|35.65,10.66|Z|Stranglethorn Vale|N|Work your way out of the Ruins the same way you came in. You can avoid some of the fight by dropping down to the lower ledge of the wall and walking around to where the bottom of the ramp is.\n Once you are out of the Ruins, make your way to the Nesingwary's Expedition.|
