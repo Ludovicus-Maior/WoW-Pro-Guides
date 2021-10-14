@@ -8,7 +8,7 @@ R Refuge Pointe|QID|26035|M|39.91,48.71|N|Head to Refuge Pointe in Arathi Highla
 f Refuge Point|QID|26035|NC|M|39.85,47.34|N|Get the flight point for Refuge Point from Cedrik Prose.|
 T Into Arathi|QID|26139|O|M|39.92,48.73|N|To Captain Nials.|
 T Hero's Call: Arathi Highlands!|QID|28573|O|M|39.92,48.73|N|To Captain Nials.|
-h Refuge Point|QID|26035|M|39.91,49.04|N|Set your home point at Vikki Lonsav.|
+h Refuge Pointe|QID|26035|M|39.91,49.04|N|Set your home point at Vikki Lonsav.|
 A Worth Its Weight in Gold|QID|26035|RANK|1|M|40.34,49.03|N|From Skuerto.|
 C Worth Its Weight in Gold|QID|26035|M|59.90,71.01|N|Kill Witherbark Trolls for the drops you need.|
 H Refuge Pointe|QID|26035|NC|N|Hearth or run back to Refuge Pointe.|M|39.89,48.75|
@@ -17,8 +17,8 @@ A Wand over Fist|QID|26036|PRE|26035|RANK|1|M|40.27,49.05|N|From Skuerto.|
 C Wand over Fist|QID|26036|M|47.94,79.38;49.03,83.69|CS|N|In the back of the cave. Kill and loot Kor'gresh Coldrage.|
 T Wand over Fist|QID|26036|M|40.35,48.99|N|To Skuerto.|
 A Trelane's Defenses|QID|26037|PRE|26036|RANK|1|M|40.35,48.99|N|From Skuerto.|
-A Wanted! Marez Cowl|QID|26024|RANK|1|M|40.24,49.06|N|From the Wanted Poster.|
-A Wanted! Otto and Falconcrest|QID|26079|RANK|1|M|40.24,49.06|N|From the Wanted Poster.|
+A Wanted! Marez Cowl|QID|26024|M|40.24,49.06|N|From the Wanted Board.|RANK|1|
+A Wanted! Otto and Falconcrest|QID|26079|M|40.24,49.06|N|From the Wanted Board.|RANK|1|
 A Northfold Manor|QID|26093|RANK|1|M|39.91,48.71|N|From Captain Nials.|
 C Northfold Manor|QID|26093|M|25.13,30.48|N|Kill the Syndicate Pathstalkers and Syndicate Highwayman at Northfold Manor (North-west of Refuge Point).|
 T Northfold Manor|QID|26093|M|39.89,48.75|N|To Captain Nials.|
