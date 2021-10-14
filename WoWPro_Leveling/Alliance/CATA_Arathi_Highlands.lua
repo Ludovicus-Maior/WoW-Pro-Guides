@@ -17,16 +17,16 @@ A Wand over Fist|QID|26036|PRE|26035|RANK|1|M|40.27,49.05|N|From Skuerto.|
 C Wand over Fist|QID|26036|M|47.94,79.38;49.03,83.69|CS|N|In the back of the cave. Kill and loot Kor'gresh Coldrage.|
 T Wand over Fist|QID|26036|M|40.35,48.99|N|To Skuerto.|
 A Trelane's Defenses|QID|26037|PRE|26036|RANK|1|M|40.35,48.99|N|From Skuerto.|
-A Wanted! Marez Cowl|QID|26024|M|40.24,49.06|N|From the Wanted Board.|RANK|1|
-A Wanted! Otto and Falconcrest|QID|26079|M|40.24,49.06|N|From the Wanted Board.|RANK|1|
+A Wanted!  Marez Cowl|QID|26024|RANK|1|M|40.24,49.06|N|From the Wanted Poster.|
+A Wanted!  Otto and Falconcrest|QID|26079|RANK|1|M|40.24,49.06|N|From the Wanted Poster.|
 A Northfold Manor|QID|26093|RANK|1|M|39.91,48.71|N|From Captain Nials.|
 C Northfold Manor|QID|26093|M|25.13,30.48|N|Kill the Syndicate Pathstalkers and Syndicate Highwayman at Northfold Manor (North-west of Refuge Point).|
 T Northfold Manor|QID|26093|M|39.89,48.75|N|To Captain Nials.|
 A Stromgarde Badges|QID|26095|PRE|26093|RANK|1|M|39.89,48.75|N|From Captain Nials.|
 R Stromgarde Keep|QID|26037|M|19.6,59.0|N|Head to Stromgarde Keep. Head south out of Refuge Point, then west (to your right) along the road. The keep has a level path across the moat.|
 C Stromgarde Badges|QID|26095|S|M|19.99,66.47|N|Kill and loot Syndicate mobs for the Stromgarde Badges.|
-C Wanted! Marez Cowl|QID|26024|M|23.2,64.8;22.8,66|CN|N|On entering the Keep, go to the first path on the left, then follow it to the house. Go around the left side of the house, and Marez Cowl can be found outside at the back. Kill and loot the head.|T|Marez Cowl|
-C Wanted! Otto and Falconcrest|QID|26079|M|19.5,67.5|N|Head into the tower and upstairs (to the left when you have a choice of direction). Kill and loot Otto and Lord Falconcrest as you head up the tower.|
+C Wanted!  Marez Cowl|QID|26024|M|23.2,64.8;22.8,66|CN|N|On entering the Keep, go to the first path on the left, then follow it to the house. Go around the left side of the house, and Marez Cowl can be found outside at the back. Kill and loot the head.|T|Marez Cowl|
+C Wanted!  Otto and Falconcrest|QID|26079|M|19.5,67.5|N|Head into the tower and upstairs (to the left when you have a choice of direction). Kill and loot Otto and Lord Falconcrest as you head up the tower.|
 C Stromgarde Badges|QID|26095|US|M|17.75,63.10|N|Finish killing and looting the Syndicate mobs for the Stromgarde Badges.|
 C Trelane's Defenses|QID|26037|M|17.75,63.10;14.95,68.85|CC|N|Kill Boulderfist Shaman until one drops the Azure Agate.|
 T Trelane's Defenses|QID|26037|M|12.95,69.32|N|To Apprentice Kryten.|
@@ -35,8 +35,8 @@ C Attack on the Tower|QID|26038|M|11.34,70.17|CS|N|Head into the tower, then up 
 C Attack on the Tower|QID|26038|M|11.17,69.90|CS|N|Head up the tower to the middle floor, and loot Trelane's Ember Agate from the chest.|QO|3|NC|; Trelane's Ember Agate: 1/1
 C Attack on the Tower|QID|26038|M|11.33,71.22|CS|N|Head to the top floor of the tower, and loot Trelane's Orb from the chest.|QO|2|NC|; Trelane's Orb: 1/1
 H Refuge Pointe|QID|26024|N|Hearth or run back to Refuge Pointe.|M|39.89,48.75|
-T Wanted! Marez Cowl|QID|26024|M|39.89,48.75|N|To Captain Nials.|
-T Wanted! Otto and Falconcrest|QID|26079|M|39.89,48.75|N|To Captain Nials.|
+T Wanted!  Marez Cowl|QID|26024|M|39.89,48.75|N|To Captain Nials.|
+T Wanted!  Otto and Falconcrest|QID|26079|M|39.89,48.75|N|To Captain Nials.|
 T Stromgarde Badges|QID|26095|M|39.91,48.75|N|To Captain Nials.|
 T Attack on the Tower|QID|26038|M|40.22,49.07|N|To Skuerto.|
 A Shakes O'Breen|QID|26336|RANK|1|M|40.34,49.03|N|From Skuerto.|
