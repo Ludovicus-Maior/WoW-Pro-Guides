@@ -5,7 +5,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 R Refuge Pointe|QID|26035|M|39.91,48.71|N|Head to Refuge Pointe in Arathi Highlands.|
-f Refuge Point|QID|26035|NC|M|39.85,47.34|N|Get the flight point for Refuge Point from Cedrik Prose.|
+f Refuge Pointe|QID|26035|NC|M|39.85,47.34|N|Get the flight point for Refuge Point from Cedrik Prose.|
 T Into Arathi|QID|26139|O|M|39.92,48.73|N|To Captain Nials.|
 T Hero's Call: Arathi Highlands!|QID|28573|O|M|39.92,48.73|N|To Captain Nials.|
 h Refuge Pointe|QID|26035|M|39.91,49.04|N|Set your home point at Vikki Lonsav.|
