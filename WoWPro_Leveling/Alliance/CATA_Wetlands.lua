@@ -97,7 +97,7 @@ A Lifting the Curse|QID|25818|M|15.17,29.23|N|From First Mate Snellig.|PRE|25817
 C Lifting the Curse|QID|25818|M|15.08,23.79|N|Kill and loot Captain Halyndor, he is on deck near the wheel.|
 T Lifting the Curse|QID|25818|M|14.37,24.02|N|Jump off the northside of the boat, swim down to the bottom of the ship and look for a hole. Swim in and turn the quest into the Intrepid's Locked Strongbox.|
 A The Eye of Paleth|QID|25819|M|14.37,24.02|N|From the Intrepid's Locked Strongbox.|PRE|25818|
-H Menethil Harbor|QID|25819|M|10.58,60.59|N|Hearth back to Menethal Harbor.|
+H Deepwater Tavern|QID|25819|M|10.58,60.59|N|Hearth back to Menethal Harbor.|
 T The Eye of Paleth|QID|25819|M|10.61,60.56|N|To Glorin Steelbrow.|
 T Claws from the Deep|QID|25801|M|11.14,57.76|N|To Karl Boran.|
 T Return the Statuette|QID|25805|M|11.14,57.76|N|To Karl Boran.|
