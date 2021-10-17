@@ -40,6 +40,7 @@ A Deep Within|QID|60268|PRE|60267|M|50.36,54.08|Z|The Runecarver's Oubliette!Ins
 C Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver's Oubliette!Instance|QO|1|CHAT|N|Speak with Runecarver to hear is his story.|
 T Deep Within|QID|60268|M|50.36,54.08|Z|The Runecarver's Oubliette!Instance|N|To Runecarver.|
 A Reawakening|QID|60269|PRE|60268|M|50.36,54.08|Z|The Runecarver's Oubliette!Instance|N|From Runecarver.|
+P Torghast, Tower of the Damned|ACTIVE|60269|M|49.95,72.37|Z|The Runecarver's Oubliette!Instance|N|Take the Portal into Torghast Antechamber.|IZ|1912|
 P Ve'nari's Refuge|ACTIVE|60269|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
 C Reawakening|QID|60269|QO|1|M|38.52,28.80|Z|The Maw|N|Kill Odalrik and loot the Runecarver's Memory.|
 P Torghast, Tower of the Damned|ACTIVE|60269|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
@@ -50,7 +51,7 @@ P Ve'nari's Refuge|ACTIVE|60270|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|C
 T A Damned Pact|QID|60270|M|46.92,41.70|Z|The Maw|N|To Ve'nari.|
 A A Grave Chance|QID|60271|PRE|60270|M|46.92,41.70|Z|The Maw|N|From Ve'nari.|
 C A Grave Chance|QID|60271|M|46.92,41.70|Z|The Maw|QO|1|NC|N|Purchase an Anima Supricifer from Ve'nari.|
-C A Grave Chance|QID|60271|M|41.06,42.82|Z|The Maw|QO|2|N|Kill the Fire elental based enemies in the area to retrive Molten Anima.|
+C A Grave Chance|QID|60271|M|41.06,42.82|Z|The Maw|QO|2|N|Kill the Fire elemental based enemies in the area to retrive Molten Anima.|
 T A Grave Chance|QID|60271|M|46.92,41.69|Z|The Maw|N|To Ve'nari.|
 A The Weak Link|QID|60272|PRE|60271|M|46.92,41.69|Z|The Maw|N|From Ve'nari.|
 P Torghast, Tower of the Damned|ACTIVE|60272|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
