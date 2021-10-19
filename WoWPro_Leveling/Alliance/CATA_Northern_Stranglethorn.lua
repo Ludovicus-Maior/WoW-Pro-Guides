@@ -145,7 +145,7 @@ T A Physical Specimen|QID|26747|M|47.21,10.64|N|To Osborn Obnoticus.|
 A Bloodlord Mandokir|QID|26748|M|47.21,10.64|N|From Bloodlord Mandokir.|PRE|26747|
 T Bloodlord Mandokir|QID|26748|M|47.24,10.75|N|To Bloodlord Mandokir.|
 A Priestess Thaalia|QID|26749|M|47.23,10.70|N|From Osborn Obnoticus.|PRE|26748|
-F Fort Livingston|QID|26479|M|47.86,11.87|N|Fly to Fort Livingston.|FLY|WOD|
+F Fort Livingston|QID|26749|M|47.86,11.87|N|Fly to Fort Livingston.|FLY|WOD|
 T Priestess Thaalia|QID|26749|M|53.40,66.74|N|To Priestess Thaalia.|
 A Mind Vision|QID|26772|M|53.40,66.74|N|From Priestess Thaalia.|PRE|26749|
 A The Mosh'Ogg Bounty|QID|26782|M|53.31,66.38|N|From Wulfred Harrys.|
