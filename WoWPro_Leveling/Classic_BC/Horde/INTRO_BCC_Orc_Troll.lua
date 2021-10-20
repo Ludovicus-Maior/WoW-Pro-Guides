@@ -6,16 +6,16 @@ WoWPro:GuideLevels(guide,1, 12)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Silverpine_Forest')
 WoWPro:GuideSteps(guide, function() return [[
 
-N Welcome!|QID|4641|N|This is a new guide written by TheRealHendo.\nIf you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
+N Welcome!|QID|4641|N|If you find a problem, please report it on Discord in #tbc-bug-reports. Enjoy and thanks!|
 A Your Place In The World|QID|4641|M|43.29,68.57|N|From Kaltunk.|LEAD|788|
-T Your Place In The World|QID|4641|M|42.10,68.35|N|To Gornek.|
-A Cutting Teeth|QID|788|M|42.10,68.35|N|From Gornek.|
+T Your Place In The World|QID|4641|M|42.06,68.33|N|To Gornek.|
+A Cutting Teeth|QID|788|M|42.06,68.33|N|From Gornek.|
 K Cutting Teeth|QID|788|M|44.23,66.39|QO|1|N|Kill Mottled boars. They are all over this area.|S|
 A Vile Familiars|QID|1485|M|42.59,69.00|N|From Ruzan. This is your first Warlock class quest to unlock your Imp.|R|Orc,Troll|C|Warlock|
 K Vile Familiars|QID|1485|M|45.17,57.12|QO|1|N|Kill the Vile Familiars in front of the cave.\nDon't worry about their level. They don't hit very hard if you are using your Demon Skin buff.|R|Orc,Troll|C|Warlock|
 K Cutting Teeth|QID|788|M|44.23,66.39|QO|1|N|Kill Mottled boars. They are all over this area.|US|
 
-r Sell junk/reload|QID|788|M|42.59,67.34|N|At Duokna to pay for your upcoming training. Do not go to the vendors inside the Den. You will need the money that will be spent on repairs.\nRight-click to close this step.|
+r Sell junk/reload|ACTIVE|788|M|42.59,67.34|N|At Duokna to pay for your upcoming training. Do not go to the vendors inside the Den. You will need the money that will be spent on repairs.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Vile Familiars|QID|1485|M|42.59,69.00|N|To Ruzan.|R|Orc,Troll|C|Warlock|
 A Vile Familiars|QID|1499|M|42.59,69.00|N|From Ruzan.|PRE|1485|R|Orc,Troll|C|Warlock|
 T Vile Familiars|QID|1499|M|42.85,69.15|N|To Zureetha Fargaze.|R|Orc,Troll|C|Warlock|
@@ -51,21 +51,21 @@ T Tainted Parchment|QID|3090|N|To Nartok at the very back of the Den. Also train
 ; ---
 
 A Galgar's Cactus Apple Surprise|QID|4402|M|42.73,67.24|N|From Galgar.|PRE|788|
-l Galgar's Cactus Apple Surprise|QID|4402|M|43.30,64.23|QO|1|N|Collect Cactus apples from random cactuses around the area.|S|
-C Sting of the Scorpid|QID|789|M|41.61,63.61|N|Kill Scorpid Workers for their tails.|S|
+l Galgar's Cactus Apple Surprise|ACTIVE|4402|M|43.30,64.23|QO|1|N|Collect Cactus apples from random cactuses around the area.|S|
+C Sting of the Scorpid|QID|789|M|41.61,63.61|QO|1|N|Kill Scorpid Workers for their tails.|S|
 A Sarkoth|QID|790|M|40.63,62.63|N|From Hana'zua.|
 C Sarkoth|QID|790|M|40.66,65.73|QO|1|N|Kill Sarkoth and loot his Mangled Claw. He is a level 4 mob.|T|Sarkoth|
 T Sarkoth|QID|790|M|40.59,62.59|N|To Hana'zua.|
 A Sarkoth|QID|804|M|40.59,62.59|N|From Hana'zua.|PRE|790|
-C Sting of the Scorpid|QID|789|M|41.61,63.61|N|Kill Scorpid Workers for their tails.|US|
-l Galgar's Cactus Apple Surprise|QID|4402|M|43.30,64.23|QO|1|N|Finish collecting your Cactus apples.|US|
+C Sting of the Scorpid|QID|789|M|41.61,63.61|QO|1|N|Kill Scorpid Workers for their tails.|US|
+l Galgar's Cactus Apple Surprise|ACTIVE|4402|M|43.30,64.23|QO|1|N|Finish collecting your Cactus apples.|US|
 L Level 4|QID|4402^789^804|N|Grind until your xp bar is at least halfway to level 4. The three quests we are about to turn in will make you level.|LVL|3;-700|
 
 T Galgar's Cactus Apple Surprise|QID|4402|M|42.73,67.24|N|To Galgar.|
 r Sell junk/reload|ACTIVE|789^804|M|42.59,67.34|N|At Duokna. Make sure you have room to turn in your quests.\nRight-click this step when you're done.|
 T Sting of the Scorpid|QID|789|M|42.06,68.33|N|To Gornek.|
 T Sarkoth|QID|804|M|42.06,68.33|N|To Gornek.|
-= Train|QID|5441|N|Go learn your level 4 skills/spells.\nRight-click this step when you are done.|LVL|4|
+= Train|ACTIVE|5441|N|Go learn your level 4 skills/spells.\nRight-click this step when you are done.|LVL|4|
 A Call of Earth|QID|1516|M|42.41,69.16|N|From Canaga Earthcaller.|R|Orc,Troll|C|Shaman|
 A Vile Familiars|QID|792|M|42.85,69.15|N|From Zureetha Fargaze.|C|-Warlock|
 A Lazy Peons|QID|5441|M|44.62,68.65|N|From Foreman Thazz'ril.|
@@ -90,12 +90,12 @@ T Call of Earth|QID|1518|M|42.41,69.16|N|To Canaga Earthcaller.|R|Orc,Troll|C|Sh
 r Sell junk/reload|ACTIVE|794|M|42.59,67.34|N|At Duokna.\nRight-click this step when done.|
 R Burning Blade Coven|ACTIVE|6394|M|45.31,56.57|N|Head back to the cave entrance you were just at.|
 C Burning Blade Medallion|QID|794|M|42.70,52.91|N|Take the right passage and continue over the stream to the first fork. At the fork, go to the right and head for the opening at the end of the tunnel. Kill Yarrog Baneshadow and loot the Burning Blade Medallion from him.|
-l Thazz'ril's Pick|QID|6394|M|43.73,53.79|QO|1|N|Drop off the ledge and make your way to the other side, atop the waterfall. Follow the stream to the pool at the top. On the far side of the pool, you'll find the Pick leaning against a spire.|
+l Thazz'ril's Pick|ACTIVE|6394|M|43.73,53.79|QO|1|N|Drop off the ledge and make your way to the other side, atop the waterfall. Follow the stream to the pool at the top. On the far side of the pool, you'll find the Pick leaning against a spire.|
 R Exit cave|ACTIVE|6394|M|45.25,56.62|N|Make your way to the exit.|IZ|365|
 T Thazz'ril's Pick|QID|6394|M|44.62,68.65|N|Return to Foreman Thazz'ril.|
 T Burning Blade Medallion|QID|794|M|42.85,69.15|N|To Zureetha Fargaze.|
 A Report to Sen'jin Village|QID|805|M|42.85,69.15|N|From Zureetha Fargaze.|PRE|794|
-r Repair/Restock|QID|805|M|42.59,67.34|N|At Duokna.\nRight-click this step when you're done.|
+r Repair/Restock|ACTIVE|805|M|42.59,67.34|N|At Duokna.\nRight-click this step when you're done.|
 
 N Mage Trainer|QID|805|N|[color=FF0000]NOTE: [/color]Mai'ah (Valley of Trials) and Un'Thuwa (Sen'jin Village) are the only Mage trainers in Durotar. After level 6, Mai'ah will no longer train you. You either go to Orgrimmar, or you return to Sen'jin Village.|C|Mage|
 L Level 6|QID|805|N|You'll want to be level 6 before you leave Sen'jin. You won't be back here for a while and you'll want to do your level 6 training before leaving.\nGrind on your way to Sen'jin Village.|LVL|5;-225|C|Mage|S|
@@ -113,7 +113,7 @@ A Practical Prey|QID|817|M|55.95,73.93|N|From Vel'rin Fang.|
 A Thwarting Kolkar Aggression|QID|786|M|54.29,73.23|N|From Lar Prowltusk. If he's not here by the tree, wait a few minutes for him to return. If you chose not to wait for him, you can find him just SW of your location.|
 A A Peon's Burden|QID|2161|M|52.05,68.32|N|From Ukor, at the sign post.|
 
-R Razor Hill|QID|2161|M|52.48,44.42|N|Follow the road north to Razor Hill, or go cross country to do some grinding.|
+R Razor Hill|ACTIVE|2161|M|52.48,44.42|N|Follow the road north to Razor Hill, or go cross country to do some grinding.|
 L Level 6|QID|805|N|Grind to level 6 if you are not there yet.|LVL|5;-315|
 T Report to Orgnil|QID|823|M|52.24,43.15|N|To Orgnil Soulscar.|
 A Dark Storms|QID|806|M|52.24,43.15|N|From Orgnil Soulscar.|PRE|823|
@@ -159,12 +159,12 @@ C A Solvent Spirit|ACTIVE|818|M|60.33,49.85|N|Kill Makrura to loot the Eyes and 
 K Encroachment|QID|837|M|51.03,48.31|QO|1;2|N|Head southwest of Razor Hill and kill Razormane Quillboars and Scouts.|
 L Level 8|QID|825|N|You should be level 8 or shortly before. Grind a bit on the Razormane in the area.|LVL|7;-700|
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|
-r Repair/Restock|QID|786|M|51.90,41.14|N|At Wuark.|
-= Train|QID|786|N|Go learn your level 8 skills/spells. Right-click this step off once you are done.|C|-Mage|
-R Sen'jin Village|QID|786|M|54.33,72.91|N|Head to Sen'jin Village.|C|Mage|
-= Train|QID|786|N|Learn your level 8 spells. Right-click this step off once you are done.|C|Mage|
+r Repair/Restock|ACTIVE|786|M|51.90,41.14|N|At Wuark.|
+= Train|ACTIVE|786|N|Go learn your level 8 skills/spells. Right-click this step off once you are done.|C|-Mage|
+R Sen'jin Village|ACTIVE|786|M|54.33,72.91|N|Head to Sen'jin Village.|C|Mage|
+= Train|ACTIVE|786|N|Learn your level 8 spells. Right-click this step off once you are done.|C|Mage|
 
-R Kolkar Crag|QID|786|M|50.84,79.13|N|Run south to the Kolkar Crag.|
+R Kolkar Crag|ACTIVE|786|M|50.84,79.13|N|Run south to the Kolkar Crag.|
 C Thwarting Kolkar Aggression|QID|786|M|49.82,81.30|QO|1|N|Enter Kolkar Crag and head into the alcove to your left.\nClick on the 'Attack Plan: Valley of Trials' to destroy it. It's on the ground inside the tent.|NC|
 C Thwarting Kolkar Aggression|QID|786|M|47.66,77.33|QO|2|N|Continue west into Kolkar Crag and go right at the fork.\nClick on the 'Attack Plan: Sen'jin Village' to destroy it. It's on the ground beneath the canopy.|NC|
 C Thwarting Kolkar Aggression|QID|786|M|46.22,78.96|QO|3|N|Head back to the fork and go to the right of it\nClick on the 'Attack Plan: Orgrimmar' to destroy it. It's on the ground beneath the canopy.\n[color=FF0000]NOTE: [/color]The 3 guards won't be cleared as easily as the previous ones. All three of them are range attackers. Approach them accordingly.|NC|
@@ -190,17 +190,17 @@ R Razormane Grounds|ACTIVE|837|M|44.53,40.85|QO|1;2|N|Head west out of Razor Hil
 K Encroachment|QID|837|M|43.94,40.46|QO|3;4|N|Kill Razormane Dustunners and Battleguards.\n[color=FF0000]NOTE: [/color]Don't get too close to the village (where the fire is). There is an 11 elite in there, Captain Flat Tusk.|
 A Lost But Not Forgotten|QID|816|M|43.10,30.24|N|From Misha Tor'kren.|
 A Winds in the Desert|QID|834|M|46.37,22.94|N|From Rezlak.|
-l Winds in the Desert|QID|834|M|49.86,24.32|L|4918 5|N|Walk east across the road to the entrance of the Razorwind Canyon. Loot the Sacks of Supplies on the ground.|
+l Winds in the Desert|ACTIVE|834|M|49.86,24.32|L|4918 5|N|Walk east across the road to the entrance of the Razorwind Canyon. Loot the Sacks of Supplies on the ground.|
 T Winds in the Desert|QID|834|M|46.37,22.94|N|To Rezlak.|
 A Securing the Lines|QID|835|M|46.37,22.94|N|From Rezlak.|PRE|834|
 
 L Level 10|QID|837|N|You'll want to be level 10 when you turn in your next quest in Razor Hill. Grind on harpies until you are 2 bubbles from leveling.|LVL|9;-630|
 T Encroachment|QID|837|M|51.95,43.50|N|To Gar'Thok in Razor Hill.|
 
-= Train|QID|840|N|Go learn your level 10 skills/spells. Right-click this step off once you are done.|LVL|10|C|-Mage|IZ|362|
-R Sen'jin Village|QID|840|M|54.33,72.91|N|Head to Sen'jin Village.|LVL|10|C|Mage|
-= Train|QID|840|N|Learn your level 10 spells. Right-click this step off once you are done.|LVL|10|C|Mage|
-R Razor Hill|QID|840|M|52.48,44.42|N|Return to Razor Hill.|LVL|10|C|Mage|
+= Train|ACTIVE|840|N|Go learn your level 10 skills/spells. Right-click this step off once you are done.|LVL|10|C|-Mage|IZ|362|
+R Sen'jin Village|ACTIVE|840|M|54.33,72.91|N|Head to Sen'jin Village.|LVL|10|C|Mage|
+= Train|ACTIVE|840|N|Learn your level 10 spells. Right-click this step off once you are done.|LVL|10|C|Mage|
+R Razor Hill|ACTIVE|840|M|52.48,44.42|N|Return to Razor Hill.|LVL|10|C|Mage|
 
 ; --- Level 10 Class Quests
 ; --- Hunter (Only quest chain that is done in Razor Hill)
@@ -303,7 +303,7 @@ R Exit Thunder Ridge|ACTIVE|806^1498|M|39.18,32.29|CC|N|Run back to the entrance
 T Lost But Not Forgotten|QID|816|M|43.11,30.22|N|To Misha Tor'kren.|
 T Dark Storms|QID|806|M|52.25,43.16|N|To Orgnil Soulscar.|
 A Margoz|QID|828|M|52.25,43.16|N|From Orgnil Soulscar.|PRE|806|
-r Repair/Restock|QID|828|M|51.90,41.15|N|At Flakk.|
+r Repair/Restock|ACTIVE|828|M|51.90,41.15|N|At Flakk.|
 
 ; --- Mage class quest cont.
 R Sen'jin Village|ACTIVE|1883|M|54.33,72.91|N|Leave by the south gate and head south to Sen'jin Village.|R|Troll|C|Mage|
@@ -313,7 +313,7 @@ C Ju-Ju Heaps|QID|1884|M|69,84|QO|1|N|They are in the 4 huts on the main island 
 T Ju-Ju Heaps|QID|1884|M|56.31,75.11|N|To Un'Thuwa.|R|Troll|C|Mage|
 H Razor Hill|QID|835|N|Hearth back to Razor Hill. If your hearth is on CD, run back.|R|Troll|C|Mage|
 ; ---
-R Drygulch Ravine|QID|835|M|54.26,39.79;53.51,28.68;53.76,27.72|CC|N|Head to Drygulch Ravine. You can go the long way around through Razorwind Canyon, or take the shortcut this way.|
+R Drygulch Ravine|ACTIVE|835|M|54.26,39.79;53.51,28.68;53.76,27.72|CC|N|Head to Drygulch Ravine. You can go the long way around through Razorwind Canyon, or take the shortcut this way.|
 K Securing the Lines|ACTIVE|835|M|53.99,27.78|QO|1;2|N|Drop off the ledge and work your way through the Ravine killing Dustwind Storm Witches and Savages.|
 T Securing the Lines|QID|835|M|53.71,27.77;50.61,26.49;46.41,22.96|CC|N|To Rezlak.|
 T Margoz|QID|828|M|51.25,16.49;56.36,20.04|CC|N|To Margoz.|
@@ -346,18 +346,18 @@ R Far Watch Post|ACTIVE|809|M|62.87,8.66;61.89,19.05|Z|The Barrens|CC|N|Cross th
 T Ak'Zeloth|QID|809|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth.|
 A The Demon Seed|QID|924|M|62.34,20.07|Z|The Barrens|N|From Ak'Zeloth.|PRE|809|
 A Flawed Power Stone|QID|926|ACTIVE|924|M|62.34,20.04|Z|The Barrens|L|4986 1|N|Pick up one of the stones from the table beside you. You have 30 minutes to complete the quest before the stone expires.\n\nThis quest becomes repeatable in case you lose the stone.|
-R The Altar of Fire|QID|924|M|51.12,22.70;47.72,19.51;47.91,19.83|Z|The Barrens|CC|N|Go up here to get to the Altar of Fire.|
+R The Altar of Fire|ACTIVE|924|M|51.12,22.70;47.72,19.51;47.91,19.83|Z|The Barrens|CC|N|Go up here to get to the Altar of Fire.|
 C The Demon Seed|QID|924|M|47.96,19.09|Z|The Barrens|QO|1|N|Work your way inside Dreadmist Den and click on the altar to destroy the stone.\n[color=FF0000]NOTE: [/color]Be aware that there is a chance Rathorian (level 15 rare) will spawn beside the altar.|NC|
-R Leave Dreadmist Peak|QID|924|M|49.15,20.31;51.13,22.65|Z|The Barrens|CC|N|Exit the cave and head back down the mountain.|
+R Leave Dreadmist Peak|ACTIVE|924|M|49.15,20.31;51.13,22.65|Z|The Barrens|CC|N|Exit the cave and head back down the mountain.|
 T The Demon Seed|QID|924|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth at Far Watch Post.|
-R The Crossroads|QID|842|ACTIVE|842|M|52.34,29.34|Z|The Barrens|CC|N|Go to the Crossroads.\n[color=FF0000]NOTE: [/color]Sticking to the road is a safe bet. There are mobs that are a few levels above you along your route.|
+R The Crossroads|ACTIVE|842|M|52.34,29.34|Z|The Barrens|CC|N|Go to the Crossroads.\n[color=FF0000]NOTE: [/color]Sticking to the road is a safe bet. There are mobs that are a few levels above you along your route.|
 A Meats to Orgrimmar|QID|6365|M|52.62,29.84|Z|The Barrens|N|From Zargh.|
 T Crossroads Conscription|QID|842|M|52.24,31.01|Z|The Barrens|N|To Sergra Darkthorn.|
 A Plainstrider Menace|QID|844|M|52.24,31.01|Z|The Barrens|N|From Sergra Darkthorn.|
-f Crossroads|QID|844|M|51.50,30.33|Z|The Barrens|N|At Devrak.|TAXI|-Crossroads|
+f Crossroads|ACTIVE|844|M|51.50,30.33|Z|The Barrens|N|At Devrak.|TAXI|-Crossroads|
 T Meats to Orgrimmar|QID|6365|M|51.50,30.33|Z|The Barrens|N|To Devrak.|
 A Ride to Orgrimmar|QID|6384|M|51.50,30.33|Z|The Barrens|N|From Devrak.|PRE|6365|
-F Orgrimmar|QID|6384|M|51.50,30.33|Z|The Barrens|N|Fly to Orgrimmar.|
+F Orgrimmar|ACTIVE|6384|M|51.50,30.33|Z|The Barrens|N|Fly to Orgrimmar.|
 T Ride to Orgrimmar|QID|6384|M|54.09,68.43|Z|Orgrimmar|N|To Innkeeper Gryshka.|
 A Doras the Wind Rider Master|QID|6385|M|54.09,68.43|Z|Orgrimmar|N|From Innkeeper Gryshka.|PRE|6384|
 T Doras the Wind Rider Master|QID|6385|M|45.12,63.89|Z|Orgrimmar|N|To Doras.|
