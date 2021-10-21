@@ -536,6 +536,7 @@ F Booty Bay|ACTIVE|1182|M|32.54,29.35|Z|Stranglethorn Vale|
 T Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 A Goblin Sponsorship|QID|1183|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz.|PRE|1182|
 T Bloodscalp Ears|QID|189|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
+A Skullsplitter Tusks|QID|209|M|27.00,77.13|Z|Stranglethorn Vale|N|From Kebok.|PRE|189|
 T Hostile Takeover|QID|213|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
 T Investigate the Camp|QID|201|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek.|
 T Supply and Demand|QID|575|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
@@ -590,6 +591,7 @@ F Booty Bay|ACTIVE|577|M|32.54,29.35|Z|Stranglethorn Vale|
 T Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
 A Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|577|
 T Singing Blue Shards|QID|605|M|27.12,77.22|Z|Stranglethorn Vale|N|To Crank Fizzlebub.\n[color=FF0000]NOTE: [/color]He's standing beside the bar in the Tavern.|
+A Venture Company Mining|QID|600|M|27.12,77.22|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|PRE|605|
 N Bank/AH|ACTIVE|638|N|Before leaving for Dustwallow Marsh, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|IZ|503;Booty Bay|
 ;;; --- Kalimdor
 ;;F Grom'gol Base Camp|AVAILABLE|676|M|26.87,77.09|Z|Stranglethorn Vale|
@@ -801,10 +803,30 @@ R Grom'gol Base Camp|ACTIVE|584|M|35.5,15.1;38.5,23.6;32.87,28.73|Z|Stranglethor
 T Bloodscalp Clan Heads|QID|584|M|32.22,27.60|Z|Stranglethorn Vale|N|To the Bubbling Cauldron.|
 A Speaking with Nezzliok|QID|585|M|32.22,27.60|Z|Stranglethorn Vale|N|From the Bubbling Cauldron.|PRE|584|
 A Speaking with Gan'zulah|QID|586|M|32.22,27.60|Z|Stranglethorn Vale|N|From the Bubbling Cauldron.|PRE|584|
-R Venture Co. Base Camp|ACTIVE|193|M|44.82,25.69|Z|Stranglethorn Vale|N|Head to the main road and follow it south across the bridge over the river.|
-K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|Z|Stranglethorn Vale|CN|QO|1|N|You'll find Bhag'thera in 1 of 3 locations. When you find him, kill him to loot his fang.\n[color=FF0000]NOTE: [/color]As you are moving between the spots, be sure to give the elite Ogres around the entrance to Mosh'Ogg a VERY wide berth.|T|Bhag'thera|
-C Split Bone Necklace|QID|598|M|44.91,38.17|Z|Stranglethorn Vale|L|3916 25|N|Kill Skullsplitter mobs to collect the Split Bone Necklace.\n[color=FF0000]NOTE: [/color]The Skullspliters are spread over a very large area.|
+F Booty Bay|ACTIVE|628|M|32.54,29.35|Z|Stranglethorn Vale|
+T Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
+A Scaring Shaky|QID|606|M|27.78,77.07|Z|Stranglethorn Vale|N|From "Sea Wolf" MacKinley.|
+A Akiris by the Bundle|QID|617|M|27.43,76.79;26.76,76.38|Z|Stranglethorn Vale|CN|N|From Privateer Bloads.\n[color=FF0000]NOTE: [/color]If he's not here, check down by the bank.|
+A The Bloodsail Buccaneers|QID|595|M|28.10,76.22|Z|Stranglethorn Vale|N|From First Mate Crazz.|
+R The Cape of Stranglethorn|ACTIVE|617^595|M|27.9,73.8;29.61,72.37|Z|Stranglethorn Vale|CC|N|Make your up to the tunnel and go through it to the other side.|
+
+
 N Under Construction|QID|9999|N|From this point on, the guide is incomplete.|
+
+R Venture Co. Base Camp|ACTIVE|193|M|44.82,25.69|Z|Stranglethorn Vale|N|Follow the east road out of Grom'gol back up to the main road and continue east across the bridge.|
+K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|Z|Stranglethorn Vale|CN|QO|1|N|You'll find Bhag'thera in 1 of 3 locations. When you find him, kill him to loot his fang.\n[color=FF0000]NOTE: [/color]As you are moving between the spots, be sure to give the elite Ogres around the entrance to Mosh'Ogg a VERY wide berth.|T|Bhag'thera|
+R Balia'mah Ruins|ACTIVE|598^585^586|M|46.26,30.14|
+C Split Bone Necklace|QID|598|M|44.91,38.17|Z|Stranglethorn Vale|L|3916 25|N|Kill Skullsplitter mobs to collect the Split Bone Necklace.|S|
+C Balia'mah Trophy|QID|585|M|46.14,32.33|Z|Stranglethorn Vale|L|3906|N|Clear the area around the Balia'mah Trophy Skulls and go collect one.|
+R Ziata'jai Ruins|ACTIVE|598^585^586|M|44.18,33.50|Z|Stranglethorn Vale|N|Follow the road south out of Balia'mah.|
+C Ziata'jai Trophy|QID|585|M|42.21,36.11|Z|Stranglethorn Vale|L|3907|N|Clear the area around the Ziata'jai Trophy Skulls and go collect one.|
+R Ruins of Zul'Mamwe|ACTIVE|598^585^586|M|43.69,40.19|Z|Stranglethorn Vale|N|Follow the road southeast out of Ziata'jai.|
+K Skullsplitters|ACTIVE|586|QO|1;2;3|N|Kill Skullsplitter Hunters, Skullsplitter Headhunters, and Skullsplitter Berserkers.|S|
+C Zul'Mamwe Trophy|QID|585|M|47.65,39.54|Z|Stranglethorn Vale|L|3908|N|Clear the area around the Zul'Mamwe Trophy Skulls and go collect one.|
+K Ana'thek the Cruel|ACTIVE|586|M|45.0,43.0|Z|Stranglethorn Vale|L|3909|N|Kill Ana'thek and loot the armor.|T|Ana'thek|
+K Skullsplitters|ACTIVE|586|QO|1;2;3|N|finish killing Skullsplitter Hunters, Skullsplitter Headhunters, and Skullsplitter Berserkers.|US|
+C Venture Company Mining|QID|600|M|27.12,77.22|Z|Stranglethorn Vale|L|3917 10|N|Kill Venture Co. employees to loot the Singing Blue Crystals.|
+
 
 ;A Scaring Shaky|QID|606|M|27.78,77.07|Z|Stranglethorn Vale|N|From "Sea Wolf" MacKinley.|
 ;A The Bloodsail Buccaneers|QID|595|M|28.09,76.22|Z|Stranglethorn Vale|N|From First Mate Crazz.|
