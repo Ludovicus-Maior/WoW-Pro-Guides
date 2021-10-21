@@ -38,6 +38,7 @@ T Hallowed Rune|QID|3110|C|Priest|R|Dwarf|M|28.60,66.38|N|To Branstock Khalder i
 T Simple Rune|QID|3106|C|Warrior|R|Dwarf|M|28.83,67.24|N|To Thran Khorman in Anvilmar.\nGrab your lv 2 training while you're here.|
 T Consecrated Rune|QID|3107|C|Paladin|R|Dwarf|M|28.83,68.33|N|To Bromos Grummner.\nGrab your lv 2 training while you're here.|
 T Tainted Memorandum|QID|3115|C|Warlock|R|Gnome|M|28.65,66.14|N|To Alamar Grimm.\nGrab your lv 2 training while you're here.|
+A Beginnings|QID|1599|M|28.65,66.14|N|From Alamar Grimm.|C|Warlock|R|Gnome| ; Summon Imp quest
 T Glyphic Memorandum|QID|3114|C|Mage|R|Gnome|M|28.71,66.37|N|To Marryk Nurribit.\nGrab your lv 2 training while you're here.|
 T Encrypted Memorandum|QID|3113|C|Rogue|R|Dwarf|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.\nGrab your lv 2 training while you're here.|
 T Simple Memorandum|QID|3112|C|Warrior|R|Gnome|M|28.83,67.24|N|To Thran Khorman in Anvilmar.\nGrab your lv 2 training while you're here.|
@@ -56,16 +57,18 @@ C The Troll Cave|QID|182|M|26.3,78.8|S|N|Kill Frostmane Troll Whelp|T|Frostmane 
 C Felix's Box|QID|3361|M|20.88,76.07|QO|1|NC|N|Loot Felix's Box from the ground in front of the tent.|
 C Felix's Chest|QID|3361|M|22.78,80.00|QO|2|NC|N|Loot Felix's Chest from the ground in front of the tent.|
 C Felix's Bucket of Bolts|QID|3361|M|26.33,79.28|QO|3|NC|N|Loot Felix's Bucket of Bolts from the ground outside the cave.|
+C Beginnings|QID|1599|M|28.69,83.13;29.01,82.63;29.06,81.21;30.13,82.44;30.42,80.79|CS|QO|1|N|Work your way inside the cave towards the back of it; sticking to the right the whole way in.\n[color=FF0000]NOTE: [/color]There are 5 Frostmane Novices and the droprate is 100%.|C|Warlock|R|Gnome|
 C The Troll Cave|QID|182|US|M|26.3,78.8|N|Kill Frostmane Troll Whelp|T|Frostmane Troll Whelp|
 T The Troll Cave|QID|182|M|25.08,75.71|N|To Grelin Whitebeard.|
 A The Stolen Journal|QID|218|PRE|182|M|25.08,75.71|N|From Grelin Whitebeard.|
 L Level 4|QID|3364|LVL|4|N|You need to be level 4 to continue with this guide.|
 A Scalding Mornbrew Delivery|QID|3364|PRE|179|M|24.98,75.94|N|From Nori Pridedrift. On accepting the quest, a 5 minute timer will start.|
-T Scalding Mornbrew Delivery|QID|3364|M|28.78,66.66|N|To Durnan Furcutter, at the back of Anvilmar|
-A Bring Back the Mug|QID|3365|PRE|3364|M|28.78,66.66|N|From Durnan Furcutter|
-r Sell and Repair|ACTIVE|3361|M|28.78,66.66|N|Repair and sell your junk to Durnan furcutter.|
+T Scalding Mornbrew Delivery|QID|3364|M|28.77,66.37|N|To Durnan Furcutter, at the back of Anvilmar|
+A Bring Back the Mug|QID|3365|PRE|3364|M|28.77,66.37|N|From Durnan Furcutter|
+r Sell and Repair|ACTIVE|3361|M|28.77,66.37|N|Repair and sell your junk to Durnan furcutter.|
 T A Refugee's Quandary|QID|3361|M|28.52,67.68|N|To Felix Whindlebolt|
-N Level 4 class training|ACTIVE|183|N|Get your level 6 spells/skills.|
+T Beginnings|QID|1599|M|28.65,66.14|N|To Alamar Grimm.|C|Warlock|R|Gnome|
+= Level 4 training|ACTIVE|183|N|Get your level 4 spells/skills.|
 
 R Troll Cave|QID|218|ACTIVE|218|M|27.0,80.35|CC|N|Run back to the troll cave.|
 K Grik'nir The Cold|QID|218|QO|1|T|Grik'nir The Cold|M|30.5,80.2|N|Kill and loot Grik'nir The Cold for the journal. He can be found by turning left (taking the northern fork) in the cave and going all the way to the back.|
