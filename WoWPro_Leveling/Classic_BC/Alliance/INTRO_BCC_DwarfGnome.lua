@@ -50,7 +50,7 @@ r Sell and Repair|ACTIVE|233|M|28.71,67.85|N|Repair and sell your junk to Rybrad
 T Coldridge Valley Mail Delivery|QID|233|M|28.66,70.45;22.60,71.43|CS|N|To Talin Keeneye. Exit Anvilmar and follow the road west.|
 A Coldridge Valley Mail Delivery|QID|234|PRE|233|M|22.60,71.43|N|From Talin Keeneye.|
 A The Boar Hunter|QID|183|M|22.60,71.43|N|From Talin Keeneye.|
-C The Boar Hunter|QID|183|M|22.0,72.0|S|N|Kill Small Crag Boar.|T|Small Crag Boar|
+C The Boar Hunter|QID|183|M|22.0,72.0|S|N|Kill Small Crag Boar.|
 T Coldridge Valley Mail Delivery|QID|234|M|25.08,75.71|N|To Grelin Whitebeard.|
 A The Troll Cave|QID|182|M|25.08,75.71|N|From Grelin Whitebeard.|
 C The Troll Cave|QID|182|M|26.3,78.8|S|N|Kill Frostmane Troll Whelp|T|Frostmane Troll Whelp|
@@ -92,7 +92,7 @@ L Level 5|QID|3364|LVL|5|N|You need to be level 5 to continue with this guide.|
 A Beer Basted Boar Ribs|QID|384|M|46.82,52.36|N|From Ragnar Thunderbrew|
 N Learn Apprentice First Aid |QID|2160|ACTIVE|2160|M|47.18,52.59|S|N|If you want to learn First Aid, now is your chance with Thamner Pol, in the corner of the inn.|
 N Learn Apprentice Cooking |QID|2160|ACTIVE|2160|M|47.67,52.30|S|N|If you want to learn Cooking, now is your chance with Gremlock Pilsnor, at the back of the Inn.|
-N Level 6 class skills |QID|2160|ACTIVE|2160|S|LVL|6|N|Remember to visit your class trainer to learn your Level 6 skill!|
+= Level 6 class skills |QID|2160|ACTIVE|2160|S|LVL|6|N|Remember to visit your class trainer to learn your Level 6 skill!|
 T Supplies to Tannok|QID|2160|M|47.22,52.19|N|To Tannok Frosthammer, inside the inn.|
 h Thunderbrew Distillery|QID|400|M|47.38,52.53|N|Make Kharanos your home with Innkeeper Belm.|
 T In Favor of the Light|QID|5626|C|Priest|R|Dwarf|N|To Maxan Anvol|
