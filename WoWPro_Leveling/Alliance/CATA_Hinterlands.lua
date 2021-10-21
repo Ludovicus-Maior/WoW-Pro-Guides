@@ -4,13 +4,12 @@ WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
-R The Hinterlands|QID|26546|M|43.36,45.18;36.71,31.15;38.45,22.89;39.32,19.03|Z|Arathi Highlands|CN|N|Follow the waypoints to The Hinterlands.\n\nFor players up to level 33 only, there is a bread-crumb quest from Ironforge Hero's Callboard or from Captain Nials in Aerie Peak.|
-R Aerie Peak|QID|26546|M|26.29,69.07;26.21,55.04;20.13,53.66;14.17,48.03|CN|N|Follow the waypoints to Aerie Peak.|
-f Aerie Peak|QID|26546|M|12.9,48.3;11.36,49.09;12.17,47.29;11.17,46.06|CN|N|At Guthrum Thunderfist.|
-T Hero's Call: The Hinterlands!|QID|26542|M|9.96,44.31|N|To Gryphon Master Talonaxe.|ACTIVE|26542|
+R The Hinterlands|QID|26546|M|43.3,45.1;36.7,31.1;38.4,22.8;39.3,19.0|Z|Arathi Highlands|CS|N|Follow the waypoints to The Hinterlands.\n\nFor players up to level 33 only, there is a bread-crumb quest from Ironforge Hero's Callboard or from Captain Nials in Aerie Peak.|
+R Aerie Peak|QID|26546|M|14.1,48.0|Z|The Hinterlands|N|Follow the waypoints to Aerie Peak.|
+f Aerie Peak|QID|26546|M|11.17,46.06|N|At Guthrum Thunderfist.|
+T Hero's Call: The Hinterlands!|ACTIVE|26542|M|9.96,44.31|N|To Gryphon Master Talonaxe.|
 A Razorbeak Friends|QID|26546|M|9.96,44.31|N|From Gryphon Master Talonaxe.|
 A A Mangy Threat|QID|26547|M|9.96,44.31|N|From Gryphon Master Talonaxe.|
-;h Wildhammer Keep|QID|26547|M|14.14,44.78|N|Set your hearth to Wildhammer Keep at Innkeeprer Thulfram.|
 C A Mangy Threat|QID|26547|M|21.00,53.91|N|Kill the Mangy Silvermanes around the area.|S|
 C Razorbeak Friends|QID|26546|U|58935|M|15.43,52.23;23.26,54.02|CN|N|Target a Trained Razorbeak and use the Gryphon Chow on them.|NC|T|Trained Razorbeak|
 C A Mangy Threat|QID|26547|M|21.00,53.91|N|Finish killing the wolves as you make your way back to Aerie Peak.|US|
@@ -141,11 +140,7 @@ F Aerie Peak|QID|26532|M|66.3,44.4|N|Your final destination is Aerie Peak, eithe
 H Stormfeather Outpost|QID|26532|M|57.8,50.2|N|Hearthstone, or run to Stormfeather Outpost.|
 F Aerie Peak|QID|26532|M|66.3,44.4|N|Fly to Aerie Peak.|US|
 T Shadra the Venom Queen|QID|26532|M|9.94,44.27|N|To Gryphon Master Talonaxe.|
-F Booty Bay|QID|836|ACTIVE|836|M|43,72|Z|The Cape of Stranglethorn|N|Fly to Booty Bay in The Cape of Stranglethorn. Do *NOT* accept the quest The Battle for Andorhal if you want to be teleported from Booty Bay to Westland Plaguelands.\n\nIf you don't have Booty Bay on your Flight Plan, fly to Goldshire and then run south through Duskwood, Stranglethorn Jungle and The Cape of Stranglethorn.|
+F Booty Bay|QID|836|ACTIVE|836|M|11.09,46.09|N|Fly to Booty Bay in The Cape of Stranglethorn.|
 T Rescue OOX-09/HL!|QID|836|ACTIVE|836|N|To Oglethorpe Obnoticus in Booty Bay, The Cape of Stranglethorn.|M|43,72|Z|The Cape of Stranglethorn|
-A The Battle for Andorhal|QID|28749|LEAD|27159|M|41.55,74.35|Z|The Cape of Stranglethorn|N|From War-Mage Erallier. Located at the foot of the Gryphon's Nest. On accepting the quest, ask War-Mage Erallier to prepare a portal to Andorhal for you.|
-F Andorhal|QID|28749|ACTIVE|28749|N|Speak to War-Mage Erallier and ask for a Teleport to Andorhal.|
-A The Battle for Andorhal|QID|28505|LEAD|27159|N|From Gryphon Master Talonaxe.|
-F Andorhal|QID|28505|ACTIVE|28505|N|Speak with Guthrum Thunderfist to fly to Andorhal in Western Plaguelands. Then report to Thassarian within Andorhal.|
 ]]
 end)

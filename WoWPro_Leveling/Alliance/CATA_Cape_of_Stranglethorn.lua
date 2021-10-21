@@ -143,7 +143,7 @@ C Mok'rash the Cleaver|QID|26601|M|35.15,65.70|N|Swim West to the Island. Kill M
 T Mok'rash the Cleaver|QID|26601|M|41.80,72.82;40.33,67.85|CC|N|To Captain Hecklebury Smotts.|
 T Getting In With the Bloodsail|QID|26624|M|45.81,65.48;45.45,56.16;43.84,56.46|CS|N|Up the path to Yancey Grillsen.|
 A Seeing Where Your Loyalties Lie|QID|26629|PRE|26624|M|45.81,65.48;43.84,56.46|CC|N|From Yancey Grillsen.|
-A Looks Like a Tauren Pirate to Me|QID|26630|M|41.14,73.25|N|From Fleet Master Seahorn.|
+A Looks Like a Tauren Pirate to Me|QID|26630|M|41.14,73.25|N|From Fleet Master Seahorn.|REP|Bloodsail Buccaneers;87;friendly|
 C Cow Head|QID|26630|QO|3|L|59147|M|43.24,71.67|N|Go upstairs and talk to Bossy the Cow.|
 l Oversized Pirate Hat|QID|26630|QO|2|L|59148|M|42.72,69.13|N|Talk to Narkk at The Old Port Authority and get the hat from him.|
 C Looks Like a Tauren Pirate to Me|QID|26630|M|41.06,73.28|N|Take the Head and Hat to the Fleetmaster.|NC|

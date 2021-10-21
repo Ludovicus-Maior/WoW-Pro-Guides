@@ -247,7 +247,6 @@ T Nobody to Blame but Myself|QID|27489|M|50.46,20.27|N|To Tarenar Sunstrike.|
 A Beat it Out of Them|QID|27522|PRE|27489|M|50.46,20.27|N|From Tarenar Sunstrike.|
 A Wretched Hive of Scum and Villainy|QID|27521|M|50.10,19.57|N|From Kirkian Dawnshield.|
 f Northpass Tower|QID|27521|M|51.29,21.21|N|At Grayson Ironwing.|
-A A City Under Siege|QID|27422|M|51.55,21.36|N|From Argent Officer Irizarry. This is optional as it leads into Stratholme.|
 A Duskwing, Oh How I Hate Thee...|QID|27523|M|48.11,23.01|N|From Corpseburner Tim.|
 C Duskwing, Oh How I Hate Thee...|QID|27523|U|61334|M|46.90,30.69|N|He wanders around, so look for his boss icon on the minimap. Use the flare on him if he is out of range.|
 T Duskwing, Oh How I Hate Thee...|QID|27523|M|48.06,23.20|N|To Corpseburner Tim.|

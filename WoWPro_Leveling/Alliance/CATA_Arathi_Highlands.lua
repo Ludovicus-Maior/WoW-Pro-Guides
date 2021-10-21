@@ -84,14 +84,12 @@ C Stones of Binding: Burning Key|QID|26041|NC|M|18.93,31.00|N|Click on the Stone
 T Stones of Binding|QID|26041|M|30.06,59.18|N|To the Stone of Inner Binding.|
 A Breaking the Keystone|QID|26042|PRE|26041|RANK|1|M|30.06,59.18|N|From the Stone of Inner Binding.|
 C Breaking the Keystone|QID|26042|M|43.40,66.26|N|Kill and loot Fozruk.|
-T Breaking the Keystone|QID|26042|M|30.11,59.74|N|To the Keystone. When you turn this in, a level 29 giant will spawn.|
+T Breaking the Keystone|QID|26042|M|30.11,59.74|N|To the Keystone. When you turn this in, Thenan will spawn he is your level.|
 A Myzrael's Tale|QID|26346|PRE|26042|RANK|1|M|30.01,59.18|N|From the Stone of Inner Binding.|
 H Refuge Pointe|QID|26346|N|Run (or Heathstone) to Refuge Pointe.|M|40.26,49.07|
 T Myzrael's Tale|QID|26346|M|40.26,49.07|N|To Skuerto.|
 A The Princess Unleashed|QID|26049|PRE|26346|RANK|1|M|40.26,49.07|N|From Skuerto. This quest is suggested for [2] players.|
-C The Princess Unleashed|QID|26049|U|4472|M|57.56,34.99|N|Head to the Shards of Myzrael, then use the Scroll of Myzrael to summon her. Defeat her and loot. She's a level 30 Elite with 5,730 HP so you may need a second player to help.|
+C The Princess Unleashed|QID|26049|U|4472|M|57.56,34.99|N|Head to the Shards of Myzrael, then use the Scroll of Myzrael to summon her. Defeat her and loot. She's a on level Elite with a big health pool so you may need a second player to help.|
 T The Princess Unleashed|QID|26049|M|57.26,34.61|N|To the Shard of Myzrael.|
-A Hero's Call: The Hinterlands!|QID|26542|RANK|1|M|40,48.8|N|If you intend to progress onto Hinterlands, accept this Breadcrumb Quest. From Captain Nials.|
-N The End |QID|26542|N|You have finished this guide. Click this step to move onto Hinterlands quest.|
 ]]
 end)

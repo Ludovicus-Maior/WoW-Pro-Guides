@@ -17,7 +17,7 @@ C Cleaning Hovel|QID|25211|US|M|47.99,75.41|N|Kill 5 Dragonmaw Orcs.|RANK|2|
 T Cleaning Hovel|QID|25211|M|49.88,79.19|N|To Mountaineer Grugelm.|RANK|2|
 T The Stolen Keg|QID|25395|M|49.90,79.19|N|To Mountaineer Rharen.|RANK|2|
 A Keg Run|QID|25770|LEAD|25721|M|50.00,79.18|N|From Mountaineer Rharen.|RANK|2|PRE|25395|
-R Wetlands|QID|257700|M|48.23,67.29;49.23,70.51;53.93,70.37|CC|N|Follow the path until you get to the Wetlands.|
+R Wetlands|QID|25770|M|48.23,67.29;49.23,70.51;53.93,70.37|CC|N|Follow the path until you get to the Wetlands.|
 f Slabchisel's Survey|QID|25770|M|56.87,71.17|N|At Elgin Baelor.|
 T Keg Run|QID|25770|M|57.48,71.76|N|To Forba Slabchisel.|RANK|2|
 A Fight the Flood|QID|25721|M|57.48,71.76|N|From Forba Slabchisel.|
