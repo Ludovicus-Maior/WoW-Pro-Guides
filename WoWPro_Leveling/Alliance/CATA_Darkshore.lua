@@ -11,7 +11,7 @@ T Breaking Waves of Change |QID|26383|M|51.80,18.10|N|To Dentaria Silverglade.|O
 T Hero's Call: Darkshore! |QID|28490|M|51.80,18.10|N|To Dentaria Silverglade.|O|
 A The Last Wave of Survivors|QID|13518|M|51.80,18.10|N|From Dentaria Silverglade.|
 A Threat from the Water|QID|13522|M|50.39,18.75|N|From Ranger Glynda Nal'Shea.|
-h Lor'danel|QID|13831|M|50.98,18.61|N|At Innkeeper Kyteran.|
+h Lor'danel|QID|13522|M|50.98,18.61|N|At Innkeeper Kyteran.|
 C Threat from the Water|QID|13522|M|45.50,17.64|S|N|Kill 8 Vile Sprays.|
 C Rescue Volcor|QID|13518|M|45.03,18.20|QO|4|N|Talk to Volcor.|NC|; Volcor rescued: 1/1
 C Rescue Gershala Nightwhisper|QID|13518|M|44.10,17.81|QO|2|N|Talk to Gershala.|NC|; Gershala Nightwhisper rescued: 1/1
@@ -39,8 +39,8 @@ T Buzzbox 723|QID|13528|M|54.19,29.21|N|To Buzzbox 723.|
 A A Cure In The Dark|QID|13554|PRE|13528|M|54.19,29.21|N|From Buzzbox 723.|
 A The Corruption's Source|QID|13529|PRE|13528|M|56.23,27.35;56.81,30.04|CC|N|From Tharnariun Treetender.|
 C The Corruption's Source|QID|13529|M|58.75,32.64|N|Kill Vile Grells on the way.|S|
-l Corruptor's Master Key|QID|13557|L|44927|N|Enter the waterfall, and kill Vile Corruptors until one drops the Corruptor's Master Key.|
-A Bearer of Good Fortune|QID|13557|U|44927|M|57.02,31.46|N|Right click the Corruptor's Master Key to accept the quest.|
+l Corruptor's Master Key|QID|13557|L|44925|N|Enter the waterfall, and kill Vile Corruptors until one drops the Corruptor's Master Key.|
+A Bearer of Good Fortune|QID|13557|U|44925|M|57.02,31.46|N|Right click the Corruptor's Master Key to accept the quest.|
 C Bearer of Good Fortune|QID|13557|M|57.50,32.41|N|Open the cages on the way.|S|NC|
 A A Troubling Prescription|QID|13831|PRE|13528|M|56.78,33.47;57.37,33.80|CS|N|From the Disgusting Workbench on lower level, first cave on left as you come down the ramp.|
 K Zenn Foulhoof|QID|13529|M|58.75,32.64|QO|1|N|Kill Zenn Foulhoof, you can locate him easily on your minimap by tracking the skull.|; Zenn Foulhoof slain: 1/1
@@ -95,7 +95,7 @@ A An Ocean Not So Deep|QID|13560|PRE|13569|M|50.97,19.23|N|From Gorbold Steelhan
 r Sell Junk and Repair|QID|13562|M|50.76,19.24|N|Close this step when you're done.|
 C An Ocean Not So Deep|QID|13560|M|52.95,11.06|N|Right-click the Decoy Bot Controle Console, walk to a bunch of murlocs and use the abiilty.|
 T An Ocean Not So Deep|QID|13560|M|51.03,19.26|N|To Gorbold Steelhand.|
-R Ruins of Mathystra|QID|15389|N|Talk to the Nightsaber Rider and choose to travel to the Ruins of Mathystra.|M|52.21,22.29|
+R Ruins of Mathystra|QID|13589|N|Talk to the Nightsaber Rider and choose to travel to the Ruins of Mathystra.|M|52.21,22.29|
 T The Shatterspear Invaders|QID|13589|M|58.96,19.48|N|To Lieutenant Morra Starbreeze.|
 A Remnants of the Highborne|QID|13505|PRE|13589|M|58.93,19.49|N|From Balthule Shadowstrike.|
 A Shatterspear Laborers|QID|13504|PRE|13589|M|58.93,19.49|N|From Sentinel Tysha Moonblade.|
@@ -253,7 +253,7 @@ A Unearthed Knowledge|QID|13896|PRE|13948|M|45.28,75.05|N|From Larien.|
 A The Seeds of Life|QID|13882|PRE|13881|M|45.19,74.69|N|From Kathrena Winterwisp.|
 l Seed of the Earth|QID|13882|M|45.35,74.87|N|Talk to Onu to get the Seed of the Earth.|QO|1|; Seed of the Earth: 1/1
 r Sell junk, repair/restock.|M|45.31,74.67|QID|13882|
-N Seed of the Sky|QID|13882|M|42.06,78.96|N|Look for a wisp and click it to get the Seed of the Sky. Can be a pain to click on.|QO|3|S|; Seed of the Sky: 1/1
+l Seed of the Sky|QID|13882|M|42.06,78.96|N|Look for a wisp and click it to get the Seed of the Sky. Can be a pain to click on.|QO|3|; Seed of the Sky: 1/1
 T The Bear's Blessing|QID|13544|M|43.48,80.96|N|To Elder Brolg.|
 A Cleansing the Afflicted|QID|13545|PRE|13544|M|43.48,80.96|N|From Elder Brolg.|
 A Jadefire Braziers|QID|13572|PRE|13544|M|43.57,80.95|N|From Gren Tornfur.|

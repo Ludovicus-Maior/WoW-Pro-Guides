@@ -22,7 +22,7 @@ T Priestess of the Moon|QID|28723|M|42.50,50.49|N|To Dentaria Silverglade. Go ou
 A Iverron's Antidote|QID|28724|PRE|28723|M|42.50,50.49|N|From Dentaria Silverglade.|R|NightElf|
 C Iverron's Antidote|QID|28724|M|43.34,51.71|N|Around the pools.|R|NightElf|NC|
 T Iverron's Antidote|QID|28724|M|42.50,50.49|N|To Dentaria Silverglade.|R|NightElf|
-R Shadowthread Cave|QID|28725|M|39.15,30.51|N|Walk inside the Cave until Tarindrella appears.|
+R Shadowthread Cave|ACTIVE|28725|M|39.15,30.51|N|Walk inside the Cave until Tarindrella appears.|
 A The Woodland Protector|QID|28725|PRE|28724|M|44.57,81.56|N|From Tarindrella.|R|NightElf|
 T The Woodland Protector|QID|28725|N|To Tarindrella.|R|NightElf|
 A Webwood Corruption|QID|28726|PRE|28725|N|From Tarindrella.|R|NightElf|
@@ -80,17 +80,17 @@ T Teldrassil: The Refusal of the Aspects|QID|929|Z|Teldrassil|M|55.85,53.86|N|To
 C Ferocitas the Dream Eater|QID|2459|Z|Teldrassil|M|67.09,46.03|N|Kill Gnarlpine Mystics on your way to Ferocitas the Dream Eater.|
 T Ferocitas the Dream Eater|QID|2459|Z|Teldrassil|M|55.57,50.05|N|To Tallonkai Swiftroot.|
 C Nature's Reprisal|QID|13946|S|U|46716|Z|Teldrassil|M|53.67,47.05;54.46,46.11;53.31,45.31|CN|N|Use the Ironroot Seeds to kill Grellkin.|
-R Fel Rock|QID|932|Z|Teldrassil|M|54.54,45.86|N|Head into the Fel Rock cave.|
+R Fel Rock|ACTIVE|932|Z|Teldrassil|M|54.54,45.86|N|Head into the Fel Rock cave.|
 C Twisted Hatred|QID|932|Z|Teldrassil|M|52.95,43.95|N|At the first intersection, head to the right tunnel, then a left at the next intersection. Melenas should be there or right below the ledge. Kill him and loot his head.|
 C Nature's Reprisal|QID|13946|US|U|46716|Z|Teldrassil|M|54.46,46.11|N|Finish using the Ironroot Seeds to kill Grellkin.|
 C Resident Danger|QID|13945|S|Z|Teldrassil|M|45.71,46.72|N|Kill Ban'ethil Gnarlpine on sight.|
 R Ban'ethil Barrow Den|QID|13945|Z|Teldrassil|M|45.49,50.75|N|Head to Ban'thil Den.|
 A The Sleeping Druid|QID|2541|Z|Teldrassil|M|45.09,53.47|N|From Oben Rageclaw.|
 C The Sleeping Druid|QID|2541|S|Z|Teldrassil|M|45.36,50.85|N|Kill and loot Gnarlpine Shaman.|
-l Rune of Nesting|QID|483|Z|Teldrassil|M|46.11,53.8|L|3408|N|Ask the Sentinel Huntress where the Rune of Nesting is and follow the mist, then loot the Rune.|
-l Black Feather Quill|QID|483|Z|Teldrassil|M|45.92,54.52|L|3406|N|Ask the Sentinel Huntress where the Black Feather Quill is and follow the mist, then loot the Feather.|
-l Sapphire of Sky|QID|483|Z|Teldrassil|M|45.79,51.29|L|3407|N|Ask the Sentinel Huntress where the Sapphire of Sky is and follow the mist, then loot the Sapphire.|
-C The Relics of Wakening|QID|483|Z|Teldrassil|M|46.75,50.18|N|Finally, ask her about the Raven Claw Talisman. Follow the green mist and loot the Talisman.|
+l Rune of Nesting|ACTIVE|483|QO|4|Z|Teldrassil|M|46.11,53.8|L|3408|N|Ask the Sentinel Huntress where the Rune of Nesting is and follow the mist, then loot the Rune.|
+l Black Feather Quill|ACTIVE|483|QO|2|Z|Teldrassil|M|45.92,54.52|L|3406|N|Ask the Sentinel Huntress where the Black Feather Quill is and follow the mist, then loot the Feather.|
+l Sapphire of Sky|ACTIVE|483|QO|3|Z|Teldrassil|M|45.79,51.29|L|3407|N|Ask the Sentinel Huntress where the Sapphire of Sky is and follow the mist, then loot the Sapphire.|
+l Raven Claw Talisman|ACTIVE|483|QO|1|Z|Teldrassil|M|46.75,50.18|N|Finally, ask her about the Raven Claw Talisman. Follow the green mist and loot the Talisman.|
 C The Sleeping Druid|QID|2541|US|Z|Teldrassil|M|45.36,50.85|N|Kill Shaman.|
 T The Sleeping Druid|QID|2541|Z|Teldrassil|M|45.10,53.47|N|To Oben Rageclaw. Ask the Sentinel to show you the way out to find Oben Rageclaw easier.|
 A Druid of the Claw|QID|2561|PRE|2541|Z|Teldrassil|M|45.10,53.47|N|From Oben Rageclaw.|
@@ -130,7 +130,7 @@ T Planting the Heart|QID|941|Z|Teldrassil|M|59.89,59.72|N|To Denalan's Planter.|
 A Teldrassil: The Burden of the Kaldorei|QID|7383|PRE|918&919|Z|Teldrassil|M|55.83,53.90|N|From Corithras Moonrage.|
 T Rellian Greenspyre|QID|922|Z|Teldrassil|M|44.00,44.18|N|To Rellian Greenspyre.|
 A Mossy Tumors|QID|923|PRE|922|Z|Teldrassil|M|44.00,44.18|N|From Rellian Greenspyre.|
-C Teldrassil: The Burden of the Kaldorei|QID|7383|Z|Teldrassil|M|40.46,29.99|N|Fill the Amethyst Phial in the moonwell.|
+C Teldrassil: The Burden of the Kaldorei|QID|7383|Z|Teldrassil|M|40.46,29.99|N|Fill the Amethyst Phial in the moonwell.|U|18152|
 A Tears of the Moon|QID|2518|Z|Teldrassil|M|39.24,29.82|N|From Priestess A'moora.|
 A The Enchanted Glade|QID|937|Z|Teldrassil|M|39.45,29.85|N|From Sentinel Arynia Cloudsbreak.|
 C The Enchanted Glade|QID|937|Z|Teldrassil|M|36.91,29.83|N|Kill and loot Harpies until you get all the belts needed.|S|
