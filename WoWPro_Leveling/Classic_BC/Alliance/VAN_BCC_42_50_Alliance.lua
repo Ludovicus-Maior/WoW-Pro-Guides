@@ -446,7 +446,7 @@ C Whiskey Slim's Lost Grog|QID|580|M|82,49;75,67|Z|The Hinterlands|CN|NC|US|N|Co
 C Food for Baby|QID|4297|M|63.00,50.00|Z|The Hinterlands|US|N|Kill Silvermane Stalkers for their flanks. Start making your way back toward Aerie Peak.|
 
 
-R Wildhammer Keep|QID|2989|M|14.35,46.47|N|Run back to Wildhammer Keep. Save your hearthstone, we will need it shortly.|
+R Wildhammer Keep|QID|2989|M|14.35,46.47|Z|The Hinterlands|N|Run back to Wildhammer Keep. Save your hearthstone, we will need it shortly.|
 T Skulk Rock Clean-up|QID|2877|M|14.84,44.57|Z|The Hinterlands|N|To Fraggar Thundermantle.|
 T Food for Baby|QID|4297|M|14.15,43.62|Z|The Hinterlands|N|To Agnar Beastamer. Downstairs in the basement|
 A Becoming a Parent|QID|4298|M|14.15,43.62|Z|The Hinterlands|N|From Agnar Beastamer.|PRE|4297|
