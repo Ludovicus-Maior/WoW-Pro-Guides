@@ -116,8 +116,8 @@ C The Grizzled Den|QID|313|M|42,53|N|Kill and loot Wendigos for their manes. Mor
 C Stocking Jetsteam|QID|317|US|M|39.5,59.5|N|Kill and loot Boars for boar Meat and Bears for Bear Fur.|
 C Beer Basted Boar Ribs|QID|384|US|QO|1|M|48.0,50.1|N|Kill and loot the Crag Boars for their ribs.|
 
-B Rhapsody Malt|QID|384|M|47.2,52.5|L|2894|N|Buy Rhapsody Malt from Innkeeper Belm inside the Inn at Kharanos.|
-N Level 6 class training|ACTIVE|384|LVL|6|N|Get your level 6 spells/skills.|
+B Rhapsody Malt|QID|384|M|47.38,52.52|L|2894|N|Buy Rhapsody Malt from Innkeeper Belm inside the Inn at Kharanos.|
+= Level 6 class training|ACTIVE|384|LVL|6|N|Get your level 6 spells/skills.|
 
 T Beer Basted Boar Ribs|QID|384|M|46.82,52.36|N|To Ragnar Thunderbrew|
 T Stocking Jetsteam|QID|317|M|49.43,48.41|N|To Pilot Bellowfiz|
@@ -129,8 +129,8 @@ L Level 7|QID|287|LVL|7|N|You need to be level 7 to continue with this guide.|
 A Frostmane Hold|QID|287|PRE|420|M|46.73,53.82|N|From Senir Whitebeard.|
 A Operation Recombobulation|QID|412|M|45.85,49.36|N|From Razzle Spryprocket, inside a small building to the north of Kharanos.|
 
-R Brewnall Village|QID|318|M|43.99,44.30;41.33,39.80;37.78,39.17;30,45|CS|N|To Brewnall Village. Go north until you come to a frozen river. Follow the river west until you come to the frozen lake, then head southwest to Brewnall Village (30,45).|
-r Sell and Repair|QID|318|S|M|30.12,45.29|ACTIVE|318|N|Sell and Repair with Burdrak Harglhelm.|
+R Brewnall Village|QID|318|M|47.0,43.8;39.9,38.9;37.6,39.3;31.09,44.61|CC|N|Follow the road north until you reach the bridge. Continue west along the frozen river until you reach Iceflow Lake. From here, head southwest to Brewnall Village.|
+r Sell and Repair|ACTIVE|318|M|30.12,45.29|N|Sell and Repair with Burdrak Harglhelm.|
 T Evershine|QID|318|M|30.20,45.73|N|To Rejold Barleybrew|
 A A Favor for Evershine|QID|319|PRE|318|M|30.20,45.73|N|From Rejold Barleybrew|
 A The Perfect Stout|QID|315|M|30.20,45.73|N|From Rejold Barleybrew|
