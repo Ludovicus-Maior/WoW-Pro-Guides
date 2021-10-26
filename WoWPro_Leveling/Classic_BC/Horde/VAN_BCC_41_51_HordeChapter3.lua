@@ -124,7 +124,7 @@ C Threat From the Sea |QID|1426|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|N|Head
 T Threat From the Sea |QID|1426|M|83.8,80.4|Z|Swamp of Sorrows|N|To Katar.|
 A Threat From the Sea |QID|1427|PRE|1426|M|83.8,80.4|Z|Swamp of Sorrows|N|From Katar.|
 T Threat From the Sea |QID|1427|M|81.3,81.0|Z|Swamp of Sorrows|N|To Tok'Kar.|
-A Continued Threat|QID|1428|PRE|1427|M|81.3,81.0|Z|Swamp of Sorrows|N|From Tok'Kar.|
+A Continued Threat|QID|1428|PRE|1427|M|83.8,80.4|Z|Swamp of Sorrows|N|From Katar.|
 C Continued Threat|QID|1428|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|N|Up and down the shore some more killing more murlocs.|
 C Fresh Meat|QID|1430|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|US|N|Finish up finding crablegs.|
 T Continued Threat|QID|1428|M|81.3,81.0|Z|Swamp of Sorrows|N|To Katar.|
@@ -222,8 +222,8 @@ T Raptor Mastery |QID|197|M|35.6,10.6|N|To Hemet Nesingwary.|
 T Tiger Mastery |QID|188|M|35.6,10.6|N|To Ajeck Rouack.|
 K King Bangalash|ACTIVE|208|QO|1|M|38,37|T|King Bangalash|N|Very difficult fight without a full group at this level.|
 T Bloodscalp Clan Heads|QID|584|M|32.27,2.6|N|Ride back to Grom'gol Base Camp. Right click on the Bubbling Cauldron next to Nimboya to turn in the quest.|
-A Speaking with Nezzliok|QID|585|PRE|584|M|32.27,2.6|N|From the cauldron.|
-A Speaking with Gan'zulah|QID|586|PRE|584|M|32.27,2.6|N|You do know you're talking into a cauldron, right?|
+A Speaking with Nezzliok|QID|585|PRE|584|M|32.2,27.6|N|From the cauldron.|
+A Speaking with Gan'zulah|QID|586|PRE|584|M|32.2,27.6|N|You do know you're talking into a cauldron, right?|
 r Sell, repair, restock|ACTIVE|585|
 N Ziata'jai Trophy|QID|585|QO|2|M|42,37|N|Loot the Ziata'jai Trophy from the stack of skulls after you clear the camp but watch out for the patrols.|
 N Balia'mah Trophy|QID|585|QO|1|M|45,33|N|Loot the Balia'mah Trophy from the stack of skulls after you clear the camp.|
@@ -256,10 +256,10 @@ N Cortello's Riddle|ACTIVE|608|L|4056|N|Search the lower levels of the ships unt
 
 R Mistvale Valley|QID|571|N|At|M|33,63|
 C Mok'thardin's Enchantment |QID|571|N|Kill gorillas until the Aged Gorilla Sinew drops.|M|31.6,67.3|
-K JonJon The Crow|QID|609|QO|1|N|We're looking for JonJon The Crow . Clear the camp enough to pull him safely. We are also collecting Zanzil's Mixtures as we go.|M|34.88,51.90|
-K Maury Club-Foot Wilkins|QID|609|QO|2|N|Maury Club-Foot Wilkins is next, you may need to kill an add and run away, then come back to finish him off. We are also collecting Zanzil's Mixtures as we go.|M|35.22,51.19|
+K JonJon The Crow|ACTIVE|609|QO|2|N|We're looking for JonJon The Crow . Clear the camp enough to pull him safely. We are also collecting Zanzil's Mixtures as we go.|M|34.88,51.90|
+K Maury Club-Foot Wilkins|ACTIVE|609|QO|1|N|Maury Club-Foot Wilkins is next, you may need to kill an add and run away, then come back to finish him off. We are also collecting Zanzil's Mixtures as we go.|M|35.22,51.19|
 R Ruins of Aboraz|QID|609|N|Go back south to then take the path to the east through a breached wall to the ruins (40,57).|M|34.10,54.08|
-K Chucky "Ten Thumbs"|QID|609|QO|3|N|Kill Zanzil Minions there until you find Chucky "Ten Thumbs" or (39.2,59.5) around the ruins. Kill him, of course, and loot his ring.|M|40.1,58.2|
+K Chucky "Ten Thumbs"|ACTIVE|609|QO|3|N|Kill Zanzil Minions there until you find Chucky "Ten Thumbs" or (39.2,59.5) around the ruins. Kill him, of course, and loot his ring.|M|40.1,58.2|
 C Zanzil's Secret|QID|621|N|Keep killing Zanzil zombies until you get 12 Zanzil's Mixtures.|M|39.0,59.0|
 R Crystalvein Mine|QID|589|N|Head back to the road and follow it north to where there's a path headed east into the jungle. Follow the path to a cave, clearing basilisks as you go.|M|37,49|
 C The Singing Crystals|QID|589|N|Head into the cave and kill Ironjaw Basilisks until you've looted 3 Pulsing Blue Shards.|M|42,50|

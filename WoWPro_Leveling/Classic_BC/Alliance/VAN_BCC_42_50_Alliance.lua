@@ -468,10 +468,10 @@ F Thelsamar|QID|3441|M|55.50,47.80|Z|Ironforge|TAXI|Thelsamar|N|Fly to Thelsamar
 R Badlands|QID|3441|M|47.2,77.6;47.00,85.00|Z|Loch Modan|CC|N|Run to The Badlands|
 R Searing Gorge|QID|3441|M|0.01,63.54|Z|Badlands|N|Run to Searing Gorge.|
 A Caught!|QID|4449|M|65.61,62.06|Z|Searing Gorge|N|From the Wooden Outhouse.|
-A Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|
-C Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|CHAT|N|Talk with Kalaran Windblade.|
-T Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A The Flawless Flame|QID|3442|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3441|
+A Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|From Velarok Windblade.|
+C Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|CHAT|N|Talk with Velarok Windblade.|
+T Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|To Velarok Windblade.|
+A The Flawless Flame|QID|3442|M|39.04,38.99|Z|Searing Gorge|N|From Velarok Windblade.|PRE|3441|
 f Thorium Point|QID|4449|M|37.94,30.85|Z|Searing Gorge|N|Grab the flightpath from Lanie Reed.|
 A Curse These Fat Fingers|QID|7723|M|38.58,27.81|Z|Searing Gorge|N|From Hansel Heavyhands.|
 A Fiery Menace!|QID|7724|M|38.58,27.81|Z|Searing Gorge|N|From Hansel Heavyhands.|
@@ -484,8 +484,8 @@ A WANTED: Overseer Maltorius|QID|7701|M|37.64,26.53|Z|Searing Gorge|ELITE|N|[col
 C Fiery Menace!|QID|7724|M|38.58,27.81|Z|Searing Gorge|S|N|Kill Greater Lava Spiders you find roaming around.|
 C Curse These Fat Fingers|QID|7723|M|38.58,27.81|S|Z|Searing Gorge|N|Kill Heavy War Golems.|
 C The Flawless Flame|QID|3442|M|47.13,41.49|Z|Searing Gorge|N|Kill Golems, Fire and Magma Elementals.|
-T The Flawless Flame|QID|3442|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3442|
+T The Flawless Flame|QID|3442|M|39.04,38.99|Z|Searing Gorge|N|To Velarok Windblade.|
+A Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|From Velarok Windblade.|PRE|3442|
 C Dark Iron|QID|7729|M|37.63,26.53|Z|Searing Gorge|S|N|Kill Taskmasters and Slavers and loot their daggers.|
 C Smithing Tuyre|QID|7728|M|40.03,48.58|Z|Searing Gorge|QO|1|N|Kill Steamsmiths until you get the Tuyre.|
 C Lookout's Spyglass|QID|7728|M|33.14,53.33|Z|Searing Gorge|QO|2|N|Kill Lookouts until you get the Spyglass.|
@@ -507,7 +507,7 @@ C Forging the Shaft|QID|3443|M|47.13,41.49|Z|Searing Gorge|N|Continue colleting 
 C Dark Iron|QID|7729|M|47.13,41.49|Z|Searing Gorge|US|N|Kill Taskmasters and Slavers at the camps scattered around or you can go inside the tunnels.|
 C Curse These Fat Fingers|QID|7723|M|47.13,41.49|US|Z|Searing Gorge|N|Finish killing the Heavy War Golems.|
 C Fiery Menace!|QID|7724|M|28.16,54.40|Z|Searing Gorge|US|N|Kill Greater Lava Spiders you find roaming around.|
-T Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade. Skip follow-up.|
+T Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|To Velarok Windblade. Skip follow-up.|
 T What the Flux?|QID|7722|M|38.81,28.51|Z|Searing Gorge|N|To Master Smith Burninate.|
 T Curse These Fat Fingers|QID|7723|M|38.58,27.81|Z|Searing Gorge|N|To Hansel Heavyhands.|
 T Fiery Menace!|QID|7724|M|38.58,27.81|Z|Searing Gorge|N|To Hansel Heavyhands.|
