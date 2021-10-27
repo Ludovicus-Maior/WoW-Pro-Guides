@@ -34,7 +34,7 @@ A Field Test: Gnomecorder|QID|25621|PRE|25615|M|35.35,71.22|Z|Ashenvale|N|From P
 C Field Test: Gnomecorder|QID|25621|NC|M|73.35,40.65;73.10,46.74|CS|N|Head next to the drill machine.|
 T Field Test: Gnomecorder|QID|25621|M|73.12,46.96|N|(UI Alert)|
 A Burn, Baby, Burn!|QID|25622|PRE|25621|M|73.12,46.96|N|(UI Alert)|
-K Krom'gar Incinerator |QID|25622|L|55152|N|Kill Krom'gar Incinerators until they drop a Warsong Flame Thrower.  Although they are elite, targetting and destroying the Oil Canister on their backs will instantly kill them.|
+K Krom'gar Incinerator |QID|25622|L|55152|M|73.39,49.59|N|Kill Krom'gar Incinerators until they drop a Warsong Flame Thrower.  Although they are elite, targetting and destroying the Oil Canister on their backs will instantly kill them.|
 C Burn, Baby, Burn!|QID|25622|U|55152|M|73.27,51.31|N|Target Warsong Stockpiles and use your flame thrower near them.|NC|S|
 C Hellscream's Legacy|QID|25616|M|73.10,49.77|N|Kill Krom'gar Incinerators. Target the Oil Canister on their backs to kill them easily.|
 C Burn, Baby, Burn!|QID|25622|U|55152|M|73.10,49.77|N|Target Warsong Stockpiles and use your flame thrower near them.|NC|US|
@@ -71,7 +71,7 @@ C Just Ask Alice - Fire|QID|25673|L|55221|M|63.09,56.70|N|Loot the Mechanised Fi
 C Free Our Sisters|QID|25662|S|M|65.92,54.00|N|Kill the orcs for their keys and free the trapped Sisters.|
 A BEWARE OF CRAGJAW!|QID|25730|M|64.96,49.52|N|This is a Group quest from the STAY OUT! sign.\n\nThis is a little tough for a non-heal class to solo - get a group if you can, give it a try, or otherwise skip this quest.|RANK|3|C|DeathKnight,Mage,Rogue,Warrior|
 A BEWARE OF CRAGJAW!|QID|25730|M|64.96,49.52|N|This is a Group quest from the STAY OUT! sign.\n\nAlthough this is a group quest, it should be soloable for you. Skip if you don't want to try.|RANK|3|C|Hunter,Paladin,Shaman,Druid,Priest,Warlock|
-C BEWARE OF CRAGJAW!|QID|25730|M|65.68,46.90|N|Found in Cragpool Lake to the north of the sign - he has 3,200 HP.  Once killed, loot the Huge Tooth.|RANK|3|O|
+C BEWARE OF CRAGJAW!|QID|25730|M|65.68,46.90|N|Found in Cragpool Lake to the north of the sign. Once killed, loot the Huge Tooth.|RANK|3|O|
 C Just Ask Alice - Ice|QID|25673|L|55222|M|66.18,50.04|N|Loot the Mechanized Ice at the top of the rig.|QO|3|NC|; Mechanized Ice: 1/1
 A Gerenzo the Traitor|QID|25729|PRE|25652|M|69.2,48.1;69.5,46.4;68.3,45.4;64.64,43.77|N|(UI Alert)Head to the BD-816 War Apparatus (north of Cragpool Lake, follow the waypoints to get there).|CS|
 C Gerenzo the Traitor|QID|25729|M|63.10,45.84|N|Kill Gerenzo.|
@@ -93,8 +93,8 @@ A Mr. P's Wild Ride|QID|25728|PRE|25673|M|58.38,55.17|N|From Alice.|
 C Thinning the Horde |QID|25671|O|N|Kill any 20 Krom'gar and Goblin in Stonetalon Mountains.|S|
 C Mr. P's Wild Ride|QID|25728|M|61.12,55.71|N|Use the abilities to kill what you need for this quest.|
 C Thinning the Horde |QID|25671|O|N|You really shouldn't see this after completing Mr. P's Wild Ride.|US|
-T Thinning the Horde |QID|25671|O|N|To Lord Fallowmere.|
-T Mr. P's Wild Ride|QID|25728|M|59.57,56.90|N|To Lord Fallowmere.|
+T Thinning the Horde |QID|25671|M|59.58,56.95|O|N|To Lord Fallowmere.|
+T Mr. P's Wild Ride|QID|25728|M|59.58,56.95|N|To Lord Fallowmere.|
 A Capturing Memories|QID|25767|PRE|25669|M|58.73,55.98|N|From Neophyte Starcrest.|
 A Arcane Legacy|QID|25766|PRE|25669|M|58.73,55.91|N|From Arcanist Valdurian.|
 C Capturing Memories|QID|25767|S|M|48.41,74.55|N|Loot Eldre'thar Relics off the ground.|
@@ -122,8 +122,8 @@ A They Put the Assass in... Never Mind|QID|25806|PRE|25793|M|72.06,76.01|N|From 
 C They Put the Assass in... Never Mind|QID|25806|S|U|56014|N|Use your goggles to see the mobs. Kill Krom'gar Assassins.|
 C Leave No Man Behind!|QID|25809|S|M|70.66,72.54|N|Talk to the Frightened Miners to rescue them.|
 U Plant Explosives at First Beam|QID|25811|U|56018|QO|1|M|70.64,76.04|N|First Beam is here.|; Plant Explosives at First Beam: 1/1
-U Plant Explosives at Second Beam|QID|25811|U|56018|QO|3|M|69.67,75.24|N|Second Beam is here.|; Plant Explosives at Second Beam: 1/1
-U Plant Explosives at Third Beam |QID|25811|U|56018|QO|1|M|68.72,71.30|N|Third Beam is here (on the ground, level, not the track).|; Plant Explosives at Third Beam: 1/1
+U Plant Explosives at Second Beam|QID|25811|U|56018|QO|2|M|69.67,75.24|N|Second Beam is here.|; Plant Explosives at Second Beam: 1/1
+U Plant Explosives at Third Beam |QID|25811|U|56018|QO|3|M|68.72,71.30|N|Third Beam is here (on the ground, level, not the track).|; Plant Explosives at Third Beam: 1/1
 C Shuttin Her Down|QID|25811|U|56018|M|68.47,72.56|N|Plant the explosives at the Fourth Beam.|
 C They Put the Assass in... Never Mind|QID|25806|US|U|56014|M|69.47,72.23|N|Finish killing Krom'gar Assassins.|
 T They Put the Assass in... Never Mind|QID|25806|M|69.47,72.23|N|(UI Alert)|
@@ -140,7 +140,7 @@ T Death by Proxy|QID|25834|M|70.92,79.74|N|To "Cookie" McWeaksauce.|
 A A Proper Peace Offerin'|QID|25837|PRE|25834|M|70.92,79.74|N|From "Cookie" McWeaksauce.|
 C A Proper Peace Offerin'|QID|25837|S|M|60.13,87.08|N|Kill rams and loot nests as you go.|
 R Boulderslide Cavern|QID|25837|M|64.87,89.43;63.44,90.07;62.49,89.65|CS|N|Follow the waypoints to get to Boulderslide Cavern.|
-l Boulderslide Cheese|QID|25837|L|56042 10|M|60.13,87.08|N|Kill and loot Kobolds to get the needed cheese.|
+l Boulderslide Cheese|QID|25837|QO|3|M|60.13,87.08|N|Kill and loot Kobolds to get the needed cheese.|
 C A Proper Peace Offerin'|QID|25837|US|M|63,80|N|Finish gathering Ram Haunches and Eagle Eggs.|
 T A Proper Peace Offerin'|QID|25837|M|70.91,79.77|N|To "Cookie" McWeaksauce.|
 A Sating the Savage Beast|QID|25844|PRE|25837|M|70.91,79.77|N|From "Cookie" McWeaksauce.|
@@ -218,7 +218,8 @@ C World First: Gnomegen|QID|25934|S|M|27.39,70.10|N|Kill every Fire elemental yo
 C Hungry Pups|QID|25935|S|M|30.65,72.39|N|Kill and loot Black Dragon Whelps.|
 C Ascending the Vale|QID|25930|NC|U|56221|M|29.25,71.07|N|Use your boots as needed.|
 T Ascending the Vale|QID|25930|M|29.50,71.50|N|(UI Alert)|
-A Brood of Seldarria|QID|25931|PRE|25930|M|29.50,71.50|N|(UI Alert)|
+A Brood of Seldarria|QID|25931|PRE|25930|M|29.50,71.50|N|(UI Alert). If you miss the UI alert just check this step off|
+A Brood of Seldarria|QID|25931|PRE|25930|M|33.12,59.61|N|From Hierophant Malyk|
 C Brood of Seldarria|QID|25931|S|U|56221|M|29.71,73.17|N|Destroy 5 of Seldarria's Eggs.|
 C Hungry Pups|QID|25935|US|M|31.64,69.62|N|Finish getting the filets needed.|
 C Brood of Seldarria|QID|25931|US|U|56221|M|30.32,70.86|N|Destroy 5 of Seldarria's Eggs.|
@@ -227,6 +228,5 @@ H Farwatcher's Glen|QID|25934|N|Hearth back to Farwatcher's Glen, or run back if
 T World First: Gnomegen|QID|25934|M|33.05,59.62|N|To Salsbury the "Help".|
 T Brood of Seldarria|QID|25931|M|33.05,59.62|N|To Hierophant Malyk.|
 T Hungry Pups|QID|25935|M|32.47,61.22|N|To Houndmaster Jonathan.|
-N The End|N|This is the end of Stonetalon Mountains. This guide leads into Desolace which I recommend over Southern Barrens. Close this step to load the next guide. If you wish to go to Southern Barrens, please load the guide manually.|
 ]]
 end)
