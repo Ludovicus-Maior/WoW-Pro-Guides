@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoWyrmrest",'Dailies', "Borean Tundra", "Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,69,80,70.000000)
+WoWPro:GuideLevels(guide,10,50,)
 WoWPro.Dailies:GuideFaction(guide,1091) --  "The Wyrmrest Accord"
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -24,10 +24,10 @@ A Aces High!|QID|13414|PRE|13413|M|29.49,24.81|Z|Borean Tundra|N|From Corastrasz
 C Aces High!|QID|13414|M|29.4,24.8|Z|Borean Tundra|N|Stack 5 Revivify to start, 1-2-1-1-2-3 repeat 1-1-2-3 til dead is popular.  Use #5 whenever up. Maintain distance to your targets.|
 T Aces High!|QID|13414|M|29.49,24.81|Z|Borean Tundra|N|To Corastrasza.|
 
-A Defending Wyrmrest Temple|QID|12372|PRE|12435|M|59.2,54.3|Z|Dragonblight|N|From Lord Afrasastrasz (L71).|
+A Defending Wyrmrest Temple|QID|12372|PRE|12435|M|59.2,54.3|Z|Dragonblight|N|From Lord Devrestrasz.|
 N Instructions|QID|12372|N|Go on the balcony and talk to a Wyrmrest Defender, click on the text and you'll ride it. Ability #1: Direct damage, use everytime it's up. Ability #2: DoT. Use it once at the start of a fight. Ability #3: Self heal. Ability #4: Use it to escape when you get attacked by several dragons at the same time. Ability #5: Go inside the big beam in the Azure Dragonshrine (just southwest of Wyrmrest Temple) and use it once. Fun quest, kill dragons. Not much else to say, it's rather easy, just escape and heal up if things get dangerous. You get an achievement if you finish it in under 2 minutes. Track it if you want to try for it.|
 C Defending Wyrmrest Temple|QID|12372|M|55.1,66.4|Z|Dragonblight|N| #1: Spam.\n #2: DoT at start.\n #3: Self heal.\n #4: Speed Escape.\n #5: Fly high at arrow, line up, powerdive to the bottom, zap, wait for completion and speed out.|
-T Defending Wyrmrest Temple|QID|12372|M|59.2,54.3|Z|Dragonblight|N|Go back to Lord Afrasastrasz.|
+T Defending Wyrmrest Temple|QID|12372|M|59.2,54.3|Z|Dragonblight|N|Go back to Lord Devrestrasz.|
 
 ]]
 end)
