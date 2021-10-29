@@ -20,9 +20,9 @@ A Restoring the Light|Z|Shattrath City|QID|10021|M|24.0,29.7|N|From Ishanah.|REP
 h Shattrath City|QID|9957|Z|Shattrath City|N|Make Shattrath City (Aldor Rise) your home location.|M|28.00,49.00|REP|Aldor;932|
 r Sell junk, Repair, restock, train skills|QID|9957|N|Sell junk, Repair, restock, train skills.|M|27.92,47.45|REP|Aldor;932|Z|Shattrath City|
 A Voren'thal the Seer|Z|Shattrath City|QID|10553|M|54.8,44.3|N|From Khadgar.|REP|Scryers;934|
+h Shattrath City|ACTIVE|10553|N|Make Shattrath City (Scryers Tier) your home location.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
+r Sell junk, Repair, restock, train skills|ACTIVE|10553|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 T Voren'thal the Seer|Z|Shattrath City|N|You must take the elevator up to this area.|QID|10553|M|43.5,91.8|REP|Scryers;934|
-h Shattrath City|QID|9957|N|Make Shattrath City (Scryers Tier) your home location.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
-r Sell junk, Repair, restock, train skills|QID|9957|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 N Do Underbog or Slave Pens (Optional)|N|You can do the instances in Zangarmarsh for extra XP if you wish.|
 A Rather Be Fishin'|QID|10037|M|64.0,15.5|Z|Shattrath City|N|From Seth.|
 A The Outcast's Plight|QID|10917|M|51.1,17.64;45.1,19.9|Z|Shattrath City|CN|N|From Vekax. He tends to wander between the two treehouses.|

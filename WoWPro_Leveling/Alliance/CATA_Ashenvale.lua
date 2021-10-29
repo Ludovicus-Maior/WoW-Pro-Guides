@@ -14,7 +14,7 @@ A Of Their Own Design|QID|13595|M|29.00,24.06|N|From Bathran.|
 C Bathran's Hair|QID|26473|S|M|21.65,14.69|N|They look like orange bushes.|
 C Don't Forget the Horde|QID|13594|S|M|21.65,17.27|N|Kill the Orcs and Herbalists from Bathran's Haunt.|
 l Bottle of Wildfire|QID|13595|M|32.16,23.39|N|Loot the Bottle of Wildfire from the table in Bathran's Haunt.|L|44967|
-C Of Their Own Design|QID|13595|M|32.81,21.38|N|Burn Bathran's corpse with the Bottle of Wildfire.|
+C Of Their Own Design|QID|13595|M|32.81,21.38|N|Burn Bathran's corpse with the Bottle of Wildfire.|U|44967|
 C Don't Forget the Horde|QID|13594|US|M|31.99,23.55|N|Finish killing mobs.|
 C Bathran's Hair|QID|26473|US|M|31.36,22.80|N|They look like orange bushes..|
 T Of Their Own Design|QID|13595|M|29.08,24.30|N|To Bathran.|
@@ -43,13 +43,13 @@ A A Squad of Your Own|QID|13624|M|26.69,36.93|N|From Sentinel Onaeya.|
 C A Squad of Your Own|QID|13624|M|26.34,38.15|N|Take out the three Ashenvale Wreckers in front of Maestra's Post, by defeating the Horde Invaders around the catapult first, then finish off with the catapult.|
 T A Squad of Your Own|QID|13624|M|26.68,36.91|N|To Sentinel Onaeya.|
 A Respect for the Fallen|QID|13626|PRE|13624|M|26.68,36.91|N|From Sentinel Onaeya.|
-l The Purifier's Prayer Book|QID|13626|U|45044|M|26.97,40.84|N|Equip and use the cloak, then head to the tower. You will be invisible whilst you don't take any falling daamge, or until you reach the top of the tower. You will need to kill Orux Thrice-Damned as he will see through your disguise. Loot the corpse of Delgren the Purifier for The Purifier's Prayer Book.|L|45043|
-C Respect for the Fallen|QID|13626|U|45044|M|26.30,38.43|N|Back down the tower, remember to put the cloak back on, then head to the circle of Rocks. Loot the body of Feero Ironhand and loot Feero's Holy Hammer. Remember not to do anything that causes you to take damage, such as jumping down the tower, as the cloak's effects will stop.|L|45042|
+l The Purifier's Prayer Book|ACTIVE|13626|U|45044|M|26.97,40.84|QO|2|N|Equip and use the cloak, then head to the tower. You will be invisible whilst you don't take any falling daamge, or until you reach the top of the tower. You will need to kill Orux Thrice-Damned as he will see through your disguise. Loot the corpse of Delgren the Purifier for The Purifier's Prayer Book.|L|45043|
+l Respect for the Fallen|ACTIVE|13626|U|45044|M|26.30,38.43|QO|1|N|Back down the tower, remember to put the cloak back on, then head to the circle of Rocks. Loot the body of Feero Ironhand and loot Feero's Holy Hammer. Remember not to do anything that causes you to take damage, such as jumping down the tower, as the cloak's effects will stop.|L|45042|
 T Respect for the Fallen|QID|13626|M|26.67,36.90|N|To Sentinel Onaeya.|
 C Rear Guard Duty|QID|13632|M|30.24,31.40|S|N|Kill any type of Furbolgs.|
-N Deactivate Green Moonstone |QID|13630|M|27.50,33.15|N|Deactivate the Green Moonstone.|QO|1|; Green Moonstone deactivated: 1/1
-N Deactivate Red Moonstone |QID|13630|M|28.60,31.70|N|Deactivate the Red Moonstone.|QO|1|; Red Moonstone deactivated: 1/1
-C The Reason Why|QID|13630|M|30.30,31.40|N|Deactivate the Blue Moonstone.|
+N Deactivate Green Moonstone|QID|13630|M|27.50,33.15|QO|2|N|Deactivate the Green Moonstone.|
+N Deactivate Red Moonstone|QID|13630|M|28.60,31.70|QO|3|N|Deactivate the Red Moonstone.|
+C The Reason Why|QID|13630|M|30.30,31.40|QO|1|N|Deactivate the Blue Moonstone.|
 C Rear Guard Duty|QID|13632|M|30.24,31.40|US|N|Kill any type of Furbolgs.|
 T The Reason Why|QID|13630|M|27.07,36.16|N|To Moon Priestess Maestra.|
 T Rear Guard Duty|QID|13632|M|27.26,35.57|N|To Liladris Moonriver.|
@@ -68,7 +68,7 @@ A To Raene Wolfrunner|QID|13645|PRE|26464|M|26.85,36.69|N|From Orendil Broadleaf
 A Astranaar Bound|QID|13646|PRE|26464|M|26.75,36.04|N|From Sentinel Avana.|
 R Astranaar|QID|13646|NC|N|Talk to Sentinel Avana. She will give you a free ride on one of her Kitties.|
 T Astranaar Bound|QID|13646|M|34.69,48.55|N|To Sentinel Luara.|
-f Astranaar|QID|13849|NC|N|Accept the Flight Path from Daelyshia.|
+f Astranaar|QID|13849|NC|M|34.41,48.00|N|Accept the Flight Path from Daelyshia.|
 A Astranaar's Burning!|QID|13849|M|34.92,49.77|N|From Sentinel Thenysil.|
 C Astranaar's Burning!|QID|13849|U|46094|M|35.31,49.26|N|Use the bucket and aim for a fire.  Rinse and repeat.|NC|
 T Astranaar's Burning!|QID|13849|M|34.94,49.77|N|To Sentinel Thenysil.|
@@ -77,7 +77,7 @@ C Return Fire|QID|13853|M|35.70,49.76|N|Grab a glaive thrower and get to shootin
 T Return Fire|QID|13853|M|34.93,49.78|N|To Sentinel Thenysil.|
 T To Raene Wolfrunner|QID|13645|M|36.58,49.58|N|To Raene Wolfrunner.|
 A Culling the Furbolg Threat|QID|13867|M|36.61,49.59|N|From Raene Wolfrunner.|
-h Astranaar|QID|13867|M|37.00,49.17|N|At Innkeeper Kimlya.|
+h Astranaar|QID|26474|M|37.00,49.17|N|At Innkeeper Kimlya.|
 T Orendil's Cure|QID|26474|M|37.36,51.79|N|To Pelturas Whitemoon.|
 A Elune's Tear|QID|26475|PRE|26474|M|37.32,51.81|N|From Pelturas Whitemoon. You will need to wait (15 seconds) after handing in Orendil's Cure before Pelturas offers the quest.|
 A A Helping Hand|QID|26453|LEAD|26454|M|35.00,49.96|N|Here is where things may seem odd in our zone flow. This will reap the most XP doing the zone this way. Mob levels are lowest on the East and West of the zone, so we need to do those first for Maximum XP gain.|
@@ -202,9 +202,9 @@ A Dryad Delivery|QID|26476|PRE|26475|M|36.61,49.66|N|From Raene Wolfrunner.|
 T Dryad Delivery|QID|26476|M|59.20,59.67|N|To Shael'dryn.|
 A Search the Bole|QID|26477|PRE|26476|M|59.20,59.67|N|From Shael'dryn.|
 l Wooden Key|QID|26477|M|55.80,33.88|N|Head towards the waypoint. Kill treants as you go, until one drops a Wooden Key.|L|5475|
-R The Howling Vale|QID|26477|M|54.34,36.40;55.8,37|CC|N|Head towards the Howling Vale.|
+R The Howling Vale|QID|26477|M|54.34,36.40;55.8,37|Z|Ashenvale|CC|N|Head towards the Howling Vale.|
 C Search the Bole|QID|26477|M|54.51,37.22;55.02,40.66|CS|N|Head through the cave and open the Worn Chest.|
-R Optional Step : Read Carefully|QID|26477|M|51.50,80.54|Z|Felwood|N|If you wish to do felwood later follow you arrow to the flight point. It is dangerous, but worth it. Collect the flight path once there. If you dont want to, or have the Flight Path already, skip this step by clicking the check mark.|
+f Emerald Sanctuary|QID|26477|M|51.50,80.54|Z|Felwood|N|Collect the flight path once there.|
 T Search the Bole|QID|26477|M|59.12,59.75|N|To Shael'dryn.|
 A Playing Possum|QID|26478|PRE|26477|M|59.12,59.75|N|From Shael'dryn.|
 C Playing Possum|QID|26478|U|46720|M|62.54,60.26|N|Loot the Pommel from the box in the cave, if you are attcked use the scroll to play possum.|
@@ -263,6 +263,5 @@ T Ze Gnomecorder|QID|25607|M|35.37,71.24|N|To Professor Xakxak Gyromate.|
 T Retaking Mystral Lake|QID|26470|M|35.60,71.48|N|To Sentinel Velene Starstrike.|
 A Rebels Without a Clue|QID|26838|LEAD|26735|M|35.60,71.48|N|From Sentinel Velene Starstrike. If you do not plan on going to Stranglethorn, abandon this quest/skip this step.|
 A Do Yourself a Favor|QID|25613|PRE|13913&25607&13979|M|35.27,71.22|N|From Gnombus the X-Terminator.|
-N The End|N|This is the end of Ashenvale. The next guide is Stonetalon Mountains, which this guide leades directly into. Close this step, and it should load right up. I've been WKjezz, thanks for using our Addon!|
 ]]
 end)
