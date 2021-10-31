@@ -225,8 +225,8 @@ A Helping the Lost Find Their Way|QID|10031|PRE|10030|N|From Ramdor the Mad.|M|3
 T Can't Stay Away |QID|10180|N|To Isfar just inside Sehekk Halls.|M|44.79,65.6|
 H Shattrath City |QID|10020|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 r Sell junk, Repair, restock|QID|10020|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
-H Shattrath City |QID|10020|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
-r Sell junk, Repair, restock, train skills|QID|10412|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
+H Shattrath City |AVAILABLE|10412|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
+r Sell junk, Repair, restock, train skills|AVAILABLE|10412|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 A Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|From Magistriz Fyalenn.|REP|Scryers;934|
 T Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|To Magistriz Fyalenn.|REP|Scryers;934|
 T A Cure for Zahlia|QID|10020|Z|Shattrath City|N|To Sha'nir.|M|64.37,15.55|REP|Aldor;932|
