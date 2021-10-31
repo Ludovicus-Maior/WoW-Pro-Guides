@@ -15,11 +15,11 @@ F Burning Steppes|
 A Broodling Essence|QID|4726|M|65.2,23.6|N|Tinkee Steamboil|
 A Tablet of the Seven|QID|4296|M|65.2,23.6|N|Maxwort Uberglint|
 
-C Broodling Essence|QID|4726|N|To the East, grind on the dragon whelps|
+C Broodling Essence|QID|4726|N|Use the Draco-Incarcinatrix 9000 on the whelps, then kill them.|U|12284|
 
 A A Taste of Flame|QID|4022|M|94.00,31.00|N|Cyrus Therepentous-In the cave|
-T A Taste of Flame|QID|4022|
-T Dreadmaul Rock|QID|3821|M|79.00,45.00|N||
+T A Taste of Flame|QID|4022|M|94.00,31.00|N|Cyrus Therepentous-In the cave|
+T Dreadmaul Rock|QID|3821|M|79.8,45.4|N|Sha'ni Proudtusk|
 A Krom'Grul|QID|3822|PRE|3821|M|80.0,45.4|N|Sha'ni|
 C Krom'Grul|QID|3822|M|83,30;83,39|CN|N|He has two spawn points in either cave|
 C The Rise of the Machines|QID|4061|M|56,41;59,37;68,37|CN|Z|Burning Steppes|N|Near Ruins of Thaurissan War Reavers, Greater Rock Elems, etc|
