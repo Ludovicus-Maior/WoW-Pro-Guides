@@ -73,14 +73,14 @@ C Forces of Nature: Wisps|QID|25407|U|53101|M|56.10,53.37|N|Target the Feralas W
 T Forces of Nature: Wisps|QID|25407|M|57.08,53.79|N|To Handler Tessina.|
 A Forces of Nature: Hippogryphs|QID|25409|PRE|25407|M|57.08,53.79|N|From Handler Tessina.|
 l Pristine Yeti Hide|QID|25451|L|55166|N|Make sure to loot the Yetis until this drops.|M|52.07,58.33|S|
-C Improved Quality|QID|25450|M|52.07,58.33|N|Kill and loot Yetis. Accept the quest from the 'OOX-22/FE Distress Beacon' to stop it from appearing on every kill.|U|8705|
+C Improved Quality|QID|25450|M|52.07,58.33|N|Kill and loot Yetis.|
 A Find OOX-22/FE!|QID|25475|M|53.30,55.84|N|Accpet this quest from the beacon.|
 T Find OOX-22/FE!|QID|25475|M|53.33,55.75|N|To Homing Robot OOX-22/FE.|
 A Rescue OOX-22/FE!|QID|25476|PRE|25475|M|53.33,55.75|N|From Homing Robot OOX-22/FE. This is optional since the quest turn-in is in Booty Bay, and will not be covered by this guide.|
 C Rescue OOX-22/FE!|QID|25476|M|55.58,51.21|N|Escort OOX-22/FE to safety.|O|
 l Pristine Yeti Hide|QID|25451|L|55166|N|Keep killing and looting Yetis until you get this.|M|52.07,58.33|US|
 A Pristine Yeti Hide|QID|25451|PRE|25449|U|55166|N|Accept this quest from the Pristine Yeti Hide.|M|52.07,58.33|
-F Feathermoon Stronghold|QID|25450|N|Go back to camp and fly out to Feathermoon Stronghold again.|M|57.06,53.95|
+F Feathermoon|QID|25450|N|Go back to camp and fly out to Feathermoon Stronghold again.|M|57.06,53.95|
 T Improved Quality|QID|25450|M|45.34,41.33|N|To Pratt McGrubben.|
 T Pristine Yeti Hide|QID|25451|M|45.34,41.33|N|To Pratt McGrubben.|
 F Tower of Estulan|QID|25350|N|Go back to camp and fly out to the tower.|M|46.78,45.34|
@@ -169,6 +169,7 @@ T Taerar's Fall|QID|25379|M|81.50,42.47|N|To Ysondre.|
 A Ysondre's Farewell|QID|25438|PRE|25379|M|81.50,42.47|N|From Ysondre.|
 T Ysondre's Farewell|QID|25438|M|77.19,56.54|N|To Adella.|
 A To New Thalanaar |QID|25481|LEAD|25486|M|77.2,56.4|N|From Falfindel Waywarder.|
-N End of guide.|N|This is the End of Feralas. Time to go to Thousand Needles! I would recommend going to Darnassas now for training, banking, and auction needs. Our Thousand Needles guide starts there.|
+C To New Thalanaar|QID|25481|M|77.29,56.78|Z|Feralas|CHAT|N|Talk to Seyala Nightwisp and ask for the hippogryph to New Thalanaar.|
+T To New Thalanaar |QID|25481|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
 ]]
 end)
