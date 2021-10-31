@@ -29,9 +29,9 @@ l Melonfruit|QID|14193|L|48106 8|M|77.06,18.18|N|Gather 8 Melons from the ground
 C Nothing a Couple of Melons Won't Fix|QID|14193|M|77.06,18.18|N|Head back to the Cup of Elune, and offer the 8 Melonfruit there.|U|48106|
 T Nothing a Couple of Melons Won't Fix|QID|14193|M|77.06,18.18|N|(UI Alert)|
 l Ten Pounds of Flesh|QID|14358|US|L|48857 10|N|Kill and loot Satyrs for their flesh.|
-C Ten Pounds of Flesh|QID|14358|N|Head back to Elune's Brazier and offer the 10 pieces of Satyr Flesh there.|U|48857|
-T Ten Pounds of Flesh|QID|14358|N|At Elune's Brazier. Don't bother with the follow-up, it is for buff only and does not count for any other quest achievements.|
-l Satyr Sabers|QID|14357|S|L|48943 20|N|From weapons racks and Satyr kills.|
+C Ten Pounds of Flesh|QID|14358|M|78.77,22.98|N|Head back to Elune's Brazier and offer the 10 pieces of Satyr Flesh there.|U|48857|
+T Ten Pounds of Flesh|QID|14358|M|78.77,22.98|N|At Elune's Brazier. Don't bother with the follow-up, it is for buff only and does not count for any other quest achievements.|
+l Satyr Sabers|QID|14357|US|L|48943 20|M|75.97,26.57|N|From weapons racks and Satyr kills.|
 C To the Hilt!|QID|14357|M|75.97,26.57|N|Head back to Elune's Handmaiden and offer the 20 Satyr Sabers there.|U|48943|
 T To the Hilt!|QID|14357|M|75.97,26.57|N|(UI Alert)|
 T Elune's Gifts|QID|14354|M|66.44,11.71|N|To Vahlarriel Demonslayer.|
@@ -45,7 +45,7 @@ A Fletch Me Some Plumage!|QID|14253|M|60.90,28.99|N|From Bizby.|RANK|2|
 C New Beginnings|QID|14251|S|M|60.55,27.05|RANK|2|N|Kill and loot any type of scorpions for their stingers.|
 C Good Gold For Bad Tail|QID|14252|S|M|60.20,30.99|RANK|2|N|Kill and loot basalisks for their tails.|
 C Fletch Me Some Plumage!|QID|14253|S|RANK|2|N|Kill and loot Dread Swoops for their tails.|
-l Burning Blade Ear|QID|14365|M|53.40,33.34|N|Kill the Burning Blade until a Burning Blade Ear drops.|L|49203|
+l Burning Blade Ear|AVAILABLE|14362|M|53.40,33.34|N|Kill the Burning Blade until a Burning Blade Ear drops.|L|49203|
 A Ears Are Burning|QID|14362|U|49203|N|Accept the quest from the Burning Blade Ear that dropped from the Burning Blade.|
 C Ears Are Burning|QID|14362|M|53.20,27.48|S|N|Kill and loot Burning Blade mobs for their ears.|
 C Peace of Mind|QID|14361|M|53.40,33.34|N|Kohor is by a cave south of the fortress.|
@@ -194,7 +194,7 @@ C Infernal Encroachment|QID|14373|S|M|51.08,79.76|N|Kill 10 Lesser Infernals. In
 C Portals of the Legion|QID|14374|U|14547|M|50.72,80.92|N|Click on the Demon Portals, then kill the Guardian the spawns to close them.|
 A Jugkar's Undoing|QID|14376|U|49220|M|30.81,53.93|N|Accept this quest from the Infernal Power Core.|
 C Jugkar's Undoing|QID|14376|U|49199|M|53.66,77.48|N|Target the demon and use his abilities to defeat the warlock. Make sure you are stood in a safe spot as you are "Mind Controlling" and can be attacked.|
-T Jugkar's Undoing|QID|14376|M|53.66,77.48|N|(UI Alert)|
+T Jugkar's Undoing|QID|14376|M|36.65,71.31|N|(UI Alert)|
 C Infernal Encroachment|QID|14373|US|M|53.18,78.77|N|Finish killing Infernals.|
 C Ghost-o-plasm Round Up|QID|6134|U|15848|M|63.91,91.78|N|Clear the area then use your gizmo. Kill the ghost centaurs. (They turn aggressive when they get to the gizmo so beware.)|
 T Time For Change|QID|14332|M|72.33,67.29|N|To Khan Leh'Prah.|
@@ -223,6 +223,5 @@ A Cleansing Our Crevasse|QID|14381|PRE|14380|M|57.50,47.76|N|From Karnum Marshwe
 C Cleansing Our Crevasse|QID|14381|M|37.66,45.65|N|Jump on the Hippogryph directly behind the quest giver when you are ready. Drop lots of bombs, then fly home.|
 T Cleansing Our Crevasse|QID|14381|M|57.42,47.73|N|To Karnum Marshweaver.|
 A The Wilds of Feralas|QID|14410|LEAD|25447|PRE|14381&14394|M|73.2,73|N|From Khan Shodo.|
-N The end.|N|Thanks for doing Desolace with me and congrats on your zone achievement. We will be going to Ferelas next, so when you're ready click off of this step to continue. If you wish to quest somewhere else now, you can manually select a new guide by right clicking on the Addon frame. WKjezz|
 ]]
 end)

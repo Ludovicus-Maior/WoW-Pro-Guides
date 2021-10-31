@@ -25,7 +25,7 @@ T Mage Training|QID|8328|M|39.23,21.45|N|To Julia Sunstriker, inside the buildin
 T Warrior Training|QID|8329|M|39.29,20.10|N|To Delios Silverblade, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Warrior|
 T Warlock Training|QID|8563|M|38.93,21.44|N|To Summoner Teli'Larien, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Warlock|
 T Priest Training|QID|8564|M|39.42,20.38|N|To Matron Arena, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Priest|
-T Rogue Training|QID|9392|M|38.93,20.02|N|To Pathstalker Kariel, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Rogue|
+T Rogue Training|QID|9392|M|38.93,20.02|N|To Pathstalker Avokor, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Rogue|
 T Hunter Training|QID|9393|M|39.05,20.01|N|To Ranger Sallina, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Hunter|
 T Paladin Training|QID|9676|M|39.48,20.56|N|To Jesthenis Sunstriker, inside the building.\n[color=FF0000]NOTE: [/color]Don't forget to do your level 2 training.|R|BloodElf|C|Paladin|
 ; --

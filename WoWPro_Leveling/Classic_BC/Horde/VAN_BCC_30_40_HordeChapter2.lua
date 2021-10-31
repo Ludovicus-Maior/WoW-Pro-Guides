@@ -396,7 +396,7 @@ A Helcular's Revenge|QID|553|M|63.88,19.65|Z|Hillsbrad Foothills|N|From Novice T
 R Darrow Hill|ACTIVE|553|M|49.10,32.22|Z|Hillsbrad Foothills|N|Return to the Cave in Darrow Hill.|
 C Flame of Veraz|QID|553|M|44.05,26.55|Z|Hillsbrad Foothills|QO|2|N|Enter the cave and make your way to the bottom of the ramp. Head into the cavern to your left and click on Flame of Veraz.|NC|
 C Flame of Azel|QID|553|M|43.89,28.06|Z|Hillsbrad Foothills|QO|1|N|Make your way to the top of the ramp and click on Flame of Azel.|NC|
-R Alterac Mountains|ACTIVE|1136^553|M|44.60,87.21|Z|Hillsbrad Foothills|N|Exit the cave and head north up the hill.|
+R Alterac Mountains|ACTIVE|1136^553|M|44.60,87.21|Z|Alterac Mountains|N|Exit the cave and head north up the hill.|
 C Mountain Lion Carcass|ACTIVE|1136|M|43.03,80.38|Z|Alterac Mountains|L|5810|N|Kill a Mountain Lion and loot it's carcass. You'll need this to spawn Frostmaw.\nAny type of Mountain Lion will do.\n[color=FF0000]NOTE: [/color]The Fresh Carcass has a time limit of 30 minutes before it despawns and you have to get another one.|
 R Growless Cave|ACTIVE|1136|M|37.58,68.29|Z|Alterac Mountains|N|Giving the Alliance outpost on your left a wide berth, continue north to Growless Cave.|
 N Flame of Uzel|ACTIVE|1136&553|N|This item is used for both 'Frostmaw' and 'Helcular's Revenge'. That being said, if you click on it, I cannot say for certain which quest will activate first. Clicking on the 'Fresh Carcass' will guarantee you start Frostmaw.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|

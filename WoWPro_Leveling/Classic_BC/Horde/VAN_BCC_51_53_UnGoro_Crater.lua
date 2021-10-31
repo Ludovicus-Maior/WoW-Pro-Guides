@@ -96,7 +96,7 @@ A The New Springs|QID|980|PRE|974|M|30.90,50.40|N|From Krakle.|
 
 R Silithus|M|29.00,22.00|N|Take the path up out of the crater in the northwest corner of the zone.|
 R Cenarion Hold|M|51,39|Z|Silithus|N|Follow the road southwest.|
-f Cenarion Hold|M|50.6,34.4|Z|Silithus|N|Get the flight path up the big hill, from Runk Windtamer.|
+f Cenarion Hold|M|48.66,36.61|Z|Silithus|N|Get the flight path up the big hill, from Runk Windtamer.|
 F Gadgetzan|M|48.8,36.6|Z|Silithus|N|At Runk Windtamer.|
 T Bungle in the Jungle|QID|4496|M|50.8,27|Z|Tanaris|N|To Alchemist Pestlezugg. (Skip follow-up)|
 T Super Sticky|QID|4504|M|51.6,26.8|Z|Tanaris|N|To Tran'rek.|

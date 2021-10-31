@@ -159,7 +159,7 @@ T Sizing Up The Opposition|QID|48929^47473|M|33.50,58.28|Z|Upper Deck@ArgusCore|
 ; DARK AWAKENINGS
 A The Speaker Calls|QID|47889|PRE|48929|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|From High Exarch Turalyon.|
 A Fuel of a Doomed World|QID|48799|PRE|48929|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|From High Exarch Turalyon. This becomes a weekly repeatable quest.|
-A Invasion Onslaught|QID|49293|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From Illidan Stormrage. This is now a weekly repeatable quest.|PRE|48605|;pre tag to make this step only show on the repeatable not initial time through
+A Invasion Onslaught|QID|49293|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage. This is now a weekly repeatable quest.|PRE|48605|;pre tag to make this step only show on the repeatable not initial time through
 t Fuel of a Doomed World|QID|48799|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|To High Exarch Turalyon.|
 F Krokul Hovel|ACTIVE|47889|N|Use to console to go to Krokul.|
 T The Speaker Calls|QID|47889|M|56.76,67.49|NC|N|To Magni Bronzebeard.|
@@ -206,9 +206,9 @@ C Scouting Map|QID|48445|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When conve
 t The Ruins of Oronaar|QID|48445|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|To Alleria Windrunner.|
 A Relics of the Ancient Eredar|QID|48446|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner. Missions will now appear for you to earn 925 ilvl armor for your champions.|PRE|48445|
 A Beneath Oronaar|QID|48654|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner.|PRE|48445|
-T Beneath Oronaar|QID|48654|M|42.65,65.39;43.98,60.92|CS|Z|ArgusMacAree|N|Use the Navigation Console to go to Mac'Aree City Center and find Nabiru who is located directly underneath the Ruins of Oronaar.|
-A Void Inoculation|QID|48911|M|43.98,60.92|Z|ArgusMacAree|N|From Nabiru. This is a weekly repeatable quest for an extra minion Nabiru is located near the MacAree City Center, beneath the ruins of Oronaar.|PRE|48654|;not spurious-ignore grail integration.
-T Void Inoculation|QID|48911|M|43.98,60.92|Z|ArgusMacAree|N|To Nabiru. Check off manually if you don't plan on doing the quest. There is a followup, but it is considerably more expensive. Get the 2nd minion if you need it and/or resources are not in short supply for you!|
+T Beneath Oronaar|QID|48654|M|42.65,65.39;43.98,60.92|CS|Z|882;Eredath|N|Use the Navigation Console to go to Eredath City Center and find Nabiru who is located directly underneath the Ruins of Oronaar.|
+A Void Inoculation|QID|48911|M|43.98,60.92|Z|882;Eredath|N|From Nabiru. This is a weekly repeatable quest for an extra minion Nabiru is located near the Eredath City Center, beneath the ruins of Oronaar.|PRE|48654|;not spurious-ignore grail integration.
+T Void Inoculation|QID|48911|M|43.98,60.92|Z|882;Eredath|N|To Nabiru. Check off manually if you don't plan on doing the quest. There is a followup, but it is considerably more expensive. Get the 2nd minion if you need it and/or resources are not in short supply for you!|
 t Relics of the Ancient Eredar|QID|48446|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|To Alleria Windrunner.|
 A Shadowguard Dispersion|QID|48447|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner.|PRE|48446|
 C Scouting Map|QID|48447|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the mission, "Shadowguard Dispersion". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
@@ -266,79 +266,79 @@ A Forming a Bond|QID|47994|PRE|47993|M|43.43,23.21|Z|Upper Deck@ArgusSurface|N|F
 T Forming a Bond|QID|47994|M|43.43,23.21|Z|Upper Deck@ArgusSurface|N|To Grand Artificer Romuul.|
 A A Floating Ruin|QID|48081|PRE|47993|M|40.25,23.49|Z|Upper Deck@ArgusSurface|N|From Prophet Velen.|
 F Vindicaar, Mac'Aree|QID|48081|M|42.46,22.88|Z|Upper Deck@ArgusSurface|QO|1|N|Use the Navigation Console to go to Mac'Aree.|
-T A Floating Ruin|QID|48081|M|46.91,23.02|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
-A Mac'Aree, Jewel of Argus|QID|46815|PRE|48081|M|46.91,23.02|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
-A The Ruins of Oronaar|QID|48445|PRE|47654|M|45.54,24.54|Z|Upper Deck@ArgusMacAree|N|From Alleria Windrunner.|
+T A Floating Ruin|QID|48081|M|46.91,23.02|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
+A Mac'Aree, Jewel of Argus|QID|46815|PRE|48081|M|46.91,23.02|Z|883;Upper Deck@ArgusEredath|N|From Prophet Velen.|
+A The Ruins of Oronaar|QID|48445|PRE|47654|M|45.54,24.54|Z|883;Upper Deck@ArgusEredath|N|From Alleria Windrunner.|
 C Scouting Map|QID|48445|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the "Inches from Madness". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
-t The Ruins of Oronaar|QID|48445|M|45.54,24.54|Z|Upper Deck@ArgusMacAree|N|From Alleria Windrunner.|
-C Mac'Aree, Jewel of Argus|QID|46815|M|49.63,23.70|Z|Upper Deck@ArgusMacAree|QO|1|CHAT|N|Tell Romuul you are ready.|
-C Mac'Aree, Jewel of Argus|QID|46815|M|55.32,82.17|Z|ArgusMacAree|QO|2|CHAT|N|Ask Velen to continue. Cutscene shows him remembering when he was here last.|
-C Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.87|Z|ArgusMacAree|QO|3|NC|N|Walk with Velen while he reminisces.|
-T Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.92|Z|ArgusMacAree|N|To Prophet Velen.|
-A Defenseless and Afraid|QID|46818|PRE|46815|M|54.50,77.92|Z|ArgusMacAree|N|From Prophet Velen.|
-A Khazaduum, First of His Name|QID|46834|PRE|46815|M|54.50,77.92|Z|ArgusMacAree|N|From Prophet Velen.|
-C Defenseless and Afraid|QID|46818|M|54.22,73.45|Z|ArgusMacAree|QO|1|U|152408|N|Kill ghosts to collect Pylon Cores, you need a new pylon core to activate each Ancient Pylons.|
-K Echo of Khazaduum|ACTIVE|46834|M|52.86,66.74|Z|ArgusMacAree|QO|1|N|Kill Khazaduum for the Argunite Keystone|T|Echo of Khazaduum|
-T Khazaduum, First of His Name|QID|46834|M|54.50,77.91|Z|ArgusMacAree|N|To Prophet Velen.|
-T Defenseless and Afraid|QID|46818|M|54.50,77.91|Z|ArgusMacAree|N|To Prophet Velen.|
-A Consecrating Ground|QID|47066|PRE|46834&46818|M|54.50,77.91|Z|ArgusMacAree|N|From Prophet Velen.|
-C Consecrating Ground|QID|47066|M|52.80,80.24|Z|ArgusMacAree|NC|N|Around to your left, in a undergound bunker, restore the Argunite Matrix.|
-T Consecrating Ground|QID|47066|M|52.86,75.87|Z|ArgusMacAree|N|To Prophet Velen.|
-A The Path Forward|QID|46941|PRE|47066|M|52.86,75.87|Z|ArgusMacAree|N|From Prophet Velen.|
-C The Path Forward|QID|46941|M|52.86,75.50|Z|ArgusMacAree|NC|N|Call Down a Lightforged Beacon|
-T The Path Forward|QID|46941|M|52.86,75.87|Z|ArgusMacAree|N|To Prophet Velen.|
-A Not-So-Humble Beginnings|QID|47686|PRE|46941|M|52.86,75.87|Z|ArgusMacAree|N|From Prophet Velen.|
-T Not-So-Humble Beginnings|QID|47686|M|59.70,50.51|Z|ArgusMacAree|N|To Archmage Y'mera.|
-A Invasive Species|QID|47688|PRE|47686|M|59.70,50.51|Z|ArgusMacAree|N|From Archmage Y'mera.|
-A Conservation of Magic|QID|47882|PRE|47686|M|59.70,50.51|Z|ArgusMacAree|N|From Archmage Y'mera.|
-C Invasive Species|QID|47688|M|65.96,54.07|Z|ArgusMacAree|N|Kill Panthara for the partially Digested Arcana.|T|Manafeeder|S|
-C Conservation of Magic|QID|47882|M|67.09,51.21|Z|ArgusMacAree|NC|U|151624|N|Stabilize Power Conduits.|
-C Invasive Species|QID|47688|M|65.96,54.07|Z|ArgusMacAree|N|Kill Panthara for the partially Digested Arcana.|T|Manafeeder|US|
-T Conservation of Magic|QID|47882|M|59.71,50.49|Z|ArgusMacAree|N|To Archmage Y'mera.|
-T Invasive Species|QID|47688|M|59.71,50.49|Z|ArgusMacAree|N|To Archmage Y'mera.|
-A The Longest Vigil|QID|47883|PRE|47882&47688|M|59.71,50.49|Z|ArgusMacAree|N|From Archmage Y'mera.|
-C The Longest Vigil|QID|47883|M|60.02,50.50|Z|ArgusMacAree|QO|1|NC|N|Click on the Deactivated Conservatory Vigilent.|
-C The Longest Vigil|QID|47883|M|59.92,50.40|Z|ArgusMacAree|QO|2|CHAT|N|Tell Vigilant Quoram that you seek the sigil.|
-T The Longest Vigil|QID|47883|M|60.00,50.50|Z|ArgusMacAree|N|To Vigilant Quoram.|
-A Gatekeeper's Challenge: Tenacity|QID|47689|PRE|47883|M|60.00,50.50|Z|ArgusMacAree|N|From Vigilant Quoram.|
-A Gatekeeper's Challenge: Cunning|QID|47685|PRE|47883|M|60.00,50.50|Z|ArgusMacAree|N|From Vigilant Quoram.|
-A Gatekeeper's Challenge: Mastery|QID|47687|PRE|47883|M|60.00,50.50|Z|ArgusMacAree|N|From Vigilant Quoram.|
-C High Wakener Aargon|QID|47687|M|63.69,51.63|Z|ArgusMacAree|QO|3|CHAT|N|Challenge High Wakener Aargon.|T|High Wakener Aargon|
-C Arc-Consul Velara|QID|47687|M|63.97,50.49|Z|ArgusMacAree|QO|2|CHAT|N|Challenge Arc-Consul Velara.|T|Arc-Consul Velara|
-C Grand Vizier Jarasum|QID|47687|M|63.78,49.18|Z|ArgusMacAree|QO|1|N|Challenge Grand Vizier Jarasum.|T|Grand Vizier Jarasum|
-C Gatekeeper's Challenge: Cunning|QID|47685|M|62.54,46.07|Z|ArgusMacAree|QO|1|NC|N|Inspect the Well-Preserved Tome.\nYou will need to combine two colors to unlock the artifacts.|
-C Gatekeeper's Challenge: Cunning|QID|47685|M|63.68,44.83|Z|ArgusMacAree|QO|2|NC|N|Fragment of Acuity, (blue and yellow=green).|
-C Gatekeeper's Challenge: Cunning|QID|47685|M|61.84,42.82|Z|ArgusMacAree|QO|3|NC|N|Fragment of Wit, (red and yellow=orange).|
-C Gatekeeper's Challenge: Cunning|QID|47685|M|60.94,44.18|Z|ArgusMacAree|QO|4|NC|N|Fragment of Guile, (blue and red=purple).|
-C Gatekeeper's Challenge: Tenacity|QID|47689|M|67.36,50.21|Z|ArgusMacAree|QO|1|CHAT|N|Enter the Gatekeeper's Alcove, you might have to wait for the Gatekeeper.|
-C Gatekeeper's Challenge: Tenacity|QID|47689|M|70.91,49.99|Z|ArgusMacAree|QO|2|NC|N|1) First room, avoid red circles on floor.\n2) Second room, avoid beams and orbs.\n3) Avoid orbs on stairs, like the rocks in Black Rook Hold.|
-T Gatekeeper's Challenge: Mastery|QID|47687|M|60.00,50.49|Z|ArgusMacAree|N|To Vigilant Quoram.|
-T Gatekeeper's Challenge: Cunning|QID|47685|M|60.00,50.49|Z|ArgusMacAree|N|To Vigilant Quoram.|
-T Gatekeeper's Challenge: Tenacity|QID|47689|M|60.00,50.49|Z|ArgusMacAree|N|To Vigilant Quoram.|
-A The Defiler's Legacy|QID|47690|PRE|47685&47687&47689|M|60.00,50.49|Z|ArgusMacAree|N|From Vigilant Quoram, next to Archmage Y'mera at the entrance.|
-R Praetorium|ACTIVE|47690|M|65.98,44.42;66.45,41.38;66.45,41.38;67.11,37.32|Z|ArgusMacAree|CS|N|Mount up and head to the Praetorium.|
-K Archimonde|ACTIVE|47690|M|68.92,33.08|Z|ArgusMacAree|QO|1|N|Kill Archimonde.|T|Archimonde|
-C The Defiler's Legacy|QID|47690|M|68.18,33.53|Z|ArgusMacAree|QO|2|NC|N|Loot the Sigil of Awakening.|
-T The Defiler's Legacy|QID|47690|M|63.28,39.72|Z|ArgusMacAree|N|To Archmage Y'mera.|
-A The Sigil of Awakening|QID|48107|PRE|47690|M|63.28,39.72|Z|ArgusMacAree|N|From Archmage Y'mera.|
-F Vindicaar, Mac'Aree|QID|48107|M|62.99,39.48|Z|ArgusMacAree|QO|1|NC|N|Use the portal to return to the Vindicaar.|
-C The Sigil of Awakening|QID|48107|M|54.26,55.63|Z|Upper Deck@ArgusMacAree|QO|2|NC|N|Place the Sigil of Awakening on the matching alcove in front of Velen (upper level).|
-T The Sigil of Awakening|QID|48107|M|53.29,50.00|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
+t The Ruins of Oronaar|QID|48445|M|45.54,24.54|Z|883;Upper Deck@ArgusEredath|N|From Alleria Windrunner.|
+C Mac'Aree, Jewel of Argus|QID|46815|M|49.63,23.70|Z|883;Upper Deck@ArgusEredath|QO|1|CHAT|N|Tell Romuul you are ready.|
+C Mac'Aree, Jewel of Argus|QID|46815|M|55.32,82.17|Z|882;Eredath|QO|2|CHAT|N|Ask Velen to continue. Cutscene shows him remembering when he was here last.|
+C Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.87|Z|882;Eredath|QO|3|NC|N|Walk with Velen while he reminisces.|
+T Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.92|Z|882;Eredath|N|To Prophet Velen.|
+A Defenseless and Afraid|QID|46818|PRE|46815|M|54.50,77.92|Z|882;Eredath|N|From Prophet Velen.|
+A Khazaduum, First of His Name|QID|46834|PRE|46815|M|54.50,77.92|Z|882;Eredath|N|From Prophet Velen.|
+C Defenseless and Afraid|QID|46818|M|54.22,73.45|Z|882;Eredath|QO|1|U|152408|N|Kill ghosts to collect Pylon Cores, you need a new pylon core to activate each Ancient Pylons.|
+K Echo of Khazaduum|ACTIVE|46834|M|52.86,66.74|Z|882;Eredath|QO|1|N|Kill Khazaduum for the Argunite Keystone|T|Echo of Khazaduum|
+T Khazaduum, First of His Name|QID|46834|M|54.50,77.91|Z|882;Eredath|N|To Prophet Velen.|
+T Defenseless and Afraid|QID|46818|M|54.50,77.91|Z|882;Eredath|N|To Prophet Velen.|
+A Consecrating Ground|QID|47066|PRE|46834&46818|M|54.50,77.91|Z|882;Eredath|N|From Prophet Velen.|
+C Consecrating Ground|QID|47066|M|52.80,80.24|Z|882;Eredath|NC|N|Around to your left, in a undergound bunker, restore the Argunite Matrix.|
+T Consecrating Ground|QID|47066|M|52.86,75.87|Z|882;Eredath|N|To Prophet Velen.|
+A The Path Forward|QID|46941|PRE|47066|M|52.86,75.87|Z|882;Eredath|N|From Prophet Velen.|
+C The Path Forward|QID|46941|M|52.86,75.50|Z|882;Eredath|NC|N|Call Down a Lightforged Beacon|
+T The Path Forward|QID|46941|M|52.86,75.87|Z|882;Eredath|N|To Prophet Velen.|
+A Not-So-Humble Beginnings|QID|47686|PRE|46941|M|52.86,75.87|Z|882;Eredath|N|From Prophet Velen.|
+T Not-So-Humble Beginnings|QID|47686|M|59.70,50.51|Z|882;Eredath|N|To Archmage Y'mera.|
+A Invasive Species|QID|47688|PRE|47686|M|59.70,50.51|Z|882;Eredath|N|From Archmage Y'mera.|
+A Conservation of Magic|QID|47882|PRE|47686|M|59.70,50.51|Z|882;Eredath|N|From Archmage Y'mera.|
+C Invasive Species|QID|47688|M|65.96,54.07|Z|882;Eredath|N|Kill Panthara for the partially Digested Arcana.|T|Manafeeder|S|
+C Conservation of Magic|QID|47882|M|67.09,51.21|Z|882;Eredath|NC|U|151624|N|Stabilize Power Conduits.|
+C Invasive Species|QID|47688|M|65.96,54.07|Z|882;Eredath|N|Kill Panthara for the partially Digested Arcana.|T|Manafeeder|US|
+T Conservation of Magic|QID|47882|M|59.71,50.49|Z|882;Eredath|N|To Archmage Y'mera.|
+T Invasive Species|QID|47688|M|59.71,50.49|Z|882;Eredath|N|To Archmage Y'mera.|
+A The Longest Vigil|QID|47883|PRE|47882&47688|M|59.71,50.49|Z|882;Eredath|N|From Archmage Y'mera.|
+C The Longest Vigil|QID|47883|M|60.02,50.50|Z|882;Eredath|QO|1|NC|N|Click on the Deactivated Conservatory Vigilent.|
+C The Longest Vigil|QID|47883|M|59.92,50.40|Z|882;Eredath|QO|2|CHAT|N|Tell Vigilant Quoram that you seek the sigil.|
+T The Longest Vigil|QID|47883|M|60.00,50.50|Z|882;Eredath|N|To Vigilant Quoram.|
+A Gatekeeper's Challenge: Tenacity|QID|47689|PRE|47883|M|60.00,50.50|Z|882;Eredath|N|From Vigilant Quoram.|
+A Gatekeeper's Challenge: Cunning|QID|47685|PRE|47883|M|60.00,50.50|Z|882;Eredath|N|From Vigilant Quoram.|
+A Gatekeeper's Challenge: Mastery|QID|47687|PRE|47883|M|60.00,50.50|Z|882;Eredath|N|From Vigilant Quoram.|
+C High Wakener Aargon|QID|47687|M|63.69,51.63|Z|882;Eredath|QO|3|CHAT|N|Challenge High Wakener Aargon.|T|High Wakener Aargon|
+C Arc-Consul Velara|QID|47687|M|63.97,50.49|Z|882;Eredath|QO|2|CHAT|N|Challenge Arc-Consul Velara.|T|Arc-Consul Velara|
+C Grand Vizier Jarasum|QID|47687|M|63.78,49.18|Z|882;Eredath|QO|1|N|Challenge Grand Vizier Jarasum.|T|Grand Vizier Jarasum|
+C Gatekeeper's Challenge: Cunning|QID|47685|M|62.54,46.07|Z|882;Eredath|QO|1|NC|N|Inspect the Well-Preserved Tome.\nYou will need to combine two colors to unlock the artifacts.|
+C Gatekeeper's Challenge: Cunning|QID|47685|M|63.68,44.83|Z|882;Eredath|QO|2|NC|N|Fragment of Acuity, (blue and yellow=green).|
+C Gatekeeper's Challenge: Cunning|QID|47685|M|61.84,42.82|Z|882;Eredath|QO|3|NC|N|Fragment of Wit, (red and yellow=orange).|
+C Gatekeeper's Challenge: Cunning|QID|47685|M|60.94,44.18|Z|882;Eredath|QO|4|NC|N|Fragment of Guile, (blue and red=purple).|
+C Gatekeeper's Challenge: Tenacity|QID|47689|M|67.36,50.21|Z|882;Eredath|QO|1|CHAT|N|Enter the Gatekeeper's Alcove, you might have to wait for the Gatekeeper.|
+C Gatekeeper's Challenge: Tenacity|QID|47689|M|70.91,49.99|Z|882;Eredath|QO|2|NC|N|1) First room, avoid red circles on floor.\n2) Second room, avoid beams and orbs.\n3) Avoid orbs on stairs, like the rocks in Black Rook Hold.|
+T Gatekeeper's Challenge: Mastery|QID|47687|M|60.00,50.49|Z|882;Eredath|N|To Vigilant Quoram.|
+T Gatekeeper's Challenge: Cunning|QID|47685|M|60.00,50.49|Z|882;Eredath|N|To Vigilant Quoram.|
+T Gatekeeper's Challenge: Tenacity|QID|47689|M|60.00,50.49|Z|882;Eredath|N|To Vigilant Quoram.|
+A The Defiler's Legacy|QID|47690|PRE|47685&47687&47689|M|60.00,50.49|Z|882;Eredath|N|From Vigilant Quoram, next to Archmage Y'mera at the entrance.|
+R Praetorium|ACTIVE|47690|M|65.98,44.42;66.45,41.38;66.45,41.38;67.11,37.32|Z|882;Eredath|CS|N|Mount up and head to the Praetorium.|
+K Archimonde|ACTIVE|47690|M|68.92,33.08|Z|882;Eredath|QO|1|N|Kill Archimonde.|T|Archimonde|
+C The Defiler's Legacy|QID|47690|M|68.18,33.53|Z|882;Eredath|QO|2|NC|N|Loot the Sigil of Awakening.|
+T The Defiler's Legacy|QID|47690|M|63.28,39.72|Z|882;Eredath|N|To Archmage Y'mera.|
+A The Sigil of Awakening|QID|48107|PRE|47690|M|63.28,39.72|Z|882;Eredath|N|From Archmage Y'mera.|
+F Vindicaar, Mac'Aree|QID|48107|M|62.99,39.48|Z|882;Eredath|QO|1|NC|N|Use the portal to return to the Vindicaar.|
+C The Sigil of Awakening|QID|48107|M|54.26,55.63|Z|883;Upper Deck@ArgusEredath|QO|2|NC|N|Place the Sigil of Awakening on the matching alcove in front of Velen (upper level).|
+T The Sigil of Awakening|QID|48107|M|53.29,50.00|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
 ;Opening up invasion points
-A Where They Least Expect It|QID|48461|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From Illidan Stormrage.|PRE|48107|
-C Invasion Point|QID|48461|M|49.16,23.09|Z|Upper Deck@ArgusMacAree|NC|N|Open the Navigation Console and find an invasion point.  \nI recommend either the one closest to a lightforged beacon or the one with the least time remaining, (especially if there is one under half an hour). \nRun to the invasion point and thru the demonic portal and follow the instructions on your scenario tracker.|
+A Where They Least Expect It|QID|48461|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage.|PRE|48107|
+C Invasion Point|QID|48461|M|49.16,23.09|Z|883;Upper Deck@ArgusEredath|NC|N|Open the Navigation Console and find an invasion point.  \nI recommend either the one closest to a lightforged beacon or the one with the least time remaining, (especially if there is one under half an hour). \nRun to the invasion point and thru the demonic portal and follow the instructions on your scenario tracker.|
 H The Vindicaar, Mac'Aree|QID|48461|N|After it is finished return to Illidan for the follow up. If you set your hearthstone to the Vindicaar that is a easy way back.|
-t Where They Least Expect It|QID|48461|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|To Illidan Stormrage.|
-A Invasion Point Offensive|QID|48513|PRE|48461|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From Illidan Stormrage.|
-C Invasion Points|QID|48513|M|49.16,23.09|Z|Upper Deck@ArgusMacAree|NC|N|This time you have to do 3 invasion points. A new one starts every 2 hours, so there are always 3 active, but obviously if you just finished one, only 2 are available right now. After you turn this quest in, Greater invasion points open up which are on on a weekly lockout. They require more people (and a group is recommended). You can do them once a week and earn better loot. Manually check this off if you want to progress to other parts of the guide.|
+t Where They Least Expect It|QID|48461|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage.|
+A Invasion Point Offensive|QID|48513|PRE|48461|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage.|
+C Invasion Points|QID|48513|M|49.16,23.09|Z|883;Upper Deck@ArgusEredath|NC|N|This time you have to do 3 invasion points. A new one starts every 2 hours, so there are always 3 active, but obviously if you just finished one, only 2 are available right now. After you turn this quest in, Greater invasion points open up which are on on a weekly lockout. They require more people (and a group is recommended). You can do them once a week and earn better loot. Manually check this off if you want to progress to other parts of the guide.|
 H Vindicaar|QID|48461|N|After it is finished return to Illidan for the follow up. If you set your hearthstone to the Vindicaar that is a easy way back.|
-t Invasion Point Offensive|QID|48513|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|To Illidan Stormrage.|
-A Commander's Downfall|QID|48605|PRE|48513|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From Illidan Stormrage.|
-C Greater Invasion Point|QID|48605|M|49.16,23.09|Z|Upper Deck@ArgusMacAree|NC|N|Open the Navigation Console and find the Greater Invasion Point. One is always available. Only one can be done per week.|
+t Invasion Point Offensive|QID|48513|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage.|
+A Commander's Downfall|QID|48605|PRE|48513|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage.|
+C Greater Invasion Point|QID|48605|M|49.16,23.09|Z|883;Upper Deck@ArgusEredath|NC|N|Open the Navigation Console and find the Greater Invasion Point. One is always available. Only one can be done per week.|
 H Vindicaar|QID|48605|N|After it is finished return to Illidan.|
-t Commander's Downfall|QID|48605|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|To Illidan Stormrage.|
-A Invasion Onslaught|QID|49293|PRE|48605|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|From Illidan Stormrage. This is now a weekly repeatable quest.|
-t Invasion Onslaught|QID|49293|M|47.00,20.07|Z|Upper Deck@ArgusMacAree|N|To Illidan Stormrage.|
+t Commander's Downfall|QID|48605|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage.|
+A Invasion Onslaught|QID|49293|PRE|48605|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage. This is now a weekly repeatable quest.|
+t Invasion Onslaught|QID|49293|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage.|
 ; Fel Heart of Argus
 F Shattered Fields|QID|47102|M|42.64,22.76|Z|Upper Deck@ArgusSurface|N|Open the Navigation Console and go to the Shattered Fields in Krokuun.|
 A The Mysterious Missive|QID|47102|M|40.6,70.0|N|From Lightforged Courier, near Shattered Fields.|
@@ -373,108 +373,108 @@ T Long Overdue|QID|47182|M|43.46,23.14|Z|Upper Deck@ArgusSurface|N|To Grand Arti
 ; We Have a Problem
 A We Have a Problem|QID|48344|M|44.73,22.21|Z|Upper Deck@ArgusSurface|N|From High Exarch Turalyon.|PRE|48107|
 F Conservatory of the Arcane|ACTIVE|48344|M|42.59,22.80|Z|Upper Deck@ArgusSurface|N|Use the Navigation console to go to the Conservatory.|
-T We Have a Problem|QID|48344|M|62.64,39.41|Z|ArgusMacAree|N|To High Exarch Turalyon.|
-A Wrath of the High Exarch|QID|47854|PRE|48344|M|62.64,39.41|Z|ArgusMacAree|N|From High Exarch Turalyon.|
-A A Non-Prophet Organization|QID|47691|PRE|48344|M|62.64,39.41|Z|ArgusMacAree|N|From High Exarch Turalyon.|
-A Overt Ops|QID|47995|PRE|48344|M|62.69,39.29|Z|ArgusMacAree|N|From Captain Fareeya.|
-C Wrath of the High Exarch|QID|47854|M|54.91,26.59|Z|ArgusMacAree|QO|1|N|Kill Legion forces and otherwise disrupt their operation.|S|
-C Overt Ops|QID|47995|M|54.86,35.32|Z|ArgusMacAree|QO|1|NC|N|Orders given to Baraat.|
-C Overt Ops|QID|47995|M|53.59,26.52|Z|ArgusMacAree|QO|2|NC|N|Orders given to Sorvos.|
-C Overt Ops|QID|47995|M|62.15,25.20|Z|ArgusMacAree|QO|3|NC|N|Orders given to Telaamon.|
-C Wrath of the High Exarch|QID|47854|M|54.91,26.59|Z|ArgusMacAree|QO|1|N|Disrupt Legion forces in Arinor Gardens.|US|
-C A Non-Prophet Organization|QID|47691|M|59.20,21.15|Z|ArgusMacAree|NC|N|Find Velen.|
-T A Non-Prophet Organization|QID|47691|M|59.09,20.06|Z|ArgusMacAree|N|To Prophet Velen.|
-T Overt Ops|QID|47995|M|59.14,20.20|Z|ArgusMacAree|N|To High Exarch Turalyon.|
-T Wrath of the High Exarch|QID|47854|M|59.14,20.20|Z|ArgusMacAree|N|To High Exarch Turalyon.|
-A Flanking Maneuvers|QID|47853|PRE|47691&47995&47854|M|59.14,20.20|Z|ArgusMacAree|N|From High Exarch Turalyon.|
-A Talgath's Forces|QID|48345|PRE|47691&47995&47854|M|59.08,20.07|Z|ArgusMacAree|N|From Prophet Velen.|
-C Flanking Maneuvers|QID|47853|M|54.57,9.67|Z|ArgusMacAree|QO|1|NC|N|Legion portals closed.|S|
-C Talgath's Forces|QID|48345|M|50.84,9.18|Z|ArgusMacAree|QO|1|N|Talgath's forces slain.|
-C Flanking Maneuvers|QID|47853|M|54.57,9.67|Z|ArgusMacAree|QO|1|NC|N|Legion portals closed.|US|
-R Kil'jaeden's Terrace|ACTIVE|48345|M|53.87,12.69;52.26,14.86;53.43,17.75;52.31,20.36|Z|ArgusMacAree|CS|N|Go here to meet Velen.|
-T Talgath's Forces|QID|48345|M|48.80,19.73|Z|ArgusMacAree|N|To Prophet Velen.|
-T Flanking Maneuvers|QID|47853|M|48.80,19.73|Z|ArgusMacAree|N|To Prophet Velen.|
-A What Might Have Been|QID|47855|PRE|47853&48345|M|48.80,19.73|Z|ArgusMacAree|N|From Prophet Velen.|
-C What Might Have Been|QID|47855|M|48.80,19.73|Z|ArgusMacAree|NC|CHAT|N|Ask Velen to show you.|
-T What Might Have Been|QID|47855|M|48.81,19.71|Z|ArgusMacAree|N|To Prophet Velen.|
-A Across the Universe|QID|47856|PRE|47855|M|48.81,19.71|Z|ArgusMacAree|N|From Prophet Velen.|
-C Across the Universe|QID|47856|M|49.39,18.94|Z|ArgusMacAree|QO|1|CHAT|N|Tell Velen you are ready.|
-K Talgath|ACTIVE|47856|M|50.15,17.50|Z|ArgusMacAree|QO|2|N|Talgath defeated.|T|Talgath|
-T Across the Universe|QID|47856|M|50.13,17.91|Z|ArgusMacAree|N|To Prophet Velen.|
-A Shadow of the Triumvirate|QID|47416|PRE|47856|M|50.13,17.91|Z|ArgusMacAree|N|From Prophet Velen.|
-F Vindicaar|QID|47416|M|43.87,14.52|Z|ArgusMacAree|QO|1|N|Return to the Vindicaar.|
-T Shadow of the Triumvirate|QID|47416|M|57.01,60.30|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
-A The Seat of the Triumvirate|QID|47238|PRE|47416|M|57.01,60.30|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
-C The Seat of the Triumvirate|QID|47238|M|57.01,60.30|Z|Upper Deck@ArgusMacAree|NC|QO|1|N|Go with Velen.|
-C The Seat of the Triumvirate|QID|47238|M|58.29,59.61|Z|Upper Deck@ArgusMacAree|QO|2|CHAT|N|Listen to Alleria's Tale.|
-T The Seat of the Triumvirate|QID|47238|M|57.01,60.30|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
-A Whispers from Oronaar|QID|40761|PRE|47238|M|58.29,59.61|Z|Upper Deck@ArgusMacAree|N|From Alleria Windrunner.|
-F Triumvirate's End|ACTIVE|40761|M|48.95,23.18|Z|Upper Deck@ArgusMacAree|N|Go to the console and go!|
-C Whispers from Oronaar|QID|40761|M|48.35,69.34|Z|ArgusMacAree|QO|1|NC|N|Investigate the Ruins of Oronaar.|
-A Arkhaan's Prayers|QID|47101|PRE|47238|ACTIVE|40761|M|46.74,69.09|Z|ArgusMacAree|N|From Prayer Effigy (statue).|
-C Arkhaan's Prayers|QID|47101|M|47.15,70.91|Z|ArgusMacAree|N|Kill mobs in the area to collect the Fragmented Prayers.|S|
-C Whispers from Oronaar|QID|40761|M|48.32,66.26|Z|ArgusMacAree|QO|4|NC|N|Wall scrawlings inspected.|
-C Whispers from Oronaar|QID|40761|M|47.95,60.76|Z|ArgusMacAree|QO|2|NC|N|Naaru figurine inspected.|
-C Whispers from Oronaar|QID|40761|M|46.52,72.47|Z|ArgusMacAree|QO|3|NC|N|Abandoned altar inspected.|
-C Arkhaan's Prayers|QID|47101|M|47.15,70.91|Z|ArgusMacAree|N|Finish collecting the Fragmented Prayers.|US|
-T Arkhaan's Prayers|QID|47101|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
-T Whispers from Oronaar|QID|40761|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
-A The Pulsing Madness|QID|47180|PRE|47101&40761|M|43.41,67.61|Z|ArgusMacAree|N|From Alleria Windrunner.|
-A Arkhaan's Pain|QID|47100|PRE|47101&40761|M|43.47,67.71|Z|ArgusMacAree|N|From Arkhaan.|
-C Arkhaan's Pain|QID|47100|M|39.52,68.67|Z|ArgusMacAree|N|Broken slain.|S|
-C The Pulsing Madness|QID|47180|M|42.14,71.10|Z|ArgusMacAree|NC|U|151563|N|Void Manifestations cleansed.|
-C Arkhaan's Pain|QID|47100|M|39.52,68.67|Z|ArgusMacAree|N|Broken slain.|US|
-T The Pulsing Madness|QID|47180|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
-T Arkhaan's Pain|QID|47100|M|43.48,67.72|Z|ArgusMacAree|N|To Arkhaan.|
-A Arkhaan's Plan|QID|47183|PRE|47100&47180|M|43.48,67.72|Z|ArgusMacAree|N|From Arkhaan.|
-C Arkhaan's Plan|QID|47183|M|40.60,62.67|Z|ArgusMacAree|QO|1|NC|N|Follow Arkhaan.|
-C Arkhaan's Plan|QID|47183|M|40.42,61.98|Z|ArgusMacAree|QO|2|CHAT|N|Tell Arkhaan we should keep going.|
-C Arkhaan's Plan|QID|47183|M|35.46,59.69|Z|ArgusMacAree|QO|3|N|Escort Arkhaan to Isolon.|
-T Arkhaan's Plan|QID|47183|M|35.34,59.54|Z|ArgusMacAree|N|To Alleria Windrunner.|
-A Arkhaan's Peril|QID|47184|PRE|47183|M|35.34,59.54|Z|ArgusMacAree|N|From Alleria Windrunner.|
-C Arkhaan's Peril|QID|47184|M|35.48,59.40|Z|ArgusMacAree|QO|1|NC|N|Cross into the Void.|
-K Arkhaan|ACTIVE|47184|M|35.92,58.22|Z|ArgusMacAree|QO|2|N|Deal with Arkhaan.|T|Arkhaan|
-T Arkhaan's Peril|QID|47184|M|35.34,59.53|Z|ArgusMacAree|N|To Alleria Windrunner.|
-A Throwing Shade|QID|47203|PRE|47184|M|35.33,59.54|Z|ArgusMacAree|N|From Alleria Windrunner.|
-C Throwing Shade|QID|47203|M|36.21,53.99|Z|ArgusMacAree|QO|1|NC|N|Meet Alleria in Umbra Hollows.|
-C Throwing Shade|QID|47203|M|37.10,52.35|Z|ArgusMacAree|QO|2|NC|N|Enter the Void Tear. You will be stealthed and need to sneak around.|
-C Throwing Shade|QID|47203|M|39.61,48.31|Z|ArgusMacAree|QO|3|NC|N|Dismantled Portal examined.|
-C Throwing Shade|QID|47203|M|35.53,43.69|Z|ArgusMacAree|QO|4|NC|N|Image of Saprish examined.|
-C Throwing Shade|QID|47203|M|36.04,38.75|Z|ArgusMacAree|QO|5|NC|N|Voidforge examined.|
-C Throwing Shade|QID|47203|M|32.15,37.78|Z|ArgusMacAree|QO|6|NC|N|Meet Alleria and Locus-Walker.|
-T Throwing Shade|QID|47203|M|31.87,37.47|Z|ArgusMacAree|N|To Alleria Windrunner.|
-A Sources of Darkness|QID|47217|PRE|47203|M|31.87,37.47|Z|ArgusMacAree|N|From Alleria Windrunner.|
-A The Shadowguard Incursion|QID|47218|PRE|47203|M|31.94,37.31|Z|ArgusMacAree|N|From Locus-Walker.|
-C The Shadowguard Incursion|QID|47218|M|26.28,32.91|Z|ArgusMacAree|N|Kill Shadowguard Ethereals.|S|
-C Sources of Darkness|QID|47217|M|25.62,32.46|Z|ArgusMacAree|NC|N|Deactivate Void Harvesters.|
-C The Shadowguard Incursion|QID|47218|M|26.28,32.91|Z|ArgusMacAree|N|Finish killing the Shadowguard Ethereals.|S|
-T Sources of Darkness|QID|47217|M|31.88,37.45|Z|ArgusMacAree|N|To Alleria Windrunner.|
-T The Shadowguard Incursion|QID|47218|M|31.93,37.34|Z|ArgusMacAree|N|To Locus-Walker.|
-A A Vessel Made Ready|QID|47219|PRE|47217&47218|M|31.93,37.34|Z|ArgusMacAree|N|From Locus-Walker.|
-C A Vessel Made Ready|QID|47219|M|31.95,37.02|Z|ArgusMacAree|QO|1|NC|N|Enter the Void Tear.|
-K Kill Nhal'athoth|ACTIVE|47219|M|26.62,45.21|Z|ArgusMacAree|QO|2|N|Defeat Nhal'athoth, after killing the 3 Shadowcallers.|T|Nhal'athoth|
-C A Vessel Made Ready|QID|47219|M|26.60,44.99|Z|ArgusMacAree|QO|3|NC|N|Loot the Heart of Nhal'athoth.|
-T A Vessel Made Ready|QID|47219|M|28.45,47.19|Z|ArgusMacAree|N|To Alleria Windrunner.|
-A A Beacon in the Dark|QID|47220|PRE|47219|M|28.44,47.21|Z|ArgusMacAree|N|From Alleria Windrunner.|
-F Vindicaar, Mac'Aree|QID|47220|M|30.16,49.56|Z|ArgusMacAree|QO|1|NC|N|Return to the Vindicaar.|
-T A Beacon in the Dark|QID|47220|M|53.33,50.19|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
-A An Offering of Shadow|QID|48560|PRE|47220|M|54.33,50.19|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen.|
-A Seat of the Triumvirate: The Crest of Knowledge|QID|47654|PRE|47220|M|53.36,50.33|Z|Upper Deck@ArgusMacAree|N|From Prophet Velen. Seat of the Triumvirate Dungeon.|
+T We Have a Problem|QID|48344|M|62.64,39.41|Z|882;Eredath|N|To High Exarch Turalyon.|
+A Wrath of the High Exarch|QID|47854|PRE|48344|M|62.64,39.41|Z|882;Eredath|N|From High Exarch Turalyon.|
+A A Non-Prophet Organization|QID|47691|PRE|48344|M|62.64,39.41|Z|882;Eredath|N|From High Exarch Turalyon.|
+A Overt Ops|QID|47995|PRE|48344|M|62.69,39.29|Z|882;Eredath|N|From Captain Fareeya.|
+C Wrath of the High Exarch|QID|47854|M|54.91,26.59|Z|882;Eredath|QO|1|N|Kill Legion forces and otherwise disrupt their operation.|S|
+C Overt Ops|QID|47995|M|54.86,35.32|Z|882;Eredath|QO|1|NC|N|Orders given to Baraat.|
+C Overt Ops|QID|47995|M|53.59,26.52|Z|882;Eredath|QO|2|NC|N|Orders given to Sorvos.|
+C Overt Ops|QID|47995|M|62.15,25.20|Z|882;Eredath|QO|3|NC|N|Orders given to Telaamon.|
+C Wrath of the High Exarch|QID|47854|M|54.91,26.59|Z|882;Eredath|QO|1|N|Disrupt Legion forces in Arinor Gardens.|US|
+C A Non-Prophet Organization|QID|47691|M|59.20,21.15|Z|882;Eredath|NC|N|Find Velen.|
+T A Non-Prophet Organization|QID|47691|M|59.09,20.06|Z|882;Eredath|N|To Prophet Velen.|
+T Overt Ops|QID|47995|M|59.14,20.20|Z|882;Eredath|N|To High Exarch Turalyon.|
+T Wrath of the High Exarch|QID|47854|M|59.14,20.20|Z|882;Eredath|N|To High Exarch Turalyon.|
+A Flanking Maneuvers|QID|47853|PRE|47691&47995&47854|M|59.14,20.20|Z|882;Eredath|N|From High Exarch Turalyon.|
+A Talgath's Forces|QID|48345|PRE|47691&47995&47854|M|59.08,20.07|Z|882;Eredath|N|From Prophet Velen.|
+C Flanking Maneuvers|QID|47853|M|54.57,9.67|Z|882;Eredath|QO|1|NC|N|Legion portals closed.|S|
+C Talgath's Forces|QID|48345|M|50.84,9.18|Z|882;Eredath|QO|1|N|Talgath's forces slain.|
+C Flanking Maneuvers|QID|47853|M|54.57,9.67|Z|882;Eredath|QO|1|NC|N|Legion portals closed.|US|
+R Kil'jaeden's Terrace|ACTIVE|48345|M|53.87,12.69;52.26,14.86;53.43,17.75;52.31,20.36|Z|882;Eredath|CS|N|Go here to meet Velen.|
+T Talgath's Forces|QID|48345|M|48.80,19.73|Z|882;Eredath|N|To Prophet Velen.|
+T Flanking Maneuvers|QID|47853|M|48.80,19.73|Z|882;Eredath|N|To Prophet Velen.|
+A What Might Have Been|QID|47855|PRE|47853&48345|M|48.80,19.73|Z|882;Eredath|N|From Prophet Velen.|
+C What Might Have Been|QID|47855|M|48.80,19.73|Z|882;Eredath|NC|CHAT|N|Ask Velen to show you.|
+T What Might Have Been|QID|47855|M|48.81,19.71|Z|882;Eredath|N|To Prophet Velen.|
+A Across the Universe|QID|47856|PRE|47855|M|48.81,19.71|Z|882;Eredath|N|From Prophet Velen.|
+C Across the Universe|QID|47856|M|49.39,18.94|Z|882;Eredath|QO|1|CHAT|N|Tell Velen you are ready.|
+K Talgath|ACTIVE|47856|M|50.15,17.50|Z|882;Eredath|QO|2|N|Talgath defeated.|T|Talgath|
+T Across the Universe|QID|47856|M|50.13,17.91|Z|882;Eredath|N|To Prophet Velen.|
+A Shadow of the Triumvirate|QID|47416|PRE|47856|M|50.13,17.91|Z|882;Eredath|N|From Prophet Velen.|
+F Vindicaar|QID|47416|M|43.87,14.52|Z|882;Eredath|QO|1|N|Return to the Vindicaar.|
+T Shadow of the Triumvirate|QID|47416|M|57.01,60.30|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
+A The Seat of the Triumvirate|QID|47238|PRE|47416|M|57.01,60.30|Z|883;Upper Deck@ArgusEredath|N|From Prophet Velen.|
+C The Seat of the Triumvirate|QID|47238|M|57.01,60.30|Z|883;Upper Deck@ArgusEredath|NC|QO|1|N|Go with Velen.|
+C The Seat of the Triumvirate|QID|47238|M|58.29,59.61|Z|883;Upper Deck@ArgusEredath|QO|2|CHAT|N|Listen to Alleria's Tale.|
+T The Seat of the Triumvirate|QID|47238|M|57.01,60.30|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
+A Whispers from Oronaar|QID|40761|PRE|47238|M|58.29,59.61|Z|883;Upper Deck@ArgusEredath|N|From Alleria Windrunner.|
+F Triumvirate's End|ACTIVE|40761|M|48.95,23.18|Z|883;Upper Deck@ArgusEredath|N|Go to the console and go!|
+C Whispers from Oronaar|QID|40761|M|48.35,69.34|Z|882;Eredath|QO|1|NC|N|Investigate the Ruins of Oronaar.|
+A Arkhaan's Prayers|QID|47101|PRE|47238|ACTIVE|40761|M|46.74,69.09|Z|882;Eredath|N|From Prayer Effigy (statue).|
+C Arkhaan's Prayers|QID|47101|M|47.15,70.91|Z|882;Eredath|N|Kill mobs in the area to collect the Fragmented Prayers.|S|
+C Whispers from Oronaar|QID|40761|M|48.32,66.26|Z|882;Eredath|QO|4|NC|N|Wall scrawlings inspected.|
+C Whispers from Oronaar|QID|40761|M|47.95,60.76|Z|882;Eredath|QO|2|NC|N|Naaru figurine inspected.|
+C Whispers from Oronaar|QID|40761|M|46.52,72.47|Z|882;Eredath|QO|3|NC|N|Abandoned altar inspected.|
+C Arkhaan's Prayers|QID|47101|M|47.15,70.91|Z|882;Eredath|N|Finish collecting the Fragmented Prayers.|US|
+T Arkhaan's Prayers|QID|47101|M|43.41,67.61|Z|882;Eredath|N|To Alleria Windrunner.|
+T Whispers from Oronaar|QID|40761|M|43.41,67.61|Z|882;Eredath|N|To Alleria Windrunner.|
+A The Pulsing Madness|QID|47180|PRE|47101&40761|M|43.41,67.61|Z|882;Eredath|N|From Alleria Windrunner.|
+A Arkhaan's Pain|QID|47100|PRE|47101&40761|M|43.47,67.71|Z|882;Eredath|N|From Arkhaan.|
+C Arkhaan's Pain|QID|47100|M|39.52,68.67|Z|882;Eredath|N|Broken slain.|S|
+C The Pulsing Madness|QID|47180|M|42.14,71.10|Z|882;Eredath|NC|U|151563|N|Void Manifestations cleansed.|
+C Arkhaan's Pain|QID|47100|M|39.52,68.67|Z|882;Eredath|N|Broken slain.|US|
+T The Pulsing Madness|QID|47180|M|43.41,67.61|Z|882;Eredath|N|To Alleria Windrunner.|
+T Arkhaan's Pain|QID|47100|M|43.48,67.72|Z|882;Eredath|N|To Arkhaan.|
+A Arkhaan's Plan|QID|47183|PRE|47100&47180|M|43.48,67.72|Z|882;Eredath|N|From Arkhaan.|
+C Arkhaan's Plan|QID|47183|M|40.60,62.67|Z|882;Eredath|QO|1|NC|N|Follow Arkhaan.|
+C Arkhaan's Plan|QID|47183|M|40.42,61.98|Z|882;Eredath|QO|2|CHAT|N|Tell Arkhaan we should keep going.|
+C Arkhaan's Plan|QID|47183|M|35.46,59.69|Z|882;Eredath|QO|3|N|Escort Arkhaan to Isolon.|
+T Arkhaan's Plan|QID|47183|M|35.34,59.54|Z|882;Eredath|N|To Alleria Windrunner.|
+A Arkhaan's Peril|QID|47184|PRE|47183|M|35.34,59.54|Z|882;Eredath|N|From Alleria Windrunner.|
+C Arkhaan's Peril|QID|47184|M|35.48,59.40|Z|882;Eredath|QO|1|NC|N|Cross into the Void.|
+K Arkhaan|ACTIVE|47184|M|35.92,58.22|Z|882;Eredath|QO|2|N|Deal with Arkhaan.|T|Arkhaan|
+T Arkhaan's Peril|QID|47184|M|35.34,59.53|Z|882;Eredath|N|To Alleria Windrunner.|
+A Throwing Shade|QID|47203|PRE|47184|M|35.33,59.54|Z|882;Eredath|N|From Alleria Windrunner.|
+C Throwing Shade|QID|47203|M|36.21,53.99|Z|882;Eredath|QO|1|NC|N|Meet Alleria in Umbra Hollows.|
+C Throwing Shade|QID|47203|M|37.10,52.35|Z|882;Eredath|QO|2|NC|N|Enter the Void Tear. You will be stealthed and need to sneak around.|
+C Throwing Shade|QID|47203|M|39.61,48.31|Z|882;Eredath|QO|3|NC|N|Dismantled Portal examined.|
+C Throwing Shade|QID|47203|M|35.53,43.69|Z|882;Eredath|QO|4|NC|N|Image of Saprish examined.|
+C Throwing Shade|QID|47203|M|36.04,38.75|Z|882;Eredath|QO|5|NC|N|Voidforge examined.|
+C Throwing Shade|QID|47203|M|32.15,37.78|Z|882;Eredath|QO|6|NC|N|Meet Alleria and Locus-Walker.|
+T Throwing Shade|QID|47203|M|31.87,37.47|Z|882;Eredath|N|To Alleria Windrunner.|
+A Sources of Darkness|QID|47217|PRE|47203|M|31.87,37.47|Z|882;Eredath|N|From Alleria Windrunner.|
+A The Shadowguard Incursion|QID|47218|PRE|47203|M|31.94,37.31|Z|882;Eredath|N|From Locus-Walker.|
+C The Shadowguard Incursion|QID|47218|M|26.28,32.91|Z|882;Eredath|N|Kill Shadowguard Ethereals.|S|
+C Sources of Darkness|QID|47217|M|25.62,32.46|Z|882;Eredath|NC|N|Deactivate Void Harvesters.|
+C The Shadowguard Incursion|QID|47218|M|26.28,32.91|Z|882;Eredath|N|Finish killing the Shadowguard Ethereals.|S|
+T Sources of Darkness|QID|47217|M|31.88,37.45|Z|882;Eredath|N|To Alleria Windrunner.|
+T The Shadowguard Incursion|QID|47218|M|31.93,37.34|Z|882;Eredath|N|To Locus-Walker.|
+A A Vessel Made Ready|QID|47219|PRE|47217&47218|M|31.93,37.34|Z|882;Eredath|N|From Locus-Walker.|
+C A Vessel Made Ready|QID|47219|M|31.95,37.02|Z|882;Eredath|QO|1|NC|N|Enter the Void Tear.|
+K Kill Nhal'athoth|ACTIVE|47219|M|26.62,45.21|Z|882;Eredath|QO|2|N|Defeat Nhal'athoth, after killing the 3 Shadowcallers.|T|Nhal'athoth|
+C A Vessel Made Ready|QID|47219|M|26.60,44.99|Z|882;Eredath|QO|3|NC|N|Loot the Heart of Nhal'athoth.|
+T A Vessel Made Ready|QID|47219|M|28.45,47.19|Z|882;Eredath|N|To Alleria Windrunner.|
+A A Beacon in the Dark|QID|47220|PRE|47219|M|28.44,47.21|Z|882;Eredath|N|From Alleria Windrunner.|
+F Vindicaar, Mac'Aree|QID|47220|M|30.16,49.56|Z|882;Eredath|QO|1|NC|N|Return to the Vindicaar.|
+T A Beacon in the Dark|QID|47220|M|53.33,50.19|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
+A An Offering of Shadow|QID|48560|PRE|47220|M|54.33,50.19|Z|883;Upper Deck@ArgusEredath|N|From Prophet Velen.|
+A Seat of the Triumvirate: The Crest of Knowledge|QID|47654|PRE|47220|M|53.36,50.33|Z|883;Upper Deck@ArgusEredath|N|From Prophet Velen. Seat of the Triumvirate Dungeon.|
 C The Crest of Knowledge|QID|47654|N|Run the Seat of the Triumvirate dungeon. be sure and loot the final boss, Lura.|QO|1|
-C The Crest of Knowledge|QID|47654|M|53.37,56.01|Z|Upper Deck@ArgusMacAree|N|If you aren't in MacAree, use the console to take the Vindicaar to MacAree, then click on the outline of the crest. Wait for the cutscene and Velen to finish talking, Don't leave the area until the quest is complete.|QO|2|
-t Seat of the Triumvirate: The Crest of Knowledge|QID|47654|M|53.36,50.33|Z|Upper Deck@ArgusMacAree|N|To Prophet Velen.|
-C An Offering of Shadow|QID|48560|M|56.20,68.40|Z|Lower Deck@ArgusMacAree|QO|1|U|152594|NC|N|Go downstairs to the Netherlight Crucible and infuse it with the Essence of Shadow.\nClick on it.|
-T An Offering of Shadow|QID|48560|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|To Artificer Shela'na.|
+C The Crest of Knowledge|QID|47654|M|53.37,56.01|Z|883;Upper Deck@ArgusEredath|N|If you aren't in Eredath, use the console to take the Vindicaar to Eredath, then click on the outline of the crest. Wait for the cutscene and Velen to finish talking, Don't leave the area until the quest is complete.|QO|2|
+t Seat of the Triumvirate: The Crest of Knowledge|QID|47654|M|53.36,50.33|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
+C An Offering of Shadow|QID|48560|M|56.20,68.40|Z|884;Upper Deck@ArgusEredath|QO|1|U|152594|NC|N|Go downstairs to the Netherlight Crucible and infuse it with the Essence of Shadow.\nClick on it.|
+T An Offering of Shadow|QID|48560|M|57.28,68.50|Z|884;Upper Deck@ArgusEredath|N|To Artificer Shela'na.|
 ; Obsolete as of 8.0.1
-; A The Netherlight Crucible|QID|49224|PRE|48560|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|From Artificer Shela'na.|ACH|12184|
-; C The Netherlight Crucible|QID|49224|M|56.20,68.40|Z|Lower Deck@ArgusMacAree|QO|1|NC|N|Imbue a relic (or all your relics) with Netherlight Fortification.|
-; T The Netherlight Crucible|QID|49224|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|To Artificer Shela'na.|
-A The Speaker Listens|QID|48273|M|45.66,23.86|Z|Upper Deck@ArgusMacAree|N|From High Exarch Turalyon.|
+; A The Netherlight Crucible|QID|49224|PRE|48560|M|57.28,68.50|Z|884;Upper Deck@ArgusEredath|N|From Artificer Shela'na.|ACH|12184|
+; C The Netherlight Crucible|QID|49224|M|56.20,68.40|Z|884;Upper Deck@ArgusEredath|QO|1|NC|N|Imbue a relic (or all your relics) with Netherlight Fortification.|
+; T The Netherlight Crucible|QID|49224|M|57.28,68.50|Z|884;Upper Deck@ArgusEredath|N|To Artificer Shela'na.|
+A The Speaker Listens|QID|48273|M|45.66,23.86|Z|883;Upper Deck@ArgusEredath|N|From High Exarch Turalyon.|
 T The Speaker Listens|QID|48273|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
 A Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|
 C Visions of Fear|QID|48272|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
 T Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|To Magni Bronzebeard.|
-A The Speaker Seeks|QID|48277|PRE|48272|M|45.66,23.86|Z|Upper Deck@ArgusMacAree|N|From High Exarch Turalyon.|
+A The Speaker Seeks|QID|48277|PRE|48272|M|45.66,23.86|Z|883;Upper Deck@ArgusEredath|N|From High Exarch Turalyon.|
 T The Speaker Seeks|QID|48277|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
 A Visions of Another|QID|48280|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|PRE|48277|
 C Visions of Another|QID|48280|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
