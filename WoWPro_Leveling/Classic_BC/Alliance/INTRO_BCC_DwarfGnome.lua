@@ -136,26 +136,24 @@ A A Favor for Evershine|QID|319|PRE|318|M|30.20,45.73|N|From Rejold Barleybrew|
 A The Perfect Stout|QID|315|M|30.20,45.73|N|From Rejold Barleybrew|
 A Bitter Rivals|QID|310|M|30.18,45.53|N|From Marleth Barleybrew|
 C A Favor for Evershine|QID|319|S|N|Kill Ice Claw Bears, Elder Crag Boars and Snow Leopards.|
-C Frostmane Hold|QID|287|M|25.1,51.0;21.3,54.4|CS|N|Kill Frostmane Headhunter as you explore Frostmane.|T|Frostmane Headhunter|
+C Frostmane Hold|QID|287|M|25.1,51.0;21.14,51.42|CS|QO|1;2|N|Kill Frostmane Headhunter as you make your way to the back of Frostmane Hold.|T|Frostmane Headhunter|
 
 R Shimmer Ridge|QID|315|M|37.4,42.5;38.75,42.4|CS|N|Find the road up the mountain.|
-C The Perfect Stout|QID|315|M|41.3,44.5;41.7,35.75|CN|NC|N|Loot the Shimmerweed Baskets on the ground. Also a rare drop from the Frostmane.|
+C The Perfect Stout|QID|315|M|41.3,44.5;41.7,35.75|CN|L|2676 6|N|Loot them from the Shimmerweed Baskets scattered around Shimmer Ridge or from the Frostmane Seers.\n[color=FF0000]NOTE: [/color]Stick to the outside edge as the Frostmanes around the fire will aggro each other.|
 
 R Gnomeregan|QID|412|ACTIVE|412|M|29.0,41.0|N|Come off the ridge, then head west to Gnomeregan.|
-C Operation Recombobulation|QID|412|M|25.71,41.81|N|Kill and loot the Leper Gnomes for the necessary parts.|
-C A Favor for Evershine|QID|319|US|N|Finish killing Ice Claw Bears, Elder Crag Boars and Snow Leopards.|
-H Thunderbrew Distillery|QID|412|M|47.37,52.51|U|6948|N|Use your hearthstone to return to Kharanos.|
+C Operation Recombobulation|QID|412|M|25.94,42.58|N|Kill and loot the Leper Gnomes for the necessary parts.|
+R Thunderbrew Distillery|QID|412|M|47.37,52.51|N|Run back to Kharanos.|
 
 r Sell and Repair|S|M|47.2,52.4|ACTIVE|310|N|Take this opportunity to sell your junk with Kreg Bilmn.|
 B Thunder Ale|ACTIVE|310|L|2686|M|47.38,52.52|N|Buy this from the innkeeper.|
-
-T Distracting Jarven |QID|308|M|47.63,52.65|N|To Jarven Thunderbrew|
-T Bitter Rivals|QID|310|M|47.70,52.70|N|Whilst Jarven Thunderbrew goes to the stairs, click on the barrel behind where he stood.|
-A Return to Marleth|QID|311|PRE|310|M|47.70,52.70|N|From the Barrel|
+T Distracting Jarven|QID|308|M|47.65,52.66|N|To Jarven Thunderbrew|
+T Bitter Rivals|QID|310|M|47.72,52.69|N|While Jarven Thunderbrew goes to the stairs, click on the barrel behind where he stood.\n[color=FF0000]NOTE: [/color]Do this before he returns or you will have to distract him again with another Thunder Ale from the Innkeeper.|
+A Return to Marleth|QID|311|PRE|310|M|47.72,52.69|N|From the Barrel|
 T Frostmane Hold|QID|287|M|46.72,53.83|N|To Senir Whitebeard|
 A The Reports|QID|291|PRE|287|M|46.72,53.83|N|From Senir Whitebeard|
-
 T Operation Recombobulation|QID|412|M|45.85,49.36|N|To Razzle Sprysprocket|
+C A Favor for Evershine|QID|319|M|0.18,45.53|N|Finish killing Ice Claw Bears, Elder Crag Boars and Snow Leopards.|US|
 
 L Nearly Level 10|QID|413|LVL|9;-1940|M|30.18,45.53|N|You need to be no more than 6 bubbles from level 10. So be sure and kill everything on your way back to Brewnall Village.|
 
@@ -165,11 +163,12 @@ A Return to Bellowfiz|QID|320|PRE|319|M|30.20,45.73|N|From Rejold Barleybrew|
 T The Perfect Stout|QID|315|M|30.20,45.73|N|To Rejold Barleybrew|
 A Shimmer Stout|QID|413|PRE|315|M|30.20,45.73|N|From Rejold Barleybrew|
 A The Hunter's Path|QID|6075|M|30.6,45.4|LVL|10|C|Hunter|R|Dwarf|N|From Tristane Shadowstone. This quest line is very important for your hunter.|
-T The Hunter's Path|QID|6075|M|45.8,53.0|LVL|10|C|Hunter|R|Dwarf|N|To Grif Wildheart|
+H Thunderbrew Distillery|ACTIVE|320|M|47.37,52.51|N|Hearth back to Kharanos, or run if your Hearth is on cooldown.|
 T Return to Bellowfiz|QID|320|M|49.43,48.41|N|To Pilot Bellowfiz|
 
-
 ; ---------- LEVEL 10 CLASS TRAINING ------------
+; -- Hunter
+T The Hunter's Path|QID|6075|M|45.8,53.0|LVL|10|C|Hunter|R|Dwarf|N|To Grif Wildheart|
 A Taming the Beast |QID|6064|M|45.81,53.04|C|Hunter|R|Dwarf|N|From Grif Wildheart|
 C Taming the Beast |QID|6064|C|Hunter|R|Dwarf|U|15911|M|39.5,47.3|T|Large Crag Boar|N|Tame a Large Crag Boar using the taming rod. During the 20 second cast, you will see heart shapes and a casting bar.|
 T Taming the Beast |QID|6064|M|45.81,53.04|C|Hunter|R|Dwarf|N|To Grif Wildheart|
@@ -181,30 +180,32 @@ C Taming the Beast |QID|6085|C|Hunter|R|Dwarf|U|15908|M|51.5,44.5|T|Ice Claw Bea
 T Taming the Beast |QID|6085|M|45.81,53.04|C|Hunter|R|Dwarf|N|To Grif Wildheart|
 A Training the Beast|QID|6086|PRE|6085|M|45.81,53.04|C|Hunter|R|Dwarf|N|From Grif Wildheart|
 T Training the Beast|QID|6086|C|Hunter|R|Dwarf|M|70.6,85.4|Z|Ironforge|N|To Belia Thundergranite, in Ironforge|
-
+; -- Mage
 A Speak with Bink|QID|1879|C|Mage|R|Gnome|
 T Speak with Bink|QID|1879|C|Mage|R|Gnome|N|This turn-in is at your Ironforge trainer.|
 A Mage-tastic Gizmonitor|QID|1880|PRE|1879|C|Mage|R|Gnome|
 C Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|M|27.7,36.5|N|The Gizmonitor is in a toolbox at the waypoint.|
 T Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|
-
+; -- Rogue
 A Road to Salvation|QID|2218|C|Rogue|R|Dwarf,Gnome|
 T Road to Salvation|QID|2218|C|Rogue|R|Dwarf,Gnome|M|51.90,14.89|Z|Ironforge|N|This turn-in is at your Ironforge trainer.|
 A Simple Subterfugin'|QID|2238|PRE|2218|C|Rogue|R|Dwarf,Gnome|
 T Simple Subterfugin'|QID|2238|C|Rogue|R|Dwarf,Gnome|M|25.15,44.48|N|This NPC is in stealth on top of the wooden tower. You will need to get very close to him to see the turn-in.|
 A Onin's Report|QID|2239|PRE|2238|C|Rogue|R|Dwarf,Gnome|M|25.15,44.48|
 T Onin's Report|QID|2239|C|Rogue|R|Dwarf,Gnome|M|51.90,14.89|Z|Ironforge|
-
-R Ironforge|QID|1715|C|Warlock|M|53.31,35.09|N|Class quest for your Voidwalker starts here.|
+; -- Warlock
+R Ironforge|AVAILABLE|1715|C|Warlock|M|15.59,85.32|Z|Ironforge|N|Class quest for your Voidwalker starts here.|
+R The Forlorn Cavern|AVAILABLE|1715|M|40.86,11.81|Z|Ironforge|N|Make your way counter-clockwise around the outer ring.|
 A The Slaughtered Lamb|QID|1715|C|Warlock|M|47.63,9.29|Z|Ironforge|N|This starts in Ironforge.|
 
+R Ironforge|AVAILABLE|6661|M|15.59,85.32|N|Class quest for your Voidwalker starts here.|C|-Warlock|
 R Deeprun Tram|QID|6661|N|Go to the Deeprun Tram|Z|Ironforge|M|76.50,51.10|
 A Deeprun Rat Roundup|QID|6661|N|Get this quest from Monty in the Tram.|
-C Deeprun Rat Roundup|QID|6661|U|17117|T|Deeprun Rat|N|Use the flute to catch five Deeprun Rats.|
+C Deeprun Rat Roundup|QID|6661|N|Use the flute to catch five Deeprun Rats.|T|Deeprun Rat|U|17117|
 T Deeprun Rat Roundup|QID|6661|N|To Monty.|
-A Me Brother, Nipsy|N|Get the next quest from Monty.|QID|6662|PRE|6661|
-T Me Brother, Nipsy|N|Get on the tram and turn this quest in at the other end.|QID|6662|
-R Stormwind City|ACTIVE|1338|N|Exit the Tram to Stormwind City|
+A Me Brother, Nipsy|QID|6662|N|Get the next quest from Monty.|PRE|6661|
+T Me Brother, Nipsy|QID|6662|N|Get on the tram and turn this quest in at the other end.|
+R Stormwind City|AVAILABLE|239|N|Exit the Tram to Stormwind City|
 
 T The Slaughtered Lamb|QID|1715|C|Warlock|M|39.23,85.27|Z|Stormwind City|N|Run to the Mage Quarter and down the stairs inside the bar.|
 A Surena Caledon|QID|1688|C|Warlock|M|39.23,85.27|Z|Stormwind City|
@@ -268,7 +269,7 @@ N City Facilities|QID|291|ACTIVE|291|S|N|Use this time to visit Auction House, B
 T The Reports|QID|291|M|44.57,49.50;39.59,57.48|CS|Z|Ironforge|N|To Senator Barin Redstone, in The High Seat|
 f Ironforge|QID|311|M|55.7,48.0|N|Discover Ironforge Flightpoint with Gryth Thurden|R|-Gnome,-Dwarf|Z|Ironforge|
 
-H Thunderbrew Distillery|C|Warlock|U|6948|
+H Thunderbrew Distillery|C|Warlock|
 
 A Muren Stormpike|QID|1679|C|Warrior|R|Dwarf,Gnome|M|47.36,52.65|Z|Dun Morogh|N|From Granis Swiftaxe.|
 T Muren Stormpike|QID|1679|C|Warrior|R|Gnome,Dwarf|M|70.77,90.28|Z|Ironforge|N|To Muren Stormpike near the Warrior/Hunter trainers in Ironforge.|
