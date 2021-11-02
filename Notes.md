@@ -1,3 +1,21 @@
+# Release 9.1.5-A0 / 1.14.0-A1 / 2.5.2-A1
+## Bug Fixes
+* None!
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Arathi Highlands, Ashenvale, Bloodmyst, Cape of Stranglethorn, Darkshore, Desolace, Feralas, Hinterlands, Loch Modan, Northern Stranglethorn, Stonetalon Mountains, Wetlands, Night Elf Intro
+* Horde: Krasarang Wilds
+* Neutral: Eastern Plaguelands, Argus, KunLai Summit, Bastion, Chains of Domination, Covenant, Revendreth
+### Dailies
+* Neutral: Wyrmrest
+### Classic Leveling
+* Nothing
+### Burning Crusade Classic Leveling
+* Alliance: Terokkar Forest, Alliance 30-50, Dwarf/Grome Intro
+* Horde: Blood Elf Intro, Orc/Troll Intro, Ghostlands 10-19, Horde Chapter 2 & 3, UnGoro Crater, Burning Steppes
+
+
 # Release 9.1.0-A5 / 1.14.0-A0 / 2.5.2-A0
 ## Bug Fixes
 * Classic SetBackdrop and IsQuestFlaggedCompleted updates
@@ -11,7 +29,7 @@
 * Nothing
 ### Burning Crusade Classic Leveling
 * Alliance: Shadowmoon, Dwarf/Gnome Intro, 30-41
-* Horde: Hrde Chapter 2 30-40
+* Horde: Horde Chapter 2 30-40
 ### Achievements
 * Shadowland Rares/Treasures
 
