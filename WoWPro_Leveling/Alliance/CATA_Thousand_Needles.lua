@@ -206,9 +206,9 @@ A To the Withering|QID|28142|PRE|28140|M|35.88,60.64|N|(UI Alert)|
 T To the Withering|QID|28142|M|50.16,62.58|N|To Magatha Grimtotem.|
 A Four Twilight Elements|QID|28157|PRE|28142|M|50.16,62.58|N|From Magatha Grimtotem.|
 A Unbound|QID|28158|PRE|28142|M|50.16,62.58|N|From Magatha Grimtotem.|
-l Twilight Element of Earth|QID|28157|QO|1|M|53.09,63.51|N|Earth is here.|; Twilight Element of Earth: 1/1
+l Twilight Element of Earth|QID|28157|QO|2|M|53.09,63.51|N|Earth is here.|; Twilight Element of Earth: 1/1
 K Bound Fury|QID|28158|QO|1|M|52.90,59.60|N|Unbind the Bound Fury here.|; Bound Fury unbound: 1/1
-l Twilight Element of Water|QID|28157|QO|1|M|52.79,58.68|N|Water is here.|; Twilight Element of Water: 1/1
+l Twilight Element of Water|QID|28157|QO|4|M|52.79,58.68|N|Water is here.|; Twilight Element of Water: 1/1
 C Unbound|QID|28158|M|56.84,61.28|N|Unbind the Bound Vortex.|
 l Twilight Element of Air|QID|28157|QO|1|M|57.53,60.00|N|Up this tower you will find air.|; Twilight Element of Air: 1/1
 C Four Twilight Elements|QID|28157|M|60.44,64.39|N|Finally get the Fire here.|
@@ -221,6 +221,5 @@ A Spread the Word|QID|28160|PRE|28159|M|50.11,62.62|N|From Magatha Grimtotem.|
 H Fizzle & Pozzik's Speedbarge|QID|28160|N|Hearth to the barge.|
 T Spread the Word|QID|28160|M|75.92,74.57|N|To Fizzle Brassbolts.|
 A Tanaris is Calling|QID|27446|LEAD|25048|M|75.92,74.57|N|From Fizzle Brassbolts.|
-N The End|U|55121|N|That's It for Thousand Needles Folks. Head on south into Tanaris and join me for Wkjezz's Tanaris Guide!|
 ]]
 end)
