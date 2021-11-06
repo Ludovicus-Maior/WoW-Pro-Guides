@@ -4,15 +4,13 @@ WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
-F New Thalanaar|QID|28503|N|If you already know how to get to New Thalanaar, and if your level isn't too high, you can take Hero's Call: Thousand Needles! from Darnassus or The Exodar.|Z|Feralas|M|86,45.2|
-C To New Thalanaar|QID|25479|O|M|42.84,72.42|N|Choose the speech bubble from Dyslix Silvergrub.|Z|Dustwallow Marsh|
-H Feathermoon Stronghold|QID|25481|U|6948|N|Hearth back to Feathermoon Stronghold.|O|Z|Feralas|
-F Shadebough|QID|25481|N|Fly to Shadebough.|M|46.78,45.34|Z|Feralas|O|
-C To New Thalanaar|QID|25481|N|Talk to Seyala Nightwisp and ask for the hippogryph to New Thalanaar.|Z|Feralas|O|
+F New Thalanaar|QID|28503|N|Take the flightpath to New Thalanaar|Z|Feralas|M|86,45.2|TAXI|New Thalanaar|
+C To New Thalanaar|ACTIVE|25479|O|M|42.84,72.42|N|Choose the speech bubble from Dyslix Silvergrub.|Z|Dustwallow Marsh|
+H Feathermoon|ACTIVE|25479|U|6948|N|Hearth back to Feathermoon Stronghold.|O|Z|Feralas|
+F Shadebough|ACTIVE|25479|N|Fly to Shadebough.|M|46.78,45.34|Z|Feralas|O|
 T Hero's Call: Thousand Needles! |QID|28503|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
 T To New Thalanaar |QID|25479|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
-T To New Thalanaar |QID|25481|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
-A The Grimtotem are Coming|QID|25486|Z|Feralas|N|From Caryssia Moonhunter.|
+A The Grimtotem are Coming|QID|25486|Z|Feralas|N|From Caryssia Moonhunter.|M|86.08,45.26|
 C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|Progessing East, Kill Grimtotems.|
 T The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|To Rendow.|
 A Two If By Boat|QID|25488|PRE|25486|M|88.53,44.27|Z|Feralas|N|From Rendow.  Only accept quest when you are ready to go to Fizzle & Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
@@ -22,7 +20,7 @@ T Do Me a Favor?|QID|25504|M|76.46,73.66|N|To Jinky Twizzlefixxit.|
 A Down in the Deeps|QID|25515|PRE|25504|M|76.46,73.66|N|From Jinky Twizzlefixxit.|
 A Bar Fight!|QID|25517|PRE|25488|M|77.98,73.35|N|From Rizzle Brassbolts.|
 h Speedbarge Bar|QID|25517|M|76.52,74.74|N|At Daisy.|
-B Bottle of Grog |QID|25517|L|54746|N|Buy a Bottle of Grog from Daisy|
+B Bottle of Grog |QID|25517|L|54746|M|76.52,74.74|N|Buy a Bottle of Grog from Daisy|
 C Bar Fight!|QID|25517|U|54746|N|Taget a goblin and use the grog you just bought from Daisy.|
 T Bar Fight!|QID|25517|M|78.02,73.36|N|To Rizzle Brassbolts.|
 A In the Outhouse|QID|25524|PRE|25504|M|79.61,75.03|N|From Submerged Outhouse (jump into the water).|
@@ -67,9 +65,9 @@ T Two-Tusk Takedown|QID|25627|U|55158|M|91.67,78.67|N|To Wizzle Brassbolts.|
 A Haunted|QID|25660|PRE|25627^25628|M|91.67,78.67|N|From Spirit of Tony Two-Tusk.|
 T Haunted|QID|25660|M|96.81,72.41|N|To Ajamon Ghostcaller.|
 A With a Little Help...|QID|25661|PRE|25660|M|96.81,72.41|N|From Ajamon Ghostcaller.|
-C With a Little Help...|QID|25661|L|55196|M|91.03,68.93|N|Kill "Evil Dolly" and loot her heart, in the Captain's Room (bottom of ship) on the most northern boat.|
-C With a Little Help...|QID|25661|L|55197|M|88.09,73.92|N|Kill Seadog Fajardo on the next ship just inside the middle cabin and loot his lungs.  To get onto the boat, find the Rope Ladder and climb it.|
-C With a Little Help...|QID|25661|L|55199|M|88.46,77.03|N|Kill Lilly Landlubber on the southern most ship at the wheel (top) and loot her Liver, again using the Rope Ladder to get onto the ship.|
+C With a Little Help...|QID|25661|QO|1|L|55196|M|91.03,68.93|N|Kill "Evil Dolly" and loot her heart, in the Captain's Room (bottom of ship) on the most northern boat.|
+C With a Little Help...|QID|25661|QO|2|L|55197|M|88.09,73.92|N|Kill Seadog Fajardo on the next ship just inside the middle cabin and loot his lungs.  To get onto the boat, find the Rope Ladder and climb it.|
+C With a Little Help...|QID|25661|QO|3|L|55199|M|88.46,77.03|N|Kill Lilly Landlubber on the southern most ship at the wheel (top) and loot her Liver, again using the Rope Ladder to get onto the ship.|
 T With a Little Help...|QID|25661|M|96.84,72.41|N|Climb up the mountains and head to Ajamon Ghostcaller.|
 A Carcass Collection|QID|25672|PRE|25661|M|96.84,72.41|N|From Ajamon Ghostcaller.|
 C Carcass Collection|QID|25672|M|84.44,66.41;83.29,82.80;85.50,65.56;72.18,66.28|CN|N|These are from already dead turtles and lizards. Keep your eyes peeled bot at the surface of the water and on the floor. If you are lucky there is a ring of 5 dead turtles between the Pirates and Speedbarge hub.|
@@ -208,9 +206,9 @@ A To the Withering|QID|28142|PRE|28140|M|35.88,60.64|N|(UI Alert)|
 T To the Withering|QID|28142|M|50.16,62.58|N|To Magatha Grimtotem.|
 A Four Twilight Elements|QID|28157|PRE|28142|M|50.16,62.58|N|From Magatha Grimtotem.|
 A Unbound|QID|28158|PRE|28142|M|50.16,62.58|N|From Magatha Grimtotem.|
-l Twilight Element of Earth|QID|28157|QO|1|M|53.09,63.51|N|Earth is here.|; Twilight Element of Earth: 1/1
+l Twilight Element of Earth|QID|28157|QO|2|M|53.09,63.51|N|Earth is here.|; Twilight Element of Earth: 1/1
 K Bound Fury|QID|28158|QO|1|M|52.90,59.60|N|Unbind the Bound Fury here.|; Bound Fury unbound: 1/1
-l Twilight Element of Water|QID|28157|QO|1|M|52.79,58.68|N|Water is here.|; Twilight Element of Water: 1/1
+l Twilight Element of Water|QID|28157|QO|4|M|52.79,58.68|N|Water is here.|; Twilight Element of Water: 1/1
 C Unbound|QID|28158|M|56.84,61.28|N|Unbind the Bound Vortex.|
 l Twilight Element of Air|QID|28157|QO|1|M|57.53,60.00|N|Up this tower you will find air.|; Twilight Element of Air: 1/1
 C Four Twilight Elements|QID|28157|M|60.44,64.39|N|Finally get the Fire here.|
@@ -223,6 +221,5 @@ A Spread the Word|QID|28160|PRE|28159|M|50.11,62.62|N|From Magatha Grimtotem.|
 H Fizzle & Pozzik's Speedbarge|QID|28160|N|Hearth to the barge.|
 T Spread the Word|QID|28160|M|75.92,74.57|N|To Fizzle Brassbolts.|
 A Tanaris is Calling|QID|27446|LEAD|25048|M|75.92,74.57|N|From Fizzle Brassbolts.|
-N The End|U|55121|N|That's It for Thousand Needles Folks. Head on south into Tanaris and join me for Wkjezz's Tanaris Guide!|
 ]]
 end)

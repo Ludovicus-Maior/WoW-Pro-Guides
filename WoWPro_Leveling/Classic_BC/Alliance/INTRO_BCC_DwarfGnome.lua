@@ -9,8 +9,6 @@ WoWPro:GuideLevels(guide,1,12, 2)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Eastern_Kingdom')
 WoWPro:GuideSteps(guide, function() return [[
 
-
-
 A Dwarven Outfitters|QID|179|M|29.92,71.21|N|From Sten Stoutarm|
 C Dwarven Outfitters|QID|179|M|29.80,74.30|QO|1|N|Kill Ragged Young Wolves to loot 8 Tough Wolf Meat.|T|Ragged Young Wolf|
 r Sell Junk|ACTIVE|179|M|30.06,71.52|N|Sell your junk to Adlin Pridedrift.|
@@ -106,9 +104,9 @@ T Tools for Steelgrill|QID|400|M|50.44,49.10|N|To Beldrin Steelgrill|
 A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|N|From Loslor Rudge|
 A The Grizzled Den|QID|313|M|49.62,48.61|N|From Pilot Stonegear|
 A Stocking Jetsteam|QID|317|M|49.43,48.41|N|From Pilot Bellowfiz|
-N Wand|ACTIVE|317|N|Having reached level 5, you can now use a Lesser Magic Wand.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock;Priest|
-R Ironforge|ACTIVE|317|M|15.59,85.32|Z|Ironforge|N|Make your way up the road to Ironforge.|C|Warlock;Priest|
-B Lesser Magic Wand|ACTIVE|317|L|11287|N|Unless you have a connection, you'll have to buy this from the Auction House.\n[color=FF0000]NOTE: [/color]If you don't have the money, or there isn't one available, you can skip this step and come back later.|
+N Wand|ACTIVE|317|N|Having reached level 5, you can now use a Lesser Magic Wand.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock;Priest,Mage|
+R Ironforge|ACTIVE|317|M|15.59,85.32|Z|Ironforge|N|Make your way up the road to Ironforge.|C|Warlock;Priest,Mage|
+B Lesser Magic Wand|ACTIVE|317|L|11287|N|Unless you have a connection, you'll have to buy this from the Auction House.\n[color=FF0000]NOTE: [/color]If you don't have the money, or there isn't one available, you can skip this step and come back later.|C|Warlock;Priest,Mage|
 C Stocking Jetsteam|QID|317|S|M|39.5,59.5|N|Kill and loot Boars for boar Meat and Bears for Bear Fur.|
 R The Grizzled Den|QID|5541|ACTIVE|5541|M|45.09,50.25;44.9,55.2|CS|N|Head to The Grizzled Den, located south-west just past Kharanos|
 C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|NC|N|Open the Ammo Crate and loot the ammo.|
@@ -157,8 +155,6 @@ A The Reports|QID|291|PRE|287|M|46.72,53.83|N|From Senir Whitebeard|
 T Operation Recombobulation|QID|412|M|45.85,49.36|N|To Razzle Sprysprocket|
 C A Favor for Evershine|QID|319|M|0.18,45.53|N|Finish killing Ice Claw Bears, Elder Crag Boars and Snow Leopards.|US|
 
-L Nearly Level 10|QID|413|LVL|9;-1940|M|30.18,45.53|N|You need to be no more than 6 bubbles from level 10. So be sure and kill everything on your way back to Brewnall Village.|
-
 T Return to Marleth|QID|311|M|30.18,45.53|N|To Marleth Barleybrew, in Brewnall Village.|
 T A Favor for Evershine|QID|319|M|30.20,45.73|N|To Rejold Barleybrew|
 A Return to Bellowfiz|QID|320|PRE|319|M|30.20,45.73|N|From Rejold Barleybrew|
@@ -200,11 +196,9 @@ R Ironforge|AVAILABLE|1715|M|15.59,85.32|Z|Ironforge|N|Make your way up the road
 R The Forlorn Cavern|AVAILABLE|1715|M|40.86,11.81|Z|Ironforge|N|Make your way clockwise around the outer ring.|C|Warlock|
 A The Slaughtered Lamb|QID|1715|M|47.63,9.29|Z|Ironforge|N|From Lago Blackwrench.|C|Warlock|
 
-R Ironforge|AVAILABLE|6661|M|15.59,85.32|N|Class quest for your Voidwalker starts here.|C|-Warlock|
+R Ironforge|AVAILABLE|6661|M|15.59,85.32|Z|Ironforge|N|Class quest for your Voidwalker starts here.|C|Warlock|
+R Ironforge|AVAILABLE|6661|M|15.59,85.32|Z|Ironforge|N|Run to Ironforge.|C|-Warlock|
 R Deeprun Tram|AVAILABLE|6661|M|77.11,51.22|Z|Ironforge|N|Make your way to the Deeprun Tram entrance inside Tinker Town.|
-A Deeprun Rat Roundup|QID|6661|N|Get this quest from Monty standing on the center Tram platform.|
-C Deeprun Rat Roundup|QID|6661|N|Use the flute to catch five Deeprun Rats.|T|Deeprun Rat|U|17117|
-T Deeprun Rat Roundup|QID|6661|N|To Monty.|
 A Me Brother, Nipsy|QID|6662|N|From Monty.|PRE|6661|
 T Me Brother, Nipsy|QID|6662|N|To Nipsy on the center platform at the Stormwind Tram Terminal. Get on the tram and ride it to the other end.|
 R Stormwind City|AVAILABLE|239|N|Exit the Tram to Stormwind City|
@@ -231,6 +225,19 @@ A A Fishy Peril|QID|40|M|42.14,67.25|Z|Elwynn Forest|N|From Remy "Two Times".|
 r Sell and Repair|ACTIVE|40|M|41.7,65.8|Z|Elwynn Forest|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|S|
 T A Fishy Peril|QID|40|M|42.11,65.94|Z|Elwynn Forest|N|To Marshall Dughan.|
 A Further Concerns|QID|35|M|42.11,65.94|Z|Elwynn Forest|N|From Marshall Dughan.|PRE|40|
+A The Fargodeep Mine|QID|62|M|42.11,65.94|Z|Elwynn Forest|N|From Marshall Dughan.|
+A Kobold Candles|QID|60|M|43.32,65.75|Z|Elwynn Forest|N|From William Pestle.|
+A Gold Dust Exchange|QID|47|M|42.16,67.21|Z|Elwynn Forest|N|Remy "Two Times".|
+C Gold Dust Exchange|QID|47|S|M|38.2,83.6|Z|Elwynn Forest|N|Kill and loot the Kobolds for the Gold Dust.|
+C Kobold Candles|QID|60|S|M|38.2,83.6|Z|Elwynn Forest|N|Kill and loot the Kobolds for the Large Candles.|
+C Fargodeep Mine|QID|62|M|40.41,82.43|Z|Elwynn Forest|N|Head to the Fargodeep Mine. Entering the cave via the upper eastern entrance, at the multi-way cavern, take the left tunnel.|
+C Gold Dust Exchange|QID|47|US|M|38.2,83.6|Z|Elwynn Forest|N|Finish killing and looting the Kobolds for the Gold Dust.|
+C Kobold Candles|QID|60|US|M|38.2,83.6|Z|Elwynn Forest|N|Finish killing and looting the Kobolds for the Large Candles.|
+T Gold Dust Exchange|QID|47|M|42.16,67.21|Z|Elwynn Forest|N|Remy "Two Times".|
+T Kobold Candles|QID|60|M|43.32,65.75|Z|Elwynn Forest|N|From William Pestle.|
+T The Fargodeep Mine|QID|62|M|42.11,65.94|Z|Elwynn Forest|N|From Marshall Dughan.|
+A The Jasperlode Mine|QID|76|M|42.11,65.94|Z|Elwynn Forest|N|From Marshall Dughan.|PRE|62|
+C The Jasperlode Mine|QID|76|M|60.53,49.97|Z|Elwynn Forest|N|From Marshall Dughan.|
 T Further Concerns|QID|35|M|73.97,72.18|Z|Elwynn Forest|N|To Guard Thomas at the bridge.\n[color=FF0000]NOTE: [/color]Follow the road east out of Goldshire.|
 A Find the Lost Guards|QID|37|M|73.97,72.18|Z|Elwynn Forest|N|From Guard Thomas.|PRE|35|
 A Protect the Frontier|QID|52|M|73.97,72.18|Z|Elwynn Forest|N|From Guard Thomas.|
@@ -244,19 +251,19 @@ C Red Linen Goods|QID|83|S|M|70.6,76.3|N|Kill and loot the Defias Bandits for th
 C Red Linen Goods|QID|83|US|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|Z|Elwynn Forest|
 T Red Linen Goods|QID|83|US|M|79.46,68.79|N|To Sara Timberlain.|Z|Elwynn Forest|
 N Prowlers|QID|52|US|ACTIVE|37|M|87,70|QO|1|N|The wolves in this area are Gray Forest Wolves, and not the ones required for the quest Protect the Frontier.|Z|Elwynn Forest|
-T Find the Lost Guards|QID|37|M|72.70,60.2|N|To "A half-eaten body".|Z|Elwynn Forest|
+T Find the Lost Guards|QID|37|M|72.65,60.33|N|To "A half-eaten body".|Z|Elwynn Forest|
 A Discover Rolf's Fate|QID|45|PRE|37|M|72.7,60.3|N|From A half-eaten body.|Z|Elwynn Forest|
-T Discover Rolf's Fate|QID|45|M|73.97,72.18|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|Z|Elwynn Forest|
-A Report to Thomas|QID|71|PRE|45|M|73.97,72.18|N|From Rolf's corpse.|Z|Elwynn Forest|
+T Discover Rolf's Fate|QID|45|M|79.80,55.52|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|Z|Elwynn Forest|
+A Report to Thomas|QID|71|PRE|45|M|79.80,55.52|N|From Rolf's corpse.|Z|Elwynn Forest|
 C Protect the Frontier|QID|52|US|M|87,70|N|Finish killing the Prowlers and Young Forest Bears.|Z|Elwynn Forest|
 T Report to Thomas|QID|71|M|73.97,72.18|N|To Guard Thomas.|Z|Elwynn Forest|
 A Deliver Thomas' Report|QID|39|PRE|71|M|73.97,72.18|N|From Guard Thomas.|Z|Elwynn Forest|
 T Protect the Frontier|QID|52|M|73.97,72.18|N|To Guard Thomas.|Z|Elwynn Forest|
 A Report to Gryan Stoutmantle|QID|109|M|73.9,72.2|N|From Guard Thomas.|Z|Elwynn Forest|
-
 R Goldshire|ACTIVE|39|M|44.25,62.50|N|Follow the road down to Goldshire.|Z|Elwynn Forest|
+T The Jasperlode Mine|QID|76|M|42.11,65.94|Z|Elwynn Forest|N|From Marshall Dughan.|
 T Deliver Thomas' Report|QID|39|M|42.11,65.94|N|To Marshall Dughan.|Z|Elwynn Forest|
-A Westbrook Garrison Needs Help!|QID|239|M|42.11,65.94|N|From Marshall Dughan.|Z|Elwynn Forest|
+A Westbrook Garrison Needs Help!|QID|239|M|42.11,65.94|N|From Marshall Dughan.|Z|Elwynn Forest|PRE|76|
 A Cloth and Leather Armor|QID|59|M|42.11,65.94|PRE|39|N|From Marshall Dughan.|Z|Elwynn Forest|
 A Elmore's Task|QID|1097|M|41.70,65.5|N|From Smith Argus.|Z|Elwynn Forest|
 
