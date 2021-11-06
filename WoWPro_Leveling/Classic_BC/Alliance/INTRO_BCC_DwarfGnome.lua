@@ -244,10 +244,10 @@ C Red Linen Goods|QID|83|S|M|70.6,76.3|N|Kill and loot the Defias Bandits for th
 C Red Linen Goods|QID|83|US|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|Z|Elwynn Forest|
 T Red Linen Goods|QID|83|US|M|79.46,68.79|N|To Sara Timberlain.|Z|Elwynn Forest|
 N Prowlers|QID|52|US|ACTIVE|37|M|87,70|QO|1|N|The wolves in this area are Gray Forest Wolves, and not the ones required for the quest Protect the Frontier.|Z|Elwynn Forest|
-T Find the Lost Guards|QID|37|M|72.65,60.33|N|To "A half-eaten body".|Z|Elwynn Forest|
+T Find the Lost Guards|QID|37|M|72.70,60.2|N|To "A half-eaten body".|Z|Elwynn Forest|
 A Discover Rolf's Fate|QID|45|PRE|37|M|72.7,60.3|N|From A half-eaten body.|Z|Elwynn Forest|
-T Discover Rolf's Fate|QID|45|M|79.80,55.52|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|Z|Elwynn Forest|
-A Report to Thomas|QID|71|PRE|45|M|79.80,55.52|N|From Rolf's corpse.|Z|Elwynn Forest|
+T Discover Rolf's Fate|QID|45|M|73.97,72.18|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|Z|Elwynn Forest|
+A Report to Thomas|QID|71|PRE|45|M|73.97,72.18|N|From Rolf's corpse.|Z|Elwynn Forest|
 C Protect the Frontier|QID|52|US|M|87,70|N|Finish killing the Prowlers and Young Forest Bears.|Z|Elwynn Forest|
 T Report to Thomas|QID|71|M|73.97,72.18|N|To Guard Thomas.|Z|Elwynn Forest|
 A Deliver Thomas' Report|QID|39|PRE|71|M|73.97,72.18|N|From Guard Thomas.|Z|Elwynn Forest|
