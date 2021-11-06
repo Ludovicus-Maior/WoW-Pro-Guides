@@ -593,6 +593,7 @@ A Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|577|
 T Singing Blue Shards|QID|605|M|27.12,77.22|Z|Stranglethorn Vale|N|To Crank Fizzlebub.\n[color=FF0000]NOTE: [/color]He's standing beside the bar in the Tavern.|
 A Venture Company Mining|QID|600|M|27.12,77.22|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|PRE|605|
 N Bank/AH|ACTIVE|638|N|Before leaving for Dustwallow Marsh, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|IZ|503;Booty Bay|
+;;; This section has been removed to reduce exp gain - Hendo72
 ;;; --- Kalimdor
 ;;F Grom'gol Base Camp|AVAILABLE|676|M|26.87,77.09|Z|Stranglethorn Vale|
 ;;b Tirisfal Glades|AVAILABLE|676|M|31.57,29.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Undercity.|
@@ -779,53 +780,54 @@ F Ratchet|ACTIVE|1270|M|45.09,63.88|Z|Orgrimmar|IZ|1454;Orgrimmar|
 F Ratchet|ACTIVE|1270|M|47.02,49.83|Z|Thunder Bluff|IZ|1456;Thunder Bluff|
 T Stinky's Escape|QID|1270|M|62.37,37.62|Z|The Barrens|N|To Mebok Mizzyrix.|
 
-; Stranglethorn Vale
-N Bank|ACTIVE|572^196|M|62.67,37.44|Z|The Barrens|N|As you are now headed back to STV, make sure you grab your quest items from your bank before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|392;Ratchet|
-b Booty Bay|ACTIVE|572^196|M|63.70,38.63|Z|The Barrens|IZ|-1434;Stranglethorn Vale|
-F Grom'gol|ACTIVE|572^196|M|26.87,77.10|Z|Stranglethorn Vale|IZ|Booty Bay^The Salty Sailor Tavern||
-R Southern Savage Coast|ACTIVE|572^196|M|32.62,35.53|Z|Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
-C Mok'thardin's Enchantment|QID|572|M|30.65,42.31|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
-K Raptor Mastery|ACTIVE|196|M|30.65,42.31|Z|Stranglethorn Vale|QO|1|N|Kill Jungle Stalkers.|
-C Mok'thardin's Enchantment|QID|572|M|30.65,42.31|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
-R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|Stranglethorn Vale|
-T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
-A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|572|
-A Split Bone Necklace|QID|598|M|32.27,27.71|Z|Stranglethorn Vale|N|From Kin'weelay.|PRE|572|
-C Excelsior|QID|628|M|25.25,19.61|Z|Stranglethorn Vale|L|4105|N|Kill 'ELDER' Saltwater Crocolisks along the shore of The Savage Coast to loot the Elder Skin.\n[color=FF0000]NOTE: [/color]Exit Grom'Gol from the west and follow the coast line north past the Bal'lal Ruins towards the Zuuldaia Ruins.\n[color=FF0000]NOTE: [/color]Seeing as the Elder Saltwater Crocolisks share the same spawn points as the Saltwater Crocolisks, you may have to kill them to get the Elders to spawn.|
-R Zuuldaia Ruins|ACTIVE|584|M|22.17,16.15|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
-R Ruins of Zul'Kunda|ACTIVE|584|M|21.4,10.2;22.28,8.67|Z|Stranglethorn Vale|CC|N|Make your way to the arch and up the ramp to the rear Zul'Kunda entrance.|
-K Nezzliok|ACTIVE|584|M|23.26,9.77|Z|Stranglethorn Vale|QO|2|N|Slowly pull the mobs at the top of the ramp halfway down to prevent aggroing the others.\nSticking to the tall wall, clear the mobs as you work your way in and up the left ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the left wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.\n[color=FF0000]NOTE: [/color]Keep your eye out for the 2 pathers that travel back and forth. Kill them as soon as you can.|
-K Gan'zulah|ACTIVE|584|M|23.26,8.72|Z|Stranglethorn Vale|QO|1|N|Using the same process as you did with Nezzliok, pull the mobs closest to the wall until Gan'zulah is alone or joins the fight.|
-R Nesingwary's Expedition|ACTIVE|584|M|24.80,7.95;26.3,8.0;35.65,10.66|Z|Stranglethorn Vale|CC|N|Swim across the pond to the northeast corner and walk/jump up onto the small ledge that runs along the north wall. Using the wall as a guide to keep you on the ledge, run across until you reach the exterior wall on the opposite side and drop off to the ground below.\nOnce you are out of the Ruins, work your way over the hills and head to the Nesingwary's Expedition.|
-T Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
-A Raptor Mastery|QID|197|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|196|
-R Grom'gol Base Camp|ACTIVE|584|M|35.5,15.1;38.5,23.6;32.87,28.73|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
-T Bloodscalp Clan Heads|QID|584|M|32.22,27.60|Z|Stranglethorn Vale|N|To the Bubbling Cauldron.|
-A Speaking with Nezzliok|QID|585|M|32.22,27.60|Z|Stranglethorn Vale|N|From the Bubbling Cauldron.|PRE|584|
-A Speaking with Gan'zulah|QID|586|M|32.22,27.60|Z|Stranglethorn Vale|N|From the Bubbling Cauldron.|PRE|584|
-F Booty Bay|ACTIVE|628|M|32.54,29.35|Z|Stranglethorn Vale|
-T Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
-A Scaring Shaky|QID|606|M|27.78,77.07|Z|Stranglethorn Vale|N|From "Sea Wolf" MacKinley.|
-A Akiris by the Bundle|QID|617|M|27.43,76.79;26.76,76.38|Z|Stranglethorn Vale|CN|N|From Privateer Bloads.\n[color=FF0000]NOTE: [/color]If he's not here, check down by the bank.|
-A The Bloodsail Buccaneers|QID|595|M|28.10,76.22|Z|Stranglethorn Vale|N|From First Mate Crazz.|
-R The Cape of Stranglethorn|ACTIVE|617^595|M|27.9,73.8;29.61,72.37|Z|Stranglethorn Vale|CC|N|Make your up to the tunnel and go through it to the other side.|
+;; This section is in Chapter 3 - Hendo72
+;;; Stranglethorn Vale
+;;N Bank|ACTIVE|572^196|M|62.67,37.44|Z|The Barrens|N|As you are now headed back to STV, make sure you grab your quest items from your bank before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|392;Ratchet|
+;;b Booty Bay|ACTIVE|572^196|M|63.70,38.63|Z|The Barrens|IZ|-1434;Stranglethorn Vale|
+;;F Grom'gol|ACTIVE|572^196|M|26.87,77.10|Z|Stranglethorn Vale|IZ|Booty Bay^The Salty Sailor Tavern||
+;;R Southern Savage Coast|ACTIVE|572^196|M|32.62,35.53|Z|Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
+;;C Mok'thardin's Enchantment|QID|572|M|30.65,42.31|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
+;;K Raptor Mastery|ACTIVE|196|M|30.65,42.31|Z|Stranglethorn Vale|QO|1|N|Kill Jungle Stalkers.|
+;;C Mok'thardin's Enchantment|QID|572|M|30.65,42.31|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
+;;R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|Stranglethorn Vale|
+;;T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
+;;A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|572|
+;;A Split Bone Necklace|QID|598|M|32.27,27.71|Z|Stranglethorn Vale|N|From Kin'weelay.|PRE|572|
+;;C Excelsior|QID|628|M|25.25,19.61|Z|Stranglethorn Vale|L|4105|N|Kill 'ELDER' Saltwater Crocolisks along the shore of The Savage Coast to loot the Elder Skin.\n[color=FF0000]NOTE: [/color]Exit Grom'Gol from the west and follow the coast line north past the Bal'lal Ruins towards the Zuuldaia Ruins.\n[color=FF0000]NOTE: [/color]Seeing as the Elder Saltwater Crocolisks share the same spawn points as the Saltwater Crocolisks, you may have to kill them to get the Elders to spawn.|
+;;R Zuuldaia Ruins|ACTIVE|584|M|22.17,16.15|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
+;;R Ruins of Zul'Kunda|ACTIVE|584|M|21.4,10.2;22.28,8.67|Z|Stranglethorn Vale|CC|N|Make your way to the arch and up the ramp to the rear Zul'Kunda entrance.|
+;;K Nezzliok|ACTIVE|584|M|23.26,9.77|Z|Stranglethorn Vale|QO|2|N|Slowly pull the mobs at the top of the ramp halfway down to prevent aggroing the others.\nSticking to the tall wall, clear the mobs as you work your way in and up the left ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the left wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.\n[color=FF0000]NOTE: [/color]Keep your eye out for the 2 pathers that travel back and forth. Kill them as soon as you can.|
+;;K Gan'zulah|ACTIVE|584|M|23.26,8.72|Z|Stranglethorn Vale|QO|1|N|Using the same process as you did with Nezzliok, pull the mobs closest to the wall until Gan'zulah is alone or joins the fight.|
+;;R Nesingwary's Expedition|ACTIVE|584|M|24.80,7.95;26.3,8.0;35.65,10.66|Z|Stranglethorn Vale|CC|N|Swim across the pond to the northeast corner and walk/jump up onto the small ledge that runs along the north wall. Using the wall as a guide to keep you on the ledge, run across until you reach the exterior wall on the opposite side and drop off to the ground below.\nOnce you are out of the Ruins, work your way over the hills and head to the Nesingwary's Expedition.|
+;;T Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
+;;A Raptor Mastery|QID|197|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|196|
+;;R Grom'gol Base Camp|ACTIVE|584|M|35.5,15.1;38.5,23.6;32.87,28.73|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
+;;T Bloodscalp Clan Heads|QID|584|M|32.22,27.60|Z|Stranglethorn Vale|N|To the Bubbling Cauldron.|
+;;A Speaking with Nezzliok|QID|585|M|32.22,27.60|Z|Stranglethorn Vale|N|From the Bubbling Cauldron.|PRE|584|
+;;A Speaking with Gan'zulah|QID|586|M|32.22,27.60|Z|Stranglethorn Vale|N|From the Bubbling Cauldron.|PRE|584|
+;;F Booty Bay|ACTIVE|628|M|32.54,29.35|Z|Stranglethorn Vale|
+;;T Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
+;;A Scaring Shaky|QID|606|M|27.78,77.07|Z|Stranglethorn Vale|N|From "Sea Wolf" MacKinley.|
+;;A Akiris by the Bundle|QID|617|M|27.43,76.79;26.76,76.38|Z|Stranglethorn Vale|CN|N|From Privateer Bloads.\n[color=FF0000]NOTE: [/color]If he's not here, check down by the bank.|
+;;A The Bloodsail Buccaneers|QID|595|M|28.10,76.22|Z|Stranglethorn Vale|N|From First Mate Crazz.|
+;;R The Cape of Stranglethorn|ACTIVE|617^595|M|27.9,73.8;29.61,72.37|Z|Stranglethorn Vale|CC|N|Make your up to the tunnel and go through it to the other side.|
 
 
-N Under Construction|QID|9999|N|From this point on, the guide is incomplete.|
-
-R Venture Co. Base Camp|ACTIVE|193|M|44.82,25.69|Z|Stranglethorn Vale|N|Follow the east road out of Grom'gol back up to the main road and continue east across the bridge.|
-K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|Z|Stranglethorn Vale|CN|QO|1|N|You'll find Bhag'thera in 1 of 3 locations. When you find him, kill him to loot his fang.\n[color=FF0000]NOTE: [/color]As you are moving between the spots, be sure to give the elite Ogres around the entrance to Mosh'Ogg a VERY wide berth.|T|Bhag'thera|
-R Balia'mah Ruins|ACTIVE|598^585^586|M|46.26,30.14|
-C Split Bone Necklace|QID|598|M|44.91,38.17|Z|Stranglethorn Vale|L|3916 25|N|Kill Skullsplitter mobs to collect the Split Bone Necklace.|S|
-C Balia'mah Trophy|QID|585|M|46.14,32.33|Z|Stranglethorn Vale|L|3906|N|Clear the area around the Balia'mah Trophy Skulls and go collect one.|
-R Ziata'jai Ruins|ACTIVE|598^585^586|M|44.18,33.50|Z|Stranglethorn Vale|N|Follow the road south out of Balia'mah.|
-C Ziata'jai Trophy|QID|585|M|42.21,36.11|Z|Stranglethorn Vale|L|3907|N|Clear the area around the Ziata'jai Trophy Skulls and go collect one.|
-R Ruins of Zul'Mamwe|ACTIVE|598^585^586|M|43.69,40.19|Z|Stranglethorn Vale|N|Follow the road southeast out of Ziata'jai.|
-K Skullsplitters|ACTIVE|586|QO|1;2;3|N|Kill Skullsplitter Hunters, Skullsplitter Headhunters, and Skullsplitter Berserkers.|S|
-C Zul'Mamwe Trophy|QID|585|M|47.65,39.54|Z|Stranglethorn Vale|L|3908|N|Clear the area around the Zul'Mamwe Trophy Skulls and go collect one.|
-K Ana'thek the Cruel|ACTIVE|586|M|45.0,43.0|Z|Stranglethorn Vale|L|3909|N|Kill Ana'thek and loot the armor.|T|Ana'thek|
-K Skullsplitters|ACTIVE|586|QO|1;2;3|N|finish killing Skullsplitter Hunters, Skullsplitter Headhunters, and Skullsplitter Berserkers.|US|
-C Venture Company Mining|QID|600|M|27.12,77.22|Z|Stranglethorn Vale|L|3917 10|N|Kill Venture Co. employees to loot the Singing Blue Crystals.|
+;;N Under Construction|QID|9999|N|From this point on, the guide is incomplete.|
+;;
+;;R Venture Co. Base Camp|ACTIVE|193|M|44.82,25.69|Z|Stranglethorn Vale|N|Follow the east road out of Grom'gol back up to the main road and continue east across the bridge.|
+;;K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|Z|Stranglethorn Vale|CN|QO|1|N|You'll find Bhag'thera in 1 of 3 locations. When you find him, kill him to loot his fang.\n[color=FF0000]NOTE: [/color]As you are moving between the spots, be sure to give the elite Ogres around the entrance to Mosh'Ogg a VERY wide berth.|T|Bhag'thera|
+;;R Balia'mah Ruins|ACTIVE|598^585^586|M|46.26,30.14|
+;;C Split Bone Necklace|QID|598|M|44.91,38.17|Z|Stranglethorn Vale|L|3916 25|N|Kill Skullsplitter mobs to collect the Split Bone Necklace.|S|
+;;C Balia'mah Trophy|QID|585|M|46.14,32.33|Z|Stranglethorn Vale|L|3906|N|Clear the area around the Balia'mah Trophy Skulls and go collect one.|
+;;R Ziata'jai Ruins|ACTIVE|598^585^586|M|44.18,33.50|Z|Stranglethorn Vale|N|Follow the road south out of Balia'mah.|
+;;C Ziata'jai Trophy|QID|585|M|42.21,36.11|Z|Stranglethorn Vale|L|3907|N|Clear the area around the Ziata'jai Trophy Skulls and go collect one.|
+;;R Ruins of Zul'Mamwe|ACTIVE|598^585^586|M|43.69,40.19|Z|Stranglethorn Vale|N|Follow the road southeast out of Ziata'jai.|
+;;K Skullsplitters|ACTIVE|586|QO|1;2;3|N|Kill Skullsplitter Hunters, Skullsplitter Headhunters, and Skullsplitter Berserkers.|S|
+;;C Zul'Mamwe Trophy|QID|585|M|47.65,39.54|Z|Stranglethorn Vale|L|3908|N|Clear the area around the Zul'Mamwe Trophy Skulls and go collect one.|
+;;K Ana'thek the Cruel|ACTIVE|586|M|45.0,43.0|Z|Stranglethorn Vale|L|3909|N|Kill Ana'thek and loot the armor.|T|Ana'thek|
+;;K Skullsplitters|ACTIVE|586|QO|1;2;3|N|finish killing Skullsplitter Hunters, Skullsplitter Headhunters, and Skullsplitter Berserkers.|US|
+;;C Venture Company Mining|QID|600|M|27.12,77.22|Z|Stranglethorn Vale|L|3917 10|N|Kill Venture Co. employees to loot the Singing Blue Crystals.|
 
 
 ;A Scaring Shaky|QID|606|M|27.78,77.07|Z|Stranglethorn Vale|N|From "Sea Wolf" MacKinley.|
