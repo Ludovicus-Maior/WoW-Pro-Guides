@@ -536,7 +536,7 @@ F Booty Bay|ACTIVE|1182|M|32.54,29.35|Z|Stranglethorn Vale|
 T Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 A Goblin Sponsorship|QID|1183|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz.|PRE|1182|
 T Bloodscalp Ears|QID|189|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
-A Skullsplitter Tusks|QID|209|M|27.00,77.13|Z|Stranglethorn Vale|N|From Kebok.|PRE|189|
+;A Skullsplitter Tusks|QID|209|M|27.00,77.13|Z|Stranglethorn Vale|N|From Kebok.|PRE|189|
 T Hostile Takeover|QID|213|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
 T Investigate the Camp|QID|201|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek.|
 T Supply and Demand|QID|575|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
@@ -585,96 +585,15 @@ T Headhunting|QID|582|M|32.16,27.72|Z|Stranglethorn Vale|N|To Nimboya.|
 T Bloody Bone Necklaces|QID|596|M|32.28,27.71|Z|Stranglethorn Vale|N|To Kin'weelay.|
 A Bloodscalp Clan Heads|QID|584|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|PRE|582|
 T An Unusual Patron|QID|9457|M|31.97,28.60|Z|Stranglethorn Vale|N|To Nemeth Hawkeye.|
-;A Trollbane|QID|638|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|
-;;N Leveling up|ACTIVE|577|N|We need to gain a few more levels to continue in STV. Off to Arathi Highlands.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 F Booty Bay|ACTIVE|577|M|32.54,29.35|Z|Stranglethorn Vale|
 T Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
 A Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|577|
 T Singing Blue Shards|QID|605|M|27.12,77.22|Z|Stranglethorn Vale|N|To Crank Fizzlebub.\n[color=FF0000]NOTE: [/color]He's standing beside the bar in the Tavern.|
-A Venture Company Mining|QID|600|M|27.12,77.22|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|PRE|605|
 N Bank/AH|ACTIVE|638|N|Before leaving for Dustwallow Marsh, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|IZ|503;Booty Bay|
 ;;; This section has been removed to reduce exp gain - Hendo72
 ;;; --- Kalimdor
-;;F Grom'gol Base Camp|AVAILABLE|676|M|26.87,77.09|Z|Stranglethorn Vale|
-;;b Tirisfal Glades|AVAILABLE|676|M|31.57,29.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Undercity.|
-;;F Tarren Mill|AVAILABLE|676|M|63.26,48.54|Z|Undercity|N|Fly from Undercity to Tarren Mill.|
-;;A The Hammer May Fall|QID|676|M|61.87,19.57|Z|Hillsbrad Foothills|N|From Tallow.|
-
 ;;; --- Arathi Highlands
-;;R Arathi Highlands|ACTIVE|676|M|63.32,41.78;81.13,56.04;82.62,57.63|Z|Hillsbrad Foothills|CC|N|Follow the road to Thoradin's Wall in the east. Arathi is on the other side of this wall.|
-;;R Boulder'gor|ACTIVE|676|M|30.51,49.08|Z|Arathi Highlands|N|Enter Arathi Highlands and follow the road east.|
-;;;L Level 38|LVL|38|N|You should be around level 38 by this point.|
-;;C The Hammer May Fall|QID|676|QO|1|N|You'll find the Boulderfist Ogres all around the base of the hill.\nIgnore the Witherbarks.|
-;;R Boulderfist Outpost|ACTIVE|676|M|34.88,44.21|Z|Arathi Highlands|CC|N|Enter the cave on the north side of the hill.|
-;;C The Hammer May Fall|QID|676|QO|2|N|You'll find the Boulderfist Enforcers inside the cave.|
-;;R Hammerfall|ACTIVE|676|M|36.17,52.56;45.26,59.08;51.18,59.63;71.23,42.77|Z|Arathi Highlands|CC|N|Head back to the road and follow it east.|
-;;A Foul Magics|QID|671|M|74.71,36.30|Z|Arathi Highlands|N|From Tor'gan.|
-;;A Hammerfall|QID|655|M|72.63,33.94|Z|Arathi Highlands|N|From Gor'mul.|
-;;f Hammerfall|QID|655|M|73.05,32.68|Z|Arathi Highlands|N|At Urda.|TAXI|-Hammerfall|
-;;T Trollbane|QID|638|M|73.80,33.96|Z|Arathi Highlands|N|To Zengu.|
-;;T The Hammer May Fall|QID|676|M|74.25,33.92|Z|Arathi Highlands|N|To Drum Fel.|
-;;A Call to Arms|QID|677|M|74.25,33.92|Z|Arathi Highlands|N|From Drum Fel.|PRE|676|
-;;T Hammerfall|QID|655|M|74.71,36.30|Z|Arathi Highlands|N|To Tor'gan.|
-;;A Raising Spirits|QID|672|M|74.71,36.30|Z|Arathi Highlands|N|From Tor'gan.|PRE|655|
-;;l Raising Spirits|ACTIVE|672|L|4512 10|S|N|Kill Highland Striders and Thrashers to loot 10 Highland Raptor Eyes.|
-;;R Shards of Myzrael|AVAILABLE|642|M|62.54,33.77|Z|Arathi Highlands|N|It's in Circle of East Binding, directly west of Hammerfall.|
-;;A The Princess Trapped|QID|642|M|62.54,33.75|Z|Arathi Highlands|N|Click on Shards of Myzrael to accept the quest.|
-;;R Witherbark Village|ACTIVE|677|M|67.42,57.10|Z|Arathi Highlands|N|Head straight south to Witherbark Village.|
-;;C Call to Arms|QID|677|QO|1;2;3|N|Circle around the lake until you finish. Be aware that they run when dying.\nThe Headhunters are closer to the mountains than the lake.|
-;;R Hammerfall|ACTIVE|677|M|71.23,42.77|Z|Arathi Highlands|N|Head back to Hammerfall.|
-;;T Call to Arms|QID|677|M|74.25,33.94|Z|Arathi Highlands|N|To Drum Fel.|
-;;A Call to Arms|QID|678|PRE|677|M|74.25,33.94|Z|Arathi Highlands|N|From Drum Fel.|
-;;R Drywhisker Gorge|ACTIVE|642|M|73.48,30.38;77.69,35.63;81.06,39.93|Z|Arathi Highlands|CC|N|Exit through the back door and work your way along the mountains to the east side. There is a hidden path that leads up to the cave.|
-;;C The Princess Trapped|QID|642|L|4435 12|N|As you work your way up the path and into the cave, kill Drywhisker Kobolds, Surveyors and Diggers to loot the Motes of Myzrael.\n[color=FF0000]NOTE: [/color]They run away quickly when they get down to ~30% health. Don't chase them. Stand back and wait for them to return - they don't always pull adds.|
-;;T The Princess Trapped|QID|642|M|84.32,30.92|Z|Arathi Highlands|N|Click on the Iridescent Shards to turn in the quest.|
-;;A Stones of Binding|QID|651|M|84.32,30.92|Z|Arathi Highlands|PRE|642|
-;;R Circle of East Binding|ACTIVE|651|M|71.26,31.80|Z|Arathi Highlands|N|Hang a right as you exit the cave and walk down the hill/cliff. There is less fighting as opposed to going left and down the way you came up.\nCircle behind Hammerfall and make your way to Circle of East Binding.|
-;;C Stone of East Binding|QID|651|M|66.74,29.68|Z|Arathi Highlands|L|4484|N|Once you have cleared the center stone, click on it to loot the Cresting Key.|
-;;R Circle of Outer Binding|ACTIVE|651|N|Head SW to the next ring of stones.\nYou'll want to clear this area as you approach. These guys hit hard and multiple pulls are going to be bad.|
-;;C Stone of Outer Binding|QID|651|M|52.00,50.74|Z|Arathi Highlands|L|4485|N|Go slow and try pulling 1 at a time. Once you have cleared the center stone, click on it to loot the Thundering Key.|
-;;C Guile of the Raptor|QID|701|L|4513 12|N|Loot 12 Raptor Hearts from Highland Fleshstalkers.|S|
-;;R Boulderfist Hall|ACTIVE|678|M|51.78,73.59|Z|Arathi Highlands|N|Head south to Boulderfist Hall.|
-;;C Call to Arms|QID|678|QO|1;2|N|Kill 10 Boulderfist Brutes and 4 Boulderfist Magi.\n[color=FF0000]NOTE: [/color]You'll find more inside the first cave. The second cave (the one set further back) is empty right now.|
-;;C Guile of the Raptor|QID|701|L|4513 12|N|Finish looting 12 Raptor Hearts from Highland Fleshstalkers.\nWith a drop rate of 33%, this could take some time.|US|
-;;R Hammerfall|ACTIVE|701|M|71.23,42.77|Z|Arathi Highlands|N|Head back to Hammerfall.|
-;;T Guile of the Raptor|QID|701|M|74.72,36.28|Z|Arathi Highlands|N|To Tor'gan.|
-;;A Guile of the Raptor|QID|702|PRE|701|M|74.72,36.28|Z|Arathi Highlands|N|From Tor'gan.|
-;;T Guile of the Raptor|QID|702|M|72.63,33.92|Z|Arathi Highlands|N|To Gor'mul.|
-;;A Guile of the Raptor|QID|847|PRE|702|M|72.63,33.92|Z|Arathi Highlands|N|From Gor'mul.|
-;;T Guile of the Raptor|QID|847|M|74.73,36.29|Z|Arathi Highlands|N|To Tor'gan.|
-;;T Call to Arms|QID|678|M|74.25,33.92|Z|Arathi Highlands|N|To Drum Fel.|
-;;R Northfold Manor|ACTIVE|671|M|73.49,30.28;59.86,35.95;49.66,37.17;36.44,30.07|Z|Arathi Highlands|CC|N|Exit Hammerfall from the back door and follow the mountains west.\nThis route is shorter than taking the road. Given your current level, most of the mobs will ignore you (for the most part).|
-;;C Foul Magics|QID|671|L|4495 10|N|Kill Syndicate Henchmen to loot 10 Bloodstone Amulets.\nThey have a drop rate of 30-35%.|
-;;C Stone of West Binding|QID|651|M|25.48,30.06|Z|Arathi Highlands|L|4483 1|N|Once you have cleared the center stone, click on it to loot the Burning Key.|
-;;R Circle of Inner Binding|QID|651|M|39.06,54.52;38.78,55.61|Z|Arathi Highlands|CC|N|Head back to the main road and follow it east.|
-;;T Stones of Binding|QID|651|M|36.22,57.42|Z|Arathi Highlands|N|Once you have cleared the center stone, click on it to turn in the quest.\n[color=FF0000]NOTE: [/color]Do not pick the follow-up quest. It's an Elite quest that's way above your current level to complete.|
-;;R Hammerfall|ACTIVE|671|M|51.45,59.31;71.23,42.77|Z|Arathi Highlands|CC|N|Head back to Hammerfall.|
-;;T Foul Magics|QID|671|M|74.71,36.31|Z|Arathi Highlands|N|To Tor'gan.\n[color=FF0000]NOTE: [/color]Do not pick the follow-up quest. It's an Elite quest that's way above your current level to complete.|
-;;;L Level 39|LVL|39|N|You should be around level 39 by this point.|
-;;N Tarren Mill|QID|557|N|We're done with this area. A brief stop in Hillsbrad to complete a few simple quests before heading back to STV.|
-;;F Tarren Mill|QID|557|M|73.06,32.78|Z|Arathi Highlands|
-;;A Gol'dir|QID|503|M|63.24,20.66|Z|Hillsbrad Foothills|N|From Krusk.|PRE|533|
-;;R Strahnbrad|ACTIVE|503|M|55.63,19.55;50.62,56.20;55.34,49.20|Z|Alterac Mountains|CC|N|Exit Tarren Mill to the west and take the road north into Alterac Mountains. Go left at the fork after Gallows' Corner.|
-;;K Jailor Borhuin|QID|503|M|62.69,40.15|Z|Alterac Mountains|QO|1|N|You'll find him inside the town hall in the far corner.\nEnter the building cautiously and pull the mobs singly as best you can. Wizards will follow the rule of LoS after their first cast. If pulled singly, make sure you get between them and the other mobs. They will back up to maintain range distance, possibly aggroing others.\n[color=FF0000]NOTE: [/color]Do not enter the main room. Pull from the doorway and draw them back to the entrance.|
-;;T Gol'dir|QID|503|M|60.62,43.87;60.01,43.76|Z|Alterac Mountains|CC|N|Enter the building and work your way upstairs to where Gol'dir is being held.|
-;;A Blackmoore's Legacy|QID|506|M|60.01,43.76|Z|Alterac Mountains|N|From Gol'dir.|PRE|503|
-;;R Dalaran|ACTIVE|557^545|M|48.94,71.34;41.51,81.86;29.72,78.88|Z|Alterac Mountains|CS|N|Make your way northwest to Dalaran. Cutting across the plateaus is the fastest way there.\nMake sure to avoid the Alliance outpost.|
-;;C Bracers of Binding|QID|557|L|3715 4|N|Kill Elemental Slaves to loot 4 Bracers of Earth Binding.|S|
-;;C Dalaran Patrols|QID|545|QO|1;2|N|Kill 12 Elemental Slaves and 6 Dalaran Summoners.|
-;;C Bracers of Binding|QID|557|L|3715 4|N|Finish collecting your Bracers of Earth Binding before leaving.|US|
-;;R Misty Shore|ACTIVE|507|M|23.26,50.44|Z|Alterac Mountains|N|Head north out of Dalaran to Misty Shore.|
-;;R Dandred's Fold|ACTIVE|507|M|36.91,22.68|Z|Alterac Mountains|N|Follow the shore line north.|
-;;K Lord Aliden Perenolde|ACTIVE|507|M|39.30,14.32|Z|Alterac Mountains|QO|1|N|Make your way inside the house and upstairs to kill Lord Aliden Perenolde.\nClear the mobs all around the house before entering. The mobs inside the house will run through the walls and bring them with them.\n[color=FF0000]NOTE: [/color]Do not walk directly into the house. You will need to clear it first by pulling. Same goes for the top of the stairs.\nDo not take your time as respawns happen quickly.|
-;;T Lord Aliden Perenolde|QID|507|M|39.30,14.32|Z|Alterac Mountains|N|To Elysa.|
-;;A Taretha's Gift|QID|508|M|39.30,14.32|Z|Alterac Mountains|N|From Elysa.|
-;;K WANTED: Baron Vardus|QID|566|M|47.15,17.95;52.76,21.16;55.26,26.98;57.81,30.84;59.77,44.00|Z|Alterac Mountains|CN|QO|1|N|Check the 4 camps in The Uplands for Baron Vardus. Once you have located him, clear the camp, kill Baron Vardus and loot his head.\nThe Syndicate Saboteurs are range attack and require a clear area for pulling. Baron Vardus is also a Frost caster. He can be LoS kited to a point. Outlast his mana and you should be ok.\n[color=FF0000]NOTE: [/color]If you cannot find him in one of the camps (he has a quick respawn timer), check the basement of the tavern in Strahnbrad.|
-;;R Tarren Mill|ACTIVE|508^545^557^566|M|62.27,20.27|Z|Hillsbrad Foothills|N|Return to Tarren Mill.|
-;;T Taretha's Gift|QID|508|M|63.23,20.65|Z|Hillsbrad Foothills|N|To Krusk.|
-;;T Dalaran Patrols|QID|545|M|61.60,20.85|Z|Hillsbrad Foothills|N|To Magus Wordeen Voidglare.|
-;;T Bracers of Binding|QID|557|M|61.50,20.93|Z|Hillsbrad Foothills|N|To Keeper Bel'varil.|
-
 ; -- Dustwallow Marsh
-;;F Undercity|AVAILABLE|1268|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
 b Ratchet|AVAILABLE|1268|M|25.87,73.12|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
 F Freewind Post|ACTIVE|1107|M|63.09,37.16|Z|The Barrens|
 R Mirage Raceway|ACTIVE|1107|M|80.34,77.10|N|Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
@@ -751,21 +670,12 @@ R Mudsprocket|ACTIVE|11215|M|40.0,61.8;40.6,68.8;41.87,72.46|Z|Dustwallow Marsh|
 T Help Mudsprocket|QID|11215|M|42.33,72.93|Z|Dustwallow Marsh|N|To Drazzit Dripvalve.|
 f Mudsprocket|AVAILABLE|1273|M|42.82,72.43|Z|Dustwallow Marsh|N|At Dyslix Silvergrub. He's outside the wall just east of the main entrance.|TAXI|-Mudsprocket|
 ; -- Eliminated finishing Witch Hill dirt pile quest chain - Hendo72
-;;F Ratchet|ACTIVE|1240|M|42.82,72.43|Z|Dustwallow Marsh|N|Fly to Ratchet.|
-;;b Booty Bay|ACTIVE|1240|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
-;;F Grom'gol Base Camp|ACTIVE|1240|M|26.03,73.23|Z|Stranglethorn Vale|N|Head to the flightmaster and take a flight to Grom'gol Base Camp.|
-;;T The Troll Witchdoctor|QID|1240|M|32.27,27.70|Z|Stranglethorn Vale|N|To Kin'weelay.|
-;;A Marg Speaks|QID|1261|M|32.23,27.64|Z|Stranglethorn Vale|N|Click on the cauldron to get the quest.|PRE|1240|
-;;H Orgrimmar|ACTIVE|1261|N|Hearth back to Orgrimmar.\n[color=FF0000]NOTE: [/color]If your Hearthstone is on cooldown, take the boat and run into Orgrimmar.|
-;;F Brackenwall Village|AVAILABLE|1273|M|45.58,63.99|Z|Orgrimmar|N|Head to the flightmaster and take a flight to Brackenwall Village.|
 F Brackenwall Village|AVAILABLE|1273|M|42.82,72.43|Z|Dustwallow Marsh|
 R Main Road|AVAILABLE|1273|M|39.14,37.96|Z|Dustwallow Marsh|CC|N|Exit Brackenwall from the south and follow the road until it ends at the main road.|
 N Questioning Reethe Bugged?|AVAILABLE|1273|M|42.32,37.91|Z|Dustwallow Marsh|N|Before you start the next quest, verify that Reethe's alone. If he's not, the quest has bugged and you'll need to clear the mobs before you can start it.\n[color=FF0000]NOTE: [/color]If/When Reethe is alone, manually check this step off to continue.|
 A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ogron, just to the north of your current position.\n[color=FF0000]NOTE: [/color]This quest is not easy and can be bugged requiring you to finish it twice.|PRE|1323&1201|RANK|3|
 A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|N|[color=CC00FF]QUEST FAILED [/color]\nClear any mobs that are left and go back to Ogron to re-accept the quest from him.\n[color=FF0000]NOTE: [/color]You'll probably have to wait for him to respawn.|PRE|1323&1201|FAIL|
 C Questioning Reethe|QID|1273|M|42.64,38.08|Z|Dustwallow Marsh|N|Follow Ogron to Reethe's camp.\n[color=FF0000]NOTE: [/color]If you fail the quest, you need to clear the soldiers before you can do it again. Otherwise, the quest will bug and you can't finish it.|
-;;R Dustwallow Bay|ACTIVE|1261|M|43.78,36.05;44.94,35.37|Z|Dustwallow Marsh|CC|N|Make your way to Dustwallow Bay. There is a 'path' through the hills.|
-;;C Marg Speaks|QID|1261|M|55.02,44.61|Z|Dustwallow Marsh|N|Make your way down to the shore and over to the islands in the middle of the bay. Grind out on the Muckshells until one drops the pendant.|
 L Level 40|ACTIVE|1276^1273|N|Grind out on mobs in the area until you are 1 bar of lv 40.|LVL|39;-4600|
 R Brackenwall Village|ACTIVE|1273^1276|M|37.63,31.69|Z|Dustwallow Marsh|N|Make your way back to Brackenwall Village.|
 T Questioning Reethe|QID|1273|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
@@ -774,67 +684,11 @@ R Hunter Rise|ACTIVE|1276|M|51.78,74.30|Z|Thunder Bluff|
 T The Black Shield|QID|1276|M|54.01,80.74|Z|Thunder Bluff|N|To Mosarn.|
 A Return to Krog|QID|11204|M|54.01,80.74|Z|Thunder Bluff|N|From Mosarn.|PRE|1276|
 = Level 40|ACTIVE|1270|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|-Warlock,-Paladin,-Rogue|
-F Orgrimmar|ACTIVE|1270|M|47.01,49.85|Z|Thunder Bluff|C|Warlock,Paladin,Rogue|
-= Level 40|ACTIVE|1270|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|Warlock,Paladin,Rogue|
-F Ratchet|ACTIVE|1270|M|45.09,63.88|Z|Orgrimmar|IZ|1454;Orgrimmar|
 F Ratchet|ACTIVE|1270|M|47.02,49.83|Z|Thunder Bluff|IZ|1456;Thunder Bluff|
 T Stinky's Escape|QID|1270|M|62.37,37.62|Z|The Barrens|N|To Mebok Mizzyrix.|
-
-;; This section is in Chapter 3 - Hendo72
-;;; Stranglethorn Vale
-;;N Bank|ACTIVE|572^196|M|62.67,37.44|Z|The Barrens|N|As you are now headed back to STV, make sure you grab your quest items from your bank before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|392;Ratchet|
-;;b Booty Bay|ACTIVE|572^196|M|63.70,38.63|Z|The Barrens|IZ|-1434;Stranglethorn Vale|
-;;F Grom'gol|ACTIVE|572^196|M|26.87,77.10|Z|Stranglethorn Vale|IZ|Booty Bay^The Salty Sailor Tavern||
-;;R Southern Savage Coast|ACTIVE|572^196|M|32.62,35.53|Z|Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
-;;C Mok'thardin's Enchantment|QID|572|M|30.65,42.31|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
-;;K Raptor Mastery|ACTIVE|196|M|30.65,42.31|Z|Stranglethorn Vale|QO|1|N|Kill Jungle Stalkers.|
-;;C Mok'thardin's Enchantment|QID|572|M|30.65,42.31|Z|Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
-;;R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|Stranglethorn Vale|
-;;T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
-;;A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|PRE|572|
-;;A Split Bone Necklace|QID|598|M|32.27,27.71|Z|Stranglethorn Vale|N|From Kin'weelay.|PRE|572|
-;;C Excelsior|QID|628|M|25.25,19.61|Z|Stranglethorn Vale|L|4105|N|Kill 'ELDER' Saltwater Crocolisks along the shore of The Savage Coast to loot the Elder Skin.\n[color=FF0000]NOTE: [/color]Exit Grom'Gol from the west and follow the coast line north past the Bal'lal Ruins towards the Zuuldaia Ruins.\n[color=FF0000]NOTE: [/color]Seeing as the Elder Saltwater Crocolisks share the same spawn points as the Saltwater Crocolisks, you may have to kill them to get the Elders to spawn.|
-;;R Zuuldaia Ruins|ACTIVE|584|M|22.17,16.15|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
-;;R Ruins of Zul'Kunda|ACTIVE|584|M|21.4,10.2;22.28,8.67|Z|Stranglethorn Vale|CC|N|Make your way to the arch and up the ramp to the rear Zul'Kunda entrance.|
-;;K Nezzliok|ACTIVE|584|M|23.26,9.77|Z|Stranglethorn Vale|QO|2|N|Slowly pull the mobs at the top of the ramp halfway down to prevent aggroing the others.\nSticking to the tall wall, clear the mobs as you work your way in and up the left ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the left wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.\n[color=FF0000]NOTE: [/color]Keep your eye out for the 2 pathers that travel back and forth. Kill them as soon as you can.|
-;;K Gan'zulah|ACTIVE|584|M|23.26,8.72|Z|Stranglethorn Vale|QO|1|N|Using the same process as you did with Nezzliok, pull the mobs closest to the wall until Gan'zulah is alone or joins the fight.|
-;;R Nesingwary's Expedition|ACTIVE|584|M|24.80,7.95;26.3,8.0;35.65,10.66|Z|Stranglethorn Vale|CC|N|Swim across the pond to the northeast corner and walk/jump up onto the small ledge that runs along the north wall. Using the wall as a guide to keep you on the ledge, run across until you reach the exterior wall on the opposite side and drop off to the ground below.\nOnce you are out of the Ruins, work your way over the hills and head to the Nesingwary's Expedition.|
-;;T Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
-;;A Raptor Mastery|QID|197|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|196|
-;;R Grom'gol Base Camp|ACTIVE|584|M|35.5,15.1;38.5,23.6;32.87,28.73|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
-;;T Bloodscalp Clan Heads|QID|584|M|32.22,27.60|Z|Stranglethorn Vale|N|To the Bubbling Cauldron.|
-;;A Speaking with Nezzliok|QID|585|M|32.22,27.60|Z|Stranglethorn Vale|N|From the Bubbling Cauldron.|PRE|584|
-;;A Speaking with Gan'zulah|QID|586|M|32.22,27.60|Z|Stranglethorn Vale|N|From the Bubbling Cauldron.|PRE|584|
-;;F Booty Bay|ACTIVE|628|M|32.54,29.35|Z|Stranglethorn Vale|
-;;T Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
-;;A Scaring Shaky|QID|606|M|27.78,77.07|Z|Stranglethorn Vale|N|From "Sea Wolf" MacKinley.|
-;;A Akiris by the Bundle|QID|617|M|27.43,76.79;26.76,76.38|Z|Stranglethorn Vale|CN|N|From Privateer Bloads.\n[color=FF0000]NOTE: [/color]If he's not here, check down by the bank.|
-;;A The Bloodsail Buccaneers|QID|595|M|28.10,76.22|Z|Stranglethorn Vale|N|From First Mate Crazz.|
-;;R The Cape of Stranglethorn|ACTIVE|617^595|M|27.9,73.8;29.61,72.37|Z|Stranglethorn Vale|CC|N|Make your up to the tunnel and go through it to the other side.|
-
-
-;;N Under Construction|QID|9999|N|From this point on, the guide is incomplete.|
-;;
-;;R Venture Co. Base Camp|ACTIVE|193|M|44.82,25.69|Z|Stranglethorn Vale|N|Follow the east road out of Grom'gol back up to the main road and continue east across the bridge.|
-;;K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|Z|Stranglethorn Vale|CN|QO|1|N|You'll find Bhag'thera in 1 of 3 locations. When you find him, kill him to loot his fang.\n[color=FF0000]NOTE: [/color]As you are moving between the spots, be sure to give the elite Ogres around the entrance to Mosh'Ogg a VERY wide berth.|T|Bhag'thera|
-;;R Balia'mah Ruins|ACTIVE|598^585^586|M|46.26,30.14|
-;;C Split Bone Necklace|QID|598|M|44.91,38.17|Z|Stranglethorn Vale|L|3916 25|N|Kill Skullsplitter mobs to collect the Split Bone Necklace.|S|
-;;C Balia'mah Trophy|QID|585|M|46.14,32.33|Z|Stranglethorn Vale|L|3906|N|Clear the area around the Balia'mah Trophy Skulls and go collect one.|
-;;R Ziata'jai Ruins|ACTIVE|598^585^586|M|44.18,33.50|Z|Stranglethorn Vale|N|Follow the road south out of Balia'mah.|
-;;C Ziata'jai Trophy|QID|585|M|42.21,36.11|Z|Stranglethorn Vale|L|3907|N|Clear the area around the Ziata'jai Trophy Skulls and go collect one.|
-;;R Ruins of Zul'Mamwe|ACTIVE|598^585^586|M|43.69,40.19|Z|Stranglethorn Vale|N|Follow the road southeast out of Ziata'jai.|
-;;K Skullsplitters|ACTIVE|586|QO|1;2;3|N|Kill Skullsplitter Hunters, Skullsplitter Headhunters, and Skullsplitter Berserkers.|S|
-;;C Zul'Mamwe Trophy|QID|585|M|47.65,39.54|Z|Stranglethorn Vale|L|3908|N|Clear the area around the Zul'Mamwe Trophy Skulls and go collect one.|
-;;K Ana'thek the Cruel|ACTIVE|586|M|45.0,43.0|Z|Stranglethorn Vale|L|3909|N|Kill Ana'thek and loot the armor.|T|Ana'thek|
-;;K Skullsplitters|ACTIVE|586|QO|1;2;3|N|finish killing Skullsplitter Hunters, Skullsplitter Headhunters, and Skullsplitter Berserkers.|US|
-;;C Venture Company Mining|QID|600|M|27.12,77.22|Z|Stranglethorn Vale|L|3917 10|N|Kill Venture Co. employees to loot the Singing Blue Crystals.|
-
-
-;A Scaring Shaky|QID|606|M|27.78,77.07|Z|Stranglethorn Vale|N|From "Sea Wolf" MacKinley.|
-;A The Bloodsail Buccaneers|QID|595|M|28.09,76.22|Z|Stranglethorn Vale|N|From First Mate Crazz.|
-;R The Cape of Stranglethorn|QID|595|M|27.95,73.74;29.38,72.85;26.86,73.58|Z|Stranglethorn Vale|CC|N|Head up the ramps to the tunnel and go though it to the other side.|
-
-
+F Orgrimmar|ACTIVE|-1270|AVAILABLE|1418|M|63.09,37.17|Z|The Barrens|
+= Level 40|AVAILABLE|1418|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|Warlock,Paladin,Rogue|
+R Orgrimmar|AVAILABLE|1418|N|You need to be in Orgrimmar to start the next guide.|
 ]]
 
 end)
