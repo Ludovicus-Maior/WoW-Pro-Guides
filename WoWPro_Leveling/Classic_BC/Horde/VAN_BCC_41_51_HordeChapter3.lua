@@ -14,18 +14,23 @@ return [[
 ;on website, one place says 41-51 other says 40-51 ... maybe should cut a few quests and make it 41-51?
 ;N This is a rough port and very BETA|
 
+; Hendo72- I will be commenting out steps I don't think we need in this guide. I am leaving them in just in case they are required.
+
 ;-----lvl---40---------------
-N Things to Buy|N|There are some items that you need to buy off of the Auction House or otherwise acquire. Badlands quest - approx level 42.|
-B Frost Oil|QID|713|S!US|L|3829|N|Crafted with Alchemy.|
-B Gyrochronatom|QID|714|S!US|L|4389|N|Crafted with Engineering.|
-B Patterned Bronze Bracers|QID|716|S!US|L|2868|N|Crafted with Blacksmithing.|
+;;N Things to Buy|AVAILABLE|713^714^716|N|There are some items that you need to buy from the AH (or otherwise acquire) for a couple Badlands quest chains.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
+;;B Frost Oil|AVAILABLE|713|L|3829|N|Crafted with Alchemy.|S!US|RANK|3|
+;;B Gyrochronatom|AVAILABLE|714|L|4389|N|Crafted with Engineering.|S!US|RANK|3|
+;;B Patterned Bronze Bracers|AVAILABLE|716|L|2868|N|Crafted with Blacksmithing.|S!US|RANK|3|
 
-b Grom'gol outpost|ACTIVE|669|M|50.8,13.6|Z|Durotar|N|Take the zep to the the Grom'gol outpost.|
+b Grom'gol Base Camp|AVAILABLE|1418|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|IZ|1454;Orgrimmar^1411;Durotar|
 
-R Duskwood|ACTIVE|669|M|44,67|Z|Duskwood|N|Run north to duskwood then east avoiding Darkshire, through Deadwind Pass into Swamp of Sorrows.|
-R Deadwind Pass|ACTIVE|669|M|44,67;72.7,57.8;81.7,51.2;86.9,39.4|CS|Z|Duskwood|N|Run northeast towards the pass into Deadwind Pass.|
-R Swamp of Sorrows|ACTIVE|669|M|37,33;46,32;51,41;58,41|CS|Z|Deadwind Pass|N|Continue East followingg the road thru Deadwind Pass.|
-f Stonard|QID|1393|M|46,54.6|Z|Swamp of Sorrows|N|get the flight point at Breyk.|
+R Duskwood|AVAILABLE|1418|M|44.53,87.82|Z|Duskwood|N|Follow the road north to Duskwood.|
+R Darkshire|AVAILABLE|1418|M|44.2,67.3;69.80,60.15|Z|Duskwood|CC|N|Continue north to the first intersection and head east from there.\n[color=FF0000]NOTE: [/color]You can wait out Watcher Jordan if he is at this end of his patrol. He 'shouldn't' agro if you keep your distance.|
+R Bypass Darkshire|AVAILABLE|1418|M|74.1,57.0;77.2,60.2;81.90,46.95|Z|Duskwood|CC|N|Once the coast is clear, continue along the road to the first intersection. Follow this road a short distance until you see the fence. Turning north, follow the ridge from here until you get to the road.|
+R Deadwind Pass|AVAILABLE|1418|M|32.18,35.95|Z|Deadwind Pass|N|When the road is clear, follow the road northeast into Deadwind Pass.|
+R Swamp of Sorrows|AVAILABLE|1418|M|4.91,60.94|Z|Swamp of Sorrows|N|Continue following the road east through Deadwind Pass.\n[color=FF0000]NOTE: [/color]Go to the left @ Sleeping Gorge.|
+R Stonard|AVAILABLE|1418|M|41.93,54.82|Z|Swamp of Sorrows|N|Following the road into Swamp of Sorrows, stay to the right at the first fork and turn left at the intersection.\n[color=FF0000]NOTE: [/color]Turning right at the intersection leads to the Blasted Lands.|
+f Stonard|AVAILABLE|1418|M|46.08,54.82|Z|Swamp of Sorrows|N|From Breyk.|TAXI|-Stonard|
 A Neeka Bloodscar|QID|1418|M|47.7,55.2|Z|Swamp of Sorrows|N|From Helgrum the Swift.|
 A Lack of Surplus|QID|698|M|44.8,57|Z|Swamp of Sorrows|N|From Dar.|
 A Pool of Tears|QID|1424|M|47.9,54.8|Z|Swamp of Sorrows|N|From Fel'zerul.|
