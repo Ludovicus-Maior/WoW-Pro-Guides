@@ -7,10 +7,12 @@ N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie
 R Thousand Needles |QID|27446|M|75.95,74.58|N|This quest starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles.  \n\nIf you have not quested in Thousand Needles before this point, you should fly to Shadebough, Feralas or Mudsprocket, Dustwallow Marsh.  From there, get the quest To New Thalanaar, fly to New Thalanaar, do the quest The Grimtotem are Coming, then the quest Two If By Boat.|Z|Thousand Needles|
 R Fizzle & Pozzik's Speedbarge |QID|27446|N|This guide starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles, so head there first.|
 A Tanaris is Calling|QID|27446|LEAD|25048|M|75.95,74.58|Z|Thousand Needles|N|From Fizzle Brassbolts.|
-F Gadgetzan|QID|27446|M|79.11,71.85|Z|Thousand Needles|N|Fly to Gadgetzan from Tilly Topspin.|
+F Gadgetzan|QID|27446|M|79.11,71.85|Z|Thousand Needles|N|Fly to Gadgetzan from Tilly Topspin.|TAXI|Gadgetzan|
+R Gadgetzan|QID|27446|M|51.36,29.47|Z|Tanaris|TAXI|-Gadgetzan|
+f Gadgetzan|QID|27446|M|51.36,29.47|Z|Tanaris|N|Pick up the Flightpath in Gadgetzan|TAXI|-Gadgetzan|
 r Sell Junk / Repair and Restock|QID|27446|M|52.28,29.72|N|Sell any junk, and repair at Kringle Goodsteel.\n\nGadgetzan is home to the banker, if you need to utilise this.\n\nClick here to continue.|
 A Butcherbot|QID|25112|M|52.24,28.07|N|From Driz Plunkbow.|
-h Gadgetzan|QID|27446|M|52.59,27.00|N|At Innkeeper Fizzgrimble.|
+h The Road Warrior|QID|27446|M|52.59,27.00|N|At Innkeeper Fizzgrimble.|
 ;f Gadgetzan|QID|27446|M|51.32,29.45|N|At Bera Stonehammer.|
 T Tanaris is Calling|QID|27446|M|51.23,29.90|N|To Kelsey Steelspark.|
 A Seaside Salvage|QID|25048|M|51.23,29.90|N|From Kelsey Steelspark.|
@@ -47,7 +49,7 @@ T To The Ground!|QID|25053|M|72.22,45.22|N|To Kelsey Steelspark.|
 T Lootin' Plunder|QID|25054|M|72.22,45.22|N|To Kelsey Steelspark.|
 A Filling Our Pockets|QID|26887|PRE|25054|M|72.22,45.22|N|From Kelsey Steelspark.|
 C Going Off-Task|QID|26886|M|74.60,45.18|N|Getting on this boat is a tricky affair. Mobs will aggro onto you as you climb the ramp. Try and burn down one at a time, and have potions ready.|
-C Filling Our Pockets|QID|26887|M|69.94,53.44|N|Beware the Strongarms; They will pull you to them and possibly cause mass mob aggro; if in packs CC the Stongram, and kill the other first.|
+C Filling Our Pockets|QID|26887|M|69.94,53.44|N|Beware the Strongarms; They will pull you to them and possibly cause mass mob aggro; if in packs CC the Storngarm, and kill the other first.|
 T Going Off-Task|QID|26886|M|72.17,45.23|N|To Kelsey Steelspark.|
 T Filling Our Pockets|QID|26887|M|72.17,45.23|N|To Kelsey Steelspark.|
 A Captain Dreadbeard|QID|25166|PRE|25053&26886&26887|M|72.17,45.23|N|From Kelsey Steelspark.|
@@ -166,6 +168,5 @@ T Thunderdrome: Sarinexx!|QID|25095|M|51.67,27.94|N|To Katrina Turner.|
 A Thunderdrome: Grudge Match!|QID|25513|PRE|25095|M|51.74,28.04|N|From Dr. Dealwell.|
 C Thunderdrome: Grudge Match!|QID|25513|M|51.70,28.50|N|Go inside the cage and defeat Meg's Dreadshredder.|
 T Thunderdrome: Grudge Match!|QID|25513|M|51.65,28.00|N|To Katrina Turner.|
-N WKJezzwww.wow-pro.com|N|Well done on your achievement! If you did not get a distress beacon, it's ok to be honest as going to Booty Bay to turn it in is not very time effective anymore. See you in Un'Goro! (Close this step to continue)|
 ]]
 end)
