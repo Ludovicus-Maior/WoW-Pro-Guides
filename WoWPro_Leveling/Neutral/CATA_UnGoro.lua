@@ -6,8 +6,8 @@ return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
 N Devilsaurs|QID|24720|N|Huge, elite, hostile dinosaurs patrol this zone, so always be aware of your surroundings! That said, this is one of prettiest and most fun zones, so don't be discouraged!|
-F Southmoon Ruins|QID|24731|Z|Tanaris|N|Fly to Gunstan's Dig in Tanaris.|FACTION|Alliance|
-F Southmoon Ruins|QID|24731|Z|Tanaris|N|Fly to Dawnrise Expedition in Tanaris.|FACTION|Horde|
+F Southmoon Ruins|QID|24731|Z|Tanaris|N|Fly to Gunstan's Dig in Tanaris.|FACTION|Alliance|TAXI|Southmoon Ruins|
+F Southmoon Ruins|QID|24731|Z|Tanaris|N|Fly to Dawnrise Expedition in Tanaris.|FACTION|Horde|TAXI|Southmoon Ruins|
 R Un'Goro Crater|QID|24731|M|27.96,54.08|Z|Tanaris|N|This is the path to Un'goro from Tanaris.|
 A The Fare of Lar'korwi|RANK|2|QID|24731|M|71.27,76.67|N|From Torwa Pathfinder.|
 A Claws of White|QID|24719|M|71.03,76.48|N|From Garl Stormclaw.|
@@ -79,7 +79,7 @@ H Marshal's Stand|QID|24691|M|54.79,63.90|N|Hearth back to Marshall's Stand. Or 
 T Peculiar Delicacies|QID|24691|M|54.79,63.90|N|To Quixxil.|
 A Mossy Pile|QID|24693|PRE|24691|M|54.79,63.90|N|From Quixxil.|
 T The Fledgling Colossus|QID|24692|M|55.00,62.16|N|To Hol'anyee Marshal.|
-F Mossy Pile|QID|24693|M|55.97,64.17|N|Fly to Mossy Pile.|
+F Mossy Pile|QID|24693|M|55.97,64.17|N|Fly to Mossy Pile.|TAXI|Mossy Pile|
 T Mossy Pile|QID|24693|M|43.19,41.18|N|To Gremix.|
 A Marshal's Refuse|QID|24701|PRE|24693|M|43.15,41.13|N|From Doreen.|
 A Super Sticky|QID|24737|PRE|24693|M|43.15,41.13|N|From Tara.|
@@ -105,7 +105,8 @@ C Gormashh the Glutinous|QID|24699|U|50746|M|60.12,31.75|N|Use the tar scraper o
 C The Apes of Un'Goro|QID|24717|M|67.57,16.84|N|Kill and loot 2 pelts from each gorilla type.|S|
 T Chasing A-Me 01|QID|24714|M|63.81,19.79|N|To A-Me 01, at Fungal Rock to the north.|
 A Repairing A-Me 01|QID|24715|PRE|24714|M|63.81,19.79|N|From A-Me 01.|
-C Repairing A-Me 01|QID|24715|M|64.08,20.06|N|Pick up a nearby coconut, take it to the rock. Use it there to crack it, then use the cracked coconut.|
+N Repairing A-Me 01|QID|24715|M|64.08,20.06|N|Pick up a nearby coconut, take it to the rock. Use it there to crack it. Check this step off when complete.|U|50237|
+C Repairing A-Me 01|QID|24715|M|64.08,20.06|N|Use the cracked coconut.|U|50238|
 T Repairing A-Me 01|QID|24715|M|63.82,19.77|N|To A-Me 01.|
 A Serving A-Me 01|QID|24926|PRE|24715|M|63.82,19.77|N|From A-Me 01.|
 A The Mighty U'cha|QID|24718|PRE|24737&24700&24701|M|63.82,16.48;65.06,16.54|CS|N|This quest should automatically pop up when entering the cave.|
@@ -128,15 +129,15 @@ A An Important Lesson|QID|24703|M|30.57,51.21|N|From Maximillian of Northshire.|
 C An Important Lesson|QID|24703|NC|M|30.57,51.21|N|Just talk to Maximillian until you complete the quest.|
 T An Important Lesson|QID|24703|M|30.57,51.21|N|To Maximillian of Northshire.|
 A The Evil Dragons of Un'Goro Crater|QID|24704|PRE|24703|M|30.64,51.20|N|From Maximillian of Northshire.|
-A Damsels Were Made to be Saved|QID|24705|PRE|24703|M|30.64,51.20|N|From Maximillian of Northshire.|
+A Town Dwellers Were Made to be Saved|QID|24705|PRE|24703|M|30.64,51.20|N|From Maximillian of Northshire.|
 C The Evil Dragons of Un'Goro Crater|S|QID|24704|M|30.64,51.20|N|Killing Elder Diemetradon, Stegodons, Spiked Stegodons, and Frenzied Pterrordax in the area counts toward this quest.|
 C Roll the Bones|QID|24730|S|M|31.16,77.41|N|Bones can be harvested from Elder Diemetradons, as well as from the elite stegosauruses. They can also be found on the ground.|
-C Damsels Were Made to be Saved|NC|QID|24705|QO|1|M|36.53,59.29|N|Collect the crate from the water, then talk to the "damsel".|; Damsel by the Shore saved: 1/1
+C Town Dwellers Were Made to be Saved|NC|QID|24705|QO|1|M|36.53,59.29|N|Collect the crate from the water, then talk to the "Dweller".|; Dweller by the Shore saved: 1/1
 A An Abandoned Research Camp|QID|24866|M|38.54,66.09|N|From the Research Equipment.|
 C Roll the Bones|QID|24730|US|M|31.16,77.41|N|Bones can be harvested from Elder Diemetradons, as well as from the elite stegosauruses. They can also be found on the ground. The arrow leads to a threshadon carcus with many bones.|
-C Damsels Were Made to be Saved|NC|QID|24705|QO|2|M|23.79,50.00|N|Just wait for Maximillian to "save" the damsel.|; Damsel in the Cliffs saved: 1/1
-C Damsels Were Made to be Saved|NC|QID|24705|QO|3|M|28.88,22.02|N|Just wait for Maximillian to "save" the damsel.|; Damsel of the North saved: 1/1
-T Damsels Were Made to be Saved|QID|24705|N|The quest turn-in should pop up automatically.|
+C Town Dwellers Were Made to be Saved|NC|QID|24705|QO|2|M|23.79,50.00|N|Just wait for Maximillian to "save" the Dweller.|; Dweller in the Cliffs saved: 1/1
+C Town Dwellers Were Made to be Saved|NC|QID|24705|QO|3|M|28.88,22.02|N|Just wait for Maximillian to "save" the Dweller.|; Dweller of the North saved: 1/1
+T Town Dwellers Were Made to be Saved|QID|24705|N|The quest turn-in should pop up automatically.|
 C The Evil Dragons of Un'Goro Crater|US|QID|24704|M|30.64,51.20|N|Killing Elder Diemetradon, Stegodons, Spiked Stegodons, and Frenzied Pterrordax in the area counts toward this quest.|
 T The Evil Dragons of Un'Goro Crater|QID|24704|N|The quest turn-in should pop up automatically.|
 A The Spirits of Golakka Hot Springs|QID|24706|PRE|24705|M|30.64,51.20|N|From Maximillian of Northshire.|
@@ -155,7 +156,7 @@ T A Tale of Two Shovels|QID|24709|M|31.89,50.39|N|Back to Spark Nilminer.|
 A The Western Pylon|QID|24723|PRE|24709|M|31.89,50.39|N|From Spark Nilminer.|
 C The Western Pylon|QID|24723|NC|M|23.48,49.98|N|Right-click the western pylon, at the crater wall to the west.|
 C Crystals of Power|NC|US|QID|24720|M|31.16,77.41|N|Loot 7 red crystals from the big crystal nodes in this part of the zone.|QO|1|; Red Power Crystal: 7/7
-H Marshal's Stand|QID|24722|M|54.79,63.90|N|Hearth back to Marshall's Stand. Or ride back if it is down, or if you didn't set your hearth there.|
+H Marshal's Stand|ACTIVE|24723|M|54.79,63.90|N|Hearth back to Marshall's Stand. Or ride back if it is down, or if you didn't set your hearth there.|
 T An Abandoned Research Camp|QID|24866|M|54.99,62.19|N|To Hol'anyee Marshal.|
 T The Western Pylon|QID|24723|M|54.25,62.51|N|To J.D. Collie.|
 T Crystals of Power|QID|24720|M|54.23,62.46|N|To J.D. Collie.|
@@ -169,99 +170,5 @@ C Ever Watching From Above|QID|24695|QO|2|M|83.50,46.70|N|Diemetradon lever. Use
 T Ever Watching From Above|QID|24695|M|83.43,46.02|N|To Nablya.|
 R Marshal's Stand|QID|28859|N|Speak with Nabiya to be returned to Marshall's Stand.|
 A The Dunes of Silithus|QID|28859|LEAD|8280|M|55.66,60.65|N|From Zen'Aliri - take this if you would like to do Silithus next.|
-N This ends the Un'Goro Crater.|N|I would recommend visiting your trainers if need be. Close this step to continue on to Silithus.|
 ]]
 end)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
