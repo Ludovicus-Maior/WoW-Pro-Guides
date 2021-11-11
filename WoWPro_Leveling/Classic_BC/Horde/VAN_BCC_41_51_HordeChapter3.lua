@@ -31,21 +31,27 @@ R Deadwind Pass|AVAILABLE|1418|M|32.18,35.95|Z|Deadwind Pass|N|When the road is 
 R Swamp of Sorrows|AVAILABLE|1418|M|4.91,60.94|Z|Swamp of Sorrows|N|Continue following the road east through Deadwind Pass.\n[color=FF0000]NOTE: [/color]Go to the left @ Sleeping Gorge.|
 R Stonard|AVAILABLE|1418|M|41.93,54.82|Z|Swamp of Sorrows|N|Following the road into Swamp of Sorrows, stay to the right at the first fork and turn left at the intersection.\n[color=FF0000]NOTE: [/color]Turning right at the intersection leads to the Blasted Lands.|
 f Stonard|AVAILABLE|1418|M|46.08,54.82|Z|Swamp of Sorrows|N|From Breyk.|TAXI|-Stonard|
-A Neeka Bloodscar|QID|1418|M|47.7,55.2|Z|Swamp of Sorrows|N|From Helgrum the Swift.|
-A Lack of Surplus|QID|698|M|44.8,57|Z|Swamp of Sorrows|N|From Dar.|
-A Pool of Tears|QID|1424|M|47.9,54.8|Z|Swamp of Sorrows|N|From Fel'zerul.|
+A Little Morsels|QID|9440|M|47.81,54.95|Z|Swamp of Sorrows|N|From Cersei Dusksinger.|RANK|3|
+A Neeka Bloodscar|QID|1418|M|47.74,55.20|Z|Swamp of Sorrows|N|From Helgrum the Swift, at the top of the stairs.|
+A Pool of Tears|QID|1424|M|47.93,54.79|Z|Swamp of Sorrows|N|From Fel'zerul.|
+A Lack of Surplus|QID|698|M|44.71,57.22|Z|Swamp of Sorrows|N|From Dar, inside the Inn.|
 
-R North|QID|698|M|48,41|CC|Z|Swamp of Sorrows|N|First "island" north of Stonard|
-C Lack of Surplus|QID|698|M|48,41|Z|Swamp of Sorrows|N|Kill Sawtooth Snappers - in the bog all along the eastern coast - until you get 6 claws.|
-K Noboru|QID|1392|M|46.70,39.40|Z|Swamp of Sorrows|T|Noboru the Cudgel|L|6196|N|Kill Noboru the Cudgel and loot the Cudgel. Keep the island where you picked up the strongbox clear and he should wander by pretty soon.|
-A Noboru the Cudgel|QID|1392|M|46.70,39.40|Z|Swamp of Sorrows|U|6196|N|Right-click the Cudgel to start the quest.|
-R The Harborage|QID|1392|M|25,31|Z|Swamp of Sorrows|N|Ride west|
-T Noboru the Cudgel|QID|1392|M|26,31|Z|Swamp of Sorrows|N|To Magtoor.|
-A Draenethyst Crystals|QID|1389|M|25,31|Z|Swamp of Sorrows|N|From Magtoor.|
+R The Shifting Mire|QID|698|M|47.59,43.43|Z|Swamp of Sorrows|N|First "island" north of Stonard|
+C Lack of Surplus|QID|698|M|47.59,43.43|Z|Swamp of Sorrows|L|6169 8|N|Kill Sawtooth Crocolisks to loot the Unprepared Sawtooth Flank.|S|
+K Noboru|QID|1392|M|54.9,34.1;26.85,40.87|Z|Swamp of Sorrows|CN|L|6196|N|Kill Noboru the Cudgel and loot the Cudgel.\n[color=FF0000]NOTE: [/color]He spawns south of Fallow Sanctuary and patrols the area west to The Harborage and back with 2 minions.|T|Noboru the Cudgel|
+A Noboru the Cudgel|QID|1392|M|46.70,39.40|Z|Swamp of Sorrows|N|Click the Cudgel to start the quest.\n[color=FF0000]NOTE: [/color]If you get a 'proficiency warning', open your bag and click on it.|U|6196|O|
+R The Harborage|AVAILABLE|1389|M|26.8,41.1;27.10,37.80|Z|Swamp of Sorrows|CC|N|Continue north to the road and follow it west.|
+N PvP Hostiles|AVAILABLE|1389|N|If you behave, they'll behave and leave you alone.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+T Noboru the Cudgel|QID|1392|M|25.97,31.40|Z|Swamp of Sorrows|N|To Magtoor.|
+A Draenethyst Crystals|QID|1389|M|25.97,31.40|Z|Swamp of Sorrows|N|From Magtoor.|
 
-R Fallow Sanctuary|QID|1393|M|54,28|Z|Swamp of Sorrows|
-C Draenethyst Crystals|QID|1389|L|6071 6|M|26,31.4|Z|Swamp of Sorrows|NC|N|Gather 6 Big blue crystals.|
-A Galen's Escape|QID|1393|M|65.4,18.2|Z|Swamp of Sorrows|N|From Galen Goodward. Advise clearing the 'lost ones' camp to the sw before you start the quest.|
+R Fallow Sanctuary|AVAILABLE|1393|M|54.57,28.47|Z|Swamp of Sorrows|N|Follow the road east. You can also follow the ridge line east if you want to do a lot of grinding.|
+C Draenethyst Crystals|QID|1389|M|63.67,20.51|Z|Swamp of Sorrows|L|6071 6|N|Look for the big blue crystals amongst the Lost Ones' huts on both sides of the road.|S|
+C Little Morsels|ACTIVE|9440|M|60.48,22.14|Z|Swamp of Sorrows|QO|1|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Crocolisk.|T|Captured Crocolisk|U|23659|
+C Little Morsels|ACTIVE|9440|M|62.79,23.67|Z|Swamp of Sorrows|QO|3|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Tarantula.|T|Captured Tarantula|U|23659|
+C Little Morsels|ACTIVE|9440|M|65.54,22.81|Z|Swamp of Sorrows|QO|2|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Jaguar.|T|Captured Jaguar|U|23659|
+C Draenethyst Crystals|QID|1389|M|63.67,20.51|Z|Swamp of Sorrows|L|6071 6|N|Finish collecting the big blue crystals.|US|
+A Galen's Escape|QID|1393|M|65.4,18.2|Z|Swamp of Sorrows|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Galen Goodward.\n[color=FF0000]NOTE: [/color]Best to clear the 'Lost Ones' camp to the SW of Galen before you start the quest.|
 C Galen's Escape|QID|1393|M|65.4,18.2|Z|Swamp of Sorrows|N|Let Galen During take the lead (so he has first agro and will stop), but don't let him die.|
 T Galen's Escape|QID|1393|M|47,39|Z|Swamp of Sorrows|N|After he fades out, proceed to the strongbox for your reward.|
 
