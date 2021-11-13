@@ -51,12 +51,13 @@ C Little Morsels|ACTIVE|9440|M|60.48,22.14|Z|Swamp of Sorrows|QO|1|N|Clear the a
 C Little Morsels|ACTIVE|9440|M|62.79,23.67|Z|Swamp of Sorrows|QO|3|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Tarantula.|T|Captured Tarantula|U|23659|
 C Little Morsels|ACTIVE|9440|M|65.54,22.81|Z|Swamp of Sorrows|QO|2|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Jaguar.|T|Captured Jaguar|U|23659|
 C Draenethyst Crystals|QID|1389|M|63.67,20.51|Z|Swamp of Sorrows|L|6071 6|N|Finish collecting the big blue crystals.|US|
-A Galen's Escape|QID|1393|M|65.4,18.2|Z|Swamp of Sorrows|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Galen Goodward.\n[color=FF0000]NOTE: [/color]Best to clear the 'Lost Ones' camp to the SW of Galen before you start the quest.|
-C Galen's Escape|QID|1393|M|65.4,18.2|Z|Swamp of Sorrows|N|Let Galen During take the lead (so he has first agro and will stop), but don't let him die.|
-T Galen's Escape|QID|1393|M|47,39|Z|Swamp of Sorrows|N|After he fades out, proceed to the strongbox for your reward.|
+A Galen's Escape|QID|1393|M|65.45,18.25|Z|Swamp of Sorrows|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Galen Goodward.\n[color=FF0000]NOTE: [/color]Best to clear the 'Lost Ones' camp to the SW of Galen before you start the quest.|
+A Galen's Escape|QID|1393|M|65.45,18.25|Z|Swamp of Sorrows|ELITE|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Galen Goodward to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for him to respawn.|
+C Galen's Escape|QID|1393|M|53.02,29.66|Z|Swamp of Sorrows|N|Follow Galen as he travels to the huts in the south and then west to the road.\n[color=FF0000]NOTE: [/color]Let Galen take the lead and pull aggro without letting him keep it for too long.|
+T Galen's Escape|QID|1393|M|47.82,39.76|Z|Swamp of Sorrows|N|To the strongbox at Galen's burned out camp (near Stonard).|
 
-R The Harborage|QID|1389|M|25,31|Z|Swamp of Sorrows|N|Ride west|
-T Draenethyst Crystals|QID|1389|M|25,31|Z|Swamp of Sorrows|N|To Magtoor.|
+R The Harborage|ACTIVE|1389|M|26.91,33.47|Z|Swamp of Sorrows|N|Ride west|
+T Draenethyst Crystals|QID|1389|M|25.97,31.40|Z|Swamp of Sorrows|N|To Magtoor.|
 R Pool of Tears|QID|1424|M|65,45|Z|Swamp of Sorrows|N|Ride South-east|
 C Pool of Tears|QID|1424|QO|1|M|65,45|Z|Swamp of Sorrows|N|The Atal'ai Artifacts, are pretty close to shore, and some are only partially submerged.|
 
