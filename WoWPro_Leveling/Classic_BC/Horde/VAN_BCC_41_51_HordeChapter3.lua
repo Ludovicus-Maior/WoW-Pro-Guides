@@ -64,11 +64,22 @@ C Pool of Tears|QID|1424|M|69.66,46.41|Z|Swamp of Sorrows|L|6175 10|N|You'll fin
 R Misty Reed Post|ACTIVE|698|M|81.18,78.57|Z|Swamp of Sorrows|N|Keep an eye out for the Scalebane dragonkin, they may not appreciate you cutting through their area.
 T Lack of Surplus|QID|698|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
 A Lack of Surplus|QID|699|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tak'Kar.|PRE|698|
-R Stonard|ACTIVE|699|M|41.93,54.82|Z|Swamp of Sorrows|
+R Stonard|ACTIVE|9440|M|41.93,54.82|Z|Swamp of Sorrows|
 T Little Morsels|QID|9440|M|47.81,54.95|Z|Swamp of Sorrows|N|To Cersei Dusksinger.|
 T Pool of Tears|QID|1424|M|47.93,54.79|Z|Swamp of Sorrows|N|To Fel'zerul; at the top the stairs.\n[color=FF0000]NOTE: [/color]Don't get the follow-up quest.|
 F Kargath|ACTIVE|1418|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|TAXI|Kargath|
-R Badlands|ACTIVE|1418|N|Exit Stonard to the west and follow the road south past the intersection.|TAXI|-Kargath|
+N Badlands|ACTIVE|1418|N|Seeing as you don't have the FP in Badlands, you're going to have to foot it there. Don't worry, this isn't as bad as it sounds.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|TAXI|-Kargath|IZ|1435;Swamp of Sorrows|
+H Orgrimmar|AVAILABLE|2842|TAXI|-Kargath|IZ|1435;Swamp of Sorrows|
+A Chief Engineer Scooty|QID|2842|M|75.51,25.36|Z|Orgrimmar|N|From Sovik, inside Nogg's Machine Shop.|TAXI|-Kargath|
+F Ratchet|ACTIVE|2842|M|45.13,63.90|Z|Orgrimmar|TAXI|-Kargath|
+b Booty Bay|ACTIVE|2842|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|TAXI|-Kargath|
+T Chief Engineer Scooty|QID|2842|M|27.60,77.48|Z|Stranglethorn Vale|N|To Chief Engineer Scooty.|TAXI|-Kargath|
+A Gnomer-gooooone!|QID|2843|M|27.60,77.48|Z|Stranglethorn Vale|N|From Chief Engineer Scooty.|PRE|2842|TAXI|-Kargath|
+T Gnomer-gooooone!|QID|2843|M|27.60,77.48|Z|Stranglethorn Vale|N|To Chief Engineer Scooty after a few moments past.|TAXI|-Kargath|
+
+P Gnomeregan|AVAILABLE|-2843|ACTIVE|-2843|M|27.63,77.56|Z|Stranglethorn Vale|N|Step on the Transpolyporter.\n[color=FF0000]NOTE: [/color]Make sure you have your Goblin Transponder or it won't work.|TAXI|-Kargath|
+;* Goblin Transponder|AVAILABLE|-2843|ACTIVE|-2843|N|You can safely dispose of it. Ask Scooty for a new one if you wish to use the portal again.|U|9173| ** Hendo72 - Scooty may not give you another one.
+R Exit to Dun Morogh|ACTIVE|1418|M|43.01,60.19;43.12,60.26|Z|1415;Gnomeregan|CC|N|Make your to the big lft and take it up. Head up the ramp to the top.\n[color=FF0000]NOTE: [/color]At this level, you can easily avoid agrooing the mobs as long as you give them room.|
 
 ;-----002_41_42_Jame_Badlands.lua------------------------------------
 
