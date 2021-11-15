@@ -2,7 +2,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_HordeChapter3', 'Leveling', 'Stranglethorn Vale', 'Jame', 'Horde', 2)
-WoWPro:GuideName(guide, 'Horde Guide Part 3')
+WoWPro:GuideName(guide, 'Horde Chapter 3')
 WoWPro:GuideLevels(guide, 41, 51, 42)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_UnGoro_Crater')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0.25,0.50,0.25,0.50})
@@ -31,7 +31,7 @@ R Deadwind Pass|AVAILABLE|1418|M|32.18,35.95|Z|Deadwind Pass|N|When the road is 
 R Swamp of Sorrows|AVAILABLE|1418|M|4.91,60.94|Z|Swamp of Sorrows|N|Continue following the road east through Deadwind Pass.\n[color=FF0000]NOTE: [/color]Go to the left @ Sleeping Gorge.|
 R Stonard|AVAILABLE|1418|M|41.93,54.82|Z|Swamp of Sorrows|N|Following the road into Swamp of Sorrows, stay to the right at the first fork and turn left at the intersection.\n[color=FF0000]NOTE: [/color]Turning right at the intersection leads to the Blasted Lands.|
 f Stonard|AVAILABLE|1418|M|46.08,54.82|Z|Swamp of Sorrows|N|From Breyk.|TAXI|-Stonard|
-A Little Morsels|QID|9440|M|47.81,54.95|Z|Swamp of Sorrows|N|From Cersei Dusksinger.|RANK|3|
+A Little Morsels|QID|9440|M|47.81,54.95|Z|Swamp of Sorrows|N|From Cersei Dusksinger.|
 A Neeka Bloodscar|QID|1418|M|47.74,55.20|Z|Swamp of Sorrows|N|From Helgrum the Swift, at the top of the stairs.|
 A Pool of Tears|QID|1424|M|47.93,54.79|Z|Swamp of Sorrows|N|From Fel'zerul.|
 A Lack of Surplus|QID|698|M|44.71,57.22|Z|Swamp of Sorrows|N|From Dar, inside the Inn.|
@@ -58,15 +58,28 @@ T Galen's Escape|QID|1393|M|47.82,39.76|Z|Swamp of Sorrows|N|To the strongbox at
 
 R The Harborage|ACTIVE|1389|M|26.91,33.47|Z|Swamp of Sorrows|N|Ride west|
 T Draenethyst Crystals|QID|1389|M|25.97,31.40|Z|Swamp of Sorrows|N|To Magtoor.|
-R Pool of Tears|QID|1424|M|65,45|Z|Swamp of Sorrows|N|Ride South-east|
-C Pool of Tears|QID|1424|QO|1|M|65,45|Z|Swamp of Sorrows|N|The Atal'ai Artifacts, are pretty close to shore, and some are only partially submerged.|
+R Pool of Tears|ACTIVE|1424|M|62.55,46.13|Z|Swamp of Sorrows|N|Ride South-east|
+C Pool of Tears|QID|1424|M|69.66,46.41|Z|Swamp of Sorrows|L|6175 10|N|You'll find the Atal'ai Artifacts all around Pool of Tears. Some may be easier to see than others.\n[color=FF0000]NOTE: [/color]Underwater breathing is your best friend right now.\n\nIf you're having trouble finding them, decreasing [color=FFFF00]Ground Clutter[/color] to 1 (in [color=FFFF00]Graphics[/color] under [color=FFFF00]System[/color] in the [color=FFFF00]Option[/color] window) may help.|
 
-R Misty Reed Post|QID|698|M|81.3,81.0|Z|Swamp of Sorrows|
-T Lack of Surplus|QID|698|M|81.3,81.0|Z|Swamp of Sorrows|N|To Tok'Kar.|
-A Lack of Surplus|QID|699|PRE|698|M|81.3,81.0|Z|Swamp of Sorrows|N|From Tak'Kar.|
-R Stonard|ACTIVE|699|M|47.9,54.8|Z|Swamp of Sorrows|
-T Pool of Tears|QID|1424|M|47.9,54.8|Z|Swamp of Sorrows|N|To Fel'zerul.|
-F Kargath|M|46,54.6|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|
+R Misty Reed Post|ACTIVE|698|M|81.18,78.57|Z|Swamp of Sorrows|N|Keep an eye out for the Scalebane dragonkin, they may not appreciate you cutting through their area.
+T Lack of Surplus|QID|698|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
+A Lack of Surplus|QID|699|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tak'Kar.|PRE|698|
+R Stonard|ACTIVE|9440|M|41.93,54.82|Z|Swamp of Sorrows|
+T Little Morsels|QID|9440|M|47.81,54.95|Z|Swamp of Sorrows|N|To Cersei Dusksinger.|
+T Pool of Tears|QID|1424|M|47.93,54.79|Z|Swamp of Sorrows|N|To Fel'zerul; at the top the stairs.\n[color=FF0000]NOTE: [/color]Don't get the follow-up quest.|
+F Kargath|ACTIVE|1418|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|TAXI|Kargath|
+N Badlands|ACTIVE|1418|N|Seeing as you don't have the FP in Badlands, you're going to have to foot it there. Don't worry, this isn't as bad as it sounds.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|TAXI|-Kargath|IZ|1435;Swamp of Sorrows|
+H Orgrimmar|AVAILABLE|2842|TAXI|-Kargath|IZ|1435;Swamp of Sorrows|
+A Chief Engineer Scooty|QID|2842|M|75.51,25.36|Z|Orgrimmar|N|From Sovik, inside Nogg's Machine Shop.|TAXI|-Kargath|
+F Ratchet|ACTIVE|2842|M|45.13,63.90|Z|Orgrimmar|TAXI|-Kargath|
+b Booty Bay|ACTIVE|2842|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|TAXI|-Kargath|
+T Chief Engineer Scooty|QID|2842|M|27.60,77.48|Z|Stranglethorn Vale|N|To Chief Engineer Scooty.|TAXI|-Kargath|
+A Gnomer-gooooone!|QID|2843|M|27.60,77.48|Z|Stranglethorn Vale|N|From Chief Engineer Scooty.|PRE|2842|TAXI|-Kargath|
+T Gnomer-gooooone!|QID|2843|M|27.60,77.48|Z|Stranglethorn Vale|N|To Chief Engineer Scooty after a few moments past.|TAXI|-Kargath|
+
+P Gnomeregan|AVAILABLE|-2843|ACTIVE|-2843|M|27.63,77.56|Z|Stranglethorn Vale|N|Step on the Transpolyporter.\n[color=FF0000]NOTE: [/color]Make sure you have your Goblin Transponder or it won't work.|TAXI|-Kargath|
+;* Goblin Transponder|AVAILABLE|-2843|ACTIVE|-2843|N|You can safely dispose of it. Ask Scooty for a new one if you wish to use the portal again.|U|9173| ** Hendo72 - Scooty may not give you another one.
+R Exit to Dun Morogh|ACTIVE|1418|M|43.01,60.19;43.12,60.26|Z|1415;Gnomeregan|CC|N|Make your to the big lft and take it up. Head up the ramp to the top.\n[color=FF0000]NOTE: [/color]At this level, you can easily avoid agrooing the mobs as long as you give them room.|
 
 ;-----002_41_42_Jame_Badlands.lua------------------------------------
 
@@ -128,14 +141,14 @@ K Sawtooth Snappers|QID|699|QO|1|M|75,15|Z|Swamp of Sorrows|N|You need 6|
 
 R Misty Reed Post|QID|699|M|81,81|Z|Swamp of Sorrows|
 T Lack of Surplus|QID|699|M|81,81|Z|Swamp of Sorrows|N|To Tok'Kar.|
-A Threat From the Sea |QID|1422|PRE|699|M|81.3,81.0|Z|Swamp of Sorrows|N|From Tok'Kar.|
+A Threat From the Sea |QID|1422|PRE|699|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tok'Kar.|
 T Threat From the Sea |QID|1422|M|83.8,80.4|Z|Swamp of Sorrows|N|To Katar.|
 A Threat From the Sea |QID|1426|PRE|1422|M|83.8,80.4|Z|Swamp of Sorrows|N|From Katar.|
 C Fresh Meat|QID|1430|M|95,45|Z|Swamp of Sorrows|S|N|Kill and loot the Monstour Crawlers up and down the shoreline.|
 C Threat From the Sea |QID|1426|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|N|Head down to the shore and start killing murlocs up and down the shoreline (in and out of the water.) The Murlock Flesheaters are mainly north of the camp.|
 T Threat From the Sea |QID|1426|M|83.8,80.4|Z|Swamp of Sorrows|N|To Katar.|
 A Threat From the Sea |QID|1427|PRE|1426|M|83.8,80.4|Z|Swamp of Sorrows|N|From Katar.|
-T Threat From the Sea |QID|1427|M|81.3,81.0|Z|Swamp of Sorrows|N|To Tok'Kar.|
+T Threat From the Sea |QID|1427|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
 A Continued Threat|QID|1428|PRE|1427|M|83.8,80.4|Z|Swamp of Sorrows|N|From Katar.|
 C Continued Threat|QID|1428|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|N|Up and down the shore some more killing more murlocs.|
 C Fresh Meat|QID|1430|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|US|N|Finish up finding crablegs.|
@@ -144,7 +157,7 @@ T Continued Threat|QID|1428|M|81.3,81.0|Z|Swamp of Sorrows|N|To Katar.|
 T Fresh Meat|QID|1430|M|44.7,57.2|Z|Swamp of Sorrows|N|To Dar, back in Stonard.|
 
 ;-------002_44_44_Jame_Badlands.lua-------------
-F Kargath|ACTIVE|712|M|46,54.6|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|
+F Kargath|ACTIVE|712|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|
 C Study of the Elements: Rock |QID|712|PRE|710|QO|1|M|13,85|Z|Badlands|N|Need 5 Bracers|
 L Level Check|ACTIVE|712|LVL|42;91000|N|Grind here until about 2 bubbles from 43.|
 R Lotwil Veratius|QID|712|M|26,45|CC|Z|Badlands|
