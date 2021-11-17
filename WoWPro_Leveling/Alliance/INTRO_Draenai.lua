@@ -85,10 +85,11 @@ h Azure Watch|ACTIVE|9454|N|Set your hearth to Azure Watch with Caregive Chellan
 A Medicinal Purpose|QID|9463|Z|Azuremyst Isle|M|48.4,51.8|N|From Anchorite Fateema.|R|Draenei|
 N Professions|O|ACTIVE|9463|Z|Azuremyst Isle|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
 N Note!|O|ACTIVE|9463|N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
+f Azure Watch|M|49.67,49.19|Z|Azuremyst Isle|N|From Zaldaan|
 C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|QO|1|Z|Azuremyst Isle|M|54,61|T|Moongraze Stag|
 C Medicinal Purpose|QID|9463|N|Kill and loot Root Trappers for the Vines.|S|R|Draenei|QO|1|Z|Azuremyst Isle|M|54,61|T|Root Trapper|
+C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|US|QO|1|Z|Azuremyst Isle|M|54,61|T|Moongraze Stag|
 C Medicinal Purpose|QID|9463|N|Kill and loot Root Trappers for the Vines.|US|R|Draenei|QO|1|Z|Azuremyst Isle|M|54,61|T|Root Trapper|
-C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|QO|1|Z|Azuremyst Isle|M|54,61|T|Moongraze Stag|
 T Medicinal Purpose|QID|9463|Z|Azuremyst Isle|M|48.4,51.8|N|To Anchorite Fateema.|R|Draenei|
 A An Alternative Alternative|QID|9473|PRE|9463|Z|Azuremyst Isle|M|48.4,51.8|N|From Daedal.|R|Draenei|
 T The Great Moongraze Hunt|QID|9454|Z|Azuremyst Isle|M|49.8,51.9|N|To Acteon.|
@@ -121,10 +122,10 @@ A Precious and Fragile Things Need Special Handling|QID|9523|PRE|9506^9512|Z|Azu
 T Cookie's Jumbo Gumbo|QID|9512|Z|Azuremyst Isle|M|46.7,70.5|N|To "Cookie" McWeaksauce.|
 r Sell junk and repair (click to close)|QID|9530|N|At Blacksmith Calypso|Z|Azuremyst Isle|M|46.4,71.1|
 C I've Got a Plant|QID|9530|S|N|North of Odesyus' Landing, look for glowing piles of leaves and tree trunks.|
-C Reclaiming the Ruins|QID|9513|N|To the west of the landing, kill any Naga you need for this quest. When the rune covered tablet drops, accept the quest.|S|
+C Reclaiming the Ruins|QID|9513|N|To the west of the landing, kill any Naga you need for this quest. When the rune covered tablet drops, accept the quest.|
 C Precious and Fragile Things Need Special Handling|QID|9523|N|Go to the Wrathscale Point and collect Ancient Relics.|Z|Azuremyst Isle|M|35,75|S|
 A Rune Covered Tablet|QID|9514|N|The tablet should have dropped off the naga while you're killing them.|U|23759|Z|Azuremyst Isle|M|36.1,77.0|
-C Reclaiming the Ruins|QID|9513|N|Kill any Naga you still need for this quest.|US|
+C Precious and Fragile Things Need Special Handling|QID|9523|M|29.57,79.26|N|Go to the Wrathscale Point and collect Ancient Relics.|Z|Azuremyst Isle|US|
 C I've Got a Plant|QID|9530|US|N|Move towards Odesyus' Landing. There you will find hollow trees. Loot the remaining Piles of Leaves.|Z|Azuremyst Isle|M|45.43,66.20|
 T I've Got a Plant|QID|9530|Z|Azuremyst Isle|M|47.04,70.22|N|To Admiral Odesyus.|
 A Tree's Company|QID|9531|PRE|9530|Z|Azuremyst Isle|M|47.04,70.22|N|From Admiral Odesyus.|
