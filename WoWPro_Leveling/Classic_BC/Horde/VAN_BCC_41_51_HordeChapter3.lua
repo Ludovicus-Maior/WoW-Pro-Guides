@@ -77,19 +77,22 @@ T Chief Engineer Scooty|QID|2842|M|27.60,77.48|Z|Stranglethorn Vale|N|To Chief E
 A Gnomer-gooooone!|QID|2843|M|27.60,77.48|Z|Stranglethorn Vale|N|From Chief Engineer Scooty.|PRE|2842|TAXI|-Kargath|
 T Gnomer-gooooone!|QID|2843|M|27.60,77.48|Z|Stranglethorn Vale|N|To Chief Engineer Scooty after a few moments past.|TAXI|-Kargath|
 
-P Gnomeregan|AVAILABLE|-2843|ACTIVE|-2843|M|27.63,77.56|Z|Stranglethorn Vale|N|Step on the Transpolyporter.\n[color=FF0000]NOTE: [/color]Make sure you have your Goblin Transponder or it won't work.|TAXI|-Kargath|
+P Gnomeregan|AVAILABLE|-2843|ACTIVE|-2843|M|27.63,77.56|Z|Stranglethorn Vale|N|Step on the Transpolyporter.\n[color=FF0000]NOTE: [/color]Make sure you have your Goblin Transponder or it won't work.|TAXI|-Kargath|IZ|Booty Bay|
 ;* Goblin Transponder|AVAILABLE|-2843|ACTIVE|-2843|N|You can safely dispose of it. Ask Scooty for a new one if you wish to use the portal again.|U|9173| ** Hendo72 - Scooty may not give you another one.
-R Exit to Dun Morogh|ACTIVE|1418|M|43.01,60.19;43.12,60.26|Z|1415;Gnomeregan|CC|N|Make your to the big lft and take it up. Head up the ramp to the top.\n[color=FF0000]NOTE: [/color]At this level, you can easily avoid agrooing the mobs as long as you give them room.|
+R Exit to Dun Morogh|ACTIVE|1418|M|43.01,60.19;43.12,60.26|Z|1415;Gnomeregan|CC|N|Make your to the big lift and take it up. Head up the ramp to the top.\n[color=FF0000]NOTE: [/color]At this level, you can easily avoid aggroing the mobs as long as you give them room.|TAXI|-Kargath|
+R South Gate Pass|ACTIVE|1418|M|47.4,44.9;78.2,49.8;79.89,52.43|Z|Dun Morogh|CC|N|Head east across Iceflow Lake towards the sign post at Kharanos (or follow the road the long way around if you wish). From here, 'follow' the road east until you reach the next sign post.\n[color=FF0000]NOTE: [/color]Unless run into them, the Alliance guards should leave you alone.|TAXI|-Kargath|
+R Southgate Outpost|ACTIVE|1418|M|84.23,51.29|Z|Dun Morogh|N|At the top of the hill, enter the tunnel and go through to the other side.|TAXI|-Kargath|
+R Badlands|ACTIVE|1418|M|22.7,70.9;28.5,66.0;37.5,74.6;46.40,73.50|Z|Loch Modan|CC|N|Follow the road into the tunnel and continue through until you reach the intersection. Head north to the next intersection and cut across Stonesplinter Valley to Grizzlepaw Ridge. Make your way around the mountain side to the road leading into the Badlands.|TAXI|-Kargath|
+R Badlands|ACTIVE|1418|M|49.06,6.76|Z|Badlands|N|Follow the road into the Badlands.|TAXI|-Kargath|
+R Kargath|ACTIVE|1418|M|10.02,42.87|Z|Badlands|N|Head south past Uldaman and follow the edge of the moutains as you make your west.\n[color=FF0000]NOTE: [/color]It should be fairly uneventful until reach the Dustbowl and the mobs are now your level.|TAXI|-Kargath|
 
 ;-----002_41_42_Jame_Badlands.lua------------------------------------
-
-T Neeka Bloodscar|QID|1418|M|6.5,47.2|Z|Badlands|N|She's at the top of the guard tower.|
-A Report to Helgrum|QID|1420|M|6.5,47.2|Z|Badlands|N|From Neeka Bloodscar.|
-A Coyote Thieves|QID|1419|M|6.5,47.2|Z|Badlands|N|From Neeka Bloodscar.|
-A Badlands Reagent Run|QID|2258|M|2.4,46.1|Z|Badlands|N|From Jarkal Mossmeld inside Inn.|
-A Broken Alliances|QID|782|M|3.0,46.0|Z|Badlands|N|From Gorn.|
-N Things to do|QID|2258|S!US|N|Kill every coyote and buzzard you see until you complete Badlands Reagent Run and Coyote Thieves.|
-A Study of the Elements: Rock |QID|710|M|25,45|Z|Badlands|N|Go East, At some point you'll find a very small camp with a few gnomes in it .|
+f Kargath|ACTIVE|782|M|3.99,44.77|Z|Badlands|N|Get the FP from Gorrik.|TAXI|-Kargath|
+T Neeka Bloodscar|QID|1418|M|6.48,47.20|Z|Badlands|N|She's at the top of the guard tower.|
+A Report to Helgrum|QID|1420|M|6.48,47.20|Z|Badlands|N|From Neeka Bloodscar.|
+A Coyote Thieves|QID|1419|M|6.48,47.20|Z|Badlands|N|From Neeka Bloodscar.|
+A Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|Badlands|N|From Jarkal Mossmeld; at top of the ramp inside Inn.|
+A Broken Alliances|QID|782|M|2.92,45.62|Z|Badlands|N|From Gorn.|
 T Martek the Exiled|QID|1106|M|42.00,52.00|Z|Badlands|N|Martek is in the Valley of Fangs.|
 A Indurium|QID|1108|PRE|1106|M|42.00,52.00|Z|Badlands|N|From Martek.|
 A Barbecued Buzzard Wings|QID|703|M|42.00,52.00|Z|Badlands|N|From Rigglefuzz.|
@@ -100,8 +103,8 @@ C Indurium|QID|1108|QO|1|M|50,65|Z|Badlands|N|kill the troggs there until you ha
 
 A Solution to Doom|QID|709|M|50.00,76.00|Z|Badlands|N|If you plan on doing Uldaman, get this quest from Theldurin the Lost.|
 
-A Study of the Elements: Rock |QID|710|M|40.00,78.00|Z|Badlands|N|Also get 3 large stone slabs for [39] Badlands Reagent Run. If the area is too crowded, hunt coyotes, buzzards and/or troggs until it repops.|
-K Rock Elementals|QID|710|QO|1|N|Keep killing rock elementals here until you have 10 Small Stone Shard|
+;A Study of the Elements: Rock |QID|710|M|40.00,78.00|Z|Badlands|N|Also get 3 large stone slabs for [39] Badlands Reagent Run. If the area is too crowded, hunt coyotes, buzzards and/or troggs until it repops.|
+;K Rock Elementals|QID|710|QO|1|N|Keep killing rock elementals here until you have 10 Small Stone Shard|
 K Coyotes|QID|2258|L|7846 10|M|36,67|Z|Badlands|N|Head to the northwest around and kill coyotes and buzzards until you get 30 Coyote Jawbones and 10 Crag Coyote Fangs.|
 K Coyotes|QID|1419|L|6166 30|M|36,67|Z|Badlands|N|Head to the northwest around and kill coyotes and buzzards until you get 30 Coyote Jawbones and 10 Crag Coyote Fangs.|
 K Boss Tho'grun|QID|782|L|4640|M|18,78|Z|Badlands|N|He passes this point as part of a massive circuit, He is escorted by 5 ogres, however he often lags behind his troops and can be pulled along with only one add. Kill him fast, loot his Sign of Earth and run away. Use long cooldown abilities and potions if needed.|
@@ -120,9 +123,9 @@ A Study of the Elements: Rock |QID|711|PRE|710|M|25.9,44.6|Z|Badlands|N|From Lot
 
 T Study of the Elements: Rock |QID|711|M|25.9,44.6|Z|Badlands|
 A Study of the Elements: Rock |QID|712|PRE|711|M|25.9,44.6|Z|Badlands|
-T Coyote Thieves|QID|1419|M|6.5,47.2|Z|Badlands|N|Neeka Bloodscar, back at Kargath.|
+T Coyote Thieves|QID|1419|M|6.48,47.20|Z|Badlands|N|Neeka Bloodscar, back at Kargath.|
 T Badlands Reagent Run|QID|2258|M|2.4,46.1|Z|Badlands|N|To Jarkal Mossmeld, (skip follow up).|
-T Broken Alliances|QID|782|M|6.5,47.2|Z|Badlands|N|To Gorn. (skip followup)|
+T Broken Alliances|QID|782|M|6.48,47.20|Z|Badlands|N|To Gorn. (skip followup)|
 K Rock Elementals|ACTIVE|711|QO|1|M|13,35|Z|Badlands|
 
 L Level Check|ACTIVE|711|LVL|42|N|grind to 42. Elementals , Coyotes, dark iron dwarves, whereever you want.|
