@@ -203,10 +203,10 @@ C Rocket Car Parts|QID|1110|L|5798 30|N|Leave Rustmaul Dig Site heading north an
 T A Bump in the Road|QID|1175|M|81.63,77.95|N|To Trackmaster Zherin.|
 T Load Lightening|QID|1176|M|80.18,75.89|N|To Pozzik.|
 A Goblin Sponsorship|QID|1178|M|80.18,75.89|N|From Pozzik.|PRE|1176|
-T Salt Flat Venom|QID|1104|M|78.06,77.13|N|To Fizzle Brassbolts\nNOTE: Do not accept 'Martek the Exiled' (Breadcrumb to the Badlands)|
+T Salt Flat Venom|QID|1104|M|78.06,77.13|N|To Fizzle Brassbolts.|
+A Martek the Exiled|QID|1106|M|78.06,77.13|N|From Fizzle Brassbolts.|PRE|1104&1105|
 T Hardened Shells|QID|1105|M|78.15,77.12|N|To Wizzle Brassbolts.|
 A Encrusted Tail Fins|QID|1107|M|78.15,77.12|N|From Wizzle Brassbolts.|PRE|1104&1105|
-A Martek the Exiled|QID|1106|M|78.15,77.12|N|From Wizzle Brassbolts.|PRE|1104&1105|
 T Rocket Car Parts|QID|1110|M|77.79,77.27|Z|Thousand Needles|N|To Kravel Koalbeard.|
 A Hemet Nesingwary Jr.|QID|5762|M|77.79,77.27|N|From Kravel Koalbeard.|
 T The Swarm Grows|QID|1147|M|67.59,63.93|N|To Moktar Krin in Ironstone Camp.|
