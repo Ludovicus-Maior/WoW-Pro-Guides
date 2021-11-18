@@ -25,8 +25,8 @@ A The Admiral Won't Back Down|QID|25197|LEAD|24934|PRE|25191|M|68.68,49.29|N|Fro
 T The Admiral Won't Back Down|QID|25197|M|69.23,49.06|N|To Admiral Aubrey.|
 A Repel Boarders!|QID|24934|M|69.23,49.06|N|From Admiral Aubrey.|
 C Repel Boarders!|QID|24934|M|57.47,60.97|Z|Northern Barrens|N|Tell the Admiral you are ready to go.|
-T Repel Boarders!|QID|24934|M|57.47,60.97|Z|Northern Barrens|N|To Captain Fisher.|
-R Northwatch Hold|QID|24938|N|Ask for a ride back from Captain Fisher.|
+T Repel Boarders!|QID|24934|M|57.47,58.97|Z|Kalimdor;12|N|To Captain Fisher.|
+R Northwatch Hold|QID|24938|M|57.47,58.97|Z|Kalimdor;12|N|Ask for a ride back from Captain Fisher.|
 A The Guns of Northwatch|QID|24938|PRE|24934|M|69.22,49.07|N|From Admiral Aubrey.|
 f Northwatch Hold|QID|24934|M|66.36,47.13|N|At Bill Williamson.|
 A Langridge Shot|QID|24941|M|67.03,46.57|N|From Thomas Paxton.|
@@ -48,9 +48,9 @@ T Re-Take the Courtyard|QID|24943|M|67.00,46.57|N|To Thomas Paxton.|
 A Lifting the Siege|QID|24948|PRE|24943|M|67.00,46.57|N|From Thomas Paxton.|
 C Lifting the Siege|QID|24948|S|U|52017|M|68.17,41.47|N|Burn the Catapults.|QO|1|; Rageroar Catapults Burned: 3/3
 C Silencing Rageroar|QID|24956|M|68.82,38.76|N|Kill the Rageroar Lieutenants.|S|QO|1|; Rageroar Lieutenant slain: 4/4
-K Karga Rageroar |QID|24956|L|52036|M|67.6,36.7|N|Kill Hexmaster Bastoon, then kill Karga Rageroar and loot his helm.|
+K Karga Rageroar|QID|24956|L|52036|M|67.6,36.7|QO|2|N|Kill Hexmaster Bastoon, then kill Karga Rageroar and loot his helm.|
 C Rageroar Blade Thrower Burned|QID|24948|U|52017|M|67.33,37.62|N|Burn the Blade Thrower.|QO|2|; Rageroar Blade Thrower Burned: 1/1
-C Lifting the Siege|QID|24948|S|U|52017|M|68.17,41.47|N|Burn the Catapults.|QO|1|US|; Rageroar Catapults Burned: 3/3
+C Lifting the Siege|QID|24948|U|52017|M|68.17,41.47|N|Burn the Catapults.|QO|1|US|; Rageroar Catapults Burned: 3/3
 C Silencing Rageroar|QID|24956|M|68.82,38.76|N|Kill the Rageroar Lieutenants.|US|QO|1|; Rageroar Lieutenant slain: 4/4
 T Silencing Rageroar|QID|24956|M|66.94,46.77|N|To Tolliver Houndstooth.|
 T Lifting the Siege|QID|24948|M|66.99,46.60|N|To Thomas Paxton.|
@@ -192,7 +192,7 @@ T Marley's Final Flight|QID|25120|M|49.27,86.71|N|To Marley Twinbraid.|
 A He Needs Ale!|QID|25151|PRE|25120|M|49.27,86.71|N|From Marley Twinbraid.|
 A Bael'dun Rescue|QID|25153|PRE|25120|M|49.39,86.92|N|From Bael'dun Survivor.|
 A Who Did This?|QID|25163|PRE|25120|M|49.59,87.14|N|From Wounded Bael'dun Officer.|
-N WARNING: Read this.|QID|25153|N|Some people do not ready quest text closely. If you are at level for this zone, the fire in the keep will 1 shot you. Every time you are near a valve (they bubble) stand by it and activate it. You will be protected. You need to do this in regularly, not just one time. (Click the check box to continue.)|
+N WARNING: Read this.|QID|25153|N|Some people do not read quest text very close. If you are at level for this zone, the fire in the keep will 1 shot you. Every time you are near a valve (they bubble) stand by it and activate it. You will be protected. You need to do this in regularly, not just one time. (Click the check box to continue.)|
 C Bael'dun Rescue|QID|25153|S|M|49.41,86.88|N|Click on Burning Debris to rescue the survivers.|
 T Who Did This?|QID|25163|M|50.26,87.10|N|When go in, take a right. Turn the quest into the corpse of Weezil Slipshadow.|
 A Twinbraid Needs to Know|QID|25174|PRE|25163|M|50.26,87.10|N|From the corpse of Weezil Slipshadow.|
@@ -213,6 +213,5 @@ A The Deed Is Done|QID|25185|PRE|25183|M|40.38,77.77|N|From the Big Nasty Plunge
 T Kill 'em All!|QID|25182|M|43.48,78.27|N|To General Twinbraid.|
 T The Deed Is Done|QID|25185|M|43.48,78.27|N|To General Twinbraid.|
 A Reinforcements From Theramore|QID|26687|PRE|25182|M|43.48,78.27|N|From General Twinbraid.|
-N The End.|QID|99999|N|Well Done on your achievement. The next zone is Dustwallow Marsh. Close this step and you will lead right into it. If you wish to try a different zone you can right click the title of this addon and load a new guide from our Guide list. WKjezz|
 ]]
 end)
