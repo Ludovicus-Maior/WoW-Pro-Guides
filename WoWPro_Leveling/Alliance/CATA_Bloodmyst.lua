@@ -78,8 +78,8 @@ T Know Thine Enemy|QID|9567|N|To Vindicator Aalesia.|M|55.1,58.0|
 T Signs of the Legion|QID|9594|N|To Vindicator Aalesia, after a very short dialog.|M|55.1,58.0|
 A Containing the Threat|QID|9569|PRE|9567|N|From Vindicator Aalesia.|M|55.1,58.0|
 T Victims of Corruption|QID|9574|N|To Morae.|M|53.24,57.73|
-A Irradiated Crystal Shards|QID|9641|L|23984 10|O|N|If you already have 10 Irradiated Crystal Shards, then accept this quest from Vindicator Boros.|M|55.42,55.25|
-T Irradiated Crystal Shards|QID|9641|O|N|To Vindicator Boros.|M|55.42,55.25|
+A Irradiated Crystal Shards|QID|9641|N|If you already have 10 Irradiated Crystal Shards, then accept this quest from Vindicator Boros.|M|55.42,55.25|
+T Irradiated Crystal Shards|QID|9641|N|To Vindicator Boros.|M|55.42,55.25|
 r Repair/Restock |QID|9584|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 C Intercepting the Message|QID|9779|N|Kill Sunhawk Spies until the Sunhawk Missive drops.|S|
 C The Second Sample|QID|9584|N|Use the Crystal Mining Pick on the Altered Crystal Sample.|U|23876|M|45.75,47.62|
@@ -94,7 +94,7 @@ F The Exodar |QID|9698|N|Fly to The Exodar.|M|57.7,53.9|
 T Audience with the Prophet|QID|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen.|
 A Truth or Fiction|QID|9699|PRE|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen.|
 N Training and banking|QID|9699|N|Train your professions, visit bank etc. while you're here. Close to continue.|R|Draenei|
-H Blood Watch |QID|9699|M|54.43,36.39|N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back to Bloodmyst Isle.|U|6948|Z|The Exodar|
+F Blood Watch |QID|9699|M|54.43,36.39|N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back to Bloodmyst Isle.|U|6948|Z|The Exodar|
 T Truth or Fiction|QID|9699|N|To Vindicator Boros.|M|55.42,55.25|
 A I Shoot Magic Into the Darkness|QID|9700|PRE|9699|N|From Vindicator Boros.|M|55.42,55.25|
 r Repair/Restock |QID|10063|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
@@ -240,6 +240,5 @@ A Newfound Allies|QID|9632|M|54.69,54.01|N|From Anchorite Paetheus.|
 F The Exodar|QID|9632|N|Fly to The Exodar.|M|57.68,53.89|
 A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|N|From the Hero's Call Board. Will not show up if your level is too high.|Z|The Exodar|
 T Newfound Allies|QID|9632|M|24.18,54.33|Z|Azuremyst Isle|N|Go up the ramp to the exit; once outside, follow the path to the right and down to Huntress Kella Nightbow.|
-N Thus ends Bloodmyst Isles.|N|Next stop Ashenvale. Take the boat or fly to Rutheran Village, then onto Ashenvale. Close this step.|
 ]]
 end)
