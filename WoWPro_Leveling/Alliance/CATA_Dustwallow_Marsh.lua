@@ -87,9 +87,9 @@ T Recover the Cargo!|QID|27237|M|63.74,17.06|N|To Renn McGill. Don't forget to r
 A Jaina Must Know|QID|27238|PRE|27237|M|63.69,17.21|N|From Renn McGill.|
 A Raptor Captor|QID|27242|M|46.70,23.06|N|From Sergeant Lukas.|
 T Inspecting the Ruins|QID|27249|M|29.73,47.64|N|To Inspector Tarem. This is a long run but worth it in the end.|
-A Suspicious Hoofprints|QID|27262|PRE|27249|M|29.73,47.64|N|From Inspector Tarem.|
-A Lieutenant Paval Reethe|QID|27263|PRE|27249|M|29.77,48.20|N|From Inspector Tarem.|
-A The Black Shield|QID|27252|PRE|27249|M|29.62,48.55|N|From Inspector Tarem.|
+A Suspicious Hoofprints|QID|27262|PRE|27249|M|29.73,47.64|N|From Suspicious Hoofprint.|
+A Lieutenant Paval Reethe|QID|27263|PRE|27249|M|29.77,48.20|N|From Theramore Guard Badge.|
+A The Black Shield|QID|27252|PRE|27249|M|29.62,48.55|N|From The Black Shield.|
 H Theramore Isle|QID|27246|N|Hearth back to Theramore Isle, or run if your hearth is down.|M|66.41,45.27|
 T The Orc Report|QID|27246|M|65.08,47.13|N|To Lieutenant Aden.|
 A Captain Vimes|QID|27247|PRE|27246|M|65.08,47.13|N|From Lieutenant Aden.|
@@ -170,7 +170,9 @@ A The Grimtotem Weapon|QID|27336|M|46.03,57.20|N|From Apprentice Garion.|
 T The Reagent Thief|QID|27339|M|46.03,57.20|N|To Apprentice Garion.|
 C The Grimtotem Weapon|QID|27336|U|33101|M|39.28,52.52|N|Anywhere in the Quagmire. Drop your totem and kill Mottled crocolisks (Make sure it has the debuff on it first or it will not count.). Don't let your pets get the killing blow.|
 C Direhorn Raiders|QID|27340|S|M|47.22,49.39|N|Kill any combination of Direhorn Grimtotems.|
-C Raze Direhorn Post!|QID|27429|U|33072|M|46.63,46.09;47.24,46.59;47.35,47.49|CN|N|Burn the tents where the waypoints are, you need to be either inside the tents, or just at the entrance.|
+C Raze Direhorn Post!|QID|27429|U|33072|M|46.63,46.09|QO|1|CN|N|Burn the tents where the waypoint is, you need to be either inside the tent, or just at the entrance.|
+C Raze Direhorn Post!|QID|27429|U|33072|M|47.24,46.59|QO|2|CN|N|Burn the tents where the waypoint is, you need to be either inside the tent, or just at the entrance.|
+C Raze Direhorn Post!|QID|27429|U|33072|M|47.35,47.49|QO|3|CN|N|Burn the tents where the waypoint is, you need to be either inside the tent, or just at the entrance.|
 C Direhorn Raiders|QID|27340|US|M|46.66,48.93|N|Kill any combination of Direhorn Grimtotems.|
 T Direhorn Raiders|QID|27340|M|46.12,57.43|N|To Apprentice Morlann.|
 T The Grimtotem Weapon|QID|27336|M|45.98,57.16|N|To Apprentice Garion.|
@@ -223,6 +225,5 @@ F Mudsprocket|QID|27411|N|Fly back to Mudsprocket.|M|67.50,51.23|
 T Challenge to the Black Flight|QID|27411|M|41.86,73.89|N|To Brogg.|
 A To New Thalanaar|QID|25479|LEAD|25486|M|41.86,73.89|N|From Thyssiana. (Optional, Do this if you wish to go to Thousand Needless, our next guide.)|
 C To New Thalanaar|QID|25479|O|M|42.84,72.42|N|Choose the speech bubble from the Mudsprocket Flight Master.|
-N The End|N|Well done on the achievment! Simply close this step and Thousand Needles will begin. You can also choose a new guide from out Guides List. WKjezz of Wow-pro.|
 ]]
 end)
