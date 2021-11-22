@@ -87,55 +87,44 @@ R Badlands|ACTIVE|1418|M|49.06,6.76|Z|Badlands|N|Follow the road into the Badlan
 R Kargath|ACTIVE|1418|M|10.02,42.87|Z|Badlands|N|Head south past Uldaman and follow the edge of the moutains as you make your west.\n[color=FF0000]NOTE: [/color]It should be fairly uneventful until reach the Dustbowl and the mobs are now your level.|TAXI|-Kargath|
 
 ;-----002_41_42_Jame_Badlands.lua------------------------------------
-f Kargath|ACTIVE|782|M|3.99,44.77|Z|Badlands|N|Get the FP from Gorrik.|TAXI|-Kargath|
+f Kargath|AVAILABLE|1420|M|3.99,44.77|Z|Badlands|N|Get the FP from Gorrik.|TAXI|-Kargath|
 T Neeka Bloodscar|QID|1418|M|6.48,47.20|Z|Badlands|N|She's at the top of the guard tower.|
 A Report to Helgrum|QID|1420|M|6.48,47.20|Z|Badlands|N|From Neeka Bloodscar.|
 A Coyote Thieves|QID|1419|M|6.48,47.20|Z|Badlands|N|From Neeka Bloodscar.|
-A Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|Badlands|N|From Jarkal Mossmeld; at top of the ramp inside Inn.|
+A Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|Badlands|N|From Jarkal Mossmeld; top of the ramp inside the Inn.|
 A Broken Alliances|QID|782|M|2.92,45.62|Z|Badlands|N|From Gorn.|
-T Martek the Exiled|QID|1106|M|42.00,52.00|Z|Badlands|N|Martek is in the Valley of Fangs.|
-A Indurium|QID|1108|PRE|1106|M|42.00,52.00|Z|Badlands|N|From Martek.|
-A Barbecued Buzzard Wings|QID|703|M|42.00,52.00|Z|Badlands|N|From Rigglefuzz.|
-A Power Stones - dungeon|QID|2418|M|42.00,52.00|Z|Badlands|N|From Rigglefuzz.|
-
-R Agmond's End|QID|1108|M|50,65|Z|Badlands|
-C Indurium|QID|1108|QO|1|M|50,65|Z|Badlands|N|kill the troggs there until you have 10.|
-
-A Solution to Doom|QID|709|M|50.00,76.00|Z|Badlands|N|If you plan on doing Uldaman, get this quest from Theldurin the Lost.|
-
-;A Study of the Elements: Rock |QID|710|M|40.00,78.00|Z|Badlands|N|Also get 3 large stone slabs for [39] Badlands Reagent Run. If the area is too crowded, hunt coyotes, buzzards and/or troggs until it repops.|
-;K Rock Elementals|QID|710|QO|1|N|Keep killing rock elementals here until you have 10 Small Stone Shard|
-K Coyotes|QID|2258|L|7846 10|M|36,67|Z|Badlands|N|Head to the northwest around and kill coyotes and buzzards until you get 30 Coyote Jawbones and 10 Crag Coyote Fangs.|
-K Coyotes|QID|1419|L|6166 30|M|36,67|Z|Badlands|N|Head to the northwest around and kill coyotes and buzzards until you get 30 Coyote Jawbones and 10 Crag Coyote Fangs.|
-K Boss Tho'grun|QID|782|L|4640|M|18,78|Z|Badlands|N|He passes this point as part of a massive circuit, He is escorted by 5 ogres, however he often lags behind his troops and can be pulled along with only one add. Kill him fast, loot his Sign of Earth and run away. Use long cooldown abilities and potions if needed.|
-C Broken Alliances|QID|782|M|18,78|Z|Badlands|
-C Coyote Thieves|QID|1419|M|21.7,53.1|Z|Badlands|
-C Badlands Reagent Run|QID|2258|M|16,60|Z|Badlands|N|You should be pretty well finished with this by now, actually but here's a spot for more Buzzard gizzards and wings if you need them.|
-C Barbecued Buzzard Wings|QID|703|M|16,60|Z|Badlands|N| Get more Buzzard Wings if you have not yet finished|
-
-T Barbecued Buzzard Wings|QID|703|M|42.00,52.00|Z|Badlands|N|To Rigglefuzz.|
-T Indurium|QID|1108|M|42.00,52.00|Z|Badlands|N|To Martek the Exiled.|
-A News for Fizzle|QID|1137|PRE|1108|M|42.4,52.8|Z|Badlands|N|From Martek the Exiled.|
-
-T Study of the Elements: Rock |QID|710|M|25.00,44.00|Z|Badlands|N|To Lotwil Veratius.|
-A Study of the Elements: Rock |QID|711|PRE|710|M|25.9,44.6|Z|Badlands|N|From Lotwil Veratius.|
-
-
-T Study of the Elements: Rock |QID|711|M|25.9,44.6|Z|Badlands|
-A Study of the Elements: Rock |QID|712|PRE|711|M|25.9,44.6|Z|Badlands|
-T Coyote Thieves|QID|1419|M|6.48,47.20|Z|Badlands|N|Neeka Bloodscar, back at Kargath.|
-T Badlands Reagent Run|QID|2258|M|2.4,46.1|Z|Badlands|N|To Jarkal Mossmeld, (skip follow up).|
-T Broken Alliances|QID|782|M|6.48,47.20|Z|Badlands|N|To Gorn. (skip followup)|
-K Rock Elementals|ACTIVE|711|QO|1|M|13,35|Z|Badlands|
-
-L Level Check|ACTIVE|711|LVL|42|N|grind to 42. Elementals , Coyotes, dark iron dwarves, whereever you want.|
-
-H Orgrimmar|ACTIVE|1420|N|Be sure you have the items from shopping list, this is our last time in town before we need them.|
-
+C Coyote Thieves|QID|1419|L|6166 30|N|Kill Coyotes to loot their Jawbones.|S|
+C Crag Coyote Fangs|ACTIVE|2258|L|7846 10|N|Kill Coyotes to loot their Fangs.|S|
+C Buzzard Gizzard|QID|2258|L|7847 5|N|Kill Buzzards to loot their Gizzards.|S|
+C Rock Elemental Shard|QID|2258|L|7848 5|N|Kill Rock Elementals to loot Rock Elemental Shards.|S|
+K Boss Tho'grun|ACTIVE|782|M|38.37,71.37|Z|Badlands|L|4640|N|Kill him and loot his Sign of Earth.\n[color=FF0000]NOTE: [/color]Keep an eye out for his entourage as you doing your other quests.|S|
+R Valley of Fangs|ACTIVE|1106|M|39.92,54.57|Z|Badlands|
+T Martek the Exiled|QID|1106|M|42.21,52.69|Z|Badlands|N|Martek is in the Valley of Fangs, east side of the second spire.|
+A Indurium|QID|1108|M|42.21,52.69|Z|Badlands|N|From Martek.|PRE|1106|
+A Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|Badlands|N|From Rigglefuzz.|
+C Barbecued Buzzard Wings|QID|703|L|3404 4|N|Kill any Buzzard to loot the Buzzard Wing.|S|
+R Agmond's End|ACTIVE|1108|M|51.31,62.37|Z|Badlands|
+C Indurium|QID|1108|M|51.12,66.08|Z|Badlands|QO|1|N|Kill the Troggs to loot the Indurium Flakes.|
+C Rock Elemental Shard|QID|2258|M|38.10,76.49|Z|Badlands|L|7848 5|N|Finish looting the Rock Elemental Shards.|US|
+C Buzzard Gizzard|QID|2258|M|15.41,61.38|Z|Badlands|L|7847 5|N|Kill Buzzards to loot their Gizzards.|US|
+C Barbecued Buzzard Wings|QID|703|M|15.41,61.38|Z|Badlands|N| Get more Buzzard Wings if you have not yet finished|
+C Crag Coyote Fangs|ACTIVE|2258|M|24.96,56.45|Z|Badlands|L|7846 10|N|Finish collecting your Fangs.|US|
+C Coyote Thieves|QID|1419|M|24.96,56.45|Z|Badlands|L|6166 30|N|Finish collecting your Coyote Jawbones.|US|
+R Valley of Fangs|AVAILABLE|1137|M|39.92,54.57|Z|Badlands|
+T Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|Badlands|N|To Rigglefuzz.|
+T Indurium|QID|1108|M|42.21,52.69|Z|Badlands|N|To Martek the Exiled.|
+A News for Fizzle|QID|1137|M|42.21,52.69|Z|Badlands|N|From Martek the Exiled.\n[color=FF0000]NOTE: [/color]After a brief interlude.|PRE|1108|
+K Boss Tho'grun|ACTIVE|782&2258|L|4640|M|42.61,53.58|Z|Badlands|N|He passes this point as part of a massive circuit, He is escorted by 5 ogres, however he often lags behind his troops and can be pulled along with only one add. Kill him fast, loot his Sign of Earth and run away. Use long cooldown abilities and potions if needed.\n[color=FF0000]NOTE: [/color]You can go looking for him on his crcuit, or wait here for him to pass through.|
+L Level Check|ACTIVE|1419^2258^782|N|Grind until you're within 3.5 bubbles of 42.|LVL|41;-13550|
+R Kargath|ACTIVE|1419|M|10.02,42.87|Z|Badlands|
+T Coyote Thieves|QID|1419|M|6.48,47.20|Z|Badlands|N|To Neeka Bloodscar.|
+T Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|Badlands|N|To Jarkal Mossmeld.\n[color=FF0000]NOTE: [/color]Skip the follow-up.|
+T Broken Alliances|QID|782|M|6.48,47.20|Z|Badlands|N|To Gorn.\n[color=FF0000]NOTE: [/color]Skip the follow-up.|
+H Orgrimmar|ACTIVE|1420|
+= Level 42 Training|ACTIVE|1420|N|Do your training before moving on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ;-----002_44_44_Jame_Swamp_of_Sorrows.lua------
-
-b Grom'gol Base Camp|QID|1393|M|50.8,13.6|Z|Durotar|N|Take the zep to the the Grom'gol outpost.|
-F Stonard|ACTIVE|1393|M|32.4,29.2|Z|Stranglethorn Vale|N|At Thysta, Wind Rider Master.|
+b Grom'gol Base Camp|ACTIVE|1420|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
+F Stonard|ACTIVE|1420|M|32.54,29.35|Z|Stranglethorn Vale|N|At Thysta.|
 T Report to Helgrum|QID|1420|M|48,55|Z|Swamp of Sorrows|N|To Helgrum.|
 A Fresh Meat|QID|1430|M|44.7,57.2|Z|Swamp of Sorrows|N|From Dar.|
 
