@@ -122,31 +122,32 @@ T Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|Badlands|N|To Jarkal Mossmeld.\n[
 T Broken Alliances|QID|782|M|6.48,47.20|Z|Badlands|N|To Gorn.\n[color=FF0000]NOTE: [/color]Skip the follow-up.|
 H Orgrimmar|ACTIVE|1420|
 = Level 42 Training|ACTIVE|1420|N|Do your training before moving on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+
 ;-----002_44_44_Jame_Swamp_of_Sorrows.lua------
 b Grom'gol Base Camp|ACTIVE|1420|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
 F Stonard|ACTIVE|1420|M|32.54,29.35|Z|Stranglethorn Vale|N|At Thysta.|
-T Report to Helgrum|QID|1420|M|48,55|Z|Swamp of Sorrows|N|To Helgrum.|
-A Fresh Meat|QID|1430|M|44.7,57.2|Z|Swamp of Sorrows|N|From Dar.|
+T Report to Helgrum|QID|1420|M|47.74,55.20|Z|Swamp of Sorrows|N|To Helgrum the Swift.|
+A Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|From Dar.|
 
-R North-east|ACTIVE|699|M|75,15|CC|Z|Swamp of Sorrows|N|go east until you find Sawtooth Snappers|
-K Sawtooth Snappers|QID|699|QO|1|M|75,15|Z|Swamp of Sorrows|N|You need 6|
+R Northeast|ACTIVE|699|M|75.82,13.95|Z|Swamp of Sorrows|CC|N|Make your way to the northeast corner through the swamp.|
+C Sawtooth Snapper|QID|699|M|85.23,36.53|Z|Swamp of Sorrows|L|6168 6|N|Work your way south killing them until you're done collecting your Claws.\n[color=FF0000]NOTE: [/color]Be aware of the Scalebane Dragonkin if you make it as far south as Sorrowmurk.|
 
-R Misty Reed Post|QID|699|M|81,81|Z|Swamp of Sorrows|
-T Lack of Surplus|QID|699|M|81,81|Z|Swamp of Sorrows|N|To Tok'Kar.|
-A Threat From the Sea |QID|1422|PRE|699|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tok'Kar.|
-T Threat From the Sea |QID|1422|M|83.8,80.4|Z|Swamp of Sorrows|N|To Katar.|
-A Threat From the Sea |QID|1426|PRE|1422|M|83.8,80.4|Z|Swamp of Sorrows|N|From Katar.|
-C Fresh Meat|QID|1430|M|95,45|Z|Swamp of Sorrows|S|N|Kill and loot the Monstour Crawlers up and down the shoreline.|
-C Threat From the Sea |QID|1426|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|N|Head down to the shore and start killing murlocs up and down the shoreline (in and out of the water.) The Murlock Flesheaters are mainly north of the camp.|
-T Threat From the Sea |QID|1426|M|83.8,80.4|Z|Swamp of Sorrows|N|To Katar.|
-A Threat From the Sea |QID|1427|PRE|1426|M|83.8,80.4|Z|Swamp of Sorrows|N|From Katar.|
+R Misty Reed Post|QID|699|M|81.18,78.57|Z|Swamp of Sorrows|N|You may want to go to the east and come down through Misty Reed Strand to avoid the Scalebane Dragonkin in Sorrowmurk.\n[color=FF0000]NOTE: [/color]Your path may not be uneventful either way.|
+T Lack of Surplus|QID|699|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
+A Threat From the Sea |QID|1422|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tok'Kar.|PRE|699|
+T Threat From the Sea |QID|1422|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
+A Threat From the Sea |QID|1426|PRE|1422|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|
+C Fresh Meat|QID|1430|M|95,45|Z|Swamp of Sorrows|N|Kill Monstrous Crawlers along the shoreline to loot their legs.\n[color=FF0000]NOTE: [/color]They are non=aggressive, but everything else around them isn't.|S|
+K Threat From the Sea|ACTIVE|1426|M|80.0,93.8;95,45;90,30|Z|Swamp of Sorrows|CC|N|Starting at the southern-most point of the shoreline, work your way north along the shoreline.|
+T Threat From the Sea |QID|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
+A Threat From the Sea |QID|1427|PRE|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|
 T Threat From the Sea |QID|1427|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
-A Continued Threat|QID|1428|PRE|1427|M|83.8,80.4|Z|Swamp of Sorrows|N|From Katar.|
+A Continued Threat|QID|1428|PRE|1427|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|
 C Continued Threat|QID|1428|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|N|Up and down the shore some more killing more murlocs.|
 C Fresh Meat|QID|1430|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|US|N|Finish up finding crablegs.|
 T Continued Threat|QID|1428|M|81.3,81.0|Z|Swamp of Sorrows|N|To Katar.|
 
-T Fresh Meat|QID|1430|M|44.7,57.2|Z|Swamp of Sorrows|N|To Dar, back in Stonard.|
+T Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|To Dar, back in Stonard.|
 
 ;-------002_44_44_Jame_Badlands.lua-------------
 F Kargath|ACTIVE|712|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|
