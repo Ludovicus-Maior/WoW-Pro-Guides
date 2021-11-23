@@ -128,49 +128,27 @@ b Grom'gol Base Camp|ACTIVE|1420|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to 
 F Stonard|ACTIVE|1420|M|32.54,29.35|Z|Stranglethorn Vale|N|At Thysta.|
 T Report to Helgrum|QID|1420|M|47.74,55.20|Z|Swamp of Sorrows|N|To Helgrum the Swift.|
 A Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|From Dar.|
-
 R Northeast|ACTIVE|699|M|75.82,13.95|Z|Swamp of Sorrows|CC|N|Make your way to the northeast corner through the swamp.|
 C Sawtooth Snapper|QID|699|M|85.23,36.53|Z|Swamp of Sorrows|L|6168 6|N|Work your way south killing them until you're done collecting your Claws.\n[color=FF0000]NOTE: [/color]Be aware of the Scalebane Dragonkin if you make it as far south as Sorrowmurk.|
-
 R Misty Reed Post|QID|699|M|81.18,78.57|Z|Swamp of Sorrows|N|You may want to go to the east and come down through Misty Reed Strand to avoid the Scalebane Dragonkin in Sorrowmurk.\n[color=FF0000]NOTE: [/color]Your path may not be uneventful either way.|
 T Lack of Surplus|QID|699|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
 A Threat From the Sea |QID|1422|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tok'Kar.|PRE|699|
 T Threat From the Sea |QID|1422|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
-A Threat From the Sea |QID|1426|PRE|1422|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|
-C Fresh Meat|QID|1430|M|95,45|Z|Swamp of Sorrows|N|Kill Monstrous Crawlers along the shoreline to loot their legs.\n[color=FF0000]NOTE: [/color]They are non=aggressive, but everything else around them isn't.|S|
-K Threat From the Sea|ACTIVE|1426|M|80.0,93.8;95,45;90,30|Z|Swamp of Sorrows|CC|N|Starting at the southern-most point of the shoreline, work your way north along the shoreline.|
+A Threat From the Sea |QID|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1422|
+C Fresh Meat|QID|1430|M|95,45|Z|Swamp of Sorrows|L|6184 10|N|Kill Monstrous Crawlers along the shoreline to loot their legs.\n[color=FF0000]NOTE: [/color]They are non=aggressive, but everything else around them isn't.|S|
+K Threat From the Sea|ACTIVE|1426|M|80.0,93.8;95.0,45.0;94.50,53.83|Z|Swamp of Sorrows|CC|QO|1;2;3|N|Starting at the southern-most point of the shoreline, work your way north along the shoreline.\n[color=FF0000]NOTE: [/color]Focus on killing the Flesheaters first; they are harder to find than the others. Avoid the Oracles as best you can.|
 T Threat From the Sea |QID|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
-A Threat From the Sea |QID|1427|PRE|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|
+A Threat From the Sea |QID|1427|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1426|
 T Threat From the Sea |QID|1427|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
-A Continued Threat|QID|1428|PRE|1427|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|
-C Continued Threat|QID|1428|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|N|Up and down the shore some more killing more murlocs.|
-C Fresh Meat|QID|1430|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|US|N|Finish up finding crablegs.|
-T Continued Threat|QID|1428|M|81.3,81.0|Z|Swamp of Sorrows|N|To Katar.|
-
-T Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|To Dar, back in Stonard.|
-
-;-------002_44_44_Jame_Badlands.lua-------------
-F Kargath|ACTIVE|712|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|
-C Study of the Elements: Rock |QID|712|PRE|710|QO|1|M|13,85|Z|Badlands|N|Need 5 Bracers|
-L Level Check|ACTIVE|712|LVL|42;91000|N|Grind here until about 2 bubbles from 43.|
-R Lotwil Veratius|QID|712|M|26,45|CC|Z|Badlands|
-A This Is Going to Be Hard |QID|734|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
-A Stone Is Better than Cloth|QID|716|PRE|712|M|25.9,44.6|Z|Badlands|N|From Lucian Tosselwrench.|
-T Stone Is Better than Cloth|QID|716|Z|Badlands|N|To Lucian Tosselwrench. (you do have those bracers with you, right)|
-T This Is Going to Be Hard |QID|734|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-A This Is Going to Be Hard |QID|777|PRE|734|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
-T This Is Going to Be Hard |QID|777|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-;--------------Level 43--------------------
-N NOTE: Be forwarned|QID|778|N|A level 45 Elemental will spawn after accepting the next quest.|
-A This Is Going to Be Hard |QID|778|PRE|777|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
-C This Is Going to Be Hard |QID|778|M|25.9,44.6|Z|Badlands|T|Fam'retor Elemental|N|Kill the Elemental and loot the shackles.|
-T This Is Going to Be Hard |QID|778|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-F Booty Bay|ACTIVE|666|M|4,45|Z|Badlands|N|At Gorrik, Wind Rider Master.|
+A Continued Threat|QID|1428|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1427|
+K Continued Threat|ACTIVE|1428|M|89.1,78.4;95.08,27.10|Z|Swamp of Sorrows|CC|QO|1;2;3|N|As you make your way up the shoreline, work on killing the Inkspewers.\n[color=FF0000]NOTE: [/color]If you can get water breathing, there is a group of 4-5 Oracles/Flesheaters underwater at the last location. They randomly respawn as either an Oracle or a Flesheater.|
+C Fresh Meat|QID|1430|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|L|6184 10|N|Finish collecting the Legs.|US|
+T Continued Threat|QID|1428|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
+R Stonard|ACTIVE|1430|M|41.93,54.82|Z|Swamp of Sorrows|
+T Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|To Dar.|
 
 ;------002_42_43_Jame_Stranglethorn.lua------------------
-
-R Kargath|QID|669|M|4.3,46.4|Z|Badlands|N|We're heading out! Ride back to Kargath .|
-F Booty Bay|QID|669|M|4,45|Z|Badlands|N|At Gorrik, Wind Rider Master.|
+F Booty Bay|ACTIVE|669|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|
 T Sunken Treasure|QID|669|M|27.2,77.0|N|Fleet Master Seahorn. (skip follow up)|
 A Tran'rek|QID|2864|M|27.0,77.2|N|From Krazek on the top floor.|
 A Venture Company Mining|QID|600|PRE|605|M|27.1,77.2|N|From Crank Fizzlebub on the first floor of the inn.|
