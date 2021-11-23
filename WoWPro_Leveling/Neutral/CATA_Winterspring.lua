@@ -15,7 +15,7 @@ A Threat of the Winterfall|QID|28460|M|25.15,58.52|N|From Donova Snowden.|
 A Falling to Corruption|QID|28464|M|25.15,58.52|N|From Donova Snowden.|
 A Doin' De E'ko Magic|QID|28540|M|25.16,58.50|N|From Witch Doctor Mau'ari.|
 C Doin' De E'ko Magic|QID|28540|M|28.90,58.62|N|Kill and loot Rimepelt, on a hill to the east.|
-T Doin' De E'ko Magic|QID|28540|N|To Witch Doctor Mau'ari.|
+T Doin' De E'ko Magic|QID|28540|M|25.16,58.50|N|To Witch Doctor Mau'ari.|
 C Threat of the Winterfall|QID|28460|S|M|27.09,48.97|N|Kill furbolgs in the Frostfire Hot Springs area.|
 C Winterfall Activity|QID|28522|S|M|24.80,49.13|N|Kill and loot furbolgs in the Frostfire Hot Springs area.|
 A Strange Life Forces|QID|28656|M|24.45,47.67|N|Kill Winterfall Furbolgs. The quest will eventually appear automatically.|S|
@@ -134,25 +134,25 @@ A Screechy Keen|QID|28745|PRE|28638|N|(UI Alert)|
 T A Taste for Bear|QID|28637|N|(UI Alert)|
 A A Little Gamy|QID|28719|PRE|28637|N|(UI Alert)|
 C A Little Gamy|QID|28719|M|52.65,41.37|N|Kill bears further to the south.|S|
-C Screechy Keen|QID|28745|N|Kill owls on the mountain to the south-west.|
+C Screechy Keen|QID|28745|M|53.65,34.02|N|Kill owls on the mountain to the south-west.|
 T Screechy Keen|QID|28745|N|(UI Alert)|
 A A Bird of Legend|QID|28782|PRE|28745|N|(UI Alert)|
-C A Bird of Legend|QID|28782|N|At the very top of the hill.|
+C A Bird of Legend|QID|28782|M|53.00,36.51|N|At the very top of the hill.|
 C A Little Gamy|QID|28719|M|52.65,41.37|N|Kill bears further to the south.|US|
-T A Little Gamy|QID|28719|N|(UI Alert)|
-A Ursius|QID|28639|PRE|28719|N|(UI Alert)|
+T A Little Gamy|QID|28719|M|PLAYER|N|(UI Alert)|
+A Ursius|QID|28639|PRE|28719|M|PLAYER|N|(UI Alert)|
 C Ursius|QID|28639|M|59.51,40.77|N|In a cave to the east.|
 C Fresh Frostsabers|QID|28640|M|51.83,24.72|N|Kill Frostsabers and Frostsaber Stalkers to the north.|
-T Fresh Frostsabers|QID|28640|N|(UI Alert)|
+T Fresh Frostsabers|QID|28640|M|PLAYER|N|(UI Alert)|
 A Pride of the Dinner Table|QID|28641|PRE|28640|N|(UI Alert)|
 C Pride of the Dinner Table|QID|28641|M|45.91,24.37|N|Kill Frostsaber Huntresses and Pride Watchers west of the road.|
-T Pride of the Dinner Table|QID|28641|N|(UI Alert)|
-A Shy-Rotam|QID|28742|PRE|28641|N|(UI Alert)|
+T Pride of the Dinner Table|QID|28641|M|PLAYER|N|(UI Alert)|
+A Shy-Rotam|QID|28742|PRE|28641|M|PLAYER|N|(UI Alert)|
 C Shy-Rotam|QID|28742|M|46.25,17.86|N|At Frostsaber Rock to the north.|
 C You Gotta Have Eggs|QID|28828|NC|M|58.68,19.64|N|In the hills to the east. The chimeras will attack if they see you taking their eggs.|
 T A Bird of Legend|QID|28782|M|55.90,28.32|N|To Jeb Guthrie, back at the Goodgrub Smoking Pit.|
 T Ursius|QID|28639|M|55.96,28.13|N|To Francis Morcott.|
-T Shy-Rotam|QID|28742|N|To Jez Goodgrub.|
+T Shy-Rotam|QID|28742|M|56.01,28.17|N|To Jez Goodgrub.|
 T You Gotta Have Eggs|QID|28828|M|56.01,28.17|N|To Jez Goodgrub.|
 R Winterfall Village|QID|28614|M|65.31,46.14|N|East of Everlook.|
 A Bearzerker|QID|28614|M|65.31,46.14|N|From Burndl.|
@@ -168,16 +168,16 @@ C Altered Beasts|QID|28837|N|Kill and loot altered beasts. They can be found all
 T Altered Beasts|QID|28837|M|58.05,63.87|N|To Haleh, back at the Beryl Egress.|
 A The Owlbeasts' Defense|QID|28838|PRE|28837|M|58.05,63.87|N|From Haleh.|
 C The Owlbeasts' Defense|QID|28838|NC|M|57.15,75.40|N|In a chest at the abandoned camp in Dun Mandarr, to the south.|
-T The Owlbeasts' Defense|QID|28838|N|(UI Alert)|
-A Magic Prehistoric|QID|28839|PRE|28838|N|(UI Alert)|
+T The Owlbeasts' Defense|QID|28838|M|PLAYER|N|(UI Alert)|
+A Magic Prehistoric|QID|28839|PRE|28838|M|PLAYER|N|(UI Alert)|
 A Razor Beak and Antlers Pointy|QID|28829|M|61.90,74.69|N|From Jadrag the Slicer.|
 C Razor Beak and Antlers Pointy|QID|28829|S|M|64.30,77.76|N|Kill owlbeasts in the Owl Wing Thicket.|
 C Essence of the Claw-Totem|QID|28839|NC|QO|1|M|65.1,73.9|N|Right-click the Claw-Totem inside the cave.|; Essence of the Claw-Totem: 1/1
 C Essence of the Life-Totem|QID|28839|NC|QO|2|M|65.6,77.6|N|Right-click the Life-Totem inside the cave.|; Essence of the Life-Totem: 1/1
 C Essence of the Moon-Totem|QID|28839|NC|QO|3|M|64.79,81.04|N|Right-click the Moon-Totem inside the cave.|; Essence of the Moon-Totem: 1/1
-T Magic Prehistoric|QID|28839|N|(UI Alert)|
-A Winterwater|QID|28840|PRE|28839|N|(UI Alert)|
-C Razor Beak and Antlers Pointy|QID|28829|US|N|Kill owlbeasts in the Owl Wing Thicket.|
+T Magic Prehistoric|QID|28839|M|PLAYER|N|(UI Alert)|
+A Winterwater|QID|28840|PRE|28839|M|PLAYER|N|(UI Alert)|
+C Razor Beak and Antlers Pointy|QID|28829|US|M|64.51,76.18|N|Kill owlbeasts in the Owl Wing Thicket.|
 T Razor Beak and Antlers Pointy|QID|28829|M|61.92,74.70|N|To Jadrag the Slicer.|
 A Chips off the Old Block|QID|28830|PRE|28829|M|61.92,74.70|N|From Jadrag the Slicer.|
 A Damn You, Frostilicus|QID|28831|PRE|28829|M|61.92,74.70|N|From Jadrag the Slicer.|
@@ -192,12 +192,11 @@ A The Arcane Storm Within|QID|28841|PRE|28840|M|58.04,63.78|N|From Haleh.|
 A Umbranse's Deliverance|QID|28842|PRE|28840|M|58.04,63.78|N|From Haleh.|
 N Warning to epileptics|QID|28841|N|And those with sensitive eyes to flashing lights. Inside Mazthoril cave the portals are flashing red, pink, white and blue lights.|
 C The Arcane Storm Within|QID|28841|S|U|66060|M|49.52,70.39|N|In Mazthoril, kill the guardians for each portal, then use the totem to close it.|
-C Umbranse's Deliverance|QID|28842|M|49.52,70.39|N|Kill Umbranse at the bottom of the cave.|U|66060|
+C Umbranse's Deliverance|QID|28842|M|49.52,70.39|N|Kill Umbranse at the bottom of the cave.|
 C The Arcane Storm Within|QID|28841|US|U|66060|M|49.52,70.39|N|In Mazthoril, kill the guardians for each portal, then use the totem to close it.|
 T The Arcane Storm Within|QID|28841|U|66061|M|57.99,63.82|N|Use the sigil to return to Haleh.|
 T Umbranse's Deliverance|QID|28842|M|57.99,63.82|N|To Haleh. Congrats on a very nice piece of gear!|
 A Blasted Lands: The Other Side of the World|QID|28857|LEAD|25710|M|59.8,51.2|N|From Innkeeper Vizzie.|FACTION|Alliance|
 A Blasted Lands: The Other Side of the World|QID|28858|LEAD|25674|M|59.8,51.2|N|From Innkeeper Vizzie.|FACTION|Horde|
-N This ends|N|The Winterspring guide, next stop is Blasted Lands. Close this step to continue on.|
 ]]
 end)
