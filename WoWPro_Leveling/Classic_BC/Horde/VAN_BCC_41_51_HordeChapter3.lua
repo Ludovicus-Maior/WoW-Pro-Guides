@@ -15,15 +15,13 @@ return [[
 ;N This is a rough port and very BETA|
 
 ; Hendo72- I will be commenting out steps I don't think we need in this guide. I am leaving them in just in case they are required.
-
-;-----lvl---40---------------
 ;;N Things to Buy|AVAILABLE|713^714^716|N|There are some items that you need to buy from the AH (or otherwise acquire) for a couple Badlands quest chains.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 ;;B Frost Oil|AVAILABLE|713|L|3829|N|Crafted with Alchemy.|S!US|RANK|3|
 ;;B Gyrochronatom|AVAILABLE|714|L|4389|N|Crafted with Engineering.|S!US|RANK|3|
 ;;B Patterned Bronze Bracers|AVAILABLE|716|L|2868|N|Crafted with Blacksmithing.|S!US|RANK|3|
 
+; --- Swamp of Sorrows
 b Grom'gol Base Camp|AVAILABLE|1418|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|IZ|1454;Orgrimmar^1411;Durotar|
-
 R Duskwood|AVAILABLE|1418|M|44.53,87.82|Z|Duskwood|N|Follow the road north to Duskwood.|
 R Darkshire|AVAILABLE|1418|M|44.2,67.3;69.80,60.15|Z|Duskwood|CC|N|Continue north to the first intersection and head east from there.\n[color=FF0000]NOTE: [/color]You can wait out Watcher Jordan if he is at this end of his patrol. He 'shouldn't' agro if you keep your distance.|
 R Bypass Darkshire|AVAILABLE|1418|M|74.1,57.0;77.2,60.2;81.90,46.95|Z|Duskwood|CC|N|Once the coast is clear, continue along the road to the first intersection. Follow this road a short distance until you see the fence. Turning north, follow the ridge from here until you get to the road.|
@@ -35,7 +33,6 @@ A Little Morsels|QID|9440|M|47.81,54.95|Z|Swamp of Sorrows|N|From Cersei Dusksin
 A Neeka Bloodscar|QID|1418|M|47.74,55.20|Z|Swamp of Sorrows|N|From Helgrum the Swift, at the top of the stairs.|
 A Pool of Tears|QID|1424|M|47.93,54.79|Z|Swamp of Sorrows|N|From Fel'zerul.|
 A Lack of Surplus|QID|698|M|44.71,57.22|Z|Swamp of Sorrows|N|From Dar, inside the Inn.|
-
 R The Shifting Mire|QID|698|M|47.59,43.43|Z|Swamp of Sorrows|N|First "island" north of Stonard|
 C Lack of Surplus|QID|698|M|47.59,43.43|Z|Swamp of Sorrows|L|6169 8|N|Kill Sawtooth Crocolisks to loot the Unprepared Sawtooth Flank.|S|
 K Noboru|QID|1392|M|54.9,34.1;26.85,40.87|Z|Swamp of Sorrows|CN|L|6196|N|Kill Noboru the Cudgel and loot the Cudgel.\n[color=FF0000]NOTE: [/color]He spawns south of Fallow Sanctuary and patrols the area west to The Harborage and back with 2 minions.|T|Noboru the Cudgel|
@@ -44,7 +41,6 @@ R The Harborage|AVAILABLE|1389|M|26.8,41.1;27.10,37.80|Z|Swamp of Sorrows|CC|N|C
 N PvP Hostiles|AVAILABLE|1389|N|If you behave, they'll behave and leave you alone.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Noboru the Cudgel|QID|1392|M|25.97,31.40|Z|Swamp of Sorrows|N|To Magtoor.|
 A Draenethyst Crystals|QID|1389|M|25.97,31.40|Z|Swamp of Sorrows|N|From Magtoor.|
-
 R Fallow Sanctuary|AVAILABLE|1393|M|54.57,28.47|Z|Swamp of Sorrows|N|Follow the road east. You can also follow the ridge line east if you want to do a lot of grinding.|
 C Draenethyst Crystals|QID|1389|M|63.67,20.51|Z|Swamp of Sorrows|L|6071 6|N|Look for the big blue crystals amongst the Lost Ones' huts on both sides of the road.|S|
 C Little Morsels|ACTIVE|9440|M|60.48,22.14|Z|Swamp of Sorrows|QO|1|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Crocolisk.|T|Captured Crocolisk|U|23659|
@@ -55,19 +51,20 @@ A Galen's Escape|QID|1393|M|65.45,18.25|Z|Swamp of Sorrows|ELITE|N|[color=80FF00
 A Galen's Escape|QID|1393|M|65.45,18.25|Z|Swamp of Sorrows|ELITE|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Galen Goodward to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for him to respawn.|
 C Galen's Escape|QID|1393|M|53.02,29.66|Z|Swamp of Sorrows|N|Follow Galen as he travels to the huts in the south and then west to the road.\n[color=FF0000]NOTE: [/color]Let Galen take the lead and pull aggro without letting him keep it for too long.|
 T Galen's Escape|QID|1393|M|47.82,39.76|Z|Swamp of Sorrows|N|To the strongbox at Galen's burned out camp (near Stonard).|
-
 R The Harborage|ACTIVE|1389|M|26.91,33.47|Z|Swamp of Sorrows|N|Ride west|
 T Draenethyst Crystals|QID|1389|M|25.97,31.40|Z|Swamp of Sorrows|N|To Magtoor.|
 R Pool of Tears|ACTIVE|1424|M|62.55,46.13|Z|Swamp of Sorrows|N|Ride South-east|
 C Pool of Tears|QID|1424|M|69.66,46.41|Z|Swamp of Sorrows|L|6175 10|N|You'll find the Atal'ai Artifacts all around Pool of Tears. Some may be easier to see than others.\n[color=FF0000]NOTE: [/color]Underwater breathing is your best friend right now.\n\nIf you're having trouble finding them, decreasing [color=FFFF00]Ground Clutter[/color] to 1 (in [color=FFFF00]Graphics[/color] under [color=FFFF00]System[/color] in the [color=FFFF00]Option[/color] window) may help.|
-
 R Misty Reed Post|ACTIVE|698|M|81.18,78.57|Z|Swamp of Sorrows|N|Keep an eye out for the Scalebane dragonkin, they may not appreciate you cutting through their area.
 T Lack of Surplus|QID|698|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
 A Lack of Surplus|QID|699|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tak'Kar.|PRE|698|
 R Stonard|ACTIVE|9440|M|41.93,54.82|Z|Swamp of Sorrows|
 T Little Morsels|QID|9440|M|47.81,54.95|Z|Swamp of Sorrows|N|To Cersei Dusksinger.|
 T Pool of Tears|QID|1424|M|47.93,54.79|Z|Swamp of Sorrows|N|To Fel'zerul; at the top the stairs.\n[color=FF0000]NOTE: [/color]Don't get the follow-up quest.|
+
+; --- Badlands
 F Kargath|ACTIVE|1418|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|TAXI|Kargath|
+; --- Missing FP in Badlands
 N Badlands|ACTIVE|1418|N|Seeing as you don't have the FP in Badlands, you're going to have to foot it there. Don't worry, this isn't as bad as it sounds.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|TAXI|-Kargath|IZ|1435;Swamp of Sorrows|
 H Orgrimmar|AVAILABLE|2842|TAXI|-Kargath|IZ|1435;Swamp of Sorrows|
 A Chief Engineer Scooty|QID|2842|M|75.51,25.36|Z|Orgrimmar|N|From Sovik, inside Nogg's Machine Shop.|TAXI|-Kargath|
@@ -76,7 +73,6 @@ b Booty Bay|ACTIVE|2842|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay
 T Chief Engineer Scooty|QID|2842|M|27.60,77.48|Z|Stranglethorn Vale|N|To Chief Engineer Scooty.|TAXI|-Kargath|
 A Gnomer-gooooone!|QID|2843|M|27.60,77.48|Z|Stranglethorn Vale|N|From Chief Engineer Scooty.|PRE|2842|TAXI|-Kargath|
 T Gnomer-gooooone!|QID|2843|M|27.60,77.48|Z|Stranglethorn Vale|N|To Chief Engineer Scooty after a few moments past.|TAXI|-Kargath|
-
 P Gnomeregan|AVAILABLE|-2843|ACTIVE|-2843|M|27.63,77.56|Z|Stranglethorn Vale|N|Step on the Transpolyporter.\n[color=FF0000]NOTE: [/color]Make sure you have your Goblin Transponder or it won't work.|TAXI|-Kargath|IZ|Booty Bay|
 ;* Goblin Transponder|AVAILABLE|-2843|ACTIVE|-2843|N|You can safely dispose of it. Ask Scooty for a new one if you wish to use the portal again.|U|9173| ** Hendo72 - Scooty may not give you another one.
 R Exit to Dun Morogh|ACTIVE|1418|M|43.01,60.19;43.12,60.26|Z|1415;Gnomeregan|CC|N|Make your to the big lift and take it up. Head up the ramp to the top.\n[color=FF0000]NOTE: [/color]At this level, you can easily avoid aggroing the mobs as long as you give them room.|TAXI|-Kargath|
@@ -85,103 +81,68 @@ R Southgate Outpost|ACTIVE|1418|M|84.23,51.29|Z|Dun Morogh|N|At the top of the h
 R Badlands|ACTIVE|1418|M|22.7,70.9;28.5,66.0;37.5,74.6;46.40,73.50|Z|Loch Modan|CC|N|Follow the road into the tunnel and continue through until you reach the intersection. Head north to the next intersection and cut across Stonesplinter Valley to Grizzlepaw Ridge. Make your way around the mountain side to the road leading into the Badlands.|TAXI|-Kargath|
 R Badlands|ACTIVE|1418|M|49.06,6.76|Z|Badlands|N|Follow the road into the Badlands.|TAXI|-Kargath|
 R Kargath|ACTIVE|1418|M|10.02,42.87|Z|Badlands|N|Head south past Uldaman and follow the edge of the moutains as you make your west.\n[color=FF0000]NOTE: [/color]It should be fairly uneventful until reach the Dustbowl and the mobs are now your level.|TAXI|-Kargath|
-
-;-----002_41_42_Jame_Badlands.lua------------------------------------
-f Kargath|ACTIVE|782|M|3.99,44.77|Z|Badlands|N|Get the FP from Gorrik.|TAXI|-Kargath|
+f Kargath|AVAILABLE|1420|M|3.99,44.77|Z|Badlands|N|Get the FP from Gorrik.|TAXI|-Kargath|
 T Neeka Bloodscar|QID|1418|M|6.48,47.20|Z|Badlands|N|She's at the top of the guard tower.|
 A Report to Helgrum|QID|1420|M|6.48,47.20|Z|Badlands|N|From Neeka Bloodscar.|
 A Coyote Thieves|QID|1419|M|6.48,47.20|Z|Badlands|N|From Neeka Bloodscar.|
-A Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|Badlands|N|From Jarkal Mossmeld; at top of the ramp inside Inn.|
+A Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|Badlands|N|From Jarkal Mossmeld; top of the ramp inside the Inn.|
 A Broken Alliances|QID|782|M|2.92,45.62|Z|Badlands|N|From Gorn.|
-T Martek the Exiled|QID|1106|M|42.00,52.00|Z|Badlands|N|Martek is in the Valley of Fangs.|
-A Indurium|QID|1108|PRE|1106|M|42.00,52.00|Z|Badlands|N|From Martek.|
-A Barbecued Buzzard Wings|QID|703|M|42.00,52.00|Z|Badlands|N|From Rigglefuzz.|
-A Power Stones - dungeon|QID|2418|M|42.00,52.00|Z|Badlands|N|From Rigglefuzz.|
+C Coyote Thieves|QID|1419|L|6166 30|N|Kill Coyotes to loot their Jawbones.|S|
+C Crag Coyote Fangs|ACTIVE|2258|L|7846 10|N|Kill Coyotes to loot their Fangs.|S|
+C Buzzard Gizzard|QID|2258|L|7847 5|N|Kill Buzzards to loot their Gizzards.|S|
+C Rock Elemental Shard|QID|2258|L|7848 5|N|Kill Rock Elementals to loot Rock Elemental Shards.|S|
+K Boss Tho'grun|ACTIVE|782|M|38.37,71.37|Z|Badlands|L|4640|N|Kill him and loot his Sign of Earth.\n[color=FF0000]NOTE: [/color]Keep an eye out for his entourage as you doing your other quests.|S|
+R Valley of Fangs|ACTIVE|1106|M|39.92,54.57|Z|Badlands|
+T Martek the Exiled|QID|1106|M|42.21,52.69|Z|Badlands|N|Martek is in the Valley of Fangs, east side of the second spire.|
+A Indurium|QID|1108|M|42.21,52.69|Z|Badlands|N|From Martek.|PRE|1106|
+A Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|Badlands|N|From Rigglefuzz.|
+C Barbecued Buzzard Wings|QID|703|L|3404 4|N|Kill any Buzzard to loot the Buzzard Wing.|S|
+R Agmond's End|ACTIVE|1108|M|51.31,62.37|Z|Badlands|
+C Indurium|QID|1108|M|51.12,66.08|Z|Badlands|QO|1|N|Kill the Troggs to loot the Indurium Flakes.|
+C Rock Elemental Shard|QID|2258|M|38.10,76.49|Z|Badlands|L|7848 5|N|Finish looting the Rock Elemental Shards.|US|
+C Buzzard Gizzard|QID|2258|M|15.41,61.38|Z|Badlands|L|7847 5|N|Kill Buzzards to loot their Gizzards.|US|
+C Barbecued Buzzard Wings|QID|703|M|15.41,61.38|Z|Badlands|N| Get more Buzzard Wings if you have not yet finished|
+C Crag Coyote Fangs|ACTIVE|2258|M|24.96,56.45|Z|Badlands|L|7846 10|N|Finish collecting your Fangs.|US|
+C Coyote Thieves|QID|1419|M|24.96,56.45|Z|Badlands|L|6166 30|N|Finish collecting your Coyote Jawbones.|US|
+R Valley of Fangs|AVAILABLE|1137|M|39.92,54.57|Z|Badlands|
+T Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|Badlands|N|To Rigglefuzz.|
+T Indurium|QID|1108|M|42.21,52.69|Z|Badlands|N|To Martek the Exiled.|
+A News for Fizzle|QID|1137|M|42.21,52.69|Z|Badlands|N|From Martek the Exiled.\n[color=FF0000]NOTE: [/color]After a brief interlude.|PRE|1108|
+K Boss Tho'grun|ACTIVE|782&2258|L|4640|M|42.61,53.58|Z|Badlands|N|He passes this point as part of a massive circuit, He is escorted by 5 ogres, however he often lags behind his troops and can be pulled along with only one add. Kill him fast, loot his Sign of Earth and run away. Use long cooldown abilities and potions if needed.\n[color=FF0000]NOTE: [/color]You can go looking for him on his crcuit, or wait here for him to pass through.|
+L Level Check|ACTIVE|1419^2258^782|N|Grind until you're within 3.5 bubbles of 42.|LVL|41;-13550|
+R Kargath|ACTIVE|1419|M|10.02,42.87|Z|Badlands|
+T Coyote Thieves|QID|1419|M|6.48,47.20|Z|Badlands|N|To Neeka Bloodscar.|
+T Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|Badlands|N|To Jarkal Mossmeld.\n[color=FF0000]NOTE: [/color]Skip the follow-up.|
+T Broken Alliances|QID|782|M|6.48,47.20|Z|Badlands|N|To Gorn.\n[color=FF0000]NOTE: [/color]Skip the follow-up.|
 
-R Agmond's End|QID|1108|M|50,65|Z|Badlands|
-C Indurium|QID|1108|QO|1|M|50,65|Z|Badlands|N|kill the troggs there until you have 10.|
-
-A Solution to Doom|QID|709|M|50.00,76.00|Z|Badlands|N|If you plan on doing Uldaman, get this quest from Theldurin the Lost.|
-
-;A Study of the Elements: Rock |QID|710|M|40.00,78.00|Z|Badlands|N|Also get 3 large stone slabs for [39] Badlands Reagent Run. If the area is too crowded, hunt coyotes, buzzards and/or troggs until it repops.|
-;K Rock Elementals|QID|710|QO|1|N|Keep killing rock elementals here until you have 10 Small Stone Shard|
-K Coyotes|QID|2258|L|7846 10|M|36,67|Z|Badlands|N|Head to the northwest around and kill coyotes and buzzards until you get 30 Coyote Jawbones and 10 Crag Coyote Fangs.|
-K Coyotes|QID|1419|L|6166 30|M|36,67|Z|Badlands|N|Head to the northwest around and kill coyotes and buzzards until you get 30 Coyote Jawbones and 10 Crag Coyote Fangs.|
-K Boss Tho'grun|QID|782|L|4640|M|18,78|Z|Badlands|N|He passes this point as part of a massive circuit, He is escorted by 5 ogres, however he often lags behind his troops and can be pulled along with only one add. Kill him fast, loot his Sign of Earth and run away. Use long cooldown abilities and potions if needed.|
-C Broken Alliances|QID|782|M|18,78|Z|Badlands|
-C Coyote Thieves|QID|1419|M|21.7,53.1|Z|Badlands|
-C Badlands Reagent Run|QID|2258|M|16,60|Z|Badlands|N|You should be pretty well finished with this by now, actually but here's a spot for more Buzzard gizzards and wings if you need them.|
-C Barbecued Buzzard Wings|QID|703|M|16,60|Z|Badlands|N| Get more Buzzard Wings if you have not yet finished|
-
-T Barbecued Buzzard Wings|QID|703|M|42.00,52.00|Z|Badlands|N|To Rigglefuzz.|
-T Indurium|QID|1108|M|42.00,52.00|Z|Badlands|N|To Martek the Exiled.|
-A News for Fizzle|QID|1137|PRE|1108|M|42.4,52.8|Z|Badlands|N|From Martek the Exiled.|
-
-T Study of the Elements: Rock |QID|710|M|25.00,44.00|Z|Badlands|N|To Lotwil Veratius.|
-A Study of the Elements: Rock |QID|711|PRE|710|M|25.9,44.6|Z|Badlands|N|From Lotwil Veratius.|
-
-
-T Study of the Elements: Rock |QID|711|M|25.9,44.6|Z|Badlands|
-A Study of the Elements: Rock |QID|712|PRE|711|M|25.9,44.6|Z|Badlands|
-T Coyote Thieves|QID|1419|M|6.48,47.20|Z|Badlands|N|Neeka Bloodscar, back at Kargath.|
-T Badlands Reagent Run|QID|2258|M|2.4,46.1|Z|Badlands|N|To Jarkal Mossmeld, (skip follow up).|
-T Broken Alliances|QID|782|M|6.48,47.20|Z|Badlands|N|To Gorn. (skip followup)|
-K Rock Elementals|ACTIVE|711|QO|1|M|13,35|Z|Badlands|
-
-L Level Check|ACTIVE|711|LVL|42|N|grind to 42. Elementals , Coyotes, dark iron dwarves, whereever you want.|
-
-H Orgrimmar|ACTIVE|1420|N|Be sure you have the items from shopping list, this is our last time in town before we need them.|
-
-;-----002_44_44_Jame_Swamp_of_Sorrows.lua------
-
-b Grom'gol Base Camp|QID|1393|M|50.8,13.6|Z|Durotar|N|Take the zep to the the Grom'gol outpost.|
-F Stonard|ACTIVE|1393|M|32.4,29.2|Z|Stranglethorn Vale|N|At Thysta, Wind Rider Master.|
-T Report to Helgrum|QID|1420|M|48,55|Z|Swamp of Sorrows|N|To Helgrum.|
-A Fresh Meat|QID|1430|M|44.7,57.2|Z|Swamp of Sorrows|N|From Dar.|
-
-R North-east|ACTIVE|699|M|75,15|CC|Z|Swamp of Sorrows|N|go east until you find Sawtooth Snappers|
-K Sawtooth Snappers|QID|699|QO|1|M|75,15|Z|Swamp of Sorrows|N|You need 6|
-
-R Misty Reed Post|QID|699|M|81,81|Z|Swamp of Sorrows|
-T Lack of Surplus|QID|699|M|81,81|Z|Swamp of Sorrows|N|To Tok'Kar.|
-A Threat From the Sea |QID|1422|PRE|699|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tok'Kar.|
-T Threat From the Sea |QID|1422|M|83.8,80.4|Z|Swamp of Sorrows|N|To Katar.|
-A Threat From the Sea |QID|1426|PRE|1422|M|83.8,80.4|Z|Swamp of Sorrows|N|From Katar.|
-C Fresh Meat|QID|1430|M|95,45|Z|Swamp of Sorrows|S|N|Kill and loot the Monstour Crawlers up and down the shoreline.|
-C Threat From the Sea |QID|1426|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|N|Head down to the shore and start killing murlocs up and down the shoreline (in and out of the water.) The Murlock Flesheaters are mainly north of the camp.|
-T Threat From the Sea |QID|1426|M|83.8,80.4|Z|Swamp of Sorrows|N|To Katar.|
-A Threat From the Sea |QID|1427|PRE|1426|M|83.8,80.4|Z|Swamp of Sorrows|N|From Katar.|
+; --- Swamp of Sorrows
+H Orgrimmar|ACTIVE|1420|M|3.99,44.77|Z|Badlands|N|If your Hearthstone is on CD, then fly there.|
+= Level 42 Training|ACTIVE|1420|N|Do your training before moving on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+b Grom'gol Base Camp|ACTIVE|1420|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
+F Stonard|ACTIVE|1420|M|32.54,29.35|Z|Stranglethorn Vale|N|At Thysta.|
+T Report to Helgrum|QID|1420|M|47.74,55.20|Z|Swamp of Sorrows|N|To Helgrum the Swift.|
+A Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|From Dar.|
+R Northeast|ACTIVE|699|M|75.82,13.95|Z|Swamp of Sorrows|CC|N|Make your way to the northeast corner through the swamp.|
+C Sawtooth Snapper|QID|699|M|85.23,36.53|Z|Swamp of Sorrows|L|6168 6|N|Work your way south killing them until you're done collecting your Claws.\n[color=FF0000]NOTE: [/color]Be aware of the Scalebane Dragonkin if you make it as far south as Sorrowmurk.|
+R Misty Reed Post|QID|699|M|81.18,78.57|Z|Swamp of Sorrows|N|You may want to go to the east and come down through Misty Reed Strand to avoid the Scalebane Dragonkin in Sorrowmurk.\n[color=FF0000]NOTE: [/color]Your path may not be uneventful either way.|
+T Lack of Surplus|QID|699|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
+A Threat From the Sea |QID|1422|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tok'Kar.|PRE|699|
+T Threat From the Sea |QID|1422|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
+A Threat From the Sea |QID|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1422|
+C Fresh Meat|QID|1430|M|95,45|Z|Swamp of Sorrows|L|6184 10|N|Kill Monstrous Crawlers along the shoreline to loot their legs.\n[color=FF0000]NOTE: [/color]They are non=aggressive, but everything else around them isn't.|S|
+K Threat From the Sea|ACTIVE|1426|M|80.0,93.8;95.0,45.0;94.50,53.83|Z|Swamp of Sorrows|CC|QO|1;2;3|N|Starting at the southern-most point of the shoreline, work your way north along the shoreline.\n[color=FF0000]NOTE: [/color]Focus on killing the Flesheaters first; they are harder to find than the others. Avoid the Oracles as best you can.|
+T Threat From the Sea |QID|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
+A Threat From the Sea |QID|1427|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1426|
 T Threat From the Sea |QID|1427|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
-A Continued Threat|QID|1428|PRE|1427|M|83.8,80.4|Z|Swamp of Sorrows|N|From Katar.|
-C Continued Threat|QID|1428|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|N|Up and down the shore some more killing more murlocs.|
-C Fresh Meat|QID|1430|M|85,80;95,45;90,30|CN|Z|Swamp of Sorrows|US|N|Finish up finding crablegs.|
-T Continued Threat|QID|1428|M|81.3,81.0|Z|Swamp of Sorrows|N|To Katar.|
+A Continued Threat|QID|1428|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1427|
+K Continued Threat|ACTIVE|1428|M|89.1,78.4;95.08,27.10|Z|Swamp of Sorrows|CC|QO|1;2;3|N|As you make your way up the shoreline, work on killing the Inkspewers.\n[color=FF0000]NOTE: [/color]If you can get water breathing, there is a group of 4-5 Oracles/Flesheaters underwater at the last location. They randomly respawn as either an Oracle or a Flesheater.|
+C Fresh Meat|QID|1430|M|94.88,44.57|Z|Swamp of Sorrows|L|6184 10|N|Finish collecting the Legs.\n[color=FF0000]NOTE: [/color]Make sure your're not attacking the Silt Crawlers.|T|Monstrous Crawler|US|
+T Continued Threat|QID|1428|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
+R Stonard|ACTIVE|1430|M|46.45,51.43|Z|Swamp of Sorrows|
+T Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|To Dar.|
 
-T Fresh Meat|QID|1430|M|44.7,57.2|Z|Swamp of Sorrows|N|To Dar, back in Stonard.|
-
-;-------002_44_44_Jame_Badlands.lua-------------
-F Kargath|ACTIVE|712|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|
-C Study of the Elements: Rock |QID|712|PRE|710|QO|1|M|13,85|Z|Badlands|N|Need 5 Bracers|
-L Level Check|ACTIVE|712|LVL|42;91000|N|Grind here until about 2 bubbles from 43.|
-R Lotwil Veratius|QID|712|M|26,45|CC|Z|Badlands|
-A This Is Going to Be Hard |QID|734|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
-A Stone Is Better than Cloth|QID|716|PRE|712|M|25.9,44.6|Z|Badlands|N|From Lucian Tosselwrench.|
-T Stone Is Better than Cloth|QID|716|Z|Badlands|N|To Lucian Tosselwrench. (you do have those bracers with you, right)|
-T This Is Going to Be Hard |QID|734|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-A This Is Going to Be Hard |QID|777|PRE|734|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
-T This Is Going to Be Hard |QID|777|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-;--------------Level 43--------------------
-N NOTE: Be forwarned|QID|778|N|A level 45 Elemental will spawn after accepting the next quest.|
-A This Is Going to Be Hard |QID|778|PRE|777|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
-C This Is Going to Be Hard |QID|778|M|25.9,44.6|Z|Badlands|T|Fam'retor Elemental|N|Kill the Elemental and loot the shackles.|
-T This Is Going to Be Hard |QID|778|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-F Booty Bay|ACTIVE|666|M|4,45|Z|Badlands|N|At Gorrik, Wind Rider Master.|
-
-;------002_42_43_Jame_Stranglethorn.lua------------------
-
-R Kargath|QID|669|M|4.3,46.4|Z|Badlands|N|We're heading out! Ride back to Kargath .|
-F Booty Bay|QID|669|M|4,45|Z|Badlands|N|At Gorrik, Wind Rider Master.|
-T Sunken Treasure|QID|669|M|27.2,77.0|N|Fleet Master Seahorn. (skip follow up)|
+; --- Stranglethorn Vale
+F Booty Bay|AVAILABLE|2864|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|
 A Tran'rek|QID|2864|M|27.0,77.2|N|From Krazek on the top floor.|
 A Venture Company Mining|QID|600|PRE|605|M|27.1,77.2|N|From Crank Fizzlebub on the first floor of the inn.|
 h Salty Sailor Inn|ACTIVE|600|M|27,77|N|Set your hearthstone to Booty Bay.|
@@ -190,7 +151,7 @@ A Scaring Shaky|QID|606|M|27.8,77.1|N|From "Sea Wolf" MacKinley|
 A Stoley's Debt|QID|2872|M|27.8,77.1|N|From "Sea Wolf" MacKinley|
 A Stranglethorn Fever|QID|348|M|27.6,76.7|N|From Fin Fizracket who is under the broken boat.|RANK|2|
 A The Bloodsail Buccaneers |QID|595|M|28.1,76.2|N|From First Mate Crazz.|
-T The Bloodsail Buccaneers |QID|595|M|27.29,69.49|N|You are looking for the Bloodsail Correspondence on a barrel in the pirate camp .|
+T The Bloodsail Buccaneers |QID|595|M|27.29,69.49|N|You are looking for the Bloodsail Correspondence on a barrel in the pirate camp.|
 A The Bloodsail Buccaneers |QID|597|PRE|595|M|27.3,69.5|N|From Bloodsail Correspondence.|
 C Akiris by the Bundle|QID|617|M|25,60|L|4029 10|N|Kill Nagas for the reeds.|
 C Stranglethorn Fever|QID|348|M|35.02,60.93|N|Kill gorillas as you make you way to waypoint. Make sure you have at least one Gorilla Fang. Make sure you have full life and mana, then talk to the witchdoctor. He'll summon 3 waves of gorillas ending with Mokk who has the heart you need. Remember to heal and recharge between waves.|
@@ -216,7 +177,6 @@ T Up to Snuff|QID|587|M|26.9,77.3|N|To Deeg.|
 A Skullsplitter Tusks|QID|209|PRE|189|M|27,77.2|N|From Kebok.|
 
 ;-----002_44_45_Jame_Stranglethorn.lua-------------
-
 N LAST CHANCE: Stranglethorn Pages|QID|338|N|LAST CHANCE to check the AH for pages. Pages are 1,4,6,8; 10,11,14,16; 18,20,21,24; and 25,26,27.|
 C Venture Company Mining|QID|600|M|41.7,42.9|N|Kill goblins around for their crystals.|
 C Raptor Mastery |QID|196|M|34,37|N|Jungle raptors are just across the road from the miners. Keep the Jungle Stalker Feathers you find too.|
@@ -305,11 +265,9 @@ A Cortello's Riddle |QID|625|PRE|624|M|22.9,48.2|Z|Swamp of Sorrows|
 F Grom'gol Base Camp|QID|571|
 T Mok'thardin's Enchantment |QID|571|N|DON'T get the follow up.|M|32.1,29.2|
 T The Singing Crystals|QID|589|N|DON'T get the follow up.|
-b Orgrimmar|ACTIVE|625|M|31.6,29.4|N|Take the zep back to Orgrimmar.|
 
 ;------002_43_44_Jame_Dustwallow_Marsh.lua--------------
-N Uldaman|N|Now is a good time for Uldaman, it's really not that bad. If you choose not to you will need to grind a bit to make up for it.|
-;J to uldaman guide when available.
+b Orgrimmar|ACTIVE|625|M|31.6,29.4|N|Take the zep back to Orgrimmar.|
 h Orgrimmar|ACTIVE|625|
 F Camp Taurajo|ACTIVE|625|M|45.2,63.8|Z|Orgrimmar|N|At Doras, Wind Rider Master. If you have the Flightpath fly directly to Brackenwall.|
 R Dustwallow Marsh|ACTIVE|625|M|32.9,45.6|Z|Dustwallow Marsh|N|Run south, then east at the Crossroad to Dustwallow Marsh.|

@@ -689,9 +689,11 @@ R Hunter Rise|ACTIVE|1276|M|51.78,74.30|Z|Thunder Bluff|
 T The Black Shield|QID|1276|M|54.01,80.74|Z|Thunder Bluff|N|To Mosarn.|
 A Return to Krog|QID|11204|M|54.01,80.74|Z|Thunder Bluff|N|From Mosarn.|PRE|1276|
 = Level 40|ACTIVE|1270|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|-Warlock,-Paladin,-Rogue|
-F Ratchet|ACTIVE|1270|M|47.02,49.83|Z|Thunder Bluff|IZ|1456;Thunder Bluff|
+F Brackenwall Village|ACTIVE|11204|M|47.02,49.83|Z|Thunder Bluff|IZ|1456;Thunder Bluff|
+T Return to Krog|QID|11204|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
+F Ratchet|ACTIVE|1270|M|35.59,31.80|Z|Dustwallow Marsh|
 T Stinky's Escape|QID|1270|M|62.37,37.62|Z|The Barrens|N|To Mebok Mizzyrix.|
-F Orgrimmar|ACTIVE|-1270|AVAILABLE|1418|M|63.09,37.17|Z|The Barrens|
+F Orgrimmar|ACTIVE|-1270|AVAILABLE|1418|M|63.09,37.17|Z|The Barrens|IZ|Ratchet|
 = Level 40|AVAILABLE|1418|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|Warlock,Paladin,Rogue|
 R Orgrimmar|AVAILABLE|1418|N|You need to be in Orgrimmar to start the next guide.|
 ]]
