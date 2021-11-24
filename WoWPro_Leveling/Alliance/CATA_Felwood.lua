@@ -5,9 +5,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 N Note|AVAILABLE|28100|N|This guide starts in Darnassus. If you want to skip this step feel free to do so.|
-A Hero's Call: Felwood!|QID|28543|LEAD|27997|M|45.19,50.01|Z|Darnassus|N|From the Hero's Call Board. Will not appear if your level is too high.|
-F Forrest Song|QID|28100|N|in Ashenvale. If you should happen to have Emerald Sanctuary go there instead and skip this and the next step.|
-R Felwood|AVAILABLE|28100|M|54.77,98.29|N|Run into Felwood.|
+F Emerald Sanctuary|QID|28100|TAXI|Emerald Sanctuary|
 R Emerald Sanctuary|AVAILABLE|28100|M|51.41,79.79|N|Run to Emerald Sanctuary.|
 T Hero's Call: Felwood!|QID|28543|O|M|51.20,80.49|N|To Tenell Leafrunner.|
 A The Corruption of the Jadefire|QID|27997|M|51.20,80.49|N|From Tenell Leafrunner.|
@@ -239,6 +237,5 @@ T Deadwood of the North|QID|28338|M|63.98,10.37|N|To Nafien.|
 A Speak to Salfa|QID|28521|PRE|28338&28366|M|64.07,10.39|N|From Nafien.|
 N Deadwood Headdress Feathers|QID|8470|M|63.89,10.37|N|If you have at least 5 Deadwood Headdress Feathers, go ahead and turn them into Nafien for rep.|
 T Deadwood Ritual Totem|QID|8470|M|64.61,5.22|N|To Kernda.|
-N This ends|N|The Felwood guide, the next guide goes to Winterfall, close this step to continue.|
 ]]
 end)
