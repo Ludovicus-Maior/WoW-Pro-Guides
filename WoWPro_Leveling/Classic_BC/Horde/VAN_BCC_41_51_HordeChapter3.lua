@@ -15,13 +15,12 @@ return [[
 ;N This is a rough port and very BETA|
 
 ; Hendo72- I will be commenting out steps I don't think we need in this guide. I am leaving them in just in case they are required.
-
-;-----lvl---40---------------
 ;;N Things to Buy|AVAILABLE|713^714^716|N|There are some items that you need to buy from the AH (or otherwise acquire) for a couple Badlands quest chains.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
 ;;B Frost Oil|AVAILABLE|713|L|3829|N|Crafted with Alchemy.|S!US|RANK|3|
 ;;B Gyrochronatom|AVAILABLE|714|L|4389|N|Crafted with Engineering.|S!US|RANK|3|
 ;;B Patterned Bronze Bracers|AVAILABLE|716|L|2868|N|Crafted with Blacksmithing.|S!US|RANK|3|
 
+; --- Swamp of Sorrows
 b Grom'gol Base Camp|AVAILABLE|1418|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|IZ|1454;Orgrimmar^1411;Durotar|
 R Duskwood|AVAILABLE|1418|M|44.53,87.82|Z|Duskwood|N|Follow the road north to Duskwood.|
 R Darkshire|AVAILABLE|1418|M|44.2,67.3;69.80,60.15|Z|Duskwood|CC|N|Continue north to the first intersection and head east from there.\n[color=FF0000]NOTE: [/color]You can wait out Watcher Jordan if he is at this end of his patrol. He 'shouldn't' agro if you keep your distance.|
@@ -178,7 +177,6 @@ T Up to Snuff|QID|587|M|26.9,77.3|N|To Deeg.|
 A Skullsplitter Tusks|QID|209|PRE|189|M|27,77.2|N|From Kebok.|
 
 ;-----002_44_45_Jame_Stranglethorn.lua-------------
-
 N LAST CHANCE: Stranglethorn Pages|QID|338|N|LAST CHANCE to check the AH for pages. Pages are 1,4,6,8; 10,11,14,16; 18,20,21,24; and 25,26,27.|
 C Venture Company Mining|QID|600|M|41.7,42.9|N|Kill goblins around for their crystals.|
 C Raptor Mastery |QID|196|M|34,37|N|Jungle raptors are just across the road from the miners. Keep the Jungle Stalker Feathers you find too.|
