@@ -143,25 +143,37 @@ T Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|To Dar.|
 
 ; --- Stranglethorn Vale
 F Booty Bay|AVAILABLE|2864|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|
-A Tran'rek|QID|2864|M|27.0,77.2|N|From Krazek on the top floor.|
-A Venture Company Mining|QID|600|PRE|605|M|27.1,77.2|N|From Crank Fizzlebub on the first floor of the inn.|
-h Salty Sailor Inn|ACTIVE|600|M|27,77|N|Set your hearthstone to Booty Bay.|
-A Akiris by the Bundle|QID|617|M|26.8,76.4|N|From Brivateer Bloads in front of the bank. Check for any Strangelthorn pages you are missing in the auction house while you are here.|
-A Scaring Shaky|QID|606|M|27.8,77.1|N|From "Sea Wolf" MacKinley|
-A Stoley's Debt|QID|2872|M|27.8,77.1|N|From "Sea Wolf" MacKinley|
-A Stranglethorn Fever|QID|348|M|27.6,76.7|N|From Fin Fizracket who is under the broken boat.|RANK|2|
-A The Bloodsail Buccaneers |QID|595|M|28.1,76.2|N|From First Mate Crazz.|
-T The Bloodsail Buccaneers |QID|595|M|27.29,69.49|N|You are looking for the Bloodsail Correspondence on a barrel in the pirate camp.|
-A The Bloodsail Buccaneers |QID|597|PRE|595|M|27.3,69.5|N|From Bloodsail Correspondence.|
-C Akiris by the Bundle|QID|617|M|25,60|L|4029 10|N|Kill Nagas for the reeds.|
-C Stranglethorn Fever|QID|348|M|35.02,60.93|N|Kill gorillas as you make you way to waypoint. Make sure you have at least one Gorilla Fang. Make sure you have full life and mana, then talk to the witchdoctor. He'll summon 3 waves of gorillas ending with Mokk who has the heart you need. Remember to heal and recharge between waves.|
-C Scaring Shaky|QID|606|M|33,65|N|Dropped from Elder Mistvale Gorillas. Also save a gorilla fang to give to the witch doctor in the next quest.|
+A Tran'rek|QID|2864|M|26.94,77.21|N|From Krazek on the top floor of the Tavern.|
+A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub by the bar on the first floor of the Tavern.|PRE|605|
+h Booty Bay|ACTIVE|600|M|27.04,77.31|N|Set your hearthstone to Booty Bay.|
+A Akiris by the Bundle|QID|617|M|26.76,76.38|N|From Brivateer Bloads in front of the bank.|
+N Bank|ACTIVE|617|M|26.56,76.50|N|Make sure you grab any items that you put away when you left the area earlier.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
+N Auctioneer O'reely|ACTIVE|338|M|26.59,76.35|N|Check the auction house for any Stranglethorn pages you are missing while you are here.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
+A Scaring Shaky|QID|606|M|27.78,77.07|N|From "Sea Wolf" MacKinley|
+A Stoley's Debt|QID|2872|M|27.78,77.07|N|From "Sea Wolf" MacKinley|
+A Stranglethorn Fever|QID|348|M|27.61,76.73|N|From Fin Fizracket who is under the broken boat.|RANK|2|
+A The Bloodsail Buccaneers|QID|595|M|28.10,76.22|N|From First Mate Crazz.|
+R The Cape of Stranglethorn|ACTIVE|595|M|29.41,72.73|N|Head up the stairs and through the tunnel to the other side.|
+R Southern Savage Coast|ACTIVE|595|M|27.99,70.04|N|Turn and head west down the hill to the bottom.|
+T The Bloodsail Buccaneers|QID|595|M|27.28,69.52|N|After clearing the camp of all Bloodsails, locate the Bloodsail Correspondence on the barrel and click on it.|
+A The Bloodsail Buccaneers|QID|597|M|27.28,69.52|N|From Bloodsail Correspondence.|PRE|595|
+C Akiris by the Bundle|QID|617|M|25.85,60.85|L|4029 10|N|Kill Nagas for the reeds.\n[color=FF0000]NOTE: [/color]Work your way around the island and then up the path when you get to the other side.\n[color=FF0000]NOTE: [/color]The path upwards will branch off into 2 areas. at the end of the first branch, you can either go down the hill and come back around or go up the hill to the 2nd branch and follow it back down.|
+C Scaring Shaky|QID|606|M|33.53,64.82|L|3919 5|N|Dropped from Elder Mistvale Gorillas.|S|
+C Mok'thardin's Enchantment|QID|572|M|33.53,64.82|L|3862|N|Dropped from Elder Mistvale Gorillas.\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|S|
+l Gorilla Fang|ACTIVE|348|M|31.67,60.14|CC|L|2799|N|These are dropped by any Gorrila in STV.\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|S|
+R Mistvale Valley|ACTIVE|348|M|33.19,62.69|N|Head west over the 2 bridges towards the road. The entrance is west of the road.|
+l Gorilla Fang|ACTIVE|348|M|33.29,63.39|L|2799|N|These are dropped by any Gorrila in STV.\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|US|
+R Sprit Den|ACTIVE|348|M|34.2,63.6;34.65,62.52|CC|N|Locate the path on the north side of Mistvale Valley.|
+C Stranglethorn Fever|QID|348|M|35.26,60.39|QO|1|N|When you are ready, give the Gorrilla Fang to Witch Doctor Unbagwa. He'll start 3 waves of gorilla attacks; an Enraged Silverback Gorilla, then Konda, and finally Mokk the Savage.\n[color=FF0000]NOTE: [/color]Remember to heal and recharge between waves.|
+C Stranglethorn Fever|QID|348|M|35.26,60.39|N|[color=CC00FF]QUEST FAILED [/color]\nGive a Gorrilla Fang to Witch Doctor Unbagwa to stat again\n[color=FF0000]NOTE: [/color]If you don't have a Gorilla Fang, you'll need to get one to stat again.|
+
+C Scaring Shaky|QID|606|M|33,65|N|Finish collecting the Mistvale Giblets from the Elder Mistvale Gorillas.|
 T Scaring Shaky|QID|606|M|26.9,73.6|N|"Shaky" Phillipe is at the base of the ramp you arrive at when entering Booty bay (towards the ship from Rachet).|
 A Return to MacKinley|QID|607|PRE|606|M|26.9,73.6|N|From "Shaky" Phillipe.|
 T The Bloodsail Buccaneers |QID|597|M|28.1,76.2|N|Return to First Mate Crazz.|
 A The Bloodsail Buccaneers |QID|599|PRE|597|M|28.1,76.2|N|From First Mate Crazz.|
-T Stranglethorn Fever|QID|348|M|27.6,76.7|N|To Fin Fitzracket.|
-T Return to MacKinley|QID|607|M|27.8,77.1|N|To "Sea Wolf" MacKinley. (wait to get the followup till next time we are here)|
+T Stranglethorn Fever|QID|348|M|27.61,76.73|N|To Fin Fitzracket.|
+T Return to MacKinley|QID|607|M|27.78,77.07|N|To "Sea Wolf" MacKinley. (wait to get the followup till next time we are here)|
 A Up to Snuff|QID|587|PRE|595|M|26.9,77.3|N|From Deeg at the top of the inn.|
 T The Bloodsail Buccaneers |QID|599|N|Turn in to Fleet Master Seahorn at the top of the inn near the flight master.|M|27.2,76.9|
 A The Bloodsail Buccaneers |QID|604|PRE|599|M|27.2,76.9|N|From Fleet Master Seahorn.|
@@ -233,7 +245,7 @@ H The Salty Sailor Tavern|QID|621|N|Booty Bay. Run there if your hearth isn't up
 A Zanzil's Secret|QID|621|M|27.1,77.2|N|From Crank Fizzlebub.|
 T Venture Company Mining|QID|600|N|This this quest in on the first floor of the inn.|M|27.1,77.2|
 T Skullsplitter Tusks|QID|209|N|This this in on the top floor of the inn.|
-A Voodoo Dues|QID|609|PRE|607|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
+A Voodoo Dues|QID|609|PRE|607|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|
 T Excelsior|QID|628|N|Use the top floor exit of the inn and head for the leather working shop to turn this in.|M|28.3,77.6|
 
 N Things to do|ACTIVE|608|N|Coming next, you will be killing pirates on 3 ships. While there, keep a sharp eye out for a rolled up scroll that can be about anywhere below deck. It starts Cortello's Riddle quest. Avoid fighting on the stairs or you may have multi floor agro.|
@@ -254,7 +266,7 @@ C The Singing Crystals|QID|589|N|Head into the cave and kill Ironjaw Basilisks u
 T Zanzil's Secret|QID|621|N|Turn on on the first floor of the inn.|M|27.1,77.2|
 H Salty Sailor Tavern |ACTIVE|608|M|29.5,72.5|N|Ride back to Booty Bay|
 T The Bloodsail Buccaneers |QID|608|N|To Fleet-Master Seahorn. You've finished this quest line!|M|27.2,76.9|
-T Voodoo Dues|QID|609|N|Turn this quest into Sea Wolf MacKinley.|M|27.8,77.1|
+T Voodoo Dues|QID|609|N|Turn this quest into Sea Wolf MacKinley.|M|27.78,77.07|
 
 F Stonard|QID|1420|N|A quick trip to find a scroll under a bridge.|
 T Report to Helgrum|QID|1420|M|47.9,55.0|Z|Swamp of Sorrows|
@@ -691,7 +703,7 @@ T A Grim Discovery |QID|2976|M|75.2,34.2|Z|Orgrimmar|N|To Belgrom Rockmaul in th
 A Betrayed|QID|3504|M|75.2,34.2|Z|Orgrimmar|N|To Belgrom Rockmaul.|
 F Ratchet|ACTIVE|2874|M|45.2,63.8|Z|Orgrimmar|N|At Doras, Wind Rider Master.|
 b Booty Bay|ACTIVE|2874|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.60,38.60|
-T Deliver to MacKinley|QID|2874|N|To "Sea Wolf" MacKinley, near the inn.|M|27.8,77.1|
+T Deliver to MacKinley|QID|2874|N|To "Sea Wolf" MacKinley, near the inn.|M|27.78,77.07|
 t Rescue OOX-22/FE!|QID|2767|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
 t Rescue OOX-09/HL!|QID|836|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
 t Rescue OOX-17/TN!|QID|648|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
