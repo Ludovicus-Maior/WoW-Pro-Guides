@@ -108,7 +108,7 @@ R Valley of Fangs|AVAILABLE|1137|M|39.92,54.57|Z|Badlands|
 T Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|Badlands|N|To Rigglefuzz.|
 T Indurium|QID|1108|M|42.21,52.69|Z|Badlands|N|To Martek the Exiled.|
 A News for Fizzle|QID|1137|M|42.21,52.69|Z|Badlands|N|From Martek the Exiled.\n[color=FF0000]NOTE: [/color]After a brief interlude.|PRE|1108|
-K Boss Tho'grun|ACTIVE|782&2258|M|42.61,53.58|Z|Badlands|L|4640N|He passes this point as part of a massive circuit, He is escorted by 5 ogres, however he often lags behind his troops and can be pulled along with only one add. Kill him fast, loot his Sign of Earth and run away. Use long cooldown abilities and potions if needed.\n[color=FF0000]NOTE: [/color]You can go looking for him on his crcuit, or wait here for him to pass through.|
+K Boss Tho'grun|ACTIVE|782&2258|M|42.61,53.58|Z|Badlands|L|4640|N|He passes this point as part of a massive circuit, He is escorted by 5 ogres, however he often lags behind his troops and can be pulled along with only one add. Kill him fast, loot his Sign of Earth and run away. Use long cooldown abilities and potions if needed.\n[color=FF0000]NOTE: [/color]You can go looking for him on his crcuit, or wait here for him to pass through.|
 L Level Check|ACTIVE|1419^2258^782|N|Grind until you're within 3.5 bubbles of 42.|LVL|41;-13550|
 R Kargath|ACTIVE|1419|M|10.02,42.87|Z|Badlands|
 T Coyote Thieves|QID|1419|M|6.48,47.20|Z|Badlands|N|To Neeka Bloodscar.|
