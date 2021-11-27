@@ -126,14 +126,14 @@ R Northeast|ACTIVE|699|M|75.82,13.95|Z|Swamp of Sorrows|CC|N|Make your way to th
 C Sawtooth Snapper|QID|699|M|85.23,36.53|Z|Swamp of Sorrows|L|6168 6|N|Work your way south killing them until you're done collecting your Claws.\n[color=FF0000]NOTE: [/color]Be aware of the Scalebane Dragonkin if you make it as far south as Sorrowmurk.|
 R Misty Reed Post|QID|699|M|81.18,78.57|Z|Swamp of Sorrows|N|You may want to go to the east and come down through Misty Reed Strand to avoid the Scalebane Dragonkin in Sorrowmurk.\n[color=FF0000]NOTE: [/color]Your path may not be uneventful either way.|
 T Lack of Surplus|QID|699|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
-A Threat From the Sea |QID|1422|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tok'Kar.|PRE|699|
-T Threat From the Sea |QID|1422|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
-A Threat From the Sea |QID|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1422|
+A Threat From the Sea|QID|1422|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tok'Kar.|PRE|699|
+T Threat From the Sea|QID|1422|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
+A Threat From the Sea|QID|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1422|
 C Fresh Meat|QID|1430|M|95,45|Z|Swamp of Sorrows|L|6184 10|N|Kill Monstrous Crawlers along the shoreline to loot their legs.\n[color=FF0000]NOTE: [/color]They are non=aggressive, but everything else around them isn't.|S|
 K Threat From the Sea|ACTIVE|1426|M|80.0,93.8;95.0,45.0;94.50,53.83|Z|Swamp of Sorrows|CC|QO|1;2;3|N|Starting at the southern-most point of the shoreline, work your way north along the shoreline.\n[color=FF0000]NOTE: [/color]Focus on killing the Flesheaters first; they are harder to find than the others. Avoid the Oracles as best you can.|
-T Threat From the Sea |QID|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
-A Threat From the Sea |QID|1427|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1426|
-T Threat From the Sea |QID|1427|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
+T Threat From the Sea|QID|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
+A Threat From the Sea|QID|1427|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1426|
+T Threat From the Sea|QID|1427|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
 A Continued Threat|QID|1428|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1427|
 K Continued Threat|ACTIVE|1428|M|89.1,78.4;95.08,27.10|Z|Swamp of Sorrows|CC|QO|1;2;3|N|As you make your way up the shoreline, work on killing the Inkspewers.\n[color=FF0000]NOTE: [/color]If you can get water breathing, there is a group of 4-5 Oracles/Flesheaters underwater at the last location. They randomly respawn as either an Oracle or a Flesheater.|
 C Fresh Meat|QID|1430|M|94.88,44.57|Z|Swamp of Sorrows|L|6184 10|N|Finish collecting the Legs.\n[color=FF0000]NOTE: [/color]Make sure your're not attacking the Silt Crawlers.|T|Monstrous Crawler|US|
@@ -143,46 +143,58 @@ T Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|To Dar.|
 
 ; --- Stranglethorn Vale
 F Booty Bay|AVAILABLE|2864|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|
-A Tran'rek|QID|2864|M|27.0,77.2|N|From Krazek on the top floor.|
-A Venture Company Mining|QID|600|PRE|605|M|27.1,77.2|N|From Crank Fizzlebub on the first floor of the inn.|
-h Salty Sailor Inn|ACTIVE|600|M|27,77|N|Set your hearthstone to Booty Bay.|
-A Akiris by the Bundle|QID|617|M|26.8,76.4|N|From Brivateer Bloads in front of the bank. Check for any Strangelthorn pages you are missing in the auction house while you are here.|
-A Scaring Shaky|QID|606|M|27.8,77.1|N|From "Sea Wolf" MacKinley|
-A Stoley's Debt|QID|2872|M|27.8,77.1|N|From "Sea Wolf" MacKinley|
-A Stranglethorn Fever|QID|348|M|27.6,76.7|N|From Fin Fizracket who is under the broken boat.|RANK|2|
-A The Bloodsail Buccaneers |QID|595|M|28.1,76.2|N|From First Mate Crazz.|
-T The Bloodsail Buccaneers |QID|595|M|27.29,69.49|N|You are looking for the Bloodsail Correspondence on a barrel in the pirate camp.|
-A The Bloodsail Buccaneers |QID|597|PRE|595|M|27.3,69.5|N|From Bloodsail Correspondence.|
-C Akiris by the Bundle|QID|617|M|25,60|L|4029 10|N|Kill Nagas for the reeds.|
-C Stranglethorn Fever|QID|348|M|35.02,60.93|N|Kill gorillas as you make you way to waypoint. Make sure you have at least one Gorilla Fang. Make sure you have full life and mana, then talk to the witchdoctor. He'll summon 3 waves of gorillas ending with Mokk who has the heart you need. Remember to heal and recharge between waves.|
-C Scaring Shaky|QID|606|M|33,65|N|Dropped from Elder Mistvale Gorillas. Also save a gorilla fang to give to the witch doctor in the next quest.|
-T Scaring Shaky|QID|606|M|26.9,73.6|N|"Shaky" Phillipe is at the base of the ramp you arrive at when entering Booty bay (towards the ship from Rachet).|
-A Return to MacKinley|QID|607|PRE|606|M|26.9,73.6|N|From "Shaky" Phillipe.|
-T The Bloodsail Buccaneers |QID|597|M|28.1,76.2|N|Return to First Mate Crazz.|
-A The Bloodsail Buccaneers |QID|599|PRE|597|M|28.1,76.2|N|From First Mate Crazz.|
-T Stranglethorn Fever|QID|348|M|27.6,76.7|N|To Fin Fitzracket.|
-T Return to MacKinley|QID|607|M|27.8,77.1|N|To "Sea Wolf" MacKinley. (wait to get the followup till next time we are here)|
-A Up to Snuff|QID|587|PRE|595|M|26.9,77.3|N|From Deeg at the top of the inn.|
-T The Bloodsail Buccaneers |QID|599|N|Turn in to Fleet Master Seahorn at the top of the inn near the flight master.|M|27.2,76.9|
-A The Bloodsail Buccaneers |QID|604|PRE|599|M|27.2,76.9|N|From Fleet Master Seahorn.|
-T Akiris by the Bundle|QID|617|M|26.8,76.4|N|Turn in to Privateer Bloads by the bank.|
-A Keep An Eye Out|QID|576|PRE|595|M|28.6,75.9|N|Get this quest from Dizzy who is on the upper level boardwalk by the last building before you reach the forge as you go towards the exit or the first building past the forge if heading towards the inn.|
-C Keep An Eye Out|QID|576|M|31.9,78.6|S!US|N|Head out of Booty Bay and turn right. Any swashbuckler can drop the eye.|
-C The Bloodsail Buccaneers |QID|604|M|29.6,80.9;27,82;33,88|CN|N|Check two camps and the boat (3 waypoints) for the Orders and Charts. Kill any remaining swashbucklers you need, while looting snuff.|
+A Tran'rek|QID|2864|M|26.94,77.21|N|From Krazek on the top floor of the Tavern.|
+A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub by the bar on the first floor of the Tavern.|PRE|605|
+h Booty Bay|ACTIVE|600|M|27.04,77.31|N|Set your hearthstone to Booty Bay.|
+A Akiris by the Bundle|QID|617|M|26.76,76.38|N|From Brivateer Bloads in front of the bank.|
+N Bank|ACTIVE|617|M|26.56,76.50|N|Make sure you grab any items that you put away when you left the area earlier.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
+N Auctioneer O'reely|ACTIVE|338|M|26.59,76.35|N|Check the auction house for any Stranglethorn pages you are missing while you are here.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
+A Scaring Shaky|QID|606|M|27.78,77.07|N|From "Sea Wolf" MacKinley|
+A Stoley's Debt|QID|2872|M|27.78,77.07|N|From "Sea Wolf" MacKinley|
+A Stranglethorn Fever|QID|348|M|27.61,76.73|N|From Fin Fizracket who is under the broken boat.|RANK|2|
+A The Bloodsail Buccaneers|QID|595|M|28.10,76.22|N|From First Mate Crazz.|
+R The Cape of Stranglethorn|ACTIVE|595|M|29.41,72.73|N|Head up the stairs and through the tunnel to the other side.|
+R Southern Savage Coast|ACTIVE|595|M|27.99,70.04|N|Turn and head west down the hill to the bottom.|
+T The Bloodsail Buccaneers|QID|595|M|27.28,69.52|N|After clearing the camp of all Bloodsails, locate the Bloodsail Correspondence on the barrel and click on it.|
+A The Bloodsail Buccaneers|QID|597|M|27.28,69.52|N|From Bloodsail Correspondence.|PRE|595|
+C Akiris by the Bundle|QID|617|M|25.85,60.85|L|4029 10|N|Kill Nagas for the reeds.\n[color=FF0000]NOTE: [/color]Work your way around the island and then up the path when you get to the other side.\n[color=FF0000]NOTE: [/color]The path upwards will branch off into 2 areas. at the end of the first branch, you can either go down the hill and come back around or go up the hill to the 2nd branch and follow it back down.|
+C Scaring Shaky|QID|606|M|33.53,64.82|L|3919 5|N|Dropped from Elder Mistvale Gorillas.|S|
+C Mok'thardin's Enchantment|QID|572|M|33.53,64.82|L|3862|N|Dropped from Elder Mistvale Gorillas.\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|S|
+l Gorilla Fang|ACTIVE|348|M|31.67,60.14|CC|L|2799|N|These are dropped by any Gorrila in STV.\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|S|
+R Mistvale Valley|ACTIVE|348|M|33.19,62.69|N|Head west over the 2 bridges towards the road. The entrance is west of the road.|
+l Gorilla Fang|ACTIVE|348|M|33.29,63.39|L|2799|N|These are dropped by any Gorrila in STV.\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|US|
+R Sprit Den|ACTIVE|348|M|34.2,63.6;34.65,62.52|CC|N|Locate the path on the north side of Mistvale Valley.|
+C Stranglethorn Fever|QID|348|M|35.26,60.39|QO|1|N|When you are ready, give the Gorrilla Fang to Witch Doctor Unbagwa. He'll start 3 waves of gorilla attacks; an Enraged Silverback Gorilla, then Konda, and finally Mokk the Savage.\n[color=FF0000]NOTE: [/color]Remember to heal and recharge between waves.|
+C Stranglethorn Fever|QID|348|M|35.26,60.39|N|[color=CC00FF]QUEST FAILED [/color]\nGive a Gorrilla Fang to Witch Doctor Unbagwa to stat again\n[color=FF0000]NOTE: [/color]If you don't have a Gorilla Fang, you'll need to get one to stat again.|
+C Scaring Shaky|QID|606|M|33.53,64.82|L|3919 5|N|Finish collecting the Mistvale Giblets from the Elder Mistvale Gorillas.|US|
+R Booty Bay|ACTIVE|606|M|29.34,72.83|
+T Scaring Shaky|QID|606|M|26.89,73.59|N|"Shaky" Phillipe is at the bottom of the ramp as you enter Booty Bay (towards the ship from Rachet).|
+A Return to MacKinley|QID|607|M|26.89,73.59|N|From "Shaky" Phillipe.|PRE|606|
+T The Bloodsail Buccaneers|QID|597|M|28.10,76.22|N|Return to First Mate Crazz.|
+A The Bloodsail Buccaneers|QID|599|M|28.10,76.22|N|From First Mate Crazz.|PRE|597|
+T Stranglethorn Fever|QID|348|M|27.61,76.73|N|To Fin Fitzracket.|
+T Return to MacKinley|QID|607|M|27.78,77.07|N|To "Sea Wolf" MacKinley.\n[color=FF0000]NOTE: [/color]Don't pick up the follow-up yet.|
+A Up to Snuff|QID|587|M|26.92,77.35|N|From Deeg at the top of the inn.|PRE|595|
+T The Bloodsail Buccaneers|QID|599|M|27.18,77.01|N|To Fleet Master Seahorn on the balcony at the top of the Tavern .|
+A The Bloodsail Buccaneers|QID|604|M|27.2,76.9|N|From Fleet Master Seahorn.|PRE|599|
+T Akiris by the Bundle|QID|617|M|26.76,76.38|N|To Privateer Bloads.|
+A Keep An Eye Out|QID|576|M|28.6,75.9|N|Get this quest from Dizzy who is on the upper level boardwalk by the last building before you reach the forge as you go towards the exit or the first building past the forge if heading towards the inn.|PRE|595|
+C Keep An Eye Out|QID|576|M|31.9,78.6|N|Head out of Booty Bay and turn right. Any swashbuckler can drop the eye.|S!US|
+C The Bloodsail Buccaneers|QID|604|M|29.6,80.9;27,82;33,88|CN|N|Check two camps and the boat (3 waypoints) for the Orders and Charts. Kill any remaining swashbucklers you need, while looting snuff.|
 C Up to Snuff|QID|587|M|33.0,75.0|N|Snuff can be found on any Bloodsail Buccaneers in the area.|
-R Booty Bay|QID|604|M|29.5,72.5|
-T The Bloodsail Buccaneers |QID|604|M|27.2,76.9|N|To Fleet Master Seahorn. (followup can be difficult to solo)|
-A The Bloodsail Buccaneers |QID|608|PRE|604|M|27.2,76.9|GROUP|2|N|From Fleet Master Seahorn.|
-T Up to Snuff|QID|587|M|26.9,77.3|N|To Deeg.|
+R Booty Bay|QID|604|M|29.34,72.83|
+T The Bloodsail Buccaneers|QID|604|M|27.2,76.9|N|To Fleet Master Seahorn. (followup can be difficult to solo)|
+A The Bloodsail Buccaneers|QID|608|PRE|604|M|27.2,76.9|GROUP|2|N|From Fleet Master Seahorn.|
+T Up to Snuff|QID|587|M|26.92,77.35|N|To Deeg.|
 A Skullsplitter Tusks|QID|209|PRE|189|M|27,77.2|N|From Kebok.|
 
 ;-----002_44_45_Jame_Stranglethorn.lua-------------
-N LAST CHANCE: Stranglethorn Pages|QID|338|N|LAST CHANCE to check the AH for pages. Pages are 1,4,6,8; 10,11,14,16; 18,20,21,24; and 25,26,27.|
+N LAST CHANCE - Stranglethorn Pages|QID|338|N|LAST CHANCE to check the AH for pages. Pages are 1,4,6,8; 10,11,14,16; 18,20,21,24; and 25,26,27.|
 C Venture Company Mining|QID|600|M|41.7,42.9|N|Kill goblins around for their crystals.|
-C Raptor Mastery |QID|196|M|34,37|N|Jungle raptors are just across the road from the miners. Keep the Jungle Stalker Feathers you find too.|
-C Mok'thardin's Enchantment |QID|572|M|33,39|N|Keep killing raptors until you find 10 Jungle Stalker Feathers.|
-T Mok'thardin's Enchantment |QID|572|M|32.1,29.2|N|To Far Seer Mok'thardin, at Grom'gol.|
-A Mok'thardin's Enchantment |QID|571|PRE|572|M|32.1,29.2|N|From Far Seer Mok'thardin.|
+C Raptor Mastery|QID|196|M|34,37|N|Jungle raptors are just across the road from the miners. Keep the Jungle Stalker Feathers you find too.|
+C Mok'thardin's Enchantment|QID|572|M|33,39|N|Keep killing raptors until you find 10 Jungle Stalker Feathers.|
+T Mok'thardin's Enchantment|QID|572|M|32.1,29.2|N|To Far Seer Mok'thardin, at Grom'gol.|
+A Mok'thardin's Enchantment|QID|571|PRE|572|M|32.1,29.2|N|From Far Seer Mok'thardin.|
 C Excelsior|QID|628|M|29.2,22.4|N|Find an elder crocolisk just outside of Grom'gol and kill it.|
 K Nezzliok|ACTIVE|584|QO|2|M|21,11;23,9|CS|T|Nezzliok|N|Follow the left wall to where they are standing together. Clear the area to avoid extras.|
 K Gan'zulah|ACTIVE|584|QO|1|M|23,7|T|Gan'zulah|N|He might be just a bit farther north if he wasnt right there.|
@@ -198,18 +210,18 @@ T Chapter III|QID|341|M|35.6,10.6|N|Takes pages 18, 20, 21, and 24. To Barnil St
 A Chapter IV|QID|342|M|35.6,10.6|N|From Barnil Stonepot.|
 T Chapter IV|QID|342|M|35.6,10.6|N|Takes pages 25, 26, and 27. To Barnil Stonepot.|
 T The Green Hills of Stranglethorn|QID|338|M|35.6,10.6|N|To Barnil Stonepot.|
-T Raptor Mastery |QID|196|M|35.6,10.6|N|To Hemet Nesingwary.|
-A Raptor Mastery |QID|197|PRE|196|M|35.6,10.6|N|From Hemet Nesingwary.|RANK|2|
-A Panther Mastery |QID|193|PRE|192|M|35.6,10.6|N|From S.J. Erlgadin. Part of an optional line. This cat is sometimes hard to find.|RANK|2|
-A Tiger Mastery |QID|188|PRE|187|M|35.6,10.6|N|From Ajeck Rouack.|RANK|2|
+T Raptor Mastery|QID|196|M|35.6,10.6|N|To Hemet Nesingwary.|
+A Raptor Mastery|QID|197|PRE|196|M|35.6,10.6|N|From Hemet Nesingwary.|RANK|2|
+A Panther Mastery|QID|193|PRE|192|M|35.6,10.6|N|From S.J. Erlgadin. Part of an optional line. This cat is sometimes hard to find.|RANK|2|
+A Tiger Mastery|QID|188|PRE|187|M|35.6,10.6|N|From Ajeck Rouack.|RANK|2|
 K Bhag'thera|ACTIVE|193|QO|1|M|48,28;46,28;48,20|CN|T|Bhagthera|N|Spawns at multiple places and wanders, stealthed.|
 K Tethis|ACTIVE|197|QO|1|M|28,43;31,40;31,43|CN|T|Tethis|N|Spawns at multiple points.|
 K Sin'dall|ACTIVE|188|QO|1|M|33,18|T|Sin'Dall|N|Spawns on top of this hill.|
-T Panther Mastery |QID|193|M|35.6,10.6|N|To S.J. Erlgadinback at Nesingwary's Expedition.|
-T Raptor Mastery |QID|197|M|35.6,10.6|N|To Hemet Nesingwary.|
-T Tiger Mastery |QID|188|M|35.6,10.6|N|To Ajeck Rouack.|
+T Panther Mastery|QID|193|M|35.6,10.6|N|To S.J. Erlgadinback at Nesingwary's Expedition.|
+T Raptor Mastery|QID|197|M|35.6,10.6|N|To Hemet Nesingwary.|
+T Tiger Mastery|QID|188|M|35.6,10.6|N|To Ajeck Rouack.|
 K King Bangalash|ACTIVE|208|QO|1|M|38,37|T|King Bangalash|N|Very difficult fight without a full group at this level.|
-T Bloodscalp Clan Heads|QID|584|M|32.27,2.6|N|Ride back to Grom'gol Base Camp. Right click on the Bubbling Cauldron next to Nimboya to turn in the quest.|
+T Bloodscalp Clan Heads|QID|584|M|32.27,2.6|N|Ride back to Grom'gol Base Camp. Right click on the Bubbling Cauldron next to Nimboya to The quest.|
 A Speaking with Nezzliok|QID|585|PRE|584|M|32.2,27.6|N|From the cauldron.|
 A Speaking with Gan'zulah|QID|586|PRE|584|M|32.2,27.6|N|You do know you're talking into a cauldron, right?|
 r Sell, repair, restock|ACTIVE|585|
@@ -233,7 +245,7 @@ H The Salty Sailor Tavern|QID|621|N|Booty Bay. Run there if your hearth isn't up
 A Zanzil's Secret|QID|621|M|27.1,77.2|N|From Crank Fizzlebub.|
 T Venture Company Mining|QID|600|N|This this quest in on the first floor of the inn.|M|27.1,77.2|
 T Skullsplitter Tusks|QID|209|N|This this in on the top floor of the inn.|
-A Voodoo Dues|QID|609|PRE|607|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
+A Voodoo Dues|QID|609|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|PRE|607|
 T Excelsior|QID|628|N|Use the top floor exit of the inn and head for the leather working shop to turn this in.|M|28.3,77.6|
 
 N Things to do|ACTIVE|608|N|Coming next, you will be killing pirates on 3 ships. While there, keep a sharp eye out for a rolled up scroll that can be about anywhere below deck. It starts Cortello's Riddle quest. Avoid fighting on the stairs or you may have multi floor agro.|
@@ -243,7 +255,7 @@ K Captain Keelhaul|ACTIVE|608|QO|2|M|29.3,88.4|T|Captain Keelhaul|N|Captain Keel
 N Cortello's Riddle|ACTIVE|608|L|4056|N|Search the lower levels of the ships until you find this.|
 
 R Mistvale Valley|QID|571|N|At|M|33,63|
-C Mok'thardin's Enchantment |QID|571|N|Kill gorillas until the Aged Gorilla Sinew drops.|M|31.6,67.3|
+C Mok'thardin's Enchantment|QID|571|N|Kill gorillas until the Aged Gorilla Sinew drops.|M|31.6,67.3|
 K JonJon The Crow|ACTIVE|609|QO|2|N|We're looking for JonJon The Crow . Clear the camp enough to pull him safely. We are also collecting Zanzil's Mixtures as we go.|M|34.88,51.90|
 K Maury Club-Foot Wilkins|ACTIVE|609|QO|1|N|Maury Club-Foot Wilkins is next, you may need to kill an add and run away, then come back to finish him off. We are also collecting Zanzil's Mixtures as we go.|M|35.22,51.19|
 R Ruins of Aboraz|QID|609|N|Go back south to then take the path to the east through a breached wall to the ruins (40,57).|M|34.10,54.08|
@@ -252,18 +264,18 @@ C Zanzil's Secret|QID|621|N|Keep killing Zanzil zombies until you get 12 Zanzil'
 R Crystalvein Mine|QID|589|N|Head back to the road and follow it north to where there's a path headed east into the jungle. Follow the path to a cave, clearing basilisks as you go.|M|37,49|
 C The Singing Crystals|QID|589|N|Head into the cave and kill Ironjaw Basilisks until you've looted 3 Pulsing Blue Shards.|M|42,50|
 T Zanzil's Secret|QID|621|N|Turn on on the first floor of the inn.|M|27.1,77.2|
-H Salty Sailor Tavern |ACTIVE|608|M|29.5,72.5|N|Ride back to Booty Bay|
-T The Bloodsail Buccaneers |QID|608|N|To Fleet-Master Seahorn. You've finished this quest line!|M|27.2,76.9|
-T Voodoo Dues|QID|609|N|Turn this quest into Sea Wolf MacKinley.|M|27.8,77.1|
+H Salty Sailor Tavern|ACTIVE|608|M|29.5,72.5|N|Ride back to Booty Bay|
+T The Bloodsail Buccaneers|QID|608|N|To Fleet-Master Seahorn. You've finished this quest line!|M|27.2,76.9|
+T Voodoo Dues|QID|609|N|Turn this quest into Sea Wolf MacKinley.|M|27.78,77.07|
 
 F Stonard|QID|1420|N|A quick trip to find a scroll under a bridge.|
 T Report to Helgrum|QID|1420|M|47.9,55.0|Z|Swamp of Sorrows|
-A Cortello's Riddle |QID|624|M|23,48|Z|Swamp of Sorrows|U|4056|N|From item in your bags.|
-T Cortello's Riddle |QID|624|M|23,48|Z|Swamp of Sorrows|N|Under an ornate bridge west of Stonard is a soggy scroll. Get it to start the next part of the quest line.|
-A Cortello's Riddle |QID|625|PRE|624|M|22.9,48.2|Z|Swamp of Sorrows|
+A Cortello's Riddle|QID|624|M|23,48|Z|Swamp of Sorrows|U|4056|N|From item in your bags.|
+T Cortello's Riddle|QID|624|M|23,48|Z|Swamp of Sorrows|N|Under an ornate bridge west of Stonard is a soggy scroll. Get it to start the next part of the quest line.|
+A Cortello's Riddle|QID|625|PRE|624|M|22.9,48.2|Z|Swamp of Sorrows|
 
 F Grom'gol Base Camp|QID|571|
-T Mok'thardin's Enchantment |QID|571|N|DON'T get the follow up.|M|32.1,29.2|
+T Mok'thardin's Enchantment|QID|571|N|DON'T get the follow up.|M|32.1,29.2|
 T The Singing Crystals|QID|589|N|DON'T get the follow up.|
 
 ;------002_43_44_Jame_Dustwallow_Marsh.lua--------------
@@ -285,8 +297,8 @@ R Stonemaul Ruins|ACTIVE|1166|M|40,67|Z|Dustwallow Marsh|N|After you have all th
 C Mok'Morokk's Snuff|QID|1166|QO|1|M|44.50,65.98|Z|Dustwallow Marsh|N|Head for the center of the fortress. That's where Mok'Morokk's snuff is. Keep killing whelps too.|
 K Deadmire|ACTIVE|1205|M|48,45;42,49|CN|Z|Dustwallow Marsh|T|Deadmire|N|Follow the river northeast to (48,45) then northwest to (42,49) until you find the crocolisk, Deadmire, then kill it and loot his tooth.|
 R Bloodfen Burrow|M|31.10,66.13|Z|Dustwallow Marsh|N|Continue killing everything as you head west towardsd Bloodfen Burrow.|
-T Cortello's Riddle |QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
-A Cortello's Riddle |QID|626|PRE|625|M|31.1,66.1|Z|Dustwallow Marsh|
+T Cortello's Riddle|QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
+A Cortello's Riddle|QID|626|PRE|625|M|31.1,66.1|Z|Dustwallow Marsh|
 C Identifying the Brood|QID|1169|M|41.8,73.3|Z|Dustwallow Marsh|US|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town .|
 C Army of the Black Dragon|QID|1168|M|45,63;48,75|CN|Z|Dustwallow Marsh|US|N|Find what ever dragonkin you still need to complete this quest.|
 T Overlord Mok'Morokk's Concern|QID|1166|M|36.3,31.4|Z|Dustwallow Marsh|N|To Overlord Mok'Morokk.(unless there is someone to partner with, skip the followup)|
@@ -327,7 +339,7 @@ R Thousand Needles|ACTIVE|1137|M|51.00,18.00|Z|Tanaris|N|Run north to Thousand N
 R Mirage Raceway|ACTIVE|1137|M|80,75|Z|Thousand Needles|N|Continue North to the Mirage Raceway.|
 T News for Fizzle|QID|1137|M|78.1,77.1|Z|Thousand Needles|N|To Fizzle Brassbolts.|
 A Gahz'rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
-; T Goblin Sponsorship |
+; T Goblin Sponsorship|
 A Keeping Pace|QID|1190|PRE|1137|M|80.2,75.9|Z|Thousand Needles|N|From Pozzik.|
 C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving. Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.|
 T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
@@ -357,9 +369,9 @@ t The Platinum Discs|QID|2440|N|Optional: If you've done this quest in Uldaman: 
 A Portents of Uldum|QID|2965|PRE|2440|M|34.6,47.2|Z|Thunder Bluff|
 T Portents of Uldum|QID|2965|M|75.6,31.2|Z|Thunder Bluff|N|To Nara Wildmane on Elder Rise and get the follow up.|
 A Seeing What Happens|QID|2966|M|75.6,31.2|Z|Thunder Bluff|N|From Nara Wildmane on Elder Rise.|
-F Orgrimmar|ACTIVE|3121|N|If you are a druid, you can train here, but you still need to go to Orgrimmar to turn in the quest.|
+F Orgrimmar|ACTIVE|3121|N|If you are a druid, you can train here, but you still need to go to Orgrimmar to The quest.|
 r Repair, Restock, Sell Junk|ACTIVE|2862|N|Don't forget to Train the new skills.|
-T A Strange Request|QID|3121|N|Find Neeru Fireblade in the Cleft of Shadows and turn in this quest.|M|77.0,37.2|Z|Orgrimmar|
+T A Strange Request|QID|3121|N|Find Neeru Fireblade in the Cleft of Shadows and This quest.|M|77.0,37.2|Z|Orgrimmar|
 A Return to Witch Doctor Uzer'i|QID|3122|PRE|3121|M|77.0,37.2|Z|Orgrimmar|
 H Camp Mojache|QID|3122|PRE|2965|N|Hearthstone to Camp Mojache.|
 T Return to Witch Doctor Uzer'i|QID|3122|N|After you turn this quest in, wait for him to do his little script and get the follow ups.|M|74.4,43.4|Z|Feralas|
@@ -372,13 +384,13 @@ T Alpha Strike|QID|2863|M|74.9,42.5|Z|Feralas|N|To Hadoken Swiftstrider back in 
 A Woodpaw Investigation|QID|2902|PRE|2863|M|74.9,42.5|Z|Feralas|N|From Hadoken Swiftstrider.|
 R Gordunni Outpost|QID|2987|M|77,35|Z|Feralas|N|Run up to the Ogre outpost north of camp .|
 C Gordunni Cobalt|QID|2987|U|9466|N|Here we will kill ogres, dig for cobalt, and hunt for the Gordunni Scroll which can spawn near or (80.8,35.0). Look for small blue lights/patches on the ground in the Orgre area north of camp, use the shovel there then open the mounds you uncover. Repeat until you find 12 Gordunni Cobalt.|M|75.2,28.7|Z|Feralas|
-C The Ogres of Feralas |QID|2975|M|75.2,28.7|Z|Feralas|N|Keep killing ogres and looking for the scroll.|
+C The Ogres of Feralas|QID|2975|M|75.2,28.7|Z|Feralas|N|Keep killing ogres and looking for the scroll.|
 A The Gordunni Scroll|QID|2978|U|9370|M|75,30;80.6,34.3|CN|Z|Feralas|N|Can spawn in multiple places.|
 C A New Cloak's Sheen|QID|2973|N|From the Ogre camp, cross the river and head southwest to and hunt Sprite Darters until you've found 10 Iridescent Sprite Darter Wings.|M|70,47|Z|Feralas|
-T Woodpaw Investigation|QID|2902|M|71.65,55.92|Z|Feralas|N|Head back to the gnoll area) and look for the Woodpaw Battle Map (a scroll on a crate). Click on the scroll to turn in this quest and get the follow up.|
+T Woodpaw Investigation|QID|2902|M|71.65,55.92|Z|Feralas|N|Head back to the gnoll area) and look for the Woodpaw Battle Map (a scroll on a crate). Click on the scroll to This quest and get the follow up.|
 A The Battle Plans|QID|2903|PRE|2902|M|71.6,55.9|Z|Feralas|N|From the Woodpaw Battle Map.|
-T The Ogres of Feralas |QID|2975|N|Head back to camp to turn in a bunch of quests.|M|75.9,43.6|Z|Feralas|
-A The Ogres of Feralas |QID|2980|PRE|2975|N|Get the follow up.|M|75.9,43.6|Z|Feralas|
+T The Ogres of Feralas|QID|2975|N|Head back to camp to turn in a bunch of quests.|M|75.9,43.6|Z|Feralas|
+A The Ogres of Feralas|QID|2980|PRE|2975|N|Get the follow up.|M|75.9,43.6|Z|Feralas|
 T The Gordunni Scroll|QID|2978|M|75.9,43.6|Z|Feralas|
 A Dark Ceremony|QID|2979|PRE|2978|N|Get the follow up.|M|75.9,43.6|Z|Feralas|
 T Gordunni Cobalt|QID|2987|M|75.7,44.3|Z|Feralas|
@@ -386,15 +398,15 @@ T The Battle Plans|QID|2903|M|74.9,42.5|Z|Feralas|
 A Zukk'ash Infestation|QID|7730|PRE|2903|M|74.9,42.5|Z|Feralas|
 A Stinglasher|QID|7731|PRE|2903|M|74.9,42.5|Z|Feralas|
 T A New Cloak's Sheen|QID|2973|M|75.9,42.7|Z|Feralas|
-A A Grim Discovery |QID|2974|PRE|2973|M|75.9,42.7|Z|Feralas|
+A A Grim Discovery|QID|2974|PRE|2973|M|75.9,42.7|Z|Feralas|
 r Restock, Repair, Sell Junk|ACTIVE|7731|N|Get ready for another circuit of quests.|
 R The Writhing Deep|QID|7731|N|Bug hunt! Head to Writhing Deep . Kill any wandering treants on the way.|M|75,60|Z|Feralas|
 C Stinglasher|QID|7731|N|Go to the eastern cave entrance and you should find Stinglasher there roaming in and out of the entrance. Kill other insects in the area for the Zukk'Ash carapaces too.|M|75.81,60.92|Z|Feralas|
 C Zukk'ash Infestation|QID|7730|N|Keep killing insects until you have 20 Zukk'Ash carapaces.|M|72.8,62.8|Z|Feralas|
 R Grimtotem Compound|QID|2974|N|Ride back north across the road (killing and looting any wandering treants you see) to the Grimtotem Village.|M|69.50,42.00|Z|Feralas|
-C A Grim Discovery |QID|2974|N|Kill grimtotems until you've collected 20 Grimtotem Horns.|M|69.6,47.7|Z|Feralas|
+C A Grim Discovery|QID|2974|N|Kill grimtotems until you've collected 20 Grimtotem Horns.|M|69.6,47.7|Z|Feralas|
 R Ruins of Isildien|QID|2980|N|Ride back to the road then follow it west to the Ruins of Isildien to kill more orgres.|M|62.00,54.00|Z|Feralas|
-C The Ogres of Feralas |QID|2980|N|You are going to be hunting Maulers, Warlocks, and Shamans and to get the Shamans, you'll have to head south go the big temple at . Once there kill Gordunni Mage-Lords too until one of them drops a Gordunni Orb which starts a quest.|M|59,73|Z|Feralas|
+C The Ogres of Feralas|QID|2980|N|You are going to be hunting Maulers, Warlocks, and Shamans and to get the Shamans, you'll have to head south go the big temple at . Once there kill Gordunni Mage-Lords too until one of them drops a Gordunni Orb which starts a quest.|M|59,73|Z|Feralas|
 C Dark Ceremony|QID|2979|M|59.5,68.4|Z|Feralas|N|Kill Gordunni Mage-Lords until you find a Gordunni Orb.|
 A The Gordunni Orb|QID|3002|PRE|2979|M|75.9,43.6|Z|Feralas|
 R Feral Scar Vale|QID|2822|M|55,56|Z|Feralas|N|Ride to the Ferak Scar Vale where the Yeti Cave is.|
@@ -411,10 +423,10 @@ A Improved Quality|QID|7734|PRE|2822|M|74.4,42.9|Z|Feralas|
 T Zukk'ash Infestation|QID|7730|M|74.9,42.5|Z|Feralas|
 T Stinglasher|QID|7731|M|74.9,42.5|Z|Feralas|
 A Zukk'ash Report|QID|7732|M|74.9,42.5|Z|Feralas|
-T The Ogres of Feralas |QID|2980|M|75.9,43.6|Z|Feralas|
+T The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|Feralas|
 T Dark Ceremony|QID|2979|M|75.9,43.6|Z|Feralas|
-T A Grim Discovery |QID|2974|M|75.9,42.7|Z|Feralas|
-A A Grim Discovery |QID|2976|PRE|2974|M|75.9,42.7|Z|Feralas|
+T A Grim Discovery|QID|2974|M|75.9,42.7|Z|Feralas|
+A A Grim Discovery|QID|2976|PRE|2974|M|75.9,42.7|Z|Feralas|
 L Level Check|LVL|47|ACTIVE|3002|N|If you aren't 47, go grind at teh sprite darters or Grimtotems.|
 
 ;--------002_47_48_Jame_Tanaris.lua---------------------------
@@ -444,7 +456,7 @@ A The Prophecy of Mosh'aru|QID|3527|PRE|3520|M|67.0,22.4|Z|Tanaris|N|From Yeh'ki
 H Gadgetzan|ACTIVE|1691|M|52.50,27.90|Z|Tanaris|N|Run if your hearth isn't available.|
 T More Wastewander Justice|QID|1691|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 T WANTED: Caliph Scorpidsting|QID|2781|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-t Water Pouch Bounty|QID|1707|M|52.4,28.4|Z|Tanaris|N|Turn in to Spigot Operator Luglunket as many times as you can.|
+t Water Pouch Bounty|QID|1707|M|52.4,28.4|Z|Tanaris|N|To Spigot Operator Luglunket as many times as you can.|
 A Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 A The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|
 A The Dunemaul Compound|QID|5863|M|52.8,27.4|Z|Tanaris|N|From Andi Lynn.|
@@ -496,18 +508,18 @@ T Zukk'ash Report|QID|7732|M|56.2,46.7|Z|Orgrimmar|N|To the upper level of the d
 
 ;------------002_48_50_Jame_Hinterlands.lua------------------
 
-A Ripple Recovery |QID|649|M|59.5,36.8|Z|Orgrimmar|N|Get this quest from Dran Droffers at Droffers and Son Salvage on the drag near the valley of honor.|
-T Ripple Recovery |QID|649|M|59.5,36.8|Z|Orgrimmar|N|Turn around and turn this into Malton Droffers standing next to you.|
-A Ripple Recovery |QID|650|PRE|649|M|59.5,36.8|Z|Orgrimmar|N|From Malton Doffers.|
+A Ripple Recovery|QID|649|M|59.5,36.8|Z|Orgrimmar|N|Get this quest from Dran Droffers at Droffers and Son Salvage on the drag near the valley of honor.|
+T Ripple Recovery|QID|649|M|59.5,36.8|Z|Orgrimmar|N|Turn around and turn this into Malton Droffers standing next to you.|
+A Ripple Recovery|QID|650|PRE|649|M|59.5,36.8|Z|Orgrimmar|N|From Malton Doffers.|
 b Tirisfal Glades|ACTIVE|650|M|50.8,13.6|Z|Durotar|N|Take the Zeppelin to the Undercity.|
 A Lines of Communication|QID|2995|M|73.0,32.9|Z|Undercity|N|From Oran Snakewrithe in/near the Mage Quarter.|
 F Tarren Mill|ACTIVE|650|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
 R The Hinterlands|QID|650|Z|Hillsbrad Foothills|M|84,32|N|Ride southeast to the pass which leads to the Hinterlands.|
-T Ripple Recovery |QID|650|M|20.2,48.3;26.7,48.6|CS|Z|The Hinterlands|N|To Gilveradin Sunchaser.|
+T Ripple Recovery|QID|650|M|20.2,48.3;26.7,48.6|CS|Z|The Hinterlands|N|To Gilveradin Sunchaser.|
 A A Sticky Situation|QID|77|PRE|650|M|26.7,48.6|Z|The Hinterlands|N|From Gilveradin Sunchaser.|
 C Testing the Vessel|QID|3123|U|9618|N|Kill owlbeasts and use the Muisek Vessel on their bodies until you collect 10 muisek.|
 R The Overlook Cliffs|ACTIVE|626|M|80.8,46.8|Z|The Hinterlands|N|Continue to the waterfall. There is a path, at 70,63 but it's faster to jump... assuming you land in the water.|
-T Cortello's Riddle |QID|626|M|80.81,46.79|Z|The Hinterlands|N|Once there, jump down into the water (don't miss!), dive down, and find Cortell's Chest and collect your prize.|
+T Cortello's Riddle|QID|626|M|80.81,46.79|Z|The Hinterlands|N|Once there, jump down into the water (don't miss!), dive down, and find Cortell's Chest and collect your prize.|
 C Whiskey Slim's Lost Grog|QID|580|M|77,77|Z|The Hinterlands|N|Start running south along the water towards Revantusk Village and watch for blue bottles to collect. Go until you have 12.|
 R Revantusk Village|ACTIVE|580|M|77,77|Z|The Hinterlands|N|Ride to Revantusk Village.|
 f Revantusk Village|ACTIVE|580|N|Get the Revantusk Village flight path .|M|81.69,81.78|Z|The Hinterlands|
@@ -557,7 +569,7 @@ A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|The Hinterlands|N|From OOX-09/HL.|PR
 C Rescue OOX-09/HL!|QID|836|N|Let the chicken lead the way, so he will stop when agro. It can be very difficult to solo. Ask the zone if anyone wants to do it with you. There are 2 preset ambushes. Abandon if you are having too many difficulties.|
 R The Overlook Cliffs|ACTIVE|2742|M|80,48|Z|The Hinterlands|N|Ride to the Waterfall and jump down again.|
 C Lard Lost His Lunch|QID|7840|M|84,41|Z|The Hinterlands|N|Swim out to a small island. Somewhere on the island you should find Lard's Picnic Basket . When you click the basket, 2 level 49 trolls will spawn. You don't have to kill both, just one is enough, they can all drop Lard's Lunch.|
-T Rin'ji is Trapped!|QID|2742|N|Swim south back to the main land, after a little walk you should see another isle off shore, with a stone arch on top of it . Right click on the big tablet on the peak of the island to turn in this quest.|M|86,59|Z|The Hinterlands|
+T Rin'ji is Trapped!|QID|2742|N|Swim south back to the main land, after a little walk you should see another isle off shore, with a stone arch on top of it . Right click on the big tablet on the peak of the island to This quest.|M|86,59|Z|The Hinterlands|
 A Rin'ji's Secret|QID|2782|PRE|2742|M|86.3,59.0|Z|The Hinterlands|
 R Revantusk Village|QID|7839|M|77,77|Z|The Hinterlands|N|Swim to shore and ride back to Revantusk Village.|
 T Vilebranch Hooligans|QID|7839|M|77.5,80.3|Z|The Hinterlands|
@@ -586,7 +598,7 @@ A Recover the Key!|QID|7846|PRE|7845|RANK|2|
 C Recover the Key!|QID|7846|M|57.5,86.5|Z|The Hinterlands|N|Now comes a rather difficult part, if you are confident that you can handle 3 mobs alone you can proceed solo, if you think you’d have difficulties, try to group up with someone. Go inside the tunnel behind the altar and fight your way through to the southernmost tip of the tunnel structure . There you should see Hitah’Ya the Keeper patrolling with two guards. Get full mana/hp. The trick here is to use crowd control (if you have, like ice trap, sheep, sap) and at the same time burn down Hitah’Ya as fast as possible (she has very little HP). Also pop your cooldown skills to burn down one of the guards as fast as possible. Once that is done you just need to deal with the other guard. Loot Hitah’Yah.|RANK|2|
 C The Ancient Egg|QID|4787|N|If you took the quest [51] The Ancient Egg, don't forget to get the egg off the pedestal in the center of the room Hitah'Ya the Keeper was in.|RANK|2|
 C Wanted: Vile Priestess Hexx and Her Minions|QID|7861|M|59,78|Z|The Hinterlands|N|Kill the Priestess if you haven't already, and any guards you still need.|RANK|2|
-T Recover the Key!|QID|7846|M|59,78|Z|The Hinterlands|N|Go back to the altar and turn in the quest.|RANK|2|
+T Recover the Key!|QID|7846|M|59,78|Z|The Hinterlands|N|Go back to the altar and The quest.|RANK|2|
 A Return to Primal Torntusk|QID|7847|PRE|7846|M|59,78|Z|The Hinterlands|RANK|2|
 C Dark Vessels|QID|7850|N|Finish getting any Vessels of Tainted Blood you still need, while killing any Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters you still need.|RANK|2|
 C Job Opening: Guard Captain of Revantusk Village|QID|7862|N|Finish killing Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters.|RANK|2|
@@ -616,17 +628,17 @@ T Delivery for Marin|QID|2661|M|51.8,28.6|Z|Tanaris|N|To Marin Noggenfogger.|
 A Noggenfogger Elixir|QID|2662|PRE|2661|M|51.8,28.6|Z|Tanaris|N|From Marin Noggenfogger.|
 T Noggenfogger Elixir|QID|2662|M|51.8,28.6|Z|Tanaris|N|Wait 5 seconds and turn this in to Marin.|
 A Find OOX-17/TN!|QID|351|U|8623|N|If you found the Distress Beacon for Tanaris, do the escort. If you don't skip this for now.|
-t Find OOX-17/TN!|QID|351|N|Find the chicken at , turn in the quest and accept the follow-up.|M|60.2,64.7|Z|Tanaris|
+t Find OOX-17/TN!|QID|351|N|Find the chicken at , The quest and accept the follow-up.|M|60.2,64.7|Z|Tanaris|
 A Rescue OOX-17/TN!|QID|648|PRE|351|N|At|M|60.2,64.7|Z|Tanaris|
 C Rescue OOX-17/TN!|QID|648|N|Let the chicken in front, let him get hit first. Sometimes mobs will aggro him but not manage to hit him while he walks and they will just give up. The first part of the escort is the hardest as you will run into lvl 46-47 mobs. And at some point you will get an ambush of 3 level 46 scorpions. Use your long cooldown abilities there. After this, it gets easier. Later on you will get a 2nd ambush, 3 humanoids lvl 42 (green). One will be a shadow mage though, kill it first.|
 R The Gaping Chasm|ACTIVE|10|M|56,61|Z|Tanaris|N|Ride to the Gaping Chasm|
 C The Scrimshank Redemption|QID|10|M|55.65,70.25;55.78,68.90;56.52,68.64;57.57,70.55;57.57,71.39;55.95,71.12|CS|Z|Tanaris|N|Find the entrance spiralling down at first waypoint. Take the 2nd tunnel you see when going down the spiral, the one going north. At the first fork, inside the tunnel go right and then through the circular room. At the first fork, after the circular room go right. You will enter a big square room. The Scrimshank's Surveying Gear is at the western corner of the square room.|
 H Gadgetzan|ACTIVE|10|N|Hearth (or Ride) back to Gadgetzan.|
 T The Scrimshank Redemption|QID|10|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
-A Insect Part Analysis |QID|110|PRE|10|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
-T Insect Part Analysis |QID|110|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
-A Insect Part Analysis |QID|113|PRE|110|M|50.9,27.0|Z|Tanaris|N|From Alchemist Pestlezugg.|
-T Insect Part Analysis |QID|113|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
+A Insect Part Analysis|QID|110|PRE|10|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
+T Insect Part Analysis|QID|110|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
+A Insect Part Analysis|QID|113|PRE|110|M|50.9,27.0|Z|Tanaris|N|From Alchemist Pestlezugg.|
+T Insect Part Analysis|QID|113|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
 A Rise of the Silithid|QID|32|PRE|113|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 
 ;----------------002_51_52_Jame_Feralas.lua--------------------------
@@ -687,11 +699,11 @@ h Orgrimmar|ACTIVE|32|
 T Rise of the Silithid|QID|32|N|Go left immediately after entering the Drag.|M|56.5,46.5|Z|Orgrimmar|
 A March of the Silithid|QID|4494|M|56.5,46.5|Z|Orgrimmar|N|Zilzibin Drumlore.|
 T Ripple Delivery|QID|81|M|59.5,36.8|Z|Orgrimmar|N|To Dran Droffers in The Drag.|
-T A Grim Discovery |QID|2976|M|75.2,34.2|Z|Orgrimmar|N|To Belgrom Rockmaul in the Valley of Honor.|
+T A Grim Discovery|QID|2976|M|75.2,34.2|Z|Orgrimmar|N|To Belgrom Rockmaul in the Valley of Honor.|
 A Betrayed|QID|3504|M|75.2,34.2|Z|Orgrimmar|N|To Belgrom Rockmaul.|
 F Ratchet|ACTIVE|2874|M|45.2,63.8|Z|Orgrimmar|N|At Doras, Wind Rider Master.|
 b Booty Bay|ACTIVE|2874|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.60,38.60|
-T Deliver to MacKinley|QID|2874|N|To "Sea Wolf" MacKinley, near the inn.|M|27.8,77.1|
+T Deliver to MacKinley|QID|2874|N|To "Sea Wolf" MacKinley, near the inn.|M|27.78,77.07|
 t Rescue OOX-22/FE!|QID|2767|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
 t Rescue OOX-09/HL!|QID|836|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
 t Rescue OOX-17/TN!|QID|648|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
@@ -707,7 +719,7 @@ A Snickerfang Jowls|QID|2581|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. G
 A The Basilisk's Bite|QID|2601|M|50,14|Z|Blasted Lands|N|From Bloodmage Lynnore. Gives +25 Intellect for 1 hour when turned in.|
 A The Decisive Striker|QID|2585|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Agility for 1 hour when turned in.|
 A Vulture's Vigor|QID|2603|M|50,14|Z|Blasted Lands|N|From Bloodmage Lynnore.|
-C Kill animals|QID|2581&2583&2585&2601&2603|M|44.8,29.7;54.7,36.5;60.1,27.7;50.6,15.1|CN|Z|Blasted Lands|N|Kill in the area roughly bounded by the waypoints to collect the various parts. Be strategic about turning in as each one gives a 1 hour, Non Stacking buff, so don't turn in two at the same time that give you useful stats.|
+C Kill animals|QID|2581&2583&2585&2601&2603|M|44.8,29.7;54.7,36.5;60.1,27.7;50.6,15.1|CN|Z|Blasted Lands|N|Kill in the area roughly bounded by the waypoints to collect the various parts. Be strategic about turning in as each one gives a 1 hour, non-stacking buff, so don't turn in two at the same time that give you useful stats.|
 T Quests to the Bloodmages|QID|2581&2583&2585&2601&2603|M|50,14|Z|Blasted Lands|N|Turn them in, in the order you choose to maximize the buffs. Don't get the followups unless you are having lots of fun here. They are repeatable, so it's not a bad place to grind and get a buff.|
 A Everything Counts In Large Amounts|QID|3501|M|51,35|Z|Blasted Lands|N|If you get any Draenethyst Fragments, go here to turn in, its a pretty rare drop, dont try to farm for it. check off manually if you didnt find any.|
 L Level Check|LVL|51|N|You should be level 51, if not stay and grind here abit.|
@@ -728,25 +740,25 @@ L Level Check|LVL|51|N|You should be level 51, if not stay and grind here abit.|
 ;T Cracking Maury's Foot|QID|613|N|Fly to Booty Bay and turn the key into Sea Wolf KcKinley.|
 ;A Whiskey Slim's Lost Grog|QID|580|M|27.1,77.4|
 ;C Saving Yenniku|QID|592|U|3912|N|Find Yenniku in the Ruins of Aboraz then (39.1, 58.3) and use the Soul Gem on him to stun him then talk to him to fill the gem up.|M|34.10,54.08|
-;T Saving Yenniku|QID|592|N|Ride back to Grom'gol and turn in the quest.|
+;T Saving Yenniku|QID|592|N|Ride back to Grom'gol and The quest.|
 
 
 
 ;T Keep An Eye Out|QID|576|M|28.6,75.9|N|To Dizzy One-Eye.|;;
 ;R Wild Shore|QID|594|L|4098|N|Ride to Wild Shore - just east of the entrance to Booty Bay - and comb the beach for a bottle containing a "Carefully Folded Note".|M|34.3,73.8|
-;A Message in a Bottle |QID|594|U|4098|N|Comb the beach for a bottle containing a "Carefully Folded Note".|M|35.1,72.9|
-;T Message in a Bottle |QID|594|N|Swim to the large island across from the beach (Jaguero Isle) to find the princess.|M|38.5,80.6|
-;A Message in a Bottle |QID|630|M|38.5,80.6|
-;C Message in a Bottle |QID|630|N|Slay King Mukla who's on the southeast side of the island to get the key .|M|40.8,83.3|
-;T Message in a Bottle |QID|630|M|38.5,80.6|
+;A Message in a Bottle|QID|594|U|4098|N|Comb the beach for a bottle containing a "Carefully Folded Note".|M|35.1,72.9|
+;T Message in a Bottle|QID|594|N|Swim to the large island across from the beach (Jaguero Isle) to find the princess.|M|38.5,80.6|
+;A Message in a Bottle|QID|630|M|38.5,80.6|
+;C Message in a Bottle|QID|630|N|Slay King Mukla who's on the southeast side of the island to get the key .|M|40.8,83.3|
+;T Message in a Bottle|QID|630|M|38.5,80.6|
 
 
 ;----002_45_46_Jame_Tanaris.lua---------------
 ;b Tirisfal Glades|QID|232|N|Take the zepplin to the Undercity (the landing is in Tirisfal Glades)|
-;A Errand for Apothecary Zinge |QID|232|N|Ride/run to the Apothecarium and get [45] Errand for Apothecary Zinge from Apothecary Zinge.|M|49.9,68.4|Z|Undercity|
-;T Errand for Apothecary Zinge |QID|232|N|Head up to the inner circle just on the other side of the slime from the Apothecarium and find Alessandro Luca to turn in the quest and get the followup.|M|58.00,55.00|Z|Undercity|
-;A Errand for Apothecary Zinge |QID|238|M|58.6,54.7|Z|Undercity|
-;T Errand for Apothecary Zinge |QID|238|N|Head back to Zinge and turn this in and get the follow up.|M|49.9,68.4|Z|Undercity|
+;A Errand for Apothecary Zinge|QID|232|N|Ride/run to the Apothecarium and get [45] Errand for Apothecary Zinge from Apothecary Zinge.|M|49.9,68.4|Z|Undercity|
+;T Errand for Apothecary Zinge|QID|232|N|Head up to the inner circle just on the other side of the slime from the Apothecarium and find Alessandro Luca to turn in the quest and get the followup.|M|58.00,55.00|Z|Undercity|
+;A Errand for Apothecary Zinge|QID|238|M|58.6,54.7|Z|Undercity|
+;T Errand for Apothecary Zinge|QID|238|N|Head back to Zinge and turn this in and get the follow up.|M|49.9,68.4|Z|Undercity|
 ;A Into the Field|QID|243|M|49.9,68.4|Z|Undercity|
 
 
