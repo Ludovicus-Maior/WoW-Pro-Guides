@@ -178,7 +178,7 @@ A Up to Snuff|QID|587|M|26.92,77.35|N|From Deeg at the top of the inn.|PRE|595|
 T The Bloodsail Buccaneers|QID|599|M|27.18,77.01|N|To Fleet Master Seahorn on the balcony at the top of the Tavern .|
 A The Bloodsail Buccaneers|QID|604|M|27.2,76.9|N|From Fleet Master Seahorn.|PRE|599|
 T Akiris by the Bundle|QID|617|M|26.76,76.38|N|To Privateer Bloads.|
-A Keep An Eye Out|QID|576|PM|28.6,75.9|N|Get this quest from Dizzy who is on the upper level boardwalk by the last building before you reach the forge as you go towards the exit or the first building past the forge if heading towards the inn.|RE|595|
+A Keep An Eye Out|QID|576|M|28.6,75.9|N|Get this quest from Dizzy who is on the upper level boardwalk by the last building before you reach the forge as you go towards the exit or the first building past the forge if heading towards the inn.|PRE|595|
 C Keep An Eye Out|QID|576|M|31.9,78.6|N|Head out of Booty Bay and turn right. Any swashbuckler can drop the eye.|S!US|
 C The Bloodsail Buccaneers|QID|604|M|29.6,80.9;27,82;33,88|CN|N|Check two camps and the boat (3 waypoints) for the Orders and Charts. Kill any remaining swashbucklers you need, while looting snuff.|
 C Up to Snuff|QID|587|M|33.0,75.0|N|Snuff can be found on any Bloodsail Buccaneers in the area.|
