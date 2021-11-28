@@ -145,21 +145,19 @@ T Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|To Dar.|
 F Booty Bay|AVAILABLE|2864|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|
 A Tran'rek|QID|2864|M|26.94,77.21|N|From Krazek on the top floor of the Tavern.|
 A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub by the bar on the first floor of the Tavern.|PRE|605|
-h Booty Bay|ACTIVE|600|M|27.04,77.31|N|Set your hearthstone to Booty Bay.|
+h Booty Bay|AVAILABLE|617|M|27.04,77.31|N|Set your hearthstone to Booty Bay.|
 A Akiris by the Bundle|QID|617|M|26.76,76.38|N|From Brivateer Bloads in front of the bank.\n[color=FF0000]NOTE: [/color]If he's not here, check at the top of the ramp. He paths up there every so often.|
-N Bank|ACTIVE|617|M|26.56,76.50|N|Make sure you grab any items that you put away when you left the area earlier.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
-N Auctioneer O'reely|ACTIVE|338|M|26.59,76.35|N|Check the auction house for any Stranglethorn pages you are missing while you are here.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
 A Scaring Shaky|QID|606|M|27.78,77.07|N|From "Sea Wolf" MacKinley|
 A Stoley's Debt|QID|2872|M|27.78,77.07|N|From "Sea Wolf" MacKinley|
 A Stranglethorn Fever|QID|348|M|27.61,76.73|N|From Fin Fizracket who is under the broken boat.|RANK|2|
 A The Bloodsail Buccaneers|QID|595|M|28.10,76.22|N|From First Mate Crazz.|
-R The Cape of Stranglethorn|ACTIVE|595|M|29.41,72.73|N|Head up the stairs and through the tunnel to the other side.|
+R The Cape of Stranglethorn|ACTIVE|595|M|29.41,72.73|N|Head up the stairs and through the tunnel to the other side.|IZ|Booty Bay|
 R Southern Savage Coast|ACTIVE|595|M|27.99,70.04|N|Turn and head west down the hill to the bottom.|
 T The Bloodsail Buccaneers|QID|595|M|27.28,69.52|N|After clearing the camp of all Bloodsails, locate the Bloodsail Correspondence on the barrel and click on it.|
 A The Bloodsail Buccaneers|QID|597|M|27.28,69.52|N|From Bloodsail Correspondence.|PRE|595|
 C Akiris by the Bundle|QID|617|M|25.85,60.85|L|4029 10|N|Kill Nagas for the reeds.\n[color=FF0000]NOTE: [/color]Work your way around the island and then up the path when you get to the other side.\n[color=FF0000]NOTE: [/color]The path upwards will branch off into 2 areas. at the end of the first branch, you can either go down the hill and come back around or go up the hill to the 2nd branch and follow it back down.|
 C Scaring Shaky|QID|606|M|33.53,64.82|L|3919 5|N|Dropped from Elder Mistvale Gorillas.|S|
-C Mok'thardin's Enchantment|QID|572|M|33.53,64.82|L|3862|N|Dropped from Elder Mistvale Gorillas.\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|S|
+C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|L|3862|N|Dropped from Elder Mistvale Gorillas.\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|S|
 l Gorilla Fang|ACTIVE|348|M|31.67,60.14|CC|L|2799|N|These are dropped by any Gorilla in STV.\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|S|
 R Mistvale Valley|ACTIVE|348|M|33.19,62.69|N|Head west over the 2 bridges towards the road. The entrance is west of the road.|
 l Gorilla Fang|ACTIVE|348|M|33.29,63.39|L|2799|N|These are dropped by any Gorilla in STV.\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|US|
@@ -176,33 +174,39 @@ T Stranglethorn Fever|QID|348|M|27.61,76.73|N|To Fin Fitzracket.|
 T Return to MacKinley|QID|607|M|27.78,77.07|N|To "Sea Wolf" MacKinley.\n[color=FF0000]NOTE: [/color]Don't pick up the follow-up yet.|
 A Up to Snuff|QID|587|M|26.92,77.35|N|From Deeg at the top of the inn.|PRE|595|
 T The Bloodsail Buccaneers|QID|599|M|27.18,77.01|N|To Fleet Master Seahorn on the balcony at the top of the Tavern .|
-A The Bloodsail Buccaneers|QID|604|M|27.2,76.9|N|From Fleet Master Seahorn.|PRE|599|
+A The Bloodsail Buccaneers|QID|604|M|27.18,77.01|N|From Fleet Master Seahorn.|PRE|599|
 T Akiris by the Bundle|QID|617|M|26.76,76.38|N|To Privateer Bloads.\n[color=FF0000]NOTE: [/color]If he's not here, check at the top of the ramp. He paths up there every so often.|
 A Keep An Eye Out|QID|576|M|28.2,76.3;28.59,75.90|CC|N|From Dizzy One-Eye.\n[color=FF0000]NOTE: [/color]He is on the second level, in the corner just to the south of the Booty Bay Blacksmith.|PRE|595|
-C Keep An Eye Out|QID|576|M|31.9,78.6|L|3897|N|Kill The Bloodsail Buccaneers to loot the Eye.|S!US|
-R The Cape of Stranglethorn|ACTIVE|604|M|29.41,72.73|N|Head up the stairs and through the tunnel to the other side.|
+C Keep An Eye Out|QID|576|M|31.24,80.69|L|3897|N|Kill The Bloodsail Buccaneers to loot the Eye.|S!US|
+R The Cape of Stranglethorn|ACTIVE|604|M|29.41,72.73|N|Head up the stairs and through the tunnel to the other side.|IZ|Booty Bay|
 C Up to Snuff|QID|587|M|31.24,80.69|L|3910 15|N|Kill Bloodsail Buccaneers to loot the Snuff.|S|
 R Wild Shore|ACTIVE|604|M|32.53,72.89|N|Head east down the hill towards the water.|
 K Bloodsail Swashbucklers|ACTIVE|604|M|30.24,81.14|CN|QO|1|N|Kill Swashbucklers in the area.|T|Bloodsail Swashbuckler|S|
 K The Bloodsail Buccaneers|ACTIVE|604|M|29.58,80.84;27.74,83.13;27.15,82.69|CS|QO|2;3|N|Check the two camps and the boat (3 waypoints) for the Orders and Charts.| ; Hendo72 - Using CS because CN provides no forward motion.
-K Bloodsail Swashbucklers|ACTIVE|604|M|30.24,81.14|CN|QO|1|N|Kill Swashbucklers in the area.|US|
-C Up to Snuff|QID|587|M|33.0,75.0|N|Snuff can be found on any Bloodsail Buccaneer in the area.|US|
+K Bloodsail Swashbucklers|ACTIVE|604|M|30.24,81.14|QO|1|N|Finish Killing Swashbucklers in the area.|US|
+C Up to Snuff|QID|587|M|31.24,80.69|L|3910 15|N|Finish collecting the Snuff.|US|
 R Booty Bay|ACTIVE|604|M|29.34,72.83|
-T The Bloodsail Buccaneers|QID|604|M|27.2,76.9|N|To Fleet Master Seahorn. (followup can be difficult to solo)|
-A The Bloodsail Buccaneers|QID|608|M|27.2,76.9|GROUP|2|N|From Fleet Master Seahorn.|PRE|604|
+t Keep An Eye Out|QID|576|M|28.59,75.90|N|To Dizzy One-Eye.|IZ|Booty Bay|
+T The Bloodsail Buccaneers|QID|604|M|27.18,77.01|N|To Fleet Master Seahorn.|
+A The Bloodsail Buccaneers.|QID|608|M|27.18,77.01|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Fleet Master Seahorn.\n[color=FF0000]NOTE: [/color]Manually Accept or Decline this step to continue.|PRE|604| ; -- Breaking Auto-accept - Hendo72
 T Up to Snuff|QID|587|M|26.92,77.35|N|To Deeg.|
-A Skullsplitter Tusks|QID|209|M|27,77.2|N|From Kebok.|PRE|189|
-N LAST CHANCE - Stranglethorn Pages|QID|338|N|LAST CHANCE to check the AH for pages. Pages are 1,4,6,8; 10,11,14,16; 18,20,21,24; and 25,26,27.|
-C Venture Company Mining|QID|600|M|41.7,42.9|N|Kill goblins around for their crystals.|
-C Raptor Mastery|QID|196|M|34,37|N|Jungle raptors are just across the road from the miners. Keep the Jungle Stalker Feathers you find too.|
-C Mok'thardin's Enchantment|QID|572|M|33,39|N|Keep killing raptors until you find 10 Jungle Stalker Feathers.|
-T Mok'thardin's Enchantment|QID|572|M|32.1,29.2|N|To Far Seer Mok'thardin, at Grom'gol.|
-A Mok'thardin's Enchantment|QID|571|M|32.1,29.2|N|From Far Seer Mok'thardin.|PRE|572|
+A Skullsplitter Tusks|QID|209|M|27.00,77.13|N|From Kebok.|PRE|189|
+N Bank|ACTIVE|617|M|26.56,76.50|N|Make sure you grab any items that you put away when you left the area earlier.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
+N Auctioneer O'reely|AVAILABLE|339^340^341^342|M|26.59,76.35|N|Check the auction house for any Stranglethorn pages you are missing while you are here.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
+R The Cape of Stranglethorn|ACTIVE|600^572^196|M|29.41,72.73|N|Head up the stairs and through the tunnel to the other side.|IZ|Booty Bay|
+R Gurubashi Arena|ACTIVE|600^572^196|M|33.46,55.48|N|Follow the road north.|IZ|Cape of Stranglethorn|
+C Venture Company Mining|QID|600|M|40.5,43.1;41.20,43.58|CC|L|3917 10|N|Go right at the fork and continue following the road north.\nKill goblins to loot the crystals.|
+C Raptor Mastery|QID|197|M|31.87,41.49|N|Head west across the road and to the north side of Gurubashi Arena.\nLook for the Blue Raptor amongst the other Jungle Stalkers.|T|Tethis|
+R Grom'gol Base Camp|ACTIVE|571|M|32.87,28.73|
+T Mok'thardin's Enchantment|QID|571|M|32.12,29.24|N|To Far Seer Mok'thardin.|
+A Mok'thardin's Enchantment|QID|573|M|32.12,29.24|N|From Far Seer Mok'thardin.|PRE|571|
 C Excelsior|QID|628|M|29.2,22.4|N|Find an elder crocolisk just outside of Grom'gol and kill it.|
-K Nezzliok|ACTIVE|584|M|21,11;23,9|CS|QO|2|N|Follow the left wall to where they are standing together. Clear the area to avoid extras.|T|Nezzliok|
-K Gan'zulah|ACTIVE|584|M|23,7|QO|1|N|He might be just a bit farther north if he wasnt right there.|T|Gan'zulah|
+R Grom'gol Base Camp|ACTIVE|628|M|32.87,28.73|N|Return to Grom'gol BAse Camp.|
 
-R Nesingwary Expedition|ACTIVE|196|M|36,10|N|Time to turn in your hunting trophies.|
+K Nezzliok|ACTIVE|584|M|21,11;23,9|CS|QO|2|N|Follow the left wall to where they are standing together. Clear the area to avoid extras.|T|Nezzliok|
+K Gan'zulah|ACTIVE|584|M|23,7|QO|1|N|He might be just a bit farther north if he wasn't right there.|T|Gan'zulah|
+
+R Nesingwary Expedition|ACTIVE|196^338|M|36,10|N|Time to turn in your hunting trophies.|
 A The Green Hills of Stranglethorn|QID|338|M|35.6,10.6|N|From Barnil Stonepot.|PRE|583|
 A Chapter I|QID|339|M|35.6,10.6|N|From Barnil Stonepot.|
 T Chapter I|QID|339|M|35.6,10.6|N|Takes pages 1, 4, 6, and 8. To Barnil Stonepot.|
@@ -214,8 +218,9 @@ A Chapter IV|QID|342|M|35.6,10.6|N|From Barnil Stonepot.|
 T Chapter IV|QID|342|M|35.6,10.6|N|Takes pages 25, 26, and 27. To Barnil Stonepot.|
 T The Green Hills of Stranglethorn|QID|338|M|35.6,10.6|N|To Barnil Stonepot.|
 T Raptor Mastery|QID|196|M|35.6,10.6|N|To Hemet Nesingwary.|
+; Duplicated from Chapter 2 in case they don't have them.
 A Raptor Mastery|QID|197|M|35.6,10.6|N|From Hemet Nesingwary.|PRE|196|RANK|2|
-A Panther Mastery|QID|193|M|35.6,10.6|N|From S.J. Erlgadin. Part of an optional line. This cat is sometimes hard to find.|PRE|192|RANK|2|
+A Panther Mastery|QID|193|M|35.6,10.6|N|From S.J. Erlgadin.|PRE|192|RANK|2|
 A Tiger Mastery|QID|188|M|35.6,10.6|N|From Ajeck Rouack.|PRE|187|RANK|2|
 K Bhag'thera|ACTIVE|193|M|48,28;46,28;48,20|CN|QO|1|N|Spawns at multiple places and wanders, stealthed.|T|Bhagthera|
 K Tethis|ACTIVE|197|M|28,43;31,40;31,43|CN|QO|1|N|Spawns at multiple points.|T|Tethis|
@@ -268,7 +273,7 @@ R Crystalvein Mine|ACTIVE|589|M|37,49|N|Head back to the road and follow it nort
 C The Singing Crystals|QID|589|M|42,50|N|Head into the cave and kill Ironjaw Basilisks until you've looted 3 Pulsing Blue Shards.|
 T Zanzil's Secret|QID|621|M|27.1,77.2|N|Turn on on the first floor of the inn.|
 H Salty Sailor Tavern|ACTIVE|608|M|29.5,72.5|N|Ride back to Booty Bay|
-T The Bloodsail Buccaneers|QID|608|M|27.2,76.9|N|To Fleet-Master Seahorn. You've finished this quest line!|
+T The Bloodsail Buccaneers|QID|608|M|27.18,77.01|N|To Fleet-Master Seahorn. You've finished this quest line!|
 T Voodoo Dues|QID|609|M|27.78,77.07|N|Turn this quest into Sea Wolf MacKinley.|
 
 F Stonard|ACTIVE|1420|N|A quick trip to find a scroll under a bridge.|
@@ -278,7 +283,7 @@ T Cortello's Riddle|QID|624|M|23,48|Z|Swamp of Sorrows|N|Under an ornate bridge 
 A Cortello's Riddle|QID|625|M|22.9,48.2|Z|Swamp of Sorrows|PRE|624|
 
 F Grom'gol Base Camp|ACTIVE|571^589|
-T Mok'thardin's Enchantment|QID|571|M|32.1,29.2|N|DON'T get the follow up.|
+T Mok'thardin's Enchantment|QID|571|M|32.12,29.24|N|DON'T get the follow up.|
 T The Singing Crystals|QID|589|N|DON'T get the follow up.|
 
 ;------002_43_44_Jame_Dustwallow_Marsh.lua--------------
