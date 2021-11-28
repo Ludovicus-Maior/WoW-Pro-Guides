@@ -146,7 +146,7 @@ F Booty Bay|AVAILABLE|2864|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rid
 A Tran'rek|QID|2864|M|26.94,77.21|N|From Krazek on the top floor of the Tavern.|
 A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub by the bar on the first floor of the Tavern.|PRE|605|
 h Booty Bay|ACTIVE|600|M|27.04,77.31|N|Set your hearthstone to Booty Bay.|
-A Akiris by the Bundle|QID|617|M|26.76,76.38|N|From Brivateer Bloads in front of the bank.|
+A Akiris by the Bundle|QID|617|M|26.76,76.38|N|From Brivateer Bloads in front of the bank.\n[color=FF0000]NOTE: [/color]If he's not here, check at the top of the ramp. He paths up there every so often.|
 N Bank|ACTIVE|617|M|26.56,76.50|N|Make sure you grab any items that you put away when you left the area earlier.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
 N Auctioneer O'reely|ACTIVE|338|M|26.59,76.35|N|Check the auction house for any Stranglethorn pages you are missing while you are here.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
 A Scaring Shaky|QID|606|M|27.78,77.07|N|From "Sea Wolf" MacKinley|
@@ -177,11 +177,16 @@ T Return to MacKinley|QID|607|M|27.78,77.07|N|To "Sea Wolf" MacKinley.\n[color=F
 A Up to Snuff|QID|587|M|26.92,77.35|N|From Deeg at the top of the inn.|PRE|595|
 T The Bloodsail Buccaneers|QID|599|M|27.18,77.01|N|To Fleet Master Seahorn on the balcony at the top of the Tavern .|
 A The Bloodsail Buccaneers|QID|604|M|27.2,76.9|N|From Fleet Master Seahorn.|PRE|599|
-T Akiris by the Bundle|QID|617|M|26.76,76.38|N|To Privateer Bloads.|
-A Keep An Eye Out|QID|576|M|28.6,75.9|N|Get this quest from Dizzy who is on the upper level boardwalk by the last building before you reach the forge as you go towards the exit or the first building past the forge if heading towards the inn.|PRE|595|
-C Keep An Eye Out|QID|576|M|31.9,78.6|N|Head out of Booty Bay and turn right. Any swashbuckler can drop the eye.|S!US|
-C The Bloodsail Buccaneers|QID|604|M|29.6,80.9;27,82;33,88|CN|N|Check two camps and the boat (3 waypoints) for the Orders and Charts. Kill any remaining swashbucklers you need, while looting snuff.|
-C Up to Snuff|QID|587|M|33.0,75.0|N|Snuff can be found on any Bloodsail Buccaneers in the area.|
+T Akiris by the Bundle|QID|617|M|26.76,76.38|N|To Privateer Bloads.\n[color=FF0000]NOTE: [/color]If he's not here, check at the top of the ramp. He paths up there every so often.|
+A Keep An Eye Out|QID|576|M|28.2,76.3;28.59,75.90|CC|N|From Dizzy One-Eye.\n[color=FF0000]NOTE: [/color]He is on the second level, in the corner just to the south of the Booty Bay Blacksmith.|PRE|595|
+C Keep An Eye Out|QID|576|M|31.9,78.6|L|3897|N|Kill The Bloodsail Buccaneers to loot the Eye.|S!US|
+R The Cape of Stranglethorn|ACTIVE|604|M|29.41,72.73|N|Head up the stairs and through the tunnel to the other side.|
+C Up to Snuff|QID|587|M|31.24,80.69|L|3910 15|N|Kill Bloodsail Buccaneers to loot the Snuff.|S|
+R Wild Shore|ACTIVE|604|M|32.53,72.89|N|Head east down the hill towards the water.|
+K Bloodsail Swashbucklers|ACTIVE|604|M|30.24,81.14|CN|QO|1|N|Kill Swashbucklers in the area.|T|Bloodsail Swashbuckler|S|
+K The Bloodsail Buccaneers|ACTIVE|604|M|29.58,80.84;27.74,83.13;27.15,82.69|CS|QO|2;3|N|Check the two camps and the boat (3 waypoints) for the Orders and Charts.| ; Hendo72 - Using CS because CN provides no forward motion.
+K Bloodsail Swashbucklers|ACTIVE|604|M|30.24,81.14|CN|QO|1|N|Kill Swashbucklers in the area.|US|
+C Up to Snuff|QID|587|M|33.0,75.0|N|Snuff can be found on any Bloodsail Buccaneer in the area.|US|
 R Booty Bay|ACTIVE|604|M|29.34,72.83|
 T The Bloodsail Buccaneers|QID|604|M|27.2,76.9|N|To Fleet Master Seahorn. (followup can be difficult to solo)|
 A The Bloodsail Buccaneers|QID|608|M|27.2,76.9|GROUP|2|N|From Fleet Master Seahorn.|PRE|604|
