@@ -537,7 +537,7 @@ F Booty Bay|ACTIVE|1182|M|32.54,29.35|Z|Stranglethorn Vale|
 T Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 A Goblin Sponsorship|QID|1183|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz.|PRE|1182|
 T Bloodscalp Ears|QID|189|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
-;A Skullsplitter Tusks|QID|209|M|27.00,77.13|Z|Stranglethorn Vale|N|From Kebok.|PRE|189|
+;A Skullsplitter Tusks|QID|209|M|27.00,77.13|Z|Stranglethorn Vale|N|From Kebok.|PRE|189| --- Moved to Chapter 3 - Hendo72
 T Hostile Takeover|QID|213|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
 T Investigate the Camp|QID|201|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek.|
 T Supply and Demand|QID|575|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
@@ -562,13 +562,18 @@ K The Defense of Grom'gol|ACTIVE|569|M|37.51,31.52|Z|Stranglethorn Vale|QO|1;2|N
 C Some Assembly Required|QID|577|M|39.78,29.61|Z|Stranglethorn Vale|L|4104 5|N|Kill Snapjaw Crocolisks along either side of the river shore to loot them.\n[color=FF0000]NOTE: [/color]Be aware of the Sharptooth Frenzys when crossing the river.|US|
 R Grom'gol Base Camp|ACTIVE|569|M|32.87,28.73|Z|Stranglethorn Vale|N|Return to Grom'gol.|
 T The Defense of Grom'gol|QID|569|M|32.20,28.83|Z|Stranglethorn Vale|N|To Commander Aggro'gosh.|
+F Booty Bay|ACTIVE|577|M|32.54,29.35|Z|Stranglethorn Vale|
+T Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
+A Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|577|
+F Grom'gol|ACTIVE|628|M|26.87,77.09|Z|Stranglethorn Vale|
 ;L Level 37|LVL|37|N|You should be around level 37 by this point.|
 C Singing Blue Shards|QID|605|M|24.34,17.07|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|S|
+C Excelsior|QID|628|M|26.93,20.23|N|Kill Elder Crocolisks to loot the skin.\n[color=FF0000]NOTE: [/color]Follow the shoreline north towards Bal'lal Ruins. The Elder Croclisks share spawn points with the regular ones and may require killing the regular ones to get the Elders to spawn.|S|
 R Zuuldaia Ruins|ACTIVE|582|M|27.00,18.60;22.17,16.15|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
 N Bloodscalp Headhunters|ACTIVE|582|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Headhunting|QID|582|M|19.86,11.53|Z|Stranglethorn Vale|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
 C Bloody Bone Necklaces|QID|596|M|20.87,12.18|Z|Stranglethorn Vale|L|3915 25|N|Kill any Bloodscalp to loot them.|US|
-R Alter of Naias|ACTIVE|9457|M|21.65,21.53|Z|Stranglethorn Vale|CC|N|Make your to the east side of the large island just off the coast.|
+R Altar of Naias|ACTIVE|9457|M|21.65,21.53|Z|Stranglethorn Vale|CC|N|Make your way to the east side of the large island just off the coast.|
 K An Unusual Patron|ACTIVE|9457|M|19.56,22.90|Z|Stranglethorn Vale|L|23681|N|Use the Gift of Naias near the Altar of Naias to summon Naias and kill him.\n[color=FF0000]NOTE: [/color]Clear any mobs in the immediate area and watch out for Gazban who spawns beside the Altar. He can be annoying as an add.|U|23680|
 R The Vile Reef|ACTIVE|629^9457|M|22.82,23.31|Z|Stranglethorn Vale|CC|
 N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant Clams. They may contain a 'Blue Pearl'. It's a quest item that can be sold in the AH, if you don't use them for the 'Pearl Diving' quest.|S!US|IZ|104;The Vile Reef|
@@ -576,6 +581,7 @@ C Encrusted Tail Fins|QID|1107|M|24.84,24.28|N|Kill Saltscale Murlocs to loot En
 C Tablet Shard|QID|629|M|24.8,22.8|Z|Stranglethorn Vale|QO|1|N|Loot the Tablet Shard. It's leaning against the outside wall.\n[color=FF0000]NOTE: [/color]You can get this without aggroing the 2 Elite mobs on the other side. Swim along the surface to the location and dive straight down.\nIf you do it quick, you'll resurface with 1/3 of your breath left.|NC|
 C Encrusted Tail Fins|QID|1107|M|24.84,24.28|Z|Stranglethorn Vale|L|5796 10|N|Kill Saltscale Murlocs to loot the Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]Kite them to the surface so you don't drown by accident.\nMelee classes, focus on Warriors and Foragers. The others are range attack and may require you to fight underwater.|US|
 C Singing Blue Shards|QID|605|M|24.76,17.12|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|US|
+C Excelsior|QID|628|M|26.93,20.23|N|Work your up and down the shoreline, Killing Elder Crocolisks until you loot the skin.\n[color=FF0000]NOTE: [/color]The Elder Croclisks share spawn points with the regular ones and may require killing the regular ones to get the Elders to spawn.|US|
 R Nesingwary's Expedition|ACTIVE|195|M|35.65,10.66|Z|Stranglethorn Vale|N|Make your way back to Nesingwary's Expedition.|
 T Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
 A Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary Jr.|PRE|195|
@@ -587,8 +593,7 @@ T Bloody Bone Necklaces|QID|596|M|32.28,27.71|Z|Stranglethorn Vale|N|To Kin'weel
 A Bloodscalp Clan Heads|QID|584|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|PRE|582|
 T An Unusual Patron|QID|9457|M|31.97,28.60|Z|Stranglethorn Vale|N|To Nemeth Hawkeye.|
 F Booty Bay|ACTIVE|577|M|32.54,29.35|Z|Stranglethorn Vale|
-T Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
-A Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|577|
+T Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik in the Leatherworking shop.|
 T Singing Blue Shards|QID|605|M|27.12,77.22|Z|Stranglethorn Vale|N|To Crank Fizzlebub.\n[color=FF0000]NOTE: [/color]He's standing beside the bar in the Tavern.|
 N Bank/AH|ACTIVE|638|N|Before leaving for Dustwallow Marsh, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|IZ|503;Booty Bay|
 ;;; This section has been removed to reduce exp gain - Hendo72
