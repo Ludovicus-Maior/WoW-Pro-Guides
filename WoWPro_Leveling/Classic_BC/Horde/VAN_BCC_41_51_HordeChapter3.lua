@@ -243,19 +243,20 @@ T Venture Company Mining|QID|600|M|27.12,77.21|N|To Crank Fizzlebub.|
 A Zanzil's Secret|QID|621|M|27.12,77.21|N|From Crank Fizzlebub.|
 F Grom'gol|ACTIVE|585^209^598|M|26.87,77.09|
 R Southern Savage Coast|ACTIVE|208|M|32.62,35.53|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
-K King Bangalash|ACTIVE|208|M|38.20,35.40|QO|1|N|Head up to the plateau and clear the area before starting because he will pull surrounding tigers to help.\n[color=FF0000]NOTE: [/color]At about 50% damage, he will summon two panthers to help him.\nIf you can stun him before he reaches 50% and quickly burn him below 50%, he won't summon the panthers.|T|King Bangalash|
-R Balia'mah Ruins|ACTIVE|585^209^598|M|42.32,33.08|N|Heading east from Grom'gol, cross the river and continue to the other side of the main road.|
+K King Bangalash|ACTIVE|208|M|38.20,35.40|QO|1|N|Head up to the plateau and clear the area before starting because he will pull surrounding tigers to help.\n[color=FF0000]NOTE: [/color]At 50% damage, he will summon two panthers to help him. Ignore them and stay focused on Bangalash; the quest ends when he dies.\nIf you can stun him before he reaches 50% and quickly burn him below 50%, he won't summon the panthers.|T|King Bangalash|
+R Balia'mah Ruins|ACTIVE|585^209^598|M|44.81,31.10|N|Heading east from Grom'gol, cross the river and continue to the other side of the main road.|
 C Skullsplitter Tusks|QID|209|M|46.51,39.22|L|1524 18|N|Kill Skullsplitters to collect the Tusks.|S|
 C Split Bone Necklace|QID|598|M|46.51,39.22|L|3916 25|N|Kill Skullsplitters to collect the Necklaces.|S|
 C Balia'mah Trophy|QID|585|M|46.14,32.33|L|3906|N|Loot the Balia'mah Trophy from the stack of skulls after you clear the area around it.\n[color=FF0000]NOTE: [/color]Keep an eye out for the group of 3 Skullsplitters that patrols between Balia'mah and Ziata'jai.|
 R Ziata'jai Ruins|QID|585|M|44.14,33.50|N|Follow the path south from Balia'mah.|
 C Ziata'jai Trophy|QID|585|M|42.21,36.12|L|3907|N|Loot the Ziata'jai Trophy from the stack of skulls after you clear the area around it.\n[color=FF0000]NOTE: [/color]Keep an eye out for the group of 3 Skullsplitters that patrols between Balia'mah and Ziata'jai.
 R Ruins of Zul'Mamwe|QID|585|M|43.69,40.22|N|Follow the path southeast from Ziata'jai.|
+K Speaking with Gan'zulah|ACTIVE|586|M|46.51,39.22|QO|1;2;3|N|The Skullsplitters you require are spread across this area.|S|
 C Zul'Mamwe Trophy|QID|585|M|47.65,39.54|L|3908|N|Loot the Zul'Mamwe Trophy from the stack of skulls after you clear the area around it.\n[color=FF0000]NOTE: [/color]Keep an eye out for the multiple groups of 3 Skullsplitters that patrol this area.|
+K Ana'thek|ACTIVE|586|M|45,44|QO|4|N|This is tough, so be careful. Ana'thek the Cruel is sometimes in a cave but patrols the road too. Hit him in the cave to avoid more adds. You may have to clear around the cave then kill any spiritchasers with him, run, return and kill and loot Ana'thek then run again.|T|Ana'thek|
 C Skullsplitter Tusks|QID|209|M|46.51,39.22|L|1524 18|N|Finish collecting the Tusks.|US|
 C Split Bone Necklace|QID|598|M|46.51,39.22|L|3916 25|N|Finish collecting the Necklaces.|US|
-K Ana'thek|ACTIVE|586|M|45,44|QO|4|N|This is tough, so be careful. Ana'thek the Cruel is sometimes in a cave but patrols the road too. Hit him in the cave to avoid more adds. You may have to clear around the cave then kill any spiritchasers with him, run, return and kill and loot Ana'thek then run again.|T|Ana'thek|
-C Skullsplitter Trolls|QID|586|M|48,43|CN|N|And kill even more trolls to finish this quest.|
+K Speaking with Gan'zulah|ACTIVE|586|M|46.51,39.22|QO|1;2;3|N|Finish killing the Skullsplitters you need.|US|
 R Nesingwary's Expedition|ACTIVE|208|M|35.65,10.66|
 T Big Game Hunter|QID|208|M|35.66,10.81|N|To Hemet Nesingwary Jr.|
 R Grom'gol Base Camp|AVAILABLE|-208|ACTIVE|-208|M|32.16,28.76|
