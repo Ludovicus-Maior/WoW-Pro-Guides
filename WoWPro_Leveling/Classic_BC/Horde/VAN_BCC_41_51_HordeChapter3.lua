@@ -70,10 +70,10 @@ H Orgrimmar|AVAILABLE|2842|TAXI|-Kargath|IZ|1435;Swamp of Sorrows|
 A Chief Engineer Scooty|QID|2842|M|75.51,25.36|Z|Orgrimmar|N|From Sovik, inside Nogg's Machine Shop.|TAXI|-Kargath|
 F Ratchet|ACTIVE|2842|M|45.13,63.90|Z|Orgrimmar|TAXI|-Kargath|
 b Booty Bay|ACTIVE|2842|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|TAXI|-Kargath|
-T Chief Engineer Scooty|QID|2842|M|27.60,77.48|Z|Stranglethorn Vale|N|To Chief Engineer Scooty.|TAXI|-Kargath|
-A Gnomer-gooooone!|QID|2843|M|27.60,77.48|Z|Stranglethorn Vale|N|From Chief Engineer Scooty.|PRE|2842|TAXI|-Kargath|
-T Gnomer-gooooone!|QID|2843|M|27.60,77.48|Z|Stranglethorn Vale|N|To Chief Engineer Scooty after a few moments past.|TAXI|-Kargath|
-P Gnomeregan|AVAILABLE|-2843|ACTIVE|-2843|M|27.63,77.56|Z|Stranglethorn Vale|N|Step on the Transpolyporter.\n[color=FF0000]NOTE: [/color]Make sure you have your Goblin Transponder or it won't work.|TAXI|-Kargath|IZ|Booty Bay|
+T Chief Engineer Scooty|QID|2842|M|27.60,77.48|N|To Chief Engineer Scooty.|TAXI|-Kargath|
+A Gnomer-gooooone!|QID|2843|M|27.60,77.48|N|From Chief Engineer Scooty.|PRE|2842|TAXI|-Kargath|
+T Gnomer-gooooone!|QID|2843|M|27.60,77.48|N|To Chief Engineer Scooty after a few moments past.|TAXI|-Kargath|
+P Gnomeregan|AVAILABLE|-2843|ACTIVE|-2843|M|27.63,77.56|N|Step on the Transpolyporter.\n[color=FF0000]NOTE: [/color]Make sure you have your Goblin Transponder or it won't work.|TAXI|-Kargath|IZ|Booty Bay|
 ;* Goblin Transponder|AVAILABLE|-2843|ACTIVE|-2843|N|You can safely dispose of it. Ask Scooty for a new one if you wish to use the portal again.|U|9173| ** Hendo72 - Scooty may not give you another one.
 R Exit to Dun Morogh|ACTIVE|1418|M|43.01,60.19;43.12,60.26|CC|Z|1415;Gnomeregan|N|Make your to the big lift and take it up. Head up the ramp to the top.\n[color=FF0000]NOTE: [/color]At this level, you can easily avoid aggroing the mobs as long as you give them room.|TAXI|-Kargath|
 R South Gate Pass|ACTIVE|1418|M|47.4,44.9;78.2,49.8;79.89,52.43|CC|Z|Dun Morogh|N|Head east across Iceflow Lake towards the sign post at Kharanos (or follow the road the long way around if you wish). From here, 'follow' the road east until you reach the next sign post.\n[color=FF0000]NOTE: [/color]Unless run into them, the Alliance guards should leave you alone.|TAXI|-Kargath|
@@ -119,7 +119,7 @@ T Broken Alliances|QID|782|M|6.48,47.20|Z|Badlands|N|To Gorn.\n[color=FF0000]NOT
 H Orgrimmar|ACTIVE|1420|M|3.99,44.77|Z|Badlands|N|If your Hearthstone is on CD, then fly there.|
 = Level 42 Training|ACTIVE|1420|N|Do your training before moving on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 b Grom'gol Base Camp|ACTIVE|1420|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
-F Stonard|ACTIVE|1420|M|32.54,29.35|Z|Stranglethorn Vale|N|At Thysta.|
+F Stonard|ACTIVE|1420|M|32.54,29.35|N|At Thysta.|
 T Report to Helgrum|QID|1420|M|47.74,55.20|Z|Swamp of Sorrows|N|To Helgrum the Swift.|
 A Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|From Dar.|
 R Northeast|ACTIVE|699|M|75.82,13.95|CC|Z|Swamp of Sorrows|N|Make your way to the northeast corner through the swamp.|
@@ -193,68 +193,82 @@ T Up to Snuff|QID|587|M|26.92,77.35|N|To Deeg.|
 A Skullsplitter Tusks|QID|209|M|27.00,77.13|N|From Kebok.|PRE|189|
 N Bank|ACTIVE|617|M|26.56,76.50|N|Make sure you grab any items that you put away when you left the area earlier.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
 N Auctioneer O'reely|AVAILABLE|339^340^341^342|M|26.59,76.35|N|Check the auction house for any Stranglethorn pages you are missing while you are here.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
-R The Cape of Stranglethorn|ACTIVE|600^572^196|M|29.41,72.73|N|Head up the stairs and through the tunnel to the other side.|IZ|Booty Bay|
-R Gurubashi Arena|ACTIVE|600^572^196|M|33.46,55.48|N|Follow the road north.|IZ|Cape of Stranglethorn|
-C Venture Company Mining|QID|600|M|40.5,43.1;41.20,43.58|CC|L|3917 10|N|Go right at the fork and continue following the road north.\nKill goblins to loot the crystals.|
-C Raptor Mastery|QID|197|M|31.87,41.49|N|Head west across the road and to the north side of Gurubashi Arena.\nLook for the Blue Raptor amongst the other Jungle Stalkers.|T|Tethis|
-R Grom'gol Base Camp|ACTIVE|571|M|32.87,28.73|
-T Mok'thardin's Enchantment|QID|571|M|32.12,29.24|N|To Far Seer Mok'thardin.|
-A Mok'thardin's Enchantment|QID|573|M|32.12,29.24|N|From Far Seer Mok'thardin.|PRE|571|
-C Excelsior|QID|628|M|29.2,22.4|N|Find an elder crocolisk just outside of Grom'gol and kill it.|
-R Grom'gol Base Camp|ACTIVE|628|M|32.87,28.73|N|Return to Grom'gol BAse Camp.|
-
-K Nezzliok|ACTIVE|584|M|21,11;23,9|CS|QO|2|N|Follow the left wall to where they are standing together. Clear the area to avoid extras.|T|Nezzliok|
-K Gan'zulah|ACTIVE|584|M|23,7|QO|1|N|He might be just a bit farther north if he wasn't right there.|T|Gan'zulah|
-
-R Nesingwary Expedition|ACTIVE|196^338|M|36,10|N|Time to turn in your hunting trophies.|
-A The Green Hills of Stranglethorn|QID|338|M|35.6,10.6|N|From Barnil Stonepot.|PRE|583|
-A Chapter I|QID|339|M|35.6,10.6|N|From Barnil Stonepot.|
-T Chapter I|QID|339|M|35.6,10.6|N|Takes pages 1, 4, 6, and 8. To Barnil Stonepot.|
-A Chapter II|QID|340|M|35.6,10.6|N|From Barnil Stonepot.|
-T Chapter II|QID|340|M|35.6,10.6|N|Takes pages 10,11,14, and 16. To Barnil Stonepot.|
-A Chapter III|QID|341|M|35.6,10.6|N|From Barnil Stonepot.|
-T Chapter III|QID|341|M|35.6,10.6|N|Takes pages 18, 20, 21, and 24. To Barnil Stonepot.|
-A Chapter IV|QID|342|M|35.6,10.6|N|From Barnil Stonepot.|
-T Chapter IV|QID|342|M|35.6,10.6|N|Takes pages 25, 26, and 27. To Barnil Stonepot.|
-T The Green Hills of Stranglethorn|QID|338|M|35.6,10.6|N|To Barnil Stonepot.|
-T Raptor Mastery|QID|196|M|35.6,10.6|N|To Hemet Nesingwary.|
-; Duplicated from Chapter 2 in case they don't have them.
-A Raptor Mastery|QID|197|M|35.6,10.6|N|From Hemet Nesingwary.|PRE|196|RANK|2|
-A Panther Mastery|QID|193|M|35.6,10.6|N|From S.J. Erlgadin.|PRE|192|RANK|2|
-A Tiger Mastery|QID|188|M|35.6,10.6|N|From Ajeck Rouack.|PRE|187|RANK|2|
-K Bhag'thera|ACTIVE|193|M|48,28;46,28;48,20|CN|QO|1|N|Spawns at multiple places and wanders, stealthed.|T|Bhagthera|
-K Tethis|ACTIVE|197|M|28,43;31,40;31,43|CN|QO|1|N|Spawns at multiple points.|T|Tethis|
-K Sin'dall|ACTIVE|188|M|33,18|QO|1|N|Spawns on top of this hill.|T|Sin'Dall|
-T Panther Mastery|QID|193|M|35.6,10.6|N|To S.J. Erlgadinback at Nesingwary's Expedition.|
-T Raptor Mastery|QID|197|M|35.6,10.6|N|To Hemet Nesingwary.|
-T Tiger Mastery|QID|188|M|35.6,10.6|N|To Ajeck Rouack.|
-K King Bangalash|ACTIVE|208|M|38,37|QO|1|N|Very difficult fight without a full group at this level.|T|King Bangalash|
-T Bloodscalp Clan Heads|QID|584|M|32.27,2.6|N|Ride back to Grom'gol Base Camp. Right click on the Bubbling Cauldron next to Nimboya to The quest.|
-A Speaking with Nezzliok|QID|585|M|32.2,27.6|N|From the cauldron.|PRE|584|
-A Speaking with Gan'zulah|QID|586|M|32.2,27.6|N|You do know you're talking into a cauldron, right?|PRE|584|
-r Sell, repair, restock|ACTIVE|585|
-N Ziata'jai Trophy|QID|585|M|42,37|QO|2|N|Loot the Ziata'jai Trophy from the stack of skulls after you clear the camp but watch out for the patrols.|
-N Balia'mah Trophy|QID|585|M|45,33|QO|1|N|Loot the Balia'mah Trophy from the stack of skulls after you clear the camp.|
-N Zul'Mamwe Trophy|QID|585|M|47,38|QO|3|N|Loot the Zul'Mamwe Trophy from the stack of skulls after you clear the camp.|
-C Skullsplitter Tusks|QID|209|M|42,37;45,33;47,38|CN|N|Kill more trolls, if needed, collecting tusks and necklaces|
-C Split Bone Necklace|QID|598|M|42,37;45,33;47,38|CN|N|Kill more trolls, if needed, collecting necklaces.|
-L Level Check|ACTIVE|586|N|And kill more trolls until you are level 44.|LVL|44|
+F Grom'gol|ACTIVE|572^605^196|M|26.87,77.10|N|Head to the flightmaster and take a flight to Grom'gol Base Camp.|
+R Southern Savage Coast|ACTIVE|572^196|M|32.62,35.53|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
+C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
+K Raptor Mastery|ACTIVE|196|M|33.63,37.87|QO|1|N|Kill Jungle Stalkers.|
+C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
+C Venture Company Mining|QID|600|M|40.5,43.1;41.20,43.58|CC|L|3917 10|N|Kill Goblins to loot the crystals.|
+R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|
+T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|N|To Far Seer Mok'thardin.|
+A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|N|From Far Seer Mok'thardin.|PRE|572|
+R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|CC|N|Make your way to the Bal'lal Ruins.|
+R Ruins of Zul'Kunda|ACTIVE|584|M|30.03,13.07;27.93,11.33|CC|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by climbing the hill on the left side and coming down between the wall and the building.|
+K Nezzliok|ACTIVE|584|M|23.26,9.77|QO|2|N|Work your way through the center of the Ruins to the ramp on the other side.\nSticking to the tall wall, clear the mobs as you walk up the ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.|
+K Gan'zulah|ACTIVE|584|M|23.26,8.72|QO|1|N|Using the same process as you did with Nezzliok, pull the mobs closest to the wall until Gan'zulah is alone or joins the fight.|
+R Nesingwary's Expedition|ACTIVE|584^196^338|M|34.91,11.00|N|Work your way out of the Ruins the same way you came in. You can avoid some of the fight by dropping down to the lower ledge of the wall and walking around to where the bottom of the ramp is.\n Once you are out of the Ruins, make your way to the Nesingwary's Expedition.|
+A The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|N|From Barnil Stonepot.|PRE|583| ; In case it's not picked up yet - Hendo72
+A Chapter I|QID|339|M|35.66,10.53|N|From Barnil Stonepot.|
+T Chapter I|QID|339|M|35.66,10.53|N|Takes pages 1, 4, 6, and 8. To Barnil Stonepot.|
+A Chapter II|QID|340|M|35.66,10.53|N|From Barnil Stonepot.|
+T Chapter II|QID|340|M|35.66,10.53|N|Takes pages 10,11,14, and 16. To Barnil Stonepot.|
+A Chapter III|QID|341|M|35.66,10.53|N|From Barnil Stonepot.|
+T Chapter III|QID|341|M|35.66,10.53|N|Takes pages 18, 20, 21, and 24. To Barnil Stonepot.|
+A Chapter IV|QID|342|M|35.66,10.53|N|From Barnil Stonepot.|
+T Chapter IV|QID|342|M|35.66,10.53|N|Takes pages 25, 26, and 27. To Barnil Stonepot.|
+T The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|N|To Barnil Stonepot.|
+T Raptor Mastery|QID|196|M|35.66,10.81|N|To Hemet Nesingwary.|
+A Raptor Mastery|QID|197|M|35.66,10.81|N|From Hemet Nesingwary.|PRE|196|
+R South|ACTIVE|197|M|43.4,29.8;38.7,40.7|CC|N|Head back to the main road and follow it south towards Gurubashi Arena.|
+K Tethis|ACTIVE|197|M|28,43;31,40;31,43|CN|L|3877|N|Spawns at multiple points in the area to the north of Gurubashi Arena.|T|Tethis|
+R Venture Co. Base Camp|ACTIVE|193|M|44.82,25.69|N|Head back to the main road and follow it north.|
+K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|CN|L|3876|N|You'll find Bhag'thera in one of 3 locations. When you find him, kill him to loot his fang.|T|Bhag'thera|
+L Level Check|ACTIVE|586|N|Grind out on the mobs in the area until you're halfway to level 44.|LVL|43;-14000|
+R Nesingwary's Expedition|ACTIVE|193^197|M|35.65,10.66|
+T Panther Mastery|QID|193|M|35.56,10.54|N|To S.J. Erlgadin.|
+T Raptor Mastery|QID|197|M|35.66,10.81|N|To Hemet Nesingwary Jr.|
+A Big Game Hunter|QID|208|M|35.66,10.81|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Hemet Nesingwary Jr.\n[color=FF0000]NOTE: [/color]This quest requires that you head back down to Gurubashi Arena and return here to turn it in.\nThis quest is the only reason to come back to this area.\nSkip this quest if you're not interested.|PRE|188&193&197|RANK|3|
+R Grom'gol Base Camp|ACTIVE|208^584|M|32.16,28.76|
+T Bloodscalp Clan Heads|QID|584|M|32.27,2.6|N|Click on the Bubbling Cauldron next to Nimboya.|
+A Speaking with Nezzliok|QID|585|M|32.22,27.60|N|From the Bubbling Cauldron.|PRE|584|
+A Speaking with Gan'zulah|QID|586|M|32.22,27.60|N|From the Bubbling Cauldron.|PRE|584|
+A Split Bone Necklace|QID|598|M|32.28,27.71|N|From Kin'weelay.|PRE|596|
+r Sell, repair, restock|ACTIVE|585^586|M|32.36,27.95|N|At Vharr.|
+b Durotar|ACTIVE|585^586^598|M|31.37,30.15|N|Take the Zeppelin to Durotar.|C|-Druid|
+R Orgrimmar|ACTIVE|585^586^598|M|49.15,95.09|Z|Orgrimmar|N|Enter Orgrimmar by the front gate.|C|-Druid|
+P Moonglade|ACTIVE|585^586^598|N|Use your Teleport: Moonglade to portal to Moonglade to do your training.|C|Druid|
+= Level 44 Training|ACTIVE|585^586^598|N|Do your training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+H The Salty Sailor Tavern|ACTIVE|585^209^598|M|29.52,72.53|N|If your hearthstone is on cooldown, do it the long way.|
+T Venture Company Mining|QID|600|M|27.12,77.21|N|To Crank Fizzlebub.|
+A Zanzil's Secret|QID|621|M|27.12,77.21|N|From Crank Fizzlebub.|
+F Grom'gol|ACTIVE|585^209^598|M|26.87,77.09|
+R Southern Savage Coast|ACTIVE|208|M|32.62,35.53|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
+K King Bangalash|ACTIVE|208|M|38.20,35.40|QO|1|N|Head up to the plateau and clear the area before starting because he will pull surrounding tigers to help.\n[color=FF0000]NOTE: [/color]At about 50% damage, he will summon two panthers to help him.\nIf you can stun him before he reaches 50% and quickly burn him below 50%, he won't summon the panthers.|T|King Bangalash|
+R Balia'mah Ruins|ACTIVE|585^209^598|M|42.32,33.08|N|Heading east from Grom'gol, cross the river and continue to the other side of the main road.|
+C Skullsplitter Tusks|QID|209|M|46.51,39.22|L|1524 18|N|Kill Skullsplitters to collect the Tusks.|S|
+C Split Bone Necklace|QID|598|M|46.51,39.22|L|3916 25|N|Kill Skullsplitters to collect the Necklaces.|S|
+C Balia'mah Trophy|QID|585|M|46.14,32.33|L|3906|N|Loot the Balia'mah Trophy from the stack of skulls after you clear the area around it.\n[color=FF0000]NOTE: [/color]Keep an eye out for the group of 3 Skullsplitters that patrols between Balia'mah and Ziata'jai.|
+R Ziata'jai Ruins|QID|585|M|44.14,33.50|N|Follow the path south from Balia'mah.|
+C Ziata'jai Trophy|QID|585|M|42.21,36.12|L|3907|N|Loot the Ziata'jai Trophy from the stack of skulls after you clear the area around it.\n[color=FF0000]NOTE: [/color]Keep an eye out for the group of 3 Skullsplitters that patrols between Balia'mah and Ziata'jai.
+R Ruins of Zul'Mamwe|QID|585|M|43.69,40.22|N|Follow the path southeast from Ziata'jai.|
+C Zul'Mamwe Trophy|QID|585|M|47.65,39.54|L|3908|N|Loot the Zul'Mamwe Trophy from the stack of skulls after you clear the area around it.\n[color=FF0000]NOTE: [/color]Keep an eye out for the multiple groups of 3 Skullsplitters that patrol this area.|
+C Skullsplitter Tusks|QID|209|M|46.51,39.22|L|1524 18|N|Finish collecting the Tusks.|US|
+C Split Bone Necklace|QID|598|M|46.51,39.22|L|3916 25|N|Finish collecting the Necklaces.|US|
 K Ana'thek|ACTIVE|586|M|45,44|QO|4|N|This is tough, so be careful. Ana'thek the Cruel is sometimes in a cave but patrols the road too. Hit him in the cave to avoid more adds. You may have to clear around the cave then kill any spiritchasers with him, run, return and kill and loot Ana'thek then run again.|T|Ana'thek|
 C Skullsplitter Trolls|QID|586|M|48,43|CN|N|And kill even more trolls to finish this quest.|
+R Nesingwary's Expedition|ACTIVE|208|M|35.65,10.66|
+T Big Game Hunter|QID|208|M|35.66,10.81|N|To Hemet Nesingwary Jr.|
+R Grom'gol Base Camp|AVAILABLE|-208|ACTIVE|-208|M|32.16,28.76|
 T Split Bone Necklace|QID|598|N|Ride back to Grom'gol Base Camp.|
 T Speaking with Nezzliok|QID|585|M|32.27,2.6|N|To the Bubbling Cauldron.|
 T Speaking with Gan'zulah|QID|586|M|32.27,2.6|N|To the Bubbling Cauldron.|
 A The Fate of Yenniku|QID|588|M|32.27,2.6|N|From the Bubbling Cauldron.|
-T The Fate of Yenniku|QID|588|M|32.2,27.8|N|To Kin'weelay.|
-A The Singing Crystals|QID|589|M|32.2,27.8|N|From Kin'weelay.|PRE|588|
+T The Fate of Yenniku|QID|588|M|32.28,27.71|N|To Kin'weelay.|
+A The Singing Crystals|QID|589|M|32.28,27.71|N|From Kin'weelay.|PRE|588|
 b Zeppalin|ACTIVE|589|M|31.6,29.4|N|Head off to your choice of Undercity or Orgrimmar to train.|
-H The Salty Sailor Tavern|ACTIVE|621|M|29.52,72.53|N|Booty Bay. Run there if your hearth isn't up yet .|
 
-A Zanzil's Secret|QID|621|M|27.1,77.2|N|From Crank Fizzlebub.|
-T Venture Company Mining|QID|600|M|27.1,77.2|N|This this quest in on the first floor of the inn.|
 T Skullsplitter Tusks|QID|209|N|This this in on the top floor of the inn.|
 A Voodoo Dues|QID|609|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|PRE|607|
-T Excelsior|QID|628|M|28.3,77.6|N|Use the top floor exit of the inn and head for the leather working shop to turn this in.|
 
 N Things to do|ACTIVE|608|N|Coming next, you will be killing pirates on 3 ships. While there, keep a sharp eye out for a rolled up scroll that can be about anywhere below deck. It starts Cortello's Riddle quest. Avoid fighting on the stairs or you may have multi floor agro.|
 K Captain Stillwater|ACTIVE|608|M|32.9,88.2|QO|1|N|Head into the first pirate ship and kill Captain Stillwater . Don't forget to watch for Cortello's Riddle.|T|Captain Stillwater|
@@ -282,7 +296,7 @@ A Cortello's Riddle|QID|624|M|23,48|Z|Swamp of Sorrows|N|From item in your bags.
 T Cortello's Riddle|QID|624|M|23,48|Z|Swamp of Sorrows|N|Under an ornate bridge west of Stonard is a soggy scroll. Get it to start the next part of the quest line.|
 A Cortello's Riddle|QID|625|M|22.9,48.2|Z|Swamp of Sorrows|PRE|624|
 
-F Grom'gol Base Camp|ACTIVE|571^589|
+F Grom'gol|ACTIVE|571^589|
 T Mok'thardin's Enchantment|QID|571|M|32.12,29.24|N|DON'T get the follow up.|
 T The Singing Crystals|QID|589|N|DON'T get the follow up.|
 
@@ -709,7 +723,7 @@ T An OOX of Your Own|QID|3721|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
 T Whiskey Slim's Lost Grog|QID|580|M|27.1,77.5|
 
 ; -- Blasted Lands
-F Stonard|ACTIVE|3504|M|26.8,77|Z|Stranglethorn Vale|N|At Gringer, Wind Rider Master.|
+F Stonard|ACTIVE|3504|M|26.8,77|N|At Gringer, Wind Rider Master.|
 R Blasted Lands|ACTIVE|3504|M|35.3,60.1;33.1,72.4|CS|Z|Swamp of Sorrows|N|Follow the road West, turning south at the first waypoint and head into The Blasted Lands.|
 
 A A Boar's Vitality|QID|2583|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Stamina for 1 hour when turned in.|
@@ -728,7 +742,7 @@ L Level Check|LVL|51|N|You should be level 51, if not stay and grind here a bit.
 ;A Cracking Maury's Foot|QID|613|
 
 ;A The Mind's Eye|QID|591|
-;A Big Game Hunter|QID|208|M|35.6,10.6|N|From Hemet Nesingwary.|
+;A Big Game Hunter|QID|208|M|35.66,10.81|N|From Hemet Nesingwary.|
 ;C Big Game Hunter|QID|208|N|This is a good time to kill King Bangalash if you plan to do so. This is very difficult but possible, especially with a little help or if you're higher level then the guild specifies. He can spawn at either or (37.9,37.2) and summons two panthers to help him, so be prepared for quite a fight.|M|38.2,35.6|
 ;T Big Game Hunter|QID|208|N|Ride back out to Nesingwary's Expedition. On completing this quest, you'll gain an achievement.|M|35.6,10.6|
 ;C The Mind's Eye|QID|591|M|52.9,27.6|L|3616|N|Ride out to the Ogre Mound. Clear the cave until you find Mai'Zoth . Pull his right guard before dealing with the rest. Kill Mai'Zoth and loot Mind's Eye. Clear your way out looting the ogres for Maury's Key if you haven't found it yet.|
