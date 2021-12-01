@@ -254,9 +254,10 @@ R Ruins of Zul'Mamwe|QID|585|M|43.69,40.22|N|Follow the path southeast from Ziat
 K Speaking with Gan'zulah|ACTIVE|586|M|46.51,39.22|QO|1;2;3|N|The Skullsplitters you require are spread across this area.|S|
 C Zul'Mamwe Trophy|QID|585|M|47.65,39.54|L|3908|N|Loot the Zul'Mamwe Trophy from the stack of skulls after you clear the area around it.\n[color=FF0000]NOTE: [/color]Keep an eye out for the multiple groups of 3 Skullsplitters that patrol this area.|
 K Ana'thek|ACTIVE|586|M|45,44|QO|4|N|This is tough, so be careful. Ana'thek the Cruel is sometimes in a cave but patrols the road too. Hit him in the cave to avoid more adds. You may have to clear around the cave then kill any spiritchasers with him, run, return and kill and loot Ana'thek then run again.|T|Ana'thek|
-C Skullsplitter Tusks|QID|209|M|46.51,39.22|L|1524 18|N|Finish collecting the Tusks.|US|
+K Speaking with Gan'zulah|ACTIVE|586|M|46.51,39.22|QO|1;2;3|N|The Skullsplitter Hunters you require are spread across this area|S|
+K Speaking with Gan'zulah|ACTIVE|586|M|47.70,42.86|QO|2;3|N|Finish killing the Skullsplitter Headhunters and Beserkers you need.|US|
+K Speaking with Gan'zulah|ACTIVE|586|M|47.70,42.86|QO|1|N|Finish killing the Skullsplitter Hunters you need.|US|
 C Split Bone Necklace|QID|598|M|46.51,39.22|L|3916 25|N|Finish collecting the Necklaces.|US|
-K Speaking with Gan'zulah|ACTIVE|586|M|46.51,39.22|QO|1;2;3|N|Finish killing the Skullsplitters you need.|US|
 R Nesingwary's Expedition|ACTIVE|208|M|35.65,10.66|
 T Big Game Hunter|QID|208|M|35.66,10.81|N|To Hemet Nesingwary Jr.|
 R Grom'gol Base Camp|AVAILABLE|-208|ACTIVE|-208|M|32.16,28.76|
