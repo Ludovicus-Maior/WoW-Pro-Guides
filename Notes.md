@@ -1,3 +1,22 @@
+# Release 9.1.5-A1 / 1.14.0-A2 / 2.5.2-A2
+## Bug Fixes
+* Stukov:  Crash indexing guide in NextStep().  Add warning and punt.
+* Hendo72: Fix completion message for ;|! steps please.
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Bloodmyst, Dustwallow Marsh, Felwood, Southern Barrens, Tanaris, Thousand Needles, Draenai Intro
+* Horde: None!
+* Neutral: Silithus, UnGoro, Winterspring
+### World Events
+* Neutral: WoW Anniversary
+### Classic Leveling
+* Nothing
+### Burning Crusade Classic Leveling
+* Alliance: Dwarf/Grome Intro
+* Horde: Horde Chapter 2 & 3
+
+
 # Release 9.1.5-A0 / 1.14.0-A1 / 2.5.2-A1
 ## Bug Fixes
 * None!
