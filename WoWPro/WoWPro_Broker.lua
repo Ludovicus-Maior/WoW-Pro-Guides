@@ -1546,6 +1546,10 @@ Rep2IdAndClass = {
 function WoWPro.NextStep(guideIndex, rowIndex)
     local GID = WoWProDB.char.currentguide
     local guide = WoWProCharDB.Guide[GID]
+    if not guide then
+        WoWPro:Warning("WoWPro.NextStep(): WoWProCharDB.Guide[%q] is nil.  Let us punt.", tostring(GID))
+        return 1
+    end
     if not guideIndex then guideIndex = 1 end --guideIndex is the position in the guide
     if not rowIndex then rowIndex = 1 end --rowIndex is the position on the rows
     local skip = true
