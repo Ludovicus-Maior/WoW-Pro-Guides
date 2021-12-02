@@ -1,4 +1,4 @@
-## Interface: 11400
+## Interface: 11401
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Achievements
 ## Notes: World Achievements guides created by the WoW-Pro Community
 ## Author: Twists
