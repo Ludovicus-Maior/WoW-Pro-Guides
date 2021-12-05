@@ -163,7 +163,7 @@ R Mistvale Valley|ACTIVE|348|M|33.19,62.69|N|Head west over the 2 bridges toward
 l Gorilla Fang|ACTIVE|348|M|33.29,63.39|L|2799|N|These are dropped by any Gorilla in STV.\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|US|
 R Sprit Den|ACTIVE|348|M|34.2,63.6;34.65,62.52|CC|N|Locate the path on the north side of Mistvale Valley.|
 C Stranglethorn Fever|QID|348|M|35.26,60.39|QO|1|N|When you are ready, give the Gorrilla Fang to Witch Doctor Unbagwa. He'll start 3 waves of gorilla attacks; an Enraged Silverback Gorilla, then Konda, and finally Mokk the Savage.\n[color=FF0000]NOTE: [/color]Remember to heal and recharge between waves.|
-C Stranglethorn Fever|QID|348|M|35.26,60.39|N|[color=CC00FF]QUEST FAILED [/color]\nGive a Gorrilla Fang to Witch Doctor Unbagwa to stat again\n[color=FF0000]NOTE: [/color]If you don't have a Gorilla Fang, you'll need to get one to stat again.|
+C Stranglethorn Fever|QID|348|M|35.26,60.39|N|[color=CC00FF]QUEST FAILED [/color]\nGive a Gorrilla Fang to Witch Doctor Unbagwa to stat again\n[color=FF0000]NOTE: [/color]If you don't have a Gorilla Fang, you'll need to get one to stat again.||FAIL|
 C Scaring Shaky|QID|606|M|33.53,64.82|L|3919 5|N|Finish collecting the Mistvale Giblets from the Elder Mistvale Gorillas.|US|
 R Booty Bay|ACTIVE|606|M|29.34,72.83|
 T Scaring Shaky|QID|606|M|26.89,73.59|N|"Shaky" Phillipe is at the bottom of the ramp as you enter Booty Bay (towards the ship from Rachet).|
