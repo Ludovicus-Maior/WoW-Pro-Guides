@@ -171,7 +171,8 @@ A Return to MacKinley|QID|607|M|26.89,73.59|N|From "Shaky" Phillipe.|PRE|606|
 T The Bloodsail Buccaneers|QID|597|M|28.10,76.22|N|Return to First Mate Crazz.|
 A The Bloodsail Buccaneers|QID|599|M|28.10,76.22|N|From First Mate Crazz.|PRE|597|
 T Stranglethorn Fever|QID|348|M|27.61,76.73|N|To Fin Fitzracket.|
-T Return to MacKinley|QID|607|M|27.78,77.07|N|To "Sea Wolf" MacKinley.\n[color=FF0000]NOTE: [/color]Don't pick up the follow-up yet.|
+T Return to MacKinley|QID|607|M|27.78,77.07|N|To "Sea Wolf" MacKinley.|
+A Voodoo Dues|QID|609|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|PRE|607|
 A Up to Snuff|QID|587|M|26.92,77.35|N|From Deeg at the top of the inn.|PRE|595|
 T The Bloodsail Buccaneers|QID|599|M|27.18,77.01|N|To Fleet Master Seahorn on the balcony at the top of the Tavern .|
 A The Bloodsail Buccaneers|QID|604|M|27.18,77.01|N|From Fleet Master Seahorn.|PRE|599|
@@ -229,7 +230,7 @@ T Panther Mastery|QID|193|M|35.56,10.54|N|To S.J. Erlgadin.|
 T Raptor Mastery|QID|197|M|35.66,10.81|N|To Hemet Nesingwary Jr.|
 A Big Game Hunter|QID|208|M|35.66,10.81|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Hemet Nesingwary Jr.\n[color=FF0000]NOTE: [/color]This quest requires that you head back down to Gurubashi Arena and return here to turn it in.\nThis quest is the only reason to come back to this area.\nSkip this quest if you're not interested.|PRE|188&193&197|RANK|3|
 R Grom'gol Base Camp|ACTIVE|208^584|M|32.16,28.76|
-T Bloodscalp Clan Heads|QID|584|M|32.27,2.6|N|Click on the Bubbling Cauldron next to Nimboya.|
+T Bloodscalp Clan Heads|QID|584|M|32.27,2.60|N|Click on the Bubbling Cauldron next to Nimboya.|
 A Speaking with Nezzliok|QID|585|M|32.22,27.60|N|From the Bubbling Cauldron.|PRE|584|
 A Speaking with Gan'zulah|QID|586|M|32.22,27.60|N|From the Bubbling Cauldron.|PRE|584|
 A Split Bone Necklace|QID|598|M|32.28,27.71|N|From Kin'weelay.|PRE|596|
@@ -257,27 +258,32 @@ K Ana'thek|ACTIVE|586|M|45,44|QO|4|N|This is tough, so be careful. Ana'thek the 
 K Speaking with Gan'zulah|ACTIVE|586|M|46.51,39.22|QO|1;2;3|N|The Skullsplitter Hunters you require are spread across this area|S|
 K Speaking with Gan'zulah|ACTIVE|586|M|47.70,42.86|QO|2;3|N|Finish killing the Skullsplitter Headhunters and Beserkers you need.|US|
 K Speaking with Gan'zulah|ACTIVE|586|M|47.70,42.86|QO|1|N|Finish killing the Skullsplitter Hunters you need.|US|
-C Split Bone Necklace|QID|598|M|46.51,39.22|L|3916 25|N|Finish collecting the Necklaces.|US|
+C Split Bone Necklace|QID|598|M|46.48,39.92|L|3916 25|N|Finish collecting the Necklaces.|US|
 R Nesingwary's Expedition|ACTIVE|208|M|35.65,10.66|
 T Big Game Hunter|QID|208|M|35.66,10.81|N|To Hemet Nesingwary Jr.|
-R Grom'gol Base Camp|AVAILABLE|-208|ACTIVE|-208|M|32.16,28.76|
-T Split Bone Necklace|QID|598|N|Ride back to Grom'gol Base Camp.|
-T Speaking with Nezzliok|QID|585|M|32.27,2.6|N|To the Bubbling Cauldron.|
-T Speaking with Gan'zulah|QID|586|M|32.27,2.6|N|To the Bubbling Cauldron.|
-A The Fate of Yenniku|QID|588|M|32.27,2.6|N|From the Bubbling Cauldron.|
+R Grom'gol Base Camp|ACTIVE|-208&598|M|32.16,28.76|
+T Split Bone Necklace|QID|598|M|32.28,27.71|N|To Kin'weelay.|
+T Speaking with Nezzliok|QID|585|M|32.22,27.60|N|To the Bubbling Cauldron.|
+T Speaking with Gan'zulah|QID|586|M|32.22,27.60|N|To the Bubbling Cauldron.|
+A The Fate of Yenniku|QID|588|M|32.22,27.60|N|From the Bubbling Cauldron.|
 T The Fate of Yenniku|QID|588|M|32.28,27.71|N|To Kin'weelay.|
 A The Singing Crystals|QID|589|M|32.28,27.71|N|From Kin'weelay.|PRE|588|
-b Zeppalin|ACTIVE|589|M|31.6,29.4|N|Head off to your choice of Undercity or Orgrimmar to train.|
-
-T Skullsplitter Tusks|QID|209|N|This this in on the top floor of the inn.|
-A Voodoo Dues|QID|609|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|PRE|607|
-
-N Things to do|ACTIVE|608|N|Coming next, you will be killing pirates on 3 ships. While there, keep a sharp eye out for a rolled up scroll that can be about anywhere below deck. It starts Cortello's Riddle quest. Avoid fighting on the stairs or you may have multi floor agro.|
-K Captain Stillwater|ACTIVE|608|M|32.9,88.2|QO|1|N|Head into the first pirate ship and kill Captain Stillwater . Don't forget to watch for Cortello's Riddle.|T|Captain Stillwater|
-K Fleet Master Firallon|ACTIVE|608|M|30.6,90.6|QO|3|N|Fleet Master Firallon can be found in the next ship at . Don't forget to watch for Cortello's Riddle.|T|Fleet Master Firallon|
-K Captain Keelhaul|ACTIVE|608|M|29.3,88.4|QO|2|N|Captain Keelhaul is in the last ship at . Don't forget to watch for Cortello's Riddle.|T|Captain Keelhaul|
-N Cortello's Riddle|ACTIVE|608|L|4056|N|Search the lower levels of the ships until you find this.|
-
+F Booty Bay|ACTIVE|209|M|32.54,29.35|Z|Stranglethorn Vale|
+T Skullsplitter Tusks|QID|209|M|27.00,77.13|N|To Kebok.|
+A The Captain's Chest|QID|8551|M|26.69,73.61|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Captain Hecklebury Smotts.\n[color=FF0000]NOTE: [/color]At your level, soloing shouldn't be too difficult.|RANK|3|
+R The Cape of Stranglethorn|ACTIVE|608^8551|M|29.41,72.73|N|Head up the stairs and through the tunnel to the other side.|IZ|Booty Bay|
+R Wild Shore|ACTIVE|608^8551|M|32.53,72.89|N|Head east down the hill towards the water.|
+R Swim|ACTIVE|-624&608|M|34.44,85.51|CC|N|Enter the water and swim across to the island near the far left pirate ship.|
+N The Bloodsail Buccaneers|ACTIVE|608|N|All 3 of your targets will be found in the same spot on their ship, in the Captain's Room on the first floor at the back of the ship. The ships are from left to right and first to third.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Cortello's Riddle|AVAILABLE|624|L|4056|N|Search the lower deck of the pirate ships until you find this scroll.|S|
+A Cortello's Riddle|QID|624|N|Accept the quest from the soggy scroll you found.|U|4056|O|
+K Captain Stillwater|ACTIVE|608|M|32.87,88.20|QO|1|N|Board the first pirate ship and kill Captain Stillwater.|T|Captain Stillwater|
+K Fleet Master Firallon|ACTIVE|608|M|30.6,90.6|QO|3|N|Fleet Master Firallon can be found second ship.\n[color=FF0000]NOTE: [/color]Watch for Ironpatch in the room beside him. He'll aggro Firallon if you can't pull him away.|T|Fleet Master Firallon|
+K Captain Keelhaul|ACTIVE|608|M|29.3,88.4|QO|2|N|You'll find Captain Keelhaul aboard the last ship.\n[color=FF0000]NOTE: [/color]Like Ironpatch, kite Garr Salthoof before he aggroes everybody.|T|Captain Keelhaul|
+C Cortello's Riddle|AVAILABLE|624|ACTIVE|608|L|4056|N|Search the lower deck of the three pirate ships until you find this scroll.|US|
+R The Crystal Shore|ACTIVE|624^8551|M|36.03,70.46|N|Follow the shoreline north.|
+K Gorlash|ACTIVE|8551|M|36.43,70.77|L|3932|N|Kill Gorlash (lv 42 Elite) and loot the Chest.\n[color=FF0000]NOTE: [/color]He hits really hard and avoiding it as best you can is advised.|
+R The Ruins of Aboraz|ACTIVE|624^609|M|38.91,60.82|N|Continue north along the shoreline.\n[color=FF0000]NOTE: [/color]Watch oout for
 R Mistvale Valley|ACTIVE|571|M|33,63|
 C Mok'thardin's Enchantment|QID|571|M|31.6,67.3|N|Kill gorillas until the Aged Gorilla Sinew drops.|
 K JonJon The Crow|ACTIVE|609|M|34.88,51.90|QO|2|N|We're looking for JonJon The Crow . Clear the camp enough to pull him safely. We are also collecting Zanzil's Mixtures as we go.|
