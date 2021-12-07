@@ -142,9 +142,18 @@ R Stonard|ACTIVE|1430|M|46.45,51.43|Z|Swamp of Sorrows|
 T Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|To Dar.|
 
 ; --- Stranglethorn Vale
-F Booty Bay|AVAILABLE|2864|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|
+F Grom'gol|ACTIVE|572^605^196|M|26.87,77.10|
+R Southern Savage Coast|ACTIVE|572^196|M|32.62,35.53|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
+C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
+K Raptor Mastery|ACTIVE|196|M|33.63,37.87|QO|1|N|Kill Jungle Stalkers.|
+C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
+C Venture Company Mining|QID|600|M|40.5,43.1;41.20,43.58|CC|L|3917 10|N|Kill Goblins to loot the crystals.|
+R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|
+T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|N|To Far Seer Mok'thardin.|
+A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|N|From Far Seer Mok'thardin.|PRE|572|
+F Booty Bay|AVAILABLE|2864|M|32.54,29.35|
 A Tran'rek|QID|2864|M|26.94,77.21|N|From Krazek on the top floor of the Tavern.|
-A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub by the bar on the first floor of the Tavern.|PRE|605|
+;A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub by the bar on the first floor of the Tavern.|PRE|605|
 h Booty Bay|AVAILABLE|617|M|27.04,77.31|N|Set your hearthstone to Booty Bay.|
 A Akiris by the Bundle|QID|617|M|26.76,76.38|N|From Brivateer Bloads in front of the bank.\n[color=FF0000]NOTE: [/color]If he's not here, check at the top of the ramp. He paths up there every so often.|
 A Scaring Shaky|QID|606|M|27.78,77.07|N|From "Sea Wolf" MacKinley|
@@ -156,8 +165,8 @@ R Southern Savage Coast|ACTIVE|595|M|27.99,70.04|N|Turn and head west down the h
 T The Bloodsail Buccaneers|QID|595|M|27.28,69.52|N|After clearing the camp of all Bloodsails, locate the Bloodsail Correspondence on the barrel and click on it.|
 A The Bloodsail Buccaneers|QID|597|M|27.28,69.52|N|From Bloodsail Correspondence.|PRE|595|
 C Akiris by the Bundle|QID|617|M|25.85,60.85|L|4029 10|N|Kill Nagas for the reeds.\n[color=FF0000]NOTE: [/color]Work your way around the island and then up the path when you get to the other side.\n[color=FF0000]NOTE: [/color]The path upwards will branch off into 2 areas. at the end of the first branch, you can either go down the hill and come back around or go up the hill to the 2nd branch and follow it back down.|
-C Scaring Shaky|QID|606|M|33.53,64.82|L|3919 5|N|Dropped from Elder Mistvale Gorillas.|S|
-C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|L|3862|N|Dropped from Elder Mistvale Gorillas.\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|S|
+C Scaring Shaky|QID|606|M|33.53,64.82|L|3919 5|N|Dropped by Elder Mistvale Gorillas.|S|
+C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|L|3862|N|Dropped by Elder Mistvale Gorillas.\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|S|
 l Gorilla Fang|ACTIVE|348|M|31.67,60.14|CC|L|2799|N|These are dropped by any Gorilla in STV.\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|S|
 R Mistvale Valley|ACTIVE|348|M|33.19,62.69|N|Head west over the 2 bridges towards the road. The entrance is west of the road.|
 l Gorilla Fang|ACTIVE|348|M|33.29,63.39|L|2799|N|These are dropped by any Gorilla in STV.\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|US|
@@ -165,6 +174,7 @@ R Sprit Den|ACTIVE|348|M|34.2,63.6;34.65,62.52|CC|N|Locate the path on the north
 C Stranglethorn Fever|QID|348|M|35.26,60.39|QO|1|N|When you are ready, give the Gorrilla Fang to Witch Doctor Unbagwa. He'll start 3 waves of gorilla attacks; an Enraged Silverback Gorilla, then Konda, and finally Mokk the Savage.\n[color=FF0000]NOTE: [/color]Remember to heal and recharge between waves.|
 C Stranglethorn Fever|QID|348|M|35.26,60.39|N|[color=CC00FF]QUEST FAILED [/color]\nGive a Gorrilla Fang to Witch Doctor Unbagwa to stat again\n[color=FF0000]NOTE: [/color]If you don't have a Gorilla Fang, you'll need to get one to stat again.||FAIL|
 C Scaring Shaky|QID|606|M|33.53,64.82|L|3919 5|N|Finish collecting the Mistvale Giblets from the Elder Mistvale Gorillas.|US|
+C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|L|3862|N|Dropped by Elder Mistvale Gorillas.\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|US|
 R Booty Bay|ACTIVE|606|M|29.34,72.83|
 T Scaring Shaky|QID|606|M|26.89,73.59|N|"Shaky" Phillipe is at the bottom of the ramp as you enter Booty Bay (towards the ship from Rachet).|
 A Return to MacKinley|QID|607|M|26.89,73.59|N|From "Shaky" Phillipe.|PRE|606|
@@ -194,15 +204,9 @@ T Up to Snuff|QID|587|M|26.92,77.35|N|To Deeg.|
 A Skullsplitter Tusks|QID|209|M|27.00,77.13|N|From Kebok.|PRE|189|
 N Bank|ACTIVE|617|M|26.56,76.50|N|Make sure you grab any items that you put away when you left the area earlier.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
 N Auctioneer O'reely|AVAILABLE|339^340^341^342|M|26.59,76.35|N|Check the auction house for any Stranglethorn pages you are missing while you are here.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
-F Grom'gol|ACTIVE|572^605^196|M|26.87,77.10|N|Head to the flightmaster and take a flight to Grom'gol Base Camp.|
-R Southern Savage Coast|ACTIVE|572^196|M|32.62,35.53|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
-C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
-K Raptor Mastery|ACTIVE|196|M|33.63,37.87|QO|1|N|Kill Jungle Stalkers.|
-C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
-C Venture Company Mining|QID|600|M|40.5,43.1;41.20,43.58|CC|L|3917 10|N|Kill Goblins to loot the crystals.|
-R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|
-T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|N|To Far Seer Mok'thardin.|
-A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|N|From Far Seer Mok'thardin.|PRE|572|
+F Grom'gol|ACTIVE|571|M|26.87,77.10|
+T Mok'thardin's Enchantment|QID|571|M|32.12,29.24|N|To Far Seer Mok'thardin.|
+A Mok'thardin's Enchantment|QID|573|M|32.12,29.24|N|From Far Seer Mok'thardin.|PRE|571|
 R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|CC|N|Make your way to the Bal'lal Ruins.|
 R Ruins of Zul'Kunda|ACTIVE|584|M|30.03,13.07;27.93,11.33|CC|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by climbing the hill on the left side and coming down between the wall and the building.|
 K Nezzliok|ACTIVE|584|M|23.26,9.77|QO|2|N|Work your way through the center of the Ruins to the ramp on the other side.\nSticking to the tall wall, clear the mobs as you walk up the ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.|
@@ -283,30 +287,31 @@ K Captain Keelhaul|ACTIVE|608|M|29.3,88.4|QO|2|N|You'll find Captain Keelhaul ab
 C Cortello's Riddle|AVAILABLE|624|ACTIVE|608|L|4056|N|Search the lower deck of the three pirate ships until you find this scroll.|US|
 R The Crystal Shore|ACTIVE|624^8551|M|36.03,70.46|N|Follow the shoreline north.|
 K Gorlash|ACTIVE|8551|M|36.43,70.77|L|3932|N|Kill Gorlash (lv 42 Elite) and loot the Chest.\n[color=FF0000]NOTE: [/color]He hits really hard and avoiding it as best you can is advised.|
-R The Ruins of Aboraz|ACTIVE|624^609|M|38.91,60.82|N|Continue north along the shoreline.\n[color=FF0000]NOTE: [/color]Watch oout for
-R Mistvale Valley|ACTIVE|571|M|33,63|
-C Mok'thardin's Enchantment|QID|571|M|31.6,67.3|N|Kill gorillas until the Aged Gorilla Sinew drops.|
-K JonJon The Crow|ACTIVE|609|M|34.88,51.90|QO|2|N|We're looking for JonJon The Crow . Clear the camp enough to pull him safely. We are also collecting Zanzil's Mixtures as we go.|
-K Maury Club-Foot Wilkins|ACTIVE|609|M|35.22,51.19|QO|1|N|Maury Club-Foot Wilkins is next, you may need to kill an add and run away, then come back to finish him off. We are also collecting Zanzil's Mixtures as we go.|
-R Ruins of Aboraz|ACTIVE|609|M|34.10,54.08|N|Go back south to then take the path to the east through a breached wall to the ruins (40,57).|
-K Chucky "Ten Thumbs"|ACTIVE|609|M|40.1,58.2|QO|3|N|Kill Zanzil Minions there until you find Chucky "Ten Thumbs" or (39.2,59.5) around the ruins. Kill him, of course, and loot his ring.|
-C Zanzil's Secret|QID|621|M|39.0,59.0|N|Keep killing Zanzil zombies until you get 12 Zanzil's Mixtures.|
-R Crystalvein Mine|ACTIVE|589|M|37,49|N|Head back to the road and follow it north to where there's a path headed east into the jungle. Follow the path to a cave, clearing basilisks as you go.|
-C The Singing Crystals|QID|589|M|42,50|N|Head into the cave and kill Ironjaw Basilisks until you've looted 3 Pulsing Blue Shards.|
-T Zanzil's Secret|QID|621|M|27.1,77.2|N|Turn on on the first floor of the inn.|
-H Salty Sailor Tavern|ACTIVE|608|M|29.5,72.5|N|Ride back to Booty Bay|
-T The Bloodsail Buccaneers|QID|608|M|27.18,77.01|N|To Fleet-Master Seahorn. You've finished this quest line!|
-T Voodoo Dues|QID|609|M|27.78,77.07|N|Turn this quest into Sea Wolf MacKinley.|
-
-F Stonard|ACTIVE|1420|N|A quick trip to find a scroll under a bridge.|
-T Report to Helgrum|QID|1420|M|47.9,55.0|Z|Swamp of Sorrows|
-A Cortello's Riddle|QID|624|M|23,48|Z|Swamp of Sorrows|N|From item in your bags.|U|4056|
-T Cortello's Riddle|QID|624|M|23,48|Z|Swamp of Sorrows|N|Under an ornate bridge west of Stonard is a soggy scroll. Get it to start the next part of the quest line.|
-A Cortello's Riddle|QID|625|M|22.9,48.2|Z|Swamp of Sorrows|PRE|624|
-
-F Grom'gol|ACTIVE|571^589|
-T Mok'thardin's Enchantment|QID|571|M|32.12,29.24|N|DON'T get the follow up.|
-T The Singing Crystals|QID|589|N|DON'T get the follow up.|
+R Ruins of Aboraz|ACTIVE|624^609|M|38.91,60.82|N|Continue north along the shoreline.|
+C Zanzil's Secret|QID|621|M|39.42,57.78|L|4016 12|N|Kill Zanzil mobs to collect Zanzil's Mixtures.|S|
+K Chucky "Ten Thumbs"|ACTIVE|609|M|40.00,58.25|QO|3|N|Locate him around the ruins and kill him to loot his ring.|
+R Gurubashi Arena|ACTIVE|608|M|34.13,54.13|N|Head west up the path out of the Ruins towards the main road.|
+R Southern Savage Coast|ACTIVE|573|M|32.1,60.8;29.55,57.93|CC|N|Follow the road south until you reach the west path. Continue along the path towards the bridge at the waterfall.|
+K Naga Explorer|ACTIVE|573|S|
+C Holy Spring Water|QID|573|M|29.04,62.13|L|737|N|Make your way across the bridge to the Holy Spring and loot the water.|
+K Naga Explorer|ACTIVE|573|US|
+R Ruins of Jubuwal|ACTIVE|608|M|32.1,60.8;33.77,52.06|CC|N|Head back to the main road and follow it north.|
+K JonJon The Crow|ACTIVE|609|M|34.88,51.90|QO|2|N|Clear the area around the bonfire until you can pull him safely.\n[color=FF0000]NOTE: [/color]If you get too close too soon, you'll aggro everyone. Start on the side furthest away.|
+K Maury Club-Foot Wilkins|ACTIVE|609|M|35.22,51.19|QO|1|N|Clear a path to the arch and try to pull one of the adds. Otherwise, you'll be fighting 1 or 2 adds with Maury. Clearing outside will prevent it getting any uglier.|
+C Zanzil's Secret|QID|621|M|34.40,51.43|L|4016 12|N|Finish collecting your Zanzil's Mixtures.|US|
+R Crystalvein Mine|ACTIVE|589|M|37.4,49.4;39.00,50.54|CC|N|Exit the Ruins and follow the road north until you come to the path headed east into the jungle. Follow the path until you see the cave.|
+C The Singing Crystals|QID|589|M|42.77,49.08|L|3911 3|N|Enter the cave and kill Ironjaw Basilisks until you've looted 3 Pulsing Blue Shards.|
+H The Salty Sailor Tavern|ACTIVE|608|M|29.34,72.83|N|Run back if your hearthstone is on cooldown.|
+T Zanzil's Secret|QID|621|M|27.12,77.21|N|To Crank Fizzlebub, beside the bar.|
+T Voodoo Dues|QID|609|M|27.78,77.07|N|To Sea Wolf MacKinley.|
+T The Bloodsail Buccaneers|QID|608|M|27.18,77.01|N|To Fleet-Master Seahorn on the balcony of the Inn.|
+F Stonard|ACTIVE|624|M|26.87,77.09|
+T Cortello's Riddle|QID|624|M|22.86,48.18|Z|Swamp of Sorrows|N|Follow the road west to the ornate bridge. Click on the soggy scroll under the bridge to turn it in.|
+A Cortello's Riddle|QID|625|M|22.86,48.18|Z|Swamp of Sorrows|N|From the Soggy Scroll.|PRE|624|
+R Stonard|ACTIVE|589|M|41.93,54.82|Z|Swamp of Sorrows|N|Return to Stonard.|
+F Grom'gol|ACTIVE|589|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk.|
+T Mok'thardin's Enchantment|QID|573|M|32.12,29.24|N|To Far Seer Mok'thardin.|
+T The Singing Crystals|QID|589|M|32.28,27.71|N|To Kin'weelay.|
 
 ;------002_43_44_Jame_Dustwallow_Marsh.lua--------------
 b Orgrimmar|ACTIVE|625|M|31.6,29.4|N|Take the zep back to Orgrimmar.|
