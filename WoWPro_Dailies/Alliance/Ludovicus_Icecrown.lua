@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoIceDaily",'Dailies', "Icecrown", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide ,25,25)
+WoWPro:GuideLevels(guide ,25,60)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Icecrown Dailies","Money")
 WoWPro:GuideSteps(guide, function()
 return [[
