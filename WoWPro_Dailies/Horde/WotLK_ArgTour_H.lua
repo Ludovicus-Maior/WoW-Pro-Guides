@@ -5,6 +5,7 @@
 
 
 local guide = WoWPro:RegisterGuide("WotLK_ArgTour_H",'Dailies', "Icecrown", "Ludovicus", "Horde")
+WoWPro:GuideLevels(guide ,25,60)
 WoWPro.Dailies:GuideFaction(guide,1124) --  "Argent Tournament"
 WoWPro:GuideSteps(guide, function()
 WoWPro:NoCache(guide)
