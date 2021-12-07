@@ -153,7 +153,6 @@ T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|N|From Far Seer Mok'thardin.|PRE|572|
 F Booty Bay|AVAILABLE|2864|M|32.54,29.35|
 A Tran'rek|QID|2864|M|26.94,77.21|N|From Krazek on the top floor of the Tavern.|
-;A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub by the bar on the first floor of the Tavern.|PRE|605|
 h Booty Bay|AVAILABLE|617|M|27.04,77.31|N|Set your hearthstone to Booty Bay.|
 A Akiris by the Bundle|QID|617|M|26.76,76.38|N|From Brivateer Bloads in front of the bank.\n[color=FF0000]NOTE: [/color]If he's not here, check at the top of the ramp. He paths up there every so often.|
 A Scaring Shaky|QID|606|M|27.78,77.07|N|From "Sea Wolf" MacKinley|

@@ -537,7 +537,6 @@ F Booty Bay|ACTIVE|1182|M|32.54,29.35|Z|Stranglethorn Vale|
 T Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 A Goblin Sponsorship|QID|1183|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz.|PRE|1182|
 T Bloodscalp Ears|QID|189|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
-;A Skullsplitter Tusks|QID|209|M|27.00,77.13|Z|Stranglethorn Vale|N|From Kebok.|PRE|189| --- Moved to Chapter 3 - Hendo72
 T Hostile Takeover|QID|213|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
 T Investigate the Camp|QID|201|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek.|
 T Supply and Demand|QID|575|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
@@ -595,6 +594,7 @@ T An Unusual Patron|QID|9457|M|31.97,28.60|Z|Stranglethorn Vale|N|To Nemeth Hawk
 F Booty Bay|ACTIVE|577|M|32.54,29.35|Z|Stranglethorn Vale|
 T Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik in the Leatherworking shop.|
 T Singing Blue Shards|QID|605|M|27.12,77.22|Z|Stranglethorn Vale|N|To Crank Fizzlebub.\n[color=FF0000]NOTE: [/color]He's standing beside the bar in the Tavern.|
+A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub.|PRE|605|
 N Bank/AH|ACTIVE|638|N|Before leaving for Dustwallow Marsh, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|IZ|503;Booty Bay|
 ;;; This section has been removed to reduce exp gain - Hendo72
 ;;; --- Kalimdor
