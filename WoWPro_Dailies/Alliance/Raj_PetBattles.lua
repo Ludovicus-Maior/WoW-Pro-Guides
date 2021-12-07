@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("RajiPetBattles",'Dailies', "Vale of Eternal Blossoms", "Rajitazi", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide ,1,60)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Pet Battle Dailies","Pets")
 WoWPro:GuideSteps(guide, function()
 return [[
