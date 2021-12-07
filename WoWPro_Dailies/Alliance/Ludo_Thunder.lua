@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoThunderKing",'Dailies', "Isle of Thunder", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,90,90,90)
+WoWPro:GuideLevels(guide ,32,60)
 WoWPro.Dailies:GuideFaction(guide,1387) --  "Kirin Tor Offensive"
 WoWPro:GuideSteps(guide, function()
 return [[

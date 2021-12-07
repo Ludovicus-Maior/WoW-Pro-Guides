@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoHonorPoints",'Dailies', "Grizzly Hills", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,73,73,73)
+WoWPro:GuideLevels(guide ,15,60)
 WoWPro.Dailies:GuideFaction(guide,1050) --  "Honor Points, Valiance Expedition"
 WoWPro:GuideSteps(guide, function()
 return [[

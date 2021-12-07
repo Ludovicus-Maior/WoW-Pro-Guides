@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoDomOffence",'Dailies', "Krasarang Wilds", "Ludovicus", "Horde")
-WoWPro:GuideLevels(guide,90,90,90)
+WoWPro:GuideLevels(guide ,15,60)
 WoWPro.Dailies:GuideFaction(guide,1375) --  "Dominance Offensive"
 WoWPro:GuideSteps(guide, function()
 return [[

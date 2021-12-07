@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("TwiTwiWil",'Dailies', "Twilight Highlands", "Twists", "Alliance")
-WoWPro:GuideLevels(guide,84,84,84)
+WoWPro:GuideLevels(guide ,30,60)
 WoWPro.Dailies:GuideFaction(guide,1174) --  "Wildhammer"
 WoWPro:GuideSteps(guide, function()
 return [[

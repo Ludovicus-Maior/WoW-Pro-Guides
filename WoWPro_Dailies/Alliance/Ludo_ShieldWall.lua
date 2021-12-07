@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoShieldWall",'Dailies', "Krasarang Wilds", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,90,90,90)
+WoWPro:GuideLevels(guide ,35,60)
 WoWPro.Dailies:GuideFaction(guide,1376) --  "Operation: Shieldwall"
 WoWPro:GuideSteps(guide, function()
 return [[
