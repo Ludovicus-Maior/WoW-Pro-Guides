@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("CraToBarPA",'Dailies', "Tol Barad Peninsula", "Crackerhead22", "Alliance")
-WoWPro:GuideLevels(guide,85,85,85)
+WoWPro:GuideLevels(guide ,35,35)
 WoWPro.Dailies:GuideFaction(guide,1177) --  "Tol Barad Peninsula Guide"
 WoWPro:GuideSteps(guide, function()
 return [[
