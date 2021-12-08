@@ -273,7 +273,7 @@ T The Fate of Yenniku|QID|588|M|32.28,27.71|N|To Kin'weelay.|
 A The Singing Crystals|QID|589|M|32.28,27.71|N|From Kin'weelay.|PRE|588|
 F Booty Bay|ACTIVE|209|M|32.54,29.35|Z|Stranglethorn Vale|
 T Skullsplitter Tusks|QID|209|M|27.00,77.13|N|To Kebok.|
-A The Captain's Chest|QID|8551|M|26.69,73.61|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Captain Hecklebury Smotts.\n[color=FF0000]NOTE: [/color]At your level, soloing shouldn't be too difficult.|RANK|3|
+A The Captain's Chest |QID|8551|M|26.69,73.61|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Captain Hecklebury Smotts.\n[color=FF0000]NOTE: [/color]At your level, soloing shouldn't be too difficult.|RANK|3|
 R The Cape of Stranglethorn|ACTIVE|608^8551|M|29.41,72.73|N|Head up the stairs and through the tunnel to the other side.|IZ|Booty Bay|
 R Wild Shore|ACTIVE|608^8551|M|32.53,72.89|N|Head east down the hill towards the water.|
 R Swim|ACTIVE|-624&608|M|34.44,85.51|CC|N|Enter the water and swim across to the island near the far left pirate ship.|
@@ -304,7 +304,7 @@ C The Singing Crystals|QID|589|M|42.77,49.08|L|3911 3|N|Enter the cave and kill 
 H The Salty Sailor Tavern|ACTIVE|608^609^621^8551|M|29.34,72.83|N|Run back if your hearthstone is on cooldown.|IZ|-Booty Bay|
 T Zanzil's Secret|QID|621|M|27.12,77.21|N|To Crank Fizzlebub, beside the bar.|
 T Voodoo Dues|QID|609|M|27.78,77.07|N|To Sea Wolf MacKinley.|
-T The Captain's Chest|QID|8551|M|26.69,73.61|N|To Captain Hecklebury Smotts.|
+T The Captain's Chest |QID|8551|M|26.69,73.61|N|To Captain Hecklebury Smotts.| ; == Auto-commplete seems to need that space in order to work - Hendo72
 T The Bloodsail Buccaneers|QID|608|M|27.18,77.01|N|To Fleet-Master Seahorn on the balcony of the Inn.|
 F Stonard|ACTIVE|624|M|26.87,77.09|
 T Cortello's Riddle|QID|624|M|22.86,48.18|Z|Swamp of Sorrows|N|Follow the road west to the ornate bridge. Click on the soggy scroll under the bridge to turn it in.|
