@@ -315,13 +315,14 @@ T Mok'thardin's Enchantment|QID|573|M|32.12,29.24|N|To Far Seer Mok'thardin.|
 T The Singing Crystals|QID|589|M|32.28,27.71|N|To Kin'weelay.|
 
 ;------002_43_44_Jame_Dustwallow_Marsh.lua--------------
-b Orgrimmar|ACTIVE|625|M|31.6,29.4|N|Take the zep back to Orgrimmar.|
-h Orgrimmar|ACTIVE|625|M|54.10,68.38|Z|Orgrimmar|N|At Innkeeper Gryshka.|
-F Brackenwall Village|ACTIVE|625|M|45.2,63.8|Z|Orgrimmar|N|At Doras.|TAXI|Brackenwall Village|
-F Camp Taurajo|ACTIVE|625|M|45.2,63.8|Z|Orgrimmar|N|At Doras.|TAXI|-Brackenwall Village|
-R Dustwallow Marsh|ACTIVE|625|M|32.9,45.6|Z|Dustwallow Marsh|N|Run south, then east at the Crossroad to Dustwallow Marsh.|TAXI|-Brackenwall Village|
-R Brackenwall Village|ACTIVE|625|M|36,32|Z|Dustwallow Marsh|N|Run North to Breckenwall Village.|TAXI|-Brackenwall Village|
-f Brackenwall Village|ACTIVE|625|M|35.6,31.8|Z|Dustwallow Marsh|N|At Shardi, Wind Rider Master.|TAXI|-Brackenwall Village|
+b Durotar|AVAILABLE|1166|M|31.37,30.15|N|Take the Zeppelin to Durotar.|
+R Orgrimmar|AVAILABLE|1166|M|49.15,95.09|Z|Orgrimmar|N|Enter Orgrimmar by the front gate.|
+h Orgrimmar|AVAILABLE|1166|M|54.10,68.38|Z|Orgrimmar|N|At Innkeeper Gryshka.|
+F Brackenwall Village|AVAILABLE|1166|M|45.2,63.8|Z|Orgrimmar|N|At Doras.|TAXI|Brackenwall Village|
+F Camp Taurajo|AVAILABLE|1166|M|45.2,63.8|Z|Orgrimmar|N|At Doras.|TAXI|-Brackenwall Village|
+R Dustwallow Marsh|AVAILABLE|1166|M|32.9,45.6|Z|Dustwallow Marsh|N|Run south, then east at the Crossroad to Dustwallow Marsh.|TAXI|-Brackenwall Village|
+R Brackenwall Village|AVAILABLE|1166|M|36,32|Z|Dustwallow Marsh|N|Run North to Breckenwall Village.|TAXI|-Brackenwall Village|
+f Brackenwall Village|AVAILABLE|1166|M|35.6,31.8|Z|Dustwallow Marsh|N|At Shardi, Wind Rider Master.|TAXI|-Brackenwall Village|
 A Overlord Mok'Morokk's Concern|QID|1166|M|36.3,31.4|Z|Dustwallow Marsh|N|Get this quest from Mok'Morokk who's standing by the bonfire.|
 A Army of the Black Dragon|QID|1168|M|37.4,31.4|Z|Dustwallow Marsh|N|Get this quest from Tharg next to the eastern exit of the village.|
 A Identifying the Brood|QID|1169|M|37.2,33.1|Z|Dustwallow Marsh|N|Get this quest from Draz'Zilb in the cave/inn.|
