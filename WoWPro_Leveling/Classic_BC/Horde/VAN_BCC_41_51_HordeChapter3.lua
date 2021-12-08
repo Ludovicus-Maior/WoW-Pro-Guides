@@ -273,7 +273,7 @@ T The Fate of Yenniku|QID|588|M|32.28,27.71|N|To Kin'weelay.|
 A The Singing Crystals|QID|589|M|32.28,27.71|N|From Kin'weelay.|PRE|588|
 F Booty Bay|ACTIVE|209|M|32.54,29.35|Z|Stranglethorn Vale|
 T Skullsplitter Tusks|QID|209|M|27.00,77.13|N|To Kebok.|
-A The Captain's Chest|QID|8551|M|26.69,73.61|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Captain Hecklebury Smotts.\n[color=FF0000]NOTE: [/color]At your level, soloing shouldn't be too difficult.|RANK|3|
+A The Captain's Chest |QID|8551|M|26.69,73.61|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Captain Hecklebury Smotts.\n[color=FF0000]NOTE: [/color]At your level, soloing shouldn't be too difficult.|RANK|3|
 R The Cape of Stranglethorn|ACTIVE|608^8551|M|29.41,72.73|N|Head up the stairs and through the tunnel to the other side.|IZ|Booty Bay|
 R Wild Shore|ACTIVE|608^8551|M|32.53,72.89|N|Head east down the hill towards the water.|
 R Swim|ACTIVE|-624&608|M|34.44,85.51|CC|N|Enter the water and swim across to the island near the far left pirate ship.|
@@ -291,18 +291,20 @@ C Zanzil's Secret|QID|621|M|39.42,57.78|L|4016 12|N|Kill Zanzil mobs to collect 
 K Chucky "Ten Thumbs"|ACTIVE|609|M|40.00,58.25|QO|3|N|Locate him around the ruins and kill him to loot his ring.|
 R Gurubashi Arena|ACTIVE|608|M|34.13,54.13|N|Head west up the path out of the Ruins towards the main road.|
 R Southern Savage Coast|ACTIVE|573|M|32.1,60.8;29.55,57.93|CC|N|Follow the road south until you reach the west path. Continue along the path towards the bridge at the waterfall.|
-K Naga Explorer|ACTIVE|573|S|
-C Holy Spring Water|QID|573|M|29.04,62.13|L|737|N|Make your way across the bridge to the Holy Spring and loot the water.|
-K Naga Explorer|ACTIVE|573|US|
+K Naga Explorer|ACTIVE|573|M|27.86,62.76|QO|1|S|
+R Nek'mani Wellspring|ACTIVE|573|M|27.0,59.6;27.50,62.93|CC|N|Make your way across the bridges and up the ramp to the arch.|
+C Holy Spring Water|QID|573|M|28.91,61.98|L|737|N|Cross the bridge to the Holy Spring and loot the water from it by clicking on the waterfall.|
+K Naga Explorer|ACTIVE|573|M|26.21,61.45|QO|1|US|
 R Ruins of Jubuwal|ACTIVE|608|M|32.1,60.8;33.77,52.06|CC|N|Head back to the main road and follow it north.|
 K JonJon The Crow|ACTIVE|609|M|34.88,51.90|QO|2|N|Clear the area around the bonfire until you can pull him safely.\n[color=FF0000]NOTE: [/color]If you get too close too soon, you'll aggro everyone. Start on the side furthest away.|
 K Maury Club-Foot Wilkins|ACTIVE|609|M|35.22,51.19|QO|1|N|Clear a path to the arch and try to pull one of the adds. Otherwise, you'll be fighting 1 or 2 adds with Maury. Clearing outside will prevent it getting any uglier.|
 C Zanzil's Secret|QID|621|M|34.40,51.43|L|4016 12|N|Finish collecting your Zanzil's Mixtures.|US|
 R Crystalvein Mine|ACTIVE|589|M|37.4,49.4;39.00,50.54|CC|N|Exit the Ruins and follow the road north until you come to the path headed east into the jungle. Follow the path until you see the cave.|
 C The Singing Crystals|QID|589|M|42.77,49.08|L|3911 3|N|Enter the cave and kill Ironjaw Basilisks until you've looted 3 Pulsing Blue Shards.|
-H The Salty Sailor Tavern|ACTIVE|608|M|29.34,72.83|N|Run back if your hearthstone is on cooldown.|
+H The Salty Sailor Tavern|ACTIVE|608^609^621^8551|M|29.34,72.83|N|Run back if your hearthstone is on cooldown.|IZ|-Booty Bay|
 T Zanzil's Secret|QID|621|M|27.12,77.21|N|To Crank Fizzlebub, beside the bar.|
 T Voodoo Dues|QID|609|M|27.78,77.07|N|To Sea Wolf MacKinley.|
+T The Captain's Chest |QID|8551|M|26.69,73.61|N|To Captain Hecklebury Smotts.| ; == Auto-commplete seems to need that space in order to work - Hendo72
 T The Bloodsail Buccaneers|QID|608|M|27.18,77.01|N|To Fleet-Master Seahorn on the balcony of the Inn.|
 F Stonard|ACTIVE|624|M|26.87,77.09|
 T Cortello's Riddle|QID|624|M|22.86,48.18|Z|Swamp of Sorrows|N|Follow the road west to the ornate bridge. Click on the soggy scroll under the bridge to turn it in.|
