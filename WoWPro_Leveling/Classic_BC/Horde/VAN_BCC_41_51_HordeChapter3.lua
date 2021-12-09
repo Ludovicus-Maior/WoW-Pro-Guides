@@ -314,7 +314,7 @@ F Grom'gol|ACTIVE|589|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk.|
 T Mok'thardin's Enchantment|QID|573|M|32.12,29.24|N|To Far Seer Mok'thardin.|
 T The Singing Crystals|QID|589|M|32.28,27.71|N|To Kin'weelay.|
 
-;------002_43_44_Jame_Dustwallow_Marsh.lua--------------
+; -- Dustwallow Marsh
 b Durotar|AVAILABLE|1166|M|31.37,30.15|N|Take the Zeppelin to Durotar.|
 R Orgrimmar|AVAILABLE|1166|M|49.15,95.09|Z|Orgrimmar|N|Enter Orgrimmar by the front gate.|
 h Orgrimmar|AVAILABLE|1166|M|54.10,68.38|Z|Orgrimmar|N|At Innkeeper Gryshka.|
@@ -323,10 +323,14 @@ F Camp Taurajo|AVAILABLE|1166|M|45.2,63.8|Z|Orgrimmar|N|At Doras.|TAXI|-Brackenw
 R Dustwallow Marsh|AVAILABLE|1166|M|32.9,45.6|Z|Dustwallow Marsh|N|Run south, then east at the Crossroad to Dustwallow Marsh.|TAXI|-Brackenwall Village|
 R Brackenwall Village|AVAILABLE|1166|M|36,32|Z|Dustwallow Marsh|N|Run North to Breckenwall Village.|TAXI|-Brackenwall Village|
 f Brackenwall Village|AVAILABLE|1166|M|35.6,31.8|Z|Dustwallow Marsh|N|At Shardi, Wind Rider Master.|TAXI|-Brackenwall Village|
-A Overlord Mok'Morokk's Concern|QID|1166|M|36.3,31.4|Z|Dustwallow Marsh|N|Get this quest from Mok'Morokk who's standing by the bonfire.|
-A Army of the Black Dragon|QID|1168|M|37.4,31.4|Z|Dustwallow Marsh|N|Get this quest from Tharg next to the eastern exit of the village.|
-A Identifying the Brood|QID|1169|M|37.2,33.1|Z|Dustwallow Marsh|N|Get this quest from Draz'Zilb in the cave/inn.|
-R The Den of Flame|ACTIVE|1166|M|40,67|Z|Dustwallow Marsh|N|Ride south to The Den of Flame.|
+A Overlord Mok'Morokk's Concern|QID|1166|M|36.29,31.41|Z|Dustwallow Marsh|N|Get this quest from Mok'Morokk who's standing by the bonfire.|
+A Army of the Black Dragon|QID|1168|M|37.37,31.39|Z|Dustwallow Marsh|N|Get this quest from Tharg next to the eastern exit of the village.|
+A Identifying the Brood|QID|1169|M|37.16,33.08|Z|Dustwallow Marsh|N|Get this quest from Draz'Zilb in the cave/inn.|
+F MudSprocket|ACTIVE|1166|M|35.56,31.88|Z|Dustwallow Marsh|TAXI|Mudsprocket|
+R The Den of Flame|ACTIVE|1166|M|40,67|Z|Dustwallow Marsh|N|Ride north to The Den of Flame.|TAXI|Mudsprocket|
+R Shady Rest Inn|ACTIVE|1166|M|30.24,47.12|Z|Dustwallow Marsh|CC|N|Follow the road south from Brackenwall to the fork in the road.|TAXI|-Mudsprocket|
+R The Dragonmurk|ACTIVE|1166|M|33.4,46.4;33.89,60.23|Z|Dustwallow Marsh|CC|N|Go east from the fork to the first intersection and continue south from here.|TAXI|-Mudsprocket|
+R The Den of Flame|ACTIVE|1166|M|37.46,63.48|Z|Dustwallow Marsh|N|Continue along the road.|TAXI|-Mudsprocket|
 C Army of the Black Dragon|QID|1168|M|40,67|Z|Dustwallow Marsh|N|Kill every Dragonkin you see, but you can avoid the elites if they are too tough, there are other non-elite scalebanes elsewher.|S|
 C Identifying the Brood|QID|1169|M|41.8,73.3|Z|Dustwallow Marsh|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town.|S|
 C Mok'Morokk's Grog|QID|1166|QO|2|M|39,66|Z|Dustwallow Marsh|NC|N|Get Mok'Morokk's Grog just outside the cave.|
@@ -339,9 +343,9 @@ T Cortello's Riddle|QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scro
 A Cortello's Riddle|QID|626|M|31.1,66.1|Z|Dustwallow Marsh|PRE|625|
 C Identifying the Brood|QID|1169|M|41.8,73.3|Z|Dustwallow Marsh|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town .|US|
 C Army of the Black Dragon|QID|1168|M|45,63;48,75|CN|Z|Dustwallow Marsh|N|Find what ever dragonkin you still need to complete this quest.|US|
-T Overlord Mok'Morokk's Concern|QID|1166|M|36.3,31.4|Z|Dustwallow Marsh|N|To Overlord Mok'Morokk.(unless there is someone to partner with, skip the followup)|
-T Army of the Black Dragon|QID|1168|M|37.4,31.4|Z|Dustwallow Marsh|N|To Tharg.|
-T Identifying the Brood|QID|1169|M|37.2,33.1|Z|Dustwallow Marsh|N|To Draz'Zilb.|
+T Overlord Mok'Morokk's Concern|QID|1166|M|36.29,31.41|Z|Dustwallow Marsh|N|To Overlord Mok'Morokk.(unless there is someone to partner with, skip the followup)|
+T Army of the Black Dragon|QID|1168|M|37.37,31.39|Z|Dustwallow Marsh|N|To Tharg.|
+T Identifying the Brood|QID|1169|M|37.16,33.08|Z|Dustwallow Marsh|N|To Draz'Zilb.|
 F Thunder Bluff|ACTIVE|1205|M|35.6,31.8|Z|Dustwallow Marsh|N|At Shardi, Wind Rider Master.|
 T Deadmire|QID|1205|M|61.5,80.9|Z|Thunder Bluff|N|To Melor Stonehoof on Hunters Rise.|
 F Gadgetzem|ACTIVE|2864|M|46.8,50|Z|Thunder Bluff|N|At Tal, Wind Rider Master.|
