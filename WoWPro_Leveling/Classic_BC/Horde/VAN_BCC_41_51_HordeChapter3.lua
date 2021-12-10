@@ -322,26 +322,33 @@ F Brackenwall Village|AVAILABLE|1166|M|45.2,63.8|Z|Orgrimmar|N|At Doras.|TAXI|Br
 F Camp Taurajo|AVAILABLE|1166|M|45.2,63.8|Z|Orgrimmar|N|At Doras.|TAXI|-Brackenwall Village|
 R Dustwallow Marsh|AVAILABLE|1166|M|32.9,45.6|Z|Dustwallow Marsh|N|Run south, then east at the Crossroad to Dustwallow Marsh.|TAXI|-Brackenwall Village|
 R Brackenwall Village|AVAILABLE|1166|M|36,32|Z|Dustwallow Marsh|N|Run North to Breckenwall Village.|TAXI|-Brackenwall Village|
-f Brackenwall Village|AVAILABLE|1166|M|35.6,31.8|Z|Dustwallow Marsh|N|At Shardi, Wind Rider Master.|TAXI|-Brackenwall Village|
+f Brackenwall Village|AVAILABLE|1166|M|35.56,31.88|Z|Dustwallow Marsh|N|At Shardi, Wind Rider Master.|TAXI|-Brackenwall Village|
 A Overlord Mok'Morokk's Concern|QID|1166|M|36.29,31.41|Z|Dustwallow Marsh|N|Get this quest from Mok'Morokk who's standing by the bonfire.|
 A Army of the Black Dragon|QID|1168|M|37.37,31.39|Z|Dustwallow Marsh|N|Get this quest from Tharg next to the eastern exit of the village.|
 A Identifying the Brood|QID|1169|M|37.16,33.08|Z|Dustwallow Marsh|N|Get this quest from Draz'Zilb in the cave/inn.|
-F Mudsprocket|ACTIVE|1166|M|35.56,31.88|Z|Dustwallow Marsh|TAXI|Mudsprocket|
-R The Den of Flame|ACTIVE|1166|M|40,67|Z|Dustwallow Marsh|N|Ride north to The Den of Flame.|TAXI|Mudsprocket|
-R Shady Rest Inn|ACTIVE|1166|M|30.24,47.12|Z|Dustwallow Marsh|CC|N|Follow the road south from Brackenwall to the fork in the road.|TAXI|-Mudsprocket|
-R The Dragonmurk|ACTIVE|1166|M|33.4,46.4;33.89,60.23|Z|Dustwallow Marsh|CC|N|Go east from the fork to the first intersection and continue south from here.|TAXI|-Mudsprocket|
-R The Den of Flame|ACTIVE|1166|M|37.46,63.48|Z|Dustwallow Marsh|N|Continue along the road.|TAXI|-Mudsprocket|
-C Army of the Black Dragon|QID|1168|M|40,67|Z|Dustwallow Marsh|N|Kill every Dragonkin you see, but you can avoid the elites if they are too tough, there are other non-elite scalebanes elsewher.|S|
-C Identifying the Brood|QID|1169|M|41.8,73.3|Z|Dustwallow Marsh|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town.|S|
-C Mok'Morokk's Grog|QID|1166|QO|2|M|39,66|Z|Dustwallow Marsh|NC|N|Get Mok'Morokk's Grog just outside the cave.|
-C Mok'Morokk's Strongbox|QID|1166|QO|3|M|36.63,69.55|Z|Dustwallow Marsh|NC|N|Continue into the cave to find the strong box.|
-R Stonemaul Ruins|ACTIVE|1166|M|40,67|Z|Dustwallow Marsh|N|After you have all the Scalebanes, go next door to the Stonemaul Ruins.|
-C Mok'Morokk's Snuff|QID|1166|QO|1|M|44.50,65.98|Z|Dustwallow Marsh|N|Head for the center of the fortress. That's where Mok'Morokk's snuff is. Keep killing whelps too.|
-K Deadmire|ACTIVE|1205|M|48,45;42,49|CN|Z|Dustwallow Marsh|N|Follow the river northeast to (48,45) then northwest to (42,49) until you find the crocolisk, Deadmire, then kill it and loot his tooth.|T|Deadmire|
-R Bloodfen Burrow|ACTIVE|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Continue killing everything as you head west towardsd Bloodfen Burrow.|
-T Cortello's Riddle|QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
-A Cortello's Riddle|QID|626|M|31.1,66.1|Z|Dustwallow Marsh|PRE|625|
-C Identifying the Brood|QID|1169|M|41.8,73.3|Z|Dustwallow Marsh|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town .|US|
+F Mudsprocket|AVAILABLE|11158|M|35.56,31.88|Z|Dustwallow Marsh|TAXI|Mudsprocket|
+R Shady Rest Inn|AVAILABLE|11158|M|30.24,47.12|CC|Z|Dustwallow Marsh|N|Follow the road south from Brackenwall to the fork in the road.|TAXI|-Mudsprocket|
+R The Dragonmurk|AVAILABLE|11158|M|33.4,46.4;33.89,60.23|CC|Z|Dustwallow Marsh|N|Go east from the fork to the first intersection and continue south from here.|TAXI|-Mudsprocket|
+R The Den of Flame|AVAILABLE|11158|M|37.46,63.48|Z|Dustwallow Marsh|N|Continue along the road.|TAXI|-Mudsprocket|
+R Mudsprocket|AVAILABLE|11158|M|40.0,61.8;40.6,68.8;41.87,72.46|CC|Z|Dustwallow Marsh|N|Make your to the sign post at the intersection and head south to the next sign post. Continue south along the road into Mudsprocket.|TAXI|-Mudsprocket|
+f Mudsprocket|AVAILABLE|11158|M|42.82,72.43|Z|Dustwallow Marsh|N|At Dyslix Silvergrub. He's outside the wall just east of the main entrance.|TAXI|-Mudsprocket|
+A Bloodfen Feathers|QID|11158|M|41.86,73.98|Z|Dustwallow Marsh|N|From Brogg, inside the Inn.|
+R The Den of Flame|ACTIVE|1168|M|40,67|Z|Dustwallow Marsh|N|Head north to The Den of Flame.|
+K Army of the Black Dragon|ACTIVE|1168|M|40,67|Z|Dustwallow Marsh|QO|1;2;3|N|Kill every Dragonkin you come across.\n[color=FF0000]NOTE: [/color]The Scalebanes are inside the Den of Flame cave.|S|
+C Identifying the Brood|QID|1169|M|41.8,73.3|Z|Dustwallow Marsh|QO|1;2|N|Kill whelps and hatchlings to loot the Tongues and Hearts.|S|
+C Mok'Morokk's Grog|QID|1166|M|38.66,65.57|Z|Dustwallow Marsh|L|5835|N|Loot Mok'Morokk's Grog just outside the cave entrance.|
+C Mok'Morokk's Strongbox|QID|1166|M|36.64,69.57|Z|Dustwallow Marsh|L|5836|N|Staying to the left side, head into the cave to find the Strongbox.|
+C Army of the Black Dragon|QID|1168|M|37.40,68.52|Z|Dustwallow Marsh|QO|3|N|Finish killing the Scalebane.|
+R Stonemaul Ruins|ACTIVE|1166|M|41.13,67.74|Z|Dustwallow Marsh|N|Exit Den of Flames and follow the road east into Stonemaul Ruins.|
+C Mok'Morokk's Snuff|QID|1166|M|44.53,66.04|Z|Dustwallow Marsh|L|5834|N|Mok'Morokk's snuff is in the center of the fortress.|
+C Bloodfen Feathers|QID|11158|M|33.93,67.51|Z|Dustwallow Marsh|L|330855|N|Kill Bloodfen raptors to loot the feathers.|S|
+R Bloodfen Burrow|ACTIVE|625|M|34.94,64.94|Z|Dustwallow Marsh|N|Exit Stonemaul and make your way to the west side of Den of Flames.\n You can either follow the road around the north, follow the river around the south, or take a chance and run straight thorugh Den of Flames.|
+T Cortello's Riddle|QID|625|M|31.10,66.15|Z|Dustwallow Marsh|N|Once you've cleared the cave, click on the Musty Scroll.|
+A Cortello's Riddle|QID|626|M|31.10,66.15|Z|Dustwallow Marsh|N|From the Musty Scroll.|PRE|625|
+C Bloodfen Feathers|QID|11158|M|33.93,67.51|Z|Dustwallow Marsh|L|330855|N|Finish collecting the feathers.|US|
+R Tabetha's Farm|ACTIVE|1205|M|40.0,61.8;45.95,58.02|Z|Dustwallow Marsh|CC|N|head back to the road and follow it east. At the intersection, turn east (left) and follow the sign post. The road will lead right there.|
+K Deadmire|ACTIVE|1205|M|50.89,53.55|Z|Dustwallow Marsh|QO|1|N|Locate Deadmire and kill him to loot his tooth.\n[color=FF0000]NOTE: [/color]Deadmire is a white Lv 41 Crocolisk that roams the area in a circlish pattern between Tabetha's Farm in the south and Beezil's Wreck to the north.|T|Deadmire|
+C Identifying the Brood|QID|1169|M|46.01,74.10|Z|Dustwallow Marsh|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town.|US|
 C Army of the Black Dragon|QID|1168|M|45,63;48,75|CN|Z|Dustwallow Marsh|N|Find what ever dragonkin you still need to complete this quest.|US|
 T Overlord Mok'Morokk's Concern|QID|1166|M|36.29,31.41|Z|Dustwallow Marsh|N|To Overlord Mok'Morokk.(unless there is someone to partner with, skip the followup)|
 T Army of the Black Dragon|QID|1168|M|37.37,31.39|Z|Dustwallow Marsh|N|To Tharg.|
