@@ -429,7 +429,8 @@ R Tarren Mill|ACTIVE|7321|M|60.35,21.10|Z|Hillsbrad Foothills|N|Make your way ba
 ; --- Thunder Bluff
 H Orgrimmar|ACTIVE|1136|N|Use your hearth to save time. If it's on CD, run back to Tarren Mills, fly to Undercity and take the Zeppelin to Orgrimmar.|
 F Thunder Bluff|ACTIVE|1136|M|45.13,63.90|Z|Orgrimmar|
-T Frostmaw|QID|1136|M|61.54,80.92|Z|Thunder Bluff|N|To Melor Stonehoof on Hunter Rise.\nDo not get Deadmire.|
+T Frostmaw|QID|1136|M|61.54,80.92|Z|Thunder Bluff|N|To Melor Stonehoof on Hunter Rise.|
+A Deadmire|QID|1205|M|61.54,80.92|Z|Thunder Bluff|N|From Melor Stonehoof.|PRE|1136|
 * Kodo Skin Scroll|AVAILABLE|-1136|N|You safely delete your Kodo Skin Scroll now.|U|5838|
 
 ; --- Stranglethorn Vale
@@ -672,7 +673,7 @@ R The Dragonmurk|ACTIVE|11213^11215|M|33.4,46.4;33.89,60.23|Z|Dustwallow Marsh|C
 R The Den of Flame|ACTIVE|11213^11215|M|37.46,63.48|Z|Dustwallow Marsh|N|Continue along the road.|
 R Tabetha's Farm|ACTIVE|11213^11215|M|40.0,61.8;45.95,58.02|Z|Dustwallow Marsh|CC|N|At the intersection, turn east (left) and follow the sign post. The road will lead right there.|
 T Check Up on Tabetha|QID|11213|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha inside the house.|
-R Mudsprocket|ACTIVE|11215|M|40.0,61.8;40.6,68.8;41.87,72.46|Z|Dustwallow Marsh|CC|N|Head back to the sign post at the intersection and head south to the next sign post..|
+R Mudsprocket|ACTIVE|11215|M|40.0,61.8;40.6,68.8;41.87,72.46|Z|Dustwallow Marsh|CC|N|Head back to the sign post at the intersection and head south to the next sign post.|
 T Help Mudsprocket|QID|11215|M|42.33,72.93|Z|Dustwallow Marsh|N|To Drazzit Dripvalve.|
 f Mudsprocket|AVAILABLE|1273|M|42.82,72.43|Z|Dustwallow Marsh|N|At Dyslix Silvergrub. He's outside the wall just east of the main entrance.|TAXI|-Mudsprocket|
 ; -- Eliminated finishing Witch Hill dirt pile quest chain - Hendo72
