@@ -42,6 +42,7 @@
 	<Script file="SL_Bastion.lua"/>
 	<Script file="SL_Chains_of_Domination.lua"/>
 	<Script file="SL_Covenant.lua"/>
+	<Script file="SL_Eternitys_End.lua"/>
 	<Script file="SL_Maldraxxus.lua"/>
 	<Script file="SL_Maw_Intro.lua"/>
 	<Script file="SL_Revendreth.lua"/>
