@@ -341,21 +341,30 @@ C Mok'Morokk's Strongbox|QID|1166|M|36.64,69.57|Z|Dustwallow Marsh|L|5836|N|Stay
 C Army of the Black Dragon|QID|1168|M|37.40,68.52|Z|Dustwallow Marsh|QO|3|N|Finish killing the Scalebane.|
 R Stonemaul Ruins|ACTIVE|1166|M|41.13,67.74|Z|Dustwallow Marsh|N|Exit Den of Flames and follow the road east into Stonemaul Ruins.|
 C Mok'Morokk's Snuff|QID|1166|M|44.53,66.04|Z|Dustwallow Marsh|L|5834|N|Mok'Morokk's snuff is in the center of the fortress.|
+K Army of the Black Dragon|QID|1168|M|44.53,66.04|Z|Dustwallow Marsh|N|Finish killing any dragonkin you still need.|US|
 C Bloodfen Feathers|QID|11158|M|33.93,67.51|Z|Dustwallow Marsh|L|330855|N|Kill Bloodfen raptors to loot the feathers.|S|
-R Bloodfen Burrow|ACTIVE|625|M|34.94,64.94|Z|Dustwallow Marsh|N|Exit Stonemaul and make your way to the west side of Den of Flames.\n You can either follow the road around the north, follow the river around the south, or take a chance and run straight thorugh Den of Flames.|
+R Bloodfen Burrow|ACTIVE|625|M|34.94,64.94|Z|Dustwallow Marsh|N|Exit Stonemaul and make your way to the west side of Den of Flames.\nYou can either follow the road around the north, follow the river around the south, or take a chance and run straight through Den of Flames.|
 T Cortello's Riddle|QID|625|M|31.10,66.15|Z|Dustwallow Marsh|N|Once you've cleared the cave, click on the Musty Scroll.|
 A Cortello's Riddle|QID|626|M|31.10,66.15|Z|Dustwallow Marsh|N|From the Musty Scroll.|PRE|625|
 C Bloodfen Feathers|QID|11158|M|33.93,67.51|Z|Dustwallow Marsh|L|330855|N|Finish collecting the feathers.|US|
 R Tabetha's Farm|ACTIVE|1205|M|40.0,61.8;45.95,58.02|Z|Dustwallow Marsh|CC|N|head back to the road and follow it east. At the intersection, turn east (left) and follow the sign post. The road will lead right there.|
 K Deadmire|ACTIVE|1205|M|50.89,53.55|Z|Dustwallow Marsh|QO|1|N|Locate Deadmire and kill him to loot his tooth.\n[color=FF0000]NOTE: [/color]Deadmire is a white Lv 41 Crocolisk that roams the area in a circlish pattern between Tabetha's Farm in the south and Beezil's Wreck to the north.|T|Deadmire|
 C Identifying the Brood|QID|1169|M|46.01,74.10|Z|Dustwallow Marsh|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town.|US|
-C Army of the Black Dragon|QID|1168|M|45,63;48,75|CN|Z|Dustwallow Marsh|N|Find what ever dragonkin you still need to complete this quest.|US|
-T Overlord Mok'Morokk's Concern|QID|1166|M|36.29,31.41|Z|Dustwallow Marsh|N|To Overlord Mok'Morokk.(unless there is someone to partner with, skip the followup)|
-T Army of the Black Dragon|QID|1168|M|37.37,31.39|Z|Dustwallow Marsh|N|To Tharg.|
+R Mudsprocket|ACTIVE|11158|M|42.63,73.75|Z|Dustwallow Marsh|
+T Bloodfen Feathers|QID|11158|M|41.86,73.98|Z|Dustwallow Marsh|N|To Brogg, inside the Inn.|
+F Brackenwall Village|ACTIVE|1166|M|42.82,72.43|Z|Dustwallow Marsh|
 T Identifying the Brood|QID|1169|M|37.16,33.08|Z|Dustwallow Marsh|N|To Draz'Zilb.|
-F Thunder Bluff|ACTIVE|1205|M|35.6,31.8|Z|Dustwallow Marsh|N|At Shardi, Wind Rider Master.|
-T Deadmire|QID|1205|M|61.5,80.9|Z|Thunder Bluff|N|To Melor Stonehoof on Hunters Rise.|
-F Gadgetzem|ACTIVE|2864|M|46.8,50|Z|Thunder Bluff|N|At Tal, Wind Rider Master.|
+A The Brood of Onyxia|QID|1170|M|37.16,33.08|Z|Dustwallow Marsh|N|From Draz'Zilb.|PRE|1169|
+T Army of the Black Dragon|QID|1168|M|37.37,31.39|Z|Dustwallow Marsh|N|To Tharg.|
+T Overlord Mok'Morokk's Concern|QID|1166|M|36.29,31.41|Z|Dustwallow Marsh|N|To Overlord Mok'Morokk.|
+T The Brood of Onyxia|QID|1170|M|36.29,31.41|Z|Dustwallow Marsh|N|To Overlord Mok'Morokk.|
+A The Brood of Onyxia|QID|1171|M|36.29,31.41|Z|Dustwallow Marsh|N|From Overlord Mok'Morokk.|PRE|1170|
+T The Brood of Onyxia|QID|1171|M|37.16,33.08|Z|Dustwallow Marsh|N|To Draz'Zilb.\n[color=FF0000]NOTE: [/color]Do not get the follow-up because we're done with Dustwallow Marsh.|
+F Thunder Bluff|ACTIVE|1205|M|35.56,31.88|Z|Dustwallow Marsh|
+T Deadmire|QID|1205|M|61.54,80.92|Z|Thunder Bluff|N|To Melor Stonehoof on Hunters Rise.|
+F Gadgetzan|ACTIVE|2864|M|47.02,49.83|Z|Thunder Bluff|TAXI|Gadgetzan|
+F Freewind Post|ACTIVE|2864|M|47.02,49.83|Z|Thunder Bluff|TAXI|-Gadgetzan|
+
 ; -- Tanaris
 h Gadgetzan|ACTIVE|2864|M|52.5,27.9|Z|Tanaris|N|Set your hearthstone to Gadgetzan|
 T Tran'rek|QID|2864|M|51.6,26.8|Z|Tanaris|N|To Tran'rek. (skip follow up)|
