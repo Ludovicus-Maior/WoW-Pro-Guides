@@ -348,7 +348,10 @@ T Cortello's Riddle|QID|625|M|31.10,66.15|Z|Dustwallow Marsh|N|Once you've clear
 A Cortello's Riddle|QID|626|M|31.10,66.15|Z|Dustwallow Marsh|N|From the Musty Scroll.|PRE|625|
 C Bloodfen Feathers|QID|11158|M|33.93,67.51|Z|Dustwallow Marsh|L|330855|N|Finish collecting the feathers.|US|
 R Tabetha's Farm|ACTIVE|1205|M|40.0,61.8;45.95,58.02|Z|Dustwallow Marsh|CC|N|head back to the road and follow it east. At the intersection, turn east (left) and follow the sign post. The road will lead right there.|
-K Deadmire|ACTIVE|1205|M|50.89,53.55|Z|Dustwallow Marsh|QO|1|N|Locate Deadmire and kill him to loot his tooth.\n[color=FF0000]NOTE: [/color]Deadmire is a white Lv 41 Crocolisk that roams the area in a circlish pattern between Tabetha's Farm in the south and Beezil's Wreck to the north.|T|Deadmire|
+K Deadmire|ACTIVE|1205|M|50.89,53.55|Z|Dustwallow Marsh|QO|1|N|Locate Deadmire and kill him to loot his tooth.\n[color=FF0000]NOTE: [/color]Deadmire is a white Lv 41 Crocolisk.|T|Deadmire|S|
+R Beezil's Wreck|ACTIVE|1205^1187|M|50.04,58.66|Z|Dustwallow Marsh|N|Follow the road east from Tabetha's Farm.|
+C Gizmorium Shipping Crate|QID|1187|M|53.5,56.9;54.07,56.49|CC|Z|Dustwallow Marsh|L|5862|N|Continue following the road until you reach Beezil's Camp. The crate is located in the wreckage of Beezil's ship. Click on it to loot the Seaforium Booster.|
+K Deadmire|ACTIVE|1205|M|50.89,53.55|Z|Dustwallow Marsh|QO|1|N|Locate Deadmire and kill him to loot his tooth.\n[color=FF0000]NOTE: [/color]Deadmire is a white Lv 41 Crocolisk that roams the area in a circlish pattern between Tabetha's Farm in the south and Beezil's Wreck to the north.|T|Deadmire|US|
 C Identifying the Brood|QID|1169|M|46.01,74.10|Z|Dustwallow Marsh|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town.|US|
 R Mudsprocket|ACTIVE|11158|M|42.63,73.75|Z|Dustwallow Marsh|
 T Bloodfen Feathers|QID|11158|M|41.86,73.98|Z|Dustwallow Marsh|N|To Brogg, inside the Inn.|
