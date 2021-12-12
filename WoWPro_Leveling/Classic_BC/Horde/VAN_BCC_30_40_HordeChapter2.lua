@@ -251,7 +251,7 @@ T Goblin Sponsorship|QID|1180|M|26.35,73.56|Z|Stranglethorn Vale|N|To Wharfmaste
 A Goblin Sponsorship|QID|1181|M|26.35,73.56|Z|Stranglethorn Vale|N|From Wharfmaster Lozgil.|PRE|1180|
 R The Salty Sailor Tavern|ACTIVE|1181|M|27.07,77.60|Z|Stranglethorn Vale|N|Make your way around the dock to the Inn on the opposite side.|
 T Goblin Sponsorship|QID|1181|M|27.23,76.88|Z|Stranglethorn Vale|N|To Baron Revilgaz.\n[color=FF0000]NOTE: [/color]Work your way through the Salty Sailor Tavern up to the deck.|
-A Goblin Sponsorship|QID|1182|M|27.23,76.88|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
+A Goblin Sponsorship|QID|1182|M|27.23,76.88|Z|Stranglethorn Vale|N|From Baron Revilgaz.|PRE|1181|
 f Booty Bay|ACTIVE|1112|M|26.87,77.09|Z|Stranglethorn Vale|N|At Gringer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue if it doesn't auto-complete.|TAXI|-Booty Bay|
 
 ; --- Thousand Needles
@@ -549,7 +549,9 @@ F Freewind Post|ACTIVE|1183|M|63.09,37.16|Z|The Barrens|
 R Mirage Raceway|ACTIVE|1183|M|80.34,77.10|N|Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
 T Goblin Sponsorship|QID|1183|M|80.18,75.89|N|To Pozzik.|
 A The Eighteenth Pilot|QID|1186|M|80.18,75.89|N|From Pozzik.|PRE|1183|
-T The Eighteenth Pilot|QID|1186|M|80.31,76.06|N|To Razzeric.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
+T The Eighteenth Pilot|QID|1186|M|80.31,76.06|N|To Razzeric.|
+A Razzeric's Tweaking|QID|1187|M|80.99,76.09|Z|Thousand Needles|N|From Razzeric.|PRE|1186|
+
 ; --- The Barrens
 H Orgrimmar|ACTIVE|569|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
 F Thunder Bluff|ACTIVE|569|M|45.50,63.84|Z|Orgrimmar|C|Druid|
