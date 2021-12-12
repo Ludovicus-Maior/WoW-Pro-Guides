@@ -369,8 +369,8 @@ R Mirage Raceway|ACTIVE|1137|M|80.34,77.10|Z|Thousand Needles|N|Make your way ea
 T News for Fizzle|QID|1137|M|78.06,77.13|Z|Thousand Needles|N|To Fizzle Brassbolts.|
 A Gahz'rilla|QID|2770|M|78.15,77.12|Z|Thousand Needles|N|From Wizzle Brassbolts.|
 A Keeping Pace|QID|1190|M|80.18,75.89|Z|Thousand Needles|N|From Pozzik.|PRE|1137|
-T Razzeric's Tweaking|QID|1187|M|80.99,76.09Z|Thousand Needles|N|To Razzeric.|
-A Safety Firs|QID|1188|M|80.99,76.09Z|Thousand Needles|N|From Razzeric.|PRE|1187|
+T Razzeric's Tweaking|QID|1187|M|80.99,76.09|Z|Thousand Needles|N|To Razzeric.|
+A Safety Firs|QID|1188|M|80.99,76.09|Z|Thousand Needles|N|From Razzeric.|PRE|1187|
 T Zamek's Distraction|QID|1191|M|79.81,77.03|Z|Thousand Needles|N|To Zamek.\n[color=FF0000]NOTE: [/color]This repeatable quest is auto-accepted when you accept Keeping Pace.|
 C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving. Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.|
 T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
