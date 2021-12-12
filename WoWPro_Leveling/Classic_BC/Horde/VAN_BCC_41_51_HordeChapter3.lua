@@ -362,9 +362,20 @@ A The Brood of Onyxia|QID|1171|M|36.29,31.41|Z|Dustwallow Marsh|N|From Overlord 
 T The Brood of Onyxia|QID|1171|M|37.16,33.08|Z|Dustwallow Marsh|N|To Draz'Zilb.\n[color=FF0000]NOTE: [/color]Do not get the follow-up because we're done with Dustwallow Marsh.|
 F Thunder Bluff|ACTIVE|1205|M|35.56,31.88|Z|Dustwallow Marsh|
 T Deadmire|QID|1205|M|61.54,80.92|Z|Thunder Bluff|N|To Melor Stonehoof on Hunters Rise.|
-F Gadgetzan|ACTIVE|2864|M|47.02,49.83|Z|Thunder Bluff|TAXI|Gadgetzan|
-F Freewind Post|ACTIVE|2864|M|47.02,49.83|Z|Thunder Bluff|TAXI|-Gadgetzan|
-
+;F Gadgetzan|ACTIVE|2864|M|47.02,49.83|Z|Thunder Bluff|TAXI|Gadgetzan|
+F Freewind Post|ACTIVE|2864|M|47.02,49.83|Z|Thunder Bluff|
+R Ironstone Camp|ACTIVE|1137|M|67.72,63.73|Z|Thousand Needles|N|It's located on the edge of the Shimmering Flats. Follow the road to the east and you'll find it.\n[color=FF0000]NOTE: [/color]You'll get to a point where the road veers left. Stick to the right and follow the canyon wall from here.|
+R Mirage Raceway|ACTIVE|1137|M|80.34,77.10|Z|Thousand Needles|N|Make your way east across the Shimmering Flats to the Mirage Raceway in the middle of it.|
+T News for Fizzle|QID|1137|M|78.06,77.13|Z|Thousand Needles|N|To Fizzle Brassbolts.|
+A Gahz'rilla|QID|2770|M|78.15,77.12|Z|Thousand Needles|N|From Wizzle Brassbolts.|
+A Keeping Pace|QID|1190|M|80.18,75.89|Z|Thousand Needles|N|From Pozzik.|PRE|1137|
+T Razzeric's Tweaking|QID|1187|M|80.99,76.09|Z|Thousand Needles|N|To Razzeric.|
+A Safety Firs|QID|1188|M|80.99,76.09|Z|Thousand Needles|N|From Razzeric.|PRE|1187|
+T Zamek's Distraction|QID|1191|M|79.81,77.03|Z|Thousand Needles|N|To Zamek.\n[color=FF0000]NOTE: [/color]This repeatable quest is auto-accepted when you accept Keeping Pace.|
+C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving. Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.|
+T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
+A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|Thousand Needles|N|From Unguarded Plans.|PRE|1190|
+T Rizzle's Schematics|QID|1194|M|80.18,75.89|Z|Thousand Needles|N|To Pozzik.|
 ; -- Tanaris
 h Gadgetzan|ACTIVE|2864|M|52.5,27.9|Z|Tanaris|N|Set your hearthstone to Gadgetzan|
 T Tran'rek|QID|2864|M|51.6,26.8|Z|Tanaris|N|To Tran'rek. (skip follow up)|
@@ -395,11 +406,11 @@ R Mirage Raceway|ACTIVE|1137|M|80,75|Z|Thousand Needles|N|Continue North to the 
 T News for Fizzle|QID|1137|M|78.1,77.1|Z|Thousand Needles|N|To Fizzle Brassbolts.|
 A Gahz'rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
 ; T Goblin Sponsorship|
-A Keeping Pace|QID|1190|M|80.2,75.9|Z|Thousand Needles|N|From Pozzik.|PRE|1137|
+A Keeping Pace|QID|1190|M|80.18,75.89|Z|Thousand Needles|N|From Pozzik.|PRE|1137|
 C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving. Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.|
 T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
 A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|Thousand Needles|N|From Unguarded Plans.|PRE|1190|
-T Rizzle's Schematics|QID|1194|M|80.2,75.9|Z|Thousand Needles|N|To Pozzik.|
+T Rizzle's Schematics|QID|1194|M|80.18,75.89|Z|Thousand Needles|N|To Pozzik.|
 ; -- Feralas
 H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan.|TAXI|Camp Mojache|
 F Camp Mojache|ACTIVE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|TAXI|Camp Mojache|
