@@ -379,14 +379,10 @@ A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|Thousand Needles|N|From Rizzle's Un
 T Rizzle's Schematics|QID|1194|M|80.18,75.89|Z|Thousand Needles|N|To Pozzik.|
 ; -- Tanaris
 R Tanaris|ACTIVE|2864|M|51.26,20.88|Z|Tanaris|N|Make your way to the south end of Shimmering Flats and follow the torches to Tanaris.|
-R Gadgetzan|ACTIVE|2864|M|51.26,26.49|Z|Tanaris|N|Continue following the torches until you clear the mountains and then make your way to Gadgetzan.|
-h Gadgetzan|ACTIVE|2864|M|52.50,27.91|Z|Tanaris|N|At Innkeeper Fizzgrimble.|
-T Tran'rek|QID|2864|M|51.6,26.8|Z|Tanaris|N|To Tran'rek. (skip follow up)|
-;make sure this quest is acquired...it should be in the earlier part of the guide... STV@43----
-;T Into the Field|QID|243|M|52.5,28.5|Z|Tanaris|
-;A Slake That Thirst|QID|379|M|52.5,28.5|Z|Tanaris|
-A Wastewander Justice|QID|1690|M|52.5,28.5|Z|Tanaris|
-A Water Pouch Bounty|QID|1707|M|52.5,28.5|Z|Tanaris|
+R Gadgetzan|ACTIVE|2864|M|51.26,26.49|Z|Tanaris|N|Continue following the torches until you clear the mountains and make your way to Gadgetzan.|
+T Tran'rek|QID|2864|M|51.57,26.76|Z|Tanaris|N|To Tran'rek. (skip follow up)|
+A Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhistle.|
+A Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|From Spigot Operator Luglunket.|
 h Gadgetzan|ACTIVE|2872|M|52.50,27.90|Z|Tanaris|N|Make Gadgetzan your home location.|
 r Sell, Restock, Repair|N|Headed out for a bit, be prepared.|
 N If you find...|AVAILABLE|351|L|8623|N|OOX-17/TN is a reletavely rare zone Drop, if you find it accept the quest.|S!US|
@@ -400,20 +396,9 @@ T Stoley's Debt|QID|2872|M|67.1,23.9|Z|Tanaris|N|To Stoley.|
 A Stoley's Shipment|QID|2873|M|67.1,23.9|Z|Tanaris|N|From Stoley.|PRE|2872|
 C Water Pouch Bounty|QID|1707|M|61.00,24.00|Z|Tanaris|N|Go back to Noonshade Ruins and kill Bandits here to get the water pouches for this quest. More to southwest if it's too crowded with other players here.|
 C Wastewander Justice|QID|1690|Z|Tanaris|N|Kill the rest of the mobs needed for this quest.|
-;T Slake That Thirst|QID|379|M|52.5,28.5|Z|Tanaris|N|Return to Gadgetzan. Do NOT get the follow up to this.|
-T Water Pouch Bounty|QID|1707|M|52.5,28.5|Z|Tanaris|N|To Spigot Operator Luglunket. Now repeatable for 10 faction, but no XP so not recommended.|
-T Wastewander Justice|QID|1690|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-A More Wastewander Justice|QID|1691|M|52.5,28.5|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|PRE|1690|
-R Thousand Needles|ACTIVE|1137|M|51.00,18.00|Z|Tanaris|N|Run north to Thousand Needles.|
-R Mirage Raceway|ACTIVE|1137|M|80,75|Z|Thousand Needles|N|Continue North to the Mirage Raceway.|
-T News for Fizzle|QID|1137|M|78.1,77.1|Z|Thousand Needles|N|To Fizzle Brassbolts.|
-A Gahz'rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
-; T Goblin Sponsorship|
-A Keeping Pace|QID|1190|M|80.18,75.89|Z|Thousand Needles|N|From Pozzik.|PRE|1137|
-C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving. Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.|
-T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
-A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|Thousand Needles|N|From Unguarded Plans.|PRE|1190|
-T Rizzle's Schematics|QID|1194|M|80.18,75.89|Z|Thousand Needles|N|To Pozzik.|
+T Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|To Spigot Operator Luglunket. Now repeatable for 10 faction, but no XP so not recommended.|
+T Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
+A More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|PRE|1690|
 ; -- Feralas
 H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan.|TAXI|Camp Mojache|
 F Camp Mojache|ACTIVE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|TAXI|Camp Mojache|
@@ -522,13 +507,13 @@ T Pirate Hats Ahoy!|QID|8365|M|66.6,22.3|Z|Tanaris|N|To Haughty Modiste.|
 T Screecher Spirits|QID|3520|M|67.0,22.4|Z|Tanaris|N|To Yeh'kinya.|
 A The Prophecy of Mosh'aru|QID|3527|M|67.0,22.4|Z|Tanaris|N|From Yeh'kinya.|PRE|3520|
 H Gadgetzan|ACTIVE|1691|M|52.50,27.90|Z|Tanaris|N|Hearth or run back to Gadgetzen.|
-T More Wastewander Justice|QID|1691|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-T WANTED: Caliph Scorpidsting|QID|2781|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-t Water Pouch Bounty|QID|1707|M|52.4,28.4|Z|Tanaris|N|To Spigot Operator Luglunket as many times as you can.|
+T More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
+T WANTED: Caliph Scorpidsting|QID|2781|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
+t Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|To Spigot Operator Luglunket as many times as you can.|
 A Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 A The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|
 A The Dunemaul Compound|QID|5863|M|52.8,27.4|Z|Tanaris|N|From Andi Lynn.|
-A Thistleshrub Valley|QID|3362|M|51.6,26.8|Z|Tanaris|N|From Tran'Rek|
+A Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|From Tran'Rek|
 C Gadgetzan Water Survey|QID|992|M|39.05,29.15|Z|Tanaris|N|Use the Untapped Dowsing Widget on the pool at this location.|U|8584|
 T Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|To Senior Survey Fizzledowser.|
 A Noxious Lair Investigation|QID|82|M|50.2,27.5|Z|Tanaris|N|From Senior Survey Fizzledowser.|PRE|992|
@@ -560,7 +545,7 @@ H Gadgetzan|ACTIVE|82|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen
 T The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|To Marin Noggenfogger.|
 A In Good Taste|QID|2606|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|PRE|2605|
 T The Dunemaul Compound|QID|5863|M|52.8,27.4|Z|Tanaris|N|To Andi Lynn.|
-T Thistleshrub Valley|QID|3362|M|51.6,26.8|Z|Tanaris|N|TO Tran'Rek.|
+T Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|TO Tran'Rek.|
 T In Good Taste|QID|2606|M|51.1,26.9|Z|Tanaris|N|To Sprinkle.|
 A Sprinkle's Secret Ingredient|QID|2641|M|51.1,26.9|Z|Tanaris|N|From Sprinkle.|PRE|2606|
 T Noxious Lair Investigation|QID|82|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
