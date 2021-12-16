@@ -407,11 +407,12 @@ T Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|To Spigot Operator Luglu
 T Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 A More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|PRE|1690|
 ; -- Feralas
-H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan.|TAXI|Camp Mojache|
-F Camp Mojache|ACTIVE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|TAXI|Camp Mojache|
-R Feralas|ACTIVE|3520|M|88,43|Z|Feralas|N|Ride northwest through Thousand Needles and into Feralas.|TAXI|-Camp Mojache|
-R Camp Mojache|ACTIVE|3520|M|75.4,44.2|Z|Feralas|N|Continue northwest until you find the road, and then follow it west to Camp Mojache.|TAXI|-Camp Mojache|
-f Camp Mojache|ACTIVE|3520|M|75.4,44.2|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
+; H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan.|TAXI|Camp Mojache| == Hendo72 - Umm... you are in Gadgetzan already
+F Gadgetzan|AVAILABLE|3520|M|51.60,25.4|Z|Tanaris|N|At Bulkrek Ragefist.|TAXI|-Gadgetzan|
+F Camp Mojache|AVAILABLE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|TAXI|Camp Mojache|
+R Feralas|AVAILABLE|3520|M|88,43|Z|Feralas|N|Ride northwest through Thousand Needles and into Feralas.|TAXI|-Camp Mojache|
+R Camp Mojache|AVAILABLE|3520|M|75.4,44.2|Z|Feralas|N|Continue northwest until you find the road, and then follow it west to Camp Mojache.|TAXI|-Camp Mojache|
+f Camp Mojache|AVAILABLE|3520|M|75.4,44.2|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
 A A New Cloak's Sheen|QID|2973|M|75.9,42.7|Z|Feralas|N|Get this from Kreug Skullspitter near the eastern entrance to the village.|
 A Gordunni Cobalt|QID|2987|M|75.7,44.3|Z|Feralas|N|Get this from Orwin Gizzmick, a goblin near the wyvern master.|
 A War on the Woodpaw|QID|2862|M|74.9,42.5|Z|Feralas|N|Get this from Hadoken Swiftstrider, who's across the street from the inn.|
@@ -695,7 +696,7 @@ T Insect Part Analysis|QID|113|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzle
 A Rise of the Silithid|QID|32|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|113|
 
 ; -- Feralas
-F Camp Mojache|ACTIVE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|
+F Camp Mojache|ACTIVE|3123|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|
 h Camp Mojache|ACTIVE|3123|M|74.8,45|Z|Feralas|N|Stop in the inn and set your hearthstone with Innkeeper Greul.|
 r Repair, Restock, Sell Junk|ACTIVE|3123|
 T Testing the Vessel|QID|3123|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
