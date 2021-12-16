@@ -387,9 +387,9 @@ T Tran'rek|QID|2864|M|51.57,26.76|Z|Tanaris|N|To Tran'rek.\n[color=FF0000]NOTE: 
 h Gadgetzan|AVAILABLE|1690^1707|M|52.50,27.90|Z|Tanaris|N|At Inkeeper Fizzgrimble.|
 A Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhistle.|
 A Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|From Spigot Operator Luglunket.|
-N OOX-17/TN|AVAILABLE|351|L|8623|N|OOX-17/TN is a reletavely rare zone drop.|S!US|
-R Thousand Needles|ACTIVE|1189|M|75.54,97.45|Z|Thousand Needles|N|This is the last time we'll be making this trip.\n[color=FF0000]NOTE: [/color]This is the end of the quest chain and it loses exp if you hit lv 47.|
-T Safety First|QID|1189|M|80.33,76.09|Z|Thousand Needles|N|To Razzeric.|
+N OOX-17/TN|AVAILABLE|351|L|8623|N|OOX-17/TN is a reletavely rare zone drop.|S!US|IZ|Tanaris|
+R Thousand Needles|ACTIVE|1189|M|75.54,97.45|Z|Thousand Needles|N|This is the last time we'll be making this trip.\n[color=FF0000]NOTE: [/color]This is the end of the quest chain and it loses exp if you hit lv 47.|TAXI|Camp Mojache|
+T Safety First|QID|1189|M|80.33,76.09|Z|Thousand Needles|N|To Razzeric.|TAXI|Camp Mojache|
 R Tanaris|ACTIVE|2872|M|51.26,20.88|Z|Tanaris|N|Make your way to the south end of Shimmering Flats and follow the torches to Tanaris.|IZ|1441;Thousand Needles|
 R Steamwheedle Port|ACTIVE|2872|M|64.50,23.84|N|Make your way east towards the coast.|
 A Pirate Hats Ahoy!|QID|8365|M|66.56,22.27|Z|Tanaris|N|From Haughty Modiste.|
@@ -408,11 +408,16 @@ T Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilge
 A More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|PRE|1690|
 ; -- Feralas
 ; H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan.|TAXI|Camp Mojache| == Hendo72 - Umm... you are in Gadgetzan already
-F Gadgetzan|AVAILABLE|3520|M|51.60,25.4|Z|Tanaris|N|At Bulkrek Ragefist.|TAXI|-Gadgetzan|
-F Camp Mojache|AVAILABLE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|TAXI|Camp Mojache|
-R Feralas|AVAILABLE|3520|M|88,43|Z|Feralas|N|Ride northwest through Thousand Needles and into Feralas.|TAXI|-Camp Mojache|
-R Camp Mojache|AVAILABLE|3520|M|75.4,44.2|Z|Feralas|N|Continue northwest until you find the road, and then follow it west to Camp Mojache.|TAXI|-Camp Mojache|
-f Camp Mojache|AVAILABLE|3520|M|75.4,44.2|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
+f Gadgetzan|AVAILABLE|2973|M|51.60,25.44|Z|Tanaris|N|At Bulkrek Ragefist.|TAXI|-Gadgetzan|
+F Camp Mojache|AVAILABLE|2973|M|51.60,25.4|Z|Tanaris|TAXI|Camp Mojache|
+F Freewind Post|ACTIVE|-1189|M|51.60,25.4|Z|Tanaris|TAXI|-Camp Mojache|
+R Thousand Needles|AVAILABLE|2973|M|75.54,97.45|Z|Thousand Needles|TAXI|-Camp Mojache|
+T Safety First|QID|1189|M|80.33,76.09|Z|Thousand Needles|N|To Razzeric.|TAXI|-Camp Mojache|
+R Ironstone Camp|AVAILABLE|2973|M|68.15,64.71|Z|Thousand Needles|TAXI|-Camp Mojache|
+R Freewind Post|AVAILABLE|2973|M|47.01,46.86|Z|Thousand Needles|TAXI|-Camp Mojache|
+R Feralas|AVAILABLE|2973|M|89.32,41.18|Z|Feralas|N|Make your way to the west end of Thousand Needles and into Feralas.\n[color=FF0000]NOTE: [/color]The road is the path of least resistance.|TAXI|-Camp Mojache|
+R Camp Mojache|AVAILABLE|2973|M|75.4,44.2|Z|Feralas|N|Continue northwest until you find the road, and then follow it west to Camp Mojache.|TAXI|-Camp Mojache|
+f Camp Mojache|AVAILABLE|2973|M|75.4,44.2|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
 A A New Cloak's Sheen|QID|2973|M|75.9,42.7|Z|Feralas|N|Get this from Kreug Skullspitter near the eastern entrance to the village.|
 A Gordunni Cobalt|QID|2987|M|75.7,44.3|Z|Feralas|N|Get this from Orwin Gizzmick, a goblin near the wyvern master.|
 A War on the Woodpaw|QID|2862|M|74.9,42.5|Z|Feralas|N|Get this from Hadoken Swiftstrider, who's across the street from the inn.|
