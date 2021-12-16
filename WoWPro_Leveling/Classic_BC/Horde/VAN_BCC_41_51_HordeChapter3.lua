@@ -377,49 +377,42 @@ N Zamek's Distraction|ACTIVE|1190|M|79.81,77.03|Z|Thousand Needles|N|[color=FF00
 T Keeping Pace|QID|1190|M|77.21,77.38|Z|Thousand Needles|N|Head to the other building and wait for Rizzle Brassbolts to leave to investigate the explosion.\n[color=FF0000]NOTE: [/color]When Rizzle leaves, the Guarded Plans will change to Unguarded Plans, enabling you to continue.\nIf Rizzle comes back before you're done, you'll have to get Zamek to distract him again.|
 A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|Thousand Needles|N|From Rizzle's Unguarded Plans.\n[color=FF0000]NOTE: [/color]If Rizzle comes back before you're done, you'll have to get Zamek to distract him again.|PRE|1190|
 T Rizzle's Schematics|QID|1194|M|80.18,75.89|Z|Thousand Needles|N|To Pozzik.|
+
 ; -- Tanaris
 R Tanaris|ACTIVE|2864|M|51.26,20.88|Z|Tanaris|N|Make your way to the south end of Shimmering Flats and follow the torches to Tanaris.|
-R Gadgetzan|ACTIVE|2864|M|51.26,26.49|Z|Tanaris|N|Continue following the torches until you clear the mountains and then make your way to Gadgetzan.|
-h Gadgetzan|ACTIVE|2864|M|52.50,27.91|Z|Tanaris|N|At Innkeeper Fizzgrimble.|
-T Tran'rek|QID|2864|M|51.6,26.8|Z|Tanaris|N|To Tran'rek. (skip follow up)|
-;make sure this quest is acquired...it should be in the earlier part of the guide... STV@43----
-;T Into the Field|QID|243|M|52.5,28.5|Z|Tanaris|
-;A Slake That Thirst|QID|379|M|52.5,28.5|Z|Tanaris|
-A Wastewander Justice|QID|1690|M|52.5,28.5|Z|Tanaris|
-A Water Pouch Bounty|QID|1707|M|52.5,28.5|Z|Tanaris|
-h Gadgetzan|ACTIVE|2872|M|52.50,27.90|Z|Tanaris|N|Make Gadgetzan your home location.|
-r Sell, Restock, Repair|N|Headed out for a bit, be prepared.|
-N If you find...|AVAILABLE|351|L|8623|N|OOX-17/TN is a reletavely rare zone Drop, if you find it accept the quest.|S!US|
-R Noonshade Ruins|ACTIVE|2872|M|61.00,24.00|Z|Tanaris|N|Go to Noonshade Ruins and clear the camp, then continue east, killing bandits as you go.|
-A Pirate Hats Ahoy!|QID|8365|M|66.6,22.3|Z|Tanaris|N|From Haughty Modiste.|
-A WANTED: Caliph Scorpidsting|QID|2781|M|66.80,22.40|Z|Tanaris|N|From Wanted Poster.|
-A WANTED: Andre Firebeard|QID|2875|M|66.8,22.4|Z|Tanaris|N|From Wanted Poster.|
-A Screecher Spirits|QID|3520|M|67.0,22.4|Z|Tanaris|N|From Yeh'kinya.|
-A Southsea Shakedown|QID|8366|M|67.1,23.9|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
-T Stoley's Debt|QID|2872|M|67.1,23.9|Z|Tanaris|N|To Stoley.|
-A Stoley's Shipment|QID|2873|M|67.1,23.9|Z|Tanaris|N|From Stoley.|PRE|2872|
-C Water Pouch Bounty|QID|1707|M|61.00,24.00|Z|Tanaris|N|Go back to Noonshade Ruins and kill Bandits here to get the water pouches for this quest. More to southwest if it's too crowded with other players here.|
-C Wastewander Justice|QID|1690|Z|Tanaris|N|Kill the rest of the mobs needed for this quest.|
-;T Slake That Thirst|QID|379|M|52.5,28.5|Z|Tanaris|N|Return to Gadgetzan. Do NOT get the follow up to this.|
-T Water Pouch Bounty|QID|1707|M|52.5,28.5|Z|Tanaris|N|To Spigot Operator Luglunket. Now repeatable for 10 faction, but no XP so not recommended.|
-T Wastewander Justice|QID|1690|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-A More Wastewander Justice|QID|1691|M|52.5,28.5|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|PRE|1690|
-R Thousand Needles|ACTIVE|1137|M|51.00,18.00|Z|Tanaris|N|Run north to Thousand Needles.|
-R Mirage Raceway|ACTIVE|1137|M|80,75|Z|Thousand Needles|N|Continue North to the Mirage Raceway.|
-T News for Fizzle|QID|1137|M|78.1,77.1|Z|Thousand Needles|N|To Fizzle Brassbolts.|
-A Gahz'rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
-; T Goblin Sponsorship|
-A Keeping Pace|QID|1190|M|80.18,75.89|Z|Thousand Needles|N|From Pozzik.|PRE|1137|
-C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving. Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.|
-T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
-A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|Thousand Needles|N|From Unguarded Plans.|PRE|1190|
-T Rizzle's Schematics|QID|1194|M|80.18,75.89|Z|Thousand Needles|N|To Pozzik.|
+R Gadgetzan|ACTIVE|2864|M|51.26,26.49|Z|Tanaris|N|Continue following the torches until you clear the mountains and make your way to Gadgetzan.|
+T Safety First|QID|1188|M|50.96,27.24|Z|Tanaris|N|To Shreev.|
+A Safety First|QID|1189|M|50.96,27.24|Z|Tanaris|N|From Shreev.|PRE|1188|
+T Tran'rek|QID|2864|M|51.57,26.76|Z|Tanaris|N|To Tran'rek.\n[color=FF0000]NOTE: [/color]Skip follow up.|
+h Gadgetzan|AVAILABLE|1690^1707|M|52.50,27.90|Z|Tanaris|N|At Inkeeper Fizzgrimble.|
+A Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhistle.|
+A Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|From Spigot Operator Luglunket.|
+N OOX-17/TN|AVAILABLE|351|L|8623|N|OOX-17/TN is a reletavely rare zone drop.|S!US|
+R Thousand Needles|ACTIVE|1189|M|75.54,97.45|Z|Thousand Needles|N|This is the last time we'll be making this trip.\n[color=FF0000]NOTE: [/color]This is the end of the quest chain and it loses exp if you hit lv 47.|
+T Safety First|QID|1189|M|80.33,76.09|Z|Thousand Needles|N|To Razzeric.|
+R Tanaris|ACTIVE|2872|M|51.26,20.88|Z|Tanaris|N|Make your way to the south end of Shimmering Flats and follow the torches to Tanaris.|IZ|1441;Thousand Needles|
+R Steamwheedle Port|ACTIVE|2872|M|64.50,23.84|N|Make your way east towards the coast.|
+A Pirate Hats Ahoy!|QID|8365|M|66.56,22.27|Z|Tanaris|N|From Haughty Modiste.|
+A WANTED: Caliph Scorpidsting|QID|2781|M|66.82,22.29|Z|Tanaris|N|From Wanted Poster.|
+A WANTED: Andre Firebeard|QID|2875|M|66.82,22.29|Z|Tanaris|N|From Wanted Poster.|
+A Screecher Spirits|QID|3520|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|
+A Southsea Shakedown|QID|8366|M|67.06,23.89|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
+T Stoley's Debt|QID|2872|M|67.11,23.98|Z|Tanaris|N|To Stoley.|
+A Stoley's Shipment|QID|2873|M|67.11,23.98|Z|Tanaris|N|From Stoley.|PRE|2872|
+R Noonshade Ruins|ACTIVE|1707^1690|M|60.58,25.45|Z|Tanaris|N|Follow the road west back towards Gadgetzan.|
+C Water Pouch Bounty|QID|1707|M|59.88,23.20|Z|Tanaris|L|8483 5|N|Kill the bandits to loot the Water Pouches.|S|
+K Wastewander Justice|QID|1690|M|59.88,23.20|Z|Tanaris|QO|1;2|N|\n[color=FF0000]NOTE: [/color]If this area is busy, there is a second location just to the south of here.|
+C Water Pouch Bounty|QID|1707|M|59.88,23.20|Z|Tanaris|L|8483 5|N|Finish collecting the Water Pouches.|US|
+T Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|To Spigot Operator Luglunket. Now repeatable for 10 faction, but no XP so not recommended.|
+T Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
+A More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|PRE|1690|
 ; -- Feralas
-H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan.|TAXI|Camp Mojache|
-F Camp Mojache|ACTIVE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|TAXI|Camp Mojache|
-R Feralas|ACTIVE|3520|M|88,43|Z|Feralas|N|Ride northwest through Thousand Needles and into Feralas.|TAXI|-Camp Mojache|
-R Camp Mojache|ACTIVE|3520|M|75.4,44.2|Z|Feralas|N|Continue northwest until you find the road, and then follow it west to Camp Mojache.|TAXI|-Camp Mojache|
-f Camp Mojache|ACTIVE|3520|M|75.4,44.2|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
+; H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan.|TAXI|Camp Mojache| == Hendo72 - Umm... you are in Gadgetzan already
+F Gadgetzan|AVAILABLE|3520|M|51.60,25.4|Z|Tanaris|N|At Bulkrek Ragefist.|TAXI|-Gadgetzan|
+F Camp Mojache|AVAILABLE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|TAXI|Camp Mojache|
+R Feralas|AVAILABLE|3520|M|88,43|Z|Feralas|N|Ride northwest through Thousand Needles and into Feralas.|TAXI|-Camp Mojache|
+R Camp Mojache|AVAILABLE|3520|M|75.4,44.2|Z|Feralas|N|Continue northwest until you find the road, and then follow it west to Camp Mojache.|TAXI|-Camp Mojache|
+f Camp Mojache|AVAILABLE|3520|M|75.4,44.2|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
 A A New Cloak's Sheen|QID|2973|M|75.9,42.7|Z|Feralas|N|Get this from Kreug Skullspitter near the eastern entrance to the village.|
 A Gordunni Cobalt|QID|2987|M|75.7,44.3|Z|Feralas|N|Get this from Orwin Gizzmick, a goblin near the wyvern master.|
 A War on the Woodpaw|QID|2862|M|74.9,42.5|Z|Feralas|N|Get this from Hadoken Swiftstrider, who's across the street from the inn.|
@@ -513,22 +506,22 @@ C Pirate Hats Ahoy!|QID|8365|M|70.4,42.7|Z|Tanaris|N|Kill pirates until you get 
 C Southsea Shakedown|QID|8366|M|73.00,47.00|Z|Tanaris|N|Finish killing the pirates for this quest.|US|
 R Steamwheedle Port|ACTIVE|8366|M|67.1,23.9|Z|Tanaris|N|Ride North to Steamwheedle Port.|
 A Ship Schedules|QID|2876|N|Right-click the Ship Schedules to get this quest if you have the item (it can be in a Pirate Footlocker). Skip this objective if you did not get the item.|U|9250|
-t Ship Schedules|QID|2876|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
-T WANTED: Andre Firebeard|QID|2875|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
-T Southsea Shakedown|QID|8366|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
-T Stoley's Shipment|QID|2873|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
-A Deliver to MacKinley|QID|2874|M|67.1,23.9|Z|Tanaris|N|From Security Chief Bilgewhizzle.|PRE|2873|
+t Ship Schedules|QID|2876|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
+T WANTED: Andre Firebeard|QID|2875|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
+T Southsea Shakedown|QID|8366|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
+T Stoley's Shipment|QID|2873|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
+A Deliver to MacKinley|QID|2874|M|67.06,23.89|Z|Tanaris|N|From Security Chief Bilgewhizzle.|PRE|2873|
 T Pirate Hats Ahoy!|QID|8365|M|66.6,22.3|Z|Tanaris|N|To Haughty Modiste.|
-T Screecher Spirits|QID|3520|M|67.0,22.4|Z|Tanaris|N|To Yeh'kinya.|
-A The Prophecy of Mosh'aru|QID|3527|M|67.0,22.4|Z|Tanaris|N|From Yeh'kinya.|PRE|3520|
+T Screecher Spirits|QID|3520|M|66.99,22.36|Z|Tanaris|N|To Yeh'kinya.|
+A The Prophecy of Mosh'aru|QID|3527|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|PRE|3520|
 H Gadgetzan|ACTIVE|1691|M|52.50,27.90|Z|Tanaris|N|Hearth or run back to Gadgetzen.|
-T More Wastewander Justice|QID|1691|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-T WANTED: Caliph Scorpidsting|QID|2781|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-t Water Pouch Bounty|QID|1707|M|52.4,28.4|Z|Tanaris|N|To Spigot Operator Luglunket as many times as you can.|
+T More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
+T WANTED: Caliph Scorpidsting|QID|2781|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
+t Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|To Spigot Operator Luglunket as many times as you can.|
 A Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 A The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|
 A The Dunemaul Compound|QID|5863|M|52.8,27.4|Z|Tanaris|N|From Andi Lynn.|
-A Thistleshrub Valley|QID|3362|M|51.6,26.8|Z|Tanaris|N|From Tran'Rek|
+A Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|From Tran'Rek|
 C Gadgetzan Water Survey|QID|992|M|39.05,29.15|Z|Tanaris|N|Use the Untapped Dowsing Widget on the pool at this location.|U|8584|
 T Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|To Senior Survey Fizzledowser.|
 A Noxious Lair Investigation|QID|82|M|50.2,27.5|Z|Tanaris|N|From Senior Survey Fizzledowser.|PRE|992|
@@ -560,7 +553,7 @@ H Gadgetzan|ACTIVE|82|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen
 T The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|To Marin Noggenfogger.|
 A In Good Taste|QID|2606|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|PRE|2605|
 T The Dunemaul Compound|QID|5863|M|52.8,27.4|Z|Tanaris|N|To Andi Lynn.|
-T Thistleshrub Valley|QID|3362|M|51.6,26.8|Z|Tanaris|N|TO Tran'Rek.|
+T Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|TO Tran'Rek.|
 T In Good Taste|QID|2606|M|51.1,26.9|Z|Tanaris|N|To Sprinkle.|
 A Sprinkle's Secret Ingredient|QID|2641|M|51.1,26.9|Z|Tanaris|N|From Sprinkle.|PRE|2606|
 T Noxious Lair Investigation|QID|82|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
@@ -657,10 +650,10 @@ T Gammerita, Mon!|QID|7816|M|80.3,81.4|Z|The Hinterlands|
 R Jintha'Alor|ACTIVE|7861|M|77,61;66,66|CS|Z|The Hinterlands|N|Put together a group of at least 3 your level or higher. (5 is better if you are all 49).|RANK|2|
 N Things to do|QID|7850|N|In this area, you'll be looking for Vessels of Tainted Blood as you go. Also kill Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters. You need nothing from the first two levels, so get to the third level as quickly as possible.|RANK|2|
 N Pile of Bones|QID|7849|M|62.2,75.5|Z|The Hinterlands|QO|1|N|At the top of the stairs to the top level, to the left is a pit with oozes. Fight your way through to the heart of the pit where you should see a pile of bones . Loot it.|RANK|2|
-N Pile of Skulls|QID|7849|M|58.6,64.9|Z|The Hinterlands|QO|2|N|On the top level, you'll see an altar with a troll lying on it. Don’t go down into the pit yet but go around it until you see a stone gate with a path leading to the other pair of stairs and a cave. Follow that way until the very end where you should see an area shielded by stone walls (there should be two more of those on your way). You should see wolves in there. Kill them and loot the pile of bones inside.|RANK|2|
-T Kidnapped Elder Torntusk!|QID|7845|M|59,78|Z|The Hinterlands|N|Go back to the big stone pit with the quest npc. Clear your way into the pit and check next to the altar, there should be Vile Pristress Hexx (If she isn’t there, she roamed into the cave but she’ll come back). Single pull and clear as many trolls in that altar area as possible. The priestess casts an annoying polymorph spell, which doesn't break on damage, so watch out for that, try to interrupt it and burn her down quick. When you are full mana pull the priestess.|RANK|2|
+N Pile of Skulls|QID|7849|M|58.6,64.9|Z|The Hinterlands|QO|2|N|On the top level, you'll see an altar with a troll lying on it. Don't go down into the pit yet but go around it until you see a stone gate with a path leading to the other pair of stairs and a cave. Follow that way until the very end where you should see an area shielded by stone walls (there should be two more of those on your way). You should see wolves in there. Kill them and loot the pile of bones inside.|RANK|2|
+T Kidnapped Elder Torntusk!|QID|7845|M|59,78|Z|The Hinterlands|N|Go back to the big stone pit with the quest npc. Clear your way into the pit and check next to the altar, there should be Vile Pristress Hexx (If she isn't there, she roamed into the cave but she'll come back). Single pull and clear as many trolls in that altar area as possible. The priestess casts an annoying polymorph spell, which doesn't break on damage, so watch out for that, try to interrupt it and burn her down quick. When you are full mana pull the priestess.|RANK|2|
 A Recover the Key!|QID|7846|PRE|7845|RANK|2|
-C Recover the Key!|QID|7846|M|57.5,86.5|Z|The Hinterlands|N|Now comes a rather difficult part, if you are confident that you can handle 3 mobs alone you can proceed solo, if you think you’d have difficulties, try to group up with someone. Go inside the tunnel behind the altar and fight your way through to the southernmost tip of the tunnel structure . There you should see Hitah’Ya the Keeper patrolling with two guards. Get full mana/hp. The trick here is to use crowd control (if you have, like ice trap, sheep, sap) and at the same time burn down Hitah’Ya as fast as possible (she has very little HP). Also pop your cooldown skills to burn down one of the guards as fast as possible. Once that is done you just need to deal with the other guard. Loot Hitah’Yah.|RANK|2|
+C Recover the Key!|QID|7846|M|57.5,86.5|Z|The Hinterlands|N|Now comes a rather difficult part, if you are confident that you can handle 3 mobs alone you can proceed solo, if you think you'd have difficulties, try to group up with someone. Go inside the tunnel behind the altar and fight your way through to the southernmost tip of the tunnel structure . There you should see Hitah'Ya the Keeper patrolling with two guards. Get full mana/hp. The trick here is to use crowd control (if you have, like ice trap, sheep, sap) and at the same time burn down Hitah'Ya as fast as possible (she has very little HP). Also pop your cooldown skills to burn down one of the guards as fast as possible. Once that is done you just need to deal with the other guard. Loot Hitah'Yah.|RANK|2|
 C The Ancient Egg|QID|4787|N|If you took the quest [51] The Ancient Egg, don't forget to get the egg off the pedestal in the center of the room Hitah'Ya the Keeper was in.|RANK|2|
 C Wanted: Vile Priestess Hexx and Her Minions|QID|7861|M|59,78|Z|The Hinterlands|N|Kill the Priestess if you haven't already, and any guards you still need.|RANK|2|
 T Recover the Key!|QID|7846|M|59,78|Z|The Hinterlands|N|Go back to the altar and The quest.|RANK|2|
@@ -703,7 +696,7 @@ T Insect Part Analysis|QID|113|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzle
 A Rise of the Silithid|QID|32|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|113|
 
 ; -- Feralas
-F Camp Mojache|ACTIVE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|
+F Camp Mojache|ACTIVE|3123|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|
 h Camp Mojache|ACTIVE|3123|M|74.8,45|Z|Feralas|N|Stop in the inn and set your hearthstone with Innkeeper Greul.|
 r Repair, Restock, Sell Junk|ACTIVE|3123|
 T Testing the Vessel|QID|3123|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
