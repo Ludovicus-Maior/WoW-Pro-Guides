@@ -437,24 +437,32 @@ F Camp Mojache|ACTIVE|3122|M|45.13,63.90|Z|Orgrimmar|
 T Return to Witch Doctor Uzer'i|QID|3122|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Testing the Vessel|QID|3123|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.\n[color=FF0000]NOTE: [/color]There is a brief interlude before he offers this quest.|PRE|3122|
 A Natural Materials|QID|3128|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3122|
-R Woodpaw Hills|ACTIVE|2862|M|70.45,49.82|Z|Feralas|N|Exit Camp Mojache from the west and follow the road a short distance.|
+R Woodpaw Hills|ACTIVE|2862|M|71.3,49.0;70.45,49.82|CC|Z|Feralas|N|Exit Camp Mojache from the west and follow the road a short distance.|
 C War on the Woodpaw|QID|2862|M|70.16,54.59|Z|Feralas|L|9237 10|N|Kill gnolls to loot the Woodpaw Gnoll Manes.|
 R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|Feralas|
 T War on the Woodpaw|QID|2862|M|74.91,42.46|Z|Feralas|N|To Hadoken Swiftstrider.|
 A Alpha Strike.|QID|2863|M|74.91,42.46|Z|Feralas|N|From Hadoken Swiftstrider.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862| ; == Hendo72 - The '.' is to break auto-accept.
-A Alpha Strike.|QID|2863|M|74.91,42.46|Z|Feralas|N|Return to Hadoken Swiftstrider to restart the quest.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862|FAIL| ; == Hendo72 - The '.' is to break auto-accept.
-K Alpha Strike|QID|2863|M|72,56;72,57;73,57|CN|Z|Feralas|QO|1|N|Head back to the gnoll camps and kill 5 Woodpaw Alpha within 60 minutes.\n[color=FF0000]NOTE: [/color]Multiple camps in the area.|
-T Alpha Strike|QID|2863|M|74.91,42.46|Z|Feralas|N|To Hadoken Swiftstrider back in Camp Mojache. Remember TIMER is still running, don't get distracted by shineys.|
+A Alpha Strike|QID|2863|M|74.91,42.46|Z|Feralas|N|Return to Hadoken Swiftstrider to restart the quest.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862|FAIL| ; == Hendo72 - The '.' is to break auto-accept.
+R Lower Wilds|ACTIVE|2863|M|74.00,53.13|Z|Feralas|N|Head west from CAmp Mojache.|
+K Alpha Strike|QID|2863|M|74.4,54.1;75.3,56.8;73.3,57.0;71.9,56.7;71.2,56.5|CC|Z|Feralas|QO|1|N|Head back to the gnoll camps and kill 5 Woodpaw Alpha within 60 minutes.\n[color=FF0000]NOTE: [/color]If you clear the area behind the Alpha, you can single pull them away from the group. You may get the occasional helper if they are too close.|
+R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|Feralas|N|Remember the TIMER is still running. Don't get distracted by shineys.|
+T Alpha Strike|QID|2863|M|74.91,42.46|Z|Feralas|N|To Hadoken Swiftstrider.|
 A Woodpaw Investigation|QID|2902|M|74.91,42.46|Z|Feralas|N|From Hadoken Swiftstrider.|PRE|2863|
-R Gordunni Outpost|ACTIVE|2987|M|77,35|Z|Feralas|N|Run up to the Ogre outpost north of camp .|
-C Gordunni Cobalt|QID|2987|M|75.2,28.7|Z|Feralas|N|Here we will kill ogres, dig for cobalt, and hunt for the Gordunni Scroll which can spawn near or (80.8,35.0). Look for small blue lights/patches on the ground in the Orgre area north of camp, use the shovel there then open the mounds you uncover. Repeat until you find 12 Gordunni Cobalt.|U|9466|
-C The Ogres of Feralas|QID|2975|M|75.2,28.7|Z|Feralas|N|Keep killing ogres and looking for the scroll.|
-A The Gordunni Scroll|QID|2978|M|75,30;80.6,34.3|CN|Z|Feralas|N|Can spawn in multiple places.|U|9370|
-C A New Cloak's Sheen|QID|2973|M|70,47|Z|Feralas|N|From the Ogre camp, cross the river and head southwest to and hunt Sprite Darters until you've found 10 Iridescent Sprite Darter Wings.|
-T Woodpaw Investigation|QID|2902|M|71.65,55.92|Z|Feralas|N|Head back to the gnoll area) and look for the Woodpaw Battle Map (a scroll on a crate). Click on the scroll to This quest and get the follow up.|
+K The Ogres of Feralas|ACTIVE|2975|M|74.8,35.4|Z|Feralas|QO|1;2;3|S|
+R Gordunni Outpost|ACTIVE|2975^2987|M|74.8,35.4;75.00,35.13|CC|Z|Feralas|N|Use the west exit and head to the Ogre outpost north of Camp Mojache.\n[color=FF0000]NOTE: [/color]Look for the torches marking the entrance on the east side of the river (by the waterfall).|
+l Gordunni Scroll|AVAILABLE|2978|M|75,30;80.6,34.3|CN|Z|Feralas|L|9370|N|This quest starter spawns on the ground in multiple places spread over the entire Outpost.|S|
+A The Gordunni Scroll|QID|2978|M|75,30;80.6,34.3|CN|Z|Feralas|N|Click on the scroll to accept the quest.|U|9370|PRE|
+C Gordunni Cobalt|QID|2987|M|75.2,28.7|Z|Feralas|N|Locate a small blue light/patch on the ground and use the shovel to uncover the Gordunni Dirt Mound. Click on the Mound to loot the Cobalt. Rinse and repeat until you're done.\n[color=FF0000]NOTE: [/color]The Dirt Mound will glow blue if it contains a Cobalt. Otherwise, it contains junk.|U|9466|
+K The Ogres of Feralas|ACTIVE|2975|M|74.8,35.4|Z|Feralas|QO|1;2;3|N|Finish killing your required Ogres.\n[color=FF0000]NOTE: [/color]They cover a large area and going inside the tunnels isn't necessary unless it's really busy.|US|
+l Gordunni Scroll|AVAILABLE|2978|M|75,30;80.6,34.3|CN|Z|Feralas|L|9370|N|It spawns on the ground in multiple places spread over the entire Outpost.\n[color=FF0000]NOTE: [/color]Skip this step if you so wish.|US|RANK|3|
+C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|Feralas|L|9589 6|N|Loot these from the Sprite Darters.|S|
+C A New Cloak's Sheen|QID|2973|M|69.43,45.60|Z|Feralas|L|9369 10|N|From Gordunni Outpost, cross the river and head southwest to where the Sprite Darters are. Kill them to loot your Sprite Darter Wings.|
+C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|Feralas|L|9589 6|N|Loot these from the Sprite Darters.|US|
+T Woodpaw Investigation|QID|2902|M|71.2,56.4;71.63,55.92|CS|Z|Feralas|N|Make your way to the camp in the gnoll area. After clearing the camp, locate the Woodpaw Battle Map sitting on a crate and click on it.|
 A The Battle Plans|QID|2903|M|71.6,55.9|Z|Feralas|N|From the Woodpaw Battle Map.|PRE|2902|
-T The Ogres of Feralas|QID|2975|M|75.9,43.6|Z|Feralas|N|Head back to camp to turn in a bunch of quests.|
-A The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|Feralas|N|Get the follow up.|PRE|2975|
+R Camp Mojache|ACTIVE|2975|M|73.12,47.44|Z|Feralas|N|Head back to turn in a bunch of quests.|
+T The Ogres of Feralas|QID|2975|M|75.9,43.6|Z|Feralas|
+A The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|Feralas|PRE|2975|
 T The Gordunni Scroll|QID|2978|M|75.9,43.6|Z|Feralas|
 A Dark Ceremony|QID|2979|M|75.9,43.6|Z|Feralas|N|Get the follow up.|PRE|2978|
 T Gordunni Cobalt|QID|2987|M|75.7,44.3|Z|Feralas|
