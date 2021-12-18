@@ -408,45 +408,40 @@ T Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilge
 A More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|PRE|1690|
 ; -- Feralas
 ; H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan.|TAXI|Camp Mojache| == Hendo72 - Umm... you are in Gadgetzan already
-f Gadgetzan|AVAILABLE|2973|M|51.60,25.44|Z|Tanaris|N|At Bulkrek Ragefist.|TAXI|-Gadgetzan|
-F Camp Mojache|AVAILABLE|2973|M|51.60,25.4|Z|Tanaris|TAXI|Camp Mojache|
-F Freewind Post|ACTIVE|-1189|M|51.60,25.4|Z|Tanaris|TAXI|-Camp Mojache|
-R Thousand Needles|AVAILABLE|2973|M|75.54,97.45|Z|Thousand Needles|TAXI|-Camp Mojache|
+f Gadgetzan|AVAILABLE|2987|M|51.60,25.44|Z|Tanaris|N|At Bulkrek Ragefist.|TAXI|-Gadgetzan|
+F Camp Mojache|AVAILABLE|2987|M|51.60,25.4|Z|Tanaris|TAXI|Camp Mojache|IZ|-1444;Feralas|
+F Freewind Post|AVAILABLE|2987|ACTIVE|-1189|M|51.60,25.4|Z|Tanaris|TAXI|-Camp Mojache|IZ|-1444;Feralas|
+R Thousand Needles|AVAILABLE|2987|M|75.54,97.45|Z|Thousand Needles|TAXI|-Camp Mojache|IZ|-1444;Feralas|
 T Safety First|QID|1189|M|80.33,76.09|Z|Thousand Needles|N|To Razzeric.|TAXI|-Camp Mojache|
-R Ironstone Camp|AVAILABLE|2973|M|68.15,64.71|Z|Thousand Needles|TAXI|-Camp Mojache|
-R Freewind Post|AVAILABLE|2973|M|47.01,46.86|Z|Thousand Needles|TAXI|-Camp Mojache|
-R Feralas|AVAILABLE|2973|M|89.32,41.18|Z|Feralas|N|Make your way to the west end of Thousand Needles and into Feralas.\n[color=FF0000]NOTE: [/color]The road is the path of least resistance.|TAXI|-Camp Mojache|
-R Camp Mojache|AVAILABLE|2973|M|75.4,44.2|Z|Feralas|N|Continue northwest until you find the road, and then follow it west to Camp Mojache.|TAXI|-Camp Mojache|
-f Camp Mojache|AVAILABLE|2973|M|75.4,44.2|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
-A A New Cloak's Sheen|QID|2973|M|75.9,42.7|Z|Feralas|N|Get this from Kreug Skullspitter near the eastern entrance to the village.|
-A Gordunni Cobalt|QID|2987|M|75.7,44.3|Z|Feralas|N|Get this from Orwin Gizzmick, a goblin near the wyvern master.|
-A War on the Woodpaw|QID|2862|M|74.9,42.5|Z|Feralas|N|Get this from Hadoken Swiftstrider, who's across the street from the inn.|
-A The Mark of Quality|QID|2822|M|74.4,42.9|Z|Feralas|N|Get this from Jangdor Swifstrider inside the big tent building across the road from the inn.|
-A A Strange Request|QID|3121|M|74.4,43.4|Z|Feralas|N|Get this from Witch Doctor Uzer'l right outside that tent building.|
-h Camp Mojache|ACTIVE|3121|M|74.8,45|Z|Feralas|N|Stop in the inn and set your hearthstone with Innkeeper Greul.|
-A The Ogres of Feralas|QID|2975|M|75.9,43.6|Z|Feralas|
-C War on the Woodpaw|QID|2862|M|72.5,40.2|Z|Feralas|N|Ride west out of town then turn left (down hill from the road) into the lower wides (71,54). Kill gnolls until you have 10 Woodpaw Gnoll Manes.|
-L Level Check|ACTIVE|2440|N|You should now be level 46.|LVL|46|
-L Level Check|ACTIVE|3121&-2440|N|You should now be level 46. If you didn't go to Uldaman, you may need to grind a bit.|LVL|46|
-R Camp Mojache|QID|3121|M|74,45|Z|Feralas|N|Ride back to Camp Mojache. Do NOT turn in [32] War on the Woodpaw (the followup is a timed quest) which we'll start a little later.|
-; -- Turn in Uldaman quest
-F Thunder Bluff|ACTIVE|2440|N|Fly to Thunder Bluff (optional) if you did Uldaman and [47] The Platinum Discs quest.|
-t The Platinum Discs|QID|2440|N|Optional: If you've done this quest in Uldaman: Turn it in to Sage Truthseeker on the lower rise, close to the auction house.|
-A Portents of Uldum|QID|2965|M|34.6,47.2|Z|Thunder Bluff|PRE|2440|
-T Portents of Uldum|QID|2965|M|75.6,31.2|Z|Thunder Bluff|N|To Nara Wildmane on Elder Rise and get the follow up.|
-A Seeing What Happens|QID|2966|M|75.6,31.2|Z|Thunder Bluff|N|From Nara Wildmane on Elder Rise.|PRE|2965|
-; -- Back on track
-F Orgrimmar|ACTIVE|3121|N|If you are a druid, you can train here, but you still need to go to Orgrimmar to The quest.|
-r Repair, Restock, Sell Junk|AVAILABLE|3122|N|Don't forget to Train the new skills.|
-T A Strange Request|QID|3121|M|77.0,37.2|Z|Orgrimmar|N|Find Neeru Fireblade in the Cleft of Shadows and This quest.|
-A Return to Witch Doctor Uzer'i|QID|3122|M|77.0,37.2|Z|Orgrimmar|PRE|3121|
-H Camp Mojache|ACTIVE|3122|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Mojache.|
-T Return to Witch Doctor Uzer'i|QID|3122|M|74.4,43.4|Z|Feralas|N|After you turn this quest in, wait for him to do his little script and get the follow ups.|
-A Testing the Vessel|QID|3123|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3122|
-A Natural Materials|QID|3128|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
-T War on the Woodpaw|QID|2862|M|74.9,42.5|Z|Feralas|N|Turn this one in to Hadoken Swiftstrider when you're ready to do the followup.|
-A Alpha Strike|QID|2863|M|74.9,42.5|Z|Feralas|N|Get this TIMED quest from Hadoken Swiftstrider.|PRE|2862|
-C Alpha Strike|QID|2863|M|72,56;72,57;73,57|CN|Z|Feralas|N|Ride southwest back to the gnoll camps and kill 5 Woodpaw Alpha. Not difficult but don't get too distracted. If you see a treant, kill and loot it. Multiple camps in the area.|
+R Ironstone Camp|AVAILABLE|2987|M|68.15,64.71|Z|Thousand Needles|TAXI|-Camp Mojache|IZ|-1444;Feralas|
+R Freewind Post|AVAILABLE|2987|M|47.01,46.86|Z|Thousand Needles|TAXI|-Camp Mojache|IZ|-1444;Feralas|
+R Feralas|AVAILABLE|2987|M|89.32,41.18|Z|Feralas|N|Make your way to the west end of Thousand Needles and into Feralas.\n[color=FF0000]NOTE: [/color]The road is the path of least resistance.|TAXI|-Camp Mojache|
+R Camp Mojache|AVAILABLE|2987|M|78.22,42.54|Z|Feralas|N|Follow the road west to Camp Mojache.|TAXI|-Camp Mojache|
+f Camp Mojache|AVAILABLE|2987|M|75.45,44.35|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
+A Gordunni Cobalt|QID|2987|M|75.70,44.31|Z|Feralas|N|Get this from Orwin Gizzmick, a goblin near the wyvern master.|
+A A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|Feralas|N|Get this from Kreug Skullspitter near the eastern entrance to the village.|
+A War on the Woodpaw|QID|2862|M|74.91,42.47|Z|Feralas|N|Get this from Hadoken Swiftstrider, who's across the street from the inn.|
+A The Mark of Quality|QID|2822|M|74.43,42.91|Z|Feralas|N|Get this from Jangdor Swifstrider inside the big tent building across the road from the inn.|
+A A Strange Request|QID|3121|M|74.42,43.36|Z|Feralas|N|Get this from Witch Doctor Uzer'l right outside that tent building.|
+h Camp Mojache|ACTIVE|3121|M|74.81,45.19|Z|Feralas|N|Stop in the inn and set your hearthstone with Innkeeper Greul.|
+A The Ogres of Feralas|QID|2975|M|73.53,45.12;75.96,42.85|CC|Z|Feralas|N|From Rok Orthan.\n[color=FF0000]NOTE: [/color]She roams between the Mill by the west entrance and the Mill by the east entrance. She makes a pit stop at the Inn going both ways.|
+L Level Check|ACTIVE|3121|M|81.90,44.90|Z|Feralas|N|Head into Lower Wilds and grind until you're lv 46.|LVL|46|
+R Camp Mojache|ACTIVE|3121|M|78.22,42.54|Z|Feralas|N|Return to Camp Mojache.|IZ|-Camp Mojache&1444;Feralas|
+= Train|ACTIVE|3121|M|75.99,42.28|Z|Feralas|N|Train your lv 46 skills/spells with Jannos Lighthoof.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
+F Orgrimmar|ACTIVE|3121|M|75.45,44.35|Z|Feralas|
+= Train|ACTIVE|3121|N|Train your lv 46 skills/spells.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Druid|
+r Repair, Restock, Sell Junk|AVAILABLE|3122|N|Do whatever housekeeping you to do.|
+T A Strange Request|QID|3121|M|49.48,50.58|Z|Orgrimmar|N|To Neeru Fireblade in the Cleft of Shadows|
+A Return to Witch Doctor Uzer'i|QID|3122|M|49.48,50.58|Z|Orgrimmar|N|From Neeru Fireblade.|PRE|3121|
+F Camp Mojache|ACTIVE|3122|M|45.13,63.90|Z|Orgrimmar|
+T Return to Witch Doctor Uzer'i|QID|3122|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
+A Testing the Vessel|QID|3123|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.\n[color=FF0000]NOTE: [/color]There is a brief interlude before he offers this quest.|PRE|3122|
+A Natural Materials|QID|3128|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3122|
+R Woodpaw Hills|ACTIVE|2862|M|70.45,49.82|Z|Feralas|N|Exit Camp Mojache from the west and follow the road a short distance.|
+C War on the Woodpaw|QID|2862|M|70.16,54.59|Z|Feralas|L|9237 10|N|Kill gnolls to loot the Woodpaw Gnoll Manes.|
+T War on the Woodpaw|QID|2862|M|74.9,42.5|Z|Feralas|N|To Hadoken Swiftstrider.|
+A Alpha Strike.|QID|2863|M|74.9,42.5|Z|Feralas|N|From Hadoken Swiftstrider.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862| ; == Hendo72 - The '.' is to break auto-accept.
+K Alpha Strike|QID|2863|M|72,56;72,57;73,57|CN|Z|Feralas|QO|1|N|Ride southwest back to the gnoll camps and kill 5 Woodpaw Alpha. Not difficult but don't get too distracted. If you see a treant, kill and loot it. Multiple camps in the area.|
 T Alpha Strike|QID|2863|M|74.9,42.5|Z|Feralas|N|To Hadoken Swiftstrider back in Camp Mojache. Remember TIMER is still running, don't get distracted by shineys.|
 A Woodpaw Investigation|QID|2902|M|74.9,42.5|Z|Feralas|N|From Hadoken Swiftstrider.|PRE|2863|
 R Gordunni Outpost|ACTIVE|2987|M|77,35|Z|Feralas|N|Run up to the Ogre outpost north of camp .|
@@ -484,7 +479,7 @@ A Rescue OOX-22/FE!|QID|2767|PRE|2766|
 C Rescue OOX-22/FE!|QID|2767|N|Let the chicken lead, he will only stop or help if they attack him, not if you aggro something.|
 C Screecher Spirits|QID|3520|M|52.5,46.7|Z|Feralas|N|Head west and look for screechers - around if you did the escort and (57.3,54.6) if you didn't. Kill and loot them then select the corpse and use Yeh'kinya's Bramble on it causing a screecher spirit to appear. Right click on the spirit to get quest credit for it.|U|10699|
 H Camp Mojache|ACTIVE|2822|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Mojache.|
-A The Sunken Temple|QID|3380|M|74.4,43.4|Z|Feralas|N|Accept this even if you aren't planning to do the instance - it leads to some normal quests in Tanaris.|
+A The Sunken Temple|QID|3380|M|74.42,43.36|Z|Feralas|N|Accept this even if you aren't planning to do the instance - it leads to some normal quests in Tanaris.|
 T The Mark of Quality|QID|2822|M|74.4,42.9|Z|Feralas|
 A Improved Quality|QID|7734|M|74.4,42.9|Z|Feralas|PRE|2822|
 T Zukk'ash Infestation|QID|7730|M|74.9,42.5|Z|Feralas|
@@ -704,8 +699,8 @@ A Rise of the Silithid|QID|32|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzl
 F Camp Mojache|ACTIVE|3123|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|
 h Camp Mojache|ACTIVE|3123|M|74.8,45|Z|Feralas|N|Stop in the inn and set your hearthstone with Innkeeper Greul.|
 r Repair, Restock, Sell Junk|ACTIVE|3123|
-T Testing the Vessel|QID|3123|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
-A Hippogryph Muisek|QID|3124|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3123|
+T Testing the Vessel|QID|3123|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
+A Hippogryph Muisek|QID|3124|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3123|
 A Dark Heart|QID|3062|M|76.2,43.8|Z|Feralas|N|From Talo Thornhoof.|
 A Vengeance on the Northspring|QID|3063|M|76.2,43.8|Z|Feralas|N|From Talo Thornhoof.|
 A The Strength of Corruption|QID|4120|M|76.2,43.8|Z|Feralas|N|From Talo Thornhoof.|
@@ -721,14 +716,14 @@ T Zapped Giants|QID|7003|M|45,44|Z|Feralas|N|To Zorbin Fandazzle.|
 T Fuel for the Zapping|QID|7721|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle.|
 A Again With the Zapped Giants|QID|7725|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle. We aren't actually going to complete this. we just want the zapper for a later quest.|
 H Camp Mojache|QID|3124|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Mojache.|
-T Hippogryph Muisek|QID|3124|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
-A Faerie Dragon Muisek|QID|3125|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3124|
+T Hippogryph Muisek|QID|3124|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
+A Faerie Dragon Muisek|QID|3125|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3124|
 C Faerie Dragon Muisek|QID|3125|M|68.70,49.00;68.90,44.95;67.05,47.72;70.11,46.81;64.88,48.05|CN|N|Head souht-west to the Sprite Darters. Kill them and use the Muisek Vessel on their corpses. Do not skin them skinners!|U|9620|
-T Faerie Dragon Muisek|QID|3125|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
-A Treant Muisek|QID|3126|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3125|
+T Faerie Dragon Muisek|QID|3125|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
+A Treant Muisek|QID|3126|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3125|
 C Treant Muisek|QID|3126|M|71,57;58,48;57,73;73,40|CN|Z|Feralas|N|You're looking for Wandering Forest Walkers, which spawn and wander around near: The Grimtotem compound and Camp Mojache,The gnoll camps, Dire Maul, Hippogyph area.|U|9606|
-T Treant Muisek|QID|3126|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
-A Mountain Giant Muisek|QID|3127|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3126|
+T Treant Muisek|QID|3126|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
+A Mountain Giant Muisek|QID|3127|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3126|
 A Find OOX-22/FE!|QID|2766|N|From Dropped item. somewhat rare, don't stress if you dont find it.|U|8705|
 t Find OOX-22/FE!|QID|2766|M|52,57|Z|Feralas|N|To the OOX-22/FE in the yeti cave.|
 A Rescue OOX-22/FE!|QID|2767|M|52,57|Z|Feralas|N|From OOX-22/FE.|PRE|2766|
@@ -744,10 +739,10 @@ K Harpies|ACTIVE|3062|M|41,12|Z|Feralas|L|9530|N|Continue until you get a Horn o
 C Dark Heart|QID|3062|M|40.67,8.3|Z|Feralas|N|Head to the stones at waypoint. HP/Mana up, then use the stand between them and use the Horn. Kill Edana.|U|9530|
 L Level Check|ACTIVE|3127|N|Grind to 50.|LVL|50|
 H Camp Mojache|ACTIVE|3127|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Mojache.|
-T Mountain Giant Muisek|QID|3127|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
-T Natural Materials|QID|3128|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
-A Weapons of Spirit|QID|3129|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
-T Weapons of Spirit|QID|3129|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i, after he finishes talking.|
+T Mountain Giant Muisek|QID|3127|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|
+T Natural Materials|QID|3128|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
+A Weapons of Spirit|QID|3129|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|
+T Weapons of Spirit|QID|3129|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i, after he finishes talking.|
 T Improved Quality|QID|7734|M|74.4,42.9|Z|Feralas|N|To Jangdor Swiftstrider.|
 T Perfect Yeti Hide|QID|7738|M|74.4,42.9|Z|Feralas|N|To Jangdor Swiftstrider.|
 T Vengeance on the Northspring|QID|3063|M|76.2,43.8|Z|Feralas|N|To Talo Thornhoof.|
@@ -782,8 +777,6 @@ C Kill animals|QID|2581&2583&2585&2601&2603|M|44.8,29.7;54.7,36.5;60.1,27.7;50.6
 T Quests to the Bloodmages|QID|2581&2583&2585&2601&2603|M|50,14|Z|Blasted Lands|N|Turn them in, in the order you choose to maximize the buffs. Don't get the followups unless you are having lots of fun here. They are repeatable, so it's not a bad place to grind and get a buff.|
 A Everything Counts In Large Amounts|QID|3501|M|51,35|Z|Blasted Lands|N|If you get any Draenethyst Fragments, go here to turn in, its a pretty rare drop, dont try to farm for it. check off manually if you didnt find any.|
 L Level Check|LVL|51|N|You should be level 51, if not stay and grind here a bit.|
-
-
 
 ;stuff not used. not ready to throw away yet
 ;A Cracking Maury's Foot|QID|613|
