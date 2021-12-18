@@ -439,11 +439,13 @@ A Testing the Vessel|QID|3123|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i
 A Natural Materials|QID|3128|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3122|
 R Woodpaw Hills|ACTIVE|2862|M|70.45,49.82|Z|Feralas|N|Exit Camp Mojache from the west and follow the road a short distance.|
 C War on the Woodpaw|QID|2862|M|70.16,54.59|Z|Feralas|L|9237 10|N|Kill gnolls to loot the Woodpaw Gnoll Manes.|
-T War on the Woodpaw|QID|2862|M|74.9,42.5|Z|Feralas|N|To Hadoken Swiftstrider.|
-A Alpha Strike.|QID|2863|M|74.9,42.5|Z|Feralas|N|From Hadoken Swiftstrider.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862| ; == Hendo72 - The '.' is to break auto-accept.
-K Alpha Strike|QID|2863|M|72,56;72,57;73,57|CN|Z|Feralas|QO|1|N|Ride southwest back to the gnoll camps and kill 5 Woodpaw Alpha. Not difficult but don't get too distracted. If you see a treant, kill and loot it. Multiple camps in the area.|
-T Alpha Strike|QID|2863|M|74.9,42.5|Z|Feralas|N|To Hadoken Swiftstrider back in Camp Mojache. Remember TIMER is still running, don't get distracted by shineys.|
-A Woodpaw Investigation|QID|2902|M|74.9,42.5|Z|Feralas|N|From Hadoken Swiftstrider.|PRE|2863|
+R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|Feralas|
+T War on the Woodpaw|QID|2862|M|74.91,42.46|Z|Feralas|N|To Hadoken Swiftstrider.|
+A Alpha Strike.|QID|2863|M|74.91,42.46|Z|Feralas|N|From Hadoken Swiftstrider.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862| ; == Hendo72 - The '.' is to break auto-accept.
+A Alpha Strike.|QID|2863|M|74.91,42.46|Z|Feralas|N|Return to Hadoken Swiftstrider to restart the quest.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862|FAIL| ; == Hendo72 - The '.' is to break auto-accept.
+K Alpha Strike|QID|2863|M|72,56;72,57;73,57|CN|Z|Feralas|QO|1|N|Head back to the gnoll camps and kill 5 Woodpaw Alpha within 60 minutes.\n[color=FF0000]NOTE: [/color]Multiple camps in the area.|
+T Alpha Strike|QID|2863|M|74.91,42.46|Z|Feralas|N|To Hadoken Swiftstrider back in Camp Mojache. Remember TIMER is still running, don't get distracted by shineys.|
+A Woodpaw Investigation|QID|2902|M|74.91,42.46|Z|Feralas|N|From Hadoken Swiftstrider.|PRE|2863|
 R Gordunni Outpost|ACTIVE|2987|M|77,35|Z|Feralas|N|Run up to the Ogre outpost north of camp .|
 C Gordunni Cobalt|QID|2987|M|75.2,28.7|Z|Feralas|N|Here we will kill ogres, dig for cobalt, and hunt for the Gordunni Scroll which can spawn near or (80.8,35.0). Look for small blue lights/patches on the ground in the Orgre area north of camp, use the shovel there then open the mounds you uncover. Repeat until you find 12 Gordunni Cobalt.|U|9466|
 C The Ogres of Feralas|QID|2975|M|75.2,28.7|Z|Feralas|N|Keep killing ogres and looking for the scroll.|
@@ -456,9 +458,9 @@ A The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|Feralas|N|Get the follow up.|PRE|2
 T The Gordunni Scroll|QID|2978|M|75.9,43.6|Z|Feralas|
 A Dark Ceremony|QID|2979|M|75.9,43.6|Z|Feralas|N|Get the follow up.|PRE|2978|
 T Gordunni Cobalt|QID|2987|M|75.7,44.3|Z|Feralas|
-T The Battle Plans|QID|2903|M|74.9,42.5|Z|Feralas|
-A Zukk'ash Infestation|QID|7730|M|74.9,42.5|Z|Feralas|PRE|2903|
-A Stinglasher|QID|7731|M|74.9,42.5|Z|Feralas|PRE|2903|
+T The Battle Plans|QID|2903|M|74.91,42.46|Z|Feralas|
+A Zukk'ash Infestation|QID|7730|M|74.91,42.46|Z|Feralas|PRE|2903|
+A Stinglasher|QID|7731|M|74.91,42.46|Z|Feralas|PRE|2903|
 T A New Cloak's Sheen|QID|2973|M|75.9,42.7|Z|Feralas|
 A A Grim Discovery|QID|2974|M|75.9,42.7|Z|Feralas|PRE|2973|
 r Restock, Repair, Sell Junk|ACTIVE|7731|N|Get ready for another circuit of quests.|
@@ -482,9 +484,9 @@ H Camp Mojache|ACTIVE|2822|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Moj
 A The Sunken Temple|QID|3380|M|74.42,43.36|Z|Feralas|N|Accept this even if you aren't planning to do the instance - it leads to some normal quests in Tanaris.|
 T The Mark of Quality|QID|2822|M|74.4,42.9|Z|Feralas|
 A Improved Quality|QID|7734|M|74.4,42.9|Z|Feralas|PRE|2822|
-T Zukk'ash Infestation|QID|7730|M|74.9,42.5|Z|Feralas|
-T Stinglasher|QID|7731|M|74.9,42.5|Z|Feralas|
-A Zukk'ash Report|QID|7732|M|74.9,42.5|Z|Feralas|
+T Zukk'ash Infestation|QID|7730|M|74.91,42.46|Z|Feralas|
+T Stinglasher|QID|7731|M|74.91,42.46|Z|Feralas|
+A Zukk'ash Report|QID|7732|M|74.91,42.46|Z|Feralas|
 T The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|Feralas|
 T Dark Ceremony|QID|2979|M|75.9,43.6|Z|Feralas|
 T A Grim Discovery|QID|2974|M|75.9,42.7|Z|Feralas|
