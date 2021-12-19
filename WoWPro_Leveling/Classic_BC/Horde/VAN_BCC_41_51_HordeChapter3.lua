@@ -418,11 +418,11 @@ R Freewind Post|AVAILABLE|2987|M|47.01,46.86|Z|Thousand Needles|TAXI|-Camp Mojac
 R Feralas|AVAILABLE|2987|M|89.32,41.18|Z|Feralas|N|Make your way to the west end of Thousand Needles and into Feralas.\n[color=FF0000]NOTE: [/color]The road is the path of least resistance.|TAXI|-Camp Mojache|
 R Camp Mojache|AVAILABLE|2987|M|78.22,42.54|Z|Feralas|N|Follow the road west to Camp Mojache.|TAXI|-Camp Mojache|
 f Camp Mojache|AVAILABLE|2987|M|75.45,44.35|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
-A Gordunni Cobalt|QID|2987|M|75.70,44.31|Z|Feralas|N|Get this from Orwin Gizzmick, a goblin near the wyvern master.|
-A A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|Feralas|N|Get this from Kreug Skullspitter near the eastern entrance to the village.|
-A War on the Woodpaw|QID|2862|M|74.91,42.47|Z|Feralas|N|Get this from Hadoken Swiftstrider, who's across the street from the inn.|
-A The Mark of Quality|QID|2822|M|74.43,42.91|Z|Feralas|N|Get this from Jangdor Swifstrider inside the big tent building across the road from the inn.|
-A A Strange Request|QID|3121|M|74.42,43.36|Z|Feralas|N|Get this from Witch Doctor Uzer'l right outside that tent building.|
+A Gordunni Cobalt|QID|2987|M|75.70,44.31|Z|Feralas|N|From Orwin Gizzmick.|
+A A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|Feralas|N|From Kreug Skullspitter near the eastern entrance to the village.|
+A War on the Woodpaw|QID|2862|M|74.91,42.47|Z|Feralas|N|From Hadoken Swiftstrider, who's across the street from the inn.|
+A The Mark of Quality|QID|2822|M|74.43,42.91|Z|Feralas|N|From Jangdor Swifstrider inside the big tent building across the road from the inn.|
+A A Strange Request|QID|3121|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'l right outside that tent building.|
 h Camp Mojache|ACTIVE|3121|M|74.81,45.19|Z|Feralas|N|Stop in the inn and set your hearthstone with Innkeeper Greul.|
 A The Ogres of Feralas|QID|2975|M|73.53,45.12;75.96,42.85|CC|Z|Feralas|N|From Rok Orthan.\n[color=FF0000]NOTE: [/color]She roams between the Mill by the west entrance and the Mill by the east entrance. She makes a pit stop at the Inn going both ways.|
 L Level Check|ACTIVE|3121|M|81.90,44.90|Z|Feralas|N|Head into Lower Wilds and grind until you're lv 46.|LVL|46|
@@ -459,22 +459,25 @@ C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|Feralas|L|9589 6|N|Loot these from
 C A New Cloak's Sheen|QID|2973|M|69.43,45.60|Z|Feralas|L|9369 10|N|From Gordunni Outpost, cross the river and head southwest to where the Sprite Darters are. Kill them to loot your Sprite Darter Wings.|
 C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|Feralas|L|9589 6|N|Loot these from the Sprite Darters.|US|
 T Woodpaw Investigation|QID|2902|M|71.2,56.4;71.63,55.92|CS|Z|Feralas|N|Make your way to the camp in the gnoll area. After clearing the camp, locate the Woodpaw Battle Map sitting on a crate and click on it.|
-A The Battle Plans|QID|2903|M|71.6,55.9|Z|Feralas|N|From the Woodpaw Battle Map.|PRE|2902|
+A The Battle Plans|QID|2903|M|71.63,55.92|Z|Feralas|N|From the Woodpaw Battle Map.|PRE|2902|
 R Camp Mojache|ACTIVE|2975|M|73.12,47.44|Z|Feralas|N|Head back to turn in a bunch of quests.|
-T The Ogres of Feralas|QID|2975|M|75.9,43.6|Z|Feralas|
-A The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|Feralas|PRE|2975|
-T The Gordunni Scroll|QID|2978|M|75.9,43.6|Z|Feralas|
-A Dark Ceremony|QID|2979|M|75.9,43.6|Z|Feralas|N|Get the follow up.|PRE|2978|
+T The Ogres of Feralas|QID|2975|M|75.9,43.6|Z|Feralas|N|To Rok Orthan.\n[color=FF0000]NOTE: [/color]Turn it in when you find her.|S|
+A The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|Feralas|N|From Rok Orthan.|PRE|2975|
+T The Gordunni Scroll|QID|2978|ACTIVE|2980|M|75.9,43.6|Z|Feralas|N|To Rok Orthan.|
+A Dark Ceremony|QID|2979|M|75.9,43.6|Z|Feralas|N|From Rok Orthan.|PRE|2978|
 T Gordunni Cobalt|QID|2987|M|75.7,44.3|Z|Feralas|
-T The Battle Plans|QID|2903|M|74.91,42.46|Z|Feralas|
-A Zukk'ash Infestation|QID|7730|M|74.91,42.46|Z|Feralas|PRE|2903|
-A Stinglasher|QID|7731|M|74.91,42.46|Z|Feralas|PRE|2903|
-T A New Cloak's Sheen|QID|2973|M|75.9,42.7|Z|Feralas|
-A A Grim Discovery|QID|2974|M|75.9,42.7|Z|Feralas|PRE|2973|
+T The Battle Plans|QID|2903|M|74.91,42.46|Z|Feralas|N|To Hadoken Swiftstrider.|
+A Zukk'ash Infestation|QID|7730|M|74.91,42.46|Z|Feralas|N|From Hadoken Swiftstrider.|PRE|2903|
+A Stinglasher|QID|7731|M|74.91,42.46|Z|Feralas|N|From Hadoken Swiftstrider.|PRE|2903|
+T A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|Feralas|N|To Kreug Skullspitter.|
+A A Grim Discovery|QID|2974|M|75.95,42.73|Z|Feralas|N|From Kreug Skullspitter|PRE|2973|
+T The Ogres of Feralas|QID|2975|M|75.96,42.85;73.53,45.12|CC|Z|Feralas|N|To Rok Orthan.|US|
 r Restock, Repair, Sell Junk|ACTIVE|7731|N|Get ready for another circuit of quests.|
-R The Writhing Deep|ACTIVE|7731|M|75,60|Z|Feralas|N|Bug hunt! Head to Writhing Deep . Kill any wandering treants on the way.|
-C Stinglasher|QID|7731|M|75.81,60.92|Z|Feralas|N|Go to the eastern cave entrance and you should find Stinglasher there roaming in and out of the entrance. Kill other insects in the area for the Zukk'Ash carapaces too.|
-C Zukk'ash Infestation|QID|7730|M|72.8,62.8|Z|Feralas|N|Keep killing insects until you have 20 Zukk'Ash carapaces.|
+C Splintered Log|ACTIVE|3128|L|9590 2|N|Kill Wandering Forest Walkers to loot these.|S|
+R The Writhing Deep|ACTIVE|7731|M|71.3,49.0;75,60|CC|Z|Feralas|N|Head to Writhing Deep.|
+C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|Feralas|L|18961 20|N|Kill insects to loot the Zukk'Ash carapaces.|S|
+K Stinglasher|ACTIVE|7731|M|75.81,60.92|Z|Feralas|L|18962|N|Go to the eastern hive entrance and you should find Stinglasher roaming in and out of the entrance.|
+C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|Feralas|L|18961 20|N|Finish collecting the Zukk'Ash carapaces.\n[color=FF0000]NOTE: [/color]Above or below ground, the choice is yours. Workers and Wasps are your best bet for getting them.|US|
 R Grimtotem Compound|ACTIVE|2974|M|69.50,42.00|Z|Feralas|N|Ride back north across the road (killing and looting any wandering treants you see) to the Grimtotem Village.|
 C A Grim Discovery|QID|2974|M|69.6,47.7|Z|Feralas|N|Kill grimtotems until you've collected 20 Grimtotem Horns.|
 R Ruins of Isildien|ACTIVE|2980|M|62.00,54.00|Z|Feralas|N|Ride back to the road then follow it west to the Ruins of Isildien to kill more orgres.|
