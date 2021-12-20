@@ -472,17 +472,19 @@ A Stinglasher|QID|7731|M|74.91,42.46|Z|Feralas|N|From Hadoken Swiftstrider.|PRE|
 T A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|Feralas|N|To Kreug Skullspitter.|
 A A Grim Discovery|QID|2974|M|75.95,42.73|Z|Feralas|N|From Kreug Skullspitter|PRE|2973|
 T The Ogres of Feralas|QID|2975|M|75.96,42.85;73.53,45.12|CC|Z|Feralas|N|To Rok Orthan.|US|
-r Restock, Repair, Sell Junk|ACTIVE|7731|N|Get ready for another circuit of quests.|
+r Restock, Repair, Sell Junk|ACTIVE|7731|N|Get ready for another circuit of quests.|IZ|Camp Mojache|
 C Splintered Log|ACTIVE|3128|L|9590 2|N|Kill Wandering Forest Walkers to loot these.|S|
 R The Writhing Deep|ACTIVE|7731|M|71.3,49.0;75,60|CC|Z|Feralas|N|Head to Writhing Deep.|
 C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|Feralas|L|18961 20|N|Kill insects to loot the Zukk'Ash carapaces.|S|
 K Stinglasher|ACTIVE|7731|M|75.81,60.92|Z|Feralas|L|18962|N|Go to the eastern hive entrance and you should find Stinglasher roaming in and out of the entrance.|
 C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|Feralas|L|18961 20|N|Finish collecting the Zukk'Ash carapaces.\n[color=FF0000]NOTE: [/color]Above or below ground, the choice is yours. Workers and Wasps are your best bet for getting them.|US|
-R Grimtotem Compound|ACTIVE|2974|M|69.50,42.00|Z|Feralas|N|Ride back north across the road (killing and looting any wandering treants you see) to the Grimtotem Village.|
-C A Grim Discovery|QID|2974|M|69.6,47.7|Z|Feralas|N|Kill grimtotems until you've collected 20 Grimtotem Horns.|
-R Ruins of Isildien|ACTIVE|2980|M|62.00,54.00|Z|Feralas|N|Ride back to the road then follow it west to the Ruins of Isildien to kill more orgres.|
-C The Ogres of Feralas|QID|2980|M|59,73|Z|Feralas|N|You are going to be hunting Maulers, Warlocks, and Shamans and to get the Shamans, you'll have to head south go the big temple at . Once there kill Gordunni Mage-Lords too until one of them drops a Gordunni Orb which starts a quest.|
-C Dark Ceremony|QID|2979|M|59.5,68.4|Z|Feralas|N|Kill Gordunni Mage-Lords until you find a Gordunni Orb.|
+R Grimtotem Compound|ACTIVE|2974|M|69.50,42.00|Z|Feralas|
+C A Grim Discovery|QID|2974|M|69.16,38.17|Z|Feralas|L|9460 20|N|Kill Grimtotems to loot the Grimtotem Horns.|
+R Verdantis River|ACTIVE|2980|M|66.0,49.1;63.76,51.09|CC|Z|Feralas|N|Head back to the road and follow it west to the Bridge over the river.|
+R Ruins of Isildien|ACTIVE|2980|M|61.9,53.1;61.71,53.97|CC|Z|Feralas|N|Cross the bridge and continue west to the Ruins of Isildien.|
+K The Ogres of Feralas|ACTIVE|2980|M|59.34,66.62|Z|Feralas|QO|1;2;3|N|Kill the required oqgres.|S|
+C Dark Ceremony|QID|2979|M|59.5,68.4|Z|Feralas|L|9371|N|Kill Gordunni Mage-Lords until one drops the Gordunni Orb.\n[color=FF0000]NOTE: [/color]Move down the hill and past the first building as quickly as you can to get to where the Mage-Lords are.|
+K The Ogres of Feralas|ACTIVE|2980|M|59.34,66.62|Z|Feralas|QO|1;2;3|N|Kill the required oqgres.\n[color=FF0000]NOTE: [/color]There are more inside the building if you don't want to wait for respawns outside.|US|
 A The Gordunni Orb|QID|3002|M|75.9,43.6|Z|Feralas|PRE|2979|
 R Feral Scar Vale|ACTIVE|2822|M|55,56|Z|Feralas|N|Ride to the Ferak Scar Vale where the Yeti Cave is.|
 C The Mark of Quality|QID|2822|M|55.4,54.4|Z|Feralas|N|Kill yeti until you loot 10 thick yeti hides.|
