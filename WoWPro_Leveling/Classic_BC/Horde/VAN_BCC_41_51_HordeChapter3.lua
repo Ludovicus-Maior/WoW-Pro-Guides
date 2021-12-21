@@ -416,6 +416,8 @@ T Safety First|QID|1189|M|80.33,76.09|Z|Thousand Needles|N|To Razzeric.|TAXI|-Ca
 R Ironstone Camp|AVAILABLE|2987|M|68.15,64.71|Z|Thousand Needles|TAXI|-Camp Mojache|IZ|-1444;Feralas|
 R Freewind Post|AVAILABLE|2987|M|47.01,46.86|Z|Thousand Needles|TAXI|-Camp Mojache|IZ|-1444;Feralas|
 R Feralas|AVAILABLE|2987|M|89.32,41.18|Z|Feralas|N|Make your way to the west end of Thousand Needles and into Feralas.\n[color=FF0000]NOTE: [/color]The road is the path of least resistance.|TAXI|-Camp Mojache|
+N OOX-22/FE Distress Beacon|AVAILABLE|2766|N|This item is a randomly dropped quest starter you can get from killing one of 75 different NPCs/beasts in Feralas.\n[color=FF0000]NOTE: [/color]The drop rate is incredibly low (1% and lower).\nManually check this step off to continue.|IZ|1444;Feralas|
+A Find OOX-22/FE!|QID|2766|N|Lucky you! Click on the Beacon to accept the quest.|U|8705|O|
 R Camp Mojache|AVAILABLE|2987|M|78.22,42.54|Z|Feralas|N|Follow the road west to Camp Mojache.|TAXI|-Camp Mojache|
 f Camp Mojache|AVAILABLE|2987|M|75.45,44.35|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
 A Gordunni Cobalt|QID|2987|M|75.70,44.31|Z|Feralas|N|From Orwin Gizzmick.|
@@ -483,18 +485,19 @@ C A Grim Discovery|QID|2974|M|69.16,38.17|Z|Feralas|L|9460 20|N|Kill Grimtotems 
 R Verdantis River|ACTIVE|2980|M|66.0,49.1;63.76,51.09|CC|Z|Feralas|N|Head back to the road and follow it west to the Bridge over the river.|
 R Ruins of Isildien|ACTIVE|2980|M|61.9,53.1;61.71,53.97|CC|Z|Feralas|N|Cross the bridge and continue west to the Ruins of Isildien.|
 K The Ogres of Feralas|ACTIVE|2980|M|59.34,66.62|Z|Feralas|QO|1;2;3|N|Kill the required oqgres.|S|
-C Dark Ceremony|QID|2979|M|59.5,68.4|Z|Feralas|L|9371|N|Kill Gordunni Mage-Lords until one drops the Gordunni Orb.\n[color=FF0000]NOTE: [/color]Move down the hill and past the first building as quickly as you can to get to where the Mage-Lords are.|
-K The Ogres of Feralas|ACTIVE|2980|M|59.34,66.62|Z|Feralas|QO|1;2;3|N|Kill the required oqgres.\n[color=FF0000]NOTE: [/color]There are more inside the building if you don't want to wait for respawns outside.|US|
-A The Gordunni Orb|QID|3002|M|75.9,43.6|Z|Feralas|PRE|2979|
-R Feral Scar Vale|ACTIVE|2822|M|55,56|Z|Feralas|N|Ride to the Ferak Scar Vale where the Yeti Cave is.|
-C The Mark of Quality|QID|2822|M|55.4,54.4|Z|Feralas|N|Kill yeti until you loot 10 thick yeti hides.|
-A Find OOX-22/FE!|QID|2766|U|8705|
+C Dark Ceremony|QID|2979|M|59.51,67.48|Z|Feralas|L|9371|N|Kill Gordunni Mage-Lords until one drops the Gordunni Orb.\n[color=FF0000]NOTE: [/color]Move down the hill and past the first building as quickly as you can to get to where the Mage-Lords are.|
+K The Ogres of Feralas|ACTIVE|2980|M|59.34,66.62|Z|Feralas|QO|1;2;3|N|Kill the required oqgres.|US|
+C Screecher Spirits|QID|3520|M|58.48,58.83|Z|Feralas|N|After you've killed and looted a Screecher, use Yeh'kinya's Bramble on it causing a screecher spirit to appear.\n[color=FF0000]NOTE: [/color]You must click on the spirit to get credit for it.|U|10699|S|
+R Feral Scar Vale|ACTIVE|2822|M|56.51,58.27|Z|Feralas|
+C The Mark of Quality|QID|2822|ACTIVE|-2766|M|55.4,54.4|Z|Feralas|L|8973 10|N|Kill yetis to loot the thick yeti hides.|
+C The Mark of Quality|QID|2822|ACTIVE|2766|M|55.4,54.4|Z|Feralas|L|8973 10|N|Enter the cave and kill yetis to loot the thick yeti hides as you work your way deeper into it.|S|
 t Find OOX-22/FE!|QID|2766|
 A Rescue OOX-22/FE!|QID|2767|PRE|2766|
 C Rescue OOX-22/FE!|QID|2767|N|Let the chicken lead, he will only stop or help if they attack him, not if you aggro something.|
-C Screecher Spirits|QID|3520|M|52.5,46.7|Z|Feralas|N|Head west and look for screechers - around if you did the escort and (57.3,54.6) if you didn't. Kill and loot them then select the corpse and use Yeh'kinya's Bramble on it causing a screecher spirit to appear. Right click on the spirit to get quest credit for it.|U|10699|
-H Camp Mojache|ACTIVE|2822|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Mojache.|
-A The Sunken Temple|QID|3380|M|74.42,43.36|Z|Feralas|N|Accept this even if you aren't planning to do the instance - it leads to some normal quests in Tanaris.|
+C Screecher Spirits|QID|3520|M|52.5,46.7|Z|Feralas|N|Head west and look for screechers - around if you did the escort and (57.3,54.6) if you didn't. Kill and loot them then select the corpse and use Yeh'kinya's Bramble on it causing a screecher spirit to appear. Right click on the spirit to get quest credit for it.|U|10699|US|
+H Camp Mojache|ACTIVE|2822|M|73.12,47.44|Z|Feralas|
+A The Gordunni Orb|QID|3002|M|75.9,43.6|Z|Feralas|PRE|2979|
+A The Sunken Temple|QID|3380|M|74.42,43.36|Z|Feralas|ELITE|N|[color=E6CC80]Dungeon: 'Sunken Temple'[/color]\nThis dungeon quest is a breadcrumb to some normal quests in Tanaris.|
 T The Mark of Quality|QID|2822|M|74.4,42.9|Z|Feralas|
 A Improved Quality|QID|7734|M|74.4,42.9|Z|Feralas|PRE|2822|
 T Zukk'ash Infestation|QID|7730|M|74.91,42.46|Z|Feralas|
