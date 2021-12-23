@@ -521,6 +521,8 @@ A Stoley's Shipment|QID|2873|M|67.11,23.98|Z|Tanaris|N|From Stoley.|PRE|2872|
 ;K Caliph Scorpidsting|ACTIVE|2781|M|63.00,37.00|Z|Tanaris|QO|1|N|Find and kill Caliph Scorpidsting around this location. He has 2 stealthed bodyguards.|T|Caliph Scorpidsting|
 ;C More Wastewander Justice|QID|1691|M|59.00,37.00|Z|Tanaris|N|Finish killing mobs around here to finish this quest.|US|
 R Lost Rigger Cove|ACTIVE|8366|M|68.57,41.43|Z|Tanaris|N|Follow the shoreline south to the tunnel entrance. The cove is on the other side.\n[color=FF0000]NOTE: [/color]Swimming around the mountain that's in the way is not an option.|
+U Pirate's Footlocker|AVAILABLE|2876|L|9250|N|Open it to loot a quest starter, Ship Schedules.|U|9276|
+A Ship Schedule|QID|2876|N|Click the Ship Schedules accept the quest.|U|9250|O|
 K Southsea Shakedown|ACTIVE|8366|M|73.00,47.00|Z|Tanaris|QO|1;2;3;4|N|kill the required Pirates.|S|
 C Pirate Hats Ahoy!|QID|8365|M|73.15,45.81|Z|Tanaris|L|20519 20|N|Kill pirates to loot the Hats.|S|
 R Fort Entrance|ACTIVE|2873|M|73.17,45.56|CC|Z|Tanaris|N|Go through the tunnel and make your way across to the ONLY opening in the wall on the west side.|
@@ -529,26 +531,27 @@ K Andre Firebeard|ACTIVE|2875|M|73.38,47.08|Z|Tanaris|QO|1|N|Kill Andre Firebear
 K Southsea Shakedown|ACTIVE|8366|M|73.37,46.86|Z|Tanaris|QO|1;2;3;4|N|Finish killing the required Pirates.\n[color=FF0000]NOTE: [/color]Watch for adds, as you can become overwhelmed very quickly.|US|
 C Pirate Hats Ahoy!|QID|8365|M|73.15,45.81|Z|Tanaris|L|20519 20|N|Finish collecting the Hats.|US|
 R Steamwheedle Port|ACTIVE|8366|M|67.1,23.9|Z|Tanaris|
-A Ship Schedules|QID|2876|N|Click the Ship Schedules accept the quest.|U|9250|O|
-t Ship Schedules|QID|2876|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
+t Ship Schedule|QID|2876|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
 T WANTED: Andre Firebeard|QID|2875|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
 T Southsea Shakedown|QID|8366|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
 T Stoley's Shipment|QID|2873|M|67.11,23.98|Z|Tanaris|N|To Stoley.|
 A Deliver to MacKinley|QID|2874|M|67.11,23.98|Z|Tanaris|N|From Stoley.|PRE|2873|
-T Pirate Hats Ahoy!|QID|8365|M|66.6,22.3|Z|Tanaris|N|To Haughty Modiste.|
-H Gadgetzan|ACTIVE|1691|M|52.50,27.90|Z|Tanaris|N|Hearth or run back to Gadgetzen.|
-T More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-T WANTED: Caliph Scorpidsting|QID|2781|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-t Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|To Spigot Operator Luglunket as many times as you can.|
-A Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
-A The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|
-A The Dunemaul Compound|QID|5863|M|52.8,27.4|Z|Tanaris|N|From Andi Lynn.|
+T Pirate Hats Ahoy!|QID|8365|M|66.56,22.27|Z|Tanaris|N|To Haughty Modiste.|
+R Gadgetzan|AVAILABLE|992|M|52.50,27.90|Z|Tanaris|
+;T More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
+;T WANTED: Caliph Scorpidsting|QID|2781|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
+;t Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|To Spigot Operator Luglunket as many times as you can.|
+A Gadgetzan Water Survey|QID|992|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
+A The Thirsty Goblin|QID|2605|M|51.81,28.66|Z|Tanaris|N|From Marin Noggenfogger.|
+A The Dunemaul Compound|QID|5863|M|52.82,27.40|Z|Tanaris|N|From Andi Lynn.|
 A Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|From Tran'Rek|
-C Gadgetzan Water Survey|QID|992|M|39.05,29.15|Z|Tanaris|N|Use the Untapped Dowsing Widget on the pool at this location.|U|8584|
-T Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|To Senior Survey Fizzledowser.|
-A Noxious Lair Investigation|QID|82|M|50.2,27.5|Z|Tanaris|N|From Senior Survey Fizzledowser.|PRE|992|
-R Broken Piller|ACTIVE|3445|M|52,45|Z|Tanaris|N|Go south to the Broken Pillar.|
-T The Sunken Temple|QID|3445|M|52.7,45.9|Z|Tanaris|N|To Mavon Rivetseeker.|
+R Sandsorrow Watch|ACTIVE|992|M|44.56,27.11|Z|Tanaris|
+C Gadgetzan Water Survey|QID|992|M|38.57,29.24|Z|Tanaris|L|8585|N|Use the Untapped Dowsing Widget on the pool of water. 2 mobs will spawn when you do it. Stand and fight or run, your choice.\n[color=FF0000]NOTE: [/color]Sweeping wide to the north or south of the mobs and approaching from the west is your best option (no fighting).|U|8584|
+R Gadgetzan|ACTIVE|992|M|52.50,27.90|Z|Tanaris|
+T Gadgetzan Water Survey|QID|992|M|50.21,27.48|Z|Tanaris|N|To Senior Survey Fizzledowser.|
+A Noxious Lair Investigation|QID|82|M|50.21,27.48|Z|Tanaris|N|From Senior Survey Fizzledowser.|PRE|992|
+R Broken Piller|ACTIVE|3380|M|52,45|Z|Tanaris|N|Go south to the Broken Pillar.|
+T The Sunken Temple|QID|3380|M|52.7,45.9|Z|Tanaris|N|To Mavon Rivetseeker.|
 A The Stone Circle|QID|3444|M|52.7,45.9|Z|Tanaris|N|From Mavon Rivetseeker.|PRE|3380|
 A Gahz'ridian|QID|3161|M|52.7,45.9|Z|Tanaris|N|From Mavon Rivetseeker.|
 C Gahz'ridian|QID|3161|N|From now on, loot any Gahz'ridian pieces you find on the ground.|S|
@@ -556,30 +559,21 @@ C The Dunemaul Compound|QID|5863|M|40.00,57.00|Z|Tanaris|N|Clear a path to the c
 K Gor'marok the Ravager|ACTIVE|5863|M|41.15,57.40|Z|Tanaris|N|Go here and kill Gor'marok the Ravager.|T|Gor'marok the Ravager|
 C The Dunemaul Compound|QID|5863|M|40.00,57.00|Z|Tanaris|N|Kill the rest of the ogres you need for this quest.|US|
 C Gahz'ridian|QID|3161|M|48.00,64.00;41,72|CN|Z|Tanaris|N|Finish collecting the 30 Gahz'ridian Ornaments.|US|
-L Level Check|ACTIVE|2966|LVL|47;89100|N|If you have [Seeing What Happens] to turn in, you should be about 6 bubbles from 48.|
-L Level Check|ACTIVE|-2966|LVL|47;99100|N|Grind a bit till this message goes away. (~4.5 bubbles from 48)|
-; -- Uldum quest chain
-R Uldum|ACTIVE|2966|M|38,79|Z|Tanaris|N|Run southwest to Uldum, the giants have a pretty small agro range so you should be able to avoid them.|
-t Seeing What Happens|QID|2966|M|37,81|Z|Tanaris|N|To Uldum Pedestal.|
-A The Stone Watcher|QID|2954|M|37,81|Z|Tanaris|N|From Uldum Pedestal.|PRE|2946|
-C The Stone Watcher|QID|2954|M|37,81|Z|Tanaris|NC|N|Click the pedastal to summon the Stone Watcher, click again to go thru his dialog, till you get the quest update.|
-T The Stone Watcher|QID|2954|M|37,81|Z|Tanaris|N|To Uldum Pedestal.|
-A Return to Thunder Bluff|QID|2967|M|37,81|Z|Tanaris|N|From Uldum Pedestal.|PRE|2954|
-; -- Back on track
 R Thistleshrub Valley|ACTIVE|2605|M|28,67|Z|Tanaris|N|Go west to Thistleshrub Valley.|
 C Thistleshrub Valley|QID|3362|M|28.3,63.8|Z|Tanaris|N|Kill Thistleshrubs and loot until you get the kills needed for this quest.|
 C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|Tanaris|N|Continue to kill Thistleshrubs until you get the dew gland (somewhat rare).|
 C Noxious Lair Investigation|QID|82|M|35.00,46.00|Z|Tanaris|N|Go here and kill and loot insects until you get the parts needed.|
+L Level Check|ACTIVE|2605|LVL|47;99100|N|Grind a bit till this message goes away. (~4.5 bubbles from 48)|
 T Gahz'ridian|QID|3161|M|52.7,45.9|Z|Tanaris|N|To Marvon Rivetseeker.|
 H Gadgetzan|ACTIVE|82|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen.|
-T The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|To Marin Noggenfogger.|
-A In Good Taste|QID|2606|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|PRE|2605|
-T The Dunemaul Compound|QID|5863|M|52.8,27.4|Z|Tanaris|N|To Andi Lynn.|
+T The Thirsty Goblin|QID|2605|M|51.81,28.66|Z|Tanaris|N|To Marin Noggenfogger.|
+A In Good Taste|QID|2606|M|51.81,28.66|Z|Tanaris|N|From Marin Noggenfogger.|PRE|2605|
+T The Dunemaul Compound|QID|5863|M|52.82,27.40|Z|Tanaris|N|To Andi Lynn.|
 T Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|TO Tran'Rek.|
 T In Good Taste|QID|2606|M|51.1,26.9|Z|Tanaris|N|To Sprinkle.|
 A Sprinkle's Secret Ingredient|QID|2641|M|51.1,26.9|Z|Tanaris|N|From Sprinkle.|PRE|2606|
 T Noxious Lair Investigation|QID|82|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
-A The Scrimshank Redemption|QID|10|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|82|
+A The Scrimshank Redemption|QID|10|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|82|
 L Level Check|ACTIVE|10|LVL|48|N|You should now be level 48, if not stay and grind abit on bandits.|
 F Thunder Bluff|ACTIVE|2967|M|46.8,50|Z|Thunder Bluff|N|At Tal, Wind Rider Master.|
 T Return to Thunder Bluff|QID|2967|M|75.6,31.2|Z|Thunder Bluff|N|To Nara Wildmane on Elder Rise.|
@@ -710,12 +704,12 @@ C Rescue OOX-17/TN!|QID|648|N|Let the chicken in front, let him get hit first. S
 R The Gaping Chasm|ACTIVE|10|M|56,61|Z|Tanaris|N|Ride to the Gaping Chasm|
 C The Scrimshank Redemption|QID|10|M|55.65,70.25;55.78,68.90;56.52,68.64;57.57,70.55;57.57,71.39;55.95,71.12|CS|Z|Tanaris|N|Find the entrance spiralling down at first waypoint. Take the 2nd tunnel you see when going down the spiral, the one going north. At the first fork, inside the tunnel go right and then through the circular room. At the first fork, after the circular room go right. You will enter a big square room. The Scrimshank's Surveying Gear is at the western corner of the square room.|
 H Gadgetzan|ACTIVE|10|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen.|
-T The Scrimshank Redemption|QID|10|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
-A Insect Part Analysis|QID|110|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|10|
+T The Scrimshank Redemption|QID|10|M|50.21,27.48|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
+A Insect Part Analysis|QID|110|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|10|
 T Insect Part Analysis|QID|110|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
 A Insect Part Analysis|QID|113|M|50.9,27.0|Z|Tanaris|N|From Alchemist Pestlezugg.|PRE|110|
-T Insect Part Analysis|QID|113|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
-A Rise of the Silithid|QID|32|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|113|
+T Insect Part Analysis|QID|113|M|50.21,27.48|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
+A Rise of the Silithid|QID|32|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|113|
 
 ; -- Feralas
 F Camp Mojache|ACTIVE|3123|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|
