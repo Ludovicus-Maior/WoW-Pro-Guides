@@ -33,11 +33,11 @@ C Give Me A Hand|QID|64947|M|PLAYER|QO|2|N|Kill the red robot that attacks you.|
 T Give Me A Hand|QID|64947|M|31.20,51.22|N|To Firim.|
 A For Research Purposes|QID|64949|PRE|64947|M|31.20,51.22|N|From Firim.|
 A A Mutual Exchange|QID|64950|PRE|64947|M|31.20,51.22|N|From Firim.|
-C For Research Purposes|QID|64949|M|29.88,56.66|QO|1|NC|N|Kill the robots in the area.|S|
+C For Research Purposes|QID|64949|N|Kill the robots in the area.|S|
 C A Mutual Exchange|QID|64950|M|31.37,56.41|QO|1|NC|N|Stand on the pad and use the "[color=40C7EB]Activate[/color]" button.|EAB|
 C A Mutual Exchange|QID|64950|M|31.69,56.82|QO|2|N|Kill Yggdreth the Despoiler.|
 C A Mutual Exchange|QID|64950|M|32.00,57.37|QO|3|NC|N|Click the glowing orb.|
-C For Research Purposes|QID|64949|M|29.88,56.66|QO|1|NC|N|Kill the robots in the area.|US|
+C For Research Purposes|QID|64949|M|30.54,53.70|N|Kill the robots in the area.|US|
 T A Mutual Exchange|QID|64950|M|31.23,51.30|N|To Firim.|
 T For Research Purposes|QID|64949|M|31.25,51.34|N|To Firim.|
 A The Road to Haven|QID|64951|PRE|64949&64950|M|31.23,51.30|N|From Firim.|
@@ -50,12 +50,12 @@ C Forging Connections|QID|65271|M|34.85,64.87|QO|2|CHAT|N|Speak to Elder Kreth.|
 T Forging Connections|QID|65271|M|34.91,64.81|N|To Elder Kreth.|
 A Defending Haven|QID|64953|PRE|65271|M|34.91,64.81|N|From Elder Kreth.|
 A Destroying the Destructors|QID|64952|PRE|65271|M|34.82,64.82|N|From Elder Ara.|
-C Defending Haven|QID|64953|M|38.14,62.55|QO|1|N|Mawsworn attackers slain.|S|
+C Defending Haven|QID|64953|N|Mawsworn attackers slain.|S|
 C Destroying the Destructors|QID|64952|M|37.88,63.99|CS|QO|1<1|NC|N|Maw Destructor.|
 C Destroying the Destructors|QID|64952|M|39.03,63.56|CS|QO|1<2|NC|N|Maw Destructor.|
 C Destroying the Destructors|QID|64952|M|38.19,60.36|CS|QO|1<3|NC|N|Maw Destructor.|
 C Destroying the Destructors|QID|64952|M|36.79,61.60|CS|QO|1<4|NC|N|Maw Destructor.|
-C Defending Haven|QID|64953|M|38.14,62.55|QO|1|N|Mawsworn attackers slain.|US|
+C Defending Haven|QID|64953|M|38.14,62.55|N|Mawsworn attackers slain.|US|
 T Destroying the Destructors|QID|64952|M|34.86,64.78|N|To Elder Ara.|
 T Defending Haven|QID|64953|M|34.86,64.78|N|To Elder Kreth.|
 A This Old Waystone|QID|64957|PRE|64952&64953|M|34.86,64.78|N|From Elder Ara.|
@@ -80,9 +80,9 @@ A Harmony and Discord|QID|64797|PRE|64796|M|47.91,44.77|Z|1970;Zereth Mortis|N|F
 T Harmony and Discord|QID|64797|M|41.96,48.10|Z|1970;Zereth Mortis|N|To Highlord Darion Mograine.|
 A Battle for the Forge|QID|64814|PRE|64797|M|41.96,48.10|Z|1970;Zereth Mortis|N|From Highlord Darion Mograine.|
 A Together, We Ride|QID|64815|PRE|64797|M|41.96,48.10|Z|1970;Zereth Mortis|N|From Highlord Darion Mograine.|
-C Together, We Ride|QID|64815|M|43.63,44.11|Z|1970;Zereth Mortis|QO|1|NC|N|Covenant Forces healed.|S|
+C Together, We Ride|QID|64815|Z|1970;Zereth Mortis|NC|N|Covenant Forces healed.|S|
 C Battle for the Forge|QID|64814|M|43.29,46.70|Z|1970;Zereth Mortis|QO|1|N|Dreadsworn forces slain.|
-C Together, We Ride|QID|64815|M|43.63,44.11|Z|1970;Zereth Mortis|QO|1|NC|N|Covenant Forces healed.|US|
+C Together, We Ride|QID|64815|M|43.63,44.11|Z|1970;Zereth Mortis|NC|N|Covenant Forces healed.|US|
 T Battle for the Forge|QID|64814|M|41.98,48.09|Z|1970;Zereth Mortis|N|To Highlord Darion Mograine.|
 T Together, We Ride|QID|64815|M|41.98,48.09|Z|1970;Zereth Mortis|N|To Highlord Darion Mograine.|
 A In Plain Sight|QID|64817|PRE|64814&64815|M|41.98,48.09|Z|1970;Zereth Mortis|N|From Highlord Darion Mograine.|
@@ -94,25 +94,25 @@ T Reinforcements May Be Necessary|QID|64818|M|35.06,64.75|Z|1970;Zereth Mortis|N
 A A Break in Communication|QID|64822|PRE|64818|M|34.96,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 A Nothing is True|QID|64821|PRE|64818|M|34.96,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 A This is Your Fault, Fix It|QID|64820|PRE|64818|M|34.86,64.89|Z|1970;Zereth Mortis|N|From Elder Kreth.|
-C Nothing is True|QID|64821|M|45.77,61.33|Z|1970;Zereth Mortis|QO|1|U|187839|N|Dreadlord Saboteur slain.|S|
-C This is Your Fault, Fix It|QID|64820|M|45.71,62.30|Z|1970;Zereth Mortis|QO|1|NC|N|Defense Nodes fixed.|S|
+C Nothing is True|QID|64821|M|45.77,61.33|Z|1970;Zereth Mortis|U|187839|N|Dreadlord Saboteur slain.|S|
+C This is Your Fault, Fix It|QID|64820|M|45.71,62.30|Z|1970;Zereth Mortis|NC|N|Defense Nodes fixed.|S|
 C A Break in Communication|QID|64822|M|42.40,65.45|Z|1970;Zereth Mortis|QO|2|CHAT|N|Orders given to Ava'zer.|
 C A Break in Communication|QID|64822|M|48.48,61.62|Z|1970;Zereth Mortis|QO|3|CHAT|N|Orders given to Alonis.|
 C A Break in Communication|QID|64822|M|47.19,57.36|Z|1970;Zereth Mortis|QO|1|CHAT|N|Orders given to Huntress Laikeer.|
-C Nothing is True|QID|64821|M|45.77,61.33|Z|1970;Zereth Mortis|QO|1|U|187839|N|Dreadlord Saboteur slain.|US|
-C This is Your Fault, Fix It|QID|64820|M|45.71,62.30|Z|1970;Zereth Mortis|QO|1|NC|N|Defense Nodes fixed.|US|
+C Nothing is True|QID|64821|M|45.77,61.33|Z|1970;Zereth Mortis|U|187839|N|Dreadlord Saboteur slain.|US|
+C This is Your Fault, Fix It|QID|64820|M|45.71,62.30|Z|1970;Zereth Mortis|NC|N|Defense Nodes fixed.|US|
 T A Break in Communication|QID|64822|M|35.04,64.68|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 T Nothing is True|QID|64821|M|35.04,64.68|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 T This is Your Fault, Fix It|QID|64820|M|34.87,64.75|Z|1970;Zereth Mortis|N|To Elder Kreth.|
 A Doppelganger Duel|QID|64823|PRE|64822&64821&64820|M|34.94,64.71|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
-C Doppelganger Duel|QID|64823|M|47.48,62.60|Z|1970;Zereth Mortis|QO|1|NC|N|Culprit confronted.|
+C Doppelganger Duel|QID|64823|M|47.48,62.60|Z|1970;Zereth Mortis|N|Culprit confronted.|
 T Doppelganger Duel|QID|64823|M|47.32,63.54|Z|1970;Zereth Mortis|N|To Lady Jaina Proudmoore.|
 A Fighting for the Forge|QID|64824|PRE|64823|M|47.32,63.54|Z|1970;Zereth Mortis|N|From Lady Jaina Proudmoore.|
 C Fighting for the Forge|QID|64824|M|47.30,63.56|Z|1970;Zereth Mortis|QO|1|CHAT|N|Jaina spoken to.|
 C Fighting for the Forge|QID|64824|M|57.13,53.73|Z|1970;Zereth Mortis|QO|2|NC|N|Confront Anduin.|
 T Fighting for the Forge|QID|64824|M|57.02,53.62|Z|1970;Zereth Mortis|N|To Lady Jaina Proudmoore.|
 A Seeking Haven|QID|64825|PRE|64824|M|57.02,53.62|Z|1970;Zereth Mortis|N|From Lady Jaina Proudmoore.|
-C Seeking Haven|QID|64825|M|57.12,53.69|Z|1970;Zereth Mortis|QO|1|NC|N|Portal to Haven taken.|
+C Seeking Haven|QID|64825|M|57.12,53.69|Z|1970;Zereth Mortis|NC|N|Portal to Haven taken.|
 T Seeking Haven|QID|64825|M|34.94,64.68|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 ;Ch 3
 A Danger Near and Far|QID|64218|PRE|64825|M|35.24,65.09|Z|1970;Zereth Mortis|N|From Pelagos.|
@@ -167,7 +167,10 @@ T Further Research: Aealic|QID|65431|M|33.76,49.44|Z|1970|N|To Pelagos.|
 F Haven|ACTIVE|65305|M|35.64,44.36|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
 C The Way Forward|QID|65305|M|35.64,44.36|Z|1970|QO|1|NC|N|Take the Translocator to Haven (Optional).|
 T The Way Forward|QID|65305|M|35.02,64.75|Z|1970|N|To Highlord Bolvar Fordragon.|
+;CH4
+A Patterns Within Patterns|QID|65324|PRE|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 A News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Uther the Lightbringer.|
+C Patterns Within Patterns|QID|65324|Z|1970;Zereth Mortis|N|Complete World Quests, Dailys, Treasures, and Rares till complete.|S|
 C News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Uther.|
 T News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 A Enlisting the Enlightened|QID|64830|PRE|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
@@ -179,11 +182,13 @@ A Forging Unity from Diversity|QID|64833|PRE|64830|M|34.83,64.80|Z|1970;Zereth M
 T Forging Unity from Diversity|QID|64833|M|56.21,57.78|Z|1970;Zereth Mortis|N|To Elder Ara.|
 A Fragments of the First Ones|QID|64831|PRE|64833|M|56.21,57.78|Z|1970;Zereth Mortis|N|From Elder Ara.|
 A Reclaiming Provis Esper|QID|64832|PRE|64833|M|56.21,57.78|Z|1970;Zereth Mortis|N|From Unknown.|
-C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|Z|1970;Zereth Mortis|N|Kill required mobs.|S|
+C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|QO|1|Z|1970;Zereth Mortis|N|Kill Reality Breachers.|S|
+C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|QO|2|Z|1970;Zereth Mortis|N|Kill Soul-Parched Gorgers.|S|
+C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|QO|3|Z|1970;Zereth Mortis|N|Kill Insatiable Mites.|S|
 C Fragments of the First Ones|QID|64831|M|54.86,49.38|Z|1970;Zereth Mortis|QO|1<1|NC|N|Click on the bird.|
 C Fragments of the First Ones|QID|64831|M|52.75,51.93|Z|1970;Zereth Mortis|QO|1<2|NC|N|Click on the pile of rubble.|
 C Fragments of the First Ones|QID|64831|M|53.11,59.70|Z|1970;Zereth Mortis|QO|1<3|NC|N|Beat up Zarenak The Soulstealer.|
-C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|Z|1970;Zereth Mortis|N|Kill required mobs.|US|
+C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|Z|1970;Zereth Mortis|N|Finish cleaning up whatever mobs you have left.|US|
 T Fragments of the First Ones|QID|64831|M|PLAYER|Z|1970;Zereth Mortis|N|To Elder Ara.|
 T Reclaiming Provis Esper|QID|64832|M|PLAYER|Z|1970;Zereth Mortis|N|To Elder Ara.|
 A The Pilgrim's Journey|QID|64837|PRE|64832|M|PLAYER|Z|1970;Zereth Mortis|N|From Elder Ara.|
@@ -240,6 +245,9 @@ T Key Crafting|QID|64843|M|47.37,88.57|Z|1970;Zereth Mortis|N|To Elder Ara.|
 A The Pilgrimage Ends|QID|64844|PRE|64843|M|47.37,88.57|Z|1970;Zereth Mortis|N|From Elder Ara.|
 C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|1|NC|N|Return to the overlook.|
 T The Pilgrimage Ends|QID|64844|M|64.65,53.29|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+;CH5
+
+
 
 ;Normal Quests
 ;Non campaign quests have been commented out till proper testing can be done for routing.
