@@ -199,21 +199,36 @@ A Among the Champions|QID|13814|PRE|13795|C|Death Knight|M|73.59,20.09|N|From Il
 A Taking Battle To The Enemy|QID|13813|PRE|13795|C|Death Knight|M|73.80,19.45|N|From Zor'be the Bloodletter.|FACTION|Horde|
 
 ; Crusader Quests
-A Deathspeaker Kharos|QID|14105|M|69.96,23.44|CC|N|From High Crusader Adelard|
-A The Fate of the Fallen|QID|14107|M|69.96,23.44|CC|N|From Crusader Silverdawn|
+; A Deathspeaker Kharos|QID|14105|M|69.96,23.44|CC|N|From High Crusader Adelard|
+; A Drottinn Hrothgar|QID|14101|M|69.96,23.44|CC|N|From High Crusader Adelard|
+; A Mistcaller Yngvar|QID|14102|M|69.96,23.44|CC|N|From High Crusader Adelard|
+; A Ornolf the Scarred|QID|14104|M|69.96,23.44|CC|N|From High Crusader Adelard|
+A Adelard gives 1 of 4|QID|14105^14104^14102^14101|M|76.10,24.10|N|From High Crusader Adelard|
+;A The Fate of the Fallen|QID|14107|M|69.96,23.44|CC|N|From Crusader Silverdawn|
+;A Get Kraken!|QID|14108|M|69.96,23.44|CC|N|From Crusader Silverdawn|
+A Silverdawn gives 1 of 2|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn|
 
 
 ; Generic Completions for Valiants and Champions
 C The Grand Melee|QID|13782^13767^13756|M|75.28,18.42|N|Mount on your new race specific ride, stack up on your shields, and then talk to an Horde Valiant from behind to start.  Break shield and charge as they move away!|U|46069|
 C Among the Champions|QID|13811^13814|M|71.54,23.74|N|Go challenge some champions. Avoid getting charged by your opponnent and try to get a charge and sheild break and thrust while they are low.|
+C Get Kraken!|QID|14108|M|69.80,22.20|N|Mount one of the Stabled Argent Hippogryphs outside the tent. While flying over the ships, use the Flaming Spears you were given to kill 6 Kvaldirs on the ship. Throw 8 spears at the Kraken as well. If you kill the Kraken, you will get a quest item for extra gold.|
+; A Identifying the Remains|QID|14095|M|69.80,22.20|CC|N|From Kraken Tooth|
 
 C What Do You Feed a Yeti, Anyway?|QID|14145|M|74.35,10.10|N|Go to the Horde Boat and get some chum|L|47036 6|
 C What Do You Feed a Yeti, Anyway?|QID|14145|M|74.35,10.10|CN|N|Jump into the water around these points, use the chum and get the meat.|U|47036|
 
 C Rescue at Sea|QID|14136|M|49.8,49.6;50.10,49.20;43.20,53.70|Z|Hrothgar's Landing|CN|N|Kill Vrykul Berserkers and Harpooners.|
-C A Leg Up|QID|14143|M|43.80,24.10;51.90,28.20;53.90,19.10;43.45,33.90;53.45,17.15;50.51,15.35;43.38,27.16;55.58,15.23;46.98,33.97;42.95,30.55;56.21,18.30;47.45,3.25;52.84,26.35;55.42,25.02;55.46,21.09;45.18,4.28;50.19,31.18|Z|Hrothgar's Landing|CN|N|Loot tallstrider legs.|
-C Stop The Aggressors|QID|14140|M|54.20,21.60;55.20,15.20;52.40,15.55;43.45,33.75;43.42,26.98;56.20,17.80;48.59,33.11;49.45,30.43;54.60,24.93;52.75,26.20;56.70,21.73;42.92,30.90;54.88,19.59;45.53,33.48|Z|Hrothgar's Landing|CN|N|Kill Kvaldir.|
-C The Light's Mercy|QID|14144|M|53.20,17.40;55.20,16.00;57.00,20.60;55.50,25.20;44.90,31.50;43.60,29.65;50.60,15.30;43.15,27.60;54.85,18.67;44.30,34.40;52.67,26.92;54.35,23.08;50.26,29.29;57.10,23.70;42.60,32.32;47.77,32.54|Z|Hrothgar's Landing|CN|N|Administer last rites by using your book near slain Tualiq Villagers.|U|46870|
+C A Leg Up|QID|14143|M|43.80,24.10;51.90,28.20;53.90,19.10;43.45,33.90;53.45,17.15;50.51,15.35;43.38,27.16;55.58,15.23;46.98,33.97;42.95,30.55;56.21,18.30;47.45,3.25;52.84,26.35;55.42,25.02;55.46,21.09;45.18,4.28;50.19,31.18|Z|Hrothgar's Landing|CN|N|Loot tallstrider legs.|S|
+C Stop The Aggressors|QID|14140|M|54.20,21.60;55.20,15.20;52.40,15.55;43.45,33.75;43.42,26.98;56.20,17.80;48.59,33.11;49.45,30.43;54.60,24.93;52.75,26.20;56.70,21.73;42.92,30.90;54.88,19.59;45.53,33.48|Z|Hrothgar's Landing|CN|N|Kill Kvaldir.|S|
+C The Light's Mercy|QID|14144|M|53.20,17.40;55.20,16.00;57.00,20.60;55.50,25.20;44.90,31.50;43.60,29.65;50.60,15.30;43.15,27.60;54.85,18.67;44.30,34.40;52.67,26.92;54.35,23.08;50.26,29.29;57.10,23.70;42.60,32.32;47.77,32.54|Z|Hrothgar's Landing|CN|N|Administer last rites by using your book near slain Tualiq Villagers.|S|U|46870|
+C Ornolf the Scarred|QID|14104|M|58.55,31.75|Z|Hrothgar's Landing|CC|N|Use the quest item on the deck of the ship and kill Ornolf the Scarred.|U|47029|
+C Drottin Hrothgar|QID|14101|M|50.10,15.35|Z|Hrothgar's Landing|CC|N|Use the quest item in front of the Tuskarr statue and kill Drottinn Hrothgar.|U|47006|
+C Mistcaller Yngvar|QID|14102|M|43.90,24.40|Z|Hrothgar's Landing|CC|N|Use the quest item next to the brazier in the cave and kill Mistcaller Yngvar.|U|47009|
+C A Leg Up|QID|14143|M|43.80,24.10;51.90,28.20;53.90,19.10;43.45,33.90;53.45,17.15;50.51,15.35;43.38,27.16;55.58,15.23;46.98,33.97;42.95,30.55;56.21,18.30;47.45,3.25;52.84,26.35;55.42,25.02;55.46,21.09;45.18,4.28;50.19,31.18|Z|Hrothgar's Landing|CN|N|Loot tallstrider legs.|US|
+C Stop The Aggressors|QID|14140|M|54.20,21.60;55.20,15.20;52.40,15.55;43.45,33.75;43.42,26.98;56.20,17.80;48.59,33.11;49.45,30.43;54.60,24.93;52.75,26.20;56.70,21.73;42.92,30.90;54.88,19.59;45.53,33.48|Z|Hrothgar's Landing|CN|N|Kill Kvaldir.|US|
+C The Light's Mercy|QID|14144|M|53.20,17.40;55.20,16.00;57.00,20.60;55.50,25.20;44.90,31.50;43.60,29.65;50.60,15.30;43.15,27.60;54.85,18.67;44.30,34.40;52.67,26.92;54.35,23.08;50.26,29.29;57.10,23.70;42.60,32.32;47.77,32.54|Z|Hrothgar's Landing|CN|N|Administer last rites by using your book near slain Tualiq Villagers.|US|U|46870|
+
 
 C Deathspeaker Kharos|QID|14105|M|64.30,21.50|CC|N|Kill Deathspeaker Kharos|
 
@@ -299,7 +314,12 @@ T Taking Battle To The Enemy|QID|13810|M|69.92,23.53|N|To Cellian Daybreak|
 
 ; Crusader Turnins
 T Deathspeaker Kharos|QID|14105|M|69.96,23.44|CC|N|To High Crusader Adelard|
+T Drottinn Hrothgar|QID|14101|M|69.96,23.44|CC|N|To High Crusader Adelard|
+T Mistcaller Yngvar|QID|14102|M|69.96,23.44|CC|N|To High Crusader Adelard|
+T Ornolf the Scarred|QID|14104|M|69.96,23.44|CC|N|To High Crusader Adelard|
 T The Fate of the Fallen|QID|14107|M|69.96,23.44|CC|N|To Crusader Silverdawn|
+T Get Kraken!|QID|14108|M|69.96,23.44|CC|N|To Crusader Silverdawn|
+T Identifying the Remains|QID|14095|M|69.96,23.44|CC|N|To Crusader Silverdawn|
 
 
 T Threat From Above|QID|13812|M|73.80,20.06|N|To Crok Scourgebane. Get the Purse.|
