@@ -104,7 +104,6 @@ T Shatter Point|QID|10340|M|78.4,34.9|N|To Runetog Wildhammer.|
 A Wing Commander Gryphongar|QID|10344|PRE|10340|M|78.4,34.9|N|From Runetog Wildhammer.|
 T Wing Commander Gryphongar|QID|10344|M|79.3,33.9|N|To Wing Commander Gryphongar.|
 A Mission: The Abyssal Shelf|QID|10163|PRE|10344|M|79.3,33.9|N|From Wing Commander Gryphongar.|
-; ** This step not required ** N Area 52 Special|QID|10163|N|Hotkey this item, then right-click the box to continue.|M|79.3,33.9|
 C Mission: The Abyssal Shelf|QID|10163|M|78.35,34.36|QO|1;2;3|N|Talk to Gryphoneer Windbellow and ask to go to the Abyssal Shelf. Use the Area 52 Special bomb to kill the mobs needed for this quest.|U|28132|
 T Mission: The Abyssal Shelf|QID|10163|M|79.3,33.9|N|To Wing Commander Gryphongar.|
 A Go to the Front|QID|10382|PRE|10163|M|79.3,33.9|N|From Wing Commander Gryphongar.|
@@ -144,7 +143,7 @@ C A Job for an Intelligent Man|QID|9355|M|46.00,64.00|N|Kill the sandworms neede
 l Eroded Leather Case|QID|9373|N|Kill worms until you get an Eroded Leather Case.|L|23338|
 A Missing Missive|AVAILABLE|9373|N|Right-click the case to accept the quest.|U|23338|LVL|24| ; ** Auto-accepted by UI **
 C Smooth as Butter|QID|9356|M|56.00,73.00|QO|1|N|Kill Buzzards until you get the wings for this quest.|
-C Zeppelin Debris|QID|10161|QO|1|N|Gather the rest of the Zeppelin debris you need.|US|NC|
+C Zeppelin Debris|QID|10161|QO|1|M|63.91,67.38|N|Gather the rest of the Zeppelin debris you need.|US|NC|
 T In Case of Emergency...|QID|10161|M|49.15,74.87|N|To "Screaming" Screed Luckheed.|
 A Voidwalkers Gone Wild|QID|9351|PRE|10161|M|49.15,74.87|N|From "Screaming" Screed Luckheed.|
 T Smooth as Butter|QID|9356|M|49.24,74.84|N|To Legassi.|
@@ -158,8 +157,6 @@ T The Exorcism of Colonel Jules|QID|10935|M|54.32,63.65|N|To Assistant Klatu.|
 A Trollbane is Looking for You|QID|10936|PRE|10935|M|54.32,63.65|N|From Assistant Klatu.|
 T Trollbane is Looking for You|QID|10936|M|56.64,66.69|N|To Force Commander Danath Trollbane.|
 A Drill the Drillmaster|QID|10937|PRE|10936|M|54.32,63.65|N|From Force Commander Danath Trollbane.|
-F Shattrath|QID|9355|M|54.66,62.46|N|Fly to Shattrath City if you need to train skills, visit AH, etc.|TZ|Shattrath City|
-F Honor Hold|QID|9355|M|64.04,41.13|Z|Shattrath City|N|Fly back to Honor Hold.|
 T Unyielding Souls|QID|10050|M|50.87,60.35|N|To Honor Guard Wesilow.|
 A Looking to the Leadership|QID|10057|PRE|10050|M|50.87,60.35|N|From Honor Guard Wesilow.|
 T A Job for an Intelligent Man|QID|9355|M|52.0,62.6|N|To Foreman Biggums.|
@@ -170,7 +167,7 @@ C The Mastermind|QID|10099|M|56.00,61.00|N|Kill Z'Kral. He is all the way in the
 T The Mastermind|QID|10099|M|52.0,62.6|N|To Foreman Biggums.|
 C The Path of Glory|QID|10047|QO|1|N|Click Skeletal Remains on the ground around here until you finish this quest.|S|
 C Drill the Drillmaster|QID|10937|M|47.89,56.11|QO|1|N|Kill Drillmaster Zurok. He is surrounded so carefully pick off the mobs around him, as he will call for help. He has double the health of the mobs around him, but doesn't hit hard.|
-C The Path of Glory|QID|10047|QO|1|N|Click Skeletal Remains on the ground around here until you finish this quest.\n[color=FF0000]NOTE: [/color]Look for the 'sparkle' on the ground.|US|
+C The Path of Glory|QID|10047|QO|1|M|51.66,50.87|N|Click Skeletal Remains on the ground around here until you finish this quest.\n[color=FF0000]NOTE: [/color]Look for the 'sparkle' on the ground.|US|
 T Drill the Drillmaster|QID|10937|N|To Force Commander Danath Trollbane.|M|56.61,66.64|
 T The Path of Glory|QID|10047|M|56.69,66.52|N|To Warp-Scryer Kryv.|
 A The Temple of Telhamat|QID|10093|PRE|10047|M|56.69,66.52|N|From Warp-Scryer Kryv.|
@@ -206,8 +203,8 @@ C The Finest Down|QID|9420|QO|1|N|Kill and loot Kaliri birds until you finish th
 l Avruu's Orb|QID|9418|M|25.7,75.14|L|23580|N|Make your way to the ramp on the left side. Walk up it and across the bridge. Kill Avruu and take his Orb.|
 A Avruu's Orb|QID|9418|M|25.7,75.1|N|Right-click the Orb to accept this quest.|U|23580|
 T Avruu's Orb|QID|9418|M|28.93,81.47|N|Click on the Haal'eshi Altar, Aeranas will spawn. Get him down to about 50%, then turn the quest in to it.|
-C The Arakkoa Threat|QID|9417|QO|1;2|N|Finish up killing the Haal'eshi Windwalkers and Talonguards.|US|
-C The Finest Down|QID|9420|QO|1|N|Finish collecting the Kaliri feathers from the birds. You can click on nests to spawn another one.|US|
+C The Arakkoa Threat|QID|9417|QO|1;2|M|28.58,79.32|N|Finish up killing the Haal'eshi Windwalkers and Talonguards.|US|
+C The Finest Down|QID|9420|QO|1|M|25.97,75.16|N|Finish collecting the Kaliri feathers from the birds. You can click on nests to spawn another one.|US|
 T The Finest Down|QID|9420|M|23.98,72.34|N|To Mirren Longbeard.\n[color=FF0000]NOTE: [/color]If you want to avoid going through the den, go up and over the hill in the middle.|
 T The Arakkoa Threat|QID|9417|M|23.89,72.17|N|To Gremni Longbeard.|
 C Rampaging Ravagers|QID|9385|M|22.00,67.00|QO|1|N|Kill the Quillfang Ravagers or Skitterers until done the quest.|
@@ -217,9 +214,9 @@ C The Rock Flayer Matriarch|QID|9490|M|33.34,65.08|QO|1|N|Kill and loot Blacktal
 C Deadly Predators|QID|9398|M|32.00,61.00|QO|1;2|N|Kill the Stonescythe Alphas and Whelps needed for this quest.|US|
 C Hellfire Fortifications|QID|10106|M|40.76,49.64;39.81,56.49;35.38,56.42|CN|N|Do this quest by taking over the towers.|
 C An Ambitious Plan|QID|9383|M|46.00,82.00|QO|1|N|Get an Uncontrolled Voidwalker down to low health, then use the Sanctified Crystal. Click on the red Crystal that appears to loot it.|U|23417|
-C Voidwalkers Gone Wild|QID|9351|QO|1|N|Kill Voidwalkers in the area to loot the Condensed Voidwalker Essence.|
-K Arch Mage Xintor|ACTIVE|10057|M|53.60,81.00|N|Kill Arch Mage Xintor.|
-K Lieutenant Commander Thalvos|ACTIVE|10057|M|54.74,83.66|N|Kill Lieutenant Commander Thalvos.|
+C Voidwalkers Gone Wild|QID|9351|QO|1|M|45.92,84.02|N|Kill Voidwalkers in the area to loot the Condensed Voidwalker Essence.|
+K Arch Mage Xintor|ACTIVE|10057|M|53.60,81.00|QO|1|N|Kill Arch Mage Xintor.|
+K Lieutenant Commander Thalvos|ACTIVE|10057|M|54.74,83.66|QO|2|N|Kill Lieutenant Commander Thalvos.|
 C An Old Gift|QID|10058|M|55.00,86.80|QO|1|N|Loot the book here.|NC|
 T Voidwalkers Gone Wild|QID|9351|M|49.15,74.87|N|To "Screaming" Screed Luckheed.|
 R Honor Hold|ACTIVE|10058|M|54.3,63.4|N|Hearth or run to Honor Hold.|U|6948|
@@ -235,8 +232,8 @@ C The Heart of Darkness|QID|10399|QO|1|N|Kill Terrorfiends.|S|
 C The Pools of Aggonar|QID|9426|QO|1;2|N|Kill Oozes and Terrorfiends.|S|
 C Makuru's Vengeance|QID|9424|M|35.00,35.00|QO|1|N|Kill Mag'har Grunts to loot the Ancestral Beads for this quest.|
 C Overlord|QID|10400|M|43.3,31|QO|1|N|Kill Arazzius the Cruel.\n[color=FF0000]NOTE: [/color]From the ramp, pull each Mistress of Doom separately before attacking him.|
-C The Pools of Aggonar|QID|9426|QO|1;2|N|Kill Oozes and Terrorfiends.|US|
-C The Heart of Darkness|QID|10399|QO|1|N|Finish killing Terrorfiends.|US|
+C The Pools of Aggonar|QID|9426|QO|1;2|M|40.45,32.39|N|Kill Oozes and Terrorfiends.|US|
+C The Heart of Darkness|QID|10399|QO|1|M|40.45,32.39|N|Finish killing Terrorfiends.|US|
 T Makuru's Vengeance|QID|9424|M|23.14,40.17|N|To Makuru.|
 A Atonement|QID|9543|PRE|9424|M|23.01,40.37|N|From Anchorite Obadei. You have to wait a moment for him to appear there.|
 r Sell junk, repair, restock|ACTIVE|9426|M|23.32,39.94|N|At Talaara.|
@@ -247,7 +244,7 @@ A Sha'naar Relics|QID|9430|PRE|9543|M|23.42,36.55|N|From Amaan the Wise.|
 C Cleansing the Waters|QID|9427|M|40.00,31.20|QO|1|N|Go here and use the Cleansing Vial, then kill Aggonis.|U|23361|
 A Outland Sucks!|QID|10236|M|51.37,30.52|N|From Foreman Razelcraz.|
 C Outland Sucks!|QID|10236|M|48.26,40.81|L|28554 6|N|Loot wooden crates in the shallow valley until you finish this quest.|
-T Outland Sucks!|QID|10236|N|To Foreman Razelcraz.|
+T Outland Sucks!|QID|10236|M|51.37,30.52|N|To Foreman Razelcraz.|
 A How to Serve Goblins|QID|10238|PRE|10236|M|51.37,30.52|N|From Foreman Razelcraz.|
 C Manni's Cage|QID|10238|M|45.10,41.10|QO|1|N|Free Manni from his cage.|NC|
 C Moh's Cage|QID|10238|M|46.41,45.09|QO|2|N|Free Moh from his cage.|NC|

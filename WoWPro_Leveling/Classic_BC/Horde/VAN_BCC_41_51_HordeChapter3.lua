@@ -377,106 +377,114 @@ N Zamek's Distraction|ACTIVE|1190|M|79.81,77.03|Z|Thousand Needles|N|[color=FF00
 T Keeping Pace|QID|1190|M|77.21,77.38|Z|Thousand Needles|N|Head to the other building and wait for Rizzle Brassbolts to leave to investigate the explosion.\n[color=FF0000]NOTE: [/color]When Rizzle leaves, the Guarded Plans will change to Unguarded Plans, enabling you to continue.\nIf Rizzle comes back before you're done, you'll have to get Zamek to distract him again.|
 A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|Thousand Needles|N|From Rizzle's Unguarded Plans.\n[color=FF0000]NOTE: [/color]If Rizzle comes back before you're done, you'll have to get Zamek to distract him again.|PRE|1190|
 T Rizzle's Schematics|QID|1194|M|80.18,75.89|Z|Thousand Needles|N|To Pozzik.|
+
 ; -- Tanaris
 R Tanaris|ACTIVE|2864|M|51.26,20.88|Z|Tanaris|N|Make your way to the south end of Shimmering Flats and follow the torches to Tanaris.|
-R Gadgetzan|ACTIVE|2864|M|51.26,26.49|Z|Tanaris|N|Continue following the torches until you clear the mountains and then make your way to Gadgetzan.|
-h Gadgetzan|ACTIVE|2864|M|52.50,27.91|Z|Tanaris|N|At Innkeeper Fizzgrimble.|
-T Tran'rek|QID|2864|M|51.6,26.8|Z|Tanaris|N|To Tran'rek. (skip follow up)|
-;make sure this quest is acquired...it should be in the earlier part of the guide... STV@43----
-;T Into the Field|QID|243|M|52.5,28.5|Z|Tanaris|
-;A Slake That Thirst|QID|379|M|52.5,28.5|Z|Tanaris|
-A Wastewander Justice|QID|1690|M|52.5,28.5|Z|Tanaris|
-A Water Pouch Bounty|QID|1707|M|52.5,28.5|Z|Tanaris|
-h Gadgetzan|ACTIVE|2872|M|52.50,27.90|Z|Tanaris|N|Make Gadgetzan your home location.|
-r Sell, Restock, Repair|N|Headed out for a bit, be prepared.|
-N If you find...|AVAILABLE|351|L|8623|N|OOX-17/TN is a reletavely rare zone Drop, if you find it accept the quest.|S!US|
-R Noonshade Ruins|ACTIVE|2872|M|61.00,24.00|Z|Tanaris|N|Go to Noonshade Ruins and clear the camp, then continue east, killing bandits as you go.|
-A Pirate Hats Ahoy!|QID|8365|M|66.6,22.3|Z|Tanaris|N|From Haughty Modiste.|
-A WANTED: Caliph Scorpidsting|QID|2781|M|66.80,22.40|Z|Tanaris|N|From Wanted Poster.|
-A WANTED: Andre Firebeard|QID|2875|M|66.8,22.4|Z|Tanaris|N|From Wanted Poster.|
-A Screecher Spirits|QID|3520|M|67.0,22.4|Z|Tanaris|N|From Yeh'kinya.|
-A Southsea Shakedown|QID|8366|M|67.1,23.9|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
-T Stoley's Debt|QID|2872|M|67.1,23.9|Z|Tanaris|N|To Stoley.|
-A Stoley's Shipment|QID|2873|M|67.1,23.9|Z|Tanaris|N|From Stoley.|PRE|2872|
-C Water Pouch Bounty|QID|1707|M|61.00,24.00|Z|Tanaris|N|Go back to Noonshade Ruins and kill Bandits here to get the water pouches for this quest. More to southwest if it's too crowded with other players here.|
-C Wastewander Justice|QID|1690|Z|Tanaris|N|Kill the rest of the mobs needed for this quest.|
-;T Slake That Thirst|QID|379|M|52.5,28.5|Z|Tanaris|N|Return to Gadgetzan. Do NOT get the follow up to this.|
-T Water Pouch Bounty|QID|1707|M|52.5,28.5|Z|Tanaris|N|To Spigot Operator Luglunket. Now repeatable for 10 faction, but no XP so not recommended.|
-T Wastewander Justice|QID|1690|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-A More Wastewander Justice|QID|1691|M|52.5,28.5|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|PRE|1690|
-R Thousand Needles|ACTIVE|1137|M|51.00,18.00|Z|Tanaris|N|Run north to Thousand Needles.|
-R Mirage Raceway|ACTIVE|1137|M|80,75|Z|Thousand Needles|N|Continue North to the Mirage Raceway.|
-T News for Fizzle|QID|1137|M|78.1,77.1|Z|Thousand Needles|N|To Fizzle Brassbolts.|
-A Gahz'rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
-; T Goblin Sponsorship|
-A Keeping Pace|QID|1190|M|80.18,75.89|Z|Thousand Needles|N|From Pozzik.|PRE|1137|
-C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving. Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.|
-T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
-A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|Thousand Needles|N|From Unguarded Plans.|PRE|1190|
-T Rizzle's Schematics|QID|1194|M|80.18,75.89|Z|Thousand Needles|N|To Pozzik.|
+R Gadgetzan|ACTIVE|2864|M|51.26,26.49|Z|Tanaris|N|Continue following the torches until you clear the mountains and make your way to Gadgetzan.|
+T Safety First|QID|1188|M|50.96,27.24|Z|Tanaris|N|To Shreev.|
+A Safety First|QID|1189|M|50.96,27.24|Z|Tanaris|N|From Shreev.|PRE|1188|
+T Tran'rek|QID|2864|M|51.57,26.76|Z|Tanaris|N|To Tran'rek.\n[color=FF0000]NOTE: [/color]Skip follow up.|
+h Gadgetzan|AVAILABLE|1690^1707|M|52.50,27.90|Z|Tanaris|N|At Inkeeper Fizzgrimble.|
+A Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhistle.|
+A Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|From Spigot Operator Luglunket.|
+N OOX-17/TN|AVAILABLE|351|L|8623|N|OOX-17/TN is a reletavely rare zone drop.|S!US|IZ|Tanaris|
+R Thousand Needles|ACTIVE|1189|M|75.54,97.45|Z|Thousand Needles|N|This is the last time we'll be making this trip.\n[color=FF0000]NOTE: [/color]This is the end of the quest chain and it loses exp if you hit lv 47.|TAXI|Camp Mojache|
+T Safety First|QID|1189|M|80.33,76.09|Z|Thousand Needles|N|To Razzeric.|TAXI|Camp Mojache|
+R Tanaris|ACTIVE|2872|M|51.26,20.88|Z|Tanaris|N|Make your way to the south end of Shimmering Flats and follow the torches to Tanaris.|IZ|1441;Thousand Needles|
+R Steamwheedle Port|ACTIVE|2872|M|64.50,23.84|N|Make your way east towards the coast.|
+A Pirate Hats Ahoy!|QID|8365|M|66.56,22.27|Z|Tanaris|N|From Haughty Modiste.|
+A WANTED: Caliph Scorpidsting|QID|2781|M|66.82,22.29|Z|Tanaris|N|From Wanted Poster.|
+A WANTED: Andre Firebeard|QID|2875|M|66.82,22.29|Z|Tanaris|N|From Wanted Poster.|
+A Screecher Spirits|QID|3520|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|
+A Southsea Shakedown|QID|8366|M|67.06,23.89|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
+T Stoley's Debt|QID|2872|M|67.11,23.98|Z|Tanaris|N|To Stoley.|
+A Stoley's Shipment|QID|2873|M|67.11,23.98|Z|Tanaris|N|From Stoley.|PRE|2872|
+R Noonshade Ruins|ACTIVE|1707^1690|M|60.58,25.45|Z|Tanaris|N|Follow the road west back towards Gadgetzan.|
+C Water Pouch Bounty|QID|1707|M|59.88,23.20|Z|Tanaris|L|8483 5|N|Kill the bandits to loot the Water Pouches.|S|
+K Wastewander Justice|QID|1690|M|59.88,23.20|Z|Tanaris|QO|1;2|N|\n[color=FF0000]NOTE: [/color]If this area is busy, there is a second location just to the south of here.|
+C Water Pouch Bounty|QID|1707|M|59.88,23.20|Z|Tanaris|L|8483 5|N|Finish collecting the Water Pouches.|US|
+T Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|To Spigot Operator Luglunket. Now repeatable for 10 faction, but no XP so not recommended.|
+T Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
+A More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|PRE|1690|
 ; -- Feralas
-H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan.|TAXI|Camp Mojache|
-F Camp Mojache|ACTIVE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|TAXI|Camp Mojache|
-R Feralas|ACTIVE|3520|M|88,43|Z|Feralas|N|Ride northwest through Thousand Needles and into Feralas.|TAXI|-Camp Mojache|
-R Camp Mojache|ACTIVE|3520|M|75.4,44.2|Z|Feralas|N|Continue northwest until you find the road, and then follow it west to Camp Mojache.|TAXI|-Camp Mojache|
-f Camp Mojache|ACTIVE|3520|M|75.4,44.2|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
-A A New Cloak's Sheen|QID|2973|M|75.9,42.7|Z|Feralas|N|Get this from Kreug Skullspitter near the eastern entrance to the village.|
-A Gordunni Cobalt|QID|2987|M|75.7,44.3|Z|Feralas|N|Get this from Orwin Gizzmick, a goblin near the wyvern master.|
-A War on the Woodpaw|QID|2862|M|74.9,42.5|Z|Feralas|N|Get this from Hadoken Swiftstrider, who's across the street from the inn.|
-A The Mark of Quality|QID|2822|M|74.4,42.9|Z|Feralas|N|Get this from Jangdor Swifstrider inside the big tent building across the road from the inn.|
-A A Strange Request|QID|3121|M|74.4,43.4|Z|Feralas|N|Get this from Witch Doctor Uzer'l right outside that tent building.|
-h Camp Mojache|ACTIVE|3121|M|74.8,45|Z|Feralas|N|Stop in the inn and set your hearthstone with Innkeeper Greul.|
-A The Ogres of Feralas|QID|2975|M|75.9,43.6|Z|Feralas|
-C War on the Woodpaw|QID|2862|M|72.5,40.2|Z|Feralas|N|Ride west out of town then turn left (down hill from the road) into the lower wides (71,54). Kill gnolls until you have 10 Woodpaw Gnoll Manes.|
-L Level Check|ACTIVE|2440|N|You should now be level 46.|LVL|46|
-L Level Check|ACTIVE|3121&-2440|N|You should now be level 46. If you didn't go to Uldaman, you may need to grind a bit.|LVL|46|
-R Camp Mojache|QID|3121|M|74,45|Z|Feralas|N|Ride back to Camp Mojache. Do NOT turn in [32] War on the Woodpaw (the followup is a timed quest) which we'll start a little later.|
-; -- Turn in Uldaman quest
-F Thunder Bluff|ACTIVE|2440|N|Fly to Thunder Bluff (optional) if you did Uldaman and [47] The Platinum Discs quest.|
-t The Platinum Discs|QID|2440|N|Optional: If you've done this quest in Uldaman: Turn it in to Sage Truthseeker on the lower rise, close to the auction house.|
-A Portents of Uldum|QID|2965|M|34.6,47.2|Z|Thunder Bluff|PRE|2440|
-T Portents of Uldum|QID|2965|M|75.6,31.2|Z|Thunder Bluff|N|To Nara Wildmane on Elder Rise and get the follow up.|
-A Seeing What Happens|QID|2966|M|75.6,31.2|Z|Thunder Bluff|N|From Nara Wildmane on Elder Rise.|PRE|2965|
-; -- Back on track
-F Orgrimmar|ACTIVE|3121|N|If you are a druid, you can train here, but you still need to go to Orgrimmar to The quest.|
-r Repair, Restock, Sell Junk|AVAILABLE|3122|N|Don't forget to Train the new skills.|
-T A Strange Request|QID|3121|M|77.0,37.2|Z|Orgrimmar|N|Find Neeru Fireblade in the Cleft of Shadows and This quest.|
-A Return to Witch Doctor Uzer'i|QID|3122|M|77.0,37.2|Z|Orgrimmar|PRE|3121|
-H Camp Mojache|ACTIVE|3122|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Mojache.|
-T Return to Witch Doctor Uzer'i|QID|3122|M|74.4,43.4|Z|Feralas|N|After you turn this quest in, wait for him to do his little script and get the follow ups.|
-A Testing the Vessel|QID|3123|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3122|
-A Natural Materials|QID|3128|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
-T War on the Woodpaw|QID|2862|M|74.9,42.5|Z|Feralas|N|Turn this one in to Hadoken Swiftstrider when you're ready to do the followup.|
-A Alpha Strike|QID|2863|M|74.9,42.5|Z|Feralas|N|Get this TIMED quest from Hadoken Swiftstrider.|PRE|2862|
-C Alpha Strike|QID|2863|M|72,56;72,57;73,57|CN|Z|Feralas|N|Ride southwest back to the gnoll camps and kill 5 Woodpaw Alpha. Not difficult but don't get too distracted. If you see a treant, kill and loot it. Multiple camps in the area.|
-T Alpha Strike|QID|2863|M|74.9,42.5|Z|Feralas|N|To Hadoken Swiftstrider back in Camp Mojache. Remember TIMER is still running, don't get distracted by shineys.|
-A Woodpaw Investigation|QID|2902|M|74.9,42.5|Z|Feralas|N|From Hadoken Swiftstrider.|PRE|2863|
-R Gordunni Outpost|ACTIVE|2987|M|77,35|Z|Feralas|N|Run up to the Ogre outpost north of camp .|
-C Gordunni Cobalt|QID|2987|M|75.2,28.7|Z|Feralas|N|Here we will kill ogres, dig for cobalt, and hunt for the Gordunni Scroll which can spawn near or (80.8,35.0). Look for small blue lights/patches on the ground in the Orgre area north of camp, use the shovel there then open the mounds you uncover. Repeat until you find 12 Gordunni Cobalt.|U|9466|
-C The Ogres of Feralas|QID|2975|M|75.2,28.7|Z|Feralas|N|Keep killing ogres and looking for the scroll.|
-A The Gordunni Scroll|QID|2978|M|75,30;80.6,34.3|CN|Z|Feralas|N|Can spawn in multiple places.|U|9370|
-C A New Cloak's Sheen|QID|2973|M|70,47|Z|Feralas|N|From the Ogre camp, cross the river and head southwest to and hunt Sprite Darters until you've found 10 Iridescent Sprite Darter Wings.|
-T Woodpaw Investigation|QID|2902|M|71.65,55.92|Z|Feralas|N|Head back to the gnoll area) and look for the Woodpaw Battle Map (a scroll on a crate). Click on the scroll to This quest and get the follow up.|
-A The Battle Plans|QID|2903|M|71.6,55.9|Z|Feralas|N|From the Woodpaw Battle Map.|PRE|2902|
-T The Ogres of Feralas|QID|2975|M|75.9,43.6|Z|Feralas|N|Head back to camp to turn in a bunch of quests.|
-A The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|Feralas|N|Get the follow up.|PRE|2975|
-T The Gordunni Scroll|QID|2978|M|75.9,43.6|Z|Feralas|
-A Dark Ceremony|QID|2979|M|75.9,43.6|Z|Feralas|N|Get the follow up.|PRE|2978|
+; H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan.|TAXI|Camp Mojache| == Hendo72 - Umm... you are in Gadgetzan already
+f Gadgetzan|AVAILABLE|2987|M|51.60,25.44|Z|Tanaris|N|At Bulkrek Ragefist.|TAXI|-Gadgetzan|
+F Camp Mojache|AVAILABLE|2987|M|51.60,25.4|Z|Tanaris|TAXI|Camp Mojache|IZ|-1444;Feralas|
+F Freewind Post|AVAILABLE|2987|ACTIVE|-1189|M|51.60,25.4|Z|Tanaris|TAXI|-Camp Mojache|IZ|-1444;Feralas|
+R Thousand Needles|AVAILABLE|2987|M|75.54,97.45|Z|Thousand Needles|TAXI|-Camp Mojache|IZ|-1444;Feralas|
+T Safety First|QID|1189|M|80.33,76.09|Z|Thousand Needles|N|To Razzeric.|TAXI|-Camp Mojache|
+R Ironstone Camp|AVAILABLE|2987|M|68.15,64.71|Z|Thousand Needles|TAXI|-Camp Mojache|IZ|-1444;Feralas|
+R Freewind Post|AVAILABLE|2987|M|47.01,46.86|Z|Thousand Needles|TAXI|-Camp Mojache|IZ|-1444;Feralas|
+R Feralas|AVAILABLE|2987|M|89.32,41.18|Z|Feralas|N|Make your way to the west end of Thousand Needles and into Feralas.\n[color=FF0000]NOTE: [/color]The road is the path of least resistance.|TAXI|-Camp Mojache|
+R Camp Mojache|AVAILABLE|2987|M|78.22,42.54|Z|Feralas|N|Follow the road west to Camp Mojache.|TAXI|-Camp Mojache|
+f Camp Mojache|AVAILABLE|2987|M|75.45,44.35|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
+A Gordunni Cobalt|QID|2987|M|75.70,44.31|Z|Feralas|N|From Orwin Gizzmick.|
+A A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|Feralas|N|From Kreug Skullspitter near the eastern entrance to the village.|
+A War on the Woodpaw|QID|2862|M|74.91,42.47|Z|Feralas|N|From Hadoken Swiftstrider, who's across the street from the inn.|
+A The Mark of Quality|QID|2822|M|74.43,42.91|Z|Feralas|N|From Jangdor Swifstrider inside the big tent building across the road from the inn.|
+A A Strange Request|QID|3121|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'l right outside that tent building.|
+h Camp Mojache|ACTIVE|3121|M|74.81,45.19|Z|Feralas|N|Stop in the inn and set your hearthstone with Innkeeper Greul.|
+A The Ogres of Feralas|QID|2975|M|73.53,45.12;75.96,42.85|CC|Z|Feralas|N|From Rok Orthan.\n[color=FF0000]NOTE: [/color]She roams between the Mill by the west entrance and the Mill by the east entrance. She makes a pit stop at the Inn going both ways.|
+L Level Check|ACTIVE|3121|M|81.90,44.90|Z|Feralas|N|Head into Lower Wilds and grind until you're lv 46.|LVL|46|
+R Camp Mojache|ACTIVE|3121|M|78.22,42.54|Z|Feralas|N|Return to Camp Mojache.|IZ|-Camp Mojache&1444;Feralas|
+= Train|ACTIVE|3121|M|75.99,42.28|Z|Feralas|N|Train your lv 46 skills/spells with Jannos Lighthoof.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
+F Orgrimmar|ACTIVE|3121|M|75.45,44.35|Z|Feralas|
+= Train|ACTIVE|3121|N|Train your lv 46 skills/spells.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Druid|
+r Repair, Restock, Sell Junk|AVAILABLE|3122|N|Do whatever housekeeping you to do.|
+T A Strange Request|QID|3121|M|49.48,50.58|Z|Orgrimmar|N|To Neeru Fireblade in the Cleft of Shadows|
+A Return to Witch Doctor Uzer'i|QID|3122|M|49.48,50.58|Z|Orgrimmar|N|From Neeru Fireblade.|PRE|3121|
+F Camp Mojache|ACTIVE|3122|M|45.13,63.90|Z|Orgrimmar|
+T Return to Witch Doctor Uzer'i|QID|3122|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
+A Testing the Vessel|QID|3123|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.\n[color=FF0000]NOTE: [/color]There is a brief interlude before he offers this quest.|PRE|3122|
+A Natural Materials|QID|3128|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3122|
+R Woodpaw Hills|ACTIVE|2862|M|71.3,49.0;70.45,49.82|CC|Z|Feralas|N|Exit Camp Mojache from the west and follow the road a short distance.|
+C War on the Woodpaw|QID|2862|M|70.16,54.59|Z|Feralas|L|9237 10|N|Kill gnolls to loot the Woodpaw Gnoll Manes.|
+R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|Feralas|
+T War on the Woodpaw|QID|2862|M|74.91,42.46|Z|Feralas|N|To Hadoken Swiftstrider.|
+A Alpha Strike.|QID|2863|M|74.91,42.46|Z|Feralas|N|From Hadoken Swiftstrider.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862| ; == Hendo72 - The '.' is to break auto-accept.
+A Alpha Strike|QID|2863|M|74.91,42.46|Z|Feralas|N|Return to Hadoken Swiftstrider to restart the quest.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862|FAIL| ; == Hendo72 - The '.' is to break auto-accept.
+R Lower Wilds|ACTIVE|2863|M|74.00,53.13|Z|Feralas|N|Head west from CAmp Mojache.|
+K Alpha Strike|QID|2863|M|74.4,54.1;75.3,56.8;73.3,57.0;71.9,56.7;71.2,56.5|CC|Z|Feralas|QO|1|N|Head back to the gnoll camps and kill 5 Woodpaw Alpha within 60 minutes.\n[color=FF0000]NOTE: [/color]If you clear the area behind the Alpha, you can single pull them away from the group. You may get the occasional helper if they are too close.|
+R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|Feralas|N|Remember the TIMER is still running. Don't get distracted by shineys.|
+T Alpha Strike|QID|2863|M|74.91,42.46|Z|Feralas|N|To Hadoken Swiftstrider.|
+A Woodpaw Investigation|QID|2902|M|74.91,42.46|Z|Feralas|N|From Hadoken Swiftstrider.|PRE|2863|
+K The Ogres of Feralas|ACTIVE|2975|M|74.8,35.4|Z|Feralas|QO|1;2;3|S|
+R Gordunni Outpost|ACTIVE|2975^2987|M|74.8,35.4;75.00,35.13|CC|Z|Feralas|N|Use the west exit and head to the Ogre outpost north of Camp Mojache.\n[color=FF0000]NOTE: [/color]Look for the torches marking the entrance on the east side of the river (by the waterfall).|
+l Gordunni Scroll|AVAILABLE|2978|M|75,30;80.6,34.3|CN|Z|Feralas|L|9370|N|This quest starter spawns on the ground in multiple places spread over the entire Outpost.|S|
+A The Gordunni Scroll|QID|2978|M|75,30;80.6,34.3|CN|Z|Feralas|N|Click on the scroll to accept the quest.|U|9370|PRE|
+C Gordunni Cobalt|QID|2987|M|75.2,28.7|Z|Feralas|N|Locate a small blue light/patch on the ground and use the shovel to uncover the Gordunni Dirt Mound. Click on the Mound to loot the Cobalt. Rinse and repeat until you're done.\n[color=FF0000]NOTE: [/color]The Dirt Mound will glow blue if it contains a Cobalt. Otherwise, it contains junk.|U|9466|
+K The Ogres of Feralas|ACTIVE|2975|M|74.8,35.4|Z|Feralas|QO|1;2;3|N|Finish killing your required Ogres.\n[color=FF0000]NOTE: [/color]They cover a large area and going inside the tunnels isn't necessary unless it's really busy.|US|
+l Gordunni Scroll|AVAILABLE|2978|M|75,30;80.6,34.3|CN|Z|Feralas|L|9370|N|It spawns on the ground in multiple places spread over the entire Outpost.\n[color=FF0000]NOTE: [/color]Skip this step if you so wish.|US|RANK|3|
+C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|Feralas|L|9589 6|N|Loot these from the Sprite Darters.|S|
+C A New Cloak's Sheen|QID|2973|M|69.43,45.60|Z|Feralas|L|9369 10|N|From Gordunni Outpost, cross the river and head southwest to where the Sprite Darters are. Kill them to loot your Sprite Darter Wings.|
+C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|Feralas|L|9589 6|N|Loot these from the Sprite Darters.|US|
+T Woodpaw Investigation|QID|2902|M|71.2,56.4;71.63,55.92|CS|Z|Feralas|N|Make your way to the camp in the gnoll area. After clearing the camp, locate the Woodpaw Battle Map sitting on a crate and click on it.|
+A The Battle Plans|QID|2903|M|71.63,55.92|Z|Feralas|N|From the Woodpaw Battle Map.|PRE|2902|
+R Camp Mojache|ACTIVE|2975|M|73.12,47.44|Z|Feralas|N|Head back to turn in a bunch of quests.|
+T The Ogres of Feralas|QID|2975|M|75.9,43.6|Z|Feralas|N|To Rok Orthan.\n[color=FF0000]NOTE: [/color]Turn it in when you find her.|S|
+A The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|Feralas|N|From Rok Orthan.|PRE|2975|
+T The Gordunni Scroll|QID|2978|ACTIVE|2980|M|75.9,43.6|Z|Feralas|N|To Rok Orthan.|
+A Dark Ceremony|QID|2979|M|75.9,43.6|Z|Feralas|N|From Rok Orthan.|PRE|2978|
 T Gordunni Cobalt|QID|2987|M|75.7,44.3|Z|Feralas|
-T The Battle Plans|QID|2903|M|74.9,42.5|Z|Feralas|
-A Zukk'ash Infestation|QID|7730|M|74.9,42.5|Z|Feralas|PRE|2903|
-A Stinglasher|QID|7731|M|74.9,42.5|Z|Feralas|PRE|2903|
-T A New Cloak's Sheen|QID|2973|M|75.9,42.7|Z|Feralas|
-A A Grim Discovery|QID|2974|M|75.9,42.7|Z|Feralas|PRE|2973|
-r Restock, Repair, Sell Junk|ACTIVE|7731|N|Get ready for another circuit of quests.|
-R The Writhing Deep|ACTIVE|7731|M|75,60|Z|Feralas|N|Bug hunt! Head to Writhing Deep . Kill any wandering treants on the way.|
-C Stinglasher|QID|7731|M|75.81,60.92|Z|Feralas|N|Go to the eastern cave entrance and you should find Stinglasher there roaming in and out of the entrance. Kill other insects in the area for the Zukk'Ash carapaces too.|
-C Zukk'ash Infestation|QID|7730|M|72.8,62.8|Z|Feralas|N|Keep killing insects until you have 20 Zukk'Ash carapaces.|
-R Grimtotem Compound|ACTIVE|2974|M|69.50,42.00|Z|Feralas|N|Ride back north across the road (killing and looting any wandering treants you see) to the Grimtotem Village.|
-C A Grim Discovery|QID|2974|M|69.6,47.7|Z|Feralas|N|Kill grimtotems until you've collected 20 Grimtotem Horns.|
-R Ruins of Isildien|ACTIVE|2980|M|62.00,54.00|Z|Feralas|N|Ride back to the road then follow it west to the Ruins of Isildien to kill more orgres.|
-C The Ogres of Feralas|QID|2980|M|59,73|Z|Feralas|N|You are going to be hunting Maulers, Warlocks, and Shamans and to get the Shamans, you'll have to head south go the big temple at . Once there kill Gordunni Mage-Lords too until one of them drops a Gordunni Orb which starts a quest.|
-C Dark Ceremony|QID|2979|M|59.5,68.4|Z|Feralas|N|Kill Gordunni Mage-Lords until you find a Gordunni Orb.|
+T The Battle Plans|QID|2903|M|74.91,42.46|Z|Feralas|N|To Hadoken Swiftstrider.|
+A Zukk'ash Infestation|QID|7730|M|74.91,42.46|Z|Feralas|N|From Hadoken Swiftstrider.|PRE|2903|
+A Stinglasher|QID|7731|M|74.91,42.46|Z|Feralas|N|From Hadoken Swiftstrider.|PRE|2903|
+T A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|Feralas|N|To Kreug Skullspitter.|
+A A Grim Discovery|QID|2974|M|75.95,42.73|Z|Feralas|N|From Kreug Skullspitter|PRE|2973|
+T The Ogres of Feralas|QID|2975|M|75.96,42.85;73.53,45.12|CC|Z|Feralas|N|To Rok Orthan.|US|
+r Restock, Repair, Sell Junk|ACTIVE|7731|N|Get ready for another circuit of quests.|IZ|Camp Mojache|
+C Splintered Log|ACTIVE|3128|L|9590 2|N|Kill Wandering Forest Walkers to loot these.|S|
+R The Writhing Deep|ACTIVE|7731|M|71.3,49.0;75,60|CC|Z|Feralas|N|Head to Writhing Deep.|
+C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|Feralas|L|18961 20|N|Kill insects to loot the Zukk'Ash carapaces.|S|
+K Stinglasher|ACTIVE|7731|M|75.81,60.92|Z|Feralas|L|18962|N|Go to the eastern hive entrance and you should find Stinglasher roaming in and out of the entrance.|
+C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|Feralas|L|18961 20|N|Finish collecting the Zukk'Ash carapaces.\n[color=FF0000]NOTE: [/color]Above or below ground, the choice is yours. Workers and Wasps are your best bet for getting them.|US|
+R Grimtotem Compound|ACTIVE|2974|M|69.50,42.00|Z|Feralas|
+C A Grim Discovery|QID|2974|M|69.16,38.17|Z|Feralas|L|9460 20|N|Kill Grimtotems to loot the Grimtotem Horns.|
+R Verdantis River|ACTIVE|2980|M|66.0,49.1;63.76,51.09|CC|Z|Feralas|N|Head back to the road and follow it west to the Bridge over the river.|
+R Ruins of Isildien|ACTIVE|2980|M|61.9,53.1;61.71,53.97|CC|Z|Feralas|N|Cross the bridge and continue west to the Ruins of Isildien.|
+K The Ogres of Feralas|ACTIVE|2980|M|59.34,66.62|Z|Feralas|QO|1;2;3|N|Kill the required oqgres.|S|
+C Dark Ceremony|QID|2979|M|59.5,68.4|Z|Feralas|L|9371|N|Kill Gordunni Mage-Lords until one drops the Gordunni Orb.\n[color=FF0000]NOTE: [/color]Move down the hill and past the first building as quickly as you can to get to where the Mage-Lords are.|
+K The Ogres of Feralas|ACTIVE|2980|M|59.34,66.62|Z|Feralas|QO|1;2;3|N|Kill the required oqgres.\n[color=FF0000]NOTE: [/color]There are more inside the building if you don't want to wait for respawns outside.|US|
 A The Gordunni Orb|QID|3002|M|75.9,43.6|Z|Feralas|PRE|2979|
 R Feral Scar Vale|ACTIVE|2822|M|55,56|Z|Feralas|N|Ride to the Ferak Scar Vale where the Yeti Cave is.|
 C The Mark of Quality|QID|2822|M|55.4,54.4|Z|Feralas|N|Kill yeti until you loot 10 thick yeti hides.|
@@ -486,12 +494,12 @@ A Rescue OOX-22/FE!|QID|2767|PRE|2766|
 C Rescue OOX-22/FE!|QID|2767|N|Let the chicken lead, he will only stop or help if they attack him, not if you aggro something.|
 C Screecher Spirits|QID|3520|M|52.5,46.7|Z|Feralas|N|Head west and look for screechers - around if you did the escort and (57.3,54.6) if you didn't. Kill and loot them then select the corpse and use Yeh'kinya's Bramble on it causing a screecher spirit to appear. Right click on the spirit to get quest credit for it.|U|10699|
 H Camp Mojache|ACTIVE|2822|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Mojache.|
-A The Sunken Temple|QID|3380|M|74.4,43.4|Z|Feralas|N|Accept this even if you aren't planning to do the instance - it leads to some normal quests in Tanaris.|
+A The Sunken Temple|QID|3380|M|74.42,43.36|Z|Feralas|N|Accept this even if you aren't planning to do the instance - it leads to some normal quests in Tanaris.|
 T The Mark of Quality|QID|2822|M|74.4,42.9|Z|Feralas|
 A Improved Quality|QID|7734|M|74.4,42.9|Z|Feralas|PRE|2822|
-T Zukk'ash Infestation|QID|7730|M|74.9,42.5|Z|Feralas|
-T Stinglasher|QID|7731|M|74.9,42.5|Z|Feralas|
-A Zukk'ash Report|QID|7732|M|74.9,42.5|Z|Feralas|
+T Zukk'ash Infestation|QID|7730|M|74.91,42.46|Z|Feralas|
+T Stinglasher|QID|7731|M|74.91,42.46|Z|Feralas|
+A Zukk'ash Report|QID|7732|M|74.91,42.46|Z|Feralas|
 T The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|Feralas|
 T Dark Ceremony|QID|2979|M|75.9,43.6|Z|Feralas|
 T A Grim Discovery|QID|2974|M|75.9,42.7|Z|Feralas|
@@ -513,22 +521,22 @@ C Pirate Hats Ahoy!|QID|8365|M|70.4,42.7|Z|Tanaris|N|Kill pirates until you get 
 C Southsea Shakedown|QID|8366|M|73.00,47.00|Z|Tanaris|N|Finish killing the pirates for this quest.|US|
 R Steamwheedle Port|ACTIVE|8366|M|67.1,23.9|Z|Tanaris|N|Ride North to Steamwheedle Port.|
 A Ship Schedules|QID|2876|N|Right-click the Ship Schedules to get this quest if you have the item (it can be in a Pirate Footlocker). Skip this objective if you did not get the item.|U|9250|
-t Ship Schedules|QID|2876|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
-T WANTED: Andre Firebeard|QID|2875|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
-T Southsea Shakedown|QID|8366|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
-T Stoley's Shipment|QID|2873|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
-A Deliver to MacKinley|QID|2874|M|67.1,23.9|Z|Tanaris|N|From Security Chief Bilgewhizzle.|PRE|2873|
+t Ship Schedules|QID|2876|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
+T WANTED: Andre Firebeard|QID|2875|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
+T Southsea Shakedown|QID|8366|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
+T Stoley's Shipment|QID|2873|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
+A Deliver to MacKinley|QID|2874|M|67.06,23.89|Z|Tanaris|N|From Security Chief Bilgewhizzle.|PRE|2873|
 T Pirate Hats Ahoy!|QID|8365|M|66.6,22.3|Z|Tanaris|N|To Haughty Modiste.|
-T Screecher Spirits|QID|3520|M|67.0,22.4|Z|Tanaris|N|To Yeh'kinya.|
-A The Prophecy of Mosh'aru|QID|3527|M|67.0,22.4|Z|Tanaris|N|From Yeh'kinya.|PRE|3520|
+T Screecher Spirits|QID|3520|M|66.99,22.36|Z|Tanaris|N|To Yeh'kinya.|
+A The Prophecy of Mosh'aru|QID|3527|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|PRE|3520|
 H Gadgetzan|ACTIVE|1691|M|52.50,27.90|Z|Tanaris|N|Hearth or run back to Gadgetzen.|
-T More Wastewander Justice|QID|1691|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-T WANTED: Caliph Scorpidsting|QID|2781|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-t Water Pouch Bounty|QID|1707|M|52.4,28.4|Z|Tanaris|N|To Spigot Operator Luglunket as many times as you can.|
+T More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
+T WANTED: Caliph Scorpidsting|QID|2781|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
+t Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|Tanaris|N|To Spigot Operator Luglunket as many times as you can.|
 A Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 A The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|
 A The Dunemaul Compound|QID|5863|M|52.8,27.4|Z|Tanaris|N|From Andi Lynn.|
-A Thistleshrub Valley|QID|3362|M|51.6,26.8|Z|Tanaris|N|From Tran'Rek|
+A Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|From Tran'Rek|
 C Gadgetzan Water Survey|QID|992|M|39.05,29.15|Z|Tanaris|N|Use the Untapped Dowsing Widget on the pool at this location.|U|8584|
 T Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|To Senior Survey Fizzledowser.|
 A Noxious Lair Investigation|QID|82|M|50.2,27.5|Z|Tanaris|N|From Senior Survey Fizzledowser.|PRE|992|
@@ -560,7 +568,7 @@ H Gadgetzan|ACTIVE|82|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen
 T The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|To Marin Noggenfogger.|
 A In Good Taste|QID|2606|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|PRE|2605|
 T The Dunemaul Compound|QID|5863|M|52.8,27.4|Z|Tanaris|N|To Andi Lynn.|
-T Thistleshrub Valley|QID|3362|M|51.6,26.8|Z|Tanaris|N|TO Tran'Rek.|
+T Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|TO Tran'Rek.|
 T In Good Taste|QID|2606|M|51.1,26.9|Z|Tanaris|N|To Sprinkle.|
 A Sprinkle's Secret Ingredient|QID|2641|M|51.1,26.9|Z|Tanaris|N|From Sprinkle.|PRE|2606|
 T Noxious Lair Investigation|QID|82|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
@@ -657,10 +665,10 @@ T Gammerita, Mon!|QID|7816|M|80.3,81.4|Z|The Hinterlands|
 R Jintha'Alor|ACTIVE|7861|M|77,61;66,66|CS|Z|The Hinterlands|N|Put together a group of at least 3 your level or higher. (5 is better if you are all 49).|RANK|2|
 N Things to do|QID|7850|N|In this area, you'll be looking for Vessels of Tainted Blood as you go. Also kill Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters. You need nothing from the first two levels, so get to the third level as quickly as possible.|RANK|2|
 N Pile of Bones|QID|7849|M|62.2,75.5|Z|The Hinterlands|QO|1|N|At the top of the stairs to the top level, to the left is a pit with oozes. Fight your way through to the heart of the pit where you should see a pile of bones . Loot it.|RANK|2|
-N Pile of Skulls|QID|7849|M|58.6,64.9|Z|The Hinterlands|QO|2|N|On the top level, you'll see an altar with a troll lying on it. Don’t go down into the pit yet but go around it until you see a stone gate with a path leading to the other pair of stairs and a cave. Follow that way until the very end where you should see an area shielded by stone walls (there should be two more of those on your way). You should see wolves in there. Kill them and loot the pile of bones inside.|RANK|2|
-T Kidnapped Elder Torntusk!|QID|7845|M|59,78|Z|The Hinterlands|N|Go back to the big stone pit with the quest npc. Clear your way into the pit and check next to the altar, there should be Vile Pristress Hexx (If she isn’t there, she roamed into the cave but she’ll come back). Single pull and clear as many trolls in that altar area as possible. The priestess casts an annoying polymorph spell, which doesn't break on damage, so watch out for that, try to interrupt it and burn her down quick. When you are full mana pull the priestess.|RANK|2|
+N Pile of Skulls|QID|7849|M|58.6,64.9|Z|The Hinterlands|QO|2|N|On the top level, you'll see an altar with a troll lying on it. Don't go down into the pit yet but go around it until you see a stone gate with a path leading to the other pair of stairs and a cave. Follow that way until the very end where you should see an area shielded by stone walls (there should be two more of those on your way). You should see wolves in there. Kill them and loot the pile of bones inside.|RANK|2|
+T Kidnapped Elder Torntusk!|QID|7845|M|59,78|Z|The Hinterlands|N|Go back to the big stone pit with the quest npc. Clear your way into the pit and check next to the altar, there should be Vile Pristress Hexx (If she isn't there, she roamed into the cave but she'll come back). Single pull and clear as many trolls in that altar area as possible. The priestess casts an annoying polymorph spell, which doesn't break on damage, so watch out for that, try to interrupt it and burn her down quick. When you are full mana pull the priestess.|RANK|2|
 A Recover the Key!|QID|7846|PRE|7845|RANK|2|
-C Recover the Key!|QID|7846|M|57.5,86.5|Z|The Hinterlands|N|Now comes a rather difficult part, if you are confident that you can handle 3 mobs alone you can proceed solo, if you think you’d have difficulties, try to group up with someone. Go inside the tunnel behind the altar and fight your way through to the southernmost tip of the tunnel structure . There you should see Hitah’Ya the Keeper patrolling with two guards. Get full mana/hp. The trick here is to use crowd control (if you have, like ice trap, sheep, sap) and at the same time burn down Hitah’Ya as fast as possible (she has very little HP). Also pop your cooldown skills to burn down one of the guards as fast as possible. Once that is done you just need to deal with the other guard. Loot Hitah’Yah.|RANK|2|
+C Recover the Key!|QID|7846|M|57.5,86.5|Z|The Hinterlands|N|Now comes a rather difficult part, if you are confident that you can handle 3 mobs alone you can proceed solo, if you think you'd have difficulties, try to group up with someone. Go inside the tunnel behind the altar and fight your way through to the southernmost tip of the tunnel structure . There you should see Hitah'Ya the Keeper patrolling with two guards. Get full mana/hp. The trick here is to use crowd control (if you have, like ice trap, sheep, sap) and at the same time burn down Hitah'Ya as fast as possible (she has very little HP). Also pop your cooldown skills to burn down one of the guards as fast as possible. Once that is done you just need to deal with the other guard. Loot Hitah'Yah.|RANK|2|
 C The Ancient Egg|QID|4787|N|If you took the quest [51] The Ancient Egg, don't forget to get the egg off the pedestal in the center of the room Hitah'Ya the Keeper was in.|RANK|2|
 C Wanted: Vile Priestess Hexx and Her Minions|QID|7861|M|59,78|Z|The Hinterlands|N|Kill the Priestess if you haven't already, and any guards you still need.|RANK|2|
 T Recover the Key!|QID|7846|M|59,78|Z|The Hinterlands|N|Go back to the altar and The quest.|RANK|2|
@@ -703,11 +711,11 @@ T Insect Part Analysis|QID|113|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzle
 A Rise of the Silithid|QID|32|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|113|
 
 ; -- Feralas
-F Camp Mojache|ACTIVE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|
+F Camp Mojache|ACTIVE|3123|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|
 h Camp Mojache|ACTIVE|3123|M|74.8,45|Z|Feralas|N|Stop in the inn and set your hearthstone with Innkeeper Greul.|
 r Repair, Restock, Sell Junk|ACTIVE|3123|
-T Testing the Vessel|QID|3123|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
-A Hippogryph Muisek|QID|3124|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3123|
+T Testing the Vessel|QID|3123|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
+A Hippogryph Muisek|QID|3124|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3123|
 A Dark Heart|QID|3062|M|76.2,43.8|Z|Feralas|N|From Talo Thornhoof.|
 A Vengeance on the Northspring|QID|3063|M|76.2,43.8|Z|Feralas|N|From Talo Thornhoof.|
 A The Strength of Corruption|QID|4120|M|76.2,43.8|Z|Feralas|N|From Talo Thornhoof.|
@@ -723,14 +731,14 @@ T Zapped Giants|QID|7003|M|45,44|Z|Feralas|N|To Zorbin Fandazzle.|
 T Fuel for the Zapping|QID|7721|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle.|
 A Again With the Zapped Giants|QID|7725|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle. We aren't actually going to complete this. we just want the zapper for a later quest.|
 H Camp Mojache|QID|3124|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Mojache.|
-T Hippogryph Muisek|QID|3124|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
-A Faerie Dragon Muisek|QID|3125|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3124|
+T Hippogryph Muisek|QID|3124|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
+A Faerie Dragon Muisek|QID|3125|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3124|
 C Faerie Dragon Muisek|QID|3125|M|68.70,49.00;68.90,44.95;67.05,47.72;70.11,46.81;64.88,48.05|CN|N|Head souht-west to the Sprite Darters. Kill them and use the Muisek Vessel on their corpses. Do not skin them skinners!|U|9620|
-T Faerie Dragon Muisek|QID|3125|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
-A Treant Muisek|QID|3126|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3125|
+T Faerie Dragon Muisek|QID|3125|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
+A Treant Muisek|QID|3126|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3125|
 C Treant Muisek|QID|3126|M|71,57;58,48;57,73;73,40|CN|Z|Feralas|N|You're looking for Wandering Forest Walkers, which spawn and wander around near: The Grimtotem compound and Camp Mojache,The gnoll camps, Dire Maul, Hippogyph area.|U|9606|
-T Treant Muisek|QID|3126|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
-A Mountain Giant Muisek|QID|3127|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3126|
+T Treant Muisek|QID|3126|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
+A Mountain Giant Muisek|QID|3127|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3126|
 A Find OOX-22/FE!|QID|2766|N|From Dropped item. somewhat rare, don't stress if you dont find it.|U|8705|
 t Find OOX-22/FE!|QID|2766|M|52,57|Z|Feralas|N|To the OOX-22/FE in the yeti cave.|
 A Rescue OOX-22/FE!|QID|2767|M|52,57|Z|Feralas|N|From OOX-22/FE.|PRE|2766|
@@ -746,10 +754,10 @@ K Harpies|ACTIVE|3062|M|41,12|Z|Feralas|L|9530|N|Continue until you get a Horn o
 C Dark Heart|QID|3062|M|40.67,8.3|Z|Feralas|N|Head to the stones at waypoint. HP/Mana up, then use the stand between them and use the Horn. Kill Edana.|U|9530|
 L Level Check|ACTIVE|3127|N|Grind to 50.|LVL|50|
 H Camp Mojache|ACTIVE|3127|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Mojache.|
-T Mountain Giant Muisek|QID|3127|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
-T Natural Materials|QID|3128|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
-A Weapons of Spirit|QID|3129|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
-T Weapons of Spirit|QID|3129|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i, after he finishes talking.|
+T Mountain Giant Muisek|QID|3127|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|
+T Natural Materials|QID|3128|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
+A Weapons of Spirit|QID|3129|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|
+T Weapons of Spirit|QID|3129|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i, after he finishes talking.|
 T Improved Quality|QID|7734|M|74.4,42.9|Z|Feralas|N|To Jangdor Swiftstrider.|
 T Perfect Yeti Hide|QID|7738|M|74.4,42.9|Z|Feralas|N|To Jangdor Swiftstrider.|
 T Vengeance on the Northspring|QID|3063|M|76.2,43.8|Z|Feralas|N|To Talo Thornhoof.|
@@ -784,8 +792,6 @@ C Kill animals|QID|2581&2583&2585&2601&2603|M|44.8,29.7;54.7,36.5;60.1,27.7;50.6
 T Quests to the Bloodmages|QID|2581&2583&2585&2601&2603|M|50,14|Z|Blasted Lands|N|Turn them in, in the order you choose to maximize the buffs. Don't get the followups unless you are having lots of fun here. They are repeatable, so it's not a bad place to grind and get a buff.|
 A Everything Counts In Large Amounts|QID|3501|M|51,35|Z|Blasted Lands|N|If you get any Draenethyst Fragments, go here to turn in, its a pretty rare drop, dont try to farm for it. check off manually if you didnt find any.|
 L Level Check|LVL|51|N|You should be level 51, if not stay and grind here a bit.|
-
-
 
 ;stuff not used. not ready to throw away yet
 ;A Cracking Maury's Foot|QID|613|
