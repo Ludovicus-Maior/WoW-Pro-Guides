@@ -550,21 +550,25 @@ C Gadgetzan Water Survey|QID|992|M|38.57,29.24|Z|Tanaris|L|8585|N|Use the Untapp
 R Gadgetzan|ACTIVE|992|M|52.50,27.90|Z|Tanaris|
 T Gadgetzan Water Survey|QID|992|M|50.21,27.48|Z|Tanaris|N|To Senior Survey Fizzledowser.|
 A Noxious Lair Investigation|QID|82|M|50.21,27.48|Z|Tanaris|N|From Senior Survey Fizzledowser.|PRE|992|
-R Broken Piller|ACTIVE|3380|M|52,45|Z|Tanaris|N|Go south to the Broken Pillar.|
-T The Sunken Temple|QID|3380|M|52.7,45.9|Z|Tanaris|N|To Mavon Rivetseeker.|
-A The Stone Circle|QID|3444|M|52.7,45.9|Z|Tanaris|N|From Mavon Rivetseeker.|PRE|3380|
-A Gahz'ridian|QID|3161|M|52.7,45.9|Z|Tanaris|N|From Mavon Rivetseeker.|
-C Gahz'ridian|QID|3161|N|From now on, loot any Gahz'ridian pieces you find on the ground.|S|
-C The Dunemaul Compound|QID|5863|M|40.00,57.00|Z|Tanaris|N|Clear a path to the cave with Gor'marok in it and then move on to Eastmoon Ruins after you kill him.|S|
-K Gor'marok the Ravager|ACTIVE|5863|M|41.15,57.40|Z|Tanaris|N|Go here and kill Gor'marok the Ravager.|T|Gor'marok the Ravager|
-C The Dunemaul Compound|QID|5863|M|40.00,57.00|Z|Tanaris|N|Kill the rest of the ogres you need for this quest.|US|
-C Gahz'ridian|QID|3161|M|48.00,64.00;41,72|CN|Z|Tanaris|N|Finish collecting the 30 Gahz'ridian Ornaments.|US|
+R Broken Pillar|ACTIVE|3380|M|52.40,45.21|Z|Tanaris|N|Go south to the Broken Pillar.|
+T The Sunken Temple|QID|3380|M|52.71,45.92|Z|Tanaris|N|To Mavon Rivetseeker.|
+A The Stone Circle|QID|3444|M|52.71,45.92|Z|Tanaris|N|From Mavon Rivetseeker.|PRE|3380|
+A Gahz'ridian|QID|3161|M|52.71,45.92|Z|Tanaris|N|From Mavon Rivetseeker.|
+N Gahz'ridian Detector|ACTIVE|3161|N|You do not need to equip the detector to do the quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Gahz'ridian|QID|3161|L|8443 30|N|Loot the Gahz'ridian ornaments from the 'white piles of sand' you find on the ground.\n[color=FF0000]NOTE: [/color]Eastmoon Ruins is the best place to find them.|S|
+R Dunemaul Compound|ACTIVE|5863|M|40.00,57.00|Z|Tanaris|
+K The Dunemaul Compound|ACTIVE|5863|M|40.00,57.00|Z|Tanaris|QO|1;2|N|Kill the required Ogres.\n[color=FF0000]NOTE: [/color]The Ogre Mages hurt.|S|
+K Gor'marok the Ravager|ACTIVE|5863|M|41.15,57.40|Z|Tanaris|QO|3|N|After clearing the entrance, enter the cave and kill Gor'marok the Ravager.|T|Gor'marok the Ravager|
+R Eastmoon Ruins|ACTIVE|3161|M|45.91,64.82|Z|Tanaris|
+C Gahz'ridian|QID|3161|M|45.91,64.82|Z|Tanaris|L|8443 30|N|Finish collecting the Gahz'ridian Ornaments.|US|
+K The Dunemaul Compound|ACTIVE|5863|M|45.91,64.82|Z|Tanaris|QO|1;2|N|Finish killing your required ogres.|US|
 R Thistleshrub Valley|ACTIVE|2605|M|28,67|Z|Tanaris|N|Go west to Thistleshrub Valley.|
-C Thistleshrub Valley|QID|3362|M|28.3,63.8|Z|Tanaris|N|Kill Thistleshrubs and loot until you get the kills needed for this quest.|
-C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|Tanaris|N|Continue to kill Thistleshrubs until you get the dew gland (somewhat rare).|
+C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|Tanaris|L|8428|N|Kill Thistleshrubs Dew Collectors until one drops the dew gland.|S|
+K Thistleshrub Valley|ACTIVE|3362|M|28.3,63.8|Z|Tanaris|QO|1;2|N|Kill the required Thistleshrubs.|
+C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|Tanaris|L|8428|N|Continue to kill Thistleshrubs Dew Collectors until one drops the dew gland.|US|
 C Noxious Lair Investigation|QID|82|M|35.00,46.00|Z|Tanaris|N|Go here and kill and loot insects until you get the parts needed.|
 L Level Check|ACTIVE|2605|LVL|47;99100|N|Grind a bit till this message goes away. (~4.5 bubbles from 48)|
-T Gahz'ridian|QID|3161|M|52.7,45.9|Z|Tanaris|N|To Marvon Rivetseeker.|
+T Gahz'ridian|QID|3161|M|52.71,45.92|Z|Tanaris|N|To Marvon Rivetseeker.|
 H Gadgetzan|ACTIVE|82|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen.|
 T The Thirsty Goblin|QID|2605|M|51.81,28.66|Z|Tanaris|N|To Marin Noggenfogger.|
 A In Good Taste|QID|2606|M|51.81,28.66|Z|Tanaris|N|From Marin Noggenfogger.|PRE|2605|
