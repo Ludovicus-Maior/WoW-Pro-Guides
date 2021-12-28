@@ -618,8 +618,8 @@ T Cortello's Riddle|QID|626|M|80.81,46.79|Z|The Hinterlands|N|Find Cortell's Che
 C Whiskey Slim's Lost Grog|QID|580|M|80.78,46.81|Z|The Hinterlands|L|3900 12|N|Swim to shore and make your way south along the water towards Revantusk Village collecting the blue bottles.|
 R Revantusk Village|ACTIVE|580|M|80.78,46.81|Z|The Hinterlands|
 f Revantusk Village|ACTIVE|580|M|81.71,81.75|Z|The Hinterlands|N|From Gorkas, at the end of the dock.|TAXI|-Revantusk Village|
-A Snapjaws, Mon!|QID|7815|M|80.3,81.4|Z|The Hinterlands|
-A Gammerita, Mon!|QID|7816|M|80.3,81.4|Z|The Hinterlands|ELITE|N|[color=FF8000]Elite: [/color]\nOnly pick this quest up if you are likely to have help (other players in the area).|PRE|7815|RANK|3|
+A Snapjaws, Mon!|QID|7815|M|80.33,81.54|Z|The Hinterlands|
+A Gammerita, Mon!|QID|7816|M|80.3,81.4|Z|The Hinterlands|ELITE|N|[color=FF8000]Elite: [/color]\nOnly pick this quest up if you are likely to have help (other players in the area).|RANK|3|
 A Lard Lost His Lunch|QID|7840|M|78.2,81.3|Z|The Hinterlands|N|From Lard.|
 A Stalking the Stalkers|QID|7828|M|79.2,79.5|Z|The Hinterlands|N|From Huntsman Markhor.|
 A Hunt the Savages|QID|7829|M|79.2,79.5|Z|The Hinterlands|N|From Huntsman Markhor.|
