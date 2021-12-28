@@ -116,8 +116,10 @@ T Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|Badlands|N|To Jarkal Mossmeld.\n[
 T Broken Alliances|QID|782|M|6.48,47.20|Z|Badlands|N|To Gorn.\n[color=FF0000]NOTE: [/color]Skip the follow-up.|
 
 ; --- Swamp of Sorrows
-H Orgrimmar|ACTIVE|1420|M|3.99,44.77|Z|Badlands|N|If your Hearthstone is on CD, then fly there.|
-= Level 42 Training|ACTIVE|1420|N|Do your training before moving on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+P Moonglade|ACTIVE|1420|N|Use your Teleport: Moonglade to do your training.|C|Druid|
+H Orgrimmar|ACTIVE|1420|N|Hearth back to Orgrimmar. It's faster than flying; unless your hearth is on CD.|C|Druid|
+F Orgrimmar|ACTIVE|1420|M|47.02,49.83|Z|Thunder Bluff|C|Druid|IZ|1456;Thunder Bluff|
+H Orgrimmar|ACTIVE|1420|N|Hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
 b Grom'gol Base Camp|ACTIVE|1420|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
 F Stonard|ACTIVE|1420|M|32.54,29.35|N|At Thysta.|
 T Report to Helgrum|QID|1420|M|47.74,55.20|Z|Swamp of Sorrows|N|To Helgrum the Swift.|
@@ -566,44 +568,56 @@ R Thistleshrub Valley|ACTIVE|2605|M|28,67|Z|Tanaris|N|Go west to Thistleshrub Va
 C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|Tanaris|L|8428|N|Kill Thistleshrubs Dew Collectors until one drops the dew gland.|S|
 K Thistleshrub Valley|ACTIVE|3362|M|28.3,63.8|Z|Tanaris|QO|1;2|N|Kill the required Thistleshrubs.|
 C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|Tanaris|L|8428|N|Continue to kill Thistleshrubs Dew Collectors until one drops the dew gland.|US|
-C Noxious Lair Investigation|QID|82|M|35.00,46.00|Z|Tanaris|N|Go here and kill and loot insects until you get the parts needed.|
-L Level Check|ACTIVE|2605|LVL|47;99100|N|Grind a bit till this message goes away. (~4.5 bubbles from 48)|
+R The Noxious Lair|ACTIVE|82|M|30.71,53.03|Z|Tanaris|
+C Noxious Lair Investigation|QID|82|M|35.00,46.00|Z|Tanaris|L|8587 5|N|Kill the insects until your done looting.|
+L Level Check|ACTIVE|3161|LVL|47;99100|N|Grind a bit till this message goes away. (~4.5 bubbles from 48)|
+R Broken Pillar|ACTIVE|3161|M|52.40,45.21|Z|Tanaris|N|
 T Gahz'ridian|QID|3161|M|52.71,45.92|Z|Tanaris|N|To Marvon Rivetseeker.|
-H Gadgetzan|ACTIVE|82|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen.|
+H Gadgetzan|ACTIVE|2605|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen.|
+T The Dunemaul Compound|QID|5863|M|52.82,27.40|Z|Tanaris|N|To Andi Lynn.|
 T The Thirsty Goblin|QID|2605|M|51.81,28.66|Z|Tanaris|N|To Marin Noggenfogger.|
 A In Good Taste|QID|2606|M|51.81,28.66|Z|Tanaris|N|From Marin Noggenfogger.|PRE|2605|
-T The Dunemaul Compound|QID|5863|M|52.82,27.40|Z|Tanaris|N|To Andi Lynn.|
 T Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|TO Tran'Rek.|
-T In Good Taste|QID|2606|M|51.1,26.9|Z|Tanaris|N|To Sprinkle.|
-A Sprinkle's Secret Ingredient|QID|2641|M|51.1,26.9|Z|Tanaris|N|From Sprinkle.|PRE|2606|
-T Noxious Lair Investigation|QID|82|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
+T In Good Taste|QID|2606|M|51.06,26.88|Z|Tanaris|N|To Sprinkle.|
+A Sprinkle's Secret Ingredient|QID|2641|M|51.06,26.88|Z|Tanaris|N|From Sprinkle.|PRE|2606|
+T Noxious Lair Investigation|QID|82|M|50.89,26.97|Z|Tanaris|N|To Alchemist Pestlezugg.|
 A The Scrimshank Redemption|QID|10|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|82|
-L Level Check|ACTIVE|10|LVL|48|N|You should now be level 48, if not stay and grind abit on bandits.|
-F Thunder Bluff|ACTIVE|2967|M|46.8,50|Z|Thunder Bluff|N|At Tal, Wind Rider Master.|
-T Return to Thunder Bluff|QID|2967|M|75.6,31.2|Z|Thunder Bluff|N|To Nara Wildmane on Elder Rise.|
-A A Future Task|QID|2968|M|75.6,31.2|Z|Thunder Bluff|N|From Nara Wildmane.|PRE|2967|
-T A Future Task|QID|2968|M|34.8,48|Z|Thunder Bluff|N|To Sage Truthseeker.|
-F Orgrimmar|ACTIVE|10|N|Sell, restock, and repair. Don't forget to train if you need to.|
-T The Gordunni Orb|QID|3002|M|39.2,86.3|Z|Orgrimmar|N|To Uthel'nay in the mage building.|
-A Shadowshard Fragments|QID|7068|M|39.2,86.3|Z|Orgrimmar|N|From Uthel'nay, (skip if you are never going to Maraudon).|
-T Zukk'ash Report|QID|7732|M|56.2,46.7|Z|Orgrimmar|N|To the upper level of the drag.|
+F Thunder Bluff|ACTIVE|3002|M|51.60,25.44|Z|Tanaris|C|Druid|
+F Orgrimmar|ACTIVE|3002|M|51.60,25.44|Z|Tanaris|C|-Druid|
+= Level 48|ACTIVE|3002|N|Train your lv 48 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Orgrimmar|ACTIVE|3002|M|47.02,49.83|Z|Thunder Bluff|C|Druid|
+T The Gordunni Orb|QID|3002|M|39.16,86.27|Z|Orgrimmar|N|To Uthel'nay in Darkbriar Lodge (Valley of Spirits).|
+T Zukk'ash Report|QID|7732|M|56.27,46.68|Z|Orgrimmar|N|To Zilzibin Drumlore on the upper level of the Drag in the building between the Herbalism trainer and the Cooking trainer.|
 
 ; -- Hinterlands
-A Ripple Recovery|QID|649|M|59.5,36.8|Z|Orgrimmar|N|Get this quest from Dran Droffers at Droffers and Son Salvage on the drag near the valley of honor.|
-T Ripple Recovery|QID|649|M|59.5,36.8|Z|Orgrimmar|N|Turn around and turn this into Malton Droffers standing next to you.|
-A Ripple Recovery|QID|650|M|59.5,36.8|Z|Orgrimmar|N|From Malton Doffers.|PRE|649|
-b Tirisfal Glades|ACTIVE|650|M|50.8,13.6|Z|Durotar|N|Take the Zeppelin to the Undercity.|
-A Lines of Communication|QID|2995|M|73.0,32.9|Z|Undercity|N|From Oran Snakewrithe in/near the Mage Quarter.|
-F Tarren Mill|ACTIVE|650|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
-R The Hinterlands|ACTIVE|650|M|84,32|Z|Hillsbrad Foothills|N|Ride southeast to the pass which leads to the Hinterlands.|
-T Ripple Recovery|QID|650|M|20.2,48.3;26.7,48.6|CS|Z|The Hinterlands|N|To Gilveradin Sunchaser.|
-A A Sticky Situation|QID|77|M|26.7,48.6|Z|The Hinterlands|N|From Gilveradin Sunchaser.|PRE|650|
-C Testing the Vessel|QID|3123|N|Kill owlbeasts and use the Muisek Vessel on their bodies until you collect 10 muisek.|U|9618|
-R The Overlook Cliffs|ACTIVE|626|M|80.8,46.8|Z|The Hinterlands|N|Continue to the waterfall. There is a path, at 70,63 but it's faster to jump... assuming you land in the water.|
-T Cortello's Riddle|QID|626|M|80.81,46.79|Z|The Hinterlands|N|Once there, jump down into the water (don't miss!), dive down, and find Cortell's Chest and collect your prize.|
-C Whiskey Slim's Lost Grog|QID|580|M|77,77|Z|The Hinterlands|N|Start running south along the water towards Revantusk Village and watch for blue bottles to collect. Go until you have 12.|
-R Revantusk Village|ACTIVE|580|M|77,77|Z|The Hinterlands|N|Ride to Revantusk Village.|
-f Revantusk Village|ACTIVE|580|M|81.69,81.78|Z|The Hinterlands|N|Get the Revantusk Village flight path.|TAXI|-Revantusk Village|
+A Ripple Recovery|QID|649|M|59.49,36.56|Z|Orgrimmar|N|From Dran Droffers at Droffers and Son Salvage, in the Drag near the Valley of Honor.|
+T Ripple Recovery|QID|649|M|59.64,36.94|Z|Orgrimmar|N|To Malton Droffers standing next to you.|
+A Ripple Recovery|QID|650|M|59.64,36.94|Z|Orgrimmar|N|From Malton Doffers.|PRE|649|
+T A Grim Discovery|QID|2976|M|75.26,34.25|Z|Orgrimmar|N|To Belgrom Rockmaul in the Valley of Honor.|
+F Ratchet|ACTIVE|2874|M|45.2,63.8|Z|Orgrimmar|N|At Doras, Wind Rider Master.|
+b Booty Bay|ACTIVE|2874|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+T Deliver to MacKinley|QID|2874|M|27.78,77.07|N|To "Sea Wolf" MacKinley.|
+F Grom'gol|AVAILABLE|2995|M|26.87,77.09|Z|Stranglethorn Vale|
+b Tirisfal Glades|AVAILABLE|2995|M|31.57,29.15|Z|Stranglethorn Vale|
+R Undercity|AVAILABLE|2995|M|61.86,65.04|Z|Tirisfal Glades|
+A Lines of Communication|QID|2995|M|73.07,32.85|Z|Undercity|N|From Oran Snakewrithe in an alcove just off the inner ring of the Mage Quarter.|
+F Tarren Mill|ACTIVE|650|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|IZ|1458;Undercity^1420;Tirisfal Glades|
+R Durnholde Keep|ACTIVE|650|M|77.17,27.75|Z|Hillsbrad Foothills|N|Exiting Tarren Mill from the northeast corner, cross the river and head east into the mountains.|
+R The Hinterlands|ACTIVE|650|M|83.5,32.4;89.93,25.01|CC|Z|Hillsbrad Foothills|N|Exit Tarren Mill from the northeast to cross the river which leads to the Hinterlands.|
+R Aerie Peak|ACTIVE|650|M|12.22,50.60|Z|The Hinterlands|N|Follow the road down the mountain slope.\n[color=FF0000]NOTE: [/color]Aerie Peak is Alliance controlled.|
+R Shindigger's Camp|ACTIVE|650|M|20.2,48.3;25.05,46.96|CC|Z|The Hinterlands|N|While avoiding Aerie Peak, make your way across to the path leading up into the hills and follow it to the top.|
+T Ripple Recovery|QID|650|M|26.71,48.60|Z|The Hinterlands|N|To Gilveradin Sunchaser.|
+A A Sticky Situation|QID|77|M|26.71,48.60|Z|The Hinterlands|N|From Gilveradin Sunchaser.|PRE|650|
+l Natural Materials|ACTIVE|3128|QO|3;4|N|Kill Hippogryphs to collect the Resilient Sinew.\nKill Owlbeasts to collect the Fragments and Sinews.|S|
+C Testing the Vessel|QID|3123|L|9594 10|N|Kill Owlbeasts and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|S|
+R Quel'Danil Lodge|ACTIVE|3123|M|31.91,51.93|Z|The Hinterlands|N|Head back down and follow the hill eastward until you see the road.|
+R Hiri'watha|ACTIVE|3123|M|33.31,54.60|Z|The Hinterlands|N|From here, head south over the hill to the road.
+R Agol'watha|ACTIVE|3123|M|47.74,45.28|Z|The Hinterlands|N|Follow the road east from the fork to the next fork.|
+R The Overlook Cliffs|ACTIVE|626|M|48.7,39.4;80.8,46.8|CC|Z|The Hinterlands|N|Continue north to the water and then east to the waterfall.\n[color=FF0000]NOTE: [/color]You'll have to swim past Skulk Rock.|
+T Cortello's Riddle|QID|626|M|80.81,46.79|Z|The Hinterlands|N|Find Cortell's Chest near the bottom of the waterfall.\n[color=FF0000]NOTE: [/color]There is a path, at 70,63 but it's faster to jump off one of the rocks hanging over the top of the falls. Don't miss the water below!|
+C Whiskey Slim's Lost Grog|QID|580|M|80.78,46.81|Z|The Hinterlands|L|3900 12|N|Swim to shore and make your way south along the water towards Revantusk Village collecting the blue bottles.|
+R Revantusk Village|ACTIVE|580|M|80.78,46.81|Z|The Hinterlands|
+f Revantusk Village|ACTIVE|580|M|81.71,81.75|Z|The Hinterlands|N|From Gorkas, at the end of the dock.|TAXI|-Revantusk Village|
 A Snapjaws, Mon!|QID|7815|M|80.3,81.4|Z|The Hinterlands|
 A Gammerita, Mon!|QID|7816|M|80.3,81.4|Z|The Hinterlands|ELITE|N|[color=FF8000]Elite: [/color]\nOnly pick this quest up if you are likely to have help (other players in the area).|PRE|7815|RANK|3|
 A Lard Lost His Lunch|QID|7840|M|78.2,81.3|Z|The Hinterlands|N|From Lard.|
@@ -615,6 +629,7 @@ A Cannibalistic Cousins|QID|7844|M|78.8,78.2|Z|The Hinterlands|N|From Mystic Yay
 A Vilebranch Hooligans|QID|7839|M|77.5,80.3|Z|The Hinterlands|N|From Smith Slagtree.|
 C Gammerita, Mon!|QID|7816|M|77,77;81.8,49.8|CN|Z|The Hinterlands|N|Kill up to 15 other turtles while your looking for Gammerita. She roams between the waterfall and Revantusk Village.|
 C Snapjaws, Mon!|QID|7815|M|77,77;81.8,49.8|CN|Z|The Hinterlands|N|Kill Saltwater Snapjaws until you have 15.|
+C Testing the Vessel|QID|3123|L|9594 10|N|Kill Owlbeasts and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|US|
 N Quest log full?|ACTIVE|7815|N|Your quest log is pretty full at this point and you'll need space for one or two more quests in this run.|
 R Shaol'watha|ACTIVE|7839|M|77,61;72.6,53|CS|Z|The Hinterlands|QO|1|N|Ride to the path up the cliffs and on to Shaol'watha, killing silvermane stalkers and howlers as you go. Once there, look for Slagtree's Lost Tools.|
 K Trolls|ACTIVE|7839|M|71,48.6|Z|The Hinterlands|QO|1|N|Kill the trolls you find in and around the wooden bunker just north of Shaol'watha. Look for the tools here too. There's another bunker just northwest of this one, go there and clear it. Click off this step when you are done.|
@@ -696,8 +711,8 @@ T Oran's Gratitude|QID|8273|
 
 ; --Tanaris
 H Gadgetzan|ACTIVE|2641|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen.|
-T Sprinkle's Secret Ingredient|QID|2641|M|51.1,26.9|Z|Tanaris|N|To Sprinkle.|
-A Delivery for Marin|QID|2661|M|51.1,26.9|Z|Tanaris|N|From Sprinkle.|PRE|2641|
+T Sprinkle's Secret Ingredient|QID|2641|M|51.06,26.88|Z|Tanaris|N|To Sprinkle.|
+A Delivery for Marin|QID|2661|M|51.06,26.88|Z|Tanaris|N|From Sprinkle.|PRE|2641|
 T Delivery for Marin|QID|2661|M|51.8,28.6|Z|Tanaris|N|To Marin Noggenfogger.|
 A Noggenfogger Elixir|QID|2662|M|51.8,28.6|Z|Tanaris|N|From Marin Noggenfogger.|PRE|2661|
 T Noggenfogger Elixir|QID|2662|M|51.8,28.6|Z|Tanaris|N|Wait 5 seconds and turn this in to Marin.|
@@ -771,12 +786,8 @@ F Orgrimmar|ACTIVE|32|M|75.4,44.2|Z|Feralas|N|At Shyn, Wind Rider Master.|
 h Orgrimmar|ACTIVE|32|
 T Rise of the Silithid|QID|32|M|56.5,46.5|Z|Orgrimmar|N|Go left immediately after entering the Drag.|
 A March of the Silithid|QID|4494|M|56.5,46.5|Z|Orgrimmar|N|Zilzibin Drumlore.|
-T Ripple Delivery|QID|81|M|59.5,36.8|Z|Orgrimmar|N|To Dran Droffers in The Drag.|
-T A Grim Discovery|QID|2976|M|75.2,34.2|Z|Orgrimmar|N|To Belgrom Rockmaul in the Valley of Honor.|
+T Ripple Delivery|QID|81|M|59.64,36.94|Z|Orgrimmar|N|To Dran Droffers in The Drag.|
 A Betrayed|QID|3504|M|75.2,34.2|Z|Orgrimmar|N|To Belgrom Rockmaul.|
-F Ratchet|ACTIVE|2874|M|45.2,63.8|Z|Orgrimmar|N|At Doras, Wind Rider Master.|
-b Booty Bay|ACTIVE|2874|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
-T Deliver to MacKinley|QID|2874|M|27.78,77.07|N|To "Sea Wolf" MacKinley, near the inn.|
 t Rescue OOX-22/FE!|QID|2767|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
 t Rescue OOX-09/HL!|QID|836|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
 t Rescue OOX-17/TN!|QID|648|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
