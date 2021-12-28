@@ -262,11 +262,12 @@ T Overlord|QID|10400|N|To Force Commander Danath Trollbane.|M|56.63,66.64|
 N Check for Upgrades|ACTIVE|9427|M|56.7,62.58|N| Now that you should be Honored with Honor Hold you might want to check the quartermaster for upgrades.|
 F Temple of Telhamat|ACTIVE|9427|M|54.68,62.35|N|Fly to Temple of Telhamat.|
 T Cleansing the Waters|QID|9427|M|23.42,36.55|N|To Amaan the Wise.|
+C Demonic Contamination|QID|9372|QO|1|M|22.41,55.22|N|Kill Hulking Helboars to get the samples for this quest.|US|
 T Demonic Contamination|QID|9372|M|15.71,52.08|N|To Thiah Redmane.|
 A Testing the Antidote|QID|10255|PRE|9372|M|15.71,52.08|N|From Thiah Redmane.|
 C Testing the Antidote|N|Find a Hulking Helboar and use the Antidote after getting it to low health.|QID|10255|M|27.50,40.20|U|23337|
 T Testing the Antidote|QID|10255|M|15.71,52.08|N|To Thiah Redmane.|
-l Sha'naar Relics|N|Grab the 10 relics needed for this quest.|QID|9430|M|15.1,55.7|S|L|23642 10|
+l Sha'naar Relics|N|Grab the 10 relics needed for this quest.|ACTIVE|9430|QO|1|M|15.1,55.7|S|L|23642 10|
 C Cruel Taskmasters|N|Kill the 10 Taskmasters needed for this quest.|QID|9399|M|15.1,55.7|S|
 A Naladu|N|From Akoru the Firecaller.|QID|10403|LEAD|10367|M|15.61,58.76|
 T Naladu|QID|10403|M|16.3,65.1|N|To Naladu.|
@@ -279,9 +280,9 @@ N Free Aylaan|N|Free Aylaan here.|QID|10368|QO|3|M|13.00,58.40|; Aylaan Freed: 1
 C The Dreghood Elders|N|Free Akoru here.|QID|10368|M|15.50,58.75|
 T The Dreghood Elders|QID|10368|M|16.3,65.1|N|To Naladu.|
 A Arzeth's Demise|QID|10369|PRE|10368|M|16.3,65.1|N|From Naladu.|
-C Arzeth's Demise|N|Use the Staff of the Dreghood Elders on Azreth to turn him into a non-elite, then kill him.|QID|10369|M|14.25,61.50|
+C Arzeth's Demise|N|Use the Staff of the Dreghood Elders on Azreth to turn him into a non-elite, then kill him.|QID|10369|M|14.25,61.50|U|29513|
 T Arzeth's Demise|QID|10369|M|16.3,65.1|N|To Naladu.|
-l Sha'naar Relics|N|Grab the 10 relics needed for this quest.|QID|9430|M|15.1,55.7|US|L|23642 10|
+l Sha'naar Relics|N|Grab the 10 relics needed for this quest.|ACTIVE|9430|QO|1|M|15.1,55.7|US|L|23642 10|
 C Cruel Taskmasters|QID|9399|M|15.1,55.7|N|Kill the 10 Taskmasters needed for this quest.|US|
 C Keep Thornfang Hill Clear!|N|Kill the Ravagers and Venomspitters for this quest.|QID|10159|M|10.00,52.00|
 T Keep Thornfang Hill Clear!|QID|10159|M|15.95,52.19|N|To Mahuram Stouthoof.|
@@ -291,7 +292,7 @@ A The Seer's Relic|QID|9545|PRE|9430|M|23.42,36.55|N|From Amaan the Wise.|
 C The Seer's Relic|QID|9545|M|26.90,37.40|N|Go here and use the Seer's Relic and wait for the quest completion.|U|23645|
 T The Seer's Relic|QID|9545|M|23.42,36.55|N|To Amaan the Wise.|
 h Temple of Telhamat|M|23.23,36.5|N|At Caregiver Ophera Windfury.|
-F Shattrath City|M|25.18,37.22|N|Fly to Shattrath to visit you trainers, AH, etc.|
+F Shattrath|M|25.18,37.22|N|Fly to Shattrath to visit you trainers, AH, etc.|
 H Temple of Telhamat|N|Hearth back to the Temple of Telhamat, this is will continue to the next guide.|
 ]]
 end)
