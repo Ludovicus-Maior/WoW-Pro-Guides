@@ -610,107 +610,125 @@ T Ripple Recovery|QID|650|M|26.71,48.60|Z|The Hinterlands|N|To Gilveradin Suncha
 A A Sticky Situation|QID|77|M|26.71,48.60|Z|The Hinterlands|N|From Gilveradin Sunchaser.|PRE|650|
 l Natural Materials|ACTIVE|3128|QO|3;4|N|Kill Hippogryphs to collect the Resilient Sinew.\nKill Owlbeasts to collect the Fragments and Sinews.|S|
 C Testing the Vessel|QID|3123|L|9594 10|N|Kill Owlbeasts and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|S|
-R Quel'Danil Lodge|ACTIVE|3123|M|31.91,51.93|Z|The Hinterlands|N|Head back down and follow the hill eastward until you see the road.|
-R Hiri'watha|ACTIVE|3123|M|33.31,54.60|Z|The Hinterlands|N|From here, head south over the hill to the road.
-R Agol'watha|ACTIVE|3123|M|47.74,45.28|Z|The Hinterlands|N|Follow the road east from the fork to the next fork.|
-R The Overlook Cliffs|ACTIVE|626|M|48.7,39.4;80.8,46.8|CC|Z|The Hinterlands|N|Continue north to the water and then east to the waterfall.\n[color=FF0000]NOTE: [/color]You'll have to swim past Skulk Rock.|
+R Quel'Danil Lodge|AVAILABLE|7815|M|31.91,51.93|Z|The Hinterlands|N|Head back down and follow the hill eastward until you see the road.|IZ|-The Overlook Cliffs^-Revantusk Village|
+R Hiri'watha|AVAILABLE|7815|M|33.31,54.60|Z|The Hinterlands|N|From here, head south over the hill to the road.|IZ|-The Overlook Cliffs;-Revantusk Village|
+R Agol'watha|AVAILABLE|7815|M|47.74,45.28|Z|The Hinterlands|N|Follow the road east from the fork to the next fork.|IZ|-The Overlook Cliffs;-Revantusk Village|
+R The Overlook Cliffs|AVAILABLE|7815|M|48.7,39.4;80.8,46.8|CC|Z|The Hinterlands|N|Continue north to the water and then east to the waterfall.\n[color=FF0000]NOTE: [/color]You'll have to swim past Skulk Rock.|
+C Whiskey Slim's Lost Grog|QID|580|AVAILABLE|626|M|80.78,46.81|Z|The Hinterlands|L|3900 12|N|Jump off one of the rocks hanging over the top of the waterfall and swim to shore. Make your way south along the shore towards Revantusk Village collecting the blue bottles off the ground.|
 T Cortello's Riddle|QID|626|M|80.81,46.79|Z|The Hinterlands|N|Find Cortell's Chest near the bottom of the waterfall.\n[color=FF0000]NOTE: [/color]There is a path, at 70,63 but it's faster to jump off one of the rocks hanging over the top of the falls. Don't miss the water below!|
-C Whiskey Slim's Lost Grog|QID|580|M|80.78,46.81|Z|The Hinterlands|L|3900 12|N|Swim to shore and make your way south along the water towards Revantusk Village collecting the blue bottles.|
-R Revantusk Village|ACTIVE|580|M|80.78,46.81|Z|The Hinterlands|
-f Revantusk Village|ACTIVE|580|M|81.71,81.75|Z|The Hinterlands|N|From Gorkas, at the end of the dock.|TAXI|-Revantusk Village|
-A Snapjaws, Mon!|QID|7815|M|80.33,81.54|Z|The Hinterlands|
-A Gammerita, Mon!|QID|7816|M|80.3,81.4|Z|The Hinterlands|ELITE|N|[color=FF8000]Elite: [/color]\nOnly pick this quest up if you are likely to have help (other players in the area).|RANK|3|
-A Lard Lost His Lunch|QID|7840|M|78.2,81.3|Z|The Hinterlands|N|From Lard.|
-A Stalking the Stalkers|QID|7828|M|79.2,79.5|Z|The Hinterlands|N|From Huntsman Markhor.|
-A Hunt the Savages|QID|7829|M|79.2,79.5|Z|The Hinterlands|N|From Huntsman Markhor.|
-A Avenging the Fallen|QID|7830|M|79.2,79.5|Z|The Hinterlands|N|From Huntsman Markhor.|
-A Message to the Wildhammer|QID|7841|M|79.4,79.1|Z|The Hinterlands|N|From Otho Moji'ko.|
-A Cannibalistic Cousins|QID|7844|M|78.8,78.2|Z|The Hinterlands|N|From Mystic Yayo'jin.|
-A Vilebranch Hooligans|QID|7839|M|77.5,80.3|Z|The Hinterlands|N|From Smith Slagtree.|
-C Gammerita, Mon!|QID|7816|M|77,77;81.8,49.8|CN|Z|The Hinterlands|N|Kill up to 15 other turtles while your looking for Gammerita. She roams between the waterfall and Revantusk Village.|
-C Snapjaws, Mon!|QID|7815|M|77,77;81.8,49.8|CN|Z|The Hinterlands|N|Kill Saltwater Snapjaws until you have 15.|
-C Testing the Vessel|QID|3123|L|9594 10|N|Kill Owlbeasts and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|US|
-N Quest log full?|ACTIVE|7815|N|Your quest log is pretty full at this point and you'll need space for one or two more quests in this run.|
-R Shaol'watha|ACTIVE|7839|M|77,61;72.6,53|CS|Z|The Hinterlands|QO|1|N|Ride to the path up the cliffs and on to Shaol'watha, killing silvermane stalkers and howlers as you go. Once there, look for Slagtree's Lost Tools.|
-K Trolls|ACTIVE|7839|M|71,48.6|Z|The Hinterlands|QO|1|N|Kill the trolls you find in and around the wooden bunker just north of Shaol'watha. Look for the tools here too. There's another bunker just northwest of this one, go there and clear it. Click off this step when you are done.|
+C Whiskey Slim's Lost Grog|QID|580|M|80.78,46.81|Z|The Hinterlands|L|3900 12|N|Swim to shore and make your way south along the shore towards Revantusk Village collecting the blue bottles off the ground.|
+R Revantusk Village|AVAILABLE|7815|M|76.46,75.37|Z|The Hinterlands|
+f Revantusk Village|AVAILABLE|7815|M|81.71,81.75|Z|The Hinterlands|N|From Gorkas, at the end of the dock.|TAXI|-Revantusk Village|
+A Snapjaws, Mon!|QID|7815|M|80.33,81.54|Z|The Hinterlands|N|From Katroom the Angler, on the dock.|
+A Gammerita, Mon!|QID|7816|M|80.33,81.54|Z|The Hinterlands|N|From Katroom the Angler.|
+A Lard Lost His Lunch|QID|7840|M|78.14,81.39|Z|The Hinterlands|N|From Lard.|
+A Stalking the Stalkers|QID|7828|M|79.16,79.53|Z|The Hinterlands|N|From Huntsman Markhor.|
+A Hunt the Savages|QID|7829|M|79.16,79.53|Z|The Hinterlands|N|From Huntsman Markhor.|
+A Avenging the Fallen|QID|7830|M|79.16,79.53|Z|The Hinterlands|N|From Huntsman Markhor.|
+A Message to the Wildhammer|QID|7841|M|79.39,79.08|Z|The Hinterlands|N|From Otho Moji'ko.|
+A Cannibalistic Cousins|QID|7844|M|78.80,78.26|Z|The Hinterlands|N|From Mystic Yayo'jin.|
+A Vilebranch Hooligans|QID|7839|M|77.52,80.35|Z|The Hinterlands|N|From Smith Slagtree.|
+K Gammerita|ACTIVE|7816|M|81.8,49.8|Z|The Hinterlands|QO|1|N|Gammerita roams between the waterfall and Revantusk Village.|T|Gammerita|S|
+K Snapjaws|ACTIVE|7815|M|81.80,49.77|Z|The Hinterlands|QO|1|N|Kill Saltwater Snapjaws.|S|
+C Lard Lost His Lunch|QID|7840|M|84.47,41.22|Z|The Hinterlands|L|19034|N|Swim out to the island northeast of the waterfall and locate Lard's Picnic Basket. Click the basket, to spawn two level 49 Vilebranch Kidnappers. Kill one of them to loot Lard's Lunch.\n[color=FF0000]NOTE: [/color]They both drop it, so you bail as soon as you kill one of them.|
+K Gammerita|ACTIVE|7816|M|81.9,49.7;80.78,46.81|CC|Z|The Hinterlands|QO|1|N|Gammerita roams between the waterfall and Revantusk Village.|T|Gammerita|US|
+K Snapjaws|ACTIVE|7815|M|76.34,70.76|Z|The Hinterlands|QO|1|N|Kill Saltwater Snapjaws.|US|
+R Revantusk Village|ACTIVE|7815|M|76.46,75.37|Z|The Hinterlands|
+T Lard Lost His Lunch|QID|7840|M|78.14,81.39|Z|The Hinterlands|N|To Lard.|
+T Snapjaws, Mon!|QID|7815|M|80.33,81.54|Z|The Hinterlands|
+T Gammerita, Mon!|QID|7816|M|80.33,81.54|Z|The Hinterlands|
+K Silvermane Stalker|ACTIVE|7828|M|80,48|Z|The Hinterlands|QO|1|S|
+R Shaol'watha|ACTIVE|7839|M|77.0,61.0;72.4,66.3;71.24,55.69|CC|Z|The Hinterlands|N|Head to the path leading back up the cliffs and follow it up to Shaol'watha.|
+C Slagtree's Lost Tools|ACTIVE|7839|M|72.55,52.24|Z|The Hinterlands|L|19033|S|
+K Cannibalistic Cousins|ACTIVE|7844|M|70.96,48.05|Z|The Hinterlands|QO|1;2|N|Kill the required Vilebranch trolls.|S|
+K Silvermane Stalker|ACTIVE|7828|M|80,48|Z|The Hinterlands|QO|1|US|
+C Slagtree's Lost Tools|ACTIVE|7839|M|72.6,52.9;71.0,48.6;66.4,44.8|CC|Z|The Hinterlands|L|19033|N|Check the 3 locations for the Tools.\n[color=FF0000]NOTE: [/color]If it's not at one of these locations, manually check off this step to continue.|US|IZ|-Skulk Rock|
 K Razorbeak Skylord|ACTIVE|7830|M|59.4,53.7|Z|The Hinterlands|QO|1|N|Keep your eye out for a somewhat rare Razorbeak Skylord.|T|Razorbeak Skylord|S!US|
-R Skulk Rock|ACTIVE|7829|M|57.4,42.6|Z|The Hinterlands|QO|1|N|On the way to Skull Rock, hunt Savage Owlbeasts, Silvermane Stalkers and Razorbeak Skylord as needed. If you don't get enough, we'll be back later. Clear slimes on top of skulk rock and look for Slagtree's Lost Tools (if you haven't found them already).|
-K Trolls|ACTIVE|7839|M|70.8,49.5;58,43;54,40|CN|Z|The Hinterlands|QO|1|N|Clear slimes and look for Slagtree's Lost Tools (if you haven't found them already). West of Skulk Rock you should find another of those wooden bunkers, clear it.|
-R Agol'watha|ACTIVE|77|M|46,40|Z|The Hinterlands|N|Ride to Agol'watha and clear Oozes and look for Horde Supply Crates.|
-C A Sticky Situation|QID|77|M|47.2,40.3|Z|The Hinterlands|N|Open Horde Supply Crates until you've 10 bottles of Hinterlands Honey Ripple. There's a crate outside too.|
-C Vilebranch Hooligans|QID|7839|M|53.3,38.8;66.4,44.7|CN|Z|The Hinterlands|N|You should have found Smith Slagtree's tools by now, if not, there are two more places to look, if still no tools, you mucst have missed them, go back to Shaol'watha and Skulk Rock and look again.|
-R Quel'Danil Lodge|ACTIVE|7841|M|34.00,48.00|Z|The Hinterlands|N|Kill Silvermane Howlers you see on the way. Don't enter the lodge yet.|
-C Lines of Communication|QID|2995|M|29.6,48.6|Z|The Hinterlands|QO|2|NC|N|Go behind western corner of lodge. The Notes are by the well|
-C Lines of Communication|QID|2995|M|28.6,46.2|Z|The Hinterlands|QO|3|NC|N|The Report is under the gazebo|
-C Lines of Communication|QID|2995|M|31.9,46.9|Z|The Hinterlands|QO|1|NC|N|Clear and enter the lodge to get the Records in the east wing.|
-A Rin'ji is Trapped!|QID|2742|M|37.80,47.10|Z|The Hinterlands|ELITE|N|[color=80FF00]Escort Quest:[/color]\nEscort Rin'ji to safety. He's a fair tank and you can heal him but it's best to clear as many elves as possible before starting this quest so you don't get adds during the ambush attack. Accept quest when you are ready for a big fight. (cooldowns available)|
-C Rin'ji is Trapped!|QID|2742|M|30.7,47.0|Z|The Hinterlands|N|Once Rin'ji's safe, he'll direct you to an island off the coast We will get to that later.|
-C Message to the Wildhammer|QID|7841|N|Go back to the lodge and kill the rest of the elves you need to make your point.|
-T A Sticky Situation|QID|77|M|20.2,48.3;26.7,48.6|CS|Z|The Hinterlands|N|To Gilveradin Sunchaser.|
-A Ripple Delivery|QID|81|M|26.7,48.6|Z|The Hinterlands|N|From Gilveradin Sunchaser.|PRE|77|
-R Valorwind Lake|ACTIVE|2641|M|40,61|Z|The Hinterlands|N|Ride to Valorwind Lake|
-C Sprinkle's Secret Ingredient|QID|2641|M|40.04,59.87|Z|The Hinterlands|N|Dive into the lake. On bottom is a mushroom named "Violet Tragan". Loot it but DON'T eat it by mistake or you'll have to run back here for another.|
-R The Altar of Zul|ACTIVE|7828|M|48,67|Z|The Hinterlands|N|Ride to Altar of Zul and, around the base, kill all the Soothsayers you need. We'll get the Scalpers elsewhere).|
-K Vilebranch Soothsayers|ACTIVE|7844|M|70.8,49.5|Z|The Hinterlands|QO|2|N|Kill Soothsayers until you have all you need, we'll have another chance at Scalpers later.|
-K Silvermane Howlers|ACTIVE|7828|M|70.3,58.9|Z|The Hinterlands|QO|1|N|Heading generally northeast, kill Silvermane Howlers until you have 10.|
-C Stalking the Stalkers|QID|7828|M|80,48|Z|The Hinterlands|N|Head generally northwest toward the waterfall, killing Silvermane Stalkers and Savage Owlbeasts until you've completed both quests.|
-C Hunt the Savages|QID|7829|N|Finish killing the rest of the Savage Owlbeasts.|
-C Cannibalistic Cousins|QID|7844|M|66,44|Z|The Hinterlands|N|Finish hunting trolls at the bunkers around for this quest.|
+K Savage Owlbeast|ACTIVE|7829|M|57.49,46.56|Z|The Hinterlands|QO|1|N|Kill the Savage Owlbeasts.|S|
+R Skulk Rock|ACTIVE|77|M|57.40,42.60|Z|The Hinterlands|
+C A Sticky Situation|QID|77|M|47.2,40.3|Z|The Hinterlands|L|8684 10|N|Open Horde Supply Crates until you're done.|S|
+C Slagtree's Lost Tools|ACTIVE|7839|M|57.4,42.4;53.3,38.8|CC|Z|The Hinterlands|L|19033|N|Check the 2 locations for the Tools.\n[color=FF0000]NOTE: [/color]If it's not at one of these locations, manually check off this step to continue.|IZ|-Shaol'watha|
+C Slagtree's Lost Tools|ACTIVE|7839|M|57.4,42.4;53.3,38.8|CC|Z|The Hinterlands|L|19033|N|Keep an eye out for the Tools.|S|
+K Silvermane Howler|ACTIVE|7828|M|40.72,52.10|Z|The Hinterlands|QO|2|S|
+R Agol'watha|ACTIVE|77|M|46,40|Z|The Hinterlands|
+C A Sticky Situation|QID|77|M|47.41,37.89;47.17,40.34;45.55,41.13;45.82,38.31|CC|Z|The Hinterlands|L|8684 10|N|Open Horde Supply Crates until you're done.\n[color=FF0000]NOTE: [/color]Follow the wall around the edge to avoid the slimes.\nThe crates respawn after 6 minutes.|US|
+C Testing the Vessel|QID|3123|M|38.82,45.21|Z|The Hinterlands|L|9594 10|N|Kill Owlbeasts and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|US|
+R Quel'Danil Lodge|ACTIVE|7841|M|34.00,48.00|Z|The Hinterlands|N|[color=FF0000]NOTE: [/color]Don't enter the lodge yet.|
+K Message to the Wildhammer|QID|7841|QO|1;2;3;4|N|Kill the Highvale Elves you require.|S|
+C Lines of Communication|QID|2995|M|29.63,48.66|Z|The Hinterlands|QO|2|N|Go behind the west corner of lodge and click The Highvale Report on the ground by the well.|NC|
+C Lines of Communication|QID|2995|M|28.55,46.05|Z|The Hinterlands|QO|3|N|Click the Highvale Report on the altar under the gazebo.|NC|
+C Lines of Communication|QID|2995|M|31.99,46.82|Z|The Hinterlands|QO|1|N|Enter the lodge from the northest corner by jumping up to the balcony and climbing over the railing. The Highvale Records are on the ground beside the barrels.|NC|
+A Rin'ji is Trapped!|QID|2742|M|30.73,46.97|Z|The Hinterlands|ELITE|N|[color=80FF00]Escort Quest:[/color]\nEscort Rin'ji to safety.\n[color=FF0000]NOTE: [/color]He's a fair tank and you can heal himself, but it's best to clear as many elves as possible before starting reduce adds during the ambush attack.|
+;A Rin'ji is Trapped!|QID|2742|M|30.73,46.97|Z|The Hinterlands|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Rin'ji to restart the quest.\n[color=FF0000]NOTE: [/color]Clear any respawns first.|FAIL|
+C Rin'ji is Trapped!|QID|2742|M|32.4,50.6;33.6,53.4;34.66,56.32|CC|Z|The Hinterlands|N|There are 2 ambushes along the way.\n[color=FF0000]NOTE: [/color]Let Rin'ji aggro any mobs you come across and kill them quick before you're ambushed.|
+K Message to the Wildhammer|QID|7841|QO|1;2;3;4|N|Finish killing the Highvale Elves you require.|US|
+R Shindigger's Camp|ACTIVE|77|M|20.2,48.3;25.05,46.96|CC|Z|The Hinterlands|
+T A Sticky Situation|QID|77|M|26.71,48.60|Z|The Hinterlands|N|To Gilveradin Sunchaser.|
+A Ripple Delivery|QID|81|M|26.71,48.60|Z|The Hinterlands|N|From Gilveradin Sunchaser.|PRE|77|
+R Valorwind Lake|ACTIVE|2641|M|24.3,47.4;20.2,48.3;40,61|CC|Z|The Hinterlands|N|Head back down southeast to Valorwind Lake.|IZ|1425;The Hinterlands|
+C Sprinkle's Secret Ingredient|QID|2641|M|40.04,59.87|Z|The Hinterlands|L|8526|N|Dive to the bottom of the lake and locate the "Violet Tragan".\n[color=FF0000]NOTE: [/color]You can only loot one at a time; make sure you don't eat it.|
+C Slagtree's Lost Tools|ACTIVE|7839|M|53.3,38.8;57.4,42.4;66.4,44.8;71.0,48.6;72.6,52.9|CC|Z|The Hinterlands|L|19033|N|Keep cycling through the waypoints until you find it.|US|
+R The Altar of Zul|ACTIVE|7844|M|44.18,62.43|Z|The Hinterlands|
+K Cannibalistic Cousins|ACTIVE|7844|M|47.10,65.71|Z|The Hinterlands|QO|1;2|N|Kill the required Vilebranch trolls.|US|
+K Silvermane Howler|ACTIVE|7828|M|45.40,54.60|Z|The Hinterlands|QO|2|N|Finish killing the Howlers.|US|
+K Savage Owlbeast|ACTIVE|7829|M|57.49,46.56|Z|The Hinterlands|QO|1|N|Finish killing the Savage Owlbeasts.|US|
+l Natural Materials|ACTIVE|3128|M|57.49,46.56|Z|The Hinterlands|QO|3;4|N|Finish collecting the Fragments and Sinews.|US|
+L Level Check|ACTIVE|2995|N|You need to be 7.5 bubbles from level 50. Grind out until you are.|LVL|49;-43850|
 A Find OOX-09/HL!|QID|485|N|If you found the OOX-09/HL Distress Beacon, right-click it to start this quest. Otherwise, skip the objective.|U|8704|
 t Find OOX-09/HL!|QID|485|M|49.35,37.65|Z|The Hinterlands|N|To OOX-09/HL.|
 A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|The Hinterlands|N|From OOX-09/HL.|PRE|485|
 C Rescue OOX-09/HL!|QID|836|N|Let the chicken lead the way, so he will stop when agro. It can be very difficult to solo. Ask the zone if anyone wants to do it with you. There are 2 preset ambushes. Abandon if you are having too many difficulties.|
-R The Overlook Cliffs|ACTIVE|2742|M|80,48|Z|The Hinterlands|N|Ride to the Waterfall and jump down again.|
-C Lard Lost His Lunch|QID|7840|M|84,41|Z|The Hinterlands|N|Swim out to a small island. Somewhere on the island you should find Lard's Picnic Basket . When you click the basket, 2 level 49 trolls will spawn. You don't have to kill both, just one is enough, they can all drop Lard's Lunch.|
-T Rin'ji is Trapped!|QID|2742|M|86,59|Z|The Hinterlands|N|Swim south back to the main land, after a little walk you should see another isle off shore, with a stone arch on top of it . Right click on the big tablet on the peak of the island to This quest.|
-A Rin'ji's Secret|QID|2782|M|86.3,59.0|Z|The Hinterlands|PRE|2742|
-R Revantusk Village|ACTIVE|7839|M|77,77|Z|The Hinterlands|N|Swim to shore and ride back to Revantusk Village.|
-T Vilebranch Hooligans|QID|7839|M|77.5,80.3|Z|The Hinterlands|
-T Cannibalistic Cousins|QID|7844|M|78.8,78.2|Z|The Hinterlands|N|To Mystic Yayo'jin.|
-N NOTE ELITE QUESTS|N|The next set of quests are for elites. if you don't want to see them, make sure you guide is set to RANK 1 in settings. Very Difficult to solo, leads to some dungeon quests and great rewards.|
-A Wanted: Vile Priestess Hexx and Her Minions|QID|7861|RANK|2|
-A Job Opening: Guard Captain of Revantusk Village|QID|7862|RANK|2|
-T Message to the Wildhammer|QID|7841|M|79.4,79.1|Z|The Hinterlands|N|To Otho Moji'ko. (skip followup)|
-T Stalking the Stalkers|QID|7828|M|79.2,79.5|Z|The Hinterlands|N|To Huntsman Markhor.|
-T Hunt the Savages|QID|7829|M|79.2,79.5|Z|The Hinterlands|N|To Huntsman Markhor.|
-T Avenging the Fallen|QID|7830|M|79.2,79.5|Z|The Hinterlands|N|To Huntsman Markhor.|
-A Separation Anxiety|QID|7849|N|From Huntsman Markhor.|RANK|2|
-T Lard Lost His Lunch|QID|7840|M|78.2,81.3|Z|The Hinterlands|N|To Lard.|
-A Kidnapped Elder Torntusk!|QID|7845|N|He's up above the inn.|RANK|2|
-A Dark Vessels|QID|7850|RANK|2|
-T Snapjaws, Mon!|QID|7815|M|80.3,81.4|Z|The Hinterlands|
-T Gammerita, Mon!|QID|7816|M|80.3,81.4|Z|The Hinterlands|
-
+R The Overlook Cliffs|ACTIVE|2742|M|80.80,46.80|Z|The Hinterlands|N|Make your way to the Waterfall.|
+T Rin'ji is Trapped!|QID|2742|M|86.31,59.02|Z|The Hinterlands|N|Swim to the island with the stone arch on top of it and click on the big tablet to turn in this quest.\n[color=FF0000]NOTE: [/color]Look for the dark coloered ground where you can climb up.|
+A Rin'ji's Secret|QID|2782|M|86.31,59.02|Z|The Hinterlands|N|From Rin'ji's Secret (The big tablet).|PRE|2742|
+R Revantusk Village|ACTIVE|7839|M|76.46,75.37|Z|The Hinterlands|N|Swim back to shore and continue on to Revantusk Village.|
+T Vilebranch Hooligans|QID|7839|M|77.52,80.35|Z|The Hinterlands|N|To Smith Slagtree.|
+T Cannibalistic Cousins|QID|7844|M|78.80,78.26|Z|The Hinterlands|N|To Mystic Yayo'jin.|
+A Wanted: Vile Priestess Hexx and Her Minions|QID|7861|M|79.06,78.99|Z|The Hinterlands|N|From Call to Arms!|RANK|3|
+A Job Opening: Guard Captain of Revantusk Village|QID|7862|M|79.06,78.99|Z|The Hinterlands|N|From Call to Arms!|RANK|3|
+T Message to the Wildhammer|QID|7841|M|79.39,79.08|Z|The Hinterlands|N|To Otho Moji'ko.|
+T Stalking the Stalkers|QID|7828|M|79.16,79.53|Z|The Hinterlands|N|To Huntsman Markhor.|
+T Hunt the Savages|QID|7829|M|79.16,79.53|Z|The Hinterlands|N|To Huntsman Markhor.|
+T Avenging the Fallen|QID|7830|M|79.16,79.53|Z|The Hinterlands|N|To Huntsman Markhor.|
+;; === Hendo72 - Eliminating the following quest block to reduce exp
+;;A Separation Anxiety|QID|7849|N|From Huntsman Markhor.|RANK|2|
+;;A Kidnapped Elder Torntusk!|QID|7845|M|78.20,81.17|Z|The Hinterlands|N|From Primal Torntusk on the 2nd floor of the inn.|RANK|3|
+;;A Dark Vessels|QID|7850|M|78.20,81.17|Z|The Hinterlands|N|From Primal Torntusk.|RANK|3|
+;;N Housekeeping|ACTIVE|2641^3123^81^2782^2995^580|N|Time to clear out the completed quests from other areas.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|1425;The Hinterlands|
+;;H Gadgetzan|ACTIVE|2641^3123^81^2782^2995^580|
 ;---these-are--elite-quests---Not-in-written-guide-------------------
-R Jintha'Alor|ACTIVE|7861|M|77,61;66,66|CS|Z|The Hinterlands|N|Put together a group of at least 3 your level or higher. (5 is better if you are all 49).|RANK|2|
-N Things to do|QID|7850|N|In this area, you'll be looking for Vessels of Tainted Blood as you go. Also kill Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters. You need nothing from the first two levels, so get to the third level as quickly as possible.|RANK|2|
-N Pile of Bones|QID|7849|M|62.2,75.5|Z|The Hinterlands|QO|1|N|At the top of the stairs to the top level, to the left is a pit with oozes. Fight your way through to the heart of the pit where you should see a pile of bones . Loot it.|RANK|2|
-N Pile of Skulls|QID|7849|M|58.6,64.9|Z|The Hinterlands|QO|2|N|On the top level, you'll see an altar with a troll lying on it. Don't go down into the pit yet but go around it until you see a stone gate with a path leading to the other pair of stairs and a cave. Follow that way until the very end where you should see an area shielded by stone walls (there should be two more of those on your way). You should see wolves in there. Kill them and loot the pile of bones inside.|RANK|2|
-T Kidnapped Elder Torntusk!|QID|7845|M|59,78|Z|The Hinterlands|N|Go back to the big stone pit with the quest npc. Clear your way into the pit and check next to the altar, there should be Vile Pristress Hexx (If she isn't there, she roamed into the cave but she'll come back). Single pull and clear as many trolls in that altar area as possible. The priestess casts an annoying polymorph spell, which doesn't break on damage, so watch out for that, try to interrupt it and burn her down quick. When you are full mana pull the priestess.|RANK|2|
-A Recover the Key!|QID|7846|PRE|7845|RANK|2|
-C Recover the Key!|QID|7846|M|57.5,86.5|Z|The Hinterlands|N|Now comes a rather difficult part, if you are confident that you can handle 3 mobs alone you can proceed solo, if you think you'd have difficulties, try to group up with someone. Go inside the tunnel behind the altar and fight your way through to the southernmost tip of the tunnel structure . There you should see Hitah'Ya the Keeper patrolling with two guards. Get full mana/hp. The trick here is to use crowd control (if you have, like ice trap, sheep, sap) and at the same time burn down Hitah'Ya as fast as possible (she has very little HP). Also pop your cooldown skills to burn down one of the guards as fast as possible. Once that is done you just need to deal with the other guard. Loot Hitah'Yah.|RANK|2|
-C The Ancient Egg|QID|4787|N|If you took the quest [51] The Ancient Egg, don't forget to get the egg off the pedestal in the center of the room Hitah'Ya the Keeper was in.|RANK|2|
-C Wanted: Vile Priestess Hexx and Her Minions|QID|7861|M|59,78|Z|The Hinterlands|N|Kill the Priestess if you haven't already, and any guards you still need.|RANK|2|
-T Recover the Key!|QID|7846|M|59,78|Z|The Hinterlands|N|Go back to the altar and The quest.|RANK|2|
-A Return to Primal Torntusk|QID|7847|M|59,78|Z|The Hinterlands|PRE|7846|RANK|2|
-C Dark Vessels|QID|7850|N|Finish getting any Vessels of Tainted Blood you still need, while killing any Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters you still need.|RANK|2|
-C Job Opening: Guard Captain of Revantusk Village|QID|7862|N|Finish killing Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters.|RANK|2|
-R Revantusk Village|ACTIVE|7849|M|77,77|Z|The Hinterlands|N|Now time for a suicide run. Mount up and jump down from terrace to terrace, if you survive, great! If you die, that's great too! Just release your spirit and take the spirit raise .|RANK|2|
-T Separation Anxiety|QID|7849|RANK|2|
-T Return to Primal Torntusk|QID|7847|RANK|2|
-T Wanted: Vile Priestess Hexx and Her Minions|QID|7861|RANK|2|
-T Job Opening: Guard Captain of Revantusk Village|QID|7862|RANK|2|
-T Dark Vessels|QID|7850|RANK|2|
+;;R Jintha'Alor|ACTIVE|7861|M|77,61;66,66|CS|Z|The Hinterlands|N|Put together a group of at least 3 your level or higher. (5 is better if you are all 49).|RANK|2|
+;;N Things to do|QID|7850|N|In this area, you'll be looking for Vessels of Tainted Blood as you go. Also kill Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters. You need nothing from the first two levels, so get to the third level as quickly as possible.|RANK|2|
+;;N Pile of Bones|QID|7849|M|62.2,75.5|Z|The Hinterlands|QO|1|N|At the top of the stairs to the top level, to the left is a pit with oozes. Fight your way through to the heart of the pit where you should see a pile of bones . Loot it.|RANK|2|
+;;N Pile of Skulls|QID|7849|M|58.6,64.9|Z|The Hinterlands|QO|2|N|On the top level, you'll see an altar with a troll lying on it. Don't go down into the pit yet but go around it until you see a stone gate with a path leading to the other pair of stairs and a cave. Follow that way until the very end where you should see an area shielded by stone walls (there should be two more of those on your way). You should see wolves in there. Kill them and loot the pile of bones inside.|RANK|2|
+;;T Kidnapped Elder Torntusk!|QID|7845|M|59,78|Z|The Hinterlands|N|Go back to the big stone pit with the quest npc. Clear your way into the pit and check next to the altar, there should be Vile Pristress Hexx (If she isn't there, she roamed into the cave but she'll come back). Single pull and clear as many trolls in that altar area as possible. The priestess casts an annoying polymorph spell, which doesn't break on damage, so watch out for that, try to interrupt it and burn her down quick. When you are full mana pull the priestess.|RANK|2|
+;;A Recover the Key!|QID|7846|PRE|7845|RANK|2|
+;;C Recover the Key!|QID|7846|M|57.5,86.5|Z|The Hinterlands|N|Now comes a rather difficult part, if you are confident that you can handle 3 mobs alone you can proceed solo, if you think you'd have difficulties, try to group up with someone. Go inside the tunnel behind the altar and fight your way through to the southernmost tip of the tunnel structure . There you should see Hitah'Ya the Keeper patrolling with two guards. Get full mana/hp. The trick here is to use crowd control (if you have, like ice trap, sheep, sap) and at the same time burn down Hitah'Ya as fast as possible (she has very little HP). Also pop your cooldown skills to burn down one of the guards as fast as possible. Once that is done you just need to deal with the other guard. Loot Hitah'Yah.|RANK|2|
+;;C The Ancient Egg|QID|4787|N|If you took the quest [51] The Ancient Egg, don't forget to get the egg off the pedestal in the center of the room Hitah'Ya the Keeper was in.|RANK|2|
+;;C Wanted: Vile Priestess Hexx and Her Minions|QID|7861|M|59,78|Z|The Hinterlands|N|Kill the Priestess if you haven't already, and any guards you still need.|RANK|2|
+;;T Recover the Key!|QID|7846|M|59,78|Z|The Hinterlands|N|Go back to the altar and The quest.|RANK|2|
+;;A Return to Primal Torntusk|QID|7847|M|59,78|Z|The Hinterlands|PRE|7846|RANK|2|
+;;C Dark Vessels|QID|7850|N|Finish getting any Vessels of Tainted Blood you still need, while killing any Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters you still need.|RANK|2|
+;;C Job Opening: Guard Captain of Revantusk Village|QID|7862|N|Finish killing Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters.|RANK|2|
+;;R Revantusk Village|ACTIVE|7849|M|76.46,75.37|Z|The Hinterlands|N|Now time for a suicide run. Mount up and jump down from terrace to terrace, if you survive, great! If you die, that's great too! Just release your spirit and take the spirit raise .|RANK|2|
+;;T Separation Anxiety|QID|7849|RANK|2|
+;;T Return to Primal Torntusk|QID|7847|RANK|2|
+;;T Wanted: Vile Priestess Hexx and Her Minions|QID|7861|RANK|2|
+;;T Job Opening: Guard Captain of Revantusk Village|QID|7862|RANK|2|
+;;T Dark Vessels|QID|7850|RANK|2|
 
 ;----------------------------------------------------------------------------
-L Level Check|ACTIVE|2995|LVL|49|N|You should now be level 49|
-F Undercity|ACTIVE|2995|N|Fly to the Undercity|
-T Lines of Communication|QID|2995|M|73.0,32.9|Z|Undercity|N|Head towards the Magic Quarter and turn the quest in to Oran Snakewrithe.|
-T Rin'ji's Secret|QID|2782|M|73.0,32.9|Z|Undercity|
-T Oran's Gratitude|QID|8273|
+F Undercity|ACTIVE|2995|M|81.71,81.75|Z|The Hinterlands|
+T Lines of Communication|QID|2995|M|73.07,32.85|Z|Undercity|N|To Oran Snakewrithe in the Magic Quarter.|
+T Rin'ji's Secret|QID|2782|M|73.07,32.85|Z|Undercity|N|To Oran Snakewrithe.|
+T Oran's Gratitude|QID|8273|M|73.07,32.85|Z|Undercity|N|To Oran Snakewrithe.|
+F Stonard|ACTIVE|2641|M|63.26,48.54|Z|Undercity|C|Shaman|
+P Silvermoon City|ACTIVE|2641|M|65.9,36.8;66.2,0.9;54.85,11.23|Z|1458;Undercity|CC|N|Take the elevator up and use the Orb of Translocation.|C|Hunter|
+P Moonglade|ACTIVE|2641|N|Use your Teleport: Moonglade.|C|Druid|
+= Level 50|ACTIVE|2641|N|Train your lv 50 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Druid,-Shaman,-Hunter|
 
 ; --Tanaris
-H Gadgetzan|ACTIVE|2641|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen.|
+H Gadgetzan|ACTIVE|2641|M|52.50,27.90|Z|Tanaris|
 T Sprinkle's Secret Ingredient|QID|2641|M|51.06,26.88|Z|Tanaris|N|To Sprinkle.|
 A Delivery for Marin|QID|2661|M|51.06,26.88|Z|Tanaris|N|From Sprinkle.|PRE|2641|
 T Delivery for Marin|QID|2661|M|51.8,28.6|Z|Tanaris|N|To Marin Noggenfogger.|
@@ -722,7 +740,7 @@ A Rescue OOX-17/TN!|QID|648|M|60.2,64.7|Z|Tanaris|N|At|PRE|351|
 C Rescue OOX-17/TN!|QID|648|N|Let the chicken in front, let him get hit first. Sometimes mobs will aggro him but not manage to hit him while he walks and they will just give up. The first part of the escort is the hardest as you will run into lvl 46-47 mobs. And at some point you will get an ambush of 3 level 46 scorpions. Use your long cooldown abilities there. After this, it gets easier. Later on you will get a 2nd ambush, 3 humanoids lvl 42 (green). One will be a shadow mage though, kill it first.|
 R The Gaping Chasm|ACTIVE|10|M|56,61|Z|Tanaris|N|Ride to the Gaping Chasm|
 C The Scrimshank Redemption|QID|10|M|55.65,70.25;55.78,68.90;56.52,68.64;57.57,70.55;57.57,71.39;55.95,71.12|CS|Z|Tanaris|N|Find the entrance spiralling down at first waypoint. Take the 2nd tunnel you see when going down the spiral, the one going north. At the first fork, inside the tunnel go right and then through the circular room. At the first fork, after the circular room go right. You will enter a big square room. The Scrimshank's Surveying Gear is at the western corner of the square room.|
-H Gadgetzan|ACTIVE|10|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen.|
+;;H Gadgetzan|ACTIVE|10|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen.|
 T The Scrimshank Redemption|QID|10|M|50.21,27.48|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
 A Insect Part Analysis|QID|110|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|10|
 T Insect Part Analysis|QID|110|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
