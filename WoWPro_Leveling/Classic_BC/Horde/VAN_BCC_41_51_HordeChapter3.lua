@@ -690,6 +690,7 @@ T Message to the Wildhammer|QID|7841|M|79.39,79.08|Z|The Hinterlands|N|To Otho M
 T Stalking the Stalkers|QID|7828|M|79.16,79.53|Z|The Hinterlands|N|To Huntsman Markhor.|
 T Hunt the Savages|QID|7829|M|79.16,79.53|Z|The Hinterlands|N|To Huntsman Markhor.|
 T Avenging the Fallen|QID|7830|M|79.16,79.53|Z|The Hinterlands|N|To Huntsman Markhor.|
+
 ;; === Hendo72 - Eliminating the following quest block to reduce exp
 ;;A Separation Anxiety|QID|7849|N|From Huntsman Markhor.|RANK|2|
 ;;A Kidnapped Elder Torntusk!|QID|7845|M|78.20,81.17|Z|The Hinterlands|N|From Primal Torntusk on the 2nd floor of the inn.|RANK|3|
@@ -722,13 +723,14 @@ F Undercity|ACTIVE|2995|M|81.71,81.75|Z|The Hinterlands|
 T Lines of Communication|QID|2995|M|73.07,32.85|Z|Undercity|N|To Oran Snakewrithe in the Magic Quarter.|
 T Rin'ji's Secret|QID|2782|M|73.07,32.85|Z|Undercity|N|To Oran Snakewrithe.|
 T Oran's Gratitude|QID|8273|M|73.07,32.85|Z|Undercity|N|To Oran Snakewrithe.|
-F Stonard|ACTIVE|2641|M|63.26,48.54|Z|Undercity|C|Shaman|
-P Silvermoon City|ACTIVE|2641|M|65.9,36.8;66.2,0.9;54.85,11.23|Z|1458;Undercity|CC|N|Take the elevator up and use the Orb of Translocation.|C|Hunter|
-P Moonglade|ACTIVE|2641|N|Use your Teleport: Moonglade.|C|Druid|
-= Level 50|ACTIVE|2641|N|Train your lv 50 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Druid,-Shaman,-Hunter|
+b Durotar|ACTIVE|2641|M|60.71,58.78|Z|Tirisfal Glades|N|Exit Undercity and take the Zeppelin back to Durotar.|
+R Orgrimmar|ACTIVE|2641|M|49.15,95.09|Z|Orgrimmar|N|Enter Orgrimmar by the front gate.|
+F Thunder Bluff|ACTIVE|2641|M|45.13,63.90|Z|Orgrimmar|C|Druid|
+= Level 50 training|ACTIVE|2641|N|Train your lv 50 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
 ; --Tanaris
-H Gadgetzan|ACTIVE|2641|M|52.50,27.90|Z|Tanaris|
+F Gadgetzan|ACTIVE|2641|M|49.15,95.09|Z|Orgrimmar|IZ|1454; Orgrimmar|
+F Gadgetzan|ACTIVE|2641|M|47.02,49.83|Z|Thunder Bluff|IZ|1456; Thunder Bluff|
 T Sprinkle's Secret Ingredient|QID|2641|M|51.06,26.88|Z|Tanaris|N|To Sprinkle.|
 A Delivery for Marin|QID|2661|M|51.06,26.88|Z|Tanaris|N|From Sprinkle.|PRE|2641|
 T Delivery for Marin|QID|2661|M|51.8,28.6|Z|Tanaris|N|To Marin Noggenfogger.|
@@ -739,18 +741,18 @@ t Find OOX-17/TN!|QID|351|M|60.2,64.7|Z|Tanaris|N|Find the chicken at , The ques
 A Rescue OOX-17/TN!|QID|648|M|60.2,64.7|Z|Tanaris|N|At|PRE|351|
 C Rescue OOX-17/TN!|QID|648|N|Let the chicken in front, let him get hit first. Sometimes mobs will aggro him but not manage to hit him while he walks and they will just give up. The first part of the escort is the hardest as you will run into lvl 46-47 mobs. And at some point you will get an ambush of 3 level 46 scorpions. Use your long cooldown abilities there. After this, it gets easier. Later on you will get a 2nd ambush, 3 humanoids lvl 42 (green). One will be a shadow mage though, kill it first.|
 R The Gaping Chasm|ACTIVE|10|M|56,61|Z|Tanaris|N|Ride to the Gaping Chasm|
-C The Scrimshank Redemption|QID|10|M|55.65,70.25;55.78,68.90;56.52,68.64;57.57,70.55;57.57,71.39;55.95,71.12|CS|Z|Tanaris|N|Find the entrance spiralling down at first waypoint. Take the 2nd tunnel you see when going down the spiral, the one going north. At the first fork, inside the tunnel go right and then through the circular room. At the first fork, after the circular room go right. You will enter a big square room. The Scrimshank's Surveying Gear is at the western corner of the square room.|
-;;H Gadgetzan|ACTIVE|10|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetzen.|
+C The Scrimshank Redemption|QID|10|M|55.65,70.25;55.78,68.90;56.52,68.64;57.57,70.55;57.57,71.39;55.95,71.16|CS|Z|Tanaris|L|8593|N|The entrance is spiralling down at the first waypoint. Enter the tunnel at the bottom of the spiral and turn right down the first tunnel into the circular room. Staying on the right side go through the circular room and turn right down the first tunnel into the big square room.\nThe Scrimshank's Surveying Gear is in an alcove at the western corner of the room.|
+H Gadgetzan|ACTIVE|10|M|52.50,27.90|Z|Tanaris|N|Hearth, or fight your way out; I choose hearth.|
 T The Scrimshank Redemption|QID|10|M|50.21,27.48|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
 A Insect Part Analysis|QID|110|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|10|
-T Insect Part Analysis|QID|110|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
-A Insect Part Analysis|QID|113|M|50.9,27.0|Z|Tanaris|N|From Alchemist Pestlezugg.|PRE|110|
+T Insect Part Analysis|QID|110|M|50.89,26.97|Z|Tanaris|N|To Alchemist Pestlezugg.|
+A Insect Part Analysis|QID|113|M|50.89,26.97|Z|Tanaris|N|From Alchemist Pestlezugg.|PRE|110|
 T Insect Part Analysis|QID|113|M|50.21,27.48|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
 A Rise of the Silithid|QID|32|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|113|
 
 ; -- Feralas
 F Camp Mojache|ACTIVE|3123|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|
-h Camp Mojache|ACTIVE|3123|M|74.8,45|Z|Feralas|N|Stop in the inn and set your hearthstone with Innkeeper Greul.|
+h Camp Mojache|ACTIVE|3123|M|74.8,45|Z|Feralas|N|At Innkeeper Greul.|
 r Repair, Restock, Sell Junk|ACTIVE|3123|
 T Testing the Vessel|QID|3123|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Hippogryph Muisek|QID|3124|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3123|
