@@ -472,7 +472,7 @@ T A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|Feralas|N|To Kreug Skullspitter.|
 A A Grim Discovery|QID|2974|M|75.95,42.73|Z|Feralas|N|From Kreug Skullspitter|PRE|2973|
 T The Ogres of Feralas|QID|2975|M|75.96,42.85;73.53,45.12|CC|Z|Feralas|N|To Rok Orthan.|US|
 r Restock, Repair, Sell Junk|ACTIVE|7731|N|Get ready for another circuit of quests.|IZ|Camp Mojache|
-C Splintered Log|ACTIVE|3128|L|9590 2|N|Kill Wandering Forest Walkers to loot these.|S|IZ|1444,Feralas|
+C Splintered Log|ACTIVE|3128|L|9590 2|N|Kill Wandering Forest Walkers to loot these.|S|IZ|1444;Feralas|
 R The Writhing Deep|ACTIVE|7731|M|71.3,49.0;75,60|CC|Z|Feralas|N|Head to Writhing Deep.|
 C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|Feralas|L|18961 20|N|Kill insects to loot the Zukk'Ash carapaces.|S|
 K Stinglasher|ACTIVE|7731|M|75.81,60.92|Z|Feralas|L|18962|N|Go to the eastern hive entrance and you should find Stinglasher roaming in and out of the entrance.|
@@ -751,32 +751,37 @@ T Insect Part Analysis|QID|113|M|50.21,27.48|Z|Tanaris|N|To Senior Surveyor Fizz
 A Rise of the Silithid|QID|32|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|113|
 
 ; -- Feralas
-F Camp Mojache|ACTIVE|3123|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|
-h Camp Mojache|ACTIVE|3123|M|74.8,45|Z|Feralas|N|At Innkeeper Greul.|
+F Camp Mojache|ACTIVE|3123|M|51.60,25.44|Z|Tanaris|
+h Camp Mojache|ACTIVE|3123|M|74.81,45.19|Z|Feralas|N|At Innkeeper Greul.|
 r Repair, Restock, Sell Junk|ACTIVE|3123|
 T Testing the Vessel|QID|3123|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Hippogryph Muisek|QID|3124|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3123|
-A Dark Heart|QID|3062|M|76.2,43.8|Z|Feralas|N|From Talo Thornhoof.|
-A Vengeance on the Northspring|QID|3063|M|76.2,43.8|Z|Feralas|N|From Talo Thornhoof.|
-A The Strength of Corruption|QID|4120|M|76.2,43.8|Z|Feralas|N|From Talo Thornhoof.|
+;A Dark Heart|QID|3062|M|76.2,43.8|Z|Feralas|N|From Talo Thornhoof.|
+;A Vengeance on the Northspring|QID|3063|M|76.2,43.8|Z|Feralas|N|From Talo Thornhoof.|
+;A The Strength of Corruption|QID|4120|M|76.2,43.8|Z|Feralas|N|From Talo Thornhoof.|
 A Improved Quality|QID|7734|M|74.4,42.9|Z|Feralas|N|From Talo Thornhoof.|PRE|2822|
-C Hippogryph Muisek|QID|3124|M|56,62|N|Head west along the road then south to the hippogryphs at waypoint. Kill them and use the Muisek Vessel on their corpses (after looting).|U|9619|
-C Gather Resilient Sinews|QID|3128|QO|3|NC|N|Stay here until you've got 20 Resilient Sinew, it drops off the Hippogryphs.|
-C Gather Metallic Fragments|QID|3128|QO|4=33|N|Get 33, we'll get the last 7 in a moment.|
-A Zapped Giants|QID|7003|M|45,44|Z|Feralas|N|Head west to Zorbin Fandazzle.|
-A Fuel for the Zapping|QID|7721|M|44.8,43.4|Z|Feralas|N|From Zorbin Fandazzle.|
-C Zapped Giants|QID|7003|M|44.6,51.4|Z|Feralas|U|18904|N|Head south along the coast and use the shrinker on the giants, then kill them. Kill water elementals as you go.|
-C Fuel for the Zapping|QID|7721|M|44.6,51.4|Z|Feralas|N|Keep going up and down the coast, getting any other water elementals you need.|
-T Zapped Giants|QID|7003|M|45,44|Z|Feralas|N|To Zorbin Fandazzle.|
-T Fuel for the Zapping|QID|7721|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle.|
-A Again With the Zapped Giants|QID|7725|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle. We aren't actually going to complete this. we just want the zapper for a later quest.|
+R Verdantis River|ACTIVE|2928^3124|M|63.76,51.09|Z|Feralas|N|Follow the road west out Camp Mojache to the Bridge over the river.|
+R High Wilderness|ACTIVE|2928^3124|M|58.38,52.84|Z|Feralas|N|Continue west along the road.|
+C Hippogryph Muisek|QID|3124|M|54.68,67.10|Z|Feralas|L|9595 10|N|Kill Hippogryphs and use the Muisek Vessel on their bodies to collect the Muisek.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.|U|9619|S|
+R Frayfeather Highlands|ACTIVE|2928^3124|M|59.3,53.7;54.68,67.10|CC|Z|Feralas|N|Make your way south from the road.\n[color=FF0000]NOTE: [/color]If you go to the Dire Maul intersection, just to the west of you, there is a 'path' headed south.|
+C Hippogryph Muisek|QID|3124|M|54.68,67.10|Z|Feralas|L|9595 10|N|Finish collecting the Musiek.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.|U|9619|US|
+;C Gather Resilient Sinews|QID|3128|QO|3|NC|N|Stay here until you've got 20 Resilient Sinew, it drops off the Hippogryphs.|
+;C Gather Metallic Fragments|QID|3128|QO|4=33|N|Get 33, we'll get the last 7 in a moment.|
+;A Zapped Giants|QID|7003|M|45,44|Z|Feralas|N|Head west to Zorbin Fandazzle.|
+;A Fuel for the Zapping|QID|7721|M|44.8,43.4|Z|Feralas|N|From Zorbin Fandazzle.|
+;C Zapped Giants|QID|7003|M|44.6,51.4|Z|Feralas|U|18904|N|Head south along the coast and use the shrinker on the giants, then kill them. Kill water elementals as you go.|
+;C Fuel for the Zapping|QID|7721|M|44.6,51.4|Z|Feralas|N|Keep going up and down the coast, getting any other water elementals you need.|
+;T Zapped Giants|QID|7003|M|45,44|Z|Feralas|N|To Zorbin Fandazzle.|
+;T Fuel for the Zapping|QID|7721|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle.|
+;A Again With the Zapped Giants|QID|7725|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle. We aren't actually going to complete this. we just want the zapper for a later quest.|
 H Camp Mojache|QID|3124|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Mojache.|
 T Hippogryph Muisek|QID|3124|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Faerie Dragon Muisek|QID|3125|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3124|
-C Faerie Dragon Muisek|QID|3125|M|68.70,49.00;68.90,44.95;67.05,47.72;70.11,46.81;64.88,48.05|CN|N|Head souht-west to the Sprite Darters. Kill them and use the Muisek Vessel on their corpses. Do not skin them skinners!|U|9620|
+C Faerie Dragon Muisek|QID|3125|M|68.14,47.97|Z|Feralas|L|9596 10|N|Kill Sprite Darters (near Grimtotem Compound) and use the Muisek Vessel on their corpses.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.\nDo not skin them either because they will disappear before you can use the Vessel!|U|9620|
+R Camp Mojache|ACTIVE|3125|M|73.12,47.44|Z|Feralas|
 T Faerie Dragon Muisek|QID|3125|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Treant Muisek|QID|3126|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3125|
-C Treant Muisek|QID|3126|M|71,57;58,48;57,73;73,40|CN|Z|Feralas|N|You're looking for Wandering Forest Walkers, which spawn and wander around near: The Grimtotem compound and Camp Mojache,The gnoll camps, Dire Maul, Hippogyph area.|U|9606|
+C Treant Muisek|QID|3126|M|73.2,54.6;53.8,47.0;57.4,73.2;73.95,39.52|CN|Z|Feralas|L|9593 3|N|Locate and kill Wandering Forest Walkers; using the Muisek Vessel on their corpses.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.\nThey spawn and wander around The Grimtotem Compound,  Camp Mojache, The gnoll camps, Dire Maul, and the Hippogyph area.|U|9606|
 T Treant Muisek|QID|3126|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Mountain Giant Muisek|QID|3127|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3126|
 A Find OOX-22/FE!|QID|2766|N|From Dropped item. somewhat rare, don't stress if you dont find it.|U|8705|
@@ -784,15 +789,15 @@ t Find OOX-22/FE!|QID|2766|M|52,57|Z|Feralas|N|To the OOX-22/FE in the yeti cave
 A Rescue OOX-22/FE!|QID|2767|M|52,57|Z|Feralas|N|From OOX-22/FE.|PRE|2766|
 C Rescue OOX-22/FE!|QID|2767|M|52,57|Z|Feralas|
 C Mountain Giant Muisek|QID|3127|M|48.6,45.4|N|Head northwest along the road to the dwarf camp at (42,25), then head northwest from there to find the giants. Use the shrinker on them and kill them, then use the muisek vessel (you'll need to put this on an action key since we are using the normal one for the shrinker).|U|18904|
-N Gather Splintered Logs|QID|3128|QO|1|N|There are treants in the area if you still need Splintered Logs.|
-T Again with the Zapped Giants|QID|7725|N|abandon (not turn in) this quest.|
-C Improved Quality|QID|7734|M|51.66,32.14|Z|Feralas|N|Head to the yeti cave to the southwest and gather 10 Rage Scar Yeti Hide from the yetis.|
-K Rage Scar Yetis|ACTIVE|7738|L|18972|N|Kill them until one drops a Perfect Yeti Hide.|
-A Perfect Yeti Hide|QID|7738|N|From item that just dropped.|U|18972|O|
-C Vengeance on the Northspring|QID|3063|M|41,12|Z|Feralas|N|Head to the Ruins of Ravenwind at waypoint. Kill the harpies.|
-K Harpies|ACTIVE|3062|M|41,12|Z|Feralas|L|9530|N|Continue until you get a Horn of Hatetalon.|
-C Dark Heart|QID|3062|M|40.67,8.3|Z|Feralas|N|Head to the stones at waypoint. HP/Mana up, then use the stand between them and use the Horn. Kill Edana.|U|9530|
-L Level Check|ACTIVE|3127|N|Grind to 50.|LVL|50|
+C Splintered Log|ACTIVE|3128|L|9590 2|N|Finish collecting the Logs.|US|
+;T Again with the Zapped Giants|QID|7725|N|abandon (not turn in) this quest.|
+;C Improved Quality|QID|7734|M|51.66,32.14|Z|Feralas|N|Head to the yeti cave to the southwest and gather 10 Rage Scar Yeti Hide from the yetis.|
+;K Rage Scar Yetis|ACTIVE|7738|L|18972|N|Kill them until one drops a Perfect Yeti Hide.|
+;A Perfect Yeti Hide|QID|7738|N|From item that just dropped.|U|18972|O|
+;C Vengeance on the Northspring|QID|3063|M|41,12|Z|Feralas|N|Head to the Ruins of Ravenwind at waypoint. Kill the harpies.|
+;K Harpies|ACTIVE|3062|M|41,12|Z|Feralas|L|9530|N|Continue until you get a Horn of Hatetalon.|
+;C Dark Heart|QID|3062|M|40.67,8.3|Z|Feralas|N|Head to the stones at waypoint. HP/Mana up, then use the stand between them and use the Horn. Kill Edana.|U|9530|
+;L Level Check|ACTIVE|3127|N|Grind to 50.|LVL|50|
 H Camp Mojache|ACTIVE|3127|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Mojache.|
 T Mountain Giant Muisek|QID|3127|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|
 T Natural Materials|QID|3128|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
