@@ -767,11 +767,11 @@ R Frayfeather Highlands|ACTIVE|2928^3124|M|59.3,53.7;54.68,67.10|CC|Z|Feralas|N|
 C Hippogryph Muisek|QID|3124|M|54.68,67.10|Z|Feralas|L|9595 10|N|Finish collecting the Musiek.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.|U|9619|US|
 ;C Gather Resilient Sinews|QID|3128|QO|3|NC|N|Stay here until you've got 20 Resilient Sinew, it drops off the Hippogryphs.|
 ;C Gather Metallic Fragments|QID|3128|QO|4=33|N|Get 33, we'll get the last 7 in a moment.|
-;A Zapped Giants|QID|7003|M|45,44|Z|Feralas|N|Head west to Zorbin Fandazzle.|
+A Zapped Giants|QID|7003|M|45,44|Z|Feralas|N|Head west to Zorbin Fandazzle.|
 ;A Fuel for the Zapping|QID|7721|M|44.8,43.4|Z|Feralas|N|From Zorbin Fandazzle.|
-;C Zapped Giants|QID|7003|M|44.6,51.4|Z|Feralas|U|18904|N|Head south along the coast and use the shrinker on the giants, then kill them. Kill water elementals as you go.|
+C Zapped Giants|QID|7003|M|44.6,51.4|Z|Feralas|U|18904|N|Head south along the coast and use the shrinker on the giants, then kill them. Kill water elementals as you go.|
 ;C Fuel for the Zapping|QID|7721|M|44.6,51.4|Z|Feralas|N|Keep going up and down the coast, getting any other water elementals you need.|
-;T Zapped Giants|QID|7003|M|45,44|Z|Feralas|N|To Zorbin Fandazzle.|
+T Zapped Giants|QID|7003|M|45,44|Z|Feralas|N|To Zorbin Fandazzle.|
 ;T Fuel for the Zapping|QID|7721|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle.|
 ;A Again With the Zapped Giants|QID|7725|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle. We aren't actually going to complete this. we just want the zapper for a later quest.|
 H Camp Mojache|QID|3124|M|74.8,45|Z|Feralas|N|Hearth or ride back to Camp Mojache.|
@@ -782,13 +782,18 @@ R Camp Mojache|ACTIVE|3125|M|73.12,47.44|Z|Feralas|
 T Faerie Dragon Muisek|QID|3125|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Treant Muisek|QID|3126|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3125|
 C Treant Muisek|QID|3126|M|73.2,54.6;53.8,47.0;57.4,73.2;73.95,39.52|CN|Z|Feralas|L|9593 3|N|Locate and kill Wandering Forest Walkers; using the Muisek Vessel on their corpses.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.\nThey spawn and wander around The Grimtotem Compound,  Camp Mojache, The gnoll camps, Dire Maul, and the Hippogyph area.|U|9606|
+R Camp Mojache|ACTIVE|3126|M|73.12,47.44|Z|Feralas|
 T Treant Muisek|QID|3126|M|74.42,43.36|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Mountain Giant Muisek|QID|3127|M|74.42,43.36|Z|Feralas|N|From Witch Doctor Uzer'i.|PRE|3126|
 A Find OOX-22/FE!|QID|2766|N|From Dropped item. somewhat rare, don't stress if you dont find it.|U|8705|
 t Find OOX-22/FE!|QID|2766|M|52,57|Z|Feralas|N|To the OOX-22/FE in the yeti cave.|
 A Rescue OOX-22/FE!|QID|2767|M|52,57|Z|Feralas|N|From OOX-22/FE.|PRE|2766|
 C Rescue OOX-22/FE!|QID|2767|M|52,57|Z|Feralas|
-C Mountain Giant Muisek|QID|3127|M|48.6,45.4|N|Head northwest along the road to the dwarf camp at (42,25), then head northwest from there to find the giants. Use the shrinker on them and kill them, then use the muisek vessel (you'll need to put this on an action key since we are using the normal one for the shrinker).|U|18904|
+R The Forgotten Coast|ACTIVE|3127|M|50.48,49.90|Z|Feralas|N|Follow the road west from Camp Mojache.|
+R The Twin Colossals|ACTIVE|3127|M|48.13,39.54|Z|Feralas|N|Continue following the road north.|
+R Gregan Brewspewer's Camp|ACTIVE|3127|M|47.79,24.54;45.03,25.17|CC|Z|Feralas|N|Continue along the road looking for the westerly path at the bottom of the hill.|
+
+C Mountain Giant Muisek|QID|3127|M|48.6,45.4|Z|Feralas|L|9597 7|N|Head northwest along the road to the dwarf camp at (42,25), then head northwest from there to find the giants. Use the shrinker on them and kill them, then use the muisek vessel (you'll need to put this on an action key since we are using the normal one for the shrinker).|U|9621|
 C Splintered Log|ACTIVE|3128|L|9590 2|N|Finish collecting the Logs.|US|
 ;T Again with the Zapped Giants|QID|7725|N|abandon (not turn in) this quest.|
 ;C Improved Quality|QID|7734|M|51.66,32.14|Z|Feralas|N|Head to the yeti cave to the southwest and gather 10 Rage Scar Yeti Hide from the yetis.|
