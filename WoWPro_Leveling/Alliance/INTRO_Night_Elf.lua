@@ -17,28 +17,28 @@ C Demonic Thieves|QID|28715|M|36.29,79.38|N|Collect Meltihar's Stolen Bags from 
 C Fel Moss Corruption|QID|28714|US|M|36.38,78.29|N|Finish killing Grells for Fel Moss.|
 T Demonic Thieves|QID|28715|M|45.95,72.88|N|To Melithar Staghelm.|
 T Fel Moss Corruption|QID|28714|M|46.30,73.50|N|To Ilthalaine.|
-A Priestess of the Moon|QID|28723|PRE|28714|N|From Ilthalaine.|R|NightElf|
-T Priestess of the Moon|QID|28723|M|42.50,50.49|N|To Dentaria Silverglade. Go outside behind the tree, between the two pools.|R|NightElf|
-A Iverron's Antidote|QID|28724|PRE|28723|M|42.50,50.49|N|From Dentaria Silverglade.|R|NightElf|
-C Iverron's Antidote|QID|28724|M|43.34,51.71|N|Around the pools.|R|NightElf|NC|
-T Iverron's Antidote|QID|28724|M|42.50,50.49|N|To Dentaria Silverglade.|R|NightElf|
+A Priestess of the Moon|QID|28723|PRE|28714|N|From Ilthalaine.|
+T Priestess of the Moon|QID|28723|M|42.50,50.49|N|To Dentaria Silverglade. Go outside behind the tree, between the two pools.|
+A Iverron's Antidote|QID|28724|PRE|28723|M|42.50,50.49|N|From Dentaria Silverglade.|
+C Iverron's Antidote|QID|28724|M|43.34,51.71|N|Around the pools.|NC|
+T Iverron's Antidote|QID|28724|M|42.50,50.49|N|To Dentaria Silverglade.|
 R Shadowthread Cave|ACTIVE|28725|M|39.15,30.51|N|Walk inside the Cave until Tarindrella appears.|
-A The Woodland Protector|QID|28725|PRE|28724|M|44.57,81.56|N|From Tarindrella.|R|NightElf|
-T The Woodland Protector|QID|28725|N|To Tarindrella.|R|NightElf|
-A Webwood Corruption|QID|28726|PRE|28725|N|From Tarindrella.|R|NightElf|
-C Webwood Corruption|QID|28726|M|38.93,6.89|N|Tarindrella will accompany you.|R|NightElf|
-T Webwood Corruption|QID|28726|N|Tarindrella should still be with you. Turn in to her.|R|NightElf|
-A Vile Touch|QID|28727|PRE|28726|N|From Tarindrella. She's still with you.|R|NightElf|
-C Vile Touch|QID|28727|QO|1|M|44.38,28.48|N|Kill Gilthyiss the Vile.|R|NightElf|
-T Vile Touch|QID|28727|N|To Tarindrella. She's still with you.|R|NightElf|
-A Signs of Things to Come|QID|28728|PRE|28727|NC|N|From Tarindrella. She'll teleport you back to Dentaria Silverglade.|R|NightElf|
-T Signs of Things to Come|QID|28728|M|42.50,50.49|N|To Dentaria Silverglade.|R|NightElf|
-A Teldrassil: Crown of Azeroth|QID|28729|PRE|28728|M|42.50,50.49|N|From Dentaria Silverglade.|R|NightElf|
-C Teldrassil: Crown of Azeroth|QID|28729|U|5185|M|50.29,33.54|N|Use the Phial at the moonwell.|R|NightElf|NC|
-T Teldrassil: Crown of Azeroth|QID|28729|M|42.50,50.49|N|To Dentaria Silverglade.|R|NightElf|
-A Precious Waters|QID|28730|PRE|28729|M|42.50,50.49|N|From Dentaria Silverglade.|R|NightElf|
-T Precious Waters|QID|28730|M|41.72,63.58;47.20,55.96|CS|N|Up the ramp to Tenaron Stormgrip.|R|NightElf|
-A Teldrassil: Passing Awareness|QID|28731|PRE|28730|M|47.20,55.96|N|From Tenaron Stormgrip.|R|NightElf|
+A The Woodland Protector|QID|28725|PRE|28724|M|44.57,81.56|N|From Tarindrella.|
+T The Woodland Protector|QID|28725|N|To Tarindrella.|
+A Webwood Corruption|QID|28726|PRE|28725|N|From Tarindrella.||
+C Webwood Corruption|QID|28726|M|38.93,6.89|N|Tarindrella will accompany you.|
+T Webwood Corruption|QID|28726|N|Tarindrella should still be with you. Turn in to her.|
+A Vile Touch|QID|28727|PRE|28726|N|From Tarindrella. She's still with you.|
+C Vile Touch|QID|28727|QO|1|M|44.38,28.48|N|Kill Gilthyiss the Vile.|
+T Vile Touch|QID|28727|N|To Tarindrella. She's still with you.|
+A Signs of Things to Come|QID|28728|PRE|28727|NC|N|From Tarindrella. She'll teleport you back to Dentaria Silverglade.|
+T Signs of Things to Come|QID|28728|M|42.50,50.49|N|To Dentaria Silverglade.|
+A Teldrassil: Crown of Azeroth|QID|28729|PRE|28728|M|42.50,50.49|N|From Dentaria Silverglade.|
+C Teldrassil: Crown of Azeroth|QID|28729|U|5185|M|50.29,33.54|N|Use the Phial at the moonwell.|NC|
+T Teldrassil: Crown of Azeroth|QID|28729|M|42.50,50.49|N|To Dentaria Silverglade.|
+A Precious Waters|QID|28730|PRE|28729|M|42.50,50.49|N|From Dentaria Silverglade.|
+T Precious Waters|QID|28730|M|41.72,63.58;47.20,55.96|CS|N|Up the ramp to Tenaron Stormgrip.|
+A Teldrassil: Passing Awareness|QID|28731|PRE|28730|M|47.20,55.96|N|From Tenaron Stormgrip.|
 r Aldrassil|QID|28731|M|49.40,65.85|N|Repair, restock and sell unwanted items @ Andiss just inside Aldrassil.|R|NightElf|
 A Dolanaar Delivery|QID|2159|M|54.56,84.72|N|From Porthannius.|
 A Zenn's Bidding|QID|488|Z|Teldrassil|M|59.55,49.20|N|From Zenn Foulhoof.|
@@ -51,8 +51,8 @@ A A Troubling Breeze|QID|475|Z|Teldrassil|M|55.70,51.94|N|From Athridas Bearmant
 T Dolanaar Delivery|QID|2159|Z|Teldrassil|M|55.40,52.24|N|To Innkeeper Keldamyr.|
 h Dolanaar|QID|475|Z|Teldrassil|M|55.40,52.24|N|At Innkeeper Keldamyr.|
 A Reminders of Home|QID|6344|Z|Teldrassil|M|56.67,53.47|N|From Nyoma.|R|NightElf|
-T Teldrassil: Passing Awareness|QID|28731|Z|Teldrassil|M|55.84,53.87|N|To Corithras Moonrage.|R|NightElf|
-A Teldrassil: The Refusal of the Aspects|QID|929|PRE|28731|Z|Teldrassil|M|55.84,53.87|N|From Corithras Moonrage.|R|NightElf|
+T Teldrassil: Passing Awareness|QID|28731|Z|Teldrassil|M|55.84,53.87|N|To Corithras Moonrage.|
+A Teldrassil: The Refusal of the Aspects|QID|929|PRE|28731|Z|Teldrassil|M|55.84,53.87|N|From Corithras Moonrage.|
 C Seek Redemption!|QID|489|Z|Teldrassil|M|53.96,56.91|N|Collect Fel Cones from the ground. They sparkle.|
 T Reminders of Home|QID|6344|Z|Teldrassil|M|55.47,50.51|N|To Fidelio.|R|NightElf|
 A To Darnassus|QID|6341|PRE|6344|Z|Teldrassil|M|55.47,50.51|N|From Fidelio.|R|NightElf|
@@ -64,7 +64,7 @@ A Return to Nyoma|QID|6343|PRE|6342|M|36.70,47.95|Z|Darnassus|N|From Leora.|R|Ni
 F Dolanaar|M|36.4,48|QID|6343|N|Fly back to Dolanaar.|R|NightElf|Z|Darnassus|
 T Return to Nyoma|QID|6343|Z|Teldrassil|M|56.71,53.50|N|To Nyoma.|R|NightElf|
 T Seek Redemption!|QID|489|Z|Teldrassil|M|59.56,49.19|N|To Zenn Foulhoof.|
-C Teldrassil: The Refusal of the Aspects|QID|929|U|5619|Z|Teldrassil|M|62.04,50.74|N|Fill the Jade Phial at the Moonwell.|R|NightElf|
+C Teldrassil: The Refusal of the Aspects|QID|929|U|5619|Z|Teldrassil|M|62.04,50.74|N|Fill the Jade Phial at the Moonwell.|
 T A Troubling Breeze|QID|475|Z|Teldrassil|M|64.58,51.20|N|To Gaerolas Talvethren.|
 A Gnarlpine Corruption|QID|476|PRE|475|Z|Teldrassil|M|64.58,51.20|N|From Gaerolas Talvethren.|
 C The Emerald Dreamcatcher|QID|2438|Z|Teldrassil|M|66.09,52.05|N|In the dresser.|
