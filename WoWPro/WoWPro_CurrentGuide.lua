@@ -94,12 +94,21 @@ frame:SetScript("OnShow", function()
         row.action = WoWPro:CreateAction(row, row.check)
         row.action.frame:SetScript("OnEnter", function()
             if row.index and WoWPro.why and WoWPro.why[row.index] then
-                tooltip:SetPoint("TOPLEFT", row, "BOTTOMLEFT", -10, 10)
+                tooltip:SetPoint("BOTTOMLEFT", row.action.frame, "TOPRIGHT", 2, -2)
                 tooltiptext:SetHeight(125)
+                -- Step Tooltip
                 if WoWPro.active[row.index] and not WoWPro.QID[row.index] then
-                    tooltiptext:SetText(("Step %d/ACTIVE %s: %s"):format(row.index, tostring(WoWPro.active[row.index]), tostring(WoWPro.why[row.index])))
+                    tooltiptext:SetText(("Step %d/ACTIVE %s: %s"):format(row.index, tostring(WoWPro.active[row.index]),
+                                                                         tostring(WoWPro.why[row.index])))
+                elseif not WoWPro.active[row.index] and WoWPro.QID[row.index] then
+                    tooltiptext:SetText(("Step %d/QID %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]),
+                                                                         tostring(WoWPro.why[row.index])))
+                elseif WoWPro.active[row.index] and  WoWPro.QID[row.index] then
+                    tooltiptext:SetText(("Step %d/QID %s/ACTIVE %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]),
+                                                                                tostring(WoWPro.active[row.index]),
+                                                                                tostring(WoWPro.why[row.index])))
                 else
-                    tooltiptext:SetText(("Step %d/QID %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]), tostring(WoWPro.why[row.index])))
+                    tooltiptext:SetText(("Step %d: %s"):format(row.index, tostring(WoWPro.why[row.index])))
                 end
                 tooltiptext:SetHeight(tooltiptext:GetStringHeight())
                 tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
