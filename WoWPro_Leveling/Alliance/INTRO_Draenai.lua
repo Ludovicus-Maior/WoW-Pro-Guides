@@ -1,8 +1,8 @@
-local guide = WoWPro:RegisterGuide("SnoAmmen0105", "Leveling", "Ammen Vale (Draenai)", "Snowflake", "Alliance")
+local guide = WoWPro:RegisterGuide("SnoAmmen0105", "Leveling", "Ammen Vale (Draenei)", "Snowflake", "Alliance")
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 2)
-WoWPro:GuideNickname(guide, "Draenai: Intro")
-WoWPro:GuideName(guide,"Draenai: Intro")
+WoWPro:GuideNickname(guide, "Draenei: Intro")
+WoWPro:GuideName(guide,"Draenei: Intro")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -41,17 +41,14 @@ T Healing the Lake|QID|9294|M|49.87,37.35|N|To Botanist Taerix.|
 A Vindicator Aldar|QID|10304|PRE|9294|LEAD|37444|M|49.87,37.35|N|From Botanist Taerix.|
 T Vindicator Aldar|QID|10304|M|50.65,48.73|N|Speak to Vindicator Aldar.|
 A Spare Parts|QID|37445|PRE|10302|M|50.51,47.87|N|From Technician Zhanaa.|
-A Inoculation|QID|37444|PRE|10302|M|50.65,48.73|N|From Vindicator Aldar.|R|-Draenei|
-A Inoculation|QID|9303|PRE|10302|M|50.65,48.73|N|From Vindicator Aldar.|R|Draenei|
+A Inoculation|QID|37444^9303|PRE|10302|M|50.65,48.73|N|From Vindicator Aldar.|
 r Sell junk and repair|QID|37445|N|At Mura, close this step when done.|M|49.99,47.15|
-C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|-Draenei|
-C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|R|Draenei|
+C Inoculation|QID|37444^9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|
 C Spare Parts|QID|37445|N|Into the hills, through the cave. The parts are spread all over the camp.|M|58,72|
-C Inoculation|QID|37444|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|-Draenei|
-C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|R|Draenei|
+C Inoculation|QID|37444^9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|
 H Ammen Vale|QID|37445|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
-T Inoculation|QID|37444|M|50.65,48.73|N|To Vindicator Aldar.|R|-Draenei|
-T Inoculation|QID|9303|M|50.65,48.73|N|To Vindicator Aldar.|R|Draenei|
+T Inoculation|QID|37444^9303|M|50.65,48.73|N|To Vindicator Aldar.|
+T Inoculation|QID|9303|M|50.65,48.73|N|To Vindicator Aldar.|
 A The Missing Scout|QID|9309|PRE|9303|M|50.65,48.73|N|From Vindicator Aldar.|
 T Spare Parts|QID|37445|M|50.51,47.87|N|To Technician Zhanaa.|
 T The Missing Scout|QID|9309|M|33.88,69.42|N|To Tolaan.|
