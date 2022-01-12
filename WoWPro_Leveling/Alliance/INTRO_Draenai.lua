@@ -38,7 +38,7 @@ A Healing the Lake|QID|9294|PRE|9293|M|49.87,37.35|N|From Botanist Taerix.|
 T Rescue the Survivors!|QID|9283|M|51.8,42.0|N|To wandering Zaldunn.|R|Draenei|
 C Healing the Lake|QID|9294|N|Head south to the giant crystal, and use the Neutralizing Agent.|M|45.5,64.6|NC|U|22955|
 T Healing the Lake|QID|9294|M|49.87,37.35|N|To Botanist Taerix.|
-A Vindicator Aldar|QID|10304|PRE|9294|LEAD|37444|M|49.87,37.35|N|From Botanist Taerix.|
+A Vindicator Aldar|QID|10304|PRE|9294|LEAD|9303^37444|M|49.87,37.35|N|From Botanist Taerix.|
 T Vindicator Aldar|QID|10304|M|50.65,48.73|N|Speak to Vindicator Aldar.|
 A Spare Parts|QID|37445|PRE|10302|M|50.51,47.87|N|From Technician Zhanaa.|
 A Inoculation|QID|37444^9303|PRE|10302|M|50.65,48.73|N|From Vindicator Aldar.|
@@ -48,7 +48,6 @@ C Spare Parts|QID|37445|N|Into the hills, through the cave. The parts are spread
 C Inoculation|QID|37444^9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|
 H Ammen Vale|QID|37445|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
 T Inoculation|QID|37444^9303|M|50.65,48.73|N|To Vindicator Aldar.|
-T Inoculation|QID|9303|M|50.65,48.73|N|To Vindicator Aldar.|
 A The Missing Scout|QID|9309|PRE|9303|M|50.65,48.73|N|From Vindicator Aldar.|
 T Spare Parts|QID|37445|M|50.51,47.87|N|To Technician Zhanaa.|
 T The Missing Scout|QID|9309|M|33.88,69.42|N|To Tolaan.|
