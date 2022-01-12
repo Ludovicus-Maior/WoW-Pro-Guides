@@ -19,7 +19,7 @@ C Yellow Power Crystals|AVAILABLE|4284|L|11188 7|S!US|IZ|1449; Un'Goro Crater|
 A It's a Secret to Everybody|QID|3844|M|62.96,68.55|N|From the Wrecked Raft.|
 T It's a Secret to Everybody|QID|3844|M|63.10,69.06|N|To the Small Pack in the water beside you.|
 A It's a Secret to Everybody|QID|3845|M|63.10,69.06|N|From the small pack.|PRE|3844|
-A Williden's Journal|QID|3884|N|Click on the item to start the quest.|U|11116|O|
+A Williden's Journal|QID|3884|N|Click on the Mangled Journal to start the quest.|U|11116|O|
 C The Fare of Lar'korwi|QID|4290|M|68.74,56.88|L|11504|N|Locate the Fresh Threshadon Carcass and collect a piece of it.|
 T The Fare of Lar'korwi|QID|4290|M|71.63,75.95|N|To Torwa Pathfinder.|
 A The Scent of Lar'korwi|QID|4291|M|71.63,75.95|N|From Torwa Pathfinder.|PRE|4290|
@@ -27,16 +27,16 @@ C The Scent of Lar'korwi|QID|4291|M|60.00,72.00;62,65;63,77;67,73;67,67;58,78;70
 T The Scent of Lar'korwi|QID|4291|M|71.63,75.95|N|To Torwa Pathfinder.|
 A The Bait for Lar'korwi|QID|4292|M|71.63,75.95|N|From Torwa Pathfinder.|PRE|4291|
 A Chasing A-Me 01|QID|4243|M|46.38,13.44|N|From Karna Remtravel, near the entrance to Marshal's Refuge.|
-A Shizzle's Flyer|QID|4503|M|44.40,11.80|N|From Shizzle.|
-A Lost!|QID|4492|M|43.6,8.5|N|From Spraggle Frock - Near the sign.|
-A Beware of Pterrordax|QID|4501|M|43.6,8.4|N|From Wanted Poster.|
-A Roll the Bones|QID|3882|M|43.6,7.3|N|From Spark Nilminer.|
-A Alien Ecology|QID|3883|M|43.9,7.2|N|From Hol'anyee Marshal.|
-T Williden's Journal|QID|3884|M|43.9,7.2|N|To Williden Marshal.|
-A Expedition Salvation|QID|3881|M|43.9,7.2|N|From Williden Marshal.|
-T It's a Secret to Everybody|QID|3845|M|44.7,8.1|N|To Linken.|
-A It's a Secret to Everybody|QID|3908|M|44.7,8.1|N|From Linken.|PRE|3845|
-A Larion and Muigin|QID|4145|M|45.5,8.7|N|Hidden on the north side of the valley.|
+A Shizzle's Flyer|QID|4503|M|44.23,11.59|N|From Shizzle, In Marshal's Refuge.|
+A Lost!|QID|4492|M|43.62,8.50|N|From Spraggle Frock - Near the sign.|
+A Beware of Pterrordax|QID|4501|M|43.53,8.43|N|From the Wanted Poster on the sign.|
+A Roll the Bones|QID|3882|M|43.50,7.43|N|From Spark Nilminer.|
+A Alien Ecology|QID|3883|M|43.89,7.23|N|From Hol'anyee Marshal.|
+T Williden's Journal|QID|3884|M|43.95,7.14|N|To Williden Marshal.|
+A Expedition Salvation|QID|3881|M|43.95,7.14|N|From Williden Marshal.|
+T It's a Secret to Everybody|QID|3845|M|44.65,8.10|N|To Linken.\n[color=FF0000]NOTE: [/color]You need to open the Small Pack before you can turn this quest in.|U|11107|
+A It's a Secret to Everybody|QID|3908|M|44.65,8.10|N|From Linken.|PRE|3845|
+A Larion and Muigin|QID|4145|M|45.55,8.72|N|From Larion, hiding behind the hill to the east of you.|
 f Get flight point|M|45.20,5.80|N|Gryfe, Up on the hill, easy to miss|
 A Crystals of Power|QID|4284|M|41.9,2.7|N|From J.D. Callie, in the back of the cave.|
 T Crystals of Power|QID|4284|M|41.9,2.7|N|To J. D. Callie.|
@@ -72,13 +72,13 @@ C Finding the Source|QID|974|M|50,46|N|At the volcano in the center of the zone.
 C Volcanic Activity|QID|4502|N|Kill elementals, mainly around the cave on the south side of the volcano.|
 T Lost!|QID|4492|M|51.00,49.00|N|To Ringo, in the cave on the south side of the volcano.|
 A A Little Help From My Friends|QID|4491|M|51.9,49.85|N|From Ringo.|PRE|4492|
-C A Little Help From My Friends|QID|4491|M|43.6,8.5|N|Use the canteen on him if he faints. Run back to Marshal's Refuge.|U|11804|
-T A Little Help From My Friends|QID|4491|M|43.6,8.5|N|To Spraggle Frock.|
-T Beware of Pterrordax|QID|4501|M|43.6,8.5|N|To Spraggle Frock.|
+C A Little Help From My Friends|QID|4491|M|43.62,8.50|N|Use the canteen on him if he faints. Run back to Marshal's Refuge.|U|11804|
+T A Little Help From My Friends|QID|4491|M|43.62,8.50|N|To Spraggle Frock.|
+T Beware of Pterrordax|QID|4501|M|43.62,8.50|N|To Spraggle Frock.|
 T Shizzle's Flyer|QID|4503|M|44.4, 11.8|N|To Shizzle.|
-T Roll the Bones|QID|3882|M|43.60,7.40|N|To Spark Nilminer.|
-T Alien Ecology|QID|3883|M|43.9,7.2|N|To Hol'anyee Marshall.|
-T Expedition Salvation|QID|3881|M|43.9,7.2|N|To Williden Marshal.|
+T Roll the Bones|QID|3882|M|43.50,7.43|N|To Spark Nilminer.|
+T Alien Ecology|QID|3883|M|43.89,7.23|N|To Hol'anyee Marshall.|
+T Expedition Salvation|QID|3881|M|43.95,7.14|N|To Williden Marshal.|
 T Larion and Muigin|QID|4145|M|45.5,8.7|N|To Larion.|
 T The Northern Pylon|QID|4285|M|41.9,2.7|N|To J. D. Callie.|
 T The Eastern Pylon|QID|4287|M|41.9,2.7|N|To J. D. Callie.|
