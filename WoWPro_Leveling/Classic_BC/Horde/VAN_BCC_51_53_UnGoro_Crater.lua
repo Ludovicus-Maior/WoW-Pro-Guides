@@ -8,14 +8,15 @@ return [[
 ; === guides/51_53_Un'Goro_Crater.lua ===
 R Un'Goro Crater Border|M|26.00,52.00|CC|Z|Tanaris|N|This guide starts in the southwest corner of Tanaris.|
 R Un'Goro Crater|M|70.78,91.56|Z|Un'Goro Crater|N|Enter Un'Goro Crater.|IZ|-1449; Un'Goro Crater|
+N Colored Power Crystals|AVAILABLE|4284|N|Collecting these crystals before you get to Marshal's Refuge will save you time because you'll need to them to turn in a major prerequisite quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|1449;Ungoro Crater|
+C Blue Power Crystals|AVAILABLE|4284|L|11184 7|N|Collect 7 Blue Crystals for an upcoming quest.|S!US|IZ|-Marshal's Refuge|
+C Green Power Crystals|AVAILABLE|4284|L|11185 7|N|Collect 7 Green Crystals for an upcoming quest.|S!US|IZ|-Marshal's Refuge|
+C Red Power Crystals|AVAILABLE|4284|L|11186 7|N|Collect 7 Red Crystals for an upcoming quest.|S!US|IZ|-Marshal's Refuge|
+C Yellow Power Crystals|AVAILABLE|4284|L|11188 7|N|Collect 7 Yellow Crystals for an upcoming quest.|S!US|IZ|-Marshal's Refuge|
 A The Apes of Un'Goro|QID|4289|M|71.63,75.95|N|From Torwa Pathfider, atop a hill just to the right at the bottom of the ramp.|
 A The Fare of Lar'korwi|QID|4290|M|71.63,75.95|N|From Torwa Pathfider.|
 C Un'goro Soil|QID|4496|L|11018 5|S|
 K Raptors|AVAILABLE|3884|L|11116|N|Kill Raptors until you loot Williden's Journal.|S!US|IZ|1449; Un'Goro Crater|
-C Blue Power Crystals|AVAILABLE|4284|L|11184 7|S!US|IZ|1449; Un'Goro Crater|
-C Green Power Crystals|AVAILABLE|4284|L|11185 7|S!US|IZ|1449; Un'Goro Crater|
-C Red Power Crystals|AVAILABLE|4284|L|11186 7|S!US|IZ|1449; Un'Goro Crater|
-C Yellow Power Crystals|AVAILABLE|4284|L|11188 7|S!US|IZ|1449; Un'Goro Crater|
 A It's a Secret to Everybody|QID|3844|M|62.96,68.55|N|From the Wrecked Raft.|
 T It's a Secret to Everybody|QID|3844|M|63.10,69.06|N|To the Small Pack in the water beside you.|
 A It's a Secret to Everybody|QID|3845|M|63.10,69.06|N|From the small pack.|PRE|3844|
@@ -27,6 +28,10 @@ C The Scent of Lar'korwi|QID|4291|M|60.00,72.00;62,65;63,77;67,73;67,67;58,78;70
 T The Scent of Lar'korwi|QID|4291|M|71.63,75.95|N|To Torwa Pathfinder.|
 A The Bait for Lar'korwi|QID|4292|M|71.63,75.95|N|From Torwa Pathfinder.|PRE|4291|
 A Chasing A-Me 01|QID|4243|M|46.38,13.44|N|From Karna Remtravel, near the entrance to Marshal's Refuge.|
+C Blue Power Crystals|AVAILABLE|4284|L|11184 7|N|Finish collecting 7 Blue Crystals for an upcoming quest.|S!US|IZ|Marshal's Refuge|
+C Green Power Crystals|AVAILABLE|4284|L|11185 7|N|Finish collecting 7 Green Crystals for an upcoming quest.|S!US|IZ|Marshal's Refuge|
+C Red Power Crystals|AVAILABLE|4284|L|11186 7|N|Finish collecting 7 Red Crystals for an upcoming quest.|S!US|IZ|Marshal's Refuge|
+C Yellow Power Crystals|AVAILABLE|4284|L|11188 7|N|Finish collecting 7 Yellow Crystals for an upcoming quest.|S!US|IZ|Marshal's Refuge|
 A Shizzle's Flyer|QID|4503|M|44.23,11.59|N|From Shizzle, In Marshal's Refuge.|
 A Lost!|QID|4492|M|43.62,8.50|N|From Spraggle Frock - Near the sign.|
 A Beware of Pterrordax|QID|4501|M|43.53,8.43|N|From the Wanted Poster on the sign.|
@@ -37,12 +42,13 @@ A Expedition Salvation|QID|3881|M|43.95,7.14|N|From Williden Marshal.|
 T It's a Secret to Everybody|QID|3845|M|44.65,8.10|N|To Linken.\n[color=FF0000]NOTE: [/color]You need to open the Small Pack before you can turn this quest in.|U|11107|
 A It's a Secret to Everybody|QID|3908|M|44.65,8.10|N|From Linken.|PRE|3845|
 A Larion and Muigin|QID|4145|M|45.55,8.72|N|From Larion, hiding behind the hill to the east of you.|
-f Get flight point|M|45.20,5.80|N|Gryfe, Up on the hill, easy to miss|
-A Crystals of Power|QID|4284|M|41.9,2.7|N|From J.D. Callie, in the back of the cave.|
-T Crystals of Power|QID|4284|M|41.9,2.7|N|To J. D. Callie.|
-A The Northern Pylon|QID|4285|M|41.9,2.7|N|From J.D. Callie.|PRE|4284|
-A The Eastern Pylon|QID|4287|M|41.9,2.7|N|From J.D. Callie.|PRE|4284|
-A The Western Pylon|QID|4288|M|41.9,2.7|N|From J.D. Callie.|PRE|4284|
+f Marshal's Refuge|M|45.23,5.84|N|At Gryfe, up on the hill.|TAXI|-Marshal's Refuge|
+A Crystals of Power|QID|4284|M|41.92,2.70|N|From J.D. Callie, at the back of the cave.|
+C Power Crystals|ACTIVE|4284|QO|1;2;3;4|N|[color=FF0000]NOTE: [/color]You were warned to collect these earlier. Off you go to do it now.|S!US|IZ|1449; Ungoro Crater|
+t Crystals of Power|QID|4284|M|41.92,2.70|N|To J. D. Callie.|IZ|Marshal's Refuge|
+A The Northern Pylon|QID|4285|M|41.92,2.70|N|From J.D. Callie.|PRE|4284|
+A The Eastern Pylon|QID|4287|M|41.92,2.70|N|From J.D. Callie.|PRE|4284|
+A The Western Pylon|QID|4288|M|41.92,2.70|N|From J.D. Callie.|PRE|4284|
 
 N Kill stuff...|N|Kill any bloodpetals, diametradons, and pterrordaxes you come across and continue collecting the Power Crystals.|
 
@@ -80,11 +86,11 @@ T Roll the Bones|QID|3882|M|43.50,7.43|N|To Spark Nilminer.|
 T Alien Ecology|QID|3883|M|43.89,7.23|N|To Hol'anyee Marshall.|
 T Expedition Salvation|QID|3881|M|43.95,7.14|N|To Williden Marshal.|
 T Larion and Muigin|QID|4145|M|45.5,8.7|N|To Larion.|
-T The Northern Pylon|QID|4285|M|41.9,2.7|N|To J. D. Callie.|
-T The Eastern Pylon|QID|4287|M|41.9,2.7|N|To J. D. Callie.|
-T The Western Pylon|QID|4288|M|41.9,2.7|N|To J. D. Callie.|
-A Making Sense of It|QID|4321|M|41.9,2.7|N|From J. D. Callie.|PRE|4285&4287&4288|
-T Making Sense of It|QID|4321|M|41.9,2.7|N|To J. D. Callie.|
+T The Northern Pylon|QID|4285|M|41.92,2.70|N|To J. D. Callie.|
+T The Eastern Pylon|QID|4287|M|41.92,2.70|N|To J. D. Callie.|
+T The Western Pylon|QID|4288|M|41.92,2.70|N|To J. D. Callie.|
+A Making Sense of It|QID|4321|M|41.92,2.70|N|From J. D. Callie.|PRE|4285&4287&4288|
+T Making Sense of It|QID|4321|M|41.92,2.70|N|To J. D. Callie.|
 K Oozes|L|12235 30|ACTIVE|4294|M|44,22;49,35;60,54;52,67;42,64|CS|N|Kill Oozes as you head south towards Volcano, around the east side, and then around below the south side of the volcano. Unless you wantt to come back for more it is recommended you gather around 30.|
 
 T Finding the Source|QID|974|M|30.90,50.40|N|To Krakle, over at the Hot Springs.|
