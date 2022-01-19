@@ -1,6 +1,6 @@
 --[[
 WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+Permissions beyond the scope of this license may be AVAILABLE at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
 local guide = WoWPro:RegisterGuide('ClassicAlliance5055', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 1)
@@ -139,7 +139,7 @@ H Gadgetzan|QID|4504|M|45.24,5.83|Z|Un'Goro Crater|N|Hearth or otherwise make yo
 T Super Sticky|QID|4504|M|51.57,26.76|Z|Tanaris|N|To Tran'rek.|
 T Bungle in the Jungle|QID|4496|M|50.88,26.96|Z|Tanaris|N|To Alchemist Pestlezugg.|
 
-F Theramore|QID|8460|M|51.01,29.34|Z|Tanaris|N|Head to Theramore.|
+F Theramore|AVAILABLE|8460|M|51.01,29.34|Z|Tanaris|N|Head to Theramore.|
 b Menethil Harbor|QID|3461|M|71.56,56.38|Z|Dustwallow Marsh|N|Take Boat to the Wetlands.|
 F Ironforge|QID|3461|M|9.49,59.69|Z|Wetlands|N|Fly to Ironforge.|
 T Return to Tymor|QID|3461|M|31.02,4.81|Z|Ironforge|N|To Tymor.|
@@ -156,9 +156,9 @@ T Morrowgrain Research|QID|3781|M|35.37,8.41|Z|Darnassus|N|To Mathrengyl Bearwal
 A Morrowgrain Research|QID|3785|M|35.37,8.41|Z|Darnassus|N|From Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|PRE|3781|
 l Evergreen Herb Casing|QID|3785|M|PLAYER|Z|Darnassus|N|Using the Evergreen Pouch you combine Tharlendris Seeds with 2xUn'Goro Soil to make an herb casing which has a chance of containing some Morrowgrain.\n\nHerb Pouch is on a 10 minute cooldown so remember to use it frequently and open up the Herb Casings. More seeds can be purchased from Mathrengyl here.|U|11020|L|11024|
 
-R Rut'theran Village|QID|8460|M|30.04,41.32|Z|Darnassus|N|Run back in the portal to Rut'theran Village.|
-F Astranaar|QID|8460|M|58.39,94.01|Z|Teldrassil|N|Head to Ashenvale.|
-R Felwood|QID|8460|M|38.61,57.68;49.55,56.49;57.85,55.74;61.07,48.60;60.91,43.96;57.40,32.30;55.80,28.79|CC|Z|Ashenvale|N|Make your way up to Felwood.|
+R Rut'theran Village|AVAILABLE|8460|M|30.04,41.32|Z|Darnassus|N|Run back in the portal to Rut'theran Village.|
+F Astranaar|AVAILABLE|8460|M|58.39,94.01|Z|Teldrassil|N|Head to Ashenvale.|
+R Felwood|AVAILABLE|8460|M|38.61,57.68;49.55,56.49;57.85,55.74;61.07,48.60;60.91,43.96;57.40,32.30;55.80,28.79|CC|Z|Ashenvale|N|Make your way up to Felwood.|
 A Cleansing Felwood|QID|4101|M|54.19,86.80|Z|Felwood|N|From Arathandris Silversky.|
 A Timbermaw Ally|QID|8460|M|50.93,85.00|Z|Felwood|N|From Grazle.|
 C Timbermaw Ally|QID|8460|M|48.12,92.92|Z|Felwood|N|Kill the Furbolgs needed for the quest.|
