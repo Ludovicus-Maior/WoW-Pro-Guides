@@ -1,6 +1,6 @@
 --[[
 WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-Permissions beyond the scope of this license may be AVAILABLE at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 --]]
 
 local guide = WoWPro:RegisterGuide('ClassicAlliance5055', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 1)
