@@ -41,7 +41,7 @@ A Roll the Bones|QID|3882|M|43.50,7.43|N|From Spark Nilminer.|
 T It's a Secret to Everybody|QID|3845|M|44.65,8.10|N|To Linken.\n[color=FF0000]NOTE: [/color]You need to open the Small Pack before you can turn this quest in.|U|11107|
 A It's a Secret to Everybody|QID|3908|M|44.65,8.10|N|From Linken.|PRE|3845|
 A Crystals of Power|QID|4284|M|41.92,2.70|N|From J.D. Callie, at the back of the cave.\n[color=FF0000]NOTE: [/color]It's a bit of a maze. Watch out for the dead ends.|
-l Power Crystals|ACTIVE|4284|QO|1;2;3;4|N|[color=FF0000]NOTE: [/color]You were warned to collect these earlier. Off you go to do it now.|IZ|1449; Ungoro Crater|
+l Power Crystals|ACTIVE|4284|QO|1;2;3;4|N|[color=FF0000]NOTE: [/color]You were warned to collect these earlier. Off you go to do it now.|IZ|1449;Ungoro Crater|
 t Crystals of Power|QID|4284|M|41.92,2.70|N|To J. D. Callie.|IZ|Marshal's Refuge|
 A The Northern Pylon|QID|4285|M|41.92,2.70|N|From J.D. Callie.|PRE|4284|
 A The Eastern Pylon|QID|4287|M|41.92,2.70|N|From J.D. Callie.|PRE|4284|
@@ -50,14 +50,19 @@ A Lost!|QID|4492|M|43.62,8.50|N|From Spraggle Frock - Near the sign.|
 A Beware of Pterrordax|QID|4501|M|43.53,8.43|N|From the Wanted Poster on the sign.|
 A Shizzle's Flyer|QID|4503|M|44.23,11.59|N|From Shizzle, In Marshal's Refuge.|
 
-N Kill stuff...|N|Kill any bloodpetals, diametradons, and pterrordaxes you come across and continue collecting the Power Crystals.|
+K Bloodpetal Mobs|ACTIVE|4145|QO|1;2;3;4|N|These guys are spread all over Un'Goro. Kill them as you find them.|S|
+l Dinosaur Bone|ACTIVE|3882|QO|1|N|These can be looted from dinosaurs.|S!US|IZ|1449;Ungoro Crater|
+l Shizzle's Flyer|QID|4503|QO|1;2|N|Looted from Diemetradons and Pterrordaxes around Un'Goro.|S|
 
-C The Northern Pylon|QID|4285|M|56.46,12.48|N|Along the north edge of the zone to the east. Kill pterrordaxes here.|
-T Chasing A-Me 01|QID|4243|M|63.00,17.00|N|To A-Me 01, east in the gorilla cave.|
-C The Apes of Un'Goro|QID|4289|M|66.0,16.0|N|Finish killing gorillas.|
-C Super Sticky|QID|4504|M|60,26|N|Kill the tar monsters around the tarpits.|
-N Find [Crate of Foodstuffs]|QID|3881|M|68.52,36.59|L|11113|N|At the abandoned camp in the east side of the zone.|
-C Larion and Muigin|QID|4145|N|Kill lashers around the camp area. Also kill any diemetradons or pterrordaxes you come across.|
+C Northern Crystal Pylon|ACTIVE|4285|M|54.9,13.4;56.46,12.48|CC|QO|1|N|Follow the north edge of the zone to the east. Click on it to examine it.|NC|
+;K Pterrordaxes|ACTIVE|4501|M|56.46,12.48|QO|1|N|Kill them in this area.|
+R Fungal Rock|ACTIVE|4243^4249|M|60.37,17.15|N|Continue east to the next section.|
+K The Apes of Un'Goro|ACTIVE|4289|M|66.87,14.97|QO|1;2;3|N|Kill gorillas to loot the required pelts.|S|
+T Chasing A-Me 01|QID|4243|M|63.9,16.4;67.64,16.79|CC|N|To A-Me 01, in the cavern on the right as you enter the cave.\n[color=FF0000]NOTE: [/color]If she's not here, someone is either on the escort quest or she is waiting to respawn.\ndDo not get the follow-up.|
+K The Apes of Un'Goro|ACTIVE|4289|M|66.87,14.97|QO|1;2;3|N|Finish killing gorillas to loot the pelts.\n[color=FF0000]NOTE: [/color]This can be done inside or outside of the cave.|US|
+;C Super Sticky|QID|4504|M|60,26|N|Kill the tar monsters around the tarpits.| ** We don't have this quest yet -- Hendo72
+C Expedition Salvation|QID|3881|M|68.54,36.54|L|11113|N|Loot the Crate at the abandoned camp in the northeast section of the zone.|
+K Lashers/Threshers|QID|4145|M|67.07,30.84|QO|1;4|N|Kill Bloodpetal Lashers and Threshers in this area.|
 C The Eastern Pylon|QID|4287|M|76.00,51.00|N|To the east, of course.|
 C The Bait for Lar'korwi|QID|4292|M|79.90,49.90|N|Use the meat mixture at the flat rock behind the east pylon.|U|11568|
 T The Bait for Lar'korwi|QID|4292|M|71.63,75.95|N|To Torwa Pathfinder.|
