@@ -51,17 +51,18 @@ A Beware of Pterrordax|QID|4501|M|43.53,8.43|N|From the Wanted Poster on the sig
 A Shizzle's Flyer|QID|4503|M|44.23,11.59|N|From Shizzle, In Marshal's Refuge.|
 
 K Bloodpetal Mobs|ACTIVE|4145|QO|1;2;3;4|N|These guys are spread all over Un'Goro. Kill them as you find them.|S|
-l Dinosaur Bone|ACTIVE|3882|QO|1|N|These can be looted from Diemetradons and Stegodons.|S!US|IZ|1449;Ungoro Crater|
+l Dinosaur Bone|ACTIVE|3882|QO|1|N|These can be looted from Diemetradons and Stegodons.\n[color=FF0000]NOTE: [/color]The Stegodons are Elites.|S!US|IZ|1449;Ungoro Crater|
 l Shizzle's Flyer|QID|4503|QO|1;2|N|Looted from Diemetradons and Pterrordaxes around Un'Goro.|S|
-C Northern Crystal Pylon|ACTIVE|4285|M|54.9,13.4;56.46,12.48|CC|QO|1|N|Follow the north edge of the zone to the east and click on the Crystal to examine it.|NC|
+C Northern Crystal Pylon|ACTIVE|4285|M|54.9,13.4;56.46,12.48|CC|QO|1|N|Follow the north edge of the zone to the east and click on the Pylon to examine it.|NC|
 R Fungal Rock|ACTIVE|4243^4249|M|60.37,17.15|N|Continue east to the next section.|
 K The Apes of Un'Goro|ACTIVE|4289|M|66.87,14.97|QO|1;2;3|N|Kill gorillas to loot the required pelts.|S|
 T Chasing A-Me 01|QID|4243|M|63.9,16.4;67.64,16.79|CC|N|To A-Me 01, in the cavern on the right as you enter the cave.\n[color=FF0000]NOTE: [/color]If she's not here, someone is either on the escort quest or she is waiting to respawn.\ndDo not get the follow-up.|
 K The Apes of Un'Goro|ACTIVE|4289|M|66.87,14.97|QO|1;2;3|N|Finish killing gorillas to loot the pelts.\n[color=FF0000]NOTE: [/color]This can be done inside or outside of the cave.|US|
 ;C Super Sticky|QID|4504|M|60,26|N|Kill the tar monsters around the tarpits.| ** We don't have this quest yet -- Hendo72
 C Expedition Salvation|QID|3881|M|68.54,36.54|L|11113|N|Loot the Crate at the abandoned camp in the northeast section of the zone.|
-K Lashers/Threshers|QID|4145|M|67.07,30.84|QO|1;4|N|Kill Bloodpetal Lashers and Threshers in this area.|
-C The Eastern Crystal Pylon|QID|4287|M|76.6,48.5;77.24,50.00|CC|QO|1|N|Make your way up the ramp southeast from your current location and click on the Crystal to examine it.|NC|
+K Bloodpetal Mobs|ACTIVE|4145|QO|1;4|N|These guys are spread all over Un'Goro. Kill them as you find them.|US|
+K Bloodpetal Mobs|QID|4145|M|67.07,30.84|QO|1;4|N|Kill Bloodpetal Lashers and Threshers in this area.|US|
+C The Eastern Crystal Pylon|QID|4287|M|76.6,48.5;77.24,50.00|CC|QO|1|N|Make your way up the ramp southeast from your current location and click on the Pylon to examine it.|NC|
 U Open Torwa's Pouch|ACTIVE|4292|M|79.93,49.89|L|11569|N|You need to items contained in Torwa's Pouch to proceed.|U|11568|
 U Preserved Threshadon Meat|ACTIVE|4292|M|79.93,49.89|N|Place the meat on the flat rock in the alcove behind the Eastern Crystal Pylon.|U|11569|
 U Preserved Pheromone Mixture|ACTIVE|4292|M|79.93,49.89|N|Pour the bottle on the meat.\n[color=FF0000]NOTE: [/color]The meat despawns after 45 seconds. You'll have to abandon and restart the quest if you take too long.|U|11570|
@@ -72,15 +73,16 @@ R The Slithering Scar|ACTIVE|3883|M|50.86,77.29|
 K Gorishi Scent Gland|ACTIVE|4496|L|11837|N|Kill the bugs until one of them drops it.|S|
 C Alien Ecology|QID|3883|M|48.97,85.03|L|11131|N|Head down into the Hive and left into the big room. Use the vial once inside the room.|U|11132|
 K Gorishi Scent Gland|ACTIVE|4496|L|11837|N|Kill the bugs until one of them drops it.|US|
-R Terror Run|ACTIVE|3881|M|45.52,77.38|N|Exit the hive and head west.|
-C Expedition Salvation|QID|3881|M|38.50,66.00|QO|2|N|At the other camp.|
-C The Western Pylon|QID|4288|M|23.00,59.00|N|Right-click the Western Crystal Pylon|NC|
-A Finding the Source|QID|974|M|30.90,50.40|N|From Krakle.|
-C Bone-Bladed Weapons|QID|4300|M|67,73|N|Kill raptors and gather Power Crystals.|
-
-C Roll the Bones|QID|3882|N|Scattered all over the west half of the zone and drop from diemetradons. Kill pterrordaxes over here too.|
+K Pterrordax|ACTIVE|4501|M|50.10,88.32|QO|1|N|Exit the hive and head south. There are 3 pathes leading up into separate locations the cliffs. You'll find them spread out through this area.|
+C Expedition Salvation|QID|3881|M|38.46,66.06|L|11112|N|Loot the Research Equipment at the abandoned camp in Terror Run.|
+R Golakka Hot Springs|ACTIVE|4288|M|29.35,63.27|N|Make your way west.\n[color=FF0000]NOTE: [/color]Keep on your toes because there are higher level mobs with elites mixed in.|
+C Beware of Pterrordax|QID|4501|QO|1;2|N|You can find the Frenzied Pterrordaxes all over the west half of the zone, more towards the northwest part. Normal Pterrordaxes are in the south half of the zone, and a few near the North pylon.|
+C Western Crystal Pylon|QID|4288|M|25.1,61.2;23.76,59.20|CC|N|Make your way up the ramp and click on the Pylon to examine it.|NC|
+A Finding the Source|QID|974|M|30.92,50.44|N|From Krakle.\n[color=FF0000]NOTE: [/color]He is beside the big hill by the smaller water body.|
+;C Bone-Bladed Weapons|QID|4300|M|67,73|N|Kill raptors and gather Power Crystals.| ** This quest not picked up - Hendo72
+C Shizzle's Flyer|QID|4503|N|Finish killing your required Diemetradons and Pterrordaxes.|
+C Roll the Bones|QID|3882|N|Finish collecting your Dinosaur Bones.|
 C Beware of Pterrordax|QID|4501|N|You can find the Frenzied Pterrordaxes all over the west half of the zone, more towards the northwest part. Normal Pterrordaxes are in the south half of the zone, and a few near the North pylon.|
-C Shizzle's Flyer|QID|4503|N|Kill diemetradons and pterrordaxes, all over the zone.|
 
 C Finding the Source|QID|974|M|50,46|N|At the volcano in the center of the zone. Use the thermometer at the "Hot Spots" at the top (Where Blazerunner is).|U|12472|NC|
 C Volcanic Activity|QID|4502|N|Kill elementals, mainly around the cave on the south side of the volcano.|
