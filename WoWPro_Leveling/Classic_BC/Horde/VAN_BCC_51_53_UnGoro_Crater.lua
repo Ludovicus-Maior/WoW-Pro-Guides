@@ -51,11 +51,9 @@ A Beware of Pterrordax|QID|4501|M|43.53,8.43|N|From the Wanted Poster on the sig
 A Shizzle's Flyer|QID|4503|M|44.23,11.59|N|From Shizzle, In Marshal's Refuge.|
 
 K Bloodpetal Mobs|ACTIVE|4145|QO|1;2;3;4|N|These guys are spread all over Un'Goro. Kill them as you find them.|S|
-l Dinosaur Bone|ACTIVE|3882|QO|1|N|These can be looted from dinosaurs.|S!US|IZ|1449;Ungoro Crater|
+l Dinosaur Bone|ACTIVE|3882|QO|1|N|These can be looted from Diemetradons and Stegodons.|S!US|IZ|1449;Ungoro Crater|
 l Shizzle's Flyer|QID|4503|QO|1;2|N|Looted from Diemetradons and Pterrordaxes around Un'Goro.|S|
-
-C Northern Crystal Pylon|ACTIVE|4285|M|54.9,13.4;56.46,12.48|CC|QO|1|N|Follow the north edge of the zone to the east. Click on it to examine it.|NC|
-;K Pterrordaxes|ACTIVE|4501|M|56.46,12.48|QO|1|N|Kill them in this area.|
+C Northern Crystal Pylon|ACTIVE|4285|M|54.9,13.4;56.46,12.48|CC|QO|1|N|Follow the north edge of the zone to the east and click on the Crystal to examine it.|NC|
 R Fungal Rock|ACTIVE|4243^4249|M|60.37,17.15|N|Continue east to the next section.|
 K The Apes of Un'Goro|ACTIVE|4289|M|66.87,14.97|QO|1;2;3|N|Kill gorillas to loot the required pelts.|S|
 T Chasing A-Me 01|QID|4243|M|63.9,16.4;67.64,16.79|CC|N|To A-Me 01, in the cavern on the right as you enter the cave.\n[color=FF0000]NOTE: [/color]If she's not here, someone is either on the escort quest or she is waiting to respawn.\ndDo not get the follow-up.|
@@ -63,13 +61,18 @@ K The Apes of Un'Goro|ACTIVE|4289|M|66.87,14.97|QO|1;2;3|N|Finish killing gorill
 ;C Super Sticky|QID|4504|M|60,26|N|Kill the tar monsters around the tarpits.| ** We don't have this quest yet -- Hendo72
 C Expedition Salvation|QID|3881|M|68.54,36.54|L|11113|N|Loot the Crate at the abandoned camp in the northeast section of the zone.|
 K Lashers/Threshers|QID|4145|M|67.07,30.84|QO|1;4|N|Kill Bloodpetal Lashers and Threshers in this area.|
-C The Eastern Pylon|QID|4287|M|76.00,51.00|N|To the east, of course.|
-C The Bait for Lar'korwi|QID|4292|M|79.90,49.90|N|Use the meat mixture at the flat rock behind the east pylon.|U|11568|
+C The Eastern Crystal Pylon|QID|4287|M|76.6,48.5;77.24,50.00|CC|QO|1|N|Make your way up the ramp southeast from your current location and click on the Crystal to examine it.|NC|
+U Open Torwa's Pouch|ACTIVE|4292|M|79.93,49.89|L|11569|N|You need to items contained in Torwa's Pouch to proceed.|U|11568|
+U Preserved Threshadon Meat|ACTIVE|4292|M|79.93,49.89|N|Place the meat on the flat rock in the alcove behind the Eastern Crystal Pylon.|U|11569|
+U Preserved Pheromone Mixture|ACTIVE|4292|M|79.93,49.89|N|Pour the bottle on the meat.\n[color=FF0000]NOTE: [/color]The meat despawns after 45 seconds. You'll have to abandon and restart the quest if you take too long.|U|11570|
+K Lar'korwi|ACTIVE|4292|M|79.93,49.89|L|11510|N|Kill Lar'korwi when he spawns to loot his head.|
 T The Bait for Lar'korwi|QID|4292|M|71.63,75.95|N|To Torwa Pathfinder.|
 T The Apes of Un'Goro|QID|4289|M|71.63,75.95|N|To Torwa Pathfinder.|
-
-C Alien Ecology|QID|3883|M|50.00,77.00;48.62,85.33|CS|N|Down in the Slithering Scar. Head left inside to the big room, use the vial|U|11132|
-K Kill bugs for [Gorishi Scent Gland]|ACTIVE|4496|L|11837|Z|Tanaris|
+R The Slithering Scar|ACTIVE|3883|M|50.86,77.29|
+K Gorishi Scent Gland|ACTIVE|4496|L|11837|N|Kill the bugs until one of them drops it.|S|
+C Alien Ecology|QID|3883|M|48.97,85.03|L|11131|N|Head down into the Hive and left into the big room. Use the vial once inside the room.|U|11132|
+K Gorishi Scent Gland|ACTIVE|4496|L|11837|N|Kill the bugs until one of them drops it.|US|
+R Terror Run|ACTIVE|3881|M|45.52,77.38|N|Exit the hive and head west.|
 C Expedition Salvation|QID|3881|M|38.50,66.00|QO|2|N|At the other camp.|
 C The Western Pylon|QID|4288|M|23.00,59.00|N|Right-click the Western Crystal Pylon|NC|
 A Finding the Source|QID|974|M|30.90,50.40|N|From Krakle.|
