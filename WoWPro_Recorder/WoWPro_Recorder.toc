@@ -3,7 +3,7 @@
 ## Notes: Record and edit guides for use with the WoW-Pro Addon
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 9.1.5-A1
+## Version: 9.1.5-A2
 ## SavedVariables: WoWPro_RecorderDB
 ## DefaultState: disabled
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
