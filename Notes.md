@@ -1,3 +1,24 @@
+# Release 9.1.5-A2 / 1.14.1-A3 / 2.5.2-A3
+## Bug Fixes
+* Hendo72: Fix placement of Currrent Guide tooltip
+* Hendo72: Fix Current Guide tooltip to account for ACTIVE tags or steps with no QID
+* Ookami313:  Add [Ascension Crafting] to skill table.
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Hellfire Penninsula, Draeni Intro, Night Elf Intro
+* Horde: Northern Barrens
+* Neutral: Bastion,  Eternity's End (PTR)
+### Retail Dailies
+* Alliance: Tol Barad, Shieldwall, Isle of Thunder, Argent Tournament, Honor Hold, Icecrown, Valience Expedition, Pilgrims Bounty, Wildhammer
+* Horde: Tol Barad, Pandaria Pet Battles, Isle of Thunder, Dominance Offensive, Pilgrims Bounty, Argent Tournament
+### Classic Leveling
+* Alliance: Alliance 50-55
+### Burning Crusade Classic Leveling
+* Alliance: Alliance 42-50
+* Horde: Horde Chapter II/III, Un'Goro Crater
+
+
 # Release 9.1.5-A1 / 1.14.1-A2 / 2.5.2-A2
 ## Bug Fixes
 * Stukov:  Crash indexing guide in NextStep().  Add warning and punt.
