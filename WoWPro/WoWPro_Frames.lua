@@ -60,7 +60,8 @@ function WoWPro:DragSet()
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
                 WoWPro.MainFrame:StopMovingOrSizing()
-                WoWPro.AnchorSet()
+                WoWPro.MainFrame:SetUserPlaced(false)
+                WoWPro.AnchorStore()
             end
         end)
     else
@@ -315,7 +316,7 @@ function WoWPro.RowSizeSet()
     if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
 end
 
-function WoWPro.AnchorSet()
+function WoWPro.SetMouseNotesPoints()
     for i,row in ipairs(WoWPro.rows) do
         if WoWPro.GetSide(WoWPro.MainFrame) == "RIGHT" then
             WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, 10)
@@ -327,59 +328,37 @@ function WoWPro.AnchorSet()
 --          row.itembutton:SetPoint("TOPRIGHT", row, "TOPRIGHT", 35, -10)
         end
     end
+end
+
+function WoWPro.AnchorStore()
+    WoWPro.SetMouseNotesPoints()
+    -- Update the position when we are no longer in combat
     WoWPro.MainFrame:SetScript("OnUpdate", function()
         if not WoWPro.MaybeCombatLockdown() then
-            local top = WoWPro.MainFrame:GetTop()
-            local bottom = WoWPro.MainFrame:GetBottom()
-            local vcenter = ( top + bottom ) / 2
-            local left = WoWPro.MainFrame:GetLeft()
-            local right = WoWPro.MainFrame:GetRight()
-            local hcenter = (left + right) / 2
-            local anchorpoint = WoWProDB.profile.anchorpoint
-            local hquadrant, vquadrant = WoWPro.GetSide(WoWPro.MainFrame)
-            local width = _G.UIParent:GetWidth()
-            local height = _G.UIParent:GetHeight()
-
-            WoWPro:dbp("SetPoint:OnUpdate(): top=%.2f bottom=%.2f left=%.2f right=%.2f width=%.2f height=%.2f", top, bottom, left, right, width, height)
-            -- Setting anchor point based on the quadrant if it's set to auto --
-            if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
-
-            WoWPro.MainFrame:ClearAllPoints()
-            local anchor
-            if anchorpoint == "TOPLEFT" then
-                anchor = {"TOPLEFT", _G.UIParent, "TOPLEFT", left, top-height}
-            elseif anchorpoint == "TOP" then
-                anchor = {"TOP", _G.UIParent, "TOP", hcenter, top-height}
-            elseif anchorpoint == "TOPRIGHT" then
-                anchor = {"TOPRIGHT", _G.UIParent, "TOPRIGHT",right-width,  top-height}
-            elseif anchorpoint == "LEFT" then
-                anchor = {"LEFT", _G.UIParent, "LEFT", left, vcenter}
-            elseif anchorpoint == "CENTER" then
-                anchor = {"CENTER", _G.UIParent, "CENTER", hcenter, vcenter}
-            elseif anchorpoint == "RIGHT" then
-                anchor = {"RIGHT", _G.UIParent, "RIGHT", right-width, vcenter}
-            elseif anchorpoint == "BOTTOMLEFT" then
-                anchor = {"BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", left, bottom}
-            elseif anchorpoint == "BOTTOM" then
-                anchor = {"BOTTOM", _G.UIParent, "BOTTOM", hcenter, bottom}
-            elseif anchorpoint == "BOTTOMRIGHT" then
-                anchor = {"BOTTOMRIGHT", _G.UIParent, "BOTTOMRIGHT", right-width, bottom}
-            end
-            WoWPro:dbp("SetPoint:OnUpdate() point=%q, UIParent, relativePoint=%q, ofsx=%.2f, ofsy=%.2f",
-                       anchor[1], anchor[3], anchor[4], anchor[5])
-            WoWPro.MainFrame:SetPoint(unpack(anchor))
-
-            WoWPro.MainFrame:SetScript("OnUpdate", function()
-            end)
+            local pos = {WoWPro.MainFrame:GetPoint(1)}
+            pos[2] = "UIParent"
+            WoWProDB.profile.position = pos
+            WoWPro:dbp("AnchorStore: point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f",
+                        pos[1], pos[2], pos[3], pos[4], pos[5])
+            WoWPro.MainFrame:SetScript("OnUpdate", nil)
         end
     end)
 end
+
+function WoWPro.AnchorRestore()
+    WoWPro.MainFrame:ClearAllPoints()
+    local pos = WoWProDB.profile.position
+    WoWPro:dbp("AnchorRestore: point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f", unpack(pos))
+    WoWPro.MainFrame:SetPoint(unpack(pos))
+    WoWPro.SetMouseNotesPoints()
+end
+
 function WoWPro.RowSet()
     WoWPro:dbp("WoWPro.RowSet()")
     WoWPro.RowColorSet()
     WoWPro.RowFontSet()
     WoWPro.RowSizeSet()
-    WoWPro.AnchorSet()
+    WoWPro.AnchorRestore()
 end
 
 function WoWPro.CustomizeFrames()
@@ -396,7 +375,7 @@ function WoWPro.CustomizeFrames()
     for name, module in WoWPro:IterateModules() do
         if WoWPro[name].CustomizeFrames then WoWPro[name]:CustomizeFrames() end
     end
-
+    WoWPro.AnchorRestore() -- Just in case a module jiggled something
 end
 
 -- Create Dialog Box --
@@ -450,7 +429,8 @@ function WoWPro:CreateMainFrame()
     WoWPro.MainFrame:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
             this:StopMovingOrSizing()
-            WoWPro.AnchorSet()
+            this:SetUserPlaced(false)
+            WoWPro.AnchorStore()
         end
     end)
 
@@ -499,6 +479,7 @@ function WoWPro:CreateResizeButton()
         end)
         resizebutton:SetScript("OnMouseUp", function()
             WoWPro.MainFrame:StopMovingOrSizing()
+            WoWPro.MainFrame:SetUserPlaced(false)
             WoWPro:UpdateGuide("ResizeEnd")
             WoWPro.MainFrame:SetScript("OnSizeChanged", nil)
         end)
@@ -539,7 +520,8 @@ function WoWPro:CreateTitleBar()
     WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
             WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.AnchorSet()
+            WoWPro.MainFrame:SetUserPlaced(false)
+            WoWPro.AnchorStore()
         end
     end)
     WoWPro.Titlebar:SetScript ("OnDoubleClick", function (this, button)
@@ -550,14 +532,16 @@ function WoWPro:CreateTitleBar()
             WoWPro.MainFrame:StartSizing("TOP")
             WoWPro.MainFrame:SetHeight(this:GetHeight())
             WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.AnchorSet()
+            WoWPro.MainFrame:SetUserPlaced(false)
+            WoWPro.AnchorStore()
         else
             WoWPro.GuideFrame:Show()
             if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
             WoWPro.MainFrame:StartSizing("TOP")
             WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
-            WoWPro.MainFrame:StopMovingOrSizing();
-            WoWPro.AnchorSet()
+            WoWPro.MainFrame:StopMovingOrSizing()
+            WoWPro.MainFrame:SetUserPlaced(false)
+            WoWPro.AnchorStore()
             WoWPro:UpdateGuide("DoubleClick")
         end
     end)

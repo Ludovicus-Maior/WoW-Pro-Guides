@@ -270,7 +270,7 @@ WoWPro:Export("toboolean")
 -- Default profile options --
 local defaults = { profile = {
     drag = true,
-    anchorpoint = "AUTO",
+    position = {"CENTER", "UIParent" , "CENTER", 0, 0},
     pad = 5,
     space = 5,
     mousenotes = false,
@@ -327,6 +327,8 @@ function WoWPro:OnInitialize()
     WoWProCharDB.Guide = WoWProCharDB.Guide or {}
     WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
     WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
+    WoWProDB.profile.position = WoWProDB.profile.position or {"CENTER", "UIParent" , "CENTER", 0, 0}
+    WoWProDB.profile.anchorpoint = nil  -- Clean out old setting
     WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
     WoWProDB.global.Guide2QIDs = WoWProDB.global.Guide2QIDs  or {}
     WoWProDB.global.RecklessCombat = true

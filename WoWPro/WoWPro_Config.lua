@@ -64,27 +64,6 @@ local function CreateDisplayConfig()
                 set = function(info,val) WoWProDB.profile.drag = val
                     WoWPro.DragSet() end,
             },
-            anchorpoint = {
-                order = 3,
-                type = "select",
-                name = L["Anchor Point"],
-                desc = L["Where the window will anchor, growing out from that point as it changes size."],
-                values = {
-                        AUTO = "Auto",
-                        TOPLEFT = "Top Left",
-                        TOP = "Top",
-                        TOPRIGHT = "Top Right",
-                        LEFT = "Left",
-                        CENTER = "Center",
-                        RIGHT = "Right",
-                        BOTTOMLEFT = "Bottom Left",
-                        BOTTOM = "Bottom",
-                        BOTTOMRIGHT = "Bottom Right"
-                    },
-                get = function(info) return WoWProDB.profile.anchorpoint end,
-                set = function(info,val) WoWProDB.profile.anchorpoint = val
-                    WoWPro.AnchorSet() end
-            },
             padding = {
                 order = 4,
                 type = "range",
