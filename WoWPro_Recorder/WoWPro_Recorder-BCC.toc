@@ -1,4 +1,4 @@
-## Interface: 20502
+## Interface: 20503
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Recorder
 ## Notes: Record and edit guides for use with the WoW-Pro Addon
 ## Author: Jiyambi
