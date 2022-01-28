@@ -1,4 +1,4 @@
-# Release 9.1.5-A2 / 1.14.1-A3 / 2.5.2-A3
+# Release 9.1.5-A2 / 1.14.1-A3 / 2.5.3-A1
 ## Bug Fixes
 * Hendo72: Fix placement of Currrent Guide tooltip
 * Hendo72: Fix Current Guide tooltip to account for ACTIVE tags or steps with no QID
