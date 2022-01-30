@@ -572,7 +572,7 @@ H Gadgetzan|ACTIVE|2605|M|52.50,27.90|Z|Tanaris|N|Hearth or ride back to Gadgetz
 T The Dunemaul Compound|QID|5863|M|52.82,27.40|Z|Tanaris|N|To Andi Lynn.|
 T The Thirsty Goblin|QID|2605|M|51.81,28.66|Z|Tanaris|N|To Marin Noggenfogger.|
 A In Good Taste|QID|2606|M|51.81,28.66|Z|Tanaris|N|From Marin Noggenfogger.|PRE|2605|
-T Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|TO Tran'Rek.|
+T Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|To Tran'Rek.|
 T In Good Taste|QID|2606|M|51.06,26.88|Z|Tanaris|N|To Sprinkle.|
 A Sprinkle's Secret Ingredient|QID|2641|M|51.06,26.88|Z|Tanaris|N|From Sprinkle.|PRE|2606|
 T Noxious Lair Investigation|QID|82|M|50.89,26.97|Z|Tanaris|N|To Alchemist Pestlezugg.|
@@ -777,6 +777,7 @@ T An OOX of Your Own|QID|3721|M|28.36,76.35|N|To Oglethorpe Obnoticus.|
 T Whiskey Slim's Lost Grog|QID|580|M|27.13,77.45|N|To Whiskey Slim, in the Tavern.|
 b Ratchet|ACTIVE|3444^4494|M|25.87,73.12|
 F Gadgetzan|ACTIVE|3444^4494|M|63.09,37.16|Z|The Barrens|
+C Super Sticky|QID|4504|M|51.57,26.76|Z|Tanaris|N|From Tran'Rek|
 T March of the Silithid|QID|4494|M|50.89,26.97|Z|Tanaris|N|To Alchemist Pestlezugg.|
 A Bungle in the Jungle|QID|4496|M|50.89,26.97|Z|Tanaris|N|From Alchemist Pestlezugg.|PRE|4494|
 r Housekeeping|ACTIVE|3444|N|Do what you need before you leave.\n[color=FF0000]NOTE: [/color]I suggest clearing your bags of stuff you won't need. Ungoro Crater (the next guide) has a number of collection quests before you return here.\nManually check this step off to continue.|
