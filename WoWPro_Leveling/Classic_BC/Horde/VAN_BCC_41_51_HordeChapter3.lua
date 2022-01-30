@@ -692,6 +692,7 @@ F Undercity|ACTIVE|2995|M|81.71,81.75|Z|The Hinterlands|
 T Lines of Communication|QID|2995|M|73.07,32.85|Z|Undercity|N|To Oran Snakewrithe in the Magic Quarter.|
 T Rin'ji's Secret|QID|2782|M|73.07,32.85|Z|Undercity|N|To Oran Snakewrithe.|
 T Oran's Gratitude|QID|8273|M|73.07,32.85|Z|Undercity|N|To Oran Snakewrithe.|
+A ... and a Batch of Ooze|QID|4294|M|47.45,73.36|Z|Undercity|N|From Chemist Fuely; in main room of The Apothecarium |
 b Durotar|ACTIVE|2641|M|60.71,58.78|Z|Tirisfal Glades|N|Exit Undercity and take the Zeppelin back to Durotar.|
 R Orgrimmar|ACTIVE|2641|M|49.15,95.09|Z|Orgrimmar|N|Enter Orgrimmar by the front gate.|
 F Thunder Bluff|ACTIVE|2641|M|45.13,63.90|Z|Orgrimmar|C|Druid|
