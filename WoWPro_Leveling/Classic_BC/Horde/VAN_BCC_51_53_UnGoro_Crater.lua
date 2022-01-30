@@ -52,13 +52,14 @@ A Shizzle's Flyer|QID|4503|M|44.23,11.59|N|From Shizzle, In Marshal's Refuge.|
 
 l Dinosaur Bone|ACTIVE|3882|QO|1|N|These can be looted from Diemetradons and Stegodons. They can also be found on the ground in the southwest corner.\n[color=FF0000]NOTE: [/color]The Stegodons are Elites.|S|
 l Shizzle's Flyer|ACTIVE|4503|QO|1;2|N|Looted from Diemetradons and Pterrordaxes around Un'Goro.|S|
-K Bloodpetal Flayers|ACTIVE|4145|M|56.90,23.66|QO|3|N|Kill the Flayers in the area until you are done.|
+K Bloodpetal Flayers|ACTIVE|4145|M|56.90,23.66|QO|3|N|Kill the Flayers in the area.|S|
+C Super Sticky|QID|4504|M|49.70,21.86|L|11834 12|N|Loot thse from the tar momobs nsters around the Tar Pits.|
+K Bloodpetal Flayers|ACTIVE|4145|M|56.90,23.66|QO|3|N|Finish killing the Flayers in the area until you are done.|US|
 C Northern Crystal Pylon|ACTIVE|4285|M|57.9,14.5;56.46,12.48|CC|QO|1|N|Make your way up the ramp to the  north and click on the Pylon to examine it.|NC|
 R Fungal Rock|ACTIVE|4243^4249|M|60.37,17.15|N|Continue east to the next section.|
 K The Apes of Un'Goro|ACTIVE|4289|M|66.87,14.97|QO|1;2;3|N|Kill gorillas to loot the required pelts.|S|
 T Chasing A-Me 01|QID|4243|M|63.9,16.4;67.64,16.79|CC|N|To A-Me 01, in the cavern on the right as you enter the cave.\n[color=FF0000]NOTE: [/color]If she's not here, someone is either on the escort quest or she is waiting to respawn.\ndDo not get the follow-up.|
 K The Apes of Un'Goro|ACTIVE|4289|M|66.87,14.97|QO|1;2;3|N|Finish killing gorillas to loot the pelts.\n[color=FF0000]NOTE: [/color]This can be done inside or outside of the cave.|US|
-;C Super Sticky|QID|4504|M|60,26|N|Kill the tar monsters around the tarpits.| ** We don't have this quest -- Hendo72
 C Crate of Food Stuff|QID|3881|M|68.54,36.54|L|11113|N|Loot the Crate at the abandoned camp in the northeast section of the zone.|
 K Bloodpetal Lashers/Threshers|ACTIVE|4145|M|67.07,30.84|QO|1;4|N|Kill Bloodpetal Lashers and Threshers in this area until you are done.|
 C The Eastern Crystal Pylon|QID|4287|M|76.6,48.5;77.24,50.00|CC|QO|1|N|Make your way up the ramp southeast from your current location and click on the Pylon to examine it.|NC|
