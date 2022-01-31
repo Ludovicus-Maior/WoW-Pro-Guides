@@ -107,7 +107,7 @@ T Making Sense of It|QID|4321|M|41.92,2.70|N|To J. D. Callie.|
 
 T Finding the Source|QID|974|M|30.90,50.40|N|To Krakle, over at the Hot Springs.|
 A The New Springs|QID|980|M|30.90,50.40|N|From Krakle.|PRE|974|
-K Oozes|L|12235 30|ACTIVE|4294|M|44,22;49,35;60,54;52,67;42,64|CS|N|Kill Oozes as you head south towards Volcano, around the east side, and then around below the south side of the volcano. Unless you wantt to come back for more it is recommended you gather around 30.|
+K Oozes|ACTIVE|4294|M|34.43,38.62|L|12235 30|N|Kill Oozes until you have 30.|
 R Silithus|M|29.00,22.00|N|Take the path up out of the crater in the northwest corner of the zone.|
 R Cenarion Hold|M|51,39|Z|Silithus|N|Follow the road southwest.|
 f Cenarion Hold|M|48.66,36.61|Z|Silithus|N|Get the flight path up the big hill, from Runk Windtamer.|
