@@ -50,15 +50,17 @@ A Lost!|QID|4492|M|43.62,8.50|N|From Spraggle Frock - Near the sign.|
 A Beware of Pterrordax|QID|4501|M|43.53,8.43|N|From the Wanted Poster on the sign.|
 A Shizzle's Flyer|QID|4503|M|44.23,11.59|N|From Shizzle, In Marshal's Refuge.|
 
-l Dinosaur Bone|ACTIVE|3882|QO|1|N|These can be looted from Diemetradons and Stegodons.\n[color=FF0000]NOTE: [/color]The Stegodons are Elites.|S!US|IZ|1449;Ungoro Crater|
-l Shizzle's Flyer|QID|4503|QO|1;2|N|Looted from Diemetradons and Pterrordaxes around Un'Goro.|S|
-K Bloodpetal Flayers|ACTIVE|4145|M|56.90,23.66|QO|3|N|Kill the Flayers in the area until you are done.|
+K Oozes|ACTIVE|4294|L|12235 30|N|Kill Oozes as you make your way around Un'Goro.\n[color=FF0000]NOTE: [/color]Unless you want to risk having to come back for more, it's recommended you gather 30 of them.|S|
+l Dinosaur Bone|ACTIVE|3882|QO|1|N|These can be looted from Diemetradons and Stegodons. They can also be found on the ground in the southwest corner.\n[color=FF0000]NOTE: [/color]The Stegodons are Elites.|S|
+l Shizzle's Flyer|ACTIVE|4503|QO|1;2|N|Looted from Diemetradons and Pterrordaxes around Un'Goro.|S|
+K Bloodpetal Flayers|ACTIVE|4145|M|56.90,23.66|QO|3|N|Kill the Flayers in the area.|S|
+C Super Sticky|QID|4504|M|49.70,21.86|L|11834 12|N|Loot these from the Tar mobs around the Tar Pits.|
+K Bloodpetal Flayers|ACTIVE|4145|M|56.90,23.66|QO|3|N|Finish killing the Flayers in the area until you are done.|US|
 C Northern Crystal Pylon|ACTIVE|4285|M|57.9,14.5;56.46,12.48|CC|QO|1|N|Make your way up the ramp to the  north and click on the Pylon to examine it.|NC|
 R Fungal Rock|ACTIVE|4243^4249|M|60.37,17.15|N|Continue east to the next section.|
 K The Apes of Un'Goro|ACTIVE|4289|M|66.87,14.97|QO|1;2;3|N|Kill gorillas to loot the required pelts.|S|
 T Chasing A-Me 01|QID|4243|M|63.9,16.4;67.64,16.79|CC|N|To A-Me 01, in the cavern on the right as you enter the cave.\n[color=FF0000]NOTE: [/color]If she's not here, someone is either on the escort quest or she is waiting to respawn.\ndDo not get the follow-up.|
 K The Apes of Un'Goro|ACTIVE|4289|M|66.87,14.97|QO|1;2;3|N|Finish killing gorillas to loot the pelts.\n[color=FF0000]NOTE: [/color]This can be done inside or outside of the cave.|US|
-;C Super Sticky|QID|4504|M|60,26|N|Kill the tar monsters around the tarpits.| ** We don't have this quest yet -- Hendo72
 C Crate of Food Stuff|QID|3881|M|68.54,36.54|L|11113|N|Loot the Crate at the abandoned camp in the northeast section of the zone.|
 K Bloodpetal Lashers/Threshers|ACTIVE|4145|M|67.07,30.84|QO|1;4|N|Kill Bloodpetal Lashers and Threshers in this area until you are done.|
 C The Eastern Crystal Pylon|QID|4287|M|76.6,48.5;77.24,50.00|CC|QO|1|N|Make your way up the ramp southeast from your current location and click on the Pylon to examine it.|NC|
@@ -68,26 +70,28 @@ U Preserved Pheromone Mixture|ACTIVE|4292|M|79.93,49.89|N|Pour the bottle on the
 K Lar'korwi|ACTIVE|4292|M|79.93,49.89|L|11510|N|Kill Lar'korwi when he spawns to loot his head.|
 T The Bait for Lar'korwi|QID|4292|M|71.63,75.95|N|To Torwa Pathfinder.|
 T The Apes of Un'Goro|QID|4289|M|71.63,75.95|N|To Torwa Pathfinder.|
+l Shizzle's Flyer|ACTIVE|4503|QO|1;2|N|Finish collecting your required Webbed Diemetradon/Pterrordax Scales.|US|
 R The Slithering Scar|ACTIVE|3883^4496|M|50.86,77.29|IZ|1449;Ungoro Crater|
 K Gorishi Scent Gland|ACTIVE|4496|L|11837|N|Kill the bugs until one of them drops it.|S|
 C Alien Ecology|QID|3883|M|48.97,85.03|L|11131|N|Head down into the Hive and left into the big room. Use the vial once inside the room.|U|11132|
 K Gorishi Scent Gland|ACTIVE|4496|L|11837|N|Kill the bugs until one of them drops it.|US|
-K Pterrordax|ACTIVE|4501|M|50.10,88.32|QO|1|N|Exit the hive and head south. There are 3 pathes leading up into separate locations the cliffs. You'll find them spread out through this area.|
+K Pterrordax|ACTIVE|4501|M|55.8,88.3;50.6,88.3;45.29,88.17|CC|QO|1|N|Exit the hive and head south. There are 3 pathes leading up into separate locations the cliffs. You'll find them spread out through this area.|
+K Bloodpetal Trapper|ACTIVE|4145|M|67.07,30.84|QO|2|N|Kill Bloodpetal Trappers as you find them.|S!US|IZ|1449;Ungoro Crater|
 C Expedition Salvation|QID|3881|M|38.46,66.06|L|11112|N|Loot the Research Equipment at the abandoned camp in Terror Run.|
+K Frenzied Pterrordax|ACTIVE|4501|QO|2|N|You can find the Frenzied Pterrordaxes all over the west half of the zone, more towards the northwest part.|S|
 R Golakka Hot Springs|ACTIVE|4288|M|29.35,63.27|N|Make your way west.\n[color=FF0000]NOTE: [/color]Keep on your toes because there are higher level mobs with elites mixed in.|
-C Beware of Pterrordax|QID|4501|QO|1;2|N|You can find the Frenzied Pterrordaxes all over the west half of the zone, more towards the northwest part. Normal Pterrordaxes are in the south half of the zone, and a few near the North pylon.|
 C Western Crystal Pylon|QID|4288|M|25.1,61.2;23.76,59.20|CC|N|Make your way up the ramp and click on the Pylon to examine it.|NC|
 A Finding the Source|QID|974|M|30.92,50.44|N|From Krakle.\n[color=FF0000]NOTE: [/color]He is beside the big hill by the smaller water body.|
-;C Bone-Bladed Weapons|QID|4300|M|67,73|N|Kill raptors and gather Power Crystals.| ** This quest not picked up - Hendo72
-C Shizzle's Flyer|QID|4503|N|Finish killing your required Diemetradons and Pterrordaxes.|
-C Roll the Bones|QID|3882|N|Finish collecting your Dinosaur Bones.|
-C Beware of Pterrordax|QID|4501|N|You can find the Frenzied Pterrordaxes all over the west half of the zone, more towards the northwest part. Normal Pterrordaxes are in the south half of the zone, and a few near the North pylon.|
-
-C Finding the Source|QID|974|M|50,46|N|At the volcano in the center of the zone. Use the thermometer at the "Hot Spots" at the top (Where Blazerunner is).|U|12472|NC|
-C Volcanic Activity|QID|4502|N|Kill elementals, mainly around the cave on the south side of the volcano.|
-T Lost!|QID|4492|M|51.00,49.00|N|To Ringo, in the cave on the south side of the volcano.|
-A A Little Help From My Friends|QID|4491|M|51.9,49.85|N|From Ringo.|PRE|4492|
-C A Little Help From My Friends|QID|4491|M|43.62,8.50|N|Use the canteen on him if he faints. Run back to Marshal's Refuge.|U|11804|
+K Frenzied Pterrordax|ACTIVE|4501|M|27.15,42.07|QO|2|N|You can find the Frenzied Pterrordaxes all over the west half of the zone, more towards the northwest part.|US|
+l Dinosaur Bone|ACTIVE|3882|QO|1|N|Finish collecting your Dinosaur Bones.|US|
+R Fire Plume Ridge|ACTIVE|974^4502|M|42.40,46.99|N|Make your way to the volcano in the center of Un'Goro.|
+K Elementals|ACTIVE|4502|L|11829 9|N|Kill elementals to loot these.|S|
+C Finding the Source|QID|974|M|48.4,50.1;48.0,46.7;49.62,45.65|CC|N|At the volcano in the center of the zone. Use the thermometer at the "Hot Spot" at the top.\n[color=FF0000]NOTE: [/color]Stay out the lava pools.|U|12472|NC|
+T Lost!|QID|4492|M|51.90,49.85|N|To Ringo; inside the cave on the SOUTH side of the volcano.|
+A A Little Help From My Friends|QID|4491|M|51.90,49.85|ELITE|N|[color=80FF00]Timed Escort Quest:[/color]\nFrom Ringo.|PRE|4492|
+;A A Little Help From My Friends|QID|4491|M|51.90,49.85|N|Go back to Ringo in the cave to restart it.|FAIL|
+K Elementals|ACTIVE|4502|L|11829 9|N|Finish collecting the Ash.|US|
+C A Little Help From My Friends|QID|4491|M|43.62,8.50|N|Lead Ringo back to Marshal's Refuge within 15 minutes.\n[color=FF0000]NOTE: [/color]Use the canteen on him if he faints and don't get too far ahead of him.|U|11804|NC|
 T A Little Help From My Friends|QID|4491|M|43.62,8.50|N|To Spraggle Frock.|
 T Beware of Pterrordax|QID|4501|M|43.62,8.50|N|To Spraggle Frock.|
 T Shizzle's Flyer|QID|4503|M|44.4, 11.8|N|To Shizzle.|
@@ -100,11 +104,10 @@ T The Eastern Pylon|QID|4287|M|41.92,2.70|N|To J. D. Callie.|
 T The Western Pylon|QID|4288|M|41.92,2.70|N|To J. D. Callie.|
 A Making Sense of It|QID|4321|M|41.92,2.70|N|From J. D. Callie.|PRE|4285&4287&4288|
 T Making Sense of It|QID|4321|M|41.92,2.70|N|To J. D. Callie.|
-K Oozes|L|12235 30|ACTIVE|4294|M|44,22;49,35;60,54;52,67;42,64|CS|N|Kill Oozes as you head south towards Volcano, around the east side, and then around below the south side of the volcano. Unless you wantt to come back for more it is recommended you gather around 30.|
 
 T Finding the Source|QID|974|M|30.90,50.40|N|To Krakle, over at the Hot Springs.|
 A The New Springs|QID|980|M|30.90,50.40|N|From Krakle.|PRE|974|
-
+K Oozes|L|12235 30|ACTIVE|4294|M|44,22;49,35;60,54;52,67;42,64|CS|N|Kill Oozes as you head south towards Volcano, around the east side, and then around below the south side of the volcano. Unless you wantt to come back for more it is recommended you gather around 30.|
 R Silithus|M|29.00,22.00|N|Take the path up out of the crater in the northwest corner of the zone.|
 R Cenarion Hold|M|51,39|Z|Silithus|N|Follow the road southwest.|
 f Cenarion Hold|M|48.66,36.61|Z|Silithus|N|Get the flight path up the big hill, from Runk Windtamer.|
