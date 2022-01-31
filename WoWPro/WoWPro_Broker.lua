@@ -3066,7 +3066,7 @@ function WoWPro.CompleteStep(step, why, noUpdate)
     end
     WoWPro.why[step] = why
     if not noUpdate then
-        WoWPro.UpdateGuideReal({["WoWPro.CompleteStep"]=1})
+        WoWPro:UpdateGuide("WoWPro.CompleteStep")
     end
 end
 
