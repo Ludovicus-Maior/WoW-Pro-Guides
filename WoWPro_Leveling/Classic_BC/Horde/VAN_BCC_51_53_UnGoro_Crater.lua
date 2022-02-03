@@ -88,26 +88,27 @@ R Fire Plume Ridge|ACTIVE|974^4502|M|42.40,46.99|N|Make your way to the volcano 
 K Elementals|ACTIVE|4502|L|11829 9|N|Kill elementals to loot these.|S|
 C Finding the Source|QID|974|M|48.4,50.1;48.0,46.7;49.62,45.65|CC|N|At the volcano in the center of the zone. Use the thermometer at the "Hot Spot" at the top.\n[color=FF0000]NOTE: [/color]Stay out the lava pools.|U|12472|NC|
 T Lost!|QID|4492|M|51.90,49.85|N|To Ringo; inside the cave on the SOUTH side of the volcano.|
-A A Little Help From My Friends|QID|4491|M|51.90,49.85|ELITE|N|[color=80FF00]Timed Escort Quest:[/color]\nFrom Ringo.|PRE|4492|
-;A A Little Help From My Friends|QID|4491|M|51.90,49.85|N|Go back to Ringo in the cave to restart it.|FAIL|
+A A Little Help From My Friends|QID|4491|M|51.90,49.85|ELITE|N|[color=80FF00]Timed Escort Quest:[/color]\nFrom Ringo.\n[color=FF0000]NOTE: [/color]If he's not here, then someone is one the quest or he's waiting to repawn.|PRE|4492|
+A A Little Help From My Friends|QID|4491|M|51.90,49.85|N|Go back to Ringo in the cave to restart it.\n[color=FF0000]NOTE: [/color]If he's not here, then someone is one the quest or he's waiting to repawn.|FAIL|
 K Elementals|ACTIVE|4502|L|11829 9|N|Finish collecting the Ash.|US|
-C A Little Help From My Friends|QID|4491|M|43.62,8.50|N|Lead Ringo back to Marshal's Refuge within 15 minutes.\n[color=FF0000]NOTE: [/color]Use the canteen on him if he faints and don't get too far ahead of him.|U|11804|NC|
+C A Little Help From My Friends|QID|4491|M|43.79,8.38|N|Lead Ringo back to Marshal's Refuge within 25 minutes.\n[color=FF0000]NOTE: [/color]Use the canteen on him if he faints and don't get too far ahead of him.|U|11804|NC|
 T A Little Help From My Friends|QID|4491|M|43.62,8.50|N|To Spraggle Frock.|
 T Beware of Pterrordax|QID|4501|M|43.62,8.50|N|To Spraggle Frock.|
-T Shizzle's Flyer|QID|4503|M|44.4, 11.8|N|To Shizzle.|
 T Roll the Bones|QID|3882|M|43.50,7.43|N|To Spark Nilminer.|
 T Alien Ecology|QID|3883|M|43.89,7.23|N|To Hol'anyee Marshall.|
 T Expedition Salvation|QID|3881|M|43.95,7.14|N|To Williden Marshal.|
-T Larion and Muigin|QID|4145|M|45.5,8.7|N|To Larion.|
-T The Northern Pylon|QID|4285|M|41.92,2.70|N|To J. D. Callie.|
+T The Northern Pylon|QID|4285|M|41.92,2.70|N|To J. D. Callie, inside the cave.|
 T The Eastern Pylon|QID|4287|M|41.92,2.70|N|To J. D. Callie.|
 T The Western Pylon|QID|4288|M|41.92,2.70|N|To J. D. Callie.|
 A Making Sense of It|QID|4321|M|41.92,2.70|N|From J. D. Callie.|PRE|4285&4287&4288|
 T Making Sense of It|QID|4321|M|41.92,2.70|N|To J. D. Callie.|
+T Larion and Muigin|QID|4145|M|45.55,8.72|N|To Larion.|
+A Marvon's Workshop|QID|4147|M|45.55,8.72|N|From Larion.|PRE|4145|
+T Shizzle's Flyer|QID|4503|M|44.23,11.59|N|To Shizzle.|
 
 T Finding the Source|QID|974|M|30.90,50.40|N|To Krakle, over at the Hot Springs.|
 A The New Springs|QID|980|M|30.90,50.40|N|From Krakle.|PRE|974|
-K Oozes|ACTIVE|4294|M|34.43,38.62|L|12235 30|N|Kill Oozes until you have 30.|
+K Oozes|ACTIVE|4294|M|34.43,38.62|L|12235 30|N|Finish killing Oozes until you have 30 Samples.|US|
 R Silithus|M|29.00,22.00|N|Take the path up out of the crater in the northwest corner of the zone.|
 R Cenarion Hold|M|51,39|Z|Silithus|N|Follow the road southwest.|
 f Cenarion Hold|M|48.66,36.61|Z|Silithus|N|Get the flight path up the big hill, from Runk Windtamer.|
