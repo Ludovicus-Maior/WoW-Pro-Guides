@@ -84,7 +84,7 @@ C Western Crystal Pylon|QID|4288|M|25.1,61.2;23.76,59.20|CC|N|Make your way up t
 A Finding the Source|QID|974|M|30.92,50.44|N|From Krakle.\n[color=FF0000]NOTE: [/color]He is beside the big hill by the smaller water body.|
 K Frenzied Pterrordax|ACTIVE|4501|M|27.15,42.07|QO|2|N|You can find the Frenzied Pterrordaxes all over the west half of the zone, more towards the northwest part.|US|
 l Dinosaur Bone|ACTIVE|3882|QO|1|N|Finish collecting your Dinosaur Bones.|US|
-R Fire Plume Ridge|ACTIVE|974^4502|M|42.40,46.99|N|Make your way to the volcano in the center of Un'Goro.|
+R Fire Plume Ridge|ACTIVE|974^4502|M|42.40,46.99|N|Make your way to the volcano in the center of Un'Goro.|IZ|1449;Ungoro Crater|
 K Elementals|ACTIVE|4502|L|11829 9|N|Kill elementals to loot these.|S|
 C Finding the Source|QID|974|M|48.4,50.1;48.0,46.7;49.62,45.65|CC|N|At the volcano in the center of the zone. Use the thermometer at the "Hot Spot" at the top.\n[color=FF0000]NOTE: [/color]Stay out the lava pools.|U|12472|NC|
 T Lost!|QID|4492|M|51.90,49.85|N|To Ringo; inside the cave on the SOUTH side of the volcano.|
@@ -105,30 +105,32 @@ T Making Sense of It|QID|4321|M|41.92,2.70|N|To J. D. Callie.|
 T Larion and Muigin|QID|4145|M|45.55,8.72|N|To Larion.|
 A Marvon's Workshop|QID|4147|M|45.55,8.72|N|From Larion.|PRE|4145|
 T Shizzle's Flyer|QID|4503|M|44.23,11.59|N|To Shizzle.|
-
 T Finding the Source|QID|974|M|30.90,50.40|N|To Krakle, over at the Hot Springs.|
 A The New Springs|QID|980|M|30.90,50.40|N|From Krakle.|PRE|974|
-K Oozes|ACTIVE|4294|M|34.43,38.62|L|12235 30|N|Finish killing Oozes until you have 30 Samples.|US|
-R Silithus|M|29.00,22.00|N|Take the path up out of the crater in the northwest corner of the zone.|
-R Cenarion Hold|M|51,39|Z|Silithus|N|Follow the road southwest.|
-f Cenarion Hold|M|48.66,36.61|Z|Silithus|N|Get the flight path up the big hill, from Runk Windtamer.|
-F Gadgetzan|M|48.8,36.6|Z|Silithus|N|At Runk Windtamer.|
-T Bungle in the Jungle|QID|4496|M|50.8,27|Z|Tanaris|N|To Alchemist Pestlezugg.|
-T Super Sticky|QID|4504|M|51.6,26.8|Z|Tanaris|N|To Tran'rek.|
+K Oozes|ACTIVE|4294|M|34.43,38.62|L|12235 30|N|Finish killing Oozes until you have 30 Samples.|US|IZ|1449;Ungoro Crater|
+R Marshal's Refuge|ACTIVE|4496|M|45.88,13.39|TAXI|Cenarion Hold|IZ|1449;Ungoro Crater|
+F Gadgetzan|ACTIVE|4496|M|45.23,5.84|N|At Gryfe.|TAXI|Cenarion Hold|IZ|1449;Ungoro Crater|
+R Silithus|ACTIVE|4496|M|29.3,22.4;29.72,10.23|CC|N|Take the path in the northwest corner up and out of Un'Goro.\n[color=FF0000]NOTE: [/color]We're going to get the Silithus FP before we leave.|TAXI|-Cenarion Hold|
+R Silithus|ACTIVE|4496|M|86.21,11.60|Z|Silithus|N|Continue up the path and out of Un'Goro.|TAXI|-Cenarion Hold|
+R Cenarion Hold|ACTIVE|4496|M|51,39|Z|Silithus|N|Follow the road southwest.|TAXI|-Cenarion Hold|
+f Cenarion Hold|ACTIVE|4496|M|48.68,36.67|Z|Silithus|N|Get the flight path from Runk Windtamer.|TAXI|-Cenarion Hold|
+F Gadgetzan|ACTIVE|4496|M|48.68,36.67|Z|Silithus|N|At Runk Windtamer.|IZ|1451;Silithus|
+T Bungle in the Jungle|QID|4496|M|50.89,26.96|Z|Tanaris|N|To Alchemist Pestlezugg.|
+T Super Sticky|QID|4504|M|51.57,26.76|Z|Tanaris|N|To Tran'rek.|
 
 F Thunder Bluff|AVAILABLE|3761|M|51.60,25.44|Z|Tanaris|
-A Assisting Arch Druid Runetotem|QID|3762|M|45.6,64.2|Z|Thunder Bluff|N|From Innkeeper Pala.|
-A Un'Goro Soil|QID|3761|M|78.4,28.4|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem On Elder Rise|
-T Un'Goro Soil|QID|3761|M|77.4,22.4|Z|Thunder Bluff|N|To Ghede.|
-A Morrowgrain Research|QID|3782|M|78.4,28.4|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem.|PRE|3761|
-T Morrowgrain Research|QID|3782|M|70.6,33|Z|Thunder Bluff|N|To Bashana Runetotem.|
+A Assisting Arch Druid Runetotem|QID|3762|M|45.83,64.76|Z|Thunder Bluff|N|From Innkeeper Pala.|
+T Assisting Arch Druid Runetotem|QID|3762|M|78.61,28.58|Z|Thunder Bluff|N|To Arch Druid Hamuul Runetotem; on Elder Rise.|
+A Un'Goro Soil|QID|3761|M|78.61,28.58|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem.|PRE|3762|
+T Un'Goro Soil|QID|3761|M|77.46,22.03|Z|Thunder Bluff|N|To Ghede; standing beside the dirt pile outside.|
+A Morrowgrain Research|QID|3782|M|78.61,28.58|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem.|PRE|3761|
+T Morrowgrain Research|QID|3782|M|71.05,34.19|Z|Thunder Bluff|N|To Bashana Runetotem.|
 
-F Crossroads|ACTIVE|4502|M|46.8,50|Z|Thunder Bluff|N|At Wind Rider Master Tal.|
-h The Crossroads|ACTIVE|4502|M|52,29.8|Z|The Barrens|N|At Innkeeper Boorand Plainswind.|
+F Ratchet|ACTIVE|4502^4147|M|47.02,49.83|Z|Thunder Bluff|
+T Volcanic Activity|QID|4502|M|62.45,38.74|Z|The Barrens|N|To Liv Rizzlefix.|
+T Marvon's Workshop|QID|4147|M|62.45,38.74|Z|The Barrens|N|To Liv Rizzlefix.|
 
-F Ratchet|ACTIVE|4502|M|51.4,30.2|Z|The Barrens|N|At Wind Rider Master Devrak.|
-T Volcanic Activity|QID|4502|M|62.4,38.6|Z|The Barrens|N|To Liv Rizzlefix.|
-T Marvon's Workshop|QID|4147|M|62.4,38.6|Z|The Barrens|N|To Liv Rizzlefix.|
-
+b Booty Bay|AVAILABLE|3841|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+F Kargath|AVAILABLE|3841|M|26.87,77.09|Z|Stranglethorn Vale|
 ]]
 end)
