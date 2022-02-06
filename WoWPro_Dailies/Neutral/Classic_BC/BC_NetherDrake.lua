@@ -129,9 +129,9 @@ A The Not-So-Friendly Skies...|QID|11035|M|66.0,86.47|REP|Netherwing;1015;neutra
 A The Great Netherwing Egg Hunt|QID|11049|M|66.0,86.47|REP|Netherwing;1015;neutral-revered|N|From Yarzill the Merc.|
 
 A Netherwing Crystals|QID|11015|M|66.12,86.36|REP|Netherwing;1015;neutral-revered|N|From Taskmaster Varkule Dragonbreath.|
-A Nethermine Flayer Hide|QID|11016|P|Skinning;350|M|66.12,86.36|REP|Netherwing;1015;neutral-revered|N|From Taskmaster Varkule Dragonbreath.|
-A Netherdust Pollen|QID|11017|P|Herbalism;350|M|66.12,86.36|REP|Netherwing;1015;neutral-revered|N|From Taskmaster Varkule Dragonbreath.|
-A Nethercite Ore|QID|11018|P|Mining;350|M|66.12,86.36|REP|Netherwing;1015;neutral-revered|N|From Taskmaster Varkule Dragonbreath.|
+A Nethermine Flayer Hide|QID|11016|M|66.12,86.36|N|From Taskmaster Varkule Dragonbreath.|P|Skinning:393;1+50|REP|Netherwing;1015;neutral-revered|
+A Netherdust Pollen|QID|11017|M|66.12,86.36|N|From Taskmaster Varkule Dragonbreath.|P|Herbalism;182;1+50|REP|Netherwing;1015;neutral-revered|
+A Nethercite Ore|QID|11018|M|66.12,86.36|N|From Taskmaster Varkule Dragonbreath.|P|Mining;156;1+50|REP|Netherwing;1015;neutral-revered|
 A The Netherwing Mines|QID|11075|M|66.12,86.36|REP|Netherwing;1015;friendly-revered|N|From Taskmaster Varkule Dragonbreath.|
 
 A The Booterang: A Cure For The Common Worthless Peon|QID|11055|REP|Netherwing;1015;friendly-revered|M|66.84,86.10|N|From Chief Overseer Mudlump.|
