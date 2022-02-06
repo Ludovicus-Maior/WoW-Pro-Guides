@@ -21,36 +21,31 @@ R Blackrock Mountain|AVAILABLE|4726|M|33.58,74.79|Z|Searing Gorge|N|Make your wa
 R Burning Steppes|AVAILABLE|4726|M|47.30,68.25|Z|Burning Steppes|N|Make your way through Blackrock Mountain and exit out the other side.|TAXI|Thorium Point|
 R The Pillar of Ash|AVAILABLE|4726|M|51.34,48.15|Z|Burning Steppes|N|From the bottom of the ramp, follow the road east.\n[color=FF0000]NOTE: [/color]Watch your aggro around the higher level mobs.|TAXI|-Flame Crest|
 R Ruins of Thaurissan|AVAILABLE|4726|M|63.09,47.88|Z|Burning Steppes|N|Continue eastward until the first intersection.|TAXI|-Flame Crest|
-K War Reavers|ACTIVE|4061|M|64.57,38.02|Z|Burning Steppes|N|Kill War Reavers to loot the Shards.\n[color=FF0000]NOTE: [/color]They also drop from the Greater Obsidians, but they are much higher level.|S|
+K War Reavers|ACTIVE|4061|M|64.57,38.02|Z|Burning Steppes|L|11266 10|N|Kill War Reavers to loot the Shards.\n[color=FF0000]NOTE: [/color]They also drop from the Greater Obsidians, but they are much higher level.|S|
 R Flame Crest|AVAILABLE|4726|M|63.74,30.31|Z|Burning Steppes|N|Work your way through Ruins of Thaurissan to the ramp leading into Flame Crest.|TAXI|-Flame Crest|
 f Flame Crest|AVAILABLE|4726|M|65.69,24.22|Z|Burning Steppes|N|From Vahgruk, at the top of the ramp.|TAXI|-Flame Crest|
 A Broodling Essence|QID|4726|M|65.23,24.01|N|From Tinkee Steamboil.|
 A Tablet of the Seven|QID|4296|M|65.15,23.92|N|From Maxwort Uberglint.|
-C Broodling Essence|QID|4726|N|Use the Draco-Incarcinatrix 9000 on the whelps and then kill them to loot the Essence.|U|12284|S|
-R Terror Wing Path|AVAILABLE|4022|M|80.16,28.44|Z|Burning Steppes|N|Make your way east from Flame Crest.|
-R Slither Rock|AVAILABLE|4022|M|91.06,31.06|Z|Burning Steppes|N|Continue east.|
-A A Taste of Flame|QID|4022|M|95.08,31.57|N|From Cyrus Therepentous inside the cave|
-C Black Dragonflight Molt|QID|M|95.08,31.57|N|Speak with Cyrus Therepentous to spawn|
-T A Taste of Flame|QID|4022|M|95.08,31.57|N|To Cyrus Therepentous.|
-T Dreadmaul Rock|QID|3821|M|79.8,45.4|N|Sha'ni Proudtusk|
-A Krom'Grul|QID|3822|M|80.0,45.4|N|Sha'ni|PRE|3821|
-C Krom'Grul|QID|3822|M|83,30;83,39|CN|N|He has two spawn points in either cave|
-C The Rise of the Machines|QID|4061|M|56,41;59,37;68,37|CN|Z|Burning Steppes|N|Near Ruins of Thaurissan War Reavers, Greater Rock Elems, etc|
-C Tablet of the Seven|QID|4296|M|54,40|N|Dwarf statue|
-T Tablet of the Seven|QID|4296|M|65.2,23.6|N|Maxwort Uberglint|
-T Broodling Essence|QID|4726|M|65.2,23.6|N|Tinkee Steamboil|
-A Felnok Steelspring|QID|4808|PRE|4726|N|Tinkee Steamboil|
+C Broodling Essence|QID|4726|L|12283 8|N|Use the Draco-Incarcinatrix 9000 on the whelps and then kill them to loot the Essence.|U|12284|S|
+R Dreadmaul Rock|ACTIVE|3821|M|74.04,35.06|Z|Burning Steppes|
+T Dreadmaul Rock|QID|3821|M|76.0,38.0;80.02,45.39|CC|Z|Burning Steppes|N|To Sha'ni Proudtusk.\n[color=FF0000]NOTE: [/color]If she's not there, click the skeleton on the altar to summon her.|
+R Terror Wing Path|AVAILABLE|4022&4023|M|80.16,28.44|Z|Burning Steppes|N|Make your way back down and head north.|
+R Slither Rock|AVAILABLE|4022&4023|M|91.06,31.06|Z|Burning Steppes|N|Continue east.|
+A A Taste of Flame|QID|4022^4023|M|95.08,31.57|N|From Cyrus Therepentous inside the cave.|
+C Black Dragonflight Molt|QID|4023|M|95.08,31.57|Z|Burning Steppes|L|10575|N|Speak with Cyrus Therepentous to spawn a Frenzied Black Drake. Kill the Drake to loot the Molt.\n[color=FF0000]NOTE: [/color]It won't spawn as long as there is a previous body present; wait until it despawns to do it.|
+T A Taste of Flame|QID|4022^4023|M|95.08,31.57|N|To Cyrus Therepentous.|
+C Broodling Essence|QID|4726|M|76.35,28.89|Z|Burning Steppes|L|12283 8|N|Finish collecting the Essence.|U|12284|US|
+C Tablet of the Seven|QID|4296|M|54.11,40.75|L|11470|N|Click on the monument in front of the Dwarf statue and select 'Transcribe the tablet'.|
+K War Reavers|ACTIVE|4061|M|64.57,38.02|Z|Burning Steppes|L|11266 10|N|Finish collecting the Shards.\n[color=FF0000]NOTE: [/color]They also drop from the Greater Obsidians, but they are much higher level.|US|
+R Flame Crest|ACTIVE|4296^4726|M|63.74,30.31|Z|Burning Steppes|
+T Broodling Essence|QID|4726|M|65.23,24.01|Z|Burning Steppes|N|To Tinkee Steamboil.|
+A Felnok Steelspring|QID|4808|M|65.23,24.01|Z|Burning Steppes|N|From Tinkee Steamboil.|PRE|4726|
+T Tablet of the Seven|QID|4296|M|65.15,23.92|N|To Maxwort Uberglint.|
 
-F Kargath|
-T Krom'Grul|QID|3822|N|Thal'trak Proudtusk-Large patrol path with Kargath Expeditionary Force|
-T The Rise of the Machines|QID|4061|N|Hierophant Theodora Mulvadania|
-A The Rise of the Machines|QID|4062|PRE|4061|N|Hierophant Theodora Mulvadania|
-; --- FIXME: Coords found in N tag, using: 25.00,44.00
-T The Rise of the Machines|QID|4062|M|26.00,44.80|Z|Badlands|N|In the Badlands|
-
-H The Crossroads|
-F Orgrimmar|
-; --- FIXME: Coords found in N tag, using: 52.00,34.00
-T Bone-Bladed Weapons|QID|4300|M|55.6,34.2|Z|Orgrimmar|N|Jes'Rimon Top of the Alchemy Building|
+F Kargath|ACTIVE|4061|M|65.69,24.22|Z|Burning Steppes|
+T The Rise of the Machines|QID|4061|M|3.02,47.81|Z|Badlands|N|To Hierophant Theodora Mulvadania.|
+A The Rise of the Machines|QID|4062|M|3.02,47.81|Z|Badlands|N|From Hierophant Theodora Mulvadania.|PRE|4061|
+T The Rise of the Machines|QID|4062|M|25.94,44.86|Z|Badlands|N|To Lotwil Veriatus at his camp in The Dustbowl.|
+H Orgrimmar|ACTIVE|-4062|AVAILABLE|-4062|N|If your hearth is not set to Orgrimmar, then make your way there.|
 ]]
 end)
