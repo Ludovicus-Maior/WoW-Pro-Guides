@@ -46,6 +46,13 @@ F Kargath|ACTIVE|4061|M|65.69,24.22|Z|Burning Steppes|
 T The Rise of the Machines|QID|4061|M|3.02,47.81|Z|Badlands|N|To Hierophant Theodora Mulvadania.|
 A The Rise of the Machines|QID|4062|M|3.02,47.81|Z|Badlands|N|From Hierophant Theodora Mulvadania.|PRE|4061|
 T The Rise of the Machines|QID|4062|M|25.94,44.86|Z|Badlands|N|To Lotwil Veriatus at his camp in The Dustbowl.|
-H Orgrimmar|ACTIVE|-4062|AVAILABLE|-4062|N|If your hearth is not set to Orgrimmar, then make your way there.|
+H Orgrimmar|ACTIVE|3504|N|If your hearth is not set to Orgrimmar, then make your way there.|
+P Moonglade|ACTIVE|3504|N|Use your portal to travel to Moonglade.|C|Druid|
+= Train|ACTIVE|3504|N|Do your level 54 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+P Orgrimmar|ACTIVE|3504|N|Use your portal to return to Orgrimmar.\n[color=FF0000]NOTE: [/color]If you end up elsewhere, get back to Orgrimmar.|C|Druid|
+
+
+N Orgrimmar|AVAILABLE|5155|N|This guide begins in Orgrimmar.|
+
 ]]
 end)
