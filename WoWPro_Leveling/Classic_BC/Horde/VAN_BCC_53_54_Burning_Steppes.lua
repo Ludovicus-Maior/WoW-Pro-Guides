@@ -51,8 +51,5 @@ P Moonglade|ACTIVE|3504|N|Use your portal to travel to Moonglade.|C|Druid|
 = Train|ACTIVE|3504|N|Do your level 54 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 P Orgrimmar|ACTIVE|3504|N|Use your portal to return to Orgrimmar.\n[color=FF0000]NOTE: [/color]If you end up elsewhere, get back to Orgrimmar.|C|Druid|
 
-
-N Orgrimmar|AVAILABLE|5155|N|This guide begins in Orgrimmar.|
-
 ]]
 end)
