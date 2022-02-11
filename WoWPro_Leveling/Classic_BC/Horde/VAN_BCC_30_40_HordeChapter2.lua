@@ -609,7 +609,7 @@ R Mirage Raceway|ACTIVE|1107|M|80.34,77.10|N|Leave Freewind Post and follow the 
 T Encrusted Tail Fins|QID|1107|M|78.15,77.12|N|To Wizzle Brassbolts.|
 H Orgrimmar|AVAILABLE|1268|
 F Camp Taurajo|AVAILABLE|1268|M|45.13,63.90|Z|Orgrimmar|
-R Dustwallow Marsh|AVAILABLE|1268|M|28.53,47.18|Z|The Barrens|N|Head east out of Camp Taurajo to Southern Gold Road and follow the signs to Dustwallow Marsh.|
+R Dustwallow Marsh|AVAILABLE|1268|M|28.53,47.18|Z|Dustwallow Marsh|N|Head east out of Camp Taurajo to Southern Gold Road and follow the signs to Dustwallow Marsh.|
 A Suspicious Hoofprints|QID|1268|M|29.70,47.65|Z|Dustwallow Marsh|N|The hoof prints are on the ground at the Shady Rest Inn near where Inspector Tarem is standing.|
 A The Black Shield |QID|1251|M|29.63,48.59|Z|Dustwallow Marsh|N|Click on the shield hanging over the fire place inside the Inn.|
 A Lieutenant Paval Reethe|QID|1269|M|29.83,48.24|Z|Dustwallow Marsh|N|Click on the Theramore Guard badge found on the boards on the floor of the Inn.|
