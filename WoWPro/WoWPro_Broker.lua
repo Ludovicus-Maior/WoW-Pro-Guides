@@ -1895,7 +1895,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- C step implicit completion
             if (stepAction == "C") and WoWPro:QIDsInTableLogical(QID,WoWPro.QuestLog) and (not WoWPro.questtext[guideIndex]) then
-                if QidMapReduce(QID,false,"&","^",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
+                if QidMapReduce(QID,false,"&","^",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end, "C-implicit") then
                     WoWPro.CompleteStep(guideIndex,"Implicit criteria met")
                 end
             end
@@ -1980,9 +1980,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 						WoWPro.why[guideIndex] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
 						break
 					end
-                elseif stepAction == "T" and QidMapReduce(QID,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard end) then
+                elseif stepAction == "T" and QidMapReduce(QID,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard end, "Skip-CT1") then
                     -- For turnins, make sure we have completed the criteria
-                    if WoWPro.conditional[guideIndex] and not QidMapReduce(QID,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
+                    if WoWPro.conditional[guideIndex] and not QidMapReduce(QID,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end, "Skip-CT2") then
                         skip = true
                         WoWPro.why[guideIndex] = "T criteria not met"
                         break
