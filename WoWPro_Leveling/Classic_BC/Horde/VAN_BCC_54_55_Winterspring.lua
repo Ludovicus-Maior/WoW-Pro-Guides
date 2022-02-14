@@ -6,7 +6,7 @@ WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Western_Plaguelands')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-K Ragged Owlbeast|ACTIVE|4521|N|Kill them as you see them.|S|
+K Owlbeasts|ACTIVE|4521|QO|1;2|N|Kill Ragged and Raging Owlbeasts as you see them.|S|
 R Everlook|AVAILABLE|3783|M|53.7,34.5;58.96,38.62|CC|Z|Winterspring|N|Follow the road east and then south at the waypoint.|
 A Are We There, Yeti?|QID|3783|M|60.88,37.62|Z|Winterspring|N|From Umi Rumplesnicker.|
 h Everlook|AVAILABLE|6029|M|61.36,38.38|Z|Winterspring|N|At Innkeeper Vizzie.|
@@ -19,7 +19,7 @@ A Chillwind Horns|QID|4809|M|61.63,38.61|Z|Winterspring|N|From Felnok Steelsprin
 C Chillwind Horns|QID|4809|M|66.00,29.00|Z|Winterspring|L|12444 8|N|Loot these by killing Chimera.|S|
 C Are We There, Yeti?|QID|3783|M|61,38|Z|Winterspring|L|12366 10|N|Loot these by killing Ice Whistle Yetis.|S|
 f Everlook|ACTIVE|5054|M|60.47,36.30|Z|Winterspring|N|At Yugrek, outside Everlook on the northwest side.|
-K Ursius of the Shardtooth|ACTIVE|5054|M|62.8,29.3|Z|Winterspring|N|Grind mobs north of everlook til he shows up.  He'll appear somewhere in this general area|
+K Ursius of the Shardtooth|ACTIVE|5054|M|62.8,29.3|Z|Winterspring|N|He's a whte bear that appears somewhere in area north of Everlook.[color=FF0000]NOTE: [/color]Work on your stickies while you search.|T|Ursius|
 T Ursius of the Shardtooth|QID|5054|M|61.93,38.38|Z|Winterspring|N|To Storm Shadowhoof back in Winterspring.|
 A Brumeran of the Chillwind|QID|5055|M|61.93,38.38|Z|Winterspring|N|From Storm Shadowhoof.|PRE|5054|
 C Brumeran of the Chillwind|QID|5055|M|60.00,60.00|Z|Winterspring|N|Pats near waypoint.|
