@@ -19,12 +19,12 @@ A Chillwind Horns|QID|4809|M|61.63,38.61|Z|Winterspring|N|From Felnok Steelsprin
 C Chillwind Horns|QID|4809|M|66.00,29.00|Z|Winterspring|L|12444 8|N|Loot these by killing Chimera.|S|
 C Are We There, Yeti?|QID|3783|M|61,38|Z|Winterspring|L|12366 10|N|Loot these by killing Ice Whistle Yetis.|S|
 f Everlook|ACTIVE|5054|M|60.47,36.30|Z|Winterspring|N|At Yugrek, outside Everlook on the northwest side.|
-K Ursius of the Shardtooth|ACTIVE|5054|M|62.8,29.3|Z|Winterspring|N|He's a whte bear that appears somewhere in area north of Everlook.[color=FF0000]NOTE: [/color]Work on your stickies while you search.|T|Ursius|
+K Ursius of the Shardtooth|ACTIVE|5054|M|62.8,29.3|Z|Winterspring|QO|1|N|He's a lv 56 whte bear that appears somewhere in area north of Everlook.[color=FF0000]NOTE: [/color]Work on your stickies while you search.|T|Ursius|
 T Ursius of the Shardtooth|QID|5054|M|61.93,38.38|Z|Winterspring|N|To Storm Shadowhoof back in Winterspring.|
 A Brumeran of the Chillwind|QID|5055|M|61.93,38.38|Z|Winterspring|N|From Storm Shadowhoof.|PRE|5054|
-C Brumeran of the Chillwind|QID|5055|M|60.00,60.00|Z|Winterspring|N|Pats near waypoint.|
-
+K Brumeran of the Chillwind|ACTIVE|5055|M|60.00,60.00|Z|Winterspring|QO|1|N|Pats near waypoint.|T|Brumeran|S|
 C Strange Sources|QID|4842|M|59.00,73.00|Z|Winterspring|N|Take the road south to Darkwhisper Gorge.|
+K Brumeran of the Chillwind|ACTIVE|5055|M|60.00,60.00|Z|Winterspring|QO|1|N|Pats near waypoint.|T|Brumeran|US|
 
 H Everlook|
 T Brumeran of the Chillwind|QID|5055|M|61.93,38.38|Z|Winterspring|N|Storm Shadowhoof|
