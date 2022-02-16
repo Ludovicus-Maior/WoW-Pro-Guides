@@ -23,17 +23,21 @@ K Ursius of the Shardtooth|ACTIVE|5054|M|62.8,29.3|Z|Winterspring|QO|1|N|He's a 
 T Ursius of the Shardtooth|QID|5054|M|61.93,38.38|Z|Winterspring|N|To Storm Shadowhoof back in Winterspring.|
 A Brumeran of the Chillwind|QID|5055|M|61.93,38.38|Z|Winterspring|N|From Storm Shadowhoof.|PRE|5054|
 K Brumeran of the Chillwind|ACTIVE|5055|M|60.00,60.00|Z|Winterspring|QO|1|N|Pats near waypoint.|T|Brumeran|S|
-C Strange Sources|QID|4842|M|59.00,73.00|Z|Winterspring|N|Take the road south to Darkwhisper Gorge.|
-K Brumeran of the Chillwind|ACTIVE|5055|M|60.00,60.00|Z|Winterspring|QO|1|N|Pats near waypoint.|T|Brumeran|US|
+R Strange Sources|ACTIVE|4842|M|60.16,73.34|CC|Z|Winterspring|QO|1|N|Take the road south to Darkwhisper Gorge.|
+K Brumeran of the Chillwind|ACTIVE|5055|M|58.0,61.7;60.00,60.00|CC|Z|Winterspring|QO|1|N|Start at the first waypoint and continue along until you find Brumeran.|T|Brumeran|US|
+C Chillwind Horns|QID|4809|M|67.17,49.55|Z|Winterspring|L|12444 8|N|Finish collecting your Horns.|US|
+C Are We There, Yeti?|QID|3783|M|66.87,42.37|Z|Winterspring|L|12366 10|N|Finish looting your Fur.[color=FF0000]NOTE: [/color]There are more inside the cave if the respawns are too slow.|US|
+R Everlook|ACTIVE|5055|M|62.11,40.76|Z|Winterspring|
+T Are We There, Yeti?|QID|3783|M|60.88,37.62|Z|Winterspring|N|To Umi Remplesnicker.|
+A Are We There, Yeti?|QID|977|M|60.88,37.62|Z|Winterspring|N|From Umi Remplesnicker.|PRE|3783|
+T Chillwind Horns|QID|4809|M|61.63,38.61|Z|Winterspring|N|To Felnok Steelspring.|
+A Return to Tinkee|QID|4810|M|61.63,38.61|Z|Winterspring|N|From Felnok Steelspring.|PRE|4809|
+T Brumeran of the Chillwind|QID|5055|M|61.93,38.38|Z|Winterspring|N|To Storm Shadowhoof.|
+R Winterfall Village|ACTIVE|8464|M|63.39,34.36|Z|Winterspring|N|Exit Everlook and make your way to the north.|
+K Threat of the Winterfall|ACTIVE|5082|M|67.37,36.68|Z|Winterspring|QO|2|N|Found in this area.|S|IZ|Winterfall Village|
+K Winterfall Activity|ACTIVE|8464|M|67.37,36.68|Z|Winterspring|QO|1;2;3|N|Kill the required mobs.|
 
-H Everlook|
-T Brumeran of the Chillwind|QID|5055|M|61.93,38.38|Z|Winterspring|N|Storm Shadowhoof|
-C Are We There, Yeti?|QID|3783|M|61,38|Z|Winterspring|N|Use Yeti on Legacki|U|15778|
-C Are We There, Yeti?|QID|3783|M|51,27|Z|Winterspring|N|Use Yeti on Sprinkle|U|15778|
-C Are We There, Yeti?|QID|3783|M|44,9;46,14|CN|Z|Winterspring|N|Use Yeti on Quixxil|U|15778|
 C Threat of the Winterfall|QID|5082|M|30,36;39,42|CN|Z|Winterspring|N|Found in these areas|
-C Wild Guardians|QID|4741|M|63.6,19.0|Z|Winterspring|N|Ragged Owls are west of Everlook, Raging are just north|
-C Chillwind Horns|QID|4809|M|66.00,29.00|Z|Winterspring|N|Large Chimera concentration around waypoint.|
 
 T Threat of the Winterfall|QID|5082|M|31.27,45.16|Z|Winterspring|N|Donovan Snonwden|
 T Strange Sources|QID|4842|M|31.27,45.16|Z|Winterspring|N|Donovan Snonwden|
@@ -42,9 +46,11 @@ T Winterfall Firewater|QID|5083|
 A Falling to Corruption|QID|5084|M|31.27,45.16|Z|Winterspring|N|Donovan Snonwden|PRE|5083|
 
 T Are We There, Yeti?|QID|3783|M|60.88,37.62|Z|Winterspring|N|Everlook-Umi Remplesnicker|
-A Are We There, Yeti?|QID|977|M|60.88,37.62|Z|Winterspring|N|Everlook-Umi Remplesnicker|PRE|3783|
-T Chillwind Horns|QID|4809|M|61.63,38.61|Z|Winterspring|N|Felnok Steelspring|
 
+;C Wild Guardians|QID|4741|M|63.6,19.0|Z|Winterspring|N|Ragged Owls are west of Everlook, Raging are just north|
+;C Are We There, Yeti?|QID|3783|M|61,38|Z|Winterspring|N|Use Yeti on Legacki|U|15778|
+;C Are We There, Yeti?|QID|3783|M|51,27|Z|Winterspring|N|Use Yeti on Sprinkle|U|15778|
+;C Are We There, Yeti?|QID|3783|M|44,9;46,14|CN|Z|Winterspring|N|Use Yeti on Quixxil|U|15778|
 
 C Winterfall Activity|QID|8464|M|67.00,35.5;33.4,36.4;39.8,42.7|CN|Z|Winterspring|N|Mobs can be found in three areas|
 C Are We There, Yeti?|QID|977|M|66.00,43.00|Z|Winterspring|N|pristine horns here|
