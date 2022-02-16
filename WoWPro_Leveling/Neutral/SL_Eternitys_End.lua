@@ -83,12 +83,9 @@ C Favor of the First Ones|QID|65771|M|38.62,58.20|Z|1970;Zereth Mortis|QO|1<6|NC
 C Favor of the First Ones|QID|65771|M|39.90,60.90|Z|1970;Zereth Mortis|QO|1<7|NC|N|Click the bowl on the ground to use the incense.|
 C Favor of the First Ones|QID|65771|M|41.40,62.70|Z|1970;Zereth Mortis|QO|1<8|NC|N|Click the bowl on the ground to use the incense.|
 T Favor of the First Ones|QID|65771|M|34.86,64.85|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
-
 A Necessary Harvest|QID|65772|PRE|65768|M|34.78,64.82|Z|1970;Zereth Mortis|N|From Elder Ara.|
 C Necessary Harvest|QID|65772|M|37.97,62.11|Z|1970;Zereth Mortis|N|Collect Latent Protein from raptora, cervids, and lupines in The Great Veldt and surrounding area.|
 T Necessary Harvest|QID|65772|M|34.78,64.82|Z|1970;Zereth Mortis|N|To Elder Ara.|
-
-
 A Knowing is Half the Battle|QID|64794|PRE|65768|M|34.96,64.73|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 T Knowing is Half the Battle|QID|64794|M|48.62,49.20|Z|1970;Zereth Mortis|N|To Shandris Feathermoon.|
 A Scour the Sands|QID|64796|PRE|64794|M|48.62,49.20|Z|1970;Zereth Mortis|N|From Shandris Feathermoon.|
@@ -189,8 +186,8 @@ F Haven|ACTIVE|65305|M|35.64,44.36|Z|Zereth Mortis|N|Head to the flightmaster an
 C The Way Forward|QID|65305|M|35.64,44.36|Z|1970|QO|1|NC|N|Take the Translocator to Haven (Optional).|
 T The Way Forward|QID|65305|M|35.02,64.75|Z|1970|N|To Highlord Bolvar Fordragon.|
 ;CH4
-A Patterns Within Patterns|QID|65324|PRE|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
-t Patterns Within Patterns|QID|65324|PRE|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
+A Patterns Within Patterns|QID|65324|PRE|65305|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
+t Patterns Within Patterns|QID|65324|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 A News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Uther the Lightbringer.|
 C Patterns Within Patterns|QID|65324|Z|1970;Zereth Mortis|N|Complete World Quests, Dailys, Treasures, and Rares till complete.|S|
 C News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Uther.|
@@ -202,16 +199,14 @@ C Enlisting the Enlightened|QID|64830|M|34.82,64.78|Z|1970;Zereth Mortis|QO|3|CH
 T Enlisting the Enlightened|QID|64830|M|34.83,64.80|Z|1970;Zereth Mortis|N|To Elder Ara.|
 A Forging Unity from Diversity|QID|64833|PRE|64830|M|34.83,64.80|Z|1970;Zereth Mortis|N|From Elder Ara.|
 T Forging Unity from Diversity|QID|64833|M|56.21,57.78|Z|1970;Zereth Mortis|N|To Elder Ara.|
-A Fragments of the First Ones|QID|64831|PRE|64833|M|56.21,57.78|Z|1970;Zereth Mortis|N|From Elder Ara.|
+A Remnants of the First Ones|QID|64831|PRE|64833|M|56.21,57.78|Z|1970;Zereth Mortis|N|From Elder Ara.|
 A Reclaiming Provis Esper|QID|64832|PRE|64833|M|56.21,57.78|Z|1970;Zereth Mortis|N|From Unknown.|
-C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|QO|1|Z|1970;Zereth Mortis|N|Kill Reality Breachers.|S|
-C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|QO|2|Z|1970;Zereth Mortis|N|Kill Soul-Parched Gorgers.|S|
-C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|QO|3|Z|1970;Zereth Mortis|N|Kill Insatiable Mites.|S|
-C Fragments of the First Ones|QID|64831|M|54.86,49.38|Z|1970;Zereth Mortis|QO|1<1|NC|N|Click on the bird.|
-C Fragments of the First Ones|QID|64831|M|52.75,51.93|Z|1970;Zereth Mortis|QO|1<2|NC|N|Click on the pile of rubble.|
-C Fragments of the First Ones|QID|64831|M|53.11,59.70|Z|1970;Zereth Mortis|QO|1<3|NC|N|Beat up Zarenak The Soulstealer.|
+C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|Z|1970;Zereth Mortis|N|Kill Reality Breachers.|S|
+C Remnants of the First Ones|QID|64831|M|54.86,49.38|Z|1970;Zereth Mortis|QO|1<1|NC|N|Click on the bird.|
+C Remnants of the First Ones|QID|64831|M|52.75,51.93|Z|1970;Zereth Mortis|QO|1<2|NC|N|Click on the pile of rubble.|
+C Remnants of the First Ones|QID|64831|M|53.11,59.70|Z|1970;Zereth Mortis|QO|1<3|NC|N|Beat up Zarenak The Soulstealer.|
 C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|Z|1970;Zereth Mortis|N|Finish cleaning up whatever mobs you have left.|US|
-T Fragments of the First Ones|QID|64831|M|PLAYER|Z|1970;Zereth Mortis|N|To Elder Ara.|
+T Remnants of the First Ones|QID|64831|M|PLAYER|Z|1970;Zereth Mortis|N|To Elder Ara.|
 T Reclaiming Provis Esper|QID|64832|M|PLAYER|Z|1970;Zereth Mortis|N|To Elder Ara.|
 A The Pilgrim's Journey|QID|64837|PRE|64832|M|PLAYER|Z|1970;Zereth Mortis|N|From Elder Ara.|
 T The Pilgrim's Journey|QID|64837|M|61.31,51.38|Z|1970;Zereth Mortis|N|To Elder Ara.|
@@ -254,10 +249,10 @@ C Unchecked Growth|QID|64840|M|45.80,95.22|Z|1970;Zereth Mortis|QO|1|NC|N|Replic
 T Take Charge|QID|64841|M|47.53,80.24|Z|1970;Zereth Mortis|N|To General Draven.|
 T Herbal Remedies|QID|65331|M|47.61,79.87|Z|1970;Zereth Mortis|N|To Feroz.|
 T Unchecked Growth|QID|64840|M|47.61,79.87|Z|1970;Zereth Mortis|N|To Feroz.|
-A Catalyst Crush|QID|64842|PRE|64841&65331&64840|M|47.61,79.85|Z|1970;Zereth Mortis|N|From Feroz.|
-C Catalyst Crush|QID|64842|M|47.64,79.78|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Feroz.|
-C Catalyst Crush|QID|64842|M|47.39,93.41|Z|1970;Zereth Mortis|QO|2|NC|N|Use the extra action button to help you kill the required monsters. It will switch between three states. Use it on cool down.|EAB|
-T Catalyst Crush|QID|64842|M|47.62,79.94|Z|1970;Zereth Mortis|N|To Feroz.|
+A Flora Frenzy|QID|64842|PRE|64841&65331&64840|M|47.61,79.85|Z|1970;Zereth Mortis|N|From Feroz.|
+C Flora Frenzy|QID|64842|M|47.64,79.78|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Feroz.|
+C Flora Frenzy|QID|64842|M|47.39,93.41|Z|1970;Zereth Mortis|QO|2|NC|N|Use the extra action button to help you kill the required monsters. It will switch between three states. Use it on cool down.|EAB|
+T Flora Frenzy|QID|64842|M|47.62,79.94|Z|1970;Zereth Mortis|N|To Feroz.|
 A Key Crafting|QID|64843|PRE|64842|M|47.56,80.23|Z|1970;Zereth Mortis|N|From General Draven.|
 C Key Crafting|QID|64843|M|47.44,87.10|Z|1970;Zereth Mortis|QO|1|NC|N|Reach the Creation Catalyst.|
 C Key Crafting|QID|64843|M|47.45,88.55|Z|1970;Zereth Mortis|QO|2|NC|N|Creation Catalyst console activated.|
@@ -266,24 +261,25 @@ C Key Crafting|QID|64843|M|47.40,88.61|Z|1970;Zereth Mortis|QO|4|NC|N|Keystones 
 T Key Crafting|QID|64843|M|47.37,88.57|Z|1970;Zereth Mortis|N|To Elder Ara.|
 A The Pilgrimage Ends|QID|64844|PRE|64843|M|47.37,88.57|Z|1970;Zereth Mortis|N|From Elder Ara.|
 C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|1|NC|N|Return to the overlook.|
+C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|2|CHAT|N|Talk to Highlord Bolvar Fordragon and listen to the plan.|
 T The Pilgrimage Ends|QID|64844|M|64.65,53.29|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 ;CH5
 F Haven|ACTIVE|65324|M|61.54,50.41|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
 A The Broken Crown|QID|64799|M|35.05,64.81|Z|1970|N|From Highlord Bolvar Fordragon.|
-C The Broken Crown|QID|64799|M|33.30,69.04|Z|1970|QO|1|NC|N|Hear Anduin's Tale.|
+C The Broken Crown|QID|64799|M|33.30,69.04|Z|1970|QO|1|CHAT|N|Hear Anduin's Tale.|
 T The Broken Crown|QID|64799|M|33.23,68.92|Z|1970|N|To Highlord Bolvar Fordragon.|
 A Our Last Option|QID|64800|PRE|64799|M|33.23,68.92|Z|1970|N|From Highlord Bolvar Fordragon.|
 C Our Last Option|QID|64800|M|33.33,68.95|Z|1970|QO|1|NC|N|Listen to the Plan.|
 T Our Last Option|QID|64800|M|33.26,68.92|Z|1970|N|To Highlord Bolvar Fordragon.|
 A Hello, Darkness|QID|64802|PRE|64800|M|33.31,68.87|Z|1970|N|From The Primus.|
 C Hello, Darkness|QID|64802|M|33.21,68.85|Z|1970|QO|1|NC|N|Wield the Broken Helm.|
-C Hello, Darkness|QID|64802|M|33.35,69.31|Z|1970|QO|2|NC|N|Use the Broken Helm on Darion Mograine.|
+C Hello, Darkness|QID|64802|M|33.35,69.31|Z|1970|QO|2|NC|N|Use the "[color=40C7EB]Domination[/color]" button to use the Broken Helm on Darion Mograine.|EAB|
 T Hello, Darkness|QID|64802|M|33.31,68.82|Z|1970|N|To The Primus.|
 A Testing One Two|QID|64803|PRE|64802|M|33.31,68.82|Z|1970|N|From The Primus.|
 A Elder Eru|QID|64801|PRE|64802|M|33.24,68.96|Z|1970|N|From Highlord Bolvar Fordragon.|
-C Testing One Two|QID|64803|M|40.81,64.85|Z|1970|QO|2|NC|N|Helm Tested on Cervids.|
-C Testing One Two|QID|64803|M|45.77,67.93|Z|1970|QO|1|NC|N|Helm Tested on Native Poultrids.|
-C Testing One Two|QID|64803|M|56.06,82.90|Z|1970|QO|3|NC|N|Helm Tested on Outmoded Servitor.|
+C Testing One Two|QID|64803|M|40.81,64.85|Z|1970|QO|2|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on Cervids.|EAB|T|Cervid Grazer|
+C Testing One Two|QID|64803|M|45.77,67.93|Z|1970|QO|1|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on Native Poultrids.|EAB|T|Native Poultrid|
+C Testing One Two|QID|64803|M|56.06,82.90|Z|1970|QO|3|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on Outmoded Servitor.|EAB|T|Outmoded Servitor|
 T Testing One Two|QID|64803|M|56.17,83.26|Z|1970|N|To Elder Eru.|
 T Elder Eru|QID|64801|M|56.17,83.26|Z|1970|N|To Elder Eru.|
 A Cryptic Catalogue|QID|64804|PRE|64803&64801|M|56.17,83.26|Z|1970|N|From Elder Eru.|
@@ -293,7 +289,7 @@ C Cryptic Catalogue|QID|64804|M|58.46,81.76|Z|1970|QO|3|NC|N|Third Phrase memori
 T Cryptic Catalogue|QID|64804|M|59.22,78.91|Z|1970|N|To Elder Eru.|
 A The Not-Scientific Method|QID|64805|PRE|64804|M|59.22,78.91|Z|1970|N|From Elder Eru.|
 C The Not-Scientific Method|QID|64805|M|58.58,78.57|Z|1970|QO|1|NC|N|Upload Phrases to Librarian.|
-C The Not-Scientific Method|QID|64805|M|58.63,78.62|Z|1970|QO|2|NC|N|Use Broken Helm on Librarian.|
+C The Not-Scientific Method|QID|64805|M|58.63,78.62|Z|1970|QO|2|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on the Librarian.|EAB|
 C The Not-Scientific Method|QID|64805|M|58.70,78.77|Z|1970|QO|3|NC|N|Observe Results.|
 C The Not-Scientific Method|QID|64805|M|58.70,78.77|Z|1970|QO|4|NC|N|Lexicon Librarian subdued.|
 T The Not-Scientific Method|QID|64805|M|59.16,78.80|Z|1970|N|To Elder Eru.|
@@ -306,16 +302,17 @@ A Aggressive Excavation|QID|64811|PRE|64809|M|57.16,31.21|Z|1970|N|From Taelia F
 A Armies of Legionfall|QID|48641|M|57.16,31.21|Z|1970|
 C Oppress and Destroy|QID|64810|M|60.24,31.48|Z|1970|QO|1|N|Invading Mawsworn slain (100%).|
 C Aggressive Excavation|QID|64811|M|63.01,22.34|Z|1970|QO|1|NC|N|Blocked Door destroyed.|
-C Aggressive Excavation|QID|64811|M|66.08,25.74|Z|1970|QO|2|NC|N|Inscrutable Phrases infused.|
-T Oppress and Destroy|QID|64810|M|65.90,25.55|Z|1970|N|To Highlord Bolvar Fordragon.|
+C Aggressive Excavation|QID|64811|M|62.85,21.31|Z|1970|QO|2<1|NC|N|Inscrutable Phrases infused.|
+C Aggressive Excavation|QID|64811|M|66.08,25.74|Z|1970|QO|2<2|NC|N|Inscrutable Phrases infused.|
+C Aggressive Excavation|QID|64811|M|59.70,32.27|Z|1970|QO|2<3|NC|N|Inscrutable Phrases infused.|
+T Oppress and Destroy|QID|64810|M|57.32,31.11|Z|1970|N|To Highlord Bolvar Fordragon.|
 T Aggressive Excavation|QID|64811|M|57.32,31.11|Z|1970|N|To Highlord Bolvar Fordragon.|
 A Where the Memory Resides|QID|64806|PRE|64810&64811|M|57.32,31.11|Z|1970|N|From Highlord Bolvar Fordragon.|
-A Clean Up, Automa Aisle|QID|64974|PRE|64810&64811|ERROR|Zone not found|M|55.37,45.09|Z|1970|
-R Pilgrim's Grace|ACTIVE|64974|M|61.52,50.45|Z|Zereth Mortis|N|Make your way to the Pilgrim's Grace.|
-F Haven|ACTIVE|64974|M|61.52,50.45|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
-R Geometric Cavern|ACTIVE|64974|M|33.04,69.62|Z|Zereth Mortis|N|Make your way to the Geometric Cavern.|
-P Ring of Fates|ACTIVE|64974|M|49.55,42.17|Z|Ring of Transference@Oribos|N|Take the portal to Ring of Fates.|
-F Aspirant's Rest|ACTIVE|64974|M|60.24,67.83|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Aspirant's Rest.|
+R Pilgrim's Grace|ACTIVE|64806|M|61.52,50.45|Z|Zereth Mortis|N|Make your way to the Pilgrim's Grace.|
+F Haven|ACTIVE|64806|M|61.52,50.45|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
+R Geometric Cavern|ACTIVE|64806|M|33.04,69.62|Z|Zereth Mortis|N|Make your way to the Geometric Cavern.|
+P Ring of Transference|ACTIVE|64806|M|33.00,69.71|Z|Zereth Mortis|N|Take the portal to Ring of Transference.|
+F Aspirant's Rest|ACTIVE|64806|M|60.24,67.83|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Aspirant's Rest.|
 T Where the Memory Resides|QID|64806|M|59.22,88.17|Z|1533|N|To Highlord Bolvar Fordragon.|
 A What We Wish to Forget|QID|64807|PRE|64806|M|59.22,88.17|Z|1533|N|From Highlord Bolvar Fordragon.|
 C What We Wish to Forget|QID|64807|M|58.94,88.15|Z|1533|QO|1|NC|N|Activate First Shard.|
@@ -333,20 +330,15 @@ C What We Overcome|QID|64798|M|58.93,88.17|Z|1533|QO|1|NC|N|Activate Fourth Shar
 C What We Overcome|QID|64798|M|59.00,88.12|Z|1533|QO|2|N|Mawbound Monstrosity slain.|
 T What We Overcome|QID|64798|M|59.21,88.20|Z|1533|N|To Highlord Bolvar Fordragon.|
 A Forge of Domination|QID|64812|PRE|64798|M|59.21,88.20|Z|1533|N|From Highlord Bolvar Fordragon.|
-P Chamber of First Reflection|ACTIVE|64812|M|58.60,88.20|Z|Bastion!The Shadowlands|N|Take the portal to Chamber of First Reflection.|
+P Torghast - Entrance|ACTIVE|64812|M|58.38,88.05|Z|Bastion!The Shadowlands|N|Take the portal to Torghast.|
 T Forge of Domination|QID|64812|M|52.06,57.26|Z|1912|N|To The Primus.|
 A The Crown of Wills|QID|64813|PRE|64812|M|52.06,57.26|Z|1912|N|From The Primus.|
 C The Crown of Wills|QID|64813|M|48.13,65.06|Z|1912|QO|1|NC|N|Place Shards.|
 C The Crown of Wills|QID|64813|M|49.98,65.27|Z|1912|QO|2|NC|N|Place Broken Helm half.|
 C The Crown of Wills|QID|64813|M|50.45,63.75|Z|1912|QO|3|NC|N|Use the Crown of Wills.|
 T The Crown of Wills|QID|64813|M|50.04,68.41|Z|1912|N|To Highlord Bolvar Fordragon.|
+;CH 6
 A Reality's Doorstep|QID|64816|PRE|64813|M|50.04,68.41|Z|1912|N|From Highlord Bolvar Fordragon.|
-A Kyrian Assault|QID|63824|PRE|64813|M|48.14,39.57|Z|1543|
-R Cocyrus|ACTIVE|63824|M|42.47,42.16|Z|The Maw|N|Make your way to the Cocyrus.|
-P Cocyrus|ACTIVE|63824|M|42.38,42.15|Z|The Maw|N|Take the portal to Cocyrus.|
-P Ring of Transference|ACTIVE|63824|M|46.71,50.27|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
-P Ring of Transference|ACTIVE|63824|M|49.16,29.60|Z|Ring of Transference@Oribos|N|Take the portal to Ring of Transference.|
-A Tracking - Small Consoles|QID|63850|PRE|64813|M|33.38,69.26|Z|1970|
 T Reality's Doorstep|QID|64816|M|35.00,64.87|Z|1970|N|To Highlord Bolvar Fordragon.|
 A Something Wonderful|QID|64875|PRE|64816|M|35.41,65.06|Z|1970|N|From Pelagos.|
 F Faith's Repose|ACTIVE|64875|M|35.66,65.07|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Faith's Repose.|
