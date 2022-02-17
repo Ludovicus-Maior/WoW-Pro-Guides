@@ -132,6 +132,7 @@ T Fighting for the Forge|QID|64824|M|57.02,53.62|Z|1970;Zereth Mortis|N|To Lady 
 A Seeking Haven|QID|64825|PRE|64824|M|57.02,53.62|Z|1970;Zereth Mortis|N|From Lady Jaina Proudmoore.|
 C Seeking Haven|QID|64825|M|57.12,53.69|Z|1970;Zereth Mortis|NC|N|Portal to Haven taken.|
 T Seeking Haven|QID|64825|M|34.94,64.68|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+
 ;Ch 3
 A Danger Near and Far|QID|64218|PRE|64825|M|35.24,65.09|Z|1970;Zereth Mortis|N|From Pelagos.|
 C Danger Near and Far|QID|64218|M|40.46,75.68|Z|1970;Zereth Mortis|NC|N|Investigate Genesis Fields.|
@@ -185,6 +186,7 @@ T Further Research: Aealic|QID|65431|M|33.76,49.44|Z|1970|N|To Pelagos.|
 F Haven|ACTIVE|65305|M|35.64,44.36|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
 C The Way Forward|QID|65305|M|35.64,44.36|Z|1970|QO|1|NC|N|Take the Translocator to Haven (Optional).|
 T The Way Forward|QID|65305|M|35.02,64.75|Z|1970|N|To Highlord Bolvar Fordragon.|
+
 ;CH4
 A Patterns Within Patterns|QID|65324|PRE|65305|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 t Patterns Within Patterns|QID|65324|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
@@ -262,6 +264,7 @@ A The Pilgrimage Ends|QID|64844|PRE|64843|M|47.37,88.57|Z|1970;Zereth Mortis|N|F
 C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|1|NC|N|Return to the overlook.|
 C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|2|CHAT|N|Talk to Highlord Bolvar Fordragon and listen to the plan.|
 T The Pilgrimage Ends|QID|64844|M|64.65,53.29|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+
 ;CH5
 F Haven|AVAILABLE|64799|M|61.54,50.41|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
 A The Broken Crown|QID|64799|M|35.05,64.81|Z|1970|N|From Highlord Bolvar Fordragon.|
@@ -336,6 +339,7 @@ C The Crown of Wills|QID|64813|M|48.13,65.06|Z|1912|QO|1|NC|N|Place Shards.|
 C The Crown of Wills|QID|64813|M|49.98,65.27|Z|1912|QO|2|NC|N|Place Broken Helm half.|
 C The Crown of Wills|QID|64813|M|50.45,63.75|Z|1912|QO|3|NC|N|Use the Crown of Wills.|
 T The Crown of Wills|QID|64813|M|50.04,68.41|Z|1912|N|To Highlord Bolvar Fordragon.|
+
 ;CH 6
 A Reality's Doorstep|QID|64816|PRE|64813|M|50.04,68.41|Z|1912|N|From Highlord Bolvar Fordragon.|
 T Reality's Doorstep|QID|64816|M|35.00,64.87|Z|1970|N|To Highlord Bolvar Fordragon.|
@@ -403,6 +407,7 @@ T Further Research: Aealic|QID|65431|M|33.77,49.44|Z|1970|N|To Pelagos.|
 F Haven|QID|65328|M|35.64,44.40|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
 C Arbiter in the Making|QID|65328|M|35.01,64.71|Z|1970|QO|1|NC|N|Bolvar advised.|
 T Arbiter in the Making|QID|65328|M|35.01,64.71|Z|1970|N|To Highlord Bolvar Fordragon.|
+
 ;CH7
 A A Monumental Discovery|QID|64879|PRE|65431&65328|M|35.01,64.71|Z|1970|N|From Highlord Bolvar Fordragon.|
 F Faith's Repose|ACTIVE|64879|M|35.59,64.99|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Faith's Repose.|
@@ -482,9 +487,7 @@ P Ring of Transference|ACTIVE|65329|M|57.77,51.13|Z|Ring of Fates@Oribos|N|Take 
 P Ring of Transference|ACTIVE|65329|M|49.32,28.93|Z|Ring of Transference@Oribos|N|Take the portal to Ring of Transference.|
 T Safe Haven|QID|65329|M|34.96,64.92|Z|1970|N|To Highlord Bolvar Fordragon.|
 
-
 ;Normal Quests
-
 A Enlightened Exodus|QID|64771|PRE|64958|M|33.80,64.67|Z|1970;Zereth Mortis|N|From Al'dalil.|
 C Enlightened Exodus|QID|64771|M|34.84,64.80|Z|1970;Zereth Mortis|QO|4|CHAT|N|Speak to Elder Kreth.|
 C Enlightened Exodus|QID|64771|M|34.38,65.81|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Avna.|
@@ -526,17 +529,22 @@ T Look Who I Found!|QID|65064|M|49.28,71.86|Z|1970;Zereth Mortis|N|To Tamra.|
 A Flora Aroma|QID|65066|PRE|65064|M|49.28,71.86|Z|1970;Zereth Mortis|N|From Tamra.|
 A Broker Beaker|QID|65067|PRE|65064|M|49.28,71.86|Z|1970;Zereth Mortis|N|From Tamra.|
 C Broker Beaker|QID|65067|M|54.38,67.11|Z|1970;Zereth Mortis|QO|1|NC|N|Kill mobs in the area till it drops.|S|
+C Flora Aroma|QID|65066|M|51.05,71.76|Z|1970;Zereth Mortis|QO|2|NC|U|189479|N|Use a Chromatic Rosid on a Dimensional Vombata.|S|
+C Flora Aroma|QID|65066|M|49.33,74.00|Z|1970;Zereth Mortis|QO|3|NC|U|189479|N|Use a Chromatic Rosid on an Dimensional Bufonid.|S|
 C Flora Aroma|QID|65066|M|53.62,68.32|Z|1970;Zereth Mortis|QO|1|NC|U|189479|N|Use a Chromatic Rosid on a Dimensional Cervid.|
-C Flora Aroma|QID|65066|M|51.05,71.76|Z|1970;Zereth Mortis|QO|2|NC|U|189479|N|Use a Chromatic Rosid on a Dimensional Vombata.|
-C Flora Aroma|QID|65066|M|49.33,74.00|Z|1970;Zereth Mortis|QO|3|NC|U|189479|N|Use a Chromatic Rosid on an Dimensional Bufonid.|
+C Flora Aroma|QID|65066|M|51.05,71.76|Z|1970;Zereth Mortis|QO|2|NC|U|189479|N|Use a Chromatic Rosid on a Dimensional Vombata.|US|
+C Flora Aroma|QID|65066|M|49.33,74.00|Z|1970;Zereth Mortis|QO|3|NC|U|189479|N|Use a Chromatic Rosid on an Dimensional Bufonid.|US|
 C Broker Beaker|QID|65067|M|54.38,67.11|Z|1970;Zereth Mortis|QO|1|NC|N|Kill mobs in the area till it drops.|US|
 T Flora Aroma|QID|65066|M|49.24,71.83|Z|1970;Zereth Mortis|N|To Tamra.|
 T Broker Beaker|QID|65067|M|49.24,71.83|Z|1970;Zereth Mortis|N|To Tamra.|
+A Cascades of Magnitude|QID|65068|M|49.25,71.81|Z|1970;Zereth Mortis|N|From Tamra.|
 C Cascades of Magnitude|QID|65068|M|50.48,76.24|Z|1970;Zereth Mortis|QO|1|NC|N|Fill Water Beaker in Waterfall.|
 C Cascades of Magnitude|QID|65068|M|50.19,74.07|Z|1970;Zereth Mortis|QO|2|NC|N|Use the "[color=40C7EB]Throw Water[/color]" button.|EAB|
+C Cascades of Magnitude|QID|65068|M|50.19,74.07|Z|1970;Zereth Mortis|QO|3|NC|N|Use the "[color=40C7EB]Throw Water[/color]" button.|EAB|
 C Cascades of Magnitude|QID|65068|M|49.62,72.82|Z|1970;Zereth Mortis|QO|4|NC|N|Hold off E'rnee.|
 T Cascades of Magnitude|QID|65068|M|49.26,71.84|Z|1970;Zereth Mortis|N|To Tamra.|
 A Culling the Maelstrom|QID|65069|PRE|65068|M|49.26,71.84|Z|1970;Zereth Mortis|N|From Tamra.|
+C Culling the Maelstrom|QID|65069|M|52.46,73.44|Z|1970;Zereth Mortis|N|E'rnee Duplicates slain.|
 T Culling the Maelstrom|QID|65069|M|49.27,71.82|Z|1970;Zereth Mortis|N|To Tamra.|
 A Can I Keep Him?|QID|65070|PRE|65069|M|49.27,71.82|Z|1970;Zereth Mortis|N|From Tamra.|
 C Can I Keep Him?|QID|65070|M|49.25,71.93|Z|1970;Zereth Mortis|QO|1|NC|N|Use the "[color=40C7EB]Throw Water[/color]" button.|EAB|
@@ -544,25 +552,25 @@ T Can I Keep Him?|QID|65070|M|49.25,71.80|Z|1970;Zereth Mortis|N|To Tamra.|
 A The Wellspring of the First Ones|QID|65463|PRE|64837|M|61.47,49.27|Z|1970;Zereth Mortis|N|From Drim.|
 C The Wellspring of the First Ones|QID|65463|M|61.91,52.92|Z|1970;Zereth Mortis|QO|1|NC|N|Visit the Wellspring.|
 T The Wellspring of the First Ones|QID|65463|M|61.82,53.56|Z|1970;Zereth Mortis|N|To Olem.|
-A Obvious Plant|QID|65269|PRE|64837|M|61.26,51.56|Z|1970;Zereth Mortis|N|From Elder Nirav.|
-C Obvious Plant|QID|65269|M|52.57,92.76|Z|1970;Zereth Mortis|QO|1|NC|U|189433|N|Sensors placed.|
-T Obvious Plant|QID|65269|M|61.22,51.49|Z|1970;Zereth Mortis|N|To Elder Nirav.|
 A Lost Grace|QID|65349|M|61.82,53.56|Z|1970;Zereth Mortis|N|From Olem.|
 C Lost Grace|QID|65349|M|55.27,49.99|Z|1970;Zereth Mortis|QO|1|NC|N|Investigate Provis Esper.|
 T Lost Grace|QID|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|To Ruined Locrian Technician.|
 A Restore the Flow|QID|65350|PRE|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|From Assistant Conservator Nadir.|
 A An Automa-free Diet|QID|65353|PRE|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|From Assistant Conservator Nadir.|
-C An Automa-free Diet|QID|65353|M|54.83,53.41|Z|1970;Zereth Mortis|QO|1|N|Breachers and Gorgers Slain.|
+A Restore the Flow|QID|65350|PRE|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|From Assistant Conservator Nadir.|
+C An Automa-free Diet|QID|65353|M|54.83,53.41|Z|1970;Zereth Mortis|QO|1|N|Breachers and Gorgers Slain.|S|
 C Restore the Flow|QID|65350|M|55.08,50.30|Z|1970;Zereth Mortis|QO|1|NC|N|Locrian Keystone.|
-C Restore the Flow|QID|65350|M|47.87,66.82|Z|2028;Zereth Mortis|QO|4|NC|N|Reactivate the Southern Pylon.|
-C Restore the Flow|QID|65350|M|73.36,34.94|Z|2028;Zereth Mortis|QO|3|NC|N|Reactivate the Eastern Pylon.|
-C Restore the Flow|QID|65350|M|73.42,68.80|Z|2028;Zereth Mortis|QO|5|NC|N|Activate the Command Console.|
-C Restore the Flow|QID|65350|M|71.73,64.27|Z|2028;Zereth Mortis|QO|6|N|Defeat the Devourer Boss.|
+C Restore the Flow|QID|65350|M|20.12,34.90|Z|2028;ZerethMicro_B|QO|2|NC|N|Locrian Esper entered.|
+C Restore the Flow|QID|65350|M|47.87,66.82|Z|2028;Zereth Mortis|QO|3|NC|N|Locrian Swale aligned.|
+C Restore the Flow|QID|65350|M|73.36,34.94|Z|2028;Zereth Mortis|QO|4|NC|N|Valves tuned.|
+C Restore the Flow|QID|65350|M|73.42,68.80|Z|2028;Zereth Mortis|QO|5|NC|N|Percolation Array aligned.|
+C Restore the Flow|QID|65350|M|71.73,64.27|Z|2028;Zereth Mortis|QO|6|N|Defeat Xelieth the Souldrinker.|
 T Restore the Flow|QID|65350|M|73.53,68.83|Z|2028;Zereth Mortis|
 A A Return to Grace|QID|65448|PRE|65350|M|73.53,68.83|Z|2028;Zereth Mortis|
-C A Return to Grace|QID|65448|M|61.96,53.54|Z|1970;Zereth Mortis|QO|1|NC|N|Report back to Conservator Olem.|
+C A Return to Grace|QID|65448|M|61.96,53.54|Z|1970;Zereth Mortis|QO|1|CHAT|N|Report back to Conservator Olem.|
 C A Return to Grace|QID|65448|M|61.51,53.68|Z|1970;Zereth Mortis|QO|2|NC|N|Step into the Center of the Wellspring.|
 T A Return to Grace|QID|65448|M|61.81,53.57|Z|1970;Zereth Mortis|N|To Olem.|
+C An Automa-free Diet|QID|65353|M|54.83,53.41|Z|1970;Zereth Mortis|QO|1|N|Breachers and Gorgers Slain.|US|
 T An Automa-free Diet|QID|65353|M|61.87,53.33|Z|1970;Zereth Mortis|N|To Nadir.|
 ]]
 end)
