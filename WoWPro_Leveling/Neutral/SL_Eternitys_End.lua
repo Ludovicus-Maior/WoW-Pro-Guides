@@ -189,7 +189,6 @@ T The Way Forward|QID|65305|M|35.02,64.75|Z|1970|N|To Highlord Bolvar Fordragon.
 A Patterns Within Patterns|QID|65324|PRE|65305|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 t Patterns Within Patterns|QID|65324|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 A News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Uther the Lightbringer.|
-C Patterns Within Patterns|QID|65324|Z|1970;Zereth Mortis|N|Complete World Quests, Dailys, Treasures, and Rares till complete.|S|
 C News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Uther.|
 T News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 A Enlisting the Enlightened|QID|64830|PRE|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
@@ -264,7 +263,7 @@ C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|1|NC|N|Ret
 C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|2|CHAT|N|Talk to Highlord Bolvar Fordragon and listen to the plan.|
 T The Pilgrimage Ends|QID|64844|M|64.65,53.29|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 ;CH5
-F Haven|ACTIVE|65324|M|61.54,50.41|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
+F Haven|AVAILABLE|64799|M|61.54,50.41|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
 A The Broken Crown|QID|64799|M|35.05,64.81|Z|1970|N|From Highlord Bolvar Fordragon.|
 C The Broken Crown|QID|64799|M|33.30,69.04|Z|1970|QO|1|CHAT|N|Hear Anduin's Tale.|
 T The Broken Crown|QID|64799|M|33.23,68.92|Z|1970|N|To Highlord Bolvar Fordragon.|
@@ -350,10 +349,8 @@ T Music of the Spheres|QID|64876|M|34.16,48.34|Z|1970|N|To Firim.|
 A What A Long Strange Trip|QID|64878|PRE|64876|M|34.10,47.43|Z|1970|N|From Pocopoc.|
 C What A Long Strange Trip|QID|64878|M|41.54,43.02|Z|1970|QO|1|NC|N|Pocopoc followed.|
 C What A Long Strange Trip|QID|64878|M|42.89,39.89|Z|1970|QO|2|NC|N|Pocopoc followed.|
-A Researching The Solution|QID|65115|PRE|64876|M|42.81,33.86|Z|1970|
 C What A Long Strange Trip|QID|64878|M|42.71,32.66|Z|1970|QO|3|NC|N|Pocopoc followed.|
 C What A Long Strange Trip|QID|64878|M|44.63,30.85|Z|1970|QO|4|NC|N|Pocopoc followed.|
-f Resonant Peaks|QID|65115|M|47.01,29.41|Z|1970|
 C What A Long Strange Trip|QID|64878|M|47.17,29.42|Z|1970|QO|5|NC|N|Vision location found.|
 T What A Long Strange Trip|QID|64878|M|47.15,29.41|Z|1970|N|To Pocopoc.|
 A Borrowed Power|QID|64888|PRE|64878|M|47.15,29.41|Z|1970|N|From Pocopoc.|
@@ -363,37 +360,29 @@ C Borrowed Power|QID|64888|M|48.78,29.91|Z|1970|QO|1|NC|N|Pocopoc fully empowere
 T Borrowed Power|QID|64888|M|48.02,29.73|Z|1970|N|To Pocopoc.|
 T Pop Goes the Devourer!|QID|65245|M|48.02,29.73|Z|1970|N|To Pocopoc.|
 A Match Made in Zereth Mortis|QID|64889|PRE|64888&65245|M|48.02,29.73|Z|1970|N|From Pocopoc.|
-f Gravid Repose|QID|64889|M|67.96,51.47|Z|2029|N|At Pocopoc.|
 C Match Made in Zereth Mortis|QID|64889|M|67.96,51.47|Z|2029|QO|1|NC|N|Interior Locus Arrangement found.|
-C Match Made in Zereth Mortis|QID|64889|M|48.41,34.42|Z|1970|QO|2|NC|N|Locus Shift used.|
-f Inner Chamber|QID|64889|M|48.47,33.97|Z|1970|
+C Match Made in Zereth Mortis|QID|64889|M|59.59,41.07|Z|2029|QO|2|NC|N|Locus Shift used.|
 C Match Made in Zereth Mortis|QID|64889|M|48.47,33.97|Z|1970|QO|3|NC|N|Primus Locus Arrangement found near the Interior Locus.|
 C Match Made in Zereth Mortis|QID|64889|M|48.57,26.38|Z|1970|QO|4|NC|N|Ascend to Primus Locus.|
-A Between A Rock & A Rock|QID|64935|PRE|64888&65245|M|48.42,27.03|Z|1970|
+A Between A Rock & A Rock|QID|64935|PRE|64888&65245|M|48.42,27.03|Z|1970|N|From suspicious Rubble Pile|
 C Between A Rock & A Rock|QID|64935|M|48.37,26.84|Z|1970|QO|1|NC|N|Nascence Servitor located.|
 C Between A Rock & A Rock|QID|64935|M|48.32,26.71|Z|1970|QO|2|NC|N|Nascene Servitor controlled.|
 C Between A Rock & A Rock|QID|64935|M|48.42,27.12|Z|1970|QO|3|NC|N|Suspicious Rubble Pile searched.|
 C Between A Rock & A Rock|QID|64935|M|49.67,28.23|Z|1970|QO|4|NC|N|Rubble Piles searched.|
 C Between A Rock & A Rock|QID|64935|M|49.49,26.88|Z|1970|QO|5|NC|N|Glowing Rubblepile searched.|
-f Resonant Peaks|QID|64935|M|49.50,26.87|Z|1970|
 C Match Made in Zereth Mortis|QID|64889|M|49.50,26.87|Z|1970|QO|5|NC|N|Secundus Locus Arrangement found.|
 T Between A Rock & A Rock|QID|64935|M|49.50,26.87|Z|1970|N|To Pocopoc.|
 C Match Made in Zereth Mortis|QID|64889|M|47.81,27.98|Z|1970|QO|6|NC|N|Ascend to Secundus Locus.|
-f Resonant Peaks|QID|64935|M|48.33,29.77|Z|1970|
 C Match Made in Zereth Mortis|QID|64889|M|48.33,29.77|Z|1970|QO|7|NC|N|Tertius Locus Arrangement found.|
-A Highmountain Tribes|QID|42233|M|55.79,28.23|Z|1970|
 C Match Made in Zereth Mortis|QID|64889|M|51.97,27.16|Z|1970|QO|8|NC|N|Ascend to Tertius Locus.|
-f Resonant Peaks|QID|42233|M|50.93,26.96|Z|1970|
 C Match Made in Zereth Mortis|QID|64889|M|50.93,26.96|Z|1970|QO|9|NC|N|Quartus Locus Arrangement found.|
 C Match Made in Zereth Mortis|QID|64889|M|48.55,29.67|Z|1970|QO|10|NC|N|Ascend to Quartus Locus.|
-f Resonant Peaks|QID|42233|M|48.47,30.33|Z|1970|
 C Match Made in Zereth Mortis|QID|64889|M|48.47,30.33|Z|1970|QO|11|NC|N|Quintus Locus Arrangement found.|
 C Match Made in Zereth Mortis|QID|64889|M|50.77,32.63|Z|1970|QO|12|NC|N|Ascend to Quintus Locus.|
-f Resonant Peaks|QID|42233|M|49.93,32.38|Z|1970|
 C Match Made in Zereth Mortis|QID|64889|M|49.93,32.38|Z|1970|QO|13|NC|N|Ultimus Locus Arrangement found.|
 C Match Made in Zereth Mortis|QID|64889|M|48.94,31.28|Z|1970|QO|14|NC|N|Ascend to Ultimus Locus.|
-T Match Made in Zereth Mortis|QID|64889|M|51.19,33.72|Z|1970|N|To Pocopoc.|
-A Searching High and Low|QID|64936|PRE|64889|M|51.19,33.72|Z|1970|N|From Pocopoc.|
+T Match Made in Zereth Mortis|QID|64889|M|PLAYER|Z|1970|N|To Pocopoc.|
+A Searching High and Low|QID|64936|PRE|64889|M|PLAYER|Z|1970|N|From Pocopoc.|
 C Searching High and Low|QID|64936|M|47.31,33.13|Z|1970|QO|1|NC|N|Ingress Phrase.|
 C Searching High and Low|QID|64936|M|48.07,33.51|Z|1970|QO|2|NC|N|Ingress Phrases placed.|
 C Searching High and Low|QID|64936|M|47.92,33.91|Z|1970|QO|3|NC|N|Vessel chamber entered.|
@@ -411,9 +400,10 @@ A Arbiter in the Making|QID|65328|PRE|65237|M|34.24,48.54|Z|1970|N|From Pelagos.
 A Further Research: Aealic|QID|65431|PRE|65237|M|33.77,49.44|Z|1970|N|From Pelagos.|
 C Further Research: Aealic|QID|65431|M|33.77,49.44|Z|1970|QO|1|NC|N|Aelic advancements investigated.|
 T Further Research: Aealic|QID|65431|M|33.77,49.44|Z|1970|N|To Pelagos.|
-F Haven|ACTIVE|65431|M|35.64,44.40|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
+F Haven|QID|65328|M|35.64,44.40|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
 C Arbiter in the Making|QID|65328|M|35.01,64.71|Z|1970|QO|1|NC|N|Bolvar advised.|
 T Arbiter in the Making|QID|65328|M|35.01,64.71|Z|1970|N|To Highlord Bolvar Fordragon.|
+;CH7
 A A Monumental Discovery|QID|64879|PRE|65431&65328|M|35.01,64.71|Z|1970|N|From Highlord Bolvar Fordragon.|
 F Faith's Repose|ACTIVE|64879|M|35.59,64.99|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Faith's Repose.|
 T A Monumental Discovery|QID|64879|M|34.20,48.61|Z|1970|N|To Firim.|
@@ -424,6 +414,7 @@ T Restoration Project|QID|64723|M|33.86,48.41|Z|1970|N|To Kleia.|
 A Help From Beyond|QID|64733|PRE|64723|M|33.86,48.41|Z|1970|
 C Help From Beyond|QID|64733|M|34.15,48.56|Z|1970|QO|1|CHAT|N|Speak with Firim.|
 C Help From Beyond|QID|64733|M|34.61,49.66|Z|1970|QO|2|NC|N|Awaken Kbato.|
+F Haven|QID|64733|M|35.64,44.40|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
 C Help From Beyond|QID|64733|M|47.65,80.74|Z|1970|QO|3|NC|N|Venthyr forces met.|
 C Help From Beyond|QID|64733|M|47.75,58.33|Z|1970|QO|4|NC|N|Night Fae forces met.|
 C Help From Beyond|QID|64733|M|53.91,48.45|Z|1970|QO|5|NC|N|Necrolord forces met.|
@@ -432,11 +423,13 @@ T Help From Beyond|QID|64733|M|56.73,31.13|Z|1970|N|To Pelagos.|
 A A Matter Of Motivation|QID|64706|PRE|64733|M|56.90,31.25|Z|1970|N|From Firim.|
 A Keys To Victory|QID|64718|PRE|64733|M|57.06,31.15|Z|1970|N|From Saezurah.|
 A Cleaving A Path|QID|64720|PRE|64733|M|56.42,31.25|Z|1970|N|From Secutor Mevix.|
-C Cleaving A Path|QID|64720|M|58.94,33.42|Z|1970|QO|1|U|188678|N|Oracle Voraxxi slain.|
-C A Matter Of Motivation|QID|64706|M|56.15,29.74|Z|1970|QO|1|NC|U|188678|N|Motivated Automa returned to Firim.|
-T A Matter Of Motivation|QID|64706|M|55.91,29.91|Z|1970|N|To Firim.|
-C Keys To Victory|QID|64718|M|60.56,30.71|Z|1970|QO|1|NC|N|Automa Scryers rescued.|
+C A Matter Of Motivation|QID|64706|M|56.15,29.74|Z|1970|QO|1|NC|U|188678|N|Motivated Automa returned to Firim.|S|
+C Keys To Victory|QID|64718|M|60.56,30.71|Z|1970|QO|1|NC|N|Automa Scryers rescued.|S|
+C Cleaving A Path|QID|64720|M|58.94,33.42|Z|1970|QO|1|N|Oracle Voraxxi slain.|
 C Cleaving A Path|QID|64720|M|57.85,23.35|Z|1970|QO|2|N|Oracle Zoketh slain.|
+C A Matter Of Motivation|QID|64706|M|56.15,29.74|Z|1970|QO|1|NC|U|188678|N|Motivated Automa returned to Firim.|US|
+C Keys To Victory|QID|64718|M|60.56,30.71|Z|1970|QO|1|NC|N|Automa Scryers rescued.|US|
+T A Matter Of Motivation|QID|64706|M|55.91,29.91|Z|1970|N|To Firim.|
 T Cleaving A Path|QID|64720|M|55.74,29.92|Z|1970|N|To Secutor Mevix.|
 T Keys To Victory|QID|64718|M|57.06,31.22|Z|1970|N|To Saezurah.|
 A Knocking On Death's Door|QID|64722|PRE|64706&64720&64718|M|55.85,30.01|Z|1970|N|From Firim.|
@@ -449,16 +442,17 @@ C The Infinite Circle|QID|64727|M|47.80,59.17|Z|2031|QO|1|NC|N|Lead Saezurah to 
 T The Infinite Circle|QID|64727|M|53.10,47.58|Z|2031|N|To Saezurah.|
 A The Order Of Things|QID|64726|PRE|64727|M|53.10,47.58|Z|2031|N|From Saezurah.|
 A Unforgivable Intrusion|QID|64725|PRE|64727|M|53.10,47.58|Z|2031|N|From Saezurah.|
-C Unforgivable Intrusion|QID|64725|M|53.60,42.97|Z|2031|QO|1|N|Dominated Automa slain.|
-C Unforgivable Intrusion|QID|64725|M|42.04,47.73|Z|2031|QO|2|N|Darkseer Corrupter slain.|
+C Unforgivable Intrusion|QID|64725|M|53.60,42.97|Z|2031|QO|1|N|Dominated Automa slain.|S|
+C Unforgivable Intrusion|QID|64725|M|42.04,47.73|Z|2031|QO|2|N|Darkseer Corrupter slain.|S|
 C The Order Of Things|QID|64726|M|31.37,50.60|Z|2031|QO|1|NC|N|Containment Sphere restored.|
+C Unforgivable Intrusion|QID|64725|M|53.60,42.97|Z|2031|N|Finish up whatever is left.|US|
 T The Order Of Things|QID|64726|M|53.13,47.19|Z|2031|N|To Saezurah.|
 T Unforgivable Intrusion|QID|64725|M|53.13,47.19|Z|2031|N|To Saezurah.|
 A As Foretold|QID|64962|PRE|64726&64725|M|53.13,47.19|Z|2031|N|From Saezurah.|
 C As Foretold|QID|64962|M|36.26,76.34|Z|2031|QO|1|CHAT|N|Speak to Firim.|
 T As Foretold|QID|64962|M|53.23,47.46|Z|2031|N|To Saezurah.|
 A Acquaintances Forgotten|QID|64728|PRE|64962|M|53.23,47.46|Z|2031|N|From Saezurah.|
-C Acquaintances Forgotten|QID|64728|M|53.13,47.26|Z|2031|QO|1|NC|N|Have Saezurah begin the ritual.|
+C Acquaintances Forgotten|QID|64728|M|53.13,47.26|Z|2031|QO|1|CHAT|N|Have Saezurah begin the ritual.|
 C Acquaintances Forgotten|QID|64728|M|51.40,50.35|Z|2031|QO|2|NC|N|Vessel activated.|
 C Acquaintances Forgotten|QID|64728|M|51.22,50.82|Z|2031|QO|3|NC|N|Vessel stabilized.|
 C Acquaintances Forgotten|QID|64728|M|53.28,51.07|Z|2031|QO|4|N|Argus defeated.|
@@ -490,87 +484,85 @@ T Safe Haven|QID|65329|M|34.96,64.92|Z|1970|N|To Highlord Bolvar Fordragon.|
 
 
 ;Normal Quests
-;Non campaign quests have been commented out till proper testing can be done for routing.
-;A Enlightened Exodus|QID|64771|PRE|64958|M|33.80,64.67|Z|1970;Zereth Mortis|N|From Al'dalil.|
-;C Enlightened Exodus|QID|64771|M|34.84,64.80|Z|1970;Zereth Mortis|QO|4|CHAT|N|Speak to Elder Kreth.|
-;C Enlightened Exodus|QID|64771|M|34.38,65.81|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Avna.|
-;C Enlightened Exodus|QID|64771|M|34.35,66.32|Z|1970;Zereth Mortis|QO|2|CHAT|N|Speak to Varoun.|
-;C Enlightened Exodus|QID|64771|M|35.49,65.15|Z|1970;Zereth Mortis|QO|3|CHAT|N|Speak to Custodian Kalir.|
-;T Enlightened Exodus|QID|64771|M|33.77,64.75|Z|1970;Zereth Mortis|N|To Al'dalil.|
-;A Security Check|QID|64741|PRE|64771|M|33.77,64.75|Z|1970;Zereth Mortis|N|From Al'dalil.|
-;C Security Check|QID|64741|M|33.31,64.12|Z|1970;Zereth Mortis|QO|1|NC|N|Northwest Conduit checked.|
-;C Security Check|QID|64741|M|34.82,62.60|Z|1970;Zereth Mortis|QO|2|NC|N|Northeast Conduit checked.|
-;C Security Check|QID|64741|M|34.47,67.19|Z|1970;Zereth Mortis|QO|3|NC|N|Southwest Conduit checked.|
-;C Security Check|QID|64741|M|36.11,66.03|Z|1970;Zereth Mortis|QO|4|NC|N|Southeast Conduit checked.|
-;T Security Check|QID|64741|M|33.76,64.70|Z|1970;Zereth Mortis|N|To Al'dalil.|
-;A Traces of Tampering|QID|64742|PRE|64741|M|33.76,64.70|Z|1970;Zereth Mortis|N|From Al'dalil.|
-;C Traces of Tampering|QID|64742|M|32.37,63.94|Z|1970;Zereth Mortis|QO|1|NC|N|Click on the Trapped Leporid.|
-;C Traces of Tampering|QID|64742|M|34.68,61.34|Z|1970;Zereth Mortis|QO|2|NC|N|Click on the Damaged Dormant Automa.|
-;C Traces of Tampering|QID|64742|M|33.75,59.87|Z|1970;Zereth Mortis|QO|3|NC|N|Click on the Injured Vombata.|
-;T Traces of Tampering|QID|64742|M|33.75,59.81|Z|1970;Zereth Mortis|N|To Al'dalil.|
-;A Broker Decloaker|QID|64744|PRE|64742|M|33.75,59.81|Z|1970;Zereth Mortis|N|From Al'dalil.|
-;A Xy Are You Doing This?|QID|64743|PRE|64742|M|33.75,59.81|Z|1970;Zereth Mortis|N|From Al'dalil.|
-;C Broker Decloaker|QID|64744|M|32.79,57.77|Z|1970;Zereth Mortis|QO|1|U|187736|N|Xy agents slain.|S|
-;C Xy Are You Doing This?|QID|64743|M|33.97,55.58|Z|1970;Zereth Mortis|QO|1|NC|N|Suspicious Papers.|
-;C Broker Decloaker|QID|64744|M|32.79,57.77|Z|1970;Zereth Mortis|QO|1|U|187736|N|Xy agents slain.|US|
-;T Broker Decloaker|QID|64744|M|33.66,59.71|Z|1970;Zereth Mortis|N|To Al'dalil.|
-;T Xy Are You Doing This?|QID|64743|M|33.66,59.71|Z|1970;Zereth Mortis|N|To Al'dalil.|
-;A Following the Leader|QID|64758|PRE|64744&64743|M|33.76,59.88|Z|1970;Zereth Mortis|N|From Rana.|
-;C Following the Leader|QID|64758|M|33.34,66.03|Z|1970;The Slumbering Vault|QO|1|NC|N|Slumbering Vault reached.|
-;C Following the Leader|QID|64758|M|32.58,66.80|Z|1970;The Slumbering Vault|QO|2|NC|N|Vault door opened.|
-;C Following the Leader|QID|64758|M|32.55,66.71|Z|1970;The Slumbering Vault|QO|3|NC|N|Slumbering Vault entered.|
-;T Following the Leader|QID|64758|M|31.71,67.36|Z|1970;Zereth Mortis|N|To Rana.|
-;A Technical Difficulties|QID|64760|PRE|64758|M|31.71,67.36|Z|1970;Zereth Mortis|N|From Rana.|
-;C Technical Difficulties|QID|64760|M|31.66,67.34|Z|1970;Zereth Mortis|QO|1|NC|N|Press buttons.|
-;C Technical Difficulties|QID|64760|M|31.59,67.17|Z|1970;Zereth Mortis|QO|2|N|Xy'kaz slain.|
-;C Technical Difficulties|QID|64760|M|32.65,66.76|Z|1970;The Slumbering Vault|QO|3|NC|N|Vault exited.|
-;T Technical Difficulties|QID|64760|M|33.77,64.67|Z|1970;Zereth Mortis|N|To Al'dalil.|
-;A Look Who I Found!|QID|65064|PRE|64825|M|34.71,66.23|Z|1970;Zereth Mortis|N|From Tamra.|
-;C Look Who I Found!|QID|65064|M|45.71,68.14|Z|1970;Zereth Mortis|QO|1|NC|N|Chromatic Rosid collected.|
-;C Look Who I Found!|QID|65064|M|49.27,71.83|Z|1970;Zereth Mortis|QO|2|NC|N|Deliver the Chromatic Rosids to Tamra.|
-;T Look Who I Found!|QID|65064|M|49.28,71.86|Z|1970;Zereth Mortis|N|To Tamra.|
-;A Flora Aroma|QID|65066|PRE|65064|M|49.28,71.86|Z|1970;Zereth Mortis|N|From Tamra.|
-;A Broker Beaker|QID|65067|PRE|65064|M|49.28,71.86|Z|1970;Zereth Mortis|N|From Tamra.|
-;C Broker Beaker|QID|65067|M|54.38,67.11|Z|1970;Zereth Mortis|QO|1|NC|N|Kill mobs in the area till it drops.|S|
-;C Flora Aroma|QID|65066|M|53.62,68.32|Z|1970;Zereth Mortis|QO|1|NC|U|189479|N|Use a Chromatic Rosid on a Dimensional Cervid.|
-;C Flora Aroma|QID|65066|M|51.05,71.76|Z|1970;Zereth Mortis|QO|2|NC|U|189479|N|Use a Chromatic Rosid on a Dimensional Vombata.|
-;C Flora Aroma|QID|65066|M|49.33,74.00|Z|1970;Zereth Mortis|QO|3|NC|U|189479|N|Use a Chromatic Rosid on an Dimensional Bufonid.|
-;C Broker Beaker|QID|65067|M|54.38,67.11|Z|1970;Zereth Mortis|QO|1|NC|N|Kill mobs in the area till it drops.|US|
-;T Flora Aroma|QID|65066|M|49.24,71.83|Z|1970;Zereth Mortis|N|To Tamra.|
-;T Broker Beaker|QID|65067|M|49.24,71.83|Z|1970;Zereth Mortis|N|To Tamra.|
-;C Cascades of Magnitude|QID|65068|M|50.48,76.24|Z|1970;Zereth Mortis|QO|1|NC|N|Fill Water Beaker in Waterfall.|
-;C Cascades of Magnitude|QID|65068|M|50.19,74.07|Z|1970;Zereth Mortis|QO|2|NC|N|Use the "[color=40C7EB]Throw Water[/color]" button.|EAB|
-;C Cascades of Magnitude|QID|65068|M|49.62,72.82|Z|1970;Zereth Mortis|QO|4|NC|N|Hold off E'rnee.|
-;T Cascades of Magnitude|QID|65068|M|49.26,71.84|Z|1970;Zereth Mortis|N|To Tamra.|
-;A Culling the Maelstrom|QID|65069|PRE|65068|M|49.26,71.84|Z|1970;Zereth Mortis|N|From Tamra.|
-;T Culling the Maelstrom|QID|65069|M|49.27,71.82|Z|1970;Zereth Mortis|N|To Tamra.|
-;A Can I Keep Him?|QID|65070|PRE|65069|M|49.27,71.82|Z|1970;Zereth Mortis|N|From Tamra.|
-;C Can I Keep Him?|QID|65070|M|49.25,71.93|Z|1970;Zereth Mortis|QO|1|NC|N|Use the "[color=40C7EB]Throw Water[/color]" button.|EAB|
-;T Can I Keep Him?|QID|65070|M|49.25,71.80|Z|1970;Zereth Mortis|N|To Tamra.|
-;A The Wellspring of the First Ones|QID|65463|PRE|64837|M|61.47,49.27|Z|1970;Zereth Mortis|N|From Drim.|
-;C The Wellspring of the First Ones|QID|65463|M|61.91,52.92|Z|1970;Zereth Mortis|QO|1|NC|N|Visit the Wellspring.|
-;T The Wellspring of the First Ones|QID|65463|M|61.82,53.56|Z|1970;Zereth Mortis|N|To Olem.|
-;A Obvious Plant|QID|65269|PRE|64837|M|61.26,51.56|Z|1970;Zereth Mortis|N|From Elder Nirav.|
-;C Obvious Plant|QID|65269|M|52.57,92.76|Z|1970;Zereth Mortis|QO|1|NC|U|189433|N|Sensors placed.|
-;T Obvious Plant|QID|65269|M|61.22,51.49|Z|1970;Zereth Mortis|N|To Elder Nirav.|
-;A Lost Grace|QID|65349|M|61.82,53.56|Z|1970;Zereth Mortis|N|From Olem.|
-;C Lost Grace|QID|65349|M|55.27,49.99|Z|1970;Zereth Mortis|QO|1|NC|N|Investigate Provis Esper.|
-;T Lost Grace|QID|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|To Ruined Locrian Technician.|
-;A Restore the Flow|QID|65350|PRE|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|From Assistant Conservator Nadir.|
-;A An Automa-free Diet|QID|65353|PRE|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|From Assistant Conservator Nadir.|
-;C An Automa-free Diet|QID|65353|M|54.83,53.41|Z|1970;Zereth Mortis|QO|1|N|Breachers and Gorgers Slain.|
-;C Restore the Flow|QID|65350|M|55.08,50.30|Z|1970;Zereth Mortis|QO|1|NC|N|Locrian Keystone.|
-;C Restore the Flow|QID|65350|M|47.87,66.82|Z|2028;Zereth Mortis|QO|4|NC|N|Reactivate the Southern Pylon.|
-;C Restore the Flow|QID|65350|M|73.36,34.94|Z|2028;Zereth Mortis|QO|3|NC|N|Reactivate the Eastern Pylon.|
-;C Restore the Flow|QID|65350|M|73.42,68.80|Z|2028;Zereth Mortis|QO|5|NC|N|Activate the Command Console.|
-;C Restore the Flow|QID|65350|M|71.73,64.27|Z|2028;Zereth Mortis|QO|6|N|Defeat the Devourer Boss.|
-;T Restore the Flow|QID|65350|M|73.53,68.83|Z|2028;Zereth Mortis|
-;A A Return to Grace|QID|65448|PRE|65350|M|73.53,68.83|Z|2028;Zereth Mortis|
-;C A Return to Grace|QID|65448|M|61.96,53.54|Z|1970;Zereth Mortis|QO|1|NC|N|Report back to Conservator Olem.|
-;C A Return to Grace|QID|65448|M|61.51,53.68|Z|1970;Zereth Mortis|QO|2|NC|N|Step into the Center of the Wellspring.|
-;T A Return to Grace|QID|65448|M|61.81,53.57|Z|1970;Zereth Mortis|N|To Olem.|
-;T An Automa-free Diet|QID|65353|M|61.87,53.33|Z|1970;Zereth Mortis|N|To Nadir.|
 
-N This is all that is currently available on PTR. This will be updated as more content comes out.
-]]
+A Enlightened Exodus|QID|64771|PRE|64958|M|33.80,64.67|Z|1970;Zereth Mortis|N|From Al'dalil.|
+C Enlightened Exodus|QID|64771|M|34.84,64.80|Z|1970;Zereth Mortis|QO|4|CHAT|N|Speak to Elder Kreth.|
+C Enlightened Exodus|QID|64771|M|34.38,65.81|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Avna.|
+C Enlightened Exodus|QID|64771|M|34.35,66.32|Z|1970;Zereth Mortis|QO|2|CHAT|N|Speak to Varoun.|
+C Enlightened Exodus|QID|64771|M|35.49,65.15|Z|1970;Zereth Mortis|QO|3|CHAT|N|Speak to Custodian Kalir.|
+T Enlightened Exodus|QID|64771|M|33.77,64.75|Z|1970;Zereth Mortis|N|To Al'dalil.|
+A Security Check|QID|64741|PRE|64771|M|33.77,64.75|Z|1970;Zereth Mortis|N|From Al'dalil.|
+C Security Check|QID|64741|M|33.31,64.12|Z|1970;Zereth Mortis|QO|1|NC|N|Northwest Conduit checked.|
+C Security Check|QID|64741|M|34.82,62.60|Z|1970;Zereth Mortis|QO|2|NC|N|Northeast Conduit checked.|
+C Security Check|QID|64741|M|34.47,67.19|Z|1970;Zereth Mortis|QO|3|NC|N|Southwest Conduit checked.|
+C Security Check|QID|64741|M|36.11,66.03|Z|1970;Zereth Mortis|QO|4|NC|N|Southeast Conduit checked.|
+T Security Check|QID|64741|M|33.76,64.70|Z|1970;Zereth Mortis|N|To Al'dalil.|
+A Traces of Tampering|QID|64742|PRE|64741|M|33.76,64.70|Z|1970;Zereth Mortis|N|From Al'dalil.|
+C Traces of Tampering|QID|64742|M|32.37,63.94|Z|1970;Zereth Mortis|QO|1|NC|N|Click on the Trapped Leporid.|
+C Traces of Tampering|QID|64742|M|34.68,61.34|Z|1970;Zereth Mortis|QO|2|NC|N|Click on the Damaged Dormant Automa.|
+C Traces of Tampering|QID|64742|M|33.75,59.87|Z|1970;Zereth Mortis|QO|3|NC|N|Click on the Injured Vombata.|
+T Traces of Tampering|QID|64742|M|33.75,59.81|Z|1970;Zereth Mortis|N|To Al'dalil.|
+A Broker Decloaker|QID|64744|PRE|64742|M|33.75,59.81|Z|1970;Zereth Mortis|N|From Al'dalil.|
+A Xy Are You Doing This?|QID|64743|PRE|64742|M|33.75,59.81|Z|1970;Zereth Mortis|N|From Al'dalil.|
+C Broker Decloaker|QID|64744|M|32.79,57.77|Z|1970;Zereth Mortis|QO|1|U|187736|N|Xy agents slain.|S|
+C Xy Are You Doing This?|QID|64743|M|33.97,55.58|Z|1970;Zereth Mortis|QO|1|NC|N|Suspicious Papers.|
+C Broker Decloaker|QID|64744|M|32.79,57.77|Z|1970;Zereth Mortis|QO|1|U|187736|N|Xy agents slain.|US|
+T Broker Decloaker|QID|64744|M|33.66,59.71|Z|1970;Zereth Mortis|N|To Al'dalil.|
+T Xy Are You Doing This?|QID|64743|M|33.66,59.71|Z|1970;Zereth Mortis|N|To Al'dalil.|
+A Following the Leader|QID|64758|PRE|64744&64743|M|33.76,59.88|Z|1970;Zereth Mortis|N|From Rana.|
+C Following the Leader|QID|64758|M|33.34,66.03|Z|1970;The Slumbering Vault|QO|1|NC|N|Slumbering Vault reached.|
+C Following the Leader|QID|64758|M|32.58,66.80|Z|1970;The Slumbering Vault|QO|2|NC|N|Vault door opened.|
+C Following the Leader|QID|64758|M|32.55,66.71|Z|1970;The Slumbering Vault|QO|3|NC|N|Slumbering Vault entered.|
+T Following the Leader|QID|64758|M|31.71,67.36|Z|1970;Zereth Mortis|N|To Rana.|
+A Technical Difficulties|QID|64760|PRE|64758|M|31.71,67.36|Z|1970;Zereth Mortis|N|From Rana.|
+C Technical Difficulties|QID|64760|M|31.66,67.34|Z|1970;Zereth Mortis|QO|1|NC|N|Press buttons.|
+C Technical Difficulties|QID|64760|M|31.59,67.17|Z|1970;Zereth Mortis|QO|2|N|Xy'kaz slain.|
+C Technical Difficulties|QID|64760|M|32.65,66.76|Z|1970;The Slumbering Vault|QO|3|NC|N|Vault exited.|
+T Technical Difficulties|QID|64760|M|33.77,64.67|Z|1970;Zereth Mortis|N|To Al'dalil.|
+A Look Who I Found!|QID|65064|PRE|64825|M|34.71,66.23|Z|1970;Zereth Mortis|N|From Tamra.|
+C Look Who I Found!|QID|65064|M|45.71,68.14|Z|1970;Zereth Mortis|QO|1|NC|N|Chromatic Rosid collected.|
+C Look Who I Found!|QID|65064|M|49.27,71.83|Z|1970;Zereth Mortis|QO|2|NC|N|Deliver the Chromatic Rosids to Tamra.|
+T Look Who I Found!|QID|65064|M|49.28,71.86|Z|1970;Zereth Mortis|N|To Tamra.|
+A Flora Aroma|QID|65066|PRE|65064|M|49.28,71.86|Z|1970;Zereth Mortis|N|From Tamra.|
+A Broker Beaker|QID|65067|PRE|65064|M|49.28,71.86|Z|1970;Zereth Mortis|N|From Tamra.|
+C Broker Beaker|QID|65067|M|54.38,67.11|Z|1970;Zereth Mortis|QO|1|NC|N|Kill mobs in the area till it drops.|S|
+C Flora Aroma|QID|65066|M|53.62,68.32|Z|1970;Zereth Mortis|QO|1|NC|U|189479|N|Use a Chromatic Rosid on a Dimensional Cervid.|
+C Flora Aroma|QID|65066|M|51.05,71.76|Z|1970;Zereth Mortis|QO|2|NC|U|189479|N|Use a Chromatic Rosid on a Dimensional Vombata.|
+C Flora Aroma|QID|65066|M|49.33,74.00|Z|1970;Zereth Mortis|QO|3|NC|U|189479|N|Use a Chromatic Rosid on an Dimensional Bufonid.|
+C Broker Beaker|QID|65067|M|54.38,67.11|Z|1970;Zereth Mortis|QO|1|NC|N|Kill mobs in the area till it drops.|US|
+T Flora Aroma|QID|65066|M|49.24,71.83|Z|1970;Zereth Mortis|N|To Tamra.|
+T Broker Beaker|QID|65067|M|49.24,71.83|Z|1970;Zereth Mortis|N|To Tamra.|
+C Cascades of Magnitude|QID|65068|M|50.48,76.24|Z|1970;Zereth Mortis|QO|1|NC|N|Fill Water Beaker in Waterfall.|
+C Cascades of Magnitude|QID|65068|M|50.19,74.07|Z|1970;Zereth Mortis|QO|2|NC|N|Use the "[color=40C7EB]Throw Water[/color]" button.|EAB|
+C Cascades of Magnitude|QID|65068|M|49.62,72.82|Z|1970;Zereth Mortis|QO|4|NC|N|Hold off E'rnee.|
+T Cascades of Magnitude|QID|65068|M|49.26,71.84|Z|1970;Zereth Mortis|N|To Tamra.|
+A Culling the Maelstrom|QID|65069|PRE|65068|M|49.26,71.84|Z|1970;Zereth Mortis|N|From Tamra.|
+T Culling the Maelstrom|QID|65069|M|49.27,71.82|Z|1970;Zereth Mortis|N|To Tamra.|
+A Can I Keep Him?|QID|65070|PRE|65069|M|49.27,71.82|Z|1970;Zereth Mortis|N|From Tamra.|
+C Can I Keep Him?|QID|65070|M|49.25,71.93|Z|1970;Zereth Mortis|QO|1|NC|N|Use the "[color=40C7EB]Throw Water[/color]" button.|EAB|
+T Can I Keep Him?|QID|65070|M|49.25,71.80|Z|1970;Zereth Mortis|N|To Tamra.|
+A The Wellspring of the First Ones|QID|65463|PRE|64837|M|61.47,49.27|Z|1970;Zereth Mortis|N|From Drim.|
+C The Wellspring of the First Ones|QID|65463|M|61.91,52.92|Z|1970;Zereth Mortis|QO|1|NC|N|Visit the Wellspring.|
+T The Wellspring of the First Ones|QID|65463|M|61.82,53.56|Z|1970;Zereth Mortis|N|To Olem.|
+A Obvious Plant|QID|65269|PRE|64837|M|61.26,51.56|Z|1970;Zereth Mortis|N|From Elder Nirav.|
+C Obvious Plant|QID|65269|M|52.57,92.76|Z|1970;Zereth Mortis|QO|1|NC|U|189433|N|Sensors placed.|
+T Obvious Plant|QID|65269|M|61.22,51.49|Z|1970;Zereth Mortis|N|To Elder Nirav.|
+A Lost Grace|QID|65349|M|61.82,53.56|Z|1970;Zereth Mortis|N|From Olem.|
+C Lost Grace|QID|65349|M|55.27,49.99|Z|1970;Zereth Mortis|QO|1|NC|N|Investigate Provis Esper.|
+T Lost Grace|QID|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|To Ruined Locrian Technician.|
+A Restore the Flow|QID|65350|PRE|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|From Assistant Conservator Nadir.|
+A An Automa-free Diet|QID|65353|PRE|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|From Assistant Conservator Nadir.|
+C An Automa-free Diet|QID|65353|M|54.83,53.41|Z|1970;Zereth Mortis|QO|1|N|Breachers and Gorgers Slain.|
+C Restore the Flow|QID|65350|M|55.08,50.30|Z|1970;Zereth Mortis|QO|1|NC|N|Locrian Keystone.|
+C Restore the Flow|QID|65350|M|47.87,66.82|Z|2028;Zereth Mortis|QO|4|NC|N|Reactivate the Southern Pylon.|
+C Restore the Flow|QID|65350|M|73.36,34.94|Z|2028;Zereth Mortis|QO|3|NC|N|Reactivate the Eastern Pylon.|
+C Restore the Flow|QID|65350|M|73.42,68.80|Z|2028;Zereth Mortis|QO|5|NC|N|Activate the Command Console.|
+C Restore the Flow|QID|65350|M|71.73,64.27|Z|2028;Zereth Mortis|QO|6|N|Defeat the Devourer Boss.|
+T Restore the Flow|QID|65350|M|73.53,68.83|Z|2028;Zereth Mortis|
+A A Return to Grace|QID|65448|PRE|65350|M|73.53,68.83|Z|2028;Zereth Mortis|
+C A Return to Grace|QID|65448|M|61.96,53.54|Z|1970;Zereth Mortis|QO|1|NC|N|Report back to Conservator Olem.|
+C A Return to Grace|QID|65448|M|61.51,53.68|Z|1970;Zereth Mortis|QO|2|NC|N|Step into the Center of the Wellspring.|
+T A Return to Grace|QID|65448|M|61.81,53.57|Z|1970;Zereth Mortis|N|To Olem.|
+T An Automa-free Diet|QID|65353|M|61.87,53.33|Z|1970;Zereth Mortis|N|To Nadir.|
+]
 end)
