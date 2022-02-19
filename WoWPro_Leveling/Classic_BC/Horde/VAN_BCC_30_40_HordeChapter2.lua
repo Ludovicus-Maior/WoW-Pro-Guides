@@ -631,7 +631,6 @@ R Brackenwall Village|ACTIVE|1322^1201|M|35.93,30.69|Z|Dustwallow Marsh|
 T The Black Shield|QID|1322|M|36.53,30.79|Z|Dustwallow Marsh|N|To Do'gol.|
 A The Black Shield|QID|1323|M|36.53,30.79|Z|Dustwallow Marsh|N|From Do'gol.|PRE|1322|
 T The Black Shield|QID|1323|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
-A The Black Shield|QID|1276|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|PRE|1323|
 T Theramore Spies|QID|1201|M|35.21,30.66|Z|Dustwallow Marsh|N|To Nazeer Bloodpike.|
 A The Theramore Docks|QID|1202|M|35.21,30.66|Z|Dustwallow Marsh|N|From Nazeer Bloodpike.|PRE|1323&1201|
 A The Hermit of Witch Hill|QID|11225|M|37.16,33.09|Z|Dustwallow Marsh|N|From Draz'Zilb inside the cave/Inn.|LEAD|1218|
@@ -685,9 +684,10 @@ N Questioning Reethe Bugged?|AVAILABLE|1273|M|42.32,37.91|Z|Dustwallow Marsh|N|B
 A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ogron, just to the north of your current position.\n[color=FF0000]NOTE: [/color]This quest is not easy and can be bugged requiring you to finish it twice.|PRE|1323&1201|RANK|3|
 A Questioning Reethe|QID|1273|M|40.96,36.70|Z|Dustwallow Marsh|N|[color=CC00FF]QUEST FAILED [/color]\nClear any mobs that are left and go back to Ogron to re-accept the quest from him.\n[color=FF0000]NOTE: [/color]You'll probably have to wait for him to respawn.|PRE|1323&1201|FAIL|
 C Questioning Reethe|QID|1273|M|42.64,38.08|Z|Dustwallow Marsh|N|Follow Ogron to Reethe's camp.\n[color=FF0000]NOTE: [/color]If you fail the quest, you need to clear the soldiers before you can do it again. Otherwise, the quest will bug and you can't finish it.|
-L Level 40|ACTIVE|1276^1273|N|Grind out on mobs in the area until you are 1 bar of lv 40.|LVL|39;-4600|
-R Brackenwall Village|ACTIVE|1273^1276|M|37.63,31.69|Z|Dustwallow Marsh|N|Make your way back to Brackenwall Village.|
+L Level 40|ACTIVE|1273|N|Grind out on mobs in the area until you are 1 bar of lv 40.|LVL|39;-4600|
+R Brackenwall Village|ACTIVE|1273|M|37.63,31.69|Z|Dustwallow Marsh|N|Make your way back to Brackenwall Village.|
 T Questioning Reethe|QID|1273|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
+A The Black Shield|QID|1276|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|PRE|1323&1273|        
 N First Aid|ACTIVE|1276|N|if you wish to level your First Aid, there are 3 books you need to buy before you leave.\n[color=FF0000]NOTE: [/color]Skip these following 3 steps if you're not interested.\n\nThese books aren't BoP and you can send them to alts if you need/want to.|IZ|1445;Dustwallow Marsh|
 B Expert First Aid|ACTIVE|1276|M|36.49,30.35|Z|Dustwallow Marsh|L|16084|IZ|1445;Dustwallow Marsh|
 B Manual: Heavy Silk Bandage|ACTIVE|1276|M|36.49,30.35|Z|Dustwallow Marsh|L|16112|IZ|1445;Dustwallow Marsh|
