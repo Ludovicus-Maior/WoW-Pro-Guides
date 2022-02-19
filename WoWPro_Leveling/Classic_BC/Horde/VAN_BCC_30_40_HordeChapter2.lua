@@ -687,7 +687,7 @@ C Questioning Reethe|QID|1273|M|42.64,38.08|Z|Dustwallow Marsh|N|Follow Ogron to
 L Level 40|ACTIVE|1273|N|Grind out on mobs in the area until you are 1 bar of lv 40.|LVL|39;-4600|
 R Brackenwall Village|ACTIVE|1273|M|37.63,31.69|Z|Dustwallow Marsh|N|Make your way back to Brackenwall Village.|
 T Questioning Reethe|QID|1273|M|36.42,31.89|Z|Dustwallow Marsh|N|To Krog.|
-A The Black Shield|QID|1276|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|PRE|1323&1273|        
+A The Black Shield|QID|1276|M|36.42,31.88|Z|Dustwallow Marsh|N|From Krog.|PRE|1323&1273|
 N First Aid|ACTIVE|1276|N|if you wish to level your First Aid, there are 3 books you need to buy before you leave.\n[color=FF0000]NOTE: [/color]Skip these following 3 steps if you're not interested.\n\nThese books aren't BoP and you can send them to alts if you need/want to.|IZ|1445;Dustwallow Marsh|
 B Expert First Aid|ACTIVE|1276|M|36.49,30.35|Z|Dustwallow Marsh|L|16084|IZ|1445;Dustwallow Marsh|
 B Manual: Heavy Silk Bandage|ACTIVE|1276|M|36.49,30.35|Z|Dustwallow Marsh|L|16112|IZ|1445;Dustwallow Marsh|
