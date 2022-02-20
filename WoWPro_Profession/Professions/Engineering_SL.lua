@@ -35,8 +35,8 @@ N Decision Time|QID|202000004|N|You have a choice of two Scopes to make.\n[item=
 l [item=173108/Oriblase]|QID|202000004|L|173108 30|ITEM|173108|N|You'll need 30 Oriblase. If you are making the [item=172921/Infra-green Relfex Sight], Click off to skip.|
 l [item=173108/Oriblase]|QID|202000004|L|173108 15|ITEM|173108|N|You'll need 15 Oriblase. If you are making the [item=172920/Optical Target Embiggener], Click off to skip.|
 l [item=173109/Angerseye]|QID|202000004|L|173109 15|ITEM|173109|N|You'll need 15 Angerseye. If you are making the [item=172920/Optical Target Embiggener], Click off to skip.|
-B [item=183952/Machinists Oil]|QID|202000004|M|37.68,42.95|Z|Ring of Fates@Oribos|L|183952 35|ITEM|183952|N|You'll need about 35 Machinist's Oil - Sold by Distributor Au'burk.|
-B [item=180733/Luminous Flux]|QID|202000004|M|37.68,42.95|Z|Ring of Fates@Oribos|L|180733 30|ITEM|180733|N|You'll need about 30 Luminous Flux - Sold by Distributor Au'burk.|
+B [item=183952/Machinists Oil]|QID|202000004|M|37.68,42.95|Z|Ring of Fates@Oribos!Dungeon|L|183952 35|ITEM|183952|N|You'll need about 35 Machinist's Oil - Sold by Distributor Au'burk.|
+B [item=180733/Luminous Flux]|QID|202000004|M|37.68,42.95|Z|Ring of Fates@Oribos!Dungeon|L|180733 30|ITEM|180733|N|You'll need about 30 Luminous Flux - Sold by Distributor Au'burk.|
 N Class Specific Mats|QID|202000004|N|If you are NOT on your Engineer, there are some Class Specific Mats you need.  PLEASE switch back to yoiur Engineer to get the correct list.|
 l [item=173110/Umbryl]|QID|202000004|P|Engineering;202;8+0|L|173110 2|ITEM|173110|N|You will need 2 Umbryl Gems for your Head Gear.|C|Mage,Priest,Warlock|
 l [item=173202/Shrouded Cloth]|QID|202000004|P|Engineering;202;8+0|L|173202 10|ITEM|173202|N|You will need 10 Shrouded Cloth for your Head Gear.|C|Mage,Priest,Warlock|
@@ -53,8 +53,8 @@ l [item=173109/Angerseye]|QID|202000004|P|Engineering;202;8+0|L|173109 17|ITEM|1
 l [item=171832/Sinvyr Ore]|QID|202000004|L|171832 10|ITEM|171832|N|You'll need at least 10 Sinvyr Ore for your Head Gear. Found in Revendreth.|C|Death Knight,Paladin,Warrior|
 N Shopping List|QID|202000005|N|This completes the Shopping List|
 
-= Learn [spell=4036/Engineering]|QID|202004036|M|38.06,44.72|Z|Ring of Fates@Oribos|SPELL|Engineering;4036|LVL|5|N|Learn from Machinist Au'gur in Oribos.|
-= Learn [spell=310542/Shadowlands Engineering]|QID|202310542|M|38.06,44.72|Z|Ring of Fates@Oribos|P|Engineering;202;*;0;75|SPELL|Shadowlands Engineering;310542|LVL|48|N|Learn from Machinist Au'gur in Oribos.|
+= Learn [spell=4036/Engineering]|QID|202004036|M|38.06,44.72|Z|Ring of Fates@Oribos!Dungeon|SPELL|Engineering;4036|LVL|5|N|Learn from Machinist Au'gur in Oribos.|
+= Learn [spell=310542/Shadowlands Engineering]|QID|202310542|M|38.06,44.72|Z|Ring of Fates@Oribos!Dungeon|P|Engineering;202;*;0;75|SPELL|Shadowlands Engineering;310542|LVL|48|N|Learn from Machinist Au'gur in Oribos.|
 
 N These Crafts|QID|202000006|N|Will be used in most Shadowlands Engineering recipes, Make them now for "free" skill points and save them. Hopefully this will get you to 25|
 l [item=171840/Porous Stone]|QID|202171840|P|Engineering;202;8+0|L|171840 124|ITEM|171840|N|You'll need about 124 Porous Stone, for this step.|
