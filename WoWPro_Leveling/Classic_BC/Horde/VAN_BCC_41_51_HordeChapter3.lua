@@ -235,7 +235,7 @@ T Panther Mastery|QID|193|M|35.56,10.54|N|To S.J. Erlgadin.|
 T Raptor Mastery|QID|197|M|35.66,10.81|N|To Hemet Nesingwary Jr.|
 A Big Game Hunter|QID|208|M|35.66,10.81|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Hemet Nesingwary Jr.\n[color=FF0000]NOTE: [/color]This quest requires that you head back down to Gurubashi Arena and return here to turn it in.\nThis quest is the only reason to come back to this area.\nSkip this quest if you're not interested.|PRE|188&193&197|RANK|3|
 R Grom'gol Base Camp|ACTIVE|208^584|M|32.16,28.76|
-T Bloodscalp Clan Heads|QID|584|M|32.27,2.60|N|Click on the Bubbling Cauldron next to Nimboya.|
+T Bloodscalp Clan Heads|QID|584|M|32.27,27.60|N|Click on the Bubbling Cauldron next to Nimboya.|
 A Speaking with Nezzliok|QID|585|M|32.22,27.60|N|From the Bubbling Cauldron.|PRE|584|
 A Speaking with Gan'zulah|QID|586|M|32.22,27.60|N|From the Bubbling Cauldron.|PRE|584|
 A Split Bone Necklace|QID|598|M|32.28,27.71|N|From Kin'weelay.|PRE|596|
