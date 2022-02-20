@@ -67,50 +67,50 @@ K Baedos|QID|62192|QO|1|M|51.22,40.62|Z|Bastion!The Shadowlands|ITEM|172232|RARE
 K Corrupted Clawguard|QID|60999^62202|QO|1|M|56.47,46.18|Z|Bastion!The Shadowlands|T|Corrupted Clawguard|N|Pick up a Discarded Phalynx Core from behind the Corrupted Clawguard, and give it to him to activate.|RARE|ACH|14307;24|
 
 N Maldraxxus|ACH|14312|
-$ Runespeaker's Trove 1|QID|61491|M|37.94,69.91|Z|Maldraxxus|N|Kill Runespeaker Phaeton to loot his key.|T|Runespeaker Phaeton|ITEM|183516|ACH|14312;11|LVL|60|L|181777|
-$ Runespeaker's Trove 2|QID|61491|M|31.7,70.0|Z|Maldraxxus|N|Go to trove with Phaeton's key.|ITEM|183516|ACH|14312;11|LVL|60|
-$ Ritualist's Cache|M|71.7,35.4;64.6,24.7|CS|Z|Maldraxxus|N|Loot Bone Pile for Missing Ritual Pages(1st coord)\nUse book of Binding Rituals (2nd Coords)\nYou have 5 mins to get treasure(last coord)|ITEM|183517|ACH|14312;13|LVL|60| ; level 60 area, no icon visable for treasure at lvl 58
-$ Chest of Eyes|M|48.4,15.1|Z|Maldraxxus|N|WH - Inside wreckage of Nurakkir in the House of Eyes.|ITEM|183696|ACH|14312;8|
-$ Ornate Bone Shield|QID|59358|M|47.25,62.14|Z|Maldraxxus|ITEM|180749|N|Up the hill for a bit of treasure.|ACH|14312;1|
-$ Strange Growth|QID|59429|M|55.88,38.98|Z|Maldraxxus|N|Pull on the strange growth to find a bit of treasure for you.|ITEM|182607| ; (pulling the vine is QID 59428)
-$ Kyrian Corpse|QID|60587|M|32.73,21.31|Z|Maldraxxus|U|180085|N|Open the box for a bit of treasure.|ACH|14312;2|
-$ Haily's Lunch Pail|QID|60730|M|30.8,28.76|Z|Maldraxxus|N|Some treasure for you.|ACH|14312;3|
-$ Forgotten Momentos 1|M|24.5,31.6|Z|Maldraxxus|N|Go into Etheric Vault|TZ|Etheric Vault|ACH|14312;7|LVL|60|;1649 aka Etheric Vault aka MAL_Micro_A
+$ Runespeaker's Trove 1|QID|61491|M|37.94,69.91|Z|Maldraxxus!The Shadowlands|N|Kill Runespeaker Phaeton to loot his key.|T|Runespeaker Phaeton|ITEM|183516|ACH|14312;11|LVL|60|L|181777|
+$ Runespeaker's Trove 2|QID|61491|M|31.7,70.0|Z|Maldraxxus!The Shadowlands|N|Go to trove with Phaeton's key.|ITEM|183516|ACH|14312;11|LVL|60|
+$ Ritualist's Cache|M|71.7,35.4;64.6,24.7|CS|Z|Maldraxxus!The Shadowlands|N|Loot Bone Pile for Missing Ritual Pages(1st coord)\nUse book of Binding Rituals (2nd Coords)\nYou have 5 mins to get treasure(last coord)|ITEM|183517|ACH|14312;13|LVL|60| ; level 60 area, no icon visable for treasure at lvl 58
+$ Chest of Eyes|M|48.4,15.1|Z|Maldraxxus!The Shadowlands|N|WH - Inside wreckage of Nurakkir in the House of Eyes.|ITEM|183696|ACH|14312;8|
+$ Ornate Bone Shield|QID|59358|M|47.25,62.14|Z|Maldraxxus!The Shadowlands|ITEM|180749|N|Up the hill for a bit of treasure.|ACH|14312;1|
+$ Strange Growth|QID|59429|M|55.88,38.98|Z|Maldraxxus!The Shadowlands|N|Pull on the strange growth to find a bit of treasure for you.|ITEM|182607| ; (pulling the vine is QID 59428)
+$ Kyrian Corpse|QID|60587|M|32.73,21.31|Z|Maldraxxus!The Shadowlands|U|180085|N|Open the box for a bit of treasure.|ACH|14312;2|
+$ Haily's Lunch Pail|QID|60730|M|30.8,28.76|Z|Maldraxxus!The Shadowlands|N|Some treasure for you.|ACH|14312;3|
+$ Forgotten Momentos 1|M|24.5,31.6|Z|Maldraxxus!The Shadowlands|N|Go into Etheric Vault|TZ|Etheric Vault|ACH|14312;7|LVL|60|;1649 aka Etheric Vault aka MAL_Micro_A
 $ Forgotten Momentos 2|CC|M|25.7,54.2|Z|Etheric Vault|N|Take a left at the first intersection, go past the treasure and take a right at the "T". At the end of that hall, Click the Vault Portcullis Chain.|ACH|14312;7|LVL|60|
 $ Forgotten Momentos 3|M|35.0,56.2|Z|Etheric Vault|N|Go back to the treasure you passed by and Loot the Forgotten Momentos|ACH|14312;7|LVL|60|
-$ The Necronom-i-nom|QID|61470|M|42.35,23.34|Z|Maldraxxus|N|More treasure for you in a bookcase near The Archivist.|ITEM|182732|ACH|14312;6|
-$ Vat of Conspicuous Slime|QID|61444|M|59.88,79.00|Z|Maldraxxus|N|Pick up "Empty Plague Bottle" from table, then click on the vat for treasure.|ACH|14312;4|ITEM|181825|
-$ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus|N|Get a Mask from Pandemis.|BUFF|338920|ACH|14312;12|LVL|60|
-$ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|ACH|14312;12|LVL|60|
-$ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|ACH|14312;12|LVL|60|;currently bugged-treasure icon shows, but grate doesnt show pre 60
-$ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus|N|And, the Treasure is along the top of the wall in a chest.|ACH|14312;12|LVL|60|
-$ Misplaced Supplies|M|62.4,59.9|Z|Maldraxxus|N|Climb hill, turn left, Jump to mushroom, Turn right, Jump to hill, Turn right and climb hill once more to the edge, walk onto mushroom.|ACH|14312;9|LVL|60|
-$ Stolen Jar|QID|61451|M|66.08,50.10|Z|Maldraxxus|N|In this cave for some treasure.|ITEM|182618|ACH|14312;5|
-A ...Why Me?|QID|62085|M|66.16,50.44|Z|Maldraxxus|N|From Stolen Jar in ground level cave, you are facing NE when you enter. There is a cave practically on top of this one. May not be there due to respawn timer.|O|U|182618|ACH|14312;5|;$
-$ Glutharn's Stash|QID|61484|M|72.8,53.6|Z|Maldraxxus|N|Inside cave, at base of/through waterfall, Kill Scathely and his 2 adds to unlock treasure.|ACH|14312;10|LVL|60|;seems to be lvl 60. killed Scathely and his minions twice. no icon. no treasure at level 58. directly below Architect Lye
-K Corpsecutter Moroc|M|26.49,27.39|Z|Maldraxxus|T|Corpsecutter Moroc|N|WH - Hits hard, like tank. Elitle Patrol area.|RARE|ACH|14308;1|
-K Ravenomous|M|53.81,19.25|Z|Maldraxxus|T|Ravenomous|N|WH - Near stairs at coord, try to avoid spiders.|RARE|ACH|14308;5|
-K Taskmaster Xox|M|50.01,19.60|Z|Maldraxxus|T|Taskmaster Xox|N|WH - Stands on small island in slime river.  SHARES respawn with Taskmasters Mortis and Bloata.|RARE|ACH|14308;7|
-K Nirvaska the Summoner|M|50.27,63.52|Z|Maldraxxus|T|Nirvaska the Summoner|N|WH - Only up when WQ-Deadly Reminder is up.  Respawns nearby, usually dead in seconds.|RARE|ACH|14308;9|
-K Smorgas The Feaster|M|42.27,53.90|Z|Maldraxxus|T|Smorgas The Feaster|N|WH - Rare doesn't show, till you activate it with Bloody Lamp on ground.  Kill Mystery Meat when spawns, it heals rare.|RARE|ACH|14308;11|
-K Sabreil the Bonecleaver|M|50.67,47.37|Z|Maldraxxus|T|Sabreil the Bonecleaver|N|WH - Rare mob, spawns in The Theater of Pain, Minimap shows Drolkrad.  Kill others until his turn to fight.  Unsure if mount drops or Drolkrad MUST be kept alive till end of fight.|ITEM|182083|RARE|ACH|14308;13|
-K Devour'us|M|44.20,28.34|Z|Maldraxxus|T|Devour'us|N|WH - Rare elite mob with scaled level, opens rifts that spawns swarmers.|RARE|ACH|14308;15|
-K Warbringer Mal'korak|M|33.56,80.73|Z|Maldraxxus|T|Warbringer Mal'korak|N|WH - Top of tower, table near Rare has random buffs.|ITEM|182085|RARE|ACH|14308;21|
-K Collector Kash|M|49.81,24.46|Z|Maldraxxus|T|Collector Kash|N|WH - Patrols along poison river, Rare can disarm you, run to your weapon to pick up.|RARE|ACH|14308;4|
-K Sister Chelicerae|M|54.92,23.25|QID|58003|Z|Maldraxxus|T|Sister Chelicerae|N|Destroy Intricate Webbing to pull mob, doesn't scale. Hard to solo unless in epic gear.|RARE|ACH|14308;6|
-K Thread Mistress Leeda|M|24.10,39.49|Z|Maldraxxus|T|Thread Mistress Leeda|N|WH - Coord is entrance, Rare randomly spawns after killing Razorthread Weavers a few times.|ITEM|184180|RARE|ACH|14308;10|
-K Nerissa Heartless|M|65.76,34.65|Z|Maldraxxus|T|Nerissa Heartless|N|WH - Stands near groups of mob on platform where the two stairs lead to. Clear Trash!|RARE|ACH|14308;16|
-K Bubbleblood|M|52.11,35.76|Z|Maldraxxus|T|Bubbleblood|N|WH - Moves around the blood pool, Pull carefully, common mobs easy to overpull.|RARE|ACH|14308;18|
-K Deepscar|M|45.00,44.60|Z|Maldraxxus|T|Deepscar|N|WH - Coords are entrance to tower rare is located in.|ITEM|182191|RARE|ACH|14308;20|
-K Necromanitc Anomaly|M|72.72,29.01|Z|Maldraxxus|T|Necromanitc Anomaly|N|WH - Find rare on platform about The House of Rituals area.  Near the "H", southwest a bit.|RARE|ACH|14308;22|
-K Gristlebeak|QID|61991^58837|QO|1|M|57.71,51.57|Z|Maldraxxus|T|Gristlebeak|N|Break Unusual Eggs at marked spot, Silver elite comes down to defend her young.|ITEM|182196|RARE|ACH|14308;14|
-K Tahonta|QID|61986^58783|QO|1|M|45.04,50.56|Z|Maldraxxus|T|Tahonta|N|Rare wanders around area, fight isn't hard, Avoid pulling other mobs.|ITEM|182190|RARE|ACH|14308;12|
-K Indomitable Schmitd|QID|58332|QO|1|M|38.88,42.46|Z|Maldraxxus|T|Indomitable Schmitd|N|[color=ff8000]NOTE[/color]Shield buff makes invulnerable to hit, So, clear the area first, then grab one of the small [color=ff8000]Fuseless bombs[/color] When you have a cleared around a few pick one up and throw it at him. He will reshield a few times during the fight, so make sure you know where several are.|RARE|ACH|14308;8|EAB|
-K Zargox the Reborn|PRE|57245|M|28.95,51.33|Z|Maldraxxus|T|Zargox the Reborn|N|Ask Synder for Ani-Matter Orb, go to the bone at these coord.\nUse orb on pile of bones in center of platform.|RARE|ACH|14308;3|U|175827|LVL|60|
-K Pesticide|QID|58875^61992|QO|1|M|54.16,60.73|Z|Maldraxxus|T|Pesticide|N|Silver elite. Avoid burrow attacks.|ITEM|182205|RARE|ACH|14308;19|
-K Scunner|M|61.41,76.25|Z|Maldraxxus|T|Scunner|N|WH - Mob is a mess, Ton of HP and what it's worth and aura the reduces haste to the ground, Bring Group with Bloodlust/Heroism|RARE|ACH|14308;2|LVL|60|
-K Deadly Dapperling|QID|58868^61989|QO|1|M|76.13,56.25|Z|Maldraxxus|T|Deadly Dapperling|N|up the hill for a silver elite mushroom - Wanders Southeast part of Glutharn's Decay area.|ITEM|181263|RARE|ACH|14308;17|
-t ...Why Me?|QID|62085|M|54.02,50.86|Z|Maldraxxus|N|To Overseer Kalvaros somewhat near Challenger's Promanade flightpath.|
+$ The Necronom-i-nom|QID|61470|M|42.35,23.34|Z|Maldraxxus!The Shadowlands|N|More treasure for you in a bookcase near The Archivist.|ITEM|182732|ACH|14312;6|
+$ Vat of Conspicuous Slime|QID|61444|M|59.88,79.00|Z|Maldraxxus!The Shadowlands|N|Pick up "Empty Plague Bottle" from table, then click on the vat for treasure.|ACH|14312;4|ITEM|181825|
+$ Plaguefallen Chest 1|QID|1|M|59.71,71.18|Z|Maldraxxus!The Shadowlands|N|Get a Mask from Pandemis.|BUFF|338920|ACH|14312;12|LVL|60|
+$ Plaguefallen Chest 2|QID|1|M|62.46,76.58|Z|Maldraxxus!The Shadowlands|N|Stand in the Plaguewater, any of the green water works, but you may as well, pick the water closest to the cave entrance.  You need to have healing or good food to heal yourself faster than it damages you. Stay in the plaguewater till you have 10 stacks of Concentrated Plague and transform into a plaguefallen.|BUFF|330092|ACH|14312;12|LVL|60|
+$ Plaguefallen Chest 3|QID|1|M|62.46,76.58|Z|Maldraxxus!The Shadowlands|N|Now you have 2 minutes to get to the treasure. Proceed forward and click on the sewer grate in the wall.|ACH|14312;12|LVL|60|;currently bugged-treasure icon shows, but grate doesnt show pre 60
+$ Plaguefallen Chest 4|QID|1|M|57.66,75.83|Z|Maldraxxus!The Shadowlands|N|And, the Treasure is along the top of the wall in a chest.|ACH|14312;12|LVL|60|
+$ Misplaced Supplies|M|62.4,59.9|Z|Maldraxxus!The Shadowlands|N|Climb hill, turn left, Jump to mushroom, Turn right, Jump to hill, Turn right and climb hill once more to the edge, walk onto mushroom.|ACH|14312;9|LVL|60|
+$ Stolen Jar|QID|61451|M|66.08,50.10|Z|Maldraxxus!The Shadowlands|N|In this cave for some treasure.|ITEM|182618|ACH|14312;5|
+A ...Why Me?|QID|62085|M|66.16,50.44|Z|Maldraxxus!The Shadowlands|N|From Stolen Jar in ground level cave, you are facing NE when you enter. There is a cave practically on top of this one. May not be there due to respawn timer.|O|U|182618|ACH|14312;5|;$
+$ Glutharn's Stash|QID|61484|M|72.8,53.6|Z|Maldraxxus!The Shadowlands|N|Inside cave, at base of/through waterfall, Kill Scathely and his 2 adds to unlock treasure.|ACH|14312;10|LVL|60|;seems to be lvl 60. killed Scathely and his minions twice. no icon. no treasure at level 58. directly below Architect Lye
+K Corpsecutter Moroc|M|26.49,27.39|Z|Maldraxxus!The Shadowlands|T|Corpsecutter Moroc|N|WH - Hits hard, like tank. Elitle Patrol area.|RARE|ACH|14308;1|
+K Ravenomous|M|53.81,19.25|Z|Maldraxxus!The Shadowlands|T|Ravenomous|N|WH - Near stairs at coord, try to avoid spiders.|RARE|ACH|14308;5|
+K Taskmaster Xox|M|50.01,19.60|Z|Maldraxxus!The Shadowlands|T|Taskmaster Xox|N|WH - Stands on small island in slime river.  SHARES respawn with Taskmasters Mortis and Bloata.|RARE|ACH|14308;7|
+K Nirvaska the Summoner|M|50.27,63.52|Z|Maldraxxus!The Shadowlands|T|Nirvaska the Summoner|N|WH - Only up when WQ-Deadly Reminder is up.  Respawns nearby, usually dead in seconds.|RARE|ACH|14308;9|
+K Smorgas The Feaster|M|42.27,53.90|Z|Maldraxxus!The Shadowlands|T|Smorgas The Feaster|N|WH - Rare doesn't show, till you activate it with Bloody Lamp on ground.  Kill Mystery Meat when spawns, it heals rare.|RARE|ACH|14308;11|
+K Sabreil the Bonecleaver|M|50.67,47.37|Z|Maldraxxus!The Shadowlands|T|Sabreil the Bonecleaver|N|WH - Rare mob, spawns in The Theater of Pain, Minimap shows Drolkrad.  Kill others until his turn to fight.  Unsure if mount drops or Drolkrad MUST be kept alive till end of fight.|ITEM|182083|RARE|ACH|14308;13|
+K Devour'us|M|44.20,28.34|Z|Maldraxxus!The Shadowlands|T|Devour'us|N|WH - Rare elite mob with scaled level, opens rifts that spawns swarmers.|RARE|ACH|14308;15|
+K Warbringer Mal'korak|M|33.56,80.73|Z|Maldraxxus!The Shadowlands|T|Warbringer Mal'korak|N|WH - Top of tower, table near Rare has random buffs.|ITEM|182085|RARE|ACH|14308;21|
+K Collector Kash|M|49.81,24.46|Z|Maldraxxus!The Shadowlands|T|Collector Kash|N|WH - Patrols along poison river, Rare can disarm you, run to your weapon to pick up.|RARE|ACH|14308;4|
+K Sister Chelicerae|M|54.92,23.25|QID|58003|Z|Maldraxxus!The Shadowlands|T|Sister Chelicerae|N|Destroy Intricate Webbing to pull mob, doesn't scale. Hard to solo unless in epic gear.|RARE|ACH|14308;6|
+K Thread Mistress Leeda|M|24.10,39.49|Z|Maldraxxus!The Shadowlands|T|Thread Mistress Leeda|N|WH - Coord is entrance, Rare randomly spawns after killing Razorthread Weavers a few times.|ITEM|184180|RARE|ACH|14308;10|
+K Nerissa Heartless|M|65.76,34.65|Z|Maldraxxus!The Shadowlands|T|Nerissa Heartless|N|WH - Stands near groups of mob on platform where the two stairs lead to. Clear Trash!|RARE|ACH|14308;16|
+K Bubbleblood|M|52.11,35.76|Z|Maldraxxus!The Shadowlands|T|Bubbleblood|N|WH - Moves around the blood pool, Pull carefully, common mobs easy to overpull.|RARE|ACH|14308;18|
+K Deepscar|M|45.00,44.60|Z|Maldraxxus!The Shadowlands|T|Deepscar|N|WH - Coords are entrance to tower rare is located in.|ITEM|182191|RARE|ACH|14308;20|
+K Necromanitc Anomaly|M|72.72,29.01|Z|Maldraxxus!The Shadowlands|T|Necromanitc Anomaly|N|WH - Find rare on platform about The House of Rituals area.  Near the "H", southwest a bit.|RARE|ACH|14308;22|
+K Gristlebeak|QID|61991^58837|QO|1|M|57.71,51.57|Z|Maldraxxus!The Shadowlands|T|Gristlebeak|N|Break Unusual Eggs at marked spot, Silver elite comes down to defend her young.|ITEM|182196|RARE|ACH|14308;14|
+K Tahonta|QID|61986^58783|QO|1|M|45.04,50.56|Z|Maldraxxus!The Shadowlands|T|Tahonta|N|Rare wanders around area, fight isn't hard, Avoid pulling other mobs.|ITEM|182190|RARE|ACH|14308;12|
+K Indomitable Schmitd|QID|58332|QO|1|M|38.88,42.46|Z|Maldraxxus!The Shadowlands|T|Indomitable Schmitd|N|[color=ff8000]NOTE[/color]Shield buff makes invulnerable to hit, So, clear the area first, then grab one of the small [color=ff8000]Fuseless bombs[/color] When you have a cleared around a few pick one up and throw it at him. He will reshield a few times during the fight, so make sure you know where several are.|RARE|ACH|14308;8|EAB|
+K Zargox the Reborn|PRE|57245|M|28.95,51.33|Z|Maldraxxus!The Shadowlands|T|Zargox the Reborn|N|Ask Synder for Ani-Matter Orb, go to the bone at these coord.\nUse orb on pile of bones in center of platform.|RARE|ACH|14308;3|U|175827|LVL|60|
+K Pesticide|QID|58875^61992|QO|1|M|54.16,60.73|Z|Maldraxxus!The Shadowlands|T|Pesticide|N|Silver elite. Avoid burrow attacks.|ITEM|182205|RARE|ACH|14308;19|
+K Scunner|M|61.41,76.25|Z|Maldraxxus!The Shadowlands|T|Scunner|N|WH - Mob is a mess, Ton of HP and what it's worth and aura the reduces haste to the ground, Bring Group with Bloodlust/Heroism|RARE|ACH|14308;2|LVL|60|
+K Deadly Dapperling|QID|58868^61989|QO|1|M|76.13,56.25|Z|Maldraxxus!The Shadowlands|T|Deadly Dapperling|N|up the hill for a silver elite mushroom - Wanders Southeast part of Glutharn's Decay area.|ITEM|181263|RARE|ACH|14308;17|
+t ...Why Me?|QID|62085|M|54.02,50.86|Z|Maldraxxus!The Shadowlands|N|To Overseer Kalvaros somewhat near Challenger's Promanade flightpath.|
 
 N Ardenweald|ACH|14313|
 $ Dreamsong Heart|M|37.6,37.1|Z|Ardenweald!The Shadowlands|N|WH - Need Jumping Mushroom, hidden in Dreamsong Feen to get to the top of the tree.|ITEM|179510|ACH|14313;11|
