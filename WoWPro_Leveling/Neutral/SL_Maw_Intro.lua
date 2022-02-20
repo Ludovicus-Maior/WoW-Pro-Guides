@@ -107,84 +107,84 @@ C Stand as One 1|QID|59770|M|42.47,42.23|Z|The Maw!Instance|QO|1|NC|N|Touch the 
 C Stand as One 2|QID|59770|M|42.38,42.18|Z|The Maw!Instance|QO|2|N|Survive the Jailer's Onslaught.|
 T Stand as One|QID|59770|M|42.38,42.16|Z|The Maw!Instance|N|To Eroded Waystone.|
 ; This should only show if you have completed Achievement "Choosing Your Purpose" ID:(14627) on any character account-wide (currently in beta flag seems to be yes without the ach)
-A The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Tahl.|PRE|59770|ACH|14627;;true;true|
-C The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|Choose whether you want to move thru the main story line and delay picking a covenant or skip the main storyline and pick a covenant sooner.|ACH|14627;;true;true|
-T The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|To Fatescribe Roh-Tahl.|ACH|14627;;true;true|
-A Stranger in an Even Stranger Land|QID|60129|M|19.25,50.31|Z|Ring of Fates@Oribos|N|Auto Accepted.|PRE|59770|;pre for threads of fate too?
-C Stranger in an Even Stranger Land|QID|60129|M|23.82,49.71|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Talk to Protector Captain.|MS|
-C Stranger in an Even Stranger Land|QID|60129|M|39.89,66.46|Z|Ring of Fates@Oribos|QO|2|NC|N|Follow Protector Captain.|MS|
-C Stranger in an Even Stranger Land|QID|60129|M|39.89,66.46|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak Overseer Kah-Delen.|MS|
-T Stranger in an Even Stranger Land|QID|60129|M|39.89,66.46|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
-A No Place for the Living|QID|60148|M|39.89,66.46|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|60129|MS|
-C No Place for the Living|QID|60148|M|39.89,66.46|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Talk to Overseer Kah-Delen.|MS|
-C No Place for the Living|QID|60148|M|39.89,66.46|Z|Ring of Fates@Oribos|QO|2|NC|N|Listen to the Overseers.|MS|
-T No Place for the Living|QID|60148|M|40.81,65.79|Z|Ring of Fates@Oribos|N|Turn into Tal-Inara.|MS|
-A Audience with the Arbiter|QID|60149|M|40.81,65.79|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60148|MS|
-C Audience with the Arbiter|QID|60149|M|40.81,65.79|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Tell Tal-Inara you will accompany him.|MS|
+A The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos!Dungeon|N|From Fatescribe Roh-Tahl.|PRE|59770|ACH|14627;;true;true|
+C The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos!Dungeon|N|Choose whether you want to move thru the main story line and delay picking a covenant or skip the main storyline and pick a covenant sooner.|ACH|14627;;true;true|
+T The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos!Dungeon|N|To Fatescribe Roh-Tahl.|ACH|14627;;true;true|
+A Stranger in an Even Stranger Land|QID|60129|M|19.25,50.31|Z|Ring of Fates@Oribos!Dungeon|N|Auto Accepted.|PRE|59770|;pre for threads of fate too?
+C Stranger in an Even Stranger Land|QID|60129|M|23.82,49.71|Z|Ring of Fates@Oribos!Dungeon|QO|1|CHAT|N|Talk to Protector Captain.|MS|
+C Stranger in an Even Stranger Land|QID|60129|M|39.89,66.46|Z|Ring of Fates@Oribos!Dungeon|QO|2|NC|N|Follow Protector Captain.|MS|
+C Stranger in an Even Stranger Land|QID|60129|M|39.89,66.46|Z|Ring of Fates@Oribos!Dungeon|QO|3|CHAT|N|Speak Overseer Kah-Delen.|MS|
+T Stranger in an Even Stranger Land|QID|60129|M|39.89,66.46|Z|Ring of Fates@Oribos!Dungeon|N|To Overseer Kah-Delen.|MS|
+A No Place for the Living|QID|60148|M|39.89,66.46|Z|Ring of Fates@Oribos!Dungeon|N|From Overseer Kah-Delen.|PRE|60129|MS|
+C No Place for the Living|QID|60148|M|39.89,66.46|Z|Ring of Fates@Oribos!Dungeon|QO|1|CHAT|N|Talk to Overseer Kah-Delen.|MS|
+C No Place for the Living|QID|60148|M|39.89,66.46|Z|Ring of Fates@Oribos!Dungeon|QO|2|NC|N|Listen to the Overseers.|MS|
+T No Place for the Living|QID|60148|M|40.81,65.79|Z|Ring of Fates@Oribos!Dungeon|N|Turn into Tal-Inara.|MS|
+A Audience with the Arbiter|QID|60149|M|40.81,65.79|Z|Ring of Fates@Oribos!Dungeon|N|From Tal-Inara.|PRE|60148|MS|
+C Audience with the Arbiter|QID|60149|M|40.81,65.79|Z|Ring of Fates@Oribos!Dungeon|QO|1|CHAT|N|Tell Tal-Inara you will accompany him.|MS|
 C Audience with the Arbiter|QID|60149|M|50.78,51.54|Z|The Crucible@Oribos!Dungeon|QO|2|CHAT|N|Ask Tal-Inara where you are.|MS|
 C Audience with the Arbiter|QID|60149|M|50.78,51.54|Z|The Crucible@Oribos!Dungeon|QO|3|CHAT|N|Wait and Listen.|MS|
 C Audience with the Arbiter|QID|60149|M|50.78,51.54|Z|The Crucible@Oribos!Dungeon|QO|4|CHAT|N|Ask Tal-Inara to return to the bottom level.|MS|
-T Audience with the Arbiter|QID|60149|M|39.87,66.29|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
-A Tether to Home|QID|60150|M|39.87,66.29|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|60149|MS|
-C Tether to Home|QID|60150|M|39.46,69.28|Z|Ring of Fates@Oribos|NC|N|Click the Shadowlands Map to affix the Helm of Domination.|MS|
-T Tether to Home|QID|60150|M|40.31,64.84|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
-A A Doorway Through the Veil|QID|60151|M|40.23,65.14|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|60150|MS|
-C A Doorway Through the Veil|QID|60151|M|40.00,63.93|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to the Ebon Blade Acolyte.|MS|
-C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|Ring of Fates@Oribos|QO|2|NC|N|Follow the Acolytes back to the landing.|MS|
-C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak to the Ebon Blade Acolyte.|MS|
-T A Doorway Through the Veil|QID|60151|M|40.29,66.53|Z|Ring of Fates@Oribos|N|To Overseer Kah-Sher.|MS|
-A The Eternal City|QID|60152|M|40.29,66.53|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60151|MS|
-C Overseer Ta'readon|QID|60152|M|64.39,68.31|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Overseer Ta'readon.|MS|
-C Host Ta'rela|QID|60152|M|67.21,50.29|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Speak to Host Ta'rela, the innkeeper.|MS|
-C Fatescribe Roh-Tahl|QID|60152|M|78.93,49.16|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak to the Fatescribe and ask about this place.|MS|
-C Caretaker Kah-Rahm|QID|60152|M|60.52,31.28|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak to Caretaker Kah-Rahm at the bank.|MS|
-C Foreman Au'brak|QID|60152|M|40.33,32.63|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak to Foreman Au'brak in the tradeskill area.|MS|
-C The Eternal City|QID|60152|M|39.88,66.44|Z|Ring of Fates@Oribos|QO|6|CHAT|N|Return to the Enclave.|MS|
-T The Eternal City|QID|60152|M|39.88,66.40|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
-A Understanding the Shadowlands|QID|60154|M|40.30,64.97|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|60152|MS|
-C Understanding the Shadowlands|QID|60154|M|40.81,65.88|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Tal-Inara.|MS|
-C Understanding the Shadowlands|QID|60154|M|40.34,66.59|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Tell Kah-Sher you will go.\n[color=FF0000]NOTE: [/color]Don't take the Transport Pad until you get the objective completed notification and this step closes.|MS|
-C Understanding the Shadowlands|QID|60154|M|40.30,66.52|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with Kah-Sher.|MS|
-C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|Ring of Fates@Oribos|QO|4|NC|N|Follow Kah-Sher to the Transport Pad.|MS|
-C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|Ring of Fates@Oribos|QO|5|NC|N|Take the Transport Pad to the Ring of Transference.|MS|
-T Understanding the Shadowlands|QID|60154|M|50.50,61.98|Z|Ring of Transference@Oribos||N|To Overseer Kah-Sher.|MS|
-A The Path to Bastion|QID|60156|M|50.50,61.98|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|60154|MS|
-C The Path to Bastion|QID|60156|M|64.56,53.54|Z|Ring of Transference@Oribos|QO|1|NC|N|Follow Kah-Sher to the gate.|MS|
-C The Path to Bastion|QID|60156|M|63.86,51.55|Z|Ring of Transference@Oribos|QO|2|NC|N|Click the Blue Sword in front of you.|MS|
-T The Path to Bastion|QID|60156|M|64.49,53.52|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
-f Oribos|ACTIVE|60154|M|64.21,49.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|MS|
-A Seek the Ascended|QID|59773|M|64.21,49.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|PRE|60156|MS|
-C Seek the Ascended|QID|59773|M|64.21,49.63|Z|Ring of Transference@Oribos|CHAT|N|Talk to Pathscribe Roh-Avonavi.|MS|
+T Audience with the Arbiter|QID|60149|M|39.87,66.29|Z|Ring of Fates@Oribos!Dungeon|N|To Overseer Kah-Delen.|MS|
+A Tether to Home|QID|60150|M|39.87,66.29|Z|Ring of Fates@Oribos!Dungeon|N|From Overseer Kah-Delen.|PRE|60149|MS|
+C Tether to Home|QID|60150|M|39.46,69.28|Z|Ring of Fates@Oribos!Dungeon|NC|N|Click the Shadowlands Map to affix the Helm of Domination.|MS|
+T Tether to Home|QID|60150|M|40.31,64.84|Z|Ring of Fates@Oribos!Dungeon|N|To Highlord Bolvar Fordragon.|MS|
+A A Doorway Through the Veil|QID|60151|M|40.23,65.14|Z|Ring of Fates@Oribos!Dungeon|N|From Highlord Bolvar Fordragon.|PRE|60150|MS|
+C A Doorway Through the Veil|QID|60151|M|40.00,63.93|Z|Ring of Fates@Oribos!Dungeon|QO|1|CHAT|N|Speak to the Ebon Blade Acolyte.|MS|
+C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|Ring of Fates@Oribos!Dungeon|QO|2|NC|N|Follow the Acolytes back to the landing.|MS|
+C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|Ring of Fates@Oribos!Dungeon|QO|3|CHAT|N|Speak to the Ebon Blade Acolyte.|MS|
+T A Doorway Through the Veil|QID|60151|M|40.29,66.53|Z|Ring of Fates@Oribos!Dungeon|N|To Overseer Kah-Sher.|MS|
+A The Eternal City|QID|60152|M|40.29,66.53|Z|Ring of Fates@Oribos!Dungeon|N|From Tal-Inara.|PRE|60151|MS|
+C Overseer Ta'readon|QID|60152|M|64.39,68.31|Z|Ring of Fates@Oribos!Dungeon|QO|1|CHAT|N|Speak to Overseer Ta'readon.|MS|
+C Host Ta'rela|QID|60152|M|67.21,50.29|Z|Ring of Fates@Oribos!Dungeon|QO|5|CHAT|N|Speak to Host Ta'rela, the innkeeper.|MS|
+C Fatescribe Roh-Tahl|QID|60152|M|78.93,49.16|Z|Ring of Fates@Oribos!Dungeon|QO|2|CHAT|N|Speak to the Fatescribe and ask about this place.|MS|
+C Caretaker Kah-Rahm|QID|60152|M|60.52,31.28|Z|Ring of Fates@Oribos!Dungeon|QO|4|CHAT|N|Speak to Caretaker Kah-Rahm at the bank.|MS|
+C Foreman Au'brak|QID|60152|M|40.33,32.63|Z|Ring of Fates@Oribos!Dungeon|QO|3|CHAT|N|Speak to Foreman Au'brak in the tradeskill area.|MS|
+C The Eternal City|QID|60152|M|39.88,66.44|Z|Ring of Fates@Oribos!Dungeon|QO|6|CHAT|N|Return to the Enclave.|MS|
+T The Eternal City|QID|60152|M|39.88,66.40|Z|Ring of Fates@Oribos!Dungeon|N|To Overseer Kah-Delen.|MS|
+A Understanding the Shadowlands|QID|60154|M|40.30,64.97|Z|Ring of Fates@Oribos!Dungeon|N|From Highlord Bolvar Fordragon.|PRE|60152|MS|
+C Understanding the Shadowlands|QID|60154|M|40.81,65.88|Z|Ring of Fates@Oribos!Dungeon|QO|1|CHAT|N|Speak to Tal-Inara.|MS|
+C Understanding the Shadowlands|QID|60154|M|40.34,66.59|Z|Ring of Fates@Oribos!Dungeon|QO|2|CHAT|N|Tell Kah-Sher you will go.\n[color=FF0000]NOTE: [/color]Don't take the Transport Pad until you get the objective completed notification and this step closes.|MS|
+C Understanding the Shadowlands|QID|60154|M|40.30,66.52|Z|Ring of Fates@Oribos!Dungeon|QO|3|CHAT|N|Speak with Kah-Sher.|MS|
+C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|Ring of Fates@Oribos!Dungeon|QO|4|NC|N|Follow Kah-Sher to the Transport Pad.|MS|
+C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|Ring of Fates@Oribos!Dungeon|QO|5|NC|N|Take the Transport Pad to the Ring of Transference.|MS|
+T Understanding the Shadowlands|QID|60154|M|50.50,61.98|Z|Ring of Transference@Oribos!Dungeon||N|To Overseer Kah-Sher.|MS|
+A The Path to Bastion|QID|60156|M|50.50,61.98|Z|Ring of Transference@Oribos!Dungeon|N|From Overseer Kah-Sher.|PRE|60154|MS|
+C The Path to Bastion|QID|60156|M|64.56,53.54|Z|Ring of Transference@Oribos!Dungeon|QO|1|NC|N|Follow Kah-Sher to the gate.|MS|
+C The Path to Bastion|QID|60156|M|63.86,51.55|Z|Ring of Transference@Oribos!Dungeon|QO|2|NC|N|Click the Blue Sword in front of you.|MS|
+T The Path to Bastion|QID|60156|M|64.49,53.52|Z|Ring of Transference@Oribos!Dungeon|N|To Overseer Kah-Sher.|MS|
+f Oribos|ACTIVE|60154|M|64.21,49.63|Z|Ring of Transference@Oribos!Dungeon|N|From Pathscribe Roh-Avonavi.|MS|
+A Seek the Ascended|QID|59773|M|64.21,49.63|Z|Ring of Transference@Oribos!Dungeon|N|From Pathscribe Roh-Avonavi.|PRE|60156|MS|
+C Seek the Ascended|QID|59773|M|64.21,49.63|Z|Ring of Transference@Oribos!Dungeon|CHAT|N|Talk to Pathscribe Roh-Avonavi.|MS|
 T Seek the Ascended|QID|59773|M|37.52,76.44|Z|Bastion|N|To Kleia.|MS|
 
 ;right after tof decision
-A Re-Introductions|QID|62716|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Thal.|PRE|58086|
-A Observing ...(PVP)|QID|62284^62285^62286^62287^62288^62289|PRE|58086|M|34.23,55.86|Z|Ring of Fates@Oribos|N|If you plan to do [color=ff0000]PVP[/color], grab these two weekly quests from Strategist Zo'rak, if not, just check off manually.|RANK|2|
-A Trading Favors|QID|60274|PRE|58086|M|67.44,50.33|Z|Ring of Fates@Oribos|N|If you plan to do [color=efcc80]dungeons[/color], grab this quest (and it's follow ups) from Host Ta'rela. Otherwise, just check this step off manually. There are new weekly dungeon quests available with the Tuesday reset.|RANK|2|
-R Through this doorway|ACTIVE|60274|M|70.39,59.89|CC|Z|Ring of Fates@Oribos|N|starting here, follow the stairs down and make your way to the The Broker's Den.|
+A Re-Introductions|QID|62716|M|20.41,50.31|Z|Ring of Fates@Oribos!Dungeon|N|From Fatescribe Roh-Thal.|PRE|58086|
+A Observing ...(PVP)|QID|62284^62285^62286^62287^62288^62289|PRE|58086|M|34.23,55.86|Z|Ring of Fates@Oribos!Dungeon|N|If you plan to do [color=ff0000]PVP[/color], grab these two weekly quests from Strategist Zo'rak, if not, just check off manually.|RANK|2|
+A Trading Favors|QID|60274|PRE|58086|M|67.44,50.33|Z|Ring of Fates@Oribos!Dungeon|N|If you plan to do [color=efcc80]dungeons[/color], grab this quest (and it's follow ups) from Host Ta'rela. Otherwise, just check this step off manually. There are new weekly dungeon quests available with the Tuesday reset.|RANK|2|
+R Through this doorway|ACTIVE|60274|M|70.39,59.89|CC|Z|Ring of Fates@Oribos!Dungeon|N|starting here, follow the stairs down and make your way to the The Broker's Den.|
 R The Broker's Den|ACTIVE|60274|M|42.21,70.64|Z|The Broker's Den@Oribos!Dungeon|N|And you have arrived to the basement den of the broker's.|
 T Trading Favors|QID|60274|M|52.60,54.77|Z|The Broker's Den@Oribos!Dungeon|N|To Finder Ta'sul.|
 A Trading Favors: dungeons|QID|60242^60243^60244^60245^60246^60247^60248^60249|PRE|60274|M|52.60,54.77|Z|The Broker's Den@Oribos!Dungeon|N|From Finder Ta'sul. Get both quests.|
 ;A A Valuable Find: [color=efcc80]dungeons[/color]|QID|60250^60251^60252^60253^60254^60255^60256^60257|PRE|60274|M|51.19,43.79|Z|The Broker's Den@Oribos!Dungeon|ELITE|N|Get both Ta'lan the Antiquary's quests if you are up for Heroic dungeons.|;per wowhead lvl 60. but being offered it at lvl 50 in beta?
-T Re-Introductions|QID|62716|M|38.90,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
-A Choosing Your Purpose|QID|62000|PRE|62716|M|38.90,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
-C Choosing Your Purpose|QID|62000|M|36.17,64.15|Z|Ring of Fates@Oribos|QO|2|NC|N|Speak with the Kyrian (Optional). You don't have to talk to any of them, you can go directly to selecting the covenent on the Covenant Map in front of Tal-Inara.|
-C Choosing Your Purpose|QID|62000|M|39.75,60.86|Z|Ring of Fates@Oribos|QO|4|NC|N|Speak with the Night Fae (Optional).|
-C Choosing Your Purpose|QID|62000|M|44.86,68.78|Z|Ring of Fates@Oribos|QO|3|NC|N|Speak with the Venthyr (Optional).|
-C Choosing Your Purpose|QID|62000|M|42.99,74.01|Z|Ring of Fates@Oribos|QO|5|NC|N|Speak with the Necrolords (Optional).|
-C Choosing Your Purpose|QID|62000|M|39.71,68.56|Z|Ring of Fates@Oribos|QO|1|NC|N|Make your choice on the Shadowlands Covenant Map in front of Tal-Inara.|
-T Choosing Your Purpose|QID|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
-A Aiding the Shadowlands|QID|62159|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
-C Choose your starting zone|QID|62159|M|38.93,69.97|Z|Ring of Fates@Oribos|N|Choose your preferred starting zone from Tal-Inara's Shadowlands Map.|
+T Re-Introductions|QID|62716|M|38.90,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|
+A Choosing Your Purpose|QID|62000|PRE|62716|M|38.90,69.97|Z|Ring of Fates@Oribos!Dungeon|N|From Tal-Inara.|
+C Choosing Your Purpose|QID|62000|M|36.17,64.15|Z|Ring of Fates@Oribos!Dungeon|QO|2|NC|N|Speak with the Kyrian (Optional). You don't have to talk to any of them, you can go directly to selecting the covenent on the Covenant Map in front of Tal-Inara.|
+C Choosing Your Purpose|QID|62000|M|39.75,60.86|Z|Ring of Fates@Oribos!Dungeon|QO|4|NC|N|Speak with the Night Fae (Optional).|
+C Choosing Your Purpose|QID|62000|M|44.86,68.78|Z|Ring of Fates@Oribos!Dungeon|QO|3|NC|N|Speak with the Venthyr (Optional).|
+C Choosing Your Purpose|QID|62000|M|42.99,74.01|Z|Ring of Fates@Oribos!Dungeon|QO|5|NC|N|Speak with the Necrolords (Optional).|
+C Choosing Your Purpose|QID|62000|M|39.71,68.56|Z|Ring of Fates@Oribos!Dungeon|QO|1|NC|N|Make your choice on the Shadowlands Covenant Map in front of Tal-Inara.|
+T Choosing Your Purpose|QID|62000|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|
+A Aiding the Shadowlands|QID|62159|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|From Tal-Inara.|
+C Choose your starting zone|QID|62159|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|Choose your preferred starting zone from Tal-Inara's Shadowlands Map.|
 ;there is no "T Aiding the Shadowlands"
 
-T Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-N Choose Bastion|PRE|62275|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|
-N Choose Revendreth|PRE|62279|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|
-N Choose Maldraxxus|PRE|62278|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|
-N Choose Ardenweald|PRE|62277|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|
+T Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|TOF|
+T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|TOF|
+T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|TOF|
+T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|TOF|
+N Choose Bastion|PRE|62275|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|
+N Choose Revendreth|PRE|62279|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|
+N Choose Maldraxxus|PRE|62278|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|
+N Choose Ardenweald|PRE|62277|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|
 ]]
 end)
