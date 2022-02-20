@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('CagER0110', "Leveling", "Exile's Reach!Instance", 'Cagomei', 'Alliance')
+local guide = WoWPro:RegisterGuide('CagER0110', "Leveling", "Exile's Reach#1409!Instance", 'Cagomei', 'Alliance')
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNickname(guide, "Exile's Reach")
@@ -37,7 +37,7 @@ C Enhanced Combat Tactics|ACTIVE|59339|M|58.96,72.71|N|Spar with Captain Garrick
 T Enhanced Combat Tactics|QID|59254|M|58.33,74.51|N|Turn into Captain Garrick.|
 T Enhanced Combat Tactics|QID|59339|M|58.33,74.51|N|Turn into Captain Garrick.|
 A Northbound|QID|55173|PRE|55174|M|58.37,74.47|N|From Alaria.|
-$ Abandoned Treasure Chest|QID|58882|M|57.05,68.40|Z|Exile's Reach!Instance|N|Loot the treasure chest.|
+$ Abandoned Treasure Chest|QID|58882|M|57.05,68.40|Z|Exile's Reach#1409!Instance|N|Loot the treasure chest.|
 T Northbound|QID|55173|M|62.68,69.87|N|Turn into Austin Huxworth.|
 A Taming the Wilds|QID|59342|PRE|55173|M|62.73,69.84|N|From Captain Garrick.|C|Hunter|
 C Taming the Wilds|ACTIVE|59342|M|62.73,69.84|QO|2|N|Tame a beast of your choice to be your pet. You can rename by right clicking on the pet's character portrait (below yours) and choosing rename from the menu options. Choose wisely as it isn't free to change it.|
@@ -45,10 +45,10 @@ T Taming the Wilds|QID|59342|M|62.73,69.84|N|Turn into Captain Garrick.|
 A Down with the Quilboar|QID|55186|PRE|55173|M|62.73,69.84|N|From Austin Huxworth.|
 A Forbidden Quilboar Necromancy|QID|55184|PRE|55173|M|62.73,69.84|N|From Austin Huxworth.|
 C Forbidden Quilboar Necromancy|QID|55184|N|Kill Quilboar in the area.|S|
-K Ogre Overseer|QID|56051|M|60.52,59.86|Z|Exile's Reach!Instance|RARE|N|Silver Elite to kill and loot.|T|Ogre Overseer|
+K Ogre Overseer|QID|56051|M|60.52,59.86|Z|Exile's Reach#1409!Instance|RARE|N|Silver Elite to kill and loot.|T|Ogre Overseer|
 C Forbidden Quilboar Necromancy|QID|55184|M|61.60,62.88|N|Kill Quilboar in the area.|US|
 C Down with the Quilboar|QID|55186|M|58.91,62.96|N|End Geolord Grek'og and rescue Lindie.|
-$ Quilboar Treasures|QID|56579|M|58.52,59.30|Z|Exile's Reach!Instance|N|Loot the treasure chest.|
+$ Quilboar Treasures|QID|56579|M|58.52,59.30|Z|Exile's Reach#1409!Instance|N|Loot the treasure chest.|
 T Forbidden Quilboar Necromancy|QID|55184|M|56.25,59.17|N|Turn into Austin Huxworth.|
 T Down with the Quilboar|QID|55186|M|56.16,59.13|N|Turn into Lindie Springstock.|
 A The Scout-o-Matic 5000|QID|55193|PRE|55186&55184|M|56.16,59.13|N|From Lindie Springstock.|
@@ -164,7 +164,7 @@ C One Last Spar|QID|59349|M|53.50,49.58|N|Use Touch of Death on Kee-La.|
 T One Last Spar|QID|59349|M|52.35,55.35|N|Turn into Captain Garrick.|
 A To Darkmaul Citadel|QID|56344|PRE|55882|M|52.35,55.35|N|From Captain Garrick.|
 A Killclaw the Terrible|QID|56839|M|48.78,54.26|ELITE|N|[color=ff8000]Elite: [/color]From the sign off the road.|
-C Killclaw the Terrible|QID|56839|M|46.12,54.81|Z|Exile's Reach!Instance|N|[color=ff8000]Elite: [/color]Killclaw the Terrible slain.|
+C Killclaw the Terrible|QID|56839|M|46.12,54.81|Z|Exile's Reach#1409!Instance|N|[color=ff8000]Elite: [/color]Killclaw the Terrible slain.|
 T Killclaw the Terrible|QID|56839|M|43.42,51.14|N|Turn into Hidden Chest.|
 T To Darkmaul Citadel|QID|56344|M|48.98,49.23|N|Turn into Captain Garrick.|
 A Right Beneath Their Eyes|QID|55981|PRE|56344|M|48.98,49.23|N|From Captain Garrick.|
