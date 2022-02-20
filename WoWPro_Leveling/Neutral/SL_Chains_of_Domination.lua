@@ -9,18 +9,18 @@ return [[
 ;Looted Quests
 A Researching Korthian Relics|QID|63731|M|63.45,24.68|Z|1961;Korthia|U|187177|N|Auto Accepted upon looting "Researching Korthian Relics".|
 ; Battle of Ardenweald
-A The First Move|QID|63576|M|PLAYER|Z|Ring of Fates@Oribos|N|AutoAccepted.|
-C The First Move|QID|63576|M|41.30,68.02|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with Polemarch Adrestes in Oribos.|
-T The First Move|QID|63576|M|40.28,68.09|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
-A A Gathering of Covenants|QID|63856|PRE|63576|M|38.90,70.02|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
-C A Gathering of Covenants|QID|63856|M|38.90,70.02|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Tal-Inara.|
+A The First Move|QID|63576|M|PLAYER|Z|Ring of Fates@Oribos!Dungeon|N|AutoAccepted.|
+C The First Move|QID|63576|M|41.30,68.02|Z|Ring of Fates@Oribos!Dungeon|QO|1|CHAT|N|Speak with Polemarch Adrestes in Oribos.|
+T The First Move|QID|63576|M|40.28,68.09|Z|Ring of Fates@Oribos!Dungeon|N|To Highlord Bolvar Fordragon.|
+A A Gathering of Covenants|QID|63856|PRE|63576|M|38.90,70.02|Z|Ring of Fates@Oribos!Dungeon|N|From Tal-Inara.|
+C A Gathering of Covenants|QID|63856|M|38.90,70.02|Z|Ring of Fates@Oribos!Dungeon|QO|1|CHAT|N|Speak to Tal-Inara.|
 T A Gathering of Covenants|QID|63856|M|50.07,43.36|Z|The Crucible@Oribos!Dungeon|N|To Highlord Bolvar Fordragon.|
 A Voices of the Eternal|QID|63857|PRE|63856|M|50.07,43.36|Z|The Crucible@Oribos!Dungeon|N|From Highlord Bolvar Fordragon.|
 C Voices of the Eternal|QID|63857|M|48.64,53.75|Z|The Crucible@Oribos!Dungeon|QO|1|CHAT|N|Ask Tal-Inara to begin.|
 P The Enclave|ACTIVE|63857|M|48.64,53.75|Z|The Crucible@Oribos!Dungeon|N|Speak with Tal-Inara to get transported back down to the Enclave.|
-T Voices of the Eternal|QID|63857|M|40.71,66.50|Z|Ring of Fates@Oribos|N|To Lady Moonberry.|
-A The Battle of Ardenweald|QID|63578|PRE|63857|M|40.71,66.50|Z|Ring of Fates@Oribos|N|From Lady Moonberry.|
-C The Battle of Ardenweald|QID|63578|M|52.18,89.82|Z|Ring of Fates@Oribos|QO|1|V|N|Mount an Anima Wyrm.|
+T Voices of the Eternal|QID|63857|M|40.71,66.50|Z|Ring of Fates@Oribos!Dungeon|N|To Lady Moonberry.|
+A The Battle of Ardenweald|QID|63578|PRE|63857|M|40.71,66.50|Z|Ring of Fates@Oribos!Dungeon|N|From Lady Moonberry.|
+C The Battle of Ardenweald|QID|63578|M|52.18,89.82|Z|Ring of Fates@Oribos!Dungeon|QO|1|V|N|Mount an Anima Wyrm.|
 C Bumpy Arrival|ACTIVE|63578|M|51.16,33.10|Z|2005;Battle of Ardenweald|SO|1|NC|N|Can't do anything during this opening sequence, just wait to land.|
 C Deploy the Decoys|ACTIVE|63578|M|51.16,33.10|Z|2005;Battle of Ardenweald|SO|2|NC|N|Click on the Animacone to create the decoy.|
 C Maw Invasion|ACTIVE|63578|M|51.92,35.34|Z|2005;Battle of Ardenweald|SO|3|N|Kill Mawsword, click on Maw Gateways and revive Wild Hunt Guardians to push back the maws forces.|
@@ -41,15 +41,15 @@ A The Heart of Ardenweald|QID|63904|PRE|63638|M|47.07,48.59|Z|Ardenweald!The Sha
 C The Heart of Ardenweald|QID|63904|M|47.84,53.55|Z|Ardenweald!The Shadowlands|CHAT|N|Speak with Bolvar.|
 T The Heart of Ardenweald|QID|63904|M|47.07,48.61|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|
 A Report to Oribos|QID|63639|PRE|63904|M|47.07,48.61|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|
-T Report to Oribos|QID|63639|M|38.91,69.98|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
+T Report to Oribos|QID|63639|M|38.91,69.98|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|
 
 ; Maw Walkers
-A Opening the Maw|QID|63660|PRE|63639|M|38.91,69.98|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
-C Opening the Maw|QID|63660|M|38.91,69.98|Z|Ring of Fates@Oribos|CHAT|N|Speak with Tal-Inara.|
-T Opening the Maw|QID|63660|M|38.91,69.98|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
-A Link to the Maw|QID|63661|PRE|63660|M|38.91,69.98|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
-P Ring of Transference|QID|63661|ACTIVE|63661|M|52.07,57.87|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
-P Ve'nari's Refuge|QID|63661|ACTIVE|63661|M|49.55,51.62|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|
+A Opening the Maw|QID|63660|PRE|63639|M|38.91,69.98|Z|Ring of Fates@Oribos!Dungeon|N|From Tal-Inara.|
+C Opening the Maw|QID|63660|M|38.91,69.98|Z|Ring of Fates@Oribos!Dungeon|CHAT|N|Speak with Tal-Inara.|
+T Opening the Maw|QID|63660|M|38.91,69.98|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|
+A Link to the Maw|QID|63661|PRE|63660|M|38.91,69.98|Z|Ring of Fates@Oribos!Dungeon|N|From Tal-Inara.|
+P Ring of Transference|QID|63661|ACTIVE|63661|M|52.07,57.87|Z|Ring of Fates@Oribos!Dungeon|N|Take the portal to Ring of Transference.|
+P Ve'nari's Refuge|QID|63661|ACTIVE|63661|M|49.55,51.62|Z|Ring of Transference@Oribos!Dungeon|N|Hop into the center to teleport to the maw.|
 C Link to the Maw|QID|63661|M|46.90,41.70|Z|The Maw|CHAT|N|Speak with Ve'nari.|
 T Link to the Maw|QID|63661|M|46.90,41.70|Z|The Maw|N|To Ve'nari.|
 A Mysteries of the Maw|QID|63662|PRE|63661|M|46.90,41.70|Z|The Maw|N|From Ve'nari.|
@@ -67,10 +67,10 @@ T Who is the Maw Walker?|QID|63994|M|63.89,23.77|Z|1961;Korthia|N|To Tal-Galan.|
 A Opening to Oribos|QID|63665|PRE|63994|M|63.89,23.77|Z|1961;Korthia|N|From Tal-Galan.|
 C Opening to Oribos|QID|63665|M|64.47,24.04|Z|1961;Korthia|QO|1|NC|N|Click on the Waystone to activate it.|
 P Opening to Oribos|QID|63665|ACTIVE|63665|M|64.47,24.04|Z|1961;Korthia|QO|2|NC|N|Click on the Waystone once more to travel to Oribos.|
-T Opening to Oribos|QID|63665|M|39.75,36.88|Z|Ring of Transference@Oribos|N|To Highlord Bolvar Fordragon.|
-A Charge of the Covenants|QID|64007|PRE|63665|M|39.75,36.88|Z|Ring of Transference@Oribos|N|From Highlord Bolvar Fordragon.|
-C Charge of the Covenants|QID|64007|M|39.75,36.88|Z|Ring of Transference@Oribos|QO|1|NC|N|Use the "[color=40C7EB]Rallying[/color]" button to get the army into the maw.|EAB|
-P Korthia|QID|64007|ACTIVE|64007|M|30.79,23.31|Z|Ring of Transference@Oribos|NC|N|Run through the newly opened portal to Korthia in the maw.|
+T Opening to Oribos|QID|63665|M|39.75,36.88|Z|Ring of Transference@Oribos!Dungeon|N|To Highlord Bolvar Fordragon.|
+A Charge of the Covenants|QID|64007|PRE|63665|M|39.75,36.88|Z|Ring of Transference@Oribos!Dungeon|N|From Highlord Bolvar Fordragon.|
+C Charge of the Covenants|QID|64007|M|39.75,36.88|Z|Ring of Transference@Oribos!Dungeon|QO|1|NC|N|Use the "[color=40C7EB]Rallying[/color]" button to get the army into the maw.|EAB|
+P Korthia|QID|64007|ACTIVE|64007|M|30.79,23.31|Z|Ring of Transference@Oribos!Dungeon|NC|N|Run through the newly opened portal to Korthia in the maw.|
 T Charge of the Covenants|QID|64007|M|62.75,25.00|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
 A Surveying Secrets|QID|64555|M|62.76,25.00|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|PRE|64007|
 C Surveying Secrets|QID|64555|M|61.91,25.43|Z|1961;Korthia|QO|1|CHAT|N|Speak with Nadjia.|
@@ -134,7 +134,7 @@ C Wrath of Odyn|QID|63845|M|58.34,85.30|Z|Skyhold!Instance|QO|2|NC|N|Wait for th
 T Wrath of Odyn|QID|63845|M|58.34,85.30|Z|Skyhold!Instance|N|To Odyn.|
 A Mawsplaining|QID|64014|PRE|63845|M|58.34,85.30|Z|Skyhold!Instance|N|From Odyn.|
 C Mawsplaining|QID|64014|M|59.12,22.45|Z|Skyhold!Instance|QO|1|NC|N|Jump down the Skyhold portal back to Oribos.|
-P Ve'nari's Refuge|ACTIVE|64014|M|49.55,51.62|Z|Ring of Transference@Oribos|QO|2|N|Hop into the center to teleport to the maw.|
+P Ve'nari's Refuge|ACTIVE|64014|M|49.55,51.62|Z|Ring of Transference@Oribos!Dungeon|QO|2|N|Hop into the center to teleport to the maw.|
 C Mawsplaining|QID|64014|M|46.91,41.69|Z|The Maw|QO|2|CHAT|N|Ve'nari consulted.|
 T Mawsplaining|QID|64014|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|
 A Tears of the Damned|QID|63896|PRE|64014|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|
@@ -223,7 +223,7 @@ T The Chains of Command|QID|63612|M|62.88,65.99|Z|The Maw|N|To Baroness Draka.|
 A Gates of the Damned|QID|63613|PRE|63612|M|62.88,65.99|Z|The Maw|N|From Baroness Draka.|
 A Clip Their Wings|QID|63615|PRE|63612|M|PLAYER|Z|The Maw|N|From Baroness Draka.|
 A Weapon in Hand|QID|63614|PRE|63612|M|PLAYER|Z|The Maw|N|From Thrall.|
-C Clip Their Wdngs|QID|63615|M|64.56,63.91|Z|The Maw|N|Target the Helsworn Soulbreakers and use the chains collected by killing Helsworn in the area.|S|U|185742|
+C Clip Their Wings|QID|63615|M|64.56,63.91|Z|The Maw|N|Target the Helsworn Soulbreakers and use the chains collected by killing Helsworn in the area.|S|U|185742|
 C Gates of the Damned|QID|63613|M|67.45,65.51|Z|The Maw|QO|1<1|NC|N|Click the outline of the Death Gate to summon it.|
 C Weapon in Hand|QID|63614|M|61.85,56.46|Z|The Maw|NC|N|Kill the weaponsmith and loot Dra'gora.|
 C Gates of the Damned|QID|63613|M|67.39,55.61|Z|The Maw|QO|1<2|NC|N|Click the outline of the Death Gate to summon it.|
@@ -258,7 +258,7 @@ T Victory in Our Name|QID|63622|M|62.83,26.38|Z|1961;Korthia|N|To The Primus.|
 ;Necrolord only quests
 A Filling an Empty Throne|QID|63623|PRE|63622|M|62.83,26.38|Z|1961;Korthia|N|From The Primus.|COV|Necrolord|
 P Ring of Transference|ACTIVE|63623|M|64.47,24.05|Z|1961;Korthia|N|Take the portal to Ring of Transference.|COV|Necrolord|
-F Bleak Redoubt|ACTIVE|63623|M|60.70,68.26|Z|Ring of Transference@Oribos|N|Take Flightpath to Bleak Redoubt|COV|Necrolord|
+F Bleak Redoubt|ACTIVE|63623|M|60.70,68.26|Z|Ring of Transference@Oribos!Dungeon|N|Take Flightpath to Bleak Redoubt|COV|Necrolord|
 T Filling an Empty Throne|QID|63623|M|49.63,50.84|Z|Seat of the Primus!Dungeon|N|To The Primus.|COV|Necrolord|
 A The Roads We Walk|QID|63624|PRE|63623|M|49.63,50.84|Z|Seat of the Primus!Dungeon|N|From The Primus.|COV|Necrolord|
 C The Roads We Walk|QID|63624|M|49.63,50.84|QO|1|NC|Z|Seat of the Primus!Dungeon|N|Watch the Ceremony.|COV|Necrolord|
@@ -273,7 +273,7 @@ A Dreadlords!|QID|63659|M|60.69,27.67|Z|1961;Korthia|N|From Baroness Vashj.|PRE|
 T Dreadlords!|QID|63659|M|62.84,26.38|Z|1961;Korthia|N|To The Primus.|
 A Dread Tidings|QID|63644|PRE|63659|M|62.84,26.38|Z|1961;Korthia|N|From The Primus.|
 P Ring of Transference|ACTIVE|63644|M|64.47,24.05|Z|1961;Korthia|N|Take the portal to Ring of Transference.|
-F Sanctuary of the Mad|ACTIVE|63644|M|60.90,68.77|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Sanctuary of the Mad.|
+F Sanctuary of the Mad|ACTIVE|63644|M|60.90,68.77|Z|Ring of Transference@Oribos!Dungeon|N|Head to the flightmaster and take a flight to Sanctuary of the Mad.|
 C Dread Tidings|QID|63644|M|29.48,41.72|Z|Revendreth|QO|1|CHAT|N|Speak withBaroness Vashj.|
 P Dawnkeep|ACTIVE|63644|M|26.05,43.86|Z|Revendreth|N|Take the portal to Dawnkeep.|
 T Dread Tidings|QID|63644|M|22.92,43.74|Z|Revendreth|N|To Prince Renathal.|
@@ -319,7 +319,7 @@ T The Meaning of Wrath|QID|63656|M|62.82,26.40|Z|1961;Korthia|N|To The Primus ba
 ; The Power of Night
 A A Cry From the Heart|QID|63672|PRE|63656|M|64.40,24.27|Z|1961;Korthia|N|From Urgent Message from Ardenweald. This may require you to log/zone out and back in if you're already in Keeper's Respite.|REN|52|
 P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|1961;Korthia|IZ|1961|N|Take the portal to Ring of Transference.|
-F Refugee Camp|ACTIVE|63672|M|60.96,68.81|Z|Ring of Transference@Oribos|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|
+F Refugee Camp|ACTIVE|63672|M|60.96,68.81|Z|Ring of Transference@Oribos!Dungeon|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|
 T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
 A Hunting Amid Houses|QID|63673|PRE|63672|M|44.78,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|NightFae|
 C Hunting Amid Houses|QID|63673|M|44.78,38.93|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|COV|NightFae|
@@ -327,34 +327,34 @@ F Spider's Watch|ACTIVE|63673|M|51.37,7.82|Z|The Trunk@Heart of the Forest!Dunge
 A Hunting Amid Houses|QID|63728|PRE|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|-NightFae|
 C Hunting Amid Houses|QID|63728|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|COV|-NightFae|
 F Spider's Watch|ACTIVE|63728|M|49.35,51.84|Z|Ardenweald!The Shadowlands|IZ|-1536|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|-NightFae|
-C Hunting Amid Houses|QID|63728^63673|M|42.79,25.12|Z|Maldraxxus|QO|2|NC|N|Huln Found in Maldraxxus.|
-T Hunting Amid Houses|QID|63728^63673|M|42.79,25.12|Z|Maldraxxus|N|To Huln Highmountain.|
-A The Blade in the Night|QID|63990|PRE|63728|M|42.79,25.12|Z|Maldraxxus|N|From Huln Highmountain.|
-C The Blade in the Night|QID|63990|M|41.91,23.34|Z|Maldraxxus|QO|1|NC|N|Click on books on the First Floor. For me it was always the book with the skull.|
-C The Blade in the Night|QID|63990|M|41.96,23.21|Z|Maldraxxus|QO|2|NC|N|Click on books on the Second Floor. For me it was always the book with the skull.|
-C The Blade in the Night|QID|63990|M|42.15,23.22|Z|Maldraxxus|QO|3|NC|N|Click on books on the Third Floor. For me it was always the book with the skull.|
-C The Blade in the Night|QID|63990|M|41.98,23.36|Z|Maldraxxus|QO|4|NC|N|Click on book at the altar.|
-C The Blade in the Night|QID|63990|M|42.10,23.32|Z|Maldraxxus|QO|5|CHAT|N|Speak with Khaliiq.|
-T The Blade in the Night|QID|63990|M|42.10,23.32|Z|Maldraxxus|N|To Khaliiq.|
-A By Your Leave|QID|63674|PRE|63990|M|42.10,23.32|Z|Maldraxxus|N|From Khaliiq.|
-C By Your Leave|QID|63674|M|52.90,68.76|Z|Maldraxxus|CHAT|N|Speak with Baroness Vashj.|
-T By Your Leave|QID|63674|M|52.91,68.65|Z|Maldraxxus|N|To Khaliiq.|
-A You Cannot Run|QID|63675|PRE|63674|M|52.91,68.65|Z|Maldraxxus|N|From Khaliiq.|
-A You Cannot Hide|QID|63676|PRE|63674|M|52.91,68.65|Z|Maldraxxus|N|From Khaliiq.|
-A You Can Only Die|QID|63677|PRE|63674|M|52.91,68.65|Z|Maldraxxus|N|From Khaliiq.|
-C You Cannot Hide|QID|63676|M|70.61,31.76|Z|Maldraxxus|QO|2|N|Kill acolytes and guardians in the area and collect their Tokens of Favor.|S|
-C You Cannot Run|QID|63675|M|71.67,32.62|Z|Maldraxxus|QO|1|NC|N|Find the clues that look like opened scrolls on the ground.|
-C You Cannot Run|QID|63675|M|72.31,44.89|Z|Maldraxxus|QO|2|N|Kill Zelmany.|
-C You Cannot Hide|QID|63676|M|70.61,31.76|Z|Maldraxxus|QO|2|N|Kill acolytes and guardians in the area and collect their Tokens of Favor.|US|
-C You Cannot Hide|QID|63676|M|72.53,30.45|Z|Maldraxxus|QO|1|N|Drava'ora slain.|
-T You Cannot Run|QID|63675|M|PLAYER|Z|Maldraxxus|N|To Khaliiq.|
-T You Cannot Hide|QID|63676|M|PLAYER|Z|Maldraxxus|N|To Khaliiq.|
-P Exoramas|ACTIVE|63677|M|74.38,33.96|Z|Maldraxxus|N|Take the portal to Exoramas.|
-C You Can Only Die|QID|63677|M|74.63,32.83|Z|Maldraxxus|QO|1|N|Fal'zinge slain.|
-T You Can Only Die|QID|63677|M|PLAYER|Z|Maldraxxus|N|To Khaliiq.|
-A Akarek Avenged|QID|63678|PRE|63677&63675&63676|M|PLAYER|Z|Maldraxxus|N|From Khaliiq.|
-T Akarek Avenged|QID|63678|M|74.83,33.65|Z|Maldraxxus|N|To Margrave Sin'dane.|
-A Magical Mystery Tour!|QID|63679|PRE|63678|M|PLAYER|Z|Maldraxxus|N|From Urgent Message from Ardenweald.|
+C Hunting Amid Houses|QID|63728^63673|M|42.79,25.12|Z|Maldraxxus!The Shadowlands|QO|2|NC|N|Huln Found in Maldraxxus.|
+T Hunting Amid Houses|QID|63728^63673|M|42.79,25.12|Z|Maldraxxus!The Shadowlands|N|To Huln Highmountain.|
+A The Blade in the Night|QID|63990|PRE|63728|M|42.79,25.12|Z|Maldraxxus!The Shadowlands|N|From Huln Highmountain.|
+C The Blade in the Night|QID|63990|M|41.91,23.34|Z|Maldraxxus!The Shadowlands|QO|1|NC|N|Click on books on the First Floor. For me it was always the book with the skull.|
+C The Blade in the Night|QID|63990|M|41.96,23.21|Z|Maldraxxus!The Shadowlands|QO|2|NC|N|Click on books on the Second Floor. For me it was always the book with the skull.|
+C The Blade in the Night|QID|63990|M|42.15,23.22|Z|Maldraxxus!The Shadowlands|QO|3|NC|N|Click on books on the Third Floor. For me it was always the book with the skull.|
+C The Blade in the Night|QID|63990|M|41.98,23.36|Z|Maldraxxus!The Shadowlands|QO|4|NC|N|Click on book at the altar.|
+C The Blade in the Night|QID|63990|M|42.10,23.32|Z|Maldraxxus!The Shadowlands|QO|5|CHAT|N|Speak with Khaliiq.|
+T The Blade in the Night|QID|63990|M|42.10,23.32|Z|Maldraxxus!The Shadowlands|N|To Khaliiq.|
+A By Your Leave|QID|63674|PRE|63990|M|42.10,23.32|Z|Maldraxxus!The Shadowlands|N|From Khaliiq.|
+C By Your Leave|QID|63674|M|52.90,68.76|Z|Maldraxxus!The Shadowlands|CHAT|N|Speak with Baroness Vashj.|
+T By Your Leave|QID|63674|M|52.91,68.65|Z|Maldraxxus!The Shadowlands|N|To Khaliiq.|
+A You Cannot Run|QID|63675|PRE|63674|M|52.91,68.65|Z|Maldraxxus!The Shadowlands|N|From Khaliiq.|
+A You Cannot Hide|QID|63676|PRE|63674|M|52.91,68.65|Z|Maldraxxus!The Shadowlands|N|From Khaliiq.|
+A You Can Only Die|QID|63677|PRE|63674|M|52.91,68.65|Z|Maldraxxus!The Shadowlands|N|From Khaliiq.|
+C You Cannot Hide|QID|63676|M|70.61,31.76|Z|Maldraxxus!The Shadowlands|QO|2|N|Kill acolytes and guardians in the area and collect their Tokens of Favor.|S|
+C You Cannot Run|QID|63675|M|71.67,32.62|Z|Maldraxxus!The Shadowlands|QO|1|NC|N|Find the clues that look like opened scrolls on the ground.|
+C You Cannot Run|QID|63675|M|72.31,44.89|Z|Maldraxxus!The Shadowlands|QO|2|N|Kill Zelmany.|
+C You Cannot Hide|QID|63676|M|70.61,31.76|Z|Maldraxxus!The Shadowlands|QO|2|N|Kill acolytes and guardians in the area and collect their Tokens of Favor.|US|
+C You Cannot Hide|QID|63676|M|72.53,30.45|Z|Maldraxxus!The Shadowlands|QO|1|N|Drava'ora slain.|
+T You Cannot Run|QID|63675|M|PLAYER|Z|Maldraxxus!The Shadowlands|N|To Khaliiq.|
+T You Cannot Hide|QID|63676|M|PLAYER|Z|Maldraxxus!The Shadowlands|N|To Khaliiq.|
+P Exoramas|ACTIVE|63677|M|74.38,33.96|Z|Maldraxxus!The Shadowlands|N|Take the portal to Exoramas.|
+C You Can Only Die|QID|63677|M|74.63,32.83|Z|Maldraxxus!The Shadowlands|QO|1|N|Fal'zinge slain.|
+T You Can Only Die|QID|63677|M|PLAYER|Z|Maldraxxus!The Shadowlands|N|To Khaliiq.|
+A Akarek Avenged|QID|63678|PRE|63677&63675&63676|M|PLAYER|Z|Maldraxxus!The Shadowlands|N|From Khaliiq.|
+T Akarek Avenged|QID|63678|M|74.83,33.65|Z|Maldraxxus!The Shadowlands|N|To Margrave Sin'dane.|
+A Magical Mystery Tour!|QID|63679|PRE|63678|M|PLAYER|Z|Maldraxxus!The Shadowlands|N|From Urgent Message from Ardenweald.|
 T Magical Mystery Tour!|QID|63679|M|25.36,29.05|Z|Revendreth|N|To Lady Moonberry in Revendreth.|
 A Hunting Huln|QID|64092|PRE|63679|M|25.36,29.05|Z|Revendreth|N|From Lady Moonberry.|
 C Hunting Huln|QID|64092|M|25.35,29.04|Z|Revendreth|QO|1|CHAT|N|Speak with Moonberry to hear the plan.|
@@ -485,7 +485,7 @@ C The New Path|QID|63592|M|43.78,68.41|Z|2018;Spires of Ascenion|QO|2|CHAT|N|Spe
 T The New Path|QID|63592|M|46.07,57.56|Z|2018;Spires of Ascenion|N|To Polemarch Adrestes.|
 A New Sigil of the Kyrian|QID|63593|PRE|63592|M|46.07,57.56|Z|2018;Spires of Ascenion|N|From Polemarch Adrestes.|
 P Oribos|QID|63593|ACTIVE|63593|M|51.28,72.60|Z|2018;Spires of Ascenion|N|Use the Anima Gateway on the floor.|
-P Korthia|QID|63593|ACTIVE|63593|M|30.79,23.31|Z|Ring of Transference@Oribos|NC|N|Run through the portal to Korthia in the maw.|
+P Korthia|QID|63593|ACTIVE|63593|M|30.79,23.31|Z|Ring of Transference@Oribos!Dungeon|NC|N|Run through the portal to Korthia in the maw.|
 T New Sigil of the Kyrian|QID|63593|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; What Lies Ahead
