@@ -37,12 +37,12 @@ return [[
 
 
 ;TOF
-A Bastion|QID|62275|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
-t Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A The Elysian Fields|QID|62707^63034|PRE|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
-P Ring of Transference|ACTIVE|62707^63034|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
-F Hero's Rest|ACTIVE|62707|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
-F Elysian Hold|ACTIVE|63034|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
+A Bastion|QID|62275|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|From Tal-Inara.|TOF|
+t Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|TOF|
+A The Elysian Fields|QID|62707^63034|PRE|62275|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|From Tal-Inara.|TOF|
+P Ring of Transference|ACTIVE|62707^63034|M|52.00,57.94|Z|Ring of Fates@Oribos!Dungeon|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+F Hero's Rest|ACTIVE|62707|M|60.87,68.63|Z|Ring of Transference@Oribos!Dungeon|N|From Pathscribe Roh-Avonavi.|TOF|
+F Elysian Hold|ACTIVE|63034|M|60.87,68.63|Z|Ring of Transference@Oribos!Dungeon|N|From Pathscribe Roh-Avonavi.|TOF|
 T The Elysian Fields|QID|62707|M|51.12,46.80|Z|Bastion!The Shadowlands|N|To Kalisthene.|TOF|
 T The Elysian Fields|QID|63034|M|37.01,61.22|Z|1707|N|To Kalisthene.|TOF|
 A Bolstering Bastion|QID|62723|PRE|62707^63034|M|PLAYER|N|From Kalisthene.|TOF|
@@ -52,22 +52,22 @@ t Bolstering Bastion|QID|62723|M|51.12,46.80|Z|Bastion!The Shadowlands|N|To Kali
 A Return to Oribos|QID|62729|PRE|62723|M|PLAYER|Z|Bastion!The Shadowlands|N|From Kalisthene.|TOF|
 F Oribos|ACTIVE|62729|M|50.96,49.08|Z|1707|N|At Cassius.|COV|Kyrian|TOF|
 F Oribos|ACTIVE|62729|M|51.36,46.80|Z|Bastion!The Shadowlands|N|At Navarros.|TOF|
-T Return to Oribos|QID|62729|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62729|CCOUNT|1;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;new quest, after finishing first zone.
-C Tal-Inara|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
-T The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62729&63208|CCOUNT|2;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 2nd zone
-C Tal-Inara|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
-T Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62729&63209|CCOUNT|3;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 3rd zone
-C Tal-Inara|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
-T The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|TOF|
-N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|TOF|
-N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|TOF|
+T Return to Oribos|QID|62729|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|TOF|
+A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|PRE|62729|CCOUNT|1;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;new quest, after finishing first zone.
+C Tal-Inara|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+T The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|TOF|
+A Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|PRE|62729&63208|CCOUNT|2;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 2nd zone
+C Tal-Inara|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+T Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|TOF|
+A The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|PRE|62729&63209|CCOUNT|3;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 3rd zone
+C Tal-Inara|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+T The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|TOF|
+T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|TOF|
+T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|TOF|
+T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|TOF|
+N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|TOF|
+N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|TOF|
+N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos!Dungeon|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|TOF|
 N World Quests|QID|62723|N|WQs are available since you have chosen the Threads of Fate option. They are however not included in the guide and there is no way to predict which one is available on any given day. So, I recommend you do them, but you are on your own as to how and where.|TOF|
 N Use of Ranks|QID|62723|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives. Rank 1, basically leaves you explore on your own when you accept a quest it will jump to there and give you directions on completion and turn in.|TOF|
 N Rank 1|ACTIVE|62723|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|TOF|
@@ -246,7 +246,7 @@ T Step Back From That Ledge, My Friend|QID|57717|M|59.31,77.05|Z|Bastion!The Sha
 A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 A The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|Cleanse the Temple by killing all the hostile mobs and rescuing the terrified stewards.|S|MS|
-A An Inspired Moral Inventory|QID|57444|M|61.14,74.42|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|MS| ; needs to be moved upwards..
+A An Inspired Moral Inventory|QID|57444|M|57.97,75.87|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|MS| ; needs to be moved upwards..
 A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion!The Shadowlands|N|From The Scroll in front of the Vespar of Harmony.|PRE|57717|MS|
 C An Inspired Moral Inventory|QID|57444|M|57.98,75.81|Z|Bastion!The Shadowlands|T|Forsworn Ascended|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Find the scrolls around the area.|S|MS|
@@ -564,15 +564,15 @@ T Functioning Anima Core|QID|62200|M|51.12,46.79|Z|Bastion!The Shadowlands|N|To 
 
 ; Land of Strife Storyline
 F Oribos|ACTIVE|60056|M|51.40,46.80|N|Fly back to Oribos|
-P Ring of Fates|ACTIVE|60056|M|49.52,60.92|Z|Ring of Transference@Oribos|N|Click the teleporter.|
-C Follow the Path|QID|60056|M|38.91,69.93|Z|Ring of Fates@Oribos|CHAT|N|Tell Tal-Inara of the Maldraxxi's attack.|MS|
-T Follow the Path|QID|60056|M|38.91,69.93|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
-A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60056|MS|
-C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|Ring of Fates@Oribos|NC|N|Use the Teleport Pad.|MS|
-T The Arbiter's Will|QID|61096|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
-A A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61096|MS|
-C A Land of Strife|QID|61107|M|59.67,36.36|Z|Ring of Transference@Oribos|NC|N|Click on the blue sword.|MS|
-T A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|; Bastion Completion and Achievement is here, so don't remove it again.
+P Ring of Fates|ACTIVE|60056|M|49.52,60.92|Z|Ring of Transference@Oribos!Dungeon|N|Click the teleporter.|
+C Follow the Path|QID|60056|M|38.91,69.93|Z|Ring of Fates@Oribos!Dungeon|CHAT|N|Tell Tal-Inara of the Maldraxxi's attack.|MS|
+T Follow the Path|QID|60056|M|38.91,69.93|Z|Ring of Fates@Oribos!Dungeon|N|To Tal-Inara.|MS|
+A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|Ring of Fates@Oribos!Dungeon|N|From Tal-Inara.|PRE|60056|MS|
+C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|Ring of Fates@Oribos!Dungeon|NC|N|Use the Teleport Pad.|MS|
+T The Arbiter's Will|QID|61096|M|61.02,36.99|Z|Ring of Transference@Oribos!Dungeon|N|To Overseer Kah-Sher.|MS|
+A A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos!Dungeon|N|From Overseer Kah-Sher.|PRE|61096|MS|
+C A Land of Strife|QID|61107|M|59.67,36.36|Z|Ring of Transference@Oribos!Dungeon|NC|N|Click on the blue sword.|MS|
+T A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos!Dungeon|N|To Overseer Kah-Sher.|MS|; Bastion Completion and Achievement is here, so don't remove it again.
 
 ;wings of freedom
 R Kowalskos' Workshop|QID|59262|M|42.83,42.73|Z|Bastion!The Shadowlands|N|Run Northwest of Hero's rest to Kowalskos' Workshop.|LVL|60|RANK|2|
