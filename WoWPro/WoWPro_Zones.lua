@@ -78,6 +78,15 @@ function WoWPro:ValidZone(zone)
                 WoWPro:Error("ValidZone: Numeric Zone [%s] is unknown.", zone)
                 return nil
             end
+        elseif zone:match(";") then
+            -- zone is a modern mapID; name
+            local nzone , nomen = (";"):split(zone)
+            if tonumber(zone) and WoWPro.MapInfo[tonumber(zone)] then
+                return tostring(nomen), tonumber(nzone)
+            else
+                WoWPro:Error("ValidZone: Numeric Zone [%s;%s] is unknown.", nzone, nomen)
+                return nil
+            end
         elseif WoWPro.Zone2MapID[zone] then
             -- Zone found in DB
             return zone, WoWPro.Zone2MapID[zone]
