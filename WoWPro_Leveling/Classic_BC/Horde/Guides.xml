@@ -15,6 +15,7 @@
 	<Script file="VAN_BCC_21_30_HordeChapter1.lua"/>
 	<Script file="VAN_BCC_30_40_HordeChapter2.lua"/>
 	<Script file="VAN_BCC_41_51_HordeChapter3.lua"/>
+	<Script file="VAN_BCC_51_54_Azshara.lua"/>
 	<Script file="VAN_BCC_51_53_UnGoro_Crater.lua"/>
 	<Script file="VAN_BCC_53_54_Burning_Steppes.lua"/>
 	<Script file="VAN_BCC_54_55_Felwood.lua"/>
