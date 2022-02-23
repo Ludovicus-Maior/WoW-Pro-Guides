@@ -10,8 +10,9 @@ A Call of the Primus|QID|64942|M|57.04,57.70|Z|1670|N|Auto Accepted|
 C Call of the Primus|QID|64942|M|38.89,69.88|Z|1670|QO|1|CHAT|N|Talk to Tal-Inara.|
 T Call of the Primus|QID|64942|M|32.68,51.09|Z|2042|N|To The Primus.|
 A A Hasty Voyage|QID|64944|PRE|64942|M|34.16,52.38|Z|2042|N|From The Primus.|
-C Path of the Primus|Z|The Crucible|SO|1|S|N|Defeat the Mawsworn Invaders swarming the Arbiter's chaimber.|
-C Struggle for Control|Z|The Crucible|SO|2|N|Your mount has been slain, but you have landed on the back of a Winged Soul Eater. Follow the commands on screen. 1 is to kick, 2 is to grip tighter, 3 is to pull the reins.|
+C A Hasty Voyage|QID|64944|M|33.23,46.87|Z|2042|QO|1|N|Mount the Anima Wyrm.|
+C Path of the Primus|Z|2042|SO|1|N|Mawsworn forces defeated.|
+C Struggle for Control|Z|2042|SO|2|N|Your mount has been slain, but you have landed on the back of a Winged Soul Eater. Follow the commands on screen. 1 is to kick, 2 is to grip tighter, 3 is to pull the reins.|
 C A Hasty Voyage|QID|64944|M|28.11,49.64|QO|2|NC|N|Portal to Zereth Mortis entered.|
 T A Hasty Voyage|QID|64944|M|24.90,53.58|N|To Pelagos.|
 A Strangers in a Strange Land|QID|64945|PRE|64944|M|24.90,53.58|N|From Palagos.|
@@ -170,7 +171,13 @@ C Surveying Cyphers|QID|65149|M|53.25,63.86|Z|1970;Zereth Mortis|QO|6|NC|N|Dorma
 T Surveying Cyphers|QID|65149|M|34.04,48.02|Z|1970;Zereth Mortis|N|To Firim.|
 A Cyphers of the First Ones|QID|64230|PRE|65149|M|34.04,48.02|Z|1970;Zereth Mortis|N|From Firim.|
 C Cyphers of the First Ones|QID|64230|M|33.78,49.40|Z|1970;Zereth Mortis|QO|1|NC|N|Cypher Console examined.|
+C Cyphers of the First Ones|QID|64230|M|33.78,49.40|Z|1970;Zereth Mortis|QO|2|NC|N|Metrial Unlocked.|
 T Cyphers of the First Ones|QID|64230|M|34.03,48.18|Z|1970|N|To Firim.|
+A Further Research: Aealic|QID|65431|PRE|64230|M|34.04,48.11|Z|1970|N|From Firim.|
+A The Necessity Of Equipment|QID|65749|PRE|64230|M|34.04,48.11|Z|1970|N|From Firim.|
+C The Necessity Of Equipment|QID|65749|M|34.14,48.84|Z|1970|NC|N|Pick up the paper on the desk.|
+C Further Research: Aealic|QID|65431|M|33.76,49.44|Z|1970|QO|1|NC|N|Aelic advancements investigated.|
+T Further Research: Aealic|QID|65431|M|34.04,48.11|Z|1970|N|To Firim.|
 A The Way Forward|QID|65305|PRE|64230|M|33.99,47.97|Z|1970|N|From Pelagos.|
 F Haven|ACTIVE|65305|M|35.64,44.36|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
 C The Way Forward|QID|65305|M|35.64,44.36|Z|1970|QO|1|NC|N|Take the Translocator to Haven (Optional).|
@@ -487,6 +494,7 @@ T Safe Haven|QID|65329|M|34.96,64.92|Z|1970|N|To Highlord Bolvar Fordragon.|
 ;Normal Quests
 A Enlightened Exodus|QID|64771|PRE|64958|M|33.80,64.67|Z|1970;Zereth Mortis|N|From Al'dalil.|
 C Enlightened Exodus|QID|64771|M|34.84,64.80|Z|1970;Zereth Mortis|QO|4|CHAT|N|Speak to Elder Kreth.|
+A The Burrowed Bufonid|QID|65727|PRE|64958|M|34.35,65.83|Z|1970;Zereth Mortis|N|From Avna.|
 C Enlightened Exodus|QID|64771|M|34.38,65.81|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Avna.|
 C Enlightened Exodus|QID|64771|M|34.35,66.32|Z|1970;Zereth Mortis|QO|2|CHAT|N|Speak to Varoun.|
 C Enlightened Exodus|QID|64771|M|35.49,65.15|Z|1970;Zereth Mortis|QO|3|CHAT|N|Speak to Custodian Kalir.|
@@ -520,6 +528,9 @@ C Technical Difficulties|QID|64760|M|31.59,67.17|Z|1970;Zereth Mortis|QO|2|N|Xy'
 C Technical Difficulties|QID|64760|M|32.65,66.76|Z|1970;The Slumbering Vault|QO|3|NC|N|Vault exited.|
 T Technical Difficulties|QID|64760|M|33.77,64.67|Z|1970;Zereth Mortis|N|To Al'dalil.|
 A Look Who I Found!|QID|65064|PRE|64825|M|34.71,66.23|Z|1970;Zereth Mortis|N|From Tamra.|
+A You Supply the Effort|QID|65748|PRE|64825|M|35.07,65.68|Z|1970;Zereth Mortis|N|From Hadja.|
+t You Supply the Effort|QID|65748|PRE|64825|M|35.07,65.68|Z|1970;Zereth Mortis|N|To Hadja.|
+A WANTED: Custos|QID|65735|PRE|64825|M|35.42,65.52|Z|1970;Zereth Mortis|N|From Wanted Poster.|
 C Look Who I Found!|QID|65064|M|45.71,68.14|Z|1970;Zereth Mortis|QO|1|NC|N|Chromatic Rosid collected.|
 C Look Who I Found!|QID|65064|M|49.27,71.83|Z|1970;Zereth Mortis|QO|2|NC|N|Deliver the Chromatic Rosids to Tamra.|
 T Look Who I Found!|QID|65064|M|49.28,71.86|Z|1970;Zereth Mortis|N|To Tamra.|
@@ -546,6 +557,12 @@ T Culling the Maelstrom|QID|65069|M|49.27,71.82|Z|1970;Zereth Mortis|N|To Tamra.
 A Can I Keep Him?|QID|65070|PRE|65069|M|49.27,71.82|Z|1970;Zereth Mortis|N|From Tamra.|
 C Can I Keep Him?|QID|65070|M|49.25,71.93|Z|1970;Zereth Mortis|QO|1|NC|N|Use the "[color=40C7EB]Throw Water[/color]" button.|EAB|
 T Can I Keep Him?|QID|65070|M|49.25,71.80|Z|1970;Zereth Mortis|N|To Tamra.|
+C The Burrowed Bufonid|QID|65727|M|62.58,55.58|Z|1970;Zereth Mortis|N|From Avna.|S|
+C WANTED: Custos|QID|65735|M|57.92,56.52|Z|1970;Zereth Mortis|N|From Wanted Poster.|
+T The Necessity Of Equipment|QID|65749|M|60.54,51.05|Z|1970;Zereth Mortis|N|To Rafiq.|
+T WANTED: Custos|QID|65735|M|60.54,51.05|Z|1970;Zereth Mortis|N|To Rafiq.|
+C The Burrowed Bufonid|QID|65727|M|62.58,55.58|Z|1970;Zereth Mortis|N|From Avna.|US|
+T The Burrowed Bufonid|QID|65727|M|34.35,65.83|Z|1970;Zereth Mortis|N|From Avna.|
 A The Wellspring of the First Ones|QID|65463|PRE|64837|M|61.47,49.27|Z|1970;Zereth Mortis|N|From Drim.|
 C The Wellspring of the First Ones|QID|65463|M|61.91,52.92|Z|1970;Zereth Mortis|QO|1|NC|N|Visit the Wellspring.|
 T The Wellspring of the First Ones|QID|65463|M|61.82,53.56|Z|1970;Zereth Mortis|N|To Olem.|
@@ -569,8 +586,5 @@ C A Return to Grace|QID|65448|M|61.51,53.68|Z|1970;Zereth Mortis|QO|2|NC|N|Step 
 T A Return to Grace|QID|65448|M|61.81,53.57|Z|1970;Zereth Mortis|N|To Olem.|
 C An Automa-free Diet|QID|65353|M|54.83,53.41|Z|1970;Zereth Mortis|QO|1|N|Breachers and Gorgers Slain.|US|
 T An Automa-free Diet|QID|65353|M|61.87,53.33|Z|1970;Zereth Mortis|N|To Nadir.|
-A Further Research: Aealic|QID|65431|PRE|64230|M|33.78,49.41|Z|1970|N|From Firim.|
-C Further Research: Aealic|QID|65431|M|33.76,49.44|Z|1970|QO|1|NC|N|Aelic advancements investigated.|
-T Further Research: Aealic|QID|65431|M|33.76,49.44|Z|1970|N|To Pelagos.|
 ]]
 end)
