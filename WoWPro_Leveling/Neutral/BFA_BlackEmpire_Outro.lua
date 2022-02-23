@@ -134,15 +134,15 @@ t Tomes of Ancient Madness|QID|58461|M|83.81,27.19|Z|1530|N|To Lorewalker Cho.|
 ; Thanks Sipder2 @ WhowHead! zone name is incomplete and needs a run-through.
 A The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1530|N|From Ra-Den|PRE|56540|
 R Mogu'shan Palace Instance|ACTIVE|56541|M|80.83,30.76|Z|1530|TZ|Mogu'shan Palace|N|Go to the Mogu'shan Palace to start the instance. It will take about 20 minutes.|
-C A Way Down|ACTIVE|56541|SO|1|M|40.51,59.30|Z|The Crimson Assembly Hall@Mogu'shan Palace!Dungeon|N|Kill 4 Animated Guardians to open the first door and four more to open the second door.\nJump over rows of runed tiles to avoid traps.|
-C Watch Your Step|ACTIVE|56541|SO|2|M|40.30,70.80|Z|The Crimson Assembly Hall@Mogu'shan Palace!Dungeon|N|Make your way to the Ancient Lever. The runes form a maze. When you step on one, the next step will be one without a visual effect. You may have to backtrack.|
-C A Weighty Problem|ACTIVE|56541|SO|3|M|48.71,74.88|Z|Vaults of Kings Past@Mogu'shan Palace!Dungeon|N|Take the stairwell down, killing as you go.\nWhen you reach a glowing Mogu statue, you need to move it to the empty concrete block on the floor and then the door will open.|
-C The Long Walk|ACTIVE|56541|SO|4|M|44.65,46.81|Z|The Repository@Mogu'shan Vaults!Dungeon|N|Go upstairs and enter the secret door to kill Depthcaller Xith'el.|
-C Madness Manifest|ACTIVE|56541|SO|5|M|42.54,52.53|Z|The Repository@Mogu'shan Vaults!Dungeon|NC|N|Click on the Summoned Eyes/Tentacles/Maw to Destroy the manifestations of N'Zoth until the progress bar reaches 100%.|
-C The Hall of the Shapers|ACTIVE|56541|SO|6|M|33.30,50.93|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon|N|Go down the now unlocked stairs and follow the corridor until you reach the Swarmguard Kzaz, your next target.|
-C The Final Summoning|ACTIVE|56541|SO|7|M|27.88,51.52|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon|N|Defeat Yox'ith. Killing the tentacles around can help.|
-C Reviving the Engine|ACTIVE|56541|SO|8|M|27.04,51.46|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon|N|Click on the console to link the Engine of Nalak'sha to the Chamber of Heart.|
-P Vale of Eternal Blossoms|ACTIVE|56541|M|14.52,51.34;28.46,20.39|CC|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon|N|Take the portal to the start of the instance and then exit.|
+C A Way Down|ACTIVE|56541|SO|1|M|40.51,59.30|Z|The Crimson Assembly Hall@Mogu'shan Palace!Dungeon1544|N|Kill 4 Animated Guardians to open the first door and four more to open the second door.\nJump over rows of runed tiles to avoid traps.|
+C Watch Your Step|ACTIVE|56541|SO|2|M|40.30,70.80|Z|The Crimson Assembly Hall@Mogu'shan Palace!Dungeon1544|N|Make your way to the Ancient Lever. The runes form a maze. When you step on one, the next step will be one without a visual effect. You may have to backtrack.|
+C A Weighty Problem|ACTIVE|56541|SO|3|M|48.71,74.88|Z|Vaults of Kings Past@Mogu'shan Palace!Dungeon454|N|Take the stairwell down, killing as you go.\nWhen you reach a glowing Mogu statue, you need to move it to the empty concrete block on the floor and then the door will open.|
+C The Long Walk|ACTIVE|56541|SO|4|M|44.65,46.81|Z|The Repository@Mogu'shan Vaults!Dungeon1548|N|Go upstairs and enter the secret door to kill Depthcaller Xith'el.|
+C Madness Manifest|ACTIVE|56541|SO|5|M|42.54,52.53|Z|The Repository@Mogu'shan Vaults!Dungeon1548|NC|N|Click on the Summoned Eyes/Tentacles/Maw to Destroy the manifestations of N'Zoth until the progress bar reaches 100%.|
+C The Hall of the Shapers|ACTIVE|56541|SO|6|M|33.30,50.93|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon473|N|Go down the now unlocked stairs and follow the corridor until you reach the Swarmguard Kzaz, your next target.|
+C The Final Summoning|ACTIVE|56541|SO|7|M|27.88,51.52|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon473|N|Defeat Yox'ith. Killing the tentacles around can help.|
+C Reviving the Engine|ACTIVE|56541|SO|8|M|27.04,51.46|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon473|N|Click on the console to link the Engine of Nalak'sha to the Chamber of Heart.|
+P Vale of Eternal Blossoms|ACTIVE|56541|M|14.52,51.34;28.46,20.39|CC|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon473|N|Take the portal to the start of the instance and then exit.|
 F Mistfall Village|ACTIVE|56541|N|Head to your closest Flight Master to fly to Mistfall Village, Or Fly.|
 T The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1530|N|To Ra-Den|
 A Restored Hope|QID|56542|M|45.14,74.43|Z|1530|N|From Ra-Den|PRE|56541|
