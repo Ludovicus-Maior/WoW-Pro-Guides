@@ -179,7 +179,7 @@ A Patterns Within Patterns|QID|65324|PRE|65305|M|34.90,64.70|Z|1970;Zereth Morti
 t Patterns Within Patterns|QID|65324|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 
 ;CH4
-N Blizzard has time gated the rest of the guide. Ch4-6 will release on 3-1.
+N Wait for March 1st|N|Blizzard has time gated the rest of the guide. Ch4-6 will release on 3-1.|DATE|-1646154000|
 A News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Uther the Lightbringer.|DATE|1646154000|
 C News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Uther.|
 T News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
