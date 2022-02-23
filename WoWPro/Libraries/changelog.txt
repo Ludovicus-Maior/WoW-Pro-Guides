@@ -1,3 +1,8 @@
+Ace3 Release - Revision r1259 (May 17th, 2021)
+--------------------------------------------------
+- AceGUI-3.0: Dropdown: Fix double click sound on toggling the dropdown (Issue #575)
+- AceConfigDialog-3.0: Fix width number multiplier on multiselects (Issue #584)
+
 Ace3 Release - Revision r1252 (May 17th, 2021)
 --------------------------------------------------
 - AceConfigDialog-3.0: Increased the frame level of dialogs to allow other addons to draw below them.

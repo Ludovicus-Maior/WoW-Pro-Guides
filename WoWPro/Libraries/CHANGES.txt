@@ -1,66 +1,39 @@
 ------------------------------------------------------------------------
-r1251 | nevcairiel | 2021-05-17 09:28:32 +0000 (Mon, 17 May 2021) | 1 line
+r1258 | nevcairiel | 2022-02-23 09:52:47 +0000 (Wed, 23 Feb 2022) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+   M /trunk/changelog.txt
+
+Update TOC and Changelog
+------------------------------------------------------------------------
+r1257 | nevcairiel | 2022-01-10 16:25:37 +0000 (Mon, 10 Jan 2022) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+
+AceGUI-3.0: Dropdown: Fix double click sound on toggling the dropdown (Issue #575)
+------------------------------------------------------------------------
+r1256 | nevcairiel | 2021-11-14 09:17:43 +0000 (Sun, 14 Nov 2021) | 1 line
 Changed paths:
    M /trunk/changelog.txt
 
-Update changelog
+Update Changelog
 ------------------------------------------------------------------------
-r1250 | nevcairiel | 2021-04-13 16:35:48 +0000 (Tue, 13 Apr 2021) | 1 line
+r1255 | nevcairiel | 2021-11-14 09:14:15 +0000 (Sun, 14 Nov 2021) | 1 line
 Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-BlizOptionsGroup.lua
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceGUI-3.0: BlizOptionsGroup: Make sure the container frame is parented to InterfaceOptionsFramePanelContainer
+AceConfigDialog-3.0: Fix width number multiplier on multiselects (Issue #584)
 ------------------------------------------------------------------------
-r1249 | funkehdude | 2021-03-09 20:18:52 +0000 (Tue, 09 Mar 2021) | 1 line
+r1254 | funkehdude | 2021-11-12 22:56:59 +0000 (Fri, 12 Nov 2021) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 bump toc
 ------------------------------------------------------------------------
-r1248 | funkehdude | 2021-02-05 14:27:49 +0000 (Fri, 05 Feb 2021) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-
-AceConfigDialog: Make the popup opaque and no longer click-through
-------------------------------------------------------------------------
-r1247 | funkehdude | 2021-01-23 23:16:39 +0000 (Sat, 23 Jan 2021) | 1 line
-Changed paths:
-   M /trunk/AceComm-3.0/ChatThrottleLib.lua
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua
-
-Use table.wipe instead of wipe where appropriate.
-------------------------------------------------------------------------
-r1246 | funkehdude | 2021-01-03 02:43:27 +0000 (Sun, 03 Jan 2021) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
-
-Allow more room for other addons to draw under our widgets by setting the base frame level to 100.
-------------------------------------------------------------------------
-r1245 | nevcairiel | 2020-12-10 16:58:19 +0000 (Thu, 10 Dec 2020) | 1 line
-Changed paths:
-   M /trunk/changelog.txt
-
-Add recent changes to the changelog
-------------------------------------------------------------------------
-r1244 | funkehdude | 2020-11-18 03:10:25 +0000 (Wed, 18 Nov 2020) | 1 line
+r1253 | funkehdude | 2021-06-30 11:40:16 +0000 (Wed, 30 Jun 2021) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 bump toc
-------------------------------------------------------------------------
-r1243 | nevcairiel | 2020-10-18 00:00:19 +0000 (Sun, 18 Oct 2020) | 1 line
-Changed paths:
-   M /trunk/AceHook-3.0/AceHook-3.0.lua
-
-AceHook-3.0: Allow UnhookAll to be used without embedding (Fixes #558)
-------------------------------------------------------------------------
-r1242 | nevcairiel | 2020-10-17 07:10:47 +0000 (Sat, 17 Oct 2020) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
-
-Include the project version in the main TOC to identify packages more easily
 ------------------------------------------------------------------------
 
