@@ -1,3 +1,31 @@
+# Release 9.2.0-A1 / 1.14.2-A1 / 2.5.3-A2
+## Bug Fixes
+* Update to ACE3 Release-r1259 library
+* Update to HereBeDragons 2.08-release (2022-02-23)
+* Updated Retail Map to include new 9.2 zones
+* Hendo72: Hey, [1448;Felwood] is supposed to be a valid zone!
+* Daestra: Using QidMapReduce directly requires why or BOOM with debug on.
+* Rework AnchorSet() to AnchorStore()/AnchorRestore()
+* Hendo72: WoWPro.CompleteStep() should not call UpdateGuideReal(), use UpdateGuide()
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Terokkar, Zangarmarsh
+* Horde: No soup for you!
+* Neutral: Black Empire Outro, Eternitys End
+### Retail Dailies
+* Alliance: No soup for you!
+* Horde: No soup for you!
+* Neutral: NetherDrake
+### Classic Leveling
+* Alliance: No soup for you!
+* Horde: No soup for you!
+
+### Burning Crusade Classic Leveling
+* Alliance: No soup for you!
+* Horde: Forsaken Intro, HordeChapter2 30-30, HordeChapter3 41-51, UnGoro_Crater, Azshara, Burning_Steppes, Felwood, Winterspring
+* Neutral: NetherDrake
+
 # Release 9.1.5-A2 / 1.14.1-A3 / 2.5.3-A1
 ## Bug Fixes
 * Hendo72: Fix placement of Currrent Guide tooltip
