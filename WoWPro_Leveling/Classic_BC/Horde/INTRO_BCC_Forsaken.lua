@@ -29,7 +29,7 @@ T Glyphic Scroll|QID|3098|M|30.90,66.10|N|Turn in your class quest to Isabella (
 T Hallowed Scroll|QID|3097|M|31.10,66.00|N|Turn in your class quest to Dark Cleric Duesten (inside the chapel).|R|Undead|C|Priest|
 T Simple Scroll|QID|3095|M|32.70,65.60|N|Turn in your class quest to Dannal Stern (inside the chapel).|R|Undead|C|Warrior|
 T Tainted Scroll|QID|3099|M|30.90,66.30|N|Turn in your class quest to Maximillion (inside the bigger house across from the chapel).|R|Undead|C|Warlock|
-= Level 2 Training|ACTIVE|-3095^-3096^-3097^-3098^-3099|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Deathknell|
+= Level 2 Training|ACTIVE|-3095^-3096^-3097^-3098^-3099|AVAILABLE|6395|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Deathknell|
 
 A Piercing the Veil|QID|1470|M|30.98,66.41|N|From Venya Marthand (inside the chapel)\n[color=FF0000]NOTE: [/color]This is your class quest to get your Imp.|R|Undead|C|Warlock|
 K Rattling the Rattlecages|ACTIVE|3901|M|33.0,61.6|QO|1|N|Kill Rattlecage Skeletons.|S|
@@ -43,7 +43,8 @@ T The Damned|QID|376|M|30.86,66.05|N|In the chapel at Novice Elreth.|
 T Rattling the Rattlecages|QID|3901|M|30.86,66.05|N|To Shadow Priest Sarvis.|
 T Piercing the Veil|QID|1470|M|30.98,66.41|N|From Venya Marthand in the chapel.|R|Undead|C|Warlock|
 A Marla's Last Wish|QID|6395|M|30.85,66.05|N|From Novice Elreth.|PRE|376|
-= Level 4 Training|AVAILABLE|3902|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Level 4 Training|AVAILABLE|3902|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Warlock|
+= Level 4 Training|AVAILABLE|3902|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Don't forget to check in with the Demon trainer.\nManually check this step off to continue.|C|Warlock|
 
 A Scavenging Deathknell|QID|3902|M|31.65,65.68|N|From Deathguard Saltain around.|PRE|376|
 A Night Web's Hollow|QID|380|M|32.14,66.02|N|From Executor Arren.|PRE|376|
@@ -79,30 +80,29 @@ R Solliden Farmstead|ACTIVE|365|M|37.41,51.38|
 C Fields of Grief|QID|365|M|35.83,49.85|L|2846 10|N|Gather 10 Tirisfal Pumpkins from the fields.\n[color=FF0000]NOTE: [/color]Watch out for Farmer Solliden. He's a rare level 8 mob.|
 L Level 6|AVAILABLE|5481|N|Grind out until you are at least 1 bubble from levelling. Killing Tirisfal Farmers and Farmhands is probably your best bet. Avoid pulling groups and you should be okay.|LVL|5;2640|
 A Gordo's Task|QID|5481|M|43.8,54.5;58.03,51.70|CC|N|From Gordo, an abomination that patrols the road to Brill.|
-C Gordo's Task|QID|5481|L|12737 3|N|Collect Gloom Weed as you head to Brill.|S|
+C Gordo's Task|QID|5481|M|46.91,54.79|L|12737 3|N|Collect Gloom Weed as you head to Brill.|S|
 R Cold Hearth Manor|AVAILABLE|404|M|51.82,55.36|CC|N|Keep following the road east to Brill.|
-N Bowen Brisboise|ACTIVE|365|M|52.59,55.51|N|If you are interested, you'll find the Tailoring trainer, Bowen Brisboise, inside Cold Hearth Manor.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue|
-C Gordo's Task|QID|5481|L|12737 3|N|Finish collecting the Gloom Weed.|US|
+N Bowen Brisboise|QID|197003908|ACTIVE|365|M|52.59,55.51|N|If you are interested, you'll find the Tailoring trainer, Bowen Brisboise, inside Cold Hearth Manor.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue|P|Tailoring;197;0;1|
 R Brill|AVAILABLE|404|M|58.03,51.70|N|Continue following the road east to Brill.|
 
 A A Putrid Task|QID|404|M|58.19,51.44|N|From Deathguard Dillinger outside the cemetery.|
-T Fields of Grief|QID|365|M|59.44,52.39|N|Enter the first house to the right and turn in the quest at Apothecary Johaan.|
-A Fields of Grief|QID|407|M|59.4,52.4|N|From Apothecary Johaan.|PRE|365|
-A A New Plague|QID|367|M|59.4,52.4|N|From Apothecary Johaan.|
-N Carolai Anise|ACTIVE|383|M|59.43,52.20|N|Alchemist Trainer.|
-N Faruza|ACTIVE|383|M|59.8,52.0|N|Herbalism trainer; --- near the mount vendor.|
+T Fields of Grief|QID|365|M|59.44,52.39|N|To Apothecary Johaan inside the first house on the right.|
+A Fields of Grief|QID|407|M|59.44,52.39|N|From Apothecary Johaan.|PRE|365|
+A A New Plague|QID|367|M|59.44,52.39|N|From Apothecary Johaan.|
+N Carolai Anise|ACTIVE|383|M|59.43,52.20|N|Alchemist Trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|P|Alchemy;171;0;1|
+N Faruza|ACTIVE|383|M|59.44,52.39|N|Herbalism trainer, near the mount vendor.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|P|Herbalism;182;0;1|
 T Vital Intelligence|QID|383|M|60.57,51.77|N|To Executor Zygand.|
-A At War With The Scarlet Crusade|QID|427|M|60.6,51.8|N|From Executor Zygand.|PRE|383|
-A Wanted: Maggot Eye|QID|398|M|60.73,51.51|N|From the WANTED poster behind Executor Zygand. It has no '!' marking it.|
+A At War With The Scarlet Crusade|QID|427|M|60.57,51.77|N|From Executor Zygand.|
+A Wanted: Maggot Eye|QID|398|M|60.73,51.51|N|From the Wanted! poster behind Executor Zygand.|
 A Graverobbers|QID|358|M|61.26,50.84|N|From Magistrate Sevren inside Brill Town Hall.|
 
 ; --- Secondary trainers
-N Nurse Neela|ACTIVE|8|M|61.82,52.82|N|First Aid Trainer, standing just inside the Gallow's End Tavern.|
-N Vance Undergloom |ACTIVE|8|M|61.77,51.56|N|Enchanting trainer, upstairs inside the Tavern.|
-N Level 6 Training|QID|8|N|Visit your class trainer to do your level 6 training.|
-T A Rogue's Deal|QID|8|M|61.70,52.04|N|To Innkeeper Renee; --- inside the Tavern.|
-h Gallows' End Tavern|ACTIVE|407|N|Set your hearthstone to Brill.|
-T Fields of Grief|QID|407|M|61.97,51.28|N|To the Captured Scarlet Zealot down in the basement of the Inn, through the kitchen.|
+N Nurse Neela|ACTIVE|8|M|61.82,52.82|N|First Aid Trainer, standing just inside the Gallow's End Tavern.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|P|First Aid;129;0;1|
+N Vance Undergloom |ACTIVE|8|M|61.77,51.56|N|Enchanting trainer, upstairs inside the Tavern.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|P|Enchanting;333;0;1|
+= Level 6 Training|ACTIVE|8|N|Visit your class trainer to do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+T A Rogue's Deal|QID|8|M|61.70,52.04|N|To Innkeeper Renee, inside the Tavern.|
+h Gallows' End Tavern|ACTIVE|407|M|61.70,52.04|N|Set your hearthstone to Brill at Innkeeper Renee.|
+T Fields of Grief|QID|407|M|61.97,51.28|N|To the Captured Scarlet Zealot down in the basement of the Inn, accessed through the kitchen.|
 
 ; --- Priest class quest
 T In Favor of Darkness|QID|5651|M|61.57,52.19|N|To Dark Cleric Beryl upstairs at the inn.|R|Undead|C|Priest|
@@ -111,51 +111,59 @@ C Garments of Darkness|QID|5650|M|59.18,46.49|QO|1|N|Go north. Heal Deathguard K
 ; ---
 C A New Plague|QID|367|L|2858 5|N|Kill Decrepit and Cursed Darkhounds for the Darkhound Blood.|S|
 C A Putrid Task|QID|404|M|53.42,55.96|L|2855 7|N|Starting around the area of Cold Hearth Mannor, you begin to see Ravaged Corpses and Rotting Deads to kill for Putrid Claws.|S|
-A A Rogue's Deal|QID|590|M|38.26,56.79|N|Head west to Calvin Montague at the Deathknell entrance. Prepare for a fight and AFTER THAT accept his quest.\n\n[color=FF0000]NOTE: [/color]This will temporarily trigger you for PVP.|PRE|8|
+R Deathknell|AVAILABLE|590|M|39.14,55.47|N|Make your way back to Deathknell.|
+A A Rogue's Deal|QID|590|M|38.26,56.79|N|From Calvin Montague inside the Deathknell entrance. After a brief fight with you, he will offer the quest.\n\n[color=FF0000]NOTE: [/color]This will temporarily trigger you for PVP.|PRE|8|
 T A Rogue's Deal|QID|590|M|38.26,56.79|N|Just wait for him to finish eating and turn in the quest.|
-C At War With The Scarlet Crusade|QID|427|M|37.59,48.09;32.86,47.47|CC|QO|1|N|Follow the road to Solliden Farmstead. While killing Scarlet Warriors, continue to follow the road west.\n[color=FF0000]NOTE: [/color]Be aware of the Farmers and Farmerhands.|
-C A New Plague|QID|367|L|2858 5|N|Finish collecting the Darkhound Blood.|US|
-C A Putrid Task|QID|404|M|53.42,55.96|L|2855 7|N|Finish collecting the Putrid Claws.|US|
-H Gallows' End Tavern|ACTIVE|404|N|Hearth back to Brill or grind your way back.|
+R Solliden Farmstead|ACTIVE|427|M|40.70,54.50;40.8,50.0;32.39,47.94|CC|N|Cross over to the road on the other side.|
+K At War With The Scarlet Crusade|ACTIVE|427|M|32.39,47.94|QO|1|N|Kill 10 Scarlet Warriors.\n[color=FF0000]NOTE: [/color]Beware the Farmers and Farmerhands on the south side.|
+C A New Plague|QID|367|M|48.30,55.09|L|2858 5|N|Finish collecting the Darkhound Blood.|US|
+C A Putrid Task|QID|404|M|53.19,51.05|L|2855 7|N|Finish collecting the Putrid Claws.|US|
+H Gallows' End Tavern|AVAILABLE|354|M|58.03,51.70|N|Hearth or grind your way back.|
 A Deaths in the Family|QID|354|M|61.71,52.31|N|From Coleman Farthing on the ground floor the Tavern.|
 A The Haunted Mills|QID|362|M|61.71,52.31|N|From Coleman Farthing.|
 T Garments of Darkness|QID|5650|M|61.57,52.19|N|To Dark Cleric Beryl upstairs in the Tavern.|R|Undead|C|Priest|
 A The Chill of Death|QID|375|M|61.89,52.71|N|From Gretchen Dedmar upstairs in the Tavern.|
 T At War With The Scarlet Crusade|QID|427|M|60.57,51.77|N|To Executor Zygand.|
-A At War With The Scarlet Crusade|QID|370|M|60.6,51.8|N|From Executor Zygand.|PRE|427|
+A At War With The Scarlet Crusade|QID|370|M|60.57,51.77|N|From Executor Zygand.|PRE|427|
 A Proof of Demise|QID|374|M|60.93,51.98|N|From Deathguard Burgess.|PRE|427|
-r Housekeeping|QID|404|M|60.32,52.81|N|Stop by and visit Eliza Callen to sell and repair. Visit your trainers if you need to.|
+r Housekeeping|QID|404|M|60.32,52.81|N|Sell and repair at Eliza Callen.|
 T A New Plague|QID|367|M|59.44,52.39|N|To Apothecary Johaan.|
-A A New Plague|QID|368|M|59.4,52.4|N|From Apothecary Johaan.|PRE|367|
+A A New Plague|QID|368|M|59.44,52.39|N|From Apothecary Johaan.|PRE|367|
 T A Putrid Task|QID|404|M|58.20,51.45|N|To Deathguard Dillinger.|
 A The Mills Overrun|QID|426|M|58.2,51.4|N|From Deathguard Dillinger.|PRE|404|
 
-C Duskbats|QID|375|L|2876 5|N|Kill Duskbats around the area southwest of Brill until you have 5 Duskbat Pelts.|S|
+C Duskbats|QID|375|M|53.32,62.49|L|2876 5|N|Kill Duskbats around the area southwest of Brill until you have 5 Duskbat Pelts.|S|
 C Proof of Demise|QID|374|L|2875 10|N|Kill Scarlet Crusade to collect Scarlet Insignia Rings.|S|
-C At War With The Scarlet Crusade|QID|370|M|51.21,67.76|QO|1;2;3|N|Kill your way to Captain Perrine inside the tower. Continue killing the Scarlets until done.|
-C Duskbats|QID|375|L|2876 5|N|Finish collecting the Duskbat Pelts.|US|
-
+K At War With The Scarlet Crusade|ACTIVE|370|M|51.21,67.76|QO|2;3|N|Kill the required Scarlet Crusade.|S|
+K Captain Perrine|ACTIVE|370|M|51.21,67.76|QO|1|N|Kill Captain Perrine inside the tower.\n[color=FF0000]NOTE: [/color]He's lv 9 and has a Zealot guarding him. Focus on killing Perrine.|
+K At War With The Scarlet Crusade|ACTIVE|370|M|51.21,67.76|QO|2;3|N|Finish killing the required Scarlet Crusade.|US|
+C Duskbats|QID|375|M|53.32,62.49|L|2876 5|N|Finish collecting the Duskbat Pelts.\n[color=FF0000]NOTE: [/color]Keep an eye on the Darkhounds, they like to sneak up on you.|US|
+C Gordo's Task|QID|5481|M|46.91,54.79|L|12737 3|N|Finish collecting the Gloom Weed.|US|
+L Level 8|ACTIVE|370|N|Grind out until you're within 7 bubbles of Level 8.|LVL|7;-1480|
+R Brill|ACTIVE|370|M|58.03,51.70|N|Return to Brill.|
 T At War With The Scarlet Crusade|QID|370|M|60.57,51.77|N|To Executor Zygand in Brill.|
-A At War With The Scarlet Crusade|QID|371|M|60.6,51.8|N|From Executor Zygand in Brill.|PRE|370|
-r Housekeeping|QID|5481|M|60.32,52.81|N|Stop by and visit Eliza Callen to sell and repair. Visit your trainers if you need to.|
-B Coarse Thread|QID|375|M|61.02,52.37|L|2320|N|From Abigail Shiel in front of the wagon.|
+A At War With The Scarlet Crusade|QID|371|M|60.57,51.77|N|From Executor Zygand.|PRE|370|
+r Housekeeping|ACTIVE|375|M|60.32,52.81|N|Sell and repair at Eliza Callen.|
+B Coarse Thread|ACTIVE|375|M|61.02,52.37|L|2320|N|From Abigail Shiel in front of the wagon.|
 T The Chill of Death|QID|375|M|61.89,52.71|N|To Gretchen Dedmar upstairs at the Tavern.|
-T Gordo's Task|QID|5481|M|57.67,48.97;59.24,46.77;58.32,50.49|CC|N|Turn in to Junior Apothecary Holland in the cemetary. He pathes between the north and south entrances; cutting through the fountain on the west side.|
+= Level 8 Training|ACTIVE|5481|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Warlock|
+= Level 8 Training|ACTIVE|5481|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Don't forget to check in with the Demon trainer.\nManually check this step off to continue.|C|Warlock|
+T Gordo's Task|QID|5481|M|57.7,49.0;59.2,46.8;58.32,50.49|CC|N|To Junior Apothecary Holland in the cemetary.\n[color=FF0000]NOTE: [/color]He paths between the north and south entrances; cutting through the fountain on the west side.|
 A Doom Weed|QID|5482|N|From Junior Apothecary Holland.|PRE|5481|
 
 C Graverobbers|QID|358|L|2834 8|N|Kill the Rot Hide mobs to loot the Embalming Ichor.|S|
-C Rot Hide Mongrels|QID|358|QO|2|N|Kill 5 Rot Hide Mongrels.|S|
-C Rot Hide Graverobbers|QID|358|QO|1|N|Kill 5 Rot Hide Graverobbers.|S|
-C Wanted: Maggot Eye|QID|398|M|58.68,30.74|L|3635|N|[color=FF0000]NOTE: [/color]Maggot Eye is level 10. Pull the mobs outside the house one at a time.\nCasters: clear the field around the fence and pull him at max range.\nMelee: fight him inside the house.|
-R The North Coast|ACTIVE|368|M|59.85,30.05|N|Just run north.|
-C A New Plague|QID|368|L|2859 5|N|Kill Vile Fin Murlocs at The North Coast to loot the Vile Fin Scales.|
+K Rot Hide Mongrels|ACTIVE|358|QO|2|N|Kill 5 Rot Hide Mongrels.|S|
+C Doom Weed|QID|5482|M|57.19,39.97|L|13702 10|N|Collect the Doom Weed in the area.|S|
+K Rot Hide Graverobbers|ACTIVE|358|M|55.09,42.66|QO|1|N|Head to the southwest corner of the field and kill the Rot Hide Graverobbers.|
+C Doom Weed|QID|5482|M|57.19,39.97|L|13702 10|N|Finish collecting the Doom Weed.|US|
+K Maggot Eye|ACTIVE|398|M|58.68,30.74|L|3635|N|[color=FF0000]NOTE: [/color]Maggot Eye is level 10. Pull the mobs outside the house one at a time.\nCasters: clear the field around the fence and pull him at max range.\nMelee: fight him inside the house.|
+R The North Coast|ACTIVE|368|M|59.93,29.93|N|Just run north.|
+C A New Plague|QID|368|M|60.38,29.04|L|2859 5|N|Kill Vile Fin Murlocs to loot the Fin Scales.|
 R Garren's Haunt|ACTIVE|358|M|60.29,32.44|N|Head back to the field.|
-C Rot Hide Mongrels|QID|358|QO|2|N|Finish killing the Rot Hide Mongrels.|US|
-C Doom Weed|QID|5482|L|13702 10|N|Head to the southwest corner of the field and pick the Doom weed in the area. also leads you to where you will find the Rot Hide Graverobbers.|
-C Rot Hide Graverobbers|QID|358|QO|1|N|Continue heading south and kill the Rot Hide Graverobbers.|US|
-C Graverobbers|QID|358|L|2834 8|N|Finish collecting the Embalming Ichor.|US|
+K Rot Hide Mongrels|ACTIVE|358|M|58.98,32.93|QO|2|N|Finish killing the Rot Hide Mongrels.|US|
+C Graverobbers|QID|358|M|59.68,37.87|L|2834 8|N|Finish collecting the Embalming Ichor.|US|
 
-T Doom Weed|QID|5482|M|59.24,46.80;57.67,48.96;58.31,50.41|CC|N|To Junior Apothecary Holland, around the fountain.|
+T Doom Weed|QID|5482|M|59.2,46.8;57.7,48.0;58.31,50.41|CC|N|To Junior Apothecary Holland, around the fountain.|
 
 R Agamand Mills|ACTIVE|362|M|47.68,43.26|N|Run north-west to Agamand Mills. Unless you are looking to grind your way across, stick to the mountain edge.|
 C The Mills Overrun|QID|426|L|3162 5|N|Kill Bonecasters for the Skulls.|S|
@@ -180,7 +188,7 @@ A Forsaken Duties|QID|359|M|61.3,50.8|N|From Magistrate Sevren In the town hall.
 A The Prodigal Lich|QID|405|M|61.3,50.8|N|From Magistrate Sevren In the town hall.|PRE|358|
 T Wanted: Maggot Eye|QID|398|M|60.57,51.77|N|To Executor Zygand.|
 T A New Plague|QID|368|M|59.44,52.39|N|To Apothecary Johaan.|
-A A New Plague|QID|369|M|59.4,52.4|N|From Apothecary Johaan.|PRE|368|
+A A New Plague|QID|369|M|59.44,52.39|N|From Apothecary Johaan.|PRE|368|
 N Important Tip|QID|372|N|[color=FF0000]NOTE: [/color]Don't sell the Slumber Sand you get from turning in A New Plague. This will come in handy later. Close this step once finished reading.|
 
 T The Mills Overrun|QID|426|M|58.20,51.45|N|To Deathguard Dillinger.|
@@ -279,7 +287,7 @@ T Return to the Magistrate|QID|360|M|61.26,50.84|N|To Magistrate Sevren in the t
 T At War With The Scarlet Crusade|QID|371|M|60.57,51.77|N|To Executor Zygand.|
 A At War With The Scarlet Crusade|QID|372|M|60.57,51.77|N|From Executor Zygand.|PRE|371|
 T A New Plague|QID|369|M|59.44,52.39|N|To Apothecary Johaan.|
-A A New Plague|QID|492|M|59.4,52.4|N|From Apothecary Johaan.|PRE|369|
+A A New Plague|QID|492|M|59.44,52.39|N|From Apothecary Johaan.|PRE|369|
 T A New Plague|QID|492|M|61.93,51.40|N|To the Captured Mountaineer in the basement of the Tavern.|
 
 R Undercity|ACTIVE|357|M|61.86,65.04|N|Head to Undercity.|
