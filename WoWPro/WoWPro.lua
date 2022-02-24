@@ -840,7 +840,7 @@ function WoWPro:GuideRaceSpecific(guide, race)
     end
     race = race:upper()
     engRace = engRace:upper()
-    if WoWPro.SemiMatch(race, engRace) then
+    if not WoWPro.SemiMatch(race, engRace) then
         WoWPro:UnRegisterGuide(guide,"Guide %s is race specific and you don't match")
     end
 end
