@@ -25,9 +25,9 @@ K Forces of Jaedenar|ACTIVE|5155|M|34.76,59.84|Z|Felwood|QO|1;2;3;4|N|Kill the r
 R Ruins of Constellas|ACTIVE|4505|M|43.2,70.4;42.44,69.52|CC|Z|Felwood|N|Return to the main road and follow it south until you see the green pool. Follow the trail down into the Ruins.|
 C Well of Corruption|QID|4505|M|32.42,66.59|Z|Felwood|L|12567|N|Sticking to the northern edge of the mountain, follow it to the moonwell and fill the Hardened Flasket.|U|12566|NC|
 R Deadwood Village|ACTIVE|8460^6162|M|47.60,84.00;47.28,87.18|CC|Z|Felwood|N|Return to the main road and make your way south to the big bend before Emerald Sanctuary. Continue southwest into Deadwood Village.|
-K Timbermaw Ally|ACTIVE|8460|M|48.36,92.04|Z|Felwood|QO|1;2;3;4|N|Kill required Deadwood Village mobs.|S|
+K Timbermaw Ally|ACTIVE|8460|M|48.36,92.04|Z|Felwood|QO|1;2;3|N|Kill required Deadwood Village mobs.|S|
 K Overlord Ror|ACTIVE|6162|M|48.23,94.31|Z|Felwood|L|15879|N|Kill Overlord Ror to loot his Claw.|
-K Timbermaw Ally|ACTIVE|8460|M|48.36,92.04|Z|Felwood|QO|1;2;3;4|N|Finish killing required Deadwood Village mobs.|US|
+K Timbermaw Ally|ACTIVE|8460|M|48.36,92.04|Z|Felwood|QO|1;2;3|N|Finish killing required Deadwood Village mobs.|US|
 T Timbermaw Ally|QID|8460|M|50.93,85.01|Z|Felwood|N|To Grazle by the main road.|
 A Speak to Nafien|QID|8462|PRE|8460|M|50.93,85.01|Z|Felwood|N|From Grazle.|
 ;L Level 55|QID|8462|LVL|55|N|You should be around level 55 by this point.|
