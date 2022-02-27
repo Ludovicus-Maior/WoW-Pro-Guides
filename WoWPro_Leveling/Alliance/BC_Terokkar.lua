@@ -156,7 +156,7 @@ T Magical Disturbances|QID|10026|M|58.5,53.6|N|To Andarl.|
 T Olemba Seeds|QID|9992|M|57.4,55.4|N|To Ros'eleth.|
 A Vessels of Power|QID|10028|PRE|9992|M|57.4,55.4|N|From Ros'eleth.|
 l Vessels of Power|QID|10028|QO|1|M|54.1,32.1|N|Loot the vessels you need from the ground, you will not always get a vessel.|S|
-C Investigate Tuurem|N|Kill the Firewing Courier and loot the box.|QID|9990|M|54.00,30.00|
+C Investigate Tuurem|QID|9990|M|54.00,30.00|N|Kill the Firewing Courier and loot the box.|
 l Vessels of Power|QID|10028|QO|1|M|54.1,32.1|N|Loot the vessels you need from the ground, you will not always get a vessel.|US|
 T Investigate Tuurem|QID|9990|M|44.3,26.3|N|To Eartbinder Tavgren.|
 A What Are These Things?|QID|9994|PRE|9990|M|44.3,26.3|N|From Earthbinder Tavgren.|
@@ -232,7 +232,7 @@ T Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|To Magistriz Fyale
 T A Cure for Zahlia|QID|10020|Z|Shattrath City|M|64.37,15.55|N|To Sha'nir.|REP|Aldor;932|
 T Ezekiel|QID|10228|Z|Shattrath City|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|N|To Ezekiel. He wanders around the Terrace of Light.|
 A What Book? I Don't See Any Book.|QID|10231|PRE|10228|Z|Shattrath City|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|N|From Ezekiel.|
-C What Book? I Don't See Any Book.|Z|Shattrath City|QID|10231|M|43.58,29.36|N|Talk to "Dirty" Larry in Lower City and then get him down to 1% health.|
+C What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|Shattrath City|N|Talk to "Dirty" Larry in Lower City and then get him down to 1% health.|
 T What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|M|43.58,29.36|N|To "Dirty" Larry.|
 A The Master's Grand Design?|QID|10251|PRE|10231|Z|Shattrath City|M|43.58,29.36|N|From "Dirty" Larry.|
 T Letting Earthbinder Tavgren Know|QID|10005|M|44.3,26.3|N|To Earthbinder Tavgren.|
