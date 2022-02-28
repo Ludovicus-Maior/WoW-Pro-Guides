@@ -73,7 +73,7 @@ A Vital Intelligence|QID|383|M|32.16,66.02|N|From Executor Arren|PRE|382|
 A In Favor of Darkness|QID|5651|N|From Dark Cleric Duesten in the chapel.|R|Undead|C|Priest|
 R Deathknell Gate|AVAILABLE|8|M|37.93,56.67|CC|N|Follow the road out of Deathknell.|
 A A Rogue's Deal|QID|8|M|38.24,56.74|N|From Calvin Montague beside the road.|
-R Tirisfal Glades|AVAILABLE|865|M|39.29,55.39|N|Continue past the gates.|
+R Tirisfal Glades|AVAILABLE|365|M|39.29,55.39|N|Continue past the gates.|
 A Fields of Grief|QID|365|M|40.91,54.17|N|From Deathguard Simmer by the direction sign.|
 
 R Solliden Farmstead|ACTIVE|365|M|37.41,51.38|
@@ -125,7 +125,7 @@ T Garments of Darkness|QID|5650|M|61.57,52.19|N|To Dark Cleric Beryl upstairs in
 A The Chill of Death|QID|375|M|61.89,52.71|N|From Gretchen Dedmar upstairs in the Tavern.|
 T At War With The Scarlet Crusade|QID|427|M|60.57,51.77|N|To Executor Zygand.|
 A At War With The Scarlet Crusade|QID|370|M|60.57,51.77|N|From Executor Zygand.|PRE|427|
-A Proof of Demise|QID|374|M|60.93,51.98|N|From Deathguard Burgess.|PRE|427|
+A Proof of Demise|QID|374|M|60.93,52.02|N|From Deathguard Burgess.|PRE|427|
 r Housekeeping|QID|404|M|60.32,52.81|N|Sell and repair at Eliza Callen.|
 T A New Plague|QID|367|M|59.44,52.39|N|To Apothecary Johaan.|
 A A New Plague|QID|368|M|59.44,52.39|N|From Apothecary Johaan.|PRE|367|
@@ -162,47 +162,48 @@ C A New Plague|QID|368|M|60.38,29.04|L|2859 5|N|Kill Vile Fin Murlocs to loot th
 R Garren's Haunt|ACTIVE|358|M|60.29,32.44|N|Head back to the field.|
 K Rot Hide Mongrels|ACTIVE|358|M|58.98,32.93|QO|2|N|Finish killing the Rot Hide Mongrels.|US|
 C Graverobbers|QID|358|M|59.68,37.87|L|2834 8|N|Finish collecting the Embalming Ichor.|US|
-
 T Doom Weed|QID|5482|M|59.2,46.8;57.7,48.0;58.31,50.41|CC|N|To Junior Apothecary Holland, around the fountain.|
 
 R Agamand Mills|ACTIVE|362|M|47.68,43.26|N|Run north-west to Agamand Mills. Unless you are looking to grind your way across, stick to the mountain edge.|
 C The Mills Overrun|QID|426|L|3162 5|N|Kill Bonecasters for the Skulls.|S|
 C The Mills Overrun|QID|426|L|3163 3|N|Kill Soldiers for the Ribs.|S|
-K Devlin Agamand|QID|362|M|47.41,41.71|QO|1|N|Kill him and loot Devlin's Remains. [color=FF0000]NOTE: [/color]Devin Agamand is a melee fighter despite his appearance.|
-K Nissa Agamand|QID|354|M|49.35,36.02|QO|2|N|Find her in the house to the east. Kill her and loot Nissa's Remains. [color=FF0000]NOTE: [/color]You will either find her in the doorway or inside the building. She might be tough for some classes so make sure you clear the area before you attack her.|
-K Gregor Agamand|QID|354|M|47.23,30.14;45.78,29.40|CC|QO|1|N|Continue north-west to where you should find Gregor Agamand pathing in a loop between the two windmills on the north side of the road. Kill him and loot Gregor's Remains.\n[color=FF0000]NOTE: [/color]He hits hard but should be soloable if you make sure to pull him alone.|
-K Thurman Agamand|QID|354|M|42.82,32.51;44.02,33.77|CC|QO|3|N|Thurman Agamand can be found pathing between the two windmills on the west side. Kill him and loot Thurman's Remains.|
+K Devlin Agamand|ACTIVE|362|M|47.41,41.71|QO|1|N|Kill him and loot Devlin's Remains. [color=FF0000]NOTE: [/color]Devin Agamand is a melee fighter despite his appearance.|
+K Nissa Agamand|ACTIVE|354|M|49.35,36.02|QO|2|N|Find her in the house to the east. Kill her and loot Nissa's Remains. [color=FF0000]NOTE: [/color]You will either find her in the doorway or inside the building. She might be tough for some classes so make sure you clear the area before you attack her.|
+K Gregor Agamand|ACTIVE|354|M|47.23,30.14;45.78,29.40|CC|QO|1|N|Continue north-west to where you should find Gregor Agamand pathing in a loop between the two windmills on the north side of the road. Kill him and loot Gregor's Remains.\n[color=FF0000]NOTE: [/color]He hits hard but should be soloable if you make sure to pull him alone.|
+K Thurman Agamand|ACTIVE|354|M|42.82,32.51;44.02,33.77|CC|QO|3|N|Thurman Agamand can be found pathing between the two windmills on the west side. Kill him and loot Thurman's Remains.|
 C The Mills Overrun|QID|426|L|3162 5|N|Kill Bonecasters for the Skulls.|US|
 C The Mills Overrun|QID|426|L|3163 3|N|Kill Soldiers for the Ribs.|US|
-
 L Level 10|ACTIVE|362|N|Run back to Brill instead of hearthing. You need to be level 10 after you turn in your quests in Brill.|LVL|9;1015|
-H Gallows' End Tavern|QID|362|N|Hearth back to Brill.|
+H Gallows' End Tavern|ACTIVE|362|M|58.03,51.70|N|Hearth back to Brill.|
 
 T The Haunted Mills|QID|362|M|61.71,52.31|N|To Coleman Farthing in the Tavern.|
 T Deaths in the Family|QID|354|M|61.7,52.3|N|To Coleman Farthing in the Tavern.|
 A Speak with Sevren|QID|355|M|61.7,52.3|N|From Colman Farthing in the Tavern.|PRE|354|
-T Graverobbers|QID|358|M|61.26,50.84|N|To Magistrate Sevren in the town hall.|
 T Speak with Sevren|QID|355|M|61.26,50.84|N|To Magistrate Sevren In the town hall.|
-A The Family Crypt|QID|408|M|61.3,50.8|N|From Magistrate Sevren In the town hall.|PRE|355|
-A Forsaken Duties|QID|359|M|61.3,50.8|N|From Magistrate Sevren In the town hall.|PRE|358|
-A The Prodigal Lich|QID|405|M|61.3,50.8|N|From Magistrate Sevren In the town hall.|PRE|358|
+A The Family Crypt|QID|408|M|61.26,50.84|N|From Magistrate Sevren In the town hall.|PRE|355|
+T Graverobbers|QID|358|M|61.26,50.84|N|To Magistrate Sevren in the town hall.|
+A Forsaken Duties|QID|359|M|61.26,50.84|N|From Magistrate Sevren In the town hall.|PRE|358|
+A The Prodigal Lich|QID|405|M|61.26,50.84|N|From Magistrate Sevren In the town hall.|PRE|358|
 T Wanted: Maggot Eye|QID|398|M|60.57,51.77|N|To Executor Zygand.|
 T A New Plague|QID|368|M|59.44,52.39|N|To Apothecary Johaan.|
 A A New Plague|QID|369|M|59.44,52.39|N|From Apothecary Johaan.|PRE|368|
-N Important Tip|QID|372|N|[color=FF0000]NOTE: [/color]Don't sell the Slumber Sand you get from turning in A New Plague. This will come in handy later. Close this step once finished reading.|
-
+N Important Tip|ACTIVE|426|M|PLAYER|N|[color=FF0000]NOTE: [/color]Don't sell the Slumber Sand you just got. This will come in handy later.\nManually check this step off to continue.|
 T The Mills Overrun|QID|426|M|58.20,51.45|N|To Deathguard Dillinger.|
 
 L Level 10|N|You need to be level 10 to continue forward. Go grind until you are.|LVL|10|
 ; --- Class quests
 ; --- Mage
 A Speak with Anastasia|QID|1881|M|61.96,52.45|N|From Cain Firesong at the top of the stairs in the Tavern.|LVL|10|R|Undead|C|Mage|
+= Level 10 Training|ACTIVE|1881|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
 ; --- Rogue
 A Mennet Carkad|QID|1885|M|61.74,52.01|N|From Marion Cal upstairs at the Tavern.|LVL|10|R|Undead|C|Rogue|
+= Level 10 Training|ACTIVE|1885|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
 ; --- Warlock
 A Halgar's Summons|QID|1478|M|61.62,52.66|N|From Ageron Kargal upstairs at the Tavern.|LVL|10|R|Undead|C|Warlock|
+= Level 10 Training|ACTIVE|1478|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
 ; --- Warrior
 A Speak with Dillinger|QID|1818|M|61.9,52.5|N|From Austil de Mon inside the Tavern.|LVL|10|R|Undead|C|Warrior|
+= Level 10 Training|ACTIVE|1818|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warrior|
 T Speak with Dillinger|QID|1818|M|58.20,51.45|N|To Deathguard Dillinger.|LVL|10|C|Warrior|
 A Ulag the Cleaver|QID|1819|M|58.2,51.4|N|From Deathguard Dillinger.|PRE|1818|C|Warrior|
 K Ulag the Cleaver|QID|1819|M|59.17,48.54|QO|1|N|Go north to the mausoleum and click the skull stone trigger. Wait for Ulag the Cleaver to come out and Kill him.|C|Warrior|
@@ -214,16 +215,13 @@ A Agamand Heirlooms|QID|1821|M|61.72,52.28|N|From Coleman Farthing.|PRE|1820|C|W
 
 ; --- Undercity
 R Undercity|ACTIVE|405|M|61.86,65.04|N|Enter Undercity and take the elevator down.|
-N Things to do|ACTIVE|405|N|This is a good time to pick up a profession. Pick up Cooking even if you don't want to skill it up, it unlocks cooking quests which are used in Jame's guides. Ask a guard for directions to the profession trainers. Since this is the first time we're in a city, take your time to visit the AH, train weapon skills and put stuff you don't need in the bank. Close this step once finished.|
-N Basil Frye|ACTIVE|405|M|60.18,29.10|Z|Undercity|N|Journeyman blacksmithing trainer, in Undercity's War Quarter.|
-N Eunice Burch|ACTIVE|405|M|62.16,44.87|Z|Undercity|P|Cooking;185;0+0;1|N|Cooking trainer, Undercity's Trade Quarter on the west side, middle tier.|
-N Graham Van Talen|ACTIVE|405|M|75.32,73.12|Z|Undercity|N|Journeyman engineering trainer, in Undercity's Rogues' Quarter (Southeastern).|
-N Armand Cromwell|ACTIVE|405|M|80.8,31.2|Z|Undercity|N|Fishing trainer, in Undercity's Magic Quarter (Northestern).|
-N Brom Killian|ACTIVE|405|M|56.0,37.0|Z|Undercity|N|Mining trainer. Undercity's War Quarter, inner ring.|
-N Archibald|ACTIVE|405|M|57.32,32.74|Z|Undercity|N|Weapon Master, in Undercity's War Quarter inner ring.\nIf you wish to learn to use Crossbows, Daggers, polearms, one-handed and two-handed swords.|
-
-T The Prodigal Lich|QID|405|M|84.05,17.37|Z|Undercity|N|To Bethor Iceshard in the Magic Quarter.|
-A The Lich's Identity|QID|357|M|84.05,17.37|Z|Undercity|N|From Bethor Iceshard.|PRE|405|
+N Things to do|ACTIVE|405|N|Welcome to the City.\nThis is a good time to pick up a primary profession(s) and Cooking. Ask a guard for directions to the profession trainers.\nSince this is the first time we're in a city, take your time to visit the AH, train weapon skills and put stuff you don't need in the bank.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Basil Frye|ACTIVE|405|M|60.18,29.10|Z|Undercity|N|Journeyman blacksmithing trainer, in Undercity's War Quarter.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Eunice Burch|ACTIVE|405|M|62.16,44.87|Z|Undercity|P|Cooking;185;0+0;1|N|Cooking trainer, Undercity's Trade Quarter on the west side, middle tier.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Graham Van Talen|ACTIVE|405|M|75.32,73.12|Z|Undercity|N|Journeyman engineering trainer, in Undercity's Rogues' Quarter (Southeastern).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Armand Cromwell|ACTIVE|405|M|80.8,31.2|Z|Undercity|N|Fishing trainer, in Undercity's Magic Quarter (Northestern).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Brom Killian|ACTIVE|405|M|56.0,37.0|Z|Undercity|N|Mining trainer. Undercity's War Quarter, inner ring.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Archibald|ACTIVE|405|M|57.32,32.74|Z|Undercity|N|Weapon Master, in Undercity's War Quarter inner ring.\nIf you wish to learn to use Crossbows, Daggers, polearms, one-handed and two-handed swords.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
 ; --- Class quest turn-ins and follow-ups
 ; --- Mage
@@ -250,82 +248,87 @@ T The Deathstalkers|QID|1978|M|56.24,92.13|Z|Undercity|N|To Varimathras in the R
 ; --- Warlock
 T Halgar's Summons|QID|1478|M|85.00,26.00|Z|Undercity|N|To Carendin Halgar in the Magic Quarter.|R|Undead|C|Warlock|
 A Creature of the Void|QID|1473|M|85.00,26.00|Z|Undercity|N|From Carendin Halgar.|PRE|1478|R|Undead|C|Warlock|
-R Leave Undercity|ACTIVE|1473|M|46.87,43.91;40.98,33.42;14.74,31.90|CC|Z|Undercity|N|Exit Undercity through the Sewers. You'll come out at the Scarlet Tower where you were before.|R|Undead|C|Warlock|
+R Tirisfal Glades|ACTIVE|1473|M|46.9,43.9;41.0,33.4;14.74,31.90|CC|Z|Undercity|N|Exit Undercity through the Sewers. You'll come out at the Scarlet Tower where you were before.|R|Undead|C|Warlock|
 C Creature of the Void|QID|1473|M|52.05,67.73;51.05,67.59|CC|QO|1|N|Fight your way into the tower where you'll find Perrine's Chest. Loot Egalin's Grimoire.|R|Undead|C|Warlock|NC|
-R Back to Undercity|ACTIVE|1473|M|50.99,71.81|CC|N|Head back to Undercity through the Sewer.|R|Undead|C|Warlock|
-T Creature of the Void|QID|1473|M|85.00,26.00|Z|Undercity|N|To Carendin Halgar in Undercity.|R|Undead|C|Warlock|
+R Undercity|ACTIVE|1473|M|50.99,71.81|CC|N|Head back to Undercity through the Sewer.|R|Undead|C|Warlock|
+T Creature of the Void|QID|1473|M|85.00,26.00|Z|Undercity|N|To Carendin Halgar in the Magic Quarter.|R|Undead|C|Warlock|
 A The Binding|QID|1471|M|85.00,26.00|Z|Undercity|N|From Carendin Halgar.|PRE|1473|R|Undead|C|Warlock|
 C The Binding|QID|1471|M|86.66,26.99|Z|Undercity|QO|1|N|Go into the circle, use the Runes of Summoning to summon a Voidwalker, and defeat it.|U|6284|R|Undead|C|Warlock|
-T The Binding|QID|1471|M|85.00,26.00|Z|Undercity|N|To Carendin Halgar in Undercity.|R|Undead|C|Warlock|
+T The Binding|QID|1471|M|85.00,26.00|Z|Undercity|N|To Carendin Halgar.|R|Undead|C|Warlock|
 ; ---
 
-R Leave Undercity|ACTIVE|359|M|65.99,36.85;66.22,0.90|CC|Z|Undercity|N|Take the elevator up and leave Undercity through the front gates.|
+T The Prodigal Lich|QID|405|M|84.05,17.37|Z|Undercity|N|To Bethor Iceshard in the Magic Quarter.|
+A The Lich's Identity|QID|357|M|84.05,17.37|Z|Undercity|N|From Bethor Iceshard.|PRE|405|
+B Wand|ACTIVE|357|M|64.41,35.79|Z|Undercity|N|If you do not have one yet, I strongly recommend you buy one from the AH.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+R Leave Undercity|ACTIVE|359|M|66.00,38.4;66.22,0.90|CC|Z|Undercity|N|Take the elevator up and leave Undercity through the front gates.|
 T Forsaken Duties|QID|359|M|65.48,60.24|N|Leave the Undercity and follow the road north-east to Deathguard Linnea.|
 A Return to the Magistrate|QID|360|M|65.48,60.24|N|From Deathguard Linnea.|PRE|359|
 A Rear Guard Patrol|QID|356|M|65.48,60.24|N|From Deathguard Linnea.|
-
-N Shelene Rhobart|ACTIVE|356|M|65.45,60.15|N|Journeyman leatherworking trainer.|
-N Rand Rhobart|ACTIVE|356|M|65.6,60.0|N|Skinning Trainer.|
-N Martine Tramblay|ACTIVE|356|M|65.8,59.6|N|Fishing Supplies, including fishing rods.|
-N Clyde Kellen|ACTIVE|356|M|67.2,51.0|P|Fishing;356;0+0;1|N|Fishing trainer. Wa-a-ay out by the shore of Brightwater Lake.|
+= Shelene Rhobart|ACTIVE|356|M|65.45,60.15|N|Journeyman leatherworking trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Rand Rhobart|ACTIVE|356|M|65.6,60.0|N|Skinning Trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Martine Tramblay|ACTIVE|356|M|65.8,59.6|N|Fishing Supplies, including fishing rods.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Clyde Kellen|ACTIVE|356|M|67.2,51.0|P|Fishing;356;0+0;1|N|Fishing trainer. Wa-a-ay out by the shore of Brightwater Lake.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
 R Balnir Farmstead|ACTIVE|356|M|74.03,60.13|
-C Rear Guard Patrol|QID|356|QO|1;2|N|Follow the road east until you hit Balnir Farmstead.\nNOTE: Watch out for Felicient's Shade. It's a level 12 rare ghost roaming the fields.|
-C Balnir Farmstead|QID|1882|N|Loot the Balnir Snapdragons.|R|Undead|C|Mage|NC|
-
-R Crusader Outpost|ACTIVE|371|M|76.86,56.76|N|Head north from Balnir Farmstead into the hills.|
-C At War With The Scarlet Crusade|QID|371|M|79.20,54.55|QO|2|N|Kill 5 Scarlet Friars.|S|
-K Captain Vachon|QID|371|M|79.20,54.55|QO|1|N|If you find it difficult to get around the tower from the rear, drop down and work your way around to the front entrance.\nOnce you've cleared the entrance to the tower, pull Captain Vachon outside and kill him.\n[color=FF0000]NOTE: [/color]Captain Vachon is level 11 and can be difficult for some classes (especially, since he has an add who will heal him). Now is a good time to use your Slumber Sand to crowd control the Friar while you kill Captain Vachon.|U|3434|
-C At War With The Scarlet Crusade|QID|371|M|79.20,54.55|QO|2|N|Kill 5 Scarlet Friars.|US|
+K Rear Guard Patrol|ACTIVE|356|M|75.55,60.33|QO|1;2|N|Kill the required Balnir mobs.\nNOTE: Watch out for Felicient's Shade, a level 12 rare ghost roaming the fields.|
+C The Balnir Farmstead|QID|1882|L|1882|N|Loot the Balnir Snapdragons.|R|Undead|C|Mage|NC|
+R Crusader Outpost|ACTIVE|371|M|76.90,56.52|N|Head north from Balnir Farmstead into the hills.|
+K At War With The Scarlet Crusade|ACTIVE|371|M|79.20,54.55|QO|2|N|Kill 5 Scarlet Friars.|S|
+K Captain Vachon|ACTIVE|371|M|79.20,54.55|QO|1|N|If you find it difficult to get around the tower from the rear, drop down and work your way around to the front entrance.\nOnce you've cleared the entrance to the tower, pull Captain Vachon outside and kill him.\n[color=FF0000]NOTE: [/color]Captain Vachon is level 11 and can be difficult for some classes (especially, since he has an add who will heal him). Now is a good time to use your Slumber Sand to crowd control the Friar while you kill Captain Vachon.|U|3434|
+K At War With The Scarlet Crusade|ACTIVE|371|M|79.20,54.55|QO|2|N|Kill 5 Scarlet Friars.|US|
 C Proof of Demise|QID|374|L|2875 10|N|Finish collecting Scarlet Insignia Rings.|US|
 R Venomweb Vale|ACTIVE|369|M|82.20,53.95|N|Leave Crusader Outpost from the east entrance.|
-C A New Plague|QID|369|L|2872 4|N|Kill Vicious Night Web Spiders to collect the Vicious Night Web Spider Venom. If you're a Miner, take your time to search the cliff-sides for ore.|
-C The Lich's Identity|QID|357|M|68.00,42.10|L|2833|N|Run to Gunther's Retreat, the island in Brightwater Lake, and grab the Lich's Spellbook from the table at his camp site.|
-R Brill|ACTIVE|374|M|61.70,48.92|N|Run back to Brill. You can hearth back if you want to. However, the plan is to use it in the near future and it may not be off CD by then.|
-T Proof of Demise|QID|374|M|60.93,51.98|N|To Deathguard Burgess.|
+C A New Plague|QID|369|M|88.22,52.25|L|2872 4|N|Kill Vicious Night Web Spiders to collect the Venom.|
+R Brightwater Lake|ACTIVE|357|M|72.57,44.29|
+R Gunther's Retreat|ACTIVE|357|M|70.16,43.27|N|Swim to the island in the middle of Brightwater Lake.|
+C The Lich's Identity|QID|357|M|67.97,42.10|L|2833|N|Loot the Spellbook from the table at Gunther Arcanus' camp site.|
+R Brill|ACTIVE|374|M|61.70,48.92|N|Head back to Brill.\n[color=FF0000]NOTE: [/color]You can hearth back if you want to; however, the plan is to use it in the near future and it may not be off CD by then.|
+T Proof of Demise|QID|374|M|60.93,52.02|N|To Deathguard Burgess.|
 T Return to the Magistrate|QID|360|M|61.26,50.84|N|To Magistrate Sevren in the town hall.|
 T At War With The Scarlet Crusade|QID|371|M|60.57,51.77|N|To Executor Zygand.|
 A At War With The Scarlet Crusade|QID|372|M|60.57,51.77|N|From Executor Zygand.|PRE|371|
 T A New Plague|QID|369|M|59.44,52.39|N|To Apothecary Johaan.|
 A A New Plague|QID|492|M|59.44,52.39|N|From Apothecary Johaan.|PRE|369|
-T A New Plague|QID|492|M|61.93,51.40|N|To the Captured Mountaineer in the basement of the Tavern.|
+T A New Plague|QID|492|M|61.93,51.40|N|To the Captured Mountaineer in the basement of the Tavern, accessed through the kitchen.|
 
-R Undercity|ACTIVE|357|M|61.86,65.04|N|Head to Undercity.|
-T The Lich's Identity|QID|357|M|69.86,44.16;73.44,44.19;68.11,40.67;84.26,42.55;84.05,17.37|Z|Undercity|CC|N|To Bethor Iceshard in the Magic Quarter, Undercity.|
+R Undercity|ACTIVE|357|M|61.86,65.04|
+T The Lich's Identity|QID|357|M|84.05,17.37|Z|Undercity|N|To Bethor Iceshard in the Magic Quarter, Undercity.|
 A Return the Book|QID|366|M|84.1,17.5|N|From Bethor Iceshard.|PRE|357|R|-Tauren|
 T The Balnir Farmstead|QID|1882|M|85,10|Z|Undercity|N|To Anastasia Hartwell.|R|Undead|C|Mage|
-
-R Leave Undercity|QID|356|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|
-T Rear Guard Patrol|QID|356|M|65.48,60.24|N|Leave the Undercity and follow the road north-east to Deathguard Linnea.|
-
-T Return the Book|QID|366|M|68.2,41.9|N|To Gunther's Retreat, the island in Brightwater Lake|
-A Proving Allegiance|QID|409|M|68.2,41.9|N|From Gunther Arcanus.\n[color=FF0000]NOTE: [/color]Upon accepting this quest, 2 additional quests are unlocked but do not show in the quest log. These quests are The Candles of Beckoning and The Dormant Shade. These quests are sequential steps that are required to complete the main quest.|PRE|366|
-C Candles of Beckoning|ACTIVE|409|M|68.17,42.02|L|3080|N|Loot one of the Candles of Beckoning from the crate.|
-K Proving Allegiance|QID|409|M|66.63,44.87|QO|1|N|Head south-west to the smaller island with Lillith's Dinner Table on it. Click on the table to summon Lillith Nefara and kill her.\n[color=FF0000]NOTE: [/color]This step requires that you have a Candle of Beckoning. Make sure you clear the area before you click on the table.|
-T Proving Allegiance|QID|409|M|68.17,41.94|N|Back to Gunther Arcanus.|
-A The Prodigal Lich Returns|QID|411|M|68.17,41.94|N|From Gunther Arcanus.|PRE|409|
-R Scarlet Watch Post|ACTIVE|372|M|77.64,29.85|N|Go north-east to the Scarlet Crusade camp east of the lake.|
-K At War With The Scarlet Crusade|QID|372|M|79.50,25.91|QO|1;2|N|As you approach the tower, it's best to pull the mobs singly. If you wait, one of the pairs will start to path and you can then pull them without the other. Make sure you clear ALL around the tower before proceeding further.\n[color=FF0000]NOTE: [/color]Captain Melrache has the two bodyguards next to him. If you have any Slumber Sand left, use it to crowd control one of them. Be careful here as the mobs respawn rather quickly.|U|3434|
-H Gallows' End Tavern|QID|372|N|Hearthstone back to Brill.|
+B Wand|ACTIVE|366|M|64.41,35.79|Z|Undercity|N|If you do not have one yet, I strongly recommend you buy one from the AH.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+R Leave Undercity|QID|356|M|66.0,38.4;66.22,0.90|CC|Z|Undercity|N|Take the elevator up and leave Undercity through the front gates.|
+T Rear Guard Patrol|QID|356|M|65.48,60.24|N|To Deathguard Linnea.|
+T Return the Book|QID|366|M|68.20,41.92|N|To Gunther Arcanus on Gunther's Retreat, the island in Brightwater Lake|
+A Proving Allegiance|QID|409|M|68.20,41.92|N|From Gunther Arcanus.|PRE|366|
+N Proving Allegiance|ACTIVE|409|N|[color=FF0000]NOTE: [/color]Upon accepting this quest, 2 additional quests, The Candles of Beckoning and The Dormant Shade, are unlocked but don't show in the quest log. These quests are sequential steps that are required to complete "Proving Allegiance".\nManually check this step off to continue.|
+C Candles of Beckoning|ACTIVE|409|M|68.17,42.02|L|3080|N|Loot one of the Candles of Beckoning from the crate.\n[color=FF0000]NOTE: [/color]This step does not auto-complete.|
+K Lillith Nefara|ACTIVE|409|M|66.63,44.87|N|Head south-west to the smaller island with Lillith's Dinner Table on it. Click on the table to turn in The Dormant Shade to summon Lillith Nefara and kill her.\n[color=FF0000]NOTE: [/color] Make sure you clear the area before you click on the table.\nIf you fail, you will have to go back and get another Candle of Beckoning.|
+T Proving Allegiance|QID|409|M|68.20,41.92|N|Back to Gunther Arcanus.|
+A The Prodigal Lich Returns|QID|411|M|68.20,41.92|N|From Gunther Arcanus.|PRE|409|
+R Scarlet Watch Post|ACTIVE|372|M|77.64,29.85|N|Head to the Scarlet Crusade camp northeast of the lake.|
+K At War With The Scarlet Crusade|ACTIVE|372|M|79.50,25.91|QO|1;2|N|As you approach the tower, it's best to pull the mobs singly. If you wait, one of the pairs will start to path and you can then pull them without the other. Make sure you clear ALL around the tower before proceeding further.\n[color=FF0000]NOTE: [/color]Captain Melrache has the two bodyguards next to him. If you have any Slumber Sand left, use it to crowd control one of them. Be careful here as the mobs respawn rather quickly.|U|3434|
+H Gallows' End Tavern|ACTIVE|372|
 T At War With The Scarlet Crusade|QID|372|M|60.57,51.77|N|To Executor Zygand.|
-R Agamand Mills|ACTIVE|408|M|46.75,44.38|N|Head west out of Brill. You can either take the road (to avoid fighting) or cut through Stillwater Pond.|
-C The Family Crypt|QID|408|M|52.25,27.18|QO|1;2;3|N|Head to the north-eastern part of Agamand Mills and enter the crypt. Don't go out of your way killing the ancestors and wailing. There are plenty in the crypt. You will find Captain Dargol on the bottom floor.\nNOTE: He's a level 13 melee badass surrounded by a couple of mobs. If you're careful, you should be able to kill all adds in the room without pulling him. Kill him and loot Dargol's Skull.|
+R Agamand Mills|ACTIVE|408|M|46.75,44.38|N|Head west out of Brill.\n[color=FF0000]NOTE: [/color]You can either take the road (to avoid fighting), or cut through Stillwater Pond.|
+R Agamand Family Crypt|ACTIVE|408|M|52.24,27.04|N|Following the hillside is probably the fastest and easiest route there.|
+K The Family Crypt|ACTIVE|408|M|52.25,27.18|QO|1;2|N|Kill the required Ancestors.\n[color=FF0000]NOTE: [/color]Don't go out of your way to kill them outside, there are plenty inside the crypt.|S|
+K Captain Dargol|ACTIVE|408|M|52.25,27.18|L|3082|N|Head to the northeastern part of Agamand Mills and enter the crypt. Don't go out of your way killing the ancestors and wailing. There are plenty in the crypt. You will find Captain Dargol on the bottom floor.\n[color=FF0000]NOTE: [/color]He's a level 13 melee badass surrounded by a couple of mobs. If you're careful, you should be able to kill all adds in the room without pulling him. Kill him and loot Dargol's Skull.|
 C Agamand Heirlooms|QID|1821|N|You can find weapon racks everywhere in the crypt.|C|Warrior|
-K Undead|AVAILABLE|361|L|2839|N|Before leaving Agamand Mills, kill Darkeyed Bonecasters, Rattlecaged Soldiers and Cracked Skull Soldiers until you loot "A Letter to Yvette".|
+K The Family Crypt|ACTIVE|408|M|52.25,27.18|QO|1;2|N|Kill the required Ancestors.\n[color=FF0000]NOTE: [/color]Don't go out of your way to kill them outside, there are plenty inside the crypt.|US|
+K Undead|AVAILABLE|361|M|48.20,33.23|L|2839|N|Before leaving Agamand Mills, kill skeleton mobs until you loot "A Letter to Yvette".\n[color=FF0000]NOTE: [/color]The drop rate is not the best. Skip this step if you wish.|RANK|3|
 A A Letter Undelivered|QID|361|N|Click on the letter to accept the quest.|U|2839|O|
-H Gallows' End Tavern|QID|408|N|Hearth back to Brill.\n[color=FF0000]NOTE: [/color]If your Hearthstone is on cooldown, die and rez at Brill's graveyard.\nYou can run all the way back if you don't want the repair bill.|
+L Level 12|ACTIVE|408|N|Grind out until you're at least 4 bubbles from level 12.|LVL|11;-1840|
+H Gallows' End Tavern|ACTIVE|408|M|58.03,51.70|N|[color=FF0000]NOTE: [/color]If your Hearthstone is on cooldown, die and rez at Brill's graveyard, or if you don't want the repair bill, run all the way back.|
 
 T A Letter Undelivered|QID|361|M|61.57,52.60|N|To Yvette Farthing in the Tavern.|
 T Agamand Heirlooms|QID|1821|M|61.71,52.31|N|To Coleman Farthing in the Tavern.|C|Warrior|
-A Heirloom Weapon|QID|1822|C|Warrior|N|From Coleman Farthing.|PRE|1821|
-T Heirloom Weapon|QID|1822|C|Warrior|N|To Coleman Farthing.|
-
+A Heirloom Weapon|QID|1822|N|From Coleman Farthing.|PRE|1821|C|Warrior|
+T Heirloom Weapon|QID|1822|N|To Coleman Farthing.|C|Warrior|
 T The Family Crypt|QID|408|M|61.26,50.84|N|To Magistrate Sevren in the town hall.|
-A Delivery to Silverpine Forest|QID|445|M|59.44,52.39|N|From Apothecary Johaan. We won't complete that quest in this guide though.|
-
-R Undercity|ACTIVE|411|M|61.86,65.04|N|Head to Undercity.|
-T The Prodigal Lich Returns|QID|411|M|69.86,44.16;73.44,44.19;68.11,40.67;84.26,42.55;84.05,17.37|Z|Undercity|CS|N|To Bethor Iceshard in the Magic Quarter, Undercity.|
-R Leave Undercity|ACTIVE|445|M|65.99,36.85;66.22,0.90|CC|Z|Undercity|N|After doing any training or housekeeping, take the elevator up and leave Undercity through the front gates.|
+A Delivery to Silverpine Forest|QID|445|M|59.44,52.39|N|From Apothecary Johaan.\n[color=FF0000]NOTE: [/color]Accept this quest if you plan on going to Silverpine Forest.|
+R Undercity|ACTIVE|411|M|61.86,65.04|
+T The Prodigal Lich Returns|QID|411|M|84.05,17.37|Z|Undercity|N|To Bethor Iceshard in the Magic Quarter, Undercity.|
+= Level 12 Training|ACTIVE|1478|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
 ]]
 end)
