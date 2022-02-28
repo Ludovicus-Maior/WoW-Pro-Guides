@@ -6,7 +6,11 @@ WoWPro:GuideLevels(guide, 10, 21)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Fairbreeze Village|AVAILABLE|9144|M|44.06,70.73|Z|Eversong Woods|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\nAfter grabbing the flight path outside of Silvermoon City, follow the road to the west and then continue south at the bend.\n[color=FF0000]NOTE: [/color]There will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|
+R Undercity|AVAILABLE|9144|M|61.86,65.04|Z|Undercity|R|Undead|IZ|1420;Tirisfal Glades|
+P Silvermoon City|AVAILABLE|9144|M|63.3,11.3;55.41,11.20|Z|1458;Undercity|CC|N|Use the Orb of Translocation.|R|Undead|IZ|1458;Undercity|
+R The Shepherd's Gate|AVAILABLE|9144|M|56.66,49.54|Z|Eversong Woods|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|
+f Silvermoon City|AVAILABLE|9144|M|54.37,50.73|Z|Eversong Woods|
+R Fairbreeze Village|AVAILABLE|9144|M|44.06,70.73|Z|Eversong Woods|N|Follow the road to the west and then continue south at the bend.\n[color=FF0000]NOTE: [/color]There will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|
 ; Repeating quests from BloodElf Intro for those that didn't come from that guide.
 A Missing in the Ghostlands|QID|9144|M|44.06,70.73|Z|Eversong Woods|N|From Magistrix Landra Dawnstrider.|LEAD|9329|
 A Ranger Sareyn|QID|9358|M|43.67,71.31|Z|Eversong Woods|N|From Marniel Amberlight, the Innkeeper.|LEAD|9252|
