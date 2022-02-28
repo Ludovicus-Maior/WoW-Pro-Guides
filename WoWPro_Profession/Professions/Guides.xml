@@ -29,8 +29,15 @@
 	<Script file="Enchanting_LEG.lua"/>
 	<Script file="Enchanting_BfA.lua"/>
 	<Script file="Enchanting_SL.lua"/>
+	<Script file="Engineering_HUB.lua"/>
 	<Script file="Engineering_VAN.lua"/>
 	<Script file="Engineering_OUT.lua"/>
+	<Script file="Engineering_WotLK.lua"/>
+	<Script file="Engineering_Cata.lua"/>
+	<Script file="Engineering_MoP.lua"/>
+	<Script file="Engineering_WoD.lua"/>
+	<Script file="Engineering_LEG.lua"/>
+	<Script file="Engineering_BfA.lua"/>
 	<Script file="Engineering_SL.lua"/>
 	<Script file="Inscription_SL.lua"/>
 	<Script file="Jewelcrafting_VAN.lua"/>

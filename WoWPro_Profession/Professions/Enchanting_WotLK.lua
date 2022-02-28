@@ -37,9 +37,9 @@ l [item=34054/Infinite Dust]|QID|333000004|L|34054 370|ITEM|34054|N|You'll need 
 l [item=34055/Greater Cosmic Essence]|QID|333000004|L|34055 75|ITEM|34055|N|You'll need at least 75 Greater Cosmic Essence, you have a choice between making two recipes.  You need an extra 30 Cosmic Essence OR 60 Infinite Dusts.|
 l [item=34052/Dream Shard]|QID|333000004|L|34052 12|ITEM|34052|N|You'll need at least 12 Dream Shards, to purchase some Recipes.|
 N Couple Recipes to Buy|QID|333000006|N|There are a couple recipes to go buy, that you'll need for later.|
-B [spell=44631/Enchant Cloak - Shadow Armor]|M|39.6,41.2|Z|The Underbelly@Dalaran!Crystalsong Forest|RECIPE|44631|N|Purchase [item=37349/Forumla: Enchant Cloak - Shadow Armor] from Vanessa Sellers, The Underbelly, Dalaran - Northrend.|
-B [spell=47672/Enchant Cloak - Mighty Stamina]|M|39.6,41.2|Z|The Underbelly@Dalaran!Crystalsong Forest|RECIPE|47672|N|Purchase [item=44471/Forumla: Enchant Cloak - Mighty Stamina] from Vanessa Sellers, The Underbelly, Dalaran - Northrend.|
-B [spell=47899/Enchant Cloak - Wisdom]|M|39.6,41.2|Z|The Underbelly@Dalaran!Crystalsong Forest|RECIPE|47899|N|Purchase [item=44488/Forumla: Enchant Cloak - Wisdom] from Vanessa Sellers, The Underbelly, Dalaran - Northrend.|
+B [spell=44631/Enchant Cloak - Shadow Armor]|M|38.39,41.07|Z|125;Dalaran!Crystalsong Forest|P|Enchanting;333;2+65|RECIPE|44631|N|Purchase [item=37349/Forumla: Enchant Cloak - Shadow Armor] from Vanessa Sellers, Simply Enchanting, Dalaran - Northrend.|
+B [spell=47672/Enchant Cloak - Mighty Stamina]|M|38.39,41.07|Z|125;Dalaran!Crystalsong Forest|P|Enchanting;333;2+55|RECIPE|47672|N|Purchase [item=44471/Forumla: Enchant Cloak - Mighty Stamina] from Vanessa Sellers, Simply Enchanting, Dalaran - Northrend.|
+B [spell=47899/Enchant Cloak - Wisdom]|M|38.39,41.07|Z|125;Dalaran!Crystalsong Forest|P|Enchanting;333;2+65|RECIPE|47899|N|Purchase [item=44488/Forumla: Enchant Cloak - Wisdom] from Vanessa Sellers, Simply Enchanting, Dalaran - Northrend.|
 
 B [item=38682/Enchanting Vellum]|QID|333038682|L|38682 81|ITEM|38682|N|You'll need at least 81 Enchanting Vellums.|
 
@@ -47,7 +47,7 @@ N Shopping List|QID|333000005|N|This completes the Shopping List, you may either
 
 ; end of shopping list, and pre craft.
 
-= Learn [spell=264462/Northrend Enchanting]|QID|333264462|M|39.6,41.2|Z|The Underbelly@Dalaran!Crystalsong Forest|SPELL|Northrend Enchanting;264462|LVL|5|N|Learn from Enchanter Nalthanis, The Underbelly, Dalaran - Northrend.|
+= Learn [spell=264462/Northrend Enchanting]|QID|333264462|M|39.06,39.81|Z|125;Dalaran!Crystalsong Forest|SPELL|Northrend Enchanting;264462|LVL|5|N|Learn from Enchanter Nalthanis, Dalaran - Northrend.|
 
 M [item=38960/Enchant Gloves - Gatherer]|QID|333044506|P|Enchanting;333;2+10;1|ITEM|38938|CRAFT|44506 14|MATS|34055 1;38682 1|
 = Learn Recipe|QID|333000101|P|Enchanting;333;2+10|RECIPE|60623|N|Learn [spell=60623/Enchant Boots - Icewalker] Recipe from Trainer.|

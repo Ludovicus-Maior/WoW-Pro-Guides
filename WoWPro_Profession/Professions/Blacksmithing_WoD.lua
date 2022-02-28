@@ -18,7 +18,7 @@ return [[
 ; 	 IE learn 2 at lvl 15 |164000151| and |164000152|  // |RECIPE|29547|N|Learn [spell=29547/Fel Iron Plate Belt] Recipe from Trainer.|
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Typed update to Legion splits on 27-Jan-2021 by Blanckaert - converted to new format. (This is NOT tested)
+;  Typed update to Warlords of Draenor splits on 27-Jan-2021 by Blanckaert - converted to new format. (This is NOT tested)
 
 N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
@@ -40,6 +40,7 @@ U [item=115356/Draenor Blacksmithing]|QID|164264445|SPELL|Draenor Blacksmithing;
 M [item=118720/Secret of Draenor Blacksmithing]|QID|164176090|P|Blacksmithing;164;5+2;1|ITEM|118720|CRAFT|118720|MATS|109119 5|
 B [spell=173355/Truesteel Reshaper]|QID|164173355|M|75.2,37.6|Z|Warspear|P|Blacksmithing;164;*;0;0|RECIPE|173355|T|Nonn Threeratchet|N|Use the [item=118720/Secret of Draenor Blacksmithing] to Purchase [item=118044/Recipe: Truesteel Reshaper]|FACTION|Horde|
 B [spell=173355/Truesteel Reshaper]|QID|164173355|M|48.8,48.2|Z|Stormshield|P|Blacksmithing;164;*;0;0|RECIPE|173355|T|Royce Bigbeard|N|Use the [item=118720/Secret of Draenor Blacksmithing] to Purchase [item=118044/Recipe: Truesteel Reshaper]|FACTION|Alliance|
+= Learn Recipe|QID|1645000011|RECIPE|173355|N|Use [item=118044/Recipe: Truesteel Reshaper] to Learn the Recipe.|
 M [item=116428/Truesteel Reshaper]|QID|164173355|P|Blacksmithing;164;5+100;1|ITEM|116428|CRAFT|173355 98|MATS|109119 30|
 
 N Congratulations|QID|164000010|N|That completes Blacksmithing - Draenor Plans.|
