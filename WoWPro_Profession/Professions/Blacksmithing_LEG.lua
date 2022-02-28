@@ -32,17 +32,18 @@ l [item=123918/Leystone Ore]|QID|164000004|L|123918 10|ITEM|123918|N|You'll need
 N Legion Profession Quests|QID|164000005|N|Before doing this guide it is recommened you do all the Legion Blacksmithing Quests.  They are all in the 'Legion Profession' Guide. Right Click this step to active the Jump step for that guide.  Once you are done with that guide, please manually switch back to this one.|
 N Legion Profession Quests|QID|164000006|JUMP|LEG_PROF|N|Before doing this guide it is recommened you do all the Legion Blacksmithing Quests.  They are all in the 'Legion Profession' Guide.|
 
-l [item=123919/Felslate]|QID|164123919|L|123919 120|ITEM|123919|N|You'll need about 120 Felslate.|
-l [item=123918/Leystone Ore]|QID|164123918|L|123918 60|ITEM|123918|N|You'll need about 60 Leystone Ores.|
-l [item=124124/Blood of Sargeras]|QID|164124124|L|124124 28|ITEM|124124|N|You'll need about 28 Blood of Sargeras.|
-l [item=124439/Unbroken Tooth]|QID|164124439|L|124439 20|ITEM|124439|N|You'll need about 20 Unbroken Tooth.|
+l [item=123919/Felslate]|QID|164000004|L|123919 120|ITEM|123919|N|You'll need about 120 Felslate.|
+l [item=123918/Leystone Ore]|QID|164000004|L|123918 60|ITEM|123918|N|You'll need about 60 Leystone Ores.|
+l [item=124124/Blood of Sargeras]|QID|164000004|L|124124 28|ITEM|124124|N|You'll need about 28 Blood of Sargeras.|
+l [item=124439/Unbroken Tooth]|QID|164000004|L|124439 20|ITEM|124439|N|You'll need about 20 Unbroken Tooth.|
 B [spell=182983/Demonsteel Waistguard] Rank 3|QID|164123949|M|65.8,80.6|Z|The Underbelly@Dalaran70|RECIPE|182983|N|Purchase [item=123949/Recipe: Demonsteel Waistguard] from Strap Bucklebolt, 500 Sightless Eyes.|
-N Shopping List|QID|164000007|N|This completes the Shopping List. You may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|164000004|N|This completes the Shopping List. You may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
 
 M [item=124461/Demonsteel Bar]|QID|164184442|PRE|38833|M|54.65,84.08|Z|Highmountain|P|Blacksmithing;164;6+60;1|ITEM|124461|CRAFT|184442 60|MATS|123919 2;123918 1|
 M [item=123916/Demonsteel Waistguard]|QID|164182945|M|54.65,84.08|Z|Highmountain|P|Blacksmithing;164;6+61;1|ITEM|123916|CRAFT|182945 1|MATS|124461 8;124439 20;124124 3|N|Just make one, and turn into Muirn Ironhorn for Rank 2 recipe.|
+U Learn Recipe|QID|164182983|U|123949|N|Learn the recipe from the item [item=123949/Recipe: Demonsteel Waistguard] Rank 3.|
 M [item=123916/Demonsteel Waistguard]|QID|164182983|M|54.65,84.08|Z|Highmountain|P|Blacksmithing;164;6+100;1|ITEM|123916|CRAFT|182983 14|MATS|124461 4;124124 2|N|Make sure you have Rank 3! You can purchase from Strap Bucklebolt for 500 Sightless Eyes, Dalaran Sewers.|
 
 N Congratulations|QID|164000010|N|That completes Blacksmithing - Legion Plans.|
