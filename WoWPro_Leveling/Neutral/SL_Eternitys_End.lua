@@ -182,12 +182,9 @@ A The Way Forward|QID|65305|PRE|64230|M|33.99,47.97|Z|1970|N|From Pelagos.|
 F Haven|ACTIVE|65305|M|35.64,44.36|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
 C The Way Forward|QID|65305|M|35.64,44.36|Z|1970|QO|1|NC|N|Take the Translocator to Haven (Optional).|
 T The Way Forward|QID|65305|M|35.02,64.75|Z|1970|N|To Highlord Bolvar Fordragon.|
-A Patterns Within Patterns|QID|65324|PRE|65305|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
-t Patterns Within Patterns|QID|65324|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 
 ;CH4
-N Wait for March 1st|N|Blizzard has time gated the rest of the guide. Ch4-6 will release on 3-1.|DATE|-1646154000|
-A News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Uther the Lightbringer.|DATE|1646154000|
+A News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Uther the Lightbringer.|
 C News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Uther.|
 T News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 A Enlisting the Enlightened|QID|64830|PRE|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
@@ -224,12 +221,9 @@ T In the Weeds|QID|64969|M|48.06,75.09|Z|1970;Zereth Mortis|N|To Elder Ara.|
 A Nip It in the Bud|QID|64836|PRE|64969|M|48.06,75.09|Z|1970;Zereth Mortis|N|From Elder Ara.|
 A Root of the Problem|QID|64839|PRE|64969|M|48.06,75.09|Z|1970;Zereth Mortis|N|From Feroz.|
 A Pluck from the Vines|QID|64835|PRE|64969|M|48.06,75.09|Z|1970;Zereth Mortis|N|From Feroz.|
-C Pluck from the Vines|QID|64835|M|50.73,81.22|Z|1970;Zereth Mortis|QO|2|NC|N|Missing Pilgrims rescued.|S|
-C Root of the Problem|QID|64839|M|51.32,80.04|Z|1970;Zereth Mortis|QO|2|NC|N|Energized Roots.|S|
-C Root of the Problem|QID|64839|M|49.63,77.05|Z|1970;Zereth Mortis|QO|1|NC|N|Open the Catalyst Wards door (Optional).|
-C Pluck from the Vines|QID|64835|M|49.63,77.05|Z|1970;Zereth Mortis|QO|1|NC|N|Open the Catalyst Wards door (Optional).|
-C Nip It in the Bud|QID|64836|M|49.63,77.05|Z|1970;Zereth Mortis|QO|1|NC|N|Open the Catalyst Wards door (Optional).|
-C Nip It in the Bud|QID|64836|M|52.66,82.24|Z|1970;Zereth Mortis|QO|2|N|The Cultivator slain.|
+C Pluck from the Vines|QID|64835|M|50.73,81.22|Z|1970;Zereth Mortis|NC|N|Missing Pilgrims rescued.|S|
+C Root of the Problem|QID|64839|M|51.32,80.04|Z|1970;Zereth Mortis|N|Energized Roots.|S|
+C Nip It in the Bud|QID|64836|M|52.66,82.24|Z|1970;Zereth Mortis|N|The Cultivator slain.|
 C Pluck from the Vines|QID|64835|M|50.73,81.22|Z|1970;Zereth Mortis|QO|2|NC|N|Missing Pilgrims rescued.|US|
 C Root of the Problem|QID|64839|M|51.32,80.04|Z|1970;Zereth Mortis|QO|2|NC|N|Energized Roots.|US|
 T Root of the Problem|QID|64839|M|47.60,79.85|Z|1970;Zereth Mortis|N|To Feroz.|
@@ -252,7 +246,7 @@ C Flora Frenzy|QID|64842|M|47.64,79.78|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to
 C Flora Frenzy|QID|64842|M|47.39,93.41|Z|1970;Zereth Mortis|QO|2|NC|N|Use the extra action button to help you kill the required monsters. It will switch between three states. Use it on cool down.|EAB|
 T Flora Frenzy|QID|64842|M|47.62,79.94|Z|1970;Zereth Mortis|N|To Feroz.|
 A Key Crafting|QID|64843|PRE|64842|M|47.56,80.23|Z|1970;Zereth Mortis|N|From General Draven.|
-C Key Crafting|QID|64843|M|47.44,87.10|Z|1970;Zereth Mortis|QO|1|NC|N|Reach the Creation Catalyst.|
+C Key Crafting|QID|64843|M|47.44,87.10|Z|1970;Zereth Mortis|QO|1|NC|N|Take a ride on General Draven.|
 C Key Crafting|QID|64843|M|47.45,88.55|Z|1970;Zereth Mortis|QO|2|NC|N|Creation Catalyst console activated.|
 C Key Crafting|QID|64843|M|47.31,89.06|Z|1970;Zereth Mortis|QO|3|NC|N|Key of Afterlives restored.|
 C Key Crafting|QID|64843|M|47.40,88.61|Z|1970;Zereth Mortis|QO|4|NC|N|Keystones retrieved.|
@@ -261,10 +255,11 @@ A The Pilgrimage Ends|QID|64844|PRE|64843|M|47.37,88.57|Z|1970;Zereth Mortis|N|F
 C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|1|NC|N|Return to the overlook.|
 C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|2|CHAT|N|Talk to Highlord Bolvar Fordragon and listen to the plan.|
 T The Pilgrimage Ends|QID|64844|M|64.65,53.29|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+F Haven|AVAILABLE|64799|M|61.54,50.41|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
 
 ;CH5
-F Haven|AVAILABLE|64799|M|61.54,50.41|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|DATE|1646154000|
-A The Broken Crown|QID|64799|PRE|64844|M|35.05,64.81|Z|1970|N|From Highlord Bolvar Fordragon.|
+N Wait for March 8th|N|Blizzard has time gated the rest of the guide. Ch5 will release on 3-8.|DATE|-1646751600|
+A The Broken Crown|QID|64799|PRE|64844|M|35.05,64.81|Z|1970|N|From Highlord Bolvar Fordragon.|DATE|1646751600|
 C The Broken Crown|QID|64799|M|33.30,69.04|Z|1970|QO|1|CHAT|N|Hear Anduin's Tale.|
 T The Broken Crown|QID|64799|M|33.23,68.92|Z|1970|N|To Highlord Bolvar Fordragon.|
 A Our Last Option|QID|64800|PRE|64799|M|33.23,68.92|Z|1970|N|From Highlord Bolvar Fordragon.|
@@ -339,7 +334,8 @@ C The Crown of Wills|QID|64813|M|50.45,63.75|Z|1912|QO|3|NC|N|Use the Crown of W
 T The Crown of Wills|QID|64813|M|50.04,68.41|Z|1912|N|To Highlord Bolvar Fordragon.|
 
 ;CH 6
-A Reality's Doorstep|QID|64816|PRE|64813|M|50.04,68.41|Z|1912|N|From Highlord Bolvar Fordragon.|DATE|1646154000|
+N Wait for March 15th|N|Blizzard has time gated the rest of the guide. Ch6 will release on 3-15.|DATE|-1647352800|
+A Reality's Doorstep|QID|64816|PRE|64813|M|50.04,68.41|Z|1912|N|From Highlord Bolvar Fordragon.|DATE|1647352800|
 P Ve'nari's Refuge|ACTIVE|64816|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
 P Oribos|ACTIVE|64816|M|42.38,42.17|Z|The Maw|NC|N|Click the portal to go to Oribos|
 P Ring of Transference|ACTIVE|64816|M|46.98,50.35|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
@@ -413,7 +409,7 @@ C Arbiter in the Making|QID|65328|M|35.01,64.71|Z|1970|QO|1|NC|N|Bolvar advised.
 T Arbiter in the Making|QID|65328|M|35.01,64.71|Z|1970|N|To Highlord Bolvar Fordragon.|
 
 ;CH7
-A A Monumental Discovery|QID|64879|PRE|65328|M|35.01,64.71|Z|1970|N|From Highlord Bolvar Fordragon.|DATE|1646758800|
+A A Monumental Discovery|QID|64879|PRE|65328|M|35.01,64.71|Z|1970|N|From Highlord Bolvar Fordragon.|
 F Faith's Repose|ACTIVE|64879|M|35.59,64.99|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Faith's Repose.|
 T A Monumental Discovery|QID|64879|M|34.20,48.61|Z|1970|N|To Firim.|
 A Restoration Project|QID|64723|PRE|64879|M|34.20,48.61|Z|1970|N|From Firim.|
@@ -566,25 +562,25 @@ T The Burrowed Bufonid|QID|65727|M|34.35,65.83|Z|1970;Zereth Mortis|N|From Avna.
 A The Wellspring of the First Ones|QID|65463|PRE|64837|M|61.47,49.27|Z|1970;Zereth Mortis|N|From Drim.|
 C The Wellspring of the First Ones|QID|65463|M|61.91,52.92|Z|1970;Zereth Mortis|QO|1|NC|N|Visit the Wellspring.|
 T The Wellspring of the First Ones|QID|65463|M|61.82,53.56|Z|1970;Zereth Mortis|N|To Olem.|
-A Lost Grace|QID|65349|M|61.82,53.56|Z|1970;Zereth Mortis|N|From Olem.|DATE|1646154000|
+A Lost Grace|QID|65349|M|61.82,53.56|Z|1970;Zereth Mortis|N|From Olem.|
 C Lost Grace|QID|65349|M|55.27,49.99|Z|1970;Zereth Mortis|QO|1|NC|N|Investigate Provis Esper.|
 T Lost Grace|QID|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|To Ruined Locrian Technician.|
 A Restore the Flow|QID|65350|PRE|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|From Assistant Conservator Nadir.|
 A An Automa-free Diet|QID|65353|PRE|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|From Assistant Conservator Nadir.|
-A Restore the Flow|QID|65350|PRE|65349|M|55.10,50.19|Z|1970;Zereth Mortis|N|From Assistant Conservator Nadir.|
 C An Automa-free Diet|QID|65353|M|54.83,53.41|Z|1970;Zereth Mortis|QO|1|N|Breachers and Gorgers Slain.|S|
 C Restore the Flow|QID|65350|M|55.08,50.30|Z|1970;Zereth Mortis|QO|1|NC|N|Locrian Keystone.|
 C Restore the Flow|QID|65350|M|20.12,34.90|Z|2028;ZerethMicro_B|QO|2|NC|N|Locrian Esper entered.|
 C Restore the Flow|QID|65350|M|47.87,66.82|Z|2028;Zereth Mortis|QO|3|NC|N|Locrian Swale aligned.|
-C Restore the Flow|QID|65350|M|73.36,34.94|Z|2028;Zereth Mortis|QO|4|NC|N|Valves tuned.|
-C Restore the Flow|QID|65350|M|73.42,68.80|Z|2028;Zereth Mortis|QO|5|NC|N|Percolation Array aligned.|
+C Restore the Flow|QID|65350|M|44.14,68.88|Z|2028;Zereth Mortis|QO|4<1|NC|N|Valves tuned.|
+C Restore the Flow|QID|65350|M|48.64,75.04|Z|2028;Zereth Mortis|QO|4<2|NC|N|Valves tuned.|
+C Restore the Flow|QID|65350|M|51.17,68.72|Z|2028;Zereth Mortis|QO|5|NC|N|Percolation Array aligned.|
 C Restore the Flow|QID|65350|M|71.73,64.27|Z|2028;Zereth Mortis|QO|6|N|Defeat Xelieth the Souldrinker.|
-T Restore the Flow|QID|65350|M|73.53,68.83|Z|2028;Zereth Mortis|
+C An Automa-free Diet|QID|65353|M|54.83,53.41|Z|1970;Zereth Mortis|QO|1|N|Breachers and Gorgers Slain.|US|
+T Restore the Flow|QID|65350|M|52.02,68.74|Z|2028;Zereth Mortis|N|Turn in to the Percolation Array|
 A A Return to Grace|QID|65448|PRE|65350|M|73.53,68.83|Z|2028;Zereth Mortis|
 C A Return to Grace|QID|65448|M|61.96,53.54|Z|1970;Zereth Mortis|QO|1|CHAT|N|Report back to Conservator Olem.|
 C A Return to Grace|QID|65448|M|61.51,53.68|Z|1970;Zereth Mortis|QO|2|NC|N|Step into the Center of the Wellspring.|
 T A Return to Grace|QID|65448|M|61.81,53.57|Z|1970;Zereth Mortis|N|To Olem.|
-C An Automa-free Diet|QID|65353|M|54.83,53.41|Z|1970;Zereth Mortis|QO|1|N|Breachers and Gorgers Slain.|US|
 T An Automa-free Diet|QID|65353|M|61.87,53.33|Z|1970;Zereth Mortis|N|To Nadir.|
 ]]
 end)
