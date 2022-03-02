@@ -2,11 +2,11 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancENG_LEG", "Profession", "Engineering_LEG", "WoWPro Team", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancENG_Bfa", "Profession", "Engineering_LEG", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",202)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Engineering_Legion")
-WoWPro:GuideNickname(guide, "ENG_LEG")
+WoWPro:GuideName(guide, "Engineering_Bfa")
+WoWPro:GuideNickname(guide, "ENG_BFA")
 
 WoWPro:GuideSteps(guide, function()
 return [[
