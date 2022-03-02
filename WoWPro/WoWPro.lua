@@ -1296,7 +1296,7 @@ local function TestGuideLoad(guidID)
         WoWPro:Error("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
     end
     if not WoWPro.Guides[guidID].icon and WoWPro.DebugLevel > 0 then
-        WoWPro:Warning("Guide %s has no icon.",guidID)
+        WoWPro:dbp("Guide %s has no icon.",guidID)
     end
     if WoWPro.Guides[guidID].faction then
         if WoWPro.Guides[guidID].faction == "Alliance" then WoWPro.LoadAll.aCount = WoWPro.LoadAll.aCount + 1 end
