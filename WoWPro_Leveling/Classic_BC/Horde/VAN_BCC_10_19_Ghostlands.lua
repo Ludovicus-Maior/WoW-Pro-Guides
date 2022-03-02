@@ -12,13 +12,14 @@ R The Shepherd's Gate|AVAILABLE|9144|M|56.66,49.54|Z|Eversong Woods|N|Make your 
 f Silvermoon City|AVAILABLE|9144|M|54.37,50.73|Z|Eversong Woods|
 R Fairbreeze Village|AVAILABLE|9144|M|44.06,70.73|Z|Eversong Woods|N|Follow the road to the west and then continue south at the bend.\n[color=FF0000]NOTE: [/color]There will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|
 ; Repeating quests from BloodElf Intro for those that didn't come from that guide.
-A Missing in the Ghostlands|QID|9144|M|44.06,70.73|Z|Eversong Woods|N|From Magistrix Landra Dawnstrider.|LEAD|9329|
+A Missing in the Ghostlands|QID|9144|M|44.06,70.77|Z|Eversong Woods|N|From Magistrix Landra Dawnstrider.|LEAD|9329|
 A Ranger Sareyn|QID|9358|M|43.67,71.31|Z|Eversong Woods|N|From Marniel Amberlight, the Innkeeper.|LEAD|9252|
 T Ranger Sareyn|QID|9358|M|46.93,71.79|Z|Eversong Woods|N|To Ranger Sareyn.|
 A Defending Fairbreeze Village|QID|9252|M|46.93,71.79|Z|Eversong Woods|N|From Ranger Sareyn.|
 K Defending Fairbreeze Village|ACTIVE|9252|M|51.12,77.09|Z|Eversong Woods|QO|1;2|N|Kill Rotlimb Marauders and Darkwraiths in the Dead Scar.\n[color=FF0000]NOTE: [/color]Watch out for adds as much as possible.|
 T Defending Fairbreeze Village|QID|9252|M|46.93,71.79|Z|Eversong Woods|N|To Ranger Sareyn.|
 A Runewarden Deryan|QID|9253|M|46.92,71.81|Z|Eversong Woods|N|From Ranger Sareyn.|LEAD|8490|PRE|9252|
+R Runestone Falithas|ACTIVE|9253|M|48.3,83.0;45.57,85.53|CC|Z|Eversong Woods|N|Follow the road south until it crosses the Dead Scar. Continue west on the other road.|
 T Runewarden Deryan|QID|9253|M|44.20,85.46|Z|Eversong Woods|N|To Runewarden Deryan beside the Runestone in Runestone Falithas.|
 A Powering our Defenses|QID|8490|M|44.20,85.46|Z|Eversong Woods|N|From Runewarden Deryan.|
 C Powering our Defenses|QID|8490|M|55.28,84.34|Z|Eversong Woods|N|Head to Runestone Shan'dor and use the Infused Crystal. Defend the crystal against two waves of 3 Enraged Wraiths.|U|22693|
@@ -32,8 +33,8 @@ T The Fallen Courier|QID|9147|M|49.01,89.04|Z|Eversong Woods|N|To Apothecary The
 A Delivery to Tranquillien|QID|9148|M|48.97,88.99|Z|Eversong Woods|N|From Courier Dawnstrider.|PRE|9147|
 T Delivery to Tranquillien|QID|9148|M|46.30,28.39|N|To Vandril in Tranquillien. He pathes back and forth across the road.\n[color=FF0000]NOTE: [/color]Follow the road south to Tranquillien.|
 A The Forsaken|QID|9327^9329|M|46.30,28.39|N|From Vandril.|
-f Ghostlands|ACTIVE|9327^9329|M|45.47,30.54|N|Get the flight path for Ghostlands.|
-T The Forsaken|QID|9327^9329|M|44.77,32.45|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|R|BloodElf|
+f Ghostlands|ACTIVE|9327^9329|M|45.42,30.52|N|Get the flight path for Ghostlands.|TAXI|-Ghostlands|
+T The Forsaken|QID|9327^9329|M|44.77,32.45|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
 A Return to Arcanist Vandril|QID|9758|M|44.84,32.43|N|From High Executor Mavren.|PRE|9327^9329|
 A Goods from Silvermoon City|QID|9130|M|47.33,29.22|N|From Quartermaster Lymel.|PRE|9329|R|BloodElf|
 T Goods from Silvermoon City|QID|9130|M|45.43,30.53|N|To Skymaster Sunwing.|R|BloodElf|
@@ -64,15 +65,15 @@ r Housekeeping|AVAILABLE|9315|M|49.14,30.27|N|Take this opportunity to repair an
 T Return to Quartermaster Lymel|QID|9135|M|47.33,29.22|N|To Quartermaster Lymel.|
 T Return to Arcanist Vandril|QID|9758|M|46.30,28.39|N|To Arcanist Vandril.|
 A Suncrown Village|QID|9138|M|46.30,28.39|N|From Arcanist Vandril.|PRE|9758|
-K Suncrown Village|ACTIVE|9138|M|60.11,12.99|QO|1|N|Kill Nerubis Guards.|S|
+K Nerubis Guard|ACTIVE|9138|M|60.11,12.99|QO|1|N|Kill the Nerubis Guards around Suncrown Village.|S|
 A Anok'suten|QID|9315|M|57.53,14.94|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the Dying Blood Elf on the road into Suncrown Village.|PRE|9327^9329|
-K Anok'suten|ACTIVE|9315|M|59.87,10.19|QO|1|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nAnok'suten is a Level 11 elite with 624 HP.\n[color=FF0000]NOTE: [/color]He spawns here and wanders counter-clockwise around the circle path. If he's not on the path, check the buildings.|T|Anok'suten|
+K Anok'suten|ACTIVE|9315|M|59.87,10.19|QO|1|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nAnok'suten spawns here and wanders counter-clockwise around the circle path in and out of the buildings along the way.\n[color=FF0000]NOTE: [/color]Anok'suten is a Level 11 elite with 624 HP. Clear any mobs in the area before you engage; when close to dying, it will call out for assistance from anyone nearby.|T|Anok'suten|
 C The First Trial|QID|9678|M|68.43,7.51|N|Head to Isle of Tribulations, the large island east of Suncrown Village, and click on the Gilded Brazier inside the cave. Sangrias Stillblade will run into the cave and attack. Kill him to complete the quest.|R|BloodElf|C|Paladin|
-K Suncrown Village|ACTIVE|9138|M|60.11,12.99|QO|1|N|Kill Nerubis Guards.|US|
+K Nerubis Guard|ACTIVE|9138|M|60.11,12.99|QO|1|N|Finish killing the Nerubis Guards.|US|
 H Tranquillien|ACTIVE|9138|M|46.32,27.53|N|Run back to Tranquillien if you wish to save your Hearth.|
 T Suncrown Village|QID|9138|M|46.24,28.35|N|To Arcanist Vandril.|
 T Anok'suten|QID|9315|M|46.24,28.35|N|To Arcanist Vandril.|
-A Help Ranger Valanna!|QID|9145|M|45.48,32.45|N|From Ranger Lethvalin.|LEAD|9143|
+A Help Ranger Valanna!|QID|9145|M|45.48,32.45|N|From Ranger Lethvalin.|LEAD|9143|REP|Tranquillien;922;friendly-exalted|
 F Silvermoon City|ACTIVE|9678|M|45.43,30.53|N|Ask Skymaster Sunwing to fly you to Silvermoon City.|R|BloodElf|C|Paladin|
 T The First Trial|QID|9678|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
 A A Study in Power |QID|64319|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|PRE|9678|R|BloodElf|C|Paladin|
