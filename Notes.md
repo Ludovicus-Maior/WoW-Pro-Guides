@@ -1,3 +1,24 @@
+# Release 9.2.0-A2 / 1.14.2-A2 / 2.5.3-A3
+## Bug Fixes
+* No serious bugs to fix!
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Nagrand, Terokkar
+* Horde: No soup for you!
+* Neutral: **Eternity's End**
+### Retail Professions
+* Blacksmithing: BFA, Legion, WoD
+* Enchanting: WotLK
+* Engineering: BFA, Cata, Legion, MoP, WoD, WotLK
+
+### Classic Leveling
+* No soup for you!
+
+### Burning Crusade Classic Leveling
+* Alliance: No soup for you!
+* Horde: Forsaken Intro, Ghostlands, Felwood
+
 # Release 9.2.0-A1 / 1.14.2-A1 / 2.5.3-A2
 ## Bug Fixes
 * Update to ACE3 Release-r1259 library
