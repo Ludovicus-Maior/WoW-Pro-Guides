@@ -3,7 +3,7 @@
 ## Notes: Professions guides guides created by the WoW-Pro Community
 ## Author: Twists
 ## Dependencies: WoWPro
-## Version: 9.2.0-A1
+## Version: 9.2.0-A2
 ## DefaultState: disabled
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
