@@ -47,7 +47,7 @@ M [item=153490/FRIED]|QID|202255392|P|Engineering;202;7+30;1|ITEM|153490|CRAFT|2
 = Learn Recipe|QID|202700301|P|Engineering;202;7+30|RECIPE|256154|N|Learn [spell=256154/Deployable Attire Rearranger] Rank 1, Recipe from Trainer.|
 M [item=153597/Deployable Attire Rearranger]|QID|202256154|P|Engineering;202;7+35;1|ITEM|153597|CRAFT|256154 5|MATS|152512 10;152579 6;163569 10|
 = Learn Recipe|QID|202700351|P|Engineering;202;7+35|RECIPE|255393|N|Learn [spell=255393/FRIED] Rank 2, Recipe from Trainer. And/or the other Bomb Recipes.|
-M [item=153490/FRIED]|QID|202255393|P|Engineering;202;7+60;1|ITEM|153490|CRAFT|255393 30|MATS|152512 5;160502 3;163569 4|N|Or you can mix with the other Rank 2 - Bomb recipes.|N|[color=FF0000]NOTE: [/color] Alternate is Organic Discombobulation Grenage Rank 2 or Rank 3, and make through Level 85.|
+M [item=153490/FRIED]|QID|202255393|P|Engineering;202;7+60;1|ITEM|153490|CRAFT|255393 30|MATS|152512 5;160502 3;163569 4|N|Or you can mix with the other Rank 2 - Bomb recipes.\n|[color=FF0000]NOTE: [/color] Alternate is Organic Discombobulation Grenage Rank 2 or Rank 3, and make through Level 85.|
 = Learn Recipe|QID|202700501|P|Engineering;202;7+50|RECIPE|280733|N|Learn [spell=280733/Magical Intrusion Dampener] Rank 2, Recipe from Trainer.|
 = Learn Recipe|QID|202700851|P|Engineering;202;7+85|RECIPE|280734|N|Learn [spell=280734/Magical Intrusion Dampener] Rank 3, Recipe from Trainer.|
 M [item=158380/Magical Intrusion Dampener]|P|Engineering;202;7+110;1|ITEM|158380|CRAFT|280734 15|MATS|152512 8;152579 4;163569 6|N| Make SURE you are using Rank 3! of this recipe.|
