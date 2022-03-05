@@ -24,7 +24,7 @@ A What Argus Means to Me|QID|9693|M|52.67,53.21|N|From Exarch Admetius.|
 T What Argus Means to Me|QID|9693|M|55.39,55.27|N|To Vindicator Boros.|
 A Blood Watch|QID|9694|PRE|9693|M|55.39,55.27|N|From Vindicator Boros.|
 f Blood Watch|QID|9634|M|57.69,53.92|N|Get the flight path for Blood Watch.|
-A Mac'Aree Mushroom Menagerie|QID|9648|M|56.4,56.8|N|From Jessera of Mac'Aree.|
+A Mac'Aree Mushroom Menagerie|QID|9648|M|56.4,56.8|N|From Maatparm.|
 A WANTED: Deathclaw|QID|9646|M|55.2,59.1|N|From the Wanted Board outside the Inn.|
 h Blood Watch|QID|9624|M|55.84,59.80|N|Set hearthstone to Blood Watch with Caregiver Topher Loaal.|
 A Beds, Bandages, and Beyond|QID|9603|M|55.84,59.80|N|From Caregive Topher Loaal.|R|Draenei|
@@ -69,7 +69,7 @@ T Learning from the Crystals|QID|9581|M|52.60,53.22|N|To Harbringer Mikolaas.|
 A The Missing Survey Team|QID|9620|PRE|9581|M|52.60,53.22|N|From Harbringer Mikolaas.|
 T Report to Exarch Admetius|QID|9668|M|52.68,53.22|N|To Exarch Admetius.|
 T Saving Princess Stillpine|QID|9667|M|55.15,55.99|N|To Stillpine Ambassador Frasaboo.|
-T Mac'Aree Mushroom Menagerie|QID|9648|M|56.42,56.83|N|To Jessera of Mac'Aree.|
+T Mac'Aree Mushroom Menagerie|QID|9648|M|56.42,56.83|N|To Maatparm.|
 T The Missing Survey Team|QID|9620|M|61.23,48.38|N|To the corpse of the Draenei Cartographer.|
 A Salvaging the Data|QID|9628|PRE|9620|M|61.23,48.38|N|From the corpse of the Draenei Cartographer.|
 C Salvaging the Data|QID|9628|M|61.23,48.38|N|Kill Nagas until the Survey Data Crystal Drops.|
@@ -213,7 +213,7 @@ A Urgent Delivery|QID|9671|PRE|9506|N|From Messenger Hermesius, who walks all ov
 ;At the time of this run through, the quest is bugged on BCC. The mail doesnt have a quest item in it.
 N Check your mailbox|QID|9561|L|24132|M|55.18,59.19|N|Urgent Delivery results in a mail sent to your mailbox. Close this when mail obtained.|
 A The Bloodcurse Legacy|QID|9672^9751|PRE|9671|U|24132|N|From A Letter from the Admiral.|
-A Ysera's Tears|QID|9649|PRE|9648|M|56.4,56.8|N|From Jessera of Mac'Aree.|
+A Ysera's Tears|QID|9649|PRE|9648|M|56.4,56.8|N|From Maatparm.|
 T Nolkai's Words|QID|9561|M|61.11,49.62|N|It's a pile of dirt.|
 A Restoring Sanctity|QID|9687|M|74.46,33.66|N|From Prince Toreth. He pats around the area.|
 T The Bloodcurse Legacy|QID|9672^9751|M|79.14,22.66|N|To Captain Edward Hanes.|
@@ -238,7 +238,7 @@ T Razormaw|QID|9689|M|73.7,33.7|N|To Prince Toreth.|
 C Ending the Bloodcurse|QID|9683|M|85,54|N|Clear the top of the hill, then click the statue, and kill Atoph the Bloodcursed|
 T Ending the Bloodcurse|QID|9683|M|79.14,22.66|N|To Captain Edward Hanes.|
 H Blood Watch|QID|9649|M|55.04,59.33|N|Hearth or run back to Blood Watch.|U|6948|
-T Ysera's Tears|QID|9649|M|56.4,56.8|N|To Jessera of Mac'Aree.|
+T Ysera's Tears|QID|9649|M|56.4,56.8|N|To Maatparm.|
 r Repair/Restock |QID|9740|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 N Non-Draenei races|QID|9740|N|Non-Draenei have only one more available quest on bloodmyst. Decide if you are interested, if not, just follow the next guide.|R|-Draenei|
 ;F The Exodar|QID|9740|M|57.68,53.89|N|Fly to The Exodar to train your riding skill. Skip this step if you already have it.|R|Draenei|

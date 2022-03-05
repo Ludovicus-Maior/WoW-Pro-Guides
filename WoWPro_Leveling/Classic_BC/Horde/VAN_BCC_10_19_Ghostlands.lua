@@ -92,7 +92,7 @@ A Forgotten Rituals|QID|9157|M|72.30,19.10|N|From Geranis Whitemorn on the small
 C Forgotten Rituals|QID|9157|M|70.04,20.69|L|22674 8|N|Dive into the lake, locate and loot the Glistening Mud. They are all around the island.|
 T Forgotten Rituals|QID|9157|M|72.30,19.10|N|To Geranis Whitemorn.|
 A Vanquishing Aquantion|QID|9174|M|72.30,19.10|N|From Geranis Whitemorn.|PRE|9157|
-C Vanquishing Aquantion|QID|9174|M|71.34,14.87|N|Swim towards the Altar of Tidal Mastery and click on it to summon Aquantion. Kill him once he spawns.|
+K Aquantion|ACTIVE|9174|M|71.34,14.87|QO|1|N|Swim towards the Altar of Tidal Mastery and click on it to summon Aquantion. Kill him once he spawns.|
 T Vanquishing Aquantion|QID|9174|M|72.30,19.10|N|To Geranis Whitemorn.|
 C Dealing with Zeb'Sora|QID|9143|M|76.02,12.85|L|22639 6|N|Kill any troll you see in Zeb'Sora to get their ears.|
 R Farstrider Enclave|AVAILABLE|9158^9215^9274|M|73.83,32.11|N|Follow the shoreline south to the big building.|
@@ -104,6 +104,7 @@ K Spirits of the Drowned|ACTIVE|9274|M|71.04,24.00|QO|1;2|N|Kill any ghost you s
 T Dealing with Zeb'Sora|QID|9143|M|69.39,15.19|N|Return to Ranger Valanna.|
 A Report to Captain Helios|QID|9146|M|69.39,15.19|N|From Ranger Valanna.|PRE|9143|
 K Spirits of the Drowned|ACTIVE|9274|M|71.04,24.00|QO|1;2|N|Kill any ghost you see floating around in the lake.|US|
+L Level 14|AVAILABLE|9171|M|71.76,16.92|N|Grind out until you're within 2 bubbles of level 14.|LVL|13;-1140|
 T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an in Farstrider Enclave.|
 T Report to Captain Helios|QID|9146|M|72.37,29.65|N|To Captain Helios.|
 H Tranquillien|AVAILABLE|9171|
@@ -111,9 +112,9 @@ A Culinary Crunch|QID|9171|M|48.43,30.93|N|From Master Chef Mouldier.|
 r Repair/Restock|AVAILABLE|9152|M|49.08,30.31|N|At Blacksmith Frances.|
 A Tomber's Supplies|QID|9152|M|47.01,28.38|N|From Rathis Tomber.|PRE|9327^9329|
 A Goldenmist Village|QID|9139|M|46.24,28.35|N|From Arcanist Vandril.|PRE|9138|REP|Tranquillien;922;friendly-exalted|
-F Silvermoon City|AVAILABLE|9150|M|45.43,30.53|LVL|14|
-= Level 14 Training|AVAILABLE|9150|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|14|
-F Tranquillien|AVAILABLE|9150|M|54.37,50.73|Z|Eversong Woods|LVL|14|
+F Silvermoon City|AVAILABLE|9150|M|45.43,30.53|
+= Level 14 Training|AVAILABLE|9150|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Tranquillien|AVAILABLE|9150|M|54.37,50.73|Z|Eversong Woods|
 A Salvaging the Past|QID|9150|M|46.01,31.95|N|From Magister Darenis.|REP|Tranquillien;922;friendly-exalted|
 A Investigate An'daroth|QID|9160|M|44.88,32.51|N|From Dame Auriferous.|REP|Tranquillien;922;friendly-exalted|
 A Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|From Deathstalker Maltendis.|REP|Tranquillien;922;friendly-exalted|
