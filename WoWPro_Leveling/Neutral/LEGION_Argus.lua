@@ -265,16 +265,16 @@ T Lord of the Spire|QID|47993|M|39.01,24.77|Z|Upper Deck@ArgusSurface|N|To High 
 A Forming a Bond|QID|47994|PRE|47993|M|43.43,23.21|Z|Upper Deck@ArgusSurface|N|From Grand Artificer Romuul.|
 T Forming a Bond|QID|47994|M|43.43,23.21|Z|Upper Deck@ArgusSurface|N|To Grand Artificer Romuul.|
 A A Floating Ruin|QID|48081|PRE|47993|M|40.25,23.49|Z|Upper Deck@ArgusSurface|N|From Prophet Velen.|
-F Vindicaar, Mac'Aree|QID|48081|M|42.46,22.88|Z|Upper Deck@ArgusSurface|QO|1|N|Use the Navigation Console to go to Mac'Aree.|
+F Vindicaar, Eredath|QID|48081|M|42.46,22.88|Z|Upper Deck@ArgusSurface|QO|1|N|Use the Navigation Console to go to Eredath.|
 T A Floating Ruin|QID|48081|M|46.91,23.02|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
-A Mac'Aree, Jewel of Argus|QID|46815|PRE|48081|M|46.91,23.02|Z|883;Upper Deck@ArgusEredath|N|From Prophet Velen.|
+A Eredath, Jewel of Argus|QID|46815|PRE|48081|M|46.91,23.02|Z|883;Upper Deck@ArgusEredath|N|From Prophet Velen.|
 A The Ruins of Oronaar|QID|48445|PRE|47654|M|45.54,24.54|Z|883;Upper Deck@ArgusEredath|N|From Alleria Windrunner.|
 C Scouting Map|QID|48445|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the "Inches from Madness". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
 t The Ruins of Oronaar|QID|48445|M|45.54,24.54|Z|883;Upper Deck@ArgusEredath|N|From Alleria Windrunner.|
-C Mac'Aree, Jewel of Argus|QID|46815|M|49.63,23.70|Z|883;Upper Deck@ArgusEredath|QO|1|CHAT|N|Tell Romuul you are ready.|
-C Mac'Aree, Jewel of Argus|QID|46815|M|55.32,82.17|Z|882;Eredath|QO|2|CHAT|N|Ask Velen to continue. Cutscene shows him remembering when he was here last.|
-C Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.87|Z|882;Eredath|QO|3|NC|N|Walk with Velen while he reminisces.|
-T Mac'Aree, Jewel of Argus|QID|46815|M|54.50,77.92|Z|882;Eredath|N|To Prophet Velen.|
+C Eredath, Jewel of Argus|QID|46815|M|49.63,23.70|Z|883;Upper Deck@ArgusEredath|QO|1|CHAT|N|Tell Romuul you are ready.|
+C Eredath, Jewel of Argus|QID|46815|M|55.32,82.17|Z|882;Eredath|QO|2|CHAT|N|Ask Velen to continue. Cutscene shows him remembering when he was here last.|
+C Eredath, Jewel of Argus|QID|46815|M|54.50,77.87|Z|882;Eredath|QO|3|NC|N|Walk with Velen while he reminisces.|
+T Eredath, Jewel of Argus|QID|46815|M|54.50,77.92|Z|882;Eredath|N|To Prophet Velen.|
 A Defenseless and Afraid|QID|46818|PRE|46815|M|54.50,77.92|Z|882;Eredath|N|From Prophet Velen.|
 A Khazaduum, First of His Name|QID|46834|PRE|46815|M|54.50,77.92|Z|882;Eredath|N|From Prophet Velen.|
 C Defenseless and Afraid|QID|46818|M|54.22,73.45|Z|882;Eredath|QO|1|U|152408|N|Kill ghosts to collect Pylon Cores, you need a new pylon core to activate each Ancient Pylons.|
@@ -321,13 +321,13 @@ K Archimonde|ACTIVE|47690|M|68.92,33.08|Z|882;Eredath|QO|1|N|Kill Archimonde.|T|
 C The Defiler's Legacy|QID|47690|M|68.18,33.53|Z|882;Eredath|QO|2|NC|N|Loot the Sigil of Awakening.|
 T The Defiler's Legacy|QID|47690|M|63.28,39.72|Z|882;Eredath|N|To Archmage Y'mera.|
 A The Sigil of Awakening|QID|48107|PRE|47690|M|63.28,39.72|Z|882;Eredath|N|From Archmage Y'mera.|
-F Vindicaar, Mac'Aree|QID|48107|M|62.99,39.48|Z|882;Eredath|QO|1|NC|N|Use the portal to return to the Vindicaar.|
+F Vindicaar, Eredath|QID|48107|M|62.99,39.48|Z|882;Eredath|QO|1|NC|N|Use the portal to return to the Vindicaar.|
 C The Sigil of Awakening|QID|48107|M|54.26,55.63|Z|883;Upper Deck@ArgusEredath|QO|2|NC|N|Place the Sigil of Awakening on the matching alcove in front of Velen (upper level).|
 T The Sigil of Awakening|QID|48107|M|53.29,50.00|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
 ;Opening up invasion points
 A Where They Least Expect It|QID|48461|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage.|PRE|48107|
 C Invasion Point|QID|48461|M|49.16,23.09|Z|883;Upper Deck@ArgusEredath|NC|N|Open the Navigation Console and find an invasion point.  \nI recommend either the one closest to a lightforged beacon or the one with the least time remaining, (especially if there is one under half an hour). \nRun to the invasion point and thru the demonic portal and follow the instructions on your scenario tracker.|
-H The Vindicaar, Mac'Aree|QID|48461|N|After it is finished return to Illidan for the follow up. If you set your hearthstone to the Vindicaar that is a easy way back.|
+H The Vindicaar, Eredath|QID|48461|N|After it is finished return to Illidan for the follow up. If you set your hearthstone to the Vindicaar that is a easy way back.|
 t Where They Least Expect It|QID|48461|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage.|
 A Invasion Point Offensive|QID|48513|PRE|48461|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage.|
 C Invasion Points|QID|48513|M|49.16,23.09|Z|883;Upper Deck@ArgusEredath|NC|N|This time you have to do 3 invasion points. A new one starts every 2 hours, so there are always 3 active, but obviously if you just finished one, only 2 are available right now. After you turn this quest in, Greater invasion points open up which are on on a weekly lockout. They require more people (and a group is recommended). You can do them once a week and earn better loot. Manually check this off if you want to progress to other parts of the guide.|
@@ -456,7 +456,7 @@ K Kill Nhal'athoth|ACTIVE|47219|M|26.62,45.21|Z|882;Eredath|QO|2|N|Defeat Nhal'a
 C A Vessel Made Ready|QID|47219|M|26.60,44.99|Z|882;Eredath|QO|3|NC|N|Loot the Heart of Nhal'athoth.|
 T A Vessel Made Ready|QID|47219|M|28.45,47.19|Z|882;Eredath|N|To Alleria Windrunner.|
 A A Beacon in the Dark|QID|47220|PRE|47219|M|28.44,47.21|Z|882;Eredath|N|From Alleria Windrunner.|
-F Vindicaar, Mac'Aree|QID|47220|M|30.16,49.56|Z|882;Eredath|QO|1|NC|N|Return to the Vindicaar.|
+F Vindicaar, Eredath|QID|47220|M|30.16,49.56|Z|882;Eredath|QO|1|NC|N|Return to the Vindicaar.|
 T A Beacon in the Dark|QID|47220|M|53.33,50.19|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
 A An Offering of Shadow|QID|48560|PRE|47220|M|54.33,50.19|Z|883;Upper Deck@ArgusEredath|N|From Prophet Velen.|
 A Seat of the Triumvirate: The Crest of Knowledge|QID|47654|PRE|47220|M|53.36,50.33|Z|883;Upper Deck@ArgusEredath|N|From Prophet Velen. Seat of the Triumvirate Dungeon.|

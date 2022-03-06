@@ -36,12 +36,12 @@ A Honor Challenge|QID|12939|PRE|12938|N|From Duka Lankral at the back of the Sha
 A Eliminate the Competition|QID|12955|PRE|12938|N|From the Leaper.|M|43.59,25.11|
 F Savage Ledge|QID|12951|N|Over the mountains to the west.|M|37.89,25.18|
 N Vrykul Bones|QID|13092|N|From now on keep any Vrykul Bones you get. They will be used later in a repeatable quest for Ebon Blade reputation.|
-C Honor Challenge|QID|12939|N|Challenge Combatants.|U|41372|S|
+C Honor Challenge|QID|12939|N|Challenge Combatant's.|U|41372|S|
 K Efrem the Faithful|QID|12955|QO|2|M|37.89,25.18|
 K Onu'zun|QID|12955|QO|3|M|37.78,22.94|
 K Sigrid Iceborn|QID|12955|QO|1|M|37.11,22.46|
 C Eliminate the Competition|QID|12955|QO|4|N|Tinky Wickwhistle|M|36.20,23.59|
-C Honor Challenge|QID|12939|N|Challenge any more Combatants you need.|U|41372|US|
+C Honor Challenge|QID|12939|N|Challenge any more Combatant's you need.|U|41372|US|
 T Eliminate the Competition|QID|12955|N|Back to The Leaper.|M|43.59,25.11|
 A The Bone Witch|QID|12999|PRE|12955|N|From the Leaper.|M|43.59,25.11|
 T Honor Challenge|QID|12939|N|To Duka Lankral.|M|44.66,20.41|

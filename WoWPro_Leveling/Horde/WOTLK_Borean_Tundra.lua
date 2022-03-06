@@ -49,8 +49,8 @@ A Ride to Taunka'le Village |QID|11888|LEAD|11890|PRE|11595^11596^11597|M|41.7,5
 T Wind Master To'bor |QID|11634|N|Go to the top of Warsong Hold. To Wind Master To'bor.|M|42.3,54.9|
 A Magic Carpet Ride |QID|11636|PRE|11634|M|42.3,54.9|N|From Wind Master To'bor.|
 F Coast of Echoes|QID|11636|N|Go talk to Yanni, he's the only blood elf in sight. Get him to send you to Garrosh's Landing, and enjoy the carpet ride.|M|42.3,55.7|
-T Magic Carpet Ride |QID|11636|N|To Gorge the Corpsegrinder.|M|32.25,54.07|
-A Tank Ain't Gonna Fix Itself |QID|11642|PRE|11636|M|32.2,54.1|N|From Gorge the Corpsegrinder.|
+T Magic Carpet Ride |QID|11636|N|To Annihilator Grek'lor.|M|32.25,54.07|
+A Tank Ain't Gonna Fix Itself |QID|11642|PRE|11636|M|32.2,54.1|N|From Annihilator Grek'lor.|
 T Tank Ain't Gonna Fix Itself |QID|11642|M|32.1,54.3|N|To Mobu.|
 A Mobu's Pneumatic Tank Transjigamarig |QID|11643|PRE|11642|M|32.1,54.3|N|From Mobu.|
 A Super Strong Metal Plates! |QID|11644|PRE|11642|M|32.1,54.3|N|From Mobu.|
@@ -72,8 +72,8 @@ T Into the Mist |QID|11655|M|32.3,54.3|N|To Waltor of Pal'ea.|
 A Burn in Effigy |QID|11656|PRE|11655|M|32.3,54.3|N|From Waltor of Pal'ea.|
 T Horn of the Ancient Mariner |QID|11660|M|32.3,54.3|N|To Waltor of Pal'ea.|
 A Orabus the Helmsman |QID|11661|PRE|11660|M|32.3,54.3|N|From Waltor of Pal'ea.|
-T Tanks a lot... |QID|11651|M|32.2,54.1|N|To Gorge the Corpsegrinder.|
-A The Plains of Nasam |QID|11652|PRE|11651|M|32.2,54.1|N|From Gorge the Corpsegrinder.|
+T Tanks a lot... |QID|11651|M|32.2,54.1|N|To Annihilator Grek'lor.|
+A The Plains of Nasam |QID|11652|PRE|11651|M|32.2,54.1|N|From Annihilator Grek'lor.|
 N Burn Bor's Hammer |QID|11656|QO|3|U|34830|N|Head into the mist, the first ship is at .|M|30,53|
 N Burn The Kur Drakkar |QID|11656|QO|2|U|34830|N|To the north, just next to The Serpent's Maw. |M|31,49|
 N Burn the Serpent's Maw |QID|11656|QO|1|U|34830|N|Next to the ship you just burned. |M|31.5,48.2|

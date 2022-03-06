@@ -57,10 +57,10 @@ T Ore Repossession|QID|12830|N|To Tore Rumblewrench.|M|41.6,80|
 T Moving In|QID|12829|N|To Tore Rumblewrench.|M|41.6,80|
 T A Delicate Touch|QID|12820|N|To Ricket.|M|40.9,85.3|
 T Bitter Departure|QID|12832|N|To Ricket.|M|40.9,85.3|
-A Opening the Backdoor|QID|12821|PRE|12820&12832|N|From Ricket.|M|40.9,85.3|
+A Cell Block Tango|QID|12821|PRE|12820&12832|N|From Ricket.|M|40.9,85.3|
 l Transporter Power Cell|QID|12821|N|Click on the Transporter Power Cell.|M|45.1,82.3|L|40731|
-C Opening the Backdoor|QID|12821|N|Enter the teleportation pad and use the Transporter Power Cell.|M|50.7,81.9|U|40731|NC|
-T Opening the Backdoor|QID|12821|N|To Ricket.|M|40.9,85.3|
+C Cell Block Tango|QID|12821|N|Enter the teleportation pad and use the Transporter Power Cell.|M|50.7,81.9|U|40731|NC|
+T Cell Block Tango|QID|12821|N|To Ricket.|M|40.9,85.3|
 A Know No Fear|QID|12822|PRE|12821|N|From Ricket.|M|40.9,85.3|
 A A Flawless Plan|QID|12823|PRE|12821|N|Step on the teleport pad next to Ricket. Then get this quest from Gino.|M|50,82|
 C Know No Fear|QID|12822|N|Kill Garm Watchers and Snowblind Devotees in this cave.|S|
@@ -109,9 +109,9 @@ C Taking on All Challengers|QID|12971|N|Defeat 6 Victorius Challengers in this a
 T Taking on All Challengers|QID|12971|N|To Lok'lira the Crone.|M|47.4,69.0|
 A You'll Need a Bear|QID|12972|PRE|12971|N|From Lok'lira the Crone.|M|47.4,69.0|
 T You'll Need a Bear|QID|12972|N|To Brijana.|M|53.2,65.7|
-A Going Bearback|QID|12851|PRE|12972|N|From Brijana.|M|53.2,65.7|
-C Going Bearback|QID|12851|N|Mount the bear next to her and use the controls to kill 7 Frostworgs and 15 Frost Giants. Repeat if necessary.|
-T Going Bearback|QID|12851|N|To Brijana.|M|53.2,65.7|
+A Bearly Hanging On|QID|12851|PRE|12972|N|From Brijana.|M|53.2,65.7|
+C Bearly Hanging On|QID|12851|N|Mount the bear next to her and use the controls to kill 7 Frostworgs and 15 Frost Giants. Repeat if necessary.|
+T Bearly Hanging On|QID|12851|N|To Brijana.|M|53.2,65.7|
 A Cold Hearted|QID|12856|PRE|12851|N|From Brijana.|M|53.2,65.7|
 C Cold Hearted|QID|12856|N|Fly to the Captured Proto-Drakes mount them in mid-air and use them to rescue Brunnhildar Prisoners 3 at a time.|M|63,63|
 T Cold Hearted|QID|12856|N|To Brijana.|M|53.2,65.7|
@@ -237,7 +237,7 @@ C The Brothers Bronzebeard|QID|12973|N|Hop on the plane and defend it on the way
 T The Brothers Bronzebeard|QID|12973|N|To Velog Icebellow.|M|30.2,74.7|
 N Keep a look out|N|For an Everfrost Chip. It can be just about anywhere between Brunnhildar Village and Thunderfall. The first time you get it, it starts another quest for Hodir.|QID|12966|
 A You Can't Miss Him|QID|12966|N|From King Jokkum.|M|65.4,60.1|
-A Jormuttar is Soo Fat...|QID|13011|N|From King Jokkum.|M|65.4,60.1|
+A Culling Jorcuttar|QID|13011|N|From King Jokkum.|M|65.4,60.1|
 T You Can't Miss Him|QID|12966|N|To Njormeld.|M|75.39,63.57|
 A Battling the Elements|QID|12967|PRE|12966|N|From Njormeld.|M|75.39,63.57|
 C Battling the Elements|QID|12967|N|Mount Snorri and control it to kill 10 Seathing Revenants.|
@@ -258,10 +258,10 @@ T Territorial Trespass|QID|13051|N|To Thorim.|M|33.4,58.0|
 A Krolmir, Hammer of Storms|QID|13010|PRE|13051|N|From Thorim.|M|33.4,58.0|
 l Stoic Mammoth Hides|QID|13001|QO|2|M|55.69,65.21|N|Kill and loot Stoic Mammoths until you have 3 hide.|
 l Icemaw Bear Flank|QID|13011|N|Use the Everfrost Razor on a Dead Icemaw Bears until you get the flank.|U|42732|L|42733|M|54.65,60.77|
-C Jormuttar is Soo Fat...|QID|13011|N|Use the Icemaw Bear Flank to lure Jormuttar, then kill him.|M|54.65,60.77|U|42733|
+C Culling Jorcuttar|QID|13011|N|Use the Icemaw Bear Flank to lure Jormuttar, then kill him.|M|54.65,60.77|U|42733|
 C Raising Hodir's Spear|QID|13001|N|Collect 3 Everfrost Shards.|M|54.65,60.77|
 T Raising Hodir's Spear|QID|13001|M|64.86,59.15|N|To Lorekeeper Randvir.|
-T Jormuttar is Soo Fat...|QID|13011|N|To King Jokkum.|M|65.4,60.1|
+T Culling Jorcuttar|QID|13011|N|To King Jokkum.|M|65.4,60.1|
 C Krolmir, Hammer of Storms|QID|13010|N|Step through the dialogue with King Jokkum and wait for the cut scene to finish.|M|65.4,60.1|
 T Krolmir, Hammer of Storms|QID|13010|N|To Thorim.|M|71.3,48.7|
 A The Terrace of the Makers|QID|13057|PRE|13010|N|From Thorim.|M|71.3,48.7|
@@ -271,9 +271,9 @@ T In Memoriam|QID|12975|N|To King Jokkum.|M|65.4,60.1|
 A A Monument to the Fallen|QID|12976|PRE|12975|N|From King Jokkum.|M|65.4,60.1|
 T A Monument to the Fallen|QID|12976|N|To Njormeld.|M|63.2,63.2|
 T Forging a Head|QID|12985|N|To Njormeld.|M|63.2,63.2|
-A Mounting Hodir's Helm|QID|12987|PRE|12985|N|From Njormeld.|M|63.2,63.2|
-C Mounting Hodir's Helm|QID|12987|N|Fly up to the spire and use the Tablets of Pronouncement.|M|64,59|U|42442|
-T Mounting Hodir's Helm|QID|12987|N|To Njormeld.|M|63.2,63.2|
+A Placing Hodir's Helm|QID|12987|PRE|12985|N|From Njormeld.|M|63.2,63.2|
+C Placing Hodir's Helm|QID|12987|N|Fly up to the spire and use the Tablets of Pronouncement.|M|64,59|U|42442|
+T Placing Hodir's Helm|QID|12987|N|To Njormeld.|M|63.2,63.2|
 N At this point|QID|13057|N|You have several dailies open. Do them if you wish for rep/gold/exp.|
 T The Terrace of the Makers|QID|13057|N|To Thorim.|M|56.2,51.3|
 A The Earthen Oath|QID|13005|N|From Thorim.|M|56.2,51.3|
