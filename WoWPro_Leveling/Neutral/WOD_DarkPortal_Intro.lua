@@ -70,7 +70,7 @@ T A Potential Ally|QID|34478|N|To Exarch Maladaar once he has run back to the ga
 T A Potential Ally|QID|34427|N|To Farseer Drek'Thar once he has run back to the gaggle.|FACTION|Horde|M|73.18,38.94|Z|TanaanJungleIntro|
 A Kill Your Hundred|QID|34429|N|From Archmage Khadgar|M|73.02,38.08|PRE|34427^34478|Z|TanaanJungleIntro|
 C Kill Your Hundred|QID|34429|N|Enter Kargathar Proving Grounds|QO|1|NC|M|73.6,29.0|Z|TanaanJungleIntro|
-C Kill Your Hundred|QID|34429|N|Wait until you have 100 Combatant's killed (your friends will do all the killing for you if you want).|QO|2|M|73.6,27.3|Z|TanaanJungleIntro|
+C Kill Your Hundred|QID|34429|N|Wait until you have 100 Combatants killed (your friends will do all the killing for you if you want).|QO|2|M|73.6,27.3|Z|TanaanJungleIntro|
 C Kill Your Hundred|QID|34429|N|Leave the arena and head to Umbral Halls.|NC|QO|3|M|67.3,22.0|Z|TanaanJungleIntro|
 T Kill Your Hundred|QID|34429|N|To Archmage Khadgar|M|81.31,50.27|Z|Umbral Halls|
 A The Shadowmoon Clan|QID|34432|N|From Vindicator Maraad|FACTION|Alliance|M|80.7,45.3|PRE|34429|Z|Umbral Halls|

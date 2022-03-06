@@ -38,8 +38,8 @@ A Revered in the Field of Battle|QID|11556|M|47.2,30.6|Z|Isle of Quel'Danas|REP|
 T Revered in the Field of Battle|QID|11556|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Revered|N|From Eldara Dawnrunner|
 
 ; Exalted
-A Exalted Among All Combatant's|QID|11557|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|From Eldara Dawnrunner, now that you are Exalted.|
-T Exalted Among All Combatant's|QID|11557|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|From Eldara Dawnrunner|
+A Exalted Among All Combatants|QID|11557|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|From Eldara Dawnrunner, now that you are Exalted.|
+T Exalted Among All Combatants|QID|11557|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|From Eldara Dawnrunner|
 A A Magnanimous Benefactor|QID|11549|M|51.2,33.2|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|Anchorite Kairthos|
 T A Magnanimous Benefactor|QID|11549|M|51.2,33.2|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|Anchorite Kairthos|
 

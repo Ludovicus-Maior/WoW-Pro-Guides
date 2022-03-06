@@ -56,11 +56,11 @@ N Engineering Levelling|P|Engineering;202;7+110|N|Levelling from 110 to 145, the
 M [item=158379/Unstable Temporal Time Shifter]|QID|202283915|P|Engineering;202;7+150;1|ITEM|158379|CRAFT|283915 50|MATS|152512 10;152579 7;163569 18|RECIPE|283916|N|This is Rank 2 Recipe, Make this to 150, or once you get Rank 3, Make that to 150|
 M [item=158379/Unstable Temporal Time Shifter]|QID|202283916|P|Engineering;202;7+150;1|ITEM|158379|CRAFT|283916 35|MATS|152512 8;152579 6;163569 15|N|This is for the Rank 3 Recipe. Make until turns Grey at 150.|
 
-= Learn Recipe|QID|202701451|PRE|54972|M|38.0,53.6|Z|Nazjatar|P|Engineering;202;7+145|RECIPE|294784|N|Learn [spell=294784/Notorious Combatant's Discombobulator] Recipe from Instructor Alikana|FACTION|ALLIANCE|
-= Learn Recipe|QID|202701451|PRE|55053|M|49.0,61.6|Z|Nazjatar|P|Engineering;202;7+145|RECIPE|294784|N|Learn [spell=294784/Notorious Combatant's Discombobulator] Recipe from Jada.|FACTION|HORDE|
-M [item=167965/Notorious Combatant's Discombobulator] Rank 1|QID|202294784|P|Engineering;202;7+160;1|ITEM|167965|CRAFT|294784 5|MATS|168185 15;152579 5;163569 10;152668 3|
+= Learn Recipe|QID|202701451|PRE|54972|M|38.0,53.6|Z|Nazjatar|P|Engineering;202;7+145|RECIPE|294784|N|Learn [spell=294784/Notorious Combatants Discombobulator] Recipe from Instructor Alikana|FACTION|ALLIANCE|
+= Learn Recipe|QID|202701451|PRE|55053|M|49.0,61.6|Z|Nazjatar|P|Engineering;202;7+145|RECIPE|294784|N|Learn [spell=294784/Notorious Combatants Discombobulator] Recipe from Jada.|FACTION|HORDE|
+M [item=167965/Notorious Combatants Discombobulator] Rank 1|QID|202294784|P|Engineering;202;7+160;1|ITEM|167965|CRAFT|294784 5|MATS|168185 15;152579 5;163569 10;152668 3|
 
-N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169541/Schematic: Notorious Combatant's Discombobulator](Rank 2) and [item=169542/Schematic: Notorious Combatant's Discombobulator](Rank 3) recipes of Dazzerian (Horde) or Tomas Riogain (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|
+N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169541/Schematic: Notorious Combatants Discombobulator](Rank 2) and [item=169542/Schematic: Notorious Combatants Discombobulator](Rank 3) recipes of Dazzerian (Horde) or Tomas Riogain (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|
 
 N Congratualations!|QID|202000010|N|On reaching 100 in Legion Engineering.|
 ]]

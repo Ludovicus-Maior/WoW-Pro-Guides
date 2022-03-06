@@ -166,8 +166,8 @@ M [item=159785/Enchant Weapon - Deadly Navigation]|QID|333268908|P|Enchanting;33
 M [item=159789/Enchant Weapon - Stalwart Navigation]|QID|333268914|P|Enchanting;333;7+145;1|ITEM|159789|CRAFT|268914 4|MATS|152875 18;152876 6;152877 1;38682 1|N|Listed all 5 Weapon enchants, to make about 4 of each, or chose one to make 20 of just one.|
 = Learn Recipe|QID|333001451|PRE|54972|M|38.0,53.2|Z|Nazjatar|P|Enchanting;333;7+145|RECIPE|294781|N|Learn [spell=294781/Notorious Sorcerous Scepter] Recipe from Instructor Okanu.|FACTION|ALLIANCE|
 = Learn Recipe|QID|333001451|PRE|55053|M|49.2,61.6|Z|Nazjatar|P|Enchanting;333;7+145|RECIPE|294781|N|Learn [spell=294781/Notorious Sorcerous Scepter] Recipe from Narv.|FACTION|HORDE|
-M [item=167993/Notorious Combatant's Sorcerous Scepter]|QID|333294791|P|Enchanting;333;150;1|ITEM|167993|CRAFT|294791 5|MATS|11291 1;152875 25;152876 7;152668 1|
-N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169539/Recipe: Notorious Combatant's Sorcerous Scepter] - Rank 2 and [item=169540/Recipe: Notorious Combatant's Sorcerous Scepter] - Rank 3 recipes of Dazzerian (Horde) or Tomas Riogain (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|
+M [item=167993/Notorious Combatants Sorcerous Scepter]|QID|333294791|P|Enchanting;333;150;1|ITEM|167993|CRAFT|294791 5|MATS|11291 1;152875 25;152876 7;152668 1|
+N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169539/Recipe: Notorious Combatants Sorcerous Scepter] - Rank 2 and [item=169540/Recipe: Notorious Combatants Sorcerous Scepter] - Rank 3 recipes of Dazzerian (Horde) or Tomas Riogain (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|
 N Congratulations|QID|333000010|N|You've reached at least 160 in Battle for Azeroth Enchanting.|
 ]]
 end)
