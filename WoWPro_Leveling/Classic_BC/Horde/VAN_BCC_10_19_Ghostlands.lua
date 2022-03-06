@@ -47,13 +47,13 @@ T Fly to Silvermoon City|QID|9133|M|69.26,77.04;68.28,74.08;66.50,73.43;53.93,71
 A Skymistress Gloaming|QID|9134|M|53.93,71.02|Z|Silvermoon City|N|From Sathren Azuredawn.|PRE|9133|
 T Summons from Knight-Lord Bloodvalor|QID|9677|M|89.29,35.25|Z|Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
 A The First Trial|QID|9678|M|89.29,35.25|Z|Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
-= Train|ACTIVE|9134|M|71.54,55.76|Z|1954; Silvermoon City|N|Do your lv 12 training before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
-= Train|ACTIVE|9134|M|83.40,27.55|Z|1954; Silvermoon City|N|Do your lv 12 training before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
-= Train|ACTIVE|9134|M|57.56,20.56|Z|1954; Silvermoon City|N|Do your lv 12 training before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
-= Train|ACTIVE|9134|M|92.26,36.15|Z|1954; Silvermoon City|N|Do your lv 12 training before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Paladin|
-= Train|ACTIVE|9134|M|54.96,25.62|Z|1954; Silvermoon City|N|Do your lv 12 training before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
-= Train|ACTIVE|9134|M|78.59,51.01|Z|1954; Silvermoon City|N|Do your lv 12 training before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
-= Train|ACTIVE|9134|M|74.67,45.01|Z|1954; Silvermoon City|N|Do your lv 12 training before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+= Level 12 Training|ACTIVE|9134|M|71.54,55.76|Z|1954; Silvermoon City|N|Visit your class trainer before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
+= Level 12 Training|ACTIVE|9134|M|83.40,27.55|Z|1954; Silvermoon City|N|Visit your class trainer before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
+= Level 12 Training|ACTIVE|9134|M|57.56,20.56|Z|1954; Silvermoon City|N|Visit your class trainer before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
+= Level 12 Training|ACTIVE|9134|M|92.26,36.15|Z|1954; Silvermoon City|N|Visit your class trainer before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Paladin|
+= Level 12 Training|ACTIVE|9134|M|54.96,25.62|Z|1954; Silvermoon City|N|Visit your class trainer before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
+= Level 12 Training|ACTIVE|9134|M|78.59,51.01|Z|1954; Silvermoon City|N|Visit your class trainer before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
+= Level 12 Training|ACTIVE|9134|M|74.67,45.01|Z|1954; Silvermoon City|N|Visit your class trainer before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
 * Saltheril's Haven Party Invitation|AVAILABLE|-9067|N|If you plans to go back to Saltheril's Haven and reload with goodies, toss it in your bank until you need it. Otherwise, you can safely destroy this.\n[color=FF0000]NOTE: [/color]Be aware, you cannot get another one.\nThis step will auto-complete when you no longer have the item in your bag.|U|23500|O|
 R The Shepherd's Gate|ACTIVE|9134|M|56.66,49.54|Z|Eversong Woods|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|
 T Skymistress Gloaming|QID|9134|M|54.37,50.73|Z|Eversong Woods|N|To Skymistress Gloaming.|
@@ -122,16 +122,16 @@ A Down the Dead Scar|QID|9155|M|46.02,33.56|N|From Deathstalker Rathiel.|
 A The Plagued Coast|QID|9149|M|47.66,34.87|N|From Apothecary Renzithen.|PRE|9327^9329|
 l Rotting Hearts|AVAILABLE|9216|M|38.94,36.68|L|22641 10|N|Going forward, any time you enter The Dead Scar, kill any Risen Hungerers or Risen Stalkers you come across. The Rotting Hearts are needed for an upcoming quest and starting now will save some time.\n[color=FF0000]NOTE: [/color]Keep an eye out for Luzran, who pathes up and down The Dead Scar.|S|IZ|3514; The Dead Scar|
 K Down the Dead Scar|ACTIVE|9155|M|39.76,32.47|QO|1;2|N|Head down into the Dead Scar and kill Risen Hungerers and Gangled Cannibals.|
-C Culinary Crunch|QID|9171|M|27.69,30.27|L|22644 5|N|Kill spiders until you have 5 Crunchy Spider Legs.|S|
-C Salvaging the Past|QID|9150|M|33.41,32.40|L|22580 8|N|Kill Mana Shifters and Arcane Devourers until you get 8 Mana Essences.|
-C Tomber's Supplies|QID|9152|M|33.56,26.81|N|It is in the wagon.\n[color=FF0000]NOTE: [/color]You will most likely have to clear an area around it.|NC|
+C Culinary Crunch|QID|9171|M|27.69,30.27|L|22644 5|N|Kill spiders to loot the Crunchy Spider Legs.|S|
+C Salvaging the Past|QID|9150|M|33.41,32.40|L|22580 8|N|Kill Mana Shifters and Arcane Devourers to loot the Mana Essence.|
+C Tomber's Supplies|QID|9152|M|33.55,26.57|L|22583|N|It's in the wagon.\n[color=FF0000]NOTE: [/color]You'll most likely have to clear the area around it.|
 K Investigate An'daroth|ACTIVE|9160|M|37.04,15.90|QO|1|N|Kill the Sentinel Spies around An'daroth.|S|
-C Investigate An'daroth|QID|9160|M|37.2,24.08;38.0,18.7;37.0,15.9|CS|QO|2|N|Head into the center of the area to the monument to get the investigation part.|
+R Investigate An'daroth|QID|9160|M|37.2,24.1;38.0,18.7;37.0,15.9|CS|QO|2|N|Head into the center of the area to the monument to get the investigation part.|
 K Investigate An'daroth|ACTIVE|9160|M|37.04,15.90|QO|1|N|Kill the Sentinel Spies around An'daroth.|US|
 R Goldenmist Village|ACTIVE|9139|M|33.2,15.0;30.3,16.6|CC|N|Follow Elrendar River west until you reach the waterfall, sticking as close the water edge as you can.\nAt this point, you can either jump off the falls and swim across to the west shore, or work your way across and down the cliffs.|
 C Goldenmist Village|QID|9139|M|26.81,15.27|N|Run/drop down to Goldenmist and kill the ghosts that are needed.|
 C The Plagued Coast|QID|9149|M|19.02,24.06|L|22579 6|N|Kill Murlocs to loot their spines.|
-C Culinary Crunch|QID|9171|M|27.69,30.27|L|22644 5|N|Kill spiders until you have 5 Crunchy Spider Legs.|US|
+C Culinary Crunch|QID|9171|M|27.69,30.27|L|22644 5|N|Kill spiders to loot the Crunchy Spider Legs.|US|
 L Level 15|AVAILABLE|9173|M|PLAYER|N|You'll want to be at least halfway to level 15 before returning.|LVL|14;-6490|
 H Tranquillien|ACTIVE|9171|M|45.12,28.25|
 T Culinary Crunch|QID|9171|M|48.43,30.93|N|To Master Chef Mouldier.|
