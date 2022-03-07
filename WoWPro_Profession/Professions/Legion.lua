@@ -823,8 +823,8 @@ T Bits and Pieces|QID|40857|M|52.23,52.92|Z|Stormheim|P|Archaeology;794;6;1|N|To
 
 ; A Fel Fragments|QID|41167|AVAILABLE|41167|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|45|P|Archaeology;794;6;1|N|From Dariness the Learned.|
 T Fel Fragments|QID|41167|M|61.90,87.82|Z|Val'sharah|P|Archaeology;794;6;1|N|To Brann Bronzebeard.|
-A The Purple Hills of Mac'Aree|QID|41168|PRE|41167|M|61.90,87.82|Z|Val'sharah|LVL|45|P|Archaeology;794;6;1|N|From Brann Bronzebeard.|
-t The Purple Hills of Mac'Aree|QID|41168|M|61.90,87.82|Z|Val'sharah|P|Archaeology;794;6;1|N|To Brann Bronzebeard.|
+A The Purple Hills of Eredath|QID|41168|PRE|41167|M|61.90,87.82|Z|Val'sharah|LVL|45|P|Archaeology;794;6;1|N|From Brann Bronzebeard.|
+t The Purple Hills of Eredath|QID|41168|M|61.90,87.82|Z|Val'sharah|P|Archaeology;794;6;1|N|To Brann Bronzebeard.|
 
 ; A The Reliquary Calls|QID|41171|AVAILABLE|41171|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|45|P|Archaeology;794;6;1|N|From Dariness the Learned.|
 F Illidari Stand|ACTIVE|41171|M|69.83,50.65|Z|Dalaran@Dalaran70|P|Archaeology;794;6;1|N|At your closest, Flight Master, Fly to Illidari Stand. This step is mapped to Dalaran.|
