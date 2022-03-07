@@ -237,9 +237,9 @@ C WANTED: James Clark|QID|26152|M|78.66,67.16|Z|Elwynn Forest|N|Kill James clark
 A The Collector|QID|123|N|Get this from the Gold Pickup Schedule in your bags.|U|1307|
 A A Bundle of Trouble|QID|5545|M|81.38,66.11|Z|Elwynn Forest|N|From Supervisor Raelen.|
 f Eastvale Logging Camp|ACTIVE|5545|M|81.83,66.56|Z|Elwynn Forest|N|At Goss the Swift.|
-T WANTED: James Clark|QID|26152|M|81.86,66.04|Z|Elwynn Forest|N|To Marshal McCree.|
-T The Collector|QID|123|M|81.86,66.04|Z|Elwynn Forest|N|To Marshal McCree.|
-A Manhunt|QID|147|M|81.86,66.04|Z|Elwynn Forest|N|From Marshal McCree.|PRE|123|
+T WANTED: James Clark|QID|26152|M|81.86,66.04|Z|Elwynn Forest|N|To Marshal Patterson.|
+T The Collector|QID|123|M|81.86,66.04|Z|Elwynn Forest|N|To Marshal Patterson.|
+A Manhunt|QID|147|M|81.86,66.04|Z|Elwynn Forest|N|From Marshal Patterson.|PRE|123|
 C Bounty on Murlocs|QID|46|M|79.51,56.00|Z|Elwynn Forest|N|Kill and loot Murlocs for their fins Fins.|S|
 C A Bundle of Trouble|QID|5545|M|80.75,61.33|Z|Elwynn Forest|N|Collect 8 Bundles Of Wood.|NC|S|
 T Discover Rolf's Fate|QID|45|M|79.80,55.50|Z|Elwynn Forest|N|To Rolf's corpse.|
@@ -259,7 +259,7 @@ C Manhunt|QID|147|M|71.05,80.63|Z|Elwynn Forest|N|Kill Morgan the collector and 
 C Fine Linen Goods|QID|83|M|71.20,78.86|Z|Elwynn Forest|N|Kill Bandits until you have 6 Linen Scraps.|US|
 T Fine Linen Goods|QID|83|M|79.46,68.71|Z|Elwynn Forest|N|To Sara Timberlain.|
 T Cloth and Leather Armor|QID|59|M|79.46,68.71|Z|Elwynn Forest|N|To Sara Timberlain.|
-T Manhunt|QID|147|M|81.86,66.04|Z|Elwynn Forest|N|To Marshal McCree.|
+T Manhunt|QID|147|M|81.86,66.04|Z|Elwynn Forest|N|To Marshal Patterson.|
 F Goldshire|QID|114|M|81.83,66.55|Z|Elwynn Forest|N|Fly to Goldshire.|
 R Jerod's Landing|ACTIVE|114|M|46.42,86.90|Z|Elwynn Forest|N|If you want the exploration achievement for Elwynn Forest head to Jerod's Landing now.|
 T The Escape|QID|114|M|43.15,89.63|Z|Elwynn Forest|N|To Maybell Maclure.|

@@ -6,7 +6,7 @@
 local guide = WoWPro:RegisterGuide("LudoPetWQMacAree","Dailies","ArgusMacAree","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON",1715032)
-WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet World Quests Mac'Aree","Pets")
+WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet World Quests Eredath","Pets")
 WoWPro:GuidePetBattle(guide)
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()

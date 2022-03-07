@@ -60,7 +60,7 @@ M [item=158379/Unstable Temporal Time Shifter]|QID|202283916|P|Engineering;202;7
 = Learn Recipe|QID|202701451|PRE|55053|M|49.0,61.6|Z|Nazjatar|P|Engineering;202;7+145|RECIPE|294784|N|Learn [spell=294784/Notorious Combatants Discombobulator] Recipe from Jada.|FACTION|HORDE|
 M [item=167965/Notorious Combatants Discombobulator] Rank 1|QID|202294784|P|Engineering;202;7+160;1|ITEM|167965|CRAFT|294784 5|MATS|168185 15;152579 5;163569 10;152668 3|
 
-N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169541/Schematic: Notorious Combatants Discombobulator](Rank 2) and [item=169542/Schematic: Notorious Combatants Discombobulator](Rank 3) recipes of Dazzerian (Horde) or Crafticus Mindbender (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|
+N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169541/Schematic: Notorious Combatants Discombobulator](Rank 2) and [item=169542/Schematic: Notorious Combatants Discombobulator](Rank 3) recipes of Dazzerian (Horde) or Tomas Riogain (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|
 
 N Congratualations!|QID|202000010|N|On reaching 100 in Legion Engineering.|
 ]]

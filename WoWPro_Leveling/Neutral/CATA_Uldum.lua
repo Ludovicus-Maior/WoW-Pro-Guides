@@ -61,21 +61,21 @@ T Impending Retribution|QID|28134|M|54.93,32.80|N|To King Phaoris.|
 A Al'Akir's Vengeance|QID|28135|PRE|28134|M|54.93,32.80|N|From King Phaoris.|
 C Take it to 'Em!|QID|27993|M|64.21,23.11|N|Head to the waypoint for this quest.|NC|
 T Take it to 'Em!|QID|27993|M|64.38,22.39|N|To Harrison Jones.|
-A Premature Explosionation|QID|27141|PRE|27993|M|64.38,22.39|N|From Harrison Jones.|
-C Premature Explosionation|QID|27141|M|64.35,22.29|N|Right-click the Powder Keg, then sit back and watch the cinematic.|NC|
-T Premature Explosionation|QID|27141|M|64.59,28.60|N|To Harrison Jones.|
+A Exploding Through|QID|27141|PRE|27993|M|64.38,22.39|N|From Harrison Jones.|
+C Exploding Through|QID|27141|M|64.35,22.29|N|Right-click the Powder Keg, then sit back and watch the cinematic.|NC|
+T Exploding Through|QID|27141|M|64.59,28.60|N|To Harrison Jones.|
 A Field Work|QID|27179|PRE|27141|M|64.59,28.60|N|From Sand Pygmy Corpse.|
 C Field Work|QID|27179|N|Kill Sand Pygmies and loot Ornate Tablet Fragments. You can also find them lying around in this area.|S|
-A Just the Tip|QID|27176|PRE|27141|M|64.85,29.53|N|From the Elaborate Disc.|
+A A Strange Disc|QID|27176|PRE|27141|M|64.85,29.53|N|From the Elaborate Disc.|
 A Do the World a Favor|QID|27187|PRE|27141|M|65.4,30.8|N|Kill a Mangy Hyena or Skarf to be offered this quest.|
 C Do the World a Favor|QID|27187|N|Kill Mangy Hyenas.|S|
 K Sultan Oogah|QID|27176|M|68.08,31.51|L|60865|N|Kill and loot Sultan Oogah for the Sultan's Staff.|
-C Just the Tip|QID|27176|M|68.08,31.51|U|60859|N|Activate the Elaborate Disc to combine it with the Sultan's Staff to create the Shaft of the Stars.|NC|
+C A Strange Disc|QID|27176|M|68.08,31.51|U|60859|N|Activate the Elaborate Disc to combine it with the Sultan's Staff to create the Shaft of the Stars.|NC|
 C Field Work|QID|27179|M|63.50,31.33|N|Continue to obtain the Ornate Tablet Fragments from either the floor or by killing the Sand Pygmies.|US|
 C Do the World a Favor|QID|27187|M|66.78,26.76;63.34,26.99|CN|N|Kill Mangy Hyenas.|US|
 T Do the World a Favor|QID|27187|M|64.60,28.65|N|(UI Alert)|
 T Field Work|QID|27179|M|64.60,28.65|N|To Harrison Jones.|S|
-T Just the Tip|QID|27176|M|64.60,28.65|N|To Harrison Jones.|
+T A Strange Disc|QID|27176|M|64.60,28.65|N|To Harrison Jones.|
 T Field Work|QID|27179|M|64.60,28.65|N|To Harrison Jones.|US|
 A On to Something|QID|27196|PRE|27176&27179|M|64.60,28.65|N|From Harrison Jones.|
 C On to Something|QID|27196|M|64.25,27.01|N|Speak to Harrison Jones and tell him "I'm ready, Doctor Jones!", the quest completion will follow a few seconds later when he reaches the edge of the Chamber of the Stars.|CHAT|
@@ -350,20 +350,20 @@ A Two Tents|QID|28274|PRE|28273|M|26.67,8.06|N|From Sullah.|
 C Two Tents|QID|28274|M|29.67,22.32|N|Watch the cinematic.|
 T Two Tents|QID|28274|M|29.57,21.90|N|To Sullah.|
 A Master Trapper|QID|28350|PRE|28274|M|29.57,21.90|N|From Sullah.|S|
-A Camel Tow|QID|28352|PRE|28274|M|29.57,21.90|N|From Sullah.|S|
+A Camelraderie|QID|28352|PRE|28274|M|29.57,21.90|N|From Sullah.|S|
 A Unlimited Potential|QID|28351|PRE|28274|M|29.57,21.90|N|From Sullah.|
 A Master Trapper|QID|28350|PRE|28274|M|29.57,21.90|N|From Sullah.|US|
-A Camel Tow|QID|28352|PRE|28274|M|29.57,21.90|N|From Sullah.|US|
+A Camelraderie|QID|28352|PRE|28274|M|29.57,21.90|N|From Sullah.|US|
 C Master Trapper|QID|28350|M|28.50,23.29|N|Kill Wild Camels and loot their Meat Scraps.|S|
-C Camel Tow|QID|28352|U|67241|S|M|29.76,30.26|N|Beat down a Wild Camel down to 35% HP then use Sullah's Camel Harness. Repeat 3 times.|
+C Camelraderie|QID|28352|U|67241|S|M|29.76,30.26|N|Beat down a Wild Camel down to 35% HP then use Sullah's Camel Harness. Repeat 3 times.|
 C Unlimited Potential|QID|28351|U|67232|M|28.70,26.77|N|Beat down a Cavorting Pygmy below 20% HP then use the cage. Repeat 5 times.|
-C Camel Tow|QID|28352|U|67241|US|M|29.76,30.26|N|Beat down a Wild Camel down to 35% HP then use Sullah's Camel Harness. Repeat 3 times.|
+C Camelraderie|QID|28352|U|67241|US|M|29.76,30.26|N|Beat down a Wild Camel down to 35% HP then use Sullah's Camel Harness. Repeat 3 times.|
 C Master Trapper|QID|28350|M|28.50,23.29|N|Kill Wild Camels and loot their Meat Scraps.|US|
 T Master Trapper|QID|28350|M|29.56,21.92|N|To Sullah.|S|
-T Camel Tow|QID|28352|M|29.56,21.92|N|To Sullah.|S|
+T Camelraderie|QID|28352|M|29.56,21.92|N|To Sullah.|S|
 T Unlimited Potential|QID|28351|M|29.56,21.92|N|To Sullah.|
 T Master Trapper|QID|28350|M|29.56,21.92|N|To Sullah.|US|
-T Camel Tow|QID|28352|M|29.56,21.92|N|To Sullah.|US|
+T Camelraderie|QID|28352|M|29.56,21.92|N|To Sullah.|US|
 A Jonesy Sent For You|QID|28353|LEAD|28271|PRE|28350|M|29.56,21.92|N|From Sullah.|
 T Jonesy Sent For You|QID|28353|M|27.02,7.62|N|To Harrison Jones.|
 A Reduced Productivity|QID|28271|PRE|28274|M|27.02,7.62|N|From Harrison Jones.|S|
