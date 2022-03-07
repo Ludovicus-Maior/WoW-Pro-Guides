@@ -55,8 +55,8 @@ B [spell=16644/Thorium Bracers]|QID|164000004|RECIPE|16644|L|12684|N|Purchase [i
 B [spell=16643/Thorium Belt]|QID|164000004|RECIPE|16643|L|12683|N|Purchase [item=12683/Plans - Thorium Belt] from Auction House, Random drop from level 45-50 mobs.|
 B [spell=16645/Radiant Belt]|QID|164000004|RECIPE|16645|L|12685|N|Purchase [item=12685/Plans - Radiant Belt] from Auction House, Random drop from level 45-50 mobs.|
 N Smelting|QID|186000006|P|Mining;186;0|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
-M [item=2841/Bronze Bar]|QID|164000004|P|Mining;186;0+50|L|2841 140|CRAFT|2689 70|MATS|2840 1;3576 1|N|You need a total of 140, due to it makes 2 per smelt this was set to 'make' 70.|
-M [item=3859/Steel Bar]|QID|164000004|P|Mining;186;0+125|L|3859 190|CRAFT|3569 190|MATS|3575 1;3857 1|
+M [item=2841/Bronze Bar]|QID|164000006|P|Mining;186;0+50|L|2841 140|CRAFT|2689 70|MATS|2840 1;3576 1|N|You need a total of 140, due to it makes 2 per smelt this was set to 'make' 70.|
+M [item=3859/Steel Bar]|QID|164000006|P|Mining;186;0+125|L|3859 190|CRAFT|3569 190|MATS|3575 1;3857 1|
 N Shopping List|QID|164000004|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 ; end of shopping list, and pre craft.
 

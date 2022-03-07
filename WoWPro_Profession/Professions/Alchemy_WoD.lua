@@ -20,7 +20,7 @@ return [[
 ; 		IE learn 2 at lvl 15 |171800151| and |171800152|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Typed update to Warlords of Draenor splits on 27-Jun-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 ) - (This is NOT tested)
+;  Typed update to Warlords of Draenor splits on 8-Feb-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 ) - (This is NOT tested)
 
 N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 

@@ -37,7 +37,7 @@ N Legion Profession Quests|QID|333000005|N|Before doing this guide it is recomme
 N Legion Profession Quests|QID|333000006|JUMP|LEG_PROF|N|Before doing this guide it is recommened you do all the Legion Enchanting Quests.  They are all in the 'Legion Profession' Guide.|
 
 N Shopping List|QID|333000007|N|The next few lines are going to be the TOTAL amount of mats you need to complete Legion 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
-l [item=124442/Chaos Crystal]|QID|3330000072|L|124442 175|ITEM|124442|N|You'll need at least 175 Chaos Crystals.|
+l [item=124442/Chaos Crystal]|QID|333000007|L|124442 175|ITEM|124442|N|You'll need at least 175 Chaos Crystals.|
 l [item=124440/Arkhana]|QID|333000007|L|124440 1050|ITEM|124440|N|You'll need at least 1,050 Arkhana, to a higher limit of 1,600 depending on what Rank you have of the recipes.|
 
 N Shopping List|QID|333000008|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|

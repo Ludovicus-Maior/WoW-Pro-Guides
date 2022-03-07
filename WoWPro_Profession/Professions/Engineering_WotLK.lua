@@ -64,11 +64,11 @@ M [item=39682/Overcharged Capacitor]|QID|202056464|P|Engineering;202;2+26|L|3968
 ; double lines above, in case they dont make enough, the line should still pop up.  (NOT tested)  if this doesn't work remove the lines at have engineering 2+26 in them. they are also marked  ; remove
 
 M [item=40536/Explosive Decoy]|QID|202056463|P|Engineering;202;2+15;1|ITEM|40536|CRAFT|56463 6|MATS|33470 1;39690 3|N|Only make enough to clear the step!|
-= Learn Recipe|QID|202100151|P|Engineering;202;2+15|RECIPE|56471|N|Learn [spell=56471/Adamantite Frame] Recipe from Trainer.|
+= Learn Recipe|QID|202200151|P|Engineering;202;2+15|RECIPE|56471|N|Learn [spell=56471/Adamantite Frame] Recipe from Trainer.|
 M [item=39683/Froststeel Tube]|QID|202056471|P|Engineering;202;2+26;1|ITEM|39683|CRAFT|56471 15|MATS|36916 8;37705 1|N|You will need these in a later step.|
 N Goblin Engineering|QID|202056514|P|Engineering;202;2+26|N|Can't test if you have Goblin Engineering, so if a different craft is possible, both will be listed. Just right - click off the one you can not do.|
 M [item=44739/Diamond-cut Refreactor Scope]|QID|202061471|P|Engineering;202;2+30;1|ITEM|44739|CRAFT|61471 5|MATS|39683 1;39681 2|N|Goblin Engineers you can make [item=42641/Global Thermal Sapper Charge] from 26-60. Recipe is learnable from Didi the Wrench. Right Click to skip if you are a Goblin Engineer.|
-= Learn Recipe|QID|202100251|M|39.66,25.13|Z|125;Dalaran!Crystalsong Forest|P|Engineering;202;2+25|RECIPE|56514|T|Didi the Wrench|N|Learn [spell=56514/Global Thermal Sapper Charge] from Didi the Wrench.\n[color=FF0000]NOTE: [/color]Goblin Engineers only.|
+= Learn Recipe|QID|202200251|M|39.66,25.13|Z|125;Dalaran!Crystalsong Forest|P|Engineering;202;2+25|RECIPE|56514|T|Didi the Wrench|N|Learn [spell=56514/Global Thermal Sapper Charge] from Didi the Wrench.\n[color=FF0000]NOTE: [/color]Goblin Engineers only.|
 M [item=42641/Global Thermal Sapper Charge]|QID|202056514|P|Engineering;202;2+60;1|ITEM|42641|CRAFT|56514 34|MATS|36913 1;39690 1|N|[color=FF0000]NOTE: [/color]Goblin Engineering Only! Might need more [item=39690/Volatile Blasting Trigger]|
 
 B [item=90146/Tinkers Kit]|QID|202090146|P|Engineering;202;2+30|L|90146 45|ITEM|90146|N|You'll need approximately 45 Tinker's Kits.  These can be purchased from any Engineering Supplies Vendor.|

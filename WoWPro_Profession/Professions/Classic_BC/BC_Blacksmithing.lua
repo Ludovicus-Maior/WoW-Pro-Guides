@@ -19,7 +19,7 @@ return [[
 ;		IE learn 2 at lvl 15 |164700151| and |164700152|
 ;  Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Typed update to TBC splits on 11-May-2021 by Blanckaert (This is NOT tested)
+;  Typed update to TBC splits on 11-May-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 ) - (This is NOT tested)
 
 N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers CLASSIC BURNING CRUSADE content levels 1-360.\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #tbc-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
