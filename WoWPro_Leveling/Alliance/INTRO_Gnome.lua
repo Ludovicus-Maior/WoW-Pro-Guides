@@ -74,20 +74,20 @@ T Dealing with the Fallout|QID|26265|M|38.20,40.21|Z|469|N|To Corporal Fizzwhist
 T A Job for the Multi-Bot|QID|26205|M|40.62,28.07|Z|469|N|To Engineer Grindspark.|
 T What's Left Behind|QID|26264|M|39.22,26.55|Z|469|N|To Tock Sprysprocke.|
 A What's Keeping Jessup?|QID|26316|M|38.38,33.48|Z|469|N|From Captain Tread Sparknozzle.|PRE|26205|
-T What's Keeping Jessup?|QID|26316|M|37.28,65.20|Z|469|N|To Jessup McCree, at the Frostmane Hold.|
-A Get Me Explosives Back!|QID|26285|M|37.28,65.20|Z|469|N|From Jessup McCree.|PRE|26316|
-A Missing in Action|QID|26284|M|37.28,65.20|Z|469|N|From Jessup McCree.|PRE|26316|
+T What's Keeping Jessup?|QID|26316|M|37.28,65.20|Z|469|N|To Kharmarn Palegrip, at the Frostmane Hold.|
+A Get Me Explosives Back!|QID|26285|M|37.28,65.20|Z|469|N|From Kharmarn Palegrip.|PRE|26316|
+A Missing in Action|QID|26284|M|37.28,65.20|Z|469|N|From Kharmarn Palegrip.|PRE|26316|
 C Get Me Explosives Back!|QID|26285|Z|469|N|Kill and loot the Rockjaw Bonepicker and Rockjaw Marauder for the Stolen Powder Kegs.|S|
 C Missing in Action|QID|26284|Z|469|N|Attack the cages to release captives.|M|37.75,73.50|
 C Get Me Explosives Back!|QID|26285|M|37.75,73.50|Z|469|N|Kill and loot the Rockjaw Bonepicker and Rockjaw Marauder for the Stolen Powder Kegs.|US|
-T Get Me Explosives Back!|QID|26285|M|37.28,65.20|Z|469|N|To Jessup McCree|
-T Missing in Action|QID|26284|M|37.28,65.20|Z|469|N|To Jessup McCree|
-A Finishin' the Job|QID|26318|Z|469|N|From Jessup McCree.|M|37.28,65.20|PRE|26285&26284|
+T Get Me Explosives Back!|QID|26285|M|37.28,65.20|Z|469|N|To Kharmarn Palegrip|
+T Missing in Action|QID|26284|M|37.28,65.20|Z|469|N|To Kharmarn Palegrip|
+A Finishin' the Job|QID|26318|Z|469|N|From Kharmarn Palegrip.|M|37.28,65.20|PRE|26285&26284|
 C Finishin' the Job - Boss Bruggor|QID|26318|Z|470|N|Kill Boss Bruggor|QO|2|M|36.33,40.62|T|Boss Bruggor|S|
 C Finishin' the Job - Detonator|QID|26318|QO|1|M|36.33,40.62|NC|Z|470|N|Enter the cavern to the west, then go through the cave to the detonator, then use the detonator.|
 C Finishin' the Job - Boss Bruggor|QID|26318|Z|470|N|Kill Boss Bruggor|QO|2|M|36.33,40.62|T|Boss Bruggor|US|
-T Finishin' the Job|QID|26318|M|37.28,65.20|Z|469|N|To Jessup McCree.|
-A One More Thing|PRE|26318|QID|26329|M|37.28,65.20|Z|469|N|From Jessup McCree.|
+T Finishin' the Job|QID|26318|M|37.28,65.20|Z|469|N|To Kharmarn Palegrip.|
+A One More Thing|PRE|26318|QID|26329|M|37.28,65.20|Z|469|N|From Kharmarn Palegrip.|
 T One More Thing|QID|26329|M|38.72,32.74|Z|469|N|To High Tinker Mekkatorque.|
 A Crushcog's Minions|QID|26331|M|38.72,32.74|Z|469|N|From High Tinker Mekkatorque.|PRE|26329|
 A No Tanks!|QID|26333|M|38.19,33.68|Z|469|N|From Hinkles Fastblast.|PRE|26329|

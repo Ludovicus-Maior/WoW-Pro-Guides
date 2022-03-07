@@ -60,10 +60,10 @@ A Leave No Goblin Behind |QID|12846|PRE|12843|M|41.1,86.1|N|From Gretchen Fizzle
 T Ample Inspiration |QID|12828|M|40.9,85.3|N|To Ricket|
 T Bitter Departure |QID|12832|M|40.9,85.3|N|To Ricket|
 T A Delicate Touch |QID|12820|M|40.9,85.3|N|To Ricket|
-A Opening the Backdoor |QID|12821|PRE|12820&12832|M|40.9,85.3|N|From Ricket|
+A Cell Block Tango |QID|12821|PRE|12820&12832|M|40.9,85.3|N|From Ricket|
 l Transporter Power Cell |QID|12821|N|Pick up the power cell.|L|40731|M|45.11,82.38|
-C Opening the Backdoor |QID|12821|N|Transporter. Use the Transporter Power Cell at the Transporter.|U|40731|M|50.66,81.95|
-T Opening the Backdoor |QID|12821|M|40.9,85.3|N|To Ricket|
+C Cell Block Tango |QID|12821|N|Transporter. Use the Transporter Power Cell at the Transporter.|U|40731|M|50.66,81.95|
+T Cell Block Tango |QID|12821|M|40.9,85.3|N|To Ricket|
 A Know No Fear |QID|12822|PRE|12821|M|40.9,85.3|N|From Ricket|
 A A Flawless Plan |QID|12823|PRE|12821|N|From Gino. Use the transporter to get back to Garm's Rise|
 C Know No Fear |QID|12822|N|Head into the cave at. Kill Watchers and Devotees.|M|48.10,81.45|S|
@@ -103,9 +103,9 @@ C Taking on All Challengers |QID|12971|N|Challenge Victorious Challengers around
 T Taking on All Challengers |QID|12971|M|47.5,69.1|N|To Lok'lira the Crone|
 A You'll Need a Bear |QID|12972|PRE|12971|M|47.5,69.1|N|From Lok'lira the Crone|
 T You'll Need a Bear |QID|12972|N|To Brijana at the west of the Village.|M|53.1,65.7|
-A Going Bearback |QID|12851|PRE|12972|M|53.1,65.7|N|From Brijana|
-C Going Bearback |QID|12851|N|Mount Icefang, you don't have to steer. Ability 1 to throw a bomb. Ability 2 to run. Repeat until done|M|53.1,65.7|
-T Going Bearback |QID|12851|M|53.1,65.7|N|To Brijana|
+A Bearly Hanging On |QID|12851|PRE|12972|M|53.1,65.7|N|From Brijana|
+C Bearly Hanging On |QID|12851|N|Mount Icefang, you don't have to steer. Ability 1 to throw a bomb. Ability 2 to run. Repeat until done|M|53.1,65.7|
+T Bearly Hanging On |QID|12851|M|53.1,65.7|N|To Brijana|
 A Cold Hearted |QID|12856|PRE|12851|M|53.1,65.7|N|From Brijana|
 F Dun Niffelem |QID|12856|M|62,61|N|Fly to Dun Niffelem on your flying mount.|
 C Cold Hearted |QID|12856|N|Hop on a Drake. Use your attack to free prisoners (You can only carry three at a time). Fly out of Dun Niffelem, auto-pilot will take over.  Repeat until done.|M|63.9,62.5|
@@ -192,31 +192,31 @@ A A Monument to the Fallen |QID|12976|PRE|12975|M|65.4,60.2|N|From King Jokkum|
 T A Monument to the Fallen |QID|12976|M|63.2,63.2|N|To Njormeld|
 A Forging a Head |QID|12985|PRE|12967|M|63.2,63.2|N|From Njormeld|
 A Hot and Cold |QID|12981|PRE|12967|N|Daily Quest From Fjorn's Anvil|M|63.19,62.95|
-A Blowing Hodir's Horn |QID|12977|PRE|12976|N|Daily Quest from Hodir's Horn. Fly out of Dun Niffelem to the south, then right back in. |M|64.83,67;64.12,65.14|CS|
+A Hodir's Call |QID|12977|PRE|12976|N|Daily Quest from Hodir's Horn. Fly out of Dun Niffelem to the south, then right back in. |M|64.83,67;64.12,65.14|CS|
 C Forging a Head |QID|12985|N|Use the pick on the dead Iron Giants.|U|42424|M|69.7,58.9|S|
 K Brittle Revenants |QID|12981|N|You need 5 Essence of Ice.|L|42246 5|
 C Hot and Cold |QID|12981|N|The Smoldering Scraps are on the ground. Throw the ice at the scraps to get Frozen Iron Scraps.|U|42246|M|73.11,63.04|
 C Forging a Head |QID|12985|N|Use the pick on the dead Iron Giants.|U|42424|M|69.7,58.9|US|
-C Blowing Hodir's Horn |QID|12977|N|Kill the Restless Frostborn and Niffelem Forefathers. Blow the horn to release their spirits.|U|42164|M|72.1,51.8|
-T Blowing Hodir's Horn |QID|12977|N|To Hodir's Horn|M|64.12,64.95|
+C Hodir's Call |QID|12977|N|Kill the Restless Frostborn and Niffelem Forefathers. Blow the horn to release their spirits.|U|42164|M|72.1,51.8|
+T Hodir's Call |QID|12977|N|To Hodir's Horn|M|64.12,64.95|
 T Forging a Head |QID|12985|M|63.2,63.2|N|To Njormeld|
-A Mounting Hodir's Helm |QID|12987|PRE|12985|M|63.2,63.2|N|From Njormeld|
+A Placing Hodir's Helm |QID|12987|PRE|12985|M|63.2,63.2|N|From Njormeld|
 T Hot and Cold |QID|12981|N|To Fjorn's Anvil|M|63.19,62.95|
-C Mounting Hodir's Helm |QID|12987|N|Fly to , use the Tablets. You don't have to dismount. By the way it's in the air, not on the ground. Look for the glimmering  crystal.|U|42442|M|64.26,59.23|
-T Mounting Hodir's Helm |QID|12987|M|63.2,63.2|
-A Polishing the Helm |QID|13006|PRE|12985|N|Daily Quest From Hodir's Helm|M|64.2,59.2|
+C Placing Hodir's Helm |QID|12987|N|Fly to , use the Tablets. You don't have to dismount. By the way it's in the air, not on the ground. Look for the glimmering  crystal.|U|42442|M|64.26,59.23|
+T Placing Hodir's Helm |QID|12987|M|63.2,63.2|
+A A Viscous Cleaning |QID|13006|PRE|12985|N|Daily Quest From Hodir's Helm|M|64.2,59.2|
 A Raising Hodir's Spear|QID|13001|N|From LoreKeeper Randvir|M|64.82,59.02|
-A Jormuttar is Soo Fat... |QID|13011|M|65.4,60.2|N|From King Jokkum|
+A Culling Jorcuttar |QID|13011|M|65.4,60.2|N|From King Jokkum|
 K Raising Hodir's Spear|QID|13001|QO|2|N|Kill Stoic Mammoths for their Hide|M|58.88,60.69|
-C Polishing the Helm |QID|13006|N|Kill Viscous Oils in the cave.|M|55.6,63.4|S|
+C A Viscous Cleaning |QID|13006|N|Kill Viscous Oils in the cave.|M|55.6,63.4|S|
 C Raising Hodir's Spear|QID|13001|QO|1|N|Pick up Everfrost Shards|S|
 U Everfrost Razor |QID|13011|N|Use the Everfrost Razor on the dead bears to get a flank.|U|42732|L|42733 1|M|55.6,63.4|
-C Jormuttar is Soo Fat... |QID|13011|N|Use the flank in the crater at the back of the cave. Kill.|U|42733|M|54.71,50.6|
+C Culling Jorcuttar |QID|13011|N|Use the flank in the crater at the back of the cave. Kill.|U|42733|M|54.71,50.6|
 C Raising Hodir's Spear|QID|13001|QO|1|N|Pick up Everfrost Shards|M|54.72,60.77|US|
-C Polishing the Helm |QID|13006|N|Kill Viscous Oils in the cave.|M|55.6,63.4|US|
-T Polishing the Helm |QID|13006|M|64.2,59.2|N|To Hodir's Helm|
+C A Viscous Cleaning |QID|13006|N|Kill Viscous Oils in the cave.|M|55.6,63.4|US|
+T A Viscous Cleaning |QID|13006|M|64.2,59.2|N|To Hodir's Helm|
 T Raising Hodir's Spear|QID|13001|N|To LoreKeeper Randvir|M|64.82,59.02|
-T Jormuttar is Soo Fat... |QID|13011|M|65.4,60.2|N|To King Jokkum|
+T Culling Jorcuttar |QID|13011|M|65.4,60.2|N|To King Jokkum|
 C Talk to King Jokkum |QID|13010|QO|1|N|He will allow you to ride him to a meeting with Thorim. Watch the cut scene.|CHAT|
 T Krolmir, Hammer of Storms |QID|13010|M|71.4,48.8|N|To Thorim|
 A The Terrace of the Makers |QID|13057|PRE|13010|M|71.4,48.8|N|From Thorim|

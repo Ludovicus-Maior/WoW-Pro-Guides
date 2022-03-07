@@ -58,10 +58,10 @@ N Smuggler's Scar|QID|25587|M|56.24,31.23|Z|Kelp'thar Forest|N|Go inside, until 
 C Gimme Shelter!|QID|25587|M|53.67,34.32|Z|Kelp'thar Forest|N|Swim back out of the cave to signal Adarrah.|
 T Gimme Shelter!|QID|25587|M|57.09,28.87|Z|Kelp'thar Forest|N|Swim back into the cave and talk to Adarrah.|
 A Ain't Too Proud to Beg|QID|25598|PRE|25587|M|57.09,28.87|Z|Kelp'thar Forest|N|From Adarrah.|
-A A Case of Crabs|QID|25388|PRE|25587|M|49.82,40.84|Z|Kelp'thar Forest|N|Swim back out into the Kelp Forest and find a crate. Click on the crate to accept A Case of Crabs.|
+A A Crate of Crabs|QID|25388|PRE|25587|M|49.82,40.84|Z|Kelp'thar Forest|N|Swim back out into the Kelp Forest and click on the Crate of Crabs to accept the quest.|
 C Ain't Too Proud to Beg|QID|25598|M|48.23,39.49|Z|Kelp'thar Forest|N|Find Captain Samir and Mack Fearsen. Talk to Samir and tell him about Smuggler's Hole.|
 T Ain't Too Proud to Beg|QID|25598|M|57.23,28.77|Z|Kelp'thar Forest|N|To Adarrah.|
-T A Case of Crabs|QID|25388|M|57.23,28.77|Z|Kelp'thar Forest|N|To Adarrah.|
+T A Crate of Crabs|QID|25388|M|57.23,28.77|Z|Kelp'thar Forest|N|To Adarrah.|
 A A Girl's Best Friend|QID|25390|PRE|25388&25598|M|57.18,28.74|Z|Kelp'thar Forest|N|From Adarrah.|
 A A Taste For Tail|QID|25389|PRE|25388&25598|M|57.18,28.74|Z|Kelp'thar Forest|N|From Adarrah.|
 A Can't Start a Fire Without a Spark|QID|25602|PRE|25388&25598|M|57.25,28.86|Z|Kelp'thar Forest|N|From Captain Samir.|

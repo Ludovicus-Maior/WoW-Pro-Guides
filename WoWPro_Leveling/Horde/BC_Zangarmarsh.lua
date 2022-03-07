@@ -47,7 +47,7 @@ T No More Mushrooms!|QID|9773|M|84.4,54.3|N|To Magasha.|
 T There's No Explanation for Fashion|QID|9769|M|84.4,54.3|N|To Magasha.|
 T Menacing Marshfangs|QID|9770|M|85.0,54.0|N|To Reavij.|
 A A Job Undone|QID|9899|M|84.4,54.3|N|From Magasha.|PRE|9770^9769|
-A Nothin' Says Lovin' Like a Big Stinger|QID|9898|PRE|9770|M|85.0,54.0|N|From Reavij.|
+A The Respect of Another|QID|9898|PRE|9770|M|85.0,54.0|N|From Reavij.|
 T Thick Hydra Scales|QID|9774|M|85.3,54.8|N|To Zurai.|
 A Searching for Scout Jyoba|QID|9771|PRE|9774|M|85.3,54.8|N|From Zurai.|
 K A Job Undone|QID|9899|QO|1|N|Kill Sporewing.|M|76.61,45.15|
@@ -105,7 +105,7 @@ A Blessings of the Ancients|QID|9785|N|From Windcaller Blackhoof.|M|80.4,64.7|
 C Blessings of the Ancients|QID|9785|QO|1|CHAT|N|To Ashyen.|M|81.04,64.03|
 C Blessings of the Ancients|QID|9785|QO|2|CHAT|N|To Kelethwho wanders around.|M|78.1,63.8|
 T Blessings of the Ancients|QID|9785|M|80.4,64.7|N|To Windcaller Blackhoof.|
-C Nothin' Says Lovin' Like a Big Stinger|QID|9898|N|Kill and loot Blacksting.|M|50,60|
+C The Respect of Another|QID|9898|N|Kill and loot Blacksting.|M|50,60|
 T Watcher Leesa'oh|QID|9697|N|She's southwest along the road. She walks off after a quest is handed in, so you may have to wait a bit.|M|23,66|
 A Observing the Sporelings|QID|9701|M|23.3,66.2|N|From Watcher Leesa'oh.|
 A The Sporelings' Plight|QID|9739|N|From Fahssn.|M|19,63|
@@ -125,7 +125,7 @@ A Familiar Fungi|QID|9708|PRE|9702|M|23.3,66.2|N|From Watcher Leesa'oh.|
 R Zabra'jin|QID|9775|M|33.02,51.15|N|Go to Zabra'jin.|
 f Zabra'jin|QID|9775|M|33.00,51.15|N|Get the flight point at Du'ga.|
 F Swamprat Post|QID|9775|M|33.00,51.15|N|Fly to Swamprat post.|
-T Nothin' Says Lovin' Like a Big Stinger|QID|9898|M|85.0,54.0|N|To Reavij.|
+T The Respect of Another|QID|9898|M|85.0,54.0|N|To Reavij.|
 N Things to do|QID|9808|N|Grab Glowcap Mushrooms on sight. You'll need 10 Glowcaps(red glowing mushrooms), plus more Glowcaps if you plan on buying anything from Sporeggar.|
 A Report to Shadow Hunter Denjai|QID|9775|M|85.3,54.8|N|From Zurai.|
 F Zabra'jin|QID|9708|M|84.77,55.01|N|Fly back to Zabra'jin.|
