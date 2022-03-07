@@ -15,7 +15,7 @@ A Fierce Enemies|QID|10476|M|54.8,71.0|N|From Warden Moi'bff Jill.|
 A WANTED: Giselda the Crone|QID|9936|M|54.65,70.80|N|From the Telaar Bulletin Board.|
 A WANTED: Zorbo the Advisor|QID|9940|M|54.65,70.80|N|From the Telaar Bulletin Board.|
 T A Message to Telaar|QID|9792|M|54.8,71.0|N|To Nahuud.|
-A The Throne of the Elements |QID|9869|M|55.5,68.8|N|From Elementalist Ioki.|
+A The Throne of the Elements|QID|9869|M|55.5,68.8|N|From Elementalist Ioki.|
 A Solving the Problem|QID|9878|M|54.5,72.2|N|From Poli'lukluk the Wiser.|
 A Stopping the Spread|QID|9874|M|54.5,72.2|N|From Otonbu the Sage.|
 A The Ravaged Caravan|QID|9956|M|54.2,70.0|N|From Huntress Kima. She wanders around the village.|
@@ -26,7 +26,7 @@ T The Nesingwary Safari|QID|10113|M|71.46,40.7|N|To Hemet Nesingwary.|
 A Talbuk Mastery|QID|9857|M|71.6,40.5|N|From Harold Lane.|
 A Windroc Mastery|QID|9854|M|71.6,40.5|N|From Shado 'Fitz' Farstrider.|
 A Clefthoof Mastery|QID|9789|M|71.6,40.5|N|From Hemet Nesingwary.|
-N Kristen DeMeza|QID|9897|M|71.42,40.6|N|Kill mobs in this area until Kristen DeMeza shows up at the Nesingwary Safari (it may take a long time).  Kill the undead that spawns. |
+N Kristen DeMeza|QID|9897|M|71.42,40.6|N|Kill mobs in this area until Kristen DeMeza shows up at the Nesingwary Safari (it may take a long time).  Kill the undead that spawns.|
 A I'm Saved!|QID|9897|M|71.42,40.6|N|From Kristen DeMeza. Skip if it takes too long for her to show up.|
 T I'm Saved!|QID|9897|M|71.42,40.6|N|To Harold Lane.|
 C Windroc Mastery|QID|9854|M|64,36|N|Kill the Windrocs needed for this quest.|S|
@@ -104,9 +104,9 @@ T Clefthoof Mastery|QID|9850|M|71.55,40.76|N|To Hemet Nesingwary.|
 A Clefthoof Mastery|QID|9851|PRE|9850|M|71.55,40.76|N|From Hemet Nesingwary.|
 T Windroc Mastery|QID|9855|M|71.55,40.54|N|To Shado 'Fitz' Farstrider.|
 A Windroc Mastery|QID|9856|PRE|9855|M|71.55,40.54|N|From Shado 'Fitz' Farstrider.|
-U Large Hut|QID|9805|M|72.36,50.49|U|24467|N|Go inside the hut and use the Living Fire.|QO|1|; Large Hut Destroyed: 1/1
-U Western Hut|QID|9805|M|70.75,51.14|U|24467|N|Go inside the hut and use the Living Fire.|QO|2|; Western Hut Destroyed: 1/1
-U Southern Hut|QID|9805|M|71.46,52.95|U|24467|N|Go inside the hut and use the Living Fire.|QO|3|; Southern Hut Destroyed: 1/1
+U Large Hut|QID|9805|M|72.36,50.49|QO|1|N|Go inside the hut and use the Living Fire.|U|24467|; Large Hut Destroyed: 1/1
+U Western Hut|QID|9805|M|70.75,51.14|QO|2|N|Go inside the hut and use the Living Fire.|U|24467|; Western Hut Destroyed: 1/1
+U Southern Hut|QID|9805|M|71.46,52.95|QO|3|N|Go inside the hut and use the Living Fire.|U|24467|; Southern Hut Destroyed: 1/1
 C Blessing of Incineratus|QID|9805|M|72.72,54.65|N|Go inside the hut and use the Living Fire.|U|24467|
 T Blessing of Incineratus|QID|9805|M|60.5,22.4|N|To Elementalist Lo'ap.|
 A The Spirit Polluted|QID|9810|PRE|9805|M|60.5,22.4|N|From Elementalist Lo'ap.|
@@ -126,7 +126,7 @@ C The Totem of Kar'dash|QID|9879|N|Kill the mobs that spawn and make sure you ar
 C Solving the Problem|QID|9878|M|32,43|N|Kill mobs until you finish this quest.|US|
 C Murkblood Corrupters|QID|9862|M|32,43|N|Kill mobs until you finish this quest.|US|
 C Stopping the Spread|QID|9874|M|33.2,47.7|N|Use the torch on the rest of the corpses for this quest.|U|24560|US|
-N From now on...|N|From now on, kill Aged Clefthoofs and Greater Windrocs for the quest "Vision of the Dead" |
+N From now on...|N|From now on, kill Aged Clefthoofs and Greater Windrocs for the quest "Vision of the Dead"|
 K Bach'lor|ACTIVE|9859|M|29.1,33.8;26.2,50.6|QO|1|CN|N|Kill Bach'lor and loot his hoof.|T|Bach'lor|L|24523|S|
 T He Called Himself Altruis...|QID|9982|M|27.29,43.1|N|To Altruis the Sufferer.|
 A Survey the Land|QID|9991|PRE|9982^9983|M|27.29,43.1|N|To Altruis the Sufferer.|
@@ -218,7 +218,6 @@ T WANTED: Zorbo the Advisor|QID|9940|M|54.8,71.0|N|To Waden Moi'bff Jill.|
 A WANTED: Durn the Hungerer|QID|9938|PRE|9936&9940|M|54.8,71.0|N|From Waden Moi'bff Jill.|
 T Cho'war the Pillager|QID|9955|M|55.44,68.78|N|To Arechron.|
 T Ortor My Old Friend...|QID|9873|M|55.44,68.78|N|To Arechron.|
-A Visions of Destruction|QID|11044|M|55.36,68.74|N|From Seer Jovar. This quest takes you into Shadowmoon Valley if you wish to do that zone.|
 T Body of Evidence|QID|9932|M|73.8,62.6|N|To Lantresor of the Blade.|
 T Returning the Favor|QID|9931|M|73.8,62.6|N|To Lantresor of the Blade.|
 A Message to Telaar|QID|9933|PRE|9932&9931|M|73.8,62.6|N|From Lantresor of the Blade.|
