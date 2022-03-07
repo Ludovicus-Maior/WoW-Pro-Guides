@@ -8,15 +8,18 @@ WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Tailoring")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;  Guide structures:
 ;  For the QID is Prof (197), Item ID/Spell ID(000000) - QIDs Mean NOTHING in guide.
 ;  For the N Steps - QID is just 197+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
-;	 ie M [item=1251/Linen Bandage]|QID|197003275|P|Tailoring;197;0+50;1|ITEM|1251|CRAFT|3275 55|MATS|2589 1|
-;  For the = Steps - QID|Prof,Step Increment| |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 40 |197000401| and |197000402|  // |RECIPE|3276|N|Learn [spell=3276/Heavy Linen Bandage] Recipe from Trainer|
+;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		ie M [item=173192/Shrouded Cloth Bandage]|QID|197310924|CRAFT|310924 17|P|Tailoring;197;8+15;1|MATS|173202 17|N|Recipe will be yellow for the last 5 points.|
+;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 197310949 ('310979' is spell ID)
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
+;		= Learn Recipes|QID|197000151|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;8+15|RECIPE|310871|N|Learn [spell=310871/Shrouded Cloth Cape] Recipe, from Trainer|
+;		IE learn 2 at lvl 40 |197000401| and |197000402|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+
+;  Updated to The Burning Crusade splits / new format on 23-July-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
 N Things To Note|QID|197000001|N|\nThis guide only covers CLASSIC BURNING CRUSADE content, currently rewritten to our new format.|
 N PLEASE Report any issues|QID|197000002|N|In our Discord #TBC-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|

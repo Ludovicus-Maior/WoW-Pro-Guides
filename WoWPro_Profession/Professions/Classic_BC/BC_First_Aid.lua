@@ -6,16 +6,17 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ;  Guide structures:
-;  For the QID is Prof (129), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
-
-;	IE M [item=1251/Linen Bandage]|QID|129003275|P|First Aid;129;0+40;1|ITEM|1251|CRAFT|3275 50|MATS|2589 1|
-
-;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 15 |129000151| and |129000152|  // |RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion]
+;  For the QID is Prof (129), Spell ID(000000) - QIDs mean NOTHING in guides.
+;  For the N Steps - QID is just 129+00000# - Prof and increment numbers padded to 6 digits.
+;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		IE M [item=1251/Linen Bandage]|QID|129003275|P|First Aid;129;0+40;1|ITEM|1251|CRAFT|3275 50|MATS|2589 1|
+;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
+;		U Learn Recipe|QID|129001251|P|First Aid;129;0+125|RECIPE|7924|U|16113|N|Learn [spell=10840/Mageweave Bandage] from the [item=16113/Manual - Mageweave Bandage].|
+;		IE learn 2 at lvl 25 |129000251| and |129000252|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Updated to Classic splits / new format on 23-July-2021 by Blanckaert
+;  Updated to Classic splits / new format on 23-July-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
 N This Guide|QID|129000001|N|Covers VANILLA content in CLASSIC only. Guide rewritten to new format.|
 N PLEASE Report any issues|QID|129000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
@@ -29,8 +30,6 @@ l [item=4306/Silk Cloth]|QID|129000004|L|4306 150|ITEM|4306|N|You'll need approx
 l [item=4338/Mageweave Cloth]|QID|129000004|L|4338 120|ITEM|4338|N|You'll need approx 120 Mageweave Cloth.|
 l [item=14047/Runecloth]|QID|129000004|L|14047 220|ITEM|14047|N|You'll need approx 220 Runecloth.|
 l [item=21877/Netherweave Cloth]|QID|129000004|L|21877 85|ITEM|21877|N|You'll need approx 85 Netherweave Cloth.|
-
-N Shopping List|QID|129000005|N|This completes the Shopping List|
 
 N Shopping List|QID|129000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

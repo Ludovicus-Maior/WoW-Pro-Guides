@@ -9,41 +9,43 @@ WoWPro:GuideName(guide, "Alchemy_Classic")
 WoWPro:GuideNickname(guide, "ALC_Classic")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;  Guide structures:
-;  For the QID is Prof (171), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
-;	 IE M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;0+8;1|CRAFT|301578 8|MATS|180732 1;169701 2|N|Create 8, needed in 2 steps.|
-;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 15 |171000151| and |171000152|  // |RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion]
+;  For the QID is Prof (171), Spell ID(000000) - QIDs mean NOTHING in guides.
+;  For the N Steps - QID is just 171+00000# - Prof and increment numbers padded to 6 digits.
+;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		IE M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;8+8;1|CRAFT|301578 8|MATS|180732 1;169701 2|N|Create 8, needed in 2 steps.|
+;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 171309822 ('309822' is spell ID)
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
+;		IE = Learn Recipe|QID|171800151|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion] Recipe, from Trainer.|
+; 		IE learn 2 at lvl 15 |171800151| and |171800152|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Updated to Classic splits / new format on 23-Feb-2021 by Blanckaert
+;  Updated to Classic splits / new format on 23-Feb-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
 N This Guide|QID|171000001|N|Covers VANILLA content in CLASSIC only. Guide rewritten to new format.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 
 N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
-l [item=2447/Peacebloom]|QID|171002447|L|2447 65|ITEM|2447|N|You'll need about 65 Peaceblooms.|
-l [item=765/Silverleaf]|QID|171000765|L|765 65|ITEM|765|N|You'll need about 65 Silverleafs.|
-l [item=2450/Briarthorn]|QID|171002450|L|2450 100|ITEM|2450|N|You'll need about 100 Briarthorns.|
-l [item=785/Mageroyal]|QID|171000785|L|785 20|ITEM|785|N|You'll need about 20 Mageroyals.|
-l [item=2453/Bruiseweed]|QID|171002453|L|2453 35|ITEM|2453|N|You'll need about 35 Bruiseweeds.|
-l [item=3820/Stranglekelp]|QID|171003820|L|3820 50|ITEM|3820|N|You'll need about 50 Stranglekelps.|
-l [item=3357/Liferoot]|QID|171003357|L|3357 35|ITEM|3357|N|You'll need about 35 Liferoots.|
-l [item=3356/Kingsblood]|QID|171003356|L|3356 35|ITEM|3356|N|You'll need about 35 Kingsbloods.|
-l [item=3821/Goldthorn]|QID|171003821|L|3821 55|ITEM|3821|N|You'll need about 55 Goldthorns.|
-l [item=3355/Wild Steelbloom]|QID|171003355|L|3355 5|ITEM|3355|N|You'll need about 5 Wild Steelblooms.|
-l [item=8838/Sungrass]|QID|171008838|L|8838 100|ITEM|8838|N|You'll need about 100 Sungrasses.|
-l [item=3358/Khadgars Whisker]|QID|171003358|L|3358 15|ITEM|3358|N|You'll need about 15 Khadgar's Whiskers.|
-l [item=8836/Arthas Tears]|QID|171008836|L|8836 25|ITEM|8836|N|You'll need about 25 Arthas' Tears.|
-l [item=8839/Blindweed]|QID|171008839|L|8839 60|ITEM|8839|N|You'll need about 60 Blindweeds.|
-l [item=13464/Golden Sansam]|QID|171013464|L|13464 75|ITEM|13464|N|You'll need about 75 Golden Sansams.|
-l [item=13465/Mountain Silversage]|QID|171013465|L|13465 40|ITEM|13465|N|You'll need about 40 Mountain Silversages.|
-B [item=3371/Empty Vial]|QID|171003371|L|3371 125|ITEM|3371|N|You'll need about 125 Empty Vials.|
-B [item=3372/Leaded Vial]|QID|171003372|L|3372 85|ITEM|3372|N|You'll need about 85 Leaded Vials.|
-B [item=8925/Crystal Vial]|QID|171008925|L|8925 120|ITEM|8925|N|You'll need about 120 Crystal Vials.|
+l [item=2447/Peacebloom]|QID|171000004|L|2447 65|ITEM|2447|N|You'll need about 65 Peaceblooms.|
+l [item=765/Silverleaf]|QID|171000004|L|765 65|ITEM|765|N|You'll need about 65 Silverleafs.|
+l [item=2450/Briarthorn]|QID|171000004|L|2450 100|ITEM|2450|N|You'll need about 100 Briarthorns.|
+l [item=785/Mageroyal]|QID|171000004|L|785 20|ITEM|785|N|You'll need about 20 Mageroyals.|
+l [item=2453/Bruiseweed]|QID|171000004|L|2453 35|ITEM|2453|N|You'll need about 35 Bruiseweeds.|
+l [item=3820/Stranglekelp]|QID|171000004|L|3820 50|ITEM|3820|N|You'll need about 50 Stranglekelps.|
+l [item=3357/Liferoot]|QID|171000004|L|3357 35|ITEM|3357|N|You'll need about 35 Liferoots.|
+l [item=3356/Kingsblood]|QID|171000004|L|3356 35|ITEM|3356|N|You'll need about 35 Kingsbloods.|
+l [item=3821/Goldthorn]|QID|171000004|L|3821 55|ITEM|3821|N|You'll need about 55 Goldthorns.|
+l [item=3355/Wild Steelbloom]|QID|171000004|L|3355 5|ITEM|3355|N|You'll need about 5 Wild Steelblooms.|
+l [item=8838/Sungrass]|QID|171000004|L|8838 100|ITEM|8838|N|You'll need about 100 Sungrasses.|
+l [item=3358/Khadgars Whisker]|QID|171000004|L|3358 15|ITEM|3358|N|You'll need about 15 Khadgar's Whiskers.|
+l [item=8836/Arthas Tears]|QID|171000004|L|8836 25|ITEM|8836|N|You'll need about 25 Arthas' Tears.|
+l [item=8839/Blindweed]|QID|171000004|L|8839 60|ITEM|8839|N|You'll need about 60 Blindweeds.|
+l [item=13464/Golden Sansam]|QID|171000004|L|13464 75|ITEM|13464|N|You'll need about 75 Golden Sansams.|
+l [item=13465/Mountain Silversage]|QID|171000004|L|13465 40|ITEM|13465|N|You'll need about 40 Mountain Silversages.|
+B [item=3371/Empty Vial]|QID|171000004|L|3371 125|ITEM|3371|N|You'll need about 125 Empty Vials.|
+B [item=3372/Leaded Vial]|QID|171000004|L|3372 85|ITEM|3372|N|You'll need about 85 Leaded Vials.|
+B [item=8925/Crystal Vial]|QID|171000004|L|8925 120|ITEM|8925|N|You'll need about 120 Crystal Vials.|
 
 N Shopping List|QID|171000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

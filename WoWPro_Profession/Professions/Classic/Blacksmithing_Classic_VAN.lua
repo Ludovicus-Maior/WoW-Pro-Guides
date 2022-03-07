@@ -9,57 +9,55 @@ WoWPro:GuideName(guide, "Blacksmithing_Classic")
 WoWPro:GuideNickname(guide, "BSM_Classic")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;  Guide structures:
-;  For the QID is Prof (164), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Note.
-;	 IE M [item=2862/Rough Sharpening Stone]|QID|164002660|P|Blacksmithing;164;0+25;1|ITEM|2862|CRAFT|2660 25|MATS|2835 25|N|Might have to make more then 25, This will be yellow for the last 5 points.|
-;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 15 |164000151| and |164000152|  // |RECIPE|307671|N|Learn [spell=307671/Ceremonious Shield] Recipe from Trainer.|
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
-;
-;  Typed update to Cata/MOP splits on 27-Oct-2020 by Blanckaert (This is NOT tested)
+;  For the QID is Prof (164), Spell ID(000000) - QIDs mean NOTHING in guides.
+;  For the N Steps - QID is just 164+00000# - Prof and increment numbers padded to 6 digits.
+;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		IE M [item=171381/Ceremonious Armguards]|QID|164307670|P|Blacksmithing;164;8+06;1|CRAFT|307670 5|MATS|171828 4;180733 1|
+;  For the = Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
+;		= Learn Recipe|QID|164700151|P|Blacksmithing;164;7+15|RECIPE|253180|N|Learn [spell=253180/Monel-Hardened Waistguard] Recipe from Trainer.|
+;		IE learn 2 at lvl 15 |164700151| and |164700152|
+;  Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+;  Typed update for Classic (Vanilla) split on 27-Oct-2020 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )  (This is NOT tested)
 
 N This Guide is a Work In Progress Guide.|QID|164000001|N|Currently in Development, This Guide covers Vanilla 1-300 content in Classic.\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
+N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps..\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 N Miner|QID|164000005|P|Mining;186;0;0|N|If you are a miner, running around for these mats will level your mining up. Unfortuantely some might get you killed if your toon is not of level. Currently no guide in the works for mining.|
-
-N Shopping List|QID|164000006|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list, as of Dec-2020
 
-l [item=2835/Rough Stone]|QID|164000006|L|2835 150|ITEM|2835|N|You'll need about 145 Rough Stones.|
-l [item=2836/Coarse Stone]|QID|164000006|L|2836 95|ITEM|2836|N|You'll need about  80 Coarse Stones.|
-l [item=2840/Copper Bar]|QID|164000006|L|2840 150|ITEM|2840|N|You'll need about 150 Copper Bars.|
-l [item=2840/Copper Bar]|QID|164000006|P|Mining;186;0+30;0|L|2840 220|ITEM|2840|N|You'll need about 220 Copper Bars. (70 bars needed to smelt bronze)|
-l [item=3576/Tin Bar]|QID|164000006|P|Mining;186;0+50;0|L|3576 70|ITEM|3576|N|You'll need about 70 Tin Bars, to smelt with 70 Copper Bars to make bronze bars.|
-l [item=2841/Bronze Bar]|QID|164000006|L|2841 140|ITEM|2841|N|You'll need about 140 Bronze Bars (Smelted from Copper and Tin, Click step off if you are a miner, Otherwise buy from AH.)|
-l [item=2842/Silver Bar]|QID|164000006|L|2842 5|ITEM|2842|N|You'll need about 5 Silver Bars.|
-l [item=2838/Heavy Stone]|QID|164000006|L|2838 105|ITEM|2838|N|You'll need about 105 Heavy Stone.|
-l [item=3575/Iron Bar]|QID|164000006|L|3575 230|ITEM|3575|N|You'll need about 230 Iron Bars.|
-l [item=3575/Iron Bar]|QID|164000006|P|Mining;186;0+125;0|L|3575 420|ITEM|3575|N|You'll need about 420 Iron Bars, 190 Bars to smelt with Coal to make Steel Bars.|
-B [item=3857/Coal]|QID|164000006|P|Mining;186;0+125;0|L|3857 190|ITEM|3857|N|Purchase about 190 Coal from Blacksmithing Supply vendor.\nYou'll need these, with the Iron from above to smelt to make Steel Bars.|
-l [item=3859/Steel Bar]|QID|164000006|L|3859 190|ITEM|3859|N|You'll need about 190 Steel Bars (Smelted from Iron Bars and Coal, Click step off if you are a miner, Otherwise buy from AH.)|
-l [item=7912/Solid Stone]|QID|164000006|L|7912 520|ITEM|7912|N|You'll need about 520 Solid Stone.|
-l [item=4338/Mageweave Cloth]|QID|164000006|L|4338 60|ITEM|4338|N|You'll need about 60 Mageweave Cloth.|
-l [item=3860/Mithril Bar]|QID|164000006|L|3860 250|ITEM|3860|N|You'll need about 250 Mithril Bar.|
-l [item=12365/Dense Stone]|QID|164000006|L|12365 20|ITEM|12365|N|You'll need about  20 Dense Stone.|
-l [item=12359/Thorium Bar]|QID|164000006|L|12359 730|ITEM|12359|N|You'll need about 730 Thorium Bar.|
-l [item=7910/Star Ruby]|QID|164000006|L|7910 30|ITEM|7910|N|You'll need about 30 Star Rubies.|
-l [item=7909/Aquamarine]|QID|164000006|L|7909 5|ITEM|7909|N|You'll need about 5 Aquamarine.|
-B [item=2605/Green Dye]|QID|164000006|L|2605 35|ITEM|2605|N|You'll need about 35 Green Dye, Sold by Tailoring or Leatherworking Supply Vendors.|
-B [spell=9964/Mithril Spurs]|QID|164000007|RECIPE|9964|L|7989|N|Purchase [item=7989/Plans - Mithril Spurs] from Auction House, Random drop from level 45-50 mobs.|
-B [spell=16644/Thorium Bracers]|QID|164000007|RECIPE|16644|L|12684|N|Purchase [item=12684/Plans - Thorium Bracers] from Auction House, Random drop from level 45-50 mobs.|
-B [spell=16643/Thorium Belt]|QID|164000007|RECIPE|16643|L|12683|N|Purchase [item=12683/Plans - Thorium Belt] from Auction House, Random drop from level 45-50 mobs.|
-B [spell=16645/Radiant Belt]|QID|164000007|RECIPE|16645|L|12685|N|Purchase [item=12685/Plans - Radiant Belt] from Auction House, Random drop from level 45-50 mobs.|
+l [item=2835/Rough Stone]|QID|164000004|L|2835 150|ITEM|2835|N|You'll need about 145 Rough Stones.|
+l [item=2836/Coarse Stone]|QID|164000004|L|2836 95|ITEM|2836|N|You'll need about  80 Coarse Stones.|
+l [item=2840/Copper Bar]|QID|164000004|L|2840 150|ITEM|2840|N|You'll need about 150 Copper Bars.|
+l [item=2840/Copper Bar]|QID|164000004|P|Mining;186;0+30;0|L|2840 220|ITEM|2840|N|You'll need about 220 Copper Bars. (70 bars needed to smelt bronze)|
+l [item=3576/Tin Bar]|QID|164000004|P|Mining;186;0+50;0|L|3576 70|ITEM|3576|N|You'll need about 70 Tin Bars, to smelt with 70 Copper Bars to make bronze bars.|
+l [item=2841/Bronze Bar]|QID|164000004|L|2841 140|ITEM|2841|N|You'll need about 140 Bronze Bars (Smelted from Copper and Tin, Click step off if you are a miner, Otherwise buy from AH.)|
+l [item=2842/Silver Bar]|QID|164000004|L|2842 5|ITEM|2842|N|You'll need about 5 Silver Bars.|
+l [item=2838/Heavy Stone]|QID|164000004|L|2838 105|ITEM|2838|N|You'll need about 105 Heavy Stone.|
+l [item=3575/Iron Bar]|QID|164000004|L|3575 230|ITEM|3575|N|You'll need about 230 Iron Bars.|
+l [item=3575/Iron Bar]|QID|164000004|P|Mining;186;0+125;0|L|3575 420|ITEM|3575|N|You'll need about 420 Iron Bars, 190 Bars to smelt with Coal to make Steel Bars.|
+B [item=3857/Coal]|QID|164000004|P|Mining;186;0+125;0|L|3857 190|ITEM|3857|N|Purchase about 190 Coal from Blacksmithing Supply vendor.\nYou'll need these, with the Iron from above to smelt to make Steel Bars.|
+l [item=3859/Steel Bar]|QID|164000004|L|3859 190|ITEM|3859|N|You'll need about 190 Steel Bars (Smelted from Iron Bars and Coal, Click step off if you are a miner, Otherwise buy from AH.)|
+l [item=7912/Solid Stone]|QID|164000004|L|7912 520|ITEM|7912|N|You'll need about 520 Solid Stone.|
+l [item=4338/Mageweave Cloth]|QID|164000004|L|4338 60|ITEM|4338|N|You'll need about 60 Mageweave Cloth.|
+l [item=3860/Mithril Bar]|QID|164000004|L|3860 250|ITEM|3860|N|You'll need about 250 Mithril Bar.|
+l [item=12365/Dense Stone]|QID|164000004|L|12365 20|ITEM|12365|N|You'll need about  20 Dense Stone.|
+l [item=12359/Thorium Bar]|QID|164000004|L|12359 730|ITEM|12359|N|You'll need about 730 Thorium Bar.|
+l [item=7910/Star Ruby]|QID|164000004|L|7910 30|ITEM|7910|N|You'll need about 30 Star Rubies.|
+l [item=7909/Aquamarine]|QID|164000004|L|7909 5|ITEM|7909|N|You'll need about 5 Aquamarine.|
+B [item=2605/Green Dye]|QID|164000004|L|2605 35|ITEM|2605|N|You'll need about 35 Green Dye, Sold by Tailoring or Leatherworking Supply Vendors.|
+B [spell=9964/Mithril Spurs]|QID|164000004|RECIPE|9964|L|7989|N|Purchase [item=7989/Plans - Mithril Spurs] from Auction House, Random drop from level 45-50 mobs.|
+B [spell=16644/Thorium Bracers]|QID|164000004|RECIPE|16644|L|12684|N|Purchase [item=12684/Plans - Thorium Bracers] from Auction House, Random drop from level 45-50 mobs.|
+B [spell=16643/Thorium Belt]|QID|164000004|RECIPE|16643|L|12683|N|Purchase [item=12683/Plans - Thorium Belt] from Auction House, Random drop from level 45-50 mobs.|
+B [spell=16645/Radiant Belt]|QID|164000004|RECIPE|16645|L|12685|N|Purchase [item=12685/Plans - Radiant Belt] from Auction House, Random drop from level 45-50 mobs.|
 N Smelting|QID|186000006|P|Mining;186;0|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
-M [item=2841/Bronze Bar]|QID|164000006|P|Mining;186;0+50|L|2841 140|CRAFT|2689 70|MATS|2840 1;3576 1|N|You need a total of 140, due to it makes 2 per smelt this was set to 'make' 70.|
-M [item=3859/Steel Bar]|QID|164000006|P|Mining;186;0+125|L|3859 190|CRAFT|3569 190|MATS|3575 1;3857 1|
-N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+M [item=2841/Bronze Bar]|QID|164000004|P|Mining;186;0+50|L|2841 140|CRAFT|2689 70|MATS|2840 1;3576 1|N|You need a total of 140, due to it makes 2 per smelt this was set to 'make' 70.|
+M [item=3859/Steel Bar]|QID|164000004|P|Mining;186;0+125|L|3859 190|CRAFT|3569 190|MATS|3575 1;3857 1|
+N Shopping List|QID|164000004|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 ; end of shopping list, and pre craft.
 
 = Learn [spell=2018/Blacksmithing]|QID|164002018|SPELL|Blacksmithing;2018|LVL|5|N|Learn from a Trainer in any major city.|

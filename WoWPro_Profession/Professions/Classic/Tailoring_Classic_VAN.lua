@@ -9,38 +9,39 @@ WoWPro:GuideName(guide, "Tailoring_Classic")
 WoWPro:GuideNickname(guide, "TLR_Classic")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;  Guide structures:
 ;  For the QID is Prof (197), Item ID/Spell ID(000000) - QIDs Mean NOTHING in guide.
 ;  For the N Steps - QID is just 197+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
-;	 ie M [item=1251/Linen Bandage]|QID|197003275|P|Tailoring;197;0+50;1|ITEM|1251|CRAFT|3275 55|MATS|2589 1|
-;  For the = Steps - QID|Prof,Step Increment| |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 40 |197000401| and |197000402|  // |RECIPE|3276|N|Learn [spell=3276/Heavy Linen Bandage] Recipe, from Trainer|
+;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		ie M [item=173192/Shrouded Cloth Bandage]|QID|197310924|CRAFT|310924 17|P|Tailoring;197;8+15;1|MATS|173202 17|N|Recipe will be yellow for the last 5 points.|
+;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 197310949 ('310979' is spell ID)
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
+;		= Learn Recipes|QID|197000151|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;8+15|RECIPE|310871|N|Learn [spell=310871/Shrouded Cloth Cape] Recipe, from Trainer|
+;		IE learn 2 at lvl 40 |197000401| and |197000402|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-; N Guide Hub|QID|197000000|JUMP|Tailoring: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+;  Updated to Classic splits / new format on 19-Nov-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
 N Things To Note|QID|197000001|N|\nThis guide only covers CLASSIC VANILLA content, currently rewritten to our new format.|
 N PLEASE Report any issues|QID|197000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|197000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 300.\n This is for those that want to farm all mats prior to starting.\n If you don't want to farm the mats just click off the steps.|
+N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 300.\n This is for those that want to farm all mats prior to starting.\n If you don't want to farm the mats just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
-l [item=2589/Linen Cloth]|QID|197002589|L|2589 205|ITEM|2589|N|You'll need approx 205 Linen Cloth.|
-l [item=2592/Wool Cloth]|QID|197002592|L|2592 135|ITEM|2592|N|You'll need approx 135 Wool Cloth.|
-l [item=4306/Silk Cloth]|QID|197004306|L|4306 780|ITEM|4306|N|You'll need approx 780 Silk Cloth.|
-l [item=4338/Mageweave Cloth]|QID|197004338|L|4338 470|ITEM|4338|N|You'll need approx 470 Mageweave Cloth.|
-l [item=14047/Runecloth]|QID|197014047|L|14047 1195|ITEM|14047|N|You'll need approx 1,195 Runecloth.|
-l [item=8170/Rugged Leather]|QID|197008170|L|8170 110|ITEM|8170|N|You'll need approx 110 Rugged Leather.|
-l [item=2320/Coarse Thread]|QID|197002320|L|2320 55|ITEM|2320|N|You'll need approx 55 Coarse Thread.|
-l [item=2321/Fine Thread]|QID|197002321|L|2321 83|ITEM|2321|N|You'll need approx 83 Fine Thread.|
-l [item=6260/Blue Dye]|QID|197006260|L|6260 30|ITEM|6260|N|You'll need approx 30 Blue Dye.|
-l [item=2324/Bleach]|QID|197002324|L|2324 10|ITEM|2324|N|You'll need approx 10 Bleach.|
-l [item=2604/Red Dye]|QID|197002604|L|2604 60|ITEM|2604|N|You'll need approx 60 Red Dye.|
-l [item=4291/Silken Thread]|QID|197004291|L|4291 20|ITEM|4291|N|You'll need approx 20 Silken Thread.|
-l [item=8343/Heavy Silken Thread]|QID|197008343|L|8343 71|ITEM|8343|N|You'll need approx 71 Heavy Silken Thread.|
-l [item=6261/Orange Dye]|QID|197006261|L|6261 5|ITEM|6261|N|You'll need approx 5 Orange Dye.|
-l [item=14341/Rune Thread]|QID|197014341|L|14341 61|ITEM|14341|N|You'll need approx 61 Rune Thread.|
+l [item=2589/Linen Cloth]|QID|197000004|L|2589 205|ITEM|2589|N|You'll need approx 205 Linen Cloth.|
+l [item=2592/Wool Cloth]|QID|197000004|L|2592 135|ITEM|2592|N|You'll need approx 135 Wool Cloth.|
+l [item=4306/Silk Cloth]|QID|197000004|L|4306 780|ITEM|4306|N|You'll need approx 780 Silk Cloth.|
+l [item=4338/Mageweave Cloth]|QID|197000004|L|4338 470|ITEM|4338|N|You'll need approx 470 Mageweave Cloth.|
+l [item=14047/Runecloth]|QID|197000004|L|14047 1195|ITEM|14047|N|You'll need approx 1,195 Runecloth.|
+l [item=8170/Rugged Leather]|QID|197000004|L|8170 110|ITEM|8170|N|You'll need approx 110 Rugged Leather.|
+l [item=2320/Coarse Thread]|QID|197000004|L|2320 55|ITEM|2320|N|You'll need approx 55 Coarse Thread.|
+l [item=2321/Fine Thread]|QID|197000004|L|2321 83|ITEM|2321|N|You'll need approx 83 Fine Thread.|
+l [item=6260/Blue Dye]|QID|197000004|L|6260 30|ITEM|6260|N|You'll need approx 30 Blue Dye.|
+l [item=2324/Bleach]|QID|197000004|L|2324 10|ITEM|2324|N|You'll need approx 10 Bleach.|
+l [item=2604/Red Dye]|QID|197000004|L|2604 60|ITEM|2604|N|You'll need approx 60 Red Dye.|
+l [item=4291/Silken Thread]|QID|197000004|L|4291 20|ITEM|4291|N|You'll need approx 20 Silken Thread.|
+l [item=8343/Heavy Silken Thread]|QID|197000004|L|8343 71|ITEM|8343|N|You'll need approx 71 Heavy Silken Thread.|
+l [item=6261/Orange Dye]|QID|197000004|L|6261 5|ITEM|6261|N|You'll need approx 5 Orange Dye.|
+l [item=14341/Rune Thread]|QID|197000004|L|14341 61|ITEM|14341|N|You'll need approx 61 Rune Thread.|
 
 N Shopping List|QID|197000005|N|This completes the Shopping List|
 

@@ -9,17 +9,18 @@ WoWPro:GuideName(guide, "Enchanting_Northrend")
 WoWPro:GuideNickname(guide, "ENCH_WotLK")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;  Guide structures:
-;  For the QID is Prof (333), Item ID/Spell ID(000000) - QIDs Mean NOTHING in guide.
-;  For the N Steps - QID is just 333+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
-;	 ie M [item=172406/Enchant Gloves - Shadowlands Gathering]|QID|333309524|P|Enchanting;333;8+10;1|CRAFT|309524 10|MATS|172230 3|
-;  For the = Steps - QID|Prof,Step Increment| |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 15 |333000401| and |333000402|  // |RECIPE|261423|N|Learn [spell=309608/Illuminated Soul]
+;	For the QID is Prof (333), Item ID/Spell ID(000000) - QIDs mean NOTHING in guides.
+;	For the N Steps - QID is just 333+00000# - Prof and increment numbers padded to 6 digits.
+;	For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		IE M [item=172406/Enchant Gloves - Shadowlands Gathering]|QID|333309524|P|Enchanting;333;8+10;1|CRAFT|309524 10|MATS|172230 3|
+;	For the = Learn Recipe Steps - |QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 333264473 ('264473' is spell ID)
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
+;		= Learn Recipes|QID|333800101|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
+;		IE learn 2 at lvl 10 |333800101| and |333800102|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343584/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Typed update to Wraith of the Lich King splits on 15-Feb-2021 by Blanckaert
+;  Typed update to Wraith of the Lich King splits on 15-Feb-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
 N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
@@ -37,11 +38,11 @@ l [item=34054/Infinite Dust]|QID|333000004|L|34054 370|ITEM|34054|N|You'll need 
 l [item=34055/Greater Cosmic Essence]|QID|333000004|L|34055 75|ITEM|34055|N|You'll need at least 75 Greater Cosmic Essence, you have a choice between making two recipes.  You need an extra 30 Cosmic Essence OR 60 Infinite Dusts.|
 l [item=34052/Dream Shard]|QID|333000004|L|34052 12|ITEM|34052|N|You'll need at least 12 Dream Shards, to purchase some Recipes.|
 N Couple Recipes to Buy|QID|333000006|N|There are a couple recipes to go buy, that you'll need for later.|
-B [spell=44631/Enchant Cloak - Shadow Armor]|M|38.39,41.07|Z|125;Dalaran!Crystalsong Forest|P|Enchanting;333;2+65|RECIPE|44631|N|Purchase [item=37349/Forumla: Enchant Cloak - Shadow Armor] from Vanessa Sellers, Simply Enchanting, Dalaran - Northrend.|
-B [spell=47672/Enchant Cloak - Mighty Stamina]|M|38.39,41.07|Z|125;Dalaran!Crystalsong Forest|P|Enchanting;333;2+55|RECIPE|47672|N|Purchase [item=44471/Forumla: Enchant Cloak - Mighty Stamina] from Vanessa Sellers, Simply Enchanting, Dalaran - Northrend.|
-B [spell=47899/Enchant Cloak - Wisdom]|M|38.39,41.07|Z|125;Dalaran!Crystalsong Forest|P|Enchanting;333;2+65|RECIPE|47899|N|Purchase [item=44488/Forumla: Enchant Cloak - Wisdom] from Vanessa Sellers, Simply Enchanting, Dalaran - Northrend.|
+B [spell=44631/Enchant Cloak - Shadow Armor]|QID|333000006|M|38.39,41.07|Z|125;Dalaran!Crystalsong Forest|P|Enchanting;333;2+65|RECIPE|44631|N|Purchase [item=37349/Forumla: Enchant Cloak - Shadow Armor] from Vanessa Sellers, Simply Enchanting, Dalaran - Northrend.|
+B [spell=47672/Enchant Cloak - Mighty Stamina]|QID|333000006|M|38.39,41.07|Z|125;Dalaran!Crystalsong Forest|P|Enchanting;333;2+55|RECIPE|47672|N|Purchase [item=44471/Forumla: Enchant Cloak - Mighty Stamina] from Vanessa Sellers, Simply Enchanting, Dalaran - Northrend.|
+B [spell=47899/Enchant Cloak - Wisdom]|QID|333000006|M|38.39,41.07|Z|125;Dalaran!Crystalsong Forest|P|Enchanting;333;2+65|RECIPE|47899|N|Purchase [item=44488/Forumla: Enchant Cloak - Wisdom] from Vanessa Sellers, Simply Enchanting, Dalaran - Northrend.|
 
-B [item=38682/Enchanting Vellum]|QID|333038682|L|38682 81|ITEM|38682|N|You'll need at least 81 Enchanting Vellums.|
+B [item=38682/Enchanting Vellum]|QID|333000006|L|38682 81|ITEM|38682|N|You'll need at least 81 Enchanting Vellums.|
 
 N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 

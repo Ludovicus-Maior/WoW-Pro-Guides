@@ -10,6 +10,8 @@ WoWPro:GuideName(guide, "BSM: Guide HUB")
 WoWPro:GuideSteps(guide, function()
 return [[
 
+; HUB Created 05/25/2021, by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+
 N Blacksmithing Plans|QID|164001300|JUMP|BSM_VAN|S|N|Jump to Vanilla Blacksmithing Plans 1 - 300 guide.|NOCACHE|
 N Outland Plans|QID|164101075|JUMP|BSM_TBC|S|N|Jump to Outland Plans 1 - 75 guide.|NOCACHE|
 N Northrend Plans|QID|164201075|JUMP|BSM_WotLK|S|N|Jump to Northrend Plans 1 - 75 guide.|NOCACHE|

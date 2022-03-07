@@ -10,14 +10,15 @@ WoWPro:GuideNickname(guide, "ENG_WoD")
 
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;  Guide structures:
-;  For the QID is Prof (202), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
+;  For the QID is Prof (202), Spell ID(000000) - QIDs mean NOTHING in guides.
+;  For the N Steps - QID is just 202+00000# - Prof and increment numbers padded to 6 digits.
+;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
 ;	 IE M [item=4357/Rough Blasting Powder]|QID|202003918|P|Engineering;202;1+0;1|ITEM|4357|CRAFT|3918 60|MATS|2835 1|N|Make all 60, you will need for next step.|
-;  For the = Steps - QID|Prof,Expac,0 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
-;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8
-; 	 IE learn 2 at lvl 15 |202100151| and |202100152|  // |RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion]
+;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 202264479 ('264479' is spell ID)
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
+;		= Learn Recipe|QID|202700251|P|Engineering;202;7+25|RECIPE|280732|N|Learn [spell=280732/Magical Intrusion Dampener] Rank 1, Recipe from Trainer.|
+; 	 IE learn 2 at lvl 25 |202100251| and |202100252|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
 ;  Updated to Retail - Warlords of Draenor splits / new format on 21-Feb-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )

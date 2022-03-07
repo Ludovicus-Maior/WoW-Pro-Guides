@@ -9,17 +9,18 @@ WoWPro:GuideName(guide, "Enchanting_Legion")
 WoWPro:GuideNickname(guide, "ENCH_LEG")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;  Guide structures:
-;  For the QID is Prof (333), Item ID/Spell ID(000000) - QIDs Mean NOTHING in guide.
-;  For the N Steps - QID is just 333+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
-;	 ie M [item=172406/Enchant Gloves - Shadowlands Gathering]|QID|333309524|P|Enchanting;333;8+10;1|CRAFT|309524 10|MATS|172230 3|
-;  For the = Steps - QID|Prof,Step Increment| |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 15 |333000401| and |333000402|  // |RECIPE|261423|N|Learn [spell=309608/Illuminated Soul]
+;	For the QID is Prof (333), Item ID/Spell ID(000000) - QIDs mean NOTHING in guides.
+;	For the N Steps - QID is just 333+00000# - Prof and increment numbers padded to 6 digits.
+;	For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		IE M [item=172406/Enchant Gloves - Shadowlands Gathering]|QID|333309524|P|Enchanting;333;8+10;1|CRAFT|309524 10|MATS|172230 3|
+;	For the = Learn Recipe Steps - |QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 333264473 ('264473' is spell ID)
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8
+;		= Learn Recipes|QID|333800101|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
+;		IE learn 2 at lvl 10 |333800101| and |333800102|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343584/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Typed update to Legion splits on 15-Feb-2021 by Blanckaert
+;  Typed update to Legion splits on 15-Feb-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
 N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
@@ -28,16 +29,16 @@ N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|333000004|N|The next few lines are going to be the amount of mats you need to complete Enchanting Profession Quests.|
 
-l [item=124440/Arkhana]|QID|333124440|L|124440 54|ITEM|124440|N|You'll need at least 54 Arkhana, for the Profession Quests.|
-l [item=124441/Leylight Shard]|QID|333124441|L|124441 15|ITEM|124441|N|You'll need at least 15 Leylight Shard, for the Profession Quests.|
-B [item=38682/Enchanting Vellum]|QID|333038682|L|38682 5|ITEM|38682|N|You'll need at least 5 Enchanting Vellums, for the Profession Quests.|
+l [item=124440/Arkhana]|QID|333000004|L|124440 54|ITEM|124440|N|You'll need at least 54 Arkhana, for the Profession Quests.|
+l [item=124441/Leylight Shard]|QID|333000004|L|124441 15|ITEM|124441|N|You'll need at least 15 Leylight Shard, for the Profession Quests.|
+B [item=38682/Enchanting Vellum]|QID|333000004|L|38682 5|ITEM|38682|N|You'll need at least 5 Enchanting Vellums, for the Profession Quests.|
 
 N Legion Profession Quests|QID|333000005|N|Before doing this guide it is recommened you do all the Legion Enchanting Quests.  They are all in the 'Legion Profession' Guide. Right Click this step to active the Jump step for that guide.  Once you are done with that guide, please manually switch back to this one.|
 N Legion Profession Quests|QID|333000006|JUMP|LEG_PROF|N|Before doing this guide it is recommened you do all the Legion Enchanting Quests.  They are all in the 'Legion Profession' Guide.|
 
 N Shopping List|QID|333000007|N|The next few lines are going to be the TOTAL amount of mats you need to complete Legion 1 to 100, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
-l [item=124442/Chaos Crystal]|QID|333124442|L|124442 175|ITEM|124442|N|You'll need at least 175 Chaos Crystals.|
-l [item=124440/Arkhana]|QID|333124440|L|124440 1050|ITEM|124440|N|You'll need at least 1,050 Arkhana, to a higher limit of 1,600 depending on what Rank you have of the recipes.|
+l [item=124442/Chaos Crystal]|QID|3330000072|L|124442 175|ITEM|124442|N|You'll need at least 175 Chaos Crystals.|
+l [item=124440/Arkhana]|QID|333000007|L|124440 1050|ITEM|124440|N|You'll need at least 1,050 Arkhana, to a higher limit of 1,600 depending on what Rank you have of the recipes.|
 
 N Shopping List|QID|333000008|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
