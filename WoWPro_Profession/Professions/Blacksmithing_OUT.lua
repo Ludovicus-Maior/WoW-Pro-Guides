@@ -9,16 +9,18 @@ WoWPro:GuideName(guide, "Blacksmithing_Outland")
 WoWPro:GuideNickname(guide, "BSM_TBC")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;  Guide structures:
-;  For the QID is Prof (164), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
-;	 IE [item=28420/Fel Weightstone]|QID|164034607|P|Blacksmithing;164;1+5;1|ITEM|28420|CRAFT|34607 7|MATS|23445 1;21877 1|
-;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 15 |164000151| and |164000152|  // |RECIPE|29547|N|Learn [spell=29547/Fel Iron Plate Belt] Recipe from Trainer.|
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;  For the QID is Prof (164), Spell ID(000000) - QIDs mean NOTHING in guides.
+;  For the N Steps - QID is just 164+00000# - Prof and increment numbers padded to 6 digits.
+;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		IE M [item=171381/Ceremonious Armguards]|QID|164307670|P|Blacksmithing;164;8+06;1|CRAFT|307670 5|MATS|171828 4;180733 1|
+;  For the = Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
+;		= Learn Recipe|QID|164700151|P|Blacksmithing;164;7+15|RECIPE|253180|N|Learn [spell=253180/Monel-Hardened Waistguard] Recipe from Trainer.|
+;		IE learn 2 at lvl 15 |164700151| and |164700152|
+;  Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Typed update to Northrend splits on 7-Jan-2021 by Blanckaert - converted to new format. (This is NOT tested)
+;  Typed update to The Burning Crusade splits on 7-Jan-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 ) - converted to new format. (This is NOT tested)
 
 N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
@@ -45,27 +47,27 @@ N Shopping List|QID|164000007|N|This completes the Shopping List to Level 60 onl
 = Learn [spell=264436/Outland Blacksmithing]|QID|164264436|M|69.83,42.02|Z|111;Shattrath City|P|Blacksmithing;164;*;0;0|T|Zula Slagfury|SPELL|Outland Blacksmithing;264436|LVL|5|N|From Zula Slagfury, in Shattrath.|
 
 M [item=28420/Fel Weightstone]|QID|164034607|P|Blacksmithing;164;1+5;1|ITEM|28420|CRAFT|34607 7|MATS|23445 1;21877 1|
-= Learn Recipe|QID|164000051|M|70.2,41.4|Z|111;Shattrath City|P|Blacksmithing;164;1+05|RECIPE|29547|N|Learn [spell=29547/Fel Iron Plate Belt] Recipe from Trainer.|
+= Learn Recipe|QID|164100051|M|70.2,41.4|Z|111;Shattrath City|P|Blacksmithing;164;1+05|RECIPE|29547|N|Learn [spell=29547/Fel Iron Plate Belt] Recipe from Trainer.|
 M [item=23484/Fel Iron Plate Belt]|QID|164029547|P|Blacksmithing;164;1+15;1|ITEM|23484|CRAFT|29547 10|MATS|23445 4|
-= Learn Recipe|QID|164000101|M|70.2,41.4|Z|111;Shattrath City|P|Blacksmithing;164;1+10|RECIPE|29552|N|Learn [spell=29552/Fel Iron Chain Gloves] Recipe from Trainer.|
+= Learn Recipe|QID|164100101|M|70.2,41.4|Z|111;Shattrath City|P|Blacksmithing;164;1+10|RECIPE|29552|N|Learn [spell=29552/Fel Iron Chain Gloves] Recipe from Trainer.|
 M [item=23491/Fel Iron Chain Gloves]|QID|164029552|P|Blacksmithing;164;1+20;1|ITEM|23491|CRAFT|29552 5|MATS|23445 5|
-= Learn Recipe|QID|164000151|M|70.2,41.4|Z|111;Shattrath City|P|Blacksmithing;164;1+15|RECIPE|29548|N|Learn [spell=29548/Fel Iron Plate Boots] Recipe from Trainer.|
+= Learn Recipe|QID|164100151|M|70.2,41.4|Z|111;Shattrath City|P|Blacksmithing;164;1+15|RECIPE|29548|N|Learn [spell=29548/Fel Iron Plate Boots] Recipe from Trainer.|
 M [item=23487/Fel Iron Plate Boots]|QID|164029548|P|Blacksmithing;164;1+25;1|ITEM|23487|CRAFT|29548 5|MATS|23445 6|
-= Learn Recipe|QID|164000251|M|70.2,41.4|Z|111;Shattrath City|P|Blacksmithing;164;1+25|RECIPE|32284|N|Learn [spell=32284/Lesser Rune of Warding] Recipe from Trainer.|
+= Learn Recipe|QID|164100251|M|70.2,41.4|Z|111;Shattrath City|P|Blacksmithing;164;1+25|RECIPE|32284|N|Learn [spell=32284/Lesser Rune of Warding] Recipe from Trainer.|
 M [item=23559/Lesser Rune of Warding]|QID|164032284|P|Blacksmithing;164;1+35;1|ITEM|23559|CRAFT|32284 25|MATS|23446 1|
 B [spell=29568/Adamantite Cleaver]|QID|164023591|M|64.09,72.06|Z|111;Shattrath City|P|Blacksmithing;164;1+30|RECIPE|29568|T|Aaron Hollman|L|23591|N|Purchase [item=23591/Plans: Adamantite Cleaver] from Aaron Hollman, Shattrath, Lower City|
-U [item=23591/Plans: Adamantite Cleaver]|QID|164000301|P|Blacksmithing;164;1+30|RECIPE|29568|U|23638|N|Learn the [spell=29568/Adamantite Cleaver] recipe you Purchased.|
+U [item=23591/Plans: Adamantite Cleaver]|QID|164100301|P|Blacksmithing;164;1+30|RECIPE|29568|U|23638|N|Learn the [spell=29568/Adamantite Cleaver] recipe you Purchased.|
 M [item=23503/Adamantite Cleaver]|QID|164029568|P|Blacksmithing;164;1+40;1|ITEM|23503|CRAFT|29568 5|MATS|23446 8|
 F Thrallmar|QID|164029728|M|63.95,41.38|Z|111;Shattrath City|RECIPE|29728|FACTION|Horde|N|Fly to Thrallmar.|
 B [spell=29728/Lesser Ward of Shielding]|QID|164029728|M|53.2,38.2|Z|100;Hellfire Peninsula|P|Blacksmithing;164;1+40;0|RECIPE|29728|T|Rohok|L|23638|N|Purchase [item=23638/Plans: Lesser Ward of Shielding] from Rohok in Thrallmar|FACTION|Horde|
 F Wildhammer Stronghold|QID|164029728|M|63.95,41.38|Z|111;Shattrath City|RECIPE|29728|FACTION|Alliance|N|Fly to Wildhammer Stronghold.|
 B [spell=29728/Lesser Ward of Shielding]|QID|164029728|M|36.8,55.0|Z|104;Shadowmoon Valley|P|Blacksmithing;164;1+40;0|RECIPE|29728|T|Mari Stonehand|L|23638|N|Purchase [item=23638/Plans: Lesser Ward of Shielding] from Mari Stonehand in Wildhammer Stronghold|FACTION|Alliance|
-U [item=23638/Plans: Lesser Ward of Shielding]|QID|164000401|P|Blacksmithing;164;1+40|RECIPE|29728|U|23638|N|Learn the [spell=29728/Lesser Ward of Shielding] recipe you Purchased.|
+U [item=23638/Plans: Lesser Ward of Shielding]|QID|164100401|P|Blacksmithing;164;1+40|RECIPE|29728|U|23638|N|Learn the [spell=29728/Lesser Ward of Shielding] recipe you Purchased.|
 M [item=23575/Lesser Ward of Shielding]|QID|164029728|P|Blacksmithing;164;1+50;1|ITEM|23575|CRAFT|29728 25|MATS|23446 1|N|Might have to make more then 25|
 F Swamprat Post|QID|164028632|M|63.95,41.38|Z|111;Shattrath City|RECIPE|34608|FACTION|Horde|N|Fly to Swamprat Post, then run to Cenarion Refuge.|
 F Telredor|QID|164028632|M|63.95,41.38|Z|111;Shattrath City|RECIPE|34608|FACTION|Alliance|N|Fly to Telredor, then run to Cenarion Refuge.|
 B [spell=34608/Adamantite Weightstone]|QID|164028632|M|79.2,63.8|Z|102;Zangarmarsh|RECIPE|34608|P|Blacksmithing;164;1+50;0|REP|Cenarion Expedition;942;Honored-Exalted|T|Fedryen Swiftspear|N|Purchase [item=28632/Plans: Adamantite Weightstone] from Fedryen Swiftspear, Cenarion Refuge\n(Needs at least Honoured with Cenarion Expedition).|
-U [item=28632/Plans: Adamantite Weightstone]|QID|164000501|P|Blacksmithing;164;1+50|RECIPE|34608|U|28632|N|Learn the [spell=34608/Adamantite Weightstone] recipe you Purchased.|
+U [item=28632/Plans: Adamantite Weightstone]|QID|164100501|P|Blacksmithing;164;1+50|RECIPE|34608|U|28632|N|Learn the [spell=34608/Adamantite Weightstone] recipe you Purchased.|
 M [item=28421/Adamantite Weightstone]|QID|164034608|P|Blacksmithing;164;1+60;1|ITEM|28421|CRAFT|34608 25|MATS|23446 1;21877 2|
 
 N Leveling from 60 to 75|QID|164060275|N|There are three different ways to finish from 60 to 75, Reputation with The Scryers or The Aldor, OR running The Botanica AND Auchenai Crypts.  All three methods will be covered just RIGHT Click off which ever you want to skip.|

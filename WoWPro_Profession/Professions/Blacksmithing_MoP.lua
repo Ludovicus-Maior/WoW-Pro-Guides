@@ -9,16 +9,18 @@ WoWPro:GuideName(guide, "Blacksmithing_Pandaria")
 WoWPro:GuideNickname(guide, "BSM_MoP")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;  Guide structures:
-;  For the QID is Prof (164), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
-;	 IE [item=28420/Fel Weightstone]|QID|164034607|P|Blacksmithing;164;1+5;1|ITEM|28420|CRAFT|34607 7|MATS|23445 1;21877 1|
-;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 15 |164000151| and |164000152|  // |RECIPE|29547|N|Learn [spell=29547/Fel Iron Plate Belt] Recipe from Trainer.|
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;  For the QID is Prof (164), Spell ID(000000) - QIDs mean NOTHING in guides.
+;  For the N Steps - QID is just 164+00000# - Prof and increment numbers padded to 6 digits.
+;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		IE M [item=171381/Ceremonious Armguards]|QID|164307670|P|Blacksmithing;164;8+06;1|CRAFT|307670 5|MATS|171828 4;180733 1|
+;  For the = Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
+;		= Learn Recipe|QID|164700151|P|Blacksmithing;164;7+15|RECIPE|253180|N|Learn [spell=253180/Monel-Hardened Waistguard] Recipe from Trainer.|
+;		IE learn 2 at lvl 15 |164700151| and |164700152|
+;  Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Typed update to Pandaria splits on 27-Jan-2021 by Blanckaert - converted to new format. (This is NOT tested)
+;  Typed update to Pandaria splits on 27-Jan-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 ) - converted to new format. (This is NOT tested)
 
 N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
@@ -41,11 +43,11 @@ N Shopping List|QID|164000005|N|This completes the Shopping List. You may either
 = Learn [spell=264442/Pandaria Blacksmithing]|QID|164264442|M|48.42,36.81|Z|The Jade Forest|P|Blacksmithing;164;*;0;0|SPELL|Pandaria Blacksmithing;264442|LVL|5|N|From Len the Hammer, Greenstone Village, The Jade Forest, Or Any Blacksmith Trainers in the Vale of Eternal Blossoms.|
 
 M [item=82906/Ghost Forged Gauntlets]|QID|164122579|P|Blacksmithing;164;4+15;1|ITEM|82906|CRAFT|122579 15|MATS|72096 7|
-= Learn Recipe|QID|164000151|P|Blacksmithing;164;4+15|RECIPE|122577|N|Learn [spell=122577/Ghost Forged Shoulders] Recipe from Trainer.|
+= Learn Recipe|QID|164400151|P|Blacksmithing;164;4+15|RECIPE|122577|N|Learn [spell=122577/Ghost Forged Shoulders] Recipe from Trainer.|
 M [item=82904/Ghost Forged Shoulders]|QID|164122577|P|Blacksmithing;164;4+30;1|ITEM|82904|CRAFT|122577 15|MATS|72096 7|
-= Learn Recipe|QID|164000201|P|Blacksmithing;164;4+20|RECIPE|122636|N|Learn [spell=122636/Spiritguard Shield] Recipe from Trainer.|
+= Learn Recipe|QID|164400201|P|Blacksmithing;164;4+20|RECIPE|122636|N|Learn [spell=122636/Spiritguard Shield] Recipe from Trainer.|
 M [item=82962/Spiritguard Shield]|QID|164122636|P|Blacksmithing;164;4+35;1|ITEM|82962|CRAFT|122636 5|MATS|72096 9|
-= Learn Recipe|QID|164000251|P|Blacksmithing;164;4+25|RECIPE|122576|N|Learn [spell=122576/Ghost Forged Helm] Recipe from Trainer.|
+= Learn Recipe|QID|164400251|P|Blacksmithing;164;4+25|RECIPE|122576|N|Learn [spell=122576/Ghost Forged Helm] Recipe from Trainer.|
 M [item=82903/Ghost Forged Helm]|QID|164122576|P|Blacksmithing;164;4+50;1|ITEM|82903|CRAFT|122576 20|MATS|72096 12|
 B [spell=122621/Contenders Revenant Bracers]|QID|164122621|M|26.8,46.6|Z|Shrine of Two Moons|P|Blacksmithing;164;4+50|RECIPE|122621|N|Purchase [item=84159/Plans: Contenders Revenant Bracers], From Jorunga Stonehoof, in Shrine of Two Moons.|FACTION|Horde|
 B [spell=122621/Contenders Revenant Bracers]|QID|164122621|M|72.6,50.6|Z|Shrine of Seven Stars|P|Blacksmithing;164;4+50|RECIPE|122621|N|Purchase [item=84159/Plans: Contenders Revenant Bracers], From Cullen Hammerbrow, in Shrine of Seven Stars.|FACTION|Alliance|

@@ -10,6 +10,8 @@ WoWPro:GuideName(guide, "LTW: Guide HUB")
 WoWPro:GuideSteps(guide, function()
 return [[
 
+; HUB Created 25-June-2021, by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+
 N Leatherworking Plans|QID|165001300|JUMP|LTW_VAN|S|N|Jump to Vanilla Leatherworking Plans 1 - 300 guide.|NOCACHE|
 N Outland Plans|QID|165101075|JUMP|LTW_TBC|S|N|Jump to Outland Plans 1 - 75 guide.|NOCACHE|
 N Northrend Plans|QID|165201075|JUMP|LTW_WotLK|S|N|Jump to Northrend Plans 1 - 75 guide.|NOCACHE|

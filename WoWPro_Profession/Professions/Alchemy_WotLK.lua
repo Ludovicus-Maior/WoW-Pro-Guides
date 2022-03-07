@@ -9,16 +9,18 @@ WoWPro:GuideName(guide, "Alchemy_Northrend")
 WoWPro:GuideNickname(guide, "ALC_WotLK")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;  Guide structures:
-;  For the QID is Prof (171), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
-;	 IE M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;8+8;1|CRAFT|301578 8|MATS|180732 1;169701 2|N|Create 8, needed in 2 steps.|
-;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 15 |171000151| and |171000152|  // |RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion]
+;  For the QID is Prof (171), Spell ID(000000) - QIDs mean NOTHING in guides.
+;  For the N Steps - QID is just 171+00000# - Prof and increment numbers padded to 6 digits.
+;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		IE M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;8+8;1|CRAFT|301578 8|MATS|180732 1;169701 2|N|Create 8, needed in 2 steps.|
+;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 171309822 ('309822' is spell ID)
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
+;		IE = Learn Recipe|QID|171800151|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion] Recipe, from Trainer.|
+; 		IE learn 2 at lvl 15 |171800151| and |171800152|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Updated to Wraith of the Lich King splits / new format on 12-Jan-2021 by Blanckaert
+;  Updated to Wraith of the Lich King splits / new format on 12-Jan-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
 N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
@@ -46,25 +48,25 @@ N Shopping List|QID|171000006|N|This completes the Shopping List, you may either
 = Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|42.4,32.0|Z|The Underbelly@Dalaran!Crystalsong Forest|SPELL|Northrend Alchemy;264220|LVL|5|N|Learn from Linzy Blackbolt, Dalaran - Northrend.|
 
 M [item=40067/Icy Mana Potion]|QID|171053839|P|Alchemy;171;2+05;1|ITEM|40067|CRAFT|53839 5|MATS|36907 2;3371 1|
-= Learn Recipe|QID|171000051|P|Alchemy;171;2+05|RECIPE|53900|N|Learn [spell=53900/Potion of Nightmares] Recipe from Trainer.|
+= Learn Recipe|QID|171200051|P|Alchemy;171;2+05|RECIPE|53900|N|Learn [spell=53900/Potion of Nightmares] Recipe from Trainer.|
 M [item=40081/Potion of Nightmares]|QID|171053900|P|Alchemy;171;2+10;1|ITEM|40081|CRAFT|40067 5|MATS|36901 1;36907 2;3371 1|
-= Learn Recipe|QID|171000101|P|Alchemy;171;2+10|RECIPE|54218|N|Learn [spell=54218/Elixir of Mighty Strength] Recipe from Trainer.|
+= Learn Recipe|QID|171200101|P|Alchemy;171;2+10|RECIPE|54218|N|Learn [spell=54218/Elixir of Mighty Strength] Recipe from Trainer.|
 M [item=40073/Elixir of Mighty Strength]|QID|171054218|P|Alchemy;171;2+20;1|ITEM|40073|CRAFT|54218 10|MATS|36904 2;3371 1|
-= Learn Recipe|QID|171000201|P|Alchemy;171;2+20|RECIPE|53840|N|Learn [spell=53840/Elixir of Mighty Agility] Recipe from Trainer.|
+= Learn Recipe|QID|171200201|P|Alchemy;171;2+20|RECIPE|53840|N|Learn [spell=53840/Elixir of Mighty Agility] Recipe from Trainer.|
 M [item=39666/Elixir of Mighty Agility]|QID|171053840|P|Alchemy;171;2+30;1|ITEM|39666|CRAFT|53840 12|MATS|36901 2;36903 2;3371 1|
-= Learn Recipe|QID|171000301|P|Alchemy;171;2+30|RECIPE|53905|N|Learn [spell=53905/Indestructible Potion] Recipe from Trainer.|
+= Learn Recipe|QID|171200301|P|Alchemy;171;2+30|RECIPE|53905|N|Learn [spell=53905/Indestructible Potion] Recipe from Trainer.|
 M [item=40093/Indestructible Potion]|QID|171053905|P|Alchemy;171;2+40;1|ITEM|40093|CRAFT|53905 10|MATS|36906 2;3371 1|
 N Alchemist Stone|QID|171000007|P|Alchemy;171;2+30|N|Consider making your Alchemy Trinket, if you don't have any Philosopher's Stone that can be used for Transmutes. (Right-click to continue)|
-= Learn Recipe|QID|171000401|P|Alchemy;171;2+40|RECIPE|53837|N|Learn [spell=53837/Runic Mana Potion] Recipe from Trainer.|
+= Learn Recipe|QID|171200401|P|Alchemy;171;2+40|RECIPE|53837|N|Learn [spell=53837/Runic Mana Potion] Recipe from Trainer.|
 M [item=33448/Runic Mana Potion]|QID|171053837|P|Alchemy;171;2+55;1|ITEM|33448|CRAFT|53837 30|MATS|36905 2;36901 1;3371 1|
-= Learn Recipe|QID|171000401|P|Alchemy;171;2+40|RECIPE|53837|N|Learn [spell=53837/Runic Mana Potion] Recipe from Trainer.|
+= Learn Recipe|QID|171200401|P|Alchemy;171;2+40|RECIPE|53837|N|Learn [spell=53837/Runic Mana Potion] Recipe from Trainer.|
 M [item=33448/Runic Mana Potion]|QID|171053837|P|Alchemy;171;2+55;1|ITEM|33448|CRAFT|53837 30|MATS|36905 2;36901 1;3371 1|N|You might have to make more than 30, goes green about 47. [color=FF0000]Alternately:[/color] You can Transmute [item=41163/Titanium Bar].|
 M [item=41163/Titanium Bar]|QID|171060350|P|Alchemy;171;2+55;1|ITEM|41163|CRAFT|60350 8|MATS|36913 8|
-= Learn Recipe|QID|171000501|P|Alchemy;171;2+50|RECIPE|57427|N|Learn [spell=57427/Transmute: Earthsiege Diamond] Recipe from Trainer.|
-= Learn Recipe|QID|171000502|P|Alchemy;171;2+50|RECIPE|57425|N|Learn [spell=57425/Transmute: Skyflare Diamond] Recipe from Trainer.|
+= Learn Recipe|QID|171200501|P|Alchemy;171;2+50|RECIPE|57427|N|Learn [spell=57427/Transmute: Earthsiege Diamond] Recipe from Trainer.|
+= Learn Recipe|QID|171200502|P|Alchemy;171;2+50|RECIPE|57425|N|Learn [spell=57425/Transmute: Skyflare Diamond] Recipe from Trainer.|
 M [item=41334/Earthsiege Diamond]|QID|171057427|P|Alchemy;171;2+60;1|ITEM|41334|CRAFT|57427 5|MATS|36932 1;36929 1;36860 1|N|[color=FF0000]Alternately:[/color] You can create [item=41266/Skyflare Diamond].|
 M [item=41266/Skyflare Diamond]|QID|171057425|P|Alchemy;171;2+60;1|ITEM|41266|CRAFT|57425 5|MATS|36917 1;36923 1;35623 1|N|Materials were not listed above.|
-= Learn Recipe|QID|171000601|P|Alchemy;171;2+60|RECIPE|53902|N|Learn [spell=53902/Flask of Stoneblood] Recipe from Trainer.|
+= Learn Recipe|QID|171200601|P|Alchemy;171;2+60|RECIPE|53902|N|Learn [spell=53902/Flask of Stoneblood] Recipe from Trainer.|
 M [item=46379/Flask of Stoneblood]|QID|171053902|P|Alchemy;171;2+75;1|ITEM|46379|CRAFT|53902 15|MATS|36905 7;37704 3;36908 1;3371 1|
 
 N Congratualations!|QID|171000010|N|On reaching 75 in Northrend Alchemy.|

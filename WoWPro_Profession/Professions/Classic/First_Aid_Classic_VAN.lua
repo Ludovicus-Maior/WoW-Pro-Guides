@@ -4,16 +4,18 @@ WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "First Aid Classic")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;  Guide structures:
-;  For the QID is Prof (129), Spell ID(000000)
-;  For the M steps - [item=##/Name] |CRAFT|Spell ID|  |MATS|item## Qty;item## Qty| |N| Notes.
-;   IE M [item=1251/Linen Bandage]|QID|129003275|P|First Aid;129;0+40;1|ITEM|1251|CRAFT|3275 50|MATS|2589 1|
-;  For the = Steps - QID|Prof,00 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
-; 	 IE learn 2 at lvl 15 |129000151| and |129000152|  // |RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion]
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;  For the QID is Prof (129), Item ID/Spell ID(000000) - QIDs Mean NOTHING in guide.
+;  For the N Steps - QID is just 129+00000# - Prof and increment numbers padded to 6 digits.
+;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		IE M [item=1251/Linen Bandage]|QID|129003275|P|First Aid;129;0+40;1|ITEM|1251|CRAFT|3275 50|MATS|2589 1|
+;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
+;		IE U Learn Recipe|QID|129001251|P|First Aid;129;0+125|RECIPE|7924|U|16084|Learn [spell=7924/Expert First Aid] from the [item=16084/Expert First Aid Under Wraps].|
+;		IE learn 2 at lvl 40 |129000401| and |129000402|.
+; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Updated to Classic splits / new format on 23-July-2021 by Blanckaert
+;  Updated to Classic splits / new format on 23-July-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
 N This Guide|QID|129000001|N|Covers VANILLA content in CLASSIC only. Guide rewritten to new format.|
 N PLEASE Report any issues|QID|129000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
