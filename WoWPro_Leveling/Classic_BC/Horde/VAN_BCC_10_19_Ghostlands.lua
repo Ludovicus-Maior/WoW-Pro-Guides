@@ -127,9 +127,9 @@ C Salvaging the Past|QID|9150|M|33.41,32.40|L|22580 8|N|Kill Mana Shifters and A
 C Tomber's Supplies|QID|9152|M|33.55,26.57|L|22583|N|It's in the wagon.\n[color=FF0000]NOTE: [/color]You'll most likely have to clear the area around it.|
 K Investigate An'daroth|ACTIVE|9160|M|37.04,15.90|QO|1|N|Kill the Sentinel Spies around An'daroth.|S|
 R Investigate An'daroth|QID|9160|M|37.2,24.1;38.0,18.7;37.0,15.9|CS|QO|2|N|Head into the center of the area to the monument to get the investigation part.|
-K Investigate An'daroth|ACTIVE|9160|M|37.04,15.90|QO|1|N|Kill the Sentinel Spies around An'daroth.|US|
+K Investigate An'daroth|ACTIVE|9160|M|36.62,15.24|QO|1|N|Kill the Sentinel Spies around An'daroth.|US|
 R Goldenmist Village|ACTIVE|9139|M|33.2,15.0;30.3,16.6|CC|N|Follow Elrendar River west until you reach the waterfall, sticking as close the water edge as you can.\nAt this point, you can either jump off the falls and swim across to the west shore, or work your way across and down the cliffs.|
-C Goldenmist Village|QID|9139|M|26.81,15.27|N|Run/drop down to Goldenmist and kill the ghosts that are needed.|
+K Goldenmist Village|QID|9139|M|26.81,15.27|N|Run/drop down to Goldenmist and kill the ghosts that are needed.|
 C The Plagued Coast|QID|9149|M|19.02,24.06|L|22579 6|N|Kill Murlocs to loot their spines.|
 C Culinary Crunch|QID|9171|M|27.69,30.27|L|22644 5|N|Kill spiders to loot the Crunchy Spider Legs.|US|
 L Level 15|AVAILABLE|9173|M|PLAYER|N|You'll want to be at least halfway to level 15 before returning.|LVL|14;-6490|
@@ -153,10 +153,10 @@ C Underlight Ore Samples|QID|9207|M|29.25,47.93|L|22634 6|N|You should have all 
 K Retaking Windrunner Spire|ACTIVE|9173|M|25.5,55.5;11.0,56.0|CC|QO|1;2|N|Kill Acolytes and Fallen Rangers.\n[color=FF0000]NOTE: [/color]If you're have issues killing them, you can avoid the risk of pulling adds inside the tower by staying on the path, or you can go down the right side, or dropping down the left side at the entrance to the tower platform below you.|
 l The Lady's Necklace|AVAILABLE|9175|M|11.04,56.98|L|22597|N|Kill Acolytes and Fallen Rangers until this drops.|
 A The Lady's Necklace|QID|9175|M|PLAYER|N|Accept the quest from the necklace.|U|22597|O|
+C Windrunner Village|QID|9140|M|17.95,42.65|L|22567 4|N|Kill Stonewing Slayers to loot Gargoyle Fragments. You'll find them spread out around the area.|S|
 R Windrunner Village|ACTIVE|9140|M|18.39,49.85|N|Head back down to the bottom of the path and head north.\n[color=FF0000]NOTE: [/color]If you are on one of the tiers of the tower, you can jump into the water and swim to the village.|
-C Windrunner Village|QID|9140|M|17.95,42.65|QO|2|N|Kill Stonewing Slayers to loot Gargoyle Fragments. You'll find them spread out around the area.|S|
-C Windrunner Village|QID|9140|M|17.62,44.21|QO|1|N|Kill Phantasmal Seekers to loot Phantasmal Substances. You'll find them inside the buildings|
-C Windrunner Village|QID|9140|M|17.95,42.65|QO|2|N|Kill Stonewing Slayers to loot Gargoyle Fragments. You'll find them spread out amongst the buildings in the area.|US|
+C Windrunner Village|QID|9140|M|17.62,44.21|L|22566 6|N|Kill Phantasmal Seekers to loot Phantasmal Substances. You'll find them inside the buildings|
+C Windrunner Village|QID|9140|M|17.95,42.65|L|22567 4|N|Finish collecting your Gargoyle Fragments.\n[color=FF0000]NOTE: [/color]You'll find them spread out amongst the buildings in the area.|US|
 R Shalandis Isle|ACTIVE|9163|M|15.02,28.63|
 C Into Occupied Territory|ACTIVE|9163|M|14.77,26.61;13.70,26.84;12.53,26.51;12.80,25.08|CN|L|22590|QO|1|N|Night Elf Plans: An'daroth can found be in several spots on the isle.|
 C Into Occupied Territory|ACTIVE|9163|M|12.80,25.08;12.54,24.80;12.86,23.92|CN|L|22591|QO|2|N|Night Elf Plans: An'owyn can found be in several spots on the isle.|
