@@ -6,9 +6,9 @@ WoWPro:GuideNextGuide(guide, 'Netherstorm')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
-A Zorus the Judicator|QID|11045|M|33.00,30.25|Z|Terokkar Forest|N|From Fantei in Lower City, Shattrath.|RANK|3|
 A Visions of Destruction|QID|11044|M|55.38,68.73|Z|Nagrand|N|From Seer Jovar.|REP|Kurenai;978;friendly|AVAILABLE|10562|
-F Wildhammer Stronghold |QID|10562|M|37.66,55.33|N|Make your way to Wildhammer Stronghold in Shadowmoon Valley|
+A Zorus the Judicator|QID|11045|M|33.00,30.25|Z|Terokkar Forest|N|From Fantei in Lower City, Shattrath.|RANK|3|LEAD|11044|
+F Wildhammer Stronghold|QID|10562|M|37.66,55.33|N|Make your way to Wildhammer Stronghold in Shadowmoon Valley|
 ; Complete any breadcrumb quests you have
 T Building a Better Gryphon|QID|11043|M|37.6,56.0|N|To Brunn Flamebeard|ACTIVE|11043|
 T Hero's Call: Shadowmoon Valley!|QID|49550|M|39.56,53.68|N|To Wing Commander Nuainn|ACTIVE|49550|
@@ -54,7 +54,7 @@ A Teron Gorefiend - Lore and Legend|QID|10644|PRE|10643|M|36.97,55.16|N|From Zor
 ; Loot icon step wasn't auto-completing, therefore changed to standard C step with QO tag
 C Fel Reaver Power Core|QID|10572|QO|1|M|26.23,41.27|N|Dive underwater to get the power core.|NC|
 C Fel Reaver Armor Plate|QID|10572|QO|2|M|22.20,35.50|N|Loot the armor plate.|NC|
-K Overseer Ripsaw|QID|10621|L|30756 |T|Overseer Ripsaw|N|Find and kill Overseer Ripsaw, then loot the Illidari-Bane Shard.|
+K Overseer Ripsaw|QID|10621|L|30756|T|Overseer Ripsaw|N|Find and kill Overseer Ripsaw, then loot the Illidari-Bane Shard.|
 A Illidari-Bane Shard|QID|10621|U|30756|M|22.49,35.97|N|Accept the quest from the shard.|
 C The Sketh'lon Wreckage|QID|10569|M|36.05,30.78|N|Kill and loot the Dark Conclave Shadowmancer, Ravenguard and Hawkeye until you get all three pages.|
 C Enraged Spirits of Water|QID|10480|U|30094|M|49.18,23.10|N|Use the totem and kill the Enraged Water Spirits near it.|
@@ -109,7 +109,7 @@ T Gaining Access|QID|10589|M|39.50,53.60|N|To Wing Commander Nuainn.|
 A Invasion Point: Cataclysm|QID|10766|PRE|10589|M|39.50,53.60|N|From Wing Commander Nuainn.|
 T Capture the Weapons|QID|10626|M|36.83,54.8|N|To Ordinn Thunderfist.|
 A The Hermit Smith|QID|10662|PRE|10626|M|36.83,54.8|N|From Ordinn Thunderfist.|
-l Lianth's Key|QID|10778|L|31316 |M|47.56,71.70|N|Kill Blood Elves until the key drops.|
+l Lianth's Key|QID|10778|L|31316|M|47.56,71.70|N|Kill Blood Elves until the key drops.|
 C The Rod of Lianthe|QID|10778|M|47.51,71.65|N|Open up the strongbox to get the rod.|NC|
 C The Path of Conquest|QID|10772|NC|M|53.76,67.69|N|After you get to this spot, or a little farther until you get the quest completion.|
 T The Path of Conquest|QID|10772|M|50.89,58.82|N|Use the Wildhammer Flare Gun to call the Wildhammer Gryphon Rider.|U|31310|
@@ -125,7 +125,7 @@ A Thwart the Dark Conclave|QID|10808|PRE|10782|M|35.18,39.79|N|From Parshah.|
 R Invasion Point: Cataclysm|QID|10766|M|25.59,36.23|N|Run to the waypoint and enter the teleporter to get to Invasion Point: Cataclysm.|
 T Invasion Point: Cataclysm|QID|10766|M|40.88,22.27|N|To Plexi.|
 A The Art of Fel Reaver Maintenance|QID|10606|PRE|10766|M|40.88,22.27|N|From Plexi.|
-K Doctor Gutrick|QID|10606|L|30712 |M|39.42,19.56|N|Kill Doctor Gutrick and loot his body for the key.|
+K Doctor Gutrick|QID|10606|L|30712|M|39.42,19.56|N|Kill Doctor Gutrick and loot his body for the key.|
 C The Art of Fel Reaver Maintenance|QID|10606|M|39.41,19.48|N|Loot the book from the chest next to Doctor Gutrick.|
 T The Art of Fel Reaver Maintenance|QID|10606|M|40.86,22.23|N|To Plexi.|
 A The Fel and the Furious|QID|10612|PRE|10606|M|40.86,22.23|N|From Plexi.|
@@ -276,7 +276,7 @@ A The Force of Neltharaku|QID|10854|PRE|10837|M|64.42,60.84|N|From Neltharaku.|
 C The Force of Neltharaku|QID|10854|NC|U|31652|M|68.19,58.70|N|Use the crystal on the Enslaved Netherwing Drake, wait until it turns green then kill the Subjicator. The crystal can not be used in combat.|
 T The Force of Neltharaku|QID|10854|M|66.92,57.86|N|To Neltharaku.|T|Neltharaku|
 A Karynaku|QID|10858|PRE|10854|M|66.92,57.86|N|From Neltharaku.|
-K Val'zareq the Conqueror|QID|10793|L|31345 |M|52,63|N|Look for and kill Val'zareq the Conqueror while killing the other mobs needed. Once he is dead, loot his journal.|S|
+K Val'zareq the Conqueror|QID|10793|L|31345|M|52,63|N|Look for and kill Val'zareq the Conqueror while killing the other mobs needed. Once he is dead, loot his journal.|S|
 C Breaching the Path|QID|10773|M|51.00,58.75|N|Kill everything that is needed in the path.|
 T Breaching the Path|QID|10773|M|52.50,62.91|N|To Wildhammer Gryphon Rider.|U|31310|
 A Blood Elf + Giant = ???|QID|10774|PRE|10773|U|31310|M|52.50,62.91|N|From Wildhammer Gryphon Rider. Use the flaregun to summon him.|
@@ -286,7 +286,7 @@ A Tabards of the Illidari|QID|10775|PRE|10774|M|52.84,69.67|N|From Wildhammer Gr
 C Tabards of the Illidari|QID|10775|M|52.66,70.90|N|Kill any Blood Elf you see to get the tabards.|
 T Tabards of the Illidari|QID|10775|U|31310|M|52.64,70.96|N|To Wildhammer Gryphon Rider. Use the flare gun.|
 A Dissension Amongst the Ranks...|QID|10776|PRE|10775|M|52.64,70.96|N|From Wildhammer Gryphon Rider.|U|31310|
-K Val'zareq the Conqueror|QID|10793|L|31345 |M|52,63|N|Look for and kill Val'zareq the Conqueror while killing the other mobs needed. Once he is dead, loot his journal.|US|
+K Val'zareq the Conqueror|QID|10793|L|31345|M|52,63|N|Look for and kill Val'zareq the Conqueror while killing the other mobs needed. Once he is dead, loot his journal.|US|
 A The Journal of Val'zareq: Portends of War|QID|10793|U|31345|M|51.04,59.09|N|Accept the quest from the Journal.|
 T The Journal of Val'zareq: Portends of War|QID|10793|M|51.49,72.84|N|To the Draenei NPC that is in the green crystal.|
 A Battle of the Crimson Watch|QID|10781|PRE|10793|M|51.49,72.84|N|About this quest, you have to survive 4 waves. First wave is a pack of Demons and Blood Elves. 2nd wave consists of 2 floating eye mobs. 3rd is 4 Fire Lords (Blood Elves). The last is the boss, he hits hard and will do Spell Reflect now and then.|
@@ -329,5 +329,22 @@ C Additional Materials|QID|10664|M|54,44|Z|Shattrath City|N|Make or buy an Adama
 T Additional Materials|QID|10664|M|77.5,38.7|Z|Terokkar Forest|N|To David Wayne. The next 2 quests that open up from David are dungeon quests.|
 N Short on quests...|QID|999999|N|At this point you are probably close to the quest achievment. To get that, you either have to do some of the dungeon quest lines that lead back to Shadowmoon. Or if you have Artisan Riding trained you can keep doing the Netherwing quests to get it.|
 N Short on quests...|QID|999999|N|At this point you are probably close to the quest achievment. To get that, you either have to do some of the dungeon quest lines that lead back to Shadowmoon. Or if you have Artisan Riding trained you can keep doing the Netherwing quests to get it.|
+;A Against the Legion|QID|10641|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+;A Against the Illidari|QID|10668|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+;A Against All Odds|QID|10669|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+;C Against All Odds|QID|10669|M|15,41|Z|Zangarmarsh|N|Go the waypoint, find the portal, and use the Imbued Silver Spear, then kill the floating butt, er... I mean Xeleth.|U|30853|
+;l Freshly Drawn Blood|ACTIVE|10641|Z|Netherstorm|M|40,20|N|Head to Netherstorm then to the waypoint. Kill and loot a Wrath Priestess to get the blood.|L|30850|
+;C Against the Legion|QID|10641|M|40,20|Z|Netherstorm|N|Use the Freshly Drawn Blood to lure out the Avatar of Sathal and slay her.|U|30850|
+;C Against the Illidari|QID|10668|M|28.2,49.8|Z|Shadowmoon Valley|N|Now all the way down to Shadowmoon. Head to the waypoint then kill Lothros.|
+;T Against the Legion|QID|10641|M|27.35,43.06|N|To Altruis the Sufferer.|
+;T Against the Illidari|QID|10668|M|27.35,43.06|N|To Altruis the Sufferer.|
+;T Against All Odds|QID|10669|M|27.35,43.06|N|To Altruis the Sufferer.|
+;A Illidan's Pupil|QID|10646|PRE|10641&10668&10669|M|27.35,43.06|N|From Altruis the Sufferer.|
+;C Illidan's Pupil|QID|10646|M|27.35,43.06|N|Talk to Altruis until you get the quest completion.|NC|
+;T Illidan's Pupil|QID|10646|M|27.35,43.06|N|To Altruis the Sufferer.|
+;A The Book of Fel Names|QID|10649|PRE|10646|M|27.35,46.06|N|From Altruis the Sufferer.|
+;l Book of Fel Names|ACTIVE|10649|L|30808|N|This is dropped from Blackheart the Inciter inside the Shadow Labyrinth (non-heroic or heroic) in Auchindoun.|
+;T The Book of Fel Names|QID|10649|M|27.35,46.06|N|To Altruis the Sufferer.|
+;N The next quest|N|he gives takes you back to Shadowmoon, so it is up to you if you want to do it.|
 ]]
 end)
