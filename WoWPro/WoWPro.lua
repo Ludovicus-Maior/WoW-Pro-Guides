@@ -363,6 +363,9 @@ function WoWPro:OnInitialize()
     if WoWProCharDB.AutoHideInsideInstances == nil then
         WoWProCharDB.AutoHideInsideInstances = true
     end
+    if WoWProCharDB.AutoHideInsideInstancesNotify == nil then
+        WoWProCharDB.AutoHideInsideInstancesNotify = true
+    end
     if WoWProCharDB.AutoHideInCombat == nil then
         WoWProCharDB.AutoHideInCombat = false
     end
@@ -1152,17 +1155,29 @@ function WoWPro.LevelColor(guide)
 
 end
 
+WoWPro.Hidden = false
+
 function WoWPro.ShowFrame(enabled, msg, event)
-	if enabled then
-		WoWPro:Print(msg)
-		WoWPro.MainFrame:Hide()
-		WoWPro.Titlebar:Hide()
-		WoWPro.Hidden = event
-	else
-		WoWPro:Print(msg)
-        WoWPro.MainFrame:Show()
-        WoWPro:TitlebarShow()
-        WoWPro.Hidden = nil
+	if (not enabled) and (not WoWPro.Hidden) then
+            if WoWProCharDB.AutoHideInsideInstancesNotify then
+	        WoWPro:Print(msg .. event)
+            else
+	        WoWPro:print(msg .. event)
+            end
+	    WoWPro.MainFrame:Hide()
+	    WoWPro.Titlebar:Hide()
+	    WoWPro.Hidden = event
+	elseif (enabled and WoWPro.Hidden) then
+            if WoWProCharDB.AutoHideInsideInstancesNotify then
+	        WoWPro:Print(msg .. event )
+            else
+	        WoWPro:print(msg .. event)
+            end
+            WoWPro.MainFrame:Show()
+            WoWPro:TitlebarShow()
+            WoWPro.Hidden = nil
+        else
+             WoWPro:print("WoWPro.ShowFrame is confused: enabled=%s, Hidden=%s, msg=%s, evengt=%s", tostring(enabled), tostring(WoWPro.Hidden), msg, event)
 	end
 end
 
