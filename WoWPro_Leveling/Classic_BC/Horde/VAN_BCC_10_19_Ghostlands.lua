@@ -161,17 +161,11 @@ R Shalandis Isle|ACTIVE|9163|M|15.02,28.63|
 C Into Occupied Territory|ACTIVE|9163|M|14.77,26.61;13.70,26.84;12.53,26.51;12.80,25.08|CN|L|22590|QO|1|N|Night Elf Plans: An'daroth can found be in several spots on the isle.|
 C Into Occupied Territory|ACTIVE|9163|M|12.80,25.08;12.54,24.80;12.86,23.92|CN|L|22591|QO|2|N|Night Elf Plans: An'owyn can found be in several spots on the isle.|
 C Into Occupied Territory|ACTIVE|9163|M|10.44,22.58|L|22592|QO|3|N|Night Elf Plans: Scrying on the Sin'dorei, is on the boat.\n[color=FF0000]NOTE: [/color]It is possible to pull one mob at a time. It's in your best interest to clear the ship.|
-L Level 16|ACTIVE|9140|N|Grind until you're level 16.|LVL|16|
+L Level 16|ACTIVE|9140|N|Grind until you're within 8 bubbles of level 16.|LVL|15;-5300|
 H Tranquillien|ACTIVE|9140|
-F Silvermoon City|ACTIVE|9140|M|45.43,30.53|
-= Level 16 Training|ACTIVE|9140|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-F Tranquillien|ACTIVE|9140|M|54.37,50.73|Z|Eversong Woods|
 r Housekeeping|ACTIVE|9140|M|49.11,30.32|N|Repair and sell junk to Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Spinal Dust|QID|9218|M|48.92,31.31|N|From Magistrix Aminel.|
 A Rotting Hearts|QID|9216|M|48.92,31.31|N|From Magistrix Aminel.|
-C Spinal Dust|QID|9218|M|37.52,49.76|L|22642 10|QO|1|N|Kill Dread Sentinels and Deathcage Sorcerers to collect the Spinal Dust.\n[color=FF0000]NOTE: [/color]Watch out for Luzran.|S|IZ|3514; The Dead Scar|
-l Rotting Hearts|ACTIVE|9216|M|37.52,49.76|L|22641 10|N|Enter The Dead Scar and kill any Risen Hungerers or Risen Stalkers you come across to collect the Rotting Hearts.\n[color=FF0000]NOTE: [/color]Keep an eye out for Luzran, who pathes up and down The Dead Scar.|
-T Rotting Hearts|QID|9216|M|48.92,31.31|N|To Magistrix Aminel.|
 T Windrunner Village|QID|9140|M|46.39,28.44|N|To Arcanist Vandril.|
 T Into Occupied Territory|QID|9163|M|44.88,32.51|N|To Dame Auriferous.|
 A Deliver the Plans to An'telas|QID|9166|M|44.88,32.51|N|From Dame Auriferous.|PRE|9163|
@@ -181,6 +175,12 @@ T Retaking Windrunner Spire|QID|9173|M|44.77,32.45|N|To High Executor Mavren.|
 T The Lady's Necklace|QID|9175|M|44.77,32.45|N|To High Executor Mavren.|
 A Journey to Undercity|QID|9177^9180|M|44.77,32.45|N|From High Executor Mavren.|PRE|9175|
 A Investigate the Amani Catacombs|QID|9193|M|44.84,32.81|N|From Advisor Valwyn.|
+F Silvermoon City|ACTIVE|9216|M|45.43,30.53|
+= Level 16 Training|ACTIVE|9216|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Tranquillien|ACTIVE|9216|M|54.37,50.73|Z|Eversong Woods|
+C Spinal Dust|QID|9218|M|37.52,49.76|L|22642 10|QO|1|N|Kill Dread Sentinels and Deathcage Sorcerers to collect the Spinal Dust.\n[color=FF0000]NOTE: [/color]Watch out for Luzran.|S|IZ|3514; The Dead Scar|
+l Rotting Hearts|ACTIVE|9216|M|37.52,49.76|L|22641 10|N|Enter The Dead Scar and kill any Risen Hungerers or Risen Stalkers you come across to collect the Rotting Hearts.\n[color=FF0000]NOTE: [/color]Keep an eye out for Luzran, who pathes up and down The Dead Scar.|
+T Rotting Hearts|QID|9216|M|48.92,31.31|N|To Magistrix Aminel.|
 K Bearers of the Plague|ACTIVE|9158|M|63.69,43.46|QO|1|N|Kill Ghostclaw Lynxes.|S|
 R Andilien Estate|AVAILABLE|9281|M|45.34,56.83|N|Follow the road south out of Tranquillien.\n[color=FF0000]NOTE: [/color]Cut through the woods so you can do your kill quest as you go.
 A Clearing the Way|QID|9281|M|46.40,56.42|N|From Apprentice Vor'el.|
@@ -196,15 +196,15 @@ T Bearers of the Plague|QID|9158|M|72.50,32.13|N|To Farstrider Sedina.|
 A Curbing the Plague|QID|9159|M|72.50,32.13|N|From Farstrider Sedina.|PRE|9158|
 A Attack on Zeb'Tela|QID|9276|M|72.32,31.24|N|From Farstrider Solanna.|
 A Shadowpine Weaponry|QID|9214|M|72.37,29.65|N|From Captain Helios.|
-A A Little Dash of Seasoning|QID|9275|M|72.37,29.65|N|From Apothecary Venustus. Up the right ramp.|
-T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna. Go back down and up the opposite ramp.|
+A A Little Dash of Seasoning|QID|9275|M|72.62,31.56|N|From Apothecary Venustus. Up the right ramp.|
+T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna.\n[color=FF0000]NOTE: [/color]Go back down and up the opposite ramp.|
 A The Traitor's Shadow|QID|9161|M|71.93,32.64|N|From Ranger Vynna.|
 R Amani Catacombs|AVAILABLE|9212|M|67.08,28.57|
 C Troll Juju|QID|9199|M|67.08,28.57|L|22633 8|N|Kill any Trolls you come across to collect the Troll Juju.\n[color=FF0000]NOTE: [/color]The Mummified Headhunters briefly deploy a 'Cloud of Disease' when they die and it causes damage if you stand in it.|S|
 C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|1|N|Click on the Troll remains to burn them.|U|22755|S|NC|
 R Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|2|N|Make your way inside the Catacombs and to the round room just off the first big room you come to.|
 C Investigate the Amani Catacombs|QID|9193|M|62.78,31.87|QO|1|N|Finish burning any Troll remains you need.|U|22755|US|NC|
-C Troll Juju|QID|9199|M|62.90,30.15|N|Finish collecting your Troll Juju.\n[color=FF0000]NOTE: [/color]Finish this BEFORE accepting the escort quest.|US|
+C Troll Juju|QID|9199|M|62.90,30.15|L|22633 8|N|Finish collecting your Troll Juju.\n[color=FF0000]NOTE: [/color]Finish this BEFORE accepting the escort quest.|US|
 A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ranger Lilatha (in the cage).|
 C Escape from the Catacombs|QID|9212|M|72.24,30.10|N|She is slow inside the cave. At one point outside the cave, you will be ambushed. Kill them and follow her to the Farstrider Enclave (she runs after the ambush).|
 A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=CC00FF]QUEST FAILED [/color]\nGo back to Ranger Lilatha (in the cage) to accept the quest again.|FAIL|
