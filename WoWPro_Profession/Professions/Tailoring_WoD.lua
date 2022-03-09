@@ -34,7 +34,7 @@ l [item=111557/Sumptuous Fur]|QID|197000004|L|111557 2255|ITEM|111557|N|You'll n
 N Shopping List|QID|197000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 N Tailoring and Bandage Trainers|QID|197000008|N|It's possible these NPC's name may change, as you level and/or complete quests, but the phased trainers should be near the same areas.|
 
-U [item=115357/Draenor Tailoring]|QID|197264626|SPELL|Draenor Tailoring;264626|LVL|U|115357|5|N|You need to buy from a Vendor in Ashran, complete a Quest Chain, or Build the Tailoring Emporium in your Garrison to Learn Draenor Tailroing.|
+U [item=115357/Draenor Tailoring]|QID|197264626|SPELL|Draenor Tailoring;264626|U|115357|LVL|5|N|You need to buy from a Vendor in Ashran, complete a Quest Chain, or Build the Tailoring Emporium in your Garrison to Learn Draenor Tailroing.|
 
 M [item=118722/Secrets of Draenor Tailoring]|QID|197176058|P|Tailoring;197;5+2;1|ITEM|118722|CRAFT|176058 1|MATS|111557 5|
 B [spell=168836/Hexweave Embroidery]|QID|197168836|M|59.0,42.4|Z|Warspear|P|Tailoring;197;*;0;0|RECIPE|168836|T|Petir Starocean|N|Use the [item=115357/Draenor Tailoring] to Purchase [item=114852/Pattern Hexweave Embroidery] from Petir Starocean, in Warspear, Ashran.|FACTION|Horde|

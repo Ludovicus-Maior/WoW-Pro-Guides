@@ -49,8 +49,8 @@ M [item=82904/Ghost Forged Shoulders]|QID|164122577|P|Blacksmithing;164;4+30;1|I
 M [item=82962/Spiritguard Shield]|QID|164122636|P|Blacksmithing;164;4+35;1|ITEM|82962|CRAFT|122636 5|MATS|72096 9|
 = Learn Recipe|QID|164400251|P|Blacksmithing;164;4+25|RECIPE|122576|N|Learn [spell=122576/Ghost Forged Helm] Recipe from Trainer.|
 M [item=82903/Ghost Forged Helm]|QID|164122576|P|Blacksmithing;164;4+50;1|ITEM|82903|CRAFT|122576 20|MATS|72096 12|
-B [spell=122621/Contenders Revenant Bracers]|QID|164122621|M|26.8,46.6|Z|Shrine of Two Moons|P|Blacksmithing;164;4+50|RECIPE|122621|N|Purchase [item=84159/Plans: Contenders Revenant Bracers], From Jorunga Stonehoof, in Shrine of Two Moons.|FACTION|Horde|
-B [spell=122621/Contenders Revenant Bracers]|QID|164122621|M|72.6,50.6|Z|Shrine of Seven Stars|P|Blacksmithing;164;4+50|RECIPE|122621|N|Purchase [item=84159/Plans: Contenders Revenant Bracers], From Cullen Hammerbrow, in Shrine of Seven Stars.|FACTION|Alliance|
+B [spell=122621/Contenders Revenant Bracers]|QID|164122621|M|26.8,46.6|Z|391;Hall of the Crescent Moon@Shrine of Two Moons|P|Blacksmithing;164;4+50|RECIPE|122621|N|Purchase [item=84159/Plans: Contenders Revenant Bracers], From Jorunga Stonehoof, in Shrine of Two Moons.|FACTION|Horde|
+B [spell=122621/Contenders Revenant Bracers]|QID|164122621|M|72.6,50.6|Z|393;The Emperor's Step@Shrine of Seven Stars|P|Blacksmithing;164;4+50|RECIPE|122621|N|Purchase [item=84159/Plans: Contenders Revenant Bracers], From Cullen Hammerbrow, in Shrine of Seven Stars.|FACTION|Alliance|
 M [item=82949/Contenders Revenant Bracers]|QID|164122621|P|Blacksmithing;164;4+75;1|ITEM|82949|CRAFT|122621 25|MATS|72096 5|N|Yes its a lot of one, but this is one of two cheapest in Materials.|
 
 N Congratulations|QID|164000010|N|That completes Blacksmithing - Pandaria Plans.|
