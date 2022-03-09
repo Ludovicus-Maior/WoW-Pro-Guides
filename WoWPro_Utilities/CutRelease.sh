@@ -76,7 +76,7 @@ else
 fi
 
 echo "# OK, the current version numbers are:"
-fgrep -H Version: */${TOC_SUFFIX}.toc
+fgrep -H Version: */*${TOC_SUFFIX}.toc
 
 # Remove the recorder from the list
 ADDON_DIRS=(${ADDON_DIRS[@]::${#ADDON_DIRS[@]}-1})
