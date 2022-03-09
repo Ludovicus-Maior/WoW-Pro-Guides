@@ -94,6 +94,16 @@ local function CreateDisplayConfig()
                         if WoWProCharDB.AutoHideInsideInstances == true then WoWProCharDB.AutoHideInsideInstances=false; else WoWProCharDB.AutoHideInsideInstances=true; end
                     end
             },
+            notify = {
+                order = 6.5,
+                type = "toggle",
+                name = L["Enable Instance Notify"],
+                desc = L["Enables/Disables notifying when inside an instance (Dungeon, Arena ...), unless the guide wants you there!"],
+                get = function(info) return WoWProCharDB.AutoHideInsideInstancesNotify ; end,
+                set = function(info,val)
+                        if WoWProCharDB.AutoHideInsideInstancesNotify == true then WoWProCharDB.AutoHideInsideInstancesNotify=false; else WoWProCharDB.AutoHideInsideInstancesNotify=true; end
+                    end
+            },
             combathide = {
                 order = 7,
                 type = "toggle",
