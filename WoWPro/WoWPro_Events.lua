@@ -522,15 +522,7 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function(event, ...)
     WoWPro.LockdownTimer = 1.5
     -- WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA")
     if WoWPro.Hidden == "PLAYER_ENTERING_BATTLEGROUND" then
-        local guidetype = "WoWPro"
-        if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
-            guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
-        end
-
-        WoWPro:Print("|cff33ff33Battleground Exit Auto Show|r: %s Module", guidetype)
-        WoWPro.MainFrame:Show()
-        WoWPro:TitlebarShow()
-        WoWPro.Hidden = nil
+        WoWPro.ShowFrame(true, "|cff33ff33Battleground Exit Auto Show|r: ", event)
     end
     WoWPro:UpdateTradeSkills()
     end)
@@ -564,13 +556,13 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
             return
         end
         if _G.IsInInstance() and not WoWPro.MaybeCombatLockdown() then
-            WoWPro.ShowFrame(true, "|cff33ff33Instance Auto Hide|r: WoWPro Module", event)
+            WoWPro.ShowFrame(false, "|cff33ff33Instance Auto Hide|r: " , event)
             return
-        elseif WoWPro.Hidden == true and not WoWPro.MaybeCombatLockdown() then
-            WoWPro.ShowFrame(false, "|cff33ff33Instance Exit Auto Show|r: WoWPro Module", event)
-		elseif WoWPro.Hidden == true or _G.IsInInstance() then
-			WoWPro.CombatLock = true
-		end
+        elseif WoWPro.Hidden and not WoWPro.MaybeCombatLockdown() then
+            WoWPro.ShowFrame(true, "|cff33ff33Instance Exit Auto Show|r: " , event)
+	elseif WoWPro.Hidden or _G.IsInInstance() then
+            WoWPro.CombatLock = true
+	end
     end
     if WoWPro.Ready(event) then
         WoWPro.AutoCompleteZone(...)
@@ -604,11 +596,10 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_OPENING_START", function(event, ..
 
     WoWPro.LastPetBattleWinner = nil
     if (not WoWPro.Hidden) and battleHide then
-        WoWPro.MainFrame:Hide()
-        WoWPro.Titlebar:Hide()
-        WoWPro.Hidden = event
+        WoWPro.ShowFrame(false, "|cff33ff33Entering Pet Battle|r: ", event)
     end
     WoWPro.PetBattleActive = true
+    WoWPro:print("battleHide=%s, Hidden=%s, PetBattleActive=%s", tostring(battleHide), tostring(WoWPro.Hidden), tostring(WoWPro.PetBattleActive))
     -- WoWPro.RegisterAllEvents()
 end)
 
@@ -635,9 +626,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_OVER", function(event, ...) return
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function(event, ...)
     if WoWPro.Hidden then
-        WoWPro.MainFrame:Show()
-        WoWPro:TitlebarShow()
-        WoWPro.Hidden = nil
+        WoWPro.ShowFrame(true, "|cff33ff33Exiting Pet Battle|r: ", event)
     end
 
     if not _G.C_PetBattles.IsInBattle() then
@@ -663,15 +652,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function(event, ...)
 
 
 WoWPro.RegisterEventHandler("PLAYER_ENTERING_BATTLEGROUND", function(event, ...)
-    local guidetype = "WoWPro"
-    if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
-        guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
-    end
-
-    WoWPro:Print("|cff33ff33Battleground Auto Hide|r: %s Module", guidetype)
-    WoWPro.MainFrame:Hide()
-    WoWPro.Titlebar:Hide()
-    WoWPro.Hidden = event
+    WoWPro.ShowFrame(false, "|cff33ff33Battleground Auto Hide|r: ", event)
     end)
 
 WoWPro.RegisterEventHandler("PLAYER_REGEN_DISABLED", function(event, ...)
@@ -691,9 +672,9 @@ WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function(event, ...)
     -- Combat lockdown ends before this event fires
 	if WoWPro.CombatLock then
 		if _G.IsInInstance() then
-            WoWPro.ShowFrame(true, "|cff33ff33Punted Instance Auto Hide|r: WoWPro Module", event)
+            WoWPro.ShowFrame(false, "|cff33ff33Punted Instance Auto Hide|r: " .. event)
         elseif WoWPro.Hidden == true then
-            WoWPro.ShowFrame(false, "|cff33ff33Punted Instance Exit Auto Show|r: WoWPro Module", event)
+            WoWPro.ShowFrame(true, "|cff33ff33Punted Instance Exit Auto Show|r: " .. event)
 		end
 		WoWPro.CombatLock = false
 	elseif WoWPro.Hidden then
