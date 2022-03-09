@@ -89,7 +89,7 @@ M [item=152835/Stormsteel Dagger]|QID|164253158|P|Blacksmithing;164;7+145;1|ITEM
 = Learn Recipe|QID|164701451|PRE|54972|M|38.0,53.6|Z|Nazjatar|P|Blacksmithing;164;7+145|RECIPE|294763|N|Learn [spell=294763/Notorious Combatants Plate Armguards] Recipe from Instructor Alikana|FACTION|ALLIANCE|
 = Learn Recipe|QID|164701451|PRE|55053|M|49.0,61.6|Z|Nazjatar|P|Blacksmithing;164;7+145|RECIPE|294763|N|Learn [spell=294763/Notorious Combatants Plate Armguards] Recipe from Jada.|FACTION|HORDE|
 M [item=167965/Notorious Combatants Plate Armguards]|QID|164294763|P|Blacksmithing;164;7+160;1|ITEM|167965|CRAFT|294763 15|MATS|168185 8;152579 3;160298 7;152668 2|
-N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169507/Recipe: Notorious Combatants Plate Armguards](Rank 2) and [item=169508/Recipe: Notorious Combatants Plate Armguards](Rank 3) recipes from Dazzerian (Horde) or Thomas Riogain (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|
+N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169507/Recipe: Notorious Combatants Plate Armguards](Rank 2) and [item=169508/Recipe: Notorious Combatants Plate Armguards](Rank 3) recipes from Dazzerian (Horde) or Tomas Riogain (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|
 
 N Congratulations|QID|164000010|N|You've reached at least 160 on Battle for Azeroth Blacksmithing.|
 ]]

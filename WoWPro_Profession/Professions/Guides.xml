@@ -49,6 +49,12 @@
 	<Script file="Leatherworking_BfA.lua"/>
 	<Script file="Leatherworking_SL.lua"/>
 	<Script file="Tailoring_VAN.lua"/>
+	<Script file="Tailoring_OUT.lua"/>
+	<Script file="Tailoring_WotLK.lua"/>
+	<Script file="Tailoring_Cata.lua"/>
+	<Script file="Tailoring_MoP.lua"/>
+	<Script file="Tailoring_WoD.lua"/>
+	<Script file="Tailoring_LEG.lua"/>
 	<Script file="Tailoring_SL.lua"/>
 	<Script file="Legion.lua"/>
 	</Ui>
