@@ -255,15 +255,13 @@ A The Pilgrimage Ends|QID|64844|PRE|64843|M|47.37,88.57|Z|1970;Zereth Mortis|N|F
 C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|1|NC|N|Return to the overlook.|
 C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|2|CHAT|N|Talk to Highlord Bolvar Fordragon and listen to the plan.|
 T The Pilgrimage Ends|QID|64844|M|64.65,53.29|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
-F Haven|AVAILABLE|64799|M|61.54,50.41|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
 
 ;CH5
-N Wait for March 8th|N|Blizzard has time gated the rest of the guide. Ch5 will release on 3-8.|DATE|-1646751600|
-A The Broken Crown|QID|64799|PRE|64844|M|35.05,64.81|Z|1970|N|From Highlord Bolvar Fordragon.|DATE|1646751600|
+A The Broken Crown|QID|64799|PRE|64844|M|35.05,64.81|Z|1970|N|From Highlord Bolvar Fordragon.|
 C The Broken Crown|QID|64799|M|33.30,69.04|Z|1970|QO|1|CHAT|N|Hear Anduin's Tale.|
 T The Broken Crown|QID|64799|M|33.23,68.92|Z|1970|N|To Highlord Bolvar Fordragon.|
 A Our Last Option|QID|64800|PRE|64799|M|33.23,68.92|Z|1970|N|From Highlord Bolvar Fordragon.|
-C Our Last Option|QID|64800|M|33.33,68.95|Z|1970|QO|1|NC|N|Listen to the Plan.|
+C Our Last Option|QID|64800|M|33.33,68.95|Z|1970|QO|1|CHAT|N|Listen to the Plan.|
 T Our Last Option|QID|64800|M|33.26,68.92|Z|1970|N|To Highlord Bolvar Fordragon.|
 A Hello, Darkness|QID|64802|PRE|64800|M|33.31,68.87|Z|1970|N|From The Primus.|
 C Hello, Darkness|QID|64802|M|33.21,68.85|Z|1970|QO|1|NC|N|Wield the Broken Helm.|
@@ -332,16 +330,15 @@ C The Crown of Wills|QID|64813|M|48.13,65.06|Z|1912|QO|1|NC|N|Place Shards.|
 C The Crown of Wills|QID|64813|M|49.98,65.27|Z|1912|QO|2|NC|N|Place Broken Helm half.|
 C The Crown of Wills|QID|64813|M|50.45,63.75|Z|1912|QO|3|NC|N|Use the Crown of Wills.|
 T The Crown of Wills|QID|64813|M|50.04,68.41|Z|1912|N|To Highlord Bolvar Fordragon.|
-
-;CH 6
-N Wait for March 15th|N|Blizzard has time gated the rest of the guide. Ch6 will release on 3-15.|DATE|-1647352800|
-A Reality's Doorstep|QID|64816|PRE|64813|M|50.04,68.41|Z|1912|N|From Highlord Bolvar Fordragon.|DATE|1647352800|
+A Reality's Doorstep|QID|64816|PRE|64813|M|50.04,68.41|Z|1912|N|From Highlord Bolvar Fordragon.|
 P Ve'nari's Refuge|ACTIVE|64816|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
 P Oribos|ACTIVE|64816|M|42.38,42.17|Z|The Maw|NC|N|Click the portal to go to Oribos|
 P Ring of Transference|ACTIVE|64816|M|46.98,50.35|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
 P Zereth Mortis|ACTIVE|64816|M|49.58,27.47|Z|Ring of Transference@Oribos|N|Take the portal to Zereth Mortis|
 T Reality's Doorstep|QID|64816|M|35.00,64.87|Z|1670|N|To Highlord Bolvar Fordragon.|
-A Something Wonderful|QID|64875|PRE|64816|M|35.41,65.06|Z|1970|N|From Pelagos.|
+
+;CH 6
+A Something Wonderful|QID|64875|PRE|64816|M|35.41,65.06|Z|1970|N|From Pelagos.|DATE|1647339976|
 F Faith's Repose|ACTIVE|64875|M|35.66,65.07|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Faith's Repose.|
 C Something Wonderful|QID|64875|M|34.20,48.27|Z|1970|QO|1|CHAT|N|Firim consulted.|
 T Something Wonderful|QID|64875|M|34.20,48.27|Z|1970|N|To Firim.|
