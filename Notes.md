@@ -1,3 +1,38 @@
+# Release 9.2.0-A3 / 1.14.2-A3 / 2.5.3-A4
+## Bug Fixes
+* Instance Hide/Show was misbehaving.  Total rewrite.
+* Map changes for 9.2 that were ommitted for no rational reason
+
+## Guide Updates
+
+### Retail Leveling
+* Alliance: Blades Edge, Nagrand, Shadowmoon, Vashjir, Westfall, Intros for Gnome and Human, Storm Peaks
+* Horde: Zangarmarsh, Ashenvale, Vashjir, Borean Tundra, Storm Peaks
+* Neutral: Uldum, Argus, **Eternity's End**
+### Retail Dailies
+* Neutral: Hodir, MacAree Pet WQs
+### Retail Professions
+* Alchemy: Bfa, Cata, HUB, Legion, MoP, Outland, Shadow Lands, Vanilla, WoD, WotLK
+* Blacksmithing:  Ditto
+* Enchanting: Ditto
+* Engineering: Ditto
+* Tailoring: Ditto
+* Inscription: HUB, Shadow Lands
+* Jewlcrafting: Hub, Outlands, Shadow Lands
+* Leatherworking: Bfa, HUB, Outland, Shadow Lands, Vanilla
+
+### Classic Leveling
+* Nada
+### Classic Professions
+* Alchemy, BS, Enchanting, Eng, First Aid, LW, Tailoring
+
+### Burning Crusade Classic Leveling
+* Alliance: Bloodmyst
+* Horde: Zangarmarsh, Ghostlands
+### Burning Crusade Classic Professions
+* Alchemy, BS, Enchanting, Eng, First Aid, JC, LW, Tailoring
+
+
 # Release 9.2.0-A2 / 1.14.2-A2 / 2.5.3-A3
 ## Bug Fixes
 * No serious bugs to fix!
