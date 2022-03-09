@@ -214,7 +214,7 @@ K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill Vamperic Mistbats.|S|
 R Dawnstar Spire|ACTIVE|9161|M|78.48,19.86|
 T The Traitor's Shadow|QID|9161|M|79.63,17.57|N|Kill the 2 guards at the door and the one that paths in and out of the building. From here, clear the room by pulling them one by one outside. Once you have cleared the room, continue inside and click on the book that is at the end of the ramp.|
 A Hints of the Past|QID|9162|M|79.63,17.57|N|From the book.|PRE|9161|
-R Farstrider Enclave|ACTIVE|9162|M|73.83,32.11|N|[color=FF0000]NOTE: [/color]Just drop of the ledge and run around the back of the building.|
+R Farstrider Enclave|ACTIVE|9162|M|73.83,32.11|N|[color=FF0000]NOTE: [/color]Just drop off the ledge and run around the back of the building.|
 T Hints of the Past|QID|9162|M|71.89,32.63|N|To Ranger Vynna.|
 A Report to Magister Kaendris|QID|9172|M|71.89,32.63|N|From Ranger Vynna.|PRE|9162|
 C Shadowpine Weaponry|QID|9214|M|78.75,37.73|L|23167 3|N|Kill Shadowcasters to collect the Shadowcaster Maces.|S|
