@@ -10,15 +10,15 @@ WoWPro:GuideNickname(guide, "ALC_LEG")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:
-;  For the QID is Prof (171), Spell ID(000000) - QIDs mean NOTHING in guides.
-;  For the N Steps - QID is just 171+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;	For the QID is Prof (171), Spell ID(000000) - QIDs mean NOTHING in guides.
+;	For the N Steps - QID is just 171+00000# - Prof and increment numbers padded to 6 digits.
+;	For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
 ;		IE M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;8+8;1|CRAFT|301578 8|MATS|180732 1;169701 2|N|Create 8, needed in 2 steps.|
-;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 171309822 ('309822' is spell ID)
+;	For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 171309822 ('309822' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
 ;		IE = Learn Recipe|QID|171800151|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion] Recipe, from Trainer.|
 ; 		IE learn 2 at lvl 15 |171800151| and |171800152|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
 ;  Updated to Legion splits / new format on 8-Feb-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
@@ -56,12 +56,12 @@ M [item=127835/Ancient Mana Potion]|QID|171188301|P|Alchemy;171;6+9;1|ITEM|12783
 M [item=127834/Ancient Healing Potion](Rank 2)|QID|171188299|P|Alchemy;171;6+15;1|ITEM|127834|CRAFT|188299 6|MATS|128304 4;3371 1|N|Need for another recipe, in next step.|
 M [item=127836/Ancient Rejuvenation Potion]|QID|171188304|P|Alchemy;171;6+20;1|ITEM|127836|CRAFT|188304 5|MATS|127834 1;127835 1|
 M [item=127834/Ancient Healing Potion](Rank 2)|QID|171188299|P|Alchemy;171;6+50;1|ITEM|127834|CRAFT|188299 35|MATS|128304 4;3371 1|N|Goes Yellow about 41, you might need to make more.|
-N Rank 2 Recipes|N|for the next steps, are dropped by bosses in Legion Dungeons.|
+N Rank 2 Recipes|QID|171600601|N|for the next steps, are dropped by bosses in Legion Dungeons.|
 M [item=127846/Leytorrent Potion] - Rank 2|QID|171188335|P|Alchemy;171;6+60;1|ITEM|127846|CRAFT|188335 10|MATS|124105 1;124101 2;124102 2;3371 1|N|These are needed for the Quest - Testing the Calibration.|
 M [item=127843/Potion of Deadly Grace] - Rank 2|QID|171188326|P|Alchemy;171;6+68;1|ITEM|127843|CRAFT|188326 10|MATS|124105 1;124104 2;124102 2;3371 1|N|These are needed for the Quest - Testing the Calibration.|
 M [item=127844/Potion of Old War] - Rank 2|QID|171188329|P|Alchemy;171;6+76;1|ITEM|127844|CRAFT|188329 10|MATS|124105 1;124104 2;124103 2;3371 1|N|These are needed for the Quest - Testing the Calibration.|
 M [item=127845/Unbending Potion] - Rank 2|QID|171188332|P|Alchemy;171;6+84;1|ITEM|127845|CRAFT|188332 10|MATS|124105 1;124101 2;124103 2;3371 1|N|These are needed for the Quest - Testing the Calibration.|
-N Rank 2 Recipes|N|for the next steps, are dropped by bosses in Heroic - Legion Dungeons.|
+N Rank 2 Recipes|QID|171600741|N|for the next steps, are dropped by bosses in Heroic - Legion Dungeons.|
 M [item=127850/Flask of Ten Thousand Scars]|QID|171188347|P|Alchemy;171;6+74;1|ITEM|127850|CRAFT|188347 15|MATS|124105 7;124101 10;124102 10;3371 1|
 M [item=127849/Flask of the Countless Armies]|QID|171188344|P|Alchemy;171;6+82;1|ITEM|127849|CRAFT|188344 15|MATS|124105 7;124101 10;124103 10;3371 1|
 M [item=127847/Flask of the Whispered Pact]|QID|171188338|P|Alchemy;171;6+91;1|ITEM|127847|CRAFT|188338 15|MATS|124105 7;124104 10;124102 10;3371 1|

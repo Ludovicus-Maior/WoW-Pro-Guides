@@ -45,7 +45,7 @@ B [item=3371/Crystal Vial]|QID|171000004|L|3371 95|ITEM|3371|N|You'll need about
 
 N Shopping List|QID|171000006|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
-= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|42.4,32.0|Z|The Underbelly@Dalaran!Crystalsong Forest|SPELL|Northrend Alchemy;264220|LVL|5|N|Learn from Linzy Blackbolt, Dalaran - Northrend.|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|42.4,32.0|Z|125;Dalaran!Crystalsong Forest|SPELL|Northrend Alchemy;264220|LVL|5|N|Learn from Linzy Blackbolt, Dalaran - Northrend.|
 
 M [item=40067/Icy Mana Potion]|QID|171053839|P|Alchemy;171;2+05;1|ITEM|40067|CRAFT|53839 5|MATS|36907 2;3371 1|
 = Learn Recipe|QID|171200051|P|Alchemy;171;2+05|RECIPE|53900|N|Learn [spell=53900/Potion of Nightmares] Recipe from Trainer.|

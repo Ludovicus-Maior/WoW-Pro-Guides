@@ -14,11 +14,11 @@ return [[
 ;	For the N Steps - QID is just 333+00000# - Prof and increment numbers padded to 6 digits.
 ;	For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
 ;		IE M [item=172406/Enchant Gloves - Shadowlands Gathering]|QID|333309524|P|Enchanting;333;8+10;1|CRAFT|309524 10|MATS|172230 3|
-;	For the = Learn Recipe Steps - |QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 333264473 ('264473' is spell ID)
-;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8
-;		= Learn Recipes|QID|333800101|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
-;		IE learn 2 at lvl 10 |333800101| and |333800102|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343584/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;	For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 333264473 ('264473' is spell ID)
+;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
+;		IE = Learn Recipe|QID|333800101|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
+;		IE Learn 2 at lvl 10 |333800101| and |333800102|.
+;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343584/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
 ;  Typed update to Pandaria splits on 15-Feb-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
@@ -41,11 +41,11 @@ N Shopping List|QID|333000005|N|This completes the Shopping List, you may either
 
 = Learn [spell=264467/Pandaria Enchanting]|QID|333264467|M|46.8,42.8|Z|The Jade Forest|SPELL|Pandaria Enchanting;264467|LVL|5|N|Learn from Lai the Spellpaw, Dawn's Blossom, The Jade Forest.|
 
-= Learn Recipe|QID|333000011|P|Enchanting;333;4+1|M|46.8,42.8|Z|The Jade Forest|RECIPE|104393|N|Learn [spell=104393/Enchant Chest - Mighty Versatility] Recipe from Trainer.|
+= Learn Recipe|QID|333400011|P|Enchanting;333;4+1|M|46.8,42.8|Z|The Jade Forest|RECIPE|104393|N|Learn [spell=104393/Enchant Chest - Mighty Versatility] Recipe from Trainer.|
 M [item=74707/Enchant Chest - Mighty Versatility]|QID|333104393|P|Enchanting;333;4+40;1|ITEM|74707|CRAFT|104393 44|MATS|74249 4;38682 1|
-= Learn Recipe|QID|333000251|P|Enchanting;333;4+25|M|46.8,42.8|Z|The Jade Forest|RECIPE|104407|N|Learn [spell=104407/Enchant Boots - Greater Haste] Recipe from Trainer.|
+= Learn Recipe|QID|333400251|P|Enchanting;333;4+25|M|46.8,42.8|Z|The Jade Forest|RECIPE|104407|N|Learn [spell=104407/Enchant Boots - Greater Haste] Recipe from Trainer.|
 M [item=74715/Enchant Boots - Greater Haste]|QID|333104407|P|Enchanting;333;3+55;1|ITEM|74715|CRAFT|104407 16|MATS|74249 2;74250 1;38682 1|
-= Learn Recipe|QID|333000501|P|Enchanting;333;4+50|M|46.8,42.8|Z|The Jade Forest|RECIPE|104420|N|Learn [spell=104420/Enchant Gloves - Superior Mastery] Recipe from Trainer.|
+= Learn Recipe|QID|333400501|P|Enchanting;333;4+50|M|46.8,42.8|Z|The Jade Forest|RECIPE|104420|N|Learn [spell=104420/Enchant Gloves - Superior Mastery] Recipe from Trainer.|
 M [item=74722/Enchant Gloves - Superior Mastery]|QID|333104420|P|Enchanting;333;3+75;1|ITEM|74722|CRAFT|104420 20|MATS|74250 3;38682 1|
 
 N Congratulations|QID|333000010|N|You've reached at 75 in Pandarian Enchanting.|

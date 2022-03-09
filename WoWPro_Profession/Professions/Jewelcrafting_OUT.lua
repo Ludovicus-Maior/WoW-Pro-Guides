@@ -6,7 +6,7 @@ local guide = WoWPro:RegisterGuide("BlancJC_OUT", "Profession", "Jewelcrafting_O
 WoWPro:GuideIcon(guide,"PRO",755)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Jewelcrafting_Outland")
-WoWPro:GuideNickname(guide, "JC_OUT")
+WoWPro:GuideNickname(guide, "JC_TBC")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:
@@ -22,7 +22,7 @@ return [[
 
 ; ;  Typed update to The Burning Crusade splits on 27-June-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
-; N Guide Hub|QID|755000000|JUMP|Jewelcrafting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|755000000|JUMP|Jewelcrafting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|755000001|N|Currently in Development, This Guide covers Outland content in Retail. \n[color=FF0000]NOTE: [/color]This guide, is just the Make (Create) steps for now, will be fleshed out at a later time.|
 N PLEASE Report any issues|QID|755000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|

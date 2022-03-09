@@ -40,7 +40,7 @@ N Shopping List|QID|164000005|N|This completes the Shopping List. You may either
 
 ; end of shopping list, and pre craft.
 
-= Learn [spell=264438/Northrend Blacksmithing]|QID|164264438|M|45.32,27.67|Z|Dalaran City@Dalaran!Crystalsong Forest|P|Blacksmithing;164;*;0;0|SPELL|Northrend Blacksmithing;264438|LVL|5|N|From Any of the 4 trainers in Dalaran, Crystalsong Forest.|
+= Learn [spell=264438/Northrend Blacksmithing]|QID|164264438|M|45.32,27.67|Z|125;Dalaran!Crystalsong Forest|P|Blacksmithing;164;*;0;0|SPELL|Northrend Blacksmithing;264438|LVL|5|N|From Any of the 4 trainers in Dalaran, Crystalsong Forest.|
 
 M [item=41975/Cobalt Gauntlets]|QID|164055835|P|Blacksmithing;164;2+5;1|ITEM|41975|CRAFT|55835 4|MATS|36916 4|
 = Learn Recipe|QID|164200051|M|45.32,27.67|Z|Dalaran City@Dalaran!Crystalsong Forest|P|Blacksmithing;164;2+05|RECIPE|54918|N|Learn [spell=54918/Spiked Cobalt Boots] Recipe from Trainer.|
