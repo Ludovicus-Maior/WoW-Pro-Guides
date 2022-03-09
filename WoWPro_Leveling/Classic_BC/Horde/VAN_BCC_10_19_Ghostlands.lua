@@ -196,15 +196,15 @@ T Bearers of the Plague|QID|9158|M|72.50,32.13|N|To Farstrider Sedina.|
 A Curbing the Plague|QID|9159|M|72.50,32.13|N|From Farstrider Sedina.|PRE|9158|
 A Attack on Zeb'Tela|QID|9276|M|72.32,31.24|N|From Farstrider Solanna.|
 A Shadowpine Weaponry|QID|9214|M|72.37,29.65|N|From Captain Helios.|
-A A Little Dash of Seasoning|QID|9275|M|72.37,29.65|N|From Apothecary Venustus. Up the right ramp.|
-T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna. Go back down and up the opposite ramp.|
+A A Little Dash of Seasoning|QID|9275|M|72.62,31.56|N|From Apothecary Venustus. Up the right ramp.|
+T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna.\n[color=FF0000]NOTE: [/color]Go back down and up the opposite ramp.|
 A The Traitor's Shadow|QID|9161|M|71.93,32.64|N|From Ranger Vynna.|
 R Amani Catacombs|AVAILABLE|9212|M|67.08,28.57|
 C Troll Juju|QID|9199|M|67.08,28.57|L|22633 8|N|Kill any Trolls you come across to collect the Troll Juju.\n[color=FF0000]NOTE: [/color]The Mummified Headhunters briefly deploy a 'Cloud of Disease' when they die and it causes damage if you stand in it.|S|
 C Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|1|N|Click on the Troll remains to burn them.|U|22755|S|NC|
 R Investigate the Amani Catacombs|QID|9193|M|62.90,30.88|QO|2|N|Make your way inside the Catacombs and to the round room just off the first big room you come to.|
 C Investigate the Amani Catacombs|QID|9193|M|62.78,31.87|QO|1|N|Finish burning any Troll remains you need.|U|22755|US|NC|
-C Troll Juju|QID|9199|M|62.90,30.15|N|Finish collecting your Troll Juju.\n[color=FF0000]NOTE: [/color]Finish this BEFORE accepting the escort quest.|US|
+C Troll Juju|QID|9199|M|62.90,30.15|L|22633 8|N|Finish collecting your Troll Juju.\n[color=FF0000]NOTE: [/color]Finish this BEFORE accepting the escort quest.|US|
 A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ranger Lilatha (in the cage).|
 C Escape from the Catacombs|QID|9212|M|72.24,30.10|N|She is slow inside the cave. At one point outside the cave, you will be ambushed. Kill them and follow her to the Farstrider Enclave (she runs after the ambush).|
 A Escape from the Catacombs|QID|9212|M|62.93,32.73|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=CC00FF]QUEST FAILED [/color]\nGo back to Ranger Lilatha (in the cage) to accept the quest again.|FAIL|
