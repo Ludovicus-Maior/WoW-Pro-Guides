@@ -66,9 +66,9 @@ if [ "$1" != "--trial" ] ; then
     read confirm
 
     for toc in  ${ADDON_TOCS[@]} ; do
-    echo '#' Moving $toc to ${toc}~
+    # echo '#' Moving $toc to ${toc}~
     mv ${toc} ${toc}~
-    echo "#" Editing  ${toc}
+    # echo "#" Editing  ${toc}
     sed "s/## Version: ${crelease}/## Version: ${nrelease}/" < ${toc}~ > ${toc}
     done
 else
@@ -76,7 +76,7 @@ else
 fi
 
 echo "# OK, the current version numbers are:"
-fgrep -H Version: */*.toc
+fgrep -H Version: */${TOC_SUFFIX}.toc
 
 # Remove the recorder from the list
 ADDON_DIRS=(${ADDON_DIRS[@]::${#ADDON_DIRS[@]}-1})
