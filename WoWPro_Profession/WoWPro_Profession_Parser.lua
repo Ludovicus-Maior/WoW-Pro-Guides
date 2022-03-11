@@ -65,27 +65,30 @@ function WoWPro.Profession:PreRowUpdate(row)
 --							row.targeticon:SetTexture(skillLoc)											-- target function not working right, commented out.
 							local m = {(";"):split(WoWPro.mats[k])}
 							local _, CraftQty = (" "):split(WoWPro.craft[k])					-- Split (_)CraftItem and CraftQty from the CRAFT tag.
-							-- TODO: Validate tonumber(CraftQty) here, not later.
+							if tonumber(CraftQty) == nil then
+								WoWPro.Profession:Error("%s step %s tag CRAFT¦%s¦ bad CraftQty [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.craft[k], CraftQty)
+								CraftQty = 0
+							end
 							-- temporarily CraftItem is set to _ as CraftItem is not used at this time.
 							WoWPro.note[k] = ""
 							WoWPro.note[k] = WoWPro.note[k]..' [color=FFFFFF]Craft from '.. tostring(skillRank) ..' to '.. tostring(proflvl)..':\nCrafting upto '..tostring(CraftQty)..' using:[/color]\n '
 							for j=1,#m do
 								WoWPro.note[k] = WoWPro.note[k]..'\nMaterial '..(j)..': '
 									local MatsItem, MatsQty = (" "):split(m[j])							-- grab Mats info
-									-- TODO: Validate tonumber(MatsQty) here, not later
+									if tonumber(MatsQty) == nil then
+										WoWPro.Profession:Error("%s step %s tag MATS¦%s¦ #%d MatsQty is bad [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mats[k], j, MatsQty)
+										MatsQty = 0
+									end
 									local MatsItemLink
 									if _G.GetItemInfo(MatsItem) then
 										MatsItemLink = ('[item='..tostring(MatsItem)..'/'.._G.GetItemInfo(MatsItem)..']')  -- recreate item num/name info
 									else
 										-- TODO: MatsItem is bad, complain here.
-										MatsItemLink = ('[item='..tostring(MatsItem)..'/Wrong Item]')
+										MatsItemLink = ('[item='..tostring(MatsItem)..'/Wrong Item ID]')
+										WoWPro.Profession:Error("%s step %s tag MATS¦%s¦ #%d MatsItem is bad [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mats[k], j, MatsItem)
 										MatsItem = "?" .. MatsItem
 									end
-									-- TODO: Once the earlier 3 TODO items are done, the next 3 lines are not needed.
-									if tonumber(CraftQty) == nil or tonumber(MatsItem) == nil or tonumber(MatsQty) == nil then
-										WoWPro.Profession:Error("%s step %s tag MATS for [%s] malformed at [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mats[k],m[j])
-									end
-									WoWPro.Profession:dbp("Qty %s, k=%d",tostring(CraftQty),k)			-- may need changing to new info.
+									WoWPro.Profession:dbp("Qty %s, k=%d", tostring(CraftQty), k)			-- may need changing to new info.
 									local MatsAmt = MatsQty * (proflvl-skillRank)						-- take MatsQty to expand with Prof lvl difference.
 --									local skillpoints = (profmaxlvl - proflvl)/(CraftQty)				-- left over from Old guide handling / I think needed to make target work.
 --									if j == 1 then
