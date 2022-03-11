@@ -71,9 +71,15 @@ function WoWPro.Profession:PreRowUpdate(row)
 							for j=1,#m do
 								WoWPro.note[k] = WoWPro.note[k]..'\nMaterial '..(j)..': '
 									local MatsItem, MatsQty = (" "):split(m[j])							-- grab Mats info
-									local MatsItemLink = ('[item='..tostring(MatsItem)..'/'.._G.GetItemInfo(MatsItem)..']')  -- recreate item num/name info
+									local MatsItemLink
+									if _G.GetItemInfo(MatsItem) then
+										MatsItemLink = ('[item='..tostring(MatsItem)..'/'.._G.GetItemInfo(MatsItem)..']')  -- recreate item num/name info
+									else
+										MatsItemLink = ('[item='..tostring(MatsItem)..'/'..'Wrong Item]')
+										MatsItem = "?" .. MatsItem
+									end
 									if tonumber(CraftQty) == nil or tonumber(MatsItem) == nil or tonumber(MatsQty) == nil then
-										WoWPro.Profession:Error("%s step %s tag M for [%s] malformed at [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mats[k],m[j])
+										WoWPro.Profession:Error("%s step %s tag MATS for [%s] malformed at [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mats[k],m[j])
 									end
 									WoWPro.Profession:dbp("Qty %s, k=%d",tostring(CraftQty),k)			-- may need changing to new info.
 									local MatsAmt = MatsQty * (proflvl-skillRank)						-- take MatsQty to expand with Prof lvl difference.
