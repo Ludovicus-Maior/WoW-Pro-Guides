@@ -250,12 +250,14 @@ r Housekeeping|AVAILABLE|9151|N|Repair, sell junk and visit the bank. You'll wan
 F Tranquillien|AVAILABLE|9151|M|54.37,50.73|Z|Eversong Woods|
 A The Sanctum of the Sun|QID|9151|M|46.01,31.95|N|From Magister Darenis.|LEAD|9220|
 K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Kill Greater Spindlewebs and Ghostclaw Ravagers.|S|
-R An'owyn|ACTIVE|9169|M|57.99,62.19|N|Follow the road south out of Tranquillien to Andilien Estate (Sticking to the grass areas on the west side).\nAt the intersection, head east along the road pass the Sanctum of the Sun to the 2nd intersection (sticking to the grassy area south of the road). At the 'T' intersection, head south into An'owyn.|
+R Andilien Estate|ACTIVE|9169|M|45.01,56.80|N|Follow the road south out of Tranquillien to Andilien Estate.|
+R An'owyn|ACTIVE|9169|M|46.8,58.3;58.34,62.17|CC|N|Continue east along the road to the 2nd intersection. At the 'T' intersection, follow the trail south into An'owyn.\n[color=FF0000]NOTE: [/color]If you stick to the south side, you can work on your kill quest as you travel.|
 l Crystal Controlling Orb|ACTIVE|9169|M|58.20,64.72|L|23191|QO|1|N|Kill Sentinel Infiltrators until you get one.|
-C Deactivate An'owyn|QID|9169|M|58.22,64.93|N|Click on the Night Elf Moon Crystal to deactivate it.|NC|
+C Deactivate An'owyn|QID|9169|M|58.22,64.93|N|After clearing the area, click on the Night Elf Moon Crystal to deactivate it.|NC|
 K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Finish killing Greater Spindlewebs and Ghostclaw Ravager.\n[color=FF0000]NOTE: [/color]Between here and the road to the west, you should find plenty of them.\nMake sure you stay south of the road.|US|
 T Clearing the Way|QID|9281|M|46.40,56.41|N|To Apprentice Vor'el, at Andilien Estate.|
-T Report to Magister Kaendris|QID|9172|M|55.07,48.83|N|To Magister Kaendris, in Sanctum of the Sun.|
+R Sanctum of the Sun|ACTIVE|9172|M|53.94,51.76|
+T Report to Magister Kaendris|QID|9172|M|55.07,48.83|N|To Magister Kaendris.|
 A The Twin Ziggurats|QID|9176|M|55.07,48.83|N|From Magister Kaendris.|PRE|9172|
 T The Sanctum of the Sun|QID|9151|M|54.87,48.55|N|To Magister Idonis, at the top of the ramp.|
 A War on Deatholme|QID|9220|M|54.87,48.55|N|From Magister Idonis.|
