@@ -40,10 +40,10 @@ N Shopping List|QID|165000005|N|This completes the Shopping List, you may either
 
 ; End Shopping List
 
-= Learn [spell=2108/Leatherworking]|QID|165002108|M|42.28,62.59|Z|Ring of Fates@Oribos|LVL|5|N|Learn from Tanner Au'qil in Oribos.|
-= Learn [spell=309038/Shadowlands Leatherworking]|QID|165309038|M|42.28,62.59|Z|Ring of Fates@Oribos|P|Leatherworking;165;*;0;75|LVL|48|N|Learn from Tanner Au'qil in Oribos.|
+= Learn [spell=2108/Leatherworking]|QID|165002108|M|42.25,28.22|Z|Ring of Fates@Oribos|SPELL|Leatherworking;2108|LVL|5|N|Learn from Tanner Au'qil in Oribos.|
+= Learn [spell=309038/Shadowlands Leatherworking]|QID|165309038|M|42.25,28.22|Z|Ring of Fates@Oribos|P|Leatherworking;165;*;0;75|SPELL|Shadowlands Leatherworking;309038|LVL|48|N|Learn from Tanner Au'qil in Oribos.|
 
-M [item=172243/Desolate Leather Treads]|QID|165309174|P|Leatherworking;165;8+11;1|ITEM|172243|CRAFT|309174 5|MATS|172089 8;177062 2|
+M [item=172243/Desolate Leather Treads]|QID|165309174|P|Leatherworking;165;8+11;1|ITEM|172235|CRAFT|309174 5|MATS|172089 9;177062 2|
 = Learn Recipes|QID|165800101|M|42.28,62.59|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+10|RECIPE|309176|N|Learn [spell=309176/Desolate Leather Gauntlets] Recipe from Trainer.|
 M [item=172236/Desolate Leather Gauntlets]|QID|165309176|P|Leatherworking;165;8+21;1|ITEM|172236|CRAFT|309176 5|MATS|172089 9;177062 1|
 = Learn Recipes|QID|165800201|M|42.28,62.59|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+20|RECIPE|309177|N|Learn [spell=309177/Desolate Leather Helm] Recipe from Trainer.|
