@@ -127,7 +127,7 @@ C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion!The Shadowlands|N|Kill Clo
 C The Old Ways|QID|60466|M|50.66,72.56|QO|3|Z|Bastion!The Shadowlands|N|Kill Larion Sires for the Plumes.|
 C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion!The Shadowlands|N|Kill Cloudstrider Grazers for the pelt.|US|
 T The Old Ways|QID|60466|M|47.88,73.50|Z|Bastion!The Shadowlands|N|To Klystere.|
-A A Gift for An Acolyte|QID|62714|M|47.88,73.50|Z|Bastion!The Shadowlands|N|From Klystere.|PRE|60466|RANK|2|
+A A Gift for an Acolyte|QID|62714|M|47.88,73.50|Z|Bastion!The Shadowlands|N|From Klystere.|PRE|60466|RANK|2|
 C The Aspirant's Crucible|QID|57709|M|47.96,74.09|Z|Bastion!The Shadowlands|V|N|Click on Theonara the gryphon for a ride. This is not optional.|MS|
 T The Aspirant's Crucible|QID|57709|M|56.14,81.73|Z|Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A A Life of Service|QID|57710|M|56.14,81.73|Z|Bastion!The Shadowlands|N|From Forgelite Sophone|PRE|57709|MS|
@@ -217,8 +217,8 @@ A The Temple of Purity|QID|57270|M|48.36,72.80|Z|Bastion!The Shadowlands|N|From 
 A Hero's Rest|QID|62718|M|48.79,73.26|Z|Bastion!The Shadowlands|N|From the Scroll hanging on the wall.|LVL|50|RANK|2|LEAD|62275|
 A WANTED: Altered Sentinel|QID|60316|M|49.13,72.82|Z|Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll next to the tent.|RANK|2|
 C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.\n[color=FF0000]NOTE: [/color]Despite being yellow, it will attack you as soon as you step within the colored area.|
-C A Gift for An Acolyte|QID|62714|M|54.10,73.62|Z|Bastion!The Shadowlands|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
-T A Gift for An Acolyte|QID|62714|M|54.10,73.62|Z|Bastion!The Shadowlands|N|To Acolyte Amalthina.|
+C A Gift for an Acolyte|QID|62714|M|54.10,73.62|Z|Bastion!The Shadowlands|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
+T A Gift for an Acolyte|QID|62714|M|54.10,73.62|Z|Bastion!The Shadowlands|N|To Acolyte Amalthina.|
 A More Than A Gift|QID|62715|M|53.10,73.62|Z|Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|62714|RANK|2|
 C The Temple of Purity|QID|57270|M|54.09,73.62|Z|Bastion!The Shadowlands|NC|N|Find Eridia in the Temple of Purity.|MS|
 T The Temple of Purity|QID|57270|M|54.09,73.62|N|To Eridia.|MS|
@@ -246,7 +246,7 @@ T Step Back From That Ledge, My Friend|QID|57717|M|59.31,77.05|Z|Bastion!The Sha
 A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 A The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion!The Shadowlands|N|Cleanse the Temple by killing all the hostile mobs and rescuing the terrified stewards.|S|MS|
-A An Inspired Moral Inventory|QID|57444|M|61.14,74.42|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|MS| ; needs to be moved upwards..
+A An Inspired Moral Inventory|QID|57444|M|57.99,75.85|Z|Bastion!The Shadowlands|N|From Acolyte Galistos.|MS| ; needs to be moved upwards..
 A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion!The Shadowlands|N|From The Scroll in front of the Vespar of Harmony.|PRE|57717|MS|
 C An Inspired Moral Inventory|QID|57444|M|57.98,75.81|Z|Bastion!The Shadowlands|T|Forsworn Ascended|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion!The Shadowlands|NC|N|Find the scrolls around the area.|S|MS|
@@ -461,6 +461,7 @@ A Clear as Crystal|QID|60053|M|40.72,55.48|Z|Bastion!The Shadowlands|N|From Mika
 A Double Tap|QID|60052|M|PLAYER|Z|Bastion!The Shadowlands|N|From Thanikos.|PRE|60007&60008&60009|MS|
 C Clear as Crystal|QID|60053|M|40.33,57.85|Z|Bastion!The Shadowlands|NC|N|Click on the green crystlas littered around to empower the anima conflux.|S|MS|
 C Double Tap|QID|60052|M|40.33,57.85|Z|Bastion!The Shadowlands|N|Kill the mobs then use the Archonic Resonator crystal to burn the bodies.|U|178140|MS|
+C Clear as Crystal|QID|60053|M|40.33,57.85|Z|Bastion!The Shadowlands|NC|N|Click on the green crystlas littered around to empower the anima conflux.|US|MS|
 T Clear as Crystal|QID|60053|M|39.78,55.17|Z|Bastion!The Shadowlands|N|To Mikanikos|MS|
 T Double Tap|QID|60052|M|39.48,55.25|Z|Bastion!The Shadowlands|N|To Thanikos.|MS|
 A The Final Countdown|QID|60054|M|39.48,55.25|Z|Bastion!The Shadowlands|N|From Thanikos.|PRE|60052|MS|

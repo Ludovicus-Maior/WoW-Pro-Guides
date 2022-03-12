@@ -527,7 +527,9 @@ T Vaunted Vengeance|QID|59188|M|73.42,44.52|Z|Maldraxxus|N|To Khaliiq.|MS|
 T Entangling Web|QID|59185|M|73.59,44.60|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 T Tainted Cores|QID|59210|M|73.59,44.60|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A Seek Your Mark|QID|59190|M|73.47,44.53|Z|Maldraxxus|N|From Baroness Vashj.|PRE|59185&59210&59188|MS|
-C Seek Your Mark|QID|59190|M|74.44,43.82|Z|Maldraxxus|QO|1|NC|N|Click to place the Fractured Crystal at the 3 points around the obelisk.|MS|
+C Seek Your Mark|QID|59190|M|74.44,43.82|Z|Maldraxxus|QO|1<1|NC|N|Click to place the Fractured Crystal at the 3 points around the obelisk.|MS|
+C Seek Your Mark|QID|59190|M|73.17,44.46|Z|Maldraxxus|QO|1<2|NC|N|Click to place the Fractured Crystal at the 3 points around the obelisk.|MS|
+C Seek Your Mark|QID|59190|M|72.96,42.91|Z|Maldraxxus|QO|1<3|NC|N|Click to place the Fractured Crystal at the 3 points around the obelisk.|MS|
 C Seek Your Mark|QID|59190|M|73.83,43.83|Z|Maldraxxus|QO|2|NC|N|Click on the obelisk to draw your Binding Sigil.|MS|
 T Seek Your Mark|QID|59190|M|73.61,44.49|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A Straight to the Heart|QID|59025|M|73.61,44.49|Z|Maldraxxus|N|From Baroness Vashj.|PRE|59190|MS|
@@ -556,35 +558,35 @@ P Oribos|ACTIVE|59874|M|PLAYER|N|Teleport to Oribos|MS|C|Mage|
 T The Maw|QID|59874|M|40.05,68.46|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A Seeking the Baron|QID|59897|M|40.05,68.46|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon, after some dialog.|PRE|59874|MS|
 C Seeking the Baron|QID|59897|M|47.16,55.30|Z|Ring of Fates@Oribos|NC|N|Go back up to the Ring of Transference, then jump into the pillar of souls in the middle of Oribos.|MS|
-T Seeking the Baron|QID|59897|M|44.95,40.99|Z|The Maw|N|To the pop up.|MS|
-A The Hunt for the Baron|QID|60972|M|PLAYER|Z|The Maw|N|From the pop up.|PRE|59897|MS|
-C The Hunt for the Baron|QID|60972|M|35.40,46.98|Z|The Maw|N|Kill stuff in the area to charge the Ebon Blade Amulet.|MS|
-T The Hunt for the Baron|QID|60972|M|PLAYER|Z|The Maw|N|To the Pop Up.|MS|
-A A Cooling Trail|QID|59960|M|PLAYER|Z|The Maw|N|From Pop up.|PRE|60972|MS|
-C A Cooling Trail|QID|59960|M|PLAYER|Z|The Maw|U|181174|N|Use the Amulet of the Horsemen to help you find Darion Mograine. Follow the ghostly Death Essense to where Mograine is. It will wait if you need to stop and fight.|MS|
-T A Cooling Trail|QID|59960|M|38.35,48.44|Z|The Maw|N|To Darion Mograine's cage.|MS|
-A The Brand Holds the Key|QID|59959|M|38.35,48.44|Z|The Maw|N|From Darion Mograine's cage.|PRE|59960|MS|
-C The Brand Holds the Key|QID|59959|CS|M|33.60,45.06;35.91,44.89|Z|The Maw|QO|1|N|Back up the stairs, past the elite (keep your distance and he doesn't attack). At the top of the stairs, find and kill Brethlun the Brand and then loot the Key.|T|Brethlun the Brand|MS|
-C The Brand Holds the Key|QID|59959|M|38.35,48.58|Z|The Maw|QO|2|NC|N|Go back and click on the cage to free Darion Mograine|MS|
-T The Brand Holds the Key|QID|59959|M|36.59,50.72|Z|The Maw|N|To Ve'nari.|MS|
-A Hope Never Dies|QID|59962|M|36.59,50.72|Z|The Maw|N|From Ve'nari.|PRE|59959|MS|
-C Hope Never Dies|QID|59962|M|36.59,50.72|Z|The Maw|NC|N|Click on the Orb of Teleportation to bring you to the Face of Oblivion.|MS|
-T Hope Never Dies|QID|59962|M|36.28,55.63|Z|The Maw|N|To Ve'nari.|MS|
-A Delving Deeper|QID|59966|M|36.28,55.63|Z|The Maw|N|From Ve'nari.|PRE|59962|MS|
-C Delving Deeper|QID|59966|M|36.28,55.63|Z|The Maw|QO|1|CHAT|N|Speak with Ve'nari to get going.|MS|
-C Delving Deeper|QID|59966|M|34.74,66.78|Z|The Maw|QO|2|N|Follow Ve'nari while staying in the stealth field and avoiding enemies.|MS|
-T Delving Deeper|QID|59966|M|32.92,66.49|Z|The Maw|N|To Highlord Darion Mograine.|MS|
-A A Bond Beyond Death|QID|59973|M|32.92,66.49|Z|The Maw|N|From Highlord Darion Mograine.|PRE|59966|MS|
-C A Bond Beyond Death|QID|59973|M|32.92,66.49|Z|The Maw|QO|1|NC|N|Click on Alexandros to free him.|MS|
-C A Bond Beyond Death|QID|59973|M|33.10,66.63|Z|The Maw|QO|2|N|Defend them against the 2 waves of enemies.|MS|
-C A Bond Beyond Death|QID|59973|M|33.03,66.54|Z|The Maw|QO|3|N|Kill Deslan the Torturer.|MS|
-T A Bond Beyond Death|QID|59973|M|32.98,66.47|Z|The Maw|N|To Highlord Darion Mograine.|MS|
-A Wake of Ashes|QID|61190|M|32.98,66.47|Z|The Maw|N|From Highlord Darion Mograine.|PRE|59973|MS|
-C Wake of Ashes|QID|61190|M|47.51,40.76|Z|The Maw|NC|N|Take Ve'nari's Portal near you.|MS|
-T Wake of Ashes|QID|61190|M|46.88,41.65|Z|The Maw|N|To Ve'nari.|MS|
-A Maw Walker|QID|62654|M|46.88,41.65|Z|The Maw|N|From Ve'nari.|PRE|61190|MS|
-C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|1|NC|N|Click the waygate to attune Alexandros and Darion.|MS|
-C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|2|NC|N|Click the waygate again to escape the Maw and get teleported back to Oribos.|MS|
+T Seeking the Baron|QID|59897|M|44.95,40.99|Z|1960;The Maw|N|To the pop up.|MS|
+A The Hunt for the Baron|QID|60972|M|PLAYER|Z|1960;The Maw|N|From the pop up.|PRE|59897|MS|
+C The Hunt for the Baron|QID|60972|M|35.40,46.98|Z|1960;The Maw|N|Kill stuff in the area to charge the Ebon Blade Amulet.|MS|
+T The Hunt for the Baron|QID|60972|M|PLAYER|Z|1960;The Maw|N|To the Pop Up.|MS|
+A A Cooling Trail|QID|59960|M|PLAYER|Z|1960;The Maw|N|From Pop up.|PRE|60972|MS|
+C A Cooling Trail|QID|59960|M|PLAYER|Z|1960;The Maw|U|181174|N|Use the Amulet of the Horsemen to help you find Darion Mograine. Follow the ghostly Death Essense to where Mograine is. It will wait if you need to stop and fight.|MS|
+T A Cooling Trail|QID|59960|M|38.35,48.44|Z|1960;The Maw|N|To Darion Mograine's cage.|MS|
+A The Brand Holds the Key|QID|59959|M|38.35,48.44|Z|1960;The Maw|N|From Darion Mograine's cage.|PRE|59960|MS|
+C The Brand Holds the Key|QID|59959|M|35.91,44.89|Z|1960;The Maw|QO|1|N|Back up the stairs, past the elite (keep your distance and he doesn't attack). At the top of the stairs, find and kill Brethlun the Brand and then loot the Key.|T|Brethlun the Brand|MS|
+C The Brand Holds the Key|QID|59959|M|38.35,48.58|Z|1960;The Maw|QO|2|NC|N|Go back and click on the cage to free Darion Mograine|MS|
+T The Brand Holds the Key|QID|59959|M|36.59,50.72|Z|1960;The Maw|N|To Ve'nari.|MS|
+A Hope Never Dies|QID|59962|M|36.59,50.72|Z|1960;The Maw|N|From Ve'nari.|PRE|59959|MS|
+C Hope Never Dies|QID|59962|M|36.59,50.72|Z|1960;The Maw|NC|N|Click on the Orb of Teleportation to bring you to the Face of Oblivion.|MS|
+T Hope Never Dies|QID|59962|M|36.28,55.63|Z|1960;The Maw|N|To Ve'nari.|MS|
+A Delving Deeper|QID|59966|M|36.28,55.63|Z|1960;The Maw|N|From Ve'nari.|PRE|59962|MS|
+C Delving Deeper|QID|59966|M|36.28,55.63|Z|1960;The Maw|QO|1|CHAT|N|Speak with Ve'nari to get going.|MS|
+C Delving Deeper|QID|59966|M|34.74,66.78|Z|1960;The Maw|QO|2|N|Follow Ve'nari while staying in the stealth field and avoiding enemies.|MS|
+T Delving Deeper|QID|59966|M|32.92,66.49|Z|1960;The Maw|N|To Highlord Darion Mograine.|MS|
+A A Bond Beyond Death|QID|59973|M|32.92,66.49|Z|1960;The Maw|N|From Highlord Darion Mograine.|PRE|59966|MS|
+C A Bond Beyond Death|QID|59973|M|32.92,66.49|Z|1960;The Maw|QO|1|NC|N|Click on Alexandros to free him.|MS|
+C A Bond Beyond Death|QID|59973|M|33.10,66.63|Z|1960;The Maw|QO|2|N|Defend them against the 2 waves of enemies.|MS|
+C A Bond Beyond Death|QID|59973|M|33.03,66.54|Z|1960;The Maw|QO|3|N|Kill Deslan the Torturer.|MS|
+T A Bond Beyond Death|QID|59973|M|32.98,66.47|Z|1960;The Maw|N|To Highlord Darion Mograine.|MS|
+A Wake of Ashes|QID|61190|M|32.98,66.47|Z|1960;The Maw|N|From Highlord Darion Mograine.|PRE|59973|MS|
+C Wake of Ashes|QID|61190|M|47.51,40.76|Z|1960;The Maw|NC|N|Take Ve'nari's Portal near you.|MS|
+T Wake of Ashes|QID|61190|M|46.88,41.65|Z|1960;The Maw|N|To Ve'nari.|MS|
+A Maw Walker|QID|62654|M|46.88,41.65|Z|1960;The Maw|N|From Ve'nari.|PRE|61190|MS|
+C Maw Walker|QID|62654|M|42.38,42.17|Z|1960;The Maw|QO|1|NC|N|Click the waygate to attune Alexandros and Darion.|MS|
+C Maw Walker|QID|62654|M|42.38,42.17|Z|1960;The Maw|QO|2|NC|N|Click the waygate again to escape the Maw and get teleported back to Oribos.|MS|
 T Maw Walker|QID|62654|M|40.08,68.41|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A A Soul Saved|QID|59974|M|39.60,68.00|Z|Ring of Fates@Oribos|N|From Baroness Draka.|PRE|62654|MS|
 P Ring of Transference|ACTIVE|59974|M|52.08,57.91|Z|Ring of Fates@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|MS|
@@ -613,13 +615,12 @@ F Oribos|ACTIVE|62761|N|When you are ready to move on, go to the nearest flightm
 P Ring of Fates|ACTIVE|59206|M|49.56,61.78|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|C|-Mage|
 P Oribos|ACTIVE|59206^62761|M|PLAYER|N|Teleport to Oribos.|C|Mage|  ; should work either TOF or MS
 T Words of the Primus|QID|59206|M|54.67,54.62|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
-A Request of the Highlord|QID|61715|M|54.67,54.62|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|59206|RANK|2|
+A Request of the Highlord|QID|61715|M|54.67,54.62|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|59206|MS|
 T Request of the Highlord|QID|61715|M|40.40,68.51|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A A Glimpse into Darkness|QID|61716|M|40.40,68.51|Z|Ring of Fates@Oribos|N|From Baroness Draka.|PRE|61715|MS|
 C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|1|Z|Ring of Fates@Oribos|NC|N|Click on the Helm of Domination.|MS|
 C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|2|Z|Ring of Fates@Oribos|NC|N|Watch cinematic.|MS|
 C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|3|Z|Ring of Fates@Oribos|NC|N|Sit back while everyone discusses the vision.|MS|
 T A Glimpse into Darkness|QID|61716|M|39.93,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon|MS|
-
 ]]
 end)
