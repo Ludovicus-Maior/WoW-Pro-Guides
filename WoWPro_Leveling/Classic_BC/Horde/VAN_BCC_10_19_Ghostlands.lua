@@ -98,7 +98,7 @@ C Dealing with Zeb'Sora|QID|9143|M|76.02,12.85|L|22639 6|N|Kill any troll you se
 R Farstrider Enclave|AVAILABLE|9158^9215^9274|M|73.83,32.11|N|Follow the shoreline south to the big building.|
 A Bearers of the Plague|QID|9158|M|72.49,32.14|N|From Farstrider Sedina at the Farstrider Enclave.|
 r Housekeeping|AVAILABLE|9158^9215^9274|M|72.12,32.04|N|You can repair and empty your bags at Narina.|IZ|3496; Farstrider Enclave|
-A Bring Me Kel'gash's Head!|QID|9215|M|72.22,31.18|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the Wanted Poster.|
+A Bring Me Kel'gash's Head!|QID|9215|M|72.22,31.18|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the Wanted Poster.\n[color=FF0000]NOTE: [/color]This quest can be almost impossible to solo. Pick it up in case you find help along the way.|RANK|3|
 A Spirits of the Drowned|QID|9274|M|72.21,29.76|N|From Ranger Krenn'an.|
 K Spirits of the Drowned|ACTIVE|9274|M|71.04,24.00|QO|1;2|N|Kill any ghost you see floating around in the lake.|S|
 T Dealing with Zeb'Sora|QID|9143|M|69.39,15.19|N|Return to Ranger Valanna.|
@@ -172,8 +172,7 @@ A Deliver the Plans to An'telas|QID|9166|M|44.88,32.51|N|From Dame Auriferous.|P
 T Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|To Deathstalker Maltendis.|
 A Troll Juju|QID|9199|M|44.81,32.33|N|From Deathstalker Maltendis.|
 T Retaking Windrunner Spire|QID|9173|M|44.77,32.45|N|To High Executor Mavren.|
-T The Lady's Necklace|QID|9175|M|44.77,32.45|N|To High Executor Mavren.|
-A Journey to Undercity|QID|9177^9180|M|44.77,32.45|N|From High Executor Mavren.|PRE|9175|
+T The Lady's Necklace|QID|9175|M|44.77,32.45|N|To High Executor Mavren.\n[color=FF0000]NOTE: [/color]Ignore the follow-up quest for now.|
 A Investigate the Amani Catacombs|QID|9193|M|44.84,32.81|N|From Advisor Valwyn.|
 F Silvermoon City|ACTIVE|9216|M|45.43,30.53|
 = Level 16 Training|ACTIVE|9216|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
@@ -233,30 +232,32 @@ R Zeb'Nowa|ACTIVE|9214^9277|M|68.33,48.73|
 C A Little Dash of Seasoning|QID|9275|M|68.23,57.78|QO|3|N|Go inside the hut and click on the Fresh Fish Rack to poison it.|NC|
 C A Little Dash of Seasoning|QID|9275|M|65.06,66.73|QO|1|N|Click on the Raw Meat Rack to poison it.|NC|
 C A Little Dash of Seasoning|QID|9275|M|63.03,74.98|QO|2|N|Click on the Smoked Meat Rack to poison it.|NC|
-K Bring Me Kel'gash's Head!|ACTIVE|9215|M|65.33,79.51|QO|1|N|If you feel that you can kill Kel'gash, or if you have help, go ahead and try.\n[color=FF0000]NOTE: [/color]He is stunnable and silenceable.|
+K Bring Me Kel'gash's Head!|ACTIVE|9215|M|65.33,79.51|L|22640|N|Kel'gash is a lv 20 elite, but can be stunned and silenced.\n[color=FF0000]NOTE: [/color]If you feel that you can kill him, go ahead and try. Otherwise, skip this step and come back later.|
 K Assault on Zeb'Nowa|ACTIVE|9277|M|62.90,66.38|QO|1;2|N|Kill Shadowpine Catlords and Hexxers.|US|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|22677 3|N|Loot the Catlord Claws from Catlords.|US|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|23166 3|N|Loot the Hexxer Staves from Hexxers.|US|
-L Level 18|ACTIVE|9199|N|Grind until you're level 18.|LVL|18|
+L Level 18|ACTIVE|9199|N|Grind until you're within 3 bubbles of level 18.|LVL|17;-2500|
 ;R Hatchet Hills|ACTIVE|9199|M|45.5,30.55|N|coords Fly to Hatchet Hills (Zul'Aman).|
 ;f Hatchet Hills|ACTIVE|9199|M|45.5,30.55|N|fix coords|
 ;F Silvermoon City|ACTIVE|9199|M|45.5,30.55|N|fix coords|
-; Remove the next 2 travel steps when Hatchet Hills becomes available
+; Uncomment the previous 3 steps if/when Hatchet Hills becomes available
 H Tranquillien|ACTIVE|9199|M|46.47,37.71|
-F Silvermoon City|ACTIVE|9199|M|45.43,30.53|
-= Level 18 Training|ACTIVE|9199|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-F Tranquillien|ACTIVE|9199|M|54.37,50.73|Z|Eversong Woods|
 T Troll Juju|QID|9199|M|44.76,32.28|N|To Deathstalker Malthendis.|
 T Investigate the Amani Catacombs|QID|9193|M|44.86,32.80|N|To Advisor Valwyn.|
-r Housekeeping|AVAILABLE|9151|M|49.11,30.32|N|Repair and sell junk to Blacksmith Frances.\n[color=FF0000]NOTE: [/color]You'll want to make as much space available as you can; you're going to need it.\nManually check this step off to continue.|
+F Silvermoon City|AVAILABLE|9151|M|45.43,30.53|
+= Level 18 Training|AVAILABLE|9151|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+r Housekeeping|AVAILABLE|9151|N|Repair, sell junk and visit the bank. You'll want to make as much space available as you can because you're going to need it.\n[color=FF0000]NOTE: [/color]If you can afford it, I might suggest checking the AH for bags.\nManually check this step off to continue.|
+F Tranquillien|AVAILABLE|9151|M|54.37,50.73|Z|Eversong Woods|
 A The Sanctum of the Sun|QID|9151|M|46.01,31.95|N|From Magister Darenis.|LEAD|9220|
 K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Kill Greater Spindlewebs and Ghostclaw Ravagers.|S|
-R An'owyn|AVAILABLE|9169|M|57.99,62.19|N|Follow the road south out of Tranquillien to Andilien Estate (Sticking to the grass areas on the west side).\nAt the intersection, head east along the road pass the Sanctum of the Sun to the 2nd intersection (sticking to the grassy area south of the road). At the 'T' intersection, head south into An'owyn.|
-l Crystal Controlling Orb|QID|9169|M|58.20,64.72|L|23191|QO|1|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|
-C Deactivate An'owyn|QID|9169|M|58.22,64.93|N|Click on the Night Elf Moon Crystal to deactivate it.|
+R Andilien Estate|ACTIVE|9169|M|45.01,56.80|N|Follow the road south out of Tranquillien to Andilien Estate.|
+R An'owyn|ACTIVE|9169|M|46.8,58.3;58.34,62.17|CC|N|Continue east along the road to the 2nd intersection. At the 'T' intersection, follow the trail south into An'owyn.\n[color=FF0000]NOTE: [/color]If you stick to the south side, you can work on your kill quest as you travel.|
+l Crystal Controlling Orb|ACTIVE|9169|M|58.20,64.72|L|23191|QO|1|N|Kill Sentinel Infiltrators until you get one.|
+C Deactivate An'owyn|QID|9169|M|58.22,64.93|N|After clearing the area, click on the Night Elf Moon Crystal to deactivate it.|NC|
 K Clearing the Way|ACTIVE|9281|M|47.33,63.85|QO|1;2|N|Finish killing Greater Spindlewebs and Ghostclaw Ravager.\n[color=FF0000]NOTE: [/color]Between here and the road to the west, you should find plenty of them.\nMake sure you stay south of the road.|US|
 T Clearing the Way|QID|9281|M|46.40,56.41|N|To Apprentice Vor'el, at Andilien Estate.|
-T Report to Magister Kaendris|QID|9172|M|55.07,48.83|N|To Magister Kaendris, in Sanctum of the Sun.|
+R Sanctum of the Sun|ACTIVE|9172|M|53.94,51.76|
+T Report to Magister Kaendris|QID|9172|M|55.07,48.83|N|To Magister Kaendris.|
 A The Twin Ziggurats|QID|9176|M|55.07,48.83|N|From Magister Kaendris.|PRE|9172|
 T The Sanctum of the Sun|QID|9151|M|54.87,48.55|N|To Magister Idonis, at the top of the ramp.|
 A War on Deatholme|QID|9220|M|54.87,48.55|N|From Magister Idonis.|
@@ -288,6 +289,9 @@ T A Little Dash of Seasoning|QID|9275|M|72.62,31.56|N|To Apothecary Venustus.|
 H Tranquillien|ACTIVE|9218|M|46.43,37.58|
 T Spinal Dust|QID|9218|M|48.92,31.31|N|To Magistrix Aminel.|
 r Repair/Restock|ACTIVE|9877|M|49.05,30.32|N|At Blacksmith Frances.|
+; ** Grab this quest now as they are headed to Undercity for their class quests. 2 steps because one class is race based.
+A Journey to Undercity|QID|9177^9180|M|44.77,32.45|N|From High Executor Mavren.|PRE|9175|R|Undead|C|Priest|
+A Journey to Undercity|QID|9177^9180|M|44.77,32.45|N|From High Executor Mavren.|PRE|9175|C|Warlock|
 F Silvermoon City|ACTIVE|9877|M|45.43,30.53|
 = Level 20 Training|ACTIVE|9877|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ; --- Paladin level 20 class quest
@@ -418,6 +422,7 @@ K Luzran|ACTIVE|9156|M|34.3,50.3;37.3,67.5;39.5,32.0|CN|QO|2|N|Luzran spawns at 
 K Knucklerot|ACTIVE|9156|M|41.7,45.2;33.1,53.1;25.6,55.4;22.6,49.1;22.2,40.4;27.5,38.1;30.4,35.9;27.7,29.9;29.4,21;25.4,16.3|CN|QO|1|N|Knucklerot spawns at Howling Ziggurat and begins his path by following the road across The Dead Scar past and through to Windrunner Village. From here he works his way along the shore until he crosses over the river just above the waterfall and heads for the road leading into Goldenmist Village. He follows this road to the fountain between the buildings. At this point, he turns around and begins to path back to the beginning. His return path is the exact same with one exception. After crossing the river, he goes to Sanctum of the Moon before heading to Windrunner Village.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip.|T|Knucklerot|IZ|1942;Ghostlands|
 R Tranquillien|AVAILABLE|1061|M|46.52,31.90|N|Run to Tranquillien.|
 T Wanted: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|IZ|1942;Ghostlands|
+A Journey to Undercity|QID|9177^9180|M|44.77,32.45|N|From High Executor Mavren.|PRE|9175|LVL|20;-1660| ; ** this quest greys at lv 22 and the exp drops at 21
 F Silvermoon City|AVAILABLE|1061|M|45.43,30.53|
 R Housekeeping|AVAILABLE|1061|N|Visit your trainers, AH, etc.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Hero of the Sin'dorei|QID|9328|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron.|R|BloodElf|
@@ -427,8 +432,8 @@ A Envoy to the Horde|QID|9812|M|53.79,20.22|Z|Silvermoon City|N|From Lor'themar 
 P Undercity|AVAILABLE|1061|M|49.49,14.80|Z|Silvermoon City|N|Go into the room behind Lor'themar and click on the Orb of Translocation at the top of the ramp.|
 f Undercity|AVAILABLE|1061|M|63.26,48.55|Z|1458;Undercity|N|Get the flight path from Michael Garrett inside Undercity.|TAXI|-Undercity|
 R Royal Quarter|ACTIVE|9177^9180^9621^9812|M|51.30,65.60|Z|1458;Undercity|N|The entrance to Royal Quarter is by the outer ring of The Apothecarium in the southwest corner of Undercity.|
-T Envoy to the Horde|QID|9621^9812|M|58.05,91.79|Z|1458;Undercity|N|To Lady Sylvanas Windrunner.|R|BloodElf|
 T Journey to Undercity|QID|9177^9180|M|58.05,91.79|Z|1458;Undercity|N|To Lady Sylvanas Windrunner.|
+T Envoy to the Horde|QID|9621^9812|M|58.05,91.79|Z|1458;Undercity|N|To Lady Sylvanas Windrunner.|R|BloodElf|
 A Meeting the Warchief|QID|9626|M|57.93,91.79|Z|1458;Undercity|N|From Lady Sylvanas Windrunner.|PRE|9621|R|BloodElf|
 A Meeting the Warchief|QID|9813|M|57.93,91.79|Z|1458;Undercity|N|From Lady Sylvanas Windrunner.|PRE|9812|R|-BloodElf|
 R Leave Undercity|AVAILABLE|1061|M|66.1,38.4;66.2,0.9;66.2,1.2|Z|1458;Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|IZ|1497;Undercity|
