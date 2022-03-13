@@ -1084,6 +1084,8 @@ function WoWPro.SetupGuideReal()
     end
 
     -- Checking to see if any steps are already complete --
+    WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
+    WoWProCharDB.Guide[GID].completion =  WoWProCharDB.Guide[GID].completion or {}
     for i=1, WoWPro.stepcount do
         local action = WoWPro.action[i]
         if (action == ";") or (action == '!') then
