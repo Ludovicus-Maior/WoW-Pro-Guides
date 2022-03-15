@@ -39,8 +39,8 @@ A Ardenweald|QID|62277|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal
 T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A Restoring Balance|QID|62739^63036|PRE|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62739^63036|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
-F Heart of the Forest|ACTIVE|63036|M|60.87,68.63|Z|Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
-F Refugee Camp|ACTIVE|62739|M|60.87,68.63|Z|Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
+F Heart of the Forest|ACTIVE|63036|M|60.87,68.63|Z|1671;Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
+F Refugee Camp|ACTIVE|62739|M|60.87,68.63|Z|1671;Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
 T Restoring Balance|QID|63036|M|49.13,38.92|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|TOF|
 T Restoring Balance|QID|62739|M|49.33,52.36|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|TOF|
 A Support the Court|QID|62763|PRE|63036|M|49.13,38.92|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|TOF|
@@ -76,9 +76,9 @@ R Tirna Vaal|ACTIVE|62763|CS|M|47.67,50.54;48.19,45.30;62.36,36.42|Z|Ardenweald!
 
 ; Welcome to Ardenweald Storyline
 A Journey to Ardenweald|QID|60338|M|39.36,69.40|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|61716|MS|
-P Ring of Transference|ACTIVE|60338|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|MS|
-C Journey to Ardenweald|QID|60338|M|49.49,72.96|Z|Ring of Transference@Oribos|QO|1|NC|N|Activate the Gateway to Ardenweald.|MS|
-C Journey to Ardenweald|QID|60338|M|50.36,74.30|Z|Ring of Transference@Oribos|QO|2|CHAT|N|Speak to Roh-Avonavi.|MS|
+P Ring of Transference|ACTIVE|60338|M|49.55,60.83|Z|1671;Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|MS|
+C Journey to Ardenweald|QID|60338|M|49.49,72.96|Z|1671;Ring of Transference@Oribos|QO|1|NC|N|Activate the Gateway to Ardenweald.|MS|
+C Journey to Ardenweald|QID|60338|M|50.36,74.30|Z|1671;Ring of Transference@Oribos|QO|2|CHAT|N|Speak to Roh-Avonavi.|MS|
 N Use of Ranks|ACTIVE|60338|N|Setting the guide to Rank 1 will direct you to all main story line quests. It will not direct you to optional quests, however, if you pick one up it will direct you where to complete and turn in. Rank 2 takes you to all the side quests, There is nothing set to Rank 3 in this guide.|MS|
 T Journey to Ardenweald|QID|60338|M|68.27,18.36|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|MS|
 A I Moustache You to Lend a Hand|QID|60763|M|68.27,18.36|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|60338|MS|
@@ -476,7 +476,7 @@ C Sparkles Rain from Above|QID|58524|M|70.71,55.92|Z|Ardenweald!The Shadowlands|
 T The Fallen Tree|QID|62720|M|70.10,57.17|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
 H Hibernal Hollow|ACTIVE|58524^62763|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|Hearth or run back to Hibernal Hollow.|
 T Sparkles Rain from Above|QID|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
-L Nearly Level 58|PRE|58524|M|PLAYER|LVL|57;-64000|N|You need to about 4 bubbles from 58, or you won't be able to do the last quest in Hibernal Hollow. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|MS|
+;L Nearly Level 57|PRE|58524|M|PLAYER|LVL|56;-64000|N|You need to about 4 bubbles from 57, or you won't be able to do the last quest in Hibernal Hollow. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|MS|
 
 ; Visions of the Dreamer Storyline
 A For the Sake of Spirit|QID|60572|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|PRE|58524|MS|
@@ -586,7 +586,7 @@ A The Queen's Request|QID|58724|M|49.05,33.98|Z|The Trunk@Heart of the Forest!Du
 
 F Oribos|ACTIVE|58724|M|49.32,51.90|Z|Ardenweald!The Shadowlands|N|At Derwynnthlmn.|MS|C|-Mage|
 P Oribos|ACTIVE|58724|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Teleport to Oribos.|MS|C|Mage|
-T The Queen's Request|QID|58724|M|48.98,60.10|Z|Ring of Transference@Oribos|N|To Tal-Inara.|MS|
+T The Queen's Request|QID|58724|M|48.98,60.10|Z|1671;Ring of Transference@Oribos|N|To Tal-Inara.|MS|
 
 ; Level 60 Sidequest - Thread of Hope
 A Silk Shortage|QID|57661|M|59.46,31.85|Z|The Trunk@Heart of the Forest!Dungeon|N|From Aithlyn|PRE|59656|COV|Night Fae|RANK|2|LVL|60|;from comments -- it appears its a dif place
