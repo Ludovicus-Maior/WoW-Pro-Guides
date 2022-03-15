@@ -6,13 +6,13 @@ WoWPro:GuideSort(guide, 8)
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Chapter 1
-A Call of the Primus|QID|64942|M|57.04,57.70|Z|1670|N|Auto Accepted|
-C Call of the Primus|QID|64942|M|38.89,69.88|Z|1670|QO|1|CHAT|N|Talk to Tal-Inara.|
-T Call of the Primus|QID|64942|M|32.68,51.09|Z|2042|N|To The Primus.|
-A A Hasty Voyage|QID|64944|PRE|64942|M|34.16,52.38|Z|2042|N|From The Primus.|
-C A Hasty Voyage|QID|64944|M|33.23,46.87|Z|2042|QO|1|N|Mount the Anima Wyrm.|
-C Path of the Primus|Z|2042|SO|1|N|Mawsworn forces defeated.|
-C Struggle for Control|Z|2042|SO|2|N|Your mount has been slain, but you have landed on the back of a Winged Soul Eater. Follow the commands on screen. 1 is to kick, 2 is to grip tighter, 3 is to pull the reins.|
+A Call of the Primus|QID|64942|M|57.04,57.70|Z|1670;Ring of Fates@Oribos|N|Auto Accepted|
+C Call of the Primus|QID|64942|M|38.89,69.88|Z|1670;Ring of Fates@Oribos|QO|1|CHAT|N|Talk to Tal-Inara.|
+T Call of the Primus|QID|64942|M|32.68,51.09|Z|2042;The Crucible!Dungeon|N|To The Primus.|
+A A Hasty Voyage|QID|64944|PRE|64942|M|34.16,52.38|Z|2042;The Crucible!Dungeon|N|From The Primus.|
+C A Hasty Voyage|QID|64944|M|33.23,46.87|Z|2042;The Crucible!Dungeon|QO|1|N|Mount the Anima Wyrm.|
+C Path of the Primus|Z|2042;The Crucible!Dungeon|SO|1|N|Mawsworn forces defeated.|
+C Struggle for Control|Z|2042;The Crucible!Dungeon|SO|2|N|Your mount has been slain, but you have landed on the back of a Winged Soul Eater. Follow the commands on screen. 1 is to kick, 2 is to grip tighter, 3 is to pull the reins.|
 C A Hasty Voyage|QID|64944|M|28.11,49.64|QO|2|NC|N|Portal to Zereth Mortis entered.|
 T A Hasty Voyage|QID|64944|M|24.90,53.58|N|To Pelagos.|
 A Strangers in a Strange Land|QID|64945|PRE|64944|M|24.90,53.58|N|From Palagos.|
@@ -172,16 +172,16 @@ T Surveying Cyphers|QID|65149|M|34.04,48.02|Z|1970;Zereth Mortis|N|To Firim.|
 A Cyphers of the First Ones|QID|64230|PRE|65149|M|34.04,48.02|Z|1970;Zereth Mortis|N|From Firim.|
 C Cyphers of the First Ones|QID|64230|M|33.78,49.40|Z|1970;Zereth Mortis|QO|1|NC|N|Cypher Console examined.|
 C Cyphers of the First Ones|QID|64230|M|33.78,49.40|Z|1970;Zereth Mortis|QO|2|NC|N|Metrial Unlocked.|
-T Cyphers of the First Ones|QID|64230|M|34.03,48.18|Z|1970|N|To Firim.|
-A Further Research: Aealic|QID|65431|PRE|64230|M|34.04,48.11|Z|1970|N|From Firim.|
-A The Necessity Of Equipment|QID|65749|PRE|64230|M|34.04,48.11|Z|1970|N|From Firim.|
-C The Necessity Of Equipment|QID|65749|M|34.14,48.84|Z|1970|NC|N|Pick up the paper on the desk.|
-C Further Research: Aealic|QID|65431|M|33.76,49.44|Z|1970|QO|1|NC|N|Aelic advancements investigated.|
-T Further Research: Aealic|QID|65431|M|34.04,48.11|Z|1970|N|To Firim.|
-A The Way Forward|QID|65305|PRE|64230|M|33.99,47.97|Z|1970|N|From Pelagos.|
-F Haven|ACTIVE|65305|M|35.64,44.36|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
-C The Way Forward|QID|65305|M|35.64,44.36|Z|1970|QO|1|NC|N|Take the Translocator to Haven (Optional).|
-T The Way Forward|QID|65305|M|35.02,64.75|Z|1970|N|To Highlord Bolvar Fordragon.|
+T Cyphers of the First Ones|QID|64230|M|34.03,48.18|Z|1970;Zereth Mortis|N|To Firim.|
+A Further Research: Aealic|QID|65431|PRE|64230|M|34.04,48.11|Z|1970;Zereth Mortis|N|From Firim.|
+A The Necessity Of Equipment|QID|65749|PRE|64230|M|34.04,48.11|Z|1970;Zereth Mortis|N|From Firim.|
+C The Necessity Of Equipment|QID|65749|M|34.14,48.84|Z|1970;Zereth Mortis|NC|N|Pick up the paper on the desk.|
+C Further Research: Aealic|QID|65431|M|33.76,49.44|Z|1970;Zereth Mortis|QO|1|NC|N|Aelic advancements investigated.|
+T Further Research: Aealic|QID|65431|M|34.04,48.11|Z|1970;Zereth Mortis|N|To Firim.|
+A The Way Forward|QID|65305|PRE|64230|M|33.99,47.97|Z|1970;Zereth Mortis|N|From Pelagos.|
+F Haven|ACTIVE|65305|M|35.64,44.36|Z|1970;Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
+C The Way Forward|QID|65305|M|35.64,44.36|Z|1970;Zereth Mortis|QO|1|NC|N|Take the Translocator to Haven (Optional).|
+T The Way Forward|QID|65305|M|35.02,64.75|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 
 ;CH4
 A News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Uther the Lightbringer.|
@@ -257,54 +257,54 @@ C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|2|CHAT|N|T
 T The Pilgrimage Ends|QID|64844|M|64.65,53.29|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 
 ;CH5
-A The Broken Crown|QID|64799|PRE|64844|M|35.05,64.81|Z|1970|N|From Highlord Bolvar Fordragon.|
-C The Broken Crown|QID|64799|M|33.30,69.04|Z|1970|QO|1|CHAT|N|Hear Anduin's Tale.|
-T The Broken Crown|QID|64799|M|33.23,68.92|Z|1970|N|To Highlord Bolvar Fordragon.|
-A Our Last Option|QID|64800|PRE|64799|M|33.23,68.92|Z|1970|N|From Highlord Bolvar Fordragon.|
-C Our Last Option|QID|64800|M|33.33,68.95|Z|1970|QO|1|CHAT|N|Listen to the Plan.|
-T Our Last Option|QID|64800|M|33.26,68.92|Z|1970|N|To Highlord Bolvar Fordragon.|
-A Hello, Darkness|QID|64802|PRE|64800|M|33.31,68.87|Z|1970|N|From The Primus.|
-C Hello, Darkness|QID|64802|M|33.21,68.85|Z|1970|QO|1|NC|N|Wield the Broken Helm.|
-C Hello, Darkness|QID|64802|M|33.35,69.31|Z|1970|QO|2|NC|N|Use the "[color=40C7EB]Domination[/color]" button to use the Broken Helm on Darion Mograine.|EAB|
-T Hello, Darkness|QID|64802|M|33.31,68.82|Z|1970|N|To The Primus.|
-A Testing One Two|QID|64803|PRE|64802|M|33.31,68.82|Z|1970|N|From The Primus.|
-A Elder Eru|QID|64801|PRE|64802|M|33.24,68.96|Z|1970|N|From Highlord Bolvar Fordragon.|
-C Testing One Two|QID|64803|M|40.81,64.85|Z|1970|QO|2|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on Cervids.|EAB|T|Cervid Grazer|
-C Testing One Two|QID|64803|M|45.77,67.93|Z|1970|QO|1|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on Native Poultrids.|EAB|T|Native Poultrid|
-C Testing One Two|QID|64803|M|56.06,82.90|Z|1970|QO|3|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on Outmoded Servitor.|EAB|T|Outmoded Servitor|
-T Testing One Two|QID|64803|M|56.17,83.26|Z|1970|N|To Elder Eru.|
-T Elder Eru|QID|64801|M|56.17,83.26|Z|1970|N|To Elder Eru.|
-A Cryptic Catalogue|QID|64804|PRE|64803&64801|M|56.17,83.26|Z|1970|N|From Elder Eru.|
-C Cryptic Catalogue|QID|64804|M|57.34,84.04|Z|1970|QO|1|NC|N|First Phrase memorized.|
-C Cryptic Catalogue|QID|64804|M|58.68,84.51|Z|1970|QO|2|NC|N|Second Phrase memorized.|
-C Cryptic Catalogue|QID|64804|M|58.46,81.76|Z|1970|QO|3|NC|N|Third Phrase memorized.|
-T Cryptic Catalogue|QID|64804|M|59.22,78.91|Z|1970|N|To Elder Eru.|
-A The Not-Scientific Method|QID|64805|PRE|64804|M|59.22,78.91|Z|1970|N|From Elder Eru.|
-C The Not-Scientific Method|QID|64805|M|58.58,78.57|Z|1970|QO|1|NC|N|Upload Phrases to Librarian.|
-C The Not-Scientific Method|QID|64805|M|58.63,78.62|Z|1970|QO|2|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on the Librarian.|EAB|
-C The Not-Scientific Method|QID|64805|M|58.70,78.77|Z|1970|QO|3|NC|N|Observe Results.|
-C The Not-Scientific Method|QID|64805|M|58.70,78.77|Z|1970|QO|4|NC|N|Lexicon Librarian subdued.|
-T The Not-Scientific Method|QID|64805|M|59.16,78.80|Z|1970|N|To Elder Eru.|
-A Two Paths to Tread|QID|64853|PRE|64805|M|59.16,78.80|Z|1970|N|From Elder Eru.|
-T Two Paths to Tread|QID|64853|M|33.33,68.77|Z|1970|N|To The Primus.|
-A One Half of the Equation|QID|64809|PRE|64853|M|33.20,68.88|Z|1970|N|From Highlord Bolvar Fordragon.|
-T One Half of the Equation|QID|64809|M|57.16,31.21|Z|1970|N|To Highlord Bolvar Fordragon.|
-A Oppress and Destroy|QID|64810|PRE|64809|M|57.16,31.21|Z|1970|N|From Highlord Bolvar Fordragon.|
-A Aggressive Excavation|QID|64811|PRE|64809|M|57.16,31.21|Z|1970|N|From Taelia Fordragon.|
-C Oppress and Destroy|QID|64810|M|60.24,31.48|Z|1970|QO|1|N|Invading Mawsworn slain (100%).|S|
-C Aggressive Excavation|QID|64811|M|63.01,22.34|Z|1970|QO|1|NC|N|Blocked Door destroyed.|
-C Aggressive Excavation|QID|64811|M|62.85,21.31|Z|1970|QO|2<1|NC|N|Inscrutable Phrases infused.|
-C Aggressive Excavation|QID|64811|M|66.08,25.74|Z|1970|QO|2<2|NC|N|Inscrutable Phrases infused.|
-C Aggressive Excavation|QID|64811|M|59.70,32.27|Z|1970|QO|2<3|NC|N|Inscrutable Phrases infused.|
-C Oppress and Destroy|QID|64810|M|60.24,31.48|Z|1970|QO|1|N|Invading Mawsworn slain (100%).|US|
-T Oppress and Destroy|QID|64810|M|57.32,31.11|Z|1970|N|To Highlord Bolvar Fordragon.|
-T Aggressive Excavation|QID|64811|M|57.32,31.11|Z|1970|N|To Highlord Bolvar Fordragon.|
-A Where the Memory Resides|QID|64806|PRE|64810&64811|M|57.32,31.11|Z|1970|N|From Highlord Bolvar Fordragon.|
-R Pilgrim's Grace|ACTIVE|64806|M|61.52,50.45|Z|Zereth Mortis|N|Make your way to the Pilgrim's Grace.|
-F Haven|ACTIVE|64806|M|61.52,50.45|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
-R Geometric Cavern|ACTIVE|64806|M|33.04,69.62|Z|Zereth Mortis|N|Make your way to the Geometric Cavern.|
-P Ring of Transference|ACTIVE|64806|M|33.00,69.71|Z|Zereth Mortis|N|Take the portal to Ring of Transference.|
-F Aspirant's Rest|ACTIVE|64806|M|60.24,67.83|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Aspirant's Rest.|
+A The Broken Crown|QID|64799|PRE|64844|M|35.05,64.81|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
+C The Broken Crown|QID|64799|M|33.30,69.04|Z|1970;Zereth Mortis|QO|1|CHAT|N|Hear Anduin's Tale.|
+T The Broken Crown|QID|64799|M|33.23,68.92|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+A Our Last Option|QID|64800|PRE|64799|M|33.23,68.92|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
+C Our Last Option|QID|64800|M|33.33,68.95|Z|1970;Zereth Mortis|QO|1|CHAT|N|Listen to the Plan.|
+T Our Last Option|QID|64800|M|33.26,68.92|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+A Hello, Darkness|QID|64802|PRE|64800|M|33.31,68.87|Z|1970;Zereth Mortis|N|From The Primus.|
+C Hello, Darkness|QID|64802|M|33.21,68.85|Z|1970;Zereth Mortis|QO|1|NC|N|Wield the Broken Helm.|
+C Hello, Darkness|QID|64802|M|33.35,69.31|Z|1970;Zereth Mortis|QO|2|NC|N|Use the "[color=40C7EB]Domination[/color]" button to use the Broken Helm on Darion Mograine.|EAB|
+T Hello, Darkness|QID|64802|M|33.31,68.82|Z|1970;Zereth Mortis|N|To The Primus.|
+A Testing One Two|QID|64803|PRE|64802|M|33.31,68.82|Z|1970;Zereth Mortis|N|From The Primus.|
+A Elder Eru|QID|64801|PRE|64802|M|33.24,68.96|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
+C Testing One Two|QID|64803|M|40.81,64.85|Z|1970;Zereth Mortis|QO|2|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on Cervids.|EAB|T|Cervid Grazer|
+C Testing One Two|QID|64803|M|45.77,67.93|Z|1970;Zereth Mortis|QO|1|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on Native Poultrids.|EAB|T|Native Poultrid|
+C Testing One Two|QID|64803|M|56.06,82.90|Z|1970;Zereth Mortis|QO|3|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on Outmoded Servitor.|EAB|T|Outmoded Servitor|
+T Testing One Two|QID|64803|M|56.17,83.26|Z|1970;Zereth Mortis|N|To Elder Eru.|
+T Elder Eru|QID|64801|M|56.17,83.26|Z|1970;Zereth Mortis|N|To Elder Eru.|
+A Cryptic Catalogue|QID|64804|PRE|64803&64801|M|56.17,83.26|Z|1970;Zereth Mortis|N|From Elder Eru.|
+C Cryptic Catalogue|QID|64804|M|57.34,84.04|Z|1970;Zereth Mortis|QO|1|NC|N|First Phrase memorized.|
+C Cryptic Catalogue|QID|64804|M|58.68,84.51|Z|1970;Zereth Mortis|QO|2|NC|N|Second Phrase memorized.|
+C Cryptic Catalogue|QID|64804|M|58.46,81.76|Z|1970;Zereth Mortis|QO|3|NC|N|Third Phrase memorized.|
+T Cryptic Catalogue|QID|64804|M|59.22,78.91|Z|1970;Zereth Mortis|N|To Elder Eru.|
+A The Not-Scientific Method|QID|64805|PRE|64804|M|59.22,78.91|Z|1970;Zereth Mortis|N|From Elder Eru.|
+C The Not-Scientific Method|QID|64805|M|58.58,78.57|Z|1970;Zereth Mortis|QO|1|NC|N|Upload Phrases to Librarian.|
+C The Not-Scientific Method|QID|64805|M|58.63,78.62|Z|1970;Zereth Mortis|QO|2|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on the Librarian.|EAB|
+C The Not-Scientific Method|QID|64805|M|58.70,78.77|Z|1970;Zereth Mortis|QO|3|NC|N|Observe Results.|
+C The Not-Scientific Method|QID|64805|M|58.70,78.77|Z|1970;Zereth Mortis|QO|4|NC|N|Lexicon Librarian subdued.|
+T The Not-Scientific Method|QID|64805|M|59.16,78.80|Z|1970;Zereth Mortis|N|To Elder Eru.|
+A Two Paths to Tread|QID|64853|PRE|64805|M|59.16,78.80|Z|1970;Zereth Mortis|N|From Elder Eru.|
+T Two Paths to Tread|QID|64853|M|33.33,68.77|Z|1970;Zereth Mortis|N|To The Primus.|
+A One Half of the Equation|QID|64809|PRE|64853|M|33.20,68.88|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
+T One Half of the Equation|QID|64809|M|57.16,31.21|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+A Oppress and Destroy|QID|64810|PRE|64809|M|57.16,31.21|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
+A Aggressive Excavation|QID|64811|PRE|64809|M|57.16,31.21|Z|1970;Zereth Mortis|N|From Taelia Fordragon.|
+C Oppress and Destroy|QID|64810|M|60.24,31.48|Z|1970;Zereth Mortis|QO|1|N|Invading Mawsworn slain (100%).|S|
+C Aggressive Excavation|QID|64811|M|63.01,22.34|Z|1970;Zereth Mortis|QO|1|NC|N|Blocked Door destroyed.|
+C Aggressive Excavation|QID|64811|M|62.85,21.31|Z|1970;Zereth Mortis|QO|2<1|NC|N|Inscrutable Phrases infused.|
+C Aggressive Excavation|QID|64811|M|66.08,25.74|Z|1970;Zereth Mortis|QO|2<2|NC|N|Inscrutable Phrases infused.|
+C Aggressive Excavation|QID|64811|M|59.70,32.27|Z|1970;Zereth Mortis|QO|2<3|NC|N|Inscrutable Phrases infused.|
+C Oppress and Destroy|QID|64810|M|60.24,31.48|Z|1970;Zereth Mortis|QO|1|N|Invading Mawsworn slain (100%).|US|
+T Oppress and Destroy|QID|64810|M|57.32,31.11|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+T Aggressive Excavation|QID|64811|M|57.32,31.11|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+A Where the Memory Resides|QID|64806|PRE|64810&64811|M|57.32,31.11|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
+R Pilgrim's Grace|ACTIVE|64806|M|61.52,50.45|Z|1970;Zereth Mortis|N|Make your way to the Pilgrim's Grace.|
+F Haven|ACTIVE|64806|M|61.52,50.45|Z|1970;Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
+R Geometric Cavern|ACTIVE|64806|M|33.04,69.62|Z|1970;Zereth Mortis|N|Make your way to the Geometric Cavern.|
+P Ring of Transference|ACTIVE|64806|M|33.00,69.71|Z|1970;Zereth Mortis|N|Take the portal to Ring of Transference.|
+F Aspirant's Rest|ACTIVE|64806|M|60.24,67.83|Z|1671;Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Aspirant's Rest.|
 T Where the Memory Resides|QID|64806|M|59.22,88.17|Z|1533|N|To Highlord Bolvar Fordragon.|
 A What We Wish to Forget|QID|64807|PRE|64806|M|59.22,88.17|Z|1533|N|From Highlord Bolvar Fordragon.|
 C What We Wish to Forget|QID|64807|M|58.94,88.15|Z|1533|QO|1|NC|N|Activate First Shard.|
@@ -334,110 +334,111 @@ A Reality's Doorstep|QID|64816|PRE|64813|M|50.04,68.41|Z|1912|N|From Highlord Bo
 P Ve'nari's Refuge|ACTIVE|64816|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
 P Oribos|ACTIVE|64816|M|42.38,42.17|Z|The Maw|NC|N|Click the portal to go to Oribos|
 P Ring of Transference|ACTIVE|64816|M|46.98,50.35|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
-P Zereth Mortis|ACTIVE|64816|M|49.58,27.47|Z|Ring of Transference@Oribos|N|Take the portal to Zereth Mortis|
-T Reality's Doorstep|QID|64816|M|35.00,64.87|Z|1670|N|To Highlord Bolvar Fordragon.|
+P Zereth Mortis|ACTIVE|64816|M|49.58,27.47|Z|1671;Ring of Transference@Oribos|N|Take the portal to Zereth Mortis|
+T Reality's Doorstep|QID|64816|M|35.00,64.87|Z|1670;Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
 
 ;CH 6
-A Something Wonderful|QID|64875|PRE|64816|M|35.41,65.06|Z|1970|N|From Pelagos.|DATE|1647339976|
-F Faith's Repose|ACTIVE|64875|M|35.66,65.07|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Faith's Repose.|
-C Something Wonderful|QID|64875|M|34.20,48.27|Z|1970|QO|1|CHAT|N|Firim consulted.|
-T Something Wonderful|QID|64875|M|34.20,48.27|Z|1970|N|To Firim.|
-A Music of the Spheres|QID|64876|PRE|64875|M|34.20,48.27|Z|1970|N|From Firim.|
-C Music of the Spheres|QID|64876|M|33.95,48.39|Z|1970|QO|1|NC|N|Fractals investigated.|
-T Music of the Spheres|QID|64876|M|34.16,48.34|Z|1970|N|To Firim.|
-A What A Long Strange Trip|QID|64878|PRE|64876|M|34.10,47.43|Z|1970|N|From Pocopoc.|
-C What A Long Strange Trip|QID|64878|M|41.54,43.02|Z|1970|QO|1|CHAT|N|Pocopoc followed.|
-C What A Long Strange Trip|QID|64878|M|42.89,39.89|Z|1970|QO|2|CHAT|N|Pocopoc followed.|
-C What A Long Strange Trip|QID|64878|M|42.71,32.66|Z|1970|QO|3|CHAT|N|Pocopoc followed.|
-C What A Long Strange Trip|QID|64878|M|44.63,30.85|Z|1970|QO|4|CHAT|N|Pocopoc followed.|
-C What A Long Strange Trip|QID|64878|M|47.17,29.42|Z|1970|QO|5|CHAT|N|Vision location found.|
-T What A Long Strange Trip|QID|64878|M|47.15,29.41|Z|1970|N|To Pocopoc.|
-A Borrowed Power|QID|64888|PRE|64878|M|47.15,29.41|Z|1970|N|From Pocopoc.|
-A Pop Goes the Devourer!|QID|65245|PRE|64878|M|47.15,29.41|Z|1970|N|From Pocopoc.|
-C Pop Goes the Devourer!|QID|65245|M|48.76,29.69|Z|1970|QO|1|N|Lured devourers slain.|
-C Borrowed Power|QID|64888|M|48.78,29.91|Z|1970|QO|1|NC|N|Pocopoc fully empowered.|
-T Borrowed Power|QID|64888|M|48.02,29.73|Z|1970|N|To Pocopoc.|
-T Pop Goes the Devourer!|QID|65245|M|48.02,29.73|Z|1970|N|To Pocopoc.|
-A Match Made in Zereth Mortis|QID|64889|PRE|64888&65245|M|48.02,29.73|Z|1970|N|From Pocopoc.|
+A Something Wonderful|QID|64875|PRE|64816|M|35.41,65.06|Z|1970;Zereth Mortis|N|From Pelagos.|DATE|1647339976|
+F Faith's Repose|ACTIVE|64875|M|35.66,65.07|Z|1970;Zereth Mortis|N|Head to the flightmaster and take a flight to Faith's Repose.|
+C Something Wonderful|QID|64875|M|34.20,48.27|Z|1970;Zereth Mortis|QO|1|CHAT|N|Firim consulted.|
+T Something Wonderful|QID|64875|M|34.20,48.27|Z|1970;Zereth Mortis|N|To Firim.|
+A Music of the Spheres|QID|64876|PRE|64875|M|34.20,48.27|Z|1970;Zereth Mortis|N|From Firim.|
+C Music of the Spheres|QID|64876|M|33.95,48.39|Z|1970;Zereth Mortis|QO|1|NC|N|Fractals investigated.|
+T Music of the Spheres|QID|64876|M|34.16,48.34|Z|1970;Zereth Mortis|N|To Firim.|
+A What A Long Strange Trip|QID|64878|PRE|64876|M|34.10,47.43|Z|1970;Zereth Mortis|N|From Pocopoc.|
+C What A Long Strange Trip|QID|64878|M|41.54,43.02|Z|1970;Zereth Mortis|QO|1|CHAT|N|Pocopoc followed.|
+C What A Long Strange Trip|QID|64878|M|42.89,39.89|Z|1970;Zereth Mortis|QO|2|CHAT|N|Pocopoc followed.|
+C What A Long Strange Trip|QID|64878|M|42.71,32.66|Z|1970;Zereth Mortis|QO|3|CHAT|N|Pocopoc followed.|
+C What A Long Strange Trip|QID|64878|M|44.63,30.85|Z|1970;Zereth Mortis|QO|4|CHAT|N|Pocopoc followed.|
+C What A Long Strange Trip|QID|64878|M|47.17,29.42|Z|1970;Zereth Mortis|QO|5|CHAT|N|Vision location found.|
+T What A Long Strange Trip|QID|64878|M|47.15,29.41|Z|1970;Zereth Mortis|N|To Pocopoc.|
+A Borrowed Power|QID|64888|PRE|64878|M|47.15,29.41|Z|1970;Zereth Mortis|N|From Pocopoc.|
+A Pop Goes the Devourer!|QID|65245|PRE|64878|M|47.15,29.41|Z|1970;Zereth Mortis|N|From Pocopoc.|
+C Pop Goes the Devourer!|QID|65245|M|48.76,29.69|Z|1970;Zereth Mortis|QO|1|N|Lured devourers slain.|
+C Borrowed Power|QID|64888|M|48.78,29.91|Z|1970;Zereth Mortis|QO|1|NC|N|Pocopoc fully empowered.|
+T Borrowed Power|QID|64888|M|48.02,29.73|Z|1970;Zereth Mortis|N|To Pocopoc.|
+T Pop Goes the Devourer!|QID|65245|M|48.02,29.73|Z|1970;Zereth Mortis|N|To Pocopoc.|
+A Match Made in Zereth Mortis|QID|64889|PRE|64888&65245|M|48.02,29.73|Z|1970;Zereth Mortis|N|From Pocopoc.|
 C Match Made in Zereth Mortis|QID|64889|M|67.96,51.47|Z|2029|QO|1|NC|N|Interior Locus Arrangement found.|
 C Match Made in Zereth Mortis|QID|64889|M|59.59,41.07|Z|2029|QO|2|NC|N|Locus Shift used.|
 C Match Made in Zereth Mortis|QID|64889|M|44.28,30.55|Z|2029|QO|3|NC|N|Primus Locus Arrangement found near the Interior Locus.|
 C Match Made in Zereth Mortis|QID|64889|M|40.69,34.52|Z|2029|QO|4|NC|N|Ascend to Primus Locus.|
-A Between A Rock & A Rock|QID|64935|PRE|64888&65245|M|48.42,27.03|Z|1970|N|From suspicious Rubble Pile|
-C Between A Rock & A Rock|QID|64935|M|48.37,26.84|Z|1970|QO|1|NC|N|Nascence Servitor located.|
-C Between A Rock & A Rock|QID|64935|M|48.32,26.71|Z|1970|QO|2|NC|N|Nascene Servitor controlled.|
-C Between A Rock & A Rock|QID|64935|M|48.42,27.12|Z|1970|QO|3|NC|N|Suspicious Rubble Pile searched.|
-C Between A Rock & A Rock|QID|64935|M|48.95,29.32|Z|1970|QO|4<1|NC|N|Rubble Piles searched.|
-C Between A Rock & A Rock|QID|64935|M|49.80,28.57|Z|1970|QO|4<2|NC|N|Rubble Piles searched.|
-C Between A Rock & A Rock|QID|64935|M|50.31,27.23|Z|1970|QO|4<3|NC|N|Rubble Piles searched.|
-C Between A Rock & A Rock|QID|64935|M|49.48,25.43|Z|1970|QO|4<4|NC|N|Rubble Piles searched.|
-C Between A Rock & A Rock|QID|64935|M|49.49,26.88|Z|1970|QO|5|NC|N|Glowing Rubblepile searched.|
-C Match Made in Zereth Mortis|QID|64889|M|49.50,26.87|Z|1970|QO|5|NC|N|Secundus Locus Arrangement found.|
-T Between A Rock & A Rock|QID|64935|M|49.50,26.87|Z|1970|N|To Pocopoc.|
-C Match Made in Zereth Mortis|QID|64889|M|48.43,26.40|Z|1970|QO|6|NC|N|Ascend to Secundus Locus.|
-C Match Made in Zereth Mortis|QID|64889|M|48.33,29.77|Z|1970|QO|7|NC|N|Tertius Locus Arrangement found.|
-C Match Made in Zereth Mortis|QID|64889|M|47.95,27.97|Z|1970|QO|8|NC|N|Ascend to Tertius Locus.|
-C Match Made in Zereth Mortis|QID|64889|M|50.93,26.96|Z|1970|QO|9|NC|N|Quartus Locus Arrangement found.|
-C Match Made in Zereth Mortis|QID|64889|M|51.87,27.08|Z|1970|QO|10|NC|N|Ascend to Quartus Locus.|
-C Match Made in Zereth Mortis|QID|64889|M|48.47,30.33|Z|1970|QO|11|NC|N|Quintus Locus Arrangement found.|
-C Match Made in Zereth Mortis|QID|64889|M|48.49,29.71|Z|1970|QO|12|NC|N|Ascend to Quintus Locus.|
-C Match Made in Zereth Mortis|QID|64889|M|49.93,32.38|Z|1970|QO|13|NC|N|Ultimus Locus Arrangement found.|
-C Match Made in Zereth Mortis|QID|64889|M|50.64,32.60|Z|1970|QO|14|NC|N|Ascend to Ultimus Locus.|
-T Match Made in Zereth Mortis|QID|64889|M|48.76,31.93|Z|1970|N|To Pocopoc.|
-A Searching High and Low|QID|64936|PRE|64889|M|48.76,31.93|Z|1970|N|From Pocopoc.|
-C Searching High and Low|QID|64936|M|47.31,33.13|Z|1970|QO|1<1|NC|N|Ingress Phrase.|
-C Searching High and Low|QID|64936|M|48.61,34.13|Z|1970|QO|1<2|NC|N|Ingress Phrase.|
-C Searching High and Low|QID|64936|M|49.14,32.53|Z|1970|QO|1<3|NC|N|Ingress Phrase.|
-C Searching High and Low|QID|64936|M|48.07,33.51|Z|1970|QO|2|NC|N|Ingress Phrases placed.|
-C Searching High and Low|QID|64936|M|47.92,33.91|Z|1970|QO|3|NC|N|Vessel chamber entered.|
-C Searching High and Low|QID|64936|M|47.92,33.91|Z|1970|QO|4|NC|N|Vessel acquired.|
-T Searching High and Low|QID|64936|M|47.92,33.91|Z|1970|N|To Pocopoc.|
-A You Light Up My Life|QID|64937|PRE|64936|M|47.92,33.91|Z|1970|N|From Pocopoc.|
-C You Light Up My Life|QID|64937|M|48.17,33.25|Z|1970|QO|1|NC|N|Activate Pocopoc's defenses.|
-C You Light Up My Life|QID|64937|M|48.12,33.31|Z|1970|QO|2|NC|N|Vessel defended (100%).|
-C You Light Up My Life|QID|64937|M|48.92,32.37|Z|1970|QO|3|NC|N|Deliver Cosmic Orbs to Pocopoc to power its escape.|
-T You Light Up My Life|QID|64937|M|34.12,48.13|Z|1970|N|To Pocopoc.|
-A Oracle, Heal Thyself|QID|65237|PRE|64937|M|34.12,48.13|Z|1970|N|From Pocopoc.|
-C Oracle, Heal Thyself|QID|65237|M|34.12,48.13|Z|1970|QO|1|NC|N|Pocopoc's energy released.|
-T Oracle, Heal Thyself|QID|65237|M|34.07,48.52|Z|1970|N|To Saezurah.|
-A Arbiter in the Making|QID|65328|PRE|65237|M|34.24,48.54|Z|1970|N|From Pelagos.|
-F Haven|ACTIVE|65328|M|35.64,44.40|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
-C Arbiter in the Making|QID|65328|M|35.01,64.71|Z|1970|QO|1|NC|N|Bolvar advised.|
-T Arbiter in the Making|QID|65328|M|35.01,64.71|Z|1970|N|To Highlord Bolvar Fordragon.|
+A Between A Rock & A Rock|QID|64935|PRE|64888&65245|M|48.42,27.03|Z|1970;Zereth Mortis|N|From suspicious Rubble Pile|
+C Between A Rock & A Rock|QID|64935|M|48.37,26.84|Z|1970;Zereth Mortis|QO|1|NC|N|Nascence Servitor located.|
+C Between A Rock & A Rock|QID|64935|M|48.32,26.71|Z|1970;Zereth Mortis|QO|2|NC|N|Nascene Servitor controlled.|
+C Between A Rock & A Rock|QID|64935|M|48.42,27.12|Z|1970;Zereth Mortis|QO|3|NC|N|Suspicious Rubble Pile searched.|
+C Between A Rock & A Rock|QID|64935|M|48.95,29.32|Z|1970;Zereth Mortis|QO|4<1|NC|N|Rubble Piles searched.|
+C Between A Rock & A Rock|QID|64935|M|49.80,28.57|Z|1970;Zereth Mortis|QO|4<2|NC|N|Rubble Piles searched.|
+C Between A Rock & A Rock|QID|64935|M|50.31,27.23|Z|1970;Zereth Mortis|QO|4<3|NC|N|Rubble Piles searched.|
+C Between A Rock & A Rock|QID|64935|M|49.48,25.43|Z|1970;Zereth Mortis|QO|4<4|NC|N|Rubble Piles searched.|
+C Between A Rock & A Rock|QID|64935|M|49.49,26.88|Z|1970;Zereth Mortis|QO|5|NC|N|Glowing Rubblepile searched.|
+C Match Made in Zereth Mortis|QID|64889|M|49.50,26.87|Z|1970;Zereth Mortis|QO|5|NC|N|Secundus Locus Arrangement found.|
+T Between A Rock & A Rock|QID|64935|M|49.50,26.87|Z|1970;Zereth Mortis|N|To Pocopoc.|
+C Match Made in Zereth Mortis|QID|64889|M|48.43,26.40|Z|1970;Zereth Mortis|QO|6|NC|N|Ascend to Secundus Locus.|
+C Match Made in Zereth Mortis|QID|64889|M|48.33,29.77|Z|1970;Zereth Mortis|QO|7|NC|N|Tertius Locus Arrangement found.|
+C Match Made in Zereth Mortis|QID|64889|M|47.95,27.97|Z|1970;Zereth Mortis|QO|8|NC|N|Ascend to Tertius Locus.|
+C Match Made in Zereth Mortis|QID|64889|M|50.93,26.96|Z|1970;Zereth Mortis|QO|9|NC|N|Quartus Locus Arrangement found.|
+C Match Made in Zereth Mortis|QID|64889|M|51.87,27.08|Z|1970;Zereth Mortis|QO|10|NC|N|Ascend to Quartus Locus.|
+C Match Made in Zereth Mortis|QID|64889|M|48.47,30.33|Z|1970;Zereth Mortis|QO|11|NC|N|Quintus Locus Arrangement found.|
+C Match Made in Zereth Mortis|QID|64889|M|48.49,29.71|Z|1970;Zereth Mortis|QO|12|NC|N|Ascend to Quintus Locus.|
+C Match Made in Zereth Mortis|QID|64889|M|49.93,32.38|Z|1970;Zereth Mortis|QO|13|NC|N|Ultimus Locus Arrangement found.|
+C Match Made in Zereth Mortis|QID|64889|M|50.64,32.60|Z|1970;Zereth Mortis|QO|14|NC|N|Ascend to Ultimus Locus.|
+T Match Made in Zereth Mortis|QID|64889|M|48.76,31.93|Z|1970;Zereth Mortis|N|To Pocopoc.|
+A Searching High and Low|QID|64936|PRE|64889|M|48.76,31.93|Z|1970;Zereth Mortis|N|From Pocopoc.|
+C Searching High and Low|QID|64936|M|47.31,33.13|Z|1970;Zereth Mortis|QO|1<1|NC|N|Ingress Phrase.|
+C Searching High and Low|QID|64936|M|48.61,34.13|Z|1970;Zereth Mortis|QO|1<2|NC|N|Ingress Phrase.|
+C Searching High and Low|QID|64936|M|49.14,32.53|Z|1970;Zereth Mortis|QO|1<3|NC|N|Ingress Phrase.|
+C Searching High and Low|QID|64936|M|48.07,33.51|Z|1970;Zereth Mortis|QO|2|NC|N|Ingress Phrases placed.|
+C Searching High and Low|QID|64936|M|47.92,33.91|Z|1970;Zereth Mortis|QO|3|NC|N|Vessel chamber entered.|
+C Searching High and Low|QID|64936|M|47.92,33.91|Z|1970;Zereth Mortis|QO|4|NC|N|Vessel acquired.|
+T Searching High and Low|QID|64936|M|47.92,33.91|Z|1970;Zereth Mortis|N|To Pocopoc.|
+A You Light Up My Life|QID|64937|PRE|64936|M|47.92,33.91|Z|1970;Zereth Mortis|N|From Pocopoc.|
+C You Light Up My Life|QID|64937|M|48.17,33.25|Z|1970;Zereth Mortis|QO|1|NC|N|Activate Pocopoc's defenses.|
+C You Light Up My Life|QID|64937|M|48.12,33.31|Z|1970;Zereth Mortis|QO|2|NC|N|Vessel defended (100%).|
+C You Light Up My Life|QID|64937|M|48.92,32.37|Z|1970;Zereth Mortis|QO|3|NC|N|Deliver Cosmic Orbs to Pocopoc to power its escape.|
+T You Light Up My Life|QID|64937|M|34.12,48.13|Z|1970;Zereth Mortis|N|To Pocopoc.|
+A Oracle, Heal Thyself|QID|65237|PRE|64937|M|34.12,48.13|Z|1970;Zereth Mortis|N|From Pocopoc.|
+C Oracle, Heal Thyself|QID|65237|M|34.12,48.13|Z|1970;Zereth Mortis|QO|1|NC|N|Pocopoc's energy released.|
+T Oracle, Heal Thyself|QID|65237|M|34.07,48.52|Z|1970;Zereth Mortis|N|To Saezurah.|
+A Arbiter in the Making|QID|65328|PRE|65237|M|34.24,48.54|Z|1970;Zereth Mortis|N|From Pelagos.|
+F Haven|ACTIVE|65328|M|35.64,44.40|Z|1970;Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
+C Arbiter in the Making|QID|65328|M|35.01,64.71|Z|1970;Zereth Mortis|QO|1|NC|N|Bolvar advised.|
+T Arbiter in the Making|QID|65328|M|35.01,64.71|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 
 ;CH7
-A A Monumental Discovery|QID|64879|PRE|65328|M|35.01,64.71|Z|1970|N|From Highlord Bolvar Fordragon.|
-F Faith's Repose|ACTIVE|64879|M|35.59,64.99|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Faith's Repose.|
-T A Monumental Discovery|QID|64879|M|34.20,48.61|Z|1970|N|To Firim.|
-A Restoration Project|QID|64723|PRE|64879|M|34.20,48.61|Z|1970|N|From Firim.|
-C Restoration Project|QID|64723|M|34.10,48.59|Z|1970|QO|1|CHAT|N|Speak to Saezurah.|
-C Restoration Project|QID|64723|M|34.10,48.59|Z|1970|QO|2|NC|N|Hear Pelagos out.|
-T Restoration Project|QID|64723|M|33.86,48.41|Z|1970|N|To Kleia.|
-A Help From Beyond|QID|64733|PRE|64723|M|33.86,48.41|Z|1970|
-C Help From Beyond|QID|64733|M|34.15,48.56|Z|1970|QO|1|CHAT|N|Speak with Firim.|
-C Help From Beyond|QID|64733|M|34.61,49.66|Z|1970|QO|2|NC|N|Awaken Kbato.|
-F Haven|ACTIVE|64733|M|35.64,44.40|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
-C Help From Beyond|QID|64733|M|47.65,80.74|Z|1970|QO|3|NC|N|Venthyr forces met.|
-C Help From Beyond|QID|64733|M|47.75,58.33|Z|1970|QO|4|NC|N|Night Fae forces met.|
-C Help From Beyond|QID|64733|M|53.91,48.45|Z|1970|QO|5|NC|N|Necrolord forces met.|
-C Help From Beyond|QID|64733|M|56.89,32.10|Z|1970|QO|6|NC|N|Meet assembled forces at the Deserted Overlook.|
-T Help From Beyond|QID|64733|M|56.73,31.13|Z|1970|N|To Pelagos.|
-A A Matter Of Motivation|QID|64706|PRE|64733|M|56.90,31.25|Z|1970|N|From Firim.|
-A Keys To Victory|QID|64718|PRE|64733|M|57.06,31.15|Z|1970|N|From Saezurah.|
-A Cleaving A Path|QID|64720|PRE|64733|M|56.42,31.25|Z|1970|N|From Secutor Mevix.|
-C A Matter Of Motivation|QID|64706|M|56.15,29.74|Z|1970|QO|1|NC|U|188678|N|Motivated Automa returned to Firim.|S|
-C Keys To Victory|QID|64718|M|60.56,30.71|Z|1970|QO|1|NC|N|Automa Scryers rescued.|S|
-C Cleaving A Path|QID|64720|M|58.94,33.42|Z|1970|QO|1|N|Oracle Voraxxi slain.|
-C Cleaving A Path|QID|64720|M|57.85,23.35|Z|1970|QO|2|N|Oracle Zoketh slain.|
-C A Matter Of Motivation|QID|64706|M|56.15,29.74|Z|1970|QO|1|NC|U|188678|N|Motivated Automa returned to Firim.|US|
-C Keys To Victory|QID|64718|M|60.56,30.71|Z|1970|QO|1|NC|N|Automa Scryers rescued.|US|
-T A Matter Of Motivation|QID|64706|M|55.91,29.91|Z|1970|N|To Firim.|
-T Cleaving A Path|QID|64720|M|55.74,29.92|Z|1970|N|To Secutor Mevix.|
-T Keys To Victory|QID|64718|M|57.06,31.22|Z|1970|N|To Saezurah.|
-A Knocking On Death's Door|QID|64722|PRE|64706&64720&64718|M|55.85,30.01|Z|1970|N|From Firim.|
-C Knocking On Death's Door|QID|64722|M|55.33,30.46|Z|1970|QO|1|NC|N|Kbato mounted.|
-C Knocking On Death's Door|QID|64722|M|61.08,29.68|Z|1970|QO|2|N|Mawsworn forces defeated (100%).|
-C Knocking On Death's Door|QID|64722|M|64.76,22.09|Z|1970|QO|3|NC|N|Shadow Bulwark destroyed with Twin Beams.|
+N Wait for March 22nd|N|Blizzard has time gated the rest of the guide. Ch7 will release on 3-22.|DATE|-1647945104|
+A A Monumental Discovery|QID|64879|PRE|65328|M|35.01,64.71|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|DATE|1647945104|
+F Faith's Repose|ACTIVE|64879|M|35.59,64.99|Z|1970;Zereth Mortis|N|Head to the flightmaster and take a flight to Faith's Repose.|
+T A Monumental Discovery|QID|64879|M|34.20,48.61|Z|1970;Zereth Mortis|N|To Firim.|
+A Restoration Project|QID|64723|PRE|64879|M|34.20,48.61|Z|1970;Zereth Mortis|N|From Firim.|
+C Restoration Project|QID|64723|M|34.10,48.59|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Saezurah.|
+C Restoration Project|QID|64723|M|34.10,48.59|Z|1970;Zereth Mortis|QO|2|NC|N|Hear Pelagos out.|
+T Restoration Project|QID|64723|M|33.86,48.41|Z|1970;Zereth Mortis|N|To Kleia.|
+A Help From Beyond|QID|64733|PRE|64723|M|33.86,48.41|Z|1970;Zereth Mortis|
+C Help From Beyond|QID|64733|M|34.15,48.56|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak with Firim.|
+C Help From Beyond|QID|64733|M|34.61,49.66|Z|1970;Zereth Mortis|QO|2|NC|N|Awaken Kbato.|
+F Haven|ACTIVE|64733|M|35.64,44.40|Z|1970;Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
+C Help From Beyond|QID|64733|M|47.65,80.74|Z|1970;Zereth Mortis|QO|3|NC|N|Venthyr forces met.|
+C Help From Beyond|QID|64733|M|47.75,58.33|Z|1970;Zereth Mortis|QO|4|NC|N|Night Fae forces met.|
+C Help From Beyond|QID|64733|M|53.91,48.45|Z|1970;Zereth Mortis|QO|5|NC|N|Necrolord forces met.|
+C Help From Beyond|QID|64733|M|56.89,32.10|Z|1970;Zereth Mortis|QO|6|NC|N|Meet assembled forces at the Deserted Overlook.|
+T Help From Beyond|QID|64733|M|56.73,31.13|Z|1970;Zereth Mortis|N|To Pelagos.|
+A A Matter Of Motivation|QID|64706|PRE|64733|M|56.90,31.25|Z|1970;Zereth Mortis|N|From Firim.|
+A Keys To Victory|QID|64718|PRE|64733|M|57.06,31.15|Z|1970;Zereth Mortis|N|From Saezurah.|
+A Cleaving A Path|QID|64720|PRE|64733|M|56.42,31.25|Z|1970;Zereth Mortis|N|From Secutor Mevix.|
+C A Matter Of Motivation|QID|64706|M|56.15,29.74|Z|1970;Zereth Mortis|QO|1|NC|U|188678|N|Motivated Automa returned to Firim.|S|
+C Keys To Victory|QID|64718|M|60.56,30.71|Z|1970;Zereth Mortis|QO|1|NC|N|Automa Scryers rescued.|S|
+C Cleaving A Path|QID|64720|M|58.94,33.42|Z|1970;Zereth Mortis|QO|1|N|Oracle Voraxxi slain.|
+C Cleaving A Path|QID|64720|M|57.85,23.35|Z|1970;Zereth Mortis|QO|2|N|Oracle Zoketh slain.|
+C A Matter Of Motivation|QID|64706|M|56.15,29.74|Z|1970;Zereth Mortis|QO|1|NC|U|188678|N|Motivated Automa returned to Firim.|US|
+C Keys To Victory|QID|64718|M|60.56,30.71|Z|1970;Zereth Mortis|QO|1|NC|N|Automa Scryers rescued.|US|
+T A Matter Of Motivation|QID|64706|M|55.91,29.91|Z|1970;Zereth Mortis|N|To Firim.|
+T Cleaving A Path|QID|64720|M|55.74,29.92|Z|1970;Zereth Mortis|N|To Secutor Mevix.|
+T Keys To Victory|QID|64718|M|57.06,31.22|Z|1970;Zereth Mortis|N|To Saezurah.|
+A Knocking On Death's Door|QID|64722|PRE|64706&64720&64718|M|55.85,30.01|Z|1970;Zereth Mortis|N|From Firim.|
+C Knocking On Death's Door|QID|64722|M|55.33,30.46|Z|1970;Zereth Mortis|QO|1|NC|N|Kbato mounted.|
+C Knocking On Death's Door|QID|64722|M|61.08,29.68|Z|1970;Zereth Mortis|QO|2|N|Mawsworn forces defeated (100%).|
+C Knocking On Death's Door|QID|64722|M|64.76,22.09|Z|1970;Zereth Mortis|QO|3|NC|N|Shadow Bulwark destroyed with Twin Beams.|
 T Knocking On Death's Door|QID|64722|M|36.00,76.99|Z|2031|N|To Firim.|
 A The Infinite Circle|QID|64727|PRE|64722|M|36.74,76.54|Z|2031|N|From Saezurah.|
 C The Infinite Circle|QID|64727|M|47.80,59.17|Z|2031|QO|1|NC|N|Lead Saezurah to the center of the Crypts of the Eternal..|
@@ -467,22 +468,22 @@ A For Every Soul|QID|64731|PRE|64730|M|52.43,45.89|Z|2031|N|From Kleia.|
 C For Every Soul|QID|64731|M|50.94,46.35|Z|2031|QO|1|CHAT|N|Speak with Pelagos.|
 T For Every Soul|QID|64731|M|52.82,47.41|Z|2031|N|To Saezurah.|
 A Lifetimes To Consider|QID|64729|PRE|64731|M|52.82,47.41|Z|2031|N|From Saezurah.|
-C Lifetimes To Consider|QID|64729|M|34.19,48.11|Z|1970|QO|1|NC|N|Return to Exile's Hollow.|
-C Lifetimes To Consider|QID|64729|M|34.19,48.11|Z|1970|QO|2|NC|N|Firm's Portal used. (Optional).|
+C Lifetimes To Consider|QID|64729|M|34.19,48.11|Z|1970;Zereth Mortis|QO|1|NC|N|Return to Exile's Hollow.|
+C Lifetimes To Consider|QID|64729|M|34.19,48.11|Z|1970;Zereth Mortis|QO|2|NC|N|Firm's Portal used. (Optional).|
 P Exile's Hollow|ACTIVE|64729|M|53.29,48.12|Z|Crypts of the Eternal|N|Take the portal to Exile's Hollow.|
-T Lifetimes To Consider|QID|64729|M|34.33,48.53|Z|1970|N|To Kleia.|
-A Souls Entwined|QID|65238|PRE|64729|M|34.33,48.53|Z|1970|
-F Haven|ACTIVE|65238|M|35.65,44.41|Z|Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
-P Ring of Transference|ACTIVE|65238|M|32.98,69.68|Z|Zereth Mortis|N|Take the portal to Ring of Transference.|
-P Ring of Fates|ACTIVE|65238|M|49.36,41.05|Z|Ring of Transference@Oribos|N|Take the portal to Ring of Fates.|
-C Souls Entwined|QID|65238|M|39.25,69.49|Z|1670|QO|1|CHAT|N|Speak with Tal-Inara in Oribos..|
+T Lifetimes To Consider|QID|64729|M|34.33,48.53|Z|1970;Zereth Mortis|N|To Kleia.|
+A Souls Entwined|QID|65238|PRE|64729|M|34.33,48.53|Z|1970;Zereth Mortis|
+F Haven|ACTIVE|65238|M|35.65,44.41|Z|1970;Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
+P Ring of Transference|ACTIVE|65238|M|32.98,69.68|Z|1970;Zereth Mortis|N|Take the portal to Ring of Transference.|
+P Ring of Fates|ACTIVE|65238|M|49.36,41.05|Z|1671;Ring of Transference@Oribos|N|Take the portal to Ring of Fates.|
+C Souls Entwined|QID|65238|M|39.25,69.49|Z|1670;Ring of Fates@Oribos|QO|1|CHAT|N|Speak with Tal-Inara in Oribos..|
 C Souls Entwined|QID|65238|M|48.75,48.71|Z|1673|QO|2|NC|N|Meet with Kleia and the Arbiter.|
 T Souls Entwined|QID|65238|M|59.46,55.72|Z|1673|N|To Kleia.|
 A Safe Haven|QID|65329|PRE|65238|M|59.46,55.72|Z|1673|N|From Kleia.|
 P Ring of Fates|ACTIVE|65329|M|42.46,50.09|Z|The Crucible@Oribos!Dungeon|N|Take the portal to Ring of Fates.|
 P Ring of Transference|ACTIVE|65329|M|57.77,51.13|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
-P Ring of Transference|ACTIVE|65329|M|49.32,28.93|Z|Ring of Transference@Oribos|N|Take the portal to Ring of Transference.|
-T Safe Haven|QID|65329|M|34.96,64.92|Z|1970|N|To Highlord Bolvar Fordragon.|
+P Ring of Transference|ACTIVE|65329|M|49.32,28.93|Z|1671;Ring of Transference@Oribos|N|Take the portal to Ring of Transference.|
+T Safe Haven|QID|65329|M|34.96,64.92|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 
 ;Normal Quests
 A Enlightened Exodus|QID|64771|PRE|64958|M|33.80,64.67|Z|1970;Zereth Mortis|N|From Al'dalil.|
