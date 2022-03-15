@@ -55,7 +55,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 				for p=1,6 do
 					if profs[p] then
 						local _, _, skillRank, _, _, _, skillnum, rankModifier = _G.GetProfessionInfo(profs[p])
-						--  _, skillLoc, ...   skillLoc changed to _ it is needed for Target
+						--  _, skillLoc, ...  															-- skillLoc changed to _ it is needed for Target
 						if (tonumber(skillnum) == tonumber(profnum)) then
 							-- How take racial bonuses into account using rankModifier
 							if WoWPro.action[k] == "M" then
@@ -64,12 +64,12 @@ function WoWPro.Profession:PreRowUpdate(row)
 							end
 --							row.targeticon:SetTexture(skillLoc)											-- target function not working right, commented out.
 							local m = {(";"):split(WoWPro.mats[k])}
-							local _, CraftQty = (" "):split(WoWPro.craft[k])					-- Split (_)CraftItem and CraftQty from the CRAFT tag.
+							local _, CraftQty = (" "):split(WoWPro.craft[k])							-- Split (_)CraftItem and CraftQty from the CRAFT tag.
+																										-- temporarily CraftItem is set to _ as CraftItem is not used at this time.
 							if tonumber(CraftQty) == nil then
 								WoWPro.Profession:Error("%s step %s tag CRAFT¦%s¦ bad CraftQty [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.craft[k], CraftQty)
 								CraftQty = 0
 							end
-							-- temporarily CraftItem is set to _ as CraftItem is not used at this time.
 							WoWPro.note[k] = ""
 							WoWPro.note[k] = WoWPro.note[k]..' [color=FFFFFF]Craft from '.. tostring(skillRank) ..' to '.. tostring(proflvl)..':\nCrafting upto '..tostring(CraftQty)..' using:[/color]\n '
 							for j=1,#m do
@@ -89,8 +89,8 @@ function WoWPro.Profession:PreRowUpdate(row)
 										MatsItem = "?" .. MatsItem
 									end
 									WoWPro.Profession:dbp("Qty %s, k=%d", tostring(CraftQty), k)			-- may need changing to new info.
-									local MatsAmt = MatsQty * (proflvl-skillRank)						-- take MatsQty to expand with Prof lvl difference.
---									local skillpoints = (profmaxlvl - proflvl)/(CraftQty)				-- left over from Old guide handling / I think needed to make target work.
+									local MatsAmt = MatsQty * (proflvl-skillRank)							-- take MatsQty to expand with Prof lvl difference.
+--									local skillpoints = (profmaxlvl - proflvl)/(CraftQty)					-- left over from Old guide handling / I think needed to make target work.
 --									if j == 1 then
 --										WoWPro.target[k] = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)		-- commented out, currently not working.
 --									end
@@ -116,14 +116,22 @@ function WoWPro.Profession:PreRowUpdate(row)
 								profmaxlvl = max(profmaxlvl-rankModifier,1)
 							end
 							local m = {(";"):split(WoWPro.mats[k])}
-							local _, CraftQty = (" "):split(WoWPro.craft[k])					-- Split (_)CraftItem and CraftQty from the CRAFT tag.
-							-- temporarily CraftItem is set to _ as CraftItem is not used at this time.
+							local _, CraftQty = (" "):split(WoWPro.craft[k])						-- Split (_)CraftItem and CraftQty from the CRAFT tag.
+																									-- temporarily CraftItem is set to _ as CraftItem is not used at this time.
 							WoWPro.note[k] = ""
 							WoWPro.note[k] = WoWPro.note[k]..' [color=FFFFFF]Craft from '.. tostring(skillRank) ..' to '.. tostring(proflvl)..':\nCrafting upto '..tostring(CraftQty)..' using:[/color]\n '
 							for j=1,#m do
 								WoWPro.note[k] = WoWPro.note[k]..'\nMaterial '..(j)..': '
 									local MatsItem, MatsQty = (" "):split(m[j])							-- grab Mats info
-									local MatsItemLink = ('[item='..tostring(MatsItem)..'/'.._G.GetItemInfo(MatsItem)..']')  -- recreate item num/name info
+									local MatsItemLink
+									if _G.GetItemInfo(MatsItem) then
+										MatsItemLink = ('[item='..tostring(MatsItem)..'/'.._G.GetItemInfo(MatsItem)..']')  -- recreate item num/name info
+									else
+										-- TODO: MatsItem is bad, complain here.
+										MatsItemLink = ('[item='..tostring(MatsItem)..'/Wrong Item ID]')
+										WoWPro.Profession:Error("%s step %s tag MATS¦%s¦ #%d MatsItem is bad [%s]",WoWPro.action[k], WoWPro.step[k], WoWPro.mats[k], j, MatsItem)
+										MatsItem = "?" .. MatsItem
+									end
 									local MatsAmt
 									if (proflvl-skillRank) < 0 then
 										MatsAmt = MatsQty * CraftQty									-- Force MatsQty to the CraftQty if Skill level too high.

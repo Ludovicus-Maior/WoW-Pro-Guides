@@ -10,15 +10,15 @@ WoWPro:GuideNickname(guide, "LTW_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:
-;  For the QID is Prof (165), Spell ID(000000) - QIDs mean NOTHING in guides.
-;  For the N Steps - QID is just 165+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;	For the QID is Prof (165), Spell ID(000000) - QIDs mean NOTHING in guides.
+;	For the N Steps - QID is just 165+00000# - Prof and increment numbers padded to 6 digits.
+;	For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
 ;		IE M [item=154153/Shimmerscale Armguards]|QID|165256757|P|Leatherworking;165;7+13;1|ITEM|154153|CRAFT|256757 13|MATS|153050 1;154164 1|
-;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 165264592 ('264592' is spell ID)
+;	For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 165264592 ('264592' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
 ;		IE = Learn Recipe|QID|165700251|P|Leatherworking;165;7+25;0|RECIPE|256759|N|Learn [spell=256759/Shimmerscale Pauldrons] Recipe from Trainer.|
 ; 		IE learn 2 at lvl 25 |165700151| and |165700152|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
 ;  Typed update for Shadowlands split on 07-June-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
@@ -43,7 +43,7 @@ N Shopping List|QID|165000005|N|This completes the Shopping List, you may either
 = Learn [spell=2108/Leatherworking]|QID|165002108|M|42.25,28.22|Z|Ring of Fates@Oribos|SPELL|Leatherworking;2108|LVL|5|N|Learn from Tanner Au'qil in Oribos.|
 = Learn [spell=309038/Shadowlands Leatherworking]|QID|165309038|M|42.25,28.22|Z|Ring of Fates@Oribos|P|Leatherworking;165;*;0;75|SPELL|Shadowlands Leatherworking;309038|LVL|48|N|Learn from Tanner Au'qil in Oribos.|
 
-M [item=172243/Desolate Leather Treads]|QID|165309174|P|Leatherworking;165;8+11;1|ITEM|172235|CRAFT|309174 5|MATS|172089 9;177062 2|
+M [item=172235/Desolate Leather Treads]|QID|165309174|P|Leatherworking;165;8+11;1|ITEM|172235|CRAFT|309174 5|MATS|172089 9;177062 2|
 = Learn Recipes|QID|165800101|M|42.28,62.59|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+10|RECIPE|309176|N|Learn [spell=309176/Desolate Leather Gauntlets] Recipe from Trainer.|
 M [item=172236/Desolate Leather Gauntlets]|QID|165309176|P|Leatherworking;165;8+21;1|ITEM|172236|CRAFT|309176 5|MATS|172089 9;177062 1|
 = Learn Recipes|QID|165800201|M|42.28,62.59|Z|Ring of Fates@Oribos|P|Leatherworking;165;8+20|RECIPE|309177|N|Learn [spell=309177/Desolate Leather Helm] Recipe from Trainer.|
