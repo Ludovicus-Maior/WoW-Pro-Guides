@@ -33,7 +33,7 @@ A Maldraxxus|QID|62278|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal
 t Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A A Fresh Blade|QID|62738^63035|PRE|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62738^63035|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
-F Bleak Redoubt|ACTIVE|62738^63035|M|60.87,68.63|Z|Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
+F Bleak Redoubt|ACTIVE|62738^63035|M|60.87,68.63|Z|1671;Ring of Transference@Oribos|N|At Pathscribe Roh-Avonavi.|TOF|
 T A Fresh Blade|QID|62738^63035|M|49.70,44.13|Z|Seat of the Primus!Dungeon|N|To Secutor Mevix.|TOF|COV|Necrolord|
 T A Fresh Blade|QID|62738^63035|M|52.85,68.33|N|To Secutor Mevix.|TOF|
 A Rallying Maldraxxus|QID|62748|PRE|62738^63035|M|49.70,44.13|Z|Seat of the Primus!Dungeon|N|From Secutor Menvix.|TOF|COV|Necrolord|
@@ -69,12 +69,12 @@ N Rank 1|ACTIVE|62748|N|Since you have chosen rank 1, the zone is yours to explo
 N Necrolord Abilities|ACTIVE|62748|N|Your necrolord covenant abilities are found in your main class tab of your abilites, don't forget to drag them onto your hotkeys.|TOF|COV|Necrolord|
 A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60056|MS|
 C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|Ring of Fates@Oribos|NC|N|Use the Teleport Pad.|MS|
-T The Arbiter's Will|QID|61096|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
-A A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61096|MS|
-C A Land of Strife|QID|61107|M|59.67,36.36|Z|Ring of Transference@Oribos|NC|N|Click on the blue sword.|MS|
-T A Land of Strife|QID|61107|M|61.02,36.99|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
-A If You Want Peace...|QID|57386|M|60.95,36.18|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61107|MS|
-C If You Want Peace...|QID|57386|M|59.51,34.39|Z|Ring of Transference@Oribos|CHAT|N|Speak to Roh-Avonavi to Travel to Maldraxxus.|MS|
+T The Arbiter's Will|QID|61096|M|61.02,36.99|Z|1671;Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
+A A Land of Strife|QID|61107|M|61.02,36.99|Z|1671;Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61096|MS|
+C A Land of Strife|QID|61107|M|59.67,36.36|Z|1671;Ring of Transference@Oribos|NC|N|Click on the blue sword.|MS|
+T A Land of Strife|QID|61107|M|61.02,36.99|Z|1671;Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
+A If You Want Peace...|QID|57386|M|60.95,36.18|Z|1671;Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61107|MS|
+C If You Want Peace...|QID|57386|M|59.51,34.39|Z|1671;Ring of Transference@Oribos|CHAT|N|Speak to Roh-Avonavi to Travel to Maldraxxus.|MS|
 T If You Want Peace...|QID|57386|M|50.24,41.33|Z|Maldraxxus|N|To Grandmaster Vole.|MS|
 A To Die By the Sword|QID|57390|M|50.24,41.33|Z|Maldraxxus|N|From Grandmaster Vole.|PRE|57386|MS|
 C To Die By the Sword|QID|57390|M|50.79,47.08|Z|Maldraxxus|N|Kill normal Competitors and use the random "[color=40C7EB]Action Ability[/color]" that occasionally pops up.|EAB|MS|
@@ -553,7 +553,7 @@ C Among the Chosen|QID|59202|M|38.42,66.15|Z|Maldraxxus|QO|2|NC|N|Seek out Krexu
 T Among the Chosen|QID|59202|M|38.14,66.65|Z|Maldraxxus|N|To Baron Vyraz.|MS|
 A The Maw|QID|59874|M|38.14,66.65|Z|Maldraxxus|N|From Baron Vyraz.|MS|
 F Oribos|ACTIVE|59874|M|39.06,55.21|Z|Maldraxxus|N|Fly back to Oribos at Wing Guard Aela.|MS|C|-Mage|
-P Ring of Fates|ACTIVE|59874|M|49.56,61.78|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|C|-Mage|
+P Ring of Fates|ACTIVE|59874|M|49.56,61.78|Z|1671;Ring of Transference@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|C|-Mage|
 P Oribos|ACTIVE|59874|M|PLAYER|N|Teleport to Oribos|MS|C|Mage|
 T The Maw|QID|59874|M|40.05,68.46|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A Seeking the Baron|QID|59897|M|40.05,68.46|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon, after some dialog.|PRE|59874|MS|
@@ -590,7 +590,7 @@ C Maw Walker|QID|62654|M|42.38,42.17|Z|1960;The Maw|QO|2|NC|N|Click the waygate 
 T Maw Walker|QID|62654|M|40.08,68.41|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A A Soul Saved|QID|59974|M|39.60,68.00|Z|Ring of Fates@Oribos|N|From Baroness Draka.|PRE|62654|MS|
 P Ring of Transference|ACTIVE|59974|M|52.08,57.91|Z|Ring of Fates@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|MS|
-F The Spearhead|ACTIVE|59974|M|60.72,68.52|Z|Ring of Transference@Oribos|N|Don't take Pathscribe Roh-Avonavi's chat option flight, unless you need exercise, it's further away from the quest turnin.|MS|
+F The Spearhead|ACTIVE|59974|M|60.72,68.52|Z|1671;Ring of Transference@Oribos|N|Don't take Pathscribe Roh-Avonavi's chat option flight, unless you need exercise, it's further away from the quest turnin.|MS|
 
 ; The Empty Throne Storyline
 T A Soul Saved|QID|59974|M|41.31,60.63|Z|Maldraxxus|N|To Alexandros Mograine.|MS|
@@ -612,7 +612,7 @@ T Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|Bonus Objective-Autoco
 F Oribos|ACTIVE|59206|M|49.86,53.30|Z|Maldraxxus|N|At Wing Guard Alamar.|C|-Mage|
 F Bleak Redoubt|ACTIVE|62748|N|When you have finished Rallying Maldraxxus and are ready to move on, go to the nearest flightmaster and ask for a ride back to Bleak Redoubt.|TOF|
 F Oribos|ACTIVE|62761|N|When you are ready to move on, go to the nearest flightmaster and ask for a ride back to Oribos.|TOF|C|-Mage|
-P Ring of Fates|ACTIVE|59206|M|49.56,61.78|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|C|-Mage|
+P Ring of Fates|ACTIVE|59206|M|49.56,61.78|Z|1671;Ring of Transference@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|C|-Mage|
 P Oribos|ACTIVE|59206^62761|M|PLAYER|N|Teleport to Oribos.|C|Mage|  ; should work either TOF or MS
 T Words of the Primus|QID|59206|M|54.67,54.62|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
 A Request of the Highlord|QID|61715|M|54.67,54.62|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|59206|MS|
