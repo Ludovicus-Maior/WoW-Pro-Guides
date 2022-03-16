@@ -14,8 +14,8 @@ return [[
 
 ; Quick and dirty adding of Horde to the old Alliance guide, and moved to Neutral.  I know Nzall was asking about this, and was also trying himself to make a guide. This is here incase he doesn't and or to 'merge' that one here.
 ; this has been done by Blanckaert 4/Jan/2021
-; Changes made by Nzall 2021/12/16 and 2021/12/24
-; Known issues: some Valiant quests may have wrong Quest IDs, especially for Troll and Tauren quests since the corresponding Alliance steps were missing from the guide
+; Changes made by Nzall 2021/12/16 and 2021/12/24 and 2022/03/15
+; Known issues: May not work for all Allied Races
 ; Can't move to neutral, as different Guide Factions 1124 for alliance, 1124 for horde
 
 N The Argent Tournament|N|Quests for the The Argent Tournament, for your faction, and MAYBE for the others too!|
@@ -141,31 +141,31 @@ A The Valiant's Charge|QID|13719|PRE|13693^13708|M|76.00,24.45|N|From Zul'tore.|
 A The Valiant's Charge|QID|13721|PRE|13695^13710|M|76.50,24.20|N|From Deathstalker Visceri.|FACTION|Horde|
 
 ; Valiant Quests (Undead Primary)
-A One of Three|QID|13757^13758^13759|ACTIVE|13721|M|76.50,24.20|N|From Deathstalker Visceri, one of 3.|FACTION|Horde|
+A One of Three|QID|13778^13779^13780|ACTIVE|13721|M|76.50,24.20|N|From Deathstalker Visceri, one of 3.|FACTION|Horde|
 A A Valiant's Field Training|QID|13781|ACTIVE|13721|M|76.50,24.20|N|From Sarah Chalke.|FACTION|Horde|
 A The Grand Melee|QID|13782|ACTIVE|13721|M|76.50,24.20|N|From Handler Dretch.|FACTION|Horde|
 A At The Enemy's Gates|QID|13860|ACTIVE|13721|M|76.50,24.20|N|From Handler Dretch.|FACTION|Horde|
 
 ; Valiant Quests (Orc Primary)
-A One of Three|QID|13600^13603^13616|ACTIVE|13697|M|76.40,24.50|N|From Mokra the Skullcrusher.|FACTION|Horde|
+A One of Three|QID|13763^13762^13764|ACTIVE|13697|M|76.40,24.50|N|From Mokra the Skullcrusher.|FACTION|Horde|
 A A Valiant's Field Training|QID|13765|ACTIVE|13697|M|76.50,24.20|N|From Akinos.|FACTION|Horde|
 A The Grand Melee|QID|13767|ACTIVE|13697|M|76.50,24.20|N|From Morah Worgsister.|FACTION|Horde|
 A At The Enemy's Gates|QID|13856|ACTIVE|13697|M|76.50,24.20|N|From Morah Worgsister.|FACTION|Horde|
 
 ; Valiant Quests (Blood Elf Primary)
-A One of Three|QID|13752^13753^13754|ACTIVE|13722|M|76.40,23.90|N|From Eressea Dawnsinger.|FACTION|Horde|
+A One of Three|QID|13783^13784^13785|ACTIVE|13722|M|76.40,23.90|N|From Eressea Dawnsinger.|FACTION|Horde|
 A A Valiant's Field Training|QID|13786|ACTIVE|13722|M|76.40,23.90|N|From Kethiel Sunlance.|FACTION|Horde|
-A The Grand Melee|QID|13756|ACTIVE|13722|M|76.40,23.90|N|From Aneera Thuron.|FACTION|Horde|
-A At The Enemy's Gates|QID|13854|ACTIVE|13722|M|76.40,23.90|N|From Aneera Thuron.|FACTION|Horde|
+A The Grand Melee|QID|13787|ACTIVE|13722|M|76.40,23.90|N|From Aneera Thuron.|FACTION|Horde|
+A At The Enemy's Gates|QID|13859|ACTIVE|13722|M|76.40,23.90|N|From Aneera Thuron.|FACTION|Horde|
 
 ; Valiant Quests (Tauren Primary)
-A One of Three|QID|13757^13758^13759|ACTIVE|13720|M|76.40,24.55|N|From Runok Wildmane, one of 3.|FACTION|Horde|
-A A Valiant's Field Training|QID|13766|ACTIVE|13720|M|76.40,24.55|N|From Dern Ragetotem.|FACTION|Horde|
+A One of Three|QID|13773^13774^13775|ACTIVE|13720|M|76.40,24.55|N|From Runok Wildmane, one of 3.|FACTION|Horde|
+A A Valiant's Field Training|QID|13776|ACTIVE|13720|M|76.40,24.55|N|From Dern Ragetotem.|FACTION|Horde|
 A The Grand Melee|QID|13777|ACTIVE|13720|M|76.40,24.55|N|From Anka Clawhoof.|FACTION|Horde|
 A At The Enemy's Gates|QID|13858|ACTIVE|13720|M|76.40,24.55|N|From Anka Clawhoof.|FACTION|Horde|
 
 ; Valiant Quests (Troll Primary)
-A One of Three|QID|13757^13758^13759|ACTIVE|13719|M|76.00,24.20|N|From Zul'tore, one of 3.|FACTION|Horde|
+A One of Three|QID|13768^13769^13770|ACTIVE|13719|M|76.00,24.20|N|From Zul'tore, one of 3.|FACTION|Horde|
 A A Valiant's Field Training|QID|13771|ACTIVE|13719|M|76.00,24.20|N|From Shadow Hunter Mezil'Kree.|FACTION|Horde|
 A The Grand Melee|QID|13772|ACTIVE|13719|M|76.00,24.20|N|From Gahju.|FACTION|Horde|
 A At The Enemy's Gates|QID|13857|ACTIVE|13719|M|76.00,24.20|N|From Gahju.|FACTION|Horde|
@@ -210,7 +210,7 @@ A Silverdawn gives 1 of 2|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverda
 
 
 ; Generic Completions for Valiants and Champions
-C The Grand Melee|QID|13782^13767^13756|M|75.28,18.42|N|Mount on your new race specific ride, stack up on your shields, and then talk to an Horde Valiant from behind to start.  Break shield and charge as they move away!|U|46069|
+C The Grand Melee|QID|13782^13767^13787^13772^13777|M|75.28,18.42|N|Mount on your new race specific ride, stack up on your shields, and then talk to an Horde Valiant from behind to start.  Break shield and charge as they move away!|U|46069|
 C Among the Champions|QID|13811^13814|M|71.54,23.74|N|Go challenge some champions. Avoid getting charged by your opponnent and try to get a charge and sheild break and thrust while they are low.|
 C Get Kraken!|QID|14108|M|69.80,22.20|N|Mount one of the Stabled Argent Hippogryphs outside the tent. While flying over the ships, use the Flaming Spears you were given to kill 6 Kvaldirs on the ship. Throw 8 spears at the Kraken as well. If you kill the Kraken, you will get a quest item for extra gold.|
 ; A Identifying the Remains|QID|14095|M|69.80,22.20|CC|N|From Kraken Tooth|
@@ -239,60 +239,60 @@ C Threat From Above|QID|13812^13809|M|45.58,32.23;45.22,34.30|CN|N|Defeat Chillm
 C The Fate of the Fallen|QID|14107|M|49,40|CC|N|Loot Crystals (small gems) around the area and use the quest item on 6 neutral mobs without chains.|
 
 
-C A Valiant's Field Training|QID|13781^13765^13786|M|39.60,58.20;39.50,52.40;42.20,57.50;47.00,53.50;42.90,54.20;39.98,55.08;46.34,49.91;44.41,52.20;42.17,49.54;44.95,56.00;42.15,45.80|CN|N|Kill Converted Heroes.|
+C A Valiant's Field Training|QID|13781^13765^13786^13771^13776|M|39.60,58.20;39.50,52.40;42.20,57.50;47.00,53.50;42.90,54.20;39.98,55.08;46.34,49.91;44.41,52.20;42.17,49.54;44.95,56.00;42.15,45.80|CN|N|Kill Converted Heroes.|
 C Taking Battle To The Enemy|QID|13810^13813|M|79.40,23.20;54.50,27.90;72.47,36.65;68.55,63.40;54.70,33.00;61.15,22.75;54.97,45.89;69.47,65.62;62.66,21.02;71.22,38.78;53.30,8.70;67.35,65.10;67.60,37.35;64.68,21.91;54.23,30.30;69.56,36.90;71.85,44.10;52.67,46.15;68.89,39.36;60.70,20.48;56.46,29.15;73.12,41.49;52.07,30.27;52.32,33.79;70.65,40.80;42.90,25.27;75.01,44.00;49.37,32.95|CN|N|Kill members of the Cult of the Damned.|
 
-C At The Enemy's Gates|QID|13860^13856^13854^13858^13857|M|49.00, 71.40|N|Mount up. Run over the footmen, lieutenants have red floating shields. Stay away from the commanders in green shields!|U|46069|
+C At The Enemy's Gates|QID|13860^13856^13859^13858^13857|M|49.00, 71.40|N|Mount up. Run over the footmen, lieutenants have red floating shields. Stay away from the commanders in green shields!|U|46069|
 C Battle Before The Citadel|QID|13863^13862|M|49.00,71.40|N|Mount up and now go after the commanders with the green shields. Go for the isolated commanders. |
 
-C A Blade Fit For A Champion|QID|13757^13603^13752|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
-C A Worthy Weapon|QID|13758^13600^13753|M|68.75,76.38;72.62,73.12;70.56,74.71|L|45000 4|CN|N|Pick flowers along the Ironwall Dam.|
-C A Worthy Weapon|QID|13758^13600^13753|M|93,26|Z|Dragonblight|U|45000|N|Use the stack of flowers within the circle outlined with the purple floating bouys. Loot the sword.|L|44978|
-C The Edge Of Winter|QID|13759^13616^13754|M|55.5,74.9|Z|Crystalsong Forest|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
-C The Edge Of Winter|QID|13759^13616^13754|M|42.19,19.66|Z|Howling Fjord|N|Find the maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
+C A Blade Fit For A Champion|QID|13768^13783^13773^13762^13778|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
+C A Worthy Weapon|QID|13779^13763^13784^13774^13769|M|68.75,76.38;72.62,73.12;70.56,74.71|L|45000 4|CN|N|Pick flowers along the Ironwall Dam.|
+C A Worthy Weapon|QID|13779^13763^13784^13774^13769|M|93,26|Z|Dragonblight|U|45000|N|Use the stack of flowers within the circle outlined with the purple floating bouys. Loot the sword.|L|44978|
+C The Edge Of Winter|QID|13780^13764^13785^13775^13770|M|55.5,74.9|Z|Crystalsong Forest|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
+C The Edge Of Winter|QID|13780^13764^13785^13775^13770|M|42.19,19.66|Z|Howling Fjord|N|Find the maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
 
 C Gormok Wants His Snobolds|QID|14141|M|44.05,81.68|Z|The Storm Peaks|T|Snowblind Follower|U|46855|N|Snag em!|
 C Breakfast Of Champions|QID|14092|M|42.70,54.40;43.40,56.75;46.20,61.80;40.67,52.56;43.16,60.16;38.58,61.11;38.12,55.58|Z|The Storm Peaks|T|Deep Jormungar|U|46893|CN|N|Find snow mounts and use the drums to get the Jormungar out. Kill and get the eggs.|
 
 ; Undead Valiant Turnins
 T A Valiant's Field Training|QID|13781|M|76.50,24.20|N|From Sarah Chalke.|
-T A Blade Fit For A Champion|QID|13757|M|76.50,24.20|N|From Deathstalker Visceri.|
-T A Worthy Weapon|QID|13758|M|76.50,24.20|N|From Deathstalker Visceri.|
-T The Edge Of Winter|QID|13759|M|76.50,24.20|N|From Deathstalker Visceri.|
+T A Blade Fit For A Champion|QID|13778|M|76.50,24.20|N|From Deathstalker Visceri.|
+T A Worthy Weapon|QID|13779|M|76.50,24.20|N|From Deathstalker Visceri.|
+T The Edge Of Winter|QID|13780|M|76.50,24.20|N|From Deathstalker Visceri.|
 T The Grand Melee|QID|13782|M|76.50,24.20|N|From Handler Dretch.|
 T At The Enemy's Gates|QID|13860|M|76.50,24.20|N|From Handler Dretch.|
 
 ; Orc Valiant Turnins
 T A Valiant's Field Training|QID|13765|M|76.50,24.20|N|To Akinos.|
-T A Blade Fit For A Champion|QID|13603|M|76.40,24.50|N|To Mokra the Skullcrusher.|
-T A Worthy Weapon|QID|13600|M|76.40,24.50|N|To Mokra the Skullcrusher.|
-T The Edge Of Winter|QID|13616|M|76.40,24.50|N|To Mokra the Skullcrusher.|
+T A Blade Fit For A Champion|QID|13762|M|76.40,24.50|N|To Mokra the Skullcrusher.|
+T A Worthy Weapon|QID|13763|M|76.40,24.50|N|To Mokra the Skullcrusher.|
+T The Edge Of Winter|QID|13764|M|76.40,24.50|N|To Mokra the Skullcrusher.|
 T The Grand Melee|QID|13767|M|76.50,24.20|N|To Morah Worgsister.|
 T At The Enemy's Gates|QID|13856|M|76.50,24.20|N|To Morah Worgsister.|
 
 ; Blood Elf Valiant Turnins
 T A Valiant's Field Training|QID|13786|M|76.40,23.90|N|Kethiel Sunlance.|
-T A Blade Fit For A Champion|QID|13752|M|76.40,23.90|N|From Eressea Dawnsinger.|
-T A Worthy Weapon|QID|13753|M|76.40,23.90|N|From Eressea Dawnsinger.|
-T The Edge Of Winter|QID|13754|M|76.40,23.90|N|From Eressea Dawnsinger.|
-T The Grand Melee|QID|13756|M|76.40,23.90|N|From Aneera Thuron.|
-T At The Enemy's Gates|QID|13854|M|76.40,23.90|N|From Aneera Thuron.|
+T A Blade Fit For A Champion|QID|13783|M|76.40,23.90|N|From Eressea Dawnsinger.|
+T A Worthy Weapon|QID|13784|M|76.40,23.90|N|From Eressea Dawnsinger.|
+T The Edge Of Winter|QID|13785|M|76.40,23.90|N|From Eressea Dawnsinger.|
+T The Grand Melee|QID|13787|M|76.40,23.90|N|From Aneera Thuron.|
+T At The Enemy's Gates|QID|13859|M|76.40,23.90|N|From Aneera Thuron.|
 
 ; Tauren Valiant Turnins
 T A Valiant's Field Training|QID|13776|M|76.40,23.90|N|Dern Ragetotem.|
-T A Blade Fit For A Champion|QID|13752|M|76.40,23.90|N|From Runok Wildmane.|
-T A Worthy Weapon|QID|13753|M|76.40,23.90|N|From Runok Wildmane.|
-T The Edge Of Winter|QID|13754|M|76.40,23.90|N|From Runok Wildmane.|
-T The Grand Melee|QID|13756|M|76.40,23.90|N|From Anka Clawhoof.|
-T At The Enemy's Gates|QID|13854|M|76.40,23.90|N|From Anka Clawhoof.|
+T A Blade Fit For A Champion|QID|13773|M|76.40,23.90|N|From Runok Wildmane.|
+T A Worthy Weapon|QID|13774|M|76.40,23.90|N|From Runok Wildmane.|
+T The Edge Of Winter|QID|13775|M|76.40,23.90|N|From Runok Wildmane.|
+T The Grand Melee|QID|13777|M|76.40,23.90|N|From Anka Clawhoof.|
+T At The Enemy's Gates|QID|13858|M|76.40,23.90|N|From Anka Clawhoof.|
 
 ; Troll Valiant Turnins
 T A Valiant's Field Training|QID|13771|M|76.40,23.90|N|Shadow Hunter Mezil-kree.|
-T A Blade Fit For A Champion|QID|13752|M|76.40,23.90|N|From Zul'tore.|
-T A Worthy Weapon|QID|13753|M|76.40,23.90|N|From Zul'tore.|
-T The Edge Of Winter|QID|13754|M|76.40,23.90|N|From Zul'tore.|
-T The Grand Melee|QID|13756|M|76.40,23.90|N|From Gahju.|
-T At The Enemy's Gates|QID|13854|M|76.40,23.90|N|From Gahju.|
+T A Blade Fit For A Champion|QID|13768|M|76.40,23.90|N|From Zul'tore.|
+T A Worthy Weapon|QID|13769|M|76.40,23.90|N|From Zul'tore.|
+T The Edge Of Winter|QID|13770|M|76.40,23.90|N|From Zul'tore.|
+T The Grand Melee|QID|13772|M|76.40,23.90|N|From Gahju.|
+T At The Enemy's Gates|QID|13857|M|76.40,23.90|N|From Gahju.|
 
 ; Exalted Turnins
 T You've Really Done It This Time, Kul|QID|14142|M|76.10,24.10|N|To Girana the Blooded.|
