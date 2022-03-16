@@ -10,19 +10,19 @@ WoWPro:GuideNickname(guide, "LTW_BfA")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:
-;  For the QID is Prof (165), Spell ID(000000) - QIDs mean NOTHING in guides.
-;  For the N Steps - QID is just 165+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;	For the QID is Prof (165), Spell ID(000000) - QIDs mean NOTHING in guides.
+;	For the N Steps - QID is just 165+00000# - Prof and increment numbers padded to 6 digits.
+;	For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
 ;		IE M [item=154153/Shimmerscale Armguards]|QID|165256757|P|Leatherworking;165;7+13;1|ITEM|154153|CRAFT|256757 13|MATS|153050 1;154164 1|
-;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 165264592 ('264592' is spell ID)
+;	For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 165264592 ('264592' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
 ;		IE = Learn Recipe|QID|165700251|P|Leatherworking;165;7+25;0|RECIPE|256759|N|Learn [spell=256759/Shimmerscale Pauldrons] Recipe from Trainer.|
 ; 		IE learn 2 at lvl 25 |165700151| and |165700152|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
 ;  Typed update to Battle for Azeroth splits on 07-June-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
-; N Guide Hub|QID|165000000|JUMP|Leatherworking: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|165000000|JUMP|Leatherworking: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|165000001|N|Currently in Development, starting with BFA content.\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, using the Report Issue option menu. (Right click on the step, to bring up Menu).|
@@ -62,8 +62,8 @@ M [item=154166/Coarse Leather Barding]|QID|165286019|P|Leatherworking;165;7+120;
 U Coarse Leather Barding|QID|165700852|P|Leatherworking;165;7+85;0|RECIPE|286021|ITEM|166313|N|Learn [spell=286021/Coarse Leather Barding] (Rank 3)\nRandom World Drop, must have learned Rank 2m before you can use.|
 M [item=154166/Coarse Leather Barding]|QID|165286019|P|Leatherworking;165;7+125;1|ITEM|154166|CRAFT|286019 45|MATS|152541 15|
 M [item=154167/Drums of the Maelstrom]|QID|165256791|P|Leatherworking;165;7+120;1|ITEM|154167|CRAFT|256791 30|MATS|152541 25;154164 10|
-= Learn Recipe|QID|165701501|PRE|55636|M|38.0,53.6|Z|Nazjatar|P|Leatherworking;165;7+150;0|RECIPE|301405|N|Learn [spell=301405/Dredged Leather Bladder] Recipe from Instructor Alikana|FACTION|ALLIANCE|
-= Learn Recipe|QID|165701501|PRE|55636|M|49.0,61.6|Z|Nazjatar|P|Leatherworking;165;7+150;0|RECIPE|301405|N|Learn [spell=301405/Dredged Leather Bladder] Recipe from Jada.|FACTION|HORDE|
+= Learn Recipe|QID|165701501|PRE|54972|M|38.0,53.6|Z|Nazjatar|P|Leatherworking;165;7+150;0|RECIPE|301405|N|Learn [spell=301405/Dredged Leather Bladder] Recipe from Instructor Alikana|FACTION|ALLIANCE|
+= Learn Recipe|QID|165701501|PRE|55053|M|49.0,61.6|Z|Nazjatar|P|Leatherworking;165;7+150;0|RECIPE|301405|N|Learn [spell=301405/Dredged Leather Bladder] Recipe from Jada.|FACTION|HORDE|
 M [item=169445/Dredged Leather Bladder]|QID|165301405|P|Leatherworking;165;7+175;1|ITEM|169445|CRAFT|301405 40|MATS|168649 10;159959 5|
 
 N Congratulations|QID|164000010|N|That completes Leatherworking - BFA.|

@@ -10,15 +10,15 @@ WoWPro:GuideNickname(guide, "ALC_SL")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:
-;  For the QID is Prof (171), Spell ID(000000) - QIDs mean NOTHING in guides.
-;  For the N Steps - QID is just 171+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;	For the QID is Prof (171), Spell ID(000000) - QIDs mean NOTHING in guides.
+;	For the N Steps - QID is just 171+00000# - Prof and increment numbers padded to 6 digits.
+;	For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
 ;		IE M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;8+8;1|CRAFT|301578 8|MATS|180732 1;169701 2|N|Create 8, needed in 2 steps.|
-;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 171309822 ('309822' is spell ID)
+;	For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 171309822 ('309822' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
 ;		IE = Learn Recipe|QID|171800151|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion] Recipe, from Trainer.|
 ; 		IE learn 2 at lvl 15 |171800151| and |171800152|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
 ;  Typed update to SL splits on 12-Dec-2020 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 ) - (This is NOT tested)
 

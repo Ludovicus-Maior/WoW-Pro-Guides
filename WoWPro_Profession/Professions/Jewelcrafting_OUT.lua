@@ -10,17 +10,17 @@ WoWPro:GuideNickname(guide, "JC_TBC")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:
-;  For the QID is Prof (755), Spell ID(000000) - QIDs mean NOTHING in guides.
-;  For the N Steps - QID is just 755+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
-;	 IE IE M [item=20816/Delicate Copper Wire]|QID|755025255|P|Jewelcrafting;755;0+30;1|ITEM|20816|CRAFT|25255 40|MATS|2840 2|
-;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 755311967 ('311967' is spell ID)
+;	For the QID is Prof (755), Spell ID(000000) - QIDs mean NOTHING in guides.
+;	For the N Steps - QID is just 755+00000# - Prof and increment numbers padded to 6 digits.
+;	For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		IE M [item=20816/Delicate Copper Wire]|QID|755025255|P|Jewelcrafting;755;0+30;1|ITEM|20816|CRAFT|25255 40|MATS|2840 2|
+;	For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 755311967 ('311967' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
-;		= Learn Recipe|QID|755800151|M|35.20,41.34|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+15|RECIPE|311871|N|Learn [spell=311871/Quick Jewel Doublet] Recipe from Trainer.|
-; 	 IE learn 2 at lvl 15 |755800151| and |755800152|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;		IE = Learn Recipe|QID|755800151|M|35.20,41.34|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+15|RECIPE|311871|N|Learn [spell=311871/Quick Jewel Doublet] Recipe from Trainer.|
+; 	 	IE learn 2 at lvl 15 |755800151| and |755800152|.
+;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-; ;  Typed update to The Burning Crusade splits on 27-June-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;	Typed update to The Burning Crusade splits on 27-June-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
 N Guide Hub|QID|755000000|JUMP|Jewelcrafting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
