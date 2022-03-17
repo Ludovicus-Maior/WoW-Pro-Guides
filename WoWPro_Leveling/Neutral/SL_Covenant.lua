@@ -224,33 +224,33 @@ C The Sea of Souls|QID|60530|M|38.52,24.85|Z|The Maw|N|Tyrande Whisperwind found
 T The Sea of Souls|QID|60530|M|46.83,41.73|Z|The Maw|N|To Shandris Feathermoon.|COV|Night Fae|
 A The Recovery of Tyrande Whisperwind|QID|59189|M|46.83,41.73|Z|The Maw|N|From Shandris Feathermoon.|PRE|60530|COV|Night Fae|REN|5|
 C The Recovery of Tyrande Whisperwind|QID|59189|M|38.28,47.09|Z|1911;Torghast - Entrance!Instance|QO|1|CHAT|N|Shandris Feathermoon followed into Torghast|COV|Night Fae|
-C Find Tyrande Whisperwind|Z|1720;Covenant_Ard_Torghast!Dungeon|SO|1|QID|59189|N|Search Torghast for Tyrande Whisperind|COV|Night Fae|
-C Fend off Maw Warriors|Z|The Fracture Chambers|SO|2|QID|59189|N|Aid Tyrande in defeating Maw Assassins|COV|Night Fae|
-C Maw ambushers slain|M|78.93,35.42|Z|Covenant_Ard_Torghast!Dungeon|SO|2;1|QID|59189|N|Maw ambushers slain|COV|Night Fae|
-C Keep up with Tyrande Whisperwind|Z|Covenant_Ard_Torghast!Dungeon|SO|3|QID|59189|N|Tyrande is not stopping. Try to keep up with her.|COV|Night Fae|
-C Tyrande Whisperwind followed|M|78.18,61.23|Z|Covenant_Ard_Torghast!Dungeon|QID|59189|SO|3;1|N|Tyrande Whisperwind followed|COV|Night Fae|
-C Defeat Maw Ambushers|Z|Covenant_Ard_Torghast!Dungeon|SO|4|QID|59189|N|Tyrande charged ahead. Deal with 4 waves of incoming Maw minions!|COV|Night Fae|
-C Maw ambushers slain|M|77.48,64.03|Z|Covenant_Ard_Torghast!Dungeon|SO|4;1|QID|59189|N|Maw ambushers slain|COV|Night Fae|
-C Catch up with Tyrande|Z|Covenant_Ard_Torghast!Dungeon|SO|5|QID|59189|N|Tyrande iws up ahead, try to catch up with her!|COV|Night Fae|
-C Tyrande found|M|60.45,86.54|Z|Covenant_Ard_Torghast!Dungeon|SO|5;1|QID|59189|N|Tyrande found|COV|Night Fae|
-C (Optional) Disable traps|M|60.45,86.54|Z|Covenant_Ard_Torghast!Dungeon|SO|5;2|QID|59189|N|(Optional) Disable traps|COV|Night Fae|
-C Follow the new path to Tyrande|Z|Covenant_Ard_Torghast!Dungeon|SO|6|QID|59189|N|Tyrande has pushed forward. Find another way to catch up with her.|COV|Night Fae|
-C Tyrande found|M|50.36,70.09|Z|Covenant_Ard_Torghast!Dungeon|SO|6;1|QID|59189|N|Tyrande found|COV|Night Fae|
-C Defeat Skuld|Z|Covenant_Ard_Torghast!Dungeon|SO|7|QID|59189|N|Skuld stands in your way! Free the Bound Souls then kill him! He has an interuptable ability that gives him a shield.|COV|Night Fae|
-C Souls freed|M|42.55,72.42|Z|Covenant_Ard_Torghast!Dungeon|SO|7;1|QID|59189|N|Souls freed|COV|Night Fae|
-C Skuld slain|M|44.57,69.89|Z|Covenant_Ard_Torghast!Dungeon|SO|7;2|QID|59189|N|Skuld slain|COV|Night Fae|
-C Catch up with Tyrande|Z|Covenant_Ard_Torghast!Dungeon|SO|8|QID|59189|N|Tyrande must be up ahead. Find her!|COV|Night Fae|
-C Tyrande found|M|24.41,34.13|Z|Covenant_Ard_Torghast!Dungeon|SO|8;1|QID|59189|N|Tyrande found|COV|Night Fae|
-C Defeat the Tortured Amalgamation|Z|Covenant_Ard_Torghast!Dungeon|SO|9|QID|59189|N|The Maw has created an tortured Amalgam, avoid the blasts and kill it.|COV|Night Fae|
-C Tortured Amalgamation slain|M|28.37,32.19|Z|Covenant_Ard_Torghast!Dungeon|SO|9;1|QID|59189|N|Tortured Amalgamation slain|COV|Night Fae|
-C Tyrande Whisperwind's Refusal|Z|Covenant_Ard_Torghast!Dungeon|SO|10|QID|59189|CHAT|N|Talk to Tyrande.|COV|Night Fae|
-C Beseech Tyrande to return|M|25.70,28.37|Z|Covenant_Ard_Torghast!Dungeon|SO|10;1|QID|59189|N|Beseech Tyrande to return|COV|Night Fae|
-C Salvation of the Night Elves|Z|Covenant_Ard_Torghast!Dungeon|SO|11|QID|59189|N|Click the glowing crystal in the middle of teh room|COV|Night Fae|
-C Soulkeeper Crystal placed|M|25.56,28.82|Z|Covenant_Ard_Torghast!Dungeon|SO|11;1|QID|59189|N|Soulkeeper Crystal placed|COV|Night Fae|
-C Night elf souls rescued|M|25.56,28.82|Z|Covenant_Ard_Torghast!Dungeon|SO|11;2|QID|59189|N|Night elf souls rescued|COV|Night Fae|
-C Salvation of the Night Elves|Z|Covenant_Ard_Torghast!Dungeon|SO|11|QID|59189|N|Tyrande is gone, but you can still save the group of night elves trapped in the Maw.|COV|Night Fae|
-C The Kaldorei Rescued|Z|The Fracture Chambers|SO|12|QID|59189|N|It is time to return to Ardenweald with the rescued night elves in the Soulkeeper.|COV|Night Fae|
-C The Recovery of Tyrande Whisperwind|QID|59189|M|25.56,28.82|Z|Covenant_Ard_Torghast!Dungeon|QO|2|CHAT|N|To Shandris Feathermoon.|COV|Night Fae|
+C Find Tyrande Whisperwind|Z|1720;The Fracture Chamber!Dungeon|SO|1|QID|59189|N|Search Torghast for Tyrande Whisperind|COV|Night Fae|
+C Fend off Maw Warriors|Z|1720;The Fracture Chamber!Dungeon|SO|2|QID|59189|N|Aid Tyrande in defeating Maw Assassins|COV|Night Fae|
+C Maw ambushers slain|M|78.93,35.42|Z|1720;The Fracture Chamber!Dungeon|SO|2;1|QID|59189|N|Maw ambushers slain|COV|Night Fae|
+C Keep up with Tyrande Whisperwind|Z|1720;The Fracture Chamber!Dungeon|SO|3|QID|59189|N|Tyrande is not stopping. Try to keep up with her.|COV|Night Fae|
+C Tyrande Whisperwind followed|M|78.18,61.23|Z|1720;The Fracture Chamber!Dungeon|QID|59189|SO|3;1|N|Tyrande Whisperwind followed|COV|Night Fae|
+C Defeat Maw Ambushers|Z|1720;The Fracture Chamber!Dungeon|SO|4|QID|59189|N|Tyrande charged ahead. Deal with 4 waves of incoming Maw minions!|COV|Night Fae|
+C Maw ambushers slain|M|77.48,64.03|Z|1720;The Fracture Chamber!Dungeon|SO|4;1|QID|59189|N|Maw ambushers slain|COV|Night Fae|
+C Catch up with Tyrande|Z|1720;The Fracture Chamber!Dungeon|SO|5|QID|59189|N|Tyrande iws up ahead, try to catch up with her!|COV|Night Fae|
+C Tyrande found|M|60.45,86.54|Z|1720;The Fracture Chamber!Dungeon|SO|5;1|QID|59189|N|Tyrande found|COV|Night Fae|
+C (Optional) Disable traps|M|60.45,86.54|Z|1720;The Fracture Chamber!Dungeon|SO|5;2|QID|59189|N|(Optional) Disable traps|COV|Night Fae|
+C Follow the new path to Tyrande|Z|1720;The Fracture Chamber!Dungeon|SO|6|QID|59189|N|Tyrande has pushed forward. Find another way to catch up with her.|COV|Night Fae|
+C Tyrande found|M|50.36,70.09|Z|1720;The Fracture Chamber!Dungeon|SO|6;1|QID|59189|N|Tyrande found|COV|Night Fae|
+C Defeat Skuld|Z|1720;The Fracture Chamber!Dungeon|SO|7|QID|59189|N|Skuld stands in your way! Free the Bound Souls then kill him! He has an interuptable ability that gives him a shield.|COV|Night Fae|
+C Souls freed|M|42.55,72.42|Z|1720;The Fracture Chamber!Dungeon|SO|7;1|QID|59189|N|Souls freed|COV|Night Fae|
+C Skuld slain|M|44.57,69.89|Z|1720;The Fracture Chamber!Dungeon|SO|7;2|QID|59189|N|Skuld slain|COV|Night Fae|
+C Catch up with Tyrande|Z|1720;The Fracture Chamber!Dungeon|SO|8|QID|59189|N|Tyrande must be up ahead. Find her!|COV|Night Fae|
+C Tyrande found|M|24.41,34.13|Z|1720;The Fracture Chamber!Dungeon|SO|8;1|QID|59189|N|Tyrande found|COV|Night Fae|
+C Defeat the Tortured Amalgamation|Z|1720;The Fracture Chamber!Dungeon|SO|9|QID|59189|N|The Maw has created an tortured Amalgam, avoid the blasts and kill it.|COV|Night Fae|
+C Tortured Amalgamation slain|M|28.37,32.19|Z|1720;The Fracture Chamber!Dungeon|SO|9;1|QID|59189|N|Tortured Amalgamation slain|COV|Night Fae|
+C Tyrande Whisperwind's Refusal|Z|1720;The Fracture Chamber!Dungeon|SO|10|QID|59189|CHAT|N|Talk to Tyrande.|COV|Night Fae|
+C Beseech Tyrande to return|M|25.70,28.37|Z|1720;The Fracture Chamber!Dungeon|SO|10;1|QID|59189|N|Beseech Tyrande to return|COV|Night Fae|
+C Salvation of the Night Elves|Z|1720;The Fracture Chamber!Dungeon|SO|11|QID|59189|N|Click the glowing crystal in the middle of teh room|COV|Night Fae|
+C Soulkeeper Crystal placed|M|25.56,28.82|Z|1720;The Fracture Chamber!Dungeon|SO|11;1|QID|59189|N|Soulkeeper Crystal placed|COV|Night Fae|
+C Night elf souls rescued|M|25.56,28.82|Z|1720;The Fracture Chamber!Dungeon|SO|11;2|QID|59189|N|Night elf souls rescued|COV|Night Fae|
+C Salvation of the Night Elves|Z|1720;The Fracture Chamber!Dungeon|SO|11|QID|59189|N|Tyrande is gone, but you can still save the group of night elves trapped in the Maw.|COV|Night Fae|
+C The Kaldorei Rescued|Z|1720;The Fracture Chamber!Dungeon|SO|12|QID|59189|N|It is time to return to Ardenweald with the rescued night elves in the Soulkeeper.|COV|Night Fae|
+C The Recovery of Tyrande Whisperwind|QID|59189|M|25.56,28.82|Z|1720;The Fracture Chamber!Dungeon|QO|2|CHAT|N|To Shandris Feathermoon.|COV|Night Fae|
 T The Recovery of Tyrande Whisperwind|QID|59189|M|46.81,41.59|Z|The Maw|N|To Shandris Feathermoon.|COV|Night Fae|
 A Their New Home|QID|59242|PRE|59189|M|46.81,41.59|Z|The Maw|N|From Shandris Feathermoon.|COV|Night Fae|
 P Oribos|ACTIVE|59242|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Night Fae|
