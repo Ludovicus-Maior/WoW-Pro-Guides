@@ -6,9 +6,9 @@ WoWPro:GuideNextGuide(guide, "Torghast")
 WoWPro:GuideSteps(guide, function()
 return [[
 ; Torghast
-A Into Torghast|QID|60136|M|39.93,68.59|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|63029^63030^63032^63033|
-P Ring of Transference|QID|60136|ACTIVE|60136|M|52.07,57.87|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
-P Ve'nari's Refuge|QID|60136|ACTIVE|60136|M|49.55,51.62|Z|Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|
+A Into Torghast|QID|60136|M|39.93,68.59|Z|1670;Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|63029^63030^63032^63033|
+P Ring of Transference|QID|60136|ACTIVE|60136|M|52.07,57.87|Z|1670;Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
+P Ve'nari's Refuge|QID|60136|ACTIVE|60136|M|49.55,51.62|Z|1671;Ring of Transference@Oribos|N|Hop into the center to teleport to the maw.|
 C Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|QO|1|CHAT|N|Ask Ve'nari about a way into Torghast.|
 T Into Torghast|QID|60136|M|46.90,41.69|Z|The Maw|N|To Ve'nari.|
 A The Search for Baine|QID|61099|M|PLAYER|Z|The Maw|N|From Ve'nari.|PRE|60136|
@@ -27,9 +27,9 @@ C The Search for Baine|QID|61099|M|34.88,56.24|Z|Torghast!Instance1769|QO|4|N|Cl
 P Exit|ACTIVE|61099|M|35.22,41.41|Z|Torghast!Instance1769|N|Make your way to the exit.|IZ|1769|
 P The Maw|ACTIVE|61099|M|10.43,47.15|Z|1911;Torghast - Entrance!Instance|N|Click on the doors to exit Torghast.|IZ|1911|
 P Oribos|ACTIVE|61099|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|
-T The Search for Baine|QID|61099|M|39.95,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
-A Explore Torghast|QID|62932|PRE|61099|M|39.95,68.61|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|
-P Ring of Transference|ACTIVE|60267|M|52.06,57.87|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|IZ|1670|
+T The Search for Baine|QID|61099|M|39.95,68.61|Z|1670;Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
+A Explore Torghast|QID|62932|PRE|61099|M|39.95,68.61|Z|1670;Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|
+P Ring of Transference|ACTIVE|60267|M|52.06,57.87|Z|1670;Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|IZ|1670|
 P The Maw|ACTIVE|60267|M|45.87,51.55|Z|Ring of Transference@Oribos|N|Jump into the portal to The Maw.|IZ|1671|
 C Prison of the Forgotten|QID|60267|M|46.91,41.70|Z|The Maw|QO|1|CHAT|N|Speak with Ve'nari.|
 P Torghast, Tower of the Damned|ACTIVE|60267|M|48.17,39.48|Z|The Maw|N|Take the Portal into Torghast.|IZ|1543|
@@ -61,23 +61,23 @@ C The Weak Link|QID|60272|M|50.37,54.06|Z|1912;The Runecarver's Oubliette!Instan
 T The Weak Link|QID|60272|M|51.01,54.58|Z|1912;The Runecarver's Oubliette!Instance|N|To Runecarver.|
 
 ; Start of Cov
-A Choosing Your Purpose|QID|62000^57878|M|39.22,69.40|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
-C Choosing Your Purpose|QID|62000^57878|M|42.94,73.62|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Necrolords.|
-C Choosing Your Purpose|QID|62000^57878|M|44.76,69.53|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the Venthyr.|
-C Choosing Your Purpose|QID|62000^57878|M|36.45,63.81|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with the Kyrian.|
-C Choosing Your Purpose|QID|62000^57878|M|39.50,61.39|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Night Fae.|
-C Choosing Your Purpose|QID|62000^57878|M|39.66,68.43|Z|Ring of Fates@Oribos|QO|5|NC|N|Choose your Covenant.|
-T Choosing Your Purpose|QID|62000^57878|M|39.34,69.37|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
+A Choosing Your Purpose|QID|62000^57878|M|39.22,69.40|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|
+C Choosing Your Purpose|QID|62000^57878|M|42.94,73.62|Z|1670;Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Necrolords.|
+C Choosing Your Purpose|QID|62000^57878|M|44.76,69.53|Z|1670;Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the Venthyr.|
+C Choosing Your Purpose|QID|62000^57878|M|36.45,63.81|Z|1670;Ring of Fates@Oribos|QO|1|CHAT|N|Speak with the Kyrian.|
+C Choosing Your Purpose|QID|62000^57878|M|39.50,61.39|Z|1670;Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Night Fae.|
+C Choosing Your Purpose|QID|62000^57878|M|39.66,68.43|Z|1670;Ring of Fates@Oribos|QO|5|NC|N|Choose your Covenant.|
+T Choosing Your Purpose|QID|62000^57878|M|39.34,69.37|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|
 
 ;Night Fae Campaign
 ;Chapter 1
-A Report to Moonberry|QID|63214|PRE|62000^57878|M|39.30,69.17|Z|Ring of Fates@Oribos|N|From Tal-Inara.|COV|Night Fae|
-T Report to Moonberry|QID|63214|M|39.71,61.18|Z|Ring of Fates@Oribos|N|To Lady Moonberry.|COV|Night Fae|
-A The Heart of the Forest|QID|61475|M|39.50,61.58|Z|Ring of Fates@Oribos|N|From Lady Moonberry.|PRE|63214|COV|Night Fae|
+A Report to Moonberry|QID|63214|PRE|62000^57878|M|39.30,69.17|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|COV|Night Fae|
+T Report to Moonberry|QID|63214|M|39.71,61.18|Z|1670;Ring of Fates@Oribos|N|To Lady Moonberry.|COV|Night Fae|
+A The Heart of the Forest|QID|61475|M|39.50,61.58|Z|1670;Ring of Fates@Oribos|N|From Lady Moonberry.|PRE|63214|COV|Night Fae|
 P Ring of Transference|ACTIVE|61475|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|COV|Night Fae|
 F Heart of the Forest|QID|61475|M|60.59,68.98|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi.|COV|Night Fae|
-T The Heart of the Forest|QID|61475|M|49.32,52.30|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
-A The Boon of Shapes|QID|61479|M|49.32,52.30|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|61475|COV|Night Fae|
+T The Heart of the Forest|QID|61475|M|49.32,52.30|Z|1565;Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
+A The Boon of Shapes|QID|61479|M|49.32,52.30|Z|1565;Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|61475|COV|Night Fae|
 C The Boon of Shapes|QID|61479|M|51.20,40.46|Z|1701;The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Chat to Lady Moonberry and follow her.|COV|Night Fae|
 C The Boon of Shapes|QID|61479|M|50.16,40.29|Z|1701;The Trunk@Heart of the Forest!Dungeon|QO|2|NC|N|Use the "[color=40C7EB]Receive Boon[/color]" button to Kneel before Lady Moonberry.|EAB|COV|Night Fae|
 T The Boon of Shapes|QID|61479|M|50.05,40.29|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
@@ -88,38 +88,38 @@ T For Queen and Grove!|QID|63006|M|49.72,37.19|Z|1703;The Canopy@Heart of the Fo
 A Show, Don't Tell|QID|58104|M|49.77,40.02|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|61479|COV|Night Fae|
 h Heart of the Forest|QID|58104|M|54.59,55.49|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|At Kewarin.|COV|Night Fae|
 C Show, Don't Tell|QID|58104|M|49.77,40.02|Z|1701;The Trunk@Heart of the Forest!Dungeon|CHAT|N|Commune with Moonberry.|COV|Night Fae|
-R Star Lake Amphitheater|QID|58104|M|43.13,48.82|Z|Ardenweald!The Shadowlands|COV|Night Fae|
-T Show, Don't Tell|QID|58104|M|40.71,42.82|Z|Ardenweald!The Shadowlands|N|To Featherlight.|COV|Night Fae|
-A Break a Leg|QID|58157|M|40.71,42.82|Z|Ardenweald!The Shadowlands|N|From Featherlight.|PRE|58104|COV|Night Fae|
-C Break a Leg|QID|58157|M|41.43,44.78|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Place on stage taken.|COV|Night Fae|
-C Break a Leg|QID|58157|M|41.43,44.78|Z|Ardenweald!The Shadowlands|QO|2|N|Stand in the light and use the "[color=40C7EB]Begin Act 1, Xavius[/color]" button, then defeat Xavius.|EAB|COV|Night Fae|
-C Break a Leg|QID|58157|M|41.43,44.78|Z|Ardenweald!The Shadowlands|QO|3|N|Stand in the light and use the "[color=40C7EB]Begin Act 2, Gul'dan[/color]" button, then defeat Gul'dan.|EAB|COV|Night Fae|
-C Break a Leg|QID|58157|M|41.43,44.78|Z|Ardenweald!The Shadowlands|QO|4|N|Stand in the light and use the "[color=40C7EB]Begin Act 3, Kil'jaeden[/color]" button, then defeat Kil'jaeden.|EAB|COV|Night Fae|
-C Break a Leg|QID|58157|M|41.43,44.78|Z|Ardenweald!The Shadowlands|QO|5|N|Stand in the light and use the "[color=40C7EB]Begin Act 4, Argus[/color]" button, then defeat Argus.|EAB|COV|Night Fae|
-C Break a Leg|QID|58157|M|41.43,44.78|Z|Ardenweald!The Shadowlands|QO|6|N|Stand in the light and use the "[color=40C7EB]Taking a Bow[/color]" button, To take a bow.|EAB|COV|Night Fae|
-T Break a Leg|QID|58157|M|40.70,42.80|Z|Ardenweald!The Shadowlands|N|To Featherlight.|COV|Night Fae|
-A The Fourth Wall, er, War|QID|58158|M|40.70,42.80|Z|Ardenweald!The Shadowlands|N|From Featherlight.|PRE|58157|COV|Night Fae|
-C The Fourth Wall, er, War|QID|58158|M|40.76,43.89;41.37,44.53|CC|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Right click the Purple orb and Place Azeroth by right clicking the golden outline of a globe.|COV|Night Fae|
-C The Fourth Wall, er, War|QID|58158|M|41.26,44.83|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Place Teldrassil.|COV|Night Fae|
-C The Fourth Wall, er, War|QID|58158|M|40.56,42.91|Z|Ardenweald!The Shadowlands|QO|3|CHAT|N|Become Sargeras.|COV|Night Fae|
-C The Fourth Wall, er, War|QID|58158|M|41.01,43.71|Z|Ardenweald!The Shadowlands|QO|4|N|Stand in the light and use the "[color=40C7EB]Stab the World[/color]" button, To stab Azeroth.|EAB|COV|Night Fae|
-C The Fourth Wall, er, War|QID|58158|M|40.61,42.93|Z|Ardenweald!The Shadowlands|QO|5|CHAT|N|Become Nathanos.|COV|Night Fae|
-C The Fourth Wall, er, War|QID|58158|M|41.24,44.78|Z|Ardenweald!The Shadowlands|QO|6|NC|N|Use the "[color=40C7EB]Burning Teldrassil[/color]" button, To burn Teldrassil.|EAB|COV|Night Fae|
-C The Fourth Wall, er, War|QID|58158|M|40.61,42.90|Z|Ardenweald!The Shadowlands|QO|7|CHAT|N|Become Reverence|COV|Night Fae|
-C The Fourth Wall, er, War|QID|58158|M|40.61,42.98|Z|Ardenweald!The Shadowlands|QO|8|CHAT|N|Upgrade your Costume.|COV|Night Fae|
-C The Fourth Wall, er, War|QID|58158|M|41.39,44.41|Z|Ardenweald!The Shadowlands|QO|9|NC|N|Trample Horde siege engines.|COV|Night Fae|
-C The Fourth Wall, er, War|QID|58158|M|40.61,42.97|Z|Ardenweald!The Shadowlands|QO|10|CHAT|N|Remove your costume.|COV|Night Fae|
-C The Fourth Wall, er, War|QID|58158|M|41.49,44.39|Z|Ardenweald!The Shadowlands|QO|11|NC|N|Heal Azeroth's Wounds.|COV|Night Fae|
-T The Fourth Wall, er, War|QID|58158|M|40.73,42.86|Z|Ardenweald!The Shadowlands|N|To Featherlight.|COV|Night Fae|
-A What's My Motivation?|QID|58159|M|40.73,42.86|Z|Ardenweald!The Shadowlands|N|From Featherlight.|PRE|58158|COV|Night Fae|
-C What's My Motivation?|QID|58159|M|41.43,44.80|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Stand in the light and take your place on stage.|COV|Night Fae|
-C What's My Motivation?|QID|58159|M|41.35,44.83|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Use the "[color=40C7EB]Act 6, Begin![/color]" button, then defeat G'Huun by right clicking the small bug.|EAB|COV|Night Fae|
-C What's My Motivation?|QID|58159|M|41.42,44.43|Z|Ardenweald!The Shadowlands|QO|3|N|Stand in the light and use the "[color=40C7EB]Act 7, Begin![/color]" button, then defeat Jaina.|EAB|COV|Night Fae|
-C What's My Motivation?|QID|58159|M|41.22,44.33|Z|Ardenweald!The Shadowlands|QO|4|N|Stand in the light and use the "[color=40C7EB]Finale, Begin![/color]" button, then defeat Azshara.|EAB|COV|Night Fae|
-C What's My Motivation?|QID|58159|M|41.33,44.44|Z|Ardenweald!The Shadowlands|QO|5|N|N'Zoth defeated.|COV|Night Fae|
-C What's My Motivation?|QID|58159|M|41.43,44.78|Z|Ardenweald!The Shadowlands|QO|6|N|Stand in the light and use the "[color=40C7EB]Awaiting the Queen's Judgement[/color]" button, then Await the Queen's Judgement.|EAB|COV|Night Fae|
-T What's My Motivation?|QID|58159|M|41.07,44.84|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
-A For Queen and Grove!|QID|58160|M|42.43,45.21|Z|Ardenweald!The Shadowlands|N|From Ysera.|PRE|58159|COV|Night Fae|
+R Star Lake Amphitheater|QID|58104|M|43.13,48.82|Z|1565;Ardenweald!The Shadowlands|COV|Night Fae|
+T Show, Don't Tell|QID|58104|M|40.71,42.82|Z|1565;Ardenweald!The Shadowlands|N|To Featherlight.|COV|Night Fae|
+A Break a Leg|QID|58157|M|40.71,42.82|Z|1565;Ardenweald!The Shadowlands|N|From Featherlight.|PRE|58104|COV|Night Fae|
+C Break a Leg|QID|58157|M|41.43,44.78|Z|1565;Ardenweald!The Shadowlands|QO|1|NC|N|Place on stage taken.|COV|Night Fae|
+C Break a Leg|QID|58157|M|41.43,44.78|Z|1565;Ardenweald!The Shadowlands|QO|2|N|Stand in the light and use the "[color=40C7EB]Begin Act 1, Xavius[/color]" button, then defeat Xavius.|EAB|COV|Night Fae|
+C Break a Leg|QID|58157|M|41.43,44.78|Z|1565;Ardenweald!The Shadowlands|QO|3|N|Stand in the light and use the "[color=40C7EB]Begin Act 2, Gul'dan[/color]" button, then defeat Gul'dan.|EAB|COV|Night Fae|
+C Break a Leg|QID|58157|M|41.43,44.78|Z|1565;Ardenweald!The Shadowlands|QO|4|N|Stand in the light and use the "[color=40C7EB]Begin Act 3, Kil'jaeden[/color]" button, then defeat Kil'jaeden.|EAB|COV|Night Fae|
+C Break a Leg|QID|58157|M|41.43,44.78|Z|1565;Ardenweald!The Shadowlands|QO|5|N|Stand in the light and use the "[color=40C7EB]Begin Act 4, Argus[/color]" button, then defeat Argus.|EAB|COV|Night Fae|
+C Break a Leg|QID|58157|M|41.43,44.78|Z|1565;Ardenweald!The Shadowlands|QO|6|N|Stand in the light and use the "[color=40C7EB]Taking a Bow[/color]" button, To take a bow.|EAB|COV|Night Fae|
+T Break a Leg|QID|58157|M|40.70,42.80|Z|1565;Ardenweald!The Shadowlands|N|To Featherlight.|COV|Night Fae|
+A The Fourth Wall, er, War|QID|58158|M|40.70,42.80|Z|1565;Ardenweald!The Shadowlands|N|From Featherlight.|PRE|58157|COV|Night Fae|
+C The Fourth Wall, er, War|QID|58158|M|40.76,43.89;41.37,44.53|CC|Z|1565;Ardenweald!The Shadowlands|QO|2|NC|N|Right click the Purple orb and Place Azeroth by right clicking the golden outline of a globe.|COV|Night Fae|
+C The Fourth Wall, er, War|QID|58158|M|41.26,44.83|Z|1565;Ardenweald!The Shadowlands|QO|1|NC|N|Place Teldrassil.|COV|Night Fae|
+C The Fourth Wall, er, War|QID|58158|M|40.56,42.91|Z|1565;Ardenweald!The Shadowlands|QO|3|CHAT|N|Become Sargeras.|COV|Night Fae|
+C The Fourth Wall, er, War|QID|58158|M|41.01,43.71|Z|1565;Ardenweald!The Shadowlands|QO|4|N|Stand in the light and use the "[color=40C7EB]Stab the World[/color]" button, To stab Azeroth.|EAB|COV|Night Fae|
+C The Fourth Wall, er, War|QID|58158|M|40.61,42.93|Z|1565;Ardenweald!The Shadowlands|QO|5|CHAT|N|Become Nathanos.|COV|Night Fae|
+C The Fourth Wall, er, War|QID|58158|M|41.24,44.78|Z|1565;Ardenweald!The Shadowlands|QO|6|NC|N|Use the "[color=40C7EB]Burning Teldrassil[/color]" button, To burn Teldrassil.|EAB|COV|Night Fae|
+C The Fourth Wall, er, War|QID|58158|M|40.61,42.90|Z|1565;Ardenweald!The Shadowlands|QO|7|CHAT|N|Become Reverence|COV|Night Fae|
+C The Fourth Wall, er, War|QID|58158|M|40.61,42.98|Z|1565;Ardenweald!The Shadowlands|QO|8|CHAT|N|Upgrade your Costume.|COV|Night Fae|
+C The Fourth Wall, er, War|QID|58158|M|41.39,44.41|Z|1565;Ardenweald!The Shadowlands|QO|9|NC|N|Trample Horde siege engines.|COV|Night Fae|
+C The Fourth Wall, er, War|QID|58158|M|40.61,42.97|Z|1565;Ardenweald!The Shadowlands|QO|10|CHAT|N|Remove your costume.|COV|Night Fae|
+C The Fourth Wall, er, War|QID|58158|M|41.49,44.39|Z|1565;Ardenweald!The Shadowlands|QO|11|NC|N|Heal Azeroth's Wounds.|COV|Night Fae|
+T The Fourth Wall, er, War|QID|58158|M|40.73,42.86|Z|1565;Ardenweald!The Shadowlands|N|To Featherlight.|COV|Night Fae|
+A What's My Motivation?|QID|58159|M|40.73,42.86|Z|1565;Ardenweald!The Shadowlands|N|From Featherlight.|PRE|58158|COV|Night Fae|
+C What's My Motivation?|QID|58159|M|41.43,44.80|Z|1565;Ardenweald!The Shadowlands|QO|1|NC|N|Stand in the light and take your place on stage.|COV|Night Fae|
+C What's My Motivation?|QID|58159|M|41.35,44.83|Z|1565;Ardenweald!The Shadowlands|QO|2|NC|N|Use the "[color=40C7EB]Act 6, Begin![/color]" button, then defeat G'Huun by right clicking the small bug.|EAB|COV|Night Fae|
+C What's My Motivation?|QID|58159|M|41.42,44.43|Z|1565;Ardenweald!The Shadowlands|QO|3|N|Stand in the light and use the "[color=40C7EB]Act 7, Begin![/color]" button, then defeat Jaina.|EAB|COV|Night Fae|
+C What's My Motivation?|QID|58159|M|41.22,44.33|Z|1565;Ardenweald!The Shadowlands|QO|4|N|Stand in the light and use the "[color=40C7EB]Finale, Begin![/color]" button, then defeat Azshara.|EAB|COV|Night Fae|
+C What's My Motivation?|QID|58159|M|41.33,44.44|Z|1565;Ardenweald!The Shadowlands|QO|5|N|N'Zoth defeated.|COV|Night Fae|
+C What's My Motivation?|QID|58159|M|41.43,44.78|Z|1565;Ardenweald!The Shadowlands|QO|6|N|Stand in the light and use the "[color=40C7EB]Awaiting the Queen's Judgement[/color]" button, then Await the Queen's Judgement.|EAB|COV|Night Fae|
+T What's My Motivation?|QID|58159|M|41.07,44.84|Z|1565;Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
+A For Queen and Grove!|QID|58160|M|42.43,45.21|Z|1565;Ardenweald!The Shadowlands|N|From Ysera.|PRE|58159|COV|Night Fae|
 C For Queen and Grove!|QID|58160|M|51.94,8.24|Z|1701;The Trunk@Heart of the Forest!Dungeon|QO|1|NC|N|Fly with Ysera.|COV|Night Fae|
 C For Queen and Grove!|QID|58160|M|49.59,19.27|Z|1701;The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Ask Attendant Sparkledew for transport.|COV|Night Fae|
 C For Queen and Grove!|QID|58160|M|49.55,37.35|Z|1703;The Canopy@Heart of the Forest!Dungeon|QO|3|N|Use the "[color=40C7EB]Swearing Oath[/color]" button, Oath Pledged.|EAB|COV|Night Fae|
@@ -173,8 +173,8 @@ T Rule 3: Trust is Earned|QID|60289|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Ni
 A Hopeful News|QID|62837|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60289|COV|Night Fae|
 P Oribos|ACTIVE|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Night Fae|
 C Hopeful News|QID|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Night Fae|
-T Hopeful News|QID|62837|M|39.94,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Night Fae|
-A Flutterback|QID|62894|M|40.31,68.69|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|62837|COV|Night Fae|
+T Hopeful News|QID|62837|M|39.94,68.61|Z|1670;Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Night Fae|
+A Flutterback|QID|62894|M|40.31,68.69|Z|1670;Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|62837|COV|Night Fae|
 P Ring of Transference|ACTIVE|62894|M|49.55,60.83|Z|Ring of Transference@Oribos|IZ|-12858|N|Take the Teleporation Pad up to the Ring of Transference.|COV|Night Fae|
 F Heart of the Forest|ACTIVE|62894|M|60.59,68.98|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi.|IZ|1671|COV|Night Fae|
 T Flutterback|QID|62894|M|34.14,43.99|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
@@ -202,17 +202,17 @@ T The Endless Forest|QID|62899|M|47.54,36.45|Z|1701;The Trunk@Heart of the Fores
 A The Highlord Calls|QID|63030|M|47.54,36.45|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|COV|Night Fae|
 F Oribos|ACTIVE|63030|M|51.41,8.25|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
 P Ring of Fates|ACTIVE|63030|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Night Fae|
-T The Highlord Calls|QID|63030|M|40.05,68.33|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Night Fae|
+T The Highlord Calls|QID|63030|M|40.05,68.33|Z|1670;Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Night Fae|
 
 ;Chapter 3
 N Renown Level 5|AVAILABLE|59179&59246|N|You must reach Renown level 5 to continue to the next chapter.|COV|Night Fae|REN|-5|
 A Daughter of the Night Warrior|QID|59179^59246|M|44.22,39.33|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|62899^63006|COV|Night Fae|REN|5|
 F Oribos|ACTIVE|59179^59246|M|51.76,08.61|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
 P Ring of Fates|ACTIVE|59179^59246|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Fates.|COV|Night Fae|
-C Daughter of the Night Warrior|QID|59179^59246|M|43.23,64.00|Z|Ring of Fates@Oribos|N|Shandris Feathermoon found in Oribos|COV|Night Fae|
-T Daughter of the Night Warrior|QID|59179^59246|M|39.33,67.22|Z|Ring of Fates@Oribos|N|To Shandris Feathermoon.|COV|Night Fae|
-A Into the Maw|QID|59181|M|39.33,67.22|Z|Ring of Fates@Oribos|N|From Shandris Feathermoon.|PRE|59179^59246|COV|Night Fae|REN|5|
-P Ring of Transference|ACTIVE|59181|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Night Fae|
+C Daughter of the Night Warrior|QID|59179^59246|M|43.23,64.00|Z|1670;Ring of Fates@Oribos|N|Shandris Feathermoon found in Oribos|COV|Night Fae|
+T Daughter of the Night Warrior|QID|59179^59246|M|39.33,67.22|Z|1670;Ring of Fates@Oribos|N|To Shandris Feathermoon.|COV|Night Fae|
+A Into the Maw|QID|59181|M|39.33,67.22|Z|1670;Ring of Fates@Oribos|N|From Shandris Feathermoon.|PRE|59179^59246|COV|Night Fae|REN|5|
+P Ring of Transference|ACTIVE|59181|M|52.07,57.86|Z|1670;Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Night Fae|
 C Into the Maw|QID|59181|M|44.95,40.99|Z|The Maw|N|Shandris Feathermoon escorted into the Maw|COV|Night Fae|
 T Into the Maw|QID|59181|M|44.42,41.20|Z|The Maw|N|To Shandris Feathermoon.|COV|Night Fae|
 A On the Trail|QID|60508|M|44.42,41.20|Z|The Maw|N|From Shandris Feathermoon.|PRE|59181|COV|Night Fae|REN|5|
@@ -224,31 +224,31 @@ C The Sea of Souls|QID|60530|M|38.52,24.85|Z|The Maw|N|Tyrande Whisperwind found
 T The Sea of Souls|QID|60530|M|46.83,41.73|Z|The Maw|N|To Shandris Feathermoon.|COV|Night Fae|
 A The Recovery of Tyrande Whisperwind|QID|59189|M|46.83,41.73|Z|The Maw|N|From Shandris Feathermoon.|PRE|60530|COV|Night Fae|REN|5|
 C The Recovery of Tyrande Whisperwind|QID|59189|M|38.28,47.09|Z|1911;Torghast - Entrance!Instance|QO|1|CHAT|N|Shandris Feathermoon followed into Torghast|COV|Night Fae|
-C Find Tyrande Whisperwind|Z|The Fracture Chambers|SO|1|QID|59189|N|Search Torghast for Tyrande Whisperind|COV|Night Fae|
+C Find Tyrande Whisperwind|Z|1720;Covenant_Ard_Torghast!Dungeon|SO|1|QID|59189|N|Search Torghast for Tyrande Whisperind|COV|Night Fae|
 C Fend off Maw Warriors|Z|The Fracture Chambers|SO|2|QID|59189|N|Aid Tyrande in defeating Maw Assassins|COV|Night Fae|
 C Maw ambushers slain|M|78.93,35.42|Z|Covenant_Ard_Torghast!Dungeon|SO|2;1|QID|59189|N|Maw ambushers slain|COV|Night Fae|
-C Keep up with Tyrande Whisperwind|Z|The Fracture Chambers|SO|3|QID|59189|N|Tyrande is not stopping. Try to keep up with her.|COV|Night Fae|
+C Keep up with Tyrande Whisperwind|Z|Covenant_Ard_Torghast!Dungeon|SO|3|QID|59189|N|Tyrande is not stopping. Try to keep up with her.|COV|Night Fae|
 C Tyrande Whisperwind followed|M|78.18,61.23|Z|Covenant_Ard_Torghast!Dungeon|QID|59189|SO|3;1|N|Tyrande Whisperwind followed|COV|Night Fae|
-C Defeat Maw Ambushers|Z|The Fracture Chambers|SO|4|QID|59189|N|Tyrande charged ahead. Deal with 4 waves of incoming Maw minions!|COV|Night Fae|
+C Defeat Maw Ambushers|Z|Covenant_Ard_Torghast!Dungeon|SO|4|QID|59189|N|Tyrande charged ahead. Deal with 4 waves of incoming Maw minions!|COV|Night Fae|
 C Maw ambushers slain|M|77.48,64.03|Z|Covenant_Ard_Torghast!Dungeon|SO|4;1|QID|59189|N|Maw ambushers slain|COV|Night Fae|
-C Catch up with Tyrande|Z|The Fracture Chambers|SO|5|QID|59189|N|Tyrande iws up ahead, try to catch up with her!|COV|Night Fae|
+C Catch up with Tyrande|Z|Covenant_Ard_Torghast!Dungeon|SO|5|QID|59189|N|Tyrande iws up ahead, try to catch up with her!|COV|Night Fae|
 C Tyrande found|M|60.45,86.54|Z|Covenant_Ard_Torghast!Dungeon|SO|5;1|QID|59189|N|Tyrande found|COV|Night Fae|
 C (Optional) Disable traps|M|60.45,86.54|Z|Covenant_Ard_Torghast!Dungeon|SO|5;2|QID|59189|N|(Optional) Disable traps|COV|Night Fae|
-C Follow the new path to Tyrande|Z|The Fracture Chambers|SO|6|QID|59189|N|Tyrande has pushed forward. Find another way to catch up with her.|COV|Night Fae|
+C Follow the new path to Tyrande|Z|Covenant_Ard_Torghast!Dungeon|SO|6|QID|59189|N|Tyrande has pushed forward. Find another way to catch up with her.|COV|Night Fae|
 C Tyrande found|M|50.36,70.09|Z|Covenant_Ard_Torghast!Dungeon|SO|6;1|QID|59189|N|Tyrande found|COV|Night Fae|
-C Defeat Skuld|Z|The Fracture Chambers|SO|7|QID|59189|N|Skuld stands in your way! Free the Bound Souls then kill him! He has an interuptable ability that gives him a shield.|COV|Night Fae|
+C Defeat Skuld|Z|Covenant_Ard_Torghast!Dungeon|SO|7|QID|59189|N|Skuld stands in your way! Free the Bound Souls then kill him! He has an interuptable ability that gives him a shield.|COV|Night Fae|
 C Souls freed|M|42.55,72.42|Z|Covenant_Ard_Torghast!Dungeon|SO|7;1|QID|59189|N|Souls freed|COV|Night Fae|
 C Skuld slain|M|44.57,69.89|Z|Covenant_Ard_Torghast!Dungeon|SO|7;2|QID|59189|N|Skuld slain|COV|Night Fae|
-C Catch up with Tyrande|Z|The Fracture Chambers|SO|8|QID|59189|N|Tyrande must be up ahead. Find her!|COV|Night Fae|
+C Catch up with Tyrande|Z|Covenant_Ard_Torghast!Dungeon|SO|8|QID|59189|N|Tyrande must be up ahead. Find her!|COV|Night Fae|
 C Tyrande found|M|24.41,34.13|Z|Covenant_Ard_Torghast!Dungeon|SO|8;1|QID|59189|N|Tyrande found|COV|Night Fae|
-C Defeat the Tortured Amalgamation|Z|The Fracture Chambers|SO|9|QID|59189|N|The Maw has created an tortured Amalgam, avoid the blasts and kill it.|COV|Night Fae|
+C Defeat the Tortured Amalgamation|Z|Covenant_Ard_Torghast!Dungeon|SO|9|QID|59189|N|The Maw has created an tortured Amalgam, avoid the blasts and kill it.|COV|Night Fae|
 C Tortured Amalgamation slain|M|28.37,32.19|Z|Covenant_Ard_Torghast!Dungeon|SO|9;1|QID|59189|N|Tortured Amalgamation slain|COV|Night Fae|
-C Tyrande Whisperwind's Refusal|Z|The Fracture Chambers|SO|10|QID|59189|CHAT|N|Talk to Tyrande.|COV|Night Fae|
+C Tyrande Whisperwind's Refusal|Z|Covenant_Ard_Torghast!Dungeon|SO|10|QID|59189|CHAT|N|Talk to Tyrande.|COV|Night Fae|
 C Beseech Tyrande to return|M|25.70,28.37|Z|Covenant_Ard_Torghast!Dungeon|SO|10;1|QID|59189|N|Beseech Tyrande to return|COV|Night Fae|
-C Salvation of the Night Elves|Z|The Fracture Chambers|SO|11|QID|59189|N|Click the glowing crystal in the middle of teh room|COV|Night Fae|
+C Salvation of the Night Elves|Z|Covenant_Ard_Torghast!Dungeon|SO|11|QID|59189|N|Click the glowing crystal in the middle of teh room|COV|Night Fae|
 C Soulkeeper Crystal placed|M|25.56,28.82|Z|Covenant_Ard_Torghast!Dungeon|SO|11;1|QID|59189|N|Soulkeeper Crystal placed|COV|Night Fae|
 C Night elf souls rescued|M|25.56,28.82|Z|Covenant_Ard_Torghast!Dungeon|SO|11;2|QID|59189|N|Night elf souls rescued|COV|Night Fae|
-C Salvation of the Night Elves|Z|The Fracture Chambers|SO|11|QID|59189|N|Tyrande is gone, but you can still save the group of night elves trapped in the Maw.|COV|Night Fae|
+C Salvation of the Night Elves|Z|Covenant_Ard_Torghast!Dungeon|SO|11|QID|59189|N|Tyrande is gone, but you can still save the group of night elves trapped in the Maw.|COV|Night Fae|
 C The Kaldorei Rescued|Z|The Fracture Chambers|SO|12|QID|59189|N|It is time to return to Ardenweald with the rescued night elves in the Soulkeeper.|COV|Night Fae|
 C The Recovery of Tyrande Whisperwind|QID|59189|M|25.56,28.82|Z|Covenant_Ard_Torghast!Dungeon|QO|2|CHAT|N|To Shandris Feathermoon.|COV|Night Fae|
 T The Recovery of Tyrande Whisperwind|QID|59189|M|46.81,41.59|Z|The Maw|N|To Shandris Feathermoon.|COV|Night Fae|
@@ -266,93 +266,95 @@ A On De Other Side|QID|59809|M|43.78,38.23|Z|1701;The Trunk@Heart of the Forest!
 C On De Other Side|QID|59809|M|44.19,37.50|Z|1701;The Trunk@Heart of the Forest!Dungeon|U|177904|N|Travel to the Other Side|COV|Night Fae|REN|8|
 T On De Other Side|QID|59809|M|50.43,25.29|Z|De Other Side!Instance|N|To Bwonsamdi.|COV|Night Fae|
 A Taking Inventory|QID|59811|M|50.43,25.29|Z|De Other Side!Instance|N|From Bwonsamdi.|PRE|59809|COV|Night Fae|REN|8|
-C Taking Inventory|QID|59811|M|50.43,25.29|Z|De Other Side!Instance|QO|1|N|Return to Ardenweald|COV|Night Fae|
-C Taking Inventory|QID|59811|M|61.60,38.36|Z|Ardenweald!The Shadowlands|QO|3|N|Tharon'ja inspected|COV|Night Fae|
-C Taking Inventory|QID|59811|M|61.27,38.91|Z|Ardenweald!The Shadowlands|QO|2|N|Mam'toth inspected|COV|Night Fae|
-C Taking Inventory|QID|59811|M|60.16,41.91|Z|Ardenweald!The Shadowlands|QO|4|N|Dambala inspected|COV|Night Fae|
-C Taking Inventory|QID|59811|M|63.46,39.78|Z|Ardenweald!The Shadowlands|QO|5|N|Hakkar inspected|COV|Night Fae|
-T Taking Inventory|QID|59811|M|63.46,39.78|Z|Ardenweald!The Shadowlands|N|To Mask of Bwonsamdi.|COV|Night Fae|
-A Following the Trail|QID|59812|M|63.46,39.78|Z|Ardenweald!The Shadowlands|N|From Mask of Bwonsamdi.|PRE|59811|COV|Night Fae|REN|8|
-C Following the Trail|QID|59812|M|63.54,40.08|Z|Ardenweald!The Shadowlands|QO|1|U|180167|N|Death God Mask|COV|Night Fae|
-C Following the Trail|QID|59812|M|67.01,35.33|Z|Ardenweald!The Shadowlands|QO|2|U|180167|N|Tracks followed|COV|Night Fae|
-C Following the Trail|QID|59812|M|67.09,35.21|Z|Ardenweald!The Shadowlands|QO|3|U|180167|N| Mueh'zala Token|COV|Night Fae|
-T Following the Trail|QID|59812|M|67.09,35.21|Z|Ardenweald!The Shadowlands|N|To Mask of Bwonsamdi.|COV|Night Fae|
-A Minions of Mueh'zala|QID|59813|M|67.05,35.28|Z|Ardenweald!The Shadowlands|N|From Mask of Bwonsamdi.|PRE|59812|COV|Night Fae|REN|8|
-A Stolen Loa|QID|59815|M|67.05,35.28|Z|Ardenweald!The Shadowlands|N|From Mask of Bwonsamdi.|PRE|59812|COV|Night Fae|REN|8|
-C Minions of Mueh'zala|QID|59813|M|67.88,35.43|Z|Ardenweald!The Shadowlands|N|High Priest Rakazodu slain|COV|Night Fae|S|
-C Stolen Loa|QID|59815|M|68.54,33.60|Z|Ardenweald!The Shadowlands|QO|1|N|Hakkar inspected|COV|Night Fae|
-C Stolen Loa|QID|59815|M|67.80,36.29|Z|Ardenweald!The Shadowlands|QO|2|N|Dambala inspected|COV|Night Fae|
-C Minions of Mueh'zala|QID|59813|M|67.88,35.43|Z|Ardenweald!The Shadowlands|N|High Priest Rakazodu slain|COV|Night Fae|US|
-T Minions of Mueh'zala|QID|59813|M|67.77,36.15|Z|Ardenweald!The Shadowlands|N|To Mask of Bwonsamdi.|COV|Night Fae|
-T Stolen Loa|QID|59815|M|67.77,36.15|Z|Ardenweald!The Shadowlands|N|To Mask of Bwonsamdi.|COV|Night Fae|
-A Winter Be Comin'|QID|59817|M|67.77,36.15|Z|Ardenweald!The Shadowlands|N|From Mask of Bwonsamdi.|PRE|59815|COV|Night Fae|REN|8|
+C Taking Inventory|QID|59811|M|50.43,25.29|Z|De Other Side!Instance|QO|1|CHAT|N|Return to Ardenweald|COV|Night Fae|
+C Taking Inventory|QID|59811|M|61.60,38.36|Z|1565;Ardenweald!The Shadowlands|QO|3|N|Tharon'ja inspected|COV|Night Fae|
+C Taking Inventory|QID|59811|M|61.27,38.91|Z|1565;Ardenweald!The Shadowlands|QO|2|N|Mam'toth inspected|COV|Night Fae|
+C Taking Inventory|QID|59811|M|60.16,41.91|Z|1565;Ardenweald!The Shadowlands|QO|4|N|Dambala inspected|COV|Night Fae|
+C Taking Inventory|QID|59811|M|63.46,39.78|Z|1565;Ardenweald!The Shadowlands|QO|5|N|Hakkar inspected|COV|Night Fae|
+T Taking Inventory|QID|59811|M|63.46,39.78|Z|1565;Ardenweald!The Shadowlands|N|To Mask of Bwonsamdi.|COV|Night Fae|
+A Following the Trail|QID|59812|M|63.46,39.78|Z|1565;Ardenweald!The Shadowlands|N|From Mask of Bwonsamdi.|PRE|59811|COV|Night Fae|REN|8|
+C Following the Trail|QID|59812|M|63.54,40.08|Z|1565;Ardenweald!The Shadowlands|QO|1|U|180167|N|Death God Mask|COV|Night Fae|
+C Following the Trail|QID|59812|M|67.01,35.33|Z|1565;Ardenweald!The Shadowlands|QO|2|U|180167|N|Tracks followed|COV|Night Fae|
+C Following the Trail|QID|59812|M|67.09,35.21|Z|1565;Ardenweald!The Shadowlands|QO|3|U|180167|N| Mueh'zala Token|COV|Night Fae|
+T Following the Trail|QID|59812|M|67.09,35.21|Z|1565;Ardenweald!The Shadowlands|N|To Mask of Bwonsamdi.|COV|Night Fae|
+A Minions of Mueh'zala|QID|59813|M|67.05,35.28|Z|1565;Ardenweald!The Shadowlands|N|From Mask of Bwonsamdi.|PRE|59812|COV|Night Fae|REN|8|
+A Stolen Loa|QID|59815|M|67.05,35.28|Z|1565;Ardenweald!The Shadowlands|N|From Mask of Bwonsamdi.|PRE|59812|COV|Night Fae|REN|8|
+C Minions of Mueh'zala|QID|59813|M|67.88,35.43|Z|1565;Ardenweald!The Shadowlands|N|High Priest Rakazodu slain|COV|Night Fae|S|
+C Stolen Loa|QID|59815|M|68.54,33.60|Z|1565;Ardenweald!The Shadowlands|QO|1|N|Hakkar inspected|COV|Night Fae|
+C Stolen Loa|QID|59815|M|67.80,36.29|Z|1565;Ardenweald!The Shadowlands|QO|2|N|Dambala inspected|COV|Night Fae|
+C Minions of Mueh'zala|QID|59813|M|67.88,35.43|Z|1565;Ardenweald!The Shadowlands|N|High Priest Rakazodu slain|COV|Night Fae|US|
+T Minions of Mueh'zala|QID|59813|M|67.77,36.15|Z|1565;Ardenweald!The Shadowlands|N|To Mask of Bwonsamdi.|COV|Night Fae|
+T Stolen Loa|QID|59815|M|67.77,36.15|Z|1565;Ardenweald!The Shadowlands|N|To Mask of Bwonsamdi.|COV|Night Fae|
+A Winter Be Comin'|QID|59817|M|67.77,36.15|Z|1565;Ardenweald!The Shadowlands|N|From Mask of Bwonsamdi.|PRE|59815|COV|Night Fae|REN|8|
 C Winter Be Comin'|QID|59817|M|52.84,36.65|Z|1701;The Trunk@Heart of the Forest!Dungeon|CHAT|QO|1|N|Speak to Attendant Sparkedew|COV|Night Fae|
 C Winter Be Comin'|QID|59817|M|50.15,31.66|Z|1703;The Canopy@Heart of the Forest!Dungeon|CHAT|QO|2|N|Deliver Bwonsamdi's request|COV|Night Fae|
 T Winter Be Comin'|QID|59817|M|50.98,31.42|Z|1703;The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|COV|Night Fae|
 A Gathering The Hunt|QID|59818|M|50.98,31.42|Z|1703;The Canopy@Heart of the Forest!Dungeon|N|From Winter Queen.|PRE|59817|COV|Night Fae|REN|8|
 C Gathering The Hunt|QID|59818|M|47.31,41.16|Z|1703;The Canopy@Heart of the Forest!Dungeon|CHAT|QO|1|N|Speak with Bwonsamdi|COV|Night Fae|
-C Gathering The Hunt|QID|59818|M|50.97,33.46|Z|Ardenweald!The Shadowlands|CHAT|QO|2|N|Glitterfall Basin rallied|COV|Night Fae|
-C Gathering The Hunt|QID|59818|M|62.67,36.07|Z|Ardenweald!The Shadowlands|CHAT|QO|3|N|Tirna Vaal rallied|COV|Night Fae|
-C Gathering The Hunt|QID|59818|M|60.15,52.70|Z|Ardenweald!The Shadowlands|CHAT|QO|4|N|Hibernal Hollow rallied|COV|Night Fae|
-T Gathering The Hunt|QID|59818|M|66.63,55.64|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
-A Cleansing the Forest|QID|59819|M|66.63,55.64|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|59818|COV|Night Fae|REN|8|
-C Cleansing the Forest|QID|59819|M|66.73,57.43|Z|Ardenweald!The Shadowlands|QO|1|N|Mueh'zala forces weakened|COV|Night Fae|
-C Cleansing the Forest|QID|59819|M|68.55,65.79|Z|Ardenweald!The Shadowlands|QO|2|N|Dambala slain|COV|Night Fae|
-T Cleansing the Forest|QID|59819|M|68.39,65.16|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
-A Report to the Queen|QID|59821|M|68.39,65.16|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|59819|COV|Night Fae|REN|8|
+C Gathering The Hunt|QID|59818|M|50.97,33.46|Z|1565;Ardenweald!The Shadowlands|CHAT|QO|2|N|Glitterfall Basin rallied|COV|Night Fae|
+C Gathering The Hunt|QID|59818|M|62.67,36.07|Z|1565;Ardenweald!The Shadowlands|CHAT|QO|3|N|Tirna Vaal rallied|COV|Night Fae|
+C Gathering The Hunt|QID|59818|M|60.15,52.70|Z|1565;Ardenweald!The Shadowlands|CHAT|QO|4|N|Hibernal Hollow rallied|COV|Night Fae|
+T Gathering The Hunt|QID|59818|M|66.63,55.64|Z|1565;Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
+A Cleansing the Forest|QID|59819|M|66.63,55.64|Z|1565;Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|59818|COV|Night Fae|REN|8|
+C Cleansing the Forest|QID|59819|M|66.73,57.43|Z|1565;Ardenweald!The Shadowlands|QO|1|N|Mueh'zala forces weakened|COV|Night Fae|
+C Cleansing the Forest|QID|59819|M|68.55,65.79|Z|1565;Ardenweald!The Shadowlands|QO|2|N|Dambala slain|COV|Night Fae|
+T Cleansing the Forest|QID|59819|M|68.39,65.16|Z|1565;Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
+A Report to the Queen|QID|59821|M|68.39,65.16|Z|1565;Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|59819|COV|Night Fae|REN|8|
 T Report to the Queen|QID|59821|M|50.86,31.82|Z|1703;The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|COV|Night Fae|
 
 ;Chapter 5.
 N Renown Level 11|AVAILABLE|58610|N|You must reach Renown level 11 to continue to the next chapter.|COV|Night Fae|REN|-11|
 A The Speaker of Elune|QID|58610|M|45.47,39.85|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Ysera. Talk to Shimmerwing to leave the Audience Chambers.|PRE|59821|COV|Night Fae|REN|11|
-C The Speaker of Elune|QID|58610|M|40.35,51.20|Z|Ardenweald!The Shadowlands|CHAT|N|Speak with Thiernax|COV|Night Fae|
-T The Speaker of Elune|QID|58610|M|40.31,51.18|Z|Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
-A A Little Pruning|QID|58669|M|40.31,51.18|Z|Ardenweald!The Shadowlands|N|From Qadarin.|PRE|58610|COV|Night Fae|REN|11|
-A Broken Webs|QID|58647|M|40.32,51.16|Z|Ardenweald!The Shadowlands|N|From Qadarin.|PRE|58610|COV|Night Fae|REN|11|
-A Spriggan Snares|QID|59008|M|39.11,52.52|Z|Ardenweald!The Shadowlands|N|From Cirrik.|PRE|58610|COV|Night Fae|REN|11|
-C Spriggan Snares|QID|59008|M|39.04,52.60|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Cirrik freed|COV|Night Fae|
-C Spriggan Snares|QID|59008|M|37.98,56.89|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Captive rescued|COV|Night Fae|S|
-C A Little Pruning|QID|58669|M|38.04,56.10|Z|Ardenweald!The Shadowlands|N|Sicklethorn spriggan slain|COV|Night Fae|S|
-C Broken Webs|QID|58647|M|37.92,56.29|Z|Ardenweald!The Shadowlands|QO|1|NC|N|North Soulweb repaired|COV|Night Fae|
-C Broken Webs|QID|58647|M|39.17,55.44|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Central Soulweb repaired|COV|Night Fae|
-C Broken Webs|QID|58647|M|40.72,56.18|Z|Ardenweald!The Shadowlands|QO|3|NC|N|South Soulweb repaired|COV|Night Fae|
-C Spriggan Snares|QID|59008|M|37.98,56.89|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Captive rescued|COV|Night Fae|US|
-C A Little Pruning|QID|58669|M|38.04,56.10|Z|Ardenweald!The Shadowlands|N|Sicklethorn spriggan slain|COV|Night Fae|US|
-T A Little Pruning|QID|58669|M|40.65,56.16|Z|Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
-T Broken Webs|QID|58647|M|40.65,56.16|Z|Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
-T Spriggan Snares|QID|59008|M|40.65,56.16|Z|Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
-A The Garden of Night|QID|58704|M|40.65,56.16|Z|Ardenweald!The Shadowlands|N|From Qadarin.|PRE|59008|COV|Night Fae|REN|11|
-C The Garden of Night|QID|58704|M|39.87,57.64|Z|Ardenweald!The Shadowlands|QO|1|N|Inner garden reached|COV|Night Fae|
-C The Garden of Night|QID|58704|M|39.06,59.33|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak with Thiernax|COV|Night Fae|
-C The Garden of Night|QID|58704|M|39.21,59.34|Z|Ardenweald!The Shadowlands|QO|3|N|Slay invading spriggans and leader|COV|Night Fae|
-T The Garden of Night|QID|58704|M|39.11,59.39|Z|Ardenweald!The Shadowlands|N|To Thiernax.|COV|Night Fae|
-A Broken Harts|QID|58871|M|39.11,59.39|Z|Ardenweald!The Shadowlands|N|From Thiernax.|PRE|58704|COV|Night Fae|REN|11|
+C The Speaker of Elune|QID|58610|M|40.35,51.20|Z|1565;Ardenweald!The Shadowlands|CHAT|N|Speak with Thiernax|COV|Night Fae|
+T The Speaker of Elune|QID|58610|M|40.31,51.18|Z|1565;Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
+A A Little Pruning|QID|58669|M|40.31,51.18|Z|1565;Ardenweald!The Shadowlands|N|From Qadarin.|PRE|58610|COV|Night Fae|REN|11|
+A Broken Webs|QID|58647|M|40.32,51.16|Z|1565;Ardenweald!The Shadowlands|N|From Qadarin.|PRE|58610|COV|Night Fae|REN|11|
+A Spriggan Snares|QID|59008|M|39.11,52.52|Z|1565;Ardenweald!The Shadowlands|N|From Cirrik.|PRE|58610|COV|Night Fae|REN|11|
+C Spriggan Snares|QID|59008|M|39.04,52.60|Z|1565;Ardenweald!The Shadowlands|QO|1|NC|N|Cirrik freed|COV|Night Fae|
+C Spriggan Snares|QID|59008|M|37.98,56.89|Z|1565;Ardenweald!The Shadowlands|QO|2|NC|N|Captive rescued|COV|Night Fae|S|
+C A Little Pruning|QID|58669|M|38.04,56.10|Z|1565;Ardenweald!The Shadowlands|N|Sicklethorn spriggan slain|COV|Night Fae|S|
+C Broken Webs|QID|58647|M|37.92,56.29|Z|1565;Ardenweald!The Shadowlands|QO|1|NC|N|North Soulweb repaired|COV|Night Fae|
+C Broken Webs|QID|58647|M|39.17,55.44|Z|1565;Ardenweald!The Shadowlands|QO|2|NC|N|Central Soulweb repaired|COV|Night Fae|
+C Broken Webs|QID|58647|M|40.72,56.18|Z|1565;Ardenweald!The Shadowlands|QO|3|NC|N|South Soulweb repaired|COV|Night Fae|
+C Spriggan Snares|QID|59008|M|37.98,56.89|Z|1565;Ardenweald!The Shadowlands|QO|2|NC|N|Captive rescued|COV|Night Fae|US|
+C A Little Pruning|QID|58669|M|38.04,56.10|Z|1565;Ardenweald!The Shadowlands|N|Sicklethorn spriggan slain|COV|Night Fae|US|
+T A Little Pruning|QID|58669|M|40.65,56.16|Z|1565;Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
+T Broken Webs|QID|58647|M|40.65,56.16|Z|1565;Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
+T Spriggan Snares|QID|59008|M|40.65,56.16|Z|1565;Ardenweald!The Shadowlands|N|To Qadarin.|COV|Night Fae|
+A The Garden of Night|QID|58704|M|40.65,56.16|Z|1565;Ardenweald!The Shadowlands|N|From Qadarin.|PRE|59008|COV|Night Fae|REN|11|
+C The Garden of Night|QID|58704|M|39.87,57.64|Z|1565;Ardenweald!The Shadowlands|QO|1|N|Inner garden reached|COV|Night Fae|
+C The Garden of Night|QID|58704|M|39.06,59.33|Z|1565;Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak with Thiernax|COV|Night Fae|
+C The Garden of Night|QID|58704|M|39.21,59.34|Z|1565;Ardenweald!The Shadowlands|QO|3|N|Slay invading spriggans and leader|COV|Night Fae|
+T The Garden of Night|QID|58704|M|39.11,59.39|Z|1565;Ardenweald!The Shadowlands|N|To Thiernax.|COV|Night Fae|
+A Broken Harts|QID|58871|M|39.11,59.39|Z|1565;Ardenweald!The Shadowlands|N|From Thiernax.|PRE|58704|COV|Night Fae|REN|11|
 C Broken Harts|QID|58871|M|38.66,70.91|Z|1701;The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak with Lord Herne|COV|Night Fae|
 C Broken Harts|QID|58871|M|43.51,37.41|Z|1701;The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Listen to Lady Moonberry|COV|Night Fae|
 T Broken Harts|QID|58871|M|43.51,37.41|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
 A Archivist on the Edge|QID|59725|M|43.51,37.41|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|58871|COV|Night Fae|REN|11|
 F Tirna Vaal|ACTIVE|59725|M|51.54,8.33|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Tirna Vaal.|COV|Night Fae|REN|11|
-T Archivist on the Edge|QID|59725|M|63.64,22.73|Z|Ardenweald!The Shadowlands|N|To Archivist Dreyden.|COV|Night Fae|
-A Curses!|QID|59063|M|63.64,22.73|Z|Ardenweald!The Shadowlands|N|From Archivist Dreyden.|COV|Night Fae|REN|11|
-C Curses!|QID|59063|M|61.07,25.73|Z|Ardenweald!The Shadowlands|N|Sealed Scroll of Soul Rot obtained|COV|Night Fae|
+T Archivist on the Edge|QID|59725|M|63.64,22.73|Z|1565;Ardenweald!The Shadowlands|N|To Archivist Dreyden.|COV|Night Fae|
+A Curses!|QID|59063|M|63.64,22.73|Z|1565;Ardenweald!The Shadowlands|N|From Archivist Dreyden.|COV|Night Fae|REN|11|
+l Piece of Shredded Scroll|ACTIVE|59063|L|175137 5|M|61.64,24.27|Z|1565;Ardenweald!The Shadowlands|N|Kill Spriggen until you loot all the cloth.|
+l Tattered Binding|ACTIVE|59063|L|177280 1|M|61.07,25.73|Z|1565;Ardenweald!The Shadowlands|N|Kill Unleashed Major Hex and loot the Binding.|
+C Curses!|QID|59063|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|Sealed Scroll of Soul Rot obtained|COV|Night Fae|U|177280|
 T Curses!|QID|59063|M|44.30,37.02|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
 A A Secret Never Spoken|QID|59068|M|44.30,37.02|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|59063|COV|Night Fae|REN|11|
 A A Sacrifice of Anima|QID|59070|M|44.30,37.02|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|59063|COV|Night Fae|REN|11|
 A A Token of Lost Love|QID|59069|M|44.54,37.82|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|59063|COV|Night Fae|REN|11|
-C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Ask Watcher Vesperbloom for a Secret|COV|Night Fae|
-C A Secret Never Spoken|QID|59068|M|55.19,48.21;54.35,46.13|CC|Z|Ardenweald!The Shadowlands|QO|2|N|In the Tunnel, kill the Darkwarren Matriarch an loot the Book of Secrets.|COV|Night Fae|
-C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|3|CHAT|N|Speak with Watcher Vesperbloom|COV|Night Fae|
-C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|4|NC|N|Click the scroll on the ground.|COV|Night Fae|
+C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|1565;Ardenweald!The Shadowlands|QO|1|CHAT|N|Ask Watcher Vesperbloom for a Secret|COV|Night Fae|
+C A Secret Never Spoken|QID|59068|M|55.19,48.21;54.35,46.13|CS|Z|1565;Ardenweald!The Shadowlands|QO|2|N|In the Tunnel, kill the Darkwarren Matriarch an loot the Book of Secrets.|COV|Night Fae|
+C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|1565;Ardenweald!The Shadowlands|QO|3|CHAT|N|Speak with Watcher Vesperbloom|COV|Night Fae|
+C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|1565;Ardenweald!The Shadowlands|QO|4|NC|N|Click the scroll on the ground.|COV|Night Fae|
 T A Secret Never Spoken|QID|59068|M|44.02,37.33|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
-C A Sacrifice of Anima|QID|59070|M|27.62,53.74|Z|Ardenweald!The Shadowlands|N|Mischief-touched Anima collected|COV|Night Fae|
+C A Sacrifice of Anima|QID|59070|M|27.62,53.74|Z|1565;Ardenweald!The Shadowlands|N|Mischief-touched Anima collected|COV|Night Fae|
 T A Sacrifice of Anima|QID|59070|M|43.94,36.71|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
 F Oribos|ACTIVE|59069|M|51.54,8.33|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Oribos.|COV|Night Fae|REN|11|
-P Stormwind City|ACTIVE|59069|M|20.95,46.04|Z|Ring of Fates@Oribos|N|Take the portal to Stormwind.|COV|Night Fae|FACTION|Alliance|
-P Twilight Highlands|ACTIVE|59069|M|20.95,46.04|Z|Ring of Fates@Oribos|N|Take the portal to Stormwind.|COV|Night Fae|FACTION|Alliance|
-P Orgrimmar|ACTIVE|59069|M|20.95,46.04|Z|Ring of Fates@Oribos|N|Take the portal to Orgrimmar.|COV|Night Fae|FACTION|Horde|
+P Stormwind City|ACTIVE|59069|M|20.95,46.04|Z|1670;Ring of Fates@Oribos|N|Take the portal to Stormwind.|COV|Night Fae|FACTION|Alliance|
+P Twilight Highlands|ACTIVE|59069|M|75.28,16.56|Z|84;Stormwind City|N|Take the portal to Twilight Highlands.|COV|Night Fae|FACTION|Alliance|
+P Orgrimmar|ACTIVE|59069|M|20.95,46.04|Z|1670;Ring of Fates@Oribos|N|Take the portal to Orgrimmar.|COV|Night Fae|FACTION|Horde|
 P Twilight Highlands|ACTIVE|59069|M|50.13,39.08|Z|85;Orgrimmar|N|Take the portal to Twilight Highlands.|COV|Night Fae|FACTION|Horde|
-C A Token of Lost Love|QID|59069|M|26.68,21.66|Z|Twilight Highlands|QO|1|CHAT|N|Speak with Alexstrasza|COV|Night Fae|
-C A Token of Lost Love|QID|59069|M|27.09,21.13|Z|Twilight Highlands|QO|2|NC|N|Token of Lost Love obtained|COV|Night Fae|
+C A Token of Lost Love|QID|59069|M|26.68,21.66|Z|241;Twilight Highlands|QO|1|CHAT|N|Speak with Alexstrasza|COV|Night Fae|
+C A Token of Lost Love|QID|59069|M|27.09,21.13|Z|241;Twilight Highlands|QO|2|NC|N|Token of Lost Love obtained|COV|Night Fae|
 T A Token of Lost Love|QID|59069|M|44.51,38.89|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
 A Mending a Broken Hart|QID|59071|M|43.87,37.56|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|PRE|59068^59069^59070|COV|Night Fae|REN|11|
 C Mending a Broken Hart|QID|59071|M|43.88,37.77|Z|1701;The Trunk@Heart of the Forest!Dungeon|NC|N|Use the "[color=40C7EB]Cast Counter Curse[/color]" button.|EAB|COV|Night Fae|
@@ -361,64 +363,64 @@ T Mending a Broken Hart|QID|59071|M|44.91,37.22|Z|1701;The Trunk@Heart of the Fo
 ;Chapter 6
 N Renown Level 13|AVAILABLE|60898|N|You must reach Renown level 13 to continue to the next chapter.|COV|Night Fae|REN|-13|
 A The Fate of Ara'lon|QID|60898|M|42.33,74.15|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Lord Herne.|PRE|59071|COV|Night Fae|REN|13|
-C The Fate of Ara'lon|QID|60898|M|43.41,40.21|Z|Ardenweald!The Shadowlands|N|Ara'lon found|COV|Night Fae|
-T The Fate of Ara'lon|QID|60898|M|43.29,40.09|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
-A Masks of Deception|QID|60910|M|43.29,40.09|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60898|COV|Night Fae|REN|13|
-C Masks of Deception|QID|60910|M|42.67,37.29|Z|Ardenweald!The Shadowlands|N|Kiill possessed enemies and loot their Mask of Possession.|COV|Night Fae|
-T Masks of Deception|QID|60910|M|43.28,40.04|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
-A Blackthorn Captives|QID|60928|M|43.28,40.04|Z|Ardenweald!The Shadowlands|N|From Unknown.|PRE|60910|COV|Night Fae|REN|13|
-C Blackthorn Captives|QID|60928|M|41.45,35.52|Z|Ardenweald!The Shadowlands|QO|1|U|180523|NC|N|Click Azelor's body on the ground.|COV|Night Fae|
-C Blackthorn Captives|QID|60928|M|41.16,33.78|Z|Ardenweald!The Shadowlands|QO|3|U|180523|NC|N|To the east in a tunnel under the roots, Click Nera's body on the ground.|COV|Night Fae|
-C Blackthorn Captives|QID|60928|M|42.49,32.28|Z|Ardenweald!The Shadowlands|QO|2|U|180523|NC|N|Click Taeras's body on the ground.|COV|Night Fae|
-C Blackthorn Captives|QID|60928|M|41.06,31.55|Z|Ardenweald!The Shadowlands|QO|4|U|180523|NC|N|Down a tunnel again, Click on the cage with Gweyir.|COV|Night Fae|
-T Blackthorn Captives|QID|60928|M|41.08,31.57|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
-A Report to Lord Herne|QID|60934|M|41.08,31.57|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|COV|Night Fae|REN|13|
+C The Fate of Ara'lon|QID|60898|M|43.41,40.21|Z|1565;Ardenweald!The Shadowlands|N|Ara'lon found|COV|Night Fae|
+T The Fate of Ara'lon|QID|60898|M|43.29,40.09|Z|1565;Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
+A Masks of Deception|QID|60910|M|43.29,40.09|Z|1565;Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60898|COV|Night Fae|REN|13|
+C Masks of Deception|QID|60910|M|42.67,37.29|Z|1565;Ardenweald!The Shadowlands|N|Kiill possessed enemies and loot their Mask of Possession.|COV|Night Fae|
+T Masks of Deception|QID|60910|M|43.28,40.04|Z|1565;Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
+A Blackthorn Captives|QID|60928|M|43.28,40.04|Z|1565;Ardenweald!The Shadowlands|N|From Unknown.|PRE|60910|COV|Night Fae|REN|13|
+C Blackthorn Captives|QID|60928|M|41.45,35.52|Z|1565;Ardenweald!The Shadowlands|QO|1|U|180523|NC|N|Click Azelor's body on the ground.|COV|Night Fae|
+C Blackthorn Captives|QID|60928|M|41.16,33.78|Z|1565;Ardenweald!The Shadowlands|QO|3|U|180523|NC|N|To the east in a tunnel under the roots, Click Nera's body on the ground.|COV|Night Fae|
+C Blackthorn Captives|QID|60928|M|42.49,32.28|Z|1565;Ardenweald!The Shadowlands|QO|2|U|180523|NC|N|Click Taeras's body on the ground.|COV|Night Fae|
+C Blackthorn Captives|QID|60928|M|41.06,31.55|Z|1565;Ardenweald!The Shadowlands|QO|4|U|180523|NC|N|Down a tunnel again, Click on the cage with Gweyir.|COV|Night Fae|
+T Blackthorn Captives|QID|60928|M|41.08,31.57|Z|1565;Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
+A Report to Lord Herne|QID|60934|M|41.08,31.57|Z|1565;Ardenweald!The Shadowlands|N|From Ara'lon.|COV|Night Fae|REN|13|
 T Report to Lord Herne|QID|60934|M|53.70,77.59|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Lord Herne.|PRE|60928|COV|Night Fae|
 A Ulfar's Guidance|QID|61061|M|53.70,77.59|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|PRE|60934|COV|Night Fae|REN|13|
-T Ulfar's Guidance|QID|61061|M|45.26,45.81|Z|Drustvar|N|Step in the Portal to Ulfar's Den and turn in to Ulfar.|COV|Night Fae|
-A Into the Flame|QID|61076|M|45.26,45.81|Z|Drustvar|N|From Ulfar.|PRE|61061|COV|Night Fae|REN|13|
-R Gol Inath|ACTIVE|61076|M|27.00,58.43|Z|Drustvar|N|Go down into the depths of the Tree Gol Inath.|COV|Night Fae|
-C Into the Flame|QID|61076|M|27.53,58.96|Z|Drustvar|QO|1|NC|N|All the way to the bottom, Click on the Flame of Oblivion.|COV|Night Fae|
-C Into the Flame|QID|61076|M|27.55,59.05|Z|Drustvar|QO|2|N|Kill the Drust Behemoth.|COV|Night Fae|
-C Into the Flame|QID|61076|M|27.56,58.96|Z|Drustvar|QO|3|N|Back at the Flame of Oblivion, Imbue the Drust Fetish.|COV|Night Fae|
-T Into the Flame|QID|61076|M|45.25,45.80|Z|Drustvar|N|To Ulfar.|COV|Night Fae|
-A Kivarr the Thornspeaker|QID|61102|M|45.25,45.80|Z|Drustvar|N|From Ulfar.|PRE|61076|COV|Night Fae|REN|13|
+T Ulfar's Guidance|QID|61061|M|45.26,45.81|Z|896;Drustvar|N|Step in the Portal to Ulfar's Den and turn in to Ulfar.|COV|Night Fae|
+A Into the Flame|QID|61076|M|45.26,45.81w|Z|896;Drustvar|N|From Ulfar.|PRE|61061|COV|Night Fae|REN|13|
+R Gol Inath|ACTIVE|61076|M|27.00,58.43|Z|896;Drustvar|N|Go down into the depths of the Tree Gol Inath.|COV|Night Fae|
+C Into the Flame|QID|61076|M|27.53,58.96|Z|896;Drustvar|QO|1|NC|N|All the way to the bottom, Click on the Flame of Oblivion.|COV|Night Fae|
+C Into the Flame|QID|61076|M|27.55,59.05|Z|896;Drustvar|QO|2|N|Kill the Drust Behemoth.|COV|Night Fae|
+C Into the Flame|QID|61076|M|27.56,58.96|Z|896;Drustvar|QO|3|N|Back at the Flame of Oblivion, Imbue the Drust Fetish.|COV|Night Fae|
+T Into the Flame|QID|61076|M|45.25,45.80|Z|896;Drustvar|N|To Ulfar.|COV|Night Fae|
+A Kivarr the Thornspeaker|QID|61102|M|45.25,45.80|Z|896;Drustvar|N|From Ulfar.|PRE|61076|COV|Night Fae|REN|13|
 T Kivarr the Thornspeaker|QID|61102|M|51.09,80.63|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Lord Herne.|COV|Night Fae|
 A Kivarr's Den|QID|61113|M|51.09,80.63|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Lord Herne.|PRE|61102|COV|Night Fae|REN|13|
-C Kivarr's Den|QID|61113|M|46.04,56.67|Z|Ardenweald!The Shadowlands|CHAT|QO|1|N|Speak with Ara'lon|COV|Night Fae|
-C Kivarr's Den|QID|61113|M|43.60,69.20|Z|Ardenweald!The Shadowlands|NC|QO|2|N|Meet Ara'lon at Eventide Grove inside the cave.|COV|Night Fae|
-T Kivarr's Den|QID|61113|M|43.68,69.04|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
-A Searching the Grove|QID|61701|M|43.68,69.04|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|61113|COV|Night Fae|REN|13|
-C Searching the Grove|QID|61701|M|46.53,72.97|Z|Ardenweald!The Shadowlands|N|Find Kivarr in a cage in another cave.|COV|Night Fae|
-T Searching the Grove|QID|61701|M|46.62,73.07|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
-A The Thornspeaker Captive|QID|58773|M|46.62,73.07|Z|Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61701|COV|Night Fae|REN|13|
-C The Thornspeaker Captive|QID|58773|M|45.73,75.90|Z|Ardenweald!The Shadowlands|QO|3|N|Kill Haassert and loot the Lustrous Silver Key.|COV|Night Fae|
-C The Thornspeaker Captive|QID|58773|M|45.41,73.28|Z|Ardenweald!The Shadowlands|QO|1|N|Kill Lukir and loot the Thros-Forged Key.|COV|Night Fae|
-C The Thornspeaker Captive|QID|58773|M|44.21,72.30|Z|Ardenweald!The Shadowlands|QO|2|N|Kill Gallak and loot the Gilded Skull Key.|COV|Night Fae|
-T The Thornspeaker Captive|QID|58773|M|46.58,73.06|Z|Ardenweald!The Shadowlands|N|To Nika.|COV|Night Fae|
-A A Swift Intervention|QID|61702|M|46.58,73.06|Z|Ardenweald!The Shadowlands|N|From Unknown.|PRE|58773|COV|Night Fae|REN|13|
-C A Swift Intervention|QID|61702|M|41.57,74.59|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Stay with with Nika (the Squirrel) and follow her, if you get too far ahead she will stop.|COV|Night Fae|
-C A Swift Intervention|QID|61702|M|41.47,74.36|Z|Ardenweald!The Shadowlands|QO|2|N|Kill Thulsketha the Binder.|COV|Night Fae|
-T A Swift Intervention|QID|61702|M|41.29,74.34|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
-A Return to the Den|QID|61143|M|41.37,74.36|Z|Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61702|COV|Night Fae|REN|13|
-C Return to the Den|QID|61143|M|43.60,69.25|Z|Ardenweald!The Shadowlands|N|Travel to Kivarr's Den|COV|Night Fae|
-T Return to the Den|QID|61143|M|43.65,69.11|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
-A Nox Root|QID|61703|M|43.65,69.11|Z|Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61143|COV|Night Fae|REN|13|
-C Nox Root|QID|61703|M|39.20,69.74|Z|Ardenweald!The Shadowlands|NC|N|Collect Nox Root, Looks like Mushrooms located all around this area.|COV|Night Fae|
-H Heart of the Forest|ACTIVE|61703|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Use your hearth or otherwise make your back to Heart of the Forest.|COV|Night Fae|
-T Nox Root|QID|61703|M|46.18,56.37|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
-A Witch's Satchel|QID|61709|M|46.17,56.38|Z|Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61703|COV|Night Fae|REN|13|
+C Kivarr's Den|QID|61113|M|46.04,56.67|Z|1565;Ardenweald!The Shadowlands|CHAT|QO|1|N|Speak with Ara'lon|COV|Night Fae|
+C Kivarr's Den|QID|61113|M|43.60,69.20|Z|1565;Ardenweald!The Shadowlands|NC|QO|2|N|Meet Ara'lon at Eventide Grove inside the cave.|COV|Night Fae|
+T Kivarr's Den|QID|61113|M|43.68,69.04|Z|1565;Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
+A Searching the Grove|QID|61701|M|43.68,69.04|Z|1565;Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|61113|COV|Night Fae|REN|13|
+C Searching the Grove|QID|61701|M|46.53,72.97|Z|1565;Ardenweald!The Shadowlands|N|Find Kivarr in a cage in another cave.|COV|Night Fae|
+T Searching the Grove|QID|61701|M|46.62,73.07|Z|1565;Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
+A The Thornspeaker Captive|QID|58773|M|46.62,73.07|Z|1565;Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61701|COV|Night Fae|REN|13|
+C The Thornspeaker Captive|QID|58773|M|45.73,75.90|Z|1565;Ardenweald!The Shadowlands|QO|3|N|Kill Haassert and loot the Lustrous Silver Key.|COV|Night Fae|
+C The Thornspeaker Captive|QID|58773|M|45.41,73.28|Z|1565;Ardenweald!The Shadowlands|QO|1|N|Kill Lukir and loot the Thros-Forged Key.|COV|Night Fae|
+C The Thornspeaker Captive|QID|58773|M|44.21,72.30|Z|1565;Ardenweald!The Shadowlands|QO|2|N|Kill Gallak and loot the Gilded Skull Key.|COV|Night Fae|
+T The Thornspeaker Captive|QID|58773|M|46.58,73.06|Z|1565;Ardenweald!The Shadowlands|N|To Nika.|COV|Night Fae|
+A A Swift Intervention|QID|61702|M|46.58,73.06|Z|1565;Ardenweald!The Shadowlands|N|From Unknown.|PRE|58773|COV|Night Fae|REN|13|
+C A Swift Intervention|QID|61702|M|41.57,74.59|Z|1565;Ardenweald!The Shadowlands|QO|1|NC|N|Stay with with Nika (the Squirrel) and follow her, if you get too far ahead she will stop.|COV|Night Fae|
+C A Swift Intervention|QID|61702|M|41.47,74.36|Z|1565;Ardenweald!The Shadowlands|QO|2|N|Kill Thulsketha the Binder.|COV|Night Fae|
+T A Swift Intervention|QID|61702|M|41.29,74.34|Z|1565;Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
+A Return to the Den|QID|61143|M|41.37,74.36|Z|1565;Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61702|COV|Night Fae|REN|13|
+C Return to the Den|QID|61143|M|43.60,69.25|Z|1565;Ardenweald!The Shadowlands|N|Travel to Kivarr's Den|COV|Night Fae|
+T Return to the Den|QID|61143|M|43.65,69.11|Z|1565;Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
+A Nox Root|QID|61703|M|43.65,69.11|Z|1565;Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61143|COV|Night Fae|REN|13|
+C Nox Root|QID|61703|M|39.20,69.74|Z|1565;Ardenweald!The Shadowlands|NC|N|Collect Nox Root, Looks like Mushrooms located all around this area.|COV|Night Fae|
+H Heart of the Forest|ACTIVE|61703|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|Use your hearth or otherwise make your back to Heart of the Forest.|COV|Night Fae|
+T Nox Root|QID|61703|M|46.18,56.37|Z|1565;Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
+A Witch's Satchel|QID|61709|M|46.17,56.38|Z|1565;Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61703|COV|Night Fae|REN|13|
 F Root-Home|QID|61709|M|51.76,08.61|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
-A The Broken Spear|QID|61710|M|33.88,54.59|Z|Ardenweald!The Shadowlands|N|On the ground with a big ? over it. Be aware this Area is full of elites.|PRE|61703|COV|Night Fae|REN|13|
-C Witch's Satchel|QID|61709|M|32.03,53.56|Z|Ardenweald!The Shadowlands|QO|1|N|Witch's Satchel, Drops from Oakheart NightScreamer this Mob is elite.|COV|Night Fae|
-H Heart of the Forest|ACTIVE|61709|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Use your hearth or otherwise make your back to the Heart of the Forest, there is a flight master at Root-Home aswell.|COV|Night Fae|
-T Witch's Satchel|QID|61709|M|46.17,56.42|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
-T The Broken Spear|QID|61710|M|46.18,56.67|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
-A Ritual of Purification|QID|61711|M|46.16,56.51|Z|Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61079^61710|COV|Night Fae|REN|13|
-C Ritual of Purification|QID|61711|M|46.18,56.56|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Purification Fetish used. Kill the manifestations that spawn, repeat 3 more times.|COV|Night Fae|
-C Ritual of Purification|QID|61711|M|46.19,56.56|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Ritual of Purification.|COV|Night Fae|
-T Ritual of Purification|QID|61711|M|46.17,56.48|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
-A Unbroken Bonds|QID|61171|PRE|61711|M|46.20,56.64|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|COV|Night Fae|REN|13|
+A The Broken Spear|QID|61710|M|33.88,54.59|Z|1565;Ardenweald!The Shadowlands|N|On the ground with a big ? over it. Be aware this Area is full of elites.|PRE|61703|COV|Night Fae|REN|13|
+C Witch's Satchel|QID|61709|M|32.03,53.56|Z|1565;Ardenweald!The Shadowlands|QO|1|N|Witch's Satchel, Drops from Oakheart NightScreamer this Mob is elite.|COV|Night Fae|
+H Heart of the Forest|ACTIVE|61709|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|Use your hearth or otherwise make your back to the Heart of the Forest, there is a flight master at Root-Home aswell.|COV|Night Fae|
+T Witch's Satchel|QID|61709|M|46.17,56.42|Z|1565;Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
+T The Broken Spear|QID|61710|M|46.18,56.67|Z|1565;Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
+A Ritual of Purification|QID|61711|M|46.16,56.51|Z|1565;Ardenweald!The Shadowlands|N|From Kivarr.|PRE|61079^61710|COV|Night Fae|REN|13|
+C Ritual of Purification|QID|61711|M|46.18,56.56|Z|1565;Ardenweald!The Shadowlands|QO|1|NC|N|Purification Fetish used. Kill the manifestations that spawn, repeat 3 more times.|COV|Night Fae|
+C Ritual of Purification|QID|61711|M|46.19,56.56|Z|1565;Ardenweald!The Shadowlands|QO|2|NC|N|Ritual of Purification.|COV|Night Fae|
+T Ritual of Purification|QID|61711|M|46.17,56.48|Z|1565;Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
+A Unbroken Bonds|QID|61171|PRE|61711|M|46.20,56.64|Z|1565;Ardenweald!The Shadowlands|N|From Lord Herne.|COV|Night Fae|REN|13|
 T Unbroken Bonds|QID|61171|M|50.63,30.29|Z|1703;The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|COV|Night Fae|
 
 ;Chapter 7
@@ -429,47 +431,47 @@ T Containing the Night|QID|58445|M|43.99,38.76|Z|1701;The Trunk@Heart of the For
 A Tracker Tracking|QID|58446|PRE|58445|M|43.99,38.76|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|REN|17|
 C Tracker Tracking|QID|58446|M|39.40,70.07|Z|1701;The Trunk@Heart of the Forest!Dungeon|CHAT|N|Speak with Lord Herne. He is wandering around the training yard.|COV|Night Fae|
 F Root-Home|ACTIVE|58446|M|51.76,08.61|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
-T Tracker Tracking|QID|58446|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|To Reldorn.|COV|Night Fae|
-A Home of the Tirnenn|QID|59258|PRE|58446|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|From Reldorn.|COV|Night Fae|REN|17|
-C Home of the Tirnenn|QID|59258|M|32.46,46.65|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Run down the road towards Tirna Scithe.|COV|Night Fae|
-C Home of the Tirnenn|QID|59258|M|31.46,46.38|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Southern portal closed. Close by clicking on it.|COV|Night Fae|
-C Home of the Tirnenn|QID|59258|M|31.50,45.90|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Northern portal closed. Close by clicking on it.|COV|Night Fae|
-C Home of the Tirnenn|QID|59258|M|30.03,45.06|Z|Ardenweald!The Shadowlands|QO|4|NC|N|Horned Hunter located.|COV|Night Fae|
-T Home of the Tirnenn|QID|59258|M|30.01,44.94|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
-A Dressing the Kill|QID|58706|PRE|59258|M|30.01,44.94|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
-C Dressing the Kill|QID|58706|M|29.97,44.90|Z|Ardenweald!The Shadowlands|NC|N|Use the "[color=40C7EB]Carve[/color]" button to Carve the kill.|EAB|COV|Night Fae|
-T Dressing the Kill|QID|58706|M|29.97,44.83|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
-A Monster Hunting|QID|58447|PRE|58706|M|29.97,44.83|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
-C Monster Hunting|QID|58447|M|27.76,50.62|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Search for traces of the worldeater.Kill The Ravenouse Creatures and click the glowing plants to fill the bar.|COV|Night Fae|
-C Monster Hunting|QID|58447|M|25.14,48.34|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Follow the trail.|COV|Night Fae|
-C Monster Hunting|QID|58447|M|24.35,48.03|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Ambush Voras. By standing on the Hunters Mark near the bushes.|COV|Night Fae|
-T Monster Hunting|QID|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
-A Acid Reflux|QID|58449|PRE|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
-A Anima Instincts|QID|58450|PRE|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
-F Claw's Edge|ACTIVE|58449|M|35.22,51.76|Z|Ardenweald!The Shadowlands|N|Tishereenelee is the flightmaster.|COV|Night Fae|
-C Acid Reflux|QID|58449|M|51.28,71.19|Z|Ardenweald!The Shadowlands|S|NC|N|Use the "[color=40C7EB]Pacify Gorm[/color]" button to "Pacify" the Gorm, pick up the Digestive leftovers.|EAB|COV|Night Fae|
-C Anima Instincts|QID|58450|M|51.85,76.25|Z|Ardenweald!The Shadowlands|N|The wildseed are all over the place in this location.|COV|Night Fae|
-C Acid Reflux|QID|58449|M|51.70,79.18|Z|Ardenweald!The Shadowlands|QO|2|US|N|Use the "[color=40C7EB]Pacify Gorm[/color]" button to "Pacify" the Gorm, pick up the Digestive leftovers.|EAB|COV|Night Fae|
-F Root-Home|ACTIVE|58449|M|51.30,71.31|Z|Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Root-Home.|COV|Night Fae|
-T Acid Reflux|QID|58449|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|To Reldorn.|COV|Night Fae|
-T Anima Instincts|QID|58450|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|To Reldorn.|COV|Night Fae|
-A Becoming the Hunt|QID|59721|PRE|58449&58450|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|From Reldorn.|COV|Night Fae|REN|17|
-T Becoming the Hunt|QID|59721|M|24.56,48.93|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain. Will have to run to him, avoid the packs of enemies.|COV|Night Fae|
-A Voras, The Realm Eater|QID|58451|PRE|59721|M|24.56,48.93|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
-C Voras, The Realm Eater|QID|58451|M|24.56,48.93|Z|Ardenweald!The Shadowlands|CHAT|QO|1|N|Speak with Huln.|COV|Night Fae|
-C Voras, The Realm Eater|QID|58451|M|24.32,48.98|Z|Ardenweald!The Shadowlands|QO|2|N|Voras slain. Follow Huln to "hide".|COV|Night Fae|
-T Voras, The Realm Eater|QID|58451|M|24.51,48.94|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
-A Tracking the Shadows|QID|58452|PRE|58451|M|24.51,48.94|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
-H Heart of the Forest|ACTIVE|58452|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Use your hearth or otherwise make your back to Heart of the Forest.|COV|Night Fae|
+T Tracker Tracking|QID|58446|M|35.29,51.19|Z|1565;Ardenweald!The Shadowlands|N|To Reldorn.|COV|Night Fae|
+A Home of the Tirnenn|QID|59258|PRE|58446|M|35.29,51.19|Z|1565;Ardenweald!The Shadowlands|N|From Reldorn.|COV|Night Fae|REN|17|
+C Home of the Tirnenn|QID|59258|M|32.46,46.65|Z|1565;Ardenweald!The Shadowlands|QO|1|NC|N|Run down the road towards Tirna Scithe.|COV|Night Fae|
+C Home of the Tirnenn|QID|59258|M|31.46,46.38|Z|1565;Ardenweald!The Shadowlands|QO|2|NC|N|Southern portal closed. Close by clicking on it.|COV|Night Fae|
+C Home of the Tirnenn|QID|59258|M|31.50,45.90|Z|1565;Ardenweald!The Shadowlands|QO|3|NC|N|Northern portal closed. Close by clicking on it.|COV|Night Fae|
+C Home of the Tirnenn|QID|59258|M|30.03,45.06|Z|1565;Ardenweald!The Shadowlands|QO|4|NC|N|Horned Hunter located.|COV|Night Fae|
+T Home of the Tirnenn|QID|59258|M|30.01,44.94|Z|1565;Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
+A Dressing the Kill|QID|58706|PRE|59258|M|30.01,44.94|Z|1565;Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
+C Dressing the Kill|QID|58706|M|29.97,44.90|Z|1565;Ardenweald!The Shadowlands|NC|N|Use the "[color=40C7EB]Carve[/color]" button to Carve the kill.|EAB|COV|Night Fae|
+T Dressing the Kill|QID|58706|M|29.97,44.83|Z|1565;Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
+A Monster Hunting|QID|58447|PRE|58706|M|29.97,44.83|Z|1565;Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
+C Monster Hunting|QID|58447|M|27.76,50.62|Z|1565;Ardenweald!The Shadowlands|QO|1|NC|N|Search for traces of the worldeater.Kill The Ravenouse Creatures and click the glowing plants to fill the bar.|COV|Night Fae|
+C Monster Hunting|QID|58447|M|25.14,48.34|Z|1565;Ardenweald!The Shadowlands|QO|2|NC|N|Follow the trail.|COV|Night Fae|
+C Monster Hunting|QID|58447|M|24.35,48.03|Z|1565;Ardenweald!The Shadowlands|QO|3|NC|N|Ambush Voras. By standing on the Hunters Mark near the bushes.|COV|Night Fae|
+T Monster Hunting|QID|58447|M|35.26,51.28|Z|1565;Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
+A Acid Reflux|QID|58449|PRE|58447|M|35.26,51.28|Z|1565;Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
+A Anima Instincts|QID|58450|PRE|58447|M|35.26,51.28|Z|1565;Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
+F Claw's Edge|ACTIVE|58449|M|35.22,51.76|Z|1565;Ardenweald!The Shadowlands|N|Tishereenelee is the flightmaster.|COV|Night Fae|
+C Acid Reflux|QID|58449|M|51.28,71.19|Z|1565;Ardenweald!The Shadowlands|S|NC|N|Use the "[color=40C7EB]Pacify Gorm[/color]" button to "Pacify" the Gorm, pick up the Digestive leftovers.|EAB|COV|Night Fae|
+C Anima Instincts|QID|58450|M|51.85,76.25|Z|1565;Ardenweald!The Shadowlands|N|The wildseed are all over the place in this location.|COV|Night Fae|
+C Acid Reflux|QID|58449|M|51.70,79.18|Z|1565;Ardenweald!The Shadowlands|QO|2|US|N|Use the "[color=40C7EB]Pacify Gorm[/color]" button to "Pacify" the Gorm, pick up the Digestive leftovers.|EAB|COV|Night Fae|
+F Root-Home|ACTIVE|58449|M|51.30,71.31|Z|1565;Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Root-Home.|COV|Night Fae|
+T Acid Reflux|QID|58449|M|35.29,51.19|Z|1565;Ardenweald!The Shadowlands|N|To Reldorn.|COV|Night Fae|
+T Anima Instincts|QID|58450|M|35.29,51.19|Z|1565;Ardenweald!The Shadowlands|N|To Reldorn.|COV|Night Fae|
+A Becoming the Hunt|QID|59721|PRE|58449&58450|M|35.29,51.19|Z|1565;Ardenweald!The Shadowlands|N|From Reldorn.|COV|Night Fae|REN|17|
+T Becoming the Hunt|QID|59721|M|24.56,48.93|Z|1565;Ardenweald!The Shadowlands|N|To Huln Highmountain. Will have to run to him, avoid the packs of enemies.|COV|Night Fae|
+A Voras, The Realm Eater|QID|58451|PRE|59721|M|24.56,48.93|Z|1565;Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
+C Voras, The Realm Eater|QID|58451|M|24.56,48.93|Z|1565;Ardenweald!The Shadowlands|CHAT|QO|1|N|Speak with Huln.|COV|Night Fae|
+C Voras, The Realm Eater|QID|58451|M|24.32,48.98|Z|1565;Ardenweald!The Shadowlands|QO|2|N|Voras slain. Follow Huln to "hide".|COV|Night Fae|
+T Voras, The Realm Eater|QID|58451|M|24.51,48.94|Z|1565;Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
+A Tracking the Shadows|QID|58452|PRE|58451|M|24.51,48.94|Z|1565;Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|REN|17|
+H Heart of the Forest|ACTIVE|58452|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|Use your hearth or otherwise make your back to Heart of the Forest.|COV|Night Fae|
 T Tracking the Shadows|QID|58452|M|44.81,38.33|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Ysera, she is still hanging out on the middle platform.|COV|Night Fae|
 
 ;Chapter 8
 N Renown Level 20|AVAILABLE|59731|N|You must reach Renown level 20 to continue to the next chapter.|COV|Night Fae|REN|-20|
 A An Expected Guest|QID|59731|PRE|58452|M|44.08,38.81|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|REN|20|
-T An Expected Guest|QID|59731|M|48.33,52.53|Z|Ardenweald!The Shadowlands|N|To Bwonsamdi outside being "greated" by the Hunt.|COV|Night Fae|
-A Something Extra for the Winter Queen|QID|59732|PRE|59731|M|48.33,52.53|Z|Ardenweald!The Shadowlands|N|From Bwonsamdi.|COV|Night Fae|REN|20|
-C Something Extra for the Winter Queen|QID|59732|M|50.54,45.51|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Run to this location.|COV|Night Fae|
-C Something Extra for the Winter Queen|QID|59732|M|50.58,44.60|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Portal taken to the Necropolis.|COV|Night Fae|
+T An Expected Guest|QID|59731|M|48.33,52.53|Z|1565;Ardenweald!The Shadowlands|N|To Bwonsamdi outside being "greated" by the Hunt.|COV|Night Fae|
+A Something Extra for the Winter Queen|QID|59732|PRE|59731|M|48.33,52.53|Z|1565;Ardenweald!The Shadowlands|N|From Bwonsamdi.|COV|Night Fae|REN|20|
+C Something Extra for the Winter Queen|QID|59732|M|50.54,45.51|Z|1565;Ardenweald!The Shadowlands|QO|1|NC|N|Run to this location.|COV|Night Fae|
+C Something Extra for the Winter Queen|QID|59732|M|50.58,44.60|Z|1565;Ardenweald!The Shadowlands|QO|2|NC|N|Portal taken to the Necropolis.|COV|Night Fae|
 T Something Extra for the Winter Queen|QID|59732|M|39.57,24.72|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
 A The Problem with Containing a Death Loa|QID|59739|PRE|59732|M|39.57,24.72|Z|Nazmir|N|From Bwonsamdi.|COV|Night Fae|REN|20|
 A Dark Mojo for a Dark Loa|QID|59741|PRE|59732|M|39.55,24.78|Z|Nazmir|N|From Hanzabu.|COV|Night Fae|REN|20|
@@ -489,7 +491,7 @@ C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|3|NC|N|Ritual completed
 T One Little Whisper|QID|59749|M|39.57,24.69|Z|Nazmir|N|To Bwonsamdi.|COV|Night Fae|
 A Maw Manifested|QID|59805|PRE|59749|M|39.57,24.69|Z|Nazmir|N|From Bwonsamdi.|COV|Night Fae|REN|20|
 C Maw Manifested|QID|59805|M|39.57,24.69|Z|Nazmir|QO|1|CHAT|N|Speak with Vol'jin.|COV|Night Fae|
-R Ardenweald|ACTIVE|59805|M|50.55,44.57|Z|Ardenweald!The Shadowlands|N|Take the DK looking portal to Bwonsamdis left to return to Ardenweald.|COV|Night Fae|
+R Ardenweald|ACTIVE|59805|M|50.55,44.57|Z|1565;Ardenweald!The Shadowlands|N|Take the DK looking portal to Bwonsamdis left to return to Ardenweald.|COV|Night Fae|
 F Oribos|ACTIVE|59805|M|52.14,8.70|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Ring of Transference.|COV|Night Fae|
 R Ring of Transference|ACTIVE|59805|M|52.26,55.40|Z|Ring of Transference@Oribos|N|Make your way to the Ring of Transference.|COV|Night Fae|
 C Maw Manifested|QID|59805|M|49.55,51.62|Z|Ring of Transference@Oribos|QO|2|NC|N|Make your way to the Maw.|COV|Night Fae|
@@ -512,7 +514,7 @@ C Rezan, Loa of Kings|QID|59856|M|47.02,86.35|Z|The Maw|QO|2|N|Step into the bar
 T Rezan, Loa of Kings|QID|59856|M|45.80,85.03|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Parting Ways|QID|59866|PRE|59856|M|45.80,85.03|Z|The Maw|N|From Spirit of Vol'jin.|COV|Night Fae|REN|20|
 P Oribos|ACTIVE|59866|M|42.37,42.15|Z|The Maw|IZ|1960|NC|N|Hearth or Take the Waygate back to Oribos.|
-P Ring of Transference|ACTIVE|59866|M|52.07,57.86|Z|Ring of Fates@Oribos|IZ|10565|N|Take the portal to Ring of Transference.|COV|Night Fae|
+P Ring of Transference|ACTIVE|59866|M|52.07,57.86|Z|1670;Ring of Fates@Oribos|IZ|10565|N|Take the portal to Ring of Transference.|COV|Night Fae|
 F Heart of the Forest|ACTIVE|59866|M|60.23,68.72|Z|Ring of Transference@Oribos|IZ|10565|N|Head to the flightmaster and take a flight to Heart of the Forest.|COV|Night Fae|
 P The Canopy|ACTIVE|59866|M|53.96,38.73|Z|1701;The Trunk@Heart of the Forest!Dungeon|QO|1|IZ|-1703|N|Talk to Sparkledew to go see the Queen.|COV|Night Fae|
 C Parting Ways|QID|59866|M|51.04,30.60|Z|1703;The Canopy@Heart of the Forest!Dungeon|CHAT|N|Speak with the Winter Queen and deliver the Loa to her.|COV|Night Fae|
@@ -522,26 +524,26 @@ T Parting Ways|QID|59866|M|44.65,38.58|Z|1701;The Trunk@Heart of the Forest!Dung
 ;Chapter 9
 N Renown Level 22|AVAILABLE|60189|N|You must reach Renown level 22 to continue to the next chapter.|COV|Night Fae|REN|-22|
 A We Strike Now|QID|60189|PRE|59866|M|44.54,38.87|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|REN|22|
-T We Strike Now|QID|60189|M|39.09,63.74|Z|Ardenweald!The Shadowlands|N|To Lord Herne he is no longer in the training yard.|COV|Night Fae|
-A Assault on Darkreach|QID|60190|PRE|60189|M|39.07,63.71|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|COV|Night Fae|REN|22|
-A Their Last Line of Defense|QID|60192|PRE|60189|M|39.04,63.69|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|COV|Night Fae|REN|22|
-A Ingra Drif|QID|60191|PRE|60189|M|39.02,63.68|Z|Ardenweald!The Shadowlands|N|From Kivarr.|COV|Night Fae|REN|22|
-C Their Last Line of Defense|QID|60192|S|M|36.92,70.91|Z|Ardenweald!The Shadowlands|NC|N|Shielding Runes destroyed.|COV|Night Fae|
-C Assault on Darkreach|QID|60190|S|M|37.70,66.73|Z|Ardenweald!The Shadowlands|NC|N|Darkreach assaulted.|COV|Night Fae|
-C Ingra Drif|QID|60191|M|36.43,67.54|Z|Ardenweald!The Shadowlands|N|Ingra Drif slain. He does a fear that can be interupted.|COV|Night Fae|
-C Their Last Line of Defense|QID|60192|US|M|36.92,70.91|Z|Ardenweald!The Shadowlands|NC|N|Shielding Runes destroyed.|COV|Night Fae|
-C Assault on Darkreach|QID|60190|US|M|37.70,66.73|Z|Ardenweald!The Shadowlands|NC|N|Darkreach assaulted.|COV|Night Fae|
-T Their Last Line of Defense|QID|60192|M|35.13,72.38|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
-T Ingra Drif|QID|60191|M|35.13,72.38|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
-T Assault on Darkreach|QID|60190|M|35.13,72.38|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
-A Unmasked|QID|60193|PRE|60192&60191&60190|M|35.13,72.38|Z|Ardenweald!The Shadowlands|N|From Unknown.|COV|Night Fae|REN|22|
-C Unmasked|QID|60193|M|35.82,70.64|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Drust Barrier destroyed by clicking on it.|COV|Night Fae|
-C Unmasked|QID|60193|M|36.25,69.44|Z|Ardenweald!The Shadowlands|QO|2|N|there are two waves of easy enemies then Gorak Zhar, does a fear and a aoe explosion, both can be interupted.|COV|Night Fae|
-T Unmasked|QID|60193|M|36.18,69.57|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
-A The Call of the Hunt|QID|60194|PRE|60193|M|36.18,69.57|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|COV|Night Fae|REN|22|
-C The Call of the Hunt|QID|60194|M|36.18,69.58|Z|Ardenweald!The Shadowlands|CHAT|N|Fly out with Lady Moonberry.|COV|Night Fae|
-T The Call of the Hunt|QID|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
-A Drust and Ashes|QID|60108|PRE|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|From Lord Herne. Talk to him again after acceptingng to start the senario.|COV|Night Fae|REN|22|
+T We Strike Now|QID|60189|M|39.09,63.74|Z|1565;Ardenweald!The Shadowlands|N|To Lord Herne he is no longer in the training yard.|COV|Night Fae|
+A Assault on Darkreach|QID|60190|PRE|60189|M|39.07,63.71|Z|1565;Ardenweald!The Shadowlands|N|From Lord Herne.|COV|Night Fae|REN|22|
+A Their Last Line of Defense|QID|60192|PRE|60189|M|39.04,63.69|Z|1565;Ardenweald!The Shadowlands|N|From Lady Moonberry.|COV|Night Fae|REN|22|
+A Ingra Drif|QID|60191|PRE|60189|M|39.02,63.68|Z|1565;Ardenweald!The Shadowlands|N|From Kivarr.|COV|Night Fae|REN|22|
+C Their Last Line of Defense|QID|60192|S|M|36.92,70.91|Z|1565;Ardenweald!The Shadowlands|NC|N|Shielding Runes destroyed.|COV|Night Fae|
+C Assault on Darkreach|QID|60190|S|M|37.70,66.73|Z|1565;Ardenweald!The Shadowlands|NC|N|Darkreach assaulted.|COV|Night Fae|
+C Ingra Drif|QID|60191|M|36.43,67.54|Z|1565;Ardenweald!The Shadowlands|N|Ingra Drif slain. He does a fear that can be interupted.|COV|Night Fae|
+C Their Last Line of Defense|QID|60192|US|M|36.92,70.91|Z|1565;Ardenweald!The Shadowlands|NC|N|Shielding Runes destroyed.|COV|Night Fae|
+C Assault on Darkreach|QID|60190|US|M|37.70,66.73|Z|1565;Ardenweald!The Shadowlands|NC|N|Darkreach assaulted.|COV|Night Fae|
+T Their Last Line of Defense|QID|60192|M|35.13,72.38|Z|1565;Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
+T Ingra Drif|QID|60191|M|35.13,72.38|Z|1565;Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
+T Assault on Darkreach|QID|60190|M|35.13,72.38|Z|1565;Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
+A Unmasked|QID|60193|PRE|60192&60191&60190|M|35.13,72.38|Z|1565;Ardenweald!The Shadowlands|N|From Unknown.|COV|Night Fae|REN|22|
+C Unmasked|QID|60193|M|35.82,70.64|Z|1565;Ardenweald!The Shadowlands|QO|1|NC|N|Drust Barrier destroyed by clicking on it.|COV|Night Fae|
+C Unmasked|QID|60193|M|36.25,69.44|Z|1565;Ardenweald!The Shadowlands|QO|2|N|there are two waves of easy enemies then Gorak Zhar, does a fear and a aoe explosion, both can be interupted.|COV|Night Fae|
+T Unmasked|QID|60193|M|36.18,69.57|Z|1565;Ardenweald!The Shadowlands|N|To Lady Moonberry.|COV|Night Fae|
+A The Call of the Hunt|QID|60194|PRE|60193|M|36.18,69.57|Z|1565;Ardenweald!The Shadowlands|N|From Lady Moonberry.|COV|Night Fae|REN|22|
+C The Call of the Hunt|QID|60194|M|36.18,69.58|Z|1565;Ardenweald!The Shadowlands|CHAT|N|Fly out with Lady Moonberry.|COV|Night Fae|
+T The Call of the Hunt|QID|60194|M|38.98,63.46|Z|1565;Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
+A Drust and Ashes|QID|60108|PRE|60194|M|38.98,63.46|Z|1565;Ardenweald!The Shadowlands|N|From Lord Herne. Talk to him again after acceptingng to start the senario.|COV|Night Fae|REN|22|
 C Clear the Way|QID|60108|M|30.76,77.31|Z|Ardenweald!Instance1709|SO|1;1|V|N|Jump on Ysera.|COV|Night Fae|
 C Drust put to sleep|QID|60108|M|PLAYER|Z|Ardenweald!Instance1709|SO|1;2|N|Press "1" to put the Drust to sleep.|COV|Night Fae|
 C Fly to the Heart of the Forest|QID|60108|M|53.88,24.34|Z|Ardenweald!Instance1709|SO|1;3|N|Sit back and watch the show as you fly to the Heart of the Forest.|COV|Night Fae|
@@ -559,17 +561,17 @@ C Return to Winter Queen|QID|60108|M|60.24,76.08|Z|Ardenweald!Instance1709|SO|7;
 C Destroy Anchoring Runes|QID|60108|M|58.61,86.27|Z|Ardenweald!Instance1709|SO|7;2|N|Destroy the Anchoring Runes and their elite guardians. It's possible to destroy them all at range but the elites will still pull.|COV|Night Fae|
 C Defeat Gorak Zhar|QID|60108|M|59.98,85.90|Z|Ardenweald!Instance1709|SO|7;3|N|Defeat Gorak Zhar.|COV|Night Fae|
 C The Return to Calm|ACTIVE|60108|M|60.03,76.45|Z|Ardenweald!Instance1709|SO|8|CHAT|N|Speak with the Winter Queen to leave the Scenerio.|COV|Night Fae|
-C Drust and Ashes|QID|60108|M|38.94,63.45|Z|Ardenweald!The Shadowlands|CHAT|QO|1|N|Speak with Lord Herne and tell him you are ready.|COV|Night Fae| ;Yes this belongs down here. - Elidion
+C Drust and Ashes|QID|60108|M|38.94,63.45|Z|1565;Ardenweald!The Shadowlands|CHAT|QO|1|N|Speak with Lord Herne and tell him you are ready.|COV|Night Fae| ;Yes this belongs down here. - Elidion
 t Drust and Ashes|QID|60108|M|50.62,30.89|Z|1703;The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen. Congratulations on finishing the Campaign!|COV|Night Fae|
 
 ;N Kyrian Campaign|QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Kyrian|
 ;   Run through by Blanckaert ending 02/Nov/2020
 
-A Report to Adrestes|QID|63211|M|38.91,69.97|Z|Ring of Fates@Oribos|N|To Polemarch Adrestes.|COV|Kyrian|
-C Report to Adrestes|QID|63211|M|36.67,64.20|Z|Ring of Fates@Oribos|N|To Polemarch Adrestes.|COV|Kyrian|
-T Report to Adrestes|QID|63211|M|36.67,64.20|Z|Ring of Fates@Oribos|N|To Polemarch Adrestes.|COV|Kyrian|
-A Among the Kyrian|QID|60491|PRE|63211|M|36.50,64.50|Z|Ring of Fates@Oribos|N|From Polemarch Adrestes.|COV|Kyrian|
-P Ring of Transference|ACTIVE|60491|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Kyrian|
+A Report to Adrestes|QID|63211|M|38.91,69.97|Z|1670;Ring of Fates@Oribos|N|To Polemarch Adrestes.|COV|Kyrian|
+C Report to Adrestes|QID|63211|M|36.67,64.20|Z|1670;Ring of Fates@Oribos|N|To Polemarch Adrestes.|COV|Kyrian|
+T Report to Adrestes|QID|63211|M|36.67,64.20|Z|1670;Ring of Fates@Oribos|N|To Polemarch Adrestes.|COV|Kyrian|
+A Among the Kyrian|QID|60491|PRE|63211|M|36.50,64.50|Z|1670;Ring of Fates@Oribos|N|From Polemarch Adrestes.|COV|Kyrian|
+P Ring of Transference|ACTIVE|60491|M|52.07,57.86|Z|1670;Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Kyrian|
 F Hero's Rest|ACTIVE|60491|M|60.50,68.12|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Hero's Rest.|COV|Kyrian|
 P Firstborne's Bounty|ACTIVE|60491|M|53.15,45.16|Z|Bastion!The Shadowlands|N|Take the portal to Firstborne's Bounty.|COV|Kyrian|
 T Among the Kyrian|QID|60491|M|56.73,31.46|Z|Bastion!The Shadowlands|N|To Polemarch Adrestes.|COV|Kyrian|
@@ -626,9 +628,9 @@ C Rule 3: Trust is Earned|QID|60289|M|PLAYER|Z|The Maw|NC|N|Use your Cypher of R
 T Rule 3: Trust is Earned|QID|60289|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Kyrian|
 A Hopeful News|QID|62837|PRE|60289|M|46.83,41.68|Z|The Maw|N|From Ve'nari.|COV|Kyrian|
 P Oribos|ACTIVE|62837|M|42.37,42.14|Z|The Maw|QO|1|N|Return to Oribos, via the Waystone.|COV|Kyrian|
-T Hopeful News|QID|62837|M|39.94,68.62|Z|Ring of Fates@Oribos|N|To Bolvar Fordragon.|COV|Kyrian|
-A Return to Adrestes|QID|62796|M|39.73,68.26|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|COV|Kyrian|
-P Ring of Transference|ACTIVE|62796|M|52.12,57.91|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Kyrian|
+T Hopeful News|QID|62837|M|39.94,68.62|Z|1670;Ring of Fates@Oribos|N|To Bolvar Fordragon.|COV|Kyrian|
+A Return to Adrestes|QID|62796|M|39.73,68.26|Z|1670;Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|COV|Kyrian|
+P Ring of Transference|ACTIVE|62796|M|52.12,57.91|Z|1670;Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|COV|Kyrian|
 F Elysian Hold|ACTIVE|62796|M|60.59,67.95|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Return to Adrestes|QID|62796|M|55.35,42.37|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A It's All Coming Together|QID|62793|PRE|62796|M|55.35,42.37|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
@@ -664,7 +666,7 @@ T Across the Shadowlands|QID|57900|M|44.08,41.24|Z|Archon's Rise@Elysian Hold!Du
 A The Highlord Calls|QID|63029|PRE|57904|M|55.39,42.38|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.\n\n(Quest chain completed in another Guide)|COV|Kyrian|
 F Oribos|ACTIVE|63029|M|51.22,48.61|Z|Archon's Rise@Elysian Hold!Dungeon|N|Head upto the flightmaster and take a flight to Ring of Transference.|COV|Kyrian|
 P Ring of Fates|ACTIVE|63029|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Kyrian|
-T The Highlord Calls|QID|63029|M|40.05,68.33|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Kyrian|
+T The Highlord Calls|QID|63029|M|40.05,68.33|Z|1670;Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Kyrian|
 
 ; Chapter 3
 N Renown Level 5|AVAILABLE|58787|N|You must reach Renown level 5 to continue to the next chapter.|COV|Kyrian|REN|-5|
@@ -925,45 +927,45 @@ C Meet the Queen|QID|58775|M|71.74,45.81|Z|1701;The Trunk@Heart of the Forest!Du
 C Meet the Queen|QID|58775|M|45.98,57.61|Z|1703;The Canopy@Heart of the Forest!Dungeon|QO|2|NC|N|Tell Pelagos, Let's hear what the Queen has to say.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|36.77,62.85|Z|1703;The Canopy@Heart of the Forest!Dungeon|QO|3|NC|N|Listen to the Winter Queen's reply.|COV|Kyrian|
 C Meet the Queen|QID|58775|M|36.77,62.85|Z|1703;The Canopy@Heart of the Forest!Dungeon|QO|4|NC|N|Speak with the attendent to Exit the Heart.|COV|Kyrian|
-T Meet the Queen|QID|58775|M|44.01,51.78|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
-A Who Are You Fooling?|QID|58856|PRE|58775|M|44.01,51.78|Z|Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
-C Who Are You Fooling?|QID|58856|M|40.38,57.57|Z|Ardenweald!The Shadowlands|U|174843|N|Kill Sicklethorn mobs to loot Powder.\nUse Powder to find Illustions, to find Grubby.|S|COV|Kyrian|
-A Trinkle Trinkle Little Twerp|QID|58832|PRE|58775|M|40.38,57.57|Z|Ardenweald!The Shadowlands|L|175982|N|Kill a Sicklethorn and loot this quest.|COV|Kyrian|
-C Trinkle Trinkle Little Twerp|QID|58832|M|38.84,59.26|Z|Ardenweald!The Shadowlands|N|Trinkle the Silk Eater slain.|COV|Kyrian|
-C Who Are You Fooling?|QID|58856|M|40.38,57.57|Z|Ardenweald!The Shadowlands|U|174843|N|Kill Sicklethorn mobs to loot Powder.\nUse Powder to find Illustions, to find Grubby.|US|COV|Kyrian|
-T Who Are You Fooling?|QID|58856|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
-T Trinkle Trinkle Little Twerp|QID|58832|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
-A Getting Backstage|QID|58816|PRE|58832&58856|M|38.84,59.26|Z|Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
-C Getting Backstage|QID|58816|M|41.24,45.03|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Get backstage at Star Lake Amphitheater.|COV|Kyrian|
-C Getting Backstage|QID|58816|M|41.41,43.96|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Use the Trick Powder and then stand on the first mark.|COV|Kyrian|
-C Getting Backstage|QID|58816|M|40.94,44.40|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Stand on the second mark.|COV|Kyrian|
-C Getting Backstage|QID|58816|M|40.27,43.44|Z|Ardenweald!The Shadowlands|QO|4|NC|N|Loot Wreath of Night's Veil Flowers.|COV|Kyrian|
-C Getting Backstage|QID|58816|M|41.21,42.70|Z|Ardenweald!The Shadowlands|QO|5|NC|N|"Enrich" Lady Moonberry's Soap. Just pick one.|COV|Kyrian|
-T Getting Backstage|QID|58816|M|41.21,42.70|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
-A Picking Up Pelagos|QID|58905|PRE|58816|M|41.21,42.70|Z|Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
-T Picking Up Pelagos|QID|58905|M|50.56,68.91|Z|Ardenweald!The Shadowlands|N|To Pelagos.|COV|Kyrian|
-A Evil Grubbies|QID|58937|PRE|58905|M|50.56,68.91|Z|Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
-A Gorm Ruin Everything|QID|58938|PRE|58905|M|50.56,68.91|Z|Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
-C Gorm Ruin Everything|QID|58938|M|50.41,76.27|Z|Ardenweald!The Shadowlands|EAB|N|Kill Mature Gorms, seeds do damage to them.|S|COV|Kyrian|
-C Evil Grubbies|QID|58937|M|50.51,76.14|Z|Ardenweald!The Shadowlands|EAB|N|Use seeds to burn Evolving Mites.|COV|Kyrian|
-C Gorm Ruin Everything|QID|58938|M|50.41,76.27|Z|Ardenweald!The Shadowlands|EAB|N|Kill Mature Gorms, seeds do damage to them.|US|COV|Kyrian|
-T Gorm Ruin Everything|QID|58938|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
-T Evil Grubbies|QID|58937|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
-A The Blue Seed|QID|58939|PRE|58937&58938|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Pelagos.|COV|Kyrian|
-C The Blue Seed|QID|58939|M|51.25,77.36|Z|Ardenweald!The Shadowlands|QO|1;2|EAB|N|Locate Cave entrance, use EAB to destroy Bramble.|COV|Kyrian|
-C The Blue Seed|QID|58939|M|50.84,77.35|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Loot Ripened Anima Seed.|COV|Kyrian|
-T The Blue Seed|QID|58939|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
-A Seeds Away!|QID|58857|PRE|58939|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
-C Seeds Away!|QID|58857|M|50.86,77.43|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Willowblossom.|COV|Kyrian|
-C Seeds Away!|QID|58857|M|52.55,74.47|Z|Ardenweald!The Shadowlands|QO|2|V|N|Use actions (seeds) to vanquish the Gorm swarm.|COV|Kyrian|
-T Seeds Away!|QID|58857|M|45.22,65.31|Z|Ardenweald!The Shadowlands|N|To Pelagos.|COV|Kyrian|
-A I Dreamed A Dream|QID|58995|PRE|58857|M|45.22,65.31|Z|Ardenweald!The Shadowlands|N|From Pelagos.|COV|Kyrian|
-C I Dreamed A Dream|QID|58995|M|45.22,65.31|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Tell Pelagos you are ready to witness the Ceremony.|COV|Kyrian|
-C I Dreamed A Dream|QID|58995|M|45.28,65.62|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Click on the Vessel of Ardenweald.|COV|Kyrian|
-T I Dreamed A Dream|QID|58995|M|45.20,65.38|Z|Ardenweald!The Shadowlands|N|To Pelagos.|COV|Kyrian|
-A A Bittersweet Prize|QID|58997|PRE|58995|M|45.20,65.38|Z|Ardenweald!The Shadowlands|N|From Pelagos.|COV|Kyrian|
-R Heart of the Forest|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Make your way to the Refugee Camp or Hearth back to Elysian Hold if you are bound there.|IZ|-1707|COV|Kyrian|
-F Elysian Hold|ACTIVE|58997|M|49.25,52.02|Z|Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Elysian Hold.|IZ|-1707|COV|Kyrian|
+T Meet the Queen|QID|58775|M|44.01,51.78|Z|1565;Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
+A Who Are You Fooling?|QID|58856|PRE|58775|M|44.01,51.78|Z|1565;Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
+C Who Are You Fooling?|QID|58856|M|40.38,57.57|Z|1565;Ardenweald!The Shadowlands|U|174843|N|Kill Sicklethorn mobs to loot Powder.\nUse Powder to find Illustions, to find Grubby.|S|COV|Kyrian|
+A Trinkle Trinkle Little Twerp|QID|58832|PRE|58775|M|40.38,57.57|Z|1565;Ardenweald!The Shadowlands|L|175982|N|Kill a Sicklethorn and loot this quest.|COV|Kyrian|
+C Trinkle Trinkle Little Twerp|QID|58832|M|38.84,59.26|Z|1565;Ardenweald!The Shadowlands|N|Trinkle the Silk Eater slain.|COV|Kyrian|
+C Who Are You Fooling?|QID|58856|M|40.38,57.57|Z|1565;Ardenweald!The Shadowlands|U|174843|N|Kill Sicklethorn mobs to loot Powder.\nUse Powder to find Illustions, to find Grubby.|US|COV|Kyrian|
+T Who Are You Fooling?|QID|58856|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
+T Trinkle Trinkle Little Twerp|QID|58832|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
+A Getting Backstage|QID|58816|PRE|58832&58856|M|38.84,59.26|Z|1565;Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
+C Getting Backstage|QID|58816|M|41.24,45.03|Z|1565;Ardenweald!The Shadowlands|QO|1|NC|N|Get backstage at Star Lake Amphitheater.|COV|Kyrian|
+C Getting Backstage|QID|58816|M|41.41,43.96|Z|1565;Ardenweald!The Shadowlands|QO|2|NC|N|Use the Trick Powder and then stand on the first mark.|COV|Kyrian|
+C Getting Backstage|QID|58816|M|40.94,44.40|Z|1565;Ardenweald!The Shadowlands|QO|3|NC|N|Stand on the second mark.|COV|Kyrian|
+C Getting Backstage|QID|58816|M|40.27,43.44|Z|1565;Ardenweald!The Shadowlands|QO|4|NC|N|Loot Wreath of Night's Veil Flowers.|COV|Kyrian|
+C Getting Backstage|QID|58816|M|41.21,42.70|Z|1565;Ardenweald!The Shadowlands|QO|5|NC|N|"Enrich" Lady Moonberry's Soap. Just pick one.|COV|Kyrian|
+T Getting Backstage|QID|58816|M|41.21,42.70|Z|1565;Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
+A Picking Up Pelagos|QID|58905|PRE|58816|M|41.21,42.70|Z|1565;Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
+T Picking Up Pelagos|QID|58905|M|50.56,68.91|Z|1565;Ardenweald!The Shadowlands|N|To Pelagos.|COV|Kyrian|
+A Evil Grubbies|QID|58937|PRE|58905|M|50.56,68.91|Z|1565;Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
+A Gorm Ruin Everything|QID|58938|PRE|58905|M|50.56,68.91|Z|1565;Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
+C Gorm Ruin Everything|QID|58938|M|50.41,76.27|Z|1565;Ardenweald!The Shadowlands|EAB|N|Kill Mature Gorms, seeds do damage to them.|S|COV|Kyrian|
+C Evil Grubbies|QID|58937|M|50.51,76.14|Z|1565;Ardenweald!The Shadowlands|EAB|N|Use seeds to burn Evolving Mites.|COV|Kyrian|
+C Gorm Ruin Everything|QID|58938|M|50.41,76.27|Z|1565;Ardenweald!The Shadowlands|EAB|N|Kill Mature Gorms, seeds do damage to them.|US|COV|Kyrian|
+T Gorm Ruin Everything|QID|58938|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
+T Evil Grubbies|QID|58937|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
+A The Blue Seed|QID|58939|PRE|58937&58938|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|From Pelagos.|COV|Kyrian|
+C The Blue Seed|QID|58939|M|51.25,77.36|Z|1565;Ardenweald!The Shadowlands|QO|1;2|EAB|N|Locate Cave entrance, use EAB to destroy Bramble.|COV|Kyrian|
+C The Blue Seed|QID|58939|M|50.84,77.35|Z|1565;Ardenweald!The Shadowlands|QO|3|NC|N|Loot Ripened Anima Seed.|COV|Kyrian|
+T The Blue Seed|QID|58939|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
+A Seeds Away!|QID|58857|PRE|58939|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
+C Seeds Away!|QID|58857|M|50.86,77.43|Z|1565;Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Willowblossom.|COV|Kyrian|
+C Seeds Away!|QID|58857|M|52.55,74.47|Z|1565;Ardenweald!The Shadowlands|QO|2|V|N|Use actions (seeds) to vanquish the Gorm swarm.|COV|Kyrian|
+T Seeds Away!|QID|58857|M|45.22,65.31|Z|1565;Ardenweald!The Shadowlands|N|To Pelagos.|COV|Kyrian|
+A I Dreamed A Dream|QID|58995|PRE|58857|M|45.22,65.31|Z|1565;Ardenweald!The Shadowlands|N|From Pelagos.|COV|Kyrian|
+C I Dreamed A Dream|QID|58995|M|45.22,65.31|Z|1565;Ardenweald!The Shadowlands|QO|1|CHAT|N|Tell Pelagos you are ready to witness the Ceremony.|COV|Kyrian|
+C I Dreamed A Dream|QID|58995|M|45.28,65.62|Z|1565;Ardenweald!The Shadowlands|QO|2|NC|N|Click on the Vessel of Ardenweald.|COV|Kyrian|
+T I Dreamed A Dream|QID|58995|M|45.20,65.38|Z|1565;Ardenweald!The Shadowlands|N|To Pelagos.|COV|Kyrian|
+A A Bittersweet Prize|QID|58997|PRE|58995|M|45.20,65.38|Z|1565;Ardenweald!The Shadowlands|N|From Pelagos.|COV|Kyrian|
+R Heart of the Forest|ACTIVE|58997|M|49.25,52.02|Z|1565;Ardenweald!The Shadowlands|N|Make your way to the Refugee Camp or Hearth back to Elysian Hold if you are bound there.|IZ|-1707|COV|Kyrian|
+F Elysian Hold|ACTIVE|58997|M|49.25,52.02|Z|1565;Ardenweald!The Shadowlands|N|Head to the flightmaster and take a flight to Elysian Hold.|IZ|-1707|COV|Kyrian|
 T A Bittersweet Prize|QID|58997|M|55.36,42.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Heart of the Crest|QID|61135|PRE|58997|M|55.36,42.31|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 T Heart of the Crest|QID|61135|M|43.54,64.61|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Vessel at the Crest.|COV|Kyrian|
@@ -1025,7 +1027,7 @@ T Her Will, Inflicted|QID|57124|M|25.66,65.29|Z|The Maw|N|To Uther, just outside
 A Time to Reflect|QID|57125|PRE|57124|M|25.66,65.29|Z|The Maw|N|From Uther.|COV|Kyrian|
 C Time to Reflect|QID|57125|M|25.66,65.29|Z|The Maw|QO|1|CHAT|N|Speak to Kleia, to Fly to the Waystone.|COV|Kyrian|
 C Oribos|QID|57125|M|42.39,42.19|Z|The Maw|QO|2|NC|N|Use the Waystone to Oribos.|COV|Kyrian|
-P Ring of Transference|ACTIVE|57125|M|51.98,58.39|Z|Ring of Fates@Oribos|IZ|-1707|N|Take the portal to Ring of Transference.|COV|Kyrian|
+P Ring of Transference|ACTIVE|57125|M|51.98,58.39|Z|1670;Ring of Fates@Oribos|IZ|-1707|N|Take the portal to Ring of Transference.|COV|Kyrian|
 F Elysian Hold|ACTIVE|57125|M|60.26,68.26|Z|Ring of Transference@Oribos|IZ|-1707|N|Head to the flightmaster and take a flight to Elysian Hold.|COV|Kyrian|
 T Time to Reflect|QID|57125|M|55.48,42.49|Z|Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A A Touch of Humility|QID|62555|PRE|57125|M|55.48,42.49|Z|Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
@@ -1080,8 +1082,8 @@ T Our Realm Reclaimed|QID|62557|M|66.46,16.59|Z|Bastion!The Shadowlands|N|To Pol
 
 
 ; Venthyr Chapter 1
-A Sinfall|QID|59314|M|44.84,68.85|Z|Ring of Fates@Oribos|N|From General Draven.|COV|Venthyr|
-P Ring of Transference|ACTIVE|59314|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the transporter to the Ring of Transference.|COV|Venthyr|
+A Sinfall|QID|59314|M|44.84,68.85|Z|1670;Ring of Fates@Oribos|N|From General Draven.|COV|Venthyr|
+P Ring of Transference|ACTIVE|59314|M|52.07,57.86|Z|1670;Ring of Fates@Oribos|N|Take the transporter to the Ring of Transference.|COV|Venthyr|
 F Sanctuary of the Mad|ACTIVE|59314|M|60.97,68.80|Z|Ring of Transference@Oribos|QO|1|N|Take a flight to the Sanctuary of the Mad.|COV|Venthyr|
 C Sinfall|QID|59314|M|29.35,42.67|Z|Sinfall Reaches@Sinfall!Dungeon|QO|2|NC|N|Take the lift up to the top, Up the hill and then down into Sinfall to the mirror entrance.|COV|Venthyr|
 T Sinfall|QID|59314|M|25.87,55.75|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
@@ -1121,7 +1123,7 @@ A The Souls Plight|QID|62904|M|55.71,26.05|Z|Sinfall Reaches@Sinfall!Dungeon|N|F
 T The Souls Plight|QID|62904|M|45.46,28.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Tenaval.|COV|Venthyr|
 A Back into the Darkness|QID|62905|M|45.46,28.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Tenaval.|PRE|62904|COV|Venthyr|
 H Oribos|ACTIVE|62905|M|PLAYER|Z|Sinfall Reaches@Sinfall!Dungeon|N|Use your hearth or otherwise make your back to Oribos.|COV|Venthyr|
-R Ring of Transference|ACTIVE|62905|M|52.05,57.85|Z|Ring of Fates@Oribos|N|Use the teleporter pad up to the Ring of Transference.|COV|Venthyr|
+R Ring of Transference|ACTIVE|62905|M|52.05,57.85|Z|1670;Ring of Fates@Oribos|N|Use the teleporter pad up to the Ring of Transference.|COV|Venthyr|
 C Back into the Darkness|QID|62905|M|49.50,51.58|Z|Ring of Transference@Oribos|QO|1|NC|N|Jump into The Maw.|COV|Venthyr|
 T Back into the Darkness|QID|62905|M|46.90,41.68|Z|The Maw|N|To Ve'nari.|COV|Venthyr|
 A Setting the Ground Rules|QID|62882|M|46.90,41.68|Z|The Maw|N|From Ve'nari.|PRE|62905|COV|Venthyr|
@@ -1148,9 +1150,9 @@ T Rule 3: Trust is Earned|QID|60289|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Ve
 A Hopeful News|QID|62837|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60289|COV|Venthyr|
 P Oribos|ACTIVE|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Venthyr|
 C Hopeful News|QID|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Venthyr|
-T Hopeful News|QID|62837|M|39.94,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Venthyr|
-A Souls for Sinfall|QID|62870|M|39.94,68.61|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|COV|Venthyr|
-P Ring of Transference|ACTIVE|62870|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the transporter to the Ring of Transference.|COV|Venthyr|
+T Hopeful News|QID|62837|M|39.94,68.61|Z|1670;Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Venthyr|
+A Souls for Sinfall|QID|62870|M|39.94,68.61|Z|1670;Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|COV|Venthyr|
+P Ring of Transference|ACTIVE|62870|M|52.07,57.86|Z|1670;Ring of Fates@Oribos|N|Take the transporter to the Ring of Transference.|COV|Venthyr|
 F Sinfall|ACTIVE|62870|M|60.97,68.80|Z|Ring of Transference@Oribos|QO|1|N|Take a flight to the Sinfall.|COV|Venthyr|
 T Souls for Sinfall|QID|62870|M|45.40,28.46|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Tenaval.|COV|Venthyr|
 A A Coalition of the Willing|QID|62914|M|45.40,28.46|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Tenaval.|PRE|62870|COV|Venthyr|
@@ -1176,7 +1178,7 @@ T Our True Purpose|QID|62921|M|51.77,37.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|T
 A The Highlord Calls|QID|63033|M|51.79,37.61|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|62921|COV|Venthyr|
 F Oribos|ACTIVE|63033|M|67.21,21.50|Z|Sinfall Reaches@Sinfall!Dungeon|N|Take a flight to the Oribos.|COV|Venthyr|
 P Ring of Fates|ACTIVE|63033|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Venthyr|
-T The Highlord Calls|QID|63033|M|39.94,68.55|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Venthyr|
+T The Highlord Calls|QID|63033|M|39.94,68.55|Z|1670;Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Venthyr|
 
 ; Chapter 3
 N Renown Level 5|AVAILABLE|59701|N|You must reach Renown level 5 to continue to the next chapter.|COV|Venthyr|REN|-5|
@@ -1568,8 +1570,8 @@ T The Medallion of Dominion|QID|58407|M|51.69,37.47|Z|Sinfall Reaches@Sinfall!Du
 
 ;N Necrolord Campaign|QID|99999|M|PLAYER|N|Guide is currently in development please report any bugs or changes found to the Retail-Bug_reports channel in discord.|COV|Necrolord|
 ; Chapter 1
-A Taking The Seat|QID|58609|M|42.97,74.24|Z|Ring of Fates@Oribos|N|From Secutor Mevix.|COV|Necrolord|
-P Ring of Transference|ACTIVE|58609|M|52.08,57.83|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|IZ|10565|COV|Necrolord|
+A Taking The Seat|QID|58609|M|42.97,74.24|Z|1670;Ring of Fates@Oribos|N|From Secutor Mevix.|COV|Necrolord|
+P Ring of Transference|ACTIVE|58609|M|52.08,57.83|Z|1670;Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|IZ|10565|COV|Necrolord|
 F Bleak Redoubt|ACTIVE|58609|M|60.91,68.62|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Bleak Redoubt.|IZ|10565|COV|Necrolord|
 C Taking The Seat|QID|58609|M|60.91,68.62|Z|Ring of Transference@Oribos|QO|1|NC|N|Fly to the Bleak Redoubt in Maldraxxus.|COV|Necrolord|
 C Taking The Seat|QID|58609|M|51.28,20.15|Z|Seat of the Primus!Dungeon|QO|2|NC|N|Report to Baroness Draka in the Seat of the Primus.|COV|Necrolord|
@@ -1632,9 +1634,9 @@ T Rule 3: Trust is Earned|QID|60289|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|COV|Ne
 A Hopeful News|QID|62837|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60289|COV|Necrolord|
 P Oribos|ACTIVE|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Necrolord|
 C Hopeful News|QID|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|COV|Necrolord|
-T Hopeful News|QID|62837|M|39.94,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Necrolord|
-A Return to Draka|QID|62844|M|39.95,68.64|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|62837|COV|Necrolord|
-H Seat of the Primus|ACTIVE|62844|M|40.25,68.08|Z|Ring of Fates@Oribos|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
+T Hopeful News|QID|62837|M|39.94,68.61|Z|1670;Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Necrolord|
+A Return to Draka|QID|62844|M|39.95,68.64|Z|1670;Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|62837|COV|Necrolord|
+H Seat of the Primus|ACTIVE|62844|M|40.25,68.08|Z|1670;Ring of Fates@Oribos|N|Hearth back or otherwise make your way to the Seat of the Primus.|COV|Necrolord|
 T Return to Draka|QID|62844|M|49.78,50.74|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Bringing It All Together|QID|62845|PRE|62844|M|49.78,50.74|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
 T Bringing It All Together|QID|62845|M|52.75,38.24|Z|Seat of the Primus!Dungeon|N|To Arkadia Moa.|COV|Necrolord|
@@ -1660,7 +1662,7 @@ T No Rest For the Dead|QID|59609|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To
 A The Highlord Calls|QID|63032|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|PRE|59609|COV|Necrolord|
 F Oribos|ACTIVE|63032|M|52.47,67.65|Z|Maldraxxus|N|Take a flight to the Oribos.|COV|Necrolord|
 P Ring of Fates|ACTIVE|63032|M|49.49,60.58|Z|Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|COV|Necrolord|
-T The Highlord Calls|QID|63032|M|39.94,68.55|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Necrolord|
+T The Highlord Calls|QID|63032|M|39.94,68.55|Z|1670;Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|COV|Necrolord|
 
 ; Chapter 3
 A Securing the House|QID|62448|PRE|59609|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|
