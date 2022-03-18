@@ -690,26 +690,26 @@ C To Cross the Veil|QID|58790|M|32.38,19.48|Z|1533;Bastion!The Shadowlands|QO|3|
 C To Cross the Veil|QID|58790|M|32.38,19.28|Z|1533;Bastion!The Shadowlands|QO|6|NC|N|Wait for the Ritual to complete.|COV|Kyrian|
 C To Cross the Veil|QID|58790|M|32.46,19.27|Z|1533;Bastion!The Shadowlands|QO|7|NC|N|Talk to Kleia.|COV|Kyrian|
 C To Cross the Veil|QID|58790|M|32.88,18.14|Z|1533;Bastion!The Shadowlands|QO|8|NC|N|Take (any) Veil Gateway.|COV|Kyrian|
-T To Cross the Veil|QID|58790|M|32.55,39.81|Z|1433;Redridge Mountains|N|To Alithea.|COV|Kyrian|
-A A Day in the Life|QID|58791|PRE|58790|M|32.55,39.81|Z|1433;Redridge Mountains|N|From Alithea.|COV|Kyrian|
-C A Day in the Life|QID|58791|M|32.55,39.81|Z|1433;Redridge Mountains|NC|N|Ben Howell's life witnessed.|COV|Kyrian|
-T A Day in the Life|QID|58791|M|21.64,42.10|Z|1433;Redridge Mountains|N|To Sarah Howell.|COV|Kyrian|
-A Millie's Garden|QID|58949|PRE|58791|M|21.64,42.10|Z|1433;Redridge Mountains|N|From Sarah Howell.|COV|Kyrian|
-A Food on the Table|QID|58948|PRE|58791|M|21.64,42.10|Z|1433;Redridge Mountains|N|From Sarah Howell.|COV|Kyrian|
-C Millie's Garden|QID|58949|M|20.56,42.81|Z|1433;Redridge Mountains|NC|N|Use the '1' to till the Untilled Soil.|COV|Kyrian|V|
-T Millie's Garden|QID|58949|M|21.01,42.94|Z|1433;Redridge Mountains|N|To Millie Howell.|COV|Kyrian|
-C Food on the Table|QID|58948|M|19.97,43.68|Z|1433;Redridge Mountains|NC|N|Use either Action 1 or 2 to kill Rabbits for Meat.|COV|Kyrian|V|
-T Food on the Table|QID|58948|M|21.66,42.06|Z|1433;Redridge Mountains|N|To Sarah Howell.|COV|Kyrian|
-A Lumber for Lakeshire|QID|58950|PRE|58949&58948|M|21.66,42.06|Z|1433;Redridge Mountains|N|From Sarah Howell.|COV|Kyrian|
-T Lumber for Lakeshire|QID|58950|M|28.75,41.12|Z|1433;Redridge Mountains|N|To Magistrate Solomon.|COV|Kyrian|
-A Lakeshire's Last Stand|QID|58951|PRE|58950|M|28.75,41.12|Z|1433;Redridge Mountains|N|From Magistrate Solomon.|COV|Kyrian|
-C Lakeshire's Last Stand|QID|58951|M|27.91,43.63|Z|1433;Redridge Mountains|QO|2|NC|N|Citizens warned.|COV|Kyrian|
-C Lakeshire's Last Stand|QID|58951|M|26.59,42.58|Z|1433;Redridge Mountains|QO|1|NC|N|Click on Windows to board them up, 3 on hall, 1 on Inn.|COV|Kyrian|
-C Lakeshire's Last Stand|QID|58951|M|22.22,42.19|Z|1433;Redridge Mountains|QO|3|NC|N|Family warned.|COV|Kyrian|
-C Lakeshire's Last Stand|QID|58951|M|32.63,39.89|Z|1433;Redridge Mountains|QO|4|NC|N|Fight the Scourge.|COV|Kyrian|
-T Lakeshire's Last Stand|QID|58951|M|32.63,39.89|Z|1433;Redridge Mountains|N|To Kleia.|COV|Kyrian|
-A Where a Soul Belongs|QID|58792|PRE|58951|M|32.50,39.75|Z|1433;Redridge Mountains|N|From Alithea.|COV|Kyrian|
-C Where a Soul Belongs|QID|58792|M|32.50,39.75|Z|1433;Redridge Mountains|QO|1|NC|U|175011|N|Vesper of Veilflight used.|COV|Kyrian|
+T To Cross the Veil|QID|58790|M|32.55,39.81|Z|49;Redridge Mountains|N|To Alithea.|COV|Kyrian|
+A A Day in the Life|QID|58791|PRE|58790|M|32.55,39.81|Z|49;Redridge Mountains|N|From Alithea.|COV|Kyrian|
+C A Day in the Life|QID|58791|M|32.55,39.81|Z|49;Redridge Mountains|NC|N|Ben Howell's life witnessed.|COV|Kyrian|
+T A Day in the Life|QID|58791|M|21.64,42.10|Z|49;Redridge Mountains|N|To Sarah Howell.|COV|Kyrian|
+A Millie's Garden|QID|58949|PRE|58791|M|21.64,42.10|Z|49;Redridge Mountains|N|From Sarah Howell.|COV|Kyrian|
+A Food on the Table|QID|58948|PRE|58791|M|21.64,42.10|Z|49;Redridge Mountains|N|From Sarah Howell.|COV|Kyrian|
+C Millie's Garden|QID|58949|M|20.56,42.81|Z|49;Redridge Mountains|NC|N|Use the '1' to till the Untilled Soil.|COV|Kyrian|V|
+T Millie's Garden|QID|58949|M|21.01,42.94|Z|49;Redridge Mountains|N|To Millie Howell.|COV|Kyrian|
+C Food on the Table|QID|58948|M|19.97,43.68|Z|49;Redridge Mountains|NC|N|Use either Action 1 or 2 to kill Rabbits for Meat.|COV|Kyrian|V|
+T Food on the Table|QID|58948|M|21.66,42.06|Z|49;Redridge Mountains|N|To Sarah Howell.|COV|Kyrian|
+A Lumber for Lakeshire|QID|58950|PRE|58949&58948|M|21.66,42.06|Z|49;Redridge Mountains|N|From Sarah Howell.|COV|Kyrian|
+T Lumber for Lakeshire|QID|58950|M|28.75,41.12|Z|49;Redridge Mountains|N|To Magistrate Solomon.|COV|Kyrian|
+A Lakeshire's Last Stand|QID|58951|PRE|58950|M|28.75,41.12|Z|49;Redridge Mountains|N|From Magistrate Solomon.|COV|Kyrian|
+C Lakeshire's Last Stand|QID|58951|M|27.91,43.63|Z|49;Redridge Mountains|QO|2|NC|N|Citizens warned.|COV|Kyrian|
+C Lakeshire's Last Stand|QID|58951|M|26.59,42.58|Z|49;Redridge Mountains|QO|1|NC|N|Click on Windows to board them up, 3 on hall, 1 on Inn.|COV|Kyrian|
+C Lakeshire's Last Stand|QID|58951|M|22.22,42.19|Z|49;Redridge Mountains|QO|3|NC|N|Family warned.|COV|Kyrian|
+C Lakeshire's Last Stand|QID|58951|M|32.63,39.89|Z|49;Redridge Mountains|QO|4|NC|N|Fight the Scourge.|COV|Kyrian|
+T Lakeshire's Last Stand|QID|58951|M|32.63,39.89|Z|49;Redridge Mountains|N|To Kleia.|COV|Kyrian|
+A Where a Soul Belongs|QID|58792|PRE|58951|M|32.50,39.75|Z|49;Redridge Mountains|N|From Alithea.|COV|Kyrian|
+C Where a Soul Belongs|QID|58792|M|32.50,39.75|Z|49;Redridge Mountains|QO|1|NC|U|175011|N|Vesper of Veilflight used.|COV|Kyrian|
 C Where a Soul Belongs|QID|58792|M|49.55,65.55|Z|1671;Ring of Transference@Oribos|QO|2|NC|N|Arrive in Oribos.|COV|Kyrian|
 C Where a Soul Belongs|QID|58792|M|49.77,62.05|Z|1671;Ring of Transference@Oribos|QO|3|NC|N|Talk to Kleia.|COV|Kyrian|
 T Where a Soul Belongs|QID|58792|M|43.62,51.57|Z|1671;Ring of Transference@Oribos|N|To Kleia.|COV|Kyrian|
