@@ -33,10 +33,10 @@ return [[
 ; K Sinstone Hoarder|M|PLAYER|Z|1525;Revendreth|T|Sinstone Hoarder|N|WH - UNKNOWN|RARE|ACH|14310;24|
 
 ; TOF
-A Revendreth|QID|62279|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
-t Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A Dark Aspirations|QID|62740^63037|PRE|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|At Tal-Inara.|TOF|
-P Ring of Transference|ACTIVE|62740^63037|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+A Revendreth|QID|62279|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+t Revendreth|QID|62279|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+A Dark Aspirations|QID|62740^63037|PRE|62279|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|At Tal-Inara.|TOF|
+P Ring of Transference|ACTIVE|62740^63037|M|52.00,57.94|Z|1670;Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
 F Sanctuary of the Mad|ACTIVE|63037|M|60.87,68.63|Z|1671;Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|COV|Venthyr|
 R Sinfall Reaches|ACTIVE|63037|CC|M|29.35,42.68|TZ|1699|N|Take the Elevator up into Sinfall and then go down, and thru the mirror.|TOF|COV|Venthyr|
 T Dark Aspirations|QID|63037|CS|M|51.65,37.56|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|TOF|COV|Venthyr|
@@ -50,22 +50,22 @@ t Reinforcing Revendreth|QID|62778|CS|M|61.11,58.97;61.4,60.4|Z|1525;Revendreth|
 A Return to Oribos|QID|62779|PRE|62778|M|PLAYER|Z|1525;Revendreth|N|From Prince Renathal.|TOF|
 F Oribos|ACTIVE|62779|M|67.37,21.44|Z|1525;Revendreth|N|At Courier Snaggle.|TOF|COV|Venthyr|
 F Oribos|ACTIVE|62779|M|60.50,60.64|Z|1525;Revendreth|N|At Courier Rokalai|TOF|
-T Return to Oribos|QID|62779|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62779|CCOUNT|1;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;new quest, after finishing first zone.
-C Tal-Inara|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
-T The Next Step|QID|63208|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62779&63208|CCOUNT|2;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 2nd zone
-C Tal-Inara|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
-T Furthering the Purpose|QID|63209|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62779&63209|CCOUNT|3;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 3rd zone
-C Tal-Inara|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
-T The Last Step|QID|63210|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-N Choose Bastion|PRE|62275|LEAD|62723|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|TOF|
-N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|TOF|
-N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|TOF|
+T Return to Oribos|QID|62779|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+A The Next Step|QID|63208|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|PRE|62779|CCOUNT|1;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;new quest, after finishing first zone.
+C Tal-Inara|QID|63208|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+T The Next Step|QID|63208|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+A Furthering the Purpose|QID|63209|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|PRE|62779&63208|CCOUNT|2;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 2nd zone
+C Tal-Inara|QID|63209|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+T Furthering the Purpose|QID|63209|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+A The Last Step|QID|63210|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|PRE|62779&63209|CCOUNT|3;62729;62761;62776;62779|N|From Tal-Inara.|TOF|;after finishing 3rd zone
+C Tal-Inara|QID|63210|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|CHAT|N|Talk to Tal-Inara to choose your next zone.|TOF|
+T The Last Step|QID|63210|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Bastion|QID|62275|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Ardenweald|QID|62277|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Maldraxxus|QID|62278|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+N Choose Bastion|PRE|62275|LEAD|62723|S!US|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|TOF|
+N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|TOF|
+N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|TOF|
 N World Quests|QID|62778|N|WQs are available since you have chosen the Threads of Fate option. They are however not included in the guide and there is no way to predict which one is available on any given day. So, I recommend you do them, but you are on your own as to how and where.|TOF|
 N Use of Ranks|QID|62778|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives. Rank 1, basically leaves you explore on your own when you accept a quest it will jump to there and give you directions on completion and turn in.|TOF|
 N Rank 1|ACTIVE|62778|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|TOF|
@@ -628,17 +628,17 @@ A The End of the Beginning|QID|57876|M|50.28,28.26|Z|1525;Revendreth|N|From Prin
 C The End of the Beginning|QID|57876|M|50.26,29.24|Z|1525;Revendreth|QO|1|CHAT|N|Speak to Draven for a ride.|MS|
 C The End of the Beginning|QID|57876|M|70.49,80.50|Z|1525;Revendreth|QO|2|NC|N|Fly with Draven to Oribos.|MS|
 F Oribos|ACTIVE|57876|M|70.34,81.15|Z|1525;Revendreth|N|At Courier Gevoraal.|
-T The End of the Beginning|QID|57876|M|39.2,69.4|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
-A The Looming Dark|QID|57877|M|38.94,69.96|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|60|PRE|57876|MS|
-C The Looming Dark|QID|57877|M|PLAYER|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Listen to Tal-Inara.|MS|
-T The Looming Dark|QID|57877|M|38.94,69.96|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
-A Choosing Your Purpose|QID|62000^57878|M|39.29,69.61|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|50|PRE|62716^57877|
-C Choosing Your Purpose|QID|62000^57878|M|36.32,64.22|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with the Polemarch Adrestes.|
-C Choosing Your Purpose|QID|62000^57878|M|39.55,61.10|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Lady Moonberry.|
-C Choosing Your Purpose|QID|62000^57878|M|44.59,68.74|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the General Draven.|
-C Choosing Your Purpose|QID|62000^57878|M|43.07,73.81|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Secutor Mevix.|
-C Choosing Your Purpose|QID|62000^57878|M|39.49,69.27|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Make your choice at the Shadowlands Covenant Map.|
-T Choosing Your Purpose|QID|62000^57878|M|38.88,70.02|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
+T The End of the Beginning|QID|57876|M|39.2,69.4|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|MS|
+A The Looming Dark|QID|57877|M|38.94,69.96|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|LVL|60|PRE|57876|MS|
+C The Looming Dark|QID|57877|M|PLAYER|Z|1670;Ring of Fates@Oribos|QO|1|CHAT|N|Listen to Tal-Inara.|MS|
+T The Looming Dark|QID|57877|M|38.94,69.96|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|MS|
+A Choosing Your Purpose|QID|62000^57878|M|39.29,69.61|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|LVL|50|PRE|62716^57877|
+C Choosing Your Purpose|QID|62000^57878|M|36.32,64.22|Z|1670;Ring of Fates@Oribos|QO|1|CHAT|N|Speak with the Polemarch Adrestes.|
+C Choosing Your Purpose|QID|62000^57878|M|39.55,61.10|Z|1670;Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Lady Moonberry.|
+C Choosing Your Purpose|QID|62000^57878|M|44.59,68.74|Z|1670;Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the General Draven.|
+C Choosing Your Purpose|QID|62000^57878|M|43.07,73.81|Z|1670;Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Secutor Mevix.|
+C Choosing Your Purpose|QID|62000^57878|M|39.49,69.27|Z|1670;Ring of Fates@Oribos|QO|5|CHAT|N|Make your choice at the Shadowlands Covenant Map.|
+T Choosing Your Purpose|QID|62000^57878|M|38.88,70.02|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|
 
 ; Sidequest Storyline -  The Final Atonement
 F Darkhaven|QID|58093|N|Fly back to Darkhaven if you wish to complete the final side story quests for achievement.|MS|RANK|2|
