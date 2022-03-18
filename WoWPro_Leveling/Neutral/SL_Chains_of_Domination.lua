@@ -207,13 +207,13 @@ A Untangling the Sigil|QID|63726|PRE|63725|M|62.76,25.00|Z|1961;Korthia|N|From H
 C Untangling the Sigil|QID|63726|M|62.76,25.00|Z|1961;Korthia|QO|1|CHAT|N|Bolvar Fordragon spoken to.|
 F Ve'nari's Refuge|ACTIVE|63726|M|64.97,23.67|Z|1961;Korthia|N|Head to the Animaflow Teleporter and take a flight to Ve'nari's Refuge.|
 P Torghast, Tower of the Damned|ACTIVE|63726|M|48.16,39.49|Z|1543;The Maw|N|Take the portal to Torghast, Tower of the Damned.|
-P The Runecarver's Oubliette|ACTIVE|63726|M|15.97,60.72|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|
-C Untangling the Sigil|QID|63726|M|50.78,54.62|Z|The Runecarver's Oubliette!Instance|QO|2|CHAT|N|Speak with the Runecarver.|
-C Untangling the Sigil|QID|63726|M|50.78,54.62|Z|The Runecarver's Oubliette!Instance|QO|3|NC|N|Defeat the waves of mawsworn trying to capture you.|
-T Untangling the Sigil|QID|63726|M|50.97,54.85|Z|The Runecarver's Oubliette!Instance|N|To The Primus.|
-A The Primus Returns|QID|63727|PRE|63726|M|50.97,54.85|Z|The Runecarver's Oubliette!Instance|N|From The Primus.|
-P Torghast, Tower of the Damned|ACTIVE|63727|M|50.24,80.11|Z|The Runecarver's Oubliette!Instance|N|Take the portal to Torghast, Tower of the Damned.|
-P Ve'nari's Refuge|ACTIVE|63727|M|10.43,47.09|Z|Torghast - Entrance!Instance|N|Take the portal to Ve'nari's Refuge.|
+P The Runecarver's Oubliette|ACTIVE|63726|M|15.97,60.72|Z|1911;Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|
+C Untangling the Sigil|QID|63726|M|50.78,54.62|Z|1912;The Runecarver's Oubliette!Instance|QO|2|CHAT|N|Speak with the Runecarver.|
+C Untangling the Sigil|QID|63726|M|50.78,54.62|Z|1912;The Runecarver's Oubliette!Instance|QO|3|NC|N|Defeat the waves of mawsworn trying to capture you.|
+T Untangling the Sigil|QID|63726|M|50.97,54.85|Z|1912;The Runecarver's Oubliette!Instance|N|To The Primus.|
+A The Primus Returns|QID|63727|PRE|63726|M|50.97,54.85|Z|1912;The Runecarver's Oubliette!Instance|N|From The Primus.|
+P Torghast, Tower of the Damned|ACTIVE|63727|M|50.24,80.11|Z|1912;The Runecarver's Oubliette!Instance|N|Take the portal to Torghast, Tower of the Damned.|
+P Ve'nari's Refuge|ACTIVE|63727|M|10.43,47.09|Z|1911;Torghast - Entrance!Instance|N|Take the portal to Ve'nari's Refuge.|
 F Keeper's Respite|ACTIVE|63727|M|47.29,43.67|Z|1543;The Maw|N|Head to the flightmaster and take a flight to Keeper's Respite.|
 C The Primus Returns|QID|63727|M|62.99,25.34|Z|1961;Korthia|NC|N|Return to Keeper's Respite.|
 T The Primus Returns|QID|63727|M|62.81,26.46|Z|1961;Korthia|N|To The Primus. Enjoy flying in Shadowlands.|
@@ -321,12 +321,12 @@ T The Meaning of Wrath|QID|63656|M|62.82,26.40|Z|1961;Korthia|N|To The Primus ba
 A A Cry From the Heart|QID|63672|PRE|63656|M|64.40,24.27|Z|1961;Korthia|N|From Urgent Message from Ardenweald. This may require you to log/zone out and back in if you're already in Keeper's Respite.|REN|52|
 P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|1961;Korthia|IZ|1961|N|Take the portal to Ring of Transference.|
 F Refugee Camp|ACTIVE|63672|M|60.96,68.81|Z|1671;Ring of Transference@Oribos|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|
-T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
-A Hunting Amid Houses|QID|63673|PRE|63672|M|44.78,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|NightFae|
-C Hunting Amid Houses|QID|63673|M|44.78,38.93|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|COV|NightFae|
-F Spider's Watch|ACTIVE|63673|M|51.37,7.82|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|NightFae|
-A Hunting Amid Houses|QID|63728|PRE|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|-NightFae|
-C Hunting Amid Houses|QID|63728|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|COV|-NightFae|
+T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
+A Hunting Amid Houses|QID|63673|PRE|63672|M|44.78,38.93|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|NightFae|
+C Hunting Amid Houses|QID|63673|M|44.78,38.93|Z|1701;The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|COV|NightFae|
+F Spider's Watch|ACTIVE|63673|M|51.37,7.82|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|NightFae|
+A Hunting Amid Houses|QID|63728|PRE|63672|M|71.55,45.89|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|-NightFae|
+C Hunting Amid Houses|QID|63728|M|71.55,45.89|Z|1701;The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|COV|-NightFae|
 F Spider's Watch|ACTIVE|63728|M|49.35,51.84|Z|1740;Ardenweald!The Shadowlands|IZ|-1536|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|-NightFae|
 C Hunting Amid Houses|QID|63728^63673|M|42.79,25.12|Z|1536;Maldraxxus|QO|2|NC|N|Huln Found in Maldraxxus.|
 T Hunting Amid Houses|QID|63728^63673|M|42.79,25.12|Z|1536;Maldraxxus|N|To Huln Highmountain.|
@@ -400,19 +400,19 @@ C The Power of Elune|QID|63682|M|45.24,65.67|Z|1740;Ardenweald!The Shadowlands|Q
 T The Power of Elune|QID|63682|M|45.26,65.05|Z|1740;Ardenweald!The Shadowlands|N|To Winter Queen.|
 A Winter's Sigil|QID|63683|PRE|63682|M|45.26,65.05|Z|1740;Ardenweald!The Shadowlands|N|From Winter Queen.|
 C Winter's Sigil|QID|63683|M|45.30,65.09|Z|1740;Ardenweald!The Shadowlands|QO|1|NC|N|Click on the Tear of Elune to take it.|
-C Winter's Sigil|QID|63683|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|Night Fae|
-C Winter's Sigil|QID|63683|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|-Night Fae|
-T Winter's Sigil|QID|63683|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
-T Winter's Sigil|QID|63683|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|-Night Fae|
-A Inform the Primus|QID|64437|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|PRE|63683|
-A Inform the Primus|QID|64437|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|-Night Fae|PRE|63683|
+C Winter's Sigil|QID|63683|M|44.39,38.93|Z|1701;The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|Night Fae|
+C Winter's Sigil|QID|63683|M|71.54,45.88|Z|1701;The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|-Night Fae|
+T Winter's Sigil|QID|63683|M|44.39,38.93|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
+T Winter's Sigil|QID|63683|M|71.54,45.88|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|-Night Fae|
+A Inform the Primus|QID|64437|M|44.39,38.93|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|PRE|63683|
+A Inform the Primus|QID|64437|M|71.54,45.88|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|-Night Fae|PRE|63683|
 T Inform the Primus|QID|64437|M|62.82,26.40|Z|1961;Korthia|N|To The Primus back in Korthia.|
 
 ; A New Path
 A A Paladin's Soul|QID|63579|M|62.57,25.50|Z|1961;Korthia|N|From Thenios.|PRE|64437|REN|56|
 F Ve'nari's Refuge|ACTIVE|63579|M|64.97,23.66|Z|1961;Korthia|N|Head to the flightmaster and take a flight to Ve'nari's Refuge.|
 P Torghast, Tower of the Damned|ACTIVE|63579|M|48.18,39.44|Z|1543;The Maw|N|Take the portal to Torghast, Tower of the Damned.|
-C A Paladin's Soul|QID|63579|M|37.87,46.99|Z|Torghast - Entrance!Instance|QO|1|CHAT|N|Interact with the Wayfinder in Torghast.|
+C A Paladin's Soul|QID|63579|M|37.87,46.99|Z|1911;Torghast - Entrance!Instance|QO|1|CHAT|N|Interact with the Wayfinder in Torghast.|
 C A Paladin's Soul|QID|63579|M|34.20,30.95|Z|1969;Torghast!Instance1969|QO|2|N|On the 3rd floor, kill the Guardian of Souls.|
 C A Paladin's Soul|QID|63579|M|33.21,28.76|Z|1969;Torghast!Instance1969|QO|3|NC|N|Click the Portal of Souls that appears after you kill the guardian.|
 C A Paladin's Soul|QID|63579|M|40.20,30.25|Z|1969;Torghast!Instance1969|QO|4|NC|N|Click on the Remnant of Justice, a floating crystal shard.|
@@ -422,13 +422,13 @@ C Wounded Memories|QID|63580|M|40.23,20.44|Z|1533;Bastion!The Shadowlands|NC|N|C
 T Wounded Memories|QID|63580|M|40.15,19.92|Z|1533;Bastion!The Shadowlands|N|To Thenios.|
 A Step Into the Light|QID|63581|PRE|63580|M|40.15,19.92|Z|1533;Bastion!The Shadowlands|N|From Thenios.|
 C Step Into the Light|QID|63581|M|40.22,20.44|Z|1533;Bastion!The Shadowlands|QO|1|NC|N|Click on the soul mirror to enter Uther's memory.|
-C Step Into the Light|QID|63581|M|67.49,73.28|Z|Stratholme!Dungeon827|QO|2|NC|N|"[color=40C7EB]Kneel[/color]" before Alonsus.|EAB|
-C Step Into the Light|QID|63581|M|67.49,73.28|Z|Stratholme!Dungeon827|QO|3|NC|N|Wait for the dialot to complete.|
-C Step Into the Light|QID|63581|M|68.70,73.01|Z|Stratholme!Dungeon827|QO|4|NC|N|Click on the Grain.|
-C Step Into the Light|QID|63581|M|66.13,74.65|Z|Stratholme!Dungeon827|QO|5|NC|N|Click the door and step out into the square.|
-C Defeat Enemies|QID|63581|M|65.09,68.27|Z|Stratholme!Dungeon827|QO|6|N|Kill Arthas's followers in the area using Uther's abilities.|S|
-C Step Into the Light|QID|63581|M|62.42,78.92|Z|Stratholme!Dungeon827|QO|7|NC|N|Click "[color=40C7EB]Holy Smite[/color]" to destroy the Plauged Grain.|EAB|
-C Defeat Enemies|QID|63581|M|65.09,68.27|Z|Stratholme!Dungeon827|QO|6|N|Kill Arthas's followers in the area using Uther's abilities.|US|
+C Step Into the Light|QID|63581|M|67.49,73.28|Z|827;Stratholme!Dungeon827|QO|2|NC|N|"[color=40C7EB]Kneel[/color]" before Alonsus.|EAB|
+C Step Into the Light|QID|63581|M|67.49,73.28|Z|827;Stratholme!Dungeon827|QO|3|NC|N|Wait for the dialot to complete.|
+C Step Into the Light|QID|63581|M|68.70,73.01|Z|827;Stratholme!Dungeon827|QO|4|NC|N|Click on the Grain.|
+C Step Into the Light|QID|63581|M|66.13,74.65|Z|827;Stratholme!Dungeon827|QO|5|NC|N|Click the door and step out into the square.|
+C Defeat Enemies|QID|63581|M|65.09,68.27|Z|827;Stratholme!Dungeon827|QO|6|N|Kill Arthas's followers in the area using Uther's abilities.|S|
+C Step Into the Light|QID|63581|M|62.42,78.92|Z|827;Stratholme!Dungeon827|QO|7|NC|N|Click "[color=40C7EB]Holy Smite[/color]" to destroy the Plauged Grain.|EAB|
+C Defeat Enemies|QID|63581|M|65.09,68.27|Z|827;Stratholme!Dungeon827|QO|6|N|Kill Arthas's followers in the area using Uther's abilities.|US|
 T Step Into the Light|QID|63581|M|39.96,20.10|Z|1533;Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A He Was My Student|QID|63582|PRE|63581|M|39.96,20.10|Z|1533;Bastion!The Shadowlands|N|From Polemarch Adrestes.|
 C He Was My Student|QID|63582|M|40.23,20.44|Z|1533;Bastion!The Shadowlands|QO|1|NC|N|Click on the Soul Mirror to enter Uther's second memory.|
@@ -437,10 +437,10 @@ C He Was My Student|QID|63582|M|52.40,45.46|QO|3|N|Spar with Arthas Menethil usi
 T He Was My Student|QID|63582|M|40.22,20.19|Z|1533;Bastion!The Shadowlands|N|To Kleia.|
 A I Intend to Live Forever|QID|63583|PRE|63582|M|40.19,20.35|Z|1533;Bastion!The Shadowlands|N|From Uther.|
 C I Intend to Live Forever|QID|63583|M|40.19,20.35|Z|1533;Bastion!The Shadowlands|QO|1|NC|N|Click on the Soul Mirror to enter Uther's final memory.|
-C Defeat Enemies|QID|63583|M|44.24,66.70|Z|Western Plaguelands|QO|2|N|Kill Scourge in the area.|S|
-C I Intend to Live Forever|QID|63583|M|45.17,71.26|Z|Western Plaguelands|QO|3|NC|N|Click on Scared Citizen hiding around the town.|
-C Defeat Enemies|QID|63583|M|44.24,66.70|Z|Western Plaguelands|QO|2|N|Kill Scourge in the area.|US|
-C I Intend to Live Forever|QID|63583|M|45.29,69.68|Z|Western Plaguelands|QO|4|N|Fight Arthas.|
+C Defeat Enemies|QID|63583|M|44.24,66.70|Z|1422;Western Plaguelands|QO|2|N|Kill Scourge in the area.|S|
+C I Intend to Live Forever|QID|63583|M|45.17,71.26|Z|1422;Western Plaguelands|QO|3|NC|N|Click on Scared Citizen hiding around the town.|
+C Defeat Enemies|QID|63583|M|44.24,66.70|Z|1422;Western Plaguelands|QO|2|N|Kill Scourge in the area.|US|
+C I Intend to Live Forever|QID|63583|M|45.29,69.68|Z|1422;Western Plaguelands|QO|4|N|Fight Arthas.|
 T I Intend to Live Forever|QID|63583|M|39.96,20.10|Z|1533;Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A Blind Loyalty|QID|63585|PRE|63583|M|39.96,20.10|Z|1533;Bastion!The Shadowlands|N|From Polemarch Adrestes.|
 C Blind Loyalty|QID|63585|M|55.62,41.97|Z|1707;Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Speak with Adrestes at Elysian Hold.|COV|Kyrian|
