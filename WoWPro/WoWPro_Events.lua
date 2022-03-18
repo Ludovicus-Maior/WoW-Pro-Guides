@@ -233,17 +233,16 @@ end
 -- Auto-Complete: Loot based --
 function WoWPro.AutoCompleteLoot()
     for i = 1,1+WoWPro.ActiveStickyCount do
-        local lootqtyi
         local index = WoWPro.rows[i].index
+        local lootqty = WoWPro.lootqty[i]
         if WoWPro.lootitem[index] then
-            if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
             if WoWProDB.profile.track then
-                local track = WoWPro.GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi)
+                local track = WoWPro.GetLootTrackingInfo(WoWPro.lootitem[index],lootqty)
                 WoWPro.rows[i].track:SetText(track:trim())
                 WoWPro:dbp("AutoCompleteLoot: Update tracking text to %s",track)
             end
             local itemCount = _G.GetItemCount(WoWPro.lootitem[index])
-            if itemCount >= lootqtyi and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
+            if itemCount >= lootqty and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
                 WoWPro:dbp("AutoCompleteLoot: Time to complete step.")
                 WoWPro.CompleteStep(index,"AutoCompleteLoot")
             else

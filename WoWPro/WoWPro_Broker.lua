@@ -745,7 +745,6 @@ function WoWPro.UpdateQuestTrackerRow(row)
         end
         if lootitem then
             row.trackcheck = true
-            if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
             track = WoWPro.GetLootTrackingInfo(lootitem,lootqty)
         end
     end
@@ -2870,7 +2869,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Do we have enough loot in bags?
             if (WoWPro.lootitem and WoWPro.lootitem[guideIndex]) then
                 WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s",stepAction,step,tostring(QID),guideIndex, WoWPro.lootitem[guideIndex])
-                if _G.GetItemCount(WoWPro.lootitem[guideIndex]) >= (tonumber(WoWPro.lootqty[guideIndex]) or 1) then
+                if _G.GetItemCount(WoWPro.lootitem[guideIndex]) >= WoWPro.lootqty[guideIndex] then
                     if stepAction == "T" then
                         -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
                         WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest."
