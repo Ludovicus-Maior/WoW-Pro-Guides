@@ -14,10 +14,10 @@ C The First Move|QID|63576|M|41.30,68.02|Z|1670;Ring of Fates@Oribos|QO|1|CHAT|N
 T The First Move|QID|63576|M|40.28,68.09|Z|1670;Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
 A A Gathering of Covenants|QID|63856|PRE|63576|M|38.90,70.02|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|
 C A Gathering of Covenants|QID|63856|M|38.90,70.02|Z|1670;Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Tal-Inara.|
-T A Gathering of Covenants|QID|63856|M|50.07,43.36|Z|The Crucible@Oribos!Dungeon|N|To Highlord Bolvar Fordragon.|
-A Voices of the Eternal|QID|63857|PRE|63856|M|50.07,43.36|Z|The Crucible@Oribos!Dungeon|N|From Highlord Bolvar Fordragon.|
-C Voices of the Eternal|QID|63857|M|48.64,53.75|Z|The Crucible@Oribos!Dungeon|QO|1|CHAT|N|Ask Tal-Inara to begin.|
-P The Enclave|ACTIVE|63857|M|48.64,53.75|Z|The Crucible@Oribos!Dungeon|N|Speak with Tal-Inara to get transported back down to the Enclave.|
+T A Gathering of Covenants|QID|63856|M|50.07,43.36|Z|1673;The Crucible@Oribos!Dungeon|N|To Highlord Bolvar Fordragon.|
+A Voices of the Eternal|QID|63857|PRE|63856|M|50.07,43.36|Z|1673;The Crucible@Oribos!Dungeon|N|From Highlord Bolvar Fordragon.|
+C Voices of the Eternal|QID|63857|M|48.64,53.75|Z|1673;The Crucible@Oribos!Dungeon|QO|1|CHAT|N|Ask Tal-Inara to begin.|
+P The Enclave|ACTIVE|63857|M|48.64,53.75|Z|1673;The Crucible@Oribos!Dungeon|N|Speak with Tal-Inara to get transported back down to the Enclave.|
 T Voices of the Eternal|QID|63857|M|40.71,66.50|Z|1670;Ring of Fates@Oribos|N|To Lady Moonberry.|
 A The Battle of Ardenweald|QID|63578|PRE|63857|M|40.71,66.50|Z|1670;Ring of Fates@Oribos|N|From Lady Moonberry.|
 C The Battle of Ardenweald|QID|63578|M|52.18,89.82|Z|1670;Ring of Fates@Oribos|QO|1|V|N|Mount an Anima Wyrm.|
@@ -33,14 +33,15 @@ C The Forest Answers|ACTIVE|63578|M|47.86,46.25|Z|2005;Battle of Ardenweald|SO|9
 C The Forest Answers|ACTIVE|63578|M|49.09,43.55|Z|2005;Battle of Ardenweald|SO|9;1<2|NC|N|Click the Large banner to rally your allies.|
 C Breakthrough|ACTIVE|63578|M|49.66,42.71|Z|2005;Battle of Ardenweald|SO|10|N|Kill the waves of enemies pouring out of the portal, ending with the elite.|
 C The Battle of Ardenweald|QID|63578|M|49.66,42.75|QO|2|NC|N|Fight in the Battle of Ardenweald.|
-T The Battle of Ardenweald|QID|63578|M|48.72,43.34|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|
-A Can't Turn Our Backs|QID|63638|PRE|63578|M|49.66,42.97|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|
-C Can't Turn Our Backs|QID|63638|M|47.07,48.59|Z|Ardenweald!The Shadowlands|CHAT|N|Speak with the Winter Queen.|
-T Can't Turn Our Backs|QID|63638|M|47.07,48.59|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|
-A The Heart of Ardenweald|QID|63904|PRE|63638|M|47.07,48.59|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|
-C The Heart of Ardenweald|QID|63904|M|47.84,53.55|Z|Ardenweald!The Shadowlands|CHAT|N|Speak with Bolvar.|
-T The Heart of Ardenweald|QID|63904|M|47.07,48.61|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|
-A Report to Oribos|QID|63639|PRE|63904|M|47.07,48.61|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|
+T The Battle of Ardenweald|QID|63578|M|48.72,43.34|Z|1740;Ardenweald!The Shadowlands|N|To Lady Moonberry.|
+A Can't Turn Our Backs|QID|63638|PRE|63578|M|49.66,42.97|Z|1740;Ardenweald!The Shadowlands|N|From Lady Moonberry.|
+C Can't Turn Our Backs|QID|63638|M|47.07,48.59|Z|1740;Ardenweald!The Shadowlands|CHAT|N|Speak with the Winter Queen.|
+T Can't Turn Our Backs|QID|63638|M|47.07,48.59|Z|1740;Ardenweald!The Shadowlands|N|To Winter Queen.|
+A The Heart of Ardenweald|QID|63904|PRE|63638|M|47.07,48.59|Z|1740;Ardenweald!The Shadowlands|N|From Winter Queen.|
+C The Heart of Ardenweald|QID|63904|M|47.84,53.55|Z|1740;Ardenweald!The Shadowlands|CHAT|N|Speak with Bolvar.|
+T The Heart of Ardenweald|QID|63904|M|47.07,48.61|Z|1740;Ardenweald!The Shadowlands|N|To Winter Queen.|
+A Report to Oribos|QID|63639|PRE|63904|M|47.07,48.61|Z|1740;Ardenweald!The Shadowlands|N|From Winter Queen.|
+F Oribos|ACTIVE|63639|M|51.59,8.02|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Oribos.|COV|Night Fae|
 T Report to Oribos|QID|63639|M|38.91,69.98|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|
 
 ; Maw Walkers
@@ -80,7 +81,7 @@ C Surveying Secrets|QID|64555|M|60.04,31.38|Z|1961;Korthia|QO|4|CHAT|N|Speak wit
 C Surveying Secrets|QID|64555|M|60.34,32.77|Z|1961;Korthia|QO|5|N|Kill Mawsworn in the area until you get the Movement Report.|
 T Surveying Secrets|QID|64555|M|62.77,25.00|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
 A In Need of Assistance|QID|64556|PRE|64555|M|62.77,25.00|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|
-C In Need of Assistance|QID|64556|PRE|64555|Z|1961;Korthia|N|Complete the required dalies to proceed.|
+C In Need of Assistance|QID|64556|PRE|64555|Z|1961;Korthia|N|Complete the required dalies to proceed.|;
 T In Need of Assistance|QID|64556|M|62.76,24.99|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
 
 ;Focusing the Eye
@@ -112,28 +113,28 @@ C The Caged Bird|QID|63754|M|67.30,55.76|Z|1543;The Maw|QO|2|NC|N|Mawsworn cage 
 T The Caged Bird|QID|63754|M|67.02,56.01|Z|1543;The Maw|N|To Danica the Reclaimer.|
 A Claim the Sky|QID|63764|PRE|63754|M|67.02,56.01|Z|1543;The Maw|N|From Danica the Reclaimer.|
 C Claim the Sky|QID|63764|M|67.02,56.01|Z|1543;The Maw|QO|1|CHAT|N|Speak with Danica.|
-C Claim the Sky|QID|63764|M|57.60,58.91|Z|Skyhold!Instance|QO|2|NC|N|There is nothing to do, wait for her to bring you to skyhold.|
-T Claim the Sky|QID|63764|M|57.60,58.91|Z|Skyhold!Instance|N|To Danica the Reclaimer.|
-A A Hate-Hate Relationship|QID|63811|PRE|63764|M|57.60,58.91|Z|Skyhold!Instance|N|From Danica the Reclaimer.|
-C A Hate-Hate Relationship|QID|63811|M|58.43,78.57|Z|Skyhold!Instance|QO|1|NC|N|Walk with Danica to Odyn.|
-C A Hate-Hate Relationship|QID|63811|M|58.43,78.57|Z|Skyhold!Instance|QO|2|NC|N|Wait for Danica to introduce you.|
-C A Hate-Hate Relationship|QID|63811|M|58.43,78.57|Z|Skyhold!Instance|QO|3|NC|N|Click "[color=40C7EB]Helya's message[/color]" in front of Odyn.|EAB|
-T A Hate-Hate Relationship|QID|63811|M|58.33,85.23|Z|Skyhold!Instance|N|To Odyn.|
-A Fury Given Voice|QID|63831|PRE|63811|M|58.33,85.23|Z|Skyhold!Instance|N|From Odyn.|
-A The Chosen Few|QID|63844|PRE|63811|M|58.33,85.23|Z|Skyhold!Instance|N|From Odyn.|
-C The Chosen Few|QID|63844|M|73.02,35.07|Z|Skyhold!Instance|QO|1|NC|N|Horn of Challenge used.|
-C The Chosen Few|QID|63844|M|77.21,36.85|Z|Skyhold!Instance|QO|2|NC|N|Defeat Val'kyr's in the circle of Glory until the 3 are chosen.|
-T The Chosen Few|QID|63844|M|72.92,37.89|Z|Skyhold!Instance|N|To Weaponmaster Asvard.|
-C Fury Given Voice|QID|63831|M|39.93,36.60|Z|Skyhold!Instance|QO|1|CHAT|N|Talk to Smith Helgar.|
-C Fury Given Voice|QID|63831|M|40.28,34.08|Z|Skyhold!Instance|QO|2|NC|N|Click on the ingredients Helgar asks for to assist in forging the Horn.|
-C Fury Given Voice|QID|63831|M|39.86,35.74|Z|Skyhold!Instance|QO|3|NC|N|Click on the Newly Forged Horn.|
-T Fury Given Voice|QID|63831|M|58.34,85.30|Z|Skyhold!Instance|N|To Odyn.|
-A Wrath of Odyn|QID|63845|PRE|63844&63831|M|58.34,85.30|Z|Skyhold!Instance|N|From Odyn.|
-C Wrath of Odyn|QID|63845|M|58.34,85.30|Z|Skyhold!Instance|QO|1|CHAT|N|Speak with Odyn.|
-C Wrath of Odyn|QID|63845|M|58.34,85.30|Z|Skyhold!Instance|QO|2|NC|N|Wait for the dialog to complete.|
-T Wrath of Odyn|QID|63845|M|58.34,85.30|Z|Skyhold!Instance|N|To Odyn.|
-A Mawsplaining|QID|64014|PRE|63845|M|58.34,85.30|Z|Skyhold!Instance|N|From Odyn.|
-C Mawsplaining|QID|64014|M|59.12,22.45|Z|Skyhold!Instance|QO|1|NC|N|Jump down the Skyhold portal back to Oribos.|
+C Claim the Sky|QID|63764|M|57.60,58.91|Z|1971;Skyhold!Instance|QO|2|NC|N|There is nothing to do, wait for her to bring you to skyhold.|
+T Claim the Sky|QID|63764|M|57.60,58.91|Z|1971;Skyhold!Instance|N|To Danica the Reclaimer.|
+A A Hate-Hate Relationship|QID|63811|PRE|63764|M|57.60,58.91|Z|1971;Skyhold!Instance|N|From Danica the Reclaimer.|
+C A Hate-Hate Relationship|QID|63811|M|58.43,78.57|Z|1971;Skyhold!Instance|QO|1|NC|N|Walk with Danica to Odyn.|
+C A Hate-Hate Relationship|QID|63811|M|58.43,78.57|Z|1971;Skyhold!Instance|QO|2|NC|N|Wait for Danica to introduce you.|
+C A Hate-Hate Relationship|QID|63811|M|58.43,78.57|Z|1971;Skyhold!Instance|QO|3|NC|N|Click "[color=40C7EB]Helya's message[/color]" in front of Odyn.|EAB|
+T A Hate-Hate Relationship|QID|63811|M|58.33,85.23|Z|1971;Skyhold!Instance|N|To Odyn.|
+A Fury Given Voice|QID|63831|PRE|63811|M|58.33,85.23|Z|1971;Skyhold!Instance|N|From Odyn.|
+A The Chosen Few|QID|63844|PRE|63811|M|58.33,85.23|Z|1971;Skyhold!Instance|N|From Odyn.|
+C The Chosen Few|QID|63844|M|73.02,35.07|Z|1971;Skyhold!Instance|QO|1|NC|N|Horn of Challenge used.|
+C The Chosen Few|QID|63844|M|77.21,36.85|Z|1971;Skyhold!Instance|QO|2|NC|N|Defeat Val'kyr's in the circle of Glory until the 3 are chosen.|
+T The Chosen Few|QID|63844|M|72.92,37.89|Z|1971;Skyhold!Instance|N|To Weaponmaster Asvard.|
+C Fury Given Voice|QID|63831|M|39.93,36.60|Z|1971;Skyhold!Instance|QO|1|CHAT|N|Talk to Smith Helgar.|
+C Fury Given Voice|QID|63831|M|40.28,34.08|Z|1971;Skyhold!Instance|QO|2|NC|N|Click on the ingredients Helgar asks for to assist in forging the Horn.|
+C Fury Given Voice|QID|63831|M|39.86,35.74|Z|1971;Skyhold!Instance|QO|3|NC|N|Click on the Newly Forged Horn.|
+T Fury Given Voice|QID|63831|M|58.34,85.30|Z|1971;Skyhold!Instance|N|To Odyn.|
+A Wrath of Odyn|QID|63845|PRE|63844&63831|M|58.34,85.30|Z|1971;Skyhold!Instance|N|From Odyn.|
+C Wrath of Odyn|QID|63845|M|58.34,85.30|Z|1971;Skyhold!Instance|QO|1|CHAT|N|Speak with Odyn.|
+C Wrath of Odyn|QID|63845|M|58.34,85.30|Z|1971;Skyhold!Instance|QO|2|NC|N|Wait for the dialog to complete.|
+T Wrath of Odyn|QID|63845|M|58.34,85.30|Z|1971;Skyhold!Instance|N|To Odyn.|
+A Mawsplaining|QID|64014|PRE|63845|M|58.34,85.30|Z|1971;Skyhold!Instance|N|From Odyn.|
+C Mawsplaining|QID|64014|M|59.12,22.45|Z|1971;Skyhold!Instance|QO|1|NC|N|Jump down the Skyhold portal back to Oribos.|
 P Ve'nari's Refuge|ACTIVE|64014|M|49.55,51.62|Z|1671;Ring of Transference@Oribos|QO|2|N|Hop into the center to teleport to the maw.|
 C Mawsplaining|QID|64014|M|46.91,41.69|Z|1543;The Maw|QO|2|CHAT|N|Ve'nari consulted.|
 T Mawsplaining|QID|64014|M|46.91,41.69|Z|1543;The Maw|N|To Ve'nari.|
@@ -326,7 +327,7 @@ C Hunting Amid Houses|QID|63673|M|44.78,38.93|Z|The Trunk@Heart of the Forest!Du
 F Spider's Watch|ACTIVE|63673|M|51.37,7.82|Z|The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|NightFae|
 A Hunting Amid Houses|QID|63728|PRE|63672|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|-NightFae|
 C Hunting Amid Houses|QID|63728|M|71.55,45.89|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|COV|-NightFae|
-F Spider's Watch|ACTIVE|63728|M|49.35,51.84|Z|Ardenweald!The Shadowlands|IZ|-1536|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|-NightFae|
+F Spider's Watch|ACTIVE|63728|M|49.35,51.84|Z|1740;Ardenweald!The Shadowlands|IZ|-1536|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|-NightFae|
 C Hunting Amid Houses|QID|63728^63673|M|42.79,25.12|Z|1536;Maldraxxus|QO|2|NC|N|Huln Found in Maldraxxus.|
 T Hunting Amid Houses|QID|63728^63673|M|42.79,25.12|Z|1536;Maldraxxus|N|To Huln Highmountain.|
 A The Blade in the Night|QID|63990|PRE|63728|M|42.79,25.12|Z|1536;Maldraxxus|N|From Huln Highmountain.|
@@ -382,23 +383,23 @@ C Out On the Edge|QID|63680|M|33.89,9.08|Z|1525;Revendreth|QO|3|NC|N|Fight the S
 C Out On the Edge|QID|63680|M|33.89,9.08|Z|1525;Revendreth|QO|4|CHAT|N|Speak with the Stonewright.|
 T Out On the Edge|QID|63680|M|34.03,9.70|Z|1525;Revendreth|N|To Lady Moonberry.|
 A Back to The Heart|QID|63681|PRE|63680|M|34.03,9.70|Z|1525;Revendreth|N|From Lady Moonberry.|
-T Back to The Heart|QID|63681|M|48.02,53.94|Z|Ardenweald!The Shadowlands|N|To Ysera back in Ardenweald.|
-A Rituals of Night|QID|64042|PRE|63681|M|48.02,53.94|Z|Ardenweald!The Shadowlands|N|From Ysera.|
-C Rituals of Night|QID|64042|M|45.39,64.98|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Click on the supply wagon near where you accepted the quest and then bring it to the Grove of Awakening.|
-C Rituals of Night|QID|64042|M|45.20,64.62|Z|Ardenweald!The Shadowlands|QO|4|NC|N|Click on the jar of Ritual Oil and bring it to the former Night Warriors.|
-C Rituals of Night|QID|64042|M|45.25,65.71|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Go back to the supplies and click on the flowers to spread around Tyrande.|EAB|
-C Rituals of Night|QID|64042|M|45.30,66.10|Z|Ardenweald!The Shadowlands|QO|5|NC|N|Go back to the supplies and click on the incense and place it near Tyrande.|
-C Rituals of Night|QID|64042|M|45.24,65.35|Z|Ardenweald!The Shadowlands|QO|2<1|NC|N|Click on the first floating Orb.|
-C Rituals of Night|QID|64042|M|45.46,65.68|Z|Ardenweald!The Shadowlands|QO|2<2|NC|N|Click on the second floating Orb.|
-C Rituals of Night|QID|64042|M|45.10,65.70|Z|Ardenweald!The Shadowlands|QO|2<3|NC|N|Click on the third floating Orb.|
-T Rituals of Night|QID|64042|M|45.31,64.80|Z|Ardenweald!The Shadowlands|N|To Ysera.|
-A The Power of Elune|QID|63682|PRE|64042|M|45.31,64.80|Z|Ardenweald!The Shadowlands|N|From Ysera.|
-C The Power of Elune|QID|63682|M|45.31,64.80|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Ysera to Begin.|
-C The Power of Elune|QID|63682|M|45.18,65.24|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Stand in the circle and click Click the "[color=40C7EB]Assisting[/color]" to start the Ritual.|EAB|
-C The Power of Elune|QID|63682|M|45.24,65.67|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Defeat Tyrande.|
-T The Power of Elune|QID|63682|M|45.26,65.05|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|
-A Winter's Sigil|QID|63683|PRE|63682|M|45.26,65.05|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|
-C Winter's Sigil|QID|63683|M|45.30,65.09|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Click on the Tear of Elune to take it.|
+T Back to The Heart|QID|63681|M|48.02,53.94|Z|1740;Ardenweald!The Shadowlands|N|To Ysera back in Ardenweald.|
+A Rituals of Night|QID|64042|PRE|63681|M|48.02,53.94|Z|1740;Ardenweald!The Shadowlands|N|From Ysera.|
+C Rituals of Night|QID|64042|M|45.39,64.98|Z|1740;Ardenweald!The Shadowlands|QO|1|NC|N|Click on the supply wagon near where you accepted the quest and then bring it to the Grove of Awakening.|
+C Rituals of Night|QID|64042|M|45.20,64.62|Z|1740;Ardenweald!The Shadowlands|QO|4|NC|N|Click on the jar of Ritual Oil and bring it to the former Night Warriors.|
+C Rituals of Night|QID|64042|M|45.25,65.71|Z|1740;Ardenweald!The Shadowlands|QO|3|NC|N|Go back to the supplies and click on the flowers to spread around Tyrande.|EAB|
+C Rituals of Night|QID|64042|M|45.30,66.10|Z|1740;Ardenweald!The Shadowlands|QO|5|NC|N|Go back to the supplies and click on the incense and place it near Tyrande.|
+C Rituals of Night|QID|64042|M|45.24,65.35|Z|1740;Ardenweald!The Shadowlands|QO|2<1|NC|N|Click on the first floating Orb.|
+C Rituals of Night|QID|64042|M|45.46,65.68|Z|1740;Ardenweald!The Shadowlands|QO|2<2|NC|N|Click on the second floating Orb.|
+C Rituals of Night|QID|64042|M|45.10,65.70|Z|1740;Ardenweald!The Shadowlands|QO|2<3|NC|N|Click on the third floating Orb.|
+T Rituals of Night|QID|64042|M|45.31,64.80|Z|1740;Ardenweald!The Shadowlands|N|To Ysera.|
+A The Power of Elune|QID|63682|PRE|64042|M|45.31,64.80|Z|1740;Ardenweald!The Shadowlands|N|From Ysera.|
+C The Power of Elune|QID|63682|M|45.31,64.80|Z|1740;Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Ysera to Begin.|
+C The Power of Elune|QID|63682|M|45.18,65.24|Z|1740;Ardenweald!The Shadowlands|QO|2|NC|N|Stand in the circle and click Click the "[color=40C7EB]Assisting[/color]" to start the Ritual.|EAB|
+C The Power of Elune|QID|63682|M|45.24,65.67|Z|1740;Ardenweald!The Shadowlands|QO|3|NC|N|Defeat Tyrande.|
+T The Power of Elune|QID|63682|M|45.26,65.05|Z|1740;Ardenweald!The Shadowlands|N|To Winter Queen.|
+A Winter's Sigil|QID|63683|PRE|63682|M|45.26,65.05|Z|1740;Ardenweald!The Shadowlands|N|From Winter Queen.|
+C Winter's Sigil|QID|63683|M|45.30,65.09|Z|1740;Ardenweald!The Shadowlands|QO|1|NC|N|Click on the Tear of Elune to take it.|
 C Winter's Sigil|QID|63683|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|Night Fae|
 C Winter's Sigil|QID|63683|M|71.54,45.88|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|CHAT|N|Speak with Ysera.|COV|-Night Fae|
 T Winter's Sigil|QID|63683|M|44.39,38.93|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|Night Fae|
