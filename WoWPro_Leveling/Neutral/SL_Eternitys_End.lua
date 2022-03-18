@@ -322,7 +322,7 @@ C What We Overcome|QID|64798|M|58.93,88.17|Z|1533|QO|1|NC|N|Activate Fourth Shar
 C What We Overcome|QID|64798|M|59.00,88.12|Z|1533|QO|2|N|Mawbound Monstrosity slain.|
 T What We Overcome|QID|64798|M|59.21,88.20|Z|1533|N|To Highlord Bolvar Fordragon.|
 A Forge of Domination|QID|64812|PRE|64798|M|59.21,88.20|Z|1533|N|From Highlord Bolvar Fordragon.|
-P Torghast, Tower of the Damned|ACTIVE|64812|M|58.38,88.05|Z|Bastion!The Shadowlands|N|Take the portal to Torghast.|
+P Torghast, Tower of the Damned|ACTIVE|64812|M|58.38,88.05|Z|1533;Bastion!The Shadowlands|N|Take the portal to Torghast.|
 P The Runecarver's Oubliette|ACTIVE|64812|M|15.93,61.04|Z|Torghast - Entrance!Instance|N|Take the portal to The Runecarver's Oubliette.|
 T Forge of Domination|QID|64812|M|52.06,57.26|Z|1912|N|To The Primus.|
 A The Crown of Wills|QID|64813|PRE|64812|M|52.06,57.26|Z|1912|N|From The Primus.|
@@ -332,8 +332,8 @@ C The Crown of Wills|QID|64813|M|50.45,63.75|Z|1912|QO|3|NC|N|Use the Crown of W
 T The Crown of Wills|QID|64813|M|50.04,68.41|Z|1912|N|To Highlord Bolvar Fordragon.|
 A Reality's Doorstep|QID|64816|PRE|64813|M|50.04,68.41|Z|1912|N|From Highlord Bolvar Fordragon.|
 P Ve'nari's Refuge|ACTIVE|64816|M|10.42,46.99|Z|Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
-P Oribos|ACTIVE|64816|M|42.38,42.17|Z|The Maw|NC|N|Click the portal to go to Oribos|
-P Ring of Transference|ACTIVE|64816|M|46.98,50.35|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
+P Oribos|ACTIVE|64816|M|42.38,42.17|Z|1543;The Maw|NC|N|Click the portal to go to Oribos|
+P Ring of Transference|ACTIVE|64816|M|46.98,50.35|Z|1670;Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
 P Zereth Mortis|ACTIVE|64816|M|49.58,27.47|Z|1671;Ring of Transference@Oribos|N|Take the portal to Zereth Mortis|
 T Reality's Doorstep|QID|64816|M|35.00,64.87|Z|1670;Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
 
@@ -481,7 +481,7 @@ C Souls Entwined|QID|65238|M|48.75,48.71|Z|1673|QO|2|NC|N|Meet with Kleia and th
 T Souls Entwined|QID|65238|M|59.46,55.72|Z|1673|N|To Kleia.|
 A Safe Haven|QID|65329|PRE|65238|M|59.46,55.72|Z|1673|N|From Kleia.|
 P Ring of Fates|ACTIVE|65329|M|42.46,50.09|Z|The Crucible@Oribos!Dungeon|N|Take the portal to Ring of Fates.|
-P Ring of Transference|ACTIVE|65329|M|57.77,51.13|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
+P Ring of Transference|ACTIVE|65329|M|57.77,51.13|Z|1670;Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
 P Ring of Transference|ACTIVE|65329|M|49.32,28.93|Z|1671;Ring of Transference@Oribos|N|Take the portal to Ring of Transference.|
 T Safe Haven|QID|65329|M|34.96,64.92|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 
