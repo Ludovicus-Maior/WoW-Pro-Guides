@@ -437,10 +437,10 @@ C He Was My Student|QID|63582|M|52.40,45.46|QO|3|N|Spar with Arthas Menethil usi
 T He Was My Student|QID|63582|M|40.22,20.19|Z|1533;Bastion!The Shadowlands|N|To Kleia.|
 A I Intend to Live Forever|QID|63583|PRE|63582|M|40.19,20.35|Z|1533;Bastion!The Shadowlands|N|From Uther.|
 C I Intend to Live Forever|QID|63583|M|40.19,20.35|Z|1533;Bastion!The Shadowlands|QO|1|NC|N|Click on the Soul Mirror to enter Uther's final memory.|
-C Defeat Enemies|QID|63583|M|44.24,66.70|Z|1422;Western Plaguelands|QO|2|N|Kill Scourge in the area.|S|
-C I Intend to Live Forever|QID|63583|M|45.17,71.26|Z|1422;Western Plaguelands|QO|3|NC|N|Click on Scared Citizen hiding around the town.|
-C Defeat Enemies|QID|63583|M|44.24,66.70|Z|1422;Western Plaguelands|QO|2|N|Kill Scourge in the area.|US|
-C I Intend to Live Forever|QID|63583|M|45.29,69.68|Z|1422;Western Plaguelands|QO|4|N|Fight Arthas.|
+C Defeat Enemies|QID|63583|M|44.24,66.70|Z|22;Western Plaguelands|QO|2|N|Kill Scourge in the area.|S|
+C I Intend to Live Forever|QID|63583|M|45.17,71.26|Z|22;Western Plaguelands|QO|3|NC|N|Click on Scared Citizen hiding around the town.|
+C Defeat Enemies|QID|63583|M|44.24,66.70|Z|22;Western Plaguelands|QO|2|N|Kill Scourge in the area.|US|
+C I Intend to Live Forever|QID|63583|M|45.29,69.68|Z|22;Western Plaguelands|QO|4|N|Fight Arthas.|
 T I Intend to Live Forever|QID|63583|M|39.96,20.10|Z|1533;Bastion!The Shadowlands|N|To Polemarch Adrestes.|
 A Blind Loyalty|QID|63585|PRE|63583|M|39.96,20.10|Z|1533;Bastion!The Shadowlands|N|From Polemarch Adrestes.|
 C Blind Loyalty|QID|63585|M|55.62,41.97|Z|1707;Archon's Rise@Elysian Hold!Dungeon|CHAT|N|Speak with Adrestes at Elysian Hold.|COV|Kyrian|
