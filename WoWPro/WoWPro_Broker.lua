@@ -661,7 +661,6 @@ function WoWPro.UpdateQuestTrackerRow(row)
     local QID = WoWPro.QID[index]
     local track = ""
 
-    if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
     -- Setting up quest tracker --
     row.trackcheck = false
     -- Clean up any leftovers
@@ -2868,8 +2867,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- WoWPro:dbp("Checkpoint Daleth for step %d",guideIndex)
             -- Do we have enough loot in bags?
             if (WoWPro.lootitem and WoWPro.lootitem[guideIndex]) then
-                WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s",stepAction,step,tostring(QID),guideIndex, WoWPro.lootitem[guideIndex])
-                if _G.GetItemCount(WoWPro.lootitem[guideIndex]) >= WoWPro.lootqty[guideIndex] then
+                WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s, qty %d",stepAction,step,tostring(QID),guideIndex, WoWPro.lootitem[guideIndex], WoWPro.lootqty[guideIndex])
+                if WoWPro.lootqty[guideIndex] > 0 and _G.GetItemCount(WoWPro.lootitem[guideIndex]) >= WoWPro.lootqty[guideIndex] then
                     if stepAction == "T" then
                         -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
                         WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest."
@@ -2882,6 +2881,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                         skip = true
                     end
+                elseif WoWPro.lootqty[guideIndex] < 0 and _G.GetItemCount(WoWPro.lootitem[guideIndex]) < -WoWPro.lootqty[guideIndex] then
+                    if rowIndex == 1 then
+                        -- Only complete the current step, the loot might go away!
+                        WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you have consumed the loot in bags.")
+                    else
+                        WoWPro.why[guideIndex] = "NextStep(): skipped cause you consumed loot in bags."
+                    end
+                    skip = true
                 else
                     if stepAction == "T" then
                         -- Special for T steps, do skip.  Like Darkmoon [Test Your Strength]
