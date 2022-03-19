@@ -272,7 +272,7 @@ DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomple
 -- Item or Quest Objective Tags
 DefineTag("L","lootitem","string",nil,function(text,i)
     local _
-    _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%d*)");
+    _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%-?%d*)");
     -- WoWPro:dbp("L [%s]/[%s]",WoWPro.lootitem[i], WoWPro.lootqty[i])
     if WoWPro.lootitem[i] then
         if tonumber(WoWPro.lootqty[i]) ~= nil then
