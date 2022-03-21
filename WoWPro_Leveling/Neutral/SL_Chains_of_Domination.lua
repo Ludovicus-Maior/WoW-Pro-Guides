@@ -224,7 +224,7 @@ T The Chains of Command|QID|63612|M|62.88,65.99|Z|1543;The Maw|N|To Baroness Dra
 A Gates of the Damned|QID|63613|PRE|63612|M|62.88,65.99|Z|1543;The Maw|N|From Baroness Draka.|
 A Clip Their Wings|QID|63615|PRE|63612|M|PLAYER|Z|1543;The Maw|N|From Baroness Draka.|
 A Weapon in Hand|QID|63614|PRE|63612|M|PLAYER|Z|1543;The Maw|N|From Thrall.|
-C Clip Their Wdngs|QID|63615|M|64.56,63.91|Z|1543;The Maw|N|Target the Helsworn Soulbreakers and use the chains collected by killing Helsworn in the area.|S|U|185742|
+C Clip Their Wings|QID|63615|M|64.56,63.91|Z|1543;The Maw|N|Target the Helsworn Soulbreakers and use the chains collected by killing Helsworn in the area.|S|U|185742|
 C Gates of the Damned|QID|63613|M|67.45,65.51|Z|1543;The Maw|QO|1<1|NC|N|Click the outline of the Death Gate to summon it.|
 C Weapon in Hand|QID|63614|M|61.85,56.46|Z|1543;The Maw|NC|N|Kill the weaponsmith and loot Dra'gora.|
 C Gates of the Damned|QID|63613|M|67.39,55.61|Z|1543;The Maw|QO|1<2|NC|N|Click the outline of the Death Gate to summon it.|
@@ -278,7 +278,8 @@ F Sanctuary of the Mad|ACTIVE|63644|M|60.90,68.77|Z|1671;Ring of Transference@Or
 C Dread Tidings|QID|63644|M|29.48,41.72|Z|1525;Revendreth|QO|1|CHAT|N|Speak withBaroness Vashj.|
 P Dawnkeep|ACTIVE|63644|M|26.05,43.86|Z|1525;Revendreth|N|Take the portal to Dawnkeep.|
 T Dread Tidings|QID|63644|M|22.92,43.74|Z|1525;Revendreth|N|To Prince Renathal.|
-A The Dawnkeep Prisoner|PRE|63644|QID|63645|M|22.92,43.74|Z|1525;Revendreth|N|From Prince Renathal.|LEAD|60501|
+A The Dawnkeep Prisoner|PRE|63645|QID|63645|M|22.92,43.74|Z|1525;Revendreth|N|From Prince Renathal.|LEAD|60501|
+C The Dawnkeep Prisoner|QID|63645|M|22.92,43.74|Z|1525;Revendreth|CHAT|N|Talk to Prince Renathal.|
 T The Dawnkeep Prisoner|QID|63645|M|22.92,43.74|Z|1525;Revendreth|N|To Prince Renathal.|
 A Convoy of the Covenants|QID|63646|PRE|63644|M|22.92,43.74|Z|1525;Revendreth|N|From Prince Renathal.|
 P Sinfall|ACTIVE|63646|M|23.13,43.33|Z|1525;Revendreth|N|Take the portal to Sinfall.|
@@ -320,8 +321,10 @@ T The Meaning of Wrath|QID|63656|M|62.82,26.40|Z|1961;Korthia|N|To The Primus ba
 ; The Power of Night
 A A Cry From the Heart|QID|63672|PRE|63656|M|64.40,24.27|Z|1961;Korthia|N|From Urgent Message from Ardenweald. This may require you to log/zone out and back in if you're already in Keeper's Respite.|REN|52|
 P Ring of Transference|ACTIVE|63672|M|64.47,24.04|Z|1961;Korthia|IZ|1961|N|Take the portal to Ring of Transference.|
+F Heart of the Forest|ACTIVE|63672|M|60.96,68.81|Z|1671;Ring of Transference@Oribos|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|COV|NightFae|
 F Refugee Camp|ACTIVE|63672|M|60.96,68.81|Z|1671;Ring of Transference@Oribos|IZ|-12858|N|Head to the flightmaster and take a flight to Heart of the Forest.|
-T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
+T A Cry From the Heart|QID|63672|M|44.24,39.05|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|COV|NightFae|
+T A Cry From the Heart|QID|63672|M|71.55,45.89|Z|1565;Ardenweald!The Shadowlands|N|To Ysera.|
 A Hunting Amid Houses|QID|63673|PRE|63672|M|44.78,38.93|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|NightFae|
 C Hunting Amid Houses|QID|63673|M|44.78,38.93|Z|1701;The Trunk@Heart of the Forest!Dungeon|QO|1|CHAT|N|Speak to Ysera.|COV|NightFae|
 F Spider's Watch|ACTIVE|63673|M|51.37,7.82|Z|1701;The Trunk@Heart of the Forest!Dungeon|N|Head to the flightmaster and take a flight to Spider's Watch.|COV|NightFae|
@@ -369,7 +372,7 @@ C Mal'appropriated|QID|64091|M|38.00,24.02|Z|1525;Revendreth|QO|2|CHAT|N|Speak w
 T Mal'appropriated|QID|64091|M|PLAYER|Z|1525;Revendreth|N|To Cudgelface.|
 A The Big Squeeze|QID|64090|PRE|64091|M|PLAYER|Z|1525;Revendreth|N|From Cudgelface.|
 C The Big Squeeze|QID|64090|M|35.55,22.27|Z|1525;Revendreth|QO|1|NC|N|Head up and into Dominance Keep.|
-C The Big Squeeze|QID|64090|M|35.45,22.29|Z|1525;Revendreth|QO|2|NC|N|As you run into the key, a Agitated Stoneborn will yell at you.|
+C The Big Squeeze|QID|64090|M|35.45,22.29|Z|1525;Revendreth|QO|2|NC|N|As you run into the keep, an Agitated Stoneborn will yell at you.|
 C The Big Squeeze|QID|64090|M|35.71,22.68|Z|1525;Revendreth|QO|3|CHAT|N|Speak with Cudgelface.|
 C The Big Squeeze|QID|64090|M|35.71,22.68|Z|1525;Revendreth|QO|4|NC|N|Click the "[color=40C7EB]Or Else![/color]" button.|EAB|
 C The Big Squeeze|QID|64090|M|35.71,22.68|Z|1525;Revendreth|QO|5|N|Defeated Moonberry's Illusions.|
@@ -423,7 +426,7 @@ T Wounded Memories|QID|63580|M|40.15,19.92|Z|1533;Bastion!The Shadowlands|N|To T
 A Step Into the Light|QID|63581|PRE|63580|M|40.15,19.92|Z|1533;Bastion!The Shadowlands|N|From Thenios.|
 C Step Into the Light|QID|63581|M|40.22,20.44|Z|1533;Bastion!The Shadowlands|QO|1|NC|N|Click on the soul mirror to enter Uther's memory.|
 C Step Into the Light|QID|63581|M|67.49,73.28|Z|827;Stratholme!Dungeon827|QO|2|NC|N|"[color=40C7EB]Kneel[/color]" before Alonsus.|EAB|
-C Step Into the Light|QID|63581|M|67.49,73.28|Z|827;Stratholme!Dungeon827|QO|3|NC|N|Wait for the dialot to complete.|
+C Step Into the Light|QID|63581|M|67.49,73.28|Z|827;Stratholme!Dungeon827|QO|3|NC|N|Wait for the dialog to complete.|
 C Step Into the Light|QID|63581|M|68.70,73.01|Z|827;Stratholme!Dungeon827|QO|4|NC|N|Click on the Grain.|
 C Step Into the Light|QID|63581|M|66.13,74.65|Z|827;Stratholme!Dungeon827|QO|5|NC|N|Click the door and step out into the square.|
 C Defeat Enemies|QID|63581|M|65.09,68.27|Z|827;Stratholme!Dungeon827|QO|6|N|Kill Arthas's followers in the area using Uther's abilities.|S|
