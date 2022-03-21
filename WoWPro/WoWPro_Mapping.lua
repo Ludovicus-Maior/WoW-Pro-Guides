@@ -458,9 +458,10 @@ function WoWPro:MapPoint(row)
     end
 	if coords then
 		if (coords == "PLAYER") then
-			local x, y = WoWPro:GetPlayerZonePosition()
-			if (x  and y) then
+			local x, y, m  = WoWPro:GetPlayerZonePosition()
+			if (x and y) then
 				coords = ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
+                WoWPro.zone[stepIndex] = ("%d;player"):format(m)
 			else
 				coords = nil
 			end

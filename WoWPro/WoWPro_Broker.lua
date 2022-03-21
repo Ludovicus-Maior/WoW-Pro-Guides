@@ -927,9 +927,10 @@ function WoWPro:RowUpdate(offset)
 
 		 if coord then
 			if (coord == "PLAYER") then
-				local x, y = WoWPro:GetPlayerZonePosition()
-				if (x  and y) then
+				local x, y, m  = WoWPro:GetPlayerZonePosition()
+				if (x and y) then
 					coord = ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
+                    zone = ("%d;player"):format(m)
 				else
 					coord = nil
 				end
