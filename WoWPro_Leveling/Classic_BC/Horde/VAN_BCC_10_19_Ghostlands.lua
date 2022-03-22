@@ -104,7 +104,7 @@ K Spirits of the Drowned|ACTIVE|9274|M|71.04,24.00|QO|1;2|N|Kill any ghost you s
 T Dealing with Zeb'Sora|QID|9143|M|69.39,15.19|N|Return to Ranger Valanna.|
 A Report to Captain Helios|QID|9146|M|69.39,15.19|N|From Ranger Valanna.|PRE|9143|
 K Spirits of the Drowned|ACTIVE|9274|M|71.04,24.00|QO|1;2|N|Kill any ghost you see floating around in the lake.|US|
-L Level 14|AVAILABLE|9171|M|71.76,16.92|N|Grind out until you're within 2 bubbles of level 14.|LVL|13;-1140|
+L Level 14|M|71.76,16.92|N|Grind out until you're within 2 bubbles of level 14.|LVL|13;-1140|
 T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an in Farstrider Enclave.|
 T Report to Captain Helios|QID|9146|M|72.37,29.65|N|To Captain Helios.|
 H Tranquillien|AVAILABLE|9171|
@@ -132,7 +132,7 @@ R Goldenmist Village|ACTIVE|9139|M|33.2,15.0;30.3,16.6|CC|N|Follow Elrendar Rive
 K Goldenmist Village|QID|9139|M|26.81,15.27|N|Run/drop down to Goldenmist and kill the ghosts that are needed.|
 C The Plagued Coast|QID|9149|M|19.02,24.06|L|22579 6|N|Kill Murlocs to loot their spines.|
 C Culinary Crunch|QID|9171|M|27.69,30.27|L|22644 5|N|Kill spiders to loot the Crunchy Spider Legs.|US|
-L Level 15|AVAILABLE|9173|M|PLAYER|N|You'll want to be at least halfway to level 15 before returning.|LVL|14;-6490|
+L Level 15|M|PLAYER|N|You'll want to be at least halfway to level 15 before returning.|LVL|14;-6490|
 H Tranquillien|ACTIVE|9171|M|45.12,28.25|
 T Culinary Crunch|QID|9171|M|48.43,30.93|N|To Master Chef Mouldier.|
 r Repair/Restock|QID|9155|M|49.07,30.33|N|At Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Do not sell any Rotting Hearts you may have.|
@@ -144,7 +144,7 @@ T Down the Dead Scar|QID|9155|M|46.02,33.56|N|To Deathstalker Rathiel.|
 T Investigate An'daroth|QID|9160|M|44.88,32.51|N|To Dame Auriferous.|
 A Into Occupied Territory|QID|9163|M|44.88,32.51|N|From Dame Auriferous.|PRE|9160|
 A Retaking Windrunner Spire|QID|9173|M|44.77,32.45|N|From High Executor Mavren.|LVL|15|
-T The Plagued Coast|QID|9149|M|47.59,34.79|N|To Apothecary Renzithen.|
+T The Plagued Coast|QID|9149|M|47.66,34.87|N|To Apothecary Renzithen.|
 R Underlight Mines|ACTIVE|9192|M|33.1,52.2;31.8,48.4|CC|N|Follow the road south out of Tranquillien, continuing west along the road across The Dead Scar.\nThe path into Underlight Mine is on the north side of the road just past the Bleeding Ziggurat.\n[color=FF0000]NOTE: [/color]Watch out for Knucklerot to be traveling along this road and for Luzran to be in the area as well.|
 A Underlight Ore Samples|QID|9207|M|31.42,48.31|N|From Apprentice Shatharia.|
 C Underlight Ore Samples|QID|9207|M|29.25,47.93|L|22634 6|N|Kill gnolls to loot them.|S|
@@ -161,7 +161,7 @@ R Shalandis Isle|ACTIVE|9163|M|15.02,28.63|
 C Into Occupied Territory|ACTIVE|9163|M|14.77,26.61;13.70,26.84;12.53,26.51;12.80,25.08|CN|L|22590|QO|1|N|Night Elf Plans: An'daroth can found be in several spots on the isle.|
 C Into Occupied Territory|ACTIVE|9163|M|12.80,25.08;12.54,24.80;12.86,23.92|CN|L|22591|QO|2|N|Night Elf Plans: An'owyn can found be in several spots on the isle.|
 C Into Occupied Territory|ACTIVE|9163|M|10.44,22.58|L|22592|QO|3|N|Night Elf Plans: Scrying on the Sin'dorei, is on the boat.\n[color=FF0000]NOTE: [/color]It is possible to pull one mob at a time. It's in your best interest to clear the ship.|
-L Level 16|ACTIVE|9140|N|Grind until you're within 8 bubbles of level 16.|LVL|15;-5300|
+L Level 16|N|Grind until you're within 8 bubbles of level 16.|LVL|15;-5300|
 H Tranquillien|ACTIVE|9140|
 r Housekeeping|ACTIVE|9140|M|49.11,30.32|N|Repair and sell junk to Blacksmith Frances.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Spinal Dust|QID|9218|M|48.92,31.31|N|From Magistrix Aminel.|
@@ -228,7 +228,7 @@ K Assault on Zeb'Nowa|ACTIVE|9277|M|62.90,66.38|QO|1;2|N|Kill Shadowpine Catlord
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|22677 3|N|Loot the Catlord Claws from Catlords.|S|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|23166 3|N|Loot the Hexxer Staves from Hexxers.|S|
 K Vampiric Mistbats|ACTIVE|9159|M|73.16,37.71|QO|1|N|Kill 10 Vamperic Mistbats.|US|
-R Zeb'Nowa|ACTIVE|9214^9277|M|68.33,48.73|
+R Zeb'Nowa|ACTIVE|9275^9215^9277^9214|M|68.33,48.73|
 C A Little Dash of Seasoning|QID|9275|M|68.23,57.78|QO|3|N|Go inside the hut and click on the Fresh Fish Rack to poison it.|NC|
 C A Little Dash of Seasoning|QID|9275|M|65.06,66.73|QO|1|N|Click on the Raw Meat Rack to poison it.|NC|
 C A Little Dash of Seasoning|QID|9275|M|63.03,74.98|QO|2|N|Click on the Smoked Meat Rack to poison it.|NC|
@@ -236,7 +236,7 @@ K Bring Me Kel'gash's Head!|ACTIVE|9215|M|65.33,79.51|L|22640|N|Kel'gash is a lv
 K Assault on Zeb'Nowa|ACTIVE|9277|M|62.90,66.38|QO|1;2|N|Kill Shadowpine Catlords and Hexxers.|US|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|22677 3|N|Loot the Catlord Claws from Catlords.|US|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|L|23166 3|N|Loot the Hexxer Staves from Hexxers.|US|
-L Level 18|ACTIVE|9199|N|Grind until you're within 3 bubbles of level 18.|LVL|17;-2500|
+L Level 18|N|Grind until you're within 3 bubbles of level 18.|LVL|17;-2500|
 ;R Hatchet Hills|ACTIVE|9199|M|45.5,30.55|N|coords Fly to Hatchet Hills (Zul'Aman).|
 ;f Hatchet Hills|ACTIVE|9199|M|45.5,30.55|N|fix coords|
 ;F Silvermoon City|ACTIVE|9199|M|45.5,30.55|N|fix coords|
@@ -267,11 +267,13 @@ R Bleeding Ziggurat|ACTIVE|9176|M|34.31,49.98|
 C The Twin Ziggurats|QID|9176|M|34.31,47.67|L|22598|QO|2|N|Using the same tactics as you did at Howling Ziggurat, clear your way in and loot the Stone of Light from the Dented Chest.|
 K Curbing the Plague|ACTIVE|9159|M|31.45,40.60|QO|2|N|Kill Spindleweb Lurkers.|
 R Deatholme|ACTIVE|9220|M|36.40,69.79|N|Make your way to The Dead Scar and follow it south.|
-K War on Deatholme|ACTIVE|9220|M|32.12,76.13|QO|1;2;3|N|Kill Eyes of Dar'khan, Nerubis Centurions, and Wailers in Deatholme.|
-R The Dead Scar|ACTIVE|9218|M|36.33,71.71|N|Exit Deatholme.|IZ|3500; Deatholme|
-R The Dead Scar|ACTIVE|9218|M|36.33,71.71|IZ|-3514; The Dead Scar|
+K War on Deatholme|ACTIVE|9220|M|32.92,76.79|QO|1;3|N|Kill Eyes of Dar'khan and Wailers around Deatholme.|S|
+K War on Deatholme|ACTIVE|9220|M|37.01,85.65|QO|2|N|Kill Nerubis Centurions in this area.|
+K War on Deatholme|ACTIVE|9220|M|32.92,76.79|QO|1;3|N|Kill Eyes of Dar'khan and Wailers around Deatholme.|US|
+R The Dead Scar|ACTIVE|9218|M|36.41,69.50|N|Exit Deatholme.|IZ|3500; Deatholme|
+R The Dead Scar|ACTIVE|9218|M|36.41,69.50|IZ|-3514; The Dead Scar|
 C Spinal Dust|QID|9218|M|37.52,49.76|L|22642 10|QO|1|N|Kill Dread Sentinels and Deathcage Sorcerers to finish collecting the Spinal Dust.\n[color=FF0000]NOTE: [/color]Watch out for Luzran.|US|
-L Level 20|ACTIVE|9877|N|Make sure you're at least 5.5 bars into level 19 before moving on.|LVL|19;-13900|
+L Level 20|N|Make sure you're at least 7.5 bubbles into level 19 before moving on.\n[color=FF0000]NOTE: [/color]Otherwise, you'll need to grind later and the mobs are lower level.|LVL|19;-11950|
 R Sanctum of the Sun|ACTIVE|9176|M|53.94,51.76|
 T The Twin Ziggurats|QID|9176|M|55.07,48.83|N|To Magister Kaendris.|
 A The Traitor's Destruction|QID|9167|M|55.07,48.83|ELITE|N|[color=00FFFF]Group of 5 suggested or level up to solo[/color]\nFrom Magister Kaendris.\n[color=FF0000]NOTE: [/color]Skip this step if you've abandoned the quest.|PRE|9176|IZ|3433;Ghostlands|
@@ -283,15 +285,14 @@ T Deactivate An'owyn|QID|9169|M|60.28,35.61|N|To Magister Sylastor.|
 R Farstrider Enclave|ACTIVE|9159|M|73.83,32.11|
 T Curbing the Plague|QID|9159|M|72.50,32.13|N|To Farstrider Sedina.|
 T Assault on Zeb'Nowa|QID|9277|M|72.32,31.24|N|To Farstrider Solanna.|
-T Bring Me Kel'gash's Head!|QID|9215|M|72.37,29.65|N|To Captain Helios.|
+t Bring Me Kel'gash's Head!|QID|9215|M|72.37,29.65|N|To Captain Helios.|
 T Shadowpine Weaponry|QID|9214|M|72.37,29.65|N|To Captain Helios.|
 T A Little Dash of Seasoning|QID|9275|M|72.62,31.56|N|To Apothecary Venustus.|
 H Tranquillien|ACTIVE|9218|M|46.43,37.58|
 T Spinal Dust|QID|9218|M|48.92,31.31|N|To Magistrix Aminel.|
 r Repair/Restock|ACTIVE|9877|M|49.05,30.32|N|At Blacksmith Frances.|
-; ** Grab this quest now as they are headed to Undercity for their class quests. 2 steps because one class is race based.
-A Journey to Undercity|QID|9177^9180|M|44.77,32.45|N|From High Executor Mavren.|PRE|9175|R|Undead|C|Priest|
-A Journey to Undercity|QID|9177^9180|M|44.77,32.45|N|From High Executor Mavren.|PRE|9175|C|Warlock|
+
+L Level 20|N|[color=FF0000]NOTE: [/color]You were warned to grind earlier. You have no choice but to do it now.|LVL|20|
 F Silvermoon City|ACTIVE|9877|M|45.43,30.53|
 = Level 20 Training|ACTIVE|9877|N|Enter Silvermoon City and visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ; --- Paladin level 20 class quest
@@ -326,20 +327,23 @@ P Silvermoon City|ACTIVE|9877|M|65.9,36.8;66.2,0.9;54.85,11.23|Z|1458;Undercity|
 N NOT EASY!!!|AVAILABLE|2458|ACTIVE|876|N|Your Poison quest is not going to be easy. Some have suggested waiting until you've reached level 22. At that point, you'll have Distract and Vanish to help reduce the number of 'Run away!' moments.\nI agree and this guide will wait until you're level 22. You can do it now if you so choose.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Undead|C|Rogue|
 ; ---
 ; --- Warlock Soul Bag/Succubus Level 20 class quest
-; --- Undercity version
 A Carendin Summons|QID|10605|M|73.09,46.95|Z|Silvermoon City|N|From Alamma, located in the Sanctum.|LEAD|1507|R|BloodElf|C|Warlock|
-P Undercity|ACTIVE|10605|M|49.49,14.80|Z|Silvermoon City|N|Use the Orb of Translocation located at the very back of Sunfury Spire atop the ramp.|C|Warlock|
-f Undercity|ACTIVE|10605|M|63.26,48.55|Z|1458;Undercity|N|Make your way down into Undercity and get the flight path from Michael Garrett.|
-R Magic Quarter|ACTIVE|10605|M|74.55,29.34|Z|1458;Undercity|N|The Magic Quarter is in the northeast corner of Undercity.|
+P Undercity|AVAILABLE|1472&1507|M|49.49,14.80|Z|Silvermoon City|N|Use the Orb of Translocation located at the very back of Sunfury Spire atop the ramp.|C|Warlock|
+f Undercity|AVAILABLE|1472&1507|M|63.26,48.55|Z|1458;Undercity|N|Make your way down into Undercity and get the flight path from Michael Garrett.|TAXI|-Undercity|
+N Kalimdor or Eastern Kingdoms|AVAILABLE|1472&1507|N|From this point, you can choose where you do your quest chain.\nThe Eastern Kingdoms version starts in UC and the Kalimdor version starts in Orgrimmar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Leave Undercity|AVAILABLE|1472&1507|M|66.1,38.4;66.2,0.9;66.2,1.2|Z|1458;Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.\n[color=FF0000]NOTE: [/color]If you wish to do the Eastern Kingdoms version, skip this step.|IZ|1497;Undercity|
+b Durotar|AVAILABLE|1507|M|60.71,58.78|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|C|Warlock|IZ|85;Tirisfal Glades|
+; --- Undercity version
+R Magic Quarter|AVAILABLE|1472&1507|M|74.55,29.34|Z|1458;Undercity|N|Make your way to the Magic Quarter in the northeast corner of Undercity.|IZ|1458;Undercity|
 T Carendin Summons|QID|10605|M|85.05,25.97|Z|1458;Undercity|N|To Carendin Halgar, located beside the Summoning Circle on the outer ring of the Magic Quarter.|R|BloodElf|C|Warlock|
-A Devourer of Souls|QID|1472|M|84.81,14.83|Z|1458;Undercity|N|To Godrick Farsan. He's inside the building with the Warlock trainers.|PRE|10605|C|Warlock|
+A Devourer of Souls|QID|1472|AVAILABLE|1507|M|85.05,25.97|Z|1458;Undercity|N|From Carendin Halgar.|C|Warlock|
 T Devourer of Souls|QID|1472|M|77.73,21.87|Z|1458;Undercity|N|To Godrick Farsan. He's inside the building with the Warlock trainers.|C|Warlock|
 A Hearts of the Pure|QID|1476|M|77.73,21.87|Z|1458;Undercity|N|From Godrick Farsan.|PRE|1472|C|Warlock|
 R Sewers|ACTIVE|1476|M|45.91,43.89|Z|1458;Undercity|N|Make your way to the Sewers.|C|Warlock|IZ|1458;Undercity|
 R Tirisfal Glades|ACTIVE|1476|M|51.07,71.59|Z|Tirisfal Glades|N|Make your way through the Sewers to the exit to Tirisfal Glades.|C|Warlock|IZ|1458;Undercity|
 R Silverpine Forest|ACTIVE|1476|M|67.82,4.92|Z|1421;Silverpine Forest|N|Make your way to the road and head south to Silverpine Forest.|C|Warlock|IZ|85;Tirisfal Glades|
 R The Sepulcher|ACTIVE|1476|M|50.83,36.99;46.29,41.50|Z|1421;Silverpine Forest|CC|N|Make your way to the The Sepulcher.|C|Warlock|IZ|1421;Silverpine Forest|
-f The Sepulcher|QID|1476|M|45.62,42.60|Z|1421;Silverpine Forest|N|At Karos Razok.|C|Warlock|
+f The Sepulcher|ACTIVE|1476|M|45.62,42.60|Z|1421;Silverpine Forest|N|At Karos Razok.|C|Warlock|
 R The Greymane Wall|ACTIVE|1476|M|51.35,37.03;53.23,72.38;48.49,80.08|Z|1421;Silverpine Forest|CC|N|Exit The Sepulcher and follow the road south until you reach the big bend. From here, head west briefly and continue on the road south until you reach the wall.|C|Warlock|IZ|1421;Silverpine Forest|
 C Hearts of the Pure|QID|1476|M|45.19,82.91|Z|1421;Silverpine Forest|QO|1|N|Locate Dalin Forgewright on his horse and kill him to loot his heart.|C|Warlock|
 R Hillsbrad Foothills|ACTIVE|1476|M|13.57,46.15|Z|1424;Hillsbrad Foothills|N|Make your way back to the big curve in the road and follow the road east.|C|Warlock|IZ|1421;Silverpine Forest|
@@ -349,14 +353,14 @@ R Thoradin's Wall|ACTIVE|1476|M|62.88,41.63;81.42,56.40|Z|1424;Hillsbrad Foothil
 R Thandol Span|ACTIVE|1476|M|43.69,88.14|Z|1417;Arathi Highlands|N|Make your way along the road to the bridge at Thandol Span.\n[color=FF0000]NOTE: [/color]Be aware of the 'skull' mobs on either side of the road.|C|Warlock|IZ|1417;Arathi Highlands|
 C Hearts of the Pure|QID|1476|M|50.85,12.26;50.41,13.34|Z|1437;Wetlands|CC|QO|2|N|Cross over the bridge to the Wetlands' side and locate Comar Willard. Kill him to loot his heart.|C|Warlock|
 R Hammerfall|ACTIVE|1476|M|45.42,59.04;51.03,59.69;71.35,42.78|Z|1417;Arathi Highlands|CC|N|Now for the fun part!\nCross back over into Arathi Highlands and follow the road north. Avoiding the 'skull' mobs once again, carefully make your way to Hammerfall by following the sign posts along the road.|C|Warlock|IZ|1417;Arathi Highlands|
-f Hammerfall|QID|1476|M|73.07,32.61|Z|1417;Arathi Highlands|N|At Urda.|C|Warlock|
+f Hammerfall|ACTIVE|1476|M|73.07,32.61|Z|1417;Arathi Highlands|N|At Urda.|C|Warlock|
 F Undercity|ACTIVE|1476|M|73.07,32.61|Z|1417;Arathi Highlands|N|[color=FF0000]NOTE: [/color]If you missed any of the FPs between here and Undercity, you'll have to fly back as close as you can and run the rest of the way.m|C|Warlock|
 R Magic Quarter|ACTIVE|1476|M|74.55,29.34|Z|1458;Undercity|N|The Magic Quarter is in the northeast corner of Undercity.|
 T Hearts of the Pure|QID|1476|M|85.05,25.97|Z|1458;Undercity|N|To Carendin Halgar.|R|BloodElf|C|Warlock|
 A The Binding|QID|1474|M|85.05,25.97|Z|1458;Undercity|N|From Carendin Halgar.|PRE|1476|R|BloodElf|C|Warlock|
 C The Binding|QID|1474|M|86.67,27.09|Z|1458;Undercity|N|Head over to the Summoning Circle and use the Pure Hearts to summon a Succubus. Defeat her to complete the quest.|U|6286|R|BloodElf|C|Warlock|
 T The Binding|QID|1474|M|85.05,25.97|Z|1458;Undercity|N|To Carendin Halgar.|R|BloodElf|C|Warlock|
-P Silvermoon City|ACTIVE|9877|M|54.85,11.23|Z|1458;Undercity|N|Make your way up to the Ruins of Lordaeron and use the Orb of Translocation.|C|Warlock|
+P Silvermoon City|ACTIVE|9877|M|54.85,11.23|Z|1458;Undercity|N|Make your way up to the Ruins of Lordaeron and use the Orb of Translocation.|C|Warlock|IZ|1458;Undercity|
 ; --- Orgrimmar version
 b Durotar|AVAILABLE|1507&10605|M|60.71,58.78|Z|Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|C|Warlock|
 R Orgrimmar|AVAILABLE|1507&10605|M|45.52,12.07|Z|Durotar|N|Enter Orgrimmar.|C|Warlock|
@@ -391,20 +395,20 @@ T Love's Gift|QID|1512|M|48.24,45.28|Z|Orgrimmar|N|To Gan'rul Bloodeye in Cleft 
 A The Binding|QID|1513|M|48.24,45.28|Z|Orgrimmar|N|From Gan'rul Bloodeye.|PRE|1512|C|Warlock|
 C The Binding|QID|1513|M|49.47,50.02|Z|Orgrimmar|QO|1|N|Go to the Summoning Circle in Neeru's tent. While standing in the Summoning Circle, use Dogran's Pendant to summon a Succubus and then kill it.|U|6626|C|Warlock|
 T The Binding|QID|1513|M|48.24,45.28|Z|Orgrimmar|N|To Gan'rul Bloodeye.|C|Warlock|
-b Tirisfal Glades|ACTIVE|9877|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|C|Warlock|
-R Undercity|ACTIVE|9877|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|C|Warlock|
-P Silvermoon City|ACTIVE|9877|M|54.85,11.23|Z|1458;Undercity|N|Use the Orb of Translocation.|C|Warlock|
+b Tirisfal Glades|ACTIVE|9877|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|C|Warlock|IZ|1411;Durotar|
+R Undercity|ACTIVE|9877|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|C|Warlock|IZ|85;Tirisfal Glades|
+P Silvermoon City|ACTIVE|9877|M|54.85,11.23|Z|1458;Undercity|N|Use the Orb of Translocation.|C|Warlock|IZ|1458;Undercity|
 ; ---
 F Tranquillien|ACTIVE|9877|M|54.37,50.73|Z|Eversong Woods|
-T A Restorative Draught|QID|9877|M|47.59,34.79|N|To Apothecary Renzithen.|
-A Captives at Deatholme|QID|9164|M|47.59,34.79|N|From Apothecary Renzithen.|
+T A Restorative Draught|QID|9877|M|47.66,34.87|N|To Apothecary Renzithen.|
+A Captives at Deatholme|QID|9164|M|47.66,34.87|N|From Apothecary Renzithen.|
 R Deatholme|ACTIVE|9164^9170|M|44.7,70.4;36.40,69.79|CC|N|Follow the road south out of Tranquillien to the bottom and cut across to the Deatholme entrance.|
 K Jurion the Deceiver|ACTIVE|9170|M|32.10,74.50|QO|3|N|After killing the 2 guards at the entrance, go down the stairs into the crypt and kill Jurion the Deceiver.\n[color=FF0000]NOTE: [/color]He will attack you when you enter the room.|
 C Apothecary Enith|QID|9164|M|32.15,73.95|QO|1|N|Talk to Apothecary Enith.|CHAT|
 K Mirdoran the Fallen|ACTIVE|9170|M|37.26,79.36|QO|1|N|Kill Mirdoran the Fallen.\n[color=FF0000]NOTE: [/color]Avoid going too far into the building as he has 3 Wailers guarding him.|
-K Borgoth the Bloodletter|ACTIVE|9170|M|41,83.1|QO|2|N|Borgoth can be in found inside the butchery.\n[color=FF0000]NOTE: [/color]He may be in the other butchery.|T|Borgoth the Bloodletter|S|
-C Apprentice Varnis|QID|9164|M|37.88,84.40;40.98,83.17|CS|QO|2|N|Go into the butchery and talk to Apprentice Varnis.\n[color=FF0000]NOTE: [/color]Kill Borgoth first if he's here.|CHAT|
-K Masophet the Black|ACTIVE|9170|M|29.5,89.2|QO|4|N|Check the first ziggurat for Masophet. If he's here, clear the Necromancers on the sides and then pull Masophet.|T|Masophet the Black|S|
+K Borgoth the Bloodletter|ACTIVE|9170|M|40.98,83.17|QO|2|N|Borgoth can be in found inside the butchery.\n[color=FF0000]NOTE: [/color]He may be in the other butchery.|T|Borgoth the Bloodletter|S|
+C Apprentice Varnis|QID|9164|M|37.6,84.6;40.98,83.17|CC|QO|2|N|Go into the butchery and talk to Apprentice Varnis laying on the table.\n[color=FF0000]NOTE: [/color]Kill Borgoth first if he's here.|CHAT|
+K Masophet the Black|ACTIVE|9170|M|29.5,89.2|QO|4|N|Check the first ziggurat for Masophet. If he's here, clear the Necromancers on the sides and then pull Masophet.\n[color=FF0000]NOTE: [/color]Watch out for Dr. Whitherlimb, a lv 18 rare that spawns in the area.|T|Masophet the Black|S|
 C Ranger Vedoran|QID|9164|M|32.79,89.93|QO|3|N|Talk to Ranger Vedoran to rescue him.\n[color=FF0000]NOTE: [/color]Kill Borgoth first if he's here.|CHAT|
 K Masophet the Black|ACTIVE|9170|M|35.9,89.3|QO|4|N|Check the second ziggurat for Masophet. If he's here, clear the Necromancers on the sides and then pull Masophet.\n[color=FF0000]NOTE: [/color]If he's not here, you'll have to go back and check the first ziggurat.|T|Masophet the Black|US|
 K Borgoth the Bloodletter|ACTIVE|9170|M|32.79,89.93|QO|2|N|Borgoth can be in found inside the butchery.\n[color=FF0000]NOTE: [/color]If he's not here, you'll have to check the first butchery.|T|Borgoth the Bloodletter|US|
@@ -418,22 +422,23 @@ A Friend of the Sin'dorei|QID|9811|M|55.07,48.83|N|From Magister Kaendris.|PRE|9
 T Dar'Khan's Lieutenants|QID|9170|M|54.87,48.55|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.82,48.35|N|To Arcanist Janeda.|
 N Wanted: Knucklerot and Luzran|ACTIVE|9156|N|At this point in time, you have to decide if you are going to complete the quest or move on.\nIf you're moving on, abandon the quest now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|1942;Ghostlands|
-K Luzran|ACTIVE|9156|M|34.3,50.3;37.3,67.5;39.5,32.0|CN|QO|2|N|Luzran spawns at Bleeding Ziggurat and begins his path south through the The Dead Scar to the Deatholme entrance, then to the northern waypoint before turning back south to the Deatholme entrance and ultimately returning to Bleeding Ziggurat to start the trip anew.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip. Skipping this will skip all related steps as well.|T|Luzran|IZ|1942;Ghostlands|
-K Knucklerot|ACTIVE|9156|M|41.7,45.2;33.1,53.1;25.6,55.4;22.6,49.1;22.2,40.4;27.5,38.1;30.4,35.9;27.7,29.9;29.4,21;25.4,16.3|CN|QO|1|N|Knucklerot spawns at Howling Ziggurat and begins his path by following the road across The Dead Scar past and through to Windrunner Village. From here he works his way along the shore until he crosses over the river just above the waterfall and heads for the road leading into Goldenmist Village. He follows this road to the fountain between the buildings. At this point, he turns around and begins to path back to the beginning. His return path is the exact same with one exception. After crossing the river, he goes to Sanctum of the Moon before heading to Windrunner Village.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip.|T|Knucklerot|IZ|1942;Ghostlands|
-R Tranquillien|AVAILABLE|1061|M|46.52,31.90|N|Run to Tranquillien.|
+K Luzran|ACTIVE|9156|M|34.3,50.3;37.3,67.5;39.5,32.0|CC|QO|2|N|Luzran spawns at Bleeding Ziggurat and begins his path south through the The Dead Scar to the Deatholme entrance, then to the northern waypoint before turning back south to the Deatholme entrance and ultimately returning to Bleeding Ziggurat to start the trip anew.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip. Skipping this will skip all related steps as well.|T|Luzran|IZ|1942;Ghostlands|
+K Knucklerot|ACTIVE|9156|M|41.7,45.2;33.1,53.1;25.6,55.4;22.6,49.1;22.2,40.4;27.5,38.1;30.4,35.9;27.7,29.9;29.4,21;25.4,16.3|CC|QO|1|N|Knucklerot spawns at Howling Ziggurat and begins his path by following the road across The Dead Scar past and through to Windrunner Village. From here he works his way along the shore until he crosses over the river just above the waterfall and heads for the road leading into Goldenmist Village. He follows this road to the fountain between the buildings. At this point, he turns around and begins to path back to the beginning. His return path is the exact same with one exception. After crossing the river, he goes to Sanctum of the Moon before heading to Windrunner Village.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip.|T|Knucklerot|IZ|1942;Ghostlands|
+R Tranquillien|AVAILABLE|1061|M|46.52,31.90|N|Run to Tranquillien.\n[color=FF0000]NOTE: [/color]You'll want to save your hearth for later.|
 T Wanted: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|IZ|1942;Ghostlands|
 A Journey to Undercity|QID|9177^9180|M|44.77,32.45|N|From High Executor Mavren.|PRE|9175|LVL|20;-1660| ; ** this quest greys at lv 22 and the exp drops at 21
+N Wanted: Knucklerot and Luzran|ACTIVE|9156|N|It appears you have decided to move on.\nIf you're moving on, abandon the quest now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.\n\nTake note that this will reappear if you reset the guide without abandoning the quest.|IZ|-1942;Ghostlands|
 F Silvermoon City|AVAILABLE|1061|M|45.43,30.53|
 R Housekeeping|AVAILABLE|1061|N|Visit your trainers, AH, etc.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-T Hero of the Sin'dorei|QID|9328|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron.|R|BloodElf|
+T Hero of the Sin'dorei|QID|9328|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron in Sunfury Spire.|R|BloodElf|
 T Friend of the Sin'dorei|QID|9811|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron.|R|-BloodElf||
-A Envoy to the Horde|QID|9621|M|53.79,20.22|Z|Silvermoon City|N|From Lor'themar Theron.|PRE|9328|R|BloodElf|
+A Envoy to the Horde|QID|9621|M|53.79,20.22|Z|Silvermoon City|N|From Lor'themar Theron in Sunfury Spire.|PRE|9328|R|BloodElf|
 A Envoy to the Horde|QID|9812|M|53.79,20.22|Z|Silvermoon City|N|From Lor'themar Theron.|PRE|9811|R|-BloodElf|
 P Undercity|AVAILABLE|1061|M|49.49,14.80|Z|Silvermoon City|N|Go into the room behind Lor'themar and click on the Orb of Translocation at the top of the ramp.|
 f Undercity|AVAILABLE|1061|M|63.26,48.55|Z|1458;Undercity|N|Get the flight path from Michael Garrett inside Undercity.|TAXI|-Undercity|
-R Royal Quarter|ACTIVE|9177^9180^9621^9812|M|51.30,65.60|Z|1458;Undercity|N|The entrance to Royal Quarter is by the outer ring of The Apothecarium in the southwest corner of Undercity.|
+R Royal Quarter|ACTIVE|9177^9180^9621^9812|M|51.15,65.90|Z|1458;Undercity|N|The entrance to Royal Quarter is by the outer ring of The Apothecarium in the southwest corner of Undercity.|
 T Journey to Undercity|QID|9177^9180|M|58.05,91.79|Z|1458;Undercity|N|To Lady Sylvanas Windrunner.|
-T Envoy to the Horde|QID|9621^9812|M|58.05,91.79|Z|1458;Undercity|N|To Lady Sylvanas Windrunner.|R|BloodElf|
+T Envoy to the Horde|QID|9621^9812|M|58.05,91.79|Z|1458;Undercity|N|To Lady Sylvanas Windrunner.|
 A Meeting the Warchief|QID|9626|M|57.93,91.79|Z|1458;Undercity|N|From Lady Sylvanas Windrunner.|PRE|9621|R|BloodElf|
 A Meeting the Warchief|QID|9813|M|57.93,91.79|Z|1458;Undercity|N|From Lady Sylvanas Windrunner.|PRE|9812|R|-BloodElf|
 R Leave Undercity|AVAILABLE|1061|M|66.1,38.4;66.2,0.9;66.2,1.2|Z|1458;Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|IZ|1497;Undercity|
@@ -446,13 +451,12 @@ R Grommash Hold|AVAILABLE|1061|M|40.46,36.96|Z|Orgrimmar|
 T Meeting the Warchief|QID|9626^9813|M|31.65,37.83|Z|Orgrimmar|N|To Thrall inside Grommash Hold.|
 A Allegiance to the Horde|QID|9627|M|31.65,37.83|Z|Orgrimmar|N|From Thrall.|PRE|9626|R|BloodElf|
 A The Spirits of Stonetalon|QID|1061|M|38.93,38.37|Z|Orgrimmar|N|From Zor Lonetree (just inside Grommash Hold).\n[color=FF0000]NOTE: [/color]This quest leads to a quest we will be doing in the next guide.|LEAD|1062|
-R Leave Orgrimmar|ACTIVE|9627|M|45.55,12.06|Z|Durotar|N|Exit Orgrimmar through the south gate.|IZ|1637; Orgrimmar|
+R Leave Orgrimmar|ACTIVE|9627|M|45.55,12.06|Z|Durotar|N|Exit Orgrimmar through the south gate.|R|BloodElf|IZ|1637; Orgrimmar|
 b Tirisfal Glades|ACTIVE|9627|M|50.88,13.88|Z|Durotar|N|Go up the tower and take the Zepplin.|
 R Undercity|ACTIVE|9627|M|66.23,0.35|Z|1458;Undercity|N|Head to Undercity.|
 P Silvermoon City|ACTIVE|9627|M|54.86,11.29|Z|1458;Undercity|N|Enter the room at the top of the stairs on the west side of the Ruins and click on the Orb of Translocation.|
 T Allegiance to the Horde|QID|9627|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron.|
 H Orgrimmar|ACTIVE|1061&-9627|N|I told you it would make sense... ;)|R|BloodElf|IZ|1942;Ghostlands|
-N Wanted: Knucklerot and Luzran|ACTIVE|9156|N|It appears you have decided to move on.\nIf you're moving on, abandon the quest now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.\n\nTake note that this will reappear if you reset without abandoning the quest.|IZ|-1942;Ghostlands|
 N The Barrens FPs|AVAILABLE|6548|N|A little running around to get the flight paths in The Barrens. We won't be getting the FP in Thunder Bluff until later.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|TAXI|-Crossroads^-Camp Taurajo|
 F Crossroads|AVAILABLE|6548|M|45.12,63.90|Z|Orgrimmar|N|From Doras.|TAXI|Crossroads|IZ|1637;Orgrimmar|
 R Leave Orgrimmar|AVAILABLE|6548|M|45.55,12.06|Z|Durotar|N|Exit Orgrimmar through the south gate.|IZ|1637; Orgrimmar|
@@ -462,8 +466,8 @@ R The Crossroads|AVAILABLE|6548|M|52.38,28.37|Z|The Barrens|N|Continue west to G
 f The Crossroads|AVAILABLE|6548|M|51.50,30.34|Z|The Barrens|N|From Devrak.|TAXI|-Crossroads|
 R Camp Taurajo|AVAILABLE|6548|M|46.29,58.00|Z|The Barrens|CC|N|Leave The Crossroads through the south gate and follow Gold Road south to Camp Taurajo.\n[color=FF0000]NOTE: [/color]The mob levels increase the closer you get to Camp Taurajo|TAXI|-Camp Taurajo|
 f Camp Taurajo|AVAILABLE|6548|M|44.44,59.15|Z|The Barrens|N|Get the flight path from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
-F Crossroads|AVAILABLE|6548|M|47.02,49.83|Z|Thunder Bluff|
-R Honor's Stand|AVAILABLE|6548|M|39.45,29.69|Z|The Barrens|N|Head west from the Crossroads along the road or go cross country.|
+F Crossroads|AVAILABLE|6548|M|44.44,59.15|Z|The Barrens|IZ|Camp Taurjo|
+R Honor's Stand|AVAILABLE|6548|M|39.45,29.69|Z|The Barrens|N|Head west from the Crossroads.\n[color=FF0000]NOTE: [/color]You can stick to the road or go cross country.|
 R Stonetalon Mountains border|AVAILABLE|6548|M|35.66,27.48|Z|The Barrens|CC|N|Continue west along the road.|
 A Avenge My Village|QID|6548|M|35.19,27.79|Z|The Barrens|N|From Makaba Flathoof.|
 T The Spirits of Stonetalon|QID|1061|M|35.26,27.88|Z|The Barrens|N|To Seereth Stonebreak.|
@@ -474,13 +478,13 @@ K Avenge My Village|ACTIVE|6548|M|82.02,88.85|Z|Stonetalon Mountains|QO|1;2|N|Yo
 T Avenge My Village|QID|6548|M|35.19,27.79|Z|The Barrens|N|Head back To Makaba Flathoof at the Stonetalon border.|
 A Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|Z|The Barrens|N|From Makaba Flathoof.|PRE|6548|
 R Stonetalon Mountains|QID|6548|M|34.12,27.60|Z|The Barrens|N|Follow the road further west into Stonetalon Mountains.|
-C Grimtotem Brutes|QID|6629|M|71.95,86.47|Z|Stonetalon Mountains|QO|2|N|Kill them as you go.|S|
+K Grimtotem Brutes|QID|6629|M|71.95,86.47|Z|Stonetalon Mountains|QO|2|N|Kill them as you go.|S|
 R Grimtotem Post|QID|6629|M|71.44,89.45;71.95,86.47|Z|Stonetalon Mountains|CC|N|Follow the road into Grimtotem Post.|
 K Kill Grundig Darkcloud|QID|6629|M|73.70,86.33|Z|Stonetalon Mountains|QO|1|N|You'll find Grundig Darkcloud standing in the doorway of the tent.\n[color=FF0000]NOTE: [/color]If he's not there, clear the area while waiting for him to respawn.|T|Grundig Darkcloud|
 A Protect Kaya|QID|6523|M|73.48,85.58|Z|Stonetalon Mountains|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Kaya Flathoof inside the tent.|
-C Protect Kaya|QID|6523|QO|1|N|Kaya will walk west out of the Grimtotem settlement and then start following the road southeast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 Grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
+C Protect Kaya|QID|6523|M|77.11,90.83|QO|1|N|Kaya will walk west out of the Grimtotem settlement and then start following the road southeast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 Grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
 A Protect Kaya|QID|6523|M|73.48,85.58|Z|Stonetalon Mountains|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Kaya Flathoof inside the tent to restart the quest.\nYou may have to wait for her to respawn|FAIL|
-C Grimtotem Brutes|QID|6629|M|79.81,87.74|Z|Stonetalon Mountains|QO|2|N|Finish killing them before you leave the area.|US|
+K Grimtotem Brutes|QID|6629|M|79.81,87.74|Z|Stonetalon Mountains|QO|2|N|Finish killing them before you leave the area.|US|
 T Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|Z|The Barrens|N|To Makaba Flathoof at the border.|
 T Protect Kaya|QID|6523|M|35.19,27.79|Z|The Barrens|N|To Makaba Flathoof.|
 A Kaya's Alive|QID|6401|M|35.19,27.79|Z|The Barrens|N|From Makaba Flathoof.|PRE|6523|
