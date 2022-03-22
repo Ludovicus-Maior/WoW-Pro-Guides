@@ -41,12 +41,12 @@ l [item=8170/Rugged Leather]|QID|165000004|L|8170 410|ITEM|8170|N|You'll need ab
 l [item=14047/Runecloth]|QID|165000004|L|14047 100|ITEM|14047|N|You'll need approx 100 Runecloth.|
 B [item=2320/Coarse Thread]|QID|165000004|L|2320 120|ITEM|2320|N|You'll need about 120 Coarse Threads.|
 B [item=2321/Fine Thread]|QID|165000004|L|2321 90|ITEM|2321|N|You'll need about 90 Fine Threads.|
-B [item=4340/Gray Dye]||QID|165000004|L|4340 31|ITEM|4340|N|You'll need about 31 Gray Dyes.|
+B [item=4340/Gray Dye]|QID|165000004|L|4340 31|ITEM|4340|N|You'll need about 31 Gray Dyes.|
 B [item=4289/Salt]|QID|165000004|L|4289 60|ITEM|4289|N|You'll need about 60 Salts.|
 B [item=4291/Silken Thread]|QID|165000004|L|4291 145|ITEM|4291|N|You'll need about 145 Silken Threads.|
 B [item=2325/Black Dye]|QID|165000004|L|2325 35|ITEM|2325|N|You'll need about 35 Black Dyes.|
 B [item=14341/Rune Thread]|QID|165000004|L|14341 35|ITEM|14341|N|You'll need about 35 Rune Threads.|
-N Shopping List|QID|165000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|165000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 ; End Shopping List
 

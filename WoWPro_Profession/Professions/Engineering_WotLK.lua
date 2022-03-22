@@ -7,19 +7,18 @@ WoWPro:GuideIcon(guide,"PRO",202)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Engineering_Northrend")
 WoWPro:GuideNickname(guide, "ENG_WotLK")
-
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:
-;  For the QID is Prof (202), Spell ID(000000) - QIDs mean NOTHING in guides.
-;  For the N Steps - QID is just 202+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
-;	 IE M [item=4357/Rough Blasting Powder]|QID|202003918|P|Engineering;202;1+0;1|ITEM|4357|CRAFT|3918 60|MATS|2835 1|N|Make all 60, you will need for next step.|
-;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 202264479 ('264479' is spell ID)
+;	For the QID is Prof (202), Spell ID(000000) - QIDs mean NOTHING in guides.
+;	For the N Steps - QID is just 202+00000# - Prof and increment numbers padded to 6 digits.
+;	For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;		IE M [item=4357/Rough Blasting Powder]|QID|202003918|P|Engineering;202;1+0;1|ITEM|4357|CRAFT|3918 60|MATS|2835 1|N|Make all 60, you will need for next step.|
+;		For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 202264479 ('264479' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
-;		= Learn Recipe|QID|202700251|P|Engineering;202;7+25|RECIPE|280732|N|Learn [spell=280732/Magical Intrusion Dampener] Rank 1, Recipe from Trainer.|
-; 	 IE learn 2 at lvl 25 |202100251| and |202100252|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;		IE = Learn Recipe|QID|202700251|P|Engineering;202;7+25|RECIPE|280732|N|Learn [spell=280732/Magical Intrusion Dampener] Rank 1, Recipe from Trainer.|
+;		IE learn 2 at lvl 25 |202100251| and |202100252|.
+;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
 ;  Updated to Retail - Northrend splits / new format on 21-Nov-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
@@ -47,11 +46,11 @@ B [item=7005/Skinning Knife]|QID|202000004|L|7005 30|ITEM|7005|N|You'll need app
 B [item=2901/Mining Pick]|QID|202000004|L|2901 30|ITEM|2901|N|You'll need approximately 30 Mining Picks.  These can be purchased from any Engineering Supplies Vendor.|
 B [item=5956/Blacksmith Hammer]|QID|202000004|L|5956 30|ITEM|5956|N|You'll need approximately 30 Blacksmith Hammers.  These can be purchased from any Engineering Supplies Vendor.|
 
-N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 = Learn [spell=264481/Northrend Engineering]|QID|202264481|M|39.0,27.2|Z|125;Dalaran!Crystalsong Forest|IZ|125|SPELL|Engineering;264481|T|Timofey Oshenko|N|Learn from Timofey Oshenko, Like Clockwork, in Dalaran, Crystalsong Forest.  NOT! Legion, Also, BUY all Recipes available.|
-= Learn [spell=264481/Northrend Engineering]|QID|202264481|M|42.6,53.6|Z|114;Borean Tundra|IZ|114;Borean Tundra|SPELL|Engineering;264481|T|Chief Engineer Leveny|N|Learn from Chief Engineer Leveny, in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
-= Learn [spell=264481/Northrend Engineering]|QID|202264481|M|59.6,64.0|Z|117;Howling Fjord|IZ|117;Howling Fjord|SPELL|Engineering;264481|T|Tisha Longbridge|N|Learn from Tisha Longbridge, in Valgard, Howling Fjord. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=264481/Northrend Engineering]|QID|202264481|M|42.6,53.6|Z|114;Borean Tundra|IZ|114|SPELL|Engineering;264481|T|Chief Engineer Leveny|N|Learn from Chief Engineer Leveny, in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264481/Northrend Engineering]|QID|202264481|M|59.6,64.0|Z|117;Howling Fjord|IZ|117|SPELL|Engineering;264481|T|Tisha Longbridge|N|Learn from Tisha Longbridge, in Valgard, Howling Fjord. Also, BUY all Recipes available.|FACTION|Alliance|
 = Learn [spell=264481/Northrend Engineering]|QID|202264481|SPELL|Engineering;264481|N|Learn Northrend Engineering in Borean Tundra, Howling Fjord or Dalaran. (Once you get to an area that has a local trainer, an arrow will popup).|
 
 M [item=39681/Handful of Cobalt Bolts]|QID|202056349|P|Engineering;202;2+20;1|L|39681 50|ITEM|39681|CRAFT|56349 35|MATS|36916 2|N|This step might clear before you hit 10, don't worry, just make sure you have at least 50!|

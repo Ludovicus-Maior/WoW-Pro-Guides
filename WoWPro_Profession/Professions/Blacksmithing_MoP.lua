@@ -36,11 +36,11 @@ M [item=72096/Ghost Iron Bar]|QID|164000004|P|Mining;186;4+1|CRAFT|102165 575|MA
 l [item=72096/Ghost Iron Bar]|QID|164000004|L|72096 575|ITEM|72096|N|You'll need about 575 Ghost Iron Bars. (If Guide worked right, you should've had a step telling you to smelt these, if you are a miner. Others Buy on AH, or find a Miner to create.)|
 l [item=76061/Spirit of Harmony]|QID|164000004|L|76061 1|ITEM|76061|N|You'll 1 Sprit of Harmony, to purchase a Plan.|
 
-N Shopping List|QID|164000005|N|This completes the Shopping List. You may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|164000005|N|This completes the Shopping List. You may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
 
-= Learn [spell=264442/Pandaria Blacksmithing]|QID|164264442|M|48.42,36.81|Z|The Jade Forest|P|Blacksmithing;164;*;0;0|SPELL|Pandaria Blacksmithing;264442|LVL|5|N|From Len the Hammer, Greenstone Village, The Jade Forest, Or Any Blacksmith Trainers in the Vale of Eternal Blossoms.|
+= Learn [spell=264442/Pandaria Blacksmithing]|QID|164264442|M|48.42,36.81|Z|371;The Jade Forest|P|Blacksmithing;164;*;0;0|SPELL|Pandaria Blacksmithing;264442|LVL|5|N|From Len the Hammer, Greenstone Village, The Jade Forest, Or Any Blacksmith Trainers in the Vale of Eternal Blossoms.  Also, BUY all Recipes available.|
 
 M [item=82906/Ghost Forged Gauntlets]|QID|164122579|P|Blacksmithing;164;4+15;1|ITEM|82906|CRAFT|122579 15|MATS|72096 7|
 = Learn Recipe|QID|164400151|P|Blacksmithing;164;4+15|RECIPE|122577|N|Learn [spell=122577/Ghost Forged Shoulders] Recipe from Trainer.|

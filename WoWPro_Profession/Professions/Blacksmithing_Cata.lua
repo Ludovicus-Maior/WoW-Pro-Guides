@@ -37,11 +37,11 @@ l [item=52327/Volatile Earth]|QID|164000004|L|52327 10|ITEM|52327|N|You'll need 
 l [item=52325/Volatile Fire]|QID|164000004|L|52325 150|ITEM|52325|N|You'll need about 150 Volatile Fires.|
 l [item=53039/Hardened Elementium Bar]|QID|164000004|L|53039 2|ITEM|53039|N|You'll need 2 Hardened Elementium Bar.|
 
-N Shopping List|QID|164000005|N|This completes the Shopping List. You may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|164000005|N|This completes the Shopping List. You may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
 
-= Learn [spell=264440/Cataclysm Blacksmithing]|QID|164264438|P|Blacksmithing;164;*;0;0|SPELL|Cataclysm Blacksmithing;264440|LVL|5|N|From Any Blacksmith Trainer, in any Major City of Old Azeroth.|
+= Learn [spell=264440/Cataclysm Blacksmithing]|QID|164264438|P|Blacksmithing;164;*;0;0|SPELL|Cataclysm Blacksmithing;264440|LVL|5|N|From Any Blacksmith Trainer, in any Major City of Old Azeroth.  Also, BUY all Recipes available.|
 
 M [item=65365/Folded Obsidium]|QID|164076178|P|Blacksmithing;164;3+5;1|ITEM|65365|CRAFT|76178 195|MATS|54849 2|N|You'll need about 195 of these for making items in later steps.|
 l [item=65365/Folded Obsidium]|QID|164076178|ITEM|65365|L|65365 195|N|You'll need about 195 of these for making items in later steps, so keep making.|

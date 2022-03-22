@@ -17,7 +17,7 @@ return [[
 ;		IE M [item=172406/Enchant Gloves - Shadowlands Gathering]|QID|333309524|P|Enchanting;333;8+10;1|CRAFT|309524 10|MATS|172230 3|
 ;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 333264473 ('264473' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
-;		= Learn Recipes|QID|333800101|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
+;		= Learn Recipes|QID|333800101|M|48.41,29.43|Z|1670;Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
 ;		IE learn 2 at lvl 10 |333800101| and |333800102|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343584/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
@@ -43,16 +43,16 @@ l [item=16203/Greater Eternal Essence]|QID|333000004|L|16203 45|ITEM|16203|N|You
 B [item=4470/Simple Wood]|QID|333000004|L|4470 10|ITEM|4470|N|You'll need to purchase at least 10 Simple Wood.|
 B [item=38682/Enchanting Vellum]|QID|333000004|L|38682 315|ITEM|38682|N|You'll need at least 315 Enchanting Vellums.|
 N Couple Recipes to Buy|QID|333000006|N|There are a couple recipes to go buy, that you'll need for later.|
-B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|35.12,52.12|Z|Ashenvale|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Dalria in Astranaar, Ashenvale (Limited Quantity)|FACTION|Alliance|
-B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|48.69,61.52|Z|Stonetalon Mountains|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Kulwia in Sun Rock Retreat, Stonetalon Mountains (Limited Quantity)|FACTION|Horde|
-B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|35.12,52.12|Z|Ashenvale|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Dalria in Astranaar, Ashenvale (Limited Quantity)|FACTION|Alliance|
-B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|48.69,61.52|Z|Stonetalon Mountains|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Kulwia in Sun Rock Retreat, Stonetalon Mountains (Limited Quantity)|FACTION|Horde|
-N [item=16217/Formula: Enchant Shield - Greater Stamina]|QID|333016217|M|69.46,62.81|Z|Tirisfal Glades|RECIPE|20017|N|Go to Zidormi, in Tirisfal Glades, and Ask to show how the Glades was before the Battle.|FACTION|Horde|
-B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|64.08,37.39|Z|Undercity|P|Enchanting;333;0+1|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Daniel Bartlett in Undercity, with your Enchanter!** Find Zidormi in Tirisfal Glades to Visit Old Undercity **|FACTION|Horde|
-N [item=16217/Formula: Enchant Shield - Greater Stamina]|QID|333016217|M|48.86,24.46|Z|Darkshore|RECIPE|20017|N|Go to Zidormi, in Darkshore, and Ask to show how Darkshore was before the Battle.|FACTION|Alliance|
-B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|58.09,34.16|Z|Darnassus|P|Enchanting;333;0+1|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Mythrin'dir in Old Darnassus, with your Enchanter! ** Find Zidormi in Darkshore to Visit Old Darnassus. **|FACTION|Alliance|
+B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|35.12,52.12|Z|63;Ashenvale|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Dalria in Astranaar, Ashenvale (Limited Quantity)|FACTION|Alliance|
+B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|48.69,61.52|Z|65;Stonetalon Mountains|RECIPE|13419|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Kulwia in Sun Rock Retreat, Stonetalon Mountains (Limited Quantity)|FACTION|Horde|
+B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|35.12,52.12|Z|63;Ashenvale|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Dalria in Astranaar, Ashenvale (Limited Quantity)|FACTION|Alliance|
+B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|48.69,61.52|Z|65;Stonetalon Mountains|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Kulwia in Sun Rock Retreat, Stonetalon Mountains (Limited Quantity)|FACTION|Horde|
+N [item=16217/Formula: Enchant Shield - Greater Stamina]|QID|333016217|M|69.46,62.81|Z|18;Tirisfal Glades|RECIPE|20017|N|Go to Zidormi, in Tirisfal Glades, and Ask to show how the Glades was before the Battle.|FACTION|Horde|
+B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|64.08,37.39|Z|90;Undercity|P|Enchanting;333;0+1|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Daniel Bartlett in Undercity, with your Enchanter!** Find Zidormi in Tirisfal Glades to Visit Old Undercity **|FACTION|Horde|
+N [item=16217/Formula: Enchant Shield - Greater Stamina]|QID|333016217|M|48.86,24.46|Z|62;Darkshore|RECIPE|20017|N|Go to Zidormi, in Darkshore, and Ask to show how Darkshore was before the Battle.|FACTION|Alliance|
+B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|58.09,34.16|Z|89;Darnassus|P|Enchanting;333;0+1|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Mythrin'dir in Old Darnassus, with your Enchanter! ** Find Zidormi in Darkshore to Visit Old Darnassus. **|FACTION|Alliance|
 
-N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
 
@@ -84,10 +84,10 @@ M [item=38844/Enchant Boots - Agility]|QID|333013935|P|Enchanting;333;0+255;1|IT
 = Learn Recipe|QID|333002551|P|Enchanting;333;0+255|RECIPE|20008|N|Learn [spell=20008/Enchant Bracer - Greater Intellect] Recipe from Trainer.|
 M [item=38846/Enchant Bracer - Greater Strength]|QID|333013939|P|Enchanting;333;0+260;1|ITEM|38846|CRAFT|13939 5|MATS|16203 2;156930 2|
 M [item=38852/Enchant Bracer - Greater Intellect]|QID|333020008|P|Enchanting;333;0+265;1|ITEM|38852|CRAFT|20008 5|MATS|16203 3|
-N [item=16217/Formula: Enchant Shield - Greater Stamina]|QID|333016217|M|69.46,62.81|Z|Tirisfal Glades|P|Enchanting;333;0+265|RECIPE|20017|N|Go to Zidormi, in Tirisfal Glades, and Ask to show how the Glades was before the Battle.|FACTION|Horde|
-B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|64.08,37.39|Z|Undercity|P|Enchanting;333;0+265|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Daniel Bartlett in Undercity, with your Enchanter!** Find Zidormi in Tirisfal Glades to Visit Old Undercity **|FACTION|Horde|
-N [item=16217/Formula: Enchant Shield - Greater Stamina]|QID|333016217|M|48.86,24.46|Z|Darkshore|P|Enchanting;333;0+265|RECIPE|20017|N|Go to Zidormi, in Darkshore, and Ask to show how Darkshore was before the Battle.|FACTION|Alliance|
-B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|58.09,34.16|Z|Darnassus|P|Enchanting;333;0+265|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Mythrin'dir in Old Darnassus, with your Enchanter! ** Find Zidormi in Darkshore to Visit Old Darnassus. **|FACTION|Alliance|
+N [item=16217/Formula: Enchant Shield - Greater Stamina]|QID|333016217|M|69.46,62.81|Z|18;Tirisfal Glades|P|Enchanting;333;0+265|RECIPE|20017|N|Go to Zidormi, in Tirisfal Glades, and Ask to show how the Glades was before the Battle.|FACTION|Horde|
+B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|64.08,37.39|Z|90;Undercity|P|Enchanting;333;0+265|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Daniel Bartlett in Undercity, with your Enchanter!** Find Zidormi in Tirisfal Glades to Visit Old Undercity **|FACTION|Horde|
+N [item=16217/Formula: Enchant Shield - Greater Stamina]|QID|333016217|M|48.86,24.46|Z|62;Darkshore|P|Enchanting;333;0+265|RECIPE|20017|N|Go to Zidormi, in Darkshore, and Ask to show how Darkshore was before the Battle.|FACTION|Alliance|
+B [spell=20017/Enchant Shield - Greater Stamina]|QID|333020017|M|58.09,34.16|Z|89;Darnassus|P|Enchanting;333;0+265|RECIPE|20017|N|[color=FF0000]NOTE: [/color]BOP!\nPurchase [item=16217/Formula: Enchant Shield - Greater Stamina] from Mythrin'dir in Old Darnassus, with your Enchanter! ** Find Zidormi in Darkshore to Visit Old Darnassus. **|FACTION|Alliance|
 U Learn Recipe|QID|333002651|P|Enchanting;333;0+265|RECIPE|20017|U|16217|N|Learn [spell=20017/Enchant Shield - Greater Stamina] Recipe from Item.|
 M [item=38861/Enchant Shield - Greater Stamina]|QID|333020017|P|Enchanting;333;0+300;1|ITEM|38861|CRAFT|20017 40|MATS|156930 4|
 

@@ -16,7 +16,7 @@ return [[
 ;		IE M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;8+8;1|CRAFT|301578 8|MATS|180732 1;169701 2|N|Create 8, needed in 2 steps.|
 ;	For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 171309822 ('309822' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
-;		IE = Learn Recipe|QID|171800151|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion] Recipe, from Trainer.|
+;		IE = Learn Recipe|QID|171800151|M|39.25,40.39|Z|1670;Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion] Recipe, from Trainer.|
 ; 		IE learn 2 at lvl 15 |171800151| and |171800152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
@@ -32,7 +32,7 @@ N Shopping List|QID|171000004|N|The next few lines are going to be an approximat
 l [item=72234/Green Tea Leaf]|QID|171072234|L|72234 20|ITEM|72234|N|You'll need about 20 Green Tea Leaf, for just the first step of this guide.  Unfortunately due to the RNG of discovery there is no way to guess what you will need.|
 B [item=3371/Crystal Vial]|QID|171003371|L|3371 100|ITEM|3371|N|You'll need about 100 Crystal Vials. This is a Guess!|
 
-= Learn [spell=264245/Pandaria Alchemy]|QID|171264245|M|46.55,46.02|Z|The Jade Forest|SPELL|Pandaria Alchemy;264245|LVL|5|N|Learn from Ni Gentlepaw, (Alchemy Supplies) Dawn's Blossom, The Jade Forest.|
+= Learn [spell=264245/Pandaria Alchemy]|QID|171264245|M|46.55,46.02|Z|371;The Jade Forest|P|Alchemy;171;*;0;0|SPELL|Pandaria Alchemy;264245|LVL|5|N|Learn from Ni Gentlepaw, (Alchemy Supplies) Dawn's Blossom, The Jade Forest.  Also, BUY all Recipes available.|
 
 N Discovery Learning|QID|171000005|N|All recipes can not be Learned at your trainer, You must discover them, as you as you Make Potions/Flasks/Elixirs.  Concentrate on Green Tea Leaf, Silkweed, Rain Poppy, Snow Lily, then Fool's Cap.|
 M [item=76097/Master Healing Potion]|QID|171114752|P|Alchemy;171;4+10;1|ITEM|76097|CRAFT|114752 20|MATS|72234 1;3371 1|N|Stop once you hit 10.|

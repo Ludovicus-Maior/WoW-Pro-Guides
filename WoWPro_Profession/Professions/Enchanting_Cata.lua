@@ -16,7 +16,7 @@ return [[
 ;		IE M [item=172406/Enchant Gloves - Shadowlands Gathering]|QID|333309524|P|Enchanting;333;8+10;1|CRAFT|309524 10|MATS|172230 3|
 ;	For the = Learn Recipe Steps - |QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 333264473 ('264473' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8
-;		= Learn Recipes|QID|333800101|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
+;		= Learn Recipes|QID|333800101|M|48.41,29.43|Z|1670;Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
 ;		IE learn 2 at lvl 10 |333800101| and |333800102|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343584/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
@@ -27,7 +27,7 @@ N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hu
 N This Guide|QID|333000001|N|Covers Cataclysm content in Retail only. Guide written in the new format.|
 N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
+N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Cataclysm Enchanting 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Begin Shopping list
 
@@ -36,11 +36,11 @@ l [item=52718/Lesser Celestial Essence]|QID|333000004|L|52718 5|ITEM|52718|N|You
 l [item=52719/Greater Celestial Essence]|QID|333000004|L|52719 106|ITEM|52719|N|You'll need at least 106 Greater Celestial Essence.|
 B [item=38682/Enchanting Vellum]|QID|333000004|L|38682 82|ITEM|38682|N|You'll need at least 82 Enchanting Vellums.|
 
-N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
 
-= Learn [spell=264464/Cataclysm Enchanting]|QID|333264462|SPELL|Cataclysm Enchanting;264464|LVL|5|N|Learn from Any Alchemy Trainer, in any Major City of Old Azeroth.|
+= Learn [spell=264464/Cataclysm Enchanting]|QID|333264462|P|Enchanting;333;*;0;0|SPELL|Cataclysm Enchanting;264464|LVL|5|N|Learn from Any Enchanting Trainer, in any Major City of Old Azeroth.  Also, BUY all Recipes available.|
 
 = Learn Recipe|QID|333300011|P|Enchanting;333;3+1|RECIPE|74189|N|Learn [spell=74189/Enchant Boots - Earthen Vitality] Recipe from Trainer.|
 = Learn Recipe|QID|333300012|P|Enchanting;333;3+1|RECIPE|74192|N|Learn [spell=74192/Enchant Cloak - Lesser Power] Recipe from Trainer.|

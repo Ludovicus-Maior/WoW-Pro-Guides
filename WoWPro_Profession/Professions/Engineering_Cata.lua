@@ -41,9 +41,9 @@ B [item=7005/Skinning Knife]|QID|202000004|L|7005 30|ITEM|7005|N|You'll need app
 B [item=2901/Mining Pick]|QID|202000004|L|2901 30|ITEM|2901|N|You'll need approximately 30 Mining Picks.  These can be purchased from any Engineering Supplies Vendor.|
 B [item=5956/Blacksmith Hammer]|QID|202000004|L|5956 30|ITEM|5956|N|You'll need approximately 30 Blacksmith Hammers.  These can be purchased from any Engineering Supplies Vendor.|
 
-N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-= Learn [spell=264483/Cataclysm Engineering]|QID|202264483|P|Engineering;202;*;0;0|SPELL|Cataclysm Engineering;264483|LVL|5|N|From Any Engineering Trainer, in any Major City of Old Azeroth.|
+= Learn [spell=264483/Cataclysm Engineering]|QID|202264483|P|Engineering;202;*;0;0|SPELL|Cataclysm Engineering;264483|LVL|5|N|From Any Engineering Trainer, in any Major City of Old Azeroth.  Also, BUY all Recipes available.|
 
 M [item=60224/Handful of Obsidium Bolts]|QID|202084403|P|Engineering;202;3+22;1|L|60224 90|ITEM|60224|CRAFT|84403 30|MATS|54849 2|N|This step might clear before you hit 22, don't worry, just make sure you have at least 90!|
 M [item=60224/Handful of Obsidium Bolts]|QID|202084403|P|Engineering;202;3+22;0|L|60224 90|ITEM|60224|CRAFT|84403 30|MATS|54849 2|N|This step will clear when you have at least 90!|

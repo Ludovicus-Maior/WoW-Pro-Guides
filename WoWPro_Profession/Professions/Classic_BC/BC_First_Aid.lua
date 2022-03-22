@@ -1,3 +1,7 @@
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
+-- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
+
 local guide = WoWPro:RegisterGuide("BC_FirstAid", "Profession", "First Aid", "WoWPro Team", "Neutral", 2)
 WoWPro:GuideIcon(guide,"PRO",129)
 WoWPro:GuideLevels(guide)
@@ -6,20 +10,20 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ;  Guide structures:
-;  For the QID is Prof (129), Spell ID(000000) - QIDs mean NOTHING in guides.
-;  For the N Steps - QID is just 129+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;	For the QID is Prof (129), Spell ID(000000) - QIDs mean NOTHING in guides.
+;	For the N Steps - QID is just 129+00000# - Prof and increment numbers padded to 6 digits.
+;	For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
 ;		IE M [item=1251/Linen Bandage]|QID|129003275|P|First Aid;129;0+40;1|ITEM|1251|CRAFT|3275 50|MATS|2589 1|
-;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
+;	For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
-;		U Learn Recipe|QID|129001251|P|First Aid;129;0+125|RECIPE|7924|U|16113|N|Learn [spell=10840/Mageweave Bandage] from the [item=16113/Manual - Mageweave Bandage].|
-;		IE learn 2 at lvl 25 |129000251| and |129000252|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;		IE U Learn Recipe|QID|129001251|P|First Aid;129;0+125|RECIPE|7924|U|16113|N|Learn [spell=10840/Mageweave Bandage] from the [item=16113/Manual - Mageweave Bandage].|
+;		IE learn 2 at lvl 25 |129000251| and |129000252|.  (Above is a Use Line, other format is = Learn Recipe, for 'training'.)
+;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Updated to Classic splits / new format on 23-July-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;	Updated to Classic splits / new format on 23-July-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
 
-N This Guide|QID|129000001|N|Covers VANILLA content in CLASSIC only. Guide rewritten to new format.|
-N PLEASE Report any issues|QID|129000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
+N This Guide|QID|129000001|N|Covers VANILLA content in The Burning Crusdade only.|
+N PLEASE Report any issues|QID|129000002|N|In our Discord #tbc-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|129000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 
 N Shopping List|QID|129000004|N|The next few lines are going to be the Approximate amount of mats you need to complete First Aid 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|

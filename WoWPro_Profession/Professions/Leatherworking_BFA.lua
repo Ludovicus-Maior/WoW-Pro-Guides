@@ -24,8 +24,8 @@ return [[
 
 N Guide Hub|QID|165000000|JUMP|Leatherworking: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|QID|165000001|N|Currently in Development, starting with BFA content.\nAlso ASSUMES you have the appropriate Skill|
-N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, using the Report Issue option menu. (Right click on the step, to bring up Menu).|
+N This Guide|QID|165000001|N|Covers what Blizzard now terms Kul Tiran / Zandalari Plans, content of Battle for Azeroth 1-175\nAlso ASSUMES you have the appropriate Skill|
+N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Shopping List|QID|165000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete LW-BFA 1 to 175.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Beginning Shopping List
@@ -37,14 +37,14 @@ l [item=154722/Tempest Hide]|QID|165000004|L|154722 50|ITEM|154722|N|You'll need
 l [item=168649/Dredged Leather]|QID|165000004|L|168649 400|ITEM|168649|N|You'll need about 400 Dredged Leathers.|
 B [item=160059/Amber Tanning Oil]|QID|165000004|L|160059 50|ITEM|160059|N|You'll need about 50 of these for this step, Purchase from Trainer OR Trade Supplies Vendor.\nAlso available from Scrapping.|
 B [item=159959/Nylon Thread]|QID|165000004|L|159959 200|ITEM|159959|N|You'll need about 200 of these for this step, Purchase from Trainer OR Trade Supplies Vendor.\nAlso available from Scrapping.|
-N Shopping List|QID|165000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|165000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 ; End Shopping List
 
-= Learn [spell=2108/Leatherworking]|QID|165002108|M|44.08,34.65|Z|Dazar'alor|SPELL|Leatherworking;2108|LVL|5|N|Learn from Xanjo, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
-= Learn [spell=265813/Zandalari Leatherworking]|QID|165265813|M|44.08,34.65|Z|Dazar'alor|P|Leatherworking;165;*;0;75|SPELL|Zandalari Leatherworking;265813|N|Learn from Xanjo, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
-= Learn [spell=2108/Leatherworking]|QID|165002108|M|75.48,12.60|Z|Boralus|SPELL|Leatherworking;2108|LVL|5|N|Learn from Cassandra Brennor, Tradewinds Market, Boralus.|FACTION|Alliance|
-= Learn [spell=264592/Kul Tiran Leatherworking]|QID|165264592|M|75.48,12.60|Z|Boralus|P|Leatherworking;165;*;0;75|SPELL|Kul Tiran Leatherworking;264592|N|Learn from Cassandra Brennor, Tradewinds Market, Boralus.|FACTION|Alliance|
+= Learn [spell=2108/Leatherworking]|QID|165002108|M|44.08,34.65|Z|1165;Dazar'alor|SPELL|Leatherworking;2108|LVL|5|N|Learn from Xanjo, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
+= Learn [spell=265813/Zandalari Leatherworking]|QID|165265813|M|44.08,34.65|Z|1165;Dazar'alor|P|Leatherworking;165;*;0;75|SPELL|Zandalari Leatherworking;265813|N|Learn from Xanjo, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
+= Learn [spell=2108/Leatherworking]|QID|165002108|M|75.48,12.60|Z|1161;Boralus|SPELL|Leatherworking;2108|LVL|5|N|Learn from Cassandra Brennor, Tradewinds Market, Boralus.|FACTION|Alliance|
+= Learn [spell=264592/Kul Tiran Leatherworking]|QID|165264592|M|75.48,12.60|Z|1161;Boralus|P|Leatherworking;165;*;0;75|SPELL|Kul Tiran Leatherworking;264592|N|Learn from Cassandra Brennor, Tradewinds Market, Boralus.|FACTION|Alliance|
 
 M [item=154153/Shimmerscale Armguards]|QID|165256757|P|Leatherworking;165;7+13;1|ITEM|154153|CRAFT|256757 13|MATS|153050 1;154164 1|
 M [item=154145/Coarse Leather Armguards]|QID|165256756|P|Leatherworking;165;7+26;1|ITEM|154145|CRAFT|256756 13|MATS|152541 1;154164 1|
@@ -62,8 +62,8 @@ M [item=154166/Coarse Leather Barding]|QID|165286019|P|Leatherworking;165;7+120;
 U Coarse Leather Barding|QID|165700852|P|Leatherworking;165;7+85;0|RECIPE|286021|ITEM|166313|N|Learn [spell=286021/Coarse Leather Barding] (Rank 3)\nRandom World Drop, must have learned Rank 2m before you can use.|
 M [item=154166/Coarse Leather Barding]|QID|165286019|P|Leatherworking;165;7+125;1|ITEM|154166|CRAFT|286019 45|MATS|152541 15|
 M [item=154167/Drums of the Maelstrom]|QID|165256791|P|Leatherworking;165;7+120;1|ITEM|154167|CRAFT|256791 30|MATS|152541 25;154164 10|
-= Learn Recipe|QID|165701501|PRE|54972|M|38.0,53.6|Z|Nazjatar|P|Leatherworking;165;7+150;0|RECIPE|301405|N|Learn [spell=301405/Dredged Leather Bladder] Recipe from Instructor Alikana|FACTION|ALLIANCE|
-= Learn Recipe|QID|165701501|PRE|55053|M|49.0,61.6|Z|Nazjatar|P|Leatherworking;165;7+150;0|RECIPE|301405|N|Learn [spell=301405/Dredged Leather Bladder] Recipe from Jada.|FACTION|HORDE|
+= Learn Recipe|QID|165701501|PRE|54972|M|38.0,53.6|Z|1355;Nazjatar|P|Leatherworking;165;7+150;0|RECIPE|301405|N|Learn [spell=301405/Dredged Leather Bladder] Recipe from Instructor Alikana|FACTION|ALLIANCE|
+= Learn Recipe|QID|165701501|PRE|55053|M|49.0,61.6|Z|1355;Nazjatar|P|Leatherworking;165;7+150;0|RECIPE|301405|N|Learn [spell=301405/Dredged Leather Bladder] Recipe from Jada.|FACTION|HORDE|
 M [item=169445/Dredged Leather Bladder]|QID|165301405|P|Leatherworking;165;7+175;1|ITEM|169445|CRAFT|301405 40|MATS|168649 10;159959 5|
 
 N Congratulations|QID|164000010|N|That completes Leatherworking - BFA.|

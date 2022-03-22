@@ -33,13 +33,13 @@ l [item=109118/Blackrock Ore]|QID|202000004|L|109118 1188|ITEM|109118|N|You'll n
 l [item=109119/True Iron Ore]|QID|202000004|L|109119 1188|ITEM|109119|N|You'll need about 1,188 True Iron Ores.|
 l [item=109128/Nagrand Arrowbloom]|QID|202000004|L|109128 24|ITEM|109128|N|You'll need about 24 Nagrand Arrowblooms, IF Expensive, SKIP!|
 
-N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 U [item=111921/Draenor Engineering]|QID|202264445|SPELL|Draenor Engineering;264487|U|111921|N|You need to either buy from a Vendor in Ashran, complete a Quest Chain, or Build the Engineering Works in your Garrison to Learn Draenor Engineering.|
 
 M [item=119299/Secret of Draenor Engineering]|QID|202177054|P|Engineering;202;5+2;1|ITEM|119299|CRAFT|177054 1|MATS|109119 5|N|This is a Daily Cooldown Item.  You need one to purchase a recipe.|
-B [spell=169078/Didis Delicate Assembly]|QID|202169078|M|70.6,39.6|Z|Warspear|P|Engineering;202;*;0;0|RECIPE|169078|T|Nik Steelrings|N|Use the [item=119299/Secret of Draenor Engineering] to Purchase [item=118493/Schematic: Didis Delicate Assembly]|FACTION|Horde|
-B [spell=169078/Didis Delicate Assembly]|QID|202169078|M|47.6,40.6|Z|Stormshield|P|Engineering;202;*;0;0|RECIPE|169078|T|Sean Catchpole|N|Use the [item=119299/Secret of Draenor Engineering] to Purchase [item=118493/Schematic: Didis Delicate Assembly]|FACTION|Alliance|
+B [spell=169078/Didis Delicate Assembly]|QID|202169078|M|70.6,39.6|Z|624;Warspear|P|Engineering;202;*;0;0|RECIPE|169078|T|Nik Steelrings|N|Use the [item=119299/Secret of Draenor Engineering] to Purchase [item=118493/Schematic: Didis Delicate Assembly], or at your Engineering Works.|FACTION|Horde|
+B [spell=169078/Didis Delicate Assembly]|QID|202169078|M|47.6,40.6|Z|622;Stormshield|P|Engineering;202;*;0;0|RECIPE|169078|T|Sean Catchpole|N|Use the [item=119299/Secret of Draenor Engineering] to Purchase [item=118493/Schematic: Didis Delicate Assembly], or at your Engineering Works.|FACTION|Alliance|
 = Learn Recipe|QID|2025000011|RECIPE|169078|N|Use [item=118493/Schematic: Didis Delicate Assembly] to Learn the Recipe.|
 M [item=109184/Stealthman 54]|QID|202162207|P|Engineering;202;5+30;1|ITEM|109184|CRAFT|162207 12|MATS|109118 2;109119 2;109128 2|N|If [item=109128/Nagrand Arrowbloom] is expensive, make what you can, then skip.|
 M [item=118007/Mecha-Blast Rocket]|QID|202173308|P|Engineering;202;5+30;1|ITEM|118007|CRAFT|173308 23|MATS|109118 6|N|This is one of two you can make, if you do not have enough, just make what you can and skip.|

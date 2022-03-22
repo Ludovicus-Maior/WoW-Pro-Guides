@@ -34,9 +34,9 @@ l [item=72096/Ghost Iron Bar]|QID|202000004|L|72096 406|ITEM|72096|N|You'll need
 l [item=72988/Windwool Cloth]|QID|202000004|L|72988 60|ITEM|72988|N|You'l need approximately 60 Windwool Cloth.|
 l [item=76061/Spirit of Harmony]|QID|202000004|L|76061 26|ITEM|76061|N|You'll need approximately 26 Spirit of Harmony. Remember that 10 [item=89112/Mote of Harmony] creates one Spirit.|
 
-N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-= Learn [spell=264485/Pandaria Engineering]|QID|202264485|M|16.00,83.00|Z|Valley of the Four Winds|P|Engineering;202;*;0;0|SPELL|Pandaria Engineering;264485|LVL|5|N|From Sally Fizzlefury, Nesingwary's Safari, Valley of the Four Winds, Or Any Engineering Trainers in the Vale of Eternal Blossoms.|
+= Learn [spell=264485/Pandaria Engineering]|QID|202264485|M|16.00,83.00|Z|376;Valley of the Four Winds|P|Engineering;202;*;0;0|SPELL|Pandaria Engineering;264485|LVL|5|N|From Sally Fizzlefury, Nesingwary's Safari, Valley of the Four Winds, Or Any Engineering Trainers in the Vale of Eternal Blossoms.  Also, BUY all Recipes available.|
 
 M [item=77467/Ghost Iron Bolts]|QID|202127113|P|Engineering;202;4+13;1|L|77467 224|ITEM|77467|CRAFT|127113 112|MATS|72096 3|N|This step might clear before you hit 13, don't worry, just make sure you have at least 224!|
 M [item=77467/Ghost Iron Bolts]|QID|202127113|P|Engineering;202;4+13;0|L|77467 224|ITEM|77467|CRAFT|127113 112|MATS|72096 3|N|This step will clear when you have at least 224!|
