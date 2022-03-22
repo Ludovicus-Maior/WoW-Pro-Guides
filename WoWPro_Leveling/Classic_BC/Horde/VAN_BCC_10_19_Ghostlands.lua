@@ -285,7 +285,7 @@ T Deactivate An'owyn|QID|9169|M|60.28,35.61|N|To Magister Sylastor.|
 R Farstrider Enclave|ACTIVE|9159|M|73.83,32.11|
 T Curbing the Plague|QID|9159|M|72.50,32.13|N|To Farstrider Sedina.|
 T Assault on Zeb'Nowa|QID|9277|M|72.32,31.24|N|To Farstrider Solanna.|
-t Bring Me Kel'gash's Head!|QID|9215|M|72.37,29.65|N|To Captain Helios.|IZ|Farstrider Enclave|
+t Bring Me Kel'gash's Head!|QID|9215|M|72.37,29.65|N|To Captain Helios.|
 T Shadowpine Weaponry|QID|9214|M|72.37,29.65|N|To Captain Helios.|
 T A Little Dash of Seasoning|QID|9275|M|72.62,31.56|N|To Apothecary Venustus.|
 H Tranquillien|ACTIVE|9218|M|46.43,37.58|
@@ -331,7 +331,7 @@ A Carendin Summons|QID|10605|M|73.09,46.95|Z|Silvermoon City|N|From Alamma, loca
 P Undercity|AVAILABLE|1472&1507|M|49.49,14.80|Z|Silvermoon City|N|Use the Orb of Translocation located at the very back of Sunfury Spire atop the ramp.|C|Warlock|
 f Undercity|AVAILABLE|1472&1507|M|63.26,48.55|Z|1458;Undercity|N|Make your way down into Undercity and get the flight path from Michael Garrett.|TAXI|-Undercity|
 N Kalimdor or Eastern Kingdoms|AVAILABLE|1472&1507|N|From this point, you can choose where you do your quest chain.\nThe Eastern Kingdoms version starts in UC and the Kalimdor version starts in Orgrimmar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-R Leave Undercity|AVAILABLE|1472|M|66.1,38.4;66.2,0.9;66.2,1.2|Z|1458;Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.\n[color=FF0000]NOTE: [/color]If you wish to do the Eastern Kingdoms version, skip this step.|IZ|1497;Undercity|
+R Leave Undercity|AVAILABLE|1472&1507|M|66.1,38.4;66.2,0.9;66.2,1.2|Z|1458;Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.\n[color=FF0000]NOTE: [/color]If you wish to do the Eastern Kingdoms version, skip this step.|IZ|1497;Undercity|
 b Durotar|AVAILABLE|1507|M|60.71,58.78|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|C|Warlock|IZ|85;Tirisfal Glades|
 ; --- Undercity version
 R Magic Quarter|AVAILABLE|1472&1507|M|74.55,29.34|Z|1458;Undercity|N|Make your way to the Magic Quarter in the northeast corner of Undercity.|IZ|1458;Undercity|
@@ -422,22 +422,23 @@ A Friend of the Sin'dorei|QID|9811|M|55.07,48.83|N|From Magister Kaendris.|PRE|9
 T Dar'Khan's Lieutenants|QID|9170|M|54.87,48.55|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.82,48.35|N|To Arcanist Janeda.|
 N Wanted: Knucklerot and Luzran|ACTIVE|9156|N|At this point in time, you have to decide if you are going to complete the quest or move on.\nIf you're moving on, abandon the quest now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|1942;Ghostlands|
-K Luzran|ACTIVE|9156|M|34.3,50.3;37.3,67.5;39.5,32.0|CN|QO|2|N|Luzran spawns at Bleeding Ziggurat and begins his path south through the The Dead Scar to the Deatholme entrance, then to the northern waypoint before turning back south to the Deatholme entrance and ultimately returning to Bleeding Ziggurat to start the trip anew.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip. Skipping this will skip all related steps as well.|T|Luzran|IZ|1942;Ghostlands|
-K Knucklerot|ACTIVE|9156|M|41.7,45.2;33.1,53.1;25.6,55.4;22.6,49.1;22.2,40.4;27.5,38.1;30.4,35.9;27.7,29.9;29.4,21;25.4,16.3|CN|QO|1|N|Knucklerot spawns at Howling Ziggurat and begins his path by following the road across The Dead Scar past and through to Windrunner Village. From here he works his way along the shore until he crosses over the river just above the waterfall and heads for the road leading into Goldenmist Village. He follows this road to the fountain between the buildings. At this point, he turns around and begins to path back to the beginning. His return path is the exact same with one exception. After crossing the river, he goes to Sanctum of the Moon before heading to Windrunner Village.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip.|T|Knucklerot|IZ|1942;Ghostlands|
-R Tranquillien|AVAILABLE|1061|M|46.52,31.90|N|Run to Tranquillien.|
+K Luzran|ACTIVE|9156|M|34.3,50.3;37.3,67.5;39.5,32.0|CC|QO|2|N|Luzran spawns at Bleeding Ziggurat and begins his path south through the The Dead Scar to the Deatholme entrance, then to the northern waypoint before turning back south to the Deatholme entrance and ultimately returning to Bleeding Ziggurat to start the trip anew.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip. Skipping this will skip all related steps as well.|T|Luzran|IZ|1942;Ghostlands|
+K Knucklerot|ACTIVE|9156|M|41.7,45.2;33.1,53.1;25.6,55.4;22.6,49.1;22.2,40.4;27.5,38.1;30.4,35.9;27.7,29.9;29.4,21;25.4,16.3|CC|QO|1|N|Knucklerot spawns at Howling Ziggurat and begins his path by following the road across The Dead Scar past and through to Windrunner Village. From here he works his way along the shore until he crosses over the river just above the waterfall and heads for the road leading into Goldenmist Village. He follows this road to the fountain between the buildings. At this point, he turns around and begins to path back to the beginning. His return path is the exact same with one exception. After crossing the river, he goes to Sanctum of the Moon before heading to Windrunner Village.\n[color=FF0000]NOTE: [/color]If you have help, or can solo him, do so; otherwise, go ahead and skip.|T|Knucklerot|IZ|1942;Ghostlands|
+R Tranquillien|AVAILABLE|1061|M|46.52,31.90|N|Run to Tranquillien.\n[color=FF0000]NOTE: [/color]You'll want to save your hearth for later.|
 T Wanted: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|IZ|1942;Ghostlands|
 A Journey to Undercity|QID|9177^9180|M|44.77,32.45|N|From High Executor Mavren.|PRE|9175|LVL|20;-1660| ; ** this quest greys at lv 22 and the exp drops at 21
+N Wanted: Knucklerot and Luzran|ACTIVE|9156|N|It appears you have decided to move on.\nIf you're moving on, abandon the quest now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.\n\nTake note that this will reappear if you reset the guide without abandoning the quest.|IZ|-1942;Ghostlands|
 F Silvermoon City|AVAILABLE|1061|M|45.43,30.53|
 R Housekeeping|AVAILABLE|1061|N|Visit your trainers, AH, etc.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-T Hero of the Sin'dorei|QID|9328|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron.|R|BloodElf|
+T Hero of the Sin'dorei|QID|9328|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron in Sunfury Spire.|R|BloodElf|
 T Friend of the Sin'dorei|QID|9811|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron.|R|-BloodElf||
-A Envoy to the Horde|QID|9621|M|53.79,20.22|Z|Silvermoon City|N|From Lor'themar Theron.|PRE|9328|R|BloodElf|
+A Envoy to the Horde|QID|9621|M|53.79,20.22|Z|Silvermoon City|N|From Lor'themar Theron in Sunfury Spire.|PRE|9328|R|BloodElf|
 A Envoy to the Horde|QID|9812|M|53.79,20.22|Z|Silvermoon City|N|From Lor'themar Theron.|PRE|9811|R|-BloodElf|
 P Undercity|AVAILABLE|1061|M|49.49,14.80|Z|Silvermoon City|N|Go into the room behind Lor'themar and click on the Orb of Translocation at the top of the ramp.|
 f Undercity|AVAILABLE|1061|M|63.26,48.55|Z|1458;Undercity|N|Get the flight path from Michael Garrett inside Undercity.|TAXI|-Undercity|
-R Royal Quarter|ACTIVE|9177^9180^9621^9812|M|51.30,65.60|Z|1458;Undercity|N|The entrance to Royal Quarter is by the outer ring of The Apothecarium in the southwest corner of Undercity.|
+R Royal Quarter|ACTIVE|9177^9180^9621^9812|M|51.15,65.90|Z|1458;Undercity|N|The entrance to Royal Quarter is by the outer ring of The Apothecarium in the southwest corner of Undercity.|
 T Journey to Undercity|QID|9177^9180|M|58.05,91.79|Z|1458;Undercity|N|To Lady Sylvanas Windrunner.|
-T Envoy to the Horde|QID|9621^9812|M|58.05,91.79|Z|1458;Undercity|N|To Lady Sylvanas Windrunner.|R|BloodElf|
+T Envoy to the Horde|QID|9621^9812|M|58.05,91.79|Z|1458;Undercity|N|To Lady Sylvanas Windrunner.|
 A Meeting the Warchief|QID|9626|M|57.93,91.79|Z|1458;Undercity|N|From Lady Sylvanas Windrunner.|PRE|9621|R|BloodElf|
 A Meeting the Warchief|QID|9813|M|57.93,91.79|Z|1458;Undercity|N|From Lady Sylvanas Windrunner.|PRE|9812|R|-BloodElf|
 R Leave Undercity|AVAILABLE|1061|M|66.1,38.4;66.2,0.9;66.2,1.2|Z|1458;Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|IZ|1497;Undercity|
@@ -450,13 +451,12 @@ R Grommash Hold|AVAILABLE|1061|M|40.46,36.96|Z|Orgrimmar|
 T Meeting the Warchief|QID|9626^9813|M|31.65,37.83|Z|Orgrimmar|N|To Thrall inside Grommash Hold.|
 A Allegiance to the Horde|QID|9627|M|31.65,37.83|Z|Orgrimmar|N|From Thrall.|PRE|9626|R|BloodElf|
 A The Spirits of Stonetalon|QID|1061|M|38.93,38.37|Z|Orgrimmar|N|From Zor Lonetree (just inside Grommash Hold).\n[color=FF0000]NOTE: [/color]This quest leads to a quest we will be doing in the next guide.|LEAD|1062|
-R Leave Orgrimmar|ACTIVE|9627|M|45.55,12.06|Z|Durotar|N|Exit Orgrimmar through the south gate.|IZ|1637; Orgrimmar|
+R Leave Orgrimmar|ACTIVE|9627|M|45.55,12.06|Z|Durotar|N|Exit Orgrimmar through the south gate.|R|BloodElf|IZ|1637; Orgrimmar|
 b Tirisfal Glades|ACTIVE|9627|M|50.88,13.88|Z|Durotar|N|Go up the tower and take the Zepplin.|
 R Undercity|ACTIVE|9627|M|66.23,0.35|Z|1458;Undercity|N|Head to Undercity.|
 P Silvermoon City|ACTIVE|9627|M|54.86,11.29|Z|1458;Undercity|N|Enter the room at the top of the stairs on the west side of the Ruins and click on the Orb of Translocation.|
 T Allegiance to the Horde|QID|9627|M|53.79,20.22|Z|Silvermoon City|N|To Lor'themar Theron.|
 H Orgrimmar|ACTIVE|1061&-9627|N|I told you it would make sense... ;)|R|BloodElf|IZ|1942;Ghostlands|
-N Wanted: Knucklerot and Luzran|ACTIVE|9156|N|It appears you have decided to move on.\nIf you're moving on, abandon the quest now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.\n\nTake note that this will reappear if you reset without abandoning the quest.|IZ|-1942;Ghostlands|
 N The Barrens FPs|AVAILABLE|6548|N|A little running around to get the flight paths in The Barrens. We won't be getting the FP in Thunder Bluff until later.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|TAXI|-Crossroads^-Camp Taurajo|
 F Crossroads|AVAILABLE|6548|M|45.12,63.90|Z|Orgrimmar|N|From Doras.|TAXI|Crossroads|IZ|1637;Orgrimmar|
 R Leave Orgrimmar|AVAILABLE|6548|M|45.55,12.06|Z|Durotar|N|Exit Orgrimmar through the south gate.|IZ|1637; Orgrimmar|
@@ -466,8 +466,8 @@ R The Crossroads|AVAILABLE|6548|M|52.38,28.37|Z|The Barrens|N|Continue west to G
 f The Crossroads|AVAILABLE|6548|M|51.50,30.34|Z|The Barrens|N|From Devrak.|TAXI|-Crossroads|
 R Camp Taurajo|AVAILABLE|6548|M|46.29,58.00|Z|The Barrens|CC|N|Leave The Crossroads through the south gate and follow Gold Road south to Camp Taurajo.\n[color=FF0000]NOTE: [/color]The mob levels increase the closer you get to Camp Taurajo|TAXI|-Camp Taurajo|
 f Camp Taurajo|AVAILABLE|6548|M|44.44,59.15|Z|The Barrens|N|Get the flight path from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
-F Crossroads|AVAILABLE|6548|M|47.02,49.83|Z|Thunder Bluff|
-R Honor's Stand|AVAILABLE|6548|M|39.45,29.69|Z|The Barrens|N|Head west from the Crossroads along the road or go cross country.|
+F Crossroads|AVAILABLE|6548|M|44.44,59.15|Z|The Barrens|IZ|Camp Taurjo|
+R Honor's Stand|AVAILABLE|6548|M|39.45,29.69|Z|The Barrens|N|Head west from the Crossroads.\n[color=FF0000]NOTE: [/color]You can stick to the road or go cross country.|
 R Stonetalon Mountains border|AVAILABLE|6548|M|35.66,27.48|Z|The Barrens|CC|N|Continue west along the road.|
 A Avenge My Village|QID|6548|M|35.19,27.79|Z|The Barrens|N|From Makaba Flathoof.|
 T The Spirits of Stonetalon|QID|1061|M|35.26,27.88|Z|The Barrens|N|To Seereth Stonebreak.|
@@ -478,13 +478,13 @@ K Avenge My Village|ACTIVE|6548|M|82.02,88.85|Z|Stonetalon Mountains|QO|1;2|N|Yo
 T Avenge My Village|QID|6548|M|35.19,27.79|Z|The Barrens|N|Head back To Makaba Flathoof at the Stonetalon border.|
 A Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|Z|The Barrens|N|From Makaba Flathoof.|PRE|6548|
 R Stonetalon Mountains|QID|6548|M|34.12,27.60|Z|The Barrens|N|Follow the road further west into Stonetalon Mountains.|
-C Grimtotem Brutes|QID|6629|M|71.95,86.47|Z|Stonetalon Mountains|QO|2|N|Kill them as you go.|S|
+K Grimtotem Brutes|QID|6629|M|71.95,86.47|Z|Stonetalon Mountains|QO|2|N|Kill them as you go.|S|
 R Grimtotem Post|QID|6629|M|71.44,89.45;71.95,86.47|Z|Stonetalon Mountains|CC|N|Follow the road into Grimtotem Post.|
 K Kill Grundig Darkcloud|QID|6629|M|73.70,86.33|Z|Stonetalon Mountains|QO|1|N|You'll find Grundig Darkcloud standing in the doorway of the tent.\n[color=FF0000]NOTE: [/color]If he's not there, clear the area while waiting for him to respawn.|T|Grundig Darkcloud|
 A Protect Kaya|QID|6523|M|73.48,85.58|Z|Stonetalon Mountains|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Kaya Flathoof inside the tent.|
-C Protect Kaya|QID|6523|QO|1|N|Kaya will walk west out of the Grimtotem settlement and then start following the road southeast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 Grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
+C Protect Kaya|QID|6523|M|77.11,90.83|QO|1|N|Kaya will walk west out of the Grimtotem settlement and then start following the road southeast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 Grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
 A Protect Kaya|QID|6523|M|73.48,85.58|Z|Stonetalon Mountains|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Kaya Flathoof inside the tent to restart the quest.\nYou may have to wait for her to respawn|FAIL|
-C Grimtotem Brutes|QID|6629|M|79.81,87.74|Z|Stonetalon Mountains|QO|2|N|Finish killing them before you leave the area.|US|
+K Grimtotem Brutes|QID|6629|M|79.81,87.74|Z|Stonetalon Mountains|QO|2|N|Finish killing them before you leave the area.|US|
 T Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|Z|The Barrens|N|To Makaba Flathoof at the border.|
 T Protect Kaya|QID|6523|M|35.19,27.79|Z|The Barrens|N|To Makaba Flathoof.|
 A Kaya's Alive|QID|6401|M|35.19,27.79|Z|The Barrens|N|From Makaba Flathoof.|PRE|6523|
