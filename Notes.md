@@ -1,3 +1,40 @@
+# Release 9.2.0-A4 / 1.14.2-A4 / 2.5.4-A0
+## Bug Fixes
+* Allow negative loot quantities for Profession guides
+* PLAYER cordinates now also set the zone explicitly
+* Bug in MATS processing in Profession guides fixed
+* Retail: Fixed map entry for "The Fracture Chamber"
+* BCC: Update Interface for new client
+
+## Guide Updates
+
+### Retail Leveling
+* Alliance:
+* Horde:
+* Neutral: Ardenweald, Bastion, Chains of Domination, Covenant, **Eternity's End**, Maldraxxus, Revendreth
+### Retail Dailies
+* Horde: Argent Tournament
+### Retail Professions
+* Alchemy: All 9 updated
+* Blacksmithing:  Ditto
+* Enchanting: Ditto
+* Engineering: Ditto
+* Jewlcrafting: Ditto
+* Leatherworking: Ditto
+* Tailoring: Ditto
+* Inscription: Shadowlands
+
+### Classic Leveling
+* Nada
+### Classic Professions
+* Alchemy, BS, Enchanting, Eng, First Aid, LW, Tailoring
+
+### Burning Crusade Classic Leveling
+* Horde: Ghostlands
+### Burning Crusade Classic Professions
+* Alchemy, BS, Enchanting, Eng, First Aid, JC, LW, Tailoring
+
+
 # Release 9.2.0-A3 / 1.14.2-A3 / 2.5.3-A4
 ## Bug Fixes
 * Instance Hide/Show was misbehaving.  Total rewrite.
