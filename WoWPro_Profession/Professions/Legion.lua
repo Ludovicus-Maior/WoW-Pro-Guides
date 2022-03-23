@@ -161,16 +161,16 @@ T Ringing True|QID|39905|M|38.31,40.34|Z|627;Dalaran@Dalaran70|P|Enchanting;333;
 
 ; Level 41 Enchanting Quest Chain
 A Thunder Struck|QID|39878|M|38.31,40.34|Z|627;Dalaran@Dalaran70|P|Enchanting;333;6;1|LVL|41|N|From Enchanter Nalthanis|
-T Thunder Struck|QID|39878|M|44.49,45.54|Z|652;ThunderTotem|P|Enchanting;333;6;1|N|To Guron Twaintail|
-A Strong Like the Earth|QID|39879|PRE|39878|M|44.49,45.54|Z|652;ThunderTotem|P|Enchanting;333;6;1|N|From Guron Twaintail|
-A Waste Not|QID|39880|PRE|39878|M|44.49,45.54|Z|652;ThunderTotem|P|Enchanting;333;6;1|N|From Guron Twaintail|
+T Thunder Struck|QID|39878|M|44.49,45.54|Z|750;ThunderTotem|P|Enchanting;333;6;1|N|To Guron Twaintail|
+A Strong Like the Earth|QID|39879|PRE|39878|M|44.49,45.54|Z|750;ThunderTotem|P|Enchanting;333;6;1|N|From Guron Twaintail|
+A Waste Not|QID|39880|PRE|39878|M|44.49,45.54|Z|750;ThunderTotem|P|Enchanting;333;6;1|N|From Guron Twaintail|
 C Strong Like the Earth|ACTIVE|39879|M|51.10,52.50;49.45,54.45;52.74,53.96|Z|650;Highmountain|CN|S|P|Enchanting;333;6;1|N|Kill Enraged Ambershards|T|Enraged Ambershards|
 C Highmountain Armor|ACTIVE|39880|Z|650;Highmountain|S|P|Enchanting;333;6;1|N|Collect armor from the ground and disenchant to [Thunder Dust]|
 C Strong Like the Earth|ACTIVE|39879|M|51.10,52.50;49.45,54.45;52.74,53.96|Z|650;Highmountain|CN|US|P|Enchanting;333;6;1|N|Kill Enraged Ambershards|T|Enraged Ambershards|
 C Highmountain Armor|ACTIVE|39880|Z|650;Highmountain|US|P|Enchanting;333;6;1|N|Collect armor from the ground and disenchant to [Thunder Dust]|
-T Strong Like the Earth|QID|39879|M|44.49,45.54|Z|652;ThunderTotem|P|Enchanting;333;6;1|N|To Guron Twaintail|
-T Waste Not|QID|39880|M|44.49,45.54|Z|652;ThunderTotem|P|Enchanting;333;6;1|N|To Guron Twaintail|
-A Cloaked in Tradition|QID|39883|PRE|39880|M|44.49,45.54|Z|652;ThunderTotem|P|Enchanting;333;6;1|N|From Guron Twaintail|
+T Strong Like the Earth|QID|39879|M|44.49,45.54|Z|750;ThunderTotem|P|Enchanting;333;6;1|N|To Guron Twaintail|
+T Waste Not|QID|39880|M|44.49,45.54|Z|750;ThunderTotem|P|Enchanting;333;6;1|N|To Guron Twaintail|
+A Cloaked in Tradition|QID|39883|PRE|39880|M|44.49,45.54|Z|750;ThunderTotem|P|Enchanting;333;6;1|N|From Guron Twaintail|
 T Cloaked in Tradition|QID|39883|M|38.31,40.34|Z|627;Dalaran@Dalaran70|P|Enchanting;333;6;1|N|To Enchanter Nalthanis, at Dalaran.|
 
 ; Level 42 Enchanting Quest Chain
@@ -499,27 +499,27 @@ K Vestment Opportunity|ACTIVE|40178|M|45.6,67.2|Z|634;Stormheim|T|Jann Harnelor|
 T Stormheim Savagery|QID|40179|M|35.54,29.93|Z|627;Dalaran@Dalaran70|P|Leatherworking;165;6;1|N|From Diane Cannings.|
 T Vestment Opportunity|QID|40178|M|35.54,29.93|Z|627;Dalaran@Dalaran70|P|Leatherworking;165;6;1|N|To Diane Cannings.|
 A Tauren Tanning|QID|40184|PRE|40178|M|35.54,29.93|Z|627;Dalaran@Dalaran70|P|Leatherworking;165;6;1|N|From Diane Cannings.|
-C Tauren Tanning|ACTIVE|40184|M|36.76,79.09|Z|Thunder Totem|T|Hrul Sharphoof|CHAT|P|Leatherworking;165;6;1|N|Talk to Hrul.\n[color=FF0000]NOTE: [/color]If World Quest: Assualt on Thunder Totem is active, it needs to be finished first.|
-T Tauren Tanning|QID|40184|M|36.65,79.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|N|To Hrul Sharphoof|
-A Drogbar Durability|QID|40186|PRE|40184|LVL|41|M|36.65,79.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|N|From Hrul Sharphoof.|
-A Shoulder the Burden|QID|40185|PRE|40184|LVL|41|M|36.65,79.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|N|From Hrul Sharphoof.|
-A Stamped Stories|QID|40191|PRE|40184|M|36.65,79.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|N|From Hrul Sharphoof.|
-C Leyota's Legacy|ACTIVE|40191|QO|3|M|36.5,81.7|Z|652;ThunderTotem|P|Leatherworking;165;6;1|N|Read the Carved Racks.|
-C Revelation of Garhan|ACTIVE|40191|QO|2|M|36.6,82.4|Z|652;ThunderTotem|P|Leatherworking;165;6;1|N|Read the Carved Racks.|
-C Caruk the Simple|ACTIVE|40191|QO|1|M|36.8,82.0|Z|652;ThunderTotem|P|Leatherworking;165;6;1|N|Read the Carved Racks.|
-t Stamped Stories|QID|40191|M|36.65,79.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|N|To Hrul Sharphoof|
-A Claw of the Land|QID|40192|PRE|40191|LVL|42|M|36.65,79.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|N|From Hrul Sharphoof.|
+C Tauren Tanning|ACTIVE|40184|M|36.76,79.09|Z|750;ThunderTotem|T|Hrul Sharphoof|CHAT|P|Leatherworking;165;6;1|N|Talk to Hrul.\n[color=FF0000]NOTE: [/color]If World Quest: Assualt on 750;ThunderTotem is active, it needs to be finished first.|
+T Tauren Tanning|QID|40184|M|36.65,79.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|N|To Hrul Sharphoof|
+A Drogbar Durability|QID|40186|PRE|40184|LVL|41|M|36.65,79.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|N|From Hrul Sharphoof.|
+A Shoulder the Burden|QID|40185|PRE|40184|LVL|41|M|36.65,79.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|N|From Hrul Sharphoof.|
+A Stamped Stories|QID|40191|PRE|40184|M|36.65,79.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|N|From Hrul Sharphoof.|
+C Leyota's Legacy|ACTIVE|40191|QO|3|M|36.5,81.7|Z|750;ThunderTotem|P|Leatherworking;165;6;1|N|Read the Carved Racks.|
+C Revelation of Garhan|ACTIVE|40191|QO|2|M|36.6,82.4|Z|750;ThunderTotem|P|Leatherworking;165;6;1|N|Read the Carved Racks.|
+C Caruk the Simple|ACTIVE|40191|QO|1|M|36.8,82.0|Z|750;ThunderTotem|P|Leatherworking;165;6;1|N|Read the Carved Racks.|
+t Stamped Stories|QID|40191|M|36.65,79.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|N|To Hrul Sharphoof|
+A Claw of the Land|QID|40192|PRE|40191|LVL|42|M|36.65,79.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|N|From Hrul Sharphoof.|
 K Claw of the Land|ACTIVE|40192|M|40.8,50.5|Z|650;Highmountain|T|Pinerock Stalker|L|130070 100|P|Leatherworking;165;6;1|N|Kill Pinerock Stalkers to collect Stalker Claws.|
-t Claw of the Land|QID|40192|M|36.65,79.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|N|To Hrul Sharphoof.|
+t Claw of the Land|QID|40192|M|36.65,79.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|N|To Hrul Sharphoof.|
 A Rats!|QID|40198|PRE|40192|M|35.54,30.13|Z|627;Dalaran@Dalaran70|LVL|43|P|Leatherworking;165;6;1|N|From Diane Cannings|
-C Rats!|ACTIVE|40198|M|55.01,64.01|Z|1014/11|LVL|43|P|Leatherworking;165;6;1|L|130078 9|N|Kill Rats in the Sewers until you have 9 Leatherworking Pattern Scrap|
-C Rats!|ACTIVE|40198|M|55.01,64.01|Z|1014/11|LVL|43|P|Leatherworking;165;6;1|U|130078|N|Combine 3 Scraps to make one Highmountain Leatherworking Pattern.|
+C Rats!|ACTIVE|40198|M|55.01,64.01|Z|628;The Underbelly@Dalaran70|LVL|43|P|Leatherworking;165;6;1|L|130078 9|N|Kill Rats in the Sewers until you have 9 Leatherworking Pattern Scrap|
+C Rats!|ACTIVE|40198|M|55.01,64.01|Z|628;The Underbelly@Dalaran70|LVL|43|P|Leatherworking;165;6;1|U|130078|N|Combine 3 Scraps to make one Highmountain Leatherworking Pattern.|
 t Rats!|QID|40198|M|35.54,30.13|Z|627;Dalaran@Dalaran70|LVL|43|P|Leatherworking;165;6;1|N|To Diane Cannings|
 A The Final Lessons|QID|40202|PRE|40198|M|35.54,30.13|Z|627;Dalaran@Dalaran70|LVL|44|P|Leatherworking;165;6;1|N|From Diane Cannings|
-t The Final Lessons|QID|40202|M|36.65,79.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|To Hrul Sharphoof.|
-A Strength of the Past|QID|40203|PRE|40202|M|36.65,73.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|From Hrul Sharphoof.|
-A Evolution of the Past|QID|40204|PRE|40202|M|36.65,73.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|From Hrul Sharphoof.|
-A Respect for the Past|QID|40205|PRE|40202|M|36.65,73.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|From Hrul Sharphoof.|
+t The Final Lessons|QID|40202|M|36.65,79.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|To Hrul Sharphoof.|
+A Strength of the Past|QID|40203|PRE|40202|M|36.65,73.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|From Hrul Sharphoof.|
+A Evolution of the Past|QID|40204|PRE|40202|M|36.65,73.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|From Hrul Sharphoof.|
+A Respect for the Past|QID|40205|PRE|40202|M|36.65,73.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|From Hrul Sharphoof.|
 C Neltharion's Vault|ACTIVE|40203|M|44.94,65.45;44.24,72.23|Z|650;Highmountain|CS|P|Leatherworking;165;6;1|LVL|44|QO|1|N|Run up to Neltharion's Vault.|
 C Scale of Deathwing|ACTIVE|40203|M|28.83,32.06;34.94,26.10|Z|657;Floor 1@Path of Huln!Highmountain|CS|P|Leatherworking;165;6;1|LVL|44|QO|1|N|Follow this path to the scale.|
 C Strength of the Past|ACTIVE|40203|M|42.36,62.95|Z|657;Floor 1@Path of Huln!Highmountain|P|Leatherworking;165;6;1|LVL|44|QO|1|N|Get Deathwing's Scale here.|
@@ -530,10 +530,10 @@ C Wisdom of Garuu|ACTIVE|40205|M|41.11,43.19|Z|650;Highmountain|P|Leatherworking
 C Wisdom of Torgrul|ACTIVE|40205|M|38.33,61.16|Z|650;Highmountain|P|Leatherworking;165;6;1|LVL|44|QO|4|N|Run to Lifespring Cavern|
 C Wisdom of Torgrul|ACTIVE|40205|M|43.41,60.94;41.50,87.92|Z|655;Lifespring Lower Cavern@Lifespring Cavern|CS|P|Leatherworking;165;6;1|LVL|44|QO|4|N|Click on Torgrul's Rack.|
 C Evolution of the Past|ACTIVE|40204|M|50.90,57.76;49.71,67.10|Z|650;Highmountain|CN|P|Leatherworking;165;6;1|LVL|44|T|Coldscale Gazecrawler|N|Kill Basilisk in this area.|
-t Strength of the Past|QID|40203|M|36.65,79.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|To Hrul Sharphoof.|
-t Respect for the Past|QID|40205|M|36.65,79.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|To Hrul Sharphoof.|
-t Evolution of the Past|QID|40204|M|36.65,73.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|To Hrul Sharphoof.|
-A Well Spent Time|QID|40415|PRE|40203&40204&40205|M|36.65,73.43|Z|652;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|From Hrul Sharphoof.|
+t Strength of the Past|QID|40203|M|36.65,79.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|To Hrul Sharphoof.|
+t Respect for the Past|QID|40205|M|36.65,79.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|To Hrul Sharphoof.|
+t Evolution of the Past|QID|40204|M|36.65,73.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|To Hrul Sharphoof.|
+A Well Spent Time|QID|40415|PRE|40203&40204&40205|M|36.65,73.43|Z|750;ThunderTotem|P|Leatherworking;165;6;1|LVL|44|N|From Hrul Sharphoof.|
 t Well Spent Time|QID|40415|M|35.05,29.25|Z|627;Dalaran@Dalaran70|LVL|44|P|Leatherworking;165;6;1|N|To Namha Moonwater|
 
 ; Mail Armour Quests
@@ -559,8 +559,9 @@ A Getting the Kinks Out|QID|40193|PRE|40189|M|34.45,28.43|Z|627;Dalaran@Dalaran7
 T Getting the Kinks Out|QID|40193|M|47.52,44.17|Z|630;Azsuna|P|Leatherworking;165;6;1|N|To Celea.|
 A A Daring Rescue|QID|40195|PRE|40188&40189|LVL|42|M|47.52,44.17|Z|630;Azsuna|P|Leatherworking;165;6;1|N|From Celea.|
 A Reclaimed Cargo|QID|40194|PRE|40188&40189|LVL|42|M|47.52,44.17|Z|630;Azsuna|P|Leatherworking;165;6;1|N|From Celea.|
-C Reclaimed Cargo|ACTIVE|40194|M|46.48,59.32|Z|Azsuna/18|P|Leatherworking;165;6;1|QO|1|S|N|Find Crates scattered throughout.|
-A Testing the Metal|QID|40327|PRE|40195|M|82.66,85.18|Z|Azsuna/18|P|Leatherworking;165;6;1|N|From Taldranis.|
+R Oceanus Cove|ACTIVE|40194|M|48.11,50.66|Z|630;Azsuna|N|Run / Fly to Oceanus Cove.|
+C Reclaimed Cargo|ACTIVE|40194|M|46.48,59.32|Z|632;Oceanus Cove!Azsuna|P|Leatherworking;165;6;1|QO|1|S|N|Find Crates scattered throughout.|
+A Testing the Metal|QID|40327|PRE|40195|M|82.66,85.18|Z|632;Oceanus Cove!Azsuna|P|Leatherworking;165;6;1|N|From Taldranis.|
 A Leather Legwork|QID|40199|PRE|40194|M|34.45,28.43|Z|627;Dalaran@Dalaran70|LVL|43|P|Leatherworking;165;6;1|N|From Thanid Glowergold.|
 C Leather Legwork|ACTIVE|40199|M|50.97,73.94|Z|627;Dalaran@Dalaran70|CHAT|QO|1|T|Bragund Brightlink|P|Leatherworking;165;6;1|N|Ask Bragund Brightlink, for an extra crowbar.|
 C Leather Legwork|ACTIVE|40199|M|46.23,27.34|Z|627;Dalaran@Dalaran70|CHAT|QO|2|T|Imindril Spearsong|P|Leatherworking;165;6;1|N|Ask Imindril, for some armour stands.|
@@ -833,11 +834,11 @@ C Echoes of My Ancestors|ACTIVE|41172|QO|1|P|Archaeology;794;6;1|N|Complete 25 H
 t Echoes of My Ancestors|QID|41172|M|47.43,42.57|Z|630;Azsuna|P|Archaeology;794;6;1|N|To Tae'thelan Bloodwatcher.|
 
 ; A The Right Path|QID|41192|M|40.62,25.98|Z|627;Dalaran@Dalaran70|LVL|45|P|Archaeology;794;6;1|N|From Dariness the Learned.|
-T The Right Path|QID|41192|M|45.91,45.08|Z|652;ThunderTotem|P|Archaeology;794;6;1|N|To Lessah Moonwater.|
-A Laying to Rest|QID|41193|PRE|41192|M|45.91,45.08|Z|652;ThunderTotem|P|Archaeology;794;6;1|N|From Lessah Moonwater.|
+T The Right Path|QID|41192|M|45.91,45.08|Z|750;ThunderTotem|P|Archaeology;794;6;1|N|To Lessah Moonwater.|
+A Laying to Rest|QID|41193|PRE|41192|M|45.91,45.08|Z|750;ThunderTotem|P|Archaeology;794;6;1|N|From Lessah Moonwater.|
 C Laying to Rest|ACTIVE|41193|QO|1|P|Archaeology;794;6;1|N|Collect Bone Fragment of Eche'ro, at digsites in Highmountain.|
-C Laying to Rest|ACTIVE|41193|QO|2|M|64.52,50.21|Z|652;ThunderTotem|CHAT|P|Archaeology;794;6;1|N|Talk to Lessah, and tell her, "Here are remaining bone fragments."|
-t Laying to Rest|QID|41193|M|64.52,50.21|Z|652;ThunderTotem|P|Archaeology;794;6;1|N|To Lessah Moonwater.|
+C Laying to Rest|ACTIVE|41193|QO|2|M|64.52,50.21|Z|750;ThunderTotem|CHAT|P|Archaeology;794;6;1|N|Talk to Lessah, and tell her, "Here are remaining bone fragments."|
+t Laying to Rest|QID|41193|M|64.52,50.21|Z|750;ThunderTotem|P|Archaeology;794;6;1|N|To Lessah Moonwater.|
 
 ; A Unspeakable Power|QID|41180|40.62,25.98|Z|627;Dalaran@Dalaran70|LVL|45|P|Archaeology;75|N|From Dariness the Learned.|
 F Felblaze Ingress|ACTIVE|41180|M|69.85,51.15|Z|627;Dalaran@Dalaran70|P|Archaeology;794;6;1|N|Fly to Felblaze Ingress, At Aludane Whitecloud.\n[Unspeakable Power]|

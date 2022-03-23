@@ -73,10 +73,8 @@ M [item=153709/Krakens Eye of Intellect]|QID|755256702|P|Jewelcrafting;755;7+150
 N Items needed|QID|755701501|P|Jewelcrafting;755;7+145|N|Next recipes were not listed above, just use which gems you have for the item to make.|
 = Learn Recipe|QID|755701501|PRE|54972|M|38.0,53.2|Z|1355;Nazjatar|P|Jewelcrafting;755;7+145|RECIPE|298794|N|Learn [spell=298794/Versatile Dark Opal] Recipe, from Instructor Okanu.|FACTION|Alliance|
 = Learn Recipe|QID|755701502|PRE|54972|M|38.0,53.2|Z|1355;Nazjatar|P|Jewelcrafting;755;7+145|RECIPE|298797|N|Learn [spell=298797/Masterful Sea Currant] Recipe, from Instructor Okanu.|FACTION|Alliance|
-= Learn Recipe|QID|755701503|PRE|54972|M|38.0,53.2|Z|1355;Nazjatar|P|Jewelcrafting;755;7+150|RECIPE|300619|N|Learn [spell=300619/Mass Prospect Osmenite] Recipe, from Instructor Okanu.|FACTION|Alliance|
 = Learn Recipe|QID|755701501|PRE|55053|M|49.2,61.6|Z|1355;Nazjatar|P|Jewelcrafting;755;7+145|RECIPE|298794|N|Learn [spell=298794/Versatile Dark Opal] Recipe, from Narv.|FACTION|Horde|
 = Learn Recipe|QID|755701502|PRE|55053|M|49.2,61.6|Z|1355;Nazjatar|P|Jewelcrafting;755;7+145|RECIPE|298797|N|Learn [spell=298797/Masterful Sea Currant] Recipe, from Narv.|FACTION|Horde|
-= Learn Recipe|QID|755701503|PRE|55053|M|49.2,61.6|Z|1355;Nazjatar|P|Jewelcrafting;755;7+150|RECIPE|300619|N|Learn [spell=300619/Mass Prospect Osmenite] Recipe, from Narv.|FACTION|Horde|
 M [item=168642/Versatile Dark Opal]|QID|755298794|P|Jewelcrafting;755;7+155;1|ITEM|168642|CRAFT|298794 5|MATS|168189 1|N|Make 5 of these, OR ALTERNATE: [item=168640/Masterful Sea Currant], or some of each. Right-Click to skip.|
 M [item=168640/Masterful Sea Currant]|QID|755298797|P|Jewelcrafting;755;7+155;1|ITEM|168640|CRAFT|298797 5|MATS|168191 1|
 = Learn Recipe|QID|755701551|PRE|54972|M|38.0,53.2|Z|1355;Nazjatar|P|Jewelcrafting;755;7+155|RECIPE|298798|N|Learn [spell=298798/Deadly Lava Lazuli] Recipe, from Instructor Okanu.|FACTION|Alliance|
@@ -90,6 +88,8 @@ M [item=168640/Masterful Sea Currant]|QID|755298797|P|Jewelcrafting;755;7+159;1|
 M [item=168639/Deadly Lava Lazuli]|QID|755298798|P|Jewelcrafting;755;7+161;1|ITEM|168639|CRAFT|298798 5|MATS|168190 1|N|Make any 10 of these, or mix with the other 4 recipes. Right-Click to do other recipes.|
 M [item=169220/Straddling Sage Agate]|QID|755300756|P|Jewelcrafting;755;7+163;1|ITEM|169220|CRAFT|300756 5|MATS|168188 1|N|Make any 10 of these, or mix with the other 4 recipes. Right-Click to do other recipes.|
 M [item=168641/Quick Sand Spinel]|QID|755298796|P|Jewelcrafting;755;7+165;1|ITEM|168641|CRAFT|298796 5|MATS|168192 1|N|Make any 10 of these, or mix with the other 4 recipes. Right-Click to do other recipes.|
+= Learn Recipe|QID|755701651|PRE|54972|M|38.0,53.2|Z|1355;Nazjatar|P|Jewelcrafting;755;7+165|RECIPE|300619|N|Learn [spell=300619/Mass Prospect Osmenite] Recipe, from Instructor Okanu.|FACTION|Alliance|
+= Learn Recipe|QID|755701651|PRE|55053|M|49.2,61.6|Z|1355;Nazjatar|P|Jewelcrafting;755;7+165|RECIPE|300619|N|Learn [spell=300619/Mass Prospect Osmenite] Recipe, from Narv.|FACTION|Horde|
 N Mass Prospect Osmenite|QID|755300619|P|Jewelcrafting;755;7+175;1|N|Just use [spell=300619/Mass Prospect Osmenite] to Mass Prospect Osmenite for your last points.|
 N Congratulations|QID|755000010|N|That completes Jewelcrafting - Battle for Azeroth, if you aren't at full level, either finish Mass Prospecting Osmenite, or  wait for Darkmoon Faire! for your last few points.|
 ]]

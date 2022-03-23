@@ -42,7 +42,7 @@ N Shopping List|QID|755000004|N|There is no Shopping list for this one, to compl
 N JC level 1 - 20|QID|755000020|P|Jewelcrafting;755;2+20;1|N|Make any Gems you have materials for, mix and match for you want.|
 M [item=42336/Bloodstone Band]|QID|755056193|P|Jewelcrafting;755;2+25;1|ITEM|42336|CRAFT|56193 5|MATS|37701 2;36917 1|N|This is just one listed, you can make of this one, OR [item=43245/Crystal Chalcedony amulet], [item=43244/Crsytal Citrine Necklace], or [item=42337/Sun Rock Ring].|
 M [item=43248/Stoneguard Band]|QID|755058145|P|Jewelcrafting;755;2+45;1|ITEM|43248|CRAFT|58145 23|MATS|35624 2|N|Alternate recipe is [item=43249/Shadowmight Ring], which is listed next, right click to skip.|
-M [item=43249/Shadowmight Ring]QID|755058146|P|Jewelcrafting;755;2+45;1|ITEM|43249|CRAFT|58146 23|MATS|35624 1;35627 1|
+M [item=43249/Shadowmight Ring]|QID|755058146|P|Jewelcrafting;755;2+45;1|ITEM|43249|CRAFT|58146 23|MATS|35624 1;35627 1|
 N Find an Alchemist|QID|755057427|P|Jewelcrafting;755;2+45|N|Find an Alchemist who can [spell=57427/Transmute: Earthsiege Diamond] OR [spell=57425/Transmute: Skyflare Diamond] you will need about 30, you can check the Auction House, but might be costly there. You could make some other recipes that don't need the Diamons, but need [item=41163/Titanium Bar] instead, also costly on the AH.|
 M [item=41397/Powerful Earthsiege Diamond]|QID|755055399|P|Jewelcrafting;755;2+70;1|ITEM|41397|CRAFT|55399 15|MATS|41334 1|N|Either this one, or [item=41399/Swift Skyflare Diamond], and mix them up.|
 M [item=41399/Swift Skyflare Diamond]|QID|755055394|P|Jewelcrafting;755;2+70;1|ITEM|41399|CRAFT|55394 15|MATS|41266 1|N|If out of Diamonds, an alternate is listed next.|
