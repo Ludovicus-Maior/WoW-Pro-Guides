@@ -3,7 +3,7 @@
 ## Notes: World Achievements guides created by the WoW-Pro Community
 ## Author: Twists
 ## Dependencies: WoWPro
-## Version: 9.2.0-A3
+## Version: 9.2.0-A4
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
 WoWPro_Achievements.lua
