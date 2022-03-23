@@ -16,7 +16,7 @@ return [[
 ;		IE M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;8+8;1|CRAFT|301578 8|MATS|180732 1;169701 2|N|Create 8, needed in 2 steps.|
 ;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 171309822 ('309822' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
-;		IE = Learn Recipe|QID|171800151|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion] Recipe, from Trainer.|
+;		IE = Learn Recipe|QID|171800151|M|39.25,40.39|Z|1670;Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion] Recipe, from Trainer.|
 ; 		IE learn 2 at lvl 15 |171800151| and |171800152|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
@@ -27,7 +27,7 @@ N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|
 N This Guide|QID|171000001|N|Covers Cataclysm content in Retail only. Guide written in the new format.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
+N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Cataclysm Alchemy 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 l [item=52983/Cinderbloom]|QID|171000004|L|52983 85|ITEM|52983|N|You'll need about 85 Cinderbloom.|
 l [item=52985/Azsharas Veil]|QID|171000004|L|52985 15|ITEM|52985|N|You'll need about 15 Azshara's Veil.|
@@ -39,9 +39,9 @@ l [item=52179/Alicite]|QID|171000004|L|52179 15|ITEM|52179|N|You'll need about 1
 l [item=52180/Nightstone]|QID|171000004|L|52180 15|ITEM|52180|N|You'll need about 15 Nightstone.|
 B [item=3371/Crystal Vial]|QID|171000004|L|3371 80|ITEM|3371|N|You'll need about 80 Crystal Vials.|
 
-N Shopping List|QID|171000006|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|171000006|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-= Learn [spell=264243/Cataclysm Alchemy]|QID|171264243|SPELL|Cataclysm Alchemy;264243|LVL|5|N|Learn from Any Alchemy Trainer, in any Major City of Old Azeroth.|
+= Learn [spell=264243/Cataclysm Alchemy]|QID|171264243|P|Alchemy;171;*;0;0|SPELL|Cataclysm Alchemy;264243|LVL|5|N|Learn from Any Alchemy Trainer, in any Major City of Old Azeroth.  Also, BUY all Recipes available.|
 
 M [item=67415/Draught of War]|QID|171093935|P|Alchemy;171;3+05;1|ITEM|67415|CRAFT|93935 5|MATS|52983 1;3371 1|
 = Learn Recipe|QID|171300051|P|Alchemy;171;3+05|RECIPE|53900|N|Learn [spell=80477/Ghost Elixir] Recipe from Trainer.|

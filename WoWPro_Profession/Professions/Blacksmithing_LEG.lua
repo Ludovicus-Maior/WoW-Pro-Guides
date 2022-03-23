@@ -25,7 +25,7 @@ return [[
 N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|164000001|N|Covers what Blizzard now terms Legion Plans, content of Legion 1-100\nAlso ASSUMES you have the appropriate Skill|
-N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports|
+N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Legion 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.|
 
@@ -38,15 +38,16 @@ l [item=123919/Felslate]|QID|164000004|L|123919 120|ITEM|123919|N|You'll need ab
 l [item=123918/Leystone Ore]|QID|164000004|L|123918 60|ITEM|123918|N|You'll need about 60 Leystone Ores.|
 l [item=124124/Blood of Sargeras]|QID|164000004|L|124124 28|ITEM|124124|N|You'll need about 28 Blood of Sargeras.|
 l [item=124439/Unbroken Tooth]|QID|164000004|L|124439 20|ITEM|124439|N|You'll need about 20 Unbroken Tooth.|
-B [spell=182983/Demonsteel Waistguard] Rank 3|QID|164123949|M|65.8,80.6|Z|The Underbelly@Dalaran70|RECIPE|182983|N|Purchase [item=123949/Recipe: Demonsteel Waistguard] from Strap Bucklebolt, 500 Sightless Eyes.|
-N Shopping List|QID|164000004|N|This completes the Shopping List. You may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+B [spell=182983/Demonsteel Waistguard] Rank 3|QID|164123949|M|65.8,80.6|Z|628;The Underbelly@Dalaran70|RECIPE|182983|N|Purchase [item=123949/Recipe: Demonsteel Waistguard] from Strap Bucklebolt, 500 Sightless Eyes.|
+N Shopping List|QID|164000004|N|This completes the Shopping List. You may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
 
-M [item=124461/Demonsteel Bar]|QID|164184442|PRE|38833|M|54.65,84.08|Z|Highmountain|P|Blacksmithing;164;6+60;1|ITEM|124461|CRAFT|184442 60|MATS|123919 2;123918 1|
-M [item=123916/Demonsteel Waistguard]|QID|164182945|M|54.65,84.08|Z|Highmountain|P|Blacksmithing;164;6+61;1|ITEM|123916|CRAFT|182945 1|MATS|124461 8;124439 20;124124 3|N|Just make one, and turn into Muirn Ironhorn for Rank 2 recipe.|
+M [item=124461/Demonsteel Bar]|QID|164184442|PRE|38833|M|54.65,84.08|Z|650;Highmountain|P|Blacksmithing;164;6+60;1|ITEM|124461|CRAFT|184442 60|MATS|123919 2;123918 1|
+M [item=123916/Demonsteel Waistguard]|QID|164182945|M|54.65,84.08|Z|650;Highmountain|P|Blacksmithing;164;6+61;1|ITEM|123916|CRAFT|182945 1|MATS|124461 8;124439 20;124124 3|N|Just make one, and turn into Muirn Ironhorn for Rank 2 recipe.|
+B [spell=182983/Demonsteel Waistguard] Rank 3|QID|164123949|M|65.8,80.6|Z|628;The Underbelly@Dalaran70|RECIPE|182983|N|Purchase [item=123949/Recipe: Demonsteel Waistguard] from Strap Bucklebolt, 500 Sightless Eyes.|
 U Learn Recipe|QID|164182983|U|123949|N|Learn the recipe from the item [item=123949/Recipe: Demonsteel Waistguard] Rank 3.|
-M [item=123916/Demonsteel Waistguard]|QID|164182983|M|54.65,84.08|Z|Highmountain|P|Blacksmithing;164;6+100;1|ITEM|123916|CRAFT|182983 14|MATS|124461 4;124124 2|N|Make sure you have Rank 3! You can purchase from Strap Bucklebolt for 500 Sightless Eyes, Dalaran Sewers.|
+M [item=123916/Demonsteel Waistguard]|QID|164182983|M|54.65,84.08|Z|650;Highmountain|P|Blacksmithing;164;6+100;1|ITEM|123916|CRAFT|182983 14|MATS|124461 4;124124 2|N|Make sure you have Rank 3! You can purchase from Strap Bucklebolt for 500 Sightless Eyes, Dalaran Sewers.|
 
 N Congratulations|QID|164000010|N|That completes Blacksmithing - Legion Plans.|
 ]]

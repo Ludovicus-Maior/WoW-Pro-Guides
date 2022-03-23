@@ -50,7 +50,7 @@ l [item=12365/Dense Stone]|QID|202000004|L|12365 40|ITEM|12365|N|You'll need abo
 l [item=12359/Thorium Bar]|QID|202000004|L|12359 195|ITEM|12359|N|You'll need about 195 Thorium Bar.|
 l [item=14047/Runecloth]|QID|202000004|L|14047 25|ITEM|14047|N|You'll need approx 25 Runecloth.|
 B [item=2880/Weak Flux]|QID|202000004|L|2880 25|ITEM|2880|N|You'll need approx 25 Weak Flux.|
-N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 = Learn [spell=4036/Engineering]|QID|202002259|SPELL|Engineering;4036|LVL|5|N|Learn from a Trainer in any major city.|
 B [item=5956/Blacksmith Hammer]|QID|202005956|ITEM|5956|L|5956 1|N|Buy from a NPC Supply|

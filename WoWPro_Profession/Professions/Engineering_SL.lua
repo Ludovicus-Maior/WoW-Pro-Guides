@@ -37,8 +37,8 @@ N Decision Time|QID|202000004|N|You have a choice of two Scopes to make.\n[item=
 l [item=173108/Oriblase]|QID|202000004|L|173108 30|ITEM|173108|N|You'll need 30 Oriblase. If you are making the [item=172921/Infra-green Relfex Sight], Click off to skip.|
 l [item=173108/Oriblase]|QID|202000004|L|173108 15|ITEM|173108|N|You'll need 15 Oriblase. If you are making the [item=172920/Optical Target Embiggener], Click off to skip.|
 l [item=173109/Angerseye]|QID|202000004|L|173109 15|ITEM|173109|N|You'll need 15 Angerseye. If you are making the [item=172920/Optical Target Embiggener], Click off to skip.|
-B [item=183952/Machinists Oil]|QID|202000004|M|37.68,42.95|Z|Ring of Fates@Oribos|L|183952 35|ITEM|183952|N|You'll need about 35 Machinist's Oil - Sold by Distributor Au'burk.|
-B [item=180733/Luminous Flux]|QID|202000004|M|37.68,42.95|Z|Ring of Fates@Oribos|L|180733 30|ITEM|180733|N|You'll need about 30 Luminous Flux - Sold by Distributor Au'burk.|
+B [item=183952/Machinists Oil]|QID|202000004|M|37.68,42.95|Z|1670;Ring of Fates@Oribos|L|183952 35|ITEM|183952|N|You'll need about 35 Machinist's Oil - Sold by Distributor Au'burk.|
+B [item=180733/Luminous Flux]|QID|202000004|M|37.68,42.95|Z|1670;Ring of Fates@Oribos|L|180733 30|ITEM|180733|N|You'll need about 30 Luminous Flux - Sold by Distributor Au'burk.|
 N Class Specific Mats|QID|202000004|N|If you are NOT on your Engineer, there are some Class Specific Mats you need.  PLEASE switch back to yoiur Engineer to get the correct list.|
 l [item=173110/Umbryl]|QID|202000004|P|Engineering;202;8+0|L|173110 2|ITEM|173110|N|You will need 2 Umbryl Gems for your Head Gear.|C|Mage,Priest,Warlock|
 l [item=173202/Shrouded Cloth]|QID|202000004|P|Engineering;202;8+0|L|173202 10|ITEM|173202|N|You will need 10 Shrouded Cloth for your Head Gear.|C|Mage,Priest,Warlock|
@@ -55,21 +55,21 @@ l [item=173109/Angerseye]|QID|202000004|P|Engineering;202;8+0|L|173109 17|ITEM|1
 l [item=171832/Sinvyr Ore]|QID|202000004|L|171832 10|ITEM|171832|N|You'll need at least 10 Sinvyr Ore for your Head Gear. Found in Revendreth.|C|Death Knight,Paladin,Warrior|
 N Shopping List|QID|202000005|N|This completes the Shopping List|
 
-= Learn [spell=4036/Engineering]|QID|202004036|M|38.06,44.72|Z|Ring of Fates@Oribos|SPELL|Engineering;4036|LVL|5|N|Learn from Machinist Au'gur in Oribos.|
-= Learn [spell=310542/Shadowlands Engineering]|QID|202310542|M|38.06,44.72|Z|Ring of Fates@Oribos|P|Engineering;202;*;0;75|SPELL|Shadowlands Engineering;310542|LVL|48|N|Learn from Machinist Au'gur in Oribos.|
+= Learn [spell=4036/Engineering]|QID|202004036|M|38.06,44.72|Z|1670;Ring of Fates@Oribos|SPELL|Engineering;4036|LVL|5|N|Learn from Machinist Au'gur in Oribos.|
+= Learn [spell=310542/Shadowlands Engineering]|QID|202310542|M|38.06,44.72|Z|1670;Ring of Fates@Oribos|P|Engineering;202;*;0;75|SPELL|Shadowlands Engineering;310542|LVL|48|N|Learn from Machinist Au'gur in Oribos.|
 
 N These Crafts|QID|202000006|N|Will be used in most Shadowlands Engineering recipes, Make them now for "free" skill points and save them. Hopefully this will get you to 25|
 l [item=171840/Porous Stone]|QID|202171840|P|Engineering;202;8+0|L|171840 124|ITEM|171840|N|You'll need about 124 Porous Stone, for this step.|
 l [item=171828/Laestrite Ore]|QID|202171828|P|Engineering;202;8+0|L|171828 115|ITEM|171828|N|You'll need about 115 Laestrite Ore, for this step.|
-M [item=172935/Porous Polishing Abrasive]|QID|202310524|P|Engineering;202;8+15;1|CRAFT|310524 62|MATS|171840 2|N|Make a total of 186, so craft 62.|
+M [item=172935/Porous Polishing Abrasive]|QID|202310524|P|Engineering;202;8+15;1|CRAFT|310524 62|MATS|171840 2|N|This step will clear after making 14, but you will need a total of 186, so craft 62.|
 l [item=172935/Porous Polishing Abrasive]|QID|202310524|L|172935 184|ITEM|172935|N|Step cleared before you finished, Make more until you have a total of 184.  Remember each time you craft it, it makes 3.|
-M [item=172934/Handful of Laestrite Bolts]|QID|202310522|P|Engineering;202;8+25;1|CRAFT|310522 113|MATS|171828 1|N|Make a total of 226, so craft 113.|
+M [item=172934/Handful of Laestrite Bolts]|QID|202310522|P|Engineering;202;8+25;1|CRAFT|310522 113|MATS|171828 1|N|This step will clear after making 10, but you will need a total of 226, so craft 113.|
 l [item=172934/Handful of Laestrite Bolts]|QID|202310522|L|172934 226|ITEM|172934|N|Step cleared before you finished, Make more until you have a total of 226.  Remember each time you craft it, it makes 2.|
 = Learn Recipe|QID|202800151|P|Engineering;202;8+15|RECIPE|310525|N|Learn [spell=310525/Mortal Coiled Spring] Recipe from Trainer.|
 = Learn Recipe|QID|202800152|P|Engineering;202;8+25|RECIPE|310526|N|Learn [spell=310526/Wormfed Gear Assembly] Recipe from Trainer.|
 M [item=172936/Mortal Coiled Spring]|QID|202310525|P|Engineering;202;8+35;1|ITEM|172936|CRAFT|310525 10|MATS|172935 3;171828 5;180733 2|
 = Learn Recipe|QID|202800351|P|Engineering;202;8+35|RECIPE|310536|N|Learn [spell=310536/Precision Lifeforce Inverter] Recipe from Trainer.|
-M [item=172923/Precision Lifeforce Inverter]|QID|202310536|P|Engineering;202;8+41;1|ITEM|172923|CRAFT|30|MATS|171828 4;172934 4;177061 8;172936 1|
+M [item=172923/Precision Lifeforce Inverter]|QID|202310536|P|Engineering;202;8+41;1|ITEM|172923|CRAFT|310536 30|MATS|171828 4;172934 4;177061 8;172936 1|
 M [item=172936/Mortal Coiled Spring]|QID|202310525|P|Engineering;202;8+46;1|ITEM|172936|CRAFT|310525 5|MATS|172935 3;171828 5;180733 2|
 = Learn Recipe|QID|202800451|P|Engineering;202;8+45|RECIPE|343099|N|Learn [spell=343099/Crafters Mark I] Recipe from Trainer.|
 M [item=172937/Wormfed Gear Assembly]|QID|202310526|P|Engineering;202;8+50;1|ITEM|172937|CRAFT|310526 4|MATS|172935 5;171828 3;172934 4;183952 1|N|Need 4 for next recipe, we'll come back to make more.|

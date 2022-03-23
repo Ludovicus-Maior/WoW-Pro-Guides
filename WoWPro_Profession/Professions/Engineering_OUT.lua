@@ -38,7 +38,7 @@ l [item=21877/Netherweave Cloth]|QID|202000004|L|21877 35|ITEM|21877|N|You'll ne
 l [item=23446/Adamantite Bar]|QID|202000004|L|23446 200|ITEM|23446|N|You'll need approx 200 Adamantite Bar (upto 350).|
 l [item=23449/Khorium Bar]|QID|202000004|L|23449 6|ITEM|23449|N|You'll need approx 6 Khorium Bar (upto 15).|
 l [item=21884/Primal Fire]|QID|202000004|L|21884 6|ITEM|21884|N|You'll need approx 6 Primal Fire (upto 15).|
-N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 = Learn [spell=264479/Outland Engineering]|QID|202264479|M|54.8,38.6|Z|100;Hellfire Peninsula|IZ|100;Hellfire Peninsula|SPELL|Engineering;264479|LVL|50|N|Learn from Zebig, in Thrallmar, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Horde|
 = Learn [spell=264479/Outland Engineering]|QID|202264479|M|55.6,65.6|Z|100;Hellfire Peninsula|IZ|100;Hellfire Peninsula|SPELL|Engineering;264479|LVL|50|N|Learn from Lebowski, in Honor Hold, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Alliance|

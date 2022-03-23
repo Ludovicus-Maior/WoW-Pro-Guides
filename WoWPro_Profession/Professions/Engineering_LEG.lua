@@ -35,13 +35,13 @@ N Shopping List|QID|202000004|N|The next few lines are going to be the TOTAL amo
 
 l [item=123918/Leystone Ore]|QID|202000004|L|123918 140|ITEM|123918|N|You'll need about 140 Leystone Ores.|
 B [item=136637/Oversized Blasting Cap]|QID|202000004|L|136637 2800|ITEM|136637|N|You'll need about 2,800 Oversized Blasting Cap. Approx 3,200 Gold (without discount).|
-B [spell=199000/Gunpowder Charge] Rank 2|QID|202000004|M|71.6,23.6|Z|The Underbelly@Dalaran70|RECIPE|199000|N|Purchase [item=137706/Schematic: Gunpowder Charge] Rank 2 from The Widow, The Underbelly, Broken Isle Dalaran for 250 Sightless Eyes.|
-B [spell=199014/Gunpowder Charge] Rank 3|QID|202000004|M|71.6,23.6|Z|The Underbelly@Dalaran70|RECIPE|199014|N|Purchase [item=137720/Schematic: Gunpowder Charge] Rank 3 from The Widow, The Underbelly, Broken Isle Dalaran for 1,500 Gold and 500 Sightless Eyes.|
+B [spell=199000/Gunpowder Charge] Rank 2|QID|202000004|M|71.6,23.6|Z|628;The Underbelly@Dalaran70|RECIPE|199000|N|Purchase [item=137706/Schematic: Gunpowder Charge] Rank 2 from The Widow, The Underbelly, Broken Isle Dalaran for 250 Sightless Eyes.|
+B [spell=199014/Gunpowder Charge] Rank 3|QID|202000004|M|71.6,23.6|Z|628;The Underbelly@Dalaran70|RECIPE|199014|N|Purchase [item=137720/Schematic: Gunpowder Charge] Rank 3 from The Widow, The Underbelly, Broken Isle Dalaran for 1,500 Gold and 500 Sightless Eyes.|
 
-N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-B [spell=199000/Gunpowder Charge] Rank 2|QID|202000004|M|71.6,23.6|Z|The Underbelly@Dalaran70|RECIPE|199000|N|Purchase [item=137706/Schematic: Gunpowder Charge] Rank 2 from The Widow, The Underbelly, Broken Isle Dalaran for 250 Sightless Eyes.|
-B [spell=199014/Gunpowder Charge] Rank 3|QID|202000004|M|71.6,23.6|Z|The Underbelly@Dalaran70|RECIPE|199014|N|Purchase [item=137720/Schematic: Gunpowder Charge] Rank 3 from The Widow, The Underbelly, Broken Isle Dalaran for 1,500 Gold and 500 Sightless Eyes.|
+B [spell=199000/Gunpowder Charge] Rank 2|QID|202000004|M|71.6,23.6|Z|628;The Underbelly@Dalaran70|RECIPE|199000|N|Purchase [item=137706/Schematic: Gunpowder Charge] Rank 2 from The Widow, The Underbelly, Broken Isle Dalaran for 250 Sightless Eyes.|
+B [spell=199014/Gunpowder Charge] Rank 3|QID|202000004|M|71.6,23.6|Z|628;The Underbelly@Dalaran70|RECIPE|199014|N|Purchase [item=137720/Schematic: Gunpowder Charge] Rank 3 from The Widow, The Underbelly, Broken Isle Dalaran for 1,500 Gold and 500 Sightless Eyes.|
 U Learn Recipe|QID|202000011|P|Engineering;202;6+1|U|137706|RECIPE|199000|N|Learn Recipe from [item=137706/Schematic: Gunpowder Charge] Rank 2.|
 U Learn Recipe|QID|202000012|P|Engineering;202;6+1|U|137720|RECIPE|199014|N|Learn Recipe from [item=137720/Schematic: Gunpowder Charge] Rank 3.|
 M [item=132510/Gunpowder Charge]|QID|202199014|P|Engineering;202;6+100;1|ITEM|132510|CRAFT|199014 140|MATS|123918 1;136637 20|N|[color=FF0000]NOTE: [/color]Make sure to get RANK 3 Recipe!.|

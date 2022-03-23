@@ -40,7 +40,7 @@ B [spell=29568/Adamantite Cleaver]|QID|164000041|M|64.09,72.06|Z|111;Shattrath C
 B [spell=29728/Lesser Ward of Shielding]|QID|164000041|M|53.2,38.2|Z|100;Hellfire Peninsula|RECIPE|29728|T|Rohok|L|23638|N|Purchase [item=23638/Plans: Lesser Ward of Shielding] from Rohok in Thrallmar|FACTION|Horde|
 B [spell=29728/Lesser Ward of Shielding]|QID|164000041|M|36.8,55.0|Z|104;Shadowmoon Valley|RECIPE|29728|T|Mari Stonehand|L|23638|N|Purchase [item=23638/Plans: Lesser Ward of Shielding] from Mari Stonehand in Wildhammer Stronghold|FACTION|Alliance|
 B [spell=34608/Adamantite Weightstone]|QID|164000041|M|79.2,63.8|Z|102;Zangarmarsh|RECIPE|34608|REP|Cenarion Expedition;942;Honored-Exalted|T|Fedryen Swiftspear|N|Purchase [item=28632/Plans: Adamantite Weightstone] from Fedryen Swiftspear, Cenarion Refuge\n(Needs at least Honoured with Cenarion Expedition).|
-N Shopping List|QID|164000007|N|This completes the Shopping List to Level 60 only.  Due to various ways you can go from 60 to 75, we have not included a shopping list for that section. You may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|164000007|N|This completes the Shopping List to Level 60 only.  Due to various ways you can go from 60 to 75, we have not included a shopping list for that section. You may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
 

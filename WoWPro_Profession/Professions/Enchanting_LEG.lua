@@ -16,7 +16,7 @@ return [[
 ;		IE M [item=172406/Enchant Gloves - Shadowlands Gathering]|QID|333309524|P|Enchanting;333;8+10;1|CRAFT|309524 10|MATS|172230 3|
 ;	For the = Learn Recipe Steps - |QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 333264473 ('264473' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8
-;		IE = Learn Recipes|QID|333800101|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
+;		IE = Learn Recipes|QID|333800101|M|48.41,29.43|Z|1670;Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
 ;		IE learn 2 at lvl 10 |333800101| and |333800102|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343584/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
@@ -25,7 +25,7 @@ return [[
 N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|333000001|N|Covers what Blizzard now terms Legion Plans, content of Legion 1-100\nAlso ASSUMES you have the appropriate Skill|
-N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|
+N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|333000004|N|The next few lines are going to be the amount of mats you need to complete Enchanting Profession Quests.|
 
@@ -40,25 +40,25 @@ N Shopping List|QID|333000007|N|The next few lines are going to be the TOTAL amo
 l [item=124442/Chaos Crystal]|QID|333000007|L|124442 175|ITEM|124442|N|You'll need at least 175 Chaos Crystals.|
 l [item=124440/Arkhana]|QID|333000007|L|124440 1050|ITEM|124440|N|You'll need at least 1,050 Arkhana, to a higher limit of 1,600 depending on what Rank you have of the recipes.|
 
-N Shopping List|QID|333000008|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
+N Shopping List|QID|333000008|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
 
-B [spell=190992/Enchant Ring - Word of Critical Strike] - Rank 2|QID|333128579|M|38.6,41.6|Z|Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|190992|L|128579|N|Purchase [item=128579/Formula: Enchant Ring - Word of Critical Strike] from Ildine Sorrowspear.|
-B [spell=190993/Enchant Ring - Word of Haste] - Rank 2|QID|333128580|M|38.6,41.6|Z|Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|190993|L|128580|N|Purchase [item=128580/Formula: Enchant Ring - Word of Haste] from Ildine Sorrowspear.|
-B [spell=190994/Enchant Ring - Word of Mastery] - Rank 2|QID|333128581|M|38.6,41.6|Z|Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|190994|L|128581|N|Purchase [item=128581/Formula: Enchant Ring - Word of Mastery] from Ildine Sorrowspear.|
-B [spell=190995/Enchant Ring - Word of Versatility] - Rank 2|QID|333128582|M|38.6,41.6|Z|Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|190995|L|128582|N|Purchase [item=128582/Formula: Enchant Ring - Word of Versatility] from Ildine Sorrowspear.|
-B [spell=224199/Ley Shatter]|QID|333140634|M|38.6,41.6|Z|Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|224199|L|140634|N|Purchase [item=140634/Formula: Ley Shatter] from Ildine Sorrowspear.|
-B [spell=191013/Enchant Ring - Binding of Critical Strike] - Rank 2|QID|333128583|M|38.6,41.6|Z|Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|191013|L|128583|N|Purchase [item=128583/Formula: Enchant Ring - Binding of Critical Strike] from Ildine Sorrowspear.|
-B [spell=191014/Enchant Ring - Binding of Haste] - Rank 2|QID|333128584|M|38.6,41.6|Z|Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|191014|L|128584|N|Purchase [item=128584/Formula: Enchant Ring - Binding of Haste] from Ildine Sorrowspear.|
-B [spell=191015/Enchant Ring - Binding of Mastery] - Rank 2|QID|333128585|M|38.6,41.6|Z|Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|191015|L|128585|N|Purchase [item=128585/Formula: Enchant Ring - Binding of Mastery] from Ildine Sorrowspear.|
-B [spell=191016/Enchant Ring - Binding of Versatility] - Rank 2|QID|333128586|M|38.6,41.6|Z|Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|191016|L|128586|N|Purchase [item=128586/Formula: Enchant Ring - Binding of Versatility] from Ildine Sorrowspear.|
-B [spell=191012/Enchant Ring - Word of Versatility] - Rank 3|QID|333128599|M|54.6,73.2|Z|Val'sharah|P|Enchanting;333;6|RECIPE|190995|L|128582|N|Purchase [item=128599/Formula: Enchant Ring - Word of Versatility] from Sylvia Hartshorn. [color=FF0000]NOTE:[/color] Required Honored with The Dreamweavers.|
-B [spell=191014/Enchant Ring - Binding of Haste] - Rank 3|QID|333128601|M|54.6,73.2|Z|Val'sharah|P|Enchanting;333;6|RECIPE|191014|L|128601|N|Purchase [item=128601/Formula: Enchant Ring - Binding of Haste] from Sylvia Hartshorn. [color=FF0000]NOTE:[/color] Required Exalted with The Dreamweavers.|
+B [spell=190992/Enchant Ring - Word of Critical Strike] - Rank 2|QID|333128579|M|38.6,41.6|Z|627;Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|190992|L|128579|N|Purchase [item=128579/Formula: Enchant Ring - Word of Critical Strike] from Ildine Sorrowspear.|
+B [spell=190993/Enchant Ring - Word of Haste] - Rank 2|QID|333128580|M|38.6,41.6|Z|627;Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|190993|L|128580|N|Purchase [item=128580/Formula: Enchant Ring - Word of Haste] from Ildine Sorrowspear.|
+B [spell=190994/Enchant Ring - Word of Mastery] - Rank 2|QID|333128581|M|38.6,41.6|Z|627;Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|190994|L|128581|N|Purchase [item=128581/Formula: Enchant Ring - Word of Mastery] from Ildine Sorrowspear.|
+B [spell=190995/Enchant Ring - Word of Versatility] - Rank 2|QID|333128582|M|38.6,41.6|Z|627;Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|190995|L|128582|N|Purchase [item=128582/Formula: Enchant Ring - Word of Versatility] from Ildine Sorrowspear.|
+B [spell=224199/Ley Shatter]|QID|333140634|M|38.6,41.6|Z|627;Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|224199|L|140634|N|Purchase [item=140634/Formula: Ley Shatter] from Ildine Sorrowspear.|
+B [spell=191013/Enchant Ring - Binding of Critical Strike] - Rank 2|QID|333128583|M|38.6,41.6|Z|627;Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|191013|L|128583|N|Purchase [item=128583/Formula: Enchant Ring - Binding of Critical Strike] from Ildine Sorrowspear.|
+B [spell=191014/Enchant Ring - Binding of Haste] - Rank 2|QID|333128584|M|38.6,41.6|Z|627;Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|191014|L|128584|N|Purchase [item=128584/Formula: Enchant Ring - Binding of Haste] from Ildine Sorrowspear.|
+B [spell=191015/Enchant Ring - Binding of Mastery] - Rank 2|QID|333128585|M|38.6,41.6|Z|627;Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|191015|L|128585|N|Purchase [item=128585/Formula: Enchant Ring - Binding of Mastery] from Ildine Sorrowspear.|
+B [spell=191016/Enchant Ring - Binding of Versatility] - Rank 2|QID|333128586|M|38.6,41.6|Z|627;Dalaran@Dalaran70|P|Enchanting;333;6|RECIPE|191016|L|128586|N|Purchase [item=128586/Formula: Enchant Ring - Binding of Versatility] from Ildine Sorrowspear.|
+B [spell=191012/Enchant Ring - Word of Versatility] - Rank 3|QID|333128599|M|54.6,73.2|Z|641;Val'sharah|P|Enchanting;333;6|RECIPE|190995|L|128582|N|Purchase [item=128599/Formula: Enchant Ring - Word of Versatility] from Sylvia Hartshorn. [color=FF0000]NOTE:[/color] Required Honored with The Dreamweavers.|
+B [spell=191014/Enchant Ring - Binding of Haste] - Rank 3|QID|333128601|M|54.6,73.2|Z|641;Val'sharah|P|Enchanting;333;6|RECIPE|191014|L|128601|N|Purchase [item=128601/Formula: Enchant Ring - Binding of Haste] from Sylvia Hartshorn. [color=FF0000]NOTE:[/color] Required Exalted with The Dreamweavers.|
 B [spell=252106/Chaos Shatter]|QID|333152658|M|68.13,56.90|Z|Upper Deck@ArgusSurface|P|Enchanting;333;6|RECIPE|252106|L|152658|N|Purchase [item=152658/Formula: Chaos Shatter] from Toraan the Revered. [color=FF0000]NOTE:[/color] Required Friendly with Argussian Reach.|
-B [spell=191013/Enchant Ring - Binding of Critical Strike] - Rank 3|QID|333128600|M|37.0,46.2|Z|Suramar|P|Enchanting;333;6|RECIPE|191013|L|128600|N|Purchase [item=128600/Formula: Enchant Ring - Binding of Critical Strike] from First Arcanist Thalyssra. [color=FF0000]NOTE:[/color] Required Exalted with The Nightfallen.|
-B [spell=191015/Enchant Ring - Binding of Mastery] - Rank 3|QID|333128602|M|37.0,46.2|Z|Suramar|P|Enchanting;333;6|RECIPE|191015|L|128602|N|Purchase [item=128602/Formula: Enchant Ring - Binding of Mastery] from First Arcanist Thalyssra. [color=FF0000]NOTE:[/color] Required Exalted with The Nightfallen.|
-B [spell=191016/Enchant Ring - Binding of Versatility] - Rank 3|QID|333128603|M|37.0,46.2|Z|Suramar|P|Enchanting;333;6|RECIPE|191016|L|128603|N|Purchase [item=128603/Formula: Enchant Ring - Binding of Versatility] from First Arcanist Thalyssra. [color=FF0000]NOTE:[/color] Required Exalted with The Nightfallen.|
+B [spell=191013/Enchant Ring - Binding of Critical Strike] - Rank 3|QID|333128600|M|37.0,46.2|Z|680;Suramar|P|Enchanting;333;6|RECIPE|191013|L|128600|N|Purchase [item=128600/Formula: Enchant Ring - Binding of Critical Strike] from First Arcanist Thalyssra. [color=FF0000]NOTE:[/color] Required Exalted with The Nightfallen.|
+B [spell=191015/Enchant Ring - Binding of Mastery] - Rank 3|QID|333128602|M|37.0,46.2|Z|680;Suramar|P|Enchanting;333;6|RECIPE|191015|L|128602|N|Purchase [item=128602/Formula: Enchant Ring - Binding of Mastery] from First Arcanist Thalyssra. [color=FF0000]NOTE:[/color] Required Exalted with The Nightfallen.|
+B [spell=191016/Enchant Ring - Binding of Versatility] - Rank 3|QID|333128603|M|37.0,46.2|Z|680;Suramar|P|Enchanting;333;6|RECIPE|191016|L|128603|N|Purchase [item=128603/Formula: Enchant Ring - Binding of Versatility] from First Arcanist Thalyssra. [color=FF0000]NOTE:[/color] Required Exalted with The Nightfallen.|
 
 N Multiple ways to level to 70|QID|333000009|N|You can either do Chaos Shatter, or create one of the four Words of Critical Strike/Haste/Mastery/Versatility. All ways will be listed, just click off the ones you want to skip.|
 M [item=124441/Leylight Shard]|QID|333252106|P|Enchanting;333;6+70;1|ITEM|124441|CRAFT|252106 55|MATS|124442 1|N|If you bought the Plans from Toraan.|
@@ -66,10 +66,10 @@ M [item=128537/Enchant Ring - Word of Critical Strike]|QID|333190992|ITEM|128537
 M [item=128538/Enchant Ring - Word of Haste]|QID|333190993|ITEM|128538|CRAFT|190993 55|MATS|124440 12;38682 1|N|Rank 2 mats are listed, Rank 3 is better though, available through World Quests.|
 M [item=128539/Enchant Ring - Word of Mastery]|QID|333190994|ITEM|128538|CRAFT|190994 55|MATS|124440 12;38682 1|N|Rank 2 mats are listed, Rank 3 is better though, available through World Quests.|
 M [item=128540/Enchant Ring - Word of Versatility]|QID|333190995|ITEM|128540|CRAFT|190995 55|MATS|124440 12;38682 1|N|Rank 2 mats are listed, Rank 3 is better though, available through World Quests.|
-M [item=128541/Enchant Ring - Binding of Critical Strike]|QID|333190992|ITEM|128541|CRAFT|191013 30|MATS|124442 4;124440 50;38682 1|N|Rank 2 mats are listed, Rank 3 is better though, available with Exalted with The Nightfallen..|
+M [item=128541/Enchant Ring - Binding of Critical Strike]|QID|333190992|ITEM|128541|CRAFT|191013 30|MATS|124442 4;124440 50;38682 1|N|Rank 2 mats are listed, Rank 3 is better though, available with Exalted with The Nightfallen.|
 M [item=128542/Enchant Ring - Binding of Haste]|QID|333190993|ITEM|128542|CRAFT|191014 30|MATS|124442 4;124440 50;38682 1|N|Rank 2 mats are listed, Rank 3 is better though, available with Exalted with The Dreamweavers.|
 M [item=128543/Enchant Ring - Binding of Mastery]|QID|333190994|ITEM|128543|CRAFT|191015 30|MATS|124442 4;124440 50;38682 1|N|Rank 2 mats are listed, Rank 3 is better though, available with Exalted with The Nightfallen.|
-M [item=128544/Enchant Ring - Binding of Versatility]|QID|333190995|ITEM|128544|CRAFT|191016 30|MATS|124442 4;124440 50;38682 1|N|Rank 2 mats are listed, Rank 3 is better though, available with Exalted with The Nightfallen.
+M [item=128544/Enchant Ring - Binding of Versatility]|QID|333190995|ITEM|128544|CRAFT|191016 30|MATS|124442 4;124440 50;38682 1|N|Rank 2 mats are listed, Rank 3 is better though, available with Exalted with The Nightfallen.|
 
 N Congratulations|QID|333000010|N|You've reached at 100 in Legion Enchanting.|
 ]]
