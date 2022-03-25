@@ -404,7 +404,7 @@ end
 function WoWPro.ScenarioObjectiveStatus(stage, objective)
     local predicate, target
     objective, predicate, target = WoWPro.ParseObjective(objective, "S")
-    if (not WoWPro.Scenario) or not (WoWPro.Scenario.currentStage == stage) then
+    if (not WoWPro.Scenario) or (WoWPro.Scenario.currentStage ~= stage) then
         return false, "Scenario stage "..tostring(stage).." not active"
     end
     return predicate(stage, objective, target)
@@ -2306,7 +2306,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
 
                 if type(replvl) == "boolean" then
-                    if not(replvl) == not(hasBonusRepGain) then
+                    if (not replvl) == (not hasBonusRepGain) then
                         skip = false
                         WoWPro.why[guideIndex] = "NextStep(): RepStep no skip on bonus"
                     end
