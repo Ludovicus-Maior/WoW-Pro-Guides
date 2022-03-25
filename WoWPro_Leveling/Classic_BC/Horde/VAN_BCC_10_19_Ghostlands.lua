@@ -500,8 +500,10 @@ R Sun Rock Retreat|ACTIVE|6401|M|59.3,75.8;59.6,71.2;53.0,61.5;49.5,60.9|Z|Stone
 T Arachnophobia|QID|6284|M|47.20,61.16|Z|Stonetalon Mountains|N|To Maggran Earthbinder.|
 T Kaya's Alive|QID|6401|M|47.46,58.38|Z|Stonetalon Mountains|N|To Tammra Windfield.|
 f Sun Rock Retreat|QID|6461|M|45.13,59.84|Z|Stonetalon Mountains|N|At Tharm.|TAXI|-Sun Rock Retreat|
+L Level 22|ACTIVE|6461|N|As you travel to Malaka'jin, grind until you are within 1 bubble of level 22.|LVL|21;-1450|S|
 R Malaka'jin|ACTIVE|6461|M|53.1,61.6;71.5,90.5|Z|Stonetalon Mountains|CC|N|Return to Malaka'jin.|
 T Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|To Xen'zilla.|
+L Level 22|AVAILABLE|899|N|Grind until you're level 22.|LVL|22|US|
 H Orgrimmar|AVAILABLE|899|
 = Level 22|AVAILABLE|899|N|Visit your class trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|22|
 F Crossroads|AVAILABLE|899|M|45.13,63.90|Z|Orgrimmar|
