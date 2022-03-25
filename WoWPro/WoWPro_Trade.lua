@@ -387,6 +387,13 @@ else
         if not skillLineID then
             return
         end
+        -- Check for missing table entry
+        if not WoWPro.ProfessionSkillLines[skillLineID] then
+            WoWPro:Warning("Please report that WoWPro is missing Skill ID %d aka %q", skillLineID, skillLineName )
+            -- Fake it for now
+            WoWPro.ProfessionSkillLines[skillLineID] = {}
+            WoWPro.ProfessionSkillLines[skillLineID].name = skillLineName
+        end
 
         -- don't scan other players tradeskills
         if _G.C_TradeSkillUI.IsTradeSkillLinked() then
