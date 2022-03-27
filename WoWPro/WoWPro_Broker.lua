@@ -502,7 +502,9 @@ function WoWPro.LoadGuideReal()
                 GID = nil
             end
             -- Is the guide within 10 levels of us?
-			WoWPro.Leveling:GetGuideListInfo()
+            if WoWPro.Leveling then
+                WoWPro.Leveling:GetGuideListInfo()
+            end
             if GID and WoWPro.Guides[GID].startlevel > (WoWPro:PlayerLevel() + 10) then
                 WoWPro:dbp("Guide %s is too high level.  Check next guide.", GID)
                 GID = nil
