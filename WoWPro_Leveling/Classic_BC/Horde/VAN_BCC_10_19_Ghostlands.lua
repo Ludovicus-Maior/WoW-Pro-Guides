@@ -634,8 +634,8 @@ T Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|1440; Ashenvale|N|To Marukai
 F Splintertree Post|ACTIVE|6543|M|12.24,33.80|Z|1440; Ashenvale|
 R The Mor'shan Rampart|ACTIVE|6543|M|48.02,5.58|CC|Z|1413; The Barrens|N|Follow the road south out of Splintertree Post to the Mor'shan Rampart.|
 T The Warsong Reports|QID|6543|M|48.12,5.42|Z|1413; The Barrens|N|To Kadrak.|
-R Splintertree Post|AVAILABLE|6421|M|68.6,84.2;67.2,71.5;70.1,70.0;71.1,67.5|CC|Z|1440; Ashenvale|
-F Sun Rock Retreat|AVAILABLE|6421|M|12.24,33.80|Z|1440; Ashenvale|
+R Splintertree Post|AVAILABLE|6421|M|68.6,84.2;67.2,71.5;70.1,70.0;71.1,67.5|CC|Z|1440; Ashenvale|N|It's faster than running to Crossroads|
+F Sun Rock Retreat|AVAILABLE|6421|M|73.18,61.59|Z|1440; Ashenvale|
 
 ]]
 end)
