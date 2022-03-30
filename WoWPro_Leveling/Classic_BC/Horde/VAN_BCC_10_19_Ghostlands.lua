@@ -627,15 +627,15 @@ A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|1440; Ashenvale|N|[color=CC00FF]QUE
 N Lockpicking|ACTIVE|6442|M|12.68,29.51|Z|1440; Ashenvale|N|There are Waterlogged Footlockers scattered all over the area that you can open to increase your Lockpicking skill and receive a few copper for your efforts.\n[color=FF0000]NOTE: [/color]You need level 85 (minimum) to complete your level 20 class quest.\nCheck this step off to continue.|P|Lockpicking;633;0+85;1|C|Rogue|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|M|13.31,26.74|Z|1440; Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nI recommend using Muglash to kill as many Nagas as you can along the escort path. Avoid the Priestesses; they fully heal from almost dead.|S|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|-6641|M|13.31,26.74|Z|1440; Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nAvoid the Priestesses; they fully heal from almost dead.|
-C Vorsha the Lasher|QID|6641|M|9.63,27.61|Z|1440; Ashenvale|QO|1|N|Accompany Muglash to the brazier and right-click it to extinguish the flame. Protect Muglash as you fight against 2 waves of 3 Nagas and then Vorsha in the final wave.\n[color=FF0000]NOTE: [/color]Make sure you kill the Priestesses first, as they will heal everyone fully.|
+C Vorsha the Lasher|QID|6641|M|9.63,27.61|Z|1440; Ashenvale|QO|1|N|Accompany Muglash to the brazier and click on it to start the attack waves. Protect Muglash as you fight against 2 waves of 3 Nagas and then Vorsha in the final wave.\n[color=FF0000]NOTE: [/color]Make sure you kill the Priestesses first, as they will heal everyone fully.|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|L|5490 20|N|Finish collecting Wrathtail Heads.|US|
 T Vorsha the Lasher|QID|6641|M|12.22,34.21|Z|1440; Ashenvale|N|To Warsong Runner.|
 T Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|1440; Ashenvale|N|To Marukai.|
-F Splintertree Post|ACTIVE|6541|M|51.50,30.33|Z|1413; The Barrens|
-R The Mor'shan Rampart|ACTIVE|6541|M|48.02,5.58|CC|Z|1413; The Barrens|N|Follow the road south out of Splintertree Post to the Mor'shan Rampart.|
-T The Warsong Reports|QID|6543|M|48.12,5.42|N|To Kadrak.|
-R Splintertree Post|AVAILABLE|6421|M|68.6,84.2;67.2,71.5;70.1,70.0;71.1,67.5|CC|Z|1440; Ashenvale|
-F Sun Rock Retreat|AVAILABLE|6421|M|12.24,33.80|Z|1440; Ashenvale|
+F Splintertree Post|ACTIVE|6543|M|12.24,33.80|Z|1440; Ashenvale|
+R The Mor'shan Rampart|ACTIVE|6543|M|48.02,5.58|CC|Z|1413; The Barrens|N|Follow the road south out of Splintertree Post to the Mor'shan Rampart.|
+T The Warsong Reports|QID|6543|M|48.12,5.42|Z|1413; The Barrens|N|To Kadrak.|
+R Splintertree Post|AVAILABLE|6421|M|68.6,84.2;67.2,71.5;70.1,70.0;71.1,67.5|CC|Z|1440; Ashenvale|N|It's faster than running to Crossroads|
+F Sun Rock Retreat|AVAILABLE|6421|M|73.18,61.59|Z|1440; Ashenvale|
 
 ]]
 end)
