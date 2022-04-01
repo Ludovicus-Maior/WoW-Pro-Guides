@@ -81,7 +81,7 @@ function WoWPro:ValidZone(zone)
         elseif zone:match(";") then
             -- zone is a modern mapID; name
             local nzone , nomen = (";"):split(zone)
-            if tonumber(zone) and WoWPro.MapInfo[tonumber(zone)] then
+            if tonumber(nzone) and WoWPro.MapInfo[tonumber(nzone)] then
                 return tostring(nomen), tonumber(nzone)
             else
                 WoWPro:Error("ValidZone: Numeric Zone [%s;%s] is unknown.", nzone, nomen)
