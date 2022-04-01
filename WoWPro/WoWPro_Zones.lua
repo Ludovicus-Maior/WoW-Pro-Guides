@@ -68,7 +68,8 @@ function WoWPro.GetZoneText()
     end
 end
 
-function WoWPro:ValidZone(zone)
+function WoWPro:ValidZone(zone, quiet)
+    local _
     if zone then
         if tonumber(zone) then
             -- Using a numeric zone ID
@@ -107,25 +108,25 @@ function WoWPro:ValidZone(zone)
             local nzone , floor = ("/"):split(zone)
             floor = tonumber(floor)
             if not WoWPro.LegacyZone2MapID[nzone] then
-                WoWPro:print("ValidZone: Legacy Zone [%s] is not registered.", zone)
+                WoWPro:Error("ValidZone: Legacy Zone [%s] is not registered.", zone)
                 return nil
             end
             if not floor then
-                WoWPro:print("ValidZone: Legacy Zone [%s] has a malformed floor", zone)
+                WoWPro:Error("ValidZone: Legacy Zone [%s] has a malformed floor", zone)
                 return nil
             end
             if not WoWPro.LegacyZone2MapID[nzone][floor] then
-                WoWPro:print("ValidZone: Legacy Zone [%s] has an unknown floor", zone)
+                WoWPro:Error("ValidZone: Legacy Zone [%s] has an unknown floor", zone)
                 return nil
             end
             local mapId = WoWPro.LegacyZone2MapID[nzone][floor]
             if not WoWPro.MapInfo[mapId] then
-                WoWPro:print("ValidZone: Legacy Zone [%s] has an unknown mapID %s", zone, tostring(mapId))
+                WoWPro:Error("ValidZone: Legacy Zone [%s] has an unknown mapID %s", zone, tostring(mapId))
                 return nil
             end
             return WoWPro.MapInfo[mapId].name, mapId
         else
-            WoWPro:Error("ValidZone: Zone [%s] is unknown.", zone)
+            _ = quiet or WoWPro:Error("ValidZone: Zone [%s] is unknown.", zone)
         end
     end
     return nil, nil
