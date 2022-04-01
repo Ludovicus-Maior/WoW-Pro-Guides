@@ -825,7 +825,7 @@ function WoWPro.ParseSteps(steps)
     local _, myrace = _G.UnitRace("player")
     local mycovenant = ""
     local myFaction = WoWPro.Faction:upper()
-    local zone = (WoWPro.Guides[GID].zone or ""):match("([^%(]+)"):trim()
+    local zone = WoWPro.Guides[GID].zone
 
     if _G.C_Covenants and (_G.C_Covenants.GetActiveCovenantID() > 0) then
         mycovenant = _G.C_Covenants.GetActiveCovenantID()
