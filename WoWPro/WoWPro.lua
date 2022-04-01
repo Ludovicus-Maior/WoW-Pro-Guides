@@ -751,6 +751,11 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         name = name,
         GID = GIDvalue
     }
+    if not WoWPro:ValidZone(guide.zone, true) then
+        WoWPro:print("RegisterGuide(): Zone %q is not valid, using as guide name.", guide.zone)
+        guide.name = guide.name or guide.zone
+        guide.zone = nil
+    end
 
     if  WoWPro[gtype].RegisterGuide then
         WoWPro[gtype]:RegisterGuide(guide)
