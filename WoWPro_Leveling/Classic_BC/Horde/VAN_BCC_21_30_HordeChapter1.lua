@@ -36,7 +36,7 @@ T Super Reaper 6000|QID|1093|M|58.99,62.61|Z|1442|N|To Ziz Fizziks.|
 A Further Instructions|QID|1094|M|58.99,62.61|Z|1442|N|From Ziz Fizziks.|PRE|1093|
 R Webwinder Path|ACTIVE|6421|M|59.79,71.19|Z|1442|N|Make your way back to the signpost at the Windshear Crag entrance.|
 A Arachnophobia|QID|6284|M|59.07,75.71|Z|1442|N|From the Wanted Poster, located beside the road.|
-R Sishir Canyon|ACTIVE|6461^6284|M|58.18,76.03|Z|1442|N|Follow the path west up the hill.|IZ|1442;Silverpine Forest|
+R Sishir Canyon|ACTIVE|6461^6284|M|58.18,76.03|Z|1442|N|Follow the path west up the hill.|IZ|1442|
 K Bessaleth|ACTIVE|6284|M|53.48,74.52|Z|1442|L|16192|N|Bessaleth is a lv 21 mob with multiple spawn points. You'll find her in one of the alcoves along the edge.|T|Bessaleth|
 R Webwinder Path|ACTIVE|6421&6284|M|58.25,75.98|Z|1442|N|Exit Sishir Canyon and head back to the road.|
 R Boulderslide Ravine|ACTIVE|6421|M|67.7,86.8;66.24,89.37|CC|Z|1442|N|Follow the road south.|
@@ -70,41 +70,42 @@ F Splintertree Post|AVAILABLE|6571|M|47.02,49.83|Z|1456|N|Fly to Ashenvale to ge
 A Warsong Supplies|QID|6571|M|71.40,67.64|Z|1440|N|From Locke Okarr; by the south watchtower.\n[color=FF0000]NOTE: [/color]You'll want to have this quest on you as you collect the items along the way.|
 
 ; --- Silverpine Forest
-F Orgrimmar|AVAILABLE|493|M|73.18,61.59|Z|1440|N|Fly to Orgrimmar.|IZ|1440;Ashenvale|
-h Orgrimmar|AVAILABLE|493|M|54.11,68.39|Z|1454|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|IZ|1454;Orgrimmar|
-b Tirisfal Glades|AVAILABLE|493|M|50.88,13.83|Z|1411|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
+F Orgrimmar|AVAILABLE|493|M|73.18,61.59|Z|1440|N|Fly to Orgrimmar.|IZ|1440|
+h Orgrimmar|AVAILABLE|493|M|54.11,68.39|Z|1454|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|IZ|1454|
+b Tirisfal Glades|AVAILABLE|493|M|50.88,13.83|Z|1411|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|IZ|1411^1454|
 ; --- If you don't have the FP in Undercity.
 ; --- Undead won't have the FP known without a connected FP. It's not necessary for them to go in without The Sepulcher known.
 R Undercity|AVAILABLE|493|M|61.86,65.04|Z|1420|N|Enter Undercity.|R|-Undead|TAXI|-Undercity|
 f Undercity|AVAILABLE|493|M|63.26,48.54|Z|1458|N|Grab the flight path from Michael Garrett.|R|-Undead|TAXI|-Undercity|
 ; If you have the FP in Sepulcher
-R Undercity|AVAILABLE|493|M|61.86,65.04|Z|1420|N|Enter Undercity.|TAXI|Undercity|
-F The Sepulcher|AVAILABLE|493|M|63.26,48.54|Z|1458|TAXI|The Sepulcher|IZ|1458;Undercity|
+R Undercity|AVAILABLE|493|M|61.86,65.04|Z|1420|N|Enter Undercity.|TAXI|Undercity|IZ|-1421|
+F The Sepulcher|AVAILABLE|493|M|63.26,48.54|Z|1458|TAXI|The Sepulcher|IZ|1458|
 ; If you don't have the FP in Sepulcher
-R Leave Undercity|AVAILABLE|493|M|65.99,36.85;66.22,0.90|CC|Z|1458|N|Take the elevator up and leave Undercity through the front gates.|TAXI|-The Sepulcher|IZ|1458;Undercity|
+R Leave Undercity|AVAILABLE|493|M|65.99,36.85;66.22,0.90|CC|Z|1458|N|Take the elevator up and leave Undercity through the front gates.|TAXI|-The Sepulcher|IZ|1458|
 ; --- If you don't have the FP in Sepulcher but do have the FP in Undercity (No point going in if you can't go anywhere)
 R Silverpine Forest|AVAILABLE|493|M|54.46,74.62|Z|1420|N|Head over to the road and follow it south into Silverpine Forest.|TAXI|-The Sepulcher|
-R The Sepulcher|AVAILABLE|493|M|50.90,36.80;46.21,41.59|N|Head south until you reach the Sepulcher.|TAXI|-The Sepulcher|
-f The Sepulcher|AVAILABLE|493|M|45.62,42.60|N|Karos Razok|TAXI|-The Sepulcher|
+R The Sepulcher|AVAILABLE|493|M|50.90,36.80;46.21,41.59|CC|Z|1421|N|Head south until you reach the Sepulcher.|TAXI|-The Sepulcher|
+f The Sepulcher|AVAILABLE|493|M|45.62,42.60|Z|1421|N|From Karos Razok.\n[color=FF0000]NOTE: [/color]Open the Flight map to populate the databse.|TAXI|-The Sepulcher|
 ; ---
 A Journey to Hillsbrad Foothills|QID|493|M|42.89,40.86|Z|1421|N|From Apothecary Renferrel.|
 A Beren's Peril|QID|516|M|43.98,40.93|Z|1421|N|From Shadow Priest Allister.|
 A The Weaver|QID|480|M|43.98,40.93|Z|1421|N|From Shadow Priest Allister.|PRE|479|
-R Ambermill|ACTIVE|480|M|51.34,36.98;55.71,64.46|CC|Z|1421|N|Make your way to Ambermill.|IZ|1421;Silverpine Forest|
+R Olsen's Farthing|ACTIVE|480^1065^516|AVAILABLE|494|M|48.35,52.32|Z|1421|IZ|The Sepulcher|
+R Ambermill|ACTIVE|480|M|54.3,64.4;55.20,64.40|CC|Z|1421|N|Make your way to Ambermill.|IZ|1421|
+R Hillsbrad Foothills|ACTIVE|-516&-480|AVAILABLE|494|M|52.0,51.9;67.00,80.28|CC|Z|1421|N|Follow the road to the main road. Head south on the main road to the bend and continue east to the Silverpine Forest/Hillsbrad Foothills border.|IZ|-1424|
 C The Weaver|QID|480|M|63.40,64.28|Z|1421|L|3515|N|Kill Ataeric and loot his staff.\n[color=FF0000]NOTE: [/color]You have to get past 2 Conjurers (plus their voidwalkers) and 2 Warders to get to Ataeric. You can aggro the mages one at a time. But, it's not easy. You may find a Dalaran Spellscribe (a non-elite rare spawn) in the room as well.\nMake sure you take out the Conjurer and Voidwalker that path in and out of the building. You'll be using the foyer to fight the mobs inside the room and you don't want them sneaking up on you.\n\nAtaeric won't stand still. He is a Frost mage who likes to keep his distance. If you don't clear the room, you'll end up fighting the entire room at the same time.|
-R Beren's Peril|ACTIVE|516&480|M|61.5,64.6;62.8,72.1;60.4,74.4;60.54,73.35|CC|Z|1421|N|Exit the building and follow the road south out of Ambermill. Stick to the mountains on the east side (right) and follow them around the bend.|IZ|1421;Silverpine Forest|
-R Olsen's Farthing|ACTIVE|516^1065|AVAILABLE|494|M|48.35,52.32|Z|1421|IZ|The Sepulcher|
-R Hillsbrad Foothills|ACTIVE|-516&1065|AVAILABLE|494|M|52.0,51.9;67.00,80.28|CC|Z|1421|N|Follow the road to the main road. Head south on the main road to the bend and continue east to the Silverpine Forest/Hillsbrad Foothills border.|IZ|-1424|
-R Beren's Peril|ACTIVE|516&-480|AVAILABLE|494|M|52.7,55.2;62.8,72.1;60.4,74.4;60.54,73.35|CC|Z|1421|N|Make your way east to the road and follow it south to the big bend. the path is a bitnorth of the road.|IZ|1421;Silverpine Forest|
-R Cave Entrance|ACTIVE|516|AVAILABLE|494|M|60.58,72.48|CC|Z|1421|N|Make your way to the cave entrance.|IZ|1421;Silverpine Forest|
-K Beren's Peril|ACTIVE|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|
-R Exit Cave|ACTIVE|516|AVAILABLE|494|M|60.58,72.48|CC|Z|1421|N|Make your way back to the cave entrance.|IZ|1421;Silverpine Forest|
-R Hillsbrad Foothills|ACTIVE|516&1065|AVAILABLE|494|M|60.8,78.1;67.00,80.28|CC|Z|1421|N|Head back to the main road and continue east on the main road to the Silverpine Forest/Hillsbrad Foothills border.|IZ|-1424|
+R Beren's Peril|ACTIVE|516&480|M|61.5,64.6;62.8,72.1;60.4,74.4;60.54,73.35|CC|Z|1421|N|Exit the building and follow the road south out of Ambermill. Stick to the mountains on the west side (right) and follow them around the bend.|IZ|1421|
+R Beren's Peril|ACTIVE|516&-480|AVAILABLE|494|M|52.7,55.2;53.7,72.9;53.7,72.9;58.43,76.55|CC|Z|1421|N|After making your way east to the road, follow it south around the big bend and continue a short distance east. The Beren's Peril is on the northern side of the road.|IZ|1421|
+K Beren's Peril|ACTIVE|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|S|
+R Cave Entrance|ACTIVE|516|AVAILABLE|494|M|60.58,72.48|CC|Z|1421|N|Make your way to the cave entrance.|IZ|1421|
+K Beren's Peril|ACTIVE|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|US|
+R Exit Cave|ACTIVE|516|AVAILABLE|494|M|60.58,72.48|CC|Z|1421|N|Make your way back to the cave entrance.|IZ|1421|
+R Hillsbrad Foothills|ACTIVE|516&1065|AVAILABLE|494|M|60.8,78.1;67.00,80.28|CC|Z|1421|N|Head back to the main road and follow it east to the Silverpine Forest/Hillsbrad Foothills border.|IZ|-1424|
 
 ; --- Hillsbrad Foothills
 A Time To Strike|QID|494|M|20.79,47.36|Z|1424|N|From Deathstalker Lesh at Southpoint Tower.|
 R Tarren Mill|ACTIVE|1065|M|57.6,36.6;55.86,19.60|CC|Z|1424|N|Follow the road to Tarren Mill.|
-f Tarren Mill|ACTIVE|1065|M|60.09,18.67|Z|1424|N|At Zarise.|
+f Tarren Mill|ACTIVE|1065|M|60.14,18.63|Z|1424|N|From Zarise.|
 T Journey to Tarren Mill|QID|1065|M|61.44,19.06|Z|1424|N|To Apothecary Lydon.|
 A Blood of Innocents|QID|1066|M|61.44,19.06|Z|1424|N|From Apothecary Lydon.|PRE|1065|
 T Journey to Hillsbrad Foothills|QID|493|M|61.44,19.06|Z|1424|N|To Apothecary Lydon.|
@@ -264,7 +265,7 @@ A Battle of Hillsbrad|QID|528|M|62.27,20.32|Z|1424|N|From High Executor Darthali
 C Battle of Hillsbrad|QID|528|QO|1|N|Kill Hillsbrad Peasants.|S|
 A Souvenirs of Death|QID|546|M|62.19,19.86|Z|1424|N|From Deathguard Samsa.|PRE|527|
 C Souvenirs of Death|QID|546|L|3692 30|N|Basically, kill Hillsbrad human mobs to collect the Hillsbrad Human Skulls.|S|
-R Hillsbrad Fields|ACTIVE|528^546^567|M|37.03,43.41|Z|1424|N|Run to the south east part of the area.|IZ|1424;Hillsbrad Foothills|
+R Hillsbrad Fields|ACTIVE|528^546^567|M|37.03,43.41|Z|1424|N|Run to the south east part of the area.|IZ|1424|
 K Farmer Kalaba|ACTIVE|567|M|35.71,46.76|Z|1424|QO|4|N|Kill Farmer Kalaba in the SE orchard.|
 C Battle of Hillsbrad|QID|528|QO|1|N|Finish killing Hillsbrad Peasants.|US|
 R Nethander Stead|ACTIVE|509|M|63.4,41.8;63.77,57.82|CC|Z|1424|N|Follow the road east to the bridge and then make your way south to Nethander Stead.\n[color=FF0000]NOTE: [/color]Don't be silly and try cutting through Southshore.|
@@ -276,7 +277,7 @@ A Battle of Hillsbrad|QID|529|M|62.28,20.28|Z|1424|N|From High Executor Darthali
 t Souvenirs of Death|QID|546|M|62.10,19.82|Z|1424|N|To Deathguard Samsa.|IZ|Tarren Mill|
 T Elixir of Agony|QID|509|M|61.44,19.07|Z|1424|N|To Apothecary Lydon.|
 A Elixir of Agony|QID|513|M|61.44,19.07|Z|1424|N|From Apothecary Lydon.|PRE|509|
-R Hillsbrad Fields|ACTIVE|529^546^567|M|32.21,48.31|Z|1424|N|Make your way to the south entrance to Hillsbrad Fields. You are headed for the Forge.|IZ|1424;Hillsbrad Foothills|
+R Hillsbrad Fields|ACTIVE|529^546^567|M|32.21,48.31|Z|1424|N|Make your way to the south entrance to Hillsbrad Fields. You are headed for the Forge.|IZ|1424|
 C Battle of Hillsbrad|QID|529|M|31.99,45.43|Z|1424|QO|3|N|The Shipment of Iron is located inside the forge.|S|
 K Battle of Hillsbrad|ACTIVE|529|M|32,46|Z|1424|QO|2|N|Kill Hillsbrad Apprentice Blacksmiths. There are 2-3 inside the forge and 2-3 around the outside.|S|
 K Blacksmith Verringtan|ACTIVE|529|QO|1|N|Kill Blacksmith Verringtan inside the Forge.\nSometimes you get lucky and he will spawn outside on the east side.\n[color=FF0000]NOTE: [/color]If you approach from the north entrance, you can avoid aggroing everyone in the forge.|
@@ -293,7 +294,7 @@ T Elixir of Agony|QID|513|M|48.80,69.28|Z|1458|N|To Master Apothecary Faranell, 
 A Elixir of Agony|QID|515|M|48.80,69.28|Z|1458|N|From Master Apothecary Faranell.|PRE|513|
 
 ; --- The Barrens
-R Leave Undercity|AVAILABLE|6441|M|66.1,38.4;66.2,0.9;66.2,1.2|CC|Z|1458|N|Take the elevator up and leave Undercity through the front gates.|IZ|1497;Undercity|
+R Leave Undercity|AVAILABLE|6441|M|66.1,38.4;66.2,0.9;66.2,1.2|CC|Z|1458|N|Take the elevator up and leave Undercity through the front gates.|IZ|1497|
 b Durotar|AVAILABLE|6441|M|60.71,58.78|Z|1420|N|Go up the tower and take the Zepplin to Durotar/Orgrimmar.|
 R Orgrimmar|AVAILABLE|6441|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|
 F Crossroads|AVAILABLE|868|M|45.50,63.84|Z|1454|
