@@ -176,7 +176,7 @@ A A Body of Evidence|QID|43958|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|
 C A Body of Evidence|QID|43958|M|82.24,69.40|NC|N|Go out towards the main exit to find the body.|
 T A Body of Evidence|QID|43958|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
 A Spy vs. Spy|QID|43829|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|43958|
-C Spy vs. Spy|QID|43829|M|37.92,45.26|NC|N|Use scouting map to send your followers on the 'Spy vs Spy' mission. This is your last order hall quest until level 103. Right Click to check this off manually to move to other steps in the guide, you will be reminded about it when you return to your order hall.|
+C Spy vs. Spy|QID|43829|M|37.92,45.26|NC|N|Use scouting map to send your followers on the 'Spy vs Spy' mission. This is your last order hall quest until level 41. Right Click to check this off manually to move to other steps in the guide, you will be reminded about it when you return to your order hall.|
 t Spy vs. Spy|QID|43829|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
 
 ;Level 103
@@ -184,7 +184,7 @@ A The Bloody Truth|QID|44041|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|43
 C The Bloody Truth|QID|44041|QO|1|M|41.41,78.21;83,68|CS|U|140395|NC|N|Use the provided glasses, to see the blood trail and follow it.|
 C The Bloody Truth|QID|44041|QO|2|M|47,38|Z|Dalaran@Dalaran70|NC|N|Be stealthed before you go upstairs in Legerdemain Lounge.|
 C The Bloody Truth|QID|44041|QO|3|M|47,38|Z|Dalaran@Dalaran70|NC|N|Be stealthed abd sot ib tge SI:7 Agents.|
-T The Bloody Truth|QID|44041|M|41.41,78.21|N|To Lord Jorach Ravenholdt. If you liked the sunglasses and want to keep them, you can sell to a vendor, before turning in then buy back after so you don't lose them.|
+T The Bloody Truth|QID|44041|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
 A Mystery at Citrine Bay|QID|44116|M|41.41,78.21|N|From Lord Jorach Ravenholdt. Don't forget to re-equip your hat.|PRE|44041|
 C Mystery at Citrine Bay|QID|44116|M|77.26,55.03|Z|Stormheim|NC|N|You can wait until you quest in Stormheim if you aren't in a rush.|
 T Mystery at Citrine Bay|QID|44116|M|77.26,55.03|Z|Stormheim|N|To Fleet Admiral Tethys.|
@@ -210,7 +210,7 @@ A Throwing SI:7 Off the Trail|QID|42684|M|40,76|N|From Valeera Sanguinar.|PRE|43
 A Blood for the Wolfe|QID|43468|M|40,76|N|From Valeera Sanguinar.|PRE|43852|
 A Noggenfogger's Reasonable Request|QID|42730|M|40,76|N|From Valeera Sanguinar.|PRE|43852|
 C Throwing SI:7 Off the Trail|QID|42684|M|37.92,45.26|S|NC|N|Use scouting map to do the 5 requested missions.|
-C Blood for the Wolfe|QID|43468|S|N|You have until lvl 110 to finish this, so I recommend right clicking this off manually and you can simply collect the blood as you go about normal stuff, if you get to 110 and this is still uncompleted, anywhere (other than outside Halls of Valor) where there is a concentration of demons is a good farm spot, especially Ilidari stand where the demon hunters almost kill them for you.|
+C Blood for the Wolfe|QID|43468|S|N|You have until lvl 49 to finish this, so I recommend right clicking this off manually and you can simply collect the blood as you go about normal stuff, if you get to 110 and this is still uncompleted, anywhere (other than outside Halls of Valor) where there is a concentration of demons is a good farm spot, especially Ilidari stand where the demon hunters almost kill them for you.|
 B Aethril|ACTIVE|42730|L|124101 20|N|Buy, gather or otherwise acquire 20 Aethril herbs.|
 T Noggenfogger's Reasonable Request|QID|42730|M|30.69,70.18|N|To Marin Noggenfogger.|
 A A Particularly Potent Potion|QID|44178|M|30.69,70.18|N|From Marin Noggenfogger.|PRE|42730|

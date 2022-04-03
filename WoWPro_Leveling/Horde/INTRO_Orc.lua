@@ -22,7 +22,7 @@ A Lazy Peons|QID|37446|M|46.03,63.33|N|From Foreman Thazz'ril.|PRE|25172|
 C Lazy Peons|QID|37446|M|57.74,45.82|S|NC|U|16114|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|T|Lazy Peon|
 C Sting of the Scorpid|QID|25127|M|57.74,45.82|N|Kill and loot scorpids.|
 C Lazy Peons|QID|37446|M|57.74,45.82|US|NC|U|16114|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|T|Lazy Peon|
-C Galgar's Cactus Apple Surprise|QID|25136|NC|N|Finish looting cactus apples from cactuses.|US|
+C Galgar's Cactus Apple Surprise|QID|25136|M|50.81,31.78|NC|N|Finish looting cactus apples from cactuses.|US|
 T Lazy Peons|QID|37446|M|46.15,63.37|N|To Foreman Thazz'ril.|
 T Sting of the Scorpid|QID|25127|M|44.94,66.43|N|To Gornek.|
 T Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|To Galgar.|
