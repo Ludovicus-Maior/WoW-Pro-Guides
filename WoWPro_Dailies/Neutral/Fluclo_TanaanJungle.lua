@@ -4,13 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('FlucloTanaanJungle', "Dailies", 'Tanaan Jungle', 'Fluclo', 'Neutral')
-WoWPro:GuideLevels(guide,100,100,100)
+WoWPro:GuideLevels(guide,40,40,40)
 WoWPro:GuideName(guide, "Garrison Campaign: War Council")
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Garrison Campaign: War Council|QID|38253^38567|LVL|100|N|This unlocks the Tanaan Jungle daily quest hub.|
+N Garrison Campaign: War Council|QID|38253^38567|LVL|40|N|This unlocks the Tanaan Jungle daily quest hub.|
 
 A Garrison Campaign: War Council |QID|38253|N|This quest is auto-accepted when you enter the your garrison.|U|110560|FACTION|Alliance|M|32.0,32.0|Z|Lunarfall|
 A Garrison Campaign: War Council |QID|38567|N|This quest is auto-accepted when you enter the your garrison.|U|110560|FACTION|Horde|Z|Frostwall|
@@ -274,12 +274,12 @@ T Equipping Our Fleet |QID|39675|N|To Kronk Rustspark|M|40.04,72.22|Z|Frostfire 
 
 A A True Naval Commander |QID|39665|PRE|39666|N|From Salty Jorren|M|28.68,10.85|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 C A True Naval Commander |QID|39665|QO|1|N|Head back up to the Fleet Command Table, Click on it and replace the Felsmoke Launcher with the Blast Furnace.|M|28.20,11.70|NC|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
-C A True Naval Commander |QID|39665|QO|1|N|Head back up to the Fleet Command Table, Click on it and start "Naval Blockade Mission: South Sea".|M|28.20,11.70|NC|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
+C A True Naval Commander |QID|39665|QO|2|N|Head back up to the Fleet Command Table, Click on it and start "Naval Blockade Mission: South Sea".|M|28.20,11.70|NC|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 T A True Naval Commander |QID|39665|N|To Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
 
 A A True Naval Commander |QID|39676|PRE|39675|N|From Kronk Rustspark|M|40.04,72.22|Z|Frostfire Ridge|FACTION|Horde|
 C A True Naval Commander |QID|39676|QO|1|N|Head back up to the Fleet Command Table, Click on it and replace the Felsmoke Launcher with the Blast Furnace.|M|42.05,70.95|NC|Z|Frostfire Ridge|FACTION|Horde|
-C A True Naval Commander |QID|39676|QO|1|N|Head back up to the Fleet Command Table, Click on it and start "Naval Blockade Mission: South Sea".|M|42.05,70.95|NC|Z|Frostfire Ridge|FACTION|Horde|
+C A True Naval Commander |QID|39676|QO|2|N|Head back up to the Fleet Command Table, Click on it and start "Naval Blockade Mission: South Sea".|M|42.05,70.95|NC|Z|Frostfire Ridge|FACTION|Horde|
 T A True Naval Commander |QID|39676|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfire Ridge|FACTION|Horde|
 
 A Upgrading The Fleet |QID|39067|PRE|39056|N|From Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
@@ -324,6 +324,3 @@ T Naval Domination |QID|39246|N|To Rolash Wavechaser|M|42.08,71.03|Z|Frostfire R
 ]]
 
 end)
-
-
-
