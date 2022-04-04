@@ -219,26 +219,31 @@ function WoWPro.GetLootTrackingInfo(lootitem,lootqty)
     - a complete symbol if the ammount the user has is equal to the ammount they need
 ]]
     if not _G.GetItemInfo(lootitem) then return "" end
-    local complete = false
     local track = ""                                                --If the function did have a track string, adds a newline
     track = track.." - ".. _G.GetItemInfo(lootitem)..": "   --Adds the item's name to the string
     local numinbag = _G.GetItemCount(lootitem)      --Finds the number in the bag, and adds a count if supplied
     track = track..numinbag                                     --Adds the number in bag to the string
     track = track.."/"..lootqty                             --Adds the total number needed to the string
-    if (lootqty > 0) and (numinbag >= lootqty) then
-         --If the user has the requisite number of items or more, adds a complete marker
-        track = track.." (C)"
-        complete = true
-    elseif (lootqty < 0) and (numinbag < -lootqty) then
-         --If the user has less than the requisite number of items, adds a complete marker
-         track = track.." (C)"
-         complete = true
+    if (lootqty > 0) then
+        if (numinbag >= lootqty) then
+            --If the user has the requisite number of items or more, adds a complete marker
+            track = track.." (C)"
+            return track , true
+        end
+        return track , false
+    elseif (lootqty < 0) then
+        if (numinbag < -lootqty) then
+            --If the user has less than the requisite number of items, adds a complete marker
+            track = track.." (C)"
+            return track , true
+        end
+        return track , false
     else
         -- Should not happen
+        WoWPro:print("GetLootTrackingInfo(!?): lootqty=%d, numinbag=%d", lootqty, numinbag)
         track = track.." (!?)"
+        return track , false
     end
-    --Returns the track string to the calling function
-    return track , complete
 end
 
 -- Auto-Complete: Loot based --
