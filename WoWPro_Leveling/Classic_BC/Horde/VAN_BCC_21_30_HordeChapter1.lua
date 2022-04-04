@@ -23,7 +23,7 @@ return [[
 
 A Boulderslide Ravine|QID|6421|M|47.22,64.05|Z|1442|N|From Mor'rogal. You'll find him just off the Charred Vale path\n[color=FF0000]NOTE: [/color]The path is in east corner. Look for the sign.|
 h Sun Rock Retreat|ACTIVE|6421|M|47.46,62.13|Z|1442|N|Head back down the path to the 'Inn' and set your hearthstone to Sun Rock Retreat.|
-R Windshear Crag|ACTIVE|1483|M|49.5,61.0;53.1,61.6;60.33,70.90|CC|Z|1442|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.\n[color=FF0000]NOTE: [/color]If you don't mind a little falling damage, you can drop off the cliff by the graveyard.|
+R Windshear Crag|ACTIVE|1483|M|49.5,61.0;53.1,61.6;60.33,70.90|CC|Z|1442|N|Exit Sun Rock Retreat and follow the road south to the Windshear Crag sign.\n[color=FF0000]NOTE: [/color]If you don't mind a little falling damage, you can drop off the cliff by the graveyard.|
 T Ziz Fizziks|QID|1483|M|58.99,62.61|Z|1442|N|Follow the road into Windshear Crag. Ziz Fizziks is inside a hut in a SW alcove.|
 A Super Reaper 6000|QID|1093|M|58.99,62.61|Z|1442|N|From Ziz Fizziks.|PRE|1483|
 C Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|S|
@@ -121,8 +121,8 @@ C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions for vials of their
 R Durnholde Keep|ACTIVE|498|M|76.08,47.11|Z|1424|N|Make your way to the Durnholde Keep entrance.\n[color=FF0000]NOTE: [/color]There is a spot on the northeast corner, and on the north side just past it, where you can enter without going through the front gates and fighting your way through.\n Be warned that your pets cannot follow you through there.|
 K WANTED: Syndicate Personnel|ACTIVE|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|S|IZ|Durnholde Keep|
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|S|IZ|Durnholde Keep|
-K Jailer Eston|ACTIVE|498|M|79.51,41.88|Z|1424|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
-K Jailor Marlgen|ACTIVE|498|L|3499|N|Kill Jailor Marlgen to loot the Burnished Gold Key to free Tog'thar.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
+K Jailer Eston|ACTIVE|498|M|79.51,41.88|Z|1424|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|T|Jailer Eston|
+K Jailor Marlgen|ACTIVE|498|L|3499|N|Kill Jailor Marlgen to loot the Burnished Gold Key to free Tog'thar.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|T|Jailor Marlgen|
 C The Rescue|QID|498|M|79.79,39.66|Z|1424|QO|2|N|Click on the 'ball and chain' to free Tog'thar.|NC|
 C The Rescue|QID|498|M|77.4,42.8;76.2,39.5;75.3,39.1;75.33,41.49|CC|Z|1424|QO|1|N|Click on the 'ball and chain' to free Drull.\nRun along the stone wall west of the bridge to the tree root. Climb down and follow the wall around to the backdoor of the second building.\nHe has a rogue, a mage and a Watchman guarding him. If you approach by the rear door, you'll only have to pull the Watchman. As long as the Watchman doesn't run back inside and you stick to the west wall, you shouldn't aggro the other two.\n[color=FF0000]NOTE: [/color]Sometimes Jailor Eston will spawn inside. He can be pulled singly as well.|NC|
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|US|
@@ -144,21 +144,23 @@ T Elixir of Pain|QID|501|M|61.44,19.07|Z|1424|N|To Apothecary Lydon.\n[color=FF0
 
 ; --- Silverpine Forest
 F The Sepulcher|ACTIVE|516^480|M|60.19,18.69|Z|1424|
-T Beren's Peril|QID|516|M|44.01,40.84|Z|1421|N|To Shadow Priest Allister.|
-T The Weaver|QID|480|M|44.01,40.84|Z|1421|N|To Shadow Priest Allister.|
+T Beren's Peril|QID|516|M|43.98,40.93|Z|1421|N|To Shadow Priest Allister.|
+T The Weaver|QID|480|M|43.98,40.93|Z|1421|N|To Shadow Priest Allister.|
 
 ; --- Thunder Bluff
 N Quick visit back to Kalimdor|ACTIVE|1067|N|This is probably the best time to make a quick trip back to Thunder Bluff to turn in a quest and to do any training (especially Druids).\nThe goal is to be lv 25 when you return to Silverpine Forest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 H Orgrimmar|ACTIVE|1067|N|This is why we changed our hearthstone.\n[color=FF0000]NOTE: [/color]If your hearthstone is on CD, you're going to have to do it the long way by taking the zeppelin from Tirisfal Glades and flying from Orgrimmar to Thunder Bluff.|
-F Thunder Bluff|ACTIVE|1067|M|45.50,63.84|Z|1454|N|Fly to Thunder Bluff.|
+= Level 24|ACTIVE|1067|N|If you haven't done so already, go do your lv 24 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Druid|IZ|1454|
+F Thunder Bluff|ACTIVE|1067|M|45.13,63.90|Z|1454|N|Fly to Thunder Bluff.|
+= Level 24|ACTIVE|1067|N|If you haven't done so already, go do your lv 24 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|IZ|1456|
 R The Pools of Vision|ACTIVE|1067|M|30.50,30.48|Z|1456|
 T Return to Thunder Bluff|QID|1067|M|22.90,21.03|Z|1456|N|To Apothecary Zamah.|
 A The Flying Machine Airport|QID|1086|M|22.84,20.93|Z|1456|N|From Apothecary Zamah.|PRE|1067|
 
 ; --- The Barrens
 F Ratchet|ACTIVE|1094|M|47.02,49.83|Z|1456|
-T Further Instructions|QID|1094|M|62.98,37.18|Z|1413|N|To Sputtervalve.|
-A Further Instructions|QID|1095|M|62.98,37.18|Z|1413|N|From Sputtervalve.|PRE|1094|
+T Further Instructions|QID|1094|M|62.98,37.22|Z|1413|N|To Sputtervalve.|
+A Further Instructions|QID|1095|M|62.98,37.22|Z|1413|N|From Sputtervalve.|PRE|1094|
 T Mahren Skyseer|QID|874|M|65.84,43.86|Z|1413|N|To Mahren Skyseer at The Tidus Stair.\nYou can either swim there, or follow the road. Running along the shoreline will take longer because the shore isn't a straight line and you'll end up swimming at several points along the way.|
 A Isha Awak|QID|873|M|65.84,43.86|Z|1413|N|From Mahren Skyseer.|PRE|874|
 K Isha Awak|ACTIVE|873|M|65.39,46.91;63.56,53.93|CC|Z|1413|QO|1|N|Jump into the water and start swimming east. Locate Isha Awak, kill it and loot its heart.\nIt can be found in the water between the next point and Northwatch Hold.\n[color=FF0000]NOTE: [/color]If you don't want to swim, the targeting button works from the shore. ;)|T|Isha Awak|
@@ -167,30 +169,30 @@ N Booty Bay|ACTIVE|6571|N|Before heading to Stonetalon Mountains, we're taking a
 
 ; --- Booty Bay
 b Booty Bay|ACTIVE|6571|M|63.70,38.63|Z|1413|L|16745|N|Take the boat to Booty Bay.|
-C Warsong Supplies|QID|6571|M|26.46,73.38|Z|1434|L|16745|N|You'll find the crate at the back of the first stack of cargo on the dock.|
-f Booty Bay|ACTIVE|6571|M|26.87,77.09|Z|1434|N|Since you are here, go grab the Flight Path, So head up to Gringer who's standing just outside the Inn balcony.\n[color=FF0000]NOTE: [/color]You have to work your way through the Inn to get there.|TAXI|-Booty Bay|
+C Warsong Supplies|QID|6571|M|26.43,73.31|Z|1434|L|16745|N|You'll find the crate at the back of the first stack of cargo on the dock.|
+f Booty Bay|ACTIVE|6571|M|26.87,77.09|Z|1434|N|Grab the Flight Path from Gringer standing just outside the Inn balcony.\n[color=FF0000]NOTE: [/color]You have to work your way through the Tavern to get to him.|TAXI|-Booty Bay|
 b Ratchet|ACTIVE|6571|M|25.80,73.10|Z|1434|N|Take the boat to Ratchet.|
 
 ; --- Stonetalon Mountains
 F Sun Rock Retreat|ACTIVE|1095|M|63.09,37.16|Z|1413|
-h Sun Rock Retreat|ACTIVE|1095|M|47.46,62.13|Z|1442|N|Head back down the path to the 'Inn' and set your hearthstone to Sun Rock Retreat.|
-R Windshear Crag|ACTIVE|1068^1095|M|49.5,61.0;53.1,61.6;59.97,71.14|CC|Z|1442|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
+h Sun Rock Retreat|ACTIVE|1095|M|47.46,62.13|Z|1442|N|Set your hearthstone to Sun Rock Retreat.|
+R Windshear Crag|ACTIVE|1068^1095|M|49.5,61.0;53.1,61.6;60.33,70.90|CC|Z|1442|N|Exit Sun Rock Retreat and follow the road south to the Windshear Crag sign.\n[color=FF0000]NOTE: [/color]If you don't mind a little falling damage, you can drop off the cliff by the graveyard.|
 T Further Instructions|QID|1095|M|58.99,62.60|N|Make your way to Ziz Fizziks' hut and turn in the quest.|
 A Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.60|Z|1442|N|From Ziz Fizziks.|PRE|1095|
-K XT:4|ACTIVE|1068|M|64.07,45.96|Z|1442|QO|1|N|Kill XT:4. It patrols the north side of the river.|T|XT:4|S|
-K XT:9|ACTIVE|1068|M|71.36,55.39;60.28,54.34|CN|Z|1442|QO|2|N|Kill XT:9. It patrols the south side of the river.|T|XT:9|S|
-U The Flying Machine Airport|QID|1086|M|66.48,45.40|Z|1442|N|Place the Toxic Fogger here.|U|5638|
-C Gerenzo Wrenchwhistle|QID|1096|M|68.6,41.2;68.8,39.5;64.6,38.0;62.84,40.49|CC|Z|1442|L|5736|N|Make your way to the path leading up to the structure. Once you are there, work your way over to where Gerenzo is and kill him and his guard.\n[color=FF0000]NOTE: [/color]He can spawn on the main platform or on the platform behind the water wheel.|
+K XT:4|ACTIVE|1068|M|64.07,45.96|Z|1442|QO|1|N|Kill XT:4. It patrols the north side of the river.|S|
+K XT:9|ACTIVE|1068|M|71.36,55.39;60.28,54.34|CN|Z|1442|QO|2|N|Kill XT:9. It patrols the south side of the river.|S|
+R The Flying Machine Airport|ACTIVE|1086|M|66.48,45.40|Z|1442|N|Place the Toxic Fogger here.|U|5638|O|
+K Gerenzo Wrenchwhistle|ACTIVE|1096|M|68.6,41.2;68.8,39.5;64.6,38.0;62.84,40.49|CC|Z|1442|L|5736|N|Make your way to the path leading up to the structure. Once you are there, work your way over to where Gerenzo is and kill him and his guard.\n[color=FF0000]NOTE: [/color]He can spawn on the main platform or on the platform behind the water wheel.|
 ;L Level 25
 N Shortcut down|ACTIVE|1096|N|Jump into the water and swim to shore.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Cragpool Lake|
 K XT:4|ACTIVE|1068|M|64.07,45.96|Z|1442|QO|1|N|Kill XT:4. It patrols a small area in the northern corner of Windshear Crag by Cragpool Lake and Blackwolf River.|T|XT:4|US|
 K XT:9|ACTIVE|1068|M|71.36,55.39;60.28,54.34|CN|Z|1442|QO|2|N|Kill XT:9. It patrols on the south side of the river, travelling west from the mine to the mountain edge on the west side before looping back in the opposite direction.|T|XT:9|US|
 T Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.57|Z|1442|N|To Ziz Fizziks.|
-R Boulderslide Ravine|ACTIVE|6481|M|67.7,86.8;66.24,89.37|CC|Z|1442|N|Head back to the signpost at the Windshear Crag entrance and follow the road south.|
+R Boulderslide Ravine|ACTIVE|6481|M|67.7,86.8;66.24,89.37|CC|Z|1442|N|Exit Windshear Crag and follow the road south.|
 R Boulderslide Cavern|ACTIVE|6481|M|61.98,93.16|Z|1442|N|Make your way to the cave entrance.|
 C Earthen Arise|QID|6481|M|57.67,89.48|Z|1442|N|Open the Resonite cask with the Enchanted Resonite Crystal, and then slay Goggeroc.\n[color=FF0000]NOTE: [/color]Make sure you clear the mobs in the area first.|
 R Webwinder Path|ACTIVE|6481|M|61.7,93.1;67.7,86.6|CC|Z|1442|N|Exit the cave and make your way back to the road.|
-R Sun Rock Retreat|AVAILABLE|6301|M|49.58,60.99|Z|1442|N|Head back to the signpost at the Windshear Crag entrance and make your way back to Sun Rock Retreat.|
+R Sun Rock Retreat|AVAILABLE|6301|M|49.58,60.99|Z|1442|N|Make your way back to Sun Rock Retreat.\n[color=FF0000]NOTE: [/color]Save your hearth, you'll need it later.|
 A Cycle of Rebirth|QID|6301|M|47.46,58.37|Z|1442|N|From Tammra Windfield.|
 R Mirkfallon Lake|ACTIVE|6301|M|50.8,60.0;49.20,43.39|CC|Z|1442|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
 C Cycle of Rebirth|QID|6301|M|50.4,42.37|Z|1442|L|16205 10|N|Loot any gaea seeds you find on the ground around the lake.|
