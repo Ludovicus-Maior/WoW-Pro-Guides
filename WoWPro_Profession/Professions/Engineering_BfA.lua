@@ -2,10 +2,10 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancENG_BfA", "Profession", "Engineering_LEG", "WoWPro Team", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancENG_BfA", "Profession", "Engineering_BfA", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",202)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Engineering_Bfa")
+WoWPro:GuideName(guide, "Engineering_BattleforAzeroth")
 WoWPro:GuideNickname(guide, "ENG_BFA")
 
 WoWPro:GuideSteps(guide, function()
@@ -40,8 +40,10 @@ B [item=163569/Insulated Wiring]|QID|202000004|L|163569 900|ITEM|163569|N|You'll
 
 N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-= Learn [spell=264492/Kul Tiran Engineering]|QID|202264492|M|77.64,14.32|Z|1161;Boralus|P|Engineering;202;*;0;75|SPELL|Kul Tiran Engineering;264492|T|Layla Evenkeel|N|Learn from Layla Evenkeel, Tradewinds Market in Boralus.|FACTION|Alliance|
-= Learn [spell=264492/Kul Tiran Engineering]|QID|202264492|M|45.0,40.6|Z|1165;Dazar'alor|P|Engineering;202;*;0;75|SPELL|Kul Tiran Engineering;264492|T|Shuga Blastcaps|N|Learn from Shuga Blastcaps, Terrace of Crafters in Dazar'alor.|FACTION|Horde|
+; This guide contains ZoneIDs - Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|1355;Nazjatar
+
+= Learn [spell=264492/Kul Tiran Engineering]|QID|202264492|M|77.64,14.32|Z|1161|P|Engineering;202;*;0;75|SPELL|Kul Tiran Engineering;264492|T|Layla Evenkeel|N|Learn from Layla Evenkeel, Tradewinds Market in Boralus.|FACTION|Alliance|
+= Learn [spell=264492/Kul Tiran Engineering]|QID|202264492|M|45.0,40.6|Z|1165|P|Engineering;202;*;0;75|SPELL|Kul Tiran Engineering;264492|T|Shuga Blastcaps|N|Learn from Shuga Blastcaps, Terrace of Crafters in Dazar'alor.|FACTION|Horde|
 
 M [item=153490/FRIED]|QID|202255392|P|Engineering;202;7+30;1|ITEM|153490|CRAFT|255392 30|MATS|152512 6;160502 5;163569 8|N|Or you can mix with the other Bomb recipes.|
 = Learn Recipe|QID|202700251|P|Engineering;202;7+25|RECIPE|280732|N|Learn [spell=280732/Magical Intrusion Dampener] Rank 1, Recipe from Trainer.|
@@ -56,9 +58,8 @@ N Engineering Levelling|P|Engineering;202;7+110|N|Levelling from 110 to 145, the
 = Learn Recipe|QID|202701101|P|Engineering;202;7+85|RECIPE|283916|N|Learn [spell=283916/Unstable Temporal Time Shifter] Rank 3, from [item=166276/Schematic Unstable Temporal Time Shifter] Rank 3, this item DROPS from High Tinker Mekkatorque in the Battle of Dazar'alor Raid.|
 M [item=158379/Unstable Temporal Time Shifter]|QID|202283915|P|Engineering;202;7+150;1|ITEM|158379|CRAFT|283915 50|MATS|152512 10;152579 7;163569 18|RECIPE|283916|N|This is Rank 2 Recipe, Make this to 150, or once you get Rank 3, Make that to 150|
 M [item=158379/Unstable Temporal Time Shifter]|QID|202283916|P|Engineering;202;7+150;1|ITEM|158379|CRAFT|283916 35|MATS|152512 8;152579 6;163569 15|N|This is for the Rank 3 Recipe. Make until turns Grey at 150.|
-
-= Learn Recipe|QID|202701451|PRE|54972|M|38.0,53.6|Z|1355;Nazjatar|P|Engineering;202;7+145|RECIPE|294784|N|Learn [spell=294784/Notorious Combatants Discombobulator] Recipe from Instructor Alikana|FACTION|ALLIANCE|
-= Learn Recipe|QID|202701451|PRE|55053|M|49.0,61.6|Z|1355;Nazjatar|P|Engineering;202;7+145|RECIPE|294784|N|Learn [spell=294784/Notorious Combatants Discombobulator] Recipe from Jada.|FACTION|HORDE|
+= Learn Recipe|QID|202701451|PRE|54972|M|38.0,53.6|Z|1355|P|Engineering;202;7+145|RECIPE|294784|N|Learn [spell=294784/Notorious Combatants Discombobulator] Recipe from Instructor Alikana|FACTION|ALLIANCE|
+= Learn Recipe|QID|202701451|PRE|55053|M|49.0,61.6|Z|1355|P|Engineering;202;7+145|RECIPE|294784|N|Learn [spell=294784/Notorious Combatants Discombobulator] Recipe from Jada.|FACTION|HORDE|
 M [item=167965/Notorious Combatants Discombobulator] Rank 1|QID|202294784|P|Engineering;202;7+160;1|ITEM|167965|CRAFT|294784 5|MATS|168185 15;152579 5;163569 10;152668 3|
 
 N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169541/Schematic: Notorious Combatants Discombobulator](Rank 2) and [item=169542/Schematic: Notorious Combatants Discombobulator](Rank 3) recipes of Dazzerian (Horde) or Tomas Riogain (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|

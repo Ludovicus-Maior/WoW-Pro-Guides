@@ -251,6 +251,7 @@ R The Arboretum|QID|29993|M|49.02,46.27;49.14,47.32;50.43,46.41|CC|N|The path is
 A The Perfect Color|QID|29881|M|54.89,45.31|N|From Inkmaster Glenzu.|
 T Find the Boy|QID|29993|M|54.92,44.83|N|To Inkmaster Wei.|
 A Shrine of the Dawn|QID|29995|PRE|29993|M|54.92,45.11;54.67,44.11|CN|N|From Inkmaster Wei, who walks around between these two chairs.|
+= Learn [spell=264502/Pandaria Inscription]|QID|773264502|M|54.91,44.95|Z|371|IZ|5785|P|Inscription;773;*;0;0|SPELL|Pandaria Inscription;264502|T|Inkmaster Wei|N|Learn from Inkmaster Wei, The Arboretum, Jade Forest. Also, BUY all Recipes available.|
 A Quill of Stingers|QID|29882|M|55.40,45.29|N|From Inkmaster Jo Po, who wanders a bit.|
 f The Arboretum|QID|29881|M|56.96,44.22|N|Get the flight path at Injar'i Lakebloom.|
 C The Perfect Color|QID|29881|S|M|53.48,44.38|N|Collect the glowing petals from around the trees (can be hard to spot).|

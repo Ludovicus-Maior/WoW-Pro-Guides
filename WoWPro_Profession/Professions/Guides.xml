@@ -39,6 +39,15 @@
 	<Script file="Engineering_LEG.lua"/>
 	<Script file="Engineering_BfA.lua"/>
 	<Script file="Engineering_SL.lua"/>
+	<Script file="Inscription_HUB.lua"/>
+	<Script file="Inscription_VAN.lua"/>
+	<Script file="Inscription_OUT.lua"/>
+	<Script file="Inscription_WotLK.lua"/>
+	<Script file="Inscription_Cata.lua"/>
+	<Script file="Inscription_MoP.lua"/>
+	<Script file="Inscription_WoD.lua"/>
+	<Script file="Inscription_LEG.lua"/>
+	<Script file="Inscription_BfA.lua"/>
 	<Script file="Inscription_SL.lua"/>
 	<Script file="Jewelcrafting_VAN.lua"/>
 	<Script file="Jewelcrafting_OUT.lua"/>

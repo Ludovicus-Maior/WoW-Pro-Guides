@@ -21,7 +21,7 @@ return [[
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
 ;  Typed update for Legion split on 19-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
-
+; Guide contants Z|ZID| - Z|628;The Underbelly@Dalaran70|, Z|680;Suramar|
 N Guide Hub|QID|165000000|JUMP|Leatherworking: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|165000001|N|Currently in Development, Covering what Blizzard now terms Legion Plans, Legion expansion content 1-100\nAlso ASSUMES you have the appropriate Skills.|
@@ -49,12 +49,12 @@ M [item=128883/Warhide Bindings] - Rank 3|QID|165194711|P|Leatherworking;165;6+7
 M [item=128894/Battlebound Grips] - Rank 2|QID|165194748|P|Leatherworking;165;6+45;1|RECIPE|194754|ITEM|128894|CRAFT|194748 50|MATS|124115 12;124113 5|N|ALTERNATE: This is RANK 2, this will only get you to about 45, you really need to get rank 3 for this step.|  ; If you have rank 2 of this one, to not show this step.
 M [item=128894/Battlebound Grips] - Rank 3|QID|165194754|P|Leatherworking;165;6+75;1|ITEM|128894|CRAFT|194711 90|MATS|124115 12|N|ALTERNATE Recipe.|
 
-B [spell=194797/Gravenscale Girdle] - Rank 1|QID|165600601|M|26.6,71.6|Z|680;Suramar|ITEM|140645|RECIPE|194797|T|Stalriss Dawnrunner|N|Purchase [item=140645/Recipe: Gravenscale Girdle] - Rank 1 from Stalriss Dawnrunner, (near) Felsoul Hold, Suramar.|
-B [spell=194788/Dreadleather Belt] - Rank 1|QID|165600601|M|26.6,71.6|Z|680;Suramar|ITEM|140637|RECIPE|194788|T|Stalriss Dawnrunner|N|Purchase [item=140637/Recipe: Dreadleather Belt] - Rank 1 from Stalriss Dawnrunner, (near) Felsoul Hold, Suramar.|
-B [spell=194760/Gravenscale Girdle] - Rank 2|QID|165600602|M|65.8,80.6|Z|628;The Underbelly@Dalaran70|ITEM|137917|RECIPE|194760|T|Strap Bucklebolt|N|Purchase [item=137917/Recipe: Gravenscale Girdle] - Rank 2 from Strap Bucklebolt, Dalaran Sewers, for 250 Sightless Eyes.|
-B [spell=194720/Dreadleather Belt] - Rank 2|QID|165600602|M|65.8,80.6|Z|628;The Underbelly@Dalaran70|ITEM|137885|RECIPE|194720|T|Strap Bucklebolt|N|Purchase [item=137885/Recipe: Dreadleather Belt] - Rank 2 from Strap Bucklebolt, Dalaran Sewers, for 250 Sightless Eyes.|
-B [spell=194768/Gravenscale Girdle] - Rank 3|QID|165600603|M|65.8,80.6|Z|628;The Underbelly@Dalaran70|ITEM|137925|RECIPE|194768|T|Strap Bucklebolt|N|Purchase [item=137925/Recipe: Gravenscale Girdle] - Rank 3 from Strap Bucklebolt, Dalaran Sewers, for 500 Sightless Eyes.|
-B [spell=194728/Dreadleather Belt] - Rank 3|QID|165600603|M|65.8,80.6|Z|628;The Underbelly@Dalaran70|ITEM|137893|RECIPE|194728|T|Strap Bucklebolt|N|Purchase [item=137893/Recipe: Dreadleather Belt] - Rank 3 from Strap Bucklebolt, Dalaran Sewers, for 500 Sightless Eyes.|
+B [spell=194797/Gravenscale Girdle] - Rank 1|QID|165600601|M|26.6,71.6|Z|680|ITEM|140645|RECIPE|194797|T|Stalriss Dawnrunner|N|Purchase [item=140645/Recipe: Gravenscale Girdle] - Rank 1 from Stalriss Dawnrunner, (near) Felsoul Hold, Suramar.|
+B [spell=194788/Dreadleather Belt] - Rank 1|QID|165600601|M|26.6,71.6|Z|680|ITEM|140637|RECIPE|194788|T|Stalriss Dawnrunner|N|Purchase [item=140637/Recipe: Dreadleather Belt] - Rank 1 from Stalriss Dawnrunner, (near) Felsoul Hold, Suramar.|
+B [spell=194760/Gravenscale Girdle] - Rank 2|QID|165600602|M|65.8,80.6|Z|628|ITEM|137917|RECIPE|194760|T|Strap Bucklebolt|N|Purchase [item=137917/Recipe: Gravenscale Girdle] - Rank 2 from Strap Bucklebolt, Dalaran Sewers, for 250 Sightless Eyes.|
+B [spell=194720/Dreadleather Belt] - Rank 2|QID|165600602|M|65.8,80.6|Z|628|ITEM|137885|RECIPE|194720|T|Strap Bucklebolt|N|Purchase [item=137885/Recipe: Dreadleather Belt] - Rank 2 from Strap Bucklebolt, Dalaran Sewers, for 250 Sightless Eyes.|
+B [spell=194768/Gravenscale Girdle] - Rank 3|QID|165600603|M|65.8,80.6|Z|628|ITEM|137925|RECIPE|194768|T|Strap Bucklebolt|N|Purchase [item=137925/Recipe: Gravenscale Girdle] - Rank 3 from Strap Bucklebolt, Dalaran Sewers, for 500 Sightless Eyes.|
+B [spell=194728/Dreadleather Belt] - Rank 3|QID|165600603|M|65.8,80.6|Z|628|ITEM|137893|RECIPE|194728|T|Strap Bucklebolt|N|Purchase [item=137893/Recipe: Dreadleather Belt] - Rank 3 from Strap Bucklebolt, Dalaran Sewers, for 500 Sightless Eyes.|
 U Learn Recipes|QID|165600609|P|Leatherworking;165;6+60|RECIPE|194768|N|Be sure to learn of the Gravenscale recipes you have or just purchased.|
 U Learn Recipes|QID|165600609|P|Leatherworking;165;6+60|RECIPE|194728|N|Be sure to learn of the Dreadleather recipes you have or just purchased.|
 M [item=128906/Gravenscale Girdle] - Rank 2|QID|165194760|P|Leatherworking;165;6+90;1|RECIPE|194768|ITEM|128906|CRAFT|194703 50|MATS|124115 12;124439 10;124124 2|N|This is RANK 2, this will only get you to about 90, you really need to get rank 3 for this step. (Will need Unbroken Tooth x10 each craft!)|  ; If you have rank 2 of this one, to not show this step.

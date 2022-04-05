@@ -32,8 +32,8 @@ N Shopping List|QID|755000004|N|There is no Shopping list for this one, to compl
 ; N Shopping List|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 ; end of shopping list, and pre craft.
 
-= Learn [spell=264537/Northrend Jewelcrafting]|QID|755264537|M|40.6,35.2|Z|125;Dalaran!Crystalsong Forest|IZ|125|SPELL|Northrend Jewelcrafting;264537|T|Timothy Jones|N|Learn from Timothy Jones, Magus Commerce Exchange, in Dalaran, Crystalsong Forest.  NOT! Legion, Also, BUY all Recipes available.|
-= Learn [spell=264537/Northrend Jewelcrafting]|QID|755264537|M|41.6,53.4|Z|114;Borean Tundra|IZ|114|SPELL|Northrend Jewelcrafting;264537|T|Gebali|N|Learn from Gebali, in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264537/Northrend Jewelcrafting]|QID|755264537|M|40.68,35.36|Z|125;Dalaran!Crystalsong Forest|IZ|125|SPELL|Northrend Jewelcrafting;264537|T|Timothy Jones|N|Learn from Timothy Jones, Cartier & Co. Fine Jewelry, in Dalaran, Crystalsong Forest.  NOT! Legion, Also, BUY all Recipes available.|
+= Learn [spell=264537/Northrend Jewelcrafting]|QID|755264537|M|41.63,53.33|Z|114;Borean Tundra|IZ|114|SPELL|Northrend Jewelcrafting;264537|T|Gebali|N|Learn from Gebali, in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
 = Learn [spell=264537/Northrend Jewelcrafting]|QID|755264537|M|57.4,72.2|Z|114;Borean Tundra|IZ|114|SPELL|Northrend Jewelcrafting;264537|T|Alestos|N|Learn from Alestos, in Valiance Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Alliance|
 = Learn [spell=264537/Northrend Jewelcrafting]|QID|755264537|M|79.2,28.8|Z|117;Howling Fjord|IZ|117|SPELL|Northrend Jewelcrafting;264537|T|Carter Tiffens|N|Learn from Carter Tiffens, in Vengeance Landing, Howling Fjord. Also, BUY all Recipes available.|FACTION|Horde|
 = Learn [spell=264537/Northrend Jewelcrafting]|QID|755264537|M|59.8,63.8|Z|117;Howling Fjord|IZ|117|SPELL|Northrend Jewelcrafting;264537|T|Ounhulo|N|Learn from Ounhulo, in Valgarde, Howling Fjord. Also, BUY all Recipes available.|FACTION|Alliance|

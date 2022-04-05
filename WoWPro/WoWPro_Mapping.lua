@@ -11,7 +11,6 @@ local cache = {}
 local HBD = _G.LibStub("HereBeDragons-2.0")
 WoWPro.HBD = HBD
 
-
 -- Local HBD:GetPlayerZonePosition() substitute
 function WoWPro:GetPlayerZonePosition()
     local mapID = _G.C_Map.GetBestMapForUnit("player")
@@ -35,7 +34,6 @@ local SHOW_MINIMAP_MENU = true
 local SHOW_WORLDMAP_MENU = true
 local SHOW_MINIMAP_TOOLTIP = true
 local SHOW_WORLDMAP_TOOLTIP = true
-
 
 -- WoWPro customized callback functions for TomTom --
 
@@ -131,7 +129,6 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
         return
     end
 
-
     if not autoarrival then
 --       WoWPro:dbp("WoWProMapping_distance: no autoarrival")
         return
@@ -210,81 +207,6 @@ local WoWProMapping_callbacks_tomtom = {
             },
 }
 
--- parameters for Lightheaded
-local zidmap = {
-   [1] = "Dun Morogh",
-   [3] = "Badlands",
-   [4] = "Blasted Lands",
-   [8] = "Swamp Of Sorrows",
-   [10] = "Duskwood",
-   [11] = "Wetlands",
-   [12] = "Elwynn Forest",
-   [14] = "Durotar",
-   [15] = "Dustwallow",
-   [16] = "Aszhara",
-   [17] = "The Barrens",
-   [28] = "Western Plaguelands",
-   [33] = "Stranglethorn Vale",
-   [36] = "Alterac Mountains",
-   [38] = "Loch Modan",
-   [40] = "Westfall",
-   [41] = "Deadwind Pass",
-   [44] = "Redridge Mountains",
-   [45] = "Arathi Basin",
-   [46] = "Burning Steppes",
-   [47] = "The Hinterlands",
-   [51] = "Searing Gorge",
-   [65] = "Dragonblight",
-   [66] = "Zul'Drak",
-   [67] = "The Storm Peaks",
-   [85] = "Tirisfal Glades",
-   [130] = "Silverpine Forest",
-   [139] = "Eastern Plaguelands",
-   [141] = "Teldrassil",
-   [148] = "Darkshore",
-   [210] = "Icecrown",
-   [215] = "Mulgore",
-   [267] = "Hilsbrad Foothills",
-   [331] = "Ashenvale Forest",
-   [357] = "Feralas",
-   [361] = "Felwood",
-   [394] = "Grizzly Hills",
-   [400] = "Thousand Needles",
-   [405] = "Desolace",
-   [406] = "Stonetalon Mountains",
-   [440] = "Tanaris",
-   [490] = "Un'Goro Crater",
-   [493] = "Moonglade",
-   [495] = "Howling Fjord",
-   [618] = "Winterspring",
-   [1377] = "Silithus",
-   [1497] = "Undercity",
-   [1519] = "Stormwind City",
-   [1537] = "Ironforge",
-   [1637] = "Ogrimmar",
-   [1638] = "Thunder Bluff",
-   [1657] = "Darnassus",
-   [3430] = "Eversong Woods",
-   [3433] = "Ghostlands",
-   [3483] = "Hellfire",
-   [3487] = "Silvermoon City",
-   [3518] = "Nagrand",
-   [3519] = "Terokkar Forest",
-   [3520] = "Shadowmoon Valley",
-   [3521] = "Zangarmarsh",
-   [3522] = "Blades Edge Mountains",
-   [3523] = "Netherstorm",
-   [3524] = "Azuremyst Isle",
-   [3525] = "Bloodmyst Isle",
-   [3537] = "Borean Tundra",
-   [3557] = "The Exodar",
-   [3703] = "Shattrath City",
-   [3711] = "Sholazar Basin",
-   [4080] = "Sunwell",
-   [4197] = "Lake Wintergrasp",
-   [4395] = "Dalaran",
-}
-
 function WoWPro:findBlizzCoords(questId)
     --[[
         local POIFrame
@@ -340,7 +262,6 @@ function WoWPro:MapPointDelta()
         return nil
     end
 end
-
 
 function WoWPro.DistanceBetweenSteps(i,j)
     if not WoWPro.map[i] then return 1e197 end
@@ -423,7 +344,6 @@ function WoWPro:ValidateMapCoords(guide,action,step,coords)
     return true
 end
 
-
 local LastMapPoint = nil
 function WoWPro:MapPoint(row)
     local GID = WoWProDB.char.currentguide
@@ -439,7 +359,6 @@ function WoWPro:MapPoint(row)
         stepIndex = WoWPro.NextStepNotSticky(WoWPro.ActiveStep)
     end
 
-
     -- Removing old map point --
     if LastMapPoint and LastMapPoint == stepIndex and #cache > 0 and cache[1].index == stepIndex then
         WoWPro:print("MapPoint: LastMapPoint=%d [%.2f,%.2f@%d] in %s. No update needed.", LastMapPoint, cache[1].x, cache[1].y, cache[1].map, cache[1].zone)
@@ -448,7 +367,6 @@ function WoWPro:MapPoint(row)
         WoWPro:dbp("MapPoint: LastMapPoint=%s, #cache=%d, cache[1].index=%s, stepIndex=%d", tostring(LastMapPoint),  #cache, tostring(#cache > 0 and cache[1].index), stepIndex)
     end
     WoWPro:RemoveMapPoint()
-
 
     local coords
     if WoWPro.map then
@@ -484,27 +402,6 @@ function WoWPro:MapPoint(row)
         end
         local x, y = WoWPro:findBlizzCoords(WoWPro.QID[stepIndex])
         if x and y then coords = tostring(x)..","..tostring(y) end
-    end
-
-    -- Using LightHeaded if the user has it and if there aren't coords from anything else --
-    if LightHeaded and WoWPro.QID and WoWPro.QID[stepIndex] and not coords then
-        if type(WoWPro.QID[stepIndex]) ~= "number" then return end
-        local _, npcid, _, stype
-        if WoWPro.action[stepIndex]=="A" then
-             _, _, _, _, stype, _, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[stepIndex])
-        else
-             _, _, _, _, _, _, _, stype, _, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[stepIndex])
-        end
-        if stype == "npc" then
-            local data = LightHeaded:LoadNPCData(tonumber(npcid))
-            if not data then return end
-            for zid,x,y in data:gmatch("([^,]+),([^,]+),([^:]+):") do
-                zone = zidmap[tonumber(zid)]
-                if not coords then coords = tostring(x)..","..tostring(y)
-                else coords = coords..";"..tostring(x)..","..tostring(y)
-                end
-            end
-        end
     end
 
     -- If there aren't coords to map, ending map function --

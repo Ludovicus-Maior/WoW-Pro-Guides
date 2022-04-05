@@ -38,11 +38,13 @@ B [item=159959/Nylon Thread]|QID|197000004|L|159959 1175|ITEM|159959|N|You'll ne
 N Shopping List|QID|197000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 N Tailoring Trainers|QID|197000008|N|It's possible these NPC's name may change, as you level and/or complete quests, but the phased trainers should be near the same areas.|
 
-= Learn [spell=3908/Tailoring]|QID|197003908|M|44.4,33.8|Z|1165;Dazar'alor|SPELL|Tailoring;3908|LVL|5|T|Pinjin the Patient|N|Learn from Pinjin the Patient, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
-= Learn [spell=265815/Zandalari Tailoring]|QID|197265815|M|44.4,33.8|Z|1165;Dazar'alor|P|Tailoring;165;*;0;75|SPELL|Zandalari Tailoring;265815|LVL|48|T|Pinjin the Patient|N|Learn from Pinjin the Patient, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
+; Guide contains ZoneIDs - Z|1165;Dazar'alor|, Z|1161;Boralus|, Z|1355;Nazjatar|
 
-= Learn [spell=3908/Tailoring]|QID|197003908|M|76.8,11.2|Z|1161;Boralus|SPELL|Tailoring;3908|LVL|5|T|Daniel Brineweaver|N|Learn from Daniel Brineweaver, Tradewinds Market, Boralus.|FACTION|Alliance|
-= Learn [spell=264630/Kul Tiran Tailoring]|QID|197264680|M|76.8,11.2|Z|1161;Boralus|P|Tailoring;165;*;0;75|SPELL|Kul Tiran Tailoring;264630|LVL|48|T|Daniel Brineweaver|N|Learn from Daniel Brineweaver, Tradewinds Market, Boralus.|FACTION|Alliance|
+= Learn [spell=3908/Tailoring]|QID|197003908|M|44.4,33.8|Z|1165|SPELL|Tailoring;3908|LVL|5|T|Pinjin the Patient|N|Learn from Pinjin the Patient, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
+= Learn [spell=265815/Zandalari Tailoring]|QID|197265815|M|44.4,33.8|Z|1165|P|Tailoring;165;*;0;75|SPELL|Zandalari Tailoring;265815|LVL|48|T|Pinjin the Patient|N|Learn from Pinjin the Patient, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
+
+= Learn [spell=3908/Tailoring]|QID|197003908|M|76.8,11.2|Z|1161|SPELL|Tailoring;3908|LVL|5|T|Daniel Brineweaver|N|Learn from Daniel Brineweaver, Tradewinds Market, Boralus.|FACTION|Alliance|
+= Learn [spell=264630/Kul Tiran Tailoring]|QID|197264680|M|76.8,11.2|Z|1161|P|Tailoring;165;*;0;75|SPELL|Kul Tiran Tailoring;264630|LVL|48|T|Daniel Brineweaver|N|Learn from Daniel Brineweaver, Tradewinds Market, Boralus.|FACTION|Alliance|
 
 = Learn Bandage Recipe|QID|197700011|P|Tailoring;197;7+01|RECIPE|267201|N|Learn [spell=267201/Tidespray Linen Bandage] Recipe from Trainer.|
 M [item=158381/Tidespray Linen Bandage]|QID|197267201|P|Tailoring;197;7+60;1|ITEM|158381|CRAFT|267201 100|MATS|152576 2|N|You can make up to level 75 if you want, but will take extra [item=152576/Tidespray Linen].|
@@ -54,8 +56,8 @@ M [item=154685/Tidespray Linen Robe]|QID|197257104|P|Tailoring;197;7+60;1|ITEM|1
 B [item=159959/Nylon Thread]|QID|197272440|L|159959 750|ITEM|159959|N|You'll need to about 750 Nylon Threads, for this step.|
 M [item=158378/Embroidered Deep Sea Satin]|QID|197272440|P|Tailoring;197;7+150;1|ITEM|158378|CRAFT|272440 150|MATS|152576 1;152577 1;159959 5|N|Might need a few more than 150, it'll be Yellow/Green for last points.|
 N Next steps|QID|197701501|AVAILABLE|55053^54972|N|You'll need to have completed the introductions quests to Nazjatar before you can continue.|
-= Learn Recipe|QID|197701501|PRE|55053|M|49.0,61.6|Z|1355;Nazjatar|P|Tailoring;197;7+150|RECIPE|294844|N|Learn [spell=294844/Notorious Combatants Satin Bracers] - Rank 1 Recipe from Jada.|FACTION|HORDE|
-= Learn Recipe|QID|197701501|PRE|54972|M|38.0,53.6|Z|1355;Nazjatar|P|Tailoring;197;7+150|RECIPE|294844|N|Learn [spell=294844/Notorious Combatants Satin Bracers] - Rank 1 Recipe from Instructor Alikana|FACTION|ALLIANCE|
+= Learn Recipe|QID|197701501|PRE|55053|M|49.0,61.6|Z|1355|P|Tailoring;197;7+150|RECIPE|294844|N|Learn [spell=294844/Notorious Combatants Satin Bracers] - Rank 1 Recipe from Jada.|FACTION|HORDE|
+= Learn Recipe|QID|197701501|PRE|54972|M|38.0,53.6|Z|1355|P|Tailoring;197;7+150|RECIPE|294844|N|Learn [spell=294844/Notorious Combatants Satin Bracers] - Rank 1 Recipe from Instructor Alikana|FACTION|ALLIANCE|
 B [item=159959/Nylon Thread]|QID|197294844|L|159959 80|ITEM|159959|N|You'll need to about 80 Nylon Threads, for this step.|
 L [item=152668/Expulsom]|QID|197294844|L|152668 20|ITEM|152668|N|You'll need 20 Expulsoms for this step, but a total of about 45-50 Expulsoms.|
 M [item=167981/Notorious Combatants Satin Bracers] - Rank 1|QID|197294844|P|Tailoring;197;7+160;1|ITEM|167981|CRAFT|294844 10|MATS|167738 10;152577 6;159959 8;152668 2|

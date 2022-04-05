@@ -47,8 +47,11 @@ B [item=38682/Enchanting Vellum]|QID|333000006|L|38682 81|ITEM|38682|N|You'll ne
 N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 ; end of shopping list, and pre craft.
-
-= Learn [spell=264462/Northrend Enchanting]|QID|333264462|M|39.06,39.81|Z|125;Dalaran!Crystalsong Forest|SPELL|Northrend Enchanting;264462|LVL|5|N|Learn from Enchanter Nalthanis, Dalaran - Northrend.|
+; This section includes Z|ID# - Z|114;Borean Tundra|, Z|125;Dalaran!Crystalsong Forest|.
+= Learn [spell=264462/Northrend Enchanting]|QID|333264462|M|39.06,39.81|Z|125|IZ|125|SPELL|Northrend Enchanting;264462|LVL|5|N|Learn from Enchanter Nalthanis, Simply Enchanting, Dalaran - Northrend.|
+= Learn [spell=264462/Northrend Enchanting]|QID|333264462|M|41.14,53.94|Z|114|IZ|114|SPELL|Northrend Enchanting;264462|T|Eorain Dawnstrike|N|Learn from Eorain Dawnstrike, in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264462/Northrend Enchanting]|QID|333264462|M|57.6,71.6|Z|114|IZ|114|SPELL|Northrend Enchanting;264462|T|Alexis Marlowe|N|Learn from Alexis Marlowe, in Valiance Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=264462/Northrend Enchanting]|QID|333264462|SPELL|Northrend Enchanting;264462|LVL|5|N|Learn Northrend Enchanting in Borean Tunda, or Dalaran - Northrend. (Once you to an area that has a local trainer, an arrow will popup.)|
 
 M [item=38960/Enchant Gloves - Gatherer]|QID|333044506|P|Enchanting;333;2+10;1|ITEM|38938|CRAFT|44506 14|MATS|34055 1;38682 1|
 = Learn Recipe|QID|333000101|P|Enchanting;333;2+10|RECIPE|60623|N|Learn [spell=60623/Enchant Boots - Icewalker] Recipe from Trainer.|

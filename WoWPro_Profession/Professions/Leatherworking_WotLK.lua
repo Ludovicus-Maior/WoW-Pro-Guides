@@ -24,7 +24,7 @@ return [[
 
 N Guide Hub|QID|165000000|JUMP|Leatherworking: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|QID|165000001|N|Currently in Development, starting with what Blizzard now terms Northrend Plans content Wraith of the Lich King 1-75\nAlso ASSUMES you have the appropriate Skills.|
+N This Guide|QID|165000001|N|Covers what Blizzard now terms Northrend Plans content Wraith of the Lich King 1-75\nAlso ASSUMES you have the appropriate Skills.|
 N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, using the Report Issue option menu. (Right click on the step, to bring up Menu).|
 ; Beginning Shopping List
 N Shopping List|QID|165000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Northrend Leatherworking 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
@@ -47,7 +47,7 @@ N Shopping List|QID|165000051|N|This completes the Shopping List to get you to 7
 
 ; End Shopping List
 
-= Learn [spell=264581/Northrend Leatherworking]|QID|165264581|M|34.8,27.0|Z|125;Dalaran!Crystalsong Forest|IZ|125|SPELL|Northrend Leatherworking;264581|LVL|5|N|Learn Northrend Leatherworking from Andellion (or any Trainer located nearby. Also, BUY all Recipes available.|
+= Learn [spell=264581/Northrend Leatherworking]|QID|165264581|M|34.29,26.81|Z|125;Dalaran!Crystalsong Forest|IZ|125|SPELL|Northrend Leatherworking;264581|LVL|5|N|Learn Northrend Leatherworking from Andellion (or any Trainer located nearby), Legendary Leathers, Dalaran, Crystalsong Forest - NORTHREND!  Also, BUY all Recipes available.|
 = Learn [spell=264581/Northrend Leatherworking]|QID|165264581|M|76.2,37.0|Z|114;Borean Tundra|IZ|114|SPELL|Northrend Leatherworking;264581|LVL|5|T|Awan Iceborn|N|Learn from Awan Iceborn, in Taunka'le Village, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
 = Learn [spell=264581/Northrend Leatherworking]|QID|165264581|M|57.6,71.8|Z|114;Borean Tundra|IZ|114|SPELL|Northrend Leatherworking;264581|LVL|5|T|Rosemary Bovard|N|Learn from Rosemary Bovard, in Valiance Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Alliance|
 = Learn [spell=264581/Northrend Leatherworking]|QID|165264581|M|59.8,63.6|Z|117;Howling Fjord|IZ|117|SPELL|Northrend Leatherworking;264581|LVL|5|T|Bernadette Dexter|N|Learn Northrend Leatherworking from Bernadette Dexter, in Valgarde, Howling Fjord. Also, BUY all Recipes available.|FACTION|Alliance|
