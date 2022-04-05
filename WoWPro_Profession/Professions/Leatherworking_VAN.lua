@@ -25,7 +25,7 @@ return [[
 N Guide Hub|QID|165000000|JUMP|Leatherworking: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|165000001|N|Currently in Development, starting with Vanilla content.\nAlso ASSUMES you have the appropriate Skills.|
-N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, using the Report Issue option menu. (Right click on the step, to bring up Menu).|
+N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Shopping List|QID|165000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete VANILLA 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 ; Beginning Shopping List

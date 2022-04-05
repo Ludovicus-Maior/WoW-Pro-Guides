@@ -41,10 +41,12 @@ N Shopping List|QID|165000005|N|This completes the Shopping List, you may either
 
 ; End Shopping List
 
-= Learn [spell=2108/Leatherworking]|QID|165002108|M|44.08,34.65|Z|1165;Dazar'alor|SPELL|Leatherworking;2108|LVL|5|N|Learn from Xanjo, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
-= Learn [spell=265813/Zandalari Leatherworking]|QID|165265813|M|44.08,34.65|Z|1165;Dazar'alor|P|Leatherworking;165;*;0;75|SPELL|Zandalari Leatherworking;265813|N|Learn from Xanjo, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
-= Learn [spell=2108/Leatherworking]|QID|165002108|M|75.48,12.60|Z|1161;Boralus|SPELL|Leatherworking;2108|LVL|5|N|Learn from Cassandra Brennor, Tradewinds Market, Boralus.|FACTION|Alliance|
-= Learn [spell=264592/Kul Tiran Leatherworking]|QID|165264592|M|75.48,12.60|Z|1161;Boralus|P|Leatherworking;165;*;0;75|SPELL|Kul Tiran Leatherworking;264592|N|Learn from Cassandra Brennor, Tradewinds Market, Boralus.|FACTION|Alliance|
+; Guide Contains ZoneIDs - Z|Z|1165;Dazar'alor|, Z|1161;Boralus|, Z|1355;Nazjatar|
+
+= Learn [spell=2108/Leatherworking]|QID|165002108|M|44.08,34.65|Z|1165|SPELL|Leatherworking;2108|LVL|5|N|Learn from Xanjo, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
+= Learn [spell=265813/Zandalari Leatherworking]|QID|165265813|M|44.08,34.65|Z|1165|P|Leatherworking;165;*;0;75|SPELL|Zandalari Leatherworking;265813|N|Learn from Xanjo, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
+= Learn [spell=2108/Leatherworking]|QID|165002108|M|75.48,12.60|Z|1161|SPELL|Leatherworking;2108|LVL|5|N|Learn from Cassandra Brennor, Tradewinds Market, Boralus.|FACTION|Alliance|
+= Learn [spell=264592/Kul Tiran Leatherworking]|QID|165264592|M|75.48,12.60|Z|1161|P|Leatherworking;165;*;0;75|SPELL|Kul Tiran Leatherworking;264592|N|Learn from Cassandra Brennor, Tradewinds Market, Boralus.|FACTION|Alliance|
 
 M [item=154153/Shimmerscale Armguards]|QID|165256757|P|Leatherworking;165;7+13;1|ITEM|154153|CRAFT|256757 13|MATS|153050 1;154164 1|
 M [item=154145/Coarse Leather Armguards]|QID|165256756|P|Leatherworking;165;7+26;1|ITEM|154145|CRAFT|256756 13|MATS|152541 1;154164 1|
@@ -62,8 +64,8 @@ M [item=154166/Coarse Leather Barding]|QID|165286019|P|Leatherworking;165;7+120;
 U Coarse Leather Barding|QID|165700852|P|Leatherworking;165;7+85;0|RECIPE|286021|ITEM|166313|N|Learn [spell=286021/Coarse Leather Barding] (Rank 3)\nRandom World Drop, must have learned Rank 2m before you can use.|
 M [item=154166/Coarse Leather Barding]|QID|165286019|P|Leatherworking;165;7+125;1|ITEM|154166|CRAFT|286019 45|MATS|152541 15|
 M [item=154167/Drums of the Maelstrom]|QID|165256791|P|Leatherworking;165;7+120;1|ITEM|154167|CRAFT|256791 30|MATS|152541 25;154164 10|
-= Learn Recipe|QID|165701501|PRE|54972|M|38.0,53.6|Z|1355;Nazjatar|P|Leatherworking;165;7+150;0|RECIPE|301405|N|Learn [spell=301405/Dredged Leather Bladder] Recipe from Instructor Alikana|FACTION|ALLIANCE|
-= Learn Recipe|QID|165701501|PRE|55053|M|49.0,61.6|Z|1355;Nazjatar|P|Leatherworking;165;7+150;0|RECIPE|301405|N|Learn [spell=301405/Dredged Leather Bladder] Recipe from Jada.|FACTION|HORDE|
+= Learn Recipe|QID|165701501|PRE|54972|M|38.0,53.6|Z|1355|P|Leatherworking;165;7+150;0|RECIPE|301405|N|Learn [spell=301405/Dredged Leather Bladder] Recipe from Instructor Alikana|FACTION|ALLIANCE|
+= Learn Recipe|QID|165701501|PRE|55053|M|49.0,61.6|Z|1355|P|Leatherworking;165;7+150;0|RECIPE|301405|N|Learn [spell=301405/Dredged Leather Bladder] Recipe from Jada.|FACTION|HORDE|
 M [item=169445/Dredged Leather Bladder]|QID|165301405|P|Leatherworking;165;7+175;1|ITEM|169445|CRAFT|301405 40|MATS|168649 10;159959 5|
 
 N Congratulations|QID|164000010|N|That completes Leatherworking - BFA.|

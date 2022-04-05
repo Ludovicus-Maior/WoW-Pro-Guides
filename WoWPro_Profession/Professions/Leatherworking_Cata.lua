@@ -45,7 +45,7 @@ N Shopping List|QID|165000051|N|This completes the Shopping List to get you to 7
 
 = Learn [spell=264583/Cataclysm Leatherworking]|QID|165264583|P|Leatherworking;165;*;0;0|SPELL|Cataclysm Leatherworking;264583|LVL|5|N|Learn from Any Leatherworking Trainer in any Major City of Old Azeroth.  Also, BUY all Recipes available.|
 
-M [item=52976/Savage Leather]|QID|165084950|P|Leatherworking;165;*;0;75|ITEM|52976|L|52977 -5|CRAFT|84950 5|MATS|33567 5|N|Turn all of your [item=52977/Savage Leather Scraps] into [item=52976/Savage Leather] USING your spell book, DO NOT RIGHT click on the scraps. This step might clear before you are finished, but if not when out of scraps right click step to move on.|
+M [item=52976/Savage Leather]|QID|165084950|P|Leatherworking;165;*;0;75|ITEM|52976|L|52977 -5|CRAFT|84950 5|MATS|52977 5|N|Turn all of your [item=52977/Savage Leather Scraps] into [item=52976/Savage Leather] USING your spell book, DO NOT RIGHT click on the scraps. This step might clear before you are finished, but if not when out of scraps right click step to move on.|
 M [item=56477/Savage Armor Kit]|QID|165078379|P|Leatherworking;165;3+5;1|ITEM|56477|CRAFT|78379 6|MATS|52976 4|N|This step may skip if already at 5 points.|
 = Learn Recipe|QID|165300051|P|Leatherworking;165;3+5|RECIPE|78410|N|Learn [spell=78410/Tsunami Boots] Recipe from Trainer.|
 M [item=56494/Tsunami Boots]|QID|165078410|P|Leatherworking;165;3+10;1|ITEM|56494|CRAFT|78410 5|MATS|52976 7;38426 1|

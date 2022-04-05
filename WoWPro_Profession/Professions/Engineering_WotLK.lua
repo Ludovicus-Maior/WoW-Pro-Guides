@@ -47,10 +47,12 @@ B [item=2901/Mining Pick]|QID|202000004|L|2901 30|ITEM|2901|N|You'll need approx
 B [item=5956/Blacksmith Hammer]|QID|202000004|L|5956 30|ITEM|5956|N|You'll need approximately 30 Blacksmith Hammers.  These can be purchased from any Engineering Supplies Vendor.|
 
 N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
-
-= Learn [spell=264481/Northrend Engineering]|QID|202264481|M|39.0,27.2|Z|125;Dalaran!Crystalsong Forest|IZ|125|SPELL|Engineering;264481|T|Timofey Oshenko|N|Learn from Timofey Oshenko, Like Clockwork, in Dalaran, Crystalsong Forest.  NOT! Legion, Also, BUY all Recipes available.|
-= Learn [spell=264481/Northrend Engineering]|QID|202264481|M|42.6,53.6|Z|114;Borean Tundra|IZ|114|SPELL|Engineering;264481|T|Chief Engineer Leveny|N|Learn from Chief Engineer Leveny, in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
-= Learn [spell=264481/Northrend Engineering]|QID|202264481|M|59.6,64.0|Z|117;Howling Fjord|IZ|117|SPELL|Engineering;264481|T|Tisha Longbridge|N|Learn from Tisha Longbridge, in Valgard, Howling Fjord. Also, BUY all Recipes available.|FACTION|Alliance|
+; This section includes Z|ID# - Z|114;Borean Tundra|, Z|117;Howling Fjord|, Z|125;Dalaran!Crystalsong Forest|.
+= Learn [spell=264481/Northrend Engineering]|QID|202264481|M|38.49,25.84|Z|125|IZ|125|SPELL|Engineering;264481|T|Timofey Oshenko|N|Learn from Timofey Oshenko, Like Clockwork, in Dalaran, Crystalsong Forest.  NOT! Legion, Also, BUY all Recipes available.|
+= Learn [spell=264481/Northrend Engineering]|QID|202264481|M|42.6,53.6|Z|114|IZ|114|SPELL|Engineering;264481|T|Chief Engineer Leveny|N|Learn from Chief Engineer Leveny, in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264481/Northrend Engineering]|QID|202264481|M|57.6,72.2|Z|114|IZ|114|SPELL|Engineering;264481|T|Sock Brightbolt|N|Learn from Sock Brightbolt, in Valiance Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=264481/Northrend Engineering]|QID|202264481|M|78.4,30.0|Z|117|IZ|117|SPELL|Engineering;264481|T|Jamesina Watterly|N|Learn from Jamesina Watterly, in Vengenace Landing, Howling Fjord. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264481/Northrend Engineering]|QID|202264481|M|59.6,64.0|Z|117|IZ|117|SPELL|Engineering;264481|T|Tisha Longbridge|N|Learn from Tisha Longbridge, in Valgarde, Howling Fjord. Also, BUY all Recipes available.|FACTION|Alliance|
 = Learn [spell=264481/Northrend Engineering]|QID|202264481|SPELL|Engineering;264481|N|Learn Northrend Engineering in Borean Tundra, Howling Fjord or Dalaran. (Once you get to an area that has a local trainer, an arrow will popup).|
 
 M [item=39681/Handful of Cobalt Bolts]|QID|202056349|P|Engineering;202;2+20;1|L|39681 50|ITEM|39681|CRAFT|56349 35|MATS|36916 2|N|This step might clear before you hit 10, don't worry, just make sure you have at least 50!|
@@ -67,7 +69,7 @@ M [item=40536/Explosive Decoy]|QID|202056463|P|Engineering;202;2+15;1|ITEM|40536
 M [item=39683/Froststeel Tube]|QID|202056471|P|Engineering;202;2+26;1|ITEM|39683|CRAFT|56471 15|MATS|36916 8;37705 1|N|You will need these in a later step.|
 N Goblin Engineering|QID|202056514|P|Engineering;202;2+26|N|Can't test if you have Goblin Engineering, so if a different craft is possible, both will be listed. Just right - click off the one you can not do.|
 M [item=44739/Diamond-cut Refreactor Scope]|QID|202061471|P|Engineering;202;2+30;1|ITEM|44739|CRAFT|61471 5|MATS|39683 1;39681 2|N|Goblin Engineers you can make [item=42641/Global Thermal Sapper Charge] from 26-60. Recipe is learnable from Didi the Wrench. Right Click to skip if you are a Goblin Engineer.|
-= Learn Recipe|QID|202200251|M|39.66,25.13|Z|125;Dalaran!Crystalsong Forest|P|Engineering;202;2+25|RECIPE|56514|T|Didi the Wrench|N|Learn [spell=56514/Global Thermal Sapper Charge] from Didi the Wrench.\n[color=FF0000]NOTE: [/color]Goblin Engineers only.|
+= Learn Recipe|QID|202200251|M|39.66,25.13|Z|125|P|Engineering;202;2+25|RECIPE|56514|T|Didi the Wrench|N|Learn [spell=56514/Global Thermal Sapper Charge] from Didi the Wrench.\n[color=FF0000]NOTE: [/color]Goblin Engineers only.|
 M [item=42641/Global Thermal Sapper Charge]|QID|202056514|P|Engineering;202;2+60;1|ITEM|42641|CRAFT|56514 34|MATS|36913 1;39690 1|N|[color=FF0000]NOTE: [/color]Goblin Engineering Only! Might need more [item=39690/Volatile Blasting Trigger]|
 
 B [item=90146/Tinkers Kit]|QID|202090146|P|Engineering;202;2+30|L|90146 45|ITEM|90146|N|You'll need approximately 45 Tinker's Kits.  These can be purchased from any Engineering Supplies Vendor.|

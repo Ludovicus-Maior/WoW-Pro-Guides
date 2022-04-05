@@ -44,8 +44,16 @@ l [item=37704/Crystallized Life]|QID|171000004|L|37704 45|ITEM|37704|N|You'll ne
 B [item=3371/Crystal Vial]|QID|171000004|L|3371 95|ITEM|3371|N|You'll need about 95 Crystal Vials.|
 
 N Shopping List|QID|171000006|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
-
-= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|42.4,32.0|Z|125;Dalaran!Crystalsong Forest|SPELL|Northrend Alchemy;264220|LVL|5|N|Learn from Linzy Blackbolt, Dalaran - Northrend.|
+; This section includes Z|ID# - Z|114;Borean Tundra|, Z|115;Dragonblight|, Z|117;Howling Fjord|, Z|125;Dalaran!Crystalsong Forest|.
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|42.66,32.07|Z|125|IZ|125|SPELL|Northrend Alchemy;264220|LVL|5|T|Linzy Blackbolt|N|Learn from Linzy Blackbolt, The Agronomical Apothecary, Dalaran, Crystalsong Forest - Northrend.|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|41.76,54.22|Z|114|IZ|114|SPELL|Northrend Alchemy;264220|T|Arthur Henslowe|N|Learn from Arthur Henslowe in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|78.6,28.6|Z|117|IZ|117|SPELL|Northrend Alchemy;264220|T|Wilhelmina Renel|N|Learn from Wilhelmina Renel in Vengeance Landing, Howling Fjord. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|36.60,48.83|Z|115|IZ|115|SPELL|Northrend Alchemy;264220|T|Apothecary Bressa|N|Learn from Apothecary Bressa in Agmar's Hammer, Dragonblight. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|76.88,62.09|Z|115|IZ|115|SPELL|Northrend Alchemy;264220|T|Apothecary Wormwick|N|Learn from Apothecary Wormwick in Venomspite, Dragonblight. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|57.8,71.8|Z|114|IZ|114|SPELL|Northrend Alchemy;264220|LVL|5|T|Falorn Nightwhisper|N|From Falorn Nightwhisper in Valiance Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|58.4,62.2|Z|117|IZ|117|SPELL|Northrend Alchemy;264220|LVL|5|T|Lanolis Dewdrop|N|From Lanolis Dewdrop in Valgarde, Howling Fjord. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|SPELL|Northrend Alchemy;264220|LVL|5|N|Learn from Alchemy Trainers in Borean Tundra, Howling Fjord, Dragonblight or Dalaran.  (Once you get to an area that has a local trainer, an arrow will popup).|FACTION|Horde|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|SPELL|Northrend Alchemy;264220|LVL|5|N|Learn from Alchemy Trainers in Borean Tundra, Howling Fjord, or Dalaran. (Once you get to an area that has a local trainer, an arrow will popup).|FACTION|Alliance|
 
 M [item=40067/Icy Mana Potion]|QID|171053839|P|Alchemy;171;2+05;1|ITEM|40067|CRAFT|53839 5|MATS|36907 2;3371 1|
 = Learn Recipe|QID|171200051|P|Alchemy;171;2+05|RECIPE|53900|N|Learn [spell=53900/Potion of Nightmares] Recipe from Trainer.|
