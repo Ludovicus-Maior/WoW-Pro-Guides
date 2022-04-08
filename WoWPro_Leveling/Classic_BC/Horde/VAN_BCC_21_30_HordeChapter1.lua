@@ -165,18 +165,18 @@ T Mahren Skyseer|QID|874|M|65.84,43.86|Z|1413|N|To Mahren Skyseer at The Tidus S
 A Isha Awak|QID|873|M|65.84,43.86|Z|1413|N|From Mahren Skyseer.|PRE|874|
 K Isha Awak|ACTIVE|873|M|65.39,46.91;63.56,53.93|CC|Z|1413|QO|1|N|Jump into the water and start swimming east. Locate Isha Awak, kill it and loot its heart.\nIt can be found in the water between the next point and Northwatch Hold.\n[color=FF0000]NOTE: [/color]If you don't want to swim, the targeting button works from the shore. ;)|T|Isha Awak|
 T Isha Awak|QID|873|M|65.84,43.86|Z|1413|N|Choosing your own path of travel, make your way back to Mahren Skyseer.|
-N Booty Bay|ACTIVE|6571|N|Before heading to Stonetalon Mountains, we're taking a side trip to Booty Bay to pick up a quest item. This is the last time we will be in Ratchet to make this trip.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+N Booty Bay|ACTIVE|6571|QO|2|N|Before heading to Stonetalon Mountains, we're taking a side trip to Booty Bay to pick up a quest item. This is the last time we will be in Ratchet to make this trip.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|-1442|
 
 ; --- Booty Bay
 b Booty Bay|ACTIVE|6571|M|63.70,38.63|Z|1413|L|16745|N|Take the boat to Booty Bay.|
 C Warsong Supplies|QID|6571|M|26.43,73.31|Z|1434|L|16745|N|You'll find the crate at the back of the first stack of cargo on the dock.|
-f Booty Bay|ACTIVE|6571|M|26.87,77.09|Z|1434|N|Grab the Flight Path from Gringer standing just outside the Inn balcony.\n[color=FF0000]NOTE: [/color]You have to work your way through the Tavern to get to him.|TAXI|-Booty Bay|
-b Ratchet|ACTIVE|6571|M|25.80,73.10|Z|1434|N|Take the boat to Ratchet.|
+f Booty Bay|ACTIVE|6571|M|26.87,77.09|Z|1434|N|Grab the Flight Path from Gringer standing just outside the Inn balcony.\n[color=FF0000]NOTE: [/color]You have to work your way through the Tavern to get to him.|TAXI|-Booty Bay|IZ|1434|
+b Ratchet|ACTIVE|6571|M|25.80,73.10|Z|1434|N|Take the boat to Ratchet.|IZ|1434|
 
 ; --- Stonetalon Mountains
 F Sun Rock Retreat|ACTIVE|1095|M|63.09,37.16|Z|1413|
 h Sun Rock Retreat|ACTIVE|1095|M|47.46,62.13|Z|1442|N|Set your hearthstone to Sun Rock Retreat.|
-R Windshear Crag|ACTIVE|1068^1095|M|49.5,61.0;53.1,61.6;60.33,70.90|CC|Z|1442|N|Exit Sun Rock Retreat and follow the road south to the Windshear Crag sign.\n[color=FF0000]NOTE: [/color]If you don't mind a little falling damage, you can drop off the cliff by the graveyard.|
+R Windshear Crag|ACTIVE|1068^1095|M|49.5,61.0;53.1,61.6;60.33,70.90|CC|Z|1442|N|Exit Sun Rock Retreat and follow the road south to the Windshear Crag sign.\n[color=FF0000]NOTE: [/color]If you don't mind a little falling damage, you can drop off the cliff by the graveyard.|IZ|1442|
 T Further Instructions|QID|1095|M|58.99,62.60|N|Make your way to Ziz Fizziks' hut and turn in the quest.|
 A Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.60|Z|1442|N|From Ziz Fizziks.|PRE|1095|
 K XT:4|ACTIVE|1068|M|64.07,45.96|Z|1442|QO|1|N|Kill XT:4. It patrols the north side of the river.|S|
@@ -196,19 +196,20 @@ R Sun Rock Retreat|AVAILABLE|6301|M|49.58,60.99|Z|1442|N|Make your way back to S
 A Cycle of Rebirth|QID|6301|M|47.46,58.37|Z|1442|N|From Tammra Windfield.|
 R Mirkfallon Lake|ACTIVE|6301|M|50.8,60.0;49.20,43.39|CC|Z|1442|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
 C Cycle of Rebirth|QID|6301|M|50.4,42.37|Z|1442|L|16205 10|N|Loot any gaea seeds you find on the ground around the lake.|
-R Sun Rock Retreat|ACTIVE|6301|M|49.58,60.99|Z|1442|N|Return to Sun Rock Retreat.|
+R Sun Rock Retreat|ACTIVE|6301|M|49.58,60.99|Z|1442|
 T Cycle of Rebirth|QID|6301|M|47.46,58.37|Z|1442|N|To Tammra Windfield.|
 A New Life|QID|6381|M|47.46,58.37|Z|1442|N|From Tammra Windfield.|PRE|6301|
 A Harpies Threaten|QID|6282|M|47.15,61.10|Z|1442|N|From Maggran Earthbinder.|
-T Earthen Arise|QID|6481|M|47.22,64.05|Z|1442|N|To Mor'rogal, on top of the hill.\nOnce you have turned in this quest, you can safely destroy the Encanted Resonite Crystal.|
+T Earthen Arise|QID|6481|M|47.22,64.05|Z|1442|N|To Mor'rogal, on top of the hill.|
+* Encanted Resonite Crystal|AVAILABLE|-6481|ACTIVE|-6481|N|You can safely destroy the Encanted Resonite Crystal.|U|16603|
 A Elemental War|QID|6393|M|47.30,64.26|Z|1442|N|From Tsunaman.|
 R The Charred Vale|ACTIVE|6381^6393^6282|M|44.3,63.7;37.99,68.08|CC|Z|1442|N|Head back to the main trail. Follow the torch-marked path south over the mountain to the bottom.\n[color=FF0000]NOTE: [/color]There is a longer route that brings you in through the north entrance. That route requires you to go back north up through Mirkfallon Lake and then west with a curve south into the Charred Vale. That route has less fighting and the mobs are level 23-25 at the top end. Whichever route you choose, you will be covering all 4 corners of the Charred Vale to complete this round of quests. The suggested route gets you there faster.|
 C New Life|QID|6381|QO|1|N|Gaea seed planted.|NC|S|
-C Elemental War|QID|6393|L|16312 10|N|Kill Fire Elementals to collect Incendrites.\n[color=FF0000]NOTE: [/color]They are immune to fire damage.|S|
-K Harpies Threaten|ACTIVE|6282|QO|1;2;3;4|N|Kill Bloodfury Harpies, Ambushers, Slayers and Roguefeathers.\n[color=FF0000]NOTE: [/color]These mobs are not grey. Be prepared for yellow mobs.\nTry to kite them away from the others. as it won't take much to get overwhelmed.\nDon't waste your time with the Bloodfury Storm Witches; unless you have no choice.|
+C Elemental War|QID|6393|L|16312 10|N|Kill Fire Elementals to collect Incendrites.\n[color=FF0000]NOTE: [/color]They are immune to all fire damage.|S|
+K Harpies Threaten|ACTIVE|6282|QO|1;2;3;4|N|Kill Bloodfury Harpies, Ambushers, Slayers and Roguefeathers.\n[color=FF0000]NOTE: [/color]Be prepared for yellow mobs above your level.\nTry to kite them away from the others. as it won't take much to get overwhelmed.\nDon't waste your time with the Storm Witches and Windcallers; unless you have no choice.|
 C Elemental War|QID|6393|L|16312 10|N|Kill Fire Elementals to collect Incendrites.|US|
 C New Life|QID|6381|QO|1|N|Gaea seed planted.|NC|US|
-R Sun Rock Retreat|ACTIVE|6393^6282|M|37.9,67.9;44.54,63.43|CC|Z|1442|N|Run back to Sun Rock Retreat.|
+R Sun Rock Retreat|ACTIVE|6393^6282|M|37.9,67.9;44.54,63.43|CC|Z|1442|
 T Elemental War|QID|6393|M|47.29,64.25|Z|1442|N|To Tsunaman.|
 T Harpies Threaten|QID|6282|M|47.20,61.16|Z|1442|N|To Maggran Earthbinder.|
 A Bloodfury Bloodline|QID|6283|M|47.20,61.16|Z|1442|N|From Maggran Earthbinder.|PRE|6282|
@@ -217,9 +218,9 @@ A Cenarius' Legacy|QID|1087|M|45.95,60.43|Z|1442|N|From Braelyn Firehand.|
 T New Life|QID|6381|M|47.46,58.37|Z|1442|N|To Tammra Windfield.|
 R Mirkfallon Lake|ACTIVE|1058^1087|M|50.8,60.0;49.20,43.39|CC|Z|1442|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
 C Courser|QID|1058|M|44.81,21.47|L|5585 30|N|Kill Coursers for their eyes.\nYou'll find them everywhere north of Mirkfallon Lake.|S|
-R Stonetalon Peak|ACTIVE|1058^1087|M|44.31,17.78|Z|1442|N|Continue north out of Mirkfallon Lake until you reach Stonetalon Peak.|
-N Fey Dragon|ACTIVE|1058^1087|N|Be very aware of these guys sneaking up on you as adds. They cast 'Nullify Mana'; which will drain a portion of your mana.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Rogue,-Warrior|
-K Cenarius' Legacy|ACTIVE|1087|QO|1;2;3|N|Kill Sons of Cenarius, Daughters of Cenarius and Cenarion Botanists.\nYou'll find them in the woods on either side of the road.|
+R Stonetalon Peak|ACTIVE|1087|M|44.31,17.78|Z|1442|N|Continue north out of Mirkfallon Lake until you reach Stonetalon Peak.|
+N Fey Dragon|ACTIVE|1058|N|Be very aware of these guys sneaking up on you as adds. They cast 'Nullify Mana'; which will drain a portion of your mana.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Rogue,-Warrior|
+K Cenarius' Legacy|ACTIVE|1087|M|35.93,12.72|Z|1442|QO|1;2;3|N|Kill Sons of Cenarius, Daughters of Cenarius and Cenarion Botanists.\nYou'll find them in the woods on either side of the road.|
 ; Level 26
 C Fey Dragon|QID|1058|L|5583|N|Kill a Fey Dragon to collect a Fey Dragon Scale.|S|
 C Sap Beast|QID|1058|M|33.92,18.13|Z|1442|L|5582 5|N|Kill 'Sap Beasts' to collect Stonetalon Sap.|S|
@@ -230,9 +231,9 @@ C Courser|QID|1058|M|44.81,21.47|Z|1442|L|5585 30|N|Kill Coursers for their eyes
 R Webwinder Path|ACTIVE|1058^1087|M|51.54,49.59|Z|1442|N|Follow the road south through Mirkfallon Lake.|
 
 ; --- I realize this is a long run. But, we don't want to be carrying all of these items until we return to the area much later in the guide.
-R Malaka'jin|ACTIVE|1058|M|71.90,91.84|Z|1442|N|Continue following the road south to Malaka'jin.\nYes... it's a long run. You are going to be leaving the area for a while and you don't want to be carrying these items with you.|
+R Malaka'jin|ACTIVE|1058|M|71.90,91.84|Z|1442|N|Continue following the road south to Malaka'jin.\nYes... it's a long run. You're going to be leaving the area for a while and you don't want to be carrying these items with you.|
 T Jin'Zil's Forest Magic|QID|1058|M|74.54,97.94|Z|1442|N|To Witch Doctor Jin'Zil.|
-R The Barrens|ACTIVE|1068|M|67.7,86.6;83.51,97.14|CC|Z|1442|N|Exit Malaka'jin and follow the road south to the Barrens border.|
+R The Barrens|ACTIVE|1068|M|72.9,93.7;83.53,97.88|CC|Z|1442|N|Exit Malaka'jin by taking the 'shortcut' along the canyon wall south to The Barrens border.|
 T Shredding Machines|QID|1068|M|35.26,27.88|Z|1413|N|To Seereth Stonebreak.|
 H Sun Rock Retreat|ACTIVE|1087|M|49.58,60.99|Z|1442|N|Now that you've made some space in your bags, back to Sun Rock Retreat.|
 T Cenarius' Legacy|QID|1087|M|45.95,60.43|Z|1442|N|To Braelyn Firehand.|
@@ -243,10 +244,12 @@ F Thunder Bluff|ACTIVE|1086|M|45.13,59.84|
 R The Pools of Vision|ACTIVE|1086|M|30.50,30.48|Z|1456|
 T The Flying Machine Airport|QID|1086|M|23.06,21.07|Z|1456|N|To Apothecary Zamah.|
 A The Sacred Flame|QID|1195|M|54.94,51.42|Z|1456|N|From Zangen Stonehoof.|
-= Train|AVAILABLE|502|N|Do whatever training you need to do now. From here, we will be headed back to Tarren Mill and you won't be able to train until you return to Kalimdor.|C|Druid|
+= Level 26|AVAILABLE|502|N|Do whatever training you need to do now. From here, we will be headed back to Tarren Mill and you won't be able,to train until you return to Kalimdor.|C|Druid|
 
 ; --- Hillsbrad Foothills
 F Orgrimmar|AVAILABLE|502|M|47.02,49.83|Z|1456|
+h Orgrimmar|AVAILABLE|493|M|54.11,68.39|Z|1454|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|IZ|1454|
+= Level 26|AVAILABLE|502|N|If you haven't done so already, go do your lv 26 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Druid|IZ|1454|
 R Leave Orgrimmar|AVAILABLE|502|M|52.42,84.43|CC|Z|1454|N|Exit Orgrimmar through the south gate.|
 b Tirisfal Glades|AVAILABLE|502|M|50.88,13.83|Z|1411|N|Take the Zepplin to Tirisfal Glades.|
 R Undercity|AVAILABLE|502|M|61.86,65.04|Z|1420|N|Enter Undercity.|
@@ -255,23 +258,23 @@ A Elixir of Pain|QID|502|M|61.44,19.07|Z|1424|N|From Apothecary Lydon.|PRE|501|
 A Elixir of Agony|QID|509|M|61.44,19.07|Z|1424|N|From Apothecary Lydon.|PRE|502|
 A Dangerous!|QID|567|M|62.55,19.69|Z|1424|N|From the wanted poster hanging beside the Inn's front door.\njust in case you run into one of them while you are doing other things, accept this quest now. It would suck to have to kill them more than once because you didn't have the quest.|
 R Hillsbrad Fields|ACTIVE|502^527|M|33.43,35.03|Z|1424|N|Run to the north end of the area.\n[color=FF0000]NOTE: [/color]Give the lv 30+ Cave Yetis in Darrow Hill a wide berth.|
-C Battle of Hillsbrad|QID|527|QO|1;2|N|Kill Hillsbrad Farmers and Farmhands.|S|
+K Battle of Hillsbrad|ACTIVE|527|QO|1;2|N|Kill Hillsbrad Farmers and Farmhands.|S|
 T Elixir of Pain|QID|502|M|32.69,35.33|Z|1424|N|To Stanley. You'll find him beside his doghouse at the northern most house in Hillsbrad Fields.\n[color=FF0000]NOTE: [/color]Stanley won't appreciate you giving him the elixir. He becomes enraged and attacks you. The quest completes once you defeat him.|
 K Citizen Wilkes|QID|567|QO|2|N|Kill Citizen Wilkes. He patrols the north branch of the main road in Hillsbrad Fields from the Forge up to the last house; stopping briefly at each building as he passes.\n[color=FF0000]NOTE: [/color]You will have multiple opportunties to kill him. So, waiting/looking for him is not necessary.|S|
-K Farmer Ray|QID|527|M|32.67,35.62;33.74,33.50|CN|Z|1424|QO|3|N|Kill Farmer Ray. He's just inside the front door. Draw him out so you don't aggro the mobs inside with him.\n[color=FF0000]NOTE: [/color]If he's not in the house, check the courtyard on the east side of the house. The courtyard location requires you clear the adds first.|
-K Farmer Getz|QID|527|M|35.45,38.00;36.52,39.45|CN|Z|1424|QO|4|N|Kill Farmer Getz. He's inside the barn. Be prepared. You will aggro the 2 mobs that are in there with him.\n[color=FF0000]NOTE: [/color]If he's at the house (east of the barn), he'll only have 1 mob with him.|
-C Battle of Hillsbrad|QID|527|QO|1;2|N|Finish killing Hillsbrad Farmers and Farmhands.|US|
+K Farmer Ray|QID|527|M|32.67,35.62;33.74,33.50|CN|Z|1424|QO|3|N|Kill Farmer Ray. He's just inside the front door. Draw him out so you don't aggro the mobs inside with him.\n[color=FF0000]NOTE: [/color]If he's not in the house, check the courtyard on the east side of the house. The courtyard location requires you clear the adds first.|T|Farmer Ray|
+K Farmer Getz|QID|527|M|35.45,38.00;36.52,39.45|CN|Z|1424|QO|4|N|Kill Farmer Getz. He's inside the barn. Be prepared. You will aggro the 2 mobs that are in there with him.\n[color=FF0000]NOTE: [/color]If he's at the house (east of the barn), he'll only have 1 mob with him.|T|Farmer Getz|
+K Battle of Hillsbrad|ACTIVE|527|QO|1;2|N|Finish killing Hillsbrad Farmers and Farmhands.|US|
 R Tarren Mill|ACTIVE|527|M|61.35,20.04|Z|1424|N|Head back to Tarren Mill.|
 T Battle of Hillsbrad|QID|527|M|62.27,20.32|Z|1424|N|To High Executor Darthalia in Tarren Mill.|
 A Battle of Hillsbrad|QID|528|M|62.27,20.32|Z|1424|N|From High Executor Darthalia.|
-C Battle of Hillsbrad|QID|528|QO|1|N|Kill Hillsbrad Peasants.|S|
+K Battle of Hillsbrad|ACTIVE|528|QO|1|N|Kill Hillsbrad Peasants.|S|
 A Souvenirs of Death|QID|546|M|62.19,19.86|Z|1424|N|From Deathguard Samsa.|PRE|527|
-C Souvenirs of Death|QID|546|L|3692 30|N|Basically, kill Hillsbrad human mobs to collect the Hillsbrad Human Skulls.|S|
+C Souvenirs of Death|QID|546|L|3692 30|N|Basically, kill Hillsbrad human mobs to collect the Hillsbrad Human Skulls.|S|IZ|Hillsbrad Fields|
 R Hillsbrad Fields|ACTIVE|528^546^567|M|37.03,43.41|Z|1424|N|Run to the south east part of the area.|IZ|1424|
-K Farmer Kalaba|ACTIVE|567|M|35.71,46.76|Z|1424|QO|4|N|Kill Farmer Kalaba in the SE orchard.|
-C Battle of Hillsbrad|QID|528|QO|1|N|Finish killing Hillsbrad Peasants.|US|
+K Farmer Kalaba|ACTIVE|567|M|35.71,46.76|Z|1424|QO|4|N|Kill Farmer Kalaba in the SE orchard.|T|Farmer Kalaba|
+K Battle of Hillsbrad|ACTIVE|528|QO|1|N|Finish killing Hillsbrad Peasants.|US|
 R Nethander Stead|ACTIVE|509|M|63.4,41.8;63.77,57.82|CC|Z|1424|N|Follow the road east to the bridge and then make your way south to Nethander Stead.\n[color=FF0000]NOTE: [/color]Don't be silly and try cutting through Southshore.|
-C Elixir of Agony|QID|509|M|64.85,61.37|Z|1424|L|3502 6|N|Clear as many Gnolls as you deem necessary to access the field in Nethander Stead safely to collect the Mudsnout Blossoms.\n[color=FF0000]NOTE: [/color]Try to kite them away from the others because they like to run and the Shamans won't stay still through the entire fight.\nThe Shamans will also heal themselves ~75%|
+C Elixir of Agony|QID|509|M|64.85,61.37|Z|1424|L|3502 6|N|Clear as many Gnolls as you deem necessary to access the field in Nethander Stead safely to collect the Mudsnout Blossoms.\n[color=FF0000]NOTE: [/color]Try to kite them away from the others because they like to run and the Shamans won't stay still through the entire fight.\nThe Shamans heal themselves and others ~75%.|
 R Tarren Mill|ACTIVE|509|M|61.35,20.04|Z|1424|N|Head back to Tarren Mill.|
 ;L Level 27|QID|567|LVL|27|N|You should be around level 27 by this point.|
 T Battle of Hillsbrad|QID|528|M|62.28,20.28|Z|1424|N|To High Executor Darthalia.|
@@ -279,27 +282,24 @@ A Battle of Hillsbrad|QID|529|M|62.28,20.28|Z|1424|N|From High Executor Darthali
 t Souvenirs of Death|QID|546|M|62.10,19.82|Z|1424|N|To Deathguard Samsa.|IZ|Tarren Mill|
 T Elixir of Agony|QID|509|M|61.44,19.07|Z|1424|N|To Apothecary Lydon.|
 A Elixir of Agony|QID|513|M|61.44,19.07|Z|1424|N|From Apothecary Lydon.|PRE|509|
-R Hillsbrad Fields|ACTIVE|529^546^567|M|32.21,48.31|Z|1424|N|Make your way to the south entrance to Hillsbrad Fields. You are headed for the Forge.|IZ|1424|
-C Battle of Hillsbrad|QID|529|M|31.99,45.43|Z|1424|QO|3|N|The Shipment of Iron is located inside the forge.|S|
+R Hillsbrad Fields|ACTIVE|529^546^567|M|32.21,48.31|Z|1424|N|Once again, make your way to the south entrance to Hillsbrad Fields.\n[color=FF0000]NOTE: [/color]You're headed for the Forge.|IZ|1424|
+K Battle of Hillsbrad|ACTIVE|529|M|31.99,45.43|Z|1424|QO|3|N|The Shipment of Iron is located inside the forge.|S|
 K Battle of Hillsbrad|ACTIVE|529|M|32,46|Z|1424|QO|2|N|Kill Hillsbrad Apprentice Blacksmiths. There are 2-3 inside the forge and 2-3 around the outside.|S|
-K Blacksmith Verringtan|ACTIVE|529|QO|1|N|Kill Blacksmith Verringtan inside the Forge.\nSometimes you get lucky and he will spawn outside on the east side.\n[color=FF0000]NOTE: [/color]If you approach from the north entrance, you can avoid aggroing everyone in the forge.|
+K Blacksmith Verringtan|ACTIVE|529|QO|1|N|Kill Blacksmith Verringtan inside the Forge.\nSometimes you get lucky and he will spawn outside on the east side.\n[color=FF0000]NOTE: [/color]If you approach from the north entrance, you can avoid aggroing everyone in the forge.|T|Blacksmith Verringtan|
 l Battle of Hillsbrad|ACTIVE|529|M|32.01,45.44|Z|1424|QO|3|N|As soon as you clear the forge, run inside and pick up the Shipment of Iron inside the forge.|US|
 K Battle of Hillsbrad|ACTIVE|529|QO|2|N|Finish killing the Hillsbrad Apprentice Blacksmiths.|US|
-C Souvenirs of Death|QID|546|M|33.03,46.78|Z|1424|L|3692 30|N|Finish collecting the Hillsbrad Human Skulls.\n[color=FF0000]NOTE: [/color]The Peasants, Blacksmiths, and Footmen offer the best drop rate; Farmers and Farmhands offer the worst. Your results may vary.|US|
 R Tarren Mill|ACTIVE|529|M|61.35,20.04|Z|1424|N|Return to Tarren Mill.|
 T Battle of Hillsbrad|QID|529|M|62.28,20.28|Z|1424|N|To High Executor Darthalia.|
 A Battle of Hillsbrad|QID|532|M|62.28,20.28|Z|1424|N|From High Executor Darthalia.|
 
 ; --- Undercity
-F Undercity|ACTIVE|513|M|60.19,18.69|Z|1424|N|Fly to Undercity.|
-T Elixir of Agony|QID|513|M|48.80,69.28|Z|1458|N|To Master Apothecary Faranell, underneath The Apothecarium.|
+F Undercity|ACTIVE|513|M|60.14,18.63|Z|1424|N|Fly to Undercity.|
+T Elixir of Agony|QID|513|M|48.80,69.28|Z|1458|N|To Master Apothecary Faranell, below The Apothecarium.|
 A Elixir of Agony|QID|515|M|48.80,69.28|Z|1458|N|From Master Apothecary Faranell.|PRE|513|
 
 ; --- The Barrens
-R Leave Undercity|AVAILABLE|6441|M|66.1,38.4;66.2,0.9;66.2,1.2|CC|Z|1458|N|Take the elevator up and leave Undercity through the front gates.|IZ|1497|
-b Durotar|AVAILABLE|6441|M|60.71,58.78|Z|1420|N|Go up the tower and take the Zepplin to Durotar/Orgrimmar.|
-R Orgrimmar|AVAILABLE|6441|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|
-F Crossroads|AVAILABLE|868|M|45.50,63.84|Z|1454|
+H Orgrimmar|AVAILABLE|868|N|This is why we changed our hearthstone.\n[color=FF0000]NOTE: [/color]If your hearthstone is on CD, you're going to have to do it the long way by taking the zeppelin from Tirisfal Glades.|
+F Crossroads|AVAILABLE|868|M|45.13,63.90|Z|1454|
 A Egg Hunt|QID|868|M|51.07,29.63|Z|1413|N|From Korran.|
 F Camp Taurajo|AVAILABLE|879^893|M|51.50,30.33|Z|1413|
 A Betrayal from Within|QID|879|M|44.55,59.26|Z|1413|N|From Mangletooth.|
@@ -311,18 +311,17 @@ A Lakota'mani|QID|883|N|Click on Hoof of Lakota'mani to accept the quest.|U|5099
 A The Harvester|QID|897|N|Click on Harvester's Head to accept the quest.|U|5138|O|
 A Washte Pawne|QID|885|N|Click on Washte Pawne's Feather to accept the quest.|U|5103|O|
 ; ---
-K Owatanka|AVAILABLE|884|N|Keep an eye out on either side of the road for a blue Thunderhead.|T|Owatanka|S!US|IZ|Southern Barrens^South Gold Road|
-K Owatanka|AVAILABLE|884|N|Keep an eye out on either side of the road for a blue Thunderhead.|T|Owatanka|S!US|IZ|Southern Gold Road|
+K Owatanka|AVAILABLE|884|N|Keep an eye out on either side of the road for a blue Thunderhead near Camp Taurajo.|T|Owatanka|S!US|IZ|Southern Barrens|
+K Owatanka|AVAILABLE|884|N|Keep an eye out on either side of the road for a blue Thunderhead. near Camp Taurajo|T|Owatanka|S!US|IZ|Southern Gold Road|
 K The Harvester|AVAILABLE|897|N|Have a quick look around and see if you can locate this mob. Check both sides of the road.\n[color=FF0000]NOTE: [/color]This is probably the hardest one of Jorn Skyseer's rare quest kills to find.\nSkip this step if you give up waiting/looking.|T|Silithid Harvester|S!US|IZ|Field of Giants|
 C Egg Hunt|QID|868|M|43.60,69.82|Z|1413|L|5058 12|N|Collect Silithid Eggs from the Silithid Mounds found on both sides of the road in Field of Giants.|
-K Washte Pawne|AVAILABLE|885|N|Before leaving the area, have a look around and see if you can locate this mob. This is one of Jorn Skyseer's rare quest kills.\n[color=FF0000]NOTE: [/color]This mob is tameable and therefore, be respectful of Hunters who may be in the area looking for it.\nSkip this step if you give up waiting/looking.|T|Washte Pawne|S!US|IZ|Blackthorn Ridge|
+K Washte Pawne|AVAILABLE|885|N|Before leaving the area, have a look around and see if you can locate this mob. It sometimes spawns across the road.\n[color=FF0000]NOTE: [/color]This mob is tameable and therefore, be respectful of Hunters who may be in the area looking for it.\nSkip this step if you give up waiting/looking.|T|Washte Pawne|S!US|IZ|Blackthorn Ridge|
 l Weapons of Choice|ACTIVE|893|M|43.31,81.04|Z|1413|QO|1;2;3|N|Pathfinders/Stalkers drop the Razormane Backstabber.\nWarfrenzy drop the Razormane War Shield.\nSeers drop the Charred Razormane Wand.|S|
 K Kuz|ACTIVE|879|M|44.71,80.48|Z|1413|QO|1|N|Kill Kuz and loot his Skull. He patrols in a wide circle around the camp in the middle.|
 K Lok Orcbane|ACTIVE|879|M|40.19,80.56|Z|1413|QO|3|N|Kill Lok and loot his Skull. He is at the top of the hill at the back of Blackthorn Ridge.|
 K Nak|ACTIVE|879|M|43.96,83.44|Z|1413|QO|2|N|Kill Nak and loot his Skull. Follow the cliff wall east and you'll run into him.|
 l Weapons of Choice|ACTIVE|893|M|43.31,81.04|Z|1413|QO|1;2;3|N|Pathfinders/Stalkers drop the Razormane Backstabber.\nWarfrenzy drop the Razormane War Shield.\nSeers drop the Charred Razormane Wand.|US|
 N 3 rare quest mobs|AVAILABLE|884^885^897|N|You're now going to head back to Camp Taurajo. As you make your way back there, keep an eye out for Jorn Skyseer's rare quest kills.\nDo not go out of your way to find them.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-R Field of Giants|AVAILABLE|897|M|45.76,69.80|Z|1413|N|It is split on either side of the road.|
 R Camp Taurajo|QID|893|M|44.76,58.68|Z|1413|
 T Weapons of Choice|QID|893|M|45.10,57.69|Z|1413|N|To Tatternack Steelforge.|
 T Washte Pawne|QID|885|M|44.86,59.14|Z|1413|N|To Jorn Skyseer.|
@@ -338,7 +337,7 @@ F Orgrimmar|ACTIVE|6571|M|51.50,30.33|Z|1413|
 C Deadly Blunderbuss|ACTIVE|6571|L|4369|N|Beg, borrow, or steal... Before leaving, make sure you bring one of these with you.\nIf you have level 105 Engineering, you can make it yourself. Otherwise, a friend or the AH are your only options.|
 
 ; --- Ashenvale
-F Splintertree Post|AVAILABLE|6441|M|45.50,63.84|Z|1454|
+F Splintertree Post|AVAILABLE|6441|M|45.13,63.90|Z|1454|
 A Satyr Horns|QID|6441|M|73.07,61.48|Z|1440|N|From Pixel.|
 A Warsong Saw Blades|QID|6581|ACTIVE|6571|M|73.07,61.48|Z|1440|N|From Pixel.|
 T Warsong Saw Blades|QID|6581|M|73.07,61.48|Z|1440|N|To Pixel.|
@@ -423,7 +422,7 @@ l Chapter 2|ACTIVE|6504|L|16643|N|Combine Pages 5-8|U|16649|US|NC|
 l Chapter 3|ACTIVE|6504|L|16644|N|Combine Pages 9-12|U|16653|US|NC|
 
 ; --- Ashenvale
-F Splintertree Post|ACTIVE|6504^9536|M|45.50,63.84|Z|1454|N|Back to Ashenvale.|IZ|Orgrimmar|
+F Splintertree Post|ACTIVE|6504^9536|M|45.13,63.90|Z|1454|N|Back to Ashenvale.|IZ|Orgrimmar|
 F Splintertree Post|ACTIVE|6504^9536|N|Back to Ashenvale.|IZ|-Orgrimmar|
 T Never Again!|QID|9536|M|73.23,60.39|Z|1440|N|To Valusha.|
 F Zoram'gar Outpost|ACTIVE|824|M|73.18,61.59|Z|1440|
@@ -455,19 +454,20 @@ R Hillsbrad Fields|ACTIVE|515^532^567|M|31.94,48.33|Z|1424|N|The Town Hall is co
 K Battle of Hillsbrad|ACTIVE|532|QO|2|N|Kill Hillsbrad Councilmen.|S|
 K Clerk Horrace Whitesteed|ACTIVE|567|M|30.08,42.01|Z|1424|QO|1|N|Kill Clerk Horrace Whitesteed inside the Townhall. He's just inside the main room against the near wall to the right of the doorway.|T|Clerk Horrace Whitesteed|
 K Magistrate Burnside|ACTIVE|532|M|29.65,41.70|Z|1424|QO|1;3;4|N|Kill Magistrate Burnside standing at the pulpit inside the townhall.|T|Magistrate Burnside|
-C Battle of Hillsbrad|QID|532|M|29.73,41.75|Z|1424|QO|3|N|Destroy the Hillsbrad Proclamation on the railing.|NC|
-C Battle of Hillsbrad|QID|532|M|29.53,41.53|Z|1424|QO|4|N|Destroy the Hillsbrad Town Registry on the floor by the book shelf in the corner.|NC|
+K Battle of Hillsbrad|ACTIVE|532|M|29.73,41.75|Z|1424|QO|3|N|Destroy the Hillsbrad Proclamation on the railing.|NC|
+K Battle of Hillsbrad|ACTIVE|532|M|29.53,41.53|Z|1424|QO|4|N|Destroy the Hillsbrad Town Registry on the floor by the book shelf in the corner.|NC|
 K Battle of Hillsbrad|ACTIVE|532|QO|2|N|Finish killing Hillsbrad Councilmen.|US|
 K Citizen Wilkes|ACTIVE|567|QO|2|N|Kill Citizen Wilkes. He patrols the north branch of the main road in Hillsbrad Fields from the Forge up to the last house; stopping briefly at each building as he passes.\n[color=FF0000]NOTE: [/color]Being that this the last time you will be here, go find him.|US|
+C Souvenirs of Death|QID|546|M|33.03,46.78|Z|1424|L|3692 30|N|Finish collecting the Hillsbrad Human Skulls.\n[color=FF0000]NOTE: [/color]The Peasants, Blacksmiths, and Footmen offer the best drop rate; Farmers and Farmhands offer the worst. Your results may vary.|US|
 R Tarren Mill|ACTIVE|532|M|56.35,19.60|Z|1424|
 T Battle of Hillsbrad|QID|532|M|62.28,20.28|Z|1424|N|To High Executor Darthalia.|
 A Battle of Hillsbrad|QID|539|M|62.28,20.28|Z|1424|N|From High Executor Darthalia.|PRE|532|
 R Azurelode Mine|ACTIVE|539^567|M|27.50,59.30|Z|1424|N|Run to the upper entrance of Azurelode Mine.|
-C Battle of Hillsbrad|QID|539|QO|2|N|Kill Hillsbrad Miners. This shouldn't take long, as they're everywhere.|S|
+K Battle of Hillsbrad|ACTIVE|539|QO|2|N|Kill Hillsbrad Miners. This shouldn't take long, as they're everywhere.|S|
 K Miner Hackett|QID|567|M|29.94,54.58|CC|Z|1424|QO|3|N|[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots.|S|
 K Foreman Bonds|ACTIVE|539|M|31.22,55.76|Z|1424|QO|1|N|Clear any potential adds before attacking him. Any added distractions will greatly reduce your chances of success.\n[color=FF0000]NOTE: [/color]When he is almost dead, two lv 29 guards will spawn. Be aware that they both will take turns interrupting any spellcasting. Focus on killing Foreman Bonds. Don't worry about dying once he is dead. You can resurrect outside the mine and go back in if you have to.|T|Foreman Bonds|
 K Miner Hackett|QID|567|M|30.82,56.50;29.94,54.58;30.80,58.50|CC|Z|1424|QO|3|N|Work your way inside the mine and kill Miner Hackett. Clear any potential adds before you attack him.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds was located. If you look over the ledge, you should see him below you.|US|
-C Battle of Hillsbrad|QID|539|QO|2|N|Finish killing Hillsbrad Miners.|US|
+K Battle of Hillsbrad|ACTIVE|539|QO|2|N|Finish killing Hillsbrad Miners.|US|
 R Western Strand|QID|515|ACTIVE|515|M|25.00,63.79|Z|1424|N|Head east from the Azurelode Mine and then turn south towards the shoreline.|
 C Torn Fin Eyes|ACTIVE|515|L|3510 5|N|Working your way east along the coast, kill the Murlocs to collect Torn Fin Eyes.\nMuckdwellers are a better choice over Coastrunners (range attack).\nIf you prefer, you can do this in the water as you swim east.\n[color=FF0000]NOTE: [/color]Avoid letting the Coastrunners get to far away from you when they run, they will aggro another Murloc and range attack you.|
 R Eastern Strand|ACTIVE|515|M|53.19,64.57|Z|1424|N|Southshore is Alliance controlled. So, unless you enjoy running from PvP guards, I'd steer clear of it.\n[color=FF0000]NOTE: [/color]You have a couple choices at this point. You can either run north to the road and go around that way, or you can swim across. Cross at the southern most point of the shoreline to maintain your distance from Southshore.|
