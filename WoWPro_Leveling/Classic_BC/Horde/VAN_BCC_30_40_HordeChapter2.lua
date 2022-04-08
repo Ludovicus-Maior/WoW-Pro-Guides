@@ -9,7 +9,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ; --- Thunder Bluff
-F Thunder Bluff|ACTIVE|1195|M|45.50,63.84|Z|Orgrimmar|
+F Thunder Bluff|ACTIVE|1195|M|45.13,63.90|Z|Orgrimmar|
 T The Sacred Flame|QID|1195|M|54.94,51.42|Z|Thunder Bluff|N|To Zangen Stonehoof.|
 A The Sacred Flame|QID|1196|M|54.94,51.42|Z|Thunder Bluff|N|From Zangen Stonehoof.|PRE|1195|
 l Maggran's Reserve Letter|ACTIVE|5881|L|16189|N|You need this to turn in the quest.\n[color=FF0000]NOTE: [/color]Go grab it or you'll have to get a replacement from Maggran Earthbinder in Thunder Bluff.|
@@ -168,7 +168,7 @@ T Alliance Relations|QID|1431|M|22.28,53.92|Z|Orgrimmar|N|To Keldran, in the bui
 A Alliance Relations|QID|1432|M|22.28,53.92|Z|Orgrimmar|N|From Keldran.|PRE|1431|
 
 ; --- Thousand Needles
-F Freewind Post|ACTIVE|1146|M|45.50,63.84|Z|Orgrimmar|
+F Freewind Post|ACTIVE|1146|M|45.13,63.90|Z|Orgrimmar|
 R Ironstone Camp|ACTIVE|1146|M|67.72,63.73|N|It's located on the edge of the Shimmering Flats. Follow the road to the east and you'll find it.\n[color=FF0000]NOTE: [/color]You'll get to a point where the road veers left. Stick to the right and follow the canyon wall from here.|
 T The Swarm Grows|QID|1146|M|67.59,63.93|N|To Moktar Krin.|
 A The Swarm Grows|QID|1147|M|67.59,63.93|N|From Moktar Krin.|
@@ -344,7 +344,7 @@ P Moonglade|ACTIVE|1368|N|Use your Teleport: Moonglade to do your training.|C|Dr
 H Orgrimmar|ACTIVE|1368|N|Hearth back to Orgrimmar. It's faster than flying; unless your hearth is on CD.|C|Druid|
 H Orgrimmar|ACTIVE|1368|N|Hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
 T Alliance Relations|QID|1436|ACTIVE|1368|M|22.27,53.74|Z|Orgrimmar|N|To Keldran.|
-F Shadowprey Village|ACTIVE|1368|M|45.50,63.84|Z|Orgrimmar|N|Once you're done whatever you need to do, fly back to Desolace.|
+F Shadowprey Village|ACTIVE|1368|M|45.13,63.90|Z|Orgrimmar|N|Once you're done whatever you need to do, fly back to Desolace.|
 R Gelkis Village|ACTIVE|1368|M|37.64,78.95|Z|Desolace|
 T Gelkis Alliance|QID|1368|M|36.24,79.25|Z|Desolace|N|To Uthek the Wise.|
 R Shadowprey Village|AVAILABLE|6161|M|26.50,75.15|Z|Desolace|
@@ -554,7 +554,7 @@ A Razzeric's Tweaking|QID|1187|M|80.99,76.09|Z|Thousand Needles|N|From Razzeric.
 
 ; --- The Barrens
 H Orgrimmar|ACTIVE|569|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
-F Thunder Bluff|ACTIVE|569|M|45.50,63.84|Z|Orgrimmar|C|Druid|
+F Thunder Bluff|ACTIVE|569|M|45.13,63.90|Z|Orgrimmar|C|Druid|
 F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|Thunder Bluff|C|Druid|
 ; --- STV
 b Grom'gol Base Camp|ACTIVE|569|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
