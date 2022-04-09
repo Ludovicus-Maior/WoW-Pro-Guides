@@ -29,7 +29,7 @@ A Super Reaper 6000|QID|1093|M|58.99,62.61|Z|1442|N|From Ziz Fizziks.|PRE|1483|
 C Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|S|
 K Goblin Invaders|ACTIVE|1062|QO|1|N|Kill Venture Co. Loggers.\n[color=FF0000]NOTE: [/color]Deforesters and Operators do not count.|S|
 N Lockpicking|ACTIVE|1062&1093|N|You'll find Battered Footlockers scattered around the area that you can open for some goodies and a skill point.\nCheck this step off to continue.|C|Rogue|
-R Head into Windshear Crag|QID|1062|M|63.35,57.72|CC|Z|1442|N|Head to the deforested area of Windshear Crag.|
+R Head into Windshear Crag|ACTIVE|1062|M|63.35,57.72|CC|Z|1442|N|Head to the deforested area of Windshear Crag.|
 C Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|US|
 K Goblin Invaders|ACTIVE|1062|QO|1|N|Finish killing Venture Co. Loggers.\n[color=FF0000]NOTE: [/color]Deforesters and Operators do not count.|US|
 T Super Reaper 6000|QID|1093|M|58.99,62.61|Z|1442|N|To Ziz Fizziks.|
@@ -219,7 +219,7 @@ T New Life|QID|6381|M|47.46,58.37|Z|1442|N|To Tammra Windfield.|
 R Mirkfallon Lake|ACTIVE|1058^1087|M|50.8,60.0;49.20,43.39|CC|Z|1442|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
 C Courser|QID|1058|M|44.81,21.47|L|5585 30|N|Kill Coursers for their eyes.\nYou'll find them everywhere north of Mirkfallon Lake.|S|
 R Stonetalon Peak|ACTIVE|1087|M|44.31,17.78|Z|1442|N|Continue north out of Mirkfallon Lake until you reach Stonetalon Peak.|
-N Fey Dragon|ACTIVE|1058|N|Be very aware of these guys sneaking up on you as adds. They cast 'Nullify Mana'; which will drain a portion of your mana.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Rogue,-Warrior|
+N Fey Dragon|ACTIVE|1058|N|Be very aware of these guys sneaking up on you as adds. They cast 'Nullify Mana' and will drain a portion of your mana.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Rogue,-Warrior|
 K Cenarius' Legacy|ACTIVE|1087|M|35.93,12.72|Z|1442|QO|1;2;3|N|Kill Sons of Cenarius, Daughters of Cenarius and Cenarion Botanists.\nYou'll find them in the woods on either side of the road.|
 ; Level 26
 C Fey Dragon|QID|1058|L|5583|N|Kill a Fey Dragon to collect a Fey Dragon Scale.|S|
@@ -260,9 +260,9 @@ A Dangerous!|QID|567|M|62.55,19.69|Z|1424|N|From the wanted poster hanging besid
 R Hillsbrad Fields|ACTIVE|502^527|M|33.43,35.03|Z|1424|N|Run to the north end of the area.\n[color=FF0000]NOTE: [/color]Give the lv 30+ Cave Yetis in Darrow Hill a wide berth.|
 K Battle of Hillsbrad|ACTIVE|527|QO|1;2|N|Kill Hillsbrad Farmers and Farmhands.|S|
 T Elixir of Pain|QID|502|M|32.69,35.33|Z|1424|N|To Stanley. You'll find him beside his doghouse at the northern most house in Hillsbrad Fields.\n[color=FF0000]NOTE: [/color]Stanley won't appreciate you giving him the elixir. He becomes enraged and attacks you. The quest completes once you defeat him.|
-K Citizen Wilkes|QID|567|QO|2|N|Kill Citizen Wilkes. He patrols the north branch of the main road in Hillsbrad Fields from the Forge up to the last house; stopping briefly at each building as he passes.\n[color=FF0000]NOTE: [/color]You will have multiple opportunties to kill him. So, waiting/looking for him is not necessary.|S|
-K Farmer Ray|QID|527|M|32.67,35.62;33.74,33.50|CN|Z|1424|QO|3|N|Kill Farmer Ray. He's just inside the front door. Draw him out so you don't aggro the mobs inside with him.\n[color=FF0000]NOTE: [/color]If he's not in the house, check the courtyard on the east side of the house. The courtyard location requires you clear the adds first.|T|Farmer Ray|
-K Farmer Getz|QID|527|M|35.45,38.00;36.52,39.45|CN|Z|1424|QO|4|N|Kill Farmer Getz. He's inside the barn. Be prepared. You will aggro the 2 mobs that are in there with him.\n[color=FF0000]NOTE: [/color]If he's at the house (east of the barn), he'll only have 1 mob with him.|T|Farmer Getz|
+K Citizen Wilkes|ACTIVE|567|QO|2|N|Kill Citizen Wilkes. He patrols the north branch of the main road in Hillsbrad Fields from the Forge up to the last house; stopping briefly at each building as he passes.\n[color=FF0000]NOTE: [/color]You will have multiple opportunties to kill him. So, waiting/looking for him is not necessary.|S|
+K Farmer Ray|ACTIVE|527|M|32.67,35.62;33.74,33.50|CN|Z|1424|QO|3|N|Kill Farmer Ray. He's just inside the front door. Draw him out so you don't aggro the mobs inside with him.\n[color=FF0000]NOTE: [/color]If he's not in the house, check the courtyard on the east side of the house. The courtyard location requires you clear the adds first.|T|Farmer Ray|
+K Farmer Getz|ACTIVE|527|M|35.45,38.00;36.52,39.45|CN|Z|1424|QO|4|N|Kill Farmer Getz. He's inside the barn. Be prepared. You will aggro the 2 mobs that are in there with him.\n[color=FF0000]NOTE: [/color]If he's at the house (east of the barn), he'll only have 1 mob with him.|T|Farmer Getz|
 K Battle of Hillsbrad|ACTIVE|527|QO|1;2|N|Finish killing Hillsbrad Farmers and Farmhands.|US|
 R Tarren Mill|ACTIVE|527|M|61.35,20.04|Z|1424|N|Head back to Tarren Mill.|
 T Battle of Hillsbrad|QID|527|M|62.27,20.32|Z|1424|N|To High Executor Darthalia in Tarren Mill.|
@@ -322,7 +322,7 @@ K Lok Orcbane|ACTIVE|879|M|40.19,80.56|Z|1413|QO|3|N|Kill Lok and loot his Skull
 K Nak|ACTIVE|879|M|43.96,83.44|Z|1413|QO|2|N|Kill Nak and loot his Skull. Follow the cliff wall east and you'll run into him.|
 l Weapons of Choice|ACTIVE|893|M|43.31,81.04|Z|1413|QO|1;2;3|N|Pathfinders/Stalkers drop the Razormane Backstabber.\nWarfrenzy drop the Razormane War Shield.\nSeers drop the Charred Razormane Wand.|US|
 N 3 rare quest mobs|AVAILABLE|884^885^897|N|You're now going to head back to Camp Taurajo. As you make your way back there, keep an eye out for Jorn Skyseer's rare quest kills.\nDo not go out of your way to find them.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-R Camp Taurajo|QID|893|M|44.76,58.68|Z|1413|
+R Camp Taurajo|ACTIVE|893|M|44.76,58.68|Z|1413|
 T Weapons of Choice|QID|893|M|45.10,57.69|Z|1413|N|To Tatternack Steelforge.|
 T Washte Pawne|QID|885|M|44.86,59.14|Z|1413|N|To Jorn Skyseer.|
 T Owatanka|QID|884|M|44.86,59.14|Z|1413|N|To Jorn Skyseer.|
@@ -333,50 +333,53 @@ F Crossroads|ACTIVE|868^906|M|44.44,59.15|Z|1413|
 T Egg Hunt|QID|868|M|51.07,29.63|Z|1413|N|To Korran.|
 * Silithid Eggs|AVAILABLE|-868|N|Destroy any Silithid eggs you have leftover.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|U|5058|O|
 T Betrayal from Within|QID|906|M|51.50,30.87|Z|1413|N|To Thork.|
-F Orgrimmar|ACTIVE|6571|M|51.50,30.33|Z|1413|
-C Deadly Blunderbuss|ACTIVE|6571|L|4369|N|Beg, borrow, or steal... Before leaving, make sure you bring one of these with you.\nIf you have level 105 Engineering, you can make it yourself. Otherwise, a friend or the AH are your only options.|
+F Orgrimmar|ACTIVE|6571|M|51.50,30.33|Z|1413|IZ|Crossroads|
+C Deadly Blunderbuss|ACTIVE|6571|AVAILABLE|6581|L|4369|N|Beg, borrow, or steal... Before leaving, make sure you bring one of these with you.\nIf you have level 105 Engineering, you can make it yourself. Otherwise, a friend or the AH are your only options.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't need it.|
 
 ; --- Ashenvale
 F Splintertree Post|AVAILABLE|6441|M|45.13,63.90|Z|1454|
 A Satyr Horns|QID|6441|M|73.07,61.48|Z|1440|N|From Pixel.|
-A Warsong Saw Blades|QID|6581|ACTIVE|6571|M|73.07,61.48|Z|1440|N|From Pixel.|
+A Warsong Saw Blades|QID|6581|ACTIVE|6571|M|73.07,61.48|Z|1440|L|16742|N|From Pixel.\n[color=FF0000]NOTE: [/color]Should you lose the Blades, this quest is repeatable.|
 T Warsong Saw Blades|QID|6581|M|73.07,61.48|Z|1440|N|To Pixel.|
 A Stonetalon Standstill|QID|25|M|73.67,60.01|Z|1440|N|From Mastok Wrilehiss.|
 A Ashenvale Outrunners|QID|6503|M|71.11,68.12|Z|1440|N|From Kuray'bin.|
 A The Lost Pages|QID|6504|M|70.01,71.15|Z|1440|N|From Gurda Ragescar.|
 ; Every time you return to Splintertree, these steps will show until you complete them
-l Chapter 1|ACTIVE|6504|L|16642|N|Combine Pages 1-4|U|16645|S|NC|IZ|Splintertree Post^Nightsong Woods|
-l Chapter 2|ACTIVE|6504|L|16643|N|Combine Pages 5-8|U|16649|S|NC|IZ|Splintertree Post^Nightsong Woods|
-l Chapter 3|ACTIVE|6504|L|16644|N|Combine Pages 9-12|U|16653|S|NC|IZ|Splintertree Post^Nightsong Woods|
-t The Lost Pages|QID|6504|M|70.01,71.15|Z|1440|N|To Gurda Ragescar.|IZ|Splintertree Post^Nightsong Woods|
+l Chapter 1|ACTIVE|6504|L|16642|N|Combine Pages 1-4|S|NC|IZ|Splintertree Post|
+l Chapter 2|ACTIVE|6504|L|16643|N|Combine Pages 5-8|S|NC|IZ|Splintertree Post|
+l Chapter 3|ACTIVE|6504|L|16644|N|Combine Pages 9-12|S|NC|IZ|Splintertree Post|
+t The Lost Pages|QID|6504|M|70.01,71.15|Z|1440|N|To Gurda Ragescar.|IZ|Splintertree Post|
 K Ashenvale Outrunners|ACTIVE|6503|M|73.65,72.01|Z|1440|QO|1|N|Kill Ashenvale Outrunners. They are stealthed and spread out around amongst the trees. You will hear a sound when you're close to one and they are somewhat visible.|S|
-R The Dor'Danil Barrow Den|QID|2|M|72.85,70.56|Z|1440|
-K Sharptalon|AVAILABLE|2|M|71.48,70.03;76.85,68.01|CN|Z|1440|L|16305|N|Sharptalon is a lv 31 blue hippogryph that paths through the area. He is part of the 'Ashenvale Hunt' quest with a respawn rate of @ 15-20 minutes.\n[color=FF0000]NOTE: [/color]If you draw him towards the Forsaken by the tents, they'll help you kill him. At your current level, this may be your only choice.|PRE|6383|
-A Sharptalon's Claw|QID|2|N|Click on the item to activate the quest.|U|16305|PRE|6383|O|
-K Ashenvale Outrunners|ACTIVE|6503|M|73.65,72.01|Z|1440|QO|1|N|Kill Ashenvale Outrunners. They are stealthed and spread out around amongst the trees. You will hear a sound when you're close to one and they are somewhat visible.|US|
+R The Dor'Danil Barrow Den|AVAILABLE|2|M|72.85,70.56|Z|1440|PRE|6383^235^742^6382|
+K Sharptalon|AVAILABLE|2|M|71.48,70.03;76.85,68.01|CN|Z|1440|L|16305|N|Sharptalon is a lv 31 blue hippogryph that paths through the area. He is part of the 'Ashenvale Hunt' quest with a respawn rate of @ 15-20 minutes.\n[color=FF0000]NOTE: [/color]If you draw him towards the Forsaken by the tents, they'll help you kill him. At your current level, this may be your only choice.|PRE|6383^235^742^6382|
+A Sharptalon's Claw|QID|2|N|Click on the item to activate the quest.|U|16305|PRE|6383^235^742^6382|O|
+K Ashenvale Outrunners|ACTIVE|6503|M|73.65,72.01|Z|1440|QO|1|N|Kill Ashenvale Outrunners. They're stealthed and spread out around amongst the trees.\n[color=FF0000]NOTE: [/color]You\ll hear a sound when you're close to one and they're somewhat visible.|US|
 A Torek's Assault|QID|6544|M|68.34,75.30|Z|1440|ELITE|N|[color=FF00FF]Escort Quest:[/color]\nFrom Torek.\nThis is an 'escort' quest... sort of.\nBasically, you follow him and his troops as they kill things.\n[color=FF0000]NOTE: [/color]If he's not there, someone is on the quest and you'll have to wait for him to respawn.|
 A Torek's Assault|QID|6544|M|68.34,75.30|Z|1440|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Torek to restart the quest. If he's not there, someone is on the quest or he hasn't respawned yet. Just wait for him to respawn.|FAIL|
 C Torek's Assault|QID|6544|M|65.35,75.28|CC|Z|1440|QO|1|N|Follow Torek and his men into Silverwing Outpost. You don't have to do anything. However, You will get some grind xp if you give them a hand.\nStay with group or the quest could fail.\n[color=FF0000]NOTE: [/color]If Torek dies, the quest fails and his men will despawn leaving you alone to fight all of them. If this happens, jump off the balcony and run away.|
-R Greenpaw Village|QID|6571|M|64.3,70.4;58.4,61.4;56.89,62.47|CC|Z|1440|
+R Greenpaw Village|ACTIVE|6571|M|64.3,70.4;58.4,61.4;56.89,62.47|CC|Z|1440|L|16743|
 C Warsong Supplies|QID|6571|M|55.29,62.75|Z|1440|L|16743|N|Kill Foulweald Furbolgs to loot the Logging Rope. This could take quite a few kills to get. Work your way west through the village until you get it.|
-R Mystral Lake|QID|25|M|50.6,64.6;51.6,66.5;51.51,67.86|CC|Z|1440|N|Make your way to the lake. Give the building at Silverwind Refuge a wide berth, unless you enjoy PvP and getting your butt kicked by Alliance guards.|
+R Mystral Lake|ACTIVE|25|M|50.6,64.6;51.6,66.5;51.47,67.83|CC|Z|1440|N|Make your way to the lake. Give the building at Silverwind Refuge a wide berth, unless you enjoy PvP and getting your butt kicked by Alliance guards.|
 K Stonetalon Standstill|ACTIVE|25|M|47.99,69.88|Z|1440|QO|1|N|Kill Befouled Water Elementals|S|
 R Stonetalon Standstill|ACTIVE|25|M|49.03,69.65|Z|1440|QO|2|N|Go to the gazebo on the island in Mystral Lake.|
 K Tideress|AVAILABLE|1918|L|16408|N|Kill Tideress for a drop quest item, Befouled Water Globe.\n[color=FF0000]NOTE: [/color]You can either wait for her to get the island or figure out where she is on her path in the lake.|T|Tideress|
 A The Befouled Element|QID|1918|N|Click the item to activate the quest.|U|16408|O|
 K Stonetalon Standstill|ACTIVE|25|M|47.99,69.88|Z|1440|QO|1|N|Finish killing Befouled Water Elementals|US|
-R The Talondeep Path|QID|23|AVAILABLE|-6383^235^742^6382|M|42.65,70.10|Z|1440|
-K Ursangous|QID|23|AVAILABLE|-6383^-235^-742^-6382|M|41.67,68.92|Z|1440|L|16303|N|Have a look around this area for a light-colored bear named Ursangous. He is part of the 'Ashenvale Hunt' quest. He circles the big tree in the center.|T|Ursangous|
-A Ursangous's Paw|QID|23|N|Click the item to activate the quest.|U|16303|PRE|6383|O|
-K Shadumbra|QID|24|AVAILABLE|-6383^235^742^6382|L|16304|N|While you are in the area of Raynewood Retreat, keep an eye out for Shadumbra, a nightsaber cat that paths in that area. She is part of the 'Ashenvale Hunt' quest.|S|
-R Raynewood Retreat|QID|1088|M|45.4,65.0;50.6,64.6;51.2,58.1;52.9,54.5;57.24,56.00|CC|Z|1440|N|There are multiple paths to get where you're going. This one is the most straight forward with the least resistance.\nYou'll also be using a detour to avoid the Alliance tower leading into the area. There's a guard that you cannot avoid aggroing.\n[color=FF0000]NOTE: [/color]Keep your distance from Silverwind Refuge when you're passing it.|
-C The Sacred Flame|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops the Etched Phial.|S|
-K Shadumbra|QID|24|AVAILABLE|-6383^235^742^6382|L|16304|N|While you are in the area of Raynewood Retreat, keep an eye out for Shadumbra, a nightsaber cat that paths in that area. She is part of the 'Ashenvale Hunt' quest.|T|Shadumbra|US|
-A Shadumbra's Head|QID|24|N|Click the item to activate the quest.|U|16304|PRE|6383|O|
-C Ordanus|QID|1088|M|62,51.2|Z|1440|QO|1|N|Climb to the top of the 'tower' and kill Ordanus and loot his head. You will encounter four lv 25-26 Druids (bear form) on your way up. Each one can be handled/pulled individually.\n[color=FF0000]NOTE: [/color]When you get to the top floor, Ordanus is inside flanked by two lv 26 Vindicators. There is no pulling them separately. Rush Ordanus and kill him as quickly as possibly. If you do not have any CC options, I recommend drawing them outside. That way, if you die after killing Ordanus, you can return and loot his head without worrying about the other two.|
-C Etched Phial|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops it.|US|
-C Moonwell|QID|1195|M|61.5,68.3;59.8,69.7;60.10,72.85|CC|Z|1440|L|5868|N|Make your way to the Moonwell. You can follow the path all the way there, or just take the short cut.|U|5867|NC|
-R Splintertree Post|ACTIVE|6503|M|71.16,69.13|Z|1440|N|How you get here is entirely up to you. You can either take the safe route and follow the road or take the shortcut and run straight through (aka grind your way there).|
+R The Talondeep Path|AVAILABLE|23|M|42.65,70.10|Z|1440|PRE|6383^235^742^6382|
+K Ursangous|AVAILABLE|23|M|41.67,68.92|Z|1440|L|16303|N|Have a look around this area for a light-colored bear named Ursangous. He is part of the 'Ashenvale Hunt' quest. He circles the big tree in the center.|T|Ursangous|PRE|6383^235^742^6382|
+A Ursangous's Paw|QID|23|N|Click the item to activate the quest.|U|16303|PRE|6383^235^742^6382|O|
+K Shadumbra|AVAILABLE|24|L|16304|N|While you are in the area of Raynewood Retreat, keep an eye out for Shadumbra, a nightsaber cat that paths in that area. She is part of the 'Ashenvale Hunt' quest.|T|Shadumbra|S|PRE|6383^235^742^6382|
+A Shadumbra's Head|QID|24|N|Click the item to activate the quest.|U|16304|PRE|6383^235^742^6382|O|
+R Raynewood Retreat|ACTIVE|1088|AVAILABLE|24|M|45.4,65.0;50.6,64.6;51.2,58.1;52.9,54.5;57.24,56.00|CC|Z|1440|N|There are multiple paths to get where you're going. This one is the most straight forward with the least resistance.\nYou'll also be using a detour to avoid the Alliance tower leading into the area. There's a guard that you cannot avoid aggroing.\n[color=FF0000]NOTE: [/color]Keep your distance from Silverwind Refuge when you're passing it.|
+l Etched Phial|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops the Etched Phial.|S|
+K Shadumbra|AVAILABLE|24|L|16304|N|While you are in the area of Raynewood Retreat, keep an eye out for Shadumbra, a nightsaber cat that paths in that area. She is part of the 'Ashenvale Hunt' quest.|T|Shadumbra|US|PRE|6383^235^742^6382|
+K Ordanus|ACTIVE|1088|M|62.09,51.18|Z|1440|QO|1|N|Climb to the top of the 'tower' and kill Ordanus and loot his head. You will encounter four lv 25-26 Druids (bear form) on your way up. Each one can be handled/pulled individually.\n[color=FF0000]NOTE: [/color]When you get to the top floor, Ordanus is inside flanked by two lv 26 Vindicators. There is no pulling them separately. Rush Ordanus and kill him as quickly as possibly. If you do not have any CC options, I recommend drawing them outside. That way, if you die after killing Ordanus, you can return and loot his head without worrying about the other two.|
+l Etched Phial|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops it.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't need it.|US|
+R Moonwell|ACTIVE|1195|M|61.5,68.3;59.8,69.7;60.10,72.85|CC|Z|1440|L|5868|N|Make your way to the Moonwell. You can follow the path all the way there, or just take the short cut.|
+C The Sacred Flame|QID|1195|M|60.10,72.85|Z|1440|L|5868|N|Fill the Etched Phial from the Moonwell.|U|5867|NC|
+R Splintertree Post|ACTIVE|6503|M|71.16,69.13|Z|1440|N|S|LVL|28;-16550|
+L Level 28|ACTIVE|6503|N|You'll want to grind out until you're at least halfway to level 28.|LVL|28;-16550|
+R Splintertree Post|ACTIVE|6503|M|71.16,69.13|Z|1440|N|How you get here is entirely up to you. You can either take the safe route and follow the road or take the shortcut and run straight through (aka grind your way there).|US|
 T Ashenvale Outrunners|QID|6503|M|71.11,68.12|Z|1440|N|To Kuray'bin.|
 T Torek's Assault|QID|6544|M|73.03,62.47|Z|1440|N|To Ertog Ragetusk.|
 ;L Level 29|QID|24|LVL|29|N|You should be around level 29 by this point.|
@@ -388,6 +391,11 @@ T The Hunt Completed|QID|247|M|73.79,61.45|Z|1440|N|To Senani Thunderheart.|
 T Stonetalon Standstill|QID|25|M|73.67,60.01|Z|1440|N|To Mastok Wrilehiss.|
 T The Befouled Element|QID|1918|M|73.67,60.01|Z|1440|N|To Mastok Wrilehiss.|
 A Je'neu of the Earthen Ring|QID|824|M|73.67,60.01|Z|1440|N|From Mastok Wrilehiss.|PRE|1918|
+F Thunder Bluff|ACTIVE|824|M|73.18,61.59|Z|1440|IZ|Splintertree Post|C|Druid|
+F Orgrimmar|ACTIVE|824|M|73.18,61.59|Z|1440|IZ|Splintertree Post|C|-Druid|
+= Level 28|ACTIVE|824|N|Do your lv 28 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Splintertree Post|ACTIVE|824|M|47.02,49.83|Z|1456|C|Druid|IZ|1456|
+F Splintertree Post|ACTIVE|824|M|45.13,63.90|Z|1454|C|-Druid|IZ|1454|
 R Satyrnaar|ACTIVE|6441^6571|M|75.0,65.2;81.77,52.08|CC|Z|1440|
 C Satyr Horns|QID|6441|L|5481 16|N|Kill Satyrs to collect Satyr Horns.\nThese guys like to run.\n[color=FF0000]NOTE: [/color]The drop rate is a little less than 50%. Nothing wrong with a little grinding.|S|
 C Warsong Supplies|QID|6571|L|16744|N|Collect the Warsong Oil from the pitcher that spawns on the ground in multiple locations near the camps in Satyrnaar.|
@@ -464,22 +472,22 @@ T Battle of Hillsbrad|QID|532|M|62.28,20.28|Z|1424|N|To High Executor Darthalia.
 A Battle of Hillsbrad|QID|539|M|62.28,20.28|Z|1424|N|From High Executor Darthalia.|PRE|532|
 R Azurelode Mine|ACTIVE|539^567|M|27.50,59.30|Z|1424|N|Run to the upper entrance of Azurelode Mine.|
 K Battle of Hillsbrad|ACTIVE|539|QO|2|N|Kill Hillsbrad Miners. This shouldn't take long, as they're everywhere.|S|
-K Miner Hackett|QID|567|M|29.94,54.58|CC|Z|1424|QO|3|N|[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots.|S|
+K Miner Hackett|ACTIVE|567|M|29.94,54.58|CC|Z|1424|QO|3|N|[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots.|S|
 K Foreman Bonds|ACTIVE|539|M|31.22,55.76|Z|1424|QO|1|N|Clear any potential adds before attacking him. Any added distractions will greatly reduce your chances of success.\n[color=FF0000]NOTE: [/color]When he is almost dead, two lv 29 guards will spawn. Be aware that they both will take turns interrupting any spellcasting. Focus on killing Foreman Bonds. Don't worry about dying once he is dead. You can resurrect outside the mine and go back in if you have to.|T|Foreman Bonds|
-K Miner Hackett|QID|567|M|30.82,56.50;29.94,54.58;30.80,58.50|CC|Z|1424|QO|3|N|Work your way inside the mine and kill Miner Hackett. Clear any potential adds before you attack him.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds was located. If you look over the ledge, you should see him below you.|US|
+K Miner Hackett|ACTIVE|567|M|30.82,56.50;29.94,54.58;30.80,58.50|CC|Z|1424|QO|3|N|Work your way inside the mine and kill Miner Hackett. Clear any potential adds before you attack him.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds was located. If you look over the ledge, you should see him below you.|US|
 K Battle of Hillsbrad|ACTIVE|539|QO|2|N|Finish killing Hillsbrad Miners.|US|
-R Western Strand|QID|515|ACTIVE|515|M|25.00,63.79|Z|1424|N|Head east from the Azurelode Mine and then turn south towards the shoreline.|
+R Western Strand|ACTIVE|515|M|25.00,63.79|Z|1424|N|Head east from the Azurelode Mine and then turn south towards the shoreline.|
 C Torn Fin Eyes|ACTIVE|515|L|3510 5|N|Working your way east along the coast, kill the Murlocs to collect Torn Fin Eyes.\nMuckdwellers are a better choice over Coastrunners (range attack).\nIf you prefer, you can do this in the water as you swim east.\n[color=FF0000]NOTE: [/color]Avoid letting the Coastrunners get to far away from you when they run, they will aggro another Murloc and range attack you.|
 R Eastern Strand|ACTIVE|515|M|53.19,64.57|Z|1424|N|Southshore is Alliance controlled. So, unless you enjoy running from PvP guards, I'd steer clear of it.\n[color=FF0000]NOTE: [/color]You have a couple choices at this point. You can either run north to the road and go around that way, or you can swim across. Cross at the southern most point of the shoreline to maintain your distance from Southshore.|
 C Daggerspine Scales|ACTIVE|515|M|54.47,65.04|Z|1424|L|3509 5|N|Kill the Nagas to collect Daggerspine Scales.|
-R Tarren Mill|QID|515|M|62.8,41.6;63.31,29.84|CC|Z|1424|N|Return to Tarren Mill.\nDepending on which end of Eastern Strand you are at, you can either follow the road north of you, or weave your way to the river and follow the EAST bank north. The Southshore guards will leave you alone as long as you don't go in the water.\n[color=FF0000]NOTE: [/color]IF YOU GO IN THE WATER, YOU WILL DIE!!!|
+R Tarren Mill|ACTIVE|515|M|62.8,41.6;63.31,29.84|CC|Z|1424|N|Return to Tarren Mill.\nDepending on which end of Eastern Strand you are at, you can either follow the road north of you, or weave your way to the river and follow the EAST bank north. The Southshore guards will leave you alone as long as you don't go in the water.\n[color=FF0000]NOTE: [/color]IF YOU GO IN THE WATER, YOU WILL DIE!!!|
 T Elixir of Agony|QID|515|M|61.44,19.07|Z|1424|N|To Apothecary Lydon.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up; it's not really worth the time and effort.|
 T Dangerous!|QID|567|M|62.28,20.28|Z|1424|N|To High Executor Darthalia.|
 T Battle of Hillsbrad|QID|539|M|62.28,20.28|Z|1424|N|To High Executor Darthalia.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up; it's not really worth the time and effort.|
 
 ; --- The Barrens
-F Orgrimmar|QID|5881|N|Head to your nearest Flight Master and fly to Orgrimmar to take care of any training or anything else you wish to do before starting the next chapter.|IZ|1413| ; No point burning your Hearth if you don't have to.
-H Orgrimmar|QID|5881|N|Hearth back to Orgrimmar to take care of training and anything else you wish to do before starting the next chapter.| ; This step should auto-complete if you took the flight.
+F Orgrimmar|ACTIVE|5881|N|Head to your nearest Flight Master and fly to Orgrimmar to take care of any training or anything else you wish to do before starting the next chapter.|IZ|1413| ; No point burning your Hearth if you don't have to.
+H Orgrimmar|ACTIVE|5881|N|Hearth back to Orgrimmar to take care of training and anything else you wish to do before starting the next chapter.| ; This step should auto-complete if you took the flight.
 
 ]]
 end)
