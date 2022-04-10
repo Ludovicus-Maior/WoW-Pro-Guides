@@ -338,7 +338,6 @@ C Deadly Blunderbuss|ACTIVE|6571|AVAILABLE|6581|L|4369|N|Beg, borrow, or steal..
 
 ; --- Ashenvale
 F Splintertree Post|AVAILABLE|6441|M|45.13,63.90|Z|1454|
-A Satyr Horns|QID|6441|M|73.07,61.48|Z|1440|N|From Pixel.|
 A Warsong Saw Blades|QID|6581|ACTIVE|6571|M|73.07,61.48|Z|1440|L|16742|N|From Pixel.\n[color=FF0000]NOTE: [/color]Should you lose the Blades, this quest is repeatable.|
 T Warsong Saw Blades|QID|6581|M|73.07,61.48|Z|1440|N|To Pixel.|
 A Stonetalon Standstill|QID|25|M|73.67,60.01|Z|1440|N|From Mastok Wrilehiss.|
@@ -391,32 +390,37 @@ T The Hunt Completed|QID|247|M|73.79,61.45|Z|1440|N|To Senani Thunderheart.|
 T Stonetalon Standstill|QID|25|M|73.67,60.01|Z|1440|N|To Mastok Wrilehiss.|
 T The Befouled Element|QID|1918|M|73.67,60.01|Z|1440|N|To Mastok Wrilehiss.|
 A Je'neu of the Earthen Ring|QID|824|M|73.67,60.01|Z|1440|N|From Mastok Wrilehiss.|PRE|1918|
-F Thunder Bluff|ACTIVE|824|M|73.18,61.59|Z|1440|IZ|Splintertree Post|C|Druid|
-F Orgrimmar|ACTIVE|824|M|73.18,61.59|Z|1440|IZ|Splintertree Post|C|-Druid|
-= Level 28|ACTIVE|824|N|Do your lv 28 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-F Splintertree Post|ACTIVE|824|M|47.02,49.83|Z|1456|C|Druid|IZ|1456|
-F Splintertree Post|ACTIVE|824|M|45.13,63.90|Z|1454|C|-Druid|IZ|1454|
-R Satyrnaar|ACTIVE|6441^6571|M|75.0,65.2;81.77,52.08|CC|Z|1440|
-C Satyr Horns|QID|6441|L|5481 16|N|Kill Satyrs to collect Satyr Horns.\nThese guys like to run.\n[color=FF0000]NOTE: [/color]The drop rate is a little less than 50%. Nothing wrong with a little grinding.|S|
-C Warsong Supplies|QID|6571|L|16744|N|Collect the Warsong Oil from the pitcher that spawns on the ground in multiple locations near the camps in Satyrnaar.|
-C Satyr Horns|QID|6441|L|5481 16|N|Finish collecting your Satyr Horns.\nThese guys like to run.|US|
+F Thunder Bluff|AVAILABLE|6441|M|73.18,61.59|Z|1440|C|Druid|IZ|Splintertree Post|
+F Orgrimmar|AVAILABLE|6441|M|73.18,61.59|Z|1440|C|-Druid|IZ|Splintertree Post|
+= Level 28|AVAILABLE|6441|N|Do your lv 28 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Splintertree Post|AVAILABLE|6441|M|47.02,49.83|Z|1456|C|Druid|IZ|1456|
+F Splintertree Post|AVAILABLE|6441|M|45.13,63.90|Z|1454|C|-Druid|IZ|1454|
+A Satyr Horns|QID|6441|M|73.07,61.48|Z|1440|N|From Pixel.|
+R Falfarren River|ACTIVE|6441^6571|M|69.88,62.24|Z|1440|N|Make your way to the river on the west side of Splintertree Post.|
+R Xavian|ACTIVE|6441^6571|M|72.58,50.35|Z|1440|N|Cross the river and follow the river bank north.|
+R Night Run|ACTIVE|6441^6571|M|72.11,49.80|Z|1440|N|Go up the hill sticking to the left side.|
+C Satyr Horns|QID|6441|M|66.69,55.29|Z|1440|L|5481 16|N|Kill Satyrs to collect Satyr Horns.|S|
+C Warsong Supplies|QID|6571|M|66.85,57.14|Z|1440|L|16744|N|Collect the Warsong Oil from the pitcher that spawns on the ground in multiple locations near the camps in Satyrnaar.|
+C Satyr Horns|QID|6441|M|66.69,55.29|Z|1440|L|5481 16|N|Finish collecting your Satyr Horns.\n[color=FF0000]NOTE: [/color]If this area is crowded, you can find more in Xavian and Satyrnaar; north of where you came in.|US|
 R Splintertree Post|ACTIVE|6441^6571|M|75.00,64.32|Z|1440|N|Choose your own adventure.|
 T Warsong Supplies|QID|6571|M|71.40,67.64|Z|1440|N|To Locke Okarr; by the south watchtower.|
 T Satyr Horns|QID|6441|M|73.07,61.48|Z|1440|N|To Pixel.|
 A Destroy the Legion|QID|9534|M|73.23,60.39|Z|1440|N|From Valusha.|
-R Felfire Hill|ACTIVE|9534|M|75.3,65.6;79.94,68.39|CC|Z|1440|N|Make your way back to the main road and follow it east.|
+R Felfire Hill|ACTIVE|9534&-9536|M|75.3,65.6;79.94,68.39|CC|Z|1440|N|Head to the intersection and follow the road east.|
 K Destroy the Legion|ACTIVE|9534|M|83.33,69.91|Z|1440|QO|2;3|N|The Roaming Felguard and Searing Infernal can be found all over Felfire Hill.\n[color=FF0000]NOTE: [/color]The Searing Infernal are immune to fire damage.|S|
+K Mannoroc Lasher|ACTIVE|9534|M|84.20,77.28|Z|1440|QO|1|N|The Mannoroc Lashers are mostly found in Demon Fall Canyon; in the mountains to the south of Felfire Hill. Focus on them first.\n[color=FF0000]NOTE: [/color]These mobs are level 29-30.|S|
 l Diabolical Plans|AVAILABLE|9535|L|23797|N|This item is dropped by one of the mobs in Felfire Hill/Demon Fall Canyon.|S|
 A Diabolical Plans|QID|9535|N|Click on the item to start the quest.|U|23797|O|
-K Destroy the Legion|ACTIVE|9534|M|84.20,77.28|Z|1440|QO|1|N|The Mannoroc Lasher can be found mostly in Demon Fall Canyon; in the mountains to the south of Felfire Hill. Focus on them first.\n[color=FF0000]NOTE: [/color]These mobs are level 29-30.|
-K Destroy the Legion|ACTIVE|9534|M|83.33,69.91|Z|1440|QO|2;3|N|Finish up killing the Roaming Felguard and Searing Infernal.\n[color=FF0000]NOTE: [/color]The Searing Infernal are immune to fire damage.|US|
-l Diabolical Plans|AVAILABLE|9535|L|23797|N|This item is dropped by one of the mobs in Felfire Hill/Demon Fall Canyon.\n[color=FF0000]NOTE: [/color]Skip this step if you want to leave.|US|
-R Splintertree Post|ACTIVE|9534|M|73.53,63.62|Z|1440|
-T Destroy the Legion|QID|9534|M|73.23,60.39|Z|1440|N|To Valusha.|
-T Diabolical Plans|QID|9535|M|73.23,60.39|Z|1440|N|To Valusha.|
+R Splintertree Post|ACTIVE|9535&9534|M|73.53,63.62|Z|1440|N|Return to Splintertree Post immediately.\n[color=FF0000]NOTE: [/color]The follow-up will bring you right back here.|
+t Diabolical Plans|QID|9535|M|73.23,60.39|Z|1440|N|To Valusha.|IZ|Splintertree Post|
 A Never Again!|QID|9536|M|73.23,60.39|Z|1440|N|From Valusha.|PRE|9535|
-R Felfire Hill|ACTIVE|9536|M|75.3,65.6;79.94,68.39|CC|Z|1440|
-R Demon Fall Canyon|ACTIVE|9536|M|84.63,74.55|Z|1440|N|Unlike earlier, follow the shoreline south to the mountain ridge and head east. This will save some time and fights.|
+R Demon Fall Canyon|ACTIVE|9534&-9536|M|84.19,72.16|Z|1440|N|Make your way to the gap in the mountains at the south end.|
+R Demon Fall Canyon|ACTIVE|9536|M|84.19,72.16|Z|1440|N|Return to Felfire Hill and unlike earlier, follow the shoreline south to the mountain ridge and head east. This will save some time and fights.|
+K Mannoroc Lasher|ACTIVE|9534&-9536|M|84.20,77.28|Z|1440|QO|1|N|Focus on killing the Mannoroc Lashers first.|T|Mannoroc Lasher|US|
+K Destroy the Legion|ACTIVE|9534&-9536|M|83.33,69.91|Z|1440|QO|2;3|N|Finish up killing the Roaming Felguard and Searing Infernal.\n[color=FF0000]NOTE: [/color]The Searing Infernal are immune to fire damage.|US|
+l Diabolical Plans|AVAILABLE|9535|L|23797|N|This item is dropped by one of the mobs in Felfire Hill/Demon Fall Canyon.\n[color=FF0000]NOTE: [/color]Skip this step if you want to leave.|US|
+R Splintertree Post|ACTIVE|9534&-9536|M|73.53,63.62|Z|1440|
+T Destroy the Legion|QID|9534&-9536|M|73.23,60.39|Z|1440|N|To Valusha.|
 K Gorgannon|ACTIVE|9536|M|84.4,77.3;87.6,78.9;89.82,76.65|CC|Z|1440|QO|1|N|Clear the Mannoroc Lashers around Gorgannon before attacking him.\n[color=FF0000]NOTE: [/color]If you wait and time his pathing, you can pull the 2 beside him solo.|
 R Demon Fall Ridge|ACTIVE|9536|M|82.60,77.90|Z|1440|N|Head back down the ramp to the road and follow it south to the ramp on the west side.\n[color=FF0000]NOTE: [/color]Look for the little 'lights' that lead up the ramp.|
 K Diathorus the Seeker|ACTIVE|9536|M|78.3,81.8;78.54,84.88|CC|Z|1440|QO|2|N|Follow the ramp up until you reach the camp. Enter the building on the other side of the camp and make your way down the ramp to the bridge at the bottom where Diathorus is located.|
