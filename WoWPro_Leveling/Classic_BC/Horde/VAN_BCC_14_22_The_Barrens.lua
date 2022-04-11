@@ -328,12 +328,12 @@ N Lockpicking|AVAILABLE|2478|M|12.68,29.51|Z|Ashenvale|N|You need level 85 minim
 ; --- Hunters and Mages
 N No class quest|QID|876|N|Hunters and Mages do not have a level 20 quest.|C|Hunter,Mage|
 F Orgrimmar|QID|876|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Hunter,Mage|
-F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|Fly to The Crossroads when you're done.|R|Tauren|C|Druid|
+F Crossroads|QID|876|M|45.13,63.90|Z|Orgrimmar|N|Fly to The Crossroads when you're done.|R|Tauren|C|Druid|
 ; ---
 ; --- Warriors level 20 class quest
 N Brutal Armor|QID|876|N|It is recommended to wait until lv 28-30 to start this quest chain. This quest chain is quite extensive and requires a lot of traveling to complete.|C|Warrior|
 F Orgrimmar|QID|876|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Warrior|
-F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|Fly to The Crossroads when you're done.|C|Warrior|
+F Crossroads|QID|876|M|45.13,63.90|Z|Orgrimmar|N|Fly to The Crossroads when you're done.|C|Warrior|
 ; ---
 ; --- Druid Aquatic class quest completion
 P Moonglade|ACTIVE|30|N|Use your Teleport: Moonglade.|R|Tauren|C|Druid|
@@ -369,7 +369,7 @@ F Orgrimmar|ACTIVE|5642^5643|M|47.02,49.83|Z|Thunder Bluff|R|Troll|C|Priest|
 T Shadowguard|QID|5642^5643|M|35.6,87.6|Z|Orgrimmar|N|To Ur'kyo in the Valley of Spirits.|R|Troll|C|Priest|
 A Shadowguard|QID|5680|M|35.6,87.6|Z|Orgrimmar|N|To Ur'kyo in the Valley of Spirits.|R|Troll|C|Priest|
 T Shadowguard|QID|5680|M|35.6,87.6|Z|Orgrimmar|N|To Ur'kyo in the Valley of Spirits.|R|Troll|C|Priest|
-F Crossroads|ACTIVE|876|M|45.50,63.84|Z|Orgrimmar|R|Troll,Undead|C|Priest|
+F Crossroads|ACTIVE|876|M|45.13,63.90|Z|Orgrimmar|R|Troll,Undead|C|Priest|
 ; ---
 ; --- Rogue Thistle Tea Recipe (Poison) Class Quest
 N NOT EASY!!!|AVAILABLE|2458|ACTIVE|876|N|Your Poison class quest is not going to be easy. Some have suggested waiting until you've reached level 22. At that point, you'll have Distract and Vanish to help reduce the number of 'Run away!' moments.\nI agree and this guide will wait until you're level 22. You can do it now if you so choose.|R|Orc,Troll,Undead|C|Rogue|
@@ -402,10 +402,10 @@ T Devourer of Souls|QID|1507|M|47.04,46.46|Z|Orgrimmar|N|To Cazul in Cleft of Sh
 A Blind Cazul|QID|1508|M|47.04,46.46|Z|Orgrimmar|N|From Cazul.|PRE|1507|R|Orc,Undead|C|Warlock|
 T Blind Cazul|QID|1508|M|37.02,59.46|Z|Orgrimmar|N|To Zankaja in the building just south of the Cleft of the Shadows SW entrance.|R|Orc,Undead|C|Warlock|
 A News of Dogran|QID|1509|M|37.02,59.46|Z|Orgrimmar|N|From Zankaja.|PRE|1508|R|Orc,Undead|C|Warlock|
-F Crossroads|QID|1509|M|45.50,63.84|Z|Orgrimmar|R|Orc,Undead|C|Warlock|
+F Crossroads|QID|1509|M|45.13,63.90|Z|Orgrimmar|R|Orc,Undead|C|Warlock|
 T News of Dogran|QID|1509|M|51.93,30.32|N|To Gazrog in The Crossroads.|R|Orc,Undead|C|Warlock|
 A News of Dogran|QID|1510|M|51.93,30.32|N|From Gazrog.|PRE|1509|R|Orc,Undead|C|Warlock|
-F Sun Rock Retreat|ACTIVE|1510|M|45.50,63.84|Z|Orgrimmar|R|Orc,Undead|C|Warlock|
+F Sun Rock Retreat|ACTIVE|1510|M|45.13,63.90|Z|Orgrimmar|R|Orc,Undead|C|Warlock|
 R Malaka'jin|QID|1510|M|71.81,91.52|Z|Stonetalon Mountains|N|Leave Sun Rock Retreat and follow the path south to Malaka'jin.|R|Orc,Undead|C|Warlock|
 T News of Dogran|QID|1510|M|73.2,95|Z|Stonetalon Mountains|N|To Ken'zigla in Malaka'jin.|R|Orc,Undead|C|Warlock|
 A Ken'zigla's Draught|QID|1511|M|73.2,95|Z|Stonetalon Mountains|N|From Ken'zigla.|PRE|1510|R|Orc,Undead|C|Warlock|
@@ -420,7 +420,7 @@ T Love's Gift|QID|1512|M|48.24,45.28|Z|Orgrimmar|N|To Gan'rul Bloodeye in Cleft 
 A The Binding|QID|1513|M|48.24,45.28|Z|Orgrimmar|N|From Gan'rul Bloodeye.|PRE|1512|R|Orc,Undead|C|Warlock|
 C The Binding|QID|1513|M|49.47,50.02|Z|Orgrimmar|QO|1|N|Go to the Summoning Circle in Neeru's tent. While standing in the Summoning Circle, use Dogran's Pendant to summon a Succubus and then kill it.|U|6626|R|Orc,Undead|C|Warlock|
 T The Binding|QID|1513|M|48.24,45.28|Z|Orgrimmar|N|To Gan'rul Bloodeye.|R|Orc,Undead|C|Warlock|
-F Crossroads|ACTIVE|876|M|45.50,63.84|Z|Orgrimmar|R|Orc,Undead|C|Warlock|
+F Crossroads|ACTIVE|876|M|45.13,63.90|Z|Orgrimmar|R|Orc,Undead|C|Warlock|
 ; ---
 
 T Serena Bloodfeather|QID|876|M|51.62,30.90|N|To Darsok Swiftdagger, up in the tower.|
