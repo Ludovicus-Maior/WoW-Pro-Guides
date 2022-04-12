@@ -420,7 +420,7 @@ K Mannoroc Lasher|ACTIVE|9534&-9536|M|84.20,77.28|Z|1440|QO|1|N|Focus on killing
 K Destroy the Legion|ACTIVE|9534&-9536|M|83.33,69.91|Z|1440|QO|2;3|N|Finish up killing the Roaming Felguard and Searing Infernal.\n[color=FF0000]NOTE: [/color]The Searing Infernal are immune to fire damage.|US|
 l Diabolical Plans|AVAILABLE|9535|L|23797|N|This item is dropped by one of the mobs in Felfire Hill/Demon Fall Canyon.\n[color=FF0000]NOTE: [/color]Skip this step if you want to leave.|US|
 R Splintertree Post|ACTIVE|9534&-9536|M|73.53,63.62|Z|1440|
-T Destroy the Legion|QID|9534&-9536|M|73.23,60.39|Z|1440|N|To Valusha.|
+t Destroy the Legion|QID|9534|M|73.23,60.39|Z|1440|N|To Valusha.|IZ|Splintertree Post|
 K Gorgannon|ACTIVE|9536|M|84.4,77.3;87.6,78.9;89.82,76.65|CC|Z|1440|QO|1|N|Clear the Mannoroc Lashers around Gorgannon before attacking him.\n[color=FF0000]NOTE: [/color]If you wait and time his pathing, you can pull the 2 beside him solo.|
 R Demon Fall Ridge|ACTIVE|9536|M|82.60,77.90|Z|1440|N|Head back down the ramp to the road and follow it south to the ramp on the west side.\n[color=FF0000]NOTE: [/color]Look for the little 'lights' that lead up the ramp.|
 K Diathorus the Seeker|ACTIVE|9536|M|78.3,81.8;78.54,84.88|CC|Z|1440|QO|2|N|Follow the ramp up until you reach the camp. Enter the building on the other side of the camp and make your way down the ramp to the bridge at the bottom where Diathorus is located.|
