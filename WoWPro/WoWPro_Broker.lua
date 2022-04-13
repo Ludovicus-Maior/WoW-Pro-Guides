@@ -248,6 +248,17 @@ function WoWPro.QuestAvailible(QIDs, debug, why)
     return value
 end
 
+function WoWPro.QuestCompleted(QIDs, debug, why)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro.QuestCompleted(%s)",tostring(QIDs))
+    end
+    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return WoWPro:IsQuestFlaggedCompleted(qid, true) and (not WoWPro.QuestLog[qid]) and qid; end, why or "QuestCompleted", debug or quids_debug)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro.QuestCompleted(%s) return %s",tostring(QIDs),tostring(value))
+    end
+    return value
+end
+
 function WoWPro:QuestFailed(QIDs, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QuestFailed(%s)",tostring(QIDs))
@@ -1594,16 +1605,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- Skip Completed Quests
+
             if QID then
-                local numQID = select("#", ("^"):split(QID))
-                for j = 1, numQID do
-                    local jqid = select(numQID-j + 1, ("^"):split(QID))
-                    if WoWPro:IsQuestFlaggedCompleted(jqid, true) then
-                        skip = true -- If quest complete, step is skipped.
-                        WoWPro.why[guideIndex] = "NextStep(): QID is complete: " .. jqid
-                        guide.completion[guideIndex] = QID
-                        break
-                    end
+                local jqid = WoWPro.QuestCompleted(QID, "Skip Completed Quests")
+                if jqid then
+                    skip = true -- If quest complete, step is skipped.
+                    WoWPro.why[guideIndex] = "NextStep(): QID is complete: " .. jqid
+                    guide.completion[guideIndex] = jqid
+                    break
                 end
             end
 
