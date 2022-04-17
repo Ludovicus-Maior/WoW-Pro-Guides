@@ -35,7 +35,7 @@ return [[
 ; K Gormbore|M|53.86,75.82|Z|Ardenweald!The Shadowlands|T|Gormbore|N|WH - Nothing required to summon, but hard to locate due to multiple worlds quests.|ITEM|183196|RARE|ACH|14309;18|
 
 ; TOF
-A Ardenweald|QID|62277|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+A Ardenweald|QID|62277|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|LVL|-60|
 T Ardenweald|QID|62277|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A Restoring Balance|QID|62739^63036|PRE|62277|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62739^63036|M|52.00,57.94|Z|1670;Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
@@ -476,7 +476,7 @@ C Sparkles Rain from Above|QID|58524|M|70.71,55.92|Z|Ardenweald!The Shadowlands|
 T The Fallen Tree|QID|62720|M|70.10,57.17|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
 H Hibernal Hollow|ACTIVE|58524^62763|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|Hearth or run back to Hibernal Hollow.|
 T Sparkles Rain from Above|QID|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
-;L Nearly Level 57|PRE|58524|M|PLAYER|LVL|56;-64000|N|You need to about 4 bubbles from 57, or you won't be able to do the last quest in Hibernal Hollow. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|MS|
+L Nearly Level 57|PRE|58524|M|PLAYER|LVL|56;-64000|N|You need to about 4 bubbles from 57, or you won't be able to do the last quest in Hibernal Hollow. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|MS|
 
 ; Visions of the Dreamer Storyline
 A For the Sake of Spirit|QID|60572|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|PRE|58524|MS|
@@ -555,8 +555,8 @@ C Battle for Hibernal Hollow|QID|58869|M|60.03,53.09|Z|Ardenweald!The Shadowland
 T Battle for Hibernal Hollow|QID|58869|M|59.92,53.09|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 T Blooming Villains|QID|58265|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
 T Beneath the Mask|QID|58267|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
-F Heart of the Forest|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|COV|NightFae|IZ|11531|
-F Refugee Camp|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|TOF|TAXI|-Heart of the Forest|
+F Heart of the Forest|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|COV|NightFae|IZ|11531|FLY|SHADOWLANDS|
+F Refugee Camp|ACTIVE|62763^62807|M|60.32,53.45|Z|Ardenweald!The Shadowlands|N|At Na'lor.|TOF|TAXI|-Heart of the Forest|FLY|SHADOWLANDS|
 A Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|58869|MS|
 C Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Moonberry.|MS|
 $ Faerie Trove|QID|61073|M|49.72,55.89|N|Basket with pet is around and underneath platform(treestump).|RANK|2|ITEM|182673|ACH|14313;5|
