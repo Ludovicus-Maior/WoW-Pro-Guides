@@ -50,7 +50,7 @@ A The Sacred Flame|QID|1197|M|46.14,51.70|Z|1441|N|From Rau Cliffrunner.|PRE|119
 f Freewind Post|QID|4841|M|45.14,49.10|Z|1441|N|Get the flight path from Nyse.|
 A Wind Rider|QID|4767|M|44.84,48.96|Z|1441|N|From Elu.|
 A Alien Egg|QID|4821|M|44.64,50.30|Z|1441|N|From Hagar Lightninghoof.|
-C Pacify the Centaur|QID|4841|Z|1441|QO|1;2;3|N|Kill Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance and the Windchasers heal themselves 75%. The Wranglers range attack if you leave melee range.|S|
+C Pacify the Centaur|QID|4841|QO|1;2;3|N|Kill Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance and the Windchasers heal themselves 75%. The Wranglers range attack if you leave melee range.|S|
 R Splithoof Hold|ACTIVE|1197|M|43.98,37.49|Z|1441|N|Leave Freewind Post and make your way northwest to Splithoof Hold.|
 R Ancient Brazier|ACTIVE|1197|M|42.00,31.55|CC|Z|1441|N|Head inside Splithoof Hold and make your way to the Ancient Brazier.|
 C The Sacred Flame|QID|1197|M|42.01,31.47|Z|1441|L|5869|N|Click on it to use the Filled Etched Phial to douse the flame and loot the Cloven Hoof.\n[color=FF0000]NOTE: [/color]Do this quick because as you're clearing your way to it, the mobs are starting to respawn back at the beginning. The longer you take, the more you will have to fight.|
@@ -314,12 +314,12 @@ A Sceptre of Light|QID|5741|M|38.89,27.16|Z|1443|N|From Azore Aldamort at Ethel 
 R Kormek's Hut|ACTIVE|5501|M|44.1,34.4;62.02,39.38|CC|Z|1443|
 T Bone Collector|QID|5501|M|62.31,38.96|Z|1443|N|To Bibbly F'utzbuckle.|
 C The Burning of Spirits|QID|1435|L|6435 15|N|Attack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem on them. If they die, you will collect an Infused Burning Gem. They MUST die from the 'Capture Spirit' debuff to collect the gem. The debuff does 100 damage every 3 seconds for 9 seconds.\n[color=FF0000]NOTE: [/color]Using special attacks (DOT) when they are near death could disrupt the Burning Gem effect.\nA side note for Druids. You cannot use the gem while shapeshifted.|U|6436|S|
-A The Corrupter|QID|1480|N|Click on the Flayed Demon Skin to start the quest.\nThis item is dropped by Burning Blade mobs.|U|20310|O|
+A The Corrupter|QID|1480|N|Click on the Flayed Demon Skin to start the quest.\n[color=FF0000]NOTE: [/color]This item is dropped by Burning Blade mobs.|U|20310|O|
 ; --- destroy excess quest starter item
 * Excess Flayed Demon Skin|AVAILABLE|-1480|N|Once you've accepted the quest, you no longer need to loot these items. If you loot any more, safely destroy them.|U|20310|
 ;L Level 34|QID|1107|N|You should be around level 34 by this point.|
 C Sceptre of Light|QID|5741|M|55.17,30.09|Z|1443|L|15750|N|Kill the Burning Blade Seer to loot the Sceptre of Light.\n[color=FF0000]NOTE: [/color]You'll find the Seer at the top of the Watchtower just inside the entrance. He has 2 Felsworn standing guard outside and an Augur inside with him. You can easily pull the outside guards one at a time.|
-C The Burning of Spirits|QID|1435|L|6435 15|U|6436|N|Finish collecting the Infused Burning Gems.|US|
+C The Burning of Spirits|QID|1435|L|6435 15|N|Finish collecting the Infused Burning Gems.|U|6436|US|
 T Sceptre of Light|QID|5741|M|38.89,27.16|Z|1443|N|Make your way west back to Azore Aldamort in Ethel Rethor.|
 A Book of the Ancients|QID|6027|M|38.89,27.16|Z|1443|N|From Azore Aldamort.|
 T The Burning of Spirits|QID|1435|M|52.24,53.44|Z|1443|N|Make your way back to Maurin Bonesplitter at Ghost Walker Post.|
@@ -570,7 +570,7 @@ T The Eighteenth Pilot|QID|1186|M|80.31,76.06|Z|1441|N|To Razzeric.|
 A Razzeric's Tweaking|QID|1187|M|80.99,76.09|Z|1441|N|From Razzeric.|PRE|1186|
 
 ; --- The Barrens
-H Orgrimmar|ACTIVE|569|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
+H Orgrimmar|ACTIVE|569|
 F Thunder Bluff|ACTIVE|569|M|45.13,63.90|Z|1454|C|Druid|
 F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|1456|C|Druid|
 ; --- STV
