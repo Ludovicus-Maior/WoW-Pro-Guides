@@ -50,15 +50,19 @@ A The Sacred Flame|QID|1197|M|46.14,51.70|Z|1441|N|From Rau Cliffrunner.|PRE|119
 f Freewind Post|QID|4841|M|45.14,49.10|Z|1441|N|Get the flight path from Nyse.|
 A Wind Rider|QID|4767|M|44.84,48.96|Z|1441|N|From Elu.|
 A Alien Egg|QID|4821|M|44.64,50.30|Z|1441|N|From Hagar Lightninghoof.|
-C Pacify the Centaur|QID|4841|QO|1;2;3|N|Kill Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance and the Windchasers heal themselves 75%. The Wranglers range attack if you leave melee range.|S|
+K Pacify the Centaur|ACTIVE|4841|QO|1;2;3|N|Kill Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance and the Windchasers heal themselves 75%. The Wranglers range attack if you leave melee range.|S|
 R Splithoof Hold|ACTIVE|1197|M|43.98,37.49|Z|1441|N|Leave Freewind Post and make your way northwest to Splithoof Hold.|
-R Ancient Brazier|ACTIVE|1197|M|42.00,31.55|CC|Z|1441|N|Head inside Splithoof Hold and make your way to the Ancient Brazier.|
+R Damaged Chest|ACTIVE|1803|M|43.43,32.69|CC|Z|1441|N|Head inside Splithoof Hold and make your way to the alcove where the Damaged Chest is.\n[color=FF0000]NOTE: [/color]Stay to the right at the first fork and go to the left over the river at the second one.|
+C Tattered Manuscript|QID|1803|M|43.43,32.69|Z|1441|L|6997|N|Loot the Tattered Manuscript from the Damaged Chest.|
+R Ancient Brazier|ACTIVE|1197&1803|M|42.00,31.55|CC|Z|1441|N|Exit the alcove and follow the tunnel to the edge of the cliff.\n[color=FF0000]NOTE: [/color]The Brazier is just below you.\nThere are 2 Galak Flame Guards that you'll have to take care of first.|
+R Ancient Brazier|ACTIVE|1197&-1803|M|42.00,31.55|CC|Z|1441|N|Head inside Splithoof Hold and make your way to the Ancient Brazier.\n[color=FF0000]NOTE: [/color]There are 2 Galak Flame Guards that you'll have to take care of first.|
 C The Sacred Flame|QID|1197|M|42.01,31.47|Z|1441|L|5869|N|Click on it to use the Filled Etched Phial to douse the flame and loot the Cloven Hoof.\n[color=FF0000]NOTE: [/color]Do this quick because as you're clearing your way to it, the mobs are starting to respawn back at the beginning. The longer you take, the more you will have to fight.|
-C Pacify the Centaur|QID|4841|M|43.60,37.76|Z|1441|QO|1;2;3|N|Finish killing Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance.\nThe Windchasers heal themselves 75%.\nThe Wranglers range attack if you leave melee range.|US|
+K Pacify the Centaur|ACTIVE|4841|M|43.60,37.76|Z|1441|QO|1;2;3|N|Finish killing Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance.\nThe Windchasers heal themselves 75%.\nThe Wranglers range attack if you leave melee range.|US|
 R Windbreak Canyon|AVAILABLE|1149|M|52.31,43.13|Z|1441|N|Make your way east to Windbreak Canyon.|
 R The Weathered Nook|AVAILABLE|1149|M|54.7,44.8;53.67,42.74|CC|Z|1441|N|Walk up the ramp to the cave entrance.|
 A Test of Faith|QID|1149|M|53.94,41.49|Z|1441|N|From Dorn Plainstalker inside the cave.|
 R Test of Faith|ACTIVE|1149|M|26.43,32.39|CC|Z|1441|N|Run and jump off the planks sticking out.\n[color=FF0000]NOTE: [/color]Don't worry. You'll be teleported back to the cave before you land.|
+N Failed|ACTIVE|1149|N|If you died, you jumped from the wrong spot. Abandon the quest to restart it.|IZ|-The Weathered Nook|
 T Test of Faith|QID|1149|M|53.94,41.49|Z|1441|N|To Dorn Plainstalker.|
 A Test of Endurance|QID|1150|M|53.60,42.82|Z|1441|ELITE|N|[color=00FFFF]Group suggested or level up to solo[/color]\nFrom Dorn Plainstalker.|
 C Alien Egg|QID|4821|M|56.34,50.39;52.35,55.22|CN|Z|1441|L|12467|N|Look for the Alien Egg on the ground at one of two locations. There is a rumor of a third location. They have a fairly long respawn timer.|
@@ -70,37 +74,38 @@ T Pacify the Centaur|QID|4841|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
 A Grimtotem Spying|QID|5064|M|45.66,50.79|Z|1441|N|From Cliffwatcher Longhorn.|PRE|4841|
 T The Sacred Flame|QID|1197|M|46.14,51.70|Z|1441|N|To Rau Cliffrunner.|
 R Sky path access|ACTIVE|5064|M|31.22,36.91|CC|Z|1441|N|Take the elevator down and run to the base of the ramp leading up to the sky path.|
-C Grimtotem Spying|QID|5064|M|33.1,35.5;32.5,27.3;34.9,31.7;34.9,31.6;31.80,32.60|CS|Z|1441|L|12765|N|Make your way to the chest, open it and loot the Secret Note #1.|
-C Grimtotem Spying|QID|5064|M|33.78,39.97|Z|1441|L|12766|N|Make your way to the chest inside the tent and loot Secret Note #2.|
-C Grimtotem Spying|QID|5064|M|39.32,41.53|Z|1441|L|12768|N|Make your way to the chest inside the tent and loot Secret Note #3.|
-K Wanted - Arnak Grimtotem|ACTIVE|5147|M|35.7,31.0;37.99,26.64;37.65,31.47|CS|Z|1441|QO|1|N|Slowly, pull one mob after another until you can pull Arnak. Kill him and loot Arnak's Hoof.|
+C Grimtotem Spying|QID|5064|M|33.1,35.5;32.5,27.3;34.9,31.7;34.9,31.6;31.80,32.60|CS|Z|1441|L|12765|N|Make your way to the Document Chest, open it and loot the Secret Note #1.|
+C Grimtotem Spying|QID|5064|M|33.78,39.97|Z|1441|L|12766|N|Make your way to the Document Chest inside the tent and loot Secret Note #2.|
+C Grimtotem Spying|QID|5064|M|39.32,41.53|Z|1441|L|12768|N|Make your way to the Document Chest inside the tent and loot Secret Note #3.|
+K Wanted - Arnak Grimtotem|ACTIVE|5147|M|35.7,31.0;37.99,26.64;37.65,31.47|CS|Z|1441|QO|1|N|Slowly, pull one mob after another until you can pull Arnak. Kill him and loot Arnak's Hoof.|T|Arnak Grimtotem|
 A Free at Last|QID|4904|M|37.98,26.59|Z|1441|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Lakota Windsong.\n[color=FF0000]NOTE: [/color]If she's not there, she's either dead or someone else is on the quest and you'll have to wait.|
+A Free at Last|QID|4904|M|37.98,26.59|Z|1441|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=CC00FF]QUEST FAILED [/color]\nGo back to Lakota Windsong to restart the quest.\n[color=FF0000]NOTE: [/color]If she's not there, she's either waiting to respawn, or someone else is now on the quest. Either way, you'll have to wait.|FAIL|
 C Free at Last|QID|4904|M|30.99,37.05|Z|1441|QO|1|N|Escort Lakota Windsong across the sky path and out of Darkcloud Pinnacle to the ground below.\nAs you reach each 'plateau', a group of two will spawn and attack you. They stop spawning when you reach the last plateau and begin the downward path.\n[color=FF0000]NOTE: [/color]Leaving all of the pulling of mobs to her. If you pull at the wrong time, you could end up fighting 5 or 6 at once.|
-;A Free at Last|QID|4904|M|37.98,26.59|Z|1441|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=CC00FF]QUEST FAILED [/color]\nGo back to Lakota Windsong to restart the quest.\n[color=FF0000]NOTE: [/color]If she's not there, she's either waiting to respawn, or someone else is now on the quest. Either way, you'll have to wait.|FAIL|
 K Galak Messenger|AVAILABLE|4881|M|22.04,31.52|Z|1441|L|12564|N|Kill him to loot the Assassination note.|S|
 A Assassination Plot|QID|4881|N|Click on the Assassination Note to start the quest.|U|12564|O|
 R Whitereach Post|ACTIVE|4865|M|29.2,33.9;21.05,32.32|CC|Z|1441|
 T Serpent Wild|QID|4865|M|21.55,32.34|Z|1441|N|To Motega Firemane.|
 A Sacred Fire|QID|5062|M|21.55,32.34|Z|1441|N|From Motega Firemane.|PRE|4865|
+t Assassination Plot|QID|4881|M|21.26,32.06|Z|1441|N|To Kanati Greycloud.|IZ|Whitereach Post|
 R Highperch|ACTIVE|4767|M|14.32,32.25|Z|1441|N|Make your way to the ramp leading to High Perch.|
 C Wind Rider|QID|4767|L|12356 10|N|Collect Highperch Wyvern Eggs.|S|
-A Homeward Bound|QID|4770|M|12.17,36.30;17.8,40.6|CC|Z|1441|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Pao'ka Swiftmountain.|
-C Homeward Bound|QID|4770|M|15.15,32.61|Z|1441|QO|1|N|Escort Pao'ka out of Highperch to the road below.\nAt one point, Pao'ka will stop to talk and a single Wyvern will spawn. This is the only time it happens.|
-A Homeward Bound|QID|4770|M|17.8,40.6|Z|1441|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=CC00FF]QUEST FAILED [/color]\nGo back to Pao'ka Swiftmountain to restart the quest.|FAIL|
+A Homeward Bound|QID|4770|M|12.17,36.30;17.88,40.56|CC|Z|1441|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Pao'ka Swiftmountain.\n[color=FF0000]NOTE: [/color]If he's not there, he's either dead or someone else is on the quest and you'll have to wait.|
+A Homeward Bound|QID|4770|M|17.88,40.56|Z|1441|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=CC00FF]QUEST FAILED [/color]\nGo back to Pao'ka Swiftmountain to restart the quest.|FAIL|
+C Homeward Bound|ACTIVE|4770|M|15.16,32.66|Z|1441|QO|1|N|Escort Pao'ka out of Highperch to the road below.\n[color=FF0000]NOTE: [/color]At one point, Pao'ka will stop to talk and a single Wyvern will spawn. This is the only time it happens.|
 C Wind Rider|QID|4767|L|12356 10|N|Go back to Highperch and finish collecting the Highperch Wyvern Eggs.|US|
 R Whitereach Post|ACTIVE|4770|M|21.05,32.32|Z|1441|
-T Homeward Bound|QID|4770|M|21.55,32.34|Z|1441|To Motega Firemane.|
-A Hypercapacitor Gizmo|QID|5151|M|21.43,32.55|Z|1441|ELITE|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Wizlo Bearingshiner.|
-C Hypercapacitor Gizmo|QID|5151|M|21.8,26.8;22.81,24.45|CC|Z|1441|QO|1|Clear the area of any and all mobs and when you're ready, open the cage and prepare to fight.\n[color=FF0000]NOTE: [/color]Being that the Enraged Pather is a lv 30 elite, this quest may not be easy for some classes. Feel free to skip this quest and do it later if you so wish.\nThe exp and reward make this quest worth doing, even in a couple levels.|
-K Galak Messenger|AVAILABLE|4881|M|22.04,31.52|Z|1441|L|12564|If you wait (5-10 mins max) at this location facing the road east, he will come to you. Kill him and loot the Assassination note from him.\nIf you don't feel like waiting, You can either follow the road west to Camp E'thok or east to Splithoof Crag. He patrols along the road between the 2 camps.|US|
-T Assassination Plot|QID|4881|M|21.26,32.06|Z|1441|N|To Kanati Greycloud.|
+T Homeward Bound|QID|4770|M|21.55,32.34|Z|1441|N|To Motega Firemane.|
+A Hypercapacitor Gizmo|QID|5151|M|21.43,32.55|Z|1441|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Wizlo Bearingshiner.|
+C Hypercapacitor Gizmo|QID|5151|M|21.8,26.8;22.81,24.45|CC|Z|1441|QO|1|N|Clear the area of any and all mobs and when you're ready, open the cage and prepare to fight.\n[color=FF0000]NOTE: [/color]Being that the Enraged Pather is a lv 30 elite, this quest may not be easy for some classes. Feel free to skip this quest and do it later if you so wish.\nThe exp and reward make this quest worth doing, even in a couple levels.|
+K Galak Messenger|AVAILABLE|4881|M|22.04,31.52|Z|1441|L|12564|N|If you wait (5-10 mins max) at this location facing the road east, he will come to you. Kill him and loot the Assassination note from him.\nIf you don't feel like waiting, You can either follow the road west to Camp E'thok or east to Splithoof Crag. He patrols along the road between the 2 camps.|US|
 A Protect Kanati Greycloud|QID|4966|M|21.26,32.06|Z|1441|N|From Kanati Greycloud.|PRE|4881|
 C Protect Kanati Greycloud|QID|4966|M|21.26,32.06|Z|1441|N|A group of 3 Galak Assassins will spawn and attack you and Kanati. Defeat them to complete the quest.|
 T Protect Kanati Greycloud|QID|4966|M|21.26,32.06|Z|1441|N|To Kanati Greycloud.|
 t Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|Z|1441|N|To Wizlo Bearingshiner.|IZ|Whitereach Post|
 l Incendia Agave|ACTIVE|5062|M|35.56,34.63|Z|1441|L|12732 10|N|Loot these in and around the pond below Darkcloud Pinnacle.|
-L Level 32|ACTIVE|4767^5147^5064^4904|N|You'll want to be within 5 bars of lvl 32 before leaving the area.|LVL|31;-10950|
-R Freewind Post|ACTIVE|4767^5147^5064^4904|M|46.84,47.18|Z|1441|N|Run back to Freewind and take the lift up.|
+R Freewind Post|ACTIVE|4767^5147^5064^4904|M|46.84,47.18|Z|1441|N|Make your way towards Frewwind Post as you grind.|S|
+L Level 32|ACTIVE|4767^5147^5064^4904|N|Grind until you're within 5 bars of lvl 32.|LVL|31;-10950|
+R Freewind Post|ACTIVE|4767^5147^5064^4904|M|46.84,47.18|Z|1441|N|Run back to Freewind and take the lift up.|US|
 T Wanted - Arnak Grimtotem|QID|5147|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
 T Grimtotem Spying|QID|5064|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
 T Free at Last|QID|4904|M|45.97,51.61|Z|1441|N|To Thalia Amberhide.|
@@ -441,10 +446,9 @@ C Turtle Meat|QID|7321|L|3712 10|N|Kill Turtles to loot their meat.|S|
 R Southshore|ACTIVE|553|M|54.47,51.56|Z|1424|N|Follow the river south to Southshore.\n[color=FF0000]NOTE: [/color]Keep your distance from the Alliance guards patroling the edge of Southshore.|
 T Helcular's Revenge|QID|553|M|52.76,53.34|Z|1424|N|Click on Helcular's tombstone to turn in the quest.\n[color=FF0000]NOTE: [/color]Do not stick around as this area is patrolled by a couple Alliance guards.|
 C Turtle Meat|QID|7321|L|3712 10|N|Finish collecting your Turtle meat as you make your way north along the river towards Tarren Mill.\n[color=FF0000]NOTE: [/color]You may have to travel up and down the river to kill enough turtles.|US|
-R Tarren Mill|ACTIVE|7321|M|60.35,21.10|Z|1424|N|Make your way back to Tarren Mill.|
 
 ; --- Thunder Bluff
-H Orgrimmar|ACTIVE|1136|N|Use your hearth to save time. If it's on CD, run back to Tarren Mills, fly to Undercity and take the Zeppelin to Orgrimmar.|
+H Orgrimmar|ACTIVE|1136||M|60.35,21.10|Z|1424|N|Use your hearth to save time. If it's on CD, run back to Tarren Mills, fly to Undercity and take the Zeppelin to Orgrimmar.|
 F Thunder Bluff|ACTIVE|1136|M|45.13,63.90|Z|1454|
 T Frostmaw|QID|1136|M|61.54,80.92|Z|1456|N|To Melor Stonehoof on Hunter Rise.|
 A Deadmire|QID|1205|M|61.54,80.92|Z|1456|N|From Melor Stonehoof.|PRE|1136|
