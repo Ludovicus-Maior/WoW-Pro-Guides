@@ -33,7 +33,7 @@ return [[
 ; K Sinstone Hoarder|M|PLAYER|Z|1525;Revendreth|T|Sinstone Hoarder|N|WH - UNKNOWN|RARE|ACH|14310;24|
 
 ; TOF
-A Revendreth|QID|62279|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+A Revendreth|QID|62279|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|LVL|-60|
 t Revendreth|QID|62279|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A Dark Aspirations|QID|62740^63037|PRE|62279|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|At Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62740^63037|M|52.00,57.94|Z|1670;Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
@@ -282,7 +282,7 @@ $ Filcher's Prize|QID|59883|M|64.21,72.76|Z|1525;Revendreth|N|Just down from roa
 K Tollkeeper Varaboss|QID|59595^60583|QO|1|M|66.74,70.44|Z|1525;Revendreth|T|Tollkeeper Varaboss|N|Inside the house under bridge outside Pridefall Hamlet.|ITEM|179363|ACH|14310;13|ACTIVE|-62778|RANK|2|;RARE
 A The Toll of the Road|QID|60517|PRE|59595^60583|M|PLAYER|N|From Item dropped by Tollkeeper Varaboss.|
 R Pridefall Hamlet|ACTIVE|62778^57161|PRE|59595^60583|M|69.03,81.46|Z|1525;Revendreth|N|Back up to Pridefall Hamlet.|
-F Darkhaven|ACTIVE|62778^57161|M|70.35,81.16|Z|1525;Revendreth|N|At Courier Gevoraal.|RANK|2|TOF|
+F Darkhaven|ACTIVE|62778^57161|M|70.35,81.16|Z|1525;Revendreth|N|At Courier Gevoraal.|RANK|2|TOF|FLY|SHADOWLANDS|
 
 ; The Master Storyline - Continued
 T A Plea to the Harvesters|QID|58654|M|60.68,60.86|Z|1525;Revendreth|N|To Lord Chamberlain.|MS|

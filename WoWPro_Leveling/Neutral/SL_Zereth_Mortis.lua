@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide("SL_EE", "Leveling", "Zereth Mortis", "Cagomei", "Neutral")
-WoWPro:GuideName(guide,"Eternitys End Campaign")
+WoWPro:GuideName(guide,"Zereth Mortis Campaign")
 WoWPro:GuideContent(guide, "Shadowlands")
 WoWPro:GuideLevels(guide, 60, 60)
 WoWPro:GuideSort(guide, 8)
@@ -69,6 +69,8 @@ T The Forces Gather|QID|64958|M|34.86,64.85|Z|1970;Zereth Mortis|N|To Elder Kret
 A Our Forward Scouts|QID|65768|PRE|64958|M|34.86,64.85|Z|1671|N|From Highlord Bolvar Fordragon.|
 A Necessary Harvest|QID|65772|PRE|64958|M|34.78,64.82|Z|1970;Zereth Mortis|N|From Elder Ara.|
 A Favor of the First Ones|QID|65771|PRE|64958|M|34.83,64.99|Z|1671|N|From Elder Zoor.|
+A Legendary Assistance|QID|66383|PRE|64958|M|35.00,64.80|N|From Highlord Bolvar Fordragon.|
+T Legendary Assistance|QID|66383|M|34.76,64.19|N|To Vilo|
 C Favor of the First Ones|QID|65771|M|38.16,48.72|Z|1970;Zereth Mortis|NC|N|Click the bowl on the ground to use the incense.|S|
 C Necessary Harvest|QID|65772|M|37.97,62.11|Z|1970;Zereth Mortis|N|Collect Latent Protein from raptora, cervids, and lupines in The Great Veldt and surrounding area.|S|
 C Our Forward Scouts|QID|65768|M|40.53,59.74|Z|1970;Zereth Mortis|QO|2|CHAT|N|Speak with the Knight of the Ebon Blade here to receive Provis Flora Report.|

@@ -409,7 +409,7 @@ C Steward at Work|QID|59197|M|53.24,46.82|Z|1533;Bastion!The Shadowlands|QO|3|NC
 A WANTED: Gorgebeak|QID|60315|M|53.27,46.43|Z|1533;Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
 A WANTED: Darkwing|QID|60366|M|53.27,46.43|Z|1533;Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
 f Hero's Rest|ACTIVE|59197|M|51.40,46.80|Z|1533;Bastion!The Shadowlands|N|At Navarros.|
-F Aspirant's Rest|ACTIVE|62715^60316|M|51.40,46.80|Z|1533;Bastion!The Shadowlands|N|At Navarros.|
+F Aspirant's Rest|ACTIVE|62715^60316|M|51.40,46.80|Z|1533;Bastion!The Shadowlands|N|At Navarros.|FLY|SHADOWLANDS|
 T WANTED: Altered Sentinel|QID|60316|M|48.95,72.34|Z|1533;Bastion!The Shadowlands|N|To Forgehand Simo|
 T More Than A Gift|QID|62715|M|53.87,73.95|Z|1533;Bastion!The Shadowlands|N|To Acolyte Amalthina|
 H Hero's Rest|ACTIVE|59197^59198|M|48.13,74.16|Z|1533;Bastion!The Shadowlands|N|Hearth, or run back to Rheus and Fly back to Hero's Rest.|
@@ -640,6 +640,5 @@ F Hero's Rest|ACTIVE|60906|CS|M|39.62,38.34;44.09,32.45|Z|1533;Bastion!The Shado
 F Elysian Hold|ACTIVE|57967|CS|M|39.62,38.34;44.09,32.45|Z|1533;Bastion!The Shadowlands|N|Fly to Elysian Hold, Kassia is the flightmaster at Sagehaven.|COV|Kyrian|
 T Rightful Resting Place|QID|60906|M|52.9,46.8|Z|1533;Bastion!The Shadowlands|N|To the Spear of Kalliope, beside Haetio in Hero's Rest.|
 T Rightful Resting Place|QID|57967|M|63.58,40.17|Z|1708;Sanctum of Binding@Elysian Hold!Dungeon|N|To the Spear of Kalliope, beside Haetio in the 'Sanctum of Binding' at Elysian Hold.|COV|Kyrian|
-
 ]]
 end)
