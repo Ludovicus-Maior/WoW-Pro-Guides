@@ -103,8 +103,9 @@ C Protect Kanati Greycloud|QID|4966|M|21.26,32.06|Z|1441|N|A group of 3 Galak As
 T Protect Kanati Greycloud|QID|4966|M|21.26,32.06|Z|1441|N|To Kanati Greycloud.|
 t Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|Z|1441|N|To Wizlo Bearingshiner.|IZ|Whitereach Post|
 l Incendia Agave|ACTIVE|5062|M|35.56,34.63|Z|1441|L|12732 10|N|Loot these in and around the pond below Darkcloud Pinnacle.|
-L Level 32|ACTIVE|4767^5147^5064^4904|N|You'll want to be within 5 bars of lvl 32 before leaving the area.|LVL|31;-10950|
-R Freewind Post|ACTIVE|4767^5147^5064^4904|M|46.84,47.18|Z|1441|N|Run back to Freewind and take the lift up.|
+R Freewind Post|ACTIVE|4767^5147^5064^4904|M|46.84,47.18|Z|1441|N|Make your way towards Frewwind Post as you grind.|S|
+L Level 32|ACTIVE|4767^5147^5064^4904|N|Grind until you're within 5 bars of lvl 32.|LVL|31;-10950|
+R Freewind Post|ACTIVE|4767^5147^5064^4904|M|46.84,47.18|Z|1441|N|Run back to Freewind and take the lift up.|US|
 T Wanted - Arnak Grimtotem|QID|5147|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
 T Grimtotem Spying|QID|5064|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
 T Free at Last|QID|4904|M|45.97,51.61|Z|1441|N|To Thalia Amberhide.|
