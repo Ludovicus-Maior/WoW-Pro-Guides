@@ -103,9 +103,9 @@ C Protect Kanati Greycloud|QID|4966|M|21.26,32.06|Z|1441|N|A group of 3 Galak As
 T Protect Kanati Greycloud|QID|4966|M|21.26,32.06|Z|1441|N|To Kanati Greycloud.|
 t Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|Z|1441|N|To Wizlo Bearingshiner.|IZ|Whitereach Post|
 l Incendia Agave|ACTIVE|5062|M|35.56,34.63|Z|1441|L|12732 10|N|Loot these in and around the pond below Darkcloud Pinnacle.|
-R Freewind Post|ACTIVE|4767^5147^5064^4904|M|46.84,47.18|Z|1441|N|Make your way towards Frewwind Post as you grind.|S|
-L Level 32|ACTIVE|4767^5147^5064^4904|N|Grind until you're within 5 bars of lvl 32.|LVL|31;-10950|
-R Freewind Post|ACTIVE|4767^5147^5064^4904|M|46.84,47.18|Z|1441|N|Run back to Freewind and take the lift up.|US|
+R Freewind Post|ACTIVE|4767|M|46.84,47.18|Z|1441|N|Make your way towards Frewwind Post as you grind.|S|
+L Level 32|ACTIVE|4767|N|Grind until you're within 5 bars of lvl 32.|LVL|31;-10950|
+R Freewind Post|ACTIVE|4767|M|46.84,47.18|Z|1441|N|Run back to Freewind and take the lift up.|US|
 T Wanted - Arnak Grimtotem|QID|5147|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
 T Grimtotem Spying|QID|5064|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
 T Free at Last|QID|4904|M|45.97,51.61|Z|1441|N|To Thalia Amberhide.|
@@ -118,12 +118,14 @@ A Arikara|QID|5088|M|69.87,30.92|Z|1456|N|From Magatha Grimtotem.|
 = Level 32 Training|ACTIVE|5088|N|Take care of any training and other housekeeping you may need to do.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Rogue,-Warlock|
 F Orgrimmar|ACTIVE|5088|M|47.02,49.83|Z|1456|C|Rogue,Warlock|
 = Level 32 Training|ACTIVE|5088|N|Take care of any training and other housekeeping you may need to do.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue,Warlock|
+A In Search of Menara Voidrender|QID|4737|M|48.46,45.44|Z|1454|ITEM|6900|N|From Zevrost.\n[color=FF0000]NOTE: [/color]This quest begins the chain to earn your Enchanted Gold Bloodrobe.|C|Warlock|
 
 ; --- Thousand Needles
 F Freewind Post|ACTIVE|5088|M|47.02,49.83|Z|1456|IZ|1456|
 F Freewind Post|ACTIVE|5088|M|45.13,63.90|Z|1454|IZ|1454|
 R Sky path access|ACTIVE|5088|M|31.22,36.91|CC|Z|1441|N|Run to the base of the ramp leading up to the sky path.|
-K Arikara|ACTIVE|5088|M|33.1,35.3;34.7,31.0;37.2,33.1;38.0,35.3|CC|Z|1441|QO|2;1|N|Make your way to the Sacred Fire of Life. After clearing the mobs in the area, click on the Sacred Fire of Life to light it and summon Arikara. Kill him to loot his skin.|
+C Sacred Fire of Life|QID|5088|M|33.1,35.3;34.7,31.0;37.2,33.1;38.0,35.3|CC|Z|1441|QO|2|N|Make your way to the Sacred Fire of Life. After clearing the mobs in the area, click on the Sacred Fire of Life to light it and summon Arikara. Kill him to loot his skin.|
+K Arikara|ACTIVE|5088|M|38.24,35.42|Z|1441|L|12925|N|Make your way to the Sacred Fire of Life. After clearing the mobs in the area, click on the Sacred Fire of Life to light it and summon Arikara. Kill him to loot his skin.|
 R Whitereach Post|ACTIVE|5088|M|21.05,32.32|Z|1441|N|Make your way back down to the ground and run to Whitereach Post.\n[color=FF0000]NOTE: [/color]To speed this up, you can jump off the center of the first bridge into the pond below.|
 T Arikara|QID|5088|M|21.55,32.34|Z|1441|N|To Motega Firemane.|
 C Hypercapacitor Gizmo|QID|5151|M|21.8,26.8;22.81,24.45|CC|Z|1441|QO|1|N|Clear the area of any and all mobs and when you're ready, open the cage and prepare to fight.|
