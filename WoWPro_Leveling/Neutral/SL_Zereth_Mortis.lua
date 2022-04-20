@@ -7,11 +7,13 @@ WoWPro:GuideSteps(guide, function()
 return [[
 ;Chapter 1
 A Call of the Primus|QID|64942|M|57.04,57.70|Z|1670;Ring of Fates@Oribos|N|Auto Accepted|
+P Oribos|ACTIVE|64942|M|38.89,69.88|Z|1670;Ring of Fates@Oribos|N|Travel to Oribos by whatever means available.|
+P Ring of Fates|ACTIVE|64942|M|49.52,60.85|Z|1671;Ring of Transference@Oribos|N|Take the transporter to the Ring of Fates.|
 C Call of the Primus|QID|64942|M|38.89,69.88|Z|1670;Ring of Fates@Oribos|QO|1|CHAT|N|Talk to Tal-Inara.|
 T Call of the Primus|QID|64942|M|32.68,51.09|Z|2042;The Crucible!Dungeon|N|To The Primus.|
 A A Hasty Voyage|QID|64944|PRE|64942|M|34.16,52.38|Z|2042;The Crucible!Dungeon|N|From The Primus.|
-C A Hasty Voyage|QID|64944|M|33.23,46.87|Z|2042;The Crucible!Dungeon|QO|1|N|Mount the Anima Wyrm.|
-C Path of the Primus|Z|2042;The Crucible!Dungeon|SO|1|N|Mawsworn forces defeated.|
+C A Hasty Voyage|QID|64944|M|33.23,46.87|Z|2042;The Crucible!Dungeon|QO|1|V|N|Mount the Anima Wyrm.|
+C Path of the Primus|Z|2042;The Crucible!Dungeon|SO|1|N|Just click things flying around, first attack is single target, 2nd is a barrage that hits everything around you.|
 C Struggle for Control|Z|2042;The Crucible!Dungeon|SO|2|N|Your mount has been slain, but you have landed on the back of a Winged Soul Eater. Follow the commands on screen. 1 is to kick, 2 is to grip tighter, 3 is to pull the reins.|
 C A Hasty Voyage|QID|64944|M|28.11,49.64|QO|2|NC|N|Portal to Zereth Mortis entered.|
 T A Hasty Voyage|QID|64944|M|24.90,53.58|N|To Pelagos.|
@@ -30,19 +32,19 @@ C Give Me A Hand|QID|64947|M|PLAYER|QO|2|N|Kill the red robot that attacks you.|
 T Give Me A Hand|QID|64947|M|31.20,51.22|N|To Firim.|
 A For Research Purposes|QID|64949|PRE|64947|M|31.20,51.22|N|From Firim.|
 A A Mutual Exchange|QID|64950|PRE|64947|M|31.20,51.22|N|From Firim.|
-C For Research Purposes|QID|64949|N|Kill the robots in the area.|S|
-C A Mutual Exchange|QID|64950|M|31.37,56.41|QO|1|NC|N|Stand on the pad and use the "[color=40C7EB]Activate[/color]" button.|EAB|
-C A Mutual Exchange|QID|64950|M|31.69,56.82|QO|2|N|Kill Yggdreth the Despoiler.|
-C A Mutual Exchange|QID|64950|M|32.00,57.37|QO|3|NC|N|Click the glowing orb.|
+C For Research Purposes|QID|64949|M|30.54,53.70|N|Kill the robots in the area.|S|
+C A Mutual Exchange|QID|64950|M|31.19,56.16|QO|1|NC|N|Stand on the pad and use the "[color=40C7EB]Activate[/color]" button.|EAB|
+C A Mutual Exchange|QID|64950|M|31.95,57.38|QO|2|N|Kill Yggdreth the Despoiler.|
+C A Mutual Exchange|QID|64950|M|32.09,57.41|QO|3|NC|N|Click the glowing orb.|
 C For Research Purposes|QID|64949|M|30.54,53.70|N|Kill the robots in the area.|US|
 T A Mutual Exchange|QID|64950|M|31.23,51.30|N|To Firim.|
 T For Research Purposes|QID|64949|M|31.25,51.34|N|To Firim.|
 A The Road to Haven|QID|64951|PRE|64949&64950|M|31.23,51.30|N|From Firim.|
-C The Road to Haven|QID|64951|M|31.35,51.39|QO|1|NC|N|Click on Polly to mount her.|
+C The Road to Haven|QID|64951|M|31.35,51.39|QO|1|V|N|Click on Polly to mount her.|
 C The Road to Haven|QID|64951|M|33.96,60.70|QO|2|NC|N|Rode out of Genesis Vestibule.|
 T The Road to Haven|QID|64951|M|34.01,60.82|N|To Firim.|
 A Forging Connections|QID|65271|PRE|64951|M|34.01,60.82|N|From Pelagos.|
-C Forging Connections|QID|65271|M|34.91,64.81|QO|1|NC|N|Run to this way point, you will get stopped and escoreted into Haven.|
+C Forging Connections|QID|65271|M|34.10,63.93|QO|1|NC|N|Run to this way point, you will get stopped and escoreted into Haven.|
 C Forging Connections|QID|65271|M|34.85,64.87|QO|2|CHAT|N|Speak to Elder Kreth.|
 T Forging Connections|QID|65271|M|34.91,64.81|N|To Elder Kreth.|
 A Defending Haven|QID|64953|PRE|65271|M|34.91,64.81|N|From Elder Kreth.|
@@ -57,8 +59,8 @@ T Destroying the Destructors|QID|64952|M|34.86,64.78|N|To Elder Ara.|
 T Defending Haven|QID|64953|M|34.86,64.78|N|To Elder Kreth.|
 A This Old Waystone|QID|64957|PRE|64952&64953|M|34.86,64.78|N|From Elder Ara.|
 C This Old Waystone|QID|64957|M|34.15,68.21|QO|1|NC|N|Travel to the Geometric Cavern.|
-C This Old Waystone|QID|64957|M|33.18,69.58|QO|2|NC|N|Use the "[color=40C7EB]Open the Waystone[/color]" button.|EAB|
-C This Old Waystone|QID|64957|M|32.97,69.70|QO|3|NC|N|Waystone used.|
+C This Old Waystone|QID|64957|M|32.84,69.72|QO|2|NC|N|Use the "[color=40C7EB]Open the Waystone[/color]" button.|EAB|
+C This Old Waystone|QID|64957|M|32.84,69.72|QO|3|NC|N|Waystone used.|
 T This Old Waystone|QID|64957|M|49.72,37.28|Z|1671|N|To Highlord Bolvar Fordragon.|
 A The Forces Gather|QID|64958|PRE|64957|M|49.72,37.28|Z|1671|N|From Highlord Bolvar Fordragon.|
 C The Forces Gather|QID|64958|M|49.54,25.45|Z|1671|QO|1|NC|N|Zereth Mortis Portal used (Optional).|
@@ -66,30 +68,30 @@ C The Forces Gather|QID|64958|M|34.86,64.85|Z|1970;Zereth Mortis|QO|2|CHAT|N|Spe
 T The Forces Gather|QID|64958|M|34.86,64.85|Z|1970;Zereth Mortis|N|To Elder Kreth.|
 
 ;Ch2
-A Our Forward Scouts|QID|65768|PRE|64958|M|34.86,64.85|Z|1671|N|From Highlord Bolvar Fordragon.|
+A Our Forward Scouts|QID|65768|PRE|64958|M|34.99,64.76|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 A Necessary Harvest|QID|65772|PRE|64958|M|34.78,64.82|Z|1970;Zereth Mortis|N|From Elder Ara.|
 A Favor of the First Ones|QID|65771|PRE|64958|M|34.83,64.99|Z|1671|N|From Elder Zoor.|
 A Legendary Assistance|QID|66383|PRE|64958|M|35.00,64.80|N|From Highlord Bolvar Fordragon.|
 T Legendary Assistance|QID|66383|M|34.76,64.19|N|To Vilo|
 C Favor of the First Ones|QID|65771|M|38.16,48.72|Z|1970;Zereth Mortis|NC|N|Click the bowl on the ground to use the incense.|S|
 C Necessary Harvest|QID|65772|M|37.97,62.11|Z|1970;Zereth Mortis|N|Collect Latent Protein from raptora, cervids, and lupines in The Great Veldt and surrounding area.|S|
-C Our Forward Scouts|QID|65768|M|40.53,59.74|Z|1970;Zereth Mortis|QO|2|CHAT|N|Speak with the Knight of the Ebon Blade here to receive Provis Flora Report.|
 C Our Forward Scouts|QID|65768|M|41.20,68.06|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak with the Knight of the Ebon Blade here to receive Genesis Fields Report.|
+C Our Forward Scouts|QID|65768|M|40.53,59.74|Z|1970;Zereth Mortis|QO|2|CHAT|N|Speak with the Knight of the Ebon Blade here to receive Provis Flora Report.|
 C Our Forward Scouts|QID|65768|M|39.00,44.58|Z|1970;Zereth Mortis|QO|3|CHAT|N|Speak with the Knight of the Ebon Blade here to receive Terrace of Formation Report.|
 C Favor of the First Ones|QID|65771|M|38.16,48.72|Z|1970;Zereth Mortis|NC|N|Click the bowl on the ground to use the incense.|US|
 C Necessary Harvest|QID|65772|M|37.97,62.11|Z|1970;Zereth Mortis|N|Collect Latent Protein from raptora, cervids, and lupines in The Great Veldt and surrounding area.|US|
-T Our Forward Scouts|QID|65768|M|34.86,64.85|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
-T Favor of the First Ones|QID|65771|M|34.86,64.85|Z|1970;Zereth Mortis|N|To Elder Zoor.|
+T Favor of the First Ones|QID|65771|M|34.84,64.98|Z|1970;Zereth Mortis|N|To Elder Zoor.|
 T Necessary Harvest|QID|65772|M|34.78,64.82|Z|1970;Zereth Mortis|N|To Elder Ara.|
-A Knowing is Half the Battle|QID|64794|PRE|65768|M|34.96,64.73|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
+T Our Forward Scouts|QID|65768|M|34.99,64.77|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+A Knowing is Half the Battle|QID|64794|PRE|65768|M|34.99,64.77|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 T Knowing is Half the Battle|QID|64794|M|48.62,49.20|Z|1970;Zereth Mortis|N|To Shandris Feathermoon.|
 A Scour the Sands|QID|64796|PRE|64794|M|48.62,49.20|Z|1970;Zereth Mortis|N|From Shandris Feathermoon.|
 C Scour the Sands|QID|64796|M|48.46,47.58|Z|1970;Zereth Mortis|QO|1|NC|N|First Area Searched.|
 C Scour the Sands|QID|64796|M|51.41,48.58|Z|1970;Zereth Mortis|QO|2|NC|N|Second Area Searched.|
 C Scour the Sands|QID|64796|M|50.54,45.40|Z|1970;Zereth Mortis|QO|3|NC|N|Third Area Searched.|
 C Scour the Sands|QID|64796|M|48.11,44.85|Z|1970;Zereth Mortis|QO|4|NC|N|Final Area Searched.|
-T Scour the Sands|QID|64796|M|47.91,44.77|Z|1970;Zereth Mortis|N|To Shandris Feathermoon.|
-A Harmony and Discord|QID|64797|PRE|64796|M|47.91,44.77|Z|1970;Zereth Mortis|N|From Shandris Feathermoon.|
+T Scour the Sands|QID|64796|M|PLAYER|Z|1970;Zereth Mortis|N|To Shandris Feathermoon.|
+A Harmony and Discord|QID|64797|PRE|64796|M|PLAYER|Z|1970;Zereth Mortis|N|From Shandris Feathermoon.|
 T Harmony and Discord|QID|64797|M|41.96,48.10|Z|1970;Zereth Mortis|N|To Highlord Darion Mograine.|
 A Battle for the Forge|QID|64814|PRE|64797|M|41.96,48.10|Z|1970;Zereth Mortis|N|From Highlord Darion Mograine.|
 A Together, We Ride|QID|64815|PRE|64797|M|41.96,48.10|Z|1970;Zereth Mortis|N|From Highlord Darion Mograine.|
@@ -114,74 +116,74 @@ C A Break in Communication|QID|64822|M|48.48,61.62|Z|1970;Zereth Mortis|QO|3|CHA
 C A Break in Communication|QID|64822|M|47.19,57.36|Z|1970;Zereth Mortis|QO|1|CHAT|N|Orders given to Huntress Laikeer.|
 C Nothing is True|QID|64821|M|45.77,61.33|Z|1970;Zereth Mortis|U|187839|N|Dreadlord Saboteur slain.|US|
 C This is Your Fault, Fix It|QID|64820|M|45.71,62.30|Z|1970;Zereth Mortis|NC|N|Defense Nodes fixed.|US|
+T This is Your Fault, Fix It|QID|64820|M|34.87,64.75|Z|1970;Zereth Mortis|N|To Elder Kreth.|
 T A Break in Communication|QID|64822|M|35.04,64.68|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 T Nothing is True|QID|64821|M|35.04,64.68|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
-T This is Your Fault, Fix It|QID|64820|M|34.87,64.75|Z|1970;Zereth Mortis|N|To Elder Kreth.|
 A Doppelganger Duel|QID|64823|PRE|64822&64821&64820|M|34.94,64.71|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 C Doppelganger Duel|QID|64823|M|47.48,62.60|Z|1970;Zereth Mortis|N|Culprit confronted.|
 T Doppelganger Duel|QID|64823|M|47.32,63.54|Z|1970;Zereth Mortis|N|To Lady Jaina Proudmoore.|
 A Fighting for the Forge|QID|64824|PRE|64823|M|47.32,63.54|Z|1970;Zereth Mortis|N|From Lady Jaina Proudmoore.|
 C Fighting for the Forge|QID|64824|M|47.30,63.56|Z|1970;Zereth Mortis|QO|1|CHAT|N|Jaina spoken to.|
-C Fighting for the Forge|QID|64824|M|57.13,53.73|Z|1970;Zereth Mortis|QO|2|NC|N|Confront Anduin.|
-T Fighting for the Forge|QID|64824|M|57.02,53.62|Z|1970;Zereth Mortis|N|To Lady Jaina Proudmoore.|
-A Seeking Haven|QID|64825|PRE|64824|M|57.02,53.62|Z|1970;Zereth Mortis|N|From Lady Jaina Proudmoore.|
+C Fighting for the Forge|QID|64824|M|57.32,53.61|Z|1970;Zereth Mortis|QO|2|NC|N|Confront Anduin.|
+T Fighting for the Forge|QID|64824|M|57.32,53.61|Z|1970;Zereth Mortis|N|To Lady Jaina Proudmoore.|
+A Seeking Haven|QID|64825|PRE|64824|M|57.32,53.61|Z|1970;Zereth Mortis|N|From Lady Jaina Proudmoore.|
 C Seeking Haven|QID|64825|M|57.12,53.69|Z|1970;Zereth Mortis|NC|N|Portal to Haven taken.|
 T Seeking Haven|QID|64825|M|34.94,64.68|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 
-;Ch 3
+;Ch 3 
 A Danger Near and Far|QID|64218|PRE|64825|M|35.24,65.09|Z|1970;Zereth Mortis|N|From Pelagos.|
-C Danger Near and Far|QID|64218|M|40.46,75.68|Z|1970;Zereth Mortis|NC|N|Investigate Genesis Fields.|
-T Danger Near and Far|QID|64218|M|40.19,76.59|Z|1970;Zereth Mortis|NC|N|To Pelagos.|
+C Danger Near and Far|QID|64218|M|40.15,76.63|Z|1970;Zereth Mortis|NC|N|Investigate Genesis Fields.|
+T Danger Near and Far|QID|64218|M|40.15,76.63|Z|1970;Zereth Mortis|NC|N|To Pelagos.|
 A A Mysterious Voice|QID|64219|PRE|64218|M|40.19,76.59|Z|1970;Zereth Mortis|N|From Pelagos.|
 C A Mysterious Voice|QID|64219|M|40.16,76.86|Z|1970;Zereth Mortis|QO|1|NC|N|Door opened.|
-C A Mysterious Voice|QID|64219|M|39.95,77.74|Z|1970;Zereth Mortis|QO|2|NC|N|Automa defended.|
-T A Mysterious Voice|QID|64219|M|39.87,78.01|Z|1970;Zereth Mortis|N|To Pelagos.|
-A Core of the Matter|QID|64223|PRE|64219|M|39.87,78.01|Z|1970;Zereth Mortis|N|From Pelagos.|
+C A Mysterious Voice|QID|64219|M|39.71,78.21|Z|1970;Zereth Mortis|QO|2|NC|N|Automa defended.|
+T A Mysterious Voice|QID|64219|M|39.84,78.06|Z|1970;Zereth Mortis|N|To Pelagos.|
+A Core of the Matter|QID|64223|PRE|64219|M|39.84,78.06|Z|1970;Zereth Mortis|N|From Pelagos.|
 C Core of the Matter|QID|64223|M|34.88,64.94|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak with Elder Kreth.|
 T Core of the Matter|QID|64223|M|34.91,64.88|Z|1970;Zereth Mortis|N|To Pelagos.|
 A Seeking the Unknown|QID|64224|PRE|64223|M|34.91,64.88|Z|1970;Zereth Mortis|N|From Pelagos.|
-C Seeking the Unknown|QID|64224|M|33.33,66.31|Z|1970;The Slumbering Vault|QO|1|NC|N|Information found.|
+C Seeking the Unknown|QID|64224|M|33.29,66.39|Z|1970;The Slumbering Vault|QO|1|NC|N|Information found.|
 T Seeking the Unknown|QID|64224|M|34.88,64.76|Z|1970;Zereth Mortis|N|To Pelagos.|
 A Finding Firim|QID|64225|PRE|64224|M|34.88,64.76|Z|1970;Zereth Mortis|N|From Pelagos.|
-C Finding Firim|QID|64225|M|36.71,54.91|Z|1970;Zereth Mortis|QO|1|NC|N|Xevveth found.|
-C Finding Firim|QID|64225|M|36.78,55.20|Z|1970;Zereth Mortis|QO|2|NC|N|Body investigated.|
-C Finding Firim|QID|64225|M|35.84,45.36|Z|1970;Zereth Mortis|QO|3|NC|N|Firim's cave found.|
-f Faith's Repose|QID|64225|M|35.66,44.49|Z|1970;Zereth Mortis|
-C Finding Firim|QID|64225|M|34.11,47.20|Z|1970;Zereth Mortis|QO|4|NC|N|Firim located.|
-T Finding Firim|QID|64225|M|34.55,48.10|Z|1970;Zereth Mortis|N|To Firim.|
-A Unseen Agents|QID|64227|PRE|64225|M|34.55,48.10|Z|1970;Zereth Mortis|N|From Firim.|
-A Security Measures|QID|64226|PRE|64225|M|34.55,48.10|Z|1970;Zereth Mortis|N|From Firim.|
-C Security Measures|QID|64226|M|34.37,48.28|Z|1970;Zereth Mortis|QO|1|NC|N|Sensory Synchronizer used.|
-C Security Measures|QID|64226|M|39.57,47.60|Z|1970;Zereth Mortis|QO|2|NC|N|Click the glowing circles on the ground till this completes.|S|
+C Finding Firim|QID|64225|M|36.83,55.29|Z|1970;Zereth Mortis|QO|1|NC|N|Xevveth found.|
+C Finding Firim|QID|64225|M|36.83,55.29|Z|1970;Zereth Mortis|QO|2|NC|N|Body investigated.|
+f Faith's Repose|QID|64225|M|35.62,44.33|Z|1970;Zereth Mortis|N|Collect the flightpath before you enter the cave.|
+C Finding Firim|QID|64225|M|34.95,45.69|Z|1970;Zereth Mortis|QO|3|NC|N|Firim's cave is through a weird shimmering barrier.|
+C Finding Firim|QID|64225|M|34.59,48.15|Z|1970;Zereth Mortis|QO|4|NC|N|Walk down into the cave.|
+T Finding Firim|QID|64225|M|34.59,48.15|Z|1970;Zereth Mortis|N|To Firim.|
+A Unseen Agents|QID|64227|PRE|64225|M|34.59,48.15|Z|1970;Zereth Mortis|N|From Firim.|
+A Security Measures|QID|64226|PRE|64225|M|34.59,48.15|Z|1970;Zereth Mortis|N|From Firim.|
+C Security Measures|QID|64226|M|34.34,48.20|Z|1970;Zereth Mortis|QO|1|NC|N|Click on the Sensory Synchronizer.|
+C Security Measures|QID|64226|M|39.57,47.60|Z|1970;Zereth Mortis|QO|2|NC|N|Click the glowing circles on the ground until this completes.|S|
 C Unseen Agents|QID|64227|M|38.43,46.09|Z|1970;Zereth Mortis|QO|2|N|Xy'anath slain.|T|Xy'anath|
-C Unseen Agents|QID|64227|M|36.81,50.70|Z|1970;Zereth Mortis|QO|1|N|Xy'varek slain.|T|Xy'varek|
 C Unseen Agents|QID|64227|M|39.19,47.85|Z|1970;Zereth Mortis|QO|3|N|Xy'bok slain.|T|Xy'bok|
-C Security Measures|QID|64226|M|39.57,47.60|Z|1970;Zereth Mortis|QO|2|NC|N|Click the glowing circles on the ground till this completes.|US|
-T Unseen Agents|QID|64227|M|34.04,47.98|Z|1970;Zereth Mortis|N|To Firim.|
-T Security Measures|QID|64226|M|34.04,47.98|Z|1970;Zereth Mortis|N|To Firim.|
-A Now You May Speak|QID|64228|PRE|64227&64226|M|34.04,47.98|Z|1970;Zereth Mortis|N|From Firim.|
-C Now You May Speak|QID|64228|M|34.04,47.98|Z|1970;Zereth Mortis|QO|1|CHAT|N|Talk to Firim.|
+C Unseen Agents|QID|64227|M|36.81,50.70|Z|1970;Zereth Mortis|QO|1|N|Xy'varek slain.|T|Xy'varek|
+C Security Measures|QID|64226|M|39.57,47.60|Z|1970;Zereth Mortis|QO|2|NC|N|Click the glowing circles on the ground until this completes.|US|
+T Unseen Agents|QID|64227|M|34.04,48.13|Z|1970;Zereth Mortis|N|To Firim.|
+T Security Measures|QID|64226|M|34.04,48.13|Z|1970;Zereth Mortis|N|To Firim.|
+A Now You May Speak|QID|64228|PRE|64227&64226|M|34.04,48.13|Z|1970;Zereth Mortis|N|From Firim.|
+C Now You May Speak|QID|64228|M|34.04,48.13|Z|1970;Zereth Mortis|QO|1|CHAT|N|Talk to Firim.|
 C Now You May Speak|QID|64228|M|33.79,49.42|Z|1970;Zereth Mortis|QO|2|NC|N|Examine the Console.|
-T Now You May Speak|QID|64228|M|34.08,48.16|Z|1970;Zereth Mortis|N|To Firim.|
-A Surveying Cyphers|QID|65149|PRE|64228|M|34.08,48.16|Z|1970;Zereth Mortis|N|From Firim.|
-C Surveying Cyphers|QID|65149|M|38.87,48.50|Z|1970;Zereth Mortis|QO|1|NC|N|West Concordance examined.|
-C Surveying Cyphers|QID|65149|M|32.35,62.80|Z|1970;Zereth Mortis|QO|2|NC|N|Southwest Concordance examined.|
-C Surveying Cyphers|QID|65149|M|49.27,71.58|Z|1970;Zereth Mortis|QO|3|NC|N|South Concordance examined.|
-C Surveying Cyphers|QID|65149|M|52.46,63.08|Z|1970;Zereth Mortis|QO|4|NC|N|Location found.|
-C Surveying Cyphers|QID|65149|M|52.78,63.33|Z|1970;Zereth Mortis|QO|5|N|Maw Frenzied Lupine slain.|
-C Surveying Cyphers|QID|65149|M|53.25,63.86|Z|1970;Zereth Mortis|QO|6|NC|N|Dormant Echoism attuned.|
-T Surveying Cyphers|QID|65149|M|34.04,48.02|Z|1970;Zereth Mortis|N|To Firim.|
-A Cyphers of the First Ones|QID|64230|PRE|65149|M|34.04,48.02|Z|1970;Zereth Mortis|N|From Firim.|
-C Cyphers of the First Ones|QID|64230|M|33.78,49.40|Z|1970;Zereth Mortis|QO|1|NC|N|Cypher Console examined.|
-C Cyphers of the First Ones|QID|64230|M|33.78,49.40|Z|1970;Zereth Mortis|QO|2|NC|N|Metrial Unlocked.|
-T Cyphers of the First Ones|QID|64230|M|34.03,48.18|Z|1970;Zereth Mortis|N|To Firim.|
-A Further Research: Aealic|QID|65431|PRE|64230|M|34.04,48.11|Z|1970;Zereth Mortis|N|From Firim.|
-A The Necessity Of Equipment|QID|65749|PRE|64230|M|34.04,48.11|Z|1970;Zereth Mortis|N|From Firim.|
+T Now You May Speak|QID|64228|M|34.04,48.13|Z|1970;Zereth Mortis|N|To Firim.|
+A Surveying Cyphers|QID|65149|PRE|64228|M|34.04,48.13|Z|1970;Zereth Mortis|N|From Firim.|
+C Surveying Cyphers|QID|65149|M|38.87,48.65|Z|1970;Zereth Mortis|QO|1|NC|N|Click on the West Concordance.|
+C Surveying Cyphers|QID|65149|M|32.26,62.81|Z|1970;Zereth Mortis|QO|2|NC|N|Click on the Southwest Concordance.|
+C Surveying Cyphers|QID|65149|M|49.31,71.49|Z|1970;Zereth Mortis|QO|3|NC|N|Click on the South Concordance.|
+C Surveying Cyphers|QID|65149|M|51.87,62.81|Z|1970;Zereth Mortis|QO|4|NC|N|Find the entrance to the cave below at the foot of the mountainside.|
+C Surveying Cyphers|QID|65149|M|53.16,63.90|Z|1970;Zereth Mortis|QO|5|N|Kill the Maw Frenzied Lupine.|
+C Surveying Cyphers|QID|65149|M|53.30,63.91|Z|1970;Zereth Mortis|QO|6|NC|N|Click on the Dormant Echoism.|
+T Surveying Cyphers|QID|65149|M|34.04,48.12|Z|1970;Zereth Mortis|N|To Firim.|
+A Cyphers of the First Ones|QID|64230|PRE|65149|M|34.04,48.12|Z|1970;Zereth Mortis|N|From Firim.|
+C Cyphers of the First Ones|QID|64230|M|33.76,49.50|Z|1970;Zereth Mortis|QO|1|NC|N|Cypher Console examined.|
+C Cyphers of the First Ones|QID|64230|M|33.76,49.50|Z|1970;Zereth Mortis|QO|2|NC|N|Metrial Unlocked.|
+T Cyphers of the First Ones|QID|64230|M|34.04,48.12|Z|1970;Zereth Mortis|N|To Firim.|
+A Further Research: Aealic|QID|65431|PRE|64230|M|34.04,48.12|Z|1970;Zereth Mortis|N|From Firim.|
+A The Necessity Of Equipment|QID|65749|PRE|64230|M|34.04,48.12|Z|1970;Zereth Mortis|N|From Firim.|
 C The Necessity Of Equipment|QID|65749|M|34.14,48.84|Z|1970;Zereth Mortis|NC|N|Pick up the paper on the desk.|
-C Further Research: Aealic|QID|65431|M|33.76,49.44|Z|1970;Zereth Mortis|QO|1|NC|N|Aelic advancements investigated.|
-T Further Research: Aealic|QID|65431|M|34.04,48.11|Z|1970;Zereth Mortis|N|To Firim.|
+C Further Research: Aealic|QID|65431|M|33.76,49.49|Z|1970;Zereth Mortis|QO|1|NC|N|Click the console again and investigate Aelic advancements.|
+T Further Research: Aealic|QID|65431|M|34.04,48.12|Z|1970;Zereth Mortis|N|To Firim.|
 A The Way Forward|QID|65305|PRE|64230|M|33.99,47.97|Z|1970;Zereth Mortis|N|From Pelagos.|
-F Haven|ACTIVE|65305|M|35.64,44.36|Z|1970;Zereth Mortis|N|Head to the flightmaster and take a flight to Haven.|
+F Haven|ACTIVE|65305|M|35.64,44.36|Z|1970;Zereth Mortis|N|Head to the translocator and travel to Haven.|
 C The Way Forward|QID|65305|M|35.64,44.36|Z|1970;Zereth Mortis|QO|1|NC|N|Take the Translocator to Haven (Optional).|
 T The Way Forward|QID|65305|M|35.02,64.75|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 
