@@ -130,7 +130,7 @@ A Seeking Haven|QID|64825|PRE|64824|M|57.32,53.61|Z|1970;Zereth Mortis|N|From La
 C Seeking Haven|QID|64825|M|57.12,53.69|Z|1970;Zereth Mortis|NC|N|Portal to Haven taken.|
 T Seeking Haven|QID|64825|M|34.94,64.68|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 
-;Ch 3 
+;Ch 3
 A Danger Near and Far|QID|64218|PRE|64825|M|35.24,65.09|Z|1970;Zereth Mortis|N|From Pelagos.|
 C Danger Near and Far|QID|64218|M|40.15,76.63|Z|1970;Zereth Mortis|NC|N|Investigate Genesis Fields.|
 T Danger Near and Far|QID|64218|M|40.15,76.63|Z|1970;Zereth Mortis|NC|N|To Pelagos.|
