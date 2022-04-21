@@ -64,7 +64,7 @@ A Test of Faith|QID|1149|M|53.94,41.49|Z|1441|N|From Dorn Plainstalker inside th
 R Test of Faith|ACTIVE|1149|M|26.43,32.39|CC|Z|1441|N|Run and jump off the planks sticking out.\n[color=FF0000]NOTE: [/color]Don't worry. You'll be teleported back to the cave before you land.|
 N Failed|ACTIVE|1149|N|If you died, you jumped from the wrong spot. Abandon the quest to restart it.|IZ|-The Weathered Nook|
 T Test of Faith|QID|1149|M|53.94,41.49|Z|1441|N|To Dorn Plainstalker.|
-A Test of Endurance|QID|1150|M|53.60,42.82|Z|1441|ELITE|N|[color=00FFFF]Group suggested or level up to solo[/color]\nFrom Dorn Plainstalker.|
+A Test of Endurance|QID|1150|M|53.94,41.49|Z|1441|ELITE|N|[color=00FFFF]Group suggested or level up to solo[/color]\nFrom Dorn Plainstalker.|
 C Alien Egg|QID|4821|M|56.34,50.39;52.35,55.22|CN|Z|1441|L|12467|N|Look for the Alien Egg on the ground at one of two locations. There is a rumor of a third location. They have a fairly long respawn timer.|
 R Freewind Post|ACTIVE|4821|M|46.84,47.18|Z|1441|N|Run back to Freewind and take the lift up.|
 T Alien Egg|QID|4821|M|44.64,50.30|Z|1441|N|To Hagar Lightninghoof.|
@@ -130,23 +130,23 @@ R Whitereach Post|ACTIVE|5088|M|21.05,32.32|Z|1441|N|Make your way back down to 
 T Arikara|QID|5088|M|21.55,32.34|Z|1441|N|To Motega Firemane.|
 C Hypercapacitor Gizmo|QID|5151|M|21.8,26.8;22.81,24.45|CC|Z|1441|QO|1|N|Clear the area of any and all mobs and when you're ready, open the cage and prepare to fight.|
 R Whitereach Post|ACTIVE|5151|M|22.28,31.56|Z|1441|N|Run back to Whitereach Post.|
-C Steelsnap|QID|1131|M|13.54,19.88|Z|1441|N|Find Steelsnap patrolling the area NW of the Great Lift. Kill him and loot Steelsnap's Rib.\n[color=FF0000]NOTE: [/color]He is lv 30 and travels with 2 other lv 29 hyenas. None of them are elite.\nMuch like the Galak Messenger, if you just wait here facing east (towards Camp E'thok), he will come to you. At this location, there are no other mobs to worry about.|
+K Steelsnap|ACTIVE|1131|M|13.54,19.88|Z|1441|L|5837|N|Find Steelsnap patrolling the area NW of the Great Lift; kill him and loot the Rib.\n[color=FF0000]NOTE: [/color]He is lv 30 and travels with 2 other lv 29 hyenas. None of them are elite.\nMuch like the Galak Messenger, if you just wait here facing east (towards Camp E'thok), he will come to you. At this location, there are no other mobs to worry about.|
 R Roguefeather Den|ACTIVE|1150|M|27.47,49.57;27.44,51.07|CC|Z|1441|N|Make your way to The Screeching Canyon and walk up the ramp to Roguefeather Den.|
-C Test of Endurance|QID|1150|M|26,55.4|Z|1441|N|Work your way to the back of the cave. Break the crates ONE at a time. Every time you break a crate, a group of 3-4 various harpies will spawn. Always kill the Harpy first, the Windcaller second and then whatever is left last. Make sure you clear them before breaking the next crate. Breaking the third crate will spawn a final group with Grenka. Kill her and loot Grenka's Claw. Killing Grenka should be your priority.\n\n You can heal up between breaking crates. But, the longer it takes you, the more you risk the original group respawning. If that happens, kill them before you break the next crate.\n[color=FF0000]NOTE: [/color]You can get lucky sometimes and Grenka has already spawned. If that's the case, focus your attack on killing her first.|
-H Freewind Post|ACTIVE|1150|N|Unless you plan on fighting your way out, run to the VERY back of the cave beside the crates. There is a small nook in the wall where nothing can attack you, even if they are aggroed. Jump up into the nook and use your hearthstone in there.|
-R The Weathered Nook|ACTIVE|1150|M|54.66,44.61|
-T Test of Endurance|QID|1150|M|53.90,41.60|Z|1441|N|To Dorn Plainstalker.|
-A Test of Strength|QID|1151|M|53.90,41.60|Z|1441|N|From Dorn Plainstalker.|PRE|1150|
-R Highperch|ACTIVE|1151|M|44.85,58.81;29.67,51.23;18.04,37.81|CC|Z|1441|
-C Test of Strength|QID|1151|M|17.27,37.07|Z|1441|QO|1|N|Continue west until you find Rok'Alim. Kill him and loot the fragments.|
-R The Weathered Nook|ACTIVE|1151|M|54.66,44.61|Z|1441|N|Choose your own path back.|
-T Test of Strength|QID|1151|M|53.60,42.82|Z|1441|N|To Dorn Plainstalker.|
-A Test of Lore|QID|1152|M|53.60,42.82|Z|1441|N|From Dorn Plainstalker.|PRE|1151|
+K Grenka Bloodscreech|ACTIVE|1150|M|26,55.4|Z|1441|L|9843|N|Work your way to the back of the cave. After you clear the area, break one of the crates until Grenka Bloodscreech spawns. Kill her and loot the Claw.|
+H Freewind Post|ACTIVE|1150|M|26.05,54.53|Z|1441|N|Unless you plan on fighting your way out, run to the VERY back of the cave beside the crates.  Jump up into the small nook in the wall and use your hearthstone in there.\n[color=FF0000]NOTE: [/color]Nothing can attack YOU inside the nook, even if they are aggroed.|
+R The Weathered Nook|ACTIVE|1150|M|53.67,42.74|
+T Test of Endurance|QID|1150|M|53.94,41.49|Z|1441|N|To Dorn Plainstalker.|
+A Test of Strength|QID|1151|M|53.94,41.49|Z|1441|N|From Dorn Plainstalker.|PRE|1150|
+R Highperch area|ACTIVE|1151|M|44.85,58.81;29.67,51.23;18.04,37.81|CC|Z|1441|N|\n[color=FF0000]NOTE: [/color]If you stay high up on the south edge of the canyon wall, you can avoid most of the fights.|
+K Rok'Alim the Pounder|QID|1151|M|17.27,37.07|Z|1441|L|5844|N|Continue west until you find Rok'Alim; kill him and loot the Fragments.|
+R The Weathered Nook|ACTIVE|1151|M|53.67,42.74|Z|1441|N|Choose your own path back.|
+T Test of Strength|QID|1151|M|53.94,41.49|Z|1441|N|To Dorn Plainstalker.|
+A Test of Lore|QID|1152|M|53.94,41.49|Z|1441|N|From Dorn Plainstalker.|PRE|1151|
 C A New Ore Sample|QID|1153|N|Kill Gravelsnout Surveyors and Diggers until one drops an Unrefined Ore Sample. They are spread out over the east and west ends of Thousand Needles.|US|
 
 ; --- The Barrens
-R Freewind Post|ACTIVE|1153|M|46.84,47.18|Z|1441|N|Run back to Freewind and take the lift up.|
-F Camp Taurajo|ACTIVE|1153|M|46.14,51.70|Z|1413|
+R Freewind Post|ACTIVE|1153|M|46.84,47.18|Z|1441|
+F Camp Taurajo|ACTIVE|1153|M|45.14,49.10|Z|1441|
 T A New Ore Sample|QID|1153|M|45.10,57.69|Z|1413|N|To Tatternack Steelforge.|
 
 ; --- Thunder Bluff
@@ -156,7 +156,7 @@ A Frostmaw|QID|1136|M|61.53,80.89|Z|1456|N|From Melor Stonehoof.|PRE|1131|
 
 ; --- Stonetalon Mountains
 F Sun Rock Retreat|ACTIVE|1152|M|47.02,49.83|Z|1456|
-R Windshear Crag|ACTIVE|1152|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|Z|1442|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
+R Windshear Crag|ACTIVE|1152|M|53.2,61.7;59.97,71.14|CC|Z|1442|N|Exit Sun Rock Retreat and follow the road south to the Windshear Crag sign.\n[color=FF0000]NOTE: [/color]If you don't mind a little falling damage, you can drop off the cliff by the graveyard.|
 R The Talondeep Path|ACTIVE|1152|M|76.75,45.34|Z|1442|N|Head to the northeast corner of Windshear Crag.|
 T Test of Lore|QID|1152|M|78.79,45.67|Z|1442|N|To Braug Dimspirit.|
 A Test of Lore|QID|1154|M|78.79,45.67|Z|1442|N|From Braug Dimspirit.|PRE|1152|
