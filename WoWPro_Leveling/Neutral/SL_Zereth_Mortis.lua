@@ -188,77 +188,79 @@ C The Way Forward|QID|65305|M|35.64,44.36|Z|1970;Zereth Mortis|QO|1|NC|N|Take th
 T The Way Forward|QID|65305|M|35.02,64.75|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 
 ;CH4
-A News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Uther the Lightbringer.|
-C News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Uther.|
-T News from Oribos|QID|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
-A Enlisting the Enlightened|QID|64830|PRE|65335|M|34.90,64.70|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
+A News from Oribos|QID|65335|M|34.96,64.70|Z|1970;Zereth Mortis|N|From Uther the Lightbringer.|
+C News from Oribos|QID|65335|M|34.96,64.70|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Uther.|
+T News from Oribos|QID|65335|M|34.98,64.76|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+A Enlisting the Enlightened|QID|64830|PRE|65335|M|34.98,64.76|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 C Enlisting the Enlightened|QID|64830|M|34.86,64.95|Z|1970;Zereth Mortis|QO|1|CHAT|N|Elder Zoor consulted.|
-C Enlisting the Enlightened|QID|64830|M|34.90,64.86|Z|1970;Zereth Mortis|QO|2|CHAT|N|Elder Kreth consulted.|
-C Enlisting the Enlightened|QID|64830|M|34.82,64.78|Z|1970;Zereth Mortis|QO|3|CHAT|N|Elder Ara consulted.|
-T Enlisting the Enlightened|QID|64830|M|34.83,64.80|Z|1970;Zereth Mortis|N|To Elder Ara.|
-A Forging Unity from Diversity|QID|64833|PRE|64830|M|34.83,64.80|Z|1970;Zereth Mortis|N|From Elder Ara.|
-T Forging Unity from Diversity|QID|64833|M|56.21,57.78|Z|1970;Zereth Mortis|N|To Elder Ara.|
-A Remnants of the First Ones|QID|64831|PRE|64833|M|56.21,57.78|Z|1970;Zereth Mortis|N|From Elder Ara.|
-A Reclaiming Provis Esper|QID|64832|PRE|64833|M|56.21,57.78|Z|1970;Zereth Mortis|N|From Unknown.|
+C Enlisting the Enlightened|QID|64830|M|34.85,64.88|Z|1970;Zereth Mortis|QO|2|CHAT|N|Elder Kreth consulted.|
+C Enlisting the Enlightened|QID|64830|M|34.78,64.83|Z|1970;Zereth Mortis|QO|3|CHAT|N|Elder Ara consulted.|
+T Enlisting the Enlightened|QID|64830|M|34.78,64.83|Z|1970;Zereth Mortis|N|To Elder Ara.|
+A Forging Unity from Diversity|QID|64833|PRE|64830|M|34.78,64.83|Z|1970;Zereth Mortis|N|From Elder Ara.|
+T Forging Unity from Diversity|QID|64833|M|56.20,57.87|Z|1970;Zereth Mortis|N|To Elder Ara.|
+A Remnants of the First Ones|QID|64831|PRE|64833|M|56.20,57.87|Z|1970;Zereth Mortis|N|From Elder Ara.|
+A Reclaiming Provis Esper|QID|64832|PRE|64833|M|56.20,57.87|Z|1970;Zereth Mortis|N|From Elder Ara.|
 C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|Z|1970;Zereth Mortis|N|Kill Reality Breachers.|S|
 C Remnants of the First Ones|QID|64831|M|54.86,49.38|Z|1970;Zereth Mortis|QO|1<1|NC|N|Click on the bird.|
-C Remnants of the First Ones|QID|64831|M|52.75,51.93|Z|1970;Zereth Mortis|QO|1<2|NC|N|Click on the pile of rubble.|
+C Remnants of the First Ones|QID|64831|M|52.77,51.87|Z|1970;Zereth Mortis|QO|1<2|NC|N|Click on the pile of rubble.|
 C Remnants of the First Ones|QID|64831|M|53.11,59.70|Z|1970;Zereth Mortis|QO|1<3|NC|N|Beat up Zarenak The Soulstealer.|
 C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|Z|1970;Zereth Mortis|N|Finish cleaning up whatever mobs you have left.|US|
 T Remnants of the First Ones|QID|64831|M|PLAYER|Z|1970;Zereth Mortis|N|To Elder Ara.|
 T Reclaiming Provis Esper|QID|64832|M|PLAYER|Z|1970;Zereth Mortis|N|To Elder Ara.|
 A The Pilgrim's Journey|QID|64837|PRE|64832|M|PLAYER|Z|1970;Zereth Mortis|N|From Elder Ara.|
-T The Pilgrim's Journey|QID|64837|M|61.31,51.38|Z|1970;Zereth Mortis|N|To Elder Ara.|
-A Glow and Behold|QID|64834|PRE|64837|M|61.31,51.38|Z|1970;Zereth Mortis|N|From Elder Ara.|
-f Pilgrim's Grace|ACTIVE|64834|M|61.54,50.33|Z|1970;Zereth Mortis|N|At Elder Ara.|
-C Glow and Behold|QID|64834|M|64.64,53.57|Z|1970;Zereth Mortis|QO|1|NC|N|Find Progenitor Fragment attractant.|
-C Glow and Behold|QID|64834|M|64.81,53.56|Z|1970;Zereth Mortis|QO|2|NC|N|Ancient Translocator used.|
-C Glow and Behold|QID|64834|M|64.74,53.56|Z|1970;Zereth Mortis|QO|3|NC|N|Progenitor Fragments retrieved.|
-T Glow and Behold|QID|64834|M|64.74,53.70|Z|1970;Zereth Mortis|N|To Elder Ara.|
-A Where There's a Pilgrim, There's a Way|QID|64838|PRE|64834|M|64.74,53.70|Z|1970;Zereth Mortis|N|From Elder Ara.|
-C Where There's a Pilgrim, There's a Way|QID|64838|M|61.29,51.55|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak with Elder Nirav.|
-C Where There's a Pilgrim, There's a Way|QID|64838|M|61.08,49.21|Z|1970;Zereth Mortis|QO|2|CHAT|N|Speak with Faruu.|
-C Where There's a Pilgrim, There's a Way|QID|64838|M|61.42,49.26|Z|1970;Zereth Mortis|QO|3|CHAT|N|Speak with Drim.|
-T Where There's a Pilgrim, There's a Way|QID|64838|M|61.09,50.55|Z|1970;Zereth Mortis|N|To Elder Ara.|
-A In the Weeds|QID|64969|PRE|64838|M|61.09,50.55|Z|1970;Zereth Mortis|N|From Elder Ara.|
-T In the Weeds|QID|64969|M|48.06,75.09|Z|1970;Zereth Mortis|N|To Elder Ara.|
-A Nip It in the Bud|QID|64836|PRE|64969|M|48.06,75.09|Z|1970;Zereth Mortis|N|From Elder Ara.|
-A Root of the Problem|QID|64839|PRE|64969|M|48.06,75.09|Z|1970;Zereth Mortis|N|From Feroz.|
-A Pluck from the Vines|QID|64835|PRE|64969|M|48.06,75.09|Z|1970;Zereth Mortis|N|From Feroz.|
+T The Necessity Of Equipment|QID|65749|M|60.54,51.13|Z|1970;Zereth Mortis|N|To Rafiq.|
+T The Pilgrim's Journey|QID|64837|M|61.28,51.44|Z|1970;Zereth Mortis|N|To Elder Ara.|
+A Glow and Behold|QID|64834|PRE|64837|M|61.28,51.44|Z|1970;Zereth Mortis|N|From Elder Ara.|
+f Pilgrim's Grace|ACTIVE|64834|M|61.61,50.21|Z|1970;Zereth Mortis|N|Collect the Flightpath.|
+C Glow and Behold|QID|64834|M|64.88,53.55|Z|1970;Zereth Mortis|QO|1|NC|N|Find Progenitor Fragment attractant.|
+C Glow and Behold|QID|64834|M|64.88,53.55|Z|1970;Zereth Mortis|QO|2|NC|N|Click on the Ancient Translocator.|
+C Glow and Behold|QID|64834|M|64.76,53.54|Z|1970;Zereth Mortis|QO|3|NC|N|Progenitor Fragments retrieved.|
+T Glow and Behold|QID|64834|M|64.73,53.79|Z|1970;Zereth Mortis|N|To Elder Ara.|
+A Where There's a Pilgrim, There's a Way|QID|64838|PRE|64834|M|64.73,53.79|Z|1970;Zereth Mortis|N|From Elder Ara.|
+C Where There's a Pilgrim, There's a Way|QID|64838|M|61.25,51.58|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak with Elder Nirav.|
+C Where There's a Pilgrim, There's a Way|QID|64838|M|61.07,49.14|Z|1970;Zereth Mortis|QO|2|CHAT|N|Speak with Faruu.|
+C Where There's a Pilgrim, There's a Way|QID|64838|M|61.49,49.18|Z|1970;Zereth Mortis|QO|3|CHAT|N|Speak with Drim.|
+T Where There's a Pilgrim, There's a Way|QID|64838|M|61.10,50.68|Z|1970;Zereth Mortis|N|To Elder Ara.|
+A In the Weeds|QID|64969|PRE|64838|M|61.10,50.68|Z|1970;Zereth Mortis|N|From Elder Ara.|
+T In the Weeds|QID|64969|M|48.16,75.12|Z|1970;Zereth Mortis|N|To Elder Ara.|
+A Nip It in the Bud|QID|64836|PRE|64969|M|48.16,75.12|Z|1970;Zereth Mortis|N|From Elder Ara.|
+A Root of the Problem|QID|64839|PRE|64969|M|48.07,75.14|Z|1970;Zereth Mortis|N|From Feroz.|
+A Pluck from the Vines|QID|64835|PRE|64969|M|48.07,75.14|Z|1970;Zereth Mortis|N|From Feroz.|
 C Pluck from the Vines|QID|64835|M|50.73,81.22|Z|1970;Zereth Mortis|NC|N|Missing Pilgrims rescued.|S|
 C Root of the Problem|QID|64839|M|51.32,80.04|Z|1970;Zereth Mortis|N|Energized Roots.|S|
-C Nip It in the Bud|QID|64836|M|52.66,82.24|Z|1970;Zereth Mortis|N|The Cultivator slain.|
+C Nip It in the Bud|QID|64836|M|49.67,76.97|Z|1970;Zereth Mortis|QO|1|NC|N|Click on the vines to expose the terminal that opens the door.|
+C Nip It in the Bud|QID|64836|M|52.66,82.24|Z|1970;Zereth Mortis|QO|2|N|Kill the Cultivator.|
 C Pluck from the Vines|QID|64835|M|50.73,81.22|Z|1970;Zereth Mortis|QO|2|NC|N|Missing Pilgrims rescued.|US|
 C Root of the Problem|QID|64839|M|51.32,80.04|Z|1970;Zereth Mortis|QO|2|NC|N|Energized Roots.|US|
-T Root of the Problem|QID|64839|M|47.60,79.85|Z|1970;Zereth Mortis|N|To Feroz.|
-T Pluck from the Vines|QID|64835|M|47.60,79.85|Z|1970;Zereth Mortis|N|To Feroz.|
-T Nip It in the Bud|QID|64836|M|47.60,79.95|Z|1970;Zereth Mortis|N|To Elder Ara.|
-A Unchecked Growth|QID|64840|PRE|64839&64835&64836|M|47.62,79.88|Z|1970;Zereth Mortis|N|From Feroz.|
-A Herbal Remedies|QID|65331|PRE|64839&64835&64836|M|47.62,79.88|Z|1970;Zereth Mortis|N|From Feroz.|
-A Take Charge|QID|64841|PRE|64839&64835&64836|M|47.60,80.23|Z|1970;Zereth Mortis|N|From General Draven.|
+T Nip It in the Bud|QID|64836|M|47.66,79.98|Z|1970;Zereth Mortis|N|To Elder Ara.|
+T Root of the Problem|QID|64839|M|47.67,79.87|Z|1970;Zereth Mortis|N|To Feroz.|
+T Pluck from the Vines|QID|64835|M|47.67,79.87|Z|1970;Zereth Mortis|N|To Feroz.|
+A Herbal Remedies|QID|65331|PRE|64839&64835&64836|M|47.67,79.87|Z|1970;Zereth Mortis|N|From Feroz.|
+A Unchecked Growth|QID|64840|PRE|64839&64835&64836|M|47.67,79.87|Z|1970;Zereth Mortis|N|From Feroz.|
+A Take Charge|QID|64841|PRE|64839&64835&64836|M|47.60,80.32|Z|1970;Zereth Mortis|N|From General Draven.|
 C Herbal Remedies|QID|65331|M|45.70,95.01|Z|1970;Zereth Mortis|U|189433|N|Sentient Overgrowth slain.|S|
 C Unchecked Growth|QID|64840|M|45.80,95.22|Z|1970;Zereth Mortis|NC|N|Replicating Essence.|S|
-C Take Charge|QID|64841|M|44.20,88.36|Z|1970;Zereth Mortis|QO|1|NC|N|West Console discharged.|
-C Take Charge|QID|64841|M|51.65,90.91|Z|1970;Zereth Mortis|QO|2|NC|N|East Console discharged.|
+C Take Charge|QID|64841|M|44.25,88.39|Z|1970;Zereth Mortis|QO|1|NC|N|West Console discharged.|
+C Take Charge|QID|64841|M|51.61,91.02|Z|1970;Zereth Mortis|QO|2|NC|N|East Console discharged.|
 C Herbal Remedies|QID|65331|M|45.70,95.01|Z|1970;Zereth Mortis|U|189433|N|Sentient Overgrowth slain.|US|
 C Unchecked Growth|QID|64840|M|45.80,95.22|Z|1970;Zereth Mortis|QO|1|NC|N|Replicating Essence.|US|
-T Take Charge|QID|64841|M|47.53,80.24|Z|1970;Zereth Mortis|N|To General Draven.|
-T Herbal Remedies|QID|65331|M|47.61,79.87|Z|1970;Zereth Mortis|N|To Feroz.|
-T Unchecked Growth|QID|64840|M|47.61,79.87|Z|1970;Zereth Mortis|N|To Feroz.|
-A Flora Frenzy|QID|64842|PRE|64841&65331&64840|M|47.61,79.85|Z|1970;Zereth Mortis|N|From Feroz.|
-C Flora Frenzy|QID|64842|M|47.64,79.78|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Feroz.|
+T Take Charge|QID|64841|M|47.60,80.32|Z|1970;Zereth Mortis|N|To General Draven.|
+T Herbal Remedies|QID|65331|M|47.67,79.87|Z|1970;Zereth Mortis|N|To Feroz.|
+T Unchecked Growth|QID|64840|M|47.67,79.87|Z|1970;Zereth Mortis|N|To Feroz.|
+A Flora Frenzy|QID|64842|PRE|64841&65331&64840|M|47.67,79.87|Z|1970;Zereth Mortis|N|From Feroz.|
+C Flora Frenzy|QID|64842|M|47.67,79.87|Z|1970;Zereth Mortis|QO|1|CHAT|N|Speak to Feroz.|
 C Flora Frenzy|QID|64842|M|47.39,93.41|Z|1970;Zereth Mortis|QO|2|NC|N|Use the extra action button to help you kill the required monsters. It will switch between three states. Use it on cool down.|EAB|
-T Flora Frenzy|QID|64842|M|47.62,79.94|Z|1970;Zereth Mortis|N|To Feroz.|
-A Key Crafting|QID|64843|PRE|64842|M|47.56,80.23|Z|1970;Zereth Mortis|N|From General Draven.|
-C Key Crafting|QID|64843|M|47.44,87.10|Z|1970;Zereth Mortis|QO|1|NC|N|Take a ride on General Draven.|
-C Key Crafting|QID|64843|M|47.45,88.55|Z|1970;Zereth Mortis|QO|2|NC|N|Creation Catalyst console activated.|
-C Key Crafting|QID|64843|M|47.31,89.06|Z|1970;Zereth Mortis|QO|3|NC|N|Key of Afterlives restored.|
-C Key Crafting|QID|64843|M|47.40,88.61|Z|1970;Zereth Mortis|QO|4|NC|N|Keystones retrieved.|
-T Key Crafting|QID|64843|M|47.37,88.57|Z|1970;Zereth Mortis|N|To Elder Ara.|
-A The Pilgrimage Ends|QID|64844|PRE|64843|M|47.37,88.57|Z|1970;Zereth Mortis|N|From Elder Ara.|
-C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|1|NC|N|Return to the overlook.|
-C The Pilgrimage Ends|QID|64844|M|64.53,53.46|Z|1970;Zereth Mortis|QO|2|CHAT|N|Talk to Highlord Bolvar Fordragon and listen to the plan.|
-T The Pilgrimage Ends|QID|64844|M|64.65,53.29|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+T Flora Frenzy|QID|64842|M|47.69,79.87|Z|1970;Zereth Mortis|N|To Feroz.|
+A Key Crafting|QID|64843|PRE|64842|M|47.61,80.32|Z|1970;Zereth Mortis|N|From General Draven.|
+C Key Crafting|QID|64843|M|47.44,81.01|Z|1970;Zereth Mortis|QO|1|V|N|Take a ride on General Draven.|
+C Key Crafting|QID|64843|M|47.45,88.68|Z|1970;Zereth Mortis|QO|2|NC|N|Click on the Creation Catalyst console to activate it.|
+C Key Crafting|QID|64843|M|47.33,88.50|Z|1970;Zereth Mortis|QO|3|NC|N|Speak to Elder Ara and ask her to begin. Once the event starts, a holgram will appear of the of button you need to press. This will happen 6 times.|
+C Key Crafting|QID|64843|M|47.40,88.61|Z|1970;Zereth Mortis|QO|4|NC|N|Click on the floating fragments in front of the console.|
+T Key Crafting|QID|64843|M|47.34,88.51|Z|1970;Zereth Mortis|N|To Elder Ara.|
+A The Pilgrimage Ends|QID|64844|PRE|64843|M|47.34,88.51|Z|1970;Zereth Mortis|N|From Elder Ara.|
+C The Pilgrimage Ends|QID|64844|M|64.69,53.49|Z|1970;Zereth Mortis|QO|1|NC|N|Return to the overlook.|
+C The Pilgrimage Ends|QID|64844|M|64.69,53.49|Z|1970;Zereth Mortis|QO|2|CHAT|N|Talk to Highlord Bolvar Fordragon and listen to the plan.|
+T The Pilgrimage Ends|QID|64844|M|64.69,53.49|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 
 ;CH5
 A The Broken Crown|QID|64799|PRE|64844|M|35.05,64.81|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
@@ -557,7 +559,6 @@ C Can I Keep Him?|QID|65070|M|49.25,71.93|Z|1970;Zereth Mortis|QO|1|NC|N|Use the
 T Can I Keep Him?|QID|65070|M|49.25,71.80|Z|1970;Zereth Mortis|N|To Tamra.|
 C The Burrowed Bufonid|QID|65727|M|62.58,55.58|Z|1970;Zereth Mortis|N|From Avna.|S|
 C WANTED: Custos|QID|65735|M|57.92,56.52|Z|1970;Zereth Mortis|N|From Wanted Poster.|
-T The Necessity Of Equipment|QID|65749|M|60.54,51.05|Z|1970;Zereth Mortis|N|To Rafiq.|
 T WANTED: Custos|QID|65735|M|60.54,51.05|Z|1970;Zereth Mortis|N|To Rafiq.|
 C The Burrowed Bufonid|QID|65727|M|62.58,55.58|Z|1970;Zereth Mortis|N|From Avna.|US|
 T The Burrowed Bufonid|QID|65727|M|34.35,65.83|Z|1970;Zereth Mortis|N|From Avna.|

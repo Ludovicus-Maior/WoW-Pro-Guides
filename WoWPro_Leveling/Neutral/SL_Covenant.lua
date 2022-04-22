@@ -1184,9 +1184,9 @@ T The Highlord Calls|QID|63033|M|39.94,68.55|Z|1670;Ring of Fates@Oribos|N|To Hi
 N Renown Level 5|AVAILABLE|59701|N|You must reach Renown level 5 to continue to the next chapter.|COV|Venthyr|REN|-5|
 A Common Ground|QID|59701|M|51.77,37.49|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|62921|COV|Venthyr|REN|5|
 A The Princeguard|QID|61492|M|46.15,14.84|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|From General Draven.|PRE|62921|COV|Venthyr|REN|5|
-F Charred Ramparts|ACTIVE|61492|M|67.27,21.51|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|Fly to the Charred Ramparts.|COV|Venthyr|
-R Hole in the Wall|ACTIVE|61492|M|40.55,47.67|Z|1525;Revendreth|N|Run to the Hole in the Wall.|COV|Venthyr|
-R Darkwall Tower|ACTIVE|61492|M|42.07,47.15|Z|1525;Revendreth|N|Run to and take the lift up Darkwall Tower.|COV|Venthyr|
+F Charred Ramparts|ACTIVE|61492|M|67.27,21.51|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|Fly to the Charred Ramparts.|FLY|SHADOWLANDS|COV|Venthyr|
+R Hole in the Wall|ACTIVE|61492|M|40.55,47.67|Z|1525;Revendreth|N|Run to the Hole in the Wall.|FLY|SHADOWLANDS|COV|Venthyr|
+R Darkwall Tower|ACTIVE|61492|M|42.07,47.15|Z|1525;Revendreth|N|Run to and take the lift up Darkwall Tower.|FLY|SHADOWLANDS|COV|Venthyr|
 C The Princeguard|QID|61492|M|43.99,50.75|Z|1525;Revendreth|QO|1|NC|N|Click on Chelra the Bladewall to revive her.|COV|Venthyr|
 C The Princeguard|QID|61492|M|41.03,48.71|Z|1525;Revendreth|QO|2|N|Kill the Venthyr invaders.|S|COV|Venthyr|
 t The Princeguard|QID|61492|M|PLAYER|Z|1525;Revendreth|N|To Chelra the Bladewall.|COV|Venthyr|
@@ -1199,32 +1199,32 @@ T Common Ground|QID|59701|M|41.02,54.81|Z|1525;Revendreth|N|To Prince Renathal. 
 A Invitation for the Countess|QID|59706|M|41.02,54.81|Z|1525;Revendreth|N|From Prince Renathal.|PRE|61492&59701|COV|Venthyr|REN|5|
 A Invitation for the Tithelord|QID|59707|M|41.02,54.81|Z|1525;Revendreth|N|From Prince Renathal.|PRE|61492&59701|COV|Venthyr|REN|5|
 A Invitation for the Stonewright|QID|59708|M|41.02,54.81|Z|1525;Revendreth|N|From Prince Renathal.|PRE|61492&59701|COV|Venthyr|REN|5|
-F Pridefall Hamlet|ACTIVE|59707|M|38.95,49.33|Z|1525;Revendreth|N|Fly to Pridefall Hamlet. If you can glide, or slow fall down, here it's much faster.|COV|Venthyr|
+F Pridefall Hamlet|ACTIVE|59707|M|38.95,49.33|Z|1525;Revendreth|N|Fly to Pridefall Hamlet. If you can glide, or slow fall down, here it's much faster.|FLY|SHADOWLANDS|COV|Venthyr|
 T Invitation for the Tithelord|QID|59707|M|72.23,74.93|Z|1525;Revendreth|N|To Nadjia the Mistblade.|COV|Venthyr|
 A Harvester of Envy|QID|59711|M|72.23,74.93|Z|1525;Revendreth|N|From Nadjia the Mistblade.|PRE|59707|COV|Venthyr|REN|5|
 C Harvester of Envy|QID|59711|M|72.20,74.91|Z|1525;Revendreth|QO|1|NC|N|Click on Temel to take control.|COV|Venthyr|
 C Harvester of Envy|QID|59711|M|77.41,64.69|Z|1525;Revendreth|QO|2|NC|N|Deliver the message to the Tithelord.\n\n1: Flap wings to fly higher.\n\n2: Turn to Stone and drop agro.\n\n4: Return you back to Nadjia.|COV|Venthyr|
-F Old Gate|ACTIVE|59706|M|70.35,81.16|Z|1525;Revendreth|N|Press 4: "Escape!" to retun back to Nadjia. Mount up and run back to the flightpoint and choose Old Gate.|COV|Venthyr|
-R The Eternal Terrace Lift|ACTIVE|59706|M|57.38,33.44|Z|1525;Revendreth|N|Mount up and run back to the lift.|COV|Venthyr|
-R Bridge of Temptations|ACTIVE|59706|M|53.83,33.26|Z|1525;Revendreth|N|Run out to the Bridge of Temptations.|COV|Venthyr|
+F Old Gate|ACTIVE|59706|M|70.35,81.16|Z|1525;Revendreth|N|Press 4: "Escape!" to retun back to Nadjia. Mount up and run back to the flightpoint and choose Old Gate.|FLY|SHADOWLANDS|COV|Venthyr|
+R The Eternal Terrace Lift|ACTIVE|59706|M|57.38,33.44|Z|1525;Revendreth|N|Mount up and run back to the lift.|FLY|SHADOWLANDS|COV|Venthyr|
+R Bridge of Temptations|ACTIVE|59706|M|53.83,33.26|Z|1525;Revendreth|N|Run out to the Bridge of Temptations.|FLY|SHADOWLANDS|COV|Venthyr|
 T Invitation for the Countess|QID|59706|M|52.44,35.32|Z|1525;Revendreth|N|To Cudgelface.|COV|Venthyr|
 A Harvester of Desire|QID|59676|M|52.44,35.32|Z|1525;Revendreth|N|From Cudgelface.|PRE|59706|COV|Venthyr|REN|5|
 C Harvester of Desire|QID|59676|M|52.41,35.32|Z|1525;Revendreth|QO|1|NC|N|Click the crate to wear the Servant's clothes.|COV|Venthyr|
 C Harvester of Desire|QID|59676|M|56.98,28.56|Z|1525;Revendreth|QO|2|CHAT|N|Message for the Countess delivered.|COV|Venthyr|
 R Menagerie of the Master|ACTIVE|59708|CC|M|54.53,27.22;53.30,29.55|Z|1525;Revendreth|N|Make your way back down the via ramps to the north.|COV|Venthyr|
-R Dominance Gate|ACTIVE|59708|M|45.19,31.24|Z|1525;Revendreth|N|Cut your way through towards Dominance Gate.|COV|Venthyr|
+R Dominance Gate|ACTIVE|59708|M|45.19,31.24|Z|1525;Revendreth|N|Cut your way through towards Dominance Gate.|FLY|SHADOWLANDS|COV|Venthyr|
 T Invitation for the Stonewright|QID|59708|M|40.27,30.60|Z|1525;Revendreth|N|To General Draven.|COV|Venthyr|
 A Harvester of Wrath|QID|59720|M|40.27,30.60|Z|1525;Revendreth|N|From General Draven.|PRE|59708|COV|Venthyr|
 C Harvester of Wrath|QID|59720|M|34.28,21.92|Z|1525;Revendreth|N|Do NOT mount up, you must cross the bridge on foot and fight your way across. At the end you can deliver your message to the Stonewright.|COV|Venthyr|
-F Charred Ramparts|ACTIVE|59720|M|25.96,28.88|Z|1525;Revendreth|N|Take the lift down and head to the flightpoint to fly you back to the Charred Ramparts.|COV|Venthyr|
-R Hole in the Wall|ACTIVE|59720|M|40.77,47.18|Z|1525;Revendreth|N|Run to the Hole in the Wall.|COV|Venthyr|
-R Darkwall Tower|ACTIVE|59720|M|42.07,46.80|Z|1525;Revendreth|N|Run to and take the lift up Darkwall Tower.|COV|Venthyr|
+F Charred Ramparts|ACTIVE|59720|M|25.96,28.88|Z|1525;Revendreth|N|Take the lift down and head to the flightpoint to fly you back to the Charred Ramparts.|FLY|SHADOWLANDS|COV|Venthyr|
+R Hole in the Wall|ACTIVE|59720|M|40.77,47.18|Z|1525;Revendreth|N|Run to the Hole in the Wall.|FLY|SHADOWLANDS|COV|Venthyr|
+R Darkwall Tower|ACTIVE|59720|M|42.07,46.80|Z|1525;Revendreth|N|Run to and take the lift up Darkwall Tower.|FLY|SHADOWLANDS|COV|Venthyr|
 T Harvester of Desire|QID|59676|M|41.02,54.80|Z|1525;Revendreth|N|To Prince Renathal.|COV|Venthyr|
 T Harvester of Envy|QID|59711|M|41.02,54.80|Z|1525;Revendreth|N|To Prince Renathal.|COV|Venthyr|
 T Harvester of Wrath|QID|59720|M|41.02,54.80|Z|1525;Revendreth|N|To Prince Renathal.|COV|Venthyr|
 A The Court|QID|59719|M|41.02,54.80|Z|1525;Revendreth|N|From Prince Renathal.|PRE|59676&59711&59720|COV|Venthyr|REN|5|
 T The Court|QID|59719|M|43.77,51.27|Z|1525;Revendreth|N|To Prince Renathal.|COV|Venthyr|
-F Sinfall|AVAILABLE|59343|M|38.95,49.33|Z|1525;Revendreth|N|Fly or hearth back to Sinfall. If you can glide, or slow fall down, here it's much faster.|PRE|59719|COV|Venthyr|U|6948|
+F Sinfall|AVAILABLE|59343|M|38.95,49.33|Z|1525;Revendreth|N|Fly or hearth back to Sinfall. If you can glide, or slow fall down, here it's much faster.|PRE|59719|COV|Venthyr|
 A Kindred Spirits|QID|59343|M|50.23,18.03|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|From Theotar.|PRE|59719|COV|Venthyr|REN|5|
 C Kindred Spirits|QID|59343|M|42.57,19.88|Z|1699;Sinfall Reaches@Sinfall!Dungeon|NC|N|Click on Theotar to Soulbind with him.|COV|Venthyr|REN|5|
 T Kindred Spirits|QID|59343|M|43.69,17.42|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|To Theotar.|COV|Venthyr|
@@ -1266,7 +1266,7 @@ A An Invitation to Treachery|QID|57888|M|58.05,27.53|Z|1525;Revendreth|N|From Th
 A "Accidental" Arson|QID|57889|M|58.05,27.53|Z|1525;Revendreth|N|From The Countess.|PRE|57887|COV|Venthyr|REN|8|
 A Beautiful, But Deadly|QID|57890|M|58.05,27.53|Z|1525;Revendreth|N|From The Countess.|PRE|57887|COV|Venthyr|REN|8|
 R Thornhill Manor|ACTIVE|57890|M|57.39,28.65|Z|1525;Revendreth|N|Run back through the mirror to Thornhill Manor.|COV|Venthyr|
-R Redelav District|ACTIVE|57890|M|56.92,37.21|Z|1525;Revendreth|N|Run up to the Redelav District.|COV|Venthyr|
+R Redelav District|ACTIVE|57890|M|56.92,37.21|Z|1525;Revendreth|N|Run up to the Redelav District.|FLY|SHADOWLANDS|COV|Venthyr|
 C Beautiful, But Deadly|QID|57890|M|53.97,38.16|Z|1525;Revendreth|NC|N|Collect Duskmire Mushrooms around on the ground.|S|COV|Venthyr|
 C "Accidental" Arson|QID|57889|M|56.43,35.37|Z|1525;Revendreth|QO|1|N|Kill Lord Andrei.|COV|Venthyr|
 C "Accidental" Arson|QID|57889|M|56.31,35.51|Z|1525;Revendreth|QO|2|NC|N|Click on the Ornate Rug to start the fire.|COV|Venthyr|
@@ -1281,8 +1281,8 @@ T "Accidental" Arson|QID|57889|M|58.05,27.53|Z|1525;Revendreth|N|To The Countess
 T Beautiful, But Deadly|QID|57890|M|58.05,27.53|Z|1525;Revendreth|N|To The Countess.|COV|Venthyr|
 A Mix, Mingle, and Meddle|QID|57891|M|58.05,27.53|Z|1525;Revendreth|N|From The Countess.|PRE|57888&57889&57890|COV|Venthyr|REN|8|
 R Thornhill Manor|ACTIVE|57891|M|57.39,28.65|Z|1525;Revendreth|N|Run back through the mirror to Thornhill Manor.|COV|Venthyr|
-R The Eternal Terrace Lift|ACTIVE|57891|M|57.38,33.44|Z|1525;Revendreth|N|Ride to and take the Eternal Terrace Lift up to the party.|COV|Venthyr|
-C Mix, Mingle, and Meddle|QID|57891|M|58.05,27.53|Z|1525;Revendreth|QO|1|U|174923|NC|N|Use the Duskmire Elixir to compel others to speak the truth.|COV|Venthyr|
+R The Eternal Terrace Lift|ACTIVE|57891|M|57.38,33.44|Z|1525;Revendreth|N|Ride to and take the Eternal Terrace Lift up to the party.|FLY|SHADOWLANDS|COV|Venthyr|
+C Mix, Mingle, and Meddle|QID|57891|M|53.48,30.62|Z|1525;Revendreth|QO|1|U|174923|NC|N|Use the Duskmire Elixir once you reach the top.|COV|Venthyr|
 C Mix, Mingle, and Meddle|QID|57891|M|53.48,30.62|Z|1525;Revendreth|QO|2|U|174923|CHAT|N|Speak with Attendees to get the truth out of them. Some will attack you.|COV|Venthyr|
 T Mix, Mingle, and Meddle|QID|57891|M|56.93,28.64|Z|1525;Revendreth|N|To The Countess.|COV|Venthyr|
 A Enacting Immediate Justice|QID|57892|M|56.93,28.64|Z|1525;Revendreth|N|From The Countess.|PRE|57891|COV|Venthyr|REN|8|
@@ -1291,7 +1291,7 @@ C Enacting Immediate Justice|QID|57892|M|56.39,27.71|Z|1525;Revendreth|QO|2|CHAT
 C Enacting Immediate Justice|QID|57892|M|56.41,27.71|Z|1525;Revendreth|QO|3|N|Kill the Traitor.|COV|Venthyr|
 T Enacting Immediate Justice|QID|57892|M|56.93,28.64|Z|1525;Revendreth|N|To The Countess.|COV|Venthyr|
 A Neither Enemy nor Ally|QID|57893|M|56.93,28.64|Z|1525;Revendreth|N|From The Countess.|PRE|57892|COV|Venthyr|REN|8|
-F Sinfall|ACTIVE|57893|M|54.22,25.68|Z|1525;Revendreth|N|Take the ramp down to the north toward the Menagerie flightpath. Take a flight to Sinfall.|COV|Venthyr|
+F Sinfall|ACTIVE|57893|M|54.22,25.68|Z|1525;Revendreth|N|Hearth or Take the ramp down to the north toward the Menagerie flightpath. Take a flight to Sinfall.|COV|Venthyr|
 T Neither Enemy nor Ally|QID|57893|M|51.78,37.44|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|COV|Venthyr|
 
 ; Chapter 5
@@ -1355,7 +1355,7 @@ A How to Wear Seven Medallions|QID|61050|PRE|58444|M|51.77,37.58|Z|1699;Sinfall 
 T How to Wear Seven Medallions|QID|61050|M|44.43,46.59|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|To General Draven.|COV|Venthyr|
 A Hidden Mirror|QID|58530|PRE|61050|M|44.43,46.59|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|From General Draven.|COV|Venthyr|REN|13|
 F Hero's Rest|ACTIVE|58530|M|67.27,21.51|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|Fly to the Hero's Rest in Bastion.|COV|Venthyr|
-P Firstborne's Bounty|ACTIVE|58530|M|53.30,44.90|Z|Bastion|N|Unless you can Glide or slow fall down, take the Anima Gateway.|COV|Venthyr|
+P Firstborne's Bounty|ACTIVE|58530|M|53.30,44.90|Z|Bastion|N|Unless you can Glide or slow fall down, take the Anima Gateway.|FLY|SHADOWLANDS|COV|Venthyr|
 R Veiled Enclave|ACTIVE|58530|M|51.43,31.67|Z|1533;Bastion!The Shadowlands|N|Make your way to the Veiled Enclave.|COV|Venthyr|
 C Hidden Mirror|QID|58530|M|49.54,30.31|Z|1533;Bastion!The Shadowlands|U|180356|NC|N|Run near the red pool and use Laurent's Compact Looking Glass to reveal the Hidden Mirror.|COV|Venthyr|
 T Hidden Mirror|QID|58530|M|49.66,30.16|Z|1533;Bastion!The Shadowlands|N|To General Draven.|COV|Venthyr|
@@ -1463,7 +1463,7 @@ T Blackbale Betrayers|QID|58388|M|46.45,51.49|Z|1525;Revendreth|N|To The Accuser
 T Maldraxxian Weapons|QID|58389|M|46.45,51.49|Z|1525;Revendreth|N|To The Accuser.|COV|Venthyr|
 T There's Always a Paper Trail|QID|58518|M|46.45,51.49|Z|1525;Revendreth|N|To The Accuser.|COV|Venthyr|
 A Reconnaissance... for my, uh, Recovery|QID|58391|PRE|58388&58389&58518|M|46.48,51.61|Z|1525;Revendreth|N|From Kael'thas Sunstrider.|COV|Venthyr|REN|17|
-F Darkhaven|ACTIVE|58391|M|38.95,49.33|Z|1525;Revendreth|N|Head to the flightmaster and take a flight to Darkhaven.|COV|Venthyr|
+F Darkhaven|ACTIVE|58391|M|38.95,49.33|Z|1525;Revendreth|N|Head to the flightmaster and take a flight to Darkhaven.|FLY|SHADOWLANDS|COV|Venthyr|
 R Catacombs|ACTIVE|58391|M|61.29,59.72|Z|1525;Revendreth|CC|N|Make your way to the Catacombs in Darkhaven.|COV|Venthyr|
 C Reconnaissance... for my, uh, Recovery|QID|58391|M|61.19,60.40|Z|1525;Revendreth|QO|1|NC|N|Run down the stairs and then click on the door.|COV|Venthyr|
 C Reconnaissance... for my, uh, Recovery|QID|58391|M|61.52,60.15|Z|1525;Revendreth|QO|2|V|N|Click on the carriage to hide and go for a ride.|COV|Venthyr|
