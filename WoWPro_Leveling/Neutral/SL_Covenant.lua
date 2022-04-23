@@ -1592,9 +1592,9 @@ A Glorious Ambition|QID|62834|PRE|62833|M|46.51,40.17|Z|1698;Seat of the Primus!
 C Glorious Ambition|QID|62834|M|46.51,40.17|Z|1698;Seat of the Primus!Dungeon|CHAT|N|Speak with Elspeth Larink to examine Sanctum Upgrades and Renown.|COV|Necrolord|
 T Glorious Ambition|QID|62834|M|46.51,40.17|Z|1698;Seat of the Primus!Dungeon|N|To Elspeth Larink.|COV|Necrolord|
 A A Call to Service|QID|62835|PRE|62834|M|46.51,40.17|Z|1698;Seat of the Primus!Dungeon|N|From Elspeth Larink.|COV|Necrolord|
-h Seat of the Primus|ACTIVE|58609|M|47.02,29.95|Z|1698;Seat of the Primus!Dungeon|N|At Tapani Nightwish. I would suggest setting your hearthstone here to save a lot of time if you're gonna working on Covenant.|COV|Necrolord|
 T A Call to Service|QID|62835|M|47.66,28.63|Z|1698;Seat of the Primus!Dungeon|N|To Sergeant Romark.|COV|Necrolord|
 A A Calling in Maldraxxus|QID|62694|AVAILABLE|62840|PRE|62835|M|47.66,28.63|Z|1698;Seat of the Primus!Dungeon|N|From Sergeant Romark. Even though this is flagged as a daily, it is required.|COV|Necrolord|
+h Seat of the Primus|ACTIVE|62694|M|47.02,29.95|Z|1698;Seat of the Primus!Dungeon|N|At Tapani Nightwish. I would suggest setting your hearthstone here to save a lot of time if you're gonna working on Covenant.|COV|Necrolord|
 C A Calling in Maldraxxus|QID|62694|Z|1536;Maldraxxus|QO|1|NC|N|Complete 3 World Quests in Maldraxxus.|COV|Necrolord|
 H Seat of the Primus|ACTIVE|62694|M|PLAYER|Z|1536;Maldraxxus|N|Use your Hearthstone back to the Seat of the Primus.|COV|Necrolord|
 T A Calling in Maldraxxus|QID|62694|M|47.64,28.72|Z|1698;Seat of the Primus!Dungeon|N|To Sergeant Romark.|COV|Necrolord|
@@ -1674,7 +1674,7 @@ C Enemy at the Door|QID|59555|M|48.20,65.47|Z|1536;Maldraxxus|N|Kill enemies and
 T Enemy at the Door|QID|59555|M|49.76,50.79|Z|1698;Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Eyes on the Problem|QID|58007|PRE|59555|M|49.76,50.79|Z|1698;Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|5|
 C Eyes on the Problem|QID|58007|M|50.45,51.59|Z|1698;Seat of the Primus!Dungeon|QO|1|CHAT|N|Speak with Vashj.|COV|Necrolord|
-F Keres' Rest|ACTIVE|58007|M|52.47,67.65|Z|1536;Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|COV|Necrolord|
+F Keres' Rest|ACTIVE|58007|M|52.47,67.65|Z|1536;Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|COV|Necrolord|FLY|SHADOWLANDS|
 T Eyes on the Problem|QID|58007|M|50.82,24.48|Z|1536;Maldraxxus|N|To Baroness Vashj.|COV|Necrolord|
 A Whisper of Hope|QID|57649|PRE|58007|M|50.82,24.48|Z|1536;Maldraxxus|N|From Baroness Vashj.|COV|Necrolord|REN|5|
 A Prying Eyes|QID|59265|PRE|58007|M|50.82,24.48|Z|1536;Maldraxxus|N|From Baroness Vashj.|COV|Necrolord|REN|5|
@@ -1714,7 +1714,7 @@ A Eyes to the Sky|QID|62169|PRE|57648|M|49.74,50.75|Z|1698;Seat of the Primus!Du
 C Renown Level 8|QID|62169|NC|N|You must reach Renown level 8 to continue to the next chapter.|COV|Necrolord|
 T Eyes to the Sky|QID|62169|M|49.74,50.75|Z|1698;Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A The Maldraxxian Job|QID|57778|PRE|62169|M|49.74,50.75|Z|1698;Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|8|
-F Keres' Rest|ACTIVE|57778|M|52.47,67.65|Z|1536;Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|COV|Necrolord|
+F Keres' Rest|ACTIVE|57778|M|52.47,67.65|Z|1536;Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|COV|Necrolord|FLY|SHADOWLANDS|
 R High Stand|ACTIVE|57778|M|54.45,27.27|Z|1536;Maldraxxus|N|Make your way to the High Stand.|COV|Necrolord|
 R Bony Spindles|ACTIVE|57778|M|53.59,22.01|Z|1536;Maldraxxus|N|Make your way to the Bony Spindles.|COV|Necrolord|
 R Nurakkir|ACTIVE|57778|M|52.10,15.20|Z|1536;Maldraxxus|N|Make your way to the Nurakkir.|COV|Necrolord|
@@ -1925,7 +1925,7 @@ A House of Rituals|QID|62388|PRE|58624|M|49.75,50.53|Z|1698;Seat of the Primus!D
 C Renown Level 20|QID|62388|N|You must reach Renown level 20 to continue to the next chapter.|COV|Necrolord|
 T House of Rituals|QID|62388|M|49.75,50.53|Z|1698;Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A The Wayward Baron|QID|61739|PRE|62388|M|49.79,49.78|Z|1698;Seat of the Primus!Dungeon|N|From Balmedar.|COV|Necrolord|REN|20|
-F Keres' Rest|ACTIVE|61540|M|52.47,67.65|Z|1536;Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|COV|Necrolord|
+F Keres' Rest|ACTIVE|61540|M|52.47,67.65|Z|1536;Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|COV|Necrolord|FLY|SHADOWLANDS|
 C The Wayward Baron|QID|61739|M|59.34,32.99|Z|1536;Maldraxxus|NC|N|Click on the chest to Locate Balmedar's Supplies.|COV|Necrolord|
 T The Wayward Baron|QID|61739|M|59.34,32.99|Z|1536;Maldraxxus|N|To Balmedar's Oculus.|COV|Necrolord|
 A Playing Favorites|QID|61740|PRE|61739|M|59.34,32.99|Z|1536;Maldraxxus|N|From Balmedar's Oculus.|COV|Necrolord|REN|20|
@@ -2018,7 +2018,7 @@ A Mobilize Maldraxxus|QID|62391|PRE|61761|M|49.72,50.73|Z|1698;Seat of the Primu
 C Renown Level 22|QID|62391|N|You must reach Renown level 22 to continue to the next chapter.|COV|Necrolord|
 T Mobilize Maldraxxus|QID|62391|M|49.75,50.78|Z|1698;Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Calling in All Favors|QID|58833|PRE|62391|M|49.75,50.78|Z|1698;Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|22|
-F Renounced Bastille|ACTIVE|57567|M|52.47,67.65|Z|1536;Maldraxxus|N|Head to the flightmaster and take a flight to Renounced Bastille.|COV|Necrolord|
+F Renounced Bastille|ACTIVE|57567|M|52.47,67.65|Z|1536;Maldraxxus|N|Head to the flightmaster and take a flight to Renounced Bastille.|COV|Necrolord|FLY|SHADOWLANDS|
 T Calling in All Favors|QID|58833|M|62.17,41.04|Z|1536;Maldraxxus|N|To Baroness Draka.|COV|Necrolord|
 A The Third Fall of Kel'Thuzad|QID|59020|PRE|58833|M|62.17,41.04|Z|1536;Maldraxxus|N|From Baroness Draka.|COV|Necrolord|REN|22|
 C The Third Fall of Kel'Thuzad|QID|59020|M|62.17,41.04|Z|1536;Maldraxxus|QO|1|CHAT|N|Speak to Baroness Draka.|COV|Necrolord|
