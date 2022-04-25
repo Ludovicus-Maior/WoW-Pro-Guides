@@ -1674,7 +1674,7 @@ C Enemy at the Door|QID|59555|M|48.20,65.47|Z|1536;Maldraxxus|N|Kill enemies and
 T Enemy at the Door|QID|59555|M|49.76,50.79|Z|1698;Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A Eyes on the Problem|QID|58007|PRE|59555|M|49.76,50.79|Z|1698;Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|5|
 C Eyes on the Problem|QID|58007|M|50.45,51.59|Z|1698;Seat of the Primus!Dungeon|QO|1|CHAT|N|Speak with Vashj.|COV|Necrolord|
-F Keres' Rest|ACTIVE|58007|M|52.47,67.65|Z|1536;Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|COV|Necrolord|FLY|SHADOWLANDS|
+F Keres' Rest|ACTIVE|58007|M|52.47,67.65|Z|1536;Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|FLY|SHADOWLANDS|COV|Necrolord|
 T Eyes on the Problem|QID|58007|M|50.82,24.48|Z|1536;Maldraxxus|N|To Baroness Vashj.|COV|Necrolord|
 A Whisper of Hope|QID|57649|PRE|58007|M|50.82,24.48|Z|1536;Maldraxxus|N|From Baroness Vashj.|COV|Necrolord|REN|5|
 A Prying Eyes|QID|59265|PRE|58007|M|50.82,24.48|Z|1536;Maldraxxus|N|From Baroness Vashj.|COV|Necrolord|REN|5|
@@ -1714,10 +1714,10 @@ A Eyes to the Sky|QID|62169|PRE|57648|M|49.74,50.75|Z|1698;Seat of the Primus!Du
 C Renown Level 8|QID|62169|NC|N|You must reach Renown level 8 to continue to the next chapter.|COV|Necrolord|
 T Eyes to the Sky|QID|62169|M|49.74,50.75|Z|1698;Seat of the Primus!Dungeon|N|To Baroness Draka.|COV|Necrolord|
 A The Maldraxxian Job|QID|57778|PRE|62169|M|49.74,50.75|Z|1698;Seat of the Primus!Dungeon|N|From Baroness Draka.|COV|Necrolord|REN|8|
-F Keres' Rest|ACTIVE|57778|M|52.47,67.65|Z|1536;Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|COV|Necrolord|FLY|SHADOWLANDS|
-R High Stand|ACTIVE|57778|M|54.45,27.27|Z|1536;Maldraxxus|N|Make your way to the High Stand.|COV|Necrolord|
-R Bony Spindles|ACTIVE|57778|M|53.59,22.01|Z|1536;Maldraxxus|N|Make your way to the Bony Spindles.|COV|Necrolord|
-R Nurakkir|ACTIVE|57778|M|52.10,15.20|Z|1536;Maldraxxus|N|Make your way to the Nurakkir.|COV|Necrolord|
+F Keres' Rest|ACTIVE|57778|M|52.47,67.65|Z|1536;Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|FLY|SHADOWLANDS|COV|Necrolord|
+R High Stand|ACTIVE|57778|M|54.45,27.27|Z|1536;Maldraxxus|N|Make your way to the High Stand.|FLY|SHADOWLANDS|COV|Necrolord|
+R Bony Spindles|ACTIVE|57778|M|53.59,22.01|Z|1536;Maldraxxus|N|Make your way to the Bony Spindles.|FLY|SHADOWLANDS|COV|Necrolord|
+R Nurakkir|ACTIVE|57778|M|52.10,15.20|Z|1536;Maldraxxus|N|Make your way to the Nurakkir.|FLY|SHADOWLANDS|COV|Necrolord|
 T The Maldraxxian Job|QID|57778|M|50.72,15.58|Z|1536;Maldraxxus|N|To Whisperer Vyn.|COV|Necrolord|
 A I'll Only Say This Once|QID|61485|PRE|57778|M|50.72,15.58|Z|1536;Maldraxxus|N|From Whisperer Vyn.|COV|Necrolord|REN|8|
 C I'll Only Say This Once|QID|61485|M|50.72,15.58|Z|1536;Maldraxxus|QO|1|CHAT|N|Speak with Whisperer Vyn to review the plan.|COV|Necrolord|

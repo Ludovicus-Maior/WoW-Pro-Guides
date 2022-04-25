@@ -264,7 +264,7 @@ T The Pilgrimage Ends|QID|64844|M|64.69,53.49|Z|1970;Zereth Mortis|N|To Highlord
 
 ;CH5
 A The Broken Crown|QID|64799|PRE|64844|M|35.05,64.81|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
-C The Broken Crown|QID|64799|M|33.30,69.04|Z|1970;Zereth Mortis|QO|1|CHAT|N|Hear Anduin's Tale.|
+C The Broken Crown|QID|64799|M|33.30,69.04|Z|1970;Zereth Mortis|CHAT|N|Hear Anduin's Tale.|
 T The Broken Crown|QID|64799|M|33.23,68.92|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 A Our Last Option|QID|64800|PRE|64799|M|33.23,68.92|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 C Our Last Option|QID|64800|M|33.33,68.95|Z|1970;Zereth Mortis|QO|1|CHAT|N|Listen to the Plan.|
@@ -280,30 +280,30 @@ C Testing One Two|QID|64803|M|45.77,67.93|Z|1970;Zereth Mortis|QO|1|NC|N|Use the
 C Testing One Two|QID|64803|M|56.06,82.90|Z|1970;Zereth Mortis|QO|3|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on Outmoded Servitor.|EAB|T|Outmoded Servitor|
 T Testing One Two|QID|64803|M|56.17,83.26|Z|1970;Zereth Mortis|N|To Elder Eru.|
 T Elder Eru|QID|64801|M|56.17,83.26|Z|1970;Zereth Mortis|N|To Elder Eru.|
-A Cryptic Catalogue|QID|64804|PRE|64803&64801|M|56.17,83.26|Z|1970;Zereth Mortis|N|From Elder Eru.|
+A Cryptic Catalogue|QID|64804|PRE|64801|M|56.17,83.26|Z|1970;Zereth Mortis|N|From Elder Eru.|
 C Cryptic Catalogue|QID|64804|M|57.34,84.04|Z|1970;Zereth Mortis|QO|1|NC|N|First Phrase memorized.|
 C Cryptic Catalogue|QID|64804|M|58.68,84.51|Z|1970;Zereth Mortis|QO|2|NC|N|Second Phrase memorized.|
 C Cryptic Catalogue|QID|64804|M|58.46,81.76|Z|1970;Zereth Mortis|QO|3|NC|N|Third Phrase memorized.|
 T Cryptic Catalogue|QID|64804|M|59.22,78.91|Z|1970;Zereth Mortis|N|To Elder Eru.|
-A The Not-Scientific Method|QID|64805|PRE|64804|M|59.22,78.91|Z|1970;Zereth Mortis|N|From Elder Eru.|
-C The Not-Scientific Method|QID|64805|M|58.58,78.57|Z|1970;Zereth Mortis|QO|1|NC|N|Upload Phrases to Librarian.|
-C The Not-Scientific Method|QID|64805|M|58.63,78.62|Z|1970;Zereth Mortis|QO|2|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on the Librarian.|EAB|
-C The Not-Scientific Method|QID|64805|M|58.70,78.77|Z|1970;Zereth Mortis|QO|3|NC|N|Observe Results.|
-C The Not-Scientific Method|QID|64805|M|58.70,78.77|Z|1970;Zereth Mortis|QO|4|NC|N|Lexicon Librarian subdued.|
+A The Not-Scientific Method|QID|64805|PRE|64804&64803|M|59.22,78.91|Z|1970;Zereth Mortis|N|From Elder Eru.|
+C The Not-Scientific Method|QID|64805|M|58.50,78.49|Z|1970;Zereth Mortis|QO|1|NC|N|Upload Phrases to Librarian.|
+C The Not-Scientific Method|QID|64805|M|58.50,78.49|Z|1970;Zereth Mortis|QO|2|NC|N|Use the "[color=40C7EB]Domination[/color]" button to test the helm on the Librarian.|EAB|
+C The Not-Scientific Method|QID|64805|M|58.50,78.49|Z|1970;Zereth Mortis|QO|3|NC|N|Observe Results.|
+C The Not-Scientific Method|QID|64805|M|58.50,78.49|Z|1970;Zereth Mortis|QO|4|NC|N|Lexicon Librarian subdued.|
 T The Not-Scientific Method|QID|64805|M|59.16,78.80|Z|1970;Zereth Mortis|N|To Elder Eru.|
 A Two Paths to Tread|QID|64853|PRE|64805|M|59.16,78.80|Z|1970;Zereth Mortis|N|From Elder Eru.|
 T Two Paths to Tread|QID|64853|M|33.33,68.77|Z|1970;Zereth Mortis|N|To The Primus.|
 A One Half of the Equation|QID|64809|PRE|64853|M|33.20,68.88|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
-T One Half of the Equation|QID|64809|M|57.16,31.21|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
-A Oppress and Destroy|QID|64810|PRE|64809|M|57.16,31.21|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
-A Aggressive Excavation|QID|64811|PRE|64809|M|57.16,31.21|Z|1970;Zereth Mortis|N|From Taelia Fordragon.|
+T One Half of the Equation|QID|64809|M|57.22,31.09|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+A Oppress and Destroy|QID|64810|PRE|64809|M|57.22,31.09|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
+A Aggressive Excavation|QID|64811|PRE|64809|M|57.23,31.16|Z|1970;Zereth Mortis|N|From Taelia Fordragon.|
 C Oppress and Destroy|QID|64810|M|60.24,31.48|Z|1970;Zereth Mortis|QO|1|N|Invading Mawsworn slain (100%).|S|
 C Aggressive Excavation|QID|64811|M|63.01,22.34|Z|1970;Zereth Mortis|QO|1|NC|N|Blocked Door destroyed.|
 C Aggressive Excavation|QID|64811|M|62.85,21.31|Z|1970;Zereth Mortis|QO|2<1|NC|N|Inscrutable Phrases infused.|
 C Aggressive Excavation|QID|64811|M|66.08,25.74|Z|1970;Zereth Mortis|QO|2<2|NC|N|Inscrutable Phrases infused.|
 C Aggressive Excavation|QID|64811|M|59.70,32.27|Z|1970;Zereth Mortis|QO|2<3|NC|N|Inscrutable Phrases infused.|
 C Oppress and Destroy|QID|64810|M|60.24,31.48|Z|1970;Zereth Mortis|QO|1|N|Invading Mawsworn slain (100%).|US|
-T Oppress and Destroy|QID|64810|M|57.32,31.11|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
+T Oppress and Destroy|QID|64810|M|PLAYER|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 T Aggressive Excavation|QID|64811|M|57.32,31.11|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 A Where the Memory Resides|QID|64806|PRE|64810&64811|M|57.32,31.11|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 R Pilgrim's Grace|ACTIVE|64806|M|61.52,50.45|Z|1970;Zereth Mortis|N|Make your way to the Pilgrim's Grace.|
@@ -362,9 +362,9 @@ A Borrowed Power|QID|64888|PRE|64878|M|47.15,29.41|Z|1970;Zereth Mortis|N|From P
 A Pop Goes the Devourer!|QID|65245|PRE|64878|M|47.15,29.41|Z|1970;Zereth Mortis|N|From Pocopoc.|
 C Pop Goes the Devourer!|QID|65245|M|48.76,29.69|Z|1970;Zereth Mortis|QO|1|N|Lured devourers slain.|
 C Borrowed Power|QID|64888|M|48.78,29.91|Z|1970;Zereth Mortis|QO|1|NC|N|Pocopoc fully empowered.|
-T Borrowed Power|QID|64888|M|48.02,29.73|Z|1970;Zereth Mortis|N|To Pocopoc.|
-T Pop Goes the Devourer!|QID|65245|M|48.02,29.73|Z|1970;Zereth Mortis|N|To Pocopoc.|
-A Match Made in Zereth Mortis|QID|64889|PRE|64888&65245|M|48.02,29.73|Z|1970;Zereth Mortis|N|From Pocopoc.|
+T Borrowed Power|QID|64888|M|PLAYER|Z|1970;Zereth Mortis|N|To Pocopoc.|
+T Pop Goes the Devourer!|QID|65245|M|PLAYER|Z|1970;Zereth Mortis|N|To Pocopoc.|
+A Match Made in Zereth Mortis|QID|64889|PRE|64888&65245|M|PLAYER|Z|1970;Zereth Mortis|N|From Pocopoc.|
 C Match Made in Zereth Mortis|QID|64889|M|67.96,51.47|Z|2029|QO|1|NC|N|Interior Locus Arrangement found.|
 C Match Made in Zereth Mortis|QID|64889|M|59.59,41.07|Z|2029|QO|2|NC|N|Locus Shift used.|
 C Match Made in Zereth Mortis|QID|64889|M|44.28,30.55|Z|2029|QO|3|NC|N|Primus Locus Arrangement found near the Interior Locus.|
@@ -379,7 +379,7 @@ C Between A Rock & A Rock|QID|64935|M|50.31,27.23|Z|1970;Zereth Mortis|QO|4<3|NC
 C Between A Rock & A Rock|QID|64935|M|49.48,25.43|Z|1970;Zereth Mortis|QO|4<4|NC|N|Rubble Piles searched.|
 C Between A Rock & A Rock|QID|64935|M|49.49,26.88|Z|1970;Zereth Mortis|QO|5|NC|N|Glowing Rubblepile searched.|
 C Match Made in Zereth Mortis|QID|64889|M|49.50,26.87|Z|1970;Zereth Mortis|QO|5|NC|N|Secundus Locus Arrangement found.|
-T Between A Rock & A Rock|QID|64935|M|49.50,26.87|Z|1970;Zereth Mortis|N|To Pocopoc.|
+T Between A Rock & A Rock|QID|64935|M|PLAYER|Z|1970;Zereth Mortis|N|To Pocopoc.|
 C Match Made in Zereth Mortis|QID|64889|M|48.43,26.40|Z|1970;Zereth Mortis|QO|6|NC|N|Ascend to Secundus Locus.|
 C Match Made in Zereth Mortis|QID|64889|M|48.33,29.77|Z|1970;Zereth Mortis|QO|7|NC|N|Tertius Locus Arrangement found.|
 C Match Made in Zereth Mortis|QID|64889|M|47.95,27.97|Z|1970;Zereth Mortis|QO|8|NC|N|Ascend to Tertius Locus.|
@@ -412,8 +412,7 @@ C Arbiter in the Making|QID|65328|M|35.01,64.71|Z|1970;Zereth Mortis|QO|1|NC|N|B
 T Arbiter in the Making|QID|65328|M|35.01,64.71|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 
 ;CH7
-N Wait for March 22nd|N|Blizzard has time gated the rest of the guide. Ch7 will release on 3-22.|DATE|-1647945104|
-A A Monumental Discovery|QID|64879|PRE|65328|M|35.01,64.71|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|DATE|1647945104|
+A A Monumental Discovery|QID|64879|PRE|65328|M|35.01,64.71|Z|1970;Zereth Mortis|N|From Highlord Bolvar Fordragon.|
 F Faith's Repose|ACTIVE|64879|M|35.59,64.99|Z|1970;Zereth Mortis|N|Head to the flightmaster and take a flight to Faith's Repose.|
 T A Monumental Discovery|QID|64879|M|34.20,48.61|Z|1970;Zereth Mortis|N|To Firim.|
 A Restoration Project|QID|64723|PRE|64879|M|34.20,48.61|Z|1970;Zereth Mortis|N|From Firim.|
