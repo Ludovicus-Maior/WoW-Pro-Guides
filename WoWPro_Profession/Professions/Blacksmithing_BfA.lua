@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancBSM_BfA","Profession","Blacksmithing_BfA", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
@@ -19,19 +18,16 @@ return [[
 ;		= Learn Recipe|QID|164700151|P|Blacksmithing;164;7+15|RECIPE|253180|N|Learn [spell=253180/Monel-Hardened Waistguard] Recipe from Trainer.|
 ;		IE learn 2 at lvl 15 |164700151| and |164700152|
 ;  Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   Guide contains ZoneIDs - Z|862;Zuldazar|, Z|895;Tiragarde Sound|, Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|1355;Nazjatar|
+;  Typed update to Battle for Azeroth splits on 25-Dec-2020 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-;  Typed update to Battle for Azeroth splits on 25-Dec-2020 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
-
-N Guide Hub|QID|164000000|JUMP|Blacksmithing: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|164000000|JUMP|BSM_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|164000001|N|Covers what Blizzard now terms Kul Tiran / Zandalari Plans, content of Battle for Azeroth 1-175\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Miner|P|Mining;186;8;0|N|If you are a miner, running around for these mats will level you up, currently no guide in the works for mining.|
 N Learn Recipe|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 175.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
-; Begin Shopping list, as of Jan-2021
-
 l [item=152512/Monelite Ore]|QID|164000004|L|152512 1758|ITEM|152512|N|You'll need about 1,758 Monelite Ore.|
 l [item=152579/Storm Silver Ore]|QID|164000004|L|152579 1235|ITEM|152579|N|You'll need about 1,235 Storm Silver Ore, (only 795 if you have 18 Mark of Honor).|
 l [item=152513/Platinum Ore]|QID|164000004|L|152513 240|ITEM|152513|N|You'll need at least 240 Platinum Ore, (only 120 if you have 18 Mark of Honor).|
@@ -41,12 +37,8 @@ B [item=18567/Elemental Flux]|QID|164000004|L|18567 420|ITEM|18567|N|You'll need
 B [item=160298/Durable Flux]|QID|164000004|L|160298 152|ITEM|160298|N|You'll need about 152 Durable Flux. You can buy as you need if you want.|
 N Shopping List|QID|164000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-; end of shopping list, and pre craft.
-; Guide contains ZoneIDs - Z|862;Zuldazar|, Z|895;Tiragarde Sound|, Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|1355;Nazjatar|
-
 = Learn [spell=264448/Kul Tiran Blacksmithing]|QID|164264448|M|73.4,8.4|Z|1161|P|Blacksmithing;164;*;0;75|SPELL|Kul Tiran Blacksmithing;264448|N|Learn from Grix "Ironfists" Barlow, Tradewinds Market in Boralus.|FACTION|Alliance|
 = Learn [spell=265803/Zandalari Blacksmithing]|QID|164265803|M|43.6,38.6|Z|1165|P|Blacksmithing;164;*;0;75|SPELL|Zandalari Blacksmithing;265803|N|Learn from Forgemaster Zak'aal, Terrace of Crafters in Dazar'alor.|FACTION|Horde|
-
 M [item=152809/Monel-Hardened Armguards]|QID|164253183|P|Blacksmithing;164;7+15;1|ITEM|152809|CRAFT|253183 15|MATS|152512 10|
 = Learn Recipe|QID|164700151|P|Blacksmithing;164;7+15|RECIPE|253180|N|Learn [spell=253180/Monel-Hardened Waistguard] Recipe from Trainer.|
 M [item=152808/Monel-Hardened Waistguard]|QID|164253180|P|Blacksmithing;164;7+28;1|ITEM|152808|CRAFT|253180 13|MATS|152512 14|
@@ -91,9 +83,6 @@ M [item=152835/Stormsteel Dagger]|QID|164253158|P|Blacksmithing;164;7+145;1|ITEM
 = Learn Recipe|QID|164701451|PRE|55053|M|49.0,61.6|Z|1355|P|Blacksmithing;164;7+145|RECIPE|294763|N|Learn [spell=294763/Notorious Combatants Plate Armguards] Recipe from Jada.|FACTION|HORDE|
 M [item=167965/Notorious Combatants Plate Armguards]|QID|164294763|P|Blacksmithing;164;7+160;1|ITEM|167965|CRAFT|294763 15|MATS|168185 8;152579 3;160298 7;152668 2|
 N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169507/Recipe: Notorious Combatants Plate Armguards](Rank 2) and [item=169508/Recipe: Notorious Combatants Plate Armguards](Rank 3) recipes from Dazzerian (Horde) or Tomas Riogain (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|
-
 N Congratulations|QID|164000010|N|You've reached at least 160 on Battle for Azeroth Blacksmithing.|
 ]]
 end)
-
-

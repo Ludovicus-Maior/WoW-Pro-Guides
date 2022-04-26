@@ -20,9 +20,10 @@ return [[
 ;		IE Learn 2 at lvl 15 |197800151| and |197800152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Updated to The Burning Crusade splits / new format on 07-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;	Updated to The Burning Crusade splits / new format on 07-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
+;	Zone IDs used in guide: Z|111;Shattrath City|, Z|100;Hellfire Peninsula|
 
-N Guide Hub|QID|197000000|JUMP|Tailoring: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|197000000|JUMP|TLR_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|197000001|N|Currently in Development, This Guide covers Outland content in Retail.|
 N PLEASE Report any issues|QID|197000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
@@ -35,13 +36,18 @@ N Shopping List|QID|197000005|N|This completes the Shopping List, you may either
 
 N Tailoring and Bandage Trainers|QID|197000008|N|It's possible these NPC's name may change, as you level and/or complete quests, but the phased trainers should be near the same areas.|
 
-= Learn [spell=264618/Outland Tailoring]|QID|197264618|SPELL|Outland Tailoring;264618|LVL|5|N|Learn from a Trainer in either Shattrath City or Hellfire Peninsula.|
+= Learn [spell=264618/Outland Tailoring]|QID|197264618|AVAILABLE|10553^10554|M|41.20,63.51|Z|111|IZ|3703|SPELL|Outland Tailoring;264618|LVL|5|T|Miralisse|N|Learn from Miralisse (hopefully Neutral), Scryer's Tier, Shattrath City.|	; QID 10553^10554 are your choice QIDs for factions.|
+= Learn [spell=264618/Outland Tailoring]|QID|197264618|PRE|10553|M|41.20,63.51|Z|111|IZ|3703|SPELL|Outland Tailoring;264618|LVL|5|T|Miralisse|N|Learn from Miralisse, Scryer's Tier, Shattrath City.|REP|The Scryers;934|
+= Learn [spell=264618/Outland Tailoring]|QID|197264618|PRE|10554|M|37.68,26.97|Z|111|IZ|3703|SPELL|Outland Tailoring;264618|LVL|5|T|Weaver Aoa|N|Learn from Weaver Aoa, Aldor Rise, Shattrath City.|REP|The Aldor;935|
+= Learn [spell=264618/Outland Tailoring]|QID|197264618|M|56.6,37.2|Z|100|IZ|3483|SPELL|Outland Tailoring;264618|LVL|5|T|Dalinna|N|Learn from Dalinna, Thrallmar, Hellfire Peninsula.|FACTION|Horde|
+= Learn [spell=264618/Outland Tailoring]|QID|197264618|M|54.6,63.6|Z|100|IZ|3483|SPELL|Outland Tailoring;264618|LVL|5|T|Hama|N|Learn from Hama, Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
+= Learn [spell=264618/Outland Tailoring]|QID|197264618|SPELL|Outland Tailoring;264618|LVL|5|N|Learn from a Trainer in either Shattrath City or Hellfire Peninsula. Arrow will point the way, once in the area.|
 
-= Learn Bandage Recipe|QID|197100011|P|Tailoring;197;1+1|M|66.6,13.4|Z|111;Shattrath City|RECIPE|27032|N|Learn [spell=27032/Netherweave Bandage] from Mildred Fletcher, inside the building.|
+= Learn Bandage Recipe|QID|197100011|P|Tailoring;197;1+1|M|66.6,13.4|Z|111|RECIPE|27032|N|Learn [spell=27032/Netherweave Bandage] from Mildred Fletcher, inside the building.|
 M [item=21990/Netherweave Bandage]|QID|197027032|P|Tailoring;197;1+40;1|ITEM|21990|CRAFT|27032 45|MATS|21877 1|
-= Learn Bandage Recipe|QID|197100301|P|Tailoring;197;1+30|M|66.6,13.4|Z|111;Shattrath City|RECIPE|27033|N|Learn [spell=27033/Heavy Netherweave Bandage] from Mildred Fletcher, inside the building.|
+= Learn Bandage Recipe|QID|197100301|P|Tailoring;197;1+30|M|66.6,13.4|Z|111|RECIPE|27033|N|Learn [spell=27033/Heavy Netherweave Bandage] from Mildred Fletcher, inside the building.|
 M [item=21991/Heavy Netherweave Bandage]|QID|197027033|P|Tailoring;197;1+75;1|ITEM|21991|CRAFT|27033 100|MATS|21877 2|
 
-N Congratulations!|QID|197000010|N|That completes Outland - The Burning Crusade Tailoring.|
+N Congratulations!|QID|197000010|JUMP|TLR_WotLK|N|That completes Outland - The Burning Crusade Tailoring.|NOCACHE|
 ]]
 end)

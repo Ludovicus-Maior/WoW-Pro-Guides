@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancScribe_VAN","Profession","Inscription_VAN", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",773)
 WoWPro:GuideLevels(guide)
@@ -20,18 +19,15 @@ return [[
 ;		IE learn 2 at lvl 10 |773800101| and |773800102|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Typed update to VANilla splits on 23-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 ) (This is NOT tested)
+;  Typed update to VANilla splits on 23-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 ) (This is NOT tested)
 
-N Guide Hub|QID|773000000|JUMP|Inscription: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|773000000|JUMP|Scribe_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|773000001|N|Covers VANILLA content in RETAIL only. Guide rewritten to new format.|
 N PLEASE Report any issues|QID|773000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Herbalist|P|Herbalism;182;8;0|N|If you are a herbalist, running around for these mats will level you up, currently no guide in the works for herbalism.|
 N Learn Recipes|QID|773000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|773000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Inscription 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
-; Begin Shopping list, as of Mar-2022
-
 N Herbs|QID|773000004|N|You will need upwards of 1,200+ herbs to mill to make your inks.  Each line is going to list one Herb needed for a Pigment, alternate herbs will be listed in the Note.|
 l [item=2447/Peacebloom]|QID|773000004|L|2447 180|ITEM|2447|N|You'll need about 180 Peacebloom or combination of [item=754/Silverleaf] or [item=2449/Earthroot], to create [item=39151/Alabaster Pigment].|
 l [item=785/Mageroyal]|QID|773000004|L|785 160|ITEM|785|N|You'll need about 160 Mageroyal or combination of [item=2450/Briarthorn], [item=2452/Swiftthistle], [item=2453/Bruiseweed], or [item=3820/Stranglekelp] to create [item=39334/Dusky Pigment].|
@@ -41,8 +37,6 @@ l [item=4625/Firebloom]|QID|773000004|L|4625 160|ITEM|4625|N|You'll need about 1
 l [item=13464/Golden Sansam]|QID|773000004|L|13464 180|ITEM|13464|N|You'll need about 180 Golden Sansam or combination of [item=13463/Dreamfoil], [item=13465/Mountain Silversage], [item=13466/Sorrowmoss], or [item=13467/Icecap] to create [item=39341/Silvery Pigment].|
 B [item=39354/Light Parchment]|QID|773000004|L|39354 350|ITEM|39354|N|You'll need about 350(or more) Light Parchments, buy as you need if you wish.|
 N Shopping List|QID|773000006|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
-
-;	end of shopping list, and pre craft.
 
 = Learn [spell=45357/Inscription]|QID|773045357|SPELL|Inscription;45357|LVL|5|N|Learn from any Inscription Trainers in main cities of Old Azeroth.|
 B [item=39505/Virtuoso Inking Set]|QID|773000004|P|Inscription;773;*;0;75|L|39505 1|ITEM|39505|N|You'll need to buy this once, as you need it for your profession.|

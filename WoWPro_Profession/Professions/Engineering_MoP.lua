@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancENG_MoP", "Profession", "Engineering_MoP", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",202)
 WoWPro:GuideLevels(guide)
@@ -19,24 +18,21 @@ return [[
 ;		IE = Learn Recipe|QID|202700251|P|Engineering;202;7+25|RECIPE|280732|N|Learn [spell=280732/Magical Intrusion Dampener] Rank 1, Recipe from Trainer.|
 ;		IE Learn 2 at lvl 25 |202100251| and |202100252|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   This Guide contains Zone IDs: Z|376;Valley of the Four Winds|
+;  Updated to Retail - Pandaria splits / new format on 21-Feb-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-;  Updated to Retail - Pandaria splits / new format on 21-Feb-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
-
-N Guide Hub|QID|202000000|JUMP|Engineering: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|202000000|JUMP|ENG_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|202000001|N|Currently in Development, This Guide covers Mists of Pandaria content in Retail. \n[color=FF0000]NOTE: [/color]This guide, is just the Make (Create) steps for now, will be fleshed out at a later time.|
 N PLEASE Report any issues|QID|202000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|202000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can. ** Details do need to fleshed out still **|
-
 N Shopping List|QID|202000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Engineering 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
 l [item=72096/Ghost Iron Bar]|QID|202000004|L|72096 406|ITEM|72096|N|You'll need approximately 406 Ghost Iron Bars.|
 l [item=72988/Windwool Cloth]|QID|202000004|L|72988 60|ITEM|72988|N|You'l need approximately 60 Windwool Cloth.|
 l [item=76061/Spirit of Harmony]|QID|202000004|L|76061 26|ITEM|76061|N|You'll need approximately 26 Spirit of Harmony. Remember that 10 [item=89112/Mote of Harmony] creates one Spirit.|
-
 N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-= Learn [spell=264485/Pandaria Engineering]|QID|202264485|M|16.00,83.00|Z|376;Valley of the Four Winds|P|Engineering;202;*;0;0|SPELL|Pandaria Engineering;264485|LVL|5|N|From Sally Fizzlefury, Nesingwary's Safari, Valley of the Four Winds, Or Any Engineering Trainers in the Vale of Eternal Blossoms.  Also, BUY all Recipes available.|
+= Learn [spell=264485/Pandaria Engineering]|QID|202264485|M|16.00,83.00|Z|376|P|Engineering;202;*;0;0|SPELL|Pandaria Engineering;264485|LVL|5|N|From Sally Fizzlefury, Nesingwary's Safari, Valley of the Four Winds, Or Any Engineering Trainers in the Vale of Eternal Blossoms.  Also, BUY all Recipes available.|
 
 M [item=77467/Ghost Iron Bolts]|QID|202127113|P|Engineering;202;4+13;1|L|77467 224|ITEM|77467|CRAFT|127113 112|MATS|72096 3|N|This step might clear before you hit 13, don't worry, just make sure you have at least 224!|
 M [item=77467/Ghost Iron Bolts]|QID|202127113|P|Engineering;202;4+13;0|L|77467 224|ITEM|77467|CRAFT|127113 112|MATS|72096 3|N|This step will clear when you have at least 224!|

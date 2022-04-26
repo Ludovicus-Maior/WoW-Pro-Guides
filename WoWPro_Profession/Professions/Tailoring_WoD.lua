@@ -19,29 +19,25 @@ return [[
 ;		IE = Learn Recipe|QID|197800151|M|45.50,31.78|Z|1670;Ring of Fates@Oribos|P|Tailoring;197;8+15|RECIPE|310871|N|Learn [spell=310871/Shrouded Cloth Cape] Recipe, from Trainer|
 ;		IE Learn 2 at lvl 15 |197800151| and |197800152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;	Zone ID used in Guide: Z|624;Warspear|, Z|622;Stormshield|
+;	Updated to Warlords of Draenor splits / new format on 08-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-;  Updated to Warlords of Draenor splits / new format on 08-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
-
-N Guide Hub|QID|197000000|JUMP|Tailoring: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|197000000|JUMP|TLR_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|197000001|N|Currently in Development, This Guide covers Warlords of Draenor content in Retail.\n[color=FF0000]NOTE: [/color]This guide, is just the Make (Create) steps for now, will be fleshed out at a later time.|
 N PLEASE Report any issues|QID|197000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|197000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can. ** Details do need to fleshed out still **|
 N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
 l [item=111557/Sumptuous Fur]|QID|197000004|L|111557 2255|ITEM|111557|N|You'll need approx 2,255 Sumptuous Fur.|
-
 N Shopping List|QID|197000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 N Tailoring and Bandage Trainers|QID|197000008|N|It's possible these NPC's name may change, as you level and/or complete quests, but the phased trainers should be near the same areas.|
 
-U [item=115357/Draenor Tailoring]|QID|197264626|SPELL|Draenor Tailoring;264626|U|115357|LVL|5|N|You need to buy from a Vendor in Ashran, complete a Quest Chain, or Build the Tailoring Emporium in your Garrison to Learn Draenor Tailroing.|
-
+= [item=115357/Draenor Tailoring]|QID|197264626|SPELL|Draenor Tailoring;264626|U|115357|LVL|5|N|You need to buy from a Vendor in Ashran, complete a Quest Chain, or Build the Tailoring Emporium in your Garrison to Learn Draenor Tailroing.|
 M [item=118722/Secrets of Draenor Tailoring]|QID|197176058|P|Tailoring;197;5+2;1|ITEM|118722|CRAFT|176058 1|MATS|111557 5|
-B [spell=168836/Hexweave Embroidery]|QID|197168836|M|59.0,42.4|Z|624;Warspear|P|Tailoring;197;*;0;0|RECIPE|168836|T|Petir Starocean|N|Use the [item=115357/Draenor Tailoring] to Purchase [item=114852/Pattern Hexweave Embroidery] from Petir Starocean, in Warspear, Ashran. Also, from your Tailoring Emporium.|FACTION|Horde|
-B [spell=168836/Hexweave Embroidery]|QID|197168836|M|59.0,42.4|Z|622;Stormshield|P|Tailoring;197;*;0;0|RECIPE|168836|T|Steven Cochrane|N|Use the [item=115357/Draenor Tailoring] to Purchase [item=114852/Pattern Hexweave Embroidery] from Steven Cochrane, in Stormshield, Ashran. Also, from your Tailoring Emporium.|FACTION|Alliance|
+B [spell=168836/Hexweave Embroidery]|QID|197168836|M|59.0,42.4|Z|624|P|Tailoring;197;*;0;0|RECIPE|168836|T|Petir Starocean|N|Use the [item=118722/Secrets of Draenor Tailoring] to Purchase [item=114852/Pattern Hexweave Embroidery] from Petir Starocean, in Warspear, Ashran. Also, from your Tailoring Emporium.|FACTION|Horde|
+B [spell=168836/Hexweave Embroidery]|QID|197168836|M|59.0,42.4|Z|622|P|Tailoring;197;*;0;0|RECIPE|168836|T|Steven Cochrane|N|Use the [item=118722/Secrets of Draenor Tailoring] to Purchase [item=114852/Pattern Hexweave Embroidery] from Steven Cochrane, in Stormshield, Ashran. Also, from your Tailoring Emporium.|FACTION|Alliance|
 M [item=111603/Antiseptic Bandage]|QID|197172539|P|Tailoring;197;5+50;1|ITEM|111603|CRAFT|172539 150|MATS|111557 5|N|Not sure if this a recipe you start with or not.|
 M [item=114836/Hexweave Embroidery]|QID|197168836|P|Tailoring;197;5+100;1|ITEM|114836|CRAFT|168836 50|MATS|111557 30|
-
 N Congratulations!|QID|197000010|N|That completes Draenor - Warlords of Draenor Tailoring.|
 ]]
 end)

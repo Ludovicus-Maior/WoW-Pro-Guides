@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancEngineering_Classic", "Profession", "Engineering_Classic", "WoWPro Team", "Neutral", 1)
 WoWPro:GuideIcon(guide,"PRO",202)
 WoWPro:GuideLevels(guide)
@@ -18,15 +17,13 @@ return [[
 ;		IE = Learn Recipe|QID|202700251|P|Engineering;202;7+25|RECIPE|280732|N|Learn [spell=280732/Magical Intrusion Dampener] Rank 1, Recipe from Trainer.|
 ;		IE learn 2 at lvl 25 |202700251| and |202700252|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
-
-;	Updated to Classic splits / new format on 13-June-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;   This Guide contains Zone IDs: Z|1452;Winterspring|, Z|1454;Orgrimmar|, Z|1455;Ironforge|
+;	Updated to Classic splits / new format on 13-June-2021 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
 N This Guide|QID|202000001|N|Covers VANILLA content in CLASSIC only.|
 N PLEASE Report any issues|QID|202000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|202000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can. ** Details do need to fleshed out still **|
-
 N Shopping List|QID|202000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Engineering 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
 l [item=2835/Rough Stone]|QID|202000004|L|2835 60|ITEM|2835|N|You'll need about 60 Rough Stones.|
 l [item=2840/Copper Bar]|QID|202000004|L|2840 66|ITEM|2840|N|You'll need about 66 Copper Bars.|
 l [item=2840/Copper Bar]|QID|202000004|P|Mining;186;0+30;0|L|2840 121|ITEM|2840|N|You'll need about 121 Copper Bars. (55 bars needed to smelt bronze)|
@@ -49,10 +46,9 @@ l [item=12365/Dense Stone]|QID|202000004|L|12365 60|ITEM|12365|N|You'll need abo
 l [item=12359/Thorium Bar]|QID|202000004|L|12359 225|ITEM|12359|N|You'll need about 225 Thorium Bar.|
 l [item=14047/Runecloth]|QID|202000004|L|14047 35|ITEM|14047|N|You'll need approx 35 Runecloth.|
 B [item=2880/Weak Flux]|QID|202000004|L|2880 25|ITEM|2880|N|You'll need approx 25 Weak Flux.|
-B [spell=19791/Thorium Widget]|QID|202000041|M|75.6,25.2|Z|1454;Orgrimmar|P|Engineering;202;0+260|T|Sovik|N|Purchase [item=16042/Schematic - Thorium Widget] from Sovik, in The Valley of Honor, Orgrimmar.|FACTION|Horde|
-B [spell=19791/Thorium Widget]|QID|202000041|M|62.4,44.0|Z|1455;Ironforge|P|Engineering;202;0+260|T|Gearcutter Cogspinner|N|Purchase [item=16042/Schematic - Thorium Widget] from Gearcutter Cogspinner, in Tinker Town,
-B [spell=19795/Thorium Tube]|QID|202000041|M|60.8,38.6|Z|1452;Winterspring|P|Engineering;202;0+275|T|Xizzer Fizzbolt|N|Purchase [item=16047/Schematic - Thorium Tube] from Xizzer Fizzbolt in Everlook, Winterspring.|
-
+B [spell=19791/Thorium Widget]|QID|202000041|M|75.6,25.2|Z|1454|P|Engineering;202;0+260|T|Sovik|N|Purchase [item=16042/Schematic - Thorium Widget] from Sovik, in The Valley of Honor, Orgrimmar.|FACTION|Horde|
+B [spell=19791/Thorium Widget]|QID|202000041|M|62.4,44.0|Z|1455|P|Engineering;202;0+260|T|Gearcutter Cogspinner|N|Purchase [item=16042/Schematic - Thorium Widget] from Gearcutter Cogspinner, in Tinker Town, Ironforge.|FACTION|Alliance|
+B [spell=19795/Thorium Tube]|QID|202000041|M|60.8,38.6|Z|1452|P|Engineering;202;0+275|T|Xizzer Fizzbolt|N|Purchase [item=16047/Schematic - Thorium Tube] from Xizzer Fizzbolt in Everlook, Winterspring.|
 N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 = Learn [spell=4036/Engineering]|QID|202002259|SPELL|Engineering;4036|LVL|5|N|Learn from a Trainer in any major city.|
@@ -103,14 +99,13 @@ M [item=10561/Mithril Casing]|QID|202012599|P|Engineering;202;0+238;1|ITEM|10561
 M [item=10562/Hi-Explosive Bomb]|QID|202012619|P|Engineering;202;0+250;1|ITEM|10562|CRAFT|12619 20|MATS|10561 2;10560 1;10505 2|
 = Learn Recipe|QID|202002501|P|Engineering;202;0+250|RECIPE|19788|N|Learn [spell=19788/Dense Blasting Powder] Recipe from Trainer.|
 M [item=15992/Dense Blasting Powder]|QID|202019788|P|Engineering;202;0+260;1|ITEM|15992|CRAFT|19788 30|MATS|12365 2|N|You will probably have to make more than 30 to hit 260.|
-B [spell=19791/Thorium Widget]|QID|202002601|M|75.6,25.2|Z|1454;Orgrimmar|P|Engineering;202;0+260|T|Sovik|N|Purchase [item=16042/Schematic - Thorium Widget] from Sovik, in The Valley of Honor, Orgrimmar.|FACTION|Horde|
-B [spell=19791/Thorium Widget]|QID|202002601|M|62.4,44.0|Z|1455;Ironforge|P|Engineering;202;0+260|T|Gearcutter Cogspinner|N|Purchase [item=16042/Schematic - Thorium Widget] from Gearcutter Cogspinner, in Tinker Town, Ironforge.|FACTION|Alliance|
+B [spell=19791/Thorium Widget]|QID|202002601|M|75.6,25.2|Z|1454|P|Engineering;202;0+260|T|Sovik|N|Purchase [item=16042/Schematic - Thorium Widget] from Sovik, in The Valley of Honor, Orgrimmar.|FACTION|Horde|
+B [spell=19791/Thorium Widget]|QID|202002601|M|62.4,44.0|Z|1455|P|Engineering;202;0+260|T|Gearcutter Cogspinner|N|Purchase [item=16042/Schematic - Thorium Widget] from Gearcutter Cogspinner, in Tinker Town, Ironforge.|FACTION|Alliance|
 U Learn Recipe|QID|202002601|P|Engineering;202;0+260|RECIPE|19791|U|16042|N|Learn [spell=19791/Thorium Widget] Recipe from [item=16042/Schematic - Thorium Widget] you just purchased.|
 M [item=15994/Thorium Widget]|QID|202019791|P|Engineering;202;0+285;1|ITEM|15994|CRAFT|19791 35|MATS|12359 3;14047 1|
-B [spell=19795/Thorium Tube]|QID|202002751|M|60.8,38.6|Z|1452;Winterspring|P|Engineering;202;0+275|T|Xizzer Fizzbolt|N|Purchase [item=16047/Schematic - Thorium Tube] from Xizzer Fizzbolt in Everlook, Winterspring.|
+B [spell=19795/Thorium Tube]|QID|202002751|M|60.8,38.6|Z|1452|P|Engineering;202;0+275|T|Xizzer Fizzbolt|N|Purchase [item=16047/Schematic - Thorium Tube] from Xizzer Fizzbolt in Everlook, Winterspring.|
 U Learn Recipe|QID|202002751|P|Engineering;202;0+275|RECIPE|19795|U|16047|N|Learn [spell=19795/Thorium Tube] Recipe from [item=16047/Schematic - Thorium Tube] you just purchased.|
 M [item=16000/Thorium Tube]|QID|202019795|P|Engineering;202;0+300;1|ITEM|16000|CRAFT|19795 20|MATS|12359 6|
-
 N Congratualations!|QID|202000010|N|On reaching 300 in Classic Engineering.|
 ]]
 end)

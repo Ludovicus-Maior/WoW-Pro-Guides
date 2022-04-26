@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancENCH_BfA","Profession","Enchanting_BfA", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",333)
 WoWPro:GuideLevels(guide)
@@ -18,19 +17,16 @@ return [[
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8
 ;		= Learn Recipes|QID|333800101|M|48.41,29.43|Z|1670;Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
 ;		IE learn 2 at lvl 10 |333800101| and |333800102|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343584/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343584/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   Guide contains ZoneIDs - Z|862;Zuldazar|, Z|863;Nazmir|, Z|864;Vol'dun|, Z|896;Drustvar|, Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|1355;Nazjatar|
+;  Typed update to Battle for Azeroth splits on 16-Feb-2021 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-;  Typed update to Battle for Azeroth splits on 16-Feb-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
-
-N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|333000000|JUMP|ENCH_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|333000001|N|Covers what Blizzard now terms Kul Tiran / Zandalari Plans, content of Battle for Azeroth 1-175\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 175.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
-; Begin Shopping list
-
 l [item=152875/Gloom Dust]|QID|333000004|L|152875 3150|ITEM|152875|N|You'll need at least 3,150 Gloom Dusts.|
 l [item=152876/Umbra Shard]|QID|333000004|L|152876 505|ITEM|152876|N|You'll need at least 505 Umbra Shards.|
 l [item=152877/Veiled Crystal]|QID|333000004|L|152877 80|ITEM|152877|N|You'll need at least 80 Veiled Crystals.|
@@ -39,11 +35,8 @@ B [item=38682/Enchanting Vellum]|QID|333000004|L|38682 285|ITEM|38682|N|You'll n
 B [item=11291/Star Wood]|QID|333000004|L|11291 30|ITEM|11291|N|You'll need at least 30 Star Woods.|
 N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-; end of shopping list, and pre craft.
-; Guide contains ZoneIDs - Z|862;Zuldazar|, Z|863;Nazmir|, Z|864;Vol'dun|, Z|896;Drustvar|, Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|1355;Nazjatar|
 = Learn [spell=264473/Kul Tiran Enchanting]|QID|333264473|M|74.12,11.48|Z|1161|P|Enchanting;333;*;0;75|SPELL|Kul Tiran Enchating;264473|N|Learn from Enchantress Quinni, Tradewinds Market in Boralus.|FACTION|Alliance|
 = Learn [spell=265805/Zandalari Enchanting]|QID|333265805|M|47.0,35.8|Z|1165|P|Enchanting;333;*;0;75|SPELL|Zandalari Enchating;265805|N|Learn from Emily Fairweather, Terrace of Crafters in Dazar'alor.|FACTION|Horde|
-
 = Learn Recipe|QID|333700011|M|74.12,11.48|Z|1161|P|Enchanting;333;7+1|RECIPE|255035|N|Learn [spell=255035/Enchant Gloves - Kul Tiran Herbalism] Recipe from Trainer.|FACTION|Alliance|
 = Learn Recipe|QID|333700012|M|74.12,11.48|Z|1161|P|Enchanting;333;7+1|RECIPE|255040|N|Learn [spell=255040/Enchant Gloves - Kul Tiran Mining] Recipe from Trainer.|FACTION|Alliance|
 = Learn Recipe|QID|333700013|M|74.12,11.48|Z|1161|P|Enchanting;333;7+1|RECIPE|255066|N|Learn [spell=255066/Enchant Gloves - Kul Tiran Surveying] Recipe from Trainer.|FACTION|Alliance|

@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancENCH_Cata","Profession","Enchanting_Cata", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",333)
 WoWPro:GuideLevels(guide)
@@ -20,28 +19,21 @@ return [[
 ;		IE learn 2 at lvl 10 |333800101| and |333800102|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343584/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Typed update to Cataclysm splits on 15-Feb-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;  Typed update to Cataclysm splits on 15-Feb-2021 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-N Guide Hub|QID|333000000|JUMP|Enchanting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|333000000|JUMP|ENCH_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|333000001|N|Covers Cataclysm content in Retail only. Guide written in the new format.|
 N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Cataclysm Enchanting 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
-; Begin Shopping list
-
 l [item=52555/Hypnotic Dust]|QID|333000004|L|52555 591|ITEM|52555|N|You'll need at least 591 Hypnotic Dusts.|
 l [item=52718/Lesser Celestial Essence]|QID|333000004|L|52718 5|ITEM|52718|N|You'll need at least 5 Lesser Celestial Essence.|
 l [item=52719/Greater Celestial Essence]|QID|333000004|L|52719 106|ITEM|52719|N|You'll need at least 106 Greater Celestial Essence.|
 B [item=38682/Enchanting Vellum]|QID|333000004|L|38682 82|ITEM|38682|N|You'll need at least 82 Enchanting Vellums.|
-
 N Shopping List|QID|333000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-; end of shopping list, and pre craft.
-
 = Learn [spell=264464/Cataclysm Enchanting]|QID|333264462|P|Enchanting;333;*;0;0|SPELL|Cataclysm Enchanting;264464|LVL|5|N|Learn from Any Enchanting Trainer, in any Major City of Old Azeroth.  Also, BUY all Recipes available.|
-
 = Learn Recipe|QID|333300011|P|Enchanting;333;3+1|RECIPE|74189|N|Learn [spell=74189/Enchant Boots - Earthen Vitality] Recipe from Trainer.|
 = Learn Recipe|QID|333300012|P|Enchanting;333;3+1|RECIPE|74192|N|Learn [spell=74192/Enchant Cloak - Lesser Power] Recipe from Trainer.|
 M [item=52743/Enchant Boots - Earthen Vitality]|QID|333074189|P|Enchanting;333;3+5;1|ITEM|52743|CRAFT|74189 4|MATS|52555 2;38682 1|
@@ -66,7 +58,6 @@ M [item=52768/Enchant Shield - Superior Intellect]|QID|333074235|P|Enchanting;33
 = Learn Recipe|QID|333300601|P|Enchanting;333;3+60|RECIPE|74238|N|Learn [spell=74238/Enchant Boots - Mastery] Recipe from Trainer.|
 M [item=52770/Enchant Bracers - Exceptional Versatility]|QID|333074237|P|Enchanting;333;3+65;1|ITEM|52770|CRAFT|74237 5|MATS|52555 9;52719 3;38682 1|
 M [item=52771/Enchant Boots - Mastery]|QID|333074238|P|Enchanting;333;3+75;1|ITEM|52771|CRAFT|74238 17|MATS|52555 10;52719 3;38682 1|
-
 N Congratulations|QID|333000010|N|You've reached at 75 in Cataclysm Enchanting.|
 ]]
 end)

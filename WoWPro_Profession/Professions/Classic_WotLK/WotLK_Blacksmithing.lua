@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("WotLK_Blacksmithing", "Profession", "Blacksmithing", "WoWPro Team", "Neutral", 3)
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
@@ -18,16 +17,14 @@ return [[
 ;		IE = Learn Recipe|QID|164700151|P|Blacksmithing;164;7+15|RECIPE|253180|N|Learn [spell=253180/Monel-Hardened Waistguard] Recipe from Trainer.|
 ;		IE learn 2 at lvl 15 |164700151| and |164700152|
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
-
-;	(PRERELEASE) Updated to Classic - Wraith of the Lich King splits / new format on 23-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;   Guide Contains Zone IDs - Z|1454;Orgrimmar|, Z|1413;The Barrens|, Z|1446;Tanaris|, Z|1944;Hellfire Peninsula|, Z|1948;Shadowmoon Valley|, Z|1946;Zangarmarsh|
+;	(PRERELEASE) Updated to Classic - Wraith of the Lich King splits / new format on 23-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
 N This Guide|QID|164000001|N|is for Wraith of the Lich King in CLASSIC only. *** Vanilla - TBC - >WotLK<- not done yet, pre release file ***\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #WotLK-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Miner|QID|164000005|P|Mining;186;0;0|N|If you are a miner, running around for these mats will level your mining up. Unfortuantely some might get you killed in your toon is not of level. Currently no guide in the works for mining.|
-
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 375.\nThis is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
 l [item=2835/Rough Stone]|QID|164000004|L|2835 150|ITEM|2835|N|You'll need about 150 Rough Stones.|
 l [item=2836/Coarse Stone]|QID|164000004|L|2836 95|ITEM|2836|N|You'll need about  95 Coarse Stones.|
 l [item=2840/Copper Bar]|QID|164000004|L|2840 150|ITEM|2840|N|You'll need about 150 Copper Bars.|
@@ -55,11 +52,9 @@ N Smelting|QID|164000004|P|Mining;186;0|N|If you're miner is above 125 skill you
 M [item=2841/Bronze Bar]|QID|164000004|P|Mining;186;0+50|L|2841 140|CRAFT|2689 70|MATS|2840 1;3576 1|N|You need a total of 140, due to it makes 2 per smelt this was set to 'make' 70.|
 M [item=3859/Steel Bar]|QID|164000004|P|Mining;186;0+125|L|3859 190|CRAFT|3569 190|MATS|3575 1;3857 1|
 N Shopping List|QID|16400006|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
-; end of shopping list, and pre craft.
 
 = Learn [spell=2018/Blacksmithing]|QID|164002018|SPELL|Blacksmithing;2018|LVL|5|N|Learn from a Trainer in any major city.|
 B Hammer|QID|164005956|P|Blacksmithing;164;0+1;0|L|5956|N|Buy from an NPC Supply|
-
 M [item=2862/Rough Sharpening Stone]|QID|164002660|P|Blacksmithing;164;0+30;1|ITEM|2862|CRAFT|2660 33|MATS|2835 1|N|Might have to make more then 33, This will be yellow for the last 5 points.|
 = Learn Recipe|QID|164000251|P|Blacksmithing;164;0+25|RECIPE|3320|N|Learn [spell=3320/Rough Grinding Stone] Recipe from Trainer.|
 M [item=3470/Rough Grinding Stone]|QID|164003320|P|Blacksmithing;164;0+65;1|ITEM|3470|CRAFT|3320 50|MATS|2835 2|N|Save 10 Rough Grinding Stones.|
@@ -115,24 +110,24 @@ M [item=12406/Thorium Belt]|QID|164016643|P|Blacksmithing;164;0+270;1|ITEM|12406
 M [item=12416/Radiant Belt]|QID|164016645|P|Blacksmithing;164;0+270;1|ITEM|12416|CRAFT|16645 10|MATS|12359 10;7077 2|N|If you did not find this one OR do not have any Heart of Fire, right click for alternate plans.|
 M [item=7933/Heavy Mithril Boots]|QID|16409968|P|Blacksmithing;164;0+265;1|ITEM|7933|CRAFT|9968 8|MATS|3860 14;4304 4|
 N Imperial Plate Set|AVAILABLE|7653^7654^7655|N|You will need to get to Gadgetzan, Tanaris to complete a few quests to unlock the ability to 'purchase' the plans. Need to be 265 in Blacksmithing, and Level 50. Only the quests needed for the plans for this guide is listed. You will need about 80 [item=12359/Thorium Bar] to buy the three you need or upto 270 [item=12359/Thorium Bar] to buy them all, a higher Reputation with the Thorium Brotherhood will decrease the cost. Right click step to continue, if you don't meet the requirements this guide will END HERE.|
-F Gadgetzan|AVAILABLE|7653^7654^7655|M|45.2,63.8|Z|1454;Orgrimmar|P|Blacksmithing;164;0+265|LVL|50|N|Fly to Gadgetzan from any Flight Master in Kalimdor. (These coords take you to Doras in Orgrimmar.|FACTION|Horde|
-F Gadgetzan|AVAILABLE|7653^7654^7655|M|63.08,37.16|Z|1413;The Barrens|P|Blacksmithing;164;0+265|LVL|50|N|Fly to Gadgetzan from any Flight Master in Kalimdor. (These coords take you to Bragok in Ratchet.|
-A A Blue Light Bargain|QID|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. This unlocks the Imperial Plate sets.|
-T A Blue Light Bargain|QID|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper.|
-A Imperial Plate Belt|QID|7653|PRE|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
-T Imperial Plate Belt|QID|7653|PRE|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
-A Imperial Plate Boots|QID|7654|PRE|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. Cost: 40 [item=12359/Thorium Bar].|
-T Imperial Plate Boots|QID|7654|PRE|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper. Cost: 40 [item=12359/Thorium Bar].|
-A Imperial Plate Bracer|QID|7655|PRE|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
-T Imperial Plate Bracer|QID|7655|PRE|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
+F Gadgetzan|AVAILABLE|7653^7654^7655|M|45.2,63.8|Z|1454|P|Blacksmithing;164;0+265|LVL|50|N|Fly to Gadgetzan from any Flight Master in Kalimdor. (These coords take you to Doras in Orgrimmar.|FACTION|Horde|
+F Gadgetzan|AVAILABLE|7653^7654^7655|M|63.08,37.16|Z|1413|P|Blacksmithing;164;0+265|LVL|50|N|Fly to Gadgetzan from any Flight Master in Kalimdor. (These coords take you to Bragok in Ratchet.|
+A A Blue Light Bargain|QID|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. This unlocks the Imperial Plate sets.|
+T A Blue Light Bargain|QID|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper.|
+A Imperial Plate Belt|QID|7653|PRE|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
+T Imperial Plate Belt|QID|7653|PRE|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
+A Imperial Plate Boots|QID|7654|PRE|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. Cost: 40 [item=12359/Thorium Bar].|
+T Imperial Plate Boots|QID|7654|PRE|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper. Cost: 40 [item=12359/Thorium Bar].|
+A Imperial Plate Bracer|QID|7655|PRE|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
+T Imperial Plate Bracer|QID|7655|PRE|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
 U Learn Recipe|QID|164002651|P|Blacksmithing;164;0+265|RECIPE|16647|U|12688|N|Learn [spell=16647/Imperial Plate Belt], using Quest reward from Quest Imperial Plate Belt, reward [item=12688/Plans Imperial Plate Belt]|
 M [item=12424/Imperial Plate Belt]|QID|164016647|P|Blacksmithing;164;0+270;1|ITEM|12424|CRAFT|16647 5|MATS|12359 10;8170 6|
 U Learn Recipe|QID|164002701|P|Blacksmithing;164;0+270|RECIPE|16649|U|12690|N|Learn [spell=16649/Imperial Plate Bracers], using Quest reward from Quest Imperial Plate Bracer, reward [item=12690/Plans Imperial Plate Bracers]|
 M [item=12425/Imperial Plate Bracers]|QID|164016649|P|Blacksmithing;164;0+295;1|ITEM|12425|CRAFT|16649 28|MATS|12359 12|
 U Learn Recipe|QID|164002951|P|Blacksmithing;164;0+295|RECIPE|16657|U|12700|N|Learn [spell=16657/Imperial Plate Boots], using Quest reward from Quest Imperial Plate Boots, reward [item=12700/Plans Imperial Plate Boots]|
 M [item=12426/Imperial Plate Boots]|QID|164016657|P|Blacksmithing;164;0+300;1|ITEM|12426|CRAFT|16657 5|MATS|12359 18|
-= Learn [spell=29844/Master Blacksmithing]|QID|164029844|M|53.2,38.2|Z|1944;Hellfire Peninsula|IZ|1944;Hellfire Peninsula|P|Blacksmithing;164;0+275|SPELL|Master Blacksmithing;29844|LVL|50|T|Rohok|N|Learn from Rohok, in Thrallmar, Hellfire Peninsula. Also, Learn / Buy all Recipes available.|FACTION|Horde|
-= Learn [spell=29844/Master Blacksmithing]|QID|164029844|M|56.8,63.8|Z|1944;Hellfire Peninsula|IZ|1944;Hellfire Peninsula|P|Blacksmithing;164;0+275|SPELL|Master Blacksmithing;29844|LVL|50|T|Humphry|N|Learn from Humphry, in Honor Hold, Hellfire Peninsula. Also, Learn / Buy all Recipes available.|FACTION|Alliance|
+= Learn [spell=29844/Master Blacksmithing]|QID|164029844|M|53.2,38.2|Z|1944|IZ|3483|P|Blacksmithing;164;0+275|SPELL|Master Blacksmithing;29844|LVL|50|T|Rohok|N|Learn from Rohok, in Thrallmar, Hellfire Peninsula. Also, Learn / Buy all Recipes available.|FACTION|Horde|
+= Learn [spell=29844/Master Blacksmithing]|QID|164029844|M|56.8,63.8|Z|1944|IZ|3483|P|Blacksmithing;164;0+275|SPELL|Master Blacksmithing;29844|LVL|50|T|Humphry|N|Learn from Humphry, in Honor Hold, Hellfire Peninsula. Also, Learn / Buy all Recipes available.|FACTION|Alliance|
 = Learn [spell=29844/Master Blacksmithing]|QID|164029844|P|Blacksmithing;164;0+275|SPELL|Master Blacksmithing;29844|LVL|50|N|Learn Master Engineering in Hellfire Peninsula at your Faction areas, OR in Shattrath.|
 = Learn Recipe|QID|164003001|P|Blacksmithing;164;0+300|RECIPE|34607|N|Learn [spell=34607/Fel Weightstone] Recipe from Trainer.|
 M [item=28420/Fel Weightstone]|QID|164034607|P|Blacksmithing;164;0+305;1|ITEM|28420|CRAFT|34607 7|MATS|23445 1;21877 1|
@@ -146,11 +141,11 @@ M [item=23487/Fel Iron Plate Boots]|QID|164029548|P|Blacksmithing;164;0+325;1|IT
 = Learn Recipe|QID|164003251|P|Blacksmithing;164;0+325|RECIPE|32284|N|Learn [spell=32284/Lesser Rune of Warding] Recipe from Trainer.|
 M [item=23559/Lesser Rune of Warding]|QID|164032284|P|Blacksmithing;164;0+335;1|ITEM|23559|CRAFT|32284 45|MATS|23446 1|N|Turns green during the last 5 points, so 45 is an approximate amount.|
 M [item=23490/Fel Iron Chain Tunic]|QID|164029556|P|Blacksmithing;164;0+340;1|ITEM|23490|CRAFT|29556 7|MATS|23445 9|N|Is yellow, so might need one or two more.|
-B [spell=29728/Lesser Ward of Shielding]|QID|164003401|M|53.2,38.2|Z|1944;Hellfire Peninsula|P|Blacksmithing;164;0+340|RECIPE|29728|L|23638|T|Rohok|N|Purchase [item=23638/Plans - Lesser Ward of Shielding] from Rohok, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
-B [spell=29728/Lesser Ward of Shielding]|QID|164003401|M|36.8,55.0|Z|1948;Shadowmoon Valley|P|Blacksmithing;164;0+340|RECIPE|29728|L|23638|T|Mari Stonehand|N|Purchase [item=23638/Plans - Lesser Ward of Shielding] from Mari Stonehand, in Wildhammer Stronghold, Shadowmoon Valley.|FACTION|Alliance|
+B [spell=29728/Lesser Ward of Shielding]|QID|164003401|M|53.2,38.2|Z|1944|P|Blacksmithing;164;0+340|RECIPE|29728|L|23638|T|Rohok|N|Purchase [item=23638/Plans - Lesser Ward of Shielding] from Rohok, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
+B [spell=29728/Lesser Ward of Shielding]|QID|164003401|M|36.8,55.0|Z|1948|P|Blacksmithing;164;0+340|RECIPE|29728|L|23638|T|Mari Stonehand|N|Purchase [item=23638/Plans - Lesser Ward of Shielding] from Mari Stonehand, in Wildhammer Stronghold, Shadowmoon Valley.|FACTION|Alliance|
 U Learn Recipe|QID|164003401|P|Blacksmithing;164;0+340|RECIPE|29728|U|23638|N|Learn [spell=29728/Lesser Ward of Shielding] Recipe from [item=23638/Plans - Lesser Ward of Shielding] you just purchased.|
 M [item=23575/Lesser Ward of Shielding]|QID|164029728|P|Blacksmithing;164;0+350;1|ITEM|23575|CRAFT|29728 4|MATS|23446 1|N|Turns green during the last 5 points, so 45 is an approximate amount.|
-B [spell=34608/Adamantite Weightstone]|QID|164003501|M|79.2,63.8|Z|1946;Zangarmarsh|P|Blacksmithing;164;0+350|RECIPE|34608|L|28632|T|Fedryen Swiftspear|N|Purchase [item=28632/Plans - Adamantite Weightstone] from Fedryen Swiftspear, in Cenarion Refure, Zangarmarsh.  **BOP** Also requires Honored Reputation with Cenarion Expedition.|REP|Cenarion Expedition;942;Honored-Exalted|
+B [spell=34608/Adamantite Weightstone]|QID|164003501|M|79.2,63.8|Z|1946|P|Blacksmithing;164;0+350|RECIPE|34608|L|28632|T|Fedryen Swiftspear|N|Purchase [item=28632/Plans - Adamantite Weightstone] from Fedryen Swiftspear, in Cenarion Refure, Zangarmarsh.  **BOP** Also requires Honored Reputation with Cenarion Expedition.|REP|Cenarion Expedition;942;Honored-Exalted|
 U Learn Recipe|QID|164003501|P|Blacksmithing;164;0+350|RECIPE|34608|U|28632|N|Learn [spell=34608/Adamantite Weightstone] Recipe from [item=28632/Plans - Adamantite Weightstone] you just purchased.|
 M [item=28421/Adamantite Weightstone]|QID|164034608|P|Blacksmithing;164;0+360;1|ITEM|28421|CRAFT|34608 45|MATS|23446 1;21877 2|N|Turns green during the last 5 points, so 45 is an approximate amount.|
 N Leveling to 375|QID|164003751|P|Blacksmithing;164;0+360|N|There are a few ways to get to 375, 2 involve farming Rep for Scryers or Aldor, 1 requires farming Auchenai Crypts, the last way killing Murkblood Raiders in Nagrand. NONE of the ways are included in this guide at this time.|

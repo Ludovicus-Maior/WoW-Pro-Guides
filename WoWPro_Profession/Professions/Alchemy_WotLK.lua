@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancAlchemy_WotLK","Profession","Alchemy_WotLK", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",171)
 WoWPro:GuideLevels(guide)
@@ -19,16 +18,15 @@ return [[
 ;		IE = Learn Recipe|QID|171800151|M|39.25,40.39|Z|1670;Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion] Recipe, from Trainer.|
 ; 		IE learn 2 at lvl 15 |171800151| and |171800152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   This Guide contains Z|ID# - Z|114;Borean Tundra|, Z|115;Dragonblight|, Z|117;Howling Fjord|, Z|125;Dalaran!Crystalsong Forest|.
+;  Updated to Wraith of the Lich King splits / new format on 12-Jan-2021 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-;  Updated to Wraith of the Lich King splits / new format on 12-Jan-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
-
-N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|171000000|JUMP|ALC_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|171000001|N|Covers Wraith of the Lich King content in Retail only. Guide written in the new format.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
 l [item=36907/Talandra's Rose]|QID|171000004|L|36907 20|ITEM|36907|N|You'll need about 20 Talandra's Rose.|
 l [item=36904/Tiger Lily]|QID|171000004|L|36904 20|ITEM|36904|N|You'll need about 20 Tiger Lily.|
 l [item=36901/Goldclover]|QID|171000004|L|36901 60|ITEM|36901|N|You'll need about 60 Goldclover.|
@@ -42,19 +40,17 @@ l [item=36860/Eternal Fire]|QID|171000004|L|36860 5|ITEM|36860|N|You'll need abo
 l [item=36905/Lichbloom]|QID|171000004|L|36905 105|ITEM|36905|N|You'll need about 105 Lichbloom.|
 l [item=37704/Crystallized Life]|QID|171000004|L|37704 45|ITEM|37704|N|You'll need about 45 Crystallized Life.|
 B [item=3371/Crystal Vial]|QID|171000004|L|3371 95|ITEM|3371|N|You'll need about 95 Crystal Vials.|
-
 N Shopping List|QID|171000006|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
-; This section includes Z|ID# - Z|114;Borean Tundra|, Z|115;Dragonblight|, Z|117;Howling Fjord|, Z|125;Dalaran!Crystalsong Forest|.
-= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|42.66,32.07|Z|125|IZ|125|SPELL|Northrend Alchemy;264220|LVL|5|T|Linzy Blackbolt|N|Learn from Linzy Blackbolt, The Agronomical Apothecary, Dalaran, Crystalsong Forest - Northrend.|
-= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|41.76,54.22|Z|114|IZ|114|SPELL|Northrend Alchemy;264220|T|Arthur Henslowe|N|Learn from Arthur Henslowe in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
-= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|78.6,28.6|Z|117|IZ|117|SPELL|Northrend Alchemy;264220|T|Wilhelmina Renel|N|Learn from Wilhelmina Renel in Vengeance Landing, Howling Fjord. Also, BUY all Recipes available.|FACTION|Horde|
-= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|36.60,48.83|Z|115|IZ|115|SPELL|Northrend Alchemy;264220|T|Apothecary Bressa|N|Learn from Apothecary Bressa in Agmar's Hammer, Dragonblight. Also, BUY all Recipes available.|FACTION|Horde|
-= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|76.88,62.09|Z|115|IZ|115|SPELL|Northrend Alchemy;264220|T|Apothecary Wormwick|N|Learn from Apothecary Wormwick in Venomspite, Dragonblight. Also, BUY all Recipes available.|FACTION|Horde|
-= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|57.8,71.8|Z|114|IZ|114|SPELL|Northrend Alchemy;264220|LVL|5|T|Falorn Nightwhisper|N|From Falorn Nightwhisper in Valiance Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Alliance|
-= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|58.4,62.2|Z|117|IZ|117|SPELL|Northrend Alchemy;264220|LVL|5|T|Lanolis Dewdrop|N|From Lanolis Dewdrop in Valgarde, Howling Fjord. Also, BUY all Recipes available.|FACTION|Alliance|
+
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|42.66,32.07|Z|125|IZ|4395|SPELL|Northrend Alchemy;264220|LVL|5|T|Linzy Blackbolt|N|Learn from Linzy Blackbolt, The Agronomical Apothecary, Dalaran, Crystalsong Forest - Northrend.|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|41.76,54.22|Z|114|IZ|3537|SPELL|Northrend Alchemy;264220|T|Arthur Henslowe|N|Learn from Arthur Henslowe in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|78.6,28.6|Z|117|IZ|495|SPELL|Northrend Alchemy;264220|T|Wilhelmina Renel|N|Learn from Wilhelmina Renel in Vengeance Landing, Howling Fjord. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|36.60,48.83|Z|115|IZ|65|SPELL|Northrend Alchemy;264220|T|Apothecary Bressa|N|Learn from Apothecary Bressa in Agmar's Hammer, Dragonblight. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|76.88,62.09|Z|115|IZ|65|SPELL|Northrend Alchemy;264220|T|Apothecary Wormwick|N|Learn from Apothecary Wormwick in Venomspite, Dragonblight. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|57.8,71.8|Z|114|IZ|3537|SPELL|Northrend Alchemy;264220|LVL|5|T|Falorn Nightwhisper|N|From Falorn Nightwhisper in Valiance Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=264220/Northrend Alchemy]|QID|171264220|M|58.4,62.2|Z|117|IZ|495|SPELL|Northrend Alchemy;264220|LVL|5|T|Lanolis Dewdrop|N|From Lanolis Dewdrop in Valgarde, Howling Fjord. Also, BUY all Recipes available.|FACTION|Alliance|
 = Learn [spell=264220/Northrend Alchemy]|QID|171264220|SPELL|Northrend Alchemy;264220|LVL|5|N|Learn from Alchemy Trainers in Borean Tundra, Howling Fjord, Dragonblight or Dalaran.  (Once you get to an area that has a local trainer, an arrow will popup).|FACTION|Horde|
 = Learn [spell=264220/Northrend Alchemy]|QID|171264220|SPELL|Northrend Alchemy;264220|LVL|5|N|Learn from Alchemy Trainers in Borean Tundra, Howling Fjord, or Dalaran. (Once you get to an area that has a local trainer, an arrow will popup).|FACTION|Alliance|
-
 M [item=40067/Icy Mana Potion]|QID|171053839|P|Alchemy;171;2+05;1|ITEM|40067|CRAFT|53839 5|MATS|36907 2;3371 1|
 = Learn Recipe|QID|171200051|P|Alchemy;171;2+05|RECIPE|53900|N|Learn [spell=53900/Potion of Nightmares] Recipe from Trainer.|
 M [item=40081/Potion of Nightmares]|QID|171053900|P|Alchemy;171;2+10;1|ITEM|40081|CRAFT|40067 5|MATS|36901 1;36907 2;3371 1|
@@ -76,7 +72,6 @@ M [item=41334/Earthsiege Diamond]|QID|171057427|P|Alchemy;171;2+60;1|ITEM|41334|
 M [item=41266/Skyflare Diamond]|QID|171057425|P|Alchemy;171;2+60;1|ITEM|41266|CRAFT|57425 5|MATS|36917 1;36923 1;35623 1|N|Materials were not listed above.|
 = Learn Recipe|QID|171200601|P|Alchemy;171;2+60|RECIPE|53902|N|Learn [spell=53902/Flask of Stoneblood] Recipe from Trainer.|
 M [item=46379/Flask of Stoneblood]|QID|171053902|P|Alchemy;171;2+75;1|ITEM|46379|CRAFT|53902 15|MATS|36905 7;37704 3;36908 1;3371 1|
-
 N Congratualations!|QID|171000010|N|On reaching 75 in Northrend Alchemy.|
 ]]
 end)

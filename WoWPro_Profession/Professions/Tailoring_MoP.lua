@@ -20,9 +20,10 @@ return [[
 ;		IE Learn 2 at lvl 15 |197800151| and |197800152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Updated to Pandarian splits / new format on 07-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;	Updated to Pandarian splits / new format on 07-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
+;	Zone IDs used in guide: Z|376;Valley of the Four Winds|, Z|391;Hall of the Crescent Moon@Shrine of Two Moons|, Z|393;The Emperor's Step@Shrine of Seven Stars|
 
-N Guide Hub|QID|197000000|JUMP|Tailoring: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|197000000|JUMP|TLR_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|197000001|N|Currently in Development, This Guide covers Mist of Pandaria content in Retail.|
 N PLEASE Report any issues|QID|197000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
@@ -35,20 +36,20 @@ l [item=76061/Spirit of Harmony]|QID|197000004|L|76061 1|ITEM|76061|N|You'll 1 S
 N Shopping List|QID|197000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 N Tailoring and Bandage Trainers|QID|197000008|N|It's possible these NPC's name may change, as you level and/or complete quests, but the phased trainers should be near the same areas.|
 
-= Learn [spell=264624/Pandaria Tailoring]|QID|197264624|M|62.76,59.76|Z|376;Valley of the Four Winds|P|Tailoring;197;*;0;0|SPELL|Pandaria Tailoring;264624|T|Silkmaster Tsai|LVL|5|N|From Silkmaster Tsai, Silken Fields, Valley of Four Winds.  Also, BUY all Recipes available.|
+= Learn [spell=264624/Pandaria Tailoring]|QID|197264624|M|62.76,59.76|Z|376|P|Tailoring;197;*;0;0|SPELL|Pandaria Tailoring;264624|T|Silkmaster Tsai|LVL|5|N|From Silkmaster Tsai, Silken Fields, Valley of Four Winds.  Also, BUY all Recipes available.|
 
 M [item=82441/Bolt of Windwool Cloth]|QID|197125551|P|Tailoring;197;4+10;1|L|82441 45|ITEM|82441|CRAFT|125551 45|MATS|72988 5|N|You'll need these for a later step, just make until 10 Point or 45 items.|
-= Learn Bandage Recipe|QID|197400011|P|Tailoring;197;4+5|M|31.0,74.0|Z|391;Hall of the Crescent Moon@Shrine of Two Moons|RECIPE|102697|T|Ala'thinel|N|Learn [spell=102697/Windwool Bandage] from Ala'thinel, Hall of Crescent Moon, Shrine of Two Moons (Or any Bandage Trainer).|FACTION|Horde|
-= Learn Bandage Recipe|QID|197400011|P|Tailoring;197;4+5|M|46.6,62.2|Z|393;The Emperor's Step@Shrine of Seven Stars|RECIPE|102697|T|Healer Nan|N|Learn [spell=102697/Windwool Bandage] from Healer Nan, Emperor's Step, Shrine of Seven Stars (Or any Bandage Trainer)|FACTION|Alliance|
+= Learn Bandage Recipe|QID|197400011|P|Tailoring;197;4+5|M|31.0,74.0|Z|391|RECIPE|102697|T|Ala'thinel|N|Learn [spell=102697/Windwool Bandage] from Ala'thinel, Hall of Crescent Moon, Shrine of Two Moons (Or any Bandage Trainer).|FACTION|Horde|
+= Learn Bandage Recipe|QID|197400011|P|Tailoring;197;4+5|M|46.6,62.2|Z|393|RECIPE|102697|T|Healer Nan|N|Learn [spell=102697/Windwool Bandage] from Healer Nan, Emperor's Step, Shrine of Seven Stars (Or any Bandage Trainer)|FACTION|Alliance|
 M [item=72985/Windwool Bandage]|QID|197102697|P|Tailoring;197;4+25;1|ITEM|72985|CRAFT|102697 20|MATS|72988 1|
-= Learn Bandage Recipe|QID|197400251|P|Tailoring;197;4+25|M|31.0,74.0|Z|391;Hall of the Crescent Moon@Shrine of Two Moons|RECIPE|102698|T|Ala'thinel|N|Learn [spell=102698/Heavy Windwool Bandage] from Ala'thinel, Hall of Crescent Moon, Shrine of Two Moons (Or any Bandage Trainer).|FACTION|Horde|
-= Learn Bandage Recipe|QID|197400251|P|Tailoring;197;4+25|M|46.6,62.2|Z|393;The Emperor's Step@Shrine of Seven Stars|RECIPE|102698|T|Healer Nan|N|Learn [spell=102698/Heavy Windwool Bandage] from Healer Nan, Emperor's Step, Shrine of Seven Stars (Or any Bandage Trainer)|FACTION|Alliance|
+= Learn Bandage Recipe|QID|197400251|P|Tailoring;197;4+25|M|31.0,74.0|Z|391|RECIPE|102698|T|Ala'thinel|N|Learn [spell=102698/Heavy Windwool Bandage] from Ala'thinel, Hall of Crescent Moon, Shrine of Two Moons (Or any Bandage Trainer).|FACTION|Horde|
+= Learn Bandage Recipe|QID|197400251|P|Tailoring;197;4+25|M|46.6,62.2|Z|393|RECIPE|102698|T|Healer Nan|N|Learn [spell=102698/Heavy Windwool Bandage] from Healer Nan, Emperor's Step, Shrine of Seven Stars (Or any Bandage Trainer)|FACTION|Alliance|
 M [item=72986/Heavy Windwool Bandage]|QID|197102698|P|Tailoring;197;4+75;1|ITEM|72986|CRAFT|102698 90|MATS|72988 2|
-B [spell=125544/Contenders Satin Cuffs]|QID|197125544|M|31.6,53.6|Z|391;Hall of the Crescent Moon@Shrine of Two Moons|P|Tailoring;197;4+50|RECIPE|125544|N|Purchase [item=86365/Pattern: Contenders Satin Cuffs], From Esha the Loommaiden, in Shrine of Two Moons.|FACTION|Horde|
-B [spell=125544/Contenders Satin Cuffs]|QID|197125544|M|64.8,42.8|Z|393;The Emperor's Step@Shrine of Seven Stars|P|Tailoring;197;4+50|RECIPE|125544|N|Purchase [item=86365/Pattern: Contenders Satin Cuffs], From Raishen the Needle, in Shrine of Seven Stars.|FACTION|Alliance|
+B [spell=125544/Contenders Satin Cuffs]|QID|197125544|M|31.6,53.6|Z|391|P|Tailoring;197;4+50|RECIPE|125544|N|Purchase [item=86365/Pattern: Contenders Satin Cuffs], From Esha the Loommaiden, in Shrine of Two Moons.|FACTION|Horde|
+B [spell=125544/Contenders Satin Cuffs]|QID|197125544|M|64.8,42.8|Z|393|P|Tailoring;197;4+50|RECIPE|125544|N|Purchase [item=86365/Pattern: Contenders Satin Cuffs], From Raishen the Needle, in Shrine of Seven Stars.|FACTION|Alliance|
 U Learn Recipe|QID|197400601|P|Tailoring;197;4+25|RECIPE|125544|U|86365|N|Learn [spell=125544/Contenders Satin Cuffs] from [item=86365/Pattern: Contenders Satin Cuffs], you just purchased.|
 M [item=82434/Contenders Satin Cuffs]|QID|197125544|P|Tailoring;197;4+75;1|ITEM|82434|CRAFT|125544 15|MATS|82441 3|
 
-N Congratulations!|QID|197000010|N|That completes Pandaria - Mist of Pandaria Tailoring.|
+N Congratulations!|QID|197000010|N|That completes Pandaria - Mist of Pandaria Tailoring.|JUMP|TLR_WoD|NOCACHE|
 ]]
 end)

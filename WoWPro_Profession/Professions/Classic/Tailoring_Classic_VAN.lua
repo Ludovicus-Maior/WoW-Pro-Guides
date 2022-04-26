@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancTLR_Classic","Profession","Tailoring_Classic", "WoWPro Team", "Neutral",1)
 WoWPro:GuideIcon(guide,"PRO",197)
 WoWPro:GuideLevels(guide)
@@ -19,14 +18,13 @@ return [[
 ;		IE = Learn Recipe|QID|197800151|M|45.50,31.78|Z|Ring of Fates@Oribos|P|Tailoring;197;8+15|RECIPE|310871|N|Learn [spell=310871/Shrouded Cloth Cape] Recipe, from Trainer|
 ;		IE Learn 2 at lvl 15 |197800151| and |197800152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
-
-;	Updated to Classic splits / new format on 19-Nov-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;   This guide Contains Zone IDs: Z|1453;Stormwind City|, Z|1454;Orgrimmar|, Z|1458;Undercity|, Z|1445;Dustwallow Marsh|, Z|1424;Hillsbrad Foothills|, Z|1452;Winterspring|
+;	Updated to Classic splits / new format on 19-Nov-2021 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
 N This Guide|QID|197000001|N|covers CLASSIC VANILLA content.|
 N PLEASE Report any issues|QID|197000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|197000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 300.\n This is for those that want to farm all mats prior to starting.\n If you don't want to farm the mats just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
 l [item=2589/Linen Cloth]|QID|197000004|L|2589 205|ITEM|2589|N|You'll need approx 205 Linen Cloth.|
 l [item=2592/Wool Cloth]|QID|197000004|L|2592 135|ITEM|2592|N|You'll need approx 135 Wool Cloth.|
 l [item=4306/Silk Cloth]|QID|197000004|L|4306 780|ITEM|4306|N|You'll need approx 780 Silk Cloth.|
@@ -42,13 +40,12 @@ l [item=4291/Silken Thread]|QID|197000004|L|4291 20|ITEM|4291|N|You'll need appr
 l [item=8343/Heavy Silken Thread]|QID|197000004|L|8343 71|ITEM|8343|N|You'll need approx 71 Heavy Silken Thread.|
 l [item=6261/Orange Dye]|QID|197000004|L|6261 5|ITEM|6261|N|You'll need approx 5 Orange Dye.|
 l [item=14341/Rune Thread]|QID|197000004|L|14341 61|ITEM|14341|N|You'll need approx 61 Rune Thread.|
-
 N Shopping List|QID|197000005|N|This completes the Shopping List|
 
 N Tailoring and Bandage Trainers|QID|197000008|N|It's possible these NPC's name may change, as you level and/or complete quests, but the phased trainers should be near the same areas.|
 
-= Learn [spell=3908/Tailoring]|QID|197003908|M|53.10,81.40|Z|1453;Stormwind City|SPELL|Tailoring;3908|LVL|5|N|Learn from Georgio Bolero, Mage Quarter, Stormwind.|FACTION|Alliance|
-= Learn [spell=3908/Tailoring]|QID|197003908|M|38.30,87.14|Z|1454;Orgrimmar|SPELL|Tailoring;3908|LVL|5|N|Learn from Leyweaver Aurielle, Orgrimmar Embassy, Orgrimmar.|FACTION|Horde|
+= Learn [spell=3908/Tailoring]|QID|197003908|M|53.10,81.40|Z|1453|SPELL|Tailoring;3908|LVL|5|N|Learn from Georgio Bolero, Mage Quarter, Stormwind.|FACTION|Alliance|
+= Learn [spell=3908/Tailoring]|QID|197003908|M|38.30,87.14|Z|1454|SPELL|Tailoring;3908|LVL|5|N|Learn from Leyweaver Aurielle, Orgrimmar Embassy, Orgrimmar.|FACTION|Horde|
 M [item=2996/Bolt of Linen Cloth]|QID|197002963|P|Tailoring;197;0+45;1|ITEM|2996|CRAFT|2963 102|MATS|2589 2|
 = Learn Recipe|QID|1970000151|P|Tailoring;197;0+15|RECIPE|8776|N|Learn [spell=8776/Linen Belt] Recipe, from Trainer.|
 M [item=7026/Linen Belt]|QID|197008776|P|Tailoring;197;0+70;1|ITEM|7026|CRAFT|8776 40|MATS|2996 1;2320 1|
@@ -61,8 +58,8 @@ M [item=2997/Bolt of Woolen Cloth]|QID|197002964|P|Tailoring;197;0+100;1|ITEM|29
 M [item=10047/Simple Kilt]|QID|197012046|P|Tailoring;197;0+110;1|ITEM|10047|CRAFT|12046 13|MATS|2996 4;2321 1|
 = Learn Recipe|QID|1970001101|P|Tailoring;197;0+110|RECIPE|3848|N|Learn [spell=3848/Double-stitched Woolen Shoulders] Recipe, from Trainer.|
 M [item=4314/Double-stitched Woolen Shoulders]|QID|197003848|P|Tailoring;197;0+125;1|ITEM|4314|CRAFT|3848 15|MATS|2997 3;2321 2|
-= Learn [spell=3913/Expert Tailor]|QID|197003913|M|43.2,73.5|Z|1453;Stormwind City|P|Tailoring;197;0+125|SPELL|Expert Tailoring;3913|LVL|20|T|Georgio Bolero|N|Visit Georgio Bolero, Artisan Tailor Trainer in Stormwind City.|FACTION|Alliance|
-= Learn [spell=3913/Expert Tailor]|QID|197003913|M|70.8,30.7|Z|1458;Undercity|P|Tailoring;197;0+125|SPELL|Expert Tailoring;3913|LVL|20|T|Josef Gregorian|N|Visit Josef Gregorian, Artisan Tailor Trainer in Undercity.|FACTION|Horde|
+= Learn [spell=3913/Expert Tailor]|QID|197003913|M|43.2,73.5|Z|1453|P|Tailoring;197;0+125|SPELL|Expert Tailoring;3913|LVL|20|T|Georgio Bolero|N|Visit Georgio Bolero, Artisan Tailor Trainer in Stormwind City.|FACTION|Alliance|
+= Learn [spell=3913/Expert Tailor]|QID|197003913|M|70.8,30.7|Z|1458|P|Tailoring;197;0+125|SPELL|Expert Tailoring;3913|LVL|20|T|Josef Gregorian|N|Visit Josef Gregorian, Artisan Tailor Trainer in Undercity.|FACTION|Horde|
 = Learn Recipe|QID|1970001251|P|Tailoring;197;0+125|RECIPE|3839|N|Learn [spell=3839/Bolt of Silk Cloth] Recipe, from Trainer.|
 M [item=4305/Bolt of Silk Cloth]|QID|197003839|P|Tailoring;197;0+145;1|ITEM|4305|CRAFT|3839 195|MATS|4306 4|N|Craft all 195, you'll need these later.|
 = Learn Recipe|QID|1970001451|P|Tailoring;197;0+145|RECIPE|8760|N|Learn [spell=8760/Azure Silk Hood] Recipe, from Trainer.|
@@ -79,8 +76,8 @@ M [item=7058/Crimson Silk Vest]|QID|197008791|P|Tailoring;197;0+205;1|ITEM|7058|
 M [item=7062/Crimson Silk Pantaloons]|QID|197008799|P|Tailoring;197;0+215;1|ITEM|7062|CRAFT|8799 10|MATS|4305 4;2604 2;4291 2|
 = Learn Recipe|QID|1970002151|P|Tailoring;197;0+215|RECIPE|12061|N|Learn [spell=12061/Orange Mageweave Shirt] Recipe, from Trainer.|
 M [item=10056/Orange Mageweave Shirt]|QID|197012061|P|Tailoring;197;0+220;1|ITEM|10056|CRAFT|12061 5|MATS|4339 1;6261 1;8343 1|
-= Learn [spell=12180/Artisan Tailor]|QID|171012180|M|66.2,51.6|Z|1445;Dustwallow Marsh|P|Tailoring;197;0+200|SPELL|Artisan Tailoring;12180|LVL|35|T|Timothy Worthington|N|Visit Timothy Worthington, Master Tailor Trainer in Dustwallow Marsh.|FACTION|Alliance|
-= Learn [spell=12180/Artisan Tailor]|QID|171012180|M|63.8,20.8|Z|1424;Hillsbrad Foothills|P|Tailoring;197;0+200|SPELL|Artisan Tailoring;12180|LVL|35|T|Daryl Stack|N|Visit Daryl Stack, Master Tailor Trainer in Hillsbrad Foothills.|FACTION|Horde|
+= Learn [spell=12180/Artisan Tailor]|QID|171012180|M|66.2,51.6|Z|1445|P|Tailoring;197;0+200|SPELL|Artisan Tailoring;12180|LVL|35|T|Timothy Worthington|N|Visit Timothy Worthington, Master Tailor Trainer in Dustwallow Marsh.|FACTION|Alliance|
+= Learn [spell=12180/Artisan Tailor]|QID|171012180|M|63.8,20.8|Z|1424|P|Tailoring;197;0+200|SPELL|Artisan Tailoring;12180|LVL|35|T|Daryl Stack|N|Visit Daryl Stack, Master Tailor Trainer in Hillsbrad Foothills.|FACTION|Horde|
 = Learn Recipe|QID|1970002151|P|Tailoring;197;0+215|RECIPE|12053|N|Learn [spell=12053/Black Mageweave Gloves] Recipe, from Trainer.|
 M [item=10003/Black Mageweave Gloves]|QID|197012053|P|Tailoring;197;0+230;1|ITEM|10003|CRAFT|12053 10|MATS|4339 2;8343 2|
 = Learn Recipe|QID|1970002301|P|Tailoring;197;0+230|RECIPE|12072|N|Learn [spell=12072/Black Mageweave Headband] Recipe, from Trainer.|
@@ -89,16 +86,13 @@ M [item=10024/Black Mageweave Headband]|QID|197012072|P|Tailoring;197;0+250;1|IT
 M [item=14048/Bolt of Runecloth]|QID|197018401|P|Tailoring;197;0+260;1|ITEM|14048|CRAFT|18401 239|MATS|14047 5|N|Craft all 239, you'll need these later.|
 = Learn Recipe|QID|1970002551|P|Tailoring;197;0+255|RECIPE|18402|N|Learn [spell=18402/Runecloth Belt] Recipe, from Trainer.|
 M [item=13856/Runecloth Belt]|QID|197018402|P|Tailoring;197;0+280;1|ITEM|13856|CRAFT|18402 25|MATS|14048 3;14341 1|N|Alternately you can start on [item=14046/Runecloth Bag] BUT you'll need to farm more mats, not covered in guide.\nRight click to skip.|
-B [spell=18405/Runecloth Bag]|QID|197018405|M|61.2,37.2|Z|1452;Winterspring|RECIPE|18405|T|Qia|N|Purchase [item=14468/Pattern: Runecloth Bag] from Qia, in Winterspring. Limited Suppliy Item!|
-B [spell=18417/Runecloth Gloves]|QID|197018417|M|61.2,37.2|Z|1452;Winterspring|RECIPE|18417|T|Qia|N|Purchase [item=14481/Pattern: Runecloth Gloves] from Qia, in Winterspring. Limited Suppliy Item!|
+B [spell=18405/Runecloth Bag]|QID|197018405|M|61.2,37.2|Z|1452|RECIPE|18405|T|Qia|N|Purchase [item=14468/Pattern: Runecloth Bag] from Qia, in Winterspring. Limited Suppliy Item!|
+B [spell=18417/Runecloth Gloves]|QID|197018417|M|61.2,37.2|Z|1452|RECIPE|18417|T|Qia|N|Purchase [item=14481/Pattern: Runecloth Gloves] from Qia, in Winterspring. Limited Suppliy Item!|
 U Learn Recipe|QID|1970002601|P|Tailoring;197;0+260|RECIPE|18405|N|Learn [spell=18405/Runecloth Bag] Recipe, using [item=14468/Pattern: Runecloth Bag].|
 M [item=14046/Runecloth Bag]|QID|197018405|P|Tailoring;197;0+280;1|ITEM|14046|CRAFT|18405 25|MATS|14048 5;8170 2;14341 1|
 M [item=14046/Runecloth Bag]|QID|197018405|P|Tailoring;197;0+290;1|ITEM|14046|CRAFT|18405 18|MATS|14048 5;8170 2;14341 1|
 U Learn Recipe|QID|1970002751|P|Tailoring;197;0+275|RECIPE|18417|N|Learn [spell=18417/Runecloth Gloves] Recipe, using [item=14481/Pattern: Runecloth Gloves].|
 M [item=13863/Runecloth Gloves]|QID|197018417|P|Tailoring;197;0+300;1|ITEM|13863|CRAFT|18417 18|MATS|14048 4;8170 4;14341 1|
-
 N Congratulations!|QID|197000010|N|That completes Classic Tailoring.|
 ]]
 end)
-
-

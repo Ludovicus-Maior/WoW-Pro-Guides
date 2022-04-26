@@ -1,50 +1,42 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancENG_BfA", "Profession", "Engineering_BfA", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",202)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Engineering_BattleforAzeroth")
 WoWPro:GuideNickname(guide, "ENG_BFA")
-
 WoWPro:GuideSteps(guide, function()
 return [[
-;  Guide structures:
-;  For the QID is Prof (202), Spell ID(000000) - QIDs mean NOTHING in guides.
-;  For the N Steps - QID is just 202+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
-;	 IE M [item=4357/Rough Blasting Powder]|QID|202003918|P|Engineering;202;1+0;1|ITEM|4357|CRAFT|3918 60|MATS|2835 1|N|Make all 60, you will need for next step.|
-;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 202264479 ('264479' is spell ID)
+;   Guide structures:
+;   For the QID is Prof (202), Spell ID(000000) - QIDs mean NOTHING in guides.
+;   For the N Steps - QID is just 202+00000# - Prof and increment numbers padded to 6 digits.
+;   For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;       IE M [item=4357/Rough Blasting Powder]|QID|202003918|P|Engineering;202;1+0;1|ITEM|4357|CRAFT|3918 60|MATS|2835 1|N|Make all 60, you will need for next step.|
+;   For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 202264479 ('264479' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
 ;		= Learn Recipe|QID|202700251|P|Engineering;202;7+25|RECIPE|280732|N|Learn [spell=280732/Magical Intrusion Dampener] Rank 1, Recipe from Trainer.|
-; 	 IE learn 2 at lvl 25 |202100251| and |202100252|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;       IE learn 2 at lvl 25 |202100251| and |202100252|.
+;   Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   This guide contains ZoneIDs - Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|1355;Nazjatar
+;  Updated to Retail - BFA splits / new format on 28-Feb-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-;  Updated to Retail - Legion splits / new format on 28-Feb-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
-
-N Guide Hub|QID|202000000|JUMP|Engineering: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|202000000|JUMP|ENG_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|202000001|N|Covers what Blizzard now terms Kul Tiran / Zandalari Plans, content of Battle for Azeroth 1-175\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|202000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|202000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can. ** Details do need to fleshed out still **|
-
 N Shopping List|QID|202000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Battle for Azeroth Engineering 1 to 175.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
 l [item=152512/Monelite Ore]|QID|202000004|L|152512 980|ITEM|152512|N|You'll need about 980 Monelite Ore.|
 l [item=152579/Storm Silver Ore]|QID|202000004|L|152579 560|ITEM|152579|N|You'll need about 560 Storm Silver Ore.|
 l [item=168185/Osmenite Ore]|QID|202000004|L|168185 405|ITEM|168185|N|You'll need at least 405 Osmienite Ore.|
 l [item=152668/Expulsom]|QID|202000004|L|152668 55|ITEM|152668|N|You'll need at least 55 Expulsom.|
 B [item=160502/Chemical Blasting Cap]|QID|202000004|L|160502 250|ITEM|160502|N|You'll need about 250 Chemical Blasting Cap, Purchase from Engineering Trainer or Trade Goods Vendors.|
 B [item=163569/Insulated Wiring]|QID|202000004|L|163569 900|ITEM|163569|N|You'll need about 900 Insulated Wiring, Purchase from Engineering Trainer or Trade Goods Vendors.|
-
 N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
-
-; This guide contains ZoneIDs - Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|1355;Nazjatar
 
 = Learn [spell=264492/Kul Tiran Engineering]|QID|202264492|M|77.64,14.32|Z|1161|P|Engineering;202;*;0;75|SPELL|Kul Tiran Engineering;264492|T|Layla Evenkeel|N|Learn from Layla Evenkeel, Tradewinds Market in Boralus.|FACTION|Alliance|
 = Learn [spell=264492/Kul Tiran Engineering]|QID|202264492|M|45.0,40.6|Z|1165|P|Engineering;202;*;0;75|SPELL|Kul Tiran Engineering;264492|T|Shuga Blastcaps|N|Learn from Shuga Blastcaps, Terrace of Crafters in Dazar'alor.|FACTION|Horde|
-
 M [item=153490/FRIED]|QID|202255392|P|Engineering;202;7+30;1|ITEM|153490|CRAFT|255392 30|MATS|152512 6;160502 5;163569 8|N|Or you can mix with the other Bomb recipes.|
 = Learn Recipe|QID|202700251|P|Engineering;202;7+25|RECIPE|280732|N|Learn [spell=280732/Magical Intrusion Dampener] Rank 1, Recipe from Trainer.|
 = Learn Recipe|QID|202700301|P|Engineering;202;7+30|RECIPE|256154|N|Learn [spell=256154/Deployable Attire Rearranger] Rank 1, Recipe from Trainer.|
@@ -61,9 +53,7 @@ M [item=158379/Unstable Temporal Time Shifter]|QID|202283916|P|Engineering;202;7
 = Learn Recipe|QID|202701451|PRE|54972|M|38.0,53.6|Z|1355|P|Engineering;202;7+145|RECIPE|294784|N|Learn [spell=294784/Notorious Combatants Discombobulator] Recipe from Instructor Alikana|FACTION|ALLIANCE|
 = Learn Recipe|QID|202701451|PRE|55053|M|49.0,61.6|Z|1355|P|Engineering;202;7+145|RECIPE|294784|N|Learn [spell=294784/Notorious Combatants Discombobulator] Recipe from Jada.|FACTION|HORDE|
 M [item=167965/Notorious Combatants Discombobulator] Rank 1|QID|202294784|P|Engineering;202;7+160;1|ITEM|167965|CRAFT|294784 5|MATS|168185 15;152579 5;163569 10;152668 3|
-
 N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169541/Schematic: Notorious Combatants Discombobulator](Rank 2) and [item=169542/Schematic: Notorious Combatants Discombobulator](Rank 3) recipes of Dazzerian (Horde) or Tomas Riogain (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|
-
-N Congratualations!|QID|202000010|N|On reaching 100 in Legion Engineering.|
+N Congratualations!|QID|202000010|N|On reaching 160 in Battle for Azeroth Engineering.|
 ]]
 end)
