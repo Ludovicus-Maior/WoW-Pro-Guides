@@ -1196,8 +1196,9 @@ A Stabilizing Suramar|QID|45316|PRE|44756|M|36.48,46.73|Z|680|N|From First Arcan
 C Stabilizing Suramar|QID|45316|M|36.48,46.73|Z|680|QO|1|N|Complete 10 World Quests, IN Suramar.|
 t Stabilizing Suramar|QID|45316|M|36.48,46.73|Z|680|N|To First Arcanist Thalyssra.|
 ; Insurrection - An Elven Problem - Storyline. (Horde (40362) / Alliance (40391) quest splits
-A Insurrection: An Elven Problem|QID|45278|LEAD|45263|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
-T Insurrection: An Elven Problem|QID|45278|M|36.49,45.83|Z|680|N|To First Arcanist Thalyssra.|
+;This quest seems to have been removed from the game.
+;A Insurrection: An Elven Problem|QID|45278|LEAD|45263|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+;T Insurrection: An Elven Problem|QID|45278|M|36.49,45.83|Z|680|N|To First Arcanist Thalyssra.|
 A Eating Before the Meeting|QID|45263|PRE|45316|M|36.49,46.72|Z|680|N|From First Arcanist Thalyssra.|
 C Eating Before the Meeting|QID|45263|M|37.45,47.42|Z|680|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T Eating Before the Meeting|QID|45263|M|36.50,46.77|Z|680|N|To First Arcanist Thalyssra.|
