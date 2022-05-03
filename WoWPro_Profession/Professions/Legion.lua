@@ -1,15 +1,13 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
-local guide = WoWPro:RegisterGuide("Blanc_BI_Profs","Profession", "Legion Profession", "WoWPro Team", "Neutral")
+local guide = WoWPro:RegisterGuide("Blanc_BI_Profs", "Profession", "Legion Profession", "WoWPro Team", "Neutral")
 WoWPro:GuideLevels(guide,25, 60)
 WoWPro:GuideName(guide, "Legion Profession")
 WoWPro:GuideNickname(guide, "LEG_PROF")
 WoWPro:GuideIcon(guide, "PRO",98)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ; Prof Quests:
 N Profession Quests in Legion|N|This guide was created to put all the Profession quests in one place.  This guide has not been updated since Legion, the only changes have been the Levels changed, and First Aid removed.|
 

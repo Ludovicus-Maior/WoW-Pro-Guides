@@ -1,34 +1,32 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancENG_VAN", "Profession", "Engineering_VAN", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",202)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Engineering_Vanilla")
 WoWPro:GuideNickname(guide, "ENG_OUT")
-
 WoWPro:GuideSteps(guide, function()
 return [[
-;  Guide structures:
-;  For the QID is Prof (202), Spell ID(000000) - QIDs mean NOTHING in guides.
-;  For the N Steps - QID is just 202+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
-;	 IE M [item=4357/Rough Blasting Powder]|QID|202003918|P|Engineering;202;1+0;1|ITEM|4357|CRAFT|3918 60|MATS|2835 1|N|Make all 60, you will need for next step.|
-;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 202264479 ('264479' is spell ID)
+;   Guide structures:
+;   For the QID is Prof (202), Spell ID(000000) - QIDs mean NOTHING in guides.
+;   For the N Steps - QID is just 202+00000# - Prof and increment numbers padded to 6 digits.
+;   For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;       IE M [item=4357/Rough Blasting Powder]|QID|202003918|P|Engineering;202;1+0;1|ITEM|4357|CRAFT|3918 60|MATS|2835 1|N|Make all 60, you will need for next step.|
+;   For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 202264479 ('264479' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
 ;		= Learn Recipe|QID|202700251|P|Engineering;202;7+25|RECIPE|280732|N|Learn [spell=280732/Magical Intrusion Dampener] Rank 1, Recipe from Trainer.|
-; 	 IE learn 2 at lvl 25 |202100251| and |202100252|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;       IE learn 2 at lvl 25 |202100251| and |202100252|.
+;   Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Updated to Retail - Vanilla / Outland spilt / new format on 21-June-2021 by ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;  Updated to Retail - Vanilla / Outland spilt / new format on 21-June-2021 by ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
+
+N Guide Hub|QID|202000000|JUMP|ENG_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|202000001|N|Covers VANILLA content in RETAIL only. Guide rewritten to new format.|
 N PLEASE Report any issues|QID|202000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|202000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-
 N Shopping List|QID|202000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Engineering 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
 l [item=2835/Rough Stone]|QID|202000004|L|2835 60|ITEM|2835|N|You'll need about 60 Rough Stones.|
 l [item=2840/Copper Bar]|QID|202000004|L|2840 36|ITEM|2840|N|You'll need about 36 Copper Bars.|
 l [item=2840/Copper Bar]|QID|202000004|P|Mining;186;0+30;0|L|2840 90|ITEM|2840|N|You'll need about 90 Copper Bars. (54 bars needed to smelt bronze)|
@@ -54,6 +52,7 @@ N Shopping List|QID|202000005|N|This completes the Shopping List, you may either
 
 = Learn [spell=4036/Engineering]|QID|202002259|SPELL|Engineering;4036|LVL|5|N|Learn from a Trainer in any major city.|
 B [item=5956/Blacksmith Hammer]|QID|202005956|ITEM|5956|L|5956 1|N|Buy from a NPC Supply|
+
 M [item=4357/Rough Blasting Powder]|QID|202003918|P|Engineering;202;0+30;1|ITEM|4357|CRAFT|3918 60|MATS|2835 1|N|Make all 60, you will need for later steps.|
 = Learn Recipe|QID|202000301|P|Engineering;202;0+30|RECIPE|3922|N|Learn [spell=3922/Handful of Copper Bolts] Recipe from Trainer.|
 = Learn Recipe|QID|202000302|P|Engineering;202;0+30|RECIPE|3923|N|Learn [spell=3923/Rough Copper Bomb] Recipe from Trainer.|
@@ -97,6 +96,5 @@ M [item=15994/Thorium Widget]|QID|202019791|P|Engineering;202;0+285;1|ITEM|15994
 = Learn Recipe|QID|202002751|P|Engineering;202;0+275|RECIPE|19795|N|Learn [spell=19795/Thorium Tube] Recipe from Trainer.|
 M [item=16000/Thorium Tube]|QID|202019795|P|Engineering;202;0+300;1|ITEM|16000|CRAFT|19795 20|MATS|12359 6|
 N Congratualations!|QID|202000010|N|On reaching 300 in Vanilla Engineering.|
-
 ]]
 end)

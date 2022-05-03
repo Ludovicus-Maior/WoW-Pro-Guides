@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("WotLK_Jewelcrafting","Profession","Jewelcrafting", "WoWPro Team", "Neutral" ,3)
 WoWPro:GuideIcon(guide,"PRO",755)
 WoWPro:GuideLevels(guide)
@@ -18,8 +17,8 @@ return [[
 ;		IE = Learn Recipe|QID|755800151|M|35.20,41.34|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+15|RECIPE|311871|N|Learn [spell=311871/Quick Jewel Doublet] Recipe from Trainer.|
 ;		IE learn 2 at lvl 15 |755800151| and |755800152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
-
-;	(PRERELEASE) Updated to Classic - Wraith of the Lich King splits / new format on 23-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;   This Guide contains ZoneIDs: Z|1944;Hellfire Peninsula|IZ|3483|
+;	(PRERELEASE) Updated to Classic - Wraith of the Lich King splits / new format on 23-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
 N This Guide|QID|755000001|N|is for Wraith of the Lich King in CLASSIC only. *** Vanilla - TBC - >WotLK<- not done yet, pre release file ***\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|755000002|N|In our Discord #WotLK-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
@@ -58,12 +57,10 @@ N Shopping List|N|This completes the Shopping List, you may either have a few le
 = Learn [spell=25229/Jewelcrafting]|QID|755025229|SPELL|Jewelcrafting;25229|LVL|5|N|Learn from a Trainer in The Exodar or Silvermoon City.|
 B [item=20815/Jewelers Kit]|QID|755020815|P|Jewelcrafting;755;0+1;0|L|20815|N|Buy from an Trade Supplies.|
 
-
 M [item=20816/Delicate Copper Wire]|QID|755025255|P|Jewelcrafting;755;0+35;1|ITEM|20816|CRAFT|25255 55|MATS|2840 2|N|Create all 55, and save these for a later steps.|
 M [item=25439/Tigerseye Band]|QID|755032179|P|Jewelcrafting;755;0+50;1|ITEM|25439|CRAFT|32179 15|MATS|20816 1;818 1|
 = Learn [spell=25230/Jewelcrafting]|QID|755025230|P|Jewelcrafting;755;0+50|SPELL|Jewelcrafting;25230|LVL|10|N|Learn Journeyman Jewelcrafting from a Trainer in The Exodar or Silvermoon City.|
 M [item=20817/Bronze Setting]|QID|755025278|P|Jewelcrafting;755;0+80;1|ITEM|20817|CRAFT|25278 50|MATS|2841 100|N|Save these for a later steps. Alternate: you can make some [item=25880/Coarse Stone Statue] if you want to use up [item=2836/Coarse Stone].|
-
 M [item=20820/Simple Pearl Ring]|QID|755025284|P|Jewelcrafting;755;0+100;1|ITEM|20820|CRAFT|25284 20|MATS|2498 1;20817 1;2840 2|N|Alternate: [item=20823/Gloom Band] OR if [item=2842/Silver Bar] is cheap make [item=20827/Ring of Silver Might].|
 M [item=20823/Gloom Band]|QID|755025287|P|Jewelcrafting;755;0+100;1|ITEM|20823|CRAFT|25287 20|MATS|1210 2;20817 1;20816 2|N|Alternate: If [item=2842/Silver Bar] is cheap make [item=20827/Ring of Silver Might].|
 M [item=20827/Ring of Silver Might]|QID|755025317|P|Jewelcrafting;755;0+100;1|ITEM|20827|CRAFT|25317 20|MATS|2842 2|N|This silver was NOT included in the Shopping List.\n[color=FF0000]NOTE: [/color]This can be made upto 110.|
@@ -90,9 +87,8 @@ M [item=30422/Diamond Focus Ring]|QID|755036526|P|Jewelcrafting;755;0+295;1|ITEM
 M [item=21790/Sapphire Pendant of Winter Night]|QID|755026908|P|Jewelcrafting;755;0+300;1|ITEM|21790|CRAFT|26908 3|MATS|12361 1;12808 1;21752 1|N|If you don't have any [item=12808/Essence of Undeath] make [item=29159/Glowing Thorium Band] instead. Right click to skip.|
 M [item=29159/Glowing Thorium Band]|QID|755034960|P|Jewelcrafting;755;0+300;1|ITEM|29159|CRAFT|34960 3|MATS|12800 1;21752 1|N|If you still have some [item=12800/Azerothian Diamond] keep making until you sure them up, right click to skip.|
 M [item=29160/Emerald Lion Ring]|QID|755034961|P|Jewelcrafting;755;0+300;1|ITEM|29160|CRAFT|34961 10|MATS|12364 2;21752 1|
-; Testing new Map IDs
-= Learn [spell=28897/Jewelcrafting]|QID|755028897|P|Jewelcrafting;755;0+275|M|56.8,37.6|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Jewelcrafting;28897|LVL|50|N|Learn Master Jewelcrafting from Kalaen, in Thrallmar, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Horde|
-= Learn [spell=28897/Jewelcrafting]|QID|755028897|P|Jewelcrafting;755;0+275|M|54.6,63.6|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Jewelcrafting;28897|LVL|50|N|Learn Master Jewelcrafting from Tatiana, in Honor Hold, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=28897/Jewelcrafting]|QID|755028897|P|Jewelcrafting;755;0+275|M|56.8,37.6|Z|1944|IZ|3483|SPELL|Jewelcrafting;28897|LVL|50|N|Learn Master Jewelcrafting from Kalaen, in Thrallmar, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=28897/Jewelcrafting]|QID|755028897|P|Jewelcrafting;755;0+275|M|54.6,63.6|Z|1944|IZ|3483|SPELL|Jewelcrafting;28897|LVL|50|N|Learn Master Jewelcrafting from Tatiana, in Honor Hold, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Alliance|
 = Learn [spell=28897/Jewelcrafting]|QID|755028897|P|Jewelcrafting;755;0+275|SPELL|Jewelcrafting;28897|LVL|50|N|Learn Master Jewelcrafting from Trainer in Hellfire Peninsula, (and maybe in Shattrath City). Also, BUY all Recipes available.|
 N Gems|QID|755000009|N|Next steps, Cut any gems you want (about 30) till you hit around 320.  ONLY one is going to be listed in the next step, but all you can craft will be listed.|
 M [item=23098/Inscribed Flame Spessarite]|QID|755028910|P|Jewelcrafting;755;0+320;1|ITEM|23098|CRAFT|28910 30|MATS|21929 1|N|Mix around the gems if you want. Create ANY of these alternates: [item=23113/Brillant Golden Draenite], [item=23108/Glowing Shadow Draenite], [item=23103/Radiant Deep Peridot], [item=23118/Solid Azure Moonstone], or [item=23094/Teardrop Blood Garnet].|
@@ -106,14 +102,19 @@ M [item=23111/Sovereign Shadow Draenite]|QID|755028936|P|Jewelcrafting;755;0+340
 M [item=28290/Smooth Golden Draenite]|QID|755034069|P|Jewelcrafting;755;0+340;1|ITEM|28290|CRAFT|34069 5|MATS|23112 1|
 M [item=24078/Heavy Adamantite Ring]|QID|755031052|P|Jewelcrafting;755;0+350;1|ITEM|24078|CRAFT|31052 10|MATS|23446 1;31079 1|N|If you still didn't hit 350, make more gems from above.|
 
-
 N Leveling 350-375|QID|755000008|N|Recipes to help level are all available via Vendors.  Halaa using the Research Token, Other recipes are World Drops, check the AH, then others are available with Rep from Faction vendors.|
-
+; Need WotLK Adjustements...
+= Learn [spell=264537/Northrend Jewelcrafting]|QID|755264537|SPELL|Northrend Jewelcrafting;264537|N|Learn Northrend Jewelcrafting in Borean Tundra, Howling Fjord or Dalaran. (Once you get to an area that has a local trainer, an arrow will popup).|
+N JC level 1 - 20|QID|755000020|P|Jewelcrafting;755;0+395;1|N|Make any Gems you have materials for, mix and match for you want.|
+M [item=42336/Bloodstone Band]|QID|755056193|P|Jewelcrafting;755;0+400;1|ITEM|42336|CRAFT|56193 5|MATS|37701 2;36917 1|N|This is just one listed, you can make of this one, OR [item=43245/Crystal Chalcedony amulet], [item=43244/Crsytal Citrine Necklace], or [item=42337/Sun Rock Ring].|
+M [item=43248/Stoneguard Band]|QID|755058145|P|Jewelcrafting;755;0+420;1|ITEM|43248|CRAFT|58145 23|MATS|35624 2|N|Alternate recipe is [item=43249/Shadowmight Ring], which is listed next, right click to skip.|
+M [item=43249/Shadowmight Ring]|QID|755058146|P|Jewelcrafting;755;0+420;1|ITEM|43249|CRAFT|58146 23|MATS|35624 1;35627 1|
+N Find an Alchemist|QID|755057427|P|Jewelcrafting;755;0+420|N|Find an Alchemist who can [spell=57427/Transmute: Earthsiege Diamond] OR [spell=57425/Transmute: Skyflare Diamond] you will need about 30, you can check the Auction House, but might be costly there. You could make some other recipes that don't need the Diamons, but need [item=41163/Titanium Bar] instead, also costly on the AH.|
+M [item=41397/Powerful Earthsiege Diamond]|QID|755055399|P|Jewelcrafting;755;0+445;1|ITEM|41397|CRAFT|55399 15|MATS|41334 1|N|Either this one, or [item=41399/Swift Skyflare Diamond], and mix them up.|
+M [item=41399/Swift Skyflare Diamond]|QID|755055394|P|Jewelcrafting;755;0+445;1|ITEM|41399|CRAFT|55394 15|MATS|41266 1|N|If out of Diamonds, an alternate is listed next.|
+M [item=42340/Dream Signet]|QID|755056197|P|Jewelcrafting;755;0+445;1|ITEM|42340|CRAFT|56197 15|MATS|41163 1;36933 1;34052 1|N|This is an alternate if out of Diamonds. There are 3 others as well, [item=45808/Runed Mana Band], [item=45809/Scarlet Signet], or [item=45813/Sky Sapphire Amulet].|
+M [item=44943/Icy Prism]|QID|755062242|P|Jewelcrafting;755;0+450;1|ITEM|44943|CRAFT|62242 15|MATS|43102 1;36923 1;36926 1;36932 1|
 
 N That completes Jewelcrafting.
 ]]
-
 end)
-
-
-

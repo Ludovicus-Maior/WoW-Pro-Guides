@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancTLR_BfA", "Profession", "Tailoring_BfA", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",197)
 WoWPro:GuideLevels(guide)
@@ -20,16 +19,15 @@ return [[
 ;		IE Learn 2 at lvl 15 |197800151| and |197800152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343204/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Updated to Legion splits / new format on 15-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;	Updated to BfA splits / new format on 15-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
+;	Guide contains ZoneIDs - Z|1165;Dazar'alor|, Z|1161;Boralus|, Z|1355;Nazjatar|
 
-N Guide Hub|QID|197000000|JUMP|Tailoring: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|197000000|JUMP|TLR_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|197000001|N|Covers what Blizzard now terms Kul Tiran / Zandalari Plans, content of Battle for Azeroth 1-175\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|197000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|197000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can. ** Details do need to fleshed out still **|
-
 N Shopping List|QID|197000004|N|The next few lines are going to be the Approximate amount of mats you need to complete Tailoring 1 to 175.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
 l [item=152576/Tidespray Linen]|QID|197000004|L|152576 590|ITEM|152576|N|You'll need about 590 Tidespray Linen.|
 l [item=152577/Deep Sea Satin]|QID|197000004|L|152577 280|ITEM|152577|N|You'll need about 280 Deep Sea Satin.|
 l [item=167738/Gilded Seaweave]|QID|197000004|L|167738 215|ITEM|167738|N|You'll need about 215 Guilded Seaweave.|
@@ -38,14 +36,10 @@ B [item=159959/Nylon Thread]|QID|197000004|L|159959 1175|ITEM|159959|N|You'll ne
 N Shopping List|QID|197000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 N Tailoring Trainers|QID|197000008|N|It's possible these NPC's name may change, as you level and/or complete quests, but the phased trainers should be near the same areas.|
 
-; Guide contains ZoneIDs - Z|1165;Dazar'alor|, Z|1161;Boralus|, Z|1355;Nazjatar|
-
 = Learn [spell=3908/Tailoring]|QID|197003908|M|44.4,33.8|Z|1165|SPELL|Tailoring;3908|LVL|5|T|Pinjin the Patient|N|Learn from Pinjin the Patient, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
 = Learn [spell=265815/Zandalari Tailoring]|QID|197265815|M|44.4,33.8|Z|1165|P|Tailoring;165;*;0;75|SPELL|Zandalari Tailoring;265815|LVL|48|T|Pinjin the Patient|N|Learn from Pinjin the Patient, Terrace of Crafters, Dazar'alor.|FACTION|Horde|
-
 = Learn [spell=3908/Tailoring]|QID|197003908|M|76.8,11.2|Z|1161|SPELL|Tailoring;3908|LVL|5|T|Daniel Brineweaver|N|Learn from Daniel Brineweaver, Tradewinds Market, Boralus.|FACTION|Alliance|
 = Learn [spell=264630/Kul Tiran Tailoring]|QID|197264680|M|76.8,11.2|Z|1161|P|Tailoring;165;*;0;75|SPELL|Kul Tiran Tailoring;264630|LVL|48|T|Daniel Brineweaver|N|Learn from Daniel Brineweaver, Tradewinds Market, Boralus.|FACTION|Alliance|
-
 = Learn Bandage Recipe|QID|197700011|P|Tailoring;197;7+01|RECIPE|267201|N|Learn [spell=267201/Tidespray Linen Bandage] Recipe from Trainer.|
 M [item=158381/Tidespray Linen Bandage]|QID|197267201|P|Tailoring;197;7+60;1|ITEM|158381|CRAFT|267201 100|MATS|152576 2|N|You can make up to level 75 if you want, but will take extra [item=152576/Tidespray Linen].|
 M [item=158381/Tidespray Linen Bandage]|QID|197267201|P|Tailoring;197;7+75;1|ITEM|158381|CRAFT|267201 100|MATS|152576 2|N|Keep making to level 75, right click to skip to something else.|
@@ -63,6 +57,6 @@ L [item=152668/Expulsom]|QID|197294844|L|152668 20|ITEM|152668|N|You'll need 20 
 M [item=167981/Notorious Combatants Satin Bracers] - Rank 1|QID|197294844|P|Tailoring;197;7+160;1|ITEM|167981|CRAFT|294844 10|MATS|167738 10;152577 6;159959 8;152668 2|
 N Levelling from 160 to 175|N|You'll need to either do more PVP for Mark of Honor to buy the [item=169582/Notorious Combatants Satin Bracers] - Rank 2 (2 Marks) and [item=169583/Notorious Combatants Satin Bracers] - Rank 3 (4 Marks) recipes from Dazzerian (Horde) or Tomas Riogain (Alliance), both in Nazjatar.\nOr Visit Darkmoon Faire when it's active for 5 free points, or just make any other things you can till you max out.|
 
-N Congratulations!|QID|197000010|N|That should complete Battle for Azeroth Tailoring to 160.|
+N Congratulations!|QID|197000010|N|That should complete Battle for Azeroth Tailoring to 160.|JUMP|TLR_SL|NOCACHE|
 ]]
 end)

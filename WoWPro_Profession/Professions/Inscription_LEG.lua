@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancScribe_LEG", "Profession", "Inscription_LEG", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",773)
 WoWPro:GuideLevels(guide)
@@ -19,10 +18,10 @@ return [[
 ;		IE = Learn Recipe|QID|773800101|M|36.47,36.70|Z|1670;Ring of Fates@Oribos|P|Inscription;773;8+10|RECIPE|311423|N|Learn [spell=311423/Writ of Grave Robbing] Recipe from Trainer.|
 ;		IE learn 2 at lvl 10 |773800101| and |773800102|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   InZone IDs used in guide: |IZ|8025;The Nighthold|.
+;  Typed update to Legion splits on 26-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 ) (This is NOT tested)
 
-;  Typed update to Legion splits on 26-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 ) (This is NOT tested)
-
-N Guide Hub|QID|773000000|JUMP|Inscription: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|773000000|JUMP|Scribe_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|773000001|N|Covers what Blizzard now terms Legion Plans, content of Legion 1-100\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|773000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
@@ -31,22 +30,13 @@ N Learn Recipes|QID|773000003|N|We only mention the Recipe/Skill you need for th
 N Legion Profession Quests|QID|773000005|N|Before doing this guide it is recommened you do all the Legion Inscription Quests.  They are all in the 'Legion Profession' Guide. Right Click this step to active the Jump step for that guide.  Once you are done with that guide, please manually switch back to this one.|
 N Legion Profession Quests|QID|773000006|JUMP|LEG_PROF|N|Before doing this guide it is recommened you do all the Legion Inscription Quests.  They are all in the 'Legion Profession' Guide.|
 N Shopping List|QID|773000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Inscription Legion 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
-; Begin Shopping list, as of Mar-2022
-
 N Herbs|QID|773000004|N|You will need upwards of 4,500 herbs to mill to make your pigments, depending on which you mill. There are 8 herbs available in Legion, but only 2 pigments.|
-
 N Herbs|QID|773000004|N|IF you only use Dreamleaf, you'll need about 2,000, since you'll get extra pigments from [item=136926/Nightmare Pod]. Felwort, you'll need about 100, BUT will need to purchase more [item=129032/Roseate Pigment]. OR if you mill across all the herbs, you should collect enough, but will be milling for a while, escpecially if you do not know the Mass Milling recipes.|
-
 l [item=124102/Dreamleaf]|QID|773000004|L|124102 2000|ITEM|124102|N|You'll need about 2,000 Dreamleaf to mill for [item=129034/Sallow Pigment].|
 l [item=124106/Felwort]|QID|773000004|L|124106 100|ITEM|124102|N|You'll need about 100 Felwort to mill for [item=129034/Sallow Pigment].|
-
 l [item=124101/Aethril]|QID|773000004|L|128304 4500|N|You'll need about 4,500 Aethril and/or mixture of [item=124102/Dreamleaf] (2000), [item=124103/Foxflower], [item=124104/Fjarnskaggl], [item=124105/Starlight Rose], [item=124106/Felwort] (100), [item=128304/Yseralline Seed] or [item=151565/Astral Glory] to mill for [item=129034/Sallow Pigment] (200), and [item=129032/Roseate Pigment] (900).
-
 B [item=39354/Light Parchment]|QID|773000004|L|39354 700|ITEM|39354|N|You'll need about 700 Light Parchments, buy as you need if you wish.|
 N Shopping List|QID|773000006|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
-
-;	end of shopping list, and pre craft.
 
 M Mill Herbs|QID|773114931|S|P|Inscription;773;6+25;1|N|Mill all the herbs you have to create your pigments. \n[color=FF0000]NOTE: [/color]DO NOT use Mass milling until after 25.|
 M Mill Herbs|QID|773124101|P|Inscription;773;6+25;1|L|124101 -5|ITEM|124101|MATS|124101 5|N|Mill all your [item=124101/Aethril] to make pigments.|

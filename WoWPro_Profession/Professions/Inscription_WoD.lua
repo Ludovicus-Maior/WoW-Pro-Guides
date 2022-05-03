@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancScribe_WoD", "Profession", "Inscription_WoD", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",773)
 WoWPro:GuideLevels(guide)
@@ -19,27 +18,19 @@ return [[
 ;		IE = Learn Recipe|QID|773800101|M|36.47,36.70|Z|1670;Ring of Fates@Oribos|P|Inscription;773;8+10|RECIPE|311423|N|Learn [spell=311423/Writ of Grave Robbing] Recipe from Trainer.|
 ;		IE learn 2 at lvl 10 |773800101| and |773800102|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   Guide contains ZoneID# - Z|624;Warspear|IZ|624|, Z|622;Stormshield|IZ|622|  (yes for this area, they are the same numbers)
+;  Typed update to Draenor splits on 26-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 ) (This is NOT tested)
 
-;  Typed update to Draenor splits on 26-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 ) (This is NOT tested)
-
-N Guide Hub|QID|773000000|JUMP|Inscription: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|773000000|JUMP|Scribe_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|773000001|N|Covers Draenor content, that Blizzard terms Draenor Plans in RETAIL only. IF you have Inscription, DOES NOT HELP if you just are using the Scribe's Quarters.|
 N PLEASE Report any issues|QID|773000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Herbalist|P|Herbalism;182;8;0|N|If you are a herbalist, running around for these mats will level you up, currently no guide in the works for herbalism.|
 N Learn Recipes|QID|773000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|773000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Inscription 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
-; Begin Shopping list, as of Mar-2022
-
 N Herbs|QID|773000004|N|You will need upwards of 2,200+ herbs to mill to make your inks.  There are 6 herbs available in Draenor, but only 2 inks.|
-
 l [item=109124/Frostweed]|QID|773000004|L|109124 2250|ITEM|109124|N|You'll need about 2,250 Frostweed, and/or combination of [item=109125/Fireweed], [item=109126/Gorgrond Flytrap], [item=109127/Starflower], [item=109128/Nagrand Arrowbloom], or [item=109129/Talador Orchid] to mill for [item=114931/Cerulean Pigment].|
 N Shopping List|QID|773000006|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
-
-;	end of shopping list, and pre craft.
-
-; Guide contains ZoneID# - Z|624;Warspear|, Z|622;Stormshield|,
 
 = [item=111923/Draenor Inscription]|QID|773264504|SPELL|Draenor Inscription;264505|ITEM|111923|L|111923 1|N|You need to buy from a Vendor in Ashran, complete a Quest Chain, or Build the Scribe's Quarters in your Garrison to Learn Draenor Alchemy.|
 B [item=111923/Draenor Inscription]|QID|773264504|M|75.26,45.57|Z|624|IZ|624|P|Inscription;773;*;0;0|SPELL|Draenor Inscription;264505|U|111923|T|Maru'sa|N|Purchase [item=111923/Draenor Inscription] from Maru'sa, Warspear, Ashran. You must have Inscription to see it.|FACTION|Horde|

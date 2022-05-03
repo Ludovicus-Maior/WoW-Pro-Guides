@@ -20,9 +20,9 @@ return [[
 ; 		IE learn 2 at lvl 25 |165700151| and |165700152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Typed update for Cataclysm split on 15-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;  Typed update for Cataclysm split on 15-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-N Guide Hub|QID|165000000|JUMP|Leatherworking: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|165000000|JUMP|LTW_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|165000001|N|Currently in Development, starting with what Blizzard now terms Cataclysm Plans, Cataclsym expansion content 1-75\nAlso ASSUMES you have the appropriate Skills.|
 N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, using the Report Issue option menu. (Right click on the step, to bring up Menu).|

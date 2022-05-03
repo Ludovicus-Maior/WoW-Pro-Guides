@@ -20,14 +20,13 @@ return [[
 ; 		IE learn 2 at lvl 15 |171800151| and |171800152|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Updated to Vanilla splits / new format on 12-Jan-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;  Updated to Vanilla splits / new format on 12-Jan-2021 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|171000000|JUMP|ALC_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|171000001|N|Covers VANILLA content in Retail only. Guide rewritten to new format.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
-
 N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 l [item=2447/Peacebloom]|QID|171000004|L|2447 59|ITEM|2447|N|You'll need about 59 Peaceblooms.|
 l [item=765/Silverleaf]|QID|171000004|L|765 59|ITEM|765|N|You'll need about 59 Silverleafs.|
@@ -52,7 +51,6 @@ l [item=3371/Crystal Vial]|QID|171000004|L|3371 310|ITEM|3371|N|You'll need abou
 N Shopping List|QID|171000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 = Learn [spell=2259/Alchemy]|QID|171002259|SPELL|Alchemy;2259|LVL|5|N|Learn from a Trainer in any major city.|
-
 M [item=118/Minor Healing Potion]|QID|171002330|P|Alchemy;171;0+60;1|ITEM|118|CRAFT|2330 60|MATS|2447 1;765 1;3371 1|N|Keep what you make, need for next step.|
 = Learn Recipe|QID|171000551|P|Alchemy;171;0+55|RECIPE|2337|N|Learn [spell=2337/Lesser Healing Potion] Recipe from Trainer.|
 M [item=858/Lesser Healing Potion]|QID|171002337|P|Alchemy;171;0+105;1|ITEM|858|CRAFT|2337 50|MATS|118 1;2450 1|
@@ -82,9 +80,6 @@ M [item=13447/Elixir of the Sages]|QID|171017555|P|Alchemy;171;0+285;1|ITEM|1344
 M [item=13446/Major Healing Potion]|QID|171017556|P|Alchemy;171;0+295;1|ITEM|13446|CRAFT|17556 14|MATS|13464 2;13465 1;3371 1|
 = Learn Recipe|QID|171002851|P|Alchemy;171;0+285|RECIPE|17572|N|Learn [spell=17572/Purification Potion] Recipe from Trainer.|
 M [item=13462/Purification Potion]|QID|171017572|P|Alchemy;171;0+300;1|ITEM|13462|CRAFT|17572 5|MATS|13467 2;13466 2;3371 1|
-
 N Congratualations!|QID|171000010|N|On reaching 300 in Vanilla Alchemy.|
 ]]
 end)
-
-
