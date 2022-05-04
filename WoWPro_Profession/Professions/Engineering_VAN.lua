@@ -36,7 +36,7 @@ l [item=3576/Tin Bar]|QID|202000004|P|Mining;186;0+50;0|L|3576 54|ITEM|3576|N|Yo
 l [item=2841/Bronze Bar]|QID|202000004|L|2841 108|ITEM|2841|N|You'll need about 108 Bronze Bars (Smelted from Copper and Tin, Click step off if you are a miner, Otherwise buy from AH.)|
 l [item=2836/Coarse Stone]|QID|202000004|L|2836 20|ITEM|2836|N|You'll need about 20 Coarse Stones.|
 l [item=2589/Linen Cloth]|QID|202000004|L|2589 20|ITEM|2589|N|You'll need approx 20 Linen Cloth.|
-l [item=818/Tigerseye]|QID|202000004|L|818 2|ITEM|1206|N|You'll need about 2 Tigerseye.|
+l [item=818/Tigerseye]|QID|202000004|L|818 2|ITEM|818|N|You'll need about 2 Tigerseye.|
 l [item=2838/Heavy Stone]|QID|202000004|L|2838 30|ITEM|2838|N|You'll need about 30 Heavy Stone.|
 l [item=2592/Wool Cloth]|QID|202000004|L|2592 60|ITEM|2592|N|You'll need approx 60 Wool Cloth.|
 l [item=2319/Medium Leather]|QID|202000004|L|2319 15|ITEM|2319|N|You'll need approx 15 Medium Leather.|
@@ -60,7 +60,7 @@ M [item=4357/Rough Blasting Powder]|QID|202003918|P|Engineering;202;0+30;1|ITEM|
 M [item=4359/Handful of Copper Bolts]|QID|202003922|P|Engineering;202;0+50;1|ITEM|4359|CRAFT|3922 30|MATS|2840 1|N|Make all 30, you will need for later steps.|
 = Learn Recipe|QID|202000501|P|Engineering;202;0+50|RECIPE|7430|N|Learn [spell=7430/Arclight Spanner] Recipe from Trainer.|
 M [item=6219/Arclight Spanner]|QID|202007430|P|Engineering;202;0+51;1|ITEM|4359|CRAFT|7430 1|MATS|2840 6|N|KEEP! You will need this to craft your Engineering Recipes.|
-M [item=4360/Rough Copper Bomb]|QID|202003923|P|Engineering;202;0+75;1|ITEM|4360|CRAFT|3923 30|MATS|2840 1;4359 1;4357 2;2589 1|
+M [item=4360/Rough Copper Bomb]|QID|202003923|P|Engineering;202;0+75;|ITEM|4360|CRAFT|3923 30|MATS|4359 1;4357 2|
 = Learn Recipe|QID|202000751|P|Engineering;202;0+75|RECIPE|3929|N|Learn [spell=3929/Coarse Blasting Powder] Recipe from Trainer.|
 = Learn Recipe|QID|202000752|P|Engineering;202;0+75|RECIPE|3931|N|Learn [spell=3931/Coarse Dynamite] Recipe from Trainer.|
 M [item=4364/Coarse Blasting Powder]|QID|202003929|P|Engineering;202;0+90;1|ITEM|4364|CRAFT|3929 20|MATS|2836 1|N|Keep these for later steps.|
