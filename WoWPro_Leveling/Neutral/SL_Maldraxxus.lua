@@ -393,7 +393,7 @@ C A Complete Set|QID|58623|M|42.14,23.30|QO|1|Z|1536;Maldraxxus|NC|N|Click on th
 C A Complete Set|QID|58623|M|42.14,23.30|QO|2|Z|1536;Maldraxxus|NC|N|Click on the pages flying around the room.|
 T A Complete Set|QID|58623|M|45.18,32.11|Z|1536;Maldraxxus|N|To Ta'ern.|ACH|14799;2|
 R Spider's Watch|QID|1|ACTIVE|60733|CS|M|40.51,32.84;37.56,29.21|Z|1536;Maldraxxus|N|Click on the teleporter to leave the library and then run back to Spider's Watch.|
-F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|Z|1536;Maldraxxus|N|Fly back to Bleak Redoubt.|MS|
+F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|Z|1536;Maldraxxus|N|Fly back to Bleak Redoubt.|MS|FLY|SHADOWLANDS|
 
 R High Stand|QID|59867|ACTIVE|59867|QO|1|M|52.12,24.18|Z|1536;Maldraxxus|N|Click on the teleporter to leave the library and then run to High Stand, be careful you are attempting to bypass some lvl 60/61 mobs.|TOF|
 K Appraiser Vix|ACTIVE|59867|QO|1|M|52.52,24.22|Z|1536;Maldraxxus|T|Appraiser Vix|N|Kill Appraiser Vix.|TOF|
@@ -401,7 +401,7 @@ R House of Eyes|ACTIVE|62462|M|56,12|Z|1536;Maldraxxus|N|Run north to the House 
 P Scroll of Teleportation|ACTIVE|62462|QO|1|M|59.96,12.22|Z|1536;Maldraxxus|N|Use Scroll of Teleportation to get to the Key of Eyes. You land right beside the key, pick it up.|TOF|
 K Chelicera|ACTIVE|62462|QO|2|M|56,12|Z|1536;Maldraxxus|T|Chelicera|N|Kill Chelicera.|TOF|
 R Keres' Rest|ACTIVE|62462|M|53.81,30.71|Z|1536;Maldraxxus|N|There is another scroll of teleportaion of Chelicera's balcony. Return to ground level then run to Keres' Rest, being aware of the hostile NPC's most likely higher level than you.|TOF|
-F Theater of Pain|ACTIVE|62462|M|53.81,30.71|Z|1536;Maldraxxus|N|At Fly-eyed Eliera.|TOF|
+F Theater of Pain|ACTIVE|62462|M|53.81,30.71|Z|1536;Maldraxxus|N|At Fly-eyed Eliera.|TOF|FLY|SHADOWLANDS|
 T WANTED: Appraiser Vix|QID|59867|M|53.58,47.49|Z|1536;Maldraxxus|N|To Au'narim|TOF|;perhaps wait to turn this in when we get the one from the treasure too?
 T WANTED: The Key of Eyes|QID|62462|M|53.13,41.33|Z|1536;Maldraxxus|N|To One-Eyed Joby|TOF|;perhaps switch with step above and run down from Keres' Rest?
 
@@ -542,7 +542,7 @@ T Decaying Situation|QID|62743|M|67.75,45.87|Z|1536;Maldraxxus|N|Time to finish 
 f Renounced Bastille|ACTIVE|62761|M|67.90,45.83|Z|1536;Maldraxxus|N|At Felsen Wingclip.|RANK|2|TOF|
 F Theater of Pain|ACTIVE|62085|M|67.90,45.83|Z|1536;Maldraxxus|N|At Felsen Wingclip.|RANK|2|TOF|
 R Renounced Bastille|ACTIVE|59009|CS|M|71.23,43.55;67.9,45.86|Z|1536;Maldraxxus|N|Head back to the Renounced Bastille for a flight back to Bleak Redoubt.|MS|
-F Bleak Redoubt|ACTIVE|59009|M|67.90,45.86|N|At Felsen Wingclip.|MS|
+F Bleak Redoubt|ACTIVE|59009|M|67.90,45.86|N|At Felsen Wingclip.|MS|FLY|SHADOWLANDS|
 C Her Rightful Place|QID|59009|M|50.39,67.75|Z|1536;Maldraxxus|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Guile.|EAB|MS|
 T Her Rightful Place|QID|59009|M|50.33,67.75|Z|1536;Maldraxxus|N|To Baroness Draka.|MS|
 
@@ -601,10 +601,10 @@ A The Door to the Unknown|QID|60737|M|50.49,67.83|Z|1536;Maldraxxus|N|From Baron
 C The Door to the Unknown|QID|60737|M|50.40,67.41|Z|1536;Maldraxxus|NC|N|Step near the raised area opposite the door and use "[color=40C7EB]Unlock Door[/color]" Action Ability to access the Seat of the Primus.|EAB|MS|
 T The Door to the Unknown|QID|60737|M|49.67,54.47|Z|1698;Seat of the Primus!Dungeon|N|Go through the door and into the Seat of the Primus and find the Stone Altar.|MS|
 A Words of the Primus|QID|59206|M|49.73,49.19|Z|1698;Seat of the Primus!Dungeon|N|From Baroness Draka.|PRE|60737|MS|
-F Theater of Pain|ACTIVE|62085|M|52.46,67.64|Z|1536;Maldraxxus|N|At Wing Guard Buurkin.|
+F Theater of Pain|ACTIVE|62085|M|52.46,67.64|Z|1536;Maldraxxus|N|At Wing Guard Buurkin.|FLY|SHADOWLANDS|
 R Challenger's Promenade|ACTIVE|62085|M|54.02,50.86|Z|1536;Maldraxxus|N|Run over to Challenger's Promenade.|
 T ...Why Me?|QID|62085|M|54.02,50.86|Z|1536;Maldraxxus|N|To Overseer Kalvaros.|
-F The Spearhead|AVAILABLE|62741|M|49.93,53.20|Z|1536;Maldraxxus|N|At Wing Guard Alamar.|RANK|2|TOF|
+F The Spearhead|AVAILABLE|62741|M|49.93,53.20|Z|1536;Maldraxxus|N|At Wing Guard Alamar.|RANK|2|TOF|FLY|SHADOWLANDS|
 R House of the Chosen|AVAILABLE|62741|M|42.01,58.91|Z|1536;Maldraxxus|N|Up to the House of the Chosen for the last bonus objective.|RANK|2|TOF|LVL|-59|
 A Choice of Action|QID|62741|M|42.01,58.91|Z|1536;Maldraxxus|N|Bonus Objective-Autoaccepted|RANK|2|TOF|LVL|-59|
 C Choice of Action|QID|62741|M|42.01,58.91|Z|1536;Maldraxxus|N|Basically kill hostiles, there is a small increase from burning banners, but I wouldnt go out of my way for it. Picking up shields, armour and weapons gives you buffs.|TOF|

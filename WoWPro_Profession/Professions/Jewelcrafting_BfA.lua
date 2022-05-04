@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancJC_BfA", "Profession", "Jewelcrafting_BfA", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",755)
 WoWPro:GuideLevels(guide)
@@ -19,17 +18,15 @@ return [[
 ;		IE = Learn Recipe|QID|755800151|M|35.20,41.34|Z|1670;Ring of Fates@Oribos|P|Jewelcrafting;755;8+15|RECIPE|311871|N|Learn [spell=311871/Quick Jewel Doublet] Recipe from Trainer.|
 ; 	 	IE learn 2 at lvl 15 |755800151| and |755800152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   Guide contains ZoneIDs - Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|1355;Nazjatar|
+;	Typed update to Battle for Azeroth splits on 22-March-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-;	Typed update to Battle for Azeroth splits on 22-March-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
-
-N Guide Hub|QID|755000000|JUMP|Jewelcrafting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|755000000|JUMP|JC_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|755000001|N|Covers what Blizzard now terms Kul Tiran / Zandalari Plans, content of Battle for Azeroth 1-175\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|755000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|755000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|755000004|N|Here is an approximate list of items you'll need, to complete JC 1 to 150.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
-; Begin Shopping list
 l [item=153700/Golden Beryl]|QID|755000004|L|153700 25|ITEM|153700|N|You'll need about 25 Golden Beryl (or combination of the 6 Green Gems, for a total of 130-150).|
 l [item=153701/Rubellite]|QID|755000004|L|153701 25|ITEM|153701|N|You'll need about 25 Rubellite (or combination of the 6 Green Gems, for a total of 130-150).|
 l [item=153702/Kubiline]|QID|755000004|L|153702 25|ITEM|153702|N|You'll need about 25 Kubiline (or combination of the 6 Green Gems, for a total of 130-150).|
@@ -43,13 +40,8 @@ l [item=154125/Royal Quartz]|QID|755000004|L|154125 25|ITEM|154125|N|You'll need
 l [item=153706/Krakens Eye]|QID|755000004|L|153706 10|ITEM|153706|N|You'll need about 10 Kraken's Eye.|
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-; end of shopping list, and pre craft.
-
-; Guide contains ZoneIDs - Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|1355;Nazjatar|
-
 = Learn [spell=264548/Kul Tiran Jewelcrafting]|QID|755264548|M|74.99,10.05|Z|1161|P|Jewelcrafting;755;*;0;75|SPELL|Kul Tiran Jewelcrafting;264548|T|Samuel D. Colton III|N|Learn from Samuel D. Colton III, Tradewinds Market in Boralus.|FACTION|Alliance|
 = Learn [spell=265811/Zandalari Jewelcrafting]|QID|755265811|M|47.0,37.8|Z|1165|P|Jewelcrafting;755;*;0;75|SPELL|Zandalari Jewelcrafting;265811|T|Seshuli|N|Learn from Seshuli, Terrace of Crafters in Dazar'alor.|FACTION|Horde|
-
 N Leveling  1 to  75|QID|755700751|P|Jewelcrafting;755;7+75|N|Make Any of the Gem cuts you can upto level 75. All 6 are listed next, you can make more or less then listed. Right-Click step to continue.|
 M [item=153710/Deadly Solstone]|QID|755256689|P|Jewelcrafting;755;7+13;1|L|153703 -1|ITEM|153710|CRAFT|256689 20|MATS|153703 1|N|Be sure to mix with other gems, click step to continue.|
 M [item=153712/Veratile Kyanite]|QID|755256690|P|Jewelcrafting;755;7+25;1|L|153705 -1|ITEM|153712|CRAFT|256690 20|MATS|153705 1|N|Be sure to mix with other gems, click step to continue.|
@@ -95,8 +87,4 @@ M [item=168641/Quick Sand Spinel]|QID|755298796|P|Jewelcrafting;755;7+165;1|ITEM
 N Mass Prospect Osmenite|QID|755300619|P|Jewelcrafting;755;7+175;1|N|Just use [spell=300619/Mass Prospect Osmenite] to Mass Prospect Osmenite for your last points.|
 N Congratulations|QID|755000010|N|That completes Jewelcrafting - Battle for Azeroth, if you aren't at full level, either finish Mass Prospecting Osmenite, or  wait for Darkmoon Faire! for your last few points.|
 ]]
-
 end)
-
-
-

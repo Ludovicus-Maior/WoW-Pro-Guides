@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancScribe_SL","Profession","Inscription_SL", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",773)
 WoWPro:GuideLevels(guide)
@@ -19,19 +18,16 @@ return [[
 ;		IE = Learn Recipe|QID|773800101|M|36.47,36.70|Z|1670|P|Inscription;773;8+10|RECIPE|311423|N|Learn [spell=311423/Writ of Grave Robbing] Recipe from Trainer.|
 ;		IE learn 2 at lvl 10 |773800101| and |773800102|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   Zone IDs used in Guide: Z|1670;Ring of Fates@Oribos|
+;  Typed update to SL splits on 27-Nov-2020 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 ) (This is NOT tested)
 
-;  Typed update to SL splits on 27-Nov-2020 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 ) (This is NOT tested)
-
-N Guide Hub|QID|773000000|JUMP|Inscription: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|773000000|JUMP|Scribe_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|773000001|N|Currently in Development, This Guide covers SHADOWLANDS content in Retail.|
 N PLEASE Report any issues|QID|773000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Herbalist|P|Herbalism;182;8;0|N|If you are a herbalist, running around for these mats will level you up, currently no guide in the works for herbalism.|
 N Learn Recipes|QID|773000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|773000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Inscription 1 to 96.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
-; Begin Shopping list, as of Dec-2020
-
 N Herbs|QID|773000004|N|You will need upwards of 900+ herbs to mill to make your inks.  Each Herb listed is at '900', Just click off which every herb you don't want to farm.|
 l [item=169701/Death Blossom]|QID|773000004|L|169701 900|ITEM|169701|N|You'll need about 900 Death Blossoms (or combination of herbs).  Common herb found in all 4 zones.|
 l [item=168586/Rising Glory]|QID|773000004|L|168586 900|ITEM|168586|N|You'll need about 900 Rising Glory (or combination of herbs). Grows in Bastion Only.|
@@ -42,11 +38,8 @@ l [item=171315/Nightshade]|QID|773000004|L|171315 150|ITEM|171315|N|You'll need 
 B [item=175886/Dark Parchment]|QID|773000004|M|35.97,38.53|Z|1670|L|175886 100|ITEM|175886|N|You'll need at least 100 Dark Parchments.|
 B [item=180732/Rune Etched Vial]|QID|773000004|M|35.97,38.53|Z|1670|L|180732 100|ITEM|180732|N|You'll need at least 100 Rune Etched Vials.|
 B [item=173060/Aerated Water]|QID|773000004|M|35.97,38.53|Z|1670|L|173060 100|ITEM|173060|N|You'll need at least 100 Aerated Waters.|
-
 N Shopping List|QID|773000006|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-; end of shopping list, and pre craft.
-; This section includes Z|ID# - Z|1670;Ring of Fates@Oribos|.
 = Learn Inscription|QID|773045357|M|36.47,36.70|Z|1670|SPELL|Inscription;45357|LVL|5|N|Learn from Scribe Au'tehshi in Oribos.|
 = Learn Shadowlands Inscription|QID|773309805|M|36.47,36.70|Z|1670|P|Inscription;773;*;0;75|SPELL|Shadowlands Inscription;309805|LVL|48|N|Learn from Scribe Au'tehshi in Oribos.|
 
@@ -88,7 +81,6 @@ M [item=173162/Missive of Mastery]|QID|773324196|P|Inscription;773;8+87;1|ITEM|1
 = Learn Recipe|QID|773800805|M|36.47,36.70|Z|1670|P|Inscription;773;8+80|RECIPE|324039|N|Learn [spell=324039/Darkmoon Card of the Indomitable] Recipe from Trainer.|
 M [item=173066/Darkmoon Card of Death]|QID|773311441|P|Inscription;773;8+96;1|ITEM|173066|CRAFT|311441 10|MATS|173059 7;173058 7;175970 1;175886 1|
 N Blank Darkmoon Card of|QID|77300055|P|Inscription;773;8+96|N|Create ANY Darkmoon Card of.. that you have.|
-
 N That completes Shadowlands Inscription|N|Or at least to 96 points, For 5 free points, don't forget about Darkmoon Fair (if active).|
 ]]
 end)

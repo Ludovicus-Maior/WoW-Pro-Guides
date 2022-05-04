@@ -20,9 +20,9 @@ return [[
 ; 		IE learn 2 at lvl 25 |165700151| and |165700152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Typed update for Legion split on 19-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;  Typed update for Legion split on 19-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 ; Guide contants Z|ZID| - Z|628;The Underbelly@Dalaran70|, Z|680;Suramar|
-N Guide Hub|QID|165000000|JUMP|Leatherworking: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|165000000|JUMP|LTW_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|165000001|N|Currently in Development, Covering what Blizzard now terms Legion Plans, Legion expansion content 1-100\nAlso ASSUMES you have the appropriate Skills.|
 N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|

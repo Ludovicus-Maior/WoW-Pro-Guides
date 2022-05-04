@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancAlchemy_BfA","Profession","Alchemy_BfA", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",171)
 WoWPro:GuideLevels(guide)
@@ -10,27 +9,24 @@ WoWPro:GuideNickname(guide, "ALC_BfA")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:
-;  For the QID is Prof (171), Spell ID(000000) - QIDs mean NOTHING in guides.
-;  For the N Steps - QID is just 171+00000# - Prof and increment numbers padded to 6 digits.
-;  For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
+;   For the QID is Prof (171), Spell ID(000000) - QIDs mean NOTHING in guides.
+;   For the N Steps - QID is just 171+00000# - Prof and increment numbers padded to 6 digits.
+;   For the M steps - [item=##/Name]		|ITEM|item ##|	|CRAFT|Spell ID# Qty|	|MATS|item## Qty;item## Qty|	|N|Notes.
 ;		IE M [item=171267/Spiritual Healing Potion]|QID|171301578|P|Alchemy;171;8+8;1|CRAFT|301578 8|MATS|180732 1;169701 2|N|Create 8, needed in 2 steps.|
-;  For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 171309822 ('309822' is spell ID)
+;   For the = Learn Recipe Steps - QID|Prof,Expac,LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 171309822 ('309822' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
 ;		IE = Learn Recipe|QID|171800151|M|39.25,40.39|Z|1670;Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion] Recipe, from Trainer.|
 ; 		IE learn 2 at lvl 15 |171800151| and |171800152|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   Guide contains the Following |Z|ZoneIDs - Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|942;Stormsong Valley|, Z|1163;The Great Seal!Dazar'alor|, Z|863;Nazmir|, Z|1355;Nazjatar|
+;  Typed update to BfA splits on 12-Feb-2021 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-;  Typed update to BfA splits on 12-Feb-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
-
-N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|171000000|JUMP|ALC_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|171000001|N|Covers what Blizzard now terms Kul Tiran / Zandalari Plans, content of Battle for Azeroth 1-175\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Alchemy 1 to 175.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
-; Begin Shopping list, Updated as of 9-Feb-2021
-
 l [item=152509/Sirens Pollen]|QID|171000004|L|152509 70|ITEM|152509|N|You'll need about 70 Siren's Pollens.|
 l [item=152505/Riverbud]|QID|171000004|L|152505 70|ITEM|152505|N|You'll need about 70 Riverbuds.|
 l [item=152511/Sea Stalk]|QID|171000004|L|152511 580|ITEM|152511|N|You'll need about 580 Sea Stalks.|
@@ -39,16 +35,10 @@ l [item=152508/Winters Kiss]|QID|171000004|L|152508 280|ITEM|152508|N|You'll nee
 l [item=152506/Star Moss]|QID|171000004|L|152506 820|ITEM|152506|N|You'll need about 820 Star Moss.|
 l [item=168487/Zinanthid]|QID|171000004|L|168487 110|ITEM|168487|N|You'll need about 110 Zin'anthid.|
 B [item=3371/Crystal Vial]|QID|171000004|L|3371 146|ITEM|3371|N|You'll need about 146 Crystal Vials.|
-
 N Shopping List|QID|171000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
-
-; end of shopping list, and pre craft.
-
-; This Guide contains the Following |Z|ZoneIDs - Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|942;Stormsong Valley|, Z|1163;The Great Seal!Dazar'alor|, Z|863;Nazmir|, Z|1355;Nazjatar|
 
 = Learn [spell=264255/Kul Tiran Alchemy]|QID|171264255|M|74.2,6.6|Z|1161|P|Alchemy;171;*;0;75|SPELL|Kul Tiran Alchemy;264255|N|Learn from Elric Whalgrene, Tradewinds Market in Boralus.|FACTION|Alliance|
 = Learn [spell=265787/Zandalari Alchemy]|QID|171265787|M|42.2,38.0|Z|1165|P|Alchemy;171;*;0;75|SPELL|Zandalari Alchemy;265787|N|Learn from Clever Kumali, Terrace of Crafters in Dazar'alor.|FACTION|Horde|
-
 M [item=152494/Coastal Healing Potion]|QID|171252382|P|Alchemy;171;7+20;1|ITEM|152494|CRAFT|252382 20|MATS|152509 3;3371 1|
 M [item=152495/Coastal Mana Potion]|QID|171252385|P|Alchemy;171;7+37;1|ITEM|152495|CRAFT|252385 20|MATS|152505 3;3371 1|
 = Learn Recipe|QID|171700151|P|Alchemy;171;7+25|RECIPE|252391|N|Learn [spell=252391/Demitris Draught of Deception] Recipe, from Trainer.|
@@ -80,7 +70,6 @@ M [item=169451/Abyssal Healing Potion]|QID|171301310|P|Alchemy;171;7+160;1|ITEM|
 = Learn Recipe|QID|171701601|PRE|54972|M|38.0,53.2|Z|1355|P|Alchemy;171;7+160|RECIPE|301311|N|Learn [spell=301311/Abyssal Healing Potion] - Rank 2 Recipe, from Instructor Okanu.|FACTION|Alliance|
 = Learn Recipe|QID|171701602|PRE|55053|M|49.2,61.6|Z|1355|P|Alchemy;171;7+160|RECIPE|301311|N|Learn [spell=301311/Abyssal Healing Potion] - Rank 2 Recipe, from Narv.|FACTION|Horde|
 M [item=169451/Abyssal Healing Potion]|QID|171301311|P|Alchemy;171;7+175;1|ITEM|169451|CRAFT|301311 25|MATS|168487 2;3371 1|
-
 N That completes Battle for Azeroth Alchemy.|N|Congrats on hitting reaching 175 with this guide.|
 ]]
 end)

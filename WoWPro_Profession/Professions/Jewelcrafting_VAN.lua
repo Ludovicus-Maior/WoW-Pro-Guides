@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancJC_VAN", "Profession", "Jewelcrafting_VAN", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",755)
 WoWPro:GuideLevels(guide)
@@ -20,17 +19,14 @@ return [[
 ;		IE learn 2 at lvl 15 |755800151| and |755800152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Typed out to Vanilla splits on 21-June-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;  Typed out to Vanilla splits on 21-June-2021 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-N Guide Hub|QID|755000000|JUMP|Jewelcrafting: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|755000000|JUMP|JC_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide is a Work In Progress Guide.|QID|755000001|N|Currently in Development, This Guide covers Vanilla content in Retail. \n[color=FF0000]NOTE: [/color]This guide, is just the Make (Create) steps for now, will be fleshed out at a later time.|
 N PLEASE Report any issues|QID|755000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|755000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|755000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete JC 1 to 300. (Incomplete!!) \n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
-; Begin Shopping list, as of June/2021
-
 l [item=2840/Copper Bar]|QID|755000004|L|2840 120|ITEM|2840|N|You'll need about 120 Copper Bars.|
 l [item=2840/Copper Bar]|QID|755000004|P|Mining;186;0+30;0|L|2840 180|ITEM|2840|N|You'll need about 180 Copper Bars. (60 bars needed to smelt bronze)|
 l [item=3576/Tin Bar]|QID|755000004|P|Mining;186;0+50;0|L|3576 60|ITEM|3576|N|You'll need about 60 Tin Bars, to smelt with 60 Copper Bars to make bronze bars.|
@@ -52,17 +48,12 @@ l [item=12800/Azerothian Diamond]|QID|755000004|L|12800 7|ITEM|12800|N|You'll ne
 l [item=12361/Blue Sapphire]|QID|755000004|L|12361 3|ITEM|12361|N|You'll need about 3 Blue Sapphire.|
 l [item=12808/Essence of Undeath]|QID|755000004|L|12808 3|ITEM|12808|N|You'll need about 3 Essence of Undeath.|
 l [item=12364/Huge Emerald]|QID|755000004|L|12364 20|ITEM|12364|N|You'll need about 20 Huge Emerald.|
-
 N Smelting|QID|186002841|P|Mining;186;0|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
 M [item=2841/Bronze Bar]|QID|755002689|P|Mining;186;0+50;0|L|2841 120|CRAFT|2689 60|MATS|2840 1;3576 1|N|Craft 60 times to make 120.|
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-; end of shopping list, and pre craft.
-
 = Learn [spell=25229/Jewelcrafting]|QID|755025229|SPELL|Jewelcrafting;25229|LVL|5|N|Learn from a Trainer in any major city.|
 B [item=20815/Jewelers Kit]|QID|755020815|P|Jewelcrafting;755;0+1;0|L|20815|N|Buy from an Trade Supplies.|
-
-
 M [item=20816/Delicate Copper Wire]|QID|755025255|P|Jewelcrafting;755;0+30;1|ITEM|20816|CRAFT|25255 40|MATS|2840 2|N|Create all 40, and save these for a later steps.|
 M [item=25439/Tigerseye Band]|QID|755032179|P|Jewelcrafting;755;0+50;1|ITEM|25439|CRAFT|32179 20|MATS|20816 1;818 1|N|Alternate: [item=25438/Malachite Pendant] if you have any [item=774/Malachite].|
 M [item=25438/Malachite Pendant]|QID|755032179|P|Jewelcrafting;755;0+50;1|ITEM|25438|CRAFT|32178 20|MATS|20816 1;774 1|
@@ -78,7 +69,7 @@ M [item=20830/Amulet of the Moon]|QID|755025339|P|Jewelcrafting;755;0+150;1|ITEM
 M [item=20963/Mithril Filigree]|QID|755025615|P|Jewelcrafting;755;0+180;1|ITEM|20963|CRAFT|25615 45|MATS|3860 2|N|Save these for later steps.|
 M [item=25882/Solid Stone Statue]|QID|755032808|P|Jewelcrafting;755;0+185;1|ITEM|25882|CRAFT|32808 8|MATS|7912 10|
 M [item=20960/Engraved Truesilver Ring]|QID|755025620|P|Jewelcrafting;755;0+200;1|ITEM|20960|CRAFT|25620 15|MATS|6037 1;20963 2|N|Make upto 210 if [item=3864/Citrine] is expensive. Unfortunately this step will clear at 200.|
-M [item=20960/Engraved Truesilver Ring]|QID|755025620|P|Jewelcrafting;755;0+210;1|L|3864 25|ITEM|20960|CRAFT|25620 15|MATS|6037 1;20963 2|N|If [item=3864/Citrine] is expensive. Keep making this until 210. Right click to skip.| ; |L| to attempt to get this to skip if they have enought for next step.
+M [item=20960/Engraved Truesilver Ring]|QID|755025620|P|Jewelcrafting;755;0+210;1|L|3864 25|ITEM|20960|CRAFT|25620 15|MATS|6037 1;20963 2|N|If [item=3864/Citrine] is expensive. Keep making this until 210. Right click to skip.|	; |L| to attempt to get this to skip if they have enough for next step.
 M [item=20961/Citrine Ring of Rapid Healing]|QID|755025621|P|Jewelcrafting;755;0+220;1|ITEM|20961|CRAFT|25621 25|MATS|3864 1;3860 2|N|Alternate: If [item=3864/Citrine] is expensive you can make [item=20960/Engraved Truesilver Ring] upto about 210, then start this one.|
 M [item=20963/Mithril Filigree]|QID|755025615|P|Jewelcrafting;755;0+225;1|L|20963 15|ITEM|20963|CRAFT|25615 15|MATS|3860 2|N|You need to make a few more for the next step.|  ; this is in case they used more in a prev step.
 M [item=21755/Aquamarine Pendant of the Warrior]|QID|755026876|P|Jewelcrafting;755;0+225;1|ITEM|21755|CRAFT|26876 5|MATS|7909 1;20963 3|
@@ -89,11 +80,6 @@ M [item=30422/Diamond Focus Ring]|QID|755036526|P|Jewelcrafting;755;0+287;1|ITEM
 M [item=21790/Sapphire Pendant of Winter Night]|QID|755026908|P|Jewelcrafting;755;0+290;1|ITEM|21790|CRAFT|26908 3|MATS|12361 1;12808 1;21752 1|N|If you don't have any [item=12808/Essence of Undeath] make [item=29159/Glowing Thorium Band] instead. Right click to skip.|
 M [item=29159/Glowing Thorium Band]|QID|755034960|P|Jewelcrafting;755;0+295;1|ITEM|29159|CRAFT|34960 3|MATS|12800 1;21752 1|N|If you still have some [item=12800/Azerothian Diamond] keep making until you sure them up, right click to skip.|
 M [item=29160/Emerald Lion Ring]|QID|755034961|P|Jewelcrafting;755;0+300;1|ITEM|29160|CRAFT|34961 10|MATS|12364 2;21752 1|
-
 N That completes Jewelcrafting.
 ]]
-
 end)
-
-
-

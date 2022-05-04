@@ -81,7 +81,18 @@ C Surveying Secrets|QID|64555|M|60.04,31.38|Z|1961;Korthia|QO|4|CHAT|N|Speak wit
 C Surveying Secrets|QID|64555|M|60.34,32.77|Z|1961;Korthia|QO|5|N|Kill Mawsworn in the area until you get the Movement Report.|
 T Surveying Secrets|QID|64555|M|62.77,25.00|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
 A In Need of Assistance|QID|64556|PRE|64555|M|62.77,25.00|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|
-C In Need of Assistance|QID|64556|PRE|64555|Z|1961;Korthia|N|Complete the required dalies to proceed.|;
+A We Need a Healer - You!|QID|64562|PRE|64555|M|61.4,24.0|Z|1961;Korthia|N|From Mikanikos.|
+A Anima Reclamation|QID|64560|PRE|64555|M|61.86,25.57|Z|1961;Korthia|N|From Kael'thas Sunstrider.|
+A Observational Records|QID|64561|PRE|64555|M|64.79,25.43|Z|1961;Korthia|N|From Ta'nasi.|
+C In Need of Assistance|QID|64556|PRE|64555|Z|1961;Korthia|N|Complete the required dalies to proceed.|
+C We Need a Healer - You!|QID|64562|M|48.2,53.2|Z|1961;Korthia|N|Restore 10 Wounded Covenant Allies in Seeker's Quorum.|S|
+C Anima Reclamation|QID|64560|M|PLAYER|Z|1961;Korthia|N|Reclaim 8 Devoured Anima from devourers at the Sanctuary of Guidance.|S|
+C Observational Records|QID|64561|M|31.6,51.1|Z|1961;Korthia|N|Collect 5 Observational Records from the Windswept Aerie and Estuary of Awakening in Korthia..|
+C We Need a Healer - You!|QID|64562|M|48.2,53.2|Z|1961;Korthia|N|Restore 10 Wounded Covenant Allies in Seeker's Quorum.|US|
+C Anima Reclamation|QID|64560|M|48.2,53.2|Z|1961;Korthia|N|Reclaim 8 Devoured Anima from devourers at the Sanctuary of Guidance.|US|
+T Anima Reclamation|QID|64560|M|61.86,25.57|Z|1961;Korthia|N|To Kael'thas Sunstrider.|
+T We Need a Healer - You!|QID|64562|M|61.4,24.0|Z|1961;Korthia|N|To Mikanikos.|
+T Observational Records|QID|64561|M|64.79,25.43|Z|1961;Korthia|N|To Ta'nasi.|
 T In Need of Assistance|QID|64556|M|62.76,24.99|Z|1961;Korthia|N|To Highlord Bolvar Fordragon.|
 
 ;Focusing the Eye

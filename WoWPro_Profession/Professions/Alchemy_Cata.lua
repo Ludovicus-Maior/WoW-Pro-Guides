@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancAlchemy_Cata","Profession","Alchemy_Cata", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",171)
 WoWPro:GuideLevels(guide)
@@ -20,15 +19,14 @@ return [[
 ; 		IE learn 2 at lvl 15 |171800151| and |171800152|.
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
 
-;  Updated to Cataclysm splits / new format on 12-Jan-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;  Updated to Cataclysm splits / new format on 12-Jan-2021 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-N Guide Hub|QID|171000000|JUMP|Alchemy: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|171000000|JUMP|ALC_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|171000001|N|Covers Cataclysm content in Retail only. Guide written in the new format.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Cataclysm Alchemy 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
 l [item=52983/Cinderbloom]|QID|171000004|L|52983 85|ITEM|52983|N|You'll need about 85 Cinderbloom.|
 l [item=52985/Azsharas Veil]|QID|171000004|L|52985 15|ITEM|52985|N|You'll need about 15 Azshara's Veil.|
 l [item=52986/Heartblossom]|QID|171000004|L|52986 25|ITEM|52986|N|You'll need about 25 Heartblossom.|
@@ -38,11 +36,9 @@ l [item=52988/Whiptail]|QID|171000004|L|52988 60|ITEM|52988|N|You'll need about 
 l [item=52179/Alicite]|QID|171000004|L|52179 15|ITEM|52179|N|You'll need about 15 Alicite.|
 l [item=52180/Nightstone]|QID|171000004|L|52180 15|ITEM|52180|N|You'll need about 15 Nightstone.|
 B [item=3371/Crystal Vial]|QID|171000004|L|3371 80|ITEM|3371|N|You'll need about 80 Crystal Vials.|
-
 N Shopping List|QID|171000006|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 = Learn [spell=264243/Cataclysm Alchemy]|QID|171264243|P|Alchemy;171;*;0;0|SPELL|Cataclysm Alchemy;264243|LVL|5|N|Learn from Any Alchemy Trainer, in any Major City of Old Azeroth.  Also, BUY all Recipes available.|
-
 M [item=67415/Draught of War]|QID|171093935|P|Alchemy;171;3+05;1|ITEM|67415|CRAFT|93935 5|MATS|52983 1;3371 1|
 = Learn Recipe|QID|171300051|P|Alchemy;171;3+05|RECIPE|53900|N|Learn [spell=80477/Ghost Elixir] Recipe from Trainer.|
 M [item=58084/Ghost Elixir]|QID|171080477|P|Alchemy;171;3+10;1|ITEM|58084|CRAFT|80477 5|MATS|52983 2;3371 1|
@@ -66,7 +62,6 @@ M [item=58088/Flask of Titanic Strength]|QID|171080723|P|Alchemy;171;3+65;1|ITEM
 M [item=52194/Demoneye]|QID|171080248|P|Alchemy;171;3+70;1|ITEM|52194|CRAFT|80248 5|MATS|52180 3;52987 3|
 = Learn Recipe|QID|171300701|P|Alchemy;171;3+70|RECIPE|80247|N|Learn [spell=80247/Transmute: Amberjewel] Recipe from Trainer.|
 M [item=52195/Amberjewel]|QID|171080247|P|Alchemy;171;3+75;1|ITEM|52194|CRAFT|80247 5|MATS|52179 3;52988 3|
-
 N Congratualations!|QID|171000010|N|On reaching 75 in Cataclysm Alchemy.|
 ]]
 end)

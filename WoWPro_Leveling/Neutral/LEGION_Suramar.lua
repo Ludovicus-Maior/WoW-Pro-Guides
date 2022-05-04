@@ -1196,8 +1196,9 @@ A Stabilizing Suramar|QID|45316|PRE|44756|M|36.48,46.73|Z|680|N|From First Arcan
 C Stabilizing Suramar|QID|45316|M|36.48,46.73|Z|680|QO|1|N|Complete 10 World Quests, IN Suramar.|
 t Stabilizing Suramar|QID|45316|M|36.48,46.73|Z|680|N|To First Arcanist Thalyssra.|
 ; Insurrection - An Elven Problem - Storyline. (Horde (40362) / Alliance (40391) quest splits
-A Insurrection: An Elven Problem|QID|45278|LEAD|45263|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
-T Insurrection: An Elven Problem|QID|45278|M|36.49,45.83|Z|680|N|To First Arcanist Thalyssra.|
+;This quest seems to have been removed from the game.
+;A Insurrection: An Elven Problem|QID|45278|LEAD|45263|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+;T Insurrection: An Elven Problem|QID|45278|M|36.49,45.83|Z|680|N|To First Arcanist Thalyssra.|
 A Eating Before the Meeting|QID|45263|PRE|45316|M|36.49,46.72|Z|680|N|From First Arcanist Thalyssra.|
 C Eating Before the Meeting|QID|45263|M|37.45,47.42|Z|680|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T Eating Before the Meeting|QID|45263|M|36.50,46.77|Z|680|N|To First Arcanist Thalyssra.|
@@ -1244,8 +1245,8 @@ C Break An Arm|QID|44845|M|46.98,50.35;57.11,48.79|Z|680|CS|N|Slay the Arm of th
 T Break An Arm|QID|44845|M|40.55,53.08|Z|680|N|To First Arcanist Thalyssra.|FACTION|HORDE|
 T Break An Arm|QID|44845|M|41.60,51.65|Z|680|N|To First Arcanist Thalyssra.|FACTION|ALLIANCE|
 ; Insurrection - Crafting War Storyline - (more Horde (44859) / Alliance (44743) Splits)
-A Insurrection: Crafting War|QID|45280|LEAD|45265|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
-T Insurrection: Crafting War|QID|45280|M|36.50,46.72|Z|680|N|To First Arcanist Thalyssra.|
+;A Insurrection: Crafting War|QID|45280|LEAD|45265|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+;T Insurrection: Crafting War|QID|45280|M|36.50,46.72|Z|680|N|To First Arcanist Thalyssra.|
 A Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.72|Z|680|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C Feeding the Rebellion|QID|45265|M|37.45,47.42|Z|680|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.72|Z|680|N|To First Arcanist Thalyssra.|
@@ -1303,8 +1304,8 @@ A Trial by Demonfire|QID|44790|PRE|44830&44827&44829|M|39.93,50.96|Z|680|N|From 
 C Trial by Demonfire|QID|44790|M|33.89,49.07|Z|680|QO|1|N|Kill Rozzeleth, back near the Flight Path for Shal'Aran.|
 T Trial by Demonfire|QID|44790|M|39.93,50.96|Z|680|N|To Silgryn.|
 ; Insurrection - March on Suramar - Storyline
-A Insurrection: March on Suramar|QID|45281|LEAD|45266|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
-T Insurrection: March on Suramar|QID|45281|M|36.50,46.72|Z|680|N|To First Arcanist Thalyssra.|
+;A Insurrection: March on Suramar|QID|45281|LEAD|45266|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+;T Insurrection: March on Suramar|QID|45281|M|36.50,46.72|Z|680|N|To First Arcanist Thalyssra.|
 A A United Front|QID|45266|PRE|44790|M|36.50,46.72|Z|680|N|From First Arcanist Thalyssra, in Shal'Aran.| ; Originally had PRE|44790&44876
 C A United Front|QID|45266|M|37.74,47.68|Z|680|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T A United Front|QID|45266|M|36.50,46.72|Z|680|N|To First Arcanist Thalyssra.|
@@ -1326,9 +1327,9 @@ A Staging Point|QID|44740|PRE|44738|M|52.25,68.73|Z|680|N|From Archmage Khadgar.
 C Staging Point|QID|44740|M|54.47,69.43|Z|680|NC|N|Click on Telemancy Beacon to activate.|
 T Staging Point|QID|44740|M|54.88,72.87|Z|680|N|To Archmage Khadgar.|
 ; Insurrection - Elisande's Retort - Storyline.
-A Insurrection: Elisande's Retort|QID|45282|AVAILABLE|45267|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+;A Insurrection: Elisande's Retort|QID|45282|AVAILABLE|45267|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
 H Shal'Aran|QID|45267|PRE|45317|M|54.48,69.46|Z|680|N|Use your Portal at this location, Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
-T Insurrection: Elisande's Retort|QID|45282|M|36.50,46.72|Z|680|N|To First Arcanist Thalyssra.|
+;T Insurrection: Elisande's Retort|QID|45282|M|36.50,46.72|Z|680|N|To First Arcanist Thalyssra.|
 A Before the Siege|QID|45267|PRE|44740|M|36.50,46.72|Z|680|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C Before the Siege|QID|45267|M|37.74,47.68|Z|680|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T Before the Siege|QID|45267|M|36.50,46.72|Z|680|N|To First Arcanist Thalyssra.|
@@ -1357,8 +1358,8 @@ C The Seal's Power|QID|44833|M|50.40,44.93|Z|687|QO|2|N|Protect Arcanist Valtroi
 R Shal'Aran|ACTIVE|44833|M|39.93,50.96|Z|680|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|FLY|LEGION|
 T The Seal's Power|QID|44833|M|36.49,45.83|Z|680|N|To First Arcanist Thalyssra.|
 ; Insurrection - As Strong As Our Will - Storyline
-A Insurrection: As Strong As Our Will|QID|45285|AVAILABLE|45268|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
-T Insurrection: As Strong As Our Will|QID|45285|M|36.49,45.83|Z|680|N|To First Arcanist Thalyssra.|
+;A Insurrection: As Strong As Our Will|QID|45285|AVAILABLE|45268|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+;T Insurrection: As Strong As Our Will|QID|45285|M|36.49,45.83|Z|680|N|To First Arcanist Thalyssra.|
 A The Advisor and the Arcanist|QID|45268|PRE|44833|M|36.50,45.83|Z|680|N|From First Arcanist Thalyssra.|
 C The Advisor and the Arcanist|QID|45268|M|37.74,47.68|Z|680|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
 T The Advisor and the Arcanist|QID|45268|M|36.50,45.83|Z|680|N|To First Arcanist Thalyssra.|
@@ -1403,8 +1404,8 @@ C Felborne No More|QID|45064|M|65.53,54.42|Z|680|QO|2|U|142491|US|N|Finish up ki
 H Shal'Aran|ACTIVE|45064|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T Felborne No More|QID|45064|M|36.49,45.83|Z|680|N|To First Arcanist Thalyssra.|
 ; Insurrection - Breaking the Nighthold - Storyline
-A Insurrection: Breaking the Nighthold|QID|45287|AVAILABLE|45269|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
-T Insurrection: Breaking the Nighthold|QID|45287|M|36.49,45.83|Z|680|N|To First Arcanist Thalyssra.|
+;A Insurrection: Breaking the Nighthold|QID|45287|AVAILABLE|45269|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+;T Insurrection: Breaking the Nighthold|QID|45287|M|36.49,45.83|Z|680|N|To First Arcanist Thalyssra.|
 A A Taste of Freedom|QID|45269|PRE|45064|LEAD|45287|M|36.49,45.83|Z|680|N|From First Arcanist Thalyssra.|
 C A Taste of Freedom|QID|45269|M|37.74,47.68|Z|680|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
 T A Taste of Freedom|QID|45269|M|36.49,45.83|Z|680|N|To First Arcanist Thalyssra.|

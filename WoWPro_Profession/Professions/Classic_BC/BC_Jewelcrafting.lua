@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BC_Jewelcrafting","Profession","Jewelcrafting", "WoWPro Team", "Neutral" ,2)
 WoWPro:GuideIcon(guide,"PRO",755)
 WoWPro:GuideLevels(guide)
@@ -18,15 +17,13 @@ return [[
 ;		IE = Learn Recipe|QID|755800151|M|35.20,41.34|Z|Ring of Fates@Oribos|P|Jewelcrafting;755;8+15|RECIPE|311871|N|Learn [spell=311871/Quick Jewel Doublet] Recipe from Trainer.|
 ;		IE learn 2 at lvl 15 |755800151| and |755800152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
-
-;	Typed update to Vanilla splits on 11-June-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;   Guide Contains Zone IDs: Z|1944;Hellfire Peninsula|IZ|3483|
+;	Typed update to Vanilla splits on 11-June-2021 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
 N This Guide|QID|755000001|N|covers Classic The Burning Crusade content.|
 N PLEASE Report any issues|QID|755000002|N|In our Discord #tbc-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|755000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|755000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete JC 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
-; Begin Shopping list, as of June/2021
 l [item=2840/Copper Bar]|QID|755000004|L|2840 120|ITEM|2840|N|You'll need about 120 Copper Bars.|
 l [item=2840/Copper Bar]|QID|755000004|P|Mining;186;0+30;0|L|2840 180|ITEM|2840|N|You'll need about 180 Copper Bars. (60 bars needed to smelt bronze)|
 l [item=3576/Tin Bar]|QID|755000004|P|Mining;186;0+50;0|L|3576 60|ITEM|3576|N|You'll need about 60 Tin Bars, to smelt with 60 Copper Bars to make bronze bars.|
@@ -48,22 +45,17 @@ l [item=12800/Azerothian Diamond]|QID|755000004|L|12800 7|ITEM|12800|N|You'll ne
 l [item=12361/Blue Sapphire]|QID|755000004|L|12361 3|ITEM|12361|N|You'll need about 3 Blue Sapphire.|
 l [item=12808/Essence of Undeath]|QID|755000004|L|12808 3|ITEM|12808|N|You'll need about 3 Essence of Undeath.|
 l [item=12364/Huge Emerald]|QID|755000004|L|12364 20|ITEM|12364|N|You'll need about 20 Huge Emerald.|
-
 N Smelting|QID|186002841|P|Mining;186;0|N|If you're miner is above 125 skill you can smelt the Bronze and steel you'll need later, if not either level your Miner up, or buy the needed Bronze and Steel from AH instead.|
 M [item=2841/Bronze Bar]|QID|755002689|P|Mining;186;0+50;0|L|2841 120|CRAFT|2689 60|MATS|2840 1;3576 1|N|Craft 60 times to make 120.|
 N Shopping List|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
-; end of shopping list, and pre craft.
-
 = Learn [spell=25229/Jewelcrafting]|QID|755025229|SPELL|Jewelcrafting;25229|LVL|5|N|Learn from a Trainer in The Exodar or Silvermoon City.|
 B [item=20815/Jewelers Kit]|QID|755020815|P|Jewelcrafting;755;0+1;0|L|20815|N|Buy from an Trade Supplies.|
-
 
 M [item=20816/Delicate Copper Wire]|QID|755025255|P|Jewelcrafting;755;0+35;1|ITEM|20816|CRAFT|25255 55|MATS|2840 2|N|Create all 55, and save these for a later steps.|
 M [item=25439/Tigerseye Band]|QID|755032179|P|Jewelcrafting;755;0+50;1|ITEM|25439|CRAFT|32179 15|MATS|20816 1;818 1|
 = Learn [spell=25230/Jewelcrafting]|QID|755025230|P|Jewelcrafting;755;0+50|SPELL|Jewelcrafting;25230|LVL|10|N|Learn Journeyman Jewelcrafting from a Trainer in The Exodar or Silvermoon City.|
 M [item=20817/Bronze Setting]|QID|755025278|P|Jewelcrafting;755;0+80;1|ITEM|20817|CRAFT|25278 50|MATS|2841 100|N|Save these for a later steps. Alternate: you can make some [item=25880/Coarse Stone Statue] if you want to use up [item=2836/Coarse Stone].|
-
 M [item=20820/Simple Pearl Ring]|QID|755025284|P|Jewelcrafting;755;0+100;1|ITEM|20820|CRAFT|25284 20|MATS|2498 1;20817 1;2840 2|N|Alternate: [item=20823/Gloom Band] OR if [item=2842/Silver Bar] is cheap make [item=20827/Ring of Silver Might].|
 M [item=20823/Gloom Band]|QID|755025287|P|Jewelcrafting;755;0+100;1|ITEM|20823|CRAFT|25287 20|MATS|1210 2;20817 1;20816 2|N|Alternate: If [item=2842/Silver Bar] is cheap make [item=20827/Ring of Silver Might].|
 M [item=20827/Ring of Silver Might]|QID|755025317|P|Jewelcrafting;755;0+100;1|ITEM|20827|CRAFT|25317 20|MATS|2842 2|N|This silver was NOT included in the Shopping List.\n[color=FF0000]NOTE: [/color]This can be made upto 110.|
@@ -90,9 +82,8 @@ M [item=30422/Diamond Focus Ring]|QID|755036526|P|Jewelcrafting;755;0+295;1|ITEM
 M [item=21790/Sapphire Pendant of Winter Night]|QID|755026908|P|Jewelcrafting;755;0+300;1|ITEM|21790|CRAFT|26908 3|MATS|12361 1;12808 1;21752 1|N|If you don't have any [item=12808/Essence of Undeath] make [item=29159/Glowing Thorium Band] instead. Right click to skip.|
 M [item=29159/Glowing Thorium Band]|QID|755034960|P|Jewelcrafting;755;0+300;1|ITEM|29159|CRAFT|34960 3|MATS|12800 1;21752 1|N|If you still have some [item=12800/Azerothian Diamond] keep making until you sure them up, right click to skip.|
 M [item=29160/Emerald Lion Ring]|QID|755034961|P|Jewelcrafting;755;0+300;1|ITEM|29160|CRAFT|34961 10|MATS|12364 2;21752 1|
-; Testing new Map IDs
-= Learn [spell=28897/Jewelcrafting]|QID|755028897|P|Jewelcrafting;755;0+275|M|56.8,37.6|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Jewelcrafting;28897|LVL|50|N|Learn Master Jewelcrafting from Kalaen, in Thrallmar, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Horde|
-= Learn [spell=28897/Jewelcrafting]|QID|755028897|P|Jewelcrafting;755;0+275|M|54.6,63.6|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|SPELL|Jewelcrafting;28897|LVL|50|N|Learn Master Jewelcrafting from Tatiana, in Honor Hold, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=28897/Jewelcrafting]|QID|755028897|P|Jewelcrafting;755;0+275|M|56.8,37.6|Z|1944|IZ|3483|SPELL|Jewelcrafting;28897|LVL|50|N|Learn Master Jewelcrafting from Kalaen, in Thrallmar, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=28897/Jewelcrafting]|QID|755028897|P|Jewelcrafting;755;0+275|M|54.6,63.6|Z|1944|IZ|3483|SPELL|Jewelcrafting;28897|LVL|50|N|Learn Master Jewelcrafting from Tatiana, in Honor Hold, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Alliance|
 = Learn [spell=28897/Jewelcrafting]|QID|755028897|P|Jewelcrafting;755;0+275|SPELL|Jewelcrafting;28897|LVL|50|N|Learn Master Jewelcrafting from Trainer in Hellfire Peninsula, (and maybe in Shattrath City). Also, BUY all Recipes available.|
 N Gems|QID|755000009|N|Next steps, Cut any gems you want (about 30) till you hit around 320.  ONLY one is going to be listed in the next step, but all you can craft will be listed.|
 M [item=23098/Inscribed Flame Spessarite]|QID|755028910|P|Jewelcrafting;755;0+320;1|ITEM|23098|CRAFT|28910 30|MATS|21929 1|N|Mix around the gems if you want. Create ANY of these alternates: [item=23113/Brillant Golden Draenite], [item=23108/Glowing Shadow Draenite], [item=23103/Radiant Deep Peridot], [item=23118/Solid Azure Moonstone], or [item=23094/Teardrop Blood Garnet].|
@@ -105,15 +96,7 @@ M [item=23101/Potent Flame Spessarite]|QID|755028915|P|Jewelcrafting;755;0+340;1
 M [item=23111/Sovereign Shadow Draenite]|QID|755028936|P|Jewelcrafting;755;0+340;1|ITEM|23111|CRAFT|28936 5|MATS|23107 1|
 M [item=28290/Smooth Golden Draenite]|QID|755034069|P|Jewelcrafting;755;0+340;1|ITEM|28290|CRAFT|34069 5|MATS|23112 1|
 M [item=24078/Heavy Adamantite Ring]|QID|755031052|P|Jewelcrafting;755;0+350;1|ITEM|24078|CRAFT|31052 10|MATS|23446 1;31079 1|N|If you still didn't hit 350, make more gems from above.|
-
-
 N Leveling 350-375|QID|755000008|N|Recipes to help level are all available via Vendors.  Halaa using the Research Token, Other recipes are World Drops, check the AH, then others are available with Rep from Faction vendors.|
-
-
 N That completes Jewelcrafting.
 ]]
-
 end)
-
-
-

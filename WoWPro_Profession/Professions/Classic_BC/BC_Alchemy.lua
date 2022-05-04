@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BC_Alchemy","Profession","Alchemy_Classic", "WoWPro Team", "Neutral", 2)
 WoWPro:GuideIcon(guide,"PRO",171)
 WoWPro:GuideLevels(guide)
@@ -18,8 +17,8 @@ return [[
 ;		IE = Learn Recipe|QID|171800151|M|39.25,40.39|Z|Ring of Fates@Oribos|P|Alchemy;171;8+15|RECIPE|261423|N|Learn [spell=261423/Spiritual Rejuvenation Potion] Recipe, from Trainer.|
 ; 		IE learn 2 at lvl 15 |171800151| and |171800152|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
-
-;	Updated to Classic splits / new format on 23-Feb-2021 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;   Guide Contains Zone IDs: Z|1944;Hellfire Peninsula|IZ|3483|, Z|1955;Shattrath City|IZ|3703|, Z|1946;Zangarmarsh|, Z|1949;Blade's Edge Mountain|, Z|1952;Terokkar Forest|
+;	Updated to Classic splits / new format on 23-Feb-2021 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
 N This Guide|QID|171000001|N|Covers The Burning Crusade content in CLASSIC only.|
 N PLEASE Report any issues|QID|171000002|N|In our Discord #TBC-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
@@ -52,12 +51,11 @@ B [item=3372/Leaded Vial]|QID|171000004|L|3372 85|ITEM|3372|N|You'll need about 
 B [item=8925/Crystal Vial]|QID|171000004|L|8925 120|ITEM|8925|N|You'll need about 120 Crystal Vials.|
 B [item=18256/Imbued Vial]|QID|171000004|L|18256 120|ITEM|18256|N|You'll need about 105 Imbued Vials.|
 N Couple Recipes to Buy|QID|171000006|N|There are a couple recipes to go buy, that you'll need for later, can skip for now, will repeat when you need them. \n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-B [spell=28555/Super Mana Potion]|QID|171000006|M|67.8,48.0|Z|1946;Zangarmarsh|RECIPE|28555|L|22907|T|Haalrun|N|Purchase [item=22907/Recipe - Super Mana Potion] from Haalrun, at Telredor in Zangarmarsh. (Buy all recipes you can) **BOP**|FACTION|Alliance|
-B [spell=28555/Super Mana Potion]|QID|171000006|M|51.8,74.6|Z|1949;Blade's Edge Mountain|RECIPE|28555|L|22907|T|Daga Ramba|N|Purchase [item=22907/Recipe - Super Mana Potion] from Daga Ramba, at Thunderlord Stronghold in Blade's Edge Mountain. (Buy all recipes you can) **BOP**|FACTION|Horde|
-B [spell=28562/Major Dreamless Sleep Potion]|QID|171000006|M|57.6,53.4|Z|1952;Terokkar Forest|RECIPE|28562|L|22911|T|Leeli Longhaggle|N|Purchase [item=22911/Recipe - Major Dreamless Sleep Potion] from Leeli Longhaggle, at Allerian Stronghold in Terokkar Forest. (Buy all recipes you can) **BOP**|FACTION|Alliance|
-B [spell=28562/Major Dreamless Sleep Potion]|QID|171000006|M|51.8,74.6|Z|1949;Blade's Edge Mountain|RECIPE|28562|L|22911|T|Daga Ramba|N|Purchase [item=22911/Recipe - Major Dreamless Sleep Potion] from Daga Ramba, at Thunderlord Stronghold in Blade's Edge Mountain. (Buy all recipes you can) **BOP**|FACTION|Horde|
-B [spell=28558/Elixir of Major Shadow Power]|QID|171000006|M|62.0,69.0|Z|1955;Shattrath City|RECIPE|28558|L|22910|T|Nakodu|N|Purchase [item=22910/Recipe - Elixir of Major Shadow Power] from Nakodu in Lower City at Shattrath City. (Buy all the recipes you can) **BOP**|REP|Lower City;1011;Revered-Exalted|
-
+B [spell=28555/Super Mana Potion]|QID|171000006|M|67.8,48.0|Z|1946|RECIPE|28555|L|22907|T|Haalrun|N|Purchase [item=22907/Recipe - Super Mana Potion] from Haalrun, at Telredor in Zangarmarsh. (Buy all recipes you can) **BOP**|FACTION|Alliance|
+B [spell=28555/Super Mana Potion]|QID|171000006|M|51.8,74.6|Z|1949|RECIPE|28555|L|22907|T|Daga Ramba|N|Purchase [item=22907/Recipe - Super Mana Potion] from Daga Ramba, at Thunderlord Stronghold in Blade's Edge Mountain. (Buy all recipes you can) **BOP**|FACTION|Horde|
+B [spell=28562/Major Dreamless Sleep Potion]|QID|171000006|M|57.6,53.4|Z|1952|RECIPE|28562|L|22911|T|Leeli Longhaggle|N|Purchase [item=22911/Recipe - Major Dreamless Sleep Potion] from Leeli Longhaggle, at Allerian Stronghold in Terokkar Forest. (Buy all recipes you can) **BOP**|FACTION|Alliance|
+B [spell=28562/Major Dreamless Sleep Potion]|QID|171000006|M|51.8,74.6|Z|1949|RECIPE|28562|L|22911|T|Daga Ramba|N|Purchase [item=22911/Recipe - Major Dreamless Sleep Potion] from Daga Ramba, at Thunderlord Stronghold in Blade's Edge Mountain. (Buy all recipes you can) **BOP**|FACTION|Horde|
+B [spell=28558/Elixir of Major Shadow Power]|QID|171000006|M|62.0,69.0|Z|1955|RECIPE|28558|L|22910|T|Nakodu|N|Purchase [item=22910/Recipe - Elixir of Major Shadow Power] from Nakodu in Lower City at Shattrath City. (Buy all the recipes you can) **BOP**|REP|Lower City;1011;Revered-Exalted|
 N Shopping List|QID|171000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 = Learn [spell=2259/Alchemy]|QID|171002259|SPELL|Alchemy;2259|LVL|5|N|Learn from a Trainer in any major city.|
@@ -85,9 +83,9 @@ M [item=9154/Elixir of Detect Undead]|QID|171011460|P|Alchemy;171;0+265;1|ITEM|9
 M [item=13443/Superior Mana Potion]|QID|171017553|P|Alchemy;171;0+285;1|ITEM|13443|CRAFT|17553 30|MATS|8838 2;8839 2;8925 1|
 = Learn Recipe|QID|171002751|P|Alchemy;171;0+275|RECIPE|17556|N|Learn [spell=17556/Major Healing Potion] Recipe from Trainer.|
 M [item=13446/Major Healing Potion]|QID|171017556|P|Alchemy;171;0+300;1|ITEM|13446|CRAFT|17556 20|MATS|13464 2;13465 1;8925 1|
-= Learn [spell=28596/Master Alchemy]|QID|171028596|M|52.2,36.4|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|P|Alchemy;171;0+300|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Apothecary Antonivich, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
-= Learn [spell=28596/Master Alchemy]|QID|171028596|M|53.8,65.8|Z|1944;Hellfire Peninsula|IZ|3483;Hellfire Peninsula|P|Alchemy;171;0+300|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Alchemist Gribble, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
-= Learn [spell=28596/Master Alchemy]|QID|171028596|M|45.8,20.4|Z|1955;Shattrath City|IZ|3703;Shattrath City|P|Alchemy;171;0+300|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Lorokeem, Lower City, in Shattrath City.|
+= Learn [spell=28596/Master Alchemy]|QID|171028596|M|52.2,36.4|Z|1944|IZ|3483|P|Alchemy;171;0+300|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Apothecary Antonivich, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
+= Learn [spell=28596/Master Alchemy]|QID|171028596|M|53.8,65.8|Z|1944|IZ|3483|P|Alchemy;171;0+300|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Alchemist Gribble, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
+= Learn [spell=28596/Master Alchemy]|QID|171028596|M|45.8,20.4|Z|1955|IZ|3703|P|Alchemy;171;0+300|SPELL|Master Alchemy;28596|LVL|50|N|Learn from Lorokeem, Lower City, in Shattrath City.|
 = Learn [spell=28596/Master Alchemy]|QID|171028596|P|Alchemy;171;0+300|SPELL|Master Alchemy;28596|LVL|50|N|Learn Master Alchemy in Outlands. Either in Shattrath or at Major Holds in Hellfire Peninsula.|
 = Learn Recipe|QID|171003001|P|Alchemy;171;0+300|RECIPE|33732|N|Learn [spell=33732/Volatile Healing Potion] Recipe from Trainer.|
 = Learn Recipe|QID|171003002|P|Alchemy;171;0+300|RECIPE|33738|N|Learn [spell=33738/Onslaught Elixir] Recipe from Trainer.|
@@ -106,18 +104,17 @@ M [item=34440/Mad Alchemists Potion]|QID|171045061|P|Alchemy;171;0+335;1|ITEM|34
 M [item=22829/Super Healing Potion]|QID|171028551|P|Alchemy;171;0+340;1|ITEM|22829|CRAFT|28551 5|MATS|22791 2;22785 1;18256 1|N|If you do not have any [item=22791/Netherbloom], make more from previous step Right click to skip, to make more of the previous items.|
 M [item=32067/Elixir of Draenic Wisdom]|QID|171039638|P|Alchemy;171;0+340;1|ITEM|32067|CRAFT|39638 5|MATS|22785 1;22787 1;18256 1|N|Alternately: Make [item=34440/Mad Alchemists Potion] if you have a lot of [item=22787/Ragveil] (Right Click to make the Alternate).|
 M [item=34440/Mad Alchemists Potion]|QID|171045061|P|Alchemy;171;0+340;1|ITEM|34440|CRAFT|45061 5|MATS|22787 1;8925 1|
-B [spell=28555/Super Mana Potion]|QID|171003401|M|67.8,48.0|Z|1946;Zangarmarsh|RECIPE|28555|L|22907|T|Haalrun|N|Purchase [item=22907/Recipe - Super Mana Potion] from Haalrun, at Telredor in Zangarmarsh. (Buy all recipes you can)|FACTION|Alliance|
-B [spell=28555/Super Mana Potion]|QID|171003401|M|51.8,74.6|Z|1949;Blade's Edge Mountain|RECIPE|28555|L|22907|T|Daga Ramba|N|Purchase [item=22907/Recipe - Super Mana Potion] from Daga Ramba, at Thunderlord Stronghold in Blade's Edge Mountain. (Buy all recipes you can)|FACTION|Horde|
+B [spell=28555/Super Mana Potion]|QID|171003401|M|67.8,48.0|Z|1946|RECIPE|28555|L|22907|T|Haalrun|N|Purchase [item=22907/Recipe - Super Mana Potion] from Haalrun, at Telredor in Zangarmarsh. (Buy all recipes you can)|FACTION|Alliance|
+B [spell=28555/Super Mana Potion]|QID|171003401|M|51.8,74.6|Z|1949|RECIPE|28555|L|22907|T|Daga Ramba|N|Purchase [item=22907/Recipe - Super Mana Potion] from Daga Ramba, at Thunderlord Stronghold in Blade's Edge Mountain. (Buy all recipes you can)|FACTION|Horde|
 U Learn Recipe|QID|171003401|P|Alchemy;171;0+340|RECIPE|28555|U|22907|N|Learn [spell=28555/Super Mana Potion], using [item=22907/Recipe - Super Mana Potion] you purchased.|
 M [item=22832/Super Mana Potion]|QID|171028555|P|Alchemy;171;0+355;1|ITEM|22832|CRAFT|28555 15|MATS|22786 2;22785 1;18256 1|
-B [spell=28562/Major Dreamless Sleep Potion]|QID|171003501|M|57.6,53.4|Z|1952;Terokkar Forest|RECIPE|28562|L|22911|T|Leeli Longhaggle|N|Purchase [item=22911/Recipe - Major Dreamless Sleep Potion] from Leeli Longhaggle, at Allerian Stronghold in Terokkar Forest. (Buy all recipes you can)|FACTION|Alliance|
-B [spell=28562/Major Dreamless Sleep Potion]|QID|171003501|M|51.8,74.6|Z|1949;Blade's Edge Mountain|RECIPE|28562|L|22911|T|Daga Ramba|N|Purchase [item=22911/Recipe - Major Dreamless Sleep Potion] from Daga Ramba, at Thunderlord Stronghold in Blade's Edge Mountain. (Buy all recipes you can)|FACTION|Horde|
+B [spell=28562/Major Dreamless Sleep Potion]|QID|171003501|M|57.6,53.4|Z|1952|RECIPE|28562|L|22911|T|Leeli Longhaggle|N|Purchase [item=22911/Recipe - Major Dreamless Sleep Potion] from Leeli Longhaggle, at Allerian Stronghold in Terokkar Forest. (Buy all recipes you can)|FACTION|Alliance|
+B [spell=28562/Major Dreamless Sleep Potion]|QID|171003501|M|51.8,74.6|Z|1949|RECIPE|28562|L|22911|T|Daga Ramba|N|Purchase [item=22911/Recipe - Major Dreamless Sleep Potion] from Daga Ramba, at Thunderlord Stronghold in Blade's Edge Mountain. (Buy all recipes you can)|FACTION|Horde|
 U Learn Recipe|QID|171003501|P|Alchemy;171;0+350|RECIPE|28562|U|22907|N|Learn [spell=28562/Major Dreamless Sleep Potion], using [item=22911/Recipe - Major Dreamless Sleep Potion] you purchased.|
 M [item=22836/Major Dreamless Sleep Potion]|QID|171028562|P|Alchemy;171;0+375;1|ITEM|22836|CRAFT|28562 40|MATS|22786 1;22792 1;18256 1|N|Alternately you can make [spell=28558/Elixir of Major Shadow Power] which is used by Sadow Priests and Warlocks for raiding.  (Right Click this step, to move on to make them)|
-B [spell=28558/Elixir of Major Shadow Power]|QID|171003502|M|62.0,69.0|Z|1955;Shattrath City|RECIPE|28558|L|22910|T|Nakodu|N|Purchase [item=22910/Recipe - Elixir of Major Shadow Power] from Nakodu in Lower City at Shattrath City.|REP|Lower City;1011;Revered-Exalted|
+B [spell=28558/Elixir of Major Shadow Power]|QID|171003502|M|62.0,69.0|Z|1955|RECIPE|28558|L|22910|T|Nakodu|N|Purchase [item=22910/Recipe - Elixir of Major Shadow Power] from Nakodu in Lower City at Shattrath City.|REP|Lower City;1011;Revered-Exalted|
 U Learn Recipe|QID|171003502|P|Alchemy;171;0+350|RECIPE|28558|U|22910|N|Learn [spell=28558/Elixir of Major Shadow Power], using [item=22910/Recipe - Elixir of Major Shadow Power] you purchased.|
 M {item=22835/Elixir of Major Shadow Power]|QID|1710028558|P|Alchemy;171;0+375;1|ITEM|22835|CRAFT|28558 40|MATS|22790 1;22792 1;18256 1|
-
 N Congratualations!|QID|171000010|N|On reaching 375 in Classic - The Burning Crusade, Alchemy.|
 ]]
 end)

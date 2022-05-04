@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancScribe_BfA", "Profession", "Inscription_BfA", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",773)
 WoWPro:GuideLevels(guide)
@@ -19,19 +18,16 @@ return [[
 ;		IE = Learn Recipe|QID|773800101|M|36.47,36.70|Z|1670;Ring of Fates@Oribos|P|Inscription;773;8+10|RECIPE|311423|N|Learn [spell=311423/Writ of Grave Robbing] Recipe from Trainer.|
 ;		IE learn 2 at lvl 10 |773800101| and |773800102|.
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   This Guide contains ZoneID# - Z|862;Zuldazar|, Z|863;Nazmir, Z|864;Vol'dun, Z|896;Drustvar|, Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|1355;Nazjatar|
+;   Typed update to Battle For Azeroth splits on 26-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 ) (This is NOT tested)
 
-;  Typed update to Battle For Azeroth splits on 26-Mar-2022 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 ) (This is NOT tested)
-
-N Guide Hub|QID|773000000|JUMP|Inscription: Guide Hub|S!US|N|Jump to the Guide Hub.|NOCACHE|
+N Guide Hub|QID|773000000|JUMP|Scribe_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|773000001|N|Covers Battle For Azeroth content, that Blizzard terms Battle For Azeroth Plans in RETAIL only. Guide rewritten to new format.|
 N PLEASE Report any issues|QID|773000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Herbalist|P|Herbalism;182;8;0|N|If you are a herbalist, running around for these mats will level you up, currently no guide in the works for herbalism.|
 N Learn Recipes|QID|773000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|773000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Inscription 1 to 160.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
-
-; Begin Shopping list, as of Mar-2022
-
 N Herbs|QID|773000004|N|You will need upwards of 1,000+ herbs to mill to make your inks.  There are 7 herbs available in Battle For Azeroth, and 3 Pigments.|
 N Pigments / Inks|QID|773000004|N|You will need about\n900 [item=158187],\n550 [item=158188], and\n  50 [item=158189].\n\nWhen milling, chance of:\n[item=153635] - 75%,\n[item=153636] - 25%,\n[item=153669] - 10% *\n\n(* milling  [item=152510] chance of [item=153669] - 25%).|
 l [item=152505/Riverbud]|QID|773000004|L|152505 1000|ITEM|152505|N|You'll need about 1,000 Riverbud, and/or combination of [item=152506/Star Moss], [item=152507/Akundas Bite], [item=152508/Winters Kiss], [item=152509/Sirens Pollen], [item=152510/Anchor Weed] or [item=152511/Sea Stalk] to mill for [item=153635], [item=153636] and [item=153669].|
@@ -40,9 +36,6 @@ B [item=158205/Acacia Powder]|QID|773000004|L|158205 50|ITEM|158205|N|You will n
 B [item=158186/Distilled Water]|QID|773000004|L|158186 200|ITEM|158186|N|You'll need about 200 Distilled Water, buy as you need if you wish.|
 B [item=39354/Light Parchment]|QID|773000004|L|39354 200|ITEM|39354|N|You'll need about 200 Light Parchments, buy as you need if you wish.|
 N Shopping List|QID|773000006|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
-;	end of shopping list, and pre craft.
-
-; Guide contains ZoneID# - Z|862;Zuldazar|, Z|863;Nazmir, Z|864;Vol'dun, Z|896;Drustvar|, Z|1161;Boralus|, Z|1165;Dazar'alor|, Z|1355;Nazjatar|
 
 = Learn [spell=264508/Kul Tiran Inscription]|QID|773264508|M|73.38,6.34|Z|1161|P|Inscription;773;*;0;75|SPELL|Kul Tiran Inscription;264508|T|Zooey Inksprocket|N|Learn from Zooey Inksprocket, Tradewinds Market in Boralus.|FACTION|Alliance|
 = Learn [spell=265809/Zandalari Inscription]|QID|773265809|M|42.33,39.73|Z|1165|P|Inscription;773;*;0;75|SPELL|Zandalari Inscription;265809|T|Chronicler Grazzul|N|Learn from Chronicler Grazzul, Terrace of Crafters in Dazar'alor.|FACTION|Horde|
@@ -78,6 +71,7 @@ M [item=158202/War Scroll of Battle Shout]|QID|773264767|P|Inscription;773;7+85;
 = Learn Recipe|QID|773000754|P|Inscription;773;7+75|RECIPE|284295|N|Learn [spell=256290/Contract The Honorbound] - Rank 1 from Trainer.|FACTION|Horde|
 = Learn Recipe|QID|773000755|P|Inscription;773;7+75|RECIPE|256294|N|Learn [spell=256294/Contract Tortollan Seekers] - Rank 1 from Trainer.|
 = Learn Recipe|QID|773000756|P|Inscription;773;7+75|RECIPE|256297|N|Learn [spell=256297/Contract Champions of Azeroth] - Rank 1 from Trainer.|
+; Alliance Locations
 B [item=162359/Recipe Contract Proudmoore Admiralty] - Rank 2|QID|773256276|M|67.53,21.57|Z|1161|P|Inscription;773;7+01|RECIPE|256276|T|Provisioner Fray|N|Buy [item=162359/Recipe Contract Proudmoore Admiralty] from Provisioner Fray, Harbormaster's Office, Boralus Harbor. You need to be at least Honored to purchase.|REP|ProudmooreAdmiralty;2160;Honored-Exalted|FACTION|Alliance|
 U [item=162359/Recipe Contract Proudmoore Admiralty] - Rank 2|QID|773256276|P|Inscription;773;7+85|RECIPE|256276|U|162359|N|Use [item=162359/Recipe Contract Proudmoore Admiralty] you just purchased to learn [spell=256276/Contract Proudmoore Admiralty] Recipe.|
 B [item=162361/Recipe Contract Order of Embers] - Rank 2|QID|773256279|M|37.8,49.0|Z|896|P|Inscription;773;7+01|RECIPE|256279|T|Provisioner Lija|N|Buy [item=162361/Recipe Contract Order of Embers] from Quartermaster Alcorn, Arom's Stand, Drustvar. You need to be at least Honored to purchase.|REP|OrderofEmbers;2161;Honored-Exalted|FACTION|Alliance|
@@ -90,6 +84,7 @@ B [item=162373/Recipe Contract Champions of Azeroth] - Rank 2|QID|773256298|M|40
 U [item=162373/Recipe Contract Champions of Azeroth] - Rank 2|QID|773256298|P|Inscription;773;7+85|RECIPE|256298|U|162373|N|Use [item=162373/Recipe Contract Champions of Azeroth] you just purchased to learn [spell=256298/Contract Champions of Azeroth] Recipe.|
 B [item=166278/Recipe Contract 7th Legion] - Rank 2|QID|773284293|M|68.97,24.71|Z|1161|P|Inscription;773;7+01|RECIPE|284293|T|Vindicator Jaelaana|N|Buy [item=166278/Recipe Contract 7th Legion] from Vindicator Jaelaana, Boralus Harbor. You need to be at least Honored to purchase.|REP|7th Legion;2159;Honored-Exalted|FACTION|Alliance|
 U [item=166278/Contract 7th Legion] - Rank 2|QID|773284293|P|Inscription;773;7+85|RECIPE|284293|U|166278|N|Use [item=166278/Recipe Contract 7th Legion] you just purchased to learn [spell=284293/Contract 7th Legion] Recipe.|
+; Horde Locations
 B [item=162753/Recipe Contract Zandalari Empire] - Rank 2|QID|773256285|M|67.22,71.64|Z|1164|P|Inscription;773;7+01|RECIPE|256285|T|Natal'hakata|N|Buy [item=162573/Recipe Contract Zandalari Empire] from Natal'hakata, The Great Seal, Dazar'alor. You need to be at least Honored to purchase.|REP|Zandalari Empire;2103;Honored-Exalted|FACTION|Horde|
 U [item=162753/Recipe Contract Zandalari Empire] - Rank 2|QID|773256285|P|Inscription;773;7+85|RECIPE|256285|U|162753|N|Use [item=162753/Recipe Contract Zandalari Empire] you just purchased to learn [spell=256285/Contract Zandalari Empire] Recipe.|
 B [item=162754/Recipe Contract Talanjis Expedition] - Rank 2|QID|773256288|M|39.09,79.47|Z|863|P|Inscription;773;7+01|RECIPE|256288|T|Provisioner Lija|N|Buy [item=162754/Recipe Contract Talanjis Expedition] from Provisioner Lija, Zul'jan Ruins, Nazmir. You need to be at least Honored to purchase.|REP|Talanji's Expedition;2156;Honored-Exalted|FACTION|Horde|
@@ -127,7 +122,6 @@ M [item=168663/Maroon Ink]|QID|773298929|P|Inscription;773;7+155;1|ITEM|168663|C
 = Learn Recipe|QID|773001551|PRE|55053|M|49.2,61.6|Z|1355|P|Inscription;773;7+155|RECIPE|298927|N|Learn [spell=298927/Mass Mill Zinanthid] Recipe, from Narv.|FACTION|Horde|
 M Mass Mill - Zin'anthid|QID|773298927|P|Inscription;773;7+160;1|ITEM|168487|L|168487 -20|N|Just mill all you have or when you have 100 Maroon Pigments. (Right click to skip, if it doesnt)|
 M [item=168663/Maroon Ink]|QID|773298929|P|Inscription;773;7+175;1|ITEM|168663|CRAFT|298929 100|MATS|168662 1;158186 1|
-
 N Congratualations!|QID|773000010|N|On reaching 175 in Battle For Azeroth Inscription.|
 ]]
 end)

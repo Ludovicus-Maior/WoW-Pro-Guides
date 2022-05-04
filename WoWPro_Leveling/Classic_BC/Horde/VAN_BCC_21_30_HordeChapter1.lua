@@ -250,8 +250,7 @@ A The Sacred Flame|QID|1195|M|54.94,51.42|Z|1456|N|From Zangen Stonehoof.|
 F Orgrimmar|AVAILABLE|502|M|47.02,49.83|Z|1456|
 h Orgrimmar|AVAILABLE|493|M|54.11,68.39|Z|1454|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|IZ|1454|
 = Level 26|AVAILABLE|502|N|If you haven't done so already, go do your lv 26 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Druid|IZ|1454|
-R Leave Orgrimmar|AVAILABLE|502|M|52.42,84.43|CC|Z|1454|N|Exit Orgrimmar through the south gate.|
-b Tirisfal Glades|AVAILABLE|502|M|50.88,13.83|Z|1411|N|Take the Zepplin to Tirisfal Glades.|
+b Tirisfal Glades|AVAILABLE|502|M|50.88,13.83|Z|1411|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
 R Undercity|AVAILABLE|502|M|61.86,65.04|Z|1420|N|Enter Undercity.|
 F Tarren Mill|AVAILABLE|502|M|63.26,48.54|Z|1458|
 A Elixir of Pain|QID|502|M|61.44,19.07|Z|1424|N|From Apothecary Lydon.|PRE|501|
@@ -268,7 +267,7 @@ R Tarren Mill|ACTIVE|527|M|61.35,20.04|Z|1424|N|Head back to Tarren Mill.|
 T Battle of Hillsbrad|QID|527|M|62.27,20.32|Z|1424|N|To High Executor Darthalia in Tarren Mill.|
 A Battle of Hillsbrad|QID|528|M|62.27,20.32|Z|1424|N|From High Executor Darthalia.|
 K Battle of Hillsbrad|ACTIVE|528|QO|1|N|Kill Hillsbrad Peasants.|S|
-A Souvenirs of Death|QID|546|M|62.19,19.86|Z|1424|N|From Deathguard Samsa.|PRE|527|
+A Souvenirs of Death|QID|546|M|62.13,19.71|Z|1424|N|From Deathguard Samsa.|PRE|527|
 C Souvenirs of Death|QID|546|L|3692 30|N|Basically, kill Hillsbrad human mobs to collect the Hillsbrad Human Skulls.|S|IZ|Hillsbrad Fields|
 R Hillsbrad Fields|ACTIVE|528^546^567|M|37.03,43.41|Z|1424|N|Run to the south east part of the area.|IZ|1424|
 K Farmer Kalaba|ACTIVE|567|M|35.71,46.76|Z|1424|QO|4|N|Kill Farmer Kalaba in the SE orchard.|T|Farmer Kalaba|
@@ -279,7 +278,7 @@ R Tarren Mill|ACTIVE|509|M|61.35,20.04|Z|1424|N|Head back to Tarren Mill.|
 ;L Level 27|QID|567|LVL|27|N|You should be around level 27 by this point.|
 T Battle of Hillsbrad|QID|528|M|62.28,20.28|Z|1424|N|To High Executor Darthalia.|
 A Battle of Hillsbrad|QID|529|M|62.28,20.28|Z|1424|N|From High Executor Darthalia.|PRE|528|
-t Souvenirs of Death|QID|546|M|62.10,19.82|Z|1424|N|To Deathguard Samsa.|IZ|Tarren Mill|
+t Souvenirs of Death|QID|546|M|62.13,19.71|Z|1424|N|To Deathguard Samsa.|IZ|Tarren Mill|
 T Elixir of Agony|QID|509|M|61.44,19.07|Z|1424|N|To Apothecary Lydon.|
 A Elixir of Agony|QID|513|M|61.44,19.07|Z|1424|N|From Apothecary Lydon.|PRE|509|
 R Hillsbrad Fields|ACTIVE|529^546^567|M|32.21,48.31|Z|1424|N|Once again, make your way to the south entrance to Hillsbrad Fields.\n[color=FF0000]NOTE: [/color]You're headed for the Forge.|IZ|1424|
@@ -406,38 +405,39 @@ R Splintertree Post|ACTIVE|6441^6571|M|75.00,64.32|Z|1440|N|Choose your own adve
 T Warsong Supplies|QID|6571|M|71.40,67.64|Z|1440|N|To Locke Okarr; by the south watchtower.|
 T Satyr Horns|QID|6441|M|73.07,61.48|Z|1440|N|To Pixel.|
 A Destroy the Legion|QID|9534|M|73.23,60.39|Z|1440|N|From Valusha.|
-R Felfire Hill|ACTIVE|9534&-9536|M|75.3,65.6;79.94,68.39|CC|Z|1440|N|Head to the intersection and follow the road east.|
+R Felfire Hill|ACTIVE|9534|AVAILABLE|9536|M|75.3,65.6;79.94,68.39|CC|Z|1440|N|Head to the intersection and follow the road east.|
 K Destroy the Legion|ACTIVE|9534|M|83.33,69.91|Z|1440|QO|2;3|N|The Roaming Felguard and Searing Infernal can be found all over Felfire Hill.\n[color=FF0000]NOTE: [/color]The Searing Infernal are immune to fire damage.|S|
 K Mannoroc Lasher|ACTIVE|9534|M|84.20,77.28|Z|1440|QO|1|N|The Mannoroc Lashers are mostly found in Demon Fall Canyon; in the mountains to the south of Felfire Hill. Focus on them first.\n[color=FF0000]NOTE: [/color]These mobs are level 29-30.|S|
 l Diabolical Plans|AVAILABLE|9535|L|23797|N|This item is dropped by one of the mobs in Felfire Hill/Demon Fall Canyon.|S|
 A Diabolical Plans|QID|9535|N|Click on the item to start the quest.|U|23797|O|
-R Splintertree Post|ACTIVE|9535&9534|M|73.53,63.62|Z|1440|N|Return to Splintertree Post immediately.\n[color=FF0000]NOTE: [/color]The follow-up will bring you right back here.|
+R Splintertree Post|ACTIVE|9535|M|73.53,63.62|Z|1440|N|Return to Splintertree Post immediately.\n[color=FF0000]NOTE: [/color]The follow-up quest will bring you right back here.|
 t Diabolical Plans|QID|9535|M|73.23,60.39|Z|1440|N|To Valusha.|IZ|Splintertree Post|
 A Never Again!|QID|9536|M|73.23,60.39|Z|1440|N|From Valusha.|PRE|9535|
-R Demon Fall Canyon|ACTIVE|9534&-9536|M|84.19,72.16|Z|1440|N|Make your way to the gap in the mountains at the south end.|
-R Demon Fall Canyon|ACTIVE|9536|M|84.19,72.16|Z|1440|N|Return to Felfire Hill and unlike earlier, follow the shoreline south to the mountain ridge and head east. This will save some time and fights.|
+t Destroy the Legion|QID|9534|M|73.23,60.39|Z|1440|N|To Valusha.|IZ|Splintertree Post|
+R Demon Fall Canyon|ACTIVE|9534&9536|M|84.19,72.16|Z|1440|N|Return to Felfire Hill and make your way into Demon Fall Canyon.|
+R Demon Fall Canyon|ACTIVE|9536&-9534|M|84.19,72.16|Z|1440|N|Return to Felfire Hill and unlike earlier, follow the shoreline south to the mountain ridge and head east. This will save some time and fights.|
 K Mannoroc Lasher|ACTIVE|9534&-9536|M|84.20,77.28|Z|1440|QO|1|N|Focus on killing the Mannoroc Lashers first.|T|Mannoroc Lasher|US|
 K Destroy the Legion|ACTIVE|9534&-9536|M|83.33,69.91|Z|1440|QO|2;3|N|Finish up killing the Roaming Felguard and Searing Infernal.\n[color=FF0000]NOTE: [/color]The Searing Infernal are immune to fire damage.|US|
 l Diabolical Plans|AVAILABLE|9535|L|23797|N|This item is dropped by one of the mobs in Felfire Hill/Demon Fall Canyon.\n[color=FF0000]NOTE: [/color]Skip this step if you want to leave.|US|
 R Splintertree Post|ACTIVE|9534&-9536|M|73.53,63.62|Z|1440|
-t Destroy the Legion|QID|9534|M|73.23,60.39|Z|1440|N|To Valusha.|IZ|Splintertree Post|
 K Gorgannon|ACTIVE|9536|M|84.4,77.3;87.6,78.9;89.82,76.65|CC|Z|1440|QO|1|N|Clear the Mannoroc Lashers around Gorgannon before attacking him.\n[color=FF0000]NOTE: [/color]If you wait and time his pathing, you can pull the 2 beside him solo.|
 R Demon Fall Ridge|ACTIVE|9536|M|82.60,77.90|Z|1440|N|Head back down the ramp to the road and follow it south to the ramp on the west side.\n[color=FF0000]NOTE: [/color]Look for the little 'lights' that lead up the ramp.|
 K Diathorus the Seeker|ACTIVE|9536|M|78.3,81.8;78.54,84.88|CC|Z|1440|QO|2|N|Follow the ramp up until you reach the camp. Enter the building on the other side of the camp and make your way down the ramp to the bridge at the bottom where Diathorus is located.|
 N The Lost Pages|ACTIVE|6504|N|At this point in time, take a look at which pages you have. You have 2 chooses now. You can either grind until you get them, or just buy them from the AH in Orgrimmar.\nSeeing as you probably don't want to spend too much time looking for them, we're off to Orgrimmar.\nUse this opportunity to AH any extra pages you may have.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Splintertree Post|ACTIVE|6504|M|73.53,63.62|Z|1440|N|[color=FF0000]NOTE: [/color]Skip this step if you don't want to grind for the Pages.|
+t Never Again!|QID|9536|M|73.23,60.39|Z|1440|N|To Valusha.|IZ|Splintertree Post|
 
 ; --- Orgrimmar
-H Orgrimmar|ACTIVE|6504^9536|N|If your hearthstone is on CD, you'll have to foot it back to Splintertree Post.|
-F Orgrimmar|ACTIVE|6504|M|12.24,33.80|Z|1440|IZ|Splintertree Post|
+F Orgrimmar|ACTIVE|6504&-9536|M|12.24,33.80|Z|1440|IZ|Splintertree Post|
+H Orgrimmar|ACTIVE|6504&-9536|N|If your hearthstone is on CD, you'll have to foot it back to Splintertree Post.|IZ|-Splintertree Post|
 l Chapter 1|ACTIVE|6504|L|16642|N|Combine Pages 1-4|U|16645|US|NC|
 l Chapter 2|ACTIVE|6504|L|16643|N|Combine Pages 5-8|U|16649|US|NC|
 l Chapter 3|ACTIVE|6504|L|16644|N|Combine Pages 9-12|U|16653|US|NC|
 
 ; --- Ashenvale
-F Splintertree Post|ACTIVE|6504^9536|M|45.13,63.90|Z|1454|N|Back to Ashenvale.|IZ|Orgrimmar|
-F Splintertree Post|ACTIVE|6504^9536|N|Back to Ashenvale.|IZ|-Orgrimmar|
-T Never Again!|QID|9536|M|73.23,60.39|Z|1440|N|To Valusha.|
-F Zoram'gar Outpost|ACTIVE|824|M|73.18,61.59|Z|1440|
+F Splintertree Post|ACTIVE|9536|M|45.13,63.90|Z|1454|N|Back to Ashenvale.|IZ|Orgrimmar|
+F Splintertree Post|ACTIVE|9536|N|Back to Ashenvale.|IZ|-Orgrimmar|
+F Zoram'gar Outpost|ACTIVE|824|
 T Je'neu of the Earthen Ring|QID|824|M|11.56,34.29|Z|1440|N|To Je'neu Sancrea.|
 ;L Level 30|QID|1088|LVL|30|N|You should be around level 30 by this point.|
 
@@ -447,18 +447,15 @@ F Sun Rock Retreat|ACTIVE|1088|IZ|-Zoram'gar Outpost|
 T Ordanus|QID|1088|M|45.95,60.43|Z|1442|N|To Braelyn Firehand.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
 R The Charred Vale|ACTIVE|6283|M|34.51,60.13|Z|1442|N|Choose your own path to get there. I suggest going over the mountain.|
 K Bloodfury Bloodline|ACTIVE|6283|M|30.71,61.15|Z|1442|QO|1|N|Clear any potential adds in the area. When you're ready, kill Bloodfury Ripper and loot her remains. She paths around a little. I highly recommend kiting her into the mountains away from the others.|
-L Level 30|QID|6283|N|You'll want to grind out and be within 1 bubble of level 30 before leaving the area. |C|Priest,Warlock|LVL|29;-2100|
 R Sun Rock Retreat|ACTIVE|6283|M|38.0,68.1;49.58,60.99|CC|Z|1442|N|Head back to Sun Rock Retreat.|
 T Bloodfury Bloodline|QID|6283|M|47.20,61.16|Z|1442|N|To Maggran Earthbinder.|
 
 ; --- Silverpine Forest
 F Orgrimmar|ACTIVE|532|M|45.13,59.84|Z|1442|
-C Strong Troll's Blood Potion|AVAILABLE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
-C Strong Troll's Blood Potion|ACTIVE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
-= Level 30 Training|AVAILABLE|532|N|[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-b Tirisfal Glades|ACTIVE|532^515|M|50.88,13.83|Z|1411|N|Exit Orgrimmar through the south gate take the Zepplin to Tirisfal Glades.|
-R Undercity|ACTIVE|532^515|M|61.86,65.04|Z|1420|N|Enter Undercity.|
+b Tirisfal Glades|ACTIVE|532|M|50.88,13.83|Z|1411|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
+R Undercity|ACTIVE|532|M|61.86,65.04|Z|1420|
 A Elixir of Agony|QID|515|M|48.80,69.28|Z|1458|N|From Master Apothecary Faranell.|PRE|513|
+B Strong Troll's Blood Potion|ACTIVE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|S|IZ|1458|
 
 ; --- Hillsbrad Foothills
 F Tarren Mill|ACTIVE|515|M|63.26,48.54|Z|1458|
@@ -481,17 +478,39 @@ K Foreman Bonds|ACTIVE|539|M|31.22,55.76|Z|1424|QO|1|N|Clear any potential adds 
 K Miner Hackett|ACTIVE|567|M|30.82,56.50;29.94,54.58;30.80,58.50|CC|Z|1424|QO|3|N|Work your way inside the mine and kill Miner Hackett. Clear any potential adds before you attack him.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds was located. If you look over the ledge, you should see him below you.|US|
 K Battle of Hillsbrad|ACTIVE|539|QO|2|N|Finish killing Hillsbrad Miners.|US|
 R Western Strand|ACTIVE|515|M|25.00,63.79|Z|1424|N|Head east from the Azurelode Mine and then turn south towards the shoreline.|
-C Torn Fin Eyes|ACTIVE|515|L|3510 5|N|Working your way east along the coast, kill the Murlocs to collect Torn Fin Eyes.\nMuckdwellers are a better choice over Coastrunners (range attack).\nIf you prefer, you can do this in the water as you swim east.\n[color=FF0000]NOTE: [/color]Avoid letting the Coastrunners get to far away from you when they run, they will aggro another Murloc and range attack you.|
+C Torn Fin Eyes|ACTIVE|515|L|3510 5|N|Working your way east along the coast, kill the Murlocs to collect Torn Fin Eyes.\nMuckdwellers are a better choice over Coastrunners (range attack).\nIf you prefer, you can do this in the water as you swim east.\n[color=FF0000]NOTE: [/color]Avoid letting the Coastrunners get too far away from you when they run, they will aggro another Murloc and range attack you.|
 R Eastern Strand|ACTIVE|515|M|53.19,64.57|Z|1424|N|Southshore is Alliance controlled. So, unless you enjoy running from PvP guards, I'd steer clear of it.\n[color=FF0000]NOTE: [/color]You have a couple choices at this point. You can either run north to the road and go around that way, or you can swim across. Cross at the southern most point of the shoreline to maintain your distance from Southshore.|
 C Daggerspine Scales|ACTIVE|515|M|54.47,65.04|Z|1424|L|3509 5|N|Kill the Nagas to collect Daggerspine Scales.|
 R Tarren Mill|ACTIVE|515|M|62.8,41.6;63.31,29.84|CC|Z|1424|N|Return to Tarren Mill.\nDepending on which end of Eastern Strand you are at, you can either follow the road north of you, or weave your way to the river and follow the EAST bank north. The Southshore guards will leave you alone as long as you don't go in the water.\n[color=FF0000]NOTE: [/color]IF YOU GO IN THE WATER, YOU WILL DIE!!!|
-T Elixir of Agony|QID|515|M|61.44,19.07|Z|1424|N|To Apothecary Lydon.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up; it's not really worth the time and effort.|
 T Dangerous!|QID|567|M|62.28,20.28|Z|1424|N|To High Executor Darthalia.|
 T Battle of Hillsbrad|QID|539|M|62.28,20.28|Z|1424|N|To High Executor Darthalia.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up; it's not really worth the time and effort.|
+N Strong Troll's Blood Potion|ACTIVE|515|L|3388|N|You still need this item to finish the quest. Go get it now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+t Elixir of Agony|QID|515|M|61.44,19.07|Z|1424|N|To Apothecary Lydon.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up; it's not really worth the time and effort.|IZ|Tarren Mill|
+F Undercity|ACTIVE|515|M|60.14,18.63|Z|1424|N|Go get the Strong Troll's Blood Potion.|
+B Strong Troll's Blood Potion|ACTIVE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|US|IZ|1458|
+F Tarren Mill|ACTIVE|515|M|63.26,48.54|Z|1458|
 
 ; --- The Barrens
-F Orgrimmar|ACTIVE|5881|N|Head to your nearest Flight Master and fly to Orgrimmar to take care of any training or anything else you wish to do before starting the next chapter.|IZ|1413| ; No point burning your Hearth if you don't have to.
-H Orgrimmar|ACTIVE|5881|N|Hearth back to Orgrimmar to take care of training and anything else you wish to do before starting the next chapter.| ; This step should auto-complete if you took the flight.
-
+F Orgrimmar|ACTIVE|1195|N|Head to your nearest Flight Master and fly to Orgrimmar to take care of any training or anything else you wish to do before starting the next chapter.|IZ|1413| ; No point burning your Hearth if you don't have to.
+H Orgrimmar|ACTIVE|1195|M|PLAYER| ; This step should auto-complete if you took the flight.
+= Level 30|ACTIVE|1195|N|Do your lv 30 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|30|
+; --- Warlock Felhunter quest
+N Felhunter quest|AVAILABLE|2996|N|Before finishing up this guide, we're going to get started on your quest to unlock your Felhunter.\nHaving a mount will make this a little quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+A Seeking Strahad|QID|2996|M|48.24,45.27|Z|1454|N|From Gan'rul Bloodeye.|C|Warlock|
+F Ratchet|ACTIVE|2996|M|45.14,63.91|Z|1454|N|Head to the flightmaster and take a flight to Ratchet.|
+T Seeking Strahad|QID|2996|M|62.63,35.50|Z|1413|N|To Strahad Farsan.|
+A Tome of the Cabal|QID|1801|PRE|2996|M|62.63,35.50|Z|1413|N|From Strahad Farsan.|
+F Orgrimmar|ACTIVE|1801|M|63.07,37.14|Z|1413|
+b Tirisfal Glades|ACTIVE|1801|M|50.89,13.86|Z|1411|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
+R Undercity|ACTIVE|1801|M|61.86,65.04|Z|1420|N|Enter Undercity.|
+T Tome of the Cabal|QID|1801|M|75.90,37.91|Z|1458|N|To Jorah Annison, at the inner ring of the Magic Quarter.|
+A Tome of the Cabal|QID|1803|M|75.90,37.91|Z|1458|N|From Jorah Annison.|PRE|1801|
+F Tarren Mill|ACTIVE|1803|M|63.28,48.54|Z|1458|N|Head to the flightmaster and take a flight to Tarren Mill.|
+R Western Strand|ACTIVE|1803|M|34.35,65.74|Z|1424|N|Mount up and make a run for it.|
+C Moldy Tome|QID|1803|M|27.78,72.77|Z|1424|L|6931|N|Loot the Moldy Tome from the ground near the hut.|
+R Tarren Mill|ACTIVE|1803|M|59.35,21.06|Z|1424|N|Mount up and make your way back to Tarren Mill.|
+F Undercity|ACTIVE|1803|M|60.15,18.63|Z|1424|N|Head to the flightmaster and take a flight to Undercity.|
+b Durotar|ACTIVE|1803|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppelin to Durotar.|
+R Orgrimmar|ACTIVE|1803|M|49.13,94.50|Z|Orgrimmar|
 ]]
 end)

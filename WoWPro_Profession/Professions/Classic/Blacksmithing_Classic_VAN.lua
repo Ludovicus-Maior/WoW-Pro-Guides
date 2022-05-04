@@ -1,7 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-
 local guide = WoWPro:RegisterGuide("BlancBSM_Classic","Profession","Blacksmithing_Classic", "WoWPro Team", "Neutral",1)
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
@@ -19,17 +18,14 @@ return [[
 ;		IE = Learn Recipe|QID|164700151|P|Blacksmithing;164;7+15|RECIPE|253180|N|Learn [spell=253180/Monel-Hardened Waistguard] Recipe from Trainer.|
 ;		IE learn 2 at lvl 15 |164700151| and |164700152|
 ;	Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343184/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
-
-;	Typed update for Classic (Vanilla) split on 27-Oct-2020 by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )  (This is NOT tested)
+;   This Guide Contains Zone IDs: 1454;Orgrimmar|, 1455;Ironforge|, Z|1446;Tanaris|, Z|1434;Stranglethorn Vale|, Z|1413;The Barrens|
+;	Typed update for Classic (Vanilla) split on 27-Oct-2020 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )  (This is NOT tested)
 
 N This Guide|QID|164000001|N|covers Vanilla 1-300 content in Classic.\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|164000002|N|In our Discord #classic-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|164000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|164000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete BS 1 to 300, this is for those that want to farm all mats prior to starting, if you don't want to just click off the steps..\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 N Miner|QID|164000005|P|Mining;186;0;0|N|If you are a miner, running around for these mats will level your mining up. Unfortuantely some might get you killed if your toon is not of level. Currently no guide in the works for mining.|
-
-; Begin Shopping list, as of Dec-2020
-
 l [item=2835/Rough Stone]|QID|164000004|L|2835 150|ITEM|2835|N|You'll need about 145 Rough Stones.|
 l [item=2836/Coarse Stone]|QID|164000004|L|2836 95|ITEM|2836|N|You'll need about  80 Coarse Stones.|
 l [item=2840/Copper Bar]|QID|164000004|L|2840 150|ITEM|2840|N|You'll need about 150 Copper Bars.|
@@ -58,7 +54,6 @@ N Smelting|QID|186000006|P|Mining;186;0|N|If you're miner is above 125 skill you
 M [item=2841/Bronze Bar]|QID|164000006|P|Mining;186;0+50|L|2841 140|CRAFT|2689 70|MATS|2840 1;3576 1|N|You need a total of 140, due to it makes 2 per smelt this was set to 'make' 70.|
 M [item=3859/Steel Bar]|QID|164000006|P|Mining;186;0+125|L|3859 190|CRAFT|3569 190|MATS|3575 1;3857 1|
 N Shopping List|QID|164000004|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
-; end of shopping list, and pre craft.
 
 = Learn [spell=2018/Blacksmithing]|QID|164002018|SPELL|Blacksmithing;2018|LVL|5|N|Learn from a Trainer in any major city.|
 B Hammer|QID|164005956|P|Blacksmithing;164;0+1;0|N|Buy from an NPC Supply|L|5956|
@@ -80,8 +75,8 @@ M [item=6338/Silver Rod]|QID|164007818|P|Blacksmithing;164;0+105;1|ITEM|6338|CRA
 M [item=2857/Runed Copper Belt]|QID|164002666|P|Blacksmithing;164;0+110;1|ITEM|2857|CRAFT|2666 10|MATS|2840 10|
 M [item=2865/Rough Bronze Leggings]|QID|164002668|P|Blacksmithing;164;0+125;1|ITEM|2865|CRAFT|2668 15|MATS|2841 6|
 = Learn Recipe|QID|164001101|P|Blacksmithing;164;0+110|RECIPE|3328|N|Learn [spell=3328/Rough Bronze Shoulders] Recipe from Trainer.|
-= Learn [spell=3538/Expert Blacksmithing]|QID|164003538|M|52.6,40.8|Z|1455;Ironforge|P|Blacksmithing;164;0+125|SPELL|Expert Blacksmithing;3538|LVL|20|T|Bengus Deepforge|N|Visit Bengus Deepforge, Artisan Blacksmithing Trainer in Ironforge.|FACTION|Alliance|
-= Learn [spell=3538/Expert Blacksmithing]|QID|164003538|M|82.2,23.0|Z|1454;Orgrimmar|P|Blacksmithing;164;0+125|SPELL|Expert Blacksmithing;3538|LVL|20|T|Saru Steelfury|N|Visit Saru Steelfury, Artisan Blacksmithing Trainer in Orgrimmar.|FACTION|Horde|
+= Learn [spell=3538/Expert Blacksmithing]|QID|164003538|M|52.6,40.8|Z|1455|P|Blacksmithing;164;0+125|SPELL|Expert Blacksmithing;3538|LVL|20|T|Bengus Deepforge|N|Visit Bengus Deepforge, Artisan Blacksmithing Trainer in Ironforge.|FACTION|Alliance|
+= Learn [spell=3538/Expert Blacksmithing]|QID|164003538|M|82.2,23.0|Z|1454|P|Blacksmithing;164;0+125|SPELL|Expert Blacksmithing;3538|LVL|20|T|Saru Steelfury|N|Visit Saru Steelfury, Artisan Blacksmithing Trainer in Orgrimmar.|FACTION|Horde|
 = Learn Recipe|QID|164001201|P|Blacksmithing;164;0+120|RECIPE|2672|N|Learn [spell=2672/Patterned Bronze Bracers] Recipe from Trainer.|
 = Learn Recipe|QID|164001251|P|Blacksmithing;164;0+125|RECIPE|3337|N|Learn [spell=3337/Heavy Grinding Stone] Recipe from Trainer.|
 M [item=3486/Heavy Grinding Stone]|QID|164003337|P|Blacksmithing;164;0+140;1|ITEM|3486|CRAFT|3337 35|MATS|2838 3|N|Make all you have and keep, don't worry if you hit 145 or 150 with this, guide will skip steps if needed.|
@@ -94,7 +89,7 @@ M [item=3842/Green Iron Leggings]|QID|164003506|P|Blacksmithing;164;0+165;1|ITEM
 M [item=3835/Green Iron Bracers]|QID|164003501|P|Blacksmithing;164;0+190;1|ITEM|3835|CRAFT|3501 25|MATS|3575 6; 2605 1|
 = Learn Recipe|QID|164001851|P|Blacksmithing;164;0+185|RECIPE|7223|N|Learn [spell=7223/Golden Scale Bracers] Recipe from Trainer.|
 M [item=6040/Golden Scale Bracers]|QID|164007223|P|Blacksmithing;164;0+200;1|ITEM|6040|CRAFT|7223 10|MATS|3859 5; 3486 2|N|Keep 6, if you choose Armorsmithing at 200.|
-= Learn [spell=9785/Artisan Blacksmithing]|QID|164009785|M|29.0,75.4|Z|1434;Stranglethorn Vale|P|Blacksmithing;164;0+200|SPELL|Artisan Blacksmithing;9785|LVL|35|T|Brikk Keencraft|N|Visit Brikk Keencraft, Master Blacksmithing Trainer in Booty Bay, Stranglethorn Vale.|
+= Learn [spell=9785/Artisan Blacksmithing]|QID|164009785|M|29.0,75.4|Z|1434|P|Blacksmithing;164;0+200|SPELL|Artisan Blacksmithing;9785|LVL|35|T|Brikk Keencraft|N|Visit Brikk Keencraft, Master Blacksmithing Trainer in Booty Bay, Stranglethorn Vale.|
 = Learn Recipe|QID|164002001|P|Blacksmithing;164;0+200|RECIPE|9920|N|Learn [spell=9920/Solid Grinding Stone] Recipe from Trainer.|
 M [item=7966/Solid Grinding Stone]|QID|164009920|P|Blacksmithing;164;0+210;1|ITEM|7966|CRAFT|9920 30|MATS|7912 4|N|Keep these, you'll need for later, and might need to make more later as well.|
 = Learn Recipe|QID|164002051|P|Blacksmithing;164;0+205|RECIPE|9928|N|Learn [spell=9928/Heavy Mithril Gauntlet] Recipe from Trainer.|
@@ -120,26 +115,22 @@ M [item=12406/Thorium Belt]|QID|164016643|P|Blacksmithing;164;0+270;1|ITEM|12406
 M [item=12416/Radiant Belt]|QID|164016645|P|Blacksmithing;164;0+270;1|ITEM|12416|CRAFT|16645 10|MATS|12359 10;7077 2|N|If you did not find this one OR do not have any Heart of Fire, right click for alternate plans.|
 M [item=7933/Heavy Mithril Boots]|QID|16409968|P|Blacksmithing;164;0+265;1|ITEM|7933|CRAFT|9968 8|MATS|3860 14;4304 4|
 N Imperial Plate Set|AVAILABLE|7653^7654^7655|N|You will need to get to Gadgetzan, Tanaris to complete a few quests to unlock the ability to 'purchase' the plans. Need to be 265 in Blacksmithing, and Level 50. Only the quests needed for the plans for this guide is listed. You will need about 80 [item=12359/Thorium Bar] to buy the three you need or upto 270 [item=12359/Thorium Bar] to buy them all, a higher Reputation with the Thorium Brotherhood will decrease the cost. Right click step to continue, if you don't meet the requirements this guide will END HERE.|
-F Gadgetzan|AVAILABLE|7653^7654^7655|M|45.2,63.8|Z|1454;Orgrimmar|P|Blacksmithing;164;0+265|LVL|50|N|Fly to Gadgetzan from any Flight Master in Kalimdor. (These coords take you to Doras in Orgrimmar.|FACTION|Horde|
-F Gadgetzan|AVAILABLE|7653^7654^7655|M|63.08,37.16|Z|1413;The Barrens|P|Blacksmithing;164;0+265|LVL|50|N|Fly to Gadgetzan from any Flight Master in Kalimdor. (These coords take you to Bragok in Ratchet.|
-A A Blue Light Bargain|QID|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. This unlocks the Imperial Plate sets.|
-T A Blue Light Bargain|QID|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper.|
-A Imperial Plate Belt|QID|7653|PRE|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
-T Imperial Plate Belt|QID|7653|PRE|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
-A Imperial Plate Boots|QID|7654|PRE|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. Cost: 40 [item=12359/Thorium Bar].|
-T Imperial Plate Boots|QID|7654|PRE|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper. Cost: 40 [item=12359/Thorium Bar].|
-A Imperial Plate Bracer|QID|7655|PRE|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
-T Imperial Plate Bracer|QID|7655|PRE|7652|M|51.4,28.6|Z|1446;Tanaris|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
+F Gadgetzan|AVAILABLE|7653^7654^7655|M|45.2,63.8|Z|1454|P|Blacksmithing;164;0+265|LVL|50|N|Fly to Gadgetzan from any Flight Master in Kalimdor. (These coords take you to Doras in Orgrimmar.|FACTION|Horde|
+F Gadgetzan|AVAILABLE|7653^7654^7655|M|63.08,37.16|Z|1413|P|Blacksmithing;164;0+265|LVL|50|N|Fly to Gadgetzan from any Flight Master in Kalimdor. (These coords take you to Bragok in Ratchet.|
+A A Blue Light Bargain|QID|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. This unlocks the Imperial Plate sets.|
+T A Blue Light Bargain|QID|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper.|
+A Imperial Plate Belt|QID|7653|PRE|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
+T Imperial Plate Belt|QID|7653|PRE|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
+A Imperial Plate Boots|QID|7654|PRE|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. Cost: 40 [item=12359/Thorium Bar].|
+T Imperial Plate Boots|QID|7654|PRE|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper. Cost: 40 [item=12359/Thorium Bar].|
+A Imperial Plate Bracer|QID|7655|PRE|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|From Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
+T Imperial Plate Bracer|QID|7655|PRE|7652|M|51.4,28.6|Z|1446|P|Blacksmithing;164;0+265|LVL|50|N|To Derotain Mudsipper. Cost: 20 [item=12359/Thorium Bar].|
 U Learn Recipe|QID|164002651|P|Blacksmithing;164;0+265|RECIPE|16647|U|12688|N|Learn [spell=16647/Imperial Plate Belt], using Quest reward from Quest Imperial Plate Belt, reward [item=12688/Plans - Imperial Plate Belt]|
 M [item=12424/Imperial Plate Belt]|QID|164016647|P|Blacksmithing;164;0+270;1|ITEM|12424|CRAFT|16647 5|MATS|12359 22;8170 6;7909 1|
 U Learn Recipe|QID|164002701|P|Blacksmithing;164;0+270|RECIPE|16649|U|12690|N|Learn [spell=16649/Imperial Plate Bracers], using Quest reward from Quest Imperial Plate Bracer, reward [item=12690/Plans - Imperial Plate Bracers]|
 M [item=12425/Imperial Plate Bracers]|QID|164016649|P|Blacksmithing;164;0+295;1|ITEM|12425|CRAFT|16649 25|MATS|12359 20;7910 1|
 U Learn Recipe|QID|164002951|P|Blacksmithing;164;0+295|RECIPE|16657|U|12700|N|Learn [spell=16657/Imperial Plate Boots], using Quest reward from Quest Imperial Plate Boots, reward [item=12700/Plans - Imperial Plate Boots]|
 M [item=12426/Imperial Plate Boots]|QID|164016657|P|Blacksmithing;164;0+300;1|ITEM|12426|CRAFT|16657 5|MATS|12359 34;7910 1;7909 1|
-
 N Congratulations!|N|That completes Blacksmithing Plans 1-300.
 ]]
-
 end)
-
-

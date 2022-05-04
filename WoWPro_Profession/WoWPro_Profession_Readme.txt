@@ -1,7 +1,7 @@
 ; An attempt to standardize the Profession guide handling for RETAIL!
 ; In the Classic handling (Vanilla / The Burning Crusade / Wraith of the Litch King) IGNORE! the Expac numbers, all are Prof;0 (333;0+)
 
-;	These changes where made in late 2020, by Blanckaert ( blanckaert@gmail.com or Discord: Maquis#5791 )
+;	These changes where made in late 2020, by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
 ;	General information: (this is in the beginning of each guide / Example of Enchanting's header)
 
@@ -12,9 +12,9 @@
 ;		IE M [item=172406/Enchant Gloves - Shadowlands Gathering]|QID|333309524|P|Enchanting;333;8+10;1|CRAFT|309524 10|MATS|172230 3|
 ;	For the = Learn Recipe Steps - |QID|Prof,Expac,0 LVL=0000,Increments|     |RECIPE|Spell ID#| [spell=SpellID/Name]  NOTE: if using = with a spell that is 6 digits, then use 202264479 ('264479' is spell ID)
 ;		Expacs - Van = 0, TBC = 1, WotLK = 2, Cata = 3, MoP = 4, WoD = 5, Legion = 6, BfA = 7, SL = 8 -- CLASSIC IGNORE Expac numbers - use 0 for all CLASSIC.
-;		= Learn Recipes|QID|333800101|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
+;		= Learn Recipes|QID|333800101|M|48.41,29.43|Z|1670;Ring of Fates@Oribos|P|Enchanting;333;8+10|RECIPE|309608|N|Learn [spell=309608/Illuminated Soul] Recipe from Trainer.|
 ;		IE learn 2 at lvl 10 |333800101| and |333800102|.
-; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343584/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
+;   Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343584/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad. Also, the [/item name] is optional, just makes it easier to know what the item/spell is.
 
 ;  A longer explanation of some steps.
 
@@ -32,6 +32,7 @@
 ;	N: stand Note text
 
 ;= Learn Recipe|QID|333800801|M|48.41,29.43|Z|Ring of Fates@Oribos|P|Enchanting;333;8+80|RECIPE|309616|N|Learn [spell=309616/Enchanting: Tenet of Critical Strike] Recipe from Trainer.|
+;= Learn Recipe|QID|333800801|M|48.41,29.43|Z|1670|P|Enchanting;333;8+80|RECIPE|309616|N|Learn [spell=309616] Recipe from Trainer.|     ; this is also 'vaild'
 
 ;	Use a '=' (learn step):
 ;	QID: Prof Number (333) + Expac (8) + Level needed (0080) + Increment (1). If you had two spell at 80, the second would be 333800802.
