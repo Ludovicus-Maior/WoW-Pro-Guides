@@ -197,7 +197,8 @@ T Friend of the Sin'dorei|QID|9811|M|53.84,20.29|Z|Silvermoon City|N|To Lor'them
 A Envoy to the Horde|QID|9812|PRE|9218&9216&9811|M|53.84,20.29|Z|Silvermoon City|N|From Lor'themar Theron.|
 P Ruins of Lordaeron|ACTIVE|9812|M|49.47,14.81|Z|Silvermoon City|N|Take the portal to Ruins of Lordaeron.|
 T Envoy to the Horde|QID|9812|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|
-T Journey to Undercity|QID|9180|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|R|BloodElf|
-T Journey to Undercity|QID|9177|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|R|-BloodElf|
+T Journey to Undercity|QID|9180|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|
+; This quest is no longer Bloodelfs only.
+;T Journey to Undercity|QID|9177|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|R|-BloodElf|
 ]]
 end)
