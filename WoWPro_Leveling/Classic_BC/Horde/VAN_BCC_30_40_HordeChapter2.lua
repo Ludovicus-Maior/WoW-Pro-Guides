@@ -492,7 +492,7 @@ T Hammerfall|QID|655|M|74.72,36.29|Z|1417|N|To Tor'gan.|
 R Thandol Span|ACTIVE|1805|M|49.5,45.2;44.30,87.56|CC|Z|1417|N|Return to the sign post at the main road and follow the road south.|
 R Dun Modir|ACTIVE|1805|M|50.58,14.05|Z|1437|N|Cross the bridge and start following the road south.|
 R Angerfang Encampment|ACTIVE|1805|M|48.97,44.34|Z|1437|N|Continue south over the bridge, through the cemetary and up the hill.|
-C Rod of Channeling|ACTIVE|1805|L|6930 3|ITEM|6930|N|Dragonmaw Bonwrders and Shadowwarders.\n[color=FF0000]NOTE: [/color]These mobs will be grey to you.|
+C Rod of Channeling|ACTIVE|1805|L|6930 3|ITEM|6930|N|Dragonmaw Bonewarders and Shadowwarders.\n[color=FF0000]NOTE: [/color]These mobs will be grey to you.|
 
 ; --- Thunder Bluff
 H Orgrimmar|ACTIVE|1136||M|60.35,21.10|Z|1424|N|Use your hearth to save time. If it's on CD, run back to Tarren Mills, fly to Undercity and take the Zeppelin to Orgrimmar.|
@@ -510,36 +510,26 @@ A The Completed Robe|QID|4786|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE
 T The Completed Robe|QID|4786|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
 
 ; --- Stranglethorn Vale
-; --- This section is not working as intended. Temporarily commented out until it can be fixed. - Hendo72
-;N Stranglethorn Vale|AVAILABLE|213|N|If you have the Booty Bay FP already, this is going to be a lot quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|-1434|
+N Stranglethorn Vale|AVAILABLE|575|N|If you have the Booty Bay FP already, this is going to be a lot quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Orgrimmar|AVAILABLE|570^568|M|47.02,49.83|Z|1456|
+b Grom'gol Base Camp|QID|5762|AVAILABLE|201|M|32.39,43.82|Z|1411|N|Take the Zeppelin to Grom'gol Base Camp.|
+A Mok'thardin's Enchantment|QID|570|AVAILABLE|201|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|
+A The Defense of Grom'gol|QID|568|AVAILABLE|201|M|32.20,28.83|Z|1434|N|From Commander Aggro'gosh.|
+f Grom'gol|AVAILABLE|575|M|32.54,29.36|Z|1434|N|At Thysta.\n[color=FF0000]NOTE: [/color]Make sure you load the flight map to load all known FPs.|
 ; --- Has Booty Bay FP
-;F Orgrimmar|AVAILABLE|570^568|M|47.02,49.83|Z|1456|TAXI|Booty Bay|
-;b Grom'gol Base Camp|QID|5762|AVAILABLE|201|M|32.39,43.82|Z|1411|N|Take the Zeppelin to Grom'gol Base Camp.|TAXI|Booty Bay|
-;A Mok'thardin's Enchantment|QID|570|AVAILABLE|201|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|TAXI|Booty Bay|
-;A The Defense of Grom'gol|QID|568|AVAILABLE|201|M|32.20,28.83|Z|1434|N|From Commander Aggro'gosh.|TAXI|Booty Bay|
-;f Grom'gol|QID|568|AVAILABLE|201|M|32.54,29.36|Z|1434|N|At Thysta.|TAXI|Booty Bay|
-;F Booty Bay|QID|5762|AVAILABLE|201|M|32.54,29.35|Z|1434|TAXI|Booty Bay|
-;A Bloodscalp Ears|QID|189|M|27.00,77.13|Z|1434|N|From Kebok, just inside the room.|TAXI|Booty Bay|
-;A Hostile Takeover|QID|213|M|27.00,77.13|Z|1434|N|From Kebok.|TAXI|Booty Bay|
-;A Investigate the Camp|QID|201|M|26.94,77.20|Z|1434|N|From Krazek, who is standing beside Kebok.|TAXI|Booty Bay|
-;A Supply and Demand|QID|575|M|28.29,77.59|Z|1434|N|From Drizzlik.|TAXI|Booty Bay|
-;F Grom'gol|QID|5762|M|26.87,77.09|Z|1434|TAXI|Grom'gol|
+F Booty Bay|ACTIVE|568|AVAILABLE|575|M|32.54,29.35|Z|1434|TAXI|Booty Bay|
 ; --- Missing Booty Bay FP
-F Ratchet|AVAILABLE|575|M|47.02,49.83|Z|1456|TAXI|-Booty Bay|
-b Booty Bay|AVAILABLE|575|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|TAXI|-Booty Bay|
-A Supply and Demand|QID|575|M|28.1,76.5;28.29,77.59|CC|Z|1434|N|From Drizzlik.|TAXI|-Booty Bay|
-R The Salty Sailor Tavern|AVAILABLE|201^213|M|27.10,77.66|Z|1434|N|Make your way to the upper entrance to the Inn.|TAXI|-Booty Bay|
-A Investigate the Camp|QID|201|M|26.95,77.21|Z|1434|N|From Krazek.|TAXI|-Booty Bay|
-A Hostile Takeover|QID|213|M|27.00,77.13|Z|1434|N|From Kebok, who is standing beside Krazek.|TAXI|-Booty Bay|
-A Bloodscalp Ears|QID|189|M|27.00,77.13|Z|1434|N|From Kebok.|TAXI|-Booty Bay|
-f Booty Bay|ACTIVE|5762|M|26.87,77.09|Z|1434|N|Go around the corner to Gringer and pick up the flight path.\n[color=FF0000]NOTE: [/color]Manually check this step off if it doesn't auto-complete.|TAXI|-Booty Bay|IZ|Booty Bay|
-F Grom'gol|ACTIVE|5762|AVAILABLE|570|M|26.87,77.09|Z|1434|TAXI|Grom'gol| ; --- If, for some reason, they had that FP without Booty Bay
-b Ratchet|ACTIVE|5762|AVAILABLE|570|M|25.87,73.12|Z|1434|N|Take the boat to Ratchet.|TAXI|-Grom'gol|
-F Orgrimmar|ACTIVE|5762|AVAILABLE|570|M|63.09,37.16|Z|1413|TAXI|-Grom'gol|
-b Grom'gol Base Camp|ACTIVE|5762|AVAILABLE|570|M|50.59,12.67|Z|1411|N|Exit Orgrimmar and take the Zeppelin to Grom'gol Base Camp.|TAXI|-Grom'gol|
-A Mok'thardin's Enchantment|QID|570|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|
-f Grom'gol|ACTIVE|5762|M|32.54,29.36|Z|1434|N|At Thysta.|TAXI|-Grom'gol|
-A The Defense of Grom'gol|QID|568|M|32.20,28.83|Z|1434|N|From Commander Aggro'gosh.|
+b Durotar|ACTIVE|568|AVAILABLE|575|M|31.37,30.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Durotar.|
+F Ratchet|ACTIVE|568|AVAILABLE|575|M|47.02,49.83|Z|1456|N|Enter Orgrimmar and fly to Ratchet.|TAXI|-Booty Bay|
+b Booty Bay|ACTIVE|568|AVAILABLE|575|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|TAXI|-Booty Bay|
+; --- Back on track
+A Supply and Demand|QID|575|M|28.1,76.5;28.29,77.59|CC|Z|1434|N|From Drizzlik.|
+R The Salty Sailor Tavern|AVAILABLE|201^213|M|27.10,77.66|Z|1434|N|Make your way to the upper entrance to the Inn.|
+A Investigate the Camp|QID|201|M|26.95,77.21|Z|1434|N|From Krazek.|
+A Hostile Takeover|QID|213|M|27.00,77.13|Z|1434|N|From Kebok, who is standing beside Krazek.|
+A Bloodscalp Ears|QID|189|M|27.00,77.13|Z|1434|N|From Kebok.|
+f Booty Bay|ACTIVE|189|M|26.87,77.09|Z|1434|N|Go around the corner to Gringer and pick up the flight path.\n[color=FF0000]NOTE: [/color]Manually check this step off if it doesn't auto-complete.|IZ|Booty Bay|
+F Grom'gol|ACTIVE|5762|AVAILABLE|570|M|26.87,77.09|Z|1434|TAXI|Grom'gol|
 A Bloodscalp Insight|QID|9436|M|31.97,28.60|Z|1434|N|From Nemeth Hawkeye.|
 A The Vile Reef|QID|629|M|32.28,27.70|Z|1434|N|From Kin'weelay.|
 A Bloody Bone Necklaces|QID|596|M|32.28,27.70|Z|1434|N|From Kin'weelay.|
