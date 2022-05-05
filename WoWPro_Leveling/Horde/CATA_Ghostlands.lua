@@ -135,8 +135,7 @@ T Into Occupied Territory|QID|9163|M|44.92,32.48|Z|Ghostlands|N|To Dame Aurifero
 A Deliver the Plans to An'telas|QID|9166|PRE|9163|M|44.92,32.48|Z|Ghostlands|N|From Dame Auriferous.|
 T Retaking Windrunner Spire|QID|9173|M|44.81,32.43|Z|Ghostlands|N|To High Executor Mavren.|
 T The Lady's Necklace|QID|9175|M|44.81,32.43|Z|Ghostlands|N|To High Executor Mavren.|
-A Journey to Undercity|QID|9180|PRE|9173&9175|M|44.81,32.43|Z|Ghostlands|N|From High Executor Mavren.|R|BloodElf|
-A Journey to Undercity|QID|9177|PRE|9173&9175|M|44.81,32.43|Z|Ghostlands|N|From High Executor Mavren.|R|-BloodElf|
+A Journey to Undercity|QID|9180|PRE|9173&9175|M|44.81,32.43|Z|Ghostlands|N|From High Executor Mavren.|
 T Windrunner Village|QID|9140|M|46.44,28.49|Z|Ghostlands|N|To Arcanist Vandril.|
 A The Sanctum of the Sun|QID|9151|PRE|9140|M|46.08,31.93|Z|Ghostlands|N|From Magister Darenis.|
 A Clearing the Way|QID|9281|M|46.39,56.40|Z|Ghostlands|N|From Apprentice Vor'el.|
@@ -198,7 +197,5 @@ A Envoy to the Horde|QID|9812|PRE|9218&9216&9811|M|53.84,20.29|Z|Silvermoon City
 P Ruins of Lordaeron|ACTIVE|9812|M|49.47,14.81|Z|Silvermoon City|N|Take the portal to Ruins of Lordaeron.|
 T Envoy to the Horde|QID|9812|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|
 T Journey to Undercity|QID|9180|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|
-; This quest is no longer Bloodelfs only.
-;T Journey to Undercity|QID|9177|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|R|-BloodElf|
 ]]
 end)
