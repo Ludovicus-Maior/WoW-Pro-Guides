@@ -19,23 +19,23 @@ C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@Deadw
 T In the Blink of an Eye|QID|44663^44184|M|57.53,45.85|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
 A A Ring Unbroken|QID|39746|M|47.39,33.35|Z|Dalaran!Dalaran!Dungeon|N|From Thrall.|
 C A Ring Unbroken|QID|39746|NC|QO|1|M|73.89,43.57|Z|Dalaran!Dalaran!Dungeon|N|Fly to the Maelstrom with Mylra|
-C A Ring Unbroken|SO|1;1|M|31.50,76.22|Z|The Maelstrom!Instance|CHAT|N|Speak with Nobundo.|QID|39746|
-C Help Rehgar and Erunak.|SO|2;3|M|30.02,77.54|Z|The Maelstrom!Instance|NC|N|Click on the pillar.|QID|39746|
-C Help the Tauren and Trolls.|SO|2;2|M|32.07,71.66|Z|The Maelstrom!Instance|NC|N|Click on the fire to light it.|QID|39746|
-C Help the Dwarves.|SO|2;1|M|33.70,81.80|Z|The Maelstrom!Instance|NC|N|Heal Screech.|QID|39746|
-C Defeat the Infernals.|SO|3;1|M|28.37,80.35|Z|The Maelstrom!Instance|N|Defeat the Infernals.|QID|39746|
-C Use Torra's Spear to Bring Down the Felbat Falthus.|SO|4;1|M|31.47,77.50|Z|The Maelstrom!Instance|NC|N|Click on Torra then use your 'extra action button' to Bring Down the Felbat Falthus.|QID|39746|
-C Master of Storms|SO|5;1|M|29.91,77.48|Z|The Maelstrom!Instance|NC|N|Activate the Maelstrom Pillar to defeat Geth'xun.|QID|39746|
-T A Ring Unbroken|QID|39746|M|36.21,74.92|Z|MaelstromShaman|N|To Thrall.|
-A The Elements Call...|QID|41335|M|36.21,74.92|Z|MaelstromShaman|N|From Thrall.|PRE|39746|
-C The Elements Call...|QID|41335|QO|1|M|36.21,74.92|NC|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
-T The Elements Call...|QID|41335|M|36.21,74.92|N|To Thrall.|
-A Artifact Specific Quest|QID|43334^42931^43644|M|34.06,74.36|N|From one of the Shamans in this area.|PRE|41335|
+C A Ring Unbroken|SO|1;1|M|31.50,76.22|Z|725;The Maelstrom|CHAT|N|Speak with Nobundo.|QID|39746|
+C Help Rehgar and Erunak.|SO|2;3|M|30.02,77.54|Z|725;The Maelstrom|NC|N|Click on the pillar.|QID|39746|
+C Help the Tauren and Trolls.|SO|2;2|M|32.07,71.66|Z|725;The Maelstrom|NC|N|Click on the fire to light it.|QID|39746|
+C Help the Dwarves.|SO|2;1|M|33.70,81.80|Z|725;The Maelstrom|NC|N|Heal Screech.|QID|39746|
+C Defeat the Infernals.|SO|3;1|M|28.37,80.35|Z|725;The Maelstrom|N|Defeat the Infernals.|QID|39746|
+C Use Torra's Spear to Bring Down the Felbat Falthus.|SO|4;1|M|31.47,77.50|Z|725;The Maelstrom|NC|N|Click on Torra then use your 'extra action button' to Bring Down the Felbat Falthus.|QID|39746|
+C Master of Storms|SO|5;1|M|29.91,77.48|Z|725;The Maelstrom|NC|N|Activate the Maelstrom Pillar to defeat Geth'xun.|QID|39746|
+T A Ring Unbroken|QID|39746|M|36.21,74.92|Z|725;MaelstromShaman|N|To Thrall.|
+A The Elements Call...|QID|41335|M|36.21,74.92|Z|725;MaelstromShaman|N|From Thrall.|PRE|39746|
+C The Elements Call...|QID|41335|QO|1|M|36.21,74.92|NC|N|Choose which artifact path you want, the next one will be available when you finish the first zone.|
+T The Elements Call...|QID|41335|M|36.21,74.92|Z|725;MaelstromShaman|N|To Thrall.|
+A Artifact Specific Quest|QID|43334^42931^43644|M|34.06,74.36|Z|725;MaelstromShaman|N|From one of the Shamans in this area.|PRE|41335|
 ;ELEMENTAL
 ;A The Coming Storm|QID|43334|M|34.06,74.36|N|From Rehgar Earthfury.|PRE|41335|
-C The Coming Storm|QID|43334|QO|1|M|34.14,75.06|Z|The Maelstrom!Instance|N|Graddoc slain|
-C The Coming Storm|QID|43334|M|34.18,75.12|Z|The Maelstrom!Instance|NC|N|Hop on the waiting beast for a ride to the White Temple.|
-T The Coming Storm|QID|43334|M|66.90,56.24|Z|Kun-Lai Summit|N|To Xuen.|
+;C The Coming Storm|QID|43334|QO|1|M|34.14,75.06|Z|725;The Maelstrom|N|Graddoc slain|
+;C The Coming Storm|QID|43334|M|34.18,75.12|Z|725;The Maelstrom|NC|N|Hop on the waiting beast for a ride to the White Temple.|
+T The Coming Storm|QID|43334|M|66.90,56.24|Z|Kun-Lai Summit|N|Hop on the waiting beast for a ride to the White Temple. Turn in to Xuen.|
 A The Codex of Ra|QID|43338|M|66.90,56.24|Z|Kun-Lai Summit|N|From Xuen.|PRE|43334|
 C The Codex of Ra|QID|43338|QO|1|M|22.41,26.89|Z|Vale of Eternal Blossoms|NC|N|Travel to the Guo-Lai Halls|
 C The Codex of Ra|QID|43338|QO|5|M|52.94,58.15|Z|Vale of Eternal Blossoms|N|As you go, kill the Mogu Spirits in your path.|S|
@@ -58,8 +58,8 @@ T The Voice of Thunder|QID|39771|M|33.53,74.66|N|To Rehgar Earthfury.|
 ;Insert the stuff that happens after you finish first zone here
 ;insert order hall progression quests here
 ;ENHANCEMENT
-;A Where the Hammer Falls|QID|42931|M|35.74,77.50|Z|The Maelstrom!Instance|N|From Stormcaller Mylra.|PRE|41335|
-C Where the Hammer Falls|QID|42931|QO|1|M|35.74,77.50|Z|The Maelstrom!Instance|NC|N|Use Stormbeak to Fly Into the Maelstrom|
+;A Where the Hammer Falls|QID|42931|M|35.74,77.50|Z|726;The Maelstrom|N|From Stormcaller Mylra.|PRE|41335|
+C Where the Hammer Falls|QID|42931|QO|1|M|35.74,77.50|Z|726;The Maelstrom|NC|N|Use Stormbeak to Fly Into the Maelstrom|
 T Where the Hammer Falls|QID|42931|M|47.10,51.98|Z|Deepholm|N|To Thrall.|
 A What the Stonemother Knows|QID|42932|M|47.10,51.98|Z|Deepholm|N|From Thrall.|PRE|42931|
 T What the Stonemother Knows|QID|42932|M|56.23,12.45|Z|Deepholm|N|To Therazane.|
@@ -132,39 +132,43 @@ C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|29.92,52.01|Z|The Maelst
 ; LVL 110 Quest - Obliterum Chain
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|44337^44338|
 C In the House of Light and Shadow|QID|44448|N|Location NOT included at this time.\nBefore you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
-A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran!Dalaran!Dungeon|N|From Camille Kleister.|
-C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran!Dalaran!Dungeon|N|Toss water on the fire.|
-T Fire!|QID|39838|M|39.74,30.93|Z|Dalaran!Dalaran!Dungeon|N|To Camille Kleister.|
-A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran!Dalaran!Dungeon|N|From Mysterious Dust (in the wagon).|PRE|39838|
-C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Talk with Trader Caelen.|
-C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
-C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
-T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran!Dalaran!Dungeon|N|To Enchanter Nalthanis (in the Enchanting Shop).|
-A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran!Dalaran!Dungeon|NA|N|From Vanessa Sellers.|PRE|39839|
-C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them.|
-t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran!Dalaran!Dungeon|N|To Vanessa Sellers.|
-A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran!Dalaran!Dungeon|N|From Vanessa Sellers.|
-C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran!Dalaran!Dungeon|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
-t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
-T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
-A Friends in Low Places|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|
-T Friends in Low Places|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
-A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
-A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
-A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
-C The Muck Stops Here|QID|39843|M|52.26,60.07|Z|The Underbelly@Dalaran70|S|QO|1|N|Loot Spellsludge from Powerful Creatures, that spawn when Gaurds are on duty.|
-C Cold Hard Coin|QID|39844|M|52.26,60.07|Z|The Underbelly@Dalaran70|S|QO|1|N|Loot Sightless Eyes from anything you kill.|
-C One Mage's Trash|QID|39842|M|57.38,37.92|Z|The Underbelly@Dalaran70|QO|3|N|Get Decommissioned Calefactor, when Guards are NOT on duty.|
-C One Mage's Trash|QID|39842|M|53.42,70.25|Z|The Underbelly@Dalaran70|QO|2|N|Get Spellbound Insulation, when Guards are NOT on duty.|
-C One Mage's Trash|QID|39842|M|80.03,85.00|Z|The Underbelly@Dalaran70|QO|1|N|Get Alchemical Flame, when Guards are NOT on duty.|
-C Cold Hard Coin|QID|39844|M|52.26,60.07|Z|The Underbelly@Dalaran70|US|QO|1|N|Loot Sightless Eyes from anything you kill.|
-C The Muck Stops Here|QID|39843|M|52.26,60.07|Z|The Underbelly@Dalaran70|QO|1|US|N|Loot Spellsludge from Powerful Creatures, that spawn when Gaurds are on duty.|
-T One Mage's Trash|QID|39842|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
-T The Muck Stops Here|QID|39843|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
-T Cold Hard Coin|QID|39844|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
-A The Obliterum Forge|QID|39845|PRE|39842&39843&39844|M|67.46,18.13|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
-C The Obliterum Forge|QID|39845|M|42.28,28.92|Z|Dalaran!Dalaran!Dungeon|QO|1|N|1/1 Finalize Obliterum Forge|
-T The Obliterum Forge|QID|39845|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
+
+
+;These quests belong to the obliterum forge quest line, this whole line has been removed from the game.
+;A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran!Dalaran!Dungeon|N|From Camille Kleister.|
+;C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran!Dalaran!Dungeon|N|Toss water on the fire.|
+;T Fire!|QID|39838|M|39.74,30.93|Z|Dalaran!Dalaran!Dungeon|N|To Camille Kleister.|
+;A Mysterious Dust|QID|39839|M|38.00,29.75|Z|Dalaran!Dalaran!Dungeon|N|From Mysterious Dust (in the wagon).|PRE|39838|
+;C Mysterious Dust|QID|39839|QO|1|M|37.59,31.15|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Talk with Trader Caelen.|
+;C Mysterious Dust|QID|39839|QO|3|M|41.30,33.37|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Talk with Deucus Valdera (in the Alchemy Shop).|
+;C Mysterious Dust|QID|39839|QO|2|M|41.25,36.98|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Talk with Professor Pallin (in the Inscription Shop).|
+;T Mysterious Dust|QID|39839|M|38.32,40.37|Z|Dalaran!Dalaran!Dungeon|N|To Enchanter Nalthanis (in the Enchanting Shop).|
+;A Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran!Dalaran!Dungeon|NA|N|From Vanessa Sellers.|PRE|39839|
+;C Trial By Fel Fire|QID|39863|N|These are crafted items, buy, trade for, or create them.|
+;t Trial By Fel Fire|QID|39863|M|37.80,41.28|Z|Dalaran!Dalaran!Dungeon|N|To Vanessa Sellers.|
+;A The Council's Approval|QID|39840|PRE|39863|M|37.80,41.28|Z|Dalaran!Dalaran!Dungeon|N|From Vanessa Sellers.|
+;C The Council's Approval|QID|39840|M|28.50,48.26|Z|Dalaran!Dalaran!Dungeon|CHAT|QO|1|N|Ask Archmage Khadgar for permission to build an Obliterum Forge.|
+;t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
+;T The Council's Approval|QID|39840|M|28.56,47.73|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
+;A Friends in Low Places|QID|39841|PRE|39840|M|28.56,47.73|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|
+;T Friends in Low Places|QID|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+;A One Mage's Trash|QID|39842|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+;A The Muck Stops Here|QID|39843|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+;A Cold Hard Coin|QID|39844|PRE|39841|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+;C The Muck Stops Here|QID|39843|M|52.26,60.07|Z|The Underbelly@Dalaran70|S|QO|1|N|Loot Spellsludge from Powerful Creatures, that spawn when Gaurds are on duty.|
+;C Cold Hard Coin|QID|39844|M|52.26,60.07|Z|The Underbelly@Dalaran70|S|QO|1|N|Loot Sightless Eyes from anything you kill.|
+;C One Mage's Trash|QID|39842|M|57.38,37.92|Z|The Underbelly@Dalaran70|QO|3|N|Get Decommissioned Calefactor, when Guards are NOT on duty.|
+;C One Mage's Trash|QID|39842|M|53.42,70.25|Z|The Underbelly@Dalaran70|QO|2|N|Get Spellbound Insulation, when Guards are NOT on duty.|
+;C One Mage's Trash|QID|39842|M|80.03,85.00|Z|The Underbelly@Dalaran70|QO|1|N|Get Alchemical Flame, when Guards are NOT on duty.|
+;C Cold Hard Coin|QID|39844|M|52.26,60.07|Z|The Underbelly@Dalaran70|US|QO|1|N|Loot Sightless Eyes from anything you kill.|
+;C The Muck Stops Here|QID|39843|M|52.26,60.07|Z|The Underbelly@Dalaran70|QO|1|US|N|Loot Spellsludge from Powerful Creatures, that spawn when Gaurds are on duty.|
+;T One Mage's Trash|QID|39842|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+;T The Muck Stops Here|QID|39843|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+;T Cold Hard Coin|QID|39844|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
+;A The Obliterum Forge|QID|39845|PRE|39842&39843&39844|M|67.46,18.13|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+;C The Obliterum Forge|QID|39845|M|42.28,28.92|Z|Dalaran!Dalaran!Dungeon|QO|1|N|1/1 Finalize Obliterum Forge|
+;T The Obliterum Forge|QID|39845|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
+
 A Fire it Up|QID|41778|PRE|39845|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|
 C Fire it Up|QID|41778|M|42.70,26.70|Z|Dalaran!Dalaran!Dungeon|QO|1|N|1/1 Handful of Obliterum Ash|
 T Fire it Up|QID|41778|M|42.62,28.39|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
