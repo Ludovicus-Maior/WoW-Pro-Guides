@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide("CLASSIC_BC_Ghostlands", "Leveling", "Ghostlands", "WoWPro Team", "Horde", 2)
 WoWPro:GuideSort(guide, 26)
-WoWPro:GuideRaceSpecific(guide,"BloodElf,Undead")
+WoWPro:GuideRaceSpecific(guide,"BloodElf,Scourge")
 WoWPro:GuideNextGuide(guide, "CLASSIC_BC_HordeChapter1")
 WoWPro:GuideLevels(guide, 10, 21)
 WoWPro:GuideSteps(guide, function()

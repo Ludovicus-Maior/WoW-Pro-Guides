@@ -177,7 +177,7 @@ T Test of Lore|QID|1152|M|78.79,45.67|Z|1442|N|To Braug Dimspirit.|
 A Test of Lore|QID|1154|M|78.79,45.67|Z|1442|N|From Braug Dimspirit.|PRE|1152|
 
 ; --- Ashenvale
-R The Dor'Danil Barrow Den|ACTIVE|1154|M|42.3,71.1;42.7,57.1;71.7,70.2;72.51,71.32|CC|Z|1440|N|Enter the cave and take the Talondeep Path to Ashenvale. Head straight north to the road and continue east until you get to the path leading to The Dor'Danil Barrow Den. Follow the path into The Dor'Danil Barrow Den area.|
+R The Dor'Danil Barrow Den|ACTIVE|1154|M|42.3,71.1;42.7,57.1;71.7,70.2;72.51,71.32|CS|Z|1440|N|Enter the cave and take the Talondeep Path to Ashenvale. Head straight north to the road and continue east until you get to the path leading to The Dor'Danil Barrow Den. Follow the path into The Dor'Danil Barrow Den area.|
 C Legacy of the Aspects|QID|1154|M|75.9,75.4;76.8,74.9;75.57,74.38|CS|Z|1440|L|5860|N|Make your way to the Den entrance and work your way inside the Den. Locate the podium and loot the Legacy of the Aspects from it.\n[color=FF0000]NOTE: [/color]You will come across mobs that will attack you as you descend the path inside.|
 
 ; --- Stonetalon Mountains
@@ -510,19 +510,20 @@ A The Completed Robe|QID|4786|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE
 T The Completed Robe|QID|4786|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
 
 ; --- Stranglethorn Vale
-N Stranglethorn Vale|AVAILABLE|213|N|If you have the Booty Bay FP already, this is going to be a lot quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|-1434|
+; --- This section is not working as intended. Temporarily commented out until it can be fixed. - Hendo72
+;N Stranglethorn Vale|AVAILABLE|213|N|If you have the Booty Bay FP already, this is going to be a lot quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|-1434|
 ; --- Has Booty Bay FP
-F Orgrimmar|AVAILABLE|570^568|M|47.02,49.83|Z|1456|TAXI|Booty Bay|
-b Grom'gol Base Camp|QID|5762|AVAILABLE|201|M|32.39,43.82|Z|1411|N|Take the Zeppelin to Grom'gol Base Camp.|TAXI|Booty Bay|
-A Mok'thardin's Enchantment|QID|570|AVAILABLE|201|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|TAXI|Booty Bay|
-A The Defense of Grom'gol|QID|568|AVAILABLE|201|M|32.20,28.83|Z|1434|N|From Commander Aggro'gosh.|TAXI|Booty Bay|
-f Grom'gol|QID|568|AVAILABLE|201|M|32.54,29.36|Z|1434|N|At Thysta.|TAXI|Booty Bay|
-F Booty Bay|QID|5762|AVAILABLE|201|M|32.54,29.35|Z|1434|TAXI|Booty Bay|
-A Bloodscalp Ears|QID|189|M|27.00,77.13|Z|1434|N|From Kebok, just inside the room.|TAXI|Booty Bay|
-A Hostile Takeover|QID|213|M|27.00,77.13|Z|1434|N|From Kebok.|TAXI|Booty Bay|
-A Investigate the Camp|QID|201|M|26.94,77.20|Z|1434|N|From Krazek, who is standing beside Kebok.|TAXI|Booty Bay|
-A Supply and Demand|QID|575|M|28.29,77.59|Z|1434|N|From Drizzlik.|TAXI|Booty Bay|
-F Grom'gol|QID|5762|M|26.87,77.09|Z|1434|TAXI|Grom'gol|
+;F Orgrimmar|AVAILABLE|570^568|M|47.02,49.83|Z|1456|TAXI|Booty Bay|
+;b Grom'gol Base Camp|QID|5762|AVAILABLE|201|M|32.39,43.82|Z|1411|N|Take the Zeppelin to Grom'gol Base Camp.|TAXI|Booty Bay|
+;A Mok'thardin's Enchantment|QID|570|AVAILABLE|201|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|TAXI|Booty Bay|
+;A The Defense of Grom'gol|QID|568|AVAILABLE|201|M|32.20,28.83|Z|1434|N|From Commander Aggro'gosh.|TAXI|Booty Bay|
+;f Grom'gol|QID|568|AVAILABLE|201|M|32.54,29.36|Z|1434|N|At Thysta.|TAXI|Booty Bay|
+;F Booty Bay|QID|5762|AVAILABLE|201|M|32.54,29.35|Z|1434|TAXI|Booty Bay|
+;A Bloodscalp Ears|QID|189|M|27.00,77.13|Z|1434|N|From Kebok, just inside the room.|TAXI|Booty Bay|
+;A Hostile Takeover|QID|213|M|27.00,77.13|Z|1434|N|From Kebok.|TAXI|Booty Bay|
+;A Investigate the Camp|QID|201|M|26.94,77.20|Z|1434|N|From Krazek, who is standing beside Kebok.|TAXI|Booty Bay|
+;A Supply and Demand|QID|575|M|28.29,77.59|Z|1434|N|From Drizzlik.|TAXI|Booty Bay|
+;F Grom'gol|QID|5762|M|26.87,77.09|Z|1434|TAXI|Grom'gol|
 ; --- Missing Booty Bay FP
 F Ratchet|AVAILABLE|575|M|47.02,49.83|Z|1456|TAXI|-Booty Bay|
 b Booty Bay|AVAILABLE|575|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|TAXI|-Booty Bay|
