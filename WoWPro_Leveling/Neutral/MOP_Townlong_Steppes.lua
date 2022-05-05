@@ -243,9 +243,10 @@ C The Sha of Hatred|QID|30968|M|46.16,82.28|N|Be sure to stay in the AOE healing
 T The Sha of Hatred|QID|30968|M|46.15,82.37|N|To Taoshi.|
 T Thinning the Sik'thik|QID|31687|M|53.96,78.18|N|To Rensai Oakhide.|
 T The Search for Restless Leng|QID|31688|M|53.96,78.18|N|To Rensai Oakhide.|
-R Shado-Pan Garrison|QID|31488|CC|M|50.05,71.96|
-f Shado-Pan Garrison|QID|99999|M|50.05,71.96|N|At Kite Master Yao-Li.|
-A Stranger in a Strange Land|QID|31488|O|RANK|3|M|49.15,71.42|N|From Lorewalker Pao. - legendary quest - must be lvl 90, assuming you plan to persue the quest, you may as well pick it up, but nothing more is done with it in the guides.|
+R Shado-Pan Garrison|AVAILABLE|30921|CC|M|50.05,71.96|
+f Shado-Pan Garrison|AVAILABLE|30921|M|50.05,71.96|N|At Kite Master Yao-Li.|
+;THis is a legendary quest. No longer in game.
+;A Stranger in a Strange Land|QID|31488|O|RANK|3|M|49.15,71.42|N|From Lorewalker Pao. - legendary quest - must be lvl 90, assuming you plan to persue the quest, you may as well pick it up, but nothing more is done with it in the guides.|
 A The Motives of the Mantid|QID|30921|M|49.1,71.2|N|From Tai Ho.|
 A Set the Mantid Back|QID|30923|M|49.1,71.2|N|From Tai Ho.|
 A Natural Antiseptic|QID|30922|M|49.14,71.32|N|From Provisioner Bamfu.|
