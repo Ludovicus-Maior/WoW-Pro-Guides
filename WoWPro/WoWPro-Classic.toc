@@ -1,4 +1,4 @@
-## Interface: 11402
+## Interface: 11403
 ## Title: |cffFF9900WoW-|r|cff46921APro|r
 ## Notes: Guides created by the WoW-Pro Community.  |cffFF0000You will need either TomTom or Carbonite installed for full functionality.|r
 ## Author: Jiyambi,Ludovicus
