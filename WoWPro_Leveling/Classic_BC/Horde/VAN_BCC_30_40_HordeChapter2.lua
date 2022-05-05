@@ -177,7 +177,7 @@ T Test of Lore|QID|1152|M|78.79,45.67|Z|1442|N|To Braug Dimspirit.|
 A Test of Lore|QID|1154|M|78.79,45.67|Z|1442|N|From Braug Dimspirit.|PRE|1152|
 
 ; --- Ashenvale
-R The Dor'Danil Barrow Den|ACTIVE|1154|M|42.3,71.1;42.7,57.1;71.7,70.2;72.51,71.32|CC|Z|1440|N|Enter the cave and take the Talondeep Path to Ashenvale. Head straight north to the road and continue east until you get to the path leading to The Dor'Danil Barrow Den. Follow the path into The Dor'Danil Barrow Den area.|
+R The Dor'Danil Barrow Den|ACTIVE|1154|M|42.3,71.1;42.7,57.1;71.7,70.2;72.51,71.32|CS|Z|1440|N|Enter the cave and take the Talondeep Path to Ashenvale. Head straight north to the road and continue east until you get to the path leading to The Dor'Danil Barrow Den. Follow the path into The Dor'Danil Barrow Den area.|
 C Legacy of the Aspects|QID|1154|M|75.9,75.4;76.8,74.9;75.57,74.38|CS|Z|1440|L|5860|N|Make your way to the Den entrance and work your way inside the Den. Locate the podium and loot the Legacy of the Aspects from it.\n[color=FF0000]NOTE: [/color]You will come across mobs that will attack you as you descend the path inside.|
 
 ; --- Stonetalon Mountains
