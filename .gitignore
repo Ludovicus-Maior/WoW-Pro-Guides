@@ -7,3 +7,5 @@ WoWPro*.zip
 .ipynb_checkpoints
 .idea
 .vscode
+releases/
+release-notes.md

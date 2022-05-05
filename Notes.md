@@ -1,3 +1,47 @@
+# Release 9.2.0-A5 / 1.14.3-A0 / 2.5.4-A1
+## Bug Fixes
+* elidion: Added test for Shadowland Flying
+* Blanckaert: Removed support for Lightheaded
+* Hendo72: Quest completion was not immediatly completing the step
+* Blanckaert: Removed the (!?) display on some steps
+* Spoony: /wp where explodes inside instances no more
+* Blanckaert: |Z|#;Name| zone validation was BROKEN
+* Blanckaert: Broker crash if Leveling module was not loaded
+* Spoony: Crash while doing Protoform Synthesis fixed
+
+## Guide Updates
+
+### Retail Leveling
+* Alliance: Night Elf Intro, Jade Forest
+* Horde: Arathi Highlands, Ghostlands, Orc Intro, Jade Forest
+* Neutral: Mechagon, Rogue Order Hall, Shaman Order Hall, Suramar, Towlong Steppes, Ardenweald, Bastion, Chains of Domination, Covenant, Maldraxxus, Revendreth, Zereth Mortis
+### Retail Achievements
+* Boken Isles Treasures
+* Zereth Mortis Tales of the Exile (first draft)
+### Retail Dailies
+* Horde: Dominace Offensive
+* Neutral: Shadow Pan, Tannan Jungle
+### Retail Professions
+* Alchemy: All 9 updated
+* Blacksmithing:  Ditto
+* Enchanting: Ditto
+* Engineering: Ditto
+* Jewlcrafting: Ditto
+* Leatherworking: Ditto
+* Tailoring: Ditto
+* Inscription: Ditto
+
+### Classic Leveling
+* Nada
+### Classic Professions
+* Alchemy, BS, Enchanting, Eng, First Aid, LW, Tailoring
+
+### Burning Crusade Classic Leveling
+* Horde: Ghostlands, The Barrens, Horde Chapter 1 & 2
+### Burning Crusade Classic Professions
+* Alchemy, BS, Enchanting, Eng, First Aid, JC, LW, Tailoring
+
+
 # Release 9.2.0-A4 / 1.14.2-A4 / 2.5.4-A0
 ## Bug Fixes
 * Allow negative loot quantities for Profession guides
