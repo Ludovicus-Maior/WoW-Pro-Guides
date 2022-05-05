@@ -103,6 +103,5 @@ A The Princess Unleashed|QID|26912|PRE|26911|M|69.63,36.53|N|From Zaruk.|
 C The Princess Unleashed|QID|26912|U|4472|M|57.35,34.61|N|Use the scroll to summon Myzrael. This is technically a group quest, but can be solo'd if you feel comfortable with it. She will degrade into several earth elementals upon death. Once you've defeated her, be sure to loot the shackles from her.|
 T The Princess Unleashed|QID|26912|M|57.34,34.63|N|To the stone in front of you.|
 A Revantusk Village|QID|26430|M|69.00,34.78|N|From Drum Fel, back at Hammerfall. Take this if you'd like to do the Hinterlands next.|RANK|3|
-A Into the Scarlet Monastery|QID|26986|M|68.46,37.76|N|From Doctor Gregory Victor. Pick this up if you'd like to run Scarlet Monestary later.|RANK|3|
 ]]
 end)
