@@ -13,8 +13,8 @@ N Work In Process Disclaimer|N|This guide is a work-in-process. Please report an
 N Finish Townlong Steppes|QID|30928|N|Unless you truly enjoy dailies, it is worth finishing the regular quests in Kun-Lai and on into Townlong. They will get you partway thru friendly with Shado-Pan.|
 
 R Shado-Pan Garrison|M|49.25,71|CC|N|Either Master Snowdrift, Ban Bearheart or Ling of the Six Pools will be waiting to give you quests.|
-T Understanding The Shado-Pan|QID|31389|M|49.02,70.45|FACTION|Horde|N|To Ban Bearheart. If you don't have this quest, don't worry about it, its just to help you find your way here the first time. It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|O|
-T Understanding The Shado-Pan|QID|31387|M|49.02,70.45|FACTION|Alliance|N|To Ban Bearheart. If you don't have this quest, don't worry about it, its just to help you find your way here the first time. It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|O|
+; T Understanding The Shado-Pan|QID|31389|M|49.02,70.45|FACTION|Horde|N|To Ban Bearheart. If you don't have this quest, don't worry about it, its just to help you find your way here the first time. It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|O|
+; T Understanding The Shado-Pan|QID|31387|M|49.02,70.45|FACTION|Alliance|N|To Ban Bearheart. If you don't have this quest, don't worry about it, its just to help you find your way here the first time. It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|O|
 
 ;Blackguard Defenders
 A Random Dailies from Master Snowdrift|QID|31113^31114^31116^31118^31119|M|49.5,70.5|N|Master Snowdrift should offer you 4 quests. Check this off manually if he is not the quest giver for the day.|
