@@ -149,6 +149,37 @@ T Tech It Up A Notch|QID|41740|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Se
 A Mission: Elemental Diplomacy|QID|42184|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42142|
 C Mission: Elemental Diplomacy|QID|42184|M|33.47,59.44|Z|726;The Maelstrom|N|Start the "Elemental Diplomacy" mission from the mission board behind you. This is a 1 Hour mission. Right click this step off to move on.|NC|
 T Mission: Elemental Diplomacy|QID|42184|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+A Servant of the Windseeker|QID|42977|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42184|
+T Servant of the Windseeker|QID|42977|M|29.66,10.54|Z|81;Silithus|N|To Highlord Demitrian.|
+A Blessed Blade of the Windseeker|QID|43002|M|29.66,10.54|Z|81;Silithus|N|From Highlord Demitrian.|PRE|42977|
+C Blessed Blade of the Windseeker|QID|43002|QO|1|M|32.75,48.80|Z|630;Azsuna|N|Locate the lost blade of the Windseeker.|
+C Blessed Blade of the Windseeker|QID|43002|QO|2|M|32.75,48.80|Z|630;Azsuna|N|Damaged Thunderfury aquired.|NC|
+T Blessed Blade of the Windseeker|QID|43002|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+A The Skies Above|QID|41770|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|43002|
+C The Skies Above|QID|41770|M|26.80,41.47|Z|726;The Maelstrom|N|Take the portal to Vortex Pinnacle.|NC|
+T The Skies Above|QID|41770|M|55.13,18.34|Z|737;The Vortex Pinnacle!Dungeon737|N|To Consular Celestos.|
+A Recharging the Blade|QID|41771|M|55.13,18.34|Z|737;The Vortex Pinnacle!Dungeon737|N|From Consular Celestos.|PRE|41770|
+C Recharging the Blade|QID|41771|QO|1|M|56.36,42.70|Z|737;The Vortex Pinnacle!Dungeon737|N|Obtain the Heart of Skywall.|
+C Recharging the Blade|QID|41771|QO|2|M|56.36,42.70|Z|737;The Vortex Pinnacle!Dungeon737|N|Recharge Thunderfury.|U|135589|
+C Recharging the Blade|QID|41771|QO|3|M|57.24,48.84|Z|737;The Vortex Pinnacle!Dungeon737|N|Take the slipstreal.|NC|
+T Recharging the Blade|QID|41771|M|52.06,81.98|Z|737;The Vortex Pinnacle!Dungeon737|N|To Consular Celestos.|
+A Return of the Windlord|QID|41776|M|52.06,81.98|Z|737;The Vortex Pinnacle!Dungeon737.|PRE|41771|
+T Return of the Windlord|QID|41776|M|52.47,79.42|Z|737;The Vortex Pinnacle!Dungeon737|N|To Thunderaan.|
+A Oath of the Windlord|QID|41901|M|52.47,79.42|Z|737;The Vortex Pinnacle!Dungeon737|N|From Thunderaan.|PRE|41776|
+P The Maelstrom|ACTIVE|41901|M|49.94,80.99|Z|737;The Vortex Pinnacle!Dungeon737|N|Take the portal back to your Class Hall.|
+T Oath of the Windlord|QID|41901|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+A Enemies of Air|QID|42986|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|41901|
+A The Maelstrom Pillar: Air|QID|42996|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|41901|
+A Recruiting Earthcallers|QID|44465|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|41901|
+A Champion: Nobundo|QID|41743|M|30.43,51.62|Z|726;The Maelstrom|N|From Nobundo.|PRE|41901|
+A Champion: Celestos|QID|41742|M|28.32,45.04|Z|726;The Maelstrom|N|From Celestos.|PRE|41901|
+T Recruiting Earthcallers|QID|44465|M|29.31,42.84|Z|726;The Maelstrom|N|To Felinda Frye.|
+t Enemies of Air|QID|42986|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+T The Maelstrom Pillar: Air|QID|42996|M|29.26,77.92|Z|726;The Maelstrom|N|To Elementalist Janai.|
+A Mistral Essence|QID|42983|M|29.26,77.92|Z|726;The Maelstrom|N|From Elementalist Janai.|PRE|42996|
+P The Vortex Pennacle|ACTIVE|42983|M|27.35,42.28|Z|726;The Maelstrom|N|Take the portal to The Vortex Pinnacle.|
+C Mistral Essence|QID|42983|M|PLAYER|Z|737;The Vortex Pinnacle!Dungeon737|N|Kill all the windy boys for their drops.|
+T Mistral Essence|QID|42983|M|29.26,77.92|Z|726;The Maelstrom|N|To Elementalist Janai.|
 
 ;Second artifact
 A Aggra's Guidance|QID|44406|M|30.34,51.57|Z|726;The Maelstrom|N|From Farseer Nobundo.|PRE|40225|
