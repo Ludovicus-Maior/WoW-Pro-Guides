@@ -180,6 +180,15 @@ A Mistral Essence|QID|42983|M|29.26,77.92|Z|726;The Maelstrom|N|From Elementalis
 P The Vortex Pennacle|ACTIVE|42983|M|27.35,42.28|Z|726;The Maelstrom|N|Take the portal to The Vortex Pinnacle.|
 C Mistral Essence|QID|42983|M|PLAYER|Z|737;The Vortex Pinnacle!Dungeon737|N|Kill all the windy boys for their drops.|
 T Mistral Essence|QID|42983|M|29.26,77.92|Z|726;The Maelstrom|N|To Elementalist Janai.|
+A Eye of Azshara: The Scepter of Storms|QID|42984|M|29.26,77.92|Z|726;The Maelstrom|N|From Elementalist Janai.|PRE|42983|
+C Eye of Azshara: The Scepter of Storms|QID|42984|N|Collect the Scepter of Storms from Lady Hatecoil in the Eye of Azshara dungeon.|
+T Eye of Azshara: The Scepter of Storms|QID|42984|M|29.26,77.92|Z|726;The Maelstrom|N|To Elementalist Janai.|
+A Mission: Investigating Deepholm|QID|42200|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42986|
+t Mission: Investigating Deepholm|QID|42200|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+
+A The Great Stonemother|QID|41775|M|29.26,77.92|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42200|LVL|45|
+P Deepholm|ACTIVE|41775|Z|726;The Maelstrom|N|Take the portal to Deepholm from your class hall.|
+T The Great Stonemother|QID|41775|Z|Deepholm|N|To Therazane.|
 
 ;Second artifact
 A Aggra's Guidance|QID|44406|M|30.34,51.57|Z|726;The Maelstrom|N|From Farseer Nobundo.|PRE|40225|
