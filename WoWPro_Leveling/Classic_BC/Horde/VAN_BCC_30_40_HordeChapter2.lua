@@ -422,15 +422,15 @@ T Components for the Enchanted Gold Bloodrobe|QID|4783|M|62.51,35.45|Z|1413|N|To
 A Components for the Enchanted Gold Bloodrobe|QID|4784|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4783|C|Warlock|
 T Knowledge of the Orb of Orahil|QID|4967|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
 A Fragments of the Orb of Orahil|QID|1799|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4967|
-F Shadowprey Village|ACTIVE|1799|M|63.09,37.16|Z|1413|C|Warlock|
-R Mannoroc Coven|ACTIVE|1799|M|46.89,75.16|Z|1443|N|Follow the main road east out of Shadowprey Village.|C|Warlock|
+F Shadowprey Village|ACTIVE|1799|M|63.09,37.16|Z|1413|QO|1|C|Warlock|
+R Mannoroc Coven|ACTIVE|1799|M|46.89,75.16|Z|1443|QO|1|N|Follow the main road east out of Shadowprey Village.|C|Warlock|
 C Infernal Orb|ACTIVE|1799|L|7291|ITEM|7291|N|Burning Blade Summoner.|C|Warlock|
-R Shadowprey Village|ACTIVE|1799|M|26.50,75.15|Z|1443|N|Return to Shadowprey Village.|
-F Ratchet|ACTIVE|1799|M|21.60,74.13|Z|1443|
-b Booty Bay|ACTIVE|1799|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|
+R Shadowprey Village|ACTIVE|4785^1799|M|26.50,75.15|Z|1443|N|Return to Shadowprey Village.|IZ|1443|
+F Ratchet|ACTIVE|4785|M|21.60,74.13|Z|1443|
+b Booty Bay|ACTIVE|4785|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|
 A Fine Gold Thread|QID|4785|AVAILABLE|4786|M|28.71,76.89|Z|1434|L|12293|N|From Xizk Goodstitch.\n[color=FF0000]NOTE: [/color]This quest is repeatable in case you lose your Thread.|PRE|4783|C|Warlock|
 T Fine Gold Thread|QID|4785|M|28.71,76.89|Z|1434|N|To Xizk Goodstitch.|C|Warlock|
-b Ratchet|ACTIVE|1799|M|25.87,73.12|Z|1434|N|Take the boat to Ratchet.|
+b Ratchet|ACTIVE|4785|M|25.87,73.12|Z|1434|N|Take the boat to Ratchet.|
 
 F Orgrimmar|AVAILABLE|544|M|47.02,49.83|Z|1456|C|Druid|
 F Orgrimmar|AVAILABLE|544|M|63.09,37.16|Z|1413|C|Warlock|
@@ -511,25 +511,27 @@ T The Completed Robe|QID|4786|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
 
 ; --- Stranglethorn Vale
 N Stranglethorn Vale|AVAILABLE|575|N|If you have the Booty Bay FP already, this is going to be a lot quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Orgrimmar|AVAILABLE|570^568|M|63.09,37.16|Z|1413|C|Warlock|
 F Orgrimmar|AVAILABLE|570^568|M|47.02,49.83|Z|1456|
-b Grom'gol Base Camp|QID|5762|AVAILABLE|201|M|32.39,43.82|Z|1411|N|Take the Zeppelin to Grom'gol Base Camp.|
+b Grom'gol Base Camp|QID|5762|AVAILABLE|201|M|50.59,12.67|Z|1411|N|Take the Zeppelin to Grom'gol Base Camp.|
 A Mok'thardin's Enchantment|QID|570|AVAILABLE|201|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|
 A The Defense of Grom'gol|QID|568|AVAILABLE|201|M|32.20,28.83|Z|1434|N|From Commander Aggro'gosh.|
-f Grom'gol|AVAILABLE|575|M|32.54,29.36|Z|1434|N|At Thysta.\n[color=FF0000]NOTE: [/color]Make sure you load the flight map to load all known FPs.|
+f Grom'gol|AVAILABLE|575|M|32.54,29.36|Z|1434|N|At Thysta.|
+N Flight Map|AVAILABLE|575|N|Speak with Thysta again to open the flight map to load all known FPs.\n[color=FF0000]NOTE: [/color]Manually check this step off once you've done this.|TAXI|-Booty Bay|
 ; --- Has Booty Bay FP
 F Booty Bay|ACTIVE|568|AVAILABLE|575|M|32.54,29.35|Z|1434|TAXI|Booty Bay|
 ; --- Missing Booty Bay FP
-b Durotar|ACTIVE|568|AVAILABLE|575|M|31.37,30.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Durotar.|
+b Durotar|ACTIVE|568|AVAILABLE|575|M|31.37,30.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Durotar.|TAXI|-Booty Bay|
 F Ratchet|ACTIVE|568|AVAILABLE|575|M|47.02,49.83|Z|1456|N|Enter Orgrimmar and fly to Ratchet.|TAXI|-Booty Bay|
 b Booty Bay|ACTIVE|568|AVAILABLE|575|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|TAXI|-Booty Bay|
 ; --- Back on track
-A Supply and Demand|QID|575|M|28.1,76.5;28.29,77.59|CC|Z|1434|N|From Drizzlik.|
+A Supply and Demand|QID|575|M|28.1,76.5;28.29,77.59|CC|Z|1434|N|From Drizzlik, inside Tan-Your-Hide Leatherworks.|
 R The Salty Sailor Tavern|AVAILABLE|201^213|M|27.10,77.66|Z|1434|N|Make your way to the upper entrance to the Inn.|
 A Investigate the Camp|QID|201|M|26.95,77.21|Z|1434|N|From Krazek.|
 A Hostile Takeover|QID|213|M|27.00,77.13|Z|1434|N|From Kebok, who is standing beside Krazek.|
 A Bloodscalp Ears|QID|189|M|27.00,77.13|Z|1434|N|From Kebok.|
 f Booty Bay|ACTIVE|189|M|26.87,77.09|Z|1434|N|Go around the corner to Gringer and pick up the flight path.\n[color=FF0000]NOTE: [/color]Manually check this step off if it doesn't auto-complete.|IZ|Booty Bay|
-F Grom'gol|ACTIVE|5762|AVAILABLE|570|M|26.87,77.09|Z|1434|TAXI|Grom'gol|
+F Grom'gol|ACTIVE|5762|AVAILABLE|9436|M|26.87,77.09|Z|1434|TAXI|Grom'gol|
 A Bloodscalp Insight|QID|9436|M|31.97,28.60|Z|1434|N|From Nemeth Hawkeye.|
 A The Vile Reef|QID|629|M|32.28,27.70|Z|1434|N|From Kin'weelay.|
 A Bloody Bone Necklaces|QID|596|M|32.28,27.70|Z|1434|N|From Kin'weelay.|
@@ -549,17 +551,17 @@ K Panther Mastery|ACTIVE|190|M|37.70,14.80|Z|1434|QO|1|N|Kill Young Stranglethor
 K Tiger Mastery|ACTIVE|185|M|34.13,11.45|Z|1434|QO|1|N|Heading in a westerly direction from the camp, kill Young Stranglethorn Tigers. In a looping arc, make your way east to the bridge.|
 K Panther Mastery|ACTIVE|190|M|37.7,14.8;39.7,13.7;41.2,12.9;40.83,10.44|CC|Z|1434|QO|1|N|As you make your way east under the bridge, kill Young Panthers. Cross the river to the north side and work your way west in a sweeping arc towards the road.|US|
 C Supply and Demand|QID|575|M|33.46,8.26|Z|1434|L|4053 2|N|Kill River Crocolisks to loot the skins.\n[color=FF0000]NOTE: [/color]Check both sides of the river.|US|
-T Panther Mastery|QID|190|M|35.56,10.54|Z|1434|N|To Sir S. J. Erlgadin.|
+T Panther Mastery|QID|190|M|35.56,10.54|Z|1434|N|To Sir S. J. Erlgadin, back at Nesingwary's Expedition.|
 A Panther Mastery|QID|191|M|35.56,10.54|Z|1434|N|From Sir S. J. Erlgadin.|PRE|190|
 T Tiger Mastery|QID|185|M|35.62,10.62|Z|1434|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|186|M|35.62,10.62|Z|1434|N|From Ajeck Rouack.|PRE|185|
 R The Hills of the Ruins of Zul'Kunda|ACTIVE|186^191^194|M|30.26,10.63|CC|Z|1434|N|Head to the hills below the Ruins of Zul'Kunda.|
 K Tiger Mastery|ACTIVE|186|M|29.34,9.85|Z|1434|QO|1|N|Kill Stranglethorn Tigers.|S|
-K Panther Mastery|ACTIVE|191|M|25.34,14.37|Z|1434|QO|1|N|Kill Panthers. They are all over this area.|S|
+K Panther Mastery|ACTIVE|191|M|30.04,15.13|Z|1434|QO|1|N|Kill Panthers.|S|
 K Raptor Mastery|ACTIVE|194|M|27.60,16.00|Z|1434|QO|1|N|Kill Stranglethorn Raptors.|
-K Panther Mastery|ACTIVE|191|M|25.34,14.37|Z|1434|QO|1|N|Finish killing Panthers. They are all over this area.|S|
+K Panther Mastery|ACTIVE|191|M|30.04,15.13|Z|1434|QO|1|N|Finish killing Panthers. They are all over this area.|US|
 K Tiger Mastery|ACTIVE|186|M|29.34,9.85|Z|1434|QO|1|N|Finish killing Stranglethorn Tigers before you make your way back to Nesingwary's Expedition.|US|
-T Raptor Mastery|QID|194|M|35.66,10.81|Z|1434|N|To Hemet Nesingwary Jr.|
+T Raptor Mastery|QID|194|M|35.66,10.81|Z|1434|N|To Hemet Nesingwary Jr., back in Nesingwary's Expedition|
 A Raptor Mastery|QID|195|M|35.66,10.81|Z|1434|N|From Hemet Nesingwary Jr.|PRE|194|
 T Tiger Mastery|QID|186|M|35.62,10.62|Z|1434|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|187|M|35.62,10.62|Z|1434|N|From Ajeck Rouack.|PRE|186|
