@@ -571,7 +571,7 @@ R Venture Co. Base Camp|ACTIVE|570|M|36.8,13.6;40.0,14.9;40.8,14.7;42.61,16.70|C
 C Hostile Takeover|QID|213|L|4106 8|ITEM|4106|N|Venture Co. Geologists\n[color=FF0000]NOTE: [/color]They are spellcasters.|S|
 K Foreman Cozzle|ACTIVE|1182|M|42.72,18.37|Z|1434|L|5851|ITEM|5851|QO|1|N|Foreman Cozzle\nForeman Cozzle is inside the office on the top floor of the Venture Co. Operations Center.\n[color=FF0000]NOTE: [/color]You'll need to pull each mob as there isn't much spacing between them and they will run. Try to avoid the ones out on the first level platform. They tend to pull as a group.|
 C Cozzle's Footlocker|QID|1182|M|43.33,20.33|Z|1434|QO|1|N|Drop down into the water and head inside the little house beside the mill. Click on the chest to open it and loot the Fuel Regulator Blueprints.\n[color=FF0000]NOTE: [/color]There is no one inside.|NC|
-C Hostile Takeover|QID|213|M|43.91,22.90|Z|1434|L|4106 8|ITEM|4106|N|Venture Co. Geologists\n[color=FF0000]NOTE: [/color]They are spellcasters.|US|
+C Hostile Takeover|QID|213|M|43.91,22.90|Z|1434|L|4106 8|ITEM|4106|N|Venture Co. Geologist\n[color=FF0000]NOTE: [/color]They are spellcasters.|US|
 K Panther Mastery|ACTIVE|192|M|48.67,22.86|Z|1434|QO|1|N|Kill Shadowmaw Panthers.|S|
 C Mok'thardin's Enchantment|QID|570|M|48.67,22.86|Z|1434|L|3838 8|ITEM|3838|N|Shadowmaw Panthers|S|
 C Mok'thardin's Enchantment|QID|570|M|48.67,22.86|Z|1434|L|3839|ITEM|3839|N|Stranglethorn Tigresses\nHead up into the hills on the east side of Venture Co, Base Camp.\n[color=FF0000]NOTE: [/color]Watch out for the Mosh'Ogg south of the road.|
@@ -642,39 +642,38 @@ T Some Assembly Required|QID|577|M|28.29,77.59|Z|1434|N|To Drizzlik.|
 A Excelsior|QID|628|M|28.29,77.59|Z|1434|N|From Drizzlik.|PRE|577|
 F Grom'gol|ACTIVE|628|M|26.87,77.09|Z|1434|
 ;L Level 37|LVL|37|N|You should be around level 37 by this point.|
-C Singing Blue Shards|QID|605|M|24.34,17.07|Z|1434|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|S|
-C Excelsior|QID|628|M|26.93,20.23|N|Kill Elder Crocolisks to loot the skin.\n[color=FF0000]NOTE: [/color]Follow the shoreline north towards Bal'lal Ruins. The Elder Croclisks share spawn points with the regular ones and may require killing the regular ones to get the Elders to spawn.|S|
+C Singing Blue Shards|QID|605|M|24.34,17.07|Z|1434|L|3918 10|ITEM|3918|N|Crystal Spine Basilisk|S|
+C Excelsior|QID|628|M|26.93,20.23|Z|1434|L|4105|ITEM|4105|N|Elder Croclisk\n[color=FF0000]NOTE: [/color]The Elder Croclisks share spawn points with the regular ones and may require killing the regular ones to get the Elders to spawn.|S|
 R Zuuldaia Ruins|ACTIVE|582|M|27.00,18.60;22.17,16.15|CC|Z|1434|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
 N Bloodscalp Headhunters|ACTIVE|582|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-C Headhunting|QID|582|M|19.86,11.53|Z|1434|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
-C Bloody Bone Necklaces|QID|596|M|20.87,12.18|Z|1434|L|3915 25|N|Kill any Bloodscalp to loot them.|US|
-R Altar of Naias|ACTIVE|9457|M|21.65,21.53|CC|Z|1434|N|Make your way to the east side of the large island just off the coast.|
-K An Unusual Patron|ACTIVE|9457|M|19.56,22.90|Z|1434|L|23681|N|Use the Gift of Naias near the Altar of Naias to summon Naias and kill him.\n[color=FF0000]NOTE: [/color]Clear any mobs in the immediate area and watch out for Gazban who spawns beside the Altar. He can be annoying as an add.|U|23680|
-R The Vile Reef|ACTIVE|629^9457|M|22.82,23.31|CC|Z|1434|
+C Headhunting|QID|582|M|21.22,11.30|Z|1434|L|1532 20|ITEM|1532|N|Bloodscalp Headhunters|
+C Bloody Bone Necklaces|QID|596|M|20.87,12.18|Z|1434|L|3915 25|ITEM|3915|N|Any Bloodscalp Troll|US|
+R Altar of Naias|ACTIVE|9457|M|21.65,21.53|CS|Z|1434|QO|1|N|Make your way to the east side of the large island just off the coast.|
+K An Unusual Patron|ACTIVE|9457|M|19.56,22.90|Z|1434|L|23681|ITEM|23681|N|Naias\nUse the Gift of Naias near the Altar of Naias to summon Naias.\n[color=FF0000]NOTE: [/color]Clear any mobs in the immediate area and watch out for Gazban who spawns beside the Altar. He can be annoying as an add.|U|23680|
+R The Vile Reef|ACTIVE|629|M|22.82,23.31|CS|Z|1434|QO|1|
 N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant Clams. They may contain a 'Blue Pearl'. It's a quest item that can be sold in the AH, if you don't use them for the 'Pearl Diving' quest.|S!US|IZ|The Vile Reef|
-C Encrusted Tail Fins|QID|1107|M|24.84,24.28|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]The best way to do this is to kite them to the surface so you don't drown by accident.|S|
-C Tablet Shard|QID|629|M|24.8,22.8|Z|1434|QO|1|N|Loot the Tablet Shard. It's leaning against the outside wall.\n[color=FF0000]NOTE: [/color]You can get this without aggroing the 2 Elite mobs on the other side. Swim along the surface to the location and dive straight down.\nIf you do it quick, you'll resurface with 1/3 of your breath left.|NC|
-C Encrusted Tail Fins|QID|1107|M|24.84,24.28|Z|1434|L|5796 10|N|Kill Saltscale Murlocs to loot the Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]Kite them to the surface so you don't drown by accident.\nMelee classes, focus on Warriors and Foragers. The others are range attack and may require you to fight underwater.|US|
+C Encrusted Tail Fins|QID|1107|M|24.84,24.28|Z|1434|L|5796 10|ITEM|5796|N|Saltscale Murloc\n[color=FF0000]NOTE: [/color]Kite them to the surface so you don't drown by accident.\nMelee classes, focus on Warriors and Foragers. The others are range attack and may require you to fight underwater.|S|
+C Tablet Shard|QID|629|M|24.8,22.8|Z|1434|L|4094|N|The Tablet Shard is leaning against the outside wall.\n[color=FF0000]NOTE: [/color]Swim along the surface to the location and dive straight down.|NC|
+C Encrusted Tail Fins|QID|1107|M|24.84,24.28|Z|1434|L|5796 10|ITEM|5796|N|Saltscale Murloc\n[color=FF0000]NOTE: [/color]Kite them to the surface so you don't drown by accident.\nMelee classes, focus on Warriors and Foragers. The others are range attack and may require you to fight underwater.|US|
 C Singing Blue Shards|QID|605|M|24.76,17.12|Z|1434|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|US|
-C Excelsior|QID|628|M|26.93,20.23|N|Work your up and down the shoreline, Killing Elder Crocolisks until you loot the skin.\n[color=FF0000]NOTE: [/color]The Elder Croclisks share spawn points with the regular ones and may require killing the regular ones to get the Elders to spawn.|US|
-R Nesingwary's Expedition|ACTIVE|195|M|35.65,10.66|Z|1434|N|Make your way back to Nesingwary's Expedition.|
+C Excelsior|QID|628|M|26.93,20.23|Z|1434|L|4105|ITEM|4105|N|Elder Croclisk\n[color=FF0000]NOTE: [/color]The Elder Croclisks share spawn points with the regular ones and may require killing the regular ones to get the Elders to spawn.|US|
+R Nesingwary's Expedition|ACTIVE|195|M|35.65,10.66|Z|1434|
 T Raptor Mastery|QID|195|M|35.66,10.81|Z|1434|N|To Hemet Nesingwary Jr.|
 A Raptor Mastery|QID|196|M|35.66,10.81|Z|1434|N|From Hemet Nesingwary Jr.|PRE|195|
 T Tiger Mastery|QID|188|M|35.62,10.62|Z|1434|N|To Ajeck Rouack.|
-R Grom'gol Base Camp|ACTIVE|582|M|35.5,15.1;38.5,23.6;32.87,28.73|CC|Z|1434|N|Return to Grom'gol.|
+R Grom'gol Base Camp|ACTIVE|582|M|35.5,15.1;38.5,23.6;32.87,28.73|CC|Z|1434|
 T Headhunting|QID|582|M|32.16,27.72|Z|1434|N|To Nimboya.|
 * Leftover Shrunken Heads|AVAILABLE|-582|N|Delete any leftover Shrunken Heads.|U|1532|
-T Bloody Bone Necklaces|QID|596|M|32.28,27.71|Z|1434|N|To Kin'weelay.|
 A Bloodscalp Clan Heads|QID|584|M|32.16,27.72|Z|1434|N|From Nimboya.|PRE|582|
+T Bloody Bone Necklaces|QID|596|M|32.28,27.70|Z|1434|N|To Kin'weelay.|
+T The Vile Reef|QID|629|M|32.28,27.70|Z|1434|N|To Kin'weelay.|
 T An Unusual Patron|QID|9457|M|31.97,28.60|Z|1434|N|To Nemeth Hawkeye.|
-F Booty Bay|ACTIVE|577|M|32.54,29.35|Z|1434|
+F Booty Bay|ACTIVE|628|M|32.54,29.35|Z|1434|
 T Excelsior|QID|628|M|28.29,77.59|Z|1434|N|To Drizzlik in the Leatherworking shop.|
 T Singing Blue Shards|QID|605|M|27.12,77.22|Z|1434|N|To Crank Fizzlebub.\n[color=FF0000]NOTE: [/color]He's standing beside the bar in the Tavern.|
 A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub.|PRE|605|
-N Bank/AH|ACTIVE|638|N|Before leaving for Dustwallow Marsh, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|IZ|Booty Bay|
-;;; This section has been removed to reduce exp gain - Hendo72
-;;; --- Kalimdor
-;;; --- Arathi Highlands
+N Bank/AH|ACTIVE|338|N|Before leaving for Dustwallow Marsh, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
+
 ; -- Dustwallow Marsh
 b Ratchet|AVAILABLE|1268|M|25.87,73.12|Z|1434|N|Take the boat to Ratchet.|
 F Freewind Post|ACTIVE|1107|M|63.09,37.16|Z|1413|
