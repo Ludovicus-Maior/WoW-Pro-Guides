@@ -632,9 +632,9 @@ F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|1456|C|Druid|
 ; --- STV
 b Grom'gol Base Camp|ACTIVE|569|M|50.59,12.67|Z|1411|N|Take the Zeppelin to Grom'gol Base Camp.|
 R Mizjah Ruins|ACTIVE|569|M|37.02,28.39|Z|1434|N|Use the east exit and follow the road.|
-C Some Assembly Required|QID|577|M|39.78,29.61|Z|1434|L|4104 5|N|Kill Snapjaw Crocolisks along either side of the river shore to loot them.\n[color=FF0000]NOTE: [/color]Be aware of the Sharptooth Frenzys when crossing the river.|S|
+C Some Assembly Required|QID|577|M|39.78,29.61|Z|1434|L|4104 5|ITEM|4104|N|Snapjaw Crocolisk\n[color=FF0000]NOTE: [/color]Be aware of the Sharptooth Frenzys when crossing the river.|S|
 K The Defense of Grom'gol|ACTIVE|569|M|37.51,31.52|Z|1434|QO|1;2|N|Kill Mosh'Ogg Witch Doctors and Brutes in the Mizjah Ruins.\n[color=FF0000]NOTE: [/color]It's much easier to patrol around the outside of the ruins. The mobs inside tend to be pulled in groups of 3. It may take longer, but so does corpse running.|
-C Some Assembly Required|QID|577|M|39.78,29.61|Z|1434|L|4104 5|N|Kill Snapjaw Crocolisks along either side of the river shore to loot them.\n[color=FF0000]NOTE: [/color]Be aware of the Sharptooth Frenzys when crossing the river.|US|
+C Some Assembly Required|QID|577|M|39.78,29.61|Z|1434|L|4104 5|ITEM|4104|N|Snapjaw Crocolisk\n[color=FF0000]NOTE: [/color]Be aware of the Sharptooth Frenzys when crossing the river.|US|
 R Grom'gol Base Camp|ACTIVE|569|M|32.87,28.73|Z|1434|N|Return to Grom'gol.|
 T The Defense of Grom'gol|QID|569|M|32.20,28.83|Z|1434|N|To Commander Aggro'gosh.|
 F Booty Bay|ACTIVE|577|M|32.54,29.35|Z|1434|
