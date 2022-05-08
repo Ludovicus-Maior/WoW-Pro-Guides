@@ -567,63 +567,67 @@ T Tiger Mastery|QID|186|M|35.62,10.62|Z|1434|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|187|M|35.62,10.62|Z|1434|N|From Ajeck Rouack.|PRE|186|
 T Panther Mastery|QID|191|M|35.56,10.54|Z|1434|N|To Sir S. J. Erlgadin.|
 A Panther Mastery|QID|192|M|35.56,10.54|Z|1434|N|From Sir S. J. Erlgadin.|PRE|191|
-R Venture Co. Base Camp|ACTIVE|570|M|36.8,13.6;40.0,14.9;40.8,14.7;42.61,16.70|CC|Z|1434|N|Make your way east under the bridge and head for the north side of the lake.|
-C Hostile Takeover|QID|213|L|4106 8|N|Kill Venture Co. Geologists to loot Tumbled Crystals.\n[color=FF0000]NOTE: [/color]They are spellcasters.|S|
-K Foreman Cozzle|ACTIVE|1182|M|42.72,18.37|Z|1434|L|5851|N|Head up to the top floor of the Venture Co. Operations Center, kill Foreman Cozzle inside the office, and loot his key to unlock his footlocker.\n[color=FF0000]NOTE: [/color]You'll need to pull each mob as there isn't much spacing between them and they will run. Try to avoid the ones out on the first level platform. They tend to pull as a group.|
-C Cozzle's Footlocker|QID|1182|M|43.33,20.33|Z|1434|QO|1|N|Once you have the key, drop down into the water and head for the little house beside the mill. Click on the chest to open it and loot the Fuel Regulator Blueprints.\n[color=FF0000]NOTE: [/color]There is no one inside.|NC|
-C Hostile Takeover|QID|213|M|43.91,22.90|Z|1434|L|4106 8|N|Kill Venture Co. Geologists to loot Tumbled Crystals.\n[color=FF0000]NOTE: [/color]They are spellcasters.|US|
+R Venture Co. Base Camp|ACTIVE|570|M|36.8,13.6;40.0,14.9;40.8,14.7;42.61,16.70|CC|Z|1434|QO|1;2|N|Make your way east under the bridge and head for the north side of the lake.|
+C Hostile Takeover|QID|213|L|4106 8|ITEM|4106|N|Venture Co. Geologists\n[color=FF0000]NOTE: [/color]They are spellcasters.|S|
+K Foreman Cozzle|ACTIVE|1182|M|42.72,18.37|Z|1434|L|5851|ITEM|5851|QO|1|N|Foreman Cozzle\nForeman Cozzle is inside the office on the top floor of the Venture Co. Operations Center.\n[color=FF0000]NOTE: [/color]You'll need to pull each mob as there isn't much spacing between them and they will run. Try to avoid the ones out on the first level platform. They tend to pull as a group.|
+C Cozzle's Footlocker|QID|1182|M|43.33,20.33|Z|1434|QO|1|N|Drop down into the water and head inside the little house beside the mill. Click on the chest to open it and loot the Fuel Regulator Blueprints.\n[color=FF0000]NOTE: [/color]There is no one inside.|NC|
+C Hostile Takeover|QID|213|M|43.91,22.90|Z|1434|L|4106 8|ITEM|4106|N|Venture Co. Geologists\n[color=FF0000]NOTE: [/color]They are spellcasters.|US|
 K Panther Mastery|ACTIVE|192|M|48.67,22.86|Z|1434|QO|1|N|Kill Shadowmaw Panthers.|S|
-C Mok'thardin's Enchantment|QID|570|M|48.67,22.86|Z|1434|QO|1|N|Kill Shadowmaw Panthers to loot Shadowmaw Claws.|S|
-C Mok'thardin's Enchantment|QID|570|M|48.67,22.86|Z|1434|QO|2|N|Head up into the hills on the east side of Venture Co, Base Camp. Kill Stranglethorn Tigresses until one drops a Pristine Tigress Fang.\n[color=FF0000]NOTE: [/color]Watch out for the Elite Mosh'Ogg south of the road.|
-C Mok'thardin's Enchantment|QID|570|M|48.67,22.86|Z|1434|QO|1|N|Finish collecting Shadowmaw Claws.\n[color=FF0000]NOTE: [/color]As they can cloak themselves, unless you can track them, you'll have to wander around the area until you find them.|US|
-K Panther Mastery|QID|192|M|48.67,22.86|Z|1434|QO|1|N|Kill Shadowmaw Panthers.\n[color=FF0000]NOTE: [/color]As they can cloak themselves, unless you can track them, you'll have to wander around the area until you find them.|US|
+C Mok'thardin's Enchantment|QID|570|M|48.67,22.86|Z|1434|L|3838 8|ITEM|3838|N|Shadowmaw Panthers|S|
+C Mok'thardin's Enchantment|QID|570|M|48.67,22.86|Z|1434|L|3839|ITEM|3839|N|Stranglethorn Tigresses\nHead up into the hills on the east side of Venture Co, Base Camp.\n[color=FF0000]NOTE: [/color]Watch out for the Mosh'Ogg south of the road.|
+C Mok'thardin's Enchantment|QID|570|M|48.67,22.86|Z|1434|L|3838 8|ITEM|3838|N|Shadowmaw Panthers|US|
+K Panther Mastery|QID|192|M|48.67,22.86|Z|1434|QO|1|N|Kill Shadowmaw Panthers.\n[color=FF0000]NOTE: [/color]As they can cloak themselves, unless you can track them, you'll have to wander around the area until you find them.|T|Shadowmaw Panther|US|
 R Nesingwary's Expedition|ACTIVE|192|M|35.65,10.66|Z|1434|N|Head back to Nesingwary's Expedition.\n[color=FF0000]NOTE: [/color]Following the road is probably the best route.|
 T Panther Mastery|QID|192|M|35.56,10.54|Z|1434|N|To Sir S. J. Erlgadin.|
 A Panther Mastery|QID|193|M|35.56,10.54|Z|1434|N|From Sir S. J. Erlgadin.|PRE|192|
 K Tiger Mastery|ACTIVE|187|M|33.23,19.03|Z|1434|QO|1|N|Kill Elder Stranglethorn Tigers.\n[color=FF0000]NOTE: [/color]Take the road or cut through Tkashi Ruins.|
-R The Hills of the Ruins of Zul'Kunda|ACTIVE|189^581^596|M|29.26,16.14|CC|Z|1434|N|Head to the hills below the Ruins of Zul'Kunda|
-R Ruins of Zul'Kunda|ACTIVE|189^581^596|M|27.98,11.25|Z|1434|N|Head into the Ruins of Zul'Kunda.|
-C Bloody Bone Necklaces|QID|596|M|25.70,11.30|Z|1434|L|3915 25|N|Kill any Bloodscalp troll to loot them.\n[color=FF0000]NOTE: [/color]Watch out for multiple pulls and patrollers. Take Hunters out quickly because they can root you for 10 seconds.|S|IZ|Ruins of Zul'Kunda^Zuuldaia Ruins^Tkashi Ruins|
-C Hunt for Yenniku|QID|581|M|25.70,11.30|Z|1434|L|3901 9|N|Kill any Bloodscalp troll to loot them.|S|
-C Bloodscalp Ears|QID|189|M|25.70,11.30|Z|1434|L|1519 15|N|Kill any Bloodscalp troll to loot them.|
-C Hunt for Yenniku|QID|581|M|25.70,11.30|Z|1434|L|3901 9|N|Finish collecting Bloodscalp Tusks.|US|
-R Nesingwary's Expedition|ACTIVE|581|M|35.65,10.66|Z|1434|N|Head back to Nesingwary's Expedition.|
+R Ruins of Zul'Kunda|ACTIVE|189^581^596|M|27.98,11.25|Z|1434|
+C Bloody Bone Necklaces|QID|596|M|25.70,11.30|Z|1434|L|3915 25|ITEM|3915|N|Any Bloodscalp Troll\n[color=FF0000]NOTE: [/color]Watch out for multiple pulls and patrollers. Take Hunters out quickly because they can root you for 10 seconds.|S|IZ|Ruins of Zul'Kunda^Zuuldaia Ruins^Tkashi Ruins|
+C Hunt for Yenniku|QID|581|M|25.70,11.30|Z|1434|L|3901 9|ITEM|3901|N|Any Bloodscalp Troll|S|
+C Bloodscalp Ears|QID|189|M|25.70,11.30|Z|1434|L|1519 15|ITEM|1519|N|Any Bloodscalp Troll|
+C Hunt for Yenniku|QID|581|M|25.70,11.30|Z|1434|L|3901 9|ITEM|3901|N|Any Bloodscalp Troll|US|
+R Nesingwary's Expedition|ACTIVE|187|M|35.65,10.66|Z|1434|
 T Tiger Mastery|QID|187|M|35.62,10.62|Z|1434|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|188|M|35.62,10.62|Z|1434|N|From Ajeck Rouack.|
-K Sin'Dall|ACTIVE|188|M|31.8,17.0;32.05,17.47|CC|Z|1434|L|3879|N|Kill Sin'Dall and loot her paw. You'll find her on top of a flat hill near Tkashi Ruins.\n[color=FF0000]NOTE: [/color]There is only one way up the hill.\nIf she is not up here, she's either dead, or respawned at the base of the hill and on her way up.|T|Sin'Dall|
-R Bal'lal Ruins|ACTIVE|9436|M|29.35,18.01|Z|1434|
-C Bloodscalp Insight|QID|9436|M|29.89,20.68|Z|1434|L|23679|N|Kill Bloodscalp Shaman until ones drops the Bloodscalp Totem.|
+K Sin'Dall|ACTIVE|188|M|31.8,17.0;32.05,17.47|CC|Z|1434|L|3879|ITEM|3879|N|Sin'Dall\nYou'll find her on top of a flat hill near Tkashi Ruins.\n[color=FF0000]NOTE: [/color]There is only one way up the hill.\nIf she is not up here, she's either dead, or respawned at the base of the hill and on her way up.|T|Sin'Dall|
+R Bal'lal Ruins|ACTIVE|9436|M|29.35,18.01|Z|1434|QO|1|
+C Bloodscalp Insight|QID|9436|M|29.89,20.68|Z|1434|L|23679|ITEM|23679|N|Bloodscalp Shaman|T|Bloodscalp Shaman|
 K Raptor Mastery|ACTIVE|195|M|32.53,23.50|Z|1434|QO|1|N|Kill Lashtail Raptors.|S|
 K The Defense of Grom'gol|ACTIVE|568|M|32.53,23.50|Z|1434|QO|1|N|Kill Lashtail Raptors.\n[color=FF0000]NOTE: [/color]The Young Lashtail Raptors do not count.|
-T Hunt for Yenniku|QID|581|M|32.16,27.72|Z|1434|N|To Nimboya.|
+R Grom'gol Base Camp|ACTIVE|581|M|32.87,28.73|Z|1434|N|Grind as you return to Grom'gol.|S|
+L Level 38|ACTIVE|581|N|Grind until you're within 8 bars of level 38.|LVL|37;-24260|
+R Grom'gol Base Camp|ACTIVE|581|M|32.87,28.73|Z|1434|US|
+T Hunt for Yenniku|QID|581|M|32.16,27.72|Z|1434|N|To Nimboya.| ;2300
 A Headhunting|QID|582|M|32.16,27.72|Z|1434|N|From Nimboya.|PRE|581|
-T Bloodscalp Insight|QID|9436|M|31.97,28.60|Z|1434|N|To Nemeth Hawkeye.|
+T Bloodscalp Insight|QID|9436|M|31.97,28.60|Z|1434|N|To Nemeth Hawkeye.| ;3100
 A An Unusual Patron|QID|9457|M|31.97,28.60|Z|1434|N|From Nemeth Hawkeye.|PRE|9436|
-T The Defense of Grom'gol|QID|568|M|32.20,28.83|Z|1434|N|To Commander Aggro'gosh.|
+T The Defense of Grom'gol|QID|568|M|32.20,28.83|Z|1434|N|To Commander Aggro'gosh.| ;3500
 A The Defense of Grom'gol|QID|569|M|32.20,28.83|Z|1434|N|From Commander Aggro'gosh.|PRE|568|
-T Mok'thardin's Enchantment|QID|570|M|32.12,29.24|Z|1434|N|To Far Seer Mok'thardin.|
+T Mok'thardin's Enchantment|QID|570|M|32.12,29.24|Z|1434|N|To Far Seer Mok'thardin.| ;2900
 A Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|PRE|570|
 F Booty Bay|ACTIVE|1182|M|32.54,29.35|Z|1434|
-T Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|1434|N|To Baron Revilgaz.|
+T Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|1434|N|To Baron Revilgaz.| ;3700
 A Goblin Sponsorship|QID|1183|M|27.23,76.87|Z|1434|N|From Baron Revilgaz.|PRE|1182|
-T Bloodscalp Ears|QID|189|M|27.00,77.13|Z|1434|N|To Kebok.|
-T Hostile Takeover|QID|213|M|27.00,77.13|Z|1434|N|To Kebok.|
-T Investigate the Camp|QID|201|M|26.94,77.21|Z|1434|N|To Krazek.|
-T Supply and Demand|QID|575|M|28.29,77.59|Z|1434|N|To Drizzlik.|
+T Bloodscalp Ears|QID|189|M|27.00,77.13|Z|1434|N|To Kebok.| ;2450
+T Hostile Takeover|QID|213|M|27.00,77.13|Z|1434|N|To Kebok.| ;3500
+T Investigate the Camp|QID|201|M|26.94,77.21|Z|1434|N|To Krazek.| ;270
+T Supply and Demand|QID|575|M|28.29,77.59|Z|1434|N|To Drizzlik.| ;1250
 A Some Assembly Required|QID|577|M|28.29,77.59|Z|1434|N|From Drizzlik.|PRE|575|
 A Singing Blue Shards|QID|605|M|27.12,77.22|Z|1434|N|From Crank Fizzlebub.\n[color=FF0000]NOTE: [/color]He's standing beside the bar in the Tavern.|
+
 ; --- Thousand Needles
 b Ratchet|ACTIVE|1183|M|25.87,73.12|Z|1434|N|Take the boat to Ratchet.|
 F Freewind Post|ACTIVE|1183|M|63.09,37.16|Z|1413|
 R Mirage Raceway|ACTIVE|1183|M|80.34,77.10|Z|1441|N|Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
-T Goblin Sponsorship|QID|1183|M|80.18,75.89|Z|1441|N|To Pozzik.|
+T Goblin Sponsorship|QID|1183|M|80.18,75.89|Z|1441|N|To Pozzik.| ;920
 A The Eighteenth Pilot|QID|1186|M|80.18,75.89|Z|1441|N|From Pozzik.|PRE|1183|
-T The Eighteenth Pilot|QID|1186|M|80.31,76.06|Z|1441|N|To Razzeric.|
+T The Eighteenth Pilot|QID|1186|M|80.31,76.06|Z|1441|N|To Razzeric.| ;370
 A Razzeric's Tweaking|QID|1187|M|80.99,76.09|Z|1441|N|From Razzeric.|PRE|1186|
 
 ; --- The Barrens
 H Orgrimmar|ACTIVE|569|
 F Thunder Bluff|ACTIVE|569|M|45.13,63.90|Z|1454|C|Druid|
+= Level 38 training|ACTIVE|569|N|Do your lv 38 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|38|
 F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|1456|C|Druid|
 ; --- STV
 b Grom'gol Base Camp|ACTIVE|569|M|50.59,12.67|Z|1411|N|Take the Zeppelin to Grom'gol Base Camp.|
