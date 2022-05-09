@@ -351,7 +351,7 @@ f Spider's Watch|ACTIVE|57994|M|37.57,29.24|Z|1536;Maldraxxus|N|At Flight Master
 C In The Flesh|QID|57994|M|37.65,29.22|Z|1536;Maldraxxus|QO|5|NC|N|Click on the Rune of Might.|MS|
 T In The Flesh|QID|57994|M|37.61,29.09|Z|1536;Maldraxxus|N|To Aspirant Thales.|MS|
 A Front and Center|QID|60733|M|37.66,29.11|Z|1536;Maldraxxus|N|From Secutor Mevix.|PRE|57994|MS|
-R Spider's Watch|QID|62605|ACTIVE|59867|CS|M|36.54,30.88;37.57,29.24|Z|1536;Maldraxxus|N|Finish the Bonuse Objective as you head back to Spider's Watch.|TOF|
+R Spider's Watch|QID|62605|ACTIVE|59867|CS|M|36.54,30.88;37.57,29.24|Z|1536;Maldraxxus|N|Finish the Bonus Objective as you head back to Spider's Watch.|TOF|
 
 ; Side Quest Story - Archival Protection  ACH|14799;3|
 A Broker Business|QID|62605|LEAD|58619|M|38.20,31.29|Z|1536;Maldraxxus|N|From Forgotten Supplies.|RANK|2|
