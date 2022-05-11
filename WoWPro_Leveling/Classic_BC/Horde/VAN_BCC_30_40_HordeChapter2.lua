@@ -733,7 +733,8 @@ R Theramore Isle|ACTIVE|1202|M|66.13,43.56|Z|1445|N|Make your way to the Theramo
 C Captain's Footlocker|QID|1202|M|71.54,51.19|Z|1445|L|5882|N|Work your way around the island to the dock at the back.\nLocate the Captain's Footlocker under the dock and open it to loot the Captain's Documents.\n[color=FF0000]NOTE: [/color]You can avoid the guards at the back gate by going into the water when you get there.|
 R Main Road|AVAILABLE|1270|M|63.20,43.10|CC|Z|1445|N|As you did earlier, make your way around the island, while avoiding the Alliance guards, and cross the water to the main land. Head up the bank to the main road.|
 R North Point Tower|AVAILABLE|1270|M|46.88,22.86|Z|1445|N|Follow the main road west past Witch Hill and make your way to the intersection at North Point Tower.|
-A Stinky's Escape|QID|1270|M|46.88,17.51|Z|1445|N|From "Stinky" Ignatz.\n[color=FF0000]NOTE: [/color]The more mobs you clear on your way in, the less you will have to kill later.|
+A Stinky's Escape|QID|1270|M|46.88,17.51|Z|1445|N|From "Stinky" Ignatz.\n[color=FF0000]NOTE: [/color]If he's not there, someone is already on the quest and you'll have to wait.|
+A Stinky's Escape|QID|1270|M|46.88,17.51|Z|1445|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to "Stinky" Ignatz to restart.\n[color=FF0000]NOTE: [/color]You may have to wait for him to respawn.|FAIL|
 C Escort Stinky|QID|1270|M|48.86,24.67|Z|1445|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFollow Stinky around defending him as he looks for the Bogbean Leaves.\n[color=FF0000]NOTE: [/color]With the exception of random mobs, there are no surprise attacks.|
 R Brackenwall Village|ACTIVE|1202^1238^1177|M|37.63,31.69|Z|1445|N|Make your way back to Brackenwall Village.|
 T The Theramore Docks|QID|1202|M|35.21,30.66|Z|1445|N|To Nazeer Bloodpike.|
