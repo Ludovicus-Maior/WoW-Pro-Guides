@@ -157,7 +157,7 @@ K Rok'Alim the Pounder|QID|1151|M|17.27,37.07|Z|1441|L|5844|ITEM|5844|N|Rok'Alim
 R The Weathered Nook|ACTIVE|1151|M|53.67,42.74|Z|1441|N|Choose your own path back.|
 T Test of Strength|QID|1151|M|53.94,41.49|Z|1441|N|To Dorn Plainstalker.|
 A Test of Lore|QID|1152|M|53.94,41.49|Z|1441|N|From Dorn Plainstalker.|PRE|1151|
-C A New Ore Sample|QID|1153|N|ITEM|5842|N|Gravelsnout Surveyor/Digger\n[color=FF0000]NOTE: [/color]They're spread out over the east and west ends of Thousand Needles.|US|
+C A New Ore Sample|QID|1153|L|5842|ITEM|5842|N|Gravelsnout Surveyor/Digger\n[color=FF0000]NOTE: [/color]They're spread out over the east and west ends of Thousand Needles.|US|
 
 ; --- The Barrens
 R Freewind Post|ACTIVE|1153|M|46.84,47.18|Z|1441|
@@ -353,7 +353,7 @@ C The Corrupter|QID|1481|M|74.75,20.36|Z|1443|L|6441|ITEM|6441|N|Hatefury Shadow
 K Befouled by Satyr|ACTIVE|1434|M|74.75,20.36|Z|1443|QO|1;2;3;4|N|Kill Satyrs in the area.|
 C The Corrupter|QID|1481|M|74.75,20.36|Z|1443|L|6441|ITEM|6441|N|Hatefury Shadowstalker|US|
 C Vial of Hatefury Blood|ACTIVE|4783|M|74.75,20.36|Z|1443|L|6989 10|ITEM|6989|N|Any Hatefury Demon|US|C|Warlock|
-K Khan Dez'hepah|ACTIVE|1365|M|73.20,42.50;73.30,46.90;74.14,49.12|CC|Z|1443|L|6066|ITEM|N|Khan Dez'hepah\nHead south from Sargeron to Kolkar Village and locate Khan Dez'hepah.\n[color=FF0000]NOTE: [/color]He has 3 different spawn locations. If you can't find hm, he's dead and you need to wait.|T|Khan Dez'hepah|
+K Khan Dez'hepah|ACTIVE|1365|M|73.20,42.50;73.30,46.90;74.14,49.12|CC|Z|1443|L|6066|ITEM|6066|N|Khan Dez'hepah\nHead south from Sargeron to Kolkar Village and locate Khan Dez'hepah.\n[color=FF0000]NOTE: [/color]He has 3 different spawn locations. If you can't find hm, he's dead and you need to wait.|T|Khan Dez'hepah|
 R Ghost Walker Post|ACTIVE|1365|M|56.74,56.79|Z|1443|
 T Khan Dez'hepah|QID|1365|M|56.19,59.57|Z|1443|N|To Felgur Twocuts.|
 A Centaur Bounty|QID|1366|M|56.19,59.57|Z|1443|N|From Felgur Twocuts.|PRE|1365|
@@ -390,7 +390,7 @@ C Clam Bait|QID|6142|M|33.20,31.66|Z|1443|L|15924 10|N|You can get them from ope
 R Ethel Rethor|AVAILABLE|6161|M|30.5,34.2;35.66,30.67|CC|Z|1443|N|Walk into the water and swim north.|
 A Claim Rackmore's Treasure!|QID|6161|M|36.07,30.43|Z|1443|N|Find Rackmore's Log on top of the barrel beside the wreckage of the boat on shore. Click on it to start the quest.|
 C Rackmore's Golden Key|QID|6161|L|15881|ITEM|15881|N|Any Naga|S|
-C Oracle Crystal|QID|1482|L|6442|L|6442|ITEM|6442|N|Slitherblade Oracle|S|
+C Oracle Crystal|QID|1482|L|6442|ITEM|6442|N|Slitherblade Oracle|S|
 C Rackmore's Silver Key|QID|6161|M|33.20,31.66|Z|1443|L|15878|ITEM|15878|N|Drysnap Crawler/Pincer\n[color=FF0000]NOTE: [/color]Stick around the bubbling fissure so you don't have to keep swimming to the surface for air. They will come to you.|
 C Clam Bait|QID|6142|M|33.20,31.66|Z|1443|L|15924 10|N|You can get them from opening the Giant Soft Clams from the ocean floor.\n[color=FF0000]NOTE: [/color]You can also get them from killing Drysnap Crawlers/Pincers and Reef Crawlers.|U|15874|US|
 K Other Fish to Fry|ACTIVE|6143|M|32.54,22.41|Z|1443|QO|1;2;3|N|Slay Slitherblade Myrmidons, Nagas, and Sorceresses.|
@@ -715,25 +715,26 @@ T The Hermit of Witch Hill|QID|11225|M|55.43,26.26|Z|1445|N|To "Swamp Eye" Jarl.
 A Marsh Frog Legs|QID|1218|M|55.43,26.26|Z|1445|N|From "Swamp Eye" Jarl.|
 A What's Haunting Witch Hill?|QID|11180|M|55.58,26.14|Z|1445|N|From Mordant Grimsby.\n[color=FF0000]NOTE: [/color]Periodically, he travels outside the cabin to talk to Jarl and returns inside.|
 A The Lost Report|QID|1238|M|55.44,25.92|Z|1445|N|From the 'Loose Dirt' beside the house.|
-C Marsh Frogs|ACTIVE|1218|M|55.93,25.31|Z|1445|L|33202 10|ITEM|33202|N|Marsh Frog|S|
+C Marsh Frogs|ACTIVE|1218|M|55.93,25.31|Z|1445|L|33202 10|ITEM|33202|N|Marsh Frog\n[color=FF0000]NOTE: [/color]Do not use your pet to kill these.|S|
 K Risen Husks/Spirits|ACTIVE|11180|M|55.93,25.31|Z|1445|QO|1|N|Gather information by killing the Risen Husks or Spirits found all around the area.\n[color=FF0000]NOTE: [/color]If you are using a pet, make sure you put them on passive before the Risen dies because you have to land the killing blow.|
 T What's Haunting Witch Hill?|QID|11180|M|55.58,26.14|Z|1445|N|To Mordant Grimsby.|
 A The Witch's Bane|QID|11181|M|55.58,26.14|Z|1445|N|From Mordant Grimsby.|PRE|11180|
 C The Witch's Bane|QID|11181|M|49.99,20.95|Z|1445|L|33112 9|N|Follow the river northward and you'll find the large plants along the shorelines on either side.\n[color=FF0000]NOTE: [/color]'Find Herb' can help with these.|
-C Marsh Frogs|ACTIVE|1218|M|55.93,25.31|Z|1445|L|33202 10|ITEM|33202|N|Marsh Frog|T|Giant Marsh Frog|US|
+C Marsh Frogs|ACTIVE|1218|M|55.93,25.31|Z|1445|L|33202 10|ITEM|33202|N|Marsh Frog\n[color=FF0000]NOTE: [/color]Do not use your pet to kill these.|T|Giant Marsh Frog|US|
 T Marsh Frog Legs|QID|1218|M|55.44,26.26|Z|1445|N|To "Swamp Eye" Jarl.\n[color=FF0000]NOTE: [/color]The rest of this quest chain isn't worth the extra time.|
 T The Witch's Bane|QID|11181|M|55.58,26.14|Z|1445|N|To Mordant Grimsby.|
 A Cleansing Witch Hill|QID|11183|M|55.58,26.14|Z|1445|N|From Mordant Grimsby.|PRE|11181|
 K Zelfrax|ACTIVE|11183|M|55.27,26.57|Z|1445|QO|1|N|Use the Witchbane Torch on the dock and kill Zelfrax when it appears.|U|33113|
 T Cleansing Witch Hill|QID|11183|M|55.58,26.14|Z|1445|N|To Mordant Grimsby.|
-C Hungry!|QID|1177|M|57.42,16.89|Z|1445|L|5847 8|ITEM|5847|N|Mirefin Murloc|S|
+C Hungry!|QID|1177|M|57.42,16.89|Z|1445|L|5847 8|ITEM|5847|N|Any type of Mirefin Murloc|S|
 R Dreadmurk Shore|ACTIVE|1202|M|57.85,19.01|Z|1445|N|Make your way to the Dreadmurk Shore.|
-C Hungry!|QID|1177|M|57.42,16.89|Z|1445|L|5847 8|ITEM|5847|N|Mirefin Murloc\n[color=FF0000]NOTE: [/color]They are runners and watch your back for adds.|US|
+C Hungry!|QID|1177|M|57.42,16.89|Z|1445|L|5847 8|ITEM|5847|N|Any type of Mirefin Murloc\n[color=FF0000]NOTE: [/color]They are runners and watch your back for adds.|US|
 R Theramore Isle|ACTIVE|1202|M|66.13,43.56|Z|1445|N|Make your way to the Theramore Isle. Follow the shore line the whole way there.\n[color=FF0000]NOTE: [/color]Do not go near the front entrance. This is an Alliance city and the guards will kill you.|
 C Captain's Footlocker|QID|1202|M|71.54,51.19|Z|1445|L|5882|N|Work your way around the island to the dock at the back.\nLocate the Captain's Footlocker under the dock and open it to loot the Captain's Documents.\n[color=FF0000]NOTE: [/color]You can avoid the guards at the back gate by going into the water when you get there.|
 R Main Road|AVAILABLE|1270|M|63.20,43.10|CC|Z|1445|N|As you did earlier, make your way around the island, while avoiding the Alliance guards, and cross the water to the main land. Head up the bank to the main road.|
 R North Point Tower|AVAILABLE|1270|M|46.88,22.86|Z|1445|N|Follow the main road west past Witch Hill and make your way to the intersection at North Point Tower.|
-A Stinky's Escape|QID|1270|M|46.88,17.51|Z|1445|N|From "Stinky" Ignatz.\n[color=FF0000]NOTE: [/color]The more mobs you clear on your way in, the less you will have to kill later.|
+A Stinky's Escape|QID|1270|M|46.88,17.51|Z|1445|N|From "Stinky" Ignatz.\n[color=FF0000]NOTE: [/color]If he's not there, someone is already on the quest and you'll have to wait.|
+A Stinky's Escape|QID|1270|M|46.88,17.51|Z|1445|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to "Stinky" Ignatz to restart.\n[color=FF0000]NOTE: [/color]You may have to wait for him to respawn.|FAIL|
 C Escort Stinky|QID|1270|M|48.86,24.67|Z|1445|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFollow Stinky around defending him as he looks for the Bogbean Leaves.\n[color=FF0000]NOTE: [/color]With the exception of random mobs, there are no surprise attacks.|
 R Brackenwall Village|ACTIVE|1202^1238^1177|M|37.63,31.69|Z|1445|N|Make your way back to Brackenwall Village.|
 T The Theramore Docks|QID|1202|M|35.21,30.66|Z|1445|N|To Nazeer Bloodpike.|
