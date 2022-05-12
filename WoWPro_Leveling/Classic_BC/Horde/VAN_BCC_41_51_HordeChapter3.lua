@@ -9,6 +9,22 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons
 WoWPro:GuideSteps(guide, function()
 return [[
 
+; --- MapIDs used in this guide
+; --- 1411 = Durotar
+; --- 1413 = The Barrens
+; --- 1416 = Alterac Mountains
+; --- 1420 = Tirisfal Glades
+; --- 1424 = Hillsbrad Foothills
+; --- 1434 = Stranglethorn Vale
+; --- 1440 = Ashenvale
+; --- 1441 = Thousand Needles
+; --- 1442 = Stonetalon Mountains
+; --- 1443 = Desolace
+; --- 1445 = Dustwallow Marsh
+; --- 1454 = Orgrimmar
+; --- 1456 = Thunder Bluff
+; --- 1458 = Undercity
+
 ;transposed from http://www.wow-pro.com/leveling_guides/jame039s_horde_leveling_guide_chapter_iii_4151_old_version by Shen and Emmaleah 8/25/19
 ;using the guides listed as starting points when possible.
 ;on website, one place says 41-51 other says 40-51 ... maybe should cut a few quests and make it 41-51?
@@ -21,7 +37,7 @@ return [[
 ;;B Patterned Bronze Bracers|AVAILABLE|716|L|2868|N|Crafted with Blacksmithing.|S!US|RANK|3|
 
 ; --- Swamp of Sorrows
-b Grom'gol Base Camp|AVAILABLE|1418|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|IZ|1454;Orgrimmar^1411;Durotar|
+N Grom'gol Base Camp (STV)|AVAILABLE|1418|N|[color=FF0000]NOTE: [/color]This guide starts in Grom'gol Base Camp (STV). Make your way there now.|IZ|-1434|
 R Duskwood|AVAILABLE|1418|M|44.53,87.82|Z|Duskwood|N|Follow the road north to Duskwood.|
 R Darkshire|AVAILABLE|1418|M|44.2,67.3;69.80,60.15|CC|Z|Duskwood|N|Continue north to the first intersection and head east from there.\n[color=FF0000]NOTE: [/color]You can wait out Watcher Jordan if he is at this end of his patrol. He 'shouldn't' agro if you keep your distance.|
 R Bypass Darkshire|AVAILABLE|1418|M|74.1,57.0;77.2,60.2;81.90,46.95|CC|Z|Duskwood|N|Once the coast is clear, continue along the road to the first intersection. Follow this road a short distance until you see the fence. Turning north, follow the ridge from here until you get to the road.|
