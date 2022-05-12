@@ -374,8 +374,6 @@ A Fish in a Bucket|AVAILABLE|5421|ACTIVE|5386|M|22.46,73.11|Z|1443|L|13546 2|N|F
 T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|1443|L|13546 2|N|To Jinar'Zillen on the pier.|NOCACHE|
 C Centaur Bounty|QID|1366|M|70.76,75.30|Z|1443|L|6067 15|ITEM|6067|N|Any Centaur|S|
 N Reputation Monitoring|ACTIVE|1367^1368|N|Open the Reputation Tab (<U>) and locate the Faction you want to track. Check the box 'Show as Experience Bar' and it will appear above the Exp bar.\n[color=FF0000]NOTE: [/color]Some factions will only show in the list once there's been a change in your rep with them.\n\nResults may vary depending upon your UI layout and other Addons.\nManually check this step off to continue.|
-R Mannoroc Coven|ACTIVE|4783|M|46.89,75.16|Z|1443|N|Follow the main road east out of Shadowprey Village.|C|Warlock|
-C Lesser Infernal Stone|ACTIVE|4783|L|6990|ITEM|6990|N|Lesser Infernals|C|Warlock|
 R Magram Village|ACTIVE|1368|M|69.30,72.67|Z|1443|N|Follow the main road as far east as it goes. The village is on the south side of the road.|
 K Magram Clan Centaurs|ACTIVE|1368|M|70.76,75.30|Z|1443|N|Kill Magram Clan Centaurs until have reached Friendly status (3,000 rep) with The Gelkis Clan.\nIt'll take 75 kills to reach it.|REP|Gelkis Clan Centaur;92;Neutral|
 C Centaur Bounty|QID|1366|M|70.76,75.30|Z|1443|L|6067 15|ITEM|6067|N|Any Centaur|US|
@@ -423,11 +421,18 @@ T Components for the Enchanted Gold Bloodrobe|QID|4783|M|62.51,35.45|Z|1413|N|To
 A Components for the Enchanted Gold Bloodrobe|QID|4784|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4783|C|Warlock|
 T Knowledge of the Orb of Orahil|QID|4967|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
 A Fragments of the Orb of Orahil|QID|1799|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4967|
-F Shadowprey Village|ACTIVE|1799|M|63.09,37.16|Z|1413|QO|1|C|Warlock|
-R Mannoroc Coven|ACTIVE|1799|M|46.89,75.16|Z|1443|QO|1|N|Follow the main road east out of Shadowprey Village.|C|Warlock|
+N Felhound/Infernal|AVAILABLE|4962&4963|N|At this point, you have to choose between the Felhound (Shadow) and Infernal (Fire).\n[color=FF0000]NOTE: [/color]You cannot do both quests.|C|Warlock|
+A Shard of a Felhound|QID|4962|ACTIVE|-4963|AVAILABLE|4963|M|62.64,35.30|Z|1413|N|From Acolyte Wytula.\n[color=FF0000]NOTE: [/color]Skip this step if you want the Infernal.|C|Warlock|
+A Shard of an Infernal|QID|4963|ACTIVE|-4962|AVAILABLE|4962|M|62.56,35.23|Z|1413|N|From Acolyte Magaz.|C|Warlock|
+F Shadowprey Village|ACTIVE|1799^4962^4963|M|63.09,37.16|Z|1413|C|Warlock|
+R Mannoroc Coven|ACTIVE|1799^4962^4963|M|46.89,75.16|Z|1443|N|Follow the main road east out of Shadowprey Village.|C|Warlock|
 C Infernal Orb|ACTIVE|1799|L|7291|ITEM|7291|N|Burning Blade Summoner|C|Warlock|
+C Imprisoned Felhound Spirit|QID|4962|M|52.23,68.09|Z|1443|L|12648|ITEM|12648|N|Use the Felhas Ruby on a Mana Eater.|T|Mana Eater|U|12647|
+C Imprisoned Infernal Spirit|QID|4963|L|12649|ITEM|12649|N|Use the Infus Emerald on a Lesser Infernal.|T|Lesser Infernal|U|12646|
 R Shadowprey Village|ACTIVE|4785^1799|M|26.50,75.15|Z|1443|N|Return to Shadowprey Village.|IZ|1443|
 F Ratchet|ACTIVE|4785|M|21.60,74.13|Z|1443|
+T Shard of a Felhound|QID|4962|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
+T Shard of a Infernal|QID|4963|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
 b Booty Bay|ACTIVE|4785|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|
 A Fine Gold Thread|QID|4785|AVAILABLE|4786|M|28.71,76.89|Z|1434|L|12293|N|From Xizk Goodstitch.\n[color=FF0000]NOTE: [/color]This quest is repeatable in case you lose your Thread.|PRE|4783|C|Warlock|
 T Fine Gold Thread|QID|4785|M|28.71,76.89|Z|1434|N|To Xizk Goodstitch.|C|Warlock|
@@ -506,6 +511,8 @@ A Deadmire|QID|1205|M|61.54,80.92|Z|1456|N|From Melor Stonehoof.|PRE|1136|
 F Ratchet|ACTIVE|1805|M|47.02,49.83|Z|1456|
 T Tome of the Cabal|QID|1805|M|62.63,35.50|Z|1413|N|To Strahad Farsan.|
 A The Binding|QID|1795|M|62.63,35.50|Z|1413|N|From Strahad Farsan.|PRE|1805|C|Warlock|
+K Felhunter|ACTIVE|1795|M|62.61,35.25|Z|1413|QO|1|N|After Strahad and the Acolytes have summoned the Barrens Summoning Circle inside the building, use the Tome of Cabal to summon the Felhunter.\n[color=FF0000]NOTE: [/color]If you fail to follow Strahad inside the building in time, he will walk back outside and you'll have to abandon the quest and retake it.|U|6999|
+T The Binding|QID|1795|M|62.63,35.50|Z|1413|N|To Strahad Farsan.|
 T Components for the Enchanted Gold Bloodrobe|QID|4784|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
 A The Completed Robe|QID|4786|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4785|C|Warlock|
 T The Completed Robe|QID|4786|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
@@ -673,7 +680,7 @@ F Booty Bay|ACTIVE|628|M|32.54,29.35|Z|1434|
 T Excelsior|QID|628|M|28.29,77.59|Z|1434|N|To Drizzlik in the Leatherworking shop.|
 T Singing Blue Shards|QID|605|M|27.12,77.22|Z|1434|N|To Crank Fizzlebub.\n[color=FF0000]NOTE: [/color]He's standing beside the bar in the Tavern.|
 A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub.|PRE|605|
-N Bank/AH|ACTIVE|338|N|Before leaving for Dustwallow Marsh, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
+N Bank/AH|ACTIVE|338|AVAILABLE|1268|N|Before leaving for Dustwallow Marsh, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
 
 ; -- Dustwallow Marsh
 b Ratchet|AVAILABLE|1268|M|25.87,73.12|Z|1434|N|Take the boat to Ratchet.|
@@ -746,8 +753,15 @@ R Shady Rest Inn|ACTIVE|11124|M|30.24,47.12|CC|Z|1445|N|Resume following the roa
 T Inspecting the Ruins|QID|11124|M|29.79,47.67|Z|1445|N|To Inspector Tarem at the Shady Rest Inn.|
 R The Dragonmurk|ACTIVE|11213^11215|M|33.4,46.4;33.89,60.23|CC|Z|1445|N|Go east from the fork to the first intersection and continue south from here.|
 R The Den of Flame|ACTIVE|11213^11215|M|37.46,63.48|Z|1445|N|Continue along the road.|
-R Tabetha's Farm|ACTIVE|11213^11215|M|40.0,61.8;45.95,58.02|CC|Z|1445|N|At the intersection, turn east (left) and follow the sign post. The road will lead right there.|
+R Tabetha's Farm|ACTIVE|11213^11215^1799|M|40.0,61.8;45.95,58.02|CC|Z|1445|N|At the intersection, turn east (left) and follow the sign post. The road will lead right there.|
 T Check Up on Tabetha|QID|11213|M|46.06,57.09|Z|1445|N|To Tabetha inside the house.|
+T Fragments of the Orb of Orahil|QID|1799|M|46.06,57.09|Z|1445|N|To Tabetha inside the house.|
+A Cleansing of the Orb of Orahil|QID|4961|M|46.06,57.09|Z|1445|ELITE|N|[color=80FF00]Timed Quest:[/color]\nFrom Tabetha.|PRE|1799|C|Warlock|
+A Cleansing of the Orb of Orahil|QID|4961|M|46.06,57.09|Z|1445|N|[color=CC00FF]QUEST FAILED [/color]\nGo back inside to Tabetha to restart.|PRE|1799|C|Warlock|FAIL|
+K Demon of the Orb|ACTIVE|4961|M|45.81,56.70|Z|1445|QO|1|N|Tabetha will summon the Demon in the field beside the house.\n[color=FF0000]NOTE: [/color]You have 3 minutes to kill the Demon and turn in the quest.|
+T Cleansing of the Orb of Orahil|QID|4961|M|46.06,57.09|Z|1445|N|To Tabetha inside the house before the timer runs out.|
+A Returning the Cleansed Orb|QID|4976|M|46.06,57.09|Z|1445|N|From Tabetha.|PRE|4961|C|Warlock|
+
 R Mudsprocket|ACTIVE|11215|M|40.0,61.8;40.6,68.8;41.87,72.46|CC|Z|1445|N|Head back to the sign post at the intersection and head south to the next sign post.|
 T Help Mudsprocket|QID|11215|M|42.33,72.93|Z|1445|N|To Drazzit Dripvalve.|
 f Mudsprocket|AVAILABLE|1273|M|42.82,72.43|Z|1445|N|At Dyslix Silvergrub. He's outside the wall just east of the main entrance.|TAXI|-Mudsprocket|
@@ -769,14 +783,26 @@ F Thunder Bluff|ACTIVE|1276|M|35.56,31.88|Z|1445|
 R Hunter Rise|ACTIVE|1276|M|51.78,74.30|Z|1456|
 T The Black Shield|QID|1276|M|54.01,80.74|Z|1456|N|To Mosarn.|
 A Return to Krog|QID|11204|M|54.01,80.74|Z|1456|N|From Mosarn.|PRE|1276|
-= Level 40|ACTIVE|1270|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|-Warlock,-Paladin,-Rogue|
-F Brackenwall Village|ACTIVE|11204|M|47.02,49.83|Z|1456|IZ|1456|
+= Level 40|ACTIVE|11240|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|-Warlock,-Paladin,-Rogue|
+F Brackenwall Village|ACTIVE|11204|M|47.02,49.83|Z|1456|
 T Return to Krog|QID|11204|M|36.42,31.89|Z|1445|N|To Krog.|
 F Ratchet|ACTIVE|1270|M|35.59,31.80|Z|1445|
 T Stinky's Escape|QID|1270|M|62.37,37.62|Z|1413|N|To Mebok Mizzyrix.|
-F Orgrimmar|ACTIVE|-1270|AVAILABLE|1418|M|63.09,37.17|Z|1413|IZ|Ratchet|
-= Level 40|AVAILABLE|1418|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|Warlock,Paladin,Rogue|
-R Orgrimmar|AVAILABLE|1418|N|You need to be in Orgrimmar to start the next guide.|
+T Returning the Cleansed Orb|QID|4976|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
+A The Completed Orb of Dar'Orahil|QID|4964|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4976&4962|
+A The Completed Orb of Noh'Orahil|QID|4975|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4976&4963|
+C The Completed Orb of Dar'Orahil|QID|4964|M|62.51,35.45|Z|1413|QO|1|N|Just stand there and wait.|
+C The Completed Orb of Noh'Orahil|QID|4975|M|62.51,35.45|Z|1413|QO|1|N|Just stand there and wait.|
+T The Completed Orb of Dar'Orahil|QID|4964|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|
+T The Completed Orb of Noh'Orahil|QID|4975|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|
+
+= Level 40|ACTIVE|-1270|AVAILABLE|1418|M|62.43,35.46|Z|1413|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|Warlock|
+b Booty Bay|ACTIVE|-1270|AVAILABLE|1418|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|C|-Paladin,-Rogue|
+F Grom'gol|ACTIVE|-1270|AVAILABLE|1418|M|26.87,77.09|Z|1434|C|-Paladin,-Rogue|
+
+F Orgrimmar|ACTIVE|-1270|AVAILABLE|1418|M|63.09,37.17|Z|1413|C|Paladin,Rogue|
+= Level 40|AVAILABLE|1418|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|Paladin,Rogue|
+b Grom'gol Base Camp|AVAILABLE|1418|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|C|Paladin,Rogue|
 ]]
 
 end)
