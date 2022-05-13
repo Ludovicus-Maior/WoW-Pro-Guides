@@ -3,7 +3,7 @@
 
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_HordeChapter3', 'Leveling', 'Stranglethorn Vale', 'Jame', 'Horde', 2)
 WoWPro:GuideName(guide, 'Horde Chapter 3')
-WoWPro:GuideLevels(guide, 41, 51, 42)
+WoWPro:GuideLevels(guide, 40, 51, 42)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_UnGoro_Crater')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0.25,0.50,0.25,0.50})
 WoWPro:GuideSteps(guide, function()
