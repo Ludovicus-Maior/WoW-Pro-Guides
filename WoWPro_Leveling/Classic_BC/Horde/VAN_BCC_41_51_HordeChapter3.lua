@@ -3,11 +3,30 @@
 
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_HordeChapter3', 'Leveling', 'Stranglethorn Vale', 'Jame', 'Horde', 2)
 WoWPro:GuideName(guide, 'Horde Chapter 3')
-WoWPro:GuideLevels(guide, 41, 51, 42)
+WoWPro:GuideLevels(guide, 40, 51, 42)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_UnGoro_Crater')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0.25,0.50,0.25,0.50})
 WoWPro:GuideSteps(guide, function()
 return [[
+
+; --- MapIDs used in this guide
+; --- 1411 = Durotar
+; --- 1413 = The Barrens
+; --- 1416 = Alterac Mountains
+; --- 1420 = Tirisfal Glades
+; --- 1424 = Hillsbrad Foothills
+; --- 1430 = Deadwind Pass
+; --- 1431 = Duskwood
+; --- 1434 = Stranglethorn Vale
+; --- 1435 = Swamp of Sorrows
+; --- 1440 = Ashenvale
+; --- 1441 = Thousand Needles
+; --- 1442 = Stonetalon Mountains
+; --- 1443 = Desolace
+; --- 1445 = Dustwallow Marsh
+; --- 1454 = Orgrimmar
+; --- 1456 = Thunder Bluff
+; --- 1458 = Undercity
 
 ;transposed from http://www.wow-pro.com/leveling_guides/jame039s_horde_leveling_guide_chapter_iii_4151_old_version by Shen and Emmaleah 8/25/19
 ;using the guides listed as starting points when possible.
@@ -21,49 +40,49 @@ return [[
 ;;B Patterned Bronze Bracers|AVAILABLE|716|L|2868|N|Crafted with Blacksmithing.|S!US|RANK|3|
 
 ; --- Swamp of Sorrows
-b Grom'gol Base Camp|AVAILABLE|1418|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|IZ|1454;Orgrimmar^1411;Durotar|
-R Duskwood|AVAILABLE|1418|M|44.53,87.82|Z|Duskwood|N|Follow the road north to Duskwood.|
-R Darkshire|AVAILABLE|1418|M|44.2,67.3;69.80,60.15|CC|Z|Duskwood|N|Continue north to the first intersection and head east from there.\n[color=FF0000]NOTE: [/color]You can wait out Watcher Jordan if he is at this end of his patrol. He 'shouldn't' agro if you keep your distance.|
-R Bypass Darkshire|AVAILABLE|1418|M|74.1,57.0;77.2,60.2;81.90,46.95|CC|Z|Duskwood|N|Once the coast is clear, continue along the road to the first intersection. Follow this road a short distance until you see the fence. Turning north, follow the ridge from here until you get to the road.|
-R Deadwind Pass|AVAILABLE|1418|M|32.18,35.95|Z|Deadwind Pass|N|When the road is clear, follow the road northeast into Deadwind Pass.|
-R Swamp of Sorrows|AVAILABLE|1418|M|4.91,60.94|Z|Swamp of Sorrows|N|Continue following the road east through Deadwind Pass.\n[color=FF0000]NOTE: [/color]Go to the left @ Sleeping Gorge.|
-R Stonard|AVAILABLE|1418|M|41.93,54.82|Z|Swamp of Sorrows|N|Following the road into Swamp of Sorrows, stay to the right at the first fork and turn left at the intersection.\n[color=FF0000]NOTE: [/color]Turning right at the intersection leads to the Blasted Lands.|
-f Stonard|AVAILABLE|1418|M|46.08,54.82|Z|Swamp of Sorrows|N|From Breyk.|TAXI|-Stonard|
-A Little Morsels|QID|9440|M|47.81,54.95|Z|Swamp of Sorrows|N|From Cersei Dusksinger.|
-A Neeka Bloodscar|QID|1418|M|47.74,55.20|Z|Swamp of Sorrows|N|From Helgrum the Swift, at the top of the stairs.|
-A Pool of Tears|QID|1424|M|47.93,54.79|Z|Swamp of Sorrows|N|From Fel'zerul.|
-A Lack of Surplus|QID|698|M|44.71,57.22|Z|Swamp of Sorrows|N|From Dar, inside the Inn.|
-R The Shifting Mire|ACTIVE|698|M|47.59,43.43|Z|Swamp of Sorrows|N|First "island" north of Stonard|
-C Lack of Surplus|QID|698|M|47.59,43.43|Z|Swamp of Sorrows|L|6169 8|N|Kill Sawtooth Crocolisks to loot the Unprepared Sawtooth Flank.|S|
-K Noboru|AVAILABLE|1392|M|54.9,34.1;26.85,40.87|CN|Z|Swamp of Sorrows|L|6196|N|Kill Noboru the Cudgel and loot the Cudgel.\n[color=FF0000]NOTE: [/color]He spawns south of Fallow Sanctuary and patrols the area west to The Harborage and back with 2 minions.|T|Noboru the Cudgel|
-A Noboru the Cudgel|QID|1392|M|46.70,39.40|Z|Swamp of Sorrows|N|Click the Cudgel to start the quest.\n[color=FF0000]NOTE: [/color]If you get a 'proficiency warning', open your bag and click on it manually.|U|6196|O|
-R The Harborage|AVAILABLE|1389|M|26.8,41.1;27.10,37.80|CC|Z|Swamp of Sorrows|N|Continue north to the road and follow it west.|
+N Grom'gol Base Camp (STV)|AVAILABLE|1418|N|[color=FF0000]NOTE: [/color]This guide starts in Grom'gol Base Camp (STV). Make your way there now if you're not.\nManually check this step off to continue.|
+R Duskwood|AVAILABLE|1418|M|44.53,87.82|Z|1431|N|Follow the road north to Duskwood.|
+R Darkshire|AVAILABLE|1418|M|44.2,67.3;69.80,60.15|CC|Z|1431|N|Continue north to the first intersection and head east from there.\n[color=FF0000]NOTE: [/color]You can wait out Watcher Jordan if he is at this end of his patrol. He 'shouldn't' agro if you keep your distance.|
+R Bypass Darkshire|AVAILABLE|1418|M|74.1,57.0;77.2,60.2;81.90,46.95|CC|Z|1431|N|Once the coast is clear, continue along the road to the first intersection. Follow this road a short distance until you see the fence. Turning north, follow the ridge from here until you get to the road.|
+R Deadwind Pass|AVAILABLE|1418|M|32.18,35.95|Z|1430|N|When the road is clear, follow the road northeast into Deadwind Pass.|
+R Swamp of Sorrows|AVAILABLE|1418|M|4.91,60.94|Z|1435|N|Continue following the road east through Deadwind Pass.\n[color=FF0000]NOTE: [/color]Go to the left @ Sleeping Gorge.|
+R Stonard|AVAILABLE|1418|M|41.93,54.82|Z|1435|N|Following the road into Swamp of Sorrows, stay to the right at the first fork and turn left at the intersection.\n[color=FF0000]NOTE: [/color]Turning right at the intersection leads to the Blasted Lands.|
+f Stonard|AVAILABLE|1418|M|46.08,54.82|Z|1435|N|From Breyk.|TAXI|-Stonard|
+A Little Morsels|QID|9440|M|47.81,54.95|Z|1435|N|From Cersei Dusksinger.|
+A Neeka Bloodscar|QID|1418|M|47.74,55.20|Z|1435|N|From Helgrum the Swift, at the top of the stairs.|
+A Pool of Tears|QID|1424|M|47.93,54.79|Z|1435|N|From Fel'zerul.|
+A Lack of Surplus|QID|698|M|44.71,57.22|Z|1435|N|From Dar, inside the Inn.|
+R The Shifting Mire|ACTIVE|698|M|47.59,43.43|Z|1435|N|First "island" north of Stonard|
+C Lack of Surplus|QID|698|M|47.59,43.43|Z|1435|L|6169 8|N|Kill Sawtooth Crocolisks to loot the Unprepared Sawtooth Flank.|S|
+K Noboru|AVAILABLE|1392|M|54.9,34.1;26.85,40.87|CN|Z|1435|L|6196|N|Kill Noboru the Cudgel and loot the Cudgel.\n[color=FF0000]NOTE: [/color]He spawns south of Fallow Sanctuary and patrols the area west to The Harborage and back with 2 minions.|T|Noboru the Cudgel|
+A Noboru the Cudgel|QID|1392|M|46.70,39.40|Z|1435|N|Click the Cudgel to start the quest.\n[color=FF0000]NOTE: [/color]If you get a 'proficiency warning', open your bag and click on it manually.|U|6196|O|
+R The Harborage|AVAILABLE|1389|M|26.8,41.1;27.10,37.80|CC|Z|1435|N|Continue north to the road and follow it west.|
 N PvP Hostiles|AVAILABLE|1389|N|If you behave, they'll behave and leave you alone.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-T Noboru the Cudgel|QID|1392|M|25.97,31.40|Z|Swamp of Sorrows|N|To Magtoor.|
-A Draenethyst Crystals|QID|1389|M|25.97,31.40|Z|Swamp of Sorrows|N|From Magtoor.|
-R Fallow Sanctuary|AVAILABLE|1393|M|54.57,28.47|Z|Swamp of Sorrows|N|Follow the road east. You can also follow the ridge line east if you want to do a lot of grinding.|
-C Draenethyst Crystals|QID|1389|M|63.67,20.51|Z|Swamp of Sorrows|L|6071 6|N|Look for the big blue crystals amongst the Lost Ones' huts on both sides of the road.|S|
-C Little Morsels|ACTIVE|9440|M|60.48,22.14|Z|Swamp of Sorrows|QO|1|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Crocolisk.|T|Captured Crocolisk|U|23659|
-C Little Morsels|ACTIVE|9440|M|62.79,23.67|Z|Swamp of Sorrows|QO|3|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Tarantula.|T|Captured Tarantula|U|23659|
-C Little Morsels|ACTIVE|9440|M|65.54,22.81|Z|Swamp of Sorrows|QO|2|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Jaguar.|T|Captured Jaguar|U|23659|
-C Draenethyst Crystals|QID|1389|M|63.67,20.51|Z|Swamp of Sorrows|L|6071 6|N|Finish collecting the big blue crystals.|US|
-A Galen's Escape|QID|1393|M|65.45,18.25|Z|Swamp of Sorrows|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Galen Goodward.\n[color=FF0000]NOTE: [/color]Best to clear the 'Lost Ones' camp to the SW of Galen before you start the quest.|
-A Galen's Escape|QID|1393|M|65.45,18.25|Z|Swamp of Sorrows|ELITE|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Galen Goodward to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for him to respawn.|
-C Galen's Escape|QID|1393|M|53.02,29.66|Z|Swamp of Sorrows|N|Follow Galen as he travels to the huts in the south and then west to the road.\n[color=FF0000]NOTE: [/color]Let Galen take the lead and pull aggro without letting him keep it for too long.|
-T Galen's Escape|QID|1393|M|47.82,39.76|Z|Swamp of Sorrows|N|To the strongbox at Galen's burned out camp (near Stonard).|
-R The Harborage|ACTIVE|1389|M|26.91,33.47|Z|Swamp of Sorrows|N|Ride west|
-T Draenethyst Crystals|QID|1389|M|25.97,31.40|Z|Swamp of Sorrows|N|To Magtoor.|
-R Pool of Tears|ACTIVE|1424|M|62.55,46.13|Z|Swamp of Sorrows|N|Ride South-east|
-C Pool of Tears|QID|1424|M|69.66,46.41|Z|Swamp of Sorrows|L|6175 10|N|You'll find the Atal'ai Artifacts all around Pool of Tears. Some may be easier to see than others.\n[color=FF0000]NOTE: [/color]Underwater breathing is your best friend right now.\n\nIf you're having trouble finding them, decreasing [color=FFFF00]Ground Clutter[/color] to 1 (in [color=FFFF00]Graphics[/color] under [color=FFFF00]System[/color] in the [color=FFFF00]Option[/color] window) may help.|
-R Misty Reed Post|ACTIVE|698|M|81.18,78.57|Z|Swamp of Sorrows|N|Keep an eye out for the Scalebane dragonkin, they may not appreciate you cutting through their area.
-T Lack of Surplus|QID|698|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
-A Lack of Surplus|QID|699|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tak'Kar.|PRE|698|
-R Stonard|ACTIVE|9440|M|41.93,54.82|Z|Swamp of Sorrows|
-T Little Morsels|QID|9440|M|47.81,54.95|Z|Swamp of Sorrows|N|To Cersei Dusksinger.|
-T Pool of Tears|QID|1424|M|47.93,54.79|Z|Swamp of Sorrows|N|To Fel'zerul; at the top the stairs.\n[color=FF0000]NOTE: [/color]Don't get the follow-up quest.|
+T Noboru the Cudgel|QID|1392|M|25.97,31.40|Z|1435|N|To Magtoor.|
+A Draenethyst Crystals|QID|1389|M|25.97,31.40|Z|1435|N|From Magtoor.|
+R Fallow Sanctuary|AVAILABLE|1393|M|54.57,28.47|Z|1435|N|Follow the road east. You can also follow the ridge line east if you want to do a lot of grinding.|
+C Draenethyst Crystals|QID|1389|M|63.67,20.51|Z|1435|L|6071 6|N|Look for the big blue crystals amongst the Lost Ones' huts on both sides of the road.|S|
+C Little Morsels|ACTIVE|9440|M|60.48,22.14|Z|1435|QO|1|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Crocolisk.|T|Captured Crocolisk|U|23659|
+C Little Morsels|ACTIVE|9440|M|62.79,23.67|Z|1435|QO|3|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Tarantula.|T|Captured Tarantula|U|23659|
+C Little Morsels|ACTIVE|9440|M|65.54,22.81|Z|1435|QO|2|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Jaguar.|T|Captured Jaguar|U|23659|
+C Draenethyst Crystals|QID|1389|M|63.67,20.51|Z|1435|L|6071 6|N|Finish collecting the big blue crystals.|US|
+A Galen's Escape|QID|1393|M|65.45,18.25|Z|1435|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Galen Goodward.\n[color=FF0000]NOTE: [/color]Best to clear the 'Lost Ones' camp to the SW of Galen before you start the quest.|
+A Galen's Escape|QID|1393|M|65.45,18.25|Z|1435|ELITE|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Galen Goodward to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for him to respawn.|
+C Galen's Escape|QID|1393|M|53.02,29.66|Z|1435|N|Follow Galen as he travels to the huts in the south and then west to the road.\n[color=FF0000]NOTE: [/color]Let Galen take the lead and pull aggro without letting him keep it for too long.|
+T Galen's Escape|QID|1393|M|47.82,39.76|Z|1435|N|To the strongbox at Galen's burned out camp (near Stonard).|
+R The Harborage|ACTIVE|1389|M|26.91,33.47|Z|1435|N|Ride west|
+T Draenethyst Crystals|QID|1389|M|25.97,31.40|Z|1435|N|To Magtoor.|
+R Pool of Tears|ACTIVE|1424|M|62.55,46.13|Z|1435|N|Ride South-east|
+C Pool of Tears|QID|1424|M|69.66,46.41|Z|1435|L|6175 10|N|You'll find the Atal'ai Artifacts all around Pool of Tears. Some may be easier to see than others.\n[color=FF0000]NOTE: [/color]Underwater breathing is your best friend right now.\n\nIf you're having trouble finding them, decreasing [color=FFFF00]Ground Clutter[/color] to 1 (in [color=FFFF00]Graphics[/color] under [color=FFFF00]System[/color] in the [color=FFFF00]Option[/color] window) may help.|
+R Misty Reed Post|ACTIVE|698|M|81.18,78.57|Z|1435|N|Keep an eye out for the Scalebane dragonkin, they may not appreciate you cutting through their area.
+T Lack of Surplus|QID|698|M|81.33,80.97|Z|1435|N|To Tok'Kar.|
+A Lack of Surplus|QID|699|M|81.33,80.97|Z|1435|N|From Tak'Kar.|PRE|698|
+R Stonard|ACTIVE|9440|M|41.93,54.82|Z|1435|
+T Little Morsels|QID|9440|M|47.81,54.95|Z|1435|N|To Cersei Dusksinger.|
+T Pool of Tears|QID|1424|M|47.93,54.79|Z|1435|N|To Fel'zerul; at the top the stairs.\n[color=FF0000]NOTE: [/color]Don't get the follow-up quest.|
 
 ; --- Badlands
-F Kargath|ACTIVE|1418|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk, Wind Rider Master.|TAXI|Kargath|
+F Kargath|ACTIVE|1418|M|46.08,54.82|Z|1435|N|At Breyk, Wind Rider Master.|TAXI|Kargath|
 ; --- Missing FP in Badlands
 N Badlands|ACTIVE|1418|N|Seeing as you don't have the FP in Badlands, you're going to have to foot it there. Don't worry, this isn't as bad as it sounds.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|TAXI|-Kargath|IZ|1435;Swamp of Sorrows|
 H Orgrimmar|AVAILABLE|2842|TAXI|-Kargath|IZ|1435;Swamp of Sorrows|
@@ -122,26 +141,26 @@ F Orgrimmar|ACTIVE|1420|M|47.02,49.83|Z|Thunder Bluff|C|Druid|IZ|1456;Thunder Bl
 H Orgrimmar|ACTIVE|1420|N|Hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
 b Grom'gol Base Camp|ACTIVE|1420|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
 F Stonard|ACTIVE|1420|M|32.54,29.35|N|At Thysta.|
-T Report to Helgrum|QID|1420|M|47.74,55.20|Z|Swamp of Sorrows|N|To Helgrum the Swift.|
-A Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|From Dar.|
-R Northeast|ACTIVE|699|M|75.82,13.95|CC|Z|Swamp of Sorrows|N|Make your way to the northeast corner through the swamp.|
-C Sawtooth Snapper|QID|699|M|85.23,36.53|Z|Swamp of Sorrows|L|6168 6|N|Work your way south killing them until you're done collecting your Claws.\n[color=FF0000]NOTE: [/color]Be aware of the Scalebane Dragonkin if you make it as far south as Sorrowmurk.|
-R Misty Reed Post|ACTIVE|699|M|81.18,78.57|Z|Swamp of Sorrows|N|You may want to go to the east and come down through Misty Reed Strand to avoid the Scalebane Dragonkin in Sorrowmurk.\n[color=FF0000]NOTE: [/color]Your path may not be uneventful either way.|
-T Lack of Surplus|QID|699|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
-A Threat From the Sea|QID|1422|M|81.33,80.97|Z|Swamp of Sorrows|N|From Tok'Kar.|PRE|699|
-T Threat From the Sea|QID|1422|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
-A Threat From the Sea|QID|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1422|
-C Fresh Meat|QID|1430|M|95,45|Z|Swamp of Sorrows|L|6184 10|N|Kill Monstrous Crawlers along the shoreline to loot their legs.\n[color=FF0000]NOTE: [/color]They are non=aggressive, but everything else around them isn't.|S|
-K Threat From the Sea|ACTIVE|1426|M|80.0,93.8;95.0,45.0;94.50,53.83|CC|Z|Swamp of Sorrows|QO|1;2;3|N|Starting at the southern-most point of the shoreline, work your way north along the shoreline.\n[color=FF0000]NOTE: [/color]Focus on killing the Flesheaters first; they are harder to find than the others. Avoid the Oracles as best you can.|
-T Threat From the Sea|QID|1426|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
-A Threat From the Sea|QID|1427|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1426|
-T Threat From the Sea|QID|1427|M|81.33,80.97|Z|Swamp of Sorrows|N|To Tok'Kar.|
-A Continued Threat|QID|1428|M|83.75,80.42|Z|Swamp of Sorrows|N|From Katar.|PRE|1427|
-K Continued Threat|ACTIVE|1428|M|89.1,78.4;95.08,27.10|CC|Z|Swamp of Sorrows|QO|1;2;3|N|As you make your way up the shoreline, work on killing the Inkspewers.\n[color=FF0000]NOTE: [/color]If you can get water breathing, there is a group of 4-5 Oracles/Flesheaters underwater at the last location. They randomly respawn as either an Oracle or a Flesheater.|
-C Fresh Meat|QID|1430|M|94.88,44.57|Z|Swamp of Sorrows|L|6184 10|N|Finish collecting the Legs.\n[color=FF0000]NOTE: [/color]Make sure your're not attacking the Silt Crawlers.|T|Monstrous Crawler|US|
-T Continued Threat|QID|1428|M|83.75,80.42|Z|Swamp of Sorrows|N|To Katar.|
-R Stonard|ACTIVE|1430|M|46.45,51.43|Z|Swamp of Sorrows|
-T Fresh Meat|QID|1430|M|44.71,57.22|Z|Swamp of Sorrows|N|To Dar.|
+T Report to Helgrum|QID|1420|M|47.74,55.20|Z|1435|N|To Helgrum the Swift.|
+A Fresh Meat|QID|1430|M|44.71,57.22|Z|1435|N|From Dar.|
+R Northeast|ACTIVE|699|M|75.82,13.95|CC|Z|1435|N|Make your way to the northeast corner through the swamp.|
+C Sawtooth Snapper|QID|699|M|85.23,36.53|Z|1435|L|6168 6|N|Work your way south killing them until you're done collecting your Claws.\n[color=FF0000]NOTE: [/color]Be aware of the Scalebane Dragonkin if you make it as far south as Sorrowmurk.|
+R Misty Reed Post|ACTIVE|699|M|81.18,78.57|Z|1435|N|You may want to go to the east and come down through Misty Reed Strand to avoid the Scalebane Dragonkin in Sorrowmurk.\n[color=FF0000]NOTE: [/color]Your path may not be uneventful either way.|
+T Lack of Surplus|QID|699|M|81.33,80.97|Z|1435|N|To Tok'Kar.|
+A Threat From the Sea|QID|1422|M|81.33,80.97|Z|1435|N|From Tok'Kar.|PRE|699|
+T Threat From the Sea|QID|1422|M|83.75,80.42|Z|1435|N|To Katar.|
+A Threat From the Sea|QID|1426|M|83.75,80.42|Z|1435|N|From Katar.|PRE|1422|
+C Fresh Meat|QID|1430|M|95,45|Z|1435|L|6184 10|N|Kill Monstrous Crawlers along the shoreline to loot their legs.\n[color=FF0000]NOTE: [/color]They are non=aggressive, but everything else around them isn't.|S|
+K Threat From the Sea|ACTIVE|1426|M|80.0,93.8;95.0,45.0;94.50,53.83|CC|Z|1435|QO|1;2;3|N|Starting at the southern-most point of the shoreline, work your way north along the shoreline.\n[color=FF0000]NOTE: [/color]Focus on killing the Flesheaters first; they are harder to find than the others. Avoid the Oracles as best you can.|
+T Threat From the Sea|QID|1426|M|83.75,80.42|Z|1435|N|To Katar.|
+A Threat From the Sea|QID|1427|M|83.75,80.42|Z|1435|N|From Katar.|PRE|1426|
+T Threat From the Sea|QID|1427|M|81.33,80.97|Z|1435|N|To Tok'Kar.|
+A Continued Threat|QID|1428|M|83.75,80.42|Z|1435|N|From Katar.|PRE|1427|
+K Continued Threat|ACTIVE|1428|M|89.1,78.4;95.08,27.10|CC|Z|1435|QO|1;2;3|N|As you make your way up the shoreline, work on killing the Inkspewers.\n[color=FF0000]NOTE: [/color]If you can get water breathing, there is a group of 4-5 Oracles/Flesheaters underwater at the last location. They randomly respawn as either an Oracle or a Flesheater.|
+C Fresh Meat|QID|1430|M|94.88,44.57|Z|1435|L|6184 10|N|Finish collecting the Legs.\n[color=FF0000]NOTE: [/color]Make sure your're not attacking the Silt Crawlers.|T|Monstrous Crawler|US|
+T Continued Threat|QID|1428|M|83.75,80.42|Z|1435|N|To Katar.|
+R Stonard|ACTIVE|1430|M|46.45,51.43|Z|1435|
+T Fresh Meat|QID|1430|M|44.71,57.22|Z|1435|N|To Dar.|
 
 ; --- Stranglethorn Vale
 F Grom'gol|ACTIVE|572^605^196|M|26.87,77.10|
@@ -310,10 +329,10 @@ T Voodoo Dues|QID|609|M|27.78,77.07|N|To Sea Wolf MacKinley.|
 T The Captain's Chest |QID|8551|M|26.69,73.61|N|To Captain Hecklebury Smotts.| ; == Auto-commplete seems to need that space in order to work - Hendo72
 T The Bloodsail Buccaneers|QID|608|M|27.18,77.01|N|To Fleet-Master Seahorn on the balcony of the Inn.|
 F Stonard|ACTIVE|624|M|26.87,77.09|
-T Cortello's Riddle|QID|624|M|22.86,48.18|Z|Swamp of Sorrows|N|Follow the road west to the ornate bridge. Click on the soggy scroll under the bridge to turn it in.|
-A Cortello's Riddle|QID|625|M|22.86,48.18|Z|Swamp of Sorrows|N|From the Soggy Scroll.|PRE|624|
-R Stonard|ACTIVE|589|M|41.93,54.82|Z|Swamp of Sorrows|N|Return to Stonard.|
-F Grom'gol|ACTIVE|589|M|46.08,54.82|Z|Swamp of Sorrows|N|At Breyk.|
+T Cortello's Riddle|QID|624|M|22.86,48.18|Z|1435|N|Follow the road west to the ornate bridge. Click on the soggy scroll under the bridge to turn it in.|
+A Cortello's Riddle|QID|625|M|22.86,48.18|Z|1435|N|From the Soggy Scroll.|PRE|624|
+R Stonard|ACTIVE|589|M|41.93,54.82|Z|1435|N|Return to Stonard.|
+F Grom'gol|ACTIVE|589|M|46.08,54.82|Z|1435|N|At Breyk.|
 T Mok'thardin's Enchantment|QID|573|M|32.12,29.24|N|To Far Seer Mok'thardin.|
 T The Singing Crystals|QID|589|M|32.28,27.71|N|To Kin'weelay.|
 
