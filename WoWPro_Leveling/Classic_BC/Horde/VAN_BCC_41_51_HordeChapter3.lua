@@ -53,8 +53,8 @@ A Neeka Bloodscar|QID|1418|M|47.74,55.20|Z|1435|N|From Helgrum the Swift, at the
 A Pool of Tears|QID|1424|M|47.93,54.79|Z|1435|N|From Fel'zerul.|
 A Lack of Surplus|QID|698|M|44.71,57.22|Z|1435|N|From Dar, inside the Inn.|
 R The Shifting Mire|ACTIVE|698|M|47.59,43.43|Z|1435|N|First "island" north of Stonard|
-C Lack of Surplus|QID|698|M|47.59,43.43|Z|1435|L|6169 8|N|Kill Sawtooth Crocolisks to loot the Unprepared Sawtooth Flank.|S|
-K Noboru|AVAILABLE|1392|M|54.9,34.1;26.85,40.87|CN|Z|1435|L|6196|N|Kill Noboru the Cudgel and loot the Cudgel.\n[color=FF0000]NOTE: [/color]He spawns south of Fallow Sanctuary and patrols the area west to The Harborage and back with 2 minions.|T|Noboru the Cudgel|
+C Lack of Surplus|QID|698|M|47.59,43.43|Z|1435|L|6169 8|ITEM|6169|N|Sawtooth Crocolisk|S|
+K Noboru|AVAILABLE|1392|M|54.9,34.1;26.85,40.87|CN|Z|1435|L|6196|ITEM|6196|N|\n[color=FF0000]NOTE: [/color]He spawns south of Fallow Sanctuary and patrols the area west to The Harborage and back with 2 minions.|T|Noboru the Cudgel|
 A Noboru the Cudgel|QID|1392|M|46.70,39.40|Z|1435|N|Click the Cudgel to start the quest.\n[color=FF0000]NOTE: [/color]If you get a 'proficiency warning', open your bag and click on it manually.|U|6196|O|
 R The Harborage|AVAILABLE|1389|M|26.8,41.1;27.10,37.80|CC|Z|1435|N|Continue north to the road and follow it west.|
 N PvP Hostiles|AVAILABLE|1389|N|If you behave, they'll behave and leave you alone.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
@@ -67,14 +67,16 @@ C Little Morsels|ACTIVE|9440|M|62.79,23.67|Z|1435|QO|3|N|Clear the area and use 
 C Little Morsels|ACTIVE|9440|M|65.54,22.81|Z|1435|QO|2|N|Clear the area and use the Fel-Tainted Morsels to feed the Captured Jaguar.|T|Captured Jaguar|U|23659|
 C Draenethyst Crystals|QID|1389|M|63.67,20.51|Z|1435|L|6071 6|N|Finish collecting the big blue crystals.|US|
 A Galen's Escape|QID|1393|M|65.45,18.25|Z|1435|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Galen Goodward.\n[color=FF0000]NOTE: [/color]Best to clear the 'Lost Ones' camp to the SW of Galen before you start the quest.|
-A Galen's Escape|QID|1393|M|65.45,18.25|Z|1435|ELITE|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Galen Goodward to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for him to respawn.|
+A Galen's Escape|QID|1393|M|65.45,18.25|Z|1435|ELITE|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Galen Goodward to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for him to respawn.|FAIL|
 C Galen's Escape|QID|1393|M|53.02,29.66|Z|1435|N|Follow Galen as he travels to the huts in the south and then west to the road.\n[color=FF0000]NOTE: [/color]Let Galen take the lead and pull aggro without letting him keep it for too long.|
 T Galen's Escape|QID|1393|M|47.82,39.76|Z|1435|N|To the strongbox at Galen's burned out camp (near Stonard).|
-R The Harborage|ACTIVE|1389|M|26.91,33.47|Z|1435|N|Ride west|
+R The Harborage|ACTIVE|1389|M|26.91,33.47|Z|1435|
 T Draenethyst Crystals|QID|1389|M|25.97,31.40|Z|1435|N|To Magtoor.|
 R Pool of Tears|ACTIVE|1424|M|62.55,46.13|Z|1435|N|Ride South-east|
 C Pool of Tears|QID|1424|M|69.66,46.41|Z|1435|L|6175 10|N|You'll find the Atal'ai Artifacts all around Pool of Tears. Some may be easier to see than others.\n[color=FF0000]NOTE: [/color]Underwater breathing is your best friend right now.\n\nIf you're having trouble finding them, decreasing [color=FFFF00]Ground Clutter[/color] to 1 (in [color=FFFF00]Graphics[/color] under [color=FFFF00]System[/color] in the [color=FFFF00]Option[/color] window) may help.|
-R Misty Reed Post|ACTIVE|698|M|81.18,78.57|Z|1435|N|Keep an eye out for the Scalebane dragonkin, they may not appreciate you cutting through their area.
+R Misty Reed Post|ACTIVE|698|M|81.18,78.57|Z|1435|N|Work way in this direction.|S|
+C Lack of Surplus|QID|698|M|84.53,34.73|Z|1435|L|6169 8|ITEM|6169|N|Sawtooth Crocolisk|US|
+R Misty Reed Post|ACTIVE|698|M|81.18,78.57|Z|1435|N|Keep an eye out for the Scalebane dragonkin, they may not appreciate you cutting through their area.|US|
 T Lack of Surplus|QID|698|M|81.33,80.97|Z|1435|N|To Tok'Kar.|
 A Lack of Surplus|QID|699|M|81.33,80.97|Z|1435|N|From Tak'Kar.|PRE|698|
 R Stonard|ACTIVE|9440|M|41.93,54.82|Z|1435|
@@ -92,11 +94,10 @@ b Booty Bay|ACTIVE|2842|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay
 T Chief Engineer Scooty|QID|2842|M|27.60,77.48|N|To Chief Engineer Scooty.|TAXI|-Kargath|
 A Gnomer-gooooone!|QID|2843|M|27.60,77.48|N|From Chief Engineer Scooty.|PRE|2842|TAXI|-Kargath|
 T Gnomer-gooooone!|QID|2843|M|27.60,77.48|N|To Chief Engineer Scooty after a few moments past.|TAXI|-Kargath|
-P Gnomeregan|AVAILABLE|-2843|ACTIVE|-2843|M|27.63,77.56|N|Step on the Transpolyporter.\n[color=FF0000]NOTE: [/color]Make sure you have your Goblin Transponder or it won't work.|TAXI|-Kargath|IZ|Booty Bay|
-;* Goblin Transponder|AVAILABLE|-2843|ACTIVE|-2843|N|You can safely dispose of it. Ask Scooty for a new one if you wish to use the portal again.|U|9173| ** Hendo72 - Scooty may not give you another one.
-R Exit to Dun Morogh|ACTIVE|1418|M|43.01,60.19;43.12,60.26|CC|Z|1415;Gnomeregan|N|Make your to the big lift and take it up. Head up the ramp to the top.\n[color=FF0000]NOTE: [/color]At this level, you can easily avoid aggroing the mobs as long as you give them room.|TAXI|-Kargath|
-R South Gate Pass|ACTIVE|1418|M|47.4,44.9;78.2,49.8;79.89,52.43|CC|Z|Dun Morogh|N|Head east across Iceflow Lake towards the sign post at Kharanos (or follow the road the long way around if you wish). From here, 'follow' the road east until you reach the next sign post.\n[color=FF0000]NOTE: [/color]Unless run into them, the Alliance guards should leave you alone.|TAXI|-Kargath|
-R Southgate Outpost|ACTIVE|1418|M|84.23,51.29|Z|Dun Morogh|N|At the top of the hill, enter the tunnel and go through to the other side.|TAXI|-Kargath|
+P Gnomeregan|AVAILABLE|-2843|M|27.63,77.56|N|Step on the Transpolyporter.\n[color=FF0000]NOTE: [/color]Make sure you have your Goblin Transponder or it won't work.|TAXI|-Kargath|IZ|Booty Bay|
+R Exit to Dun Morogh|ACTIVE|1418|M|43.01,60.19;42.85,60.17;43.12,60.26|CS|Z|1415;Gnomeregan|N|Exit the room and take the big lift up. Head up the ramp to the top.\n[color=FF0000]NOTE: [/color]At this level, you can easily avoid aggroing the mobs as long as you give them room.|TAXI|-Kargath|
+R South Gate Pass|ACTIVE|1418|M|47.4,44.9;78.2,49.8;79.89,52.43|CC|Z|Dun Morogh|N|Head east across Iceflow Lake towards the sign post at Kharanos (or follow the road the long way around if you wish). From here, 'follow' the road east until you reach the next sign post.\n[color=FF0000]NOTE: [/color]Unless you run into them, the Alliance guards should leave you alone.|TAXI|-Kargath|
+R South Gate Outpost|ACTIVE|1418|M|84.23,51.29|Z|Dun Morogh|N|At the top of the hill, enter the tunnel and go through to the other side.|TAXI|-Kargath|
 R Badlands|ACTIVE|1418|M|22.7,70.9;28.5,66.0;37.5,74.6;46.40,73.50|CC|Z|Loch Modan|N|Follow the road into the tunnel and continue through until you reach the intersection. Head north to the next intersection and cut across Stonesplinter Valley to Grizzlepaw Ridge. Make your way around the mountain side to the road leading into the Badlands.|TAXI|-Kargath|
 R Badlands|ACTIVE|1418|M|49.06,6.76|Z|Badlands|N|Follow the road into the Badlands.|TAXI|-Kargath|
 R Kargath|ACTIVE|1418|M|10.02,42.87|Z|Badlands|N|Head south past Uldaman and follow the edge of the moutains as you make your west.\n[color=FF0000]NOTE: [/color]It should be fairly uneventful until reach the Dustbowl and the mobs are now your level.|TAXI|-Kargath|
@@ -106,28 +107,28 @@ A Report to Helgrum|QID|1420|M|6.48,47.20|Z|Badlands|N|From Neeka Bloodscar.|
 A Coyote Thieves|QID|1419|M|6.48,47.20|Z|Badlands|N|From Neeka Bloodscar.|
 A Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|Badlands|N|From Jarkal Mossmeld; top of the ramp inside the Inn.|
 A Broken Alliances|QID|782|M|2.92,45.62|Z|Badlands|N|From Gorn.|
-C Coyote Thieves|QID|1419|L|6166 30|N|Kill Coyotes to loot their Jawbones.|S|
-C Crag Coyote Fangs|ACTIVE|2258|L|7846 10|N|Kill Coyotes to loot their Fangs.|S|
-C Buzzard Gizzard|QID|2258|L|7847 5|N|Kill Buzzards to loot their Gizzards.|S|
-C Rock Elemental Shard|QID|2258|L|7848 5|N|Kill Rock Elementals to loot Rock Elemental Shards.|S|
-K Boss Tho'grun|ACTIVE|782|M|38.37,71.37|Z|Badlands|L|4640|N|Kill him and loot his Sign of Earth.\n[color=FF0000]NOTE: [/color]Keep an eye out for his entourage as you doing your other quests.|S|
+C Coyote Thieves|QID|1419|L|6166 30|ITEM|6166|N|Coyote|S|
+C Crag Coyote Fangs|ACTIVE|2258|L|7846 10|ITEM|7846|N|Coyote|S|
+C Buzzard Gizzard|QID|2258|L|7847 5|ITEM|7847|N|Buzzard|S|
+C Rock Elemental Shard|QID|2258|L|7848 5|ITEM|7848|N|Rock Elemental|S|
+K Boss Tho'grun|ACTIVE|782|M|38.37,71.37|Z|Badlands|L|4640|ITEM|4640|N|Boss Tho'grun\n[color=FF0000]NOTE: [/color]Keep an eye out for his entourage as you doing your other quests.|S|
 R Valley of Fangs|ACTIVE|1106|M|39.92,54.57|Z|Badlands|
 T Martek the Exiled|QID|1106|M|42.21,52.69|Z|Badlands|N|Martek is in the Valley of Fangs, east side of the second spire.|
 A Indurium|QID|1108|M|42.21,52.69|Z|Badlands|N|From Martek.|PRE|1106|
 A Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|Badlands|N|From Rigglefuzz.|
-C Barbecued Buzzard Wings|QID|703|L|3404 4|N|Kill any Buzzard to loot the Buzzard Wing.|S|
+C Barbecued Buzzard Wings|QID|703|L|3404 4|ITEM|3404|N|Any Buzzard|S|
 R Agmond's End|ACTIVE|1108|M|51.31,62.37|Z|Badlands|
-C Indurium|QID|1108|M|51.12,66.08|Z|Badlands|QO|1|N|Kill the Troggs to loot the Indurium Flakes.|
-C Rock Elemental Shard|QID|2258|M|38.10,76.49|Z|Badlands|L|7848 5|N|Finish looting the Rock Elemental Shards.|US|
-C Buzzard Gizzard|QID|2258|M|15.41,61.38|Z|Badlands|L|7847 5|N|Kill Buzzards to loot their Gizzards.|US|
-C Barbecued Buzzard Wings|QID|703|M|15.41,61.38|Z|Badlands|N| Get more Buzzard Wings if you have not yet finished|
-C Crag Coyote Fangs|ACTIVE|2258|M|24.96,56.45|Z|Badlands|L|7846 10|N|Finish collecting your Fangs.|US|
-C Coyote Thieves|QID|1419|M|24.96,56.45|Z|Badlands|L|6166 30|N|Finish collecting your Coyote Jawbones.|US|
+C Indurium|QID|1108|M|51.12,66.08|Z|Badlands|L|5797 10|ITEM|5797|N|Any Stonevault Trogg|
+C Rock Elemental Shard|QID|2258|M|38.10,76.49|Z|Badlands|L|7848 5|ITEM|7848|N|Rock Elemental|US|
+C Buzzard Gizzard|QID|2258|M|15.41,61.38|Z|Badlands|L|7847 5|ITEM|7847|N|Buzzard|US|
+C Barbecued Buzzard Wings|QID|703|M|15.41,61.38|Z|Badlands|ITEM|3404|N|Any Buzzard|US|
+C Crag Coyote Fangs|ACTIVE|2258|M|24.96,56.45|Z|Badlands|L|7846 10|ITEM|7846|N|Coyote|US|
+C Coyote Thieves|QID|1419|M|24.96,56.45|Z|Badlands|L|6166 30|ITEM|6166|N|Coyote|US|
 R Valley of Fangs|AVAILABLE|1137|M|39.92,54.57|Z|Badlands|
 T Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|Badlands|N|To Rigglefuzz.|
 T Indurium|QID|1108|M|42.21,52.69|Z|Badlands|N|To Martek the Exiled.|
 A News for Fizzle|QID|1137|M|42.21,52.69|Z|Badlands|N|From Martek the Exiled.\n[color=FF0000]NOTE: [/color]After a brief interlude.|PRE|1108|
-K Boss Tho'grun|ACTIVE|782&2258|M|42.61,53.58|Z|Badlands|L|4640|N|He passes this point as part of a massive circuit, He is escorted by 5 ogres, however he often lags behind his troops and can be pulled along with only one add. Kill him fast, loot his Sign of Earth and run away. Use long cooldown abilities and potions if needed.\n[color=FF0000]NOTE: [/color]You can go looking for him on his crcuit, or wait here for him to pass through.|
+K Boss Tho'grun|ACTIVE|782&2258|M|42.61,53.58|Z|Badlands|L|4640|ITEM|7640|N|Boss Tho'grun\nHe passes this point as part of a massive circuit. He's escorted by 5 ogres, however, he often lags behind his troops and can be pulled along with only one add. Kill him fast and run away. Use long cooldown abilities and potions if needed.\n[color=FF0000]NOTE: [/color]You can go looking for him on his circuit, or wait here for him to pass through.|
 L Level Check|ACTIVE|1419^2258^782|N|Grind until you're within 3.5 bubbles of 42.|LVL|41;-13550|
 R Kargath|ACTIVE|1419|M|10.02,42.87|Z|Badlands|
 T Coyote Thieves|QID|1419|M|6.48,47.20|Z|Badlands|N|To Neeka Bloodscar.|
