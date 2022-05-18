@@ -197,7 +197,7 @@ A Tears for Fears|QID|38662|PRE|38641|M|51.44,57.01|N|From Lyanis Moonfall.|
 A Root Cause|QID|38655|PRE|38641|M|51.48,56.83|N|From Isoraen Nightstar.|
 C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|S|N|Kill demons, chop down entangling roots as you go to complete the bonus objective.|RANK|2|
 C Root Cause|QID|38655|M|59.11,54.33|S|NC|N|Click on the highlighted plants to collect the corrupted root samples.|
-K Kill Gravax the Desecrator|QID|38656|M|56.40,55.58|T|Gravax|ITEM|124131|N|Group needed. Note he can one-shot kill you, so you may want to seek the Moonkin artifact before attempting this.|RANK|3|RARE|
+K Kill Gravax the Desecrator|AVAILABLE|38656|M|56.40,55.58|T|Gravax|ITEM|124131|N|Group needed. Note he can one-shot kill you.|RANK|3|RARE|
 A Mark of the Demon|QID|38656|ACTIVE|38656|M|56.40,55.58|U|124131|N|Auto Accepted from UI Alert|RANK|2|
 C Tears for Fears|QID|38662|M|59.19,54.03|NC|N|Listen to the dialog|
 C Root Cause|QID|38655|M|59.11,54.33|US|NC|N|Finish collecting any needed samples on your way back to the inner temple.|
@@ -376,7 +376,7 @@ T The Fate of Val'sharah|QID|38743|M|53.69,55.90|N|To Tyrande Whisperwind.|
 A Enter the Nightmare|QID|40567|PRE|38743|M|53.69,55.90|N|From Tyrande Whisperwind. This is a group/instance quest and is not covered by this guide. If/when you complete it, you need to fly out to Garden of the Moon in Val'sharah to turn it in at the same place you picked it up.|
 A The Tears of Elune|QID|40890|PRE|38743|M|53.45,55.96|N|From The Tears of Elune. |
 P Dalaran|QID|40890|M|56.74,57.72|N|Use your Dalaran Hearthstone or take the flight master back to Dalaran.|U|140192|
-A Class Specific Quest|QID|44550^44087^42666^42516^42517^42481^42175^42186^42844^44100^43007^44544^42600^42597|Z|Dalaran!Dalaran!Dungeon|N|Someone will follow you around Dalaran until you accept this quest.|;do not add the pre's grail tells you to. they are DH only!
+;A Class Specific Quest|QID|44550^44087^42666^42516^42517^42481^42175^42186^42844^44100^43007^44544^42600^42597|Z|Dalaran!Dalaran!Dungeon|N|Someone will follow you around Dalaran until you accept this quest.|;do not add the pre's grail tells you to. they are DH only!
 ;44550 Death Knight - Called to Acherus
 ;44087/42666 Demon Hunter - Return to the Fel Hammer
 ;42516 Druid - Growing Power
@@ -386,7 +386,7 @@ A Class Specific Quest|QID|44550^44087^42666^42516^42517^42481^42175^42186^42844
 ;42844 Paladin - Growing Power
 ;44100 Priest - Proper Introductions
 ;43007 Rogue - Return to the Chambe of Shadows
-;44544 Shaman - Call of the Earther Ring
+;44544 Shaman - Call of the Earthen Ring
 ;42600 Warlock - Growing Power
 ;42597 Warrior - Odyn's Summons
 C The Tears of Elune|QID|40890|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used|
