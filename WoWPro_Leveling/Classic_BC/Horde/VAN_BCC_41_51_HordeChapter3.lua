@@ -177,7 +177,7 @@ R Southern Savage Coast|ACTIVE|572^196|M|32.62,35.53|Z|1434|N|Exit Grom'gol Base
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434|L|3863 10|ITEM|3863|N|Jungle Stalkers|S|
 K Raptor Mastery|ACTIVE|196|M|33.63,37.87|Z|1434|QO|1|N|Kill Jungle Stalkers.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434|L|3863 10|ITEM|3863|N|Jungle Stalkers|US|
-C Venture Company Mining|QID|600|M|40.5,43.1;41.20,43.58|CC|Z|1434|L|3917 10|ITEM|N|Goblins|
+C Venture Company Mining|QID|600|M|40.5,43.1;41.20,43.58|CC|Z|1434|L|3917 10|ITEM|3917|N|Goblins|
 R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|1434|
 T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|1434|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|PRE|572|
@@ -204,10 +204,10 @@ C Stranglethorn Fever|QID|348|M|35.26,60.39|Z|1434|QO|1|N|When you're ready, giv
 C Stranglethorn Fever|QID|348|M|35.26,60.39|Z|1434|N|[color=CC00FF]QUEST FAILED [/color]\nGive a Gorrilla Fang to Witch Doctor Unbagwa to stat again\n[color=FF0000]NOTE: [/color]If you don't have a Gorilla Fang, you'll need to get one to start again.||FAIL|
 C Scaring Shaky|QID|606|M|33.53,64.82|Z|1434|L|3919 5|ITEM|3919|N|Elder Mistvale Gorillas|US|
 C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|Z|1434|L|3862|ITEM|3892|N|Elder Mistvale Gorillas\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|US|
-R Booty Bay|ACTIVE|606|M|29.34,72.83|Z|1434|Z|1434|
+R Booty Bay|ACTIVE|606|M|29.34,72.83|Z|1434|
 T Scaring Shaky|QID|606|M|26.89,73.59|Z|1434|N|"Shaky" Phillipe is at the bottom of the ramp as you enter Booty Bay (towards the ship from Rachet).|
 A Return to MacKinley|QID|607|M|26.89,73.59|Z|1434|N|From "Shaky" Phillipe.|PRE|606|
-T The Bloodsail Buccaneers|QID|597|M|28.10,76.22Z|1434||N|Return to First Mate Crazz.|
+T The Bloodsail Buccaneers|QID|597|M|28.10,76.22|Z|1434||N|Return to First Mate Crazz.|
 A The Bloodsail Buccaneers|QID|599|M|28.10,76.22|Z|1434|N|From First Mate Crazz.|PRE|597|
 T Stranglethorn Fever|QID|348|M|27.61,76.73|Z|1434|N|To Fin Fitzracket.|
 T Return to MacKinley|QID|607|M|27.78,77.07|Z|1434|N|To "Sea Wolf" MacKinley.|
@@ -338,12 +338,12 @@ A Whiskey Slim's Lost Grog|QID|580|M|27.13,77.45|Z|1434|N|From Whiskey Slim.|
 T Voodoo Dues|QID|609|M|27.78,77.07|Z|1434|N|To Sea Wolf MacKinley.|
 T The Captain's Chest |QID|8551|M|26.69,73.61|Z|1434|N|To Captain Hecklebury Smotts.| ; == Auto-complete seems to need that space in order to work - Hendo72
 T The Bloodsail Buccaneers|QID|608|M|27.18,77.01|Z|1434|N|To Fleet-Master Seahorn on the balcony of the Inn.|
-F Stonard|ACTIVE|624|M|26.87,77.09|Z|1434|Z|1434|
+F Stonard|ACTIVE|624|M|26.87,77.09|Z|1434|
 T Cortello's Riddle|QID|624|M|22.86,48.18|Z|1435|N|Follow the road west to the ornate bridge. Click on the soggy scroll under the bridge to turn it in.|
 A Cortello's Riddle|QID|625|M|22.86,48.18|Z|1435|N|From the Soggy Scroll.|PRE|624|
 R Stonard|ACTIVE|589|M|41.93,54.82|Z|1435|N|Return to Stonard.|
 F Grom'gol|ACTIVE|589|M|46.08,54.82|Z|1435|N|At Breyk.|
-T Mok'thardin's Enchantment|QID|573|M|32.12,29.24Z|1434|N|To Far Seer Mok'thardin.|
+T Mok'thardin's Enchantment|QID|573|M|32.12,29.24|Z|1434|N|To Far Seer Mok'thardin.|
 T The Singing Crystals|QID|589|M|32.28,27.71|Z|1434|N|To Kin'weelay.|
 
 ; --- Dustwallow Marsh
@@ -724,7 +724,7 @@ T Lines of Communication|QID|2995|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe in 
 T Rin'ji's Secret|QID|2782|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe.|
 T Oran's Gratitude|QID|8273|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe.|
 A ... and a Batch of Ooze|QID|4294|M|47.45,73.36|Z|1458|N|From Chemist Fuely; in main room of The Apothecarium |
-b Durotar|ACTIVE|2641|M|60.71,58.78|1420|N|Exit Undercity and take the Zeppelin back to Durotar.|
+b Durotar|ACTIVE|2641|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppelin back to Durotar.|
 R Orgrimmar|ACTIVE|2641|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|
 F Thunder Bluff|ACTIVE|2641|M|45.13,63.90|Z|1454|C|Druid|
 = Level 50 training|ACTIVE|2641|N|Train your lv 50 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
@@ -804,7 +804,7 @@ A Volcanic Activity|QID|4502|M|62.45,38.74|Z|1413|N|From Liv Rizzlefix (inside t
 b Booty Bay|ACTIVE|580|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|
 t Rescue OOX-22/FE!|QID|2767|M|28.36,76.35|Z|1434|N|To Oglethorpe Obnoticus.|
 t Rescue OOX-09/HL!|QID|836|M|28.36,76.35|Z|1434|N|To Oglethorpe Obnoticus.|
-t Rescue OOX-17/TN!|QID|648|M|28.36,76.35Z|1434||N|To Oglethorpe Obnoticus.|
+t Rescue OOX-17/TN!|QID|648|M|28.36,76.35|Z|1434|N|To Oglethorpe Obnoticus.|
 A An OOX of Your Own|QID|3721|M|28.36,76.35|Z|1434|N|From Oglethorpe Obnoticus.|PRE|2767&836&648|
 T An OOX of Your Own|QID|3721|M|28.36,76.35|Z|1434|N|To Oglethorpe Obnoticus.|
 T Whiskey Slim's Lost Grog|QID|580|M|27.13,77.45|Z|1434|N|To Whiskey Slim, in the Tavern.|
