@@ -395,9 +395,9 @@ T A Complete Set|QID|58623|M|45.18,32.11|Z|1536;Maldraxxus|N|To Ta'ern.|ACH|1479
 R Spider's Watch|QID|1|ACTIVE|60733|CS|M|40.51,32.84;37.56,29.21|Z|1536;Maldraxxus|N|Click on the teleporter to leave the library and then run back to Spider's Watch.|
 F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|Z|1536;Maldraxxus|N|Fly back to Bleak Redoubt.|MS|FLY|SHADOWLANDS|
 
-R High Stand|QID|59867|ACTIVE|59867|QO|1|M|52.12,24.18|Z|1536;Maldraxxus|N|Click on the teleporter to leave the library and then run to High Stand, be careful you are attempting to bypass some lvl 60/61 mobs.|TOF|
+R High Stand|QID|59867|ACTIVE|59867|QO|1|M|52.12,24.18|Z|1536;Maldraxxus|N|Click on the teleporter to leave the library and then run to High Stand|TOF|
 K Appraiser Vix|ACTIVE|59867|QO|1|M|52.52,24.22|Z|1536;Maldraxxus|T|Appraiser Vix|N|Kill Appraiser Vix.|TOF|
-R House of Eyes|ACTIVE|62462|M|56,12|Z|1536;Maldraxxus|N|Run north to the House of Eyes You are still surrounded by level 60/61 mobs.|TOF|
+R House of Eyes|ACTIVE|62462|M|56,12|Z|1536;Maldraxxus|N|Run north to the House of Eyes|TOF|
 P Scroll of Teleportation|ACTIVE|62462|QO|1|M|59.96,12.22|Z|1536;Maldraxxus|N|Use Scroll of Teleportation to get to the Key of Eyes. You land right beside the key, pick it up.|TOF|
 K Chelicera|ACTIVE|62462|QO|2|M|56,12|Z|1536;Maldraxxus|T|Chelicera|N|Kill Chelicera.|TOF|
 R Keres' Rest|ACTIVE|62462|M|53.81,30.71|Z|1536;Maldraxxus|N|There is another scroll of teleportaion of Chelicera's balcony. Return to ground level then run to Keres' Rest, being aware of the hostile NPC's most likely higher level than you.|TOF|
