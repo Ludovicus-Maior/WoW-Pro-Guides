@@ -125,7 +125,7 @@ T Martek the Exiled|QID|1106|M|42.21,52.69|Z|1418|N|Martek is in the Valley of F
 A Indurium|QID|1108|M|42.21,52.69|Z|1418|N|From Martek.|PRE|1106|
 A Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|1418|N|From Rigglefuzz.|
 C Barbecued Buzzard Wings|QID|703|L|3404 4|ITEM|3404|N|Any Buzzard|S|
-R Agmond's End|ACTIVE|1108|M|51.31,62.37|Z|1418|
+R Agmond's End|ACTIVE|1108|M|51.31,62.37|Z|1418|QO|1|
 C Indurium|QID|1108|M|51.12,66.08|Z|1418|L|5797 10|ITEM|5797|N|Any Stonevault Trogg|
 C Rock Elemental Shard|QID|2258|M|38.10,76.49|Z|1418|L|7848 5|ITEM|7848|N|Rock Elemental|US|
 C Buzzard Gizzard|QID|2258|M|15.41,61.38|Z|1418|L|7847 5|ITEM|7847|N|Buzzard|US|
@@ -136,23 +136,24 @@ R Valley of Fangs|AVAILABLE|1137|M|39.92,54.57|Z|1418|
 T Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|1418|N|To Rigglefuzz.|
 T Indurium|QID|1108|M|42.21,52.69|Z|1418|N|To Martek the Exiled.|
 A News for Fizzle|QID|1137|M|42.21,52.69|Z|1418|N|From Martek the Exiled.\n[color=FF0000]NOTE: [/color]After a brief interlude.|PRE|1108|
-K Boss Tho'grun|ACTIVE|782&2258|M|42.61,53.58|Z|1418|L|4640|ITEM|7640|N|Boss Tho'grun\nHe passes this point as part of a massive circuit. He's escorted by 5 ogres, however, he often lags behind his troops and can be pulled along with only one add. Kill him fast and run away. Use long cooldown abilities and potions if needed.\n[color=FF0000]NOTE: [/color]You can go looking for him on his circuit, or wait here for him to pass through.|
-L Level Check|ACTIVE|1419^2258^782|N|Grind until you're within 3.5 bubbles of 42.|LVL|41;-13550|
+K Boss Tho'grun|ACTIVE|782&2258|M|42.61,53.58|Z|1418|L|4640|ITEM|4640|N|Boss Tho'grun\nHe passes this point as part of a massive circuit. He's escorted by 5 ogres, however, he often lags behind his troops and can be pulled along with only one add. Kill him fast and run away. Use long cooldown abilities and potions if needed.\n[color=FF0000]NOTE: [/color]You can go looking for him on his circuit, or wait here for him to pass through.|US|
+L Level 42|ACTIVE|1419|N|Grind until you're within 3.5 bubbles of 42.|LVL|41;-13550|
 R Kargath|ACTIVE|1419|M|10.02,42.87|Z|1418|
 T Coyote Thieves|QID|1419|M|6.48,47.20|Z|1418|N|To Neeka Bloodscar.|
 T Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|1418|N|To Jarkal Mossmeld.\n[color=FF0000]NOTE: [/color]Skip the follow-up.|
-T Broken Alliances|QID|782|M|6.48,47.20|Z|1418|N|To Gorn.\n[color=FF0000]NOTE: [/color]Skip the follow-up.|
+T Broken Alliances|QID|782|M|2.92,45.59|Z|1418|N|To Gorn.\n[color=FF0000]NOTE: [/color]Skip the follow-up.|
 
 ; --- Swamp of Sorrows
+H Orgrimmar|ACTIVE|1420|N|Hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
 P Moonglade|ACTIVE|1420|N|Use your Teleport: Moonglade to do your training.|C|Druid|
+= Level 42 Training|ACTIVE|1420|N|Do your level 42 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 H Orgrimmar|ACTIVE|1420|N|Hearth back to Orgrimmar. It's faster than flying; unless your hearth is on CD.|C|Druid|
 F Orgrimmar|ACTIVE|1420|M|47.02,49.83|Z|1456|C|Druid|IZ|1456;Thunder Bluff|
-H Orgrimmar|ACTIVE|1420|N|Hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
 b Grom'gol Base Camp|ACTIVE|1420|M|50.59,12.67|Z|1411|N|Take the Zeppelin to Grom'gol Base Camp.|
 F Stonard|ACTIVE|1420|M|32.54,29.35|N|At Thysta.|
 T Report to Helgrum|QID|1420|M|47.74,55.20|Z|1435|N|To Helgrum the Swift.|
 A Fresh Meat|QID|1430|M|44.71,57.22|Z|1435|N|From Dar.|
-R Northeast|ACTIVE|699|M|75.82,13.95|CC|Z|1435|N|Make your way to the northeast corner through the swamp.|
+R Northeast|ACTIVE|699|M|75.82,13.95|CS|Z|1435|QO|1|N|Make your way to the northeast corner through the swamp.|
 C Lack of Surplus|QID|699|M|85.23,36.53|Z|1435|L|6168 6|ITEM|6168|N|Sawtooth Snapper\nWork your way south until you're done.\n[color=FF0000]NOTE: [/color]Be aware of the Scalebane Dragonkin if you make it as far south as Sorrowmurk.|
 R Misty Reed Post|ACTIVE|699|M|81.18,78.57|Z|1435|N|You may want to go to the east and come down through Misty Reed Strand to avoid the Scalebane Dragonkin in Sorrowmurk.\n[color=FF0000]NOTE: [/color]Your path may not be uneventful either way.|
 T Lack of Surplus|QID|699|M|81.33,80.97|Z|1435|N|To Tok'Kar.|
@@ -160,7 +161,7 @@ A Threat From the Sea|QID|1422|M|81.33,80.97|Z|1435|N|From Tok'Kar.|PRE|699|
 T Threat From the Sea|QID|1422|M|83.75,80.42|Z|1435|N|To Katar.|
 A Threat From the Sea|QID|1426|M|83.75,80.42|Z|1435|N|From Katar.|PRE|1422|
 C Fresh Meat|QID|1430|M|95,45|Z|1435|L|6184 10|ITEM|6184|N|Monstrous Crawlers\n[color=FF0000]NOTE: [/color]They are non=aggressive, but everything else around them isn't.|S|
-K Threat From the Sea|ACTIVE|1426|M|80.0,93.8;95.0,45.0;94.50,53.83|CC|Z|1435|QO|1;2;3|N|Starting at the southern-most point of the shoreline, work your way north along the shoreline.\n[color=FF0000]NOTE: [/color]Focus on killing the Flesheaters first; they are harder to find than the others. Avoid the Oracles as best you can.|
+K Threat From the Sea|ACTIVE|1426|M|80.0,93.8;95.0,45.0;94.50,53.83|CS|Z|1435|QO|1;2;3|N|Starting at the southern-most point of the shoreline, work your way north along the shoreline.\n[color=FF0000]NOTE: [/color]The Murlocs are in the south, The Flesheaters are primarily in the north section and the Inkspewers are every where. Avoid the Oracles as best you can.|
 T Threat From the Sea|QID|1426|M|83.75,80.42|Z|1435|N|To Katar.|
 A Threat From the Sea|QID|1427|M|83.75,80.42|Z|1435|N|From Katar.|PRE|1426|
 T Threat From the Sea|QID|1427|M|81.33,80.97|Z|1435|N|To Tok'Kar.|
@@ -689,7 +690,7 @@ C Lines of Communication|QID|2995|M|29.63,48.66|Z|1425|QO|2|N|Go behind the west
 C Lines of Communication|QID|2995|M|28.55,46.05|Z|1425|QO|3|N|Click the Highvale Report on the altar under the gazebo.|NC|
 C Lines of Communication|QID|2995|M|31.99,46.82|Z|1425|QO|1|N|Enter the lodge from the northest corner by jumping up to the balcony and climbing over the railing. The Highvale Records are on the ground beside the barrels.|NC|
 A Rin'ji is Trapped!|QID|2742|M|30.73,46.97|Z|1425|ELITE|N|[color=80FF00]Escort Quest:[/color]\nEscort Rin'ji to safety.\n[color=FF0000]NOTE: [/color]He's a fair tank and you can heal himself, but it's best to clear as many elves as possible before starting reduce adds during the ambush attack.|
-;A Rin'ji is Trapped!|QID|2742|M|30.73,46.97|Z|1425|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Rin'ji to restart the quest.\n[color=FF0000]NOTE: [/color]Clear any respawns first.|FAIL|
+A Rin'ji is Trapped!|QID|2742|M|30.73,46.97|Z|1425|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Rin'ji to restart the quest.\n[color=FF0000]NOTE: [/color]Clear any respawns first.|FAIL|
 C Rin'ji is Trapped!|QID|2742|M|32.4,50.6;33.6,53.4;34.66,56.32|CC|Z|1425|N|There are 2 ambushes along the way.\n[color=FF0000]NOTE: [/color]Let Rin'ji aggro any mobs you come across and kill them quick before you're ambushed.|
 K Message to the Wildhammer|QID|7841|QO|1;2;3;4|N|Finish killing the Highvale Elves you require.|US|
 R Shindigger's Camp|ACTIVE|77|M|20.2,48.3;25.05,46.96|CC|Z|1425|
