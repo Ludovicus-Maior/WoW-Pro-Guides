@@ -217,15 +217,15 @@ A The Temple of Purity|QID|57270|M|48.36,72.80|Z|1533;Bastion!The Shadowlands|N|
 A Hero's Rest|QID|62718|M|48.79,73.26|Z|1533;Bastion!The Shadowlands|N|From the Scroll hanging on the wall.|LVL|50|RANK|2|LEAD|62275|
 A WANTED: Altered Sentinel|QID|60316|M|49.13,72.82|Z|1533;Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll next to the tent.|RANK|2|
 C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|1533;Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.\n[color=FF0000]NOTE: [/color]Despite being yellow, it will attack you as soon as you step within the colored area.|
-C A Gift for an Acolyte|QID|62714|M|54.10,73.62|Z|1533;Bastion!The Shadowlands|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
-T A Gift for an Acolyte|QID|62714|M|54.10,73.62|Z|1533;Bastion!The Shadowlands|N|To Acolyte Amalthina.|
-A More Than A Gift|QID|62715|M|53.10,73.62|Z|1533;Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|62714|RANK|2|
+C A Gift for an Acolyte|QID|62714|M|53.86,73.94|Z|1533;Bastion!The Shadowlands|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
+T A Gift for an Acolyte|QID|62714|M|53.86,73.94|Z|1533;Bastion!The Shadowlands|N|To Acolyte Amalthina.|
+A More Than A Gift|QID|62715|M|53.86,73.94|Z|1533;Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|62714|RANK|2|
 C The Temple of Purity|QID|57270|M|54.09,73.62|Z|1533;Bastion!The Shadowlands|NC|N|Find Eridia in the Temple of Purity.|MS|
 T The Temple of Purity|QID|57270|M|54.09,73.62|N|To Eridia.|MS|
 A An Inspired Moral Inventory|QID|57444|M|54.03,73.74|Z|1533;Bastion!The Shadowlands|N|From Acolyte Galistos.|TOF| ; needs to be moved upwards..
 A Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|1533;Bastion!The Shadowlands|N|Autoaccepted as you enter the temple grounds.|TOF|RANK|2|
 C Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|1533;Bastion!The Shadowlands|S!US|N|Kill stuff, rescue terrified stewards, destroy scrolls, do quests.|TOF|
-A A Temple in Need|QID|57977|M|54.09,73.62|Z|1533;Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|57270|MS|
+A A Temple in Need|QID|57977|M|53.86,73.94|Z|1533;Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|57270|MS|
 A On the Edge of a Revelation|QID|57264|M|56.68,74.41|Z|1533;Bastion!The Shadowlands|N|From Disciple Kosmas.|PRE|57270|MS|
 C On the Edge of a Revelation|QID|57264|M|57.89,73.48|Z|1533;Bastion!The Shadowlands|CHAT|N|Chat with the Vulnerable Aspirants to inspire them to action.|S|MS|
 C A Temple in Need|QID|57977|M|57.36,71.46|Z|1533;Bastion!The Shadowlands|QO|1|N|Talk to Disciple Fotima, then kill mobs that spawn.|MS|
