@@ -160,13 +160,13 @@ T Lack of Surplus|QID|699|M|81.33,80.97|Z|1435|N|To Tok'Kar.|
 A Threat From the Sea|QID|1422|M|81.33,80.97|Z|1435|N|From Tok'Kar.|PRE|699|
 T Threat From the Sea|QID|1422|M|83.75,80.42|Z|1435|N|To Katar.|
 A Threat From the Sea|QID|1426|M|83.75,80.42|Z|1435|N|From Katar.|PRE|1422|
-C Fresh Meat|QID|1430|M|95,45|Z|1435|L|6184 10|ITEM|6184|N|Monstrous Crawlers\n[color=FF0000]NOTE: [/color]They are non=aggressive, but everything else around them isn't.|S|
+C Fresh Meat|QID|1430|M|95,45|Z|1435|L|6184 10|ITEM|6184|N|Monstrous Crawlers\n[color=FF0000]NOTE: [/color]They are non=aggressive, but everything else around them isn't.|T|Monstrous Crawler|S|
 K Threat From the Sea|ACTIVE|1426|M|80.0,93.8;95.0,45.0;94.50,53.83|CS|Z|1435|QO|1;2;3|N|Starting at the southern-most point of the shoreline, work your way north along the shoreline.\n[color=FF0000]NOTE: [/color]The Murlocs are in the south, The Flesheaters are primarily in the north section and the Inkspewers are every where. Avoid the Oracles as best you can.|
 T Threat From the Sea|QID|1426|M|83.75,80.42|Z|1435|N|To Katar.|
 A Threat From the Sea|QID|1427|M|83.75,80.42|Z|1435|N|From Katar.|PRE|1426|
 T Threat From the Sea|QID|1427|M|81.33,80.97|Z|1435|N|To Tok'Kar.|
 A Continued Threat|QID|1428|M|83.75,80.42|Z|1435|N|From Katar.|PRE|1427|
-K Continued Threat|ACTIVE|1428|M|89.1,78.4;95.08,27.10|CC|Z|1435|QO|1;2;3|N|As you make your way up the shoreline, work on killing the Inkspewers.\n[color=FF0000]NOTE: [/color]If you can get water breathing, there is a group of 4-5 Oracles/Flesheaters underwater at the last location. They randomly respawn as either an Oracle or a Flesheater.|
+K Continued Threat|ACTIVE|1428|M|89.1,78.4;95.08,27.10|CS|Z|1435|QO|1;2;3|N|As you make your way up the shoreline, work on killing the Inkspewers.\n[color=FF0000]NOTE: [/color]If you can get water breathing, there is a group of 4-5 Oracles/Flesheaters underwater at the last location. They randomly respawn as either an Oracle or a Flesheater.\n\nKeep an eye out for Jarquia, a level 46 mob that hangs out near the Oracles by the camps.|
 C Fresh Meat|QID|1430|M|94.88,44.57|Z|1435|L|6184 10|ITEM|6184|N|Monstrous Crawlers\n[color=FF0000]NOTE: [/color]Make sure your're not attacking the Silt Crawlers.|T|Monstrous Crawler|US|
 T Continued Threat|QID|1428|M|83.75,80.42|Z|1435|N|To Katar.|
 R Stonard|ACTIVE|1430|M|46.45,51.43|Z|1435|
