@@ -152,7 +152,7 @@ C Tending to Wildseeds|QID|60563|M|65.57,43.33|Z|Ardenweald!The Shadowlands|QO|2
 C Shooing Wildlife|QID|60567|M|62.78,40.27|Z|Ardenweald!The Shadowlands|N|Anima-starved wildlife slain.|US|MS|
 T Shooing Wildlife|QID|60567|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
 T Tending to Wildseeds|QID|60563|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
-A Tranquil Pools|QID|62774|M|62.21,37.57|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
+A Tranquil Pools|QID|62774|M|62.21,37.57|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-60|
 A Belly Full of Fae|QID|60575|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60563&60567|MS|
 A Hungry for Animacones|QID|60577|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60563&60567|MS|
 C Tranquil Pools|QID|62774|M|64.46,39.67|Z|Ardenweald!The Shadowlands|S!US|N|Kill Hostiles, pick up animacones and wildling seeds, also you can use the provided dagger on the hydras' corpse to free some faeries.|U|179921|TOF|
@@ -323,21 +323,21 @@ C I Know Your Face|QID|60632|M|48.94,35.73|Z|Ardenweald!The Shadowlands|QO|2|CHA
 
 ; Sidequest Storyline - Trouble at the Gormling Corral & Supplies Needed
 T Trouble in the Banks|QID|57651|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
-A Breaking A Few Eggs|QID|59621|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57651|RANK|2|
+A Breaking a Few Eggs|QID|59621|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57651|RANK|2|
 A Tending to the Tenders|QID|59622|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57651|RANK|2|
 A Supplies Needed: Amber Grease|QID|57652|M|46.90,27.73|Z|Ardenweald!The Shadowlands|N|From A Muddy Scroll.|RANK|2|
 C Supplies Needed: Amber Grease|QID|57652|M|46.25,22.09|Z|Ardenweald!The Shadowlands|N|Kill the Gorm Ravagers to collect Giant Gorm Gris.|S|
-C Breaking A Few Eggs|QID|59621|M|45.54,25.50|Z|Ardenweald!The Shadowlands|NC|N|Destroy Gorm eggs.|S|
+C Breaking a Few Eggs|QID|59621|M|45.54,25.50|Z|Ardenweald!The Shadowlands|NC|N|Destroy Gorm eggs.|S|
 C Tending to the Tenders|QID|59622|M|45.88,25.38|Z|Ardenweald!The Shadowlands|QO|1|N|Slay Egg-Tender Tiom.|
 C Tending to the Tenders|QID|59622|M|45.44,23.22|Z|Ardenweald!The Shadowlands|QO|2|N|Slay Egg-Tender Bloome.|
 C Tending to the Tenders|QID|59622|M|44.73,24.13|Z|Ardenweald!The Shadowlands|QO|3|N|Slay Egg-Tender Erys.|
 C Supplies Needed: Amber Grease|QID|57652|M|46.25,22.09|Z|Ardenweald!The Shadowlands|N|Finish collecting the Giant Gorm Gris from the Gorm Ravagers.|US|
-C Breaking A Few Eggs|QID|59621|M|45.54,25.50|Z|Ardenweald!The Shadowlands|NC|N|Destroy the rest of the Gorm eggs.|US|
-T Breaking A Few Eggs|QID|59621|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
+C Breaking a Few Eggs|QID|59621|M|45.54,25.50|Z|Ardenweald!The Shadowlands|NC|N|Destroy the rest of the Gorm eggs.|US|
+T Breaking a Few Eggs|QID|59621|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
 T Tending to the Tenders|QID|59622|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
 A Unsafe Workplace|QID|57653|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|59621|RANK|2|
 A Supplies Needed: More Husks!|QID|57655|M|47.49,26.37|Z|Ardenweald!The Shadowlands|N|From a Discarded Scroll, under the wagon hitch.|RANK|2|
-C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|U|172950|NC|N|Use the provided clay Heal Wounded fae.|S!US|
+C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|U|172950|NC|N|Use the provided clay Heal Wounded fae.|S|
 C Supplies Needed: More Husks!|QID|57655|M|49.37,22.96|Z|Ardenweald!The Shadowlands|NC|N|Pick up the Treated Gorm Husks scattered about the area.|S|
 A Gifts of the Forest|QID|57656|M|48.06,24.38|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|59621|RANK|2|
 C Gifts of the Forest|QID|57656|M|49.09,22.71|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1<1|N|Use the provided pipes to ask for a Culexwood Branch.|
@@ -352,6 +352,7 @@ C Tied Totem Toter|QID|57657|M|47.99,24.28|Z|Ardenweald!The Shadowlands|QO|1|NC|
 C Tied Totem Toter|QID|57657|M|47.99,24.28|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Run near the gromlings to collect them.|BUFF|309806<30|
 C Supplies Needed: More Husks!|QID|57655|M|49.37,22.96|Z|Ardenweald!The Shadowlands|NC|N|Treated Gorm Husk.|US|
 C Tied Totem Toter|QID|57657|M|47.02,28.55|Z|Ardenweald!The Shadowlands|NC|QO|2|N|Deliver gormlings to southern wrangler.|
+C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|U|172950|NC|N|Use the provided clay Heal Wounded fae.|US|
 T Unsafe Workplace|QID|57653|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
 T Tied Totem Toter|QID|57657|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
 A Well, Tell the Lady|QID|59656|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57653&57657|RANK|2|
@@ -401,7 +402,7 @@ C Nightmares Manifest|QID|60520|M|49.55,51.28|Z|Tirna Vaal|QO|2|NC|N|Click the W
 T Nightmares Manifest|QID|60520|M|50.02,48.76|Z|Tirna Vaal|N|To Dreamweaver.|MS|
 
 R Heartwood Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Head south towards Heartwood Grove and the Bonus Objective there.|TOF|RANK|2|
-A The Waning Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
+A The Waning Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-60|
 C The Waning Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Preserve Heartwood Grove by fighting the Hostiles and evacuating the survivers and picking up drained wildseeds.|TOF|
 T The Waning Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
 
@@ -423,7 +424,7 @@ C Toppling the Brute|QID|60856|M|66.03,49.71|Z|Ardenweald!The Shadowlands|N|Slay
 C Wild Hunt Offensive|QID|60840|M|63.10,46.06|Z|Ardenweald!The Shadowlands|US|N|Finish up defending Soryn's Meadow.|
 T Toppling the Brute|QID|60856|M|64.27,49.93|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 T Wild Hunt Offensive|QID|60840|M|64.90,47.51|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|
-A Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
+A Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-60|
 C Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Kill Hostiles, destroy totems and click on the green memories. If you are less than halfway thru 57, you need to stay and finish this, otherwise, as you choose.|EAB|
 T Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted. |
 A Ride of the Wild Hunt|QID|60881|M|64.27,49.93|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60856|MS|
@@ -442,7 +443,7 @@ T Infusing the Wildseed|QID|60905|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|T
 
 ; The Fallen w Storyline
 R Tirna Noch|AVAILABLE|62720|M|66.43,55.80|Z|Ardenweald!The Shadowlands|N|Take the road east out of Hibernal Holllow to find Tirna Noch.|TOF|RANK|2|
-A The Fallen Tree|QID|62720|M|66.43,55.80|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|
+A The Fallen Tree|QID|62720|M|66.43,55.80|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-60|
 C The Fallen Tree|QID|62720|M|70.10,57.17|Z|Ardenweald!The Shadowlands|N|Reclaim Tirna Noch by freeing captives, reclaiming mementos, destroying drust runes and of course killing the hostiles.|TOF|
 
 A Echoes of Tirna Noch|QID|58473|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60905|MS|
@@ -597,13 +598,13 @@ A Tough as Silk|QID|60061|PRE|57661|M|38.98,29.93|Z|Ardenweald!The Shadowlands|N
 A The Shattered Harp|QID|60062|PRE|57661|M|38.11,28.72|Z|Ardenweald!The Shadowlands|N|From Caretaker Lillythistle.|RANK|2|
 C Tough as Silk|QID|60061|M|38.21,29.17|Z|Ardenweald!The Shadowlands|N|Kill enemies, destroy cacoons and save Night Fae in the area.|S|
 C The Shattered Harp|QID|60062|M|36.40,28.49|Z|Ardenweald!The Shadowlands|N|Kill Briarthorn and loot Harp Pieces.|
-T The Shattered Harp|QID|60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|
+T The Shattered Harp|QID|60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|Turn in to Artisan Rees.|
 A A Song for Silkstriders|QID|60063|PRE|60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|From Artisan Rees.|RANK|2|
 A Save Ol' Gertie|QID|60064|PRE|60062|M|37.05,29.66|Z|Ardenweald!The Shadowlands|N|From Artisan Rees.|RANK|2|
 N Silk Shooter|ACTIVE|60063|M|37.08,29.65|Z|Ardenweald!The Shadowlands|N|Pick up the silk shooter off the ground beside Artisan Rees.|BUFF|325637|
 N Silk Shooter|ACTIVE|60063|M|PLAYER|Z|Ardenweald!The Shadowlands|EAB|S!US|N|Use the silk shooter Extra Action button to quickly travel from Meribel to Meribel.|
 C Save Ol' Gertie|QID|60064|M|36.36,25.70|Z|Ardenweald!The Shadowlands|N|Kill Noisul of Many Faces.|
-$ Enchanted Dreamcatcher|ACTIVE|-62259|M|38.46,25.10|Z|Ardenweald!The Shadowlands|N|Use the silkshooter to help climb the roots.|ITEM|183129|L|183129|ACH|14313;12|;ACH doesn't complete till you turn in the quest.
+$ Enchanted Dreamcatcher|ACTIVE|-62259|M|36.42,25.05|Z|Ardenweald!The Shadowlands|N|Use the silkshooter to help climb the roots.|ITEM|183129|L|183129|ACH|14313;12|;ACH doesn't complete till you turn in the quest.
 A Anima-Laden Dreamcatcher|ACTIVE|60064|QID|62259|M|38.46,25.10|Z|Ardenweald!The Shadowlands|N|From item just picked up.|O|U|183129|
 T Save Ol' Gertie|QID|60064|M|37.29,25.97|Z|Ardenweald!The Shadowlands|N|To Gertie Jr.|
 A Thread of Hope|QID|60065|PRE|60064|M|37.29,25.97|Z|Ardenweald!The Shadowlands|N|From Gertie Jr.|RANK|2|
