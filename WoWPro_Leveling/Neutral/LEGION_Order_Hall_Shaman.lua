@@ -185,7 +185,6 @@ C Eye of Azshara: The Scepter of Storms|QID|42984|N|Collect the Scepter of Storm
 T Eye of Azshara: The Scepter of Storms|QID|42984|M|29.26,77.92|Z|726;The Maelstrom|N|To Elementalist Janai.|
 A Mission: Investigating Deepholm|QID|42200|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42986|
 t Mission: Investigating Deepholm|QID|42200|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
-
 A The Great Stonemother|QID|41775|M|29.26,77.92|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42200|LVL|45|
 P Deepholm|ACTIVE|41775|Z|726;The Maelstrom|N|Take the portal to Deepholm from your class hall.|
 T The Great Stonemother|QID|41775|Z|Deepholm|N|To Therazane.|
