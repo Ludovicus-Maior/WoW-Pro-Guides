@@ -173,7 +173,7 @@ R Stonard|ACTIVE|1430|M|46.45,51.43|Z|1435|
 T Fresh Meat|QID|1430|M|44.71,57.22|Z|1435|N|To Dar.|
 
 ; --- Stranglethorn Vale
-F Grom'gol|ACTIVE|572^605^196|M|26.87,77.10|Z|1434|
+F Grom'gol|ACTIVE|572^605^196|M|46.08,54.82|Z|1435|
 R Southern Savage Coast|ACTIVE|572^196|M|32.62,35.53|Z|1434|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434|L|3863 10|ITEM|3863|N|Jungle Stalkers|S|
 K Raptor Mastery|ACTIVE|196|M|33.63,37.87|Z|1434|QO|1|N|Kill Jungle Stalkers.|
