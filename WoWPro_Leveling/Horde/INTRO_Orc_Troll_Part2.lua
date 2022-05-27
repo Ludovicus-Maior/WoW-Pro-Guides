@@ -111,7 +111,7 @@ C Securing the Lines|QID|835|M|54.00,27.37|N|Finish killing the Dustwind Pillage
 T Winds in the Desert|QID|834|M|46.41,22.96|N|To Rezlak.|
 T Securing the Lines|QID|835|M|46.41,22.96|N|To Rezlak.|
 A The Wolf and The Kodo|QID|25205|M|44.94,14.78|N|From Shin Stonepillar.|
-C Shin Stonepiller|QID|25205|M|55.24,13.99|N|Speak to Shin Stonepiller, ask him to tell his fable.|CHAT|BUFF|73841|
+C Shin Stonepiller|QID|25205|M|44.94,14.78|N|Speak to Shin Stonepiller, ask him to tell his fable.|CHAT|BUFF|73841|
 C The Wolf and The Kodo|QID|25205|M|54.00,15.00|N|Run East until you find fighting Kodos. Use Key 1 to increase your movement speed.|NC|
 T The Wolf and The Kodo|QID|25205|M|44.90,14.76|N|To Shin Stonepillar.|
 T The Dranosh'ar Blockade|QID|25196|M|44.97,14.74|N|To Gor the Enforcer.|

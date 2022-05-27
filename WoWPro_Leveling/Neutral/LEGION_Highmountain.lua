@@ -91,7 +91,7 @@ T Grasp of the Underking|QID|39025|M|41.29,72.60|N|To Warbrave Oro.|
 T The Drogbar|QID|39026|M|41.29,72.60|N|To Warbrave Oro.|
 A Bitestone Enclave|QID|39043|M|41.29,72.60|N|From Warbrave Oro.|PRE|39026|
 C Bitestone Enclave|QID|39043|M|84.05,46.57|Z|Highmountain/5|N|Kill Basalisks and Drogbar.|
-$ Treasure Chest|QID|40489|M|85.62,38.38|N|There is a Treasure chest up on the ledge where Dargrul will show up. It will be phased out after he shows up so get it now (at the time cost of killing many extra mobs or check off manually if you don't want to go up there.\n You will return to this Cave for a World Quest, which will make it a lot easier to get.|RANK|3|
+$ Treasure Chest|QID|40489|M|85.62,38.38|Z|651|N|There is a Treasure chest up on the ledge where Dargrul will show up. It will be phased out after he shows up so get it now (at the time cost of killing many extra mobs or check off manually if you don't want to go up there.\n You will return to this Cave for a World Quest, which will make it a lot easier to get.|RANK|3|
 T Bitestone Enclave|QID|39043|M|47.32,44.53|Z|Highmountain/5|N|To Warbrave Oro.|
 A Dargrul and the Hammer|QID|39027|M|47.32,44.53|Z|Highmountain/5|N|From Warbrave Oro.|PRE|39043|
 C Dargrul and the Hammer|QID|39027|M|66.48,49.66|QO|1|Z|Highmountain/5|NC|N|Follow Warbrave Oro to confront Dargrul. When he encases you in rock, click on it to break free.|

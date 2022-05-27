@@ -404,10 +404,10 @@ A Raene's Cleansing|QID|1046|M|50.8,75|N|From Krolg. Be sure to use your rod so 
 H Astranaar|QID|1032|ACTIVE|1046|M|36.97,49.26|N|Hearth or Run back to Astranaar.|Z|Ashenvale|
 * Rod of Transformation|ACTIVE|1046|U|5462|M|36.6,49.6|S|N|Once you turn in the next step the Rod of Transformation will be removed from your inventory. If you haven't already be sure to discard it and request a new one from Raene before turning the quest in to be able to use the Item Restoration service.|Z|Ashenvale|
 T Raene's Cleansing|QID|1046|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
-F Talrendis Point|ACTIVE|1032|M|34.40,48.00|N|Fly to Talrendis Point|Z|Ashenvale|
+F Forest Song|ACTIVE|1032|M|34.40,48.00|N|Fly to Talrendis Point|Z|Ashenvale|
 C Satyr Slaying!|QID|1032|M|80,50|Z|Ashenvale|N|Kill Satyr in Satynaar|
-F Astranaar|ACTIVE|1032|M|11.90,77.59|Z|Azshara|N|Fly back to Astranaar.|
 T Satyr Slaying!|QID|1032|M|21.74,53.35|N|To Illiyana.|
+F Astranaar|ACTIVE|1140|M|11.90,77.59|Z|Azshara|N|Fly back to Astranaar.|
 T The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
 A The Tower of Althalaxx|QID|1167|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|1140|
 
