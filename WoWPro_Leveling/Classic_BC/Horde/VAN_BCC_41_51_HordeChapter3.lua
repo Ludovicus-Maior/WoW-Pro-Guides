@@ -173,13 +173,13 @@ R Stonard|ACTIVE|1430|M|46.45,51.43|Z|1435|
 T Fresh Meat|QID|1430|M|44.71,57.22|Z|1435|N|To Dar.|
 
 ; --- Stranglethorn Vale
-F Grom'gol|ACTIVE|572^605^196|M|46.08,54.82|Z|1435|
-R Southern Savage Coast|ACTIVE|572^196|M|32.62,35.53|Z|1434|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
+F Grom'gol|ACTIVE|572|M|46.08,54.82|Z|1435|
+R Southern Savage Coast|ACTIVE|572|M|32.62,35.53|Z|1434|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434|L|3863 10|ITEM|3863|N|Jungle Stalkers|S|
 K Raptor Mastery|ACTIVE|196|M|33.63,37.87|Z|1434|QO|1|N|Kill Jungle Stalkers.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434|L|3863 10|ITEM|3863|N|Jungle Stalkers|US|
 C Venture Company Mining|QID|600|M|40.5,43.1;41.20,43.58|CC|Z|1434|L|3917 10|ITEM|3917|N|Any Venture Co. mob in this area.\n[color=FF0000]NOTE: [/color]The Tinkerers summon a Harvest Reaper that can cause problems.|
-R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|1434|
+R Grom'gol Base Camp|AVAILABLE|571|M|32.16,28.76|Z|1434|
 T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|1434|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|PRE|572|
 F Booty Bay|AVAILABLE|2864|M|32.54,29.35|Z|1434|
@@ -196,7 +196,7 @@ R The Cape of Stranglethorn|ACTIVE|595|M|29.41,72.73|Z|1434|N|Head up the stairs
 R Southern Savage Coast|ACTIVE|595|M|27.99,70.04|Z|1434|N|Turn and head west down the hill to the bottom.|
 T The Bloodsail Buccaneers|QID|595|M|27.28,69.52|Z|1434|N|After clearing the camp of all Bloodsails, locate the Bloodsail Correspondence on the barrel and click on it.|
 A The Bloodsail Buccaneers|QID|597|M|27.28,69.52|Z|1434|N|From Bloodsail Correspondence.|PRE|595|
-C Akiris by the Bundle|QID|617|M|25.85,60.85|Z|1434|L|4029 10|ITEM|4029|N|Any Naga\n[color=FF0000]NOTE: [/color]Work your way around the island and then up the path when you get to the other side.\n[color=FF0000]NOTE: [/color]The path upwards will branch off into 2 areas. at the end of the first branch, you can either go down the hill and come back around or go up the hill to the 2nd branch and follow it back down.|
+C Akiris by the Bundle|QID|617|M|25.85,60.85|Z|1434|L|4029 10|ITEM|4029|N|Any Naga\n[color=FF0000]NOTE: [/color]Work your way around the island and then up the path when you get to the other side.\nThe path upwards will branch off into 2 areas. at the end of the first branch, you can either go down the hill and come back around or go up the hill to the 2nd branch and follow it back down.|
 C Scaring Shaky|QID|606|M|33.53,64.82|Z|1434|L|3919 5|ITEM|3919|N|Elder Mistvale Gorillas|S|
 C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|Z|1434|L|3862|ITEM|3562|N|Elder Mistvale Gorillas\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|S|
 l Gorilla Fang|ACTIVE|348|M|31.67,60.14|CC|Z|1434|L|2799|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|S|
