@@ -178,13 +178,15 @@ R Southern Savage Coast|ACTIVE|572^196|M|32.62,35.53|Z|1434|N|Exit Grom'gol Base
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434|L|3863 10|ITEM|3863|N|Jungle Stalkers|S|
 K Raptor Mastery|ACTIVE|196|M|33.63,37.87|Z|1434|QO|1|N|Kill Jungle Stalkers.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434|L|3863 10|ITEM|3863|N|Jungle Stalkers|US|
-C Venture Company Mining|QID|600|M|40.5,43.1;41.20,43.58|CC|Z|1434|L|3917 10|ITEM|3917|N|Goblins|
+C Venture Company Mining|QID|600|M|40.5,43.1;41.20,43.58|CC|Z|1434|L|3917 10|ITEM|3917|N|Any Venture Co. mob in this area.\n[color=FF0000]NOTE: [/color]The Tinkerers summon a Harvest Reaper that can cause problems.|
 R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|1434|
 T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|1434|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|PRE|572|
 F Booty Bay|AVAILABLE|2864|M|32.54,29.35|Z|1434|
 A Tran'rek|QID|2864|M|26.94,77.21|Z|1434|N|From Krazek on the top floor of the Tavern.|
 h Booty Bay|AVAILABLE|617|M|27.04,77.31|Z|1434|N|Set your hearthstone to Booty Bay.|
+T Venture Company Mining|QID|600|M|27.12,77.21|Z|1434|N|To Crank Fizzlebub.|
+A Zanzil's Secret|QID|621|M|27.12,77.21|Z|1434|N|From Crank Fizzlebub.|
 A Akiris by the Bundle|QID|617|M|26.76,76.38|Z|1434|N|From Brivateer Bloads in front of the bank.\n[color=FF0000]NOTE: [/color]If he's not here, check at the top of the ramp. He paths up there every so often.|
 A Scaring Shaky|QID|606|M|27.78,77.07|Z|1434|N|From "Sea Wolf" MacKinley|
 A Stoley's Debt|QID|2872|M|27.78,77.07|Z|1434|N|From "Sea Wolf" MacKinley|
@@ -274,8 +276,6 @@ R Orgrimmar|ACTIVE|585^586^598|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the fro
 P Moonglade|ACTIVE|585^586^598|N|Use your Teleport: Moonglade to portal to Moonglade to do your training.|C|Druid|
 = Level 44 Training|ACTIVE|585^586^598|N|Do your level 44 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 H The Salty Sailor Tavern|ACTIVE|585^209^598|M|29.52,72.53|Z|1434|N|If your hearthstone is on cooldown, do it the long way.|
-T Venture Company Mining|QID|600|M|27.12,77.21|Z|1434|N|To Crank Fizzlebub.|
-A Zanzil's Secret|QID|621|M|27.12,77.21|Z|1434|N|From Crank Fizzlebub.|
 F Grom'gol|ACTIVE|585^209^598|M|26.87,77.09|Z|1434|
 R Southern Savage Coast|ACTIVE|208|M|32.62,35.53|Z|1434|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
 K King Bangalash|ACTIVE|208|M|38.20,35.40|Z|1434|QO|1|N|Head up to the plateau and clear the area before starting because he will pull surrounding tigers to help.\n[color=FF0000]NOTE: [/color]At 50% damage, he will summon two panthers to help him. Ignore them and stay focused on Bangalash; the quest ends when he dies.\nIf you can stun him before he reaches 50% and quickly burn him below 50%, he won't summon the panthers.|T|King Bangalash|
