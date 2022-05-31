@@ -875,7 +875,7 @@ function WoWPro.SelectHearthstone()
         end
     end
 	if #have > 0 then
-		return have[_G.math.random(#have)] or 6948
+		return tostring(have[_G.math.random(#have)] or 6948)
 	end
 end
 
