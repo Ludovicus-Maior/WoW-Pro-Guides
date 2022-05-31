@@ -430,9 +430,9 @@ t Never Again!|QID|9536|M|73.23,60.39|Z|1440|N|To Valusha.|IZ|Splintertree Post|
 ; --- Orgrimmar
 F Orgrimmar|ACTIVE|6504&-9536|M|12.24,33.80|Z|1440|IZ|Splintertree Post|
 H Orgrimmar|ACTIVE|6504&-9536|N|If your hearthstone is on CD, you'll have to foot it back to Splintertree Post.|IZ|-Splintertree Post|
-l Chapter 1|ACTIVE|6504|L|16642|N|Combine Pages 1-4|U|16645|US|NC|
-l Chapter 2|ACTIVE|6504|L|16643|N|Combine Pages 5-8|U|16649|US|NC|
-l Chapter 3|ACTIVE|6504|L|16644|N|Combine Pages 9-12|U|16653|US|NC|
+l Chapter 1|ACTIVE|6504|L|16642|N|Combine Pages 1-4|U|16645^16646^16647^16648|US|NC|
+l Chapter 2|ACTIVE|6504|L|16643|N|Combine Pages 5-8|U|16649^16650^16651^16652|US|NC|
+l Chapter 3|ACTIVE|6504|L|16644|N|Combine Pages 9-12|U|16653^16654^16655^16656|US|NC|
 
 ; --- Ashenvale
 F Splintertree Post|ACTIVE|9536|M|45.13,63.90|Z|1454|N|Back to Ashenvale.|IZ|Orgrimmar|
