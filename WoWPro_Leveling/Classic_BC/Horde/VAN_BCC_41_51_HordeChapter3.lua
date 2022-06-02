@@ -220,14 +220,14 @@ T The Bloodsail Buccaneers|QID|599|M|27.18,77.01|Z|1434|N|To Fleet Master Seahor
 A The Bloodsail Buccaneers|QID|604|M|27.18,77.01|Z|1434|N|From Fleet Master Seahorn.|PRE|599|
 T Akiris by the Bundle|QID|617|M|26.76,76.38|Z|1434|N|To Privateer Bloads.\n[color=FF0000]NOTE: [/color]If he's not here, check at the top of the ramp. He paths up there every so often.|
 A Keep An Eye Out|QID|576|M|28.2,76.3;28.59,75.90|CC|Z|1434|N|From Dizzy One-Eye.\n[color=FF0000]NOTE: [/color]He's on the second level, in the corner just to the south of the Booty Bay Blacksmith.|PRE|595|
-C Keep An Eye Out|QID|576|M|31.24,80.69|L|3897|ITEM|3897|Z|1434|N|Bloodsail Buccaneers|S!US|
+C Keep An Eye Out|QID|576|M|31.24,80.69|L|3897|ITEM|3897|Z|1434|N|Any Bloodsail Buccaneer|S!US|
 R The Cape of Stranglethorn|ACTIVE|604|M|29.41,72.73|Z|1434|N|Head up the stairs and through the tunnel to the other side.|IZ|Booty Bay|
-C Up to Snuff|QID|587|M|31.24,80.69|Z|1434|L|3910 15|ITEM|3910|N|Bloodsail Buccaneers|S|
+C Up to Snuff|QID|587|M|31.24,80.69|Z|1434|L|3910 15|ITEM|3910|N|Any Bloodsail Buccaneer|S|
 R Wild Shore|ACTIVE|604|M|32.53,72.89|Z|1434|N|Head east down the hill towards the water.|
 K Bloodsail Swashbucklers|ACTIVE|604|M|30.24,81.14|CN|Z|1434|QO|1|N|Kill Swashbucklers in the area.|T|Bloodsail Swashbuckler|S|
-K The Bloodsail Buccaneers|ACTIVE|604|M|29.58,80.84;27.74,83.13;27.15,82.69|CS|Z|1434|QO|2;3|N|Check the two camps and the boat (3 waypoints) for the Orders and Charts.| ; Hendo72 - Using CS because CN provides no forward motion.
-K Bloodsail Swashbucklers|ACTIVE|604|M|30.24,81.14|Z|1434|QO|1|N|Finish Killing Swashbucklers in the area.|US|
-C Up to Snuff|QID|587|M|31.24,80.69|Z|1434|L|3910 15|N|Finish collecting the Snuff.|US|
+l The Bloodsail Buccaneers|ACTIVE|604|M|29.58,80.84;27.74,83.13;27.15,82.69|CS|Z|1434|QO|2;3|N|Check the two camps and the boat (3 waypoints) for the Orders and Charts.| ; Hendo72 - Using CS because CN provides no forward motion.
+K Bloodsail Swashbucklers|ACTIVE|604|M|30.24,81.14|Z|1434|QO|1|N|Finish Killing Swashbucklers in the area.|T|Bloodsail Swashbuckler|US|
+C Up to Snuff|QID|587|M|31.24,80.69|Z|1434|L|3910 15|ITEM|3910|N|Any Bloodsail Buccaneer|US|
 R Booty Bay|ACTIVE|604|M|29.34,72.83|Z|1434|
 t Keep An Eye Out|QID|576|M|28.59,75.90|Z|1434|N|To Dizzy One-Eye.|IZ|Booty Bay|
 T The Bloodsail Buccaneers|QID|604|M|27.18,77.01|Z|1434|N|To Fleet Master Seahorn.|
