@@ -196,21 +196,21 @@ R The Cape of Stranglethorn|ACTIVE|595|M|29.41,72.73|Z|1434|N|Head up the stairs
 R Southern Savage Coast|ACTIVE|595|M|27.99,70.04|Z|1434|N|Turn and head west down the hill to the bottom.|
 T The Bloodsail Buccaneers|QID|595|M|27.28,69.52|Z|1434|N|After clearing the camp of all Bloodsails, locate the Bloodsail Correspondence on the barrel and click on it.|
 A The Bloodsail Buccaneers|QID|597|M|27.28,69.52|Z|1434|N|From Bloodsail Correspondence.|PRE|595|
-C Akiris by the Bundle|QID|617|M|25.85,60.85|Z|1434|L|4029 10|ITEM|4029|N|Any Naga\n[color=FF0000]NOTE: [/color]Work your way around the island and then up the path when you get to the other side.\nThe path upwards will branch off into 2 areas. at the end of the first branch, you can either go down the hill and come back around or go up the hill to the 2nd branch and follow it back down.|
+C Akiris by the Bundle|QID|617|M|26.05,61.53|Z|1434|L|4029 10|ITEM|4029|N|Any Naga\n[color=FF0000]NOTE: [/color]Work your way around the island to the path on the west side. You can either go up the path or continue along the shoreline until you meet the path on the north side.\nIf you find this area too crowded, there is a second path just before the bridge on the north side.|
 C Scaring Shaky|QID|606|M|33.53,64.82|Z|1434|L|3919 5|ITEM|3919|N|Elder Mistvale Gorillas|S|
-C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|Z|1434|L|3862|ITEM|3562|N|Elder Mistvale Gorillas\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|S|
-l Gorilla Fang|ACTIVE|348|M|31.67,60.14|CC|Z|1434|L|2799|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|S|
-R Mistvale Valley|ACTIVE|348|M|33.19,62.69|Z|1434|N|Head west over the 2 bridges towards the road. The entrance is west of the road.|
+C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|Z|1434|L|3862|ITEM|3862|N|Elder Mistvale Gorillas\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|S|
+l Gorilla Fang|ACTIVE|348|M|31.67,60.14|Z|1434|L|2799|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|S|
+R Mistvale Valley|ACTIVE|348|M|27.19,58.97;33.19,62.69|CS|Z|1434|N|Head west over the 2 bridges towards the road. The entrance is west of the road.|
 l Gorilla Fang|ACTIVE|348|M|33.29,63.39|Z|1434|L|2799|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|US|
-R Sprit Den|ACTIVE|348|M|34.2,63.6;34.65,62.52|CC|Z|1434|N|Locate the path on the north side of Mistvale Valley.|
+R Spirit Den|ACTIVE|348|M|34.2,63.6;34.65,62.52|CC|Z|1434|N|Locate the path on the north side of Mistvale Valley.|
 C Stranglethorn Fever|QID|348|M|35.26,60.39|Z|1434|QO|1|N|When you're ready, give the Gorrilla Fang to Witch Doctor Unbagwa. He'll start 3 waves of gorilla attacks; an Enraged Silverback Gorilla, then Konda, and finally Mokk the Savage.\n[color=FF0000]NOTE: [/color]Remember to heal and recharge between waves.|
-C Stranglethorn Fever|QID|348|M|35.26,60.39|Z|1434|N|[color=CC00FF]QUEST FAILED [/color]\nGive a Gorrilla Fang to Witch Doctor Unbagwa to stat again\n[color=FF0000]NOTE: [/color]If you don't have a Gorilla Fang, you'll need to get one to start again.||FAIL|
+C Stranglethorn Fever|QID|348|M|35.26,60.39|Z|1434|N|[color=CC00FF]QUEST FAILED [/color]\nGive a Gorrilla Fang to Witch Doctor Unbagwa to stat again\n[color=FF0000]NOTE: [/color]If you don't have a Gorilla Fang, you'll need to get one to start again.|FAIL|
 C Scaring Shaky|QID|606|M|33.53,64.82|Z|1434|L|3919 5|ITEM|3919|N|Elder Mistvale Gorillas|US|
-C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|Z|1434|L|3862|ITEM|3892|N|Elder Mistvale Gorillas\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|US|
+C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|Z|1434|L|3862|ITEM|3862|N|Elder Mistvale Gorillas\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|US|
 R Booty Bay|ACTIVE|606|M|29.34,72.83|Z|1434|
 T Scaring Shaky|QID|606|M|26.89,73.59|Z|1434|N|"Shaky" Phillipe is at the bottom of the ramp as you enter Booty Bay (towards the ship from Rachet).|
 A Return to MacKinley|QID|607|M|26.89,73.59|Z|1434|N|From "Shaky" Phillipe.|PRE|606|
-T The Bloodsail Buccaneers|QID|597|M|28.10,76.22|Z|1434||N|Return to First Mate Crazz.|
+T The Bloodsail Buccaneers|QID|597|M|28.10,76.22|Z|1434|N|Return to First Mate Crazz.|
 A The Bloodsail Buccaneers|QID|599|M|28.10,76.22|Z|1434|N|From First Mate Crazz.|PRE|597|
 T Stranglethorn Fever|QID|348|M|27.61,76.73|Z|1434|N|To Fin Fitzracket.|
 T Return to MacKinley|QID|607|M|27.78,77.07|Z|1434|N|To "Sea Wolf" MacKinley.|
