@@ -201,7 +201,7 @@ DefineZone9(0009, "The Venture Co. Mine", UIMapType.Micro, 0007, nil)
 DefineZone9(0010, "Northern Barrens", UIMapType.Zone, 0012, nil, 0011, 0092, 0279, 0825, 0859, 1339)
 DefineZone9(0011, "Wailing Caverns", UIMapType.Micro, 0010, nil)
 DefineZone9(0012, "Kalimdor", UIMapType.Continent, 0947, nil, 0001, 0007, 0010, 0062, 0063, 0064, 0065, 0066, 0069, 0070, 0071, 0076, 0077, 0078, 0080, 0081, 0083, 0085, 0088, 0097, 0103, 0106, 0198, 0199, 0249, 0327, 0524, 0775, 0776, 0782, 0785, 0891, 0907, 1203, 1332, 1333, 1338, 1469, 1527, 1534, 1535)
-DefineZone9(0013, "Eastern Kingdoms", UIMapType.Continent, 0947, nil, 0014, 0015, 0017, 0018, 0021, 0022, 0023, 0025, 0026, 0027, 0032, 0036, 0037, 0042, 0047, 0048, 0049, 0051, 0052, 0056, 0084, 0087, 0094, 0095, 0110, 0122, 0179, 0203, 0217, 0224, 0241, 0244, 0245, 0501, 0502, 0773, 0783, 0784, 0906, 0908, 0943, 1012, 1013, 1044, 1470, 1476, 1577)
+DefineZone9(0013, "Eastern Kingdoms", UIMapType.Continent, 0947, nil, 0014, 0015, 0017, 0018, 0021, 0022, 0023, 0025, 0026, 0027, 0032, 0036, 0037, 0042, 0047, 0048, 0049, 0051, 0052, 0056, 0084, 0087, 0090, 0094, 0095, 0110, 0122, 0179, 0203, 0217, 0224, 0241, 0244, 0245, 0501, 0502, 0773, 0783, 0784, 0906, 0908, 0943, 1012, 1013, 1044, 1470, 1476, 1577, 2070)
 DefineZone9(0014, "Arathi Highlands!Eastern Kingdoms", UIMapType.Zone, 0013, nil, 0093, 0837, 0844, 1383)
 DefineZone9(0015, "Badlands", UIMapType.Zone, 0013, nil, 0016, 0230, 0231)
 DefineZone9(0016, "Uldaman", UIMapType.Micro, 0015, nil)
@@ -1352,7 +1352,7 @@ DefineZone9(1493, "Waste Pipes@Mechagon!Dungeon", UIMapType.Dungeon, 0876, 399)
 DefineZone9(1494, "The Under Junk@Mechagon!Dungeon", UIMapType.Dungeon, 0876, 399)
 DefineZone9(1497, "Mechagon City@Mechagon!Dungeon", UIMapType.Dungeon, 0876, 399)
 DefineZone9(1499, "Zin-Azshari", UIMapType.Micro, 1355, nil)
-DefineZone9(1500, "", UIMapType.Micro, 1355, nil) -- Collided {[1524]=true,[1829]=true,count=3,[1500]=true}
+DefineZone9(1500, "", UIMapType.Micro, 1355, nil) -- Collided {[1500]=true,[1829]=true,count=3,[1524]=true}
 DefineZone9(1501, "Crestfall!Instance", UIMapType.Orphan, 0876, nil)
 DefineZone9(1502, "Snowblossom Village!Instance", UIMapType.Orphan, 0424, nil)
 DefineZone9(1504, "Nazjatar#1504", UIMapType.Continent, 0000, nil)
@@ -1369,7 +1369,7 @@ DefineZone9(1520, "The Last Prison@The Eternal Palace!Dungeon", UIMapType.Dungeo
 DefineZone9(1521, "Karazhan Catacombs#1521!Instance", UIMapType.Orphan, 0000, nil)
 DefineZone9(1522, "Crumbling Cavern", UIMapType.Micro, 1462, nil)
 DefineZone9(1523, "Solesa Naksu [DNT]#1523", UIMapType.Zone, 0000, nil)
-DefineZone9(1524, "", UIMapType.Micro, 1355, nil) -- Collided {[1524]=true,[1829]=true,count=3,[1500]=true}
+DefineZone9(1524, "", UIMapType.Micro, 1355, nil) -- Collided {[1500]=true,[1829]=true,count=3,[1524]=true}
 DefineZone9(1525, "Revendreth", UIMapType.Zone, 1550, nil, 1644, 1663, 1664, 1665, 1675, 1676, 1699, 1700, 1735, 1744, 1745, 1746, 1747, 1748, 1750, 1755)
 DefineZone9(1527, "Uldum", UIMapType.Zone, 0012, nil) -- Collided {[1527]=true,[249]=true,count=2}
 DefineZone9(1528, "Nazjatar!Instance", UIMapType.Orphan, 0947, nil)
@@ -1386,7 +1386,7 @@ DefineZone9(1539, "Vault of the Shadowflame@Blackwing Descent!Dungeon1539", UIMa
 DefineZone9(1540, "The Vault of Lights@Halls of Origination!Dungeon1540", UIMapType.Dungeon, 0249, 402)
 DefineZone9(1541, "Tomb of the Earthrager@Halls of Origination!Dungeon1541", UIMapType.Dungeon, 0249, 402)
 DefineZone9(1542, "The Four Seats@Halls of Origination!Dungeon1542", UIMapType.Dungeon, 0249, 402)
-DefineZone9(1543, "The Maw", UIMapType.Zone, 1550, nil, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1623, 1624, 1627, 1628, 1629, 1630, 1631, 1632, 1635, 1636, 1641, 1712, 1716, 1720, 1721, 1736, 1749, 1751, 1752, 1753, 1754, 1756, 1757, 1758, 1759, 1760, 1761, 1763, 1764, 1765, 1766, 1767, 1768, 1769, 1770, 1771, 1772, 1773, 1774, 1776, 1777, 1778, 1779, 1780, 1781, 1782, 1783, 1784, 1785, 1786, 1787, 1788, 1789, 1791, 1792, 1793, 1794, 1795, 1796, 1797, 1798, 1799, 1800, 1801, 1802, 1803, 1804, 1805, 1806, 1807, 1808, 1809, 1810, 1811, 1812, 1820, 1821, 1822, 1823, 1833, 1834, 1835, 1836, 1837, 1838, 1839, 1840, 1841, 1842, 1843, 1844, 1845, 1846, 1847, 1848, 1849, 1850, 1851, 1852, 1853, 1854, 1855, 1856, 1857, 1858, 1859, 1860, 1861, 1862, 1863, 1864, 1865, 1867, 1868, 1869, 1870, 1871, 1872, 1873, 1874, 1875, 1876, 1877, 1878, 1879, 1880, 1881, 1882, 1883, 1884, 1885, 1886, 1887, 1888, 1889, 1890, 1891, 1892, 1893, 1894, 1895, 1896, 1897, 1898, 1899, 1900, 1901, 1902, 1903, 1904, 1905, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1920, 1921, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1974, 1975, 1976, 1977, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2009, 2010, 2011, 2012, 2019) -- Collided {[1960]=true,count=2}
+DefineZone9(1543, "The Maw", UIMapType.Zone, 1550, nil, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1623, 1624, 1627, 1628, 1629, 1630, 1631, 1632, 1635, 1636, 1641, 1712, 1716, 1720, 1721, 1736, 1749, 1751, 1752, 1753, 1754, 1756, 1757, 1758, 1759, 1760, 1761, 1763, 1764, 1765, 1766, 1767, 1768, 1769, 1770, 1771, 1772, 1773, 1774, 1776, 1777, 1778, 1779, 1780, 1781, 1782, 1783, 1784, 1785, 1786, 1787, 1788, 1789, 1791, 1792, 1793, 1794, 1795, 1796, 1797, 1798, 1799, 1800, 1801, 1802, 1803, 1804, 1805, 1806, 1807, 1808, 1809, 1810, 1811, 1812, 1820, 1821, 1822, 1823, 1833, 1834, 1835, 1836, 1837, 1838, 1839, 1840, 1841, 1842, 1843, 1844, 1845, 1846, 1847, 1848, 1849, 1850, 1851, 1852, 1853, 1854, 1855, 1856, 1857, 1858, 1859, 1860, 1861, 1862, 1863, 1864, 1865, 1867, 1868, 1869, 1870, 1871, 1872, 1873, 1874, 1875, 1876, 1877, 1878, 1879, 1880, 1881, 1882, 1883, 1884, 1885, 1886, 1887, 1888, 1889, 1890, 1891, 1892, 1893, 1894, 1895, 1896, 1897, 1898, 1899, 1900, 1901, 1902, 1903, 1904, 1905, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1920, 1921, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1974, 1975, 1976, 1977, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2009, 2010, 2011, 2012, 2019) -- Collided {[1543]=true,count=2,[1960]=true}
 DefineZone9(1544, "The Crimson Assembly Hall@Mogu'shan Palace!Dungeon1544", UIMapType.Dungeon, 0390, 403)
 DefineZone9(1545, "Vaults of Kings Past@Mogu'shan Palace!Dungeon1545", UIMapType.Dungeon, 0390, 403)
 DefineZone9(1546, "Throne of Ancient Conquerors@Mogu'shan Palace!Dungeon1546", UIMapType.Dungeon, 0390, 403)
@@ -1700,7 +1700,7 @@ DefineZone9(1922, "Draenor#1922", UIMapType.Continent, 0000, nil)
 DefineZone9(1923, "Pandaria#1923", UIMapType.Continent, 0000, nil)
 DefineZone9(1958, "Firelands!Dungeon1958", UIMapType.Dungeon, 0198, 422)
 DefineZone9(1959, "Sulfuron Keep@Firelands!Dungeon1959", UIMapType.Dungeon, 0198, 422)
-DefineZone9(1960, "The Maw", UIMapType.Zone, 1550, nil) -- Collided {[1960]=true,count=2}
+DefineZone9(1960, "The Maw", UIMapType.Zone, 1550, nil) -- Collided {[1543]=true,count=2,[1960]=true}
 DefineZone9(1961, "Korthia", UIMapType.Zone, 1543, nil, 2006, 2007, 2008)
 DefineZone9(1962, "Torghast!Instance1962", UIMapType.Orphan, 1543, nil)
 DefineZone9(1963, "Torghast!Instance1963", UIMapType.Orphan, 1543, nil)
@@ -1759,14 +1759,15 @@ DefineZone9(2029, "Gravid Repose", UIMapType.Micro, 1970, nil)
 DefineZone9(2030, "Nexus of Actualization", UIMapType.Micro, 1970, nil)
 DefineZone9(2031, "Crypts of the Eternal", UIMapType.Micro, 1970, nil)
 DefineZone9(2042, "The Crucible!Dungeon", UIMapType.Dungeon, 1670, nil)
-DefineZone9(2046, "Zereth Mortis#2046", UIMapType.Continent, 0000, nil)
+DefineZone9(2046, "Zereth Mortis#2046", UIMapType.Continent, 0000, nil, 2059)
 DefineZone9(2047, "Immortal Hearth@Sepulcher of the First Ones!Dungeon", UIMapType.Dungeon, 1970, 427)
 DefineZone9(2048, "Genesis Cradle@Sepulcher of the First Ones!Dungeon", UIMapType.Dungeon, 1970, 427)
 DefineZone9(2049, "The Endless Foundry@Sepulcher of the First Ones!Dungeon", UIMapType.Dungeon, 1970, 427)
 DefineZone9(2050, "Domination's Grasp@Sepulcher of the First Ones!Dungeon", UIMapType.Dungeon, 1970, 427)
 DefineZone9(2051, "Heart of Eternity@Sepulcher of the First Ones!Dungeon", UIMapType.Dungeon, 1970, 427)
 DefineZone9(2052, "The Grand Design@Sepulcher of the First Ones!Dungeon", UIMapType.Dungeon, 1970, 427)
+DefineZone9(2055, "Sepulcher of the First Ones#2055", UIMapType.Continent, 0000, nil)
 DefineZone9(2059, "Resonant Peaks", UIMapType.Continent, 2046, nil)
 DefineZone9(2061, "Ephemeral Plains@Sepulcher of the First Ones!Dungeon", UIMapType.Dungeon, 1970, 427)
-DefineZone9(2055, "Sepulcher of the First Ones#2055", UIMapType.Continent, 0000, nil)
 DefineZone9(2066, "Catalyst Wards", UIMapType.Micro, 1970, nil)
+DefineZone9(2070, "Tirisfal Glades", UIMapType.Zone, 0013, nil) -- Collided {[18]=true,[2070]=true,count=2}
