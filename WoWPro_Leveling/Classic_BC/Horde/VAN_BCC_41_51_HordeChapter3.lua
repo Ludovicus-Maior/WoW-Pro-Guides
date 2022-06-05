@@ -261,25 +261,23 @@ R South|ACTIVE|197|M|43.4,29.8;38.7,40.7|CC|Z|1434|N|Head back to the main road 
 K Tethis|ACTIVE|197|M|28,43;31,40;31,43|CN|Z|1434|L|3877|ITEM|3877|N|Tethis\nSpawns at multiple points in the area to the north of Gurubashi Arena.|T|Tethis|
 R Venture Co. Base Camp|ACTIVE|193|M|44.82,25.69|Z|1434|N|Head back to the main road and follow it north.|
 K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|CS|Z|1434|L|3876|ITEM|3876|N|Bhag'thera\nYou'll find Bhag'thera in one of 3 locations.|T|Bhag'thera|
-L Level Check|ACTIVE|586|N|Grind out on the mobs in the area until you're halfway to level 44.|LVL|43;-14000|
+L Level Check|ACTIVE|193^197|N|Grind out on the mobs in the area until you're halfway to level 44.|LVL|43;-14000|
 R Nesingwary's Expedition|ACTIVE|193^197|M|35.65,10.66|Z|1434|
 T Panther Mastery|QID|193|M|35.56,10.54|Z|1434|N|To S.J. Erlgadin.|
 T Raptor Mastery|QID|197|M|35.66,10.81|Z|1434|N|To Hemet Nesingwary Jr.|
-A Big Game Hunter|QID|208|M|35.66,10.81|Z|1434|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Hemet Nesingwary Jr.\n[color=FF0000]NOTE: [/color]This quest requires that you head back down to Gurubashi Arena and return here to turn it in.\nThis quest is the only reason to come back to this area.\nSkip this quest if you're not interested.|PRE|188&193&197|RANK|3|
-R Grom'gol Base Camp|ACTIVE|208^584|M|32.16,28.76|Z|1434|
+A Big Game Hunter.|QID|208|M|35.66,10.81|Z|1434|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Hemet Nesingwary Jr.\n[color=FF0000]NOTE: [/color]This quest requires that you head back down to Gurubashi Arena and return here to turn it in.\nThis quest is the only reason to come back to this area.\nSkip this quest if you're not interested.|PRE|188&193&197|RANK|3| ; Auto-accept intentionally broken - Hendo72
+R Grom'gol Base Camp|ACTIVE|584|M|32.16,28.76|Z|1434|
 T Bloodscalp Clan Heads|QID|584|M|32.22,27.60|Z|1434|N|Click on the Bubbling Cauldron next to Nimboya.|
 A Speaking with Nezzliok|QID|585|M|32.22,27.60|Z|1434|N|From the Bubbling Cauldron.|PRE|584|
 A Speaking with Gan'zulah|QID|586|M|32.22,27.60|Z|1434|N|From the Bubbling Cauldron.|PRE|584|
 A Split Bone Necklace|QID|598|M|32.28,27.71|Z|1434|N|From Kin'weelay.|PRE|596|
-r Sell, repair, restock|ACTIVE|585^586|M|32.36,27.95|Z|1434|N|At Vharr.|
-b Durotar|ACTIVE|585^586^598|M|31.37,30.15|Z|1434|N|Take the Zeppelin to Durotar.|C|-Druid|
-R Orgrimmar|ACTIVE|585^586^598|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|C|-Druid|
-P Moonglade|ACTIVE|585^586^598|N|Use your Teleport: Moonglade to portal to Moonglade to do your training.|C|Druid|
-= Level 44 Training|ACTIVE|585^586^598|N|Do your level 44 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-H The Salty Sailor Tavern|ACTIVE|585^209^598|M|29.52,72.53|Z|1434|N|If your hearthstone is on cooldown, do it the long way.|
-F Grom'gol|ACTIVE|585^209^598|M|26.87,77.09|Z|1434|
-R Southern Savage Coast|ACTIVE|208|M|32.62,35.53|Z|1434|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
-K King Bangalash|ACTIVE|208|M|38.20,35.40|Z|1434|QO|1|N|Head up to the plateau and clear the area before starting because he will pull surrounding tigers to help.\n[color=FF0000]NOTE: [/color]At 50% damage, he will summon two panthers to help him. Ignore them and stay focused on Bangalash; the quest ends when he dies.\nIf you can stun him before he reaches 50% and quickly burn him below 50%, he won't summon the panthers.|T|King Bangalash|
+b Durotar|ACTIVE|598|M|31.37,30.15|Z|1434|N|Take the Zeppelin to Durotar.|C|-Druid|
+R Orgrimmar|ACTIVE|598|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|C|-Druid|
+P Moonglade|ACTIVE|598|N|Use your Teleport: Moonglade to portal to Moonglade to do your training.|C|Druid|
+= Level 44 Training|ACTIVE|598|N|Do your level 44 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+H The Salty Sailor Tavern|ACTIVE|598|M|29.52,72.53|Z|1434|N|If your hearthstone is on cooldown, take the boat from Ratchet.|
+F Grom'gol|ACTIVE|598|M|26.87,77.09|Z|1434|IZ|Booty Bay|
+K King Bangalash|ACTIVE|208|M|38.20,35.40|Z|1434|L|3880|ITEM|3880|N|King Bangalash\nExit Grom'gol Base to the south side and swim across to the opposite shore.\nHead up to the plateau and clear the area before starting because he will pull surrounding tigers to help.\n[color=FF0000]NOTE: [/color]At 50% damage, he will summon two panthers to help him. Ignore them and stay focused on Bangalash; the quest ends when he dies.\nIf you can stun him before he reaches 50% and quickly burn him below 50%, he won't summon the panthers.|T|King Bangalash|
 R Balia'mah Ruins|ACTIVE|585^209^598|M|44.81,31.10|Z|1434|N|Heading east from Grom'gol, cross the river and continue to the other side of the main road.|
 C Skullsplitter Tusks|QID|209|M|46.51,39.22|Z|1434|L|1524 18|ITEM|1524|N|Any Skullsplitter|S|
 C Split Bone Necklace|QID|598|M|46.51,39.22|Z|1434|L|3916 25|ITEM|3916|N|Any Skullsplitter|S|
