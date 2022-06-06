@@ -881,7 +881,7 @@ end
 
 function WoWPro.SelectItemToUse(use, debug)
     if not use:find("^", 1, true)  then
-        WoWPro:dbp("SelectItemToUse(%q): single, %q", use, _G.GetItemInfo(use))
+        WoWPro:dbp("SelectItemToUse(%q): single, %q", use, _G.GetItemInfo(use) or "NIL")
         return _G.GetItemInfo(use), use
     end
     local value = QidMapReduce(use,false,"^","|",function (item) return (_G.GetItemCount(item) > 0) and item end, "SelectItemToUse", true or quids_debug)
