@@ -786,16 +786,21 @@ A Return to Krog|QID|11204|M|54.01,80.74|Z|1456|N|From Mosarn.|PRE|1276|
 = Level 40|ACTIVE|11240|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|-Warlock,-Paladin,-Rogue|
 F Brackenwall Village|ACTIVE|11204|M|47.02,49.83|Z|1456|
 T Return to Krog|QID|11204|M|36.42,31.89|Z|1445|N|To Krog.|
+N Summon Felsteed|AVAILABLE|3631&4490|N|If you don't want an easy 880 exp, skip the next step.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+F Orgrimmar|ACTIVE|1270|AVAILABLE|3631&4490|M|35.59,31.80|Z|1445|N|[color=FF0000]NOTE: [/color]Skip this step if you don't want to make the side trip for the extra exp.|C|Warlock|
+A Summon Felsteed|QID|3631|ACTIVE|1270|M|48.46,45.44|Z|1454|N|From Zevrost.\n[color=FF0000]NOTE: [/color]Don't bother with your training; you'll do that in Ratchet.|IZ|1454| ; this step should not appear if they skipped the flight step - Hendo72
 F Ratchet|ACTIVE|1270|M|35.59,31.80|Z|1445|
 T Stinky's Escape|QID|1270|M|62.37,37.62|Z|1413|N|To Mebok Mizzyrix.|
-T Returning the Cleansed Orb|QID|4976|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
-A The Completed Orb of Dar'Orahil|QID|4964|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4976&4962|
-A The Completed Orb of Noh'Orahil|QID|4975|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4976&4963|
-C The Completed Orb of Dar'Orahil|QID|4964|M|62.51,35.45|Z|1413|QO|1|N|Just stand there and wait.|
-C The Completed Orb of Noh'Orahil|QID|4975|M|62.51,35.45|Z|1413|QO|1|N|Just stand there and wait.|
-T The Completed Orb of Dar'Orahil|QID|4964|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|
-T The Completed Orb of Noh'Orahil|QID|4975|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|
-
+T Returning the Cleansed Orb|QID|4976|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|C|Warlock|
+A The Completed Orb of Dar'Orahil|QID|4964|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4976&4962|C|Warlock|
+A The Completed Orb of Noh'Orahil|QID|4975|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4976&4963|C|Warlock|
+C The Completed Orb of Dar'Orahil|QID|4964|M|62.51,35.45|Z|1413|QO|1|N|Just stand there and wait.|C|Warlock|
+C The Completed Orb of Noh'Orahil|QID|4975|M|62.51,35.45|Z|1413|QO|1|N|Just stand there and wait.|C|Warlock|
+T The Completed Orb of Dar'Orahil|QID|4964|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|C|Warlock|
+T The Completed Orb of Noh'Orahil|QID|4975|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|C|Warlock|
+T Summon Felsteed|ACTIVE|3631|M|62.63,35.50|Z|1413|N|To Strahad Farsan.|C|Warlock|
+A Summon Felsteed|QID|4490|M|62.63,35.50|Z|1413|N|From Strahad Farsan.|PRE|3631|C|Warlock|
+T Summon Felsteed|QID|4490|M|62.63,35.50|Z|1413|N|To Strahad Farsan.|C|Warlock|
 = Level 40|ACTIVE|-1270|AVAILABLE|1418|M|62.43,35.46|Z|1413|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|Warlock|
 b Booty Bay|ACTIVE|-1270|AVAILABLE|1418|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|C|-Paladin,-Rogue|
 F Grom'gol|ACTIVE|-1270|AVAILABLE|1418|M|26.87,77.09|Z|1434|C|-Paladin,-Rogue|

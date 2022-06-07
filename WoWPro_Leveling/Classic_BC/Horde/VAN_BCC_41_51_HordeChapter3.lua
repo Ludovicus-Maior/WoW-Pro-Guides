@@ -224,26 +224,27 @@ C Keep An Eye Out|QID|576|M|31.24,80.69|L|3897|ITEM|3897|Z|1434|N|Any Bloodsail 
 R The Cape of Stranglethorn|ACTIVE|604|M|29.41,72.73|Z|1434|N|Head up the stairs and through the tunnel to the other side.|IZ|Booty Bay|
 C Up to Snuff|QID|587|M|31.24,80.69|Z|1434|L|3910 15|ITEM|3910|N|Any Bloodsail Buccaneer|S|
 R Wild Shore|ACTIVE|604|M|32.53,72.89|Z|1434|N|Head east down the hill towards the water.|
-K Bloodsail Swashbucklers|ACTIVE|604|M|30.24,81.14|CN|Z|1434|QO|1|N|Kill Swashbucklers in the area.|T|Bloodsail Swashbuckler|S|
+K Bloodsail Swashbucklers|ACTIVE|604|M|30.24,81.14|CC|Z|1434|QO|1|N|Kill Swashbucklers in the area.|T|Bloodsail Swashbuckler|S|
 l The Bloodsail Buccaneers|ACTIVE|604|M|29.58,80.84;27.74,83.13;27.15,82.69|CS|Z|1434|QO|2;3|N|Check the two camps and the boat (3 waypoints) for the Orders and Charts.| ; Hendo72 - Using CS because CN provides no forward motion.
 K Bloodsail Swashbucklers|ACTIVE|604|M|30.24,81.14|Z|1434|QO|1|N|Finish Killing Swashbucklers in the area.|T|Bloodsail Swashbuckler|US|
 C Up to Snuff|QID|587|M|31.24,80.69|Z|1434|L|3910 15|ITEM|3910|N|Any Bloodsail Buccaneer|US|
 R Booty Bay|ACTIVE|604|M|29.34,72.83|Z|1434|
 t Keep An Eye Out|QID|576|M|28.59,75.90|Z|1434|N|To Dizzy One-Eye.|IZ|Booty Bay|
-T The Bloodsail Buccaneers|QID|604|M|27.18,77.01|Z|1434|N|To Fleet Master Seahorn.|
-A The Bloodsail Buccaneers.|QID|608|M|27.18,77.01|Z|1434|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Fleet Master Seahorn.\n[color=FF0000]NOTE: [/color]Manually Accept or Decline this step to continue.|PRE|604| ; -- Breaking Auto-accept - Hendo72
+N Bank|ACTIVE|571|M|26.56,76.50|Z|1434|N|Make sure you grab any items that you put away when you left the area earlier.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
+N Auctioneer O'reely|AVAILABLE|339^340^341^342|M|26.59,76.35|Z|1434|N|Check the auction house for any Stranglethorn pages you're missing while you're here.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
 T Up to Snuff|QID|587|M|26.92,77.35|Z|1434|N|To Deeg.|
 A Skullsplitter Tusks|QID|209|M|27.00,77.13|Z|1434|N|From Kebok.|PRE|189|
-N Bank|ACTIVE|617|M|26.56,76.50|Z|1434|N|Make sure you grab any items that you put away when you left the area earlier.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
-N Auctioneer O'reely|AVAILABLE|339^340^341^342|M|26.59,76.35|Z|1434|N|Check the auction house for any Stranglethorn pages you're missing while you're here.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
+T The Bloodsail Buccaneers|QID|604|M|27.18,77.01|Z|1434|N|To Fleet Master Seahorn.|
+A The Bloodsail Buccaneers.|QID|608|M|27.18,77.01|Z|1434|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Fleet Master Seahorn.\n[color=FF0000]NOTE: [/color]Manually Accept or Decline this step to continue.|PRE|604| ; -- Breaking Auto-accept - Hendo72
 F Grom'gol|ACTIVE|571|M|26.87,77.10|Z|1434|
 T Mok'thardin's Enchantment|QID|571|M|32.12,29.24|Z|1434|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|573|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|PRE|571|
 R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|CC|Z|1434|N|Make your way to the Bal'lal Ruins.|
-R Ruins of Zul'Kunda|ACTIVE|584|M|30.03,13.07;27.93,11.33|CC|Z|1434|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by climbing the hill on the left side and coming down between the wall and the building.|
-K Nezzliok|ACTIVE|584|M|23.26,9.77|Z|1434|QO|2|N|Work your way through the center of the Ruins to the ramp on the other side.\nSticking to the tall wall, clear the mobs as you walk up the ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.|
-K Gan'zulah|ACTIVE|584|M|23.26,8.72|QO|1|N|Using the same process as you did with Nezzliok, pull the mobs closest to the wall until Gan'zulah is alone or joins the fight.|
-R Nesingwary's Expedition|ACTIVE|584^196^338|M|34.91,11.00|Z|1434|N|Work your way out of the Ruins the same way you came in. You can avoid some of the fight by dropping down to the lower ledge of the wall and walking around to where the bottom of the ramp is.\n Once you're out of the Ruins, make your way to the Nesingwary's Expedition.|
+R Ruins of Zul'Kunda|ACTIVE|584|M|30.03,13.07;27.47,10.40|CC|Z|1434|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by using the hills and walls.|
+R Easiest route|ACTIVE|584|M|26.35,8.09;24.88,7.95;24.88,7.95|CS|Z|1434|QO|1;2|N|If you follow the hills along the wall on the right side, you can drop onto the wall in the corner (this make take a couple tries). There is a ledge along the north wall you can walk along to where the waterfall is.\n[color=FF0000]NOTE: [/color]If you fall off the ledge or the waterfall, there is no way back up.|
+K Gan'zulah|ACTIVE|584|M|23.26,8.72|Z|1434|L|3904|ITEM|3904|N|Gan'zulah\nStanding on the wall, start pulling the mobs closest to you until Gan'zulah is alone, or joins the fight.|
+K Nezzliok|ACTIVE|584|M|23.26,9.77|Z|1434|L|3905|ITEM|3905|N|Nezzliok\nTurning south, begin pulling the mobs around him until he is the only one left or he joins the fight.|
+R Nesingwary's Expedition|ACTIVE|584^196^338|M|34.91,11.00|Z|1434|N|Work your way out of the Ruins the same way you came in.\nOnce you're out of the Ruins, make your way to the Nesingwary's Expedition.|
 A The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|1434|N|From Barnil Stonepot.|PRE|583| ; In case it's not picked up yet - Hendo72
 A Chapter I|QID|339|M|35.66,10.53|Z|1434|N|From Barnil Stonepot.|
 T Chapter I|QID|339|M|35.66,10.53|Z|1434|N|Takes pages 1, 4, 6, and 8. To Barnil Stonepot.|
@@ -259,26 +260,24 @@ A Raptor Mastery|QID|197|M|35.66,10.81|Z|1434|N|From Hemet Nesingwary.|PRE|196|
 R South|ACTIVE|197|M|43.4,29.8;38.7,40.7|CC|Z|1434|N|Head back to the main road and follow it south towards Gurubashi Arena.|
 K Tethis|ACTIVE|197|M|28,43;31,40;31,43|CN|Z|1434|L|3877|ITEM|3877|N|Tethis\nSpawns at multiple points in the area to the north of Gurubashi Arena.|T|Tethis|
 R Venture Co. Base Camp|ACTIVE|193|M|44.82,25.69|Z|1434|N|Head back to the main road and follow it north.|
-K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|CN|Z|1434|L|3876|ITEM|3876|N|Bhag'thera\nYou'll find Bhag'thera in one of 3 locations.|T|Bhag'thera|
-L Level Check|ACTIVE|586|N|Grind out on the mobs in the area until you're halfway to level 44.|LVL|43;-14000|
+K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|CS|Z|1434|L|3876|ITEM|3876|N|Bhag'thera\nYou'll find Bhag'thera in one of 3 locations.|T|Bhag'thera|
+L Level Check|ACTIVE|193^197|N|Grind out on the mobs in the area until you're halfway to level 44.|LVL|43;-14000|
 R Nesingwary's Expedition|ACTIVE|193^197|M|35.65,10.66|Z|1434|
 T Panther Mastery|QID|193|M|35.56,10.54|Z|1434|N|To S.J. Erlgadin.|
 T Raptor Mastery|QID|197|M|35.66,10.81|Z|1434|N|To Hemet Nesingwary Jr.|
-A Big Game Hunter|QID|208|M|35.66,10.81|Z|1434|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Hemet Nesingwary Jr.\n[color=FF0000]NOTE: [/color]This quest requires that you head back down to Gurubashi Arena and return here to turn it in.\nThis quest is the only reason to come back to this area.\nSkip this quest if you're not interested.|PRE|188&193&197|RANK|3|
-R Grom'gol Base Camp|ACTIVE|208^584|M|32.16,28.76|Z|1434|
-T Bloodscalp Clan Heads|QID|584|M|32.27,27.60|Z|1434|N|Click on the Bubbling Cauldron next to Nimboya.|
+A Big Game Hunter.|QID|208|M|35.66,10.81|Z|1434|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Hemet Nesingwary Jr.\n[color=FF0000]NOTE: [/color]This quest requires that you head back down to Gurubashi Arena and return here to turn it in.\nThis quest is the only reason to come back to this area.\nSkip this quest if you're not interested.|PRE|188&193&197|RANK|3| ; Auto-accept intentionally broken - Hendo72
+R Grom'gol Base Camp|ACTIVE|584|M|32.16,28.76|Z|1434|
+T Bloodscalp Clan Heads|QID|584|M|32.22,27.60|Z|1434|N|Click on the Bubbling Cauldron next to Nimboya.|
 A Speaking with Nezzliok|QID|585|M|32.22,27.60|Z|1434|N|From the Bubbling Cauldron.|PRE|584|
 A Speaking with Gan'zulah|QID|586|M|32.22,27.60|Z|1434|N|From the Bubbling Cauldron.|PRE|584|
 A Split Bone Necklace|QID|598|M|32.28,27.71|Z|1434|N|From Kin'weelay.|PRE|596|
-r Sell, repair, restock|ACTIVE|585^586|M|32.36,27.95|Z|1434|N|At Vharr.|
-b Durotar|ACTIVE|585^586^598|M|31.37,30.15|Z|1434|N|Take the Zeppelin to Durotar.|C|-Druid|
-R Orgrimmar|ACTIVE|585^586^598|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|C|-Druid|
-P Moonglade|ACTIVE|585^586^598|N|Use your Teleport: Moonglade to portal to Moonglade to do your training.|C|Druid|
-= Level 44 Training|ACTIVE|585^586^598|N|Do your level 44 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-H The Salty Sailor Tavern|ACTIVE|585^209^598|M|29.52,72.53|Z|1434|N|If your hearthstone is on cooldown, do it the long way.|
-F Grom'gol|ACTIVE|585^209^598|M|26.87,77.09|Z|1434|
-R Southern Savage Coast|ACTIVE|208|M|32.62,35.53|Z|1434|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
-K King Bangalash|ACTIVE|208|M|38.20,35.40|Z|1434|QO|1|N|Head up to the plateau and clear the area before starting because he will pull surrounding tigers to help.\n[color=FF0000]NOTE: [/color]At 50% damage, he will summon two panthers to help him. Ignore them and stay focused on Bangalash; the quest ends when he dies.\nIf you can stun him before he reaches 50% and quickly burn him below 50%, he won't summon the panthers.|T|King Bangalash|
+b Durotar|ACTIVE|598|M|31.37,30.15|Z|1434|N|Take the Zeppelin to Durotar.|C|-Druid|
+R Orgrimmar|ACTIVE|598|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|C|-Druid|
+P Moonglade|ACTIVE|598|N|Use your Teleport: Moonglade to portal to Moonglade to do your training.|C|Druid|
+= Level 44 Training|ACTIVE|598|N|Do your level 44 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+H The Salty Sailor Tavern|ACTIVE|598|M|29.52,72.53|Z|1434|N|If your hearthstone is on cooldown, take the boat from Ratchet.|
+F Grom'gol|ACTIVE|598|M|26.87,77.09|Z|1434|IZ|Booty Bay|
+K King Bangalash|ACTIVE|208|M|38.20,35.40|Z|1434|L|3880|ITEM|3880|N|King Bangalash\nExit Grom'gol Base to the south side and swim across to the opposite shore.\nHead up to the plateau and clear the area before starting because he will pull surrounding tigers to help.\n[color=FF0000]NOTE: [/color]At 50% damage, he will summon two panthers to help him. Ignore them and stay focused on Bangalash; the quest ends when he dies.\nIf you can stun him before he reaches 50% and quickly burn him below 50%, he won't summon the panthers.|T|King Bangalash|
 R Balia'mah Ruins|ACTIVE|585^209^598|M|44.81,31.10|Z|1434|N|Heading east from Grom'gol, cross the river and continue to the other side of the main road.|
 C Skullsplitter Tusks|QID|209|M|46.51,39.22|Z|1434|L|1524 18|ITEM|1524|N|Any Skullsplitter|S|
 C Split Bone Necklace|QID|598|M|46.51,39.22|Z|1434|L|3916 25|ITEM|3916|N|Any Skullsplitter|S|
