@@ -311,6 +311,7 @@ F Haven|ACTIVE|64806|M|61.52,50.45|Z|1970;Zereth Mortis|N|Head to the flightmast
 R Geometric Cavern|ACTIVE|64806|M|33.04,69.62|Z|1970;Zereth Mortis|N|Make your way to the Geometric Cavern.|
 P Ring of Transference|ACTIVE|64806|M|33.00,69.71|Z|1970;Zereth Mortis|N|Take the portal to Ring of Transference.|
 F Aspirant's Rest|ACTIVE|64806|M|60.24,67.83|Z|1671;Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Aspirant's Rest.|
+R Chamber of First Reflection|ACTIVE|64806|M|55.80,86.43|Z|1533|N|Make your way to the entrance to the Chamber of the First Reflection.|
 T Where the Memory Resides|QID|64806|M|59.22,88.17|Z|1533|N|To Highlord Bolvar Fordragon.|
 A What We Wish to Forget|QID|64807|PRE|64806|M|59.22,88.17|Z|1533|N|From Highlord Bolvar Fordragon.|
 C What We Wish to Forget|QID|64807|M|58.94,88.15|Z|1533|QO|1|NC|N|Activate First Shard.|
