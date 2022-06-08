@@ -1,3 +1,35 @@
+# Release 9.2.5-A0 / 1.14.3-A1 / 2.5.4-A2
+## Bug Fixes
+* Make AutoCompleteQuestUpdate() and `QUEST_TURNED_IN` obey NOCACHE
+* Cagomei: Update Zone Data for 9.2.5
+* Update Interface for retail to 90205
+* Permit ^ in a U tag
+* Schoos: Protoform Synthesis/2819 is missing.
+
+## Guide Updates
+
+### Retail Leveling
+* Alliance: Nothing
+* Horde: Twilight Highlands, Or/Troll Intro part 2
+* Neutral: Azsuna, Highmountain, Shaman Order Hall, Valsharah, Ardenweald, Bastion, Maldraxxus, Revendreth, Zereth Mortis
+### Retail Achievements
+* Return to Lordaeron (Both factions)
+### Retail Dailies
+* Horde: Dominace Offensive
+* Neutral: Shadow Pan, Tannan Jungle
+
+### Classic Leveling
+* Nothing
+### Classic Professions
+* Nothing
+
+### Burning Crusade Classic Leveling
+* Alliance: Terokkar Forest, Alliance 25-30
+* Horde: Terokkar Forest, Horde Chapter 1/2/3
+### Burning Crusade Classic Professions
+* Nothing
+
+
 # Release 9.2.0-A5 / 1.14.3-A0 / 2.5.4-A1
 ## Bug Fixes
 * elidion: Added test for Shadowland Flying
