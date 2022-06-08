@@ -37,7 +37,7 @@ return [[
 
 
 ;TOF
-A Bastion|QID|62275|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+A Bastion|QID|62275|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|LVL|-60|
 t Bastion|QID|62275|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A The Elysian Fields|QID|62707^63034|PRE|62275|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62707^63034|M|52.00,57.94|Z|1670;Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
@@ -115,7 +115,7 @@ T A Soulbind In Need|QID|57677|M|48.16,72.53|Z|1533;Bastion!The Shadowlands|N|To
 T The Things That Haunt Us|QID|57676|M|48.20,72.60|Z|1533;Bastion!The Shadowlands|N|To Kleia.|MS|
 
 ; The Aspirant's Crucible Storyline
-A Aspirant For a Day|QID|62737|M|52.13,77.57|Z|1533;Bastion!The Shadowlands|N|Bonus Objective, autoaccepted as you come into Aspirant's Crucible.|TOF|RANK|2|
+A Aspirant For a Day|QID|62737|M|52.13,77.57|Z|1533;Bastion!The Shadowlands|N|Bonus Objective, autoaccepted as you come into Aspirant's Crucible.|TOF|RANK|2|LVL|-60|
 C Aspirant For a Day|QID|62737|M|52.13,77.57|Z|1533;Bastion!The Shadowlands|S!US|N|Bonus Objective, In addition to the killing hostile mobs you can also pick up Adrima's lilies (blue flower) and Lost Library Scrolls. The lost scrolls are delivered to Scrollminder Vasi for 8% progress each.|TOF|RANK|2|
 A The Aspirant's Crucible|QID|57709|M|48.23,72.65|Z|1533;Bastion!The Shadowlands|N|From Kleia.|PRE|57677^57676|MS|
 A The Old Ways|QID|60466|M|47.88,73.50|Z|1533;Bastion!The Shadowlands|N|From Klystere.|RANK|2|
@@ -223,7 +223,7 @@ A More Than A Gift|QID|62715|M|53.10,73.62|Z|1533;Bastion!The Shadowlands|N|From
 C The Temple of Purity|QID|57270|M|54.09,73.62|Z|1533;Bastion!The Shadowlands|NC|N|Find Eridia in the Temple of Purity.|MS|
 T The Temple of Purity|QID|57270|M|54.09,73.62|N|To Eridia.|MS|
 A An Inspired Moral Inventory|QID|57444|M|54.03,73.74|Z|1533;Bastion!The Shadowlands|N|From Acolyte Galistos.|TOF| ; needs to be moved upwards..
-A Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|1533;Bastion!The Shadowlands|N|Autoaccepted as you enter the temple grounds.|TOF|RANK|2|
+A Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|1533;Bastion!The Shadowlands|N|Autoaccepted as you enter the temple grounds.|TOF|RANK|2|LVL|-60|
 C Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|1533;Bastion!The Shadowlands|S!US|N|Kill stuff, rescue terrified stewards, destroy scrolls, do quests.|TOF|
 A A Temple in Need|QID|57977|M|54.09,73.62|Z|1533;Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|57270|MS|
 A On the Edge of a Revelation|QID|57264|M|56.68,74.41|Z|1533;Bastion!The Shadowlands|N|From Disciple Kosmas.|PRE|57270|MS|
@@ -278,7 +278,7 @@ T An Inspired Moral Inventory|QID|57444|M|54.03,73.94|Z|1533;Bastion!The Shadowl
 
 ; Chasing a Memory Storyline
 R The Mnemonic Locus|ACTIVE|62732|M|54.72,64.14|N|Follow the road running generally north and east over to the Mnemonic Locus for more fun and games.|TOF|
-A Locus Focus-Bonus Objective|QID|62732|M|54.72,64.14|N|Autoaccepted when you come into the area.|TOF|RANK|2|
+A Locus Focus-Bonus Objective|QID|62732|M|54.72,64.14|N|Autoaccepted when you come into the area.|TOF|RANK|2|LVL|-60|
 C Locus Focus-Bonus Objective|QID|62732|M|54.72,64.14|S!US|N|Kill Hostiles, Dismiss Orphan Memories and repair the soul mirrors to complete this bonus objective.|TOF|
 A Chasing a Memory|QID|58976|M|53.85,73.66|Z|1533;Bastion!The Shadowlands|N|From Kleia.|PRE|57447|MS|
 T Chasing a Memory|QID|58976|M|54.72,64.14|Z|1533;Bastion!The Shadowlands|N|Travel to the Mnemonic Locus and turn in to Mikanikos.|MS|
@@ -437,7 +437,7 @@ A Imminent Danger|QID|60005|M|55.47,42.28|Z|1707|N|From Polemarch Adrestes.|PRE|
 C Imminent Danger|QID|60005|M|51.10,48.82|Z|1707|CHAT|N|Speak to Cassius for a flight to the Temple of Courage.|MS|
 T Imminent Danger|QID|60005|M|41.79,55.18|Z|1533;Bastion!The Shadowlands|N|To Thanikos.|MS|
 R Xandria's Vigil|QID|62736|M|41.79,55.19|Z|1533;Bastion!The Shadowlands|N|Take the west exit out of Hero's Rest and run generally west towards Xandria's Vigil.|TOF|
-A Maldraxxi Eviction Notice-Bonus Objective|QID|62736|M|41.79,55.19|N|Autoaccepted when you enter the area.|TOF|RANK|2|
+A Maldraxxi Eviction Notice-Bonus Objective|QID|62736|M|41.79,55.19|N|Autoaccepted when you enter the area.|TOF|RANK|2|LVL|-60|
 C Maldraxxi Eviction Notice-Bonus Objective|QID|62736|M|41.79,55.19|S!US|N|Kill hostiles, destroy barrels and bone spikes, burn flags, you know, the usual.|TOF|RANK|2|
 A Now or Never|QID|60006|M|41.77,55.18|Z|1533;Bastion!The Shadowlands|N|From Thanikos.|PRE|60005|MS|
 C Now or Never|QID|60006|M|41.77,55.18|Z|1533;Bastion!The Shadowlands|CHAT|QO|1|N|Speak to Thanikos.|MS|

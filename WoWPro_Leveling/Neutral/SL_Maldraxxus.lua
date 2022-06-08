@@ -29,7 +29,7 @@ return [[
 
 
 ; TOF
-A Maldraxxus|QID|62278|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+A Maldraxxus|QID|62278|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|LVL|-60|
 t Maldraxxus|QID|62278|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A A Fresh Blade|QID|62738^63035|PRE|62278|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62738^63035|M|52.00,57.94|Z|1670;Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
@@ -351,7 +351,7 @@ f Spider's Watch|ACTIVE|57994|M|37.57,29.24|Z|1536;Maldraxxus|N|At Flight Master
 C In The Flesh|QID|57994|M|37.65,29.22|Z|1536;Maldraxxus|QO|5|NC|N|Click on the Rune of Might.|MS|
 T In The Flesh|QID|57994|M|37.61,29.09|Z|1536;Maldraxxus|N|To Aspirant Thales.|MS|
 A Front and Center|QID|60733|M|37.66,29.11|Z|1536;Maldraxxus|N|From Secutor Mevix.|PRE|57994|MS|
-R Spider's Watch|QID|62605|ACTIVE|59867|CS|M|36.54,30.88;37.57,29.24|Z|1536;Maldraxxus|N|Finish the Bonuse Objective as you head back to Spider's Watch.|TOF|
+R Spider's Watch|QID|62605|ACTIVE|59867|CS|M|36.54,30.88;37.57,29.24|Z|1536;Maldraxxus|N|Finish the Bonus Objective as you head back to Spider's Watch.|TOF|
 
 ; Side Quest Story - Archival Protection  ACH|14799;3|
 A Broker Business|QID|62605|LEAD|58619|M|38.20,31.29|Z|1536;Maldraxxus|N|From Forgotten Supplies.|RANK|2|
@@ -395,9 +395,9 @@ T A Complete Set|QID|58623|M|45.18,32.11|Z|1536;Maldraxxus|N|To Ta'ern.|ACH|1479
 R Spider's Watch|QID|1|ACTIVE|60733|CS|M|40.51,32.84;37.56,29.21|Z|1536;Maldraxxus|N|Click on the teleporter to leave the library and then run back to Spider's Watch.|
 F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|Z|1536;Maldraxxus|N|Fly back to Bleak Redoubt.|MS|FLY|SHADOWLANDS|
 
-R High Stand|QID|59867|ACTIVE|59867|QO|1|M|52.12,24.18|Z|1536;Maldraxxus|N|Click on the teleporter to leave the library and then run to High Stand, be careful you are attempting to bypass some lvl 60/61 mobs.|TOF|
+R High Stand|QID|59867|ACTIVE|59867|QO|1|M|52.12,24.18|Z|1536;Maldraxxus|N|Click on the teleporter to leave the library and then run to High Stand|TOF|
 K Appraiser Vix|ACTIVE|59867|QO|1|M|52.52,24.22|Z|1536;Maldraxxus|T|Appraiser Vix|N|Kill Appraiser Vix.|TOF|
-R House of Eyes|ACTIVE|62462|M|56,12|Z|1536;Maldraxxus|N|Run north to the House of Eyes You are still surrounded by level 60/61 mobs.|TOF|
+R House of Eyes|ACTIVE|62462|M|56,12|Z|1536;Maldraxxus|N|Run north to the House of Eyes|TOF|
 P Scroll of Teleportation|ACTIVE|62462|QO|1|M|59.96,12.22|Z|1536;Maldraxxus|N|Use Scroll of Teleportation to get to the Key of Eyes. You land right beside the key, pick it up.|TOF|
 K Chelicera|ACTIVE|62462|QO|2|M|56,12|Z|1536;Maldraxxus|T|Chelicera|N|Kill Chelicera.|TOF|
 R Keres' Rest|ACTIVE|62462|M|53.81,30.71|Z|1536;Maldraxxus|N|There is another scroll of teleportaion of Chelicera's balcony. Return to ground level then run to Keres' Rest, being aware of the hostile NPC's most likely higher level than you.|TOF|

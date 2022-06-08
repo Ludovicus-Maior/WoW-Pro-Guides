@@ -125,8 +125,8 @@ A Highbank, Crybank|QID|28594|PRE|28591|M|77.70,78.86|N|From Patch.|
 A Of Utmost Importance|QID|28593|PRE|28591|M|77.21,77.53|N|From Patch.|
 A Parting Packages|QID|28592|PRE|28591|M|77.09,75.72|N|From Ticker.|
 C Highbank Boat bombed|QID|28592|QO|1|U|64669|M|81.60,78.78|; Highbank boat bomb placed: 1/1
-C Highbank Tower bombed|QID|28592|QO|2|U|64669|M|82.00,73.42|; Highbank tower bomb placed: 1/1
-C Keep bombed|QID|28592|QO|3|U|64669|M|79.90,77.22|N|Must be under the archway of the keep.|
+C Highbank Tower bombed|QID|28592|QO|3|U|64669|M|82.00,73.42|; Highbank tower bomb placed: 1/1
+C Keep bombed|QID|28592|QO|2|U|64669|M|79.90,77.22|N|Must be under the archway of the keep.|
 C Of Utmost Importance|QID|28593|M|79.47,77.61|N|Go down to the basement.|
 C Highbank, Crybank|QID|28594|M|80.48,76.76|N|Kill any Highbank Gaurdsmans you may still need.|
 T Parting Packages|QID|28592|M|81.86,80.31|N|To Ticker.|

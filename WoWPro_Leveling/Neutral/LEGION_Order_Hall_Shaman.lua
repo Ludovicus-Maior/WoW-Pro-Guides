@@ -38,15 +38,15 @@ A Artifact Specific Quest|QID|43334^42931^43644|M|34.06,74.36|Z|725;MaelstromSha
 T The Coming Storm|QID|43334|M|66.90,56.24|Z|Kun-Lai Summit|N|Hop on the waiting beast for a ride to the White Temple. Turn in to Xuen.|
 A The Codex of Ra|QID|43338|M|66.90,56.24|Z|Kun-Lai Summit|N|From Xuen.|PRE|43334|
 C The Codex of Ra|QID|43338|QO|1|M|22.41,26.89|Z|Vale of Eternal Blossoms|NC|N|Travel to the Guo-Lai Halls|
-C The Codex of Ra|QID|43338|QO|5|M|52.94,58.15|Z|Vale of Eternal Blossoms|N|As you go, kill the Mogu Spirits in your path.|S|
-C The Codex of Ra|QID|43338|QO|4|M|0.00,0.00|Z|Vale of Eternal Blossoms|N|In the Main Hall, after you pass the Hall of Tiles, (remember to walk on the ones that match the one in the entryway), kill and loot Thunder Serpent Nalak'Ra for The Edict of Storm.|
-C The Codex of Ra|QID|43338|QO|3|M|47.00,28.88|Z|Vale of Eternal Blossoms|N|You will find Zhu of the Eternal Stone in the Guo-Lai Vault, Click on him to awaken and then kill and loot The Edict of Stone|
-C The Codex of Ra|QID|43338|QO|2|M|74.37,54.03|Z|Vale of Eternal Blossoms|N|Go to the Guo-Lai Ritual Chamber, to kill and loot Xuiliang for The Edict of Fire|
-C The Codex of Ra|QID|43338|QO|5|M|52.94,58.15|Z|Vale of Eternal Blossoms|N|Finish up any Mogu Spirits needed for quest completion.|
-T The Codex of Ra|QID|43338|M|47.12,83.00|Z|Vale of Eternal Blossoms|N|As you are running out of Guo-Lai Halls, To Rehgar Earthfury on the next-to-final stairway landing.|
-A The Voice of Thunder|QID|39771|M|47.12,83.00|Z|Vale of Eternal Blossoms|N|From Rehgar Earthfury.|PRE|43338|
-C The Voice of Thunder|QID|39771|QO|1|M|68.30,56.88|Z|Kun-Lai Summit|N|Travel to the Temple of the White Tiger|
-C Proving Your Worth|SO|1|Z|Kun-Lai Summit|N|Speak with the White Tiger.|QID|39771|
+C The Codex of Ra|QID|43338|QO|5|M|52.94,58.15|Z|395;Guo-Lai Halls|N|As you go, kill the Mogu Spirits in your path.|S|
+C The Codex of Ra|QID|43338|QO|4|M|62.31,34.87|Z|396;Hall of the Serpent|N|In the Main Hall, after you pass the Hall of Tiles, (remember to walk on the yellow ones that match the one in the entryway), kill and loot Thunder Serpent Nalak'Ra for The Edict of Storm.|
+C The Codex of Ra|QID|43338|QO|3|M|47.00,28.88|Z|395;Guo-Lai Halls|N|You will find Zhu of the Eternal Stone in the Guo-Lai Vault, Click on him to awaken and then kill and loot The Edict of Stone|
+C The Codex of Ra|QID|43338|QO|2|M|74.37,54.03|Z|395;Guo-Lai Halls|N|Go to the Guo-Lai Ritual Chamber, to kill and loot Xuiliang for The Edict of Fire|
+C The Codex of Ra|QID|43338|QO|5|M|52.94,58.15|Z|395;Guo-Lai Halls|N|Finish up any Mogu Spirits needed for quest completion.|
+T The Codex of Ra|QID|43338|M|47.12,83.00|Z|395;Guo-Lai Halls|N|As you are running out of Guo-Lai Halls, To Rehgar Earthfury on the next-to-final stairway landing.|
+A The Voice of Thunder|QID|39771|M|47.12,83.00|Z|395;Guo-Lai Halls|N|From Rehgar Earthfury.|PRE|43338|
+C The Voice of Thunder|QID|39771|QO|1|M|68.30,56.88|Z|Kun-Lai Summit|N|Click on Graddoc to travel to the Temple of the White Tiger|
+C Proving Your Worth|SO|1|M|68.60,56.91|Z|379;Kun-Lai Summit|N|Speak with the White Tiger.|QID|39771|
 C Defeat Sigurd the Giantslayer.|SO|2;1|M|69.83,52.89|Z|Kun-Lai Summit|N|Defeat Sigurd the Giantslayer.|QID|39771|
 C Team Victory with Rehgar|SO|3;1|M|66.78,51.21|Z|Kun-Lai Summit|N|Speak with Xuen to Begin|QID|39771|
 C Li Li Stormstout Defeated|SO|3;3|M|66.82,51.28|Z|Kun-Lai Summit|N|Li Li Stormstout Defeated|QID|39771|
@@ -96,12 +96,12 @@ T The Hammer in the Deep|QID|40224|M|34.04,76.76|N|To Stormcaller Mylra.|
 ;A To the Deeps|QID|43644|M|34.32,76.14|N|From Erunak Stonespeaker.|PRE|41335|
 C To the Deeps|QID|43644|QO|1|M|33.81,75.86|N|Click on the bubble to travel to Vashj'ir with Erunak.|
 T To the Deeps|QID|43644|M|43.60,63.24|Z|Shimmering Expanse|N|To Erunak Stonespeaker.|
-A Wavespeaker's Trail|QID|43645|M|43.60,63.24|Z|Shimmering Expanse|N|From Erunak Stonespeaker.|PRE|41644|
+A Wavespeaker's Trail|QID|43645|M|43.60,63.24|Z|Shimmering Expanse|N|From Erunak Stonespeaker.|PRE|43644|
 C Wavespeaker's Trail|QID|43645|QO|2|M|39.15,56.54|Z|Shimmering Expanse|N|All three of these clues are at ground level, you dont have to go swimming up above.|
 C Wavespeaker's Trail|QID|43645|QO|3|M|33.07,67.29|Z|Shimmering Expanse|N|Inside a building with a hydra type mob named The Goroboros.|
 C Wavespeaker's Trail|QID|43645|QO|1|M|40.51,74.98|Z|Shimmering Expanse|N|Right in front of a giant you will need to kill to pick up the clue.|
 T Wavespeaker's Trail|QID|43645|M|43.61,63.23|Z|Shimmering Expanse|N|To Erunak Stonespeaker.|
-A Azshara's Power|QID|40341|M|43.61,63.23|Z|Shimmering Expanse|N|From Erunak Stonespeaker.|PRE|41645|
+A Throne of the Tides: Azshara's Power|QID|40341|M|43.61,63.23|Z|Shimmering Expanse|N|From Erunak Stonespeaker.|PRE|43645|
 C Azshara's Power|QID|40341|QO|1|M|68.03,27.38|Z|Abyssal Halls@AbyssalMawShamanAcquisition|N|Travel to the Abyssal Maw.|
 C Azshara's Power|QID|40341|QO|2|M|0.00,0.00|Z|Abyssal Halls@AbyssalMawShamanAcquisition|N|Enter the Throne of Tides.|
 C Heal the Sea Giant.|SO|1;1|M|49.98,84.29|Z|Abyssal Halls@AbyssalMawShamanAcquisition|N|Cast a heal on the Sea Giant.|QID|40341|
@@ -116,23 +116,94 @@ C Ask Grash to destroy the ice wall.|SO|5;1|M|50.61,54.08|Z|Throne of Neptulon@A
 C Slay Lady Zithreen.|SO|5;2|M|49.84,41.98|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Slay Lady Zithreen.|QID|40341|
 C Azshara's Power|QID|40341|QO|3|M|50.47,42.97|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Pick up Sharas'dal.|
 C Azshara's Power|QID|40341|QO|4|M|50.60,42.92|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Click on the bubble to return to the Maelstrom.|
-T Azshara's Power|QID|40341|M|34.05,76.78|Z|The Maelstrom!Instance726|N|To Stormcaller Mylra.|
+T Throne of the Tides: Azshara's Power|QID|40341|M|34.05,76.78|Z|The Maelstrom!Instance726|N|To Stormcaller Mylra.|
 ;Shaman Class Hall
 A A Ring Reforged|QID|40225|M|34.02,76.78|Z|The Maelstrom!Instance726|N|From Stormcaller Mylra.|PRE|39771^40224^40341|
-C A Ring Reforged|QID|40225|QO|1|M|30.20,77.47|Z|The Maelstrom!Instance726|N|Speak to Nobundo|
-C A Ring Reforged|QID|40225|QO|2|M|29.23,69.57|Z|The Maelstrom!Instance726|N|Unearth the Heart of Azeroth|
+C A Ring Reforged|QID|40225|QO|1|M|30.20,77.47|Z|The Maelstrom!Instance726|N|Speak to Nobundo|CHAT|
+C A Ring Reforged|QID|40225|QO|2|M|29.23,69.57|Z|The Maelstrom!Instance726|N|Unearth the Heart of Azeroth|NC|
 T A Ring Reforged|QID|40225|M|28.98,69.25|Z|The Maelstrom!Instance726|N|To Farseer Nobundo.|
 A Azeroth Needs You|QID|41510|M|28.99,69.17|Z|The Maelstrom!Instance726|N|From Farseer Nobundo.|PRE|40225|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|33.48,59.37|Z|The Maelstrom!Instance726|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40225|
 T Azeroth Needs You|QID|41510|M|30.34,51.57|Z|The Maelstrom!Instance726|N|To Farseer Nobundo.|
+A Nobundo Awaits|QID|42188|M|32.98,60.37|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|40225|
+T Nobundo Awaits|QID|42188|M|34.08,31.58|Z|726;The Maelstrom|N|To Farseer Nobundo.|
+A The Ritual of Tides|QID|42114|M|34.08,31.58|Z|726;The Maelstrom|N|To Farseer Nobundo.|PRE|42188|
+C The Ritual of Tides|QID|42114|M|34.08,31.58|Z|726;The Maelstrom|N|Click the totem to start the ritual.|NC|
+T The Ritual of Tides|QID|42114|M|34.08,31.58|Z|726;The Maelstrom|N|To Neptulon.|
+A Rise, Champions|QID|42383|M|34.08,31.58|Z|726;The Maelstrom|N|From Farseer Nobundo.|PRE|42114|
+A Champion: Stormcaller Mylra|QID|42198|M|34.55,62.47|Z|726;The Maelstrom|N|From Stormcaller Mylra.|PRE|42114|
+A Champion: Duke Hydraxis|QID|42197|M|29.40,34.12|Z|726;The Maelstrom|N|From Duke Hydraxis.|PRE|42114|
+T Rise, Champions|QID|42383|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+A Summoner Morn|QID|42141|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42383|
+C Summoner Morn|QID|42141|M|33.47,59.44|Z|726;The Maelstrom|N|Start the "Morn Needs Help" mission from the mission board behind you.|NC|
+T Summoner Morn|QID|42141|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+A Recruiting The Troops|QID|42142|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42141|
+C Recruiting The Troops|QID|42142|M|30.68,58.67|Z|726;The Maelstrom|N|Talk to Summoner Morn and choose to Train Lesser Elementals.|CHAT|
+T Recruiting The Troops|QID|42142|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+A Troops in the Field|QID|41741|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42142|
+C Troops in the Field|QID|41741|M|33.47,59.44|Z|726;The Maelstrom|N|Start the "Troops in the Field" mission from the mission board behind you. This is a 2 Hour mission. Right click this step off to move on.|NC|
+T Troops in the Field|QID|41741|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+A Tech It Up A Notch|QID|41740|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|41741|
+C Tech It Up A Notch|QID|41740|M|33.38,58.21|Z|726;The Maelstrom|N|Talk to Journeyman Goldmine and choose your first class hall upgrade.|NC|
+T Tech It Up A Notch|QID|41740|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+A Mission: Elemental Diplomacy|QID|42184|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42142|
+C Mission: Elemental Diplomacy|QID|42184|M|33.47,59.44|Z|726;The Maelstrom|N|Start the "Elemental Diplomacy" mission from the mission board behind you. This is a 1 Hour mission. Right click this step off to move on.|NC|
+T Mission: Elemental Diplomacy|QID|42184|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+A Servant of the Windseeker|QID|42977|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42184|
+T Servant of the Windseeker|QID|42977|M|29.66,10.54|Z|81;Silithus|N|To Highlord Demitrian.|
+A Blessed Blade of the Windseeker|QID|43002|M|29.66,10.54|Z|81;Silithus|N|From Highlord Demitrian.|PRE|42977|
+C Blessed Blade of the Windseeker|QID|43002|QO|1|M|32.75,48.80|Z|630;Azsuna|N|Locate the lost blade of the Windseeker.|
+C Blessed Blade of the Windseeker|QID|43002|QO|2|M|32.75,48.80|Z|630;Azsuna|N|Damaged Thunderfury aquired.|NC|
+T Blessed Blade of the Windseeker|QID|43002|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+A The Skies Above|QID|41770|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|43002|
+C The Skies Above|QID|41770|M|26.80,41.47|Z|726;The Maelstrom|N|Take the portal to Vortex Pinnacle.|NC|
+T The Skies Above|QID|41770|M|55.13,18.34|Z|737;The Vortex Pinnacle!Dungeon737|N|To Consular Celestos.|
+A Recharging the Blade|QID|41771|M|55.13,18.34|Z|737;The Vortex Pinnacle!Dungeon737|N|From Consular Celestos.|PRE|41770|
+C Recharging the Blade|QID|41771|QO|1|M|56.36,42.70|Z|737;The Vortex Pinnacle!Dungeon737|N|Obtain the Heart of Skywall.|
+C Recharging the Blade|QID|41771|QO|2|M|56.36,42.70|Z|737;The Vortex Pinnacle!Dungeon737|N|Recharge Thunderfury.|U|135589|
+C Recharging the Blade|QID|41771|QO|3|M|57.24,48.84|Z|737;The Vortex Pinnacle!Dungeon737|N|Take the slipstreal.|NC|
+T Recharging the Blade|QID|41771|M|52.06,81.98|Z|737;The Vortex Pinnacle!Dungeon737|N|To Consular Celestos.|
+A Return of the Windlord|QID|41776|M|52.06,81.98|Z|737;The Vortex Pinnacle!Dungeon737.|PRE|41771|
+T Return of the Windlord|QID|41776|M|52.47,79.42|Z|737;The Vortex Pinnacle!Dungeon737|N|To Thunderaan.|
+A Oath of the Windlord|QID|41901|M|52.47,79.42|Z|737;The Vortex Pinnacle!Dungeon737|N|From Thunderaan.|PRE|41776|
+P The Maelstrom|ACTIVE|41901|M|49.94,80.99|Z|737;The Vortex Pinnacle!Dungeon737|N|Take the portal back to your Class Hall.|
+T Oath of the Windlord|QID|41901|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+A Enemies of Air|QID|42986|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|41901|
+A The Maelstrom Pillar: Air|QID|42996|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|41901|
+A Recruiting Earthcallers|QID|44465|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|41901|
+A Champion: Nobundo|QID|41743|M|30.43,51.62|Z|726;The Maelstrom|N|From Nobundo.|PRE|41901|
+A Champion: Celestos|QID|41742|M|28.32,45.04|Z|726;The Maelstrom|N|From Celestos.|PRE|41901|
+T Recruiting Earthcallers|QID|44465|M|29.31,42.84|Z|726;The Maelstrom|N|To Felinda Frye.|
+t Enemies of Air|QID|42986|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+T The Maelstrom Pillar: Air|QID|42996|M|29.26,77.92|Z|726;The Maelstrom|N|To Elementalist Janai.|
+A Mistral Essence|QID|42983|M|29.26,77.92|Z|726;The Maelstrom|N|From Elementalist Janai.|PRE|42996|
+P The Vortex Pennacle|ACTIVE|42983|M|27.35,42.28|Z|726;The Maelstrom|N|Take the portal to The Vortex Pinnacle.|
+C Mistral Essence|QID|42983|M|PLAYER|Z|737;The Vortex Pinnacle!Dungeon737|N|Kill all the windy boys for their drops.|
+T Mistral Essence|QID|42983|M|29.26,77.92|Z|726;The Maelstrom|N|To Elementalist Janai.|
+A Eye of Azshara: The Scepter of Storms|QID|42984|M|29.26,77.92|Z|726;The Maelstrom|N|From Elementalist Janai.|PRE|42983|
+C Eye of Azshara: The Scepter of Storms|QID|42984|N|Collect the Scepter of Storms from Lady Hatecoil in the Eye of Azshara dungeon.|
+T Eye of Azshara: The Scepter of Storms|QID|42984|M|29.26,77.92|Z|726;The Maelstrom|N|To Elementalist Janai.|
+A Mission: Investigating Deepholm|QID|42200|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42986|
+t Mission: Investigating Deepholm|QID|42200|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
+A The Great Stonemother|QID|41775|M|29.26,77.92|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42200|LVL|45|
+P Deepholm|ACTIVE|41775|Z|726;The Maelstrom|N|Take the portal to Deepholm from your class hall.|
+T The Great Stonemother|QID|41775|Z|Deepholm|N|To Therazane.|
+
+;Second artifact
+A Aggra's Guidance|QID|44406|M|30.34,51.57|Z|726;The Maelstrom|N|From Farseer Nobundo.|PRE|40225|
+T Aggra's Guidance|QID|44406|M|36.02,79.95|Z|726;The Maelstrom|N|To Aggra.|
+A Expanding Your Horizons|QID|43945|M|36.02,79.95|Z|726;The Maelstrom|N|From Aggra.|
+T Expanding Your Horizons|QID|43945|M|36.02,79.95|Z|726;The Maelstrom|N|From Aggra.|
+
+;Third Artifact
+A Your Fullest Potential|QID|44006|M|36.02,79.95|Z|726;The Maelstrom|N|From Aggra.|
+T Your Fullest Potential|QID|44006|M|36.02,79.95|Z|726;The Maelstrom|N|From Aggra.|
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
 C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|29.92,52.01|Z|The Maelstrom!Instance726|N|Take the portal to Dalaran.|
-; LVL 110 Quest - Obliterum Chain
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|44337^44338|
 C In the House of Light and Shadow|QID|44448|N|Location NOT included at this time.\nBefore you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
-
 
 ;These quests belong to the obliterum forge quest line, this whole line has been removed from the game.
 ;A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran!Dalaran!Dungeon|N|From Camille Kleister.|

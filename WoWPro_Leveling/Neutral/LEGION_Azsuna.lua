@@ -105,14 +105,14 @@ A The Withered|QID|37856|PRE|37855|M|48.62,16.52|N|From Agapanthus.|
 A The Consumed|QID|37859|PRE|37855|M|49.39,15.54|N|From Mana-Drained Whelpling.|
 C The Consumed|QID|37859|QO|1|M|49.61,15.38|NC|N|Pick up the Dim Ley Crystal|
 C The Consumed|QID|37859|QO|2|M|44.49,16.50|S|NC|N|Click on the Mana-Drained Whelpling to revive.|
-C The Withered|QID|37856|QO|1|M|44.83,17.04|S|N|Kill Withered.|
+C The Withered|QID|37856|QO|1|M|44.83,17.04|N|Kill Withered.|
+C The Consumed|QID|37859|QO|2|M|44.49,16.50|US|N|Finish reviving the Mana-Drained Whelpling.|
+T The Withered|QID|37856|M|48.62,16.48|N|To Agapanthus.|
+A Stellagosa|QID|37858|LEAD|37957|M|49.12,16.54|Z|630;Azsuna|N|From Projection of Senegos.|
+T Stellagosa|QID|37858|M|46.64,15.80|Z|630;Azsuna|N|From Stellagosa.|
 A Runas the Shamed|QID|37957|PRE|37855|M|46.64,15.80|N|From Stellagosa.|
 C Runas the Shamed|QID|37957|QO|1|M|45.61,15.47;42.98,17.53|CS|N|Attempt to slay Runas the Shamed.|
 C Runas the Shamed|QID|37957|QO|2|M|48.60,16.35|NC|N|Escort Runas to Senegos.|
-C The Withered|QID|37856|QO|1|M|44.83,16.50|US|NC|N|Finish killing Withered.|
-C The Consumed|QID|37859|QO|2|M|44.49,16.50|US|N|Finish reviving the Mana-Drained Whelpling.|
-T The Withered|QID|37856|M|48.62,16.48|N|To Agapanthus.|
-T The Consumed|QID|37859|M|49.12,16.54|N|To Projection of Senegos.|
 T Runas the Shamed|QID|37957|M|49.12,16.54|N|To Projection of Senegos.|
 A Runas Knows the Way|QID|37857|PRE|37856&37957&37859|M|49.22,16.08|N|From Runas the Shamed.|
 R The Lost Orchard|AVAILABLE|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|FLY|LEGION|

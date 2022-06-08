@@ -875,8 +875,18 @@ function WoWPro.SelectHearthstone()
         end
     end
 	if #have > 0 then
-		return have[_G.math.random(#have)] or 6948
+		return tostring(have[_G.math.random(#have)] or 6948)
 	end
+end
+
+function WoWPro.SelectItemToUse(use, debug)
+    if not use:find("^", 1, true)  then
+        WoWPro:dbp("SelectItemToUse(%q): single, %q", use, _G.GetItemInfo(use) or "NIL")
+        return _G.GetItemInfo(use), use
+    end
+    local value = QidMapReduce(use,false,"^","|",function (item) return (_G.GetItemCount(item) > 0) and item end, "SelectItemToUse", true or quids_debug)
+    WoWPro:dbp("SelectItemToUse(%q): Value=%s", use, tostring(value))
+    return value, value
 end
 
 -- Row Content Update --
@@ -1139,25 +1149,26 @@ function WoWPro:RowUpdate(offset)
 				end
 			end
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
-        elseif use and _G.GetItemInfo(use) then
+        elseif use and WoWPro.SelectItemToUse(use) then
+            local _, _use = WoWPro.SelectItemToUse(use)
 			currentRow.itemicon.item_IsVisible = nil
 			currentRow.itemcooldown.OnCooldown = nil
 			currentRow.itemcooldown.ActiveItem = nil
             currentRow.itembutton:Show()
 			currentRow.itemicon.currentTexture = nil
             currentRow.itembutton:SetAttribute("type1", "item")
-            currentRow.itembutton:SetAttribute("item1", "item:"..use)
+            currentRow.itembutton:SetAttribute("item1", "item:".._use)
 			currentRow.itembutton:SetScript("OnUpdate", function()
-				local itemtexture = _G.GetItemIcon(use)
-				local start, duration, enabled = _G.GetItemCooldown(use)
-				if _G.GetItemCount(use) > 0 and not currentRow.itemicon.item_IsVisible then
+				local itemtexture = _G.GetItemIcon(_use)
+				local start, duration, enabled = _G.GetItemCooldown(_use)
+				if _G.GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon.item_IsVisible = true
 					currentRow.itemicon:SetTexture(itemtexture)
 					currentRow.itemicon.currentTexture = itemtexture
-				elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.GetItemCount(use) > 0 and currentRow.itemicon.item_IsVisible then
+				elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon:SetTexture(itemtexture)
 					currentRow.itemicon.currentTexture = itemtexture
-				elseif _G.GetItemCount(use) == 0 and  currentRow.itemicon.item_IsVisible then
+				elseif _G.GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon.item_IsVisible = false
 					currentRow.itemicon:SetTexture()
 					currentRow.itemicon.currentTexture = nil
@@ -1166,14 +1177,14 @@ function WoWPro:RowUpdate(offset)
                     currentRow.itemcooldown:Show()
                     currentRow.itemcooldown:SetCooldown(start, duration)
 					currentRow.itemcooldown.OnCooldown = true
-					currentRow.itemcooldown.ActiveItem = use
+					currentRow.itemcooldown.ActiveItem = _use
                 elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
                     currentRow.itemcooldown:Hide()
 					currentRow.itemcooldown.OnCooldown = false
-				elseif currentRow.itemcooldown.ActiveItem ~= use then
+				elseif currentRow.itemcooldown.ActiveItem ~= _use then
 					currentRow.itemcooldown.OnCooldown = false
 					currentRow.itemcooldown:SetCooldown(start, duration)
-					currentRow.itemcooldown.ActiveItem = use
+					currentRow.itemcooldown.ActiveItem = _use
                 end
 			end)
 
@@ -1182,7 +1193,7 @@ function WoWPro:RowUpdate(offset)
 					local Tleft, Tbottom = currentRow.itembutton:GetRect()
 					currentRow.itembuttonSecured:Show()
 					currentRow.itembuttonSecured:SetAttribute("type1", "item")
-					currentRow.itembuttonSecured:SetAttribute("item1", "item:"..use)
+					currentRow.itembuttonSecured:SetAttribute("item1", "item:".._use)
 					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
 				end
 			end
@@ -1686,7 +1697,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
             if (stepAction == "A" or stepAction == "U") and WoWPro.use[guideIndex] then
-                if _G.GetItemCount(WoWPro.use[guideIndex]) == 0 then
+                if not WoWPro.SelectItemToUse(WoWPro.use[guideIndex]) then
                     local why = "You don't have the item for this step."
                     WoWPro.why[guideIndex] = why
                     WoWPro:dbp(why)

@@ -205,7 +205,8 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 		[960] = { name = 'Runeforging' },
 		[2720] = { exp = 7, name = 'Junkyard Tinkering'},
 		[2787] = { exp = 8, name = 'Abominable Stitching'},
-                [2791] = { exp = 8, name = 'Ascension Crafting'}
+		[2791] = { exp = 8, name = 'Ascension Crafting'},
+		[2819] = { exp = 8, name = 'Protoform Synthesis'}
 	}
 	end
 
