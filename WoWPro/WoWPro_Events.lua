@@ -343,7 +343,9 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                 -- Quest Turn-Ins --
                 if WoWPro.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
                     WoWPro.CompleteStep(i,"AutoCompleteQuestUpdate: quest turn-in.")
-                    WoWProCharDB.completedQIDs[QID] = true
+                    if not WoWPro.nocache[i] then
+                        WoWProCharDB.completedQIDs[QID] = true
+                    end
                     WoWPro.CompletingQuest = false
                     WoWPro.missingQuest = nil  -- We got it, dont let the recorder get it!
                 end
@@ -1066,7 +1068,10 @@ WoWPro.RegisterEventHandler("QUEST_TURNED_IN", function(event, ...)
     local qid, exp, money = ...
     WoWPro:dbp("%s(qid=%d,exp=%d,money=%d)",event,qid, exp, money)
     WoWPro.CompletingQuest = true
-    WoWProCharDB.completedQIDs[qid] = true
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    if WoWPro.action[qidx] == "T" and not WoWPro.nocache[qidx] then
+        WoWProCharDB.completedQIDs[qid] = true
+    end
     WoWPro:AutoCompleteQuestUpdate(qid)
 end)
 
