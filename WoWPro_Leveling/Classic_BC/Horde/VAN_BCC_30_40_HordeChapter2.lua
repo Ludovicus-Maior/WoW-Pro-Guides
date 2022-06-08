@@ -369,8 +369,8 @@ A Other Fish to Fry|QID|6143|M|23.32,72.88|Z|1443|N|From Drulzegar Skraghook.|
 l Shellfish|AVAILABLE|5421|ACTIVE|5386|M|20.10,79.10|Z|1443|L|13545 10|N|Drop into the water and look for cages on the ocean floor. Open these to collect Shellfish. Jinar'Zillen will trade 5 of these Shellfish for 1 Bloodybelly fish.\n[color=FF0000]NOTE: [/color]If you do not have a means of breathing underwater, locate one of the small, bubbling fissures and use it to restore your breath.\nAlso, be aware that a Drysnap Crawler may spawn and attack you when you open the trap.|
 A Fish in a Bucket|QID|5421|ACTIVE|5386|M|22.46,73.11|Z|1443|L|13546 1|N|From Jinar'Zillen on the pier.\n[color=FF0000]NOTE: [/color]This is a low level quest that you need to do.|NOCACHE|
 T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|1443|L|13546 1|N|To Jinar'Zillen on the pier.|NOCACHE|
-l Shellfish|AVAILABLE|5421|ACTIVE|5386|M|20.10,79.10|Z|1443|L|13545 5|N|Drop into the water and look for cages on the ocean floor. Open these to collect Shellfish. Jinar'Zillen will trade 5 of these Shellfish for 1 Bloodybelly fish.\n[color=FF0000]NOTE: [/color]If you do not have a means of breathing underwater, locate one of the small, bubbling fissures and use it to restore your breath.\nAlso, be aware that a Drysnap Crawler may spawn and attack you when you open the trap.|
-A Fish in a Bucket|AVAILABLE|5421|ACTIVE|5386|M|22.46,73.11|Z|1443|L|13546 2|N|From Jinar'Zillen on the pier.\n[color=FF0000]NOTE: [/color]You have to do this a second time.|NOCACHE|
+l Shellfish|ACTIVE|5386|M|20.10,79.10|Z|1443|L|13545 5|N|Drop into the water and look for cages on the ocean floor. Open these to collect Shellfish. Jinar'Zillen will trade 5 of these Shellfish for 1 Bloodybelly fish.\n[color=FF0000]NOTE: [/color]If you do not have a means of breathing underwater, locate one of the small, bubbling fissures and use it to restore your breath.\nAlso, be aware that a Drysnap Crawler may spawn and attack you when you open the trap.|
+A Fish in a Bucket|QID|5421|ACTIVE|5386|M|22.46,73.11|Z|1443|L|13546 2|N|From Jinar'Zillen on the pier.\n[color=FF0000]NOTE: [/color]You have to do this a second time.|NOCACHE|
 T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|1443|L|13546 2|N|To Jinar'Zillen on the pier.|NOCACHE|
 C Centaur Bounty|QID|1366|M|70.76,75.30|Z|1443|L|6067 15|ITEM|6067|N|Any Centaur|S|
 N Reputation Monitoring|ACTIVE|1367^1368|N|Open the Reputation Tab (<U>) and locate the Faction you want to track. Check the box 'Show as Experience Bar' and it will appear above the Exp bar.\n[color=FF0000]NOTE: [/color]Some factions will only show in the list once there's been a change in your rep with them.\n\nResults may vary depending upon your UI layout and other Addons.\nManually check this step off to continue.|
@@ -798,7 +798,7 @@ C The Completed Orb of Dar'Orahil|QID|4964|M|62.51,35.45|Z|1413|QO|1|N|Just stan
 C The Completed Orb of Noh'Orahil|QID|4975|M|62.51,35.45|Z|1413|QO|1|N|Just stand there and wait.|C|Warlock|
 T The Completed Orb of Dar'Orahil|QID|4964|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|C|Warlock|
 T The Completed Orb of Noh'Orahil|QID|4975|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|C|Warlock|
-T Summon Felsteed|ACTIVE|3631|M|62.63,35.50|Z|1413|N|To Strahad Farsan.|C|Warlock|
+T Summon Felsteed|QID|3631|M|62.63,35.50|Z|1413|N|To Strahad Farsan.|C|Warlock|
 A Summon Felsteed|QID|4490|M|62.63,35.50|Z|1413|N|From Strahad Farsan.|PRE|3631|C|Warlock|
 T Summon Felsteed|QID|4490|M|62.63,35.50|Z|1413|N|To Strahad Farsan.|C|Warlock|
 = Level 40|ACTIVE|-1270|AVAILABLE|1418|M|62.43,35.46|Z|1413|N|Do your level 40 training.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|Warlock|
