@@ -287,27 +287,27 @@ C Ziata'jai Trophy|QID|585|M|42.21,36.12|Z|1434|L|3907|N|Loot the Ziata'jai Trop
 R Ruins of Zul'Mamwe|QID|585|M|43.69,40.22|Z|1434|N|Follow the path southeast from Ziata'jai.|
 K Speaking with Gan'zulah|ACTIVE|586|M|46.51,39.22|Z|1434|QO|1;2;3|N|The Skullsplitters you require are spread across this area.|S|
 C Zul'Mamwe Trophy|QID|585|M|47.65,39.54|Z|1434|L|3908|N|Loot the Zul'Mamwe Trophy from the stack of skulls after you clear the area around it.\n[color=FF0000]NOTE: [/color]Keep an eye out for the multiple groups of 3 Skullsplitters that patrol this area.|
-K Ana'thek|ACTIVE|586|M|45,44|Z|1434|QO|4|N|This one is tough, so be careful.\nAna'thek the Cruel spawns in the cave and leaves to patrol the road.\n[color=FF0000]NOTE: [/color]Clear the cave entrance and attack him inside the cave to avoid more adds. Using a 'hit and run' tactic, kill any Spiritchasers with him before killing Ana'thek and running again.|T|Ana'thek|
-K Speaking with Gan'zulah|ACTIVE|586|M|46.51,39.22|Z|1434|QO|1;2;3|N|The Skullsplitter Hunters you require are spread across this area|S|
-K Speaking with Gan'zulah|ACTIVE|586|M|47.70,42.86|Z|1434|QO|2;3|N|Finish killing the Skullsplitter Headhunters and Beserkers you need.|US|
-K Speaking with Gan'zulah|ACTIVE|586|M|47.70,42.86|Z|1434|QO|1|N|Finish killing the Skullsplitter Hunters you need.|US|
+K Ana'thek|ACTIVE|586|M|44.67,44.18|Z|1434|QO|4|N|This one is tough, so be careful.\nAna'thek the Cruel spawns in the cave and leaves to patrol the road.\n[color=FF0000]NOTE: [/color]Clear the cave entrance and attack him inside the cave to avoid more adds. Using a 'hit and run' tactic, kill any Spiritchasers with him before killing Ana'thek and running again.|T|Ana'thek|
+K Speaking with Gan'zulah|ACTIVE|586|M|46.51,39.22|Z|1434|QO|1;2;3|N|The Skullsplitter Hunters you require are spread across this area and only have 4-5 spawn points.\n[color=FF0000]NOTE: [/color]Do not mistake the Beastmasters for the Hunters; both have pet Panthers.|S|
+K Speaking with Gan'zulah|ACTIVE|586|M|47.70,42.86|Z|1434|QO|2;3|N|Finish killing the Skullsplitter Headhunters and Beserkers you need.\n[color=FF0000]NOTE: [/color]The Headhunters share spawn points and you may have to clear the other mobs if you can't find them.|US|
+K Speaking with Gan'zulah|ACTIVE|586|M|45.64,41.37|Z|1434|QO|1|N|Finish killing the Skullsplitter Hunters you need.\n[color=FF0000]NOTE: [/color]Be aware, they only have 4-5 spawn points and respawn their panther after you kill it.|T|Skullsplitter Hunter|
 C Skullsplitter Tusks|QID|209|M|46.51,39.22|Z|1434|L|1524 18|ITEM|1524|N|Any Skullsplitter|US|
 C Split Bone Necklace|QID|598|M|46.48,39.92|Z|1434|L|3916 25|ITEM|3916|N|Any Skullsplitter|US|
 R Nesingwary's Expedition|ACTIVE|208|M|35.65,10.66|Z|1434|
 T Big Game Hunter|QID|208|M|35.66,10.81|Z|1434|N|To Hemet Nesingwary Jr.|
 R Grom'gol Base Camp|ACTIVE|-208&598|M|32.16,28.76|Z|1434|
-T Split Bone Necklace|QID|598|M|32.28,27.71|Z|1434|N|To Kin'weelay.|
 T Speaking with Nezzliok|QID|585|M|32.22,27.60|Z|1434|N|To the Bubbling Cauldron.|
 T Speaking with Gan'zulah|QID|586|M|32.22,27.60|Z|1434|N|To the Bubbling Cauldron.|
 A The Fate of Yenniku|QID|588|M|32.22,27.60|Z|1434|N|From the Bubbling Cauldron.|
 T The Fate of Yenniku|QID|588|M|32.28,27.71|Z|1434|N|To Kin'weelay.|
 A The Singing Crystals|QID|589|M|32.28,27.71|Z|1434|N|From Kin'weelay.|PRE|588|
+T Split Bone Necklace|QID|598|M|32.28,27.71|Z|1434|N|To Kin'weelay.|
 F Booty Bay|ACTIVE|209|M|32.54,29.35|Z|1434|
 T Skullsplitter Tusks|QID|209|M|27.00,77.13|Z|1434|N|To Kebok.|
 A The Captain's Chest |QID|8551|M|26.69,73.61|Z|1434|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Captain Hecklebury Smotts.\n[color=FF0000]NOTE: [/color]At your level, soloing shouldn't be too difficult.|RANK|3|
 R The Cape of Stranglethorn|ACTIVE|608^8551|M|29.41,72.73|Z|1434|N|Head up the stairs and through the tunnel to the other side.|IZ|Booty Bay|
 R Wild Shore|ACTIVE|608^8551|M|32.53,72.89|Z|1434|N|Head east down the hill towards the water.|
-R Swim|ACTIVE|-624&608|M|34.44,85.51|CC|Z|1434|N|Enter the water and swim across to the island near the far left pirate ship.|
+R Swim|ACTIVE|-624&608|M|34.44,85.51|Z|1434|N|Enter the water and swim across to the island near the far left pirate ship.|
 N The Bloodsail Buccaneers|ACTIVE|608|N|All 3 of your targets will be found in the same spot on their ship, in the Captain's Room on the first floor at the back of the ship. The ships are from left to right and first to third.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Cortello's Riddle|AVAILABLE|624|L|4056|N|Search the lower deck of the pirate ships until you find this scroll.|S|
 A Cortello's Riddle|QID|624|N|Accept the quest from the soggy scroll you found.|U|4056|O|
@@ -326,7 +326,7 @@ K Naga Explorer|ACTIVE|573|M|27.86,62.76|Z|1434|QO|1|S|
 R Nek'mani Wellspring|ACTIVE|573|M|27.0,59.6;27.50,62.93|CC|Z|1434|N|Make your way across the bridges and up the ramp to the arch.|
 C Holy Spring Water|QID|573|M|28.91,61.98|Z|1434|L|737|N|Cross the bridge to the Holy Spring and loot the water from it by clicking on the waterfall.|
 K Naga Explorer|ACTIVE|573|M|26.21,61.45|Z|1434|QO|1|US|
-R Ruins of Jubuwal|ACTIVE|608|M|32.1,60.8;33.77,52.06|CC|Z|1434|N|Head back to the main road and follow it north.|
+R Ruins of Jubuwal|ACTIVE|608|M|32.1,60.8;33.80,52.01|CC|Z|1434|N|Head back to the main road and follow it north.|
 C Voodoo Dues|QID|609|M|34.88,51.90|Z|1434|L|3925|ITEM|3925|N|JonJon The Crow\nClear the area around the bonfire until you can pull him safely.\n[color=FF0000]NOTE: [/color]If you get too close too soon, you'll aggro everyone. Start on the side furthest away.|T|JonJon The Crow|
 C Voodoo Dues|QID|609|M|35.22,51.19|Z|1434|L|3924|ITEM|3924|N|Maury Club-Foot Wilkins\nClear a path to the arch and try to pull one of the adds. Otherwise, you'll be fighting 1 or 2 adds with him. Clearing outside will prevent it getting any uglier.|T|Maury Club-Foot Wilkins|
 C Zanzil's Secret|QID|621|M|34.40,51.43|Z|1434|L|4016 12|ITEM|4016|N|Any Zanzil mob|US|
@@ -349,15 +349,14 @@ T The Singing Crystals|QID|589|M|32.28,27.71|Z|1434|N|To Kin'weelay.|
 ; --- Dustwallow Marsh
 b Durotar|AVAILABLE|1166|M|31.37,30.15|Z|1434|N|Take the Zeppelin to Durotar.|
 R Orgrimmar|AVAILABLE|1166|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|
-h Orgrimmar|AVAILABLE|1166|M|54.10,68.38|Z|1454|N|At Innkeeper Gryshka.|
-F Brackenwall Village|AVAILABLE|1166|M|45.2,63.8|Z|1454|N|At Doras.|TAXI|Brackenwall Village|
-F Camp Taurajo|AVAILABLE|1166|M|45.2,63.8|Z|1454|N|At Doras.|TAXI|-Brackenwall Village|
+F Brackenwall Village|AVAILABLE|1166|M|45.2,63.8|Z|1454|TAXI|Brackenwall Village|
+F Camp Taurajo|AVAILABLE|1166|M|45.2,63.8|Z|1454|TAXI|-Brackenwall Village|
 R Dustwallow Marsh|AVAILABLE|1166|M|32.9,45.6|Z|1445|N|Run south, then east at the Crossroad to Dustwallow Marsh.|TAXI|-Brackenwall Village|
 R Brackenwall Village|AVAILABLE|1166|M|36,32|Z|1445|N|Run North to Breckenwall Village.|TAXI|-Brackenwall Village|
 f Brackenwall Village|AVAILABLE|1166|M|35.56,31.88|Z|1445|N|At Shardi, Wind Rider Master.|TAXI|-Brackenwall Village|
-A Overlord Mok'Morokk's Concern|QID|1166|M|36.29,31.41|Z|1445|N|Get this quest from Mok'Morokk who's standing by the bonfire.|
-A Army of the Black Dragon|QID|1168|M|37.37,31.39|Z|1445|N|Get this quest from Tharg next to the eastern exit of the village.|
-A Identifying the Brood|QID|1169|M|37.16,33.08|Z|1445|N|Get this quest from Draz'Zilb in the cave/inn.|
+A Overlord Mok'Morokk's Concern|QID|1166|M|36.29,31.41|Z|1445|N|From Mok'Morokk by the bonfire.|
+A Army of the Black Dragon|QID|1168|M|37.37,31.39|Z|1445|N|From Tharg next to the eastern exit.|
+A Identifying the Brood|QID|1169|M|37.16,33.08|Z|1445|N|From Draz'Zilb in the cave/inn.|
 F Mudsprocket|AVAILABLE|11158|M|35.56,31.88|Z|1445|TAXI|Mudsprocket|
 R Shady Rest Inn|AVAILABLE|11158|M|30.24,47.12|CC|Z|1445|N|Follow the road south from Brackenwall to the fork in the road.|TAXI|-Mudsprocket|
 R The Dragonmurk|AVAILABLE|11158|M|33.4,46.4;33.89,60.23|CC|Z|1445|N|Go east from the fork to the first intersection and continue south from here.|TAXI|-Mudsprocket|
@@ -367,14 +366,14 @@ f Mudsprocket|AVAILABLE|11158|M|42.82,72.43|Z|1445|N|At Dyslix Silvergrub. He's 
 A Bloodfen Feathers|QID|11158|M|41.86,73.98|Z|1445|N|From Brogg, inside the Inn.|
 R The Den of Flame|ACTIVE|1168|M|40,67|Z|1445|N|Head north to The Den of Flame.|
 K Army of the Black Dragon|ACTIVE|1168|M|40,67|Z|1445|QO|1;2;3|N|Kill every Dragonkin you come across.\n[color=FF0000]NOTE: [/color]The Scalebanes are inside the Den of Flame cave.|S|
-C Identifying the Brood|QID|1169|M|41.8,73.3|Z|1445|L|5840 7|ITEM|5840|N|Searing Whelps and Hatchlings|S|
-C Identifying the Brood|QID|1169|M|41.8,73.3|Z|1445|L|5841 7|ITEM|5841|N|Searing Whelps and Hatchlings|S|
+C Identifying the Brood|QID|1169|M|44.23,76.67|Z|1445|L|5840 7|ITEM|5840|N|Searing Whelps and Hatchlings|S|
+C Identifying the Brood.|QID|1169|M|44.23,76.67|Z|1445|L|5841 7|ITEM|5841|N|Searing Whelps and Hatchlings|S|
 C Mok'Morokk's Grog|QID|1166|M|38.66,65.57|Z|1445|L|5835|N|Loot Mok'Morokk's Grog just outside the cave entrance.|
 C Mok'Morokk's Strongbox|QID|1166|M|36.64,69.57|Z|1445|L|5836|N|Staying to the left side, head into the cave to find the Strongbox.|
-C Army of the Black Dragon|QID|1168|M|37.40,68.52|Z|1445|QO|3|N|Finish killing the Scalebane.|
+K Firemane Scalebane|ACTIVE|1168|M|37.40,68.52|Z|1445|QO|3|
 R Stonemaul Ruins|ACTIVE|1166|M|41.13,67.74|Z|1445|N|Exit Den of Flames and follow the road east into Stonemaul Ruins.|
 C Mok'Morokk's Snuff|QID|1166|M|44.53,66.04|Z|1445|L|5834|N|Mok'Morokk's snuff is in the center of the fortress.|
-K Army of the Black Dragon|QID|1168|M|44.53,66.04|Z|1445|N|Finish killing any dragonkin you still need.|US|
+K Army of the Black Dragon|ACTIVE|1168|M|44.53,66.04|Z|1445|QO|1;2;3|N|Finish killing any dragonkin you still need.|US|
 C Bloodfen Feathers|QID|11158|M|33.93,67.51|Z|1445|L|33085 5|ITEM|33085|N|Bloodfen Raptors|S|
 R Bloodfen Burrow|ACTIVE|625|M|34.94,64.94|Z|1445|N|Exit Stonemaul and make your way to the west side of Den of Flames.\nYou can either follow the road around the north, follow the river around the south, or take a chance and run straight through Den of Flames.|
 T Cortello's Riddle|QID|625|M|31.10,66.15|Z|1445|N|Once you've cleared the cave, click on the Musty Scroll.|
@@ -383,10 +382,10 @@ C Bloodfen Feathers|QID|11158|M|33.93,67.51|Z|1445|L|33085 5|ITEM|33085|N|Bloodf
 R Tabetha's Farm|ACTIVE|1205|M|40.0,61.8;45.95,58.02|Z|1445|CC|N|head back to the road and follow it east. At the intersection, turn east (left) and follow the sign post. The road will lead right there.|
 K Deadmire|ACTIVE|1205|M|50.89,53.55|Z|1445|L|5945|ITEM|5945|N|Deadmire\n[color=FF0000]NOTE: [/color]Deadmire is a white Lv 41 Crocolisk.|T|Deadmire|S|
 R Beezil's Wreck|ACTIVE|1205^1187|M|50.04,58.66|Z|1445|N|Follow the road east from Tabetha's Farm.|
-C Gizmorium Shipping Crate|QID|1187|M|53.5,56.9;54.07,56.49|CC|Z|1445|L|5862|N|Continue following the road until you reach Beezil's Camp. The crate is located in the wreckage of Beezil's ship. Click on it to loot the Seaforium Booster.|
+C Gizmorium Shipping Crate|QID|1187|M|54.07,56.49|Z|1445|L|5862|N|Continue following the road until you reach Beezil's Camp. The crate is located in the wreckage of Beezil's ship. Click on it to loot the Seaforium Booster.|
 K Deadmire|ACTIVE|1205|M|50.89,53.55|Z|1445|L|5945|ITEM|5945|N|Deadmire\n[color=FF0000]NOTE: [/color]Deadmire is a white Lv 41 Crocolisk that roams the area in a circlish pattern between Tabetha's Farm in the south and Beezil's Wreck to the north.|T|Deadmire|US|
-C Identifying the Brood|QID|1169|M|41.8,73.3|Z|1445|L|5840 7|ITEM|5840|N|Searing Whelps and Hatchlings\nLots can be found east and southeast of town.|US|
-C Identifying the Brood|QID|1169|M|41.8,73.3|Z|1445|L|5841 7|ITEM|5841|N|Searing Whelps and Hatchlings\nLots can be found east and southeast of town.|US|
+C Identifying the Brood|QID|1169|M|44.23,76.67|Z|1445|L|5840 7|ITEM|5840|N|Searing Whelps and Hatchlings\nLots can be found east and southeast of town.|US|
+C Identifying the Brood.|QID|1169|M|44.23,76.67|Z|1445|L|5841 7|ITEM|5841|N|Searing Whelps and Hatchlings\nLots can be found east and southeast of Mudsprocket.|US| ; '.' to make the steps work as intended - Hendo72
 R Mudsprocket|ACTIVE|11158|M|42.63,73.75|Z|1445|
 T Bloodfen Feathers|QID|11158|M|41.86,73.98|Z|1445|N|To Brogg, inside the Inn.|
 F Brackenwall Village|ACTIVE|1166|M|42.82,72.43|Z|1445|
