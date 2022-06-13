@@ -261,7 +261,7 @@ R South|ACTIVE|197|M|43.4,29.8;38.7,40.7|CC|Z|1434|N|Head back to the main road 
 K Tethis|ACTIVE|197|M|28,43;31,40;31,43|CN|Z|1434|L|3877|ITEM|3877|N|Tethis\nSpawns at multiple points in the area to the north of Gurubashi Arena.|T|Tethis|
 R Venture Co. Base Camp|ACTIVE|193|M|44.82,25.69|Z|1434|N|Head back to the main road and follow it north.|
 K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|CS|Z|1434|L|3876|ITEM|3876|N|Bhag'thera\nYou'll find Bhag'thera in one of 3 locations.|T|Bhag'thera|
-L Level Check|ACTIVE|193^197|N|Grind out on the mobs in the area until you're halfway to level 44.|LVL|43;-14000|
+L Level 44|ACTIVE|193^197|N|Grind out on the mobs in the area until you're halfway to level 44.|LVL|43;-14000|
 R Nesingwary's Expedition|ACTIVE|193^197|M|35.65,10.66|Z|1434|
 T Panther Mastery|QID|193|M|35.56,10.54|Z|1434|N|To S.J. Erlgadin.|
 T Raptor Mastery|QID|197|M|35.66,10.81|Z|1434|N|To Hemet Nesingwary Jr.|
@@ -409,7 +409,7 @@ N Zamek's Distraction|ACTIVE|1190|M|79.81,77.03|Z|1441|N|[color=FF0000]NOTE: [/c
 T Keeping Pace|QID|1190|M|77.21,77.38|Z|1441|N|Head to the other building and wait for Rizzle Brassbolts to leave to investigate the explosion.\n[color=FF0000]NOTE: [/color]When Rizzle leaves, the Guarded Plans will change to Unguarded Plans, enabling you to continue.\nIf Rizzle comes back before you're done, you'll have to get Zamek to distract him again.|
 A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|1441|N|From Rizzle's Unguarded Plans.\n[color=FF0000]NOTE: [/color]If Rizzle comes back before you're done, you'll have to get Zamek to distract him again.|PRE|1190|
 T Rizzle's Schematics|QID|1194|M|80.18,75.89|Z|1441|N|To Pozzik.|
-* Sample of Indurium Ore|AVAILABLE|-1194|ACTIVE|-1194|N|For whatever reason, they give this back to you. You can safely dispose of it.|U|5866|
+; * Sample of Indurium Ore|AVAILABLE|-1194|ACTIVE|-1194|N|For whatever reason, they give this back to you. You can safely dispose of it.|U|5866| -- This step is not working - Hendo72
 ; --- Tanaris
 R Tanaris|ACTIVE|2864|M|51.26,20.88|Z|1446|N|Make your way to the south end of Shimmering Flats and follow the torches to Tanaris.|
 N OOX-17/TN|AVAILABLE|351&4496|L|8623|N|This item is a randomly dropped quest starter you can get from killing one of 58 different NPCs/beasts in Tanaris.\n[color=FF0000]NOTE: [/color]The drop rate is incredibly low (less than 1%).\nManually check this step off to continue.|IZ|1446|
@@ -421,29 +421,31 @@ T Tran'rek|QID|2864|M|51.57,26.76|Z|1446|N|To Tran'rek.\n[color=FF0000]NOTE: [/c
 h Gadgetzan|AVAILABLE|1690^1707|M|52.50,27.90|Z|1446|N|At Inkeeper Fizzgrimble.|
 A Wastewander Justice|QID|1690|M|52.46,28.51|Z|1446|N|From Chief Engineer Bilgewhistle.|
 A Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|1446|N|From Spigot Operator Luglunket.|
+; --- This next set of steps only activates if they already have the FP in Feralas - Hendo72
 R Thousand Needles|ACTIVE|1189|M|75.54,97.45|Z|1441|N|This is the last time we'll be making this trip.\n[color=FF0000]NOTE: [/color]This is the end of the quest chain and it loses exp if you hit lv 47.|TAXI|Camp Mojache|
 T Safety First|QID|1189|M|80.33,76.09|Z|1441|N|To Razzeric.|TAXI|Camp Mojache|
-R Tanaris|ACTIVE|2872|M|51.26,20.88|Z|1446|N|Make your way to the south end of Shimmering Flats and follow the torches to Tanaris.|IZ|1441;Thousand Needles|
+R Tanaris|ACTIVE|-1189&1707|AVAILABLE|-1189|M|51.26,20.88|Z|1446|N|Make your way to the south end of Shimmering Flats and follow the torches to Tanaris.|TAXI|Camp Mojache|IZ|1441;Thousand Needles|
+C Water Pouch Bounty|QID|1707|M|59.88,23.20|Z|1446|L|8483 5|ITEM|8483|N|Any Wastewander mob|S|
+K Wastewander Justice|QID|1690|M|59.88,23.20|Z|1446|QO|1;2|S|
 R Steamwheedle Port|ACTIVE|2872|M|64.50,23.84|Z|1446|N|Make your way east towards the coast.|
 A Screecher Spirits|QID|3520|M|66.99,22.36|Z|1446|N|From Yeh'kinya.|
 T Stoley's Debt|QID|2872|M|67.11,23.98|Z|1446|N|To Stoley.|
 R Noonshade Ruins|ACTIVE|1707^1690|M|60.58,25.45|Z|1446|N|Follow the road west back towards Gadgetzan.|
-C Water Pouch Bounty|QID|1707|M|59.88,23.20|Z|1446|L|8483 5|N|Kill the bandits to loot the Water Pouches.|S|
-K Wastewander Justice|QID|1690|M|59.88,23.20|Z|1446|QO|1;2|N|\n[color=FF0000]NOTE: [/color]If this area is busy, there is a second location just to the south of here.|
-C Water Pouch Bounty|QID|1707|M|59.88,23.20|Z|1446|L|8483 5|N|Finish collecting the Water Pouches.|US|
-T Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|1446|N|To Spigot Operator Luglunket. Now repeatable for 10 faction, but no XP so not recommended.|
+K Wastewander Justice|QID|1690|M|59.88,23.20|Z|1446|QO|1;2|N|[color=FF0000]NOTE: [/color]If this area is busy, there are more just to the south of here in Waterspring Field.|
+C Water Pouch Bounty|QID|1707|M|59.88,23.20|Z|1446|L|8483 5|ITEM|8483|N|Any Wastewander mob|US|
+T Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|1446|N|To Spigot Operator Luglunket.|
 T Wastewander Justice|QID|1690|M|52.46,28.51|Z|1446|N|To Chief Engineer Bilgewhizzle.|
 
 ; -- Feralas
-f Gadgetzan|AVAILABLE|2987|M|51.60,25.44|Z|1446|N|At Bulkrek Ragefist.|TAXI|-Gadgetzan|
-F Camp Mojache|AVAILABLE|2987|M|51.60,25.4|Z|1446|TAXI|Camp Mojache|IZ|-1444|
-F Freewind Post|AVAILABLE|2987|ACTIVE|-1189|M|51.60,25.4|Z|1446|TAXI|-Camp Mojache|IZ|-1444|
-R Thousand Needles|AVAILABLE|2987|M|75.54,97.45|Z|1441|TAXI|-Camp Mojache|IZ|-1444|
+f Gadgetzan|AVAILABLE|2987|M|51.60,25.44|Z|1446|N|At Bulkrek Ragefist.|
+F Camp Mojache|AVAILABLE|2987|M|51.60,25.44|Z|1446|TAXI|Camp Mojache|
+F Freewind Post|AVAILABLE|2987|ACTIVE|-1189|M|51.60,25.44|Z|1446|TAXI|-Camp Mojache|IZ|1446|
+R Thousand Needles|AVAILABLE|2987|ACTIVE|-1189|M|75.54,97.45|Z|1441|TAXI|-Camp Mojache|
 T Safety First|QID|1189|M|80.33,76.09|Z|1441|N|To Razzeric.|TAXI|-Camp Mojache|
-R Ironstone Camp|AVAILABLE|2987|M|68.15,64.71|Z|1441|TAXI|-Camp Mojache|IZ|-1444|
-R Freewind Post|AVAILABLE|2987|M|47.01,46.86|Z|1441|TAXI|-Camp Mojache|IZ|-1444|
-R Feralas|AVAILABLE|2987|M|89.32,41.18|Z|1444|N|Make your way to the west end of Thousand Needles and into Feralas.\n[color=FF0000]NOTE: [/color]The road is the path of least resistance.|TAXI|-Camp Mojache|
-N OOX-22/FE Distress Beacon|AVAILABLE|2766&4496|N|This item is a randomly dropped quest starter you can get from killing one of 75 different NPCs/beasts in Feralas.\n[color=FF0000]NOTE: [/color]The drop rate is incredibly low (1% and lower).\nManually check this step off to continue.|IZ|1444|
+R Ironstone Camp|AVAILABLE|2987|ACTIVE|-1189|M|68.15,64.71|Z|1441|TAXI|-Camp Mojache|IZ|-1444|
+R Freewind Post|AVAILABLE|2987|ACTIVE|-1189|M|47.01,46.86|Z|1441|TAXI|-Camp Mojache|IZ|-1444|
+R Feralas|AVAILABLE|2987|ACTIVE|-1189|M|89.32,41.18|Z|1444|N|Make your way to the west end of Thousand Needles and into Feralas.\n[color=FF0000]NOTE: [/color]The road is the path of least resistance.|TAXI|-Camp Mojache|
+N OOX-22/FE Distress Beacon|AVAILABLE|2766&4496|N|This is a randomly dropped quest starter you can get from killing one of 75 different NPCs/beasts in Feralas.\n[color=FF0000]NOTE: [/color]The drop rate is incredibly low.\nManually check this step off to continue.|IZ|1444|
 A Find OOX-22/FE!|QID|2766|N|Lucky you! Click on the Beacon to accept the quest.|U|8705|O|
 R Camp Mojache|AVAILABLE|2987|M|78.22,42.54|Z|1444|N|Follow the road west to Camp Mojache.|TAXI|-Camp Mojache|
 f Camp Mojache|AVAILABLE|2987|M|75.45,44.35|Z|1444|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
@@ -452,14 +454,14 @@ A A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|1444|N|From Kreug Skullspitter ne
 A War on the Woodpaw|QID|2862|M|74.91,42.47|Z|1444|N|From Hadoken Swiftstrider, who's across the street from the inn.|
 A The Mark of Quality|QID|2822|M|74.43,42.91|Z|1444|N|From Jangdor Swiftstrider inside the big tent building across the road from the inn.|
 A A Strange Request|QID|3121|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'l right outside that tent building.|
-h Camp Mojache|ACTIVE|3121|M|74.81,45.19|Z|1444|N|Stop in the inn and set your hearthstone with Innkeeper Greul.|
+h Camp Mojache|ACTIVE|3121|M|74.81,45.19|Z|1444|N|Set your hearthstone with Innkeeper Greul.|
 A The Ogres of Feralas|QID|2975|M|73.53,45.12;75.96,42.85|CC|Z|1444|N|From Rok Orthan.\n[color=FF0000]NOTE: [/color]She roams between the Mill by the west entrance and the Mill by the east entrance. She makes a pit stop at the Inn going both ways.|
-L Level Check|ACTIVE|3121|M|81.90,44.90|Z|1444|N|Head into Lower Wilds and grind until you're lv 46.|LVL|46|
+L Level 46|ACTIVE|3121|M|81.90,44.90|Z|1444|N|Head into Lower Wilds and grind until you're lv 46.|LVL|46|
 R Camp Mojache|ACTIVE|3121|M|78.22,42.54|Z|1444|N|Return to Camp Mojache.|IZ|-Camp Mojache&1444|
-= Train|ACTIVE|3121|M|75.99,42.28|Z|1444|N|Train your lv 46 skills/spells with Jannos Lighthoof.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
+= Level 46 Training|ACTIVE|3121|M|75.99,42.28|Z|1444|N|Train your lv 46 skills/spells with Jannos Lighthoof.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
 F Orgrimmar|ACTIVE|3121|M|75.45,44.35|Z|1444|
-= Train|ACTIVE|3121|N|Train your lv 46 skills/spells.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Druid|
-r Repair, Restock, Sell Junk|AVAILABLE|3122|N|Do whatever housekeeping you to do.|
+= Level 46 Training|ACTIVE|3121|N|Train your lv 46 skills/spells.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Druid|
+r Repair, Restock, Sell Junk|AVAILABLE|3122|N|Do whatever housekeeping you to do.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T A Strange Request|QID|3121|M|49.48,50.58|Z|1454|N|To Neeru Fireblade in the Cleft of Shadows|
 A Return to Witch Doctor Uzer'i|QID|3122|M|49.48,50.58|Z|1454|N|From Neeru Fireblade.|PRE|3121|
 F Camp Mojache|ACTIVE|3122|M|45.13,63.90|Z|1454|
@@ -595,7 +597,7 @@ K Thistleshrub Valley|ACTIVE|3362|M|28.3,63.8|Z|1446|QO|1;2|N|Kill the required 
 C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|1446|L|8428|N|Continue to kill Thistleshrubs Dew Collectors until one drops the dew gland.|US|
 R The Noxious Lair|ACTIVE|82|M|30.71,53.03|Z|1446|
 C Noxious Lair Investigation|QID|82|M|35.00,46.00|Z|1446|L|8587 5|N|Kill the insects until your done looting.|
-L Level Check|ACTIVE|3161|LVL|47;99100|N|Grind a bit till this message goes away. (~4.5 bubbles from 48)|
+L Level 48|ACTIVE|3161|LVL|47;99100|N|Grind a bit till this message goes away. (~4.5 bubbles from 48)|
 R Broken Pillar|ACTIVE|3161|M|52.40,45.21|Z|1446|N|
 T Gahz'ridian|QID|3161|M|52.71,45.92|Z|1446|N|To Marvon Rivetseeker.|
 H Gadgetzan|ACTIVE|2605|M|52.50,27.90|Z|1446|N|Hearth or ride back to Gadgetzen.|
@@ -609,7 +611,7 @@ T Noxious Lair Investigation|QID|82|M|50.89,26.97|Z|1446|N|To Alchemist Pestlezu
 A The Scrimshank Redemption|QID|10|M|50.21,27.48|Z|1446|N|From Senior Surveyor Fizzledowser.|PRE|82|
 F Thunder Bluff|ACTIVE|3002|M|51.60,25.44|Z|1446|C|Druid|
 F Orgrimmar|ACTIVE|3002|M|51.60,25.44|Z|1446|C|-Druid|
-= Level 48|ACTIVE|3002|N|Train your lv 48 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Level 48 Training|ACTIVE|3002|N|Train your lv 48 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 F Orgrimmar|ACTIVE|3002|M|47.02,49.83|Z|1456|C|Druid|
 T The Gordunni Orb|QID|3002|M|39.16,86.27|Z|1454|N|To Uthel'nay in Darkbriar Lodge (Valley of Spirits).|
 T Zukk'ash Report|QID|7732|M|56.27,46.68|Z|1454|N|To Zilzibin Drumlore.\n[color=FF0000]NOTE: [/color]You can either go up the stairs on the east side of the Drag, or follow the 'stairs' behind Asorian's Market (across from Grommash Hold). He's in the building between the Herbalism trainer and the Cooking trainer.|
@@ -702,7 +704,7 @@ K Cannibalistic Cousins|ACTIVE|7844|M|47.10,65.71|Z|1425|QO|1;2|N|Kill the requi
 K Silvermane Howler|ACTIVE|7828|M|45.40,54.60|Z|1425|QO|2|N|Finish killing the Howlers.|US|
 K Savage Owlbeast|ACTIVE|7829|M|57.49,46.56|Z|1425|QO|1|N|Finish killing the Savage Owlbeasts.|US|
 l Natural Materials|ACTIVE|3128|M|57.49,46.56|Z|1425|QO|3;4|N|Finish collecting the Fragments and Sinews.|US|
-L Level Check|ACTIVE|2995|N|You need to be 7.5 bubbles from level 50. Grind out until you're.|LVL|49;-43850|
+L Level 50|ACTIVE|2995|N|You need to be 7.5 bubbles from level 50. Grind out until you're.|LVL|49;-43850|
 t Find OOX-09/HL!|QID|485|M|49.35,37.65|Z|1425|N|To OOX-09/HL.|
 A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|1425|N|From OOX-09/HL.|PRE|485|
 C Rescue OOX-09/HL!|QID|836|N|Let the chicken lead the way, so he will stop when agro. It can be very difficult to solo. Ask the zone if anyone wants to do it with you. There are 2 preset ambushes. Abandon if you're having too many difficulties.|
@@ -726,7 +728,7 @@ A ... and a Batch of Ooze|QID|4294|M|47.45,73.36|Z|1458|N|From Chemist Fuely; in
 b Durotar|ACTIVE|2641|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppelin back to Durotar.|
 R Orgrimmar|ACTIVE|2641|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|
 F Thunder Bluff|ACTIVE|2641|M|45.13,63.90|Z|1454|C|Druid|
-= Level 50 training|ACTIVE|2641|N|Train your lv 50 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Level 50 Training|ACTIVE|2641|N|Train your lv 50 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
 ; --- Tanaris
 F Gadgetzan|ACTIVE|2641|M|49.15,95.09|Z|1454|IZ|1454; Orgrimmar|
@@ -786,7 +788,7 @@ C Zapped Giants|QID|7003|M|38.52,22.46|Z|1444|L|18956 15|N|Locate and kill Giant
 C Mountain Giant Muisek|QID|3127|M|38.52,22.46|Z|1444|L|9597 7|N|Once you've looted the Giant's corpse,use the Muisek Vessel on them.|U|9621|US|
 T Zapped Giants|QID|7003|M|44.81,43.42|Z|1444|N|To Zorbin Fandazzle.|
 C Splintered Log|ACTIVE|3128|L|9590 2|N|Finish collecting the Logs.|US|
-L Level Check|ACTIVE|3127|N|Grind until you're level 51.|LVL|51|
+L Level 51|ACTIVE|3127|N|Grind until you're level 51.|LVL|51|
 H Camp Mojache|ACTIVE|3127|M|73.12,47.44|Z|1444|N|Hearth or ride back to Camp Mojache.|
 T Mountain Giant Muisek|QID|3127|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|
 T Natural Materials|QID|3128|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i.|
