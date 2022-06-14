@@ -142,7 +142,7 @@ R Kargath|ACTIVE|1419|M|10.02,42.87|Z|1418|
 T Coyote Thieves|QID|1419|M|6.48,47.20|Z|1418|N|To Neeka Bloodscar.|
 T Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|1418|N|To Jarkal Mossmeld.\n[color=FF0000]NOTE: [/color]Skip the follow-up.|
 T Broken Alliances|QID|782|M|2.92,45.59|Z|1418|N|To Gorn.\n[color=FF0000]NOTE: [/color]Skip the follow-up.|
-
+* Crag Coyote Fangs|AVAILABLE|-2258|ACTIVE|-2258|N|You can safely delete any left overs.|U|7846|
 ; --- Swamp of Sorrows
 H Orgrimmar|ACTIVE|1420|N|Hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
 P Moonglade|ACTIVE|1420|N|Use your Teleport: Moonglade to do your training.|C|Druid|
@@ -409,7 +409,7 @@ N Zamek's Distraction|ACTIVE|1190|M|79.81,77.03|Z|1441|N|[color=FF0000]NOTE: [/c
 T Keeping Pace|QID|1190|M|77.21,77.38|Z|1441|N|Head to the other building and wait for Rizzle Brassbolts to leave to investigate the explosion.\n[color=FF0000]NOTE: [/color]When Rizzle leaves, the Guarded Plans will change to Unguarded Plans, enabling you to continue.\nIf Rizzle comes back before you're done, you'll have to get Zamek to distract him again.|
 A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|1441|N|From Rizzle's Unguarded Plans.\n[color=FF0000]NOTE: [/color]If Rizzle comes back before you're done, you'll have to get Zamek to distract him again.|PRE|1190|
 T Rizzle's Schematics|QID|1194|M|80.18,75.89|Z|1441|N|To Pozzik.|
-; * Sample of Indurium Ore|AVAILABLE|-1194|ACTIVE|-1194|N|For whatever reason, they give this back to you. You can safely dispose of it.|U|5866| -- This step is not working - Hendo72
+* Sample of Indurium Ore|AVAILABLE|-1194|ACTIVE|-1194|N|For whatever reason, they give this back to you. You can safely dispose of it.|U|5866|
 ; --- Tanaris
 R Tanaris|ACTIVE|2864|M|51.26,20.88|Z|1446|N|Make your way to the south end of Shimmering Flats and follow the torches to Tanaris.|
 N OOX-17/TN|AVAILABLE|351&4496|L|8623|N|This item is a randomly dropped quest starter you can get from killing one of 58 different NPCs/beasts in Tanaris.\n[color=FF0000]NOTE: [/color]The drop rate is incredibly low (less than 1%).\nManually check this step off to continue.|IZ|1446|
@@ -469,7 +469,7 @@ T Return to Witch Doctor Uzer'i|QID|3122|M|74.42,43.36|Z|1444|N|To Witch Doctor 
 A Testing the Vessel|QID|3123|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.\n[color=FF0000]NOTE: [/color]There is a brief interlude before he offers this quest.|PRE|3122|
 A Natural Materials|QID|3128|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|PRE|3122|
 R Woodpaw Hills|ACTIVE|2862|M|71.3,49.0;70.45,49.82|CC|Z|1444|N|Exit Camp Mojache from the west and follow the road a short distance.|
-C War on the Woodpaw|QID|2862|M|70.16,54.59|Z|1444|L|9237 10|N|Kill gnolls to loot the Woodpaw Gnoll Manes.|
+C War on the Woodpaw|QID|2862|M|70.16,54.59|Z|1444|L|9237 10|ITEM|9237|N|Any Woodpaw Gnoll|
 R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|1444|
 T War on the Woodpaw|QID|2862|M|74.91,42.46|Z|1444|N|To Hadoken Swiftstrider.|
 A Alpha Strike.|QID|2863|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862| ; == Hendo72 - The '.' is to break auto-accept.
@@ -486,12 +486,12 @@ A The Gordunni Scroll|QID|2978|M|75,30;80.6,34.3|CN|Z|1444|N|Click on the scroll
 C Gordunni Cobalt|QID|2987|M|75.2,28.7|Z|1444|N|Locate a small blue light/patch on the ground and use the shovel to uncover the Gordunni Dirt Mound. Click on the Mound to loot the Cobalt. Rinse and repeat until you're done.\n[color=FF0000]NOTE: [/color]The Dirt Mound will glow blue if it contains a Cobalt. Otherwise, it contains junk.|U|9466|
 K The Ogres of Feralas|ACTIVE|2975|M|74.8,35.4|Z|1444|QO|1;2;3|N|Finish killing your required Ogres.\n[color=FF0000]NOTE: [/color]They cover a large area and going inside the tunnels isn't necessary unless it's really busy.|US|
 l Gordunni Scroll|AVAILABLE|2978|M|75,30;80.6,34.3|CN|Z|1444|L|9370|N|It spawns on the ground in multiple places spread over the entire Outpost.\n[color=FF0000]NOTE: [/color]Skip this step if you so wish.|US|RANK|3|
-C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|1444|L|9589 6|N|Loot these from the Sprite Darters.|S|
-C A New Cloak's Sheen|QID|2973|M|69.43,45.60|Z|1444|L|9369 10|N|From Gordunni Outpost, cross the river and head southwest to where the Sprite Darters are. Kill them to loot your Sprite Darter Wings.|
-C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|1444|L|9589 6|N|Loot these from the Sprite Darters.|US|
+C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|1444|L|9589 6|ITEM|9589|N|Sprite Darters.|S|
+C A New Cloak's Sheen|QID|2973|M|69.43,45.60|Z|1444|L|9369 10|ITEM|9369|N|Sprite Darters\nFrom Gordunni Outpost, cross the river and head southwest to where they are.|
+C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|1444|L|9589 6|ITEM|9589|N|Sprite Darters.|US|
 T Woodpaw Investigation|QID|2902|M|71.2,56.4;71.63,55.92|CS|Z|1444|N|Make your way to the camp in the gnoll area. After clearing the camp, locate the Woodpaw Battle Map sitting on a crate and click on it.|
 A The Battle Plans|QID|2903|M|71.63,55.92|Z|1444|N|From the Woodpaw Battle Map.|PRE|2902|
-R Camp Mojache|ACTIVE|2975|M|73.12,47.44|Z|1444|N|Head back to turn in a bunch of quests.|
+R Camp Mojache|ACTIVE|2975|M|73.12,47.44|Z|1444|
 T The Ogres of Feralas|QID|2975|M|75.9,43.6|Z|1444|N|To Rok Orthan.\n[color=FF0000]NOTE: [/color]Turn it in when you find her.|S|
 A The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|1444|N|From Rok Orthan.|PRE|2975|
 T The Gordunni Scroll|QID|2978|ACTIVE|2980|M|75.9,43.6|Z|1444|N|To Rok Orthan.|
@@ -503,23 +503,22 @@ A Stinglasher|QID|7731|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.|PRE|290
 T A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|1444|N|To Kreug Skullspitter.|
 A A Grim Discovery|QID|2974|M|75.95,42.73|Z|1444|N|From Kreug Skullspitter|PRE|2973|
 T The Ogres of Feralas|QID|2975|M|75.96,42.85;73.53,45.12|CC|Z|1444|N|To Rok Orthan.|US|
-r Restock, Repair, Sell Junk|ACTIVE|7731|N|Get ready for another circuit of quests.|IZ|Camp Mojache|
-C Splintered Log|ACTIVE|3128|L|9590 2|N|Kill Wandering Forest Walkers to loot these.|S|IZ|1444|
-R The Writhing Deep|ACTIVE|7731|M|71.3,49.0;75,60|CC|Z|1444|N|Head to Writhing Deep.|
-C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|1444|L|18961 20|N|Kill insects to loot the Zukk'Ash carapaces.|S|
-K Stinglasher|ACTIVE|7731|M|75.81,60.92|Z|1444|L|18962|N|Go to the eastern hive entrance and you should find Stinglasher roaming in and out of the entrance.|
-C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|1444|L|18961 20|N|Finish collecting the Zukk'Ash carapaces.\n[color=FF0000]NOTE: [/color]Above or below ground, the choice is yours. Workers and Wasps are your best bet for getting them.|US|
+C Splintered Log|ACTIVE|3128|L|9590 2|ITEM|9590|N|Wandering Forest Walkers|S|IZ|1444|
+R The Writhing Deep|ACTIVE|7731|M|71.3,49.0;75,60|CC|Z|1444|
+C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|1444|L|18961 20|ITEM|18961|N|Any insect|S|
+K Stinglasher|ACTIVE|7731|M|75.81,60.92|Z|1444|L|18962|ITEM|18962|N|Stinglasher\nGo to the eastern hive entrance and you should find Stinglasher roaming in and out of the entrance.|
+C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|1444|L|18961 20|ITEM|18961|N|Any insect\n[color=FF0000]NOTE: [/color]Above or below ground, the choice is yours. Workers and Wasps are your best bet for getting them.|US|
 R Grimtotem Compound|ACTIVE|2974|M|69.50,42.00|Z|1444|
-C A Grim Discovery|QID|2974|M|69.16,38.17|Z|1444|L|9460 20|N|Kill Grimtotems to loot the Grimtotem Horns.|
+C A Grim Discovery|QID|2974|M|69.16,38.17|Z|1444|L|9460 20|ITEM|9460|N|Any Grimtotem mob|
 R Verdantis River|ACTIVE|2980|M|66.0,49.1;63.76,51.09|CC|Z|1444|N|Head back to the road and follow it west to the Bridge over the river.|
 R Ruins of Isildien|ACTIVE|2980|M|61.9,53.1;61.71,53.97|CC|Z|1444|N|Cross the bridge and continue west to the Ruins of Isildien.|
 K The Ogres of Feralas|ACTIVE|2980|M|59.34,66.62|Z|1444|QO|1;2;3|N|Kill the required oqgres.|S|
-C Dark Ceremony|QID|2979|M|59.51,67.48|Z|1444|L|9371|N|Kill Gordunni Mage-Lords until one drops the Gordunni Orb.\n[color=FF0000]NOTE: [/color]Move down the hill and past the first building as quickly as you can to get to where the Mage-Lords are.|
+C Dark Ceremony|QID|2979|M|59.51,67.48|Z|1444|L|9371|ITEM|9371|N|Gordunni Mage-Lords\n[color=FF0000]NOTE: [/color]Move down the hill and past the first building as quickly as you can to get to where the Mage-Lords are.|
 K The Ogres of Feralas|ACTIVE|2980|M|59.34,66.62|Z|1444|QO|1;2;3|N|Kill the required oqgres.|US|
 C Screecher Spirits|QID|3520|M|58.48,58.83|Z|1444|N|After you've killed and looted a Screecher, use Yeh'kinya's Bramble on it causing a screecher spirit to appear.\n[color=FF0000]NOTE: [/color]You must click on the spirit to get credit for it.|U|10699|S|
 R Feral Scar Vale|ACTIVE|2822|M|56.51,58.27|Z|1444|
-C The Mark of Quality|QID|2822|ACTIVE|-2766|M|55.4,54.4|Z|1444|L|8973 10|N|Kill yetis to loot the Hides.|
-C The Mark of Quality|QID|2822|ACTIVE|2766|M|55.4,54.4|Z|1444|L|8973 10|N|Enter the cave and kill yetis to loot the Hides as you work your way deeper into it.|S|
+C The Mark of Quality|QID|2822|ACTIVE|-2766|M|55.4,54.4|Z|1444|L|8973 10|ITEM|8973|N|Any yeti|
+C The Mark of Quality|QID|2822|ACTIVE|2766|M|55.4,54.4|Z|1444|L|8973 10|ITEM|8973|N|Any Yeti\nEnter the cave and work your way deeper into it.|S|
 t Find OOX-22/FE!|QID|2766|M|53.35,55.70|Z|1444|N|To the Homing Robot OOX-22/FE found inside the Feral Scar Vale Yeti cave.|
 A Rescue OOX-22/FE!|QID|2767|M|53.35,55.70|Z|1444|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom the Homing Robot OOX-22/FE|PRE|2766|
 A Rescue OOX-22/FE!|QID|2767|M|53.35,55.70|Z|1444|N|[color=CC00FF]QUEST FAILED [/color]\nGo back into the Yeti cave and restart the quest from the Homing Robot OOX-22/FE|PRE|2766|FAIL|
@@ -529,7 +528,6 @@ H Camp Mojache|ACTIVE|2822|M|73.12,47.44|Z|1444|
 T The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|1444|N|To Rok Orthan.\n[color=FF0000]NOTE: [/color]Turn it in when you find her.|S|
 A The Sunken Temple|QID|3380|M|74.42,43.36|Z|1444|ELITE|N|[color=E6CC80]Dungeon: 'Sunken Temple'[/color]\nFrom Witch Doctor Uzer'i.\n[color=FF0000]NOTE: [/color]This dungeon quest is a breadcrumb to some normal quests in Tanaris.|
 T The Mark of Quality|QID|2822|M|74.43,42.91|Z|1444|N|To Jangdor Swiftstrider.|
-;A Improved Quality|QID|7734|M|74.43,42.91|Z|1444|N|From Jangdor Swiftstrider.|PRE|2822|
 T Zukk'ash Infestation|QID|7730|M|74.91,42.46|Z|1444|N|To Hadoken Swiftstrider.|
 A Zukk'ash Report|QID|7732|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.|
 T Stinglasher|QID|7731|M|74.91,42.46|Z|1444|N|To Hadoken Swiftstrider.|
@@ -553,12 +551,12 @@ R Lost Rigger Cove|ACTIVE|8366|M|68.57,41.43|Z|1446|N|Follow the shoreline south
 U Pirate's Footlocker|AVAILABLE|2876|L|9250|N|Open it to loot a quest starter, Ship Schedules.|U|9276|
 A Ship Schedule|QID|2876|N|Click the Ship Schedules accept the quest.|U|9250|O|
 K Southsea Shakedown|ACTIVE|8366|M|73.00,47.00|Z|1446|QO|1;2;3;4|N|kill the required Pirates.|S|
-C Pirate Hats Ahoy!|QID|8365|M|73.15,45.81|Z|1446|L|20519 20|N|Kill pirates to loot the Hats.|S|
+C Pirate Hats Ahoy!|QID|8365|M|73.15,45.81|Z|1446|L|20519 20|ITEM|20519|N|Any pirate|S|
 R Fort Entrance|ACTIVE|2873|M|73.17,45.56|CC|Z|1446|N|Go through the tunnel and make your way across to the ONLY opening in the wall on the west side.|
 C Stoley's Shipment|QID|2873|M|72.7,46.8;72.15,46.77|CC|Z|1446|L|9244|N|Enter the house and work your way to the top floor to collect Stoley's Shipment.\n[color=FF0000]NOTE: [/color]There 3 mobs just inside the entrance and 3 more on the 2nd floor.\nIf you die, just rez on the top floor (there's nobody there).|
 K Andre Firebeard|ACTIVE|2875|M|73.38,47.08|Z|1446|QO|1|N|Kill Andre Firebeard by the fire near the other buildings.\n[color=FF0000]NOTE: [/color]Clear the area to the north of him and be prepared to pull Andre with his guards (at least 2 of them).|T|Andre Firebeard|
 K Southsea Shakedown|ACTIVE|8366|M|73.37,46.86|Z|1446|QO|1;2;3;4|N|Finish killing the required Pirates.\n[color=FF0000]NOTE: [/color]Watch for adds, as you can become overwhelmed very quickly.|US|
-C Pirate Hats Ahoy!|QID|8365|M|73.15,45.81|Z|1446|L|20519 20|N|Finish collecting the Hats.|US|
+C Pirate Hats Ahoy!|QID|8365|M|73.15,45.81|Z|1446|L|20519 20|ITEM|20519|N|Any pirate|US|
 R Steamwheedle Port|ACTIVE|8366|M|67.1,23.9|Z|1446|
 t Ship Schedule|QID|2876|M|67.06,23.89|Z|1446|N|To Security Chief Bilgewhizzle.|
 T WANTED: Andre Firebeard|QID|2875|M|67.06,23.89|Z|1446|N|To Security Chief Bilgewhizzle.|
@@ -567,9 +565,6 @@ T Stoley's Shipment|QID|2873|M|67.11,23.98|Z|1446|N|To Stoley.|
 A Deliver to MacKinley|QID|2874|M|67.11,23.98|Z|1446|N|From Stoley.|PRE|2873|
 T Pirate Hats Ahoy!|QID|8365|M|66.56,22.27|Z|1446|N|To Haughty Modiste.|
 R Gadgetzan|AVAILABLE|992|M|52.50,27.90|Z|1446|
-;T More Wastewander Justice|QID|1691|M|52.46,28.51|Z|1446|N|To Chief Engineer Bilgewhizzle.|
-;T WANTED: Caliph Scorpidsting|QID|2781|M|52.46,28.51|Z|1446|N|To Chief Engineer Bilgewhizzle.|
-;t Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|1446|N|To Spigot Operator Luglunket as many times as you can.|
 A Gadgetzan Water Survey|QID|992|M|50.21,27.48|Z|1446|N|From Senior Surveyor Fizzledowser.|
 A The Thirsty Goblin|QID|2605|M|51.81,28.66|Z|1446|N|From Marin Noggenfogger.|
 A The Dunemaul Compound|QID|5863|M|52.82,27.40|Z|1446|N|From Andi Lynn.|
@@ -592,13 +587,13 @@ R Eastmoon Ruins|ACTIVE|3161|M|45.91,64.82|Z|1446|
 C Gahz'ridian|QID|3161|M|45.91,64.82|Z|1446|L|8443 30|N|Finish collecting the Gahz'ridian Ornaments.|US|
 K The Dunemaul Compound|ACTIVE|5863|M|45.91,64.82|Z|1446|QO|1;2|N|Finish killing your required ogres.|US|
 R Thistleshrub Valley|ACTIVE|2605|M|28,67|Z|1446|N|Go west to Thistleshrub Valley.|
-C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|1446|L|8428|N|Kill Thistleshrubs Dew Collectors until one drops the dew gland.|S|
+C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|1446|L|8428|ITEM|8428|N|Thistleshrubs Dew Collectors|S|
 K Thistleshrub Valley|ACTIVE|3362|M|28.3,63.8|Z|1446|QO|1;2|N|Kill the required Thistleshrubs.|
-C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|1446|L|8428|N|Continue to kill Thistleshrubs Dew Collectors until one drops the dew gland.|US|
+C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|1446|L|8428|ITEM|8428|N|Thistleshrubs Dew Collectors|US|
 R The Noxious Lair|ACTIVE|82|M|30.71,53.03|Z|1446|
-C Noxious Lair Investigation|QID|82|M|35.00,46.00|Z|1446|L|8587 5|N|Kill the insects until your done looting.|
+C Noxious Lair Investigation|QID|82|M|35.00,46.00|Z|1446|L|8587 5|ITEM|8587|N|Any insect|
 L Level 48|ACTIVE|3161|LVL|47;99100|N|Grind a bit till this message goes away. (~4.5 bubbles from 48)|
-R Broken Pillar|ACTIVE|3161|M|52.40,45.21|Z|1446|N|
+R Broken Pillar|ACTIVE|3161|M|52.40,45.21|Z|1446|
 T Gahz'ridian|QID|3161|M|52.71,45.92|Z|1446|N|To Marvon Rivetseeker.|
 H Gadgetzan|ACTIVE|2605|M|52.50,27.90|Z|1446|N|Hearth or ride back to Gadgetzen.|
 T The Dunemaul Compound|QID|5863|M|52.82,27.40|Z|1446|N|To Andi Lynn.|
