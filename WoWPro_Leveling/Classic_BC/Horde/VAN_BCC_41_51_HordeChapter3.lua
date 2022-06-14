@@ -472,10 +472,11 @@ R Woodpaw Hills|ACTIVE|2862|M|71.3,49.0;70.45,49.82|CC|Z|1444|N|Exit Camp Mojach
 C War on the Woodpaw|QID|2862|M|70.16,54.59|Z|1444|L|9237 10|ITEM|9237|N|Any Woodpaw Gnoll|
 R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|1444|
 T War on the Woodpaw|QID|2862|M|74.91,42.46|Z|1444|N|To Hadoken Swiftstrider.|
-A Alpha Strike.|QID|2863|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862| ; == Hendo72 - The '.' is to break auto-accept.
-A Alpha Strike|QID|2863|M|74.91,42.46|Z|1444|N|Return to Hadoken Swiftstrider to restart the quest.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862|FAIL| ; == Hendo72 - The '.' is to break auto-accept.
-R Lower Wilds|ACTIVE|2863|M|74.00,53.13|Z|1444|N|Head west from CAmp Mojache.|
-K Alpha Strike|QID|2863|M|74.4,54.1;75.3,56.8;73.3,57.0;71.9,56.7;71.2,56.5|CC|Z|1444|QO|1|N|Head back to the gnoll camps and kill 5 Woodpaw Alpha within 60 minutes.\n[color=FF0000]NOTE: [/color]If you clear the area behind the Alpha, you can single pull them away from the group. You may get the occasional helper if they are too close.|
+A Alpha Strike.|QID|2863|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.\n[color=FF0000]NOTE: [/color]This is a 1 hr timed quest.|PRE|2862| ; == Hendo72 - The '.' is to break auto-accept.
+A Alpha Strike.|QID|2863|M|74.91,42.46|Z|1444|N|Return to Hadoken Swiftstrider to restart the quest.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862|FAIL| ; == Hendo72 - The '.' is to break auto-accept.
+C Splintered Log|ACTIVE|3128|L|9590 2|ITEM|9590|N|Wandering Forest Walkers\n[color=FF0000]NOTE: [/color]They only have 4 specific spawn points in Feralas.|S|IZ|1444|
+R Lower Wilds|ACTIVE|2863|M|74.00,53.13|Z|1444|N|Head west from Camp Mojache.|
+K Alpha Strike|QID|2863|M|74.4,54.1;75.3,56.8;73.3,57.0;71.9,56.7;71.2,56.5|CC|Z|1444|QO|1|N|You'll find Woodpaw Alphas in the camps around the Lower Wilds.\n[color=FF0000]NOTE: [/color]The timer does not stop until you turn in the quest.|
 R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|1444|N|Remember the TIMER is still running. Don't get distracted by shineys.|
 T Alpha Strike|QID|2863|M|74.91,42.46|Z|1444|N|To Hadoken Swiftstrider.|
 A Woodpaw Investigation|QID|2902|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.|PRE|2863|
@@ -503,7 +504,6 @@ A Stinglasher|QID|7731|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.|PRE|290
 T A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|1444|N|To Kreug Skullspitter.|
 A A Grim Discovery|QID|2974|M|75.95,42.73|Z|1444|N|From Kreug Skullspitter|PRE|2973|
 T The Ogres of Feralas|QID|2975|M|75.96,42.85;73.53,45.12|CC|Z|1444|N|To Rok Orthan.|US|
-C Splintered Log|ACTIVE|3128|L|9590 2|ITEM|9590|N|Wandering Forest Walkers|S|IZ|1444|
 R The Writhing Deep|ACTIVE|7731|M|71.3,49.0;75,60|CC|Z|1444|
 C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|1444|L|18961 20|ITEM|18961|N|Any insect|S|
 K Stinglasher|ACTIVE|7731|M|75.81,60.92|Z|1444|L|18962|ITEM|18962|N|Stinglasher\nGo to the eastern hive entrance and you should find Stinglasher roaming in and out of the entrance.|
@@ -782,7 +782,7 @@ C Mountain Giant Muisek|QID|3127|M|38.52,22.46|Z|1444|L|9597 7|N|Once you've loo
 C Zapped Giants|QID|7003|M|38.52,22.46|Z|1444|L|18956 15|N|Locate and kill Giants after using the Shrinker on them.\n[color=FF0000]NOTE: [/color]The 'Use' Key bind will not work for this item until you're done with the Muisek Vessel.|U|18904|
 C Mountain Giant Muisek|QID|3127|M|38.52,22.46|Z|1444|L|9597 7|N|Once you've looted the Giant's corpse,use the Muisek Vessel on them.|U|9621|US|
 T Zapped Giants|QID|7003|M|44.81,43.42|Z|1444|N|To Zorbin Fandazzle.|
-C Splintered Log|ACTIVE|3128|L|9590 2|N|Finish collecting the Logs.|US|
+C Splintered Log|ACTIVE|3128|M|73.10,54.90;44.1,23.2;73.8,38.9;55.1,74.4|CN|Z|1444|L|9590 2|ITEM|9590|N|Wandering Forest Walkers\n[color=FF0000]NOTE: [/color]They only have 4 specific spawn points in Feralas. With a respawn timer of 10 minutes, I suggest picking one and camping it.|US|
 L Level 51|ACTIVE|3127|N|Grind until you're level 51.|LVL|51|
 H Camp Mojache|ACTIVE|3127|M|73.12,47.44|Z|1444|N|Hearth or ride back to Camp Mojache.|
 T Mountain Giant Muisek|QID|3127|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|
