@@ -828,6 +828,7 @@ _G.StaticPopupDialogs["WOWPRO_DELETE_ITEM"] = {
 }
 
 function WoWPro.TrashItem(use, step)
+    use = tonumber(use) -- needs to be a number
     for bag=_G.BACKPACK_CONTAINER, _G.NUM_BAG_SLOTS do
         local slots = _G.GetContainerNumSlots(bag)
         for slot=1,slots do
