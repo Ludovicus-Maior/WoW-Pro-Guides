@@ -473,22 +473,23 @@ C War on the Woodpaw|QID|2862|M|70.16,54.59|Z|1444|L|9237 10|ITEM|9237|N|Any Woo
 R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|1444|
 T War on the Woodpaw|QID|2862|M|74.91,42.46|Z|1444|N|To Hadoken Swiftstrider.|
 A Alpha Strike.|QID|2863|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.\n[color=FF0000]NOTE: [/color]This is a 1 hr timed quest.|PRE|2862| ; == Hendo72 - The '.' is to break auto-accept.
-A Alpha Strike.|QID|2863|M|74.91,42.46|Z|1444|N|Return to Hadoken Swiftstrider to restart the quest.\n[color=FF0000]NOTE: [/color]This is a timed quest.|PRE|2862|FAIL| ; == Hendo72 - The '.' is to break auto-accept.
+A Alpha Strike.|QID|2863|M|74.91,42.46|Z|1444|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Hadoken Swiftstrider to restart the quest.\n[color=FF0000]NOTE: [/color]This is a 1 hr timed quest.|PRE|2862|FAIL| ; == Hendo72 - The '.' is to break auto-accept.
 C Splintered Log|ACTIVE|3128|L|9590 2|ITEM|9590|N|Wandering Forest Walkers\n[color=FF0000]NOTE: [/color]They only have 4 specific spawn points in Feralas.|S|IZ|1444|
 R Lower Wilds|ACTIVE|2863|M|74.00,53.13|Z|1444|N|Head west from Camp Mojache.|
-K Alpha Strike|QID|2863|M|74.4,54.1;75.3,56.8;73.3,57.0;71.9,56.7;71.2,56.5|CC|Z|1444|QO|1|N|You'll find Woodpaw Alphas in the camps around the Lower Wilds.\n[color=FF0000]NOTE: [/color]The timer does not stop until you turn in the quest.|
+K Alpha Strike|QID|2863|M|74.4,54.1;75.3,56.8;73.3,57.0;71.9,56.7;71.2,56.5|CC|Z|1444|QO|1|N|You'll find Woodpaw Alphas in the camps around the Lower Wilds and Woodpaw Hills.\n[color=FF0000]NOTE: [/color]The timer does not stop until you turn in the quest.|
 R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|1444|N|Remember the TIMER is still running. Don't get distracted by shineys.|
 T Alpha Strike|QID|2863|M|74.91,42.46|Z|1444|N|To Hadoken Swiftstrider.|
 A Woodpaw Investigation|QID|2902|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.|PRE|2863|
 K The Ogres of Feralas|ACTIVE|2975|M|74.8,35.4|Z|1444|QO|1;2;3|S|
 R Gordunni Outpost|ACTIVE|2975^2987|M|74.8,35.4;75.00,35.13|CC|Z|1444|N|Use the west exit and head to the Ogre outpost north of Camp Mojache.\n[color=FF0000]NOTE: [/color]Look for the torches marking the entrance on the east side of the river (by the waterfall).|
 l Gordunni Scroll|AVAILABLE|2978|M|75,30;80.6,34.3|CN|Z|1444|L|9370|N|This quest starter spawns on the ground in multiple places spread over the entire Outpost.|S|
-A The Gordunni Scroll|QID|2978|M|75,30;80.6,34.3|CN|Z|1444|N|Click on the scroll to accept the quest.|U|9370|PRE|
-C Gordunni Cobalt|QID|2987|M|75.2,28.7|Z|1444|N|Locate a small blue light/patch on the ground and use the shovel to uncover the Gordunni Dirt Mound. Click on the Mound to loot the Cobalt. Rinse and repeat until you're done.\n[color=FF0000]NOTE: [/color]The Dirt Mound will glow blue if it contains a Cobalt. Otherwise, it contains junk.|U|9466|
+A The Gordunni Scroll|QID|2978|M|75,30;80.6,34.3|CN|Z|1444|N|Click on the scroll to accept the quest.|U|9370|O|
+C Gordunni Cobalt|QID|2987|M|75.2,28.7|Z|1444|L|9463 12|N|Locate a small blue light/patch on the ground and use the shovel to uncover the Gordunni Dirt Mound. Click on the Mound to loot the Cobalt. Rinse and repeat until you're done.\n[color=FF0000]NOTE: [/color]The Dirt Mound will glow blue if it contains a Cobalt. Otherwise, it contains junk.|U|9466|
 K The Ogres of Feralas|ACTIVE|2975|M|74.8,35.4|Z|1444|QO|1;2;3|N|Finish killing your required Ogres.\n[color=FF0000]NOTE: [/color]They cover a large area and going inside the tunnels isn't necessary unless it's really busy.|US|
 l Gordunni Scroll|AVAILABLE|2978|M|75,30;80.6,34.3|CN|Z|1444|L|9370|N|It spawns on the ground in multiple places spread over the entire Outpost.\n[color=FF0000]NOTE: [/color]Skip this step if you so wish.|US|RANK|3|
 C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|1444|L|9589 6|ITEM|9589|N|Sprite Darters.|S|
-C A New Cloak's Sheen|QID|2973|M|69.43,45.60|Z|1444|L|9369 10|ITEM|9369|N|Sprite Darters\nFrom Gordunni Outpost, cross the river and head southwest to where they are.|
+C A New Cloak's Sheen|QID|2973|M|69.43,45.60|Z|1444|L|9369 10|ITEM|9369|N|Sprite Darters\nFrom Gordunni Outpost, cross the river and head southwest to where they are.|C|Hunter,Rogue,Warrior|
+C A New Cloak's Sheen|QID|2973|M|69.43,45.60|Z|1444|L|9369 10|ITEM|9369|N|Sprite Darters\nFrom Gordunni Outpost, cross the river and head southwest to where they are.\n[color=FF0000]NOTE: [/color]These guys cast Mana Burn and it's quite the wallop.|C|-Hunter,-Rogue,-Warrior|
 C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|1444|L|9589 6|ITEM|9589|N|Sprite Darters.|US|
 T Woodpaw Investigation|QID|2902|M|71.2,56.4;71.63,55.92|CS|Z|1444|N|Make your way to the camp in the gnoll area. After clearing the camp, locate the Woodpaw Battle Map sitting on a crate and click on it.|
 A The Battle Plans|QID|2903|M|71.63,55.92|Z|1444|N|From the Woodpaw Battle Map.|PRE|2902|
