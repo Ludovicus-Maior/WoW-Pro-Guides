@@ -488,7 +488,8 @@ C Gordunni Cobalt|QID|2987|M|75.2,28.7|Z|1444|L|9463 12|N|Locate a small blue li
 K The Ogres of Feralas|ACTIVE|2975|M|74.8,35.4|Z|1444|QO|1;2;3|N|Finish killing your required Ogres.\n[color=FF0000]NOTE: [/color]They cover a large area and going inside the tunnels isn't necessary unless it's really busy.|US|
 l Gordunni Scroll|AVAILABLE|2978|M|75,30;80.6,34.3|CN|Z|1444|L|9370|N|It spawns on the ground in multiple places spread over the entire Outpost.\n[color=FF0000]NOTE: [/color]Skip this step if you so wish.|US|RANK|3|
 C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|1444|L|9589 6|ITEM|9589|N|Sprite Darters.|S|
-C A New Cloak's Sheen|QID|2973|M|69.43,45.60|Z|1444|L|9369 10|ITEM|9369|N|Sprite Darters\nFrom Gordunni Outpost, cross the river and head southwest to where they are.|
+C A New Cloak's Sheen|QID|2973|M|69.43,45.60|Z|1444|L|9369 10|ITEM|9369|N|Sprite Darters\nFrom Gordunni Outpost, cross the river and head southwest to where they are.|C|Hunter,Rogue,Warrior|
+C A New Cloak's Sheen|QID|2973|M|69.43,45.60|Z|1444|L|9369 10|ITEM|9369|N|Sprite Darters\nFrom Gordunni Outpost, cross the river and head southwest to where they are.\n[color=FF0000]NOTE: [/color]These guys cast Mana Burn and it's quite the wallop.|C|-Hunter,-Rogue,-Warrior|
 C Encrusted Minerals|QID|3128|M|69.43,45.60|Z|1444|L|9589 6|ITEM|9589|N|Sprite Darters.|US|
 T Woodpaw Investigation|QID|2902|M|71.2,56.4;71.63,55.92|CS|Z|1444|N|Make your way to the camp in the gnoll area. After clearing the camp, locate the Woodpaw Battle Map sitting on a crate and click on it.|
 A The Battle Plans|QID|2903|M|71.63,55.92|Z|1444|N|From the Woodpaw Battle Map.|PRE|2902|
