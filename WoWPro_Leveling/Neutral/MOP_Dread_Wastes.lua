@@ -124,7 +124,7 @@ A Walking Dog|QID|31185|PRE|31183|M|55.66,72.49|N|From Captain "Soggy" Su-Dao.|
 A Old Age and Treachery|QID|31184|PRE|31183|M|55.66,72.49|N|From Captain "Soggy" Su-Dao.|
 A On the Crab|QID|31187|PRE|31183|M|54.73,72.28|N|From Deck Boss Arie.|
 A Shark Week|QID|31188|PRE|31183|M|54.73,72.28|N|From Deck Boss Arie.|
-A Dog Food|QID|31186|PRE|31183|U|85955|N|From Dog.|
+A Dog Food|QID|31186|PRE|31183|U|85955|N|From Dog. Use the whistle if he is not summoned.|
 C Dog Food|QID|31186|S|U|85955|N|Make sure Dog is around when you kill his food (Rockshell Snapclaws).|
 C Shark Week|QID|31188|S|U|85998|N|Kill Sharks, loot Thresher Jaw, extract the teeth from the jaw.|;Bliz claims to have fixed this so you can have multiples, you don't have to do it after each kill.|
 C On the Crab|QID|31187|S|NC|M|40,79|
@@ -303,10 +303,10 @@ T Fate of the Stormstouts|QID|31129|M|50.43,11.95|N|To Chen Stormstout.|
 C Daggers of the Great Ones|QID|31070|S|M|49.69,17.64|N|The Mushan near the brewgarden are the ones you want, not the ones on the far side of the sha's dread scar.|
 C Bound With Shade|QID|31069|S|M|57.56,15.98|N|You are after the little packs of Dreadlings.|
 A Evie Stormstout|QID|31077|PRE|31076^31129|M|54.08,20.52|N|From Chen Stormstout.|
-C Get the Lost Keg|QID|31071|NC|L|83781|M|54.5,20.3|N|Sparkly barrel under a tree branch, a bit hard to see in the dark area.|
-K Kill Kz'Kzik|QID|31072|T|Kz'Kzik|L|84111|M|53.2,20.2|N|He wanders around in front of the place where you found Evie and the lost keg.|
-C Get the Lost Picnic Supplies|QID|31071|NC|L|83783|M|56.00,19.56|N|Who picnics here...It's a smallish blanket with a picnic for two laid out.|
-K Kill Ilikkax|QID|31072|T|Ilikkax|L|84112|M|50.8,20.6|N|He stays inside the structure he is at.|
+C Get the Lost Keg|QID|31071|NC|QO|2|M|54.5,20.3|N|Sparkly barrel under a tree branch, a bit hard to see in the dark area.|
+K Kill Kz'Kzik|ACTIVE|31072|T|Kz'Kzik|QO|1|M|53.2,20.2|N|He wanders around in front of the place where you found Evie and the lost keg.|
+C Get the Lost Picnic Supplies|QID|31071|NC|QO|3|M|56.00,19.56|N|Who picnics here...It's a smallish blanket with a picnic for two laid out.|
+K Kill Ilikkax|QID|31072|T|Ilikkax|QO|2|M|50.8,20.6|N|He stays inside the structure he is at.|
 C Get the Lost Mugs|QID|31071|NC|L|83782|M|51.67,19.03|N|Many sparkly mugs on top of a largish rock.|
 C Bound With Shade|QID|31069|US|M|57.56,15.98|N|You are after the little packs of Dreadlings.|
 C Daggers of the Great Ones|QID|31070|US|M|49.69,17.64|N|The mushan nearer the brewgarden are the ones you seek.|
