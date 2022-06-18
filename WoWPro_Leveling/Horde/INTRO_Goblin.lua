@@ -342,7 +342,7 @@ R Bladefist Bay|QID|25266|Z|The Lost Isles|M|42.59,16.40|N|Talk to Sassy Hardwre
 T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|Durotar|N|To Korkron Loyalist.|
 A Message for Saurfang|QID|25267|M|57.67,9.6|Z|Durotar|N|From some Loyalist. On accepting quest, you will be taken to Orgrimmar.|
 T Message for Saurfang|QID|25267|M|48.26,70.93|Z|Orgrimmar|N|To Saurfang, inside Grommash Hold.|
-A Report to the Labor Captain|QID|25275|LEAD|14129|PRE|25267|M|48.26,70.93|Z|Orgrimmar|N|From Saurfang.|
+A Report to the Labor Captain|QID|25275|LEAD|14129|PRE|25267|M|49.22,71.87|Z|Orgrimmar|N|From Eitrigg.|
 A Missing Reports|QID|26803|M|49.0,72.2|Z|Orgrimmar|N|From Eitrigg.|RANK|2|
 T Missing Reports|QID|26803|M|49.4,59.2|Z|Orgrimmar|N|To Doras, the flight master, located on the upper level of Orgrimmar.|RANK|2|
 A Flight to Razor Hill|QID|26804|M|49.4,59.2|Z|Orgrimmar|N|From Doras, the flight master.|PRE|26803|RANK|2|
