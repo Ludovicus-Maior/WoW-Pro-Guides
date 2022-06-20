@@ -1,10 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_HordeChapter3', 'Leveling', 'Stranglethorn Vale', 'Jame', 'Horde', 2)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_HordeChapter3', 'Leveling', 'Stranglethorn Vale', 'WoW-Pro Team', 'Horde', 2)
 WoWPro:GuideName(guide, 'Horde Chapter 3')
 WoWPro:GuideLevels(guide, 40, 51, 42)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_UnGoro_Crater')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Burning_Steppes')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0.25,0.50,0.25,0.50})
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -412,7 +412,7 @@ T Rizzle's Schematics|QID|1194|M|80.18,75.89|Z|1441|N|To Pozzik.|
 * Sample of Indurium Ore|AVAILABLE|-1194|ACTIVE|-1194|N|For whatever reason, they give this back to you. You can safely dispose of it.|U|5866|
 ; --- Tanaris
 R Tanaris|ACTIVE|2864|M|51.26,20.88|Z|1446|N|Make your way to the south end of Shimmering Flats and follow the torches to Tanaris.|
-N OOX-17/TN|AVAILABLE|351&4496|L|8623|N|This item is a randomly dropped quest starter you can get from killing one of 58 different NPCs/beasts in Tanaris.\n[color=FF0000]NOTE: [/color]The drop rate is incredibly low (less than 1%).\nManually check this step off to continue.|IZ|1446|
+N OOX-17/TN|AVAILABLE|351|L|8623|N|This item is a randomly dropped quest starter you can get from killing one of 58 different NPCs/beasts in Tanaris.\n[color=FF0000]NOTE: [/color]The drop rate is incredibly low (less than 1%).\nManually check this step off to continue.|IZ|1446|
 A Find OOX-17/TN!|QID|351|N|Lucky you! Click on the Beacon to accept the quest.|U|8623|O|
 R Gadgetzan|ACTIVE|2864|M|51.26,26.49|Z|1446|N|Continue following the torches until you clear the mountains and make your way to Gadgetzan.|
 T Safety First|QID|1188|M|50.96,27.24|Z|1446|N|To Shreev.|
@@ -445,7 +445,7 @@ T Safety First|QID|1189|M|80.33,76.09|Z|1441|N|To Razzeric.|TAXI|-Camp Mojache|
 R Ironstone Camp|AVAILABLE|2987|ACTIVE|-1189|M|68.15,64.71|Z|1441|TAXI|-Camp Mojache|IZ|-1444|
 R Freewind Post|AVAILABLE|2987|ACTIVE|-1189|M|47.01,46.86|Z|1441|TAXI|-Camp Mojache|IZ|-1444|
 R Feralas|AVAILABLE|2987|ACTIVE|-1189|M|89.32,41.18|Z|1444|N|Make your way to the west end of Thousand Needles and into Feralas.\n[color=FF0000]NOTE: [/color]The road is the path of least resistance.|TAXI|-Camp Mojache|
-N OOX-22/FE Distress Beacon|AVAILABLE|2766&4496|N|This is a randomly dropped quest starter you can get from killing one of 75 different NPCs/beasts in Feralas.\n[color=FF0000]NOTE: [/color]The drop rate is incredibly low.\nManually check this step off to continue.|IZ|1444|
+N OOX-22/FE Distress Beacon|AVAILABLE|2766|N|This is a randomly dropped quest starter you can get from killing one of 75 different NPCs/beasts in Feralas.\n[color=FF0000]NOTE: [/color]The drop rate is incredibly low.\nManually check this step off to continue.|IZ|1444|
 A Find OOX-22/FE!|QID|2766|N|Lucky you! Click on the Beacon to accept the quest.|U|8705|O|
 R Camp Mojache|AVAILABLE|2987|M|78.22,42.54|Z|1444|N|Follow the road west to Camp Mojache.|TAXI|-Camp Mojache|
 f Camp Mojache|AVAILABLE|2987|M|75.45,44.35|Z|1444|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
@@ -505,61 +505,67 @@ A Stinglasher|QID|7731|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.|PRE|290
 T A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|1444|N|To Kreug Skullspitter.|
 A A Grim Discovery|QID|2974|M|75.95,42.73|Z|1444|N|From Kreug Skullspitter|PRE|2973|
 T The Ogres of Feralas|QID|2975|M|75.96,42.85;73.53,45.12|CC|Z|1444|N|To Rok Orthan.|US|
-R The Writhing Deep|ACTIVE|7731|M|71.3,49.0;75,60|CC|Z|1444|
+R The Writhing Deep|ACTIVE|7730^7731|M|71.3,49.0;75.0,60.0|CC|Z|1444|QO|1|
 C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|1444|L|18961 20|ITEM|18961|N|Any insect|S|
 K Stinglasher|ACTIVE|7731|M|75.81,60.92|Z|1444|L|18962|ITEM|18962|N|Stinglasher\nGo to the eastern hive entrance and you should find Stinglasher roaming in and out of the entrance.|
 C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|1444|L|18961 20|ITEM|18961|N|Any insect\n[color=FF0000]NOTE: [/color]Above or below ground, the choice is yours. Workers and Wasps are your best bet for getting them.|US|
-R Grimtotem Compound|ACTIVE|2974|M|69.50,42.00|Z|1444|
+R Grimtotem Compound|ACTIVE|2974|M|69.50,42.00|Z|1444|QO|1|
 C A Grim Discovery|QID|2974|M|69.16,38.17|Z|1444|L|9460 20|ITEM|9460|N|Any Grimtotem mob|
-R Verdantis River|ACTIVE|2980|M|66.0,49.1;63.76,51.09|CC|Z|1444|N|Head back to the road and follow it west to the Bridge over the river.|
-R Ruins of Isildien|ACTIVE|2980|M|61.9,53.1;61.71,53.97|CC|Z|1444|N|Cross the bridge and continue west to the Ruins of Isildien.|
+R Verdantis River|ACTIVE|2980|M|66.0,49.1;63.76,51.09|CC|Z|1444|N|Head back to the road and follow it west to the Bridge over the river.|QO|1;2;3|
+R Ruins of Isildien|ACTIVE|2980|M|61.9,53.1;61.71,53.97|CC|Z|1444|N|Cross the bridge and continue west to the Ruins of Isildien.|QO|1;2;3|
 K The Ogres of Feralas|ACTIVE|2980|M|59.34,66.62|Z|1444|QO|1;2;3|N|Kill the required oqgres.|S|
 C Dark Ceremony|QID|2979|M|59.51,67.48|Z|1444|L|9371|ITEM|9371|N|Gordunni Mage-Lords\n[color=FF0000]NOTE: [/color]Move down the hill and past the first building as quickly as you can to get to where the Mage-Lords are.|
 K The Ogres of Feralas|ACTIVE|2980|M|59.34,66.62|Z|1444|QO|1;2;3|N|Kill the required oqgres.|US|
 C Screecher Spirits|QID|3520|M|58.48,58.83|Z|1444|N|After you've killed and looted a Screecher, use Yeh'kinya's Bramble on it causing a screecher spirit to appear.\n[color=FF0000]NOTE: [/color]You must click on the spirit to get credit for it.|U|10699|S|
 R Feral Scar Vale|ACTIVE|2822|M|56.51,58.27|Z|1444|
-C The Mark of Quality|QID|2822|ACTIVE|-2766|M|55.4,54.4|Z|1444|L|8973 10|ITEM|8973|N|Any yeti|
-C The Mark of Quality|QID|2822|ACTIVE|2766|M|55.4,54.4|Z|1444|L|8973 10|ITEM|8973|N|Any Yeti\nEnter the cave and work your way deeper into it.|S|
+C Screecher Spirits|QID|3520|ACTIVE|2766|AVAILABLE|2767|M|58.48,58.83|Z|1444|N|After you've killed and looted a Screecher, use Yeh'kinya's Bramble on it causing a screecher spirit to appear.\n[color=FF0000]NOTE: [/color]You must click on the spirit to get credit for it.\nFinish this quest before you enter the cave.|U|10699|US|
+C The Mark of Quality|QID|2822|ACTIVE|2766|M|55.57,56.39|Z|1444|L|8973 10|ITEM|8973|N|Any Feral Scar/Yeti\nEnter the cave and work your way deeper into it.|S|
+C The Mark of Quality|QID|2822|ACTIVE|-2766|AVAILABLE|2767|M|55.57,56.39|Z|1444|L|8973 10|ITEM|8973|N|Any Feral Scar/Yeti|
 t Find OOX-22/FE!|QID|2766|M|53.35,55.70|Z|1444|N|To the Homing Robot OOX-22/FE found inside the Feral Scar Vale Yeti cave.|
-A Rescue OOX-22/FE!|QID|2767|M|53.35,55.70|Z|1444|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom the Homing Robot OOX-22/FE|PRE|2766|
-A Rescue OOX-22/FE!|QID|2767|M|53.35,55.70|Z|1444|N|[color=CC00FF]QUEST FAILED [/color]\nGo back into the Yeti cave and restart the quest from the Homing Robot OOX-22/FE|PRE|2766|FAIL|
-C Rescue OOX-22/FE!|QID|2767|N|There are 3 ambushes along the route.[color=FF0000]NOTE: [/color]Let the chicken take aggro; it will only fight if it takes damage.| ; Hendo72 -- Need to fill in the specifics and coords once I have them.
-C Screecher Spirits|QID|3520|M|58.48,58.83|Z|1444|N|After you've killed and looted a Screecher, use Yeh'kinya's Bramble on it causing a screecher spirit to appear.\n[color=FF0000]NOTE: [/color]You must click on the spirit to get credit for it.|U|10699|US|
+C The Mark of Quality|QID|2822|AVAILABLE|-2766&2767|M|55.57,56.39|Z|1444|L|8973 10|ITEM|8973|N|Any Feral Scar/Yeti\n\n[color=FF0000]NOTE: [/color]Finish this quest before starting the escort quest.|US|
+A Rescue OOX-22/FE!|QID|2767|M|53.35,55.70|Z|1444|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom the Homing Robot OOX-22/FE\n[color=FF0000]NOTE: [/color]Make sure the path out is clear before starting.|PRE|2766|
+A Rescue OOX-22/FE!|QID|2767|M|53.35,55.70|Z|1444|N|[color=CC00FF]QUEST FAILED [/color]\nGo back into the Yeti cave and restart the quest from the Homing Robot OOX-22/FE\n[color=FF0000]NOTE: [/color]Make sure the path out is clear before starting.|PRE|2766|FAIL|
+C Rescue OOX-22/FE!|QID|2767|M|55.33,54.43;50.33,49.84;48.39,44.95;45.57,43.25|CC|Z|1444|N|There are 3 ambushes along the route.[color=FF0000]NOTE: [/color]Let the chicken take aggro; it will only fight if it takes damage.| ; Hendo72 -- Need to fill in the specifics and coords once I have them.
+R Feral Scar Vale|ACTIVE|2822|M|56.51,58.27|Z|1444|QO|1|N|Return to finish your quest.| ; --- Run back if not finished
+R Feral Scar Vale|ACTIVE|3520|M|56.51,58.27|Z|1444|QO|1|N|Return to finish your quest.| ; --- Run back if not finished
+C The Mark of Quality|QID|2822|ACTIVE|-2766|AVAILABLE|2767|M|55.57,56.39|Z|1444|L|8973 10|ITEM|8973|N|Any Feral Scar/Yeti|US|
+C Screecher Spirits|QID|3520|ACTIVE|-2766|AVAILABLE|2767|M|58.48,58.83|Z|1444|N|After you've killed and looted a Screecher, use Yeh'kinya's Bramble on it causing a screecher spirit to appear.\n[color=FF0000]NOTE: [/color]You must click on the spirit to get credit for it.|U|10699|US|
 H Camp Mojache|ACTIVE|2822|M|73.12,47.44|Z|1444|
-T The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|1444|N|To Rok Orthan.\n[color=FF0000]NOTE: [/color]Turn it in when you find her.|S|
+T The Ogres of Feralas|QID|2980|M|75.9,43.6|Z|1444|N|To Rok Orthan.\n[color=FF0000]NOTE: [/color]Manually turn it in if you pass her.|S|
+T Dark Ceremony|QID|2979|ACTIVE|-2980|M|75.9,43.6|Z|1444|N|To Rok Orthan.\n[color=FF0000]NOTE: [/color]Manually turn it in if you pass her.|S|
 A The Sunken Temple|QID|3380|M|74.42,43.36|Z|1444|ELITE|N|[color=E6CC80]Dungeon: 'Sunken Temple'[/color]\nFrom Witch Doctor Uzer'i.\n[color=FF0000]NOTE: [/color]This dungeon quest is a breadcrumb to some normal quests in Tanaris.|
-T The Mark of Quality|QID|2822|M|74.43,42.91|Z|1444|N|To Jangdor Swiftstrider.|
+T The Mark of Quality|QID|2822|M|74.43,42.91|Z|1444|N|To Jangdor Swiftstrider.\n[color=FF0000]NOTE: [/color]Do not get the follow-up.||
+T Stinglasher|QID|7731|M|74.91,42.46|Z|1444|N|To Hadoken Swiftstrider.|
 T Zukk'ash Infestation|QID|7730|M|74.91,42.46|Z|1444|N|To Hadoken Swiftstrider.|
 A Zukk'ash Report|QID|7732|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.|
-T Stinglasher|QID|7731|M|74.91,42.46|Z|1444|N|To Hadoken Swiftstrider.|
 T A Grim Discovery|QID|2974|M|75.95,42.73|Z|1444|N|To Kreug Skullspitter.|
 A A Grim Discovery|QID|2976|M|75.95,42.73|Z|1444|N|From Kreug Skullspitter.|PRE|2974|
 T The Ogres of Feralas|QID|2980|M|75.96,42.85;73.53,45.12|CC|Z|1444|N|To Rok Orthan.|US|
 T Dark Ceremony|QID|2979|ACTIVE|-2980|M|75.9,43.6|Z|1444|N|To Rok Orthan.|US|
-A The Gordunni Orb|QID|3002|M|75.9,43.6|Z|1444|N|From Rok Orthan.|US|PRE|2979|
+A The Gordunni Orb|QID|3002|M|75.9,43.6|Z|1444|N|From Rok Orthan.|PRE|2979|
 
 ; -- Tanaris
 F Gadgetzan|ACTIVE|3520|M|75.45,44.35|Z|1444|
 h Gadgetzan|ACTIVE|3520|M|52.50,27.90|Z|1446|N|Make Gadgetzan your home location.|
-r Sell junk, repair, restock|ACTIVE|3520|N|Sell junk, repair, restock.|
-R Steamwheedle Port|ACTIVE|3520|M|64.50,23.84|Z|1446|N|Make your way east towards the coast.|
+R Steamwheedle Port|ACTIVE|3520|M|64.50,23.84|Z|1446|
 T Screecher Spirits|QID|3520|M|66.99,22.36|Z|1446|N|To Yeh'kinya.|
 A WANTED: Andre Firebeard|QID|2875|M|66.82,22.29|Z|1446|N|From Wanted Poster.|
 A Pirate Hats Ahoy!|QID|8365|M|66.56,22.27|Z|1446|N|From Haughty Modiste.|
 A Southsea Shakedown|QID|8366|M|67.06,23.89|Z|1446|N|From Security Chief Bilgewhizzle.|
 A Stoley's Shipment|QID|2873|M|67.11,23.98|Z|1446|N|From Stoley.|PRE|2872|
-R Lost Rigger Cove|ACTIVE|8366|M|68.57,41.43|Z|1446|N|Follow the shoreline south to the tunnel entrance. The cove is on the other side.\n[color=FF0000]NOTE: [/color]Swimming around the mountain that's in the way is not an option.|
-U Pirate's Footlocker|AVAILABLE|2876|L|9250|N|Open it to loot a quest starter, Ship Schedules.|U|9276|
-A Ship Schedule|QID|2876|N|Click the Ship Schedules accept the quest.|U|9250|O|
+R Lost Rigger Cove|ACTIVE|8366|M|68.57,41.43|Z|1446|N|Follow the shoreline south to the tunnel entrance. The cove is on the other side.\n[color=FF0000]NOTE: [/color]Swimming directly to the cove on the other side is an option.|
+l Ship Schedule|AVAILABLE|2876|L|9250|ITEM|9250|N|Pirate's Footlocker\nThe Southsea Pirate mobs have a chance of dropping a Pirate's Footlocker. Open it to for a chance to loot the quest starter.\n[color=FF0000]NOTE: [/color]It's not guaranteed on the first try.|S|
+A Ship Schedules|QID|2876|N|Click the Ship Schedules accept the quest.|U|9250|O|
 K Southsea Shakedown|ACTIVE|8366|M|73.00,47.00|Z|1446|QO|1;2;3;4|N|kill the required Pirates.|S|
-C Pirate Hats Ahoy!|QID|8365|M|73.15,45.81|Z|1446|L|20519 20|ITEM|20519|N|Any pirate|S|
-R Fort Entrance|ACTIVE|2873|M|73.17,45.56|CC|Z|1446|N|Go through the tunnel and make your way across to the ONLY opening in the wall on the west side.|
-C Stoley's Shipment|QID|2873|M|72.7,46.8;72.15,46.77|CC|Z|1446|L|9244|N|Enter the house and work your way to the top floor to collect Stoley's Shipment.\n[color=FF0000]NOTE: [/color]There 3 mobs just inside the entrance and 3 more on the 2nd floor.\nIf you die, just rez on the top floor (there's nobody there).|
-K Andre Firebeard|ACTIVE|2875|M|73.38,47.08|Z|1446|QO|1|N|Kill Andre Firebeard by the fire near the other buildings.\n[color=FF0000]NOTE: [/color]Clear the area to the north of him and be prepared to pull Andre with his guards (at least 2 of them).|T|Andre Firebeard|
+C Pirate Hats Ahoy!|QID|8365|M|73.15,45.81|Z|1446|L|20519 20|ITEM|20519|N|Any Southsea Mob|S|
+R Fort Entrance|ACTIVE|2873|M|73.17,45.56|CC|Z|1446|N|Make your way to the ONLY opening in the wall on the west side.|
+C Stoley's Shipment|QID|2873|M|72.7,46.8|Z|1446|L|9244|N|Stoley's Shipment is on the top floor of the house.\n[color=FF0000]NOTE: [/color]There are 3 mobs just inside the entrance and 3 more on the 2nd floor.\nIf you die, just rez on the top floor (there's nobody there).|
+K Andre Firebeard|ACTIVE|2875|M|73.38,47.08|Z|1446|L|9246|ITEM|9246|N|Andre Firebeard\n[color=FF0000]NOTE: [/color]Clear the area to the north or south of the fire and be prepared to pull Andre with at least 2 of his guards.|T|Andre Firebeard|
 K Southsea Shakedown|ACTIVE|8366|M|73.37,46.86|Z|1446|QO|1;2;3;4|N|Finish killing the required Pirates.\n[color=FF0000]NOTE: [/color]Watch for adds, as you can become overwhelmed very quickly.|US|
-C Pirate Hats Ahoy!|QID|8365|M|73.15,45.81|Z|1446|L|20519 20|ITEM|20519|N|Any pirate|US|
+C Pirate Hats Ahoy!|QID|8365|M|73.15,45.81|Z|1446|L|20519 20|ITEM|20519|N|Any Southsea Mob|US|
+l Ship Schedule|AVAILABLE|2876|L|9250|ITEM|9250|N|Pirate's Footlocker\nThe Southsea mobs have a chance of dropping a Pirate's Footlocker. Open it to for a chance to loot the quest starter.\n[color=FF0000]NOTE: [/color]It's not guaranteed on the first try.\nSkip this if you wish to give up.|US|
 R Steamwheedle Port|ACTIVE|8366|M|67.1,23.9|Z|1446|
-t Ship Schedule|QID|2876|M|67.06,23.89|Z|1446|N|To Security Chief Bilgewhizzle.|
+t Ship Schedules|QID|2876|M|67.06,23.89|Z|1446|N|To Security Chief Bilgewhizzle.|
 T WANTED: Andre Firebeard|QID|2875|M|67.06,23.89|Z|1446|N|To Security Chief Bilgewhizzle.|
 T Southsea Shakedown|QID|8366|M|67.06,23.89|Z|1446|N|To Security Chief Bilgewhizzle.|
 T Stoley's Shipment|QID|2873|M|67.11,23.98|Z|1446|N|To Stoley.|
@@ -586,39 +592,39 @@ K The Dunemaul Compound|ACTIVE|5863|M|40.00,57.00|Z|1446|QO|1;2|N|Kill the requi
 K Gor'marok the Ravager|ACTIVE|5863|M|41.15,57.40|Z|1446|QO|3|N|After clearing the entrance, enter the cave and kill Gor'marok the Ravager.|T|Gor'marok the Ravager|
 R Eastmoon Ruins|ACTIVE|3161|M|45.91,64.82|Z|1446|
 C Gahz'ridian|QID|3161|M|45.91,64.82|Z|1446|L|8443 30|N|Finish collecting the Gahz'ridian Ornaments.|US|
-K The Dunemaul Compound|ACTIVE|5863|M|45.91,64.82|Z|1446|QO|1;2|N|Finish killing your required ogres.|US|
-R Thistleshrub Valley|ACTIVE|2605|M|28,67|Z|1446|N|Go west to Thistleshrub Valley.|
+K The Dunemaul Compound|ACTIVE|5863|M|40.62,54.64|Z|1446|QO|1;2|N|Return to Dunemaul Compound and finish killing your required ogres.\n[color=FF0000]NOTE: [/color]The numbers are better than at Eastmoon Ruins.|US|
+R Thistleshrub Valley|ACTIVE|2605|M|29.44,64.52|Z|1446|
 C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|1446|L|8428|ITEM|8428|N|Thistleshrubs Dew Collectors|S|
 K Thistleshrub Valley|ACTIVE|3362|M|28.3,63.8|Z|1446|QO|1;2|N|Kill the required Thistleshrubs.|
 C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|1446|L|8428|ITEM|8428|N|Thistleshrubs Dew Collectors|US|
 R The Noxious Lair|ACTIVE|82|M|30.71,53.03|Z|1446|
-C Noxious Lair Investigation|QID|82|M|35.00,46.00|Z|1446|L|8587 5|ITEM|8587|N|Any insect|
-L Level 48|ACTIVE|3161|LVL|47;99100|N|Grind a bit till this message goes away. (~4.5 bubbles from 48)|
+C Noxious Lair Investigation|QID|82|M|35.00,46.00|Z|1446|L|8587 5|ITEM|8587|N|Any Centipaar mob|
+L Level 48|ACTIVE|3161|N|Grind a bit till this message goes away. (~4.5 bubbles from 48)|LVL|47;99100|
 R Broken Pillar|ACTIVE|3161|M|52.40,45.21|Z|1446|
 T Gahz'ridian|QID|3161|M|52.71,45.92|Z|1446|N|To Marvon Rivetseeker.|
 H Gadgetzan|ACTIVE|2605|M|52.50,27.90|Z|1446|N|Hearth or ride back to Gadgetzen.|
 T The Dunemaul Compound|QID|5863|M|52.82,27.40|Z|1446|N|To Andi Lynn.|
 T The Thirsty Goblin|QID|2605|M|51.81,28.66|Z|1446|N|To Marin Noggenfogger.|
 A In Good Taste|QID|2606|M|51.81,28.66|Z|1446|N|From Marin Noggenfogger.|PRE|2605|
-T Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|1446|N|To Tran'Rek.|
 T In Good Taste|QID|2606|M|51.06,26.88|Z|1446|N|To Sprinkle.|
 A Sprinkle's Secret Ingredient|QID|2641|M|51.06,26.88|Z|1446|N|From Sprinkle.|PRE|2606|
 T Noxious Lair Investigation|QID|82|M|50.89,26.97|Z|1446|N|To Alchemist Pestlezugg.|
 A The Scrimshank Redemption|QID|10|M|50.21,27.48|Z|1446|N|From Senior Surveyor Fizzledowser.|PRE|82|
+T Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|1446|N|To Tran'Rek.|
 F Thunder Bluff|ACTIVE|3002|M|51.60,25.44|Z|1446|C|Druid|
 F Orgrimmar|ACTIVE|3002|M|51.60,25.44|Z|1446|C|-Druid|
 = Level 48 Training|ACTIVE|3002|N|Train your lv 48 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 F Orgrimmar|ACTIVE|3002|M|47.02,49.83|Z|1456|C|Druid|
 T The Gordunni Orb|QID|3002|M|39.16,86.27|Z|1454|N|To Uthel'nay in Darkbriar Lodge (Valley of Spirits).|
-T Zukk'ash Report|QID|7732|M|56.27,46.68|Z|1454|N|To Zilzibin Drumlore.\n[color=FF0000]NOTE: [/color]You can either go up the stairs on the east side of the Drag, or follow the 'stairs' behind Asorian's Market (across from Grommash Hold). He's in the building between the Herbalism trainer and the Cooking trainer.|
-
-; -- Hinterlands
 A Ripple Recovery|QID|649|M|59.49,36.56|Z|1454|N|From Dran Droffers at Droffers and Son Salvage, in the Drag near the Valley of Honor.|
 T Ripple Recovery|QID|649|M|59.64,36.94|Z|1454|N|To Malton Droffers standing next to you.|
 A Ripple Recovery|QID|650|M|59.64,36.94|Z|1454|N|From Malton Doffers.|PRE|649|
 T A Grim Discovery|QID|2976|M|75.26,34.25|Z|1454|N|To Belgrom Rockmaul in the Valley of Honor.|
-A Betrayed|QID|3504|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul.|
-F Ratchet|ACTIVE|2874|M|45.2,63.8|Z|1454|N|At Doras, Wind Rider Master.|
+A Betrayed.|QID|3504|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul.\n[color=FF0000]NOTE: [/color]This is an Azshara breadcrumb. Skip it if you're not going to Azshara.| ; --- '.' added to break auto-accept - Hendo72
+T Zukk'ash Report|QID|7732|M|56.27,46.68|Z|1454|N|To Zilzibin Drumlore.\n[color=FF0000]NOTE: [/color]You can either go up the stairs on the east side of the Drag, or follow the 'stairs' behind Asoran's Market (across from Grommash Hold). He's in the building between the Herbalism trainer and the Cooking trainer.|
+
+; -- Hinterlands (with a couple pit stops)
+F Ratchet|ACTIVE|2874|M|45.13,63.90|Z|1454|
 b Booty Bay|ACTIVE|2874|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|
 T Deliver to MacKinley|QID|2874|M|27.78,77.07|N|To "Sea Wolf" MacKinley.|
 F Grom'gol|AVAILABLE|2995|M|26.87,77.09|Z|1434|
@@ -626,26 +632,28 @@ b Tirisfal Glades|AVAILABLE|2995|M|31.57,29.15|Z|1434|
 R Undercity|AVAILABLE|2995|M|61.86,65.04|Z|1420|
 A Lines of Communication|QID|2995|M|73.07,32.85|Z|1458|N|From Oran Snakewrithe in an alcove just off the inner ring of the Mage Quarter.|
 
-F Tarren Mill|ACTIVE|650|M|63.6,48.6|Z|1458|N|At Michael Garrett, Bat Handler.|IZ|1458;Undercity^1420;Tirisfal Glades|
+F Tarren Mill|ACTIVE|650|M|63.6,48.6|Z|1458|IZ|1458;Undercity^1420;Tirisfal Glades|
 R Durnholde Keep|ACTIVE|650|M|77.17,27.75|Z|1424|N|Exiting Tarren Mill from the northeast corner, cross the river and head east into the mountains.|
 R The Hinterlands|ACTIVE|650|M|83.5,32.4;89.93,25.01|CC|Z|1424|N|Exit Tarren Mill from the northeast to cross the river which leads to the Hinterlands.|
 R Aerie Peak|ACTIVE|650|M|12.22,50.60|Z|1425|N|Follow the road down the mountain slope.\n[color=FF0000]NOTE: [/color]Aerie Peak is Alliance controlled.|
-N OOX-09/HL Distress Beacon|AVAILABLE|485&4496|N|This item is a randomly dropped quest starter you can get from killing one of 53 different NPCs/beasts in The Hinterlands.\n[color=FF0000]NOTE: [/color]The drop rate is incredibly low (1% and lower).\nManually check this step off to continue.|IZ|1425;The Hinterlands|
+N OOX-09/HL Distress Beacon|AVAILABLE|485|N|This item is a randomly dropped quest starter you can get from killing one of 53 different NPCs/beasts in The Hinterlands.\n[color=FF0000]NOTE: [/color]The drop rate is incredibly low (1% and lower).\nManually check this step off to continue.|IZ|1425;The Hinterlands|
 A Find OOX-09/HL!|QID|485|N|Lucky you! Click on the Beacon to accept the quest.|U|8704|O|
 R Shindigger's Camp|ACTIVE|650|M|20.2,48.3;25.05,46.96|CC|Z|1425|N|While avoiding Aerie Peak, make your way across to the path leading up into the hills and follow it to the top.|
 T Ripple Recovery|QID|650|M|26.71,48.60|Z|1425|N|To Gilveradin Sunchaser.|
 A A Sticky Situation|QID|77|M|26.71,48.60|Z|1425|N|From Gilveradin Sunchaser.|PRE|650|
-l Natural Materials|ACTIVE|3128|QO|3;4|N|Kill Hippogryphs to collect the Resilient Sinew.\nKill Owlbeasts to collect the Fragments and Sinews.|S|
+C Resilient Sinew|QID|3128|L|9591 20|ITEM|9591|N|Any Owlbeast|S|
+C Metallic Fragments|QID|3128|L|9592 40|ITEM|9592|N|Any Owlbeast|S|
 C Testing the Vessel|QID|3123|L|9594 10|N|Kill Owlbeasts and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|S|
 R Quel'Danil Lodge|AVAILABLE|7815|M|31.91,51.93|Z|1425|N|Head back down and follow the hill eastward until you see the road.|IZ|-The Overlook Cliffs^-Revantusk Village|
 R Hiri'watha|AVAILABLE|7815|M|33.31,54.60|Z|1425|N|From here, head south over the hill to the road.|IZ|-The Overlook Cliffs;-Revantusk Village|
 R Agol'watha|AVAILABLE|7815|M|47.74,45.28|Z|1425|N|Follow the road east from the fork to the next fork.|IZ|-The Overlook Cliffs;-Revantusk Village|
-R The Overlook Cliffs|AVAILABLE|7815|M|48.7,39.4;80.8,46.8|CC|Z|1425|N|Continue north to the water and then east to the waterfall.\n[color=FF0000]NOTE: [/color]You'll have to swim past Skulk Rock.|
-C Whiskey Slim's Lost Grog|QID|580|AVAILABLE|626|M|80.78,46.81|Z|1425|L|3900 12|N|Jump off one of the rocks hanging over the top of the waterfall and swim to shore. Make your way south along the shore towards Revantusk Village collecting the blue bottles off the ground.|
-T Cortello's Riddle|QID|626|M|80.81,46.79|Z|1425|N|Find Cortell's Chest near the bottom of the waterfall.\n[color=FF0000]NOTE: [/color]There is a path, at 70,63 but it's faster to jump off one of the rocks hanging over the top of the falls. Don't miss the water below!|
-C Whiskey Slim's Lost Grog|QID|580|M|80.78,46.81|Z|1425|L|3900 12|N|Swim to shore and make your way south along the shore towards Revantusk Village collecting the blue bottles off the ground.|
-R Revantusk Village|AVAILABLE|7815|M|76.46,75.37|Z|1425|
-f Revantusk Village|AVAILABLE|7815|M|81.71,81.75|Z|1425|N|From Gorkas, at the end of the dock.|TAXI|-Revantusk Village|
+R The Overlook Cliffs|AVAILABLE|7815|M|48.7,39.4;80.8,46.8|CC|Z|1425|N|Continue north to the water and then east along the shoreline to the waterfall.\n[color=FF0000]NOTE: [/color]You'll have to swim past Skulk Rock.|
+C Whiskey Slim's Lost Grog|QID|580|AVAILABLE|626|M|80.78,46.81|Z|1425|L|3900 12|N|Loot the blue bottles found on the ground along the shoreline (not necessarily along the water).|S|
+R Revantusk Village|AVAILABLE|7815&626|M|76.46,75.37|Z|1425|N|[color=FF0000]NOTE: [/color]There is a path, at 70,63 but it's faster to jump off one of the rocks hanging over the top of the falls./nSwim to shore and follow the shoreline south.|
+T Cortello's Riddle|QID|626|M|80.81,46.79|Z|1425|N|Find Cortello's Treasure near the bottom of the waterfall.\n[color=FF0000]NOTE: [/color]There is a path, at 70,63 but it's faster to jump off one of the rocks hanging over the top of the falls. Don't miss the water below!|
+C Whiskey Slim's Lost Grog|QID|580|AVAILABLE|-626|M|80.78,46.81|Z|1425|L|3900 12|N|Loot the blue bottles found on the ground along the shoreline (not necessarily along the water).|S|
+R Revantusk Village|AVAILABLE|7815&-626|M|76.46,75.37|Z|1425|N|Swim to shore and make your way south along the shore.|
+f Revantusk Village|AVAILABLE|7815|M|81.71,81.75|Z|1425|N|From Gorkas, at the end of the dock.|
 A Snapjaws, Mon!|QID|7815|M|80.33,81.54|Z|1425|N|From Katroom the Angler, on the dock.|
 A Gammerita, Mon!|QID|7816|M|80.33,81.54|Z|1425|N|From Katroom the Angler.|
 A Lard Lost His Lunch|QID|7840|M|78.14,81.39|Z|1425|N|From Lard.|
@@ -791,7 +799,7 @@ T Natural Materials|QID|3128|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i.|
 A Weapons of Spirit|QID|3129|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|
 T Weapons of Spirit|QID|3129|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i, after he finishes talking.|
 F Orgrimmar|ACTIVE|32|M|75.45,44.35|Z|1444|N|At Shyn, Wind Rider Master.|
-h Orgrimmar|ACTIVE|32|M|54.10,68.38|Z|1454|N|At Innkeeper Gryshka.|
+h Orgrimmar|ACTIVE|32|M|54.10,68.38|Z|1454|N|&At Innkeeper Gryshka.|
 T Rise of the Silithid|QID|32|M|56.27,46.68|Z|1454|N|To Zilzibin Drumlore.\n[color=FF0000]NOTE: [/color]Go up the stairs on your left as you enter the Drag. He's in the building between the Herbalism trainer and the Cooking trainer.|
 A March of the Silithid|QID|4494|M|56.5,46.5|Z|1454|N|From Zilzibin Drumlore.|
 T Ripple Delivery|QID|81|M|59.49,36.56|Z|1454|N|To Dran Droffers at Droffers and Son Salvage, in the Drag near the Valley of Honor.|
@@ -809,10 +817,19 @@ b Ratchet|ACTIVE|3444^4494|M|25.87,73.12|Z|1434|
 F Gadgetzan|ACTIVE|3444^4494|M|63.09,37.16|Z|1413|
 A Super Sticky|QID|4504|M|51.57,26.76|Z|1446|N|From Tran'Rek|
 T March of the Silithid|QID|4494|M|50.89,26.97|Z|1446|N|To Alchemist Pestlezugg.|
-A Bungle in the Jungle|QID|4496|M|50.89,26.97|Z|1446|N|From Alchemist Pestlezugg.|PRE|4494|
-r Housekeeping|ACTIVE|3444|N|Do what you need before you leave.\n[color=FF0000]NOTE: [/color]I suggest clearing your bags of stuff you won't need. Ungoro Crater (the next guide) has a number of collection quests before you return here.\nManually check this step off to continue.|
+A Bungle in the Jungle.|QID|4496|M|50.89,26.97|Z|1446|N|From Alchemist Pestlezugg.\n[color=FF0000]NOTE: [/color]This is an Un'goro breadcrumb. Skip it if you're going to Azshara instead.|PRE|4494| ; --- '.' added to break auto-accept - Hendo72
+N DO NOT DO THIS|ACTIVE|4496&3504|N|[color=FF0000]NOTE: [/color]By taking both breadcrumbs, this will cause the guide to not function properly.\nThe purpose of the 2 breadcrumbs is to provide a different approach to the same goal.\nPlease, abandon one of the breadcrumbs.\n\nManually check this step off to continue.|
+r Housekeeping|ACTIVE|3444&4496|N|Do what you need before you leave.\n[color=FF0000]NOTE: [/color]I suggest clearing your bags of stuff you won't need. Un'goro Crater (the next guide) has a number of collection quests before you return here.\nManually check this step off to continue.|
+r Housekeeping|ACTIVE|3444&3504|N|Do what you need before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 R Broken Pillar|ACTIVE|3444|M|52.40,45.21|Z|1446|N|Go south to the Broken Pillar.|
 T The Stone Circle|QID|3444|M|52.71,45.92|Z|1446|N|To Marvon Rivetseeker.|
+R Gadgetzan|ACTIVE|-4496|M|52.50,27.90|Z|1446|
+N Azshara|AVAILABLE|3504&4496|N|You're missing the breadcrumb quest for Azshara. You'll be getting it now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Orgrimmar|AVAILABLE|3504&4496|M|51.60,25.44|Z|1446|
+A Betrayed|QID|3504|AVAILABLE|4496|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul.|
+F Splintertree Post|ACTIVE|3504|AVAILABLE|5535&4496|M|45.13,63.90|Z|1454|IZ|1454|
+N Azshara|ACTIVE|3504|AVAILABLE|5535&4496|N|You're now switching to the Azshara guide.|JUMP|Azshara|
+N Un'goro Crater|ACTIVE|3444|AVAILABLE|4289&4496|N|You're now switching to the Un'goro Crater guide.|JUMP|Un'goro Crater|
 
 ]]
 end)
