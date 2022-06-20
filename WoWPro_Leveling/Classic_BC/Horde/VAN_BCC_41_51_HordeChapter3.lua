@@ -620,11 +620,11 @@ A Ripple Recovery|QID|649|M|59.49,36.56|Z|1454|N|From Dran Droffers at Droffers 
 T Ripple Recovery|QID|649|M|59.64,36.94|Z|1454|N|To Malton Droffers standing next to you.|
 A Ripple Recovery|QID|650|M|59.64,36.94|Z|1454|N|From Malton Doffers.|PRE|649|
 T A Grim Discovery|QID|2976|M|75.26,34.25|Z|1454|N|To Belgrom Rockmaul in the Valley of Honor.|
-A Betrayed.|QID|3504|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul.\n[color=FF0000]NOTE: [/color]This is an Un'goro breadcrumb. Skip it if you're not going to Azshara.| ; --- '.' added to break auto-accept - Hendo72
+A Betrayed.|QID|3504|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul.\n[color=FF0000]NOTE: [/color]This is an Azshara breadcrumb. Skip it if you're not going to Azshara.| ; --- '.' added to break auto-accept - Hendo72
 T Zukk'ash Report|QID|7732|M|56.27,46.68|Z|1454|N|To Zilzibin Drumlore.\n[color=FF0000]NOTE: [/color]You can either go up the stairs on the east side of the Drag, or follow the 'stairs' behind Asoran's Market (across from Grommash Hold). He's in the building between the Herbalism trainer and the Cooking trainer.|
 
-; -- Hinterlands
-F Ratchet|ACTIVE|2874|M|45.2,63.8|Z|1454|N|At Doras, Wind Rider Master.|
+; -- Hinterlands (with a couple pit stops)
+F Ratchet|ACTIVE|2874|M|45.13,63.90|Z|1454|
 b Booty Bay|ACTIVE|2874|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|
 T Deliver to MacKinley|QID|2874|M|27.78,77.07|N|To "Sea Wolf" MacKinley.|
 F Grom'gol|AVAILABLE|2995|M|26.87,77.09|Z|1434|
@@ -632,7 +632,7 @@ b Tirisfal Glades|AVAILABLE|2995|M|31.57,29.15|Z|1434|
 R Undercity|AVAILABLE|2995|M|61.86,65.04|Z|1420|
 A Lines of Communication|QID|2995|M|73.07,32.85|Z|1458|N|From Oran Snakewrithe in an alcove just off the inner ring of the Mage Quarter.|
 
-F Tarren Mill|ACTIVE|650|M|63.6,48.6|Z|1458|N|At Michael Garrett, Bat Handler.|IZ|1458;Undercity^1420;Tirisfal Glades|
+F Tarren Mill|ACTIVE|650|M|63.6,48.6|Z|1458|IZ|1458;Undercity^1420;Tirisfal Glades|
 R Durnholde Keep|ACTIVE|650|M|77.17,27.75|Z|1424|N|Exiting Tarren Mill from the northeast corner, cross the river and head east into the mountains.|
 R The Hinterlands|ACTIVE|650|M|83.5,32.4;89.93,25.01|CC|Z|1424|N|Exit Tarren Mill from the northeast to cross the river which leads to the Hinterlands.|
 R Aerie Peak|ACTIVE|650|M|12.22,50.60|Z|1425|N|Follow the road down the mountain slope.\n[color=FF0000]NOTE: [/color]Aerie Peak is Alliance controlled.|
@@ -641,17 +641,19 @@ A Find OOX-09/HL!|QID|485|N|Lucky you! Click on the Beacon to accept the quest.|
 R Shindigger's Camp|ACTIVE|650|M|20.2,48.3;25.05,46.96|CC|Z|1425|N|While avoiding Aerie Peak, make your way across to the path leading up into the hills and follow it to the top.|
 T Ripple Recovery|QID|650|M|26.71,48.60|Z|1425|N|To Gilveradin Sunchaser.|
 A A Sticky Situation|QID|77|M|26.71,48.60|Z|1425|N|From Gilveradin Sunchaser.|PRE|650|
-l Natural Materials|ACTIVE|3128|QO|3;4|N|Kill Hippogryphs to collect the Resilient Sinew.\nKill Owlbeasts to collect the Fragments and Sinews.|S|
+C Resilient Sinew|QID|3128|L|9591 20|ITEM|9591|N|Any Owlbeast|S|
+C Metallic Fragments|QID|3128|L|9592 40|ITEM|9592|N|Any Owlbeast|S|
 C Testing the Vessel|QID|3123|L|9594 10|N|Kill Owlbeasts and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|S|
 R Quel'Danil Lodge|AVAILABLE|7815|M|31.91,51.93|Z|1425|N|Head back down and follow the hill eastward until you see the road.|IZ|-The Overlook Cliffs^-Revantusk Village|
 R Hiri'watha|AVAILABLE|7815|M|33.31,54.60|Z|1425|N|From here, head south over the hill to the road.|IZ|-The Overlook Cliffs;-Revantusk Village|
 R Agol'watha|AVAILABLE|7815|M|47.74,45.28|Z|1425|N|Follow the road east from the fork to the next fork.|IZ|-The Overlook Cliffs;-Revantusk Village|
-R The Overlook Cliffs|AVAILABLE|7815|M|48.7,39.4;80.8,46.8|CC|Z|1425|N|Continue north to the water and then east to the waterfall.\n[color=FF0000]NOTE: [/color]You'll have to swim past Skulk Rock.|
-C Whiskey Slim's Lost Grog|QID|580|AVAILABLE|626|M|80.78,46.81|Z|1425|L|3900 12|N|Jump off one of the rocks hanging over the top of the waterfall and swim to shore. Make your way south along the shore towards Revantusk Village collecting the blue bottles off the ground.|
-T Cortello's Riddle|QID|626|M|80.81,46.79|Z|1425|N|Find Cortell's Chest near the bottom of the waterfall.\n[color=FF0000]NOTE: [/color]There is a path, at 70,63 but it's faster to jump off one of the rocks hanging over the top of the falls. Don't miss the water below!|
-C Whiskey Slim's Lost Grog|QID|580|M|80.78,46.81|Z|1425|L|3900 12|N|Swim to shore and make your way south along the shore towards Revantusk Village collecting the blue bottles off the ground.|
-R Revantusk Village|AVAILABLE|7815|M|76.46,75.37|Z|1425|
-f Revantusk Village|AVAILABLE|7815|M|81.71,81.75|Z|1425|N|From Gorkas, at the end of the dock.|TAXI|-Revantusk Village|
+R The Overlook Cliffs|AVAILABLE|7815|M|48.7,39.4;80.8,46.8|CC|Z|1425|N|Continue north to the water and then east along the shoreline to the waterfall.\n[color=FF0000]NOTE: [/color]You'll have to swim past Skulk Rock.|
+C Whiskey Slim's Lost Grog|QID|580|AVAILABLE|626|M|80.78,46.81|Z|1425|L|3900 12|N|Loot the blue bottles found on the ground along the shoreline (not necessarily along the water).|S|
+R Revantusk Village|AVAILABLE|7815&626|M|76.46,75.37|Z|1425|N|[color=FF0000]NOTE: [/color]There is a path, at 70,63 but it's faster to jump off one of the rocks hanging over the top of the falls./nSwim to shore and follow the shoreline south.|
+T Cortello's Riddle|QID|626|M|80.81,46.79|Z|1425|N|Find Cortello's Treasure near the bottom of the waterfall.\n[color=FF0000]NOTE: [/color]There is a path, at 70,63 but it's faster to jump off one of the rocks hanging over the top of the falls. Don't miss the water below!|
+C Whiskey Slim's Lost Grog|QID|580|AVAILABLE|-626|M|80.78,46.81|Z|1425|L|3900 12|N|Loot the blue bottles found on the ground along the shoreline (not necessarily along the water).|S|
+R Revantusk Village|AVAILABLE|7815&-626|M|76.46,75.37|Z|1425|N|Swim to shore and make your way south along the shore.|
+f Revantusk Village|AVAILABLE|7815|M|81.71,81.75|Z|1425|N|From Gorkas, at the end of the dock.|
 A Snapjaws, Mon!|QID|7815|M|80.33,81.54|Z|1425|N|From Katroom the Angler, on the dock.|
 A Gammerita, Mon!|QID|7816|M|80.33,81.54|Z|1425|N|From Katroom the Angler.|
 A Lard Lost His Lunch|QID|7840|M|78.14,81.39|Z|1425|N|From Lard.|
@@ -816,6 +818,7 @@ F Gadgetzan|ACTIVE|3444^4494|M|63.09,37.16|Z|1413|
 A Super Sticky|QID|4504|M|51.57,26.76|Z|1446|N|From Tran'Rek|
 T March of the Silithid|QID|4494|M|50.89,26.97|Z|1446|N|To Alchemist Pestlezugg.|
 A Bungle in the Jungle.|QID|4496|M|50.89,26.97|Z|1446|N|From Alchemist Pestlezugg.\n[color=FF0000]NOTE: [/color]This is an Un'goro breadcrumb. Skip it if you're going to Azshara instead.|PRE|4494| ; --- '.' added to break auto-accept - Hendo72
+N DO NOT DO THIS|ACTIVE|4496&3504|N|[color=FF0000]NOTE: [/color]By taking both breadcrumbs, this will cause the guide to not function properly.\nThe purpose of the 2 breadcrumbs is to provide a different approach to the same goal.\nPlease, abandon one of the breadcrumbs.\n\nManually check this step off to continue.|
 r Housekeeping|ACTIVE|3444&4496|N|Do what you need before you leave.\n[color=FF0000]NOTE: [/color]I suggest clearing your bags of stuff you won't need. Un'goro Crater (the next guide) has a number of collection quests before you return here.\nManually check this step off to continue.|
 r Housekeeping|ACTIVE|3444&3504|N|Do what you need before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 R Broken Pillar|ACTIVE|3444|M|52.40,45.21|Z|1446|N|Go south to the Broken Pillar.|
