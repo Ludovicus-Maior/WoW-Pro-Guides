@@ -4,7 +4,7 @@
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_HordeChapter3', 'Leveling', 'Stranglethorn Vale', 'WoW-Pro Team', 'Horde', 2)
 WoWPro:GuideName(guide, 'Horde Chapter 3')
 WoWPro:GuideLevels(guide, 40, 51, 42)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_UnGoro_Crater')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Burning_Steppes')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0.25,0.50,0.25,0.50})
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -824,6 +824,9 @@ R Gadgetzan|ACTIVE|-4496|M|52.50,27.90|Z|1446|
 N Azshara|AVAILABLE|3504&4496|N|You're missing the breadcrumb quest for Azshara. You'll be getting it now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 F Orgrimmar|AVAILABLE|3504&4496|M|51.60,25.44|Z|1446|
 A Betrayed|QID|3504|AVAILABLE|4496|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul.|
+F Splintertree Post|ACTIVE|3504|AVAILABLE|5535&4496|M|45.13,63.90|Z|1454|IZ|1454|
+N Azshara|ACTIVE|3504|AVAILABLE|5535&4496|N|You're now switching to the Azshara guide.|JUMP|Azshara|
+N Un'goro Crater|ACTIVE|3444|AVAILABLE|4289&4496|N|You're now switching to the Un'goro Crater guide.|JUMP|Un'goro Crater|
 
 ]]
 end)

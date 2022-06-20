@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Azshara', 'Leveling', 'Orgrimmar', 'Tester', 'Horde',2)
 WoWPro:GuideName(guide,"Azshara")
 WoWPro:GuideLevels(guide,1, 60)
-WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Burning_Steppes')
 WoWPro:GuideSteps(guide, function()
 return [[
 
