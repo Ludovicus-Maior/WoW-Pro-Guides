@@ -60,29 +60,29 @@ T The Voice of Thunder|QID|39771|M|33.53,74.66|N|To Rehgar Earthfury.|
 ;ENHANCEMENT
 ;A Where the Hammer Falls|QID|42931|M|35.74,77.50|Z|726;The Maelstrom|N|From Stormcaller Mylra.|PRE|41335|
 C Where the Hammer Falls|QID|42931|QO|1|M|35.74,77.50|Z|726;The Maelstrom|NC|N|Use Stormbeak to Fly Into the Maelstrom|
-T Where the Hammer Falls|QID|42931|M|47.10,51.98|Z|Deepholm|N|To Thrall.|
-A What the Stonemother Knows|QID|42932|M|47.10,51.98|Z|Deepholm|N|From Thrall.|PRE|42931|
-T What the Stonemother Knows|QID|42932|M|56.23,12.45|Z|Deepholm|N|To Therazane.|
-A The Troggs that Fel to Earth|QID|42933|M|56.23,12.45|Z|Deepholm|N|From Therazane.|PRE|42932|
-A Stone Drake Rescue|QID|42935|M|56.23,12.45|Z|Deepholm|N|From Therazane.|PRE|42932|
-A Clutch Play|QID|42936|M|56.23,12.45|Z|Deepholm|N|From Therazane.|PRE|42932|
-C The Troggs that Fel to Earth|QID|42933|QO|1|M|37.46,16.98|Z|Deepholm|N|Kill the Felrock Troggs as you go.|S|
-C Stone Drake Rescue|QID|42935|QO|1|M|37.53,19.85|Z|Deepholm|N|Kill troggs surronding Stone Drakes to rescue them.|S|
-C Clutch Play|QID|42936|QO|1|M|37.82,15.70|Z|Deepholm|NC|N|Click on the glowy rocks to rebuild the Opalescent Guardians.|
-C Stone Drake Rescue|QID|42935|QO|1|M|37.53,19.85|Z|Deepholm|N|Finish rescuing Stone Drakes.|US|
-C The Troggs that Fel to Earth|QID|42933|QO|1|M|37.46,16.98|Z|Deepholm|N|If you somehow avoided them, find the rest of the Felrock Troggs you need to kill.|US|
-C Stone Drake Rescue|QID|42935|QO|1|M|37.53,19.85|Z|Deepholm|N|6/6 Stone Drakes Rescued|US|
-C Clutch Play|QID|42936|QO|2|M|31.28,20.76|Z|Deepholm|NC|N|When you have Guardians following you (look for 5 buffs on you), Mount up and fly over to Aeosera.|
-T The Troggs that Fel to Earth|QID|42933|M|56.35,12.22|Z|Deepholm|N|To Therazane.|
-T Stone Drake Rescue|QID|42935|M|56.35,12.22|Z|Deepholm|N|To Therazane.|
-T Clutch Play|QID|42936|M|56.35,12.22|Z|Deepholm|N|To Therazane.|
-A Needlerock Beatdown|QID|42937|M|56.35,12.22|Z|Deepholm|N|From Therazane.|PRE|42933^42935^42936|
-C Needlerock Beatdown|QID|42937|QO|1|M|56.73,12.60|Z|Deepholm|NC|N|Fly Aeosera to Needlerock.|
-C Needlerock Beatdown|QID|42937|QO|2|M|31.71,31.29|Z|Deepholm|N|Assault Needlerock with Aeosera.|
-C Needlerock Beatdown|QID|42937|QO|3|M|24.42,29.47|Z|Deepholm|N|Slay Borlock of the Deeps.|
-T Needlerock Beatdown|QID|42937|M|56.35,12.24|Z|Deepholm|N|To Therazane.|
-A The Hammer in the Deep|QID|40224|M|56.54,12.91|Z|Deepholm|N|From Thrall.|PRE|42937|
-C The Hammer in the Deep|QID|40224|QO|1|M|56.38,12.75|Z|Deepholm|N|Take the portal to the Crumbling Depths.|
+T Where the Hammer Falls|QID|42931|M|47.10,51.98|Z|207;Deepholm|N|To Thrall.|
+A What the Stonemother Knows|QID|42932|M|47.10,51.98|Z|207;Deepholm|N|From Thrall.|PRE|42931|
+T What the Stonemother Knows|QID|42932|M|56.23,12.45|Z|207;Deepholm|N|To Therazane.|
+A The Troggs that Fel to Earth|QID|42933|M|56.23,12.45|Z|207;Deepholm|N|From Therazane.|PRE|42932|
+A Stone Drake Rescue|QID|42935|M|56.23,12.45|Z|207;Deepholm|N|From Therazane.|PRE|42932|
+A Clutch Play|QID|42936|M|56.23,12.45|Z|207;Deepholm|N|From Therazane.|PRE|42932|
+C The Troggs that Fel to Earth|QID|42933|QO|1|M|37.46,16.98|Z|207;Deepholm|N|Kill the Felrock Troggs as you go.|S|
+C Stone Drake Rescue|QID|42935|QO|1|M|37.53,19.85|Z|207;Deepholm|N|Kill troggs surronding Stone Drakes to rescue them.|S|
+C Clutch Play|QID|42936|QO|1|M|37.82,15.70|Z|207;Deepholm|NC|N|Click on the glowy rocks to rebuild the Opalescent Guardians.|
+C Stone Drake Rescue|QID|42935|QO|1|M|37.53,19.85|Z|207;Deepholm|N|Finish rescuing Stone Drakes.|US|
+C The Troggs that Fel to Earth|QID|42933|QO|1|M|37.46,16.98|Z|207;Deepholm|N|If you somehow avoided them, find the rest of the Felrock Troggs you need to kill.|US|
+C Stone Drake Rescue|QID|42935|QO|1|M|37.53,19.85|Z|207;Deepholm|N|6/6 Stone Drakes Rescued|US|
+C Clutch Play|QID|42936|QO|2|M|31.28,20.76|Z|207;Deepholm|NC|N|When you have Guardians following you (look for 5 buffs on you), Mount up and fly over to Aeosera.|
+T The Troggs that Fel to Earth|QID|42933|M|56.35,12.22|Z|207;Deepholm|N|To Therazane.|
+T Stone Drake Rescue|QID|42935|M|56.35,12.22|Z|207;Deepholm|N|To Therazane.|
+T Clutch Play|QID|42936|M|56.35,12.22|Z|207;Deepholm|N|To Therazane.|
+A Needlerock Beatdown|QID|42937|M|56.35,12.22|Z|207;Deepholm|N|From Therazane.|PRE|42933^42935^42936|
+C Needlerock Beatdown|QID|42937|QO|1|M|56.73,12.60|Z|207;Deepholm|NC|N|Fly Aeosera to Needlerock.|
+C Needlerock Beatdown|QID|42937|QO|2|M|31.71,31.29|Z|207;Deepholm|N|Assault Needlerock with Aeosera.|
+C Needlerock Beatdown|QID|42937|QO|3|M|24.42,29.47|Z|207;Deepholm|N|Slay Borlock of the Deeps.|
+T Needlerock Beatdown|QID|42937|M|56.35,12.24|Z|207;Deepholm|N|To Therazane.|
+A The Hammer in the Deep|QID|40224|M|56.54,12.91|Z|207;Deepholm|N|From Thrall.|PRE|42937|
+C The Hammer in the Deep|QID|40224|QO|1|M|56.38,12.75|Z|207;Deepholm|N|Take the portal to the Crumbling Depths.|
 C Demon Down|ACTIVE|40224|SO|1;1|M|40.00,74.05|Z|Crumbling Depths|N|Follow Geth'xun's trail of fel blood.|
 C Defeat all the Devouring Imps.|ACTIVE|40224|SO|2;1|M|40.00,74.05|Z|Crumbling Depths|N|Defeat all the Devouring Imps.|
 C Follow Geth'xun's trail of fel blood.|ACTIVE|40224|SO|3;1|M|59.28,80.54|Z|Crumbling Depths|N|Follow Geth'xun's trail of fel blood.|
@@ -186,8 +186,42 @@ T Eye of Azshara: The Scepter of Storms|QID|42984|M|29.26,77.92|Z|726;The Maelst
 A Mission: Investigating Deepholm|QID|42200|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42986|
 t Mission: Investigating Deepholm|QID|42200|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
 A The Great Stonemother|QID|41775|M|29.26,77.92|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42200|LVL|45|
-P Deepholm|ACTIVE|41775|Z|726;The Maelstrom|N|Take the portal to Deepholm from your class hall.|
-T The Great Stonemother|QID|41775|Z|Deepholm|N|To Therazane.|
+P Deepholm|ACTIVE|41775|Z|726;The Maelstrom|M|27.34,51.11|N|Take the portal to Deepholm from your class hall.|
+T The Great Stonemother|QID|41775|Z|207;Deepholm|M|56.32,12.76|N|To Therazane.|
+A The Return of Twilight|QID|42068|Z|207;Deepholm|M|56.32,12.76|N|From Therazane.|PRE|41775|
+T The Return of Twilight|QID|42068|Z|207;Deepholm|M|64.04,70.37|N|To Muln Earthfury.|
+A Destroying the Cult|QID|41777|Z|207;Deepholm|M|64.04,70.37|N|From Muln Earthfury.|PRE|42068|
+A The Master's Plan|QID|41897|Z|207;Deepholm|M|64.04,70.37|N|From Muln Earthfury.|PRE|42068|
+C Destroying the Cult|QID|41777|Z|207;Deepholm|M|56.32,12.76|N|Slay 15 Twilight's Hammer cultists at The Twilight Throne.|S|
+C The Master's Plan|QID|41897|Z|207;Deepholm|M|64.04,75.12|QO|1|N|The Master's Journal pt. 1.|NC|
+C The Master's Plan|QID|41897|Z|207;Deepholm|M|61.76,72.04|QO|2|N|The Master's Journal pt. 2.|NC|
+C The Master's Plan|QID|41897|Z|207;Deepholm|M|62.40,75.90|QO|3|N|The Master's Journal pt. 3.|NC|
+C Destroying the Cult|QID|41777|Z|207;Deepholm|M|56.32,12.76|N|Slay 15 Twilight's Hammer cultists at The Twilight Throne.|US|
+T Destroying the Cult|QID|41777|Z|207;Deepholm|M|PLAYER|N|To Muln Earthfury.|
+T The Master's Plan|QID|41897|Z|207;Deepholm|M|PLAYER|N|To Muln Earthfury.|
+A Unleashing the Elements|QID|41898|Z|207;Deepholm|M|PLAYER|N|From Muln Earthfury.|PRE|41897&41777|
+A Held Captive!|QID|41899|Z|207;Deepholm|M|PLAYER|N|From Muln Earthfury.|PRE|41897&41777|
+C Held Captive!|QID|41899|Z|208;Deepholm|M|31.19,31.38|N|Rescue 10 Twilight Slaves from the Twilight Depths.|
+T Held Captive!|QID|41899|Z|208;Deepholm|M|PLAYER|N|To Elementalist Janai.|
+C Unleashing the Elements|QID|41898|Z|209;Deepholm|M|50.48,86.54|QO|1|N|First ritual disrupted.|NC|
+C Unleashing the Elements|QID|41898|Z|209;Deepholm|M|36.79,70.06|QO|2|N|Second ritual disrupted.|NC|
+C Unleashing the Elements|QID|41898|Z|209;Deepholm|M|21.79,48.08|QO|3|N|Third ritual disrupted.|NC|
+T Unleashing the Elements|QID|41898|Z|209;Deepholm|M|PLAYER|N|To Muln Earthfury.|
+A The Twilight Master|QID|42065|Z|209;Deepholm|M|PLAYER|N|From Muln Earthfury.|PRE|41898|
+C The Twilight Master|QID|42065|Z|209;Deepholm|M|37.33,16.37|QO|1|N|Mistress of Twilight slain.|
+C The Twilight Master|QID|42065|Z|209;Deepholm|M|39.27,12.10|QO|2|N|Twilight Portal used.|NC|
+T The Twilight Master|QID|42065|Z|207;Deepholm|M|56.32,12.76|N|To Therazane.|
+A A Promise of Earth|QID|41900|Z|207;Deepholm|M|56.32,12.76|N|From Therazane.|PRE|42065|
+P The Maelstrom|ACTIVE|41900|Z|207;Deepholm|M|56.38,13.48|N|Take the portal back to your Class Hall.|
+T A Promise of Earth|QID|41900|Z|726;The Maelstrom|M|32.83,60.32|N|To Advisor Sevel.|
+A Champion: Muln Earthfury|QID|41746|Z|726;The Maelstrom|M|32.50,44.41|N|From Mul Earthfury.|PRE|41900|
+A Champion: Avalanchion|QID|41747|Z|726;The Maelstrom|M|34.23,33.81|N|From Avalanchion the Unbroken.|PRE|41900|
+A Return to the Firelands|QID|42208|Z|726;The Maelstrom|M|32.83,60.32|N|From Advisor Sevel.|PRE|41900|
+A Worldmender|QID|42988|Z|726;The Maelstrom|M|32.83,60.32|N|From Advisor Sevel.|PRE|41900|
+A The Maelstrom Pillar: Earth|QID|42997|Z|726;The Maelstrom|M|32.83,60.32|N|From Advisor Sevel.|PRE|41900|
+t Return to the Firelands|QID|42208|Z|726;The Maelstrom|M|32.83,60.32|N|To Advisor Sevel.|
+t Worldmender|QID|42988|Z|726;The Maelstrom|M|32.83,60.32|N|To Advisor Sevel.|
+T The Maelstrom Pillar: Earth|QID|42997|Z|726;The Maelstrom|M|29.28,77.97|N|To Elementalist Janai.|
 
 ;Second artifact
 A Aggra's Guidance|QID|44406|M|30.34,51.57|Z|726;The Maelstrom|N|From Farseer Nobundo.|PRE|40225|

@@ -185,7 +185,7 @@ T The High Chieftain|QID|39580|M|54.85,63.11|Z|Highmountain/6|N|Take the elevato
 T Ceremonial Drums|QID|42622|M|54.86,77.98|Z|Highmountain/6|N|To Torv Dubstomp.|
 A Wrathshard|QID|39134|PRE|38909|M|49.02,55.26|N|From Warbrave Nava who is back up the elevator and across the bridges.|RANK|2|
 A No Time to Talk|QID|39133|PRE|38909|M|49.02,55.26|N|From Warbrave Nava|RANK|2|
-$ Glimmering Treasure Chest|QID|39471|M|49.82,53.49;51.19,53.03|CS|N|Before you go in the cavern, take this path up for a treasure directly above the entrance. Loot for a bit of treasure and resources.|RANK|2|
+$ Glimmering Treasure Chest|QID|39471|M|49.82,53.49;51.19,53.03|CS|N|Before you go in the cavern, take this path up for a treasure directly above the entrance. Loot for a bit of treasure and resources.|RANK|2|LVL|45|
 K Kill Hartli the Snatcher|QID|39802|M|51.08,48.25|T|Hartli|N|Silver to kill for treasure and resources.|RANK|2|RARE|
 C No Time to Talk|QID|39133|M|52.56,54.71|S|N|Kill Enraged Ambershards as you travel towards their boss.|RANK|2|
 C Wrathshard|QID|39134|M|54.01,54.47|T|Wrathshard|N|Kill Wrathshard.|RANK|2|
