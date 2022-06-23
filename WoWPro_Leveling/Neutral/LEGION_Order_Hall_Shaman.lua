@@ -222,6 +222,14 @@ A The Maelstrom Pillar: Earth|QID|42997|Z|726;The Maelstrom|M|32.83,60.32|N|From
 t Return to the Firelands|QID|42208|Z|726;The Maelstrom|M|32.83,60.32|N|To Advisor Sevel.|
 t Worldmender|QID|42988|Z|726;The Maelstrom|M|32.83,60.32|N|To Advisor Sevel.|
 T The Maelstrom Pillar: Earth|QID|42997|Z|726;The Maelstrom|M|29.28,77.97|N|To Elementalist Janai.|
+A Ma'haat the Indomitable|QID|42989|Z|726;The Maelstrom|M|29.28,77.97|N|From Elementalist Janai.|PRE|42997|
+N You will need 5 Blood of Sargeras for this quest. If you do not have them currently, you can buy them from Flame Smith Lanying.|ACTIVE|42989|Z|726;The Maelstrom|M|30.46,60.24|
+P Deepholm|ACTIVE|42989|Z|726;The Maelstrom|M|27.34,51.11|N|Take the portal to Deepholm from your class hall.|
+T Ma'haat the Indomitable|QID|42989|Z|207;Deepholm|M|56.82,14.02|N|To Ma'haat the Indomitable.|
+A A Taste For Blood|QID|42995|Z|207;Deepholm|M|56.82,14.02|N|From Ma'haat the Indomitable.|PRE|42989|
+T A Taste For Blood|QID|42995|Z|207;Deepholm|M|56.82,14.02|N|To Ma'haat the Indomitable.|
+A Return to Janai|QID|43003|Z|207;Deepholm|M|56.82,14.02|N|From Ma'haat the Indomitable.|PRE|42997|
+T Return to Janai|QID|43003|Z|726;The Maelstrom|M|29.28,77.97|N|To Elementalist Janai.|U|140192|
 
 ;Second artifact
 A Aggra's Guidance|QID|44406|M|30.34,51.57|Z|726;The Maelstrom|N|From Farseer Nobundo.|PRE|40225|
