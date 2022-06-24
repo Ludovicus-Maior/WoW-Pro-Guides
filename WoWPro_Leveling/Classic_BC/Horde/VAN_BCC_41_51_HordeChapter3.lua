@@ -664,20 +664,20 @@ A Message to the Wildhammer|QID|7841|M|79.39,79.08|Z|1425|N|From Otho Moji'ko.|
 A Cannibalistic Cousins|QID|7844|M|78.80,78.26|Z|1425|N|From Mystic Yayo'jin.|
 A Vilebranch Hooligans|QID|7839|M|77.52,80.35|Z|1425|N|From Smith Slagtree.|
 K Gammerita|ACTIVE|7816|M|81.8,49.8|Z|1425|QO|1|N|Gammerita roams between the waterfall and Revantusk Village.|T|Gammerita|S|
-K Snapjaws|ACTIVE|7815|M|81.80,49.77|Z|1425|QO|1|N|Kill Saltwater Snapjaws.|S|
+K Snapjaws|ACTIVE|7815|M|81.80,49.77|Z|1425|QO|1|N|Kill Saltwater Snapjaws.\n[color=FF0000]NOTE: [/color]Gammerita does not count.|S|
 C Lard Lost His Lunch|QID|7840|M|84.47,41.22|Z|1425|L|19034|N|Swim out to the island northeast of the waterfall and locate Lard's Picnic Basket. Click the basket, to spawn two level 49 Vilebranch Kidnappers. Kill one of them to loot Lard's Lunch.\n[color=FF0000]NOTE: [/color]They both drop it, so you bail as soon as you kill one of them.|
 K Gammerita|ACTIVE|7816|M|81.9,49.7;80.78,46.81|CC|Z|1425|QO|1|N|Gammerita roams between the waterfall and Revantusk Village.|T|Gammerita|US|
-K Snapjaws|ACTIVE|7815|M|76.34,70.76|Z|1425|QO|1|N|Kill Saltwater Snapjaws.|US|
+K Snapjaws|ACTIVE|7815|M|76.34,70.76|Z|1425|QO|1|N|Kill Saltwater Snapjaws.\n[color=FF0000]NOTE: [/color]Gammerita does not count.|US|
 R Revantusk Village|ACTIVE|7815|M|76.46,75.37|Z|1425|
 T Lard Lost His Lunch|QID|7840|M|78.14,81.39|Z|1425|N|To Lard.|
 T Snapjaws, Mon!|QID|7815|M|80.33,81.54|Z|1425|
 T Gammerita, Mon!|QID|7816|M|80.33,81.54|Z|1425|
 K Silvermane Stalker|ACTIVE|7828|M|80,48|Z|1425|QO|1|S|
-R Shaol'watha|ACTIVE|7839|M|77.0,61.0;72.4,66.3;71.24,55.69|CC|Z|1425|N|Head to the path leading back up the cliffs and follow it up to Shaol'watha.|
+R Shaol'watha|ACTIVE|7839|M|77.0,61.0;72.4,66.3;71.24,55.69|CS|Z|1425|N|Head to the path leading back up the cliffs and follow it up to Shaol'watha.|
 C Slagtree's Lost Tools|ACTIVE|7839|M|72.55,52.24|Z|1425|L|19033|S|
 K Cannibalistic Cousins|ACTIVE|7844|M|70.96,48.05|Z|1425|QO|1;2|N|Kill the required Vilebranch trolls.|S|
-K Silvermane Stalker|ACTIVE|7828|M|80,48|Z|1425|QO|1|US|
-C Slagtree's Lost Tools|ACTIVE|7839|M|72.6,52.9;71.0,48.6;66.4,44.8|CC|Z|1425|L|19033|N|Check the 3 locations for the Tools.\n[color=FF0000]NOTE: [/color]If it's not at one of these locations, manually check off this step to continue.|US|IZ|-Skulk Rock|
+C Slagtree's Lost Tools|ACTIVE|7839|M|72.6,52.9;71.0,48.6;66.4,44.8|CS|Z|1425|L|19033|N|Check the 3 locations for the Tools.\n[color=FF0000]NOTE: [/color]If it's not at one of these locations, manually check off this step to continue.|US|IZ|-Skulk Rock|
+K Silvermane Stalker|ACTIVE|7828|M|69.96,51.65|Z|1425|QO|1|US|
 K Razorbeak Skylord|ACTIVE|7830|M|59.4,53.7|Z|1425|QO|1|N|Keep your eye out for a somewhat rare Razorbeak Skylord.|T|Razorbeak Skylord|S!US|
 K Savage Owlbeast|ACTIVE|7829|M|57.49,46.56|Z|1425|QO|1|N|Kill the Savage Owlbeasts.|S|
 R Skulk Rock|ACTIVE|77|M|57.40,42.60|Z|1425|
@@ -702,7 +702,7 @@ T A Sticky Situation|QID|77|M|26.71,48.60|Z|1425|N|To Gilveradin Sunchaser.|
 A Ripple Delivery|QID|81|M|26.71,48.60|Z|1425|N|From Gilveradin Sunchaser.|PRE|77|
 R Valorwind Lake|ACTIVE|2641|M|24.3,47.4;20.2,48.3;40,61|CC|Z|1425|N|Head back down southeast to Valorwind Lake.|IZ|1425;The Hinterlands|
 C Sprinkle's Secret Ingredient|QID|2641|M|40.04,59.87|Z|1425|L|8526|N|Dive to the bottom of the lake and locate the "Violet Tragan".\n[color=FF0000]NOTE: [/color]You can only loot one at a time; make sure you don't eat it.|
-C Slagtree's Lost Tools|ACTIVE|7839|M|53.3,38.8;57.4,42.4;66.4,44.8;71.0,48.6;72.6,52.9|CC|Z|1425|L|19033|N|Keep cycling through the waypoints until you find it.|US|
+C Slagtree's Lost Tools|QID|7839|M|53.3,38.8;57.4,42.4;66.4,44.8;71.0,48.6;72.6,52.9|CC|Z|1425|L|19033|N|Keep cycling through the waypoints until you find it.|US|
 R The Altar of Zul|ACTIVE|7844|M|44.18,62.43|Z|1425|
 K Cannibalistic Cousins|ACTIVE|7844|M|47.10,65.71|Z|1425|QO|1;2|N|Kill the required Vilebranch trolls.|US|
 K Silvermane Howler|ACTIVE|7828|M|45.40,54.60|Z|1425|QO|2|N|Finish killing the Howlers.|US|
