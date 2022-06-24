@@ -353,7 +353,7 @@ function WoWPro.UpdateTradeSkillsTable(tradeskills)
     for trade in pairs(WoWProCharDB.Tradeskills) do
         local skillLine = WoWPro.ProfessionSkillLines[trade]
         if not skillLine then
-            WoWPro:dbp("UpdateTradeSkillsTable(): Deleted unavailable %d/%s", trade, trade.name)
+            WoWPro:dbp("UpdateTradeSkillsTable(): Deleted unavailable %d", trade)
             WoWProCharDB.Tradeskills[trade] = nil
         elseif tradeskills[trade] == nil and trade ~= 185 and skillLine.parent ~= 185 and trade ~= 356 and skillLine.parent ~= 356 then
             WoWPro:dbp("UpdateTradeSkillsTable(): Deleted unlearned %d/%s", trade, skillLine.name)
