@@ -1101,8 +1101,12 @@ end)
 WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function(event, ...)
     WoWPro:RecordTaxiLocations(...)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-    if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") and WoWProCharDB.AutoSelect == true then
-        WoWPro.TakeTaxi(WoWPro.step[qidx])
+    if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") then
+        if WoWProCharDB.AutoSelect == true then
+            WoWPro.TakeTaxi(WoWPro.step[qidx])
+        else
+            WoWPro:print("TAXIMAP_OPENED: Not trying to travel as AutoSelect is not active.")
+        end
     end
 end)
 
