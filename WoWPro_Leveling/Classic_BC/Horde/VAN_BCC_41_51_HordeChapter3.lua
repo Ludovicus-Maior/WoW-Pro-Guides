@@ -674,9 +674,9 @@ T Snapjaws, Mon!|QID|7815|M|80.33,81.54|Z|1425|
 T Gammerita, Mon!|QID|7816|M|80.33,81.54|Z|1425|
 K Silvermane Stalker|ACTIVE|7828|M|80,48|Z|1425|QO|1|S|
 R Shaol'watha|ACTIVE|7839|M|77.0,61.0;72.4,66.3;71.24,55.69|CS|Z|1425|N|Head to the path leading back up the cliffs and follow it up to Shaol'watha.|
-C Slagtree's Lost Tools|ACTIVE|7839|M|72.55,52.24|Z|1425|L|19033|S|
+C Slagtree's Lost Tools|QID|7839|M|72.6,52.9;71.0,48.6;66.4,44.8|CS|Z|1425|L|19033|N|Check the 3 locations for the Tools.\n[color=FF0000]NOTE: [/color]If it's not at one of these locations, manually check off this step to continue.|S|IZ|-Skulk Rock|
 K Cannibalistic Cousins|ACTIVE|7844|M|70.96,48.05|Z|1425|QO|1;2|N|Kill the required Vilebranch trolls.|S|
-C Slagtree's Lost Tools|ACTIVE|7839|M|72.6,52.9;71.0,48.6;66.4,44.8|CS|Z|1425|L|19033|N|Check the 3 locations for the Tools.\n[color=FF0000]NOTE: [/color]If it's not at one of these locations, manually check off this step to continue.|US|IZ|-Skulk Rock|
+C Slagtree's Lost Tools|QID|7839|M|72.6,52.9;71.0,48.6;66.4,44.8|CS|Z|1425|L|19033|N|Check the 3 locations for the Tools.\n[color=FF0000]NOTE: [/color]If it's not at one of these locations, manually check off this step to continue.|US|IZ|-Skulk Rock|
 K Silvermane Stalker|ACTIVE|7828|M|69.96,51.65|Z|1425|QO|1|US|
 K Razorbeak Skylord|ACTIVE|7830|M|59.4,53.7|Z|1425|QO|1|N|Keep your eye out for a somewhat rare Razorbeak Skylord.|T|Razorbeak Skylord|S!US|
 K Savage Owlbeast|ACTIVE|7829|M|57.49,46.56|Z|1425|QO|1|N|Kill the Savage Owlbeasts.|S|
