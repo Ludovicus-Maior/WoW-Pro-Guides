@@ -678,40 +678,41 @@ C Slagtree's Lost Tools|QID|7839|M|72.6,52.9;71.0,48.6;66.4,44.8|CS|Z|1425|L|190
 K Cannibalistic Cousins|ACTIVE|7844|M|70.96,48.05|Z|1425|QO|1;2|N|Kill the required Vilebranch trolls.|S|
 C Slagtree's Lost Tools|QID|7839|M|72.6,52.9;71.0,48.6;66.4,44.8|CS|Z|1425|L|19033|N|Check the 3 locations for the Tools.\n[color=FF0000]NOTE: [/color]If it's not at one of these locations, manually check off this step to continue.|US|IZ|-Skulk Rock|
 K Silvermane Stalker|ACTIVE|7828|M|69.96,51.65|Z|1425|QO|1|US|
-K Razorbeak Skylord|ACTIVE|7830|M|59.4,53.7|Z|1425|QO|1|N|Keep your eye out for a somewhat rare Razorbeak Skylord.|T|Razorbeak Skylord|S!US|
-K Savage Owlbeast|ACTIVE|7829|M|57.49,46.56|Z|1425|QO|1|N|Kill the Savage Owlbeasts.|S|
+K Razorbeak Skylord|ACTIVE|7830|M|59.4,53.7|Z|1425|L|19025|ITEM|19025|N|Skylord Plume\nRazorbeak Skylord has a large patrolling area which can make locating difficult.|T|Razorbeak Skylord|S!US|
+K Savage Owlbeast|ACTIVE|7829|M|54.89,48.50|Z|1425|QO|1|N|Kill the Savage Owlbeasts.|S|
 R Skulk Rock|ACTIVE|77|M|57.40,42.60|Z|1425|
 C A Sticky Situation|QID|77|M|47.2,40.3|Z|1425|L|8684 10|N|Open Horde Supply Crates until you're done.|S|
 C Slagtree's Lost Tools|ACTIVE|7839|M|57.4,42.4;53.3,38.8|CC|Z|1425|L|19033|N|Check the 2 locations for the Tools.\n[color=FF0000]NOTE: [/color]If it's not at one of these locations, manually check off this step to continue.|IZ|-Shaol'watha|
 C Slagtree's Lost Tools|ACTIVE|7839|M|57.4,42.4;53.3,38.8|CC|Z|1425|L|19033|N|Keep an eye out for the Tools.|S|
 K Silvermane Howler|ACTIVE|7828|M|40.72,52.10|Z|1425|QO|2|S|
-R Agol'watha|ACTIVE|77|M|46,40|Z|1425|
+R Agol'watha|ACTIVE|77|M|46,40|Z|1425|QO|1|
 C A Sticky Situation|QID|77|M|47.41,37.89;47.17,40.34;45.55,41.13;45.82,38.31|CC|Z|1425|L|8684 10|N|Open Horde Supply Crates until you're done.\n[color=FF0000]NOTE: [/color]Follow the wall around the edge to avoid the slimes.\nThe crates respawn after 6 minutes.|US|
-C Testing the Vessel|QID|3123|M|38.82,45.21|Z|1425|L|9594 10|N|Kill Owlbeasts and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|US|
-R Quel'Danil Lodge|ACTIVE|7841|M|34.00,48.00|Z|1425|N|[color=FF0000]NOTE: [/color]Don't enter the lodge yet.|
-K Message to the Wildhammer|QID|7841|QO|1;2;3;4|N|Kill the Highvale Elves you require.|S|
-C Lines of Communication|QID|2995|M|29.63,48.66|Z|1425|QO|2|N|Go behind the west corner of lodge and click The Highvale Report on the ground by the well.|NC|
-C Lines of Communication|QID|2995|M|28.55,46.05|Z|1425|QO|3|N|Click the Highvale Report on the altar under the gazebo.|NC|
-C Lines of Communication|QID|2995|M|31.99,46.82|Z|1425|QO|1|N|Enter the lodge from the northest corner by jumping up to the balcony and climbing over the railing. The Highvale Records are on the ground beside the barrels.|NC|
-A Rin'ji is Trapped!|QID|2742|M|30.73,46.97|Z|1425|ELITE|N|[color=80FF00]Escort Quest:[/color]\nEscort Rin'ji to safety.\n[color=FF0000]NOTE: [/color]He's a fair tank and you can heal himself, but it's best to clear as many elves as possible before starting reduce adds during the ambush attack.|
-A Rin'ji is Trapped!|QID|2742|M|30.73,46.97|Z|1425|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Rin'ji to restart the quest.\n[color=FF0000]NOTE: [/color]Clear any respawns first.|FAIL|
-C Rin'ji is Trapped!|QID|2742|M|32.4,50.6;33.6,53.4;34.66,56.32|CC|Z|1425|N|There are 2 ambushes along the way.\n[color=FF0000]NOTE: [/color]Let Rin'ji aggro any mobs you come across and kill them quick before you're ambushed.|
-K Message to the Wildhammer|QID|7841|QO|1;2;3;4|N|Finish killing the Highvale Elves you require.|US|
-R Shindigger's Camp|ACTIVE|77|M|20.2,48.3;25.05,46.96|CC|Z|1425|
-T A Sticky Situation|QID|77|M|26.71,48.60|Z|1425|N|To Gilveradin Sunchaser.|
-A Ripple Delivery|QID|81|M|26.71,48.60|Z|1425|N|From Gilveradin Sunchaser.|PRE|77|
-R Valorwind Lake|ACTIVE|2641|M|24.3,47.4;20.2,48.3;40,61|CC|Z|1425|N|Head back down southeast to Valorwind Lake.|IZ|1425;The Hinterlands|
-C Sprinkle's Secret Ingredient|QID|2641|M|40.04,59.87|Z|1425|L|8526|N|Dive to the bottom of the lake and locate the "Violet Tragan".\n[color=FF0000]NOTE: [/color]You can only loot one at a time; make sure you don't eat it.|
-C Slagtree's Lost Tools|QID|7839|M|53.3,38.8;57.4,42.4;66.4,44.8;71.0,48.6;72.6,52.9|CC|Z|1425|L|19033|N|Keep cycling through the waypoints until you find it.|US|
 R The Altar of Zul|ACTIVE|7844|M|44.18,62.43|Z|1425|
 K Cannibalistic Cousins|ACTIVE|7844|M|47.10,65.71|Z|1425|QO|1;2|N|Kill the required Vilebranch trolls.|US|
+R Valorwind Lake|ACTIVE|2641|M|42.22,61.38|Z|1425|QO|1|
+C Sprinkle's Secret Ingredient|QID|2641|M|40.04,59.87|Z|1425|L|8526|N|Dive to the bottom of the lake and locate the "Violet Tragan".\n[color=FF0000]NOTE: [/color]You can only loot one at a time; make sure you don't eat it.|
+C Testing the Vessel|QID|3123|M|38.82,45.21|Z|1425|L|9594 10|N|Kill Owlbeasts and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|US|
 K Silvermane Howler|ACTIVE|7828|M|45.40,54.60|Z|1425|QO|2|N|Finish killing the Howlers.|US|
-K Savage Owlbeast|ACTIVE|7829|M|57.49,46.56|Z|1425|QO|1|N|Finish killing the Savage Owlbeasts.|US|
+R Shindigger's Camp|ACTIVE|77|M|20.2,48.3;25.05,46.96|CS|Z|1425|
+T A Sticky Situation|QID|77|M|26.71,48.60|Z|1425|N|To Gilveradin Sunchaser.|
+A Ripple Delivery|QID|81|M|26.71,48.60|Z|1425|N|From Gilveradin Sunchaser.|PRE|77|
+R Quel'Danil Lodge|ACTIVE|7841|M|34.00,48.00|Z|1425|N|[color=FF0000]NOTE: [/color]Work your way down the cliff if you don't want to run all the way around.|
+K Message to the Wildhammer|QID|7841|QO|1;2;3;4|N|Kill the Highvale Elves you require.|S|
+C The Highvale Notes|QID|2995|M|29.63,48.66|Z|1425|QO|2|N|Go behind the west corner of lodge and click the Highvale Notes on the ground by the well.|NC|
+C The Highvale Report|QID|2995|M|28.55,46.05|Z|1425|QO|3|N|Click the Highvale Report on the altar under the gazebo.|NC|
+C The Highvale Records|QID|2995|M|31.99,46.82|Z|1425|QO|1|N|Enter the lodge from the northest corner by jumping up to the balcony and climbing over the railing. The Highvale Records are on the ground beside the barrels.|NC|
+A Rin'ji is Trapped!|QID|2742|M|30.73,46.97|Z|1425|ELITE|N|[color=80FF00]Escort Quest:[/color]\nEscort Rin'ji to safety.\n[color=FF0000]NOTE: [/color]He's a fair tank and can heal himself, but it's best to clear as many elves as possible before starting reduce adds during the ambush attack.|
+A Rin'ji is Trapped!|QID|2742|M|30.73,46.97|Z|1425|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Rin'ji to restart the quest.\n[color=FF0000]NOTE: [/color]Clear any respawns first.|FAIL|
+C Rin'ji is Trapped!|QID|2742|M|32.4,50.6;33.6,53.4;34.66,56.32|CS|Z|1425|N|There are 2 ambushes along the way.\n[color=FF0000]NOTE: [/color]Let Rin'ji aggro any mobs you come across and kill them quick before you're ambushed.|
+R Quel'Danil Lodge|ACTIVE|7841|M|32.59,51.21|Z|1425|
+K Message to the Wildhammer|QID|7841|QO|1;2;3;4|N|Finish killing the Highvale Elves you require.|US|
+K Savage Owlbeast|ACTIVE|7829|M|54.89,48.50|Z|1425|QO|1|N|Finish killing the Savage Owlbeasts.\n[color=FF0000]NOTE: [/color]They are spread over a large area. Watch out for the Silvermane Stalkers.|US|
 l Natural Materials|ACTIVE|3128|M|57.49,46.56|Z|1425|QO|3;4|N|Finish collecting the Fragments and Sinews.|US|
-L Level 50|ACTIVE|2995|N|You need to be 7.5 bubbles from level 50. Grind out until you're.|LVL|49;-43850|
+L Level 50|ACTIVE|2995|N|Grind out until you're 7.5 bubbles from level 50.|LVL|49;-43850|
 t Find OOX-09/HL!|QID|485|M|49.35,37.65|Z|1425|N|To OOX-09/HL.|
-A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|1425|N|From OOX-09/HL.|PRE|485|
+A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|1425|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom OOX-09/HL.|PRE|485|
 C Rescue OOX-09/HL!|QID|836|N|Let the chicken lead the way, so he will stop when agro. It can be very difficult to solo. Ask the zone if anyone wants to do it with you. There are 2 preset ambushes. Abandon if you're having too many difficulties.|
+C Slagtree's Lost Tools|QID|7839|M|53.3,38.8;57.4,42.4;66.4,44.8;71.0,48.6;72.6,52.9|CC|Z|1425|L|19033|N|Keep cycling through the waypoints until you find it.|US|
 R The Overlook Cliffs|ACTIVE|2742|M|80.80,46.80|Z|1425|N|Make your way to the Waterfall.|
 T Rin'ji is Trapped!|QID|2742|M|86.31,59.02|Z|1425|N|Swim to the island with the stone arch on top of it and click on the big tablet to turn in this quest.\n[color=FF0000]NOTE: [/color]Look for the dark coloered ground where you can climb up.|
 A Rin'ji's Secret|QID|2782|M|86.31,59.02|Z|1425|N|From Rin'ji's Secret (The big tablet).|PRE|2742|
