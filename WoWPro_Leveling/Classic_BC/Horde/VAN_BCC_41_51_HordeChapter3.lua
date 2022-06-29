@@ -696,7 +696,7 @@ K Silvermane Howler|ACTIVE|7828|M|45.40,54.60|Z|1425|QO|2|N|Finish killing the H
 R Shindigger's Camp|ACTIVE|77|M|20.2,48.3;25.05,46.96|CS|Z|1425|
 T A Sticky Situation|QID|77|M|26.71,48.60|Z|1425|N|To Gilveradin Sunchaser.|
 A Ripple Delivery|QID|81|M|26.71,48.60|Z|1425|N|From Gilveradin Sunchaser.|PRE|77|
-R Quel'Danil Lodge|ACTIVE|7841|M|34.00,48.00|Z|1425|N|[color=FF0000]NOTE: [/color]Work your way down the cliff if you don't want to run all the way around.|
+R Quel'Danil Lodge|AVAILABLE|2742|M|34.00,48.00|Z|1425|N|[color=FF0000]NOTE: [/color]Work your way down the cliff if you don't want to run all the way around.|
 K Message to the Wildhammer|QID|7841|QO|1;2;3;4|N|Kill the Highvale Elves you require.|S|
 C The Highvale Notes|QID|2995|M|29.63,48.66|Z|1425|QO|2|N|Go behind the west corner of lodge and click the Highvale Notes on the ground by the well.|NC|
 C The Highvale Report|QID|2995|M|28.55,46.05|Z|1425|QO|3|N|Click the Highvale Report on the altar under the gazebo.|NC|
@@ -704,10 +704,11 @@ C The Highvale Records|QID|2995|M|31.99,46.82|Z|1425|QO|1|N|Enter the lodge from
 A Rin'ji is Trapped!|QID|2742|M|30.73,46.97|Z|1425|ELITE|N|[color=80FF00]Escort Quest:[/color]\nEscort Rin'ji to safety.\n[color=FF0000]NOTE: [/color]He's a fair tank and can heal himself, but it's best to clear as many elves as possible before starting reduce adds during the ambush attack.|
 A Rin'ji is Trapped!|QID|2742|M|30.73,46.97|Z|1425|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Rin'ji to restart the quest.\n[color=FF0000]NOTE: [/color]Clear any respawns first.|FAIL|
 C Rin'ji is Trapped!|QID|2742|M|32.4,50.6;33.6,53.4;34.66,56.32|CS|Z|1425|N|There are 2 ambushes along the way.\n[color=FF0000]NOTE: [/color]Let Rin'ji aggro any mobs you come across and kill them quick before you're ambushed.|
-R Quel'Danil Lodge|ACTIVE|7841|M|32.59,51.21|Z|1425|
+R Quel'Danil Lodge|ACTIVE|7841|M|32.59,51.21|Z|1425|QO|1;2;3;4|
 K Message to the Wildhammer|QID|7841|QO|1;2;3;4|N|Finish killing the Highvale Elves you require.|US|
 K Savage Owlbeast|ACTIVE|7829|M|54.89,48.50|Z|1425|QO|1|N|Finish killing the Savage Owlbeasts.\n[color=FF0000]NOTE: [/color]They are spread over a large area. Watch out for the Silvermane Stalkers.|US|
-l Natural Materials|ACTIVE|3128|M|57.49,46.56|Z|1425|QO|3;4|N|Finish collecting the Fragments and Sinews.|US|
+C Resilient Sinew|QID|3128|M|40.82,47.01|Z|1425|L|9591 20|ITEM|9591|N|Any Owlbeast\n[color=FF0000]NOTE: [/color]The Vicious Owlbeasts around Quel'danil Ldge are not part of the kill quest and will be easier to find.|US|
+C Metallic Fragments|QID|3128|M|40.82,47.01|Z|1425|L|9592 40|ITEM|9592|N|Any Owlbeast\n[color=FF0000]NOTE: [/color]The Vicious Owlbeasts around Quel'danil Ldge are not part of the kill quest and will be easier to find.|US|
 L Level 50|ACTIVE|2995|N|Grind out until you're 7.5 bubbles from level 50.|LVL|49;-43850|
 t Find OOX-09/HL!|QID|485|M|49.35,37.65|Z|1425|N|To OOX-09/HL.|
 A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|1425|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom OOX-09/HL.|PRE|485|
