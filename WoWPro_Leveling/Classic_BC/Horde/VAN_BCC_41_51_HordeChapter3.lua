@@ -120,7 +120,7 @@ C Crag Coyote Fangs|ACTIVE|2258|L|7846 10|ITEM|7846|N|Coyote|S|
 C Buzzard Gizzard|QID|2258|L|7847 5|ITEM|7847|N|Buzzard|S|
 C Rock Elemental Shard|QID|2258|L|7848 5|ITEM|7848|N|Rock Elemental|S|
 K Boss Tho'grun|ACTIVE|782|M|38.37,71.37|Z|1418|L|4640|ITEM|4640|N|Boss Tho'grun\n[color=FF0000]NOTE: [/color]Keep an eye out for his entourage as you doing your other quests.|S|
-R Valley of Fangs|ACTIVE|1106|M|39.92,54.57|Z|1418|
+R Valley of Fangs|AVAILABLE|703|M|39.92,54.57|Z|1418|
 T Martek the Exiled|QID|1106|M|42.21,52.69|Z|1418|N|Martek is in the Valley of Fangs, east side of the second spire.|
 A Indurium|QID|1108|M|42.21,52.69|Z|1418|N|From Martek.|PRE|1106|
 A Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|1418|N|From Rigglefuzz.|
