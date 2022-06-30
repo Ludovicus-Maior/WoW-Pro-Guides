@@ -745,11 +745,12 @@ A Delivery for Marin|QID|2661|M|51.06,26.88|Z|1446|N|From Sprinkle.|PRE|2641|
 T Delivery for Marin|QID|2661|M|51.8,28.6|Z|1446|N|To Marin Noggenfogger.|
 A Noggenfogger Elixir|QID|2662|M|51.8,28.6|Z|1446|N|From Marin Noggenfogger.|PRE|2661|
 T Noggenfogger Elixir|QID|2662|M|51.8,28.6|Z|1446|N|Wait 5 seconds and turn this in to Marin.|
-t Find OOX-17/TN!|QID|351|M|60.2,64.7|Z|1446|N|To OOX-17.|
-A Rescue OOX-17/TN!.|QID|648|M|60.2,64.7|Z|1446|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Homing Robot OOX-17/TN.|PRE|351| ; == '.' breaks auto-accept - Hendo72
-A Rescue OOX-17/TN!|QID|648|M|60.2,64.7|Z|1446|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\nGo back to Homing Robot OOX-17/TN to restart.|PRE|351|FAIL|
-C Rescue OOX-17/TN!|QID|648|M|61.36,53.76;66.15,34.94;67.04,23.16|CS|Z|1446|N|As you travel to the dock at Steamwheedle Port, there are 2 preset ambushes (at the coordinates) of 3 mobs each. The first one is Scorpions and the second one is lv 42 humanoids (One will be a shadow mage though, kill it first).|
-R The Gaping Chasm|ACTIVE|10|M|56,61|Z|1446|N|Ride to the Gaping Chasm|
+N Clear this area!!!|ACTIVE|351|AVAILABLE|648|M|61.36,53.76|Z|1446|N|Make sure you clear this area of any mobs before you head over to start the escort quest.|
+t Find OOX-17/TN!|QID|351|M|60.23,64.71|Z|1446|N|To Homing Robot OOX-17/TN.|
+A Rescue OOX-17/TN!.|QID|648|M|60.23,64.71|Z|1446|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Homing Robot OOX-17/TN.|PRE|351| ; == '.' breaks auto-accept - Hendo72
+A Rescue OOX-17/TN!.|QID|648|M|60.23,64.71|Z|1446|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\nGo back to Homing Robot OOX-17/TN to restart.|PRE|351|FAIL| ; == '.' breaks auto-accept - Hendo72
+C Rescue OOX-17/TN!|QID|648|M|61.36,53.76;66.15,34.94;67.04,23.16|CS|Z|1446|N|As you travel to the dock at Steamwheedle Port, there are 2 preset ambushes (at the coordinates) of 3 mobs each. The first one is Scorpions and the second one is humanoids.\n[color=FF0000]NOTE: [/color]You may want to run ahead and clear any potential adds (2 Hyenas and a Gazer) that are in the area of the first ambush.|
+R The Gaping Chasm|ACTIVE|10|M|56,61|Z|1446|
 C The Scrimshank Redemption|QID|10|M|55.65,70.25;55.78,68.90;56.52,68.64;57.57,70.55;57.57,71.39;55.95,71.16|CS|Z|1446|L|8593|N|The entrance is spiralling down at the first waypoint. Enter the tunnel at the bottom of the spiral and turn right down the first tunnel into the circular room. Staying on the right side go through the circular room and turn right down the first tunnel into the big square room.\nThe Scrimshank's Surveying Gear is in an alcove at the western corner of the room.|
 H Gadgetzan|ACTIVE|10|M|52.50,27.90|Z|1446|N|Hearth, or fight your way out; I choose hearth.|
 T The Scrimshank Redemption|QID|10|M|50.21,27.48|Z|1446|N|To Senior Surveyor Fizzledowser.|
