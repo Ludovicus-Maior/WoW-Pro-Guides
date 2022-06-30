@@ -120,7 +120,7 @@ C Crag Coyote Fangs|ACTIVE|2258|L|7846 10|ITEM|7846|N|Coyote|S|
 C Buzzard Gizzard|QID|2258|L|7847 5|ITEM|7847|N|Buzzard|S|
 C Rock Elemental Shard|QID|2258|L|7848 5|ITEM|7848|N|Rock Elemental|S|
 K Boss Tho'grun|ACTIVE|782|M|38.37,71.37|Z|1418|L|4640|ITEM|4640|N|Boss Tho'grun\n[color=FF0000]NOTE: [/color]Keep an eye out for his entourage as you doing your other quests.|S|
-R Valley of Fangs|ACTIVE|1106|M|39.92,54.57|Z|1418|
+R Valley of Fangs|AVAILABLE|703|M|39.92,54.57|Z|1418|
 T Martek the Exiled|QID|1106|M|42.21,52.69|Z|1418|N|Martek is in the Valley of Fangs, east side of the second spire.|
 A Indurium|QID|1108|M|42.21,52.69|Z|1418|N|From Martek.|PRE|1106|
 A Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|1418|N|From Rigglefuzz.|
@@ -710,17 +710,18 @@ K Savage Owlbeast|ACTIVE|7829|M|54.89,48.50|Z|1425|QO|1|N|Finish killing the Sav
 C Resilient Sinew|QID|3128|M|40.82,47.01|Z|1425|L|9591 20|ITEM|9591|N|Any Owlbeast\n[color=FF0000]NOTE: [/color]The Vicious Owlbeasts around Quel'danil Ldge are not part of the kill quest and will be easier to find.|US|
 C Metallic Fragments|QID|3128|M|40.82,47.01|Z|1425|L|9592 40|ITEM|9592|N|Any Owlbeast\n[color=FF0000]NOTE: [/color]The Vicious Owlbeasts around Quel'danil Ldge are not part of the kill quest and will be easier to find.|US|
 L Level 50|ACTIVE|2995|N|Grind out until you're 7.5 bubbles from level 50.|LVL|49;-43850|
+C Slagtree's Lost Tools|QID|7839|M|53.3,38.8;57.4,42.4;66.4,44.8;71.0,48.6;72.6,52.9|CN|Z|1425|L|19033|N|Keep cycling through the waypoints until you find it.|US|
 t Find OOX-09/HL!|QID|485|M|49.35,37.65|Z|1425|N|To OOX-09/HL.|
 A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|1425|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom OOX-09/HL.|PRE|485|
-C Rescue OOX-09/HL!|QID|836|N|Let the chicken lead the way, so he will stop when agro. It can be very difficult to solo. Ask the zone if anyone wants to do it with you. There are 2 preset ambushes. Abandon if you're having too many difficulties.|
-C Slagtree's Lost Tools|QID|7839|M|53.3,38.8;57.4,42.4;66.4,44.8;71.0,48.6;72.6,52.9|CC|Z|1425|L|19033|N|Keep cycling through the waypoints until you find it.|US|
+A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|1425|ELITE|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to OOX-09/HL to restart it.|PRE|485|FAIL|
+C Rescue OOX-09/HL!|QID|836|M|57.82,50.34;68.68,61.84;79.12,61.32|CS|Z|1425|N|As you travel the road from Agol'watha to the shoreline at The Overlook Cliffs, there are 2 preset ambushes (at the cordinates) of 3 mobs each.|
 R The Overlook Cliffs|ACTIVE|2742|M|80.80,46.80|Z|1425|N|Make your way to the Waterfall.|
 T Rin'ji is Trapped!|QID|2742|M|86.31,59.02|Z|1425|N|Swim to the island with the stone arch on top of it and click on the big tablet to turn in this quest.\n[color=FF0000]NOTE: [/color]Look for the dark coloered ground where you can climb up.|
 A Rin'ji's Secret|QID|2782|M|86.31,59.02|Z|1425|N|From Rin'ji's Secret (The big tablet).|PRE|2742|
 R Revantusk Village|ACTIVE|7839|M|76.46,75.37|Z|1425|N|Swim back to shore and continue on to Revantusk Village.|
 T Vilebranch Hooligans|QID|7839|M|77.52,80.35|Z|1425|N|To Smith Slagtree.|
 T Cannibalistic Cousins|QID|7844|M|78.80,78.26|Z|1425|N|To Mystic Yayo'jin.|
-T Message to the Wildhammer|QID|7841|M|79.39,79.08|Z|1425|N|To Otho Moji'ko.|
+T Message to the Wildhammer|QID|7841|M|79.39,79.08|Z|1425|N|To Otho Moji'ko.\n[color=FF0000]NOTE: [/color]Skip the follow-up because you're leaving the area now.|
 T Stalking the Stalkers|QID|7828|M|79.16,79.53|Z|1425|N|To Huntsman Markhor.|
 T Hunt the Savages|QID|7829|M|79.16,79.53|Z|1425|N|To Huntsman Markhor.|
 T Avenging the Fallen|QID|7830|M|79.16,79.53|Z|1425|N|To Huntsman Markhor.|
@@ -730,23 +731,24 @@ F Undercity|ACTIVE|2995|M|81.71,81.75|Z|1425|
 T Lines of Communication|QID|2995|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe in the Magic Quarter.|
 T Rin'ji's Secret|QID|2782|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe.|
 T Oran's Gratitude|QID|8273|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe.|
-A ... and a Batch of Ooze|QID|4294|M|47.45,73.36|Z|1458|N|From Chemist Fuely; in main room of The Apothecarium |
+A ... and a Batch of Ooze|QID|4294|M|47.45,73.36|Z|1458|N|From Chemist Fuely, in main room of The Apothecarium by the stairs.|
 b Durotar|ACTIVE|2641|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppelin back to Durotar.|
 R Orgrimmar|ACTIVE|2641|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|
 F Thunder Bluff|ACTIVE|2641|M|45.13,63.90|Z|1454|C|Druid|
 = Level 50 Training|ACTIVE|2641|N|Train your lv 50 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
 ; --- Tanaris
-F Gadgetzan|ACTIVE|2641|M|49.15,95.09|Z|1454|IZ|1454; Orgrimmar|
-F Gadgetzan|ACTIVE|2641|M|47.02,49.83|Z|1456|IZ|1456; Thunder Bluff|
+F Gadgetzan|ACTIVE|2641|M|45.13,63.90|Z|1454|C|-Druid|
+F Gadgetzan|ACTIVE|2641|M|47.02,49.83|Z|1456|C|Druid|
 T Sprinkle's Secret Ingredient|QID|2641|M|51.06,26.88|Z|1446|N|To Sprinkle.|
 A Delivery for Marin|QID|2661|M|51.06,26.88|Z|1446|N|From Sprinkle.|PRE|2641|
 T Delivery for Marin|QID|2661|M|51.8,28.6|Z|1446|N|To Marin Noggenfogger.|
 A Noggenfogger Elixir|QID|2662|M|51.8,28.6|Z|1446|N|From Marin Noggenfogger.|PRE|2661|
 T Noggenfogger Elixir|QID|2662|M|51.8,28.6|Z|1446|N|Wait 5 seconds and turn this in to Marin.|
-t Find OOX-17/TN!|QID|351|M|60.2,64.7|Z|1446|N|Find the chicken at , The quest and accept the follow-up.|
-A Rescue OOX-17/TN!|QID|648|M|60.2,64.7|Z|1446|N|At|PRE|351|
-C Rescue OOX-17/TN!|QID|648|N|Let the chicken in front, let him get hit first. Sometimes mobs will aggro him but not manage to hit him while he walks and they will just give up. The first part of the escort is the hardest as you will run into lvl 46-47 mobs. And at some point you will get an ambush of 3 level 46 scorpions. Use your long cooldown abilities there. After this, it gets easier. Later on you will get a 2nd ambush, 3 humanoids lvl 42 (green). One will be a shadow mage though, kill it first.|
+t Find OOX-17/TN!|QID|351|M|60.2,64.7|Z|1446|N|To OOX-17.|
+A Rescue OOX-17/TN!.|QID|648|M|60.2,64.7|Z|1446|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Homing Robot OOX-17/TN.|PRE|351| ; == '.' breaks auto-accept - Hendo72
+A Rescue OOX-17/TN!|QID|648|M|60.2,64.7|Z|1446|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\nGo back to Homing Robot OOX-17/TN to restart.|PRE|351|FAIL|
+C Rescue OOX-17/TN!|QID|648|M|61.36,53.76;66.15,34.94;67.04,23.16|CS|Z|1446|N|As you travel to the dock at Steamwheedle Port, there are 2 preset ambushes (at the coordinates) of 3 mobs each. The first one is Scorpions and the second one is lv 42 humanoids (One will be a shadow mage though, kill it first).|
 R The Gaping Chasm|ACTIVE|10|M|56,61|Z|1446|N|Ride to the Gaping Chasm|
 C The Scrimshank Redemption|QID|10|M|55.65,70.25;55.78,68.90;56.52,68.64;57.57,70.55;57.57,71.39;55.95,71.16|CS|Z|1446|L|8593|N|The entrance is spiralling down at the first waypoint. Enter the tunnel at the bottom of the spiral and turn right down the first tunnel into the circular room. Staying on the right side go through the circular room and turn right down the first tunnel into the big square room.\nThe Scrimshank's Surveying Gear is in an alcove at the western corner of the room.|
 H Gadgetzan|ACTIVE|10|M|52.50,27.90|Z|1446|N|Hearth, or fight your way out; I choose hearth.|
