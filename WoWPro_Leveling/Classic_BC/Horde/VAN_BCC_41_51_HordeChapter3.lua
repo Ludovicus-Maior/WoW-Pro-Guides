@@ -745,14 +745,15 @@ A Delivery for Marin|QID|2661|M|51.06,26.88|Z|1446|N|From Sprinkle.|PRE|2641|
 T Delivery for Marin|QID|2661|M|51.8,28.6|Z|1446|N|To Marin Noggenfogger.|
 A Noggenfogger Elixir|QID|2662|M|51.8,28.6|Z|1446|N|From Marin Noggenfogger.|PRE|2661|
 T Noggenfogger Elixir|QID|2662|M|51.8,28.6|Z|1446|N|Wait 5 seconds and turn this in to Marin.|
-N Clear this area!!!|ACTIVE|351|AVAILABLE|648|M|61.36,53.76|Z|1446|N|Make sure you clear this area of any mobs before you head over to start the escort quest.|
+R The Gaping Chasm|ACTIVE|10|M|53.44,60.13|Z|1446|
+C The Scrimshank Redemption|QID|10|M|55.65,70.25;55.78,68.90;56.52,68.64;57.57,70.55;57.57,71.39;55.95,71.16|CS|Z|1446|L|8593|N|The entrance is spiralling down at the first waypoint. Enter the tunnel at the bottom of the spiral and turn right down the first tunnel into the circular room. Staying on the right side go through the circular room and turn right down the first tunnel into the big square room.\nThe Scrimshank's Surveying Gear is in an alcove at the western corner of the room.\n[color=FF0000]NOTE: [/color]The Swarmers can become quite troublesome; kill them fast or avoid when possible.|
+H Gadgetzan|ACTIVE|10&-351|AVAILABLE|648|M|52.50,27.90|Z|1446|N|Hearth, or fight your way out; I choose hearth.| ; === No point hearthing just to come back here to do the escort quest - Hendo72
+R Exit the Hive|ACTIVE|10&351|AVAILABLE|648|M|55.65,70.25|CC|Z|1446|N|Fight your way out.|
 t Find OOX-17/TN!|QID|351|M|60.23,64.71|Z|1446|N|To Homing Robot OOX-17/TN.|
 A Rescue OOX-17/TN!.|QID|648|M|60.23,64.71|Z|1446|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Homing Robot OOX-17/TN.|PRE|351| ; == '.' breaks auto-accept - Hendo72
 A Rescue OOX-17/TN!.|QID|648|M|60.23,64.71|Z|1446|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\nGo back to Homing Robot OOX-17/TN to restart.|PRE|351|FAIL| ; == '.' breaks auto-accept - Hendo72
 C Rescue OOX-17/TN!|QID|648|M|61.36,53.76;66.15,34.94;67.04,23.16|CS|Z|1446|N|As you travel to the dock at Steamwheedle Port, there are 2 preset ambushes (at the coordinates) of 3 mobs each. The first one is Scorpions and the second one is humanoids.\n[color=FF0000]NOTE: [/color]You may want to run ahead and clear any potential adds (2 Hyenas and a Gazer) that are in the area of the first ambush.|
-R The Gaping Chasm|ACTIVE|10|M|56,61|Z|1446|
-C The Scrimshank Redemption|QID|10|M|55.65,70.25;55.78,68.90;56.52,68.64;57.57,70.55;57.57,71.39;55.95,71.16|CS|Z|1446|L|8593|N|The entrance is spiralling down at the first waypoint. Enter the tunnel at the bottom of the spiral and turn right down the first tunnel into the circular room. Staying on the right side go through the circular room and turn right down the first tunnel into the big square room.\nThe Scrimshank's Surveying Gear is in an alcove at the western corner of the room.|
-H Gadgetzan|ACTIVE|10|M|52.50,27.90|Z|1446|N|Hearth, or fight your way out; I choose hearth.|
+R Gadgetzan|ACTIVE|10|M|52.50,27.90|Z|1446|
 T The Scrimshank Redemption|QID|10|M|50.21,27.48|Z|1446|N|To Senior Surveyor Fizzledowser.|
 A Insect Part Analysis|QID|110|M|50.21,27.48|Z|1446|N|From Senior Surveyor Fizzledowser.|PRE|10|
 T Insect Part Analysis|QID|110|M|50.89,26.97|Z|1446|N|To Alchemist Pestlezugg.|
@@ -763,22 +764,21 @@ A Rise of the Silithid|QID|32|M|50.21,27.48|Z|1446|N|From Senior Surveyor Fizzle
 ; -- Feralas
 F Camp Mojache|ACTIVE|3123|M|51.60,25.44|Z|1446|
 h Camp Mojache|ACTIVE|3123|M|74.81,45.19|Z|1444|N|At Innkeeper Greul.|
-r Repair, Restock, Sell Junk|ACTIVE|3123|
 T Testing the Vessel|QID|3123|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i.|
 A Hippogryph Muisek|QID|3124|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|PRE|3123|
 R Verdantis River|ACTIVE|2928^3124|M|63.76,51.09|Z|1444|N|Follow the road west out Camp Mojache to the Bridge over the river.|
 R High Wilderness|ACTIVE|2928^3124|M|58.38,52.84|Z|1444|N|Continue west along the road.|
-C Hippogryph Muisek|QID|3124|M|54.68,67.10|Z|1444|L|9595 10|N|Kill Hippogryphs and use the Muisek Vessel on their bodies to collect the Muisek.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.|U|9619|S|
+C Hippogryph Muisek|QID|3124|M|54.68,67.10|Z|1444|L|9595 10|N|Kill Hippogryphs and use the Muisek Vessel on their bodies to collect the Muisek.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.|T|Frayfeather|U|9619|S|
 R Frayfeather Highlands|ACTIVE|2928^3124|M|59.3,53.7;54.68,67.10|CC|Z|1444|N|Make your way south from the road.\n[color=FF0000]NOTE: [/color]If you go to the Dire Maul intersection, just to the west of you, there is a 'path' headed south.|
 C Hippogryph Muisek|QID|3124|M|54.68,67.10|Z|1444|L|9595 10|N|Finish collecting the Musiek.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.|U|9619|US|
 H Camp Mojache|QID|3124|M|73.12,47.44|Z|1444|N|Hearth or ride back to Camp Mojache.|
 T Hippogryph Muisek|QID|3124|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i.|
 A Faerie Dragon Muisek|QID|3125|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|PRE|3124|
-C Faerie Dragon Muisek|QID|3125|M|68.14,47.97|Z|1444|L|9596 10|N|Kill Sprite Darters (near Grimtotem Compound) and use the Muisek Vessel on their corpses.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.\nDo not skin them either because they will disappear before you can use the Vessel!|U|9620|
+C Faerie Dragon Muisek|QID|3125|M|68.14,47.97|Z|1444|L|9596 8|N|Kill Sprite Darters (near Grimtotem Compound) and use the Muisek Vessel on their corpses.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.\nDo not skin them either because they will disappear before you can use the Vessel!|T|Sprite Darter|U|9620|
 R Camp Mojache|ACTIVE|3125|M|73.12,47.44|Z|1444|
 T Faerie Dragon Muisek|QID|3125|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i.|
 A Treant Muisek|QID|3126|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|PRE|3125|
-C Treant Muisek|QID|3126|M|73.2,54.6;53.8,47.0;57.4,73.2;73.95,39.52|CN|Z|1444|L|9593 3|N|Locate and kill Wandering Forest Walkers; using the Muisek Vessel on their corpses.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.\nThey spawn and wander around The Grimtotem Compound,  Camp Mojache, The gnoll camps, Dire Maul, and the Hippogyph area.|U|9606|
+C Treant Muisek|QID|3126|M|73.2,54.6;53.8,47.0;57.4,73.2;73.95,39.52|CN|Z|1444|L|9593 3|N|Locate and kill Wandering Forest Walkers; using the Muisek Vessel on their corpses.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.\nThey spawn and wander around The Grimtotem Compound,  Camp Mojache, The gnoll camps, Dire Maul, and the Hippogyph area.|T|Treant|U|9606|
 R Camp Mojache|ACTIVE|3126|M|73.12,47.44|Z|1444|
 T Treant Muisek|QID|3126|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i.|
 A Mountain Giant Muisek|QID|3127|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|PRE|3126|
