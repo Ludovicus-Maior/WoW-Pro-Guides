@@ -155,7 +155,7 @@ A Encroachment|QID|837|M|51.95,43.50|N|From Gar'Thok.|
 T Carry Your Weight|QID|791|M|50.18,43.09;49.65,40.41;49.87,40.35|CS|N|To Furl Scornbrow.|
 C A Solvent Spirit|QID|818|M|60.33,49.85|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|S|
 l From The Wreckage....|ACTIVE|825|M|60.33,49.85|L|4863 3|N|Go south-east and look for the Gnomish Tools amongst the ship wrecks.|
-C A Solvent Spirit|ACTIVE|818|M|60.33,49.85|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|US|
+C A Solvent Spirit|QID|818|M|60.33,49.85|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|US|
 K Encroachment|QID|837|M|51.03,48.31|QO|1;2|N|Head southwest of Razor Hill and kill Razormane Quillboars and Scouts.|
 L Level 8|QID|825|N|You should be level 8 or shortly before. Grind a bit on the Razormane in the area.|LVL|7;-700|
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|
@@ -230,7 +230,7 @@ A Need for a Cure|QID|812|M|41.53,18.62|L|-4904|N|From Rhinag at Rocktusk Farm. 
 R Orgrimmar|ACTIVE|-812&831|M|45.51,12.06|N|Follow the road north out of Razor Hill to the gates of Orgrimmar.|
 R Orgrimmar|ACTIVE|812|AVAILABLE|813|M|45.51,12.06|QO|1|N|Make your way northeast to the gates of Orgrimmar.|
 R Grommash Hold|ACTIVE|831|M|52.33,84.15;49.66,60.39;52.65,57.20;59.28,47.18;55.59,37.06;40.30,36.94|Z|Orgrimmar|CC|N|As you enter Orgrimmar, continue straight until you reach the Drag. Enter the Drag and follow the road until you reach Grommash Hold.\n[color=FF0000]NOTE: [/color]There are multiple routes, but this is the fastest one I've found.|
-T The Admiral's Orders|QID|831|M|32.27,35.79|Z|Orgrimmar|N|To Nazgrel inside the 2nd room of Grommash Hold.|
+T The Admiral's Orders|QID|831|M|34.29,36.40|Z|Orgrimmar|N|To Vol'jin inside the 2nd room of Grommash Hold.|
 A Hidden Enemies|QID|5726|M|31.75,37.82|Z|Orgrimmar|N|From Thrall.|
 A Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|L|-4904|N|From Khorgan in the Cleft of Shadow.\n\n[color=FF0000]NOTE: [/color]As long as you pick up this quest, the 'Need for a Cure' timer is irrelevant.|
 
@@ -343,6 +343,8 @@ R Leave Orgrimmar|ACTIVE|809|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar throu
 
 R Far Watch Post|ACTIVE|809|M|37.58,16.21;36.04,23.69|CC|N|Make your way west to Southfury River and follow it south.\nIt's best if you don't cross the river right away. The mobs on the other side are level 15+.|
 R Far Watch Post|ACTIVE|809|M|62.87,8.66;61.89,19.05|Z|The Barrens|CC|N|Cross the river to the road on the other side. Follow this road south to Far Watch Post.|
+T Path of Defense|QID|1498|M|61.38,21.09|Z|The Barrens|N|To Uzzek.|R|Orc,Troll|C|Warrior|
+A Thun'grim Firegaze|QID|1502|M|61.38,21.09|Z|The Barrens|N|From Uzzek.|R|Orc,Troll|C|Warrior|
 T Ak'Zeloth|QID|809|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth.|
 A The Demon Seed|QID|924|M|62.34,20.07|Z|The Barrens|N|From Ak'Zeloth.|PRE|809|
 A Flawed Power Stone|QID|926|ACTIVE|924|M|62.34,20.04|Z|The Barrens|L|4986 1|N|Pick up one of the stones from the table beside you. You have 30 minutes to complete the quest before the stone expires.\n\nThis quest becomes repeatable in case you lose the stone.|
@@ -350,6 +352,10 @@ R The Altar of Fire|ACTIVE|924|M|51.12,22.70;47.72,19.51;47.91,19.83|Z|The Barre
 C The Demon Seed|QID|924|M|47.96,19.09|Z|The Barrens|QO|1|N|Work your way inside Dreadmist Den and click on the altar to destroy the stone.\n[color=FF0000]NOTE: [/color]Be aware that there is a chance Rathorian (level 15 rare) will spawn beside the altar.|NC|
 R Leave Dreadmist Peak|ACTIVE|924|M|49.15,20.31;51.13,22.65|Z|The Barrens|CC|N|Exit the cave and head back down the mountain.|
 T The Demon Seed|QID|924|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth at Far Watch Post.|
+T Thun'grim Firegaze|QID|1502|M|57.22,30.33|Z|The Barrens|N|To Thun'grim Firegaze.|R|Orc,Troll|C|Warrior|
+A Forged Steel|QID|1503|M|57.22,30.33|Z|The Barrens|N|From Thun'grim Firegaze.|R|Orc,Troll|C|Warrior|
+C Forged Steel|QID|1503|M|55.05,26.63|Z|The Barrens|NC|N|From Thun'grim Firegaze.|R|Orc,Troll|C|Warrior|
+T Forged Steel|QID|1503|M|57.22,30.33|Z|The Barrens|N|To Thun'grim Firegaze.|R|Orc,Troll|C|Warrior|
 R The Crossroads|ACTIVE|842|M|52.34,29.34|Z|The Barrens|CC|N|Go to the Crossroads.\n[color=FF0000]NOTE: [/color]Sticking to the road is a safe bet. There are mobs that are a few levels above you along your route.|
 A Meats to Orgrimmar|QID|6365|M|52.62,29.84|Z|The Barrens|N|From Zargh.|
 T Crossroads Conscription|QID|842|M|52.24,31.01|Z|The Barrens|N|To Sergra Darkthorn.|
@@ -364,8 +370,9 @@ T Doras the Wind Rider Master|QID|6385|M|45.12,63.89|Z|Orgrimmar|N|To Doras.|
 A Return to the Crossroads.|QID|6386|M|45.12,63.89|Z|Orgrimmar|N|From Doras.|PRE|6385|
 F Crossroads|ACTIVE|6386|M|45.12,63.89|Z|Orgrimmar|N|Fly to The Crossroads.|
 T Return to the Crossroads.|QID|6386|M|52.61,29.85|Z|The Barrens|N|To Zargh.|
+h The Crossroads|ACTIVE|844|M|52.00,29.96|Z|1413;The Barrens|N|At Innkeeper Boorand Plainswind.|R|Orc,Troll|
 
-F Orgrimmar|AVAILABLE|445|M|51.50,30.33|Z|The Barrens|
+F Orgrimmar|ACTIVE|844|M|51.50,30.33|Z|The Barrens|N|Fly to Orgrimmar.|
 b Tirisfal Glades|AVAILABLE|445|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|
 R Undercity|AVAILABLE|445|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
 f Undercity|AVAILABLE|445|M|63.26,48.54|Z|Undercity|N|Grab the FP from Michael Garrett.|
