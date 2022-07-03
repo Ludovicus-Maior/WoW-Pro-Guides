@@ -352,6 +352,10 @@ R The Altar of Fire|ACTIVE|924|M|51.12,22.70;47.72,19.51;47.91,19.83|Z|The Barre
 C The Demon Seed|QID|924|M|47.96,19.09|Z|The Barrens|QO|1|N|Work your way inside Dreadmist Den and click on the altar to destroy the stone.\n[color=FF0000]NOTE: [/color]Be aware that there is a chance Rathorian (level 15 rare) will spawn beside the altar.|NC|
 R Leave Dreadmist Peak|ACTIVE|924|M|49.15,20.31;51.13,22.65|Z|The Barrens|CC|N|Exit the cave and head back down the mountain.|
 T The Demon Seed|QID|924|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth at Far Watch Post.|
+T Thun'grim Firegaze|QID|1502|M|57.22,30.33|Z|The Barrens|N|To Thun'grim Firegaze.|R|Orc,Troll|C|Warrior|
+A Forged Steel|QID|1503|M|57.22,30.33|Z|The Barrens|N|From Thun'grim Firegaze.|R|Orc,Troll|C|Warrior|
+C Forged Steel|QID|1503|M|55.05,26.63|Z|The Barrens|NC|N|From Thun'grim Firegaze.|R|Orc,Troll|C|Warrior|
+T Forged Steel|QID|1503|M|57.22,30.33|Z|The Barrens|N|To Thun'grim Firegaze.|R|Orc,Troll|C|Warrior|
 R The Crossroads|ACTIVE|842|M|52.34,29.34|Z|The Barrens|CC|N|Go to the Crossroads.\n[color=FF0000]NOTE: [/color]Sticking to the road is a safe bet. There are mobs that are a few levels above you along your route.|
 A Meats to Orgrimmar|QID|6365|M|52.62,29.84|Z|The Barrens|N|From Zargh.|
 T Crossroads Conscription|QID|842|M|52.24,31.01|Z|The Barrens|N|To Sergra Darkthorn.|
@@ -366,8 +370,9 @@ T Doras the Wind Rider Master|QID|6385|M|45.12,63.89|Z|Orgrimmar|N|To Doras.|
 A Return to the Crossroads.|QID|6386|M|45.12,63.89|Z|Orgrimmar|N|From Doras.|PRE|6385|
 F Crossroads|ACTIVE|6386|M|45.12,63.89|Z|Orgrimmar|N|Fly to The Crossroads.|
 T Return to the Crossroads.|QID|6386|M|52.61,29.85|Z|The Barrens|N|To Zargh.|
+h The Crossroads|ACTIVE|844|M|52.00,29.96|Z|1413;The Barrens|N|At Innkeeper Boorand Plainswind.|R|Orc,Troll|
 
-F Orgrimmar|AVAILABLE|445|M|51.50,30.33|Z|The Barrens|
+F Orgrimmar|ACTIVE|844|M|51.50,30.33|Z|The Barrens|N|Fly to Orgrimmar.|
 b Tirisfal Glades|AVAILABLE|445|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|
 R Undercity|AVAILABLE|445|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
 f Undercity|AVAILABLE|445|M|63.26,48.54|Z|Undercity|N|Grab the FP from Michael Garrett.|
