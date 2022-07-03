@@ -435,7 +435,7 @@ K Wastewander Justice|QID|1690|M|59.88,23.20|Z|1446|QO|1;2|N|[color=FF0000]NOTE:
 C Water Pouch Bounty|QID|1707|M|59.88,23.20|Z|1446|L|8483 5|ITEM|8483|N|Any Wastewander mob|US|
 T Water Pouch Bounty|QID|1707|M|52.48,28.45|Z|1446|N|To Spigot Operator Luglunket.|
 T Wastewander Justice|QID|1690|M|52.46,28.51|Z|1446|N|To Chief Engineer Bilgewhizzle.|
-
+* Wastewander Water Pouch|AVAILABLE|-1707|N|These are part of a repeatable quest.\nYou can trash them, collect more of them or sell them.\n[color=FF0000]NOTE: [/color]Click cancel and skip this step if you don't wish to destroy it.|U|8483|
 ; -- Feralas
 f Gadgetzan|AVAILABLE|2987|M|51.60,25.44|Z|1446|N|At Bulkrek Ragefist.|
 F Camp Mojache|AVAILABLE|2987|M|51.60,25.44|Z|1446|TAXI|Camp Mojache|
@@ -620,7 +620,7 @@ A Ripple Recovery|QID|649|M|59.49,36.56|Z|1454|N|From Dran Droffers at Droffers 
 T Ripple Recovery|QID|649|M|59.64,36.94|Z|1454|N|To Malton Droffers standing next to you.|
 A Ripple Recovery|QID|650|M|59.64,36.94|Z|1454|N|From Malton Doffers.|PRE|649|
 T A Grim Discovery|QID|2976|M|75.26,34.25|Z|1454|N|To Belgrom Rockmaul in the Valley of Honor.|
-A Betrayed.|QID|3504|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul.\n[color=FF0000]NOTE: [/color]This is an Azshara breadcrumb. Skip it if you're not going to Azshara.| ; --- '.' added to break auto-accept - Hendo72
+A Betrayed.|QID|3504|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul.\n[color=FF0000]NOTE: [/color]This is an Azshara breadcrumb. Skip it if you plan on going to Un'goro instead.| ; == '.' added to break auto-accept - Hendo72
 T Zukk'ash Report|QID|7732|M|56.27,46.68|Z|1454|N|To Zilzibin Drumlore.\n[color=FF0000]NOTE: [/color]You can either go up the stairs on the east side of the Drag, or follow the 'stairs' behind Asoran's Market (across from Grommash Hold). He's in the building between the Herbalism trainer and the Cooking trainer.|
 
 ; -- Hinterlands (with a couple pit stops)
@@ -731,7 +731,7 @@ F Undercity|ACTIVE|2995|M|81.71,81.75|Z|1425|
 T Lines of Communication|QID|2995|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe in the Magic Quarter.|
 T Rin'ji's Secret|QID|2782|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe.|
 T Oran's Gratitude|QID|8273|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe.|
-A ... and a Batch of Ooze|QID|4294|M|47.45,73.36|Z|1458|N|From Chemist Fuely, in main room of The Apothecarium by the stairs.|
+A ... and a Batch of Ooze.|QID|4294|AVAILABLE|3504|M|47.45,73.36|Z|1458|N|From Chemist Fuely, in main room of The Apothecarium by the stairs.\n[color=FF0000]NOTE: [/color]This is an Un'goro quest. Skip this step if plan on going to Azshara instead.| ; == '.' breaks auto-accept - Hendo72
 b Durotar|ACTIVE|2641|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppelin back to Durotar.|
 R Orgrimmar|ACTIVE|2641|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|
 F Thunder Bluff|ACTIVE|2641|M|45.13,63.90|Z|1454|C|Druid|
@@ -747,7 +747,7 @@ A Noggenfogger Elixir|QID|2662|M|51.8,28.6|Z|1446|N|From Marin Noggenfogger.|PRE
 T Noggenfogger Elixir|QID|2662|M|51.8,28.6|Z|1446|N|Wait 5 seconds and turn this in to Marin.|
 R The Gaping Chasm|ACTIVE|10|M|53.44,60.13|Z|1446|
 C The Scrimshank Redemption|QID|10|M|55.65,70.25;55.78,68.90;56.52,68.64;57.57,70.55;57.57,71.39;55.95,71.16|CS|Z|1446|L|8593|N|The entrance is spiralling down at the first waypoint. Enter the tunnel at the bottom of the spiral and turn right down the first tunnel into the circular room. Staying on the right side go through the circular room and turn right down the first tunnel into the big square room.\nThe Scrimshank's Surveying Gear is in an alcove at the western corner of the room.\n[color=FF0000]NOTE: [/color]The Swarmers can become quite troublesome; kill them fast or avoid when possible.|
-H Gadgetzan|ACTIVE|10&-351|AVAILABLE|648|M|52.50,27.90|Z|1446|N|Hearth, or fight your way out; I choose hearth.| ; === No point hearthing just to come back here to do the escort quest - Hendo72
+H Gadgetzan|ACTIVE|10&-351|AVAILABLE|648|M|52.50,27.90|Z|1446|N|Hearth, or fight your way out; I choose hearth.| ; == No point hearthing just to come back here to do the escort quest - Hendo72
 R Exit the Hive|ACTIVE|10&351|AVAILABLE|648|M|55.65,70.25|CC|Z|1446|N|Fight your way out.|
 t Find OOX-17/TN!|QID|351|M|60.23,64.71|Z|1446|N|To Homing Robot OOX-17/TN.|
 A Rescue OOX-17/TN!.|QID|648|M|60.23,64.71|Z|1446|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Homing Robot OOX-17/TN.|PRE|351| ; == '.' breaks auto-accept - Hendo72
@@ -778,39 +778,37 @@ C Faerie Dragon Muisek|QID|3125|M|68.14,47.97|Z|1444|L|9596 8|N|Kill Sprite Dart
 R Camp Mojache|ACTIVE|3125|M|73.12,47.44|Z|1444|
 T Faerie Dragon Muisek|QID|3125|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i.|
 A Treant Muisek|QID|3126|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|PRE|3125|
-C Treant Muisek|QID|3126|M|73.2,54.6;53.8,47.0;57.4,73.2;73.95,39.52|CN|Z|1444|L|9593 3|N|Locate and kill Wandering Forest Walkers; using the Muisek Vessel on their corpses.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.\nThey spawn and wander around The Grimtotem Compound,  Camp Mojache, The gnoll camps, Dire Maul, and the Hippogyph area.|T|Treant|U|9606|
+C Treant Muisek|QID|3126|M|73.2,54.6;53.8,47.0;57.4,73.2;73.95,39.52|CN|Z|1444|L|9593 3|N|Locate and kill Wandering Forest Walkers; using the Muisek Vessel on their corpses.\n[color=FF0000]NOTE: [/color]Loot the body first because it will disappear once you use the Vessel.\nThey spawn and wander around The Grimtotem Compound,  Camp Mojache, The gnoll camps, Dire Maul, and the Hippogyph area.|T|Wandering|U|9606|
 R Camp Mojache|ACTIVE|3126|M|73.12,47.44|Z|1444|
 T Treant Muisek|QID|3126|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i.|
 A Mountain Giant Muisek|QID|3127|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|PRE|3126|
-t Find OOX-22/FE!|QID|2766|M|52,57|Z|1444|N|To the OOX-22/FE in the yeti cave.|
-A Rescue OOX-22/FE!|QID|2767|M|52,57|Z|1444|N|From OOX-22/FE.|PRE|2766|
-C Rescue OOX-22/FE!|QID|2767|M|52,57|Z|1444|
 R The Forgotten Coast|ACTIVE|3127|M|50.48,49.90|Z|1444|N|Follow the road west from Camp Mojache.|
 A Zapped Giants|QID|7003|M|48.3,44.9;44.81,43.42|CC|Z|1444|N|Continue west down to Zorbin Fandazzle near the dock.|
 N Zorbin's Ultra Shrinker|ACTIVE|7003|N|This item has a 2hr timer on it before it despawns on you.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 N Zorbin's Ultra Shrinker|ACTIVE|7003|M|44.81,43.42|Z|1444|L|18904|N|[color=FF0000]NOTE: [/color]To get another one, you have to abandon the quest and start over.|
 R The Twin Colossals|ACTIVE|3127&7003|M|48.13,39.54|Z|1444|N|Head back up the hill and continue following the road north.|
-R The Twin Colossals|ACTIVE|3127&-7003|M|48.13,39.54|Z|1444|N|Continue following the road north.|
+R The Twin Colossals|ACTIVE|3127&-7003|M|48.13,39.54|Z|1444|QO|1|N|Continue following the road north.|
 R Gregan Brewspewer's Camp|ACTIVE|3127|M|47.79,24.54;45.03,25.17|CC|Z|1444|N|Continue along the road looking for the westerly path at the bottom of the hill.|
 C Mountain Giant Muisek|QID|3127|M|38.52,22.46|Z|1444|L|9597 7|N|Once you've looted the Giant's corpse,use the Muisek Vessel on them.|U|9621|S|
 C Zapped Giants|QID|7003|M|38.52,22.46|Z|1444|L|18956 15|N|Locate and kill Giants after using the Shrinker on them.\n[color=FF0000]NOTE: [/color]The 'Use' Key bind will not work for this item until you're done with the Muisek Vessel.|U|18904|
 C Mountain Giant Muisek|QID|3127|M|38.52,22.46|Z|1444|L|9597 7|N|Once you've looted the Giant's corpse,use the Muisek Vessel on them.|U|9621|US|
 T Zapped Giants|QID|7003|M|44.81,43.42|Z|1444|N|To Zorbin Fandazzle.|
-C Splintered Log|ACTIVE|3128|M|73.10,54.90;44.1,23.2;73.8,38.9;55.1,74.4|CN|Z|1444|L|9590 2|ITEM|9590|N|Wandering Forest Walkers\n[color=FF0000]NOTE: [/color]They only have 4 specific spawn points in Feralas. With a respawn timer of 10 minutes, I suggest picking one and camping it.|US|
+C Splintered Log|ACTIVE|3128|M|73.10,54.90;44.1,23.2;73.8,38.9;55.1,74.4;40.6,22.4|CN|Z|1444|L|9590 2|ITEM|9590|N|Wandering Forest Walkers\n[color=FF0000]NOTE: [/color]They only have 5 specific spawn points in Feralas. With a respawn timer of 10 minutes, I suggest picking one and camping it.|US|
 L Level 51|ACTIVE|3127|N|Grind until you're level 51.|LVL|51|
 H Camp Mojache|ACTIVE|3127|M|73.12,47.44|Z|1444|N|Hearth or ride back to Camp Mojache.|
 T Mountain Giant Muisek|QID|3127|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|
 T Natural Materials|QID|3128|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i.|
 A Weapons of Spirit|QID|3129|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|
 T Weapons of Spirit|QID|3129|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i, after he finishes talking.|
-F Orgrimmar|ACTIVE|32|M|75.45,44.35|Z|1444|N|At Shyn, Wind Rider Master.|
+F Orgrimmar|ACTIVE|32|M|75.45,44.35|Z|1444|
 h Orgrimmar|ACTIVE|32|M|54.10,68.38|Z|1454|N|&At Innkeeper Gryshka.|
 T Rise of the Silithid|QID|32|M|56.27,46.68|Z|1454|N|To Zilzibin Drumlore.\n[color=FF0000]NOTE: [/color]Go up the stairs on your left as you enter the Drag. He's in the building between the Herbalism trainer and the Cooking trainer.|
 A March of the Silithid|QID|4494|M|56.5,46.5|Z|1454|N|From Zilzibin Drumlore.|
 T Ripple Delivery|QID|81|M|59.49,36.56|Z|1454|N|To Dran Droffers at Droffers and Son Salvage, in the Drag near the Valley of Honor.|
+A Betrayed|QID|3504|AVAILABLE|4496|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul in the Valley of Honor.|
 F Ratchet|ACTIVE|580^3444^2767^836^648|M|45.13,63.90|Z|1454|
 C Marvon's Chest|QID|3444|M|62.50,38.55|Z|1413|L|10556|N|It's located outside by the front door of the hut near the dock.|
-A Volcanic Activity|QID|4502|M|62.45,38.74|Z|1413|N|From Liv Rizzlefix (inside the hut).|
+A Volcanic Activity|QID|4502|ACTIVE|-3504|M|62.45,38.74|Z|1413|N|From Liv Rizzlefix (inside the hut).\n[color=FF0000]NOTE: [/color]This is an Un'goro quest. Skip this step if you plan on going to Azshara.|
 b Booty Bay|ACTIVE|580|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|
 t Rescue OOX-22/FE!|QID|2767|M|28.36,76.35|Z|1434|N|To Oglethorpe Obnoticus.|
 t Rescue OOX-09/HL!|QID|836|M|28.36,76.35|Z|1434|N|To Oglethorpe Obnoticus.|
@@ -820,10 +818,10 @@ T An OOX of Your Own|QID|3721|M|28.36,76.35|Z|1434|N|To Oglethorpe Obnoticus.|
 T Whiskey Slim's Lost Grog|QID|580|M|27.13,77.45|Z|1434|N|To Whiskey Slim, in the Tavern.|
 b Ratchet|ACTIVE|3444^4494|M|25.87,73.12|Z|1434|
 F Gadgetzan|ACTIVE|3444^4494|M|63.09,37.16|Z|1413|
-A Super Sticky|QID|4504|M|51.57,26.76|Z|1446|N|From Tran'Rek|
+A Super Sticky|QID|4504|ACTIVE|-3504|M|51.57,26.76|Z|1446|N|From Tran'Rek.\n[color=FF0000]NOTE: [/color]This is an Un'goro quest. Skip this step if you plan on going to Azshara.|
 T March of the Silithid|QID|4494|M|50.89,26.97|Z|1446|N|To Alchemist Pestlezugg.|
 A Bungle in the Jungle.|QID|4496|M|50.89,26.97|Z|1446|N|From Alchemist Pestlezugg.\n[color=FF0000]NOTE: [/color]This is an Un'goro breadcrumb. Skip it if you're going to Azshara instead.|PRE|4494| ; --- '.' added to break auto-accept - Hendo72
-N DO NOT DO THIS|ACTIVE|4496&3504|N|[color=FF0000]NOTE: [/color]By taking both breadcrumbs, this will cause the guide to not function properly.\nThe purpose of the 2 breadcrumbs is to provide a different approach to the same goal.\nPlease, abandon one of the breadcrumbs.\n\nManually check this step off to continue.|
+N DO NOT DO THIS|ACTIVE|4496&3504|N|[color=FF0000]NOTE: [/color]By taking both breadcrumbs, this will cause the guide to not function properly.\nThe purpose of the 2 breadcrumbs is to provide a different approach to the same goal.\nPlease, abandon [color=90EE90]Betrayed[/color] if you are going to Un'goro Crater or [color=90EE90]Bungle in the Jungle[/color] if you are going to Azshara.\n\nManually check this step off to continue.\nA guide reset will be required because of this.|
 r Housekeeping|ACTIVE|3444&4496|N|Do what you need before you leave.\n[color=FF0000]NOTE: [/color]I suggest clearing your bags of stuff you won't need. Un'goro Crater (the next guide) has a number of collection quests before you return here.\nManually check this step off to continue.|
 r Housekeeping|ACTIVE|3444&3504|N|Do what you need before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 R Broken Pillar|ACTIVE|3444|M|52.40,45.21|Z|1446|N|Go south to the Broken Pillar.|
