@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("TaxiNRCT1", "Northrend", "TAXI.Driver", "WH", "Dal", "nil", "Horde", function()
+WoWPro_Leveling:RegisterGuide("TaxiNRCT1", "Northrend", "TAXI.Driver", 85, 85, "nil", "Horde", function()
 return [[
 
 f Warsong Hold|N|From Turida Coldwind|M|40.4,51.4|Z|Borean Tundra|
