@@ -47,6 +47,24 @@ function WoWPro.ExpandItem(item, want_icon, want_text)
 end
 RegisterMarkup("item", WoWPro.ExpandItem)
 
+function WoWPro.ExpandAch(ach, want_icon, want_text)
+    local id, name, _, _, _, _, _, _, _, icon = GetAchievementInfo(ach)
+    local expanded = ""
+    if id then
+        if want_icon then
+            expanded = expanded .. "|T" .. icon .. ":0::0:0|t"
+        end
+        if want_text then
+            expanded = expanded .. " " .. name
+        end
+    else
+        WoWPro:print("Invalid Markup ach=%s", tostring(ach))
+        return nil
+    end
+    return expanded
+end
+RegisterMarkup("ach", WoWPro.ExpandAch)
+
 function WoWPro.ExpandSpell(spell, want_icon, want_text)
     local name, _, texture = _G.GetSpellInfo(tonumber(spell))
     local link  = _G.GetSpellLink(tonumber(spell))
