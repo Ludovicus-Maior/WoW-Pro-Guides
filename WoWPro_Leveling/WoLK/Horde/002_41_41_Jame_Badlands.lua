@@ -1,8 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamBad4141", "Badlands", "Jame", "41", "41", "JamStr4141", "Horde", function()
-
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 7/12/2009
+local guide = WoWPro:RegisterGuide("JamBad4141", "Leveling", "Badlands", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Badlands")
+WoWPro:GuideName(guide, "Badlands")
+WoWPro:GuideNextGuide(guide, "JamStr4141")
+WoWPro:GuideLevels(guide, 41, 41)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Wetlands|QID|710|N|Our next stop is the outpost of Kargath in the Badlands. First enter the Wetlands through the bridge at the very south of Arathi Highlands .|Z|Arathi Highlands|M|44,86|

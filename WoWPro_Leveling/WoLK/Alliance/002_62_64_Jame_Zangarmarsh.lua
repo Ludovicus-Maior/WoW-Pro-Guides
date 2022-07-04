@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamZan6466", "Zangarmarsh", "Jame", "64","66", "JamTer6466", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamZan6466", "Leveling", "Zangarmarsh", "Jame", "Alliance", 3)
+WoWPro:GuideNickname(guide, "Zangarmarsh")
+WoWPro:GuideName(guide, "Zangarmarsh")
+WoWPro:GuideNextGuide(guide, "JamTer6466")
+WoWPro:GuideLevels(guide, 64, 66)
+WoWPro:GuideSteps(guide, function()
 return [[
 R Zangarmarsh|QID|9912|N|Go to Zangarmarsh.|M|4.00, 51.00|
 A The Umbrafen Tribe|QID|9747|M|80.40, 64.20|

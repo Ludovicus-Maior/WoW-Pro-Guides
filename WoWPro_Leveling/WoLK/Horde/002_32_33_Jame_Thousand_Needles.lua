@@ -1,8 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamTho3233", "Thousand Needles", "Jame", "32", "33", "JamStr3334", "Horde", function()
-
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 7/12/2009
+local guide = WoWPro:RegisterGuide("JamTho3233", "Leveling", "Thousand Needles", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Thousand Needles")
+WoWPro:GuideName(guide, "Thousand Needles")
+WoWPro:GuideNextGuide(guide, "JamStr3334")
+WoWPro:GuideLevels(guide, 32, 33)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 H Orgrimmar|QID|1176|
@@ -37,7 +38,7 @@ A Goblin Sponsorship (Part 1)|QID|1178|M|80.2,75.9|
 A Martek the Exiled|QID|1106|M|78.1,77.1|
 
 R Tanaris|QID|1178|N|Before we leave, go south and into Tanaris. |M|75,95.7|
-F Ratchet|QID|1178|N||M|51.6,25.5|
+F Ratchet|QID|1178|N|M|51.6,25.5|
 T Goblin Sponsorship (Part 1)|QID|1178|N|Talk to Gazlowe, in one of the houses northwest of the wyvern landing spot.|M|62.7,36.2|
 A Goblin Sponsorship (Part 2)|QID|1180|M|62.7,36.2|
 T Wharfmaster Dizzywig|QID|1492|M|63.4,38.5|

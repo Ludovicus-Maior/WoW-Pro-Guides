@@ -1,8 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamTho3131", "Thousand Needles", "Jame", "31", "31", "JamHil3132", "Horde", function()
-
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 7/12/2009
+local guide = WoWPro:RegisterGuide("JamTho3131", "Leveling", "Thousand Needles", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Thousand Needles")
+WoWPro:GuideName(guide, "Thousand Needles")
+WoWPro:GuideNextGuide(guide, "JamHil3132")
+WoWPro:GuideLevels(guide, 31, 31)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Orgrimmar|QID|5088|

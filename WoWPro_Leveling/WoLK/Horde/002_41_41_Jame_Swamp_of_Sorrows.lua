@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamSwa4141", "Swamp of Sorrows", "Jame", "41", "41", "JamBad4142", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamSwa4141", "Leveling", "Swamp of Sorrows", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Swamp of Sorrows")
+WoWPro:GuideName(guide, "Swamp of Sorrows")
+WoWPro:GuideNextGuide(guide, "JamBad4142")
+WoWPro:GuideLevels(guide, 41, 41)
+WoWPro:GuideSteps(guide, function()
 return [[
 R Duskwood |QID|1392|N|Go to the main road then travel north to Duskwood .|Z|Duskwood|M|40.8,4.1|
 R Deadwind Pass |QID|1392|N|Follow the road north and east, turn right at the crossroads (avoiding the alliance town of Darkshire) (87.1,40.6).|Z|Duskwood|

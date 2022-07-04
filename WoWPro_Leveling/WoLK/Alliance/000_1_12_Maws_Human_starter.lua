@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("MawElw0112", "Elwynn Forest", "Maw", "01", "12", "MawLoc1213", "Alliance", function()
+local guide = WoWPro:RegisterGuide("MawElw0112", "Leveling", "Elwynn Forest", "Maw", "Alliance", 3)
+WoWPro:GuideNickname(guide, "Elwynn Forest")
+WoWPro:GuideName(guide, "Elwynn Forest")
+WoWPro:GuideNextGuide(guide, "MawLoc1213")
+WoWPro:GuideLevels(guide, 1, 12)
+WoWPro:GuideSteps(guide, function()
 return [[
 A A Threat Within|QID|783|M|48.1,43.6|
 T A Threat Within|QID|783|M|48.9,41.6|
@@ -27,18 +32,18 @@ T Tainted Letter|QID|3105|C|Warlock|M|49.9,42.6|
 N Train new skills|QID|3903|
 N Sell and Repair|QID|18|N|Sell and Repair at Godric Rothgar.|M|47.7,41.4|
 C Investigate Echo Ridge|QID|15|M|51.2,37.4|N|The Workers are much larger than the Vermin and have orange glows on their weapons.|
-C Brotherhood of Thieves|QID|18|M|54.6,41.9|N|Kill Defias mobs until you've looted 12 Red Burlap Bandanas.| 
+C Brotherhood of Thieves|QID|18|M|54.6,41.9|N|Kill Defias mobs until you've looted 12 Red Burlap Bandanas.|
 H Northshire Abbey|QID|18|
 T Brotherhood of Thieves|QID|18|M|48.1,43.6|
 A Milly Osworth|QID|3903|M|48.1,43.6|
 A Bounty on Garrick Padfoot |QID|6|M|48.1,43.6|
 T Investigate Echo Ridge|QID|15|M|48.9,41.6|
 A Skirmish at Echo Ridge|QID|21|M|48.9,41.6|
-N Sell and Repair|QID|3903|M|47.7,41.4||N|Sell and Repair at Godric Rothgar.|
+N Sell and Repair|QID|3903|M|47.7,41.4|N|Sell and Repair at Godric Rothgar.|
 C Skirmish at Echo Ridge|QID|21|M|47.7,31.7|N|The Laborers are found inside the mine.|
 T Milly Osworth|QID|3903|M|50.7,39.3|
 A Milly's Harvest|QID|3904|M|50.7,39.3|
-C Milly's Harvest|QID|3904|M|54.0,47.8||N|Click Milly's Harvest Barrels until you've looted 8 Milly's Harvest.|
+C Milly's Harvest|QID|3904|M|54.0,47.8|N|Click Milly's Harvest Barrels until you've looted 8 Milly's Harvest.|
 C Bounty on Garrick Padfoot|QID|6|M|57.56,48.42|N|Kill Garrick Padfoot and loot his head.|
 T Milly's Harvest|QID|3904|M|50.7,39.3|
 A Grape Manifest|QID|3905|M|50.7,39.3|
@@ -57,7 +62,7 @@ N Train new skills|QID|85|
 A Gold Dust Exchange|QID|47|M|42.1,67.3|
 A Lost Necklace|QID|85|M|34.5,84.2|
 A Princess Must Die!|QID|88|M|34.6,84.5|
-K Kill Stonetusk Boars|QID|86|M|41.5,86.8|L|769 4|N|Kill Stonetusk Boars until you've looted 4 Chunks of Boar Meat.| 
+K Kill Stonetusk Boars|QID|86|M|41.5,86.8|L|769 4|N|Kill Stonetusk Boars until you've looted 4 Chunks of Boar Meat.|
 T Lost Necklace|QID|85|M|43.1,85.7|
 A Pie for Billy|QID|86|M|43.1,85.7|
 T Pie for Billy|QID|86|M|34.5,84.2|
@@ -68,7 +73,7 @@ A Goldtooth|QID|87|M|43.1,85.7|
 C Gold Dust Exchange|QID|47|M|38.2,83,6|N|Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.|S|
 C Kobold Candles|QID|60|M|38.2,83.6|.|Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.|S|
 N Grind to level 7|QID|87|N|Grind on Kobolds until you ding level 7.|
-C Goldtooth|N|Kill Goldtooth. Enter the cave via the lower entrance and stick to the left. Tip: Kill the Kobold Tunneler next to him first, and then run out of combat. Return to Goldtooth and kill him while he's alone. Loot Bernice's Necklace.| |QID|87|M|41.60,78.80|
+C Goldtooth|N|Kill Goldtooth. Enter the cave via the lower entrance and stick to the left. Tip: Kill the Kobold Tunneler next to him first, and then run out of combat. Return to Goldtooth and kill him while he's alone. Loot Bernice's Necklace.|QID|87|M|41.60,78.80|
 T Goldtooth|QID|87|M|34.5,84.2|
 T Young Lovers|QID|106|M|29.8,86.0|
 A Speak with Gramma|QID|111|M|29.8,86.0|
@@ -95,7 +100,7 @@ R Jasperlode Mine|QID|76|M|61.0,54.1|N|Run to the Jasperlode Mine.|
 C The Jasperlode Mine|QID|76|M|61.0,54.1|N|Explore the mine, stick to the left until you get the quest update.|
 T Further Concerns|QID|35|M|74.0,72.2|
 A Find the Lost Guards|QID|37|M|74.0,72.2|
-A Protect the Frontier|QID|52|M|74.0,72.2||N|Kill Young Forest Bears and any Prowlers on the way from now on.|
+A Protect the Frontier|QID|52|M|74.0,72.2|N|Kill Young Forest Bears and any Prowlers on the way from now on.|
 C Protect the Frontier|QID|52|M|77.4,77.0|N|Kill Young Forest Bears and Prowlers as you go along.|S|
 T Find the Lost Guards|QID|37|M|72.70,60.2|N|Right-click Malakai's corpse.|
 A Discover Rolf's Fate|QID|45|M|72.7,60.3|
@@ -129,7 +134,7 @@ T Riverpaw Gnoll Bounty|QID|11|M|24.3,74.8|
 
 R Westfall|QID|36|M|20.2,80.4|N|Run to Westfall.|
 T Furlbrow's Deed|QID|184|Z|Westfall|O|
-A The Forgotten Heirloom|QID|64|Z|Westfall| M|60.0,19.4|
+A The Forgotten Heirloom|QID|64|Z|Westfall|M|60.0,19.4|
 A Westfall Stew|QID|36|Z|Westfall|M|60.0,19.4|
 A Poor Old Blanchy|QID|151|Z|Westfall|M|60.0,19.4|
 A The Killing Fields|QID|9|Z|Westfall|M|56.0,31.2|

@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamWDK5960", "Western Plaguelands", "Jame DK", "59", "60", "JamEDK6060", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamWDK5960", "Leveling", "Western Plaguelands", "Jame DK", "Horde", 3)
+WoWPro:GuideNickname(guide, "Western Plaguelands")
+WoWPro:GuideName(guide, "Western Plaguelands")
+WoWPro:GuideNextGuide(guide, "JamEDK6060")
+WoWPro:GuideLevels(guide, 59, 60)
+WoWPro:GuideSteps(guide, function()
 return [[
 T Return to the Bulwark |QID|5236|M|83.0,71.9|
 A A Plague Upon Thee |QID|5901|N|Mickey Levine|

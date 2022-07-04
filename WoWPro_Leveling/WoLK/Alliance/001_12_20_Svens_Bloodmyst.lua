@@ -1,29 +1,34 @@
-WoWPro_Leveling:RegisterGuide("SveBlo1220", "Bloodmyst Isle", "Sven", "12", "20", "BosRed2021", "Alliance", function()
+local guide = WoWPro:RegisterGuide("SveBlo1220", "Leveling", "Bloodmyst Isle", "Sven", "Alliance", 3)
+WoWPro:GuideNickname(guide, "Bloodmyst Isle")
+WoWPro:GuideName(guide, "Bloodmyst Isle")
+WoWPro:GuideNextGuide(guide, "BosRed2021")
+WoWPro:GuideLevels(guide, 12, 20)
+WoWPro:GuideSteps(guide, function()
 return [[
-R Bloodmyst Isle |QID|9663| |N|Go to Bloodmyst Isle |
+R Bloodmyst Isle |QID|9663|N|Go to Bloodmyst Isle |
 T Elekks Are Serious Business |QID|9625|N|If you have this quest, turn it in (requires having done Azuremyst previously|
 A A Favorite Treat |QID|9624|M|63.4,88.8|
 A Alien Predators |QID|9634|M|63.0,87.9|
-N Before accepting Kessel Run, read this.  |QID|9663| |N|Your first epic mount!  It's just like a normal mount, except you can't resummon it if you get dismounted. Stay out of caves, water, and buildings! You can do the quest without the elekk, but it takes a lot longer.|
+N Before accepting Kessel Run, read this.  |QID|9663|N|Your first epic mount!  It's just like a normal mount, except you can't resummon it if you get dismounted. Stay out of caves, water, and buildings! You can do the quest without the elekk, but it takes a lot longer.|
 A The Kessel Run |QID|9663|M|63.0,87.5|
-N Warn Chief Stillpine |QID|9663| |QO|High Chief Stillpine Warned: 1/1|N|Warn Stillpine |Z|Azuremyst Isle|M|46.7,20.8|
-N Warn Exarch Menelauos |QID|9663| |QO|Exarch Menelaous Warned: 1/1|N|Warn Menelaous |Z|Azuremyst Isle|M|47.2,50.6|
-N Warn Admiral Odesyus |QID|9663| |QO|Admiral Odesyus Warned: 1/1|N|Warn Odyseus |Z|Azuremyst Isle|M|47.0,70.2|
+N Warn Chief Stillpine |QID|9663|QO|High Chief Stillpine Warned: 1/1|N|Warn Stillpine |Z|Azuremyst Isle|M|46.7,20.8|
+N Warn Exarch Menelauos |QID|9663|QO|Exarch Menelaous Warned: 1/1|N|Warn Menelaous |Z|Azuremyst Isle|M|47.2,50.6|
+N Warn Admiral Odesyus |QID|9663|QO|Admiral Odesyus Warned: 1/1|N|Warn Odyseus |Z|Azuremyst Isle|M|47.0,70.2|
 T The Kessel Run |QID|9663|M|62.99,87.52|
 A Declaration of Power |QID|9666|
-R Blood Watch |QID|9634| |N|Run to Blood watch |M|55,55|
-h Blood Watch |QID|9634| |N|Set hearthstone to Blood Watch |M|55.84,59.80|
-f Get the flight path |QID|9634||M|57.69,53.92|
-N Restock |QID|9634| |N|Restock food/drink, sell junk|
+R Blood Watch |QID|9634|N|Run to Blood watch |M|55,55|
+h Blood Watch |QID|9634|N|Set hearthstone to Blood Watch |M|55.84,59.80|
+f Get the flight path |QID|9634|M|57.69,53.92|
+N Restock |QID|9634|N|Restock food/drink, sell junk|
 A Mac'Aree Mushroom Menagerie  |QID|9648|M|56.4,56.8|
 A Catch and Release  |QID|9629|M|53.2,57.7|
 A Learning from the Crystals  |QID|9581|M|52.6,53.2|
-N Blood Mushroom |QID|9648| |QO|Blood Mushroom: 1/1|N|Pick up a Blood Mushroom in this area |M|66,69|
-C Declaration of Power |N| Kill Lord Xiz, don't forget to plant the banner in his corpse .|QID|9666|U|24084|M|68,67|
-N Ruinous Polyspore |QID|9648| |QO|Ruinous Polyspore: 1/1|N| Pick up a Ruinous Polyspore in this area|
+N Blood Mushroom |QID|9648|QO|Blood Mushroom: 1/1|N|Pick up a Blood Mushroom in this area |M|66,69|
+C Declaration of Power |N|Kill Lord Xiz, don't forget to plant the banner in his corpse .|QID|9666|U|24084|M|68,67|
+N Ruinous Polyspore |QID|9648|QO|Ruinous Polyspore: 1/1|N|Pick up a Ruinous Polyspore in this area|
 C A Favorite Treat|QID|9624|N|Pick up Sand Pears.|S|
 A Saving Princess Stillpine |N|If you didn't do Learning the Language in Azuremyst Isle, skip this step.|QID|9667|M|68.2,81.2|
-N Saving Princess Stillpine |QID|9667| |N|You have to kill furbolgs until High Chief Bristlelimb yells, then kill him.| |L|24099|M|64,76|
+N Saving Princess Stillpine |QID|9667|N|You have to kill furbolgs until High Chief Bristlelimb yells, then kill him.|L|24099|M|64,76|
 C Saving Princess Stillpine |QID|9667|N|Go open the cage.|M|68.2,81.2|
 C A Favorite Treat|QID|9624|N|Kill furbolgs until you have 10 Sand Pears|US|
 C Learning from the Crystals  |QID|9581|N|Use your Crystal Mining Pick on the Impact Site Crystal.|U|23875|M|58.15,83.48|
@@ -31,13 +36,13 @@ C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings.|
 T Alien Predators |QID|9634|
 T A Favorite Treat |QID|9624|
 T Declaration of Power |QID|9666|
-A Report to Exarch Admetius|QID|9668|N Aquatic Stinkhorn |QID|9648| |QO|Aquatic Stinkhorn: 1/1|N|Grab an Aquatic Stinkhorn from underwater in the blood river.|M|58,72|
-N Fel Cone Fungus|QID|9648| |QO|Fel Cone Fungus: 1/1|N|Grab a Fel Cone Fungus from around here.|M|43.04,83.7|
+A Report to Exarch Admetius|QID|9668|N Aquatic Stinkhorn |QID|9648|QO|Aquatic Stinkhorn: 1/1|N|Grab an Aquatic Stinkhorn from underwater in the blood river.|M|58,72|
+N Fel Cone Fungus|QID|9648|QO|Fel Cone Fungus: 1/1|N|Grab a Fel Cone Fungus from around here.|M|43.04,83.7|
 C Catch and Release|QID|9629|N|Use the Murloc Tagger on 6 Blacksilt Scouts.|U|23995|M|43.8,93.3|
-K Cruelfin |QID|9576| |N|Find and kill cruelfin, then loot the Red Crystal Pendant to accept Cruelfin's Necklace.  He pats East and West.|L|23870|M|42.0,94.9|
+K Cruelfin |QID|9576|N|Find and kill cruelfin, then loot the Red Crystal Pendant to accept Cruelfin's Necklace.  He pats East and West.|L|23870|M|42.0,94.9|
 A Cruelfin's Necklace|QID|9576|U|23870|
-N Grinding time |QID|9576| |N|Grind on murlocs until you are 4,800 XP from Level 14|
-H Blood Watch |QID|9576| |N|Hearth to Blood Watch|U|6948|
+N Grinding time |QID|9576|N|Grind on murlocs until you are 4,800 XP from Level 14|
+H Blood Watch |QID|9576|N|Hearth to Blood Watch|U|6948|
 T Cruelfin's Necklace|QID|9576|
 T Catch and Release |QID|9629|
 A Victims of Corruption|QID|9574|
@@ -53,15 +58,15 @@ A Blood Watch|QID|9694|
 A Beds, Bandages and Beyond|R|Draenei|QID|9603|M|55.8,59.8|
 T Beds, Bandages and Beyond|R|Draenei|QID|9603|
 A On the Wings of a Hippogryph|R|Draenei|QID|9604|
-F The Exodar |QID|9604| |N|Fly to Exodar|R|Draenei|
+F The Exodar |QID|9604|N|Fly to Exodar|R|Draenei|
 T On the Wings of a Hippogryph|R|Draenei|QID|9604|M|57.0,50.2|Z|The Exodar|
 A Hippogryph Master Stephanos|R|Draenei|QID|9605|
 T Hippogryph Master Stephanos|R|Draenei|QID|9605|M|68.5,63.7|Z|The Exodar|
 A Return to Topher Loaal|R|Draenei|QID|9606|
-F Blood Watch |QID|9606| |N|Fly back to Blood Watch|R|Draenei|
+F Blood Watch |QID|9606|N|Fly back to Blood Watch|R|Draenei|
 T Return to Topher Loaal|R|Draenei|QID|9606|
 
-N Repair, restock |QID|9620| |N|Repair, restock food/water, sell junk|
+N Repair, restock |QID|9620|N|Repair, restock food/water, sell junk|
 T The Missing Survey Team|QID|9620|
 A Salvaging the Data|QID|9628|
 C Salvaging the Data|QID|9628|N|Kill Nagas until the Survey Data Crystal Drops|
@@ -75,24 +80,24 @@ T Irradiated Crystal Shards|QID|9641|L|23984 10|O|
 A Know Thine Enemy|QID|9567|M|55.1,58.0|
 
 C Victims of Corruption|QID|9574|N|Kill Corrupted Treants for the bark.|M|49,73|
-K Tzerak |QID|9594| |L|23900|N|Kill Tzerak, and loot Tzerak's Armor Plate.  He looks like a Felguard.  If you don't see him, grind on Satyrs until he yells as he spawns.|M|38.41,82.02|
+K Tzerak |QID|9594|L|23900|N|Kill Tzerak, and loot Tzerak's Armor Plate.  He looks like a Felguard.  If you don't see him, grind on Satyrs until he yells as he spawns.|M|38.41,82.02|
 A Signs of the Legion|QID|9594|U|23900|
 C Signs of the Legion|QID|9594|N|Kill Satyrs and Felsworns|S|
 C Know Thine Enemy|QID|9567|N|Loot the Nazzivus Monument Glyph|L|23859|M|36.49,71.36|
 C Signs of the Legion|QID|9594|N|Finish killing Satyrs and Felsworns|US|
-H Blood Watch|QID|9567| |N|Hearth to Blood Watch||U|6948|
+H Blood Watch|QID|9567|N|Hearth to Blood Watch|U|6948|
 T Know Thine Enemy|QID|9567|
 T Signs of the Legion|QID|9594|
 A Containing the Threat|QID|9569|
 T Victims of Corruption|QID|9574|
 A Irradiated Crystal Shards|QID|9641|O|L|23984|10|N|If you have 10 Irradiated Crystal Shards, then accept and turn in the quest|
 T Irradiated Crystal Shards|QID|9641|O|L|23984|10|
-N Repair, restock |QID|9584| |N|Repair, restock food/water, sell junk|
+N Repair, restock |QID|9584|N|Repair, restock food/water, sell junk|
 
 C Intercepting the Message|QID|9779|N|Kill Sunhawk Spies until the Sunhawk Missive drops.|S|
 C The Second Sample|QID|9584|N|Use the Crystal Mining Pick on the Altered Crystal Sample.|U|23876|M|45.75,47.62|
 C Intercepting the Message|QID|9779|N|Kill Sunhawk Spies until the Sunhawk Missive drops.|US|
-N Grinding Time |QID|9584| |N|Grind on spies until you are 10,000 XP away from Level 16. If you'd rather not go to Darkshore, grind until you are 3,300 XP from level 16.|
+N Grinding Time |QID|9584|N|Grind on spies until you are 10,000 XP away from Level 16. If you'd rather not go to Darkshore, grind until you are 3,300 XP from level 16.|
 T The Second Sample|QID|9584|
 A The Final Sample|QID|9585|
 T Intercepting the Message|QID|9779|
@@ -100,7 +105,7 @@ A Translations...|QID|9696|
 T Translations...|QID|9696|M|54.4,54.4|
 A Newfound Allies|QID|9632|N|Take this if you chose the Darkshore loop, otherwise skip it.|M|54.7,54|
 A Audience with the Prophet|QID|9698|
-F The Exodar |QID|9698| |N|Fly to The Exodar|M|57.7,53.9|
+F The Exodar |QID|9698|N|Fly to The Exodar|M|57.7,53.9|
 T Audience with the Prophet|QID|9698|M|32.9,54.5|Z|The Exodar|
 A Truth or Fiction|QID|9699|
 
@@ -125,11 +130,11 @@ C Plagued Lands|QID|2118|O|N|Use the trap on a rabid thistle bear on the way bac
 T Plagued Lands|QID|2118|O|M|38.8,43.4|PRE|9632|Z|Darkshore|
 T How Big a Threat?|O|QID|984|M|39.4,43.5|PRE|9632|Z|Darkshore|
 
-N Train new skills |QID|9699| |N|Train your skills, professions, etc.  If you did the darkshore loop, decide whether it's worth going back to exodar, or just hearthing from here to Blood Watch.|
-H Blood Watch |QID|9699| |N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back|Z|Bloodmyst Isle|U|6948|
+N Train new skills |QID|9699|N|Train your skills, professions, etc.  If you did the darkshore loop, decide whether it's worth going back to exodar, or just hearthing from here to Blood Watch.|
+H Blood Watch |QID|9699|N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back|Z|Bloodmyst Isle|U|6948|
 T Truth or Fiction|QID|9699|
 A I Shoot Magic Into the Darkness|QID|9700|
-N Repair, restock |QID|10063| |N|Repair, restock food/water, sell junk|
+N Repair, restock |QID|10063|N|Repair, restock food/water, sell junk|
 A Constrictor Vines|QID|9643|M|55.9,57.0|
 A The Bear Necessities|QID|9580|
 A Explorers' League, Is That Something for Gnomes?|QID|10063|M|56.3,54.2|
@@ -152,7 +157,7 @@ C I Shoot Magic Into the Darkness|QID|9700|N|Kill Void Anomalies, and approach t
 C The Bear Necessities|QID|9580|N|Finish killing Elder Brown Bears until you have 8 flanks. |US|
 T A Map to Where?|QID|9550|N|There's a book you have to click in order to complete.|M|61.19,41.78|
 A Deciphering the Book|QID|9557|
-H Blood Watch |QID|9643| |N|Hearth back to Blood Watch||U|6948|
+H Blood Watch |QID|9643|N|Hearth back to Blood Watch|U|6948|
 T Constrictor Vines|QID|9643|
 T The Bear Necessities|QID|9580|
 A Culling the Flutterers|QID|9647|
@@ -162,7 +167,7 @@ T Deciphering the Book|QID|9557|
 A Nolkai's Words|QID|9561|
 T WANTED: Deathclaw|QID|9646|
 A Searching for Galaen|QID|9578|M|53.3,57.7|
-N Repair, restock |QID|9578| |N|Repair, restock food/water, sell junk|
+N Repair, restock |QID|9578|N|Repair, restock food/water, sell junk|
 
 C Culling the Flutterers|QID|9647|N|Kill every Royal Blue Flutterer you see.|S|
 C The Cryo-Core|QID|9703|N|Loot Medical Supplies from the ground and from blood elves.|S|
@@ -179,16 +184,16 @@ T The Cryo-Core|QID|9703|
 A Don't Drink the Water|QID|9748|
 T Galaen's Fate|QID|9579|
 A Talk to the Hand|QID|10064|M|52.6,53.2|
-N Repair, restock |QID|10064| |N|Repair, restock food/water, sell junk|
+N Repair, restock |QID|10064|N|Repair, restock food/water, sell junk|
 
 A Fouled Water Spirits|QID|10067|N|Behind the tower, |M|51.74,52.13|
 C Containing the Threat|QID|9569|N|Head back to Axxarien. Collect 5 Corrupted Crystals while killing Hellcallers and Shadowstalkers, on the way to kill Zevrax |M|41.6,29.8|
 C The Final Sample|QID|9585|U|23877|N|Use the pick on the Axxarien crystal|
 T Talk to the Hand|QID|10064|
 C Fouled Water Spirits|QID|10067|N|Kill 6 Fouled Water Spirits |M|30,39|
-N Grind some more |QID|9569| |N|Grind until you are 4,000 XP from level 18|
+N Grind some more |QID|9569|N|Grind until you are 4,000 XP from level 18|
 C Don't Drink the Water|QID|9748|N|Jump down the waterfall, and use your flask.|U|24318|
-H Blood Watch |QID|9569| |N|Hearth back to Blood Watch||U|6948|
+H Blood Watch |QID|9569|N|Hearth back to Blood Watch|U|6948|
 T Containing the Threat|QID|9569|
 T Don't Drink the Water|QID|9748|
 A Limits of Physical Exhaustion|QID|9746|
@@ -221,13 +226,13 @@ C They're Alive! Maybe...|QID|9670|US|
 T They're Alive! Maybe...|QID|9670|
 T Cutting a Path|QID|10065|
 T Oh, the Tangled Webs they Weave|QID|10066|
-H Blood Watch |QID|9711| |N|Hearth back to Blood Watch||U|6948|
+H Blood Watch |QID|9711|N|Hearth back to Blood Watch|U|6948|
 T Matis the Cruel|QID|9711|
 T Critters of the Void|QID|9741|
 T Limits of Physical Exhaustion|QID|9746|
 A The Sun Gate|QID|9740|
 T The Missing Expedition|QID|9669|
-N Go train your skills |QID|9671| |N|Train skills, then restock on food/water, etc.|
+N Go train your skills |QID|9671|N|Train skills, then restock on food/water, etc.|
 
 A Urgent Delivery|QID|9671|N|From Messenger Hermesius, who walks all over Blood Watch. Check off this step when complete.|
 N Check your mailbox|QID|9561|N|Urgent delivery results in a mail sent to your mailbox|L|24132|
@@ -257,10 +262,10 @@ A Ending the Bloodcurse|QID|9683|
 C Ending the Bloodcurse|QID|9683|N|Clear the top of the hill, then click the statue, and kill Atoph the Bloodcursed|M|85,54|
 T Ending the Bloodcurse|QID|9683|
 N Grind some more|QID|9649|N|Grind on whelplings until you are 1,350 XP from level 20.|
-H Blood Watch|QID|9649|N|Hearth back to Blood Watch||U|6948|
+H Blood Watch|QID|9649|N|Hearth back to Blood Watch|U|6948|
 T Ysera's Tears|QID|9649|
 F The Exodar|QID|9740|N|Fly to The Exodar and train your new skills|
-N If you aren't draenei|QID|9740| |N|If you're not draenei, there's only one quest left on bloodmyst that you can do.  Decide if you are interested, if not, just follow the next guide, Boston's 20-30 levelling guide|
+N If you aren't draenei|QID|9740|N|If you're not draenei, there's only one quest left on bloodmyst that you can do.  Decide if you are interested, if not, just follow the next guide, Boston's 20-30 levelling guide|
 N Mount and Skills|N|Find your mount trainer and get one. You'll need 4 gold for training and 1 gold for the mount. Also train your skills.|
 
 F Blood Watch|QID|9740|N|Fly back to Blood Watch|Z|The Exodar|M|68.5,63.7|
@@ -271,7 +276,7 @@ C Ending Their World|QID|9759|N|Let the elite do most of the work.  Make sure yo
 C Clearing the Way|QID|9761|R|Draenei|US|
 C The Sun Gate|QID|9740|N|Go to the Sun Gate. Right click the 4 portal controllers, then right click the Sun Gate|M|18,63|
 T Clearing the Way|QID|9761|R|Draenei|
-H Blood Watch|N|Hearth back to Blood Watch||U|6948|
+H Blood Watch|N|Hearth back to Blood Watch|U|6948|
 T The Sun Gate|QID|9740|
 T Ending Their World|QID|9759|N|This is one of the best quest turnins in WoW.  Get ready to enjoy a bit of a show|R|Draenei|
 A The Unwritten Prophecy|QID|9762|N|If Prophet Velen despawned before you accepted the quest, go to The Exodar to get the quest|R|Draenei|

@@ -1,8 +1,13 @@
-WoWPro_Leveling:RegisterGuide("JamAzs5354", "Azshara", "Jame", "53", "54", "JamFel5454", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamAzs5354", "Leveling", "Azshara", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Azshara")
+WoWPro:GuideName(guide, "Azshara")
+WoWPro:GuideNextGuide(guide, "JamFel5454")
+WoWPro:GuideLevels(guide, 53, 54)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 
-F Splintertree Post|QID|5536|N||Z|Orgrimmar|M|45.2,64.0|
+F Splintertree Post|QID|5536|N|Z|Orgrimmar|M|45.2,64.0|
 R Azshara|QID|5536|N|Follow the road east to the border with Azshara |Z|Ashenvale|M|95.7,48.7|
 A A Land Filled with Hatred|QID|5536|N|Watch out for the Alliance outpost near here. This quest is marked as low level, take it anyway.|M|11.4,78.2|
 A Spiritual Unrest|QID|5535|N|This quest is marked as low level, take it anyway.|M|11.4,78.2|
@@ -43,7 +48,7 @@ A Delivery to Archmage Xylem|QID|3561|M|22.6,51.4|
 T Betrayed (Part 3)|QID|3506|M|22.3,51.5|
 A Betrayed (Part 4)|QID|3507|M|22.3,51.5|
 
-N Meeting with the Master|QID|3561|N||M|28.1,50.1|
+N Meeting with the Master|QID|3561|N|M|28.1,50.1|
 T Delivery to Archmage Xylem|QID|3561|N|He's at the top of the tower.|M|29.4,40.4|
 A Xylem's Payment to Jediga|QID|3565|M|29.4,40.4|
 
@@ -60,12 +65,12 @@ A A Sample of Slime...|QID|4293|M|47.5,73.1|
 A ... and a Batch of Ooze|QID|4294|M|47.5,73.1|
 
 b Durotar|QID|3518|N|Take the zeppelin outside Undercity.|
-F Thunder Bluff|QID|3518|N||Z|Orgrimmar|M|45.2,64.0|
+F Thunder Bluff|QID|3518|N|Z|Orgrimmar|M|45.2,64.0|
 T Delivery to Magatha|QID|3518|M|69.9,30.9|
 A Magatha's Payment to Jediga|QID|3562|M|69.9,30.9|
 T Morrowgrain Research (Part 2)|QID|3786|N|Dont forget to open all of your herb casings. If you haven't completed this yet, then just destroy the items - we won't be coming back soon enough for it to be worth it.|
 
-F Valormok|QID|3565|N||Z|Thunder Bluff|M|46.8,50.2|
+F Valormok|QID|3565|N|Z|Thunder Bluff|M|46.8,50.2|
 T Xylem's Payment to Jediga|QID|3565|M|22.6,51.4|
 T Jes'rimon's Payment to Jediga|QID|3563|M|22.6,51.4|
 T Andron's Payment to Jediga|QID|3564|M|22.6,51.4|

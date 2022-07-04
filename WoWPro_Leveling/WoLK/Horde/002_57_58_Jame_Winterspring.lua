@@ -1,6 +1,11 @@
-WoWPro_Leveling:RegisterGuide("JamWin5758", "Winterspring", "Jame", "57", "58", "JamBur5858", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamWin5758", "Leveling", "Winterspring", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Winterspring")
+WoWPro:GuideName(guide, "Winterspring")
+WoWPro:GuideNextGuide(guide, "JamBur5858")
+WoWPro:GuideLevels(guide, 57, 58)
+WoWPro:GuideSteps(guide, function()
 return [[
-F Everlook|QID|4721|N||Z|Felwood|M|34.3,53.9|
+F Everlook|QID|4721|N|Z|Felwood|M|34.3,53.9|
 
 C Wild Guardians (Part 3)|QID|4721|N|Kill Berserk Owlbeasts at the Owl Wing Ticket . Look for a Blue-feathered Necklace.|M|63,59|
 K Berserk Owlbeasts|QID|4882|L|12558|N|Keep killing Berserk Owlbeasts until you find a Blue-feathered Necklace.|
@@ -13,7 +18,7 @@ T Strange Sources|QID|4842|M|31.3,45.2|
 T Winterfall Runners|QID|5087|
 A High Chief Winterfall|QID|5121|N|You can run away from the ambushers that spawn.|
 
-R Winterfall Village|QID|5121|N||M|67,37|
+R Winterfall Village|QID|5121|N|M|67,37|
 C High Chief Winterfall|QID|5121|N|Kill High Chief Winterfall, he is in a cave at . Make sure to loot his Crudely-written Log.|M|69.6,38.3|
 A The Final Piece|QID|5123|U|12842|N|Right-click the log to start the quest.|
 
@@ -21,37 +26,37 @@ T The Final Piece|QID|5123|
 T High Chief Winterfall|QID|5121|
 A Words of the High Chief|QID|5128|
 
-R Timbermaw Hold|QID|8470|N||M|27.9,34.5|
-T Deadwood Ritual Totem|QID|8470|O|N||Z|Felwood|M|65.4,2.3|
-T Winterfall Ritual Totem|QID|8471|O|N||Z|Felwood|M|65.4,2.3|
+R Timbermaw Hold|QID|8470|N|M|27.9,34.5|
+T Deadwood Ritual Totem|QID|8470|O|N|Z|Felwood|M|65.4,2.3|
+T Winterfall Ritual Totem|QID|8471|O|N|Z|Felwood|M|65.4,2.3|
 
-f Moonglade|QID|5601|N||Z|Moonglade|M|32.1,66.6|
+f Moonglade|QID|5601|N|Z|Moonglade|M|32.1,66.6|
 F Everlook|QID|5601|
 A Sister Pamela|QID|5601|M|61.3,39.0|
 A Duke Nicholas Zverenhoff|QID|6030|M|61.3,39.0|
 A The Everlook Report|QID|6029|M|61.3,39.0|
 
-F Bloodvenom Post|QID|4721|N||M|60.5,36.3|
+F Bloodvenom Post|QID|4721|N|M|60.5,36.3|
 T Wild Guardians (Part 3)|QID|4721|
 T Guarding Secrets (Part 1)|QID|4882|
 A Guarding Secrets (Part 2)|QID|4883|
 
-F Emerald Sanctuary|QID|5128|N||Z|Felwood|M|34.3,53.9|
+F Emerald Sanctuary|QID|5128|N|Z|Felwood|M|34.3,53.9|
 T Words of the High Chief|QID|5128|
 
-F Thunder Bluff|QID|4883|N||Z|Felwood|M|51.5,82.2|
+F Thunder Bluff|QID|4883|N|Z|Felwood|M|51.5,82.2|
 T Guarding Secrets (Part 2)|QID|4883|
 
-F Gadgetzan|QID|5163|N||Z|Thunder Bluff|M|46.8,50.2|
+F Gadgetzan|QID|5163|N|Z|Thunder Bluff|M|46.8,50.2|
 N Scare Sprinkle|QID|5163|QO|Scare Sprinkle: 1/1|N|Find a goblin named Sprinkle , she's close to the horde exit. Target her and right click Umi's Mechanical Yeti.|U|12928|Z|Tanaris|M|51.1,26.9|
 
-R Lost Rigger Cove|QID|4005|N||Z|Tanaris|M|68.6,41.4|
+R Lost Rigger Cove|QID|4005|N|Z|Tanaris|M|68.6,41.4|
 N Eridan's Supplies|QID|4005|U|11617|L|11169|N|Open the backpack (Eridan's Supplies)|
 C Aquementas|QID|4005|U|11169|N|Go to the stone circle at . Use the Book of Aquor while standing in the circle. Wait for the elemental to attack you, then kill it.|Z|Tanaris|M|70.4,49.9|
 N Destroy Items|QID|4005|N|Once you receive the totem, you can destroy the Book of Aquor, Silvery Claws, and the Irontree Heart.|
 
-R Gadgetzan|QID|4005|N||Z|Tanaris|M|51.6,25.5|
-F Marshal's Refuge|QID|4005|N||Z|Tanaris|M|51.6,25.5|
+R Gadgetzan|QID|4005|N|Z|Tanaris|M|51.6,25.5|
+F Marshal's Refuge|QID|4005|N|Z|Tanaris|M|51.6,25.5|
 T Aquementas|QID|4005|
 A Linken's Adventure|QID|3961|
 T Linken's Adventure|QID|3961|

@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("SnoEve0112", "Eversong Woods", "Snowflake", "01", "12", "SnoGho1221", "Horde", function()
+local guide = WoWPro:RegisterGuide("SnoEve0112", "Leveling", "Eversong Woods", "Snowflake", "Horde", 3)
+WoWPro:GuideNickname(guide, "Eversong Woods")
+WoWPro:GuideName(guide, "Eversong Woods")
+WoWPro:GuideNextGuide(guide, "SnoGho1221")
+WoWPro:GuideLevels(guide, 1, 12)
+WoWPro:GuideSteps(guide, function()
 return [[
 A Reclaiming Sunstrider Isle |QID|8325|R|Blood Elf|N|Magistrix Erona|M|38.0,21.0|
 C Mana Wyrm |QID|8325|R|Blood Elf|N|Go down the big stairs and you should see plenty of Mana Wyrms.|M|37.60,22.00|
@@ -187,7 +192,7 @@ C Defending Fairbreeze Village |QID|9252|N|4 of each: Rotlimb marauder, Darkwrai
 T The Wayward Apprentice |QID|9254|N|Go north along the Dead Scar until you reach Mivenda.|M|54.3,71.0|
 A Corrupted Soil |QID|8487|M|54.3,71.0|
 
-C Loot 8 Tainted Soil Samples |QID|8487|L|20771 8|N||M|52.60,68.40|
+C Loot 8 Tainted Soil Samples |QID|8487|L|20771 8|N|M|52.60,68.40|
 
 T Corrupted Soil |QID|8487|M|54.3,71.0|
 A Unexpected Results |QID|8488|N|Get to full HP/Mana and take the follow up. Protect Mivenda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.|M|54.3,71.0|
@@ -195,7 +200,7 @@ C Unexpected Results |QID|8488|
 T Unexpected Results |QID|8488|N|You should now be level 10!|M|54.3,71.0|
 A Research Notes |QID|9255|M|54.3,71.0|
 
-T Farstrider Retreat |QID|9359|N||M|55.8,70.5|
+T Farstrider Retreat |QID|9359|N|M|55.8,70.5|
 A Amani Encroachment |QID|8476|M|60.3,62.8|
 B Springpaw Appetizers |QID|9067|L|22776|N|Zalene Firstlight |M|60.40,62.50|
 A The Spearcrafter's Hammer |QID|8477|M|59.5,62.6|
@@ -222,7 +227,7 @@ A Word from the Spire |QID|8890|M|67.8,56.5|
 T Word from the Spire |QID|8890|N|Back at farstrider retreat, up the right ramp. |M|59.4,62.6|
 T Abandoned Investigations |QID|8891|M|60.3,61.4|
 
-K Spearcrafter Otembe |QID|8477||L|20759N|Go southeast to the trolls. From now on kill trolls that you need for Amani Encroachment while doing the next quests. (70.00, 72.00)|
+K Spearcrafter Otembe |QID|8477|L|20759N|Go southeast to the trolls. From now on kill trolls that you need for Amani Encroachment while doing the next quests. (70.00, 72.00)|
 A Zul'Marosh |QID|8479|M|70.5,72.3|
 K Chieftain Zul'Marosh |QID|8479|L|23249|N|Head west across the water to the next troll camp. Zul'Marosh is in the big building on the top floor. Pull guards first. |M|61.60,79.60|
 U Amani Invasion Plans |QID|9360|U|23249|
@@ -230,7 +235,7 @@ A Amani Invasion |QID|9360|M|62.6,79.7|
 
 T Zul'Marosh |QID|8479|M|70.5,72.3|
 
-C Amani Encroachment |QID|8476|N||M|69.00,72.00|
+C Amani Encroachment |QID|8476|N|M|69.00,72.00|
 
 T Amani Invasion |QID|9360|N|Back at farstrider retreat. The Elrendar Falls are nearby. Go there if you want the explorer achievement. |M|64.00,73.00|
 T Amani Encroachment |QID|8476|M|60.3,62.8|

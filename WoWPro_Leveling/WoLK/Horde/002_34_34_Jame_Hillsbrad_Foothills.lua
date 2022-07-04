@@ -1,8 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamHil3434", "Hillsbrad Foothills", "Jame", "34", "34", "JamAra3435", "Horde", function()
-
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 7/12/2009
+local guide = WoWPro:RegisterGuide("JamHil3434", "Leveling", "Hillsbrad Foothills", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Hillsbrad Foothills")
+WoWPro:GuideName(guide, "Hillsbrad Foothills")
+WoWPro:GuideNextGuide(guide, "JamAra3435")
+WoWPro:GuideLevels(guide, 34, 34)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 H Orgrimmar|QID|7321|U|6948|

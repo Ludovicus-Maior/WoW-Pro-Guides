@@ -1,10 +1,15 @@
-WoWPro_Leveling:RegisterGuide("JamTan4748", "Tanaris", "Jame", "47", "48", "JamHin4850", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamTan4748", "Leveling", "Tanaris", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Tanaris")
+WoWPro:GuideName(guide, "Tanaris")
+WoWPro:GuideNextGuide(guide, "JamHin4850")
+WoWPro:GuideLevels(guide, 47, 48)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Gadgetzan|QID|2875|
 h Gadgetzan|QID|2875|
 
 C WANTED: Caliph Scorpidsting |QID|2781|N|He roams around  with two stealthed rogues. Look for him while hunting Rogues, Assasins and Shadow Mages. If this is too hard for you, you can skip it, there are no follow ups.|M|62,36|
-C More Wastewander Justice |QID|1691|N|Kill rogues, shadow mages, and assassins in the same area. | |
+C More Wastewander Justice |QID|1691|N|Kill rogues, shadow mages, and assassins in the same area. |
 
 R Lost Rigger Cove |QID|8365|N|Look for the tunnel entrance to Lost Rigger Cove .  Start killing lots of pirates!|M|68.64,41.47|
 C WANTED: Andre Firebeard |QID|2875|N|Keep an eye out for the rare Kregg Keelhaul. Work your way to Andre , killing pirates as you go.  Pull carefully.|M|73.4,47.1|
@@ -53,7 +58,7 @@ T The Stone Watcher|QID|2280|O|PRE|Seeing What Happens|N|Keep talking until you'
 A Return to Thunder Bluff |QID|2967|O|PRE|The Stone Watcher|
 
 
-R Thistleshrub Valley |QID|3161|N| |M|28,67|
+R Thistleshrub Valley |QID|3161|N|M|28,67|
 C The Thirsty Goblin |QID|2605|N|Kill Dew Collectors until you find one.  Also kill gnarled thistleshrubs and thistleshrub rootshapers until you have killed 8 each or find the laden dew gland.|M|29.0,63.0|
 C Thistleshrub Valley |QID|3362|N|Keep killing these until you have what you need.|
 C Noxious Lair Investigation |QID|82|N|Head to the Noxious Lair . Kill Centipaars, Stingers, Wasps, and Tunnelers to find the insect parts you need.|M|31,51|

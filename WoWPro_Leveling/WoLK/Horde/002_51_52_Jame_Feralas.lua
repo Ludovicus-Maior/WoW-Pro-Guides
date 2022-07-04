@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamFer5152", "Feralas", "Jame", "51", "52", "JamSea5252", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamFer5152", "Leveling", "Feralas", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Feralas")
+WoWPro:GuideName(guide, "Feralas")
+WoWPro:GuideNextGuide(guide, "JamSea5252")
+WoWPro:GuideLevels(guide, 51, 52)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 
@@ -73,8 +78,8 @@ A March of the Silithid |QID|4494|M|56.5,46.5|
 T Ripple Delivery |QID|81|N|To the northeast.|M|59.5,36.8|
 A Betrayed |QID|3504|M|75.2,34.2|
 
-F Ratchet|QID|2874| 
-b Booty Bay|QID|2874| 
+F Ratchet|QID|2874|
+b Booty Bay|QID|2874|
 T Deliver to MacKinley |QID|2874|N|Near the inn.|M|27.8,77.1|
 T Rescue OOX-22/FE! |QID|2767|O|
 T Rescue OOX-09/HL! |QID|836|O|

@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamWin5657", "Winterspring", "Jame", "56", "57", "JamFel5757", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamWin5657", "Leveling", "Winterspring", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Winterspring")
+WoWPro:GuideName(guide, "Winterspring")
+WoWPro:GuideNextGuide(guide, "JamFel5757")
+WoWPro:GuideLevels(guide, 56, 57)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Winterspring|QID|980|N|(65.4,2.9)(68.2,5.5)|Z|Felwood|M|65.1,8.2|
@@ -8,7 +13,7 @@ T Toxic Horrors|QID|5086|
 A Winterfall Runners|QID|5087|
 N Winterfall Runners|QID|5087|N|Keep your eye out for the Winterfall Runners during the next few steps. Kill them and loot the crate if you see them.|
 
-R Everlook|QID|977|N||M|61,38|
+R Everlook|QID|977|N|M|61,38|
 A Are We There, Yeti? (Part 2)|QID|977|M|60.9,37.6|
 
 C Winterfall Activity|QID|8464|N|Kill Winterfall Shamans and Ursas around .|M|66,33|

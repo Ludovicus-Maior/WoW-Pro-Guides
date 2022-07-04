@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamUng5253", "Un'Goro Crater", "Jame", "52", "53", "JamAzs5354", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamUng5253", "Leveling", "Un'Goro Crater", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Un'Goro Crater")
+WoWPro:GuideName(guide, "Un'Goro Crater")
+WoWPro:GuideNextGuide(guide, "JamAzs5354")
+WoWPro:GuideLevels(guide, 52, 53)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 H Orgrimmar|QID|936|U|6948|
@@ -40,7 +45,7 @@ N Mangled Journal|QID|3884|L|11116|N|Keep killing Ravasaurs until you find a Man
 A Williden's Journal|QID|3884|U|11116|N|Right-click the journal to accept the quest.|M|68.0,76.0|
 
 A Chasing A-Me 01 (Part 1)|QID|4243|M|46.4,13.5|
-R Marshal's Refuge|QID|3884|N||M|45.34,11.99|
+R Marshal's Refuge|QID|3884|N|M|45.34,11.99|
 A Shizzle's Flyer|QID|4503|M|44.2,11.6|
 A Beware of Pterrordax|QID|4501|M|43.6,8.4|
 A Roll the Bones|QID|3882|M|43.6,7.3|
@@ -52,7 +57,7 @@ T Crystals of Power|QID|4284|M|41.9,2.7|
 A The Eastern Pylon|QID|4287|M|41.9,2.7|
 A The Northern Pylon|QID|4285|M|41.9,2.7|
 A The Western Pylon|QID|4288|M|41.9,2.7|
-f Marshal's Refuge|QID|3845|N||M|45.2,5.9|
+f Marshal's Refuge|QID|3845|N|M|45.2,5.9|
 A Larion and Muigin|QID|4145|M|45.5,8.7|
 U Open the Small Pack|QID|3845|U|11107|
 T It's a Secret to Everybody (Part 2)|QID|3845|M|44.7,8.1|
@@ -85,18 +90,18 @@ T The Western Pylon|QID|4288|M|41.9,2.7|
 A Making Sense of it|QID|4321|M|41.9,2.7|
 T Making Sense of it|QID|4321|M|41.9,2.7|
 
-F Gadgetzan|QID|4504|N||M|45.2,5.9|
+F Gadgetzan|QID|4504|N|M|45.2,5.9|
 T Super Sticky|QID|4504|M|51.6,26.8|
 T Bungle in the Jungle|QID|4496|M|50.9,27.0|
 
-F Thunder Bluff|QID|3761|N||Z|Tanaris|M|51.6,25.5|
+F Thunder Bluff|QID|3761|N|Z|Tanaris|M|51.6,25.5|
 T Un'Goro Soil|QID|3761|M|77.4,22.0|
 A Morrowgrain Research (Part 1)|QID|3782|M|78.6,28.5|
 T Morrowgrain Research (Part 1)|QID|3782|M|71.1,34.2|
 A Morrowgrain Research (Part 2)|QID|3786|
 N Evergreen Pouch|QID|3786|U|11020|N|Use your Evergreen Pouch every time it's off cooldown from now on.|
 
-F Orgrimmar|QID|4300|N||Z|Thunder Bluff|M|46.8,50.2|
+F Orgrimmar|QID|4300|N|Z|Thunder Bluff|M|46.8,50.2|
 T Bone-Bladed Weapons|QID|4300|M|55.6,34.1|
 
 ]]

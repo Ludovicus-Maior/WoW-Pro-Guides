@@ -1,9 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamSto2728", "Stonetalon Mountains", "Jame", "27", "28", "JamHil2828", "Horde", function()
---> Original guides written/designed by [Jame]
--->
---> Addon revision by [freedave2000] 2/14/2009
---> Last modified by [Jiyambi] 4/8/2009
-
+local guide = WoWPro:RegisterGuide("JamSto2728", "Leveling", "Stonetalon Mountains", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Stonetalon Mountains")
+WoWPro:GuideName(guide, "Stonetalon Mountains")
+WoWPro:GuideNextGuide(guide, "JamHil2828")
+WoWPro:GuideLevels(guide, 27, 28)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Sun Rock Retreat |QID|5881|M|73.2,61.6|
 A Elemental War |QID|6393|N|Hidden path up the cliffside. Water elemental.|M|47.3,64.3|
@@ -33,4 +33,3 @@ T Bloodfury Bloodline |QID|6283|M|47.2,61.1|
 H Orgrimmar|U|6948|
 ]]
 end)
-

@@ -1,6 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamGri7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Horde", function()
---Original guide written/designed by Jame
---Addon Version: Last Modified 7/14/2010
+local guide = WoWPro:RegisterGuide("JamGri7577", "Leveling", "Grizzly Hills", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Grizzly Hills")
+WoWPro:GuideName(guide, "Grizzly Hills")
+WoWPro:GuideNextGuide(guide, "ScoZul7778")
+WoWPro:GuideLevels(guide, 75, 77)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Venomspite|QID|12257|
 R Conquest Hold|QID|12257|N|Ride east into Grizzly Hills, keep going to Conquest Hold.|M|21,63|
@@ -342,7 +345,7 @@ A ... Or Maybe We Don't|QID|12198|M|65.1,47.3|
 C ... Or Maybe We Don't|QID|12198|U|36936|N|Head to the hills around Dun'Argol. Use the Golem Control unit. Kill 10 Lightning Sentries. Ranged, you need to be within about 10 yards for the Golem to do it's thing.|M|73,55|
 T ... Or Maybe We Don't|QID|12198|N|Back at Camp Oneqwah.|M|65.1,47.3|
 A Bringing Down the Iron Thane|QID|12199|M|65.1,47.3|
-R Dun Argol|QID|12099||M|75,55|
+R Dun Argol|QID|12099|M|75,55|
 C Bringing Down the Iron Thane|QID|12199|U|37071|U|36865|N|Equip your disguise, I said it would come in handy. Head to the top of Dun'Argol, go inside the large building. Take one of the elevators down. Use the Golem Control Unit and engage the Thane. Use ability 2, then cancel the disguise buff. Then target the Thane and use ability 1 when it's up, and 2 when the Anvil recovers from the EMP. Once the Thane dies, stay in the suit and run away; note that the suit doesn't take fall damage.|M|76.6,63.7|
 T Bringing Down the Iron Thane|QID|12199|M|65.2,47.5|
 T Loken's Orders|QID|12203|N|Back at Camp Oneqwah.|M|65.1,47.7|

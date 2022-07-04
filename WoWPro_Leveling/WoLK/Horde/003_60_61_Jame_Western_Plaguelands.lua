@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamWDK6061", "Western Plaguelands", "Jame DK", "60", "61", "JamHel6063", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamWDK6061", "Leveling", "Western Plaguelands", "Jame DK", "Horde", 3)
+WoWPro:GuideNickname(guide, "Western Plaguelands")
+WoWPro:GuideName(guide, "Western Plaguelands")
+WoWPro:GuideNextGuide(guide, "JamHel6063")
+WoWPro:GuideLevels(guide, 60, 61)
+WoWPro:GuideSteps(guide, function()
 return [[
 N Redpath's Shield |QID|5168|QO|Redpath's Shield: 1/1|N|Gahrron's Withering, in front of the northern most building |M|63.73,57.17|
 

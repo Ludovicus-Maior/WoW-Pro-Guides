@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamEas5959", "Eastern Plaguelands", "Jame", "59", "59", "JamWes5960", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamEas5959", "Leveling", "Eastern Plaguelands", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Eastern Plaguelands")
+WoWPro:GuideName(guide, "Eastern Plaguelands")
+WoWPro:GuideNextGuide(guide, "JamWes5960")
+WoWPro:GuideLevels(guide, 59, 59)
+WoWPro:GuideSteps(guide, function()
 return [[
 A Demon Dogs|QID|5542|N|Go north along the river bank, then cross the river so you are on the eastern bank and ride north until you find a house.|M|4.7,38.3|
 A Blood Tinged Skies|QID|5543|M|4.7,38.3|
@@ -34,6 +39,6 @@ T Uncle Carlin|QID|5241|M|75.7,53.8|
 A Defenders of Darrowshire|QID|5211|M|75.7,53.8|
 
 A Zaeldarr the Outcast|QID|6021|
-F The Bulwark|QID|5234|N||M|74.5,51.3|
+F The Bulwark|QID|5234|N|M|74.5,51.3|
 ]]
 end)

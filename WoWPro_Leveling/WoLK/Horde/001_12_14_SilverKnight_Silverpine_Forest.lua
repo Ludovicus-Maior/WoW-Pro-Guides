@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("SilSil1214", "Silverpine Forest", "SilverKinght", "12", "14", "SilBar1416", "Horde", function()
+local guide = WoWPro:RegisterGuide("SilSil1214", "Leveling", "Silverpine Forest", "SilverKinght", "Horde", 3)
+WoWPro:GuideNickname(guide, "Silverpine Forest")
+WoWPro:GuideName(guide, "Silverpine Forest")
+WoWPro:GuideNextGuide(guide, "SilBar1416")
+WoWPro:GuideLevels(guide, 12, 14)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Brill|QID|445|N|Head to Brill in Tirisfal Glades and speak with Apothecary Johaan at .|Z|Tirisfal Glades|M|59.45,52.39|
@@ -26,7 +31,7 @@ C Escorting Erland|QID|435|N|He complains about Worgs coming out of the woodwork
 T Escorting Erland|QID|435|M|53.5,13.4|
 A The Deathstalkers' Report|QID|449|M|53.5,13.4|
 C Wild Hearts|QID|429|N|Head north and kill the furry little buggers until you collect the rest of the hearts and/or your vengeance has been sated .|M|55.67,12.56|
-R The Sepulcher|QID|421|N||M|46.21,41.59|
+R The Sepulcher|QID|421|N|M|46.21,41.59|
 
 T Prove Your Worth|QID|421|M|44.2,39.8|
 A Arugal's Folly (Part 1)|QID|422|M|44.2,39.8|
@@ -55,7 +60,7 @@ A Arugal's Folly (Part 2)|QID|423|M|44.2,39.8|
 T The Dead Fields|QID|437|M|43.4,40.9|
 A The Decrepit Ferry|QID|438|M|43.4,40.9|
 
-F Undercity|QID|447|N||M|45.60,42.57|
+F Undercity|QID|447|N|M|45.60,42.57|
 T A Recipe for Death (Part 1)|QID|447|M|48.8,69.3|
 A A Recipe for Death (Part 2)|QID|450|M|48.8,69.3|
 T Zinge's Delivery|QID|1359|

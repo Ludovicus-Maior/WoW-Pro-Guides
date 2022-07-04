@@ -1,8 +1,13 @@
-WoWPro_Leveling:RegisterGuide("JamFel5656", "Felwood", "Jame", "56", "56", "JamWin5657", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamFel5656", "Leveling", "Felwood", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Felwood")
+WoWPro:GuideName(guide, "Felwood")
+WoWPro:GuideNextGuide(guide, "JamWin5657")
+WoWPro:GuideLevels(guide, 56, 56)
+WoWPro:GuideSteps(guide, function()
 return [[
 H Orgrimmar|QID|5159|U|6948|N|If your stone is still on cooldown, use the flight path |Z|Un'Goro Crater|M|45.2,5.9|
 
-F Emerald Sanctuary|QID|5159|N||Z|Orgrimmar|M|45.2,64.0|
+F Emerald Sanctuary|QID|5159|N|Z|Orgrimmar|M|45.2,64.0|
 T Cleansed Water Returns to Felwood|QID|5159|
 A Dousing the Flames of Protection|QID|5165|
 T Linken's Memory|QID|3942|M|51.3,81.6|

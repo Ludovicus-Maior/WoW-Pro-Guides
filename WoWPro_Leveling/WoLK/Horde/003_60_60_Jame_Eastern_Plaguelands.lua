@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamEDK6060", "Eastern Plaguelands", "Jame DK", "60", "60", "JamWDK6061", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamEDK6060", "Leveling", "Eastern Plaguelands", "Jame DK", "Horde", 3)
+WoWPro:GuideNickname(guide, "Eastern Plaguelands")
+WoWPro:GuideName(guide, "Eastern Plaguelands")
+WoWPro:GuideNextGuide(guide, "JamWDK6061")
+WoWPro:GuideLevels(guide, 60, 60)
+WoWPro:GuideSteps(guide, function()
 return [[
 T Demon Dogs |QID|5542|N|Tirion Fordring|M|4.7,38.3|
 T Blood Tinged Skies |QID|5543|M|4.7,38.3|
@@ -31,7 +36,7 @@ T Zaeldarr the Outcast |QID|6021|N|Caretaker Alen|
 
 N Shattered Sword of Marduk |QID|5181|QO|Shattered Sword of Marduk: 1/1|N|Go through Corin's Crossing while on your way to the Infectis Scar. Kill all Gibbering Ghouls you can find to free the Spirits of Darrowshire |M|49.26,59.66|
 
-N Skull of Horgus |QID|5181|QO|Skull of Horgus: 1/1| |N|North, in Blackwood Lake |M|46.56,44.48|
+N Skull of Horgus |QID|5181|QO|Skull of Horgus: 1/1|N|North, in Blackwood Lake |M|46.56,44.48|
 
 C A Plague Upon Thee |QID|5901|N|West, in Plaguewood. While looking for those termite mounds, kill Cannibal Ghouls to free more Spirits of Darrowshire.|M|37.01,20.72|
 T The Restless Souls |QID|5281|N|West of Plaguewood. Egan, in a house at the back|

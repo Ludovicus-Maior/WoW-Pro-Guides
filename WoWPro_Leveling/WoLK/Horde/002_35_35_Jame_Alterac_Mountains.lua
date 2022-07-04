@@ -1,8 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamAlt3535", "Alterac Mountains", "Jame", "35", "35", "JamAra3537", "Horde", function()
-
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 7/12/2009
+local guide = WoWPro:RegisterGuide("JamAlt3535", "Leveling", "Alterac Mountains", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Alterac Mountains")
+WoWPro:GuideName(guide, "Alterac Mountains")
+WoWPro:GuideNextGuide(guide, "JamAra3537")
+WoWPro:GuideLevels(guide, 35, 35)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 C Infiltration|QID|533|N|Get out of the yeti cave, go north and slightly northeast, find the plateau named Corahn's Dagger  . You'll find a syndicate camp there.|M|48,81|

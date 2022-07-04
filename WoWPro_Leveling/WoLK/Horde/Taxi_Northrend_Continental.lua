@@ -1,4 +1,8 @@
-WoWPro_Leveling:RegisterGuide("TaxiNRCT1", "Northrend", "TAXI.Driver", 85, 85, "nil", "Horde", function()
+local guide = WoWPro:RegisterGuide("TaxiNRCT1", "Leveling", "Northrend", "TAXI.Driver", "Horde", 3)
+WoWPro:GuideNickname(guide, "Northrend")
+WoWPro:GuideName(guide, "Northrend")
+WoWPro:GuideLevels(guide, 85, 85)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 f Warsong Hold|N|From Turida Coldwind|M|40.4,51.4|Z|Borean Tundra|

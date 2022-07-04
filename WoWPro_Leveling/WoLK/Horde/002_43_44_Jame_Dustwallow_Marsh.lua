@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamDus4344", "Dustwallow Marsh", "Jame", "43", "44", "JamSwa4444", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamDus4344", "Leveling", "Dustwallow Marsh", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Dustwallow Marsh")
+WoWPro:GuideName(guide, "Dustwallow Marsh")
+WoWPro:GuideNextGuide(guide, "JamSwa4444")
+WoWPro:GuideLevels(guide, 43, 44)
+WoWPro:GuideSteps(guide, function()
 return [[
 H Orgrimmar|QID|11204|
 F Brackenwall Village |QID|11204|N|Fly to Brackenwall in Dustwallow Marsh. |
@@ -29,9 +34,9 @@ A The Essence of Enmity |QID|11161|M|41.9,74.0|
 R The Den of Flame |QID|11161|N|Head northwest to the Den of Flames.  The entrance is at |M|40,67|
 N Things to do |QID|11161|N|Kill all dragonkin you see.  Use Brogg's Totem on the corpses to get Black Dragonkin Essence.  By the time we're done in this area, we should have 10. |
 N Mok'Morokk's Grog |QID|1166|QO|Mok'Morokk's Grog: 1/1|U|33088|N|Get Mok'Morokk's Grog just outside the cave .|M|39,66|
-C Banner of the Stonemaul |QID|11160|U|33088|N|In the cave, on the left, is a tiger skin banner .  Loot it to complete the quest. | |M|38.12,69.44|
+C Banner of the Stonemaul |QID|11160|U|33088|N|In the cave, on the left, is a tiger skin banner .  Loot it to complete the quest. |M|38.12,69.44|
 N Mok'Morokk's Strongbox|QID|1166|QO|Mok'Morokk's Strongbox: 1/1|U|33088|N|Continue into the cave to find the strong box . Don't forget to collect the dragonkin essence if you don't have 10 yet.|M|36.63,69.55|
-K Firemane Scalebane|QID|1168|QO|Firemane Scalebane slain: 5/5|N|Kill 5 Scalebanes if you haven't already.| M|41.7,67.3|
+K Firemane Scalebane|QID|1168|QO|Firemane Scalebane slain: 5/5|N|Kill 5 Scalebanes if you haven't already.|M|41.7,67.3|
 C The Essence of Enmity |QID|11161|U|33088|N|Keep hunting dragonkin until you've gotten 10 essences. |M|39.0,66.0|
 
 T Banner of the Stonemaul |QID|11160|N|Keep killing whelps on your way back to town.|M|41.9,74.0|

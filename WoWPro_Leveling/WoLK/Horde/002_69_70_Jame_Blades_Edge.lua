@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamBla6970", "Blade's Edge Mountains", "Jame", "69", "70", "JamHow7071", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamBla6970", "Leveling", "Blade's Edge Mountains", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Blade's Edge Mountains")
+WoWPro:GuideName(guide, "Blade's Edge Mountains")
+WoWPro:GuideNextGuide(guide, "JamHow7071")
+WoWPro:GuideLevels(guide, 69, 70)
+WoWPro:GuideSteps(guide, function()
 return [[
 H Garadar|QID|10928|U|6948|
 
@@ -46,7 +51,7 @@ C Felling an Ancient Tree|QID|10489|N|Kill Stronglimb Deeproot. He walks up and 
 
 A They Stole Me Hookah and Me Brews!|QID|10542|N|Go southeast and find the path leading down to the Bloodmaul Ravine. Kill every ogre you find.|M|44.95,72.26|
 N T'chali's Hookah|QID|10542|QO|T'chali's Hookah: 1/1|N|Clear the way south until the end of the ravine where you should find a cave. The Hookah is just outside. |M|42.14,81.29|
-C The Thunderspike|QID|10526|QO|The Thunderspike: 1/1|N| Enter the cave, at the end you will find the Thunderspike. Right-click it, this will spawn Gor Grimgut, kill him and loot The Thunderspike.|M|39.78,85.44|
+C The Thunderspike|QID|10526|QO|The Thunderspike: 1/1|N|Enter the cave, at the end you will find the Thunderspike. Right-click it, this will spawn Gor Grimgut, kill him and loot The Thunderspike.|M|39.78,85.44|
 N Bloodmaul Brutebane Brew|QID|10542|L|29443 11|N|Gather brews untill you have 11 |M|41.91,81.03|
 C The Bloodmaul Ogres|QID|10505|N|Kill ogres untill finished |M|42.29,82.87|
 T They Stole Me Hookah and Me Brews!|QID|10542|N|T'chali the Witch Doctor |M|44.94,72.21|
@@ -137,7 +142,7 @@ A A Time for Negotiation...|QID|10682|N|Tree Warden Chawn |M|61.92,39.48|
 A Little Embers|QID|10770|N|Mosswood the Ancient |M|61.19,38.60|
 A From the Ashes|QID|10771|N|Mosswood the Ancient |M|61.19,38.60|
 A Culling the Wild|QID|10753|N|Faradrella |M|62.56,38.15|
-F Thunderlord Stronghold|QID|10488|N||M|52.27,57.50|
+F Thunderlord Stronghold|QID|10488|N|M|52.27,57.50|
 
 T Protecting Our Own|QID|10488|N|Gor'drek |M|52.27,57.50|
 T Reunion|QID|10709|N|Rexxar |M|51.84,58.47|
@@ -174,7 +179,7 @@ T Crush the Bloodmaul Camp|QID|10784|N|Gor'drek |M|51.87,58.42|
 
 C A Boaring Time for Grulloc|QID|10721|U|31350|N|Go back down in the ravine and go east until you see a big gronn called Grulloc |M|60.85,47.73|
 T A Boaring Time for Grulloc|QID|10721|N|Baron Sablemane |M|53.25,41.16|
-A It's a Trap!|QID|10785|N| |M|53.23,41.14|
+A It's a Trap!|QID|10785|N|M|53.23,41.14|
 C A Curse Upon Both of Your Clans!|QID|10544|U|30479|N|Go southwest to Bladespire Hold, clear the way to a building and use the Wicked Strong Fetish. |M|39.29,52.91|
 T A Curse Upon Both of Your Clans!|QID|10544|N|T'chali the Witch Doctor |M|44.95,72.24|
 
@@ -217,16 +222,16 @@ C Deceive thy Enemy|QID|10820|N|Kill 4 Doomforge Attendants and 4 Doomforge Engi
 T Deceive thy Enemy|QID|10820|N|Legion Communicator |M|73.30,40.01|
 A You're Fired!|QID|10821|
 K Anger Guards|QID|10821|L|31536 5|N|Kill 5 Anger Guards and loot thier Camp Anger Keys.|
-N Obelisk 1|QID|10821|N||M|73.94,39.90|
-N Obelisk 2|QID|10821|N||M|73.84,41.05|
-N Obelisk 3|QID|10821|N||M|73.52,43.52|
-N Obelisk 4|QID|10821|N||M|75.33,41.73|
-N Obelisk 5|QID|10821|N||M|75.45,40.51|
+N Obelisk 1|QID|10821|N|M|73.94,39.90|
+N Obelisk 2|QID|10821|N|M|73.84,41.05|
+N Obelisk 3|QID|10821|N|M|73.52,43.52|
+N Obelisk 4|QID|10821|N|M|75.33,41.73|
+N Obelisk 5|QID|10821|N|M|75.45,40.51|
 C You're Fired!|QID|10821|N|Kill the Doomcryer |M|74.16,41.28|
 
 C There Can Be Only One Response|QID|10867|N|Kill all Razaani agents in this area until Nexus-Prince Razaan comes through the stargate, then kill him.|M|66.59,43.69|
 
-C Culling the Wild |QID|10753|N||M|70.68,43.93|
+C Culling the Wild |QID|10753|N|M|70.68,43.93|
 N Southern Volcanic Soil|QID|10771|QO|Southern Volcanic Soil: 1/1|N|Kill Scorch Imps on your way. |M|71.63,22.37|
 N Central Volcanic Soil|QID|10771|QO|Central Volcanic Soil: 1/1|N|Kill Scorch Imps on your way. |M|71.56,20.39|
 N Northern Volcanic Soil|QID|10771|QO|Northern Volcanic Soil: 1/1|N|Kill Scorch Imps on your way. |M|71.56,18.53|
@@ -245,10 +250,10 @@ T Longtail is the Lynchpin|QID|10893|N|Watcher Moonshade |M|50.27,36.12|
 A Meeting at the Blackwing Coven|QID|10722|M|49.9,35.9|
 
 K Arrakoas|QID|10607|N|Kill arrakoas until you receive a 2 minute buff called Understanding Ravenspeech. |M|41.70,21.34|
-N The Fourth Prophecy|QID|10607|QO|Receive the Fourth Prophecy: 1/1| |N|Blade's Edge Mountains, Grishnath |M|40.18,22.97|
-N The Third Prophecy|QID|10607|QO|Receive the Third Prophecy: 1/1| |N|Blade's Edge Mountains, Grishnath |M|40.64,18.75|
-N The First Prophecy|QID|10607|QO|Receive the First Prophecy: 1/1| |N|Blade's Edge Mountains, Grishnath |M|39.03,17.23|
-N The Second Prophecy|QID|10607|QO|Receive the Second Prophecy: 1/1| |N|Blade's Edge Mountains, Grishnath |M|42.40,21.66|
+N The Fourth Prophecy|QID|10607|QO|Receive the Fourth Prophecy: 1/1|N|Blade's Edge Mountains, Grishnath |M|40.18,22.97|
+N The Third Prophecy|QID|10607|QO|Receive the Third Prophecy: 1/1|N|Blade's Edge Mountains, Grishnath |M|40.64,18.75|
+N The First Prophecy|QID|10607|QO|Receive the First Prophecy: 1/1|N|Blade's Edge Mountains, Grishnath |M|39.03,17.23|
+N The Second Prophecy|QID|10607|QO|Receive the Second Prophecy: 1/1|N|Blade's Edge Mountains, Grishnath |M|42.40,21.66|
 K Arrakoas|QID|10825|L|31489|N|Kill arrakoas until you loot an Orb of the Grishna|
 A The Truth Unorbed|QID|10825|U|31489|M|40.2,23.0|
 

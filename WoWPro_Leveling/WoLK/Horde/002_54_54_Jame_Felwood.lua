@@ -1,12 +1,17 @@
-WoWPro_Leveling:RegisterGuide("JamFel5454", "Felwood", "Jame", "54", "54", "JamWin5455", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamFel5454", "Leveling", "Felwood", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Felwood")
+WoWPro:GuideName(guide, "Felwood")
+WoWPro:GuideNextGuide(guide, "JamWin5455")
+WoWPro:GuideLevels(guide, 54, 54)
+WoWPro:GuideSteps(guide, function()
 return [[
 H Orgrimmar|QID|3568|U|6948|N|If you hearth isn't up, run back to Valormok  and fly to Orgrimmar.|M|22.0,49.7|
 N Bank|QID|3568|N|Put the vials in your bank , we'll get them out later.|M|49.6,69.4|
 
-F Splintertree Post|QID|8460|N||Z|Orgrimmar|M|45.2,64.0|
+F Splintertree Post|QID|8460|N|Z|Orgrimmar|M|45.2,64.0|
 R Felwood|QID|8460|N|Follow the road west, then north into Felwood. (63.6,70.1)(59.7,63.1)(63.9,51.7)(55.8,23.4)|Z|Ashenvale|M|70.6,69.8|
 A Timbermaw Ally|QID|8460|N|It's marked as low level, take it anyway.|M|50.9,85.0|
-f Emerald Sanctuary|QID|5155|N||M|51.5,82.2|
+f Emerald Sanctuary|QID|5155|N|M|51.5,82.2|
 A Forces of Jaedenar|QID|5155|M|51.2,82.2|
 A Verifying the Corruption|QID|5156|M|50.9,81.6|
 
@@ -20,7 +25,7 @@ A Cleansing Felwood|QID|4102|M|46.8,83.1|
 
 N Felwood Slime Sample|QID|4293|L|12230 30|N|Kill Cursed Oozes until you have 30 Felwood Slime Samples. Follow the arrows for the best kill spots. (40.8,59.2)(40.4,55.5)(39.8,48.6)|M|42.0,67.6|
 
-R Bloodvenom Post|QID|4505|N||M|35.2,50.2|
+R Bloodvenom Post|QID|4505|N|M|35.2,50.2|
 A Well of Corruption|QID|4505|M|34.2,52.3|
 A Wild Guardians (Part 1)|QID|4521|M|34.8,52.7|
 A A Husband's Last Battle|QID|6162|M|34.8,52.7|
@@ -33,7 +38,7 @@ A Collection of the Corrupt Water|QID|5157|M|51.2,82.1|
 
 C A Husband's Last Battle|QID|6162|N|Kill Overlord Ror at  and loot his claw.|M|48,94|
 
-F Bloodvenom Post|QID|4505|N||M|51.5,82.2|
+F Bloodvenom Post|QID|4505|N|M|51.5,82.2|
 T Well of Corruption|QID|4505|M|34.2,52.3|
 A Corrupted Sabers|QID|4506|N|Wait for her to do her thing.|M|34.2,52.3|
 T A Husband's Last Battle|QID|6162|M|34.8,52.7|

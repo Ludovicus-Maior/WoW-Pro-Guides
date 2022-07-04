@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamTan4546", "Tanaris", "Jame", "45", "46", "JamFer4647", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamTan4546", "Leveling", "Tanaris", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Tanaris")
+WoWPro:GuideName(guide, "Tanaris")
+WoWPro:GuideNextGuide(guide, "JamFer4647")
+WoWPro:GuideLevels(guide, 45, 46)
+WoWPro:GuideSteps(guide, function()
 return [[
 b Tirisfal Glades |QID|232|N|Take the zepplin to the Undercity (the landing is in Tirisfal Glades) |
 A Errand for Apothecary Zinge (Part 1) |QID|232|N|Ride/run to the Apothecarium and get [45] Errand for Apothecary Zinge from Apothecary Zinge. |M|49.9,68.4|
@@ -11,7 +16,7 @@ H Booty Bay |QID|2864|U|6948|N|Hearthstone to Booty Bay unless it's not ready th
 b Ratchet|QID|2864|
 F Gadgetzan|QID|2864|
 h Gadgetzan |QID|2864|N|Set your hearthstone to Gadgetzan  |M|52.5,27.9|
-T Tran'rek |QID|2864|N|Don't get the follow up. | |M|51.6,26.8|
+T Tran'rek |QID|2864|N|Don't get the follow up. |M|51.6,26.8|
 T Into the Field |QID|243|M|52.5,28.5|
 A Slake That Thirst |QID|379|M|52.5,28.5|
 A Wastewander Justice |QID|1690|M|52.5,28.5|
@@ -20,14 +25,14 @@ A WANTED: Andre Firebeard |QID|2875|M|51.8,27.0|
 A WANTED: Caliph Scorpidsting |QID|2781|M|51.8,27.0|
 
 N Watch for Distress Beacons |QID|351|N|While killing stuff in Tanaris if you find an item named OOX-17/TN Distress Beacon. Right click it and keep the quest. You'll find beacons in Feralas and Hinterlands as well, proceed equally with those |
-R Noonshade Ruins|QID|379|N||M|61,24|
+R Noonshade Ruins|QID|379|N|M|61,24|
 K Bandits|QID|379|N|Kill all the bandits in this area, then click off this step.|
 A Pirate Hats Ahoy!|QID|8365|N|In Steamwheedle Port to the east.|M|66.6,22.3|
 A Screecher Spirits|QID|3520|M|67.0,22.4|
 A Southsea Shakedown|QID|8366|M|67.1,23.9|
 T Stoley's Debt|QID|2872|M|67.1,23.9|
 A Stoley's Shipment|QID|2873|M|67.1,23.9|
-R Noonshade Ruins |QID|1707|N||M|61,24|
+R Noonshade Ruins |QID|1707|N|M|61,24|
 K Bandits|QID|1707|L|8483 10|N|Kill bandits here until you have 10 wastewander pouches. If this area is crowded, there are more camps south of here.|
 C Wastewander Justice|QID|1690|N|Finish up this quest if you haven't already. If the Noonshade Ruins are crowded, there are more camps south of here.|
 

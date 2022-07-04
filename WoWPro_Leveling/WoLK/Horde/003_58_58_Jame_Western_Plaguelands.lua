@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamWDK5858", "Western Plaguelands", "Jame DK", "58", "58", "JamEDK5859", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamWDK5858", "Leveling", "Western Plaguelands", "Jame DK", "Horde", 3)
+WoWPro:GuideNickname(guide, "Western Plaguelands")
+WoWPro:GuideName(guide, "Western Plaguelands")
+WoWPro:GuideNextGuide(guide, "JamEDK5859")
+WoWPro:GuideLevels(guide, 58, 58)
+WoWPro:GuideSteps(guide, function()
 return [[
 R Orgrimmar|QID|13189|N|Take the portal behind Mograine|
 T Warchief's Blessing|QID|13189|N|Thrall in the Valley of Wisdom|M|31.8,37.8|
@@ -7,8 +12,8 @@ R Acherus: The Ebon Hold |QID|5961|N|Death Gate back to Acherus.|
 F Undercity |QID|5961|N|Take the teleporter back down and fly to Undercity.|
 
 A The Champion of the Banshee Queen |QID|5961|N|Lady Sylvanas in the Apothecarium|
-h Undercity |QID|5096||N|set your hearthstone to Undercity|
-F The Bulwark|QID|5096|N||M|74.5,51.3|
+h Undercity |QID|5096|N|set your hearthstone to Undercity|
+F The Bulwark|QID|5096|N|M|74.5,51.3|
 
 T Argent Dawn Commission |QID|5401|N|Get the quest Argent Dawn Commission |M|83.19,68.45|
 A Scarlet Diversions |QID|5096|M|83.1,68.9|
@@ -38,7 +43,7 @@ C Target: Dalson's Tears |QID|5231|N|Ride east to Dalson'Tears |M|46.14,52.13|
 T Target: Dalson's Tears |QID|5231|M|46.2,52.5|
 A Return to the Bulwark|QID|5232|M|46.2,52.5|
 
-T Mrs. Dalson's Diary|QID|5058|N||M|47.8,50.7|
+T Mrs. Dalson's Diary|QID|5058|N|M|47.8,50.7|
 K Wandering Skeleton|QID|5060|L|12738|N|Look for a Wandering Skeleton, he roams around outside the house and barn, kill it and loot the key.|
 T Locked Away (Part 1)|QID|5059|
 K Farmer Dalson|QID|5060|L|12739|N|Kill Farmer Dalson when he comes out of the outhouse, and loot the key.|

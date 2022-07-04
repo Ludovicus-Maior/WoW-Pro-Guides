@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamEas5960", "Eastern Plaguelands", "Jame DK", "59", "60", "", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamEas5960", "Leveling", "Eastern Plaguelands", "Jame DK", "Alliance", 3)
+WoWPro:GuideNickname(guide, "Eastern Plaguelands")
+WoWPro:GuideName(guide, "Eastern Plaguelands")
+WoWPro:GuideNextGuide(guide, "")
+WoWPro:GuideLevels(guide, 59, 60)
+WoWPro:GuideSteps(guide, function()
 return [[
 T Demon Dogs|QID|5542|M|4.7,38.4|
 T Blood Tinged Skies|QID|5543|M|4.7,38.4|

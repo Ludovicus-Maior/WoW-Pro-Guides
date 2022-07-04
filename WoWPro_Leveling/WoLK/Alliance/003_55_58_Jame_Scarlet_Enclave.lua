@@ -1,6 +1,11 @@
-WoWPro_Leveling:RegisterGuide("JamScar5558", "The Scarlet Enclave", "Jame DK", "55", "58", "JamWes5858", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamScar5558", "Leveling", "The Scarlet Enclave", "Jame DK", "Alliance", 3)
+WoWPro:GuideNickname(guide, "The Scarlet Enclave")
+WoWPro:GuideName(guide, "The Scarlet Enclave")
+WoWPro:GuideNextGuide(guide, "JamWes5858")
+WoWPro:GuideLevels(guide, 55, 58)
+WoWPro:GuideSteps(guide, function()
 return [[
-N Shopping List:|QID|12593|N| *Level 59 30 Crypt Fiend Parts, 30 Core Of Elements, 30 Dark Iron Scraps, 30 Savage Fronds. You'll need these when you get to the Eastern Plaguelands|
+N Shopping List:|QID|12593|N|*Level 59 30 Crypt Fiend Parts, 30 Core Of Elements, 30 Dark Iron Scraps, 30 Savage Fronds. You'll need these when you get to the Eastern Plaguelands|
 
 A In Service Of The Lich King |QID|12593|N|The Lich King|M|51.3,35.2|
 

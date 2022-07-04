@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamHil3535", "Hillsbrad Foothills", "Jame", "35", "35", "JamAlt3535", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamHil3535", "Leveling", "Hillsbrad Foothills", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Hillsbrad Foothills")
+WoWPro:GuideName(guide, "Hillsbrad Foothills")
+WoWPro:GuideNextGuide(guide, "JamAlt3535")
+WoWPro:GuideLevels(guide, 35, 35)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 H Tarren Mill|QID|517|U|6948|

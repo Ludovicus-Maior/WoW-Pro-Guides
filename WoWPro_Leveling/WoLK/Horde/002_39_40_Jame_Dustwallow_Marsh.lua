@@ -1,16 +1,17 @@
-WoWPro_Leveling:RegisterGuide("JamDus3940", "Dustwallow Marsh", "Jame", "39", "40", "JamAra4041", "Horde", function()
-
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 7/12/2009
+local guide = WoWPro:RegisterGuide("JamDus3940", "Leveling", "Dustwallow Marsh", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Dustwallow Marsh")
+WoWPro:GuideName(guide, "Dustwallow Marsh")
+WoWPro:GuideNextGuide(guide, "JamAra4041")
+WoWPro:GuideLevels(guide, 39, 40)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 b Ratchet|QID|1268|
 F Camp Taurajo|QID|1268|
 R Dustwallow Marsh|QID|1268|N|Get on the main road and go south until you reach . There the road should fork: go east and follow the road until you reach Dustwallow Marsh (52.5,79.2).|Z|The Barrens|M|46.13,75.32|
 
-A Suspicious Hoofprints|QID|1268|N||M|29.68,47.63|
-A The Black Shield (Part 1)|QID|1251|N||M|29.63,47.58|
+A Suspicious Hoofprints|QID|1268|N|M|29.68,47.63|
+A The Black Shield (Part 1)|QID|1251|N|M|29.63,47.58|
 A Lieutenant Paval Reethe|QID|1269|N|M|29.8,48.2|
 
 A Hungry!|QID|1177|N|At  you should see an ogre.|M|35,38|
@@ -96,7 +97,7 @@ T The Zeppelin Crash|QID|11172|N|Move east towards , talk to Moxie Steelgrille.|
 A Corrosion Prevention|QID|11174|M|53.6,56.9|
 A Secure the Cargo!|QID|11207|M|53.6,56.9|
 
-C Corrosion Prevention|QID|11174|U|33108|N|You've probably already noticed that blue lightning rays are being shot at you. The Ooze Buster is used to dissolve oozes all around the crashed zeppelin wreck. You can only use the buster while you energized by the blue rays though (which are being shot by power core fragments). The power core fragment next to Moxie always shoots energy at you so stay as much around that fragment and pull oozes to it. Once they are close use your Ooze buster on them. This will dissolve the oozes and you'll get a quest update. You need to do this 10 times and loot 8 Zeppelin Cargos at the same time.| M|53.0,56.0|
+C Corrosion Prevention|QID|11174|U|33108|N|You've probably already noticed that blue lightning rays are being shot at you. The Ooze Buster is used to dissolve oozes all around the crashed zeppelin wreck. You can only use the buster while you energized by the blue rays though (which are being shot by power core fragments). The power core fragment next to Moxie always shoots energy at you so stay as much around that fragment and pull oozes to it. Once they are close use your Ooze buster on them. This will dissolve the oozes and you'll get a quest update. You need to do this 10 times and loot 8 Zeppelin Cargos at the same time.|M|53.0,56.0|
 C Secure the Cargo!|QID|11207|M|53.0,56.0|
 
 T Corrosion Prevention|QID|11174|N|Return to Moxie.|M|53.6,56.9|
@@ -106,7 +107,7 @@ A Delivery for Drazzit|QID|11208|M|53.6,56.9|
 
 K Apothecary Cylla|QID|11186|L|33115|N|East of you should be some mountains. Follow those mountains north/northwest until you reach a tauren camp called Direhorn Post. Kill 12 Grimtotems here (any). While killing them you'll stumble on an undead npc called Apothecary Cylla. (47.22,46.59) Kill her.|
 A Signs of Treachery?|QID|11186|U|33115|M|47.2,46.6|
-C Direhorn Raiders|QID|11156|N||M|46.59,47.34|
+C Direhorn Raiders|QID|11156|N|M|46.59,47.34|
 
 T The Grimtotem Weapon|QID|11169|N|Return to Tabetha's house.|M|46.1,57.2|
 T The Reagent Thief|QID|11173|M|46.1,57.2|

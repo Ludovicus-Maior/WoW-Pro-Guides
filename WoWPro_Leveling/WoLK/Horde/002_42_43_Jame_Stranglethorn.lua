@@ -1,11 +1,16 @@
-WoWPro_Leveling:RegisterGuide("JamStr4243", "Stranglethorn Vale", "Jame", "42", "43", "JamDus4344", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamStr4243", "Leveling", "Stranglethorn Vale", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Stranglethorn Vale")
+WoWPro:GuideName(guide, "Stranglethorn Vale")
+WoWPro:GuideNextGuide(guide, "JamDus4344")
+WoWPro:GuideLevels(guide, 42, 43)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Booty Bay |QID|595|N|Fly to Booty Bay. |
 A Akiris by the Bundle |QID|617|N|From Brivateer Bloads in front of the bank.  Check for any Strangelthorn pages you are missing in the auction house while you are here. |M|26.8,76.4|
 A Scaring Shaky |QID|606|N|From "Sea Wolf" MacKinley |M|27.8,77.1|
 A Stoley's Debt |QID|2872|N|From "Sea Wolf" MacKinley |M|27.8,77.1|
 A Stranglethorn Fever |QID|348|N|From Fin Fizracket who is under the broken boat. |M|27.6,76.7|
-A The Bloodsail Buccaneers (Part 1) |QID|595|N|From First Mate Crazz.| M|28.1,76.2|
+A The Bloodsail Buccaneers (Part 1) |QID|595|N|From First Mate Crazz.|M|28.1,76.2|
 T The Bloodsail Buccaneers (Part 1) |QID|595|N|You are looking for the Bloodsail Correspondence on a barrel in the pirate camp .|M|27.29,69.49|
 A The Bloodsail Buccaneers (Part 2) |QID|597|M|27.3,69.5|
 C Akiris by the Bundle |QID|617|L|4029 10|N|Kill Nagas for the reeds . |M|25,60|
@@ -28,7 +33,7 @@ A Keep An Eye Out |QID|576|N|Get this quest from Dizzy who is on the upper level
 C Keep An Eye Out |QID|576|N|Head out of Booty Bay and turn right. Along the shore, check two camps - one at (29,80) and the other at (27,82) - for the Bloodsail Charts and Orders. Then swim to the boat(33,88) and kill Brutus.M|31.9,78.6|
 C The Bloodsail Buccaneers (Part 4) |QID|604|N|Kill any remaining swashbucklers you need, while looting snuff. |M|29.6,80.9|
 C Up to Snuff |QID|587|N|Snuff can be found on any Bloodsail Buccaneers in the area. |M|33.0,75.0|
-R Booty Bay |QID|604|N||M|29.5,72.5|
+R Booty Bay |QID|604|N|M|29.5,72.5|
 
 T The Bloodsail Buccaneers (Part 4) |QID|604|M|27.2,76.9|
 A The Bloodsail Buccaneers (Part 5) |QID|608|M|27.2,76.9|

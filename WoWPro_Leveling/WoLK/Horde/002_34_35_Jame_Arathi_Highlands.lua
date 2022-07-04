@@ -1,8 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamAra3435", "Arathi Highlands", "Jame", "34", "35", "JamHil3535", "Horde", function()
-
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 7/12/2009
+local guide = WoWPro:RegisterGuide("JamAra3435", "Leveling", "Arathi Highlands", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Arathi Highlands")
+WoWPro:GuideName(guide, "Arathi Highlands")
+WoWPro:GuideNextGuide(guide, "JamHil3535")
+WoWPro:GuideLevels(guide, 34, 35)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 C The Hammer May Fall|QID|676|N|Stay on the road for a while until the location , north of that point you should see a mound with some ogres, this area is called Boulder' gor. Boulderfist Enforcers can only be found inside the cave, which can be entered from the east side of the mound.|M|30,50|

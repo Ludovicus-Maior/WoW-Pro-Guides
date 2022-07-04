@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamSea5252", "Searing Gorge", "Jame", "52", "52", "The Barrens", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamSea5252", "Leveling", "Searing Gorge", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Searing Gorge")
+WoWPro:GuideName(guide, "Searing Gorge")
+WoWPro:GuideNextGuide(guide, "The Barrens")
+WoWPro:GuideLevels(guide, 52, 52)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Kargath|QID|3441|
 R Searing Gorge|QID|3441|N|Head southwest out of the Badlands (0.2,63.4)|Z|Badlands|

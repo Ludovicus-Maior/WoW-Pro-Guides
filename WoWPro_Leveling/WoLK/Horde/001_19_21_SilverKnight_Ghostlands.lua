@@ -1,11 +1,16 @@
-WoWPro_Leveling:RegisterGuide("SilGho1921", "Ghostlands", "SilverKinght", "19", "21", "JamSto2122", "Horde", function()
+local guide = WoWPro:RegisterGuide("SilGho1921", "Leveling", "Ghostlands", "SilverKinght", "Horde", 3)
+WoWPro:GuideNickname(guide, "Ghostlands")
+WoWPro:GuideName(guide, "Ghostlands")
+WoWPro:GuideNextGuide(guide, "JamSto2122")
+WoWPro:GuideLevels(guide, 19, 21)
+WoWPro:GuideSteps(guide, function()
 return [[
 R Silvermoon City|QID|9151|N|Take the translocation orb to Silvermoon |M|55.24,11.32|
-f Silvermoon City|QID|9151|N||Z|Eversong Woods|M|54.41,50.80|
+f Silvermoon City|QID|9151|N|Z|Eversong Woods|M|54.41,50.80|
 R Ghostlands|QID|9151|N|Run south along the Dead Scar until you hit Ghostlands .|M|48.65,91.38|
-R Tranquillien|QID|9151|N||M|46.33,28.00|
-f Tranquillien|QID|9151|N||M|45.45,30.49|
-h Tranquillien|QID|9151|N||M|48.86,32.39|
+R Tranquillien|QID|9151|N|M|46.33,28.00|
+f Tranquillien|QID|9151|N|M|45.45,30.49|
+h Tranquillien|QID|9151|N|M|48.86,32.39|
 
 A Spinal Dust|QID|9218|
 A Rotting Hearts|QID|9216|
@@ -32,7 +37,7 @@ T The Traitor's Shadow|QID|9161|N|Fight your way to the top of Dawnstare Spire a
 A Hints of the Past|QID|9162|
 
 C Greed|QID|9491|C|Rogue|N|Start unlocking chests and burning trolls while going towards .|M|62.94,30.94|
-C Investigate the Amani Catacombs|QID|9193|U|22755|N||M|62.94,30.94|
+C Investigate the Amani Catacombs|QID|9193|U|22755|N|M|62.94,30.94|
 C Troll Juju|QID|9199|
 A Escape from the Catacombs|QID|9212|N|Speak with Ranger Lilathia .|M|62.90,32.69|
 C Escape from the Catacombs|QID|9212|N|She's a dumb little twit, so don't expect her to avoid aggroing a bunch of mobs while you're eating. Follow her back to the Farstrider Enclave.|
@@ -45,7 +50,7 @@ A Assault on Zeb'Nowa|QID|9277|
 
 C A Little Dash of Seasoning|QID|9275|N|Poison the Fresh Fish Rack at . Poison the Raw Meat Rack at (65.07,66.63). Poison the Smoked Meat Rack at (62.93,75.07).|M|68.29,57.74|
 C Assault on Zeb'Nowa|QID|9277|N|Kill Shadowpine Catlords and Shadowpine Hexxers .|M|66.82,58.28|
-C Shadowpine Weaponry|QID|9214|N||M|66.82,58.28|
+C Shadowpine Weaponry|QID|9214|N|M|66.82,58.28|
 C Bearers of the Plague|QID|9158|(66.82,58.28)|
 H Tranquillien|QID|9193|
 
@@ -96,7 +101,7 @@ T Shadowpine Weaponry|QID|9214|
 T A Little Dash of Seasoning|QID|9275|
 
 H Tranquillien|QID|1483|
-F Silvermoon City|QID|1483|N||M|45.46,30.46|
+F Silvermoon City|QID|1483|N|M|45.46,30.46|
 N Mount|QID|1483|R|Blood Elf|N|Since you are level 20 now, you can buy your first mount! I highly suggest doing this, since it will save you a ton of time. Head west outside of the city to train riding and purchase your new Hawkstrider. You will need 4 gold for training and 1 gold for a mount. |Z|Eversong Woods|M|61.0,54.7|
 R Undercity|QID|1483|N|Teleport to Undercity .|Z|Silvermoon City|M|49.49,14.80|
 N Mount|QID|1483|R|Undead|N|Since you are level 20 now, you can buy your first mount! I highly suggest doing this, since it will save you a ton of time. Head to Brill to train riding and purchase your new Skeletal Horse. You will need 4 gold for training and 1 gold for a mount. |Z|Tirisfal Glades|M|59.9,52.6|

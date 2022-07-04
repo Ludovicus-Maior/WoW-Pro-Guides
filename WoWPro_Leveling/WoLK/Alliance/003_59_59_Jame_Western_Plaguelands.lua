@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamWes5959", "Western Plaguelands", "Jame DK", "59", "59", "JamEas5960", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamWes5959", "Leveling", "Western Plaguelands", "Jame DK", "Alliance", 3)
+WoWPro:GuideNickname(guide, "Western Plaguelands")
+WoWPro:GuideName(guide, "Western Plaguelands")
+WoWPro:GuideNextGuide(guide, "JamEas5960")
+WoWPro:GuideLevels(guide, 59, 59)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Chillwind Camp|N|Flightmaster at |Z|Eastern Plaguelands|M|75.9,53.4|
 T Return to Chillwind Camp (Part 4)|QID|5226|M|42.9,84.5|
@@ -14,7 +19,7 @@ T A Strange Historian|QID|5153|N|Go back towards Chillwind Camp and take the oth
 A The Annals of Darrowshire|QID|5154|M|39.5,66.8|
 A A Matter of Time|QID|4971|M|39.5,66.8|
 
-C A Matter of Time|QID|4971|U||N|Go to the northern gate of Andorhal. East of the watch tower are wooden silos . Get close to a silo and use the horn. Kill the worms that spawn. The worms only appear if the silo is sparkly|Z|Eastern Plaguelands|M|45,62|
+C A Matter of Time|QID|4971|U|N|Go to the northern gate of Andorhal. East of the watch tower are wooden silos . Get close to a silo and use the horn. Kill the worms that spawn. The worms only appear if the silo is sparkly|Z|Eastern Plaguelands|M|45,62|
 T A Matter of Time|QID|4971|M|39.5,66.8|
 A Counting Out Time|QID|4972|M|39.5,66.8|
 

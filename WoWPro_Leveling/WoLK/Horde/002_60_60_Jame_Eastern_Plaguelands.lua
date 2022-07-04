@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamEas6060", "Eastern Plaguelands", "Jame", "60", "60", "JamWes6060", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamEas6060", "Leveling", "Eastern Plaguelands", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Eastern Plaguelands")
+WoWPro:GuideName(guide, "Eastern Plaguelands")
+WoWPro:GuideNextGuide(guide, "JamWes6060")
+WoWPro:GuideLevels(guide, 60, 60)
+WoWPro:GuideSteps(guide, function()
 return [[
 T Demon Dogs|QID|5542|N|Ride east until you hit Thondroril River, go north along the river bank, then cross the river so you are on the eastern bank and ride north until you find a house.|M|4.7,38.3|
 T Blood Tinged Skies|QID|5543|M|4.7,38.3|
@@ -17,7 +22,7 @@ C Of Forgotten Memories|QID|5781|N|This is the quest you may need help for. Righ
 T Of Forgotten Memories|QID|5781|
 A Of Lost Honor|QID|5845|
 
-F Light's Hope Chapel|QID|5210|N||Z|Western Plaguelands|M|69.26,49.66|
+F Light's Hope Chapel|QID|5210|N|Z|Western Plaguelands|M|69.26,49.66|
 T Brother Carlin|QID|5210|
 A Villains of Darrowshire|QID|5181|
 A Heroes of Darrowshire|QID|5168|
@@ -54,6 +59,6 @@ A The Corpulent One|QID|6136|
 T Of Lost Honor|QID|5845|
 A Of Love and Family (Part 1)|QID|5846|
 
-F Thondroril River|N||M|74.5,51.3|
+F Thondroril River|N|M|74.5,51.3|
 ]]
 end)

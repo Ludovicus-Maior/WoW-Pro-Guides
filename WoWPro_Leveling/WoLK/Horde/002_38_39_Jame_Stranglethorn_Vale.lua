@@ -1,8 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamStr3839", "Stranglethorn Vale", "Jame", "38", "39", "JamDus3940", "Horde", function()
-
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 7/12/2009
+local guide = WoWPro:RegisterGuide("JamStr3839", "Leveling", "Stranglethorn Vale", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Stranglethorn Vale")
+WoWPro:GuideName(guide, "Stranglethorn Vale")
+WoWPro:GuideNextGuide(guide, "JamDus3940")
+WoWPro:GuideLevels(guide, 38, 39)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Grom'Gol|QID|5763|N|Take the Zeppelin to Grom'gol base camp.|
@@ -25,7 +26,7 @@ C The Defense of Grom'gol (Part 1)|QID|568|
 
 C Tiger Mastery (Part 3)|QID|187|N|Move north to the Nesingwary's Expedition Camp, on your way you need to kill 10 Elder Stranglethorn Tigers .|M|31,19|
 T Tiger Mastery (Part 3)|QID|187|N|Move further north/northeast until Nesingwary's Expedition camp.|M|35.6,10.6|
-A Tiger Mastery (Part 4)|QID|188||M|35.6,10.6|
+A Tiger Mastery (Part 4)|QID|188|M|35.6,10.6|
 T Panther Mastery (Part 3)|QID|192|M|35.6,10.6|
 A Panther Mastery (Part 4)|QID|193|M|35.6,10.6|
 T Raptor Mastery (Part 2)|QID|195|M|35.6,10.6|

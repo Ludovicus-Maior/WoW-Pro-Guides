@@ -1,8 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamDes3738", "Desolace", "Jame", "37", "38", "JamStr3839", "Horde", function()
-
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 7/12/2009
+local guide = WoWPro:RegisterGuide("JamDes3738", "Leveling", "Desolace", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Desolace")
+WoWPro:GuideName(guide, "Desolace")
+WoWPro:GuideNextGuide(guide, "JamStr3839")
+WoWPro:GuideLevels(guide, 37, 38)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Sun Rock Retreat|QID|5361|

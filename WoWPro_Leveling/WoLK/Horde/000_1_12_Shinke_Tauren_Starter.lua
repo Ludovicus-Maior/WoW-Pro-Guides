@@ -1,10 +1,15 @@
-WoWPro_Leveling:RegisterGuide("ShiMul0112", "Mulgore", "Shinke", "01", "12","HosBar1224", "Horde", function()
+local guide = WoWPro:RegisterGuide("ShiMul0112", "Leveling", "Mulgore", "Shinke", "Horde", 3)
+WoWPro:GuideNickname(guide, "Mulgore")
+WoWPro:GuideName(guide, "Mulgore")
+WoWPro:GuideNextGuide(guide, "HosBar1224")
+WoWPro:GuideLevels(guide, 1, 12)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A The Hunt Begins |QID|747|N|Grull Hawkwind. (45,77) |M|45,77|
 C The Hunt Begins |QID|747|N|Just kill Plainstriders around the camp. (49,76) |M|49,76|
-T The Hunt Begins |QID|747|N|Grull Hawkwind. (45,77) |M| 45,77|
-A The Hunt Continues |QID|750|N|Grull Hawkwind. (45,77) |M| 45,77|
+T The Hunt Begins |QID|747|N|Grull Hawkwind. (45,77) |M|45,77|
+A The Hunt Continues |QID|750|N|Grull Hawkwind. (45,77) |M|45,77|
 
 A Etched Note |QID|3092|C|Hunter,Jäger,Jägerin|R|Tauren|
 A Rune-Inscribed Note |QID|3093|C|Shaman,Schamane,Schamanin|R|Tauren|
@@ -73,7 +78,7 @@ N Poison Water |QID|748|N|Start at (46.47,69.70) and kill all Prairie Wolves and
 C Sharing the Land |QID|745|N|Watch out for a rare mob called "Snagglespear", he will most likely kill you if aggro him. (48,71) Kill Palemane Tanners and Palemane Skinners until the camp is empty or you complete the respective objectives. Around (52,70) you will find the Palemane Poachers to complete Sharing the Land. On your way there kill everything you see for Poison Water. |M|52,70|
 C Poision Water |QID|748|N|When you have killed everything in the camp work your way towards (57.13,67.70) until you have completed Poison Water. If you're not finished yet, fight northwards (57,64.5) and then back to where we came from in the beginning.|R|Tauren |M|57.13,67.70|
 N Kyle's gone missing |QID|11129|L|33009|N|Also get the food for Kyle's gone missing, if you haven't already.|
-A The Ravaged Caravan (Part 1)|QID|749| 
+A The Ravaged Caravan (Part 1)|QID|749|
 T Poison Water |QID|748|R|Tauren|
 C Kyle's gone missing |QID|11129|N|Kyle's passing by here, when you see him, right click the Tender Strider Meat in your inventory to complete the Quest. (48.61,61.17) |M|48.61,61.17|
 A Winterhoof Cleansing |QID|754|R|Tauren|
@@ -150,10 +155,10 @@ T Heeding the Call |QID|5926|C|Druid,Druide,Druidin|R|Tauren|
 A Moonglade |QID|5922|C|Druid,Druide,Druidin|R|Tauren|
 T Moonglade |QID|5922|N|Use the "Teleport: Moonglade" Spell to get to Moonglade. |C|Druid,Druide,Druidin|R|Tauren|Z|Moonglade|
 A Great Bear Spirit |QID|5930|C|Druid,Druide,Druidin|R|Tauren|Z|Moonglade|
-C Great Bear Spirit |QID|5930|N|He can be found at (39,27).|C|Druid,Druide,Druidin|R|Tauren|Z|Moonglade||M|39,27|
+C Great Bear Spirit |QID|5930|N|He can be found at (39,27).|C|Druid,Druide,Druidin|R|Tauren|Z|Moonglade|M|39,27|
 T Great Bear Spirit |QID|5930|C|Druid,Druide,Druidin|R|Tauren|Z|Moonglade|
 A Back to Thunder Bluff |QID|5932|C|Druid,Druide,Druidin|R|Tauren|Z|Moonglade|
-F Thunder Bluff |QID|6002|N|Bunthen Plainswind. (44.25,45.95)|C|Druid,Druide,Druidin|R|Tauren|Z|Moonglade||M|44.25,45.95|
+F Thunder Bluff |QID|6002|N|Bunthen Plainswind. (44.25,45.95)|C|Druid,Druide,Druidin|R|Tauren|Z|Moonglade|M|44.25,45.95|
 T Back to Thunder Bluff |QID|5932|C|Druid,Druide,Druidin|R|Tauren|
 A Body and Heart |QID|6002|C|Druid,Druide,Druidin|R|Tauren|
 F Camp Taurajo |QID|6002|N|Tal (46.8,50.2)|C|Druid,Druide,Druidin|R|Tauren|Z|Thunder Bluff|M|46.8,50.2|
@@ -201,4 +206,3 @@ T Return to Jahan|QID|6364|R|Tauren|Z|The Barrens|
 
 ]]
 end)
-

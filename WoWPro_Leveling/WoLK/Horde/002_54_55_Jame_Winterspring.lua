@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamWin5455", "Winterspring", "Jame", "54", "55", "JamUng5556", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamWin5455", "Leveling", "Winterspring", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Winterspring")
+WoWPro:GuideName(guide, "Winterspring")
+WoWPro:GuideNextGuide(guide, "JamUng5556")
+WoWPro:GuideLevels(guide, 54, 55)
+WoWPro:GuideSteps(guide, function()
 return [[
 A Winterfall Activity|QID|8464|M|27.7,34.5|
 T It's a Secret to Everybody (Part 3)|QID|3908|M|31.3,45.2|
@@ -12,7 +17,7 @@ A Winterfall Firewater|QID|5083|U|12771|M|39.2,43.5|
 A Winterfall Ritual Totem|QID|8471|O|U|20742|
 
 R Everlook|QID|3783|N|Keep killing Ragged Owlbeasts. |M|61,38|
-f Everlook|QID|3783|N||M|60.5,36.3|
+f Everlook|QID|3783|N|M|60.5,36.3|
 A Are We There, Yeti? (Part 1)|QID|3783|M|60.9,37.6|
 N Bank|QID|4293|N|You can put the Felwood Slime Samples in the bank, we won't be needing them for a while.
 

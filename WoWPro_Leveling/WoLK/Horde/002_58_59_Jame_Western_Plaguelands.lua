@@ -1,9 +1,14 @@
-WoWPro_Leveling:RegisterGuide("JamWes5859", "Western Plaguelands", "Jame", "58", "59", "JamEas5959", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamWes5859", "Leveling", "Western Plaguelands", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Western Plaguelands")
+WoWPro:GuideName(guide, "Western Plaguelands")
+WoWPro:GuideNextGuide(guide, "JamEas5959")
+WoWPro:GuideLevels(guide, 58, 59)
+WoWPro:GuideSteps(guide, function()
 return [[
 H Undercity|QID|6029|U|6948|
 N Bank|QID|4808|N|Deposit Tinkee's Letter .|Z|Undercity|M|66.6,44.1|
 
-R The Bulwark|QID|6029|N||Z|Tirisfal Glades|M|83.2,70.6|
+R The Bulwark|QID|6029|N|Z|Tirisfal Glades|M|83.2,70.6|
 T The Everlook Report|QID|6029|M|83.2,68.5|
 T Argent Dawn Commision|QID|5401|L|12846|N|Accept/complete the next quest to get your Argent Dawn Commission.|
 A Scarlet Diversions|QID|5096|M|83.1,68.9|
@@ -24,7 +29,7 @@ K Cauldron Lord Bilemaw|QID|5229|L|13194|N|Clear the area and kill Cauldron Lord
 T Target: Felstone Field|QID|5229|M|37.0,57.2|
 A Return to the Bulwark (Part 1)|QID|5230|M|37.0,57.2|
 A Better Late Than Never (Part 1)|QID|5021|M|38.4,54.1|
-T Better Late Than Never (Part 1)|QID|5021|N||M|38.7,55.2|
+T Better Late Than Never (Part 1)|QID|5021|N|M|38.7,55.2|
 A Better Late Than Never (Part 2)|QID|5023|M|38.7,55.3|
 
 T Return to the Bulwark (Part 1)|QID|5230|M|83.0,71.9|
@@ -34,7 +39,7 @@ K Cauldron Lord Malvinious|QID|5231|L|13195|N|Clear the area and kill Cauldron L
 T Target: Dalson's Tears|QID|5231|M|46.2,52.5|
 A Return to the Bulwark (Part 2)|QID|5232|M|46.2,52.5|
 
-T Mrs. Dalson's Diary|QID|5058|N||M|47.8,50.7|
+T Mrs. Dalson's Diary|QID|5058|N|M|47.8,50.7|
 K Wandering Skeleton|QID|5060|L|12738|N|Look for a Wandering Skeleton, he roams around outside the house and barn, kill it and loot the key.|
 T Locked Away (Part 1)|QID|5059|
 K Farmer Dalson|QID|5060|L|12739|N|Kill Farmer Dalson when he comes out of the outhouse, and loot the key.|
@@ -86,7 +91,7 @@ A The Jeremiah Blues|QID|5049|M|69.8,43.1|
 T The Jeremiah Blues|QID|5049|M|67.6,44.1|
 A Good Luck Charm|QID|5050|M|67.6,44.1|
 
-F The Bulwark|QID|5234|N||Z|Undercity|M|63.5,48.7|
+F The Bulwark|QID|5234|N|Z|Undercity|M|63.5,48.7|
 T Return to the Bulwark (Part 3)|QID|5234|M|83.0,71.9|
 A Target: Gahrron's Withering|QID|5235|M|83.0,71.9|
 T The So-Called Mark of the Lightbringer|QID|9443|

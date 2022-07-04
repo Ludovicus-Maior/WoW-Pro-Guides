@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamWes6060", "Western Plaguelands", "Jame", "60", "60", "JamHel6063", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamWes6060", "Leveling", "Western Plaguelands", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Western Plaguelands")
+WoWPro:GuideName(guide, "Western Plaguelands")
+WoWPro:GuideNextGuide(guide, "JamHel6063")
+WoWPro:GuideLevels(guide, 60, 60)
+WoWPro:GuideSteps(guide, function()
 return [[
 N Redpath's Shield|QID|5168|QO|Redpath's Shield: 1/1|N|Loot Redpath's Shield in Gahrron’s Withering |M|63.8,57.2|
 C Heroes of Darrowshire|QID|5168|N|Loot Davil's Libramin Hearthglen's town hall. (45.7,34.6)(54.0,24.5)(47.2,20.5)(42.5,18.9)|M|49.8,42.8|
@@ -14,7 +19,7 @@ A A Plague Upon Thee (Part 3)|QID|6390|
 T Of Love and Family (Part 1)|QID|5846|
 N Stratholme?|QID|5848|N|If you are planning on going to Stratholme get the follow up, Of Love and Family.|
 
-F Light's Hope Chapel|QID|5168|N||M|69.26,49.66|
+F Light's Hope Chapel|QID|5168|N|M|69.26,49.66|
 T Heroes of Darrowshire|QID|5168|
 A Marauders of Darrowshire|QID|5206|
 
@@ -36,25 +41,25 @@ N Bank|QID|4987|L|12663|N|Get the following out of your bank:  Tinkee's Letter, 
 b Orgrimmar|QID|5802|
 N Thorium Bar x2|QID|5802|L|12359 2|N|Check the auction house and purchase two Thorium Bars.|
 
-F Everlook|QID|5163|N||Z|Orgrimmar|M|45.2,64.0|
+F Everlook|QID|5163|N|Z|Orgrimmar|M|45.2,64.0|
 T Are We There, Yeti? (Part 3)|QID|5163|M|60.9,37.6|
 T Felnok Steelspring|QID|4808|M|61.6,38.6|
 
-F Thunder Bluff|QID|4987|N||Z|Winterspring|M|60.5,36.3|
+F Thunder Bluff|QID|4987|N|Z|Winterspring|M|60.5,36.3|
 T Glyphed Oaken Branch|QID|4987|
 
-F Gadgetzan|QID|5514|N||Z|Thunder Bluff|M|46.8,50.2|
+F Gadgetzan|QID|5514|N|Z|Thunder Bluff|M|46.8,50.2|
 T Mold Rhymes With...|QID|5514|
 A Fire Plume Forged|QID|5802|
 
-F Marshal's Refuge|QID|5802|N||Z|Tanaris|M|51.6,25.5|
+F Marshal's Refuge|QID|5802|N|Z|Tanaris|M|51.6,25.5|
 C Fire Plume Forged|QID|5802|N|Ride south to the top of fire plume mountain, . Use the Skeleton Key Mold.|U|14644|Z|Un'Goro Crater|M|49,46|
 C Melding Influences|QID|4642|N|Look for a Primal Ooze in the area south of the mountain . When you find one, engage it and before killing it use the Encased Corrupt Ooze. You will release a little ooze which will merge with the Primal Ooze and create a Gargantuan Ooze. Kill it and loot the Merged Ooze Sample off it.|U|12288|Z|Un'Goro Crater|M|50,67|
 
 H Undercity|QID|4642|U|6948|
 T Melding Influences|QID|4642|
 
-F The Bulwark|QID|5234|N||Z|Undercity|M|63.5,48.7|
+F The Bulwark|QID|5234|N|Z|Undercity|M|63.5,48.7|
 T A Plague Upon Thee (Part 3)|QID|6390|
 T Fire Plume Forged|QID|5802|
 A Araj's Scarab|QID|5804|

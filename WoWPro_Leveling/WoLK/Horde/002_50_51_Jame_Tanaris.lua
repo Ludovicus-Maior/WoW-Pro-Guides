@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamTan5051", "Tanaris", "Jame", "50", "51", "JamFer5152", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamTan5051", "Leveling", "Tanaris", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Tanaris")
+WoWPro:GuideName(guide, "Tanaris")
+WoWPro:GuideNextGuide(guide, "JamFer5152")
+WoWPro:GuideLevels(guide, 50, 51)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 H Gadgetzan|QID|2641|U|6948|

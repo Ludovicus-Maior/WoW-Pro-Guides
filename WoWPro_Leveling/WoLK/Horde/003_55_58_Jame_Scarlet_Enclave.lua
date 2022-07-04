@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamSca5558", "The Scarlet Enclave", "Jame DK", "55", "58", "JamWDK5858", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamSca5558", "Leveling", "The Scarlet Enclave", "Jame DK", "Horde", 3)
+WoWPro:GuideNickname(guide, "The Scarlet Enclave")
+WoWPro:GuideName(guide, "The Scarlet Enclave")
+WoWPro:GuideNextGuide(guide, "JamWDK5858")
+WoWPro:GuideLevels(guide, 55, 58)
+WoWPro:GuideSteps(guide, function()
 return [[
 A In Service Of The Lich King |QID|12593|N|The Lich King|M|51.3,35.2|
 

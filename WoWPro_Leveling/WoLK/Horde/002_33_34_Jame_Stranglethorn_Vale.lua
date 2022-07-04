@@ -1,8 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamStr3334", "Stranglethorn Vale", "Jame", "33", "34", "JamHil3434", "Horde", function()
-
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 7/12/2009
+local guide = WoWPro:RegisterGuide("JamStr3334", "Leveling", "Stranglethorn Vale", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Stranglethorn Vale")
+WoWPro:GuideName(guide, "Stranglethorn Vale")
+WoWPro:GuideNextGuide(guide, "JamHil3434")
+WoWPro:GuideLevels(guide, 33, 34)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 b Booty Bay|QID|1180|

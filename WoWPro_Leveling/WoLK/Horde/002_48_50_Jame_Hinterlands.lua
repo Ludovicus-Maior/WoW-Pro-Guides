@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamHin4850", "The Hinterlands", "Jame", "48", "50", "JamTan5051", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamHin4850", "Leveling", "The Hinterlands", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "The Hinterlands")
+WoWPro:GuideName(guide, "The Hinterlands")
+WoWPro:GuideNextGuide(guide, "JamTan5051")
+WoWPro:GuideLevels(guide, 48, 50)
+WoWPro:GuideSteps(guide, function()
 return [[
 A Ripple Recovery (Part 1)|QID|649|N|Get this quest from Dran Droffers at Droffers and Son Salvage on the drag near the valley of honor. |M|59.5,36.8|
 T Ripple Recovery (Part 1) |QID|649|N|Turn around and turn this into Malton Droffers standing next to you. |M|59.5,36.8|
@@ -8,7 +13,7 @@ b Tirisfal Glades |QID|2995|N|Take the zeppelin to the Undercity. |
 A Lines of Communication |QID|2995|N|Get this quest from Oran Snakewrithe in a shop across from the Mage Quarter.|M|73.0,32.9|
 
 F Tarren Mill|QID|650|
-R The Hinterlands |QID|650|N| |Z|Hillsbrad Foothills|M|87,29|
+R The Hinterlands |QID|650|N|Z|Hillsbrad Foothills|M|87,29|
 T Ripple Recovery (Part 2) |QID|650|N|Turn this quest in to Gilveradin Sunchaser in Shindigger's camp.|M|26.7,48.6|
 A A Sticky Situation |QID|77|M|26.7,48.6|
 R The Overlook Cliffs |QID|626|N|Continue to the waterfall .|M|80.8,46.8|
@@ -27,8 +32,8 @@ A Message to the Wildhammer |QID|7841|M|79.4,79.1|
 A Cannibalistic Cousins |QID|7844|M|78.8,78.2|
 A Vilebranch Hooligans |QID|7839|M|77.5,80.3|
 
-C Gammerita, Mon! |QID|7816|N|Kill up to 15 other turtles while your looking for Gammerita. She roams between the waterfall  and Revantusk Village (77,77).| |M|81.8,49.8|
-C Snapjaws, Mon! |QID|7815|N|Kill Saltwater Snapjaws until you have 15. | |
+C Gammerita, Mon! |QID|7816|N|Kill up to 15 other turtles while your looking for Gammerita. She roams between the waterfall  and Revantusk Village (77,77).|M|81.8,49.8|
+C Snapjaws, Mon! |QID|7815|N|Kill Saltwater Snapjaws until you have 15. |
 N Quest log full? |QID|7815|N|Your quest log is pretty full at this point and you'll need space for one or two more quests in this run.  If space is a problem, return now to turn in the Gammerita and Snapjaws quests to make room. |
 
 R Shaol'watha |QID|7839|N|Ride to the path up the cliffs . Ride to Shaol'watha (73, 54), killing silvermane stalkers and howlers as you go.  Once there, look for Slagtree's Lost Tools.|M|77,61|
@@ -67,8 +72,8 @@ A Rescue OOX-09/HL! |QID|836|O|PRE|Find OOX-09/HL!|N|Right click on the homing r
 T Rescue OOX-09/HL! |QID|836|O|N|The chicken will mainly follow the road, let him attack first or he'll leave you behind.  You'll be hit by 2 parties of 3 ambushers. |
 
 R The Overlook Cliffs |QID|2742|N|Ride to the Waterfall and jump down again. |M|80,48|
-C Lard Lost His Lunch |QID|7840|N|Swim out to a small island.  Somewhere on the island you should find Lard's Picnic Basket . When you click the basket, 2 level 49 trolls will spawn. You don't have to kill both, just one is enough, they can all drop Lard's Lunch. | |M|84,41|
-T Rin'ji is Trapped! |QID|2742|N|Swim south back to the main land, after a little walk you should see another isle off shore, with a stone arch on top of it . Right click on the big tablet on the peak of the island to turn in this quest. | |M|86,59|
+C Lard Lost His Lunch |QID|7840|N|Swim out to a small island.  Somewhere on the island you should find Lard's Picnic Basket . When you click the basket, 2 level 49 trolls will spawn. You don't have to kill both, just one is enough, they can all drop Lard's Lunch. |M|84,41|
+T Rin'ji is Trapped! |QID|2742|N|Swim south back to the main land, after a little walk you should see another isle off shore, with a stone arch on top of it . Right click on the big tablet on the peak of the island to turn in this quest. |M|86,59|
 A Rin'ji's Secret |QID|2782|M|86.3,59.0|
 
 R Revantusk Village |QID|7839|N|Swim to shore and ride back to Revantusk Village . |M|77,77|
@@ -109,7 +114,7 @@ T Job Opening: Guard Captain of Revantusk Village |QID|7862|
 T Dark Vessels |QID|7850|
 
 F Undercity |QID|2995|N|Fly to the Undercity |
-T Lines of Communication |QID|2995|N|Head towards the Magic Quarter and turn the quest in to Oran Snakewrithe. | |M|73.0,32.9|
+T Lines of Communication |QID|2995|N|Head towards the Magic Quarter and turn the quest in to Oran Snakewrithe. |M|73.0,32.9|
 T Rin'ji's Secret |QID|2782|M|73.0,32.9|
 A Oran's Gratitude |QID|8273|N|Manually click off this step, it's one of those accept/complete in one quests.
 ]]

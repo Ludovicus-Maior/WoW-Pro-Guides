@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("ZerDur0112", "Durotar", "Zerinj", "01", "12", "HosBar1221", "Horde", function()
+local guide = WoWPro:RegisterGuide("ZerDur0112", "Leveling", "Durotar", "Zerinj", "Horde", 3)
+WoWPro:GuideNickname(guide, "Durotar")
+WoWPro:GuideName(guide, "Durotar")
+WoWPro:GuideNextGuide(guide, "HosBar1221")
+WoWPro:GuideLevels(guide, 1, 12)
+WoWPro:GuideSteps(guide, function()
 return [[
 A Your Place In The World|QID|4641|N|From the NPC in front of you.|M|43.3,68.6|
 T Your Place In The World|QID|4641|M|42.1,68.4|

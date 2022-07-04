@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("HosBar1221", "The Barrens", "Hosho", "12", "21", "JamSton2122", "Horde", function()
+local guide = WoWPro:RegisterGuide("HosBar1221", "Leveling", "The Barrens", "Hosho", "Horde", 3)
+WoWPro:GuideNickname(guide, "The Barrens")
+WoWPro:GuideName(guide, "The Barrens")
+WoWPro:GuideNextGuide(guide, "JamSton2122")
+WoWPro:GuideLevels(guide, 12, 21)
+WoWPro:GuideSteps(guide, function()
 return [[
 h The Crossroads|QID|844|M|52.0,29.9|
 A Raptor Thieves|QID|869|M|51.9,30.3|
@@ -197,10 +202,10 @@ A The Warsong Reports|QID|6543|
 R Ashenvale|QID|6548|N|Follow the road north until you reach Ashenvale.|M|48.1,2.1|
 R Splintertree Post|QID|6548|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.|Z|Ashenvale|M|71.1,67.5|
 N Warsong Scout Update|QID|6543|QO|Warsong Scout Update: 1/1|N|Open your stack of warsong reports, and give one of them to the guard with a Blue question mark over her head (71,68). Remember to give her only one, or you won't have enough to go around.|Z|Ashenvale|
-f Splintertree Post|QID|6548|N|Then head into Splintertree Post and get the flight path (73.2,61.6).||Z|Ashenvale|
+f Splintertree Post|QID|6548|N|Then head into Splintertree Post and get the flight path (73.2,61.6).|Z|Ashenvale|
 N Warsong Outrider Update|QID|6543|QO|Warsong Outrider Update: 1/1|N|Go to the second guard and get the Warsong Outrider Update. He patrols all along the road northeast of Splintertree (94,47).|Z|Ashenvale|
 R Zoram'gar Outpost|QID|6548|N|Get back to the junction, and follow the road all the way west to Zoram'gar Outpost (12,34), being very careful to avoid Astranaar, the major Alliance settlement in this zone.|Z|Ashenvale|
-N Warsong Runner Update|QID|6543|QO|Warsong Runner Update: 1/1||N|When you get there, hand out the last report (12.2,34.2).|Z|Ashenvale|
+N Warsong Runner Update|QID|6543|QO|Warsong Runner Update: 1/1|N|When you get there, hand out the last report (12.2,34.2).|Z|Ashenvale|
 f Zoram'gar Outpost|QID|6548|N|He's at (12.2,33.9)|Z|Ashenvale|
 F The Crossroads|QID|6548|
 
@@ -282,9 +287,9 @@ T Ishamuhale|QID|882|
 A Enraged Thunder Lizards|QID|907|
 
 C Enraged Thunder Lizards|QID|907|N|Head north to (46,50) and look for Lakota'mani. This is a named Thunder Lizard. He has a long-ish patrol route and a less than ideal respawn time, so you might not find him. If you do find him, kill him, and loot his hoof. This hoof starts a quest which is worth 1,300 exp. After you have killed him, or while you are looking for him, kill the Thunderheads in the area and loot their blood. Once you have 3 Thunder Lizard Bloods, head back to Camp Taurajo. (Don't worry if you don't find Lakota'mani, he isn't essential, and the 1.3k exp isn't really worth camping the area for.)|
-A Lakoto'mani|QID|883|U|5099||O|L|5099|
+A Lakoto'mani|QID|883|U|5099|O|L|5099|
 
-T Lakoto'mani|QID|883||O|
+T Lakoto'mani|QID|883|O|
 T Enraged Thunder Lizards|QID|907|N|Go back to Camp Taurajo.|
 A Cry of the Thunderhawk |QID|913|
 

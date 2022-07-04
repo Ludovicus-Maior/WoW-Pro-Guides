@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("ManTir0112", "Tirisfal Glades", "Manovan", "01", "12", "SnoGho1221", "Horde", function()
+local guide = WoWPro:RegisterGuide("ManTir0112", "Leveling", "Tirisfal Glades", "Manovan", "Horde", 3)
+WoWPro:GuideNickname(guide, "Tirisfal Glades")
+WoWPro:GuideName(guide, "Tirisfal Glades")
+WoWPro:GuideNextGuide(guide, "SnoGho1221")
+WoWPro:GuideLevels(guide, 1, 12)
+WoWPro:GuideSteps(guide, function()
 return [[
 A Rude Awakening |QID|363|R|Undead|N|From Undertaker Mordo outside. Go upstairs. |M|30.21,71.64|
 T Rude Awakening |QID|363|R|Undead|N|At Shadow Priest Sarvis in the chapel to the north.|M|30.8,66.2|
@@ -15,12 +20,12 @@ A Tainted Scroll |QID|3099|C|Warlock,Hexenmeister,Hexenmeisterin|M|30.8,66.2|
 A Rattling the Rattlecages |QID|3901|M|30.8,66.2|
 A The Damned |QID|376|N|From Novice Elreth .|M|30.85,66.05|
 
-T Encrypted Scroll |QID|3096|C|Rogue,Schurke,Schurkin| |N|Turn in your class quest in the bigger house across the chapel at David Trias.|M|32.5,65.7|
-T Glyphic Scroll |QID|3098|C|Mage,Magier,Magierin| |N|Turn in your class quest in the chapel at Isabella.|M|30.9,66.1|
-T Hallowed Scroll |QID|3097|C|Priest,Priester,Priesterin| |N|Turn in your class quest in the chapel at Dark Cleric Duesten.|M|31.1,66.0|
-T Simple Scroll|QID|3095|C|Warrior,Krieger,Kriegerin| |N|Go to the bigger house across the chapel at Dannal Stern.|M|32.7,65.6|
-T Tainted Scroll |QID|3099|C|Warlock,Hexenmeister,Hexenmeisterin| |N|Turn in your class quest in the chapel at Maximillion.|M|30.9,66.3|
-A Piercing the Veil |QID|1470|C|Warlock,Hexenmeister,Hexenmeisterin| |N|From Venya Marthand in the chapel .|M|30.98,66.41|
+T Encrypted Scroll |QID|3096|C|Rogue,Schurke,Schurkin|N|Turn in your class quest in the bigger house across the chapel at David Trias.|M|32.5,65.7|
+T Glyphic Scroll |QID|3098|C|Mage,Magier,Magierin|N|Turn in your class quest in the chapel at Isabella.|M|30.9,66.1|
+T Hallowed Scroll |QID|3097|C|Priest,Priester,Priesterin|N|Turn in your class quest in the chapel at Dark Cleric Duesten.|M|31.1,66.0|
+T Simple Scroll|QID|3095|C|Warrior,Krieger,Kriegerin|N|Go to the bigger house across the chapel at Dannal Stern.|M|32.7,65.6|
+T Tainted Scroll |QID|3099|C|Warlock,Hexenmeister,Hexenmeisterin|N|Turn in your class quest in the chapel at Maximillion.|M|30.9,66.3|
+A Piercing the Veil |QID|1470|C|Warlock,Hexenmeister,Hexenmeisterin|N|From Venya Marthand in the chapel .|M|30.98,66.41|
 
 C The Damned |QID|376|N|Kill Young Scavengers for Scavenger Paws and Duskbats for Duskbat Wings. If you run out of mobs to kill, go kill Rattlecage Skeletons to the east and wait for respawn.|M|31.7,58.7|
 C Rattling the Rattlecages |QID|3901|N|Kill Rattlecage Skeletons to the east.|
@@ -108,8 +113,8 @@ T Gordo's Task |QID|5481|N|North at Junior Apothecary Holland in the cemetary ar
 A Doom Weed |QID|5482|M|57.6,48.7|
 
 K Maggot Eye |QID|398|L|3635|N|He's north at the end of a field at . NOTE: Maggot Eye is level 10. Easiest way to kill him is to pull the mobs outside the house one at a time. If you're a caster: clear the field around the fence and pull him at max range. If you're melee: fight him inside the house. It shouldn't be too difficult at level 8. Loot Maggot Eye's Paw.|M|58.68,30.74|
-C A New Plague (Part 2) |QID|368| |N|The murlocs are north at The North Coast at .|M|59.64,29.94|
-C Doom Weed |QID|5482|N||M|55.91,41.19|
+C A New Plague (Part 2) |QID|368|N|The murlocs are north at The North Coast at .|M|59.64,29.94|
+C Doom Weed |QID|5482|N|M|55.91,41.19|
 C Graverobbers |QID|358|M|58.3,35.3|
 
 T Doom Weed |QID|5482|N|At Junior Apothecary Holland around .|M|57.67,48.96|
@@ -117,7 +122,7 @@ T Doom Weed |QID|5482|N|At Junior Apothecary Holland around .|M|57.67,48.96|
 R Agamand Mills |QID|362|N|Run north-west to Agamand Mills |M|45.62,41.87|
 K Devlin Agamand |QID|362|L|2831|N|Look for him around . Kill him and loot Devlin's Remains. NOTE: Devin Agamand is a melee fighter despite his appearance.|M|47.41,41.71|
 K Nissa Agamand |QID|354|L|2828|N|Find her in the house to the east at . Kill her and loot Nissa's Remains. NOTE: You will either find her in the doorway or inside the building. She might be tough for some classes so make sure you clear the area before you attack her.|M|49.35,36.02|
-K Gregor Agamand |QID|354|L|2829|N| Continue north-west to  where you should find Gregor Agamand. Kill him and loot Gregor's Remains. NOTE: He hits hard but should be soloable if you make sure to pull him alone.|M|45.78,29.40|
+K Gregor Agamand |QID|354|L|2829|N|Continue north-west to  where you should find Gregor Agamand. Kill him and loot Gregor's Remains. NOTE: He hits hard but should be soloable if you make sure to pull him alone.|M|45.78,29.40|
 K Thurman Agamand |QID|354|L|2830|N|Slightly south-west near a windmill you should find Thurman Agamand . Kill him and loot Thurman's Remains.|M|44.02,33.77|
 C The Mills Overrun |QID|426|N|Kill mobs here until you complete this quest.|M|48.4,42.1|
 H Gallows' End Tavern |QID|361|U|6948|N|Hearthstone back to Brill.|
@@ -157,10 +162,10 @@ N Things to do |QID|405|N|This is a good time to pick up a profession. Pick up C
 T The Prodigal Lich |QID|405|N|At Bethor Iceshard  in the Magic Quarter.|Z|Undercity|M|84.05,17.37|
 A The Lich's Identity |QID|357|M|84.0,18.0|
 T Speak with Anastasia |QID|1881|C|Mage,Magier,Magierin|N|At Anastasia Hartwell in the Magic Quarter .|Z|Undercity|M|85.13,10.07|
-A The Balnir Farmstead |QID|1882|C|Mage,Magier,Magierin| 
+A The Balnir Farmstead |QID|1882|C|Mage,Magier,Magierin|
 T Mennet Carkad |QID|1885|C|Rogue,Schurke,Schurkin|N|At Mennet Carkad in the Rogues Quarter .|Z|Undercity|M|83.51,69.10|
 A The Deathstalkers (Part 1) |QID|1886|C|Rogue,Schurke,Schurkin|
-T Halgar's Summons |QID|1478|C|Warlock,Hexenmeister,Hexenmeisterin|N| At Carendin Halgar in the Magic Quarter .|Z|Undercity|M|85.00,26.00|
+T Halgar's Summons |QID|1478|C|Warlock,Hexenmeister,Hexenmeisterin|N|At Carendin Halgar in the Magic Quarter .|Z|Undercity|M|85.00,26.00|
 A Creature of the Void |QID|1473|C|Warlock,Hexenmeister,Hexenmeisterin|M|85.1,26.0|
 
 C The Deathstalkers (Part 1) |QID|1886|C|Rogue,Schurke,Schurkin|N|Leave Undercity through the Sewers and take the road south to Silverpine Forest. Astor Hadren is patrolling the road. Defeat him, get Astor's Letter of Introduction.|
@@ -178,9 +183,9 @@ T The Deathstalkers (Part 4) |QID|1978|C|Rogue,Schurke,Schurkin|N|At Varimathras
 
 C Creature of the Void |QID|1473|C|Warlock,Hexenmeister,Hexenmeisterin|N|Leave Undercity through the Sewers. You'll end up at the Scarlet tower we were at before . Fight your way into the tower where you'll find Perrine's Chest. Loot Egalin's Grimoire.|M|53.01,65.76|
 T Creature of the Void |QID|1473|C|Warlock,Hexenmeister,Hexenmeisterin|N|Back in Undercity at Carendin Halgar .|Z|Undercity|M|85.00,26.00|
-A The Binding |QID|1471|C|Warlock,Hexenmeister,Hexenmeisterin| M|85.1,26.0|
-C The Binding |QID|1471|C|Warlock,Hexenmeister,Hexenmeisterin|N|Go into the circle and use the Runes of Summoning to summon a Voidwalker. Defeat it.| 
-T The Binding |QID|1471|C|Warlock,Hexenmeister,Hexenmeisterin| M|85.1,26.0|
+A The Binding |QID|1471|C|Warlock,Hexenmeister,Hexenmeisterin|M|85.1,26.0|
+C The Binding |QID|1471|C|Warlock,Hexenmeister,Hexenmeisterin|N|Go into the circle and use the Runes of Summoning to summon a Voidwalker. Defeat it.|
+T The Binding |QID|1471|C|Warlock,Hexenmeister,Hexenmeisterin|M|85.1,26.0|
 
 T Forsaken Duties |QID|359|N|Leave the Undercity. Follow the road north-east to Deathguard Linnea .|M|65.48,60.24|
 A Return to the Magistrate |QID|360|M|65.6,60.3|
@@ -203,7 +208,7 @@ A A New Plague (Part 4) |QID|492|M|59.4,52.4|
 T A New Plague (Part 4) |QID|492|N|At the dwarf in the basement of the inn. |M|61.93,51.40|
 
 T The Lich's Identity |QID|357|N|At Bethor Iceshard in the Magic Quarter, Undercity.|Z|Undercity|M|84.05,17.37|
-A Return the Book |QID|366| M|84.1,17.5|
+A Return the Book |QID|366|M|84.1,17.5|
 T The Balnir Farmstead |QID|1882|C|Mage,Magier,Magierin|N|At Anastasia Hartwell .|Z|Undercity|M|85,10|
 T Rear Guard Patrol |QID|356|N|Leave the Undercity and follow the road north-east to Deathguard Linnea .|Z|Tirisfal Glades|M|65.48,60.24|
 
@@ -226,7 +231,7 @@ N Corpse Hearth |QID|408|N|Die and rezz at Brill's graveyard. Close this step on
 
 T The Family Crypt |QID|408|N|At Magistrate Sevren in the town hall .|M|61.26,50.84|
 T A Letter Undelivered |QID|361|
-T Agamand Heirlooms |QID|1821|C|Warrior,Krieger,Kriegerin| |N|At Coleman Farthing in the inn .|M|61.71,52.31|
+T Agamand Heirlooms |QID|1821|C|Warrior,Krieger,Kriegerin|N|At Coleman Farthing in the inn .|M|61.71,52.31|
 A Heirloom Weapon |QID|1822|C|Warrior,Krieger,Kriegerin|
 T Heirloom Weapon |QID|1822|C|Warrior,Krieger,Kriegerin|
 A Delivery to Silverpine Forest |QID|445|N|From Apothecary Johaan . We won't complete that quest in this guide though.|M|59.44,52.39|

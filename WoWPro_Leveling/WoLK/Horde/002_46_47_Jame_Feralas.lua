@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamFer4647", "Feralas", "Jame", "46", "47", "JamTan4748", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamFer4647", "Leveling", "Feralas", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Feralas")
+WoWPro:GuideName(guide, "Feralas")
+WoWPro:GuideNextGuide(guide, "JamTan4748")
+WoWPro:GuideLevels(guide, 46, 47)
+WoWPro:GuideSteps(guide, function()
 return [[
 H Gadgetzan |QID|3121|U|6948|N|Note: Do NOT do this if you don't have the fightpath to Camp Mojache in Feralas yet!  Instead, run northwest through Thousand Needles to Feralas then on to Camp Mojache. |
 F Camp Mojache |QID|3121|N|Fly to Camp Mojache in Feralas. |

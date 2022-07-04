@@ -1,8 +1,9 @@
-WoWPro_Leveling:RegisterGuide("JamAra3537", "Arathi Highlands", "Jame", "35", "37", "JamDes3738", "Horde", function()
-
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 7/12/2009
+local guide = WoWPro:RegisterGuide("JamAra3537", "Leveling", "Arathi Highlands", "Jame", "Horde", 3)
+WoWPro:GuideNickname(guide, "Arathi Highlands")
+WoWPro:GuideName(guide, "Arathi Highlands")
+WoWPro:GuideNextGuide(guide, "JamDes3738")
+WoWPro:GuideLevels(guide, 35, 37)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Hammerfall|QID|677|

@@ -1,4 +1,9 @@
-WoWPro_Leveling:RegisterGuide("SilSil1619", "Silverpine Forest", "SilverKinght", "16", "19", "SilGho1921", "Horde", function()
+local guide = WoWPro:RegisterGuide("SilSil1619", "Leveling", "Silverpine Forest", "SilverKinght", "Horde", 3)
+WoWPro:GuideNickname(guide, "Silverpine Forest")
+WoWPro:GuideName(guide, "Silverpine Forest")
+WoWPro:GuideNextGuide(guide, "SilGho1921")
+WoWPro:GuideLevels(guide, 16, 19)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Orgrimmar|QID|264|
 R Undercity|QID|264|N|Take the zeppelin to Undercity.|
@@ -6,11 +11,11 @@ A Fenwick Thatros|QID|1998|C|Rogue|
 
 F The Sepulcher|QID|264|
 h The Sepulcher|QID|264|
-T Until Death Do Us Part|QID|264|N||M|44.14,42.57|
+T Until Death Do Us Part|QID|264|N|M|44.14,42.57|
 
 
-T The Decrepit Ferry|QID|438|N||M|58.47,34.78|
-C Fenwick Thatros|QID|1998|C|Rogue|N||M|59.44,34.25|
+T The Decrepit Ferry|QID|438|N|M|58.47,34.78|
+C Fenwick Thatros|QID|1998|C|Rogue|N|M|59.44,34.25|
 A Rot Hide Clues|QID|439|M|58.4,34.8|
 
 C Arugal's Folly (Part 2)|QID|423|N|Kill Moonrage Gluttons and Moonrage Darksouls .|M|54.28,47.59|
@@ -78,13 +83,13 @@ A Assault on Fenris Isle|QID|442|
 A Pyrewood Ambush|QID|452|N|Head to Pyrewood and kill everything in sight for Pyrewood Shackles.
 C Pyrewood Ambush|QID|452|N|It's a straight forward quest. It's a semi-gauntlet of mobs--first one, then two, then two waves of three. I ignored it last trip down here because a few classes (coughPriestscough) would probably get destroyed at a lower level due to the number of mobs. But it should be easily handled at 18.|
 T Pyrewood Ambush|QID|452|
-C Arugal's Folly (Part 4)|QID|99|N||M|45.34,73.63|
+C Arugal's Folly (Part 4)|QID|99|N|M|45.34,73.63|
 
 C A Husband's Revenge|QID|530|N|Head South --avoiding yet another Son of Arugal that likes to own you randomly--and find Valdred Moray pathing around the dozen or so NPCs near the Gilneas gate. It's difficult to get to Moray without clearing an area for him to walk into. The best way is to find a small group of two mobs and kill them. It's doubtful you can take two at once, so pick one off and run away until you drop combat to kill the other. Once that's done, wait for Moray to walk far enough away from other mobs to come solo, and used a ranged attack on him.|M|46.59,83.84|
 
 C Beren's Peril|QID|516|N|Head into the fairly secluded cave at  and kill six Ravenclaw Drudgers and Ravenclaw Guardians. Another quest where you'll have to be patient and grab mobs carefully from long range. Head North, when done.|M|60.66,72.84|
 
-C Tools of the Trade|QID|1999|C|Rogue|N||M|64.27,63.77|
+C Tools of the Trade|QID|1999|C|Rogue|N|M|64.27,63.77|
 C The Weaver|QID|480|N|Archmage Ataeric  by himself isn't ridiculously difficult--it's the dozen or so mobs outside of his run down shack that will make your life unhappy. It's yet another quest where you have to pick off mobs one at a time and hope one of the billion patrols don't suddenly decide to play "Kill the Lowbie Horde".|M|63.49,64.27|
 
 T Resting in Pieces|QID|460|N|Turn this quest in at the dirt pile with legs known as the Shallow Grave. |M|67.95,24.85|
