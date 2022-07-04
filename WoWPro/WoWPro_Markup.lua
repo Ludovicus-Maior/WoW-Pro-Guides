@@ -48,7 +48,7 @@ end
 RegisterMarkup("item", WoWPro.ExpandItem)
 
 function WoWPro.ExpandAch(ach, want_icon, want_text)
-    local id, name, _, _, _, _, _, _, _, icon = GetAchievementInfo(ach)
+    local id, name, _, _, _, _, _, _, _, icon = _G.GetAchievementInfo(ach)
     local expanded = ""
     if id then
         if want_icon then
