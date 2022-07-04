@@ -110,7 +110,8 @@ C Welcome to the Resistance|QID|55736|M|71.44,33.88|Z|1462;Mechagon Island|NC|N|
 T Welcome to the Resistance|QID|55736|M|74.09,36.92|Z|1462;Mechagon Island|N|To Prince Erazmin.|
 N Dailies|AVAILABLE|55609|N|you have now opened up dailies. There is no Emmisary quest for this faction, instead there are dailies. 3 to 4 will be available every day, starting with next reset. Enjoy!|LEAD|54086|
 N Elite Pet Battles|ACH|13625|N|The first time you do any of the elite pet battles, they will drop an item that will among other things reward 75 Rustbolt Resistance faction. So, if you are in a hurry to get that faction you may want to do those, if not, manually check them off in the guide. No strategies provided here, get those from Wowhead or Xu-Fu's or wherever you prefer. Guide contains only accept and turn of the item.|
-A Operation: Mechagon - The Mechoriginator|QID|55609|N|From Prince Erazmin. This is a dungeon quest.|REP|Rustbolt Resistance;2391;revered-exalted|
+A Operation: Mechagon - The Mechoriginator|QID|55609|N|From Prince Erazmin. This is a dungeon quest that you can weasel out of in the next step.|REP|Rustbolt Resistance;2391;revered-exalted|
+N Skipping Mechagon|ACTIVE|55609|N|Talk to Prince Erazmin right after accepting, and you can skip the quest!|QO|1|
 A Junkyard Tinkering and You|QID|55101|PRE|55736|M|71.26,32.64|Z|1462;Mechagon Island|N|From Pascal.|
 C Junkyard Tinkering and You|QID|55101|M|71.41,32.35|Z|1462;Mechagon Island|NC|N|Craft Scrap Grenades at Pascal-K1N6.|
 T Junkyard Tinkering and You|QID|55101|M|71.41,32.35|Z|1462;Mechagon Island|N|To Pascal.|
