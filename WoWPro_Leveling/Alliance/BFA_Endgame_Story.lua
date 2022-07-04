@@ -120,6 +120,12 @@ C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|2
 C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|21.43,56.54|SO|3;1<3|N|Run to Jainas 3rd mirror featuring Citizens of Theramore. After the dialog, click on Jaina's image.|
 C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|19.36,53.68|SO|4;1|N|Run up the hill to find the real Jaina. After the dialog featuring Daelin Proudmoore, click on Jaina. After cutscene prepare to fight Gorak Tul.|
 C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|19.49,53.69|SO|5|CHAT|N|After defeating Gorak Tul, talk with Jaina to teleport back to Proudmoore Keep.|
-T Thros, the Blighted Lands|QID|51445|M|44.76,62.78|Z|Boralus|N|To Katherine Proudmoore. After turning in this quest, you can accept the quest to do Siege of Boralus if you want, but the guide will end here.|
+T Thros, the Blighted Lands|QID|51445|M|44.76,62.78|Z|Boralus|N|To Katherine Proudmoore.|
+A Siege of Boralus: Lady Ashvane's Return|QID|52153|M|44.76,62.78|Z|Boralus|N|From Katherine Proudmoore. Yes, you need it for a Nation United.|PRE|51445|
+N Katherine Proudmoore|ACTIVE|52153|N|Talk to her right away, and choose skip the quest!|QO|1|
+T Siege of Boralus: Lady Ashvane's Return|QID|52153|M|68.17,21.99|Z|Boralus|N|To Taelia, in the Harbormaster's Office.|
+A A Nation United|QID|52151|M|68.05,22.17|Z|Boralus|N|From Genn Greymane.|PRE|52153|
+C Council Meeting|QID|52151|M|49.21,85.41|Z|Boralus|QO|1|N|Head over to Unity Square and listen in.|
+T A Nation United|QID|52151|M|49.30, 85.72|Z|Boralus|N|To Katherine Proudmoore.  You should now have [ach=12891/A Nation United]!|
 ]]
 end)
