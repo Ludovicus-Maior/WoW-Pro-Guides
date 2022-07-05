@@ -1,3 +1,35 @@
+# Release 9.2.5-A1 / 1.14.3-A2 / 2.5.4-A3
+## Bug Fixes
+* Added Markup support for [ach=12891/A Nation United] markdown.
+* Pahonix: Crash in debug messsage for unkown trades. Fixed.
+*  Hendo72: Hey!  Dispose stopped working. Fixed.
+
+## Guide Updates
+### Retail Leveling
+* Alliance: BFA Endgame
+* Horde: Exiles Reach, Goblin Intro
+* Neutral: Mecagon, Highmountain, Shaman Order Hall, Dread Wastes
+### Retail Dailies
+* Horde: Nothing
+* Neutral: Shattered Sun Offensive
+
+### Classic Leveling
+* Nothing
+### Classic Professions
+* Nothing
+
+### Burning Crusade Classic Leveling
+* Alliance: Nothing
+* Horde: Orc/Troll Intro, Horde Chapter 3, Azshara, Ungoro Crater, Burning Steppes
+### Burning Crusade Classic Dailies
+* Neutral: Shattered Sun Offensive
+### Burning Crusade Classic Professions
+* Nothing
+
+### WotLK
+* Legacy guides from last WoW-Pro 3.3.5 release converted to modern syntax!
+
+
 # Release 9.2.5-A0 / 1.14.3-A1 / 2.5.4-A2
 ## Bug Fixes
 * Make AutoCompleteQuestUpdate() and `QUEST_TURNED_IN` obey NOCACHE
