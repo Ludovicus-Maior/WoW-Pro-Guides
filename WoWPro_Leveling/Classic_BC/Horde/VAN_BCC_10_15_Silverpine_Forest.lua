@@ -63,7 +63,7 @@ A Supplying the Sepulcher|QID|6321|M|43.43,41.69|N|From Deathguard Podrig at the
 T Supplying the Sepulcher|QID|6321|M|45.62,42.60|N|To Karos Razok.|R|Undead|
 A Ride to the Undercity|QID|6323|M|45.62,42.60|N|From Karos Razok.|PRE|6321|R|Undead|
 F Undercity|ACTIVE|447|M|45.62,42.60|
-R The Apothecarium|ACTIVE|447^1359|M|52.27,49.93|N|Make your to The Apothecarium in the southwest corner of Undercity.
+R The Apothecarium|ACTIVE|447^1359|M|52.61,52.77|Z|1458;Undercity|N|Make your to The Apothecarium in the southwest corner of Undercity.
 T A Recipe For Death|QID|447|M|43.12,68.51;48.81,69.26|Z|Undercity|CC|N|Cross the bridge over the canal to the outer ring and make your way to the passage way leading to Master Apothecary Faranell.\n[color=FF0000]NOTE: [/color]Do not take the follow-up quest.|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|Undercity|N|To Apothecary Zinge.|
 A Sample for Helbrim|QID|1358|M|50.15,67.93|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
@@ -76,7 +76,7 @@ F The Sepulcher|ACTIVE|438|M|63.26,48.54|Z|Undercity|N|Fly back to The Sepulcher
 
 T Return to Podrig|QID|6324|M|43.43,41.69|N|To Deathguard Podrig at the Crypt entrance.|R|Undead|
 R North Tide's Hollow|ACTIVE|423|M|44.78,34.34|N|Exit the Sepulcher through the gap in the hills on the north side. Follow the hill down to the bottom.\n[color=FF0000]NOTE: [/color]This is a one way trip. You cannot climb back up this way.|
-C Arugal's Folly|QID|423|M|44.12,31.76|QO|1;2|N|Kill Moonrage Gluttons to loot the Glutton Shackles.\nKill Moonrage Darksouls to loot the Darksoul Shackles.\n[color=FF0000]NOTE: [/color]Keep an eye out for Son of Arugal, a lv 25 Elite that roams the area.|
+C Arugal's Folly|QID|423|M|44.12,31.76|QO|1;2|N|Kill Moonrage Gluttons to loot the Glutton Shackles.\nKill Moonrage Darksouls to loot the Darksoul Shackles.\n[color=FF0000]NOTE: [/color]Keep an eye out for Son of Arugal, a lv 20-25 Elite that roams the area.|
 R The Decrepit Ferry|ACTIVE|438|M|49.73,28.53;52.11,30.01;54.63,31.24|CC|N|Make your way to the bridge on the main road. Cross the bridge and follow the south shore east.\n[color=FF0000]NOTE: [/color]The mobs in this area (Hand of Ravenclaw) hit hard and they roam considerably.|
 T The Decrepit Ferry|QID|438|M|58.41,34.83|N|Drop into the water and follow the shoreline around to where the dock is. Click on the Decrepit Ferry to turn in the quest.|
 A Rot Hide Clues|QID|439|M|58.41,34.83|N|From the Decrepit Ferry.|PRE|438|

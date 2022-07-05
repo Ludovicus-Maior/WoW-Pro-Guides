@@ -370,7 +370,6 @@ T Doras the Wind Rider Master|QID|6385|M|45.12,63.89|Z|Orgrimmar|N|To Doras.|
 A Return to the Crossroads.|QID|6386|M|45.12,63.89|Z|Orgrimmar|N|From Doras.|PRE|6385|
 F Crossroads|ACTIVE|6386|M|45.12,63.89|Z|Orgrimmar|N|Fly to The Crossroads.|
 T Return to the Crossroads.|QID|6386|M|52.61,29.85|Z|The Barrens|N|To Zargh.|
-h The Crossroads|ACTIVE|844|M|52.00,29.96|Z|1413;The Barrens|N|At Innkeeper Boorand Plainswind.|R|Orc,Troll|
 
 F Orgrimmar|ACTIVE|844|M|51.50,30.33|Z|The Barrens|N|Fly to Orgrimmar.|
 b Tirisfal Glades|AVAILABLE|445|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|
