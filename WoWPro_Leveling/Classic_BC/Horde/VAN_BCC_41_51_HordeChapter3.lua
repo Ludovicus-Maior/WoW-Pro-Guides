@@ -4,7 +4,7 @@
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_HordeChapter3', 'Leveling', 'Stranglethorn Vale', 'WoW-Pro Team', 'Horde', 2)
 WoWPro:GuideName(guide, 'Horde Chapter 3')
 WoWPro:GuideLevels(guide, 40, 51, 42)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_UnGoro_Crater')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Azshara')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0.25,0.50,0.25,0.50})
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -821,8 +821,7 @@ F Gadgetzan|ACTIVE|3444^4494|M|63.09,37.16|Z|1413|
 A Super Sticky|QID|4504|M|51.57,26.76|Z|1446|N|From Tran'Rek.|
 T March of the Silithid|QID|4494|M|50.89,26.97|Z|1446|N|To Alchemist Pestlezugg.|
 A Bungle in the Jungle|QID|4496|M|50.89,26.97|Z|1446|N|From Alchemist Pestlezugg.|PRE|4494|
-R Broken Pillar|ACTIVE|3444|M|52.40,45.21|Z|1446|N|Go south to the Broken Pillar.|
-T The Stone Circle|QID|3444|M|52.71,45.92|Z|1446|N|To Marvon Rivetseeker.|
+
 
 ]]
 end)
