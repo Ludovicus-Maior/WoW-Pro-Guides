@@ -34,17 +34,18 @@ C Raptor Thieves|QID|869|L|5062 12|N|The Raptors can be found across the Barrens
 N Thunder Bluff & Camp Taurajo FPs|AVAILABLE|886|N|There is a quest in Thunder Bluff that is a lead-in to a chain we will be working on.\nBeing that we will want the flight paths to Thunder Bluff and Camp Taurajo at some point in time, now seems like the opportune time to do so.\nLace up those running shoes and away we go.\n[color=FF0000]NOTE: [/color]Check this step off to begin.|LEAD|870|TAXI|-Camp Taurajo^-Thunder Bluff|
 N Thunder Bluff & Camp Taurajo FPs|ACTIVE|870|N|Being that we will want the flight paths to Thunder Bluff and Camp Taurajo at some point in time, now seems like the opportune time to do so.\nLace up those running shoes and away we go.\n[color=FF0000]NOTE: [/color]Check this step off to begin.|TAXI|-Camp Taurajo,-Thunder Bluff|
 
-R Camp Taurajo|AVAILABLE|886|M|47.31,57.64;46.29,58.00|CC|N|Leave The Crossroads through the south gate and follow the road south-ish to Camp Taurajo.\nStick to the road unless you enjoy corpse running. There is only one graveyard in The Barrens and it's at The Crossroads.|TAXI|-Camp Taurajo|
-f Camp Taurajo|AVAILABLE|886|M|44.44,59.15|N|Get the flight path from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
 F Camp Taurajo|AVAILABLE|886|M|51.50,30.33|TAXI|Camp Taurajo,-Thunder Bluff|
+R Camp Taurajo|AVAILABLE|886|M|47.31,57.64;46.29,58.00|CC|N|Leave The Crossroads through the south gate and follow the road south-ish to Camp Taurajo.\nStick to the road unless you enjoy corpse running. There is only one graveyard in The Barrens and it's at The Crossroads.|TAXI|-Camp Taurajo|
+f Camp Taurajo|AVAILABLE|886|M|44.44,59.15|N|Get the flight path from Omusa Thunderhorn.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 F Thunder Bluff|AVAILABLE|886|M|44.44,59.15|LEAD|870|TAXI|Thunder Bluff|
+R Mulgore|AVAILABLE|886|M|68.35,60.68|Z|Mulgore|TAXI|-Thunder Bluff|
 R Thunder Bluff|AVAILABLE|886|M|68.35,60.68;51.25,58.96;46.76,51.95;37.16,31.89|CC|Z|Mulgore|TAXI|-Thunder Bluff|
 A The Barrens Oases|QID|886|M|78.57,28.57|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem on Elder Rise.|LEAD|870|
 f Thunder Bluff|QID|886|M|47.02,49.83|Z|Thunder Bluff|N|Get the flight point from Tal.|TAXI|-Thunder Bluff|
 F Crossroads|ACTIVE|886|M|47.02,49.83|Z|Thunder Bluff|
 
 R Thorn Hill|ACTIVE|871|M|53.57,24.46|N|Follow the road north out of Crossroads to the the small camp on the right.|
-K Disrupt The Attack|ACTIVE|871|QO|1;2;3|N|You'll find several camps in the area to the southeast containing the Razormane Quillboars.|
+K Disrupt The Attack|ACTIVE|871|QO|1;2;3|M|54.40,26.22|N|You'll find several camps in the area to the southeast containing the Razormane Quillboars.|
 C Plainstrider Menace|QID|844|M|54.04,23.55|L|5087 7|N|Finish KillIng Plainstriders for their beaks.|US|
 T Plainstrider Menace|QID|844|M|52.23,31.01|N|To Sergra Darkthorn in The Crossroads.|
 A The Zhevra|QID|845|M|52.23,31.01|N|From Sergra Darkthorn.|PRE|844|
