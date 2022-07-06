@@ -5,6 +5,7 @@ WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Burning_Steppes')
 WoWPro:GuideSteps(guide, function()
 return [[
 
+F Gadgetzan|ACTIVE|3444|N|Head to the nearest flightmaster and fly to Gadgetzan.|
 R Broken Pillar|ACTIVE|3444|M|52.40,45.21|Z|1446|N|Go south to the Broken Pillar.|
 T The Stone Circle|QID|3444|M|52.71,45.92|Z|1446|N|To Marvon Rivetseeker.|
 R Un'Goro Crater Border|AVAILABLE|4290|M|27.13,57.28|CC|Z|Tanaris|N|This guide starts in the southwest corner of Tanaris.|
