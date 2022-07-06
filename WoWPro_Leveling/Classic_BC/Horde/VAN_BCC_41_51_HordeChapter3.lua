@@ -36,11 +36,6 @@ return [[
 ; --- 1456 = Thunder Bluff
 ; --- 1458 = Undercity
 
-;transposed from http://www.wow-pro.com/leveling_guides/jame039s_horde_leveling_guide_chapter_iii_4151_old_version by Shen and Emmaleah 8/25/19
-;using the guides listed as starting points when possible.
-;on website, one place says 41-51 other says 40-51 ... maybe should cut a few quests and make it 41-51?
-;N This is a rough port and very BETA|
-
 ; --- Swamp of Sorrows
 N Grom'gol Base Camp (STV)|AVAILABLE|1418|N|[color=FF0000]NOTE: [/color]This guide starts in Grom'gol Base Camp (STV). Make your way there now if you're not.\nManually check this step off to continue.|
 R Duskwood|AVAILABLE|1418|M|44.53,87.82|Z|1431|N|Follow the road north to Duskwood.|
