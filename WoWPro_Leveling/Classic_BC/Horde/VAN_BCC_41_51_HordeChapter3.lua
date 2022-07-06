@@ -4,7 +4,7 @@
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_HordeChapter3', 'Leveling', 'Stranglethorn Vale', 'WoW-Pro Team', 'Horde', 2)
 WoWPro:GuideName(guide, 'Horde Chapter 3')
 WoWPro:GuideLevels(guide, 40, 51, 42)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Burning_Steppes')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_UnGoro_Crater')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0.25,0.50,0.25,0.50})
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -620,7 +620,7 @@ A Ripple Recovery|QID|649|M|59.49,36.56|Z|1454|N|From Dran Droffers at Droffers 
 T Ripple Recovery|QID|649|M|59.64,36.94|Z|1454|N|To Malton Droffers standing next to you.|
 A Ripple Recovery|QID|650|M|59.64,36.94|Z|1454|N|From Malton Doffers.|PRE|649|
 T A Grim Discovery|QID|2976|M|75.26,34.25|Z|1454|N|To Belgrom Rockmaul in the Valley of Honor.|
-A Betrayed.|QID|3504|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul.\n[color=FF0000]NOTE: [/color]This is an Azshara breadcrumb. Skip it if you plan on going to Un'goro instead.| ; == '.' added to break auto-accept - Hendo72
+A Betrayed|QID|3504|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul.\n[color=FF0000]NOTE: [/color]This is an Azshara breadcrumb.|
 T Zukk'ash Report|QID|7732|M|56.27,46.68|Z|1454|N|To Zilzibin Drumlore.\n[color=FF0000]NOTE: [/color]You can either go up the stairs on the east side of the Drag, or follow the 'stairs' behind Asoran's Market (across from Grommash Hold). He's in the building between the Herbalism trainer and the Cooking trainer.|
 
 ; -- Hinterlands (with a couple pit stops)
@@ -731,7 +731,7 @@ F Undercity|ACTIVE|2995|M|81.71,81.75|Z|1425|
 T Lines of Communication|QID|2995|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe in the Magic Quarter.|
 T Rin'ji's Secret|QID|2782|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe.|
 T Oran's Gratitude|QID|8273|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe.|
-A ... and a Batch of Ooze.|QID|4294|AVAILABLE|3504|M|47.45,73.36|Z|1458|N|From Chemist Fuely, in main room of The Apothecarium by the stairs.\n[color=FF0000]NOTE: [/color]This is an Un'goro quest. Skip this step if plan on going to Azshara instead.| ; == '.' breaks auto-accept - Hendo72
+A ... and a Batch of Ooze|QID|4294|M|47.45,73.36|Z|1458|N|From Chemist Fuely, in main room of The Apothecarium by the stairs.|
 b Durotar|ACTIVE|2641|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppelin back to Durotar.|
 R Orgrimmar|ACTIVE|2641|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|
 F Thunder Bluff|ACTIVE|2641|M|45.13,63.90|Z|1454|C|Druid|
@@ -805,10 +805,10 @@ h Orgrimmar|ACTIVE|32|M|54.10,68.38|Z|1454|N|&At Innkeeper Gryshka.|
 T Rise of the Silithid|QID|32|M|56.27,46.68|Z|1454|N|To Zilzibin Drumlore.\n[color=FF0000]NOTE: [/color]Go up the stairs on your left as you enter the Drag. He's in the building between the Herbalism trainer and the Cooking trainer.|
 A March of the Silithid|QID|4494|M|56.5,46.5|Z|1454|N|From Zilzibin Drumlore.|
 T Ripple Delivery|QID|81|M|59.49,36.56|Z|1454|N|To Dran Droffers at Droffers and Son Salvage, in the Drag near the Valley of Honor.|
-A Betrayed|QID|3504|AVAILABLE|4496|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul in the Valley of Honor.|
+A Betrayed|QID|3504|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul in the Valley of Honor.|
 F Ratchet|ACTIVE|580^3444^2767^836^648|M|45.13,63.90|Z|1454|
 C Marvon's Chest|QID|3444|M|62.50,38.55|Z|1413|L|10556|N|It's located outside by the front door of the hut near the dock.|
-A Volcanic Activity|QID|4502|ACTIVE|-3504|M|62.45,38.74|Z|1413|N|From Liv Rizzlefix (inside the hut).\n[color=FF0000]NOTE: [/color]This is an Un'goro quest. Skip this step if you plan on going to Azshara.|
+A Volcanic Activity|QID|4502|M|62.45,38.74|Z|1413|N|From Liv Rizzlefix (inside the hut).|
 b Booty Bay|ACTIVE|580|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|
 t Rescue OOX-22/FE!|QID|2767|M|28.36,76.35|Z|1434|N|To Oglethorpe Obnoticus.|
 t Rescue OOX-09/HL!|QID|836|M|28.36,76.35|Z|1434|N|To Oglethorpe Obnoticus.|
@@ -818,21 +818,11 @@ T An OOX of Your Own|QID|3721|M|28.36,76.35|Z|1434|N|To Oglethorpe Obnoticus.|
 T Whiskey Slim's Lost Grog|QID|580|M|27.13,77.45|Z|1434|N|To Whiskey Slim, in the Tavern.|
 b Ratchet|ACTIVE|3444^4494|M|25.87,73.12|Z|1434|
 F Gadgetzan|ACTIVE|3444^4494|M|63.09,37.16|Z|1413|
-A Super Sticky|QID|4504|ACTIVE|-3504|M|51.57,26.76|Z|1446|N|From Tran'Rek.\n[color=FF0000]NOTE: [/color]This is an Un'goro quest. Skip this step if you plan on going to Azshara.|
+A Super Sticky|QID|4504|M|51.57,26.76|Z|1446|N|From Tran'Rek.|
 T March of the Silithid|QID|4494|M|50.89,26.97|Z|1446|N|To Alchemist Pestlezugg.|
-A Bungle in the Jungle.|QID|4496|M|50.89,26.97|Z|1446|N|From Alchemist Pestlezugg.\n[color=FF0000]NOTE: [/color]This is an Un'goro breadcrumb. Skip it if you're going to Azshara instead.|PRE|4494| ; --- '.' added to break auto-accept - Hendo72
-N DO NOT DO THIS|ACTIVE|4496&3504|N|[color=FF0000]NOTE: [/color]By taking both breadcrumbs, this will cause the guide to not function properly.\nThe purpose of the 2 breadcrumbs is to provide a different approach to the same goal.\nPlease, abandon [color=90EE90]Betrayed[/color] if you are going to Un'goro Crater or [color=90EE90]Bungle in the Jungle[/color] if you are going to Azshara.\n\nManually check this step off to continue.\nA guide reset will be required because of this.|
-r Housekeeping|ACTIVE|3444&4496|N|Do what you need before you leave.\n[color=FF0000]NOTE: [/color]I suggest clearing your bags of stuff you won't need. Un'goro Crater (the next guide) has a number of collection quests before you return here.\nManually check this step off to continue.|
-r Housekeeping|ACTIVE|3444&3504|N|Do what you need before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A Bungle in the Jungle|QID|4496|M|50.89,26.97|Z|1446|N|From Alchemist Pestlezugg.|PRE|4494|
 R Broken Pillar|ACTIVE|3444|M|52.40,45.21|Z|1446|N|Go south to the Broken Pillar.|
 T The Stone Circle|QID|3444|M|52.71,45.92|Z|1446|N|To Marvon Rivetseeker.|
-R Gadgetzan|ACTIVE|-4496|M|52.50,27.90|Z|1446|
-N Azshara|AVAILABLE|3504&4496|N|You're missing the breadcrumb quest for Azshara. You'll be getting it now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-F Orgrimmar|AVAILABLE|3504&4496|M|51.60,25.44|Z|1446|
-A Betrayed|QID|3504|AVAILABLE|4496|M|75.26,34.25|Z|1454|N|From Belgrom Rockmaul.|
-F Splintertree Post|ACTIVE|3504|AVAILABLE|5535&4496|M|45.13,63.90|Z|1454|IZ|1454|
-N Azshara|ACTIVE|3504|AVAILABLE|5535&4496|N|You're now switching to the Azshara guide.|JUMP|Azshara|
-N Un'goro Crater|ACTIVE|3444|AVAILABLE|4289&4496|N|You're now switching to the Un'goro Crater guide.|JUMP|Un'goro Crater|
 
 ]]
 end)

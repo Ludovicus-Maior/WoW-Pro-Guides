@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Azshara', 'Leveling', 'Orgrimmar', 'Hendo72', 'Horde',2)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_Azshara', 'Leveling', 'Azshara', 'Hendo72', 'Horde',2)
 WoWPro:GuideName(guide,"Azshara")
 WoWPro:GuideLevels(guide,51, 53)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Burning_Steppes')
