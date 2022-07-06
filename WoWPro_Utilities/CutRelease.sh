@@ -1,8 +1,9 @@
 #!/bin/sh
 
-CLASSIC=(WoWPro WoWPro_Leveling WoWPro_Profession)
-BCC=(WoWPro WoWPro_Leveling WoWPro_Profession WoWPro_Dailies)
-RETAIL=(WoWPro WoWPro_Leveling WoWPro_Dailies WoWPro_Profession WoWPro_WorldEvents WoWPro_Achievements)
+VANILLA=(WoWPro WoWPro_Leveling WoWPro_Profession)
+TBC=(WoWPro WoWPro_Leveling WoWPro_Profession WoWPro_Dailies)
+WRATH=(WoWPro WoWPro_Leveling WoWPro_Profession WoWPro_Dailies)
+MAINLINE=(WoWPro WoWPro_Leveling WoWPro_Dailies WoWPro_Profession WoWPro_WorldEvents WoWPro_Achievements)
 TRIAL=(WoWPro WoWPro_Leveling)
 ZIP_EXTRA=""
 
@@ -12,23 +13,29 @@ if [ "$1" == "--dry" ] ; then
     shift
 fi
 
-# Only one argument --classic | --tbc | --retail
-if [ "$1" == "--classic" ] ; then
-    ADDON_DIRS=${CLASSIC[@]}
-    TOC_SUFFIX="-Classic"
-    ZIP_EXTRA="-classic"
+# Only one argument --vanilla | --tbc | --wrath| --mainline
+if [ "$1" == "--vanilla" ] ; then
+    ADDON_DIRS=${VANILLA[@]}
+    TOC_SUFFIX="_Vanilla"
+    ZIP_EXTRA="-vanilla"
     shift
 elif [ "$1" == "--tbc" ] ; then
-    ADDON_DIRS=${BCC[@]}
-    TOC_SUFFIX="-BCC"
-    ZIP_EXTRA="-bc"
+    ADDON_DIRS=${TBC[@]}
+    TOC_SUFFIX="_TBC"
+    ZIP_EXTRA="-tbc"
     shift
-elif [ "$1" == "--retail" ] ; then
-    ADDON_DIRS=${RETAIL[@]}
-    TOC_SUFFIX=""
+elif [ "$1" == "--wrath" ] ; then
+    ADDON_DIRS=${TBC[@]}
+    TOC_SUFFIX="_Wrath"
+    ZIP_EXTRA="-wrath"
+    shift
+elif [ "$1" == "--mainline" ] ; then
+    ADDON_DIRS=${MAINLINE[@]}
+    TOC_SUFFIX="_Mainline"
+    ZIP_EXTRA="-mainline"
     shift
 else
-    echo "One of [--classic | --tbc | --retail] must be provided"
+    echo "One of [--vanilla | --tbc | --wrath | --mainline] must be provided"
     exit 2
 fi
 
