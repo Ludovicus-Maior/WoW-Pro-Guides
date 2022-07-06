@@ -20,7 +20,7 @@
 
 ### Burning Crusade Classic Leveling
 * Alliance: Nothing
-* Horde: Orc/Troll Intro, Horde Chapter 3, Azshara, Ungoro Crater, Burning Steppes
+* Horde: Orc/Troll Intro, Horde Chapter 3, Azshara, Ungoro Crater, Burning Steppes, The Barrens, Silverpine
 ### Burning Crusade Classic Dailies
 * Neutral: Shattered Sun Offensive
 ### Burning Crusade Classic Professions
