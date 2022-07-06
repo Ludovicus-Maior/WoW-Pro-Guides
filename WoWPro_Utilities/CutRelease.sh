@@ -76,7 +76,7 @@ if [ "$1" != "--trial" ] ; then
     # echo '#' Moving $toc to ${toc}~
     mv ${toc} ${toc}~
     # echo "#" Editing  ${toc}
-    sed "s/## Version: ${crelease}/## Version: ${nrelease}/" < ${toc}~ > ${toc}
+    sed -E "s/## Version:\s+\d+\.\d+\.\d+-\w+\s*/## Version: ${nrelease}/" < ${toc}~ > ${toc}
     done
 else
     nrelease=${crelease}
