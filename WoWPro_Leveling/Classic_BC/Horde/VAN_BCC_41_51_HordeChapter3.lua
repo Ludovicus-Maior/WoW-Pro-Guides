@@ -4,7 +4,7 @@
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_HordeChapter3', 'Leveling', 'Stranglethorn Vale', 'WoW-Pro Team', 'Horde', 2)
 WoWPro:GuideName(guide, 'Horde Chapter 3')
 WoWPro:GuideLevels(guide, 40, 51, 42)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_UnGoro_Crater')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Azshara')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0.25,0.50,0.25,0.50})
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -35,17 +35,6 @@ return [[
 ; --- 1454 = Orgrimmar
 ; --- 1456 = Thunder Bluff
 ; --- 1458 = Undercity
-
-;transposed from http://www.wow-pro.com/leveling_guides/jame039s_horde_leveling_guide_chapter_iii_4151_old_version by Shen and Emmaleah 8/25/19
-;using the guides listed as starting points when possible.
-;on website, one place says 41-51 other says 40-51 ... maybe should cut a few quests and make it 41-51?
-;N This is a rough port and very BETA|
-
-; Hendo72- I will be commenting out steps I don't think we need in this guide. I am leaving them in just in case they are required.
-;;N Things to Buy|AVAILABLE|713^714^716|N|There are some items that you need to buy from the AH (or otherwise acquire) for a couple Badlands quest chains.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|3|
-;;B Frost Oil|AVAILABLE|713|L|3829|N|Crafted with Alchemy.|S!US|RANK|3|
-;;B Gyrochronatom|AVAILABLE|714|L|4389|N|Crafted with Engineering.|S!US|RANK|3|
-;;B Patterned Bronze Bracers|AVAILABLE|716|L|2868|N|Crafted with Blacksmithing.|S!US|RANK|3|
 
 ; --- Swamp of Sorrows
 N Grom'gol Base Camp (STV)|AVAILABLE|1418|N|[color=FF0000]NOTE: [/color]This guide starts in Grom'gol Base Camp (STV). Make your way there now if you're not.\nManually check this step off to continue.|
@@ -821,8 +810,6 @@ F Gadgetzan|ACTIVE|3444^4494|M|63.09,37.16|Z|1413|
 A Super Sticky|QID|4504|M|51.57,26.76|Z|1446|N|From Tran'Rek.|
 T March of the Silithid|QID|4494|M|50.89,26.97|Z|1446|N|To Alchemist Pestlezugg.|
 A Bungle in the Jungle|QID|4496|M|50.89,26.97|Z|1446|N|From Alchemist Pestlezugg.|PRE|4494|
-R Broken Pillar|ACTIVE|3444|M|52.40,45.21|Z|1446|N|Go south to the Broken Pillar.|
-T The Stone Circle|QID|3444|M|52.71,45.92|Z|1446|N|To Marvon Rivetseeker.|
 
 ]]
 end)
