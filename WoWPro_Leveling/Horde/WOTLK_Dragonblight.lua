@@ -463,14 +463,14 @@ T Mystery of the Infinite |QID|12470|N|To Chromie.|M|60.0,54.49|
 A Mystery of the Infinite, Redux |QID|13343|N|From Chromie.|M|60.0,54.49|
 T The Fate of the Ruby Dragonshrine |QID|12419|M|59.8,54.7|N|To Krasus.|
 T Informing the Queen |QID|12124|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
-A Report to Lord Afrasastrasz |QID|12435|PRE|12123^12124|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
+A Report to Lord Devrestrasz |QID|12435|PRE|12123^12124|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
 T On Ruby Wings |QID|12498|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
 A Return To Angrathar |QID|12500|M|59.8,54.7|PRE|12498|N|From Alexstrasza the Life-Binder.|
-T Report to Lord Afrasastrasz |QID|12435|N|Ask Torastrasza to fly you down to the middle floor. Turn the quest into Lord Afrasastrasz.|M|59.2,54.3|
-A Defending Wyrmrest Temple |QID|12372|PRE|12435|M|59.2,54.3|N|From Lord Afrasastrasz.|
+T Report to Lord Devrestrasz |QID|12435|N|Ask Torastrasza to fly you down to the middle floor. Turn the quest into Lord Devrestrasz.|M|59.2,54.3|
+A Defending Wyrmrest Temple |QID|12372|PRE|12435|M|59.2,54.3|N|From Lord Devrestrasz.|
 N Instructions |QID|12372|N|Go on the balcony and talk to a Wyrmrest Defender, click on the text and you'll ride it. Ability #1: Direct damage, use everytime it's up. Ability #2: DoT. Use it once at the start of a fight. Ability #3: Self heal. Ability #4: Use it to escape when you get attacked by several dragons at the same time. Ability #5: Go inside the big beam in the Azure Dragonshrine (just southwest of Wyrmrest Temple) and use it once. Fun quest, kill dragons. Not much else to say, it's rather easy, just escape and heal up if things get dangerous.|
 C Defending Wyrmrest Temple |QID|12372|N|This is a daily quest by the way, and you get an achievement if you finish it in under 2 minutes.|M|55.1,66.4|
-T Defending Wyrmrest Temple |QID|12372|N|Go back to Lord Afrasastrasz.|M|59.2,54.3|
+T Defending Wyrmrest Temple |QID|12372|N|Go back to Lord Devrestrasz.|M|59.2,54.3|
 C Mystery of the Infinite, Redux |QID|13343|U|37923|N|Right-click the Hourglass of Eternity from your inventory to start the event.|M|71.7,38.9|
 T Mystery of the Infinite, Redux |QID|13343|N|To Chromie.|M|60.0,54.49|
 H Agmar's Hammer|QID|12097|N|Hearth to Agmar's Hammer.|

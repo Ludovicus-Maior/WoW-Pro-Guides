@@ -1830,7 +1830,7 @@ T Fight and Flight|QID|59910|M|35.61,26.49|Z|1536;Maldraxxus|N|To Xandria.|COV|N
 A Justice from Above|QID|60043|PRE|59910|M|35.61,26.49|Z|1536;Maldraxxus|N|From Xandria.|COV|Necrolord|REN|13|
 A The Butchers of Bastion|QID|59916|PRE|59910|M|35.33,25.95|Z|1536;Maldraxxus|N|From Apolon.|COV|Necrolord|REN|13|
 C The Butchers of Bastion|QID|59916|M|33.66,22.95|Z|1536;Maldraxxus|N|Kill House of Constructs forces. If you group them up while you destroy a Maldracite Core it will instant kill them.|S|COV|Necrolord|
-A Dark Developments|QID|61396|PRE|59910|M|33.49,24.11|Z|1536;Maldraxxus|N|From Abhorrent Butcher.|COV|Necrolord|REN|13|
+A Dark Developments|QID|61396|PRE|59910|M|33.49,24.11|Z|1536;Maldraxxus|N|From Tattered Scroll.|COV|Necrolord|REN|13|
 C Justice from Above|QID|60043|M|31.50,23.82|Z|1536;Maldraxxus|NC|N|Click on Maldracite Core to mark them for Xandria to swoop doown and destroy them, also causing massive AoE damage to your enemies.|COV|Necrolord|
 C The Butchers of Bastion|QID|59916|M|33.66,22.95|Z|1536;Maldraxxus|N|Kill House of Constructs forces.|US|COV|Necrolord|
 T The Butchers of Bastion|QID|59916|M|35.32,25.95|Z|1536;Maldraxxus|N|To Apolon.|COV|Necrolord|
