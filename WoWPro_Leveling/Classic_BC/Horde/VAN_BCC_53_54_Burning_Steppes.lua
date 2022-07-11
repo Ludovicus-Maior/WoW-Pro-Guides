@@ -49,7 +49,7 @@ F Kargath|ACTIVE|4061|M|65.69,24.22|Z|1428;Burning Steppes|
 T The Rise of the Machines|QID|4061|M|3.02,47.81|Z|1418;Badlands|N|To Hierophant Theodora Mulvadania.|
 A The Rise of the Machines|QID|4062|M|3.02,47.81|Z|1418;Badlands|N|From Hierophant Theodora Mulvadania.|PRE|4061|
 T Krom'Grul|QID|3822|M|3.37,48.14|Z|1418;Badlands|N|To Thal'trak Proudtusk.\n[color=FF0000]NOTE: [/color]If he's not there, he's out on an 8 minute patrol with his entourage. Just wait for his return.|
-T The Rise of the Machines|QID|4062|ACTIVE|793|M|25.94,44.86|Z|1418;Badlands|N|To Lotwil Veriatus at his camp in The Dustbowl.|
+T The Rise of the Machines|QID|4062|M|25.94,44.86|Z|1418;Badlands|N|To Lotwil Veriatus at his camp in The Dustbowl.|
 H Orgrimmar|AVAILABLE|8460|N|If your hearth is not set to Orgrimmar, then make your way there.|C|-Druid|
 P Moonglade|AVAILABLE|8460|N|Use your portal to travel to Moonglade.|C|Druid|
 = Level 54|AVAILABLE|8460|N|Do your level 54 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|

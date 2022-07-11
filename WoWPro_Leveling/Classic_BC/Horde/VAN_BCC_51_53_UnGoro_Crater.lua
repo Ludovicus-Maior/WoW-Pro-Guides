@@ -11,9 +11,8 @@ T The Stone Circle|QID|3444|M|52.71,45.92|Z|1446|N|To Marvon Rivetseeker.|
 R Un'Goro Crater Border|AVAILABLE|4290|M|27.13,57.28|CC|Z|Tanaris|N|This guide starts in the southwest corner of Tanaris.|
 R Un'Goro Crater|AVAILABLE|4290|M|70.78,91.56|Z|Un'Goro Crater|N|Enter Un'Goro Crater.|IZ|-1449; Un'Goro Crater|
 l Colored Power Crystals|AVAILABLE|4284|QO|1;2;3;4|N|Collect 7 of each color.\n[color=FF0000]NOTE: [/color]Collecting these BEFORE you get to Marshal's Refuge will save time because you'll need them as part of an upcoming quest chain.\nThe spawn points for the crystals are set, but the color is random.|S!US|IZ|1449;Ungoro Crater|
-;A The Apes of Un'Goro|QID|4289|M|71.63,75.95|Z|Un'Goro Crater|N|From Torwa Pathfider, atop a hill just to the right at the bottom of the ramp.|
 A The Fare of Lar'korwi|QID|4290|M|71.63,75.95|Z|Un'Goro Crater|N|From Torwa Pathfider.|
-C Un'goro Soil|QID|4496|L|11018 5|N|These can be looted from the ground or by killing Un'Goro mobs.|S!US|IZ|1449;Ungoro Crater|
+C Un'goro Soil|ACTIVE|4496|AVAILABLE|3761|L|11018 25|N|These can be looted from the ground or by killing Un'Goro mobs.\n[color=FF0000]NOTE: [/color]You need 5 for your current quest and 20 more for a follow-up.|S|
 l A Mangled Journal|AVAILABLE|3884|L|11116|ITEM|11116|N|Any type of Raptor|S!US|IZ|1449; Un'Goro Crater|
 A Williden's Journal|QID|3884|N|Click on the Mangled Journal to start the quest.|U|11116|O|
 A It's a Secret to Everybody|QID|3844|M|62.96,68.55|Z|Un'Goro Crater|N|From the Wrecked Raft.|
@@ -43,19 +42,14 @@ A The Northern Pylon|QID|4285|M|41.92,2.70|Z|Un'Goro Crater|N|From J.D. Callie.|
 A The Eastern Pylon|QID|4287|M|41.92,2.70|Z|Un'Goro Crater|N|From J.D. Callie.|PRE|4284|
 A The Western Pylon|QID|4288|M|41.92,2.70|Z|Un'Goro Crater|N|From J.D. Callie.|PRE|4284|
 A Lost!|QID|4492|M|43.62,8.50|Z|Un'Goro Crater|N|From Spraggle Frock - Near the sign.|
-;A Beware of Pterrordax|QID|4501|M|43.53,8.43|Z|Un'Goro Crater|N|From the Wanted Poster on the sign.|
-;A Shizzle's Flyer|QID|4503|M|44.23,11.59|Z|Un'Goro Crater|N|From Shizzle, In Marshal's Refuge.|
 
 C Dinosaur Bone|ACTIVE|3882|L|11114 8|ITEM|11114|N|Diemetradons and Stegodons.\n[color=FF0000]NOTE: [/color]They can also be found on the ground in the southwest corner.\nThe Stegodons are Elites.|S|
-;l Shizzle's Flyer|ACTIVE|4503|QO|1;2|N|Looted from Diemetradons and Pterrordaxes around Un'Goro.|S|
 K Bloodpetal Flayers|ACTIVE|4145|M|56.90,23.66|Z|Un'Goro Crater|QO|3|N|Kill the Flayers in the area.|S|
 C Super Sticky Tar|QID|4504|M|49.70,21.86|Z|Un'Goro Crater|L|11834 12|ITEM|11834|N|Tar mobs around the Tar Pits|US|
 K Bloodpetal Flayers|ACTIVE|4145|M|56.90,23.66|Z|Un'Goro Crater|QO|3|N|Finish killing the Flayers in the area until you are done.|US|
 C Northern Crystal Pylon|ACTIVE|4285|M|57.8,13.9;56.46,12.48|CC|Z|Un'Goro Crater|QO|1|N|Make your way up the ramp to the  north and click on the Pylon to examine it.|NC|
 R Fungal Rock|ACTIVE|4243^4249|M|60.37,17.15|Z|Un'Goro Crater|N|Continue east to the next section.|
-;K The Apes of Un'Goro|ACTIVE|4289|M|66.87,14.97|Z|Un'Goro Crater|QO|1;2;3|N|Kill gorillas to loot the required pelts.|S|
 T Chasing A-Me 01|QID|4243|M|63.9,16.4;67.64,16.79|CC|Z|Un'Goro Crater|N|To A-Me 01, in the cavern on the right as you enter the cave.\n[color=FF0000]NOTE: [/color]If she's not here, someone is either on the escort quest or she is waiting to respawn.\ndDo not get the follow-up.|
-;K The Apes of Un'Goro|ACTIVE|4289|M|66.87,14.97|Z|Un'Goro Crater|QO|1;2;3|N|Finish killing gorillas to loot the pelts.\n[color=FF0000]NOTE: [/color]This can be done inside or outside of the cave.|US|
 K Bloodpetal Lashers/Threshers|ACTIVE|4145|M|67.07,30.84|Z|Un'Goro Crater|QO|1;4|N|Kill Bloodpetal Lashers and Threshers in this area until you are done.|S|
 C Crate of Food Stuff|QID|3881|M|68.54,36.54|Z|Un'Goro Crater|L|11113|N|Loot the Crate at the abandoned camp in the northeast section of the zone.|
 K Bloodpetal Lashers/Threshers|ACTIVE|4145|M|67.07,30.84|Z|Un'Goro Crater|QO|1;4|N|Kill Bloodpetal Lashers and Threshers in this area until you are done.|US|
@@ -68,57 +62,48 @@ T The Bait for Lar'korwi|QID|4292|M|71.63,75.95|Z|Un'Goro Crater|N|To Torwa Path
 * Torwa's Pouch|AVAILABLE|-4292|ACTIVE|-4292|N|You no longer need it.|U|11568|
 * Preserved Threshadon Meat|AVAILABLE|-4292|ACTIVE|-4292|N|If, for some reason, you still have it.|U|11569|
 * Preserved Pheromone Mixture|AVAILABLE|-4292|ACTIVE|-4292|N|If, for some reason, you still have it.|U|11570|
-;T The Apes of Un'Goro|QID|4289|M|71.63,75.95|Z|Un'Goro Crater|N|To Torwa Pathfinder.|
-;l Shizzle's Flyer|ACTIVE|4503|QO|1;2|N|Finish collecting your required Webbed Diemetradon/Pterrordax Scales.|US|
 K Gorishi Scent Gland|ACTIVE|4496|L|11837|ITEM|11837|N|Any Gorbishi bug|S|
 R The Slithering Scar|ACTIVE|3883^4496|M|50.86,77.29|Z|Un'Goro Crater|IZ|1449;Ungoro Crater|
 C Alien Ecology|QID|3883|M|48.97,85.03|Z|Un'Goro Crater|L|11131|N|Head down into the Hive and left into the big room. Use the vial in the center of the room.|U|11132|
 K Gorishi Scent Gland|ACTIVE|4496|L|11837|ITEM|11837|N|Any Gorbishi bug|US|
-;K Pterrordax|ACTIVE|4501|M|55.8,88.3;50.6,88.3;45.29,88.17|CC|Z|Un'Goro Crater|QO|1|N|Exit the hive and head south. There are 3 pathes leading up into separate locations the cliffs. You'll find them spread out through this area.|
-K Bloodpetal Trapper|ACTIVE|4145|M|67.07,30.84|Z|Un'Goro Crater|QO|2|N|Kill Bloodpetal Trappers as you find them.|S!US|IZ|1449;Ungoro Crater|
+K Bloodpetal Trapper|ACTIVE|4145|M|67.07,30.84|Z|Un'Goro Crater|QO|2|N|Kill Bloodpetal Trappers as you find them.|S|
 C Expedition Salvation|QID|3881|M|38.46,66.06|Z|Un'Goro Crater|L|11112|N|Loot the Research Equipment at the abandoned camp in Terror Run.|
-;K Frenzied Pterrordax|ACTIVE|4501|QO|2|N|You can find the Frenzied Pterrordaxes all over the west half of the zone, more towards the northwest part.|S|
 R Golakka Hot Springs|ACTIVE|4288|M|29.35,63.27|Z|Un'Goro Crater|N|Make your way west.\n[color=FF0000]NOTE: [/color]Keep on your toes because there are higher level mobs with elites mixed in.|
 C Western Crystal Pylon|QID|4288|M|25.1,61.2;23.76,59.20|CC|Z|Un'Goro Crater|N|Make your way up the ramp and click on the Pylon to examine it.|NC|
 A Finding the Source|QID|974|M|30.92,50.44|Z|Un'Goro Crater|N|From Krakle.\n[color=FF0000]NOTE: [/color]He is beside the big hill by the smaller water body.|
-;K Frenzied Pterrordax|ACTIVE|4501|M|27.15,42.07|Z|Un'Goro Crater|QO|2|N|You can find the Frenzied Pterrordaxes all over the west half of the zone, more towards the northwest part.|US|
 R Fire Plume Ridge|ACTIVE|974^4502|M|42.40,46.99|Z|Un'Goro Crater|N|Make your way to the volcano in the center of Un'Goro.|IZ|1449;Ungoro Crater|
 K Elementals|ACTIVE|4502|L|11829 9|ITEM|11829|N|Any type of fire Elemental|S|
 C Finding the Source|QID|974|M|48.4,50.1;48.0,46.7;49.62,45.65|CS|Z|Un'Goro Crater|N|At the volcano in the center of the zone. Use the thermometer at the "Hot Spot" at the top.\n[color=FF0000]NOTE: [/color]Stay out the lava pools.|U|12472|NC|
 T Lost!|QID|4492|M|51.90,49.85|N|To Ringo; inside the cave on the SOUTH side of the volcano.|
-;A A Little Help From My Friends|QID|4491|M|51.90,49.85|Z|Un'Goro Crater|ELITE|N|[color=80FF00]Timed Escort Quest:[/color]\nFrom Ringo.\n[color=FF0000]NOTE: [/color]If he's not here, then someone is one the quest or he's waiting to repawn.|PRE|4492|
-;A A Little Help From My Friends|QID|4491|M|51.90,49.85|Z|Un'Goro Crater|N|Go back to Ringo in the cave to restart it.\n[color=FF0000]NOTE: [/color]If he's not here, then someone is one the quest or he's waiting to repawn.|FAIL|
 K Elementals|ACTIVE|4502|L|11829 9|ITEM|11829|N|Any type of fire Elemental|US|
-C Dinosaur Bone|ACTIVE|3882|M|34.53,71.71|Z|Un'Goro Crater|L|11114 8|ITEM|11114|N|Diemetradons and Stegodons.\n[color=FF0000]NOTE: [/color]They can also be found on the ground in the southwest corner.\nThe Stegodons are Elites.|US|
-;C A Little Help From My Friends|QID|4491|M|43.79,8.38|Z|Un'Goro Crater|N|Lead Ringo back to Marshal's Refuge within 25 minutes.\n[color=FF0000]NOTE: [/color]Use the canteen on him if he faints and don't get too far ahead of him.|U|11804|NC|
-;T A Little Help From My Friends|QID|4491|M|43.62,8.50|Z|Un'Goro Crater|N|To Spraggle Frock.|
-;T Beware of Pterrordax|QID|4501|M|43.62,8.50|Z|Un'Goro Crater|N|To Spraggle Frock.|
-T Roll the Bones|QID|3882|M|43.50,7.43|Z|Un'Goro Crater|N|To Spark Nilminer.|
+T Finding the Source|QID|974|M|30.90,50.40|Z|Un'Goro Crater|N|To Krakle, over at the Hot Springs.|
+A The New Springs|QID|980|M|30.90,50.40|Z|Un'Goro Crater|N|From Krakle.|PRE|974|
+C Dinosaur Bone|ACTIVE|3882|M|34.53,71.71|Z|Un'Goro Crater|L|11114 8|ITEM|11114|N|Diemetradons and Stegodons.\n[color=FF0000]NOTE: [/color]They can also be found on the ground (which is a lot easier)m.\nThe Stegodons are Elites.|US|
+K Bloodpetal Trapper|ACTIVE|4145|M|33.53,42.37|Z|Un'Goro Crater|QO|2|N|Kill Bloodpetal Trappers as you find them.|US|
+C Un'Goro Slime Sample|QID|4294|M|34.33,30.24|Z|Un'Goro Crater|L|12235 30|ITEM|12235|N|Any type of Ooze\nKill the Oozes as you make your way around Un'Goro.\n[color=FF0000]NOTE: [/color]It's recommended you gather 30 of them.|US|
+R Marshal's Refuge|ACTIVE|3882|M|45.88,13.39|Z|Un'Goro Crater|TAXI|Cenarion Hold|
+R Silithus|ACTIVE|3882|M|29.3,22.4;29.13,10.26|CS|Z|Un'Goro Crater|N|Take the path in the northwest corner up and out of Un'Goro.\n[color=FF0000]NOTE: [/color]We're going to get the Silithus FP before we leave.|TAXI|-Cenarion Hold|
+R Silithus|ACTIVE|3882|M|86.21,11.60|Z|Silithus|N|Continue up the path and out of Un'Goro.|TAXI|-Cenarion Hold|
+R Cenarion Hold|ACTIVE|4496|M|51,39|Z|Silithus|N|Follow the road southwest.|TAXI|-Cenarion Hold|
+f Cenarion Hold|ACTIVE|4496|M|48.68,36.67|Z|Silithus|N|From Runk Windtamer.\n[color=FF0000]NOTE: [/color]Make sure you open the flight map to update the FP list.|
+F Marshal's Refuge|ACTIVE|3882|M|48.68,36.67|Z|Silithus|
 T Alien Ecology|QID|3883|M|43.89,7.23|Z|Un'Goro Crater|N|To Hol'anyee Marshall.|
 T Expedition Salvation|QID|3881|M|43.95,7.14|Z|Un'Goro Crater|N|To Williden Marshal.|
 T The Northern Pylon|QID|4285|M|41.92,2.70|Z|Un'Goro Crater|N|To J. D. Callie, inside the cave.|
 T The Eastern Pylon|QID|4287|M|41.92,2.70|Z|Un'Goro Crater|N|To J. D. Callie.|
-T The Western Pylon|QID|4288|M|41.92,2.70|Z|Un'Goro Crater|N|To J. D. Callie.|
+T The Western Pylon |QID|4288|M|41.92,2.70|Z|Un'Goro Crater|N|To J. D. Callie.| ; == Requires ' ' (space) to auto-complete - Hendo72
 A Making Sense of It|QID|4321|M|41.92,2.70|Z|Un'Goro Crater|N|From J. D. Callie.|PRE|4285&4287&4288|
 T Making Sense of It|QID|4321|M|41.92,2.70|Z|Un'Goro Crater|N|To J. D. Callie.|
+T Roll the Bones|QID|3882|M|43.50,7.43|Z|Un'Goro Crater|N|To Spark Nilminer, outside the cave.|
 T Larion and Muigin|QID|4145|M|45.55,8.72|Z|Un'Goro Crater|N|To Larion.|
 A Marvon's Workshop|QID|4147|M|45.55,8.72|Z|Un'Goro Crater|N|From Larion.|PRE|4145|
-;T Shizzle's Flyer|QID|4503|M|44.23,11.59|Z|Un'Goro Crater|N|To Shizzle.|
-T Finding the Source|QID|974|M|30.90,50.40|Z|Un'Goro Crater|N|To Krakle, over at the Hot Springs.|
-A The New Springs|QID|980|M|30.90,50.40|Z|Un'Goro Crater|N|From Krakle.|PRE|974|
-C Un'Goro Slime Sample|QID|4294|L|12235 30|ITEM|12235|N|Any type of Ooze\nKill the Oozes as you make your way around Un'Goro.\n[color=FF0000]NOTE: [/color]It's recommended you gather 30 of them.|US|
-R Marshal's Refuge|ACTIVE|4496|M|45.88,13.39|Z|Un'Goro Crater|TAXI|Cenarion Hold|IZ|1449;Ungoro Crater|
-F Gadgetzan|ACTIVE|4496|M|45.23,5.84|Z|Un'Goro Crater|N|At Gryfe.|TAXI|Cenarion Hold|IZ|1449;Ungoro Crater|
-R Silithus|ACTIVE|4496|M|29.3,22.4;29.72,10.23|CC|Z|Un'Goro Crater|N|Take the path in the northwest corner up and out of Un'Goro.\n[color=FF0000]NOTE: [/color]We're going to get the Silithus FP before we leave.|TAXI|-Cenarion Hold|
-R Silithus|ACTIVE|4496|M|86.21,11.60|Z|Silithus|N|Continue up the path and out of Un'Goro.|TAXI|-Cenarion Hold|
-R Cenarion Hold|ACTIVE|4496|M|51,39|Z|Silithus|N|Follow the road southwest.|TAXI|-Cenarion Hold|
-f Cenarion Hold|ACTIVE|4496|M|48.68,36.67|Z|Silithus|N|From Runk Windtamer.\n[color=FF0000]NOTE: [/color]Make sure you open the flight map to update the FP list.|
-F Gadgetzan|ACTIVE|4496|M|48.68,36.67|Z|Silithus|N|At Runk Windtamer.|IZ|1451;Silithus|
+C Un'goro Soil|ACTIVE|4496|AVAILABLE|3761|L|11018 25|N|Before you leave, finish looting these from the ground or by killing Un'Goro mobs.\n[color=FF0000]NOTE: [/color]You need 5 for your current quest and 20 more more for a follow-up.|S|
+F Gadgetzan|ACTIVE|4496|M|45.23,5.84|Z|Un'Goro Crater|
 T Bungle in the Jungle|QID|4496|M|50.89,26.96|Z|Tanaris|N|To Alchemist Pestlezugg.|
 T Super Sticky|QID|4504|M|51.57,26.76|Z|Tanaris|N|To Tran'rek.|
 
 F Thunder Bluff|AVAILABLE|3761|M|51.60,25.44|Z|Tanaris|
-A Assisting Arch Druid Runetotem|QID|3762|M|45.83,64.76|Z|Thunder Bluff|N|From Innkeeper Pala.|
+A Assisting Arch Druid Runetotem|QID|3762|M|45.83,64.76|Z|Thunder Bluff|N|From Innkeeper Pala.| ; == There are 3 variants of this quest - Hendo72
 T Assisting Arch Druid Runetotem|QID|3762|M|78.61,28.58|Z|Thunder Bluff|N|To Arch Druid Hamuul Runetotem; on Elder Rise.|
 A Un'Goro Soil|QID|3761|M|78.61,28.58|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem.|PRE|3762|
 T Un'Goro Soil|QID|3761|M|77.46,22.03|Z|Thunder Bluff|N|To Ghede; standing beside the dirt pile outside.|
