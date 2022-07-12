@@ -37,22 +37,23 @@ F Bloodvenom Post|ACTIVE|4505^6162|M|51.49,82.22|Z|Felwood|
 T Well of Corruption|QID|4505|M|34.21,52.34|Z|Felwood|N|To Winna Hazzard.|
 A Corrupted Sabers|QID|4506|M|34.21,52.34|Z|Felwood|N|From Winna Hazzard.|PRE|4505|
 T A Husband's Last Battle|QID|6162|M|34.80,52.73|Z|Felwood|N|To Dreka'Sur.|
-R Jaedenar|ACTIVE|5157|M|38.11,53.15|Z|Felwood|N|Follow the edge of the moutain to Jaedenar.|
-C Collection of the Corrupt Water|QID|5157|M|35.18,59.81|L|12907|N|Make your way to the moon well at the western end of Jaedenar and use the Empty Canteen to fill it.|U|12922|
-R Ruins of Constellas|ACTIVE|4506|M|43.20,70.40;42.44,69.52|CC|Z|Felwood|N|Exit Jaedenar and make your way south to the Ruins of Constellas.|
-C Corrupted Sabers|QID|4506|M|32.42,66.59|Z|Felwood|N|As you did earlier, make your way to the moonwell and use the cage to release Winna's kitten.\n[color=FF0000]NOTE: [/color]Once the kitten 'transforms', it becomes a temporary vanity pet that will follow you.|U|12565|
-R Bloodvenom Post|ACTIVE|4506|M|40.9,50.7;36.00,49.72|CC|Z|Felwood|N|Retrace your steps back to the main road and then to Bloodvenom Post.\n[color=FF0000]NOTE: [/color]If you die while the corrupted cat is following you, you will have to do the quest over again.|
-C Corrupted Cat|QID|4506|M|34.21,52.34|Z|Felwood|N|Speak with the cat to get the completion notification.\n[color=FF0000]NOTE: [/color]Do not hesitate too long as the cat will despawn shortly and you will have to do the quest again.|CHAT|
+R Jaedenar|ACTIVE|5157|M|38.11,53.15|Z|Felwood|QO|1|N|Follow the edge of the moutain to Jaedenar.|
+C Collection of the Corrupt Water|QID|5157|M|35.18,59.81|L|12907|N|Make your way to the moonwell at the western end of Jaedenar and use the Empty Canteen to fill it.|U|12922|
+R Ruins of Constellas|ACTIVE|4506|M|43.20,70.40;42.44,69.52|CS|Z|Felwood|N|Exit Jaedenar and make your way south to the Ruins of Constellas.|
+R Well of Corruption|ACTIVE|4506|M|32.42,66.59|CC|Z|Felwood|N|As you did earlier, make your way to the moonwell.\n[color=FF0000]NOTE: [/color]Clear as many mobs as you can on your way in to make it easier on your way out.|
+U Corrupted Sabers|QID|4506|M|32.42,66.59|Z|Felwood|N|Use the cage to release Winna's kitten.\n[color=FF0000]NOTE: [/color]Once the kitten 'transforms', it will follow you.|U|12565|O|
+R Bloodvenom Post|ACTIVE|4506|M|40.9,50.7;36.00,49.72|CC|Z|Felwood|N|Retrace your steps back to the main road and then to Bloodvenom Post.\n[color=FF0000]NOTE: [/color]If you or the Corrupted Kitten die, you'll have to abandon the quest and start over again.|
+C Corrupted Cat|QID|4506|M|34.21,52.34|Z|Felwood|N|Speak with the cat to get the completion notification.\n[color=FF0000]NOTE: [/color]If you wait too long, the cat will despawn and you'll have to do the quest again.|CHAT|
 T Corrupted Sabers|QID|4506|M|34.21,52.34|Z|Felwood|N|From Winna Hazzard.|
-R Bloodvenom Falls|ACTIVE|5156|M|40.94,50.40|Z|Felwood|N|Head to the main road and turn north. It's just to the other side of the intersection.|
-R Shatter Scar Vale|ACTIVE|5156|M|41.25,44.86|N|North side of the pool.|
-N Immolatus|ACTIVE|5156|N|Keep an eye out for him. He's a level 56 Elite rare that spawns and patrols in the area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Shatter Scar Vale|
+R Bloodvenom Falls|ACTIVE|5156|M|40.94,50.40|Z|Felwood|QO|1;2;3|N|Head to the main road and turn north. It's just to the other side of the intersection.|
+R Shatter Scar Vale|ACTIVE|5156|M|41.25,44.86|QO|1;2;3|N|North side of the pool.|
+N Immolatus|ACTIVE|5156|QO|3|N|Keep an eye out for him. He's a level 56 Elite rare that spawns and patrols in the area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 K Verifying the Corruption|ACTIVE|5156|M|42.42,40.57|Z|Felwood|QO|1;2|N|Kill the required Entropic mobs.|S|
 R Explore the craters|ACTIVE|5156|M|41.29,43.42|Z|Felwood|QO|3|N|Any crater will do.|
 K Verifying the Corruption|ACTIVE|5156|M|42.42,40.57|Z|Felwood|QO|1;2|N|Kill the required Entropic mobs.|US|
-R Irontree Woods|ACTIVE|4102|M|49.42,15.50|Z|Felwood|N|Back to the road and follow it north.|
+R Irontree Woods|ACTIVE|4102|M|49.42,15.50|Z|Felwood|QO|1|N|Back to the road and follow it north.|
 C Cleansing Felwood|QID|4102|M|56.59,18.71|Z|Felwood|L|11503 15|ITEM|11503|N|Any Warpwood mob\nYou'll find them in/outside of the Irontree Cavern.|S|
-R Irontree Cavern|ACTIVE|4102|M|55.81,17.28|Z|Felwood|N|[color=FF0000]NOTE: [/color]You can also continue along the road to avoid fighting if you want.|
+R Irontree Cavern|ACTIVE|4102|M|55.81,17.28|Z|Felwood|QO|1|N|[color=FF0000]NOTE: [/color]You can also continue along the road to avoid fighting if you want.|
 C Cleansing Felwood|QID|4102|M|56.59,18.71|Z|Felwood|L|11503 15|ITEM|11503|N|Any Warpwood mob\nYou'll find them in/outside of the Irontree Cavern.|US|
 R Timbermaw Hold|ACTIVE|8462|M|64.76,13.82|Z|Felwood|N|Head back to the road and follow it east/north.|
 T Speak to Nafien|QID|8462|M|64.77,8.12|N|To Nafien, at the end of the road.|
