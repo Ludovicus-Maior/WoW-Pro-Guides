@@ -476,15 +476,14 @@ T Nara Wildmane|QID|1490|M|75.65,31.63|Z|Thunder Bluff|N|To Nara Wildmane.|
 A Leaders of the Fang |QID|914|M|75.65,31.63|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Nara Wildmane.\n[color=FF0000]NOTE: [/color]Skip if you wish.|PRE|1490| ; --- breaks auto-accept
 N Wailing Caverns|ACTIVE|914|N|Having all of the quests for Wailing Cavern, now is a good time to look for a group for this instance.\nAs this guide is dungeon-free, we won't be completing those quests in this guide. Feel free to rejoin this guide when you are done.|
 
-F Orgrimmar|ACTIVE|3923|M|47.02,49.83|Z|Thunder Bluff|N|[color=FF0000]NOTE: [/color]No matter what class/race you are, you'll want to be in Orgrimmar at this point.|
-R Enter Orgrimmar|ACTIVE|3923|M|45.52,12.07|Z|Durotar|N|Enter Orgrimmar by the south entrance.|IZ|-1454|
+F Orgrimmar|ACTIVE|3923|N|[color=FF0000]NOTE: [/color]No matter what class/race you are, you'll want to be in Orgrimmar at this point.|
 R Valley of Honor|QID|3923|M|65.54,40.00|Z|Orgrimmar|
 T Rilli Greasygob|QID|3923|M|76.51,24.43|Z|Orgrimmar|N|Look for Rilli Greasygob inside Nogg's Machine Shop.|
 A Samophlange Manual|QID|3924|M|76.51,24.43|Z|Orgrimmar|N|From Rilli Greasygob.|PRE|3923|
 R Southfury River|ACTIVE|3924|N|Leave Orgrimmar through the west gate.|M|11.45,67.06|Z|Orgrimmar|IZ|1454|
 C Samophlange Manual Pages|ACTIVE|3924|L|11148 5|QO|1|N|Make your way to Boulder Lode Mine. Kill Venture Co. Enforcers and Overseers to collect the pages.|S|
 C Miner's Fortune|QID|896|L|5097|N|The Cat's Eye Emerald drops from one of the Venture Co. Enforcers or Overseers.|S|
-R Boulder Lode Mine|ACTIVE|3924|M|63.66,4.43;62.74,4.75|CC|QO|1|N|Make your way along the river until the path widens. At this point, there is a short cut up the side of the hill into Boulder Lode Mine.|
+R Boulder Lode Mine|ACTIVE|3924|M|62.74,4.75|QO|1|N|Make your way along the river until the path widens. At this point, there is a short cut up the side of the hill into Boulder Lode Mine.|
 K Boss Copperplug|ACTIVE|3924|M|59.99,4.13|L|11147|QO|1|N|At the back of the cave, you'll find Boss Copperplug. Kill him for the Manual Cover.|
 C Samophlange Manual Pages|QID|3924|L|11148 5|QO|1|N|Keep killing Enforcers and Overseers until you have 5 pages.|US|
 C Samophlange Manual|QID|3924|L|11149|N|Combine the cover and the pages together to make the manual.|U|11148|NC|
