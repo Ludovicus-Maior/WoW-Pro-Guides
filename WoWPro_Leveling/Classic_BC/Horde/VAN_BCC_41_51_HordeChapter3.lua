@@ -725,6 +725,7 @@ b Durotar|ACTIVE|2641|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppeli
 R Orgrimmar|ACTIVE|2641|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|
 F Thunder Bluff|ACTIVE|2641|M|45.13,63.90|Z|1454|C|Druid|
 = Level 50 Training|ACTIVE|2641|N|Train your lv 50 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A An Imp's Request|QID|8419|M|48.46,45.44|Z|1454|N|From Zevrost.\n[color=FF0000]NOTE: [/color]This starts a quest chain to earn some Warlock gear.\nThe chain ends in Sunken Temple, but you can do part of the chain for the exp.|C|Warlock|
 
 ; --- Tanaris
 F Gadgetzan|ACTIVE|2641|M|45.13,63.90|Z|1454|C|-Druid|
