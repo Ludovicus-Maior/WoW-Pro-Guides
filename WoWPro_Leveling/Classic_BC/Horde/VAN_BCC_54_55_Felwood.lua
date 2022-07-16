@@ -62,10 +62,12 @@ A The Wrong Stuff|QID|8421|M|41.55,45.00|Z|Felwood|N|From Impsy.|PRE|8419^8420|C
 K Verifying the Corruption|ACTIVE|5156|M|42.42,40.57|Z|Felwood|QO|1;2|N|Kill the required Entropic mobs.|S|
 R Explore the craters|ACTIVE|5156|M|41.29,43.42|Z|Felwood|QO|3|N|Any crater will do.|
 K Verifying the Corruption|ACTIVE|5156|M|42.42,40.57|Z|Felwood|QO|1;2|N|Kill the required Entropic mobs.|US|
+R Irontree Woods|ACTIVE|8421|M|61.36,38.84|Z|Felwood|QO|1|N|Back to the road and follow it north.|C|Warlock|
 R Irontree Woods|ACTIVE|4102|M|49.42,15.50|Z|Felwood|QO|1|N|Back to the road and follow it north.|
 C Cleansing Felwood|QID|4102|M|56.59,18.71|Z|Felwood|L|11503 15|ITEM|11503|N|Any Warpwood mob\nYou'll find them in/outside of the Irontree Cavern.|S|
+C Rotting Wood|QID|8421|M|49.70,19.61|Z|Felwood|L|20613 10|ITEM|20613|N|Any 'tree' mob in Irontree Woods\nJust keep looping around the lake until you're finished.\n[color=FF0000]NOTE: [/color]They are only around the lake, not up on the ridge.|C|Warlock|
 R Irontree Cavern|ACTIVE|4102|M|55.81,17.28|Z|Felwood|QO|1|N|[color=FF0000]NOTE: [/color]You can also continue along the road to avoid fighting if you want.|
-C Cleansing Felwood|QID|4102|M|56.59,18.71|Z|Felwood|L|11503 15|ITEM|11503|N|Any Warpwood mob\nYou'll find them in/outside of the Irontree Cavern.|US|C|Warlock|
+C Cleansing Felwood|QID|4102|M|56.59,18.71|Z|Felwood|L|11503 15|ITEM|11503|N|Any Warpwood mob\nYou'll find them in/outside of the Irontree Cavern.|US|
 R Timbermaw Hold|ACTIVE|8462|M|64.76,13.82|Z|Felwood|N|Head back to the road and follow it east/north.|
 T Speak to Nafien|QID|8462|M|64.77,8.12|N|To Nafien, at the end of the road.|
 A Deadwood of the North|QID|8461|M|64.77,8.12|N|From Nafien.|
