@@ -80,6 +80,6 @@ A Winterfall Activity|QID|8464|M|27.73,34.50|Z|Winterspring|N|From Salfa.|
 T The New Springs|QID|980|M|31.27,45.17|Z|Winterspring|N|To Donova Snowden at her camp, south of the main intersection.|
 A Strange Sources|QID|4842|M|31.27,45.17|Z|Winterspring|N|From Donova Snowden.|PRE|980|
 T It's a Secret to Everybody|QID|3908|M|31.27,45.17|Z|Winterspring|N|To Donova Snowden.|
-A Threat of the Winterfall|QID|5082|M|31.27,45.17|Z|Winterspring|N|From Donova Snowden.|
+A Threat of the Winterfall|QID|5082|M|31.27,45.17|Z|Winterspring|N|From Donova Snowden.\n[color=FF0000]NOTE: [/color]You don't need to follow her. She won't offer the quest until she comes back.|
 ]]
 end)
