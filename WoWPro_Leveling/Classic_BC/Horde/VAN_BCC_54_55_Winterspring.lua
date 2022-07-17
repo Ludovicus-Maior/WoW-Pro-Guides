@@ -19,6 +19,17 @@ A Chillwind Horns|QID|4809|M|61.63,38.61|Z|Winterspring|N|From Felnok Steelsprin
 C Chillwind Horns|QID|4809|M|66.00,29.00|Z|Winterspring|L|12444 8|N|Loot these by killing Chimera.|S|
 C Are We There, Yeti?|QID|3783|M|61,38|Z|Winterspring|L|12366 10|N|Loot these by killing Ice Whistle Yetis.|S|
 f Everlook|ACTIVE|5054|M|60.47,36.30|Z|Winterspring|N|At Yugrek, outside Everlook on the northwest side.|
+F Shadowprey Village|ACTIVE|3909|M|60.47,36.30|Z|Winterspring|QO|1|
+R Ferelas|ACTIVE|3909|M|44.98,2.37|Z|1444|QO|1|N|Head south around Gelkis Village. The run should be uneventful with grey mobs.|
+l Evoroot|ACTIVE|3909|AVAILABLE|4041|M|44.6,9.8;44.55,10.17|CS|Z|1444|L|11242|N|Save time by picking it up now. It's in the ruins just to the west of the road.\n[color=FF0000]NOTE: [/color]If the front entrance is sealed, go around back to the southeast corner and use some fancy jumping and maneuvering to get over the collapsed wall. It's easier if you do it while mounted.\nSkip this step if you give up.|
+R Gregan Brewspewer's Camp|ACTIVE|3909|M|47.79,24.54;45.12,25.19|CC|Z|1444|N|Continue south along the road looking for the westerly path.\n[color=FF0000]NOTE: [/color]You've been here before.|
+A The Videre Elixir|QID|4041|ACTIVE|3909|M|45.12,25.57|Z|1444|N|From Gregan Brewspewer.|
+B Bait|ACTIVE|4041&3909|M|45.12,25.57|Z|1444|L|11141|N|From Gregan Brewspewer.\n[color=FF0000]NOTE: [/color]Buy this only if don't want to try and jump over the wall at the ruins. Skip this step if you don't want to buy it.|
+R Ruins of Ravenwind|ACTIVE|4041&3909|M|45.85,12.19|Z|1444|L|11242|N|Because you didn't get the Evoroot earlier, you have to go back and get it now.|
+U Bait|ACTIVE|4041&3909|M|44.62,10.50|Z|1444|N|Use the bait to distract Miblon Snarltooth and reveal the front entrance.|U|11141|O|
+C Evoroot|ACTIVE|4041&3909|M|44.55,10.17|Z|1444|L|11242|N|Enter through the front door, or the secret rear entrance (as described earlier) and loot one from the ground.|
+T The Videre Elixir|QID|4041|ACTIVE|3909|M|45.12,25.57|Z|1444|L|11243|N|To Gregan Brewspewer.\n[color=FF0000]NOTE: [/color]This quest is repeatable if you find you need more.|
+H Everlook|ACTIVE|3909|M|61.36,38.38|Z|Winterspring|IZ|-Winterspring|
 K Ursius of the Shardtooth|ACTIVE|5054|M|62.8,29.3|Z|Winterspring|QO|1|N|He's a lv 56 whte bear that appears somewhere in area north of Everlook.[color=FF0000]NOTE: [/color]Work on your stickies while you search.|T|Ursius|
 T Ursius of the Shardtooth|QID|5054|M|61.93,38.38|Z|Winterspring|N|To Storm Shadowhoof back in Winterspring.|
 A Brumeran of the Chillwind|QID|5055|M|61.93,38.38|Z|Winterspring|N|From Storm Shadowhoof.|PRE|5054|
