@@ -21,7 +21,7 @@ A Well of Corruption|QID|4505|M|34.20,52.34|Z|Felwood|N|From Winna Hazzard.|
 A Wild Guardians|QID|4521|M|34.73,52.79|Z|Felwood|N|From Trull Failbane.|
 A A Husband's Last Battle|QID|6162|M|34.80,52.72|Z|Felwood|N|From Dreka'Sur.|
 l Felcloth|ACTIVE|8419|L|14256 1|ITEM|14256|N|Any Jadefire Mob.\nIt also drops from several named demons around Felwood.\n[color=FF0000]NOTE: [/color]Drop rate is <10%.|S|C|WARLOCK|
-l Felcloth|ACTIVE|-8419|AVAILABLE|8420|L|14256 1|ITEM|14256|N|Any Jadefire Mob.\nIt also drops from several named demons around Felwood.\n[color=FF0000]NOTE: [/color]Drop rate is <10%.|S|C|WARLOCK|
+l Felcloth|ACTIVE|-8419|AVAILABLE|8421|L|14256 1|ITEM|14256|N|Any Jadefire Mob.\nIt also drops from several named demons around Felwood.\n[color=FF0000]NOTE: [/color]Drop rate is <10%.|S|C|WARLOCK|
 R Jaedenar|ACTIVE|5155|M|38.11,53.15|Z|Felwood|N|Follow the edge of the moutain to Jaedenar.|
 K Forces of Jaedenar|ACTIVE|5155|M|34.76,59.84|Z|Felwood|QO|1;2;3;4|N|Kill the required Jaedenar mobs.|
 R Ruins of Constellas|ACTIVE|4505|M|43.2,70.4;42.44,69.52|CC|Z|Felwood|N|Return to the main road and follow it south until you see the green pool. Follow the trail down into the Ruins.|
@@ -45,7 +45,7 @@ R Ruins of Constellas|ACTIVE|4506|M|43.20,70.40;42.44,69.52|CS|Z|Felwood|N|Exit 
 R Well of Corruption|ACTIVE|4506|M|32.42,66.59|CC|Z|Felwood|N|As you did earlier, make your way to the moonwell.\n[color=FF0000]NOTE: [/color]Clear as many mobs as you can on your way in to make it easier on your way out.|
 U Corrupted Kitten|ACTIVE|4506|M|32.42,66.59|Z|Felwood|L|-12535|N|Use the cage to release Winna's kitten.\n[color=FF0000]NOTE: [/color]Once the kitten 'transforms', it will follow you.|U|12565|O|
 l Felcloth|ACTIVE|8419|L|14256 1|ITEM|14256|N|Any Jadefire Mob.\nIt also drops from several named demons around Felwood.\n[color=FF0000]NOTE: [/color]Drop rate is <10%.|US|C|WARLOCK|
-l Felcloth|ACTIVE|-8419|AVAILABLE|8420|L|14256 1|ITEM|14256|N|Any Jadefire Mob.\nIt also drops from several named demons around Felwood.\n[color=FF0000]NOTE: [/color]Drop rate is <10%.|US|C|WARLOCK|
+l Felcloth|ACTIVE|-8419|AVAILABLE|8421|L|14256 1|ITEM|14256|N|Any Jadefire Mob.\nIt also drops from several named demons around Felwood.\n[color=FF0000]NOTE: [/color]Drop rate is <10%.|US|C|WARLOCK|
 R Bloodvenom Post|ACTIVE|4506|M|40.9,50.7;36.00,49.72|CC|Z|Felwood|N|Retrace your steps back to the main road and then to Bloodvenom Post.\n[color=FF0000]NOTE: [/color]If you or the Corrupted Kitten die, you'll have to abandon the quest and start over again.|
 C Corrupted Sabers|QID|4506|M|34.21,52.34|Z|Felwood|N|Speak with the cat to get the completion notification.\n[color=FF0000]NOTE: [/color]If you wait too long, the cat will despawn and you'll have to do the quest again.|CHAT|
 T Corrupted Sabers|QID|4506|M|34.21,52.34|Z|Felwood|N|From Winna Hazzard.|
