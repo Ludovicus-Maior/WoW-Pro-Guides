@@ -493,6 +493,7 @@ A Zukk'ash Infestation|QID|7730|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider
 A Stinglasher|QID|7731|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.|PRE|2903|
 T A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|1444|N|To Kreug Skullspitter.|
 A A Grim Discovery|QID|2974|M|75.95,42.73|Z|1444|N|From Kreug Skullspitter|PRE|2973|
+* Iridescent Sprite Darter Wing|ACTIVE|-2973|AVAILABLE|-2973|N|You can safely delete these leftovers.|U|9369|
 T The Ogres of Feralas|QID|2975|M|75.96,42.85;73.53,45.12|CC|Z|1444|N|To Rok Orthan.|US|
 R The Writhing Deep|ACTIVE|7730^7731|M|71.3,49.0;75.0,60.0|CC|Z|1444|QO|1|
 C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|1444|L|18961 20|ITEM|18961|N|Any insect|S|
