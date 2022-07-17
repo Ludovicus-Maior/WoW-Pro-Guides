@@ -114,8 +114,8 @@ F Ratchet|ACTIVE|4502^4147|M|47.02,49.83|Z|Thunder Bluff|
 T Volcanic Activity|QID|4502|M|62.45,38.74|Z|The Barrens|N|To Liv Rizzlefix.|
 T Marvon's Workshop|QID|4147|M|62.45,38.74|Z|The Barrens|N|To Liv Rizzlefix.|
 
-b Booty Bay|AVAILABLE|3841|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
-F Kargath|AVAILABLE|3841|M|26.87,77.09|Z|Stranglethorn Vale|
+b Booty Bay|AVAILABLE|3821|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+F Kargath|AVAILABLE|3821|M|26.87,77.09|Z|Stranglethorn Vale|
 
 ]]
 end)
