@@ -686,6 +686,7 @@ K Silvermane Howler|ACTIVE|7828|M|45.40,54.60|Z|1425|QO|2|N|Finish killing the H
 R Shindigger's Camp|ACTIVE|77|M|20.2,48.3;25.05,46.96|CS|Z|1425|
 T A Sticky Situation|QID|77|M|26.71,48.60|Z|1425|N|To Gilveradin Sunchaser.|
 A Ripple Delivery|QID|81|M|26.71,48.60|Z|1425|N|From Gilveradin Sunchaser.|PRE|77|
+* Hinterlands Honey Ripple|ACTIVE|-77|AVAILABLE|-77|N|N|You can safely delete any left overs.|U|8684|
 R Quel'Danil Lodge|AVAILABLE|2742|M|34.00,48.00|Z|1425|N|[color=FF0000]NOTE: [/color]Work your way down the cliff if you don't want to run all the way around.|
 K Message to the Wildhammer|QID|7841|QO|1;2;3;4|N|Kill the Highvale Elves you require.|S|
 C The Highvale Notes|QID|2995|M|29.63,48.66|Z|1425|QO|2|N|Go behind the west corner of lodge and click the Highvale Notes on the ground by the well.|NC|
