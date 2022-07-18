@@ -766,8 +766,11 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         return guide
     end
 
-    if (release and WoWPro.RETAIL) or (WoWPro.CLASSIC and ( release ~= 1)) or (WoWPro.BC and ( release ~= 2)) then
-        -- Classic (i.e. release 1) guide selection
+    if (WoWPro.RETAIL and not release) or
+       (WoWPro.CLASSIC and (release ~= 1)) or
+       (WoWPro.BC and (release ~= 2)) or
+       (WoWPro.WRATH and (release ~= 3)) then
+        -- Release guide selected
         return guide
     end
 
@@ -1391,6 +1394,7 @@ end
 WoWPro.BC = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_BURNING_CRUSADE_CLASSIC
 WoWPro.CLASSIC = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC
 WoWPro.RETAIL = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_MAINLINE
+WoWPro.WRATH = _G.GetServerExpansionLevel() == 2 -- LUDO:  FIX ME!
 
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false
