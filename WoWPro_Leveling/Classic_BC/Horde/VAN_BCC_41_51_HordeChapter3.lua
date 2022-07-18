@@ -493,6 +493,7 @@ A Zukk'ash Infestation|QID|7730|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider
 A Stinglasher|QID|7731|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.|PRE|2903|
 T A New Cloak's Sheen|QID|2973|M|75.95,42.73|Z|1444|N|To Kreug Skullspitter.|
 A A Grim Discovery|QID|2974|M|75.95,42.73|Z|1444|N|From Kreug Skullspitter|PRE|2973|
+* Iridescent Sprite Darter Wing|ACTIVE|-2973|AVAILABLE|-2973|N|You can safely delete these leftovers.|U|9369|
 T The Ogres of Feralas|QID|2975|M|75.96,42.85;73.53,45.12|CC|Z|1444|N|To Rok Orthan.|US|
 R The Writhing Deep|ACTIVE|7730^7731|M|71.3,49.0;75.0,60.0|CC|Z|1444|QO|1|
 C Zukk'ash Infestation|QID|7730|M|75.36,61.38|Z|1444|L|18961 20|ITEM|18961|N|Any insect|S|
@@ -685,6 +686,7 @@ K Silvermane Howler|ACTIVE|7828|M|45.40,54.60|Z|1425|QO|2|N|Finish killing the H
 R Shindigger's Camp|ACTIVE|77|M|20.2,48.3;25.05,46.96|CS|Z|1425|
 T A Sticky Situation|QID|77|M|26.71,48.60|Z|1425|N|To Gilveradin Sunchaser.|
 A Ripple Delivery|QID|81|M|26.71,48.60|Z|1425|N|From Gilveradin Sunchaser.|PRE|77|
+* Hinterlands Honey Ripple|ACTIVE|-77|AVAILABLE|-77|N|You can safely delete any left overs.|U|8684|
 R Quel'Danil Lodge|AVAILABLE|2742|M|34.00,48.00|Z|1425|N|[color=FF0000]NOTE: [/color]Work your way down the cliff if you don't want to run all the way around.|
 K Message to the Wildhammer|QID|7841|QO|1;2;3;4|N|Kill the Highvale Elves you require.|S|
 C The Highvale Notes|QID|2995|M|29.63,48.66|Z|1425|QO|2|N|Go behind the west corner of lodge and click the Highvale Notes on the ground by the well.|NC|
@@ -725,6 +727,7 @@ b Durotar|ACTIVE|2641|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppeli
 R Orgrimmar|ACTIVE|2641|M|49.15,95.09|Z|1454|N|Enter Orgrimmar by the front gate.|
 F Thunder Bluff|ACTIVE|2641|M|45.13,63.90|Z|1454|C|Druid|
 = Level 50 Training|ACTIVE|2641|N|Train your lv 50 spells/skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A An Imp's Request|QID|8419|M|48.46,45.44|Z|1454|N|From Zevrost.\n[color=FF0000]NOTE: [/color]This starts a quest chain to earn some Warlock gear.\nThe chain ends in Sunken Temple, but you can do part of the chain for the exp.|C|Warlock|
 
 ; --- Tanaris
 F Gadgetzan|ACTIVE|2641|M|45.13,63.90|Z|1454|C|-Druid|

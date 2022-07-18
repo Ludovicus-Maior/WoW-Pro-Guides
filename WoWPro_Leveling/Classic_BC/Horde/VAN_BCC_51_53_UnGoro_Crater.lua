@@ -101,7 +101,7 @@ C Un'goro Soil|ACTIVE|4496|AVAILABLE|3761|L|11018 25|N|Before you leave, finish 
 F Gadgetzan|ACTIVE|4496|M|45.23,5.84|Z|Un'Goro Crater|
 T Bungle in the Jungle|QID|4496|M|50.89,26.96|Z|Tanaris|N|To Alchemist Pestlezugg.|
 T Super Sticky|QID|4504|M|51.57,26.76|Z|Tanaris|N|To Tran'rek.|
-
+* Crystal Pylon User's Manual|AVAILABLE|-4321|N|You are permamnently leaving Un'Goro Crater and no longer require this item.\n[color=FF0000]NOTE: [/color]Skip this step and drop the book in your bank if you wish to keep it.|U|11482|
 F Thunder Bluff|AVAILABLE|3761|M|51.60,25.44|Z|Tanaris|
 A Assisting Arch Druid Runetotem|QID|3762|M|45.83,64.76|Z|Thunder Bluff|N|From Innkeeper Pala.| ; == There are 3 variants of this quest - Hendo72
 T Assisting Arch Druid Runetotem|QID|3762|M|78.61,28.58|Z|Thunder Bluff|N|To Arch Druid Hamuul Runetotem; on Elder Rise.|
@@ -114,8 +114,8 @@ F Ratchet|ACTIVE|4502^4147|M|47.02,49.83|Z|Thunder Bluff|
 T Volcanic Activity|QID|4502|M|62.45,38.74|Z|The Barrens|N|To Liv Rizzlefix.|
 T Marvon's Workshop|QID|4147|M|62.45,38.74|Z|The Barrens|N|To Liv Rizzlefix.|
 
-b Booty Bay|AVAILABLE|3841|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
-F Kargath|AVAILABLE|3841|M|26.87,77.09|Z|Stranglethorn Vale|
+b Booty Bay|AVAILABLE|3821|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+F Kargath|AVAILABLE|3821|M|26.87,77.09|Z|Stranglethorn Vale|
 
 ]]
 end)
