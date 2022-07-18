@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('CLASSIC_BC_Azshara', 'Leveling', 'Azshara', 'Hendo72', 'Horde',2)
 WoWPro:GuideName(guide,"Azshara")
 WoWPro:GuideLevels(guide,51, 53)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Burning_Steppes')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_UnGoro_Crater')
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -86,9 +86,6 @@ A Betrayed|QID|3507|M|22.25,51.47|Z|1447;Azshara|N|From Ag'tor Bloodfist.|PRE|35
 T Xylem's Payment to Jediga|QID|3565|M|22.56,51.43|Z|1447;Azshara|N|To Jediga.|
 F Orgrimmar|ACTIVE|3507|M|21.96,49.62|Z|1447;Azshara|
 T Betrayed|QID|3507|AVAILABLE|4496|M|75.26,34.25|Z|1454;Orgrimmar|N|To Belgrom Rockmaul.|
-F Ratchet|AVAILABLE|3841|M|45.13,63.90|Z|Orgrimmar|
-b Booty Bay|AVAILABLE|3841|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
-F Kargath|AVAILABLE|3841|M|26.87,77.09|Z|Stranglethorn Vale|
 
 ]]
 end)
