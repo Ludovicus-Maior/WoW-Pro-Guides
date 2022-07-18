@@ -763,18 +763,21 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
 
     if faction and faction ~= WoWPro.Faction and faction ~= "Neutral" then
         -- If the guide is not of the correct side, don't register it
+        WoWPro:print("RegisterGuide(): Guide %q rejected, Wrong faction %s", GIDvalue, tostring(faction))
         return guide
     end
 
-    if (WoWPro.RETAIL and not release) or
+    if (WoWPro.RETAIL and release) or
        (WoWPro.CLASSIC and (release ~= 1)) or
        (WoWPro.BC and (release ~= 2)) or
        (WoWPro.WRATH and (release ~= 3)) then
-        -- Release guide selected
+        -- Wrong Release guide rejected
+        WoWPro:print("RegisterGuide(): Guide %q rejected, release is %s", GIDvalue, tostring(release))
         return guide
     end
 
     WoWPro.Guides[GIDvalue] = guide
+    WoWPro:print("RegisterGuide(): Guide %q loaded, release is %s", GIDvalue, tostring(release))
     return guide
 end
 
