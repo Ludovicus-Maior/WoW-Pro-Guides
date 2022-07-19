@@ -13,10 +13,10 @@ R Emerald Sanctuary|AVAILABLE|8460|M|51.89,85.06|Z|Felwood|
 A Timbermaw Ally|QID|8460|M|50.93,85.01|Z|Felwood|
 f Emerald Sanctuary|AVAILABLE|5156|M|51.53,82.21|Z|Felwood|N|At Gorrim.|
 A Verifying the Corruption|QID|5156|M|50.89,81.62|Z|Felwood|N|From Taronn Redfeather.|
-A Forces of Jaedenar|QID|5155|M|51.22,82.13|Z|Felwood|N|From Greta Mosshoof.|
-A Cleansing Felwood|QID|4102|M|46.77,83.04|Z|Felwood|N|From Maybess Riverbreeze.|
+A Forces of Jaedenar|QID|5155|M|51.14,82.16|Z|Felwood|N|From Greta Mosshoof.|
+A Cleansing Felwood|QID|4102|M|46.75,83.04|Z|Felwood|N|From Maybess Riverbreeze.|
 R Bloodvenom Post|AVAILABLE|4505|M|40.9,50.7;36.00,49.72|CC|Z|Felwood|
-f Bloodvenom Post|AVAILABLE|4505|M|34.45,53.96|Z|Felwood|N|At Brakkar.|
+f Bloodvenom Post|AVAILABLE|4505|M|34.44,53.97|Z|Felwood|N|At Brakkar.|
 A Well of Corruption|QID|4505|M|34.20,52.34|Z|Felwood|N|From Winna Hazzard.|
 A Wild Guardians|QID|4521|M|34.73,52.79|Z|Felwood|N|From Trull Failbane.|
 A A Husband's Last Battle|QID|6162|M|34.80,52.72|Z|Felwood|N|From Dreka'Sur.|
@@ -33,8 +33,8 @@ K Timbermaw Ally|ACTIVE|8460|M|48.36,92.04|Z|Felwood|QO|1;2;3|N|Finish killing r
 T Timbermaw Ally|QID|8460|M|50.93,85.01|Z|Felwood|N|To Grazle by the main road.|
 A Speak to Nafien|QID|8462|PRE|8460|M|50.93,85.01|Z|Felwood|N|From Grazle.|
 R Emerald Sanctuary|ACTIVE|5155|M|51.89,85.06|Z|Felwood|
-T Forces of Jaedenar|QID|5155|M|51.22,82.13|Z|Felwood|N|To Greta Mosshoof.|
-A Collection of the Corrupt Water|QID|5157|M|51.22,82.13|Z|Felwood|N|From Greta Mosshoof.|PRE|5155|
+T Forces of Jaedenar|QID|5155|M|51.14,82.16|Z|Felwood|N|To Greta Mosshoof.|
+A Collection of the Corrupt Water|QID|5157|M|51.14,82.16|Z|Felwood|N|From Greta Mosshoof.|PRE|5155|
 F Bloodvenom Post|ACTIVE|4505^6162|M|51.49,82.22|Z|Felwood|
 T Well of Corruption|QID|4505|M|34.21,52.34|Z|Felwood|N|To Winna Hazzard.|
 A Corrupted Sabers|QID|4506|M|34.21,52.34|Z|Felwood|N|From Winna Hazzard.|PRE|4505|
