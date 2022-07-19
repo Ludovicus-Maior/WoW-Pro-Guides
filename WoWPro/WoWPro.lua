@@ -1400,6 +1400,9 @@ WoWPro.BC = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_BURNING_CRUSADE_CLASSIC
 WoWPro.CLASSIC = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC
 WoWPro.RETAIL = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_MAINLINE
 WoWPro.WRATH = _G.GetServerExpansionLevel() == 2 -- LUDO:  FIX ME!
+if WoWPro.WRATH then
+    WoWPro.BC = false  -- WOW_PROJECT_ID is wrong for now
+end
 
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false
