@@ -74,18 +74,32 @@ R Everlook|ACTIVE|4521|M|61.36,38.38|Z|Winterspring|S|
 K Owlbeasts|QID|4521|M|52.50,35.78;60.54,29.82|CS|Z|Winterspring|QO|1;2|N|Finish killing required Owlbeasts.\n[color=FF0000]NOTE: [/color]These may share a spawn point with the other mobs in the area and you may have to kill everything to get them to spawn.|US|
 R Everlook|ACTIVE|4521|M|61.36,38.38|Z|Winterspring|US|
 F Gadgetzan|ACTIVE|5163|M|60.47,36.30|Z|Winterspring|QO|2|
-C Are We There, Yeti?|QID|5163|M|51,27|Z|Winterspring|N|Use Yeti to scare Sprinkle.|U|15778|
+C Are We There, Yeti?|QID|5163|M|51.05,26.88|Z|Tanaris|QO|2|N|Use Yeti to scare Sprinkle.|U|12928|NC|
+R Gadgetzan Graveyard|ACTIVE|3912|M|54.00,28.80|CC|Z|Tanaris|
+T Meet at the Grave|QID|3912|M|54.03,23.28|Z|Tanaris|N|Drink the Videre Elixir while standing in the graveyard to 'kill' yourself. Release your spirit and run to Gaeriyan to turn in the quest.\n[color=FF0000]NOTE: [/color]You can only talk to him while you are in Spirit form (dead).\nYou'll have to remove the waypoint to your body so the arrow points you in right direction.|U|11243|
+A A Grave Situation|QID|3913|M|54.03,23.28|Z|Tanaris|N|From Gaeriyan\n[color=FF0000]NOTE: [/color]You have to be dead.|PRE|3912|
+T A Grave Situation|QID|3913|M|53.82,29.06|Z|Tanaris|N|After you ressurect yourself, locate the Conspicuous Gravestone and turn in the quest.|
+A Linken's Sword|QID|3914|M|53.82,29.06|Z|Tanaris|N|From the Conspicuous Gravestone.|PRE|3913|
+F Marshal's Refuge|ACTIVE|5163^3914|M|51.60,25.44|Z|Tanaris|QO|3|
+C Are We There, Yeti?|QID|5163|M|43.67,9.36|Z|Un'Goro Crater|QO|3|N|Use Yeti to scare Quixxil.|U|12928|NC|
+T Linken's Sword|QID|3914|M|44.66,8.11|Z|Un'Goro Crater|N|To Linken.|
+A A Gnome's Assistance|QID|3941|M|44.66,8.11|Z|Un'Goro Crater|N|From Linken.|
+T A Gnome's Assistance|QID|3941|M|41.92,2.70|Z|Un'Goro Crater|N|To J.D. Callie.|
+A Linken's Memory|QID|3942|M|41.92,2.70|Z|Un'Goro Crater|N|From J.D. Callie.|PRE|3941|
+F Camp Mojache|AVAILABLE|4120|M|45.23,5.84|Z|Un'Goro Crater|N|Exit the cave and take the flight.|
+A The Strength of Corruption|QID|4120|M|76.19,43.84|Z|Feralas|N|From Talo Thornhoof.|
+F Emerald Sanctuary|ACTIVE|3942|M|75.45,44.35|Z|Feralas|
+T Linken's Memory|QID|3942|M||Z|Felwood|N|To Eridan Bluewind.|
+A Silver Heart|QID|4084|M||Z|Felwood|N|From Eridan Bluewind.|PRE|3942|
 
-F Marshal's Refuge|ACTIVE|5163|M|51.60,25.44|Z|Tanaris|QO|3|
-C Are We There, Yeti?|QID|5163|M|44,9;46,14|CN|Z|Winterspring|N|Use Yeti to scare Quixxil.|U|15778|
-
+T Silver Heart|QID|4084|M||Z|Felwood|N|To Eridan Bluewind.|
 F Bloodvenom Post|ACTIVE|4521|M|62.35,36.69|Z|Winterspring|
 T Wild Guardians|QID|4521|M|34.73,52.79|Z|Felwood|N|To Trull Failbane.|
 
 T Falling to Corruption|QID|5084|M|60.00,5.00|Z|Felwood|N|The cauldron at waypoint.|
 A Mystery Goo|QID|5085|PRE|5084|M|60.00,5.00|Z|Felwood|N|The cauldron at waypoint|
 T Deadwood Ritual Totem|QID|8470|M|65.5,3.3|N|Kernda-located halfway thru the hold|
-C Are We There, Yeti?|QID|5163|M|61,38|Z|Winterspring|N|Use Yeti to scare Legacki.|U|15778|
+C Are We There, Yeti?|QID|5163|M|61,38|Z|Winterspring|N|Use Yeti to scare Legacki.|U|12928|
 T Are We There, Yeti?|QID|5163|M|60.88,37.62|Z|Winterspring|N|Everlook-Umi Remplesnicker|
 
 
