@@ -12,7 +12,7 @@ A Are We There, Yeti?|QID|3783|M|60.88,37.62|Z|Winterspring|N|From Umi Rumplesni
 h Everlook|AVAILABLE|6029|M|61.36,38.38|Z|Winterspring|N|At Innkeeper Vizzie.|
 A The Everlook Report|QID|6029|M|61.35,38.97|Z|Winterspring|N|From Gregor Greystone, inside the Inn.|
 A Duke Nicholas Zverenhoff|QID|6030|M|61.35,38.97|Z|Winterspring|N|From Gregor Greystone.|
-A Sister Pamela|QID|5601|M|61.28,38.98|Z|Winterspring|N|From Jessica Redpath.|
+;A Sister Pamela|QID|5601|M|61.28,38.98|Z|Winterspring|N|From Jessica Redpath.|
 A Ursius of the Shardtooth|QID|5054|M|61.93,38.38|Z|Winterspring|N|From Storm Shadowhoof.|
 T Felnok Steelspring|QID|4808|M|61.63,38.61|Z|Winterspring|N|To Felnok Steelspring.|
 A Chillwind Horns|QID|4809|M|61.63,38.61|Z|Winterspring|N|From Felnok Steelspring.|PRE|4808|
@@ -89,16 +89,21 @@ A Linken's Memory|QID|3942|M|41.92,2.70|Z|Un'Goro Crater|N|From J.D. Callie.|PRE
 F Camp Mojache|AVAILABLE|4120|M|45.23,5.84|Z|Un'Goro Crater|N|Exit the cave and take the flight.|
 A The Strength of Corruption|QID|4120|M|76.19,43.84|Z|Feralas|N|From Talo Thornhoof.|
 F Emerald Sanctuary|ACTIVE|3942|M|75.45,44.35|Z|Feralas|
-T Linken's Memory|QID|3942|M||Z|Felwood|N|To Eridan Bluewind.|
-A Silver Heart|QID|4084|M||Z|Felwood|N|From Eridan Bluewind.|PRE|3942|
-
-T Silver Heart|QID|4084|M||Z|Felwood|N|To Eridan Bluewind.|
-F Bloodvenom Post|ACTIVE|4521|M|62.35,36.69|Z|Winterspring|
+T Linken's Memory|QID|3942|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
+A Silver Heart|QID|4084|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|PRE|3942|
+F Bloodvenom Post|ACTIVE|4521|M|51.53,82.21|Z|Felwood|
 T Wild Guardians|QID|4521|M|34.73,52.79|Z|Felwood|N|To Trull Failbane.|
+C Silver Heart|QID|4084|L|11172 11|ITEM|11172|N|Any wolf or Bear in Felwood|S|
+C Bloodvenom Essence|QID|8421|M|42.12,47.16|Z|Felwood|L|20614 4|ITEM|20614|N|Tainted Ooze\nThey are around the bodies of water near Bloodvenom Falls|C|Warlock|
+K The Strength of Corruption|QID|4120|M|63.17,13.92|Z|Felwood|N|Kill the required mobs.|
+C Silver Heart|QID|4084|L|11172 11|ITEM|11172|N|Any wolf or Bear in Felwood|US|
 
 T Falling to Corruption|QID|5084|M|60.00,5.00|Z|Felwood|N|The cauldron at waypoint.|
 A Mystery Goo|QID|5085|PRE|5084|M|60.00,5.00|Z|Felwood|N|The cauldron at waypoint|
 T Deadwood Ritual Totem|QID|8470|M|65.5,3.3|N|Kernda-located halfway thru the hold|
+F Emerald Sanctuary|ACTIVE|3942|M|75.45,44.35|Z|Feralas|
+
+T Silver Heart|QID|4084|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
 C Are We There, Yeti?|QID|5163|M|61,38|Z|Winterspring|N|Use Yeti to scare Legacki.|U|12928|
 T Are We There, Yeti?|QID|5163|M|60.88,37.62|Z|Winterspring|N|Everlook-Umi Remplesnicker|
 
