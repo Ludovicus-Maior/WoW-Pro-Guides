@@ -151,20 +151,33 @@ T The Weaver|QID|480|M|43.98,40.93|Z|1421|N|To Shadow Priest Allister.|
 N Quick visit back to Kalimdor|ACTIVE|1067|N|This is probably the best time to make a quick trip back to Thunder Bluff to turn in a quest and to do any training (especially Druids).\nThe goal is to be lv 25 when you return to Silverpine Forest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 H Orgrimmar|ACTIVE|1067|N|This is why we changed our hearthstone.\n[color=FF0000]NOTE: [/color]If your hearthstone is on CD, you're going to have to do it the long way by taking the zeppelin from Tirisfal Glades and flying from Orgrimmar to Thunder Bluff.|
 = Level 24|ACTIVE|1067|N|If you haven't done so already, go do your lv 24 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Druid|IZ|1454|
+A Speak with Ruga|QID|1823|M|80.21,32.10|Z|1454;Orgrimmar|N|This is the start of a HUGE warrior chain.|C|Warrior|
 F Thunder Bluff|ACTIVE|1067|M|45.13,63.90|Z|1454|N|Fly to Thunder Bluff.|
 = Level 24|ACTIVE|1067|N|If you haven't done so already, go do your lv 24 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|IZ|1456|
 R The Pools of Vision|ACTIVE|1067|M|30.50,30.48|Z|1456|
 T Return to Thunder Bluff|QID|1067|M|22.90,21.03|Z|1456|N|To Apothecary Zamah.|
 A The Flying Machine Airport|QID|1086|M|22.84,20.93|Z|1456|N|From Apothecary Zamah.|PRE|1067|
+F Camp Taurajo|ACTIVE|1823|M|47.02,49.83|Z|1456|N|Fly to Camp Taurajo.|C|Warrior|
+T Speak with Ruga|QID|1823|M|44.69,59.42|Z|1413|N|Turn in to Ruga Ragetotem.|C|Warrior|
+A Trial at the Field of Giants|QID|1824|M|44.69,59.42|Z|1413|N|Pick up from Ruga Ragetotem.|C|Warrior|PRE|1823|
+l Trial at the Field of Giants|ACTIVE|1824|M|43.3,69.6|Z|1413|L|7119 5|N|From the silithids in the south.|C|Warrior|
+T Trial at the Field of Giants|ACTIVE|1824|M|44.69,59.42|Z|1413|N|Pick up from Ruga Ragetotem.|C|Warrior|
+A Speak with Thun'grim|QID|1825|M|44.69,59.42|Z|1413|N|Pick up from Ruga Ragetotem.|C|Warrior|PRE|1824|
 
 ; --- The Barrens
-F Ratchet|ACTIVE|1094|M|47.02,49.83|Z|1456|
+F Ratchet|ACTIVE|1094|M|44.45,59.13|Z|1413|C|Warrior|
+F Ratchet|ACTIVE|1094|M|47.02,49.83|Z|1456|C|-Warrior|
 T Further Instructions|QID|1094|M|62.98,37.22|Z|1413|N|To Sputtervalve.|
 A Further Instructions|QID|1095|M|62.98,37.22|Z|1413|N|From Sputtervalve.|PRE|1094|
 T Mahren Skyseer|QID|874|M|65.84,43.86|Z|1413|N|To Mahren Skyseer at The Tidus Stair.\nYou can either swim there, or follow the road. Running along the shoreline will take longer because the shore isn't a straight line and you'll end up swimming at several points along the way.|
 A Isha Awak|QID|873|M|65.84,43.86|Z|1413|N|From Mahren Skyseer.|PRE|874|
 K Isha Awak|ACTIVE|873|M|65.39,46.91;63.56,53.93|CC|Z|1413|QO|1|N|Jump into the water and start swimming east. Locate Isha Awak, kill it and loot its heart.\nIt can be found in the water between the next point and Northwatch Hold.\n[color=FF0000]NOTE: [/color]If you don't want to swim, the targeting button works from the shore. ;)|T|Isha Awak|
 T Isha Awak|QID|873|M|65.84,43.86|Z|1413|N|Choosing your own path of travel, make your way back to Mahren Skyseer.|
+R Ratchet|ACTIVE|1825|M|62.18,37.95|Z|1413|N|Run over to Ratchet.|C|Warrior|
+T Speak with Thun'grim|QID|1825|M|57.21,30.34|Z|1413|N|Turn in to Thun'grim.|C|Warrior|
+A Brutal Armor|QID|1838|M|57.21,30.34|Z|1413|N|From Thun'grim.|C|Warrior|PRE|1825|
+N We will work on all the steps for Brutal Armor as we go. \nRight click this step off to continue.
+R Ratchet|ACTIVE|1838|M|62.18,37.95|Z|1413|N|Run over to Ratchet.|C|Warrior|
 N Booty Bay|ACTIVE|6571|QO|2|N|Before heading to Stonetalon Mountains, we're taking a side trip to Booty Bay to pick up a quest item. This is the last time we will be in Ratchet to make this trip.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|-1442|
 
 ; --- Booty Bay
