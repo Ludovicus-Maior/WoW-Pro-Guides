@@ -510,7 +510,7 @@ function WoWPro.RegisterEventHandler(event, handler)
 end
 
 function WoWPro.RegisterModernEventHandler(event, handler)
-    if WoWPro.CLASSIC or WoWPro.BC then return end
+    if WoWPro.CLASSIC or WoWPro.BC or WoWPro.WRATH then return end
     WoWPro.EventTable[event] = true
     WoWPro[event] = handler
 end
