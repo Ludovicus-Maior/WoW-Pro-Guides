@@ -49,6 +49,15 @@ function WoWPro.DefineZone2(mapId, zone, mapType, parent_map, group_id, ... )
     WoWPro.Zone2MapID[zone] = mapId
 end
 
+function WoWPro.DefineZone3(mapId, zone, mapType, parent_map, group_id, ... )
+    if not WoWPro.WRATH then return end
+    if WoWPro.Zone2MapID[zone] then
+        WoWPro:dbp("DupCheck(): DefineZone2(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+    end
+    WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
+    WoWPro.Zone2MapID[zone] = mapId
+end
+
 function WoWPro.DefineZone9(mapId, zone, mapType, parent_map, group_id, ... )
     if not WoWPro.RETAIL then return end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
