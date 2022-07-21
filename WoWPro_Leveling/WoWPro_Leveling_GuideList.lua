@@ -39,6 +39,8 @@ local continentToXpac = {
     [905] = _G.LE_EXPANSION_LEGION, -- Argus
     [875] = _G.LE_EXPANSION_BATTLE_FOR_AZEROTH, -- Zuldazar
     [876] = _G.LE_EXPANSION_BATTLE_FOR_AZEROTH, -- Kul Tiras
+    [1414] = _G.LE_EXPANSION_CLASSIC, -- Kalimdor
+    [1415] = _G.LE_EXPANSION_CLASSIC, -- Eastern Kingdoms
     [1550] = _G.LE_EXPANSION_SHADOWLANDS, -- The Shadowlands
 }
 
