@@ -151,20 +151,33 @@ T The Weaver|QID|480|M|43.98,40.93|Z|1421|N|To Shadow Priest Allister.|
 N Quick visit back to Kalimdor|ACTIVE|1067|N|This is probably the best time to make a quick trip back to Thunder Bluff to turn in a quest and to do any training (especially Druids).\nThe goal is to be lv 25 when you return to Silverpine Forest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 H Orgrimmar|ACTIVE|1067|N|This is why we changed our hearthstone.\n[color=FF0000]NOTE: [/color]If your hearthstone is on CD, you're going to have to do it the long way by taking the zeppelin from Tirisfal Glades and flying from Orgrimmar to Thunder Bluff.|
 = Level 24|ACTIVE|1067|N|If you haven't done so already, go do your lv 24 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Druid|IZ|1454|
+A Speak with Ruga|QID|1823|M|80.21,32.10|Z|1454;Orgrimmar|N|This is the start of a HUGE warrior chain.|C|Warrior|
 F Thunder Bluff|ACTIVE|1067|M|45.13,63.90|Z|1454|N|Fly to Thunder Bluff.|
 = Level 24|ACTIVE|1067|N|If you haven't done so already, go do your lv 24 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|IZ|1456|
 R The Pools of Vision|ACTIVE|1067|M|30.50,30.48|Z|1456|
 T Return to Thunder Bluff|QID|1067|M|22.90,21.03|Z|1456|N|To Apothecary Zamah.|
 A The Flying Machine Airport|QID|1086|M|22.84,20.93|Z|1456|N|From Apothecary Zamah.|PRE|1067|
+F Camp Taurajo|ACTIVE|1823|M|47.02,49.83|Z|1456|N|Fly to Camp Taurajo.|C|Warrior|
+T Speak with Ruga|QID|1823|M|44.69,59.42|Z|1413|N|Turn in to Ruga Ragetotem.|C|Warrior|
+A Trial at the Field of Giants|QID|1824|M|44.69,59.42|Z|1413|N|Pick up from Ruga Ragetotem.|C|Warrior|PRE|1823|
+l Trial at the Field of Giants|ACTIVE|1824|M|43.3,69.6|Z|1413|L|7119 5|N|From the silithids in the south.|C|Warrior|
+T Trial at the Field of Giants|ACTIVE|1824|M|44.69,59.42|Z|1413|N|Pick up from Ruga Ragetotem.|C|Warrior|
+A Speak with Thun'grim|QID|1825|M|44.69,59.42|Z|1413|N|Pick up from Ruga Ragetotem.|C|Warrior|PRE|1824|
 
 ; --- The Barrens
-F Ratchet|ACTIVE|1094|M|47.02,49.83|Z|1456|
+F Ratchet|ACTIVE|1094|M|44.45,59.13|Z|1413|C|Warrior|
+F Ratchet|ACTIVE|1094|M|47.02,49.83|Z|1456|C|-Warrior|
 T Further Instructions|QID|1094|M|62.98,37.22|Z|1413|N|To Sputtervalve.|
 A Further Instructions|QID|1095|M|62.98,37.22|Z|1413|N|From Sputtervalve.|PRE|1094|
 T Mahren Skyseer|QID|874|M|65.84,43.86|Z|1413|N|To Mahren Skyseer at The Tidus Stair.\nYou can either swim there, or follow the road. Running along the shoreline will take longer because the shore isn't a straight line and you'll end up swimming at several points along the way.|
 A Isha Awak|QID|873|M|65.84,43.86|Z|1413|N|From Mahren Skyseer.|PRE|874|
 K Isha Awak|ACTIVE|873|M|65.39,46.91;63.56,53.93|CC|Z|1413|QO|1|N|Jump into the water and start swimming east. Locate Isha Awak, kill it and loot its heart.\nIt can be found in the water between the next point and Northwatch Hold.\n[color=FF0000]NOTE: [/color]If you don't want to swim, the targeting button works from the shore. ;)|T|Isha Awak|
 T Isha Awak|QID|873|M|65.84,43.86|Z|1413|N|Choosing your own path of travel, make your way back to Mahren Skyseer.|
+R Ratchet|ACTIVE|1825|M|62.18,37.95|Z|1413|N|Run over to Ratchet.|C|Warrior|
+T Speak with Thun'grim|QID|1825|M|57.21,30.34|Z|1413|N|Turn in to Thun'grim.|C|Warrior|
+A Brutal Armor|QID|1838|M|57.21,30.34|Z|1413|N|From Thun'grim.|C|Warrior|PRE|1825|
+N We will work on all the steps for Brutal Armor as we go. \nRight click this step off to continue.
+R Ratchet|ACTIVE|1838|M|62.18,37.95|Z|1413|N|Run over to Ratchet.|C|Warrior|
 N Booty Bay|ACTIVE|6571|QO|2|N|Before heading to Stonetalon Mountains, we're taking a side trip to Booty Bay to pick up a quest item. This is the last time we will be in Ratchet to make this trip.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|-1442|
 
 ; --- Booty Bay
@@ -179,6 +192,7 @@ h Sun Rock Retreat|ACTIVE|1095|M|47.46,62.13|Z|1442|N|Set your hearthstone to Su
 R Windshear Crag|ACTIVE|1068^1095|M|49.5,61.0;53.1,61.6;60.33,70.90|CC|Z|1442|N|Exit Sun Rock Retreat and follow the road south to the Windshear Crag sign.\n[color=FF0000]NOTE: [/color]If you don't mind a little falling damage, you can drop off the cliff by the graveyard.|IZ|1442|
 T Further Instructions|QID|1095|M|58.99,62.60|N|Make your way to Ziz Fizziks' hut and turn in the quest.|
 A Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.60|Z|1442|N|From Ziz Fizziks.|PRE|1095|
+l Smokey Iron Ingot|ACTIVE|1838|M|72.91,58.15|Z|1442|L|7126 15|N||C|Warrior|S|
 K XT:4|ACTIVE|1068|M|64.07,45.96|Z|1442|QO|1|N|Kill XT:4. It patrols the north side of the river.|S|
 K XT:9|ACTIVE|1068|M|71.36,55.39;60.28,54.34|CN|Z|1442|QO|2|N|Kill XT:9. It patrols the south side of the river.|S|
 R The Flying Machine Airport|ACTIVE|1086|M|66.48,45.40|Z|1442|N|Place the Toxic Fogger here.|U|5638|O|
@@ -187,6 +201,7 @@ K Gerenzo Wrenchwhistle|ACTIVE|1096|M|68.6,41.2;68.8,39.5;64.6,38.0;62.84,40.49|
 N Shortcut down|ACTIVE|1096|N|Jump into the water and swim to shore.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Cragpool Lake|
 K XT:4|ACTIVE|1068|M|64.07,45.96|Z|1442|QO|1|N|Kill XT:4. It patrols a small area in the northern corner of Windshear Crag by Cragpool Lake and Blackwolf River.|T|XT:4|US|
 K XT:9|ACTIVE|1068|M|71.36,55.39;60.28,54.34|CN|Z|1442|QO|2|N|Kill XT:9. It patrols on the south side of the river, travelling west from the mine to the mountain edge on the west side before looping back in the opposite direction.|T|XT:9|US|
+l Smokey Iron Ingot|ACTIVE|1838|M|72.91,58.15|Z|1442|L|7126 15|N||C|Warrior|US|
 T Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.57|Z|1442|N|To Ziz Fizziks.|
 R Boulderslide Ravine|ACTIVE|6481|M|67.7,86.8;66.24,89.37|CC|Z|1442|N|Exit Windshear Crag and follow the road south.|
 R Boulderslide Cavern|ACTIVE|6481|M|61.98,93.16|Z|1442|N|Make your way to the cave entrance.|
