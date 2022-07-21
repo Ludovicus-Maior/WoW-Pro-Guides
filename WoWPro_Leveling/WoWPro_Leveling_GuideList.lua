@@ -111,7 +111,7 @@ local function GetGuides()
                 level = guide.level,
 				sortlevel = guide.sortlevel
             }
-            if WoWPro.CLASSIC or WoWPro.BC then
+            if WoWPro.CLASSIC or WoWPro.BC or WoWPro.WRATH then
                 guideInfo.Content = rangeFormat:format(guide.startlevel, guide.endlevel)
             else
                 local _, mapID = WoWPro:ValidZone(guide.zone)
