@@ -19,7 +19,7 @@ C The Trogg Threat|QID|267|Z|Loch Modan|N|Continue killing the troggs until you 
 T In Defense of the King's Lands|QID|224|M|22.07,73.13|Z|Loch Modan|N|To Mountaineer Cobbleflint, outside|
 T The Trogg Threat|QID|267|M|23.24,73.67|Z|Loch Modan|N|To Captain Ruglefuss.|
 
-R Thelsamar|ACTIVE|1338|M|32.96,49.44|Z|Loch Modan|N|Follow the road north to Thelsamar.|
+R Thelsamar|AVAILABLE|1338|M|32.96,49.44|Z|Loch Modan|N|Follow the road north to Thelsamar.|
 A Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|Mountaineer Kadrell patrols all throughout Thelsamar.|
 A Mountaineer Stormpike's Task|QID|1339|M|34.8,47.1|Z|Loch Modan|N|From Mountaineer Kadrell patrols all throughout Thelsamar.|
 A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|From Vidra Hearthstove inside the inn.|
@@ -36,7 +36,7 @@ R Silver Stream Mine|ACTIVE|307|M|36.70,41.79;39.43,29.10|Z|Loch Modan|CC|N|Head
 C Filthy Paws|QID|307|M|35.53,18.71|QO|1|Z|Loch Modan|N|Enter the mine and collect the crates of Miners' Gear.|
 C Rat Catching|QID|416|L|3110 12|N|Finish this quest now by killing Tunnel Rats around the mine entrance.|US|
 T Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike.|
-C Thelsamar Blood Sausages|QID|418|M|32.28,31.08|Z|Loch Modan|CN|QO|1;2;3|N|Finish this quest now.|S|
+C Thelsamar Blood Sausages|QID|418|M|32.28,31.08|Z|Loch Modan|CN|QO|1;2;3|N|Finish this quest now.|US|
 T Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|To Mountaineer Kadrell.|
 T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|To Vidra Hearthstove inside Stoutlager Inn.|
 F Ironforge|AVAILABLE|3681|M|33.94,50.95|Z|Loch Modan|C|Paladin|R|Human|
