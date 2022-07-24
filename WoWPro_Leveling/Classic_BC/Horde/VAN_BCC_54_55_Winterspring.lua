@@ -9,10 +9,7 @@ return [[
 K Owlbeasts|ACTIVE|4521|QO|1;2|N|Kill Ragged and Raging Owlbeasts as you see them.|S|
 R Everlook|AVAILABLE|3783|M|53.7,34.5;58.96,38.62|CC|Z|Winterspring|N|Follow the road east and then south at the waypoint.|
 A Are We There, Yeti?|QID|3783|M|60.88,37.62|Z|Winterspring|N|From Umi Rumplesnicker.|
-h Everlook|AVAILABLE|6029|M|61.36,38.38|Z|Winterspring|N|At Innkeeper Vizzie.|
-A The Everlook Report|QID|6029|M|61.35,38.97|Z|Winterspring|N|From Gregor Greystone, inside the Inn.|
-A Duke Nicholas Zverenhoff|QID|6030|M|61.35,38.97|Z|Winterspring|N|From Gregor Greystone.|
-;A Sister Pamela|QID|5601|M|61.28,38.98|Z|Winterspring|N|From Jessica Redpath.|
+h Everlook|AVAILABLE|5054|M|61.36,38.38|Z|Winterspring|N|At Innkeeper Vizzie.|
 A Ursius of the Shardtooth|QID|5054|M|61.93,38.38|Z|Winterspring|N|From Storm Shadowhoof.|
 T Felnok Steelspring|QID|4808|M|61.63,38.61|Z|Winterspring|N|To Felnok Steelspring.|
 A Chillwind Horns|QID|4809|M|61.63,38.61|Z|Winterspring|N|From Felnok Steelspring.|PRE|4808|
@@ -80,6 +77,7 @@ T Meet at the Grave|QID|3912|M|54.03,23.28|Z|Tanaris|N|Drink the Videre Elixir w
 A A Grave Situation|QID|3913|M|54.03,23.28|Z|Tanaris|N|From Gaeriyan\n[color=FF0000]NOTE: [/color]You have to be dead.|PRE|3912|
 T A Grave Situation|QID|3913|M|53.82,29.06|Z|Tanaris|N|After you ressurect yourself, locate the Conspicuous Gravestone and turn in the quest.|
 A Linken's Sword|QID|3914|M|53.82,29.06|Z|Tanaris|N|From the Conspicuous Gravestone.|PRE|3913|
+* Videre Elixir|ACTIVE|3914|N|You can safely delete any left overs.|U|11243|
 F Marshal's Refuge|ACTIVE|5163^3914|M|51.60,25.44|Z|Tanaris|QO|3|
 C Are We There, Yeti?|QID|5163|M|43.67,9.36|Z|Un'Goro Crater|QO|3|N|Use Yeti to scare Quixxil.|U|12928|NC|
 T Linken's Sword|QID|3914|M|44.66,8.11|Z|Un'Goro Crater|N|To Linken.|
@@ -93,30 +91,58 @@ T Linken's Memory|QID|3942|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
 A Silver Heart|QID|4084|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|PRE|3942|
 F Bloodvenom Post|ACTIVE|4521|M|51.53,82.21|Z|Felwood|
 T Wild Guardians|QID|4521|M|34.73,52.79|Z|Felwood|N|To Trull Failbane.|
-C Silver Heart|QID|4084|L|11172 11|ITEM|11172|N|Any wolf or Bear in Felwood|S|
-C Bloodvenom Essence|QID|8421|M|42.12,47.16|Z|Felwood|L|20614 4|ITEM|20614|N|Tainted Ooze\nThey are around the bodies of water near Bloodvenom Falls|C|Warlock|
-K The Strength of Corruption|QID|4120|M|63.17,13.92|Z|Felwood|N|Kill the required mobs.|
-C Silver Heart|QID|4084|L|11172 11|ITEM|11172|N|Any wolf or Bear in Felwood|US|
-
-T Falling to Corruption|QID|5084|M|60.00,5.00|Z|Felwood|N|The cauldron at waypoint.|
-A Mystery Goo|QID|5085|PRE|5084|M|60.00,5.00|Z|Felwood|N|The cauldron at waypoint|
-T Deadwood Ritual Totem|QID|8470|M|65.5,3.3|N|Kernda-located halfway thru the hold|
-F Emerald Sanctuary|ACTIVE|3942|M|75.45,44.35|Z|Feralas|
-
+C Silver Heart|QID|4084|L|11172 11|ITEM|11172|N|Any wolf or bear in Felwood|S|
+C Bloodvenom Essence|QID|8421|M|42.12,47.16|Z|Felwood|L|20614 4|ITEM|20614|N|Tainted Ooze|C|Warlock|S|
+R Shadow Hold|ACTIVE|7602|M|35.41,58.71|Z|Felwood|QO|2|N|The entrance is all the way at the back of Jaedenar.|C|Warlock|
+C Flawless Fel Essence|QID|7602|L|18622|ITEM|18622|N|Jaedenar Legionnaire|C|Warlock|
+C Bloodvenom Essence|QID|8421|M|42.12,47.16|Z|Felwood|L|20614 4|ITEM|20614|N|Tainted Ooze\nThey are around the bodies of water near Bloodvenom Falls.|C|Warlock|US|
+T The Wrong Stuff|QID|8421|M|41.55,45.00|Z|Felwood|N|To Impsy.\n[color=FF0000]NOTE: [/color]The follow-up requires a visit to Sunken Temple (which we don't do.)|C|Warlock|
+K The Strength of Corruption|QID|4120|M|50.30,13.80;56.4,6.7;53.4,28.4;63.17,13.92|CS|Z|Felwood|QO|1;2|N|Kill the required mobs.|
+C Irontree Heart|QID|4084|M|49.70,19.61|Z|Felwood|L|11173|ITEM|11173|N|Irontree Stompers and Wanderers\nJust keep looping around the lake until you get one.\n[color=FF0000]NOTE: [/color]They are only around the lake, not up on the ridge.|
+C Silver Heart|QID|4084|M|63.17,13.92|Z|Felwood|L|11172 11|ITEM|11172|N|Any wolf or bear in Felwood|US|
+K Deadwood Furbolgs|ACTIVE|8470|M|61.38,5.99|Z|Felwood|N|Kill the Deadwood tribe members until you reach neutral rep with Timbermaw Hold.|REP|Timbermaw Hold;576;Hated-Unfriendly|S|
+T Falling to Corruption|QID|5084|M|60.20,5.83|Z|Felwood|N|Head to the camp in the northern most corner of Felpaw Village.\nOnce you have cleared the camp, click on the cauldron to turn.\n[color=FF0000]NOTE: [/color]Kite the Den Watcher away from the group or it will summon all of them.|
+A Mystery Goo|QID|5085|PRE|5084|M|60.20,5.83|Z|Felwood|N|From the cauldron.|
+C Deadwood Headdress Feather|AVAILABLE|8467|L|21377 5|ITEM|21377|N|Any Deadwood Furbolg.|REP|Timbermaw Hold;576;Hated-Unfriendly|
+A Feathers for Nafien|AVAILABLE|8467|M|64.77,8.12|Z|Felwood|N|Once you have 5 Deadwood Headdress Feathers, go see Nafien at the top of the hill.|REP|Timbermaw Hold;576;Hated-Unfriendly|
+t Feathers for Nafien|AVAILABLE|8467|M|64.77,8.12|Z|Felwood|QO|1|N|Once you have 5 Deadwood Headdress Feather, turn them in to Nafien for 150 Rep towards Timbermaw Hold.|REP|Timbermaw Hold;576;Hated-Unfriendly|NOCACHE|
+K Deadwood Furbolgs|ACTIVE|8470|M|61.38,5.99|Z|Felwood|N|Kill the Deadwood tribe members until you reach neutral rep with Timbermaw Hold.|REP|Timbermaw Hold;576;Hated-Unfriendly|US|
+T Deadwood Ritual Totem|QID|8470|M|65.5,3.5;65.37,1.24|CC|Z|Felwood|N|To Kernda, who can be found in Timbermaw Hold pathing under the bridge in and out of the Moonglade tunnel.|REP|Timbermaw Hold;576;Neutral-Exalted|
+T Winterfall Ritual Totem|QID|8471|M|65.5,3.5;65.37,1.24|CC|Z|Felwood|N|To Kernda, who can be found in Timbermaw Hold pathing under the bridge in and out of the Moonglade tunnel.|REP|Timbermaw Hold;576;Neutral-Exalted|
+R Winterspring|ACTIVE|5085|M|27.91,34.48|Z|Winterspring|
+T Winterfall Activity|QID|8464|M|27.73,34.50|Z|Winterspring|N|To Salfa, standing just off to the side of the road beside the tunnel exit.|
+T Mystery Goo|QID|5085|M|31.27,45.16|Z|Winterspring|N|To Donova Snowden.\n[color=FF0000]NOTE: [/color]Skip the follow-up|
+H Everlook|ACTIVE|4084|M|61.36,38.38|Z|Winterspring|N|Use your hearth or run; your choice.|
+C Are We There, Yeti?|QID|5163|M|61.54,38.60|Z|Winterspring|QO|1|N|Use Yeti to scare Legacki.|U|12928|NC|
+T Are We There, Yeti?|QID|5163|M|60.88,37.62|Z|Winterspring|N|To Umi Remplesnicker.|
+F Emerald Sanctuary|ACTIVE|4084|M|60.47,36.30|Z|Winterspring|
 T Silver Heart|QID|4084|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
-C Are We There, Yeti?|QID|5163|M|61,38|Z|Winterspring|N|Use Yeti to scare Legacki.|U|12928|
-T Are We There, Yeti?|QID|5163|M|60.88,37.62|Z|Winterspring|N|Everlook-Umi Remplesnicker|
+A Aquementas|QID|4005|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|PRE|4084|
+F Camp Mojache|ACTIVE|4120|M|51.53,82.21|Z|Felwood|
+T The Strength of Corruption|QID|4120|M|76.19,43.84|Z|Feralas|N|To Talo Thornhoof.|
+F Gadgetzan|ACTIVE|4005|M|75.45,44.35|Z|Feralas|QO|1|
+R Lost Rigger Cove|ACTIVE|4005|M|68.57,41.43|Z|1446|QO|1|
+R Circle of Stones|ACTIVE|4005|M|70.41,49.92|CC|Z|Tanaris|QO|1|N|\n[color=FF0000]NOTE: [/color]If you jump just right where the fence meets the mountain, you can get over it. It's faster than trying to run through or around.
+U Eridan's Supplies|ACTIVE|4005|L|11173&11172&11169|N|Loot the items from the bag.|U|11617|O|
+C Aquementas|ACTIVE|4005|M|70.41,49.92|CC|Z|Tanaris|L|11522|N|While standing in the Circle of Stones, use the Book of Aquor to summon Aquementas. Remain where you are until he becomes hostile and turns your items into the totem.\n[color=FF0000]NOTE: [/color]Once you have the totem, killing him is not required.|U|11169|
+R Gadgetzan|ACTIVE|4005|M|52.50,27.90|Z|1446|N|Unfortunately, the 'jump' trick won't work from this side. Just barrel through to the fence opening.|
+N Silver Totem of Aquementas|AVAILABLE|3962|N|[color=FF0000]NOTE: [/color]When you try to use this, it will equip it in your off-hand. If you're using a 2-handed weapon, it will no longer be in your hand.\nMake sure you have a 1-handed weapon with you or you will be fighting unarmed.|
+F Marshal's Refuge|ACTIVE|4005|M|51.60,25.44|Z|Tanaris|
+T Aquementas|QID|4005|M|41.92,2.70|Z|Un'Goro Crater|N|To J. D. Callie.|
+A Linken's Adventure|QID|3961|M|41.92,2.70|Z|Un'Goro Crater|N|From J. D. Callie.|PRE|4005|
+T Linken's Adventure|QID|3961|M|44.65,8.10|Z|Un'Goro Crater|N|To Linken.|
+A It's Dangerous to Go Alone|QID|3962|M|44.65,8.10|Z|Un'Goro Crater|N|From Linken.|PRE|3961|
+R Fire Plume Ridge|ACTIVE|3962|M|50.20,49.99|Z|Un'Goro Crater|QO|1|N|Make your way to the volcano in the center of Un'Goro.|
+K Blazerunner|ACTIVE|3962|M|50.20,49.99|Z|Un'Goro Crater|QO|1|N|Use the Silver Totem of Aquementas to dispel Blazerunner's Aura whenever he puts it up.\n[color=FF0000]NOTE: [/color]Make sure you have your 1-handed weapon equiped.|T|Blazerunner|U|11522|
+C Golden Flame|QID|3962|M|50.20,49.99|Z|Un'Goro Crater|L|11179|N|From the chest inside the cave Blazerunner was guarding.\n[color=FF0000]NOTE: [/color]Don't forget to re-equip your 2-handed weapon if you changed it.|
+R Marshal's Refuge|ACTIVE|3962|M|45.88,13.36|Z|Un'Goro Crater|
 
+T It's Dangerous to Go Alone|QID|3962|M|44.65,8.10|Z|Un'Goro Crater|N|To Linken.|
+F Orgrimmar|ACTIVE|4294|M|45.23,5.84|Z|Un'Goro Crater|
+b Tirisfal Glades|ACTIVE|4294|M|50.89,13.86|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
+U Un'Goro Tested Sample|ACTIVE|4294|N|Open the sample.|U|15102|O|
+A Testing for Impurities - Un'Goro Crater|ACTIVE|-4561&4294|M|47.72,73.57|Z|Undercity|L|12236 5|N|From the Testing Equipment in the Apothecarium.|NOCACHE|
+T ... and a Batch of Ooze|QID|4294|M|47.45,73.36|Z|1458|N|To Chemist Fuely beside you.|
 
-
-H Everlook|ACTIVE|977|
-
-
-R Winterspring|
-T Winterfall Activity|QID|8464|M|27.8,34.4|Z|Winterspring|N|Salfa|
-
-T Mystery Goo|QID|5085|M|31.27,45.16|Z|Winterspring|N|Donova Snowden-skip the follow-up|
-
-H Everlook|
 ]]
 end)
