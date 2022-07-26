@@ -220,7 +220,7 @@ A Thinning the... Herd?|QID|13967|M|49.75,65.08|N|From Senani Thunderheart.|RANK
 T Tweedle's Tiny Parcel|QID|13974|M|49.96,67.25|N|To Flooz.|
 A Mass Production|QID|13977|M|49.96,67.25|N|Wait a moment then get this quest from Flooz.|PRE|13974|RANK|2|
 A Simmer Down Now|QID|25|M|50.13,67.58|N|From Captain Tarkan.|RANK|2|
-h Silverwind Refuge|ACTIVE|6482|M|50.43,67.16|N|At Innkeeper Chin'toka.|
+h Silverwind Refuge|ACTIVE|25|M|50.43,67.16|N|At Innkeeper Chin'toka.|
 A Well, Come to the Jungle|QID|26416|M|50.75,67.12|N|From Cromula. She paces back and forth between the two wings of the building.\n[color=FF0000]NOTE: [/color]This quest brings you to Orgrimmar at the end of the guide.|RANK|1|
 R Greenpaw Village|ACTIVE|13967|M|52.63,63.44|N|Make your way to Greenpaw Village, just to the north of Silverwind Refuge.|FLY|OLD|
 l Thinning the... Herd?|ACTIVE|13967|M|54.15,62.44|QO|1|N|Kill and loot Furbolg until you get 15 ears.|
