@@ -190,7 +190,7 @@ T Breathing Room|QID|13943|M|38.27,43.11|N|To Captain Goggath.|
 T Set Us Up the Bomb|QID|13942|M|37.98,43.86|N|To Tweedle.|
 A Small Stature, Short Fuse|QID|13944|M|37.98,43.86|N|From Tweedle.|PRE|13942|RANK|1|
 C Small Stature, Short Fuse|QID|13944|M|38.13,43.98|N|Use Tweedle's Improvised Explosive on the Broken-down Wagon.|U|46701|NC|
-T Small , Short Fuse|QID|13944|M|38.27,43.11|N|To Captain Goggath.|
+T Small Stature, Short Fuse|QID|13944|M|38.27,43.11|N|To Captain Goggath.|
 A Blastranaar!|QID|13947|M|38.27,43.11|N|From Captain Goggath.|PRE|13944|RANK|1|
 C Blastranaar!|QID|13947|M|38.08,42.22|N|Talk to Thraka when you're ready to bomb some stuff.\n[color=FF0000]NOTE: [/color]<1> to drop bombs and <2> to recall when you are done.|
 T Blastranaar!|QID|13947|M|38.27,43.11|N|To Captain Goggath.| ; Completes The Bombing of Astranaar
