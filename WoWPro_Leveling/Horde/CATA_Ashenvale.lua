@@ -146,7 +146,7 @@ T Bad News Bear-er|QID|13848|M|12.10,33.85|N|Turn in to Commander Grimfang.|
 A Keep the Fires Burning|QID|13890|M|12.10,33.85|N|From Commander Grimfang.|RANK|1|
 A Blackfathom Deeps|QID|26894|M|12.10,33.85|ELITE|N|[color=E6CC80]Dungeon: Blackfathom Deeps[/color]\nFrom Commander Grimfang.\nPick this up if you plan on running the Blackfathom Deeps instance.|RANK|3|
 A Lousy Pieces of Ship|QID|13883|M|11.57,35.31|N|From Dagrun Ragehammer. He paces back and forth.|RANK|2|
-A The Essence of Aku'Mai|QID|26890|M|11.57,35.31|ELITE|N|[color=E6CC80]Dungeon: Blackfathom Deeps[/color]\nFrom Dagrun Ragehammer.|RANK|3|
+A The Essence of Aku'Mai|QID|26890|M|11.57,35.31|ELITE|N|From Dagrun Ragehammer.|RANK|2|
 A Naga at the Zoram Strand|QID|6442|M|12.66,35.39|N|From Marukai.|RANK|1|
 A Vorsha the Lasher|QID|6641|M|12.77,34.14|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash.|RANK|1|
 l Naga at the Zoram Strand|QID|6442|M|14.88,21.18|QO|1|N|Kill Wraithtail Nagas to loot their heads.|S|
@@ -166,7 +166,7 @@ T Lousy Pieces of Ship|QID|13883|M|11.57,35.27|N|To Dagrun Ragehammer.|
 l Before You Go...|QID|13920|M|16.07,29.85|L|46392 5|N|Kill and loot Wild Bucks in the area until you have 5 Venison Steak.\n[color=FF0000]NOTE: [/color]The drop rate is not the best.|
 R Blackfathom Deep|ACTIVE|13901^26890|M|14.03,14.72|N|Make your way to Blackfathoms Deep.|FLY|OLD|
 K Deep Despair|ACTIVE|13901|M|13.57,13.31|QO|1|S|
-l The Essence of Aku'Mai|ACTIVE|26890|M|13.57,13.31|QO|1|N|Head down the stairs to the bottom. When you reach the bottom, continue under the water until you come out inside the cave. Loot the blue crystals off the wall.\n[color=FF0000]NOTE: [/color]This is completed outside of the instance.|RANK|2|
+l The Essence of Aku'Mai|ACTIVE|26890|M|13.57,13.31|QO|1|N|Head down the stairs to the bottom. When you reach the bottom, continue under the water until you come out inside the cave. Loot the blue crystals off the wall.\n[color=FF0000]NOTE: [/color]This is completed outside of the instance.|RANK|1|
 K Deep Despair|ACTIVE|13901|M|13.57,13.31|QO|1|US|
 H Zoram'gar Outpost|ACTIVE|13920|M|PLAYER|N|Hearth back to Zoram'gar Outpost.|
 T Before You Go...|QID|13920|M|12.10,33.85|N|To Commander Grimfang.|
@@ -190,7 +190,7 @@ T Breathing Room|QID|13943|M|38.27,43.11|N|To Captain Goggath.|
 T Set Us Up the Bomb|QID|13942|M|37.98,43.86|N|To Tweedle.|
 A Small Stature, Short Fuse|QID|13944|M|37.98,43.86|N|From Tweedle.|PRE|13942|RANK|1|
 C Small Stature, Short Fuse|QID|13944|M|38.13,43.98|N|Use Tweedle's Improvised Explosive on the Broken-down Wagon.|U|46701|NC|
-T Small Stature, Short Fuse|QID|13944|M|38.27,43.11|N|To Captain Goggath.|
+T Small , Short Fuse|QID|13944|M|38.27,43.11|N|To Captain Goggath.|
 A Blastranaar!|QID|13947|M|38.27,43.11|N|From Captain Goggath.|PRE|13944|RANK|1|
 C Blastranaar!|QID|13947|M|38.08,42.22|N|Talk to Thraka when you're ready to bomb some stuff.\n[color=FF0000]NOTE: [/color]<1> to drop bombs and <2> to recall when you are done.|
 T Blastranaar!|QID|13947|M|38.27,43.11|N|To Captain Goggath.| ; Completes The Bombing of Astranaar
