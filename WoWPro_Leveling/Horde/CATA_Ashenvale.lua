@@ -195,7 +195,7 @@ A Blastranaar!|QID|13947|M|38.27,43.11|N|From Captain Goggath.|PRE|13944|RANK|1|
 C Blastranaar!|QID|13947|M|38.08,42.22|N|Talk to Thraka when you're ready to bomb some stuff.\n[color=FF0000]NOTE: [/color]<1> to drop bombs and <2> to recall when you are done.|
 T Blastranaar!|QID|13947|M|38.27,43.11|N|To Captain Goggath.| ; Completes The Bombing of Astranaar
 A Condition Critical!|QID|13958|M|38.27,43.11|N|From Captain Goggath.|PRE|13947|RANK|1|
-A Tweedle's Tiny Package|QID|13974|M|37.98,43.86|N|From Tweedle.|PRE|13947|RANK|1|
+A Tweedle's Tiny Parcel|QID|13974|M|37.98,43.86|N|From Tweedle.|PRE|13947|RANK|1|
 A Thunder Peak|QID|13879|M|38.77,43.33|N|From Broyk.|PRE|13947|RANK|1|
 R Thistlefur Village|ACTIVE|216^6462|M|38.79,38.15|N|Make your way to Thistlefur Village. How you get there is entirely up to you.|FLY|OLD|
 K Between a Rock and a Thistlefur|QID|216|QO|1|N|Kill Thistlefur Furblogs as you run into them. You'll have plenty of time to work on this.|S|
@@ -217,7 +217,7 @@ T Freedom to Ruul|QID|6482|M|74.11,60.91|N|To Yama Snowhoof.|
 K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Go kill Sharptalon and loot the claw.\n[color=FF0000]NOTE: [/color]You are leaving the area and this is the last opportunity to do this.|T|Sharptalon|US|RANK|3|
 F Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|
 A Thinning the... Herd?|QID|13967|M|49.75,65.08|N|From Senani Thunderheart.|RANK|2|
-T Tweedle's Tiny Package|QID|13974|M|49.96,67.25|N|To Flooz.|
+T Tweedle's Tiny Parcel|QID|13974|M|49.96,67.25|N|To Flooz.|
 A Mass Production|QID|13977|M|49.96,67.25|N|Wait a moment then get this quest from Flooz.|PRE|13974|RANK|2|
 A Simmer Down Now|QID|25|M|50.13,67.58|N|From Captain Tarkan.|RANK|2|
 h Silverwind Refuge|ACTIVE|6482|M|50.43,67.16|N|At Innkeeper Chin'toka.|
