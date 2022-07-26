@@ -120,7 +120,17 @@ T Silver Heart|QID|4084|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
 A Aquementas|QID|4005|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|PRE|4084|
 F Camp Mojache|ACTIVE|4120|M|51.53,82.21|Z|Felwood|
 T The Strength of Corruption|QID|4120|M|76.19,43.84|Z|Feralas|N|To Talo Thornhoof.|
-F Gadgetzan|ACTIVE|4005|M|75.45,44.35|Z|Feralas|QO|1|
+F Orgrimmar|ACTIVE|4293^4294|M|45.23,5.84|Z|Un'Goro Crater|
+b Tirisfal Glades|ACTIVE|4293^4294|M|50.89,13.86|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
+U Corrupt Tested Sample|ACTIVE|4293|N|Open the sample.|U|15103|O|
+A Testing for Corruption - Felwood|ACTIVE|-4561&4293|M|47.72,73.57|Z|Undercity|L|12236 5|N|From the Testing Equipment in the Apothecarium.|NOCACHE|
+T A Sample of Slime...|QID|4293|M|47.45,73.36|Z|1458|N|To Chemist Fuely beside you.|
+U Un'Goro Tested Sample|ACTIVE|4294|N|Open the sample.|U|15102|O|
+A Testing for Impurities - Un'Goro Crater|ACTIVE|-4561&4294|M|47.72,73.57|Z|Undercity|L|12236 5|N|From the Testing Equipment in the Apothecarium.|NOCACHE|
+T ... and a Batch of Ooze|QID|4294|M|47.45,73.36|Z|1458|N|To Chemist Fuely beside you.|
+A Melding of Influences|QID|4642|M|47.45,73.36|Z|1458|N|From Chemist Fuely.|PRE|4293&4294|
+b Durotar|ACTIVE|4642&4005|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppelin back to Durotar.|
+F Gadgetzan|ACTIVE|4005|M|45.13,63.90|Z|Orgrimmar|QO|1|
 R Lost Rigger Cove|ACTIVE|4005|M|68.57,41.43|Z|1446|QO|1|
 R Circle of Stones|ACTIVE|4005|M|70.41,49.92|CC|Z|Tanaris|QO|1|N|\n[color=FF0000]NOTE: [/color]If you jump just right where the fence meets the mountain, you can get over it. It's faster than trying to run through or around.
 U Eridan's Supplies|ACTIVE|4005|L|11173&11172&11169|N|Loot the items from the bag.|U|11617|O|
@@ -138,11 +148,6 @@ C Golden Flame|QID|3962|M|50.20,49.99|Z|Un'Goro Crater|L|11179|N|From the chest 
 R Marshal's Refuge|ACTIVE|3962|M|45.88,13.36|Z|Un'Goro Crater|
 
 T It's Dangerous to Go Alone|QID|3962|M|44.65,8.10|Z|Un'Goro Crater|N|To Linken.|
-F Orgrimmar|ACTIVE|4294|M|45.23,5.84|Z|Un'Goro Crater|
-b Tirisfal Glades|ACTIVE|4294|M|50.89,13.86|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
-U Un'Goro Tested Sample|ACTIVE|4294|N|Open the sample.|U|15102|O|
-A Testing for Impurities - Un'Goro Crater|ACTIVE|-4561&4294|M|47.72,73.57|Z|Undercity|L|12236 5|N|From the Testing Equipment in the Apothecarium.|NOCACHE|
-T ... and a Batch of Ooze|QID|4294|M|47.45,73.36|Z|1458|N|To Chemist Fuely beside you.|
 
 ]]
 end)
