@@ -146,7 +146,7 @@ T Bad News Bear-er|QID|13848|M|12.10,33.85|N|Turn in to Commander Grimfang.|
 A Keep the Fires Burning|QID|13890|M|12.10,33.85|N|From Commander Grimfang.|RANK|1|
 A Blackfathom Deeps|QID|26894|M|12.10,33.85|ELITE|N|[color=E6CC80]Dungeon: Blackfathom Deeps[/color]\nFrom Commander Grimfang.\nPick this up if you plan on running the Blackfathom Deeps instance.|RANK|3|
 A Lousy Pieces of Ship|QID|13883|M|11.57,35.31|N|From Dagrun Ragehammer. He paces back and forth.|RANK|2|
-A The Essence of Aku'Mai|QID|26890|M|11.57,35.31|ELITE|N|From Dagrun Ragehammer.|RANK|2|
+A The Essence of Aku'Mai|QID|26890|M|11.57,35.31|ELITE|N|From Dagrun Ragehammer.|RANK|1|
 A Naga at the Zoram Strand|QID|6442|M|12.66,35.39|N|From Marukai.|RANK|1|
 A Vorsha the Lasher|QID|6641|M|12.77,34.14|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash.|RANK|1|
 l Naga at the Zoram Strand|QID|6442|M|14.88,21.18|QO|1|N|Kill Wraithtail Nagas to loot their heads.|S|
