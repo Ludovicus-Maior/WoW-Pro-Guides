@@ -15,6 +15,7 @@ f Emerald Sanctuary|AVAILABLE|5156|M|51.53,82.21|Z|Felwood|N|At Gorrim.|
 A Verifying the Corruption|QID|5156|M|50.89,81.62|Z|Felwood|N|From Taronn Redfeather.|
 A Forces of Jaedenar|QID|5155|M|51.14,82.16|Z|Felwood|N|From Greta Mosshoof.|
 A Cleansing Felwood|QID|4102|M|46.75,83.04|Z|Felwood|N|From Maybess Riverbreeze.|
+C Corrupted Felwood Sample|QID|4293|L|12234 30|ITEM|12234|N|Any type of Ooze\nKill the Oozes as you make your way around Un'Goro.\n[color=FF0000]NOTE: [/color]It's recommended you gather 30 of them.|S|
 R Bloodvenom Post|AVAILABLE|4505|M|40.9,50.7;36.00,49.72|CC|Z|Felwood|
 f Bloodvenom Post|AVAILABLE|4505|M|34.44,53.97|Z|Felwood|N|At Brakkar.|
 A Well of Corruption|QID|4505|M|34.20,52.34|Z|Felwood|N|From Winna Hazzard.|
@@ -26,7 +27,9 @@ R Jaedenar|ACTIVE|5155|M|38.11,53.15|Z|Felwood|N|Follow the edge of the moutain 
 K Forces of Jaedenar|ACTIVE|5155|M|34.76,59.84|Z|Felwood|QO|1;2;3;4|N|Kill the required Jaedenar mobs.|
 R Ruins of Constellas|ACTIVE|4505|M|43.2,70.4;42.44,69.52|CC|Z|Felwood|N|Return to the main road and follow it south until you see the green pool. Follow the trail down into the Ruins.|
 C Well of Corruption|QID|4505|M|32.42,66.59|Z|Felwood|L|12567|N|Sticking to the northern edge of the mountain, follow it to the moonwell and fill the Hardened Flasket.|U|12566|NC|
+N Reputation Monitoring|ACTIVE|8460|N|Open the Reputation Tab (<U>) and locate the Timbermaw Hold Faction under 'Other'. Check the box 'Show as Experience Bar' and it will appear above the Exp bar.\n[color=FF0000]NOTE: [/color]Some factions will only show in the list once there's been a change in your rep with them.\n\nResults may vary depending upon your UI layout and other Addons.\nManually check this step off to continue.|
 R Deadwood Village|ACTIVE|8460^6162|M|47.60,84.00;47.28,87.18|CC|Z|Felwood|N|Return to the main road and make your way south to the big bend before Emerald Sanctuary. Continue southwest into Deadwood Village.|
+N Deadwood Headdress Feather|ACTIVE|8460|N|Keep any Feathers you find. They can be turned in lots of 5 to Nafien for Timbermaw Hold rep.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|REP|Timbermaw Hold;576;Hated-Unfriendly|
 K Timbermaw Ally|ACTIVE|8460|M|48.36,92.04|Z|Felwood|QO|1;2;3|N|Kill required Deadwood Village mobs.|S|
 K Overlord Ror|ACTIVE|6162|M|48.23,94.31|Z|Felwood|L|15879|ITEM|15879|N|Overlord Ror|
 K Timbermaw Ally|ACTIVE|8460|M|48.36,92.04|Z|Felwood|QO|1;2;3|N|Finish killing required Deadwood Village mobs.|US|
@@ -50,6 +53,7 @@ R Bloodvenom Post|ACTIVE|4506|M|40.9,50.7;36.00,49.72|CC|Z|Felwood|N|Retrace you
 C Corrupted Sabers|QID|4506|M|34.21,52.34|Z|Felwood|N|Speak with the cat to get the completion notification.\n[color=FF0000]NOTE: [/color]If you wait too long, the cat will despawn and you'll have to do the quest again.|CHAT|
 T Corrupted Sabers|QID|4506|M|34.21,52.34|Z|Felwood|N|From Winna Hazzard.|
 R Bloodvenom Falls|ACTIVE|5156|M|40.94,50.40|Z|Felwood|QO|1;2;3|N|Head to the main road and turn north. It's just to the other side of the intersection.|
+C Corrupted Felwood Sample|QID|4293|L|12234 30|ITEM|12234|N|Any type of Ooze\n[color=FF0000]NOTE: [/color]It's recommended you gather 30 of them.|US|
 R Shatter Scar Vale|ACTIVE|5156|M|41.25,44.86|QO|1;2;3|N|North side of the pool.|
 N Immolatus|ACTIVE|5156|QO|3|N|Keep an eye out for him. He's a level 56 Elite rare that spawns and patrols in the area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A What Niby Commands|QID|7601|M|41.55,45.00|Z|Felwood|N|From Niby the Almighty. He moves around, a lot.\n[color=FF0000]NOTE: [/color]This starts your Inferno quest chain.|C|Warlock|
@@ -69,15 +73,15 @@ C Rotting Wood|QID|8421|M|49.70,19.61|Z|Felwood|L|20613 10|ITEM|20613|N|Any 'tre
 R Irontree Cavern|ACTIVE|4102|M|55.81,17.28|Z|Felwood|QO|1|N|[color=FF0000]NOTE: [/color]You can also continue along the road to avoid fighting if you want.|
 C Cleansing Felwood|QID|4102|M|56.59,18.71|Z|Felwood|L|11503 15|ITEM|11503|N|Any Warpwood mob\nYou'll find them in/outside of the Irontree Cavern.|US|
 R Timbermaw Hold|ACTIVE|8462|M|64.76,13.82|Z|Felwood|N|Head back to the road and follow it east/north.|
-T Speak to Nafien|QID|8462|M|64.77,8.12|N|To Nafien, at the end of the road.|
-A Deadwood of the North|QID|8461|M|64.77,8.12|N|From Nafien.|
+T Speak to Nafien|QID|8462|M|64.77,8.12|Z|Felwood|N|To Nafien, at the end of the road.|
+A Deadwood of the North|QID|8461|M|64.77,8.12|Z|Felwood|N|From Nafien.|
 R Felpaw Village|ACTIVE|8461|M|63.70,14.69|Z|Felwood|N|Run back to the bottom of the hill and go north.
 A Deadwood Ritual Totem|QID|8470|N|Click on the Totem to start the quest.|U|20741|O|
 K Deadwood of the North|ACTIVE|8461|M|62.18,9.13|Z|Felwood|QO|1;2;3|N|Kill the required Deadwood mobs.|
-T Deadwood of the North|QID|8461|M|64.77,8.12|N|To Nafien, back at the top of the hill.|
-A Speak to Salfa|QID|8465|PRE|8461|
+T Deadwood of the North|QID|8461|M|64.77,8.12|Z|Felwood|N|To Nafien, back at the top of the hill.|
+A Speak to Salfa|QID|8465|M|64.77,8.12|Z|Felwood|N|From Nafien.|PRE|8461|
 R Winterspring|ACTIVE|8465|M|27.91,34.46|Z|Winterspring|N|Enter the cave and head straight through to the other side.|
-T Speak to Salfa|QID|8465|M|27.73,34.50|Z|Winterspring|N|To Salfa, standing just off to the side of the road beside the tunnel exit.
+T Speak to Salfa|QID|8465|M|27.73,34.50|Z|Winterspring|N|To Salfa, standing just off to the side of the road beside the tunnel exit.|
 A Winterfall Activity|QID|8464|M|27.73,34.50|Z|Winterspring|N|From Salfa.|
 T The New Springs|QID|980|M|31.27,45.17|Z|Winterspring|N|To Donova Snowden at her camp, south of the main intersection.|
 A Strange Sources|QID|4842|M|31.27,45.17|Z|Winterspring|N|From Donova Snowden.|PRE|980|
