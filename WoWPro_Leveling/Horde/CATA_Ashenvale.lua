@@ -24,7 +24,7 @@ T Rescue the Fallen|QID|13613|M|42.43,15.75|Z|Northern Barrens|N|To Dinah Halfmo
 T To Dinah, at Once!|QID|13620|M|42.43,15.75|Z|Northern Barrens|N|To Dinah Halfmoon.|
 A Gorat's Vengeance|QID|13621|M|42.43,15.75|Z|Northern Barrens|N|From Dinah Halfmoon.|PRE|13620|RANK|1|
 R Gorat's Corpse|ACTIVE|13621|M|64.16,84.51|CS|N|Head back to Gorat's body.
-C Gorat's Vengeance|QID|13621|M|65.70,82.19|N|Use Gorat's Imbued Blood on Gorat's corpse to rez him.\nAfter a brief conversation (one-sided), follow him to the spot where he will summon Captain Elendilad so you can kill him.|U|45023|
+K Gorat's Vengeance|QID|13621|M|65.70,82.19|QQ|1|N|Use Gorat's Imbued Blood on Gorat's corpse to rez him.\nAfter a brief conversation (one-sided), follow him to the spot where he will summon Captain Elendilad so you can kill him.|U|45023|
 T Gorat's Vengeance|QID|13621|M|42.74,14.91|Z|Northern Barrens|N|To Kadrak.|
 A Got Lumber?|QID|13628|M|42.26,15.20|Z|Northern Barrens|N|From Truun.|PRE|13621|RANK|1|
 C Got Lumber?|QID|13628|M|42.58,15.19|Z|Northern Barrens|QO|1|N|When you're ready to leave, speak with Kadrak to acquire the reins.|CHAT|
@@ -146,7 +146,7 @@ T Bad News Bear-er|QID|13848|M|12.10,33.85|N|Turn in to Commander Grimfang.|
 A Keep the Fires Burning|QID|13890|M|12.10,33.85|N|From Commander Grimfang.|RANK|1|
 A Blackfathom Deeps|QID|26894|M|12.10,33.85|ELITE|N|[color=E6CC80]Dungeon: Blackfathom Deeps[/color]\nFrom Commander Grimfang.\nPick this up if you plan on running the Blackfathom Deeps instance.|RANK|3|
 A Lousy Pieces of Ship|QID|13883|M|11.57,35.31|N|From Dagrun Ragehammer. He paces back and forth.|RANK|2|
-A The Essence of Aku'Mai|QID|26890|M|11.57,35.31|ELITE|N|From Dagrun Ragehammer.|RANK|1|
+A The Essence of Aku'Mai|QID|26890|M|11.57,35.31|N|From Dagrun Ragehammer.|RANK|1|
 A Naga at the Zoram Strand|QID|6442|M|12.66,35.39|N|From Marukai.|RANK|1|
 A Vorsha the Lasher|QID|6641|M|12.77,34.14|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash.|RANK|1|
 l Naga at the Zoram Strand|QID|6442|M|14.88,21.18|QO|1|N|Kill Wraithtail Nagas to loot their heads.|S|
@@ -220,7 +220,7 @@ A Thinning the... Herd?|QID|13967|M|49.75,65.08|N|From Senani Thunderheart.|RANK
 T Tweedle's Tiny Parcel|QID|13974|M|49.96,67.25|N|To Flooz.|
 A Mass Production|QID|13977|M|49.96,67.25|N|Wait a moment then get this quest from Flooz.|PRE|13974|RANK|2|
 A Simmer Down Now|QID|25|M|50.13,67.58|N|From Captain Tarkan.|RANK|2|
-h Silverwind Refuge|ACTIVE|25|M|50.43,67.16|N|At Innkeeper Chin'toka.|
+h Silverwind Refuge|AVAILABLE|26416|M|50.43,67.16|N|At Innkeeper Chin'toka.|
 A Well, Come to the Jungle|QID|26416|M|50.75,67.12|N|From Cromula. She paces back and forth between the two wings of the building.\n[color=FF0000]NOTE: [/color]This quest brings you to Orgrimmar at the end of the guide.|RANK|1|
 R Greenpaw Village|ACTIVE|13967|M|52.63,63.44|N|Make your way to Greenpaw Village, just to the north of Silverwind Refuge.|FLY|OLD|
 l Thinning the... Herd?|ACTIVE|13967|M|54.15,62.44|QO|1|N|Kill and loot Furbolg until you get 15 ears.|
