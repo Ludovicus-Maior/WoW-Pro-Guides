@@ -157,7 +157,7 @@ K Sunscale Ravagers|ACTIVE|14067|S|QO|1|M|62.74,61.66|N|Kill Sunscale Ravagers.|
 K Sunscale Scytheclaws|ACTIVE|14067|S|QO|2|M|62.74,61.66|N|Kill Sunscale Scytheclaws.|
 C Waptor Twapping|QID|14068|S|U|46853|M|63.13,59.18|N|Use the Waptor Twap near Raptors, then loot the trap.|
 l Stolen Silver|ACTIVE|14067|M|63.72,58.79|QO|3|N|Loot the Stolen Silver from the Stolen Silver Lockbox.|
-C It's Gotta be the Horn|QID|865|M|64.82,57.15|N|Kill Reaperclaw and his minions. Loot his horn.|
+C It's Gotta be the Horn|QID|865|M|64.82,57.15;65.10,61.60|CN|N|Kill Reaperclaw and his minions. Loot his horn. He wanders back and forth between the waypoints.|
 C Waptor Twapping|QID|14068|US|U|46853|M|63.13,59.18|N|Use the Waptor Twap near Raptors, then loot the trap.|
 K Sunscale Ravagers|QID|14067|US|QO|1|M|62.74,61.66|N|Kill Sunscale Ravagers.|
 K Sunscale Scytheclaws|QID|14067|US|QO|2|M|62.74,61.66|N|Kill Sunscale Scytheclaws.|
