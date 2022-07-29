@@ -248,8 +248,8 @@ for skill, data in pairs(WoWPro.ProfessionSkillLines) do
     end
 end
 
--- special handling for Classic because of the reduced addon API
-if WoWPro.CLASSIC or WoWPro.BC or WoWPro.WRATH then
+-- special handling for Classics because of the reduced addon API
+if not WoWPro.RETAIL then
 
     -- list of all available professions and SpellIDs with their names
     WoWPro.ProfessionSpellIDs = {
@@ -388,8 +388,8 @@ function WoWPro.UpdateTradeSkillsTable(tradeskills)
 end
 
 
--- special handling for Classic because of the reduced addon API
-if WoWPro.CLASSIC or WoWPro.BC or WoWPro.WRATH then
+-- special handling for Classics because of the reduced addon API
+if not WoWPro.RETAIL then
     -- scan Tradeskill information and recipes on Classic
     function WoWPro.ScanTrade()
         WoWPro:dbp("ScanTrade() for Classic")

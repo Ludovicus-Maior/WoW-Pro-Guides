@@ -923,7 +923,7 @@ function WoWPro.ParseSteps(steps)
                     WoWPro.RecordStuff(i)
                     i = i + 1
                 end
-			elseif (WoWPro.CLASSIC or WoWPro.BC) and (class == nil or WoWPro.SemiMatch(class, myclass)) and
+			elseif (not WoWPro.RETAIL) and (class == nil or WoWPro.SemiMatch(class, myclass)) and
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
                (gender == nil or gender == _G.UnitSex("player")) and
                (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
@@ -989,7 +989,7 @@ function WoWPro.LoadGuideStepsReal()
     local GID = WoWProDB.char.currentguide
     local AutoSwitch = WoWPro.Guides[GID].AutoSwitch
 
-    WoWPro:dbp("LoadGuideSteps(%s) AutoSwitch=%s",GID,tostring(AutoSwitch));
+    WoWPro:dbp("LoadGuideStepsReal(%s) AutoSwitch=%s",GID,tostring(AutoSwitch));
 
     -- Clear the caches
     WoWPro.ClearNpcFauxQuests(GID)

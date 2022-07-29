@@ -102,10 +102,10 @@ function WoWPro.TakeTaxiRetail(destination)
 end
 
 function WoWPro.TakeTaxi(destination)
-    if WoWPro.CLASSIC or WoWPro.BC then
-        WoWPro.TakeTaxiClassic(destination)
-    else
+    if WoWPro.RETAIL then
         WoWPro.TakeTaxiRetail(destination)
+    else
+        WoWPro.TakeTaxiClassic(destination)
     end
 end
 
@@ -285,7 +285,7 @@ local LUNARFALL_MAPID
 local FROSTWALL_MAPID
 
 function WoWPro.InGarrison()
-    if WoWPro.CLASSIC or WoWPro.BC then return false; end
+    if not WoWPro.RETAIL then return false; end
     if not LUNARFALL_MAPID then
         local zone, zm = WoWPro:ValidZone("Lunarfall!Instance")
         WoWPro:dbp("InGarrison: zone [%s] mapped to %d", zone, zm)
@@ -510,7 +510,7 @@ function WoWPro.RegisterEventHandler(event, handler)
 end
 
 function WoWPro.RegisterModernEventHandler(event, handler)
-    if WoWPro.CLASSIC or WoWPro.BC or WoWPro.WRATH then return end
+    if not WoWPro.RETAIL then return end
     WoWPro.EventTable[event] = true
     WoWPro[event] = handler
 end
