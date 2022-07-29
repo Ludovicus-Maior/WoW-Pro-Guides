@@ -15,7 +15,7 @@ f Emerald Sanctuary|AVAILABLE|5156|M|51.53,82.21|Z|Felwood|N|At Gorrim.|
 A Verifying the Corruption|QID|5156|M|50.89,81.62|Z|Felwood|N|From Taronn Redfeather.|
 A Forces of Jaedenar|QID|5155|M|51.14,82.16|Z|Felwood|N|From Greta Mosshoof.|
 A Cleansing Felwood|QID|4102|M|46.75,83.04|Z|Felwood|N|From Maybess Riverbreeze.|
-C Corrupted Felwood Sample|QID|4293|L|12234 30|ITEM|12234|N|Any type of Ooze\nKill the Oozes as you make your way around Un'Goro.\n[color=FF0000]NOTE: [/color]It's recommended you gather 30 of them.|S|
+C Corrupted Felwood Sample|QID|4293|L|12230 30|ITEM|12230|N|Any type of Ooze\nKill the Oozes as you make your way around Un'Goro.\n[color=FF0000]NOTE: [/color]It's recommended you gather 30 of them. The drop rate is almost 100%.|S|
 R Bloodvenom Post|AVAILABLE|4505|M|40.9,50.7;36.00,49.72|CC|Z|Felwood|
 f Bloodvenom Post|AVAILABLE|4505|M|34.44,53.97|Z|Felwood|N|At Brakkar.|
 A Well of Corruption|QID|4505|M|34.20,52.34|Z|Felwood|N|From Winna Hazzard.|
@@ -53,7 +53,7 @@ R Bloodvenom Post|ACTIVE|4506|M|40.9,50.7;36.00,49.72|CC|Z|Felwood|N|Retrace you
 C Corrupted Sabers|QID|4506|M|34.21,52.34|Z|Felwood|N|Speak with the cat to get the completion notification.\n[color=FF0000]NOTE: [/color]If you wait too long, the cat will despawn and you'll have to do the quest again.|CHAT|
 T Corrupted Sabers|QID|4506|M|34.21,52.34|Z|Felwood|N|From Winna Hazzard.|
 R Bloodvenom Falls|ACTIVE|5156|M|40.94,50.40|Z|Felwood|QO|1;2;3|N|Head to the main road and turn north. It's just to the other side of the intersection.|
-C Corrupted Felwood Sample|QID|4293|L|12234 30|ITEM|12234|N|Any type of Ooze\n[color=FF0000]NOTE: [/color]It's recommended you gather 30 of them.|US|
+C Corrupted Felwood Sample|QID|4293|L|12230 30|ITEM|12230|N|Any type of Ooze\n[color=FF0000]NOTE: [/color]It's recommended you gather 30 of them. The drop rate is almost 100%.|US|
 R Shatter Scar Vale|ACTIVE|5156|M|41.25,44.86|QO|1;2;3|N|North side of the pool.|
 N Immolatus|ACTIVE|5156|QO|3|N|Keep an eye out for him. He's a level 56 Elite rare that spawns and patrols in the area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A What Niby Commands|QID|7601|M|41.55,45.00|Z|Felwood|N|From Niby the Almighty. He moves around, a lot.\n[color=FF0000]NOTE: [/color]This starts your Inferno quest chain.|C|Warlock|

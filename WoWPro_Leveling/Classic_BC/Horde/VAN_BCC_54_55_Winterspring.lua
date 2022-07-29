@@ -142,11 +142,13 @@ T Aquementas|QID|4005|M|41.92,2.70|Z|Un'Goro Crater|N|To J. D. Callie.|
 A Linken's Adventure|QID|3961|M|41.92,2.70|Z|Un'Goro Crater|N|From J. D. Callie.|PRE|4005|
 T Linken's Adventure|QID|3961|M|44.65,8.10|Z|Un'Goro Crater|N|To Linken.|
 A It's Dangerous to Go Alone|QID|3962|M|44.65,8.10|Z|Un'Goro Crater|N|From Linken.|PRE|3961|
+K Gargantuan Ooze|ACTIVE|4642|L|12291|ITEM|12291|N|Primal/Gargantuan Ooze\nThe Primal Ooze will become a Gargantuan when you use the item on it.\n[color=FF0000]NOTE: [/color]The item is a 1-time use. If you fail, you have to go get another.|U|12288|S|
 R Fire Plume Ridge|ACTIVE|3962|M|50.20,49.99|Z|Un'Goro Crater|QO|1|N|Make your way to the volcano in the center of Un'Goro.|
 K Blazerunner|ACTIVE|3962|M|50.20,49.99|Z|Un'Goro Crater|QO|1|N|Use the Silver Totem of Aquementas to dispel Blazerunner's Aura whenever he puts it up.\n[color=FF0000]NOTE: [/color]Make sure you have your 1-handed weapon equiped.|T|Blazerunner|U|11522|
 C Golden Flame|QID|3962|M|50.20,49.99|Z|Un'Goro Crater|L|11179|N|From the chest inside the cave Blazerunner was guarding.\n[color=FF0000]NOTE: [/color]Don't forget to re-equip your 2-handed weapon if you changed it.|
+R Marshal's Refuge|ACTIVE|4642|M|45.88,13.36|Z|Un'Goro Crater|L|12291|S!US|
+K Gargantuan Ooze|ACTIVE|4642|L|12291|ITEM|12291|N|Primal/Gargantuan Ooze\nThe Primal Ooze will become a Gargantuan when you use the item on it.\n[color=FF0000]NOTE: [/color]The item is a 1-time use. If you fail, you have to go get another.|U|12288|US|
 R Marshal's Refuge|ACTIVE|3962|M|45.88,13.36|Z|Un'Goro Crater|
-
 T It's Dangerous to Go Alone|QID|3962|M|44.65,8.10|Z|Un'Goro Crater|N|To Linken.|
 
 ]]
