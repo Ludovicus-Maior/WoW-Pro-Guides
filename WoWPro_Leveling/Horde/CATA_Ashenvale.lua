@@ -23,8 +23,8 @@ T Empty Quivers|QID|13615|M|42.26,15.20|Z|Northern Barrens|N|To Truun.|
 T Rescue the Fallen|QID|13613|M|42.43,15.75|Z|Northern Barrens|N|To Dinah Halfmoon.|
 T To Dinah, at Once!|QID|13620|M|42.43,15.75|Z|Northern Barrens|N|To Dinah Halfmoon.|
 A Gorat's Vengeance|QID|13621|M|42.43,15.75|Z|Northern Barrens|N|From Dinah Halfmoon.|PRE|13620|RANK|1|
-R Gorat's Corpse|ACTIVE|13621|M|64.16,84.51|CS|N|Head back to Gorat's body.|FLY|OLD|
-C Gorat's Vengeance|QID|13621|M|65.70,82.19|N|Use Gorat's Imbued Blood on Gorat's corpse to rez him.\nAfter a brief conversation (one-sided), follow him to the spot where he will summon Captain Elendilad so you can kill him.|U|45023|
+R Gorat's Corpse|ACTIVE|13621|M|64.16,84.51|CS|N|Head back to Gorat's body.
+K Gorat's Vengeance|QID|13621|M|65.70,82.19|QQ|1|N|Use Gorat's Imbued Blood on Gorat's corpse to rez him.\nAfter a brief conversation (one-sided), follow him to the spot where he will summon Captain Elendilad so you can kill him.|U|45023|
 T Gorat's Vengeance|QID|13621|M|42.74,14.91|Z|Northern Barrens|N|To Kadrak.|
 A Got Lumber?|QID|13628|M|42.26,15.20|Z|Northern Barrens|N|From Truun.|PRE|13621|RANK|1|
 C Got Lumber?|QID|13628|M|42.58,15.19|Z|Northern Barrens|QO|1|N|When you're ready to leave, speak with Kadrak to acquire the reins.|CHAT|
@@ -146,7 +146,7 @@ T Bad News Bear-er|QID|13848|M|12.10,33.85|N|Turn in to Commander Grimfang.|
 A Keep the Fires Burning|QID|13890|M|12.10,33.85|N|From Commander Grimfang.|RANK|1|
 A Blackfathom Deeps|QID|26894|M|12.10,33.85|ELITE|N|[color=E6CC80]Dungeon: Blackfathom Deeps[/color]\nFrom Commander Grimfang.\nPick this up if you plan on running the Blackfathom Deeps instance.|RANK|3|
 A Lousy Pieces of Ship|QID|13883|M|11.57,35.31|N|From Dagrun Ragehammer. He paces back and forth.|RANK|2|
-A The Essence of Aku'Mai|QID|26890|M|11.57,35.31|ELITE|N|[color=E6CC80]Dungeon: Blackfathom Deeps[/color]\nFrom Dagrun Ragehammer.|RANK|3|
+A The Essence of Aku'Mai|QID|26890|M|11.57,35.31|N|From Dagrun Ragehammer.|RANK|1|
 A Naga at the Zoram Strand|QID|6442|M|12.66,35.39|N|From Marukai.|RANK|1|
 A Vorsha the Lasher|QID|6641|M|12.77,34.14|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash.|RANK|1|
 l Naga at the Zoram Strand|QID|6442|M|14.88,21.18|QO|1|N|Kill Wraithtail Nagas to loot their heads.|S|
@@ -166,7 +166,7 @@ T Lousy Pieces of Ship|QID|13883|M|11.57,35.27|N|To Dagrun Ragehammer.|
 l Before You Go...|QID|13920|M|16.07,29.85|L|46392 5|N|Kill and loot Wild Bucks in the area until you have 5 Venison Steak.\n[color=FF0000]NOTE: [/color]The drop rate is not the best.|
 R Blackfathom Deep|ACTIVE|13901^26890|M|14.03,14.72|N|Make your way to Blackfathoms Deep.|FLY|OLD|
 K Deep Despair|ACTIVE|13901|M|13.57,13.31|QO|1|S|
-l The Essence of Aku'Mai|ACTIVE|26890|M|13.57,13.31|QO|1|N|Head down the stairs to the bottom. When you reach the bottom, continue under the water until you come out inside the cave. Loot the blue crystals off the wall.\n[color=FF0000]NOTE: [/color]This is completed outside of the instance.|RANK|2|
+l The Essence of Aku'Mai|ACTIVE|26890|M|13.57,13.31|QO|1|N|Head down the stairs to the bottom. When you reach the bottom, continue under the water until you come out inside the cave. Loot the blue crystals off the wall.\n[color=FF0000]NOTE: [/color]This is completed outside of the instance.|RANK|1|
 K Deep Despair|ACTIVE|13901|M|13.57,13.31|QO|1|US|
 H Zoram'gar Outpost|ACTIVE|13920|M|PLAYER|N|Hearth back to Zoram'gar Outpost.|
 T Before You Go...|QID|13920|M|12.10,33.85|N|To Commander Grimfang.|
@@ -188,14 +188,14 @@ K Breathing Room|ACTIVE|13943|M|34.96,45.77|QO|1;2|N|Kill Astranaar Skirmishers 
 l Set Us Up the Bomb|QID|13942|M|39.51,47.54|QO|1|N|Finish collecting the Moon-Kissed Clay.|US|
 T Breathing Room|QID|13943|M|38.27,43.11|N|To Captain Goggath.|
 T Set Us Up the Bomb|QID|13942|M|37.98,43.86|N|To Tweedle.|
-A Small Hands, Short Fuse|QID|13944|M|37.98,43.86|N|From Tweedle.|PRE|13942|RANK|1|
-C Small Hands, Short Fuse|QID|13944|M|38.13,43.98|N|Use Tweedle's Improvised Explosive on the Broken-down Wagon.|U|46701|NC|
-T Small Hands, Short Fuse|QID|13944|M|38.27,43.11|N|To Captain Goggath.|
+A Small Stature, Short Fuse|QID|13944|M|37.98,43.86|N|From Tweedle.|PRE|13942|RANK|1|
+C Small Stature, Short Fuse|QID|13944|M|38.13,43.98|N|Use Tweedle's Improvised Explosive on the Broken-down Wagon.|U|46701|NC|
+T Small Stature, Short Fuse|QID|13944|M|38.27,43.11|N|To Captain Goggath.|
 A Blastranaar!|QID|13947|M|38.27,43.11|N|From Captain Goggath.|PRE|13944|RANK|1|
 C Blastranaar!|QID|13947|M|38.08,42.22|N|Talk to Thraka when you're ready to bomb some stuff.\n[color=FF0000]NOTE: [/color]<1> to drop bombs and <2> to recall when you are done.|
 T Blastranaar!|QID|13947|M|38.27,43.11|N|To Captain Goggath.| ; Completes The Bombing of Astranaar
 A Condition Critical!|QID|13958|M|38.27,43.11|N|From Captain Goggath.|PRE|13947|RANK|1|
-A Tweedle's Tiny Package|QID|13974|M|37.98,43.86|N|From Tweedle.|PRE|13947|RANK|1|
+A Tweedle's Tiny Parcel|QID|13974|M|37.98,43.86|N|From Tweedle.|PRE|13947|RANK|1|
 A Thunder Peak|QID|13879|M|38.77,43.33|N|From Broyk.|PRE|13947|RANK|1|
 R Thistlefur Village|ACTIVE|216^6462|M|38.79,38.15|N|Make your way to Thistlefur Village. How you get there is entirely up to you.|FLY|OLD|
 K Between a Rock and a Thistlefur|QID|216|QO|1|N|Kill Thistlefur Furblogs as you run into them. You'll have plenty of time to work on this.|S|
@@ -217,10 +217,10 @@ T Freedom to Ruul|QID|6482|M|74.11,60.91|N|To Yama Snowhoof.|
 K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Go kill Sharptalon and loot the claw.\n[color=FF0000]NOTE: [/color]You are leaving the area and this is the last opportunity to do this.|T|Sharptalon|US|RANK|3|
 F Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|
 A Thinning the... Herd?|QID|13967|M|49.75,65.08|N|From Senani Thunderheart.|RANK|2|
-T Tweedle's Tiny Package|QID|13974|M|49.96,67.25|N|To Flooz.|
+T Tweedle's Tiny Parcel|QID|13974|M|49.96,67.25|N|To Flooz.|
 A Mass Production|QID|13977|M|49.96,67.25|N|Wait a moment then get this quest from Flooz.|PRE|13974|RANK|2|
 A Simmer Down Now|QID|25|M|50.13,67.58|N|From Captain Tarkan.|RANK|2|
-h Silverwind Refuge|ACTIVE|6482|M|50.43,67.16|N|At Innkeeper Chin'toka.|
+h Silverwind Refuge|AVAILABLE|26416|M|50.43,67.16|N|At Innkeeper Chin'toka.|
 A Well, Come to the Jungle|QID|26416|M|50.75,67.12|N|From Cromula. She paces back and forth between the two wings of the building.\n[color=FF0000]NOTE: [/color]This quest brings you to Orgrimmar at the end of the guide.|RANK|1|
 R Greenpaw Village|ACTIVE|13967|M|52.63,63.44|N|Make your way to Greenpaw Village, just to the north of Silverwind Refuge.|FLY|OLD|
 l Thinning the... Herd?|ACTIVE|13967|M|54.15,62.44|QO|1|N|Kill and loot Furbolg until you get 15 ears.|
