@@ -723,7 +723,7 @@ F Hammerfall|AVAILABLE|6622|M|81.71,81.75|Z|1425;Hinterlands|N|[color=FF0000]NOT
 A Triage|QID|6622|M|73.41,36.90|Z|1417;Arathi Highlands|N|From Doctor Gregory Victor.\n[color=FF0000]NOTE: [/color]You cannot accept the quest if someone is on it.|P|First Aid;129;0+225|IZ|1417;Arathi Highlands|
 C Triage|QID|6622|M|73.03,36.86|Z|1417; Arathi Highlands|QO|1|N|Stand in the middle row, in the middle of the grid and begin targetting the Critically Injured, followed by the Badly and finally, any injured talking about dying.\nAs soon as you start healing your target, switch to your next target and be ready to heal them... rinse and repeat until done.|U|16991|NC|P|First Aid;129;0+225|IZ|1417;Arathi Highlands|
 T Triage|QID|6622|M|73.41,36.90|Z|1417;Arathi Highlands|N|To Doctor Gregory Victor.\n[color=FF0000]NOTE: [/color]Most importantly, turn in the quest as soon as you get your 15. You cannot turn in the quest if someone starts it before you turn it in.|
-
+* Triage Bandage|AVAILABLE|-6622|ACTIVE|-6622|N|You no longer require this quest item. It can be safely destroyed.|U|16991|
 ; --- Undercity/Orgrimmar
 F Undercity|ACTIVE|2995|M|81.71,81.75|Z|1425|IZ|1425;Hinterlands|
 F Undercity|ACTIVE|2995|M|73.07,32.61|Z|Arathi Highlands|IZ|1417;Arathi Highlands|
