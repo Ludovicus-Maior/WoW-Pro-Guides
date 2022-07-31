@@ -1,8 +1,8 @@
 
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_Winterspring', 'Leveling', 'Winterspring', 'Jame', 'Horde', 2)
-WoWPro:GuideName(guide, 'Winterspring (54-55)')
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_Winterspring', 'Leveling', 'Winterspring', 'WoWPro Team', 'Horde', 2)
+WoWPro:GuideName(guide, 'Winterspring')
 WoWPro:GuideLevels(guide, 54, 55, 54.75)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Western_Plaguelands')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Hellfire_Peninsula')
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -123,12 +123,16 @@ T The Strength of Corruption|QID|4120|M|76.19,43.84|Z|Feralas|N|To Talo Thornhoo
 F Orgrimmar|ACTIVE|4293^4294|M|45.23,5.84|Z|Un'Goro Crater|
 b Tirisfal Glades|ACTIVE|4293^4294|M|50.89,13.86|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
 U Corrupt Tested Sample|ACTIVE|4293|N|Open the sample.|U|15103|O|
-A Testing for Corruption - Felwood|ACTIVE|-4561&4293|M|47.72,73.57|Z|Undercity|L|12236 5|N|From the Testing Equipment in the Apothecarium.|NOCACHE|
-T A Sample of Slime...|QID|4293|M|47.45,73.36|Z|1458|N|To Chemist Fuely beside you.|
-U Un'Goro Tested Sample|ACTIVE|4294|N|Open the sample.|U|15102|O|
+A Testing for Corruption - Felwood|ACTIVE|-4561&4293|M|47.72,73.57|Z|Undercity|L|12234 5|N|From the Testing Equipment in the Apothecarium.|NOCACHE|
+A Testing for Corruption - Felwood|ACTIVE|-4561&4293|M|47.72,73.57|Z|Undercity|L|12230 -1|N|From the Testing Equipment in the Apothecarium.\n[color=FF0000]NOTE: [/color]Finish testing the rest of your Samples before you turn this in 'A Sample of Slime...'; as you will no longer be able to after that.|NOCACHE|
+T A Sample of Slime...|QID|4293|M|47.45,73.36|Z|1458|N|To Chemist Fuely beside you.|U|15102|O|
+U Un'Goro Tested Sample|ACTIVE|4294|N|Open the sample.|
 A Testing for Impurities - Un'Goro Crater|ACTIVE|-4561&4294|M|47.72,73.57|Z|Undercity|L|12236 5|N|From the Testing Equipment in the Apothecarium.|NOCACHE|
+A Testing for Impurities - Un'Goro Crater|ACTIVE|-4561&2494|M|47.72,73.57|Z|Undercity|L|12235 -1|N|From the Testing Equipment in the Apothecarium.\n[color=FF0000]NOTE: [/color]Finish testing the rest of your Samples before you turn this in '... and a Batch of Ooze'; as you will no longer be able to after that.|NOCACHE|
 T ... and a Batch of Ooze|QID|4294|M|47.45,73.36|Z|1458|N|To Chemist Fuely beside you.|
 A Melding of Influences|QID|4642|M|47.45,73.36|Z|1458|N|From Chemist Fuely.|PRE|4293&4294|
+* Felwood Slime Sample|ACTIVE|-4293|AVAILABLE|-4293|N|You can no longer use these. Free up some bag space.|U|12230|
+* Un'Goro Slime Sample|ACTIVE|-4294|AVAILABLE|-4294|N|You can no longer use these. Free up some bag space.|U|12235|
 b Durotar|ACTIVE|4642&4005|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppelin back to Durotar.|
 F Gadgetzan|ACTIVE|4005|M|45.13,63.90|Z|Orgrimmar|QO|1|
 R Lost Rigger Cove|ACTIVE|4005|M|68.57,41.43|Z|1446|QO|1|
@@ -142,14 +146,22 @@ T Aquementas|QID|4005|M|41.92,2.70|Z|Un'Goro Crater|N|To J. D. Callie.|
 A Linken's Adventure|QID|3961|M|41.92,2.70|Z|Un'Goro Crater|N|From J. D. Callie.|PRE|4005|
 T Linken's Adventure|QID|3961|M|44.65,8.10|Z|Un'Goro Crater|N|To Linken.|
 A It's Dangerous to Go Alone|QID|3962|M|44.65,8.10|Z|Un'Goro Crater|N|From Linken.|PRE|3961|
-K Gargantuan Ooze|ACTIVE|4642|L|12291|ITEM|12291|N|Primal/Gargantuan Ooze\nThe Primal Ooze will become a Gargantuan when you use the item on it.\n[color=FF0000]NOTE: [/color]The item is a 1-time use. If you fail, you have to go get another.|U|12288|S|
+K Gargantuan Ooze|ACTIVE|4642|L|12291|ITEM|12291|N|Primal/Gargantuan Ooze\nThe Primal Ooze will become a Gargantuan when you use the Corrupt Ooze on it.|U|12288|S|
 R Fire Plume Ridge|ACTIVE|3962|M|50.20,49.99|Z|Un'Goro Crater|QO|1|N|Make your way to the volcano in the center of Un'Goro.|
 K Blazerunner|ACTIVE|3962|M|50.20,49.99|Z|Un'Goro Crater|QO|1|N|Use the Silver Totem of Aquementas to dispel Blazerunner's Aura whenever he puts it up.\n[color=FF0000]NOTE: [/color]Make sure you have your 1-handed weapon equiped.|T|Blazerunner|U|11522|
 C Golden Flame|QID|3962|M|50.20,49.99|Z|Un'Goro Crater|L|11179|N|From the chest inside the cave Blazerunner was guarding.\n[color=FF0000]NOTE: [/color]Don't forget to re-equip your 2-handed weapon if you changed it.|
 R Marshal's Refuge|ACTIVE|4642|M|45.88,13.36|Z|Un'Goro Crater|L|12291|S!US|
-K Gargantuan Ooze|ACTIVE|4642|L|12291|ITEM|12291|N|Primal/Gargantuan Ooze\nThe Primal Ooze will become a Gargantuan when you use the item on it.\n[color=FF0000]NOTE: [/color]The item is a 1-time use. If you fail, you have to go get another.|U|12288|US|
-R Marshal's Refuge|ACTIVE|3962|M|45.88,13.36|Z|Un'Goro Crater|
+K Gargantuan Ooze|ACTIVE|4642|L|12291|ITEM|12291|N|Primal/Gargantuan Ooze\nThe Primal Ooze will become a Gargantuan when you use the Corrupt Ooze on it.|U|12288|US|
+R Marshal's Refuge|ACTIVE|3962|M|45.88,13.36|Z|Un'Goro Crater|S|
+L Level 58|ACTIVE|3962|N|Grind until you are within 10K of lv 58.|
 T It's Dangerous to Go Alone|QID|3962|M|44.65,8.10|Z|Un'Goro Crater|N|To Linken.|
-
+F Orgrimmar|ACTIVE|4642|M|45.23,5.84|Z|Un'Goro Crater|C|-Druid|
+F Thunder Bluff|ACTIVE|4642|M|45.23,5.84|Z|Un'Goro Crater|C|Druid|
+= Level 58|ACTIVE|4642|N|Do your level 58 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+b Tirisfal Glades|ACTIVE|4642|M|50.89,13.86|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
+T Melding of Influences|QID|4642|M|47.45,73.36|Z|1458|N|To Chemist Fuely.|
+F Flame Crest|ACTIVE|4810|M|63.26,48.54|Z|Undercity|
+T Return to Tinkee|QID|4810|M|65.23,24.01|Z|1428;Burning Steppes|N|To Tinkee Steamboil.|
+F Stonard|AVAILABLE|9407^10046|ACTIVE|-64217^-64063|M|65.62,24.08|Z|Burning Steppes|
 ]]
 end)
