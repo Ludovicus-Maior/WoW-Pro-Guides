@@ -717,8 +717,16 @@ T Stalking the Stalkers|QID|7828|M|79.16,79.53|Z|1425|N|To Huntsman Markhor.|
 T Hunt the Savages|QID|7829|M|79.16,79.53|Z|1425|N|To Huntsman Markhor.|
 T Avenging the Fallen|QID|7830|M|79.16,79.53|Z|1425|N|To Huntsman Markhor.|
 
+N Artisan First Aid|AVAILABLE|6622|N|If you are interested, now would be a good time to unlock your First Aid to 300 (provided you have reached 225 in First Aid).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|P|First Aid;129;0+150|
+F Hammerfall|AVAILABLE|6622|M|81.71,81.75|Z|1425;Hinterlands|N|[color=FF0000]NOTE: [/color]Skip this step if you don't want to do your First Aid.|
+= First Aid|AVAILABLE|6622|N|You need to up your First Aid to 225 to start the quest.|P|First Aid;129;0+225;1|IZ|1417;Arathi Highlands|
+A Triage|QID|6622|M|73.41,36.90|Z|1417;Arathi Highlands|N|From Doctor Gregory Victor.\n[color=FF0000]NOTE: [/color]You cannot accept the quest if someone is on it.|P|First Aid;129;0+225|IZ|1417;Arathi Highlands|
+C Triage|QID|6622|M|73.03,36.86|Z|1417; Arathi Highlands|QO|1|N|Stand in the middle row, in the middle of the grid and begin targetting the Critically Injured, followed by the Badly and finally, any injured talking about dying.\nAs soon as you start healing your target, switch to your next target and be ready to heal them... rinse and repeat until done.|U|16991|NC|P|First Aid;129;0+225|IZ|1417;Arathi Highlands|
+T Triage|QID|6622|M|73.41,36.90|Z|1417;Arathi Highlands|N|To Doctor Gregory Victor.\n[color=FF0000]NOTE: [/color]Most importantly, turn in the quest as soon as you get your 15. You cannot turn in the quest if someone starts it before you turn it in.|
+* Triage Bandage|AVAILABLE|-6622|ACTIVE|-6622|N|You no longer require this quest item. It can be safely destroyed.|U|16991|
 ; --- Undercity/Orgrimmar
-F Undercity|ACTIVE|2995|M|81.71,81.75|Z|1425|
+F Undercity|ACTIVE|2995|M|81.71,81.75|Z|1425|IZ|1425;Hinterlands|
+F Undercity|ACTIVE|2995|M|73.07,32.61|Z|Arathi Highlands|IZ|1417;Arathi Highlands|
 T Lines of Communication|QID|2995|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe in the Magic Quarter.|
 T Rin'ji's Secret|QID|2782|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe.|
 T Oran's Gratitude|QID|8273|M|73.07,32.85|Z|1458|N|To Oran Snakewrithe.|
