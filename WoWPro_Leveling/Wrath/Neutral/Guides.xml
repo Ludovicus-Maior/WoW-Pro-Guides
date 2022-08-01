@@ -1,2 +1,4 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="002_77_78_Scoot_ZulDrak.lua"/>
+	<Script file="002_78_79_Scoot_Sholazar_Basin.lua"/>
 </Ui>
