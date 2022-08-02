@@ -8,69 +8,69 @@ WoWPro:GuideQuestTriggers(guide,9407,28705)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A The Dark Portal|QID|64217^64063|N|From your class trainer. I wouldn't advise going to HFP alone at level 58, it will be painful. If you are not a boosted toon, this quest won't be available. Right click the step to close.|
-C The Dark Portal|QID|64217^64063|QO|1|M|50.69,12.89|Z|Durotar|N|Talk to Snurk at the top of the zep tower and then get on the zep when it arrives.|
-C The Dark Portal|QID|64217^64063|QO|2|M|32.54,29.36|Z|Stranglethorn Vale|CHAT|N|Talk to Thysta the flight master in Grom'gul for a free flight to Stonard.|
-b Grom'gul Base Camp|ACTIVE|-64217^-64063|M|50.69,12.89|Z|Durotar|N|Take the Zep to Grom'gul (or bug a mage for portal to Stonard)|AVAILABLE|10120|
-F Stonard|ACTIVE|-64217^-64063|M|32.54,29.36|Z|Stranglethorn Vale|N|Fly to Stonard in the Swamp of Sorrows.|AVAILABLE|10120|
-R Blasted Lands|AVAILABLE|10120|M|51.93,4.48|Z|Blasted Lands|N|Mount up and run to the Blasted lands.|
-T The Dark Portal|QID|64217^64063|M|58.06,56|Z|Blasted Lands|N|To Warlord Dar'toon.|
-A Through the Dark Portal|QID|9407^10046|M|58.06,56|Z|Blasted Lands|N|From Warlord Dar'toon.|
+A The Dark Portal|QID|64217^64063|N|From your class trainer. I wouldn't advise going to HFP alone at level 58, it will be painful.|PRE|64052|
+C The Dark Portal|QID|64217^64063|M|50.69,12.89|Z|Durotar|QO|1|N|Talk to Snurk at the top of the zep tower and then get on the zep when it arrives.|CHAT|
+F The Dark Portal|ACTIVE|64217^64063|M|32.54,29.36|Z|Stranglethorn Vale|QO|2|N|Talk to Thysta the flight master in Grom'gul for a free flight to Stonard.|CHAT|
+b Grom'gul Base Camp|ACTIVE|-64217^-64063|AVAILABLE|10120|M|50.69,12.89|Z|Durotar|N|Take the Zep to Grom'gul (or bug a mage for portal to Stonard)|IZ|1411;Durotar^1454;Orgrimmar|
+F Stonard|ACTIVE|-64217^-64063|AVAILABLE|10120|M|32.54,29.36|Z|Stranglethorn Vale|N|Fly to Stonard in the Swamp of Sorrows.|
+R Blasted Lands|AVAILABLE|10120|M|51.93,4.48|Z|Blasted Lands|N|Follow the road south.|
+T The Dark Portal|QID|64217^64063|M|58.06,56.00|Z|Blasted Lands|N|To Warlord Dar'toon.|
+A Through the Dark Portal|QID|9407^10046|M|58.06,56.00|Z|Blasted Lands|N|From Warlord Dar'toon.|
 R Hellfire Peninsula|ACTIVE|9407^10046|M|58.74,60.78|Z|Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
 T Through the Dark Portal|QID|9407^10046|M|87.36,49.80|N|To Lieutenant General Orion.|
 A Arrival in Outland|QID|10120|M|87.36,49.80|N|From Lieutenant General Orion.|
 T Arrival in Outland|QID|10120|M|87.33,48.17|N|To Vlagga Freyfeather.|
 A Journey to Thrallmar|QID|10289|M|87.33,48.17|N|From Vlagga Freyfeather.|PRE|10120|
-C Thrallmar|QID|10289|M|87.33,48.17|CHAT|N|Talk to Vlagga Freyfeather and have her send you to Thrallmar.|
+F Thrallmar|ACTIVE|10289|M|87.33,48.17|
 T Journey to Thrallmar|QID|10289|M|55.87,36.99|N|To General Krakork.|
 A Report to Nazgrel|QID|10291|M|55.87,36.99|N|From General Krakork.|PRE|10289|
-h Thrallmar|QID|10291|M|56.70,37.47|N|At Floyd Pinkus.|
-T Report to Nazgrel|QID|10291|M|55.05,35.96|N|To Nazgrel.|
+h Thrallmar|ACTIVE|10291|M|56.70,37.47|N|At Floyd Pinkus.|
+T Report to Nazgrel|QID|10291|M|55.02,35.95|N|To Nazgrel.|
 A Eradicate the Burning Legion|QID|10121|M|55.06,35.96|N|From Nazgrel.|PRE|10291|
-A Bonechewer Blood|QID|10450|M|55.11,36.34|N|From Vurtok Axebreaker.|
-A I Work... For the Horde!|QID|10086|M|55.20,38.75|N|From Megzeg Nukklebust.|
-T Eradicate the Burning Legion|QID|10121|M|58.03,41.25|N|To Sergeant Shatterskull.|
-A Felspark Ravine|QID|10123|M|58.03,41.25|N|From Sergeant Shatterskull.|PRE|10121|
-C Felspark Ravine|QID|10123|M|61.08,38.80|N|Kill the needed demons.|
-C Bonechewer Blood|QID|10450|M|57.60,46.61|N|Kill and loot orcs for their blood. Orcs are on both side of ravine.|S|
-C I Work... For the Horde!|QID|10086|M|59.03,45.00|NC|N|Pick up the sparkling pieces of wood and metal.|
-C Bonechewer Blood|QID|10450|M|56.5,47.0|N|Kill and loot orcs for their blood.|US|
-T Felspark Ravine|QID|10123|M|58.03,41.25|N|To Sergeant Shatterskull.|
-A Forward Base: Reaver's Fall|QID|10124|M|58.03,41.25|N|From Sergeant Shatterskull.|PRE|10123|
-T I Work... For the Horde!|QID|10086|M|55.22,38.78|N|To Megzeg Nukklebust.|
-A Burn It Up... For the Horde!|QID|10087|M|55.22,38.78|N|From Megzeg Nukklebust.|PRE|10086|
-T Bonechewer Blood|QID|10450|M|55.11,36.34|N|To Vurtok Axebreaker.|
-A Apothecary Zelana|QID|10449|M|55.11,36.34|N|From Vurtok Axebreaker.|PRE|10450|
-T Forward Base: Reaver's Fall|QID|10124|M|65.87,43.63|N|To Forward Commander To'arch.|
-A Disrupt Their Reinforcements|QID|10208|M|65.87,43.63|N|From Forward Commander To'arch.|PRE|10124|
-T Apothecary Zelana|QID|10449|M|66.2,42.0|N|To Apothecary Zelana.|
-A Spinebreaker Post|QID|10242|M|66.2,42.0|N|From Apothecary Zelana.|
-l Demonic Rune Stones|QID|10208|M|70.91,45.28|L|28513 4|N|Kill demons in the area until you have 4 Demonic Rune Stones.|
-C Disrupt Their Reinforcements|QID|10208|QO|1|M|70.82,45.44|NC|N|Step inside the gates and right-click to disable Port Xilus.|
-l Demonic Rune Stones|QID|10208|M|73.98,39.11|L|28513 4|N|Kill demons in the area until you have 4 Demonic Rune Stones.|
-C Disrupt Their Reinforcements|NC|QID|10208|QO|2|M|74.00,38.75|N|Step inside the gates and right-click to disable Port Kruul.|
-T Disrupt Their Reinforcements|QID|10208|M|65.87,43.63|N|To Forward Commander To'arch.|
-A Mission: Gateways Murketh and Shaadraz|QID|10129|M|65.87,43.63|N|From Forward Commander To'arch.|PRE|10208|
+A Bonechewer Blood|QID|10450|M|55.13,36.40|N|From Vurtok Axebreaker.|
+A I Work... For the Horde!|QID|10086|M|55.17,38.79|N|From Megzeg Nukklebust.|
+T Eradicate the Burning Legion|QID|10121|M|55.17,38.79|N|To Sergeant Shatterskull at the Supply Caravan.|
+A Felspark Ravine|QID|10123|M|55.17,38.79|N|From Sergeant Shatterskull.|PRE|10121|
+K Felspark Ravine|ACTIVE|10123|M|66.77,35.48|QO|1;2;3|N|Kill the required mobs.|
+C Bonechewer Blood|QID|10450|M|57.60,46.61|L|30327 12|ITEM|30327|N|Any Bonechewer\nThey are on both sides of the ravine.|S|
+l I Work... For the Horde!|ACTIVE|10086|M|61.98,47.93;48.30,44.31|CS|QO|1;2|N|Pick up the sparkling pieces of wood and metal between the 2 waypoints.|
+C Bonechewer Blood|QID|10450|M|56.5,47.0|L|30327 12|ITEM|30327|N|Any Bonechewer\nThey are on both sides of the ravine.|US|
+T Felspark Ravine|QID|10123|M|55.17,38.79|N|To Sergeant Shatterskull.|
+A Forward Base: Reaver's Fall|QID|10124|M|55.17,38.79|N|From Sergeant Shatterskull.|PRE|10123|
+T I Work... For the Horde!|QID|10086|M|55.17,38.79|N|To Megzeg Nukklebust.|
+A Burn It Up... For the Horde!|QID|10087|M|55.17,38.79|N|From Megzeg Nukklebust.|PRE|10086|
+T Bonechewer Blood|QID|10450|M|55.13,36.40|N|To Vurtok Axebreaker.|
+A Apothecary Zelana|QID|10449|M|55.13,36.40|N|From Vurtok Axebreaker.|PRE|10450|
+T Forward Base: Reaver's Fall|QID|10124|M|65.90,43.58|N|To Forward Commander To'arch.|
+A Disrupt Their Reinforcements|QID|10208|M|65.90,43.58|N|From Forward Commander To'arch.|PRE|10124|
+T Apothecary Zelana|QID|10449|M|66.17,41.95|N|To Apothecary Zelana.|
+A Spinebreaker Post|QID|10242|M|66.17,41.95|N|From Apothecary Zelana.|
+C Demonic Rune Stones|QID|10208|M|70.91,45.28|L|28513 4|ITEM|28513|QO|1|N|Any Demon in the Legion Front|
+C Disrupt Their Reinforcements|QID|10208|M|70.82,45.44|QO|1|N|Step inside the gates and right-click to disable Port Xilus.|NC|
+C Demonic Rune Stones|QID|10208|M|73.98,39.11|L|28513 4|ITEM|28513|QO|2|N|Any Demon in the Legion Front|
+C Disrupt Their Reinforcements|QID|10208|M|74.00,38.75|QO|2|N|Step inside the gates and right-click to disable Port Kruul.|NC|
+T Disrupt Their Reinforcements|QID|10208|M|65.90,43.58|N|To Forward Commander To'arch.|
+A Mission: Gateways Murketh and Shaadraz|QID|10129|M|65.90,43.58|N|From Forward Commander To'arch.|PRE|10208|
 C Mission: Gateways Murketh and Shaadraz|QID|10129|M|66.07,43.74|U|28038|CHAT|N|Talk to Wing Commander Brack, tell him your on a bombing mission and you'll go on a controlled flight. Your job is to throw bombs at the Gateways, which look like larger versions of the portals we just destroyed.|
-T Mission: Gateways Murketh and Shaadraz|QID|10129|M|65.87,43.63|N|To Forward Commander To'arch.|
-A Mission: The Abyssal Shelf|QID|10162|M|65.87,43.63|N|From Forward Commander To'arch.|PRE|10129|
-A Return to Thrallmar|QID|10388|M|65.87,43.63|N|From Forward Commander To'arch.|PRE|10129|
+T Mission: Gateways Murketh and Shaadraz|QID|10129|M|65.90,43.58|N|To Forward Commander To'arch.|
+A Mission: The Abyssal Shelf|QID|10162|M|65.90,43.58|N|From Forward Commander To'arch.|PRE|10129|
+A Return to Thrallmar|QID|10388|M|65.90,43.58|N|From Forward Commander To'arch.|PRE|10129|
 C Mission: The Abyssal Shelf|QID|10162|M|66.0,43.5|U|28132|N|Pretty much the same as the last quest (this tell tell Brack to send you to the Abyssal Shelf), except you're killing mobs this time. It doesn't matter if you don't get them all the first time, you can do it again. It's a bit easier if you hot-key the bombs.|
-T Mission: The Abyssal Shelf|QID|10162|M|65.87,43.63|N|To Forward Commander To'arch.|
-N Spinebreaker Post|ACTIVE|10242|M|66.07,43.74|CHAT|N|Talk to Wing Commander Brack and ask him to send you to Spinebreaker Ridge (Post).|
-f Spinebreaker Post|QID|10242|M|61.60,81.25|N|At Amilya Airheart. Get the Flight path.|
+T Mission: The Abyssal Shelf|QID|10162|M|65.90,43.58|N|To Forward Commander To'arch.|
+F Spinebreaker Post|ACTIVE|10242|M|66.07,43.74|N|Talk to Wing Commander Brack and ask him to send you to Spinebreaker Ridge (Post).|CHAT|
+f Spinebreaker Post|QID|10242|M|61.60,81.25|N|At Amilya Airheart.|
 T Spinebreaker Post|QID|10242|M|61.15,81.78|N|To Apothecary Albreck.|
 A Boiling Blood|QID|10538|M|61.15,81.78|N|From Apothecary Albreck.|
 A Preparing the Salve|QID|9345|M|60.93,81.66|N|From Grelag.|
 A Make Them Listen|QID|10220|M|61.71,81.67|N|From Emissary Mordiba.|
 A The Warp Rifts|QID|10278|M|61.87,81.52|N|From Ogath the Mad.|
 A WANTED: Worg Master Kruush|QID|10809|M|61.22,80.59|N|From the Wanted Poster.|
-C Preparing the Salve|QID|9345|NC|N|Pick up Hellfire Spineleaf.|S|
-l Bleeding Hollow Blood|QID|10538|L|30425 12|N|Keep killing and looting orcs until you have 12 blood.|S|
-K Worg Master Kruush|ACTIVE|10809|QO|1|M|68.16,73.36|N|Kill and loot Worg Master Kruush.|T|Worg Master Kruush|
-l Bleeding Hollow Blood|QID|10538|M|65,73|L|30425 12|N|Keep killing and looting orcs until you have 12 blood.|US|
-C Boiling Blood|QID|10538|M|65.21,71.36|NC|N|Clear around the cauldron and right click it. Several Cursed Scarabs will spawn, but if you back away will not agro. (or kill them if you prefer) Rinse and repeat till you have 12 Boiled Blood.|
-C Preparing the Salve|QID|9345|M|65.45,78.72|NC|N|Finish collecting the Hellfire Spineleaf.|US|
+C Preparing the Salve|QID|9345|L|23205 12|N|Gather the Hellfire Spineleaf.|S|
+C Bleeding Hollow Blood|QID|10538|L|30425 12|ITEM|30425|N|Any Bleeding Hollow Orc|S|
+K Worg Master Kruush|ACTIVE|10809|M|68.16,73.36|L|31374|N|Kill and loot Worg Master Kruush.|T|Worg Master Kruush|
+l Bleeding Hollow Blood|QID|10538|M|65,73|L|30425 12|ITEM|30425|N|Any Bleeding Hollow Orc|US|
+C Boiling Blood|QID|10538|M|65.21,71.36|L|30430 12|N|Clear around the cauldron and click on it. Several Cursed Scarabs will spawn, but if you back away,they won't agro (or kill them if you prefer).\nRinse and repeat until done.|
+C Preparing the Salve|QID|9345|M|65.45,78.72|L|23205 12|N|Finish Gathering the Hellfire Spineleaf.|US|
 T WANTED: Worg Master Kruush|QID|10809|M|61.22,81.33|N|To Captain Darkhowl.|
 A Zeth'Gor Must Burn!|QID|10792|M|61.22,81.33|N|From Captain Darkhowl.|
 T Preparing the Salve|QID|9345|M|60.93,81.66|N|To Grelag.|
@@ -78,40 +78,40 @@ A Investigate the Crash|QID|10213|M|60.93,81.66|N|From Grelag.|PRE|9345|
 T Boiling Blood|QID|10538|M|61.15,81.78|N|To Apothecary Albreck.|
 A Apothecary Antonivich|QID|10835|M|61.15,81.78|N|From Apothecary Albreck.|PRE|10538|
 A The Eyes of Grillok|QID|10813|M|61.65,81.85|N|From Zezzak.|
-F Thrallmar|ACTIVE|10388|M|61.60,81.25|N|Take a flight back to Thrallmar from Amilya Airheart.|
+F Thrallmar|ACTIVE|10388|M|61.60,81.25|
 
 T Return to Thrallmar|QID|10388|M|55.02,35.96|N|To Nazgrel.|
 A Forge Camp: Mageddon|QID|10390|M|55.02,35.96|N|From Nazgrel.|PRE|10388|
 T Apothecary Antonivich|QID|10835|M|52.29,36.45|N|To Apothecary Antonivich.|
 A A Burden of Souls|QID|10864|M|52.29,36.45|N|From Apothecary Antonivich.|PRE|10835|
-C Forge Camp: Mageddon|QID|10390|M|64.00,31.00|QO|1|N|Kill Gan'arg Servants.|S|
-K Razorsaw|ACTIVE|10390|M|64.00,31.00|QO|2|N|Kill and loot Razorsaw, who wanders the area.|T|Razorsaw|
-A Vile Plans|QID|10393|U|29590|M|64.5,32.0|N|From the Burning Legion Missive you picked up.|O|
-C Forge Camp: Mageddon|QID|10390|M|64.00,31.00|QO|1|N|Kill Gan'arg Servants.|US|
-H Thrallmar|ACTIVE|10390|M|55.02,35.96|N|Hearth or run back to Thrallmar.|
+K Forge Camp: Mageddon|QID|10390|M|64.00,31.00|QO|1|N|Kill Gan'arg Servants.|S|
+K Razorsaw|ACTIVE|10390|M|64.00,31.00|L|29586|N|Kill and loot Razorsaw, who wanders the area.|T|Razorsaw|
+A Vile Plans|QID|10393|M|64.5,32.0|N|From the Burning Legion Missive you picked up.|U|29590|O|
+K Forge Camp: Mageddon|QID|10390|M|64.00,31.00|QO|1|N|Kill Gan'arg Servants.|US|
+H Thrallmar|ACTIVE|10390|M|55.02,35.96|
 T Forge Camp: Mageddon|QID|10390|M|55.02,35.96|N|To Nazgrel.|
 A Cannons of Rage|QID|10391|M|55.02,35.96|N|From Nazgrel.|PRE|10390|
 T Vile Plans|QID|10393|M|55.13,36.03|N|To Magister Bloodhawk.|
-C Cannons of Rage|QID|10391|M|59,32|N|Kill the fel canons at Forge Camp: Rage.|
+K Cannons of Rage|ACTIVE|10391|M|59,32|QO|1|N|Kill the Fel Cannons at Forge Camp: Rage.|
 T Cannons of Rage|QID|10391|M|55.02,35.96|N|To Nazgrel.|
 A Doorway to the Abyss|QID|10392|M|55.02,35.96|N|From Nazgrel.|PRE|10391|
-R Invasion Point: Annihilator|ACTIVE|10392|M|55.87,32.75;54.89,28.08|CS|N|Head to Invasion Point: Annihilator.|
-K Warbringer Arix'Amal|ACTIVE|10392|QO|3|M|53.06,26.43|N|Kill Warbringer Arix'Amal and loot the key|T|Warbringer Arix'Amal|
-C Doorway to the Abyss|QID|10392|QO|2|M|53.03,27.74|N|Stand in the portal in front of the glyph, left-click the glyph.|
+R Invasion Point: Annihilator|ACTIVE|10392|M|55.87,32.75;54.89,28.08|CS|
+K Warbringer Arix'Amal|ACTIVE|10392|M|53.06,26.43|L|29795|QO|3|N|Kill Warbringer Arix'Amal and loot the key|T|Warbringer Arix'Amal|
+C Doorway to the Abyss|QID|10392|M|53.03,27.74|QO|2|N|Stand in the portal in front of the glyph, left-click the glyph.|
 A Outland Sucks!|QID|10236|M|51.37,30.51|N|From Foreman Razelcraz.|
-C Outland Sucks!|QID|10236|M|49.0,35.5|NC|N|Loot the sparkling crates in the canyon to the south.|
-K Marauding Crust Bursters|ACTIVE|-9373^10236|N|Don't avoid the boucing piles of dirt and rocks, we are looking for an item to start a quest. Don't worry if you don't find it, we have another chance later.|S!US|;don't know if a -active can be combined with non negative.
-A Missing Missive|QID|9373|M|48.0,66.0|O|U|23338|N|From the Eroded Leather Case, this drops from the worms.|
+C Outland Sucks!|QID|10236|M|49.0,35.5|L|28554 6|N|Loot the sparkling crates in the canyon to the south.|
+K Marauding Crust Burster|AVAILABLE|9373|L|23338|N|Don't avoid the boucing piles of dirt and rocks, we are looking for an item to start a quest. Don't worry if you don't find it, we have another chance later.|S|
+A Missing Missive|QID|9373|N|From the Eroded Leather Case.|U|23338|O|
 T Outland Sucks!|QID|10236|M|51.37,30.51|N|To Foreman Razelcraz.|
 A How to Serve Goblins|QID|10238|M|51.37,30.51|N|From Foreman Razelcraz.|PRE|10236|
 C A Burden of Souls|QID|10864|M|46.91,45.59|N|Kill any Shattered Hand Orc you come across.|S|
-C Save Manni|QID|10238|QO|1|M|45.12,41.06|NC|N|Manni, the first goblin is to the SW.|
-C Save Moh|QID|10238|QO|2|M|46.46,45.15|NC|N|Moh is south of Manni.|
-C Save Jakk|QID|10238|QO|3|M|47.49,46.60|NC|N|Jakk is again south of Moh.|
-C A Burden of Souls|QID|10864|M|46.91,45.59|US|N|Kill any Shattered Hand Orc you come across.|
+C Save Manni|QID|10238|M|45.12,41.06|QO|1|N|Manni, the first goblin is to the SW.|NC|
+C Save Moh|QID|10238|M|46.46,45.15|QO|2|N|Moh is south of Manni.|NC|
+C Save Jakk|QID|10238|M|47.49,46.60|QO|3|N|Jakk is again south of Moh.|NC|
+C A Burden of Souls|QID|10864|M|46.91,45.59|N|Kill any Shattered Hand Orc you come across.|US|
 
-L Nearly 60?|N|Grind till your are less that 20,000 from 60.|LVL|59;-19600|
-H Thrallmar|ACTIVE|10864|N|Hearth if it's available, if not than run back to Thrallmar.|
+L Nearly 60?|N|Grind until you're less that 20,000 from lv 60.|LVL|59;-19600|
+H Thrallmar|ACTIVE|10864|
 T A Burden of Souls|QID|10864|M|52.28,36.46|N|To Apothecary Antonivich.|
 A The Demoniac Scryer|QID|10838|M|52.28,36.46|N|From Apothecary Antonivich.|PRE|10864|
 T Doorway to the Abyss|QID|10392|M|55.0,36.0|N|To Nazgrel.|
@@ -120,7 +120,7 @@ A The Assassin|QID|9400|M|55.02,35.96|N|From Nazgrel.|LVL|60|
 A Falcon Watch|QID|9498|M|55.23,39.10|N|From Martik Tir'seldori.|LEAD|9340|LVL|60|R|-Blood Elf|
 A Falcon Watch|QID|9499|M|55.23,39.10|N|From Martik Tir'seldori.|LEAD|9340|LVL|60|R|Blood Elf|
 
-T The Assassin|QID|9400|M|34.83,45.91;33.62,43.56|CC|N|Follow the road west through the ramparts, till you see wooden spikes beside the roads. At them, take a sharp right. To the Fel Orc Corpse.|
+T The Assassin|QID|9400|M|34.83,45.91;33.62,43.56|CC|N|Follow the road west through the Ramparts until you see wooden spikes beside the roads and take a sharp right to the Fel Orc Corpse.|
 A A Strange Weapon|QID|9401|M|33.5,43.5|N|From the Fel Orc Corpse.|PRE|9400|
 R Falcom Watch|ACTIVE|9498^9499|M|25.59,61.14|N|Head East to Falcon Watch.|
 A Arelion's Journal|QID|9374|M|26.37,60.32|N|From Magistrix Carinda.|
@@ -132,32 +132,31 @@ A The Great Fissure|QID|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
 A In Need of Felblood|QID|9366|M|26.99,59.54|N|From Ryathen the Somber.|
 A Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar.|
 A Source of the Corruption|QID|9387|M|26.79,59.71|N|From Apothecary Azethan.|
-C The Great Fissure|QID|9340|M|30,62|S|N|Kill Stonescythe Whelps and Alphas.|
-K Blacktalon the Savage|QID|9466|M|33,63|T|Blacktalon the Savage|N|Kill Blacktalon inside the cave.|
-C The Great Fissure|QID|9340|M|30,62|US|N|Kill Stonescythe Whelps and Alphas.|
+K The Great Fissure|ACTIVE|9340|M|30,62|N|Kill Stonescythe Whelps and Alphas.|S|
+K Blacktalon the Savage|ACTIVE|9466|M|33,63|N|Kill Blacktalon inside the cave.|T|Blacktalon the Savage|
+K The Great Fissure|ACTIVE|9340|M|30,62|N|Kill Stonescythe Whelps and Alphas.|US|
 T Investigate the Crash|QID|10213|M|49.15,74.87|N|To "Sreaming" Screed Luckheed.|
 A In Case of Emergency...|QID|10161|M|49.15,74.87|N|From "Sreaming" Screed Luckheed.|
 A Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|From Legassi.|
-C Ravager Egg Roundup|QID|9349|M|42,83|NC|N|Get 12 Ravager eggs from the ground and the Ravagers.|
+C Ravager Egg Roundup|QID|9349|M|42,83|L|23217 12|ITEM|23217|N|Ravagers\nThey are found on the ground as well.|
 T Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|To Legassi.|
 A Helboar, the Other White Meat|QID|9361|M|49.24,74.84|N|From Legassi.|PRE|9349|
-C In Case of Emergency...|QID|10161|M|58.0,71.5|S|NC|N|Pick up Zepplin Debris.|
-K Crust Bursters|ACTIVE|10161|M|49,67|S|L|23338|N|Kill the Crust Bursters on this area until you loot an Eroded Leather Case.|
-C Helboar, the Other White Meat|QID|9361|M|50.0,75.0|N|Head to the NE and work your way south, you should find plenty of Deranged Helboars, kill and loot them. Use the Purification Mixture on the Tainted Helboar Meat.|U|23268|
-K Crust Bursters|ACTIVE|10161|M|49,67|US|L|23338|N|Kill the Crust Bursters on this area until you loot an Eroded Leather Case.|
-A Missing Missive|QID|9373|M|48.0,66.0|U|23338|N|From Eroded Leather Case.|O|
+C In Case of Emergency...|QID|10161|M|58.0,71.5|L|28116 30|N|Pick up Zepplin Debris from the ground.|S|
+l Tainted Helboar Meat|ACTIVE|9361|M|50.0,75.0|L|23270|ITEM|23270|QO|1|N|Any Helboar\nHead to the NE and work your way south.|
+U Purified Helboar Meat|ACTIVE|9361|M|PLAYER|L|23248 8|N|Use the Purification Mixture on the Tainted Helboar Meat.|U|23268|
+K Marauding Crust Burster|AVAILABLE|9373|M|49,67|L|23338|N|Kill them until you loot the Eroded Leather Case.|US|
 T Helboar, the Other White Meat|QID|9361|M|49.24,74.84|N|To Legassi.|
 A Smooth as Butter|QID|9356|M|49.24,74.84|N|From Legassi.|PRE|9361|
-C Make Them Listen|QID|10220|M|55,76|N|Kill Unyielding Footman, Knights and Sorcerers.|S|
-l A Mysterious Tome|ACTIVE|10220|M|55,76|N|Kill Unyielding Knights at the Expedition Armory until they drop the item "A Mysterious Tome".|L|28552|
-C Make Them Listen|QID|10220|M|55,76|N|Kill Unyielding Footman, Knights and Sorcerers.|US|
-A Decipher the Tome|QID|10229|M|PLAYER|U|28552|N|From A Mysterious Tome.|
+l A Mysterious Tome|AVAILABLE|10229|M|55,76|L|28552|ITEM|28552|N|Unyielding Knights at the Expedition Armory|S|
+A Decipher the Tome|QID|10229|M|PLAYER|N|From A Mysterious Tome.|U|28552|O|
+K Make Them Listen|QID|10220|M|55,76|QO|1;2;3|N|Kill Unyielding Footman, Knights and Sorcerers.|
+l A Mysterious Tome|AVAILABLE|10229|M|55,76|L|28552|ITEM|28552|N|Unyielding Knights at the Expedition Armory|US|
 C Smooth as Butter|QID|9356|M|63.4,66.3|N|Kill and loot Bonestripper Buzzard until you have 12 wings.|
-C In Case of Emergency...|QID|10161|M|58.0,71.5|US|NC|N|Pick up Zepplin Debris.|
-C Burn It Up... For the Horde!|QID|10087|QO|1|M|60.90,52.50|U|27479|N|Head to the Eastern Cannon. Burn it.|
-C Burn It Up... For the Horde!|QID|10087|QO|2|M|54.67,54.10|U|27479|N|Go further west along the Path of Glory and find the Western Cannon. Burn it.|
+C In Case of Emergency...|QID|10161|M|58.0,71.5|L|28116 30|N|Pick up Zepplin Debris from the ground.|US|
+C Burn It Up... For the Horde!|QID|10087|M|60.90,52.50|QO|1|N|Head to the Eastern Cannon and burn it.|U|27479|
+C Burn It Up... For the Horde!|QID|10087|M|54.67,54.10|QO|2|N|Find the Western Cannon further west along the Path of Glory and burn it.|U|27479|
 
-H Thrallmar|ACTIVE|10087|M|56.69,37.50|U|6948|N|Hearth to Thrallmar.|
+H Thrallmar|ACTIVE|10087|M|56.69,37.50|
 T Burn It Up... For the Horde!|QID|10087|M|55.17,38.79|N|To Megzeg Nukklebust.|
 A The Agony and the Darkness|QID|10389|M|55.12,36.02|N|From Magister Bloodhawk.|;this is available earlier if anyone wants to move it.
 T A Strange Weapon|QID|9401|M|55.02,35.96|N|To Nazgrel.|
@@ -168,28 +167,28 @@ F Spinebreaker Ridge|ACTIVE|10229|M|56.28,36.25|N|Fly to Spinebreaker Ridge. (AK
 T Decipher the Tome|QID|10229|M|61.74,81.79|N|To Althen the Historian.|
 A The Battle Horn|QID|10230|M|61.74,81.79|N|From Althen the Historian.|PRE|10229|
 T Make Them Listen|QID|10220|M|61.78,81.71|N|To Emissary Mordiba.|
-C The Battle Horn|QID|10230|M|54.8,83.7|N|Head south to the Expedition Armory. Kill and loot Lieutenant Commander Thalvos.|
+C The Battle Horn|QID|10230|M|54.8,83.7|L|28562|ITEM|28562|N|Lieutenant Commander Thalvos\nHead south to the Expedition Armory.|
 T Smooth as Butter|QID|9356|M|49.2,74.8|N|To Legassi.|
 T In Case of Emergency...|QID|10161|M|49.15,74.87|N|To "Sreaming" Screed Luckheed.|
 A Voidwalkers Gone Wild|QID|9351|M|49.15,74.87|N|From "Sreaming" Screed Luckheed.|PRE|10161|
-C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|S|N|Kill and loot Voidwalkers until you have 10 Essences.|
-C The Warp Rifts|QID|10278|M|50,82|U|29027|N|Head south to the Warp Fields. What you need to do is use the Unstable Warp Rift Generator on the ground to generate a rift, then kill and loot the Voidwalkers that come through.|
-C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|US|N|Kill and loot Voidwalkers until you have 10 Essences. Don't bother using the Rift Generator, as the Voidwalkers spawned from that do not drop the Essences.|
+C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|L|23218 10|ITEM|23218|N|Uncontrolled Voidwalker|S|
+C The Warp Rifts|QID|10278|M|50,82|L|29051 3|ITEM|29051|N|Unstable Voidwalkers\nHead south to the Warp Fields and use the Unstable Warp Rift Generator to generate a warp rift. Kill and loot the Voidwalkers that come through.\n[color=FF0000]NOTE: [/color]The other Voidwalkers don't drop the item.|U|29027|
+C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|L|23218 10|ITEM|23218|N|Uncontrolled Voidwalker\n[color=FF0000]NOTE: [/color]Unstable Voidwalkers do not drop the item.|US|
 T Voidwalkers Gone Wild|QID|9351|M|49.15,74.87|N|To "Sreaming" Screed Luckheed.|
 T The Battle Horn|QID|10230|M|61.74,81.79|N|To Althen the Historian.|
 A Bloody Vengeance|QID|10250|M|61.74,81.79|N|From Althen the Historian.|PRE|10230|
 T The Warp Rifts|QID|10278|M|61.87,81.53|N|To Ogath the Mad.|
 A Void Ridge|QID|10294|PRE|10278|M|61.87,81.53|N|From Ogath the Mad.|
-C Bloody Vengeance|QID|10250|M|63.5,77.6|U|28651|N|Head to the semi-destroyed tower. Use the Unyielding Battle Horn and kill Urtrak when he spawns.|
-K Bleeding Hollow Peon|ACTIVE|10792|L|31347 4|N|Kill Peons until you loot 4 Bleeding Hollow Torches.|
-C Light it up|NC|QID|10792|U|31347|M|69.2,69.2|L|31346 4|N|Find the Bleeding Hollow forge, it's directly to the left after you enter the north gate. Use the torch at the forge to light all four.|
-C Zeth'Gor Must Burn!|NC|QID|10792|QO|2|M|69.7,70.3|U|31346|N|Head to the building next to the forge, and use the torch.|
-C Zeth'Gor Must Burn!|NC|QID|10792|QO|4|M|68.2,73.4|U|31346|N|Head to the building where you killed the Worg Master, and use the torch.|
-C Zeth'Gor Must Burn!|NC|QID|10792|QO|3|M|67.1,75.8|U|31346|N|Head to the Western Hovel, and use the torch.|
-C Zeth'Gor Must Burn!|NC|QID|10792|QO|1|M|69,75.9|U|31346|N|Head to the Barracks, and use the torch.|
-C The Eyes of Grillok|QID|10813|N|Find an Eye of Grillok, and use Zezzak's Shard on it. Then get the hell out of there back to Spinebreaker. The quest will complete after you stand next to the cauldron for a few seconds.|U|31463|
+K Urtrak|ACTIVE|10250|M|63.5,77.6|QO|1|N|Head to the semi-destroyed tower and use the Unyielding Battle Horn to summon Urtrak.|U|28651|
+l Bleeding Hollow Torch|ACTIVE|10792|L|31347 4|ITEM|31347|N|Bleeding Hollow Peon|
+C Light it up|QID|10792|M|69.15,69.17|L|31346 4|N|Find the Bleeding Hollow Forge directly to the left after you enter the north gate. Use the torch at the forge to light all four.\n[color=FF0000]NOTE: [/color]The torches only last 5 minutes.|U|31347|NC|
+C Zeth'Gor Must Burn!|QID|10792|M|69.93,69.57|QO|2|N|Use the torch at the Eastern Hovel (next to the forge).|U|31346|NC|
+C Zeth'Gor Must Burn!|QID|10792|M|69.05,73.37|QO|4|N|Use the torch at the Stable where you killed the Worg Master.|U|31346|NC|
+C Zeth'Gor Must Burn!|QID|10792|M|67.41,77.05|QO|3|N|Use the torch at the Western Hovel.|U|31346|NC|
+C Zeth'Gor Must Burn!|QID|10792|M|68.75,76.53|QO|1|N|Use the torch at the Barracks.|U|31346|NC|
+C The Eyes of Grillok|QID|10813|N|Target an Eye of Grillok and use Zezzak's Shard on it. Then get the hell out of there back to Spinebreaker. The quest will complete after you stand next to the cauldron for a few seconds.|T|Eye of Grillok|U|31463|
 T The Eyes of Grillok|QID|10813|M|61.66,81.86|N|To Zezzak.|
-A Grillok "Darkeye"|QID|10834|M|61.66,81.86|N|From Zezzak.|PRE|10813|
+A Grillok "Darkeye"|QID|10834|M|61.66,81.86|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Zezzak.|PRE|10813|
 T Bloody Vengeance|QID|10250|M|61.74,81.79|N|To Althen the Historian.|
 A Honor the Fallen|QID|10258|M|61.74,81.79|N|From Althen the Historian.|PRE|10250|
 T Zeth'Gor Must Burn!|QID|10792|M|61.21,81.32|N|To Captain Darkhowl.|
@@ -215,7 +214,7 @@ C The Agony and the Darkness|QID|10389|M|39.5,36.0|US|N|Kill Terrorfiends.|
 R Mag'har Post|ACTIVE|9410|M|33.6,43.6|U|23669|N|Go back to the Fel Orc Corpse and use the Wolf Totem and follow it.|
 T A Spirit Guide|QID|9410|M|32.0,28.0|N|If you can't speak to Gorkan Bloodfist, it's because you didn't follow the wolf.|
 A The Mag'har|QID|9406|M|32.0,28.0|N|From Gorkan Bloodfist.|PRE|9410|
-H Thrallmar|ACTIVE|10389|M|56.69,37.50|U|6948|N|Hearth to Thrallmar.|
+H Thrallmar|ACTIVE|10389|M|56.69,37.50|
 T The Agony and the Darkness|QID|10389|M|55.12,36.02|N|To Magister Bloodhawk.|
 T The Mag'har|QID|9406|M|55.02,35.96|N|To Nazgrel.|
 T Cruel's Intentions|QID|10136|M|55.02,35.96|N|To Nazgrel.|
@@ -266,7 +265,7 @@ C Marking the Path|NC|QID|9391|QO|3|M|36.14,65.38|N|Light the final beacon, the 
 T Honor the Fallen|QID|10258|M|57,77|N|To Commander Hogarth.|
 T Void Ridge|QID|10294|M|61.87,81.53|N|To Ogath the Mad.|
 A From the Abyss|QID|10295|M|61.87,81.53|N|From Ogath the Mad.|PRE|10294|
-C Grillok "Darkeye"|QID|10834|M|66,71|N|He's at the cave infront of Zeth'Gor. Kill his guards, if you use a ranged pull he won't add. Kill Grillok "Darkeye".|
+C Grillok "Darkeye"|QID|10834|M|66,71|ELITE|N|[color=00FFFF]Group of # suggested or level up to solo[/color]\nHe's at the cave in front of Zeth'Gor. Kill his guards, if you use a ranged pull he won't add. Kill Grillok "Darkeye".|
 C From the Abyss|QID|10295|M|81,79|N|Head east to Void Ridge. Then head south to  the two big violet crystals. HP/Mana up, the quest NPC spawns with two adds that heal him, but die fast, so kill them first. Use the Rift generator to summon him.|U|29226|
 T Grillok "Darkeye"|QID|10834|M|61.66,81.86|N|To Zezzak.|
 T From the Abyss|QID|10295|M|61.87,81.53|N|To Ogath the Mad.|
