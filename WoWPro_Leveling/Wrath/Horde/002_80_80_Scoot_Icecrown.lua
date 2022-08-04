@@ -10,10 +10,10 @@ A Preparations for War|QID|13419|N|From Sky-Reaver Klum|M|69.55,40.87|Z|Dalaran 
 N Orgrim's Hammer|QID|13419|N|Talk to Sky Reaver Klum again to get the flight.|M|69.55,40.87|Z|Dalaran City@Dalaran|
 T Preparations for War|QID|13419|N|To Sky-Reaver Korm Blackscar.|
 N Knights of the Ebon Blade|QID|12892|N|We're going to start on the Knights of the Ebon Blade quests so you can begin to build reputation with them as quickly as possible.|
-A It's All Fun and Games|QID|12892|PRE|12887|N|Koltira Deathweaver|
+A It's All Fun and Games|QID|12892|N|Koltira Deathweaver|
 C It's All Fun and Games|QID|12892|N|Fly to the very top of The Shadow Vault. Stay at maximum range (80 yards) and use the Eyesore Blaster. It can't attack you from this range. When you get The Ocular down to 12.6k or less, fly in to its range, let it hit you once (or you won't get credit), and deliver the final blow with the Eyesore Blaster.|M|44.40,21.85|U|41265|
 T It's All Fun and Games|QID|12892|N|From Baron Sliver. He's at the base of The Shadow Vault in the corner.|M|44.09,24.74|
-A I Have an Idea, But First...|QID|12891|PRE|12887^12892|N|From Baron Sliver|M|44.09,24.74|
+A I Have an Idea, But First...|QID|12891|PRE|12892|N|From Baron Sliver|M|44.09,24.74|
 C I Have an Idea, But First...|QID|12891|N|You know the plan by now, kill the mobs in the area for the items.|M|43.24,24.97|
 T I Have an Idea, But First...|QID|12891|N|Back to Baron Sliver at|M|44.06,24.74|
 A Free Your Mind|QID|12893|PRE|12891|N|From Baron Sliver|M|44.09,24.74|
