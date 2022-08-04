@@ -425,11 +425,6 @@ A Cracking the Code|QID|11931|PRE|11919|N|From Raelorasz.|M|33.31,34.53|
 N Drake Hunt|QID|12117|N|Drake Hunt is now a repeatable daily quest. You may pick it up again and if you wish and do it again after the next step.|
 C Cracking the Code|QID|11931|N|Kill Inquisitor Caleras to the north and loot the Azure Codex. Kill Coldarra Spellbinders around him until you get 3 Shimmering Runes.|M|32.77,27.84|
 T Cracking the Code|QID|11931|N|To Raelorasz.|M|33.31,34.53|
-A Corastrasza|QID|13412|PRE|11919|N|From Librarian Serra|M|33.48,34.38|
-T Corastrasza|QID|13412|N|To Corastrasza on the next-to-uppermost shattered ring floating around The Nexus|M|29.48,24.81|
-A Aces High!|QID|13413|N|From Corastrasza|M|32.95,34.40|PRE|13412|
-C Aces High!|QID|13413|N|This is good practice for Eye of Eternity and the Occulus. Fly further up to find the Scalesworn elites and then control the Drake to kill them.You will want to keep Flame Shield and Revivify up on you constantly.|M|32.95,34.40|
-T Aces High!|QID|13413|N|To Corastrasza|M|32.95,34.40|
 T King Mrgl-Mrgl|QID|11704|N|Go north to the road, then follow it east to Winterfin Retreat.|M|43.50,13.97|
 A Learning to Communicate|QID|11571|PRE|11702^11704|N|From King Mrgl-Mrgl.|M|43.50,13.97|
 C Learning to Communicate|QID|11571|U|34598|N|Kill Scalder at the bottom of the sea. Target his corpse and use the conch. Scalder is immune to frost.|M|42.53,15.85|
@@ -473,5 +468,12 @@ b Moa'ki Harbor|QID|12117|N|Take the turtle to Moa'ki Harbor in Dragonblight.|M|
 T Travel to Moa'ki Harbor|QID|12117|N|To Ko'nani|Z|Dragonblight|M|48.01,74.88|
 b Kamagua|QID|11228|N|Use the pier on your left-hand side to travel to Kamagua.|Z|Dragonblight|M|49.63,78.42|
 R Valgarde|QID|11228|N|Take the Ancient Lift, then follow the waypoint arrows.|Z|Howling Fjord|M|24.70,62.27;44.3,59.1;46,50;51,44.67;52.3,47.8;59.6,61.0|CC|
+; Level 80 quests need alot of work.
+A Corastrasza|QID|13412|PRE|11919|N|From Librarian Serra|M|33.48,34.38|LVL|80|
+T Corastrasza|QID|13412|N|To Corastrasza on the next-to-uppermost shattered ring floating around The Nexus|M|29.48,24.81|
+A Aces High!|QID|13413|N|From Corastrasza|M|32.95,34.40|PRE|13412|
+C Aces High!|QID|13413|N|This is good practice for Eye of Eternity and the Occulus. Fly further up to find the Scalesworn elites and then control the Drake to kill them.You will want to keep Flame Shield and Revivify up on you constantly.|M|32.95,34.40|
+T Aces High!|QID|13413|N|To Corastrasza|M|32.95,34.40|
+
 ]]
 end)
