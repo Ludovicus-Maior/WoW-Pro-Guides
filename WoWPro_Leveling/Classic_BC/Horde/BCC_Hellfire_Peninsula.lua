@@ -51,27 +51,27 @@ C Demonic Rune Stones|QID|10208|M|73.98,39.11|L|28513 4|ITEM|28513|QO|2|N|Any De
 C Disrupt Their Reinforcements|QID|10208|M|74.00,38.75|QO|2|N|Step inside the gates and right-click to disable Port Kruul.|NC|
 T Disrupt Their Reinforcements|QID|10208|M|65.90,43.58|N|To Forward Commander To'arch.|
 A Mission: Gateways Murketh and Shaadraz|QID|10129|M|65.90,43.58|N|From Forward Commander To'arch.|PRE|10208|
-C Mission: Gateways Murketh and Shaadraz|QID|10129|M|66.07,43.74|U|28038|CHAT|N|Talk to Wing Commander Brack, tell him your on a bombing mission and you'll go on a controlled flight. Your job is to throw bombs at the Gateways, which look like larger versions of the portals we just destroyed.|
+C Mission: Gateways Murketh and Shaadraz|QID|10129|M|66.07,43.74|N|Speak with Wing Commander Brack and tell him you're on a bombing mission to start the controlled flight.\nYour job is to throw bombs at the Gateways on either side of the road. They look like larger versions of the portals we just destroyed.|U|28038|
 T Mission: Gateways Murketh and Shaadraz|QID|10129|M|65.90,43.58|N|To Forward Commander To'arch.|
 A Mission: The Abyssal Shelf|QID|10162|M|65.90,43.58|N|From Forward Commander To'arch.|PRE|10129|
 A Return to Thrallmar|QID|10388|M|65.90,43.58|N|From Forward Commander To'arch.|PRE|10129|
-C Mission: The Abyssal Shelf|QID|10162|M|66.0,43.5|U|28132|N|Pretty much the same as the last quest (this tell tell Brack to send you to the Abyssal Shelf), except you're killing mobs this time. It doesn't matter if you don't get them all the first time, you can do it again. It's a bit easier if you hot-key the bombs.|
+C Mission: The Abyssal Shelf|QID|10162|M|66.07,43.74|N|Speak with Wing Commander Brack and tell him to send you to the Abyssal Shelf.\n[color=FF0000]NOTE: [/color]Same process as the last mission with the exception that you have a kill count to achieve this time. You can make multiple runs if you need to.|U|28132|
 T Mission: The Abyssal Shelf|QID|10162|M|65.90,43.58|N|To Forward Commander To'arch.|
-F Spinebreaker Post|ACTIVE|10242|M|66.07,43.74|N|Talk to Wing Commander Brack and ask him to send you to Spinebreaker Ridge (Post).|CHAT|
-f Spinebreaker Post|QID|10242|M|61.60,81.25|N|At Amilya Airheart.|
+F Spinebreaker Post|ACTIVE|10242|M|66.07,43.74|N|Talk to Wing Commander Brack and ask him to send you to Spinebreaker Post.|
+f Spinebreaker Post|QID|10242|M|61.66,81.19|N|At Amilya Airheart.|
 T Spinebreaker Post|QID|10242|M|61.15,81.78|N|To Apothecary Albreck.|
 A Boiling Blood|QID|10538|M|61.15,81.78|N|From Apothecary Albreck.|
 A Preparing the Salve|QID|9345|M|60.93,81.66|N|From Grelag.|
 A Make Them Listen|QID|10220|M|61.71,81.67|N|From Emissary Mordiba.|
 A The Warp Rifts|QID|10278|M|61.87,81.52|N|From Ogath the Mad.|
-A WANTED: Worg Master Kruush|QID|10809|M|61.22,80.59|N|From the Wanted Poster.|
+A Wanted: Worg Master Kruush|QID|10809|M|61.22,80.59|N|From the Wanted Poster.|
 C Preparing the Salve|QID|9345|L|23205 12|N|Gather the Hellfire Spineleaf.|S|
 C Bleeding Hollow Blood|QID|10538|L|30425 12|ITEM|30425|N|Any Bleeding Hollow Orc|S|
 K Worg Master Kruush|ACTIVE|10809|M|68.16,73.36|L|31374|N|Kill and loot Worg Master Kruush.|T|Worg Master Kruush|
 l Bleeding Hollow Blood|QID|10538|M|65,73|L|30425 12|ITEM|30425|N|Any Bleeding Hollow Orc|US|
 C Boiling Blood|QID|10538|M|65.21,71.36|L|30430 12|N|Clear around the cauldron and click on it. Several Cursed Scarabs will spawn, but if you back away,they won't agro (or kill them if you prefer).\nRinse and repeat until done.|
 C Preparing the Salve|QID|9345|M|65.45,78.72|L|23205 12|N|Finish Gathering the Hellfire Spineleaf.|US|
-T WANTED: Worg Master Kruush|QID|10809|M|61.22,81.33|N|To Captain Darkhowl.|
+T Wanted: Worg Master Kruush|QID|10809|M|61.22,81.33|N|To Captain Darkhowl.|
 A Zeth'Gor Must Burn!|QID|10792|M|61.22,81.33|N|From Captain Darkhowl.|
 T Preparing the Salve|QID|9345|M|60.93,81.66|N|To Grelag.|
 A Investigate the Crash|QID|10213|M|60.93,81.66|N|From Grelag.|PRE|9345|
