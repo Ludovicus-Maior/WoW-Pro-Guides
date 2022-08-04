@@ -21,12 +21,12 @@ K Vile|N|He is on the ledge Above Baron Silver. On the right, if you're facing t
 K Lady Nightswood|N|She is on the ledge on the other side of the courtyard. On the left, if you're facing the Shadow Vault at.|QID|12893|QO|2|U|41366|M|41.76,24.51|
 C Free Your Mind|QID|12893|QO|3|N|The Leaper patrols around the ledge above the entrance.|U|41366|
 T Free Your Mind|QID|12893|N|Back to Baron Sliver.|M|44.09,24.74|
-A If He Cannot Be Turned|QID|12897|PRE|12896|N|From Baron Sliver|M|44.09,24.74|
+A If He Cannot Be Turned|QID|12897|N|From Baron Sliver|M|44.09,24.74|
 C If He Cannot Be Turned|QID|12897|N|Straight to the back of the Shadow Vault. Right click on the General's Weapon Rack next to the Runeforge to summon him. Vile, The Leaper, and Lady Nightswood will help you out.|M|44.82,19.97|
 T If He Cannot Be Turned|QID|12897|N|To Koltira Deathweaver back to Orgrim's Hammer. It moves around, so look for it on your map.|
-A The Shadow Vault|QID|12899|PRE|12898|N|From Koltira Deathweaver|
+A The Shadow Vault|QID|12899|PRE|12897|N|From Koltira Deathweaver|
 T The Shadow Vault|QID|12899|N|Back to Baron Sliver.|M|42.86,24.99|
-A The Duke|QID|12938|PRE|12898^12899|N|From Baron Sliver.|M|42.86,24.99|
+A The Duke|QID|12938|PRE|12899|N|From Baron Sliver.|M|42.86,24.99|
 A Blackwatch|QID|13106|N|From Baron Sliver.|M|42.86,24.99|
 f Shadow Vault|QID|12938|N|Get the Flight Path.|M|43.74,24.30|
 T The Duke|QID|12938|N|To Duka Lankral at the back of the Shadow Vault.|M|44.66,20.41|
