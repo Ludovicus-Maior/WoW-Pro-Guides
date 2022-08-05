@@ -7,7 +7,8 @@ local guide = WoWPro:RegisterGuide('BC-Human', "Leveling", 'Elwynn Forest', 'WoW
 WoWPro:GuideName(guide, 'Elwynn Forest 1-12')
 WoWPro:GuideLevels(guide,1,12, 2)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Eastern_Kingdom')
-WoWPro:GuideSteps(guide, function() return [[
+WoWPro:GuideSteps(guide, function()
+return [[
 
 A A Threat Within|QID|783|M|48.15,42.95|N|From Deputy Willem.|
 T A Threat Within|QID|783|M|48.9,41.6|N|To Marshal McBride, inside the Abbey.|

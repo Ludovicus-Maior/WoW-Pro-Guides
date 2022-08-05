@@ -1,8 +1,7 @@
-local guide = WoWPro:RegisterGuide("JamEas5960", "Leveling", "Eastern Plaguelands", "WowPro Team", "Alliance", 3)
-WoWPro:GuideNickname(guide, "Eastern Plaguelands")
-WoWPro:GuideName(guide, "Eastern Plaguelands")
-WoWPro:GuideNextGuide(guide, "JamHel6062")
-WoWPro:GuideLevels(guide, 59, 60)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_30_41_Alliance', 'Leveling', 'Thousand Needles', 'WoWPro Team', 'Alliance', 3)
+WoWPro:GuideName(guide, 'Alliance Leveling 30-41')
+WoWPro:GuideLevels(guide,30, 41)
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_42_50_Alliance')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Gnomeregan|QID|2929|N|Now would be a good time to run Gnomeregan. This will avoid some grinding you may need to do shortly. Be sure to collect all the quests as they give a lot of experience.|LVL|-31|

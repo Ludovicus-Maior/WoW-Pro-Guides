@@ -1,8 +1,7 @@
-local guide = WoWPro:RegisterGuide("HaiDar1320", "Leveling", "Darkshore", "WowPro Team", "Alliance", 3)
-WoWPro:GuideNickname(guide, "Darkshore")
-WoWPro:GuideName(guide, "Darkshore")
-WoWPro:GuideNextGuide(guide, "BosRed2027")
-WoWPro:GuideLevels(guide, 13, 20)
+local guide = WoWPro:RegisterGuide("CLASSIC_BC_Bloodmyst", "Leveling", "Bloodmyst Isle", "WowPro Team", "Alliance", 3)
+WoWPro:GuideSort(guide, 6)
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_19_25_Alliance')
+WoWPro:GuideLevels(guide, 10, 20)
 WoWPro:GuideSteps(guide, function()
 return [[
 R Rut'theran Village|AVAILABLE|3524|M|28.82,41.50|Z|Darnassus|N|Walk into the portal down to Rut'theran.|

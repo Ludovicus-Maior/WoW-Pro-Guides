@@ -1,8 +1,7 @@
-local guide = WoWPro:RegisterGuide("BosAsh2324", "Leveling", "Ashenvale", "WowPro Team", "Alliance", 3)
-WoWPro:GuideNickname(guide, "Ashenvale")
-WoWPro:GuideName(guide, "Ashenvale")
-WoWPro:GuideNextGuide(guide, "BosSto2424")
-WoWPro:GuideLevels(guide, 23, 24)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_55_60_Alliance', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 3)
+WoWPro:GuideName(guide, 'Alliance Leveling 55-60')
+WoWPro:GuideLevels(guide,55, 59)
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Hellfire')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Taking Back Silithus|QID|8275|M|58.52,47.33|Z|Ironforge|N|From Cenarion Emissary Jademoon.|

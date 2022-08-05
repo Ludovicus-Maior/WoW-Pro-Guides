@@ -1,8 +1,7 @@
-local guide = WoWPro:RegisterGuide("JamFer5353", "Leveling", "Feralas", "WowPro Team", "Alliance", 3)
-WoWPro:GuideNickname(guide, "Feralas")
-WoWPro:GuideName(guide, "Feralas")
-WoWPro:GuideNextGuide(guide, "JamFel5354")
-WoWPro:GuideLevels(guide, 53, 53)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_50_55_Alliance', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 3)
+WoWPro:GuideName(guide, 'Alliance Leveling 50-55')
+WoWPro:GuideLevels(guide,50, 55)
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_55_60_Alliance')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Level Check: 50|M|PLAYER|N|You really do have to be level 50 to start this guide, the opening quests require you to be level 50 to even see them. If you're not quite there, you need to either grind it out or do the dungeon recommendations.|LVL|-50|

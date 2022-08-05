@@ -1,7 +1,7 @@
-local guide = WoWPro:RegisterGuide("WOTLK_Elwynn", "Leveling", "Elwynn Forest", "WowPro Team", "Alliance", 3)
-WoWPro:GuideName(guide, "Elwynn Forest")
-WoWPro:GuideNextGuide(guide, "MawLoc1213")
-WoWPro:GuideLevels(guide, 5, 12)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_42_50_Alliance', 'Leveling', 'Stranglethorn Vale', 'WoWPro Team', 'Alliance', 3)
+WoWPro:GuideName(guide, 'Alliance Leveling 42-50')
+WoWPro:GuideLevels(guide,42, 50)
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_50_55_Alliance')
 WoWPro:GuideSteps(guide, function()
 return [[
 B Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude at a reasonable price. You will need them for a quest at Mirage Raceway when you are level 45.|L|3825 2|

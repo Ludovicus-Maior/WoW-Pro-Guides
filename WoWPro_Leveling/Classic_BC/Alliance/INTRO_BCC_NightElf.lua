@@ -10,7 +10,8 @@ local guide = WoWPro:RegisterGuide('BC-NightElf', "Leveling", 'Teldrassil', 'WoW
 WoWPro:GuideName(guide, 'Teldrassil 1-12')
 WoWPro:GuideLevels(guide, 1, 12, 2)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Darkshore')
-WoWPro:GuideSteps(guide, function() return [[
+WoWPro:GuideSteps(guide, function()
+return [[
 
 A The Balance of Nature|QID|456|M|58.69,44.27|N|From Conservator Ilthalaine in front of you.|
 C The Balance of Nature|QID|456|N|Kill Young Nightsabers and Young Thistle Boars.|

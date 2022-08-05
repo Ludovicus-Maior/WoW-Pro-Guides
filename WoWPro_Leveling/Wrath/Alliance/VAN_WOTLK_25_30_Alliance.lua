@@ -1,8 +1,7 @@
-local guide = WoWPro:RegisterGuide("JamDus3840", "Leveling", "Dustwallow Marsh", "WowPro Team", "Alliance", 3)
-WoWPro:GuideNickname(guide, "Dustwallow Marsh")
-WoWPro:GuideName(guide, "Dustwallow Marsh")
-WoWPro:GuideNextGuide(guide, "JamDus4041")
-WoWPro:GuideLevels(guide, 38, 40)
+local guide = WoWPro:RegisterGuide('CLASSIC_BC_25_30_Alliance', "Leveling", 'Westfall', 'WoWPro Team', 'Alliance', 3)
+WoWPro:GuideName(guide, 'Alliance Leveling 25-30')
+WoWPro:GuideLevels(guide, 25,30)
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_30_41_Alliance')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;This is a rewrite and homogenization of existing 25-30 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
