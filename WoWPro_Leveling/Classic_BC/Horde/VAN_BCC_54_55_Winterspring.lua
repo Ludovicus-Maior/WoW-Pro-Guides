@@ -155,6 +155,8 @@ K Gargantuan Ooze|ACTIVE|4642|L|12291|ITEM|12291|N|Primal/Gargantuan Ooze\nThe P
 R Marshal's Refuge|ACTIVE|3962|M|45.88,13.36|Z|Un'Goro Crater|S|
 L Level 58|ACTIVE|3962|N|Grind until you are within 10K of lv 58.|
 T It's Dangerous to Go Alone|QID|3962|M|44.65,8.10|Z|Un'Goro Crater|N|To Linken.|
+* Book of Aquor|ACTIVE|-3962|AVAILABLE|-3962|N|This item can be safely destroyed unless you plan on killing Blazerunner again.\n[color=FF0000]NOTE: [/color]Skip this step if you wish to keep it.|U|11169|
+* Faded Photograph|ACTIVE|-3962|AVAILABLE|-3962|N|This item is useless and can be safely destroyed.\n[color=FF0000]NOTE: [/color]Skip this step if you wish to keep it.|U|11108|
 F Orgrimmar|ACTIVE|4642|M|45.23,5.84|Z|Un'Goro Crater|C|-Druid|
 F Thunder Bluff|ACTIVE|4642|M|45.23,5.84|Z|Un'Goro Crater|C|Druid|
 = Level 58|ACTIVE|4642|N|Do your level 58 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
@@ -162,6 +164,6 @@ b Tirisfal Glades|ACTIVE|4642|M|50.89,13.86|Z|Durotar|N|Exit Orgrimmar and take 
 T Melding of Influences|QID|4642|M|47.45,73.36|Z|1458|N|To Chemist Fuely.|
 F Flame Crest|ACTIVE|4810|M|63.26,48.54|Z|Undercity|
 T Return to Tinkee|QID|4810|M|65.23,24.01|Z|1428;Burning Steppes|N|To Tinkee Steamboil.|
-F Stonard|AVAILABLE|9407^10046|ACTIVE|-64217^-64063|M|65.62,24.08|Z|Burning Steppes|
+F Stonard|AVAILABLE|9407&10046|ACTIVE|-64217^-64063|M|65.62,24.08|Z|Burning Steppes|
 ]]
 end)
