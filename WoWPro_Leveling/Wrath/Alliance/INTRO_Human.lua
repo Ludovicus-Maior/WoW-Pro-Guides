@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide("WOTLK_Human", "Leveling", "Elwynn Forest", "
 WoWPro:GuideNickname(guide, "INTRO_Human")
 WoWPro:GuideName(guide, "INTRO_Human")
 WoWPro:GuideNextGuide(guide, "WOTLK_Elwynn")
-WoWPro:GuideLevels(guide, 1, 12)
+WoWPro:GuideLevels(guide, 1, 6)
 WoWPro:GuideSteps(guide, function()
 return [[
 A A Threat Within|QID|783|M|48.06,43.59|Z|1429|N|From Deputy Willem.|

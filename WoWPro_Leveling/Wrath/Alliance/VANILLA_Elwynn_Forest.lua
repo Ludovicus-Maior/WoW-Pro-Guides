@@ -9,17 +9,17 @@ A The Fargodeep Mine|QID|62|PRE|54|M|42.17,65.88|Z|1429|N|From Marshal Dughan.|
 A Gold Dust Exchange|QID|47|PRE|54|M|42.14,67.20|Z|1429|N|From Remy "Two Times".|
 A Kobold Candles|QID|60|PRE|54|M|43.32,65.80|Z|1429|N|From William Pestle.|
 h Goldshire|QID|2158|M|43.77,65.89|Z|1429|N|At Innkeeper Farley.|
-T Rest and Relaxation|QID|2158|M|43.8,65.8|
-A Lost Necklace|QID|85|M|34.5,84.2|
-A Princess Must Die!|QID|88|M|34.6,84.5|
+T Rest and Relaxation|QID|2158|M|43.8,65.8|N|To Innkeeper Farley|
+A Lost Necklace|QID|85|M|34.5,84.2|N|From "Auntie" Bernice Stonefield|
 K Kill Stonetusk Boars|QID|86|M|41.5,86.8|L|769 4|N|Kill Stonetusk Boars until you've looted 4 Chunks of Boar Meat.|
-T Lost Necklace|QID|85|M|43.1,85.7|
-A Pie for Billy|QID|86|M|43.1,85.7|
-T Pie for Billy|QID|86|M|34.5,84.2|
+T Lost Necklace|QID|85|M|43.1,85.7|N|To Billy Maclure|
+A Pie for Billy|QID|86|M|43.1,85.7|N|From Billy Maclure|
+T Pie for Billy|QID|86|M|34.5,84.2|N|To "Auntie" Bernice Stonefield|
 A Back to Billy|QID|84|M|34.5,84.2|
-A Young Lovers|QID|106|M|43.2,89.6|N|Watch out for the bear that likes to hang around this house.|
-T Back to Billy|QID|84|M|43.1,85.7|
-A Goldtooth|QID|87|M|43.1,85.7|
+A Princess Must Die!|QID|88|M|34.6,84.5|N|From Ma Stonefield|LVL|6|
+A Young Lovers|QID|106|M|43.2,89.6|N|From Maybell Maclure.|
+T Back to Billy|QID|84|M|43.1,85.7|N|To Billy Maclure|
+A Goldtooth|QID|87|M|43.1,85.7|N|From Billy Maclure|
 C Gold Dust Exchange|QID|47|M|38.2,83.6|N|Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.|S|
 C Kobold Candles|QID|60|M|38.2,83.6|N|Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.|S|
 N Grind to level 7|QID|87|N|Grind on Kobolds until you ding level 7.|
