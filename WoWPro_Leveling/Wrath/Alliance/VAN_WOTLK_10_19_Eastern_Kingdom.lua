@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('CLASSIC_BC_Eastern_Kingdom', 'Leveling', 'Lo
 WoWPro:GuideName(guide, 'Eastern Kingdom 10-19')
 WoWPro:GuideLevels(guide, 10, 19)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_19_25_Alliance')
-WoWPro:GuideSteps(guide, function () 
+WoWPro:GuideSteps(guide, function ()
 return [[
 R South Gate Pass|QID|414|ACTIVE|414|M|86.3,51.3|Z|Dun Morogh|N|Head to the South Gate Pass tunnel|
 R Valley of Kings|QID|414|ACTIVE|414|M|21.55,66.25|Z|Loch Modan|N|Continue through the tunnel onto Loch Modan|

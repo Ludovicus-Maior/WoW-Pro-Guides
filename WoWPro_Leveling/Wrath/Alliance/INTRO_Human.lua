@@ -146,9 +146,9 @@ A Further Concerns|QID|35|M|42.1,65.9|PRE|40|N|From Marshall Dughan.|
 ; The next few steps are in Stormwind City
 R Stormwind City|QID|61|M|71.1,88.9|ACTIVE|61|N|Follow the road north-west to Stormwind City.|Z|Stormwind City|
 N City Facilities|QID|61|S|N|Whilst in Stormwind City, feel free to learn your desired professions or access the bank - if you don't know where to go, ask any Stormwind City Guard.|T|Stormwind City Guard|
-T Shipment to Stormwind|QID|61|M|56.2,64.6|N|To Morgan Pestle|Z|Stormwind City| ;available to Night Elf, so Race tag removed.|
-A Wine Shop Advert|QID|332|M|57.0,63.4|N|From Renato Gallina.|Z|Stormwind City|
-A Harlan Needs a Resupply|QID|333|M|55.2,56.0|N|From Harlan Bagley, inside the Lionheart Armory.|Z|Stormwind City|
+T Shipment to Stormwind|QID|61|M|63.19,74.47|N|To Morgan Pestle|Z|Stormwind City|
+A Wine Shop Advert|QID|332|M|63.82,73.53|N|From Renato Gallina.|Z|Stormwind City|
+A Harlan Needs a Resupply|QID|333|M|62.38,67.82|N|From Harlan Bagley, inside the Lionheart Armory.|Z|Stormwind City|
 T Wine Shop Advert|QID|332|M|52.45,67.6|N|To Suzetta Gallina, in Gallina Winery which is on the canal front.|Z|Stormwind City|
 T Harlan Needs a Resupply|QID|333|M|49.65,55.64|N|To Rema Schneider in the Canal Tailor Shop.|Z|Stormwind City|
 A Package for Thurman|QID|334|M|49.65,55.64|N|From Rema Schneider.|Z|Stormwind City|
