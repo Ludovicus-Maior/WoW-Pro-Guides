@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("JamSea5051", "Leveling", "Searing Gorge", "Jame", "Alliance", 3)
+local guide = WoWPro:RegisterGuide("JamSea5051", "Leveling", "Searing Gorge", "WowPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Searing Gorge")
 WoWPro:GuideName(guide, "Searing Gorge")
 WoWPro:GuideNextGuide(guide, "JamAzs5152")

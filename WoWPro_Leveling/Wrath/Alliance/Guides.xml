@@ -17,6 +17,7 @@
   <Script file="VANILLA_Duskwood.lua"/>
   <Script file="VANILLA_Dustwallow_Marsh.lua"/>
   <Script file="VANILLA_Eastern_Plaguelands.lua"/>
+  <Script file="VANILLA_Elwynn_Forest.lua"/>
   <Script file="VANILLA_Feralas.lua"/>
   <Script file="VANILLA_Hillsbrad_Foothills.lua"/>
   <Script file="VANILLA_Jame_Azshara.lua"/>
