@@ -4,8 +4,8 @@ WoWPro:GuideLevels(guide, 10, 19)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_19_25_Alliance')
 WoWPro:GuideSteps(guide, function ()
 return [[
-R South Gate Pass|QID|414|ACTIVE|414|M|86.3,51.3|Z|Dun Morogh|N|Head to the South Gate Pass tunnel|
-R Valley of Kings|QID|414|ACTIVE|414|M|21.55,66.25|Z|Loch Modan|N|Continue through the tunnel onto Loch Modan|
+R South Gate Pass|QID|414|ACTIVE|353|M|86.3,51.3|Z|Dun Morogh|N|Head to the South Gate Pass tunnel|
+R Valley of Kings|QID|414|ACTIVE|353|M|21.55,66.25|Z|Loch Modan|N|Continue through the tunnel onto Loch Modan|
 A The Trogg Threat|QID|267|M|23.24,73.67|Z|Loch Modan|N|From Captain Ruglefuss, inside the Bunker.|
 A In Defense of the King's Lands|QID|224|M|22.07,73.13|Z|Loch Modan|N|From Mountaineer Cobbleflint, outside, along the path.|
 C The Trogg Threat|QID|267|Z|Loch Modan|N|Loot the troggs until you get the items for this quest.|S|
