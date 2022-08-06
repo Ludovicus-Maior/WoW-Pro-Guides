@@ -29,7 +29,7 @@ A Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
 A Stormpike's Order|QID|1338|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
 R Silver Stream Mine|ACTIVE|307|M|36.70,41.79;39.43,29.10|Z|Loch Modan|CC|N|Head East from Algaz Station|
 C Filthy Paws|QID|307|M|35.53,18.71|QO|1|Z|Loch Modan|N|Enter the mine and collect the crates of Miners' Gear.|
-C Rat Catching|QID|416|L|3110 12|N|Finish this quest now by killing Tunnel Rats around the mine entrance.|US|
+C Rat Catching|QID|416|L|3110 12|M|35.36,14.04|N|Finish this quest now by killing Tunnel Rats around the mine entrance.|US|
 T Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike.|
 C Thelsamar Blood Sausages|QID|418|M|32.28,31.08|Z|Loch Modan|CN|QO|1;2;3|N|Finish this quest now.|US|
 T Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|To Mountaineer Kadrell.|
@@ -41,34 +41,33 @@ F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|Loch Modan|TZ|Stormwind City|N|Fly to St
 
 T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|Stormwind City|N|To Dungar Longdrink.|
 A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|Stormwind City|N|From Dungar Longdrink.|
-A Humble Beginnings|QID|399|Z|Stormwind City|M|49.21, 30.27|N|From Baros Alexston, in Cathedral Square.|
+A Humble Beginnings|QID|399|Z|Stormwind City|M|57.67,47.95|N|From Baros Alexston, in Cathedral Square.|
 
-T Tome of Divinity|QID|3681|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1642|M|39.80,29.78|Z|Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|R|Human|PRE|1641^3681|
-T The Tome of Divinity|QID|1642|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1643|M|39.80,29.78|Z|Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|R|Human|
-T The Tome of Divinity|QID|1643|M|57.08,61.73|Z|Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1644|M|57.08,61.73|Z|Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|R|Human|
+T Tome of Divinity|QID|3681|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1642|M|50.55,47.49|Z|Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|R|Human|PRE|1641^3681|
+T The Tome of Divinity|QID|1642|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1643|M|50.55,47.49|Z|Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1643|M|63.79,72.25|Z|Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1644|M|63.79,72.25|Z|Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|R|Human|
 C The Tome of Divinity|QID|1644|L|2589 10|N|Acquire 10 linen cloth if you don't have it.|C|Paladin|R|Human|
-T The Tome of Divinity|QID|1644|M|57.08,61.73|Z|Stormwind City|N|To Stephanie Turner.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1780|M|57.08,61.73|Z|Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|R|Human|
-T The Tome of Divinity|QID|1780|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1781|M|39.80,29.78|Z|Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|R|Human|
-T The Tome of Divinity|QID|1781|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1786|M|38.58,26.56|Z|Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1644|M|63.79,72.25|Z|Stormwind City|N|To Stephanie Turner.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1780|M|63.79,72.25|Z|Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1780|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1781|M|50.55,47.49|Z|Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1781|M|49.64,45.08|Z|Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1786|M|49.64,45.08|Z|Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|R|Human|
 
-T Stormpike's Order|QID|1338|M|58.10,16.57|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
+T Stormpike's Order|QID|1338|M|64.62,37.36|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
 A Bounty on Murlocs|QID|46|M|73.97,72.18|Z|Elwynn Forest|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|
 
 R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|Elwynn Forest|N|Run north to the island in the middle of Stone Cairn Lake.|
 R Heroes' Vigil|ACTIVE|1786|M|74.45,56.74|Z|Elwynn Forest|N|Head to hills on the west side of the island in the middle of Stone Cairn Lake.|C|Paladin|
-C The Tome of Divinity|QID|1786|M|72.59,51.41|U|6866|NC|T|Henze Faulk|Z|Elwynn Forest|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|C|Paladin|R|Human|
+U The Tome of Divinity|QID|1786|M|72.59,51.41|O|U|6866|NC|T|Henze Faulk|Z|Elwynn Forest|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|C|Paladin|R|Human|
 T The Tome of Divinity|QID|1786|M|72.59,51.41|Z|Elwynn Forest|N|To Henze Faulk.|C|Paladin|R|Human|
 A The Tome of Divinity|QID|1787|M|72.59,51.41|Z|Elwynn Forest|N|From Henze Faulk.|PRE|1786|C|Paladin|R|Human|
 C The Tome of Divinity|QID|1787|M|74.03,51.84|Z|Elwynn Forest|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|C|Paladin|R|Human|
 R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|Elwynn Forest|N|Return to the southern shoreline of Stone Cairn Lake.|C|Paladin|R|Human|
-
-C Bounty on Murlocs|QID|46|L|780 8|N|Kill murlocs until you collect the torn fins needed.|
+C Bounty on Murlocs|QID|46|L|780 8|M|76.92,58.60|N|Kill murlocs until you collect the torn fins needed.|
 T Cloth and Leather Armor|QID|59|M|79.46,68.79|Z|Elwynn Forest|N|To Sara Timberlain in Eastvale Logging Camp.|
 T Bounty on Murlocs|QID|46|M|73.97,72.18|Z|Elwynn Forest|N|To Guard Thomas.|
 
@@ -79,15 +78,13 @@ A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|Redridge Mountains|N|From Guard Par
 T Encroaching Gnolls|QID|244|M|30.74,60.00|Z|Redridge Mountains|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|PRE|244|M|30.74,60.00|Z|Redridge Mountains|N|From Deputy Feldon.|
 f Lakeshire|QID|65|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
-F Stormwind|ACTIVE|147^1787|M|30.60,59.40|Z|Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
 
-T The Tome of Divinity|QID|1787|C|Paladin|R|Human|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
-A The Tome of Divinity|QID|1788|C|Paladin|R|Human|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm.|PRE|1787|
-T The Tome of Divinity|QID|1788|C|Paladin|R|Human|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
-R Elwynn Forest|ACTIVE|147|M|32.03,49.18|Z|Elwynn Forest|N|Make your way to the front gate.|
-T Manhunt|QID|147|M|42.1,65.9|Z|Elwynn Forest|N|To Marshall Dughan in Goldshire.|
+F Stormwind|ACTIVE|147^1787|C|Paladin|R|Human|M|30.60,59.40|Z|Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
+T The Tome of Divinity|QID|1787|C|Paladin|R|Human|M|49.64,45.08|Z|Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
+A The Tome of Divinity|QID|1788|C|Paladin|R|Human|M|49.64,45.08|Z|Stormwind City|N|To Gazin Tenorm.|PRE|1787|
+T The Tome of Divinity|QID|1788|C|Paladin|R|Human|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Rall.|
 
-R Sentinel Hill|ACTIVE|6285|N|If your hearthstone isn't available or set there, you can always fly.|
+F Sentinel Hill|ACTIVE|6285|N|If your hearthstone isn't available or set there, you can always fly.|
 
 A The Forgotten Heirloom|QID|64|M|56.04,31.24|Z|Westfall|N|From Farmer Furlbrow.|
 A Westfall Stew|QID|36|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
