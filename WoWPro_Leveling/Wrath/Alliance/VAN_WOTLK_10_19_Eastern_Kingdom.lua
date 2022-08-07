@@ -118,7 +118,7 @@ T Poor Old Blanchy|QID|151|M|59.92,19.41|Z|Westfall|N|To Verna Furlbrow.|
 T The Forgotten Heirloom|QID|64|M|59.92,19.41|Z|Westfall|N|To Farmer Furlbrow.|
 C The Killing Fields|QID|9|M|52.89,21.41;52.69,29.19;47.70,34.92;39.02,47.01|CC|QO|1|Z|Westfall|N|Finish killing the Harvest Watchers. There should be a group of them at each coordinate.|US|
 R Patrolling Westfall|ACTIVE|102|M|40.26,31.51|CC|Z|Westfall|N|Make your way to this area.|
-C Patrolling Westfall|QID|102|L|725 8|Z|Westfall|N|Finish collecting your Gnoll paws.\nStick with the lesser populated camps and the patrolers.|US|
+C Patrolling Westfall|QID|102|L|725 8|M|40.26,31.51|Z|Westfall|N|Finish collecting your Gnoll paws.\nStick with the lesser populated camps and the patrolers.|US|
 R Jangolode Mine|ACTIVE|12|M|43.55,27.13|Z|Westfall|N|Head to the Jangolode Mine entrance.|
 C The People's Militia|QID|12|QO|1;2|Z|Westfall|N|Finish killing Defias Trappers and Smugglers until you're finished.\nWatch out for the runners.|US|
 C Goretusk Liver Pie|QID|22|L|723 8|Z|Westfall|N|Finish collecting your Goretusk Livers.|US|
