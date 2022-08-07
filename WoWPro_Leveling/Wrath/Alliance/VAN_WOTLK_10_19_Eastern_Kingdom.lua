@@ -168,10 +168,10 @@ B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|Elwynn Forest|L|1939|N|Buy a Skin
 T The Price of Shoes|QID|118|M|41.71,65.55|Z|Elwynn Forest|N|To Smith Argus in Goldshire.|
 A Return to Verner|QID|119|M|41.71,65.55|Z|Elwynn Forest|N|From Smith Argus.|PRE|118|
 R Stormwind City|ACTIVE|120|M|70.82,88.48|Z|Stormwind City|N|Return to Stormwind City.|
-T Messenger to Stormwind|QID|120|M|64.01,75.38|Z|Stormwind City|N|To General Marcus Jonathan in Old Town. You'll find him on the 2nd floor inside SI:7.|
-A Messenger to Stormwind|QID|121|M|64.01,75.38|Z|Stormwind City|N|From General Marcus Jonathan.|PRE|120|
-B Cask of Merlot|ACTIVE|116|M|52.15,67.87|Z|Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
-F Lakeshire|ACTIVE|119|M|66.29,62.13|Z|Stormwind City|N|Fly back to Redridge.|
+T Messenger to Stormwind|QID|120|M|69.24,82.85|Z|Stormwind City|N|To General Marcus Jonathan front of the statue.|
+A Messenger to Stormwind|QID|121|M|69.24,82.85|Z|Stormwind City|N|From General Marcus Jonathan.|PRE|120|
+B Cask of Merlot|ACTIVE|116|M|59.90,76.94|Z|Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
+F Lakeshire|ACTIVE|119|M|71.03,72.64|Z|Stormwind City|N|Fly back to Redridge.|
 T Return to Verner|QID|119|M|30.98,47.28|Z|Redridge Mountains|N|To Verner Osgood.|
 A Underbelly Scales|QID|122|M|30.98,47.28|Z|Redridge Mountains|N|From Verner Osgood.|PRE|119|
 
@@ -183,7 +183,7 @@ T A Free Lunch|QID|129|M|15.28,71.46|Z|Redridge Mountains|N|To Guard Parker. He 
 A Visit the Herbalist|QID|130|M|15.28,71.46|Z|Redridge Mountains|N|From Guard Parker. He roams the fork in the road.|PRE|129|
 
 R Lakeridge Highway|ACTIVE|246|M|24.39,76.09|Z|Redridge Mountains|N|Follow the road east.|
-C Assessing the Threat|QID|246|QO|1;2|Z|Redridge Mountains|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|
+C Assessing the Threat|QID|246|QO|1;2|M|28.44,79.75|Z|Redridge Mountains|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|M|28.00,71.00|CS|Z|Redridge Mountains|N|Kill tarantulas, goretusks and condors for any remaining items required.|US|LVL|17|
 C Redridge Goulash|ACTIVE|92|QO|1;3|M|28.00,71.00|CS|Z|Redridge Mountains|N|Kill tarantulas and goretusks for any remaining items required.|US|LVL|-17|
 C Underbelly Scales|ACTIVE|122|QO|1|M|28.00,71.00|Z|Redridge Mountains|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|US|LVL|17|
