@@ -13,7 +13,6 @@ C In Defense of the King's Lands|QID|224|M|27.00,54.00|Z|Loch Modan|N|Kill Trogg
 C The Trogg Threat|QID|267|Z|Loch Modan|N|Continue killing the troggs until you get the items for this quest.|US|
 T In Defense of the King's Lands|QID|224|M|22.07,73.13|Z|Loch Modan|N|To Mountaineer Cobbleflint, outside|
 T The Trogg Threat|QID|267|M|23.24,73.67|Z|Loch Modan|N|To Captain Ruglefuss.|
-
 R Thelsamar|AVAILABLE|1338|M|32.96,49.44|Z|Loch Modan|N|Follow the road north to Thelsamar.|
 A Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|Mountaineer Kadrell patrols all throughout Thelsamar.|
 A Mountaineer Stormpike's Task|QID|1339|M|34.8,47.1|Z|Loch Modan|N|From Mountaineer Kadrell patrols all throughout Thelsamar.|
@@ -38,11 +37,9 @@ F Ironforge|AVAILABLE|3681|M|33.94,50.95|Z|Loch Modan|C|Paladin|R|Human|
 A Tome of Divinity|QID|3681|M|23.11,6.15|Z|Ironforge|N|From Brandur Ironhammer in the Mystic Ward.|LEAD|3682|C|Paladin|R|Human|
 F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|Ironforge|TZ|Stormwind City|N|Fly to Stormwind.|C|Paladin|
 F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|C|-Paladin|
-
 T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|Stormwind City|N|To Dungar Longdrink.|
 A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|Stormwind City|N|From Dungar Longdrink.|
 A Humble Beginnings|QID|399|Z|Stormwind City|M|57.67,47.95|N|From Baros Alexston, in Cathedral Square.|
-
 T Tome of Divinity|QID|3681|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|R|Human|
 A The Tome of Divinity|QID|1642|M|50.55,47.49|Z|Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|R|Human|PRE|1641^3681|
 T The Tome of Divinity|QID|1642|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
@@ -56,10 +53,8 @@ T The Tome of Divinity|QID|1780|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Ra
 A The Tome of Divinity|QID|1781|M|50.55,47.49|Z|Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|R|Human|
 T The Tome of Divinity|QID|1781|M|49.64,45.08|Z|Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|R|Human|
 A The Tome of Divinity|QID|1786|M|49.64,45.08|Z|Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|R|Human|
-
 T Stormpike's Order|QID|1338|M|64.62,37.36|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
 A Bounty on Murlocs|QID|46|M|73.97,72.18|Z|Elwynn Forest|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|
-
 R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|Elwynn Forest|N|Run north to the island in the middle of Stone Cairn Lake.|
 R Heroes' Vigil|ACTIVE|1786|M|74.45,56.74|Z|Elwynn Forest|N|Head to hills on the west side of the island in the middle of Stone Cairn Lake.|C|Paladin|
 U The Tome of Divinity|QID|1786|M|72.59,51.41|O|U|6866|NC|T|Henze Faulk|Z|Elwynn Forest|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|C|Paladin|R|Human|
@@ -70,22 +65,17 @@ R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|Elwynn Forest|N|Return to the south
 C Bounty on Murlocs|QID|46|L|780 8|M|76.92,58.60|N|Kill murlocs until you collect the torn fins needed.|
 T Cloth and Leather Armor|QID|59|M|79.46,68.79|Z|Elwynn Forest|N|To Sara Timberlain in Eastvale Logging Camp.|
 T Bounty on Murlocs|QID|46|M|73.97,72.18|Z|Elwynn Forest|N|To Guard Thomas.|
-
 K Morgan the Collector|ACTIVE|147|M|70.97,80.49|QO|1|T|Morgan the Collector|Z|Elwynn Forest|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which aggro at the same time.|
-
 R Redridge Mountains|QID|244|M|8.98,71.72|Z|Redridge Mountains|N|Go to Redridge Mountains.|
 A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|Redridge Mountains|N|From Guard Parker.|
 T Encroaching Gnolls|QID|244|M|30.74,60.00|Z|Redridge Mountains|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|PRE|244|M|30.74,60.00|Z|Redridge Mountains|N|From Deputy Feldon.|
 f Lakeshire|QID|65|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
-
 F Stormwind|ACTIVE|147^1787|C|Paladin|R|Human|M|30.60,59.40|Z|Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
 T The Tome of Divinity|QID|1787|C|Paladin|R|Human|M|49.64,45.08|Z|Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
 A The Tome of Divinity|QID|1788|C|Paladin|R|Human|M|49.64,45.08|Z|Stormwind City|N|To Gazin Tenorm.|PRE|1787|
 T The Tome of Divinity|QID|1788|C|Paladin|R|Human|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Rall.|
-
 F Sentinel Hill|ACTIVE|6285|N|If your hearthstone isn't available or set there, you can always fly.|
-
 A The Forgotten Heirloom|QID|64|M|56.04,31.24|Z|Westfall|N|From Farmer Furlbrow.|
 A Westfall Stew|QID|36|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
 A Poor Old Blanchy|QID|151|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
@@ -111,7 +101,6 @@ C The People's Militia|QID|12|QO|1;2|Z|Westfall|N|Kill any Defias Trappers and S
 A Patrolling Westfall|QID|102|M|56.42,47.61|Z|Westfall|N|From Captain Danuvin.|
 C Patrolling Westfall|QID|102|M|36.00,29.00|L|725 8|Z|Westfall|N|Kill Gnolls until you get the items for this quest.|S|
 T Return to Lewis|QID|6285|M|57.02,47.16|Z|Westfall|N|To Quartermaster Lewis.|
-
 C The Forgotten Heirloom|QID|64|M|49.00,19.00|L|841|Z|Westfall|N|Loot the watch from the cupboard in the house.|
 C Poor Old Blanchy|QID|151|L|1528 8|N|Loot the rest of the oats for this quest. They may be far from this point in neighboring farms.|US|
 T Poor Old Blanchy|QID|151|M|59.92,19.41|Z|Westfall|N|To Verna Furlbrow.|
@@ -122,7 +111,6 @@ C Patrolling Westfall|QID|102|L|725 8|M|40.26,31.51|Z|Westfall|N|Finish collecti
 R Jangolode Mine|ACTIVE|12|M|43.55,27.13|Z|Westfall|N|Head to the Jangolode Mine entrance.|
 C The People's Militia|QID|12|QO|1;2|Z|Westfall|N|Finish killing Defias Trappers and Smugglers until you're finished.\nWatch out for the runners.|US|
 C Goretusk Liver Pie|QID|22|L|723 8|Z|Westfall|N|Finish collecting your Goretusk Livers.|US|
-
 L Level 15|ACTIVE|15|N|You should be level 15 by this time, grind until you are.|LVL|14;-3850|
 T The Killing Fields|QID|9|M|56.04,31.23|Z|Westfall|N|To Farmer Saldean.|
 t Westfall Stew |QID|38|M|56.41,30.52|Z|Westfall|N|To Salma Saldean.|
@@ -138,21 +126,17 @@ F Stormwind|ACTIVE|65|M|56.55,52.65|TZ|Stormwind City|N|Fly to Stormwind City at
 ; The following only applies if coming from 1-12 Dun Morogh or 12-14 Loch Modan
 T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
 A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|
+
 ; --- This guide ends in either Stormwind City or Lakeshire (if you have the FP)
-
-
 F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City.|TAXI|-Lakeshire|R|Night Elf|C|-Druid|TZ|Stormwind City|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|Elwynn Forest|N|Follow the road east to Redridge Mountains.|
-
 A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|Redridge Mountains|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|
 T Encroaching Gnolls|QID|244|M|30.74,59.99|Z|Redridge Mountains|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|M|30.74,59.99|Z|Redridge Mountains|N|From Deputy Feldon.|PRE|244|
 f Lakeshire|AVAILABLE|125|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path from Ariena Stormfeather.|
-
 A The Lost Tools|QID|125|M|32.14,48.64|Z|Redridge Mountains|N|From Foreman Oslow.|
 A The Price of Shoes|QID|118|M|30.98,47.28|Z|Redridge Mountains|N|From Verner Osgood.|
-
 A Messenger to Stormwind|QID|120|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon, in the town hall.|
 A A Free Lunch|QID|129|M|26.9,44.53|Z|Redridge Mountains|N|From Darcy, in the inn.|
 A Dry Times|QID|116|M|26.49,43.95|Z|Redridge Mountains|N|From Barkeep Daniels.|
@@ -160,7 +144,6 @@ T The Defias Brotherhood|QID|65|M|26.5,45.3|Z|Redridge Mountains|N|To Wiley the 
 A The Defias Brotherhood|QID|132|M|26.5,45.3|Z|Redridge Mountains|N|From Wiley the Black.|PRE|65|
 A Redridge Goulash|QID|92|M|22.68,43.83|Z|Redridge Mountains|N|From Chef Breanna.|
 A Hilary's Necklace|QID|3741|M|29.3,53.6|Z|Redridge Mountains|N|From Shawn, at the end of the dock.|
-
 C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|CN|L|10958|Z|Redridge Mountains|N|Loot the necklace from the Glinting Mud on the ground in the water.|
 F Stormwind|ACTIVE|118|M|30.59,59.41|Z|Redridge Mountains|N|Fly to Stormwind City.|TZ|Stormwind City|
 R Elwynn Forest|ACTIVE|118|M|32.03,49.18|Z|Elwynn Forest|N|Jump into the water and make your way to the front gate.|
@@ -174,14 +157,12 @@ B Cask of Merlot|ACTIVE|116|M|59.90,76.94|Z|Stormwind City|QO|2|NC|N|Buy a Cask 
 F Lakeshire|ACTIVE|119|M|71.03,72.64|Z|Stormwind City|N|Fly back to Redridge.|
 T Return to Verner|QID|119|M|30.98,47.28|Z|Redridge Mountains|N|To Verner Osgood.|
 A Underbelly Scales|QID|122|M|30.98,47.28|Z|Redridge Mountains|N|From Verner Osgood.|PRE|119|
-
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|N|Kill tarantulas, goretusks for the items required.|S|LVL|17|
 C Redridge Goulash|ACTIVE|92|QO|1;3|N|Kill tarantulas and goretusks for the items required.|S|LVL|-17|IZ|1433|
 C Underbelly Scales|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S|LVL|17|
 T Hilary's Necklace|QID|3741|M|29.24,53.62|Z|Redridge Mountains|N|To Hilary.|
 T A Free Lunch|QID|129|M|15.28,71.46|Z|Redridge Mountains|N|To Guard Parker. He roams the fork in the road up ahead.|
 A Visit the Herbalist|QID|130|M|15.28,71.46|Z|Redridge Mountains|N|From Guard Parker. He roams the fork in the road.|PRE|129|
-
 R Lakeridge Highway|ACTIVE|246|M|24.39,76.09|Z|Redridge Mountains|N|Follow the road east.|
 C Assessing the Threat|QID|246|QO|1;2|M|28.44,79.75|Z|Redridge Mountains|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|M|28.00,71.00|CS|Z|Redridge Mountains|N|Kill tarantulas, goretusks and condors for any remaining items required.|US|LVL|17|
@@ -195,27 +176,25 @@ t Redridge Goulash|QID|92|M|22.68,43.83|Z|Redridge Mountains|N|To Chef Breanna.|
 T Visit the Herbalist|QID|130|M|21.85,46.32|N|To Martie Jainrose.|Z|Redridge Mountains|
 A Delivering Daffodils|QID|131|M|21.85,46.32|N|From Martie Jainrose.|PRE|130|Z|Redridge Mountains|
 T Delivering Daffodils|QID|131|M|26.9,44.53|N|To Darcy. She wanders around a bit.|Z|Redridge Mountains|
+T Messenger to Stormwind|QID|121|M|29.85,44.47|Z|Redridge Mountains|N|To Magistrate Solomon.|
+A Messenger to Westfall|QID|143|M|29.85,44.47|Z|Redridge Mountains|N|To Magistrate Solomon.|PRE|121|
 R Duskwood|ACTIVE|132|M|6.42,91.32|N|Go to Duskwood|Z|Redridge Mountains|
 R Darkshire|ACTIVE|132|M|72.40,37.99|Z|Duskwood|N|Continue following the road south into Darkshire.|
 B Bottle of Moonshine|ACTIVE|116|M|73.70,44.10|Z|Duskwood|L|1942|N|Buy a Bottle of Moonshine from Barkeep Hann.|
 f Darkshire|QID|116|M|77.50,44.30|Z|Duskwood|N|Get the flight path from Felicia Maline.|
 F Sentinel Hill|ACTIVE|132|M|77.50,44.30|Z|Duskwood|N|Fly to Sentinel Hill.|
-
+T Messenger to Westfall|QID|143|M|56.2,47.5|Z|Westfall|N|From Gryan Stoutmantle.|
+A Messenger to Westfall|QID|144|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|PRE|132|
-
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Stormwind City|
-
-T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|Stormwind City|N|To Master Mathias Shaw.|
-A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
-
+T The Defias Brotherhood|QID|135|M|78.39,70.76|Z|Stormwind City|N|To Master Mathias Shaw.|
+A The Defias Brotherhood|QID|141|M|78.39,70.76|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
 A Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|From Baros Alexston in Cathedral Square.|
 T Elmore's Task|QID|1097|M|51.74,12.13|Z|Stormwind City|N|To Grimand Elmore in Dwarven District. \n(skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
-
-F Ironforge|AVAILABLE|2039|M|66.29,62.13|Z|Stormwind City|N|Fly to Ironforge to start this guide.|IZ|-Ironforge|
+F Ironforge|AVAILABLE|2039|M|66.29,62.13|Z|Stormwind City|N|Fly to Ironforge.|IZ|-Ironforge|
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|Ironforge|N|From Gnoarn.|
 F Thelsamar|ACTIVE|2039|M|55.49,47.75|Z|Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
-
 A Ironband's Excavation|QID|436|M|37.24,47.39|Z|Loch Modan|N|From Jern Hornhelm, inside the house, down the stairs.|
 A WANTED: Chok'sul|QID|256|M|37.29,46.50|ELITE|Z|Loch Modan|N|[color=FF8000]Elite: [/color]\nFrom Wanted Poster, you will probably want a group to kill this.|RANK|2|
 A Mercenaries|QID|255|M|34.69,43.18|ELITE|Z|Loch Modan|N|[color=FF8000]Elite: [/color]\nFrom Magistrate Bluntnose, inside, down the stairs.|RANK|2|
@@ -230,7 +209,6 @@ A In Defense of the King's Lands|QID|237|M|23.53,76.40|Z|Loch Modan|N|From Mount
 C In Defense of the King's Lands|QID|237|M|35.50,79.60|Z|Loch Modan|N|Kill Skullthumpers and Seers until you finish the quest.|
 T In Defense of the King's Lands|QID|237|M|23.53,76.40|Z|Loch Modan|N|To Mountaineer Gravelgaw.|
 A In Defense of the King's Lands|QID|263|M|23.47,74.49|Z|Loch Modan|N|From Mountaineer Wallbang.|PRE|237|
-
 R Ironband's Excavation Site|QID|436|M|60.37,65.11|Z|Loch Modan|N|Run to Ironband's Excavation Site.|
 T Ironband's Excavation|QID|436|M|64.89,66.66|Z|Loch Modan|N|To Magmar Fellhew.|
 A Excavation Progress Report|QID|298|M|65.94,65.62|Z|Loch Modan|N|From Prospector Ironband.|
@@ -241,7 +219,6 @@ A A Hunter's Boast|QID|257|M|83.48,65.44|Z|Loch Modan|N|[color=CC00FF]QUEST FAIL
 C A Hunter's Boast|QID|257|QO|1|N|Within 15 minutes, find and kill 6 Mountain Buzzards around Farstrider Lodge.|
 T A Hunter's Boast|QID|257|M|83.48,65.42|Z|Loch Modan|N|To Daryl the Youngling.|
 C Crocolisk Hunting|QID|385|QO|1;2|S|N|Kill and loot crocolisks for their skin and meat. You'll find them in the Loch, on the islands and along the shoreline.|
-
 T Find Bingles|QID|2039|M|63.56,47.92|Z|Loch Modan|N|To Bingles Blastenheimer.|
 A Bingles' Missing Supplies|QID|2038|M|63.56,47.92|Z|Loch Modan|N|From Bingles Blastenheimer.|PRE|2039|
 R Northern Island|ACTIVE|2038|M|56,28|CC|Z|Loch Modan|N|Run/Swim to the northernmost island in the middle of The Loch.|
@@ -260,7 +237,6 @@ A A Hunter's Challenge|QID|258|M|83.48,65.42|Z|Loch Modan|N|[color=CC00FF]QUEST 
 C A Hunter's Challenge|QID|258|M|60.80,38.47|QO|1|Z|Loch Modan|N|Kill 5 Elder Mountain Boars within 12 minutes. You'll find them in the open fields just past the hills northwest of Farstrider Lodge. Be careful as they mixed amongst the bears.|
 T A Hunter's Challenge|QID|258|M|83.51,65.53|Z|Loch Modan|N|To Daryl the Youngling.|
 A Vyrin's Revenge|QID|271|M|81.72,64.16|ELITE|Z|Loch Modan|N|[color=FF8000]Elite: [/color]\nFrom Vyrin Swiftwind.\nOl' Sooty is an Elite lv 20 Bear.|PRE|258|RANK|2|
-
 R Mo'grosh Stronghold|M|74,35|ACTIVE|255|Z|Loch Modan|N|I recommend a group for this even at level 20, you still will really benefit from at least 2 of you.|
 C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|S|Z|Loch Modan|N|Mo'grosh Ogres and Enforcers are found outside the cave.|
 C Mercenaries|QID|255|M|76.75,14.38|QO|2|S|Z|Loch Modan|N|Mo'grosh Brutes are found inside the cave.|
@@ -273,14 +249,12 @@ T A Dark Threat Looms|QID|250|M|56.07,13.24|Z|Loch Modan|N|To a Suspicious Barre
 A A Dark Threat Looms|QID|199|M|56.07,13.24|Z|Loch Modan|N|From a Suspicious Barrel.|PRE|250|
 T A Dark Threat Looms|QID|199|M|46.04,13.62|Z|Loch Modan|N|To Chief Engineer Hinderweir VII.|
 A A Dark Threat Looms|QID|161|M|46.04,13.62|Z|Loch Modan|N|From Chief Engineer Hinderweir VII.\n[color=FF0000]NOTE: [/color]Accept this only if you are planning to go on to Wetlands.|PRE|199|O|
-
 R Thelsamar|ACTIVE|298|M|33.82,48.41|Z|Loch Modan|N|Run back to Thelsamar.|
 A Stonegear's Search|QID|467|M|33.82,48.41|Z|Loch Modan|N|From Mountaineer Kadrell.|LVL|20|
 T Excavation Progress Report|QID|298|M|37.24,47.38|Z|Loch Modan|N|To Jern Hornhelm.|
 A Report to Ironforge|QID|301|PRE|298|M|37.24,47.38|Z|Loch Modan|N|From Jern Hornhelm.|
 T Mercenaries|QID|255|M|34.69,43.19|Z|Loch Modan|N|To Magistrate Bluntnose.|
 T WANTED: Chok'sul|QID|256|M|34.69,43.18|Z|Loch Modan|N|To Magistrate Bluntnose.|
-
 F Ironforge|ACTIVE|301|M|33.94,50.95|Z|Loch Modan|N|Fly to Ironforge at Thorgrum Borrelson.|
 = Train|ACTIVE|301^302|N|Stop by the Trainer, AH, whatever other town stuff you need to do.|
 N Collection Items|AVAILABLE|103^117|ACTIVE|38|N|Make sure you grab the hops, flasks of oil and Westfall Stew items from your bank if you dropped them off.|
@@ -288,7 +262,6 @@ T Report to Ironforge|QID|301|M|74.66,11.74|Z|Ironforge|N|To Prospector Stormpik
 A Powder to Ironband|QID|302|PRE|301|M|74.66,11.74|Z|Ironforge|N|From Prospector Stormpike.|
 T Powder to Ironband|QID|302|M|37.24,47.38|N|To Jern Hornhelm.|
 A Resupplying the Excavation|QID|273|PRE|302|M|37.24,47.38|N|From Jern Hornhelm.|
-
 F Thelsamar|ACTIVE|302|M|55.49,47.75|Z|Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
 R Valley of Kings|AVAILABLE|224|M|25.33,67.67|N|Take the road south out of Thelsamar.|
 T In Defense of the King's Lands|QID|263|M|23.47,74.49|Z|Loch Modan|N|To Mountaineer Wallbang.|
