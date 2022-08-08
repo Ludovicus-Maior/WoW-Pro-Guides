@@ -1,11 +1,11 @@
-local guide = WoWPro:RegisterGuide("BC-Draenei", "Leveling", "Azuremyst Isle", "WoWPro Team", "Alliance", 2)
-WoWPro:GuideLevels(guide, 1, 10)
-WoWPro:GuideName(guide,"Draenai: Intro")
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Bloodmyst')
+local guide = WoWPro:RegisterGuide("SnoAzu0112", "Leveling", "Azuremyst Isle", "WowPro Team", "Alliance", 3)
+WoWPro:GuideNickname(guide, "Azuremyst Isle")
+WoWPro:GuideName(guide, "Azuremyst Isle")
+WoWPro:GuideNextGuide(guide, "SveBlo1220")
+WoWPro:GuideLevels(guide, 1, 12)
 WoWPro:GuideSteps(guide, function()
 return [[
-;R Note:|R|Human, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
-f The Exodar|R|Human, Gnome, Dwarf, Night El|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
+f The Exodar|R|Human, Gnome, Dwarf, Night Elf|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
 A You Survived!|QID|9279|LEAD|9280|M|83.01,43.85|N|From Megelon right in front of you.|R|Draenei|
 T You Survived!|QID|9279|M|80.42,45.89|N|To Proenitus.|R|Draenei|
 A Replenishing the Healing Crystals|QID|9280|M|80.42,45.89|N|From Proenitus.|R|Draenei|
@@ -173,7 +173,7 @@ T All That Remains|QID|9527|Z|Azuremyst Isle|M|16.6,94.5|N|To Cowlen.|
 H Azure Watch|QID|9544|U|6948|M|48,53|N|Hearth back to Azure Watch.|
 T The Prophecy of Akida|QID|9544|Z|Azuremyst Isle|M|49.4,51.0|N|To Arugoo of the Stillpine.|
 A Stillpine Hold|QID|9559|PRE|9544|Z|Azuremyst Isle|M|49.4,51.0|N|From Arugoo of the Stillpine.|
-;A Strength of One|QID|9582|Z|Azuremyst Isle|M|50.02,50.52|N|From Ruada.|C|Warrior|R|Draenei|LVL|10|
+A Strength of One|QID|9582|Z|Azuremyst Isle|M|50.02,50.52|N|From Ruada.|C|Warrior|R|Draenei|LVL|10|
 T Nightstalker Clean Up, Isle 2...|QID|9456|Z|Azuremyst Isle|M|47.1,50.6|N|To Exarch Menelaous.|
 A Call of Fire|QID|9464|Z|Azuremyst Isle|M|48.06,50.44|N|From Tuluun.|C|Shaman|R|Draenei|LVL|10|
 A Seek Huntress Kella Nightbow|QID|9757|Z|Azuremyst Isle|M|49.78,51.93|N|From Acteon.|C|Hunter|R|Draenei|LVL|10|
@@ -239,7 +239,7 @@ C Call of Fire|QID|9467|Z|Azuremyst Isle|M|11.25,82.56|N|Click the Strawnman and
 T Call of Fire|QID|9467|Z|Azuremyst Isle|M|59.52,17.95|N|Use the Orb of Returning and turn in to Temper.|C|Shaman|R|Draenei|U|24335|
 T Warn Your People|QID|9622|Z|Azuremyst Isle|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|U|6948|
 T Bandits!|QID|9616|Z|Azuremyst Isle|M|47.13,50.61|N|To Exarch Menelaous.|O|
-;T Strength of One|QID|9582|Z|Azuremyst Isle|M|54.06,9.84|N|Click on cage and kill Death Ravager.|C|Warrior|R|Draenei|
+T Strength of One|QID|9582|Z|Azuremyst Isle|M|54.06,9.84|N|Click on cage and kill Death Ravager.|C|Warrior|R|Draenei|
 A Behomat|QID|10350|Z|Azuremyst Isle|M|50.01,50.52|N|From Ruada.|C|Warrior|R|Draenei|
 r Sell junk and repair|QID|9623|Z|Azuremyst Isle|M|49.69,52.75|N|At Kioni.|
 T Behomat|QID|10350|Z|The Exodar|M|55.58,82.36|N|To Behomat.|C|Warrior|R|Draenei|

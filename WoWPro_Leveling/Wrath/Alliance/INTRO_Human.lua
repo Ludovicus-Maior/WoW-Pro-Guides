@@ -1,15 +1,9 @@
---[[
-WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
---]]
-
-local guide = WoWPro:RegisterGuide('BC-Human', "Leveling", 'Elwynn Forest', 'WoWPro Team', 'Alliance', 2)
-WoWPro:GuideName(guide, 'Elwynn Forest 1-12')
-WoWPro:GuideLevels(guide,1,12, 2)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Eastern_Kingdom')
+local guide = WoWPro:RegisterGuide("WOTLK_Human", "Leveling", "Elwynn Forest", "WowPro Team", "Alliance", 3)
+WoWPro:GuideName(guide, "INTRO_Human")
+WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Eastern_Kingdom")
+WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A A Threat Within|QID|783|M|48.15,42.95|N|From Deputy Willem.|
 T A Threat Within|QID|783|M|48.9,41.6|N|To Marshal McBride, inside the Abbey.|
 
@@ -151,13 +145,13 @@ A Further Concerns|QID|35|M|42.1,65.9|PRE|40|N|From Marshall Dughan.|
 ; The next few steps are in Stormwind City
 R Stormwind City|QID|61|M|71.1,88.9|ACTIVE|61|N|Follow the road north-west to Stormwind City.|Z|Stormwind City|
 N City Facilities|QID|61|S|N|Whilst in Stormwind City, feel free to learn your desired professions or access the bank - if you don't know where to go, ask any Stormwind City Guard.|T|Stormwind City Guard|
-T Shipment to Stormwind|QID|61|M|56.2,64.6|N|To Morgan Pestle|Z|Stormwind City| ;available to Night Elf, so Race tag removed.|
-A Wine Shop Advert|QID|332|M|57.0,63.4|N|From Renato Gallina.|Z|Stormwind City|
-A Harlan Needs a Resupply|QID|333|M|55.2,56.0|N|From Harlan Bagley, inside the Lionheart Armory.|Z|Stormwind City|
-T Wine Shop Advert|QID|332|M|52.45,67.6|N|To Suzetta Gallina, in Gallina Winery which is on the canal front.|Z|Stormwind City|
-T Harlan Needs a Resupply|QID|333|M|49.65,55.64|N|To Rema Schneider in the Canal Tailor Shop.|Z|Stormwind City|
-A Package for Thurman|QID|334|M|49.65,55.64|N|From Rema Schneider.|Z|Stormwind City|
-T Package for Thurman|QID|334|M|42.54,76.19|N|To Thurman Schneider, in Larson Clothiers found in Stormwind Mage Quarter.|Z|Stormwind City|
+T Shipment to Stormwind|QID|61|M|63.19,74.47|N|To Morgan Pestle|Z|Stormwind City|
+A Wine Shop Advert|QID|332|M|63.82,73.53|N|From Renato Gallina.|Z|Stormwind City|
+A Harlan Needs a Resupply|QID|333|M|62.38,67.82|N|From Harlan Bagley, inside the Lionheart Armory.|Z|Stormwind City|
+T Wine Shop Advert|QID|332|M|60.22,76.78|N|To Suzetta Gallina, in Gallina Winery which is on the canal front.|Z|Stormwind City|
+T Harlan Needs a Resupply|QID|333|M|58.00,67.38|N|To Rema Schneider in the Canal Tailor Shop.|Z|Stormwind City|
+A Package for Thurman|QID|334|M|58.00,67.38|N|From Rema Schneider.|Z|Stormwind City|
+T Package for Thurman|QID|334|M|52.52,83.52|N|To Thurman Schneider, in Larson Clothiers found in Stormwind Mage Quarter.|Z|Stormwind City|
 
 f Stormwind City|QID|332|M|57.5,59.5;62.75,64.5;66.28,62.12|CS|N|Discover Stormwind Flightpoint with Dungar Longdrink.|Z|Stormwind City|R|-Human|
 R Goldshire|QID|112|M|32.00,49.25;41.2,62.0|CS|N|Head back to Goldshire in Elwynn Forest. You can jump down from the flight point into the water.|
@@ -217,8 +211,7 @@ A Wanted:  "Hogger"|QID|176|M|24.52,74.65|N|This Elite level quest is available 
 K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|N|This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|T|Hogger|
 C Riverpaw Gnoll Bounty|QID|11|M|26.1,87.5|N|Kill and loot the Gnolls for the Painted Gnoll Armbands.|
 L Level Check|ACTIVE|11|M|26.1,87.5|LVL|9;-840|N|Grind at the gnolls if you aren't yet 10.|
-l Gold Pickup Schedule|QID|123|L|1307|M|26.0,93.0|N|You want to hunt down the Gold Pickup Schedule. This is most likely to drop from the rare mob Gruff Swiftbite who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|T|Gruff|
-A The Collector|QID|123|U|1307|N|Quest obtained from the Gold Pickup Schedule.|
+A The Collector|QID|123|U|1307|O|N|Quest obtained from the Gold Pickup Schedule.|
 T Riverpaw Gnoll Bounty|QID|11|M|24.3,74.8|N|To Deputy Rainer.|
 
 T The Collector|QID|123|M|42.1,65.9|N|To Marshall Dughan.|
@@ -259,7 +252,7 @@ C Dead-tooth Jack|QID|1667|C|Warrior|M|89.3,78.8|N|Clear the area, 'til you have
 T Dead-tooth Jack|QID|1667|C|Warrior|M|84,69|N|To Marshal Haggard.|
 
 R Westfall |QID|109|ACTIVE|109|M|61.95,17.80|Z|Westfall|N|Follow the road into Westfall|
-A Furlbrow's Deed|QID|184|U|1972|N|If you happened to have found Furlbrow's deed (random rare drop) while questing thru Elwynn, accept the quest and then turn it in to Farmer Furlbrow. Else, check this off manually if you don't have the item.|
+A Furlbrow's Deed|QID|184|U|1972|O|N|If you happened to have found Furlbrow's deed (random rare drop) while questing thru Elwynn, accept the quest and then turn it in to Farmer Furlbrow. Else, check this off manually if you don't have the item.|
 t Furlbrow's Deed|QID|184|M|59.95,19.36|Z|Westfall|N|To Farmer Furlbrow.|
 A The Forgotten Heirloom|QID|64|M|59.95,19.36|Z|Westfall|N|From Farmer Furlbrow.|
 A Westfall Stew |QID|36|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
@@ -273,23 +266,23 @@ R Sentinel Hill |QID|109|ACTIVE|109|M|57.61,44.45|Z|Westfall|N|Continue along th
 T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|Z|Westfall|N|To Gryan Stoutmantle. (you can accept The People's militia now, or wait for questlog space later.)|
 A A Swift Message|QID|6181|M|57.00,47.17|Z|Westfall|N|From Quartermaster Lewis.|R|Human|
 h Sentinel Hill|ACTIVE|6181|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|
-f Sentinel Hill |QID|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
 T A Swift Message|QID|6181|M|56.55,52.65|Z|Westfall|N|To Thor.|R|Human|
+f Sentinel Hill |QID|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
 A Continue to Stormwind|QID|6281|PRE|6181|M|56.55,52.65|Z|Westfall|N|From Thor.|R|Human|
 F Stormwind|QID|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|TZ|Stormwind City|
 
-T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|R|Human|
-A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|R|Human|
+T Continue to Stormwind|QID|6281|M|77.08,61.18|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|R|Human|
+A Dungar Longdrink|QID|6261|M|77.08,61.18|Z|Stormwind City|N|From Osric Strang.|PRE|6281|R|Human|
 
 T Desperate Prayer|QID|5635|C|Priest|M|38.8,26.4|Z|Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.|
 T Seek out SI: 7|QID|2205|C|Rogue|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
 A Snatch and Grab|QID|2206|C|Rogue|M|76.0,59.8|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|2205|
 C Snatch and Grab|QID|2206|C|Rogue|M|47,87|N|Head south east of Goldshire. As you approach the docks, stealth, then pickpocket the dockmaster. If the weapon isn't an upgrade, you may want to skip or leave this quest 'til next time you are conveniently in Goldshire.|ITEM|7298|
 T Snatch and Grab|QID|2206|C|Rogue|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
-T Elmore's Task|QID|1097|M|51.75,12.10|Z|Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
-A Stormpike's Delivery|QID|353|PRE|1097|M|51.75,12.10|Z|Stormwind City|N|From Grimand Elmore.|
+T Elmore's Task|QID|1097|M|59.67,33.84|Z|Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
+A Stormpike's Delivery|QID|353|PRE|1097|M|59.67,33.84|Z|Stormwind City|N|From Grimand Elmore.|
 
-R Deeprun Tram|QID|6661|M|64,8|Z|Stormwind City|N|Run to the Deeprun Tram.|
+R Deeprun Tram|QID|6661|M|66.85,33.54|Z|Stormwind City|N|Run to the Deeprun Tram.|
 A Deeprun Rat Roundup|QID|6661|N|Board the Tram to take you Ironforge, then quest From Monty, at the Ironforge Tram Stop.|
 C Deeprun Rat Roundup|QID|6661|NC|U|17117|N|Use Rat Catcher's Flute on Deeprun Rats, and catch five of them.|T|Deeprun Rat|
 T Deeprun Rat Roundup|QID|6661|N|To Monty.|
@@ -331,10 +324,9 @@ T Bitter Rivals|QID|310|M|47.72,52.70|Z|Dun Morogh|N|Once Jarven leaves, right-c
 T Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|Dun Morogh|N|To Ragnar Thunderbrew.|
 T Stocking Jetsteam|QID|317|M|49.43,48.41|Z|Dun Morogh|N|To Pilot Bellowfiz.|
 T The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|To Pilot Stonegear.|
-N Level 12 Training|AVAILABLE|314|N|Do your training before leaving the area. If you have to go to Ironforge, come back down the hill to the Kharanos intersection.\nClose this step when you are done.|LVL|12|
 R Amberstill Ranch|AVAILABLE|314|M|62.17,53.10|Z|Dun Morogh|N|Follow the road east to Amberstill Ranch.\nYou can follow the road or run along the frozen river to make it quicker and do some grinding along the way.|
-A Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Rudra Amberstill.|
-C Protecting the Herd|QID|314|M|62.45,50.35;62.37,49.06;62.45,49.01|CS|Z|Dun Morogh|QO|1|N|Kill Vagash, and loot Fang of Vagash.\n[color=FF0000]NOTE: [/color]This is your first real challenge. Vagash ia a level 11 elite. Group up if you can.|
+A Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|From Rudra Amberstill.|
+C Protecting the Herd|QID|314|M|62.45,50.35;62.37,49.06;62.45,49.01|CS|Z|Dun Morogh|QO|1|N|Kill Vagash, and loot Fang of Vagash.|
 T Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|To Rudra Amberstill.|
 R Gol'Bolar Quarry|QID|432|M|67.26,53.52|Z|Dun Morogh|N|Gol'Bolar Quarry is just SE of you.|
 A The Public Servant|QID|433|M|68.67,55.96|Z|Dun Morogh|N|From Senator Mehr Stonehollow.|
@@ -351,8 +343,6 @@ T The Lost Pilot|QID|419|M|79.69,36.14|Z|Dun Morogh|N|To Dwarven Corpse.|
 A A Pilot's Revenge|QID|417|PRE|419|M|79.69,36.14|Z|Dun Morogh|N|From Dwarven Corpse.|
 C A Pilot's Revenge|QID|417|M|78.48,37.42|Z|Dun Morogh|T|Mangeclaw|N|Kill Mangeclaw and loot a Mangy Claw.|
 T A Pilot's Revenge|QID|417|M|83.89,39.19|Z|Dun Morogh|N|To Pilot Hammerfall.|
-
-; -- This guide ends in Thelsamar, Loch Modan
-
 ]]
 end)
+

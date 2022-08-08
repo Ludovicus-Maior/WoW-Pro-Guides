@@ -1,18 +1,10 @@
---[[
-WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
---]]
-
-
-
-
-local guide = WoWPro:RegisterGuide('BC-NightElf', "Leveling", 'Teldrassil', 'WoWPro Team', 'Alliance', 2)
-WoWPro:GuideName(guide, 'Teldrassil 1-12')
-WoWPro:GuideLevels(guide, 1, 12, 2)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Darkshore')
+local guide = WoWPro:RegisterGuide("TarTel0112", "Leveling", "Teldrassil", "WowPro Team", "Alliance", 3)
+WoWPro:GuideNickname(guide, "Teldrassil")
+WoWPro:GuideName(guide, "Teldrassil")
+WoWPro:GuideNextGuide(guide, "SveBlo1220")
+WoWPro:GuideLevels(guide, 1, 12)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A The Balance of Nature|QID|456|M|58.69,44.27|N|From Conservator Ilthalaine in front of you.|
 C The Balance of Nature|QID|456|N|Kill Young Nightsabers and Young Thistle Boars.|
 r Sell and Repair|AVAILABLE|4495|N|Sell and Repair with Keina in Aldrassil.|
@@ -352,6 +344,5 @@ T Tears of the Moon|QID|2518|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora, u
 A Sathrah's Sacrifice|QID|2520|PRE|2518|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.|
 C Sathrah's Sacrifice|QID|2520|NC|M|38.24,85.73|Z|Darnassus|U|8155|N|Use Sathrah's Sacrifice in the fountain down below.|
 T Sathrah's Sacrifice|QID|2520|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora.|
-; --- Guide ends in Darnassus.
 ]]
 end)
