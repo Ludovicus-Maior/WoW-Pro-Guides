@@ -1,5 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-    <Script file="INTRO_DK.lua"/>
+    <Script file="INTRO_WOTLK_DK.lua"/>
 	<Script file="BCC_Netherstorm.lua"/>
 	<Script file="WOTLK_Sholazar_Basin.lua"/>
 	<Script file="WOTLK_ZulDrak.lua"/>

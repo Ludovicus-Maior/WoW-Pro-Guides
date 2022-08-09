@@ -87,7 +87,7 @@ function WoWPro.Leveling:OnEnable()
             WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
             if WoWPro.CLASSIC then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
-            elseif WoWPro.BC then
+            elseif WoWPro.BC or WoWPro.WRATH then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicBCStartGuides[engRace]
             else
 				local mapID = _G.C_Map.GetBestMapForUnit("player");
@@ -104,6 +104,9 @@ function WoWPro.Leveling:OnEnable()
             end
             WoWPro:LoadGuide(WoWProDB.char.currentguide)
         -- New Death Knight --
+		elseif currentLevel == 55 and currentXP < 1000 and engClass == "DEATHKNIGHT" and WoWPro.WRATH then
+			WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
+            WoWPro:LoadGuide("WOTLK-DK")
         elseif currentLevel == 8 and currentXP < 300 and engClass == "DEATHKNIGHT" then
             WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
             WoWPro:LoadGuide("JamScar5558")

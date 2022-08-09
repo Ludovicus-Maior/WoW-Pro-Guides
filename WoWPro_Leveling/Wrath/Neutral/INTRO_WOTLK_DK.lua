@@ -1,10 +1,12 @@
-local guide = WoWPro:RegisterGuide("JamSca5558", "Leveling", "The Scarlet Enclave", "WoW-Pro Team", "Horde", 3)
-WoWPro:GuideNickname(guide, "The Scarlet Enclave")
-WoWPro:GuideName(guide, "Plaguelands: The Scarlet Enclave")
+local guide = WoWPro:RegisterGuide("WOTLK-DK", "Leveling", "Plaguelands: The Scarlet Enclave!Instance", "WoW-Pro Team", "Neutral", 3)
+WoWPro:GuideContent(guide, "Intro")
+WoWPro:GuideNickname(guide, "Death Knight: Intro")
+WoWPro:GuideName(guide,"Death Knight: Intro")
 WoWPro:GuideLevels(guide, 55, 58)
 WoWPro:GuideClassSpecific(guide,"DeathKnight")
-WoWPro:GuideNextGuide(guide, "JamHel6062"|"JamHel6063")
+WoWPro:GuideNextGuide(guide, "Hellfire Peninsula")
 WoWPro:GuideSteps(guide, function()
+
 return [[
 
 A In Service Of The Lich King|QID|12593|M|51.34,35.17|Z|124|N|From The Lich King.|
@@ -158,7 +160,5 @@ T Where Kings Walk|QID|13188|Z|Stormwind City|M|85.6,31.8|N|To King Anduin Wrynn
 A Saurfang's Blessing|QID|13189|PRE|13166|FACTION|Horde|M|83.4,49.4|N|From Highlord Darion Mograine.|
 P Durotar|QID|13189|M|84.58,50.49|Z|Eastern Plaguelands|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
 T Saurfang's Blessing|QID|13189|Z|Orgrimmar|M|48.14,70.56|N|To High Overlord Saurfang.|FACTION|Horde|
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|
-N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|
 ]]
 end)
