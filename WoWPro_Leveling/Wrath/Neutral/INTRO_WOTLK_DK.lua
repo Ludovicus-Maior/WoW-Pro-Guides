@@ -102,20 +102,21 @@ N More Skulls For Brew|QID|12718|M|54.67,57.45|Z|124|N|This is a repeatable ques
 T Nowhere To Run And Nowhere To Hide|QID|12719|M|54.29,57.30|Z|124|N|To Prince Keleseth inside the Crypt of Remembrance.|
 A How To Win Friends And Influence Enemies|QID|12720|M|54.29,57.30|Z|124|N|From Prince Keleseth.|PRE|12719|
 T Lambs To The Slaughter|QID|12722|M|54.67,57.45|Z|124|N|To Baron Rivendare.|
-U Open the Ornately Jeweled Box|QID|12720|M|PLAYER|QO|1|N|There are one or two [Keleseth's Persuader] depending on your specialization inside. Click to complete when done.|U|39418|
-C How To Win Friends And Influence Enemies|QID|12720|N|Go to the Scarlet Hold on the east side of New Avalon, equip the Persuader(s) and beat on people until they tell you want you want to hear.|M|60,68|
+U Ornately Jeweled Box|ACTIVE|12720|M|PLAYER|N|Open the box to loot Keleseth's Persuader(s) inside it.|U|39418|O|
+C How To Win Friends And Influence Enemies|QID|12720|QO|1|N|After equipping the Persuader(s), make your way to the Scarlet Hold on the east side of New Avalon and beat on people until they tell you want you want to hear.\n[color=FF0000]NOTE: [/color]The longer the fight lasts, the more likely you are to succeed. Stop attacking when they're dazed. This could take numerous attempts.\nI also suggest stripping and only equipping one of the swords.|
 T How To Win Friends And Influence Enemies|QID|12720|M|54.29,57.30|Z|124|N|To Prince Keleseth.|
-A Behind Scarlet Lines|QID|12723|PRE|12716&12722&12720|M|54.29,57.30|Z|124|N|From Prince Keleseth.|
-T Behind Scarlet Lines|QID|12723|N|Go far south to the Scarlet Tavern, second floor, turn the quest into Orbaz Bloodbane.|M|56.3,79.8|
-A The Path Of The Righteous Crusader|QID|12724|PRE|12723|M|56.3,79.8|N|From Orbaz Bloodbane.|
-A Brothers In Death|QID|12725|PRE|12723|M|56.3,80.2|N|From Thassarian.|
-C The Path Of The Righteous Crusader|QID|12724|N|Ride northeast to the Scarlet Hold and loot the [New Avalon Patrol Schedule] on the upper floor.|M|63.0,68.3|
+A Behind Scarlet Lines|QID|12723|M|54.29,57.30|Z|124|N|From Prince Keleseth.|PRE|12716&12722&12720|
+R New Avalon Orchard|ACTIVE|12723|M|57.62,75.46|Z|124|N|Head the southern most point of New Avalon.|
+T Behind Scarlet Lines|QID|12723|M|56.25,79.85|Z|124|N|To Orbaz Bloodbaneon on the second floor of the Scarlet Tavern.|
+A The Path Of The Righteous Crusader|QID|12724|M|56.25,79.85|Z|124|N|From Orbaz Bloodbane.|PRE|12723|
+A Brothers In Death|QID|12725|M|56.26,80.15|Z|124|N|From Thassarian.|PRE|12723|
+C The Path Of The Righteous Crusader|QID|12724|M|63.0,68.3|Z|124|L|39504|N|Head to the Scarlet Hold and loot the [color=33fff9]New Avalon Patrol Schedule[/color] from the main chamber on the upper floor.|
 T Brothers In Death|QID|12725|N|Go to the Basement where you'll find Koltira Deathweaver.|M|63.0,67.8|
 A Bloody Breakout|QID|12727|PRE|12725|N|From Koltira Deathweaver. Be ready to defend, try to fight inside the anti-magic barrier as much as possible.|M|63.0,67.8|
 C Bloody Breakout|QID|12727|N|Try to fight inside the anti-magic barrier as much as possible. Loot [Valroth's Head] when all is done.|
-T The Path Of The Righteous Crusader|QID|12724|N|To Orbaz Bloodbane.|M|56.3,79.8|
-T Bloody Breakout|QID|12727|M|56.3,80.2|N|To Thassarian.|
-A A Cry For Vengeance!|QID|12738|PRE|12727|M|56.3,80.2|N|From Thassarian.|
+T The Path Of The Righteous Crusader|QID|12724|N|To Orbaz Bloodbane.|M|56.25,79.85|Z|124|
+T Bloody Breakout|QID|12727|M|56.26,80.15|Z|124|N|To Thassarian.|
+A A Cry For Vengeance!|QID|12738|PRE|12727|M|56.26,80.15|Z|124|N|From Thassarian.|
 T A Cry For Vengeance!|QID|12738|N|To the east in the Chapel of the Crimson Flame. Turn the quest into Knight Commander Plaguefist.|M|52.9,81.5|
 A A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|PRE|12738|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
 C A Special Surprise|QID|12742|R|Human|N|Put your ghoul on passive mode (if you have one), listen to Ellen Stanbridge's speech and kill her.|M|54.6,83.7|
@@ -132,15 +133,15 @@ C A Special Surprise|QID|12750|R|Undead|N|Put your ghoul on passive mode (if you
 C A Special Surprise|QID|28650|R|Goblin|N|Put your ghoul on passive mode (if you have one), listen to Gally Lumpstain's speech and kill her.|M|53.54,83.6|
 T A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|N|To Knight Commander Plaguefist.|M|52.9,81.5|
 A A Sort Of Homecoming|QID|12751|PRE|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|M|52.9,81.5|N|From Knight Commander Plaguefist.|
-T A Sort Of Homecoming|QID|12751|N|To Thassarian.|M|56.3,80.2|
-A Ambush At The Overlook|QID|12754|PRE|12751&12724|N|From Orbaz Bloodbane.|M|56.3,79.8|
+T A Sort Of Homecoming|QID|12751|N|To Thassarian.|M|56.26,80.15|Z|124|
+A Ambush At The Overlook|QID|12754|PRE|12751&12724|N|From Orbaz Bloodbane.|M|56.25,79.85|Z|124|
 C Ambush At The Overlook|QID|12754|U|39645|N|Find a clear spot in the Scarlet Overlook, use the [Makeshift Cover], ambush the Scarlet Courier and loot everthing he has.|M|62,77|
-T Ambush At The Overlook|QID|12754|N|To Orbaz Bloodbane.|M|56.3,79.8|
-A A Meeting With Fate|QID|12755|PRE|12754|M|56.3,79.8|N|From Orbaz Bloodbane.|
+T Ambush At The Overlook|QID|12754|N|To Orbaz Bloodbane.|M|56.25,79.85|Z|124|
+A A Meeting With Fate|QID|12755|PRE|12754|M|56.25,79.85|Z|124|N|From Orbaz Bloodbane.|
 T A Meeting With Fate|QID|12755|N|Mount up and ride to the Scarlet Overlook. Take the path south leading down to King's Harbor, where you will find High General Abbendis.|M|65.6,83.8|
 A The Scarlet Onslaught Emerges|QID|12756|PRE|12755|M|65.6,83.8|N|From High General Abbendis.|
-T The Scarlet Onslaught Emerges|QID|12756|M|56.3,79.8|N|To Orbaz Bloodbane.|
-A Scarlet Armies Approach...|QID|12757|PRE|12756|N|From Orbaz Bloodbane.|M|56.3,79.8|
+T The Scarlet Onslaught Emerges|QID|12756|M|56.25,79.85|Z|124|N|To Orbaz Bloodbane.|
+A Scarlet Armies Approach...|QID|12757|PRE|12756|N|From Orbaz Bloodbane.|M|56.25,79.85|Z|124|
 T Scarlet Armies Approach...|QID|12757|N|Click on the portal that Orbaz summons. Then turn the quest into Highlord Darion Mograine in the Hall of Command.|M|48.9,29.7|
 A The Scarlet Apocalypse|QID|12778|PRE|12757|M|48.9,29.7|N|From Highlord Darion Mograine.|
 T The Scarlet Apocalypse|QID|12778|N|Take the Gryphon to Death's Breach. The Lich King is to the south on the platform.|M|53.6,36.9|
