@@ -1,7 +1,7 @@
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_30_41_Alliance', 'Leveling', 'Thousand Needles', 'WoWPro Team', 'Alliance', 3)
-WoWPro:GuideName(guide, 'Alliance Leveling 30-41')
+local guide = WoWPro:RegisterGuide('WOTLK_Alliance3041', 'Leveling', 'Thousand Needles', 'WoWPro Team', 'Alliance', 3)
+WoWPro:GuideName(guide, 'Alliance Ch3')
 WoWPro:GuideLevels(guide,30, 41)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_42_50_Alliance')
+WoWPro:GuideNextGuide(guide, 'WOTLK_Alliance4250')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Gnomeregan|QID|2929|N|Now would be a good time to run Gnomeregan. This will avoid some grinding you may need to do shortly. Be sure to collect all the quests as they give a lot of experience.|LVL|-31|

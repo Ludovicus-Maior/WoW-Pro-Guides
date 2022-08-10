@@ -1,7 +1,7 @@
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_50_55_Alliance', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 3)
-WoWPro:GuideName(guide, 'Alliance Leveling 50-55')
+local guide = WoWPro:RegisterGuide('WOTLK_Alliance5055', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 3)
+WoWPro:GuideName(guide, 'Alliance Ch5')
 WoWPro:GuideLevels(guide,50, 55)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_55_60_Alliance')
+WoWPro:GuideNextGuide(guide, 'WOTLK_Alliance5560')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Level Check: 50|M|PLAYER|N|You really do have to be level 50 to start this guide, the opening quests require you to be level 50 to even see them. If you're not quite there, you need to either grind it out or do the dungeon recommendations.|LVL|-50|

@@ -1,6 +1,6 @@
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_55_60_Alliance', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 3)
-WoWPro:GuideName(guide, 'Alliance Leveling 55-60')
-WoWPro:GuideLevels(guide,55, 59)
+local guide = WoWPro:RegisterGuide('WOTLK_Alliance5560', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 3)
+WoWPro:GuideName(guide, 'Alliance Ch6')
+WoWPro:GuideLevels(guide,55, 60)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Hellfire')
 WoWPro:GuideSteps(guide, function()
 return [[

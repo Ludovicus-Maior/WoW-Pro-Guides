@@ -1,6 +1,6 @@
-local guide = WoWPro:RegisterGuide("WOTLK_Human", "Leveling", "Elwynn Forest", "WowPro Team", "Alliance", 3)
-WoWPro:GuideName(guide, "INTRO_Human")
-WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Eastern_Kingdom")
+local guide = WoWPro:RegisterGuide("WOTLK_INTRO_Human", "Leveling", "Elwynn Forest", "WowPro Team", "Alliance", 3)
+WoWPro:GuideName(guide, "Elwynn Forest")
+WoWPro:GuideNextGuide(guide, "WOTLK_Eastern_Kingdom1019")
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSteps(guide, function()
 return [[

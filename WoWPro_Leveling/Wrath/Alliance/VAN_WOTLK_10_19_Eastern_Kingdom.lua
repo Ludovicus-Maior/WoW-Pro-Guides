@@ -1,7 +1,7 @@
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_Eastern_Kingdom', 'Leveling', 'Loch Modan', 'WoWPro Team', 'Alliance', 3)
-WoWPro:GuideName(guide, 'Eastern Kingdom 10-19')
+local guide = WoWPro:RegisterGuide('WOTLK_Eastern_Kingdom1019', 'Leveling', 'Loch Modan', 'WoWPro Team', 'Alliance', 3)
+WoWPro:GuideName(guide, 'Eastern Kingdom')
 WoWPro:GuideLevels(guide, 10, 19)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_19_25_Alliance')
+WoWPro:GuideNextGuide(guide, 'WOTLK_Alliance1925')
 WoWPro:GuideSteps(guide, function ()
 return [[
 R South Gate Pass|QID|414|ACTIVE|353|M|86.3,51.3|Z|Dun Morogh|N|Head to the South Gate Pass tunnel|
@@ -86,10 +86,10 @@ T Westfall Stew|QID|36|M|56.41,30.52|Z|Westfall|N|To Salma Saldean.|
 A Westfall Stew|QID|38|M|56.41,30.52|Z|Westfall|N|From Salma Saldean.|PRE|36|
 A Goretusk Liver Pie|QID|22|M|56.41,30.52|Z|Westfall|N|From Salma Saldean.|
 C Goretusk Liver Pie|QID|22|L|723 8|Z|Westfall|N|From now on, kill Goretusks.|S|
-C Westfall Stew|QID|38|N|Kill Vultures, Harvest Watchers/Golems, Murlocs and Goretusks.|S!US|
-C The Killing Fields|QID|9|M|55.00,33.20|QO|1|N|Kill Harvest Watchers until you finish this quest.|S|
-C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill Harvest Watchers or Rusty Harvest Golems to collect 5 Flasks of Oil. Save the oil for later.|S!US|
-C Hops|AVAILABLE|117|L|1274 5|N|Kill Harvest Watchers to collect 5 Hops. Save the hops for later.|S!US|
+C Westfall Stew|QID|38|Z|Westfall|N|Kill Vultures, Harvest Watchers/Golems, Murlocs and Goretusks.|S|
+C The Killing Fields|QID|9|M|55.00,33.20|Z|Westfall|QO|1|N|Kill Harvest Watchers until you finish this quest.|S|
+C Flask of Oil|AVAILABLE|103|L|814 5|M|51.33,26.02|Z|Westfall|N|Kill Harvest Watchers or Rusty Harvest Golems to collect 5 Flasks of Oil. Save the oil for later.|
+C Hops|AVAILABLE|117|L|1274 5|Z|Westfall|N|Kill Harvest Watchers to collect 5 Hops. Save the hops for later.|S!US|
 
 ;--------------------new content---------------------------
 N Bag space|ACTIVE|22^38|Z|Westfall|N|There are a number of collection quests in this zone. You will need a minimum of 9 empty spaces to carry everything.|
@@ -112,8 +112,9 @@ R Jangolode Mine|ACTIVE|12|M|43.55,27.13|Z|Westfall|N|Head to the Jangolode Mine
 C The People's Militia|QID|12|QO|1;2|Z|Westfall|N|Finish killing Defias Trappers and Smugglers until you're finished.\nWatch out for the runners.|US|
 C Goretusk Liver Pie|QID|22|L|723 8|Z|Westfall|N|Finish collecting your Goretusk Livers.|US|
 L Level 15|ACTIVE|15|N|You should be level 15 by this time, grind until you are.|LVL|14;-3850|
+C Westfall Stew|QID|38|N|Kill Vultures, Harvest Watchers/Golems, Murlocs and Goretusks.|US|
 T The Killing Fields|QID|9|M|56.04,31.23|Z|Westfall|N|To Farmer Saldean.|
-t Westfall Stew |QID|38|M|56.41,30.52|Z|Westfall|N|To Salma Saldean.|
+T Westfall Stew |QID|38|M|56.41,30.52|Z|Westfall|N|To Salma Saldean.|
 T Goretusk Liver Pie|QID|22|M|56.41,30.52|Z|Westfall|N|To Salma Saldean.|
 T The People's Militia |QID|12|M|56.33,47.52|Z|Westfall|N|To Gryan Stoutmantle.|
 A The People's Militia |QID|13|M|56.33,47.52|Z|Westfall|N|From Gryan Stoutmantle.|PRE|12|
@@ -196,7 +197,6 @@ F Ironforge|AVAILABLE|2039|M|66.29,62.13|Z|Stormwind City|N|Fly to Ironforge.|IZ
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|Ironforge|N|From Gnoarn.|
 F Thelsamar|ACTIVE|2039|M|55.49,47.75|Z|Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
 A Ironband's Excavation|QID|436|M|37.24,47.39|Z|Loch Modan|N|From Jern Hornhelm, inside the house, down the stairs.|
-A WANTED: Chok'sul|QID|256|M|37.29,46.50|ELITE|Z|Loch Modan|N|[color=FF8000]Elite: [/color]\nFrom Wanted Poster, you will probably want a group to kill this.|RANK|2|
 A Mercenaries|QID|255|M|34.69,43.18|ELITE|Z|Loch Modan|N|[color=FF8000]Elite: [/color]\nFrom Magistrate Bluntnose, inside, down the stairs.|RANK|2|
 R Valley of Kings|AVAILABLE|224|M|25.33,67.67|Z|Loch Modan|N|Take the road south out of Thelsamar.|LVL|-18|
 A The Trogg Threat|QID|267|M|23.24,73.67|Z|Loch Modan|N|From Captain Ruglefuss, inside the Bunker.|LVL|-18|
@@ -240,7 +240,6 @@ A Vyrin's Revenge|QID|271|M|81.72,64.16|ELITE|Z|Loch Modan|N|[color=FF8000]Elite
 R Mo'grosh Stronghold|M|74,35|ACTIVE|255|Z|Loch Modan|N|I recommend a group for this even at level 20, you still will really benefit from at least 2 of you.|
 C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|S|Z|Loch Modan|N|Mo'grosh Ogres and Enforcers are found outside the cave.|
 C Mercenaries|QID|255|M|76.75,14.38|QO|2|S|Z|Loch Modan|N|Mo'grosh Brutes are found inside the cave.|
-K Chok'sul|ACTIVE|256|M|79.49,15.55|QO|1|Z|Loch Modan|N|Chok'sul is found all the way to the back of the cave. Kill and take his head as proof.|T|Chok'sul|
 C Mercenaries|QID|255|M|76.75,14.38|QO|2|US|Z|Loch Modan|N|Mo'grosh Brutea are found inside the cave.|
 C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|US|Z|Loch Modan|N|Mo'grosh Ogres and Enforcers are found outside the cave.|
 R Stonewrought Dam|AVAILABLE|250|M|55.47,15.14|Z|Loch Modan|N|Run over to the ramp up on to the top of the dam.|
@@ -254,15 +253,14 @@ A Stonegear's Search|QID|467|M|33.82,48.41|Z|Loch Modan|N|From Mountaineer Kadre
 T Excavation Progress Report|QID|298|M|37.24,47.38|Z|Loch Modan|N|To Jern Hornhelm.|
 A Report to Ironforge|QID|301|PRE|298|M|37.24,47.38|Z|Loch Modan|N|From Jern Hornhelm.|
 T Mercenaries|QID|255|M|34.69,43.19|Z|Loch Modan|N|To Magistrate Bluntnose.|
-T WANTED: Chok'sul|QID|256|M|34.69,43.18|Z|Loch Modan|N|To Magistrate Bluntnose.|
 F Ironforge|ACTIVE|301|M|33.94,50.95|Z|Loch Modan|N|Fly to Ironforge at Thorgrum Borrelson.|
 = Train|ACTIVE|301^302|N|Stop by the Trainer, AH, whatever other town stuff you need to do.|
 N Collection Items|AVAILABLE|103^117|ACTIVE|38|N|Make sure you grab the hops, flasks of oil and Westfall Stew items from your bank if you dropped them off.|
 T Report to Ironforge|QID|301|M|74.66,11.74|Z|Ironforge|N|To Prospector Stormpike.|
 A Powder to Ironband|QID|302|PRE|301|M|74.66,11.74|Z|Ironforge|N|From Prospector Stormpike.|
+F Thelsamar|ACTIVE|302|M|55.49,47.75|Z|Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
 T Powder to Ironband|QID|302|M|37.24,47.38|N|To Jern Hornhelm.|
 A Resupplying the Excavation|QID|273|PRE|302|M|37.24,47.38|N|From Jern Hornhelm.|
-F Thelsamar|ACTIVE|302|M|55.49,47.75|Z|Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
 R Valley of Kings|AVAILABLE|224|M|25.33,67.67|N|Take the road south out of Thelsamar.|
 T In Defense of the King's Lands|QID|263|M|23.47,74.49|Z|Loch Modan|N|To Mountaineer Wallbang.|
 A In Defense of the King's Lands|QID|217|M|23.24,73.67|Z|Loch Modan|N|From Captain Ruglefuss.|PRE|263|
@@ -271,7 +269,7 @@ T In Defense of the King's Lands|QID|217|M|23.24,73.67|Z|Loch Modan|N|To Captain
 T Powder to Ironband|QID|302|M|37.24,47.38|Z|Loch Modan|N|To Jern Hornhelm.|
 A Resupplying the Excavation|QID|273|PRE|302|M|37.24,47.38|Z|Loch Modan|N|From Jern Hornhelm.|
 R Grizzlepaw Ridge|ACTIVE|271|M|41.31,65.82|Z|Loch Modan|
-K Ol' Sooty|ACTIVE|271|M|40.21,66.95;36.81,61.23|CS|Z|Loch Modan|N|Go up this path to find Ol' Sooty in a cave and take his head.|T|Ol' Sooty|
+K Ol' Sooty|ACTIVE|271|M|40.21,66.95;36.81,61.23|CS|QO|1|Z|Loch Modan|N|Go up this path to find Ol' Sooty in a cave and take his head.|T|Ol' Sooty|
 C Resupplying the Excavation|QID|273|M|50.77,69.03|QO|1|Z|Loch Modan|N|Find Huldar, Miran, and Saean.|
 T Resupplying the Excavation|QID|273|M|52.20,69.35|Z|Loch Modan|N|To Huldar.|
 A After the Ambush|QID|454|M|52.20,69.35|Z|Loch Modan|N|From Huldar.|PRE|273|
@@ -280,7 +278,7 @@ A Protecting the Shipment|QID|309|M|52.22,69.44|ELITE|Z|Loch Modan|N|[color=80FF
 C Protecting the Shipment|QID|309|M|63.02,66.08;65.19,65.94|CC|Z|Loch Modan|N|Escort Miran to Ironband's Excavation Site. You will get ambushed by 2 Dark Iron mobs just before you get there. Dispatch them and continue to the camp.|
 T Protecting the Shipment|QID|309|M|65.96,65.62|Z|Loch Modan|N|To Prospector Ironband.|
 A Gathering Idols|QID|297|M|64.89,66.66|Z|Loch Modan|N|From Magmar Fellhew.|
-C Gathering Idols|QID|297|L|2636 8|Z|Loch Modan|N|Kill and loot troggs to collect the idols.|
+C Gathering Idols|QID|297|L|2636 8|M|72.50,66.46|Z|Loch Modan|N|Kill and loot troggs to collect the idols.|
 T Gathering Idols|QID|297|M|64.90,66.66|Z|Loch Modan|N|To Magmar Fellhew.|
 T Vyrin's Revenge|QID|271|M|83.51,65.44|Z|Loch Modan|N|To Daryl the Youngling.|
 A Vyrin's Revenge|QID|531|PRE|271|M|83.51,65.44|Z|Loch Modan|N|From Daryl the Youngling.|
