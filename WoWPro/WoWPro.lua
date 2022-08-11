@@ -772,14 +772,12 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
        (WoWPro.BC and (release ~= 2)) or
        (WoWPro.WRATH and (release ~= 3)) then
         -- Wrong Release guide rejected
-        WoWPro:print("RegisterGuide(): Guide %q rejected, release is %s", GIDvalue, tostring(release))
-        WoWPro:print("RegisterGuide(): RETAIL=%s, CLASSIC=%s, BC=%s, WRATH=%s",
-                     tostring(WoWPro.RETAIL), tostring(WoWPro.CLASSIC), tostring(WoWPro.BC), tostring(WoWPro.WRATH))
+        -- WoWPro:dbp("RegisterGuide(): Guide %q rejected, release is %s", GIDvalue, tostring(release))
         return guide
     end
 
     WoWPro.Guides[GIDvalue] = guide
-    WoWPro:print("RegisterGuide(): Guide %q loaded, release is %s", GIDvalue, tostring(release))
+    -- WoWPro:dbp("RegisterGuide(): Guide %q loaded, release is %s", GIDvalue, tostring(release))
     return guide
 end
 
