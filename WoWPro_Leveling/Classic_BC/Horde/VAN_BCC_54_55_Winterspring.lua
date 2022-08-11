@@ -104,8 +104,8 @@ K Deadwood Furbolgs|ACTIVE|8470|M|61.38,5.99|Z|Felwood|N|Kill the Deadwood tribe
 T Falling to Corruption|QID|5084|M|60.20,5.83|Z|Felwood|N|Head to the camp in the northern most corner of Felpaw Village.\nOnce you have cleared the camp, click on the cauldron to turn.\n[color=FF0000]NOTE: [/color]Kite the Den Watcher away from the group or it will summon all of them.|
 A Mystery Goo|QID|5085|PRE|5084|M|60.20,5.83|Z|Felwood|N|From the cauldron.|
 C Deadwood Headdress Feather|AVAILABLE|8467|L|21377 5|ITEM|21377|N|Any Deadwood Furbolg.|REP|Timbermaw Hold;576;Hated-Unfriendly|
-A Feathers for Nafien|AVAILABLE|8467|M|64.77,8.12|Z|Felwood|N|Once you have 5 Deadwood Headdress Feathers, go see Nafien at the top of the hill.|REP|Timbermaw Hold;576;Hated-Unfriendly|
-t Feathers for Nafien|AVAILABLE|8467|M|64.77,8.12|Z|Felwood|QO|1|N|Once you have 5 Deadwood Headdress Feather, turn them in to Nafien for 150 Rep towards Timbermaw Hold.|REP|Timbermaw Hold;576;Hated-Unfriendly|NOCACHE|
+A Feathers for Nafien|QID|8467|M|64.77,8.12|Z|Felwood|N|Once you have 5 Deadwood Headdress Feathers, go see Nafien at the top of the hill.|REP|Timbermaw Hold;576;Hated-Unfriendly|
+t Feathers for Nafien|QID|8467|M|64.77,8.12|Z|Felwood|QO|1|N|Once you have 5 Deadwood Headdress Feather, turn them in to Nafien for 150 Rep towards Timbermaw Hold.|REP|Timbermaw Hold;576;Hated-Unfriendly|NOCACHE|
 K Deadwood Furbolgs|ACTIVE|8470|M|61.38,5.99|Z|Felwood|N|Kill the Deadwood tribe members until you reach neutral rep with Timbermaw Hold.|REP|Timbermaw Hold;576;Hated-Unfriendly|US|
 T Deadwood Ritual Totem|QID|8470|M|65.5,3.5;65.37,1.24|CC|Z|Felwood|N|To Kernda, who can be found in Timbermaw Hold pathing under the bridge in and out of the Moonglade tunnel.|REP|Timbermaw Hold;576;Neutral-Exalted|
 T Winterfall Ritual Totem|QID|8471|M|65.5,3.5;65.37,1.24|CC|Z|Felwood|N|To Kernda, who can be found in Timbermaw Hold pathing under the bridge in and out of the Moonglade tunnel.|REP|Timbermaw Hold;576;Neutral-Exalted|
