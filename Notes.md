@@ -1,7 +1,7 @@
 # Release 9.2.5-A2 / 1.14.3-A3 / 2.5.4-A4 / 3.0.0-A1
 ## Bug Fixes
 * Pahonix, Bondfire: Added first cut of Wrath support thanks to you!
-* Mayara: Improved Skip_Steps dialog box
+* Mayara: Improved SkipSteps dialog box
 
 ## Guide Updates
 ### Retail Leveling
