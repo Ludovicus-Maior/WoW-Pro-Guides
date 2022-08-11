@@ -161,7 +161,7 @@ F Camp Taurajo|ACTIVE|1823|M|47.02,49.83|Z|1456|N|Fly to Camp Taurajo.|C|Warrior
 T Speak with Ruga|QID|1823|M|44.69,59.42|Z|1413|N|Turn in to Ruga Ragetotem.|C|Warrior|
 A Trial at the Field of Giants|QID|1824|M|44.69,59.42|Z|1413|N|Pick up from Ruga Ragetotem.|C|Warrior|PRE|1823|
 l Trial at the Field of Giants|ACTIVE|1824|M|43.3,69.6|Z|1413|L|7119 5|N|From the silithids in the south.|C|Warrior|
-T Trial at the Field of Giants|ACTIVE|1824|M|44.69,59.42|Z|1413|N|Pick up from Ruga Ragetotem.|C|Warrior|
+T Trial at the Field of Giants|QID|1824|M|44.69,59.42|Z|1413|N|Pick up from Ruga Ragetotem.|C|Warrior|
 A Speak with Thun'grim|QID|1825|M|44.69,59.42|Z|1413|N|Pick up from Ruga Ragetotem.|C|Warrior|PRE|1824|
 
 ; --- The Barrens
