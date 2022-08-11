@@ -123,12 +123,12 @@ T The Strength of Corruption|QID|4120|M|76.19,43.84|Z|Feralas|N|To Talo Thornhoo
 F Orgrimmar|ACTIVE|4293^4294|M|45.23,5.84|Z|Un'Goro Crater|
 b Tirisfal Glades|ACTIVE|4293^4294|M|50.89,13.86|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
 U Corrupt Tested Sample|ACTIVE|4293|N|Open the sample.|U|15103|O|
-A Testing for Corruption - Felwood|QID|-4561&4293|M|47.72,73.57|Z|Undercity|L|12234 5|N|From the Testing Equipment in the Apothecarium.|NOCACHE|
-A Testing for Corruption - Felwood|QID|-4561&4293|M|47.72,73.57|Z|Undercity|L|12230 -1|N|From the Testing Equipment in the Apothecarium.\n[color=FF0000]NOTE: [/color]Finish testing the rest of your Samples before you turn this in 'A Sample of Slime...'; as you will no longer be able to after that.|NOCACHE|
-T A Sample of Slime...|QID|4293|M|47.45,73.36|Z|1458|N|To Chemist Fuely beside you.|U|15102|O|
-U Un'Goro Tested Sample|ACTIVE|4294|N|Open the sample.|
-A Testing for Impurities - Un'Goro Crater|QID|-4561&4294|M|47.72,73.57|Z|Undercity|L|12236 5|N|From the Testing Equipment in the Apothecarium.|NOCACHE|
-A Testing for Impurities - Un'Goro Crater|QID|-4561&4294|M|47.72,73.57|Z|Undercity|L|12235 -1|N|From the Testing Equipment in the Apothecarium.\n[color=FF0000]NOTE: [/color]Finish testing the rest of your Samples before you turn this in '... and a Batch of Ooze'; as you will no longer be able to after that.|NOCACHE|
+A Testing for Corruption - Felwood|QID|4461|ACTIVE|4293|M|47.72,73.57|Z|Undercity|L|12234 5|N|From the Testing Equipment in the Apothecarium.|NOCACHE|
+A Testing for Corruption - Felwood|QID|4461|ACTIVE|4293|M|47.72,73.57|Z|Undercity|L|12230 -1|N|From the Testing Equipment in the Apothecarium.\n[color=FF0000]NOTE: [/color]Finish testing the rest of your Samples before you turn this in 'A Sample of Slime...'; as you will no longer be able to after that.|NOCACHE|
+T A Sample of Slime...|QID|4293|M|47.45,73.36|Z|1458|N|To Chemist Fuely beside you.|
+U Un'Goro Tested Sample|ACTIVE|4294|N|Open the sample.|U|15102|O|
+A Testing for Impurities - Un'Goro Crater|QID|4561|ACTIVE|4294|M|47.72,73.57|Z|Undercity|L|12236 5|N|From the Testing Equipment in the Apothecarium.|NOCACHE|
+A Testing for Impurities - Un'Goro Crater|QID|4561|ACTIVE|4294|M|47.72,73.57|Z|Undercity|L|12235 -1|N|From the Testing Equipment in the Apothecarium.\n[color=FF0000]NOTE: [/color]Finish testing the rest of your Samples before you turn this in '... and a Batch of Ooze'; as you will no longer be able to after that.|NOCACHE|
 T ... and a Batch of Ooze|QID|4294|M|47.45,73.36|Z|1458|N|To Chemist Fuely beside you.|
 A Melding of Influences|QID|4642|M|47.45,73.36|Z|1458|N|From Chemist Fuely.|PRE|4293&4294|
 * Felwood Slime Sample|ACTIVE|-4293|AVAILABLE|-4293|N|You can no longer use these. Free up some bag space.|U|12230|

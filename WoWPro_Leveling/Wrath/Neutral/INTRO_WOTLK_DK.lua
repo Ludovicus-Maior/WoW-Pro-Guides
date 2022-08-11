@@ -111,58 +111,58 @@ T Behind Scarlet Lines|QID|12723|M|56.25,79.85|Z|124|N|To Orbaz Bloodbaneon on t
 A The Path Of The Righteous Crusader|QID|12724|M|56.25,79.85|Z|124|N|From Orbaz Bloodbane.|PRE|12723|
 A Brothers In Death|QID|12725|M|56.26,80.15|Z|124|N|From Thassarian.|PRE|12723|
 C The Path Of The Righteous Crusader|QID|12724|M|63.0,68.3|Z|124|L|39504|N|Head to the Scarlet Hold and loot the [color=33fff9]New Avalon Patrol Schedule[/color] from the main chamber on the upper floor.|
-T Brothers In Death|QID|12725|N|Go to the Basement where you'll find Koltira Deathweaver.|M|63.0,67.8|
-A Bloody Breakout|QID|12727|PRE|12725|N|From Koltira Deathweaver. Be ready to defend, try to fight inside the anti-magic barrier as much as possible.|M|63.0,67.8|
+T Brothers In Death|QID|12725|M|63.0,67.8|Z|124|N|Go to the Basement where you'll find Koltira Deathweaver.|
+A Bloody Breakout|QID|12727|M|63.0,67.8|Z|124|N|From Koltira Deathweaver. Be ready to defend, try to fight inside the anti-magic barrier as much as possible.|PRE|12725|
 C Bloody Breakout|QID|12727|N|Try to fight inside the anti-magic barrier as much as possible. Loot [Valroth's Head] when all is done.|
-T The Path Of The Righteous Crusader|QID|12724|N|To Orbaz Bloodbane.|M|56.25,79.85|Z|124|
-T Bloody Breakout|QID|12727|M|56.26,80.15|Z|124|N|To Thassarian.|
-A A Cry For Vengeance!|QID|12738|PRE|12727|M|56.26,80.15|Z|124|N|From Thassarian.|
-T A Cry For Vengeance!|QID|12738|N|To the east in the Chapel of the Crimson Flame. Turn the quest into Knight Commander Plaguefist.|M|52.9,81.5|
-A A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|PRE|12738|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
-C A Special Surprise|QID|12742|R|Human|N|Put your ghoul on passive mode (if you have one), listen to Ellen Stanbridge's speech and kill her.|M|54.6,83.7|
-C A Special Surprise|QID|12743|R|Night Elf|N|Put your ghoul on passive mode (if you have one), listen to Yazmina Oakenthorn's speech and kill her.|M|54.3,83.8|
-C A Special Surprise|QID|12744|R|Dwarf|N|Put your ghoul on passive mode (if you have one), listen to Donovan Pulfrost's speech and kill him.|M|54.1,83.5|
-C A Special Surprise|QID|12745|R|Gnome|N|Put your ghoul on passive mode (if you have one), listen to Goby Blastenheimer's speech and kill him.|M|54.9,83.7|
-C A Special Surprise|QID|12746|R|Draenei|N|Put your ghoul on passive mode (if you have one), listen to Valok the Righteous' speech and kill him.|M|54.5,83.5|
-C A Special Surprise|QID|28649|R|Worgen|N|Put your ghoul on passive mode (if you have one), listen to Lord Haraford's speech and kill him.|M|54.5,83.4|
-C A Special Surprise|QID|12739|R|Tauren|N|Put your ghoul on passive mode (if you have one), listen to Malar Bravehorn's speech and kill him.|M|54.51,83.86|
-C A Special Surprise|QID|12747|R|Blood Elf|N|Put your ghoul on passive mode (if you have one), listen to Lady Eonys' speech and kill her.|M|54.28,83.31|
-C A Special Surprise|QID|12748|R|Orc|N|Put your ghoul on passive mode (if you have one), listen to Kug Ironjaw's speech and kill him.|M|53.77,83.28|
-C A Special Surprise|QID|12749|R|Troll|N|Put your ghoul on passive mode (if you have one), listen to Iggy Darktusk's speech and kill him.|M|53.81,83.75|
-C A Special Surprise|QID|12750|R|Undead|N|Put your ghoul on passive mode (if you have one), listen to Antoine Brack's speech and kill him.|M|53.54,83.31|
-C A Special Surprise|QID|28650|R|Goblin|N|Put your ghoul on passive mode (if you have one), listen to Gally Lumpstain's speech and kill her.|M|53.54,83.6|
-T A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|N|To Knight Commander Plaguefist.|M|52.9,81.5|
-A A Sort Of Homecoming|QID|12751|PRE|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|M|52.9,81.5|N|From Knight Commander Plaguefist.|
-T A Sort Of Homecoming|QID|12751|N|To Thassarian.|M|56.26,80.15|Z|124|
-A Ambush At The Overlook|QID|12754|PRE|12751&12724|N|From Orbaz Bloodbane.|M|56.25,79.85|Z|124|
-C Ambush At The Overlook|QID|12754|U|39645|N|Find a clear spot in the Scarlet Overlook, use the [Makeshift Cover], ambush the Scarlet Courier and loot everthing he has.|M|62,77|
-T Ambush At The Overlook|QID|12754|N|To Orbaz Bloodbane.|M|56.25,79.85|Z|124|
-A A Meeting With Fate|QID|12755|PRE|12754|M|56.25,79.85|Z|124|N|From Orbaz Bloodbane.|
-T A Meeting With Fate|QID|12755|N|Mount up and ride to the Scarlet Overlook. Take the path south leading down to King's Harbor, where you will find High General Abbendis.|M|65.6,83.8|
-A The Scarlet Onslaught Emerges|QID|12756|PRE|12755|M|65.6,83.8|N|From High General Abbendis.|
+T The Path Of The Righteous Crusader|QID|12724|M|56.25,79.85|Z|124|N|To Orbaz Bloodbane.|
+T Bloody Breakout|QID|12727|M|56.26,80.15|Z|124|N|To Thassarian.|PRE|12727|
+A A Cry For Vengeance!|QID|12738|M|56.26,80.15|Z|124|N|From Thassarian.|
+T A Cry For Vengeance!|QID|12738|M|52.9,81.5|Z|124|N|To the east in the Chapel of the Crimson Flame. Turn the quest into Knight Commander Plaguefist.|
+A A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|M|52.9,81.5|Z|124|N|From Put your ghoul on passive mode (if you have one), if you have one.|PRE|12738|
+C A Special Surprise|QID|12742|M|54.6,83.7|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Ellen Stanbridge's speech and kill her.|R|Human|
+C A Special Surprise|QID|12743|M|54.3,83.8|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Yazmina Oakenthorn's speech and kill her.|R|Night Elf|
+C A Special Surprise|QID|12744|M|54.1,83.5|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Donovan Pulfrost's speech and kill him.|R|Dwarf|
+C A Special Surprise|QID|12745|M|54.9,83.7|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Goby Blastenheimer's speech and kill him.|R|Gnome|
+C A Special Surprise|QID|12746|M|54.5,83.5|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Valok the Righteous' speech and kill him.|R|Draenei|
+C A Special Surprise|QID|28649|M|54.5,83.4|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Lord Haraford's speech and kill him.|R|Worgen|
+C A Special Surprise|QID|12739|M|54.51,83.86|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Malar Bravehorn's speech and kill him.|R|Tauren|
+C A Special Surprise|QID|12747|M|54.28,83.31|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Lady Eonys' speech and kill her.|R|Blood Elf|
+C A Special Surprise|QID|12748|M|53.77,83.28|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Kug Ironjaw's speech and kill him.|R|Orc|
+C A Special Surprise|QID|12749|M|53.81,83.75|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Iggy Darktusk's speech and kill him.|R|Troll|
+C A Special Surprise|QID|12750|M|53.54,83.31|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Antoine Brack's speech and kill him.|R|Undead|
+C A Special Surprise|QID|28650|M|53.54,83.6|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Gally Lumpstain's speech and kill her.|R|Goblin|
+T A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|M|52.9,81.5|Z|124|N|To Knight Commander Plaguefist.|
+A A Sort Of Homecoming|QID|12751|M|52.9,81.5|Z|124|N|From Knight Commander Plaguefist.|PRE|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|
+T A Sort Of Homecoming|QID|12751|M|56.26,80.15|Z|124|N|To Thassarian.|
+A Ambush At The Overlook|QID|12754|M|56.25,79.85|Z|124|N|From Orbaz Bloodbane.|PRE|12751&12724|
+C Ambush At The Overlook|QID|12754|M|62,77|N|Find a clear spot in the Scarlet Overlook, use the [Makeshift Cover], ambush the Scarlet Courier and loot everthing he has.|U|39645|
+T Ambush At The Overlook|QID|12754|M|56.25,79.85|Z|124|N|To Orbaz Bloodbane.|
+A A Meeting With Fate|QID|12755|M|56.25,79.85|Z|124|N|From Orbaz Bloodbane.|PRE|12754|
+T A Meeting With Fate|QID|12755|M|65.6,83.8|Z|124|N|Mount up and ride to the Scarlet Overlook. Take the path south leading down to King's Harbor, where you will find High General Abbendis.|
+A The Scarlet Onslaught Emerges|QID|12756|M|65.6,83.8|Z|124|N|From High General Abbendis.|PRE|12755|
 T The Scarlet Onslaught Emerges|QID|12756|M|56.25,79.85|Z|124|N|To Orbaz Bloodbane.|
-A Scarlet Armies Approach...|QID|12757|PRE|12756|N|From Orbaz Bloodbane.|M|56.25,79.85|Z|124|
-T Scarlet Armies Approach...|QID|12757|N|Click on the portal that Orbaz summons. Then turn the quest into Highlord Darion Mograine in the Hall of Command.|M|48.9,29.7|
-A The Scarlet Apocalypse|QID|12778|PRE|12757|M|48.9,29.7|N|From Highlord Darion Mograine.|
-T The Scarlet Apocalypse|QID|12778|N|Take the Gryphon to Death's Breach. The Lich King is to the south on the platform.|M|53.6,36.9|
-A An End To All Things...|QID|12779|PRE|12778|M|53.6,36.9|N|From The Lich King.|
-C An End To All Things...|QID|12779|U|39700|N|Call your dragon, get on it, kill stuff.|M|57.03,60.13|
-T An End To All Things...|QID|12779|N|To The Lich King.|M|53.6,36.9|
-A The Lich King's Command|QID|12800|PRE|12779|M|53.6,36.9|N|From The Lich King.|
-T The Lich King's Command|QID|12800|N|Take the tunnel northwest of the camp, then go west following the ghouls to Browman Mill. Talk to Scourge Commander Thalanor.|M|33.9,30.4|
-A The Light of Dawn|QID|12801|PRE|12800|M|33.9,30.4|N|From Scourge Commander Thalanor|
-C The Light of Dawn|QID|12801|N|Talk to Mograine to begin, then follow Mograine, kill stuff, have fun but take care.|M|34.4,31.1|
-T The Light of Dawn|QID|12801|N|To Highlord Darion Mograine.|M|39.10,39.29|
-A Taking Back Acherus|QID|13165|PRE|12801|N|From Highlord Darion Mograine.|
-T Taking Back Acherus|QID|13165|N|Open your spell book and cast Death Gate (Unholy). Click the gate to be teleported back to Acherus, then turn the quest into Highlord Darion Mograine.|M|83.4,49.4|
-A The Battle For The Ebon Hold|QID|13166|PRE|13165|M|83.4,49.4|N|From Highlord Darion Mograine.|
+A Scarlet Armies Approach...|QID|12757|M|56.25,79.85|Z|124|N|From Orbaz Bloodbane.|PRE|12756|
+T Scarlet Armies Approach...|QID|12757|M|48.9,29.7|Z|124|N|Click on the portal that Orbaz summons. Then turn the quest into Highlord Darion Mograine in the Hall of Command.|
+A The Scarlet Apocalypse|QID|12778|M|48.9,29.7|Z|124|N|From Highlord Darion Mograine.|PRE|12757|
+T The Scarlet Apocalypse|QID|12778|M|53.6,36.9|Z|124|N|Take the Gryphon to Death's Breach. The Lich King is to the south on the platform.|
+A An End To All Things...|QID|12779|M|53.6,36.9|Z|124|N|From The Lich King.|PRE|12778|
+C An End To All Things...|QID|12779|M|57.03,60.13|Z|124|N|Call your dragon, get on it, kill stuff.|U|39700|
+T An End To All Things...|QID|12779|M|53.6,36.9|Z|124|N|To The Lich King.|
+A The Lich King's Command|QID|12800|M|53.6,36.9|Z|124|N|From The Lich King.|PRE|12779|
+T The Lich King's Command|QID|12800|M|33.9,30.4|Z|124|N|Take the tunnel northwest of the camp, then go west following the ghouls to Browman Mill. Talk to Scourge Commander Thalanor.|
+A The Light of Dawn|QID|12801|M|33.9,30.4|Z|124|N|From Scourge Commander Thalanor|PRE|12800|
+C The Light of Dawn|QID|12801|M|34.4,31.1|Z|124|N|Talk to Mograine to begin, then follow Mograine, kill stuff, have fun but take care.|
+T The Light of Dawn|QID|12801|M|39.10,39.29|Z|124|N|To Highlord Darion Mograine.|
+A Taking Back Acherus|QID|13165|M|39.10,39.29|Z|124|N|From Highlord Darion Mograine.|PRE|12801|
+T Taking Back Acherus|QID|13165|M|83.4,49.4|Z|124|N|Open your spell book and cast Death Gate (Unholy). Click the gate to be teleported back to Acherus, then turn the quest into Highlord Darion Mograine.|
+A The Battle For The Ebon Hold|QID|13166|M|83.4,49.4|Z|124|N|From Highlord Darion Mograine.|PRE|13165|
 C The Battle For The Ebon Hold|QID|13166|N|Use the pink teleporter. Have the NPCs help you kill Patchwork and 10 Scourge.|
-T The Battle For The Ebon Hold|QID|13166|N|To Highlord Darion Mograine.|M|83.4,49.4|
-A Where Kings Walk|QID|13188|PRE|13166|FACTION|Alliance|M|83.4,49.4|N|From Highlord Darion Mograine.|
-R Stormwind City|QID|13188|M|83.65,51.36|N|Click on the portal to go to Stormwind.|FACTION|Alliance|
-T Where Kings Walk|QID|13188|Z|Stormwind City|M|85.6,31.8|N|To King Anduin Wrynn.|FACTION|Alliance|
-A Saurfang's Blessing|QID|13189|PRE|13166|FACTION|Horde|M|83.4,49.4|N|From Highlord Darion Mograine.|
+T The Battle For The Ebon Hold|QID|13166|M|83.4,49.4|Z|124|N|To Highlord Darion Mograine.|
+A Where Kings Walk|QID|13188|M|83.4,49.4|Z|124|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Alliance|
+R Stormwind City|QID|13188|M|83.65,51.36|Z|124|N|Click on the portal to go to Stormwind.|FACTION|Alliance|
+T Where Kings Walk|QID|13188|Z|Stormwind City|M|85.6,31.8|Z|124|N|To King Anduin Wrynn.|FACTION|Alliance|
+A Saurfang's Blessing|QID|13189|M|83.4,49.4|Z|124|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Horde|
 P Durotar|QID|13189|M|84.58,50.49|Z|Eastern Plaguelands|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
-T Saurfang's Blessing|QID|13189|Z|Orgrimmar|M|48.14,70.56|N|To High Overlord Saurfang.|FACTION|Horde|
+T Saurfang's Blessing|QID|13189|M|48.14,70.56|Z|Orgrimmar|N|To High Overlord Saurfang.|FACTION|Horde|
 ]]
 end)
