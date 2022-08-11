@@ -1,3 +1,23 @@
+# Release 9.2.5-A2 / 1.14.3-A3 / 2.5.4-A4 / 3.0.0-A1
+## Bug Fixes
+* [TODO]
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Nothing
+* Horde: Ashenvale, Northen Barrens, Dragonblight
+* Neutral: Covenant
+
+### Classic
+* Nothing
+
+### Burning Crusade Classic Leveling
+* Alliance: Draenai Intro, Human Intro, Nelf Intro, Eastern Kingdom 10-19, 
+* Horde: Hellfire Peninsula, Barrens 12-22, HordeChapter1 HordeChapter3, Azshara 51-53, Ungoro Crater 51-53, Burning Steppes 53-54, Felwood 54-55, Winterspring 54-55
+
+### WotLK
+* Beta guides are now availible!
+
 # Release 9.2.5-A1 / 1.14.3-A2 / 2.5.4-A3
 ## Bug Fixes
 * Added Markup support for [ach=12891/A Nation United] markdown.
