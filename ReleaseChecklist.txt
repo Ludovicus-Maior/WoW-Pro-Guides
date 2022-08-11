@@ -10,12 +10,6 @@
 4) Update Release notes in Notes.md and check in.
 
 5) Generate zip files (you will be prompted for the tag to use):
-   WoWPro_Utilities/CutRelease.sh --mainline ; WoWPro_Utilities/CutRelease.sh --mainline --trial ; \
-   WoWPro_Utilities/CutRelease.sh --vanilla ; WoWPro_Utilities/CutRelease.sh --vanilla --trial ; \
-   WoWPro_Utilities/CutRelease.sh --tbc ; WoWPro_Utilities/CutRelease.sh --tbc --trial ;\
-   WoWPro_Utilities/CutRelease.sh --wrath ; WoWPro_Utilities/CutRelease.sh --wrath --trial
+   WoWPro_Utilities/CutReleases.sh
 
 6) Upload the Trial versions to CurseForge.com
-
-7) Generate WoWUp release
-   gh release create 20220706 -F release-notes.md "WoWPro v9.2.5-A2-mainline.zip" "WoWPro v1.14.2-A2-vanilla.zip" "WoWPro v2.5.3-A3-tbc.zip"
