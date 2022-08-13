@@ -110,45 +110,52 @@ R New Avalon Orchard|ACTIVE|12723|M|57.62,75.46|Z|124|N|Head the southern most p
 T Behind Scarlet Lines|QID|12723|M|56.25,79.85|Z|124|N|To Orbaz Bloodbaneon on the second floor of the Scarlet Tavern.|
 A The Path Of The Righteous Crusader|QID|12724|M|56.25,79.85|Z|124|N|From Orbaz Bloodbane.|PRE|12723|
 A Brothers In Death|QID|12725|M|56.26,80.15|Z|124|N|From Thassarian.|PRE|12723|
-C The Path Of The Righteous Crusader|QID|12724|M|63.0,68.3|Z|124|L|39504|N|Head to the Scarlet Hold and loot the [color=33fff9]New Avalon Patrol Schedule[/color] from the main chamber on the upper floor.|
-T Brothers In Death|QID|12725|M|63.0,67.8|Z|124|N|Go to the Basement where you'll find Koltira Deathweaver.|
-A Bloody Breakout|QID|12727|M|63.0,67.8|Z|124|N|From Koltira Deathweaver. Be ready to defend, try to fight inside the anti-magic barrier as much as possible.|PRE|12725|
-C Bloody Breakout|QID|12727|N|Try to fight inside the anti-magic barrier as much as possible. Loot [Valroth's Head] when all is done.|
-T The Path Of The Righteous Crusader|QID|12724|M|56.25,79.85|Z|124|N|To Orbaz Bloodbane.|
-T Bloody Breakout|QID|12727|M|56.26,80.15|Z|124|N|To Thassarian.|PRE|12727|
-A A Cry For Vengeance!|QID|12738|M|56.26,80.15|Z|124|N|From Thassarian.|
-T A Cry For Vengeance!|QID|12738|M|52.9,81.5|Z|124|N|To the east in the Chapel of the Crimson Flame. Turn the quest into Knight Commander Plaguefist.|
-A A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|M|52.9,81.5|Z|124|N|From Put your ghoul on passive mode (if you have one), if you have one.|PRE|12738|
-C A Special Surprise|QID|12742|M|54.6,83.7|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Ellen Stanbridge's speech and kill her.|R|Human|
-C A Special Surprise|QID|12743|M|54.3,83.8|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Yazmina Oakenthorn's speech and kill her.|R|Night Elf|
-C A Special Surprise|QID|12744|M|54.1,83.5|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Donovan Pulfrost's speech and kill him.|R|Dwarf|
-C A Special Surprise|QID|12745|M|54.9,83.7|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Goby Blastenheimer's speech and kill him.|R|Gnome|
-C A Special Surprise|QID|12746|M|54.5,83.5|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Valok the Righteous' speech and kill him.|R|Draenei|
-C A Special Surprise|QID|28649|M|54.5,83.4|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Lord Haraford's speech and kill him.|R|Worgen|
-C A Special Surprise|QID|12739|M|54.51,83.86|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Malar Bravehorn's speech and kill him.|R|Tauren|
-C A Special Surprise|QID|12747|M|54.28,83.31|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Lady Eonys' speech and kill her.|R|Blood Elf|
-C A Special Surprise|QID|12748|M|53.77,83.28|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Kug Ironjaw's speech and kill him.|R|Orc|
-C A Special Surprise|QID|12749|M|53.81,83.75|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Iggy Darktusk's speech and kill him.|R|Troll|
-C A Special Surprise|QID|12750|M|53.54,83.31|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Antoine Brack's speech and kill him.|R|Undead|
-C A Special Surprise|QID|28650|M|53.54,83.6|Z|124|N|Put your ghoul on passive mode (if you have one), listen to Gally Lumpstain's speech and kill her.|R|Goblin|
-T A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|M|52.9,81.5|Z|124|N|To Knight Commander Plaguefist.|
-A A Sort Of Homecoming|QID|12751|M|52.9,81.5|Z|124|N|From Knight Commander Plaguefist.|PRE|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|
-T A Sort Of Homecoming|QID|12751|M|56.26,80.15|Z|124|N|To Thassarian.|
+C The Path Of The Righteous Crusader|QID|12724|M|62.99,68.32|Z|124|L|39504|N|Head to the Scarlet Hold and loot the [color=33fff9]New Avalon Patrol Schedule[/color] from the big table in the main chamber on the upper floor.\n[color=FF0000]NOTE: [/color]You'll more than likely have to defeat Scarlet Commander Rodrick before you can grab it. (It's an easy fight)|
+T Brothers In Death|QID|12725|M|62.96,67.86|Z|124|N|To Koltira Deathweaver in the basement.\n[color=FF0000]NOTE: [/color]He may have a guard with him.\nYou can still turn this in even if someone has started the follow-up quest.|
+A Bloody Breakout|QID|12727|M|62.96,67.86|Z|124|N|From Koltira Deathweaver.|PRE|12725|
+C Bloody Breakout|QID|12727|M|62.97,68.16|Z|124|N|[color=FF0000]NOTE: [/color]Be ready to defend and try to fight inside the anti-magic barrier as much as possible.|
+T The Path Of The Righteous Crusader|QID|12724|M|56.25,79.85|Z|124|N|To Orbaz Bloodbane in the Scarlet Tavern.|
+T Bloody Breakout|QID|12727|M|56.26,80.15|Z|124|N|To Thassarian.|
+A A Cry For Vengeance!|QID|12738|M|56.26,80.15|Z|124|N|From Thassarian.|PRE|12727|
+T A Cry For Vengeance!|QID|12738|M|53.02,81.93|Z|124|N|To Knight Commander Plaguefist in the courtyard of the Chapel of the Crimson Flame to the east of you.|
+A A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|M|53.02,81.93|Z|124|N|From Knight Commander Plaguefist.|PRE|12738|
+N Pet Ghoul|ACTIVE|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|N|If you have a Ghoul out, set it to passive mode before you enter the building.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+K A Special Surprise|ACTIVE|12742|M|53.53,83.78|Z|124|QO|1|N|Upon approach, Ellen Stanbridge will begin speaking; kill her when she's done.\n[color=FF0000]NOTE: [/color]You must kill her before she dies on her own to get credit.\nIf she does, just reapproach to start again.|R|Human|
+K A Special Surprise|ACTIVE|12743|M|54.24,83.91|Z|124|QO|1|N|Upon approach, Yazmina Oakenthorn will begin speaking; kill her when she's done.\n[color=FF0000]NOTE: [/color]You must kill her before she dies on her own to get credit.\nIf she does, just reapproach to start again.|R|Night Elf|
+K A Special Surprise|ACTIVE|12744|M|53.54,83.30|Z|124|QO|1|N|Upon approach, Donovan Pulfrost will begin speaking; kill him when he's done.\n[color=FF0000]NOTE: [/color]You must kill him before he dies on his own to get credit.\nIf he does, just reapproach to start again.|R|Dwarf|
+K A Special Surprise|ACTIVE|12745|M|53.93,83.80|Z|124|QO|1|N|Upon approach, Goby Blastenheimer will begin speaking; kill him when he's done.\n[color=FF0000]NOTE: [/color]You must kill him before he dies on his own to get credit.\nIf he does, just reapproach to start again.|R|Gnome|
+K A Special Surprise|ACTIVE|12746|M|54.52,83.42|Z|124|QO|1|N|Upon approach, Valok the Righteous will begin speaking; kill him when she's done.\n[color=FF0000]NOTE: [/color]You must kill her before he dies on his own to get credit.|R|Draenei|
+K A Special Surprise|ACTIVE|28649|M|54.5,83.4|Z|124|QO|1|N|Upon approach, Lord Haraford will begin speaking; kill him when he's done.\n[color=FF0000]NOTE: [/color]You must kill him before he dies on his own to get credit.\nIf he does, just reapproach to start again.|R|Worgen|
+K A Special Surprise|ACTIVE|12739|M|54.51,83.86|Z|124|QO|1|N|Upon approach, Malar Bravehorn will begin speaking; kill him when he's done.\n[color=FF0000]NOTE: [/color]You must kill him before he dies on his own to get credit.\nIf he does, just reapproach to start again.|R|Tauren|
+K A Special Surprise|ACTIVE|12747|M|54.28,83.31|Z|124|QO|1|N|Upon approach, Lady Eonys will begin speaking; kill her when she's done.\n[color=FF0000]NOTE: [/color]You must kill her before she dies on her own to get credit.\nIf she does, just reapproach to start again.|R|Blood Elf|
+K A Special Surprise|ACTIVE|12748|M|53.77,83.28|Z|124|QO|1|N|Upon approach, Kug Ironjaw will begin speaking; kill him when he's done.\n[color=FF0000]NOTE: [/color]You must kill him before he dies on his own to get credit.\nIf he does, just reapproach to start again.|R|Orc|
+K A Special Surprise|ACTIVE|12749|M|53.93,83.80|Z|124|QO|1|N|Upon approach, Iggy Darktusk will begin speaking; kill him when he's done.\n[color=FF0000]NOTE: [/color]You must kill him before he dies on his own to get credit.\nIf he does, just reapproach to start again.|R|Troll|
+K A Special Surprise|ACTIVE|12750|M|53.54,83.31|Z|124|QO|1|N|Upon approach, Antoine Brack will begin speaking; kill him when he's done.\n[color=FF0000]NOTE: [/color]You must kill him before he dies on his own to get credit.\nIf he does, just reapproach to start again.|R|Undead|
+K A Special Surprise|ACTIVE|28650|M|53.54,83.6|Z|124|QO|1|N|Upon approach, Gally Lumpstain will begin speaking; kill her when she's done.\n[color=FF0000]NOTE: [/color]You must kill her before she dies on her own to get credit.\nIf she does, just reapproach to start again.|R|Goblin|
+T A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|M|53.02,81.93|Z|124|N|To Knight Commander Plaguefist.|
+A A Sort Of Homecoming|QID|12751|M|53.02,81.93|Z|124|N|From Knight Commander Plaguefist.|PRE|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|
+T A Sort Of Homecoming|QID|12751|M|56.26,80.15|Z|124|N|To Thassarian at the Scarlet Tavern.|
 A Ambush At The Overlook|QID|12754|M|56.25,79.85|Z|124|N|From Orbaz Bloodbane.|PRE|12751&12724|
-C Ambush At The Overlook|QID|12754|M|62,77|N|Find a clear spot in the Scarlet Overlook, use the [Makeshift Cover], ambush the Scarlet Courier and loot everthing he has.|U|39645|
+R Scarlet Overlook|ACTIVE|12754|M|59.70,77.19|Z|124|L|39646|
+K Scarlet Courier|ACTIVE|12754|M|PLAYER|L|39646|N|Use the [color=33fff9]Makeshift Cover[/color] to spawn the Scarlet Courier and kill him.\n[color=FF0000]NOTE: [/color]You only have to be in Scarlet Overlook to do this. There is no exact location.|U|39645|IZ|Scarlet Overlook|
+C Scarlet Courier's Message|QID|12754|M|PLAYER|L|39647|ITEM|39647|N|Scarlet Courier\n[color=FF0000]NOTE: [/color]If he despawned, you can summon and kill him again.|U|39645|IZ|Scarlet Overlook|
+R Scarlet Overlook|ACTIVE|12754|M|59.70,77.19|Z|124|L|39646|N|You need to be in Scarlet Overlook.|
 T Ambush At The Overlook|QID|12754|M|56.25,79.85|Z|124|N|To Orbaz Bloodbane.|
 A A Meeting With Fate|QID|12755|M|56.25,79.85|Z|124|N|From Orbaz Bloodbane.|PRE|12754|
-T A Meeting With Fate|QID|12755|M|65.6,83.8|Z|124|N|Mount up and ride to the Scarlet Overlook. Take the path south leading down to King's Harbor, where you will find High General Abbendis.|
-A The Scarlet Onslaught Emerges|QID|12756|M|65.6,83.8|Z|124|N|From High General Abbendis.|PRE|12755|
+R King's Harbor|ACTIVE|12755|M|60.53,80.18|Z|124|N|Make your way to the road leading down the hill from Scarlet Overlook.\n[color=FF0000]NOTE: [/color]As long as you are disguised, the guards won't touch you.|
+T A Meeting With Fate|QID|12755|M|65.66,83.81|Z|124|N|To High General Abbendis beside the dock.|
+A The Scarlet Onslaught Emerges|QID|12756|M|65.66,83.81|Z|124|N|From High General Abbendis.|PRE|12755|
 T The Scarlet Onslaught Emerges|QID|12756|M|56.25,79.85|Z|124|N|To Orbaz Bloodbane.|
 A Scarlet Armies Approach...|QID|12757|M|56.25,79.85|Z|124|N|From Orbaz Bloodbane.|PRE|12756|
-T Scarlet Armies Approach...|QID|12757|M|48.9,29.7|Z|124|N|Click on the portal that Orbaz summons. Then turn the quest into Highlord Darion Mograine in the Hall of Command.|
-A The Scarlet Apocalypse|QID|12778|M|48.9,29.7|Z|124|N|From Highlord Darion Mograine.|PRE|12757|
-T The Scarlet Apocalypse|QID|12778|M|53.6,36.9|Z|124|N|Take the Gryphon to Death's Breach. The Lich King is to the south on the platform.|
-A An End To All Things...|QID|12779|M|53.6,36.9|Z|124|N|From The Lich King.|PRE|12778|
-C An End To All Things...|QID|12779|M|57.03,60.13|Z|124|N|Call your dragon, get on it, kill stuff.|U|39700|
-T An End To All Things...|QID|12779|M|53.6,36.9|Z|124|N|To The Lich King.|
-A The Lich King's Command|QID|12800|M|53.6,36.9|Z|124|N|From The Lich King.|PRE|12779|
+P Acherus: The Ebon Hold|ACTIVE|12757|M|56.18,80.04|Z|124|N|Click on the portal that Orbaz summons.\n[color=FF0000]NOTE: [/color]If you miss it, ask him to summon another one.|
+T Scarlet Armies Approach...|QID|12757|M|48.88,29.76|Z|124|N|To Highlord Darion Mograine in the Hall of Command.|
+A The Scarlet Apocalypse|QID|12778|M|48.88,29.76|Z|124|N|From Highlord Darion Mograine.|PRE|12757|
+F Death's Breach|ACTIVE|12778|M|52.09,35.07|Z|124|N|Click on the Scourge Gryphon closest to you.|
+T The Scarlet Apocalypse|QID|12778|M|53.57,36.88|Z|124|N|To The Lich King standing on the platform by the cliff edge.|
+A An End To All Things...|QID|12779|M|53.57,36.88|Z|124|N|From The Lich King.|PRE|12778|
+K An End To All Things...|QID|12779|M|57.03,60.13|Z|124|QO|1;2|N|Summon your dragon and kill stuff.|U|39700|
+T An End To All Things...|QID|12779|M|53.57,36.88|Z|124|N|To The Lich King.|
+A The Lich King's Command|QID|12800|M|53.57,36.88|Z|124|N|From The Lich King.|PRE|12779|
 T The Lich King's Command|QID|12800|M|33.9,30.4|Z|124|N|Take the tunnel northwest of the camp, then go west following the ghouls to Browman Mill. Talk to Scourge Commander Thalanor.|
 A The Light of Dawn|QID|12801|M|33.9,30.4|Z|124|N|From Scourge Commander Thalanor|PRE|12800|
 C The Light of Dawn|QID|12801|M|34.4,31.1|Z|124|N|Talk to Mograine to begin, then follow Mograine, kill stuff, have fun but take care.|
