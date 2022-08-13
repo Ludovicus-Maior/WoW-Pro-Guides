@@ -88,10 +88,10 @@ C Making the Horn |QID|11275|US|N|In the snowy hills northeast of Camp Winterhoo
 T Suppressing the Elements |QID|11311|N|To Windtamer Kagan.|M|49.0,12.0|
 T Making the Horn |QID|11275|M|49.3,12.0|N|To Nokoma Snowseer.|
 A Mimicking Nature's Call |QID|11281|PRE|11275|M|49.3,12.0|N|From Nokoma Snowseer.|
-A The Frozen Glade |QID|11312|LEAD|11313|PRE|11271|M|49.3,12.0|N|From Nokoma Snowseer.|
-A The Book of Runes |QID|11350|PRE|11271|M|49.2,12.2|N|From Longrunner Pembe.|
-A Keeping Watch on the Interlopers |QID|11297|PRE|11271|M|48.5,10.5|N|From Junat the Wanderer.|
-A March of the Giants |QID|11365|PRE|11271|M|48.1,10.5|N|From Sage Edan.|
+A The Frozen Glade |QID|11312|LEAD|11313|M|49.3,12.0|N|From Nokoma Snowseer.|
+A The Book of Runes |QID|11350|M|49.2,12.2|N|From Longrunner Pembe.|
+A Keeping Watch on the Interlopers |QID|11297|M|48.5,10.5|N|From Junat the Wanderer.|
+A March of the Giants |QID|11365|M|48.1,10.5|N|From Sage Edan.|
 C Mimicking Nature's Call |QID|11281|N|Head to the frozen waterfall. Get right up against the base, use the Carved Horn and kill Frostgore.|M|52.4,3.8|U|33450|
 T The Frozen Glade |QID|11312|N|To Lurielle, who is southeast at the Frozen Glade.|M|61.5,22.9|
 A Spirits of the Ice |QID|11313|M|61.5,22.8|N|From Lurielle.|
@@ -162,7 +162,7 @@ T The Artifacts of Steel Gate |QID|11286|M|31.2,24.5|N|To Sage Mistwalker.|
 A The Cleansing |QID|11317|PRE|11286|N|From Sage Mistwalker.|
 T Keeping Watch on the Interlopers |QID|11297|N|To Apothecary Malthus.|M|26.43,24.49|
 A What's in That Brew? |QID|11298|PRE|11297|N|From Apothecary Malthus.|
-A And You Thought Murlocs Smelled Bad! |QID|11397|N|From Apothecary Anastasia.|
+A And You Thought Murlocs Smelled Bad! |QID|11397|M|26.23,24.55|N|From Apothecary Anastasia.|
 A Brains! Brains! Brains! |QID|11301|M|26.0,24.4|N|From Apothecary Grick.|
 F Camp Winterhoof|QID|11323|M|26.0,25.1|N|Fly to Camp Winterhoof.|
 T Keeper Witherleaf |QID|11428|M|61.5,22.9|N|To Lurielle.|
