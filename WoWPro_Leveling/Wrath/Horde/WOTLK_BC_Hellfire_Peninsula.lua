@@ -14,10 +14,11 @@ F The Dark Portal|ACTIVE|64217^64063|M|32.54,29.36|Z|Stranglethorn Vale|QO|2|N|T
 b Grom'gul Base Camp|ACTIVE|-64217^-64063|AVAILABLE|10120|M|50.69,12.89|Z|Durotar|N|Take the Zep to Grom'gul (or bug a mage for portal to Stonard)|IZ|1411;Durotar^1454;Orgrimmar|
 F Stonard|ACTIVE|-64217^-64063|AVAILABLE|10120|M|83.88,50.43|Z|1423|N|Fly to Stonard in the Swamp of Sorrows.|IZ|Acherus: The Ebon Hold|
 F Stonard|ACTIVE|-64217^-64063|AVAILABLE|10120|M|32.54,29.36|Z|Stranglethorn Vale|N|Fly to Stonard in the Swamp of Sorrows.|
-R Blasted Lands|AVAILABLE|10120|M|51.93,4.48|Z|Blasted Lands|N|Follow the road south.|
-T The Dark Portal|QID|64217^64063|M|58.06,56.00|Z|Blasted Lands|N|To Warlord Dar'toon.|
-A Through the Dark Portal|QID|9407^10046|M|58.06,56.00|Z|Blasted Lands|N|From Warlord Dar'toon.|
-R Hellfire Peninsula|ACTIVE|9407^10046|M|58.74,60.78|Z|Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
+R Blasted Lands|AVAILABLE|10120|M|51.93,4.48|Z|1419; Blasted Lands|N|Follow the road south.|
+R The Dark Portal|AVAILABLE|10120|M|57.18,46.57|Z|1419; Blasted Lands|N|Continue south down the road.|
+T The Dark Portal|QID|64217^64063|M|58.06,56.00|Z|1419; Blasted Lands|N|To Warlord Dar'toon.|
+A Through the Dark Portal|QID|9407^10046|M|58.06,56.00|Z|1419; Blasted Lands|N|From Warlord Dar'toon.|
+R The Stair of Destiny|ACTIVE|9407^10046|M|58.74,60.78|Z|1419; Blasted Lands|N|Go through the Dark Portal.|
 T Through the Dark Portal|QID|9407^10046|M|87.36,49.80|N|To Lieutenant General Orion.|
 A Arrival in Outland|QID|10120|M|87.36,49.80|N|From Lieutenant General Orion.|
 T Arrival in Outland|QID|10120|M|87.33,48.17|N|To Vlagga Freyfeather.|
@@ -30,14 +31,14 @@ T Report to Nazgrel|QID|10291|M|55.02,35.95|N|To Nazgrel.|
 A Eradicate the Burning Legion|QID|10121|M|55.06,35.96|N|From Nazgrel.|PRE|10291|
 A Bonechewer Blood|QID|10450|M|55.13,36.40|N|From Vurtok Axebreaker.|
 A I Work... For the Horde!|QID|10086|M|55.17,38.79|N|From Megzeg Nukklebust.|
-T Eradicate the Burning Legion|QID|10121|M|55.17,38.79|N|To Sergeant Shatterskull at the Supply Caravan.|
-A Felspark Ravine|QID|10123|M|55.17,38.79|N|From Sergeant Shatterskull.|PRE|10121|
+T Eradicate the Burning Legion|QID|10121|M|58.03,41.25|N|To Sergeant Shatterskull at the Supply Caravan.|
+A Felspark Ravine|QID|10123|M|58.03,41.25|N|From Sergeant Shatterskull.|PRE|10121|
 K Felspark Ravine|ACTIVE|10123|M|66.77,35.48|QO|1;2;3|N|Kill the required mobs.|
 C Bonechewer Blood|QID|10450|M|57.60,46.61|L|30327 12|ITEM|30327|N|Any Bonechewer\nThey are on both sides of the ravine.|S|
 l I Work... For the Horde!|ACTIVE|10086|M|61.98,47.93;48.30,44.31|CS|QO|1;2|N|Pick up the sparkling pieces of wood and metal between the 2 waypoints.|
 C Bonechewer Blood|QID|10450|M|56.5,47.0|L|30327 12|ITEM|30327|N|Any Bonechewer\nThey are on both sides of the ravine.|US|
-T Felspark Ravine|QID|10123|M|55.17,38.79|N|To Sergeant Shatterskull.|
-A Forward Base: Reaver's Fall|QID|10124|M|55.17,38.79|N|From Sergeant Shatterskull.|PRE|10123|
+T Felspark Ravine|QID|10123|M|58.03,41.25|N|To Sergeant Shatterskull.|
+A Forward Base: Reaver's Fall|QID|10124|M|58.03,41.25|N|From Sergeant Shatterskull.|PRE|10123|
 T I Work... For the Horde!|QID|10086|M|55.17,38.79|N|To Megzeg Nukklebust.|
 A Burn It Up... For the Horde!|QID|10087|M|55.17,38.79|N|From Megzeg Nukklebust.|PRE|10086|
 T Bonechewer Blood|QID|10450|M|55.13,36.40|N|To Vurtok Axebreaker.|
