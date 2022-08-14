@@ -12,6 +12,7 @@ A The Dark Portal|QID|64217^64063|N|From your class trainer. I wouldn't advise g
 C The Dark Portal|QID|64217^64063|M|50.69,12.89|Z|Durotar|QO|1|N|Talk to Snurk at the top of the zep tower and then get on the zep when it arrives.|CHAT|
 F The Dark Portal|ACTIVE|64217^64063|M|32.54,29.36|Z|Stranglethorn Vale|QO|2|N|Talk to Thysta the flight master in Grom'gul for a free flight to Stonard.|CHAT|
 b Grom'gul Base Camp|ACTIVE|-64217^-64063|AVAILABLE|10120|M|50.69,12.89|Z|Durotar|N|Take the Zep to Grom'gul (or bug a mage for portal to Stonard)|IZ|1411;Durotar^1454;Orgrimmar|
+F Stonard|ACTIVE|-64217^-64063|AVAILABLE|10120|M|83.88,50.43|Z|1423|N|Fly to Stonard in the Swamp of Sorrows.|IZ|Acherus: The Ebon Hold|
 F Stonard|ACTIVE|-64217^-64063|AVAILABLE|10120|M|32.54,29.36|Z|Stranglethorn Vale|N|Fly to Stonard in the Swamp of Sorrows.|
 R Blasted Lands|AVAILABLE|10120|M|51.93,4.48|Z|Blasted Lands|N|Follow the road south.|
 T The Dark Portal|QID|64217^64063|M|58.06,56.00|Z|Blasted Lands|N|To Warlord Dar'toon.|
