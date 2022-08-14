@@ -91,7 +91,7 @@ A Mimicking Nature's Call |QID|11281|PRE|11275|M|49.3,12.0|N|From Nokoma Snowsee
 A The Frozen Glade |QID|11312|LEAD|11313|M|49.3,12.0|N|From Nokoma Snowseer.|
 A The Book of Runes |QID|11350|M|49.2,12.2|N|From Longrunner Pembe.|
 A Keeping Watch on the Interlopers |QID|11297|M|48.5,10.5|N|From Junat the Wanderer.|
-A March of the Giants |QID|11365|M|48.1,10.5|N|From Sage Edan.|
+A March of the Giants |QID|11365|M|48.1,10.5|N|From Sage Edan.|ELITE|
 C Mimicking Nature's Call |QID|11281|N|Head to the frozen waterfall. Get right up against the base, use the Carved Horn and kill Frostgore.|M|52.4,3.8|U|33450|
 T The Frozen Glade |QID|11312|N|To Lurielle, who is southeast at the Frozen Glade.|M|61.5,22.9|
 A Spirits of the Ice |QID|11313|M|61.5,22.8|N|From Lurielle.|
@@ -239,7 +239,7 @@ T Alpha Worg |QID|11324|N|To Sage Mistwalker.|M|31.17,24.50|
 T Rivenwood Captives |QID|11296|M|31.26,24.35|N|To Longrunner Skycloud.|
 A Root Causes |QID|11182|N|Southeast in Ember Clutch, the Ember Clutch Ancient patrols around. It won't give the quest if it is fighting.|M|37,47|
 A The Dead Rise! |QID|11504|M|40.3,60.3|N|From Orfus of Kamagua.|
-T New Agamand |QID|11304|N|To Chief Plaguebringer Harris.|
+T New Agamand |QID|11304|N|To Chief Plaguebringer Harris.|M|53.58,66.38|
 A A Tailor-Made Formula |QID|11305|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11304|
 A Give it a Name |QID|12181|N|From Chief Plaguebringer Harris.|
 A Shield Hill |QID|11424|M|53.66,65.27|N|From "Hacksaw" Jenny.|
@@ -247,7 +247,7 @@ A Green Eggs and Whelps |QID|11279|M|53.10,66.90|N|From Plaguebringer Tillinghas
 T Give it a Name |QID|12181|N|To Tobias Sarkhoff. Ignore the follow up.|M|52.01,67.39|
 C A Tailor-Made Formula |QID|11305|N|Kill and loot Thorvald.|M|46.77,68.24|
 T A Tailor-Made Formula |QID|11305|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
-A Apply Heat and Stir |QID|11306|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11305|
+A Apply Heat and Stir |QID|11306|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11305|U|34023|
 C Apply Heat and Stir |QID|11306|N|Use the Empty Apothecary Flask next to the cauldron to the Apothecary's right. Then use the Flask of Vrykul Blood on the table on the other side. It can take a while, as the fail rate is kind of bad. It can also proc a blast which hits you you 3k and can crit.|
 T Apply Heat and Stir |QID|11306|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
 A Field Test |QID|11307|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11306|
@@ -262,7 +262,7 @@ T Field Test |QID|11307|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
 A Time for Cleanup |QID|11308|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11307|
 T Time for Cleanup |QID|11308|M|53.67,65.25|N|To "Hacksaw" Jenny.|
 A Parts for the Job |QID|11309|M|53.67,65.25|N|From "Hacksaw" Jenny.|PRE|11308|
-N Things to do |QID|11309|N|Kill Shoveltusks on sight, they're the things that look vaguely like moose.|ACTIVE|11309|
+N Things to do |ACTIVE|11309|N|Kill Shoveltusks on sight, they're the things that look vaguely like moose.|
 C Shield Hill |QID|11424|M|59.00,78.00|N|Kill and loot Risen Vrykul.|S|
 l Fengir's Clue |QID|11504|QO|1|N|Loot Fengir's Clue here. |M|57.67,77.62|
 l Rodin's Clue |QID|11504|QO|2|N|Loot Rodin's Clue here. |M|59.27,77.00|
@@ -280,8 +280,8 @@ T Against Nifflevar |QID|12482|N|To Ranger Captain Areiel.|M|67.45,60.59|
 T The Enemy's Legacy |QID|11423|M|67.35,60.31|N|To Scribe Seguine.|
 l Shoveltusk Ligament |QID|11309|L|33611 6|N|Go kill Shoveltusks if you haven't finished this already.|M|67.69,62.81|ACTIVE|11309|
 C Parts for the Job |QID|11309|N|Anton patrols along the road between New Agamand and the Ancient Lift. If he's dead, he respawns at the waypoint.|M|53,74|
-T Shield Hill |QID|11424|N|To "Hacksaw" Jenny.|
-T Parts for the Job |QID|11309|N|To "Hacksaw" Jenny.|
+T Shield Hill |QID|11424|N|To "Hacksaw" Jenny.|M|53.68,65.22|
+T Parts for the Job |QID|11309|N|To "Hacksaw" Jenny.|M|53.68,65.22|
 A Warning: Some Assembly Required |QID|11310|M|53.68,65.22|N|From "Hacksaw" Jenny.|PRE|11309|
 A To Venomspite!|QID|12182|PRE|12181|M|52.03,67.38|N|This will take you to Dragonblight. Accept it to get the flightpoint there.|
 f Venomspite|QID|12182|M|76.52,62.23|N|Get the flightpoint at Junter Weiss.|
@@ -362,7 +362,7 @@ A The Jig is Up |QID|11471|PRE|11480|N|From Annie Bonn.|
 C Swabbin' Soap |QID|11469|N|Kill Big Roy here and loot Big Roy's Blubber. |M|31.33,78.68|
 C The Jig is Up |QID|11471|N|Beat "Mad" Jonah Sterling down to ~30%, then kill Hozzer when he awakens, and loot Jonah Sterling's Spyglass from Hozzer. |M|33.57,75.6;33.60,78.18|CS|
 C The Frozen Heart of Isuldof |QID|11512|N|Loot The Frozen Heart of Isuldof from the ground here. |M|32.33,78.67|
-T The Jig is Up |QID|11471|N|To Annie Bonn.|
+T The Jig is Up |QID|11471|N|To Annie Bonn.|M|35.40,79.41|
 C The Ancient Armor of the Kvaldir |QID|11567|N|Talk to Alanya on the docks outside and click her chat bubble to be flown here. Go into the ship's hold and loot The Ancient Armor of the Kvaldir.|M|36.08,81.60;81.77,73.90|CC|
 F Scalawag Point |QID|11469|N|Fly back to Scalawag Isle using the flying machine. |M|80.91,75.13|
 T Swabbin' Soap |QID|11469|M|37.8,79.6|N|To Scuttle Frostprow.|
