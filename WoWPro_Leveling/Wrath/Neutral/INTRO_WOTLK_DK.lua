@@ -176,6 +176,11 @@ P Stormwind City|ACTIVE|13188|M|83.65,51.33|Z|124|N|Click on the portal to go to
 T Where Kings Walk|QID|13188|Z|Stormwind City|M|85.6,31.8|Z|124|N|To King Anduin Wrynn.|FACTION|Alliance|
 A Warchief's Blessing|QID|13189|M|83.43,49.43|Z|124|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Horde|
 P Durotar|ACTIVE|13189|M|84.55,50.46|Z|124|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
-T Warchief's Blessing|QID|13189|M|48.14,70.56|Z|Orgrimmar|N|To High Overlord Saurfang.|FACTION|Horde|
+R Grommash Hold|ACTIVE|13189|M|40.23,36.86|Z|1454|
+T Warchief's Blessing|QID|13189|M|31.64,37.83|Z|1454|N|To High Overlord Saurfang.|FACTION|Horde|
+P Acherus: The Ebon Hall|AVAILABLE|9407^10046|M|PLAYER|N|Use your Death Gate to portal to Ebon Hold.|
+= Level 58 Training|AVAILABLE|9407^10046|M|80.91,43.78|Z|1423|N|Do your level 58 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+f Acherus: Ebon Hold|AVAILABLE|9407^10046|M|83.88,50.43|Z|1423|N|At Grimwing.|
+
 ]]
 end)
