@@ -98,7 +98,7 @@ C The Plaguebringer's Request|QID|12716|M|57.80,61.80|Z|124|L|39328 10|ITEM|3932
 T The Plaguebringer's Request|QID|12716|M|55.89,52.40|Z|124|N|To Noth the Plaguebringer back at Havenshire Farms.|
 A Noth's Special Brew|QID|12717|M|55.89,52.40|Z|124|N|From Noth the Plaguebringer.|PRE|12716|
 T Noth's Special Brew|QID|12717|M|54.67,57.45|Z|124|N|To the Plague Cauldron.|
-N More Skulls For Brew|QID|12718|M|54.67,57.45|Z|124|N|This is a repeatable quest now available from the Plague Cauldron.\nYou can exchange 20 Crusader Skulls for 5 Noth's Special Brew.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+N More Skulls For Brew|QID|12718|AVAILABLE|12724|M|54.67,57.45|Z|124|N|This is a repeatable quest now available from the Plague Cauldron.\nYou can exchange 20 Crusader Skulls for 5 Noth's Special Brew.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Nowhere To Run And Nowhere To Hide|QID|12719|M|54.29,57.30|Z|124|N|To Prince Keleseth inside the Crypt of Remembrance.|
 A How To Win Friends And Influence Enemies|QID|12720|M|54.29,57.30|Z|124|N|From Prince Keleseth.|PRE|12719|
 T Lambs To The Slaughter|QID|12722|M|54.67,57.45|Z|124|N|To Baron Rivendare.|
@@ -154,22 +154,33 @@ F Death's Breach|ACTIVE|12778|M|52.09,35.07|Z|124|N|Click on the Scourge Gryphon
 T The Scarlet Apocalypse|QID|12778|M|53.57,36.88|Z|124|N|To The Lich King standing on the platform by the cliff edge.|
 A An End To All Things...|QID|12779|M|53.57,36.88|Z|124|N|From The Lich King.|PRE|12778|
 K An End To All Things...|QID|12779|M|57.03,60.13|Z|124|QO|1;2|N|Summon your dragon and kill stuff.|U|39700|
-T An End To All Things...|QID|12779|M|53.57,36.88|Z|124|N|To The Lich King.|
+F Death's Breach|ACTIVE|12779|M|52.09,35.07|Z|124|N|Fly back to Death's Breach (or run if you dismounted your dragon).|
+T An End To All Things...|QID|12779|M|53.57,36.88|Z|124|N|To The Lich King.\n[color=FF0000]NOTE: [/color]You must dismount in order to interact with him.|
 A The Lich King's Command|QID|12800|M|53.57,36.88|Z|124|N|From The Lich King.|PRE|12779|
-T The Lich King's Command|QID|12800|M|33.9,30.4|Z|124|N|Take the tunnel northwest of the camp, then go west following the ghouls to Browman Mill. Talk to Scourge Commander Thalanor.|
-A The Light of Dawn|QID|12801|M|33.9,30.4|Z|124|N|From Scourge Commander Thalanor|PRE|12800|
-C The Light of Dawn|QID|12801|M|34.4,31.1|Z|124|N|Talk to Mograine to begin, then follow Mograine, kill stuff, have fun but take care.|
-T The Light of Dawn|QID|12801|M|39.10,39.29|Z|124|N|To Highlord Darion Mograine.|
+N More Skulls For Brew|ACTIVE|12800|M|54.67,57.45|Z|124|L|39328 -1|N|This is your last chance to turn in your Crusader Skulls for Noth's Special Brew at the Plague Cauldron.\nYou can exchange 20 Crusader Skulls for 5 Noth's Special Brew.\n[color=FF0000]NOTE: [/color]When you are done, manually check this step off to continue.|NOCACHE|
+R The Noxious Pass|ACTIVE|12800|M|49.60,29.34|Z|124|N|Head west to the tunnel.|
+R The Noxious Glade|ACTIVE|12800|M|47.02,23.02|Z|124|N|Go through the tunnel to the other side.|
+R Browman Mill|ACTIVE|12800|M|39.37,19.71|Z|124|N|Make your way southwest to where the road starts going down the hill between two banners.|
+T The Lich King's Command|QID|12800|M|34.09,30.31|Z|124|N|To Scourge Commander Thalanor.|
+A The Light of Dawn|QID|12801|M|34.09,30.31|Z|124|N|From Scourge Commander Thalanor|PRE|12800|
+C The Light of Dawn|QID|12801|M|38.89,38.26|Z|124|QO|1|N|Wait for the battle to begin.\n[color=FF0000]NOTE: [/color]You don't have to participate to get credit.|
+T The Light of Dawn|QID|12801|M|39.10,39.29|Z|124|N|To Highlord Darion Mograine.\n[color=FF0000]NOTE: [/color]If you waited too long and he despawned, just go back to where the battle began to turn it in.\nOnce the battle begins again, you'll have to wait to the end.|
 A Taking Back Acherus|QID|13165|M|39.10,39.29|Z|124|N|From Highlord Darion Mograine.|PRE|12801|
-T Taking Back Acherus|QID|13165|M|83.4,49.4|Z|124|N|Open your spell book and cast Death Gate (Unholy). Click the gate to be teleported back to Acherus, then turn the quest into Highlord Darion Mograine.|
-A The Battle For The Ebon Hold|QID|13166|M|83.4,49.4|Z|124|N|From Highlord Darion Mograine.|PRE|13165|
-C The Battle For The Ebon Hold|QID|13166|N|Use the pink teleporter. Have the NPCs help you kill Patchwork and 10 Scourge.|
-T The Battle For The Ebon Hold|QID|13166|M|83.4,49.4|Z|124|N|To Highlord Darion Mograine.|
-A Where Kings Walk|QID|13188|M|83.4,49.4|Z|124|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Alliance|
-R Stormwind City|QID|13188|M|83.65,51.36|Z|124|N|Click on the portal to go to Stormwind.|FACTION|Alliance|
+P Acherus: The Ebon Hold|ACTIVE|13165|M|PLAYER|N|Use your new Death Gate spell to open a portal to Acherus. Click on the Death Gate to use it.\n[color=FF0000]NOTE: [/color]You may want add it to one of your action bars.|
+T Taking Back Acherus|QID|13165|M|83.43,49.43|Z|124|N|To Highlord Darion Mograine in The Ebon Hold.|
+A The Battle For The Ebon Hold|QID|13166|M|83.43,49.43|Z|124|N|From Highlord Darion Mograine.|PRE|13165|
+K The Battle For The Ebon Hold|ACTIVE|13166|QO|1;2|N|Take the portal down to join the fight.[color=FF0000]NOTE: [/color]The NPCs will help you.|
+T The Battle For The Ebon Hold|QID|13166|M|83.43,49.43|Z|124|N|To Highlord Darion Mograine on the upper level.|
+A Where Kings Walk|QID|13188|M|83.43,49.43|Z|124|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Alliance|
+P Stormwind City|ACTIVE|13188|M|83.65,51.33|Z|124|N|Click on the portal to go to Stormwind.|FACTION|Alliance|
 T Where Kings Walk|QID|13188|Z|Stormwind City|M|85.6,31.8|Z|124|N|To King Anduin Wrynn.|FACTION|Alliance|
-A Saurfang's Blessing|QID|13189|M|83.4,49.4|Z|124|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Horde|
-P Durotar|QID|13189|M|84.58,50.49|Z|Eastern Plaguelands|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
-T Saurfang's Blessing|QID|13189|M|48.14,70.56|Z|Orgrimmar|N|To High Overlord Saurfang.|FACTION|Horde|
+A Warchief's Blessing|QID|13189|M|83.43,49.43|Z|124|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Horde|
+P Durotar|ACTIVE|13189|M|84.55,50.46|Z|124|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
+R Grommash Hold|ACTIVE|13189|M|40.23,36.86|Z|1454|
+T Warchief's Blessing|QID|13189|M|31.64,37.83|Z|1454|N|To High Overlord Saurfang.|FACTION|Horde|
+P Acherus: The Ebon Hall|AVAILABLE|9407^10046|M|PLAYER|N|Use your Death Gate to portal to Ebon Hold.|
+= Level 58 Training|AVAILABLE|9407^10046|M|80.91,43.78|Z|1423|N|Do your level 58 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+f Acherus: Ebon Hold|AVAILABLE|9407^10046|M|83.88,50.43|Z|1423|N|At Grimwing.|
+
 ]]
 end)
