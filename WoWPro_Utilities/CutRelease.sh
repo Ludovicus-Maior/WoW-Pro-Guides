@@ -31,7 +31,7 @@ elif [ "$1" == "--wrath" ] ; then
     shift
 elif [ "$1" == "--mainline" ] ; then
     ADDON_DIRS=${MAINLINE[@]}
-    TOC_SUFFIX="_Mainline"
+    TOC_SUFFIX=""
     ZIP_EXTRA="-mainline"
     shift
 else
