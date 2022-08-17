@@ -1,3 +1,23 @@
+# Release 9.2.7-A1 / 1.14.3-A4 / 2.5.4-A5 / 3.4.0-A1
+## Bug Fixes
+* Updated Interfaces for Retail and Wrath
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Nothing
+* Horde: Ashenvale
+* Neutral: Covenant
+
+### Classic
+* New dungeon guides are in the oven.  Not ready yet!
+
+### Burning Crusade Classic Leveling
+* Nothing
+
+### WotLK
+* Neutral: DK Intro
+* Horde: Hellfire Penninsula, Borean Tundra, Dragonblight, Howling Fjord, Icecrown, Storm Peaks
+
 # Release 9.2.5-A2 / 1.14.3-A3 / 2.5.4-A4 / 3.0.0-A1
 ## Bug Fixes
 * Pahonix, Bondfire: Added first cut of Wrath support thanks to you!
