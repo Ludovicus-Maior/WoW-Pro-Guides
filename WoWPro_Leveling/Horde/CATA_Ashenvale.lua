@@ -68,7 +68,7 @@ C Playing With Felfire|QID|13730|M|79.84,64.72|N|Use the Reinforced Canister to 
 C Destroy the Legion|QID|26448|US|M|84.07,70.30|N|Slay any 15 demons at Felfire Hill, Demon Fall Canyon, or Demon Fall Ridge.|
 l Diabolical Plans|AVAILABLE|26447|M|80.81,68.51|L|23780|N|Continue killing demons until you loot it.|RANK|1|
 A Diabolical Plans|QID|26447|M|80.81,68.51|N|From the Diabolical Plans.|U|23797|RANK|1|
-H Splintertree Post|ACTIVE|6503|
+H Splintertree Post|ACTIVE|6503|M|PLAYER|
 T Ashenvale Outrunners|QID|6503|M|73.56,60.86|N|To Kuray'bin.|
 T Destroy the Legion|QID|26448|M|73.17,60.11|N|To Valusha.|
 T Diabolical Plans|QID|26447|M|73.17,60.11|N|To Valusha.|

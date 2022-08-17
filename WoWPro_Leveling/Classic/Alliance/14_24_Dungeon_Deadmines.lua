@@ -6,7 +6,6 @@ Permissions beyond the scope of this license may be available at http://github.c
 local guide = WoWPro:RegisterGuide('Ludovicus_DM', 'Leveling', 'Westfall', 'WoWPro Team', 'Alliance', 1)
 WoWPro:GuideLevels(guide,15, 24, 22)
 WoWPro:GuideName(guide, 'Dungeon: Deadmines')
-WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
 WoWPro:GuideSteps(guide, function()
 return [[
 
