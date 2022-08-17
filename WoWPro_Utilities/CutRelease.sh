@@ -25,7 +25,7 @@ elif [ "$1" == "--tbc" ] ; then
     ZIP_EXTRA="-tbc"
     shift
 elif [ "$1" == "--wrath" ] ; then
-    ADDON_DIRS=${TBC[@]}
+    ADDON_DIRS=${[@]}
     TOC_SUFFIX="_Wrath"
     ZIP_EXTRA="-wrath"
     shift
