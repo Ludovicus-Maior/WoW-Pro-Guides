@@ -25,4 +25,5 @@
 	<Script file="VAN_BCC_Dungeon_Blackfathom.lua"/>
 	<Script file="VAN_BCC_Dungeon_Shadowfang_Keep.lua"/>
 	<Script file="VAN_BCC_Dungeon_Wailing_Caverns.lua"/>
+	<Script file="9_19_Dungeon_Ragefire_Chasm.lua"/>
 </Ui>

@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Cag_HRFC', 'Leveling', 'Orgrimmar', 'WowPro Team', 'Horde', 1)
+local guide = WoWPro:RegisterGuide('Cag_HRFC', 'Leveling', 'Orgrimmar', 'WowPro Team', 'Horde', 2)
 WoWPro:GuideLevels(guide,9, 19)
 WoWPro:GuideName(guide, 'Dungeon: Ragefire Chasm')
 WoWPro:GuideSteps(guide, function()

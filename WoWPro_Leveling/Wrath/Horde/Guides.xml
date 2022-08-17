@@ -27,4 +27,5 @@
 	<Script file="WOTLK_Grizzly_Hills.lua"/>
 	<Script file="WOTLK_Howling_Fjord.lua"/>
 	<Script file="WOTLK_Icecrown.lua"/>
+	<Script file="9_19_Dungeon_Ragefire_Chasm.lua"/>
 </Ui>
