@@ -6,7 +6,6 @@ Permissions beyond the scope of this license may be available at http://github.c
 local guide = WoWPro:RegisterGuide('Dungeon_ZF', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Dungeon: Zul\'Farrak')
 WoWPro:GuideLevels(guide,49, 50)
-WoWPro:GuideNextGuide(guide, 'ClassicAlliance5055')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Mallet of Zul'Farrak|QID|2770|M|48.6,68|Z|The Hinterlands|N|If you want to have the complete experience, and be certain to have a shot at Gahz'rilla you should try and get the mallet. It an be tough, especially solo but it can be done, easier for some classes. It will also help you find a group if you are trying to pug it. It takes place in the hinterlands so if you want to go for it then continue on. If you don't care or if you know someone that already has it then feel free to skip to the next part.|
