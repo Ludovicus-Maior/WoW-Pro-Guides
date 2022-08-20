@@ -85,26 +85,28 @@ F Thrallmar|ACTIVE|10388|M|61.66,81.19|
 
 T Return to Thrallmar|QID|10388|M|55.02,35.96|N|To Nazgrel.|
 A Forge Camp: Mageddon|QID|10390|M|55.02,35.96|N|From Nazgrel.|PRE|10388|
-T Apothecary Antonivich|QID|10835|M|52.29,36.45|N|To Apothecary Antonivich.|
+T Apothecary Antonivich|QID|10835|M|52.29,36.45|N|To Apothecary Antonivich in the building atop the hill.|
 A A Burden of Souls|QID|10864|M|52.29,36.45|N|From Apothecary Antonivich.|PRE|10835|
-K Forge Camp: Mageddon|QID|10390|M|64.00,31.00|QO|1|N|Kill Gan'arg Servants.|S|
-K Razorsaw|ACTIVE|10390|M|64.00,31.00|L|29586|N|Kill and loot Razorsaw, who wanders the area.|T|Razorsaw|
-A Vile Plans|QID|10393|M|64.5,32.0|N|From the Burning Legion Missive you picked up.|U|29590|O|
-K Forge Camp: Mageddon|QID|10390|M|64.00,31.00|QO|1|N|Kill Gan'arg Servants.|US|
-H Thrallmar|ACTIVE|10390|M|55.02,35.96|
+K Gan'arg Servants|QID|10390|M|64.00,31.00|QO|1|S|
+R Forge Camp: Rage|ACTIVE|10390|M|57.60,31.53|Z|1944|N|Exit Thrallmar from the north.|
+R Forge Camp: Mageddon|ACTIVE|10390|M|62.80,30.90|Z|1944|N|Continue east.|
+K Razorsaw|ACTIVE|10390|M|64.00,31.00|L|29586|N|Razorsaw wanders the area.|T|Razorsaw|
+A Vile Plans|QID|10393|ITEM|29590|N|From the Burning Legion Missive you picked up from Razorsaw.|U|29590|O|
+K Gan'arg Servants|QID|10390|M|64.00,31.00|QO|1|US|
+R Thrallmar|ACTIVE|10390|M|55.02,35.96|
 T Forge Camp: Mageddon|QID|10390|M|55.02,35.96|N|To Nazgrel.|
 A Cannons of Rage|QID|10391|M|55.02,35.96|N|From Nazgrel.|PRE|10390|
 T Vile Plans|QID|10393|M|55.13,36.03|N|To Magister Bloodhawk.|
-K Cannons of Rage|ACTIVE|10391|M|59,32|QO|1|N|Kill the Fel Cannons at Forge Camp: Rage.|
+K Fel Cannons|ACTIVE|10391|M|59,32|QO|1|N|Kill the Fel Cannons at Forge Camp: Rage.\n[color=FF0000]NOTE: [/color]If this area is busy, the ones at the other camps count as well.|
 T Cannons of Rage|QID|10391|M|55.02,35.96|N|To Nazgrel.|
 A Doorway to the Abyss|QID|10392|M|55.02,35.96|N|From Nazgrel.|PRE|10391|
-R Invasion Point: Annihilator|ACTIVE|10392|M|55.87,32.75;54.89,28.08|CS|
-K Warbringer Arix'Amal|ACTIVE|10392|M|53.06,26.43|L|29795|QO|3|N|Kill Warbringer Arix'Amal and loot the key|T|Warbringer Arix'Amal|
-C Doorway to the Abyss|QID|10392|M|53.03,27.74|QO|2|N|Stand in the portal in front of the glyph, left-click the glyph.|
-A Outland Sucks!|QID|10236|M|51.37,30.51|N|From Foreman Razelcraz.|
-C Outland Sucks!|QID|10236|M|49.0,35.5|L|28554 6|N|Loot the sparkling crates in the canyon to the south.|
-K Marauding Crust Burster|AVAILABLE|9373|L|23338|N|Don't avoid the boucing piles of dirt and rocks, we are looking for an item to start a quest. Don't worry if you don't find it, we have another chance later.|S|
+R Invasion Point: Annihilator|ACTIVE|10392|M|57.62,33.17;54.89,28.08|CS|
+K Warbringer Arix'Amal|ACTIVE|10392|M|53.11,26.50|L|29795|QO|3|N|Kill Warbringer Arix'Amal and loot the key|T|Warbringer Arix'Amal|
+C Doorway to the Abyss|QID|10392|M|53.06,27.64|QO|2|N|While standing inside the portal, click on the Rune of Spite to use the key.|NC|
+A Outland Sucks!|QID|10236|M|51.37,30.51|N|From Foreman Razelcraz.\n[color=FF0000]NOTE: [/color]His camp is at the bottom of the cliff. There is a road leading to it from Thrallmar.|
+K Marauding Crust Burster|AVAILABLE|9373|L|23338|N|[color=FF0000]NOTE: [/color]Don't avoid the boucing piles of dirt and rocks. They drop a quest starter item that we're looking for.\nDon't worry if you don't find it, we have another chance later.|S|
 A Missing Missive|QID|9373|N|From the Eroded Leather Case.|U|23338|O|
+C Outland Sucks!|QID|10236|M|49.0,35.5|L|28554 6|N|Loot the sparkling crates in the canyon to the south.|
 T Outland Sucks!|QID|10236|M|51.37,30.51|N|To Foreman Razelcraz.|
 A How to Serve Goblins|QID|10238|M|51.37,30.51|N|From Foreman Razelcraz.|PRE|10236|
 C A Burden of Souls|QID|10864|M|46.91,45.59|N|Kill any Shattered Hand Orc you come across.|S|
