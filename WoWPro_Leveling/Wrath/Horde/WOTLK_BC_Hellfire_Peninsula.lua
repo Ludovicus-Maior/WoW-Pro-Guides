@@ -138,11 +138,12 @@ A The Great Fissure|QID|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
 A In Need of Felblood|QID|9366|M|26.99,59.54|N|From Ryathen the Somber.|
 A Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar.|
 A Source of the Corruption|QID|9387|M|26.79,59.71|N|From Apothecary Azethan.|
-K The Great Fissure|ACTIVE|9340|M|30,62|N|Kill Stonescythe Whelps and Alphas.|S|
-K Blacktalon the Savage|ACTIVE|9466|M|33,63|N|Kill Blacktalon inside the cave.|T|Blacktalon the Savage|
-K The Great Fissure|ACTIVE|9340|M|30,62|N|Kill Stonescythe Whelps and Alphas.|US|
-T Investigate the Crash|QID|10213|M|49.15,74.87|N|To "Sreaming" Screed Luckheed.|
-A In Case of Emergency...|QID|10161|M|49.15,74.87|N|From "Sreaming" Screed Luckheed.|
+K The Great Fissure|ACTIVE|9340|M|35.81,63.02|QO|1;2|S|
+K Blacktalon the Savage|ACTIVE|9466|M|34.18,62.96;33.46,64.87|Z|1944|CS|L|23687|ELITE|N|[color=FF8000]Elite: [/color]\nBlacktalon is near the back of the cave.\n[color=FF0000]NOTE: [/color]If you die, there's an alcove near the entrance you can safely resurrect in.|T|Blacktalon the Savage|
+K The Great Fissure|ACTIVE|9340|M|36.63,63.58|QO|1;2|N|There are 4-5 Alpha in the cave.|US|
+R Zeppelin Crash|ACTIVE|10213|M|38.2,68.0;48.63,73.48|Z|1944|CS|N|Exit the Great Fissure and head southeast through the Southern Rampart.|
+T Investigate the Crash|QID|10213|M|49.15,74.87|Z|1944|N|To "Screaming" Screed Luckheed.|
+A In Case of Emergency...|QID|10161|M|49.15,74.87|N|From "Screaming" Screed Luckheed.|
 A Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|From Legassi.|
 C Ravager Egg Roundup|QID|9349|M|42,83|L|23217 12|ITEM|23217|N|Ravagers\nThey are found on the ground as well.|
 T Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|To Legassi.|
@@ -225,7 +226,7 @@ T The Agony and the Darkness|QID|10389|M|55.12,36.02|N|To Magister Bloodhawk.|
 T The Mag'har|QID|9406|M|55.02,35.96|N|To Nazgrel.|
 T Cruel's Intentions|QID|10136|M|55.02,35.96|N|To Nazgrel.|
 F Falcon Watch|ACTIVE|9366|M|56.28,36.25|N|Fly to Falcon Watch. Or Run/Fly with your Mount|
-h Falcon Watch|ACTIVE|9366|M|26.88,59.53|N|At Innkeeper Bazil Olof'tazun.|
+h Falcon Watch|ACTIVE|9366|M|26.88,59.53|N|At Innkeeper Bazil Olof'tazun.\n[color=FF0000]NOTE: [/color]Skip this step if you do not wish to change it.||
 T In Need of Felblood|QID|9366|M|26.99,59.54|N|To Ryathen the Somber.|
 A The Cleansing Must Be Stopped|QID|9370|M|26.99,59.54|N|From Ryathen the Somber.|PRE|9366|
 T Arelion's Journal|QID|9374|M|26.37,60.32|N|To Magistrix Carinda.|
