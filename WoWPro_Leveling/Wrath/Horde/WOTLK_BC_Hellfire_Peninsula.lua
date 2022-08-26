@@ -145,7 +145,7 @@ R Zeppelin Crash|ACTIVE|10213|M|38.2,68.0;48.63,73.48|Z|1944|CS|N|Exit the Great
 T Investigate the Crash|QID|10213|M|49.15,74.87|Z|1944|N|To "Screaming" Screed Luckheed.|
 A In Case of Emergency...|QID|10161|M|49.15,74.87|N|From "Screaming" Screed Luckheed.|
 A Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|From Legassi.|
-C In Case of Emergency...|QID|10161|M|58.0,71.5|L|28116 30|N|Pick up Zepplin Debris from the ground.|S|
+C In Case of Emergency...|QID|10161|M|58.0,71.5|L|28116 30|N|The Zepplin Debris is scattered all around the ground to the east of you.\n[color=FF0000]NOTE: [/color]The more you pick up now while killing the mobs in the area, the less mobs you'll be killing for no reason.|S|
 R Razorthorn Trail|ACTIVE|9349|M|42.05,83.44|Z|1944|N|Follow the road to the south.|
 C Ravager Egg Roundup|QID|9349|M|33.83,92.22|L|23217 12|ITEM|23217|N|Razorthorn Ravagers\nThey are found on the ground as well.|
 T Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|To Legassi.|
@@ -161,25 +161,23 @@ K Make Them Listen|ACTIVE|10220|M|54.49,77.69|QO|1;2;3|
 l A Mysterious Tome|AVAILABLE|10229|M|54.49,77.69|L|28552|ITEM|28552|N|Unyielding Knights at the Expedition Armory|US|
 R Valley of Bones|ACTIVE|9356|M|55.82,73.51|Z|1944|QO|1|
 C Smooth as Butter|QID|9356|M|65.57,62.43|L|23239 12|ITEM|23239|N|Bonestripper Buzzard\nIf needed, head back the other way until you're done.|
-C In Case of Emergency...|QID|10161|M|58.0,71.5|L|28116 30|N|Pick up Zepplin Debris from the ground.|US|
-C Burn It Up... For the Horde!|QID|10087|M|60.90,52.50|QO|1|N|Head to the Eastern Cannon and burn it.|U|27479|
-C Burn It Up... For the Horde!|QID|10087|M|54.67,54.10|QO|2|N|Find the Western Cannon further west along the Path of Glory and burn it.|U|27479|
-
-H Thrallmar|ACTIVE|10087|M|56.69,37.50|
+C Burn It Up... For the Horde!|QID|10087|M|60.90,52.50|QO|1|N|Head to the Eastern Cannon and burn it.|U|27479|NC|
+C Burn It Up... For the Horde!|QID|10087|M|54.67,54.10|QO|2|N|Find the Western Cannon further west along the Path of Glory and burn it.|U|27479|NC|
+R Thrallmar|ACTIVE|10087|M|56.69,37.50|N|Sprint across the Path of Glory or hearth if you can.|
 T Burn It Up... For the Horde!|QID|10087|M|55.17,38.79|N|To Megzeg Nukklebust.|
 A The Agony and the Darkness|QID|10389|M|55.12,36.02|N|From Magister Bloodhawk.|;this is available earlier if anyone wants to move it.
 T A Strange Weapon|QID|9401|M|55.02,35.96|N|To Nazgrel.|
 A The Warchief's Mandate|QID|9405|M|55.02,35.96|N|From Nazgrel.|PRE|9401|
 T The Warchief's Mandate|QID|9405|M|54.23,37.90|N|To Far Seer Regulkut.|
 A A Spirit Guide|QID|9410|M|54.23,37.90|N|From Far Seer Regulkut.|PRE|9405|
-F Spinebreaker Ridge|ACTIVE|10229|M|56.28,36.25|N|Fly to Spinebreaker Ridge. (AKA Spinebreaker Post)|
+F Spinebreaker Ridge|ACTIVE|10229|M|56.28,36.25|
 T Decipher the Tome|QID|10229|M|61.74,81.79|N|To Althen the Historian.|
 A The Battle Horn|QID|10230|M|61.74,81.79|N|From Althen the Historian.|PRE|10229|
 T Make Them Listen|QID|10220|M|61.78,81.71|N|To Emissary Mordiba.|
-C The Battle Horn|QID|10230|M|54.8,83.7|L|28562|ITEM|28562|N|Lieutenant Commander Thalvos\nHead south to the Expedition Armory.|
-T Smooth as Butter|QID|9356|M|49.2,74.8|N|To Legassi.|
-T In Case of Emergency...|QID|10161|M|49.15,74.87|N|To "Sreaming" Screed Luckheed.|
-A Voidwalkers Gone Wild|QID|9351|M|49.15,74.87|N|From "Sreaming" Screed Luckheed.|PRE|10161|
+C The Battle Horn|QID|10230|M|54.8,83.7|L|28562|ITEM|28562|N|Lieutenant Commander Thalvos\nHead south to the Expedition Armory.|T|Lieutenant Commander Thalvos|
+T Smooth as Butter|QID|9356|M|49.24,74.84|N|To Legassi.|
+T In Case of Emergency...|QID|10161|M|49.15,74.87|N|To "Screaming" Screed Luckheed.|
+A Voidwalkers Gone Wild|QID|9351|M|49.15,74.87|N|From "Screaming" Screed Luckheed.|PRE|10161|
 C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|L|23218 10|ITEM|23218|N|Uncontrolled Voidwalker|S|
 C The Warp Rifts|QID|10278|M|50,82|L|29051 3|ITEM|29051|N|Unstable Voidwalkers\nHead south to the Warp Fields and use the Unstable Warp Rift Generator to generate a warp rift. Kill and loot the Voidwalkers that come through.\n[color=FF0000]NOTE: [/color]The other Voidwalkers don't drop the item.|U|29027|
 C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|L|23218 10|ITEM|23218|N|Uncontrolled Voidwalker\n[color=FF0000]NOTE: [/color]Unstable Voidwalkers do not drop the item.|US|
@@ -187,10 +185,10 @@ T Voidwalkers Gone Wild|QID|9351|M|49.15,74.87|N|To "Sreaming" Screed Luckheed.|
 T The Battle Horn|QID|10230|M|61.74,81.79|N|To Althen the Historian.|
 A Bloody Vengeance|QID|10250|M|61.74,81.79|N|From Althen the Historian.|PRE|10230|
 T The Warp Rifts|QID|10278|M|61.87,81.53|N|To Ogath the Mad.|
-A Void Ridge|QID|10294|PRE|10278|M|61.87,81.53|N|From Ogath the Mad.|
-K Urtrak|ACTIVE|10250|M|63.5,77.6|QO|1|N|Head to the semi-destroyed tower and use the Unyielding Battle Horn to summon Urtrak.|U|28651|
-l Bleeding Hollow Torch|ACTIVE|10792|L|31347 4|ITEM|31347|N|Bleeding Hollow Peon|
-C Light it up|QID|10792|M|69.15,69.17|L|31346 4|N|Find the Bleeding Hollow Forge directly to the left after you enter the north gate. Use the torch at the forge to light all four.\n[color=FF0000]NOTE: [/color]The torches only last 5 minutes.|U|31347|NC|
+A Void Ridge|QID|10294|M|61.87,81.53|N|From Ogath the Mad.|PRE|10278|
+K Urtrak|ACTIVE|10250|M|63.44,77.97|QO|1|N|Head to the semi-destroyed tower and use the Unyielding Battle Horn to summon Urtrak.|U|28651|
+l Bleeding Hollow Torch|ACTIVE|10792|M|63.67,71.86|Z|1944|L|31347 4|ITEM|31347|N|Bleeding Hollow Peon\nIt'll be easier to collect all 4 torches at once.|
+C Light it up|QID|10792|M|69.15,69.17|L|31346 4|N|Find the Bleeding Hollow Forge directly to the left after you enter the north gate. Use the torch at the forge to light all four Bleeding Hollow Torches.\n[color=FF0000]NOTE: [/color]The torches only last 5 minutes.|U|31347|NC|
 C Zeth'Gor Must Burn!|QID|10792|M|69.93,69.57|QO|2|N|Use the torch at the Eastern Hovel (next to the forge).|U|31346|NC|
 C Zeth'Gor Must Burn!|QID|10792|M|69.05,73.37|QO|4|N|Use the torch at the Stable where you killed the Worg Master.|U|31346|NC|
 C Zeth'Gor Must Burn!|QID|10792|M|67.41,77.05|QO|3|N|Use the torch at the Western Hovel.|U|31346|NC|
