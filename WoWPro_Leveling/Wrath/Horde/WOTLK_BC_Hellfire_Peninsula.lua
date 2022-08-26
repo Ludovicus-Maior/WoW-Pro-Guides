@@ -123,7 +123,7 @@ T Doorway to the Abyss|QID|10392|M|55.0,36.0|N|To Nazgrel.|
 A Cruel's Intentions|QID|10136|M|55.02,35.96|N|From Nazgrel.|PRE|10392|
 A The Assassin|QID|9400|M|55.02,35.96|N|From Nazgrel.|LVL|60|
 A Falcon Watch|QID|9498^9499|M|55.23,39.10|N|From Martik Tor'seldori.|LEAD|9340|LVL|60|
-= Level 60 Trainging|ACTIVE|9400|N|Make your way to your trainer and do your level 60 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Level 60 Training|ACTIVE|9400|N|Make your way to your trainer and do your level 60 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 R The Stadium|ACTIVE|9400|M|45.67,44.46;34.83,45.91|Z|1944|CS|QO|1|N|Follow the road west through the wall until you reach the spikes.|
 R Krun Spinebreaker|ACTIVE|9400|M|33.62,43.54|Z|1944|QO|1|N|Turn to the north and head to the other side of the rock point.|
 T The Assassin|QID|9400|M|33.62,43.56|CC|Z|1944|N|To the Fel Orc Corpse.|
@@ -145,20 +145,22 @@ R Zeppelin Crash|ACTIVE|10213|M|38.2,68.0;48.63,73.48|Z|1944|CS|N|Exit the Great
 T Investigate the Crash|QID|10213|M|49.15,74.87|Z|1944|N|To "Screaming" Screed Luckheed.|
 A In Case of Emergency...|QID|10161|M|49.15,74.87|N|From "Screaming" Screed Luckheed.|
 A Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|From Legassi.|
-C Ravager Egg Roundup|QID|9349|M|42,83|L|23217 12|ITEM|23217|N|Ravagers\nThey are found on the ground as well.|
+C In Case of Emergency...|QID|10161|M|58.0,71.5|L|28116 30|N|Pick up Zepplin Debris from the ground.|S|
+R Razorthorn Trail|ACTIVE|9349|M|42.05,83.44|Z|1944|N|Follow the road to the south.|
+C Ravager Egg Roundup|QID|9349|M|33.83,92.22|L|23217 12|ITEM|23217|N|Razorthorn Ravagers\nThey are found on the ground as well.|
 T Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|To Legassi.|
 A Helboar, the Other White Meat|QID|9361|M|49.24,74.84|N|From Legassi.|PRE|9349|
-C In Case of Emergency...|QID|10161|M|58.0,71.5|L|28116 30|N|Pick up Zepplin Debris from the ground.|S|
-l Tainted Helboar Meat|ACTIVE|9361|M|50.0,75.0|L|23270|ITEM|23270|QO|1|N|Any Helboar\nHead to the NE and work your way south.|
-U Purified Helboar Meat|ACTIVE|9361|M|PLAYER|L|23248 8|N|Use the Purification Mixture on the Tainted Helboar Meat.|U|23268|
+l Tainted Helboar Meat|ACTIVE|9361|M|50.00,75.00|L|23270 8|ITEM|23270|QO|1|N|Any Helboar\nHead to the NE and work your way counter-clockwise around the hill.|
+C Purified Helboar Meat|ACTIVE|9361|M|PLAYER|L|23248 8|N|Use the Purification Mixture on the Tainted Helboar Meat.\n[color=FF0000]NOTE: [/color]For every [color=33fff9]Toxic Helboar Meat[/color] you get, you'll need another Tainted Helboar Meat to replace it and try again.|U|23268|
 K Marauding Crust Burster|AVAILABLE|9373|M|49,67|L|23338|N|Kill them until you loot the Eroded Leather Case.|US|
 T Helboar, the Other White Meat|QID|9361|M|49.24,74.84|N|To Legassi.|
 A Smooth as Butter|QID|9356|M|49.24,74.84|N|From Legassi.|PRE|9361|
-l A Mysterious Tome|AVAILABLE|10229|M|55,76|L|28552|ITEM|28552|N|Unyielding Knights at the Expedition Armory|S|
+l A Mysterious Tome|AVAILABLE|10229|M|54.49,77.69|L|28552|ITEM|28552|N|Unyielding Knights at the Expedition Armory|S|
 A Decipher the Tome|QID|10229|M|PLAYER|N|From A Mysterious Tome.|U|28552|O|
-K Make Them Listen|QID|10220|M|55,76|QO|1;2;3|N|Kill Unyielding Footman, Knights and Sorcerers.|
-l A Mysterious Tome|AVAILABLE|10229|M|55,76|L|28552|ITEM|28552|N|Unyielding Knights at the Expedition Armory|US|
-C Smooth as Butter|QID|9356|M|63.4,66.3|N|Kill and loot Bonestripper Buzzard until you have 12 wings.|
+K Make Them Listen|ACTIVE|10220|M|54.49,77.69|QO|1;2;3|
+l A Mysterious Tome|AVAILABLE|10229|M|54.49,77.69|L|28552|ITEM|28552|N|Unyielding Knights at the Expedition Armory|US|
+R Valley of Bones|ACTIVE|9356|M|55.82,73.51|Z|1944|QO|1|
+C Smooth as Butter|QID|9356|M|65.57,62.43|L|23239 12|ITEM|23239|N|Bonestripper Buzzard\nIf needed, head back the other way until you're done.|
 C In Case of Emergency...|QID|10161|M|58.0,71.5|L|28116 30|N|Pick up Zepplin Debris from the ground.|US|
 C Burn It Up... For the Horde!|QID|10087|M|60.90,52.50|QO|1|N|Head to the Eastern Cannon and burn it.|U|27479|
 C Burn It Up... For the Horde!|QID|10087|M|54.67,54.10|QO|2|N|Find the Western Cannon further west along the Path of Glory and burn it.|U|27479|
