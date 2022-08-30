@@ -67,12 +67,12 @@ A Preparing the Salve|QID|9345|M|60.93,81.66|N|From Grelag.|
 A Make Them Listen|QID|10220|M|61.78,81.71|N|From Emissary Mordiba.|
 A The Warp Rifts|QID|10278|M|61.87,81.52|N|From Ogath the Mad.|
 A Wanted: Worg Master Kruush|QID|10809|M|61.22,80.59|N|From the Wanted Poster.|
-C Preparing the Salve|QID|9345|L|23205 12|N|Gather the Hellfire Spineleaf.|S|
+C Preparing the Salve|QID|9345|L|23205 12|N|Gather the Hellfire Spineleaf.\n[color=FF0000]NOTE: [/color]These may be quite spread out.|S|
 C Bleeding Hollow Blood|QID|10538|L|30425 12|ITEM|30425|N|Any Bleeding Hollow Orc|S|
 R Zeth'Gor|ACTIVE|10809|M|65.41,73.54|Z|1944|
 K Worg Master Kruush|ACTIVE|10809|M|68.16,73.36|L|31374|ITEM|31374|N|Worg Master Kruush.|T|Worg Master Kruush|
 l Bleeding Hollow Blood|QID|10538|M|65,73|L|30425 12|ITEM|30425|N|Any Bleeding Hollow Orc|US|
-C Boiling Blood|QID|10538|M|65.21,71.36|L|30430 12|N|Clear around the cauldron and click on it. Several Cursed Scarabs will spawn, but if you back away,they won't agro (or kill them if you prefer).\nRinse and repeat until done.|
+C Boiling Blood|QID|10538|M|65.21,71.36|L|30430 12|N|Clear around the cauldron and click on it. Several Cursed Scarabs will spawn, but if you back away, they won't agro and despawn after ~20 seconds (or kill them if you prefer).\nRinse and repeat until done.|
 C Preparing the Salve|QID|9345|M|65.45,78.72|L|23205 12|N|Finish gathering the Hellfire Spineleaf.\n[color=FF0000]NOTE: [/color]These may be quite spread out.|US|
 T Wanted: Worg Master Kruush|QID|10809|M|61.22,81.33|N|To Captain Darkhowl.|
 A Zeth'Gor Must Burn!|QID|10792|M|61.22,81.33|N|From Captain Darkhowl.|
@@ -81,6 +81,7 @@ A Investigate the Crash|QID|10213|M|60.93,81.66|N|From Grelag.|PRE|9345|
 T Boiling Blood|QID|10538|M|61.15,81.78|N|To Apothecary Albreck.|
 A Apothecary Antonivich|QID|10835|M|61.15,81.78|N|From Apothecary Albreck.|PRE|10538|
 A The Eyes of Grillok|QID|10813|M|61.65,81.85|N|From Zezzak.|
+* Bleeding Hollow Blood|ACTIVE|-10538|AVAILABLE|-10538|N|You no longer need these.|U|30425|O|
 F Thrallmar|ACTIVE|10388|M|61.66,81.19|
 
 T Return to Thrallmar|QID|10388|M|55.02,35.96|N|To Nazgrel.|
