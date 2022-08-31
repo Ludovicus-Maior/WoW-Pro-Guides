@@ -97,7 +97,7 @@ K Lambs To The Slaughter|QID|12722|M|57.80,61.80|Z|124|QO|1;2|US|
 C The Plaguebringer's Request|QID|12716|M|57.80,61.80|Z|124|L|39328 10|ITEM|39328|N|Any Citizen of New Avalon or Scarlet Crusade Soldier|US|
 T The Plaguebringer's Request|QID|12716|M|55.89,52.40|Z|124|N|To Noth the Plaguebringer back at Havenshire Farms.|
 A Noth's Special Brew|QID|12717|M|55.89,52.40|Z|124|N|From Noth the Plaguebringer.|PRE|12716|
-T Noth's Special Brew|QID|12717|M|54.67,57.45|Z|124|N|To the Plague Cauldron.|
+T Noth's Special Brew|QID|12717|M|56.18,52.04|Z|124|N|To the Plague Cauldron.|
 N More Skulls For Brew|QID|12718|AVAILABLE|12724|M|54.67,57.45|Z|124|N|This is a repeatable quest now available from the Plague Cauldron.\nYou can exchange 20 Crusader Skulls for 5 Noth's Special Brew.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Nowhere To Run And Nowhere To Hide|QID|12719|M|54.29,57.30|Z|124|N|To Prince Keleseth inside the Crypt of Remembrance.|
 A How To Win Friends And Influence Enemies|QID|12720|M|54.29,57.30|Z|124|N|From Prince Keleseth.|PRE|12719|
