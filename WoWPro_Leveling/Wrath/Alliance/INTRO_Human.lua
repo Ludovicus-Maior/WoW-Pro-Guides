@@ -128,11 +128,11 @@ T Speak with Gramma|QID|111|M|34.9,83.9|N|To Gramma Stonefield, inside the house
 A Note to William|QID|107|M|34.9,83.9|PRE|111|N|From Gramma Stonefield.|
 
 R Goldshire|QID|62|M|43.8,65.8|N|Run back to Goldshire.|
-N Level 6 class skills |QID|47|S|LVL|6|N|Remember to visit your class trainer to learn your Level 6 skills!|
 T Kobold Candles|QID|60|US|M|43.3,65.7|N|To William Pestle.|
 A Shipment to Stormwind|QID|61|PRE|60|M|43.3,65.7|N|From William Pestle.|
 T Note to William|QID|107|M|43.3,65.7|N|To William Pestle.|
 A Collecting Kelp|QID|112|M|43.3,65.7|PRE|107|N|From William Pestle.|
+N Level 6 class skills |QID|47|LVL|6|N|Remember to visit your class trainer to learn your Level 6 skills!|
 T Gold Dust Exchange|QID|47|M|42.1,67.3|N|To Remy "Two Times", outside|
 A A Fishy Peril|QID|40|M|42.1,67.3|N|From Remy "Two Times".|LVL|7|
 r Sell and Repair|QID|40|S|M|41.7,65.8|ACTIVE|40|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
@@ -157,7 +157,7 @@ f Stormwind City|QID|332|M|57.5,59.5;62.75,64.5;66.28,62.12|CS|N|Discover Stormw
 R Goldshire|QID|112|M|32.00,49.25;41.2,62.0|CS|N|Head back to Goldshire in Elwynn Forest. You can jump down from the flight point into the water.|
 
 C Collecting Kelp|QID|112|M|54.1,66.6|N|Kill and loot the Murlocs for the Crystal Kelp Fronds.|
-C The Jasperlode Mine|QID|76|M|61.0,54.1;60.5,50.1|CS|NC|N|Head up to Jasperlode Mine, then go in, stick to the left until you get the quest update.|
+C The Jasperlode Mine|QID|76|M|61.78,54.08;60.53,50.33|CS|NC|N|Head up to Jasperlode Mine, then go in, stick to the left until you get the quest update.|
 
 T Further Concerns|QID|35|M|74.0,72.2|N|To Guard Thomas.|
 A Find the Lost Guards|QID|37|M|74.0,72.2|PRE|35|N|From Guard Thomas.|
