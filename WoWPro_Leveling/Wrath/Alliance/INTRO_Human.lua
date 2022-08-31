@@ -4,12 +4,12 @@ WoWPro:GuideNextGuide(guide, "WOTLK_Eastern_Kingdom1019")
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSteps(guide, function()
 return [[
-A A Threat Within|QID|783|M|48.15,42.95|N|From Deputy Willem.|
-T A Threat Within|QID|783|M|48.9,41.6|N|To Marshal McBride, inside the Abbey.|
+A A Threat Within|QID|783|M|48.09,43.60|N|From Deputy Willem.|
+T A Threat Within|QID|783|M|48.89,41.63|N|To Marshal McBride, inside the Abbey.|
 
-A Kobold Camp Cleanup|PRE|783|QID|7|M|48.9,41.6|N|From Marshal McBride|
+A Kobold Camp Cleanup|PRE|783|QID|7|M|48.89,41.63|N|From Marshal McBride|
 C Kobold Camp Cleanup|QID|7|QO|1|M|47.5,36.1|N|Kill 10 Kobold 'Vermin'. The 'Workers' don't count.|T|Kobold Vermin|S|
-A Eagan Peltskinner|PRE|783|QID|5261|M|48.15,42.95|N|From Deputy Willem.|
+A Eagan Peltskinner|PRE|783|QID|5261|M|48.09,43.60|N|From Deputy Willem.|
 T Eagan Peltskinner|QID|5261|M|48.9,40.2|N|To Eagan Peltskinner around back of the Abbey.|
 
 A Wolves Across the Border|PRE|5261|QID|33|M|48.9,40.2|N|From Eagan Peltskinner.|
@@ -35,7 +35,7 @@ T Consecrated Letter|QID|3101|M|50.43,42.12|N|To Brother Sammuel in the Hall of 
 T Hallowed Letter|QID|3103|M|49.81,39.49|N|To Priestess Anetta in the alcove off the Library Wing.\nGrab your lv 2 spell/skill while you're here.|
 T Glyphic Letter|QID|3104|M|48.92,41.61|N|To Khelden Bremen upstairs in the Library Wing.\nGrab your lv 2 spell/skill while you're here.|
 
-A Brotherhood of Thieves|PRE|783|QID|18|R|Human|M|48.17,42.95|N|From Deputy Willem.|
+A Brotherhood of Thieves|PRE|783|QID|18|R|Human|M|48.09,43.60|N|From Deputy Willem.|
 T Encrypted Letter|QID|3102|M|50.3,39.9|N|To Jorik Kerridan is outside in the barn at the back of the Abbey.\nGrab your lv 2 spell/skill while you're here.|
 T Tainted Letter|QID|3105|M|49.97,42.65|N|To Drusilla La Salle outside on the right side of the Abbey.\nGrab your lv 2 spell/skill while you're here.|
 A The Stolen Tome|QID|1598|PRE|7|QO|1|C|Warlock|R|Human|M|49.97,42.65|N|Pick up your class quest from your trainer, Drusilla La Salle. She is outside the Abbey on the right side.|
@@ -48,12 +48,12 @@ C The Stolen Tome|ACTIVE|1598|M|56.68,43.96|QO|1|N|The Defias thugs have the boo
 T The Stolen Tome|QID|1598|M|49.97,42.65|N|To your class trainer, Drusilla La Salle. Don't forget to do your training as well.|
 N Demon trainer|PRE|1598|SPELL|Blood Pact;6307|QID|3903|M|50.05,42.69|N|Now that you have a demon (imp), you can start training it as well. Go see Dane Winslow, beside Drusilla, to get started.\nDo note that you must summon your demon in order to train it.|
 
-T Brotherhood of Thieves|QID|18|M|48.15,42.95|N|To Deputy Willem.|
-A Milly Osworth|QID|3903|PRE|18|M|48.15,42.95|N|From Deputy Willem.|
-A Bounty on Garrick Padfoot|QID|6|PRE|18|M|48.15,42.95|N|From Deputy Willem.|
+T Brotherhood of Thieves|QID|18|M|48.09,43.60|N|To Deputy Willem.|
+A Milly Osworth|QID|3903|PRE|18|M|48.09,43.60|N|From Deputy Willem.|
+A Bounty on Garrick Padfoot|QID|6|PRE|18|M|48.09,43.60|N|From Deputy Willem.|
 
-T Investigate Echo Ridge|QID|15|M|48.9,41.6|N|To Marshal McBride.|
-A Skirmish at Echo Ridge|QID|21|PRE|15|M|48.9,41.6|N|From Marshal McBride.|
+T Investigate Echo Ridge|QID|15|M|48.89,41.63|N|To Marshal McBride.|
+A Skirmish at Echo Ridge|QID|21|PRE|15|M|48.89,41.63|N|From Marshal McBride.|
 
 N Level 4 class training|QID|3903|LVL|4|N|Remember to visit your class trainer to do your Level 4 spell/skill before leaving! Make sure you come back if you do not have enough money to pay for all of it.|
 r Sell and Repair|ACTIVE|3903|M|47.7,41.4|N|Sell and Repair at Godric Rothgar.|
@@ -67,7 +67,7 @@ C Milly's Harvest|QID|3904|M|54.0,47.8|US|NC|N|Collect Milly's Harvest Barrels f
 R Northshire Valley|ACTIVE|6|N|You can either hearth from the Vineyard or run back to the Abbey.|
 T Milly's Harvest|QID|3904|M|50.7,39.3|N|To Milly Osworth.|
 A Grape Manifest|QID|3905|M|50.7,39.3|PRE|3904|N|From Milly Osworth.|
-T Bounty on Garrick Padfoot|QID|6|M|48.15,42.95|N|To Deputy Willem.|
+T Bounty on Garrick Padfoot|QID|6|M|48.06,43.64|N|To Deputy Willem.|
 
 
 T Skirmish at Echo Ridge|QID|21|M|48.9,41.6|N|To Marshal McBride.|
@@ -128,11 +128,11 @@ T Speak with Gramma|QID|111|M|34.9,83.9|N|To Gramma Stonefield, inside the house
 A Note to William|QID|107|M|34.9,83.9|PRE|111|N|From Gramma Stonefield.|
 
 R Goldshire|QID|62|M|43.8,65.8|N|Run back to Goldshire.|
-N Level 6 class skills |QID|47|S|LVL|6|N|Remember to visit your class trainer to learn your Level 6 skills!|
 T Kobold Candles|QID|60|US|M|43.3,65.7|N|To William Pestle.|
 A Shipment to Stormwind|QID|61|PRE|60|M|43.3,65.7|N|From William Pestle.|
 T Note to William|QID|107|M|43.3,65.7|N|To William Pestle.|
 A Collecting Kelp|QID|112|M|43.3,65.7|PRE|107|N|From William Pestle.|
+N Level 6 class skills |QID|47|LVL|6|N|Remember to visit your class trainer to learn your Level 6 skills!|
 T Gold Dust Exchange|QID|47|M|42.1,67.3|N|To Remy "Two Times", outside|
 A A Fishy Peril|QID|40|M|42.1,67.3|N|From Remy "Two Times".|LVL|7|
 r Sell and Repair|QID|40|S|M|41.7,65.8|ACTIVE|40|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
@@ -157,7 +157,7 @@ f Stormwind City|QID|332|M|57.5,59.5;62.75,64.5;66.28,62.12|CS|N|Discover Stormw
 R Goldshire|QID|112|M|32.00,49.25;41.2,62.0|CS|N|Head back to Goldshire in Elwynn Forest. You can jump down from the flight point into the water.|
 
 C Collecting Kelp|QID|112|M|54.1,66.6|N|Kill and loot the Murlocs for the Crystal Kelp Fronds.|
-C The Jasperlode Mine|QID|76|M|61.0,54.1;60.5,50.1|CS|NC|N|Head up to Jasperlode Mine, then go in, stick to the left until you get the quest update.|
+C The Jasperlode Mine|QID|76|M|61.78,54.08;60.53,50.33|CS|NC|N|Head up to Jasperlode Mine, then go in, stick to the left until you get the quest update.|
 
 T Further Concerns|QID|35|M|74.0,72.2|N|To Guard Thomas.|
 A Find the Lost Guards|QID|37|M|74.0,72.2|PRE|35|N|From Guard Thomas.|
