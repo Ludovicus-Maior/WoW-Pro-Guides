@@ -25,4 +25,10 @@
   <Script file="WOTLK_Howling_Fjord.lua"/>
   <Script file="WOTLK_Icecrown.lua"/>
   <Script file="WOTLK_Storm_Peaks.lua"/>
+  <Script file="14_24_Dungeon_Deadmines.lua"/>
+  <Script file="21_30_Dungeon_Blackfathom.lua"/>
+  <Script file="41_42_Dungeon_Uldaman.lua"/>
+  <Script file="49_50_Dungeon_Zul_Farrak.lua"/>
+  <Script file="50_51_Dungeon_Maraudon.lua"/>
+  <Script file="53_60_Dungeon_Blackrock_Depths.lua"/>
  </Ui>

@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide("BosDun0112", "Leveling", "Dun Morogh", "WowPro Team", "Alliance", 3)
-WoWPro:GuideNickname(guide, "Dun Morogh")
-WoWPro:GuideName(guide, "Dun Morogh")
+WoWPro:GuideName(guide, "Dwarf/Gnome Intro")
 WoWPro:GuideNextGuide(guide, "MawLos1213")
 WoWPro:GuideLevels(guide, 1, 12)
 WoWPro:GuideSteps(guide, function()

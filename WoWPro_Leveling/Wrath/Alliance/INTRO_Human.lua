@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide("WOTLK_INTRO_Human", "Leveling", "Elwynn Forest", "WowPro Team", "Alliance", 3)
-WoWPro:GuideName(guide, "Elwynn Forest")
+WoWPro:GuideName(guide, "Human Intro")
 WoWPro:GuideNextGuide(guide, "WOTLK_Eastern_Kingdom1019")
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSteps(guide, function()
