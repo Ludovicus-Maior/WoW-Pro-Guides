@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide("WOTLK_INTRO_NE", "Leveling", "Teldrassil", "WowPro Team", "Alliance", 3)
-WoWPro:GuideName(guide, "Night  Elf Intro")
-WoWPro:GuideNextGuide(guide, "SveBlo1220")
+WoWPro:GuideName(guide, "Night Elf Intro")
+WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Darkshore")
 WoWPro:GuideLevels(guide, 1, 12)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -174,19 +174,19 @@ T Rellian Greenspyre|QID|922|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
 A Tumors|QID|923|PRE|922|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
 R Teldrassil|QID|933|M|88.39,35.55|Z|Darnassus|CC|N|Head back to Teldrassil.|
 
-C Crown of the Earth|QID|933|NC|M|42.40,67.08|U|5621|N|Fill the Tourmaline Phial at the moonwell.|
+U Crown of the Earth|QID|933|QO|1|NC|M|42.40,67.08|U|5621|N|Fill the Tourmaline Phial at the moonwell.|
 R Ban'ethil Hollow|QID|487|ACTIVE|487|M|40.35,54.03;43.35,53.95|CS|N|Head to Ban'ethil Hollow (a cave just south of the road)|
 C The Road to Darnassus|QID|487|M|46,52|N|Kill the Gnarlpine Ambushers.|
 
 R Ban'ethil Barrow Den|QID|483|ACTIVE|483|M|44.33,57.93|N|Enter Ban'ethil Barrow Den.|
-C Rune of Nesting|QID|483|M|44.4,60.7|QO|4|NC|L|3408|N|Follow the path down, then across the bridge, box is on right in chamber.|
+C Rune of Nesting|QID|483|M|44.4,60.7|QO|4|L|3408|N|Follow the path down, then across the bridge, box is on right in chamber.|
 C Black Feather Quill|QID|483|M|43.73,61.23|QO|2|L|3406|N|Back across the bridge, then take bridge to the left, box is on right in chamber|
 
 A The Sleeping Druid|QID|2541|M|44.95,61.59|N|Jump down the lower floor, turn left to the chamber then across bridge. From Oben Rageclaw.|
 C The Sleeping Druid|QID|2541|S|L|8363|N|Kill Gnarlpine Shamans until one of them drops a Shaman Voodoo Charm. This may take a long time.|
-C Sapphire of Sky|QID|483|M|44.69,62.45|QO|3|N|Back across bridge, turn right, then right again. The chest is on floor next to Greenpaw. Note, Greenpaw is a Level 10 and hits hard.|
-R Up the ramp|QID|483|M|45.39,58.00;46.15,58.37|CC|L|3405|N|On the opposite side of the second chamber. Watch out for Ravenclaw who patrols around the lower level.|
-C Raven Claw Talisman|QID|483|M|45.65,57.45|QO|1|N|Further on the passageway, when it gets to the cavern, go left up the ramp, then right across the bridge. The chest is on the balcony.|
+C Sapphire of Sky|QID|483|M|44.69,62.45|QO|3|L|3407|N|Back across bridge, turn right, then right again. The chest is on floor next to Greenpaw. Note, Greenpaw is a Level 10 and hits hard.|
+R Up the ramp|QID|483|M|45.39,58.00;46.15,58.37|CC|N|On the opposite side of the second chamber. Watch out for Ravenclaw who patrols around the lower level.|
+C Raven Claw Talisman|QID|483|M|45.65,57.45|QO|1|L|3405|N|Further on the passageway, when it gets to the cavern, go left up the ramp, then right across the bridge. The chest is on the balcony.|
 C The Sleeping Druid|QID|2541|US|L|8363|N|Kill Gnarlpine Shamans until one of them drops a Shaman Voodoo Charm. This may take a long time.|
 T The Sleeping Druid|QID|2541|M|44.95,61.59|N|To Oben Rageclaw.|
 A Druid of the Claw|QID|2561|PRE|2541|M|44.95,61.59|N|From Oben Rageclaw.|
@@ -231,7 +231,7 @@ A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|Darnassus|N|From Mydrannul.|
 T Elanaria|QID|1684|C|Warrior|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|
 A Vorlus Vilehoof|QID|1683|PRE|1684|C|Warrior|M|57.34,34.66|Z|Darnassus|N|From Elanaria.|
 
-h Darnassus|QID|923|C|Druid|M|67.42,15.69|N|Set your Hearthstone to Darnassus with Innkeeper Saelienne.|
+h Craftsmen's Terrace|QID|923|C|Druid|M|67.42,15.69|Z|Darnassus|N|Set your Hearthstone to Darnassus with Innkeeper Saelienne.|
 T Tumors|QID|923|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
 A Return to Denalan|QID|2498|PRE|923|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
 
@@ -281,7 +281,7 @@ A Tears of the Moon|QID|2518|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.
 T Returning Home|QID|5629|C|Priest|M|39.52,81.18|Z|Darnassus|N|To Priestess Alathea.|
 R Teldrassil|QID|7383|ACTIVE|7383|M|39.04,77.18;80.04,40.40;88.39,35.55|Z|Darnassus|CC|N|Exit the temple and head back to Teldrassil.|
 
-C Crown of the Earth|QID|7383|NC|M|38.44,34.06|U|18152|N|Fill the Amethyst Phial.|
+U Crown of the Earth|QID|7383|NC|M|38.44,34.06|QO|1|U|18152|N|Fill the Amethyst Phial.|
 A The Enchanted Glade|QID|937|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
 ; N Enchanting|M|36.72,34.18|N|If you want to learn enchanting the trainer is here.|
 
