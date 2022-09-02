@@ -37,7 +37,7 @@ P Hall of Command|ACTIVE|12657|M|50.43,33.22|Z|124|N|Take the portal to Hall of 
 T The Might Of The Scourge|QID|12657|M|48.88,29.76|Z|124|N|To Highlord Darion Mograine.|
 A Report To Scourge Commander Thalanor|QID|12850|M|48.88,29.76|Z|124|N|From Highlord Darion Mograine.|PRE|12657|
 A The Power Of Blood, Frost And Unholy|QID|12849|M|47.48,26.56|Z|124|N|From Lord Thorval in the Red alcove directly behind Mograine.|PRE|12657| ; === This quest has no T step - Hendo72
-T Report To Scourge Commander Thalanor|QID|12850|N|To Scourge Commander Thalanor, who is on the balcony opposite Lord Thorval. He is on an Undead Chicken.|
+T Report To Scourge Commander Thalanor|QID|12850|M|51.03,34.65|Z|124|N|To Scourge Commander Thalanor, who is on the balcony at the entrance.|
 T Report To Scourge Commander Thalanor|QID|12850|M|51.03,34.65|Z|124|N|To Scourge Commander Thalanor.\n[color=FF0000]NOTE: [/color]He moves around.|
 A The Scarlet Harvest|QID|12670|M|51.03,34.65|Z|124|N|From Scourge Commander Thalanor.|PRE|12850|
 F Death's Breach|ACTIVE|12670|M|52.09,35.07|Z|124|N|Click on the Scourge Gryphon closest to you.|
@@ -53,11 +53,10 @@ C Saronite Arrow|QID|12679|M|55.20,47.80|Z|124|L|39160 15|N|These are found on t
 A Abandoned Mail|QID|12711|M|55.28,46.20|N|From the Abandoned Mail atop the mailbox.|PRE|12670|
 C Saronite Arrow|QID|12679|M|55.20,47.80|Z|124|L|39160 15|N|These are found on the ground all over Havenshire.|US|
 K If Chaos Drives, Let Suffering Hold The Reins|QID|12678|M|56.60,40.40|QO|1;2|N|Kill the required mobs.\n[color=FF0000]NOTE: [/color]Any mob not a 'Citizen' counts as a Crusader.|US|
-C Grand Theft Palomino|QID|12680|M|56.20,42.20|Z|124|QO|1|N|Mount a horse and ride it back to Salanar the Horseman.\nPress '1' when you get there to complete the quest.\n[color=FF0000]NOTE: [/color]Watch out for Stable Master Kitrik (Lv 56 Elite).|V|
+C Grand Theft Palomino|QID|12680|M|51.30,36.27|Z|124|CC|QO|1|N|Mount a horse from Havenshire Stables and ride it back to Salanar the Horseman.\nPress '1' when you get to him to complete the quest.\n[color=FF0000]NOTE: [/color]Watch out for Stable Master Kitrik (Lv 56 Elite).|V|
 T Grand Theft Palomino|QID|12680|M|52.81,34.07|Z|124|N|To Salanar the Horseman.|
 A Into the Realm of Shadows|QID|12687|M|52.81,34.07|Z|124|N|From Salanar the Horseman.|PRE|12680|
-K Dark Rider of Archerus|ACTIVE|12687|M|58.90,41.20|Z|124|QO|1|N|Kill the Dark Rider.|T|Dark Rider of Archerus|
-C Archerus Deathcharger|QID|12687|M|51.11,37.93|QO|1|N|Mount the Dark Rider's horse and bring it back to Death's Breach. Once you reach the top of the hill, press '1' to complete the step.|
+C Acherus Deathcharger|QID|12687|M|51.11,37.93|QO|1|N|Kill the Dark Rider and mount their horse to bring it back to Death's Breach. Once you reach the top of the hill, press '1' to complete the step.\n[color=FF0000]NOTE: [/color]If you dismount for an reason, it will despawn and you'll have to get another one.|T|Dark Rider of Acherus|
 T Into the Realm of Shadows|QID|12687|M|52.82,34.04|Z|124|N|To Salanar the Horseman.|
 T Tonight We Dine In Havenshire|QID|12679|M|52.77,37.41|Z|124|N|To Orithos the Sky Darkener.|
 T If Chaos Drives, Let Suffering Hold The Reins|QID|12678|M|52.27,33.98|Z|124|N|To Prince Valanar.|
@@ -98,7 +97,7 @@ C The Plaguebringer's Request|QID|12716|M|57.80,61.80|Z|124|L|39328 10|ITEM|3932
 T The Plaguebringer's Request|QID|12716|M|55.89,52.40|Z|124|N|To Noth the Plaguebringer back at Havenshire Farms.|
 A Noth's Special Brew|QID|12717|M|55.89,52.40|Z|124|N|From Noth the Plaguebringer.|PRE|12716|
 T Noth's Special Brew|QID|12717|M|56.18,52.04|Z|124|N|To the Plague Cauldron.|
-N More Skulls For Brew|QID|12718|AVAILABLE|12724|M|54.67,57.45|Z|124|N|This is a repeatable quest now available from the Plague Cauldron.\nYou can exchange 20 Crusader Skulls for 5 Noth's Special Brew.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+N More Skulls For Brew|QID|12718|AVAILABLE|12724|M|56.18,52.04|Z|124|N|This is a repeatable quest now available from the Plague Cauldron.\nYou can exchange 20 Crusader Skulls for 5 Noth's Special Brew.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Nowhere To Run And Nowhere To Hide|QID|12719|M|54.29,57.30|Z|124|N|To Prince Keleseth inside the Crypt of Remembrance.|
 A How To Win Friends And Influence Enemies|QID|12720|M|54.29,57.30|Z|124|N|From Prince Keleseth.|PRE|12719|
 T Lambs To The Slaughter|QID|12722|M|54.67,57.45|Z|124|N|To Baron Rivendare.|
