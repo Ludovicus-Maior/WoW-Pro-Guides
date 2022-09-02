@@ -1,4 +1,4 @@
--- luacheck: globals tostring tonumber string
+-- luacheck: globals tostring tonumber string hooksecurefunc
 -- luacheck: globals select foreach ipairs pairs next tinsert
 
 --------------------------
@@ -899,7 +899,7 @@ WoWPro.RegisterEventHandler("GOSSIP_CLOSED" ,function(event, ...)
     end)
 
 if WoWPro.RETAIL then
-	WoWPro.RegisterEventHandler("CHROMIE_TIME_CLOSE" ,function(event, ...)
+	hooksecurefunc(_G.C_ChromieTime,"CloseUI",function(...)
 		WoWPro.GuidelistReset = true
     end)
 end
