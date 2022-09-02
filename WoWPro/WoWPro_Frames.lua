@@ -36,7 +36,7 @@ end
 function WoWPro:ResizeSet()
     -- Resize Customization --
     if WoWProDB.profile.resize then WoWPro.resizebutton:Show() else WoWPro.resizebutton:Hide() end
-    WoWPro.MainFrame:SetMinResize(WoWProDB.profile.hminresize,WoWProDB.profile.vminresize)
+    WoWPro.SetResizeBounds(WoWPro.MainFrame, WoWProDB.profile.hminresize, WoWProDB.profile.vminresize)
     if WoWPro.MainFrame:GetWidth() < WoWProDB.profile.hminresize then
         -- MainFrame --
         WoWPro.MainFrame:SetWidth(WoWProDB.profile.hminresize)
@@ -412,7 +412,7 @@ function WoWPro:CreateMainFrame()
     frame:SetClampedToScreen(true)
     frame:SetHeight(300)
     frame:SetWidth(200)
-    frame:SetMinResize(150,40)
+    WoWPro.SetResizeBounds(frame, 150, 40)
     frame:SetPoint("TOPLEFT", _G.UIParent, "RIGHT", -210, 175)
     frame:EnableMouseWheel()
     WoWPro.MainFrame = frame
