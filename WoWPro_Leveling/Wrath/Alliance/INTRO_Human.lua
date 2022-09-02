@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide("WOTLK_INTRO_Human", "Leveling", "Elwynn Forest", "WowPro Team", "Alliance", 3)
-WoWPro:GuideName(guide, "Elwynn Forest")
+WoWPro:GuideName(guide, "Human Intro")
 WoWPro:GuideNextGuide(guide, "WOTLK_Eastern_Kingdom1019")
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSteps(guide, function()
@@ -313,7 +313,7 @@ R Gnomeregan|ACTIVE|412|M|27.72,44.02|Z|Dun Morogh|CC|N|Head northeast to Gnomer
 C Operation Recombobulation|QID|412|L|3083 8|N|Kill gnomes to loot the Restabilization Cog.|S|
 C Operation Recombobulation|QID|412|L|3084 8|N|Kill gnomes to loot the Gyromechanic Gear.|
 C Operation Recombobulation|QID|412|L|3083 8|N|Kill gnomes to loot the Restabilization Cog.|US|
-C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|Dun Morogh|L|2886 6|N|finish collecting the Crag Boar Ribs.|US|
+C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|Dun Morogh|L|2886 6|N|Finish collecting the Crag Boar Ribs.|US|
 L Level 12|QID|412|N|Grind out some XP until you are within 5 bubbles of level 12 before returning.|LVL|12;-2080|
 R Kharanos|QID|412|M|47.11,47.01|Z|Dun Morogh|CC|N|Make your way back to Kharanos.|
 T Operation Recombobulation|QID|412|M|45.84,49.37|Z|Dun Morogh|N|To Razzle Sprysprocket.|
@@ -335,7 +335,7 @@ R Enter the Cave|ACTIVE|432^433|M|70.10,55.81;70.32,56.56|Z|Dun Morogh|CC|N|Make
 C Those Blasted Troggs!|QID|432|QO|1|N|Kill Rockjaw Skullthumpers.|S|
 C The Public Servant|QID|433|QO|1|N|Kill Rockjaw Bonesnappers.|
 C Those Blasted Troggs!|QID|432|QO|1|N|Kill Rockjaw Skullthumpers.|US|
-T Those Blasted Troggs!|QID|432|M|70.31,56.51;70.00,55.65;69.08,56.33|Z|Dun Morogh|CC|N|To Foreman Stonebrow. Exit the cave and climb out the same way you can in.|
+T Those Blasted Troggs!|QID|432|M|69.08,56.33|Z|Dun Morogh|N|To Foreman Stonebrow. Exit the cave and climb out the same way you can in.|
 T The Public Servant|QID|433|M|68.67,55.96|Z|Dun Morogh|N|To Senator Mehr Stonehollow.|
 R North Gate Pass|ACTIVE|353|M|78.31,49.17|Z|Dun Morogh|N|Back to the road and continue thru North Gate Pass.|
 A The Lost Pilot|QID|419|M|83.88,39.19|Z|Dun Morogh|N|From Pilot Hammerfall.|

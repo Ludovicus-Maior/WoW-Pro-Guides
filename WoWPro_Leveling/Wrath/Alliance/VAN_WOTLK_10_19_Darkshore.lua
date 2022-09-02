@@ -1,7 +1,7 @@
-local guide = WoWPro:RegisterGuide("CLASSIC_BC_Bloodmyst", "Leveling", "Bloodmyst Isle", "WowPro Team", "Alliance", 3)
+local guide = WoWPro:RegisterGuide("CLASSIC_BC_Darkshore", "Leveling", "Darkshore", "WowPro Team", "Alliance", 3)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_19_25_Alliance')
-WoWPro:GuideLevels(guide, 10, 20)
+WoWPro:GuideLevels(guide, 10, 19)
 WoWPro:GuideSteps(guide, function()
 return [[
 R Rut'theran Village|AVAILABLE|3524|M|28.82,41.50|Z|Darnassus|N|Walk into the portal down to Rut'theran.|
@@ -21,11 +21,11 @@ C Buzzbox 827|QID|983|M|36.0,50.0|S|N|Kill and loot the Pygmy Tide Crawlers for 
 C Washed Ashore|QID|3524|M|36,51|N|Clear the murlocs from the Beached Sea Creature and loot the Sea Creatures Bones from it.|
 C How Big a Threat?|QID|984|M|40,53|N|Find the corrupt furbolg camp.|
 C Plagued Lands|QID|2118|M|39,58|U|7586|N|Capture a Rabid Thistle Bear by using the item provided.|
-C Buzzbox 827|QID|983|US|N|Kill and loot the Pygmy Tide Crawlers for the Crawler Legs.|
+C Buzzbox 827|QID|983|M|36.34,58.36|US|N|Kill and loot the Pygmy Tide Crawlers for the Crawler Legs.|
 T Buzzbox 827|QID|983|M|36.66,46.26|N|To Buzzbox 827.|
 A Buzzbox 411|QID|1001|M|36.66,46.26|N|From Buzzbox 827.|PRE|983|
 T Washed Ashore|QID|3524|M|36.6,45.6|N|To Gwennyth Bly'Leggonde.|
-A Washed Ashore|QID|4681|N|From Gwennyth Bly'Leggonde.|PRE|3524|
+A Washed Ashore|QID|4681|M|36.6,45.6|N|From Gwennyth Bly'Leggonde.|PRE|3524|
 T Plagued Lands|QID|2118|M|38.8,43.4|N|To Tharnariun Treetender.|
 A Cleansing of the Infected|QID|2138|M|38.8,43.4|N|From Tharnariun Treetender.|PRE|2118|
 T How Big a Threat?|QID|984|M|39.37,43.48|N|To Terenthis.|
