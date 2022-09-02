@@ -1,0 +1,4 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="Est_HigherLearning.lua"/>
+	<Script file="Est_UnbornValkyr.lua"/>
+</Ui>
