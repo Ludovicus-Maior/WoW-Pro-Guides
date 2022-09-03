@@ -7,8 +7,8 @@ return [[
 ; This is a rewrite and homogenization of existing 19-25 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
 
 ; Darkshore Guide Synchronization Steps
-f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
-h Stormwind City|QID|272|C|Druid|N|Head to the Innkeeper in the trade district and set your hearthstone|
+f Stormwind|AVAILABLE|343|M|70.99,72.55|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
+h Stormwind City|QID|272|C|Druid|M|60.41,75.25|N|Head to the Innkeeper in the trade district and set your hearthstone|
 R Elwynn Forest|AVAILABLE|65|M|32.03,49.18|Z|Elwynn Forest|N|Make your way to the front gate.|TAXI|-Sentinel Hill|
 R Westfall|AVAILABLE|65|M|20.24,80.38|Z|Elwynn Forest|N|Make your way south to Westfall.|TAXI|-Sentinel Hill|
 F Sentinel Hill|AVAILABLE|65|M|66.29,62.13|Z|Stormwind City|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
@@ -28,7 +28,6 @@ F Rut'theran Village|ACTIVE|5061|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back us
 R Darnassus|ACTIVE|5061|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|
 T Aquatic Form|QID|5061|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
 H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|C|Druid|TZ|Stormwind City|
-
 F Stormwind|AVAILABLE|244|N|Fly to Stormwind.|TZ|Stormwind City|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|Elwynn Forest|N|Follow the road east to Redridge Mountains.|
@@ -44,20 +43,18 @@ C The Lost Tools|QID|125|M|41.60,54.70|L|1309|N|Loot the tools from the chest at
 T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|Z|Redridge Mountains|
 T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|Z|Redridge Mountains|
 F Sentinel Hill|ACTIVE|132|M|30.59,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|Z|Redridge Mountains|
-
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|PRE|132|
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Stormwind City|
-T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|Stormwind City|N|To Master Mathias Shaw.|
-A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
+T The Defias Brotherhood|QID|135|M|78.38,70.77|Z|Stormwind City|N|To Master Mathias Shaw.|
+A The Defias Brotherhood|QID|141|M|78.38,70.77|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
 F Sentinel Hill|ACTIVE|141|U|6948|N|Fly or Hearth to Westfall|Z|Stormwind City|M|71.00,72.50|
 
 ; Westfall 18-20
 T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|Westfall|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|Z|Westfall|
 A The People's Militia |QID|13|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|12|Z|Westfall|
-h Sentinel Hill|ACTIVE|65|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|C|Druid|
-
+h Sentinel Hill|ACTIVE|13|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|C|Druid|
 C The Defias Brotherhood|ACTIVE|142|L|1381|S|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |Z|Westfall|T|Defias Messenger|M|45.59,64.99|
 C Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|L|2998|N|Loot the Compass from the chest at this location.|
 l Hops|ACTIVE|116|M|44.40,38.87|L|1274 5|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|Z|Westfall|
@@ -82,7 +79,6 @@ C The Coastal Menace|QID|104|M|35.23,85.47;26.34,66.12|CN|QO|1|N|Old Murk-Eye pa
 C The Coast Isn't Clear|QID|152|M|34.60,84.9;27.1,52.6|QO|3;4|CN|US|N|The Tidehunters and Oracles are at the south end of Longshore. Keep an eye out for Old Murk-Eye to prevent him sneaking up on you.|Z|Westfall|
 C The Coast Isn't Clear|QID|152|M|25.70,49.80;35.80,20.00|CN|QO|2|N|The Warriors are found along the coast between The Quarry and north to Jangolode Mine.|Z|Westfall|
 C The Coast Isn't Clear|QID|152|M|42.00,12.00;57.00,8.30|CN|QO|1|N|Coastrunners are found at the north end of Longshore.|Z|Westfall|
-
 A Captain Sander's Hidden Treasure|QID|136|O|U|1357|N|Start the quest from the map you looted.|Z|Westfall|
 * Captain Sander's Hidden Treasure|QID|136|U|1357|N|Trash the item as it is no longer needed.|Z|Westfall|
 T Captain Sander's Hidden Treasure|M|25.91,47.77|QID|136|N|To Captain Sander's Foot Locker, on the beach guarded by murlocs.|Z|Westfall|
@@ -96,7 +92,6 @@ C The Coast Isn't Clear|QID|152|M|35.00,86.00|Z|Westfall|N|Go further south and 
 T The Coast Isn't Clear|QID|152|M|30.01,86.02|N|To Captain Grayson.|Z|Westfall|
 T The Coastal Menace|QID|104|M|30.01,86.02|N|To Captain Grayson.|Z|Westfall|
 C The Defias Brotherhood|ACTIVE|142|L|1381|US|M|44.48,69.70|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|Z|Westfall|T|Defias Messenger|
-
 H Sentinel Hill|ACTIVE|142|M|52.90,53.63|N|Hearth or run back to Sentinel Hill|Z|Westfall|
 T Red Leather Bandanas|QID|153|M|53.99,52.98|N|To Scout Gillian.|Z|Westfall|
 T The People's Militia|QID|14|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|Westfall|
@@ -104,15 +99,8 @@ T The Defias Brotherhood|QID|142|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|Westfal
 A The Defias Brotherhood|QID|155|M|55.68, 47.51|N|From The Defias Traitor. May have to wait for him to spawn. He takes off running as soon as you accept.|PRE|142|Z|Westfall|
 C The Defias Brotherhood|QID|155|M|42.53,71.69|N|Escort the NPC to the end of Moonbrook. Do not let him die.|Z|Westfall|
 T The Defias Brotherhood|QID|155|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|Westfall|
-A The Defias Brotherhood|QID|166|M|56.3,47.5|N|From Gryan Stoutmantle.|PRE|155|Z|Westfall|
-A Red Silk Bandanas|QID|214|M|56.67,47.34|N|From Scout Riell on top of the tower.|PRE|155|Z|Westfall|
-
 F Stormwind|ACTIVE|399|M|56.55,52.65|N|Fly to Stormwind.|TZ|Stormwind City|Z|Westfall|
 T Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|To Baros Alexston.|
-A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
-A Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
-A Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
-N The Deadmines|S|ACTIVE|214|N|You may do the Deadmines at this point. Be sure to loot the Mysterious Letter off Vancleef.|
 
 F Lakeshire|ACTIVE|116|M|66.28,62.16|Z|Stormwind City|N|Fly to Redridge.|
 t Return to Verner|QID|119|M|30.97,47.27|Z|Redridge Mountains|N|To Verner Osgood.|;if not done elwynn guide --
@@ -120,18 +108,14 @@ t Messenger to Stormwind|QID|121|M|29.99,44.44|Z|Redridge Mountains|N|To Magistr
 A Messenger to Westfall|QID|143|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
 T Dry Times|QID|116|M|26.49,43.95|Z|Redridge Mountains|N|To Barkeep Daniels.|
 L Level 20|LVL|20|N|Grind or run Deadmines until you are level 20|
-
-H Westfall|ACTIVE|166|N|Return to Westfall, fly if your hearthstone isn't ready.|
-t The Defias Brotherhood|QID|166|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|Westfall|
+H Westfall|ACTIVE|143|N|Return to Westfall, fly if your hearthstone isn't ready.|
 T Messenger to Westfall|QID|143|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|Westfall|
 A Messenger to Westfall|QID|144|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|143|Z|Westfall|
-t Red Silk Bandanas|QID|214|M|56.67,47.34|N|Scout Riell on top of the tower.|Z|Westfall|
-
-F Stormwind|AVAILABLE|343|M|56.55,52.65|N|Guide begins with picking up a quest in Stormwind.|
-A Speaking of Fortitude|QID|343|M|45.7,38.4|Z|Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
-T Speaking of Fortitude|QID|343|M|74.2,7.6|Z|Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|LVL|20|
-A Brother Paxton|QID|344|M|74.2,7.5|Z|Stormwind City|PRE|343|N|From Brother Paxton.|LVL|20|
-h Stormwind City|ACTIVE|344|M|52.61,65.71|Z|Stormwind City|N|At Innkeeper Allison.|
+F Stormwind|AVAILABLE|343|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind.|
+A Speaking of Fortitude|QID|343|M|54.98,54.11|Z|Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
+T Speaking of Fortitude|QID|343|M|76.93,30.25|Z|Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|LVL|20|
+A Brother Paxton|QID|344|M|76.93,30.25|Z|Stormwind City|PRE|343|N|From Brother Paxton.|LVL|20|
+h Stormwind City|ACTIVE|344|M|60.45,75.20|Z|Stormwind City|N|At Innkeeper Allison.|
 
 ;Rogue class questchain
 N Mathias and the Defias|QID|2360|M|68.4,70.2|Z|Westfall|N|You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|P|Lockpicking;633;0+70;1|
@@ -244,15 +228,9 @@ A Return the Comb|QID|154|M|81.9,59.3|N|From Blind Mary.|PRE|149|Z|Duskwood|
 C The Night Watch|QID|56|M|79,70|N|Kill mobs here until you finish this quest.|Z|Duskwood|
 T The Night Watch|QID|56|M|73.56,46.86|N|To Commander Althea Ebonlocke.|Z|Duskwood|
 T Return the Comb|QID|154|M|75.77,45.29|N|To Madame Eva.|Z|Duskwood|
-
 F Stormwind|AVAILABLE|3765|N|Fly to Stormwind|M|77.50, 44.30|Z|Duskwood|
-T Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
-T Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
-T Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
 A The Corruption Abroad|QID|3765|M|21.40,55.79|Z|Stormwind City|N|From Argos Nightwhisper.|LEAD|1275|
-
 A Mathias and the Defias|QID|2360|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest. Details of this quest is on the 20-21 Redridge guide.|C|Rogue|
-
 A The Tome of Valor|QID|1793|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|
 T The Tome of Valor|QID|1793|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Tome of Valor|QID|1649|C|Paladin|U|6776|N|Click the Tome to get the follow up quest.|PRE|1793|
