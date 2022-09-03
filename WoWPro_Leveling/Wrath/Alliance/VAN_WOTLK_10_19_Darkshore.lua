@@ -138,7 +138,7 @@ A Onu|QID|948|PRE|947|M|37.3, 43.7|N|From Barithras Moonshade.|
 T Tharnariun's Hope|QID|2139|M|38.84,43.42|N|To Tharnariun Treetender.|
 A The Absent Minded Prospector|QID|729|M|37.5,41.9|N|From Archaeologist Hollee.|
 L Level 16|C|Druid|LVL|16;-1720|N|Make sure you are within 2 bubbles of level 16 before porting to Moonglade.|
-C Curing the Sick|QID|6124|C|Druid|N|Finish curing the deer.|U|15826|T|Sickly Deer|NC|
+C Curing the Sick|QID|6124|C|Druid|N|Finish curing the deer.|U|15826|T|Sickly Deer|NC|US|
 T Curing the Sick|QID|6124|C|Druid|M|56.21,30.62|Z|Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|
 A Power over Poison|QID|6125|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6124|
 F Rut'theran Village|AVAILABLE|26|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.
@@ -148,11 +148,11 @@ T Power over Poison|QID|6125|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl B
 A A Lesson to Learn|QID|26|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker. This begins your class quest line to learn Aquatic form.|LVL|16|
 P Moonglade|ACTIVE|26|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|
 T A Lesson to Learn|QID|26|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|
-A Trial of the Lake|QID|29|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.|PRE|27|
+A Trial of the Lake|QID|29|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.|PRE|26|
 R Lake Elune'ara|ACTIVE|29|C|Druid|M|52.72,37.91|Z|Moonglade|N|Run to this rock ledge and JUMP into the water. Make sure you jump or you will take falling damage.|
 C Trial of the Lake|QID|29|C|Druid|N|Search the lake bed for a Shrine Bauble. They can be anywhere in the water. There is a fissure at the bottom of the lake to replenish your breath with.\nOnce you have the Bauble, make your way to the Shrine of Remulos (NW of the lake) and use it within the boundaries of the Shrine. The Bauble has a 5 minute timer attached to it.|U|15877|
-T Trial of the Lake|QID|29|C|Druid|M|36.51,40.12|N|To Tajarri. The quest timer continues running until you speak with her.\n** You will fail the quest if the timer expires.|
-A Trial of the Sea Lion|QID|272|C|Druid|M|36.51,40.12|N|From Tajarri.|PRE|29|
+T Trial of the Lake|QID|29|C|Druid|M|36.51,40.12|Z|Moonglade|N|To Tajarri. The quest timer continues running until you speak with her.\n** You will fail the quest if the timer expires.|
+A Trial of the Sea Lion|QID|272|C|Druid|M|36.51,40.12|Z|Moonglade|N|From Tajarri.|PRE|29|
 F Rut'theran Village|ACTIVE|272|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
 F Auberdine|ACTIVE|272|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
@@ -162,14 +162,13 @@ A Beached Sea Creature|QID|4728|PRE|4681|M|36.08,70.92|N|Surrounded by level 15 
 C WANTED: Murkdeep!|QID|4740|M|36.3,76.5|N|Before you start clearing here is whats going to happen. After you clear the camp out you will stand near the bonfire. The first wave of murlocs will be three level 12 coastrunners, no big deal. The second wave will be two level 15 warriors, no big deal. The third and hardest wave is level 19 Murkdeep and a level 16 hunter. Once you drink up, stand near the bonfire and complete the event. Group up if you can.|T|Murkdeep|
 T Grove of the Ancients|QID|952|M|43.5, 76.3|N|To Onu.|
 T Onu|QID|948|M|43.5,76.3|N|To Onu.|
-A The Master's Glaive|QID|944|N|From Onu.|PRE|948|
-C The Master's Glaive|QID|944|M|39.23,85.49|U|5251|N|After you see the quest complete, use your Phial of Scrying.|NC|
-T The Master's Glaive|QID|944|M|39.23,85.49|N|Click on the Bowl of Scrying to speak with Onu.|
+A The Master's Glaive|QID|944|M|43.5,76.3|N|From Onu.|PRE|948|
+C The Master's Glaive|QID|944|M|39.23,85.49|N|After you see the quest complete, use your Phial of Scrying.|NC|
+T The Master's Glaive|QID|944|M|39.23,85.49|N|Click on the Bowl of Scrying to speak with Onu.|U|5251|
 A The Twilight Camp|QID|949|N|From Onu through the scrying bowl.|PRE|944|
-C The Twilight Camp|QID|949|M|38.55,86.05|N|Click the book on the podium beside the Disciple. The one beside the Thug is the wrong one.|NC|
-T The Twilight Camp|QID|949|M|38.55,86.05|N|To Twilight Tome.|
+T The Twilight Camp|QID|949|M|38.55,86.05|N|Click the book on the podium beside the Disciple. The one beside the Thug is the wrong one.|NC||
 A Return to Onu|QID|950|M|38.55,86.05|N|From Twilight Tome.|PRE|949|
-N Leftover quest item|QID|950|N|As you no longer need it, you can safely destroy the Phial of Scrying to free up bag space.|
+* Leftover quest item|ACTIVE|-950|AVAILABLE|-950|N|As you no longer need it, you can safely destroy the Phial of Scrying to free up bag space.|U|5251|
 L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|The Twilight around here have a small chance to drop the book, turn in is in ironforge which we will head to later. Skip if you're not interested.|
 A The Powers Below|QID|968|M|38.64,87.33|U|5352|N|Click the book to accept the quest.|
 T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
@@ -236,9 +235,9 @@ C Mathystra Relics|QID|951|M|59.55,15.66|QO|1|S|N|Look for the relics on the gro
 C Gyromast's Retrieval|QID|2098|QO|1|M|58.45,13.34|N|Head east of Gelkak Gyromast and slay Giant Foreststrider until you get Top of Gelkak's Key.|
 T Gyromast's Retrieval|QID|2098|M|56.7, 13.5|N|To Gelkak Gyromast.|
 A Gyromast's Revenge|QID|2078|PRE|2098|M|56.7, 13.5|N|From Gelkak Gyromast.|
-C Gyromast's Revenge|QID|2078|M|55.8,18.2|QO|1|N|Robot will attack you as you are about to finish quest. Be ready. He is a level 20 elite. You will probably need a group.|
+C Gyromast's Revenge|QID|2078|M|55.8,18.2|QO|1|N|Robot will attack you as you are about to finish quest. Be ready. He is a level 20.|
 T Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|To Gelkak Gyromast.|
-N Trash the key|QID|951|N|Destroy Gyromast's Key, it is useless and wastes precious bag space. Skip this step when done.|
+* Leftover quest item|ACTIVE|-2078|AVAILABLE|-2078|N|As you no longer need it, you can safely destroy the Gyromast's Key to free up bag space.|U|7442|
 C Mathystra Relics|QID|951|M|59.55,15.66|QO|1|US|N|Look for the relics on the ground in the area of the Ruins of Mathystra.|NC|
 H Auberdine|ACTIVE|4763|N|Hearth or run back to Auberdine.|
 T The Blackwood Corrupted|QID|4763|M|37.40,40.13|N|To Thundris Windweaver|
