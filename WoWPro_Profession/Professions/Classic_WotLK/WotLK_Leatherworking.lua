@@ -20,7 +20,7 @@ return [[
 ;   Guide Contains Zone IDs - Z|1446;Tanaris|, Z|1944;Hellfire Peninsula|IZ|3483|, Z|1954;SilvermoonCity|, Z|1947;TheExodar|, Z|1955;ShattrathCity|, Z|Dalaran City|IZ|4395|
 ;	(PRERELEASE) Updated to Classic - Wraith of the Lich King splits / new format on 23-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-N This Guide|QID|165000001|N|is for Wraith of the Lich King in CLASSIC only. *** Vanilla - TBC - >WotLK<- not done yet, pre release file ***\nAlso ASSUMES you have the appropriate Skill|
+N This Guide|QID|165000001|N|is for Wrath of the Lich King in CLASSIC only. *** Vanilla - TBC - >WotLK<- not done yet, pre release file ***\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|165000002|N|In our Discord #WotLK-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Shopping List|QID|165000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Classic 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 

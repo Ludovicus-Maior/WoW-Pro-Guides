@@ -178,18 +178,10 @@ T Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|Z|Redridge Mountains|
 H Stormwind City|ACTIVE|347|N|Hearth, or otherwise return to Stormwind.|
 T Rethban Ore|QID|347|M|49.6,40.3|Z|Elwynn Forest|N|To Brother Paxton in Northshire.|LVL|20|
 A Return to Kristoff|QID|346|M|49.6,40.3|Z|Elwynn Forest|N|From Brother Paxton in Northshire.|PRE|347|LVL|20|
-= Train|ACTIVE|346|M|22.46,52.12|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Druid|
-= Train|ACTIVE|346|M|61.21,16.35|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Hunter|
-= Train|ACTIVE|346|M|38.86,81.39|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Mage|
-= Train|ACTIVE|346|M|44.82,37.96|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Paladin|
-= Train|ACTIVE|346|M|44.82,37.96|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Priest|
-= Train|ACTIVE|346|M|76.26,55.84|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Rogue|
-= Train|ACTIVE|346|M|61.78,83.73|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Shaman|
-= Train|ACTIVE|346|M|29.35,73.41|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warlock|
-= Train|ACTIVE|346|M|76.26,55.84|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warrior|
-T Return to Kristoff|QID|346|M|45.8,38.6|Z|Stormwind City|N|To Brother Kristoff in Cathedral Square.|LVL|20|
-F Darkshire|ACTIVE|145|M|62.25,62.26;66.28,62.13|CS|Z|Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|
-F Lakeshire|AVAILABLE|163|M|62.25,62.26;66.28,62.13|CS|Z|Stormwind City|N|Fly to Lakeshire.|TAXI|-Darkshire|
+= Train|ACTIVE|346|N|If needed, Don't forget to train while you are in town. (check step off manually)|
+T Return to Kristoff|QID|346|M|54.98,54.08|Z|Stormwind City|N|To Brother Kristoff in Cathedral Square.|LVL|20|
+F Darkshire|ACTIVE|145|M|71.03,72.62|Z|Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|
+F Lakeshire|AVAILABLE|163|M|71.03,72.62|Z|Stormwind City|N|Fly to Lakeshire.|TAXI|-Darkshire|
 R Duskwood|ACTIVE|145|M|6.39,91.51|N|Run to Duskwood.|TAXI|-Darkshire|
 R Darkshire|ACTIVE|145|M|74.76,46.11|Z|Duskwood|N|Follow the road to Darkshire.|TAXI|-Darkshire|
 f Darkshire|QID|116|M|77.50,44.30|Z|Duskwood|N|Get the flight path from Felicia Maline.|
@@ -246,16 +238,22 @@ T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|P
 A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
 
 N Sell junk and repair|AVAILABLE|1078|S|N|Hold onto any Lean Wolf Flanks you currently have. We'll need 10 for a cooking quest later on, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables.|
-A Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
+A Retrieval for Mauren|QID|1078|M|53.09,86.60|Z|Stormwind City|N|To Collin Mauren.|
 R Deeprun Tram|AVAILABLE|288|N|Run to the Deeprun Tram|M|68.50, 31.50|Z|Stormwind City|
 R Tinker Town|AVAILABLE|288|N|Take the tram to Ironforge.|
-A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
 T The Test of Righteousness|QID|1653|M|52.6,36.8|Z|Dun Morogh|N|To Jordan Stilwell right outside of the gates of Ironforge.|C|Paladin|
 A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|Dun Morogh|N|From Jordan Stilwell. We won't follow the rest of this quest as it takes you all over the world to complete, but you now have the quest in your logs to complete as you see fit.|C|Paladin|PRE|1653|
 
 ; Wetlands 22-23
-F Menethil Harbor|AVAILABLE|288|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|TAXI|Menethil Harbor|
+F Menethil Harbor|AVAILABLE|455|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|TAXI|Menethil Harbor|
 F Thelsamar|AVAILABLE|455|M|55.49,47.72|Z|Ironforge|N|Fly to Thelsamar (or run to Loch Modan from Dun Morogh if you do not have the Thelsamar FP yet)|TAXI|-Menethil Harbor|
+f Ironforge|AVAILABLE|455|M|55.49,47.72|Z|Ironforge|N|Get the Ironforge flight path|TAXI|-Ironforge|
+R Gates of Ironforge|AVAILABLE|455|M|15.0,86.10|Z|Ironforge|N|Head to the exit of Ironforge.|TAXI|-Wetlands|
+R Kharanos|AVAILABLE|455|M|47.16,45.39|Z|Dun Morogh|N|Take the road down to the bottom of the hill and go south into Kharanos.|TAXI|-Wetlands|
+R South Gate Pass|AVAILABLE|455|M|86.3,51.3|Z|Dun Morogh|N|Head to the South Gate Pass tunnel|TAXI|-Wetlands|
+R Valley of Kings|AVAILABLE|455|M|21.55,66.25|Z|Loch Modan|N|Continue through the tunnel onto Loch Modan|TAXI|-Wetlands|
+R Thelsamar|AVAILABLE|455|M|32.96,49.44|Z|Loch Modan|N|Follow the road north to Thelsamar.|TAXI|-Wetlands|
+f Thelsamar|AVAILABLE|455|M|33.9,50.95|Z|Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson.|TAXI|-Wetlands|
 A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.|TAXI|-Menethil Harbor|
 R Wetlands|AVAILABLE|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z|Loch Modan|TAXI|-Menethil Harbor|
 C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|TAXI|-Menethil Harbor|Z|Wetlands|
@@ -270,6 +268,7 @@ A The Greenwarden|QID|463|M|10.9,59.66|N|From First Mate Fitzsimmons.|Z|Wetlands
 A The Third Fleet|QID|288|M|10.9,59.66|N|From First Mate Fitzsimmons.|Z|Wetlands|
 h Deepwater Tavern|ACTIVE|288|M|10.7,60.96|N|Make Deepwater Tavern your home location.|Z|Wetlands|
 B Flagon of Dwarven Honeymead|ACTIVE|288|M|10.7,60.96|L|2594|N|Buy a Flagon of Dwarven honeymead from Inkeeper Helbrek. Hint: It's on the second page.|Z|Wetlands|
+T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|Wetlands|N|To Archaeologist Flagongut.|
 A The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|Wetlands|N|From Archaeologist Flagongut.|PRE|942|
 T The Third Fleet|QID|288|M|10.9,59.66|N|To First Mate Fitzsimmons.|Z|Wetlands|
 A Digging Through the Ooze|QID|470|M|11.8,58|N|From Sida.|Z|Wetlands|
