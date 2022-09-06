@@ -21,10 +21,6 @@ return [[
 ;           *RETAIL Numbers - NEED Classic WotLK ZIDs* - Z|125;Dalaran!Crystalsong Forest|IZ|4395|, Z|114;Borean Tundra|IZ|3537|, Z|117;Howling Fjord|IZ|495|
 ;  Copied / apended files for PRE WOTLK splits on 23-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 ) (This is NOT tested)
 
-; ***********************************  not complete, needs to be adjusted to proper fomatting!! ************************************************************
-; |Z| ZIDs need channging to Classic numbers...
-N THIS GUIDE|QID|773000000|N| IS NOT CHANGED OVER TO Classic Formatting!!  DO NOT USE!! |
-
 N This Guide|QID|773000001|N|Covers Classic Inscription content in Wraith of the Lich King. Guide rewritten to new format.|
 N PLEASE Report any issues|QID|773000002|N|In our Discord #WotLK-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Herbalist|P|Herbalism;182;*;0|N|If you are a herbalist, running around for these mats will level you up, currently no guide in the works for herbalism.|
@@ -41,141 +37,132 @@ l [item=13464/Golden Sansam]|QID|773000004|L|13464 180|ITEM|13464|N|You'll need 
 l [item=22787/Ragveil]|QID|773000004|L|22787 500|ITEM|22787|N|You'll need about 500 Ragveil, and/or combination of [item=22790/Ancient Lichen], [item=22785/Felweed], [item=22786/Dreaming Glory], [item=22789/Terocone], [item=22791/Netherbloom], [item=22792/Nightmare Vine], or [item=22793/Mana Thistle].|
 l [item=36904/Tiger Lily]|QID|773000004|L|36904 450|ITEM|36904|N|You'll need about 450 Tiger Lily, and/or combination of [item=36901/Goldclover], [item=36903/Adders Tongue], [item=36907/Talandras Rose], [item=37921/Deadnettle], [item=39970/Fire Leaf], [item=36905/Lichbloom], or [item=36906/Icethorn].|
 B [item=39354/Light Parchment]|QID|773000004|L|39354 81|ITEM|39354|N|You'll need about 81 Light Parchments, buy as you need if you wish.|
-B [item=10648/Common Parchment]|QID|773000004|L|10648 84|ITEM|10648|N|You'll need about 85 Common Parchments, buy as you need if you wish.|
-B [item=39501/Heavy Parchment]|QID|773000004|L|39501 50|ITEM|39501|N|You'll need about 50 Heavy Parchments, buy as you need if you wish.|
-B [item=39502/Resilient Parchment]|QID|773000004|L|39502 180|ITEM|39502|N|You'll need about 180 Resilient Parchments, buy as you need if you wish.|
+B [item=10648/Common Parchment]|QID|773000004|L|10648 89|ITEM|10648|N|You'll need about 89 Common Parchments, buy as you need if you wish.|
+B [item=39501/Heavy Parchment]|QID|773000004|L|39501 90|ITEM|39501|N|You'll need about 90 Heavy Parchments, buy as you need if you wish.|
+B [item=39502/Resilient Parchment]|QID|773000004|L|39502 280|ITEM|39502|N|You'll need about 280 Resilient Parchments, buy as you need if you wish.|
 B [item=39505/Virtuoso Inking Set]|QID|773000004|P|Inscription;773;*;0;75|L|39505 1|ITEM|39505|N|You'll need to buy this once, as you need it for your profession.|
 N Shopping List|QID|773000006|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-= Learn [spell=45357/Inscription]|QID|773045357|M|35.6,69.2|Z|1454|IZ|1637|SPELL|Inscription;45357|LVL|5|N|Learn from Jo'mah, in Valley of Spirits, Orgrimmar.|FACTION|Horde|
-= Learn [spell=45357/Inscription]|QID|773045357|M|61.6,58.6|Z|1458|IZ|1497|SPELL|Inscription;45357|LVL|5|N|Learn from Margaux Parchley, in The Apothecarium, Undercity.|FACTION|Horde|
-= Learn [spell=45357/Inscription]|QID|773045357|M|29.2,21.8|Z|1456|IZ|1638|SPELL|Inscription;45357|LVL|5|N|Learn from Poshken Hardbinder, in The Spirit Rise, Thunder Bluff.|FACTION|Horde|
-= Learn [spell=45357/Inscription]|QID|773045357|M|69.6,23.6|Z|1954|IZ|3487|SPELL|Inscription;45357|LVL|5|N|Learn from Zantasia, in Court of the Sun, Silvermoon City.|FACTION|Horde|
-= Learn [spell=45357/Inscription]|QID|773045357|M|49.8,74.0|Z|1453|IZ|1519|SPELL|Inscription;45357|LVL|5|N|Learn from Catarina Stanford, in The Mage Quarter, Stormwind City.|FACTION|Alliance|
-= Learn [spell=45357/Inscription]|QID|773045357|M|61.6,44.8|Z|1455|IZ|1537|SPELL|Inscription;45357|LVL|5|N|Learn from Elise Brightletter, in The Great Forge, Ironforge.|FACTION|Alliance|
-= Learn [spell=45357/Inscription]|QID|773045357|M|56.6,31.6|Z|1457|IZ|1657|SPELL|Inscription;45357|LVL|5|N|Learn from Feyden Darkin, in Craftsmen's Terrace, Darnassus.|FACTION|Alliance|
-= Learn [spell=45357/Inscription]|QID|773045357|M|39.8,38.8|Z|1947|IZ|3557|SPELL|Inscription;45357|LVL|5|N|Learn from Thoth, in The Crystal Hall, The Exodar.|FACTION|Alliance|
-= Learn [spell=45357/Inscription]|QID|773045357|SPELL|Inscription;45357|LVL|5|N|Learn from any Inscription Trainers in any Major City.|
-
+= Learn [spell=45357/Inscription]|QID|773045357|M|35.6,69.2|Z|1454|IZ|1637|LVL|5|T|Jo'mah|N|Learn from Jo'mah, in Valley of Spirits, Orgrimmar.|FACTION|Horde|
+= Learn [spell=45357/Inscription]|QID|773045357|M|61.6,58.6|Z|1458|IZ|1497|LVL|5|T|Margaux Parchley|N|Learn from Margaux Parchley, in The Apothecarium, Undercity.|FACTION|Horde|
+= Learn [spell=45357/Inscription]|QID|773045357|M|29.2,21.8|Z|1456|IZ|1638|LVL|5|T|Poshken Hardbinder|N|Learn from Poshken Hardbinder, in The Spirit Rise, Thunder Bluff.|FACTION|Horde|
+= Learn [spell=45357/Inscription]|QID|773045357|M|69.6,23.6|Z|1954|IZ|3487|LVL|5|T|Zantasia|N|Learn from Zantasia, in Court of the Sun, Silvermoon City.|FACTION|Horde|
+= Learn [spell=45357/Inscription]|QID|773045357|M|49.8,74.0|Z|1453|IZ|1519|LVL|5|T|Catarina Stanford|N|Learn from Catarina Stanford, in The Mage Quarter, Stormwind City.|FACTION|Alliance|
+= Learn [spell=45357/Inscription]|QID|773045357|M|61.6,44.8|Z|1455|IZ|1537|LVL|5|T|Elise Brightletter|N|Learn from Elise Brightletter, in The Great Forge, Ironforge.|FACTION|Alliance|
+= Learn [spell=45357/Inscription]|QID|773045357|M|56.6,31.6|Z|1457|IZ|1657|LVL|5|T|Feyden Darkin|N|Learn from Feyden Darkin, in Craftsmen's Terrace, Darnassus.|FACTION|Alliance|
+= Learn [spell=45357/Inscription]|QID|773045357|M|39.8,38.8|Z|1947|IZ|3557|LVL|5|T|Thoth|N|Learn from Thoth, in The Crystal Hall, The Exodar.|FACTION|Alliance|
+= Learn [spell=45357/Inscription]|QID|773045357|LVL|5|N|Learn from any Inscription Trainers in any Major City.|
 M Mill Herbs|QID|773173057|P|Inscription;773;0+25;1|N|Mill any and all herbs you have to create pigments.|
-M [item=39469/Moonglow Ink]|QID|773052843|P|Inscription;773;0+45;1|ITEM|39469|CRAFT|52843 44|MATS|39151 2|N|Make upto 44 of these, you will need them later.|
-= Learn Recipe|QID|773000251|P|Inscription;773;0+25|RECIPE|165564|N|Learn [spell=165564/Research Moonglow Ink] Recipe from Trainer.|
-= Learn Recipe|QID|773000351|P|Inscription;773;0+35|RECIPE|48248|N|Learn [spell=48248/Scroll of Recall] Recipe from Trainer.|
-= Learn Recipe|QID|773000352|P|Inscription;773;0+35|RECIPE|52739|N|Learn [spell=52739/Enchanting Vellum] Recipe from Trainer.|
-M [item=37118/Scroll of Recall]|QID|773048248|P|Inscription;773;0+75;1|ITEM|37118|CRAFT|48248 30|MATS|39469 1;39354 1|N|Alternate: [item=38682/Enchanting Vellum] if you have not use for the recall scrolls. Right-Click to skip.|
-M [item=38682/Enchanting Vellum]|QID|773052739|P|Inscription;773;0+75;1|ITEM|38682|CRAFT|52739 30|MATS|39469 1;39354 2|
-= Learn Recipe|QID|773000751|P|Inscription;773;0+75|RECIPE|53462|N|Learn [spell=53462/Midnight Ink] Recipe from Trainer.|
-= Learn Recipe|QID|773000752|P|Inscription;773;0+75|RECIPE|165304|N|Learn [spell=165304/Research Midnight Ink] Recipe from Trainer.|
-M [item=39774/Midnight Ink]|QID|773053462|P|Inscription;773;0+80;1|ITEM|39774|CRAFT|53462 36|MATS|39334 2|N|Make all you can, until step clears at 80 points.|
-= Learn Recipe|QID|773000801|P|Inscription;773;0+80|RECIPE|92026|N|Learn [spell=92026/Vanishing Powder] Recipe from Trainer.|
-M [item=64670/Vanishing Powder]|QID|773092026|P|Inscription;773;0+100;1|ITEM|64670|CRAFT|92026 25|MATS|39774 1|N|Alternate: At 85 - Turn all your [item=43103/Verdant Pigment] into [item=43115/Hunters Ink], if you milled your own herbs. Then make [item=37168/Mysterious Tarot], right click to skip to those steps.|
-= Learn Recipe|QID|773000851|P|Inscription;773;0+85|RECIPE|57703|N|Learn [spell=57703/Hunters Ink] Recipe from Trainer.|
-= Learn Recipe|QID|773000852|P|Inscription;773;0+85|RECIPE|48247|N|Learn [spell=48247/Mysterious Tarot] Recipe from Trainer.|
-M [item=43115/Hunters Ink]|QID|773057703|P|Inscription;773;0+90;1|ITEM|43115|CRAFT|57703 25|MATS|43103 1|N|Might need to mill your herbs to create [item=43103/Verdant Pigment].|
-M [item=37168/Mysterious Tarot]|QID|773048247|P|Inscription;773;0+125;1|ITEM|37168|CRAFT|48247 25|MATS|43115 1;39354 1|N|When you run out of ink, right click to continue.|
+M [item=37101/Ivory Ink]|QID|773052738|P|Inscription;773;0+18;1|ITEM|37101|CRAFT|52738 17|MATS|39151 1|
+M [item=1180/Scroll of Stamina]|QID|773045382|P|Inscription;773;0+35;1|ITEM|1180|CRAFT|45382 17|MATS|37101 1;39354 1|
+= Learn Recipe|QID|773000351|P|Inscription;773;0+35|RECIPE|52843|N|Learn [spell=52843/Moonglow Ink] Recipe from Trainer.|
+= Learn Recipe|QID|773000352|P|Inscription;773;0+35|RECIPE|52739|N|Learn [spell=52739/Armor Vellum] Recipe from Trainer.|
+M [item=39469/Moonglow Ink]|QID|773052843|P|Inscription;773;0+53;1|ITEM|39469|CRAFT|52843 22|MATS|39151 2|
+M [item=38682/Armor Vellum]|QID|773052739|P|Inscription;773;0+75;1|ITEM|38682|CRAFT|52739 22|MATS|39469 1;39354 2|
+= Learn [spell=45358/Journeyman Scribe]|QID|773045358|M|35.6,69.2|Z|1454|IZ|1637|P|Inscription;773;0+50|LVL|10|T|Jo'mah|N|Learn from Jo'mah, in Valley of Spirits, Orgrimmar.|FACTION|Horde|
+= Learn [spell=45358/Journeyman Scribe]|QID|773045358|M|61.6,58.6|Z|1458|IZ|1497|P|Inscription;773;0+50|LVL|10|T||N|Learn from Margaux Parchley, in The Apothecarium, Undercity.|FACTION|Horde|
+= Learn [spell=45358/Journeyman Scribe]|QID|773045358|M|29.2,21.8|Z|1456|IZ|1638|P|Inscription;773;0+50|LVL|10|T||N|Learn from Poshken Hardbinder, in The Spirit Rise, Thunder Bluff.|FACTION|Horde|
+= Learn [spell=45358/Journeyman Scribe]|QID|773045358|M|69.6,23.6|Z|1954|IZ|3487|P|Inscription;773;0+50|LVL|10|T||N|Learn from Zantasia, in Court of the Sun, Silvermoon City.|FACTION|Horde|
+= Learn [spell=45358/Journeyman Scribe]|QID|773045358|M|49.8,74.0|Z|1453|IZ|1519|P|Inscription;773;0+50|LVL|10|T||N|Learn from Catarina Stanford, in The Mage Quarter, Stormwind City.|FACTION|Alliance|
+= Learn [spell=45358/Journeyman Scribe]|QID|773045358|M|61.6,44.8|Z|1455|IZ|1537|P|Inscription;773;0+50|LVL|10|T||N|Learn from Elise Brightletter, in The Great Forge, Ironforge.|FACTION|Alliance|
+= Learn [spell=45358/Journeyman Scribe]|QID|773045358|M|56.6,31.6|Z|1457|IZ|1657|P|Inscription;773;0+50|LVL|10|T||N|Learn from Feyden Darkin, in Craftsmen's Terrace, Darnassus.|FACTION|Alliance|
+= Learn [spell=45358/Journeyman Scribe]|QID|773045358|M|39.8,38.8|Z|1947|IZ|3557|P|Inscription;773;0+50|LVL|10|T||N|Learn from Thoth, in The Crystal Hall, The Exodar.|FACTION|Alliance|
+= Learn [spell=45358/Journeyman Scribe]|QID|773045358|P|Inscription;773;0+50|LVL|10|N|Learn from any Inscription Trainers in any Major City.|
+= Learn Recipe|QID|773000751|P|Inscription;773;0+75|RECIPE|53462|N|Learn [spell=53462/Midnight Ink] Recipe from Trainer. Also, Learn all the Glyphs you can.|
+M [item=39774/Midnight Ink]|QID|773053462|P|Inscription;773;0+80;1|ITEM|39774|CRAFT|53462 21|MATS|39334 2|N|Make all you can, until step clears at 80 points.|
+M Make Assorted Glyphs|QID|773057022|P|Inscription;773;0+100|CRAFT|57022 20|MATS|39774 1;39354 1|N|Make any Glyph that is Orange for you, this is just an example step.  Once they turn yellow, learn new Glyph Recipes and repeat.|
 = Learn Recipe|QID|773001001|P|Inscription;773;0+100|RECIPE|57704|N|Learn [spell=57704/Lions Ink] Recipe from Trainer.|
-= Learn Recipe|QID|773001002|P|Inscription;773;0+100|RECIPE|165456|N|Learn [spell=165456/Research Lions Ink] Recipe from Trainer.|
-M [item=43116/Lions Ink]|QID|773057704|P|Inscription;773;0+105;1|ITEM|43116|CRAFT|57704 63|MATS|39338 1|N|You'll need 63 Inks for later steps.  Might need to mill your herbs to create [item=39338/Golden Pigment].|
-L [item=43116/Lions Ink]|QID|773057704|P|Inscription;773;0+105|L|43116 63|N|You'll need 63 Lions Inks for later steps!  Make a few more.|
-M [item=141644/Assorted Glyphs]|QID|773165564|P|Inscription;773;0+109;1|ITEM|141644|CRAFT|165564 4|MATS|39469 3;39354 3|N|Create Research: Moonglow Ink.|
-M [item=141644/Assorted Glyphs]|QID|773165304|P|Inscription;773;0+112;1|ITEM|141644|CRAFT|165304 3|MATS|39774 3;39354 3|N|Create Research: Midnight Ink.|
-M [item=141644/Assorted Glyphs]|QID|773165564|P|Inscription;773;0+116;1|ITEM|141644|CRAFT|165456 4|MATS|43116 3;39354 3|N|Create Research: Lion's Ink.|
-M Various Glyph, that use [item=43116/Lions Ink]|QID|773165564|P|Inscription;773;0+125;1|MATS|43116 3;39354 1|N|Create 9 Glyphs of... that use Lion's Ink.|
+M [item=43116/Lions Ink]|QID|773057704|P|Inscription;773;0+105;1|ITEM|43116|CRAFT|57704 40|MATS|39338 2|N|You'll need 40 Inks for later steps.  Might need to mill your herbs to create [item=39338/Golden Pigment].|
+L [item=43116/Lions Ink]|QID|773057704|P|Inscription;773;0+105|L|43116 40|N|You'll need 40 Lions Inks for later steps!  Make a few more.|
+M Make Assorted Glyphs|QID|773057157|P|Inscription;773;0+125;1|ITEM|43417|CRAFT|57157 20|MATS|43116 1;10648 1|N|Make any Glyph that is Orange for you, this is just an example step.  Once they turn yellow, learn new Glyph Recipes and repeat.|
+= Learn [spell=45359/Expert Scribe]|QID|773045359|M|35.6,69.2|Z|1454|IZ|1637|P|Inscription;773;0+125|LVL|20|T|Jo'mah|N|Learn from Jo'mah, in Valley of Spirits, Orgrimmar.|FACTION|Horde|
+= Learn [spell=45359/Expert Scribe]|QID|773045359|M|61.6,58.6|Z|1458|IZ|1497|P|Inscription;773;0+125|LVL|20|T|Margaux Parchley|N|Learn from Margaux Parchley, in The Apothecarium, Undercity.|FACTION|Horde|
+= Learn [spell=45359/Expert Scribe]|QID|773045359|M|29.2,21.8|Z|1456|IZ|1638|P|Inscription;773;0+125|LVL|20|T|Poshken Hardbinder|N|Learn from Poshken Hardbinder, in The Spirit Rise, Thunder Bluff.|FACTION|Horde|
+= Learn [spell=45359/Expert Scribe]|QID|773045359|M|69.6,23.6|Z|1954|IZ|3487|P|Inscription;773;0+125|LVL|20|T|Zantasia|N|Learn from Zantasia, in Court of the Sun, Silvermoon City.|FACTION|Horde|
+= Learn [spell=45359/Expert Scribe]|QID|773045359|M|49.8,74.0|Z|1453|IZ|1519|P|Inscription;773;0+125|LVL|20|T|Catarina Stanford|N|Learn from Catarina Stanford, in The Mage Quarter, Stormwind City.|FACTION|Alliance|
+= Learn [spell=45359/Expert Scribe]|QID|773045359|M|61.6,44.8|Z|1455|IZ|1537|P|Inscription;773;0+125|LVL|20|T|Elise Brightletter|N|Learn from Elise Brightletter, in The Great Forge, Ironforge.|FACTION|Alliance|
+= Learn [spell=45359/Expert Scribe]|QID|773045359|M|56.6,31.6|Z|1457|IZ|1657|P|Inscription;773;0+125|LVL|20|T|Feyden Darkin|N|Learn from Feyden Darkin, in Craftsmen's Terrace, Darnassus.|FACTION|Alliance|
+= Learn [spell=45359/Expert Scribe]|QID|773045359|M|39.8,38.8|Z|1947|IZ|3557|P|Inscription;773;0+125|LVL|20|T|Thoth|N|Learn from Thoth, in The Crystal Hall, The Exodar.|FACTION|Alliance|
+= Learn [spell=45359/Expert Scribe]|QID|773045359|P|Inscription;773;0+125|LVL|20|N|Learn from any Inscription Trainers in any Major City.|
 = Learn Recipe|QID|773001251|P|Inscription;773;0+125|RECIPE|57706|N|Learn [spell=57706/Dawnstar Ink] Recipe from Trainer.|
 = Learn Recipe|QID|773001252|P|Inscription;773;0+125|RECIPE|59480|N|Learn [spell=59480/Strange Tarot] Recipe from Trainer.|
-M [item=43117/Dawnstar Ink]|QID|773057706|P|Inscription;773;0+142;1|ITEM|43117|CRAFT|57706 10|MATS|43104 1|N|Turn all your [item=43104/Burnt Pigment] into inks. If you run out of Pigments, right-click this step to continue.|
-M [item=44142/Strange Tarot]|QID|773059480|P|Inscription;773;0+142;1|ITEM|44142|CRAFT|59480 10|MATS|43117 2;39354 1|N|When you run out of ink, right click to continue.|
-M Various Glyph, that use [item=43116/Lions Ink]|QID|773165564|P|Inscription;773;0+150;1|MATS|43116 3;39354 1|N|Create 8 Glyphs of... that use Lion's Ink.|
+M [item=43117/Dawnstar Ink]|QID|773057706|P|Inscription;773;0+130;1|ITEM|43117|CRAFT|57706 10|MATS|43104 1|N|Turn all your [item=43104] into inks. If you run out of Pigments, right-click this step to continue.|
+M [item=43117/Dawnstar Ink]|QID|773057706|P|Inscription;773;0+145;1|ITEM|43117|L|43104 -1|CRAFT|57706 10|MATS|43104 1|N|Turn all your [item=43104] into inks.|
+M Make Assorted Glyphs|QID|773057269|P|Inscription;773;0+147;1|ITEM|42465|CRAFT|57269 17|MATS|43116 1;10648 1|N|Make any Glyph that is Orange for you, this is just an example step.  Once they turn yellow, learn new Glyph Recipes and repeat.|
+M [item=44142/Strange Tarot]|QID|773059480|P|Inscription;773;0+150;1|ITEM|44142|CRAFT|59480 10|MATS|43117 2;43116 1;10648 1|N|When you run out of [item=43117], right click to continue.|
 = Learn Recipe|QID|773001501|P|Inscription;773;0+150|RECIPE|57707|N|Learn [spell=57707/Jadefire Ink] Recipe from Trainer.|
-= Learn Recipe|QID|773001502|P|Inscription;773;0+150|RECIPE|165460|N|Learn [spell=165460/Research Jadefire Ink] Recipe from Trainer.|
-M [item=43118/Jadefire Ink]|QID|773057707|P|Inscription;773;0+155;1|ITEM|43118|CRAFT|57707 40|MATS|39339 1|N|Turn all your [item=39339/Emerald Pigment] into inks. If you run out of Pigments, right-click this step to continue.|
-= Learn Recipe|QID|773001551|P|Inscription;773;0+155|RECIPE|50614|N|Learn [spell=50614/Scroll of Stamina III] Recipe from Trainer.|
-M [item=4422/Scroll of Stamina III]|QID|773050614|P|Inscription;773;0+160;1|ITEM|4422|CRAFT|50614 5|MATS|43118 1;39354 2|
-= Learn Recipe|QID|773001601|P|Inscription;773;0+160|RECIPE|50606|N|Learn [spell=50606/Scroll of Versatility III] Recipe from Trainer.|
-M [item=4424/Scroll of Versatility III]|QID|773050606|P|Inscription;773;0+165;1|ITEM|4424|CRAFT|50606 5|MATS|43118 1;39354 2|
-= Learn Recipe|QID|773001651|P|Inscription;773;0+165|RECIPE|50599|N|Learn [spell=50599/Scroll of Intellect III] Recipe from Trainer.|
-M [item=4419/Scroll of Intellect III]|QID|773050599|P|Inscription;773;0+170;1|ITEM|4419|CRAFT|50599 5|MATS|43118 1;39354 2|
-= Learn Recipe|QID|773001701|P|Inscription;773;0+170|RECIPE|58486|N|Learn [spell=58486/Scroll of Strength III] Recipe from Trainer.|
-M [item=4426/Scroll of Strength III]|QID|773058486|P|Inscription;773;0+175;1|ITEM|4426|CRAFT|58486 5|MATS|43118 1;39354 2|
+M [item=43118/Jadefire Ink]|QID|773057707|P|Inscription;773;0+155;1|ITEM|43118|L|39339 -2|CRAFT|57707 40|MATS|39339 2|N|Turn all your [item=39339] into inks. If you run out of Pigments, right-click this step to continue.|
+M Make Assorted Glyphs|QID|773057165|P|Inscription;773;0+195;1|ITEM|43424|CRAFT|57165 40|MATS|43118 1;10648 1|N|Make any Glyph that is Orange for you, this is just an example step.  Once they turn yellow, learn new Glyph Recipes and repeat.|
 = Learn Recipe|QID|773001751|P|Inscription;773;0+175|RECIPE|57708|N|Learn [spell=57708/Royal Ink] Recipe from Trainer.|
-= Learn Recipe|QID|773001752|P|Inscription;773;0+175|RECIPE|58476|N|Learn [spell=58476/Scroll of Agility III] Recipe from Trainer.|
-= Learn Recipe|QID|773001753|P|Inscription;773;0+175|RECIPE|59487|N|Learn [spell=59487/Arcane Tarot] Recipe from Trainer.|
-M [item=43119/Royal Ink]|QID|773057708|P|Inscription;773;0+176;1|ITEM|43119|CRAFT|57707 20|MATS|43105 1|N|Turn all your [item=43105/Indigo Pigment] into inks. If you run out or do not have any, right-click this step to continue.|
-M [item=4425/Scroll of Agility III]|QID|773058476|P|Inscription;773;0+180;1|ITEM|4425|CRAFT|58476 5|MATS|43118 1;39354 2|
-M [item=141644/Assorted Glyphs]|QID|773165460|P|Inscription;773;0+185;1|ITEM|141644|CRAFT|165460 5|MATS|43118 3;39354 3|N|Create Research: Jadefire Ink.|
-M [item=44161/Arcane Tarot]|QID|773059487|P|Inscription;773;0+200;1|ITEM|44161|CRAFT|59487 15|MATS|43119 2;39354 1|N|Make as many Arcane Tarots you can, then switch to any Glyph that are ORANGE, using whatever Inks you have.|
+= Learn Recipe|QID|773001752|P|Inscription;773;0+175|RECIPE|59487|N|Learn [spell=59487/Arcane Tarot] Recipe from Trainer.|
+M [item=43119/Royal Ink]|QID|773057708|P|Inscription;773;0+176;1|ITEM|43119|L|43105 -1|CRAFT|57707 20|MATS|43105 1|N|Turn all your [item=43105] into inks. If you run out or do not have any, right-click this step to continue.|
+M [item=44161/Arcane Tarot]|QID|773059487|P|Inscription;773;0+200;1|ITEM|44161|CRAFT|59487 5|MATS|43119 2;43118 1;10648 1|N|Make as many Arcane Tarots you can, when you run out of [item=43119], right-click to continue.|
+M Make Assorted Glyphs|QID|773057165|P|Inscription;773;0+200;1|ITEM|43424|CRAFT|57165 7|MATS|43118 1;10648 1|N|Make any Glyph that is Yellow for you, this is just an example step.|
+= Learn [spell=45360/Artisan Scribe]|QID|773045360|M|35.6,69.2|Z|1454|IZ|1637|P|Inscription;773;0+200|LVL|35|T|Jo'mah|N|Learn from Jo'mah, in Valley of Spirits, Orgrimmar.|FACTION|Horde|
+= Learn [spell=45360/Artisan Scribe]|QID|773045360|M|61.6,58.6|Z|1458|IZ|1497|P|Inscription;773;0+200|LVL|35|T|Margaux Parchley|N|Learn from Margaux Parchley, in The Apothecarium, Undercity.|FACTION|Horde|
+= Learn [spell=45360/Artisan Scribe]|QID|773045360|M|29.2,21.8|Z|1456|IZ|1638|P|Inscription;773;0+200|LVL|35|T|Poshken Hardbinder|N|Learn from Poshken Hardbinder, in The Spirit Rise, Thunder Bluff.|FACTION|Horde|
+= Learn [spell=45360/Artisan Scribe]|QID|773045360|M|69.6,23.6|Z|1954|IZ|3487|P|Inscription;773;0+200|LVL|35|T|Zantasia|N|Learn from Zantasia, in Court of the Sun, Silvermoon City.|FACTION|Horde|
+= Learn [spell=45360/Artisan Scribe]|QID|773045360|M|49.8,74.0|Z|1453|IZ|1519|P|Inscription;773;0+200|LVL|35|T|Catarina Stanford|N|Learn from Catarina Stanford, in The Mage Quarter, Stormwind City.|FACTION|Alliance|
+= Learn [spell=45360/Artisan Scribe]|QID|773045360|M|61.6,44.8|Z|1455|IZ|1537|P|Inscription;773;0+200|LVL|35|T|Elise Brightletter|N|Learn from Elise Brightletter, in The Great Forge, Ironforge.|FACTION|Alliance|
+= Learn [spell=45360/Artisan Scribe]|QID|773045360|M|56.6,31.6|Z|1457|IZ|1657|P|Inscription;773;0+200|LVL|35|T|Feyden Darkin|N|Learn from Feyden Darkin, in Craftsmen's Terrace, Darnassus.|FACTION|Alliance|
+= Learn [spell=45360/Artisan Scribe]|QID|773045360|M|39.8,38.8|Z|1947|IZ|3557|P|Inscription;773;0+200|LVL|35|T|Thoth|N|Learn from Thoth, in The Crystal Hall, The Exodar.|FACTION|Alliance|
+= Learn [spell=45360/Artisan Scribe]|QID|773045360|P|Inscription;773;0+200|LVL|35|N|Learn from any Inscription Trainers in any Major City.|
 = Learn Recipe|QID|773002001|P|Inscription;773;0+200|RECIPE|57709|N|Learn [spell=57709/Celestial Ink] Recipe from Trainer.|
-= Learn Recipe|QID|773002002|P|Inscription;773;0+200|RECIPE|165461|N|Learn [spell=165461/Research Celestial Ink] Recipe from Trainer.|
-= Learn Recipe|QID|773002003|P|Inscription;773;0+200|RECIPE|60336|N|Learn [spell=60336/Scroll of Recall II] Recipe from Trainer.|
-M [item=43120/Celestial Ink]|QID|773057709|P|Inscription;773;0+205;1|ITEM|43120|CRAFT|57709 34|MATS|39340 2|N|Turn all your [item=39340/Violet Pigment] into inks. You will need about 34 Inks.|
-M [item=44314/Scroll of Recall II]|QID|773060336||P|Inscription;773;0+215;1|ITEM|44314|CRAFT|60336 10|MATS|43120 1;39354 1|
-= Learn Recipe|QID|773002151|P|Inscription;773;0+215|RECIPE|50600|N|Learn [spell=50600/Scroll of Intellect IV] Recipe from Trainer.|
-M [item=10308/Scroll of Intellect IV]|QID|773050600|P|Inscription;773;0+220;1|ITEM|10308|CRAFT|50600 5|MATS|43120 1;39354 2|
-= Learn Recipe|QID|773002201|P|Inscription;773;0+220|RECIPE|58487|N|Learn [spell=58487/Scroll of Strength IV] Recipe from Trainer.|
-M [item=10310/Scroll of Strength IV]|QID|773058487|P|Inscription;773;0+225;1|ITEM|10310|CRAFT|58487 5|MATS|43120 1;39354 2|
+M [item=43120/Celestial Ink]|QID|773057709|P|Inscription;773;0+205;1|ITEM|43120|CRAFT|57709 55|MATS|39340 2|N|Turn all your [item=39340] into inks. You will need about 55 Inks.|
+M Make Assorted Glyphs|QID|773057154|P|Inscription;773;0+245;1|ITEM|43414|CRAFT|57154 40|MATS|43120 1;39501 1|N|Make any Glyph that is Orange for you, this is just an example step.  Once they turn yellow, learn new Glyph Recipes and repeat.|
 = Learn Recipe|QID|773002251|P|Inscription;773;0+225|RECIPE|57710|N|Learn [spell=57710/Fiery Ink] Recipe from Trainer.|
-= Learn Recipe|QID|773002252|P|Inscription;773;0+225|RECIPE|58478|N|Learn [spell=58478/Scroll of Agility IV] Recipe from Trainer.|
-= Learn Recipe|QID|773002253|P|Inscription;773;0+225|RECIPE|59491|N|Learn [spell=59491/Shadowy Tarot] Recipe from Trainer.|
-M [item=43121/Fiery Ink]|QID|773057710|P|Inscription;773;0+226;1|ITEM|43121|CRAFT|57710 20|MATS|43106 1|N|Turn all your [item=43106/Ruby Pigment] into inks. If you run out or do not have any, right-click this step to continue.|
-M [item=10309/Scroll of Agility IV]|QID|773058478|P|Inscription;773;0+230;1|ITEM|10309|CRAFT|58478 5|MATS|43120 1;39354 2|
-M [item=141644/Assorted Glyphs]|QID|773165460|P|Inscription;773;0+233;1|ITEM|141644|CRAFT|165461 3|MATS|43120 3;39354 3|N|Create Research: Celestial Ink.|
-M [item=44163/Shadowy Tarot]|QID|773059491|P|Inscription;773;0+250;1|ITEM|44163|CRAFT|59491 17|MATS|43121 2;39354 1|N|Make as many Shadowy Tarots you can, then switch to any Glyph that are ORANGE, using whatever Inks you have.|
+M [item=43121/Fiery Ink]|QID|773057710|P|Inscription;773;0+226;1|ITEM|43121|L|43106 -1|CRAFT|57710 20|MATS|43106 1|N|Turn all your [item=43106] into inks. If you run out or do not have any, right-click this step to continue.|
+= Learn Recipe|QID|773002351|P|Inscription;773;0+235|RECIPE|59488|N|Learn [spell=59488/Weapon Vellum II] Recipe from Trainer.|
+M [item=43121/Fiery Ink]|QID|773057710|P|Inscription;773;0+245;1|ITEM|43121|L|43106 -1|CRAFT|57710 20|MATS|43106 1|N|Turn all your [item=43106] into inks.|
+M [item=39350/Weapon Vellum II]|QID|773059488|P|Inscription;773;0+250;1|ITEM|39350|CRAFT|59488 5|MATS|43120 1;43121 1;39501 2|N|Alternately Make more Yellow Glyphs till step clears.|
 = Learn Recipe|QID|773002501|P|Inscription;773;0+250|RECIPE|57711|N|Learn [spell=57711/Shimmering Ink] Recipe from Trainer.|
-= Learn Recipe|QID|773002502|P|Inscription;773;0+250|RECIPE|165463|N|Learn [spell=165463/Research Shimmering Ink] Recipe from Trainer.|
-M [item=43122/Shimmering Ink]|QID|773057711|P|Inscription;773;0+255;1|ITEM|43123|CRAFT|57711 42|MATS|39341 2|N|Turn all your [item=39341/Silvery Pigment] into inks. You will need about 42 Inks.|
-= Learn Recipe|QID|773002551|P|Inscription;773;0+255|RECIPE|50608|N|Learn [spell=50608/Scroll of Versatility V] Recipe from Trainer.|
-M [item=27501/Scroll of Versatility V]|QID|773050608|P|Inscription;773;0+260;1|ITEM|27501|CRAFT|50608 5|MATS|43122 1;39354 2|
-= Learn Recipe|QID|773002601|P|Inscription;773;0+260|RECIPE|50601|N|Learn [spell=50601/Scroll of Intellect V] Recipe from Trainer.|
-M [item=27499/Scroll of Intellect V]|QID|773050601|P|Inscription;773;0+265;1|ITEM|27499|CRAFT|50601 5|MATS|43122 1;39354 2|
-= Learn Recipe|QID|773002651|P|Inscription;773;0+265|RECIPE|58488|N|Learn [spell=58488/Scroll of Strength V] Recipe from Trainer.|
-M [item=27503/Scroll of Strength V]|QID|773058488|P|Inscription;773;0+270;1|ITEM|27503|CRAFT|58488 5|MATS|43122 1;39354 2|
-= Learn Recipe|QID|773002701|P|Inscription;773;0+270|RECIPE|58480|N|Learn [spell=58480/Scroll of Agility V] Recipe from Trainer.|
-M [item=27498/Scroll of Agility V]|QID|773058480|P|Inscription;773;0+275;1|ITEM|27498|CRAFT|58480 5|MATS|43122 1;39354 2|
+M [item=43122/Shimmering Ink]|QID|773057711|P|Inscription;773;0+255;1|ITEM|43123|L|39341 -2|CRAFT|57711 42|MATS|39341 2|N|Turn all your [item=39341] into inks. You will need about 42 Inks.|
+= Learn Recipe|QID|773002551|P|Inscription;773;0+255|RECIPE|50608|N|Learn [spell=50608/Scroll of Spirit V] Recipe from Trainer.|
+M [item=27501/Scroll of Spirit V]|QID|773050608|P|Inscription;773;0+260;1|ITEM|27501|CRAFT|50608 5|MATS|43122 1;39501 2|
+M Make Assorted Glyphs|QID|773057272|P|Inscription;773;0+275;1|ITEM|42468|CRAFT|57272 15|MATS|43122 1;39501 1|N|Make any Glyph that is Orange for you, this is just an example step.  Once they turn yellow, learn new Glyph Recipes and repeat.|
 = Learn Recipe|QID|773002751|P|Inscription;773;0+275|RECIPE|57712|N|Learn [spell=57712/Ink of the Sky] Recipe from Trainer.|
-M [item=43123/Ink of the Sky]|QID|773057712|P|Inscription;773;0+290;1|ITEM|43123|CRAFT|57712 20|MATS|43107 1|N|Turn all your [item=43107/Sapphire Pigment] into inks. If you run out or do not have any, right-click this step to continue.|
-M [item=141644/Assorted Glyphs]|QID|773165463|P|Inscription;773;0+291;1|ITEM|141644|CRAFT|165463 4|MATS|43122 3;39354 3|N|Create Research: Shimmering Ink 4 times, then switch to any Glyph that are ORANGE, using whatever Inks you have.|
-= Learn Recipe|QID|773002901|P|Inscription;773;0+290|RECIPE|50618|N|Learn [spell=50618/Scroll of Stamina VI] Recipe from Trainer.|
-M [item=33461/Scroll of Stamina VI]|QID|773050618|P|Inscription;773;0+300;1|ITEM|33461|CRAFT|50618 10|MATS|43122 1;39354 2|
-
-; Appended Retail Outland....
-= Learn [spell=264496/Outland Inscription]|QID|773264496|AVAILABLE|10553^10554|SPELL|Outland Inscription;264496|LVL|5|N|Learn from Inscription Trainer in Shattrath City.\n[color=FF0000]NOTE: [/color]Use caution, as if you have NOT chosen a Faction to join in Shattrath you can use either Trainer, BUT once you choose you can only use your Faction's Trainer.| ; QID 10553^10554 are your choice QIDs for factions.|
-= Learn [spell=264496/Outland Inscription]|QID|773264496|M|36.2,43.8|Z|1955|IZ|3703|SPELL|Outland Inscription;264496|LVL|5|N|Learn Outland Inscription from Recorder Lidio, Aldor Rise, Shattrath City.|REP|Aldor;932|
-= Learn [spell=264496/Outland Inscription]|QID|773264496|M|43.6,90.8|Z|1955|IZ|3703|SPELL|Outland Inscription;264496|LVL|5|N|Learn Outland Inscription from the bookcase, Scryer's Tier, Shattrath City.|REP|Scryers;934|
-= Learn [spell=264496/Outland Inscription]|QID|773264496|M|52.2,36.0|Z|1944|IZ|3483|SPELL|Outland Inscription;264496|LVL|5|T|Neferatti|N|Learn Inscriptionfrom Neferatti, Thrallmar, Hellfire Peninsula.|FACTION|Horde|
-
-M Mill Herbs|QID|773173057|P|Inscription;773;0+325;1|N|Mill any and all herbs you have to create pigments.|
-M [item=43124/Ethereal Ink]|QID|773057713|P|Inscription;773;0+325|L|43124 126|ITEM|43124|CRAFT|57713 126|MATS|39342 2|N|Make upto 126 of these, you will need them later.|
-= Learn Recipe|QID|773000251|P|Inscription;773;0+325|RECIPE|57714|N|Learn [spell=57714/Darkflame Ink] Recipe from Trainer.|
-= Learn Recipe|QID|773000252|P|Inscription;773;0+325|RECIPE|59496|N|Learn [spell=59496/Book of Clever Tricks] Recipe from Trainer.|
-= Learn Recipe|QID|773000253|P|Inscription;773;0+325|RECIPE|59503|N|Learn [spell=59503/Greater Darkmoon Card] Recipe from Trainer.|
-M [item=43125/Darkflame Ink]|QID|773057714|P|Inscription;773;0+333;1|ITEM|43125|CRAFT|57714 30|MATS|43108 1|N|Just make as many as you can, do not worry if step completes. If it doesn't, then just right click to continue.|
-M [item=43667/Book of Clever Tricks]|QID|773059496|P|Inscription;773;0+338;1|ITEM|43667|CRAFT|59496 20|MATS|43125 6;39354 10|N|Just make until step clears, if you run out just right click to continue.|
-M [item=141644/Assorted Glyphs]|QID|773165464|P|Inscription;773;0+340;1|ITEM|141644|CRAFT|165464 4|MATS|43124 3;39354 3|N|Create Research: Ethereal Ink. \n[color=FF0000]NOTE: [/color]Since Shadowlands this will ONLY teach 2 or 3 recipes.  Unfortunately, to get your Skill higher, you will have to make [item=44317/Greater Darkmoon Card] which will then only get you to maybe 60.|
-M [item=44317/Greater Darkmoon Card]|QID|773059503|P|Inscription;773;0+375;1|ITEM|44317|CRAFT|59503 20|MATS|43125 3;21886 3;39354 1|N|Not sure how high you can go, but stop if you are not getting any points.|
-
-; Appened Retail WotLK....
-= Learn [spell=264498/Northrend Inscription]|QID|773264498|M|41.56,37.21|Z|125;Dalaran!Crystalsong Forest|IZ|4395|SPELL|Northrend Inscription;264498|T|Professor Pallin|N|Learn from Professor Pallin, The Scribes' Sacellum, in Dalaran, Crystalsong Forest.  NOT! Legion, Also, BUY all Recipes available.|
-= Learn [spell=264498/Northrend Inscription]|QID|773264498|M|41.26,53.97|Z|114;Borean Tundra|IZ|3537|SPELL|Northrend Inscription;264498|T|Adelene Sunlance|N|Learn from Adelene Sunlance, in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
-= Learn [spell=264498/Northrend Inscription]|QID|773264498|M|57.6,71.6|Z|114;Borean Tundra|IZ|3537|SPELL|Northrend Inscription;264498|T|Tink Brightbolt|N|Learn from Tink Brightbolt, in Valiance Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Alliance|
-= Learn [spell=264498/Northrend Inscription]|QID|773264498|M|79.36,29.25|Z|117;Howling Fjord|IZ|495|SPELL|Northrend Inscription;264498|T|Booker Kells|N|Learn from Booker Kells, in Vengeance Landing, Howling Fjord. Also, BUY all Recipes available.|FACTION|Horde|
-= Learn [spell=264498/Northrend Inscription]|QID|773264498|M|58.2,62.4|Z|117;Howling Fjord|IZ|495|SPELL|Northrend Inscription;264498|T|Mindri Dinkles|N|Learn from Mindri Dinkles, in Valgarde, Howling Fjord. Also, BUY all Recipes available.|FACTION|Alliance|
-= Learn [spell=264498/Northrend Inscription]|QID|773264498|SPELL|Northrend Inscription;264498|N|Learn Northrend Inscription in Borean Tundra, Howling Fjord or Dalaran. (Once you get to an area that has a local trainer, an arrow will popup).|
-M Mill Herbs|QID|773173057|P|Inscription;773;0+400;1|N|Mill any and all herbs you have to create pigments.|
-M [item=43126/Ink of the Sea]|QID|773057715|P|Inscription;773;0+400|L|43126 95|ITEM|43126|CRAFT|57715 126|MATS|39343 2|N|Make upto 95 of these, you will need them later.|
-= Learn Recipe|QID|773000251|P|Inscription;773;0+425|RECIPE|50620|N|Learn [spell=50620/Scroll of Stamina VIII] Recipe from Trainer.|
-= Learn Recipe|QID|773000252|P|Inscription;773;0+425|RECIPE|59504|N|Learn [spell=59504/Darkmoon Card of the North] Recipe from Trainer.|
-M [item=37094/Scroll of Stamina VIII]|QID|773050620|P|Inscription;773;0+430|ITEM|37094|CRAFT|50620 5|MATS|43126 1;39354 2|
-= Learn Recipe|QID|773000301|P|Inscription;773;0+430|RECIPE|50611|N|Learn [spell=50611/Scroll of Versatility VIII] Recipe from Trainer.|
-M [item=37098/Scroll of Versatility VIII]|QID|773050611|P|Inscription;773;0+435|ITEM|37098|CRAFT|50611 5|MATS|43126 1;39354 2|
-= Learn Recipe|QID|773000351|P|Inscription;773;0+435|RECIPE|50604|N|Learn [spell=50604/Scroll of Intellect VIII] Recipe from Trainer.|
-M [item=37092/Scroll of Intellect VIII]|QID|773050604|P|Inscription;773;0+440|ITEM|37092|CRAFT|50604 5|MATS|43126 1;39354 2|
-= Learn Recipe|QID|773000401|P|Inscription;773;0+440|RECIPE|58491|N|Learn [spell=58491/Scroll of Strength VIII] Recipe from Trainer.|
-M [item=43466/Scroll of Strength VIII]|QID|773058491|P|Inscription;773;0+445|ITEM|43466|CRAFT|58491 5|MATS|43126 1;39354 2|
-= Learn Recipe|QID|773000451|P|Inscription;773;0+445|RECIPE|58483|N|Learn [spell=58483/Scroll of Agility VIII] Recipe from Trainer.|
-M [item=43464/Scroll of Agility VIII]|QID|773058483|P|Inscription;773;0+455|ITEM|43464|CRAFT|58483 15|MATS|43126 1;39354 2|
-M [item=141644/Assorted Glyphs]|QID|773165465|P|Inscription;773;0+460;1|ITEM|141644|CRAFT|165465 5|MATS|43126 3;39354 3|N|Create Research: Ink of the Sea. \n[color=FF0000]NOTE: [/color]Since Shadowlands this will ONLY teach 3 or 4 recipes.  Unfortunately, to get your Skill higher, you will have to make [item=44318/Darkmoon Card of the North] which will then only get you to maybe 75.|
-M [item=44318/Darkmoon Card of the North]|QID|773059504|P|Inscription;773;0+475;1|ITEM|44318|CRAFT|59504 15|MATS|43127 6;35625 1;39354 1|N|Material: [item=35625/Eternal Life] was not included in Shopping List.|
-
-N Congratualations!|QID|773000010|N|On reaching 450 in Inscription.|
+M [item=43123/Ink of the Sky]|QID|773057712|P|Inscription;773;0+290;1|ITEM|43123|L|43107 -1|CRAFT|57712 20|MATS|43107 1|N|Turn all your [item=43107] into inks. If you run out or do not have any, right-click this step to continue.|
+M Make Assorted Glyphs|QID|773057213|P|Inscription;773;0+290;1|ITEM|43541|CRAFT|57213 15|MATS|43122 1;39501 1|N|Make any Glyph that is Orange for you, this is just an example step.  Once they turn yellow, learn new Glyph Recipes and repeat.|
+= Learn [spell=45361/Master Scribe]|QID|773043561|P|Inscription;773;0+275|LVL|50|N|Learn from Inscription Trainer in Shattrath City.\n[color=FF0000]NOTE: [/color]Use caution, as if you have NOT chosen a Faction to join in Shattrath you can use either Trainer, BUT once you choose you can only use your Faction's Trainer.|
+= Learn [spell=45361/Master Scribe]|QID|773043561|M|36.2,43.8|Z|1955|IZ|3703|P|Inscription;773;0+275|LVL|50|N|Learn Master Scribe from Recorder Lidio, Aldor Rise, Shattrath City.|REP|Aldor;932|
+= Learn [spell=45361/Master Scribe]|QID|773043561|M|56.6,74.6|Z|1955|IZ|3703|P|Inscription;773;0+275|LVL|50|N|Learn Master Scribe from Scribe Lanloer, Scryer's Tier, Shattrath City.|REP|Scryers;934|
+= Learn [spell=45361/Master Scribe]|QID|773043561|M|52.2,36.0|Z|1944|IZ|3483|P|Inscription;773;0+275|LVL|50|T|Neferatti|N|Learn Master Scribe from Neferatti, in Thrallmar, Hellfire Peninsula.|FACTION|Horde|
+= Learn [spell=45361/Master Scribe]|QID|773043561|M|54.0,65.6|Z|1944|IZ|3483|P|Inscription;773;0+275|LVL|50|T|Michael Schwan|N|Learn Master Scribe from Michael Schwan, in Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
+= Learn Recipe|QID|773002901|P|Inscription;773;0+290|RECIPE|57714|N|Learn [spell=57714/Darkflame Ink] Recipe from Trainer.|
+M [item=43124/Ethereal Ink]|QID|773057713|P|Inscription;773;0+325;1|L|39342 -2|ITEM|43124|CRAFT|57713 45|MATS|39342 2|N|You only need about 45 to level to 350.|
+M Make Assorted Glyphs|QID|773056943|P|Inscription;773;0+350;1|ITEM|40896|CRAFT|56943 45|MATS|43124 1;39502 1|N|Make any Glyph that is Orange for you, this is just an example step.  Once they turn yellow, learn new Glyph Recipes and repeat.|
+= Learn [spell=45363/Grand Master Scribe]|QID|773045363|M|41.56,37.21|Z|125|IZ|4395|P|Inscription;773;0+350|LVL|65|T|Professor Pallin|N|Learn from Professor Pallin, The Scribes' Sacellum, in Dalaran, Crystalsong Forest.  NOT! Legion, Also, BUY all Recipes available.|
+= Learn [spell=45363/Grand Master Scribe]|QID|773045363|M|41.26,53.97|Z|114|IZ|3537|P|Inscription;773;0+350|LVL|65|T|Adelene Sunlance|N|Learn from Adelene Sunlance, in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=45363/Grand Master Scribe]|QID|773045363|M|57.6,71.6|Z|114|IZ|3537|P|Inscription;773;0+350|LVL|65|T|Tink Brightbolt|N|Learn from Tink Brightbolt, in Valiance Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=45363/Grand Master Scribe]|QID|773045363|M|79.36,29.25|Z|117|IZ|495|P|Inscription;773;0+350|LVL|65|T|Booker Kells|N|Learn from Booker Kells, in Vengeance Landing, Howling Fjord. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=45363/Grand Master Scribe]|QID|773045363|M|58.2,62.4|Z|117|IZ|495|P|Inscription;773;0+350|LVL|65|T|Mindri Dinkles|N|Learn from Mindri Dinkles, in Valgarde, Howling Fjord. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=45363/Grand Master Scribe]|QID|773045363|P|Inscription;773;0+350|LVL|65|N|Learn Grand Master Scribe in Borean Tundra, Howling Fjord or Dalaran. (Once you get to an area that has a local trainer, an arrow will popup).|
+= Learn Recipe|QID|773003501|P|Inscription;773;0+350|RECIPE|57715|N|Learn [spell=57715/Ink of the Sea] Recipe from Trainer.|
+M [item=43126/Ink of the Sea]|QID|773057715|P|Inscription;773;0+355;1|L|43126 90|ITEM|43126|CRAFT|57715 90|MATS|39343 2|N|Make upto 90 of these, you will need them later.|
+= Learn Recipe|QID|773003551|P|Inscription;773;0+355|RECIPE|50610|N|Learn [spell=50610/Scroll of Spirit VII] Recipe from Trainer.|
+M [item=37097/Scroll of Spirit VII]|QID|773050610|P|Inscription;773;0+360;1|ITEM|37097|CRAFT|50610 5|MATS|43126 1;39502 2|
+= Learn Recipe|QID|773003601|P|Inscription;773;0+360|RECIPE|50603|N|Learn [spell=50603/Scroll of Intellect VII] Recipe from Trainer.|
+M [item=37091/Scroll of Intellect VII]|QID|773050603|P|Inscription;773;0+365;1|ITEM|37091|CRAFT|50603 5|MATS|43126 1;39502 2|
+= Learn Recipe|QID|773003651|P|Inscription;773;0+365|RECIPE|58490|N|Learn [spell=58490/Scroll of Strength VII] Recipe from Trainer.|
+M [item=43465/Scroll of Strength VII]|QID|773058490|P|Inscription;773;0+370;1|ITEM|43465|CRAFT|58490 5|MATS|43126 1;39502 2|
+= Learn Recipe|QID|773003701|P|Inscription;773;0+370|RECIPE|58482|N|Learn [spell=58482/Scroll of Agility VII] Recipe from Trainer.|
+M [item=43463/Scroll of Agility VII]|QID|773058482|P|Inscription;773;0+375;1|ITEM|43463|CRAFT|58482 5|MATS|43126 1;39502 2|
+= Learn Recipe|QID|773003751|P|Inscription;773;0+375|RECIPE|57716|N|Learn [spell=57716/Snowfall Ink] Recipe from Trainer.|
+M [item=43127/Snowfall Ink]|QID|773057716|P|Inscription;773;0+380;1|L|43109 -2|ITEM|43127|CRAFT|57716 20|MATS|43109 2|N|Turn all your [item=43109] into inks. If you run out or do not have any, right-click this step to continue.|
+M [item=44928/Glyph of Focus]|QID|773062162|P|Inscription;773;0+385;1|ITEM|44928|CRAFT|62162 7|MATS|43126 1;39502 1|N|Make any Glyph that is Orange for you, this is just an example step.  Once they turn yellow, learn new Glyph Recipes and repeat.|
+= Learn Recipe|QID|773003851|P|Inscription;773;0+385|RECIPE|61177|N|Learn [spell=61177/Northrend Inscription Research] Recipe from Trainer.|
+M Northrend Inscription|QID|773061177|P|Inscription;773;0+386;1|CRAFT|61177 1|MATS|43126 3;43127 1;39502 5|
+M Make Discovered Glyphs|QID|773056943|P|Inscription;773;0+400;1|CRAFT|57234 25|MATS|43126 1;39502 1|N|Make any Glyph that is Orange for you, this is just an example step.  Once they turn yellow, Discover new Glyph Recipes and repeat.|
+= Learn Recipe|QID|773004001|P|Inscription;773;0+400|RECIPE|50620|N|Learn [spell=50620/Scroll of Stamina VIII] Recipe from Trainer.|
+M [item=37094/Scroll of Stamina VIII]|QID|773050620|P|Inscription;773;0+405;1|ITEM|37094|CRAFT|50620 5|MATS|43126 1;39502 2|
+= Learn Recipe|QID|773004051|P|Inscription;773;0+405|RECIPE|50611|N|Learn [spell=50611/Scroll of Spirit VIII] Recipe from Trainer.|
+ M [item=37098/Scroll of Spirit VIII]|QID|773050611|P|Inscription;773;0+410;1|ITEM|37098|CRAFT|50611 5|MATS|43126 1;39502 2|
+= Learn Recipe|QID|773004101|P|Inscription;773;0+410|RECIPE|50604|N|Learn [spell=50604/Scroll of Intellect VIII] Recipe from Trainer.|
+M [item=37092/Scroll of Intellect VIII]|QID|773050604|P|Inscription;773;0+415;1|ITEM|37092|CRAFT|50604 5|MATS|43126 1;39502 2|
+= Learn Recipe|QID|773004151|P|Inscription;773;0+415|RECIPE|58491|N|Learn [spell=58491/Scroll of Strength VIII] Recipe from Trainer.|
+M [item=43466/Scroll of Strength VIII]|QID|773058491|P|Inscription;773;0+420;1|ITEM|43466|CRAFT|58491 5|MATS|43126 1;39502 2|
+= Learn Recipe|QID|773004201|P|Inscription;773;0+420|RECIPE|58483|N|Learn [spell=58483/Scroll of Agility VIII] Recipe from Trainer.|
+M [item=43464/Scroll of Agility VIII]|QID|773058483|P|Inscription;773;0+430;1|ITEM|43464|CRAFT|58483 13|MATS|43126 1;39502 2|
+N Congratualations!|QID|773000010|N|On reaching 430 in Inscription. Finish off with doing [spell=61177].|
 ]]
 end)
