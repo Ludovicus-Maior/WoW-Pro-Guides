@@ -219,7 +219,6 @@ C Northfold Manor|QID|681|M|33.95,33.00|Z|Arathi Highlands|N|Kill the Syndicate 
 
 R Hillsbrad Foothills|QID|555|M|19.86,29.17|Z|Arathi Highlands|N|Run North-West to Hillsbrad.|
 f Southshore|QID|555|M|49.34,52.28|Z|Hillsbrad Foothills|N|Get the flightpath from Darla Harris.|
-B Soothing Spices|QID|555|M|48.94,55.03|Z|Hillsbrad Foothills|N|Buy one Soothing Spices from Micha Yance.|L|3713 1|
 B Fine Thread|QID|565|M|48.94,55.03|Z|Hillsbrad Foothills|L|2321|N|Just in case you forgot. You buy from Micha Yance.|ITEM|2321|
 T Southshore|QID|538|M|50.57,57.08|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
 A Preserving Knowledge|QID|540|M|50.57,57.09|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|538|
