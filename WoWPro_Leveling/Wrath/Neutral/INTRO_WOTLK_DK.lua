@@ -88,7 +88,7 @@ T The Crypt of Remembrance|QID|12715|M|54.29,57.30|Z|124|N|To Prince Keleseth in
 A Nowhere To Run And Nowhere To Hide|QID|12719|M|54.29,57.30|Z|124|N|From Prince Keleseth.|PRE|12715|
 A Lambs To The Slaughter|QID|12722|M|54.67,57.45|Z|124|N|From Baron Rivendare in the alcove behind Prince Keleseth.|PRE|12715|
 K Lambs To The Slaughter|QID|12722|M|57.80,61.80|Z|124|QO|1;2|S|
-C The Plaguebringer's Request|QID|12716|M|57.80,61.80|L|39328 10|ITEM|39328|N|Any New Avalon resident|S|
+C The Plaguebringer's Request|QID|12716|M|57.80,61.80|L|39328 10|ITEM|39328|N|Any Citizen of New Avalon or Scarlet Crusade Soldier|S|
 C The Plaguebringer's Request|QID|12716|M|57.55,62.34;57.87,61.85|CS|Z|124|L|39324|N|Exit the crypt and head into New Avalon. Make your way into the basement of the New Avalon Inn (first building on your left) and locate the Empty Cauldron.|
 C The Plaguebringer's Request|QID|12716|M|62.03,60.24|Z|124|L|39326|N|Northeast of the inn you'll find the New Avalon Forge.|
 K Mayor Quimby|ACTIVE|12719|M|52.25,71.16|QO|1|N|Mayor Quimby is inside the New Avalon Town Hall to the southwest|
@@ -97,8 +97,9 @@ K Lambs To The Slaughter|QID|12722|M|57.80,61.80|Z|124|QO|1;2|US|
 C The Plaguebringer's Request|QID|12716|M|57.80,61.80|Z|124|L|39328 10|ITEM|39328|N|Any Citizen of New Avalon or Scarlet Crusade Soldier|US|
 T The Plaguebringer's Request|QID|12716|M|55.89,52.40|Z|124|N|To Noth the Plaguebringer back at Havenshire Farms.|
 A Noth's Special Brew|QID|12717|M|55.89,52.40|Z|124|N|From Noth the Plaguebringer.|PRE|12716|
-T Noth's Special Brew|QID|12717|M|56.23,51.90|Z|124|N|To the Plague Cauldron.|
-N More Skulls For Brew|QID|12718|AVAILABLE|12724|M|56.23,51.90|Z|124|N|This is a repeatable quest now available from the Plague Cauldron.\nYou can exchange 20 Crusader Skulls for 5 Noth's Special Brew.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+T Noth's Special Brew|QID|12717|M|56.15,52.01|Z|124|N|To the Plague Cauldron.|
+N More Skulls For Brew|QID|12718|AVAILABLE|12724|M|56.15,52.01|Z|124|N|This is a repeatable quest now available from the Plague Cauldron.\nYou can exchange 20 Crusader Skulls for 5 Noth's Special Brew (up to a maximum of 20).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+l Crusader Skulls|QID|12718|AVAILABLE|12755|L|39328 60|ITEM|39328|N|Any Citizen of New Avalon or Scarlet Crusade Soldier\n60 is the maximum you can turn in if you don't use the 5 Brews you just got.|S|
 T Nowhere To Run And Nowhere To Hide|QID|12719|M|54.29,57.30|Z|124|N|To Prince Keleseth inside the Crypt of Remembrance.|
 A How To Win Friends And Influence Enemies|QID|12720|M|54.29,57.30|Z|124|N|From Prince Keleseth.|PRE|12719|
 T Lambs To The Slaughter|QID|12722|M|54.67,57.45|Z|124|N|To Baron Rivendare.|
@@ -140,6 +141,8 @@ R Scarlet Overlook|ACTIVE|12754|M|59.70,77.19|Z|124|L|39646|
 K Scarlet Courier|ACTIVE|12754|M|PLAYER|L|39646|N|Use the [color=33fff9]Makeshift Cover[/color] to spawn the Scarlet Courier and kill him.\n[color=FF0000]NOTE: [/color]You only have to be in Scarlet Overlook to do this. There is no exact location.|U|39645|IZ|Scarlet Overlook|
 C Scarlet Courier's Message|QID|12754|M|PLAYER|L|39647|ITEM|39647|N|Scarlet Courier\n[color=FF0000]NOTE: [/color]If he despawned, you can summon and kill him again.|U|39645|IZ|Scarlet Overlook|
 R Scarlet Overlook|ACTIVE|12754|M|59.70,77.19|Z|124|L|39646|N|You need to be in Scarlet Overlook.|
+l Crusader Skulls|QID|12718|AVAILABLE|12755|L|39328 60|ITEM|39328|N|Any Citizen of New Avalon or Scarlet Crusade Soldier\nThis is your last chance to collect any Skulls you need.\n[color=FF0000]NOTE: [/color]You can skip this step if you're not interested.|US|
+
 T Ambush At The Overlook|QID|12754|M|56.25,79.85|Z|124|N|To Orbaz Bloodbane.|
 A A Meeting With Fate|QID|12755|M|56.25,79.85|Z|124|N|From Orbaz Bloodbane.|PRE|12754|
 R King's Harbor|ACTIVE|12755|M|60.53,80.18|Z|124|N|Make your way to the road leading down the hill from Scarlet Overlook.\n[color=FF0000]NOTE: [/color]As long as you are disguised, the guards won't touch you.|
@@ -157,30 +160,34 @@ K An End To All Things...|QID|12779|M|57.03,60.13|Z|124|QO|1;2|N|Summon your dra
 F Death's Breach|ACTIVE|12779|M|52.09,35.07|Z|124|N|Fly back to Death's Breach (or run if you dismounted your dragon).|
 T An End To All Things...|QID|12779|M|53.57,36.88|Z|124|N|To The Lich King.\n[color=FF0000]NOTE: [/color]You must dismount in order to interact with him.|
 A The Lich King's Command|QID|12800|M|53.57,36.88|Z|124|N|From The Lich King.|PRE|12779|
-N More Skulls For Brew|ACTIVE|12800|M|54.67,57.45|Z|124|L|39328 -1|N|This is your last chance to turn in your Crusader Skulls for Noth's Special Brew at the Plague Cauldron.\nYou can exchange 20 Crusader Skulls for 5 Noth's Special Brew.\n[color=FF0000]NOTE: [/color]When you are done, manually check this step off to continue.|NOCACHE|
+N More Skulls For Brew|ACTIVE|12800|M|56.15,52.01|Z|124|L|39328 -1|N|This is your last chance to turn in your Crusader Skulls for Noth's Special Brew at the Plague Cauldron.\nYou can exchange 20 Crusader Skulls for 5 Noth's Special Brew (up to a maximum of 20.)[color=FF0000]NOTE: [/color]When you are done, manually check this step off to continue.|NOCACHE|
+
 R The Noxious Pass|ACTIVE|12800|M|49.60,29.34|Z|124|N|Head west to the tunnel.|
 R The Noxious Glade|ACTIVE|12800|M|47.02,23.02|Z|124|N|Go through the tunnel to the other side.|
 R Browman Mill|ACTIVE|12800|M|39.37,19.71|Z|124|N|Make your way southwest to where the road starts going down the hill between two banners.|
 T The Lich King's Command|QID|12800|M|34.09,30.31|Z|124|N|To Scourge Commander Thalanor.|
-A The Light of Dawn|QID|12801|M|34.09,30.31|Z|124|N|From Scourge Commander Thalanor|PRE|12800|
-C The Light of Dawn|QID|12801|M|38.89,38.26|Z|124|QO|1|N|Wait for the battle to begin.\n[color=FF0000]NOTE: [/color]You don't have to participate to get credit.|
+A The Light of Dawn|QID|12801|M|34.09,30.31|Z|124|N|From Scourge Commander Thalanor.|PRE|12800|
+C The Light of Dawn|QID|12801|M|34.45,31.12|Z|124|N|Speak with Darion Mograine and click "I am ready to start the battle." to start the timer at the top of the screen.\n[color=FF0000]NOTE: [/color]Once the timer has started, manually check this step off to continue.|CHAT|
+C The Light of Dawn|QID|12801|M|38.89,38.26|Z|124|QO|1|N|Wait for the battle to begin.\n[color=FF0000]NOTE: [/color]You don't have to participate to get credit. But, you do need to be in the area of Light's Hope Chapel|
 T The Light of Dawn|QID|12801|M|39.10,39.29|Z|124|N|To Highlord Darion Mograine.\n[color=FF0000]NOTE: [/color]If you waited too long and he despawned, just go back to where the battle began to turn it in.\nOnce the battle begins again, you'll have to wait to the end.|
 A Taking Back Acherus|QID|13165|M|39.10,39.29|Z|124|N|From Highlord Darion Mograine.|PRE|12801|
+* Crusader Skulls|AVAILABLE|9407^10046|N|You cannot use these anymore.|U|39328|
+* Haute Club Membership Card|AVAILABLE|9407^10046|N|These are completely useless.|U|39355|
 P Acherus: The Ebon Hold|ACTIVE|13165|M|PLAYER|N|Use your new Death Gate spell to open a portal to Acherus. Click on the Death Gate to use it.\n[color=FF0000]NOTE: [/color]You may want add it to one of your action bars.|
-T Taking Back Acherus|QID|13165|M|83.43,49.43|Z|124|N|To Highlord Darion Mograine in The Ebon Hold.|
-A The Battle For The Ebon Hold|QID|13166|M|83.43,49.43|Z|124|N|From Highlord Darion Mograine.|PRE|13165|
+T Taking Back Acherus|QID|13165|M|83.43,49.43|Z|1423|N|To Highlord Darion Mograine in The Ebon Hold.|
+A The Battle For The Ebon Hold|QID|13166|M|83.43,49.43|Z|1423|N|From Highlord Darion Mograine.|PRE|13165|
 K The Battle For The Ebon Hold|ACTIVE|13166|QO|1;2|N|Take the portal down to join the fight.[color=FF0000]NOTE: [/color]The NPCs will help you.|
-T The Battle For The Ebon Hold|QID|13166|M|83.43,49.43|Z|124|N|To Highlord Darion Mograine on the upper level.|
-A Where Kings Walk|QID|13188|M|83.43,49.43|Z|124|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Alliance|
-P Stormwind City|ACTIVE|13188|M|83.65,51.33|Z|124|N|Click on the portal to go to Stormwind.|FACTION|Alliance|
-T Where Kings Walk|QID|13188|Z|Stormwind City|M|85.6,31.8|Z|124|N|To King Anduin Wrynn.|FACTION|Alliance|
-A Warchief's Blessing|QID|13189|M|83.43,49.43|Z|124|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Horde|
-P Durotar|ACTIVE|13189|M|84.55,50.46|Z|124|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
+T The Battle For The Ebon Hold|QID|13166|M|83.43,49.43|Z|1423|N|To Highlord Darion Mograine on the upper level.|
+A Where Kings Walk|QID|13188|M|83.43,49.43|Z|1423|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Alliance|
+P Stormwind City|ACTIVE|13188|M|83.65,51.33|Z|1423|N|Click on the portal to go to Stormwind.|FACTION|Alliance|
+T Where Kings Walk|QID|13188|Z|Stormwind City|M|85.6,31.8|Z|Stormwind City|N|To King Anduin Wrynn.|FACTION|Alliance|
+A Warchief's Blessing|QID|13189|M|83.43,49.43|Z|1423|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Horde|
+P Durotar|ACTIVE|13189|M|84.55,50.46|Z|1423|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
 R Grommash Hold|ACTIVE|13189|M|40.23,36.86|Z|1454|
 T Warchief's Blessing|QID|13189|M|31.64,37.83|Z|1454|N|To High Overlord Saurfang.|FACTION|Horde|
-P Acherus: The Ebon Hall|AVAILABLE|9407^10046|M|PLAYER|N|Use your Death Gate to portal to Ebon Hold.|
+P Acherus: The Ebon Hold|AVAILABLE|9407^10046|M|PLAYER|N|Use your Death Gate to portal to Ebon Hold.|
 = Level 58 Training|AVAILABLE|9407^10046|M|80.91,43.78|Z|1423|N|Do your level 58 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-f Acherus: Ebon Hold|AVAILABLE|9407^10046|M|83.88,50.43|Z|1423|N|At Grimwing.|
+f Acherus: The Ebon Hold|AVAILABLE|9407^10046|M|83.88,50.43|Z|1423|N|At Grimwing on the main level.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 
 ]]
 end)
