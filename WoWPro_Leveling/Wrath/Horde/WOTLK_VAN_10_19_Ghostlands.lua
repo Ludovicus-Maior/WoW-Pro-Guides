@@ -6,8 +6,10 @@ WoWPro:GuideLevels(guide, 10, 21)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Undercity|AVAILABLE|9144|M|61.86,65.04|Z|1458; Undercity|R|Undead|IZ|1420;Tirisfal Glades|
-P Silvermoon City|AVAILABLE|9144|M|63.3,11.3;55.41,11.20|CC|Z|1458; Undercity|N|Use the Orb of Translocation.|R|Undead|IZ|1458; Undercity|
+P Silvermoon City|AVAILABLE|9144|N|The easiest way to do this is to ask a Mage for a portal, or do it yourself if you can.\n[color=FF0000]NOTE: [/color]Skip this step if that's not feasible.|
+b Tirisfal Glades|AVAILABLE|9144|M|50.89,13.86|Z|Durotar|N|Take the Zeppelin to Tirisfal Glades.|IZ|Orgrimmar^Durotar|
+R Undercity|AVAILABLE|9144|M|61.86,65.04|Z|1458; Undercity|IZ|1420;Tirisfal Glades|
+P Silvermoon City|AVAILABLE|9144|M|63.3,11.3;55.41,11.20|CC|Z|1458; Undercity|N|Use the Orb of Translocation.|IZ|1458; Undercity|
 R The Shepherd's Gate|AVAILABLE|9144|M|56.66,49.54|Z|1941; Eversong Woods|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|
 f Silvermoon City|AVAILABLE|9144|M|54.37,50.73|Z|1941; Eversong Woods|
 R Fairbreeze Village|AVAILABLE|9144|M|44.06,70.73|Z|1941; Eversong Woods|N|Follow the road to the west and then continue south at the bend.\n[color=FF0000]NOTE: [/color]There will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|
@@ -44,7 +46,7 @@ R Falconwing Square|AVAILABLE|9677|M|46.56,48.89|Z|1941; Eversong Woods|N|Follow
 A Summons from Knight-Lord Bloodvalor|QID|9677|M|48.40,46.45|Z|1941; Eversong Woods|N|From Noellene in Falconwing Square.|R|BloodElf|C|Paladin|
 R The Shepherd's Gate|ACTIVE|9133|M|56.66,49.54|Z|1941; Eversong Woods|N|Enter Silvermoon City.|IZ|-1954; Silvermoon City|
 T Fly to Silvermoon City|QID|9133|M|69.26,77.04;68.28,74.08;66.50,73.43;53.93,71.02|CS|Z|1954; Silvermoon City|N|To Sathren Azuredawn.|
-A Skymistress Gloaming|QID|9134|M|53.93,71.02|Z|1954; Silvermoon City|N|From Sathren Azuredawn.|PRE|9133|
+A Skymistress Gloaming|QID|9134|M|53.93,71.02|Z|1954; Silvermoon City|N|From Sathren Azuredawn.|PRE|9133|R|BloodElf|
 T Summons from Knight-Lord Bloodvalor|QID|9677|M|89.29,35.25|Z|1954; Silvermoon City|N|To Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
 A The First Trial|QID|9678|M|89.29,35.25|Z|1954; Silvermoon City|N|From Knight-Lord Bloodvalor.|R|BloodElf|C|Paladin|
 = Level 12 Training|ACTIVE|9134|M|71.54,55.76|Z|1954; Silvermoon City|N|Visit your class trainer before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
@@ -54,7 +56,7 @@ A The First Trial|QID|9678|M|89.29,35.25|Z|1954; Silvermoon City|N|From Knight-L
 = Level 12 Training|ACTIVE|9134|M|54.96,25.62|Z|1954; Silvermoon City|N|Visit your class trainer before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
 = Level 12 Training|ACTIVE|9134|M|78.59,51.01|Z|1954; Silvermoon City|N|Visit your class trainer before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
 = Level 12 Training|ACTIVE|9134|M|74.67,45.01|Z|1954; Silvermoon City|N|Visit your class trainer before leaving.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
-* Saltheril's Haven Party Invitation|AVAILABLE|-9067|N|If you plans to go back to Saltheril's Haven and reload with goodies, toss it in your bank until you need it. Otherwise, you can safely destroy this.\n[color=FF0000]NOTE: [/color]Be aware, you cannot get another one.\nThis step will auto-complete when you no longer have the item in your bag.|U|23500|O|
+* Saltheril's Haven Party Invitation|AVAILABLE|-9067|N|If you plans to go back to Saltheril's Haven and reload with goodies, toss it in your bank until you need it. Otherwise, you can safely destroy this.\n[color=FF0000]NOTE: [/color]Be aware, you cannot get another one.\nThis step will auto-complete when you no longer have the item in your bag.|U|23500|
 R The Shepherd's Gate|ACTIVE|9134|M|56.66,49.54|Z|1941; Eversong Woods|N|Make your way to The Shepherd's Gate and exit Silvermoon City.|IZ|1954; Silvermoon City|
 T Skymistress Gloaming|QID|9134|M|54.37,50.73|Z|1941; Eversong Woods|N|To Skymistress Gloaming.|
 A Return to Quartermaster Lymel|QID|9135|M|54.37,50.73|Z|1941; Eversong Woods|N|From Skymistress Gloaming.|PRE|9134|
