@@ -40,12 +40,23 @@ l [item=4625/Firebloom]|QID|773000004|L|4625 160|ITEM|4625|N|You'll need about 1
 l [item=13464/Golden Sansam]|QID|773000004|L|13464 180|ITEM|13464|N|You'll need about 180 Golden Sansam or combination of [item=13463/Dreamfoil], [item=13465/Mountain Silversage], [item=13466/Sorrowmoss], or [item=13467/Icecap] to create [item=39341/Silvery Pigment].|
 l [item=22787/Ragveil]|QID|773000004|L|22787 500|ITEM|22787|N|You'll need about 500 Ragveil, and/or combination of [item=22790/Ancient Lichen], [item=22785/Felweed], [item=22786/Dreaming Glory], [item=22789/Terocone], [item=22791/Netherbloom], [item=22792/Nightmare Vine], or [item=22793/Mana Thistle].|
 l [item=36904/Tiger Lily]|QID|773000004|L|36904 450|ITEM|36904|N|You'll need about 450 Tiger Lily, and/or combination of [item=36901/Goldclover], [item=36903/Adders Tongue], [item=36907/Talandras Rose], [item=37921/Deadnettle], [item=39970/Fire Leaf], [item=36905/Lichbloom], or [item=36906/Icethorn].|
-B [item=39354/Light Parchment]|QID|773000004|L|39354 150|ITEM|39354|N|You'll need about 150(or less) Light Parchments, buy as you need if you wish.|
-
+B [item=39354/Light Parchment]|QID|773000004|L|39354 81|ITEM|39354|N|You'll need about 81 Light Parchments, buy as you need if you wish.|
+B [item=10648/Common Parchment]|QID|773000004|L|10648 84|ITEM|10648|N|You'll need about 85 Common Parchments, buy as you need if you wish.|
+B [item=39501/Heavy Parchment]|QID|773000004|L|39501 50|ITEM|39501|N|You'll need about 50 Heavy Parchments, buy as you need if you wish.|
+B [item=39502/Resilient Parchment]|QID|773000004|L|39502 180|ITEM|39502|N|You'll need about 180 Resilient Parchments, buy as you need if you wish.|
+B [item=39505/Virtuoso Inking Set]|QID|773000004|P|Inscription;773;*;0;75|L|39505 1|ITEM|39505|N|You'll need to buy this once, as you need it for your profession.|
 N Shopping List|QID|773000006|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
-= Learn [spell=45357/Inscription]|QID|773045357|SPELL|Inscription;45357|LVL|5|N|Learn from any Inscription Trainers in main cities of Old Azeroth.|
-B [item=39505/Virtuoso Inking Set]|QID|773000004|P|Inscription;773;*;0;75|L|39505 1|ITEM|39505|N|You'll need to buy this once, as you need it for your profession.|
+= Learn [spell=45357/Inscription]|QID|773045357|M|35.6,69.2|Z|1454|IZ|1637|SPELL|Inscription;45357|LVL|5|N|Learn from Jo'mah, in Valley of Spirits, Orgrimmar.|FACTION|Horde|
+= Learn [spell=45357/Inscription]|QID|773045357|M|61.6,58.6|Z|1458|IZ|1497|SPELL|Inscription;45357|LVL|5|N|Learn from Margaux Parchley, in The Apothecarium, Undercity.|FACTION|Horde|
+= Learn [spell=45357/Inscription]|QID|773045357|M|29.2,21.8|Z|1456|IZ|1638|SPELL|Inscription;45357|LVL|5|N|Learn from Poshken Hardbinder, in The Spirit Rise, Thunder Bluff.|FACTION|Horde|
+= Learn [spell=45357/Inscription]|QID|773045357|M|69.6,23.6|Z|1954|IZ|3487|SPELL|Inscription;45357|LVL|5|N|Learn from Zantasia, in Court of the Sun, Silvermoon City.|FACTION|Horde|
+= Learn [spell=45357/Inscription]|QID|773045357|M|49.8,74.0|Z|1453|IZ|1519|SPELL|Inscription;45357|LVL|5|N|Learn from Catarina Stanford, in The Mage Quarter, Stormwind City.|FACTION|Alliance|
+= Learn [spell=45357/Inscription]|QID|773045357|M|61.6,44.8|Z|1455|IZ|1537|SPELL|Inscription;45357|LVL|5|N|Learn from Elise Brightletter, in The Great Forge, Ironforge.|FACTION|Alliance|
+= Learn [spell=45357/Inscription]|QID|773045357|M|56.6,31.6|Z|1457|IZ|1657|SPELL|Inscription;45357|LVL|5|N|Learn from Feyden Darkin, in Craftsmen's Terrace, Darnassus.|FACTION|Alliance|
+= Learn [spell=45357/Inscription]|QID|773045357|M|39.8,38.8|Z|1947|IZ|3557|SPELL|Inscription;45357|LVL|5|N|Learn from Thoth, in The Crystal Hall, The Exodar.|FACTION|Alliance|
+= Learn [spell=45357/Inscription]|QID|773045357|SPELL|Inscription;45357|LVL|5|N|Learn from any Inscription Trainers in any Major City.|
+
 M Mill Herbs|QID|773173057|P|Inscription;773;0+25;1|N|Mill any and all herbs you have to create pigments.|
 M [item=39469/Moonglow Ink]|QID|773052843|P|Inscription;773;0+45;1|ITEM|39469|CRAFT|52843 44|MATS|39151 2|N|Make upto 44 of these, you will need them later.|
 = Learn Recipe|QID|773000251|P|Inscription;773;0+25|RECIPE|165564|N|Learn [spell=165564/Research Moonglow Ink] Recipe from Trainer.|

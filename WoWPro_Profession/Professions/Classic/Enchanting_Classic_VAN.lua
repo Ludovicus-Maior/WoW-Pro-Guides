@@ -50,7 +50,7 @@ B [item=11128/Golden Rod]|QID|333000015|ITEM|11128|N|You'll need to either buy f
 B [item=11144/Truesilver Rod]|QID|333000015|ITEM|11144|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=6037/Truesilver Bar] x1, [item=3486/Heavy Grinding Stone] x1|
 B [item=16206/Arcanite Rod]|QID|333000015|ITEM|16206|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=12360/Arcanite Bar] x3, [item=12644/Dense Grinding Stone] x1|
 l [item=1210/Shadowgem]|QID|333000015|ITEM|1210|N|You'll need 1 Shadowgem, either from looting/fishing or purchase from the AH.|
-l [item=5500/Iridescent Pearl]|QID|333000015|ITEM|1210|N|You'll need 1 Iridescent Pearl, either from looting clams/fishing or purchase from the AH.|
+l [item=5500/Iridescent Pearl]|QID|333000015|ITEM|5500|N|You'll need 1 Iridescent Pearl, either from looting clams/fishing or purchase from the AH.|
 l [item=7971/Black Pearl]|QID|333000015|ITEM|7971|N|You'll need 1 Black Pearl, either from looting clams/fishing or purchase from the AH.|
 l [item=13926/Golden Pearl]|QID|333000015|ITEM|13926|N|You'll need 1 Golden Pearl, either from looting clams/fishing or purchase from the AH.|
 N Couple Recipes to Buy|QID|333000006|N|There are a couple recipes to go buy, that you'll need for later, can skip for now, will repeat when you need them. \n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
@@ -96,7 +96,7 @@ M Enchant Cloak - Minor Agility|QID|333013419|P|Enchanting;333;0+135;1|CRAFT|134
 = Learn Recipe|QID|333001301|P|Enchanting;333;0+125|RECIPE|13501|N|Learn [spell=13501/Enchant Bracer - Lesser Stamina] Recipe from Trainer.|
 M Enchant Bracer - Lesser Stamina|QID|333013501|P|Enchanting;333;0+155;1|CRAFT|13501 20|MATS|11083 2|
 B [item=11128/Gold Rod]|QID|333011128|ITEM|11128|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=3577/Gold Bar] x1, [item=3478/Coarse Grinding Stone] x2|
-l [item=5500/Iridescent Pearl]|QID|333005500|ITEM|1210|N|You'll need 1 Iridescent Pearl, either from looting clams/fishing or purchase from the AH.|
+l [item=5500/Iridescent Pearl]|QID|333005500|ITEM|5500|N|You'll need 1 Iridescent Pearl, either from looting clams/fishing or purchase from the AH.|
 M [item=11130/Runed Golden Rod]|QID|333007795|P|Enchanting;333;0+156;1|ITEM|11130|CRAFT|13628 1|MATS|11128 1;5500 1;11082 2;11083 2|
 B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|35.12,52.12|Z|1440|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Dalria in Astranaar, Ashenvale (Limited Quantity)|FACTION|Alliance|
 B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|48.69,61.52|Z|1442|RECIPE|13536|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Kulwia in Sun Rock Retreat, Stonetalon Mountains (Limited Quantity)|FACTION|Horde|

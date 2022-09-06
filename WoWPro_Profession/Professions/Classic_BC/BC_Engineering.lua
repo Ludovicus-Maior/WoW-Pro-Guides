@@ -150,6 +150,13 @@ M [item=10559/Mithril Tube]|QID|202012589|P|Engineering;202;0+200;1|ITEM|10559|C
 = Learn [spell=12656/Artisan Engineering]|QID|202012656|M|52.2,27.6|Z|1446|IZ|440|P|Engineering;202;0+200|SPELL|Artisan Engineering;12656|LVL|35|T|Buzzek Bracketswing|N|Learn from Buzzek Bracketswing, in Gadgetzan, Tanaris.|
 = Learn [spell=12656/Artisan Engineering]|QID|202012656|P|Engineering;202;0+200|SPELL|Artisan Engineering;12656|LVL|35|N|Learn from Trainer in Major Cities, and some starting areas. (Once you get to an area that has a local trainer, an arrow will popup).|
 N Engineering Specialization|QID|202002001|P|Engineering;202;0+200|N|Once you reach 200 you can chose either Gnomish or Goblin Specialization.  The materials needed or Quests to unlock are NOT covered in this guide.|
+
+; Test Lines for either Goblin or Gnomish OR might have to use |AVAILIBLE| QIDs .... but need to FLIP  Gnome's QIDs |3641^3643|,  Goblin QID |3639|
+N TESTING|QID|2029920222|P|Engineering;202;0+200|SPELL|Goblin Engineer;20222;Flip|N|You have Goblin  Engineering!, PLEASE use Report step and put this in #TBC-Bug-Report, this is a test step, and info is needed to fix this guide.|
+N TESTING|QID|2029920222|P|Engineering;202;0+200|SPELL|Gnomish Engineer;20219;Flip|N|You have Gnomish  Engineering!, PLEASE use Report step and put this in #TBC-Bug-Report, this is a test step, and info is needed to fix this guide.|
+; REMOVE these lines, when reported, IF it works.  NOTES will be on lines that need this info.
+
+
 = Learn Recipe|QID|202002001|P|Engineering;202;0+200|RECIPE|12591|N|Learn [spell=12591/Unstable Trigger] Recipe from Trainer.|
 M [item=10560/Unstable Trigger]|QID|202012591|P|Engineering;202;0+216;1|ITEM|10560|CRAFT|12591 20|MATS|3860 1;4338 1;10505 1|N|Save these for later steps.|
 = Learn Recipe|QID|202002151|P|Engineering;202;0+215|RECIPE|12599|N|Learn [spell=12589/Mithril Casing] Recipe from Trainer.|
