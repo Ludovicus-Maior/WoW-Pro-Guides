@@ -326,7 +326,6 @@ B Cenarion Spirits|QID|9472|M|78.5,63.0|Z|Zangarmarsh|L|29112|N|Available from t
 T The Cenarion Expedition|QID|9912|M|78.5,62.0|Z|Zangarmarsh|N|To Ysiel Windsinger.|
 A Disturbance at Umbrafen Lake|QID|9716|M|78.5,62.0|Z|Zangarmarsh|N|From Ysiel Windsinger.|
 A Warden Hamoot|QID|9778|LEAD|9728|M|78.4,62.1|Z|Zangarmarsh|N|From Ysiel Windsinger.|
-A Checking Up|QID|29566|M|78.40,62.10|Z|Zangarmarsh|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|
 T Warden Hamoot|QID|9778|M|79.1,65.2|Z|Zangarmarsh|N|To Warden Hamoot.|
 A A Warm Welcome|QID|9728|M|79.0,65.5|Z|Zangarmarsh|N|From Warden Hamoot.|
 R Swamprat Post|ACTIVE|10103|M|85,55|Z|Zangarmarsh|N|To Swamprat Post in the northeast.|
