@@ -31,7 +31,7 @@ T Report to Nazgrel|QID|10291|M|55.02,35.95|N|To Nazgrel.|
 A Eradicate the Burning Legion|QID|10121|M|55.06,35.96|N|From Nazgrel.|PRE|10291|
 A Bonechewer Blood|QID|10450|M|55.13,36.40|N|From Vurtok Axebreaker.|
 A I Work... For the Horde!|QID|10086|M|55.17,38.79|N|From Megzeg Nukklebust.|
-T Eradicate the Burning Legion|QID|10121|M|58.03,41.25|N|To Sergeant Shatterskull at the Supply Caravan.|
+T Eradicate the Burning Legion|QID|10121|M|58.03,41.25|N|To Sergeant Shatterskull at the Supply Caravan.\n[color=FF0000]NOTE: [/color]You may have to wait out a battle scene that occurs occassionaly.|
 A Felspark Ravine|QID|10123|M|58.03,41.25|N|From Sergeant Shatterskull.|PRE|10121|
 K Felspark Ravine|ACTIVE|10123|M|66.77,35.48|QO|1;2;3|N|Kill the required mobs.|
 C Bonechewer Blood|QID|10450|M|57.60,46.61|L|30327 12|ITEM|30327|N|Any Bonechewer\nThey are on both sides of the ravine.|S|
