@@ -324,7 +324,7 @@ f Auberdine|QID|965|M|36.34,45.58|N|Get the flightpath.|Z|Darkshore|
 b Rut'theran Village|QID|965|M|33.19,40.1|Z|Darkshore|N|Take the boat to Rut'theran Village. Main thing is getting the flightpath over with, there are some BFD dungeon quests here as well.|R|-NightElf|
 F Rut'theran Village|QID|1198|M|36.36,45.56|Z|Darkshore|N|Train you skills sell and repair.|LVL|20|
 f Rut'theran Village|QID|965|M|58.4,94.02|Z|Teldrassil|N|Get the flight path.|R|-NightElf|
-= Train|ACTIVE|965|N|If needed, Don't forget to train while you are in town. (check step off manually)| 
+= Train|ACTIVE|965|N|If needed, Don't forget to train while you are in town. (check step off manually)|
 F Auberdine|QID|965|M|36.34,45.58|Z|Teldrassil|N|Fly back to Auberdine.|TAXI|-Astranaar|
 F Astranaar|QID|965|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar if you have the flight path, otherwise close this step.|TAXI|Astranaar|
 A The Tower of Althalaxx|QID|965|M|39.1, 43.5|Z|Darkshore|N|From Sentinel Elissa Starbreeze upstairs.|
