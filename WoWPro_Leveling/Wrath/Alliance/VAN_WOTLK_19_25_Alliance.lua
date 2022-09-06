@@ -260,7 +260,6 @@ C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill t
 A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|TAXI|-Menethil Harbor|Z|Wetlands|
 T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|TAXI|-Menethil Harbor|Z|Wetlands|
 T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|TAXI|-Menethil Harbor|Z|Wetlands|
-
 A Young Crocolisk Skins|QID|484|M|8.49,55.7|N|From James Halloran.|Z|Wetlands|
 A Claws from the Deep|QID|279|M|8.33,58.52|N|From Karl Boran.|Z|Wetlands|
 f Menethil Harbor|AVAILABLE|463|N|Get the flight path.|M|9.50, 59.70|TAXI|-Menethil Harbor|Z|Wetlands|
@@ -315,15 +314,17 @@ T Young Crocolisk Skins|QID|484|M|8.49,55.7|N|To James Halloran.|Z|Wetlands|
 T Claws from the Deep|QID|279|M|8.33,58.52|N|To Karl Boran.|Z|Wetlands|
 
 ; Ashenvale 23-25
-b Darkshore|AVAILABLE|1008|M|4.61,57.07|N|Take Boat to Auberdine.|Z|Wetlands|
+P Moonglade|ACTIVE|3765|C|Druid|M|PLAYER|N|Use your Moonglade portal spell.|
+F Rut'theran Village|ACTIVE|3765|C|Druid|Z|Moonglade|M|44.19,45.26|N|Take the flightpath to Teldrassil.|
+F Auberdine|ACTIVE|3765|C|Druid|Z|Teldrassil|M|58.40,93.93|N|Take the flightpath to Auberdine.|
+F Stormwind City|ACTIVE|3765|M|9.59,59.66|N|Take flightpath to Stormwind.|Z|Wetlands|C|-Druid|
+b Auberdine|ACTIVE|3765|M|22.74,56.19|N|Take the boat to Auberdine.|Z|Stormwind City|C|-Druid|
 T The Corruption Abroad|QID|3765|M|38.33,43.04|N|To Gershala Nightwhisper.|Z|Darkshore|
-A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|Z|Darkshore|
 f Auberdine|QID|965|M|36.34,45.58|N|Get the flightpath.|Z|Darkshore|
 b Rut'theran Village|QID|965|M|33.19,40.1|Z|Darkshore|N|Take the boat to Rut'theran Village. Main thing is getting the flightpath over with, there are some BFD dungeon quests here as well.|R|-NightElf|
-F Rut'theran Village|QID|1198|M|55.92,89.5|Z|Teldrassil|N|Train you skills sell and repair and get more BFD quests so you can start looking for groups.|LVL|20|
-A Twilight Falls|QID|1199|M|55.24,24.01|Z|Darnassus|N|From Argent Guard Manados. This is a BFD Dungeon Quest.|LVL|20|
-A In Search of Thaelrid|QID|1198|M|55.39,25.0|Z|Darnassus|N|From Dawnwatcher Shaedlass. This is a BFD Dungeon Quest.|LVL|20|
+F Rut'theran Village|QID|1198|M|36.36,45.56|Z|Darkshore|N|Train you skills sell and repair.|LVL|20|
 f Rut'theran Village|QID|965|M|58.4,94.02|Z|Teldrassil|N|Get the flight path.|R|-NightElf|
+= Train|ACTIVE|965|N|If needed, Don't forget to train while you are in town. (check step off manually)| 
 F Auberdine|QID|965|M|36.34,45.58|Z|Teldrassil|N|Fly back to Auberdine.|TAXI|-Astranaar|
 F Astranaar|QID|965|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar if you have the flight path, otherwise close this step.|TAXI|Astranaar|
 A The Tower of Althalaxx|QID|965|M|39.1, 43.5|Z|Darkshore|N|From Sentinel Elissa Starbreeze upstairs.|
@@ -337,15 +338,15 @@ C The Sleeper Has Awakened|QID|5321|M|44.38,76.31|Z|Darkshore|QO|1|N|Loot the Ho
 C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Escort Kerlonian, use the horn if he falls asleep.|
 T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|If you took it, otherwise close this step.|
 T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier. Do not get follow-up.|
-F Astranaar|AVAILABLE|1008|N|Fly to Astranar|M|36.37,45.55|Z|Darkshore|TAXI|Astranaar|
-f Astranaar|N|Get the flight path.|M|34.39,48.03|Z|Ashenvale|TAXI|-Astranaar|
+F Astranaar|AVAILABLE|1008|N|Fly to Astranar|M|58.40,93.94|Z|Teldrassil|TAXI|Astranaar|
+f Astranaar|N|Get the flight path.|M|35.15,41.04|Z|Ashenvale|TAXI|-Astranaar|
 A The Zoram Strand|QID|1008|M|34.68,48.84|Z|Ashenvale|N|From Shindrell Swiftfire. This is a pre-req for the stonetalon quests.|
 A Raene's Cleansing |QID|991|M|36.6,49.6|N|From Raene Wolfrunner|Z|Ashenvale|
 h Astranaar|QID|991|N|Make Astranaar your home location.|M|36.97,49.26|Z|Ashenvale|
 A The Tower of Althalaxx|QID|970|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|967|
 A Bathran's Hair|QID|1010|M|26.4,38.6|N|From Orendil Broadleaf.|Z|Ashenvale|
 C The Tower of Althalaxx|QID|970|M|32.6,29.2|Z|Ashenvale|N|Kill the Dark Strand until you get the Glowing Soul Gem.|
-C Bathran's Hair|QID|1010|M|31.4,23.3|Z|Ashenvale|N|Loot five Bathran's Hair from Plant Bundles off the ground in this area. Some bags may be submerged in the ground so look carefully|
+C Bathran's Hair|QID|1010|M|31.4,23.3|Z|Ashenvale|NC|N|Loot five Bathran's Hair from Plant Bundles off the ground in this area. Some bags may be submerged in the ground so look carefully|
 T Bathran's Hair|QID|1010|M|26.4,38.6|Z|Ashenvale|N|To Orendil Broadleaf.|
 A Orendil's Cure|QID|1020|M|26.4,38.6|Z|Ashenvale|N|From Orendil Broadleaf.|PRE|1010|
 T The Tower of Althalaxx|QID|970|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
@@ -367,7 +368,7 @@ T The Zoram Strand|QID|1008|M|34.68,48.84|Z|Ashenvale|N|To Shindrell Swiftfire.|
 A Pridewings of Stonetalon|QID|1134|M|34.68,48.84|Z|Ashenvale|N|From Shindrell Swiftfire.|PRE|1008|
 A On Guard in Stonetalon|QID|1070|M|34.90,49.79|Z|Ashenvale|N|From Sentinel Thenysil.|
 A Journey to Stonetalon Peak|QID|1056|M|35.76,49.11|Z|Ashenvale|N|From Faldreas Goeth'Shael.|
-N Trash the Journal|QID|1070|N|Destroy Teronis' Journal, it is useless and wastes precious bag space. Skip this step when done.|PRE|1023|
+* Teronis' Journal|AVAILABLE|-1023|ACTIVE|-1023|N|You can safely destroy the ETeronis' Journal.|U|5505|
 T Orendil's Cure|QID|1020|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
 A Elune's Tear|QID|1033|M|37.36,51.79|N|From Pelturas Whitemoon. This quest becomes available about 20 seconds after turning in the previous one.|PRE|1020|Z|Ashenvale|
 
@@ -411,7 +412,6 @@ T Elune's Tear|QID|1033|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
 A The Ruins of Stardust|QID|1034|M|37.4,51.8|N|From Pelturas Whitemoon. Will become available shortly after turning in Elune's Tear|PRE|1033|Z|Ashenvale|
 T Culling the Threat|QID|1054|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
 N Sell junk and repair|AVAILABLE|1016|M|35.78,52.04|N|Close this step when you're done.|Z|Ashenvale|
-N Dungeon Group|QID|1198|N|Keep an eye out for groups to Blackfathom Depths|LVL|20|Z|Ashenvale|
 R Silverwind Refuge|AVAILABLE|1016|M|43.10,62.81;49.79,67.21|CS|N|Run to Silverwind Refuge|Z|Ashenvale|
 A Elemental Bracers|QID|1016|M|49.79,67.21|N|From Sentinel Velene Starstrike.|Z|Ashenvale|
 l Elemental Bracers|QID|1016|M|50.28,69.90|L|12220 5|N|Kill Befouled Water Elementals until you get 5 Intact Elemental Bracers.|Z|Ashenvale|
