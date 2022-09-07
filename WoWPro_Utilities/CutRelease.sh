@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/sh
 
 
 ADDON_DIRS=(WoWPro WoWPro_Leveling WoWPro_Dailies WoWPro_Profession WoWPro_WorldEvents WoWPro_Achievements)
