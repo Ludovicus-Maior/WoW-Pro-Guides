@@ -10,6 +10,8 @@ WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
+N Porting issues|N|Coordinates for [Northern Barrens] and [Southern Barrens] are wrong.|
+
 F The Zoram Strand|QID|908450001|M|14.68,22.26|ACH|845;1|Z|Ashenvale|
 F Orendil's Retreat|QID|908450002|M|26.35,21.99|ACH|845;2|Z|Ashenvale|
 F Silverwind Refuge|QID|908450003|M|50.15,67.08|ACH|845;3|Z|Ashenvale|
@@ -192,20 +194,20 @@ F Red Rocks|QID|907360011|M|60.57,21.61|ACH|736;11|Z|Mulgore|
 F Windfury Ridge|QID|907360012|M|51.14,09.25|ACH|736;12|Z|Mulgore|
 F Wildmane Water Well|QID|907360013|M|43.12,16.06|ACH|736;13|Z|Mulgore|
 
-F Boulder Lode Mine|QID|907500001|M|66.57,12.74|ACH|750;1|Z|Northern Barrens|
-F Lushwater Oasis|QID|907500002|M|40.26,74.95|ACH|750;2|Z|Northern Barrens|
-F The Mor'shan Rampart|QID|907500003|M|42.70,15.41|ACH|750;3|Z|Northern Barrens|
-F The Sludge Fen|QID|907500004|M|57.96,19.50|ACH|750;4|Z|Northern Barrens|
-F Dreadmist Peak|QID|907500005|M|42.86,38.80|ACH|750;5|Z|Northern Barrens|
-F The Dry Hills|QID|907500006|M|27.59,31.68|ACH|750;6|Z|Northern Barrens|
-F The Forgotten Pools|QID|907500007|M|36.99,45.21|ACH|750;7|Z|Northern Barrens|
-F Grol'dom Farm|QID|907500008|M|53.84,41.04|ACH|750;8|Z|Northern Barrens|
-F Far Watch Post|QID|907500009|M|67.22,39.75|ACH|750;9|Z|Northern Barrens|
-F Thorn Hill|QID|907500010|M|58.42,49.23|ACH|750;10|Z|Northern Barrens|
-F The Crossroads|QID|907500011|M|49.65,58.08|ACH|750;11|Z|Northern Barrens|
-F The Stagnant Oasis|QID|907500012|M|55.69,80.18 |ACH|750;12|Z|Northern Barrens|
-F Ratchet|QID|907500013|M|67.93,72.28|ACH|750;13|Z|Northern Barrens|
-F The Merchant Coast|QID|907500014|M|70.55,89.12|ACH|750;14|Z|Northern Barrens|
+F Boulder Lode Mine|QID|907500001|M|66.57,12.74|ACH|750;1|Z|The Barrens|
+F Lushwater Oasis|QID|907500002|M|40.26,74.95|ACH|750;2|Z|The Barrens|
+F The Mor'shan Rampart|QID|907500003|M|42.70,15.41|ACH|750;3|Z|The Barrens|
+F The Sludge Fen|QID|907500004|M|57.96,19.50|ACH|750;4|Z|The Barrens|
+F Dreadmist Peak|QID|907500005|M|42.86,38.80|ACH|750;5|Z|The Barrens|
+F The Dry Hills|QID|907500006|M|27.59,31.68|ACH|750;6|Z|The Barrens|
+F The Forgotten Pools|QID|907500007|M|36.99,45.21|ACH|750;7|Z|The Barrens|
+F Grol'dom Farm|QID|907500008|M|53.84,41.04|ACH|750;8|Z|The Barrens|
+F Far Watch Post|QID|907500009|M|67.22,39.75|ACH|750;9|Z|The Barrens|
+F Thorn Hill|QID|907500010|M|58.42,49.23|ACH|750;10|Z|The Barrens|
+F The Crossroads|QID|907500011|M|49.65,58.08|ACH|750;11|Z|The Barrens|
+F The Stagnant Oasis|QID|907500012|M|55.69,80.18 |ACH|750;12|Z|The Barrens|
+F Ratchet|QID|907500013|M|67.93,72.28|ACH|750;13|Z|The Barrens|
+F The Merchant Coast|QID|907500014|M|70.55,89.12|ACH|750;14|Z|The Barrens|
 
 F The Crystal Vale|QID|908560001|M|34.56,14.80 |ACH|856;1|Z|Silithus|
 F Southwind Village|QID|908560002|M|64.62,50.10|ACH|856;2|Z|Silithus|
@@ -216,17 +218,17 @@ F The Scarab Wall|QID|908560006|M|35.91,83.42|ACH|856;6|Z|Silithus|
 F Hive'Ashi|QID|908560007|M|49.43,24.08|ACH|856;7|Z|Silithus|
 F Valor's Rest|QID|908560008|M|81.13,18.70|ACH|856;8|Z|Silithus|
 
-F Bael Modan|QID|949960001|M|49.34,85.38|ACH|4996;1|Z|Southern Barrens|
-F Battlescar|QID|949960002|M|45.52,69.88|ACH|4996;2|Z|Southern Barrens|
-F Forward Command|QID|949960003|M|49.41,49.33|ACH|4996;3|Z|Southern Barrens|
-F Frazzlecraz Motherlode|QID|949960004|M|42.38,77.43|ACH|4996;4|Z|Southern Barrens|
-F Honor's Stand|QID|949960005|M|38.38,13.26|ACH|4996;5|Z|Southern Barrens|
-F Hunter's Hill|QID|949960006|M|39.44,20.12|ACH|4996;6|Z|Southern Barrens|
-F Northwatch Hold|QID|949960007|M|66.74,47.03|ACH|4996;7|Z|Southern Barrens|
-F Razorfen Kraul|QID|949960008|M|41.27,94.56|ACH|4996;8|Z|Southern Barrens|
-F Ruins of Taurajo|QID|949960009|M|44.65,51.69|ACH|4996;9|Z|Southern Barrens|
-F The Overgrowth|QID|949960010|M|45.37,35.89|ACH|4996;10|Z|Southern Barrens|
-F Vendetta Point|QID|949960011|M|41.54,46.77|ACH|4996;11|Z|Southern Barrens|
+F Bael Modan|QID|949960001|M|49.34,85.38|ACH|4996;1|Z|The Barrens|
+F Battlescar|QID|949960002|M|45.52,69.88|ACH|4996;2|Z|The Barrens|
+F Forward Command|QID|949960003|M|49.41,49.33|ACH|4996;3|Z|The Barrens|
+F Frazzlecraz Motherlode|QID|949960004|M|42.38,77.43|ACH|4996;4|Z|The Barrens|
+F Honor's Stand|QID|949960005|M|38.38,13.26|ACH|4996;5|Z|The Barrens|
+F Hunter's Hill|QID|949960006|M|39.44,20.12|ACH|4996;6|Z|The Barrens|
+F Northwatch Hold|QID|949960007|M|66.74,47.03|ACH|4996;7|Z|The Barrens|
+F Razorfen Kraul|QID|949960008|M|41.27,94.56|ACH|4996;8|Z|The Barrens|
+F Ruins of Taurajo|QID|949960009|M|44.65,51.69|ACH|4996;9|Z|The Barrens|
+F The Overgrowth|QID|949960010|M|45.37,35.89|ACH|4996;10|Z|The Barrens|
+F Vendetta Point|QID|949960011|M|41.54,46.77|ACH|4996;11|Z|The Barrens|
 
 F Battlescar Valley|QID|908470001|M|40.91,40.20|ACH|847;1|Z|Stonetalon Mountains|
 F Krom'gar Fortress|QID|908470002|M|67.66,63.27|ACH|847;2|Z|Stonetalon Mountains|
