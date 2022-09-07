@@ -1,11 +1,9 @@
-#!/bin/sh
+#!/bin/sh -x
 
-VANILLA=(WoWPro WoWPro_Leveling WoWPro_Profession)
-TBC=(WoWPro WoWPro_Leveling WoWPro_Profession WoWPro_Dailies)
-WRATH=(WoWPro WoWPro_Leveling WoWPro_Profession WoWPro_Dailies)
-MAINLINE=(WoWPro WoWPro_Leveling WoWPro_Dailies WoWPro_Profession WoWPro_WorldEvents WoWPro_Achievements)
+
+ADDON_DIRS=(WoWPro WoWPro_Leveling WoWPro_Dailies WoWPro_Profession WoWPro_WorldEvents WoWPro_Achievements)
 TRIAL=(WoWPro WoWPro_Leveling)
-ZIP_EXTRA=""
+ZIP_EXTRAS=("-vanilla" "-tbc" "-wrath" "-mainline")
 
 # Allow debugging this horrid thing
 if [ "$1" == "--dry" ] ; then
@@ -13,35 +11,10 @@ if [ "$1" == "--dry" ] ; then
     shift
 fi
 
-# Only one argument --vanilla | --tbc | --wrath| --mainline
-if [ "$1" == "--vanilla" ] ; then
-    ADDON_DIRS=${VANILLA[@]}
-    TOC_SUFFIX="_Vanilla"
-    ZIP_EXTRA="-vanilla"
-    shift
-elif [ "$1" == "--tbc" ] ; then
-    ADDON_DIRS=${TBC[@]}
-    TOC_SUFFIX="_TBC"
-    ZIP_EXTRA="-tbc"
-    shift
-elif [ "$1" == "--wrath" ] ; then
-    ADDON_DIRS=${WRATH[@]}
-    TOC_SUFFIX="_Wrath"
-    ZIP_EXTRA="-wrath"
-    shift
-elif [ "$1" == "--mainline" ] ; then
-    ADDON_DIRS=${MAINLINE[@]}
-    TOC_SUFFIX=""
-    ZIP_EXTRA="-mainline"
-    shift
-else
-    echo "One of [--vanilla | --tbc | --wrath | --mainline] must be provided"
-    exit 2
-fi
 
 VERSION_PREFIX="v"
 if [ "$1" == "--trial" ] ; then
-    ADDON_DIRS=${TRIAL[@]}
+    ADDON_DIRS=(${TRIAL[@]})
     VERSION_PREFIX="L"
     ZIP_EXTRA=""
 fi
@@ -57,7 +30,7 @@ for addon in ${ADDON_DIRS[@]} ; do
         echo "# This program must be run from a directory containing ${ADDON_DIRS[@]}"
         exit 1
     fi
-    ADDON_TOCS+=("${addon}/${addon}${TOC_SUFFIX}.toc")
+    ADDON_TOCS+=( ${addon}/${addon}*.toc )
 done
 echo "# ${ADDON_TOCS[@]}"
 
@@ -95,8 +68,10 @@ if [ "$1" != "--trial" ] ; then
     ${DEBUG} git tag ${nrelease}
     ${DEBUG} git push origin
     ${DEBUG} git push --tags
-    if [ "x${ZIP_EXTRA}" != "x" ] ; then
-        ${DEBUG} ln -s "${ZIP_FILE}" "WoWPro ${VERSION_PREFIX}${nrelease}${ZIP_EXTRA}.zip"
+    if [ "x${ZIP_EXTRAS}" != "x" ] ; then
+        for extra in ${ZIP_EXTRAS[@]} ; do
+            ${DEBUG} ln -s "${ZIP_FILE}" "WoWPro ${VERSION_PREFIX}${nrelease}${extra}.zip"
+        done
     fi
 fi
 
