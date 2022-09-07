@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoDalFish",'Dailies', "Dalaran City@Dalaran", "Ludovicus", "Neutral", 3)
+local guide = WoWPro:RegisterGuide("LudoDalFish",'Dailies', "Dalaran!Crystalsong Forest", "Ludovicus", "Neutral", 3)
 WoWPro:GuideLevels(guide,10,10,10)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Dalaran Fishing")
 WoWPro:GuideSteps(guide, function()
@@ -11,7 +11,7 @@ return [[
 
 A One of Five|QID|13832^13833^13834^13836|M|52.6,64.8|N|From Marcia Chase|
 
-C Jewel Of The Sewers|QID|13832|M|40.60,57.10;43.80,67.80;61.10,12.40;37.40,51.70;36.95,47.60;32.85,47.30;44.44,65.18|Z|The Underbelly@DalaranCity|CN|N|Go to the sewers and fish away.|L|45903|
+C Jewel Of The Sewers|QID|13832|M|40.60,57.10;43.80,67.80;61.10,12.40;37.40,51.70;36.95,47.60;32.85,47.30;44.44,65.18|CN|N|Go to the sewers and fish away.|L|45903|
 T Jewel Of The Sewers|QID|13832|M|52.6,64.8|N|To Marcia Chase|
 
 K Kill a Mammoth|QID|13833|M|54.6,41.0|Z|Borean Tundra|N|Kill any mammoth to get bloody.|

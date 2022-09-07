@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoDalCook",'Dailies', "Dalaran", "Ludovicus", "Neutral", 3)
+local guide = WoWPro:RegisterGuide("LudoDalCook",'Dailies', "Dalaran!Crystalsong Forest", "Ludovicus", "Neutral", 3)
 WoWPro:GuideLevels(guide,10,10,10)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Dalaran Cooking")
 WoWPro:GuideSteps(guide, function()
@@ -27,7 +27,7 @@ T Convention at the Legerdemain|QID|13101^13113|M|48.8,38.0|Z|125|N|To Arille Az
 
 B Chilled Meat|QID|13100^13112|L|43013 2|Z|125|N|You need some meat for the stew. Skip this step if you want to hunt it instead.|
 l Chilled Meat|QID|13100^13112|M|54.00,79.80;69.00,18.60;76.40,61.20;76.80,26.60;82.40,18.80;73.50,21.60;34.40,37.70;52.50,16.60;78.20,39.50;47.30,20.60;74.10,47.30;42.40,26.90;67.10,17.70;80.55,53.60;80.25,40.55;44.70,16.15;47.80,47.30;83.40,56.90;80.00,60.40;30.73,43.92;81.10,57.50;71.93,19.95;82.40,59.05;77.70,59.00;81.50,36.48;74.80,44.80;75.30,40.15;51.17,15.02;56.70,15.05;80.20,22.20;74.47,49.52;71.20,46.03;77.00,42.08;75.95,37.02;47.29,14.88;45.98,17.81;48.01,12.96;36.86,37.17;70.32,43.50;65.35,14.85;78.65,37.42;77.62,55.65;78.80,25.10|Z|Dragonblight|CN|L|43013 2|N|Go kill Artic Rams in Dragonblight for meat.|
-l Infused Mushrooms|QID|13100^13112|M|64.44,15.38;39.40,28.42;35.41,35.51;54.60,66.56;48.36,29.45;59.42,35.30;30.55,51.54;51.34,42.28;44.42,65.25;35.35,42.75;39.80,47.20;50.73,26.14;45.45,57.84;62.08,9.55;35.00,52.80;59.27,12.12;43.32,31.84;57.66,48.04;39.55,40.92;47.91,55.74;55.56,57.37;56.98,40.97;51.28,53.68|Z|The Underbelly@DalaranCity|L|43100 4|CN|N|Find some mushrooms in the underbelly.|
+l Infused Mushrooms|QID|13100^13112|M|64.44,15.38;39.40,28.42;35.41,35.51;54.60,66.56;48.36,29.45;59.42,35.30;30.55,51.54;51.34,42.28;44.42,65.25;35.35,42.75;39.80,47.20;50.73,26.14;45.45,57.84;62.08,9.55;35.00,52.80;59.27,12.12;43.32,31.84;57.66,48.04;39.55,40.92;47.91,55.74;55.56,57.37;56.98,40.97;51.28,53.68|L|43100 4|CN|N|Find some mushrooms in the underbelly.|
 l Infused Mushroom Meatloaf|QID|13100^13112|U|43101|L|43099|Z|125|N|Make a fire and use the pan to cook the meatloaf.|
 T Infused Mushroom Meatloaf|QID|13100^13112|M|52.0,55.2|Z|125|N|To Orton Bennet|
 
@@ -42,7 +42,7 @@ B Chilled Meat|QID|13102^13114|L|43013 4|Z|125|N|You need some meat for the "Veg
 l Chilled Meat|QID|13102^13114|M|54.00,79.80;69.00,18.60;76.40,61.20;76.80,26.60;82.40,18.80;73.50,21.60;34.40,37.70;52.50,16.60;78.20,39.50;47.30,20.60;74.10,47.30;42.40,26.90;67.10,17.70;80.55,53.60;80.25,40.55;44.70,16.15;47.80,47.30;83.40,56.90;80.00,60.40;30.73,43.92;81.10,57.50;71.93,19.95;82.40,59.05;77.70,59.00;81.50,36.48;74.80,44.80;75.30,40.15;51.17,15.02;56.70,15.05;80.20,22.20;74.47,49.52;71.20,46.03;77.00,42.08;75.95,37.02;47.29,14.88;45.98,17.81;48.01,12.96;36.86,37.17;70.32,43.50;65.35,14.85;78.65,37.42;77.62,55.65;78.80,25.10|Z|Dragonblight|CN|L|43013 4|N|Go kill Artic Rams in Dragonblight for meat.|
 l Crystalsong Carrots|QID|13102^13114|M|30.60,40.30;28.11,37.92;32.23,41.78;27.62,46.25;30.58,42.98;26.50,40.16;28.09,42.73;30.42,37.74|Z|Crystalsong Forest|L|43148 4|CN|N|Get some carrots in the Crystalsong Forest.|
 l Vegetable Stew|QID|13102^13114|U|43147|L|43149|Z|125|N|Make a fire and use the Cookpot to make the stew.|
-T Sewer Stew|QID|13102^13114|M|35.6,56.8|Z|The Underbelly@DalaranCity|N|To Ajay Green at inn in the Sewers.|
+T Sewer Stew|QID|13102^13114|M|35.6,56.8|N|To Ajay Green at inn in the Sewers.|
 ]]
 end)
 
