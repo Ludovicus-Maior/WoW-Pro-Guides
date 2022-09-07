@@ -217,7 +217,7 @@ C Glowcap Mushrooms|N|Get the rest of the glowcaps needed for this quest.|M|40.0
 T Glowcap Mushrooms|QID|9808|N|To Msshi'fn.|M|19.7,52.1|
 N Friendly with Sporeggar|QID|9708|M|19.11,63.51;15.33,61.15|CN|N|Kill giants; turn in 10 Mature Spore Sacs (easiest to do, 2-3 turn-ins should get you friendly), or 6 Bog Lord Tendrils to Fahssn until you are friendly with Sporeggar.|REP|Sporreggar;970;unfriendly-neutral|
 A Now That We're Friends...|QID|9726|M|19.54,50.04|N|From Gzhun'tt.|
-C Gathering the Reagents|N|Kill and loot Marsh Walkers, Fen Striders and Sporebats, until you finish this quest.|M|63.00,51.0|QID|9801|S|
+C Gathering the Reagents|N|Kill and loot Fen Striders and Sporebats, until you finish this quest.|M|63.00,51.0|QID|9801|S|
 T Familiar Fungi|M|23.30,66.2|QID|9708|N|To Watcher Leesa'oh.|
 A Stealing Back the Mushrooms|QID|9709|PRE|9708|M|23.3,66.2|N|From Watcher Leesa'oh.|
 T The Count of the Marshes|QID|9911|M|23.3,66.2|N|To Watcher Leesa'oh.|

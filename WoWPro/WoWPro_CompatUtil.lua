@@ -173,3 +173,13 @@ function WoWPro.SuperTrack_SetSuperTrackedQuestID(questID)
         return _G.SetSuperTrackedQuestID(questID)
     end
 end
+
+function WoWPro.SetResizeBounds(frame, minWidth, minHeight, maxWidth, maxHeight)
+    -- frame:SetResizeBounds(minWidth, minHeight, maxWidth, maxHeight) -- broken in 10.0.0.45335
+    if not frame.SetResizeBounds then
+        frame:SetMinResize(minWidth, minHeight)
+        if maxWidth then
+            frame:SetMaxResize(maxWidth, maxHeight)
+        end
+    end
+end

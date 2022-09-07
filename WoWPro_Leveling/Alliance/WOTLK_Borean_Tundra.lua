@@ -145,9 +145,9 @@ A Picking Up the Pieces|QID|11609|PRE|11607|N|From Elder Atkanok|M|54.69,35.69|
 C Picking Up the Pieces|QID|11609|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|S|
 T Reclaiming the Quarry|QID|11612|N|To Etaruk|M|54.3,36.1|
 A Hampering Their Escape|QID|11617|PRE|11612|N|From Etaruk|M|54.3,36.1|
-N East Platform|QID|11617|QO|1|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the East Platform from here.|M|52.44,35.31|; East Platform Destroyed: 1/1
-N West Platform|QID|11617|QO|1|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the West Platform from here.|M|50.48,34.84|; West Platform Destroyed: 1/1
-C Hampering Their Escape|QID|11617|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the North Platform from below it.|M|51.91,31.86|
+C East Platform|QID|11617|QO|1|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the East Platform from here.|M|52.44,35.31|; East Platform Destroyed: 1/1
+C West Platform|QID|11617|QO|3|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the West Platform from here.|M|50.48,34.84|; West Platform Destroyed: 1/1
+C North Platform|QID|11617|QO|2|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the North Platform from below it.|M|51.91,31.86|
 C Picking Up the Pieces|QID|11609|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|US|
 T Picking Up the Pieces|QID|11609|N|To Elder Atkanok|M|54.69,35.69|
 A Leading the Ancestors Home|QID|11610|PRE|11609|N|From Elder Atkanok|M|54.69,35.69|

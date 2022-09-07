@@ -73,11 +73,11 @@ M [item=4339/Bolt of Mageweave]|QID|197003865|P|Tailoring;197;0+185;1|ITEM|4339|
 = Learn Recipe|QID|1970001851|P|Tailoring;197;0+185|RECIPE|8791|N|Learn [spell=8791/Crimson Silk Vest] Recipe, from Trainer.|
 M [item=7058/Crimson Silk Vest]|QID|197008791|P|Tailoring;197;0+205;1|ITEM|7058|CRAFT|8791 20|MATS|4305 4;2604 2;2321 2|
 = Learn Recipe|QID|1970001951|P|Tailoring;197;0+195|RECIPE|8799|N|Learn [spell=8799/Crimson Silk Pantaloons] Recipe, from Trainer.|
+= Learn [spell=12180/Artisan Tailor]|QID|171012180|M|66.2,51.6|Z|1445|P|Tailoring;197;0+200|SPELL|Artisan Tailoring;12180|LVL|35|T|Timothy Worthington|N|Visit Timothy Worthington, Master Tailor Trainer in Dustwallow Marsh.|FACTION|Alliance|
+= Learn [spell=12180/Artisan Tailor]|QID|171012180|M|63.8,20.8|Z|1424|P|Tailoring;197;0+200|SPELL|Artisan Tailoring;12180|LVL|35|T|Daryl Stack|N|Visit Daryl Stack, Master Tailor Trainer in Hillsbrad Foothills.|FACTION|Horde|
 M [item=7062/Crimson Silk Pantaloons]|QID|197008799|P|Tailoring;197;0+215;1|ITEM|7062|CRAFT|8799 10|MATS|4305 4;2604 2;4291 2|
 = Learn Recipe|QID|1970002151|P|Tailoring;197;0+215|RECIPE|12061|N|Learn [spell=12061/Orange Mageweave Shirt] Recipe, from Trainer.|
 M [item=10056/Orange Mageweave Shirt]|QID|197012061|P|Tailoring;197;0+220;1|ITEM|10056|CRAFT|12061 5|MATS|4339 1;6261 1;8343 1|
-= Learn [spell=12180/Artisan Tailor]|QID|171012180|M|66.2,51.6|Z|1445|P|Tailoring;197;0+200|SPELL|Artisan Tailoring;12180|LVL|35|T|Timothy Worthington|N|Visit Timothy Worthington, Master Tailor Trainer in Dustwallow Marsh.|FACTION|Alliance|
-= Learn [spell=12180/Artisan Tailor]|QID|171012180|M|63.8,20.8|Z|1424|P|Tailoring;197;0+200|SPELL|Artisan Tailoring;12180|LVL|35|T|Daryl Stack|N|Visit Daryl Stack, Master Tailor Trainer in Hillsbrad Foothills.|FACTION|Horde|
 = Learn Recipe|QID|1970002151|P|Tailoring;197;0+215|RECIPE|12053|N|Learn [spell=12053/Black Mageweave Gloves] Recipe, from Trainer.|
 M [item=10003/Black Mageweave Gloves]|QID|197012053|P|Tailoring;197;0+230;1|ITEM|10003|CRAFT|12053 10|MATS|4339 2;8343 2|
 = Learn Recipe|QID|1970002301|P|Tailoring;197;0+230|RECIPE|12072|N|Learn [spell=12072/Black Mageweave Headband] Recipe, from Trainer.|

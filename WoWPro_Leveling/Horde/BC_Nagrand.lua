@@ -96,10 +96,10 @@ T Clefthoof Mastery|QID|9850|M|71.55,40.76|N|To Hemet Nesingwary.|
 A Clefthoof Mastery|QID|9851|M|71.55,40.76|N|From Hemet Nesingwary.|PRE|9850|
 T Windroc Mastery|QID|9855|M|71.55,40.54|N|To Shado 'Fitz' Farstrider.|
 A Windroc Mastery|QID|9856|M|71.55,40.54|N|From Shado 'Fitz' Farstrider.|PRE|9855|
-U Blessing of Incineratus|QID|9805|QO|1|M|72.36,50.49|N|Go inside the Large Hut and use the Living Fire.|U|24467|
-U Blessing of Incineratus|QID|9805|QO|2|M|70.75,51.14|N|Go inside the Western Hut and use the Living Fire.|U|24467|
-U Blessing of Incineratus|QID|9805|QO|3|M|71.46,52.95|N|Go inside the Southern Hut and use the Living Fire.|U|24467|
-U Blessing of Incineratus|QID|9805|QO|4|M|72.76,54.72|N|Go inside the Eastern Hut and use the Living Fire.|U|24467|
+U Blessing of Incineratus|ACTIVE|9805|QO|1|M|72.36,50.49|N|Go inside the Large Hut and use the Living Fire.|U|24467|
+U Blessing of Incineratus|ACTIVE|9805|QO|2|M|70.75,51.14|N|Go inside the Western Hut and use the Living Fire.|U|24467|
+U Blessing of Incineratus|ACTIVE|9805|QO|3|M|71.46,52.95|N|Go inside the Southern Hut and use the Living Fire.|U|24467|
+U Blessing of Incineratus|ACTIVE|9805|QO|4|M|72.76,54.72|N|Go inside the Eastern Hut and use the Living Fire.|U|24467|
 C Proving Your Strength|QID|10479|M|73.36,69.49|S|N|Kill and loot Ogres to get Obsidian Warbeads.|
 C Message in a Battle|QID|9906|M|73.36,69.49|N|Kill ogres until you finish.|S|
 C Standards and Practices|QID|9910|QO|1|M|72.25,69.95|NC|N|Place the Standard at the First Burning Blade Pyre.|U|25458|

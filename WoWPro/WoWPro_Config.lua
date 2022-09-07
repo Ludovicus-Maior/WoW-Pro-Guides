@@ -21,7 +21,7 @@ function WoWPro:SetDefaults()
     -- MainFrame --
     WoWPro.MainFrame:SetHeight(300)
     WoWPro.MainFrame:SetWidth(200)
-    WoWPro.MainFrame:SetMinResize(150,40)
+    WoWPro.SetResizeBounds(WoWPro.MainFrame, 150, 40)
     WoWPro.MainFrame:ClearAllPoints()
     WoWPro.MainFrame:SetPoint("TOPLEFT", _G.UIParent, "RIGHT", -210, 175)
 

@@ -58,16 +58,16 @@ M [item=38953/Enchant Gloves - Precision]|QID|333044488|P|Enchanting;333;2+45;1|
 = Learn Recipe|QID|333000451|P|Enchanting;333;2+45|RECIPE|44509|N|Learn [spell=44509/Enchant Chest - Greater Versatility] Recipe from Trainer.|
 M [item=38962/Enchant Chest - Greater Versatility]|QID|333044509|P|Enchanting;333;1+55;1|ITEM|38962|CRAFT|44509 10|MATS|34054 4;34056 4;38682 1|
 = Learn Recipe|QID|333000501|P|Enchanting;333;2+50|RECIPE|60668|N|Learn [spell=60668/Enchant Gloves - Crusher] Recipe from Trainer.|
-M [item=44458/Enchant Gloves - Crusher]|QID|333060668|P|Enchanting;333;1+60;1|ITEM|44458|CRAFT|60668 5|MATS|34054 15;38682 1|
+M [item=44458/Enchant Gloves - Crusher]|QID|333060668|P|Enchanting;333;2+60;1|ITEM|44458|CRAFT|60668 5|MATS|34054 15;38682 1|
 B [spell=47672/Enchant Cloak - Mighty Stamina]|QID|333000006|M|38.39,41.07|Z|125|P|Enchanting;333;2+55|RECIPE|47672|N|Purchase [item=44471/Forumla: Enchant Cloak - Mighty Stamina] from Vanessa Sellers, Simply Enchanting, Dalaran - Northrend.|
 U Learn Recipe|QID|333000551|P|Enchanting;333;2+55|RECIPE|47672|U|44471|N|Use [item=44471/Forumla: Enchant Cloak - Mighty Stamina] to learn [spell=47672/Enchant Cloak - Mighty Stamina] Recipe.|
-M [item=39001/Enchant Cloak - Mighty Stamina]|QID|333047672|P|Enchanting;333;1+65;1|ITEM|39001|CRAFT|47672 5|MATS|34054 15;34055 2;38682 1|
+M [item=39001/Enchant Cloak - Mighty Stamina]|QID|333047672|P|Enchanting;333;2+65;1|ITEM|39001|CRAFT|47672 5|MATS|34054 15;34055 2;38682 1|
 B [spell=44631/Enchant Cloak - Shadow Armor]|QID|333000006|M|38.39,41.07|Z|125|P|Enchanting;333;2+65|RECIPE|44631|N|Purchase [item=37349/Forumla: Enchant Cloak - Shadow Armor] from Vanessa Sellers, Simply Enchanting, Dalaran - Northrend.|
 B [spell=47899/Enchant Cloak - Wisdom]|QID|333000006|M|38.39,41.07|Z|125|P|Enchanting;333;2+65|RECIPE|47899|N|Purchase [item=44488/Forumla: Enchant Cloak - Wisdom] from Vanessa Sellers, Simply Enchanting, Dalaran - Northrend.|
 U Learn Recipe|QID|333000651|P|Enchanting;333;2+65|RECIPE|44631|U|37349|N|Use [item=37349/Forumla: Enchant Cloak - Shadow Armor] to learn [spell=44631/Enchant Cloak - Shadow Armor] Recipe.|
 U Learn Recipe|QID|333000652|P|Enchanting;333;2+65|RECIPE|47899|U|44488|N|Use [item=44488/Forumla: Enchant Cloak - Wisdom] to learn [spell=47899/Enchant Cloak - Wisdom] Recipe.|
-M [item=39004/Enchant Cloak - Wisdom]|QID|333047899|P|Enchanting;333;1+75;1|ITEM|39004|CRAFT|47899 10|MATS|34055 6;34057 1;38682 1|N|You can either make this one, or the next Recipe, or even some of both.|
-M [item=38993/Enchant Cloak - Shadow Armor]|QID|333044631|P|Enchanting;333;1+75;1|ITEM|38993|CRAFT|44631 10|MATS|34054 12;34057 1;38682 1|
+M [item=39004/Enchant Cloak - Wisdom]|QID|333047899|P|Enchanting;333;2+75;1|ITEM|39004|CRAFT|47899 10|MATS|34055 6;34057 1;38682 1|N|You can either make this one, or the next Recipe, or even some of both.|
+M [item=38993/Enchant Cloak - Shadow Armor]|QID|333044631|P|Enchanting;333;2+75;1|ITEM|38993|CRAFT|44631 10|MATS|34054 12;34057 1;38682 1|
 N Congratulations|QID|333000010|N|You've reached at 75 in Northrend Enchanting.|
 ]]
 end)

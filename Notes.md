@@ -1,3 +1,33 @@
+# Release 2020.09.07.A
+## Bug Fixes
+* Fixed Wrath detection
+* Do not use CHROMIE-TIME-CLOSE, which is gone in DF
+* Change from OptionsButtonTemplate to UIPanelButtonTemplate, which is gone in DF
+* fureeous: Explosions in DF using SetMinResize().
+* Update to HereBeDragons 2.09
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Legion Intro, Borean Tundra, Wrath Intro
+* Horde: Nagrand
+* Neutral: DK Order Hall, Bastion
+
+### Classic
+* New dungeon guides are in the oven.  Not ready yet!
+
+### WotLK
+* Achievements: Exploration+General backported from Retail
+* Dailies: Wrath dailies backported from Retail
+* Alliance: Dungeon Guides, Draenai+DwarfGnome+Human+Nelf Intros, Darkshore 10-19, Alliance 19-25, 20-41, Borean Tundra, Storm Peaks,
+* Neutral: Netherstorm, DK Intro
+* Horde: Hellfire Peninsula, Ghostlands, Ragefire Chasm
+
+### Professions
+* Classic: Enchanting, Tailoring
+* BC: Alchemy, Enchanting, Engineering, Tailoring
+* Wrath: Alchemy, Blacksmithing, Enchanting, Engineering, First Aid, Inscription, Jewelcrafting, Leatherworking, Tailoring
+
+
 # Release 9.2.7-A1 / 1.14.3-A4 / 2.5.4-A5 / 3.4.0-A1
 ## Bug Fixes
 * Updated Interfaces for Retail and Wrath

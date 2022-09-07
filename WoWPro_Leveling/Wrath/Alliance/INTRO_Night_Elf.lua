@@ -1,14 +1,13 @@
-local guide = WoWPro:RegisterGuide("TarTel0112", "Leveling", "Teldrassil", "WowPro Team", "Alliance", 3)
-WoWPro:GuideNickname(guide, "Teldrassil")
-WoWPro:GuideName(guide, "Teldrassil")
-WoWPro:GuideNextGuide(guide, "SveBlo1220")
+local guide = WoWPro:RegisterGuide("WOTLK_INTRO_NE", "Leveling", "Teldrassil", "WowPro Team", "Alliance", 3)
+WoWPro:GuideName(guide, "Night Elf Intro")
+WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Darkshore")
 WoWPro:GuideLevels(guide, 1, 12)
 WoWPro:GuideSteps(guide, function()
 return [[
-A The Balance of Nature|QID|456|M|58.69,44.27|N|From Conservator Ilthalaine in front of you.|
+A The Balance of Nature|QID|456|M|58.61,44.72|N|From Conservator Ilthalaine in front of you.|
 C The Balance of Nature|QID|456|N|Kill Young Nightsabers and Young Thistle Boars.|
-r Sell and Repair|AVAILABLE|4495|N|Sell and Repair with Keina in Aldrassil.|
-T The Balance of Nature|QID|456|M|58.68,44.27|N|To Conservator Ilthalaine.|
+r Sell and Repair|QID|4495|M|59.34,41.14|N|Sell and Repair with Keina in Aldrassil.|
+T The Balance of Nature|QID|456|M|58.61,44.72|N|To Conservator Ilthalaine.|
 
 A Simple Sigil|QID|3116|PRE|456|C|Warrior|M|58.69,44.27|N|From Conservator Ilthalaine.|
 A Etched Sigil|QID|3117|PRE|456|C|Hunter|M|58.69,44.27|N|From Conservator Ilthalaine.|
@@ -46,13 +45,13 @@ A Iverron's Antidote|QID|3521|PRE|3519|M|60.90,41.96|N|From Dirania Silvershine.
 C Hyacinth Mushrooms|QID|3521|M|55.00,43.20|CN|S|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
 C The Balance of Nature|QID|457|US|M|62.38,38.36|N|Kill Mangy Nightsabers and Thistle Boars.|
 C Webwood Ichor|QID|3521|M|56.80,31.60|CN|QO|3|N|Kill Spiders until you get the Webwood Ichor.|
-C Webwood Venom|QID|916|US|QO|1|N|Kill and loot Webwood Spiders.|
+C Webwood Venom|QID|916|US|QO|1|M|56.47,29.61|N|Kill and loot Webwood Spiders.|
 C Moonpetal Lilies|QID|3521|M|57.69,37.59|QO|2|N|You should find plenty of Moonpetal Lilies at the lake.|
 C Hyacinth Mushrooms|QID|3521|M|55.00,43.20|CN|US|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
 
 T Webwood Venom|QID|916|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Webwood Egg|QID|917|PRE|916|M|57.81,41.65|N|From Gilshalan Windwalker.|
-T The Balance of Nature|QID|457|M|58.69,44.27|N|To Conservator Ilthalaine.|
+T The Balance of Nature|QID|457|M|58.61,44.72|N|To Conservator Ilthalaine.|
 
 r Sell and Repair|AVAILABLE|3522|S|N|Sell Junk and Repair.|
 T Iverron's Antidote|QID|3521|M|60.90,41.96|N|To Dirania Silvershine.|
@@ -66,7 +65,7 @@ T Webwood Egg|QID|917|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Tenaron's Summons|QID|920|PRE|917|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T Tenaron's Summons|QID|920|M|59.06,39.44|N|To Tenaron Stormgrip, run up the ramp outside the tree.|
 A Crown of the Earth|QID|921|PRE|920|M|59.06,39.44|N|From Tenaron Stormgrip.|
-C Crown of the Earth|QID|921|M|58.78,38.80;57.48,41.66;59.88,33.33|CS|U|5185|NC|N|Head back down the ramp to the bottom and run north to the Moonwell. Use the crystal phial at the moonwell.|
+U Crown of the Earth|QID|921|M|58.78,38.80;57.48,41.66;59.88,33.33|CS|U|5185|QO|1|NC|N|Head back down the ramp to the bottom and run north to the Moonwell. Use the crystal phial at the moonwell.|
 T Crown of the Earth|QID|921|M|57.53,41.64;58.78,38.80;58.44,40.79;59.06,39.44|CS|N|To Tenaron Stormgrip.|
 A Crown of the Earth|QID|928|PRE|921|M|59.06,39.44|N|From Tenaron Stormgrip.|
 
@@ -104,7 +103,7 @@ C Garments of the Moon|QID|5621|C|Priest|M|57.24,63.50|N|Heal Sentinel Shaya wit
 T Garments of the Moon|QID|5621|C|Priest|M|55.56,56.75|N|To Laurana Morninglight.|
 N Professions|QID|475|S|M|57.47,60.60|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you will have one hell of a detour to take). Others are in Darnassus.|
 C Recipe of the Kaldorei|QID|4161|S|N|Kill spiders along the way until you have 7 Small Spider Legs.|
-C Crown of the Earth|QID|929|M|63.35,58.11|NC|U|5619|N|At the moonwell to the east.|
+U Crown of the Earth|QID|929|M|63.35,58.11|QO|1|NC|U|5619|N|At the moonwell to the east.|
 T A Troubling Breeze|QID|475|M|66.26,58.55|N|To Gaerolas Talvethren, Second floor of the first building to your right.|
 A Gnarlpine Corruption|QID|476|PRE|475|M|66.26,58.55|N|From Gaerolas Talvethren|
 C The Emerald Dreamcatcher|QID|2438|M|68.00,59.61|NC|L|8048|N|Inside the small house in the dresser to the right from the entrance.|
@@ -175,19 +174,19 @@ T Rellian Greenspyre|QID|922|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
 A Tumors|QID|923|PRE|922|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
 R Teldrassil|QID|933|M|88.39,35.55|Z|Darnassus|CC|N|Head back to Teldrassil.|
 
-C Crown of the Earth|QID|933|NC|M|42.40,67.08|U|5621|N|Fill the Tourmaline Phial at the moonwell.|
+U Crown of the Earth|QID|933|QO|1|NC|M|42.40,67.08|U|5621|N|Fill the Tourmaline Phial at the moonwell.|
 R Ban'ethil Hollow|QID|487|ACTIVE|487|M|40.35,54.03;43.35,53.95|CS|N|Head to Ban'ethil Hollow (a cave just south of the road)|
 C The Road to Darnassus|QID|487|M|46,52|N|Kill the Gnarlpine Ambushers.|
 
 R Ban'ethil Barrow Den|QID|483|ACTIVE|483|M|44.33,57.93|N|Enter Ban'ethil Barrow Den.|
-C Rune of Nesting|QID|483|M|44.4,60.7|QO|4|NC|L|3408|N|Follow the path down, then across the bridge, box is on right in chamber.|
+C Rune of Nesting|QID|483|M|44.4,60.7|QO|4|L|3408|N|Follow the path down, then across the bridge, box is on right in chamber.|
 C Black Feather Quill|QID|483|M|43.73,61.23|QO|2|L|3406|N|Back across the bridge, then take bridge to the left, box is on right in chamber|
 
 A The Sleeping Druid|QID|2541|M|44.95,61.59|N|Jump down the lower floor, turn left to the chamber then across bridge. From Oben Rageclaw.|
 C The Sleeping Druid|QID|2541|S|L|8363|N|Kill Gnarlpine Shamans until one of them drops a Shaman Voodoo Charm. This may take a long time.|
-C Sapphire of Sky|QID|483|M|44.69,62.45|QO|3|N|Back across bridge, turn right, then right again. The chest is on floor next to Greenpaw. Note, Greenpaw is a Level 10 and hits hard.|
-R Up the ramp|QID|483|M|45.39,58.00;46.15,58.37|CC|L|3405|N|On the opposite side of the second chamber. Watch out for Ravenclaw who patrols around the lower level.|
-C Raven Claw Talisman|QID|483|M|45.65,57.45|QO|1|N|Further on the passageway, when it gets to the cavern, go left up the ramp, then right across the bridge. The chest is on the balcony.|
+C Sapphire of Sky|QID|483|M|44.69,62.45|QO|3|L|3407|N|Back across bridge, turn right, then right again. The chest is on floor next to Greenpaw. Note, Greenpaw is a Level 10 and hits hard.|
+R Up the ramp|QID|483|M|45.39,58.00;46.15,58.37|CC|N|On the opposite side of the second chamber. Watch out for Ravenclaw who patrols around the lower level.|
+C Raven Claw Talisman|QID|483|M|45.65,57.45|QO|1|L|3405|N|Further on the passageway, when it gets to the cavern, go left up the ramp, then right across the bridge. The chest is on the balcony.|
 C The Sleeping Druid|QID|2541|US|L|8363|N|Kill Gnarlpine Shamans until one of them drops a Shaman Voodoo Charm. This may take a long time.|
 T The Sleeping Druid|QID|2541|M|44.95,61.59|N|To Oben Rageclaw.|
 A Druid of the Claw|QID|2561|PRE|2541|M|44.95,61.59|N|From Oben Rageclaw.|
@@ -232,7 +231,7 @@ A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|Darnassus|N|From Mydrannul.|
 T Elanaria|QID|1684|C|Warrior|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|
 A Vorlus Vilehoof|QID|1683|PRE|1684|C|Warrior|M|57.34,34.66|Z|Darnassus|N|From Elanaria.|
 
-h Darnassus|QID|923|C|Druid|M|67.42,15.69|N|Set your Hearthstone to Darnassus with Innkeeper Saelienne.|
+h Craftsmen's Terrace|QID|923|C|Druid|M|67.42,15.69|Z|Darnassus|N|Set your Hearthstone to Darnassus with Innkeeper Saelienne.|
 T Tumors|QID|923|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
 A Return to Denalan|QID|2498|PRE|923|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
 
@@ -282,7 +281,7 @@ A Tears of the Moon|QID|2518|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.
 T Returning Home|QID|5629|C|Priest|M|39.52,81.18|Z|Darnassus|N|To Priestess Alathea.|
 R Teldrassil|QID|7383|ACTIVE|7383|M|39.04,77.18;80.04,40.40;88.39,35.55|Z|Darnassus|CC|N|Exit the temple and head back to Teldrassil.|
 
-C Crown of the Earth|QID|7383|NC|M|38.44,34.06|U|18152|N|Fill the Amethyst Phial.|
+U Crown of the Earth|QID|7383|NC|M|38.44,34.06|QO|1|U|18152|N|Fill the Amethyst Phial.|
 A The Enchanted Glade|QID|937|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
 ; N Enchanting|M|36.72,34.18|N|If you want to learn enchanting the trainer is here.|
 

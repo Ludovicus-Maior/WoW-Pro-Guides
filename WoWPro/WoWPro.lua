@@ -206,7 +206,7 @@ end
 function WoWPro:LogDump(callback)
     if (not WoWProDB) or (not WoWProDB.global) or (not WoWProDB.global.Log) then return "" end
     _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating log")
-    WoWPro:Print("WoWPro Version %s.", WoWPro.Version)
+    WoWPro:Print("WoWPro Version %s, WoW Version/TOC %s/%d.", WoWPro.Version, _G.GetBuildInfo(), WoWPro.TocVersion)
     WoWPro:print("Class: %s, Race: %s, Faction: %s, Level %d, XP %d",
                  _G.UnitClass("player"), _G.UnitRace("player"),
                  WoWPro.Faction, _G.UnitLevel("player"), _G.UnitXP("player"))
@@ -1394,13 +1394,15 @@ end
 
 
 --- Release Function Compatability Section
-WoWPro.BC = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_BURNING_CRUSADE_CLASSIC
-WoWPro.CLASSIC = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC
-WoWPro.RETAIL = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_MAINLINE
-WoWPro.WRATH = _G.GetServerExpansionLevel() == 2 -- LUDO:  FIX ME!
-if WoWPro.WRATH then
-    WoWPro.BC = false  -- WOW_PROJECT_ID is wrong for now
-end
+repeat
+    local _, _, _, toc = _G.GetBuildInfo()
+    WoWPro.TocVersion = toc
+until WoWPro.TocVersion > 0
+
+WoWPro.CLASSIC = ((WoWPro.TocVersion > 10000) and (WoWPro.TocVersion < 20000))
+WoWPro.BC = ((WoWPro.TocVersion > 20000) and (WoWPro.TocVersion < 30000))
+WoWPro.WRATH = ((WoWPro.TocVersion > 30000) and (WoWPro.TocVersion < 40000))
+WoWPro.RETAIL = (WoWPro.TocVersion > 90000)
 
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false

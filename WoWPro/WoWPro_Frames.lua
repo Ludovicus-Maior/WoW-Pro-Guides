@@ -36,7 +36,7 @@ end
 function WoWPro:ResizeSet()
     -- Resize Customization --
     if WoWProDB.profile.resize then WoWPro.resizebutton:Show() else WoWPro.resizebutton:Hide() end
-    WoWPro.MainFrame:SetMinResize(WoWProDB.profile.hminresize,WoWProDB.profile.vminresize)
+    WoWPro.SetResizeBounds(WoWPro.MainFrame, WoWProDB.profile.hminresize, WoWProDB.profile.vminresize)
     if WoWPro.MainFrame:GetWidth() < WoWProDB.profile.hminresize then
         -- MainFrame --
         WoWPro.MainFrame:SetWidth(WoWProDB.profile.hminresize)
@@ -412,7 +412,7 @@ function WoWPro:CreateMainFrame()
     frame:SetClampedToScreen(true)
     frame:SetHeight(300)
     frame:SetWidth(200)
-    frame:SetMinResize(150,40)
+    WoWPro.SetResizeBounds(frame, 150, 40)
     frame:SetPoint("TOPLEFT", _G.UIParent, "RIGHT", -210, 175)
     frame:EnableMouseWheel()
     WoWPro.MainFrame = frame
@@ -725,7 +725,7 @@ function WoWPro:CreateSkipStepsDialog()
     explanation:SetWidth(frame:GetWidth()-20)
     explanation:SetTextColor(1, 1, 1)
 
-    local button1 = _G.CreateFrame("Button", "WoWPro_SkipOkay", frame, "OptionsButtonTemplate")
+    local button1 = _G.CreateFrame("Button", "WoWPro_SkipOkay", frame, "UIPanelButtonTemplate")
     button1:SetPoint("TOP", titletext, "BOTTOM", 0, -5)
     button1:SetHeight(25)
     button1:SetWidth(160)
@@ -738,7 +738,7 @@ function WoWPro:CreateSkipStepsDialog()
         WoWPro.SkipStepsDialog:Hide()
     end)
 
-    local button2 = _G.CreateFrame("Button", "WoWPro_SkipCancel", frame, "OptionsButtonTemplate")
+    local button2 = _G.CreateFrame("Button", "WoWPro_SkipCancel", frame, "UIPanelButtonTemplate")
     button2:SetPoint("TOP", titletext, "BOTTOM", 0, -30)
     button2:SetHeight(25)
     button2:SetWidth(160)
@@ -777,7 +777,7 @@ function WoWPro:CreateNextGuideDialog()
 
     local frame = WoWPro:CreateDialogBox("WoWPro_GuideCompleted", 180, 150)
 
-    local button1 = _G.CreateFrame("Button", "WoWPro_LoadNextGuide", frame, "OptionsButtonTemplate")
+    local button1 = _G.CreateFrame("Button", "WoWPro_LoadNextGuide", frame, "UIPanelButtonTemplate")
     button1:SetPoint("BOTTOMLEFT", 10, 80)
     button1:SetHeight(25)
     button1:SetWidth(160)
@@ -791,7 +791,7 @@ function WoWPro:CreateNextGuideDialog()
         WoWPro.NextGuideDialog:Hide()
     end)
 
-    local button2 = _G.CreateFrame("Button", "WoWPro_OpenLevelingGuidelist", frame, "OptionsButtonTemplate")
+    local button2 = _G.CreateFrame("Button", "WoWPro_OpenLevelingGuidelist", frame, "UIPanelButtonTemplate")
     button2:SetPoint("BOTTOMLEFT", 10, 45)
     button2:SetHeight(25)
     button2:SetWidth(160)
@@ -806,7 +806,7 @@ function WoWPro:CreateNextGuideDialog()
         WoWPro.NextGuideDialog:Hide()
     end)
 
-    local button3 = _G.CreateFrame("Button", "WoWPro_ResetGuide", frame, "OptionsButtonTemplate")
+    local button3 = _G.CreateFrame("Button", "WoWPro_ResetGuide", frame, "UIPanelButtonTemplate")
     button3:SetPoint("BOTTOMLEFT", 10, 10)
     button3:SetHeight(25)
     button3:SetWidth(160)

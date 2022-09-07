@@ -24,11 +24,12 @@ A A Pact of Necessity|QID|40715|M|73.11,46.85|Z|Dalaran!Dalaran!Dungeon|N|From D
 C A Pact of Necessity|QID|40715|NC|QO|1|M|73.11,46.85|Z|Dalaran!Dalaran!Dungeon|N|Choose which artifact path you want, the next one will be available when reach level 102).|
 T A Pact of Necessity|QID|40715|M|73.11,46.85|Z|Dalaran!Dalaran!Dungeon|N|To Duke Lankral.|
 A Artifact Specific Quest|QID|40930^40740^38990|M|73.11,46.85|Z|Dalaran!Dalaran!Dungeon|N|From UI (Lich King).|PRE|40715|
+
 ;chapter I order hall
 ;44550-Called to Acherus
 R Acherus: The Ebon Hold|QID|44550|N|Use your Deathgate|ACTIVE|44550|
 T Called to Acherus|QID|44550|M|49.66,51.25|N|To Siouxsie the Banshee.|
-A Rise, Champions|QID|43264|M|51.08,50.78|N|From Highlord Darion Mograine.|PRE|44550|
+A Rise, Champions|QID|43264|M|51.08,50.78|N|From Highlord Darion Mograine.|
 A Champion: Nazgrim|QID|39818|M|39.49,68.31|N|Pick Up Nazgrim as a follower.|ACTIVE|43264|
 A Champion: Thassarian|QID|39816|M|56.20,30.86|N|Pick up Thassarian as a follower.|ACTIVE|43264|
 T Rise, Champions|QID|43264|M|49.66,51.25|N|To Siouxsie the Banshee.|
@@ -129,10 +130,10 @@ U Knights of the Ebon Blade|ACTIVE|44082|M|53.29,68.53|Z|The Heart of Acherus@Br
 T Knights of the Ebon Blade|QID|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|To Korgaz Deadaxe.|
 A The Nightmare Lash|QID|43572|M|98.8,59.2|Z|The Heart of Acherus@BrokenShore|NA|N|From Salanar the Horseman. This is a dungeon quests, so queue or find friends.|PRE|44082|
 t The Nightmare Lash|QID|43572|M|98.8,59.2|Z|The Heart of Acherus@BrokenShore|N|To Salanar the Horseman.|
-;upon first hitting 110
-A Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|From Quartermaster Ozorg.|
+;upon first hitting 45
+A Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|From Quartermaster Ozorg.|LVL|45|
 T Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|To Quartermaster Ozorg.|
-;lvl 110 DK Campaign
+;lvl 45 DK Campaign
 A The Scarlet Assault|QID|42818|M|50.98,50.74|NA|N|From Highlord Darion Mograine. This is a completed a special instance of the Scarlet Monestary.|PRE|43572|
 P Dalaran|QID|42818|M|24.91,33.65|N|Use the Dalaran Portal.|ACTIVE|42818|
 P Undercity|QID|42818|M|55.89,22.88|Z|Dalaran!Dalaran!Dungeon|N|Take the Undercity Portal.|FACTION|HORDE|ACTIVE|42818|
@@ -161,21 +162,21 @@ A Vault of the Wardens: A Masterpiece of Flesh|QID|44286|M|63.17,69.42|N|From Lo
 A Champion: High Inquisitor Whitemane|QID|44245|M|44.72,72.88|N|From/To High Inquisitor Whitemane.|PRE|42824|
 t Vault of the Wardens: A Masterpiece of Flesh|QID|44286|M|63.17,69.42|N|To Lord Thorval.|
 A Champion: Rottgut|QID|44246|M|64.09,69.21|N|From/To Rottgut.|PRE|44286|
-A Goddess Watch Over You|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|
+A Goddess Watch Over You|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|45|PRE|40890|
 C Goddess Watch Over You|QID|44338^44338|N|You need to do the main Val'sharah quest line to complete this quest.|
 t Goddess Watch over You|QID|44337^44338|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|40890|
 R Death Gate|QID|44448|M|28.43,40.38|Z|Dalaran!Dalaran!Dungeon|N|Return to your order hall.|ACTIVE|44448|
 C In the House of Light and Shadow|QID|44448|M|54.22,74.67|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
-A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|
-C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran!Dalaran!Dungeon|QO|1|N|1/1 Handful of Obliterum Ash|
-T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
-;lights heart - post 110
+;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|
+;C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran!Dalaran!Dungeon|QO|1|N|1/1 Handful of Obliterum Ash|
+;T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
+;lights heart - post 45
 A Awakenings|QID|44464|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart|PRE|44448|
 F Lorlathil|QID|44464|M|25.73,28.78|N|At Grimwing.|ACTIVE|44464|
 C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|
 T Awakenings|QID|44464|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|To Light's Heart back in your order hall.|
-;lights heart - post 110,requires AK>=2
+;lights heart - post 45,requires AK>=2
 A An Unclear Path|QID|44466|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart, Requires Artifact Knowledge >=2.|PRE|44153|;no way to limit this showing until you get AK=2
 F Garden of the Moon|QID|44466|M|25.73,28.78|N|At Grimwing.|ACTIVE|44466|
 R Emerald Bay|QID|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|ACTIVE|44466|
@@ -331,27 +332,27 @@ T The Call of Vengeance|QID|40935^40987|M|50.85,50.52|N|To Highlord Darion Mogra
 ; class hall after finishing first artifact
 ; Hall of Command@BrokenShore is the bottom floor, with flight master
 ; The Heart of Acherus@BrokenShore is the top floor
-A Keeping Your Edge|QID|39757|M|49.76,55.96|N|From Illanna Dreadmoore.|
-C Keeping Your Edge|QID|39757|QO|1|M|35.24,37.65|N|Take the teleporter to the second level of Acherus|
-T Keeping Your Edge|QID|39757|M|59.94,60.74|Z|The Heart of Acherus@BrokenShore|N|To Grand Master Siegesmith Corvus.|
-A Advanced Runecarving|QID|39761|M|59.94,60.74|Z|The Heart of Acherus@BrokenShore|N|From Grand Master Siegesmith Corvus.|PRE|39757|
-C Advanced Runecarving|QID|39761|M|60.34,59.98|Z|The Heart of Acherus@BrokenShore|NC|N|Use the Soul Forge to imbue your artifact|
-T Advanced Runecarving|QID|39761|M|59.94,60.74|Z|The Heart of Acherus@BrokenShore|N|To Grand Master Siegesmith Corvus.|
-A Plans and Preparations|QID|39832|M|59.94,60.74|Z|The Heart of Acherus@BrokenShore|N|From Grand Master Siegesmith Corvus.|PRE|39761|
-T Plans and Preparations|QID|39832|M|49.66,51.25|N|Back "downstairs" To Siouxsie the Banshee.|
+;A Keeping Your Edge|QID|39757|M|49.76,55.96|N|From Illanna Dreadmoore.|
+;C Keeping Your Edge|QID|39757|QO|1|M|35.24,37.65|N|Take the teleporter to the second level of Acherus|
+;T Keeping Your Edge|QID|39757|M|59.94,60.74|Z|The Heart of Acherus@BrokenShore|N|To Grand Master Siegesmith Corvus.|
+;A Advanced Runecarving|QID|39761|M|59.94,60.74|Z|The Heart of Acherus@BrokenShore|N|From Grand Master Siegesmith Corvus.|PRE|39757|
+;C Advanced Runecarving|QID|39761|M|60.34,59.98|Z|The Heart of Acherus@BrokenShore|NC|N|Use the Soul Forge to imbue your artifact|
+;T Advanced Runecarving|QID|39761|M|59.94,60.74|Z|The Heart of Acherus@BrokenShore|N|To Grand Master Siegesmith Corvus.|
+A Plans and Preparations|QID|39832|M|50.83,50.32|Z|648|N|From Highlord Darion Mograine.|
+T Plans and Preparations|QID|39832|M|49.66,51.25|Z|648|N|To Siouxsie the Banshee.|
 A Our Next Move|QID|39799|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|39832|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|49.66,51.25|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|39799|
 T Our Next Move|QID|39799|M|49.66,51.25|N|To Siouxsie the Banshee.|
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
-A Return of the Four Horsemen|QID|42449|M|50.85,50.52|N|From Highlord Darion Mograine.(Wait a minute or so for dialog to finish and then this becomes available.)|
-f Acherus Hold|QID|42449|M|25.61,28.81|N|At Grimwing.|
+A Return of the Four Horsemen|QID|42449|M|50.85,50.52|N|From Highlord Darion Mograine.(Wait a minute or so for dialog to finish and then this becomes available.)|PRE|39799|
+f Acherus: The Ebon Hold|ACTIVE|42449|M|25.61,28.81|N|At Grimwing.|
 P Dalaran|QID|42449|M|24.67,33.69|N|The portal is out by the flightmaster.|ACTIVE|42449|
 P Graymane Enclave|QID|42449|M|47.2,17.8|Z|Dalaran!Dalaran!Dungeon|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjel questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjel portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|42449|
 P Windrunner's Sanctuary|QID|42449|M|55.33,24.04|Z|Dalaran!Dalaran!Dungeon|N|Take the portal to Orgrimar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|42449|
 R Durotar|QID|42449|M|47.32,17.67|Z|Durotar|N|Hop on your mount and fly to Thassarian in Durotar.|ACTIVE|42449|
-T w Four Horsemen|QID|42449|M|47.32,17.67|Z|Durotar|N|To Thassarian.|
+T Return of the Four Horsemen|QID|42449|M|47.32,17.67|Z|Durotar|N|To Thassarian.|
 A The Firstborn Rises|QID|42484|M|47.32,17.67|Z|Durotar|N|From Thassarian.|PRE|42449|
 C The Firstborn Rises|QID|42484|M|47.32,17.84|Z|Durotar|NC|N|Stand in the middle of the stones and use your extra action button to raise Nazgrim to Death Knighthood.|
 P Acherus: The Ebon Hold|QID|42484|M|47.33,17.83|CC|Z|Durotar|N|Use the provided Death-Gate to return to your class hall.|ACTIVE|42484|

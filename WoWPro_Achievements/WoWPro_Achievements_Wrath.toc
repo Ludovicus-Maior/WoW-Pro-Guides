@@ -7,9 +7,8 @@
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
 WoWPro_Achievements.lua
-Exploration\Guides.xml
-General\Guides.xml
-Quests\Guides.xml
+Classic_Wrath\Exploration\Guides.xml
+Classic_Wrath\General\Guides.xml
 WoWPro_Achievements_Parser.lua
 WoWPro_Achievements_Config.lua
 WoWPro_Achievements_GuideList.lua

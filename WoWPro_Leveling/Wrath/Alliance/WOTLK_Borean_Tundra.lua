@@ -4,7 +4,7 @@ WoWPro:GuideLevels(guide,68, 72)
 WoWPro:GuideNextGuide(guide, "Dragonblight")
 WoWPro:GuideSteps(guide, function()
 return [[
-B Overcharged Capacitor|QID|11650|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest leads to two further quests, so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|M|62.9,71.7|Z|Stormwind City|
+B Overcharged Capacitor|QID|11650|M|60.80,71.38|Z|Stormwind City|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest leads to two further quests, so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|
 R Stormwind Harbor|QID|11672|M|27.06,25.50|N|Go to Stormwind Harbor.|Z|Stormwind City|
 b Borean Tundra|QID|11672|M|18.01,25.48|Z|Stormwind City|N|Take the boat from the north dock to get to Valiance Keep.|
 f Valiance Keep|QID|11672|M|58.94,68.30|Z|Borean Tundra|N|Get the flight path at Valiance Keep.|

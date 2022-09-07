@@ -20,10 +20,10 @@ return [[
 ; This Guide contains Zone IDs - Z|1454;Orgrimmar|IZ|1637|, Z|1458;Undercity|IZ|1497|, Z|1411;Durotar|IZ|14|, Z|1954;SilvermoonCity|IZ|3487|, Z|1453;StormwindCity|IZ|1519|,
 ;       Z|1455;Ironforge|IZ|1537|, Z|1947;TheExodar|IZ|3557|, Z|1439;Darkshore|IZ|148|, Z|1943;AzuremystIsle|IZ|3524|, Z|1426;DunMorogh|IZ|1|, Z|1432;LochModan|IZ|38|,
 ;       Z|1431;Duskwood|IZ|10|, Z|1413;TheBarrens|IZ|17|, Z|1446;Tanaris|IZ|440|, Z|1944;HellfirePeninsula|IZ|3483|, Z|1946;Zangarmarsh|IZ|3521|, Z|1953;Netherstorm|IZ|3523|,
-;       Z|1955;ShattrathCity|IZ|3703, Z|1949;Blade's Edge Mountain|.
-;	(PRERELEASE) Updated to Classic - Wraith of the Lich King splits / new format on 23-Mar-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
+;       Z|1955;ShattrathCity|IZ|3703, Z|1949;Blade's Edge Mountain|, Z|114;Borean Tundra|IZ|3537|, Z|125;Dalaran!Crystalsong Forest|IZ|4395|
+;	(PRERELEASE) Updated to Classic - Wraith of the Lich King splits / new format on 18-Jul-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
-N This Guide|QID|202000001|N|is for Wraith of the Lich King in CLASSIC only. *** Vanilla - TBC - >WotLK<- not done yet, pre release file ***\nAlso ASSUMES you have the appropriate Skill|
+N This Guide|QID|202000001|N|is for Wraith of the Lich King in CLASSIC only. *** Vanilla -> TBC -> WotLK ***\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|202000002|N|In our Discord #WotLK-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|202000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can. ** Details do need to fleshed out still **|
 N Shopping List|QID|202000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Engineering 1 to 375.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
@@ -49,14 +49,25 @@ l [item=12365/Dense Stone]|QID|202000004|L|12365 60|ITEM|12365|N|You'll need abo
 l [item=12359/Thorium Bar]|QID|202000004|L|12359 135|ITEM|12359|N|You'll need about 135 Thorium Bar.|
 l [item=14047/Runecloth]|QID|202000004|L|14047 35|ITEM|14047|N|You'll need approx 35 Runecloth.|
 B [item=2880/Weak Flux]|QID|202000004|L|2880 25|ITEM|2880|N|You'll need approx 25 Weak Flux.|
-l [item=23445/Fel Iron Bar]|QID|202000004|L|23445 260|ITEM|23445|N|You'll need approx 260 Fel Iron Bar.|
-l [item=22573/Mote of Earth]|QID|202000004|L|22573 26|ITEM|22573|N|You'll need approx 26 Mote of Earth.|
-l [item=22574/Mote of Fire]|QID|202000004|L|22574 12|ITEM|22573|N|You'll need approx 12 Mote of Fire.|
-l [item=22452/Primal Earth]|QID|202000004|L|22452 30|ITEM|22452|N|You'll need approx 30 Primal Earth.|
-l [item=21877/Netherweave Cloth]|QID|202000004|L|21877 40|ITEM|21877|N|You'll need approx 40 Netherweave Cloth.|
-l [item=23446/Adamantite Bar]|QID|202000004|L|23446 160|ITEM|23446|N|You'll need approx 160 Adamantite Bar.|
-l [item=23449/Khorium Bar]|QID|202000004|L|23449 15|ITEM|23449|N|You'll need approx 15 Khorium Bar.|
-l [item=21884/Primal Fire]|QID|202000004|L|21884 5|ITEM|21884|N|You'll need approx 5 Primal Fire.|
+l [item=23445/Fel Iron Bar]|QID|202000004|L|23445 60|ITEM|23445|N|You'll need approx 60 Fel Iron Bar.|
+l [item=22573/Mote of Earth]|QID|202000004|L|22573 40|ITEM|22573|N|You'll need approx 40 Mote of Earth.|
+l [item=22574/Mote of Fire]|QID|202000004|L|22574 20|ITEM|22573|N|You'll need approx 20 Mote of Fire.|
+l [item=21877/Netherweave Cloth]|QID|202000004|L|21877 70|ITEM|21877|N|You'll need approx 70 Netherweave Cloth.|
+l [item=23446/Adamantite Bar]|QID|202000004|L|23446 40|ITEM|23446|N|You'll need approx 40 Adamantite Bar.|
+l [item=36916/Cobalt Bar]|QID|202000004|L|36916 280|ITEM|36916|N|You'll need approximately 280 Cobalt Bars.|
+l [item=33470/Frostweave Cloth]|QID|202000004|L|33470 7|ITEM|33470|N|You'll need approximately 7 Frostweave Cloths.|
+l [item=37701/Crystallized Earth]|QID|202000004|L|37701 10|ITEM|37701|N|You'll need approximately 10 Crystallized Earth. Though if you have any [item=35624/Eternal Earth] Use, turn it into the 10 Earths.|
+l [item=37705/Crystallized Water]|QID|202000004|L|37705 68|ITEM|37705|N|You'll need approximately 68 Crystallized Water. Though if you have any [item=35622/Eternal Water] Use, turn it into the 10 Waters.|
+l [item=37702/Crystallized Fire]|QID|202000004|L|37702 15|ITEM|37702|N|You'll need approximately 15 Crystallized Fire. Though if you have any [item=36860/Eternal Fire] Use, turn it into the 10 Fires.|
+l [item=35627/Eternal Shadow]|QID|202000004|L|35627 10|ITEM|35627|N|You'll need approximately 10 Eternal Shadows.|
+l [item=35623/Eternal Air]|QID|202000004|L|35623 8|ITEM|35623|N|You'll need approximately  8 Eternal Airs.|
+l [item=33568/Borean Leather]|QID|202000004|L|33568 14|ITEM|33568|N|You'll need approximately 14 Borean Leathers.|
+l [item=36913/Saronite Bar]|QID|202000004|L|36913 555|ITEM|36913|N|You'll need approximately 555 Saronite Bars.|
+B [item=90146/Tinkers Kit]|QID|202000004|L|90146 45|ITEM|90146|N|You'll need approximately 45 Tinker's Kits.  These can be purchased from any Engineering Supplies Vendor.|
+B [item=7005/Skinning Knife]|QID|202000004|L|7005 30|ITEM|7005|N|You'll need approximately 30 Skinning Knives.  These can be purchased from any Leatherworking / Skinning Supplies Vendor.|
+B [item=2901/Mining Pick]|QID|202000004|L|2901 30|ITEM|2901|N|You'll need approximately 30 Mining Picks.  These can be purchased from any Engineering Supplies Vendor.|
+B [item=5956/Blacksmith Hammer]|QID|202000004|L|5956 30|ITEM|5956|N|You'll need approximately 30 Blacksmith Hammers.  These can be purchased from any Engineering Supplies Vendor.|
+
 N Shopping List|QID|202000005|N|This completes the Shopping List, you may either have a few left over, or is the RNG of WOW is bad you might need a few more.|
 
 = Learn [spell=4036/Engineering]|QID|202004036|M|76.0,25.0|Z|1454|IZ|1637|SPELL|Engineering;4036|LVL|5|T|Roxxik|N|Learn from Roxxik, in The Valley of Honor, Orgrimmar.|FACTION|Horde|
@@ -153,6 +164,12 @@ M [item=10559/Mithril Tube]|QID|202012589|P|Engineering;202;0+200;1|ITEM|10559|C
 = Learn [spell=12656/Artisan Engineering]|QID|202012656|M|52.2,27.6|Z|1446|IZ|440|P|Engineering;202;0+200|SPELL|Artisan Engineering;12656|LVL|35|T|Buzzek Bracketswing|N|Learn from Buzzek Bracketswing, in Gadgetzan, Tanaris.|
 = Learn [spell=12656/Artisan Engineering]|QID|202012656|P|Engineering;202;0+200|SPELL|Artisan Engineering;12656|LVL|35|N|Learn from Trainer in Major Cities, and some starting areas. (Once you get to an area that has a local trainer, an arrow will popup).|
 N Engineering Specialization|QID|202002001|P|Engineering;202;0+200|N|Once you reach 200 you can chose either Gnomish or Goblin Specialization.  The materials needed or Quests to unlock are NOT covered in this guide.|
+
+; Test Lines for either Goblin or Gnomish OR might have to use |AVAILIBLE| QIDs .... but need to FLIP  Gnome's QIDs |3641^3643|,  Goblin QID |3639|
+N TESTING|QID|2029920222|P|Engineering;202;0+200|SPELL|Goblin Engineer;20222;Flip|N|You have Goblin  Engineering!, PLEASE use Report step and put this in #WotLK-Bug-Report, this is a test step, and info is needed to fix this guide.|
+N TESTING|QID|2029920222|P|Engineering;202;0+200|SPELL|Gnomish Engineer;20219;Flip|N|You have Gnomish  Engineering!, PLEASE use Report step and put this in #WotLK-Bug-Report, this is a test step, and info is needed to fix this guide.|
+; REMOVE these lines, when reported, IF it works.  NOTES will be on lines that need this info.
+
 = Learn Recipe|QID|202002001|P|Engineering;202;0+200|RECIPE|12591|N|Learn [spell=12591/Unstable Trigger] Recipe from Trainer.|
 M [item=10560/Unstable Trigger]|QID|202012591|P|Engineering;202;0+216;1|ITEM|10560|CRAFT|12591 20|MATS|3860 1;4338 1;10505 1|N|Save these for later steps.|
 = Learn Recipe|QID|202002151|P|Engineering;202;0+215|RECIPE|12599|N|Learn [spell=12589/Mithril Casing] Recipe from Trainer.|
@@ -179,55 +196,71 @@ M [item=23783/Handful of Fel Iron Bolts]|QID|202030305|P|Engineering;202;0+320;1
 M [item=23782/Fel Iron Casing]|QID|202030304|P|Engineering;202;0+320;1|L|23782 52|ITEM|23782|CRAFT|30304 52|MATS|23445 3|N|This step might clear before you hit 320, don't worry, a few other items will help you reach 320 Just make sure you have at least 52!|
 M [item=23781/Elemental Blasting Powder]|QID|202030303|P|Engineering;202;0+320;1|L|23781 20|ITEM|23781|CRAFT|30303 20|MATS|22574 1;22573 2|N|This step will probably clear at about 320, as it went green about 310, you need upto 20 to get to 335, you will need an additional 70 for 335-355. This step will clear at 20 made, but you need 90(ish) total.|
 M [item=23736/Fel Iron Bomb]|QID|202030310|P|Engineering;202;0+325;1|ITEM|23736|CRAFT|30310 7|MATS|23782 1;23783 2;23781 1|
-= Learn Recipe|QID|202003251|P|Engineering;202;0+325|RECIPE|30306|N|Learn [spell=30306/Adamantite Frame] Recipe from Trainer.|
-= Learn Recipe|QID|202003252|P|Engineering;202;0+325|RECIPE|30311|N|Learn [spell=30311/Adamantite Grenade] Recipe from Trainer.|
-M [item=23784/Adamantite Frame]|QID|202030306|P|Engineering;202;0+335;1|ITEM|23784|CRAFT|30306 30|MATS|23446 4;22452 1|L|23784 30|N|You will need all 30, in a later step.|
-M [item=23737/Adamantite Grenade]|QID|202030311|P|Engineering;202;0+335;1|ITEM|23737|CRAFT|30311 5|MATS|23446 4;23783 2;23781 1|L|23784 30|N|You will need all 30, in a later step.|
+= Learn Recipe|QID|202003251|P|Engineering;202;0+325|RECIPE|30311|N|Learn [spell=30311/Adamantite Grenade] Recipe from Trainer.|
+M [item=23737/Adamantite Grenade]|QID|202030311|P|Engineering;202;0+335;1|ITEM|23737|CRAFT|30311 10|MATS|23446 4;23783 2;23781 1|
 B [spell=30341/White Smoke Flare]|QID|202003351|M|75.8,40.6|Z|1954|IZ|3487|P|Engineering;202;0+335|T|Yatheon|N|Purchase [item=23811/Schematic - White Smoke Flare] from Yatheon in Farstriders Square, Silvermoon City.|FACTION|Horde|
 B [spell=30341/White Smoke Flare]|QID|202003351|M|32.4,48.0|Z|1946|IZ|3521|P|Engineering;202;0+335|T|Captured Gnome|N|Purchase [item=23811/Schematic - White Smoke Flare] from Captured Gnome in (noirth of) Zabra'jin, Zangarmarsh.|FACTION|Horde|
 B [spell=30341/White Smoke Flare]|QID|202003351|M|53.8,91.0|Z|1947|IZ|3557|P|Engineering;202;0+335|T|Feera|N|Purchase [item=23811/Schematic - White Smoke Flare] from Feera, in Trader's Tier, The Exodar.|FACTION|Alliance|
 B [item=23811/Schematic - White Smoke Flare]|QID|202003351|M|72.6,31.6|Z|1955|P|Engineering;202;0+335|N|Purchase [item=23811/Schematic - White Smoke Flare] from Wind Trader Lathrai in Shattrath City. Also from Engineering Supplies in The Exodar, Silvermoon City or Zangarmarsh (Horde only). (Arrows will appear if you go there).|
 U Learn Recipe|QID|202003351|P|Engineering;202;0+335|RECIPE|30341|U|23811|N|Learn [spell=30341/White Smoke Flare] Recipe from [item=23811/Schematic - White Smoke Flare] you just purchased.|
-M [item=23781/Elemental Blasting Powder]|QID|202030303|P|Engineering;202;0+336;1|L|23781 70|ITEM|23781|CRAFT|30303 70|MATS|22574 1;22573 2|N|This is a secondary step to make upto 70 of these, needed for the next step.|
-M [item=23768/White Smoke Flare]|QID|202030341|P|Engineering;202;0+355;1|ITEM|23768|CRAFT|30341 40|MATS|23781 1;21877 1|N|This is an approximate number, you may need to make more or less.|
-= Learn Recipe|QID|202003401|P|Engineering;202;0+340|RECIPE|30308|N|Learn [spell=30308/Khorium Power Core] Recipe from Trainer.|
-M [item=23786/Khorium Power Core]|QID|202030308|P|Engineering;202;0+360;1|L|23786 5|ITEM|23786|CRAFT|30308 5|MATS|23449 3;21884 1|N|You only need 5, dont worry about not reaching 360. This step will clear once you have five.|
-B [spell=30313/Adamantite Rifle]|QID|202003501|M|75.8,40.6|Z|1954|IZ|3487|P|Engineering;202;0+350|T|Yatheon|N|Purchase [item=23799/Schematic - Adamantite Rifle] from Yatheon in Farstriders Square, Silvermoon City.|FACTION|Horde|
-B [spell=30313/Adamantite Rifle]|QID|202003501|M|53.8,91.0|Z|1947|IZ|3557|P|Engineering;202;0+350|T|Feera|N|Purchase [item=23799/Schematic - Adamantite Rifle] from Feera, in Trader's Tier, The Exodar.|FACTION|Alliance|
-B [spell=30313/Adamantite Rifle]|QID|202003501|M|64.8,69.6|Z|1955|P|Engineering;202;0+350|N|Purchase [item=23799/Schematic - Adamantite Rifle] from Viggz Shinesparked in Lower City, Shattrath City. Also from Engineering Supplies in The Exodar OR Silvermoon City. (Arrows will appear if you go there).|
-U Learn Recipe|QID|202003501|P|Engineering;202;0+350|RECIPE|30313|U|23799|N|Learn [spell=30313/Adamantite Rifle] Recipe from [item=23799/Schematic - Adamantite Rifle] you just Purchased.|
-M [item=23746/Adamantite Rifle]|QID|202030313|P|Engineering;202;0+370;1|ITEM|23746|CRAFT|30313 15|MATS|23782 3;23784 2;23783 4|
-K Gan'arg Analyzer|QID|202003601|M|28.6,45.6;32.8,52.0;31.6,63.0;27.8,68.2|CN|Z|1949|P|Engineering;202;0+325|L|34114|RECIPE|44391|N|Kill the Analyzers (Simon Unit) in these areas until [item=34114/Schematic - Field Repair Bot 110G] Drops. This step SHOULD clear, once it drops.|
-U Learn Recipe|QID|202044391|P|Engineering;202;0+325|RECIPE|44391|U|34114|N|Learn [spell=34114/Field Repair Bot 110G] Recipe from [item=34114/Schematic - Field Repair Bot 110G] you just had drop.|
-M [item=34113/Field Repair Bot 110G]|QID|202044391|P|Engineering;202;0+375;1|ITEM|34113|CRAFT|44391 5|MATS|23446 8;23783 8;23786 1|N|This recipe is dropped by Gan'arg Analyzers in Blade's Edge Mountain.|
-N Congratualations!|QID|202000010|N|On reaching 375 in Classic - The Burning Crusade Engineering.|
+M [item=23781/Elemental Blasting Powder]|QID|202030303|P|Engineering;202;0+350;1|L|23781 60|ITEM|23781|CRAFT|30303 60|MATS|22574 1;22573 2|N|This is a secondary step to make upto 60 of these, needed for the next step.|
+M [item=23768/White Smoke Flare]|QID|202030341|P|Engineering;202;0+355;1|ITEM|23768|CRAFT|30341 60|MATS|23781 1;21877 1|N|This is an approximate number, you may need to make more or less.|
+
 ; WOTLK need checking once prerelease.
-M [item=39681/Handful of Cobalt Bolts]|QID|202056349|P|Engineering;202;0+385;1|L|39681 50|ITEM|39681|CRAFT|56349 35|MATS|36916 2|N|This step might clear before you hit 10, don't worry, just make sure you have at least 50!|
-M [item=39681/Handful of Cobalt Bolts]|QID|202056349|P|Engineering;202;0+386|L|39681 50|ITEM|39681|CRAFT|56349 35|MATS|36916 2|N|This step might clear before you hit 10, don't worry, just make sure you have at least 50!| ; remove
-M [item=39690/Volatile Blasting Trigger]|QID|202053281|P|Engineering;202;0+395;1|L|39690 20|ITEM|39690|CRAFT|53281 10|MATS|36916 3;37705 1|N|This step might clear before you hit 20, don't worry, just make sure you have at least 20!|
-M [item=39690/Volatile Blasting Trigger]|QID|202053281|P|Engineering;202;0+396|L|39690 20|ITEM|39690|CRAFT|53281 10|MATS|36916 3;37705 1|N|This step might clear before you hit 20, don't worry, just make sure you have at least 20!| ;remove
-M [item=39682/Overcharged Capacitor]|QID|202056464|P|Engineering;202;0+395;1|L|39682 10|ITEM|39682|CRAFT|56464 10|MATS|36916 4;37701 1|N|This step might clear before you hit 20, just make sure you have at least 10!|
-M [item=39682/Overcharged Capacitor]|QID|202056464|P|Engineering;202;0+396|L|39682 10|ITEM|39682|CRAFT|56464 10|MATS|36916 4;37701 1|N|This step might clear before you hit 20, just make sure you have at least 10!| ; remove
-; double lines above, in case they dont make enough, the line should still pop up.  (NOT tested)  if this doesn't work remove the lines at have engineering 2+26 in them. they are also marked  ; remove
-M [item=40536/Explosive Decoy]|QID|202056463|P|Engineering;202;0+390;1|ITEM|40536|CRAFT|56463 6|MATS|33470 1;39690 3|N|Only make enough to clear the step!|
-= Learn Recipe|QID|202200151|P|Engineering;202;0+390|RECIPE|56471|N|Learn [spell=56471/Adamantite Frame] Recipe from Trainer.|
-M [item=39683/Froststeel Tube]|QID|202056471|P|Engineering;202;0+396;1|ITEM|39683|CRAFT|56471 15|MATS|36916 8;37705 1|N|You will need these in a later step.|
-M [item=39683/Froststeel Tube]|QID|202056471|P|Engineering;202;0+396|ITEM|39683|L|39683 15|CRAFT|56471 15|MATS|36916 8;37705 1|N|You'll need 15 in later steps.|
-N Goblin Engineering|QID|202056514|P|Engineering;202;0+396|N|Can't test if you have Goblin Engineering, so if a different craft is possible, both will be listed. Just right - click off the one you can not do.|
-M [item=44739/Diamond-cut Refreactor Scope]|QID|202061471|P|Engineering;202;0+405;1|ITEM|44739|CRAFT|61471 5|MATS|39683 1;39681 2|N|Goblin Engineers you can make [item=42641/Global Thermal Sapper Charge] from 26-60. Recipe is learnable from Didi the Wrench. Right Click to skip if you are a Goblin Engineer.|
-= Learn Recipe|QID|202200251|M|39.66,25.13|Z|125|P|Engineering;202;0+400|RECIPE|56514|T|Didi the Wrench|N|Learn [spell=56514/Global Thermal Sapper Charge] from Didi the Wrench.\n[color=FF0000]NOTE: [/color]Goblin Engineers only.|
-M [item=42641/Global Thermal Sapper Charge]|QID|202056514|P|Engineering;202;0+415;1|ITEM|42641|CRAFT|56514 34|MATS|36913 1;39690 1|N|[color=FF0000]NOTE: [/color]Goblin Engineering Only! Might need more [item=39690/Volatile Blasting Trigger]|
-B [item=90146/Tinkers Kit]|QID|202090146|P|Engineering;202;0+405|L|90146 45|ITEM|90146|N|You'll need approximately 45 Tinker's Kits.  These can be purchased from any Engineering Supplies Vendor.|
-M Nitro Boosts|QID|202055016|P|Engineering;202;0+410;1|ITEM|55016|CRAFT|55016 15|MATS|90146 1|N|This will put an enchant on your boots, this step may take a bit of time.| ; does not have item, as can't find on wowhead. If someone reports, append [item=###/N B], and add ITEM|###| after the |P| statement.
-M Mind Amplification Dish|QID|202067839|P|Engineering;202;0+410;1|CRAFT|67839 15|MATS|90146 1|N|This will put an enchant on your boots, this step may take a bit of time.| ; does not have item, as can't find on wowhead. If someone reports, append [item=###/M A D], and add ITEM|###| after the |P| statement.
-M [item=42546/Mana Injector Kit]|QID|202056477|P|Engineering;202;0+425;1|ITEM|42546|CRAFT|56477 5|MATS|36913 12;37705 2|N|If this doesn't clear after 5, continue to make until this step clears.|
-M [item=44741/Mechanized Snow Goggles]|QID|202061482|P|Engineering;202;0+429;1|ITEM|44741|CRAFT|61482 5|MATS|36913 8;33568 2;35627 1|N|Make any of the 4 types, just the Mail Gear is listed.|
-M [item=40768/Molle]|QID|202056472|P|Engineering;202;0+430;1|ITEM|40768|CRAFT|56472|MATS|36913 8;35623 1|N|If you do not want to make the mailbox, make an extra Snow Goggle or two.|
-M [item=40865/Noise Machine]|QID|202056467|P|Engineering;202;0+435;1|ITEM|40865|CRAFT|56467 5|MATS|39683 2;39682 2;39681 8|
+
+= Learn [spell=51306/Grand Master Engineering]|QID|202051306|M|38.49,25.84|Z|125|IZ|4395|P|Engineering;202;0+350|SPELL|Grand Master Engineering;51306|LVL|65|T|Timofey Oshenko|N|Learn from Timofey Oshenko, Like Clockwork, in Dalaran, Crystalsong Forest.  NOT! Legion, Also, BUY all Recipes available.|
+= Learn [spell=51306/Grand Master Engineering]|QID|202051306|M|42.6,53.6|Z|114|IZ|3537|P|Engineering;202;0+350|SPELL|Grand Master Engineering;51306|LVL|65|T|Chief Engineer Leveny|N|Learn from Chief Engineer Leveny, in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=51306/Grand Master Engineering]|QID|202051306|M|57.6,72.2|Z|114|IZ|3537|P|Engineering;202;0+350|SPELL|Grand Master Engineering;51306|LVL|65|T|Sock Brightbolt|N|Learn from Sock Brightbolt, in Valiance Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=51306/Grand Master Engineering]|QID|202051306|M|78.4,30.0|Z|117|IZ|495|P|Engineering;202;0+350|SPELL|Grand Master Engineering;51306|LVL|65|T|Jamesina Watterly|N|Learn from Jamesina Watterly, in Vengenace Landing, Howling Fjord. Also, BUY all Recipes available.|FACTION|Horde|
+= Learn [spell=51306/Grand Master Engineering]|QID|202051306|M|59.6,64.0|Z|117|IZ|495|P|Engineering;202;0+350|SPELL|Grand Master Engineering;51306|LVL|65|T|Tisha Longbridge|N|Learn from Tisha Longbridge, in Valgarde, Howling Fjord. Also, BUY all Recipes available.|FACTION|Alliance|
+= Learn [spell=51306/Grand Master Engineering]|QID|202051306|P|Engineering;202;0+350|SPELL|Grand Master Engineering;51306|LVL|65|N|Learn Grand Master Engineering in Borean Tundra, Howling Fjord or Dalaran. (Once you get to an area that has a local trainer, an arrow will popup).|
+= Learn Recipe|QID|202003501|P|Engineering;202;0+350|RECIPE|56349|N|Learn [spell=56349/Handful of Cobalt Bolts] Recipe from Trainer.|
+= Learn Recipe|QID|202003502|P|Engineering;202;0+350|RECIPE|53281|N|Learn [spell=53281/Volatile Blasting Trigger] Recipe from Trainer.|
+= Learn Recipe|QID|202003751|P|Engineering;202;0+375|RECIPE|56464|N|Learn [spell=56464/Overcharged Capacitor] Recipe from Trainer.|
+M [item=39681/Handful of Cobalt Bolts]|QID|202056349|P|Engineering;202;0+375;1|L|39681 50|ITEM|39681|CRAFT|56349 35|MATS|36916 2|N|This step might clear before you hit 10, don't worry, just make sure you have at least 50!|
+M [item=39681/Handful of Cobalt Bolts]|QID|202056349|P|Engineering;202;0+376|L|39681 50|ITEM|39681|CRAFT|56349 35|MATS|36916 2|N|This step might clear before you hit 10, don't worry, just make sure you have at least 50!| ; remove
+M [item=39690/Volatile Blasting Trigger]|QID|202053281|P|Engineering;202;0+375;1|L|39690 21|ITEM|39690|CRAFT|53281 10|MATS|36916 3;37705 1|N|This step might clear before you hit 21, don't worry, just make sure you have at least 20!|
+M [item=39690/Volatile Blasting Trigger]|QID|202053281|P|Engineering;202;0+376|L|39690 21|ITEM|39690|CRAFT|53281 10|MATS|36916 3;37705 1|N|This step might clear before you hit 21, don't worry, just make sure you have at least 20!| ;remove
+M [item=39682/Overcharged Capacitor]|QID|202056464|P|Engineering;202;0+385;1|L|39682 10|ITEM|39682|CRAFT|56464 10|MATS|36916 4;37701 1|N|This step might clear before you hit 20, just make sure you have at least 10!|
+M [item=39682/Overcharged Capacitor]|QID|202056464|P|Engineering;202;0+386|L|39682 10|ITEM|39682|CRAFT|56464 10|MATS|36916 4;37701 1|N|This step might clear before you hit 20, just make sure you have at least 10!| ; remove
+; double lines above, in case they dont make enough, the line should still pop up.  (NOT tested)  if this doesn't work remove the lines at have engineering 0+376 in them. they are also marked  ; remove
+= Learn Recipe|QID|202003851|P|Engineering;202;0+385|RECIPE|56463|N|Learn [spell=56463/Explosive Decoy] Recipe from Trainer.|
+M [item=40536/Explosive Decoy]|QID|202056463|P|Engineering;202;0+390;1|ITEM|40536|CRAFT|56463 7|MATS|33470 1;39690 3|N|Only make enough to clear the step!|
+= Learn Recipe|QID|202003901|P|Engineering;202;0+390|RECIPE|56471|N|Learn [spell=56474/Froststeel Tube] Recipe from Trainer.|
+M [item=39683/Froststeel Tube]|QID|202056471|P|Engineering;202;0+400;1|ITEM|39683|CRAFT|56471 15|MATS|36916 8;37705 1|N|You will need 15 of these in a later step.|
+M [item=39683/Froststeel Tube]|QID|202056471|P|Engineering;202;0+400|ITEM|39683|L|39683 15|CRAFT|56471 15|MATS|36916 8;37705 1|N|You'll need 15 in later steps.|
+N Goblin Engineering|QID|202056514|P|Engineering;202;0+396|N|Not SURE if we can test if you have Goblin Engineering, so if a different craft is possible, both will be listed. Just right - click off the one you can not do.|
+= Learn Recipe|QID|202003951|P|Engineering;202;0+395|RECIPE|61471|N|Learn [spell=61471/Diamond-cut Refreactor Scope] Recipe from Trainer.|
+= Learn Recipe|QID|202004001|P|Engineering;202;0+400|RECIPE|56465|N|Learn [spell=56465/Mechanized Snow Goggles] (Cloth) Recipe from Trainer.|
+= Learn Recipe|QID|202004002|P|Engineering;202;0+400|RECIPE|61481|N|Learn [spell=61481/Mechanized Snow Goggles] (Leather) Recipe from Trainer.|
+= Learn Recipe|QID|202004003|P|Engineering;202;0+400|RECIPE|61482|N|Learn [spell=61482/Mechanized Snow Goggles] (Mail) Recipe from Trainer.|
+= Learn Recipe|QID|202004004|P|Engineering;202;0+400|RECIPE|61483|N|Learn [spell=61483/Mechanized Snow Goggles] (Plate) Recipe from Trainer.|
+= Learn Recipe|QID|202004005|P|Engineering;202;0+400|RECIPE|56472|N|Learn [spell=56472/MOLL-E] Recipe from Trainer.|
+= Learn Recipe|QID|202204006|M|39.66,25.13|Z|125|P|Engineering;202;0+400|RECIPE|56514|SPELL|Goblin Engineer;20222;Flip|T|Didi the Wrench|N|Learn [spell=56514/Global Thermal Sapper Charge] from Didi the Wrench.\n[color=FF0000]NOTE: [/color]Goblin Engineers only.|
+= Learn Recipe|QID|202004007|P|Engineering;202;0+400|RECIPE|67326|N|Learn [spell=67326/Goblin Beam Welder] Recipe from Trainer.|
+M [item=44739/Diamond-cut Refreactor Scope]|QID|202061471|P|Engineering;202;0+405;1|ITEM|44739|CRAFT|61471 5|MATS|39683 1;39681 2|
+= Learn Recipe|QID|202004051|P|Engineering;202;0+405|RECIPE|56468|N|Learn [spell=56468/Box of Bombs] Recipe from Trainer.|
+M [item=44951/Box of Bombs]|QID|202056468|P|Engineering;202;0+410;1|ITEM|44951|CRAFT|56468 5|MATS|36913 5;39690 1|
+M [item=47828/Goblin Beam Welder]|QID|202067326|P|Engineering;202;0+415;1|ITEM|47828|CRAFT|67326 5|MATS|36913 6;37702 3;37705 3|
+= Learn Recipe|QID|202004151|P|Engineering;202;0+415|RECIPE|56477|N|Learn [spell=56477/Mana Injector Kit] Recipe from Trainer.|
+= Learn Recipe|QID|202004152|P|Engineering;202;0+415|RECIPE|67920|N|Learn [spell=67920/Wormhole Generator Northrend] Recipe from Trainer.|
+M [item=42546/Mana Injector Kit]|QID|202056477|P|Engineering;202;0+425;1|ITEM|42546|CRAFT|56477 12|MATS|36913 12;37705 2|
+
+; might need to use |SPELL|Gnomish Engineer;20219;Flip| or |SPELL|Goblin Engineer;20222;Flip| to check....
+; OR might have to use |AVAILIBLE| QIDs .... but need to FLIP  Gnome's QIDs |3641^3643|,  Goblin QID |3639|
+
+M [item=44741/Mechanized Snow Goggles]|QID|202061482|P|Engineering;202;0+429;1|SPELL|Gnomish Engineer;20219;Flip|ITEM|44741|CRAFT|61482 7|MATS|36913 8;33568 2;35627 1|N|Make any of the 4 types, just the Mail Gear is listed.|
+M [item=40768/MOLL-E]|QID|202056472|P|Engineering;202;0+430;1|ITEM|40768|CRAFT|56472 1|MATS|36913 8;35623 8|N|If you do not want to make the mailbox, Right-Click to skip.|
+M [item=44741/Mechanized Snow Goggles]|QID|202061482|P|Engineering;202;0+430;1|SPELL|Gnomish Engineer;20219;Flip|ITEM|44741|CRAFT|61482 7|MATS|36913 8;33568 2;35627 1|N|Make any of the 4 types, just the Mail Gear is listed.|
+M [item=40865/Noise Machine]|QID|202056467|P|Engineering;202;0+435;1|SPELL|Gnomish Engineer;20219;Flip|ITEM|40865|CRAFT|56467 5|MATS|39683 2;39682 2;39681 8|
+M [item=42641/Global Thermal Sapper Charge]|QID|202056514|P|Engineering;202;0+435;1|SPELL|Goblin Engineer;20222;Flip|ITEM|42641|CRAFT|56514 30|MATS|36913 1;39690 1|N|[color=FF0000]NOTE: You might need more [item=39690]|
+= Learn Recipe|QID|202004351|P|Engineering;202;0+435|RECIPE|56462|N|Learn [spell=56462/Gnomish Army Knife] Recipe from Trainer.|
 B [item=7005/Skinning Knife]|QID|202056462|L|7005 30|ITEM|7005|N|You'll need approximately 30 Skinning Knives.  These can be purchased from any Leatherworking / Skinning Supplies Vendor.|
 B [item=2901/Mining Pick]|QID|202056462|L|2901 30|ITEM|2901|N|You'll need approximately 30 Mining Picks.  These can be purchased from any Engineering Supplies Vendor.|
 B [item=5956/Blacksmith Hammer]|QID|202056462|L|5956 30|ITEM|5956|N|You'll need approximately 30 Blacksmith Hammers.  These can be purchased from any Engineering Supplies Vendor.|
-M [item=40772/Gnomish Army Knife]|QID|202056462|P|Engineering;202;0+449;1|ITEM|40772|CRAFT|56462 30|MATS|36913 10;7005 1;2901 1;5956 1|
+M [item=40772/Gnomish Army Knife]|QID|202056462|P|Engineering;202;0+449;1|ITEM|40772|CRAFT|56462 30|MATS|36913 10;7005 1;2901 1;5956 1|N|You can make your Epic Engineering Helm about 448 if you want. Not included in Guide.|
 M [item=48933/Wormhole Generator Northrend]|QID|202067920|P|Engineering;202;0+450;1|ITEM|48933|CRAFT|67920 1|MATS|41163 8;35627 2;35622 2;36860 2;35623 2|N|Just a toy, that is recommended to be made, It will let you teleport to any of the major areas in Northrend.|
+
+N Congratulations|QID|202000010|N|You've (hopefully) reached 450 in Engineering!|
 ]]
 end)

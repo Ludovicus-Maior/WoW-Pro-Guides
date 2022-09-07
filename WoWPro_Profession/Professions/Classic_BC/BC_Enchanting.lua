@@ -56,8 +56,7 @@ B [item=11144/Truesilver Rod]|QID|333000015|ITEM|11144|N|You'll need to either b
 B [item=16206/Arcanite Rod]|QID|333000015|ITEM|16206|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=12360/Arcanite Bar] x3, [item=12644/Dense Grinding Stone] x1|
 B [item=25843/Fel Iron Rod]|QID|333000015|ITEM|25843|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=23445/Fel Iron Bar] x6|
 B [item=32656/Adamantite Rod]|QID|333000015|ITEM|32656|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=23446/Adamantite Bar] x10|
-l [item=1210/Shadowgem]|QID|333000015|ITEM|1210|N|You'll need 1 Shadowgem, either from looting/fishing or purchase from the AH.|
-l [item=5500/Iridescent Pearl]|QID|333000015|ITEM|1210|N|You'll need 1 Iridescent Pearl, either from looting clams/fishing or purchase from the AH.|
+l [item=5500/Iridescent Pearl]|QID|333000015|ITEM|5500|N|You'll need 1 Iridescent Pearl, either from looting clams/fishing or purchase from the AH.|
 l [item=7971/Black Pearl]|QID|333000015|ITEM|7971|N|You'll need 1 Black Pearl, either from looting clams/fishing or purchase from the AH.|
 l [item=13926/Golden Pearl]|QID|333000015|ITEM|13926|N|You'll need 1 Golden Pearl, either from looting clams/fishing or purchase from the AH.|
 B [item=23571/Primal Might]|QID|333000015|ITEM|23571|N|You'll need 1 Primal Might, from either the AH, or find a Alchemist to craft for you. MATS: [item=22452/Primal Earth] x1,[item=21885/Primal Water] x1,[item=22451/Primal Air] x1,[item=21884/Primal Fire] x1,[item=22457/Primal Mana] x1|
@@ -113,7 +112,6 @@ M Enchant Bracers - Minor Stamina|QID|333007457|P|Enchanting;333;0+100;1|CRAFT|7
 = Learn Recipe|QID|333000701|P|Enchanting;333;0+70|RECIPE|14807|N|Learn [spell=14807/Greater Magic Wand] Recipe from Trainer.|
 = Learn Recipe|QID|333001001|P|Enchanting;333;0+100|RECIPE|7795|N|Learn [spell=7795/Runed Silver Rod] Recipe from Trainer.|
 B [item=6338/Silver Rod]|QID|333006338|ITEM|6338|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=2842/Silver Bar] x1, [item=3470/Rough Grinding Stone] x2|
-l [item=1210/Shadowgem]|QID|333001210|ITEM|1210|N|You'll need 1 Shadowgem, either from looting/fishing or purchase from the AH.|
 M [item=6339/Runed Silver Rod]|QID|333007795|P|Enchanting;333;0+100;1|ITEM|6339|CRAFT|7795 1|MATS|6338 1;10940 6;10939 3;6218 1|
 M [item=11288/Greater Magic Wand]|QID|333014807|P|Enchanting;333;0+110;1|ITEM|11288|CRAFT|14807 9|MATS|4470 1;10939 1|
 B [spell=13419/Enchant Cloak - Minor Agility]|QID|333013419|M|35.12,52.12|Z|1440|RECIPE|13419|L|11039 1|N|Purchase [item=11039/Formula: Enchant Cloak - Minor Agility] from Dalria in Astranaar, Ashenvale (Limited Quantity)|FACTION|Alliance|
@@ -136,7 +134,7 @@ M Enchant Cloak - Minor Agility|QID|333013419|P|Enchanting;333;0+135;1|CRAFT|134
 = Learn Recipe|QID|333001301|P|Enchanting;333;0+130|RECIPE|13501|N|Learn [spell=13501/Enchant Bracer - Lesser Stamina] Recipe from Trainer.|
 M Enchant Bracer - Lesser Stamina|QID|333013501|P|Enchanting;333;0+155;1|CRAFT|13501 20|MATS|11083 2|
 B [item=11128/Gold Rod]|QID|333013628|ITEM|11128|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=3577/Gold Bar] x1, [item=3478/Coarse Grinding Stone] x2|
-l [item=5500/Iridescent Pearl]|QID|333013628|ITEM|1210|N|You'll need 1 Iridescent Pearl, either from looting clams/fishing or purchase from the AH.|
+l [item=5500/Iridescent Pearl]|QID|333013628|ITEM|5500|N|You'll need 1 Iridescent Pearl, either from looting clams/fishing or purchase from the AH.|
 M [item=11130/Runed Golden Rod]|QID|333013628|P|Enchanting;333;0+156;1|ITEM|11130|CRAFT|13628 1|MATS|11128 1;5500 1;11082 2;11083 2;6339 1|
 B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|35.12,52.12|Z|1440|RECIPE|13536|L|11101 1|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Dalria in Astranaar, Ashenvale (Limited Quantity)|FACTION|Alliance|
 B [spell=13536/Enchant Bracer - Lesser Strength]|QID|333013536|M|48.69,61.52|Z|1442|RECIPE|13536|L|11101 1|N|Purchase [item=11101/Formula: Enchant Bracer - Lesser Strength] from Kulwia in Sun Rock Retreat, Stonetalon Mountains (Limited Quantity)|FACTION|Horde|

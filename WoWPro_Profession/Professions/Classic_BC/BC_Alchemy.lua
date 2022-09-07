@@ -49,7 +49,7 @@ l [item=22792/Nightmare Vine]|QID|171000004|L|22792 40|ITEM|22785|N|You'll need 
 B [item=3371/Empty Vial]|QID|171000004|L|3371 85|ITEM|3371|N|You'll need about 85 Empty Vials.|
 B [item=3372/Leaded Vial]|QID|171000004|L|3372 85|ITEM|3372|N|You'll need about 85 Leaded Vials.|
 B [item=8925/Crystal Vial]|QID|171000004|L|8925 120|ITEM|8925|N|You'll need about 120 Crystal Vials.|
-B [item=18256/Imbued Vial]|QID|171000004|L|18256 120|ITEM|18256|N|You'll need about 105 Imbued Vials.|
+B [item=18256/Imbued Vial]|QID|171000004|L|18256 105|ITEM|18256|N|You'll need about 105 Imbued Vials.|
 N Couple Recipes to Buy|QID|171000006|N|There are a couple recipes to go buy, that you'll need for later, can skip for now, will repeat when you need them. \n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 B [spell=28555/Super Mana Potion]|QID|171000006|M|67.8,48.0|Z|1946|RECIPE|28555|L|22907|T|Haalrun|N|Purchase [item=22907/Recipe - Super Mana Potion] from Haalrun, at Telredor in Zangarmarsh. (Buy all recipes you can) **BOP**|FACTION|Alliance|
 B [spell=28555/Super Mana Potion]|QID|171000006|M|51.8,74.6|Z|1949|RECIPE|28555|L|22907|T|Daga Ramba|N|Purchase [item=22907/Recipe - Super Mana Potion] from Daga Ramba, at Thunderlord Stronghold in Blade's Edge Mountain. (Buy all recipes you can) **BOP**|FACTION|Horde|
@@ -111,7 +111,7 @@ M [item=22832/Super Mana Potion]|QID|171028555|P|Alchemy;171;0+355;1|ITEM|22832|
 B [spell=28562/Major Dreamless Sleep Potion]|QID|171003501|M|57.6,53.4|Z|1952|RECIPE|28562|L|22911|T|Leeli Longhaggle|N|Purchase [item=22911/Recipe - Major Dreamless Sleep Potion] from Leeli Longhaggle, at Allerian Stronghold in Terokkar Forest. (Buy all recipes you can)|FACTION|Alliance|
 B [spell=28562/Major Dreamless Sleep Potion]|QID|171003501|M|51.8,74.6|Z|1949|RECIPE|28562|L|22911|T|Daga Ramba|N|Purchase [item=22911/Recipe - Major Dreamless Sleep Potion] from Daga Ramba, at Thunderlord Stronghold in Blade's Edge Mountain. (Buy all recipes you can)|FACTION|Horde|
 U Learn Recipe|QID|171003501|P|Alchemy;171;0+350|RECIPE|28562|U|22907|N|Learn [spell=28562/Major Dreamless Sleep Potion], using [item=22911/Recipe - Major Dreamless Sleep Potion] you purchased.|
-M [item=22836/Major Dreamless Sleep Potion]|QID|171028562|P|Alchemy;171;0+375;1|ITEM|22836|CRAFT|28562 40|MATS|22786 1;22792 1;18256 1|N|Alternately you can make [spell=28558/Elixir of Major Shadow Power] which is used by Sadow Priests and Warlocks for raiding.  (Right Click this step, to move on to make them)|
+M [item=22836/Major Dreamless Sleep Potion]|QID|171028562|P|Alchemy;171;0+375;1|ITEM|22836|CRAFT|28562 40|MATS|22786 1;22792 1;18256 1|N|Alternately you can make [spell=28558/Elixir of Major Shadow Power] which is used by Shadow Priests and Warlocks for raiding.  (Right Click this step, to move on to make them)|
 B [spell=28558/Elixir of Major Shadow Power]|QID|171003502|M|62.0,69.0|Z|1955|RECIPE|28558|L|22910|T|Nakodu|N|Purchase [item=22910/Recipe - Elixir of Major Shadow Power] from Nakodu in Lower City at Shattrath City.|REP|Lower City;1011;Revered-Exalted|
 U Learn Recipe|QID|171003502|P|Alchemy;171;0+350|RECIPE|28558|U|22910|N|Learn [spell=28558/Elixir of Major Shadow Power], using [item=22910/Recipe - Elixir of Major Shadow Power] you purchased.|
 M {item=22835/Elixir of Major Shadow Power]|QID|1710028558|P|Alchemy;171;0+375;1|ITEM|22835|CRAFT|28558 40|MATS|22790 1;22792 1;18256 1|
