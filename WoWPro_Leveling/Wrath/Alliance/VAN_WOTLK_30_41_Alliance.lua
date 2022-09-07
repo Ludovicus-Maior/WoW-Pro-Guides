@@ -594,9 +594,9 @@ A Dream Dust in the Swamp|QID|1116|M|26.94,77.21|Z|Stranglethorn Vale|N|From Kra
 F Stormwind|QID|1396|M|27.4,77.6|Z|Stranglethorn Vale|N|Fly to Stormwind.|C|-Mage|TZ|Stormwind City|
 P Wizard's Sanctum|QID|1396|M|27.4,77.6|Z|Stranglethorn Vale|N|Teleport or Fly to Stormwind.|C|Mage|
 N Train up|QID|1396|N|Do your big city stuff, train, auction, repair, sell ect.|
-A Mazen's Behest|QID|1363|M|41.51,64.34|Z|Stormwind City|N|From Mazen Mac'Nadir.|
-T Mazen's Behest|QID|1363|M|41.00,63.82|Z|Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
-A Mazen's Behest|QID|1364|M|41.00,63.82|Z|Stormwind City|N|From Acolyte Dellis.|
+A Mazen's Behest|QID|1363|M|51.57,73.79|Z|Stormwind City|N|From Mazen Mac'Nadir.|
+T Mazen's Behest|QID|1363|M|51.57,73.79|Z|Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
+A Mazen's Behest|QID|1364|M|51.57,73.79|Z|Stormwind City|N|From Acolyte Dellis.|
 A In Search of The Temple|QID|1448|M|64.35,20.64|Z|Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
 
 F Darkshire|QID|1396|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
