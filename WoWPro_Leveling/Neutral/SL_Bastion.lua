@@ -218,11 +218,11 @@ A Hero's Rest|QID|62718|M|48.79,73.26|Z|1533;Bastion!The Shadowlands|N|From the 
 A WANTED: Altered Sentinel|QID|60316|M|49.13,72.82|Z|1533;Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll next to the tent.|RANK|2|
 C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|1533;Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.\n[color=FF0000]NOTE: [/color]Despite being yellow, it will attack you as soon as you step within the colored area.|
 C A Gift for an Acolyte|QID|62714|M|54.10,73.62|Z|1533;Bastion!The Shadowlands|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
-T A Gift for an Acolyte|QID|62714|M|54.10,73.62|Z|1533;Bastion!The Shadowlands|N|To Acolyte Amalthina.|
+T A Gift for an Acolyte|QID|62714|M|53.87,73.96|Z|1533;Bastion!The Shadowlands|N|To Acolyte Amalthina.|
 A More Than A Gift|QID|62715|M|53.10,73.62|Z|1533;Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|62714|RANK|2|
 C The Temple of Purity|QID|57270|M|54.09,73.62|Z|1533;Bastion!The Shadowlands|NC|N|Find Eridia in the Temple of Purity.|MS|
 T The Temple of Purity|QID|57270|M|54.09,73.62|N|To Eridia.|MS|
-A An Inspired Moral Inventory|QID|57444|M|54.03,73.74|Z|1533;Bastion!The Shadowlands|N|From Acolyte Galistos.|TOF| ; needs to be moved upwards..
+A An Inspired Moral Inventory|QID|57444|M|54.04,73.93|Z|1533;Bastion!The Shadowlands|N|From Acolyte Galistos.|TOF| ; needs to be moved upwards..
 A Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|1533;Bastion!The Shadowlands|N|Autoaccepted as you enter the temple grounds.|TOF|RANK|2|LVL|-60|
 C Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|1533;Bastion!The Shadowlands|S!US|N|Kill stuff, rescue terrified stewards, destroy scrolls, do quests.|TOF|
 A A Temple in Need|QID|57977|M|54.09,73.62|Z|1533;Bastion!The Shadowlands|N|From Acolyte Amalthina.|PRE|57270|MS|
@@ -246,7 +246,7 @@ T Step Back From That Ledge, My Friend|QID|57717|M|59.31,77.05|Z|1533;Bastion!Th
 A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|1533;Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 A The Hand of Purification|QID|59147|M|59.31,77.06|Z|1533;Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|1533;Bastion!The Shadowlands|N|Cleanse the Temple by killing all the hostile mobs and rescuing the terrified stewards.|S|MS|
-A An Inspired Moral Inventory|QID|57444|M|57.99,75.85|Z|1533;Bastion!The Shadowlands|N|From Acolyte Galistos.|MS| ; needs to be moved upwards..
+A An Inspired Moral Inventory|QID|57444|M|54.02,73.95|Z|1533;Bastion!The Shadowlands|N|From Acolyte Galistos.|MS| ; needs to be moved upwards..
 A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|1533;Bastion!The Shadowlands|N|From The Scroll in front of the Vespar of Harmony.|PRE|57717|MS|
 C An Inspired Moral Inventory|QID|57444|M|57.98,75.81|Z|1533;Bastion!The Shadowlands|T|Forsworn Ascended|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|1533;Bastion!The Shadowlands|NC|N|Find the scrolls around the area.|S|MS|
@@ -286,7 +286,7 @@ A Directions Not Included|QID|58771|M|54.72,64.14|Z|1533;Bastion!The Shadowlands
 A The Prime's Directive|QID|58799|M|54.72,64.14|Z|1533;Bastion!The Shadowlands|N|From Mikanikos.|PRE|58976|MS|
 C The Prime's Directive|QID|58799|M|55.83,62.47|Z|1533;Bastion!The Shadowlands|N|Kill mobs till you have all the cores.|S|MS|
 C Directions Not Included|QID|58771|CS|M|55.97,64.05;55.19,62.24;55.84,62.08;55.37,60.75|Z|1533;Bastion!The Shadowlands|NC|N|Click the papers till you find the manual.|MS|
-K Bookkeeper Mnemis|QID|59022|QO|1|M|55.70,61.89|Z|1533;Bastion!The Shadowlands|RARE|ITEM|182682|N|Silver Elite paths in this area.|ACH|14307;21|
+K Bookkeeper Mnemis|QID|59022|QO|1|M|55.70,61.89|Z|1533;Bastion!The Shadowlands|RARE|ITEM|182682|N|Silver Elite paths in this area.|ACH|14307;21|T|Bookkeeper|
 C The Prime's Directive|QID|58799|M|55.83,62.47|Z|1533;Bastion!The Shadowlands|N|Kill mobs till you have all the cores.|US|MS|
 T Directions Not Included|QID|58771|M|57.17,61.66|Z|1533;Bastion!The Shadowlands|N|To Mikanikos.|MS|
 T The Prime's Directive|QID|58799|M|57.17,61.66|Z|1533;Bastion!The Shadowlands|N|To Mikanikos.|MS|
