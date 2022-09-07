@@ -90,7 +90,7 @@ M [item=8193/Nightscape Pants]|QID|165010548|P|Leatherworking;165;0+250;1|ITEM|8
 M [item=15594/Rugged Armor Kit]|QID|165019058|P|Leatherworking;165;0+265;1|ITEM|15594|CRAFT|19058 18|MATS|8170 5|
 = Learn Recipe|QID|165002651|P|Leatherworking;165;0+265|RECIPE|19052|N|Learn [spell=19052] recipe, from Trainer.|
 M [item=15084/Wicked Leather Bracers]|QID|165019052|P|Leatherworking;165;0+290;1|ITEM|15084|CRAFT|19052 25|MATS|8170 8;2325 1;14341 1|
-= Learn Recipe|QID|165002801|P|Leatherworking;165;0+280|RECIPE|15086|N|Learn [spell=15086] recipe, from Trainer.|
+= Learn Recipe|QID|165002801|P|Leatherworking;165;0+280|RECIPE|15086|N|Learn [spell=19071] recipe, from Trainer.|
 M [item=15086/Wicked Leather Headband]|QID|165019071|P|Leatherworking;165;0+300;1|ITEM|15086|CRAFT|19071 10|MATS|8170 12;2325 1;14341 1|
 
 N Congratulations|QID|165000010|N|That completes Vanilla Leatherworking.|JUMP|LTW_TBC|NOCACHE|
