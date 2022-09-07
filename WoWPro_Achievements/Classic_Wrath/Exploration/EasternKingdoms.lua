@@ -10,6 +10,8 @@ WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
+N Porting issues|N|Coordinates for what will be [The Cape of Stranglethorn] and [Northern Stranglethorn] need correction|
+
 F Witherbark Village|QID|907610001|M|63.04,75.75|ACH|761;12|Z|Arathi Highlands|
 F Go'Shek Farm|QID|907610002|M|56.62,60.15|ACH|761;13|Z|Arathi Highlands|
 F Boulderfist Hall|QID|907610003|M|47.98,78.79|ACH|761;9|Z|Arathi Highlands|
@@ -70,16 +72,16 @@ F Altar of Storms|QID|907750008|M|10.04,29.71|ACH|775;9|Z|Burning Steppes|
 F Blackrock Mountain|QID|907750009|M|21.22,43.38|ACH|775;10|Z|Burning Steppes|
 F Blackrock Stronghold|QID|907750010|M|32.66,35.10|ACH|775;7|Z|Burning Steppes|
 
-F Ruins of Jubuwal|QID|949950001|M|53.61,31.49|ACH|4995;9|Z|The Cape of Stranglethorn|
-F Gurubashi Arena|QID|949950002|M|46.30,25.96|ACH|4995;3|Z|The Cape of Stranglethorn|
-F Hardwrench Hideaway|QID|949950003|M|34.91,27.33|ACH|4995;4|Z|The Cape of Stranglethorn|
-F Nek'mani Wellspring|QID|949950004|M|43.91,48.88|ACH|4995;7|Z|The Cape of Stranglethorn|
-F Booty Bay|QID|949950005|M|41.67,74.54|ACH|4995;1|Z|The Cape of Stranglethorn|
-F The Wild Shore|QID|949950006|M|49.08,75.50|ACH|4995;10|Z|The Cape of Stranglethorn|
-F Jaquero Isle|QID|949950007|M|60.58,80.64|ACH|4995;5|Z|The Cape of Stranglethorn|
-F Mistvale Valley|QID|949950008|M|50.16,55.13|ACH|4995;6|Z|The Cape of Stranglethorn|
-F Ruins of Aboraz|QID|949950009|M|61.11,43.54|ACH|4995;8|Z|The Cape of Stranglethorn|
-F Crystalvein Mine|QID|949950010|M|64.05,29.64|ACH|4995;2|Z|The Cape of Stranglethorn|
+F Ruins of Jubuwal|QID|949950001|M|53.61,31.49|ACH|4995;9|Z|Stranglethorn Vale|
+F Gurubashi Arena|QID|949950002|M|46.30,25.96|ACH|4995;3|Z|Stranglethorn Vale|
+F Hardwrench Hideaway|QID|949950003|M|34.91,27.33|ACH|4995;4|Z|Stranglethorn Vale|
+F Nek'mani Wellspring|QID|949950004|M|43.91,48.88|ACH|4995;7|Z|Stranglethorn Vale|
+F Booty Bay|QID|949950005|M|41.67,74.54|ACH|4995;1|Z|Stranglethorn Vale|
+F The Wild Shore|QID|949950006|M|49.08,75.50|ACH|4995;10|Z|Stranglethorn Vale|
+F Jaquero Isle|QID|949950007|M|60.58,80.64|ACH|4995;5|Z|Stranglethorn Vale|
+F Mistvale Valley|QID|949950008|M|50.16,55.13|ACH|4995;6|Z|Stranglethorn Vale|
+F Ruins of Aboraz|QID|949950009|M|61.11,43.54|ACH|4995;8|Z|Stranglethorn Vale|
+F Crystalvein Mine|QID|949950010|M|64.05,29.64|ACH|4995;2|Z|Stranglethorn Vale|
 
 F Karazhan|QID|907770001|M|46.53,74.34|ACH|777;3|Z|Deadwind Pass|
 F Deadman's Crossing|QID|907770002|M|35.87,35.60|ACH|777;1|Z|Deadwind Pass|
@@ -233,22 +235,22 @@ F Ironband's Excavation Site|QID|907790009|M|69.65,62.55|ACH|779;7|Z|Loch Modan|
 F Stonesplinter Valley|QID|907790010|M|30.96,80.28|ACH|779;10|Z|Loch Modan|
 F Valley of Kings|QID|907790011|M|23.49,74.97|ACH|779;11|Z|Loch Modan|
 
-F Grom'gol Base Camp|QID|907810001|M|37.79,50.21|ACH|781;1|Z|Northern Stranglethorn|
-F Balia'mah Ruins|QID|907810002|M|60.28,55.50|ACH|781;2|Z|Northern Stranglethorn|
-F Bambala|QID|907810003|M|62.95,39.13|ACH|781;3|Z|Northern Stranglethorn|
-F Fort Livingston|QID|907810004|M|53.00,66.65|ACH|781;4|Z|Northern Stranglethorn|
-F Zuuldaia Ruins|QID|907810005|M|19.81,23.98|ACH|781;5|Z|Northern Stranglethorn|
-F Nesingwary's Expedition|QID|907810006|M|44.13,23.25|ACH|781;6|Z|Northern Stranglethorn|
-F Rebel Camp|QID|907810007|M|47.37,11.09|ACH|781;7|Z|Northern Stranglethorn|
-F Kurzen's Compound|QID|907810008|M|57.75,21.02|ACH|781;8|Z|Northern Stranglethorn|
-F Kal'ai Ruins|QID|907810009|M|42.95,41.82|ACH|781;9|Z|Northern Stranglethorn|
-F Mizjah Ruins|QID|907810010|M|45.98,54.08|ACH|781;10|Z|Northern Stranglethorn|
-F Mosh'Ogg Ogre Mound|QID|907810011|M|66.17,48.69|ACH|781;11|Z|Northern Stranglethorn|
-F Lake Nazferiti|QID|907810012|M|52.35,34.51|ACH|781;12|Z|Northern Stranglethorn|
-F Bal'lal Ruins|QID|907810013|M|34.60,35.78|ACH|781;13|Z|Northern Stranglethorn|
-F The Vile Reef|QID|907810014|M|25.94,42.43|ACH|781;14|Z|Northern Stranglethorn|
-F Ruins of Zul'Kunda|QID|907810015|M|26.22,22.81|ACH|781;15|Z|Northern Stranglethorn|
-F Zul'Gurub|QID|907810016|M|67.53,32.85|ACH|781;16|Z|Northern Stranglethorn|
+F Grom'gol Base Camp|QID|907810001|M|37.79,50.21|ACH|781;1|Z|Stranglethorn Vale|
+F Balia'mah Ruins|QID|907810002|M|60.28,55.50|ACH|781;2|Z|Stranglethorn Vale|
+F Bambala|QID|907810003|M|62.95,39.13|ACH|781;3|Z|Stranglethorn Vale|
+F Fort Livingston|QID|907810004|M|53.00,66.65|ACH|781;4|Z|Stranglethorn Vale|
+F Zuuldaia Ruins|QID|907810005|M|19.81,23.98|ACH|781;5|Z|Stranglethorn Vale|
+F Nesingwary's Expedition|QID|907810006|M|44.13,23.25|ACH|781;6|Z|Stranglethorn Vale|
+F Rebel Camp|QID|907810007|M|47.37,11.09|ACH|781;7|Z|Stranglethorn Vale|
+F Kurzen's Compound|QID|907810008|M|57.75,21.02|ACH|781;8|Z|Stranglethorn Vale|
+F Kal'ai Ruins|QID|907810009|M|42.95,41.82|ACH|781;9|Z|Stranglethorn Vale|
+F Mizjah Ruins|QID|907810010|M|45.98,54.08|ACH|781;10|Z|Stranglethorn Vale|
+F Mosh'Ogg Ogre Mound|QID|907810011|M|66.17,48.69|ACH|781;11|Z|Stranglethorn Vale|
+F Lake Nazferiti|QID|907810012|M|52.35,34.51|ACH|781;12|Z|Stranglethorn Vale|
+F Bal'lal Ruins|QID|907810013|M|34.60,35.78|ACH|781;13|Z|Stranglethorn Vale|
+F The Vile Reef|QID|907810014|M|25.94,42.43|ACH|781;14|Z|Stranglethorn Vale|
+F Ruins of Zul'Kunda|QID|907810015|M|26.22,22.81|ACH|781;15|Z|Stranglethorn Vale|
+F Zul'Gurub|QID|907810016|M|67.53,32.85|ACH|781;16|Z|Stranglethorn Vale|
 
 F Shalewind Canyon|QID|907800001|M|78.73,63.04|ACH|780;12|Z|Redridge Mountains|
 F Render's Valley|QID|907800002|M|66.75,70.39|ACH|780;8|Z|Redridge Mountains|
