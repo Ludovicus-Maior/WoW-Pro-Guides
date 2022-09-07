@@ -7,7 +7,8 @@ return [[
 ;This is a rewrite and homogenization of existing 25-30 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
 ; Wetlands 25-26
 F Auberdine|QID|299|M|34.42,48.02|Z|Ashenvale|N|Fly back to Auberdine.|
-b Wetlands|QID|299|M|32.42,43.74|Z|Darkshore|N|Take the boat to Menethil from Auberdine.|
+b Stormwind City|QID|299|M|32.42,43.74|Z|Darkshore|N|Take the boat to Stormwind from Auberdine.|
+F Menethil Harbor|QID|299|M|71.07,72.68|Z|Stormwind City|N|Fly to Menethil Harbor.|TAXI|Menethil Harbor|
 A Reclaiming Goods|QID|281|M|8.3,58.6|Z|Wetlands|N|From Karl Boran.|PRE|279|
 A Apprentice's Duties|QID|471|M|8.49,55.7|Z|Wetlands|N|From James Halloran.|PRE|484|
 A Fall of Dun Modr|QID|472|M|10.84,55.89|Z|Wetlands|N|From Harlo Barnaby.|
