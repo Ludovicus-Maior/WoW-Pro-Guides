@@ -18,7 +18,7 @@
 ### WotLK
 * Achievements: Exploration+General backported from Retail
 * Dailies: Wrath dailies backported from Retail
-* Alliance: Dungeon Guides, Draenai+DwarfGnome+Human+Nelf Intros, Darkshore 10-19, Alliance 19-25, 20-41, Borean Tundra, Storm Peaks, 
+* Alliance: Dungeon Guides, Draenai+DwarfGnome+Human+Nelf Intros, Darkshore 10-19, Alliance 19-25, 20-41, Borean Tundra, Storm Peaks,
 * Neutral: Netherstorm, DK Intro
 * Horde: Hellfire Peninsula, Ghostlands, Ragefire Chasm
 
