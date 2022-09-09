@@ -54,18 +54,18 @@ N Level 26|QID|1078|N|You should be level 26 or close by now. If you are not, I 
 
 ; Redridge 26-27
 F Stormwind|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|Z|Wetlands|
-B Bronze Tube|QID|174|M|53.19,60.7|Z|Stormwind City|N|Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
-B Stormwind Seasoning Herbs |QID|90|M|60.07,51.55;64.15,60.60|CS|Z|Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
+B Bronze Tube|QID|174|M|60.99,71.30|Z|Stormwind City|N|Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
+B Stormwind Seasoning Herbs |QID|90|M|69.44,71.36|Z|Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
 N Level Cooking SKill to 50|QID|90|M|75.85,36.96|Z|Stormwind City|N|Level your cooking skill to 50 and get Journeyman Cooking for a quest later in the guide. Skip this step if you do not wish to level cooking.|
-t Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
-t A Scroll from Mauren|QID|1075|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
+t Retrieval for Mauren|QID|1078|M|53.04,86.56|Z|Stormwind City|N|To Collin Mauren.|
+t A Scroll from Mauren|QID|1075|M|53.04,86.56|Z|Stormwind City|N|To Collin Mauren.|
 
-F Lakeshire|QID|128|M|66.37,62.30|Z|Stormwind City|N|Fly to Lakeshire in Redridge Mountains.|
+F Lakeshire|QID|128|M|70.99,72.58|Z|Stormwind City|N|Fly to Lakeshire in Redridge Mountains.|
 A Blackrock Bounty|QID|128|M|31.54,57.86|N|From Guard Howe.|Z|Redridge Mountains|
 A Blackrock Menace|QID|20|M|33.49,48.99|N|From Marshal Marris.|Z|Redridge Mountains|
 A Howling in the Hills|QID|126|M|30.96,47.27|N|From Verner Osgood.|PRE|124|Z|Redridge Mountains|
 T Messenger to Darkshire|QID|146|M|29.99,44.44|N|To Magistrate Solomon.|Z|Redridge Mountains|
-h Lakeshire|ACTIVE|126|M|27.01,44.88|N|Set your hearthstone at Innkeeper Brianna|Z|Redridge Mountains|
+h Lakeshire|ACTIVE|20|M|27.01,44.88|N|Set your hearthstone at Innkeeper Brianna|Z|Redridge Mountains|
 A An Unwelcome Guest|QID|34|M|21.9,46.3|N|From Martie Jainrose.|Z|Redridge Mountains|
 C An Unwelcome Guest|QID|34|M|16.27,49|N|Kill Bellgrub.|Z|Redridge Mountains|T|Bellgrub|
 T An Unwelcome Guest|QID|34|M|21.9,46.3|N|To Martie Jainrose.|Z|Redridge Mountains|
@@ -94,7 +94,7 @@ C Solomon's Law|QID|91|M|78,42|US|N|Kill Shadowhide Gnoll gnolls and loot their 
 l Glowing Shadow Pendant|QID|178|M|78,42|L|1962|N|Rare drop from the gnolls in the area, if you don't want to bother you can just skip the next 2 steps.|Z|Redridge Mountains|
 A Theocritus' Retrieval|QID|178|M|78,42|U|1962|N|Click the Pendant to accept the quest.|Z|Redridge Mountains|
 N Elite Quests|QID|180|N|You will now be doing 5 elite quests in the area. The quests will require at least 3 people - however 5 is highly recommended. Skip the next 9 steps if you cannot find a group.|Z|Redridge Mountains|
-C Shadow Magic|QID|115|M|63.2,49.8|S|N|Kill the Blackrock Shadowcasters in the area and loot their orbs. These are elites and will banish a random player. It is highly recommended to focus them first|Z|Redridge Mountains|
+C Shadow Magic|QID|115|M|63.2,49.8|S|N|Kill the Blackrock Shadowcasters in the area and loot their orbs.|Z|Redridge Mountains|
 T Looking Further|QID|248|M|63.2,49.8|N|To An Empty Jar, At the top of the tower.|Z|Redridge Mountains|
 C Tharil'Zun|QID|19|M|68.31,59.41|N|Kill Tharil'Zun and loot his head. Elite surrounded by elites, will most likely need a group. He is not immune to crown control and it is recommended to clear all the elite packs around him first.|Z|Redridge Mountains|
 C Wanted: Gath'Ilzogg|QID|169|M|67,55|N|Kill and loot Gath'Ilzogg. He is upstairs within Stonewatch Keep.\nThis is a tough quest. Be careful not to overpull packs whilst inside the keep.\nGath'Ilzogg is not immune to crowd control. Keep him CC'd whilst you kill the other elites with him.|Z|Redridge Mountains|
@@ -220,23 +220,23 @@ C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|Stormwind City|N|The thr
 T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 
 r Sell junk, repair, train etc|AVAILABLE|1243|
-T The Legend of Stalvan|QID|70|M|29.53,61.93|Z|Stormwind City|N|To Caretaker Folsom.|
-A The Legend of Stalvan|QID|72|M|29.53,61.93|Z|Stormwind City|N|From Caretaker Folsom.|PRE|70|
-T The Legend of Stalvan|QID|72|M|29.44,61.52|Z|Stormwind City|N|Right-click the Sealed Crate just next to Caretaker Folsom.|
-A The Legend of Stalvan|QID|74|M|29.44,61.52|Z|Stormwind City|N|From the Sealed Crate.|PRE|72|
-A The Missing Diplomat|QID|1274|M|41.2,30.6|Z|Stormwind City|N|From Thomas.|
-T Seeking Wisdom|QID|269|M|39.11,27.85|Z|Stormwind City|N|From Bishop Farthing.|
-A The Doomed Fleet|QID|270|M|39.11,27.85|Z|Stormwind City|N|From Bishop Farthing.|PRE|269|
-T The Missing Diplomat|QID|1274|M|78.29,25.52|Z|Stormwind City|N|To Bishop DeLavey.|
-A The Missing Diplomat|QID|1241|M|78.29,25.52|Z|Stormwind City|N|From Bishop DeLavey.|PRE|1274|
-T An Old History Book|QID|337|ACTIVE|337|M|74.19,7.46|Z|Stormwind City|N|To Milton Sheaf.|
-A Southshore|QID|538|M|74.19,7.46|Z|Stormwind City|N|From Milton Sheaf.|PRE|337|
-T The Missing Diplomat|QID|1241|M|73.17,78.41|Z|Stormwind City|N|To Jorgen. Fishing out in the Valley of Heroes.|
-A The Missing Diplomat|QID|1242|M|73.17,78.41|Z|Stormwind City|N|From Jorgen. Fishing out in the Valley of Heroes.|PRE|1241|
-T The Missing Diplomat|QID|1242|M|59.90,64.19|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
-A The Missing Diplomat|QID|1243|M|59.90,64.19|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1242|
+T The Legend of Stalvan|QID|70|M|42.58,72.54|Z|Stormwind City|N|To Caretaker Folsom.|
+A The Legend of Stalvan|QID|72|M|42.58,72.54|Z|Stormwind City|N|From Caretaker Folsom.|PRE|70|
+T The Legend of Stalvan|QID|72|M|42.58,72.54|Z|Stormwind City|N|Right-click the Sealed Crate just next to Caretaker Folsom.|
+A The Legend of Stalvan|QID|74|M|42.58,72.54|Z|Stormwind City|N|From the Sealed Crate.|PRE|72|
+A The Missing Diplomat|QID|1274|M|50.98,47.27|Z|Stormwind City|N|From Thomas.|
+T Seeking Wisdom|QID|269|M|49.99,46.10|Z|Stormwind City|N|To Bishop Farthing.|
+A The Doomed Fleet|QID|270|M|49.99,46.10|Z|Stormwind City|N|From Bishop Farthing.|PRE|269|
+T The Missing Diplomat|QID|1274|M|80.16,44.10|Z|Stormwind City|N|To Bishop DeLavey.|
+A The Missing Diplomat|QID|1241|M|80.16,44.10|Z|Stormwind City|N|From Bishop DeLavey.|PRE|1274|
+T An Old History Book|QID|337|ACTIVE|337|M|77.02,30.29|Z|Stormwind City|N|To Milton Sheaf.|
+A Southshore|QID|538|M|77.02,30.29|Z|Stormwind City|N|From Milton Sheaf.|PRE|337|
+T The Missing Diplomat|QID|1241|M|76.25,85.10|Z|Stormwind City|N|To Jorgen. Fishing out in the Valley of Heroes.|
+A The Missing Diplomat|QID|1242|M|76.25,85.10|Z|Stormwind City|N|From Jorgen. Fishing out in the Valley of Heroes.|PRE|1241|
+T The Missing Diplomat|QID|1242|M|66.15,74.23|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
+A The Missing Diplomat|QID|1243|M|66.15,74.23|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1242|
 
-F Darkshire|QID|1243|M|66.33,62.19|Z|Stormwind City|N|Fly back to Darkshire, Duskwood.|
+F Darkshire|QID|1243|M|71.01,72.63|Z|Stormwind City|N|Fly back to Darkshire, Duskwood.|
 T The Missing Diplomat|QID|1243|M|74.4,40.8|N|To Watcher Backus. He patrols the north road leading out of town.|Z|Duskwood|
 A The Missing Diplomat|QID|1244|M|74.4,40.8|N|From Watcher Backus. He patrols the north road leading out of town.|PRE|1243|Z|Duskwood|
 T The Legend of Stalvan|QID|74|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Haggard.|
@@ -275,7 +275,7 @@ A Wait for Sirra to Finish|QID|401|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|251|
 T Wait for Sirra to Finish|QID|401|M|72.65,47.64|N|To Sirra Von'lndi.|Z|Duskwood|
 A Translation to Ello|QID|252|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|401|Z|Duskwood|
 T Translation to Ello|QID|252|M|71.93,46.43|N|To Lord Ello Ebonlocke. Don't get Follow up for now.|Z|Duskwood|
-N Trash the Letter|ACTIVE|181|S|N|Destroy Translated Letter from The Embalmer, it is useless and wastes precious bag space.|PRE|252|Z|Duskwood|
+* Translated Letter|AVAILABLE|-252|ACTIVE|-252|N|Destroy Translated Letter from The Embalmer, it is useless and wastes precious bag space.|PRE|252|Z|Duskwood|U|3248|
 T The Legend of Stalvan|QID|97|M|73.56,46.85|N|To Commander Althea Ebonlocke. Don't get follow up for now.|Z|Duskwood|
 T The Totem of Infliction|QID|101|M|75.8,45.3|N|To Madame Eva.|Z|Duskwood|
 T The Missing Diplomat|QID|1244|M|74.4,40.8|N|To Watcher Backus. He patrols the north road leading out of town.|Z|Duskwood|

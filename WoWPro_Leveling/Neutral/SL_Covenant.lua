@@ -39,8 +39,7 @@ P The Runecarver's Oubliette|AVAILABLE|60268|PRE|60267|M|15.93,61.04|Z|1911;Torg
 A Deep Within|QID|60268|PRE|60267|M|50.36,54.08|Z|1912;The Runecarver's Oubliette!Instance|N|From Runecarver.|
 C Deep Within|QID|60268|M|50.36,54.08|Z|1912;The Runecarver's Oubliette!Instance|QO|1|CHAT|N|Speak with Runecarver to hear is his story.|
 T Deep Within|QID|60268|M|50.36,54.08|Z|1912;The Runecarver's Oubliette!Instance|N|To Runecarver.|
-A Reawakening|QID|60269|PRE|60268|M|50.36,54.08|Z|1912;The Runecarver's Oubliette!Instance|N|From Runecarver.|
-P Torghast, Tower of the Damned|ACTIVE|60269|M|49.95,72.37|Z|1912;The Runecarver's Oubliette!Instance|N|Take the Portal into Torghast Antechamber.|IZ|1912|
+A Reawakening|QID|60269|PRE|60268|M|50.36,54.08|Z|1912;The Runecarver's Oubliette!Instance|N|From Runecarver. After you pick up the quest go back outside to the Maw.|
 P Ve'nari's Refuge|ACTIVE|60269|M|10.42,46.99|Z|1911;Torghast - Entrance!Instance|N|Click the doors to exit to Ve'nari's Refuge.|IZ|1911|
 C Reawakening|QID|60269|QO|1|M|38.52,28.80|Z|1543;The Maw|N|Kill Odalrik and loot the Runecarver's Memory.|
 P Torghast, Tower of the Damned|ACTIVE|60269|M|48.17,39.48|Z|1543;The Maw|N|Take the Portal into Torghast.|IZ|1543|

@@ -240,7 +240,7 @@ A Vyrin's Revenge|QID|271|M|81.72,64.16|ELITE|Z|Loch Modan|N|[color=FF8000]Elite
 R Mo'grosh Stronghold|M|74,35|ACTIVE|255|Z|Loch Modan|N|I recommend a group for this even at level 20, you still will really benefit from at least 2 of you.|
 C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|S|Z|Loch Modan|N|Mo'grosh Ogres and Enforcers are found outside the cave.|
 C Mercenaries|QID|255|M|76.75,14.38|QO|2|S|Z|Loch Modan|N|Mo'grosh Brutes are found inside the cave.|
-C Mercenaries|QID|255|M|76.75,14.38|QO|2|US|Z|Loch Modan|N|Mo'grosh Brutea are found inside the cave.|
+C Mercenaries|QID|255|M|76.75,14.38|QO|2|US|Z|Loch Modan|N|Mo'grosh Brutes are found inside the cave.|
 C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|US|Z|Loch Modan|N|Mo'grosh Ogres and Enforcers are found outside the cave.|
 R Stonewrought Dam|AVAILABLE|250|M|55.47,15.14|Z|Loch Modan|N|Run over to the ramp up on to the top of the dam.|
 A A Dark Threat Looms|QID|250|M|46.04,13.61|Z|Loch Modan|N|From Chief Engineer Hinderweir VII.|
