@@ -318,18 +318,18 @@ T The Lost Ingots|QID|324|M|10.6,60.6|N|To Glorin Steelbrow.|Z|Wetlands|
 A Blessed Arm|QID|322|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|324|Z|Wetlands|
 
 F Stormwind|QID|322|N|Fly to Stormwind|M|9.50,59.70|Z|Wetlands|
-t The Missing Diplomat|QID|1245|M|59.90,64.19|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
-A The Missing Diplomat|QID|1246|M|59.90,64.19|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1245|
-T The Missing Diplomat|QID|1246|M|70.56,44.89|Z|Stormwind City|N|To Dashel Stonefist.|
-A The Missing Diplomat|QID|1447|M|70.56,44.89|Z|Stormwind City|N|From Dashel Stonefist. Be ready for a fight. Just focus on him, he will give up at about 1/3 health and call off his goons.|PRE|1246|
-C The Missing Diplomat|QID|1447|M|70.56,44.89|Z|Stormwind City|N|Defeat Dashel Stonefist. Just focus on him, he will give up at about 1/3 health and call off his goons.|
-T The Missing Diplomat|QID|1447|M|70.56,44.89|Z|Stormwind City|N|To Dashel Stonefist.|
-A The Missing Diplomat|QID|1247|M|70.56,44.89|Z|Stormwind City|N|To Dashel Stonefist.|PRE|1447|
-T The Missing Diplomat|QID|1247|M|59.90,64.19|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
-A The Missing Diplomat|QID|1248|M|59.90,64.19|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1247|
-T Cleansing the Eye|QID|293|M|39.6,27.23|Z|Stormwind City|N|To Archbishop Benedictus.|
-T Blessed Arm|QID|322|M|51.75,12.12|Z|Stormwind City|N|To Grimand Elmore.|
-A Armed and Ready|QID|325|M|51.75,12.12|Z|Stormwind City|N|From Grimand Elmore.|PRE|322|
+t The Missing Diplomat|QID|1245|M|66.09,74.16|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
+A The Missing Diplomat|QID|1246|M|66.09,74.16|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1245|
+T The Missing Diplomat|QID|1246|M|74.21,59.18|Z|Stormwind City|N|To Dashel Stonefist.|
+A The Missing Diplomat|QID|1447|M|74.21,59.18|Z|Stormwind City|N|From Dashel Stonefist. Be ready for a fight. Just focus on him, he will give up at about 1/3 health and call off his goons.|PRE|1246|
+C The Missing Diplomat|QID|1447|M|74.21,59.18|Z|Stormwind City|N|Defeat Dashel Stonefist. Just focus on him, he will give up at about 1/3 health and call off his goons.|
+T The Missing Diplomat|QID|1447|M|74.21,59.18|Z|Stormwind City|N|To Dashel Stonefist.|
+A The Missing Diplomat|QID|1247|M|74.21,59.18|Z|Stormwind City|N|To Dashel Stonefist.|PRE|1447|
+T The Missing Diplomat|QID|1247|M|66.09,74.16|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
+A The Missing Diplomat|QID|1248|M|66.09,74.16|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1247|
+T Cleansing the Eye|QID|293|M|50.39,45.61|Z|Stormwind City|N|To Archbishop Benedictus.|
+T Blessed Arm|QID|322|M|59.69,33.90|Z|Stormwind City|N|To Grimand Elmore.|
+A Armed and Ready|QID|325|M|59.69,33.90|Z|Stormwind City|N|From Grimand Elmore.|PRE|322|
 t An Old History Book|QID|337|ACTIVE|337|M|74.19,7.46|Z|Stormwind City|N|To Milton Sheaf.|
 A Southshore|QID|538|M|74.19,7.46|Z|Stormwind City|N|From Milton Sheaf.|PRE|337|
 N Level 30|QID|1248|N|You are not supposed to be level 30 already, you're ahead of the curve, go train new skills now. Close this step when you're done.|LVL|30|
@@ -338,15 +338,17 @@ H Deepwater Tavern|QID|1248|N|Hearth back to Menethil Harbor.|
 T The Missing Diplomat|QID|1248|M|10.61,60.76|N|To Mikhail. Don't get follow up.|Z|Wetlands|
 
 ;Ashenvale 29-30
-b Darkshore|AVAILABLE|4581|M|4.61,57.07|Z|Wetlands|N|Take Boat to Auberdine.|
+P Moonglade|AVAILABLE|4581|C|Druid|M|PLAYER|N|Use your Moonglade portal spell.|
+F Rut'theran Village|AVAILABLE|4581|C|Druid|Z|Moonglade|M|44.19,45.26|N|Take the flightpath to Teldrassil.|
+F Stormwind City|AVAILABLE|4581|M|9.59,59.66|N|Take flightpath to Stormwind.|Z|Wetlands|C|-Druid|
+b Auberdine|AVAILABLE|4581|M|22.74,56.19|N|Take the boat to Auberdine.|Z|Stormwind City|C|-Druid|
 F Astranaar|AVAILABLE|4581|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar.|
 A Kayneth Stillwind|QID|4581|M|34.67,48.84|N|From Shindrell Swiftfire.|Z|Ashenvale|
 h Astranaar|AVAILABLE|1021|N|Make Astranaar your home location.|M|36.97,49.26|Z|Ashenvale|
 A Fallen Sky Lake|QID|1035|M|37.35,51.80|N|From Pelturas Whitemoon|Z|Ashenvale|PRE|1034|
-
 R Raynewood Retreat|ACTIVE|1026|M|62.00,51.00|CS|N|Follow the path east out of Astrannar and take the North path at the fork in the road towards Raynewood Retreat.|Z|Ashenvale|
 K Raene's Cleansing|QID|1026|M|54.42,35.39||N|Kill Withered and Crazed Ancients in the area until you get the Wooden Key.|L|5475|Z|Ashenvale|
-C Raene's Cleansing|QID|1026|M|54.42,35.39|N|Click on the Worn Chest once you have the key.|Z|Ashenvale|
+C Raene's Cleansing|QID|1026|M|54.42,35.39|N|Click on the Worn Chest once you have the key.|Z|Ashenvale|NC|
 R Moonwell|ACTIVE|1026|M|54.42,35.39;61.00,44.20;57.30,55.80;51.40,52.50;50.60,46.90;53.50,46.30|CS|N|Run back out of the tunnel and south along the Road. Once past Raynewood Retreat head west along the hill and then follow it up towards the Moonwell|Z|Ashenvale|
 T Raene's Cleansing|QID|1026|M|53.50,46.30|CS|N|To Shael'dryn.|Z|Ashenvale|
 A Raene's Cleansing|QID|1027|M|53.50,46.30|N|From Shael'dryn.|PRE|1026|Z|Ashenvale|
