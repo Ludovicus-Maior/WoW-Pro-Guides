@@ -171,8 +171,8 @@ C The Light of Dawn|QID|12801|M|34.45,31.12|Z|124|N|Speak with Darion Mograine a
 C The Light of Dawn|QID|12801|M|38.89,38.26|Z|124|QO|1|N|Wait for the battle to begin.\n[color=FF0000]NOTE: [/color]You don't have to participate to get credit. But, you do need to be in the area of Light's Hope Chapel|
 T The Light of Dawn|QID|12801|M|39.10,39.29|Z|124|N|To Highlord Darion Mograine.\n[color=FF0000]NOTE: [/color]If you waited too long and he despawned, just go back to where the battle began to turn it in.\nOnce the battle begins again, you'll have to wait to the end.|
 A Taking Back Acherus|QID|13165|M|39.10,39.29|Z|124|N|From Highlord Darion Mograine.|PRE|12801|
-* Crusader Skulls|AVAILABLE|9407^10046|N|You cannot use these anymore.|U|39328|
-* Haute Club Membership Card|AVAILABLE|9407^10046|N|These are completely useless.|U|39355|
+* Crusader Skulls|AVAILABLE|9407&10046|N|You cannot use these anymore.|U|39328|
+* Haute Club Membership Card|AVAILABLE|9407&10046|N|These are completely useless.|U|39355|
 P Acherus: The Ebon Hold|ACTIVE|13165|M|PLAYER|N|Use your new Death Gate spell to open a portal to Acherus. Click on the Death Gate to use it.\n[color=FF0000]NOTE: [/color]You may want add it to one of your action bars.|
 T Taking Back Acherus|QID|13165|M|83.43,49.43|Z|1423|N|To Highlord Darion Mograine in The Ebon Hold.|
 A The Battle For The Ebon Hold|QID|13166|M|83.43,49.43|Z|1423|N|From Highlord Darion Mograine.|PRE|13165|
@@ -185,9 +185,9 @@ A Warchief's Blessing|QID|13189|M|83.43,49.43|Z|1423|N|From Highlord Darion Mogr
 P Durotar|ACTIVE|13189|M|84.55,50.46|Z|1423|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
 R Grommash Hold|ACTIVE|13189|M|40.23,36.86|Z|1454|
 T Warchief's Blessing|QID|13189|M|31.64,37.83|Z|1454|N|To High Overlord Saurfang.|FACTION|Horde|
-P Acherus: The Ebon Hold|AVAILABLE|9407^10046|M|PLAYER|N|Use your Death Gate to portal to Ebon Hold.|
-= Level 58 Training|AVAILABLE|9407^10046|M|80.91,43.78|Z|1423|N|Do your level 58 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-f Acherus: The Ebon Hold|AVAILABLE|9407^10046|M|83.88,50.43|Z|1423|N|At Grimwing on the main level.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+P Acherus: The Ebon Hold|AVAILABLE|9407&10046|M|PLAYER|N|Use your Death Gate to portal to Ebon Hold.|
+= Level 58 Training|AVAILABLE|9407&10046|M|80.91,43.78|Z|1423|N|Do your level 58 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+f Acherus: The Ebon Hold|AVAILABLE|9407&10046|M|83.88,50.43|Z|1423|N|At Grimwing on the main level.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 
 ]]
 end)
