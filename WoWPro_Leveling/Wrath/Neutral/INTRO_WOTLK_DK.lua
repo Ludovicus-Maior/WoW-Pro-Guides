@@ -180,7 +180,7 @@ K The Battle For The Ebon Hold|ACTIVE|13166|QO|1;2|N|Take the portal down to joi
 T The Battle For The Ebon Hold|QID|13166|M|83.43,49.43|Z|1423|N|To Highlord Darion Mograine on the upper level.|
 A Where Kings Walk|QID|13188|M|83.43,49.43|Z|1423|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Alliance|
 P Stormwind City|ACTIVE|13188|M|83.65,51.33|Z|1423|N|Click on the portal to go to Stormwind.|FACTION|Alliance|
-T Where Kings Walk|QID|13188|Z|Stormwind City|M|85.6,31.8|Z|Stormwind City|N|To King Anduin Wrynn.|FACTION|Alliance|
+T Where Kings Walk|QID|13188|M|85.6,31.8|Z|Stormwind City|N|To King Anduin Wrynn.|FACTION|Alliance|
 A Warchief's Blessing|QID|13189|M|83.43,49.43|Z|1423|N|From Highlord Darion Mograine.|PRE|13166|FACTION|Horde|
 P Durotar|ACTIVE|13189|M|84.55,50.46|Z|1423|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
 R Grommash Hold|ACTIVE|13189|M|40.23,36.86|Z|1454|

@@ -54,18 +54,17 @@ N Level 26|QID|1078|N|You should be level 26 or close by now. If you are not, I 
 
 ; Redridge 26-27
 F Stormwind|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|Z|Wetlands|
-B Bronze Tube|QID|174|M|53.19,60.7|Z|Stormwind City|N|Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
-B Stormwind Seasoning Herbs |QID|90|M|60.07,51.55;64.15,60.60|CS|Z|Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
-N Level Cooking SKill to 50|QID|90|M|75.85,36.96|Z|Stormwind City|N|Level your cooking skill to 50 and get Journeyman Cooking for a quest later in the guide. Skip this step if you do not wish to level cooking.|
-t Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
-t A Scroll from Mauren|QID|1075|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
+B Bronze Tube|QID|174|M|60.99,71.30|Z|Stormwind City|N|Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
+B Stormwind Seasoning Herbs |QID|90|M|69.44,71.36|Z|Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
+t Retrieval for Mauren|QID|1078|M|53.04,86.56|Z|Stormwind City|N|To Collin Mauren.|
+t A Scroll from Mauren|QID|1075|M|53.04,86.56|Z|Stormwind City|N|To Collin Mauren.|
 
-F Lakeshire|QID|128|M|66.37,62.30|Z|Stormwind City|N|Fly to Lakeshire in Redridge Mountains.|
+F Lakeshire|QID|128|M|70.99,72.58|Z|Stormwind City|N|Fly to Lakeshire in Redridge Mountains.|
 A Blackrock Bounty|QID|128|M|31.54,57.86|N|From Guard Howe.|Z|Redridge Mountains|
 A Blackrock Menace|QID|20|M|33.49,48.99|N|From Marshal Marris.|Z|Redridge Mountains|
 A Howling in the Hills|QID|126|M|30.96,47.27|N|From Verner Osgood.|PRE|124|Z|Redridge Mountains|
 T Messenger to Darkshire|QID|146|M|29.99,44.44|N|To Magistrate Solomon.|Z|Redridge Mountains|
-h Lakeshire|ACTIVE|126|M|27.01,44.88|N|Set your hearthstone at Innkeeper Brianna|Z|Redridge Mountains|
+h Lakeshire|ACTIVE|20|M|27.01,44.88|N|Set your hearthstone at Innkeeper Brianna|Z|Redridge Mountains|
 A An Unwelcome Guest|QID|34|M|21.9,46.3|N|From Martie Jainrose.|Z|Redridge Mountains|
 C An Unwelcome Guest|QID|34|M|16.27,49|N|Kill Bellgrub.|Z|Redridge Mountains|T|Bellgrub|
 T An Unwelcome Guest|QID|34|M|21.9,46.3|N|To Martie Jainrose.|Z|Redridge Mountains|
@@ -91,10 +90,8 @@ T A Watchful Eye|QID|94|M|84.3,46.9|N|To Lion Statue.|Z|Redridge Mountains|
 A Looking Further|QID|248|M|84.3,46.9|N|From Lion Statue.|PRE|94|Z|Redridge Mountains|
 C Wanted: Lieutenant Fangore|QID|180|M|79.75,37.6|N|Kill Lieutenant Fangore and loot his paw. He roams around from camp to camp.\nBe aware that he will pull nearby Gnolls in a large radius when agro'd.|T|Lieutenant Fangore|Z|Redridge Mountains|
 C Solomon's Law|QID|91|M|78,42|US|N|Kill Shadowhide Gnoll gnolls and loot their pendants.|Z|Redridge Mountains|
-l Glowing Shadow Pendant|QID|178|M|78,42|L|1962|N|Rare drop from the gnolls in the area, if you don't want to bother you can just skip the next 2 steps.|Z|Redridge Mountains|
-A Theocritus' Retrieval|QID|178|M|78,42|U|1962|N|Click the Pendant to accept the quest.|Z|Redridge Mountains|
-N Elite Quests|QID|180|N|You will now be doing 5 elite quests in the area. The quests will require at least 3 people - however 5 is highly recommended. Skip the next 9 steps if you cannot find a group.|Z|Redridge Mountains|
-C Shadow Magic|QID|115|M|63.2,49.8|S|N|Kill the Blackrock Shadowcasters in the area and loot their orbs. These are elites and will banish a random player. It is highly recommended to focus them first|Z|Redridge Mountains|
+A Theocritus' Retrieval|QID|178|M|78,42|U|1962|N|Click the Pendant to accept the quest.|Z|Redridge Mountains|O|
+C Shadow Magic|QID|115|M|63.2,49.8|S|N|Kill the Blackrock Shadowcasters in the area and loot their orbs.|Z|Redridge Mountains|
 T Looking Further|QID|248|M|63.2,49.8|N|To An Empty Jar, At the top of the tower.|Z|Redridge Mountains|
 C Tharil'Zun|QID|19|M|68.31,59.41|N|Kill Tharil'Zun and loot his head. Elite surrounded by elites, will most likely need a group. He is not immune to crown control and it is recommended to clear all the elite packs around him first.|Z|Redridge Mountains|
 C Wanted: Gath'Ilzogg|QID|169|M|67,55|N|Kill and loot Gath'Ilzogg. He is upstairs within Stonewatch Keep.\nThis is a tough quest. Be careful not to overpull packs whilst inside the keep.\nGath'Ilzogg is not immune to crowd control. Keep him CC'd whilst you kill the other elites with him.|Z|Redridge Mountains|
@@ -220,23 +217,23 @@ C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|Stormwind City|N|The thr
 T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 
 r Sell junk, repair, train etc|AVAILABLE|1243|
-T The Legend of Stalvan|QID|70|M|29.53,61.93|Z|Stormwind City|N|To Caretaker Folsom.|
-A The Legend of Stalvan|QID|72|M|29.53,61.93|Z|Stormwind City|N|From Caretaker Folsom.|PRE|70|
-T The Legend of Stalvan|QID|72|M|29.44,61.52|Z|Stormwind City|N|Right-click the Sealed Crate just next to Caretaker Folsom.|
-A The Legend of Stalvan|QID|74|M|29.44,61.52|Z|Stormwind City|N|From the Sealed Crate.|PRE|72|
-A The Missing Diplomat|QID|1274|M|41.2,30.6|Z|Stormwind City|N|From Thomas.|
-T Seeking Wisdom|QID|269|M|39.11,27.85|Z|Stormwind City|N|From Bishop Farthing.|
-A The Doomed Fleet|QID|270|M|39.11,27.85|Z|Stormwind City|N|From Bishop Farthing.|PRE|269|
-T The Missing Diplomat|QID|1274|M|78.29,25.52|Z|Stormwind City|N|To Bishop DeLavey.|
-A The Missing Diplomat|QID|1241|M|78.29,25.52|Z|Stormwind City|N|From Bishop DeLavey.|PRE|1274|
-T An Old History Book|QID|337|ACTIVE|337|M|74.19,7.46|Z|Stormwind City|N|To Milton Sheaf.|
-A Southshore|QID|538|M|74.19,7.46|Z|Stormwind City|N|From Milton Sheaf.|PRE|337|
-T The Missing Diplomat|QID|1241|M|73.17,78.41|Z|Stormwind City|N|To Jorgen. Fishing out in the Valley of Heroes.|
-A The Missing Diplomat|QID|1242|M|73.17,78.41|Z|Stormwind City|N|From Jorgen. Fishing out in the Valley of Heroes.|PRE|1241|
-T The Missing Diplomat|QID|1242|M|59.90,64.19|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
-A The Missing Diplomat|QID|1243|M|59.90,64.19|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1242|
+T The Legend of Stalvan|QID|70|M|42.58,72.54|Z|Stormwind City|N|To Caretaker Folsom.|
+A The Legend of Stalvan|QID|72|M|42.58,72.54|Z|Stormwind City|N|From Caretaker Folsom.|PRE|70|
+T The Legend of Stalvan|QID|72|M|42.58,72.54|Z|Stormwind City|N|Right-click the Sealed Crate just next to Caretaker Folsom.|
+A The Legend of Stalvan|QID|74|M|42.58,72.54|Z|Stormwind City|N|From the Sealed Crate.|PRE|72|
+A The Missing Diplomat|QID|1274|M|50.98,47.27|Z|Stormwind City|N|From Thomas.|
+T Seeking Wisdom|QID|269|M|49.99,46.10|Z|Stormwind City|N|To Bishop Farthing.|
+A The Doomed Fleet|QID|270|M|49.99,46.10|Z|Stormwind City|N|From Bishop Farthing.|PRE|269|
+T The Missing Diplomat|QID|1274|M|80.16,44.10|Z|Stormwind City|N|To Bishop DeLavey.|
+A The Missing Diplomat|QID|1241|M|80.16,44.10|Z|Stormwind City|N|From Bishop DeLavey.|PRE|1274|
+T An Old History Book|QID|337|ACTIVE|337|M|77.02,30.29|Z|Stormwind City|N|To Milton Sheaf.|
+A Southshore|QID|538|M|77.02,30.29|Z|Stormwind City|N|From Milton Sheaf.|PRE|337|
+T The Missing Diplomat|QID|1241|M|76.25,85.10|Z|Stormwind City|N|To Jorgen. Fishing out in the Valley of Heroes.|
+A The Missing Diplomat|QID|1242|M|76.25,85.10|Z|Stormwind City|N|From Jorgen. Fishing out in the Valley of Heroes.|PRE|1241|
+T The Missing Diplomat|QID|1242|M|66.15,74.23|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
+A The Missing Diplomat|QID|1243|M|66.15,74.23|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1242|
 
-F Darkshire|QID|1243|M|66.33,62.19|Z|Stormwind City|N|Fly back to Darkshire, Duskwood.|
+F Darkshire|QID|1243|M|71.01,72.63|Z|Stormwind City|N|Fly back to Darkshire, Duskwood.|
 T The Missing Diplomat|QID|1243|M|74.4,40.8|N|To Watcher Backus. He patrols the north road leading out of town.|Z|Duskwood|
 A The Missing Diplomat|QID|1244|M|74.4,40.8|N|From Watcher Backus. He patrols the north road leading out of town.|PRE|1243|Z|Duskwood|
 T The Legend of Stalvan|QID|74|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Haggard.|
@@ -275,7 +272,7 @@ A Wait for Sirra to Finish|QID|401|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|251|
 T Wait for Sirra to Finish|QID|401|M|72.65,47.64|N|To Sirra Von'lndi.|Z|Duskwood|
 A Translation to Ello|QID|252|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|401|Z|Duskwood|
 T Translation to Ello|QID|252|M|71.93,46.43|N|To Lord Ello Ebonlocke. Don't get Follow up for now.|Z|Duskwood|
-N Trash the Letter|ACTIVE|181|S|N|Destroy Translated Letter from The Embalmer, it is useless and wastes precious bag space.|PRE|252|Z|Duskwood|
+* Translated Letter|AVAILABLE|-252|ACTIVE|-252|N|Destroy Translated Letter from The Embalmer, it is useless and wastes precious bag space.|PRE|252|Z|Duskwood|U|3248|
 T The Legend of Stalvan|QID|97|M|73.56,46.85|N|To Commander Althea Ebonlocke. Don't get follow up for now.|Z|Duskwood|
 T The Totem of Infliction|QID|101|M|75.8,45.3|N|To Madame Eva.|Z|Duskwood|
 T The Missing Diplomat|QID|1244|M|74.4,40.8|N|To Watcher Backus. He patrols the north road leading out of town.|Z|Duskwood|
@@ -318,18 +315,18 @@ T The Lost Ingots|QID|324|M|10.6,60.6|N|To Glorin Steelbrow.|Z|Wetlands|
 A Blessed Arm|QID|322|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|324|Z|Wetlands|
 
 F Stormwind|QID|322|N|Fly to Stormwind|M|9.50,59.70|Z|Wetlands|
-t The Missing Diplomat|QID|1245|M|59.90,64.19|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
-A The Missing Diplomat|QID|1246|M|59.90,64.19|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1245|
-T The Missing Diplomat|QID|1246|M|70.56,44.89|Z|Stormwind City|N|To Dashel Stonefist.|
-A The Missing Diplomat|QID|1447|M|70.56,44.89|Z|Stormwind City|N|From Dashel Stonefist. Be ready for a fight. Just focus on him, he will give up at about 1/3 health and call off his goons.|PRE|1246|
-C The Missing Diplomat|QID|1447|M|70.56,44.89|Z|Stormwind City|N|Defeat Dashel Stonefist. Just focus on him, he will give up at about 1/3 health and call off his goons.|
-T The Missing Diplomat|QID|1447|M|70.56,44.89|Z|Stormwind City|N|To Dashel Stonefist.|
-A The Missing Diplomat|QID|1247|M|70.56,44.89|Z|Stormwind City|N|To Dashel Stonefist.|PRE|1447|
-T The Missing Diplomat|QID|1247|M|59.90,64.19|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
-A The Missing Diplomat|QID|1248|M|59.90,64.19|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1247|
-T Cleansing the Eye|QID|293|M|39.6,27.23|Z|Stormwind City|N|To Archbishop Benedictus.|
-T Blessed Arm|QID|322|M|51.75,12.12|Z|Stormwind City|N|To Grimand Elmore.|
-A Armed and Ready|QID|325|M|51.75,12.12|Z|Stormwind City|N|From Grimand Elmore.|PRE|322|
+t The Missing Diplomat|QID|1245|M|66.09,74.16|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
+A The Missing Diplomat|QID|1246|M|66.09,74.16|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1245|
+T The Missing Diplomat|QID|1246|M|74.21,59.18|Z|Stormwind City|N|To Dashel Stonefist.|
+A The Missing Diplomat|QID|1447|M|74.21,59.18|Z|Stormwind City|N|From Dashel Stonefist. Be ready for a fight. Just focus on him, he will give up at about 1/3 health and call off his goons.|PRE|1246|
+C The Missing Diplomat|QID|1447|M|74.21,59.18|Z|Stormwind City|N|Defeat Dashel Stonefist. Just focus on him, he will give up at about 1/3 health and call off his goons.|
+T The Missing Diplomat|QID|1447|M|74.21,59.18|Z|Stormwind City|N|To Dashel Stonefist.|
+A The Missing Diplomat|QID|1247|M|74.21,59.18|Z|Stormwind City|N|To Dashel Stonefist.|PRE|1447|
+T The Missing Diplomat|QID|1247|M|66.09,74.16|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
+A The Missing Diplomat|QID|1248|M|66.09,74.16|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1247|
+T Cleansing the Eye|QID|293|M|50.39,45.61|Z|Stormwind City|N|To Archbishop Benedictus.|
+T Blessed Arm|QID|322|M|59.69,33.90|Z|Stormwind City|N|To Grimand Elmore.|
+A Armed and Ready|QID|325|M|59.69,33.90|Z|Stormwind City|N|From Grimand Elmore.|PRE|322|
 t An Old History Book|QID|337|ACTIVE|337|M|74.19,7.46|Z|Stormwind City|N|To Milton Sheaf.|
 A Southshore|QID|538|M|74.19,7.46|Z|Stormwind City|N|From Milton Sheaf.|PRE|337|
 N Level 30|QID|1248|N|You are not supposed to be level 30 already, you're ahead of the curve, go train new skills now. Close this step when you're done.|LVL|30|
@@ -338,15 +335,17 @@ H Deepwater Tavern|QID|1248|N|Hearth back to Menethil Harbor.|
 T The Missing Diplomat|QID|1248|M|10.61,60.76|N|To Mikhail. Don't get follow up.|Z|Wetlands|
 
 ;Ashenvale 29-30
-b Darkshore|AVAILABLE|4581|M|4.61,57.07|Z|Wetlands|N|Take Boat to Auberdine.|
+P Moonglade|AVAILABLE|4581|C|Druid|M|PLAYER|N|Use your Moonglade portal spell.|
+F Rut'theran Village|AVAILABLE|4581|C|Druid|Z|Moonglade|M|44.19,45.26|N|Take the flightpath to Teldrassil.|
+F Stormwind City|AVAILABLE|4581|M|9.59,59.66|N|Take flightpath to Stormwind.|Z|Wetlands|C|-Druid|
+b Auberdine|AVAILABLE|4581|M|22.74,56.19|N|Take the boat to Auberdine.|Z|Stormwind City|C|-Druid|
 F Astranaar|AVAILABLE|4581|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar.|
 A Kayneth Stillwind|QID|4581|M|34.67,48.84|N|From Shindrell Swiftfire.|Z|Ashenvale|
 h Astranaar|AVAILABLE|1021|N|Make Astranaar your home location.|M|36.97,49.26|Z|Ashenvale|
 A Fallen Sky Lake|QID|1035|M|37.35,51.80|N|From Pelturas Whitemoon|Z|Ashenvale|PRE|1034|
-
 R Raynewood Retreat|ACTIVE|1026|M|62.00,51.00|CS|N|Follow the path east out of Astrannar and take the North path at the fork in the road towards Raynewood Retreat.|Z|Ashenvale|
 K Raene's Cleansing|QID|1026|M|54.42,35.39||N|Kill Withered and Crazed Ancients in the area until you get the Wooden Key.|L|5475|Z|Ashenvale|
-C Raene's Cleansing|QID|1026|M|54.42,35.39|N|Click on the Worn Chest once you have the key.|Z|Ashenvale|
+C Raene's Cleansing|QID|1026|M|54.42,35.39|N|Click on the Worn Chest once you have the key.|Z|Ashenvale|NC|
 R Moonwell|ACTIVE|1026|M|54.42,35.39;61.00,44.20;57.30,55.80;51.40,52.50;50.60,46.90;53.50,46.30|CS|N|Run back out of the tunnel and south along the Road. Once past Raynewood Retreat head west along the hill and then follow it up towards the Moonwell|Z|Ashenvale|
 T Raene's Cleansing|QID|1026|M|53.50,46.30|CS|N|To Shael'dryn.|Z|Ashenvale|
 A Raene's Cleansing|QID|1027|M|53.50,46.30|N|From Shael'dryn.|PRE|1026|Z|Ashenvale|
@@ -370,6 +369,7 @@ A Insane Druids|QID|1012|M|85.28,44.72|N|From Kayneth Stillwind.|PRE|1011|Z|Ashe
 K Insane Druids|QID|1012|ACTIVE|1012|M|74.60,76.40;77.2,73.98|CS|QO|1|N|Head south along the road towards the Barrow Den entrance. Once inside cross over the bridge to find Taneel Darkwood|Z|Ashenvale|
 K Insane Druids|QID|1012|ACTIVE|1012|M|77.97,72.73|QO|2|N|Drop down from bridge and go down the tunner on our left. Fall down into another tunnel and Uthil Mooncall will be to your right.|Z|Ashenvale|
 K Insane Druids|QID|1012|ACTIVE|1012|M|74.78,74.33|QO|3|N|Go straight out, follow the tunnel ahead. At the end of the tunnel head up the ramp to your left onto the platform in the center of the room. Take the right-side bridge and follow the tunnel that wraps around the room to find Mavoris Cloudsbreak.|Z|Ashenvale|
+H Astranaar|ACTIVE|1022|N|Hearth back to Astranaar|
 C The Howling Vale|QID|1022|M|50.5,39.1|N|View the Tome of Mel'Thandris.|Z|Ashenvale|
 T Insane Druids|QID|1012|M|85.28,44.72|N|Take the tunnel to the south, follow it up and to the right to return to the entrance. Return north along the road to Kayneth Stillwind.|Z|Ashenvale|
 T The Howling Vale|QID|1022|M|86.02,44.11|N|To Sentinel Melyria Frostshadow.|Z|Ashenvale|
@@ -379,31 +379,21 @@ f Talrendis Point|QID|1027|M|11.90,77.59|Z|Azshara|N|Grab the Azshara flightpoin
 F Astranaar|QID|1027|M|11.90,77.59|Z|Azshara|N|Fly back to Astranaar.|
 T Fallen Sky Lake|QID|1035|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
 R Moonwell|AVAILABLE|1024|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CS|N|Head to Moonwell to turn in Raene's Cleansing|Z|Ashenvale|
-T Raene's Cleansing|QID|1027|M|53.5,46.3|CC|N|To Shael'dryn.|Z|Ashenvale|
+T Raene's Cleansing|QID|1027|M|53.5,46.3|N|To Shael'dryn.|Z|Ashenvale|
 A Raene's Cleansing|QID|1028|M|53.5,46.3|N|From Shael'dryn. Wait a moment while she fixes the rod.|PRE|1027|Z|Ashenvale|
 T Raene's Cleansing|QID|1028|M|50.60,46.90;51.40,52.50;53.70,54.00;56.38,49.23|CS|N|Run back around the mountains counter clockwise until you hit the path leading up to the Hidden Shrine.|Z|Ashenvale|
 A Raene's Cleansing|QID|1055|M|56.4,49.3|N|From Hidden Shrine.|PRE|1028|Z|Ashenvale|
 T Raene's Cleansing|QID|1055|M|56.10,51.35;51.40,52.50;53.5,46.3|CS|N|Return along the route to Shael'dryn.|Z|Ashenvale|
 A Raene's Cleansing|QID|1029|M|53.5,46.3|N|From Shael'dryn.|PRE|1055|Z|Ashenvale|
+H Astranaar|ACTIVE|1029|N|Hearth back to Astranaar|
 T Raene's Cleansing|QID|1029|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
 * Rod of Transformation|AVAILABLE|1030|U|5462|M|36.6,49.6|N|Once the Raene's Cleansing questline is complete the Rod of Transformation will be removed from your inventory. If you wish to retain the ability to transform into a Furbolg after completing the quest discard the rod now before picking up the next quest. After completing the questline go to battle.net/support/en/restoration and select your character to restore the item|
-A Raene's Cleansing|QID|1030|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1029|Z|Ashenvale|
+F Forest Song|ACTIVE|1032|M|34.40,48.00|N|Fly to Talrendis Point|Z|Ashenvale|
 A Velinde Starsong|QID|1037|M|86.00,44.00|N|From Sentinel Melyria Frostshadow.|PRE|1022|Z|Ashenvale|
 A Satyr Slaying!|QID|1032|M|86.52,43.92|N|From Illiyana.|PRE|1031|Z|Ashenvale|
-T Raene's Cleansing|QID|1030|M|50.8,75|N|To Krolg. Run around the south-east edge of the lake to find the hill up to him. Be sure to use your rod so you can speak with him.|U|5462|Z|Ashenvale|
-A Raene's Cleansing|QID|1045|M|50.8,75|N|From Krolg. Be sure to use your rod so you can speak with him.|U|5462|PRE|1030|Z|Ashenvale|
-C Raene's Cleansing|QID|1045|M|54.4,79.2|S|N|Kill Bloodtooth Guards in the area.|Z|Ashenvale|
-K Raene's Cleansing|QID|1045|ACTIVE|1045|M|54.4,79.2|N|Kill Ran Bloodtooth and loot his skull.|L|5388|Z|Ashenvale|
-C Raene's Cleansing|QID|1045|M|54.4,79.2|US|N|Finish Killing Guards.|Z|Ashenvale|
-T Raene's Cleansing|QID|1045|M|50.8,75|N|To Krolg. Be sure to use your rod so you can speak with him.|U|5462|Z|Ashenvale|
-A Raene's Cleansing|QID|1046|M|50.8,75|N|From Krolg. Be sure to use your rod so you can speak with him.|U|5462|PRE|1045|Z|Ashenvale|
-H Astranaar|QID|1032|ACTIVE|1046|M|36.97,49.26|N|Hearth or Run back to Astranaar.|Z|Ashenvale|
-* Rod of Transformation|ACTIVE|1046|U|5462|M|36.6,49.6|S|N|Once you turn in the next step the Rod of Transformation will be removed from your inventory. If you haven't already be sure to discard it and request a new one from Raene before turning the quest in to be able to use the Item Restoration service.|Z|Ashenvale|
-T Raene's Cleansing|QID|1046|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
-F Forest Song|ACTIVE|1032|M|34.40,48.00|N|Fly to Talrendis Point|Z|Ashenvale|
 C Satyr Slaying!|QID|1032|M|80,50|Z|Ashenvale|N|Kill Satyr in Satynaar|
-T Satyr Slaying!|QID|1032|M|21.74,53.35|N|To Illiyana.|
-F Astranaar|ACTIVE|1140|M|11.90,77.59|Z|Azshara|N|Fly back to Astranaar.|
+T Satyr Slaying!|QID|1032|M|86.52,43.92|N|To Illiyana.|Z|Ashenvale|
+F Astranaar|ACTIVE|1140|M|85.07,43.47|Z|Azshara|N|Fly back to Astranaar.|
 T The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
 A The Tower of Althalaxx|QID|1167|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|1140|
 
@@ -417,10 +407,10 @@ A The Tower of Althalaxx|QID|981|M|54.97,24.89|Z|Darkshore|N|From Balthule Shado
 H Astranaar|ACTIVE|981|M|36.97,49.26|N|Hearth or otherwise make your way back to Astranaar.|PRE|1143|Z|Ashenvale|
 T The Tower of Althalaxx|QID|981|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
 R Auberdine|QID|1037|AVAILABLE|981|M|36.34,45.58|Z|Darkshore|N|Run back to Auberdine.|PRE|1167|
-F Stonetalon Peak|QID|1059|M|34.41,47.99|Z|Ashenvale|N|Fly back to Stonetalon Peak.|PRE|1057|
+F Stonetalon Peak|ACTIVE|1059|M|34.41,47.99|Z|Ashenvale|N|Fly back to Stonetalon Peak.|PRE|1057|
 A Reclaiming the Charred Vale|QID|1059|M|37.11,8.10|Z|Stonetalon Mountains|N|From Keeper Albagorm.|PRE|1057|
 
-F Rut'theran Village|QID|1037|M|34.41,47.99|N|Time to head to Darnassus.|R|NightElf|Z|Stonetalon Mountains|
+F Rut'theran Village|QID|1037|M|36.49,7.21|N|Time to head to Darnassus.|R|NightElf|Z|Stonetalon Mountains|
 F Auberdine|QID|1037|M|36.46,7.22|N|Time to head to Darnassus.|R|-NightElf|Z|Stonetalon Mountains|
 b Rut'theran Village|QID|1038|M|33.19,40.1|Z|Darkshore|N|Take the boat to Rut'theran Village.|R|-NightElf|
 R Darnassus|QID|1038|M|55.88,89.55|Z|Teldrassil|N|Take the teleporter to Darnassus.|
@@ -431,14 +421,14 @@ T Velinde's Effects|QID|1038|M|61.77,39.18|Z|Darnassus|N|To Thyn'tel Bladeweaver
 A The Barrens Port|QID|1039|M|61.77,39.18|Z|Darnassus|N|From Thyn'tel Bladeweaver.|PRE|1038|
 h Craftsmen's Terrace|QID|1039|M|67.40,15.66|Z|Darnassus|N|Set Hearthstone to Darnassus, this will save a lot of travel time once we are ready to come back.|
 N Level 30|QID|1039|N|You should be over level 30 or close. Be sure to train up, sell, repair, auction or any of your other big city needs. Close this step when done.|
-R Rut'theran Village|QID|1039|N|Take the teleporter to Rut'theran Village.|Z|Darnassus|M|30.10,41.40|
-f Rut'theran Village|QID|1039|M|58.4,94.02|Z|Teldrassil|N|Get the flight path.|R|-NightElf|
-
-F Auberdine|QID|1039|M|58.4,94.02|Z|Teldrassil|N|Fly to Auberdine.|TAXI|-Theramore|
-b Wetlands|QID|1039|M|32.42,43.74|Z|Darkshore|N|Run down the dock and get on the boat to Menethil.|TAXI|-Theramore|
-b Theramore Isle|QID|1039|M|5,63.51|Z|Wetlands|N|Take the boat to Theramore.|TAXI|-Theramore|
-f Theramore Flightpoint|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|TAXI|-Theramore|
-F Ratchet|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Fly to Ratchet.|PRE|1094|TAXI|Ratchet|
+R Rut'theran Village|ACTIVE|1039|N|Take the teleporter to Rut'theran Village.|Z|Darnassus|M|30.10,41.40|
+f Rut'theran Village|ACTIVE|1039|M|58.4,94.02|Z|Teldrassil|N|Get the flight path.|R|-NightElf|
+F Auberdine|ACTIVE|1039|M|58.4,94.02|Z|Teldrassil|N|Fly to Auberdine.|TAXI|-Theramore|
+b Stormwind City|ACTIVE|1039|M|32.42,43.74|Z|Darkshore|N|Take the boat to Stormwind from Auberdine.|
+F Menethil Harbor|ACTIVE|1039|M|71.07,72.68|Z|Stormwind City|N|Fly to Menethil Harbor.|TAXI|Menethil Harbor|
+b Theramore Isle|ACTIVE|1039|M|5,63.51|Z|Wetlands|N|Take the boat to Theramore.|TAXI|-Theramore|
+f Theramore Flightpoint|ACTIVE|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|TAXI|-Theramore|
+F Ratchet|ACTIVE|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Fly to Ratchet.|PRE|1094|TAXI|Ratchet|
 R Barrens|AVAILABLE|1040|M|27.8,46.6|Z|Dustwallow Marsh|N|You must not have got the Ratchet flightpath from the earlier guide. Follow the road to the Barrens.|TAXI|-Ratchet|
 R Ratchet|AVAILABLE|1094|ACTIVE|1039|M|62.7,36.2|Z|The Barrens|N|Run northest to Ratchet.|TAXI|-Ratchet|
 f Ratchet|AVAILABLE|1094|ACTIVE|1039|M|63.09,37.16|Z|The Barrens|N|Get the flight path.||TAXI|-Ratchet|
@@ -468,6 +458,5 @@ F Trade District|QID|1044|M|77.50,44.30|N|Fly to Stormwind City.|C|Paladin,Warlo
 N Train Here|QID|1044|M|55.6,60.42|Z|Stormwind City|N|Darnassus doesn't have Paladin, Warlock or Mage trainers, so train while here.|C|Paladin,Warlock,Mage|
 H Darnassus|QID|1044|N|Hearth or fly/boat or otherwise make your way back to Darnassus.|
 T Answered Questions|QID|1044|M|61.77,39.18|Z|Darnassus|N|To Thyn'tel Bladeweaver.|
-N Gnomeregan|QID|2929|N|If you wish to run Gnomeregan now is a good time to do so. Be sure to collect all the quests as they give a lot of experience|
 ]]
 end)
