@@ -49,6 +49,7 @@
 	<Script file="Inscription_LEG.lua"/>
 	<Script file="Inscription_BfA.lua"/>
 	<Script file="Inscription_SL.lua"/>
+	<Script file="Jewelcrafting_HUB.lua"/>
 	<Script file="Jewelcrafting_VAN.lua"/>
 	<Script file="Jewelcrafting_OUT.lua"/>
 	<Script file="Jewelcrafting_WotLK.lua"/>
@@ -76,6 +77,7 @@
 	<Script file="Tailoring_MoP.lua"/>
 	<Script file="Tailoring_WoD.lua"/>
 	<Script file="Tailoring_LEG.lua"/>
+	<Script file="Tailoring_BfA.lua"/>
 	<Script file="Tailoring_SL.lua"/>
 	<Script file="Legion.lua"/>
 	</Ui>
