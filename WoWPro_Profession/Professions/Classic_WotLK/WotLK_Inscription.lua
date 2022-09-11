@@ -28,7 +28,7 @@ N Learn Recipes|QID|773000003|N|We only mention the Recipe/Skill you need for th
 N Shopping List|QID|773000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Inscription 1 to 300.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 
 N Herbs|QID|773000004|N|You will need upwards of 2,000+ herbs to mill to make your inks.  Each line is going to list one Herb needed for a Pigment, alternate herbs will be listed in the Note.|
-l [item=2447/Peacebloom]|QID|773000004|L|2447 180|ITEM|2447|N|You'll need about 180 Peacebloom or combination of [item=754/Silverleaf] or [item=2449/Earthroot], to create [item=39151/Alabaster Pigment].|
+l [item=2447/Peacebloom]|QID|773000004|L|2447 180|ITEM|2447|N|You'll need about 180 Peacebloom or combination of [item=765/Silverleaf] or [item=2449/Earthroot], to create [item=39151/Alabaster Pigment].|
 l [item=785/Mageroyal]|QID|773000004|L|785 160|ITEM|785|N|You'll need about 160 Mageroyal or combination of [item=2450/Briarthorn], [item=2452/Swiftthistle], [item=2453/Bruiseweed], or [item=3820/Stranglekelp] to create [item=39334/Dusky Pigment].|
 l [item=3355/Wild Steelbloom]|QID|773000004|L|3355 260|ITEM|3355|N|You'll need about 260 Wild Steelbloom or combination of [item=3369/Grave Moss], [item=3356/Kingsblood], or [item=3357/Liferoot] to create [item=39338/Golden Pigment].|
 l [item=3818/Fadeleaf]|QID|773000004|L|3818 260|ITEM||N|You'll need about 260 Fadeleaf or combination of [item=3821/Goldthorn], [item=3358/Khadgars Whisker], or [item=3819/Dragons Teeth] to create [item=39339/Emerald Pigment].|

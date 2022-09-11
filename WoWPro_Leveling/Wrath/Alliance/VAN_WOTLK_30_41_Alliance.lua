@@ -4,8 +4,7 @@ WoWPro:GuideLevels(guide,30, 41)
 WoWPro:GuideNextGuide(guide, 'WOTLK_Alliance4250')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Gnomeregan|QID|2929|N|Now would be a good time to run Gnomeregan. This will avoid some grinding you may need to do shortly. Be sure to collect all the quests as they give a lot of experience.|LVL|-31|
-F Ironforge|AVAILABLE|1179|N|Make your way to Ironforge|
+N Ironforge|AVAILABLE|1179|N|Make your way to Ironforge|
 A The Brassbolts Brothers|QID|1179|M|72.60,93.80|Z|Ironforge|N|From Pilot Longbeard at the back of the Military Ward.|
 N Things to Buy|QID|1282|N|There are some items that you need to buy off of the Auction House or otherwise acquire.  The guide will remind you each time you are in town until you aquire them, check off manually if you aren't going to at that time and it will pop up again, next time you're in town. first one for a quest in stranglethorn and the other three are needed for Badlands quest - approx level 38-40. These quests are not essential for dungeons, just a fair chunk of XP, so if you can't find the items at a reasonable price, you can skip the quests and grind to make it up.|
 B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|ITEM|4278|
@@ -13,7 +12,7 @@ B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
 B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 
-F Menethil Harbor|ACTIVE|1179|M|55.60,47.40|N|Fly to Menethil Harbor.|IZ|1455|
+F Menethil Harbor|ACTIVE|1179|M|55.60,47.40|Z|Ironforge|N|Fly to Menethil Harbor.|IZ|1455|
 b Theramore Isle|QID|1282|M|5,63.51|Z|Wetlands|N|Take the boat to Theramore.\nNote: If still in Darnassus take the boat from Darkshore to Menethil Harbor first|
 
 f Theramore|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|
@@ -30,7 +29,7 @@ A Lieutenant Paval Reethe|QID|1252|M|29.83,48.24|Z|Dustwallow Marsh|N|A very tin
 A The Black Shield|QID|1253|M|29.63,48.59|Z|Dustwallow Marsh|N|Above the fireplace. It has about a 5 minute respwn timer if someone else needs it too.|
 
 R Southern Barrens|AVAILABLE|1100|M|29.05,48.72|Z|Dustwallow Marsh|N|And into the Barrens.|
-R Thousand Needles|AVAILABLE|1100|M|32.26,21.01|Z|The Barrens|N|Head southwest toward Thousand Needles. Run past the guard at the great lift and take the lift down.|
+R Thousand Needles|AVAILABLE|1100|M|32.26,21.01|Z|Thousand Needles|N|Head southwest toward Thousand Needles. Run past the guard at the great lift and take the lift down.|
 l Henrig Lonebrow's Journal|QID|1100|M|30.72,24.34|N|Pick up the Journal held by the dead dwarf at the base of the Great Lift. It's got about a 3 minute respawn timer, if someone else needs it too.|L|5791|
 A Lonebrow's Journal|QID|1100|M|PLAYER|U|5791|N|Use the journal to start the quest.|
 R Thalanaar|ACTIVE|1100|Z|Feralas|M|89.50,45.85|N|Run Generally west to the border with Feralas and find Thalanaar. If you follow the road you will get there safely and avoid centaur camps.|
