@@ -147,7 +147,7 @@ C Hypercapacitor Gizmo|QID|5151|M|21.8,26.8;22.81,24.45|CC|Z|1441|QO|1|N|Clear t
 R Whitereach Post|ACTIVE|5151|M|22.28,31.56|Z|1441|N|Run back to Whitereach Post.|
 K Steelsnap|ACTIVE|1131|M|13.54,19.88|Z|1441|L|5837|ITEM|1441|N|Steelsnap\nHe patro;s the area NW of the Great Lift.\n[color=FF0000]NOTE: [/color]He's lv 30 and travels with 2 other lv 29 hyenas. None of them are elite.\nMuch like the Galak Messenger, if you just wait here facing east (towards Camp E'thok), he will come to you. At this location, there are no other mobs to worry about.|
 R Roguefeather Den|ACTIVE|1150|M|27.47,49.57;27.44,51.07|CC|Z|1441|N|Make your way to The Screeching Canyon and walk up the ramp to Roguefeather Den.|
-K Grenka Bloodscreech|ACTIVE|1150|M|26,55.4|Z|1441|L|9843|ITEM|9843|N|Grenka Bloodscreech\nWork your way to the back of the cave and after clearing the area, break one of the crates until Grenka Bloodscreech spawns.|
+K Grenka Bloodscreech|ACTIVE|1150|M|26,55.4|Z|1441|L|5843|ITEM|5843|N|Grenka Bloodscreech\nWork your way to the back of the cave and after clearing the area, break one of the crates until Grenka Bloodscreech spawns.|
 H Freewind Post|ACTIVE|1150|M|26.05,54.53|Z|1441|N|Unless you plan on fighting your way out, run to the VERY back of the cave beside the crates.  Jump up into the small nook in the wall and use your hearthstone in there.\n[color=FF0000]NOTE: [/color]Nothing can attack YOU inside the nook, even if they are aggroed.|
 R The Weathered Nook|ACTIVE|1150|M|53.67,42.74|
 T Test of Endurance|QID|1150|M|53.94,41.49|Z|1441|N|To Dorn Plainstalker.|
