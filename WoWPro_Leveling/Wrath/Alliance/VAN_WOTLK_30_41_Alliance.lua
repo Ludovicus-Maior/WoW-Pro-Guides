@@ -112,7 +112,7 @@ f Booty Bay|QID|1041|M|27.53,77.78|Z|Stranglethorn Vale|N|Get the flight path, o
 F Stormwind|QID|198|M|27.53,77.78|Z|Stranglethorn Vale|N|Fly to Stormwind to train and take care of city business.|C|-Mage|
 P Wizard's Sanctum|QID|198|M|27.53,77.78|Z|Stranglethorn Vale|N|Teleport to Stormwind to train and take care of city business.|C|Mage|
 B Lesser Bloodstone Ore|QID|627|L|4278 4|N|Buy 4 of these from the Auction House for a quest coming up in Stranglethorn.|ITEM|4278|
-N Clear Bags!|QID|198|M|71,72.6|Z|Stormwind City|N|Stranglethorn has a lot of stuff you collect, now is the time to clear out bags as much as you can, use your bank, buy bigger bags from auction if needed.|
+N Clear Bags!|QID|198|M|63.77,80.81|Z|Stormwind City|N|Stranglethorn has a lot of stuff you collect, now is the time to clear out bags as much as you can, use your bank, buy bigger bags from auction if needed.|
 F Darkshire|QID|198|M|66.29,62.13|Z|Stormwind City|N|Take a flight up to Duskwood.|
 
 R Elwynn Forest|ACTIVE|74|M|84.6,69.4|Z|Elwynn Forest|N|Run north to Elwynn to Marshal Hagard turn in the quest accept follow up and run back to darkshire.|
@@ -135,13 +135,12 @@ A Worgen in the Woods|QID|222|M|75.3,48.1|Z|Duskwood|N|From Calor.|PRE|221|
 C Worgen in the Woods|QID|222|M|73.00,75.00|Z|Duskwood|N|Kill the vile Fang and Tainted Ones.|
 
 R Rebel Camp|QID|198|M|38.20,4.10|Z|Stranglethorn Vale|N|Run south to the Rebel Camp in stranglethron vale, Follow the road west then south, then once you cross the bridge head head west.|
-T Supplies to Private Thorsen|QID|198|M|37.98,3.41|Z|Stranglethorn Vale|N|To Private Thorsen.|
 A The Second Rebellion|QID|203|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
 A Bad Medicine|QID|204|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
 A Krazek's Cookery|QID|210|M|37.74,3.30|Z|Stranglethorn Vale|N|From Corporal Kaleb.|
 N From now on...|QID|338|N|From now on, keep any Green Hills of Stranglethorn pages you find. (bank is fine)|
 f Rebel Camp|QID|210|M|38.22,4.05|Z|Stranglethorn Vale|N|Get the flight path from Nizzle.|
-
+T Supplies to Private Thorsen|QID|198|M|40.31,8.42|Z|Stranglethorn Vale|N|To Private Thorsen.|
 R Nesingwary's Expedition|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|Head west along the road and then south. Once in stranglthorn cross the bridge and head west to the camp|
 A Welcome to the Jungle|QID|583|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
 T Welcome to the Jungle|QID|583|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
@@ -168,7 +167,7 @@ r Repair and Sell|QID|186|M|35.76,10.66|Z|Stranglethorn Vale|N|Bags will get ful
 C Panther Mastery|QID|191|M|27.80,14.80|Z|Stranglethorn Vale|N|Kill "Panthers", not the young ones.|S|
 C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|S|N|Kill "Tigers", not the young ones.|
 C Raptor Mastery|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|N|Go southwest and kill 10 Stranglethorn Raptors.|S|
-C The Stone of the Tides|QID|578|M|21.00,22.00|Z|Stranglethorn Vale|N|Head onto the shore and sdwim to the island until you get the quest complete message for The Stone of the Tides.|
+C The Stone of the Tides|QID|578|M|21.00,22.00|Z|Stranglethorn Vale|N|Head onto the shore and swim to the island until you get the quest complete message for The Stone of the Tides.|
 C Raptor Mastery|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|N|Finish killing Stranglethorn Raptors before you move on.|US|
 C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|US|N|Finish killing Tigers before you move on.|
 C Panther Mastery|QID|191|M|31.42,15.82|Z|Stranglethorn Vale|N|Finish killing Panthers before you move on.|US|
@@ -205,12 +204,12 @@ B Fine Thread|QID|565|L|2321|N|Off any tailor supply vendor.|ITEM|2321|
 B Swiftness Potion|QID|647|L|2459|N|Buy a Swiftness Potion from the Auction House or a player with Alchemy.|ITEM|2459|C|Warrior,Warlock,Paladin|
 B Light Feather|QID|647|L|17056|N|Make sure you have at least one Light Feather on hand for Slowfall/Levitate|ITEM|17053|C|Mage,Priest|
 B Turtles|QID|555|N|Don't forget your turtle meat if you stashed it in the bank.|L|3712 10|
-A Malin's Request|QID|690|M|39.84,81.44|Z|Stormwind City|N|From Archmage Malin.|
+A Malin's Request|QID|690|M|50.53,87.30|Z|Stormwind City|N|From Archmage Malin.|
 A An Old History Book|QID|337|U|2794|N|From Item dropped randomly in Duskwood.|
 t An Old History Book|QID|337|M|74,7.6|Z|Stormwind City|N|To Milton Sheaf.|
 A Southshore|QID|538|PRE|337|M|74,7.6|Z|Stormwind City|N|From Milton Sheaf.|
 
-F Refuge Pointe|QID|555|M|66.34,62.26|Z|Stormwind City|TAXI|Refuge Pointe|N|Fly to Refuge Pointe in Arathi Highlands. 7.5 Minute flight|
+F Refuge Pointe|QID|555|M|71.03,72.60|Z|Stormwind City|TAXI|Refuge Pointe|N|Fly to Refuge Pointe in Arathi Highlands. 7.5 Minute flight|
 R Refuge Pointe|QID|555|M|45.76,46.10|Z|Arathi Highlands|TAXI|-Refuge Pointe|N|If you dont have the flight points, its Ironforge to wetlands, east thru Wetlands, then North to Arathi Highlands, grab the Refuge Pointe flightpath.|
 T Malin's Request|QID|690|M|46.65,47.01|Z|Arathi Highlands|N|To Skuerto. Don't get follow-up.|
 A Northfold Manor|QID|681|M|45.83,47.55|Z|Arathi Highlands|N|From Captain Nials.|
