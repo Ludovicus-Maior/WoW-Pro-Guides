@@ -24,7 +24,7 @@ return [[
 N Guide Hub|QID|165000000|JUMP|LTW_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|165000001|N|Covers what Blizzard now terms Draenor Plans, Warlords of Draenor expansion content 1-100\nAlso ASSUMES you have the appropriate Skills.|
-N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, using the Report Issue option menu. (Right click on the step, to bring up Menu).|
+N PLEASE Report any issues|QID|165000002|N|In our Discord, via #open-a-ticket, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Shopping List|QID|165000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Draenor Leatherworking 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 l [item=110609/Raw Beast Hide]|QID|165000004|L|110609 1625|ITEM|110609|N|You'll need about 1,625 Raw Beast Hides.|
 N Shopping List|QID|165000005|N|This completes the Shopping List to get you to 75, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|

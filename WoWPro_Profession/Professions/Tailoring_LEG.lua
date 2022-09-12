@@ -25,8 +25,8 @@ return [[
 
 N Guide Hub|QID|197000000|JUMP|TLR_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|QID|197000001|N|Currently in Development, This Guide covers Legion content in Retail.\n[color=FF0000]NOTE: [/color]This guide, is just the Make (Create) steps for now, will be fleshed out at a later time.|
-N PLEASE Report any issues|QID|197000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
+N This Guide|QID|197000001|N|Covers Legion content in Retail.\n[color=FF0000]NOTE: [/color]This guide, is just the Make (Create) steps for now, will be fleshed out at a later time.|
+N PLEASE Report any issues|QID|197000002|N|In our Discord, via #open-a-ticket, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|197000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can. ** Details do need to fleshed out still **|
 
 = Learn [spell=264626/Draenor Tailoring]|QID|197264626|M|35.2,34.2|Z|627|SPELL|Draenor Tailoring;264626|T|Tanithria|LVL|45|N|From Tanithria, Tailoring Trainer, in Dalaran, Magus Commerce Exchange, in Dalaran, Broken Isles, Legion. NOT! Northrend!!|
