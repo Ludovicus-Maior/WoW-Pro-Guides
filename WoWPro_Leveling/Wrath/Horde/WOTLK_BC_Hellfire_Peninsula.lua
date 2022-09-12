@@ -200,17 +200,18 @@ A Grillok "Darkeye"|QID|10834|M|61.66,81.86|ELITE|N|[color=00FFFF]Group of 2 sug
 T Bloody Vengeance|QID|10250|M|61.74,81.79|N|To Althen the Historian.|
 A Honor the Fallen|QID|10258|M|61.74,81.79|N|From Althen the Historian.|PRE|10250|
 T Zeth'Gor Must Burn!|QID|10792|M|61.21,81.32|N|To Captain Darkhowl.|
-R Void Ridge|ACTIVE|10294|M|72,67;75.5,66.5|CS|N|Head to the Void Ridge.|
-C Void Ridge|QID|10294|M|75.5,66.5|N|Kill the voidwalkers till you get 40 Soul Shards. Collapsing Voidwalkers channel a self destruct when under 10%, if you kill them they explode anyway, so run away once you see the emote. Vascillating Voidwalkers absorb the first type of spell you throw at them and gain resistance to that school for the duration of the fight, so throw something you don't normally use at them first.|
-H Thrallmar|ACTIVE|10238|
+R Spinebreaker Pass|ACTIVE|10294|M|71.15,67.41|QO|1|N|Leave Expedition and and make your way northeast around Zeth'gor.|
+R Void Ridge|ACTIVE|10294|M|75.04,66.40|QO|1|N|Head to Void Ridge on the other side of the hill.|
+C Void Ridge|QID|10294|M|76.60,64.82|L|29161 40|ITEM|29161|N|Vacillating and Collapsing Voidwalkers\n[color=FF0000]NOTE: [/color]Collapsing Voidwalkers channel a self destruct when under 10%, if you kill them they explode anyway, so run away once you see the emote.\nVascillating Voidwalkers absorb the first type of spell you throw at them and gain resistance to that school for the duration of the fight. Throw something you don't normally use at them first.|
+H Thrallmar|ACTIVE|10238|M|56.69,37.50|
 
-T How to Serve Goblins|QID|10238|M|51.4,30.5|N|To Foreman Razelcraz.|
-A Shizz Work|QID|10629|M|51.5,30.5|N|From Foreman Razelcraz.|PRE|10238|
-C Shizz Work|QID|10629|M|50.0,29.5|U|30803|N|Use the Felhound Whistle. Then take your pet and kill the helboars to the west. Each time a boar dies, the Fel Puppy chows down and leaves some remains. Right click the leavings, and eventually one with contain the Shredder Key.|
-T Shizz Work|QID|10629|M|51.5,30.5|N|To Foreman Razelcraz. Make sure you dismiss the Felhound before turning in the quest.|
-A Beneath Thrallmar|QID|10630|M|51.5,30.5|N|From Foreman Razelcraz.|PRE|10629|
-C Beneath Thrallmar|QID|10630|M|54.09,31.64|N|Enter the mine, Urga'zz is in the back of the cave.|
-T Beneath Thrallmar|QID|10630|M|51.5,30.5|N|To Foreman Razelcraz.|
+T How to Serve Goblins|QID|10238|M|51.37,30.53|N|To Foreman Razelcraz in his camp near Stonewall Canyon (just outside Thrallmar).|
+A Shizz Work|QID|10629|M|51.37,30.53|N|From Foreman Razelcraz.|PRE|10238|
+C Shizz Work|QID|10629|M|49.70,28.59|L|30794|N|Before you leave, use the Felhound Whistle to summon your Fel Puppy.\nAs you kill the helboars to the west of the camp, the Fel Puppy chows down and leaves some remains. Loot the remains looking for the Keys. Rinse and repeat as needed.|U|30803|
+T Shizz Work|QID|10629|M|51.37,30.53|N|To Foreman Razelcraz.|
+A Beneath Thrallmar|QID|10630|M|51.37,30.53|N|From Foreman Razelcraz.|PRE|10629|
+K Urga'zz|ACTIVE|10630|M|54.09,31.64|QO|1|N|Enter the mine and locate Urga'zz at the back of the cave.|
+T Beneath Thrallmar|QID|10630|M|51.37,30.53|N|To Foreman Razelcraz.|
 R Pools of Aggonar|ACTIVE|10389|M|40,43|N|Run to the Pools of Aggonar.|
 C In Need of Felblood|QID|9366|M|39.5,36.0|S|N|Kill and loot Terrorfiends.|
 C The Agony and the Darkness|QID|10389|M|39.5,36.0|S|N|Kill Terrorfiends.|
