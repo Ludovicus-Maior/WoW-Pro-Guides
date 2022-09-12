@@ -24,8 +24,8 @@ return [[
 
 N Guide Hub|QID|165000000|JUMP|LTW_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|QID|165000001|N|Currently in Development, starting with what Blizzard now terms Cataclysm Plans, Cataclsym expansion content 1-75\nAlso ASSUMES you have the appropriate Skills.|
-N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, using the Report Issue option menu. (Right click on the step, to bring up Menu).|
+N This Guide|QID|165000001|N|Covers what Blizzard now terms Cataclysm Plans, Cataclsym expansion content 1-75\nAlso ASSUMES you have the appropriate Skills.|
+N PLEASE Report any issues|QID|165000002|N|In our Discord, via #open-a-ticket, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 ; Beginning Shopping List
 N Shopping List|QID|165000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Cataclysm Leatherworking 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 

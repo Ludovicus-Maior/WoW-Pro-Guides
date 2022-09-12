@@ -23,8 +23,8 @@ return [[
 
 N Guide Hub|QID|202000000|JUMP|ENG_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|QID|202000001|N|Currently in Development, This Guide covers Legion content in Retail. \n[color=FF0000]NOTE: [/color]This guide, is just the Make (Create) steps for now, will be fleshed out at a later time.|
-N PLEASE Report any issues|QID|202000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
+N This Guide|QID|202000001|N|Covers Legion content in Retail. \n[color=FF0000]NOTE: [/color]This guide, is just the Make (Create) steps for now, will be fleshed out at a later time.|
+N PLEASE Report any issues|QID|202000002|N|In our Discord, via #open-a-ticket, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|202000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can. ** Details do need to fleshed out still **|
 N Legion Profession Quests|QID|202000005|AVAILABLE|40862|N|Before doing this guide it is recommened you do all the Legion Engineering Quests.  They are all in the 'Legion Profession' Guide. Right Click this step to active the Jump step for that guide.  Once you are done with that guide, please manually switch back to this one.|
 N Legion Profession Quests|QID|202000006|JUMP|LEG_PROF|AVAILABLE|40862|N|Before doing this guide it is recommened you do all the Legion Engineering Quests.  They are all in the 'Legion Profession' Guide.|

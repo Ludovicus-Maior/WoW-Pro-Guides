@@ -24,8 +24,8 @@ return [[
 ; 	Zone IDs used in guide: Z|71;Tanaris|, Z|100;Hellfire Peninsula|IZ|3483|, Z|111;Shattrath City|,
 N Guide Hub|QID|165000000|JUMP|LTW_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|QID|165000001|N|Currently in Development, starting with Retail - Outland Content.\nAlso ASSUMES you have the appropriate Skills.|
-N PLEASE Report any issues|QID|165000002|N|In our Discord #retail-bug-reports, using the Report Issue option menu. (Right click on the step, to bring up Menu).|
+N This Guide|QID|165000001|N|Covers Retail - Outland Content.\nAlso ASSUMES you have the appropriate Skills.|
+N PLEASE Report any issues|QID|165000002|N|In our Discord, via #open-a-ticket, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 ; Beginning Shopping List
 N Shopping List|QID|165000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Outland Leatherworking 1 to 75.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 l [item=21887/Knothide Leather]|QID|165000004|L|21887 1340|ITEM|21887|N|You'll need about 1,340 Knothide Leathers. \n[color=FF0000]NOTE: [/color] 1,230 of these will be turned in [item=23793/Heavy Knothide Leather], if one Heavy is less then 5 regular on the AH then you only need about 340 Knothide Leathers, and buy Heavy from the AH as you need them.|

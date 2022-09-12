@@ -24,7 +24,7 @@ return [[
 N Guide Hub|QID|755000000|JUMP|JC_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|755000001|N|covers Mist of Pandaria content, the Blizzard calls Pandaria Plans content in Retail.|
-N PLEASE Report any issues|QID|755000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
+N PLEASE Report any issues|QID|755000002|N|In our Discord, via #open-a-ticket, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|755000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|755000004|N|There is no real Shopping list for this one, just stock up on the common gems, to complete JC 1 to 75. Which I'll list next.|
 l [item=76130/Tiger Opal]|QID|755000004|L|76130 15|ITEM|76130|N|You'll need up 60 gems, and/or combination of the green gems, this will clear 15 gems, of this type.|

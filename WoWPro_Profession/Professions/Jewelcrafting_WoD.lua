@@ -24,7 +24,7 @@ return [[
 N Guide Hub|QID|755000000|JUMP|JC_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|755000001|N|Covers what Blizzard now terms Draenor Plans, Warlords of Draenor expansion content 1-100\nAlso ASSUMES you have the appropriate Skills.|
-N PLEASE Report any issues|QID|755000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
+N PLEASE Report any issues|QID|755000002|N|In our Discord, via #open-a-ticket, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|755000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|755000004|N|There is no real Shopping list for this one, just stock up on the common gems, to complete JC 1 to 100. Which I'll list next.|
 l [item=113261/Sorcerous Fire]|QID|755000004|L|113261 55|ITEM|113261|N|You'll need up 55 Sorcerous Fire and/or combined with Sorcerous Earth. If not cheap, just skip.|

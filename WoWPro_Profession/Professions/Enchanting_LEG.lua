@@ -24,7 +24,7 @@ return [[
 N Guide Hub|QID|333000000|JUMP|ENCH_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
 N This Guide|QID|333000001|N|Covers what Blizzard now terms Legion Plans, content of Legion 1-100\nAlso ASSUMES you have the appropriate Skill|
-N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
+N PLEASE Report any issues|QID|333000002|N|In our Discord, via #open-a-ticket, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|333000004|N|The next few lines are going to be the amount of mats you need to complete Enchanting Profession Quests.|
 l [item=124440/Arkhana]|QID|333000004|L|124440 54|ITEM|124440|N|You'll need at least 54 Arkhana, for the Profession Quests.|

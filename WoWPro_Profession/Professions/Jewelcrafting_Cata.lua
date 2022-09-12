@@ -23,8 +23,8 @@ return [[
 
 N Guide Hub|QID|755000000|JUMP|JC_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|QID|755000001|N|Currently in Development, This Guide covers Cataclysm content in Retail.|
-N PLEASE Report any issues|QID|755000002|N|In our Discord #retail-bug-reports, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
+N This Guide|QID|755000001|N|Covers Cataclysm content in Retail.|
+N PLEASE Report any issues|QID|755000002|N|In our Discord, via #open-a-ticket, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|755000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|755000004|N|There is no Shopping list for this one, to complete JC 1 to 75.|
 

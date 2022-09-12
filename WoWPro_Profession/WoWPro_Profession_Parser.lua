@@ -105,7 +105,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 						end
 					end
 				end
-			elseif WoWPro.CLASSIC or WoWPro.BC then											-- If classic can handle new processing, this is next to be changed over.
+			elseif not WoWPro.RETAIL then															-- If classic can handle new processing, this is next to be changed over.
 				for p = 1, _G.GetNumSkillLines() do
 						local skillName, _, _, skillRank, _, rankModifier = _G.GetSkillLineInfo(p)
 						local skillnum = WoWPro.ProfessionNameToSkillLine[skillName]

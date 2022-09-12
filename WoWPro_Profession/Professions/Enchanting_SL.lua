@@ -23,8 +23,8 @@ return [[
 
 N Guide Hub|QID|333000000|JUMP|ENCH_GH|S!US|N|Jump to the Guide Hub.|NOCACHE|
 
-N This Guide is a Work In Progress Guide.|QID|333000001|N|Currently in Development, This Guide covers SHADOWLANDS content in Retail.|
-N PLEASE Report any issues|QID|333000002|N|In our Discord #retail-bug-reports|
+N This Guide|QID|333000001|N|Covers SHADOWLANDS content in Retail.|
+N PLEASE Report any issues|QID|333000002|N|In our Discord, via #open-a-ticket|
 N Learn Recipes|QID|333000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|333000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete Enchanting 1 to 100.\n This is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 l [item=172230/Soul Dust]|QID|333000004|L|172230 238|ITEM|172230|N|You'll need about 238 Soul Dust.|
