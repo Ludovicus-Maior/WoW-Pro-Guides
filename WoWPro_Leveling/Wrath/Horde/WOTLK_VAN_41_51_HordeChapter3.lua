@@ -447,13 +447,8 @@ h Camp Mojache|ACTIVE|3121|M|74.81,45.19|Z|1444|N|Set your hearthstone with Innk
 A The Ogres of Feralas|QID|2975|M|73.53,45.12;75.96,42.85|CC|Z|1444|N|From Rok Orthan.\n[color=FF0000]NOTE: [/color]She roams between the Mill by the west entrance and the Mill by the east entrance. She makes a pit stop at the Inn going both ways.|
 L Level 46|ACTIVE|3121|M|81.90,44.90|Z|1444|N|Head into Lower Wilds and grind until you're lv 46.|LVL|46|
 R Camp Mojache|ACTIVE|3121|M|78.22,42.54|Z|1444|N|Return to Camp Mojache.|IZ|-Camp Mojache&1444|
-= Level 46 Training|ACTIVE|3121|M|75.99,42.28|Z|1444|N|Train your lv 46 skills/spells with Jannos Lighthoof.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
-F Orgrimmar|ACTIVE|3121|M|75.45,44.35|Z|1444|
-= Level 46 Training|ACTIVE|3121|N|Train your lv 46 skills/spells.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|-Druid|
-r Repair, Restock, Sell Junk|AVAILABLE|3122|N|Do whatever housekeeping you to do.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-T A Strange Request|QID|3121|M|49.48,50.58|Z|1454|N|To Neeru Fireblade in the Cleft of Shadows|
-A Return to Witch Doctor Uzer'i|QID|3122|M|49.48,50.58|Z|1454|N|From Neeru Fireblade.|PRE|3121|
-F Camp Mojache|ACTIVE|3122|M|45.13,63.90|Z|1454|
+T A Strange Request|QID|3121|M|76.8,37.2|Z|1444|N|To Xerash Fireblade.|
+A Return to Witch Doctor Uzer'i|QID|3122|M|76.8,37.2|Z|1444|N|From Xerash Fireblade.|PRE|3121|
 T Return to Witch Doctor Uzer'i|QID|3122|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i.|
 A Testing the Vessel|QID|3123|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.\n[color=FF0000]NOTE: [/color]There is a brief interlude before he offers this quest.|PRE|3122|
 A Natural Materials|QID|3128|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|PRE|3122|
