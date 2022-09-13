@@ -333,17 +333,16 @@ T A King's Tribute|QID|700|M|39.11,56.21|Z|Ironforge|N|To King Magni Bronzebeard
 A Reclaimers' Business in Desolace|QID|1453|Z|Ironforge|M|69.9,21.3|N|From Roetten Stonehammer.|
 T Letter to Stormpike|QID|514|M|74.7,11.7|Z|Ironforge|N|To Prospector Stormpike. Don't get the followup.|
 
-R Deeprun Tram|QID|563|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
+R Deeprun Tram|QID|563|M|76.83,51.28|Z|Ironforge|N|Go to Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|563|N|Take the tram ride and then run into Stormwind.|
-R The Canals|QID|542|M|65.57,29.19|Z|Stormwind City|N|To Milton Sheaf in Stormwind Keep.|
-R Stormwind Keep|QID|542|M|69.11,28.34|Z|Stormwind City|N|To Milton Sheaf in Stormwind Keep.|
-T Return to Milton|QID|542|M|74.18,7.47|Z|Stormwind City|N|To Milton Sheaf in the Library.|
-T Reassignment|QID|563|Z|Stormwind City|M|72.56,15.88|N|To Major Samuelson. \n\nCheck Mini-Map, need to run back to the main hallway and head NE turning left into first entryway.|
-R The Canals|QID|622|M|69.11,28.34|Z|Stormwind City|N|Out of the Keep.|
-R Cathedral Square|QID|622|M|51.23,33.25|Z|Stormwind City|N|Toward the Cathedral of Light.|
-R Cathedral of Light|QID|622|M|43.06,34.42|Z|Stormwind City|N|Toward the Cathedral of Light.|
-A Brother Anton|QID|6141|M|42.58,24.23|Z|Stormwind City|N|From Brother Crowley downstairs in the Cathedral of Light.|
-A Morgan Stern|QID|1260|M|41.50,89.39|Z|Stormwind City|N|From Angus Stern in the Blue Recluse.|
+R The Canals|QID|542|M|70.32,47.47|Z|Stormwind City|N|To Milton Sheaf in Stormwind Keep.|
+R Stormwind Keep|QID|542|M|73.51,46.23|Z|Stormwind City|N|To Milton Sheaf in Stormwind Keep.|
+T Return to Milton|QID|542|M|77.03,30.29|Z|Stormwind City|N|To Milton Sheaf in the Library.|
+T Reassignment|QID|563|Z|Stormwind City|M|75.86,36.86|N|To Major Samuelson. \n\nCheck Mini-Map, need to run back to the main hallway and head NE turning left into first entryway.|
+R The Canals|QID|622|M|70.55,47.02|Z|Stormwind City|N|Out of the Keep.|
+R Cathedral of Light|QID|622|M|52.66,43.27|Z|Stormwind City|N|Toward the Cathedral of Light.|
+A Brother Anton|QID|6141|M|52.66,43.27|Z|Stormwind City|N|From Brother Crowley downstairs in the Cathedral of Light.|
+A Morgan Stern|QID|1260|M|51.74,93.44|Z|Stormwind City|N|From Angus Stern in the Blue Recluse.|
 A Return to the Marsh|QID|1953|M|38.6,79.6|Z|Stormwind City|N|From Jennea Cannon.|C|Mage|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|

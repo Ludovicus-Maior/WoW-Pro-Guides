@@ -221,7 +221,7 @@ C The Night Watch|QID|56|M|79,70|N|Kill mobs here until you finish this quest.|Z
 T The Night Watch|QID|56|M|73.56,46.86|N|To Commander Althea Ebonlocke.|Z|Duskwood|
 T Return the Comb|QID|154|M|75.77,45.29|N|To Madame Eva.|Z|Duskwood|
 F Stormwind|AVAILABLE|3765|N|Fly to Stormwind|M|77.50, 44.30|Z|Duskwood|
-A The Corruption Abroad|QID|3765|M|21.40,55.79|Z|Stormwind City|N|From Argos Nightwhisper.|LEAD|1275|
+A The Corruption Abroad|QID|3765|M|36.41 67.42|Z|Stormwind City|N|From Argos Nightwhisper.|LEAD|1275|
 A Mathias and the Defias|QID|2360|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest. Details of this quest is on the 20-21 Redridge guide.|C|Rogue|
 A The Tome of Valor|QID|1793|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|
 T The Tome of Valor|QID|1793|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
