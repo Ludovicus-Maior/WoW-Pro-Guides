@@ -50,7 +50,7 @@ M [item=173058/Umbral Ink]|QID|773311405|P|Inscription;773;8+25;1|ITEM|173058|CR
 = Learn Recipe|QID|773800101|M|36.47,36.70|Z|1670|P|Inscription;773;8+10|RECIPE|311423|N|Learn [spell=311423/Writ of Grave Robbing] Recipe from Trainer.|
 = Learn Recipe|QID|773800151|M|36.47,36.70|Z|1670|P|Inscription;773;8+15|RECIPE|311425|N|Learn [spell=311425/Tome of the Still Mind] Recipe from Trainer.|
 M [item=173065/Writ of Grave Robbing]|QID|773311423|P|Inscription;773;8+30;1|ITEM|173065|CRAFT|311423 10|MATS|173059 1;173058 1;175886 1|N|Alternate: [item=173049/Tome of the Still Mind], Takes 3 times the inks, AND 25 of [item=175886/Dark Parchment]\nClick step of to make Alternate.|
-M [item=173049/Tome of the Still Mind]|QID|773311425|P|Inscription;773;8+30;1|ITEM|173049|CRAFT|311425 5|MATS|173059 3;173058 3; 175886 25|
+M [item=173049/Tome of the Still Mind]|QID|773311425|P|Inscription;773;8+30;1|ITEM|173049|CRAFT|311425 5|MATS|173059 3;173058 3;175886 25|
 = Learn Recipe|QID|773800301|M|36.47,36.70|Z|1670|P|Inscription;773;8+30|RECIPE|311413|N|Learn [spell=311413/Mass Milling Deathblossom] Recipe from Trainer.|
 = Learn Recipe|QID|773800302|M|36.47,36.70|Z|1670|P|Inscription;773;8+30|RECIPE|311414|N|Learn [spell=311414/Mass Milling Vigils Torch] Recipe from Trainer.|
 = Learn Recipe|QID|773800303|M|36.47,36.70|Z|1670|P|Inscription;773;8+30|RECIPE|311415|N|Learn [spell=311415/Mass Milling Widowbloom] Recipe from Trainer.|

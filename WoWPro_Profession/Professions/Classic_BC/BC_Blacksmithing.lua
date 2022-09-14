@@ -81,11 +81,11 @@ M [item=2868/Patterned Bronze Bracers]|QID|164002672|P|Blacksmithing;164;0+150;1
 = Learn Recipe|QID|164001501|P|Blacksmithing;164;0+150|RECIPE|14379|N|Learn [spell=14379/Golden Rod] Recipe from Trainer.|
 M [item=11128/Golden Rod]|QID|164014379|P|Blacksmithing;164;0+155;1|ITEM|11128|CRAFT|14379 5|MATS|3577 1;3478 2|
 = Learn Recipe|QID|164001551|P|Blacksmithing;164;0+155|RECIPE|3506|N|Learn [spell=3506/Green Iron Leggings] Recipe from Trainer.|
-M [item=3842/Green Iron Leggings]|QID|164003506|P|Blacksmithing;164;0+165;1|ITEM|3842|CRAFT|3506 10|MATS|3575 8; 3486 1; 2605 1|
+M [item=3842/Green Iron Leggings]|QID|164003506|P|Blacksmithing;164;0+165;1|ITEM|3842|CRAFT|3506 10|MATS|3575 8;3486 1;2605 1|
 = Learn Recipe|QID|164001651|P|Blacksmithing;164;0+165|RECIPE|3501|N|Learn [spell=3501/Green Iron Bracers] Recipe from Trainer.|
-M [item=3835/Green Iron Bracers]|QID|164003501|P|Blacksmithing;164;0+190;1|ITEM|3835|CRAFT|3501 25|MATS|3575 6; 2605 1|
+M [item=3835/Green Iron Bracers]|QID|164003501|P|Blacksmithing;164;0+190;1|ITEM|3835|CRAFT|3501 25|MATS|3575 6;2605 1|
 = Learn Recipe|QID|164001851|P|Blacksmithing;164;0+185|RECIPE|7223|N|Learn [spell=7223/Golden Scale Bracers] Recipe from Trainer.|
-M [item=6040/Golden Scale Bracers]|QID|164007223|P|Blacksmithing;164;0+200;1|ITEM|6040|CRAFT|7223 10|MATS|3859 5; 3486 2|N|Keep 6, if you choose Armorsmithing at 200.|
+M [item=6040/Golden Scale Bracers]|QID|164007223|P|Blacksmithing;164;0+200;1|ITEM|6040|CRAFT|7223 10|MATS|3859 5;3486 2|N|Keep 6, if you choose Armorsmithing at 200.|
 = Learn [spell=9785/Artisan Blacksmithing]|QID|164009785|P|Blacksmithing;164;0+200|SPELL|Artisan Blacksmithing;9785|LVL|35|N|Learn from a Blacksmithing Trainer in any Major City.|
 = Learn Recipe|QID|164002001|P|Blacksmithing;164;0+200|RECIPE|9920|N|Learn [spell=9920/Solid Grinding Stone] Recipe from Trainer.|
 M [item=7966/Solid Grinding Stone]|QID|164009920|P|Blacksmithing;164;0+210;1|ITEM|7966|CRAFT|9920 30|MATS|7912 4|N|Keep these, you'll need for later, and might need to make more later as well.|
