@@ -907,10 +907,6 @@ local function createBlizzOptions()
     config:RegisterOptionsTable("WoWPro-Display", display)
     dialog:AddToBlizOptions("WoWPro-Display", display.name, "WoW-Pro")
 
-    -- Selector Options
-    config:RegisterOptionsTable("WoWPro-Selector", WoWPro:SelectorOptionsTable())
-    dialog:AddToBlizOptions("WoWPro-Selector", "WoW-Pro Selector", "WoW-Pro")
-
     -- Profile Options
     config:RegisterOptionsTable("WoWPro-Profile", _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB))
     dialog:AddToBlizOptions("WoWPro-Profile", "WoW-Pro Profiles", "WoW-Pro")

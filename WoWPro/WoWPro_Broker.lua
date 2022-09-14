@@ -885,7 +885,7 @@ function WoWPro.SelectItemToUse(use, debug)
         WoWPro:dbp("SelectItemToUse(%q): single, %q", use, _G.GetItemInfo(use) or "NIL")
         return _G.GetItemInfo(use), use
     end
-    local value = QidMapReduce(use,false,"^","|",function (item) return (_G.GetItemCount(item) > 0) and item end, "SelectItemToUse", true or quids_debug)
+    local value = QidMapReduce(use,false,"^","|",function (item) return (_G.GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
     WoWPro:dbp("SelectItemToUse(%q): Value=%s", use, tostring(value))
     return value, value
 end
@@ -1619,7 +1619,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Skip Completed Quests
 
             if QID then
-                local jqid = WoWPro.QuestCompleted(QID, "Skip Completed Quests")
+                local jqid = WoWPro.QuestCompleted(QID, false, "Skip Completed Quests")
                 if jqid then
                     skip = true -- If quest complete, step is skipped.
                     WoWPro.why[guideIndex] = "NextStep(): QID is complete: " .. jqid
@@ -3245,7 +3245,7 @@ function WoWPro.PopulateQuestLog()
                 -- Is this an auto-switch quest?
                 if WoWProCharDB.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProCharDB.QID2Guide[QID] then
                     WoWPro:SelectGuide(WoWProCharDB.QID2Guide[QID], questInfo.title, QID)
-                    WoWPro:print("AutoSwitch?: [%s] => %s", questInfo.title, WoWProCharDB.QID2Guide[QID])
+                    WoWPro:print("PopulateQuestLog: AutoSwitch? [%s] => %s", questInfo.title, WoWProCharDB.QID2Guide[QID])
                 end
             end
         end

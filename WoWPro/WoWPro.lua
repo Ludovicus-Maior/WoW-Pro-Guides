@@ -104,11 +104,18 @@ function WoWPro:Error(message, ...)
 end
 WoWPro:Export("Error")
 
+local function ends_with(str, ending)
+    return ending == "" or str:sub(-#ending) == ending
+ end
+
 -- WoWPro Event function, only log --
 function WoWPro:LogEvent(event, ...)
     local msg = ("|cffff7d0a%s|r: %s("):format(self.name or "Wow-Pro", tostring(event))
     local arg = {...}
     local argn = #arg
+    if ends_with(event, "CHAT_MSG_ADDON") then
+        arg[2] = "Censored"
+    end
     for i=1,argn do
         if type(arg[i]) == "string" then
             msg = msg .. '"' .. arg[i] .. '"'
@@ -197,7 +204,7 @@ local function LogGrow(frame, elapsed)
         if coroutine.resume(LogCo) then return end
         -- false return implies we are done
         LogFrame:SetScript("OnUpdate",nil)
-        _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating window")
+        _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogGrow(): Populating window")
         LogCall(Log)
         Log = nil
     end
@@ -237,8 +244,10 @@ function WoWPro:LogShow()
     LogBox.Box:SetText("")
     WoWPro:LogDump( function(text)
         LogBox.Box:SetText(text)
+        WoWPro.LogText = text
         LogBox.Scroll:UpdateScrollChildRect()
         LogBox:Show()
+        _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogShow(): Showing window")
     end)
 end
 
@@ -385,8 +394,8 @@ function WoWPro:OnInitialize()
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil
     WoWPro.GuideLoaded = false
-    WoWProDB.profile.Selector = WoWProDB.profile.Selector or {}
-    WoWProDB.profile.Selector.QuestHard = WoWProDB.profile.Selector.QuestHard or 0
+    -- Selector is Deprecated
+    WoWProDB.profile.Selector = nil
     if type(WoWProDB.profile.checksoundfile) == "string" then
         WoWProDB.profile.checksoundfile = 567416 -- MapPing
     end
@@ -431,9 +440,6 @@ function WoWPro:OnInitialize()
 			0.4156862745098039, -- [2]
 		},
 		["steptextsize"] = 16,
-		["Selector"] = {
-			["QuestHard"] = 0,
-		},
 		["pad"] = 14,
 		["steptextcolor"] = {
 			nil, -- [1]
@@ -492,10 +498,6 @@ function WoWPro:OnEnable()
     end
     if not _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton") then
         _G.SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
-    end
-    if _G.GetBindingKey("WOWPRO_SELECTOR") then
-        -- Do NOT release with this binding until it works!
-        _G.SetBinding("ALT-G", "WOWPRO_SELECTOR")
     end
 
     -- Event Setup --
@@ -752,7 +754,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         GID = GIDvalue
     }
     if not WoWPro:ValidZone(guide.zone, true) then
-        WoWPro:print("RegisterGuide(): Zone %q is not valid, using as guide name.", guide.zone)
+        -- WoWPro:print("RegisterGuide(): Zone %q is not valid, using as guide name.", guide.zone)
         guide.name = guide.name or guide.zone
         guide.zone = nil
     end
@@ -763,7 +765,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
 
     if faction and faction ~= WoWPro.Faction and faction ~= "Neutral" then
         -- If the guide is not of the correct side, don't register it
-        WoWPro:print("RegisterGuide(): Guide %q rejected, Wrong faction %s", GIDvalue, tostring(faction))
+        -- WoWPro:print("RegisterGuide(): Guide %q rejected, Wrong faction %s", GIDvalue, tostring(faction))
         return guide
     end
 
@@ -1149,7 +1151,6 @@ function WoWPro.LevelColor(guide)
 
     if type(guide) == "table" then
         -- WoWPro:dbp("WoWPro.LevelColor(%s)",guide.GID)
-        playerLevel = playerLevel + WoWProDB.profile.Selector.QuestHard
         if (playerLevel < guide['startlevel']) then
             return {WoWPro:QuestColor(guide['level'] or guide['endlevel'])}
         end
