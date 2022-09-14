@@ -214,7 +214,7 @@ T All An Aspirant Can Do|QID|58174|M|48.28,72.86|Z|1533;Bastion!The Shadowlands|
 
 ; The Temple of Purity Storyline
 A The Temple of Purity|QID|57270|M|48.36,72.80|Z|1533;Bastion!The Shadowlands|N|From Disciple Kosmas|PRE|58174|MS|
-A Hero's Rest|QID|62718|M|48.79,73.26|Z|1533;Bastion!The Shadowlands|N|From the Scroll hanging on the wall.|LVL|50|RANK|2|LEAD|62275|
+A Hero's Rest|QID|62718|M|48.79,73.26|Z|1533;Bastion!The Shadowlands|N|From the Scroll hanging on the wall.|RANK|2|LEAD|62275|LVL|-60|
 A WANTED: Altered Sentinel|QID|60316|M|49.13,72.82|Z|1533;Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll next to the tent.|RANK|2|
 C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|1533;Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.\n[color=FF0000]NOTE: [/color]Despite being yellow, it will attack you as soon as you step within the colored area.|
 C A Gift for an Acolyte|QID|62714|M|54.10,73.62|Z|1533;Bastion!The Shadowlands|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
@@ -300,7 +300,7 @@ C What's In a Memory?|QID|58977|M|57.61,61.70|QO|3|Z|1533;Bastion!The Shadowland
 T What's In a Memory?|QID|58977|M|57.51,61.72|Z|1533;Bastion!The Shadowlands|N|To Kleia.|MS|
 A Lysonia's Truth|QID|58978|M|57.51,61.72|Z|1533;Bastion!The Shadowlands|N|From Kleia.|PRE|58977|MS|
 A Hostile Recollection|QID|59015^62735|M|57.98,64.22|Z|1533;Bastion!The Shadowlands|N|Bonus Objective - Autoaccepted.|RANK|2|
-C Hostile Recollection|QID|59015^62735|M|PLAYER|Z|1533;Bastion!The Shadowlands|N|Kill enemies as you go, click on things laying around, and set the purian you picked up on the ground near misled stewards.|S!US|
+C Hostile Recollection|QID|59015^62735|M|PLAYER|Z|1533;Bastion!The Shadowlands|N|Kill enemies as you go, click on things laying around, and set the purian you picked up on the ground near misled stewards.|S!US|U|178915|
 C Lysonia's Truth|QID|58978|M|58.09,64.43|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click the Soul Mirror.|MS|
 C Lysonia's Truth|QID|58978|M|58.93,62.72|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Click the Soul Mirror.|MS|
 C Lysonia's Truth|QID|58978|M|59.52,59.64|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Click the Soul Mirror.|MS|
@@ -340,8 +340,8 @@ R Agthia's Repose|ACTIVE|59554|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|N|Fo
 T A Fine Journey|QID|59554|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|N|To Keeper Mnemis.|
 K Vesper Repair: Sophia's Aria|QID|58319|M|51.46,68.61|Z|1533;Bastion!The Shadowlands|T|Nikara Blackheart|N|Need 3 player to summon (either Faction), Each of you must click the Ancient Incense on the blue platforms.  Once started Sophia arrives to tune the vesper, 3 waves, low level, elites, then rare.|ITEM|183608|RARE|ACH|14307;8|  ; QID|63411| is when you kill Nikara, QID in line is when looting chest.
 A In Agthia's Memory|QID|57549|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|N|From Keeper Mnemis.|PRE|59554|LVL|52|RANK|2|
-C In Agthia's Memory|QID|57549|M|47.45,66.05|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click the scroll.|
-C In Agthia's Memory|QID|57549|M|44.84,68.75|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Click the scroll.|
+C In Agthia's Memory|QID|57549|M|47.45,66.05|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click the bell, kill a few things.|
+C In Agthia's Memory|QID|57549|M|44.84,68.75|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Click the scroll and then help her.|
 C In Agthia's Memory|QID|57549|M|44.68,64.37|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Click the scroll.|
 T In Agthia's Memory|QID|57549|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|N|To Keeper Mnemis.|
 A Agthia's Path|QID|57551|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|N|From Keeper Mnemis.|PRE|57549|RANK|2|
