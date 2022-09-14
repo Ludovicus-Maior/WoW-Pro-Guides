@@ -299,7 +299,6 @@ f Morgan's Vigil|QID|3823|M|84.33,68.32|Z|Burning Steppes|N|Get the Flightpath f
 
 A Extinguish the Firegut|QID|3823|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|
 A FIFTY! YEP!|QID|4283|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|
-A Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|N|From Helendis Riverhorn.\n\nThis is the start of Onyxia Lair Attunement. It's important get this started. Shouldn't be hard to get guild help or other people working on attunement in the area.|
 
 C Extinguish the Firegut|QID|3823|M|81,41|Z|Burning Steppes|S|N|Kill the Ogres around here.|
 A Broodling Essence|QID|4726|M|65.26,23.99|Z|Burning Steppes|N|From Tinkee Steamboil.|
@@ -359,14 +358,11 @@ T Trinkets...|QID|3481|M|38.85,39.00|Z|Searing Gorge|N|To Hoard of the Black Dra
 l Black Dragonflight Molt|QID|4022|M|38.85,39.00|Z|Searing Gorge|N|Loot the Hoard of the Black Dragonflight to get the molt.|L|10575|U|10569|
 
 F Morgan's Vigil|QID|3825|M|37.94,30.85|Z|Searing Gorge|N|Fly back to Burning Steppes.|
-C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|S|N|The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
 C Ogre Head On A Stick = Party|QID|3825|M|81.00,46.78|Z|Burning Steppes|N|Click on the Dirt Mound to place head.|
 A A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|N|From Cyrus Therepentous.|PRE|3481|
 C A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|CHAT|N|Talk with Cyrus Therepentous.|
 T A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|N|To Cyrus Therepentous. Skip follow-up|
-C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|US|N|The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
 T Ogre Head On A Stick = Party|QID|3825|M|84.55,68.68|Z|Burning Steppes|N|To Oralius.|
-T Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|N|To Helendis Riverhorn.|
 A The True Masters|QID|4183|M|85.80,68.94|Z|Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
 
 F Lakeshire|QID|4183|M|84.33,68.32|Z|Burning Steppes|N|Fly to Lakeshire in Redridge.|
