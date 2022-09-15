@@ -172,7 +172,7 @@ R Grom'gol Base Camp|AVAILABLE|571|M|32.16,28.76|Z|1434|
 T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|1434|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|571|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|PRE|572|
 F Booty Bay|AVAILABLE|2864|M|32.54,29.35|Z|1434|
-A Tran'rek|QID|2864|M|26.94,77.21|Z|1434|N|From Krazek on the top floor of the Tavern.|
+A Tran'rek|QID|2864|M|26.94,77.21|Z|1434|N|From Krazek on the top floor of the Tavern.|LEAD|2865|
 h Booty Bay|AVAILABLE|617|M|27.04,77.31|Z|1434|N|Set your hearthstone to Booty Bay.|
 T Venture Company Mining|QID|600|M|27.12,77.21|Z|1434|N|To Crank Fizzlebub.|
 A Zanzil's Secret|QID|621|M|27.12,77.21|Z|1434|N|From Crank Fizzlebub.|
