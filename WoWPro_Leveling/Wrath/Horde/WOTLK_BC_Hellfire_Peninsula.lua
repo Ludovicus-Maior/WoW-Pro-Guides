@@ -121,14 +121,14 @@ R Thrallmar|ACTIVE|10864|M|55.64,41.83|Z|1944|
 T A Burden of Souls|QID|10864|M|52.28,36.46|N|To Apothecary Antonivich.|
 A The Demoniac Scryer|QID|10838|M|52.28,36.46|N|From Apothecary Antonivich.|PRE|10864|
 T Doorway to the Abyss|QID|10392|M|55.0,36.0|N|To Nazgrel.|
-A Cruel's Intentions|QID|10136|M|55.02,35.96|N|From Nazgrel.|PRE|10392|
+A Cruel's Intentions|QID|10136|M|55.02,35.96|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Nazgrel.|PRE|10392|
 A The Assassin|QID|9400|M|55.02,35.96|N|From Nazgrel.|LVL|60|
 A Falcon Watch|QID|9498^9499|M|55.23,39.10|N|From Martik Tor'seldori.|LEAD|9340|LVL|60|
 = Level 60 Training|ACTIVE|9400|N|Make your way to your trainer and do your level 60 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 R The Stadium|ACTIVE|9400|M|45.67,44.46;34.83,45.91|Z|1944|CS|QO|1|N|Follow the road west through the wall until you reach the spikes.|
 R Krun Spinebreaker|ACTIVE|9400|M|33.62,43.54|Z|1944|QO|1|N|Turn to the north and head to the other side of the rock point.|
-T The Assassin|QID|9400|M|33.62,43.56|CC|Z|1944|N|To the Fel Orc Corpse.|
-A A Strange Weapon|QID|9401|M|33.5,43.5|N|From the Fel Orc Corpse.|PRE|9400|
+T The Assassin|QID|9400|M|33.62,43.56|Z|1944|N|To the Fel Orc Corpse.|
+A A Strange Weapon|QID|9401|M|33.62,43.56|N|From the Fel Orc Corpse.|PRE|9400|
 R Falcon Watch|ACTIVE|9498^9499|M|25.59,61.14|N|Head East to Falcon Watch.|
 A Arelion's Journal|QID|9374|M|26.37,60.32|N|From Magistrix Carinda.|
 A Birds of a Feather|QID|9397|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
@@ -212,15 +212,15 @@ T Shizz Work|QID|10629|M|51.37,30.53|N|To Foreman Razelcraz.|
 A Beneath Thrallmar|QID|10630|M|51.37,30.53|N|From Foreman Razelcraz.|PRE|10629|
 K Urga'zz|ACTIVE|10630|M|54.09,31.64|QO|1|N|Enter the mine and locate Urga'zz at the back of the cave.|
 T Beneath Thrallmar|QID|10630|M|51.37,30.53|N|To Foreman Razelcraz.|
-R Pools of Aggonar|ACTIVE|10389|M|40,43|N|Run to the Pools of Aggonar.|
-C In Need of Felblood|QID|9366|M|39.5,36.0|S|N|Kill and loot Terrorfiends.|
-C The Agony and the Darkness|QID|10389|M|39.5,36.0|S|N|Kill Terrorfiends.|
-C Arelion's Journal|QID|9374|M|40,37|U|31955|N|The item is in Arelion's Knapsack, which is hanging off a tree near a blood elf corpse.|
-C Cruel's Intentions|QID|10136|M|43.09,31.90|N|Kill Arazzius the Cruel.|
-C In Need of Felblood|QID|9366|M|39.5,36.0|US|N|Kill and loot Terrorfiends.|
-C The Agony and the Darkness|QID|10389|M|39.5,36.0|US|N|Kill Terrorfiends.|
+R Pools of Aggonar|ACTIVE|10389|M|40.73,43.48|N|Follow the road west to the Pools of Aggonar.|
+C In Need of Felblood|QID|9366|M|40.27,35.15|L|23269 6|ITEM|23269|N|Terrorfiend|S|
+K The Agony and the Darkness|ACTIVE|10389|M|40.27,35.15|QO|1|S|
+C Arelion's Journal|QID|9374|M|40.03,37.18|L|23339|ITEM|23339|N|Blistering Oozeling\nIf you don't feel like fighting for it, locate Arelion's Knapsack and loot the item from it.\n[color=FF0000]NOTE: [/color]The Knapsack is hanging off a tree near a blood elf corpse.|U|31955|
+K Cruel's Intentions|ACTIVE|10136|M|43.88,31.57|QO|1|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nAfter clearing the 2 Misstresses of Doom, kill Arazzius the Cruel.\n[color=FF0000]NOTE: [/color]If you don't have multiple spell interrupts, then you'd better bring someone who does.|
+C In Need of Felblood|QID|9366|M|40.27,35.15|L|23269 6|ITEM|23269|N|Terrorfiend|US|
+K The Agony and the Darkness|ACTIVE|10389|M|40.27,35.15|QO|1|US|
 
-R Mag'har Post|ACTIVE|9410|M|33.6,43.6|U|23669|N|Go back to the Fel Orc Corpse and use the Wolf Totem and follow it.|
+R Mag'har Post|ACTIVE|9410|M|33.62,43.56|N|Go back to the Fel Orc Corpse and use the Wolf Totem and follow it.|U|23669|
 T A Spirit Guide|QID|9410|M|32.0,28.0|N|If you can't speak to Gorkan Bloodfist, it's because you didn't follow the wolf.|
 A The Mag'har|QID|9406|M|32.0,28.0|N|From Gorkan Bloodfist.|PRE|9410|
 H Thrallmar|ACTIVE|10389|M|56.69,37.50|
@@ -228,7 +228,7 @@ T The Agony and the Darkness|QID|10389|M|55.12,36.02|N|To Magister Bloodhawk.|
 T The Mag'har|QID|9406|M|55.02,35.96|N|To Nazgrel.|
 T Cruel's Intentions|QID|10136|M|55.02,35.96|N|To Nazgrel.|
 F Falcon Watch|ACTIVE|9366|M|56.28,36.25|N|Fly to Falcon Watch. Or Run/Fly with your Mount|
-h Falcon Watch|ACTIVE|9366|M|26.88,59.53|N|At Innkeeper Bazil Olof'tazun.\n[color=FF0000]NOTE: [/color]Skip this step if you do not wish to change it.||
+h Falcon Watch|ACTIVE|9366|M|26.88,59.53|N|At Innkeeper Bazil Olof'tazun.\n[color=FF0000]NOTE: [/color]Skip this step if you do not wish to change it.|
 T In Need of Felblood|QID|9366|M|26.99,59.54|N|To Ryathen the Somber.|
 A The Cleansing Must Be Stopped|QID|9370|M|26.99,59.54|N|From Ryathen the Somber.|PRE|9366|
 T Arelion's Journal|QID|9374|M|26.37,60.32|N|To Magistrix Carinda.|
