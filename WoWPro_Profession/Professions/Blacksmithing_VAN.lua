@@ -79,11 +79,11 @@ M [item=3480/Rough Bronze Shoulders]|QID|164003328|P|Blacksmithing;164;0+145;1|I
 = Learn Recipe|QID|164001201|P|Blacksmithing;164;0+120|RECIPE|2672|N|Learn [spell=2672/Patterned Bronze Bracers] Recipe from Trainer.|
 M [item=2868/Patterned Bronze Bracers]|QID|164002672|P|Blacksmithing;164;0+155;1|ITEM|2868|CRAFT|2672 10|MATS|2841 5;3478 2|
 = Learn Recipe|QID|164001551|P|Blacksmithing;164;0+155|RECIPE|3506|N|Learn [spell=3506/Green Iron Leggings] Recipe from Trainer.|
-M [item=3842/Green Iron Leggings]|QID|164003506|P|Blacksmithing;164;0+165;1|ITEM|3842|CRAFT|3506 10|MATS|3575 8; 3486 1; 2605 1|
+M [item=3842/Green Iron Leggings]|QID|164003506|P|Blacksmithing;164;0+165;1|ITEM|3842|CRAFT|3506 10|MATS|3575 8;3486 1;2605 1|
 = Learn Recipe|QID|164001651|P|Blacksmithing;164;0+165|RECIPE|3501|N|Learn [spell=3501/Green Iron Bracers] Recipe from Trainer.|
-M [item=3835/Green Iron Bracers]|QID|164003501|P|Blacksmithing;164;0+190;1|ITEM|3835|CRAFT|3501 25|MATS|3575 6; 2605 1|
+M [item=3835/Green Iron Bracers]|QID|164003501|P|Blacksmithing;164;0+190;1|ITEM|3835|CRAFT|3501 25|MATS|3575 6;2605 1|
 = Learn Recipe|QID|164001851|P|Blacksmithing;164;0+110|RECIPE|7223|N|Learn [spell=7223/Golden Scale Bracers] Recipe from Trainer.|
-M [item=6040/Golden Scale Bracers]|QID|164007223|P|Blacksmithing;164;0+200;1|ITEM|6040|CRAFT|7223 10|MATS|3859 5; 3486 2|
+M [item=6040/Golden Scale Bracers]|QID|164007223|P|Blacksmithing;164;0+200;1|ITEM|6040|CRAFT|7223 10|MATS|3859 5;3486 2|
 = Learn Recipe|QID|164002001|P|Blacksmithing;164;0+200|RECIPE|9918|N|Learn [spell=9918/Solid Sharpening Stone] Recipe from Trainer.|
 M [item=7964/Solid Sharpening Stone]|QID|164009918|P|Blacksmithing;164;0+210;1|ITEM|7964|CRAFT|9918 20|MATS|7912 1|
 = Learn Recipe|QID|164002051|P|Blacksmithing;164;0+205|RECIPE|9928|N|Learn [spell=9928/Heavy Mithril Gauntlet] Recipe from Trainer.|
