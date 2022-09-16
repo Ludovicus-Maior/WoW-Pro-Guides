@@ -636,35 +636,31 @@ f Nethergarde Keep|ACTIVE|1448|M|65.54,24.34|Z|Blasted Lands|N|Get the flight-pa
 
 F Stormwind|ACTIVE|1448|M|65.54,24.34|Z|Blasted Lands|N|Fly to Stormwind.|TZ|Stormwind City|C|-Mage|
 P Wizard's Sanctum|ACTIVE|1448|N|Teleport to Storwind|C|Mage|
-T In Search of The Temple|QID|1448|M|64.34,20.62|Z|Stormwind City|N|To Brohann Caskbelly, in the Dwarven District. Don't take follow-up.|
-R Deeprun Tram|QID|1467|M|63.85,8.19|Z|Stormwind City|N|Run to the Deeprun tram.|
+T In Search of The Temple|QID|1448|M|69.47,40.51|Z|Stormwind City|N|To Brohann Caskbelly, in the Dwarven District. Don't take follow-up.|
+R Deeprun Tram|QID|1467|M||69.01,30.91|Z|Stormwind City|N|Run to the Deeprun tram.|
 R Tinker Town|QID|1467|N|Take the tram ride and then run into Ironforge.|
 T Reagents for Reclaimers Inc.|QID|1467|M|69.9,21.3|Z|Ironforge|N|To Roetten Stonehammer. He patrols the entrance to the Hall of Explorers.|
 T The Karnitol Shipwreck|QID|1457|M|69.9,21.3|Z|Ironforge|N|To Roetten Stonehammer. He patrols the entrance to the Hall of Explorers.|
-N Dungeon interlude|QID|1050|ACTIVE|1052|M|74.8,12.4|Z|Ironforge|N|If you want to do Scarlet Monestary, pick up the following quest.|
-A Mythology of the Titans|QID|1050|M|74.8,12.4|Z|Ironforge|N|From Librarian Mae Paledust.\n\nDungeon Quest.|
 A Further Mysteries|QID|525|M|74.7,11.7|Z|Ironforge|N|From Prospector Stormpike.|PRE|514|
 N Train up!|QID|525|N|You can finally train up. Do professions, auctions, repairs, get ready for our next leg.|
 B Elixir of Water Breathing|QID|525|N|If you don't already have a means of breathing underwater, buy or make 1 (or 2 in case you die) because it will make part of the next section MUCH easier.|L|5996|ITEM|5996|C|-Druid,-Warlock|
 h Ironforge|QID|525|M|18.14,51.45|Z|Ironforge|N|Set your home location in Ironforge.|
 F Southshore|QID|525|M|55.5,48.2|Z|Ironforge|N|At Gryth Thurden, flightmaster.|
 T Down the Scarlet Path|QID|1052|M|51.46,58.35|Z|Hillsbrad Foothills|N|To Raleigh the Devout. Upstairs in the Inn. Don't get follow-up if you don't want the dungeon quest.|
-A In the Name of the Light|QID|1053|M|51.46,58.35|Z|Hillsbrad Foothills|N|From Raleigh the Devout.\n\nDungeon Quest.|PRE|1052|
-N Scarlet Monestary|ACTIVE|1050|S!US|N|Find/make a group for the dungeon run. Manually check this off if you don't want this reminder any longer.|
 T Further Mysteries|QID|525|M|48.14,59.11|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb.|
 A Dark Council|QID|537|M|48.14,59.11|Z|Hillsbrad Foothills|N|From Magistrate Henry Maleb.|PRE|525|
 A Noble Deaths|QID|512|M|48.14,59.11|Z|Hillsbrad Foothills|N|From Magistrate Henry Maleb.|PRE|510|
-A Assassin's Contract|QID|522|M|PLAYER|Z|Hillsbrad Foothills|N|Click the Assassin's Contract.|U|3668|
-T Assassin's Contract|QID|522|M|48.14,59.11|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb.\n\nIf you got this after you did "Noble Deaths" then don't get follow-up unless you are a completionist.|
+A Assassin's Contract|QID|522|M|PLAYER|Z|Hillsbrad Foothills|N|Click the Assassin's Contract.|U|3668|O|
+t Assassin's Contract|QID|522|M|48.14,59.11|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb.\n\nIf you got this after you did "Noble Deaths" then don't get follow-up unless you are a completionist.|
 A Baron's Demise|QID|523|M|48.14,59.11|Z|Hillsbrad Foothills|N|From Magistrate Henry Maleb.|PRE|522|
-R Dalaran|QID|602|M|18.8,78.2|Z|Alterac Mountains|N|Run northwest to Dalaran.|
+R Dalaran Crater|QID|602|M|18.8,78.2|Z|Alterac Mountains|N|Run northwest to Dalaran.|
 T Magical Analysis|QID|602|M|18.83,78.49|Z|Alterac Mountains|N|To Archmage Ansirem Runeweaver.|
 A Ansirem's Key|QID|603|M|18.83,78.49|Z|Alterac Mountains|N|From Archmage Ansirem Runeweaver.|PRE|602|
 
 R Misty Shore|QID|537|M|23.86,50.60|Z|Alterac Mountains|N|Run up north toward the Misty Shore.|
 K Dark Council|ACTIVE|537|M|47.62,12.29;52.30,20.95;54.70,26.00;58,31.73|CN|Z|Alterac Mountains|QO|1|S|N|Kill the Shadow Mages.|
 C Noble Deaths|QID|512|Z|Alterac Mountains|S|N|Kill Syndicate in the area and loot their Signet Rings.|
-K Nagaz|ACTIVE|537|M|39.20,14.35|Z|Alterac Mountains|QO|2|N|Kill Nagaz and loot his head.|
+K Nagaz|ACTIVE|537|M|39.20,14.35|Z|Alterac Mountains|QO|2|N|Kill Nagaz and loot his head.|T|Nagaz|
 l The Ensorcelled Parchment|QID|551|M|39.18,14.66|Z|Alterac Mountains|NC|N|Click on the Worn Wooden Chest near Nagaz|L|3706|
 A The Ensorcelled Parchment|QID|551|M|PLAYER|Z|Alterac Mountains|N|Click the Ensorcelled Parchment.|U|3706|
 C Baron's Demise|ACTIVE|523|Z|Alterac Mountains|S|N|Kill Baron Vardus and loot his head, he roams from camp to camp so keep an eye out.|T|Baron Vardus|
@@ -742,7 +738,6 @@ C Barbecued Buzzard Wings|QID|703|M|PLAYER|Z|Badlands|S|N|Kill Buzzards until yo
 C Study of the Elements: Rock|QID|710|M|23.00,43.00|Z|Badlands|N|Go west of Lotwil and kill Lesser Elementals  until you get 10 Small Stone Shards.|
 T Study of the Elements: Rock|QID|710|M|25.95,44.87|Z|Badlands|N|To Lotwil Veriatus.|
 A Study of the Elements: Rock|QID|711|M|25.95,44.87|Z|Badlands|N|From Lotwil Veriatus.|PRE|710|
-A A Sign of Hope|QID|720|M|53.03,33.93|Z|Badlands|N|Get quest from map on the ground here.|
 C A Dwarf and His Tools|QID|719|M|52.3,30.4|Z|Badlands|N|Kill Dwarves around here until you get 'Ryedol's Lucky Pick' for this quest.|
 C Mirages|QID|718|M|66.60,22.03|Z|Badlands|NC|N|Loot the Supply Crate at this location.|
 T A Sign of Hope|QID|720|M|53.42,43.40|Z|Badlands|N|To Prospecter Ryedol.|
@@ -755,7 +750,6 @@ A Murdaloc|QID|739|M|50.9,62.4|Z|Badlands|N|From Battered Dwarven Skeleton.|PRE|
 C Indurium|QID|1108|M|51.8,65.6|Z|Badlands|S|N|Kill Stonevault mobs for Indurium Flakes.|
 C Murdaloc|QID|739|M|50.53,67.92|Z|Badlands|N|Kill Stonevault Bonesnappers and Murdaloc.|
 C Indurium|QID|1108|M|51.8,65.6|Z|Badlands|US|N|Continue to kill Stonevault mobs until you complete this quest.|
-A Solution to Doom|QID|709|M|51.39,76.87|Z|Badlands|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Theldurin the Lost.|
 r Repair & Restock|ACTIVE|711|M|42.47,52.5|Z|Badlands|N|Reminder to clear your bags if you want since it isn't too far out of the way.|
 C Study of the Elements: Rock|QID|711|M|42.84,83.87|Z|Badlands|N|Kill Rock Elementals until you get 3 Large Stone Slabs for this quest.|
 T Study of the Elements: Rock|QID|711|M|25.95,44.87|Z|Badlands|N|To Lotwil Veriatus.|
@@ -790,7 +784,7 @@ T Badlands Reagent Run|QID|2500|M|37,49.2|Z|Loch Modan|N|To Ghak Healtouch.|
 F Stormwind|QID|603|M|33.92,50.95|Z|Loch Modan|N|Fly to Stormwind.\n\nThis is a long flight, use the restroom, go get a drink or snack!\n\nWhatever you do, don't waste your hearthstone, you will be needing it soon.|C|-Mage|
 P Wizard's Sanctum|QID|603|M|33.92,50.95|Z|Loch Modan|N|Teleport to Storwind, or optionally you can fly|C|Mage|
 N City stuff|QID|603|N|Take care of your big city needs, train, auction ect. This is the final stretch, mainly wrapping up your final quest turn-ins.|
-h Stormwind City|QID|603|M|52.61,65.71|Z|Stormwind City|N|Set Hearthstone in Stormwind. Seriously, set this here. This is the only reason we came back here.|
+h Stormwind City|QID|603|M|60.60,75.10|Z|Stormwind City|N|Set Hearthstone in Stormwind. Seriously, set this here. This is the only reason we came back here.|
 F Booty Bay|QID|603|M|66.27,62.16|Z|Stormwind City|N|Fly to Booty Bay.|
 T Dream Dust in the Swamp|QID|1116|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek up on the top floor of the Inn.|
 A Rumors for Kravel|QID|1117|M|26.94,77.21|Z|Stranglethorn Vale|N|From Krazek up on the top floor of the Inn.|PRE|1116|
@@ -808,7 +802,7 @@ C The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=ff8000]E
 T The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|C|Mage|
 A Power in Uldaman|QID|1956|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Tabetha.|PRE|1955|C|Mage|
 
-F Gadgetzan|QID|1137|Z|Dustwallow Marsh|M|65.50,51.30|N|Fly to Gadgetzan.|
+F Gadgetzan|QID|1137|Z|Dustwallow Marsh|M|67.50,51.30|N|Fly to Gadgetzan.|
 T Tran'rek|QID|2864|M|51.56,26.76|Z|Tanaris|N|To Tran'rek. Don't get follow-up.|
 R The Shimmering Flats|QID|1137|M|75.5,97.75|N|Back up to Thousand Needles.|
 T Rumors for Kravel|QID|1117|M|77.79,77.28|N|To Kravel Koalbeard.|
@@ -827,7 +821,7 @@ A Safety First|QID|1189|M|50.96,27.24|N|From Shreev.|PRE|1188|
 R The Shimmering Flats|QID|1189|M|75.5,97.75|N|Back up to Thousand Needles.|
 T Safety First|QID|1189|M|80.33,76.09|N|To Razzeric.|
 H Stormwind City|N|Hearth or otherwise make your way back to Stormwind.|
-A Feast at the Blue Recluse|QID|1271|M|41.50,89.39|Z|Stormwind City|N|From Angus Stern in the Blue Recluse. A feast in your honor for all you have accomplished! Be sure to loot all the food and drink that spawns.|PRE|1258&1222|
-T Feast at the Blue Recluse|QID|1271|M|41.50,89.39|Z|Stormwind City|N|To Angus Stern in the Blue Recluse. A feast in your honor for all you have accomplished! Be sure to loot all the food and drink that spawns.|
+A Feast at the Blue Recluse|QID|1271|M|51.78,93.46|Z|Stormwind City|N|From Angus Stern in the Blue Recluse. A feast in your honor for all you have accomplished! Be sure to loot all the food and drink that spawns.|PRE|1258&1222|
+T Feast at the Blue Recluse|QID|1271|M|51.78,93.46|Z|Stormwind City|N|To Angus Stern in the Blue Recluse. A feast in your honor for all you have accomplished! Be sure to loot all the food and drink that spawns.|
 ]]
 end)

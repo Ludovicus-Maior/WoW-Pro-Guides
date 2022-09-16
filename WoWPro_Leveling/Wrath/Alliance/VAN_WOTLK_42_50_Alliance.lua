@@ -7,7 +7,7 @@ return [[
 B Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude at a reasonable price. You will need them for a quest at Mirage Raceway when you are level 45.|L|3825 2|
 B Truesilver Bar|QID|49|N|You will also need a Truesilver Bar.|L|6037|ITEM|6037|
 B Silk Cloth|QID|4449|N|You shouldn't need to buy these, but a reminder to keep 15 of them handy once you're in the level 46-47 range.|L|4306 15|ITEM|4306|
-F Booty Bay|QID|595|M|66.2,62.4|Z|Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|
+F Booty Bay|QID|595|M|71.04,72.60|Z|Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|
 t Back to Booty Bay|QID|1118|M|27.12,77.21|N|To Crank Fizzlebub.|
 A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub.|PRE|605|
 A Zanzil's Secret|QID|621|M|27.12,77.21|N|From Crank Fizzlebub.|
@@ -40,7 +40,7 @@ r Sell junk, repair, restock|QID|604|N|Sell junk, repair, restock.|
 C Keep An Eye Out|QID|576|M|32.8,76.2|S|N|Kill Bloodsail mobs until you get Dizzy's Eye.|
 C Up to Snuff|QID|587|M|32.8,76.2|S|N|Kill Bloodsail mobs until you get 15 Snuff.|
 C Bloodsail Swashbucklers|QID|604|M|30,80|QO|1|S|N|Kill the Swashbucklers.|
-C Bloodsail Charts|QID|604|M|26.96,82.50|QO|2|N|Exit town and go to the beach.  Loot the Bloodsail Charts and Bloodsail Orders from the camps in the area. Check at each of the locations marked.|
+C Bloodsail Charts|QID|604|M|27.75,83.03|QO|2|N|Exit town and go to the beach.  Loot the Bloodsail Charts and Bloodsail Orders from the camps in the area. Check at each of the locations marked.|
 C Bloodsail Orders|QID|604|M|27.18,82.67|CN|QO|3|N|Loot the Bloodsail Orders from the camps in the area. Check at each of the locations marked.|
 C Bloodsail Swashbucklers|QID|604|M|30,80|QO|1|US|N|Kill the Swashbucklers.|
 C Up to Snuff|QID|587|M|32.8,76.2|US|N|Continue to kill Bloodsail mobs until you get 15 Snuff.|
@@ -53,8 +53,8 @@ T The Bloodsail Buccaneers|QID|604|M|27.17,77.01|N|To Fleet Master Seahorn.  Ski
 
 F Stormwind|AVAILABLE|212|M|27.53,77.78|N|Fly to stormwind. Get ready for a timed quest.|
 h Stormwind City|AVAILABLE|212|M|52.62,65.67|Z|Stormwind City|N|Set your hearthstone here if it's not already, seriously do it, we're about to take a timed quest.|
-A A Meal Served Cold|QID|212|M|41.50,89.39|Z|Stormwind City|N|From Angus Stern. Once you start this, you will have 30 minutes to complete it. \n\nGet anything done in town that you need to do before you start.|
-F Rebel Camp|ACTIVE|212|M|66.2,62.4|Z|Stormwind City|N|Fly to Rebel Camp at Dungar Longdrink. You should have about 28 minutes left if you are running by foot when you get here.|
+A A Meal Served Cold|QID|212|M|51.75,93.48|Z|Stormwind City|N|From Angus Stern. Once you start this, you will have 30 minutes to complete it. \n\nGet anything done in town that you need to do before you start.|
+F Rebel Camp|ACTIVE|212|M|71.02,72.65|Z|Stormwind City|N|Fly to Rebel Camp at Dungar Longdrink. You should have about 28 minutes left if you are running by foot when you get here.|
 A Troll Witchery|QID|205|M|37.83,3.56|N|From Brother Nimetz.|PRE|207|
 R Nesingwary's Expedition|QID|196||M|35.66,10.81|N|Head to Nesingwary's Camp. You should arive with 20.5 minutes to spare|
 A Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|195|
@@ -62,10 +62,10 @@ C Raptor Mastery|QID|196|M|32.80,40.30|S|N|Kill Jungle Stalkers near this locati
 C Feast Meal Served Cold|QID|212|M|32.80,40.30|N|Kill the Cold Eye Basilisks until you get the haunch. You should arrive to the area with about 17.5 minutes to spare giving you about 15 minutes.|
 C Raptor Mastery|QID|196|M|32.80,40.30|US|N|Kill Jungle Stalkers near this location.\n\nIf you get to less than 3 minutes I would skip this and we can catch the rest on the way back up next time.|
 H Stormwind City|ACTIVE|212|M|PLAYER|N|Hearth or otherwise make your way back to Stormwind before time time runs out.|
-T A Meal Served Cold|QID|212|M|41.50,89.39|Z|Stormwind City|N|To Angus Stern.|
+T A Meal Served Cold|QID|212|M|51.75,93.48|Z|Stormwind City|N|To Angus Stern.|
 N Green Hills of Stranglethorn|QID|338|M|26.60,76.37|Z|Stranglethorn Vale|N|We are about to have our last trip to nesingwary so now is the time to make sure you have everything to finish it up.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27|
 
-F Booty Bay|QID|600|M|66.2,62.4|Z|Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|PRE|212|
+F Booty Bay|QID|600|M|71.02,72.65|Z|Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|PRE|212|
 h Booty Bay|QID|600|M|27.00,77.30|N|Make Booty Bay your home location.|
 C Venture Company Mining|QID|600|M|41.00,43.60|N|Kill Venture Co. Mobs until you get the 10 Singing Blue Crystals for this quest.|
 R Ziata'jai Ruins|ACTIVE|209|M|42,36|N|Go East to Ziata'Jai ruins.|
