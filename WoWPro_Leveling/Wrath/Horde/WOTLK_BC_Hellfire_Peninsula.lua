@@ -220,9 +220,9 @@ K Cruel's Intentions|ACTIVE|10136|M|43.88,31.57|QO|1|ELITE|N|[color=00FFFF]Group
 C In Need of Felblood|QID|9366|M|40.27,35.15|L|23269 6|ITEM|23269|N|Terrorfiend|US|
 K The Agony and the Darkness|ACTIVE|10389|M|40.27,35.15|QO|1|US|
 
-R Mag'har Post|ACTIVE|9410|M|33.62,43.56|N|Go back to the Fel Orc Corpse and use the Wolf Totem and follow it.|U|23669|
-T A Spirit Guide|QID|9410|M|32.0,28.0|N|If you can't speak to Gorkan Bloodfist, it's because you didn't follow the wolf.|
-A The Mag'har|QID|9406|M|32.0,28.0|N|From Gorkan Bloodfist.|PRE|9410|
+R Mag'har Post|ACTIVE|9410|M|33.62,43.56;33.48,28.96|CC|Z|1944|N|Go back to Krun Spinebreaker's corpse and use the Wolf Totem. Follow the Ancestral Spirit Wolf that spwns.\n[color=FF0000]NOTE: [/color]If you get too far away from the Wolf, it will despawn and you'll have to go back and resummon it.|U|23669|
+T A Spirit Guide|QID|9410|M|32.01,27.79|N|To Gorkan Bloodfist.\n[color=FF0000]NOTE: [/color]You can only speak to him as long as the Ancestral Spirit Wolf is there. Once you arrive, it will despawn after a short period of time.\nIf this happens, you'll have to back and resummon it.|
+A The Mag'har|QID|9406|M|32.01,27.79|N|From Gorkan Bloodfist.|PRE|9410|
 H Thrallmar|ACTIVE|10389|M|56.69,37.50|
 T The Agony and the Darkness|QID|10389|M|55.12,36.02|N|To Magister Bloodhawk.|
 T The Mag'har|QID|9406|M|55.02,35.96|N|To Nazgrel.|
