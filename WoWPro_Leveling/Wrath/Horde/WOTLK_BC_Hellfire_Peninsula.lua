@@ -252,15 +252,15 @@ A Keep Thornfang Hill Clear!|QID|10159|M|15.67,52.15|N|From Mahuram Stouthoof.\n
 A The Cenarion Expedition|QID|9912|M|16.04,52.15|N|From Amythiel Mistwalker.|
 l Crimson Crystal Shard|AVAILABLE|10134|M|15.57,41.17|L|29476|ITEM|29476|N|Raging Colossus|S|
 A Crimson Crystal Clue|QID|10134|M|PLAYER|N|Click on the Crimson Crystal Shard to accept the quest.|U|29476|O|
-K Colossal Menace|ACTIVE|10132|M|15.57,41.17|QO|1||ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nAs the Raging Colossus gets low on health, it'll split into smaller Shardlings.|
+K Colossal Menace|ACTIVE|10132|M|15.57,41.17|QO|1||ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nThe Raging Colossus will shrink size and spawn a smaller Shardling with every 25% drop in health. Stay focused on killing the Colossus.\n[color=FF0000]NOTE: [/color]Be aware of your surroundings and avoid adds.|
 l Crimson Crystal Shard|AVAILABLE|10134|M|15.57,41.17|L|29476|ITEM|29476|N|Raging Colossus|US|
 T Colossal Menace|QID|10132|M|15.62,52.04|N|To Tola'thion.|
 T Crimson Crystal Clue|QID|10134|M|15.62,52.04|N|To Tola'thion.|
 A The Earthbinder|QID|10349|M|15.62,52.04|N|From Tola'thion.|PRE|10134|
-T The Earthbinder|QID|10349|M|15.89,51.59|N|To Earthbinder Galandria Nightbreeze.|
-A Natural Remedies|QID|10351|M|15.89,51.59|N|From Earthbinder Galandria Nightbreeze.|PRE|10349|
-C Natural Remedies|QID|10351|M|13.64,39.11|N|Go here, stand on the green rune and use the seed, then kill Goliathon when it spawns.|U|29478|
-T Natural Remedies|QID|10351|M|15.89,51.59|N|To Earthbind Galandria Nightbreeze.|
+T The Earthbinder|QID|10349|M|15.96,51.57|N|To Earthbinder Galandria Nightbreeze.|
+A Natural Remedies|QID|10351|M|15.96,51.57|N|From Earthbinder Galandria Nightbreeze.\n[color=FF0000]NOTE: [/color]There is a short cut-scene before this quest becomes available. Stand back and watch, or participate and make it end faster.|PRE|10349|
+C Natural Remedies|QID|10351|M|13.64,39.11|QO|1|N|Go stand in the green rune and use the seed. When it spawns, kill Goliathon using the same process as you did with the Raging Colossus.\n[color=FF0000]NOTE: [/color]You may have to clear the area first to avoid adds.|U|29478|
+T Natural Remedies|QID|10351|M|15.96,51.57|N|To Earthbind Galandria Nightbreeze.|
 C Demonic Contamination|QID|9372|M|18.5,55.3|N|Kill Hulking Helboars until you get the samples for this quest.|
 T The Mistress Revealed|QID|10287|M|26.37,60.32|N|To Magistrix Carinda.|
 A Arelion's Mistress|QID|9472|M|26.37,60.32|N|From Magistrix Carinda.|PRE|10287|
