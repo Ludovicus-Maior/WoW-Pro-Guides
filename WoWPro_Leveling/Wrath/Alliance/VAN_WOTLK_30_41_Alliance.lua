@@ -417,6 +417,7 @@ N Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|In a
 
 H The Salty Sailor Tavern|QID|577|M|38.0,3.1|Z|Stranglethorn Vale|N|Hearth, Run or fly to Booty Bay.|
 T Singing Blue Shards|QID|605|M|27.12,77.21|Z|Stranglethorn Vale|N|To Crank Fizzlebub. Skip follow-up for now.|
+T Bloodscalp Ears|QID|189|M|27.0,77.13|Z|Stranglethorn Vale|N|To Kebok. on the top floor.|
 T Hostile Takeover|QID|213|M|27.0,77.13|Z|Stranglethorn Vale|N|To Kebok. on the top floor.|
 T Water Elementals|QID|601|M|27.22,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 A Magical Analysis|QID|602|M|27.22,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz.|PRE|601|

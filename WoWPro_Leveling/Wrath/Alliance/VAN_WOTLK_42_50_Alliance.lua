@@ -83,7 +83,7 @@ T Raptor Mastery|QID|196|M|35.66,10.81|N|To Hemet Nesingwary.|
 N Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|This is our last trip to Nesingwary, so you want to have all 4 chapters complete now.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27|
 T Troll Witchery|QID|205|M|37.83,3.56|N|To Brother Nimetz.|
 
-H Booty Bay|ACTIVE|609|M|35.8,10.7|N|Hearth back to Booty Bay.|
+H The Salty Sailor Tavern|ACTIVE|609|M|35.8,10.7|N|Hearth back to Booty Bay.|
 T Venture Company Mining|QID|600|M|27.1,77.2|N|To Crank Fizzlebub.|
 T Zanzil's Secret|QID|621|M|27.1,77.2|N|To Crank Fizzlebub.|
 T Skullsplitter Tusks|QID|209|M|27.0,77.1|N|To Kebok.|
@@ -105,13 +105,10 @@ T Sweet Amber|QID|48|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
 A Sweet Amber|QID|49|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew|PRE|48|
 
 F Stormwind|QID|1449|M|56.56,52.65|Z|Westfall|N|At Thor.|
-h Stormwind City|QID|1449|M|52.62,65.67|Z|Stormwind City|N|Set your hearthstone here. And keep it here until otherwise stated in the guide.|
+h Stormwind City|QID|1449|M|60.45,75.16|Z|Stormwind City|N|Set your hearthstone here. And keep it here until otherwise stated in the guide.|
 B Truesilver Bar|QID|49|N|Make sure you buy or make yourself a Truesilver Bar soon.|L|6037|ITEM|6037|
-A To The Hinterlands|QID|1449|M|64.33,20.62|Z|Stormwind City|N|From Brohann Caskbelly.|PRE|1448|
-N Dungeon Interlude|QID|1449|N|If you want to do Uldaman now is a good time. Check this step off manually.|
-R Deeprun Tram|QID|1449|M|63.85,8.19|Z|Stormwind City|N|Run to the Deeprun tram.|
-R Tinker Town|QID|1449|N|Take the tram ride and then run into Ironforge.|
-F Southshore|QID|1449|M|55.50,47.76|Z|Ironforge|N|Flight to Hillsbrad Foothills.|
+A To The Hinterlands|QID|1449|M|69.43,40.50|Z|Stormwind City|N|From Brohann Caskbelly.|PRE|1448|
+F Southshore|QID|1449|M|71.02,72.65|Z|Stormwind City|N|Fly to Hillsbrad Foothills.|
 R The Hinterlands|QID|1449|M|86.10,30.06;90.01,25.00|CS|Z|Hillsbrad Foothills|N|Run behind Durnholde and follow the valley ahead.|
 
 A Troll Necklace Bounty|QID|2880|M|14.83,44.56|Z|The Hinterlands|N|From Fraggar Thundermantle.|
@@ -142,8 +139,8 @@ C Death From Below|QID|667|M|32.09,80.70|Z|Arathi Highlands|N|Run up the ramp an
 T Death From Below|QID|667|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen.|
 
 H Stormwind City|QID|49|M|PLAYER|N|Hearth or otherwise make your way back to Stormwind before time time runs out.|
-A Vital Supplies|QID|1477|M|37.52,81.66|Z|Stormwind City|N|From High Sorcerer Andromath, in the top of the Mages Tower, in the Mage Quarter.|
-F Darkshire|ACTIVE|1477|M|66.29,62.13|Z|Stormwind City|N|At Dungar Longdrink.|
+A Vital Supplies|QID|1477|M|48.79,87.49|Z|Stormwind City|N|From High Sorcerer Andromath, in the top of the Mages Tower, in the Mage Quarter.|
+F Darkshire|ACTIVE|1477|M|71.02,72.66|Z|Stormwind City|N|At Dungar Longdrink.|
 T Vital Supplies|QID|1477|M|75.8,46.2|Z|Duskwood|N|To Watchmaster Sorigal.|
 A Supplies for Nethergarde|QID|1395|M|75.8,46.2|Z|Duskwood|N|From Watchmaster Sorigal.|PRE|1477|
 F Nethergarde Keep|QID|49|M|77.50,44.30|Z|Duskwood|N|Fly to Nethergarde Keep.|
@@ -176,7 +173,6 @@ A Report Back to Fizzlebub|QID|1122|M|77.79,77.28|Z|Thousand Needles|N|From Krav
 R Tanaris|ACTIVE|1122|M|75.5,97.75|Z|Thousand Needles|N|Run south to Tanaris.|
 
 r Sell, Restock, Repair|QID|2872|M|51.46,28.82|Z|Tanaris|N|Headed out for a bit, be prepared.|
-l If you find...|AVAILABLE|351|L|8623|N|OOX-17/TN is a reletavely rare zone Drop, if you find it accept the quest.|
 A Pirate Hats Ahoy!|QID|8365|M|66.56,22.26|Z|Tanaris|N|From Haughty Modiste.|
 A WANTED: Caliph Scorpidsting|QID|2781|M|66.81,22.30|Z|Tanaris|N|From Wanted Poster.|
 A WANTED: Andre Firebeard|QID|2875|M|66.81,22.30|Z|Tanaris|N|From Wanted Poster.|
@@ -196,7 +192,7 @@ K Caliph Scorpidsting|ACTIVE|2781|QO|1|M|61.27,36.33|Z|Tanaris|T|Caliph Scorpids
 C Sweet Amber|QID|49|M|65.74,36.73|Z|Tanaris|QO|2|N|Click on the Sack of Corn.|
 C More Wastewander Justice|QID|1691|M|64.50,37.97|Z|Tanaris|US|N|Finish killing the Wastewanders.|
 
-R Lost Rigger Cove|ACTIVE|8366|M|68,41|Z|Tanaris|N|Go through the tunnel to find the cove.|
+R Lost Rigger Cove|ACTIVE|8366|M|68.66,41.51|Z|Tanaris|N|Go through the tunnel to find the cove.|
 C Pirate Hats Ahoy!|QID|8365|M|70.4,42.7|Z|Tanaris|S|N|Collect Pirate Hats off the Southsea you kill.|
 C Southsea Shakedown|QID|8366|M|73.00,47.00|Z|Tanaris|S|N|Kill the Southsea NPCs.|
 K Andre Firebeard|ACTIVE|2875|QO|1|M|73.37,47.10|Z|Tanaris|T|Andre Firebeard|N|Kill Andre Firebeard and take his head.|
@@ -205,7 +201,7 @@ C Southsea Shakedown|QID|8366|M|73.00,47.00|Z|Tanaris|US|N|Finish killing the So
 C Pirate Hats Ahoy!|QID|8365|M|70.4,42.7|Z|Tanaris|US|N|Finish collecting the Pirate hats Pirate Hats.|
 
 R Steamwheedle Port|ACTIVE|8366|M|67.1,23.9|Z|Tanaris|N|Ride North to Steamwheedle Port.|
-A Ship Schedules|QID|2876|U|9250|N|Right-click the Ship Schedules to get this quest if you have the item (it can be in a Pirate Footlocker).|
+A Ship Schedules|QID|2876|U|9250|O|N|Right-click the Ship Schedules to get this quest if you have the item (it can be in a Pirate Footlocker).|
 T Ship Schedules|QID|2876|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
 T Southsea Shakedown|QID|8366|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
 T WANTED: Andre Firebeard|QID|2875|M|67.06,23.89|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
@@ -218,9 +214,9 @@ R Gadgetzan|ACTIVE|1691|M|52.5,28.5|Z|Tanaris|N|Ride west to Gadgetzan. When you
 T More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 T WANTED: Caliph Scorpidsting|QID|2781|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 H Stormwind City|QID|49|M|PLAYER|Z|Tanaris|N|Hearth back to Stormwind. You didn't set it here right? If you did then make it back the old fashioned way.|
-r Repair, Restock, Train|QID|49|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get that truesilver bar, we need it as soon as we leave.|
+r Repair, Restock, Train|QID|49|M|64.00,68.46|Z|Stormwind City|N|Take care of your big city stuff, be sure to get that truesilver bar, we need it as soon as we leave.|
 B Truesilver Bar|QID|49|N|You will also need a Truesilver Bar.|L|6037|ITEM|6037|
-F Sentinel Hill|QID|49|M|66.2,62.4|Z|Stormwind City|N|Fly to Sentinel Hill in Westfall.|
+F Sentinel Hill|QID|49|M|71.01,72.63|Z|Stormwind City|N|Fly to Sentinel Hill in Westfall.|
 R Sweet Amber|QID|49|M|52.56,72.21;44.6,80.2|CS|Z|Westfall|N|Toward the mountain behind Deadmines.|
 T Sweet Amber|QID|49|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
 A Sweet Amber|QID|50|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew|PRE|49|
