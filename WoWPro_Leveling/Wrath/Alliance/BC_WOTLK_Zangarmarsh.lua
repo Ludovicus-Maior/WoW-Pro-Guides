@@ -243,7 +243,7 @@ T Fertile Spores|QID|9806|M|19.2,49.4|N|To Gshaff.|
 A Now That We're Still Friends...|QID|9727|M|19.54,50.04|N|From Gzhun'tt.|
 C Now That We're Friends...|N|Kill Bloodscale Slavedrivers and Enchantresses needed for this quest.|M|26.00,36.0|QID|9727|
 T Now That We're Still Friends...|QID|9727|M|19.54,50.04|N|To Gzhun'tt.|
-A Fhwoor Smash!|QID|9729|M|19.78,50.841|N|From Fhwoor.  This is an annoying escort quest, but needed to complete the "Mysteries of Zangarmarash".|LVL|63|
+A Fhwoor Smash!|QID|9729|M|19.78,50.841|N|From Fhwoor.  This is an annoying escort quest, but needed to complete the "Mysteries of Zangarmarash".|LVL|63|REP|Sporeggar;970;friendly|
 K Ssslith|ACTIVE|9729|M|25.6,51.8|N|Accompany Fhwoor, killing Naga along the way for [Now That We're Still Friends...]. Kill Ssslith when he attacks.|QO|1|
 T Fhwoor Smash!|QID|9729|M|19.54,50.04|N|To Gzhun'tt.|
 T Stealing Back the Mushrooms|M|23.30,66.2|QID|9709|N|To Watcher Leesa'oh.|
