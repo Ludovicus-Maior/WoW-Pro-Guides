@@ -194,13 +194,13 @@ C Zeth'Gor Must Burn!|QID|10792|M|69.93,69.57|QO|2|N|Use the torch at the Easter
 C Zeth'Gor Must Burn!|QID|10792|M|69.05,73.37|QO|4|N|Use the torch at the Stable where you killed the Worg Master.|U|31346|NC|
 C Zeth'Gor Must Burn!|QID|10792|M|67.41,77.05|QO|3|N|Use the torch at the Western Hovel.|U|31346|NC|
 C Zeth'Gor Must Burn!|QID|10792|M|68.75,76.53|QO|1|N|Use the torch at the Barracks.|U|31346|NC|
-C The Eyes of Grillok|QID|10813|N|Target an Eye of Grillok and use Zezzak's Shard on it. Then get the hell out of there back to Spinebreaker. The quest will complete after you stand next to the cauldron for a few seconds.|T|Eye of Grillok|U|31463|
+C The Eyes of Grillok|QID|10813|N|Target an Eye of Grillok and use Zezzak's Shard on it. Get the heck out of there back to Spinebreaker. The quest will complete after you stand next to the cauldron for a few seconds.|T|Eye of Grillok|U|31463|
 T The Eyes of Grillok|QID|10813|M|61.66,81.86|N|To Zezzak.|
 A Grillok "Darkeye"|QID|10834|M|61.66,81.86|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Zezzak.|PRE|10813|
 T Bloody Vengeance|QID|10250|M|61.74,81.79|N|To Althen the Historian.|
 A Honor the Fallen|QID|10258|M|61.74,81.79|N|From Althen the Historian.|PRE|10250|
 T Zeth'Gor Must Burn!|QID|10792|M|61.21,81.32|N|To Captain Darkhowl.|
-R Spinebreaker Pass|ACTIVE|10294|M|71.15,67.41|QO|1|N|Leave Expedition and and make your way northeast around Zeth'gor.|
+R Spinebreaker Pass|ACTIVE|10294|M|71.43,67.32|QO|1|N|Leave Expedition and make your way northeast around Zeth'gor.|
 R Void Ridge|ACTIVE|10294|M|75.04,66.40|QO|1|N|Head to Void Ridge on the other side of the hill.|
 C Void Ridge|QID|10294|M|76.60,64.82|L|29161 40|ITEM|29161|N|Vacillating and Collapsing Voidwalkers\n[color=FF0000]NOTE: [/color]Collapsing Voidwalkers channel a self destruct when under 10%, if you kill them they explode anyway, so run away once you see the emote.\nVascillating Voidwalkers absorb the first type of spell you throw at them and gain resistance to that school for the duration of the fight. Throw something you don't normally use at them first.|
 H Thrallmar|ACTIVE|10238|M|56.69,37.50|
@@ -252,43 +252,48 @@ A Keep Thornfang Hill Clear!|QID|10159|M|15.67,52.15|N|From Mahuram Stouthoof.\n
 A The Cenarion Expedition|QID|9912|M|16.04,52.15|N|From Amythiel Mistwalker.|
 l Crimson Crystal Shard|AVAILABLE|10134|M|15.57,41.17|L|29476|ITEM|29476|N|Raging Colossus|S|
 A Crimson Crystal Clue|QID|10134|M|PLAYER|N|Click on the Crimson Crystal Shard to accept the quest.|U|29476|O|
-K Colossal Menace|ACTIVE|10132|M|15.57,41.17|QO|1||ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nAs the Raging Colossus gets low on health, it'll split into smaller Shardlings.|
+K Colossal Menace|ACTIVE|10132|M|15.57,41.17|QO|1||ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nThe Raging Colossus will shrink size and spawn a smaller Shardling with every 25% drop in health. Stay focused on killing the Colossus.\n[color=FF0000]NOTE: [/color]Be aware of your surroundings and avoid adds.|
 l Crimson Crystal Shard|AVAILABLE|10134|M|15.57,41.17|L|29476|ITEM|29476|N|Raging Colossus|US|
 T Colossal Menace|QID|10132|M|15.62,52.04|N|To Tola'thion.|
 T Crimson Crystal Clue|QID|10134|M|15.62,52.04|N|To Tola'thion.|
 A The Earthbinder|QID|10349|M|15.62,52.04|N|From Tola'thion.|PRE|10134|
-T The Earthbinder|QID|10349|M|15.89,51.59|N|To Earthbinder Galandria Nightbreeze.|
-A Natural Remedies|QID|10351|M|15.89,51.59|N|From Earthbinder Galandria Nightbreeze.|PRE|10349|
-C Natural Remedies|QID|10351|M|13.64,39.11|N|Go here, stand on the green rune and use the seed, then kill Goliathon when it spawns.|U|29478|
-T Natural Remedies|QID|10351|M|15.89,51.59|N|To Earthbind Galandria Nightbreeze.|
-C Demonic Contamination|QID|9372|M|18.5,55.3|N|Kill Hulking Helboars until you get the samples for this quest.|
+T The Earthbinder|QID|10349|M|15.96,51.57|N|To Earthbinder Galandria Nightbreeze.|
+A Natural Remedies|QID|10351|M|15.96,51.57|N|From Earthbinder Galandria Nightbreeze.\n[color=FF0000]NOTE: [/color]There is a short cut-scene before this quest becomes available. Stand back and watch, or participate and make it end faster.|PRE|10349|
+C Natural Remedies|QID|10351|M|13.64,39.11|QO|1|N|Go stand in the green rune and use the seed. When it spawns, kill Goliathon using the same process as you did with the Raging Colossus.\n[color=FF0000]NOTE: [/color]You may have to clear the area first to avoid adds.|U|29478|
+T Natural Remedies|QID|10351|M|15.96,51.57|N|To Earthbind Galandria Nightbreeze.|
+C Demonic Contamination|QID|9372|M|22.36,56.44|L|23336 6|ITEM|23336|N|Hulking Helboar|
 T The Mistress Revealed|QID|10287|M|26.37,60.32|N|To Magistrix Carinda.|
 A Arelion's Mistress|QID|9472|M|26.37,60.32|N|From Magistrix Carinda.|PRE|10287|
 T Trueflight Arrows|QID|9381|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
-C The Cleansing Must Be Stopped|QID|9370|M|39,40|N|Clear around the Altar of Aggonar. HP/Mana up, then use the Signaling Gem. Of the 3 mobs that come at you, you only have to kill the Draenei Anchorite.|U|23358|
+K The Cleansing Must Be Stopped|ACTIVE|9370|M|39.04,40.34|QO|1|N|Once you've cleared around the Altar of Aggonar, use the Signaling Gem. Of the 3 mobs that spawn, focus on killing the Draenei Anchorite first.\n[color=FF0000]NOTE: [/color]They don't appear instantaneously, it takes a few moments for them to appear1 running towards you.|T|Draenei Anchorite|U|23358|
 
-H Falcon Watch|ACTIVE|9370|U|6948|N|Hearth to Falcon Watch.|
+H Falcon Watch|ACTIVE|9370|M|27.25,57.49|Z|1944|
 T The Cleansing Must Be Stopped|QID|9370|M|26.99,59.54|N|To Ryathen the Somber.|
-C Marking the Path|NC|QID|9391|QO|1|M|30,61|N|Light the Western Beacon. Mobs in the area aggro when you light the beacon, so kill them first.|
-C Marking the Path|NC|QID|9391|QO|2|M|34,60|N|Light the Central Beacon. Same deal as before with the mobs.|
-C Marking the Path|NC|QID|9391|QO|3|M|36.14,65.38|N|Light the final beacon, the Southern one.|
-T Honor the Fallen|QID|10258|M|57,77|N|To Commander Hogarth.|
-T Void Ridge|QID|10294|M|61.87,81.53|N|To Ogath the Mad.|
+C Western Beacon|QID|9391|M|30.03,60.58|QO|1|N|Clear all of the Stonescythe mobs in the surrounding area as they will aggro when you light the beacon with the Lit Torch.|U|23480|NC|
+C Central Beacon|QID|9391|M|34.07,60.01|QO|2|N|Rinse and repeat.|U|23480|NC|
+C Southern Beacon|QID|9391|M|36.12,65.37|QO|3|N|One last time.|U|23480|NC|
+T Honor the Fallen|QID|10258|M|56.92,77.37|N|To Commander Hogarth inside the tower at the NE corner of Expedition Armory.|
+R Spinebreaker Post|ACTIVE|10294|M|61.12,81.09|Z|1944|
+T Void Ridge|QID|10294|M|61.87,81.53|N|To Ogath the Mad at Spinebreaker Post.|
 A From the Abyss|QID|10295|M|61.87,81.53|N|From Ogath the Mad.|PRE|10294|
-C Grillok "Darkeye"|QID|10834|M|66,71|ELITE|N|[color=00FFFF]Group of # suggested or level up to solo[/color]\nHe's at the cave in front of Zeth'Gor. Kill his guards, if you use a ranged pull he won't add. Kill Grillok "Darkeye".|
-C From the Abyss|QID|10295|M|81,79|N|Head east to Void Ridge. Then head south to  the two big violet crystals. HP/Mana up, the quest NPC spawns with two adds that heal him, but die fast, so kill them first. Use the Rift generator to summon him.|U|29226|
+K Grillok "Darkeye"|ACTIVE|10834|M|66,71|L|31529|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nHe's inside the cave near the Boiling Cauldron. After clearing ALL of the mobs around the entrance, try and pull his guards from the entrance. When everyone is dead, kill Grillok "Darkeye".|
+R Spinebreaker Pass|ACTIVE|10295|M|71.43,67.32|QO|1|N|Leave the cave and make your way northeast around Zeth'gor.|
+R Void Ridge|ACTIVE|10295|M|75.04,66.40|QO|1|N|Head to Void Ridge on the other side of the hill.|
+K From the Abyss|QID|10295|M|80.79,78.71|L|29162|N|Head south to the two big violet crystals and Use the Rift generator to summon Void Baron Galaxis.\n[color=FF0000]NOTE: [/color]The two adds that spawn with him are healers, so kill them first.|U|29226|
+R Spinebreaker Pass|ACTIVE|10834|M|74.43,66.68|
+R Spinebreaker Post|ACTIVE|10834|M|61.12,81.09|Z|1944|
 T Grillok "Darkeye"|QID|10834|M|61.66,81.86|N|To Zezzak.|
 T From the Abyss|QID|10295|M|61.87,81.53|N|To Ogath the Mad.|
-F Falcon Watch|ACTIVE|9391|M|61.64,81.21|N|Fly to Falcon Watch.|
-T Marking the Path|QID|9391|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
-R Den of Haal'esh|ACTIVE|9396|M|26,71|N|It's to the south.|
+F Falcon Watch|ACTIVE|9391|M|61.64,81.21|
+T Marking the Path|QID|9391|M|28.49,60.24|N|To Ranger Captain Venn'ren.\n[color=FF0000]NOTE: [/color]Remember, you have to use the Orb of Translocation to reach him.|
+C Magic of the Arakkoa|QID|9396|M|25.5,70.5|L|23483 4|ITEM|23483|N|Haal'eshi Talonguards and Windwalkers|S|
+R Den of Haal'esh|ACTIVE|9396|M|26.18,71.22|N|It's to the south.|
 C Birds of a Feather|QID|9397|M|25.5,71.5|U|23485|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|S|
-C Magic of the Arakkoa|QID|9396|M|25.5,70.5|N|Kill Haal'eshi Talonguards and Windwalkers until you have 4 Haal'esh Scrolls.|S|
 K Avruu|ACTIVE|9396|M|26,76|L|23580|N|Kill and loot Avruu. Careful, he has a very quick respawn, so move after you kill him.|
 A Avruu's Orb|QID|9418|M|PLAYER|O|U|23580|N|From Avruu's Orb.|
 T Avruu's Orb|QID|9418|M|29,81|N|Click on the Haal'eshi Altar, Aeranas will spawn. Get him down to about 50%, then turn the quest in to it.|
 C Birds of a Feather|QID|9397|M|25.5,71.5|U|23485|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|US|
-C Magic of the Arakkoa|QID|9396|M|25.5,70.5|N|Kill Haal'eshi Talonguards and Windwalkers until you have 4 Haal'esh Scrolls.|US|
+C Magic of the Arakkoa|QID|9396|M|25.5,70.5|L|23483 4|ITEM|23483|N|Haal'eshi Talonguards and Windwalkers|US|
 N READ THIS|QID|9375|N|Time for an escort. Let the NPC go first, to make sure she helps on everything. She can solo a birdman, so let her if you need to eat or drink. There's an ambush, but it's not too hard.|
 A The Road to Falcon Watch|QID|9375|M|24.54,76.04|N|From Wounded Blood Elf Pilgrim. She is on the bottom level.|
 C The Road to Falcon Watch|QID|9375|M|24.5,76.0|N|Follow the Wounded Blood Elf Pilgrim, keep her safe.|
