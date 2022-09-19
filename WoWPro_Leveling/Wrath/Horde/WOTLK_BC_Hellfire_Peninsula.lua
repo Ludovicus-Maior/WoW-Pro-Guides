@@ -286,14 +286,14 @@ T Grillok "Darkeye"|QID|10834|M|61.66,81.86|N|To Zezzak.|
 T From the Abyss|QID|10295|M|61.87,81.53|N|To Ogath the Mad.|
 F Falcon Watch|ACTIVE|9391|M|61.64,81.21|
 T Marking the Path|QID|9391|M|28.49,60.24|N|To Ranger Captain Venn'ren.\n[color=FF0000]NOTE: [/color]Remember, you have to use the Orb of Translocation to reach him.|
-C Magic of the Arakkoa|QID|9396|M|25.5,70.5|L|23483 4|ITEM|23483N|Haal'eshi Talonguards and Windwalkers|S|
+C Magic of the Arakkoa|QID|9396|M|25.5,70.5|L|23483 4|ITEM|23483|N|Haal'eshi Talonguards and Windwalkers|S|
 R Den of Haal'esh|ACTIVE|9396|M|26.18,71.22|N|It's to the south.|
 C Birds of a Feather|QID|9397|M|25.5,71.5|U|23485|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|S|
 K Avruu|ACTIVE|9396|M|26,76|L|23580|N|Kill and loot Avruu. Careful, he has a very quick respawn, so move after you kill him.|
 A Avruu's Orb|QID|9418|M|PLAYER|O|U|23580|N|From Avruu's Orb.|
 T Avruu's Orb|QID|9418|M|29,81|N|Click on the Haal'eshi Altar, Aeranas will spawn. Get him down to about 50%, then turn the quest in to it.|
 C Birds of a Feather|QID|9397|M|25.5,71.5|U|23485|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|US|
-C Magic of the Arakkoa|QID|9396|M|25.5,70.5|N|Kill Haal'eshi Talonguards and Windwalkers until you have 4 Haal'esh Scrolls.|US|
+C Magic of the Arakkoa|QID|9396|M|25.5,70.5|L|23483 4|ITEM|23483|N|Haal'eshi Talonguards and Windwalkers|US|
 N READ THIS|QID|9375|N|Time for an escort. Let the NPC go first, to make sure she helps on everything. She can solo a birdman, so let her if you need to eat or drink. There's an ambush, but it's not too hard.|
 A The Road to Falcon Watch|QID|9375|M|24.54,76.04|N|From Wounded Blood Elf Pilgrim. She is on the bottom level.|
 C The Road to Falcon Watch|QID|9375|M|24.5,76.0|N|Follow the Wounded Blood Elf Pilgrim, keep her safe.|
