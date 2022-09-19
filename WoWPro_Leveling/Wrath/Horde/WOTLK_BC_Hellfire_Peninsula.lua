@@ -285,10 +285,10 @@ R Spinebreaker Post|ACTIVE|10834|M|61.12,81.09|Z|1944|
 T Grillok "Darkeye"|QID|10834|M|61.66,81.86|N|To Zezzak.|
 T From the Abyss|QID|10295|M|61.87,81.53|N|To Ogath the Mad.|
 F Falcon Watch|ACTIVE|9391|M|61.64,81.21|
-T Marking the Path|QID|9391|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
-R Den of Haal'esh|ACTIVE|9396|M|26,71|N|It's to the south.|
+T Marking the Path|QID|9391|M|28.49,60.24|N|To Ranger Captain Venn'ren.\n[color=FF0000]NOTE: [/color]Remember, you have to use the Orb of Translocation to reach him.|
+C Magic of the Arakkoa|QID|9396|M|25.5,70.5|L|23483 4|ITEM|23483N|Haal'eshi Talonguards and Windwalkers|S|
+R Den of Haal'esh|ACTIVE|9396|M|26.18,71.22|N|It's to the south.|
 C Birds of a Feather|QID|9397|M|25.5,71.5|U|23485|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|S|
-C Magic of the Arakkoa|QID|9396|M|25.5,70.5|N|Kill Haal'eshi Talonguards and Windwalkers until you have 4 Haal'esh Scrolls.|S|
 K Avruu|ACTIVE|9396|M|26,76|L|23580|N|Kill and loot Avruu. Careful, he has a very quick respawn, so move after you kill him.|
 A Avruu's Orb|QID|9418|M|PLAYER|O|U|23580|N|From Avruu's Orb.|
 T Avruu's Orb|QID|9418|M|29,81|N|Click on the Haal'eshi Altar, Aeranas will spawn. Get him down to about 50%, then turn the quest in to it.|
