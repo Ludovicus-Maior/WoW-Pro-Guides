@@ -7,6 +7,7 @@ local DefineZone1 = WoWPro.DefineZone1 -- New Classic style names
 local DefineZone2 = WoWPro.DefineZone2 -- New Classic BC
 local DefineZone3 = WoWPro.DefineZone3 -- New Classic Wrath
 local DefineZone9 = WoWPro.DefineZone9 -- New 9.0 zones names
+local DefineZone10 = WoWPro.DefineZone10 -- New 10.0 zones names
 
 local UIMapType = _G.Enum.UIMapType
 DefineZone1(0947, "Azeroth", UIMapType.World, 0000, nil, 1414, 1415, 1459, 1460, 1461)
@@ -2033,3 +2034,6 @@ DefineZone9(2059, "Resonant Peaks", UIMapType.Continent, 2046, nil)
 DefineZone9(2061, "Ephemeral Plains@Sepulcher of the First Ones!Dungeon", UIMapType.Dungeon, 1970, 427)
 DefineZone9(2066, "Catalyst Wards", UIMapType.Micro, 1970, nil)
 DefineZone9(2070, "Tirisfal Glades", UIMapType.Zone, 0013, nil) -- Collided {[18]=true,[2070]=true,count=2}
+
+DefineZone10(1978, "The Dragon Isles", UIMapType.Continent, 0946, nil, 2022)
+DefineZone10(2022, "The Waking Shores!Dragon Isles", UIMapType.Zone, 1978, nil)

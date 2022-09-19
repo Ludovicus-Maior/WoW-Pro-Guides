@@ -68,6 +68,16 @@ function WoWPro.DefineZone9(mapId, zone, mapType, parent_map, group_id, ... )
     WoWPro.Zone2MapID[zone] = mapId
 end
 
+function WoWPro.DefineZone10(mapId, zone, mapType, parent_map, group_id, ... )
+    if not WoWPro.RETAIL then return end
+    WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
+    if WoWPro.Zone2MapID[zone] then
+        WoWPro:dbp("DupCheck(): DefineZone9(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        return
+    end
+    WoWPro.Zone2MapID[zone] = mapId
+end
+
 function WoWPro.GetZoneText()
     local _, _, mapId = WoWPro:GetPlayerZonePosition()
     if WoWPro.MapInfo[mapId] then
