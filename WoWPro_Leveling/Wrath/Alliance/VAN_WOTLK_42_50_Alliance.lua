@@ -327,7 +327,7 @@ T Thalanaar Delivery|QID|4281|M|89.64,46.57|Z|Feralas|N|To Falfindel Waywarder.|
 F Gadgetzan|ACTIVE|2941|N|Fly to Gadgetzan.|M|89.50,45.85|Z|Feralas|
 T The Borrower|QID|2941|M|52.36,26.91|Z|Tanaris|N|To Curgle Cranklehop.|
 A The Super Snapper FX|QID|2944|M|52.36,26.91|Z|Tanaris|N|From Curgle Cranklehop.|PRE|2941|
-A The Super Egg-O-Matic|QID|2741|M|52.38,26.97|Z|Tanaris|U|8564|N|Click the Egg-O-Matic. Complete the quest, open the egg crate, turn the quest in corresponding to the egg you got.|
+A The Super Egg-O-Matic|QID|2741|M|52.38,26.97|Z|Tanaris|N|Click the Egg-O-Matic. Complete the quest, open the egg crate, turn the quest in corresponding to the egg you got.|
 r Sell junk, repair, restock|QID|3520|N|Sell junk, repair, restock.|
 
 K Roc Gizzard|ACTIVE|1452|QO|1|M|45.80,39.60|Z|Tanaris|S|N|Kill Fire Rocs until you get their Gizzards.|
@@ -368,10 +368,9 @@ A Cortello's Riddle|QID|625|M|22.87,48.19|Z|Swamp of Sorrows|N|From A Soggy Scro
 R Deadwind Pass|ACTIVE|625|M|60.00,41.20|Z|Deadwind Pass|N|Run to Duskwood through Deadwind Pass.|
 
 F Stormwind|QID|1452|M|77.48,44.29|Z|Duskwood|N|Fly to Stormwind.|
-r Repair, Restock, Train|QID|1452|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get those elixers, we will need them on this next leg.|
+r Repair, Restock, Train|QID|1452|M|63.94,68.70|Z|Stormwind City|N|Take care of your big city stuff, be sure to get those elixers, we will need them on this next leg.|
 B Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude. You need these on you now.|L|3825 2|
-R Deeprun Tram|QID|1452|M|63.85,8.19|Z|Stormwind City|N|Run to the Deeprun tram.|
-R Tinker Town|QID|1452|N|Take the tram ride and then run into Ironforge.|
+F Ironforge|ACTIVE|625|M|71.02,72.66|Z|Stormwind City|N|At Dungar Longdrink.|
 A The Brassbolts Brothers|QID|2769|M|67.91,46.07|Z|Ironforge|N|From Klockmort Spannerspan.|
 A Passing the Burden|QID|3448|M|77.53,11.81|Z|Ironforge|N|From Historian Karnik.|
 T Passing the Burden|QID|3448|M|30.98,4.80|Z|Ironforge|N|To Tymor. Skip Follow-up.|
@@ -381,12 +380,11 @@ F Menethil Harbor|QID|1000|ACTIVE|3841^625|M|55.50,47.75|Z|Ironforge|N|Fly to We
 b Theramore Isle|QID|1000|ACTIVE|3841^625|M|4.99,63.47|Z|Wetlands|N|Take the boat to Theramore|
 R The Quagmire|QID|1000|ACTIVE|625^2861|M|55.69,50.16;46.06,57.09|CC|Z|Dustwallow Marsh|N|It's faster to swim, opening up at waypoint.|
 T Tabetha's Task|QID|2861|LEAD|2846|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|
-A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tabetha.|
 T Cortello's Riddle|QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
 A Cortello's Riddle|QID|626|M|31.10,66.13|Z|Dustwallow Marsh|PRE|625|
 
 f Mudsprocket|QID|3841|M|42.83,72.42|Z|Dustwallow Marsh|N|Get the flight path at Dyslix Silvergrub.|
-F Gadgetzan|ACTIVE|3841|Z|Dustwallow Marsh|N|Fly back to Tanaris|
+F Gadgetzan|ACTIVE|3841|M|42.83,72.42|Z|Dustwallow Marsh|N|Fly back to Tanaris|
 A The Thirsty Goblin|QID|2605|M|51.80,28.65|Z|Tanaris|N|From Marin Noggenfogger.|
 A Thistleshrub Valley|QID|3362|M|51.57,26.76|Z|Tanaris|N|From Tran'Rek|
 A Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
@@ -405,7 +403,6 @@ T Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|To Senior Survey Fizzle
 R Thousand Needles|ACTIVE|3841|M|51.00,19.00|Z|Tanaris|N|Go north to Thousand Needles.|
 R Mirage Raceway|ACTIVE|3841|M|78.3,74.7|Z|Thousand Needles|N|Continue north to the Mirage Raceway.|
 T The Brassbolts Brothers|QID|2769|M|78.14,77.13|Z|Thousand Needles|N|To Wizzle Brassbolts.|
-A Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Wizzle Brassbolts.|
 T An Orphan Looking For a Home|QID|3841|M|78.35,74.72|Z|Thousand Needles|N|To Quentin.|
 A A Short Incubation|QID|3842|M|78.35,74.72|Z|Thousand Needles|N|From Quentin.|PRE|3841|
 T A Short Incubation|QID|3842|M|78.35,74.72|Z|Thousand Needles|N|To Quentin.|
@@ -427,12 +424,12 @@ R The Altar of Zul|ACTIVE|2989|M|49,68|Z|The Hinterlands|N|Run to the Alter of Z
 C The Altar of Zul|QID|2989|M|49.00,68.00|Z|The Hinterlands|NC|N|Go to the altar to get the quest complete message. (stealth, invis, etc, it all works)|
 C Green Sludge|QID|2877|QO|1|M|46.00,40.00|Z|The Hinterlands|N|Kill 10 Green Sludges at this location.|
 C Skulk Rock Clean-up|QID|2877|QO|2|M|56.00,44.00|Z|The Hinterlands|N|Go here and kill the Jade Oozes needed for the quest.|
-A Find OOX-09/HL!|QID|485|U|8704|N|If you found the OOX-09/HL Distress Beacon, right-click it to start this quest.|
+A Find OOX-09/HL!|QID|485|U|8704|O|N|If you found the OOX-09/HL Distress Beacon, right-click it to start this quest.|
 t Find OOX-09/HL!|QID|485|M|49.35,37.65|Z|The Hinterlands|N|To OOX-09/HL.|
 A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|The Hinterlands|N|From OOX-09/HL.|PRE|485|
 C Rescue OOX-09/HL!|QID|836|N|Let the chicken lead the way, so he will stop when agro. It can be very difficult to solo. Ask the zone if anyone wants to do it with you. There are 2 preset ambushes. Abandon if you are having too many difficulties.|
 
-R The Overlook Cliffs|QID|1000|ACTIVE|2944^626^580|M|70,63|Z|The Hinterlands|N|Run southeast to the Overlook Cliffs and follow the path down to the shore. You can usually spot Gammerita while still on the path, so you know which way to go at the bottom.|
+R The Overlook Cliffs|QID|1000|ACTIVE|2944^626^580|M|70.79,64.00|Z|The Hinterlands|N|Run southeast to the Overlook Cliffs and follow the path down to the shore. You can usually spot Gammerita while still on the path, so you know which way to go at the bottom.|
 C Whiskey Slim's Lost Grog|QID|580|M|82,49;75,67|Z|The Hinterlands|CN|NC|S|N|Collect the Pupellyverbos Port that is scattered along the shore, they are tiny blue bottles, hard to see, may need to crank graphics down to see clearly.|
 T Cortello's Riddle|QID|626|M|80.81,46.79|Z|The Hinterlands|N|Dive down under the waterfall, and find Cortello's Chest and collect your prize.|
 K Gammerita|ACTIVE|2944|M|82,49;75,67|Z|The Hinterlands|CN|U|9328|L|9330|T|Gammerita|N|Search the coast for an aggressive-flagged turtle named Gammerita. Take her picture with the Super Snapper FX. The camera will cause her to charge, but you can run, vanish, etc, don't have to kill her.(Picture of her dead works, if she is dead when you arrive.)|
@@ -448,9 +445,9 @@ T Becoming a Parent|QID|4298|M|14.15,43.62|Z|The Hinterlands|N|To Agnar Beastame
 T The Altar of Zul|QID|2989|M|9.75,44.47|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
 A Thadius Grimshade|QID|2990|M|9.75,44.47|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|2989|
 
-F Stormwind City|QID|2944|M|11.07,46.15|Z|The Hinterlands|N|Fly to Menethil Harbor.|
-b Darkshore|QID|2944|M|4.59,57.15|Z|Wetlands|N|Take Boat to Darkshore.|
-F Rut'theran Village|ACTIVE|2944|N|Travel to Rut'theran Village (Darnassus).|
+F Stormwind|QID|2944|M|11.07,46.15|Z|The Hinterlands|N|Fly to Stormwind.|
+b Darkshore|QID|2944|M|22.15,56.08|Z|Stormwind City|N|Take Boat to Darkshore.|
+F Rut'theran Village|ACTIVE|2944|M|36.35,45.59|Z|Darkshore|N|Travel to Rut'theran Village (Darnassus).|
 T Favored of Elune?|QID|3661|M|55.49,92.05|Z|Teldrassil|N|To Erelas Ambersky.|
 T The Super Snapper FX|QID|2944|M|55.41,92.23|Z|Teldrassil|N|To Daryn Lightwind, upstairs.|
 A Return to Troyas|QID|2943|M|55.41,92.23|Z|Teldrassil|N|From Daryn Lightwind.|PRE|2944|

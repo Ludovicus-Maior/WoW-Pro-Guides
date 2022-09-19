@@ -70,7 +70,7 @@ T Galen's Escape|QID|1393|M|47.82,39.76|Z|1435|N|To the strongbox at Galen's bur
 R The Harborage|ACTIVE|1389|M|26.91,33.47|Z|1435|
 T Draenethyst Crystals|QID|1389|M|25.97,31.40|Z|1435|N|To Magtoor.|
 R Pool of Tears|ACTIVE|1424|M|62.55,46.13|Z|1435|N|Ride South-east|
-C Pool of Tears|QID|1424|M|69.66,46.41|Z|1435|L|6175 10|N|You'll find the Atal'ai Artifacts all around Pool of Tears. Some may be easier to see than others.\n[color=FF0000]NOTE: [/color]Underwater breathing is your best friend right now.\n\nIf you're having trouble finding them, decreasing [color=FFFF00]Ground Clutter[/color] to 1 (in [color=FFFF00]Graphics[/color] under [color=FFFF00]System[/color] in the [color=FFFF00]Option[/color] window) may help.|
+C Pool of Tears|QID|1424|M|69.66,46.41|Z|1435|L|6175 5|N|You'll find the Atal'ai Artifacts all around Pool of Tears. Some may be easier to see than others.\n[color=FF0000]NOTE: [/color]Underwater breathing is your best friend right now.\n\nIf you're having trouble finding them, decreasing [color=FFFF00]Ground Clutter[/color] to 1 (in [color=FFFF00]Graphics[/color] under [color=FFFF00]System[/color] in the [color=FFFF00]Option[/color] window) may help.|
 R Misty Reed Post|ACTIVE|698|M|81.18,78.57|Z|1435|N|Work way in this direction.|S|
 C Lack of Surplus|QID|698|M|84.53,34.73|Z|1435|L|6169 8|ITEM|6169|N|Sawtooth Crocolisk|US|
 R Misty Reed Post|ACTIVE|698|M|81.18,78.57|Z|1435|N|Keep an eye out for the Scalebane dragonkin, they may not appreciate you cutting through their area.|US|
