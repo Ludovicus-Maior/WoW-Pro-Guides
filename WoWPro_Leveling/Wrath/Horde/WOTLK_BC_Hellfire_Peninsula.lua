@@ -67,13 +67,13 @@ A Preparing the Salve|QID|9345|M|60.93,81.66|N|From Grelag.|
 A Make Them Listen|QID|10220|M|61.78,81.71|N|From Emissary Mordiba.|
 A The Warp Rifts|QID|10278|M|61.87,81.52|N|From Ogath the Mad.|
 A Wanted: Worg Master Kruush|QID|10809|M|61.22,80.59|N|From the Wanted Poster.|
-C Preparing the Salve|QID|9345|L|23205 12|N|Gather the Hellfire Spineleaf.\n[color=FF0000]NOTE: [/color]These may be quite spread out.|S|
+C Preparing the Salve|QID|9345|L|23205 12|N|Gather the Hellfire Spineleaf.\n[color=FF0000]NOTE: [/color]These may be quite spread out; grab them as you see them.|S|
 C Bleeding Hollow Blood|QID|10538|L|30425 12|ITEM|30425|N|Any Bleeding Hollow Orc|S|
 R Zeth'Gor|ACTIVE|10809|M|65.41,73.54|Z|1944|
-K Worg Master Kruush|ACTIVE|10809|M|68.16,73.36|L|31374|ITEM|31374|N|Worg Master Kruush.|T|Worg Master Kruush|
+K Worg Master Kruush|ACTIVE|10809|M|68.16,73.36|L|31374|N|He's in the Stables.|T|Worg Master Kruush|
 l Bleeding Hollow Blood|QID|10538|M|65,73|L|30425 12|ITEM|30425|N|Any Bleeding Hollow Orc|US|
 C Boiling Blood|QID|10538|M|65.21,71.36|L|30430 12|N|Clear around the cauldron and click on it. Several Cursed Scarabs will spawn, but if you back away, they won't agro and despawn after ~20 seconds (or kill them if you prefer).\nRinse and repeat until done.|
-C Preparing the Salve|QID|9345|M|65.45,78.72|L|23205 12|N|Finish gathering the Hellfire Spineleaf.\n[color=FF0000]NOTE: [/color]These may be quite spread out.|US|
+C Preparing the Salve|QID|9345|M|65.45,78.72|L|23205 12|N|Finish gathering the Hellfire Spineleaf.\n[color=FF0000]NOTE: [/color]These may be quite spread out; grab them as you see them.|US|
 T Wanted: Worg Master Kruush|QID|10809|M|61.22,81.33|N|To Captain Darkhowl.|
 A Zeth'Gor Must Burn!|QID|10792|M|61.22,81.33|N|From Captain Darkhowl.|
 T Preparing the Salve|QID|9345|M|60.93,81.66|N|To Grelag.|
@@ -98,6 +98,7 @@ R Thrallmar|ACTIVE|10390|M|55.02,35.96|
 T Forge Camp: Mageddon|QID|10390|M|55.02,35.96|N|To Nazgrel.|
 A Cannons of Rage|QID|10391|M|55.02,35.96|N|From Nazgrel.|PRE|10390|
 T Vile Plans|QID|10393|M|55.13,36.03|N|To Magister Bloodhawk.|
+* Burning Legion Missive|ACTIVE|-10393|AVAILABLE|-10393|N|You can safely destroy this item.|U|29590|
 K Fel Cannons|ACTIVE|10391|M|59,32|QO|1|N|Kill the Fel Cannons at Forge Camp: Rage.\n[color=FF0000]NOTE: [/color]If this area is busy, the ones at the other camps count as well.|
 T Cannons of Rage|QID|10391|M|55.02,35.96|N|To Nazgrel.|
 A Doorway to the Abyss|QID|10392|M|55.02,35.96|N|From Nazgrel.|PRE|10391|
