@@ -2036,4 +2036,5 @@ DefineZone9(2066, "Catalyst Wards", UIMapType.Micro, 1970, nil)
 DefineZone9(2070, "Tirisfal Glades", UIMapType.Zone, 0013, nil) -- Collided {[18]=true,[2070]=true,count=2}
 
 DefineZone10(1978, "The Dragon Isles", UIMapType.Continent, 0946, nil, 2022)
-DefineZone10(2022, "The Waking Shores!Dragon Isles", UIMapType.Zone, 1978, nil)
+DefineZone10(2022, "The Waking Shores!Dragon Isles#1978", UIMapType.Zone, 1978, nil)
+DefineZone10(2022, "The Waking Shores", UIMapType.Zone, 1978, nil)
