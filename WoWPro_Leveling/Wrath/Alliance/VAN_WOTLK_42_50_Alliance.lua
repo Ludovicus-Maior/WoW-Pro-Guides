@@ -514,19 +514,19 @@ C The Undermarket|QID|3385|M|34.74,51.94|Z|Searing Gorge|N|[color=ff8000]Elite:[
 T The Undermarket|QID|3385|M|40.99,74.93|Z|Searing Gorge|N|To Nilith Lokrav.|P|Tailoring;197;0+230;0|
 A The Undermarket|QID|3402|M|40.99,74.93|Z|Searing Gorge|N|From Nilith Lokrav.|P|Tailoring;197;0+230;0|PRE|3385|
 
-F Ironforge|QID|1469|M|37.94,30.85|Z|Searing Gorge|N|Fly to Ironforge.|
+F Ironforge|QID|1469|M|37.94,30.85|Z|Searing Gorge|N|Fly to Ironforge.|P|Cooking;185;0+225;0|
 A I Know A Guy...|QID|6612|M|60.10,36.45|Z|Ironforge|N|From Daryl Riknussun. This is the quest to unlock the master trainer.|P|Cooking;185;0+225;0|
 A Portents of Uldum|QID|2963|M|69.93,18.57|Z|Ironforge|N|From High Explorer Magellas.|PRE|2439|
 T Suntara Stones|QID|3368|M|71.83,15.53|Z|Ironforge|N|To Curator Thorius. He wanders back and forth. Skip follow-up.|
 T Portents of Uldum|QID|2963|M|77.53,11.82|Z|Ironforge|N|To Historian Karnik.|
 A Seeing What Happens|QID|2946|M|77.53,11.82|Z|Ironforge|N|From Historian Karnik.|PRE|2963|
+F Stormwind|QID|1469|M|55.76,47.99|Z|Ironforge|N|Take the flightpath to Stormwind.|P|Cooking;185;0+225;0|
+F Stormwind|QID|1469|M|37.94,30.85|Z|Searing Gorge|N|Take the flightpath to Stormwind.|
 
-R Deeprun Tram|QID|1469|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
-R Stormwind City|QID|1469|N|Take the tram ride and then run into Stormwind.|
-T Rhapsody's Tale|QID|1469|M|64.33,20.65|Z|Stormwind City|N|To Brohann Caskbelly. Skip follow-up unless you intend to do Sunken Temple.|
+T Rhapsody's Tale|QID|1469|M|69.44,40.54|Z|Stormwind City|N|To Brohann Caskbelly. Skip follow-up unless you intend to do Sunken Temple.|
 r City Stuff in stormwind|QID|580|N|Sell junk, repair, restock, train, auction, professions.|
 
-F Sentinel Hill|QID|53|M|66.28,62.16|Z|Stormwind City|N|At Dungar Longdrink.|
+F Sentinel Hill|QID|53|M|71.04,72.69|Z|Stormwind City|N|At Dungar Longdrink.|
 R Sweet Amber|QID|53|M|52.5,72.2;44.6,80.2|CS|Z|Westfall|N|Toward the mountain behind Deadmines.|
 T Sweet Amber|QID|53|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
 
@@ -552,10 +552,8 @@ C Fuel for the Zapping|QID|7721|M|42,37;49,54|CS|Z|Feralas|US|N|Finish collectin
 T Zapped Giants|QID|7003|M|44.81,43.42|Z|Feralas|N|To Zorbin Fandazzle.|
 T Fuel for the Zapping|QID|7721|M|44.81,43.42|Z|Feralas|N|To Zorbin Fandazzle.|
 
-C Improved Quality|QID|7733|M|52.2,31.6|Z|Feralas|N|Kill Yetis until you get the hides for this quest.|S|
-K Rage Scar Yetis|ACTIVE|7733|M|52,32|Z|Feralas|L|18969|N|Kill Yetis at this location until you get a Pristine Yeti Hide (follow the road there).|
-C Improved Quality|QID|7733|M|52.2,31.6|Z|Feralas|N|Kill Yetis until you get the hides for this quest.|US|
-A Pristine Yeti Hide|QID|7735|U|18969|N|Right-click the hide to start the quest.|
+C Improved Quality|QID|7733|M|52.2,31.6|Z|Feralas|N|Kill Yetis until you get the hides for this quest.|
+A Pristine Yeti Hide|QID|7735|U|18969|N|Right-click the hide to start the quest.|O|
 
 A The Giant Guardian|QID|2844|M|42.4,22.0|Z|Feralas|N|From Rockbiter.|
 C Byltan Essence|QID|2879|M|38.50,15.80|Z|Feralas|L|9258|NC|N|Click the Flame of Byltan to loot the Essence.|
@@ -571,7 +569,7 @@ A Wandering Shay|QID|2845|M|38.22,10.30|Z|Feralas|N|From Shay Leafrunner.|PRE|28
 l Loot Shay's bell|ACTIVE|2845|M|38.20,10.30|Z|Feralas|L|9189|N|Click on the chest beside Shay to get her bell.|
 C Wandering Shay|QID|2845|M|42,21|Z|Feralas|U|9189|N|This is a timed quest but easy. Run a bit ahead to the east and use the bell to have Shay run to you.\n\nThe bell has a cooldown, but Shay will continue to run to you until actually reaching you (and then you will have to ring the bell again), so keep running.\n\nThe easiest way to do this is run east and go around the area, don't even try to fight through harpys, just safely run around and you'll be fine.|
 T Wandering Shay|QID|2845|M|42.4,22.0|Z|Feralas|N|To Rockbiter.|
-A Find OOX-22/FE!|QID|2766|N|If you found a Distress Beacon, right click it to get this quest.(If not, right click to skip this step)|U|8705|
+A Find OOX-22/FE!|QID|2766|O|N|If you found a Distress Beacon, right click it to get this quest.(If not, right click to skip this step)|U|8705|
 T Find OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|To Homing Robot OOX-22/FE.|
 A Rescue OOX-22/FE!|QID|2767|M|53.30,55.60|Z|Feralas|N|From Homing Robot OOX-22/FE. Rather difficult (perhaps impossible) to solo, so shout out to see if anyone else wants to help.|PRE|2766|
 C Rescue OOX-22/FE!|QID|2767|M|53.30,55.60|Z|Feralas|N|Follow the chicken, 3 preset ambushes occur along the way.|
@@ -619,9 +617,8 @@ r Sell junk, repair, restock|ACTIVE|3161|N|Sell junk, repair, restock.|
 
 C Gahz'ridian|QID|3161|M|48.00,64.00;41,72|CN|Z|Tanaris|US|N|Finish collecting the 30 Gahz'ridian Ornaments.|
 R The Gaping Chasm|ACTIVE|10|M|56,71|Z|Tanaris|N|Continue South to the Gaping Chasm.|
-R The Scrimshank Redemption|ACTIVE|10|M|55.77,68.97;56.22,68.38;57.17,70.10;57.58,70.79|Z|Tanaris|CS|N|Go down the spiral and take the second tunnel (it goes north). Go right at the first fork, then through the circle room, then right at the fork. Loot the Surveying Gear from the room up ahead (the arrow will point to it).|
-C The Scrimshank Redemption|QID|10|M|55.96,71.16|Z|Tanaris|N|Click on Scrimshank's Surveying Gear to collect it.|
-A Find OOX-17/TN!|QID|351|U|8623|N|If you have the OOX-17/TN distress beacon, right click it to start this quest.|
+C The Scrimshank Redemption|QID|10|M|55.94,71.14|Z|Tanaris|N|Click on Scrimshank's Surveying Gear to collect it.|NC|
+A Find OOX-17/TN!|QID|351|U|8623|N|If you have the OOX-17/TN distress beacon, right click it to start this quest.|O|
 t Find OOX-17/TN!|QID|351|M|60.19,64.70|Z|Tanaris|N|If you have the OOX-17/TN quest, turn it in.|
 A Rescue OOX-17/TN!|QID|648|N|This is an Escort Quest. This will be near impossible to solo.|PRE|351|
 C Rescue OOX-17/TN!|QID|648|Z|Tanaris|N|Let the chicken lead, so he will get hit first.  There are 3 preset ambushes in route.|
@@ -646,9 +643,7 @@ A Signal for Pickup|QID|3451|M|70.86,94.54|Z|Ironforge|N|From Xiggs Fuselighter.
 T Signal for Pickup|QID|3451|M|70.86,94.54|Z|Ironforge|N|To Xiggs Fuselighter.|
 r Sell junk, repair, restock, train skills.|QID|3444|N|Sell junk, repair, restock, train skills.|
 
-R Deeprun Tram|QID|2583|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
-R Stormwind City|QID|2583|N|Take the tram ride and then run into Stormwind.|
-F Nethergarde Keep|AVAILABLE|2583|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
+F Nethergarde Keep|AVAILABLE|2583|M|55.77,47.87|Z|Ironforge|N|At Gryth Thurden.|
 
 A The Basilisk's Bite|QID|2601|M|50.64,14.30|Z|Blasted Lands|N|From Bloodmage Lynnore.|
 A Vulture's Vigor|QID|2603|M|50.64,14.30|Z|Blasted Lands|N|From Bloodmage Lynnore.|
@@ -671,10 +666,9 @@ T Vulture's Vigor|QID|2603|M|50.64,14.30|Z|Blasted Lands|N|To Bloodmage Lynnore.
 T Snickerfang Jowls|QID|2581|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazial.|
 T A Boar's Vitality|QID|2583|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazial.|
 T The Decisive Striker|QID|2585|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazial.|
-A Everything Counts In Large Amounts|QID|3501|M|51,35|Z|Blasted Lands|N|From Kum'isha the Collector.|U|10593|
-T Everything Counts In Large Amounts|QID|3501|M|51,35|Z|Blasted Lands|N|From Kum'isha the Collector.|
+A Everything Counts In Large Amounts|QID|3501|M|51.90,35.63|Z|Blasted Lands|N|From Kum'isha the Collector.|U|10593|
+T Everything Counts In Large Amounts|QID|3501|M|51.90,35.63|Z|Blasted Lands|N|From Kum'isha the Collector.|
 l Alterac Swiss|ACTIVE|6610|M|63.51,17.01|Z|Blasted Lands|N|Make sure you have the Alterac Swiss for the Clamlette Surprise. From Vendor Bernie Heisten located on the floor level of the Keep. If you already have this banked, manually skip this step.|L|8932 20|
-A Nekrum's Medallion|QID|2991|M|66.90,19.46|Z|Blasted Lands|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Thadius Grimshade. Up at the top of the tower.|PRE|2990|
 
 F Booty Bay|QID|3444|M|65.53,24.34|Z|Blasted Lands|N|Fly to booty bay, though if you have some business to handle in Stormwind like training, go ahead and stop there first.|
 T Deliver to MacKinley|QID|2874|M|27.78,77.07|Z|Stranglethorn Vale|N|To "Sea Wolf" MacKinley.|
@@ -690,12 +684,7 @@ F Gadgetzan|QID|3444|M|63.08,37.16|Z|The Barrens|N|Fly back to Tanaris|
 h Gadgetzan|QID|3477|M|52.63,28.11|Z|Tanaris|N|Set your hearth here. You will need it soon.
 C Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|S|N|Time to finish this up. If you have stuff banked, remember there is a bank in Gadgetzan.|
 T The Stone Circle|QID|3444|M|52.71,45.92|Z|Tanaris|N|From Mavon Rivetseeker.|PRE|3445|
-A The Prophecy of Mosh'aru|QID|3527|M|67.0,22.4|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Yeh'kinya.|PRE|3520|
 C Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|US|N|Time to finish this up. If you have stuff banked, remember there is a bank in Gadgetzan.|
 T Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|N|To Dirge Quikcleave. Congrats!|
-A Scarab Shells|QID|2865|M|51.57,26.76|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tran'rek.|
-A Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Trenton Lighthammer.|
-A Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Chief Engineer Bilgewhizzle.|
-N Chapter Complete|QID|2770|M|PLAYER|Z|Tanaris|N|You now have everything you need to run Zul'Farrak.|
 ]]
 end)

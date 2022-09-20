@@ -312,7 +312,7 @@ H Orgrimmar|AVAILABLE|868|N|This is why we changed our hearthstone.\n[color=FF00
 F Crossroads|AVAILABLE|868|M|45.13,63.90|Z|1454|
 A Egg Hunt|QID|868|M|51.07,29.63|Z|1413|N|From Korran.|
 F Camp Taurajo|AVAILABLE|879^893|M|51.50,30.33|Z|1413|
-A Betrayal from Within|QID|879|M|44.55,59.26|Z|1413|N|From Mangletooth.|
+A Betrayal from Within|QID|879|M|44.55,59.26|Z|1413|N|From Mangletooth.|PRE|878&5052|
 A Weapons of Choice|QID|893|M|45.10,57.69|Z|1413|N|From Tatternack Steelforge.|
 R Field of Giants|ACTIVE|868|M|45.76,69.80|Z|1413|N|It is split on either side of the road.|
 ; --- Jorn Skyseer's kill quests

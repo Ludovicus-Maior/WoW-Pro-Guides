@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide("JamZan6466", "Leveling", "Zangarmarsh", "Wow
 WoWPro:GuideNickname(guide, "Zangarmarsh")
 WoWPro:GuideName(guide, "Zangarmarsh")
 WoWPro:GuideNextGuide(guide, "JamTer6466")
-WoWPro:GuideLevels(guide, 64, 66)
+WoWPro:GuideLevels(guide, 62, 66)
 WoWPro:GuideSteps(guide, function()
 return [[
 R Zangarmarsh|AVAILABLE|9777|M|82.9,65.08|N|Go to Zangarmarsh.|
