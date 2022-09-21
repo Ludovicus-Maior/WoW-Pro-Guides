@@ -97,12 +97,12 @@ C Expedition Salvation|QID|3881|M|68.55,36.54|Z|Un'Goro Crater|NC|QO|1|N|Loot th
 C The Eastern Pylon|QID|4287|M|77.20,49.98|Z|Un'Goro Crater|CHAT|N|Click on the Pylon to examine it.|
 T The Apes of Un'Goro|QID|4289|M|71.63,75.96|Z|Un'Goro Crater|N|To Torwa Pathefinder. Skip Follow-up.|
 R Alien Ecology|QID|3883|M|50.50,78.70;49.47,83.13|Z|Un'Goro Crater|CS|N|Run into the tunnel and get your sample.|
-C Alien Ecology|QID|3883|M|48.7,85.3|Z|Un'Goro Crater|N|USe the Scraping Vial and get a Hive Wall Sample.|U|11132|
+C Alien Ecology|QID|3883|M|48.7,85.3|Z|Un'Goro Crater|N|Use the Scraping Vial and get a Hive Wall Sample.|U|11132|
 C Bungle in the Jungle|QID|4496|M|50.50,78.70|Z|Un'Goro Crater|QO|1|N|Kill bugs until you get the gland.|
 C Roll the Bones|QID|3882|M|34.75,72.40|Z|Un'Goro Crater|S|N|You can pick the bones off the ground for this quest. But you will most likely get all you need from the diametradons.|
 C Expedition Salvation|QID|3881|M|38.00,66.00|Z|Un'Goro Crater|NC|QO|2|N|Loot the Research Equipment.\n\n[color=FF0000]Warning:[/color] There are lots of reds around.|
 C The Western Pylon|QID|4288|M|23.83,59.20|Z|Un'Goro Crater|CHAT|N|Click on the Pylon to examine it.|
-C Beware of Pterrordax|QID|4501|M|22.20,59.36|Z|Un'Goro Crater|QO|2|N|Kill the Frenized Pterrodax around.|
+C Beware of Pterrordax|QID|4501|M|22.20,59.36|Z|Un'Goro Crater|QO|1|N|Kill the Frenized Pterrodax around.|
 C Shizzle's Flyer|QID|4503|M|67.3,32.6|Z|Un'Goro Crater|US|N|Kill Diemetradons and Pterrordaxes for their scales.|
 C Roll the Bones|QID|3882|M|34.75,72.40|Z|Un'Goro Crater|US|N|You can pick the bones off the ground for this quest. But you will most likely get all you need from the diametradons.|
 C Muigin and Larion|QID|4141|M|65.00,27.00|Z|Un'Goro Crater|US|N|Kill and loot Bloodpetals.|
@@ -141,8 +141,8 @@ F Ironforge|QID|3461|M|9.49,59.69|Z|Wetlands|N|Fly to Ironforge.|
 T Return to Tymor|QID|3461|M|31.02,4.81|Z|Ironforge|N|To Tymor.|
 A A Little Slime Goes a Long Way|QID|4512|M|75.74,23.38|Z|Ironforge|N|From Laris Geardawdle.|
 
-F Menethil Harbor|QID|3764|M|55.54,47.75|Z|Ironforge|N|Fly back to the Wetlands.|
-b Darkshore|QID|3764|M|4.59,57.13|Z|Wetlands|N|Sail to Darkshore.|
+F Stormwind|QID|3764|M|55.54,47.75|Z|Ironforge|N|Fly back to Stormwind City.|
+b Darkshore|QID|3764|M|22.69,56.03|Z|Stormwind City|N|Sail to Darkshore.|
 F Rut'theran Village|QID|3764|M|36.34,45.58|Z|Darkshore|N|Fly to  Rut'theran Village and head to Darnassus.|
 R Darnassus|QID|3764|M|55.89,89.60|Z|Teldrassil|N|Run into the portal.|
 h Craftsmen's Terrace|QID|3764|M|67.41,15.66|Z|Darnassus|N|Set your Hearthstone at the Inn here. Seriously, unless you enjoy 15 minute long flights back from Gadgetzan.|
@@ -154,7 +154,8 @@ l Evergreen Herb Casing|QID|3785|M|PLAYER|Z|Darnassus|N|Using the Evergreen Pouc
 
 R Rut'theran Village|QID|8460|M|30.04,41.32|Z|Darnassus|N|Run back in the portal to Rut'theran Village.|
 F Astranaar|QID|8460|M|58.39,94.01|Z|Teldrassil|N|Head to Ashenvale.|
-R Felwood|QID|8460|M|38.6,57.6;49.5,56.4;57.8,55.7;61.0,48.6;60.9,43.9;57.4,32.3;55.8,28.7|CS|Z|Ashenvale|N|Make your way up to Felwood.|
+R Felwood|QID|8460|M|59.67,62.94;55.81,28.84|CS|Z|Ashenvale|N|Make your way up to Felwood.|
+f Emerald Sanctuary|QID|8460|M|51.46,82.22|Z|Felwood|N|Get the flight path.|
 A Cleansing Felwood|QID|4101|M|54.19,86.80|Z|Felwood|N|From Arathandris Silversky.|
 A Timbermaw Ally|QID|8460|M|50.93,85.00|Z|Felwood|N|From Grazle.|
 C Timbermaw Ally|QID|8460|M|48.12,92.92|Z|Felwood|N|Kill the Furbolgs needed for the quest.|
@@ -210,6 +211,7 @@ A Flute of Xavaric|QID|939|M|39.1,22.3|Z|Felwood|N|Right-click the flute and acc
 C Flute of Xavaric|QID|939|M|39.3,21.4|Z|Felwood|N|Kill Jadefire mobs until you get the felbinds.|
 C Further Corruption|QID|4906|M|39.3,21.4|Z|Felwood|US|N|Kill Jadefire mobs until this quest is completed.|
 
+F Emerald Sanctuary|QID|5157|M|62.47,24.18|Z|Felwood|N|Fly back to Emerald Sanctuary.|
 T Collection of the Corrupt Water|QID|5157|M|51.21,82.15|Z|Felwood|N|To Greta Mosshoof.|
 A Seeking Spiritual Aid|QID|5158|M|51.21,82.15|Z|Felwood|N|From Greta Mosshoof.|PRE|5157|
 T Verifying the Corruption|QID|5156|M|50.89,81.63|Z|Felwood|N|To Taronn Redfeather.|
@@ -218,9 +220,7 @@ T Flute of Xavaric|QID|939|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
 A Felbound Ancients|QID|4441|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|PRE|939|
 T Cleansing Felwood|QID|4101|M|54.19,86.80|Z|Felwood|N|To Arathandris Silversky.|
 
-R Ashenvale|QID|4512|M|54.89,93.04|Z|Felwood|N|Make your way back to Astranaar.|
-R Astranaar|QID|4512|M|57.8,40.5;60.9,48.4;60.3,52.4;57.3,55.8;52.5,55.0;49.4,56.4;34.4,47.9|Z|Ashenvale|CS|N|Head back to Astranaar.|
-F Feathermoon|QID|4512|M|34.41,47.99|Z|Ashenvale|N|Fly to Feralas.|
+F Feathermoon|QID|4512|M|51.48,82.17|Z|Felwood|N|Fly to Feralas.|
 A Jonespyre's Request|QID|3788|M|30.97,43.49|Z|Feralas|N|From Inkeeper Shyria.|PRE|3781|
 T Jonespyre's Request|QID|3788|M|32.45,43.79|Z|Feralas|N|To Quintis Jonespyre. At the top of the tower.|
 A The Mystery of Morrowgrain|QID|3791|M|32.45,43.79|Z|Feralas|N|From Quintis Jonespyre. At the top of the tower.|PRE|3788|
