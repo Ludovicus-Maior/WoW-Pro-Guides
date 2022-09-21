@@ -226,8 +226,8 @@ T Jonespyre's Request|QID|3788|M|32.45,43.79|Z|Feralas|N|To Quintis Jonespyre. A
 A The Mystery of Morrowgrain|QID|3791|M|32.45,43.79|Z|Feralas|N|From Quintis Jonespyre. At the top of the tower.|PRE|3788|
 T The Mystery of Morrowgrain|QID|3791|M|32.45,43.79|Z|Feralas|N|To Quintis Jonespyre. At the top of the tower.\n\nHopefully you have enough Morrowgrain, you've been remembering to use the Evergreen pouch right? If not just manually skip this quest.\n\nJust an FYI, this should be your 2nd quest for Morrowgrain, you need a total of 20 to complete this and the one in Darnassus. Don't do the the repeatable unless you plan on farming this or you have 25 or more morrowgrain. Leave 10 for Darnassus.|
 
-T A Visit to Gregan|QID|4142|M|45.12,25.56|Z|Feralas|N|To Gregan Brewspewer. Skip follow-up unless you intend on going to Sunken Temple soon.|
-l Evoroot|QID|3909|M|44.51,9.82|Z|Feralas|N|Get exactly to the waypoint, get up on the ledge at the back of (North facing) the building. Get a running start and jump toward the break in the wall where the pillar collapsed onto the tree is. If can be done without speed buffs or mount, but if you got them it makes it easy.\n\nIf you really have trouble with this, Gregan sells bait to get Miblon to move. Once inside, loot te Evoroot.|L|11242|
+T A Visit to Gregan|QID|4142|M|46.24,37.55;45.12,25.56|CS|Z|Feralas|N|To Gregan Brewspewer. Skip follow-up unless you intend on going to Sunken Temple soon.|
+l Evoroot|QID|3909|M|44.51,9.82|Z|Feralas|N|Get exactly to the waypoint, get up on the ledge at the back of (North facing) the building. Get a running start and jump toward the break in the wall where the pillar collapsed onto the tree is. If can be done without speed buffs or mount, but if you got them it makes it easy.\n\nIf you really have trouble with this, Gregan sells bait to get Miblon to move. Once inside, loot the Evoroot.|L|11242|
 C The Videre Elixir|QID|3909|M|45.12,25.56|Z|Feralas|NC|N|Go back to Gregan Brewspewer and do his 'Videre Elixir' turn-in quest.|
 
 H Darnassus|QID|4512|M|PLAYER|Z|Feralas|N|Hearth or otherwise make your way back to Darnassus.|
@@ -236,8 +236,8 @@ C Felbound Ancients|QID|4441|M|39.23,84.93|Z|Darnassus|NC|N|Use the Vial in the 
 
 R Rut'theran Village|QID|4512|M|30.04,41.32|Z|Darnassus|N|Run through the portal into Rut'theran Village.|
 F Auberdine|QID|4512|M|58.39,94.01|Z|Teldrassil|N|Fly To Auberdine.|
-b Menethil Harbor|QID|4512|M|32.39,43.82|Z|Darkshore|N|Take the boat to Menethil Harbor.|
-F Ironforge|QID|4512|M|9.49,59.69|Z|Wetlands|N|Fly to Ironforge|
+b Stormwind City|QID|4512|M|32.39,43.82|Z|Darkshore|N|Take the boat to Stormwind City.|
+F Ironforge|QID|4512|M|71.01,72.63|Z|Stormwind City|N|Fly to Ironforge|
 h Ironforge|QID|4512|M|18.12,51.42|Z|Ironforge|N|Set your hearthstone to Ironforge.|
 A A Call to Arms: The Plaguelands!|QID|5090|M|47.11,50.29|Z|Ironforge|N|From Courier Hammerfall. He wanders around Ironforge, he can be pretty much anywhere.|
 T A Little Slime Goes a Long Way|QID|4512|M|75.74,23.38|Z|Ironforge|N|To Laris Geardawdle. Don't get follow-up for now.|
@@ -285,15 +285,14 @@ A The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|Ironforge|N|From R
 C The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|Ironforge|CHAT|N|Chat with Royal Historian Archesonus.|
 T The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|Ironforge|N|To Royal Historian Archesonus.|
 A The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|Ironforge|N|From Royal Historian Archesonus.|PRE|3702|
-R Deeprun Tram|QID|5022|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
-R Stormwind City|QID|5022|N|Take the tram ride and then run into Stormwind.|
-T Better Late Than Never|QID|5022|M|48.47,30.56|Z|Stormwind City|N|To Royal Factor Bathrilor. Top floor of the building.|
-A Good Natured Emma|QID|5048|M|48.47,30.56|Z|Stormwind City|N|To Royal Factor Bathrilor. Top floor of the building.|PRE|5022|
-T Good Natured Emma|QID|5048|M|52.40,42.10|Z|Stormwind City|N|To Ol' Emma. She can be found wandering around the Trade District, Cathedral Square or inside her home.|
-A Good Luck Charm|QID|5050|M|60.2,57.0|Z|Stormwind City|N|From Ol' Emma.|PRE|5048|
+F Stormwind|QID|5022|M|55.57,47.97|Z|Ironforge|N|Take the flightpath to Stormwind.|
+T Better Late Than Never|QID|5022|M|57.28,48.33|Z|Stormwind City|N|To Royal Factor Bathrilor. Top floor of the building.|
+A Good Natured Emma|QID|5048|M|57.28,48.33|Z|Stormwind City|N|To Royal Factor Bathrilor. Top floor of the building.|PRE|5022|
+T Good Natured Emma|QID|5048|M|60.15,56.39|Z|Stormwind City|N|To Ol' Emma. She can be found wandering around the Trade District, Cathedral Square or inside her home.|
+A Good Luck Charm|QID|5050|M|60.15,56.39|Z|Stormwind City|N|From Ol' Emma.|PRE|5048|
 r Sell junk, repair, restock|QID|5220|N|Sell junk, repair, restock|
 
-F Lakeshire|QID|3823|M|66.29,62.13|Z|Stormwind City|N|Fly to Lakeshire in Redridge.|
+F Lakeshire|QID|3823|M|71.03,72.65|Z|Stormwind City|N|Fly to Lakeshire in Redridge.|
 R Burning Steppes|QID|3823|M|46.43,6.34|Z|Redridge Mountains|N|Make your way to the Burning Steppes.|
 f Morgan's Vigil|QID|3823|M|84.33,68.32|Z|Burning Steppes|N|Get the Flightpath from Borgus Stoutarm.|
 
