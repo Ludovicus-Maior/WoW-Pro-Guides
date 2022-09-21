@@ -1,7 +1,7 @@
 -- luacheck: globals _NPCScan
 -- luacheck: globals select pairs ipairs tinsert tremove sort
 -- luacheck: globals tostring tonumber
--- luacheck: globals date type max min coroutine
+-- luacheck: globals date type max min floor coroutine
 -- luacheck: globals debugstack debuglocals geterrorhandler seterrorhandler
 
 --------------------------
@@ -745,6 +745,11 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         zonename = trueZone -- the real zone name is the unparenthesized portion
     end
 
+    -- Set a default release, if not specified
+    if not release then
+        release = WoWPro.Client  -- No release, make it the current one.
+    end
+
     local guide = {
         guidetype = gtype,
         zone = select(1, (";"):split(zonename)),
@@ -769,10 +774,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         return guide
     end
 
-    if (WoWPro.RETAIL and release) or
-       (WoWPro.CLASSIC and (release ~= 1)) or
-       (WoWPro.BC and (release ~= 2)) or
-       (WoWPro.WRATH and (release ~= 3)) then
+    if (WoWPro.Client ~= release) then
         -- Wrong Release guide rejected
         -- WoWPro:dbp("RegisterGuide(): Guide %q rejected, release is %s", GIDvalue, tostring(release))
         return guide
@@ -1398,11 +1400,14 @@ end
 repeat
     local _, _, _, toc = _G.GetBuildInfo()
     WoWPro.TocVersion = toc
+    WoWPro.Client = floor(toc / 10000)
 until WoWPro.TocVersion > 0
 
 WoWPro.CLASSIC = ((WoWPro.TocVersion > 10000) and (WoWPro.TocVersion < 20000))
 WoWPro.BC = ((WoWPro.TocVersion > 20000) and (WoWPro.TocVersion < 30000))
 WoWPro.WRATH = ((WoWPro.TocVersion > 30000) and (WoWPro.TocVersion < 40000))
+-- Both DF and RETAIL are true for DF for now.
+WoWPro.DF = (WoWPro.TocVersion > 100000)
 WoWPro.RETAIL = (WoWPro.TocVersion > 90000)
 
 -- Change this to fake out a classic load on retail
