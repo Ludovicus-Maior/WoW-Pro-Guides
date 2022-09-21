@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("DF_WS", "Leveling", "The Waking Shores", "Aldarana and Jme", "Neutral")
+local guide = WoWPro:RegisterGuide("DF_WS", "Leveling", "The Waking Shores", "Aldarana and Jme", "Neutral", 10)
 WoWPro:GuideName(guide,"The Waking Shores")
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideLevels(guide, 60, 60)
