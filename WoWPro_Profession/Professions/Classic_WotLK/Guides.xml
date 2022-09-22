@@ -9,5 +9,4 @@
 	<Script file="WotLK_Jewelcrafting.lua"/>
 	<Script file="WotLK_Leatherworking.lua"/>
 	<Script file="WotLK_Tailoring.lua"/>
-    
 </Ui>
