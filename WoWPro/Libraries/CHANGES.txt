@@ -1,39 +1,148 @@
 ------------------------------------------------------------------------
-r1258 | nevcairiel | 2022-02-23 09:52:47 +0000 (Wed, 23 Feb 2022) | 1 line
+r1280 | nevcairiel | 2022-09-21 21:20:09 +0000 (Wed, 21 Sep 2022) | 1 line
 Changed paths:
-   M /trunk/Ace3.toc
+   M /trunk
    M /trunk/changelog.txt
 
-Update TOC and Changelog
+Update changelog for release
 ------------------------------------------------------------------------
-r1257 | nevcairiel | 2022-01-10 16:25:37 +0000 (Mon, 10 Jan 2022) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
-
-AceGUI-3.0: Dropdown: Fix double click sound on toggling the dropdown (Issue #575)
-------------------------------------------------------------------------
-r1256 | nevcairiel | 2021-11-14 09:17:43 +0000 (Sun, 14 Nov 2021) | 1 line
+r1279 | nevcairiel | 2022-09-20 12:32:37 +0000 (Tue, 20 Sep 2022) | 3 lines
 Changed paths:
    M /trunk/changelog.txt
 
-Update Changelog
+Style consistency
+
+... and also testing git-svn bridge
 ------------------------------------------------------------------------
-r1255 | nevcairiel | 2021-11-14 09:14:15 +0000 (Sun, 14 Nov 2021) | 1 line
+r1278 | nevcairiel | 2022-09-20 12:30:10 +0000 (Tue, 20 Sep 2022) | 1 line
+Changed paths:
+   M /trunk
+   M /trunk/changelog.txt
+
+Update changelog for WoW 10.0 support
+------------------------------------------------------------------------
+r1277 | nevcairiel | 2022-09-08 16:35:10 +0000 (Thu, 08 Sep 2022) | 1 line
 Changed paths:
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceConfigDialog-3.0: Fix width number multiplier on multiselects (Issue #584)
+AceConfigDialog-3.0: Use native 10.0 Settings panel integration, when available
 ------------------------------------------------------------------------
-r1254 | funkehdude | 2021-11-12 22:56:59 +0000 (Fri, 12 Nov 2021) | 1 line
+r1276 | nevcairiel | 2022-09-08 16:34:28 +0000 (Thu, 08 Sep 2022) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-BlizOptionsGroup.lua
+
+AceGUI-3.0: BlizOptionsGroup: Expose 10.0 compatible settings callbacks 
+------------------------------------------------------------------------
+r1275 | nevcairiel | 2022-09-08 06:15:05 +0000 (Thu, 08 Sep 2022) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Window.lua
+
+AceGUI-3.0: Use SetResizeBounds now that its fixed in 10.0.2
+------------------------------------------------------------------------
+r1274 | nevcairiel | 2022-09-02 17:05:08 +0000 (Fri, 02 Sep 2022) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+
+AceGUI-3.0: TreeGroup: Another temporary fix for SetMin/MaxResize replacements
+------------------------------------------------------------------------
+r1273 | nevcairiel | 2022-09-01 20:37:43 +0000 (Thu, 01 Sep 2022) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Window.lua
+
+AceGUI-3.0: Temporary fix for frame resize boundary changes in WoW 10.0
+------------------------------------------------------------------------
+r1272 | nevcairiel | 2022-08-29 15:56:35 +0000 (Mon, 29 Aug 2022) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua
+
+AceGUI-3.0: DropDown: Fix leaked globals and texture draw layers of item sub-textures
+------------------------------------------------------------------------
+r1271 | nevcairiel | 2022-08-19 10:33:06 +0000 (Fri, 19 Aug 2022) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+   A /trunk/Ace3_Wrath.toc
+
+Update Retail TOC and add Wrath
+------------------------------------------------------------------------
+r1270 | nevcairiel | 2022-07-24 15:29:03 +0000 (Sun, 24 Jul 2022) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
+
+AceGUI-3.0: MultiLineEditBox: Ensure the HitRect is consistent in all sizes
+------------------------------------------------------------------------
+r1269 | nevcairiel | 2022-07-24 14:44:51 +0000 (Sun, 24 Jul 2022) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
+
+AceGUI-3.0: MultiLineEditBox: Remove redundant override
+------------------------------------------------------------------------
+r1268 | nevcairiel | 2022-07-24 14:41:04 +0000 (Sun, 24 Jul 2022) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
+
+AceGUI-3.0: MultiLineEditBox: Improve HitRect handling to update dynamically on size changes
+------------------------------------------------------------------------
+r1267 | nevcairiel | 2022-07-24 09:20:39 +0000 (Sun, 24 Jul 2022) | 1 line
+Changed paths:
+   M /trunk/changelog.txt
+
+Add missing changelog entry
+------------------------------------------------------------------------
+r1266 | nevcairiel | 2022-07-24 09:18:44 +0000 (Sun, 24 Jul 2022) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
+   M /trunk/changelog.txt
+
+AceGUI-3.0: MultiLineEditBox: Fixed an issue with mouse interactivity on re-cycled editboxes in certain circumstances.
+------------------------------------------------------------------------
+r1265 | funkehdude | 2022-06-01 04:18:46 +0000 (Wed, 01 Jun 2022) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 bump toc
 ------------------------------------------------------------------------
-r1253 | funkehdude | 2021-06-30 11:40:16 +0000 (Wed, 30 Jun 2021) | 1 line
+r1264 | funkehdude | 2022-04-22 00:25:11 +0000 (Fri, 22 Apr 2022) | 1 line
 Changed paths:
-   M /trunk/Ace3.toc
+   M /trunk/Ace3_Vanilla.toc
 
 bump toc
+------------------------------------------------------------------------
+r1263 | nevcairiel | 2022-04-08 14:06:09 +0000 (Fri, 08 Apr 2022) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
+
+AceGUI-3.0: Label: Use font objects to allow properly using fallback font mechanics to be used
+------------------------------------------------------------------------
+r1262 | funkehdude | 2022-04-07 23:00:32 +0000 (Thu, 07 Apr 2022) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-DropDownGroup.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-InlineGroup.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Keybinding.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
+
+Remove compat code related to backdrops
+------------------------------------------------------------------------
+r1261 | funkehdude | 2022-04-07 22:38:19 +0000 (Thu, 07 Apr 2022) | 1 line
+Changed paths:
+   A /trunk/Ace3_TBC.toc
+   A /trunk/Ace3_Vanilla.toc
+
+Add multi toc support
+------------------------------------------------------------------------
+r1260 | nevcairiel | 2022-02-23 09:53:31 +0000 (Wed, 23 Feb 2022) | 1 line
+Changed paths:
+   M /trunk/changelog.txt
+
+Fix date in changelog
 ------------------------------------------------------------------------
 
