@@ -124,22 +124,23 @@ A The Demoniac Scryer|QID|10838|M|52.28,36.46|N|From Apothecary Antonivich.|PRE|
 T Doorway to the Abyss|QID|10392|M|55.0,36.0|N|To Nazgrel.|
 A Cruel's Intentions|QID|10136|M|55.02,35.96|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Nazgrel.|PRE|10392|
 A The Assassin|QID|9400|M|55.02,35.96|N|From Nazgrel.|LVL|60|
-A Falcon Watch|QID|9498^9499|M|55.23,39.10|N|From Martik Tor'seldori.|LEAD|9340|LVL|60|
+A Falcon Watch|QID|9498^9499|M|55.18,39.11|N|From Martik Tor'seldori.|LEAD|9340|LVL|60|
 = Level 60 Training|ACTIVE|9400|N|Make your way to your trainer and do your level 60 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Thrallmar|ACTIVE|9400|M|55.64,41.83|Z|1944|N|Return to Thrallmar by your own choice of means.|
 R The Stadium|ACTIVE|9400|M|45.67,44.46;34.83,45.91|Z|1944|CS|QO|1|N|Follow the road west through the wall until you reach the spikes.|
 R Krun Spinebreaker|ACTIVE|9400|M|33.62,43.54|Z|1944|QO|1|N|Turn to the north and head to the other side of the rock point.|
 T The Assassin|QID|9400|M|33.62,43.56|Z|1944|N|To the Fel Orc Corpse.|
 A A Strange Weapon|QID|9401|M|33.62,43.56|N|From the Fel Orc Corpse.|PRE|9400|
-R Falcon Watch|ACTIVE|9498^9499|M|25.59,61.14|N|Head East to Falcon Watch.|
+R Falcon Watch|ACTIVE|9498^9499|M|25.59,61.14|N|Head east to Falcon Watch.|
 A Arelion's Journal|QID|9374|M|26.37,60.32|N|From Magistrix Carinda.|
+A In Need of Felblood|QID|9366|M|26.99,59.54|N|From Ryathen the Somber.|
+A Source of the Corruption|QID|9387|M|26.79,59.71|N|From Apothecary Azethan.|
+A Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar.\n[color=FF0000]NOTE: [/color]The quest may be briefly unavailable if someone turns in a quest because of a cut-scene.|
 A Birds of a Feather|QID|9397|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
-f Falcon Watch|AVAILABLE|9498^9499|M|27.79,59.98|N|At Innalia.\n[color=FF0000]NOTE: [/color]Make sure you open the flight map to update the FP list.|
+f Falcon Watch|ACTIVE|9498^9499|M|27.79,59.98|N|At Innalia.\n[color=FF0000]NOTE: [/color]Make sure you open the flight map to update the FP list.|
 A Wanted: Blacktalon the Savage|QID|9466|M|28.03,60.31|N|From the Wanted Poster.|
 T Falcon Watch|QID|9498^9499|M|28.34,60.19;28.49,60.26|Z|1944|CS|N|To Ranger Captain Venn'ren on top of the tower.\n[color=FF0000]NOTE: [/color]Use the Orb of Translocation inside to reach him.|
 A The Great Fissure|QID|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
-A In Need of Felblood|QID|9366|M|26.99,59.54|N|From Ryathen the Somber.|
-A Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar.|
-A Source of the Corruption|QID|9387|M|26.79,59.71|N|From Apothecary Azethan.|
 K The Great Fissure|ACTIVE|9340|M|35.81,63.02|QO|1;2|S|
 K Blacktalon the Savage|ACTIVE|9466|M|34.18,62.96;33.46,64.87|Z|1944|CS|L|23687|ELITE|N|[color=FF8000]Elite: [/color]\nBlacktalon is near the back of the cave.\n[color=FF0000]NOTE: [/color]If you die, there's an alcove near the entrance you can safely resurrect in.|T|Blacktalon the Savage|
 K The Great Fissure|ACTIVE|9340|M|36.63,63.58|QO|1;2|N|There are 4-5 Alpha in the cave.|US|
