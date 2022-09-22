@@ -340,7 +340,12 @@ function WoWPro:CreateBG(parent)
 end
 
 function WoWPro:CreateTab(name, parent)
-    local tab = _G.CreateFrame('Button', nil, parent, "TabButtonTemplate")
+    local tab
+    if WoWPro.DF then
+        tab = _G.CreateFrame('Button', nil, parent, "PanelTabButtonTemplate")
+    else
+        tab = _G.CreateFrame('Button', nil, parent, "TabButtonTemplate")
+    end
     tab:RegisterForClicks("anyUp")
     tab.Text:SetJustifyH("CENTER")
     tab.Text:SetText(name)
