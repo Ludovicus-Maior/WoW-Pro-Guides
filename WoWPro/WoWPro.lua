@@ -1397,11 +1397,8 @@ end
 
 
 --- Release Function Compatability Section
-repeat
-    local _, _, _, toc = _G.GetBuildInfo()
-    WoWPro.TocVersion = toc
-    WoWPro.Client = floor(toc / 10000)
-until WoWPro.TocVersion > 0
+WoWPro.TocVersion =  select(4, _G.GetBuildInfo())
+WoWPro.Client = floor(WoWPro.TocVersion / 10000)
 
 WoWPro.CLASSIC = ((WoWPro.TocVersion > 10000) and (WoWPro.TocVersion < 20000))
 WoWPro.BC = ((WoWPro.TocVersion > 20000) and (WoWPro.TocVersion < 30000))
