@@ -196,8 +196,8 @@ A Me Brother, Nipsy|QID|6662|N|From Monty.|PRE|6661|
 T Me Brother, Nipsy|QID|6662|N|To Nipsy on the center platform at the Stormwind Tram Terminal. Get on the tram and ride it to the other end.|
 R Stormwind City|AVAILABLE|239|N|Exit the Tram to Stormwind City|
 R The Slaughtered Lamb|ACTIVE|1715|M|31.7,60.0;29.03,74.31|Z|Stormwind City|CC|N|Make your way to the tavern in Mage Quarter.
-T The Slaughtered Lamb|QID|1715|M|27.2,76.7;25.25,78.58|Z|Stormwind City|CC|N|To Gakin the Darkbinder in the basement. Follow the ramp down to get to the basement.|C|Warlock|
-A Surena Caledon|QID|1688|M|25.25,78.58|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
+T The Slaughtered Lamb|QID|1715|M|39.6,84.6|Z|Stormwind City|CC|N|To Gakin the Darkbinder in the basement. Follow the ramp down to get to the basement.|C|Warlock|
+A Surena Caledon|QID|1688|M|39.6,84.6|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
 N Wand|ACTIVE|1688|N|Having reached level 10, you can now use a Shadow Wand.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
 B Shadow Wand|ACTIVE|1688|L|5071|N|Check the AH to see if one is available.\n[color=FF0000]NOTE: [/color]If you don't have the money, or there isn't one available, you can skip this step and come back later.|C|Warlock|
 
