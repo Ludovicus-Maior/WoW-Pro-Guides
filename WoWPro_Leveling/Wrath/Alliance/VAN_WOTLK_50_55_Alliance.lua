@@ -314,7 +314,7 @@ A Gor'tesh the Brute Lord|QID|3824|M|84.55,68.68|Z|Burning Steppes|N|From Oraliu
 T Tablet of the Seven|QID|4296|M|65.18,23.9|Z|Burning Steppes|N|To Maxwort Uberglint.|
 T Broodling Essence|QID|4726|M|65.26,23.99|Z|Burning Steppes|N|To Tinkee Steamboil.|
 A Felnok Steelspring|QID|4808|M|65.26,23.99|Z|Burning Steppes|N|From Tinkee Steamboil.|PRE|4726|
-C Gor'tesh the Brute Lord|QID|3824|M|39.33,55.30|Z|Burning Steppes|N|Kill Gor'tesh who wanders around this area.|
+C Gor'tesh the Brute Lord|QID|3824|M|39.33,55.30|Z|Burning Steppes|N|Kill Gor'tesh who wanders around this area.|T|Gor'tesh|
 C FIFTY! YEP!|QID|4283|M|41.89,52.55|Z|Burning Steppes|US|N|You can go back to the eastern side to farm worgs, or to the orc camps to the west.|
 T Gor'tesh the Brute Lord|QID|3824|M|84.55,68.68|Z|Burning Steppes|N|To Oralius.|
 A Ogre Head On A Stick = Party|QID|3825|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|PRE|3824|
@@ -338,13 +338,13 @@ T Prayer to Elune|QID|3377|M|29.51,26.35|Z|Searing Gorge|N|To Zamael Lunthistle.
 A Prayer to Elune|QID|3378|M|29.51,26.35|Z|Searing Gorge|N|From Zamael Lunthistle.|PRE|3377|
 C Prayer to Elune|QID|3378|M|29.51,26.35|Z|Searing Gorge|N|Kill the twilight mobs around here until you get the Prayer to Elune.|
 C The Flame's Casing|QID|3452|M|29.1,25.9|Z|Searing Gorge|US|N|Kill the twilight mobs around here until you get the Symbol of Ragnaros.|
-T The Flame's Casing|QID|3452|M|39.05,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A The Torch of Retribution|QID|3453|M|39.05,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3452|
-T The Torch of Retribution|QID|3453|M|39.05,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3453|
+T The Flame's Casing|QID|3452|M|39.05,38.99|Z|Searing Gorge|N|To Velarok Windblade.|
+A The Torch of Retribution|QID|3453|M|39.05,38.99|Z|Searing Gorge|N|From Velarok Windblade.|PRE|3452|
+T The Torch of Retribution|QID|3453|M|39.05,38.99|Z|Searing Gorge|N|To Velarok Windblade.|
+A The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|N|From Velarok Windblade.|PRE|3453|
 C The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|NC|N|Click on the glowing green torch in front of Kalaran.|
-T The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A Squire Maltrake|QID|3462|M|39.05,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3454|
+T The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|N|To Velarok Windblade.|
+A Squire Maltrake|QID|3462|M|39.05,38.99|Z|Searing Gorge|N|From Velarok Windblade.|PRE|3454|
 T Squire Maltrake|QID|3462|M|39.17,38.97|Z|Searing Gorge|N|To Squire Maltrake.|
 A Set Them Ablaze!|QID|3463|M|39.17,38.97|Z|Searing Gorge|N|From Squire Maltrake.|PRE|3462|
 C Northern Watch Tower|QID|3463|M|33.31,54.47|Z|Searing Gorge|QO|4|N|Light the first tower here by equipping the Torch of Retribution and clicking on the Brazier up the tower here.|U|10515|
@@ -363,24 +363,6 @@ C A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|CHAT|N|Talk with Cyr
 T A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|N|To Cyrus Therepentous. Skip follow-up|
 T Ogre Head On A Stick = Party|QID|3825|M|84.55,68.68|Z|Burning Steppes|N|To Oralius.|
 A The True Masters|QID|4183|M|85.80,68.94|Z|Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
-
-F Lakeshire|QID|4183|M|84.33,68.32|Z|Burning Steppes|N|Fly to Lakeshire in Redridge.|
-T The True Masters|QID|4183|M|29.98,44.46|Z|Redridge Mountains|N|To Magistrate Solomon.|
-A The True Masters|QID|4184|M|29.98,44.46|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
-F Stormwind|QID|4184|M|30.59,59.41|Z|Redridge Mountains|N|Fly to Stormwind.|
-T The True Masters|QID|4184|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
-A The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4184|
-C The True Masters|QID|4185|M|78.12,17.76|Z|Stormwind City|CHAT|N|Speak with Lady Prestor.|
-T The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
-A The True Masters|QID|4186|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4185|
-F Lakeshire|QID|4186|M|66.29,62.13|Z|Stormwind City|N|Fly to Lakeshire in Redridge.|
-T The True Masters|QID|4186|M|29.98,44.46|Z|Redridge Mountains|N|To Magistrate Solomon.|
-A The True Masters|QID|4223|M|29.98,44.46|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
-F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|Redridge Mountains|N|Fly to Burning Steppes.|
-T The True Masters|QID|4223|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell. Don't get follow-up.|
-A The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4223|
-C The True Masters|QID|4224|M|65.02,23.74|Z|Burning Steppes|CHAT|N|Talk with Ragged John.|
-T The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell. Skip follow-up.|
 
 H Ironforge|QID|3701|M|PLAYER|Z|Burning Steppes|N|Hearth back to Ironforge. You could fly since you're right next to the flightmaster but we won't need a hearth in the next hour so save yourself some money.|
 T The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|Ironforge|N|To Royal Historian Archesonus.|
@@ -402,7 +384,7 @@ C Tower Three|QID|5097|M|44.25,63.11|Z|Western Plaguelands|QO|3|N|Use the Beacon
 C Tower Two|QID|5097|M|42.44,66.24|Z|Western Plaguelands|QO|2|N|Use the Beacon's Torch on the edge of the doorway, out of line of site from the elite.|U|12815|
 T A Matter of Time|QID|4971|M|39.45,66.77|Z|Western Plaguelands|N|To Chromie. In the building upstairs.|
 A Counting Out Time|QID|4972|M|39.45,66.77|Z|Western Plaguelands|N|From Chromie. In the building upstairs.|PRE|4971|
-C Counting Out Time|QID|4972|M|41.15,67.65|Z|Western Plaguelands|NC|N|Look for little grey Small Lockboxes on the ground in broken building around Andorhal.|
+l Andorhal Watch|QID|4972|L|12638 5|M|41.15,67.65|Z|Western Plaguelands|N|Look for little grey Small Lockboxes on the ground in broken building around Andorhal.|
 T Counting Out Time|QID|4972|M|39.45,66.77|Z|Western Plaguelands|N|To Chromie. In the building upstairs. Skip follow-up, it's a repeatable in case you lose the reward, which you need for the boss here in Andorhol.|
 T Good Luck Charm|QID|5050|M|38.40,54.06|Z|Western Plaguelands|N|To Janice Felstone.|
 A Two Halves Become One|QID|5051|M|38.40,54.06|Z|Western Plaguelands|N|From Janice Felstone. Upstairs in the back room of the building.|PRE|5050|
