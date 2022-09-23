@@ -28,27 +28,27 @@ l [item=43013/Chilled Meat]|QID|185000004|L|43013 23|N|You'll need approx 27 Chi
 N Shopping List|QID|185000005|N|This completes the Shopping List, at the end of this guide you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 = Learn [SPELL=2550/Cooking]|QID|185002550|SPELL|Cooking;2550|LVL|5|N|Learn from a Trainer in any major city.|
-M [SPELL=37836/Spice Bread]|QID|18537836|P|Cooking;185;0+40;1|SPELL|37836|CRAFT|37836 60|MATS|30817 1;2678 1|
-M [SPELL=2540/Roasted Boar Meat]|QID|185002540|P|Cooking;185;0+65;1|SPELL|2540|CRAFT|3276 35|MATS|769 1|
+M [item=30816/Spice Bread]|QID|185037836|P|Cooking;185;0+40;1|ITEM|30816|CRAFT|37836 60|MATS|30817 1;2678 1|
+M [item=2681/Roasted Boar Meat]|QID|185002540|P|Cooking;185;0+65;1|ITEM|2681|CRAFT|2540 35|MATS|769 1|
 = Learn [SPELL=3102/Journeyman Cooking]|QID|185003102|P|Cooking;185;0+65|SPELL|Journeyman Cooking;3102|LVL|10|N|Learn from a Cooking Trainer in any Major City.|
-M [SPELL=2541/Coyote Steak]|QID|185003276|P|Cooking;185;0+110;1|SPELL|2541|CRAFT|3276 65|MATS|2673 1|
-M [SPELL=2544/Crab Cake]|QID|185003277|P|Cooking;185;0+130;1|SPELL|2544|CRAFT|3277 30|MATS|2674 1|
+M [item=2684/Coyote Steak]|QID|185002541|P|Cooking;185;0+110;1|ITEM|2684|CRAFT|2541 65|MATS|2673 1|
+M [item=2683/Crab Cake]|QID|185002544|P|Cooking;185;0+130;1|ITEM|2683|CRAFT|2544 30|MATS|2674 1|
 = Learn [SPELL=3413/Expert Cooking]|QID|185003413|P|Cooking;185;0+130|SPELL|Expert Cooking;3413|LVL|20|N|Learn from a Cooking Trainer in any Major City.|
-M [SPELL=3376/Curiously Tasty Omelet]|QID|185007928|P|Cooking;185;0+175;1|SPELL|3376|CRAFT|7928 50|MATS|3685 1|
-M [SPELL=15855/Roast Raptor]|QID|185007929|P|Cooking;185;0+225;1|SPELL|15855|CRAFT|7929 50|MATS|12184 1|
+M [item=3665/Curiously Tasty Omelet]|QID|185003376|P|Cooking;185;0+175;1|ITEM|3665|CRAFT|3376 50|MATS|3685 1|
+M [item=12210/Roast Raptor]|QID|185015855|P|Cooking;185;0+225;1|ITEM|12210|CRAFT|15855 50|MATS|12184 1|
 = Learn [SPELL=18260/Artisan Cooking]|QID|185018260|P|Cooking;185;0+225|SPELL|Artisan Cooking;18260|LVL|35|N|Learn from a Cooking Trainer in any Major City.|
-M [SPELL=18241/Filet of Redgill]|QID|185010840|P|Cooking;185;0+250;1|SPELL|18241|CRAFT|10840 25|MATS|13758 1|
-M [SPELL=18243/Nightfin Soup]|QID|185010841|P|Cooking;185;0+285;1|SPELL|18243|CRAFT|10841 40|MATS|13759 1|
-M [SPELL=18247/Baked Salmon]|QID|185018629|P|Cooking;185;0+300;1|SPELL|18247|CRAFT|18629 15|MATS|13889 1|
+M [item=13930/Filet of Redgill]|QID|185018241|P|Cooking;185;0+250;1|ITEM|13930|CRAFT|18241 25|MATS|13758 1|
+M [item=13931/Nightfin Soup]|QID|185018243|P|Cooking;185;0+285;1|ITEM|13931|CRAFT|18243 40|MATS|13759 1;159 1|
+M [item=13935/Baked Salmon]|QID|185018247|P|Cooking;185;0+300;1|ITEM|13935|CRAFT|18247 15|MATS|13889 1|
 = Learn [SPELL=33359/Master Cooking]|QID|18533359|P|Cooking;185;0+300|SPELL|Master Cooking;33359|LVL|50|T|Baxter|N|Learn from Baxter, inside inn at Thrallmar, Hellfire Peninsula.|FACTION|Horde|
 = Learn [SPELL=33359/Master Cooking]|QID|18533359|P|Cooking;185;0+300|SPELL|Master Cooking;33359|LVL|50|T|Gaston|N|Learn from Gaston, inside inn at Honor Hold, Hellfire Peninsula.|FACTION|Alliance|
 = Learn [SPELL=33359/Master Cooking]|QID|18533359|P|Cooking;185;0+300|SPELL|Master Cooking;33359|LVL|50|N|Learn from Trainer in Hellfire Peninsula.|
-M [SPELL=33284/Ravager Dog]|QID|185033284|P|Cooking;185;0+325;1|SPELL|33284|CRAFT|33284 30|MATS|27674 1|N| This Recipe is Sold By \n\nCookie One-Eye (Horde)\n\nSid Limbardi (Alliance)\n\nBoth are located in Hellfire Peninsula
-M [SPELL=33289/Talbuk Steak]|QID|185033289|P|Cooking;185;0+350;1|SPELL|33289|CRAFT|33289 40|MATS|27682 1|N| This Recipe is sold by \n\nNula the Butcher in Nagrand.|FACTION|Horde|
-M [SPELL=33289/Talbuk Steak]|QID|185033289|P|Cooking;185;0+350;1|SPELL|33289|CRAFT|33289 40|MATS|27682 1|N| This Recipe is sold by \n\nUriku in Nagrand.|FACTION|Alliance|
+M [item=27655/Ravager Dog]|QID|185033284|P|Cooking;185;0+325;1|ITEM|27655|CRAFT|33284 30|MATS|27674 1|N| This Recipe is Sold By \n\nCookie One-Eye (Horde)\n\nSid Limbardi (Alliance)\n\nBoth are located in Hellfire Peninsula.|
+M [item=27660/Talbuk Steak]|QID|185033289|P|Cooking;185;0+350;1|ITEM|27660|CRAFT|33289 40|MATS|27682 1|N| This Recipe is sold by \n\nNula the Butcher in Nagrand.|FACTION|Horde|
+M [item=27660/Talbuk Steak]|QID|185033289|P|Cooking;185;0+350;1|ITEM|27660|CRAFT|33289 40|MATS|27682 1|N| This Recipe is sold by \n\nUriku in Nagrand.|FACTION|Alliance|
 = Learn [SPELL=51296/Grand Master Cooking]|QID|185051296|P|Cooking;185;0+350|SPELL|Grand Master Cooking;51296|LVL|65|N|Learn from Awilo Lon'gomba, Dalaran - Northrend.|FACTION|HORDE|
 = Learn [SPELL=51296/Grand Master Cooking]|QID|185051296|P|Cooking;185;0+350|SPELL|Grand Master Cooking;51296|LVL|65|N|Learn from Katherine Lee, Dalaran - Northrend.|FACTION|Alliance|
-M [SPELL=57421/Northern Stew]|QID|185057421|P|Cooking;185;0+365;1|SPELL|57421|CRAFT|57421 23|MATS|43013 1|
+M [item=34747/Northern Stew]|QID|185057421|P|Cooking;185;0+365;1|ITEM|34747|CRAFT|57421 23|MATS|43013 1|
 N Cooking.|N|365 - 400 will be in a future update.|
 ]]
 end)
