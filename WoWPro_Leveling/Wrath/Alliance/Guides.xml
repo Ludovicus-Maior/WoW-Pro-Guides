@@ -30,4 +30,5 @@
   <Script file="49_50_Dungeon_Zul_Farrak.lua"/>
   <Script file="50_51_Dungeon_Maraudon.lua"/>
   <Script file="53_60_Dungeon_Blackrock_Depths.lua"/>
+  <Script file="59_62_Dungeon_Hellfire_Ramparts.lua"/>
  </Ui>
