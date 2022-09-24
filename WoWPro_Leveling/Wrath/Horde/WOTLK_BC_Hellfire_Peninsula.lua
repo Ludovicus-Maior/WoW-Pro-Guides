@@ -203,6 +203,7 @@ A Grillok "Darkeye"|QID|10834|M|61.66,81.86|ELITE|N|[color=00FFFF]Group of 2 sug
 T Bloody Vengeance|QID|10250|M|61.74,81.79|N|To Althen the Historian.|
 A Honor the Fallen|QID|10258|M|61.74,81.79|N|From Althen the Historian.|PRE|10250|
 T Zeth'Gor Must Burn!|QID|10792|M|61.21,81.32|N|To Captain Darkhowl.|
+* Bleeding Hollow Torch|ACTIVE|-10792|AVAILABLE|-10792|N|You no longer need these.|U|31347|
 R Spinebreaker Pass|ACTIVE|10294|M|71.43,67.32|QO|1|N|Leave Expedition and make your way northeast around Zeth'gor.|
 R Void Ridge|ACTIVE|10294|M|75.04,66.40|QO|1|N|Head to Void Ridge on the other side of the hill.|
 C Void Ridge|QID|10294|M|76.60,64.82|L|29161 40|ITEM|29161|N|Vacillating and Collapsing Voidwalkers\n[color=FF0000]NOTE: [/color]Collapsing Voidwalkers channel a self destruct when under 10%, if you kill them they explode anyway, so run away once you see the emote.\nVascillating Voidwalkers absorb the first type of spell you throw at them and gain resistance to that school for the duration of the fight. Throw something you don't normally use at them first.|
@@ -223,7 +224,7 @@ K Cruel's Intentions|ACTIVE|10136|M|43.88,31.57|QO|1|ELITE|N|[color=00FFFF]Group
 C In Need of Felblood|QID|9366|M|40.27,35.15|L|23269 6|ITEM|23269|N|Terrorfiend|US|
 K The Agony and the Darkness|ACTIVE|10389|M|40.27,35.15|QO|1|US|
 
-R Mag'har Post|ACTIVE|9410|M|33.62,43.56;33.48,28.96|CC|Z|1944|N|Go back to Krun Spinebreaker's corpse and use the Wolf Totem. Follow the Ancestral Spirit Wolf that spwns.\n[color=FF0000]NOTE: [/color]If you get too far away from the Wolf, it will despawn and you'll have to go back and resummon it.|U|23669|
+R Mag'har Post|ACTIVE|9410|M|33.62,43.56;33.48,28.96|CS|Z|1944|N|Go back to Krun Spinebreaker's corpse and use the Wolf Totem. Follow the Ancestral Spirit Wolf that spwns.\n[color=FF0000]NOTE: [/color]If you get too far away from the Wolf, it will despawn and you'll have to go back and resummon it.|U|23669|
 T A Spirit Guide|QID|9410|M|32.01,27.79|N|To Gorkan Bloodfist.\n[color=FF0000]NOTE: [/color]You can only speak to him as long as the Ancestral Spirit Wolf is there. Once you arrive, it will despawn after a short period of time.\nIf this happens, you'll have to go back and resummon it.|
 A The Mag'har|QID|9406|M|32.01,27.79|N|From Gorkan Bloodfist.|PRE|9410|
 H Thrallmar|ACTIVE|10389|M|56.69,37.50|N|Hearth or run back.|
@@ -279,6 +280,7 @@ T Honor the Fallen|QID|10258|M|56.92,77.37|N|To Commander Hogarth inside the tow
 R Spinebreaker Post|ACTIVE|10294|M|61.12,81.09|Z|1944|
 T Void Ridge|QID|10294|M|61.87,81.53|N|To Ogath the Mad at Spinebreaker Post.|
 A From the Abyss|QID|10295|M|61.87,81.53|N|From Ogath the Mad.|PRE|10294|
+* Void Ridge Soul Shard|ACTIVE|-10294|AVAILABLE|-10294|N|You no longer need these.|U|29161|
 K Grillok "Darkeye"|ACTIVE|10834|M|66,71|L|31529|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nHe's inside the cave near the Boiling Cauldron. After clearing ALL of the mobs around the entrance, try and pull his guards from the entrance. When everyone is dead, kill Grillok "Darkeye".|
 R Spinebreaker Pass|ACTIVE|10295|M|71.43,67.32|QO|1|N|Leave the cave and make your way northeast around Zeth'gor.|
 R Void Ridge|ACTIVE|10295|M|75.04,66.40|QO|1|N|Head to Void Ridge on the other side of the hill.|
