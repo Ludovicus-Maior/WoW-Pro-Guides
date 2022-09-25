@@ -113,7 +113,7 @@ N Leatherworking Specializations|QID|165002251|P|Leatherworking;165;0+225|LVL|40
 M [item=8193/Nightscape Pants]|QID|165010548|P|Leatherworking;165;0+250;1|ITEM|8193|CRAFT|10548 15|MATS|4304 14;4291 4|
 M [item=15564/Rugged Armor Kit]|QID|165019058|P|Leatherworking;165;0+265;1|ITEM|15564|CRAFT|19058 25|MATS|8170 5|
 M [item=15084/Wicked Leather Bracers]|QID|165019052|P|Leatherworking;165;0+290;1|ITEM|15084|CRAFT|19052 28|MATS|8170 8;2325 1;14341 1|
-M [item=15094/Runic Leather Headband]|QID|165019082|P|Leatherworking;165;0+300;1|ITEM|15094|CRAFT|19082 10|MATS|8170 12;14047 10;14341 1|
+M [item=15094/Runic Leather Headband]|QID|165019082|P|Leatherworking;165;0+300;1|ITEM|15094|CRAFT|19082 10|MATS|8170 14;14047 10;14341 1|
 = Learn [spell=32549/Master Leatherworking]|QID|165032549|P|Leatherworking;165;0+275|M|56.2,38.6|Z|1944|IZ|3483|SPELL|Master Leatherworking;32549|LVL|50|N|Learn Master Leatherworking from Barim Spilthoof, in Thrallmar, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Horde|
 = Learn [spell=32549/Master Leatherworking]|QID|165032549|P|Leatherworking;165;0+275|M|54.0,64.0|Z|1944|IZ|3483|SPELL|Master Leatherworking;32549|LVL|50|N|Learn Master Leatherworking from Brumman, in Honor Hold, Hellfire Peninsula. Also, BUY all Recipes available.|FACTION|Alliance|
 = Learn [spell=32549/Master Leatherworking]|QID|165032549|P|Leatherworking;165;0+275|SPELL|Master Leatherworking;32549|LVL|50|N|Learn Master Leatherworking from Trainer in Hellfire Peninsula, (or in Shattrath City). Also, BUY all Recipes available.|
