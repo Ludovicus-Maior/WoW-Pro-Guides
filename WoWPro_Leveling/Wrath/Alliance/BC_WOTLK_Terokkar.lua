@@ -23,7 +23,7 @@ h Shattrath City|ACTIVE|10553|N|Make Shattrath City (Scryers Tier) your home loc
 r Sell junk, Repair, restock, train skills|ACTIVE|10553|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 T Voren'thal the Seer|Z|Shattrath City|N|You must take the elevator up to this area.|QID|10553|M|43.5,91.8|REP|Scryers;934|
 N Do Underbog or Slave Pens (Optional)|N|You can do the instances in Zangarmarsh for extra XP if you wish.|
-f Shattrath City|ACTIVE|9957|M|63.81,41.37|Z|Shattrath City|N|Get the flight-path.| 
+f Shattrath City|ACTIVE|9957|M|63.81,41.37|Z|Shattrath City|N|Get the flight-path.|
 A Rather Be Fishin'|QID|10037|M|64.0,15.5|Z|Shattrath City|N|From Seth.|
 A The Outcast's Plight|QID|10917|M|51.1,17.64;45.1,19.9|Z|Shattrath City|CN|N|From Vekax. He tends to wander between the two treehouses.|
 A The Eyes of Skettis|QID|10847|M|52.6,21.0|Z|Shattrath City|N|From Rilak the Redeemed.|
