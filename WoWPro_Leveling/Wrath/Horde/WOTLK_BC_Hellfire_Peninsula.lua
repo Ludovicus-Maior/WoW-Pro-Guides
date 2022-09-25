@@ -243,8 +243,8 @@ T The Great Fissure|QID|9340|M|28.35,60.21;28.49,60.24|CS|N|To Ranger Captain Ve
 A Marking the Path|QID|9391|M|28.49,60.24|N|From Ranger Captain Venn'ren.|PRE|9340|
 T Wanted: Blacktalon the Savage|QID|9466|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
 A Report to Zurai|QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
-C Trueflight Arrows|QID|9381|M|29,56;24.28,44.91|CS|L|23387 8|ITEM|23387|N|Bonestripper Vulture\nReturn to the first point if you still need more.|
-T Arelion's Secret|QID|10286|M|4.66,50.43;12.23,49.92;31.66,52.77;26.20,63.14|CS|N|To Magister Aledis who travels back and forth along the road between Thornfang Hill and Falcon Watch.\nOnce located, talk to him and then beat him down in health (~25%) until he surrenders.\n[color=FF0000]NOTE: [/color]This will temporarily enable PvP mode for 5 minutes (unless you already have it enabled).|
+C Trueflight Arrows|QID|9381|M|29,56;24.28,44.91|CS|L|23387 8|ITEM|23387|N|Bonestripper Vulture\n[color=FF0000]NOTE: [/color]Return to the first point if you still need more.|
+T Arelion's Secret|QID|10286|M|4.7,50.7;12.2,49.9;31.6,52.7;26.20,63.14|CS|N|To Magister Aledis who travels back and forth along the road between Thornfang Hill and Falcon Watch.\nOnce located, talk to him and then beat him down in health (~25%) until he surrenders.\n[color=FF0000]NOTE: [/color]This will temporarily enable PvP mode for 5 minutes (unless you already have it enabled).|
 A The Mistress Revealed|QID|10287|M|PLAYER|N|From Magister Aledis.|PRE|10286|
 L Level 61?|N|Stay out and grind until you are less than a bubble from 61.|LVL|60;-18500|
 R Cenarion Post|ACTIVE|9373|M|15.80,51.69|Z|1944|
@@ -256,7 +256,7 @@ A Keep Thornfang Hill Clear!|QID|10159|M|15.67,52.15|N|From Mahuram Stouthoof.\n
 A The Cenarion Expedition|QID|9912|M|16.04,52.15|N|From Amythiel Mistwalker.|
 l Crimson Crystal Shard|AVAILABLE|10134|M|15.57,41.17|L|29476|ITEM|29476|N|Raging Colossus|S|
 A Crimson Crystal Clue|QID|10134|M|PLAYER|N|Click on the Crimson Crystal Shard to accept the quest.|U|29476|O|
-K Colossal Menace|ACTIVE|10132|M|15.57,41.17|QO|1||ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nThe Raging Colossus will shrink size and spawn a smaller Shardling with every 25% drop in health. Stay focused on killing the Colossus.\n[color=FF0000]NOTE: [/color]Be aware of your surroundings and avoid adds.|
+K Colossal Menace|ACTIVE|10132|M|15.57,41.17|QO|1|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nThe Raging Colossus will shrink size and spawn a smaller Shardling with every 25% drop in health. Stay focused on killing the Colossus.\n[color=FF0000]NOTE: [/color]Be aware of your surroundings and avoid adds.|
 l Crimson Crystal Shard|AVAILABLE|10134|M|15.57,41.17|L|29476|ITEM|29476|N|Raging Colossus|US|
 T Colossal Menace|QID|10132|M|15.62,52.04|N|To Tola'thion.|
 T Crimson Crystal Clue|QID|10134|M|15.62,52.04|N|To Tola'thion.|
@@ -269,6 +269,7 @@ C Demonic Contamination|QID|9372|M|22.36,56.44|L|23336 6|ITEM|23336|N|Hulking He
 T The Mistress Revealed|QID|10287|M|26.37,60.32|N|To Magistrix Carinda.|
 A Arelion's Mistress|QID|9472|M|26.37,60.32|N|From Magistrix Carinda.|PRE|10287|
 T Trueflight Arrows|QID|9381|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
+R Pools of Aggonar|ACTIVE|9370|QO|1|M|40.73,43.48|
 K The Cleansing Must Be Stopped|ACTIVE|9370|M|39.04,40.34|QO|1|N|Once you've cleared around the Altar of Aggonar, use the Signaling Gem. Of the 3 mobs that spawn, focus on killing the Draenei Anchorite first.\n[color=FF0000]NOTE: [/color]They don't appear instantaneously, it takes a few moments for them to appear1 running towards you.|T|Draenei Anchorite|U|23358|
 
 H Falcon Watch|ACTIVE|9370|M|27.25,57.49|Z|1944|
