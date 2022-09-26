@@ -50,9 +50,9 @@ A Take No Chances|QID|11913|M|58.29,62.76|N|From Wendy Darren.|PRE|11902|
 A Reference Material|QID|11908|M|58.19,62.98|N|From Jeremiah Hawning.|PRE|11902|
 C It's Time for Action|QID|11903|N|Kill the Plagued Scavengers you need for this quest.|S|
 C Take No Chances|QID|11913|N|Burn Farshire Grain using the torch.|S|U|35491|
-C Reference Material|QID|11908|M|55.77,58.37|N|Loot the red book in the burning building near the mine.|
-C Take No Chances|QID|11913|N|Burn Farshire Grain using the torch.|US|U|35491|
-C It's Time for Action|QID|11903|N|Kill the Plagued Scavengers you need for this quest.|US|
+C Reference Material|QID|11908|M|55.77,58.37|N|Loot the red book in the burning building near the mine.|NC|
+C Take No Chances|QID|11913|M|55.27,58.96|N|Burn Farshire Grain using the torch.|US|U|35491|
+C It's Time for Action|QID|11903|M|55.27,58.96|N|Kill the Plagued Scavengers you need for this quest.|US|
 T It's Time for Action|QID|11903|M|58.19,62.76|N|Go back to Gerald Green.|
 A Fruits of Our Labor|QID|11904|M|58.19,62.76|N|From Gerald Green.|PRE|11903|
 T Take No Chances|QID|11913|M|58.29,62.76|N|To Wendy Darren.|
