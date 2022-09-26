@@ -90,8 +90,8 @@ T Word from Azure Watch|QID|9314|Z|Azuremyst Isle|M|48.3,49.2|N|To Caregiver Che
 h Azure Watch|QID|9454|N|Set your hearth to Azure Watch with Caregive Chellan.|
 A Help Tavara|QID|9586|Z|Azuremyst Isle|M|48.59,49.29|N|From Guvan.|R|Draenei|C|Priest|
 A Medicinal Purpose|QID|9463|Z|Azuremyst Isle|M|48.4,51.8|N|From Anchorite Fateema.|R|Draenei|
-N Professions|O|ACTIVE|9463|Z|Azuremyst Isle|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
-N Note!|O|ACTIVE|9463|N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
+N Professions|ACTIVE|9463|Z|Azuremyst Isle|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
+N Note!|ACTIVE|9463|N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
 A Bandits!|QID|9616|Z|Azuremyst Isle|M|48.26,41.43|N|Kill Blood Elf Bandits till you get a Blood Elf Communication and then use it.|U|23910|
 C Help Tavara|QID|9586|Z|Azuremyst Isle|M|56.23,48.90|N|Find Tavara and heal her wounds.|R|Draenei|C|Priest|S|
 C The Great Moongraze Hunt|QID|9454|S|QO|1|Z|Azuremyst Isle|M|54,61|N|Kill and loot Moongraze Stags for the Tenderloin.|T|Moongraze Stag|

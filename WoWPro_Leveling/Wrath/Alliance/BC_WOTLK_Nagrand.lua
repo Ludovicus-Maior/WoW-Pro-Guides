@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide("JamNag6668", "Leveling", "Nagrand", "WowPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Nagrand")
 WoWPro:GuideName(guide, "Nagrand")
-WoWPro:GuideNextGuide(guide, "JamBla6870")
+WoWPro:GuideNextGuide(guide, "Blade's Edge Mountains")
 WoWPro:GuideLevels(guide, 66, 68)
 WoWPro:GuideSteps(guide, function()
 return [[

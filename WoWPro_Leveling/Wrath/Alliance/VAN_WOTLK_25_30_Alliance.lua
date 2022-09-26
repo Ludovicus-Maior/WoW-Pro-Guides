@@ -221,7 +221,7 @@ T The Legend of Stalvan|QID|70|M|42.58,72.54|Z|Stormwind City|N|To Caretaker Fol
 A The Legend of Stalvan|QID|72|M|42.58,72.54|Z|Stormwind City|N|From Caretaker Folsom.|PRE|70|
 T The Legend of Stalvan|QID|72|M|42.58,72.54|Z|Stormwind City|N|Right-click the Sealed Crate just next to Caretaker Folsom.|
 A The Legend of Stalvan|QID|74|M|42.58,72.54|Z|Stormwind City|N|From the Sealed Crate.|PRE|72|
-A The Missing Diplomat|QID|1274|M|50.98,47.27|Z|Stormwind City|N|From Thomas.|
+A The Missing Diplomat|QID|1274|M|49.91,44.69|Z|Stormwind City|N|From Thomas.|
 T Seeking Wisdom|QID|269|M|49.99,46.10|Z|Stormwind City|N|To Bishop Farthing.|
 A The Doomed Fleet|QID|270|M|49.99,46.10|Z|Stormwind City|N|From Bishop Farthing.|PRE|269|
 T The Missing Diplomat|QID|1274|M|80.16,44.10|Z|Stormwind City|N|To Bishop DeLavey.|
@@ -353,7 +353,7 @@ R Night Run|AVAILABLE|1031|M|50.60,46.90;51.40,52.50;57.30,55.80;65.50,43.80|CS|
 C The Tower of Althalaxx|QID|1140|M|66.63,57|CC|QO|1|N|Make your way through the Satyr in Night Run to click on the Red Crystal in the camp.|Z|Ashenvale|
 C The Tower of Althalaxx|QID|1140|M|81.59,48.58|QO|2|N|Make your way through the Satyr in Sayrnaar to click on the Red Crystal behind the red statue.|Z|Ashenvale|
 f Forest Song|AVAILABLE|1011|M|85.07,43.49|Z|Ashenvale|N|Get the flight path from Suralais Farwind.|
-T Kayneth Stillwind|QID|4581|M|85.28,44.72|N|From Shindrell Swiftfire.|Z|Ashenvale|
+T Kayneth Stillwind|QID|4581|M|85.28,44.72|N|From Kayneth Swiftfire.|Z|Ashenvale|
 A Forsaken Diseases|QID|1011|M|85.28,44.72|N|From Kayneth Stillwind.|Z|Ashenvale|
 A The Howling Vale|QID|1022|M|86.02,44.11|N|From Sentinel Melyria Frostshadow.|Z|Ashenvale|
 A Vile Satyr! Dryads in Danger!|QID|1021|M|86.72,42.75|N|From Illiyana.|Z|Ashenvale|

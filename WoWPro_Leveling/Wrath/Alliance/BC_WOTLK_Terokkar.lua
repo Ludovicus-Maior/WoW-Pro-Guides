@@ -1,11 +1,11 @@
 local guide = WoWPro:RegisterGuide("JamTerA6466", "Leveling", "Terokkar Forest", "WowPro Team", "Alliance", 3)
-WoWPro:GuideNickname(guide, "Terokkar Forest - Aldor")
-WoWPro:GuideName(guide, "Terokkar Forest - Aldor")
-WoWPro:GuideNextGuide(guide, "JamNag6668")
+WoWPro:GuideNickname(guide, "Terokkar Forest")
+WoWPro:GuideName(guide, "Terokkar Forest")
+WoWPro:GuideNextGuide(guide, "Nagrand")
 WoWPro:GuideLevels(guide, 64, 66)
 WoWPro:GuideSteps(guide, function()
 return [[
-F Shattrath City|QID|10211|N|Fly to Shattrath City.|M|41.28,28.98|Z|Zangarmarsh|
+N Make your way to Shattrath|
 A A'dal|Z|Shattrath City|QID|10210|M|59.70,41.45|N|From Haggard War Veteran.|
 T A'dal|Z|Shattrath City|QID|10210|M|54.0,44.8|N|To A'dal.|
 A City of Light |Z|Shattrath City|QID|10211|PRE|10210|M|54.8,44.3|N|From Khadgar.|
@@ -23,6 +23,7 @@ h Shattrath City|ACTIVE|10553|N|Make Shattrath City (Scryers Tier) your home loc
 r Sell junk, Repair, restock, train skills|ACTIVE|10553|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 T Voren'thal the Seer|Z|Shattrath City|N|You must take the elevator up to this area.|QID|10553|M|43.5,91.8|REP|Scryers;934|
 N Do Underbog or Slave Pens (Optional)|N|You can do the instances in Zangarmarsh for extra XP if you wish.|
+f Shattrath City|ACTIVE|9957|M|63.81,41.37|Z|Shattrath City|N|Get the flight-path.|
 A Rather Be Fishin'|QID|10037|M|64.0,15.5|Z|Shattrath City|N|From Seth.|
 A The Outcast's Plight|QID|10917|M|51.1,17.64;45.1,19.9|Z|Shattrath City|CN|N|From Vekax. He tends to wander between the two treehouses.|
 A The Eyes of Skettis|QID|10847|M|52.6,21.0|Z|Shattrath City|N|From Rilak the Redeemed.|
@@ -64,7 +65,7 @@ K Ashkaz|QID|9986|N|Kill Ashkaz in the trees here.|M|49.00,17.00|QO|1|
 C The Eyes of Skettis|N|Loot the Eye of Veil Reskk here.|QID|10847|M|50.15,19.40|QO|1|
 C Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|QO|1|REP|Aldor;932|NC|
 C Restoring the Light|N|Right-click the Altar here to complete the quest.|QID|10021|M|48.10,14.50|REP|Aldor;932|QO|3|NC|
-C Thin the Flock|N|Kill mobs until you finish this quest.|QID|10869|US|
+C Thin the Flock|M|48.32,13.91|N|Kill mobs until you finish this quest.|QID|10869|US|
 C The Outcast's Plight|N|Kill Arakkoa to get their feathers.|QID|10917|US|
 H Shattrath City|QID|10021|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 r Sell junk, Repair, restock|QID|10021|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
@@ -104,18 +105,18 @@ T Veil Skith: Darkstone of Terokk |QID|10839|M|37.4,51.5|N|To Kirrik the Awakene
 A Veil Rhaze: Unliving Evil |QID|10848|PRE|10839|M|37.4,51.5|N|Frin Kirrik the Awakened.|
 T Missing Friends |QID|10852|M|37.7,51.3|N|To Ethan.|
 A The Tomb of Lights |QID|10840|PRE|10852|M|37.5,50.8|N|From High Priest Orglum.|
-A The Vengeful Harbinger|QID|10842|PRE|10852|N|From Hight Priest Orglum.|
+A Vengeful Souls|QID|10842|PRE|10852|M|37.5,50.8|N|From Hight Priest Orglum.|
 C Wanted: Bonelashers Dead!|N|Kill Bonelashers until you finish this quest.|QID|10033|M|42,51|S|
 C Before Darkness Falls |N|Kill Orcs until you finish this quest.|QID|10878|M|40.00,56.00|
 l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 10|M|40.00,56.00|REP|Aldor;932|
 l Cabal Orders |QID|10880|N|Kill Orcs until you get the Cabal Orders.|L|31707|M|40.00,56.00|
 A Cabal Orders |N|Right-click the orders to start the quest.|QID|10880|M|32.2,52.8|U|31707|
 C The Tomb of Lights|N|Kill the Ethereal Nethermancers and Plunderers needed for this quest.|QID|10840|S|
-C The Vengeful Harbinger|N|Defeat the Vengeful Harbinger.|QID|10842|M|47.00,55.00|U|30527|
+C Vengeful Souls|QID|10842|M|47.00,55.00|N|Defeat the Vengeful Souls.|
 C The Tomb of Lights|N|Kill the rest of the mobs needed for this quest.|QID|10840|US|
 C Wanted: Bonelashers Dead!|N|Kill Bonelashers until you finish this quest.|QID|10033|M|42,51|US|
 T The Tomb of Lights|QID|10840|M|37.4,51.5|N|To High Priest Orglum.|
-T The Vengeful Harbinger|N|To High Priest Orglum.|QID|10842|M|37.4,51.5|
+T Vengeful Souls|N|To High Priest Orglum.|QID|10842|M|37.4,51.5|
 T Before Darkness Falls |QID|10878|M|37.4,51.2|N|To Mekeda.|
 T Cabal Orders |QID|10880|M|37.4,51.2|N|To Mekeda.|
 A The Shadow Tomb |QID|10881|PRE|10880|M|37.4,51.2|N|From Mekeda.|

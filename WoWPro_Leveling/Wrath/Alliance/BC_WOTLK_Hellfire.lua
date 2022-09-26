@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide("JamHel6062", "Leveling", "Hellfire Peninsula", "WowPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Hellfire Peninsula")
 WoWPro:GuideName(guide, "Hellfire Peninsula")
-WoWPro:GuideNextGuide(guide, "JamZan6264")
+WoWPro:GuideNextGuide(guide, "Zangarmarsh")
 WoWPro:GuideLevels(guide, 60, 62)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -150,7 +150,7 @@ C The Mastermind|QID|10099|M|56.00,61.00|N|Kill Z'Kral. He is all the way in the
 T The Mastermind|QID|10099|M|52.0,62.6|N|To Foreman Biggums.|
 C The Path of Glory|QID|10047|QO|1|N|Click Skeletal Remains on the ground around here until you finish this quest.|S|
 C Drill the Drillmaster|QID|10937|M|47.89,56.11|QO|1|N|Kill Drillmaster Zurok. He is surrounded so carefully pick off the mobs around him, as he will call for help. He has double the health of the mobs around him, but doesn't hit hard.|
-C The Path of Glory|QID|10047|QO|1|N|Click Skeletal Remains on the ground around here until you finish this quest.\n[color=FF0000]NOTE: [/color]Look for the 'sparkle' on the ground.|US|
+C The Path of Glory|QID|10047|QO|1|M|50.30,51.39|Z|Hellfire Peninsula|N|Click Skeletal Remains on the ground around here until you finish this quest.\n[color=FF0000]NOTE: [/color]Look for the 'sparkle' on the ground.|US|
 T Drill the Drillmaster|QID|10937|M|56.61,66.64|N|To Force Commander Danath Trollbane.|
 T The Path of Glory|QID|10047|M|56.69,66.52|N|To Warp-Scryer Kryv.|
 A The Temple of Telhamat|QID|10093|PRE|10047|M|56.69,66.52|N|From Warp-Scryer Kryv.|
@@ -243,7 +243,7 @@ A Colossal Menace|QID|10132|M|15.62,52.04|N|From Tola'thion.|LVL|61|
 A The Cenarion Expedition|QID|9912|M|16.03,52.16|N|From Amythiel Mistwalker.|LVL|61|
 C Colossal Menace|QID|10132|M|14.73,45.41|QO|1|N|Kill Raging Colossus until you have all 5 kills. As they get low in health, they get smaller and Shardlings form.|
 l Crimson Crystal Shard|QID|10134|L|29476|N|Continue to kill Colossi until one drops.|
-A Crimson Crystal Clue|QID|10134|N|Right-click the Shard to start the quest.|; ** Auto-accepted by UI **
+A Crimson Crystal Clue|QID|10134|N|Right-click the Shard to start the quest.|U|29476|O|
 T Colossal Menace|QID|10132|M|15.62,52.04|N|To Tola'thion.|
 T Crimson Crystal Clue|QID|10134|M|15.62,52.04|N|To Tola'thion.|
 A The Earthbinder|QID|10349|PRE|10134|M|15.62,52.04|N|From Tola'thion.|LVL|61|
@@ -269,8 +269,8 @@ C A Traitor Among Us|QID|10367|M|14.35,63.35|N|Get the key from the chest here.|
 T A Traitor Among Us|QID|10367|M|16.3,65.1|N|To Naladu.|
 A The Dreghood Elders|QID|10368|PRE|10367|M|16.3,65.1|N|From Naladu.|
 N Free Morod|QID|10368|QO|1|M|13.10,61.00|N|Free Morod here.|; Morod Freed: 1/1
+N Free Akoru|QID|10368|QO|2|M|15.50,58.75|N|Free Akoru here.|; Akoru Freed: 1/1
 N Free Aylaan|QID|10368|QO|3|M|13.00,58.40|N|Free Aylaan here.|; Aylaan Freed: 1/1
-C The Dreghood Elders|QID|10368|M|15.50,58.75|N|Free Akoru here.|
 T The Dreghood Elders|QID|10368|M|16.3,65.1|N|To Naladu.|
 A Arzeth's Demise|QID|10369|PRE|10368|M|16.3,65.1|N|From Naladu.|
 C Arzeth's Demise|QID|10369|M|14.25,61.50|N|Use the Staff of the Dreghood Elders on Azreth to turn him into a non-elite, then kill him.|U|29513|
