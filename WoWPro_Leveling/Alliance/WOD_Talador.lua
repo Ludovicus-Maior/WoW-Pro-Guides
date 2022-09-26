@@ -18,7 +18,7 @@ C At Your Command|QID|34558|NC|M|69.79,20.70|N|Use the table and make your selec
 T At Your Command|QID|34558|M|69.88,20.81|N|To Foreman Eksos|
 ;Wrynn Arsenal: quest is The Quarry Quandary [QID 34563]
 ;Arcane Sanctum: quest is An Audience With The Archmage [QID 34631]
-A Next Quest|QID|34563^34631|PRE|34561&34560&34558|N|From Foreman Eksos.\n\nIf you built Wrynn Arsenal, accept The Quarry Quandary.\nIf you built Arcane Sanctum, accept An Audience With The Archmage.|M|69.88,20.81|
+A Next Quest|QID|34563^34631|PRE|34558|N|From Foreman Eksos.\n\nIf you built Wrynn Arsenal, accept The Quarry Quandary.\nIf you built Arcane Sanctum, accept An Audience With The Archmage.|M|69.88,20.81|
 h Fort Wrynn|QID|34563^34631|M|69.73,21.77|Z|Talador|N|With Olivia Abbington.|
 ; Artillery Tower
 C The Quarry Quandary|QID|34563|M|69.26,19.29|N|Head to Apprentice Mial, just outside the fort to the north.|NC|
