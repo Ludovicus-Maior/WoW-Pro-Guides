@@ -124,22 +124,23 @@ A The Demoniac Scryer|QID|10838|M|52.28,36.46|N|From Apothecary Antonivich.|PRE|
 T Doorway to the Abyss|QID|10392|M|55.0,36.0|N|To Nazgrel.|
 A Cruel's Intentions|QID|10136|M|55.02,35.96|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Nazgrel.|PRE|10392|
 A The Assassin|QID|9400|M|55.02,35.96|N|From Nazgrel.|LVL|60|
-A Falcon Watch|QID|9498^9499|M|55.23,39.10|N|From Martik Tor'seldori.|LEAD|9340|LVL|60|
+A Falcon Watch|QID|9498^9499|M|55.18,39.11|N|From Martik Tor'seldori.|LEAD|9340|LVL|60|
 = Level 60 Training|ACTIVE|9400|N|Make your way to your trainer and do your level 60 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Thrallmar|ACTIVE|9400|M|55.64,41.83|Z|1944|N|Return to Thrallmar by your own choice of means.|
 R The Stadium|ACTIVE|9400|M|45.67,44.46;34.83,45.91|Z|1944|CS|QO|1|N|Follow the road west through the wall until you reach the spikes.|
 R Krun Spinebreaker|ACTIVE|9400|M|33.62,43.54|Z|1944|QO|1|N|Turn to the north and head to the other side of the rock point.|
 T The Assassin|QID|9400|M|33.62,43.56|Z|1944|N|To the Fel Orc Corpse.|
 A A Strange Weapon|QID|9401|M|33.62,43.56|N|From the Fel Orc Corpse.|PRE|9400|
-R Falcon Watch|ACTIVE|9498^9499|M|25.59,61.14|N|Head East to Falcon Watch.|
+R Falcon Watch|ACTIVE|9498^9499|M|25.59,61.14|N|Head east to Falcon Watch.|
 A Arelion's Journal|QID|9374|M|26.37,60.32|N|From Magistrix Carinda.|
+A In Need of Felblood|QID|9366|M|26.99,59.54|N|From Ryathen the Somber.|
+A Source of the Corruption|QID|9387|M|26.79,59.71|N|From Apothecary Azethan.|
+A Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar.\n[color=FF0000]NOTE: [/color]The quest may be briefly unavailable if someone turns in a quest because of a cut-scene.|
 A Birds of a Feather|QID|9397|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
-f Falcon Watch|AVAILABLE|9498^9499|M|27.79,59.98|N|At Innalia.\n[color=FF0000]NOTE: [/color]Make sure you open the flight map to update the FP list.|
+f Falcon Watch|ACTIVE|9498^9499|M|27.79,59.98|N|At Innalia.\n[color=FF0000]NOTE: [/color]Make sure you open the flight map to update the FP list.|
 A Wanted: Blacktalon the Savage|QID|9466|M|28.03,60.31|N|From the Wanted Poster.|
 T Falcon Watch|QID|9498^9499|M|28.34,60.19;28.49,60.26|Z|1944|CS|N|To Ranger Captain Venn'ren on top of the tower.\n[color=FF0000]NOTE: [/color]Use the Orb of Translocation inside to reach him.|
 A The Great Fissure|QID|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
-A In Need of Felblood|QID|9366|M|26.99,59.54|N|From Ryathen the Somber.|
-A Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar.|
-A Source of the Corruption|QID|9387|M|26.79,59.71|N|From Apothecary Azethan.|
 K The Great Fissure|ACTIVE|9340|M|35.81,63.02|QO|1;2|S|
 K Blacktalon the Savage|ACTIVE|9466|M|34.18,62.96;33.46,64.87|Z|1944|CS|L|23687|ELITE|N|[color=FF8000]Elite: [/color]\nBlacktalon is near the back of the cave.\n[color=FF0000]NOTE: [/color]If you die, there's an alcove near the entrance you can safely resurrect in.|T|Blacktalon the Savage|
 K The Great Fissure|ACTIVE|9340|M|36.63,63.58|QO|1;2|N|There are 4-5 Alpha in the cave.|US|
@@ -176,13 +177,14 @@ F Spinebreaker Ridge|ACTIVE|10229|M|56.28,36.25|
 T Decipher the Tome|QID|10229|M|61.74,81.79|N|To Althen the Historian.|
 A The Battle Horn|QID|10230|M|61.74,81.79|N|From Althen the Historian.|PRE|10229|
 T Make Them Listen|QID|10220|M|61.78,81.71|N|To Emissary Mordiba.|
+C In Case of Emergency...|QID|10161|M|58.38,72.90|L|28116 30|N|The Zepplin Debris is scattered all around the ground.|US|
 C The Battle Horn|QID|10230|M|54.8,83.7|L|28562|ITEM|28562|N|Lieutenant Commander Thalvos\nHead south to the Expedition Armory.|T|Lieutenant Commander Thalvos|
 T Smooth as Butter|QID|9356|M|49.24,74.84|N|To Legassi.|
 T In Case of Emergency...|QID|10161|M|49.15,74.87|N|To "Screaming" Screed Luckheed.|
 A Voidwalkers Gone Wild|QID|9351|M|49.15,74.87|N|From "Screaming" Screed Luckheed.|PRE|10161|
-C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|L|23218 10|ITEM|23218|N|Uncontrolled Voidwalker|S|
+C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|L|23218 10|ITEM|23218|N|Uncontrolled and Rogue Voidwalkers|S|
 C The Warp Rifts|QID|10278|M|50,82|L|29051 3|ITEM|29051|N|Unstable Voidwalkers\nHead south to the Warp Fields and use the Unstable Warp Rift Generator to generate a warp rift. Kill and loot the Voidwalkers that come through.\n[color=FF0000]NOTE: [/color]The other Voidwalkers don't drop the item.|U|29027|
-C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|L|23218 10|ITEM|23218|N|Uncontrolled Voidwalker\n[color=FF0000]NOTE: [/color]Unstable Voidwalkers do not drop the item.|US|
+C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|L|23218 10|ITEM|23218|N|Uncontrolled and Rogue Voidwalkers\n[color=FF0000]NOTE: [/color]Unstable Voidwalkers do not drop the item.|US|
 T Voidwalkers Gone Wild|QID|9351|M|49.15,74.87|N|To "Sreaming" Screed Luckheed.|
 T The Battle Horn|QID|10230|M|61.74,81.79|N|To Althen the Historian.|
 A Bloody Vengeance|QID|10250|M|61.74,81.79|N|From Althen the Historian.|PRE|10230|
@@ -201,6 +203,7 @@ A Grillok "Darkeye"|QID|10834|M|61.66,81.86|ELITE|N|[color=00FFFF]Group of 2 sug
 T Bloody Vengeance|QID|10250|M|61.74,81.79|N|To Althen the Historian.|
 A Honor the Fallen|QID|10258|M|61.74,81.79|N|From Althen the Historian.|PRE|10250|
 T Zeth'Gor Must Burn!|QID|10792|M|61.21,81.32|N|To Captain Darkhowl.|
+* Bleeding Hollow Torch|ACTIVE|-10792|AVAILABLE|-10792|N|You no longer need these.|U|31347|
 R Spinebreaker Pass|ACTIVE|10294|M|71.43,67.32|QO|1|N|Leave Expedition and make your way northeast around Zeth'gor.|
 R Void Ridge|ACTIVE|10294|M|75.04,66.40|QO|1|N|Head to Void Ridge on the other side of the hill.|
 C Void Ridge|QID|10294|M|76.60,64.82|L|29161 40|ITEM|29161|N|Vacillating and Collapsing Voidwalkers\n[color=FF0000]NOTE: [/color]Collapsing Voidwalkers channel a self destruct when under 10%, if you kill them they explode anyway, so run away once you see the emote.\nVascillating Voidwalkers absorb the first type of spell you throw at them and gain resistance to that school for the duration of the fight. Throw something you don't normally use at them first.|
@@ -221,7 +224,7 @@ K Cruel's Intentions|ACTIVE|10136|M|43.88,31.57|QO|1|ELITE|N|[color=00FFFF]Group
 C In Need of Felblood|QID|9366|M|40.27,35.15|L|23269 6|ITEM|23269|N|Terrorfiend|US|
 K The Agony and the Darkness|ACTIVE|10389|M|40.27,35.15|QO|1|US|
 
-R Mag'har Post|ACTIVE|9410|M|33.62,43.56;33.48,28.96|CC|Z|1944|N|Go back to Krun Spinebreaker's corpse and use the Wolf Totem. Follow the Ancestral Spirit Wolf that spwns.\n[color=FF0000]NOTE: [/color]If you get too far away from the Wolf, it will despawn and you'll have to go back and resummon it.|U|23669|
+R Mag'har Post|ACTIVE|9410|M|33.62,43.56;33.48,28.96|CS|Z|1944|N|Go back to Krun Spinebreaker's corpse and use the Wolf Totem. Follow the Ancestral Spirit Wolf that spwns.\n[color=FF0000]NOTE: [/color]If you get too far away from the Wolf, it will despawn and you'll have to go back and resummon it.|U|23669|
 T A Spirit Guide|QID|9410|M|32.01,27.79|N|To Gorkan Bloodfist.\n[color=FF0000]NOTE: [/color]You can only speak to him as long as the Ancestral Spirit Wolf is there. Once you arrive, it will despawn after a short period of time.\nIf this happens, you'll have to go back and resummon it.|
 A The Mag'har|QID|9406|M|32.01,27.79|N|From Gorkan Bloodfist.|PRE|9410|
 H Thrallmar|ACTIVE|10389|M|56.69,37.50|N|Hearth or run back.|
@@ -240,8 +243,8 @@ T The Great Fissure|QID|9340|M|28.35,60.21;28.49,60.24|CS|N|To Ranger Captain Ve
 A Marking the Path|QID|9391|M|28.49,60.24|N|From Ranger Captain Venn'ren.|PRE|9340|
 T Wanted: Blacktalon the Savage|QID|9466|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
 A Report to Zurai|QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
-C Trueflight Arrows|QID|9381|M|29,56;24.28,44.91|CS|L|23387 8|ITEM|23387|N|Bonestripper Vulture\nReturn to the first point if you still need more.|
-T Arelion's Secret|QID|10286|M|4.66,50.43;12.23,49.92;31.66,52.77;26.20,63.14|CS|N|To Magister Aledis who travels back and forth along the road between Thornfang Hill and Falcon Watch.\nOnce located, talk to him and then beat him down in health (~25%) until he surrenders.\n[color=FF0000]NOTE: [/color]This will temporarily enable PvP mode for 5 minutes (unless you already have it enabled).|
+C Trueflight Arrows|QID|9381|M|29,56;24.28,44.91|CS|L|23387 8|ITEM|23387|N|Bonestripper Vulture\n[color=FF0000]NOTE: [/color]Return to the first point if you still need more.|
+T Arelion's Secret|QID|10286|M|4.7,50.7;12.2,49.9;31.6,52.7;26.20,63.14|CS|N|To Magister Aledis who travels back and forth along the road between Thornfang Hill and Falcon Watch.\nOnce located, talk to him and then beat him down in health (~25%) until he surrenders.\n[color=FF0000]NOTE: [/color]This will temporarily enable PvP mode for 5 minutes (unless you already have it enabled).|
 A The Mistress Revealed|QID|10287|M|PLAYER|N|From Magister Aledis.|PRE|10286|
 L Level 61?|N|Stay out and grind until you are less than a bubble from 61.|LVL|60;-18500|
 R Cenarion Post|ACTIVE|9373|M|15.80,51.69|Z|1944|
@@ -253,7 +256,7 @@ A Keep Thornfang Hill Clear!|QID|10159|M|15.67,52.15|N|From Mahuram Stouthoof.\n
 A The Cenarion Expedition|QID|9912|M|16.04,52.15|N|From Amythiel Mistwalker.|
 l Crimson Crystal Shard|AVAILABLE|10134|M|15.57,41.17|L|29476|ITEM|29476|N|Raging Colossus|S|
 A Crimson Crystal Clue|QID|10134|M|PLAYER|N|Click on the Crimson Crystal Shard to accept the quest.|U|29476|O|
-K Colossal Menace|ACTIVE|10132|M|15.57,41.17|QO|1||ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nThe Raging Colossus will shrink size and spawn a smaller Shardling with every 25% drop in health. Stay focused on killing the Colossus.\n[color=FF0000]NOTE: [/color]Be aware of your surroundings and avoid adds.|
+K Colossal Menace|ACTIVE|10132|M|15.57,41.17|QO|1|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nThe Raging Colossus will shrink size and spawn a smaller Shardling with every 25% drop in health. Stay focused on killing the Colossus.\n[color=FF0000]NOTE: [/color]Be aware of your surroundings and avoid adds.|
 l Crimson Crystal Shard|AVAILABLE|10134|M|15.57,41.17|L|29476|ITEM|29476|N|Raging Colossus|US|
 T Colossal Menace|QID|10132|M|15.62,52.04|N|To Tola'thion.|
 T Crimson Crystal Clue|QID|10134|M|15.62,52.04|N|To Tola'thion.|
@@ -266,6 +269,7 @@ C Demonic Contamination|QID|9372|M|22.36,56.44|L|23336 6|ITEM|23336|N|Hulking He
 T The Mistress Revealed|QID|10287|M|26.37,60.32|N|To Magistrix Carinda.|
 A Arelion's Mistress|QID|9472|M|26.37,60.32|N|From Magistrix Carinda.|PRE|10287|
 T Trueflight Arrows|QID|9381|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
+R Pools of Aggonar|ACTIVE|9370|QO|1|M|40.73,43.48|
 K The Cleansing Must Be Stopped|ACTIVE|9370|M|39.04,40.34|QO|1|N|Once you've cleared around the Altar of Aggonar, use the Signaling Gem. Of the 3 mobs that spawn, focus on killing the Draenei Anchorite first.\n[color=FF0000]NOTE: [/color]They don't appear instantaneously, it takes a few moments for them to appear1 running towards you.|T|Draenei Anchorite|U|23358|
 
 H Falcon Watch|ACTIVE|9370|M|27.25,57.49|Z|1944|
@@ -277,6 +281,7 @@ T Honor the Fallen|QID|10258|M|56.92,77.37|N|To Commander Hogarth inside the tow
 R Spinebreaker Post|ACTIVE|10294|M|61.12,81.09|Z|1944|
 T Void Ridge|QID|10294|M|61.87,81.53|N|To Ogath the Mad at Spinebreaker Post.|
 A From the Abyss|QID|10295|M|61.87,81.53|N|From Ogath the Mad.|PRE|10294|
+* Void Ridge Soul Shard|ACTIVE|-10294|AVAILABLE|-10294|N|You no longer need these.|U|29161|
 K Grillok "Darkeye"|ACTIVE|10834|M|66,71|L|31529|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nHe's inside the cave near the Boiling Cauldron. After clearing ALL of the mobs around the entrance, try and pull his guards from the entrance. When everyone is dead, kill Grillok "Darkeye".|
 R Spinebreaker Pass|ACTIVE|10295|M|71.43,67.32|QO|1|N|Leave the cave and make your way northeast around Zeth'gor.|
 R Void Ridge|ACTIVE|10295|M|75.04,66.40|QO|1|N|Head to Void Ridge on the other side of the hill.|
