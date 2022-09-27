@@ -128,6 +128,7 @@ C The Tides Turn|QID|11968|M|67.5,56.7|N|Kill Heigarr the Horrible.|
 T The Tides Turn|QID|11968|M|67.21,54.84|N|To Elder Muahit.|
 A Travel to Moa'ki Harbor|QID|12117|LEAD|11958|M|67.27,54.87|N|From Hotawa.|PRE|11968|
 r Sell junk, repair and re-stock food/drink in Unu'pe.|QID|12117|M|77.91,52.51|
+f Unu'pe|QID|12117|M|78.50,51.50|N|Get the flight point in Unu'pe|
 A The Honored Ancestors|QID|11605|M|54.69,35.69|N|Folow the Road north until you see a large tuskarr statue called "Elder Atkanok" on the left side of the path. The Elder offers this quest.|
 A Reclaiming the Quarry|QID|11612|M|54.3,36.1|N|From Etaruk on the ledge above Elder Atkanok.|
 C Reclaiming the Quarry|QID|11612|N|Kill Beryl Treasure Hunters.|S|
@@ -457,12 +458,12 @@ A Surrender... Not!|QID|11566|PRE|11565|N|From King Mrgl-Mrgl.|M|43.50,13.97|
 C Surrender... Not!|QID|11566|U|34620|N|Swim back to Winterfin Village and use King Mrgl-Mrgl's Spare Suit. Follow the right wall inside the cave until you reach Claximus. Kill him and loot his claw, then put the suit back on.|M|37.72,27.07|
 T Surrender... Not!|QID|11566|U|34620|N|Leave the cave and get back to King Mrgl-Mrgl at the Winterfin Retreat.|M|43.50,13.97|
 T Monitoring the Rift: Winterfin Cavern|QID|12728|N|To Librarian Garren.|M|44.98,33.38|
-N Done with Borean Tundra, but...|N|That concludes Borean Tundra, but if you plan on continuing with Jame's guide, follow the next few steps right to the end to get to Valgarde Keep.|
 F Unu'pe|QID|12117|N|Fly to Unu'pe.|M|45.26,34.42|
 b Moa'ki Harbor|QID|12117|N|Take the turtle to Moa'ki Harbor in Dragonblight.|M|78.91,53.67|
 T Travel to Moa'ki Harbor|QID|12117|N|To Ko'nani|Z|Dragonblight|M|48.01,74.88|
 b Kamagua|QID|11228|N|Use the pier on your left-hand side to travel to Kamagua.|Z|Dragonblight|M|49.63,78.42|
 R Valgarde|QID|11228|N|Take the Ancient Lift, then follow the waypoint arrows.|Z|Howling Fjord|M|24.70,62.27;44.3,59.1;46,50;51,44.67;52.3,47.8;59.6,61.0|CC|
+N Done with Borean Tundra, but...|N|That concludes Borean Tundra.|
 ; Level 80 quests need alot of work.
 A Corastrasza|QID|13412|PRE|11919|N|From Librarian Serra|M|33.48,34.38|LVL|80|
 T Corastrasza|QID|13412|N|To Corastrasza on the next-to-uppermost shattered ring floating around The Nexus|M|29.48,24.81|
