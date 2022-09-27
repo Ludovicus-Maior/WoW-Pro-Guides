@@ -370,22 +370,21 @@ K Insane Druids|QID|1012|ACTIVE|1012|M|74.60,76.40;77.2,73.98|CS|QO|1|N|Head sou
 K Insane Druids|QID|1012|ACTIVE|1012|M|77.97,72.73|QO|2|N|Drop down from bridge and go down the tunner on our left. Fall down into another tunnel and Uthil Mooncall will be to your right.|Z|Ashenvale|
 K Insane Druids|QID|1012|ACTIVE|1012|M|74.78,74.33|QO|3|N|Go straight out, follow the tunnel ahead. At the end of the tunnel head up the ramp to your left onto the platform in the center of the room. Take the right-side bridge and follow the tunnel that wraps around the room to find Mavoris Cloudsbreak.|Z|Ashenvale|
 H Astranaar|ACTIVE|1022|N|Hearth back to Astranaar|
-C The Howling Vale|QID|1022|M|50.5,39.1|N|View the Tome of Mel'Thandris.|Z|Ashenvale|
-T Insane Druids|QID|1012|M|85.28,44.72|N|Take the tunnel to the south, follow it up and to the right to return to the entrance. Return north along the road to Kayneth Stillwind.|Z|Ashenvale|
-T The Howling Vale|QID|1022|M|86.02,44.11|N|To Sentinel Melyria Frostshadow.|Z|Ashenvale|
-T The Branch of Cenarius|QID|1031|M|86.52,43.92|N|To Illiyana. She walks around camp.|Z|Ashenvale|
-f Talrendis Point|QID|1027|M|11.90,77.59|Z|Azshara|N|Grab the Azshara flightpoint while you're here. From Jarrodenus.|
-
-F Astranaar|QID|1027|M|11.90,77.59|Z|Azshara|N|Fly back to Astranaar.|
-T Fallen Sky Lake|QID|1035|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
-R Moonwell|AVAILABLE|1024|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CS|N|Head to Moonwell to turn in Raene's Cleansing|Z|Ashenvale|
+C The Howling Vale|QID|1012|M|50.5,39.1|N|View the Tome of Mel'Thandris.|Z|Ashenvale|
+R Moonwell|AVAILABLE|1024|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CS|N|Take the tunnel to the south, follow it up and to the right to return to the entrance. Then head to Moonwell to turn in Raene's Cleansing|Z|Ashenvale|
 T Raene's Cleansing|QID|1027|M|53.5,46.3|N|To Shael'dryn.|Z|Ashenvale|
 A Raene's Cleansing|QID|1028|M|53.5,46.3|N|From Shael'dryn. Wait a moment while she fixes the rod.|PRE|1027|Z|Ashenvale|
 T Raene's Cleansing|QID|1028|M|50.60,46.90;51.40,52.50;53.70,54.00;56.38,49.23|CS|N|Run back around the mountains counter clockwise until you hit the path leading up to the Hidden Shrine.|Z|Ashenvale|
 A Raene's Cleansing|QID|1055|M|56.4,49.3|N|From Hidden Shrine.|PRE|1028|Z|Ashenvale|
 T Raene's Cleansing|QID|1055|M|56.10,51.35;51.40,52.50;53.5,46.3|CS|N|Return along the route to Shael'dryn.|Z|Ashenvale|
 A Raene's Cleansing|QID|1029|M|53.5,46.3|N|From Shael'dryn.|PRE|1055|Z|Ashenvale|
-H Astranaar|ACTIVE|1029|N|Hearth back to Astranaar|
+T Insane Druids|QID|1012|M|85.28,44.72|N| Return north along the road to Kayneth Stillwind.|Z|Ashenvale|
+T The Howling Vale|QID|1022|M|86.02,44.11|N|To Sentinel Melyria Frostshadow.|Z|Ashenvale|
+T The Branch of Cenarius|QID|1031|M|86.52,43.92|N|To Illiyana. She walks around camp.|Z|Ashenvale|
+f Talrendis Point|QID|1027|M|11.90,77.59|Z|Azshara|N|Grab the Azshara flightpoint while you're here. From Jarrodenus.|
+F Astranaar|QID|1027|M|11.90,77.59|Z|Azshara|N|Fly back to Astranaar.|
+T Fallen Sky Lake|QID|1035|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
+
 T Raene's Cleansing|QID|1029|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
 * Rod of Transformation|AVAILABLE|1030|U|5462|M|36.6,49.6|N|Once the Raene's Cleansing questline is complete the Rod of Transformation will be removed from your inventory. If you wish to retain the ability to transform into a Furbolg after completing the quest discard the rod now before picking up the next quest. After completing the questline go to battle.net/support/en/restoration and select your character to restore the item|
 F Forest Song|ACTIVE|1032|M|34.40,48.00|N|Fly to Talrendis Point|Z|Ashenvale|

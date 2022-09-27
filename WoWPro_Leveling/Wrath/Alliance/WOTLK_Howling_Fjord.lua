@@ -6,7 +6,6 @@ WoWPro:GuideLevels(guide, 72, 74)
 WoWPro:GuideSteps(guide, function()
 return [[
 N Howling Fjord|QID|11228|N|Get to Howling Fjord with the boat from Menethil Harbor|
-T Wrath of the Lich King: To Northrend!|QID|60096|M|PLAYER|N|Quest turn-in on quest tracker once you enter Howling Fjord.|
 A Hell Has Frozen Over...|QID|11228|M|61.1,62.7|N|From Macalroy.|
 T Hell Has Frozen Over...|QID|11228|M|60.5,61.1|N|To Vice Admiral Keller.|
 A If Valgarde Falls...|QID|11243|PRE|11228|M|60.5,61.1|N|From Vice Admiral Keller.|

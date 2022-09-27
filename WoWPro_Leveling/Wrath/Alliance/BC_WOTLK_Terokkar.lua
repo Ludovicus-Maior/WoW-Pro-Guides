@@ -222,7 +222,7 @@ T I See Dead Draenei|QID|10227|N|To Ramdor the Mad.|M|35.16,66.18|
 A Ezekiel |QID|10228|PRE|10227|N|From Ramdor the Mad.|M|35.16,66.18|
 T Recover the Bones |QID|10030|N|To Ramdor the Mad.|M|35.16,66.18|
 A Helping the Lost Find Their Way|QID|10031|PRE|10030|N|From Ramdor the Mad.|M|35.16,66.18|
-T Can't Stay Away |QID|10180|N|To Isfar just inside Sehekk Halls.|M|44.79,65.6|
+T Can't Stay Away |QID|10180|M|44.11,65.06|N|To Isfar.|
 H Shattrath City |QID|10020|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 r Sell junk, Repair, restock|QID|10020|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
 H Shattrath City |AVAILABLE|10412|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
