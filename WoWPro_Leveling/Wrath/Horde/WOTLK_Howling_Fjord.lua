@@ -284,7 +284,7 @@ T Shield Hill |QID|11424|N|To "Hacksaw" Jenny.|M|53.68,65.22|
 T Parts for the Job |QID|11309|N|To "Hacksaw" Jenny.|M|53.68,65.22|
 A Warning: Some Assembly Required |QID|11310|M|53.68,65.22|N|From "Hacksaw" Jenny.|PRE|11309|
 A To Venomspite!|QID|12182|PRE|12181|M|52.03,67.38|N|This will take you to Dragonblight. Accept it to get the flightpoint there.|
-f Venomspite|QID|12182|M|76.52,62.23|N|Get the flightpoint at Junter Weiss.|
+f Venomspite|QID|12182|M|76.52,62.23|Z|Dragonblight|N|Get the flightpoint at Junter Weiss.|
 T To Venomspite!|QID|12182|M|77.68,62.78|N|To Chief Plaguebringer Middleton.|Z|Dragonblight|
 H Camp Winterhoof |QID|11267|N|Hearth to Camp Winterhoof.|
 T The Frost Wyrm and its Master |QID|11267|N|To Celea Frozenmane.|M|49.6,11.6|

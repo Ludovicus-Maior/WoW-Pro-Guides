@@ -1,8 +1,8 @@
 local guide = WoWPro:RegisterGuide("JamHow7274", "Leveling", "Howling Fjord", "WoWPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Howling Fjord")
 WoWPro:GuideName(guide, "Howling Fjord")
-WoWPro:GuideNextGuide(guide, "JamDra7475")
-WoWPro:GuideLevels(guide, 72, 74)
+WoWPro:GuideNextGuide(guide, "Dragonblight")
+WoWPro:GuideLevels(guide, 68, 72)
 WoWPro:GuideSteps(guide, function()
 return [[
 N Howling Fjord|QID|11228|N|Get to Howling Fjord with the boat from Menethil Harbor|
@@ -48,8 +48,8 @@ T The Shining Light|QID|11288|M|59.3,55.4|N|To Ares the Oathbound.|
 A Guided by Honor|QID|11289|PRE|11288|M|59.3,55.4|N|From Ares the Oathbound.|
 C The Depths of Depravity|QID|11277|N|Finish picking up Wyrmskull Tablets.|M|57.35,56.38|US|
 T The Depths of Depravity|QID|11277|M|56.9,53.8|N|To Glorenfeld.|
-A The Ring of Judgment|QID|11299|PRE|11277|M|56.9,53.8|N|From Glorenfeld.|
-T The Ring of Judgment|QID|11299|M|55.7,57.4|N|To Daegarn.|
+A The Ring of Judgement|QID|11299|PRE|11277|M|56.9,53.8|N|From Glorenfeld.|
+T The Ring of Judgement|QID|11299|M|55.7,57.4|N|To Daegarn.|
 A Stunning Defeat at the Ring|QID|11300|PRE|11299|M|55.7,57.4|N|From Daegarn.|
 C Stunning Defeat at the Ring|QID|11300|N|Kill the mobs in the center of the ring until Oluf the Violent shows up. Kill him and loot the Ancient Cipher from the ground.|M|55.06,57.52|
 T Stunning Defeat at the Ring|QID|11300|M|56.9,53.8|N|To Glorenfeld.|
@@ -65,7 +65,7 @@ T Guided by Honor|QID|11289|M|59.8,62.4|N|To Lord Irulon Trueblade.|
 C The Echo of Ymiron|QID|11343|U|33637|N|Use the Incense Burner inside this house and two Vrykuls will show up to have a conversation. Wait for the quest complete message, then cancel the buff.|M|60.15,50.84|
 C Locating the Mechanism|QID|11426|N|Kill a Dragonflayer Harpooner and loot the Harpoon Control Mechanism.|M|60.73,50.90|
 ; The quest 'Fresh Legs' has 'legs' lower-cased so it will not auto-accept, as it is optional.
-T Fresh Legs|QID|11251|N|To Defender Mordun. This quest is optional as Defender Mordun is inside Utgarde Keep now.|M|57.28,46.75|
+T Fresh Legs|QID|11251|N|To Defender Mordun. This quest is optional as Defender Mordun is inside Utgarde Keep now.|M|59.54,48.86|
 T The Echo of Ymiron|QID|11343|M|59.8,61.5|N|To Thoralius the Wise.|
 A Anguish of Nifflevar|QID|11344|PRE|11343|M|59.8,61.5|N|From Thoralius the Wise.|
 T Locating the Mechanism|QID|11426|M|60.1,62.4|N|To Guard Captain Zorek.|
@@ -128,7 +128,7 @@ A Iron Rune Constructs and You: The Bluff|QID|11491|PRE|11489|M|75.1,65.5|N|From
 C Iron Rune Constructs and You: The Bluff|QID|11491|N|Click the Work Bench again, then step on Lebronski's Rug. When he starts talking to you, use the Bluff ability.|M|74.80,65.28|
 T Iron Rune Constructs and You: The Bluff|QID|11491|M|75.1,65.5|N|To Walt.|
 A Lightning Infused Relics|QID|11494|PRE|11491|M|75.1,65.5|N|From Walt.|
-A The Delicate Sound of Thunder|QID|11495|PRE|11491|N|From Walt.|
+A The Delicate Sound of Thunder|QID|11495|PRE|11491|M|75.1,65.5|N|From Walt.|
 C Lightning Infused Relics|S|QID|11494|N|Click the work bench again, then go down to the bottom of the pit here to collect 15 Iron Rune Data using the Collect Data ability. You take no damage from falling while in the suit, and if an Iron Rune Dwarf questions you, use the Bluff ability. Stay away from Rampaging Earth Elementals; run away from them if you aggro.|M|72.78,74.70|
 C The Delicate Sound of Thunder|QID|11495|N|Go to the teleport rune called "Golem Transport - Level 2" and use the Rocket Jump ability while standing on it. Go to the middle Teleport rune here and Rocket Jump again. Go into the cave until you see a big statue, then wait for the quest complete message.|M|72.67,67.3;71.95,69.86;72.12,70.4|CS|
 C Lightning Infused Relics|US|QID|11494|N|Click the work bench again, then go down to the bottom of the pit here to collect 15 Iron Rune Data using the Collect Data ability. You take no damage from falling while in the suit, and if an Iron Rune Dwarf questions you, use the Bluff ability. Stay away from Rampaging Earth Elementals; run away from them if you aggro.|M|72.78,74.70|

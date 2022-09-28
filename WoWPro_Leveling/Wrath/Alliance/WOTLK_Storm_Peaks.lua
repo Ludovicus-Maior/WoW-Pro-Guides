@@ -1,8 +1,8 @@
 local guide = WoWPro:RegisterGuide("CybSto7980", "Leveling", "The Storm Peaks", "WoWPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "The Storm Peaks")
 WoWPro:GuideName(guide, "The Storm Peaks")
-WoWPro:GuideNextGuide(guide, "JamIce7980")
-WoWPro:GuideLevels(guide, 79, 80)
+WoWPro:GuideNextGuide(guide, "Icecrown")
+WoWPro:GuideLevels(guide, 77, 80)
 WoWPro:GuideSteps(guide, function()
 return [[
 N READ THIS!|QID|12818|N|This guide picks up only non-group, non-instance quests.|
