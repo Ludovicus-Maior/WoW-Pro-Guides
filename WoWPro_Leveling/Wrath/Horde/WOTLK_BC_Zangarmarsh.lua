@@ -24,6 +24,7 @@ A Plants of Zangarmarsh|QID|9802|M|80.4,64.2|N|From Lauranna Thar'well.|
 A Leader of the Darkcrest|QID|9730|N|From the Wanted Poster.|M|79.13,64.78|
 A Leader of the Bloodscale|QID|9817|N|From the Wanted Poster|M|79.13,64.78|
 l Unidentified Plant Parts|QID|9802|S|L|24401 10|N|Loot 10 Unidentified Plant Parts, they can drop off of any mobs.|
+C There's No Explanation for Fashion|QID|9769|S|N|Kill and loot flies for the wings. Pet collectors might want to kill Bogflare Needlers along the northern border for a small chance of a Caged Firefly|M|79.7,70.1|
 C Thick Hydra Scales|QID|9774|S|N|Kill and loot Mire Hyrdas.|M|78,74|
 C No More Mushrooms!|QID|9773|S|N|Head into the lake and kill the eels. The droprate is fairly low, so this may take a while.|M|74.2,60.7|U|25539|
 C No More Mushrooms!|QID|9773|US|N|Head into the lake and kill the eels. The droprate is fairly low, so this may take a while.|M|74.2,60.7|U|25539|
@@ -35,39 +36,38 @@ A Escape from Umbrafen|QID|9752|N|From Kayra Longmane. This is an escort quest. 
 C Escape from Umbrafen|QID|9752|M|83.4,85.5|N|Follow and protect Kayra. You'll get ambushed twice, by two Umbrafen Slavebinders each time.|
 T The Umbrafen Tribe|QID|9747|M|80.4,64.2|N|To Ikeyen.|
 A A Damp, Dark Place|QID|9788|PRE|9747|M|80.4,64.2|N|From Ikeyen.|
-T Plants of Zangarmarsh|QID|9802|M|80.4,64.2|N|To Lauranna Thar'well.|
+t Plants of Zangarmarsh|QID|9802|M|80.4,64.2|N|To Lauranna Thar'well.|IZ|1126; Cenarion Refuge|
 A Saving the Sporeloks|QID|10096|PRE|9747|M|80.4,64.2|N|From Lauranna Thar'well.|
 A Safeguarding the Watchers|QID|9894|PRE|9747|M|80.4,64.7|N|From Windcaller Blackhoof.|
 T The Dying Balance|QID|9895|M|78.5,63.1|N|To Lethyn Moonfire.|
 T Escape from Umbrafen|QID|9752|M|78.4,62.0|N|To Ysiel Windsinger.|
-C There's No Explanation for Fashion|QID|9769|S|N|Kill and loot flies for the wings. Pet collectors might want to kill Bogflare Needlers along the northern border for a small chance of a Caged Firefly|M|79.7,70.1|
 C Menacing Marshfangs|QID|9770|N|Finish this off. They're around Swamprat Post (Go between the two waypoint until you have all your kills).|M|82.46,58.43;85.66,48.88|CN|
 C There's No Explanation for Fashion|QID|9769|M|79.7,70.1|N|Kill and loot flies for the wings. Pet collectors might want to kill Bogflare Needlers along the northern border for a small chance of a Caged Firefly|US|
 T No More Mushrooms!|QID|9773|M|84.4,54.3|N|To Magasha.|
 T There's No Explanation for Fashion|QID|9769|M|84.4,54.3|N|To Magasha.|
 T Menacing Marshfangs|QID|9770|M|85.0,54.0|N|To Reavij.|
-A A Job Undone|QID|9899|M|84.4,54.3|N|From Magasha.|PRE|9770^9769|
+A A Job Undone|QID|9899|M|84.4,54.3|N|From Magasha.|PRE|9770^9769| ; no pre
 A The Respect of Another|QID|9898|PRE|9770|M|85.0,54.0|N|From Reavij.|
 T Thick Hydra Scales|QID|9774|M|85.3,54.8|N|To Zurai.|
 A Searching for Scout Jyoba|QID|9771|PRE|9774|M|85.3,54.8|N|From Zurai.|
-K A Job Undone|QID|9899|QO|1|N|Kill Sporewing.|M|76.61,45.15|
-l Withered Basidium|QID|9828|L|24484|S|N|Kill Withered Giants until you get a Withered Basidium, it has a drop change of about 2% so it might take a while.|M|81,36|
-l Bog Lord Tendrils|QID|9769|L|24291 3|S|M|81,36|N|Kill Withered Bog Lords and Withered Giants until you get at least 3 Bog Lord Tendrils. You need 6 for a quest later on, but you will have a chance to kill more then too.|
+K A Job Undone|ACTIVE|9899|QO|1|N|Kill Sporewing.|M|76.61,45.15|
+l Withered Basidium|AVAILABLE|9828|M|81,36|L|24484|ITEM|24484|N|Withered Giant\nIt has a low drop rate and might take a while.|S!US|IZ|The Dead Mire|
+A Withered Basidium|QID|9828|N|From the Withered Basidium.|U|24484|O|
+l Bog Lord Tendrils|AVAILABLE|9743|M|81,36|L|24291 6|ITEM|24291|N|Any type of Bog Lord or Withered Giant\nYou need 6 for a quest later on.|S!US|IZ|The Dead Mire|
 T Searching for Scout Jyoba|QID|9771|M|80.76,36.3|N|To Scout Jyoba's corpse.|
 A Jyoba's Report|QID|9772|PRE|9771|M|80.8,36.3|N|From Scout Jyoba's corpse.|
 C Jyoba's Report|QID|9772|N|Drops off the Withered Giants.|M|81.6,35.0|
-l Withered Basidium|QID|9828|L|24484|US|N|Kill Withered Giants until you get a Withered Basidium, it has a drop change of about 2% so it might take a while.|M|81,36|
-A Withered Basidium|QID|9828|U|24484|M|78.3,45.2|N|From the Withered Basidium.|
-l Bog Lord Tendrils|QID|9769|L|24291 3|US|M|81,36|N|Kill Withered Bog Lords and Withered Giants until you get 3 Bog Lord Tendrils. These are used for a quest later on.|
+;l Withered Basidium|QID|9828|L|24484|US|N|Kill Withered Giants until you get a Withered Basidium, it has a drop change of about 2% so it might take a while.|M|81,36|IZ|The Dead Mire|
+;l Bog Lord Tendrils|ACTIVE|9899|AVAILABLE|9743|L|24291 3|US|M|81,36|N|Kill Withered Bog Lords and Withered Giants until you get 3 Bog Lord Tendrils. These are used for a quest later on.|
 T A Job Undone|QID|9899|M|84.4,54.3|N|To Magasha.|
-T Withered Basidium|QID|9828|M|85.0,54.0|N|To Reavij.|
+t Withered Basidium|QID|9828|M|85.0,54.0|N|To Reavij.|IZ|Swamprat Post|
 T Jyoba's Report|QID|9772|M|85.3,54.8|N|To Zurai.|
 R Funggor Cavern|QID|10096|M|75.02,90.96|N|Fly/Ride to Funggor Cavern.|
-C Saving the Sporeloks|QID|10096|N|Kill Marsh Dredgers and Lurkers.|S|
-C A Damp, Dark Place|QID|9788|N|Enter Funggor Cavern to the southwest. Go right at the first fork, then right again at the second fork and down the slope, Ikeyen's Belongings are down the bottom on top of a flat rock.|M|70.5,97.9|
+K Saving the Sporeloks|ACTIVE|10096|QO|1;2|N|\n[color=FF0000]NOTE: [/color]They won't aggro you as long as they're fighting a Sporelok. Don't go out of your way to kill them.|S|
+C A Damp, Dark Place|QID|9788||M|74.43,92.03;70.52,97.90|CC|N|Enter the cavern to the southwest. Go right at the first fork, then right again at the second fork and down the slope, Ikeyen's Belongings are down the bottom on top of a flat rock.
 C Safeguarding the Watchers|QID|9894|N|Head further down the slope and go west. Lord Klaq is at the end. He's guarded by 3 fungal giants, but should be soloable. It is possible to pull the guards without Klaq, and also to wait for Sporeloks to engage his guards and just kill him, or to kill him and run.|
-C Saving the Sporeloks|QID|10096|N|Kill Marsh Dredgers and Lurkers.|US|
-T A Damp, Dark Place|QID|9788|M|80.4,64.2|N|To Ikeyen.|
+K Saving the Sporeloks|ACTIVE|10096|QO|1;2|N|Finish up as you work your way back out.|US|
+T A Damp, Dark Place|QID|9788|M|80.4,64.2|N|To Ikeyen in Canarion Refuge.|
 T Saving the Sporeloks|QID|10096|M|80.4,64.2|N|To Lauranna Thar'well.|
 T Safeguarding the Watchers|QID|9894|M|80.4,64.7|N|To Windcaller Blackhoof.|
 r Fedryen Swiftspear|QID|9718|N|Sell junk and repair.|

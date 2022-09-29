@@ -120,7 +120,7 @@ K A Burden of Souls|ACTIVE|10864|M|46.91,45.59|QO|1|N|Kill any Shattered Hand Or
 L Nearly 60?|N|Grind until you're less that 20,000 from lv 60.|LVL|59;-19600|
 R Thrallmar|ACTIVE|10864|M|55.64,41.83|Z|1944|
 T A Burden of Souls|QID|10864|M|52.28,36.46|N|To Apothecary Antonivich.|
-A The Demoniac Scryer|QID|10838|M|52.28,36.46|N|From Apothecary Antonivich.|PRE|10864|
+A The Demoniac Scryer|QID|10838|M|52.28,36.46|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Apothecary Antonivich.|PRE|10864|
 T Doorway to the Abyss|QID|10392|M|55.0,36.0|N|To Nazgrel.|
 A Cruel's Intentions|QID|10136|M|55.02,35.96|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Nazgrel.|PRE|10392|
 A The Assassin|QID|9400|M|55.02,35.96|N|From Nazgrel.|LVL|60|
@@ -272,7 +272,7 @@ T Trueflight Arrows|QID|9381|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
 R Pools of Aggonar|ACTIVE|9370|QO|1|M|40.73,43.48|
 K The Cleansing Must Be Stopped|ACTIVE|9370|M|39.04,40.34|QO|1|N|Once you've cleared around the Altar of Aggonar, use the Signaling Gem. Of the 3 mobs that spawn, focus on killing the Draenei Anchorite first.\n[color=FF0000]NOTE: [/color]They don't appear instantaneously, it takes a few moments for them to appear1 running towards you.|T|Draenei Anchorite|U|23358|
 
-H Falcon Watch|ACTIVE|9370|M|27.25,57.49|Z|1944|
+H Falcon Watch|ACTIVE|9370|M|25.81,61.32|Z|1944|
 T The Cleansing Must Be Stopped|QID|9370|M|26.99,59.54|N|To Ryathen the Somber.|
 C Western Beacon|QID|9391|M|30.03,60.58|QO|1|N|Clear all of the Stonescythe mobs in the surrounding area as they will aggro when you light the beacon with the Lit Torch.|U|23480|NC|
 C Central Beacon|QID|9391|M|34.07,60.01|QO|2|N|Rinse and repeat.|U|23480|NC|
@@ -292,71 +292,75 @@ T Grillok "Darkeye"|QID|10834|M|61.66,81.86|N|To Zezzak.|
 T From the Abyss|QID|10295|M|61.87,81.53|N|To Ogath the Mad.|
 F Falcon Watch|ACTIVE|9391|M|61.64,81.21|
 T Marking the Path|QID|9391|M|28.49,60.24|N|To Ranger Captain Venn'ren.\n[color=FF0000]NOTE: [/color]Remember, you have to use the Orb of Translocation to reach him.|
-C Magic of the Arakkoa|QID|9396|M|25.5,70.5|L|23483 4|ITEM|23483|N|Haal'eshi Talonguards and Windwalkers|S|
-R Den of Haal'esh|ACTIVE|9396|M|26.18,71.22|N|It's to the south.|
-C Birds of a Feather|QID|9397|M|25.5,71.5|U|23485|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|S|
-K Avruu|ACTIVE|9396|M|26,76|L|23580|N|Kill and loot Avruu. Careful, he has a very quick respawn, so move after you kill him.|
-A Avruu's Orb|QID|9418|M|PLAYER|O|U|23580|N|From Avruu's Orb.|
-T Avruu's Orb|QID|9418|M|29,81|N|Click on the Haal'eshi Altar, Aeranas will spawn. Get him down to about 50%, then turn the quest in to it.|
-C Birds of a Feather|QID|9397|M|25.5,71.5|U|23485|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|US|
-C Magic of the Arakkoa|QID|9396|M|25.5,70.5|L|23483 4|ITEM|23483|N|Haal'eshi Talonguards and Windwalkers|US|
-N READ THIS|QID|9375|N|Time for an escort. Let the NPC go first, to make sure she helps on everything. She can solo a birdman, so let her if you need to eat or drink. There's an ambush, but it's not too hard.|
-A The Road to Falcon Watch|QID|9375|M|24.54,76.04|N|From Wounded Blood Elf Pilgrim. She is on the bottom level.|
-C The Road to Falcon Watch|QID|9375|M|24.5,76.0|N|Follow the Wounded Blood Elf Pilgrim, keep her safe.|
-T The Road to Falcon Watch|QID|9375|M|27.0,62.0|N|To Taleris Dawngazer.|
-A A Pilgrim's Plight|QID|9376|M|27.0,62.0|N|From Taleris Dawngazer.|PRE|9375|
-T Birds of a Feather|QID|9397|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
+C Magic of the Arakkoa|QID|9396|M|25.50,70.50|L|23483 4|ITEM|23483|N|Haal'eshi Talonguards and Windwalkers|S|
+R Den of Haal'esh|ACTIVE|9396|M|26.18,71.22|N|Head south.|
+C Birds of a Feather|QID|9397|M|25.50,71.50|N|Click on Kaliri Nests and if a Female Kaliri Hatchling spawns, use the birdcage on it.|U|23485|S|
+K Avruu|ACTIVE|9396|M|25.52,78.44;25.66,75.92|CS|L|23580|N|Locate Avruu on the west side ledge.\n[color=FF0000]NOTE: [/color]He has a very quick respawn timer.|
+A Avruu's Orb|QID|9418|N|From Avruu's Orb.|U|23580|O|
+T Avruu's Orb|QID|9418|M|28.99,81.46|N|Click on the Haal'eshi Altar and be prepared for Aeranas to attack you after he spawns.\n[color=FF0000]NOTE: [/color]When you get Aeranas down to ~50%, he'll become friendly and you can turn the quest in.|
+C Birds of a Feather|QID|9397|M|25.50,71.50|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|U|23485|US|
+C Magic of the Arakkoa|QID|9396|M|25.50,70.50|L|23483 4|ITEM|23483|N|Haal'eshi Talonguards and Windwalkers|US|
+A The Road to Falcon Watch|QID|9375|M|24.54,76.06|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Wounded Blood Elf Pilgrim inside the cage located in the west alcove.|
+C The Road to Falcon Watch|QID|9375|M|26.21,70.83;25.59,67.99;27.13,61.91|CS||N|Follow the Wounded Blood Elf Pilgrim, letting her take the lead and the aggro.\n[color=FF0000]NOTE: [/color]She can solo a birdman if you need to pause. There's a couple ambushes along the way, but not too difficult.|
+T The Road to Falcon Watch|QID|9375|M|27.15,61.90|N|To Taleris Dawngazer.|
+A A Pilgrim's Plight|QID|9376|M|27.15,61.90|N|From Taleris Dawngazer.|PRE|9375|
 T Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|To Arcanist Calesthris Dawnstar.|
-C A Pilgrim's Plight|QID|9376|M|22.12,68.31|N|Loot the pack off the ground.|
+T Birds of a Feather|QID|9397|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
+C A Pilgrim's Plight|QID|9376|M|22.12,68.31|L|23343|N|Locate the pack on the ground in Dustquill Ravine.|
 T Demonic Contamination|QID|9372|M|15.70,52.09|N|To Thiah Redmane.|
 A Testing the Antidote|QID|10255|M|15.70,52.09|N|From Thiah Redmane.|PRE|9372|
-C Testing the Antidote|QID|10255|M|25.0,54.0|N|Go find a Hulking Helboar, use the Cenarion Antidote on it. It'll get bigger and change its name, finish it off. The helboars can be found off to the east.|U|23337|
+C Testing the Antidote|QID|10255|M|25.0,54.0|QO|1|N|Use the Cenarion Antidote on a Hulking Helboar and when it gets bigger and changes its name, kill it. They can be found off to the east.|U|23337|
 T Testing the Antidote|QID|10255|M|15.70,52.09|N|To Thiah Redmane.|
-C Source of the Corruption|QID|9387|M|15.0,55.5|S|N|Kill the Taskmasters until you have enough essence. The Brutes will run once you kill the Taskmaster.|
+C Source of the Corruption|QID|9387|M|15.00,55.50|L|29113 5|ITEM|29113|N|Illidari Taskmaster\n[color=FF0000]NOTE: [/color]Avoid AoE damage because the Brutes/Geomancers will run once you kill the Taskmaster.|S|
 A Naladu|QID|10403|M|15.59,58.75|N|From Akoru the Firecaller.|LEAD|10367|
-T Naladu|QID|10403|M|16.3,65.1|N|To Naladu.|
-A A Traitor Among Us|QID|10367|M|16.3,65.1|N|From Naladu.|
-C A Traitor Among Us|QID|10367|M|14.35,63.35|N|Get the key from the chest here.|
-T A Traitor Among Us|QID|10367|M|16.3,65.1|N|To Naladu.|
-A The Dreghood Elders|QID|10368|M|16.3,65.1|N|From Naladu.|PRE|10367|
-C The Dreghood Elders|QID|10368|QO|1|M|13.10,61.00|CHAT|N|Free Morod here.|
-C The Dreghood Elders|QID|10368|QO|3|M|13.00,58.40|CHAT|N|Free Aylaan here.|
-C The Dreghood Elders|QID|10368|QO|2|M|15.50,58.75|CHAT|N|Free Akoru here.|
-T The Dreghood Elders|QID|10368|M|16.3,65.1|N|To Naladu.|
-A Arzeth's Demise|QID|10369|M|16.3,65.1|N|From Naladu.|PRE|10368|
-C Arzeth's Demise|QID|10369|M|14.25,61.50|T|Arzeth the Merciless|U|29513|N|Use the Staff of the Dreghood Elders on Azreth to turn him into a non-elite, then kill him.|
-T Arzeth's Demise|QID|10369|M|16.3,65.1|N|To Naladu.|
-C Source of the Corruption|QID|9387|M|15.0,55.5|US|N|Kill the Taskmasters until you have enough essence. The Brutes will run once you kill the Taskmaster.|
-C Keep Thornfang Hill Clear!|QID|10159|M|12,50|N|Kill the Ravagers and Venomspitters needed for this quest.|
+T Naladu|QID|10403|M|16.27,65.09|N|To Naladu.|
+A A Traitor Among Us|QID|10367|M|16.27,65.09|N|From Naladu.|
+C A Traitor Among Us|QID|10367|M|14.34,63.50|L|29501|N|The key is inside the chest.|
+T A Traitor Among Us|QID|10367|M|16.27,65.09|N|To Naladu.|
+A The Dreghood Elders|QID|10368|M|16.27,65.09|N|From Naladu.|PRE|10367|
+C Morod|QID|10368|M|13.10,61.00|QO|1|CHAT|
+C Aylaan|QID|10368|M|13.00,58.40|QO|3|CHAT|
+C Akoru the Firecaller|QID|10368|M|15.59,58.75|QO|2|CHAT|
+T The Dreghood Elders|QID|10368|M|16.27,65.09|N|To Naladu.|
+A Arzeth's Demise|QID|10369|M|16.27,65.09|N|From Naladu.|PRE|10368|
+C Arzeth's Demise|QID|10369|M|14.25,61.50|N|Use the Staff of the Dreghood Elders on Azreth to turn him into a non-elite, then kill him.|T|Arzeth the Merciless|U|29513|
+T Arzeth's Demise|QID|10369|M|16.27,65.09|N|To Naladu.|
+C Source of the Corruption|QID|9387|M|15.00,55.50|L|29113 5|ITEM|29113|N|Illidari Taskmaster\n[color=FF0000]NOTE: [/color]Avoid AoE damage because the Brutes/Geomancers will run once you kill the Taskmaster.|US|
+K Keep Thornfang Hill Clear!|ACTIVE|10159|M|11.75,49.75|QO|1;2|N|They are spread out over the area and on the other side of the hill.|
 T Keep Thornfang Hill Clear!|QID|10159|M|15.66,52.15|N|To Mahuram Stouthoof.|
-R Cenarion Refuge|ACTIVE|9472|M|80.5,64.0|Z|Zangarmarsh|N|Follow the road west, you'll come to Cenarion Refuge.  While you are here, this guide has you pick up quests so you can fly back next time instead of running.|
-A The Umbrafen Tribe|QID|9747|M|80.5,64.0|Z|Zangarmarsh|N|From Ikeyen.|
-A Plants of Zangarmarsh|QID|9802|M|80.3,64.2|Z|Zangarmarsh|N|From Lauranna Thar'well.|
-A Leader of the Darkcrest|QID|9730|M|79.1,64.9|Z|Zangarmarsh|N|From the Wanted Poster.|
-A Leader of the Bloodscale|QID|9817|M|79.1,64.9|Z|Zangarmarsh|N|From the Wanted Poster.|
-A The Dying Balance|QID|9895|M|78.5,63.0|Z|Zangarmarsh|N|From Lethyn Moonfire.|
-B Cenarion Spirits|QID|9472|M|78.5,63.0|Z|Zangarmarsh|L|29112|N|Available from the innkeeper.|
-T The Cenarion Expedition|QID|9912|M|78.5,62.0|Z|Zangarmarsh|N|To Ysiel Windsinger.|
-A Disturbance at Umbrafen Lake|QID|9716|M|78.5,62.0|Z|Zangarmarsh|N|From Ysiel Windsinger.|
-A Warden Hamoot|QID|9778|LEAD|9728|M|78.4,62.1|Z|Zangarmarsh|N|From Ysiel Windsinger.|
-T Warden Hamoot|QID|9778|M|79.1,65.2|Z|Zangarmarsh|N|To Warden Hamoot.|
-A A Warm Welcome|QID|9728|M|79.0,65.5|Z|Zangarmarsh|N|From Warden Hamoot.|
+R Cenarion Refuge|ACTIVE|9472|M|82.29,64.68|Z|Zangarmarsh|N|Follow the road west until you reach Cenarion Refuge in Zangarmarsh.\n[color=FF0000]NOTE: [/color]We're grabbing the FP now so you can fly here later instead of running. We're also going to grab (and turn in) a few quests while we're here.|
+A The Umbrafen Tribe|QID|9747|M|80.39,64.15|Z|Zangarmarsh|N|From Ikeyen.|
+A Plants of Zangarmarsh|QID|9802|M|80.32,64.17|Z|Zangarmarsh|N|From Lauranna Thar'well.|
+A Leader of the Darkcrest|QID|9730|M|79.10,64.87|Z|Zangarmarsh|N|From the Wanted Poster on the wall.|
+A Leader of the Bloodscale|QID|9817|M|79.10,64.87|Z|Zangarmarsh|N|From the Wanted Poster on the wall.|
+A The Dying Balance|QID|9895|M|78.53,63.15|Z|Zangarmarsh|N|From Lethyn Moonfire.|
+B Cenarion Spirits|ACTIVE|9472|M|78.49,62.94|Z|Zangarmarsh|L|29112|N|From Innkeeper Coryth Stoktron.\n[color=FF0000]NOTE: [/color]You're going to need for a quest shortly.|
+T The Cenarion Expedition|QID|9912|M|78.40,62.02|Z|Zangarmarsh|N|To Ysiel Windsinger.|
+A Disturbance at Umbrafen Lake|QID|9716|M|78.40,62.02|Z|Zangarmarsh|N|From Ysiel Windsinger.|
+A Warden Hamoot|QID|9778|M|78.40,62.02|Z|Zangarmarsh|N|From Ysiel Windsinger.|LEAD|9728|
+T Warden Hamoot|QID|9778|M|79.09,65.27|Z|Zangarmarsh|N|To Warden Hamoot at the top of the tower.|
+A A Warm Welcome|QID|9728|M|79.09,65.27|Z|Zangarmarsh|N|From Warden Hamoot.|
 R Swamprat Post|ACTIVE|10103|M|85,55|Z|Zangarmarsh|N|To Swamprat Post in the northeast.|
-f Swamprat Post|ACTIVE|10103|M|84.77,55.11|Z|Zangarmarsh|N|Grab the flight path From Gur'zil.|
-T Report to Zurai|QID|10103|M|85.5,55.0|Z|Zangarmarsh|N|To Zurai.|
+f Swamprat Post|ACTIVE|10103|M|84.77,55.11|Z|Zangarmarsh|N|From Gur'zil.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+T Report to Zurai|QID|10103|M|85.28,54.76|Z|Zangarmarsh|N|To Zurai.|
 H Falcon Watch|ACTIVE|9387|M|84.77,55.11|Z|Zangarmarsh|N|Hearth (or Fly) to Falcon Watch.|
 T Source of the Corruption|QID|9387|M|26.79,59.71|N|To Apothecary Azethen.|
 T A Pilgrim's Plight|QID|9376|M|27.16,61.90|N|To Taleris Dawngazer.|
-C Arelion's Mistress|QID|9472|M|27.0,62.0|N|Go find Viera Sunwhisper, she has a blue '?' on her head. Accept her 'quest', follow her, and when she says something about trying wine, use the scroll on her.|U|23693|
+A Life's Finer Pleasures|QID|9483|ACTIVE|9472|M|27.15,62.11|N|From Viera Sunwhisper.\n[color=FF0000]NOTE: [/color]If she's not there, someone's already on the 'escort' quest and you'll have to wait for her to respawn shortly.|
+l Cenarion Spirits|ACTIVE|9472&9483|L|29112|N|Fly to Swamprat Post and run to Cenarion Refuge. Buy the Spirits from Innkeeper Coryth Stoktron and head back to Falcon Watch.\n[color=FF0000]NOTE: [/color]This is why you were told to buy it earlier.|
+T Life's Finer Pleasures|QID|9483|ACTIVE|9472|M|27.15,62.11|N|To Viera Sunwhisper.|
+C Arelion's Mistress|QID|9472|M|26.54,63.91|N|Follow Viera Sunwhisper. When she stops and says something about trying wine, use the scroll on her.|U|23693|NC|
 T Arelion's Mistress|QID|9472|M|26.37,60.32|N|To Magistrix Carinda.|
-C The Demoniac Scryer|QID|10838|M|44.9,49.2|N|Time for a challenge! Head over to Hellfire Basin. Find yourself a clear spot, and HP/mana up. When you use the item, you'll have to defend the crystal from waves of very weak imps, and occasional orc spawns, which should be taken down immediately. The crystal can take some beating, though. Once smoke starts shooting upwards, talk to the crystal to finish the quest.|U|31606|
-R Thrallmar|ACTIVE|10838|M|52.28,36.45|N|Run to Thrallmar.|
+R Hellfire Basin|ACTIVE|10838|M|44.13,51.10|
+C The Demoniac Scryer|QID|10838|M|44.13,51.10|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nUse the Demoniac Scryer and defend the crystal from waves of very weak imps, and occasional orc spawns. When smoke starts coming out of the Crystal, talk to it to finish the quest.\n[color=FF0000]NOTE: [/color]The crystal can take some beating, but don't let it.|U|31606|
+R Thrallmar|ACTIVE|10838|M|38.26,48.81;53.97,42.59|CS|N|Run to Thrallmar or hearth and fly.|
 T The Demoniac Scryer|QID|10838|M|52.28,36.46|N|From Apothecary Antonivich.|
 A Report to Nazgrel|QID|10875|M|52.28,36.46|N|From Apothecary Antonivich.|PRE|10838|
 T Report to Nazgrel|QID|10875|M|55.02,35.96|N|To Nazgrel.|
-A The Foot of the Citadel|QID|10876|M|55.02,35.96|N|From Nazgrel.|PRE|10875|
-C The Foot of the Citadel|QID|10876|M|47.43,49.71|U|31702|N|Kill Force-Commander Gorax, then plant the Challenge From the Horde on his corpse. Once The Hand of Kargath appears, kill and loot him for his head.|
-T The Foot of the Citadel|QID|10876|M|55.02,35.96|N|To Nazgrel.|
-N This ends|N|Hellfire Peninsula. Visit Shattrath or Orgrimmar to see your trainers if you wish (Death Gate if you are a Death Knight). Close this step to head on into Zangarmarsh.|
+A The Foot of the Citadel|QID|10876|M|55.02,35.96|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Nazgrel.|PRE|10875|
+C Challenge From the Horde|ACTIVE|10876|M|55.02,35.96|L|31702|QO|1|N|[color=FF0000]NOTE: [/color]You need to abandon the quest to get a new one.|NOCACHE|
+K The Foot of the Citadel|ACTIVE|10876|M|51.56,46.37;47.43,49.71|CC|L|31706|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nDraw Force-Commander Gorax away from the group and kill him (lv 63 Elite) . When you're ready for the fight, plant the Challenge From the Horde on his corpse.\n[color=FF0000]NOTE: [/color]When the Hand of Kargath spawns with 2 guards, focus on killing The Hand first and his guards second.\n[color=CC00FF]If you die, you have to abandon the quest to get a new flag.[/color]|U|31702|O|
+C Challenge From the Horde|ACTIVE|10876|M|55.02,35.96|L|31702|QO|1|N|[color=FF0000]NOTE: [/color]You need to abandon the quest to get a new one.|
+T The Foot of the Citadel|QID|10876|M|55.02,35.96|N|To Nazgrel in Thrallmar.|
 ]]
 end)
