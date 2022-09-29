@@ -331,7 +331,7 @@ l Tough Ram Meat|QID|11284|L|33352 4|N|Loot 4 Tough Ram Meat from Frosthorn Rams
 U Tough Ram Meat|QID|11284|U|33352|L|33477|N|Combine the 4 Tough Ram Meat to get a Giant Yeti Meal.|M|71.57,13.76|
 T The Book of Runes|QID|11346|M|62.3,17.2|N|To Prospector Belvar.|
 A Mastering the Runes|QID|11349|PRE|11346|M|62.3,17.2|N|From Prospector Belvar.|
-T March of the Giants|QID|11355|N|To Researcher Aderan.|
+T March of the Giants|QID|11355|M|62.56,16.57|N|To Researcher Aderan.|
 A The Lodestone|QID|11358|PRE|11355|N|From Researcher Aderan.|
 C The Lodestone|QID|11358|U|33819|N|Use the Rune Sample at the Broken Tablet here and wait for the quest complete message.|M|71.63,17.61|
 C Mastering the Runes|QID|11349|N|Look for Iron Rune Carving Tools under the canopies in this area and loot them.|M|67.51,23.29|

@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('Wrath_Utgarde_Keep', 'Leveling', 'Howling Fjord', 'WoWPro Team', 'Alliance', 3)
-WoWPro:GuideLevels(guide,70, 80)
+WoWPro:GuideLevels(guide,68, 80)
 WoWPro:GuideName(guide, 'Dungeon: Utgarde Keep')
 WoWPro:GuideSteps(guide, function()
 return [[
