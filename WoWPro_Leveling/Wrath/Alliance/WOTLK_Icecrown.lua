@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide("NLXIce7980", "Leveling", "Icecrown", "WoWPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Icecrown")
 WoWPro:GuideName(guide, "Icecrown")
-WoWPro:GuideLevels(guide, 79, 80)
+WoWPro:GuideLevels(guide, 77, 80)
 WoWPro:GuideSteps(guide, function()
 return [[
 N How to use this Guide|QID|13418|N|This guide includes many 5-Man Quests. It is unlikely that you will find a random group for those since the release of Cataclysm, but you can easily solo most of them once your character wears Cataclysm-Gear. If you already have a full equipment from any of the Cataclysm zones, you can try to do them solo, if you don't, just skip those Quests.|

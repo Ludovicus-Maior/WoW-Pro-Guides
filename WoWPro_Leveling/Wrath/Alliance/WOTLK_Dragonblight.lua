@@ -1,8 +1,8 @@
 local guide = WoWPro:RegisterGuide("JamDra7475", "Leveling", "Dragonblight", "WoWPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Dragonblight")
 WoWPro:GuideName(guide, "Dragonblight")
-WoWPro:GuideNextGuide(guide, "JamGri7577")
-WoWPro:GuideLevels(guide, 74, 75)
+WoWPro:GuideNextGuide(guide, "Grizzly Hills")
+WoWPro:GuideLevels(guide, 71, 75)
 WoWPro:GuideSteps(guide, function()
 return [[
 N Note|QID|12174^12298|N|If you followed my previous guides, you should be in Wintergarde Keep, Dragonblight and have the following quest: High Commander Halford Wyrmbane If you don't have it, just ignore this quest, it's not a big deal, you can get the follow up anyway. Let's get started!|

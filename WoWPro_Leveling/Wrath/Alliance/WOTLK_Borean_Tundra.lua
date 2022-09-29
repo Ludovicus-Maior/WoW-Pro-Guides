@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide("JamBor6872", "Leveling", "Borean Tundra", "WoWPro Team", "Alliance", 3)
 WoWPro:GuideName(guide,"Borean Tundra")
-WoWPro:GuideLevels(guide,68, 72)
-WoWPro:GuideNextGuide(guide, "Dragonblight")
+WoWPro:GuideLevels(guide,70, 72)
+WoWPro:GuideNextGuide(guide, "Howling Fjord")
 WoWPro:GuideSteps(guide, function()
 return [[
 B Overcharged Capacitor|QID|11650|M|60.80,71.38|Z|Stormwind City|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest leads to two further quests, so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|
@@ -254,7 +254,7 @@ C Fueling the Project|QID|11715|M|57.52,25.03|N|Use the Portable Oil Collector o
 T Fueling the Project|QID|11715|M|57.06,20.12|N|To Abner Fizzletorque.|
 A A Bot in Mammoth's Clothing|QID|11718|M|57.06,20.12|N|From Abner Fizzletorque.|PRE|11715|
 C A Bot in Mammoth's Clothing|QID|11718|M|53.66,21.74|N|Kill mammoths until you get 6 Thick Mammoth Hides.|
-C Plan B|QID|11658|M|49.57,26.55|N|Grab the Warsong Banner here and loot 10 Warsong Outfits from the bodies around the area. You can take the clothing off them while on your flying mount.|
+C Plan B|QID|11658|M|49.57,26.55|N|Grab the Warsong Banner here and loot 10 Warsong Outfits from the bodies around the area. You can take the clothing off them while on your mount.|
 T A Bot in Mammoth's Clothing|QID|11718|M|57.06,20.12|N|To Abner Fizzletorque.|
 A Deploy the Shake-n-Quake!|QID|11723|M|57.06,20.12|N|From Abner Fizzletorque.|PRE|11718|
 T Plan B|QID|11658|M|57.58,18.71;58.18,18.34|CN|N|To Crafty Wobblesprocket who wanders a bit at the Fizzcrank Airstrip.|

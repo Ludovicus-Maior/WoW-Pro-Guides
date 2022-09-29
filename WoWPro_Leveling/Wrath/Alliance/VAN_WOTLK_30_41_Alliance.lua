@@ -70,8 +70,8 @@ R Tanaris|ACTIVE|1111|M|75.5,97.75|N|Run south to Tanaris.|
 f Gadgetzan|ACTIVE|1111|M|51.01,29.34|Z|Tanaris|N|Get the flight path at Bera Stonehammer.|
 H Theramore Isle|ACTIVE|1111|M|51.01,29.34|Z|Tanaris|N|Hearth (or fly) to Theramore.|
 T Highperch Venom|QID|1135|M|66.46,45.15|Z|Dustwallow Marsh|N|To Fiora Longears.|
-T The Orc Report|QID|1219|M|65.08,47.12|Z|Dustwallow Marsh|N|To Theramore Lieutenant.|
-A Captain Vimes|QID|1220|M|65.08,47.12|Z|Dustwallow Marsh|N|From Theramore Lieutenant.|PRE|1219|
+T The Orc Report|QID|1219|M|65.08,47.12|Z|Dustwallow Marsh|N|To Lieutenant Aden.|
+A Captain Vimes|QID|1220|M|65.08,47.12|Z|Dustwallow Marsh|N|From Lieutenant Aden.|PRE|1219|
 T Captain Vimes|QID|1220|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
 T The Black Shield|QID|1253|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
 A The Black Shield|QID|1319|M|68.21,48.62|Z|Dustwallow Marsh|N|From Captain Garran Vimes, 3rd floor of the Citidel.|PRE|1253|
@@ -638,7 +638,7 @@ f Nethergarde Keep|ACTIVE|1448|M|65.54,24.34|Z|Blasted Lands|N|Get the flight-pa
 F Stormwind|ACTIVE|1448|M|65.54,24.34|Z|Blasted Lands|N|Fly to Stormwind.|TZ|Stormwind City|C|-Mage|
 P Wizard's Sanctum|ACTIVE|1448|N|Teleport to Storwind|C|Mage|
 T In Search of The Temple|QID|1448|M|69.47,40.51|Z|Stormwind City|N|To Brohann Caskbelly, in the Dwarven District. Don't take follow-up.|
-R Deeprun Tram|QID|1467|M||69.01,30.91|Z|Stormwind City|N|Run to the Deeprun tram.|
+R Deeprun Tram|QID|1467|M|69.01,30.91|Z|Stormwind City|N|Run to the Deeprun tram.|
 R Tinker Town|QID|1467|N|Take the tram ride and then run into Ironforge.|
 T Reagents for Reclaimers Inc.|QID|1467|M|69.9,21.3|Z|Ironforge|N|To Roetten Stonehammer. He patrols the entrance to the Hall of Explorers.|
 T The Karnitol Shipwreck|QID|1457|M|69.9,21.3|Z|Ironforge|N|To Roetten Stonehammer. He patrols the entrance to the Hall of Explorers.|

@@ -1,8 +1,8 @@
 local guide = WoWPro:RegisterGuide("JamGri7577", "Leveling", "Grizzly Hills", "WoWPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Grizzly Hills")
 WoWPro:GuideName(guide, "Grizzly Hills")
-WoWPro:GuideNextGuide(guide, "ScoZul7778")
-WoWPro:GuideLevels(guide, 75, 77)
+WoWPro:GuideNextGuide(guide, "Zul'Drak")
+WoWPro:GuideLevels(guide, 70, 74)
 WoWPro:GuideSteps(guide, function()
 return [[
 T The Hills Have Us|QID|12511|N|To Lieutenant Dumont in Amberpine Lodge.|M|31.89,60.15|
