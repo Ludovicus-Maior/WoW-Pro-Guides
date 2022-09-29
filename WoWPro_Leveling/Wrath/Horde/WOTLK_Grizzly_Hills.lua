@@ -82,7 +82,7 @@ l Dull Carving Knife|QID|11989|L|38083|N|Next to the cage you should find a Dull
 C Truce?|QID|11989|U|38083|N|Use the Carving Knife then talk to Drakuru and click on the text.|M|16.4,47.8|
 T Truce? |QID|11989|N|To Drakuru.|M|16.44,47.83|
 A Vial of Visions |QID|11990|PRE|11989|M|16.4,47.8|N|From Drakuru.|
-B Crystal Vial|QID|11990|L|3371|N|Buy a Crystal Vial from Ameenah.|M|16.0,47.8|
+B Imbued Vial|QID|11990|L|18256|N|Buy a Imbued Vial from Ameenah.|M|16.0,47.8|
 C Vial of Visions|QID|11990|N|Go north/northwest to the lake. Dive in and loot Waterweed Frond. Look for Hazelwood Bushes on the way and loot 3 Haze Leafs.|M|15.0,39.0|
 T Vial of Visions|QID|11990|N|To Drakuru.|M|16.45,47.85|
 A Subject to Interpretation|QID|11991|PRE|11990|M|16.4,47.8|N|From Drakuru.|
