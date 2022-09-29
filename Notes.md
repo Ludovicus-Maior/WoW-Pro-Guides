@@ -1,3 +1,36 @@
+# Release 2020.09.29.A
+## Bug Fixes
+* Update ACE3 Library to r1280
+* Update HereBeDragons Library to 2.09
+* Censor the logging of CHAT_MSG_ADDON because it can corrupt the log
+* Remove vestigial Guide Selector because it broke DF
+* Rework client detection logic to work for Wrath and DF
+* Fix broken logging on SelectItemToUse()
+* Fix wrong argument to QuestCompleted() query
+* Fix crash on Vanilla if [ability=] markup was used
+* Use PanelTabButtonTemplate in DF
+* Add pro tem map info for DF
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Talador
+* Horde:
+* Neutral: Bastion, Covenant
+
+### Classic
+* New dungeon guides are in the oven.  Not ready yet!
+
+### WotLK
+* Alliance: Pretty much every guide edited
+* Neutral: Pretty much every guide edited
+* Horde: Pretty much every guide edited
+
+### Professions
+* Classic: Pretty much every guide edited
+* BC: Pretty much every guide edited
+* Wrath: Pretty much every guide edited
+
+
 # Release 2020.09.07.A
 ## Bug Fixes
 * Fixed Wrath detection
