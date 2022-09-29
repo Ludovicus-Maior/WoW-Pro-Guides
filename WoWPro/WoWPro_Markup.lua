@@ -7,6 +7,10 @@ local function RegisterMarkup(tag, func)
 end
 
 function WoWPro.ExpandAbility(ability,want_icon, want_text)
+    if not _G.C_PetJournal then
+        WoWPro:print("Markup [ability=] not usable in Classic")
+        return nil
+    end
     local name, icon = _G.C_PetJournal.GetPetAbilityInfo(tonumber(ability))
     local expanded = ""
     if name then
