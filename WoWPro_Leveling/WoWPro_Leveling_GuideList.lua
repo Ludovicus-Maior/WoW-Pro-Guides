@@ -47,7 +47,7 @@ local continentToXpac = {
 -- /dump C_Map.GetMapInfo(1355)
 local function GetGuideContent(guide, mapID)
     if not mapID then
-        Leveling:dbp("Invalid data for zone %s", guide.zone)
+        Leveling:dbp("Invalid zone %s in guide %s", tostring(guide.zone), guide.GID)
         return defaultXpac
     end
 
