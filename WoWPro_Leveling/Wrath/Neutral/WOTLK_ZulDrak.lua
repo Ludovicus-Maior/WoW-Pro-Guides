@@ -5,14 +5,6 @@ WoWPro:GuideNextGuide(guide, "Sholazar Basin")
 WoWPro:GuideLevels(guide, 74, 77)
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
-N READ THIS!|QID|12902|N|If you followed Jame's Dragonblight guide you have the quest Into the Breach!, which will be the first quest in the Achievement, but you will have to make your own way to Light's Breach.|
-N READ THIS 2!|QID|12902|N|Otherwise you can do the optional quest that starts at Westfall Brigade Encampment in Grizzly Hills, it will fly you there, but doesn't count toward the Achievement.|FACTION|Alliance|
-N READ THIS 3!|QID|12902|N|To do the optional quest abandon Into the Breach! and get Reallocating Resources from Captain Gryan Stoutmantle.|FACTION|Alliance|
-N Amphitheater of Anguish|QID|12948|N|While questing look for a group for the Amphitheater of Anguish. There are 6 quests here . You will need some of them for the Achievement, so anytime you can get in, do so. You must be 75 to do these quests.|
-N Amphitheater of Anguish|QID|12948|N|There is an optional leadin quest from Dalaran's Underbelly for the Amphitheater of Anguish, get that now before going to Light's Breach.|
-N Darkkari Offerings|QID|12859|N|As you kill things, loot everything. They have a chance to drop Drakkari Offerings (need 30 total) which are used in 3 quests, and give you a few types of buffs while in Zul'Drak.|
 A The Champion's Call!|QID|12974|O|Z|The Underbelly@Dalaran|M|53.2,48.8|N|In the Underbelly in Dalaran, find Shifty Vickers. This breadcrumb quest is not availible if you do ANY of the Amphitheater line and it counts to Loremaster.|LEAD|12954|
 f Light's Breach|QID|12883|N|Fly to Light's Breach.|Z|Zul'Drak|M|32.05,74.50|
 T Into the Breach!|QID|12789|O|N|To Sargent Riannah, who is next to the Flightmaster.|M|32.05,74.50|
