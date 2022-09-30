@@ -110,15 +110,15 @@ A A Piece of the Puzzle|QID|35353|M|37.67,51.13|N|From Alice Finn.|PRE|35339|RAN
 C A Piece of the Puzzle|QID|35353|M|37.73,51.01|N|He is in the basement.|T|Horrific Aberration|RANK|2|
 T A Piece of the Puzzle|QID|35353|M|37.51,50.76|N|To Alice Finn (she is waiting for you in the kitchen).|RANK|2|
 A Second in Command|QID|35380|M|37.55,50.76|N|From Alice Finn.|PRE|35353|RANK|2|
-T Second in Command|QID|35380|M|37.70,53.81|N|To Sir Harris.|RANK|2|
-A Punishable by Death|QID|35407|M|37.70,53.81|N|From Sir Harris.|PRE|35380|RANK|2|
+T Second in Command|QID|35380|M|37.70,53.81|N|To Sir Edward.|RANK|2|
+A Punishable by Death|QID|35407|M|37.70,53.81|N|From Sir Edward.|PRE|35380|RANK|2|
 A Prime the Cannons|QID|35408|M|37.66,53.87|N|From Lady Claudia.|PRE|35380|RANK|2|
 C Punishable by Death|QID|35407|M|35.58,52.84|S|RANK|2|N|Kill any Traitorous mobs for this.|
 C Prime the Cannons|QID|35408|NC|QO|1|M|37.01,52.45|S|RANK|2|N|Loot the cannonballs from the ground.|
 C Prime the Cannons|QID|35408|NC|QO|2|M|36.42,53.55|RANK|2|N|Loot the cannon.|
 C Prime the Cannons|QID|35408|NC|QO|1|M|37.01,52.45|US|RANK|2|N|Finish picking up cannonballs.|
 C Punishable by Death|QID|35407|M|35.58,52.84|US|RANK|2|N|Finish killing Traitors.|
-T Punishable by Death|QID|35407|M|37.70,53.81|N|To Sir Harris.|RANK|2|
+T Punishable by Death|QID|35407|M|37.70,53.81|N|To Sir Edward.|RANK|2|
 T Prime the Cannons|QID|35408|M|37.65,53.87|N|To Lady Claudia.|RANK|2|
 A Admiral Taylor|QID|35482^36183|M|37.65,53.89|N|From Lady Claudia.|PRE|35407&35408|RANK|2|
 C Admiral Taylor|QID|35482^36183|M|36.83,57.30|N|Wait for a short scene, then kill the bad guys.|RANK|2|
