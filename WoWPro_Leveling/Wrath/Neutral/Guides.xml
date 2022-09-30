@@ -5,4 +5,7 @@
 	<Script file="WOTLK_ZulDrak.lua"/>
 	<Script file="73_80_Dungeon_Wrath_Ahnkahet_The Old Kingdom.lua"/>
 	<Script file="72_80_Dungeon_Wrath_Azjol-Nerub.lua"/>
+	<Script file="68_80_Dungeon_Wrath_The_ Nexus.lua"/>
+	<Script file="73_80_Dungeon_Wrath_DrakTharon_Keep.lua"/>
+	<Script file="74_80_Dungeon_Wrath_Gundrak.lua"/>
 </Ui>
