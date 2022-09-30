@@ -189,7 +189,7 @@ l In Memoriam |QID|12975|QO|1|N|Pick up horn fragments.|M|72.1,49.4|
 T In Memoriam |QID|12975|M|65.4,60.2|N|To King Jokkum|
 A A Monument to the Fallen |QID|12976|PRE|12975|M|65.4,60.2|N|From King Jokkum|
 T A Monument to the Fallen |QID|12976|M|63.2,63.2|N|To Njormeld|
-A Forging a Head |QID|12985|PRE|12967|M|63.2,63.2|N|From Njormeld|
+A Forging a Head |QID|12985|PRE|12967|M|63.2,63.2|N|From Njormeld|REP|The Sons of Hodir;1119;friendly|
 A Hot and Cold |QID|12981|PRE|12967|N|Daily Quest From Fjorn's Anvil|M|63.19,62.95|
 A Hodir's Call |QID|12977|PRE|12976|N|Daily Quest from Hodir's Horn. Fly out of Dun Niffelem to the south, then right back in. |M|64.83,67;64.12,65.14|CS|
 C Forging a Head |QID|12985|N|Use the pick on the dead Iron Giants.|U|42424|M|69.7,58.9|S|
@@ -204,7 +204,7 @@ T Hot and Cold |QID|12981|N|To Fjorn's Anvil|M|63.19,62.95|
 C Placing Hodir's Helm |QID|12987|N|Fly to , use the Tablets. You don't have to dismount. By the way it's in the air, not on the ground. Look for the glimmering  crystal.|U|42442|M|64.26,59.23|
 T Placing Hodir's Helm |QID|12987|M|63.2,63.2|
 A A Viscous Cleaning |QID|13006|PRE|12985|N|Daily Quest From Hodir's Helm|M|64.2,59.2|
-A Raising Hodir's Spear|QID|13001|N|From LoreKeeper Randvir|M|64.82,59.02|
+A Raising Hodir's Spear|QID|13001|N|From LoreKeeper Randvir|M|64.82,59.02|REP|The Sons of Hodir;1119;honored|
 A Culling Jorcuttar |QID|13011|M|65.4,60.2|N|From King Jokkum|
 K Raising Hodir's Spear|QID|13001|QO|2|N|Kill Stoic Mammoths for their Hide|M|58.88,60.69|
 C A Viscous Cleaning |QID|13006|N|Kill Viscous Oils in the cave.|M|55.6,63.4|S|
@@ -243,7 +243,7 @@ C The Witness and the Hero |QID|13034|QO|3|N|In the village.|M|67.49,50.53|
 T The Witness and the Hero |QID|13034|N|To Xarantaur|M|65.72,51.44|
 A Memories of Stormhoof |QID|13037|PRE|13034|N|From Xarantaur|M|65.72,51.44|
 C Memories of Stormhoof |QID|13037|N|The Wailing Winds are hard to see, you might want to turn on the nameplates (V key). Find Chieftain Swiftspear straight back.  Listen to his story.|M|62.51,41.64;61.19,39.03|CS|
-A Distortions in Time |QID|13038|PRE|13037|N|From Chieftain Swiftspear|
+A Distortions in Time |QID|13038|PRE|13034|N|From Chieftain Swiftspear|
 C Distortions in Time |QID|13038|N|Use the Totem on the rifts.|U|42781|
 T Memories of Stormhoof |QID|13037|N|To Xarantaur|M|65.72,51.44|
 T Distortions in Time |QID|13038|N|To Xarantaur|M|65.72,51.44|
