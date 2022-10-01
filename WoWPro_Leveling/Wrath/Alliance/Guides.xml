@@ -5,6 +5,7 @@
   <Script file="BC_WOTLK_Shadowmoon.lua"/>
   <Script file="BC_WOTLK_Terokkar.lua"/>
   <Script file="BC_WOTLK_Zangarmarsh.lua"/>
+  <Script file="DF_Azure_Span.lua"/>
   <Script file="DF_Waking_Shores"/>
   <Script file="INTRO_Draenai.lua"/>
   <Script file="INTRO_DwarfGnome.lua"/>
