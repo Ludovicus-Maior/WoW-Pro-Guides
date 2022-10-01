@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('DF_Waking_Shores', 'Leveling', 'Stormwind City', 'WowPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('DF_Waking_Shores', 'Leveling', 'Stormwind City', 'WowPro Team', 'Neutral', 10)
 WoWPro:GuideName(guide,"Waking Shores")
 WoWPro:GuideLevels(guide,60, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
