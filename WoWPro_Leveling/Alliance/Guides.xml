@@ -42,6 +42,7 @@
 	<Script file="CATA_Westfall.lua"/>
 	<Script file="CATA_Wetlands.lua"/>
     <Script file="DF_Azure_Span.lua"/>
+    <Script file="DF_Waking_Shores.lua"/>
 	<Script file="INTRO_Chromie_Time.lua"/>
 	<Script file="INTRO_Dark_Iron_Dwarf.lua"/>
 	<Script file="INTRO_Draenai.lua"/>
