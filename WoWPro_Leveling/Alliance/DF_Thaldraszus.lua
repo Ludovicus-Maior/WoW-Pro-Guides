@@ -250,7 +250,6 @@ C A Sketchy Request|QID|66230|M|55.60,69.29|Z|2025|QO|2|NC|U|191134|N|Alvi's "Le
 T A Sketchy Request|QID|66230|M|56.96,67.69|Z|2025|N|To Waywatcher Alvi.|
 A A Poisonous Palette|QID|66456|PRE|66230|M|56.96,67.69|Z|2025|N|From Waywatcher Alvi.|
 A Ending the Blue Period|QID|66457|PRE|66230|M|56.96,67.69|Z|2025|N|From Waywatcher Alvi.|
-A The Waveblade Ankoan|QID|56119|PRE|66230|M|56.05,70.39|Z|2025|
 C A Poisonous Palette|QID|66456|M|55.68,70.47|Z|2025|QO|1|NC|U|191134|N|Envenomed Spear.|
 A Armies of Legionfall|QID|48641|PRE|66230|M|55.63,70.53|Z|2025|N|From Skittering Woodborer.|
 C Ending the Blue Period|QID|66457|M|55.89,71.18|Z|2025|QO|1|U|191134|N|Bluescale slain.|
@@ -269,18 +268,11 @@ T An Anomalous Shrine|QID|67093|M|60.98,40.22|Z|2112|N|To Nozdormu.|
 A The Algeth'ar Academy|QID|72193|PRE|67093|M|61.39,36.46|Z|2112|N|From Kalecgos.|
 T Report on the Rebels|QID|70879|M|55.86,39.94|Z|2112|N|To Captain Drine.|
 C Moving On|QID|66221|M|57.97,36.04|Z|2112|QO|1|CHAT|N|Speak with Alexstrasza.|
-A The Waveblade Ankoan|QID|56119|M|57.97,36.04|Z|2112|
-A The Waveblade Ankoan|QID|56119|M|57.74,33.31|Z|2112|
-A The Waveblade Ankoan|QID|56119|M|57.74,33.31|Z|2112|
-A The Waveblade Ankoan|QID|56119|M|48.38,50.07|Z|2112|
 A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|
 A Making a Name|QID|70750|M|50.64,57.95|Z|2112|N|From Therazal.|
-A The Waveblade Ankoan|QID|56119|M|74.01,62.03|Z|2112|
-A The Waveblade Ankoan|QID|56119|M|73.83,61.93|Z|2112|
 T Dragonscale Expedition: Help Needed!|QID|70846|M|84.20,54.33|Z|2112|N|To Greyzik Cobblefinger.|
 A Jump-Start? Jump-Starting!|QID|70180|PRE|70846|M|84.20,54.33|Z|2112|N|From Greyzik Cobblefinger.|
 C Jump-Start? Jump-Starting!|QID|70180|M|84.74,54.78|Z|2112|QO|1|NC|U|194441|N|Pilot the Goblin Gyrocopter.|
-A The Waveblade Ankoan|QID|56119|M|68.69,77.52|Z|2112|
 A Garden Variety|QID|72189|M|77.49,66.03|Z|2112|N|From Tender Xina.|
 A A Dryad's Work Is Never Done|QID|67094|M|72.83,66.19|Z|2112|N|From Thalendra.|
 C A Dryad's Work Is Never Done|QID|67094|M|67.21,70.25|Z|2112|QO|1|NC|U|194441|N|Hungry Swoglet Fed.|
