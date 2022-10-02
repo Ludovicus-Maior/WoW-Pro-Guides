@@ -60,7 +60,7 @@ A Train Like We Fight|QID|65036|PRE|64873|M|44.70,57.78|Z|2118; The Forbidden Re
 C Train Like We Fight|QID|65036|M|44.70,57.97|Z|2118; The Forbidden Reach|QO|1|NC|U|195044|N|Practice Soar.|
 T Train Like We Fight|QID|65036|M|44.28,60.96|Z|2118; The Forbidden Reach|N|To Scalecommander Emberthal.|
 A Caldera of the Menders|QID|65060|PRE|65036|M|44.28,60.96|Z|2118; The Forbidden Reach|N|From Scalecommander Emberthal.|
-C Caldera of the Menders|QID|65060|M|36.60,32.72|Z|2118; The Forbidden Reach|QO|1|NC|N|Meet Cindrethresh at the Caldera of the Menders.|
+C Caldera of the Menders|QID|65060|M|36.60,32.72|Z|2118; The Forbidden Reach|QO|1|NC|N|Meet Cindrethresh at the Caldera of the Menders.|CHAT|
 T Caldera of the Menders|QID|65060|M|18.90,16.02|Z|2118; The Forbidden Reach|N|To Scalecommander Cindrethresh.|
 A Into the Hive|QID|65063|PRE|65060|M|18.90,16.02|Z|2118; The Forbidden Reach|N|From Scalecommander Cindrethresh.|
 C Into the Hive|QID|65063|M|50.07,50.29|Z|2110|QO|1|NC|N|Follow Cindrethresh.|
@@ -69,7 +69,7 @@ A A Toxic Problem|QID|65073|PRE|65063|M|20.29,19.19|Z|2118; The Forbidden Reach|
 A Easy Prey|QID|65074|PRE|65063|M|20.29,19.19|Z|2118; The Forbidden Reach|N|From Scalecommander Cindrethresh.|
 C A Toxic Problem|QID|65073|M|33.14,31.61|Z|2118; The Forbidden Reach|QO|1|N|Toxin Glands collected.|S|
 C Easy Prey|QID|65074|M|34.14,32.06|Z|2118; The Forbidden Reach|QO|1|N|Scythid slain.|S|
-A Halp!|QID|65071|PRE|65063|M|33.55,33.22|Z|2118; The Forbidden Reach|N|From Unknown.|RANK|2|
+A Halp!|QID|65071|PRE|65063|M|33.55,33.22|Z|2118; The Forbidden Reach|N|From To'no.|RANK|2|
 C Halp!|QID|65071|M|27.41,36.44|Z|2118; The Forbidden Reach|QO|1|NC|N|Little Ko rescued.|
 C A Toxic Problem|QID|65073|M|33.14,31.61|Z|2118; The Forbidden Reach|QO|1|N|Toxin Glands collected.|US|
 C Easy Prey|QID|65074|M|34.14,32.06|Z|2118; The Forbidden Reach|QO|1|N|Scythid slain.|US|
@@ -134,7 +134,7 @@ C Final Orders|QID|65100|M|43.49,60.11|Z|2118; The Forbidden Reach|QO|2|CHAT|N|S
 C Final Orders|QID|65100|M|46.91,55.86|Z|2118; The Forbidden Reach|QO|3|NC|N|Sarkareth spoken to.|
 C Final Orders|QID|65100|M|43.43,54.21|Z|2118; The Forbidden Reach|QO|4|NC|N|Viridia spoken to.|
 T Final Orders|QID|65100|M|45.87,56.15|Z|2118; The Forbidden Reach|N|To Scalecommander Azurathel.|
-h The Forbidden Reach|QID|65100|M|45.87,56.15|Z|2118; The Forbidden Reach|
+;Alliance quests
 A Draconic Connections|QID|65286|PRE|65100|M|32.29,49.69|Z|37; Elwynn Forest|N|From Wrathion.|FACTION|Alliance|
 T Draconic Connections|QID|65286|M|32.29,49.69|Z|37; Elwynn Forest|N|To Scalecommander Azurathel.|FACTION|Alliance|
 A Ground Leave|QID|66513|PRE|65286|M|32.29,49.69|Z|37; Elwynn Forest|N|From Scalecommander Azurathel.|FACTION|Alliance|
@@ -168,5 +168,39 @@ A To the Dragon Isles!|QID|67700|M|22.89,55.61|Z|84; Stormwind City|N|From Toddy
 C To the Dragon Isles!|QID|67700|M|22.44,56.26|Z|84; Stormwind City|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.|FACTION|Alliance|
 C To the Dragon Isles!|QID|67700|M|82.07,31.57|Z|2022;The Waking Shores|QO|2|NC|N|Ride the Rugged Dragonscale to Dragon Isles.|FACTION|Alliance|
 T To the Dragon Isles!|QID|67700|M|82.12,31.84|Z|2022;The Waking Shores|N|To Toddy Whiskers.|FACTION|Alliance|
+; Horde quests
+A Spiritual Allies|QID|66237|M|45.64,12.88|Z|1;Durotar|N|From Spiritwalker Ebonhorn.|FACTION|Horde|
+T Spiritual Allies|QID|66237|M|45.64,12.88|Z|1;Durotar|N|To Scalecommander Cindrethresh.|FACTION|Horde|
+A Ground Leave|QID|66534|M|45.64,12.88|Z|1;Durotar|N|From Orgrimmar Grunt.|FACTION|Horde|
+A I Believe You Can Fly|QID|32674|M|49.51,93.86|Z|85;Orgrimmar|N|From Orgrimmar Grunt.|FACTION|Horde|
+C Ground Leave|QID|66534|M|55.70,90.05|Z|85;Orgrimmar|QO|4|NC|N|Visit the Portal Room.|FACTION|Horde|
+C Ground Leave|QID|66534|M|49.05,82.43|Z|85;Orgrimmar|QO|2|NC|N|Visit the Bank.|FACTION|Horde|
+C Ground Leave|QID|66534|M|53.59,73.75|Z|85;Orgrimmar|QO|1|NC|N|Visit the Auction House.|FACTION|Horde|
+C Ground Leave|QID|66534|M|38.18,80.62|Z|85;Orgrimmar|QO|3|NC|N|Visit the Embassy.|FACTION|Horde|
+T Ground Leave|QID|66534|M|44.18,38.40|Z|85;Orgrimmar|N|To Scalecommander Cindrethresh.|FACTION|Horde|
+A Aspectral Invitation|QID|65437|PRE|66534|M|44.18,38.40|Z|85;Orgrimmar|N|From Flashock.|FACTION|Horde|
+C Aspectral Invitation|QID|65437|M|44.18,38.40|Z|85;Orgrimmar|QO|1|CHAT|N|Speak with Ebyssian.|FACTION|Horde|
+T Aspectral Invitation|QID|65437|M|44.18,38.40|Z|85;Orgrimmar|N|To Ebyssian.|FACTION|Horde|
+A An Iconic, Draconic Look|QID|65613|PRE|65437|M|44.18,38.40|Z|85;Orgrimmar|N|From Ebyssian.|FACTION|Horde|
+C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|1|NC|N|Ask Ebyssian about Visage Form.|FACTION|Horde|
+C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|2|NC|N|Learn about Visage Form.|FACTION|Horde|
+C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|3|NC|N|Adopt a Visage Form.|FACTION|Horde|
+T An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|N|To Ebyssian.|FACTION|Horde|
+A The Dark Talons|QID|72256|PRE|65613|M|44.18,38.40|Z|85;Orgrimmar|N|From Scalecommander Cindrethresh.|FACTION|Horde|
+A Expeditionary Coordination|QID|65443|PRE|65613|M|44.30,38.09|Z|85;Orgrimmar|N|From Naleidea Rivergleam.|FACTION|Horde|
+C The Dark Talons|QID|72256|M|55.13,89.27|Z|85|QO|1|NC|N|Orders delivered to Kodethi.|S|FACTION|Horde|
+C Expeditionary Coordination|QID|65443|M|57.27,54.09|Z|85;Orgrimmar|QO|1|NC|N|Artisans recruited.|FACTION|Horde|
+C Expeditionary Coordination|QID|65443|M|71.28,50.83|Z|85;Valley of Honor|QO|3|NC|N|Scholars recruited.|FACTION|Horde|
+C Expeditionary Coordination|QID|65443|M|38.51,56.94|Z|85|QO|2|NC|N|Explorers recruited.|FACTION|Horde|
+C The Dark Talons|QID|72256|M|55.13,89.27|Z|85|QO|1|NC|N|Orders delivered to Kodethi.|US|FACTION|Horde|
+T Expeditionary Coordination|QID|65443|M|55.84,12.63|Z|1|N|To Naleidea Rivergleam.|FACTION|Horde|
+T The Dark Talons|QID|72256|M|55.84,12.63|Z|1|N|To Naleidea Rivergleam.|FACTION|Horde|
+A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.84,12.63|Z|1|N|From Archmage Khadgar.|FACTION|Horde|
+C Whispers on the Winds|QID|65439|M|55.84,12.63|Z|1|QO|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Horde|
+T Whispers on the Winds|QID|65439|M|55.84,12.63|Z|1|N|To Ebyssian.|FACTION|Horde|
+A To the Dragon Isles!|QID|65444|PRE|65439|M|55.84,12.63|Z|1|N|From Naleidea Rivergleam.|FACTION|Horde|
+C To the Dragon Isles!|QID|65444|M|55.98,13.15|Z|1|QO|1|NC|N|Wait for the Defiant Dragonscale at the zeppelin tower.|FACTION|Horde|
+C To the Dragon Isles!|QID|65444|M|80.79,27.86|Z|2022;The Waking Shores|QO|2|NC|N|Ride the Defiant Dragonscale to Dragon Isles.|FACTION|Horde|
+T To the Dragon Isles!|QID|65444|M|80.61,27.63|Z|2022;The Waking Shores|N|To Naleidea Rivergleam.|FACTION|Horde|
 ]]
 end)
