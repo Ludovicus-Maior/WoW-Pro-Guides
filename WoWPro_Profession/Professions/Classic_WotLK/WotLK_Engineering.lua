@@ -166,13 +166,13 @@ M [item=10559/Mithril Tube]|QID|202012589|P|Engineering;202;0+200;1|ITEM|10559|C
 N Engineering Specialization|QID|202002001|P|Engineering;202;0+200|N|Once you reach 200 you can chose either Gnomish or Goblin Specialization.  The materials needed or Quests to unlock are NOT covered in this guide.|
 
 ; Test Lines for either Goblin or Gnomish OR might have to use |AVAILIBLE| QIDs .... but need to FLIP  Gnome's QIDs |3641^3643|,  Goblin QID |3639|
-N TESTING|QID|2029920222|P|Engineering;202;0+200|SPELL|Goblin Engineer;20222;Flip|N|You have Goblin  Engineering!, PLEASE use Report step and put this in #WotLK-Bug-Report, this is a test step, and info is needed to fix this guide.|
-N TESTING|QID|2029920222|P|Engineering;202;0+200|SPELL|Gnomish Engineer;20219;Flip|N|You have Gnomish  Engineering!, PLEASE use Report step and put this in #WotLK-Bug-Report, this is a test step, and info is needed to fix this guide.|
+N TESTING|QID|2029920222|PRE|3639|P|Engineering;202;0+200|SPELL|Goblin Engineer;20222;Flip|N|You have Goblin  Engineering!, PLEASE use Report step and put this in #WotLK-Bug-Report, this is a test step, and info is needed to fix this guide.|
+N TESTING|QID|2029920222|PRE|3641^3643|P|Engineering;202;0+200|SPELL|Gnomish Engineer;20219;Flip|N|You have Gnomish  Engineering!, PLEASE use Report step and put this in #WotLK-Bug-Report, this is a test step, and info is needed to fix this guide.|
 ; REMOVE these lines, when reported, IF it works.  NOTES will be on lines that need this info.
 
 = Learn Recipe|QID|202002001|P|Engineering;202;0+200|RECIPE|12591|N|Learn [spell=12591/Unstable Trigger] Recipe from Trainer.|
 M [item=10560/Unstable Trigger]|QID|202012591|P|Engineering;202;0+216;1|ITEM|10560|CRAFT|12591 20|MATS|3860 1;4338 1;10505 1|N|Save these for later steps.|
-= Learn Recipe|QID|202002151|P|Engineering;202;0+215|RECIPE|12599|N|Learn [spell=12589/Mithril Casing] Recipe from Trainer.|
+= Learn Recipe|QID|202002151|P|Engineering;202;0+215|RECIPE|12599|N|Learn [spell=12599/Mithril Casing] Recipe from Trainer.|
 M [item=10561/Mithril Casing]|QID|202012599|P|Engineering;202;0+238;1|ITEM|10561|CRAFT|12599 40|MATS|3860 3|N|Save these for later steps.|
 = Learn Recipe|QID|202002351|P|Engineering;202;0+235|RECIPE|12619|N|Learn [spell=12619/Hi-Explosive Bomb] Recipe from Trainer.|
 M [item=10562/Hi-Explosive Bomb]|QID|202012619|P|Engineering;202;0+250;1|ITEM|10562|CRAFT|12619 20|MATS|10561 2;10560 1;10505 2|
