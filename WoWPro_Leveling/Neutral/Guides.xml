@@ -10,7 +10,9 @@
 	<Script file="CATA_Uldum.lua"/>
 	<Script file="CATA_UnGoro.lua"/>
 	<Script file="CATA_Winterspring.lua"/>
-	<Script file="DF_Waking_Shores.lua"/>
+	<Script file="DF_Azure_Span.lua"/>
+    <Script file="DF_Thaldraszus.lua"/>
+    <Script file="DF_Waking_Shores.lua"/>
 	<Script file="INTRO_DeathKnight.lua"/>
 	<Script file="INTRO_DeathKnight_Allied.lua"/>
 	<Script file="INTRO_Demon_Hunter.lua"/>
