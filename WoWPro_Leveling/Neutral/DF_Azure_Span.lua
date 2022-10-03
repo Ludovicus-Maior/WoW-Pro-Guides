@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('The Azure Span', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('The Azure Span', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"The Azure Span")
 WoWPro:GuideLevels(guide,1, 60)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
