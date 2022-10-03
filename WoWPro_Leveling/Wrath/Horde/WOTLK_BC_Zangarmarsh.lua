@@ -118,14 +118,14 @@ C Natural Enemies|QID|9743|M|14.17,60.63|L|24291 6|ITEM|24291|N|Any type of Bog 
 T The Sporelings' Plight|QID|9739|M|19.20,64.52;19.03,62.38|CC|N|Back at Fahssn.|
 T Natural Enemies|QID|9743|M|19.20,64.52;19.03,62.38|CC|N|To Fahssn.|
 T Observing the Sporelings|QID|9701|N|Back at Leesa'oh.|M|23.33,66.23|
-A A Question of Gluttony|QID|9702|PRE|9701|M|23.33,66.23|N|From Watcher Leesa'oh.|
+A A Question of Gluttony|QID|9702|M|23.33,66.23|N|From Watcher Leesa'oh.|PRE|9701|
 C A Question of Gluttony|QID|9702|M|29.24,63.92|L|24233 10|N|[color=FF0000]NOTE: [/color]They are found on the ground around Quagg Ridge.|
 T A Question of Gluttony|QID|9702|M|23.33,66.23|N|To Watcher Leesa'oh.|
-A Familiar Fungi|QID|9708|PRE|9702|M|23.33,66.23|N|From Watcher Leesa'oh.|
-R Zabra'jin|QID|9775|M|33.02,51.15||FLY|
-f Zabra'jin|QID|9775|M|33.00,51.15|N|Get the flight point at Du'ga.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-F Swamprat Post|QID|9775|M|33.00,51.15|N|Fly to Swamprat post.|
-T The Respect of Another|QID|9898|M|85.0,54.0|N|To Reavij.|
+A Familiar Fungi|QID|9708|M|23.33,66.23|N|From Watcher Leesa'oh.|PRE|9702|
+R Zabra'jin|QID|9775|M|33.02,51.15|
+f Zabra'jin|QID|9775|M|33.06,51.08|N|Get the flight point at Du'ga.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+F Swamprat Post|QID|9775|M|33.06,51.08|FLY|
+T The Respect of Another|QID|9898|M|85.0,54.0|N|To Reavij in Swamprat Post.|
 N Things to do|QID|9808|N|Grab Glowcap Mushrooms on sight. You'll need 10 Glowcaps(red glowing mushrooms), plus more Glowcaps if you plan on buying anything from Sporeggar.|
 A Report to Shadow Hunter Denjai|QID|9775|M|85.3,54.8|N|From Zurai.|
 F Zabra'jin|QID|9708|M|84.77,55.01|N|Fly back to Zabra'jin.|
