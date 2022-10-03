@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Thaldraszus', 'Leveling', 'Stormwind City', 'Tester', 'Neutral')
+local guide = WoWPro:RegisterGuide('Thaldraszus', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Thaldraszus")
 WoWPro:GuideLevels(guide,1, 60)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
