@@ -1,18 +1,19 @@
-local guide = WoWPro:RegisterGuide('DF_Waking_Shores', 'Leveling', 'Stormwind City', 'WowPro Team', 'Neutral', 10)
+local guide = WoWPro:RegisterGuide('DF_Waking_Shores', 'Leveling', 'Stormwind City', 'WowPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Waking Shores")
 WoWPro:GuideLevels(guide,60, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideSteps(guide, function()
 return [[
-T The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84|N|To Wrathion.|
-A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|84|N|From Wrathion.|
+A The Dragon Isles Await|QID|65436||Z|84|
+T The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84|N|To Wrathion at Stormwind Keep.|
+A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|84|N|From Wrathion, Once accepted choose the chat option.|
 C Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84|QO|1|CHAT|N|Speak with Wrathion.|
 T Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84|N|To Wrathion.|
 A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|84|N|From Scalecommander Azurathel.|
 A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|84|N|From Toddy Whiskers.|
 C Expeditionary Coordination|QID|66589|M|64.09,37.17|Z|84|QO|1|NC|N|Artisans recruited.|
-C The Obsidian Warders|QID|72240|M|50.94,67.29|Z|84|QO|1|NC|N|Orders delivered to Dervishian.|
 C Expeditionary Coordination|QID|66589|M|63.27,69.95|Z|84|QO|3|NC|N|Scholars recruited.|
+C The Obsidian Warders|QID|72240|M|50.94,67.29|Z|84|QO|1|NC|N|Orders delivered to Dervishian (He's on the roof of 'The Stockades Instance').|
 C Expeditionary Coordination|QID|66589|M|38.22,45.51|Z|84|QO|2|NC|N|Explorers recruited.|
 T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|84|N|To Toddy Whiskers.|
 T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|84|N|To Toddy Whiskers.|
@@ -25,54 +26,57 @@ C To the Dragon Isles!|QID|67700|M|82.02,31.74|Z|2022|QO|2|NC|N|Ride the Rugged 
 T To the Dragon Isles!|QID|67700|M|82.13,31.90|Z|2022|N|To Toddy Whiskers.|
 A Explorers in Peril|QID|70122|PRE|67700|M|82.13,31.90|Z|2022|N|From Toddy Whiskers.|
 A Primal Pests|QID|70123|PRE|67700|M|82.16,31.86|Z|2022|N|From Scalecommander Azurathel.|
-A Practice Materials|QID|70124|PRE|67700|M|82.09,31.89|Z|2022|N|From Unknown.|
-A Challiane Vineyards|QID|38203|M|81.73,33.20|Z|2022|
-C Practice Materials|QID|70124|M|79.40,32.88|Z|2022|QO|1|NC|N|Primal Proto-Whelp Scale.|
+A Practice Materials|QID|70124|PRE|67700|M|82.09,31.89|Z|2022|N|From Thaelin Darkanvil.|
+C Practice Materials|QID|70124|M|79.40,32.88|Z|2022|QO|1|NC|N|Primal Proto-Whelp Scale.|S|
+C Primal Pests|QID|70123|M|83.59,36.12|Z|2022|QO|1|N|Primal Proto-drakes slain.|S|
 C Explorers in Peril|QID|70122|M|79.47,35.32|Z|2022|QO|3|NC|N|Spelunker Lockeye rescued.|
 C Explorers in Peril|QID|70122|M|83.14,36.22|Z|2022|QO|2|NC|N|Archivist Rellid rescued.|
-C Primal Pests|QID|70123|M|83.59,36.12|Z|2022|QO|1|N|Primal Proto-drakes slain.|
 C Explorers in Peril|QID|70122|M|83.56,33.61|Z|2022|QO|1|NC|N|Professor Cogcatcher rescued.|
+C Practice Materials|QID|70124|M|79.40,32.88|Z|2022|QO|1|NC|N|Primal Proto-Whelp Scale.|US|
+C Primal Pests|QID|70123|M|83.59,36.12|Z|2022|QO|1|N|Primal Proto-drakes slain.|US|
 T Explorers in Peril|QID|70122|M|76.62,33.63|Z|2022|N|To Toddy Whiskers.|
 A Where is Wrathion?|QID|70125|PRE|70122|M|76.62,33.63|Z|2022|N|From Toddy Whiskers.|
 T Practice Materials|QID|70124|M|76.50,34.34|Z|2022|N|To Thaelin Darkanvil.|
 T Primal Pests|QID|70123|M|76.77,34.42|Z|2022|N|To Scalecommander Azurathel.|
 A Give Peace a Chance|QID|67053|PRE|70124&70123|M|76.74,34.55|Z|2022|N|From Captain Garrick.|
 T Give Peace a Chance|QID|67053|M|76.36,33.07|Z|2022|N|To Warlord Breka Grimaxe.|
-C Where is Wrathion?|QID|70125|M|76.36,33.07|Z|2022|QO|1|NC|N|Inquire after the missing dragons.|
 A Encroaching Elementals|QID|70135|PRE|67053|M|76.36,33.07|Z|2022|N|From Warlord Breka Grimaxe.|
+C Where is Wrathion?|QID|70125|M|76.58,33.67|Z|2022|QO|1|NC|N|'Talk to Sendrax and ask 'Why aren't the dragons here' and wait for dialogue to finish.|
+T Where is Wrathion?|QID|70125|M|76.57,33.66|Z|2022|N|To Sendrax.|
+A Excuse the Mess|QID|69911|M|76.57,33.66|Z|2022|N|From Sendrax.|
 A From Such Great Heights|QID|66101|PRE|67053|M|75.82,33.51|Z|2022|N|From Aster Cloudgaze.|
-C From Such Great Heights|QID|66101|M|75.91,33.55|Z|2022|QO|1|NC|N|Hop on the Surveyor's Disc.|
+C From Such Great Heights|QID|66101|M|75.91,33.55|Z|2022|QO|1|NC|N|Hop on the Surveyor's Disc right next to you.|
 C From Such Great Heights|QID|66101|M|76.32,33.69|Z|2022|QO|2|NC|N|Search for Power.|
 C From Such Great Heights|QID|66101|M|75.70,33.45|Z|2022|QO|3|NC|N|Search for Allies.|
 C From Such Great Heights|QID|66101|M|75.88,33.41|Z|2022|QO|4|NC|N|Search for Danger.|
 T From Such Great Heights|QID|66101|M|75.84,33.49|Z|2022|N|To Aster Cloudgaze.|
-T Where is Wrathion?|QID|70125|M|76.57,33.66|Z|2022|N|To Sendrax.|
-A Excuse the Mess|QID|69911|PRE|66101&70125|M|76.57,33.66|Z|2022|N|From Sendrax.|
 A Quality Assurance|QID|69965|PRE|66101&70125|M|76.41,34.45|Z|2022|N|From Haephesta.|
+A Without Purpose|QID|70148|M|76.41,34.45|Z|2022|N|From Haephesta.|
 A Always Be Crafting|QID|66112|PRE|66101&70125|M|76.36,34.63|Z|2022|N|From Grun Ashbeard.|
 f Wingrest Embassy|QID|66112|M|76.03,35.04|Z|2022|N|At Tixxa Mixxa.|
-C Excuse the Mess|QID|69911|M|76.34,35.65|Z|2022|QO|1|CHAT|N|Speak with Ambassador Fastrasz.|
-C Excuse the Mess|QID|69911|M|76.29,35.56|Z|2022|QO|2|NC|N|Embassy Visitor Log signed.|
+C Excuse the Mess|QID|69911|M|76.34,35.65|Z|2022|QO|1|CHAT|N|Speak with Ambassador Fastrasz and choose the quest chat option.|
+C Excuse the Mess|QID|69911|M|76.29,35.56|Z|2022|QO|2|NC|N|Embassy Visitor Log signed, next to you.|
 C Excuse the Mess|QID|69911|M|75.61,34.14|Z|2022|QO|3|NC|N|Welcome Message read.|
-C Always Be Crafting|QID|66112|M|75.01,39.20|Z|2022|QO|2|NC|N|Primal Earthen Core.|
+C Always Be Crafting|QID|66112|M|75.01,39.20|Z|2022|QO|2|NC|N|Primal Earthen Core.|S|
 C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022|QO|1|NC|N|Volcanic Geodes excavated.|
-C Encroaching Elementals|QID|70135|M|73.98,33.91|Z|2022|QO|1|N|Primal elementals slain.|
+C Encroaching Elementals|QID|70135|M|73.98,33.91|Z|2022|QO|1|N|Primal elementals slain.|US|
 C Always Be Crafting|QID|66112|M|73.15,33.01|Z|2022|QO|1|NC|N|Primal Molten Core.|
+C Always Be Crafting|QID|66112|M|75.01,39.20|Z|2022|QO|2|NC|N|Primal Earthen Core.|
 T Encroaching Elementals|QID|70135|M|76.37,33.07|Z|2022|N|To Warlord Breka Grimaxe.|
 T Quality Assurance|QID|69965|M|76.41,34.47|Z|2022|N|To Haephesta.|
 T Always Be Crafting|QID|66112|M|76.35,34.65|Z|2022|N|To Grun Ashbeard.|
 C Excuse the Mess|QID|69911|M|78.42,31.82|Z|2022|QO|4|NC|N|Brazier of Kinship relit.|
 T Excuse the Mess|QID|69911|M|76.58,33.66|Z|2022|N|To Sendrax.|
 A My First Real Emergency!|QID|69912|PRE|70135&69965&66112&69911|M|76.58,33.66|Z|2022|N|From Sendrax.|
-C My First Real Emergency!|QID|69912|M|76.58,33.66|Z|2022|QO|1|NC|N|Signal flare sent.|
-C My First Real Emergency!|QID|69912|M|76.22,34.33|Z|2022|QO|2|NC|N|Wait for the dragons' arrival.|
+C My First Real Emergency!|QID|69912|M|76.58,33.66|Z|2022|QO|1|NC|N|Signal flare sent (Speak to Sendrax).|
+C My First Real Emergency!|QID|69912|M|76.22,34.33|Z|2022|QO|2|NC|N|Wait for the dragons arrival.|
 T My First Real Emergency!|QID|69912|M|76.19,34.50|Z|2022|N|To Wrathion.|
 A The Djaradin Have Awoken|QID|69914|PRE|69912|M|76.22,34.51|Z|2022|N|From Majordomo Selistra.|
 C The Djaradin Have Awoken|QID|69914|M|76.27,34.53|Z|2022|QO|1|NC|N|Orders received from Majordomo Selistra.|
 T The Djaradin Have Awoken|QID|69914|M|76.27,34.40|Z|2022|N|To Sendrax.|
 A Reporting for Duty|QID|65760|PRE|69914|M|76.27,34.40|Z|2022|N|From Sendrax.|
 C Reporting for Duty|QID|65760|M|76.27,34.40|Z|2022|QO|1|NC|N|Ask Sendrax to lead you to the outpost.|
-C Reporting for Duty|QID|65760|M|71.30,40.52|Z|2022|QO|2|NC|N|Follow Sendrax to the outpost.|
+C Reporting for Duty|QID|65760|M|71.30,40.52|Z|2022|QO|2|NC|N|Follow Sendrax to the outpost /n/n You need to stay close to him or he will stop walking..|
 T Reporting for Duty|QID|65760|M|71.21,40.75|Z|2022|N|To Commander Lethanak.|
 A Invader Djaradin|QID|65989|PRE|65760|M|71.21,40.75|Z|2022|N|From Commander Lethanak.|
 A Deliver Whelps From Evil|QID|65990|PRE|65760|M|71.21,40.75|Z|2022|N|From Commander Lethanak.|
@@ -107,7 +111,6 @@ C Don't Be So Shellfish|QID|66106|M|74.72,42.21|Z|2022|QO|2|NC|N|Water-Infused S
 T Don't Be So Shellfish|QID|66106|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Quack For Help|QID|66196|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Sledgehammer of a Solution|QID|66108|M|74.41,42.14|Z|2022|N|To Ecologist Iskha.|
-A Djaradin Djustice|QID|65994|PRE|66106&66196&66108|M|68.44,39.10|Z|2022|
 C Time for a Reckoning|QID|65991|M|66.58,34.57|Z|2022|QO|1|NC|N|Wrathion met at Scalecracker Keep.|
 T Time for a Reckoning|QID|65991|M|66.36,34.99|Z|2022|N|To Wrathion.|
 A Killjoy|QID|65993|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
@@ -133,7 +136,7 @@ C Chasing Sendrax|QID|65997|M|55.15,24.89|Z|2022|QO|1|NC|N|Sendrax found.|
 T Chasing Sendrax|QID|65997|M|55.17,24.93|Z|2022|N|To Sendrax.|
 A Future of the Flights|QID|65998|PRE|65997|M|55.17,24.93|Z|2022|N|From Sendrax.|
 A Red in Tooth and Claw|QID|65999|PRE|65997|M|55.17,24.93|Z|2022|N|From Unknown.|
-A Library of Alexstrasza|QID|66000|PRE|65997|M|55.25,24.70|Z|2022|N|From Sendrax.|
+A Library of Alexstrasza|QID|66000|PRE|65997|M|55.25,24.70|Z|2022|N|From Book behind you.|
 A Firava the Rekindler|QID|70648|PRE|65997|M|55.60,24.84|Z|2022|N|From Sendrax.|
 C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|QO|1|U|194441|N|Firava the Rekindler slain.|
 T Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|
@@ -147,7 +150,7 @@ T Library of Alexstrasza|QID|66000|M|57.13,23.63|Z|2022|N|To Sendrax.|
 A A Last Hope|QID|66001|PRE|70648&65999&65998&66000|M|57.13,23.63|Z|2022|N|From Sendrax.|
 C A Last Hope|QID|66001|M|56.23,22.06|Z|2022|QO|1|NC|N|Meet Sendrax by the ritual site.|
 C A Last Hope|QID|66001|M|56.89,21.60|Z|2022|QO|2|NC|N|Pick up the Infused Dragon Egg.|
-C A Last Hope|QID|66001|M|55.07,30.62|Z|2022|QO|3|NC|N|Carry the egg to safety.|
+C A Last Hope|QID|66001|M|55.07,30.62|Z|2022|QO|3|NC|N|Carry the egg to safety. /n Do not mount or do anything but run to safety or you will drop the egg.|
 T A Last Hope|QID|66001|M|55.10,31.00|Z|2022|N|To Majordomo Selistra.|
 A For the Benefit of the Queen|QID|66114|PRE|66001|M|55.10,31.00|Z|2022|N|From Majordomo Selistra.|
 C For the Benefit of the Queen|QID|66114|M|62.26,72.88|Z|2022|QO|1|NC|N|Ride with Majordomo Selistra to the Ruby Lifeshrine.|
@@ -165,7 +168,6 @@ f Ruby Lifeshrine|QID|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
 T Dragonriding|QID|68795|M|57.66,66.89|Z|2022|N|To Lord Andestrasz.|
 A How to Glide with Your Dragon|QID|65118|PRE|66115&68795|M|57.66,66.89|Z|2022|N|From Lord Andestrasz.|
 C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|NC|N|Hop on your Renewed Proto-Drake mount (Optional).|
-A Stay a While|QID|70132|PRE|66115&68795|M|57.82,66.85|Z|2022|N|From Veritistrasz.|
 C How to Glide with Your Dragon|QID|65118|M|57.48,61.28|Z|2022|QO|2|NC|N|Glide Through The Rings.|
 C How to Glide with Your Dragon|QID|65118|M|57.38,59.17|Z|2022|QO|3|NC|N|Land in the Target Area.|
 T How to Glide with Your Dragon|QID|65118|M|57.46,59.09|Z|2022|N|To Celormu.|
@@ -185,6 +187,7 @@ C The Skytop Observatory|QID|68796|M|57.76,66.75|Z|2022|QO|1|CHAT|N|Speak with C
 A To Skytop Observatory|QID|72089|PRE|65133|M|57.76,66.75|Z|2022|N|From Celormu.|
 C The Skytop Observatory|QID|68796|M|73.24,55.56|Z|2022|QO|2|NC|N|Race to the Skytop Observatory.|
 T The Skytop Observatory|QID|68796|M|75.17,54.97|Z|2022|N|To Lord Andestrasz.|
+A Stay a While|QID|70132|PRE|66115&68795|M|57.82,66.85|Z|2022|N|From Veritistrasz.|
 A A New Set of Horns|QID|68797|PRE|68796|M|75.17,54.97|Z|2022|N|From Lord Andestrasz.|
 C A New Set of Horns|QID|68797|M|74.11,57.94|Z|2022|QO|1|NC|N|Meet Glensera in the Skytop Observatory.|
 C A New Set of Horns|QID|68797|M|74.03,58.13|Z|2022|QO|2|NC|N|Use the Rostrum of Transformation.|
@@ -207,8 +210,8 @@ C Training Wings|QID|70061|M|61.29,71.51|Z|2022|QO|2|N|Agitated Weedling slain.|
 T Training Wings|QID|70061|M|62.34,72.80|Z|2022|N|To Majordomo Selistra.|
 A Who Brought the Ruckus?|QID|66931|PRE|70061|M|62.35,73.01|Z|2022|N|From Alexstrasza the Life-Binder.|
 C Who Brought the Ruckus?|QID|66931|M|59.49,72.73|Z|2022|QO|1|NC|N|Commotion discovered.|
-L Level 62|QID|66931|LVL|62|N|You should be around level 62 by this point.|
 T Who Brought the Ruckus?|QID|66931|M|59.49,72.66|Z|2022|N|To Majordomo Selistra.|
+L Level 62|QID|66931|LVL|62|N|You should be around level 62 by this point.|
 A The Primary Threat|QID|66116|PRE|66931|M|59.49,72.66|Z|2022|N|From Majordomo Selistra.|
 C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|1|NC|N|Hop on a dragonriding mount (Optional).|
 C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|2|NC|N|Report to Commander Lethanak.|
@@ -239,8 +242,8 @@ T Wrathion Awaits|QID|66079|M|42.47,66.82|Z|2022|N|To Wrathion.|
 A Lessons from Our Past|QID|72241|PRE|66079|M|42.47,66.82|Z|2022|N|From Scalecommander Emberthal.|
 C Lessons from Our Past|QID|72241|M|42.47,66.82|Z|2022|QO|1|CHAT|N|Speak with Scalecommander Emberthal to learn of past events.|
 T Lessons from Our Past|QID|72241|M|42.46,66.80|Z|2022|N|To Scalecommander Emberthal.|
-A Best Plans and Intentions|QID|66048|PRE|72241|M|42.46,66.80|Z|2022|N|From Unknown.|
-A Sharp Practice|QID|66078|PRE|72241|M|42.47,66.84|Z|2022|
+A Best Plans and Intentions|QID|66048|PRE|72241|M|42.46,66.80|Z|2022|N|From Scalecommander Emberthal.|
+A Sharp Practice|QID|66078|PRE|72241|M|42.47,66.84|Z|2022|N|From Wrathion.|
 f Obsidian Bulwark|QID|66078|M|42.26,66.22|Z|2022|N|At Do-Yeon Shadowrider.|
 C Best Plans and Intentions|QID|66048|M|43.76,67.30|Z|2022|QO|2|CHAT|N|Archivist Edres consulted.|
 C Best Plans and Intentions|QID|66048|M|42.23,69.31|Z|2022|QO|3|CHAT|N|Talonstalker Kavia consulted.|
@@ -324,5 +327,4 @@ A Next Steppes|QID|65795|PRE|65794|M|61.57,68.54|Z|2022;The Waking Shores|N|From
 T Next Steppes|QID|65795|M|48.27,88.67|Z|2022;The Waking Shores|N|To Ambassador Taurasza.|
 A Into the Plains|QID|65779|PRE|65795|M|48.27,88.67|Z|2022;The Waking Shores|N|From Ambassador Taurasza.|
 ]]
-
 end)
