@@ -165,9 +165,9 @@ M [item=10559/Mithril Tube]|QID|202012589|P|Engineering;202;0+200;1|ITEM|10559|C
 = Learn [spell=12656/Artisan Engineering]|QID|202012656|P|Engineering;202;0+200|SPELL|Artisan Engineering;12656|LVL|35|N|Learn from Trainer in Major Cities, and some starting areas. (Once you get to an area that has a local trainer, an arrow will popup).|
 N Engineering Specialization|QID|202002001|P|Engineering;202;0+200|N|Once you reach 200 you can chose either Gnomish or Goblin Specialization.  The materials needed or Quests to unlock are NOT covered in this guide.|
 
-; Test Lines for either Goblin or Gnomish OR might have to use |AVAILIBLE| QIDs .... but need to FLIP  Gnome's QIDs |3641^3643|,  Goblin QID |3639|
-N TESTING|QID|2029920222|P|Engineering;202;0+200|SPELL|Goblin Engineer;20222;Flip|N|You have Goblin  Engineering!, PLEASE use Report step and put this in #WotLK-Bug-Report, this is a test step, and info is needed to fix this guide.|
-N TESTING|QID|2029920222|P|Engineering;202;0+200|SPELL|Gnomish Engineer;20219;Flip|N|You have Gnomish  Engineering!, PLEASE use Report step and put this in #WotLK-Bug-Report, this is a test step, and info is needed to fix this guide.|
+; Test Lines for either Goblin or Gnomish OR might have to use |AVAILIBLE| QIDs .... but need to FLIP  Gnome's QIDs |3643|,  Goblin QID |3639|
+N Gnomish Engineering|QID|2029920222|PRE|3639|P|Engineering;202;0+200|SPELL|Goblin Engineering;20222;Flip|N|You have Gnomish Engineering!|
+N Goblin Engineering|QID|2029920222|PRE|3643|P|Engineering;202;0+200|SPELL|Gnomish Engineering;20219;Flip|N|You have Goblin Engineering!|
 ; REMOVE these lines, when reported, IF it works.  NOTES will be on lines that need this info.
 
 = Learn Recipe|QID|202002001|P|Engineering;202;0+200|RECIPE|12591|N|Learn [spell=12591/Unstable Trigger] Recipe from Trainer.|
