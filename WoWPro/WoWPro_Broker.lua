@@ -2714,8 +2714,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         flyFlip = true
                     end
 					local eSkill = _G.GetSpellInfo(34090)
-					if WoWPro.WRATH then	
-						local aSkill = _G.GetSpellInfo(34091)
+					if WoWPro.WRATH then
 						if WoWProCharDB.Tradeskills[762].skillLvl >= 225 then
 							canFly = true
 						end
@@ -2753,7 +2752,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 							spellKnown = true
 						end
 					end
-					
+
                     if flyFlip then spellKnown = not spellKnown end
                     WoWPro:dbp("Checking fly step %s [%s] for %s: Nomen %s, Known %s",stepAction,step,WoWPro.fly[guideIndex],tostring(spellName),tostring(spellKnown))
                     if spellKnown then

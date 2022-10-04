@@ -274,7 +274,7 @@ if not WoWPro.RETAIL then
 
     -- generate a list of localized profession names via GetSpellInfo()
     WoWPro.ProfessionLocalNames = {}
-	WoWPro.ProfessionLocalNames["Riding"] = "Riding" 
+	WoWPro.ProfessionLocalNames["Riding"] = "Riding"
     for profName, spellID in pairs(WoWPro.ProfessionSpellIDs) do
         local localName = _G.GetSpellInfo(spellID)
         if localName ~= nil then
